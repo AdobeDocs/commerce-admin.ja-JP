@@ -3,9 +3,9 @@ title: 共有： [!DNL Commerce] アカウント
 description: 制限付きアクセスを許可する方法を学ぶ [!DNL Commerce] その他の [!DNL Commerce] アカウント所有者。
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 4c16436d9fd756ed33ca4b90924be58714f971d4
+source-git-commit: 11b2f3f9558bf5a36199015247fb96d559bb5fdc
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,9 @@ The [!DNL Commerce] サポートチームはアカウントへのアクセス権
 
 ## 共有アカウントの設定
 
-1. 開始する前に、次の情報を [!DNL Commerce] のアカウント **新規ユーザー**:
+1. 開始する前に、次の情報を [!DNL Commerce] のアカウント **新しい共有アクセス権付与者**:
 
+   - ユーザーは、既にaccount.adobe.comのアカウントに登録し、account.magento.comからログインしている必要があります。
    - The `Account ID` の左上隅に表示される _[!UICONTROL Magento]_タブ、ちょうど上&#x200B;**ログアウト**リンク。
    - The `Email` アカウントに関連付けられているアドレス。
 
