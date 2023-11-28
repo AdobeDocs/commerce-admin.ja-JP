@@ -1,0 +1,48 @@
+---
+title: '[!UICONTROL General] &gt; [!UICONTROL Reports]'
+description: 次のページで設定を確認します： [!UICONTROL General] &gt; [!UICONTROL Reports] コマース管理のページ。
+exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
+feature: Configuration, Admin Workspace, Reporting
+source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 1%
+
+---
+
+# [!UICONTROL General] > [!UICONTROL Reports]
+
+{{config}}
+
+## [!UICONTROL Dashboard]
+
+![ダッシュボード](./assets/reports-dashboard.png)<!-- zoom -->
+
+<!-- [Dashboard](https://docs.magento.com/user-guide/stores/admin-dashboard.html) -->
+
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+|--- |--- |--- |
+| [!UICONTROL Year-to-Date Starts] | グローバル | 年度累計の計算に使用する月と日を指定します。 |
+| [!UICONTROL Current Month Starts] | グローバル | 現在の月の始まりを示す計算に使用する月の日付を指定します。 |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL General Options]
+
+![一般オプション](./assets/reports-general-options.png)<!-- zoom -->
+
+>[!NOTE]
+>
+>ビジネス関数でレポートが必要ない場合は、レポート機能を無効にしてストアのパフォーマンスを高めることをお勧めします。 ただし、動的な顧客セグメントなどの一部の機能は、適切に機能するためにレポートデータに依存しています。
+
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+|--- |--- |--- |
+| [!UICONTROL Enable Reports] | グローバル | レポートイベントを有効または無効にします。 |
+| [!UICONTROL Enable "Product View" Report] | グローバル | 表示された製品ページの統計の収集を有効または無効にします。 |
+| [!UICONTROL Enable "Send Product Link To Friend" Report] | グローバル | 友達に送信された製品リンクの統計のコレクションを有効または無効にします。 |
+| [!UICONTROL Enable "Add Product To Compare List" Report] | グローバル | 比較リストに追加された製品の統計の収集を有効または無効にします。 |
+| [!UICONTROL Enable "Product Added To Cart" Report] | グローバル | 買い物かごに追加された製品の統計の収集を有効または無効にします。 |
+| [!UICONTROL Enable "Product Added To Wishlist" Report] | グローバル | ウィッシュリストに追加された製品の統計の収集を有効または無効にします。 |
+| [!UICONTROL Enable "Share WishList" Report] | グローバル | 共有ウィッシュリストの統計の収集を有効または無効にします。 |
+
+{:style=&quot;table-layout:auto&quot;}
