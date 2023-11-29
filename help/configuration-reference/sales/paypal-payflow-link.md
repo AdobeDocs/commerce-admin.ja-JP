@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL P
 description: 設定を確認するには、 [!UICONTROL PayPal Payflow Link] のセクション [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] コマース管理のページ。
 exl-id: 5ea30b22-e251-4d93-be2c-d34138ef2f7d
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1330'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Express Checkout] | Web サイト | PayPal Express Checkout をお客様が支払い方法として利用できるかどうかを指定します。 |
 | [!UICONTROL Enable PayPal Credit] | Web サイト | PayPal クレジットをお客様が支払いオプションとして利用できるかどうかを指定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advertise PayPal Credit]
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Product Page] | Web サイト | の位置とサイズを決定します。 [!DNL PayPal Credit] 製品ページのバナー。 オプション： （の場合と同じ） [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | Web サイト | の位置とサイズを決定します。 [!DNL PayPal Credit] 買い物かごページのバナー。 オプション： （の場合と同じ） [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Basic Settings]
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 | [!UICONTROL Sort Order] | ストア表示 | チェックアウト時に他の支払い方法と共にリストされた場合に PayPal Payflow リンクが表示される順序を決定する数値です。 |
 | [!UICONTROL Payment Action] | Web サイト | 注文が送信されたときに PayPal が実行するアクションを決定します。 オプション： <br/>**`Authorization`**・買い付けを承認するが、資金を保留する。 その金額は、商人によって「取り込まれる」まで引き落とされません。<br/>**`Sale`**  — 購入金額は、お客様のアカウントから承認され、直ちに取り下げられます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Advanced Settings]
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 | [!UICONTROL Send Email Confirmation] | Web サイト | 顧客が支払いの確認を電子メールで受け取るかどうかを決定します。 オプション： `Yes` / `No` |
 | [!UICONTROL URL Method for Cancel  URL and Return URL] | Web サイト | トランザクション中に PayPal サーバーと情報を交換するために使用する方法を決定します。 オプション： <br/>**`GET`**— プロセスの結果である情報を取得します。 （これはデフォルトのメソッドです）。<br/>**`POST`**  — フォームに入力されたデータなど、データブロックをデータ処理プロセスに送信します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Settlement Report Settings]
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 | [!UICONTROL Schedule] | グローバル | PayPal によって決済レポートが生成される頻度を決定します。 オプション： `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
 | [!UICONTROL Time of Day] | グローバル | 決済レポートが生成される時間、分、秒を決定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Frontend Experience Settings]
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 | [!UICONTROL Header Image Border Color] | ストア表示 | ヘッダーの周囲の 2 ピクセル境界線に対する 6 文字の 16 進カラーコードです。 |
 | [!UICONTROL Page Background Color] | ストア表示 | ヘッダーと支払いフォームの後ろに表示されるチェックアウトページの背景色の 6 文字の 16 進数カラーコードです。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Basic Settings - PayPal Express Checkout]
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Action] | Web サイト | PayPal が注文を受け取ったときに実行するアクションを決定します。 オプション： <br/>**`Authorization`**・買い付けを承認するが、資金を保留する。 その金額は、商人によって「取り込まれる」まで引き落とされません。<br/>**`Sale`**  — 購入金額は、お客様のアカウントから承認され、直ちに取り下げられます。 <br/>**`Order`**— 定義された期間内に、マーチャントが顧客の購入者アカウントから注文済みの合計金額までを取得できる PayPal との契約を表します。 これは最大 29 日間です。 資金を取り込むには、1 つ以上の請求書をコマース管理者から生成する必要があります。 |
 | [!UICONTROL URL Display on Product Details Page] | ストア表示 | 「PayPal でのチェックアウト」ボタンを製品ページに表示するかどうかを指定します。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Advanced Settings - PayPal Express Checkout]
 
@@ -144,4 +144,4 @@ ht-degree: 0%
 | [!UICONTROL Transfer Cart Line Items] | Web サイト | PayPal サイト上の顧客の買い物かごからの行項目の完全な概要を表示します。 オプション： `Yes` / `No` |
 | [!UICONTROL Skip Order Review Step] | Web サイト | 顧客が PayPal サイトからトランザクションを完了できるか、またはストアに戻って注文を送信する前に注文の確認手順を完了する必要があるかを指定します。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

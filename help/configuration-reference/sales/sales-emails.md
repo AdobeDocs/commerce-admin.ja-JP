@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales Emails]'
 description: 次のページで設定を確認します： [!UICONTROL Sales] &gt; [!UICONTROL Sales Emails] コマース管理のページ。
 exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 feature: Configuration, Communications
-source-git-commit: 74cc15bd7e0873705b46175ae5f277b1753ec5b5
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2331'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Asynchronous sending] | グローバル | セールス E メールを非同期で送信するかどうかを指定します。 非同期送信を有効にすることをお勧めします。 オプション： <br/>**`Disable`**- （デフォルト）イベントでトリガーされた場合、セールス電子メールが送信されます。<br/>**`Enable`** - （推奨）セールス E メールは、事前に定期的な間隔で送信されます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL Send Order Email Copy To] | ストア表示 | 注文の電子メールのコピーを受け取る人の電子メールアドレスを指定します。 複数のアドレスを指定する場合は、コンマで区切ります。 |
 | [!UICONTROL Send Order Email Copy Method] | ストア表示 | コピーの送信に使用する電子メールメソッドを示します。 オプションは次のとおりです。 <br/>**`Bcc`**— 顧客に送信されるのと同じ E メールのヘッダーに受信者を含めて、非表示の提供コピーを送信します。 BCC 受信者は、顧客に対して表示されません。<br/>**`Separate Email`**  — コピーを別の E メールとして送信します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Comments]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 | [!UICONTROL Send Order Email Copy To|Store View] | 注文のコメント電子メールのコピーを受け取る人の電子メールアドレスを指定します。 複数のアドレスを指定する場合は、コンマで区切ります。 |
 | [!UICONTROL Send Order Email Copy Method] | ストア表示 | コピーの送信に使用するメソッドを示します。 オプションは次のとおりです。 <br/>**`Bcc`**— 顧客に送信されるのと同じ E メールのヘッダーに受信者を含めて、非表示の提供コピーを送信します。 BCC 受信者は、顧客に対して表示されません。<br/>**`Separate Email`**  — コピーを別の E メールとして送信します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice]
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 | [!UICONTROL Send Invoice Email Copy To] | ストア表示 | 請求書の電子メールのコピーを受け取る人の電子メールアドレスを指定します。 複数のアドレスを指定する場合は、コンマで区切ります。 |
 | [!UICONTROL Send Invoice Email Copy Method] | ストア表示 | コピーの送信に使用するメソッドを示します。 オプションは次のとおりです。 <br/>**`Bcc`**— 顧客に送信されるのと同じ E メールのヘッダーに受信者を含めて、非表示の提供コピーを送信します。 BCC 受信者は、顧客に対して表示されません。<br/>**`Separate Email`**  — コピーを別の E メールとして送信します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice Comments]
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 | [!UICONTROL Send Invoice Comment Email Copy To] | ストア表示 | 請求書コメント電子メールのコピーを受け取る人の電子メールアドレスを指定します。 複数のアドレスを指定する場合は、コンマで区切ります。 |
 | [!UICONTROL Send Invoice Comments Email Copy Method] | ストア表示 | コピーの送信に使用する電子メールメソッドを示します。 オプションは次のとおりです。 <br/>**`Bcc`**— 顧客に送信されるのと同じ E メールのヘッダーに受信者を含めて、非表示の提供コピーを送信します。 BCC 受信者は、顧客に対して表示されません。<br/>**`Separate Email`**  — コピーを別の E メールとして送信します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment]
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 | [!UICONTROL Send Shipment Email Copy To] | ストア表示 | 発送メールのコピーを受け取る必要のあるすべての人の電子メールアドレスを指定します。 複数のアドレスを指定する場合は、コンマで区切ります。 |
 | [!UICONTROL Send Shipment Email Copy Method] | ストア表示 | コピーの送信に使用するメソッドを示します。 オプションは次のとおりです。 <br/>**`Bcc`**— 顧客に送信されるのと同じ E メールのヘッダーに受信者を含めて、非表示の提供コピーを送信します。 BCC 受信者は、顧客に対して表示されません。<br/>**`Separate Email`**  — コピーを別の E メールとして送信します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment Comments]
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Send Shipment Comment Email Copy To] | ストア表示 | 発送コメントの電子メールのコピーを受け取る人の電子メールアドレスを提供します。 複数のアドレスを指定する場合は、コンマで区切ります。 |
 | [!UICONTROL Send Shipment Comments Email Copy Method] | ストア表示 | コピーの送信に使用する電子メールメソッドを示します。 オプションは次のとおりです。 <br/>**`Bcc`**— 顧客に送信されるのと同じ E メールのヘッダーに受信者を含めて、非表示の提供コピーを送信します。 BCC 受信者は、顧客に対して表示されません。<br/>**`Separate Email`**  — コピーを別の E メールとして送信します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo]
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 | [!UICONTROL Send Credit Memo Email Copy To] | ストア表示 | クレジットメモの電子メールのコピーを受け取る必要のある人の電子メールアドレスを指定します。 複数のアドレスを指定する場合は、コンマで区切ります。 |
 | [!UICONTROL Send Credit Memo Email Copy Method] | ストア表示 | コピーの送信に使用するメソッドを示します。 オプションは次のとおりです。 <br/>**`Bcc`**— 顧客に送信されるのと同じ E メールのヘッダーに受信者を含めて、非表示の提供コピーを送信します。 BCC 受信者は、顧客に対して表示されません。<br/>**`Separate Email`**  — コピーを別の E メールとして送信します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo Comments]
 
@@ -160,7 +160,7 @@ ht-degree: 0%
 | [!UICONTROL Send Credit Memo Comment Email Copy To] | ストア表示 | クレジットメモコメントの電子メールのコピーを受け取る人の電子メールアドレスを指定します。 複数のアドレスを指定する場合は、コンマで区切ります。 |
 | [!UICONTROL Send Credit Memo Comments Email Copy Method] | ストア表示 | コピーの送信に使用する電子メールメソッドを示します。 オプションは次のとおりです。 <br/>**`Bcc`**— 顧客に送信されるのと同じ E メールのヘッダーに受信者を含めて、非表示の提供コピーを送信します。 BCC 受信者は、顧客に対して表示されません。<br/>**`Separate Email`**  — コピーを別の E メールとして送信します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Ready For Pickup in Store]
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 | 受け取り用のメールコピーを次に送信： | ストア表示 | のコピーを受け取る人の電子メールアドレスを指定します _受け取り準備完了_ 電子メール。 複数のアドレスを指定する場合は、コンマで区切ります。 |
 | [!UICONTROL Send Order Ready For Pickup Email Copy Method] | ストア表示 | コピーの送信に使用する電子メールメソッドを示します。 オプション： <br/>**`Bcc`**— 顧客に送信されるのと同じ E メールのヘッダーに受信者を含めて、非表示の提供コピーを送信します。 BCC 受信者は、顧客に対して表示されません。<br/>**`Separate Email`**  — コピーを別の E メールとして送信します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Purchase Order Approval]
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 | [!UICONTROL Error creating Order from Purchase Order (to Buyer)] | ストア表示 | 発注書を注文に変換する際にエラーが発生したことを作成者に通知します。 |
 | [!UICONTROL Purchase Order required Approval (to Approver)] | ストア表示 | 電子メールを送信して、発注で承認が必要なことを承認者に通知します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Quote]
 
@@ -219,7 +219,7 @@ ht-degree: 0%
 | [!UICONTROL Send Quote Email Copy To] | ストア表示 | 見積もりメールのコピーを受け取る各人の電子メールアドレスを指定します。 複数のアドレスを指定する場合は、コンマで区切ります。 |
 | [!UICONTROL Send Quote Email Copy Method] | ストア表示 | コピーの送信に使用する電子メールメソッドを示します。 オプションは次のとおりです。 <br/>**`Bcc`**— 顧客に送信されるのと同じ E メールのヘッダーに受信者を含めて、非表示の提供コピーを送信します。 BCC 受信者は、顧客に対して表示されません。<br/>**`Separate Email`**  — コピーを別の E メールとして送信します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA]
 
@@ -238,7 +238,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Email Copy To] | ストア表示 | RMA E メールのコピーを受け取る必要がある人の E メールアドレスを指定します。 複数のアドレスを指定する場合は、コンマで区切ります。 |
 | [!UICONTROL Send RMA  Email Copy Method] | ストア表示 | コピーの送信に使用する電子メールメソッドを示します。 オプションは次のとおりです。 <br/>**`Bcc`**— 顧客に送信されるのと同じ E メールのヘッダーに受信者を含めて、非表示の提供コピーを送信します。 BCC 受信者は、顧客に対して表示されません。<br/>**`Separate Email`**  — コピーを別の E メールとして送信します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Authorization]
 
@@ -257,7 +257,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Authorization Email Copy To] | ストア表示 | RMA 承認 E メールのコピーを受け取る人の E メールアドレスを指定します。 複数のアドレスを指定する場合は、コンマで区切ります。 |
 | [!UICONTROL Send RMA Authorization Email Copy Method] | ストア表示 | コピーの送信に使用する電子メールメソッドを示します。 オプションは次のとおりです。 <br/>**`Bcc`**— 顧客に送信されるのと同じ E メールのヘッダーに受信者を含めて、非表示の提供コピーを送信します。 BCC 受信者は、顧客に対して表示されません。<br/>**`Separate Email`**  — コピーを別の E メールとして送信します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Admin Comments]
 
@@ -274,7 +274,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Comment Email Copy To] | ストア表示 | 通知のコピーを受け取る人の電子メールアドレスを指定します。 複数のアドレスを指定する場合は、コンマで区切ります。 |
 | [!UICONTROL Send RMA Comments Email Copy Method] | ストア表示 | コピーの送信に使用する電子メールメソッドを示します。 オプションは次のとおりです。 <br/>**`Bcc`**— 顧客に送信されるのと同じ E メールのヘッダーに受信者を含めて、非表示の提供コピーを送信します。 BCC 受信者は、顧客に対して表示されません。<br/>**`Separate Email`**  — コピーを別の E メールとして送信します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Customer Comments]
 
@@ -293,4 +293,4 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Comment Email Copy To] | ストア表示 | 通知のコピーを受け取る人の電子メールアドレスを指定します。 複数のアドレスを指定する場合は、コンマで区切ります。 |
 | [!UICONTROL Send RMA Comments Email Copy Method] | ストア表示 | コピーの送信に使用する電子メールメソッドを示します。 オプションは次のとおりです。 <br/>**`Bcc`**— 顧客に送信されるのと同じ E メールのヘッダーに受信者を含めて、非表示の提供コピーを送信します。 BCC 受信者は、顧客に対して表示されません。<br/>**`Separate Email`**  — コピーを別の E メールとして送信します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

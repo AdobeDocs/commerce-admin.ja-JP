@@ -2,9 +2,9 @@
 title: 設定範囲
 description: コマース管理で設定の範囲を設定する方法について説明します。
 exl-id: b7b87ac5-dc7d-472f-af24-52b4d12e46c5
-source-git-commit: eb61d90c0a3bf5cac976fc8b79b23dc717aca3e6
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 | [!UICONTROL Default Store View] | 親ストアに関連付けられているデフォルトのストア表示の名前。 |
 | [!UICONTROL Stores Configuration] | 「店舗」グリッドにジャンプします。これは、を選択した場合と同じです。 [!UICONTROL Stores] > [!UICONTROL All Stores] 管理者サイドバーから。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![「Use System Value」チェックボックスがオンになっている](./assets/store-view-control.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ The _[!UICONTROL Use System Value]_多くの設定の右側にあるチェック
 | [!UICONTROL Use Default] | このチェックボックスは、構成範囲が [ メイン ] に設定されている場合に表示されます。 `Website`とは、Web サイトに割り当てられるデフォルトのストアを指します。 |
 | [!UICONTROL Use Website] | このチェックボックスは、構成範囲が特定のストア表示に設定された場合に表示されます。 選択すると、ストア表示に関連付けられている親 Web サイトの設定が使用されます。 この場合、ストアレベルは、Web サイトに関連付けられているデフォルトのストアに適用されると理解されるので、スキップされます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 範囲の設定
 
@@ -94,4 +94,4 @@ The _[!UICONTROL Use System Value]_多くの設定の右側にあるチェック
 | 言語 | 複数の言語をサポートするには、製品の説明を含むすべてのコンテンツが、 [翻訳済み](../stores-purchase/store-localize.md#localize-products) 各ストア表示に対して |
 | 通貨を表示 | 別の [通貨を表示](../stores-purchase/currency-configuration.md) は各ストア表示に使用できますが、トランザクションは基本通貨を使用して web サイトレベルで処理されます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

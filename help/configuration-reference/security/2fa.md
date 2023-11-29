@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: 次のページで設定を確認します： [!UICONTROL Security] &gt; [!UICONTROL 2FA] コマース管理のページ。
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 | [!UICONTROL Providers to use] | グローバル | 必要な 2 要素認証方式を示します。 複数のプロバイダーを選択した場合、各ユーザーは次回ログイン時に各 2FA メソッドを設定する必要があります。 |
 | [!UICONTROL Configuration Email URL for Web API] | グローバル | カスタム実装の場合、に送信される代替電子メール設定リンクの URL _管理者_ 初回ログイン時のユーザー。 E メールテンプレートで、プレースホルダーを使用します。 `:tfat` を使用して、トークンが挿入される場所を示します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google]
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL OTP Window] | グローバル | Google Authenticator で生成される各 1 回限りのパスワード (OTP) の有効期間（秒）です。 デフォルト： `30` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Duo Security]
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 | [!UICONTROL Secret Key] | グローバル | 次の秘密鍵： [!DNL Duo Security] アカウント。 |
 | [!UICONTROL API Hostname] | グローバル | 次の API ホスト名 [!DNL Duo Security] アカウント。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Authy]
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 | [!UICONTROL API Key] | グローバル | の API キー [!DNL Authy] アカウント。 |
 | [!UICONTROL OneTouch Message] | グローバル | メッセージが [!DNL Authy] ログイン時の認証子。 デフォルト： `Login request to your Magento Admin` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL U2F Key]
 
@@ -72,4 +72,4 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL WebApi Challenge Domain] | グローバル | 発行および処理に使用されるドメイン [!DNL WebAuthn] カスタム WebAPI 実装の課題。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

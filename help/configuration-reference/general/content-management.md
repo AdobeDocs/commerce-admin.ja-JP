@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Content Management]'
 description: 次のページで設定を確認します： [!UICONTROL General] &gt; [!UICONTROL Content Management] コマース管理のページ。
 exl-id: 67c5e89b-0a7c-4e4f-a5ad-10376c3ef6f9
 feature: Configuration, Page Content
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: 5eef49c10680a47574afe3d3ecfa430dca7ad9ff
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 | [!UICONTROL WYSIWYG Editor] | Web サイト | WYSIWYG エディタに使用する TinyMCE エディタのバージョンを決定します。 オプション： <br/>**`TinyMCE 5`**- （デフォルト）デフォルトの WYSIWYG エディタとして TinyMCE バージョン 5 を使用します。<br><br>_**&#x200B;注意：**_Adobe CommerceとMagento Open Source2.4.5 の TinyMCE 5.10 ライブラリが更新され、一部の種類の URL を使用して画像やリンクを更新する際に、任意の JavaScript が実行される脆弱性が解決されました。 TinyMCE 3 は 2.4.0 リリースで廃止され、2.4.3 リリースで削除されました。 TinyMCE 4 は 2.4.4 リリースで削除されました。 |
 | [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | グローバル | 次の場合に決定 [静的 URL](../../content-design/catalog-urls-dynamic-media.md) は、WYSIWYG エディターから参照されるメディアコンテンツに対して使用されます。 この設定は、製品、カテゴリ、ページ、ブロックなど、WYSIWYG エディターが使用可能なすべての場所に適用されます。 オプション： <br/>**`Yes`**- WYSIWYG エディターで挿入されるメディアコンテンツに静的 URL を使用します。 静的 URL は絶対 URL で、 [ベース URL](../../stores-purchase/store-urls.md) 」という名前に変更されます。<br/>**`No`** （デフォルト） — WYSIWYG エディターで挿入されるメディアコンテンツの動的 URL を、  `{{media url="..."}}` ディレクティブ。 動的 URL は相対 URL で、ストアのベース URL が変更されても壊れません。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CMS Page Hierarchy]
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Hierarchy Metadata] | グローバル | 階層内のページにメタデータを関連付けることができます。 オプション： `Yes` / `No` |
 | [!UICONTROL Default Layout for Hierarchy Menu] | グローバル | 既定のメニュースタイルを決定します。 オプション： `Content` / `Left Column` / `Right Column` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Content Tools]
 
@@ -60,10 +60,8 @@ ht-degree: 0%
 | [!UICONTROL Default Column Grid Size] | グローバル | 列の既定の数を指定します。 [!DNL Page Builder] グリッド。 |
 | [!UICONTROL Maximum Column Grid Size] | グローバル | 列の最大数を決定します。 [!DNL Page Builder] グリッド。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!TIP]
 >
 >Page Builder を使用すると、視覚的なストーリーテリングを強化し、顧客のエンゲージメントと忠誠度を高めるカスタムレイアウトで、コンテンツに富んだページを簡単に作成できます。 これらの機能は、品質を向上し、カスタムページの作成に要する時間とコストを削減するように設計されています。 これらの機能、およびそれらを使用してAdobe CommerceやMagento Open Sourceストアの魅力的なコンテンツを作成する方法について詳しくは、 [_Page Builder ユーザーガイド_](../../page-builder/guide-overview.md).
-
-{:style=&quot;table-layout:auto&quot;}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Promotions]'
 description: 次のページで設定を確認します： [!UICONTROL Customers] &gt; [!UICONTROL Promotions] コマース管理のページ。
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Email Send Failure Threshold] | グローバル | リマインダーが特定の電子メールアドレスに通知を送信しようとして失敗した回数。 値を 0 に設定すると、しきい値はなく、エラーが発生した場合でも通知は引き続き送信されます。 |
 | [!UICONTROL Reminder Email Sender] | ストア表示 | E メールの送信者として表示されるストア ID。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Auto Generated Specific Coupon Codes]
 
@@ -48,4 +48,4 @@ ht-degree: 0%
 | [!UICONTROL Code Suffix] | グローバル | すべてのコードの末尾に追加される値です。 サフィックスを使用しない場合は、このフィールドを空白のままにします。 |
 | [!UICONTROL Dash Every X Characters] | グローバル | すべてのクーポンコードにダッシュ (-) を挿入する間隔。 ダッシュを使用しない場合は、このフィールドを空白のままにします。 <br/>_**注意：**_ ダッシュ以外のクーポンコードは、異なるコードと見なされます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

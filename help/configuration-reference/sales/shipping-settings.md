@@ -3,10 +3,10 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings]'
 description: 次のページで設定を確認します： [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] コマース管理のページ。
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 feature: Configuration, Shipping/Delivery
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 1%
+source-wordcount: '97'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 | [!UICONTROL Street Address] | Web サイト | POO（接触チャネル）の住所。 |
 | [!UICONTROL Street Address Line 2] | Web サイト | 必要に応じて、POO（接触チャネル）住所の追加の行。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipping Policy Parameters]
 
@@ -40,4 +40,4 @@ ht-degree: 1%
 | [!UICONTROL Apply Custom Shipping Policy] | Web サイト | チェックアウト時に配送ポリシーを表示するかどうかを指定します。 オプション： `Yes` / `No` |
 | [!UICONTROL Shipping Policy] | ストア表示 | 送料ポリシーをテキストとして含みます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

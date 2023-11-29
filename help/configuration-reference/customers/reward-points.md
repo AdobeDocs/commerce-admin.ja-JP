@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: 次のページで設定を確認します： [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] コマース管理のページ。
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | グローバル | 返金額から報酬ポイントを自動的に差し引くかどうかを指定します。 オプション： `Yes` / `No`. |
 | [!UICONTROL Landing Page] | ストア表示 | 報酬ポイントプログラムを説明する CMS ページを指定します。 デフォルトの報酬ページへのリンクがストア内のポイントを獲得できる場所に表示されます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!UICONTROL Review Submission] | Web サイト | 公開の承認を得たレビューを送信した顧客が獲得したポイント数を決定します。 |
 | [!UICONTROL Rewarded Reviews Submission Quantity Limit] | Web サイト | 顧客ごとのポイント獲得に使用できるレビューの数を制限します。 制限なしの場合は空白のままにします。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Notification Settings]
 
@@ -76,4 +76,4 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expiry Warning Email] | ストア表示 | ポイントのバッチで有効期限の警告制限に達した場合に顧客が受け取る E メールのテンプレートを決定します。 デフォルトのテンプレート： `Reward Points Expiry Warning` |
 | [!UICONTROL Expiry Warning before (days)] | グローバル | 通知を送信するポイントの有効期限までの日数を指定します。 有効期限通知を送信しない場合は空白のままにします。 入力した日数が残りの期間を超える場合、通知は送信されません。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

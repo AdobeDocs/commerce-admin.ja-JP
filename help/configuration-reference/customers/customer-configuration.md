@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers]  &gt; [!UICONTROL Customer Configuration]'
 description: 次のページで設定を確認します： [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] コマース管理のページ。
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Share Customer Accounts] | グローバル | ストア階層の顧客アカウントの範囲を決定します。 オプション： <br/>**`Global`**— 顧客アカウント情報は、すべての Web サイトと共有され、コマースインストールに保存されます。<br/>**`Per Website`**  — 顧客アカウント情報は、アカウントが作成された Web サイトに限定されます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Online Customers Options]
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Online Minutes Interval] | グローバル | 顧客のオンラインアクティビティが管理者からアクセス可能になる期間を決定します。 デフォルトの間隔を 15 分にする場合は空のままにします。 |
 | [!UICONTROL Customer Data Lifetime] | グローバル | 顧客が入力した未保存のデータの有効期限が切れるまでの時間を分単位で指定します。 デフォルトでは、未保存のデータは 60 分後に期限切れになります。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Create New Account Options]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Welcome Email] | ストア表示 | アカウントの確認後に送信されるお知らせメッセージに使用される電子メールテンプレートを識別します。 |
 | [!UICONTROL Generate Human-Friendly Customer ID] | グローバル | VAT ID 番号の入力と保存に使用されるフィールドをストアフロントで表示するかどうかを指定します。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Password Options]
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Password Length] | グローバル | 1 つのパスワードで使用できる最小文字数を指定します。 0 より大きい数値 (`0`) をクリックします。 |
 | [!UICONTROL Lockout Time (minutes)] | グローバル | ログインに失敗した回数が多すぎた後に、顧客アカウントがロックされる時間（分）を指定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Account Information Options]
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 | [!UICONTROL Change Email Template] | ストア表示 | 顧客が電子メールアドレスを変更する際に使用されるデフォルトの電子メールテンプレートを識別します。 |
 | [!UICONTROL Change Email and Password Template] | ストア表示 | 顧客が電子メールアドレスとパスワードを変更する際に使用されるデフォルトの電子メールテンプレートを識別します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Name and Address Options]
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Show Company] | Web サイト | 顧客の会社を名前および住所フォームに含めるかどうかを指定します。 オプション： `No` / `Optional` / `Required` |
 | [!UICONTROL Show Fax] | Web サイト | お客様の FAX 番号を名前と住所のフォームに含めるかどうかを指定します。 オプション： `No` / `Optional` / `Required` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Adobe Commerce Options
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 | [!UICONTROL Show Company] | Web サイト | 顧客の会社を名前および住所フォームに含めるかどうかを指定します。 オプション： `No` / `Optional` / `Required` |
 | [!UICONTROL Show Fax] | Web サイト | お客様の FAX 番号を名前と住所のフォームに含めるかどうかを指定します。 オプション： `No` / `Optional` / `Required` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Credit Options]
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 | [!UICONTROL Store Credit Update Email Sender] | ストア表示 | 顧客に送信されるクレジット更新通知の送信者として表示されるストア ID を決定します。 |
 | [!UICONTROL Store Credit Update Email Template] | ストア表示 | クレジットの更新に使用する電子メールテンプレートを決定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Login Options]
 
@@ -174,7 +174,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Redirect Customer to Account Dashboard after Logging in] | Web サイト | 顧客が自分のアカウントにログインした後の処理を決定します。 顧客をアカウントダッシュボードにリダイレクトするには、「 `Yes`. オプション： <br/>**`Yes`**— 顧客がアカウントにログインすると、アカウントダッシュボードが表示されます。<br/>**`No`** ：顧客は、アカウントにログインした後も買い物を続行できます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Address Templates]
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 | [!UICONTROL HTML] | ストア表示 | このテンプレートは、 _顧客アドレス_ 領域 ([!UICONTROL Customers] > [!UICONTROL Manage Customers]) をクリックします。 これは、 _新しいアドレスを追加_ ページに表示されます。 |
 | [!UICONTROL PDF] | ストア表示 | テンプレートは、印刷された請求書、出荷およびクレジット・メモに含まれる請求先住所と出荷先住所の表示を定義します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer Segments]
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Customer Segment Functionality] | グローバル | 顧客セグメントを使用してターゲットを絞ったプロモーションを作成できるかどうかを指定します。 オプション： `Yes` / `No` |
 | [!UICONTROL Real-time Check if Customer is Matched by Segment] | グローバル | 顧客セグメントをリアルタイムで検証するかどうかを決定します。 オプション： <br/>**[!UICONTROL Yes]**：顧客セグメントは、リアルタイムで検証されます（デフォルト値）。<br/>**[!UICONTROL No]** ：顧客セグメントは、単一の結合条件 SQL クエリで検証されます。 これにより、システムに多数の顧客セグメントがある場合の、セグメント検証のパフォーマンスが向上します。 ただし、分割データベースの場合や、登録されている顧客がいない場合は、検証は機能しません。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CAPTCHA]
 
@@ -224,4 +224,4 @@ ht-degree: 0%
 | [!UICONTROL Symbols Used in CAPTCHA] | Web サイト | CAPTCHA に表示される文字（a ～ z および A ～ Z）と数字 (0 ～ 9) を決定します。 他のシンボルと区別しにくいシンボル（例： ） `i`, `l`または `1`のデフォルトの CAPTCHA 記号セットには含まれていません。 |
 | [!UICONTROL Case Sensitive] | Web サイト | CAPTCHA 文字で大文字と小文字が区別されるかどうかを指定します。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

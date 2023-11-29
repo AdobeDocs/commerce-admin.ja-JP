@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists]'
 description: 次のページで設定を確認します： [!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists] コマース管理のページ。
 exl-id: 3720d9de-a5cc-4c44-a42a-af7409021f52
 feature: Configuration, B2B
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,4 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Number of Requisition Lists] | ストア表示 | 顧客アカウントごとに維持可能な購買依頼リストの最大数を決定します。 最小数は次のとおりです。 `2`の場合、最大数は `999`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

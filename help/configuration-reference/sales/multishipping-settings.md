@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings]'
 description: 次のページで設定を確認します： [!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings] コマース管理のページ。
 exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
 feature: Configuration, Shipping/Delivery
-source-git-commit: fcecad03e0b2176dbf5825546efb3d689f3187d5
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 | [!UICONTROL Allow Shipping to Multiple Addresses] | Web サイト | 1 件の注文を複数の住所（登録顧客のみ）への配送を許可するかどうかを指定します。 オプション： `Yes` / `No` |
 | [!UICONTROL Maximum Qty Allowed for Shipping to Multiple Addresses] | Web サイト | 複数の住所に配送可能な商品の単位数の制限を設定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >

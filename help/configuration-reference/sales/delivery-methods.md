@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: 次のページで設定を確認します： [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] コマース管理のページ。
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3812'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Web サイト | 方法が購入に適用されない場合に、「定額料金」がチェックアウト時にオプションとして表示されるかどうかを指定します。 オプション： `Yes` / `No` |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の配信方法と共にリストされた場合に表示される定額料金の順序を決定する数値です。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Free Shipping]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 | 該当しない場合はメソッドを表示 | Web サイト | 方法が購入に適用されない場合に、チェックアウト時に「無料配送」がオプションとして表示されるかどうかを指定します。 オプション： `Yes` / `No` |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の配送方法と共に一覧表示された場合に、送料無料が表示される順序を決定する数値。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Table Rates]
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Web サイト | メソッドが購入に適用されない場合に、チェックアウト時に「表レート」がオプションとして表示されるかどうかを指定します。 オプション： `Yes` / `No` |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の配信方法と共にリストされた場合に表レートが表示される順序を決定する数値です。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL In-Store Delivery]
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 | [!UICONTROL Search Radius] | Web サイト | ピックアップの場所を検索する際に使用する半径 (km)。 |
 | [!UICONTROL Displayed Error Message] | ストア表示 | 顧客が店舗でのピックアップを選択したが、配信方法が使用できない場合に表示するメッセージ。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Carriers]
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 | [!UICONTROL Origin of the Shipment] | Web サイト | （UPS XML のみ）製品出荷元の国または地域。 |
 | [!UICONTROL Password] | ストア表示 | UPS 発送者アカウントのパスワード。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![UPS パッケージ情報](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Web サイト | 各注文に対して手数料を適用するか、注文内の各パッケージに対して手数料を適用するかを指定します。 |
 | [!UICONTROL Handling Fee] | Web サイト | 送料価格に含まれる処理を設定します。 取り扱い手数料は、一定額またはパーセンテージで設定できます。 <br/><br/>**_注意：_**割合 (%) を入力する場合は、10 進数形式を使用します `0.25` 25%です。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![UPS で許可されるメソッド](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
@@ -167,7 +167,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping Amount Threshold] | Web サイト | 送料の無料条件を満たすために注文が到達する必要がある最小合計金額を設定します。 |
 | [!UICONTROL Displayed Error Message] | ストア表示 | 何らかの理由でこの発送方法が使用できない場合に表示されるエラーメッセージ。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![UPS 該当国およびその他の設定](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
@@ -181,7 +181,7 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Web サイト | ストアと UPS 間のデータ転送が、デバッグのためにシステムに記録されるかどうかを指定します。 トラッキングおよびログに記録する必要がある問題がない限り、このオプションをに設定する必要があります。 `No`. |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の配信方法と共にリストされた場合に UPS が表示される順序を決定する数値。 入力 `0` をリストの先頭に追加します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL USPS]
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 | [!UICONTROL Password] | Web サイト | USPS 発送者アカウントのパスワード。 |
 | [!UICONTROL Mode] | Web サイト | USPS システムに送信されるデータに使用される転送のモードを決定します。 オプションは次のとおりです。 <br/>**`Development`**- USPS は、コマースサーバーから受信したデータが SSL 経由で送信されたことを確認しません。<br/>**`Live`** - USPS は、コマースサーバーから受信したデータがセキュアソケットレイヤー (SSL) を介して送信されていることを確認します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![USPS パッケージ設定](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
@@ -213,7 +213,7 @@ ht-degree: 0%
 | [!UICONTROL Machinable] | Web サイト | パッケージを装置で処理できるかどうかを指定します。 このオプションは、送料の計算に影響します。 |
 | [!UICONTROL Maximum Package Weight] | Web サイト | USPS で指定されたパッケージの最大重みを設定します。 注文した製品が最大パッケージ重量を超えた場合、この配送オプションは使用できません。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![USPS 処理料金設定](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
@@ -226,7 +226,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Web サイト | 各注文に対して手数料を適用するか、注文内の各パッケージに対して手数料を適用するかを指定します。 |
 | [!UICONTROL Handling Fee] | Web サイト | 送料価格に含まれる処理を設定します。 取り扱い手数料は、一定額またはパーセンテージで設定できます。 <br/><br/>**_注意：_**割合 (%) を入力する場合は、小数の形式を使用します `0.25` 25%です。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![USPS で許可されるメソッド](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
@@ -240,7 +240,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Web サイト | 送料無料の条件を満たす必要がある最小注文額を設定します。 |
 | [!UICONTROL Displayed Error Message] | ストア表示 | 何らかの理由で USPS が使用できない場合に表示されるエラーメッセージ。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![USPS 適用国](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
@@ -254,7 +254,7 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Web サイト | ストアと USPS 間のデータ転送のログが、デバッグ用にシステムによって管理されるかどうかを指定します。 トラッキングおよびログに記録する必要がある問題がない限り、このオプションをに設定する必要があります。 `No`. |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に USPS が他の配信方法と共にリストされた場合に表示される順序を決定する数値です。 入力 `0` をリストの先頭に追加します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL FedEx]
 
@@ -276,7 +276,7 @@ ht-degree: 0%
 | [!UICONTROL Sandbox Mode] | Web サイト | テスト環境で FedEx トランザクションを実行するには、サンドボックスモードをに設定します。 `Yes`. オプション： `Yes` / `No`. |
 | [!UICONTROL Web-Services URL] | Web サイト | 必要な URL は、サンドボックスモードの設定によって異なります。 オプション： <br/>**`Production`**— ストアがライブのときに FedEx Web サービスにアクセスする URL。<br/>**`Sandbox`** - FedEx Web サービスのテスト環境にアクセスする URL。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx パッケージ](./assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
 
@@ -290,7 +290,7 @@ ht-degree: 0%
 | [!UICONTROL Dropoff] | Web サイト | リストから、ピックアップ方法を選択します。 <br/>**`Regular Pickup`**- （デフォルト）出荷量が多い場合は、通常の受け付けを手配するのにコストパフォーマンスが高くなる場合があります。<br/>**`Request Courier`** - FedEx の宅配便に電話して、出荷を受け取るよう依頼する必要があります。 <br/>**`Drop Box`**— お客様のローカルの FedEx ドロップオフボックスで出荷を返却する必要があります。<br/>**`Business Service Center`**  — 現地の FedEx ビジネス・サービス・センターで出荷を中止する必要があります。 <br/>**`Station`**— 現地の FedEx 駅で出荷を中止する必要があります。 |
 | [!UICONTROL Maximum Package Weight] | Web サイト | FedEx のデフォルトは 150 ポンドです。 サポートされる最大重量については、配送業者にお問い合わせください。 FedEx との特別な取り決めがない限り、デフォルト値を使用することをお勧めします。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx 取扱手数料](./assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
 
@@ -303,7 +303,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Web サイト | 処理手数料の適用方法を決定します。 オプション： `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Web サイト | 金額の計算に使用した方法に基づいて、処理料として請求された金額を指定します。 料金が固定料金に基づく場合は、金額を小数で入力します（例： ）。 `4.90`. 手数料が注文のパーセンテージに基づいている場合は、金額をパーセンテージで入力します。 例えば、注文の 6%を請求するには、値を「 」と入力します。 `.06`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx 配信方法](./assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
 
@@ -320,7 +320,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping Amount Threshold] | Web サイト | 送料無料に必要な最小注文額を指定します。 |
 | [!UICONTROL Displayed Error Message] | ストア表示 | 何らかの理由で FedEx が使用できない場合に表示されるメッセージ。 デフォルトのメッセージを使用するか、別のメッセージを入力することができます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx 適用国](./assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
 
@@ -335,7 +335,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Web サイト | いつ FedEx がチェックアウト時に発送方法として表示されるかを決定します。 オプション： <br/>**`Yes`**- FedEx の配送オプションは、注文が使用に適しているかどうかに関係なく、配信方法のリストに表示されます。<br/>**`No`**  — 注文に適用されない場合（注文の重み付けが最大重み付け額を超える場合など）、FedEx の配送オプションは、配信方法リストに表示されません。 |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の配信方法と共にリストされた場合に FedEx が表示される順序を決定する数値です。 入力 `0` をリストの先頭に追加します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL DHL]
 
@@ -353,7 +353,7 @@ ht-degree: 0%
 | [!UICONTROL Password] | Web サイト | DHL 送料アカウントのパスワード。 |
 | [!UICONTROL Account Number] | Web サイト | あなたの DHL の送料口座番号。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![DHL パッケージ設定](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
@@ -369,7 +369,7 @@ ht-degree: 0%
 | [!UICONTROL Weight Unit] | ストア表示 | 出荷の計算に使用する重量の測定単位を決定します。 オプション： `Pounds` / `Kilograms` |
 | [!UICONTROL Size] | ストア表示 | パッケージのサイズを決定します。 オプション： <br/>**`Regular`**— 出荷されたパッケージは、DHL の標準的な包装方法に準拠しています。 Adobe Analytics の [!UICONTROL Allowed Methods] リストから、製品を出荷する際に使用する各パッケージ化方法を選択します。<br/>**`Specific`**  — 出荷されたパッケージにカスタムの寸法がある場合は、次の手順を実行します。 [!UICONTROL Height (cm)] / [!UICONTROL Depth (cm)] / [!UICONTROL Width (cm)] |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![DHL 許可メソッド](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
@@ -385,7 +385,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping with Minimum Order Amount] | Web サイト | を次のいずれかに設定します。 <br/>**`Enable`**— 最小金額を満たす注文に対して、無料の DHL の送料を許可する。<br/>**`Disable`**  — 無料の DHL 出荷を最小注文で提供しない。 |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Web サイト | 有効にした場合 [!UICONTROL Free Shipping with Minimum Order]」で、「 」フィールドに最小注文額の値を入力します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![DHL 適用国](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
@@ -400,4 +400,4 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Web サイト | エラー情報を含むログファイルを作成します。 |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の配信方法と共にリストされた場合に DHL が表示される順序を決定する数値です。 リストの先頭に配置するには、「 `0`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

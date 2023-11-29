@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL B2B Features]'
 description: 次のページで設定を確認します： [!UICONTROL General] &gt; [!UICONTROL B2B Features] コマース管理のページ。
 exl-id: fc07a067-b92a-49c7-8512-2dfcc1c6ba0c
 feature: Configuration, B2B
-source-git-commit: 4f4ddb6da9bbf3bc07efb3b8518ee71323d43b49
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '368'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 | [[!UICONTROL Enable Quick Order]](../../b2b/quick-order.md) | Web サイト | 有効にすると、顧客とゲストは SKU または製品名に基づいて迅速に注文を行うことができます。 オプション： `Yes` / `No` |
 | [[!UICONTROL Enable Requisition List]](../../b2b/configure-requisition-lists.md) | Web サイト | 有効にすると、顧客は自分のアカウントダッシュボードから購買依頼リストを作成および管理できます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![会社および共有カタログを有効にした B2B 機能](./assets/b2b-features-company-enabled.png)<!-- zoom -->
 
@@ -42,7 +42,7 @@ ht-degree: 1%
 | [!UICONTROL Enable Shared Catalog direct products price assigning] | Web サイト | 次の場合に _[!UICONTROL Enable Shared Catalog]_フィールドが `Yes`の場合、このオプションを使用できます。 有効にすると、共有カタログに割り当てられている製品のみが価格指数に保存されます。 共有カタログに割り当てられていない商品は、ストアフロントには表示されません。 オプション： `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | Web サイト | 有効にすると、会社の購入者は買い物かごから見積もりのリクエストを送信できます。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Payment Methods]
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 | [!UICONTROL Applicable Payment Methods] | グローバル | B2B 購入者が利用できる支払い方法の選択を決定します。 オプション： `All Payment Methods` / `Specific Payment Methods` |
 | [!UICONTROL Payment Methods] | グローバル | B2B 購入者が利用できる各支払い方法を指定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Shipping Methods]
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 | [!UICONTROL Applicable Shipping Methods] | グローバル | B2B 購入者に対してデフォルトで使用可能な発送方法の選択を決定します。 オプション： `All Shipping Methods` / `Specific Shipping Methods` |
 | [!UICONTROL Shipping Methods] | グローバル | B2B 購入者に対してデフォルトで使用可能な各発送方法を指定します。 <br/>**_注意：_**また、特定の [会社アカウント](../../b2b/account-companies.md). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Approval Configuration]
 
@@ -74,6 +74,6 @@ ht-degree: 1%
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Purchase Orders]](../../stores-purchase/purchase-order.md) | Web サイト | 有効にすると、会社は発注書を作成できます。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 

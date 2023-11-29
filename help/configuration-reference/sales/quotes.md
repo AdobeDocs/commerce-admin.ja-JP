@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Quotes]'
 description: 次のページで設定を確認します： [!UICONTROL Sales] &gt; [!UICONTROL Quotes] コマース管理のページ。
 exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
 feature: Configuration, Quotes
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Amount Message] | ストア表示 | 顧客が見積もりの要求を送信しようとしたが、必要な最小金額を満たしていない場合に買い物かごに表示されるメッセージ。 |
 | [!UICONTROL Default Expiration Period] | Web サイト | のデフォルトの存続期間を決定します [引用](../../b2b/quote-price-negotiation.md) 見積依頼が送信された日からの期間。 オプション： `Days` / `Weeks` / `Months` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Attached Files]
 
@@ -43,4 +43,4 @@ ht-degree: 0%
 | [!UICONTROL File formats for upload] | グローバル | 引用符に添付できるファイル形式を決定します。 サポートされるデフォルト値： `doc`, `docx`, `xls`, `xlsx`, `pdf`, `txt`, `jpg`, `png`、および `jpeg` |
 | [!UICONTROL Maximum file size] | グローバル | 見積書に添付されるファイルの最大サイズを決定します。 この設定は、サーバーの構成で上書きできます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

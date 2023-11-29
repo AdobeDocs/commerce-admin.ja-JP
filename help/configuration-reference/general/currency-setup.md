@@ -4,9 +4,9 @@ description: 次のページで設定を確認します： [!UICONTROL General] 
 exl-id: a84be30f-f2eb-4c86-942c-2d49e5cf23af
 role: Admin
 feature: Currency, Configuration, Data Import/Export
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '356'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 | [!UICONTROL Default Display Currency] | ストア表示 | 価格の表示に使用する主要通貨。 |
 | [!UICONTROL Allowed Currencies] | ストア表示 | ストアが支払いに受け入れた通貨。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixer.io (legacy)]
 
@@ -44,7 +44,7 @@ ht-degree: 2%
 | [!UICONTROL API key] | グローバル | を使用して変換サービスにアクセスするためのキー [!DNL fixer.io] アカウント。 詳しくは、 [[!DNL fixer.io]](https://fixer.io/). |
 | [!UICONTROL Connection Timeout in Seconds] | グローバル | Fixer.io セッションがタイムアウトするまでの無操作状態の秒数を指定します。 デフォルト値： `100` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixer Api (APILayer)]
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 | [!UICONTROL API key] | グローバル | を使用して変換サービスにアクセスするためのキー [!DNL APILayer] アカウント。 詳しくは、 [[!DNL APILayer]](https://apilayer.com/). |
 | [!UICONTROL Connection Timeout in Seconds] | グローバル | 無操作状態が続くまでの時間（秒）を指定します [!DNL APILayer] セッションがタイムアウトしました。 デフォルト値は `100`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Currency Converter API]
 
@@ -66,7 +66,7 @@ ht-degree: 2%
 | [!UICONTROL API key] | グローバル | 変換サービスへのアクセスに使用するキー。 詳しくは、 [[!DNL Currency Convertor] API](https://free.currencyconverterapi.com/). |
 | [!UICONTROL Connection Timeout in Seconds] | グローバル | 無操作状態が続くまでの時間（秒）を指定します [!DNL Currency Converter] セッションがタイムアウトしました。 デフォルト値：`100` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Scheduled Import Settings]
 
@@ -82,4 +82,4 @@ ht-degree: 2%
 | [!UICONTROL Error Email Sender] | Web サイト | エラーの E メール通知の送信者として表示されるストアの連絡先を識別します。 デフォルトの送信者： `General Contact` |
 | [!UICONTROL Error Email Template] | Web サイト | エラーの電子メール通知の基礎として使用するテンプレートを指定します。 デフォルトのテンプレート： `Currency Update Warnings` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

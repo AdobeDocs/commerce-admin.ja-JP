@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend]'
 description: 次のページで設定を確認します： [!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend] コマース管理のページ。
 exl-id: cd1e3a8d-14ce-47e9-a3bc-c1b1dcbe0d8c
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,4 @@ ht-degree: 0%
 | [!UICONTROL Max Products Sent in 1  Hour] | ストア表示 | 1 時間の間に 1 人のユーザーが共有できる製品の数を制限します。 |
 | [!UICONTROL Limit Sending By] | ストア表示 | 送信者の識別に使用する方法を決定します。 オプションは次のとおりです。 <br/>**`IP Address`**- （推奨）製品の E メールの送信に使用されるコンピューターの IP アドレスで送信者を識別します。<br/>**`Cookie (unsafe)`**  — 送信者をブラウザーの Cookie で識別します。 ユーザーは制限を避けるために Cookie を削除できるので、このメソッドは安全ではありません。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL P
 description: 設定を確認するには、 [!UICONTROL PayPal Express Checkout] のセクション [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] コマース管理のページ。
 exl-id: aae5b1d9-f47e-447a-b40c-924f8d2ee824
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Enable In-Context Checkout Experience] | Web サイト | 顧客が利用できる支払い方法として、合理化された PayPal In-Context Checkout を有効化します。 オプション： `Yes` / `No` |
 | [!UICONTROL Enable PayPal Credit] | Web サイト | PayPal クレジットを有効化して、顧客が今すぐ購入できるようにしますが、後で支払います。 前払いは受け取るが、顧客は支払う時間が多い。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Express Checkout]
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Proxy Host] | Web サイト | API がプロキシを使用する場合は、プロキシホストの IP アドレスを指定します。 |
 | [!UICONTROL Proxy Port] | Web サイト | API がプロキシを使用する場合は、プロキシホストが使用するポートを指定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Advertise PayPal Credit]
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Product Page] | Web サイト | の位置とサイズを決定します。 [!DNL PayPal Credit] 製品ページのバナー。 オプション： （の場合と同じ） [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | Web サイト | の位置とサイズを決定します。 [!DNL PayPal Credit] 買い物かごページのバナー。 オプション： （の場合と同じ） [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings]
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Action] | Web サイト | PayPal が注文を受け取ったときに実行するアクションを決定します。 オプション： <br/>**`Authorization`**・買い付けを承認するが、資金を保留する。 その金額は、商人によって「取り込まれる」まで引き落とされません。<br/>**`Sale`**  — 購入金額は、お客様のアカウントから承認され、直ちに取り下げられます。 <br/>**`Order`**— 定義された期間内に、マーチャントが顧客の購入者アカウントから注文済みの合計金額までを取得できる PayPal との契約を表します。 これは最大 29 日間です。 資金を取り込むには、1 つ以上の請求書をコマース管理者から生成する必要があります。 |
 | [!UICONTROL Display on Product Details Page] | ストア表示 | 「PayPal でのチェックアウト」ボタンを製品ページに表示するかどうかを指定します。 オプションは次のとおりです。 `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 | [!UICONTROL Billing Agreement Signup] | Web サイト | 顧客が [請求契約](../../stores-purchase/paypal-billing-agreements.md) お客様のストアに置き換えます。 オプション： <br/>**`Auto`**— お客様は、高速チェックアウト時に請求契約に新規登録できます。<br/>**`Ask Customer`** ：顧客は、請求契約に新規登録するかどうかを尋ねられます。 <br/>**`Never`**：お客様には、請求契約への新規登録オプションは提供されません。 |
 | [!UICONTROL Skip Order Review Step] | Web サイト | 顧客が PayPal サイトからトランザクションを完了できるか、またはストアに戻って注文を送信する前に注文の確認手順を完了する必要があるかを指定します。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Billing Agreement Settings]
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Transfer Cart Line Items] | Web サイト | 有効にすると、PayPal の支払いページに、買い物かごの行項目の概要が表示されます。 オプション： `Yes` / `No` |
 | [!UICONTROL Allow in Billing Agreement Wizard] | Web サイト | 有効にすると、顧客は顧客アカウントのダッシュボードから請求契約を開始できます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Settlement Report Settings]
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 | [!UICONTROL Schedule] | Web サイト | PayPal によって決済レポートが生成される頻度を決定します。 オプション： `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
 | [!UICONTROL Time of Day] | Web サイト | 決済レポートが生成される時間、分、秒を決定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Frontend Experience Settings]
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 | [!UICONTROL Header Image Border Color] | ストア表示 | 六字 [16 進数の色](https://en.wikipedia.org/wiki/Web_colors) ヘッダーの周囲の 2 ピクセルの境界線のコード。 |
 | [!UICONTROL Page Background Color] | ストア表示 | 六字 [16 進数の色](https://en.wikipedia.org/wiki/Web_colors) ヘッダーと支払いフォームの背後に表示されるチェックアウトページの背景色のコード。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 #### [!UICONTROL Customize Smart Buttons (Basic)]
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 | [!UICONTROL Shape] | ストア表示 | スマート支払いボタンの形状を設定します。 オプション： `Pill` （デフォルト） / `Rectangle` |
 | [!UICONTROL Color] | ストア表示 | 「スマート支払い」ボタンの色を設定します。 オプション： `Gold` （デフォルト） / `Blue` / `Silver` / `Black` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 #### [!UICONTROL Customize Smart Buttons (Features)]
 
@@ -178,4 +178,4 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Disable Funding Options] | ストア表示 | 「チェックアウト」ページに表示するその他の PayPal 資金オプションを決定します。 選択したオプションは、「チェックアウト」ページには表示されません。 未選択のオプションは、PayPal がストアの通貨と購入者の場所をサポートする場合にのみ表示されます。 オプション： `PayPal Credit` / `PayPal Guest Checkout` `Credit Card Icons` / `Elektronisches Lastschriftverfahren - German ELV` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

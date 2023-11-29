@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront]'
 description: 次のページで設定を確認します： [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Storefront] コマース管理のページ。
 exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Google reCAPTCHA を使用してストアを保護する方法について詳し
 | [!UICONTROL Theme] | Web サイト | Google reCAPTCHA ボックスのスタイルを決定します。 オプション： `Light Theme` （デフォルト） / `Dark Theme` |
 | [!UICONTROL Language Code] | ストア表示 | The [2 文字コード](https://developers.google.com/recaptcha/docs/language) Google reCAPTCHA のテキストおよびメッセージに使用する言語を指定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v2 Invisible]
 
@@ -46,7 +46,7 @@ Google reCAPTCHA を使用してストアを保護する方法について詳し
 | [!UICONTROL Theme] | グローバル | Google reCAPTCHA ボックスのスタイルを決定します。 オプション： `Light Theme` （デフォルト） / `Dark Theme` |
 | [!UICONTROL Language Code] | ストア表示 | A [2 文字コード](https://developers.google.com/recaptcha/docs/language) Google reCAPTCHA のテキストおよびメッセージに使用する言語を指定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v3 Invisible]
 
@@ -61,7 +61,7 @@ Google reCAPTCHA を使用してストアを保護する方法について詳し
 | [!UICONTROL Theme] | Web サイト | Google reCAPTCHA ボックスのスタイルを決定します。 オプション： `Light Theme` （デフォルト） / `Dark Theme` |
 | [!UICONTROL Language Code] | ストア表示 | A [2 文字コード](https://developers.google.com/recaptcha/docs/language) Google reCAPTCHA のテキストおよびメッセージに使用する言語を指定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA Failure Messages]
 
@@ -72,7 +72,7 @@ Google reCAPTCHA を使用してストアを保護する方法について詳し
 | [!UICONTROL reCAPTCHA Validation Failure Message] | ストア表示 | 検証が失敗した場合にストアフロントに表示されるメッセージです。 デフォルトのテキスト： `reCAPTCHA verification failed.` |
 | [!UICONTROL reCAPTCHA Technical Failure Message] | ストア表示 | reCAPTCHA が検証結果を返さなかった場合にストアフロントに表示されるメッセージ。 デフォルトのテキスト： `Something went wrong with reCAPTCHA. Please contact the store owner.` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Storefront]
 
@@ -103,4 +103,4 @@ Google reCAPTCHA を使用してストアを保護する方法について詳し
 | [!UICONTROL Enable for Coupon Codes] | Web サイト | 顧客が [クーポンコード](../../merchandising-promotions/price-rules-cart-coupon.md). オプション：<br/>**`No`**- （デフォルト）クーポンコードの送信を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — ユーザーが _私はロボットではありません_ チェックボックス。<br />**`Invisible reCAPTCHA v2`**— スコアに基づくインタラクションを必要とせずに、バックグラウンドでのユーザー行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザーの行動を検証します。 |
 | [!UICONTROL Enable for PayPal Payflow Pro payment form] | Web サイト | 顧客がで購入を支払う際に使用する reCAPTCHA のタイプを指定します。 [PayPal Payflow Pro](../../stores-purchase/paypal-payflow-pro.md). オプション：<br/>**`No`**- （デフォルト）パスワードのリセット要求を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — ユーザーが _私はロボットではありません_ チェックボックス。<br />**`Invisible reCAPTCHA v2`**— スコアに基づいたインタラクションを必要とせずに、バックグラウンドでのユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザーの行動を検証します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

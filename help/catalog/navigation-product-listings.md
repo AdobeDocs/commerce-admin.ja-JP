@@ -3,9 +3,9 @@ title: 製品リスト
 description: 製品リストの設定を変更する方法、1 ページに表示される製品の数、およびリストの並べ替えに使用する属性を決定する方法について説明します。
 exl-id: 3779d9db-4adb-473b-b9c9-ad066f50b549
 feature: Catalog Management, Products, Page Content
-source-git-commit: 7ae9955b0283cb7bcd757e7b45fdbc4c3b2181ca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 0%
 | ![1 ページにつき表示](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - 1 ページに表示される製品の数を決定します。 |
 | ![ページネーションリンク](./assets/control-pagination.png) | ページネーションリンク — 他のページへのナビゲーションリンク。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ページネーションコントロールの設定
 

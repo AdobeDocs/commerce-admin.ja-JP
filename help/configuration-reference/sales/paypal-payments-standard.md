@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL P
 description: 設定を確認するには、 [!UICONTROL PayPal Payments Standard] のセクション [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] コマース管理のページ。
 exl-id: 846d9b6f-92b9-4610-b894-625f67f4cff8
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 | [!UICONTROL Enable this Solution] | Web サイト | PayPal Payments Pro をお客様が支払い方法として利用できるかどうかを指定します。 |
 | [!UICONTROL Enable PayPal Credit] | Web サイト | PayPal クレジットをお客様が支払いオプションとして利用できるかどうかを指定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PayPal クレジットの宣伝
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Product Page] | Web サイト | の位置とサイズを決定します。 [!DNL PayPal Credit] 製品ページのバナー。 オプション： （の場合と同じ） [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | Web サイト | の位置とサイズを決定します。 [!DNL PayPal Credit] 買い物かごページのバナー。 オプション： （の場合と同じ） [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings - PayPal Payments Standard]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Credit Card Settings] |  |  |
 | [!UICONTROL Allowed Credit Cart Types] | Web サイト | 顧客がチェックアウト時に使用できるクレジットカードを決定します。 サポートされている各カードを選択します。 オプション： `American Express` （追加の契約が必要） / `Visa` / `MasterCard` / `Discover` / `JCB` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 | [!UICONTROL Billing Agreement Signup] | Web サイト | 顧客が [請求契約](../../stores-purchase/paypal-billing-agreements.md) お客様のストアに置き換えます。 オプション： <br/>**`Auto`**— お客様は、高速チェックアウト時に請求契約に新規登録できます。<br/>**`Ask Customer`** ：顧客は、請求契約に新規登録するかどうかを尋ねられます。 <br/>**`Never`**：お客様には、請求契約への新規登録オプションは提供されません。 |
 | [!UICONTROL Skip Order Review Step] | Web サイト | 顧客が PayPal サイトからトランザクションを完了できるか、またはストアに戻って注文を送信する前に注文の確認手順を完了する必要があるかを指定します。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Billing Agreement Setting]
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 | [!UICONTROL Transfer Cart Line Items] | Web サイト | 有効にすると、PayPal の支払いページに、買い物かごの行項目の概要が表示されます。 オプション： `Yes` / `No` |
 | [!UICONTROL Allow in Billing Agreement Wizard] | Web サイト | 有効にすると、顧客は顧客アカウントのダッシュボードから請求契約を開始できます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Settlement Report Settings]
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 | [!UICONTROL Schedule] | グローバル | PayPal によって決済レポートが生成される頻度を決定します。 オプション： `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
 | [!UICONTROL Time of Day] | グローバル | 決済レポートが生成される時間、分、秒を決定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Frontend Experience Settings]
 
@@ -138,4 +138,4 @@ ht-degree: 0%
 | [!UICONTROL Header Image Border Color] | ストア表示 | ヘッダーの周囲の 2 ピクセル境界線に対する 6 文字の 16 進カラーコードです。 |
 | [!UICONTROL Page Background Color] | ストア表示 | ヘッダーと支払いフォームの後ろに表示されるチェックアウトページの背景色の 6 文字の 16 進数カラーコードです。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

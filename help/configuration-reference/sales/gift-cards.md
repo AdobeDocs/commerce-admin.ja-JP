@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Gift Cards]'
 description: 次のページで設定を確認します： [!UICONTROL Sales] &gt; [!UICONTROL Gift Cards] コマース管理のページ。
 exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 feature: Configuration, Gift
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Card Notification Email Sender] | ストア表示 | を識別します。 [ストア連絡先](../../getting-started/store-details.md#store-email-addresses) ギフトカードの通知 E メールの送信者として表示される。 デフォルト値： `General Contact` |
 | [!UICONTROL Gift Card Notification Email Template] | ストア表示 | を決定します。 [テンプレート](../../systems/email-templates.md) ギフトカードの通知 E メールに使用される。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card General Settings]
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Message Maximum Length] | ストア表示 | ギフトカードメッセージで許可される最大文字数を指定します。 デフォルト値：255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | グローバル | 顧客が注文を行ったとき、または注文が請求されたときに、ギフトカードのアカウントが生成されるかどうかを指定します。 オプション： `Ordered` / `Invoiced` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Sent from Gift Card Account Management]
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Card Email Sender] | ストア表示 | を識別します。 [ストア連絡先](../../getting-started/store-details.md#store-email-addresses) ギフトカードの e メールの送信者として表示される デフォルト値： `General Contact` |
 | [!UICONTROL Gift Card Template] | ストア表示 | を決定します。 [テンプレート](../../systems/email-templates.md) ギフトカードの E メールに使用される。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card Account General Settings]
 
@@ -75,4 +75,4 @@ ht-degree: 1%
 | [!UICONTROL Low Code Pool Threshold] | グローバル | プールの補充が必要なアラートをトリガーするコード・プール内のレコード数を決定します。 |
 | [!UICONTROL Generate] | グローバル | ギフトカードコードのリストを生成するには、ここをクリックします。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

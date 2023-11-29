@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
 description: 次のページで設定を確認します： [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] コマース管理のページ。
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | Web サイト | ストアの訪問者が [登録者](../../customers/customer-sign-in.md) 会社アカウントまたは個々のアカウントの場合。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Options - Company Registration]
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 | [!UICONTROL Send Email Copy Method] | ストア表示 | 登録電子メールのコピーを送信するために使用される電子メールメソッド。 オプション： `Bcc` / `Separate Email` |
 | [!UICONTROL Default Company Registration Email] | ストア表示 | 会社登録通知にデフォルトで使用される電子メールテンプレート。 デフォルトのテンプレート： `Company Registration Request` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer-Related Emails]
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 | [!UICONTROL Default 'Customer Status Active' Email] | ストア表示 | 顧客のステータスがアクティブになったときにデフォルトで使用される電子メールテンプレート。 この E メールは顧客にのみ送信されます。 デフォルトのテンプレート： `Customer Status Active` |
 | [!UICONTROL Default 'Customer Status Inactive' Email] | ストア表示 | 顧客のステータスが非アクティブになったときにデフォルトで使用される電子メールテンプレート。 この E メールは顧客にのみ送信されます。 デフォルトのテンプレート： `Customer Status Inactive` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Status Change]
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 | [!UICONTROL Default 'Company Status Change to Blocked' Email] | ストア表示 | 会社のステータスが「 _ブロック_. デフォルトのテンプレート： `Company Status Blocked` |
 | [!UICONTROL Default 'Company Status Change to Pending Approval' Email] | ストア表示 | 会社のステータスが「 _承認待ち_. デフォルトのテンプレート： `Company Status Pending Approval` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Credit]
 
@@ -97,4 +97,4 @@ ht-degree: 0%
 | [!UICONTROL Refunded Email Template] | ストア表示 | 注文額が会社のクレジットに返金される際にデフォルトで使用される電子メールテンプレート。 この電子メールは会社の管理者に送信されます。 デフォルトのテンプレート： `Order Refunded to Company Credit` |
 | [!UICONTROL Reverted Email Template] | ストア表示 | 注文が会社のクレジットに戻されたときにデフォルトで使用される電子メールテンプレート。 この電子メールは会社の管理者に送信されます。 デフォルトのテンプレート： `Order Reverted to Company Credit` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

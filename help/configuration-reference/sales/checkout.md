@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Checkout]'
 description: 次のページで設定を確認します： [!UICONTROL Sales] &gt; [!UICONTROL Checkout] コマース管理のページ。
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Address Search] | Web サイト | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerceのみ ) 顧客が [アドレス検索](../../stores-purchase/checkout-address-search.md) 送料、およびレビューと支払いの手順に関する機能。 これを有効にした場合、「顧客アドレス数の上限」を使用して、チェックアウト時にこの機能を有効にするために必要な保存済みアドレスの数を設定します。 オプション： `Yes` / `No` |
 | 顧客アドレス数の上限 | Web サイト | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerceのみ ) アドレスの検索が有効な場合、は、チェックアウト時にこの機能を有効にするために必要な、保存済みアドレスの数を決定します。 顧客の保存済みアドレスの数がこの数を超える場合、デフォルトのアドレスのみが _送料_ および _レビューと支払い_ 手順。 顧客は、検索機能を使用して、選択した住所を変更できます。 デフォルトはです。 `10`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart]
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 | [!UICONTROL Preview Quote Lifetime (minutes)] | ストア表示 | 買い物かごからプレビューした見積もりの最大閲覧期間を分単位で指定します。 |
 | [!UICONTROL Enable Clear Shopping Cart] | Web サイト | ユーザーが 1 回の操作で買い物かごの内容をクリアするオプションを買い物かごに表示するかどうかを指定します。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL My Cart Link]
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Display Cart Summary] | Web サイト | 「買い物かご」リンクの後に括弧内に表示される値を決定します。 オプション： `Display number of items in cart` / `Display item quantities` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## ミニカート
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 | [!UICONTROL Number of Items to Display Scrollbar] | ストア表示 | スクロールバーをトリガーする前にミニカートに表示できる項目数を指定します。 デフォルト： `5` |
 | [!UICONTROL Maximum Number of Items to Display] | ストア表示 | ミニカートに表示できる項目の最大数を指定します。 デフォルト： `10` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment Failed Emails]
 
@@ -95,4 +95,4 @@ ht-degree: 0%
 | [!UICONTROL Send Payment Failed Copy To] | ストア表示 | 支払い失敗の電子メールのコピーを受け取る人の電子メールアドレスを指定します。 複数のアドレスを指定する場合は、コンマで区切ります。 |
 | [!UICONTROL Send Payment Failed Copy Method] | ストア表示 | コピーの送信に使用する電子メールメソッドを示します。 オプション： <br />**`Bcc`**— 顧客に送信されるのと同じ E メールのヘッダーに受信者を含めて、非表示の提供コピーを送信します。 BCC 受信者は、顧客に対して表示されません。<br />**`Separate Email`**  — コピーを別の E メールとして送信します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

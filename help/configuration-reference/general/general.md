@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: 次のページで設定を確認します： [!UICONTROL General] &gt; [!UICONTROL General] コマース管理のページ。
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL European Union Countries] | グローバル | EU 加盟国。 |
 | [!UICONTROL Top Destinations] | ストア表示 | 販売のターゲットとする主要国。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL State Options]
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL State is required for] | グローバル | 郵送先住所に地域または都道府県を含める必要がある国（ビジネスを行う場所）。 |
 | [!UICONTROL Allow to Choose State if It is Optional for Country] | グローバル | 必須でない国の場合は、が _地域/州（米国）_ 顧客の郵送先住所にフィールドが含まれます。<br /> <br />**`Yes`**— を含む _地域/州（米国）_ フィールドに値を入力します（国で不要な場合も含む）。<br />**`No`**  — 国で不要な場合は、地域/都道府県フィールドを顧客の住所から除外します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Locale Options]
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL First Day of Week] | ストア表示 | ストアビューが提供する市場での週の最初の曜日と見なされる日。 |
 | [!UICONTROL Weekend Days] | ストア表示 | 週末に下がる日は、店舗ビューで提供されます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Website Restrictions]
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 | [!UICONTROL HTTP Response] | Web サイト | Web サイトが閉じられ、ボット、クローラーまたはスパイダーによって接続が試行されたときに送信される HTTP 応答を決定します。<br /> <br />**`503 Service unavailable`**— ページは使用できませんが、スパイダーはインデックスを更新しないでください。<br />**`200 OK`**  — ランディングページは正しく、サイト上で唯一のページとしてスパイダーによって処理される必要があります。 |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | Web サイト | のフィールドが _ログイン_ および _パスワードを忘れた場合_ フォームは、前のエントリから自動的に入力されます。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Information]
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 | [!UICONTROL VAT Number] | Web サイト | コマースインストールを所有するビジネスの付加価値税番号（該当する場合）。 |
 | [!UICONTROL Validate VAT Number] |  | 付加価値税 ID 番号を検証します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Single-Store Mode]
 
@@ -109,4 +109,4 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | グローバル | シングルストアでのインストールを有効にした場合、設定の「範囲」ボックスと関連するフィールドラベルの「オプション」が非表示になります。 `Yes` / `No` <br/>**_注意：_**複数のビューを持つストアでは、シングルストアモードは無視されます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

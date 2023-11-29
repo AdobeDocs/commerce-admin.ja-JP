@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser]'
 description: 次のページで設定を確認します： [!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser] コマース管理のページ。
 exl-id: 264f0f21-7324-4e37-938e-9f0cdbb3dfe8
 feature: Configuration, Merchandising
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 1%
 
 ---
@@ -29,4 +29,4 @@ ht-degree: 1%
 | [!UICONTROL Color Attribute Code] | グローバル | 製品を色で並べ替えるために使用する属性を指定します。 デフォルト値： `color` |
 | [!UICONTROL Color Order] | グローバル | 製品が色で並べ替えられる際の並べ替え順を決定します。 各色を別々の行に入力します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

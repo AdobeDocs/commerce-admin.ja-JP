@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Reports]'
 description: 次のページで設定を確認します： [!UICONTROL General] &gt; [!UICONTROL Reports] コマース管理のページ。
 exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
 feature: Configuration, Admin Workspace, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '176'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 | [!UICONTROL Year-to-Date Starts] | グローバル | 年度累計の計算に使用する月と日を指定します。 |
 | [!UICONTROL Current Month Starts] | グローバル | 現在の月の始まりを示す計算に使用する月の日付を指定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL General Options]
 
@@ -45,4 +45,4 @@ ht-degree: 1%
 | [!UICONTROL Enable "Product Added To Wishlist" Report] | グローバル | ウィッシュリストに追加された製品の統計の収集を有効または無効にします。 |
 | [!UICONTROL Enable "Share WishList" Report] | グローバル | 共有ウィッシュリストの統計の収集を有効または無効にします。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

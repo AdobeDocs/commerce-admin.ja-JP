@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Inventory]'
 description: 次のページで設定を確認します： [!UICONTROL Catalog] &gt; [!UICONTROL Inventory] コマース管理のページ。
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
-source-git-commit: 80630957dbe25d21c45f64d8027a39b7b396619d
+source-git-commit: 768c9fdc37127b408230983e39e98b11149713a7
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Inventory Check On Cart Load] | グローバル | 買い物かごに製品を読み込む際に在庫チェックを実行するかどうかを指定します。 この在庫チェックを無効にすると、特に買い物かごに多数の品目がある場合に、チェックアウト手順のパフォーマンスを向上させることができます。 ただし、事前検証をスキップすると、 _在庫切れ_ エラーについては、後でチェックアウトプロセスで説明します。 オプション： `Yes` / `No` |
 | [!UICONTROL Synchronize with Catalog] | グローバル | に設定する場合 `Yes`、在庫データは、カタログの変更（製品の削除、製品の SKU の変更、製品の種類の変更など）に従って調整され、在庫とカタログとの一貫性が維持されます。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Stock Options]
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Qty Increments] | グローバル | 数量の増分を構成する製品の数を指定します。 |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | グローバル | クレジットメモに含まれる品目を在庫に自動的に返すかどうかを指定します。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Admin Bulk Operations]
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 | [!UICONTROL Run asynchronously] | グローバル | 一括操作を非同期で実行するかどうかを指定します。 [一括](../../inventory-management/bulk-assignment.md) ソースの割り当て、ソースの割り当て解除、および [在庫をソースに移転](../../inventory-management/inventory-transfer.md). 最大で _[!UICONTROL Asynchronous batch size]_をクリックして、そのアクションを実行します。 この機能は、デフォルトでは無効になっています。 を有効にする前に、バルクアクションを使用したパフォーマンスを確認することをお勧めします。 オプション：<br/>**`Yes`**— のすべての一括操作を実行します [!DNL Inventory Management] 非同期で を有効にするには、非同期キューマネージャーを設定する必要があります。<br/>**`No`**— デフォルト。 一括操作を非同期で実行しません。 |
 | [!UICONTROL Asynchronous batch size] | グローバル | 設定 **[!UICONTROL Run asynchronously]** から `Yes` 値を入力する _[!UICONTROL Asynchronous batch size]_フィールドに入力します。 <br/>デフォルトのバッチサイズは 100 です。 一括処理がこの量に達すると、実行されます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Inventory Indexer Settings]
 
@@ -80,12 +80,12 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Stock/Source reindex strategy] | グローバル | 在庫/ソースのインデックス再作成に使用する方法を決定します。 オプション： `Synchronous` / `Asynchronous` （非同期モード用に非同期キューマネージャーを設定する必要があります） |
 
+{style="table-layout:auto"}
+
 >[!NOTE]
 >
 > 注文関連のアクティビティの在庫更新の依存関係により、在庫インデクサーは、 `Synchronous` または `Asynchronous` 設定。
 
-
-{:style=&quot;table-layout:auto&quot;}
 
 ## [!UICONTROL Distance Provider for Distance Based SSA]
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Provider] | グローバル | 距離優先ソース選択アルゴリズムに使用するプロバイダを決定します。 この機能は、デフォルトで有効になっています。 オプション： <br/>**`Google MAP`**- Googleサービスを使用して、配送先住所と発送元の場所（住所と GPS 座標）の間の距離と時間を計算します。 このオプションを使用するにはGoogle API キーが必要で、Googleを通じた料金が発生する場合があります。<br/>**`Offline Calculation`**  — 埋め込みデータベースを使用して距離を計算し、配送先住所に最も近い発送元を決定します。 このオプションを使用するには、コマンドラインを使用して出荷するすべての国のデータベースの場所の内容を最初にダウンロードする開発者支援が必要になる場合があります。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Distance Provider]
 
@@ -111,4 +111,4 @@ ht-degree: 0%
 | [!UICONTROL Computation mode] | グローバル | 配送先住所と在庫に割り当てられているすべてのソースからの距離を計算する方向とパスを決定します。 デフォルトでは、計算には駆動モードが使用されます。 オプション： <br/>**`Driving`**— 既定の設定では、道路ネットワークを使用して標準の運転指示を要求します。<br/>**`Walking`**  — 歩行者の道と歩道（利用可能な場合）を利用して歩く道をリクエスト。 <br/>**`Bicycling`**— 自転車の道や好みの通りを使用して自転車の道をリクエストします（現在、米国および一部のカナダの都市でのみ利用可能です）。 |
 | [!UICONTROL Value] | グローバル | 発送先住所への発送元の場所の距離と時間の計算と返却を示します。 「距離優先度アルゴリズム」では、出荷先住所までの距離または時間が最も短いソースを推奨します。これにより、出荷を達成するのにより迅速で安価な処理が可能になります。 オプション： <br/>**`Distance`**— 指標（キロメートル単位、メートル単位）またはインチ単位（マイル単位、フィート単位）のポイント間の距離を戻します。<br/>**`Time to Destination`**  — ソースの場所から配送先住所への移動に必要な時間を時間と分単位で戻します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

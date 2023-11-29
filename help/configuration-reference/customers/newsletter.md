@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
 description: 次のページで設定を確認します： [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] コマース管理のページ。
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | ストア表示 | ストア表示の範囲でニュースレターが有効になっているかどうかを判断します。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Subscription Options]
 
@@ -45,4 +45,4 @@ ht-degree: 0%
 | [!UICONTROL Unsubscription Email Sender] | ストア表示 | ニュースレターの購読の終了をリクエストする人に送信された電子メールの送信者として表示されるストアの連絡先を識別します。 |
 | [!UICONTROL Unsubscription Email Template] | ストア表示 | ニュースレターの購読の終了をリクエストするユーザーに送信する通知に使用する電子メールテンプレートを決定します。 デフォルトのテンプレート： `Newsletter unsubscription success` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

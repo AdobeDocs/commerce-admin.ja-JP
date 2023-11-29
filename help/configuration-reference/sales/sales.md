@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
 description: 次のページで設定を確認します： [!UICONTROL Sales] &gt; [!UICONTROL Sales] コマース管理のページ。
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Hide Customer IP] | ストア表示 | 顧客の IP アドレスが、注文、請求書、出荷、クレジットメモに表示されるかどうかを決定します。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Checkout Totals Sort Order]
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 | [!UICONTROL Fixed Product Tax] | Web サイト | 他のチェックアウト合計に対して固定製品税をいつ計算するかを決定する数値です。 デフォルト値： `50` |
 | [!UICONTROL Grand Total] | Web サイト | 他のチェックアウト合計に対して総計をいつ計算するかを決定する数値です。 デフォルト値： `100` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Reorder]
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Allow Reorder] | ストア表示 | 顧客が自分のアカウントから並べ替えを行えるかどうかを指定します。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Allow Zero Grand Total]
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Allow Zero Grand Total for Credit Memo] | ストア表示 | 総計がゼロのクレジット・メモを作成する可能性を決定します。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice and Packing Slip Design]
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 | [!UICONTROL Logo for HTML Print View] | ストア表示 | 請求書および梱包明細のHTML印刷表示のヘッダーに表示されるロゴファイルを識別します。 許可されているファイルタイプ： <br/>JPG/JPEG <br/>GIF <br/>PNG |
 | [!UICONTROL Address] | ストア表示 | 請求書および梱包明細に表示する店舗住所。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Order Amount]
 
@@ -97,7 +97,7 @@ ht-degree: 1%
 | [!UICONTROL Multi-address Description Message] | ストア表示 | 複数アドレスの注文の場合、は、アドレスに送信された品目が最小注文額を下回った場合に、買い物かごに表示されるメッセージを決定します。 |
 | [!UICONTROL Multi-address Error to Show in Shopping Cart] | ストア表示 | 複数の住所を持つ注文の場合、は、注文額が必要な最小注文額を下回ったときにミニカートまたはチェックアウトリンクから表示されるメッセージを決定します。 空白の場合、デフォルトのメッセージが表示されます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Dashboard]
 
@@ -109,7 +109,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Use Aggregated Data] | グローバル | リアルタイムの集計販売データを使用してダッシュボードのスナップショットレポートを作成するかどうかを決定します。 処理するデータ量が多い場合は、リアルタイムデータの表示をオフにすることでパフォーマンスを向上できます。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders Cron Settings]
 
@@ -121,7 +121,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Pending Payment Order Lifetime] | Web サイト | 保留中の注文の有効期間を分単位で決定します。 デフォルト設定： `480` 分（8 時間） |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Options]
 
@@ -139,7 +139,7 @@ ht-degree: 1%
 | [!UICONTROL Allow Printed Card] | Web サイト | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerceのみ ) 印刷されたカードを注文に追加できるかどうかを指定します。 |
 | [!UICONTROL Default Price for Printed Card] | Web サイト | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerceのみ ) 印刷するカードのデフォルト価格を指定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Advertised Price]
 
@@ -155,7 +155,7 @@ ht-degree: 1%
 | [!UICONTROL Default "What's This" Text Message] | ストア表示 | 顧客が「What&#39;s this?」（これは何ですか？）をクリックすると表示されるテキストメッセージ リンクを製品表示ページから削除します。 |
 | [!UICONTROL Manufacturer's Suggested Retail Price] | グローバル | 製造元 (MSRP) が提示する小売価格。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order by SKU Settings]
 
@@ -172,7 +172,7 @@ ht-degree: 1%
 | [!UICONTROL Enable Order by SKU on My Account in Storefront] | Web サイト | 顧客アカウントダッシュボードで「 SKU ごとの注文」を使用できるかどうかを指定します。 オプション： <br/>**`Yes, for Everyone`**- 「 SKU ごとの並べ替え」タブは、すべての顧客のアカウントダッシュボードに表示されます。<br/>**`Yes, for Specified Customer Groups`** - 「SKU で並べ替え」タブは、指定したグループのメンバーまたは共有カタログのアカウントダッシュボードに表示されます。 <br/>**`No`**— 顧客アカウントでは、「 SKU ごとの並べ替え」タブを使用できません。 |
 | [!UICONTROL Customer Groups] | Web サイト | 顧客グループを決定します。 オプション： `General` / `Retailer` / `Wholesale` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Instant Purchase]
 
@@ -185,7 +185,7 @@ ht-degree: 1%
 | [!UICONTROL Enabled] | ストア表示 | Braintreeなどの支払い方法が Vault を有効にしている場合に、店舗表示の即時購入を有効にします。 オプション： `Yes` / `No` |
 | [!UICONTROL Button Text] | ストア表示 | [ 即時購入 ] ボタンに表示するテキストを指定します。 デフォルトのテキストは、 `Instant Purchase`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders, Invoices, Shipments, Credit Memos Archiving]
 
@@ -201,7 +201,7 @@ ht-degree: 1%
 | [!UICONTROL Archive Orders Purchased] | グローバル | 完了した注文がアーカイブされるまでの日数を決定します。 デフォルト値： `30` |
 | [!UICONTROL Order  Statuses to be Archived] | グローバル | を決定します。 [ステータス](../../stores-purchase/order-status.md) アーカイブする注文の件数です。 デフォルトでは、ステータスが「完了」または「クローズ」のオーダーはアーカイブされます。 オプション： `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Settings]
 
@@ -217,4 +217,4 @@ ht-degree: 1%
 | [!UICONTROL Enable RMA on Product Level] | Web サイト | 製品情報の「RMA の有効化」フィールドのデフォルト値を決定します。 |
 | [!UICONTROL Use Store Address] | Web サイト | 返品された商品の出荷に使用する連絡先の名前と住所を決定します。 オプション： <br/>**`Yes`**— を使用します。 [原点](../../stores-purchase/shipping-settings.md#point-of-origin) 住所を [ 発送設定 ] から選択します。<br/>**`No`**  — 別の住所を入力できるように、住所フォームを開きます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

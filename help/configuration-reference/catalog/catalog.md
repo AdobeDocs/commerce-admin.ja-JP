@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: 次のページで設定を確認します： [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] コマース管理のページ。
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3095'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 | [!UICONTROL Mask for Meta Keywords] | グローバル | のデフォルト値を決定します。 _メタキーワード_ 他のフィールドのプレースホルダー値と、入力された追加のテキストに基づくフィールド。 デフォルトのプレースホルダー： <br/>製品名 — `{{name}}` |
 | [!UICONTROL Mask for Meta Description] | グローバル | 他のフィールドのプレースホルダー値と、入力された追加のテキストに基づいて、「メタの説明」フィールドのデフォルト値を決定します。 デフォルトのプレースホルダー： <br/>製品名 — `{{name}}` <br/>説明 — `{{description}}` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Reviews]
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 | [!UICONTROL Enabled] | ストア表示 | 製品レビューを有効にします。 オプション： `Yes` / `No` |
 | [!UICONTROL Allow Guests to Write Reviews] | Web サイト | 製品レビューを書き込むために、顧客がストアのアカウントを開く必要があるかどうかを決定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Storefront]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Show Swatches in Product List] | ストア表示 | スウォッチを製品リストに表示するかどうかを指定します。 オプション： `Yes` / `No` |
 | [!UICONTROL Show Swatch Tooltip] | ストア表示 | スウォッチのツールチップを表示するかどうかを指定します。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Alerts]
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 | [!UICONTROL Stock Alert Email Template] | ストア表示 | 在庫アラートの電子メール通知に使用されるテンプレートを識別します。 デフォルトのテンプレート： `Product stock alert` |
 | [!UICONTROL Alert Email Sender] | ストア表示 | 製品アラート電子メールメッセージの送信者として表示されるストア連絡先を決定します。 オプション： `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Alerts Run Settings]
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 | [!UICONTROL Error Email Sender] | グローバル | メールの役割を選択します `from`. |
 | [!UICONTROL Error Email Template] | グローバル | 製品アラートエラー通知に使用する電子メールテンプレートを選択します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Image Placeholders]
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 | [!UICONTROL Thumbnail] | ストア表示 | サムネール用に選択されたプレースホルダーファイルを指定します。 |
 | [!UICONTROL Choose File] |  | ファイルに移動し、そのファイルをタイプのプレースホルダー画像としてアップロードします。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Recently Viewed/Compared Products]
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 | [!UICONTROL Lifetime of products in Recently Viewed Widget] | グローバル | 最近表示された製品のリストに表示される時間（秒）を指定します。 |
 | [!UICONTROL Lifetime of products in Recently Compared Widget] | グローバル | 最近比較されたリストに比較対象の製品が表示される時間（秒）を決定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Video]
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 | [!UICONTROL Show related video] | ストア表示 | 関連ビデオを表示するには、をに設定します。 `Yes`. |
 | [!UICONTROL Auto restart video] | ストア表示 | ビデオを自動再生するには、に設定します。 `Yes`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Price]
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Price Scope] | グローバル | 基準通貨の範囲を決定します。 オプション： `Global` / `Website` |
 | [!UICONTROL Default Product Price] | グローバル | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerceのみ ) 該当する場合は、デフォルトの製品価格を定義します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Layered Navigation]
 
@@ -180,7 +180,7 @@ ht-degree: 0%
 | [!UICONTROL Default Price Navigation Step] | ストア表示 | 各ステップに含まれる製品の数を決定します。 |
 | [!UICONTROL Maximum Number of Price Intervals] | ストア表示 | 階層化されたナビゲーションに表示される価格帯の数を制限します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Category Permissions]
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 | [!UICONTROL Allow Adding to Cart] | Web サイト | カテゴリから製品を購入できるユーザーを決定します。 オプション： <br/>`Yes, for Everyone`  — 全員がカテゴリの製品を買い物かごに入れることができます。 <br/>`Yes, for Specified Customer Groups`  — 選択した顧客グループのメンバーのみが、カテゴリの製品を買い物かごに配置できます。 <br/>`No`  — カテゴリの製品を買い物かごに入れることはできません。 |
 | [!UICONTROL Disallow Catalog Search by] | Web サイト | カテゴリ内の製品の検索が許可されていない顧客グループを識別します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Optimization]
 
@@ -218,7 +218,7 @@ ht-degree: 0%
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | ストア表示 | 同じカテゴリページを指す URL が複数ある場合、このオプションは、正規のメタタグを使用して、検索エンジンでインデックスを作成する必要のあるカテゴリ URL を識別します。 この URL には、メタタグを使用して、カテゴリの完全な名前が含まれます。 これにより、重複するコンテンツが減り、SEO が向上します。 オプション： `Yes` / `No` |
 | [!UICONTROL Use Canonical Link Meta Tag for Products] | ストア表示 | 同じ製品ページを指す URL が複数ある場合、このオプションは、正規のメタタグを使用して、検索エンジンでインデックス付けする製品 URL を識別します。 URL には、メタタグを使用して製品の完全名が含まれます。 これにより、重複するコンテンツが減り、SEO が向上します。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Category Top Navigation]
 
@@ -230,7 +230,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Maximal Depth] | グローバル | 上部のナビゲーションでサブカテゴリのレベル数を決定します。 のデフォルト値 `0` では、レベル数に制限が設定されません。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog Search]
 
@@ -251,7 +251,7 @@ ht-degree: 0%
 | [!UICONTROL Number of top search results to cache] | ストア表示 | より速い応答を得るためにキャッシュに使用する、一般的な検索用語と結果の数。 値の入力 `0` は、2 回目に入力したときにすべての検索用語と結果をキャッシュします。 デフォルト値： `100` |
 | [!UICONTROL Autocomplete Limit] | ストア表示 | で使用できる行の最大数を決定します。 [ストアフロントポップオーバー] ページに貼り付けます。 デフォルト値は、ライブ検索がインストールされているときに変更でき、後でこの設定を変更することで更新できます。 デフォルト値： `8` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Adobe Commerce withElasticsearch
 
@@ -289,7 +289,7 @@ Elasticsearch付きのネイティブAdobe Commerceには、次の設定が含�
 | [!UICONTROL Show Results Count for Each Suggestion] | ストア表示 | 各提案に対して検索結果の数を表示するかどうかを指定します。 テーマに応じて、数字は通常、提案の後に角括弧で囲まれて表示されます。 オプション： `Yes` / `No` |
 | [!UICONTROL Minimum Terms to Match] | ストア表示 | クエリで返される検索結果に一致する必要がある用語の数に対応する値を指定します。 これにより、買い物客に最適な結果の関連性が確保されます。 割合の値は、数値に相関します。必要に応じて、切り捨てられ、クエリで一致させるキーワードの最小数として使用されます。 値は、負または正の整数、負または正のパーセント、2 つの組み合わせの組み合わせ、または複数の組み合わせにすることができます。 詳しくは、 [minimum_should_match パラメーター](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) (Elasticsearchドキュメント ) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Downloadable Product Options]
 
@@ -308,7 +308,7 @@ Elasticsearch付きのネイティブAdobe Commerceには、次の設定が含�
 | [!UICONTROL Use Content Disposition] | ストア表示 | ダウンロード可能なコンテンツへのリンクを、電子メール添付ファイルとして、またはブラウザーウィンドウ内のインラインリンクとして配信する方法を決定します。 オプション： <br/>**`Attachment`**— ダウンロードリンクは電子メールの添付ファイルとして配信されます。<br/>**`Inline`**  — ダウンロードリンクは Web ページ上でインラインリンクとして配信されます。 |
 | [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Web サイト | ダウンロード可能な製品を購入したゲストがアカウントに登録し、チェックアウトプロセスを完了するためにログインする必要があるかどうかを決定します。 オプション： <br/>**`Yes`**— 買い物かごにダウンロード可能な製品が含まれている場合、ゲストはアカウントに登録するか、既存のアカウントにログインして購入を完了する必要があります。<br/>**`No`**  — ダウンロードリンクは、電子メールメッセージの本文にインラインリンクとして配信されます。  <br/> _**注意：**_ ゲストのチェックアウトは、「共有可能」が「 `Yes`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Date & Time Custom Options]
 
@@ -323,7 +323,7 @@ Elasticsearch付きのネイティブAdobe Commerceには、次の設定が含�
 | [!UICONTROL Time Format] | ストア表示 | 時刻の形式を 12 時間または 24 時間のどちらかに設定します。 オプション： `12h AM/PM` / `24h` |
 | [!UICONTROL Year Range] | ストア表示 | に表示される年の開始と終了の範囲を定義します。 _年_ フィールドに入力します。 値は YYYY 形式で入力する必要があります。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog Events]
 
@@ -340,7 +340,7 @@ Elasticsearch付きのネイティブAdobe Commerceには、次の設定が含�
 | [!UICONTROL Number of Events to be Displayed in the Event Slider Widget] | ストア表示 | カテゴリページのイベントスライダーウィジェットに表示されるイベントの数を決定します。 上書きするには、 `limit="x"` 変数を使用します。 |
 | [!UICONTROL Events to Scroll per Click in Event Slider Widget] | ストア表示 | ホームページなど、CMS ページのイベントスライダーウィジェットに表示されるイベントの数を決定します。 上書きするには、 `scroll="x"` 変数を使用します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Rule-Based Product Relations]
 
@@ -362,4 +362,4 @@ Elasticsearch付きのネイティブAdobe Commerceには、次の設定が含�
 | [!UICONTROL Show Upsell Products] | グローバル | ストアに表示されるアップセル製品のリストを決定します。 「製品情報」で手動で選択したリスト、製品関係ルールに応じて生成されたリスト、またはこの 2 つの組み合わせを指定できます。 オプション： `Both Selected and Rule-Based` / `Selected Only` / `Rule-Based Only` |
 | [!UICONTROL Rotation Mode for Products in Upsell Product List] | グローバル | アップセル製品リストに表示される製品の順序を決定します。 オプション： `Do not rotate` / `Shuffle` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

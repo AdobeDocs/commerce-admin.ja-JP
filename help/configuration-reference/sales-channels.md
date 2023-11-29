@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales Channels] &gt; [!UICONTROL Global Settings]'
 description: 次のページで設定を確認します： [!UICONTROL Sales Channels] &gt; [!UICONTROL Global Settings] コマース管理のページ。
 exl-id: 28a5ef4b-265e-457a-9480-96763785b5fd
 feature: Configuration, Sales Channels
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -25,4 +25,4 @@ ht-degree: 0%
 | [!UICONTROL Enable Debug Logging] | グローバル | 選択 `Enabled` トラブルシューティングが必要な場合に、追加の同期データを収集する。<br/><br/>このオプションはデフォルトで無効になっており、ログの記録がパフォーマンスに悪影響を与えるので、トラブルシューティングに必要な場合にのみ有効にする必要があります。 トラブルシューティング用に有効にした場合、完了時に無効にする必要があります。<br/><br/>**_注意&#x200B;_**:AmazonSales Channelのログは、 `/var/log/channel_amazon.log` ファイルに保存し、 [開発者モード](../systems/developer-tools.md#operation-modes). |
 | [!UICONTROL Read-Only Mode] | グローバル | 選択 `Enabled` をクリックして、送信状態が変化するすべての API リクエストをブロックします。 潜在的な変更は、読み取り専用モードが無効になるまで保存されますが、送信されません。 データ転送を再度開始するには、「 」を選択します。 `Disabled`.<br/><br/>データベースがインスタンスの新しいコピーに移行された場合（設定でストアの URL が変更された場合に検出）、読み取り専用モードが自動的に有効になります。<br/><br/>これは、実稼動インスタンスのコピーで使用するために設計されています。例： _ステージング_ または _QA_、およびは、実稼動インスタンスでは使用しないでください。<br/><br/>**_注意&#x200B;_**：の設定キャッシュをクリアする必要があります。 [!UICONTROL Read-Only Mode] を有効にします。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

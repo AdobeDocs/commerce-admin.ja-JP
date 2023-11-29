@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
 description: 次のページで設定を確認します： [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] コマース管理のページ。
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '165'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Enable RSS] | ストア表示 | 顧客がストアから RSS フィードを受け取れるようにします。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Wish List]
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Enable RSS] | ストア表示 | 有効にすると、ウィッシュリストページの上部に RSS フィードリンクが表示されます。 ウィッシュリスト共有ページには、共有ウィッシュリストからフィードへのリンクをユーザーが選択できるチェックボックスが含まれています。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog]
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 | [!UICONTROL Coupons/Discounts] | ストア表示 | 有効にすると、クーポンまたは割引の通知を発行します。 |
 | [!UICONTROL Top Level Category] | ストア表示 | カタログの最上位カテゴリ構造に対する変更の通知をパブリッシュします。この変更はメインメニューに反映されます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
@@ -63,4 +63,4 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Customer Order Status Notification] | ストア表示 | 顧客が RSS フィードで注文ステータスを追跡できるようにします。 有効にすると、RSS フィードのリンクが注文に表示されます |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Security.txt]'
 description: 次のページで設定を確認します： [!UICONTROL Security] &gt; [!UICONTROL Security.txt] コマース管理のページ。
 exl-id: 26385864-cfd8-456b-91b2-bf5d019c09e1
 feature: Configuration, Security, Site Management
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enable] | Web サイト | 有効にすると、 `security.txt` ファイルを保存します。このファイルには、セキュリティ研究者が潜在的な脆弱性を報告するために必要な情報が含まれています。 オプション：<br />**`Yes`**- `security.txt` ファイルを _連絡先情報_ および _その他の情報_ セクション。<br />**`No`** - （デフォルト） `security.txt` ファイル。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Contact information]
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 | [!UICONTROL Phone] | Web サイト | セキュリティ上の問題の報告に使用できる電話番号。 |
 | [!UICONTROL Contact Page] | Web サイト | セキュリティの連絡先が一覧表示されるサイト上のページの URL、または _お問い合わせ_ ページに貼り付けます。 例: <br/>`https://mystore.com/security-contact.html`<br/>`https://mystore.com/contact/` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Other information]
 
@@ -51,4 +51,4 @@ ht-degree: 1%
 | [!UICONTROL Policy] | Web サイト | セキュリティポリシーおよび脆弱性レポートのプラクティスについて説明するページの URL。 例： `https://mystore.com/security-reporting.html` デフォルト： `https://mystore.com/security` |
 | [!UICONTROL Signature] | Web サイト | 電子署名ファイルへのリンク。 電子署名は、コマンドラインから生成され、 `.well-known` フォルダーをサーバー上に置きます。 詳しくは、 [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) GitHub で 例： `https://mystore.com/.well-known/security.txt.sig` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

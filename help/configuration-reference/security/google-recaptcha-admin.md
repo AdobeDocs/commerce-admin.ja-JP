@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel]'
 description: 次のページで設定を確認します： [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel] コマース管理のページ。
 exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Theme] | グローバル | Google reCAPTCHA ボックスのスタイルを決定します。 オプション： `Light Theme` （デフォルト） / `Dark Theme` |
 | [!UICONTROL Language Code] | グローバル | A [2 文字コード](https://developers.google.com/recaptcha/docs/language) Google reCAPTCHA のテキストおよびメッセージに使用する言語を指定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v2 Invisible]
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 | [!UICONTROL Theme] | グローバル | Google reCAPTCHA ボックスのスタイルを決定します。 オプション： `Light Theme` （デフォルト） / `Dark Theme` |
 | [!UICONTROL Language Code] | グローバル | A [2 文字コード](https://developers.google.com/recaptcha/docs/language) Google reCAPTCHA のテキストおよびメッセージに使用する言語を指定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v3 Invisible]
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 | [!UICONTROL Theme] | グローバル | Google reCAPTCHA ボックスのスタイルを決定します。 オプション： `Light Theme` （デフォルト） / `Dark Theme` |
 | [!UICONTROL Language Code] | グローバル | A [2 文字コード](https://developers.google.com/recaptcha/docs/language) Google reCAPTCHA のテキストおよびメッセージに使用する言語を指定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA Failure Messages]
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 | [!UICONTROL reCAPTCHA Validation Failure Message] | グローバル | 検証が失敗した場合に管理者に表示されるメッセージ。 デフォルトのテキスト： `reCAPTCHA verification failed.` |
 | [!UICONTROL reCAPTCHA Technical Failure Message] | グローバル | reCAPTCHA が検証結果を返さなかった場合に管理者に表示されるメッセージ。 デフォルトのテキスト： `Something went wrong with reCAPTCHA. Please contact the store owner.` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Admin Panel]
 
@@ -91,4 +91,4 @@ ht-degree: 0%
 | [!UICONTROL Enable for Login] | グローバル | に対して有効な reCAPTCHA のタイプを決定します。 [管理者ログイン](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html). オプション：<br/>**`No`**- （デフォルト）管理者ログインは検証されません。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — ユーザーが _私はロボットではありません_ チェックボックス。<br />**`Invisible reCAPTCHA v2`**— スコアに基づいたインタラクションを必要とせずに、バックグラウンドでのユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザーの行動を検証します。 |
 | [!UICONTROL Enable for Forgot Password] | グローバル | リクエストに対して有効になる reCAPTCHA のタイプを決定します。 [管理者パスワードのリセット](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password). オプション：<br/>**`No`**- （デフォルト）パスワードのリセット要求を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — ユーザーが _私はロボットではありません_ チェックボックス。<br />**`Invisible reCAPTCHA v2`**— スコアに基づいたインタラクションを必要とせずに、バックグラウンドでのユーザーの行動を検証します。<br/>**`Invisible reCaptcha v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザーの行動を検証します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

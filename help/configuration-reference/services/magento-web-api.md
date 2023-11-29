@@ -3,9 +3,9 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL Magento Web API]'
 description: 次のページで設定を確認します： [!UICONTROL Services] &gt; [!UICONTROL Magento Web API] コマース管理のページ。
 exl-id: 9e9857e7-6f5c-4273-9e82-c861e627827a
 feature: Configuration, Integration
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '324'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Default Response Charset] | ストア表示 | デフォルトの文字セットを決定します。 空の場合は、UTF-8 が使用されます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL GraphQl Input Limits]
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 | [!UICONTROL Enable Input Limits] | ストア表示 | GraphQL呼び出しで入力の制限を有効にするかどうかを指定します。 デフォルト値： `No`. |
 | [!UICONTROL Maximum Page Size] | ストア表示 | GraphQL応答のページ分割された検索結果で許可される項目の最大数を設定します。 このオプションは、 _入力制限を有効にする_ = `No`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Web Api Input Limits]
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 | [!UICONTROL Maximum Page Size] | ストア表示 | Web API 応答のページ分割された検索結果で許可される項目の最大数を設定します。 このオプションは、 _入力制限を有効にする_ = `No`. |
 | [!UICONTROL Default Page Size] | ストア表示 | Web API 応答のページ分割された検索結果のデフォルトの項目数を設定します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Web API Security]
 
@@ -58,7 +58,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Allow Anonymous Guest Access] | グローバル | ゲストが SOAP および REST API の両方から CMS、カタログ、およびリソースを匿名でアクセスできるかを決定します。 デフォルトでは、匿名のゲストによるアクセスは許可されていません。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL JWT Authentication]
 
@@ -71,4 +71,4 @@ ht-degree: 1%
 | [!UICONTROL Customer JWT Expires In] | グローバル | 顧客の JWT ベアラートークンの有効期限が切れるまでの時間（分単位）を設定します。 このフィールドが空または負の値の場合、顧客 JWT ベアラートークンは 30 分後に期限切れになります。 デフォルト値： `60` |
 | [!UICONTROL Admin User JWT Expires In] | グローバル | 管理 JWT ベアラートークンの有効期限が切れるまでの時間（分単位）を設定します。 このフィールドが空または負の値の場合、管理 JWT ベアラートークンは 30 分で有効期限が切れます。 デフォルト値： `60` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

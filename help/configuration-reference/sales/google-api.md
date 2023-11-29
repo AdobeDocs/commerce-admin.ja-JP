@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
 description: 次のページで設定を確認します： [!UICONTROL Sales] &gt; [!UICONTROL Google API] コマース管理のページ。
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Anonymize IP] | ストア表示 | 次に示す IP アドレスから識別情報が削除されるかどうかを指定します。 [!DNL Google Analytics] 結果。 |
 | [!UICONTROL Enable Content Experiments] | ストア表示 | 有効化 [Google Content Experiment](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207)：同じページの最大 10 の異なるバージョンをテストするために使用できます。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Analytics - Google Tag Manager]
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 | [!UICONTROL List property for the search results page] | ストア表示 | を識別します。 [!DNL Google Tag Manager] プロパティを検索結果ページに関連付けました。 デフォルト値： `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | ストア表示 | を識別します。 [!DNL Google Tag Manager] 内部プロモーションのラベルに関連付けられたプロパティ。 デフォルト値： `Label` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google AdWords]
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Conversion Value] | ストア表示 | に使用する値を指定します。 _[!UICONTROL Constant]_コンバージョン値のタイプ。 |
 | [!UICONTROL Send Order Currency] | ストア表示 | AdWords でトランザクション固有の通貨換算値を有効にします（異なる基本通貨を持つ Web サイトの場合）。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google GTag]
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 | [!UICONTROL Anonymize IP] | ストア表示 | [Google Analytics] の結果に表示される IP アドレスから識別情報を削除するかどうかを指定します。 |
 | [!UICONTROL Enable Content Experiments] | ストア表示 | 有効化 [Google Content Experiment](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207)：同じページの最大 10 の異なるバージョンをテストするために使用できます。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google Analytics4 - Google Tag Manager]
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 | [!UICONTROL List property for the search results page] | ストア表示 | を識別します。 [!DNL Google Tag Manager] プロパティを検索結果ページに関連付けました。 デフォルト値： `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | ストア表示 | を識別します。 [!DNL Google Tag Manager] 内部プロモーションのラベルに関連付けられたプロパティ。 デフォルト値： `Label` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google AdWords]
 
@@ -128,4 +128,4 @@ ht-degree: 0%
 | [!UICONTROL Conversion Value] | ストア表示 | に使用する値を指定します。 _[!UICONTROL Constant]_コンバージョン値のタイプ。 |
 | [!UICONTROL Send Order Currency] | ストア表示 | AdWords でトランザクション固有の通貨換算値を有効にします（異なる基本通貨を持つ Web サイトの場合）。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

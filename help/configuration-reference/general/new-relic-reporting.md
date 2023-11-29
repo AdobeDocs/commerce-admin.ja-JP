@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL New Relic Reporting]'
 description: 次のページで設定を確認します： [!UICONTROL General] &gt; [!UICONTROL New Relic Reporting] コマース管理のページ。
 exl-id: d6bf4810-81a3-420d-abc9-9b87c1e92551
 feature: Configuration, System, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '189'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 | [!UICONTROL New Relic Application Name] | ストア表示 | 割り当てた名前 [!DNL New Relic] 統合とも呼ばれます。 |
 | [!UICONTROL Send Adminhtml and Frontend as Separate Apps] | ストア表示 | ストアフロントおよび管理者用に収集されたレポートデータを別のアプリとしてNew Relicに送信するオプション。 このオプションには、 [!UICONTROL New Relic Application Name]. この機能では、収集されたアプリデータにアプリケーション名にアンダースコアを追加します。 例： `MyStore_Adminhtml`, `MyStore_frontend` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Cron]
 
@@ -44,4 +44,4 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enable Cron] | ストア表示 | 次の場合に決定 [!DNL New Relic] レポートは、 [Cron](../../systems/cron.md). オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

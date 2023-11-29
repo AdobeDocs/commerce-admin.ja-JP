@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: 次のページで設定を確認します： [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] コマース管理のページ。
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Merchant Country] | Web サイト | 商人がビジネスを行うために登録されている国を識別します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 推奨されるソリューション
 
@@ -86,7 +86,7 @@ PayPal は、あらゆる規模のビジネスのニーズを満たし、世界�
 | [!UICONTROL Maximum Order Total] | Web サイト | 小切手または送金で支払うことができる最大の注文額。 <br/><br/>**_注意：_**合計が最小または最大の注文合計の間にあるか、一致する場合に、注文が評価されます。 |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法と共にリストされた場合に、小切手または送金による支払いが表示される順序を決定する数値。 入力 `0` をクリックして、リストの一番上に配置します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Bank Transfer Payment]
 
@@ -105,7 +105,7 @@ PayPal は、あらゆる規模のビジネスのニーズを満たし、世界�
 | [!UICONTROL Maximum Order Total] | Web サイト | 銀行振替で支払える最大注文額。 <br/><br/>**_注意：_**合計が最小または最大の注文合計の間にあるか、一致する場合に、注文が評価されます。 |
 | [!UICONTROL Sort Order] | Web サイト | 銀行振替による支払が、チェックアウト時に他の支払方法と共にリストされた場合に表示される順序を決定する数値。 入力 `0` をクリックして、リストの一番上に配置します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Payment on Account]
 
@@ -126,7 +126,7 @@ PayPal は、あらゆる規模のビジネスのニーズを満たし、世界�
 | [!UICONTROL Maximum Order Total] | Web サイト | 会社アカウントに請求できる最大の注文額。 <br/><br/>**_注意：_**合計が最小または最大の注文合計の間にあるか、一致する場合に、注文が評価されます。 |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法と共に一覧表示された場合に、勘定で支払が表示される順序を決定する数値。 入力 `0` をクリックして、リストの一番上に配置します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ PayPal は、あらゆる規模のビジネスのニーズを満たし、世界�
 | [!UICONTROL Maximum Order Total] | Web サイト | 銀行振替で支払える最大注文額。 <br/><br/>**_注意：_**合計が最小または最大の注文合計の間にあるか、一致する場合に、注文が評価されます。 |
 | [!UICONTROL Sort Order] | Web サイト | 銀行振替による支払が、チェックアウト時に他の支払方法と共にリストされた場合に表示される順序を決定する数値。 入力 `0` をクリックして、リストの一番上に配置します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Zero Subtotal Checkout]
 
@@ -166,7 +166,7 @@ PayPal は、あらゆる規模のビジネスのニーズを満たし、世界�
 | [!UICONTROL Payment from Specific Countries] | Web サイト | ゼロ小計チェックアウトを適用できる特定の国を識別します。 |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法と共に表示される場合に、タイトル（「支払い情報は不要です」など）が表示される順序を決定する数値です。 入力 `0` をクリックして、リストの一番上に配置します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment actions]
 
@@ -185,7 +185,7 @@ PayPal は、あらゆる規模のビジネスのニーズを満たし、世界�
 | [!UICONTROL Order] | 定義された期間（最大 29 日）内に、マーチャントが顧客の購入者アカウントから 1 つ以上の注文の合計を取得できるようにする PayPal との契約を表します。 |
 | [!UICONTROL Sale] | 購入金額は、承認され、顧客のアカウントから直ちに取り下げられます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -208,4 +208,4 @@ PayPal は、あらゆる規模のビジネスのニーズを満たし、世界�
 | [!UICONTROL Maximum Order Total] | Web サイト | PO が支払える最大注文額。 <br/><br/>**_注意：_**合計が最小または最大の注文合計の間にあるか、一致する場合に、注文が評価されます。 |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払方法と共にリストされた場合に、発注による支払が表示される順序を決定する数値。 入力 `0` をクリックして、リストの一番上に配置します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Tax]'
 description: 次のページで設定を確認します： [!UICONTROL Sales] &gt; [!UICONTROL Tax] コマース管理のページ。
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
-source-git-commit: 0d1bb3666be18676acd770b6b96e4ee46d3cf1c9
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 | [!UICONTROL Default Tax Class for Product] | グローバル | 製品に使用されるデフォルトの税区分を識別します。 |
 | [!UICONTROL Default Tax Class for Customer] | グローバル | 顧客に使用されるデフォルトの税区分を識別します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Calculation Settings]
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Apply Tax On] | Web サイト | 税金を元の価格に適用するか、カスタム価格に適用するかを指定します（可能な場合）。 オプション： `Custom price if available` / `Original price only` |
 | [!UICONTROL Enable Cross Border Trade] | Web サイト | 有効にすると、異なる税率を持つ地域の国境をまたいで一貫した価格設定が適用されます。 オプション： `Yes` / `No` <br/><br/>**_注意：_**国境を越えた貿易を利用すると、税率によって利益幅が調整されます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Tax Destination Calculation]
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 | [!UICONTROL Default State] | ストア表示 | 税金計算の基準となる州を決定します。 アスタリスク (*) は、選択した国内のすべての州を示すワイルドカードとして機能できます。 |
 | [!UICONTROL Default Post Code] | ストア表示 | 税金の計算に基づく郵便番号または郵便番号を識別します。 アスタリスク (*) は、選択した状態のすべての郵便番号を示すワイルドカードとして機能します。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Price Display Settings]
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 | [!UICONTROL Display Product Prices in Catalog] | ストア表示 | カタログに公開された製品価格に税を含めるか除外するか、価格の 2 つのバージョン（1 つは付き、もう 1 つは税なし）を表示するかを指定します。 オプション： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_注意：_**「製品価格を表示」フィールドを `Including Tax`、税金が表示されるのは、税源と一致する税金ルールがある場合、または税金ルールと一致する顧客住所がある場合のみです。 一致をトリガーできるイベントには、顧客アカウントの作成、ログイン、買い物かごでの税金と送料の見積もりツールの使用などがあります。 |
 | [!UICONTROL Display Shipping Prices] | ストア表示 | 送料に税を含めるか除外するかを決定します。また、送料の 2 つのバージョン（1 つは、もう 1 つは税なし）を表示します。 オプション： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart Display Settings]
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 | [!UICONTROL Display Full Tax Summary] | ストア表示 | 買い物かごに完全な税金要約が含まれているかどうかを指定します。 オプション： `Yes` / `No` |
 | [!UICONTROL Display Zero Tax Subtotal] | ストア表示 | 税金がゼロの場合に、買い物かごに税額の小計が含まれるかどうかを指定します。 オプション： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders, Invoices, Credit Memos Display Settings]
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 | [!UICONTROL Display Gift Wrapping Prices] | ストア表示 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerceのみ ) ギフト用ラッピングの価格を小計に含めるかどうかを指定します。 オプション： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 | [!UICONTROL Display Printed Card Prices] | ストア表示 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerceのみ ) 印刷されたカード価格を小計に含めるかどうかを指定します。 オプション： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixed Product Taxes]
 
@@ -130,4 +130,4 @@ ht-degree: 0%
 | [!UICONTROL FPT Tax Configuration] | Web サイト | FPT 税の計算方法を決定します。 オプション： <br/>**`Not Taxed`**— 課税管轄区域が FPT に課税されない場合は、このオプションを選択します。 （例：カリフォルニア）。<br/>**`Taxed`**  — 課税管轄区域が税金 FPT の場合は、このオプションを選択します。 （例：カナダ）。 <br/>**`Loaded and Displayed with Tax`**— 税金を適用する前に FPT が注文合計に追加される場合は、このオプションをクリックします。 （例：EU 諸国）。 |
 | [!UICONTROL Include FPT in Subtotal] | Web サイト | FPT が買い物かごの小計に含まれるかどうかを指定します。 オプション： <br/>**`Yes`**— 買い物かごの小計に FPT を含みます。<br/>**`No`** - FPT は小計に含まれず、買い物かごの小計の後に配置されます。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

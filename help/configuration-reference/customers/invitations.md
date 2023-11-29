@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Invitations]'
 description: 次のページで設定を確認します： [!UICONTROL Customers] &gt; [!UICONTROL Invitations] コマース管理のページ。
 exl-id: edafeaed-9c4f-4d9f-b35c-381ae5f43b67
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Allow Customers to Add Custom Message to Invitation Email] | ストア表示 | 招待者が電子メールで招待者に送信するカスタムメッセージを追加できるフィールドが招待フォームにあるかどうかを指定します。 これは、管理者が招待にメッセージを追加する機能には影響しません。 オプション： `Yes` / `No`. |
 | [!UICONTROL Max Invitations Allowed to be Sent at One Time] | ストア表示 | 招待者が一度に送信できる招待の最大数を指定します。 招待者がフォームに含める電子メールアドレスごとに異なる招待メールが送信されます。 これにより、多数の招待が一度に送信されるのを防ぐことで、サーバーのリソースを保護し、招待がスパムとして送信される可能性を低くします。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email]
 
@@ -44,4 +44,4 @@ ht-degree: 0%
 | [!UICONTROL Customer Invitation Email Sender] | ストア表示 | 招待メールの送信者が招待メールの送信時に受け取る電子メールの送信者を指定します。 デフォルト値： `General Contact` |
 | [!UICONTROL Customer Invitation Email Template] | ストア表示 | 招待 E メールの送信時に招待者が受け取る E メールのテンプレートを指定します。 デフォルトのテンプレート： `Customer Invitation` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
