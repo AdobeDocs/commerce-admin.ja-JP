@@ -3,9 +3,9 @@ title: '''[!DNL Commerce Intelligence] ツール'
 description: Adobe CommerceとMagento Open Sourceのマーチャントが Commerce Intelligence ツールを使用して、健全なビジネス上の意思決定を行うためのインサイトを得る方法を説明します。
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
+source-git-commit: 78bcac16713f9ec87faf7029732972db73216e79
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Commerce Intelligence] アカウントは、 [!DNL Advanced Reporting] 機能。
+>との互換性の問題が原因で [!DNL Adobe Commerce Intelligence]、Commerce は、一時的に、のソースデータファイルのメディアとしてAWS S3 Bucket を使用する高度なレポート機能をサポートできません。 [!DNL Commerce Intelligence].
 
 ![高度なレポートダッシュボード](./assets/reporting-advanced.png){width="700"}
 
