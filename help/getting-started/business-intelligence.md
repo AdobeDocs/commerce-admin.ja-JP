@@ -1,32 +1,32 @@
 ---
-title: '''[!DNL Business Intelligence] ツール'
-description: Adobe CommerceとMagento Open Sourceのマーチャントがビジネスインテリジェンスツールを使用して、ビジネス上の意思決定を確実に行うためのインサイトを得る方法を説明します。
+title: '''[!DNL Commerce Intelligence] ツール'
+description: Adobe CommerceとMagento Open Sourceのマーチャントが Commerce Intelligence ツールを使用して、健全なビジネス上の意思決定を行うためのインサイトを得る方法を説明します。
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
 
-# [!DNL Business Intelligence] ツール
+# [!DNL Commerce Intelligence] ツール
 
-ビジネスインテリジェンスツールを使用して、適切なビジネス上の意思決定を行うために使用するインサイトを得る。
+コマースインテリジェンスツールを使用して、健全なビジネス上の意思決定に使用するインサイトを得ます。
 
-## [!DNL Business Intelligence] アカウント
+## [!DNL Commerce Intelligence] アカウント
 
-次をアクティブ化する場合： [!DNL Business Intelligence] Adobeを通じて、約 70 個のレポートを持つ 5 つのダッシュボードにアクセスできます。 これらのレポートは、データに関するインサイトを提供し、「前月比で増加する注文の量」、「最も常連的な顧客は誰ですか」、「クーポン戦略は機能していますか」などの質問に答えるように設計されています。 このツールセットについて詳しくは、 [MBI ユーザーガイド][1].
+次をアクティブ化する場合： [!DNL Commerce Intelligence] Adobeを通じて、約 70 個のレポートを持つ 5 つのダッシュボードにアクセスできます。 これらのレポートは、データに関するインサイトを提供し、「前月比で増加する注文の量」、「最も常連的な顧客は誰ですか」、「クーポン戦略は機能していますか」などの質問に答えるように設計されています。 このツールセットについて詳しくは、 [Commerce Intelligence ユーザーガイド][1].
 
 ## [!DNL Advanced Reporting]
 
-[!DNL Advanced Reporting] は、Adobe CommerceおよびMagento Open Sourceに含まれています。 この機能を使用すると、製品、注文、顧客データに基づく一連の動的レポートにアクセスし、ビジネスニーズに合わせてカスタマイズされたパーソナライズ済みダッシュボードを使用できます。 While [!DNL Advanced Reporting] uses [!DNL Business Intelligence] analytics の場合、使用するBusiness Intelligenceアカウントは不要です [!DNL Advanced Reporting].
+[!DNL Advanced Reporting] は、Adobe CommerceおよびMagento Open Sourceに含まれています。 この機能を使用すると、製品、注文、顧客データに基づく一連の動的レポートにアクセスし、ビジネスニーズに合わせてカスタマイズされたパーソナライズ済みダッシュボードを使用できます。 While [!DNL Advanced Reporting] uses [!DNL Commerce Intelligence] analytics の場合、使用する Commerce Intelligence アカウントは不要です。 [!DNL Advanced Reporting].
 
 技術情報については、 [[!DNL Advanced Reporting]][2]開発者向けドキュメントの {:target=&quot;_blank&quot;} トピック。
 
 >[!NOTE]
 >
->[!DNL Business Intelligence] アカウントは、 [!DNL Advanced Reporting] 機能。
+>[!DNL Commerce Intelligence] アカウントは、 [!DNL Advanced Reporting] 機能。
 
 ![高度なレポートダッシュボード](./assets/reporting-advanced.png){width="700"}
 

@@ -5,7 +5,7 @@ breadcrumb-title: はじめに
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 14c8c656fdba7bd08451161594d1347897ff6f12
+source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 1%
@@ -69,7 +69,7 @@ ht-degree: 1%
    + [顧客レポート](customer-reports.md)
    + [製品レポート](product-reports.md)
    + [プライベート販売レポート](private-sales-reports.md)
-   + [ビジネスインテリジェンスツール](business-intelligence.md)
+   + [Commerce Intelligence ツール](business-intelligence.md)
    + [New Relic Reporting](new-relic-reporting.md)
 + リソース {#resources}
    + [エコシステム](resources.md)
