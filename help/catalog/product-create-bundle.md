@@ -3,9 +3,9 @@ title: バンドル製品
 description: 買い物客がストアでカスタマイズした製品を構築できるバンドル製品を作成する方法を説明します。
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >動的な価格を使用するバンドル製品では、最小アドバタイズ価格 (MAP) を使用できません。
+
+>[!NOTE]
+>
+>親バンドル製品は、常にすべての子製品のアップセル製品として自動的に表示されます。
 
 次の場合 [即時購入](../stores-purchase/checkout-instant-purchase.md) が使用可能な場合は、 _即時購入_ ボタンが _買い物かごに追加_ ボタンを使用します。
 
@@ -276,3 +280,5 @@ The _[!UICONTROL Bundle Items]_「 」セクションは、「バンドル」プ
 ![チェックボックス](../assets/checkbox.png) 数量は、プリセット値またはユーザー定義値にすることができます。 ただし、 _[!UICONTROL User Defined]_プロパティを checkbox または複数選択入力タイプに設定します。
 
 ![チェックボックス](../assets/checkbox.png) バンドルの品目は、一緒にまたは別々に出荷できます。
+
+![チェックボックス](../assets/checkbox.png) 親バンドル製品は、常にすべての子製品のアップセル製品として自動的に表示されます。

@@ -3,9 +3,9 @@ title: 製品設定 — [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 description: 製品の場合、 [!UICONTROL Related Products, Up-Sells, and Cross-Sells] 設定は、製品ページで、追加の製品の選択を強調表示する単純なプロモーションブロックを定義します。
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,10 @@ ht-degree: 0%
    ![アップセル製品](./assets/product-up-sell-add.png){width="600" zoomable="yes"}
 
 1. 完了したら、「 **[!UICONTROL Add Selected Products]**.
+
+>[!NOTE]
+>
+>親バンドル製品は、常にすべての子製品のアップセル製品として自動的に表示されます。
 
 ## クロスセル
 
