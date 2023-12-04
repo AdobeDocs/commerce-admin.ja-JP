@@ -3,9 +3,9 @@ title: 報酬およびロイヤルティプログラム
 description: 顧客エンゲージメントを促進し、顧客の忠誠度を高めるために使用できる報酬ポイントシステムについて説明します。
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 9d775e8e8521032dc58f6cd1ed7796595db745a0
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,11 @@ The _報酬ポイント_ Adobe Commerceのシステムを使用すると、顧�
 
 1. 利用可能な報酬ポイントを自動的に払い戻す場合は、 **[!UICONTROL Refund Reward Points Automatically]** から `Yes`.
 
-1. 報酬ポイントを自動的に減らす場合は、 **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** から `Yes`.
+1. ポイントを獲得した注文が完全に返金された場合、または一部返金された場合に、購入によって獲得した報酬ポイントを無効にするには、 **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** から `Yes`.
+
+   >[!NOTE]
+   >
+   >払い戻される注文で獲得したポイントのみが影響を受けます。
 
 1. 設定 **[!UICONTROL Landing Page]** 報酬ポイントプログラムを説明するコンテンツページに移動します。
 
