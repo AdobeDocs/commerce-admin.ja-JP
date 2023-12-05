@@ -3,9 +3,9 @@ title: バンドル製品
 description: 買い物客がストアでカスタマイズした製品を構築できるバンドル製品を作成する方法を説明します。
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: eca41f653aa6499743982199f067d6df86079010
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ ht-degree: 0%
    - 価格を顧客が選択したオプションを反映させるには、 **[!UICONTROL Dynamic Price]** から `Yes` そして出て行く **[!UICONTROL Price]** 空白。
 
    - バンドルに固定価格を請求するには、 **[!UICONTROL Dynamic Price]** から `No` をクリックし、 **[!UICONTROL Price]** バンドルに対して請求する
+
+   >[!NOTE]
+   >
+   >[!UICONTROL Special Price] および [!UICONTROL Customer Group Price] (Tier Price) は、すべてのバンドル製品タイプの割引率として常に設定されます。
 
 1. 製品の公開準備がまだできていないので、を設定します。 **[!UICONTROL Enable Product]** から `No`.
 
@@ -282,3 +286,5 @@ The _[!UICONTROL Bundle Items]_「 」セクションは、「バンドル」プ
 ![チェックボックス](../assets/checkbox.png) バンドルの品目は、一緒にまたは別々に出荷できます。
 
 ![チェックボックス](../assets/checkbox.png) 親バンドル製品は、常にすべての子製品のアップセル製品として自動的に表示されます。
+
+![チェックボックス](../assets/checkbox.png) [!UICONTROL Special Price] および [!UICONTROL Customer Group Price] (Tier Price) は、すべてのバンドル製品タイプの割引率として常に設定されます。
