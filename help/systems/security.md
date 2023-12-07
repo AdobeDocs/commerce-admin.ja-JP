@@ -3,9 +3,9 @@ title: セキュリティ
 description: ストアとデータを保護するために使用できるツール、およびセキュリティアクションプランのガイドライン（セキュリティ侵害を検出した場合）について説明します。
 exl-id: 10eef4ac-de83-4083-9ba3-e42c8eb33781
 feature: Security, Site Management
-source-git-commit: 671ec7015c37b24ca0acc615ae3715b8b870a453
+source-git-commit: fede05a413428520eec89d46f41a1cdd9c9c3a2e
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,15 @@ ht-degree: 0%
 - 実装方法 [CAPTCHA](security-captcha.md) または [reCAPTCHA](security-google-recaptcha.md)
 - を設定します。 [セキュリティスキャン](security-scan.md) Adobe CommerceまたはMagento Open Sourceインストールの各ドメイン用
 
-次にアクセス： [セキュリティセンター](https://helpx.adobe.com/security.html){:target=&quot;_blank&quot;} を開き、セキュリティアラートレジストリに参加して、潜在的な脆弱性に関する最新のニュースを確認します。 セキュリティに関するベストプラクティスについて詳しくは、 [コマースサイトとインフラストラクチャの保護](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) （内） _実装プレイブック_.
-
 >[!NOTE]
 >
 >を有効にしたストア [!DNL Adobe Identity Management Services] (IMS) 認証では、ネイティブのAdobe CommerceとMagento Open Source2FA が無効になっています。 コマースインスタンスにログインしている管理者Adobeは、多くの管理者タスクを再認証する必要はありません。 認証は、管理者Adobe IMSが現在のセッションにログインする際にユーザーによって処理されます。 詳しくは、 [[!DNL Adobe Identity Management Service] (IMS) 統合の概要](../getting-started/adobe-ims-integration-overview.md).
 
+次にアクセス： [セキュリティセンター](https://helpx.adobe.com/security.html){:target=&quot;_blank&quot;} で、潜在的な脆弱性に関する最新のニュースを入手し、Adobeセキュリティ通知に登録して、Adobeのセキュリティセンターにアクセスします。
+
 ![セキュリティセンター](./assets/product-security-home.png){width="700" zoomable="yes"}
+
+セキュリティに関するベストプラクティスについて詳しくは、 [コマースサイトとインフラストラクチャの保護](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) （内） _実装プレイブック_.
 
 ## セキュリティアクションプラン
 

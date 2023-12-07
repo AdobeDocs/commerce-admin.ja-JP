@@ -3,9 +3,9 @@ title: ストアの URL
 description: ストア URL の概要と、ベース URL およびストアコードの設定方法について説明します。
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 555c54e9a980aa181e0b4380412ad027d80ee10f
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ Adobe CommerceとMagento Open Sourceは、すべてのページを `HTTPS` デ�
 
 ## カスタム管理 URL を使用
 
-As a [セキュリティのベストプラクティス](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf)の場合、Adobeでは、デフォルトの _admin_ または一般的な用語 _backend_. サイトを特定の悪役から直接保護するわけではありませんが、不正なアクセスを得ようとするスクリプトに対する露出を減らすことができます。
+As a [セキュリティのベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)の場合、Adobeでは、デフォルトの _admin_ または一般的な用語 _backend_. サイトを特定の悪役から直接保護するわけではありませんが、不正なアクセスを得ようとするスクリプトに対する露出を減らすことができます。
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ As a [セキュリティのベストプラクティス](https://www.adobe.com/co
 
 >[!NOTE]
 >
->予防措置として、サーバー上の設定ファイルの編集方法がわからない限り、自分で Admin URL を変更しないようにしてください。
+>予防措置として、サーバー上の設定ファイルの編集方法がわからない限り、自分で Admin URL を変更しないようにしてください。 クラウドインフラストラクチャにデプロイされたAdobe Commerceプロジェクトの場合は、次の手順に従って Admin URL を変更します。 [instructions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) （内） *Adobe Commerce on Cloud Infrastructure ガイド*.
 
 ### 方法 1：管理者からの変更
 
