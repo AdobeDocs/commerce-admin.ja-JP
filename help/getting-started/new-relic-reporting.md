@@ -1,12 +1,12 @@
 ---
-title: ''' レポート''[!DNL New Relic]'
-description: ' [!DNL New Relic] 新規 Relic APMサービスのソフトウェアを含む、クラウドインフラストラクチャー上のAdobe Systemsコマースのアカウントで利用できるレポートについて説明します。'
+title: '[!DNL New Relic] レポート'
+description: 詳しくは、 [!DNL New Relic] New Relic APM サービスのソフトウェアを含む、クラウドインフラストラクチャ上のAdobe Commerceのアカウントのレポートで使用できます。
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
-source-git-commit: e9a7645aed0e3b48bf565b04cdb6a31ce5d39ca0
+source-git-commit: 0651a2489a396ab142b60a8678d6c7590fd5f9ee
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1382'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 ## 手順 1：に新規登録する [!DNL New Relic] アカウント
 
-1. Web サイトにアクセスし、 [[!DNL New Relic]][1] アカウントにサインアップします。
+1. 次に移動： [[!DNL New Relic]][1] web サイトにアクセスし、アカウントに新規登録します。
 
-   無償試用版アカウントにサインアップすることもできます。
+   無料体験版アカウントに登録することもできます。
 
 1. サイトの指示に従ってください。 プロンプトが表示されたら、最初にインストールする製品を選択します。
 
@@ -28,8 +28,8 @@ ht-degree: 0%
    | オプション | 説明 |
    | ------ | ----------- |
    | アカウント ID | お使いの [!DNL New Relic] アカウントダッシュボードの「アカウント ID 」は、URL の次の番号になります。 `/accounts` |
-   | アプリケーション ID | お使いの [!DNL New Relic] アカウントダッシュボードで、 **[!UICONTROL New Relic APM]**. メニューで、「 」を選択します。 **[!UICONTROL Applications]**. 次に、アプリケーションを選択します。 アプリケーション ID は、URL 内の次の後の番号です。 `/applications/` |
-   | New Relic API キー | お使いの [!DNL New Relic] アカウントダッシュボードで、 **[!UICONTROL Account Settings]**. 左側の「統合」の下にあるメニューで、を選択します。 **[!UICONTROL Data Sharing]**. このページから API キーを作成、再生成、または削除できます。 |
+   | アプリケーション ID | お使いの [!DNL New Relic] アカウントダッシュボードで、 **[!UICONTROL New Relic APM]**. メニューで、「 」を選択します。 **[!UICONTROL Applications]**. 次に、アプリケーションを選択します。 アプリケーション ID は、URL次の後の番号です。 `/applications/` |
+   | 新規 Relic API キー | お使いの [!DNL New Relic] アカウントダッシュボードで、 **[!UICONTROL Account Settings]**. 左側の「統合」の下にあるメニューで、を選択します。 **[!UICONTROL Data Sharing]**. このページから API キーを作成、再生成、または削除できます。 |
    | インサイト API キー | お使いの [!DNL New Relic] アカウントダッシュボードで、 **[!UICONTROL Insights]**. 左側の「管理」の下にあるメニューで、を選択します。 **[!UICONTROL API Keys]**. インサイト API キーがこのページに表示されます。 必要に応じて、プラス記号 (**+**) をクリックし、キーを生成するキーを挿入します。 |
 
    {style="table-layout:auto"}
@@ -49,6 +49,11 @@ ht-degree: 0%
    詳しくは、 [cron の設定と実行][5] （開発者向けドキュメント）。
 
 ## 手順 3：ストアの設定
+
+>[!NOTE]
+>これらの設定オプションは、クラウドインフラストラクチャ上のAdobe Commerceには適用されません。
+>
+>Pro プランを使用している場合、New Relicは既に [デフォルトで事前設定および有効化](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). スタータープランを使用している場合は、 [New Relicの設定手順](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) 設定プロセスの一部です。
 
 1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -72,7 +77,7 @@ ht-degree: 0%
 
 1. （オプション）の場合 **[!UICONTROL Send Adminhtml and Frontend as Separate Apps]**&#x200B;を選択します。 `Yes` ストアフロントと管理者用に収集したデータを別個のアプリとしてNew Relicに送信する場合。
 
-   このオプションを使用するには、 に名前を入力する必要があります **[!UICONTROL New Relic Application Name]**。
+   このオプションには、 **[!UICONTROL New Relic Application Name]**.
 
    >[!NOTE]
    >
@@ -82,7 +87,7 @@ ht-degree: 0%
 
 ## 手順 4:Cron を有効にする [!DNL New Relic] レポート
 
-1. ![拡張 セクションセレクター](../assets/icon-display-expand.png)**[!UICONTROL Cron]**&#x200B;拡張。
+1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Cron]** 」セクションに入力します。
 
    ![New Relic Cron 設定](./assets/new-relic-reporting-cron.png){width="600"}
 
@@ -110,8 +115,8 @@ ht-degree: 0%
 
     SELECT uniques(AdminName)
     FROM トランザクション
-    WHERE appName=&#39;&lt;your_app_name>&#39; SINCE 15 分前
-&lt;/your_app_name>
+    WHERE appName=&#39;&lt;your_app_name>&#39; 15 分前から
+
 #### 最近の管理者アクティビティ
 
 最近の管理者アクションの数を返します。
@@ -133,7 +138,7 @@ ht-degree: 0%
 
 #### カテゴリー数
 
-指定された期間内の、カテゴリ別のアプリケーションイベント数を返します。
+指定した期間におけるカテゴリイベントのアプリケーション数を返します。
 
     SELECT average(CatalogCategoryCount)
     Cron から
@@ -145,12 +150,12 @@ ht-degree: 0%
 指定された期間の、カテゴリ別のカタログ内のアプリケーションイベントの平均数を返します。
 
     SELECT average(CatalogCategoryCount)
-    Cron から
-    CATALOGCategoryCount が NULL ではない場合
+    FROM Cron
+    WHERE CatalogCategoryCount IS NOT NULL
     AND CatalogCategoryCount > 0
-    AND appName = &#39;&lt;your_app_name>&#39; 2 分前の制限 1 から
-
-#### アクティブな製品
+    AND appName = &#39;&lt;your_app_name>&#39; SINCE 2 分前 LIMIT 1
+&lt;/your_app_name>
+#### アクティブ製品
 
 指定された期間内の製品ごとのアプリケーションイベント数を返します。
 
@@ -281,12 +286,12 @@ ht-degree: 0%
 
 #### アクティブな顧客
 
-指定した期間期間中のアクティブな顧客の名前を返します。
+指定された期間のアクティブな顧客の名前を返します。
 
     SELECT uniques(CustomerName)
     FROM トランザクション
-    WHERE appName=&#39;&lt;your_app_name>&#39; SINCE 15 分前
-&lt;/your_app_name>
+    WHERE appName=&#39;&lt;your_app_name>&#39; 15 分前から
+
 #### 上位の顧客
 
 指定した期間の上位の顧客を返します。
@@ -297,7 +302,7 @@ ht-degree: 0%
 
 #### 最近の管理者アクティビティ
 
-顧客名と訪問の期間を含む、最近のアクティビティの定義済みレコード数を返します。
+顧客名と訪問期間を含む、最近のアクティビティの定義済みのレコード数を返します。
 
     SELECT CustomerName, duration, name
     FROM Transaction
@@ -312,18 +317,18 @@ ht-degree: 0%
 指定した期間における注文数を返します。
 
     SELECT count(Order)
-    1 日前からのトランザクション
+    FROM トランザクション 1 日前以降
 
 #### 合計注文額
 
 指定された期間に注文された行項目の合計数を返します。
 
     SELECT sum(orderValue)
-    1 日前からのトランザクション
+    FROM トランザクション 1 日前以降
 
-#### 並べ替えられたライン項目の合計
+#### オーダーされた合計行項目
 
-指定された期間に注文された行項目の合計数を返します。
+指定した期間の中で注文された行項目の合計数を返します。
 
     SELECT sum(lineItemCount)
     1 日前からのトランザクション

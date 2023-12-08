@@ -3,16 +3,21 @@ title: '[!UICONTROL General] &gt; [!UICONTROL New Relic Reporting]'
 description: 次のページで設定を確認します： [!UICONTROL General] &gt; [!UICONTROL New Relic Reporting] コマース管理のページ。
 exl-id: d6bf4810-81a3-420d-abc9-9b87c1e92551
 feature: Configuration, System, Reporting
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 1aec5c618d1f3f7f083523956d2aee62b777faca
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 1%
+source-wordcount: '241'
+ht-degree: 0%
 
 ---
 
 # [!UICONTROL General] > [!UICONTROL New Relic Reporting]
 
 {{config}}
+
+>[!NOTE]
+>これらの設定オプションは、クラウドインフラストラクチャ上のAdobe Commerceには適用されません。
+>
+>Pro プランを使用している場合、New Relicは既に [デフォルトで事前設定および有効化](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). スタータープランを使用している場合は、 [New Relicの設定手順](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) 設定プロセスの一部です。
 
 ## [!UICONTROL General]
 
