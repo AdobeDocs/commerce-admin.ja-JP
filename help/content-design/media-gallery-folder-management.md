@@ -3,10 +3,10 @@ title: メディアギャラリーフォルダー管理
 description: フォルダーを使用してメディアアセットを整理する方法を説明します。
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 65521c2b2113768ebec43b3aadac487d4d07c3a0
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 1%
+source-wordcount: '139'
+ht-degree: 0%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 1%
 フォルダーを使用して新しい [メディアギャラリー](media-gallery.md). メディアアセットの数が多くなると、フォルダーを使用すると、メディアギャラリー内の既存のアセットを簡単に見つけて管理できます。
 
 ## フォルダーの作成
+
+>[!NOTE]
+>
+>フォルダーは、 `pub/media/wysywig` および `pub/media/catalog/category` フォルダー。
 
 1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
@@ -30,7 +34,7 @@ ht-degree: 1%
 
 >[!WARNING]
 >
->フォルダーを削除すると、そのフォルダー内のすべての画像が削除されます。
+>フォルダーを削除すると、そのフォルダー内のすべての画像が削除されます。 削除できるのは、 `pub/media/wysywig` および `pub/media/catalog/category` フォルダー。
 
 1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
