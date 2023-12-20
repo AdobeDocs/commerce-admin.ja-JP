@@ -3,9 +3,9 @@ title: バンドル製品
 description: 買い物客がストアでカスタマイズした製品を構築できるバンドル製品を作成する方法を説明します。
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: e38958bb57251ccc9409b849abc1aadb82ff0a54
+source-git-commit: 891b94d84ed411232aa163f99bb110780d399dfb
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 束は _独自に構築_、カスタマイズ可能な製品。 バンドル内の各品目は、次の製品タイプのいずれかに基づくことができます。
 
 - [シンプルな製品](product-create-simple.md)
-- [仮想製品](product-create-virtual.md)
-- [ダウンロード可能な製品](product-create-downloadable.md)
 - [仮想製品](product-create-virtual.md)
 
 ![バンドル製品](./assets/product-bundle.png){width="700" zoomable="yes"}
