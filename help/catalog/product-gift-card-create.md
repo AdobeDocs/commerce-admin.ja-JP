@@ -3,9 +3,9 @@ title: ギフトカード商品
 description: 受信者の顧客がチェックアウト時に交換する一意のコードを生成するギフトカード製品を作成する方法を説明します。
 exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 feature: Catalog Management, Products, Gift
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: e72977596c4479d2e94b1e066ee166d22cb12405
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,10 @@ ht-degree: 0%
    - 許容可能な最小値と最大値の範囲を定義するには、 **[!UICONTROL Open Amount From]** および **[!UICONTROL To]** 値。
 
    固定価格、開封額価格、またはその両方を使用してギフトカードを作成できます。
+
+   >[!NOTE]
+   >
+   >ギフトカード商品は、カタログに独自の価格を持っていません。 ギフトカードの価格は、購入時に選択したギフトカードの金額から導きます。
 
    ![ギフトカードの金額](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
@@ -152,5 +156,7 @@ The _[!UICONTROL Gift Card Information]_製品設定のセクションを使用�
 - ギフトカードの有効期間は、無制限にすることも、指定した日数に設定することもできます。
 
 - ギフトカードの価値は、一定額に設定することも、最小額と最大額の開封額に設定することもできる。
+
+- ギフトカード商品は、カタログに独自の価格を持っていません。 ギフトカードの価格は、購入時に選択したギフトカードの金額から導きます。
 
 - 顧客のギフトカードのアカウントは、注文が行われたとき、または請求書の時点で作成できます。

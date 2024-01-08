@@ -3,9 +3,9 @@ title: 設定可能な製品
 description: 買い物客に選択のバリエーションを提供する設定可能な製品を作成する方法を説明します。
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -204,6 +204,10 @@ The [属性セット](attribute-sets.md) 製品で使用されるフィールド
 
 次のいずれかの方法を使用して、 **[!UICONTROL prices]**:
 
+>[!NOTE]
+>
+>設定可能な製品は、カタログに独自の価格を持ちません。 設定可能な製品価格は、 [!UICONTROL In Stock] 子製品。
+
 **メソッド 1:** すべての SKU に同じ価格を適用
 
 1. すべてのバリエーションで価格が同じ場合は、「 **[!UICONTROL Apply single price to all SKUs]**.
@@ -373,6 +377,8 @@ The _在庫ステータス_ 設定可能な製品の一部は、その子製品�
 - [在庫ステータス](../inventory-management/sources-stocks.md) 設定可能な製品の場合は、半手動で制御された設定です。 シンプルな製品の在庫ステータスとは異なります。シンプルな製品の在庫ステータスは、製品の可用性を直接表します。 設定可能な製品の場合、在庫ステータスは複数条件の在庫ステータス計算の一部です。
 
 - 構成可能な子製品は、シンプルな製品または仮想製品にすることができます。 **カスタムオプションなし**. カスタムの子製品を仮想化するには、 `Тhis item has no weight` （の） **[!UICONTROL Weight]** それぞれの設定に含まれています。
+
+- 設定可能な製品は、カタログに独自の価格を持ちません。 設定可能な製品価格は、 [!UICONTROL In Stock] 子製品。
 
 - 製品バリエーションに使用する属性は、グローバルスコープで、顧客は値を選択する必要があります。 設定可能な製品のテンプレートとして使用される属性セットに、製品バリエーション属性を含める必要があります。
 

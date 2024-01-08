@@ -3,9 +3,9 @@ title: バンドル製品
 description: 買い物客がストアでカスタマイズした製品を構築できるバンドル製品を作成する方法を説明します。
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 891b94d84ed411232aa163f99bb110780d399dfb
+source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. バンドルの価格を決定するには、次のいずれかの操作を行います。
 
-   - 価格を顧客が選択したオプションを反映させるには、 **[!UICONTROL Dynamic Price]** から `Yes` そして出て行く **[!UICONTROL Price]** 空白。
+   - 価格を顧客が選択したオプションを反映させるには、 **[!UICONTROL Dynamic Price]** から `Yes` そして出て行く **[!UICONTROL Price]** 空白。 この場合、バンドル製品はカタログから独自の価格を持たず、製品価格はバンドルに含まれる個々の製品の価格から導き出されます。
 
    - バンドルに固定価格を請求するには、 **[!UICONTROL Dynamic Price]** から `No` をクリックし、 **[!UICONTROL Price]** バンドルに対して請求する
 
