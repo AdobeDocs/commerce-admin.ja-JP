@@ -3,9 +3,9 @@ title: 買い物かごの価格ルールの作成
 description: 買い物かごまたは製品属性に基づいて買い物かごの価格ルールを作成する方法を説明します。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: bf52884cb0eccd4d9c7326a95f8600a3ed950918
+source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
 workflow-type: tm+mt
-source-wordcount: '2885'
+source-wordcount: '2971'
 ht-degree: 0%
 
 ---
@@ -240,13 +240,13 @@ Real-Time CDPに基づく買い物かごの価格ルールの条件を設定で�
    | `Percent of product price discount` | 元の価格から割合を引くことによる割引品目。 割引は、買い物かご内の各対象品目に適用されます。 例： `10` in [!UICONTROL Discount Amount] 元の価格より 10%安い更新価格。 |
    | `Fixed amount discount` | 割引品目。買い物かご内の対象となる各品目の元の価格から固定金額を引きます。 例： `10` in [!UICONTROL Discount Amount] 元の価格より 10 ドル安い更新価格。 |
    | 買い物かご全体の固定金額の割引 | 買い物かごの合計から固定金額を引くことで、買い物かご全体の割引を行います。 例： 10 in と入力します。 [!UICONTROL Discount Amount] 買い物かごの合計から$10 を引きます。 デフォルトでは、割引は買い物かごの小計にのみ適用されます。 割引を小計と配送に別々に適用するには、 _[!UICONTROL Apply to Shipping Amount]_オプション。 |
-   | `Buy X get Y free` | 顧客が無料で数量を受け取るために購入する必要がある数量を定義します。 ( [!UICONTROL Discount Amount] は Y) |
+   | `Buy X get Y free` | 数量 Y を受け取るために顧客が購入する必要がある数量 X を定義します **同じ製品/バリエーションの** 無料で。 ( [!UICONTROL Discount Amount] が Y) 割引を適用するには、同じ品目の X+Y の合計数量が買い物かごに存在し、買い物かごに追加されている必要があります。 |
 
    {style="table-layout:auto"}
 
    - 次を入力します。 **[!UICONTROL Discount Amount]** 数値（記号なし） 例えば、選択した割引オプションに応じて、数値 10 は、割合、固定金額または品目の数量を示します。
 
-   - の _X を購入 Y を無料で取得_ 割引：数量を **[!UICONTROL Discount Qty Step (Buy X)]** 顧客が割引を受けるために購入する必要があるフィールド。
+   - の _X を購入 Y を無料で取得_ 割引：数量を **[!UICONTROL Discount Qty Step (Buy X)]** 顧客が Y 数量の割引を受けるために購入する必要がある、単一の製品/SKU/行項目のフィールド。 X と Y の両方が同じ SKU の数量を指し、品目の特定の数量（設定可能な製品のバリエーションは個別にカウントされます）を買い物かごに手動で追加する必要があります。
 
    - Adobe Analytics の **[!UICONTROL Maximum Qty Discount is Applied To]** 「 」フィールドに、同じ購入で割引を受けることができる同じ製品の最大数量を入力します。
 
