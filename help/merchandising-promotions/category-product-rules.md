@@ -3,9 +3,9 @@ title: マーチャンダイジングのカテゴリルール
 description: 条件のセットに従って製品の選択を動的に変更するルールを作成する方法を説明します。
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 50951e5aae51067cdba2d8b50c1e530c7f79007a
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 
    ![自動並べ替え](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
 
-   並べ替えは、現在の条件に基づいておこなわれます。
+   並べ替え順のオプションはグローバルに定義され、現在の条件に基づいて適用されます。 Web サイト、ストア、ストアの表示レベルに異なる並べ替え順を設定することはできません。
 
    | 並べ替えオプション | 説明 |
    |-----------| -----------|
