@@ -4,9 +4,9 @@ description: 会社アカウントに関連付けられた顧客が見積もり�
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 21361104fa06425df0b44d5c7ae204ef4d9e21ac
+source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 1. 顧客が、を使用してユーザーアカウントに購入者としてログインする。 [権限](account-company-roles-permissions.md) 見積もりをリクエストする
 
 1. 見積もりに含める製品を買い物かごに追加します。
+
+   >[!TIP]
+   > 
+   >注文する製品 SKU のリストがある場合は、 [クイックオーダー](quick-order.md).
 
 1. 選択 **[!UICONTROL Request a Quote]**.
 
