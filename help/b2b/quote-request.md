@@ -4,9 +4,9 @@ description: 会社アカウントに関連付けられた顧客が見積もり�
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
+source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 0%
 
    >[!TIP]
    > 
-   >注文する製品 SKU のリストがある場合は、 [クイックオーダー](quick-order.md).
+   >顧客は、 [クイックオーダー](quick-order.md).
 
 1. 選択 **[!UICONTROL Request a Quote]**.
 
    ![買い物かごからの見積もりのリクエスト](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
-1. Adobe Analytics の **[!UICONTROL Add your comment]** ボックスに、リクエストを説明する簡単なメモを入力します。
+1. Adobe Analytics の **[!UICONTROL Add your comment]** ボックスに、顧客がリクエストを説明する簡単なメモを入力します。
 
 1. 次の項目に入る **[!UICONTROL Quote Name]**.
 
@@ -51,4 +51,4 @@ ht-degree: 0%
    - 「 」を選択して見積を販売者に送信します。 **[!UICONTROL Request a Quote]**.
    - [!BADGE 1.5.0 — ベータ版機能]{type=Informative url="/help/b2b/release-notes.md" tooltip="ベータ版プログラム参加者のみ利用可能"}**[!UICONTROL Save as Draft]**.
 
-     購入者が見積書を下書きとして保存した場合、見積書は [!UICONTROL My Quotes] in `Draft` 状態。 Buyer が下書き見積もりを開いて送信するまで、売り手には表示されません。
+     購入者が見積書を下書きとして保存した場合、見積書はで使用できます。 [!UICONTROL My Quotes] in `Draft` 状態。 下書き引用符は、購入者がレビュー用に送信するまで、販売者には表示されません。
