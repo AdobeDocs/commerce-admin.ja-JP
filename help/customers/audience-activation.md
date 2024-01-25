@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: f7b8e47aa5a8113fac768b8086ace3bf673193c5
+source-git-commit: 2eacc773f96540691decaf1ca798328bc51a5d70
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Luma ストアフロントでオーディエンスをアクティブ化するこ
 
 _2023 年 8 月 16 日_
 
-![修正点](../assets/new.svg)  — 更新された [Real-Time CDP Audiences ダッシュボード](#real-time-cdp-audiences-dashboard) フィルタリングを簡単にする。
+![修正点](../assets/fix.svg)  — 更新された [Real-Time CDP Audiences ダッシュボード](#real-time-cdp-audiences-dashboard) フィルタリングを簡単にする。
 
 _2023 年 6 月 28 日_
 
@@ -49,6 +49,22 @@ _2023 年 5 月 31 日_
 ![新規](../assets/new.svg)  — 更新された [Real-Time CDP Audiences ダッシュボード](#real-time-cdp-audiences-dashboard) :Adobe Commerceインスタンス内のアクティブなオーディエンスを並べ替え、検索、フィルタリングする機能を含めます。
 
 +++
+
+### 2.1.0
+
+[!BADGE 互換性]{type=Informative tooltip="互換性"}
+
+_2024 年 1 月 25 日_
+
+![新規](../assets/new.svg)  — 更新された [Real-Time CDP Audiences ダッシュボード](#real-time-cdp-audiences-dashboard) ：オーディエンスを含む web サイトを含め、それらのオーディエンスを使用するように設定される動的ブロックおよび買い物かごの価格ルールを指定します。
+
+### 2.0.1
+
+[!BADGE 互換性]{type=Informative tooltip="互換性"}
+
+_2023 年 11 月 17 日_
+
+![修正点](../assets/fix.svg)  — 安定性が向上。
 
 ### 2.0.0
 
@@ -137,16 +153,20 @@ composer require magento/audiences
 
 1. クリック **設定を保存**.
 
-オーディエンスをAdobe Commerceインスタンスに対してアクティブ化すると、次のことができます。
+## コマースでReal-Time CDPオーディエンスを使用する場所
+
+を使用 [!DNL Audience Activation] 拡張機能を有効にすると、次の操作を実行できます。
 
 - [買い物かごの価格ルールの作成](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) 聴衆から情報を得る
 - [ダイナミックブロックを作成する](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 聴衆から情報を得る
 
 ## Real-Time CDP audiences ダッシュボード
 
-Adobe Commerceインスタンス内でパーソナライズ可能なすべてのアクティブなオーディエンスを表示するには、 **Real-Time CDP Audiences** ダッシュボード。 任意のオーディエンス [有効化済み](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) 「 Real-Time CDPのAdobe Commerce宛先」に、このダッシュボードが表示されます。
+すべてを表示できます [アクティブ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) Adobe Commerceインスタンス内で、 **Real-Time CDP Audiences** ダッシュボード。
 
 次の手順で **Real-Time CDP Audiences** ダッシュボードに移動します。 _管理者_ サイドバー、次に移動 **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
+
+![Real-Time CDP Audiences ダッシュボード](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
 
 ダッシュボードには、次のフィールドが含まれます。
 
@@ -156,9 +176,12 @@ Adobe Commerceインスタンス内でパーソナライズ可能なすべての
 | `Search` | コマースインスタンス内のアクティブなオーディエンスを検索できます。 |
 | `Name` | Real-Time CDPでオーディエンスに与えられた名前。 |
 | `Origin` | オーディエンスがどこから来たかを示します（例： ）。 `Experience Platform`. |
+| `Websites` | オーディエンスを使用するように設定されている Web サイトを示します。 |
+| `Dynamic Blocks` | オーディエンスを使用するように設定されている動的ブロックを示します。 |
+| `Cart Price Rules` | オーディエンスを使用するように設定されている買い物かごの価格ルールを示します。 |
 | `Last updated` | オーディエンスがReal-Time CDPで変更された日時を示します。 |
 | `Sync now` | Real-Time CDPから新しいオーディエンスまたは更新されたオーディエンスを取得します。 |
-| `Customize table` | 表示/非表示を切り替える `Origin` および `Last updated` 列。 |
+| `Customize table` | 表示/非表示を切り替える `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`、および `Last updated` 列。 |
 
 {style="table-layout:auto"}
 
