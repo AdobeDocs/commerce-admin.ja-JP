@@ -4,9 +4,9 @@ description: 次のページで設定を確認します： [!UICONTROL Advanced]
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 3a113d162f13c659ee52ae3cbff2c7a3873d3857
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1636'
 ht-degree: 1%
 
 ---
@@ -142,21 +142,22 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-## [!UICONTROL Scheduled Backup Settings]
+## [!UICONTROL Backup Settings]
 
-![詳細設定 — スケジュールバックアップ設定](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
-
-これらの設定の変更について詳しくは、 [システムのバックアップ](../../systems/backups.md) （内） _管理システムガイド_.
+![詳細設定 — バックアップ設定](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
 
 {{$include /help/_includes/backups-note.md}}
 
+これらの設定の変更について詳しくは、 [システムのバックアップ](../../systems/backups.md) （内） _管理システムガイド_.
+
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable Scheduled Backup] | グローバル | コマースインスタンスを定期的に自動的にバックアップするかどうかを指定します。 オプション： `Yes` / `No` |
-| [!UICONTROL Backup Type] | グローバル | バックアップに含まれる Commerce インスタンスの要素を決定します。 オプション： `Database` / `Database and Media` / `System` / `System (excluding Media)` |
-| [!UICONTROL Start Time] | グローバル | スケジュールされたバックアップを開始する時間、分、秒を指定します。 |
-| [!UICONTROL Frequency] | グローバル | スケジュールされたバックアップの実行頻度を決定します。 オプション： `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Maintenance Mode] | グローバル | スケジュールされたバックアップ中にストアをメンテナンスモードにするかどうかを指定します。 オプション： `Yes` / `No` |
+| [!UICONTROL Enable Backup] | グローバル | コマースインスタンスがバックアップを許可するかどうかを指定します。 オプション： `Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | グローバル | （次の場合に表示） _[!UICONTROL Enable Backup]_が `Yes`.) コマースインスタンスを定期的に自動的にバックアップするかどうかを指定します。 オプション： `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | グローバル | （次の場合に表示） _[!UICONTROL Enable Scheduled Backup]_が `Yes`.) バックアップに含まれる Commerce インスタンスの要素を決定します。 オプション： `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Start Time] | グローバル | （次の場合に表示） [!UICONTROL Enable Scheduled Backup] が `Yes`.) スケジュールされたバックアップを開始する時間、分、秒を指定します。 |
+| [!UICONTROL Frequency] | グローバル | （次の場合に表示） [!UICONTROL Enable Scheduled Backup] が `Yes`.) スケジュールされたバックアップの実行頻度を決定します。 オプション： `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Maintenance Mode] | グローバル | （次の場合に表示） [!UICONTROL Enable Scheduled Backup] が `Yes`.) スケジュールされたバックアップ中にストアをメンテナンスモードにするかどうかを指定します。 オプション： `Yes` / `No` |
 
 {style="table-layout:auto"}
 
