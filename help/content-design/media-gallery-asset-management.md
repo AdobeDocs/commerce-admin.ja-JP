@@ -3,7 +3,7 @@ title: Media Gallery アセット管理
 description: Adobe Stock統合を通じて取得したアップロード済みメディアファイルおよびアセットを管理する方法について説明します。
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -72,6 +72,8 @@ ht-degree: 0%
 1. メディアアセットを使用できる領域から、新しいメディアギャラリーにアクセスします。
 
 1. アセットを選択し、 **[!UICONTROL Add Selected]**.
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}
 
 ## アセットの削除
 

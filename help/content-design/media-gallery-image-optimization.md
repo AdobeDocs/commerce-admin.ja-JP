@@ -3,9 +3,9 @@ title: メディアギャラリー画像の最適化
 description: 画像の最適化を [!DNL Commerce] メディアアセット。
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -32,3 +32,5 @@ ht-degree: 0%
 次の場合に _最大幅_ および _最大の高さ_ の値が設定内で変更されると、以前に挿入された既存の最適化済み画像がすべて更新されます。
 
 メディアギャラリーの画像の最適化では、 `media.gallery.renditions.update` キューコンシューマーは、設定が変更されたときに最適化された画像を再生成するために実行中です。 詳しくは、 [メッセージキューの管理](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) （内） _設定ガイド_ を参照してください。
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}
