@@ -3,9 +3,9 @@ title: 共有： [!DNL Commerce] アカウント
 description: 制限付きアクセスを許可する方法を学ぶ [!DNL Commerce] その他の [!DNL Commerce] アカウント所有者。
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: adccffa3b9735eaa77f119271d026fa01cd1337b
+source-git-commit: 8d4c37f512030c907d26b0210ddaad11ce605dfe
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,12 @@ The [!DNL Commerce] サポートチームはアカウントへのアクセス権
 
    >[!NOTE]
    >
-   > 次の場合  **[!UICONTROL Delete]** が表示されない場合は、 **[!UICONTROL Share Name]** 次で始まる `Cloud Shared Access from MAG XYZ` （通常は） [これらのアカウント](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) は削除できません。
+   > 次の場合  **[!UICONTROL Delete]** が表示されない場合は、 **[!UICONTROL Share Name]** 次で始まる `Cloud Shared Access from MAG XYZ` - [これらのアカウント](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) は削除できません。
+   > 
+   > その場合は、アカウントの所有者に、共有アクセスアカウントを変更し、アカウントの権限をクリアするよう依頼します。 更新後、ユーザーはリソースへの共有アクセスを使用できなくなります。
+   >
+   > また、電子メール通知を受け取らなくなるよう、ユーザーがプロジェクトから削除されていることを確認します。 [以前のチームメンバーはAdobe Commerceクラウド通知メールを受け取ります](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+
 
 1. 確認するメッセージが表示されたら、「 **[!UICONTROL Delete User]**.
 
