@@ -2,12 +2,10 @@
 title: Adobe Commerceの HIPAA 対応
 description: Adobe Commerce HIPAA 対応モジュールを追加する方法、および HIPAA の義務を遵守するための追加の機能を取得する方法を説明します。
 feature: Security, Compliance
-hide: true
-hidefromtoc: true
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 10b01db562777ef2fcc224177d7a83c0a6fc90e7
+source-git-commit: 3364a07b4c79a60ed813bf669a04711b69dae6f9
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -106,7 +104,7 @@ The _アクションログ_ レポートグリッド (**[!UICONTROL System]** /�
    - ***ソース***：アクションが実行された場所を表示します。\
      値： `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
    - ***クライアントの種類***：クライアントタイプを表示します。\
-     値：顧客 |管理者 |統合
+     値：顧客 | 管理者 | 統合
 
 
 2. 名前を変更 ***ユーザー名*** から ***クライアント識別子***
