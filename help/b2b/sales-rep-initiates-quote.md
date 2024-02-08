@@ -4,9 +4,9 @@ description: 販売者が特定の購入者がネゴシエーション・プロ�
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
+source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 1. 「 」を選択して見積もりに品目を追加します **[!UICONTROL Add Product By SKU]**. SKU 番号と数量を入力し、「 」を選択します。 **[!UICONTROL Add Product]**.
 
-![販売者が購買担当の見積書の下書きに品目を追加しています](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+   ![販売者が購買担当の見積書の下書きに品目を追加しています](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
 
 1. 必要に応じて、製品に品目割引を適用します。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    - 次の日： [!UICONTROL Discount Line item] フォームで、 **[!UICONTROL Discount Type]**.
 
-   ![見積もりに行項目の割引を適用](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+     ![見積もりに行項目の割引を適用](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
    - Adobe Analytics の [!UICONTROL Discount] 「 」フィールドで、割引タイプの値を入力します。 たとえば、割引率を選択した場合は、10 と入力して、行項目に 10%の割引を適用します。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 1. 購入者の追加情報を追加します。
 
-   In [!UICONTROL Negotiation - Comments]」でメモを追加し、購入者に必要なサポートファイルを添付します。 [!UICONTROL Negotiation - Comments]
+   次の日： **[!UICONTROL Negotiation - Comments]** 「 」タブで、メモを追加し、購入者に必要なサポートファイルを添付します。
 
    ![販売者が購入者に情報を追加](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
@@ -95,9 +95,7 @@ ht-degree: 0%
 
    見積もりを下書きとして保存するか、購入者に送信します。
 
-   - 見積もりを下書きとして保存すると、ステータスは次のように更新されます： `Draft` 確認メッセージが表示されます。
-
-     ![確認下書き見積もりが購入者に送信されました](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+   - 見積もりを下書きとして保存すると、ステータスは次のように更新されます： `Draft` と入力し、確認メッセージが表示されます。
 
    - 見積もりを購入者に送信すると、ステータスは「 」に変わります。 `Submitted`. 購入者は、見積もりを確認するための電子メール通知を受け取ります。 見積もりは、購入者が後でネゴシエーションを行うために返すまでロックされます。 販売者は、Quote グリッドまたは Customer グリッドから見積もりを表示できます。
 
