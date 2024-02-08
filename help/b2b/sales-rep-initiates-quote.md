@@ -4,9 +4,9 @@ description: 販売者が特定の購入者がネゴシエーション・プロ�
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: be3427f6cc2bab68b6d2b0fa0c36b83dc310e528
+source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -95,11 +95,11 @@ ht-degree: 0%
 
    見積もりを下書きとして保存するか、購入者に送信します。
 
-   見積もりを購入者に送信すると、ステータスは「 」に変わります。 `Submitted`見積もりは、購入者が見積もりを見積もるまでロックされ、ステータスが下書きに更新され、確認メッセージが表示されます。
+   - 見積もりを下書きとして保存すると、ステータスは次のように更新されます： `Draft` 確認メッセージが表示されます。
 
-   ![確認下書き見積もりが購入者に送信されました](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+     ![確認下書き見積もりが購入者に送信されました](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
 
-購入者は、見積もりを確認するための電子メール通知を受け取ります。 見積もりは、購入者が後でネゴシエーションを行うために返すまでロックされます。 売り手は、Quote グリッドまたは Customer グリッドから見積もりを表示できます。
+   - 見積もりを購入者に送信すると、ステータスは「 」に変わります。 `Submitted`. 購入者は、見積もりを確認するための電子メール通知を受け取ります。 見積もりは、購入者が後でネゴシエーションを行うために返すまでロックされます。 販売者は、Quote グリッドまたは Customer グリッドから見積もりを表示できます。
 
 ## 顧客グリッドから見積もりを表示および作成
 
