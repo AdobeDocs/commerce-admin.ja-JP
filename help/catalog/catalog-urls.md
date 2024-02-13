@@ -3,9 +3,9 @@ title: カタログと製品の URL
 description: カタログ製品の URL 形式タイプと、それらの設定方法について説明します。
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ URL キーは、製品またはカテゴリを説明する静的 URL の一部�
 
 >[!NOTE]
 >
->アクセント記号付きの特殊文字は、URL キーの通常のアクセント記号付きでないバージョンに自動的に置き換えられます。 例： `ñ` は自動的にに置き換えられます。 `n`.
+>デフォルトでは、アクセント記号付きの特殊文字は、URL キー内の通常のアクセント記号付きでないバージョンに自動的に置き換えられます。 例： `ñ` は自動的にに置き換えられます。 `n`. この動作は、 _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_設定オプション `No`. 詳しくは、 [カタログ URL の設定](#configure-catalog-urls).
 
 URL キーは、単語を区切るために、末尾にハイフンを含まない小文字の文字で構成する必要があります。 ハイフンは、URL キーの先頭または末尾では使用できません。 適切に設計された「検索エンジン対応」URL キーには、検索エンジンによるインデックス付けを改善するために、製品名とキーワードが含まれる場合があります。 URL キーは、URL キーが変更された場合に自動リダイレクトを作成するように設定できます。
 
