@@ -3,9 +3,9 @@ title: Adobe Experience Cloud Commerce Admin との統合
 description: ユーザーがExperience Cloudのホームページからコマースプロジェクトにアクセスできるように、コマースとExperience Cloudを統合する Admin Unified Experience 拡張機能について説明します。
 feature: Integration
 exl-id: e3fb6337-c7d5-4b6f-8f4a-583697a1f2d2
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+source-git-commit: a07c91bc2f01cd110f3e0ccd6d27fe5d37eb2fc9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Adobe Experience Cloud Commerce 統合
 
 {{ee-feature}}
-
-{{$include /help/_includes/admin-unified-experience-beta-note.md}}
 
 管理 Unified Experience 拡張機能を有効にして、Adobe CommerceプロジェクトをExperience Cloudと統合します。 統合がアクティブな場合、管理者はAdobe Experience Cloudから Commerce プロジェクトにアクセスできます。
 
