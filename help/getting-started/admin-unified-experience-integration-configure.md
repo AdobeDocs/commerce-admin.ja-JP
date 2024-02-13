@@ -6,9 +6,9 @@ hidefromtoc: false
 feature: Integration
 role: Admin, Leader
 exl-id: b2522d25-8255-4219-98b5-4b764430dea2
-source-git-commit: a4e4dec2dc7a6ba2c065e0fa571f3ff0aaecd847
+source-git-commit: 8278d725a7377b865c118b86a57702cd2be43238
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Experience Cloud統合を設定する前に、プロジェクトとコマース�
      bin/magento admin:adobe-ims:status
      ```
 
-   モジュールが有効でない場合、 [IMS 統合プロジェクトの組織と資格情報を使用して有効にします](../getting-started/adobe-ims-config.md#step-3-enable-the-adminadobeims-module). 資格情報をお持ちでない場合は、 [Adobeサポートチケットを送信](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+   モジュールが有効でない場合、 [IMS 統合プロジェクトの組織と資格情報を使用して有効にします](../getting-started/adobe-ims-config.md#step-3-enable-the-adminadobeims-module).
 
 1. 管理者ユーザーが、Adobe IDを使用してコマース管理者にログインできることを確認します。
 
