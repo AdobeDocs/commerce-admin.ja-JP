@@ -3,9 +3,9 @@ title: 関連する製品ルールの作成
 description: 関連製品、アップセルおよびクロスセルを表示するためにトリガーできる関連製品ルールを作成する方法を説明します。
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: 8f5a5fb6c277086e5f70221e4a6a5ae1b9e1abfe
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,10 @@ ht-degree: 0%
    - の場合 **[!UICONTROL Result Limit]**「 」で、結果リストに表示するレコード数を入力します。 最大数は 20 です。
 
    - ルールが特定の [顧客セグメント](../customers/customer-segments.md)，設定 **[!UICONTROL Customer Segments]** から `Specified` 「 」リストから顧客セグメントを選択します。
+
+   - (**ベータ版**) ルールが特定の [Real-Time CDPオーディエンス](../customers/audience-activation.md)，設定 **[!UICONTROL Real-Time CDP Audience]** から `Specified` リストからReal-Time CDPオーディエンスを選択します。 この機能はベータ版です。 ベータ版プログラムに参加したい場合は、にリクエストを送信してください。 [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+     ![関連製品ルール — Real-Time CDPオーディエンス](./assets/rtcdp-related-products.png){width="500"}
 
 1. 左側のパネルで、を選択します。 **[!UICONTROL Products to Match]** そして、 [カタログ価格ルール](price-rules-catalog.md).
 

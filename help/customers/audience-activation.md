@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 2eacc773f96540691decaf1ca798328bc51a5d70
+source-git-commit: db8344ab8890c20bb0b3c7d25da95b6007858d6a
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,15 @@ _2023 年 5 月 31 日_
 ![新規](../assets/new.svg)  — 更新された [Real-Time CDP Audiences ダッシュボード](#real-time-cdp-audiences-dashboard) :Adobe Commerceインスタンス内のアクティブなオーディエンスを並べ替え、検索、フィルタリングする機能を含めます。
 
 +++
+
+### 2.2.0-beta1
+
+[!BADGE 互換性]{type=Informative tooltip="互換性"}
+
+_2024 年 2 月 17 日_
+
+![新規](../assets/new.svg)  — ベータ版に参加している場合は、 `composer.json` ファイルのルートレベルは次のようになります。 ` "minimum-stability": "beta"`.
+![新規](../assets/new.svg) - (**ベータ版**) を作成する機能を追加しました。 [関連製品ルール](../merchandising-promotions/product-related-rule-create.md) オーディエンスから情報を得た。
 
 ### 2.1.0
 
@@ -147,11 +156,7 @@ composer require magento/audiences
 
 1. 展開 **[!UICONTROL Services]** を選択し、 **[!UICONTROL [!DNL Data Connection]]**.
 
-1. Adobe Analytics の [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#send-historical-order-data) ガイド：手順 1 に従います。 **Adobe Developer Console でプロジェクトを作成する**、および 2: **設定ファイルをダウンロード**. 結果として、 **[!UICONTROL [!DNL Data Connection]]** 設定ページ：
-
-   ![Real-Time CDP Audience Admin 設定](./assets/epc-admin-config.png){width="700" zoomable="yes"}
-
-1. クリック **設定を保存**.
+1. [追加](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) サービスアカウントと資格情報の詳細。
 
 ## コマースでReal-Time CDPオーディエンスを使用する場所
 
@@ -159,6 +164,7 @@ composer require magento/audiences
 
 - [買い物かごの価格ルールの作成](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) 聴衆から情報を得る
 - [ダイナミックブロックを作成する](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 聴衆から情報を得る
+- [(**ベータ版**) 関連する製品ルールの作成](../merchandising-promotions/product-related-rule-create.md) 聴衆から情報を得る
 
 ## Real-Time CDP audiences ダッシュボード
 
@@ -187,11 +193,11 @@ composer require magento/audiences
 
 ## ヘッドレスサポート
 
-AEMやPWAなどのヘッドレスAdobe Commerceインスタンスでオーディエンスをアクティブ化して、買い物かごの価格ルールや、オーディエンスに基づく動的ブロックを表示できます。
+AEMやPWAなどのヘッドレスAdobe Commerceインスタンスでオーディエンスをアクティブ化して、買い物かごの価格ルール、関連する製品ルール、オーディエンスに基づく動的ブロックを表示できます。
 
-### 買い物かごの価格ルール
+### 買い物かごの価格ルールと関連製品ルール
 
-買い物かごの価格ルールの場合、ヘッドレスストアフロントは、 [COMMERCE INTEGRATION FRAMEWORK(CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). このフレームワークは、GraphQLを使用して実装されたサーバー側 API を提供します。 買い物客のセグメントなどのオーディエンス情報は、次の名前のGraphQLヘッダーパラメーターを通じてコマースに渡されます。 `aep-segments-membership`.
+買い物かごの価格ルールおよび関連する製品ルールの場合、ヘッドレスストアフロントは、 [COMMERCE INTEGRATION FRAMEWORK(CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). このフレームワークは、GraphQLを使用して実装されたサーバー側 API を提供します。 買い物客のセグメントなどのオーディエンス情報は、次の名前のGraphQLヘッダーパラメーターを通じてコマースに渡されます。 `aep-segments-membership`.
 
 全体的なアーキテクチャは次のとおりです。
 
@@ -323,4 +329,35 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 }
 ```
 
-データを取得したら、それを使用して、オーディエンスに知られた情報を作成できます [買い物かご価格ルール](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) および [動的ブロック](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) （コマースアプリ内）をクリックします。
+データを取得したら、それを使用して、オーディエンスに知られた情報を作成できます [買い物かご価格ルール](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences), [動的ブロック](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) および  [関連製品ルール](../merchandising-promotions/product-related-rule-create.md) （コマースアプリ内）をクリックします。
+
+## Commerce にオーディエンスが表示されない
+
+Real-Time CDPオーディエンスが Commerce に表示されない場合は、次の原因が考えられます。
+
+- 次の項目で選択された認証タイプが正しくありません： **データ接続** 設定ページ
+- 生成されたトークンに対する権限が不十分です
+
+次の 2 つの節で、どちらの場合のトラブルシューティング方法について説明します。
+
+### 設定で選択された認証タイプが正しくありません
+
+1. コマースインスタンスを開きます。
+1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 展開 **[!UICONTROL Services]** を選択し、 **[!UICONTROL [!DNL Data Connection]]**.
+1. サーバー間認証方法が、 **[!UICONTROL Authentication Type]** フィールドが正しい。 Adobeは、 **OAuth**. JWT は非推奨（廃止予定）となりました。 [詳細情報](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+
+### 生成されたトークンに対する権限が不十分です
+
+この問題は、生成されたトークンに対する API 権限が不十分なことが原因で発生する可能性があります。 トークンに正しい権限が設定されていることを確認するには、次の手順を実行します。
+
+1. 組織内のAdobe Experience Platformのシステム管理者を特定します。
+1. 使用するプロジェクトと資格情報を見つけます。
+1. テクニカルアカウントの E メールを識別します。例： `fe3c9476-1234-1234-abcd-2a51a785009a@techacct.adobe.com`.
+1. システム管理者にAdobe Experience Platformを起動させ、に移動してもらう **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
+1. 上記のテクニカルアカウント電子メールを使用して、変更する資格情報を検索します。
+1. 資格情報を開き、「 」を選択します。 **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
+1. 追加 **実稼動環境へのすべてのアクセス**.
+1. クリック **[!UICONTROL Save]**.
+1. [再生成](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) コンソールのアクセストークン。
+1. を使用して、トークンが有効な応答を提供していることを確認します。 [Target 接続 API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).

@@ -3,9 +3,9 @@ title: 関連する製品ルール
 description: 関連する製品ルールと、それらを使用して、関連する製品、アップセルおよびクロスセルを顧客に動的に表示する方法について説明します。
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-source-git-commit: 91e6c63f1f6f16b957366f9d5cc651f9eded31c8
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -132,3 +132,12 @@ ht-degree: 0%
 | [!UICONTROL Weighted Random] | 優先度の高いルールに属する製品が、優先度の低いルールに属する製品よりも出現する確率が高くなるように、製品がランダム化されます。 その後、製品は設定可能な最大数に減らされ、優先度ごとに再グループ化されます。 このモードでは、優先度の低い製品が、他のスロットに優先度の高いルールの製品がいっぱいになる場合でも、表示される可能性があります |
 
 {style="table-layout:auto"}
+
+## Real-Time CDPオーディエンスを使用して、関連する製品ルールに通知を送信する
+
+>[!NOTE]
+>
+>この機能はベータ版です。 ベータ版プログラムに参加したい場合は、にリクエストを送信してください。 [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+
+方法を学ぶ [アクティブ化](../customers/audience-activation.md) Real-Time CDPオーディエンスをAdobe Commerceインスタンスに取り込み、関連する製品ルールに通知します。
