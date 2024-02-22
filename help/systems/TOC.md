@@ -5,9 +5,9 @@ breadcrumb-title: 管理システムガイド
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: c7ba2f0e75a730a8beb235b07fced8367bb87462
+source-git-commit: b8a49b1e1525c5af4e159bc2bd899aadc97b78c6
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '173'
 ht-degree: 2%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 2%
       - [ダウンロード可能な製品を読み込む](data-transfer-downloadable-products.md)
       - [階層価格データのインポート](data-import-price-tier.md)
    - [予定されているインポートおよびエクスポート](data-scheduled-import-export.md)
+   - [データ管理ダッシュボード](data-dashboard.md)
 - アクションログ {#action-logs}
    - [概要](action-log.md)
    - [アクションログレポート](action-log-report.md)
