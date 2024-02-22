@@ -3,10 +3,10 @@ title: ID を使用したコマース管理者統合の設定
 description: Adobe Commerce Admin ユーザーアカウントログインとAdobe IDを統合する場合の、この手順（オプション）に従います。
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 20b2560ce2b8071c740907292544519f8b1c3ddf
+source-git-commit: 0c79449ca05056d7a14242bbc859cb1bd4dc526e
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 1%
+source-wordcount: '755'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,8 @@ Commerce の管理者ユーザーは、Adobe IDでアカウントを作成して
 
 * からのAdobe組織 ID の取得 [Adobe Admin Console](https://adminconsole.adobe.com/)
 * から新しいプロジェクト、IMS API キーおよび暗号鍵を生成します。 [Adobe Developer Console](https://developer.adobe.com/)
-* を有効にします。 `AdminAdobeIms` モジュール
-* Adobe Admin ConsoleでAdobe Commerceユーザーを設定します。
+* Adobe Admin ConsoleでのAdobe Commerceユーザーの設定
+* を有効にします。 `AdminAdobeIms` モジュール。
 
 統合を成功させるには、すべてのAdobe Commerceユーザーが同じ名前とプライマリ電子メールアドレスを持つ管理者ユーザーアカウントを持っている必要があります。 一致する管理者ユーザーアカウントが存在しない場合は、必要な権限（通常は管理者の役割が割り当てられる）を持つユーザーが手動で作成する必要があります [管理者ユーザーアカウントの作成](../systems/permissions-users-all.md#create-a-user) 同じ名前と E メールを持つ
 
@@ -69,7 +69,29 @@ Commerce の管理者ユーザーは、Adobe IDでアカウントを作成して
 1. クリック **[!UICONTROL Save configured API]**.
 1. をコピーします。 [!UICONTROL Client ID] および [!UICONTROL Client Secret] 作成したプロジェクトのキー。
 
-### 手順 3:AdminAdobeIms モジュールの有効化
+### 手順 3:Adobe Admin ConsoleでのAdobe Commerceユーザーの設定
+
+統合を有効にする前に、各Adobe Commerce Admin ユーザーアカウントに対応するAdobe IMSアカウントがあることを確認します。 Adobe CommerceユーザーがAdobe IDを使用してログインするには、特定のAdobe組織に属している必要があります。
+
+>[!TIP]
+>
+>CSV ファイルからユーザー情報をアップロードして、複数のユーザーアカウントを作成できます。 詳しくは、 [複数のユーザーを管理](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+
+1. Adobe Analytics の [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)に移動します。 **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
+
+1. クリック **[!UICONTROL Add User]**.
+
+1. ユーザーの電子メールアドレスを入力します。
+
+   該当する場合、推奨 ID タイプが自動的に入力されます。 この設定は、組織の購入プランに基づく、リスト内の製品 ID の 1 つに変更できます。
+
+   一度に 10 人までのユーザーを追加できます。 さらに追加するには、変更を保存した後で、上記の手順を繰り返します。
+
+1. クリック **[!UICONTROL Save]**.
+
+ユーザーが追加され、「 [!UICONTROL Users] リスト。
+
+### 手順 4:AdminAdobeIms モジュールの有効化
 
 The `AdminAdobeIms` モジュールは、Adobe Commerce/Adobe IMSの統合を担当します。 新しいプロジェクトを設定し、組織 ID、クライアント ID、クライアントの秘密鍵をコピーした後、 `AdminAdobeIms` モジュール。
 
@@ -83,21 +105,3 @@ The `AdminAdobeIms` モジュールは、Adobe Commerce/Adobe IMSの統合を担
 Adobe Commerceは、イネーブルメントが成功したか失敗したかを示すメッセージを表示します。
 
 この機能を正常に有効にした後、他のAdobe CommerceユーザーアカウントをAdobe IMSアカウントに移行できます。 Adobe CommerceユーザーがAdobe IDを使用してログインするには、設定済みのAdobe組織に属している必要があります。
-
-### 手順 4:Adobe Admin ConsoleでのAdobe Commerceユーザーの設定
-
-この機能を正常に有効にした後、他のAdobe CommerceユーザーアカウントをAdobe IMSアカウントに移行できます。 Adobe CommerceユーザーがAdobe IDを使用してログインするには、1 つ以上のAdobe組織に属している必要があります。
-
-1. Adobe Analytics の [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)に移動します。 **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
-
-1. クリック **[!UICONTROL Add User]**.
-
-1. ユーザーの電子メールアドレスを入力します。
-
-   該当する場合、推奨 ID タイプが自動的に入力されます。 この設定は、組織の購入プランに基づく、リスト内の製品 ID の 1 つに変更できます。
-
-   一度に 10 人までのユーザーを追加できます。 さらに追加するには、変更を保存した後で、上記の手順を繰り返します。
-
-1. クリック **[!UICONTROL Save]**.
-
-ユーザーが追加され、「 [!UICONTROL Users] リスト。
