@@ -2,9 +2,9 @@
 user-guide-title: 顧客管理ガイド
 breadcrumb-title: 顧客管理
 feature: Customers
-source-git-commit: 093df1c806443dee29e604cc4229aaa9304dbec4
+source-git-commit: 142c01f1bc5b1292ee2001c5dd7235e5b592b7cb
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '122'
 ht-degree: 2%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 2%
 + 顧客管理ツール {#customers-menu}
    + [顧客リスト](customers-all.md)
    + [オンラインになりました](now-online.md)
+   + [規模に応じたパーソナライゼーション](personalize-scale.md)
 + 顧客アカウント {#customer-accounts}
    + [アカウントの範囲](customer-account-scope.md)
    + アカウントオプション {#configure}
