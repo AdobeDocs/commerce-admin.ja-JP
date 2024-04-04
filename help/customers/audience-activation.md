@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: db8344ab8890c20bb0b3c7d25da95b6007858d6a
+source-git-commit: d1079c8eac20c08a17af1f72bf49b6cb859c0699
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _2023 年 5 月 31 日_
 ![新規](../assets/new.svg)  — 更新された [Real-Time CDP Audiences ダッシュボード](#real-time-cdp-audiences-dashboard) :Adobe Commerceインスタンス内のアクティブなオーディエンスを並べ替え、検索、フィルタリングする機能を含めます。
 
 +++
+
+### 2.1.1
+
+[!BADGE 互換性]{type=Informative tooltip="互換性"}
+
+_2024 年 4 月 5 日_
+
+![新規](../assets/new.svg) - PHP 8.3 のサポートを追加しました。
 
 ### 2.2.0-beta1
 
@@ -295,7 +303,10 @@ curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-s
 
 ## Adobe Experience Platform Mobile SDK を使用したオーディエンスの取得
 
-Adobe Experience Platform Mobile SDK を使用してReal-Time CDPオーディエンスを取得する前に、次の操作を行う必要があります。 [モバイルコマースサイト用の SDK のインストールと設定](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+Adobe Experience Platform Mobile SDK を使用して、Real-Time CDPオーディエンスを取得できます。
+
+1. [インストール](#install-the-extension) Audience Activation拡張。
+1. [モバイルコマースサイト用の SDK のインストールと設定](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >

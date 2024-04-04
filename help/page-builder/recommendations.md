@@ -3,20 +3,20 @@ title: コンテンツを追加 — 製品Recommendations
 description: レコメンデーションのリストをに追加するために使用される、製品のRecommendationsコンテンツタイプについて説明します。 [!DNL Page Builder] ステージ。
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 13d00168e1253a7d2698b898caa30d9ca2ad3800
+source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # コンテンツを追加 — 製品Recommendations
 
-以下を使用します。 _製品Recommendations_ 既存のアクティブなコンテンツタイプを追加する [レコメンデーション単位](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) から [[!DNL Page Builder] ステージ](workspace.md#stage) CMS ページ、ブロック、動的ブロックの場合。
+以下を使用します。 _製品Recommendations_ 既存のアクティブなコンテンツタイプを追加する [レコメンデーション単位](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) から [[!DNL Page Builder] ステージ](workspace.md#stage) CMS ページ、ブロック、動的ブロックの場合。
 
 >[!NOTE]
 >
->The [!DNL Page Builder] _製品Recommendations_ コンテンツタイプは、Adobe Commerce 2.4.4 以降でサポートされ、 [製品のRecommendationsメタパッケージバージョン 3.0.x 以降](https://marketplace.magento.com/magento-product-recommendations.html). 追加するには [!DNL Page Builder] 製品Recommendations、 [インストール情報を見る](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html#pbsupport). **このコンテンツタイプは、Magento Open Sourceには使用できません。**
+>The [!DNL Page Builder] _製品Recommendations_ コンテンツタイプは、Adobe Commerce 2.4.4 以降でサポートされ、 [製品のRecommendationsメタパッケージバージョン 3.0.x 以降](https://commercemarketplace.adobe.com/magento-product-recommendations.html). 追加するには [!DNL Page Builder] 製品Recommendations、 [インストール情報を見る](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **このコンテンツタイプは、Magento Open Sourceには使用できません。**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 既存のレコメンデーション単位の追加
 
-1. 既に [レコメンデーションユニットの作成](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) （の） [!DNL Page Builder] ページタイプ。
+1. 既に [レコメンデーションユニットの作成](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) （の） [!DNL Page Builder] ページタイプ。
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ ht-degree: 0%
 1. 次のいずれかの操作を行います。
 
    - クリック **[!UICONTROL Edit Product Recommendation]**.
-   - 空のコンテナの上にマウスポインターを置いてツールボックスを表示し、 _設定_ (![設定アイコン](./assets/pb-icon-settings.png){width="20"} ) アイコンをクリックします。
+   - 空のコンテナの上にマウスポインターを置いてツールボックスを表示し、 _設定_ (![設定アイコン](./assets/pb-icon-settings.png)) アイコンをクリックします。
 
    ![製品のレコメンデーションを編集](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ## レコメンデーション単位設定の編集
 
-1. レコメンデーションユニットコンテナの上にマウスポインターを置いてツールボックスを表示し、 _設定_ (![設定アイコン](./assets/pb-icon-settings.png){width="20"} ) アイコンをクリックします。
+1. レコメンデーションユニットコンテナの上にマウスポインターを置いてツールボックスを表示し、 _設定_ (![設定アイコン](./assets/pb-icon-settings.png)) アイコンをクリックします。
 
    ![Recommendation Toolbox](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 
@@ -94,11 +94,11 @@ ht-degree: 0%
 
 ## レコメンデーション単位の複製
 
-1. レコメンデーションユニットコンテナの上にマウスポインターを置いてツールボックスを表示し、 _複製_ ( ![重複するアイコン](./assets/pb-icon-duplicate.png){width="20"} ) アイコンをクリックします。
+1. レコメンデーションユニットコンテナの上にマウスポインターを置いてツールボックスを表示し、 _複製_ (![複製アイコン](./assets/pb-icon-duplicate.png)) アイコンをクリックします。
 
    複製は元の画像のすぐ下に表示されます。
 
-1. 複製されたレコメンデーションユニットを新しい位置に移動するには、コンテナの上にマウスポインターを置いて、 _移動_ ( ![移動アイコン](./assets/pb-icon-move.png){width="20"} ) アイコンをクリックします。
+1. 複製されたレコメンデーションユニットを新しい位置に移動するには、コンテナの上にマウスポインターを置いて、 _移動_ (![移動アイコン](./assets/pb-icon-move.png)) アイコンをクリックします。
 
 1. レコメンデーション単位を選択し、赤いガイドラインが新しい位置に表示されるまでドラッグします。
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 ## ステージからレコメンデーションユニットを削除します
 
-1. レコメンデーションユニットコンテナの上にマウスポインターを置いて、 _削除_ ( ![削除アイコン](./assets/pb-icon-remove.png){width="20"} ) アイコンをクリックします。
+1. レコメンデーションユニットコンテナの上にマウスポインターを置いて、 _削除_ ( ![削除アイコン](./assets/pb-icon-remove.png)) アイコンをクリックします。
 
 1. 確認するメッセージが表示されたら、「 **[!UICONTROL OK]**.
 
