@@ -1,106 +1,110 @@
 ---
-title: レイヤーナビゲーション
-description: 階層化されたナビゲーションによって、買い物客がカテゴリ、価格帯、またはその他の使用可能な属性に基づいて製品を簡単に見つけられる方法を説明します。
+title: 階層型ナビゲーション
+description: 階層化されたナビゲーションにより、買い物客がカテゴリ、価格範囲、その他の使用可能な属性に基づいて製品を簡単に見つけられるしくみを説明します。
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 1%
+source-wordcount: '1303'
+ht-degree: 0%
 
 ---
 
-# レイヤーナビゲーション
+# 階層型ナビゲーション
 
 >[!NOTE]
 >
->この節で説明する標準レイヤーナビゲーションは、 [ファセット](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
+>この節で説明する標準のレイヤー化されたナビゲーションは、 [ファセット](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
 
-階層型ナビゲーションにより、カテゴリ、価格帯、その他の使用可能な属性に基づいて、製品を簡単に見つけることができます。 レイヤーナビゲーションは、通常、検索結果ページとカテゴリページの左列に表示され、ホームページにも表示されます。 標準ナビゲーションには、 _購入者_ カテゴリと価格範囲のリスト。 製品数や価格帯など、レイヤーナビゲーションの表示を設定できます。
+階層化されたナビゲーションにより、カテゴリ、価格範囲、その他の利用可能な属性に基づいて製品を簡単に見つけることができます。 通常、階層型ナビゲーションは検索結果ページとカテゴリページの左側の列に表示され、場合によってはホームページに表示されます。 標準ナビゲーションには、 _並べ替え_ カテゴリと価格範囲のリスト。 製品数や価格範囲など、レイヤナビゲーションの表示を設定できます。
 
-![カテゴリ別および価格別の階層型ナビゲーション](./assets/navigation-layered-basic.png){width="700" zoomable="yes"}
+![カテゴリ別・価格別レイヤードナビゲーション](./assets/navigation-layered-basic.png){width="700" zoomable="yes"}
 
-## フィルター可能な属性
+## フィルタリング可能な属性
 
 >[!NOTE]
 >
->このトピックで説明するフィルター可能な属性の要件は、 [ライブ検索](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). 詳しくは、 [ファセット](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
+>このトピックで説明するフィルタリング可能な属性の要件は、次の点で異なります [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). 詳しくは、 [ファセット](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html).
 
-レイヤーナビゲーションを使用して、カテゴリ別または属性別に製品を検索できます。 例えば、買い物客が上部のナビゲーションから Mens/Shorts カテゴリを選択した場合、最初の結果にはカテゴリ内のすべての製品が含まれます。 特定のスタイル、気候、色、素材、パターン、価格を選択するか、値の組み合わせを選択することで、リストをさらにフィルタリングできます。 フィルタリング可能な属性は、各属性値をリストする展開セクションに表示されます。 オプションとして、一致する結果を持つ製品のリストを、一致する製品を含めるか、一致しない製品を含めるように設定できます。
+レイヤナビゲーションを使用して、カテゴリ別または属性別に製品を検索できます。 例えば、買い物客が上部のナビゲーションから Mens/Shorts カテゴリを選択すると、最初の結果にはカテゴリ内のすべての製品が含まれます。 リストは、特定のスタイル、気候、色、素材、パターン、価格を選択するか、値の組み合わせを選択して、さらにフィルタリングできます。 フィルタリング可能な属性は、各属性値を一覧表示する展開セクションに表示されます。 オプションとして、一致する結果を持つ製品のリストは、一致の有無を問わず製品を含めるように設定できます。
 
-属性プロパティと製品入力タイプを組み合わせて、レイヤーナビゲーションに使用できる属性を決定します。 レイヤーナビゲーションは、次の場合にのみ使用できます。 [_アンカー_](categories-display-settings.md) カテゴリに追加できますが、検索結果ページに追加することもできます。 The **ストア所有者のカタログ入力タイプ** 各属性のプロパティは、 `Yes/No`, `Dropdown`, `Multiple Select`または `Price`. 属性をフィルタリング可能にするには、 **レイヤーナビゲーションで使用** プロパティを次のいずれかに設定する必要があります： `Filterable (with results)` または `Filterable (no results)`.
+属性プロパティと製品入力タイプを組み合わせることで、レイヤーナビゲーションに使用できる属性が決定します。 レイヤー化されたナビゲーションは、次の場合にのみ使用できます [_アンカー_](categories-display-settings.md) カテゴリですが、検索結果ページに追加することもできます。 この **店舗所有者のカタログ入力タイプ** 各属性のプロパティをに設定する必要があります。 `Yes/No`, `Dropdown`, `Multiple Select`、または `Price`. 属性をフィルタリング可能にするには、 **レイヤーナビゲーションでの使用** それぞれのプロパティは、次のいずれかに設定する必要があります `Filterable (with results)` または `Filterable (no results)`.
 
-_例：結果を含むフィルタリング可能な属性_
+_例：結果を使用してフィルタリング可能な属性_
 
-![レイヤーナビゲーションでフィルタリング可能な属性](./assets/storefront-layered-navigation-filtered.png){width="700" zoomable="yes"}
+![レイヤーナビゲーションでのフィルタリング可能な属性](./assets/storefront-layered-navigation-filtered.png){width="700" zoomable="yes"}
 
-_例：フィルタリング可能なスウォッチ値が結果なしで表示される_
+_例：結果を伴わずに表示されるフィルタリング可能なスウォッチ値_
 
-![フィルタリング可能なスウォッチ値（結果なし）](./assets/storefront-product-attribute-filter-no-results.png){width="700" zoomable="yes"}
+![結果のないフィルタリング可能なスウォッチ値](./assets/storefront-product-attribute-filter-no-results.png){width="700" zoomable="yes"}
 
-次の手順は、フィルタ可能な属性を持つ基本的なレイヤーナビゲーションを設定する方法を示しています。 価格ステップを含む高度な階層ナビゲーションについては、 [価格ナビゲーション](navigation-layered.md#configure-price-navigation).
+次の手順は、フィルタリング可能な属性を使用した基本的なレイヤーナビゲーションの設定方法を示しています。 価格手順を使用した高度な階層型ナビゲーションについては、を参照してください。 [価格ナビゲーション](navigation-layered.md#configure-price-navigation).
 
-## 手順 1：属性プロパティを設定する
+## 手順 1：属性プロパティの設定
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
-1. フィルターされた検索を参照または使用してリスト内の属性を検索し、編集モードで開きます。
+1. 参照するか、フィルター適用済み検索を使用してリスト内の属性を検索し、編集モードで開きます。
 
-   ![各列に検索語を入力し、フィルターを適用した検索を使用](./assets/attribute-search.png){width="700" zoomable="yes"}
+   ![フィルター検索を使用するための検索語句を列ごとに入力する](./assets/attribute-search.png){width="700" zoomable="yes"}
 
-1. 左側のパネルで、を選択します。 **[!UICONTROL Storefront Properties]** と設定します。 **[!UICONTROL Use In Layered Navigation]** を次のいずれかに変更します。
+1. 左パネルで、を選択します。 **[!UICONTROL Storefront Properties]** およびを設定 **[!UICONTROL Use In Layered Navigation]** を次のいずれかに変更します。
 
-   - `Filterable (with results)`  — レイヤーナビゲーションには、一致する製品が見つかるフィルターのみが含まれます。 リストに表示されるすべての製品に既に適用されている属性値は、引き続き使用可能なフィルターとして表示されます。 製品の一致数が 0（ゼロ）の属性値は、使用可能なフィルターのリストから除外されます。 フィルターされたリストには、フィルターに一致する製品のみが含まれます。 製品リストは、選択したフィルターで表示内容が変更された場合にのみ更新されます。
+   - `Filterable (with results)`  – 階層ナビゲーションには、一致する製品が見つかるフィルターのみが含まれます。 リストに表示されるすべての製品に既に適用されている属性値は、使用可能なフィルターとして表示されます。 カウントがゼロ（0）の製品一致を持つ属性値は、使用可能なフィルターのリストから省略されます。 フィルター済みリストには、フィルターに一致する製品のみが含まれます。 製品リストは、選択したフィルターによって表示内容が変更される場合にのみ更新されます。
 
-   - `Filterable (no results)`  — レイヤーナビゲーションには、0（ゼロ）個の製品が一致する製品を含め、使用可能なすべての属性値とその製品数に対するフィルターが含まれます。 アトリビュート値がスウォッチの場合、値はフィルタとして表示されますが、x 印で消されます。 価格レイヤーフィルターは、このオプションではサポートされず、価格フィルターには影響しません。
+   - `Filterable (no results)`  – 階層ナビゲーションには、すべての使用可能な属性値とその製品数（製品の一致がゼロ（0）の製品を含む）のフィルターが含まれます。 属性値がスウォッチの場合、その値はフィルタとして表示されますが、交差しています。 価格レイヤーのフィルタリングは、このオプションではサポートされておらず、価格フィルターには影響しません。
 
-1. 設定 **[!UICONTROL Use In Search Results Layered Navigation]** から `Yes`.
+1. を設定 **[!UICONTROL Use In Search Results Layered Navigation]** 対象： `Yes`.
 
    ![ストアフロントのプロパティ](./assets/attribute-storefront-properties.png){width="600" zoomable="yes"}
 
-1. レイヤーナビゲーションに含める各属性に対して、これらの手順を繰り返します。
+1. レイヤーナビゲーションに含める属性ごとに、これらの手順を繰り返します。
 
 >[!NOTE]
 >
->The [!UICONTROL Position] フィールドはデフォルトでグレー表示になっているので、この設定を変更する前に属性を保存する必要があります。
+>いつ _[!UICONTROL Use in Search]_はに設定されています。 `No`,_[!UICONTROL Use in Search Results Layered Navigation]_ 設定は表示されず、製品属性は使用されません [!UICONTROL Use in Layered Navigation] 値を設定します。
+
+>[!NOTE]
+>
+>この [!UICONTROL Position] フィールドは既定では淡色表示になっているので、この設定を変更する前に属性を保存する必要があります。
 
 ## 手順 2：カテゴリをアンカーにする
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. カテゴリツリーで、レイヤーナビゲーションを使用するカテゴリを選択します。
+1. カテゴリツリーで、階層化ナビゲーションを使用するカテゴリを選択します。
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Display Settings]** セクションとセット **[!UICONTROL Anchor]** から `Yes`.
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Display Settings]** セクションとセット **[!UICONTROL Anchor]** 対象： `Yes`.
 
-   ![カテゴリ表示設定](./assets/category-layered-navigation-anchor.png){width="600" zoomable="yes"}
+   ![カテゴリの表示設定](./assets/category-layered-navigation-anchor.png){width="600" zoomable="yes"}
 
 1. クリック **[!UICONTROL Save]**.
 
 ## 手順 3：結果のテスト
 
-設定をテストするには、ストアにアクセスして、メインメニューからカテゴリに移動します。 フィルタリング可能な属性の選択が、カテゴリページのレイヤーナビゲーションに表示されます。
+設定をテストするには、ストアにアクセスし、メインメニューからカテゴリに移動します。 フィルタリング可能な属性の選択は、カテゴリページのレイヤー化されたナビゲーションに表示されます。
 
-表示された製品を検索、フィルタリング、確認します。
+表示された製品を検索、フィルタリングおよびレビューします。
 
 ## レイヤーナビゲーションからフィルタリング可能な属性値を削除
 
-レイヤーナビゲーションには、0（ゼロ）個の製品が一致する製品を含む、使用可能なすべての属性値とその製品数に対するフィルタが含まれます（次の図を参照）。
+レイヤーナビゲーションには、使用可能なすべての属性値とその製品数のフィルターが含まれます。製品一致がゼロ（0）の製品も含まれます（下図を参照）。
 
-![ゼロフィルター表示中](./assets/filterable-attributes-on-plp.png){width="700" zoomable="yes"}
+![表示されるゼロフィルター](./assets/filterable-attributes-on-plp.png){width="700" zoomable="yes"}
 
-この結果、顧客が優先商品を選択するのが困難になる可能性があり、フロントエンドに 0 個の商品を含む属性値を表示する必要がなくなりま&#x200B;す。
+この結果、顧客が優先製品を選択するのが難しくなり、フロントエンドに製品が 0 の属性値を表示す&#x200B;る必要が&#x200B;ありません。
 
-次の手順を使用して、レイヤー化されたナビゲーションから 0 プロダクトのフィルタリング可能な属性値を削除できます。
+次の手順を使用して、レイヤー化されたナビゲーションから「製品」が 0 のフィルタリング可能な属性値を削除できます。
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
-1. フィルターされた検索を参照または使用してリスト内の属性を検索し、編集モードで開きます。
+1. 参照するか、フィルター適用済み検索を使用してリスト内の属性を検索し、編集モードで開きます。
 
-1. の下 _[!UICONTROL Attribute Information]_をクリックし、**[!UICONTROL Storefront Properties]**.
+1. 次の下 _[!UICONTROL Attribute Information]_を選択し、**[!UICONTROL Storefront Properties]**.
 
-1. の場合 **[!UICONTROL Layered Navigation]**&#x200B;を選択します。 `Filterable (with results)`.
+1. の場合 **[!UICONTROL Layered Navigation]**、を選択 `Filterable (with results)`.
 
-   ![「属性情報」セクション](./assets/storefront-properties-tab.png){width="600" zoomable="yes"}
+   ![「Attribute Information」セクション](./assets/storefront-properties-tab.png){width="600" zoomable="yes"}
 
 1. クリック **[!UICONTROL Save Attribute]**.
 
@@ -108,32 +112,32 @@ _例：フィルタリング可能なスウォッチ値が結果なしで表示�
 
 >[!NOTE]
 >
->このトピックで説明する価格ナビゲーション設定は、次の項目で異なります。 [ライブ検索](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>このトピックで説明する価格ナビゲーション構成は、次の点で異なります [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
 
-価格ナビゲーションを使用して、階層化されたナビゲーションで価格帯別に製品を配布できます。 また、各範囲を間隔で分割することもできます。 価格ナビゲーションを計算する方法はいくつかあります。
+価格ナビゲーションを使用すると、レイヤードナビゲーションで価格範囲別に製品を配布できます。 また、各範囲を間隔で分割することもできます。 価格ナビゲーションを計算する方法はいくつかあります。
 
-- 自動（価格範囲の等化）
-- 自動（製品数を均等化）
+- 自動（価格範囲の均等化）
+- 自動（製品数を平均化）
 - 手動
 
-最初の 2 つの方法では、ナビゲーション手順が自動的に計算されます。 手動メソッドを使用すると、価格間隔の除算の制限を指定できます。 次の例は、価格ナビゲーション手順の 10 と 100 の違いを示しています。
+最初の 2 つの方法では、ナビゲーションステップが自動的に計算されます。 手動による方法では、価格間隔の分割限度を指定できます。 次の例は、10 と 100 の価格移動ステップの違いを示しています。
 
-繰り返し分割は、価格範囲間で最適な製品の分布を提供します。 繰り返し分割を使用して、$0.00～$99 の範囲を選択した後、顧客は複数の下位範囲の価格を掘り下げることができます。 価格範囲分割は、製品数が「区分限度」で設定されたしきい値に達すると停止します。
+反復分割は、価格範囲間で製品の最適な配分を提供します。 反復分割を使用すると、$0.00～$99 の範囲を選択した後、顧客は価格のいくつかのサブレンジをドリルダウンできます。 価格範囲分割は、製品数が間隔分割限度で設定されたしきい値に達すると停止します。
 
-## 例：価格ナビゲーションの手順
+## 例：価格ナビゲーションステップ
 
-| 価格ステップ — 10 別 | 100 単位の価格ステップ |
+| 価格ステップ バイ 10 | 価格ステップ x 100 |
 |----------|--------|
-| $20.00 - $29.99 (1) | $0.00 - $99.99 (4) |
-| $30.00 - $39.99 (2) | $100 - $199.99 (5) |
-| $70.00 - $79.99 (1) | $400.00 - $499.99 (2) |
-| $100.00 - $109.99 (1) | 700.00 ドル以上 (1) |
-| $120.00 - $129.99 (2) |   |
-| $150.00 - $159.99 (1) |   |
-| $180.00 - $189.99 (1) |   |
-| $420.00 - $429.99 (1) |   |
-| $440.00 - $449.99 (1) |   |
-| $710.00 以上 (1) |   |
+| 2000 万ドル～2999 万ドル（1） | 0.00～99.99 ドル（4） |
+| 3000 万ドル～3999 万ドル（2） | $100～199.99 ドル（5） |
+| 7000 万ドル～7999 万ドル（1） | 400.00～499.99 ドル（2） |
+| 100.00～109.99 ドル（1） | 700.00 ドル以上（1） |
+| 120.00～129.99 ドル（2） |   |
+| 150.00～159.99 ドル（1） |   |
+| 180.00～189.99 ドル（1） |   |
+| 420.00～429.99 ドル（1） |   |
+| 440.00～449.99 ドル（1） |   |
+| 710.00 ドル以上（1） |   |
 
 {style="table-layout:auto"}
 
@@ -141,78 +145,78 @@ _例：フィルタリング可能なスウォッチ値が結果なしで表示�
 
 >[!IMPORTANT]
 >
->商品とその価格を、 _価格フィルター_ レイヤー化されたナビゲーションで、価格の設定が [消費税構成](../configuration-reference/sales/tax.md) 同じ値 (`Excluding Tax` **または** `Including Tax`) をクリックします。 の _[!UICONTROL Calculation Settings]_、**[!UICONTROL Catalog Prices]**の値です。 および_[!UICONTROL Price Display Settings]_、 **[!UICONTROL Display Product Prices in Catalog]** の値です。 値が異なる場合は、階層化されたナビゲーションの価格フィルターで、製品を正しくフィルタリングして価格で並べ替えることができない場合があります。
+>商品とその価格を正しく表示する _価格フィルター_ 階層化されたナビゲーションで、価格の設定がに表示されていることを確認します。 [消費税の構成](../configuration-reference/sales/tax.md) 同じ値（`Excluding Tax` **または** `Including Tax`）に設定します。 の場合 _[!UICONTROL Calculation Settings]_を選択し、**[!UICONTROL Catalog Prices]**の値。 および_[!UICONTROL Price Display Settings]_&#x200B;を選択し、 **[!UICONTROL Display Product Prices in Catalog]** の値。 これらの値が異なる場合、レイヤーナビゲーションの価格フィルターでは、製品を価格別に適切にフィルタリングして並べ替えることができない場合があります。
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. 左側のパネルで、を展開します。 **[!UICONTROL Catalog]** を選択します。 **[!UICONTROL Catalog]** の下に
+1. 左側のパネルで、を展開します **[!UICONTROL Catalog]** を選択します **[!UICONTROL Catalog]** その下に。
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の _レイヤーナビゲーション_ 」セクションに入力します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この _レイヤナビゲーション_ セクション。
 
-   デフォルトでは、 **[!UICONTROL Display Product Count]** が `Yes`. 必要に応じて、「 **[!UICONTROL Use system value]** この設定を変更するには、チェックボックスを使用します。
+   デフォルトでは **[!UICONTROL Display Product Count]** はに設定されています。 `Yes`. 必要に応じて、 **[!UICONTROL Use system value]** この設定を変更するには、チェックボックスをオンにします。
 
-   ![レイヤーナビゲーション](../configuration-reference/catalog/assets/layered-navigation.png){width="600" zoomable="yes"}
+   ![レイヤナビゲーション](../configuration-reference/catalog/assets/layered-navigation.png){width="600" zoomable="yes"}
 
-   これらの設定オプションの詳細なリストについては、 [レイヤーナビゲーション](../configuration-reference/catalog/catalog.md#layered-navigation) （内） _設定リファレンス_.
+   これらの設定オプションの詳細なリストについては、を参照してください [レイヤナビゲーション](../configuration-reference/catalog/catalog.md#layered-navigation) が含まれる _設定リファレンス_.
 
-1. 設定 **[!UICONTROL Price Navigation Steps Calculation]** を参照してください。
+1. を設定 **[!UICONTROL Price Navigation Steps Calculation]** 以下の節で説明する方法の 1 つです。
 
-1. 完了したら、「 **[!UICONTROL Save Config]**.
+1. 完了したら、 **[!UICONTROL Save Config]**.
 
-### 方法 1：自動（価格範囲のイコライズ）
+### 方法 1：自動（価格範囲の均等化）
 
-終了 **[!UICONTROL Price Navigation Steps Calculation]** に設定 `Automatic (Equalize Price Ranges)` （デフォルト）。 この設定では、価格ナビゲーションに標準アルゴリズムを使用します。
+移動 **[!UICONTROL Price Navigation Steps Calculation]** をに設定 `Automatic (Equalize Price Ranges)` （デフォルト）。 この設定では、価格移動に標準アルゴリズムを使用します。
 
-### 方法 2：自動（製品数をイコライズ）
+### 方法 2：自動（製品カウントを均等化）
 
 >[!TIP]
 >
->必要に応じて、まず **[!UICONTROL Use system value]** チェックボックスを使用して、これらの設定を変更できます。
+>必要に応じて、まず **[!UICONTROL Use system value]** これらの設定を変更するチェックボックス。
 
-1. 設定 **[!UICONTROL Price Navigation Steps Calculation]** から `Automatic (equalize product counts)`.
+1. を設定 **[!UICONTROL Price Navigation Steps Calculation]** 対象： `Automatic (equalize product counts)`.
 
-1. 同じ価格の複数の製品を表示する場合に単一の価格を表示するには、 **[!UICONTROL Display Price Interval as One Price]** から `Yes`.
+1. 同じ価格の製品が複数存在する場合に単一価格を表示するには、次のように設定します **[!UICONTROL Display Price Interval as One Price]** 対象： `Yes`.
 
-1. の場合 **[!UICONTROL Interval Division Limit]**」には、価格範囲内の製品数のしきい値を入力します。
+1. の場合 **[!UICONTROL Interval Division Limit]**：価格範囲内の製品数のしきい値を入力します。
 
-   範囲は、この制限を超えて分割することはできません。 デフォルト値は `9`.
+   範囲をこの制限を超えて分割することはできません。 デフォルト値はです `9`.
 
-   ![自動（製品数を均等化）](../configuration-reference/catalog/assets/layered-navigation-equalize-product-counts.png){width="600" zoomable="yes"}
+   ![自動（製品数を平均化）](../configuration-reference/catalog/assets/layered-navigation-equalize-product-counts.png){width="600" zoomable="yes"}
 
 ### 方法 3：手動
 
 >[!NOTE]
 >
->必要に応じて、まず **[!UICONTROL Use system value]** チェックボックスを使用して、これらの設定を変更できます。
+>必要に応じて、まず **[!UICONTROL Use system value]** これらの設定を変更するチェックボックス。
 
-1. 設定 **[!UICONTROL Price Navigation Steps Calculation]** から `Manual`.
+1. を設定 **[!UICONTROL Price Navigation Steps Calculation]** 対象： `Manual`.
 
-1. を決定する値を入力します。 **[!UICONTROL Default Price Navigation Step]**.
+1. を決定する値を入力 **[!UICONTROL Default Price Navigation Step]**.
 
-1. 次を入力します。 **[!UICONTROL Maximum Number of Price Intervals]** 許可、最大 `100`.
+1. を入力 **[!UICONTROL Maximum Number of Price Intervals]** 許可、まで `100`.
 
    ![手動](../configuration-reference/catalog/assets/layered-navigation-manual.png){width="600" zoomable="yes"}
 
-## レイヤーナビゲーションの設定
+## 階層型ナビゲーションの設定
 
 >[!NOTE]
 >
->このページで説明する標準設定は、次の点で異なります。 [ライブ検索](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>このページで説明する標準設定は、次の点で異なります [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
 
-レイヤーナビゲーション設定では、各属性の後の括弧内に製品数が表示されるかどうか、および価格ナビゲーションで使用されるステップ計算のサイズが決定されます。
+レイヤナビゲーション構成は、各属性の後の括弧内に製品数が表示されるかどうかを決定し、価格ナビゲーションで使用されるステップ計算のサイズを決定する。
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. 左側のパネルで、を展開します。 _[!UICONTROL Catalog]_「 」セクションで「 」を選択します。**[!UICONTROL Catalog]**の下に
+1. 左側のパネルで、を展開します _[!UICONTROL Catalog]_セクションで選択&#x200B;**[!UICONTROL Catalog]**その下に。
 
-1. を展開します。 _[!UICONTROL Layered Navigation]_」セクションに入力します。
+1. を展開します。 _[!UICONTROL Layered Navigation]_セクション。
 
    >[!NOTE]
    >
-   >必要に応じて、まず **[!UICONTROL Use system value]** チェックボックスを使用して、これらの設定を変更できます。
+   >必要に応じて、まず **[!UICONTROL Use system value]** これらの設定を変更するチェックボックス。
 
-1. 各属性で見つかった製品数を表示するには、 **[!UICONTROL Display Product Count]** から `Yes`.
+1. 各属性で見つかった製品数を表示するには、次のように設定します **[!UICONTROL Display Product Count]** 対象： `Yes`.
 
-1. 設定 **[!UICONTROL Price Navigation Step Calculation]** から `Automatic (equalize price ranges)`.
+1. を設定 **[!UICONTROL Price Navigation Step Calculation]** 対象： `Automatic (equalize price ranges)`.
 
-1. 完了したら、「 **[!UICONTROL Save Config]**.
+1. 完了したら、 **[!UICONTROL Save Config]**.
