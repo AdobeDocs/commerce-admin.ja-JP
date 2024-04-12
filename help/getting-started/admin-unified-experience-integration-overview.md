@@ -1,85 +1,87 @@
 ---
-title: Adobe Experience Cloud Commerce Admin との統合
-description: ユーザーがExperience Cloudのホームページからコマースプロジェクトにアクセスできるように、コマースとExperience Cloudを統合する Admin Unified Experience 拡張機能について説明します。
+title: Commerce Admin のAdobe Experience Cloud統合
+description: CommerceをExperience Cloudと統合して、ユーザーが拡張機能のホームページからCommerce プロジェクトにアクセスできるようにする管理Experience Cloud拡張機能について説明します。
 feature: Integration
 exl-id: e3fb6337-c7d5-4b6f-8f4a-583697a1f2d2
-source-git-commit: a07c91bc2f01cd110f3e0ccd6d27fe5d37eb2fc9
+source-git-commit: 61874f3dac4f574ad393e8ae258f3d6c56c8f37e
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Cloud Commerce 統合
+# CommerceのAdobe Experience Cloud統合
 
-{{ee-feature}}
+<table style="border:1px solid red">
+<tr><td><img alt="Adobe Commerce機能" src="../assets/adobe-logo.svg" width="20" height="20" /> Adobe Commerceのみの専用機能（<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">詳細情報</a>）</td></tr>
+</table>
 
-管理 Unified Experience 拡張機能を有効にして、Adobe CommerceプロジェクトをExperience Cloudと統合します。 統合がアクティブな場合、管理者はAdobe Experience Cloudから Commerce プロジェクトにアクセスできます。
+管理者の統合エクスペリエンス拡張機能を有効にして、Adobe Commerce プロジェクトをExperience Cloudと統合します。 統合がアクティブになると、管理者はAdobe Experience CloudからCommerce プロジェクトにアクセスできます。
 
-![コマースホームページからExperience Cloudにアクセス](./assets/admin-uex-home-page.png){width="700" zoomable="yes"}
+![Experience CloudのホームページからCommerceへのアクセス](./assets/admin-uex-home-page.png){width="700" zoomable="yes"}
 
-## 使用可能な Commerce プロジェクトを表示
+## 使用可能なCommerce プロジェクトの表示
 
-管理者は、アクセス権を持つコマースプロジェクトを表示するには、次を選択します： **[!UICONTROL Commerce]** をExperience Cloudホームページから
+管理者は、次を選択して、アクセス権限のあるCommerce プロジェクトを表示できます。 **[!UICONTROL Commerce]** Experience Cloudのホームページから。
 
-![Commerce Projects ワークスペース (Experience Cloud)](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}
+![Experience CloudのCommerce プロジェクトワークスペース](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}
 
-管理者は、各プロジェクトの管理者とストアフロントを [!DNL Commerce Projects] ワークスペースを開き、追加情報を表示します。
+管理者は、各プロジェクトの管理者およびストアフロントをから開くことができます [!DNL Commerce Projects] ワークスペースを開いて、追加情報を表示します。
 
-- **Commerce ストアフロントホームページのスナップショット** — ストアフロントホームページのスナップショット。 プロジェクトに複数の Web サイトがある場合、スナップショットには、デフォルトサイトのホームページが表示されます。
+- **Commerce ストアフロントのホームページのスナップショット**- ストアフロントのホームページのスナップショット。 プロジェクトに複数の web サイトがある場合、スナップショットには、デフォルトサイトのホームページが表示されます。
 
-- **[プロジェクト名](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)** — インスタンスのクラウドプロジェクト環境を識別します。 プロジェクト名のデフォルト値はです。 [Git ブランチ名](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) クラウドプロジェクト内で使用されます。 内のプロジェクト名を変更または更新する [統合エクスペリエンスストアの構成設定](admin-unified-experience-integration-manage.md#manage-the-integration-from-the-admin).
+- **[プロジェクト名](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**- インスタンスのクラウドプロジェクト環境を識別します。 プロジェクト名のデフォルトはです。 [Git ブランチ名](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) クラウドプロジェクト内。 でプロジェクト名を変更または更新する [統合 Experience ストアの設定](admin-unified-experience-integration-manage.md#manage-the-integration-from-the-admin).
 
-- **[ストアフロント URL](../stores-purchase/store-urls.md)** — デフォルトの Web サイトのベース URL を表示します。
+- **[ストアフロント URL](../stores-purchase/store-urls.md)**— デフォルトの Web サイトのベース URL を表示します。
 
-- **[環境タイプ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)** — 開発環境またはステージング環境にデプロイされたコマースインスタンスは、 [!UICONTROL Development] または [!UICONTROL Staging] ラベル。 ラベルのないインスタンスは、実稼動環境にデプロイされます。
+- **[環境タイプ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)** – 開発環境またはステージング環境にデプロイされたCommerce インスタンスは、 [!UICONTROL Development] または [!UICONTROL Staging] ラベル。 ラベルのないインスタンスは、実稼動環境にデプロイされます。
 
-- **コマース管理者アクセス** — クリックして管理者を開きます。 **[!UICONTROL Open]**.
+- **Commerce管理者アクセス** – をクリックして管理者を開きます。 **[!UICONTROL Open]**.
 
-- **ストアフロントアクセス** — 「 」を選択してストアフロントを開きます。 **[!UICONTROL Open storefront]** を選択します。
+- **ストアフロントへのアクセス** – 選択してストアフロントを開きます。 **[!UICONTROL Open storefront]** 「オプション」メニューから選択します。
 
-- **選択したプロジェクトにすばやくアクセス** — 選択 **[!UICONTROL Add to Favorites]** オプションメニューから、 [!UICONTROL Favorites] タブをクリックします。
+- **プロジェクトを選択するためのクイックアクセス** – 選択 **[!UICONTROL Add to Favorites]** オプションメニューからにプロジェクトを追加する [!UICONTROL Favorites] タブ。
 
 ## 認証フロー
 
-Experience Cloudの統合が有効な場合、管理者は次のワークフローを使用して、コマースプロジェクトを認証し、アクセスします。
+Experience Cloudの統合が有効な場合、管理者は次のワークフローを使用してCommerce プロジェクトの認証を行い、プロジェクトにアクセスします。
 
-1. 「ログイン」ページでExperience Cloudにログインします。
+1. Experience Cloudのログインページからログインします。
 
-   ![Experience Cloudログインページ](./assets/admin-uex-experience-cloud-login.png){width="600" zoomable="yes"}
+   ![Experience Cloudのログインページ](./assets/admin-uex-experience-cloud-login.png){width="600" zoomable="yes"}
 
-   管理者は、コマースインスタンスに関連付けられている組織のAdobeビジネスプロファイルを使用してExperience Cloudにサインインする必要があります。 詳しくは、 [Adobeプロファイルの管理](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html).
+   管理者は、Commerce インスタンスに関連付けられている組織のAdobeビジネスプロファイルを使用して、Experience Cloudにログインする必要があります。 参照： [Adobeプロファイルの管理](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html).
 
-1. Experience Cloudのホームページで、 [!UICONTROL Commerce Projects workspace] 選択する **[!UICONTROL Open]**.
+1. Experience Cloudのホームページで、 [!UICONTROL Commerce Projects workspace] 選択による **[!UICONTROL Open]**.
 
-1. 「 」を選択して、プロジェクトの管理者にアクセスします。 **[!UICONTROL Open]**.
+1. を選択して、プロジェクトの管理者にアクセスします。 **[!UICONTROL Open]**.
 
-1. Adobe Commerceログインページで、「 」を選択します。 **[!UICONTROL Sign in with Adobe ID]** 認証を完了し、管理者を開きます。
+1. Adobe Commerceのログインページで、 **[!UICONTROL Sign in with Adobe ID]** をクリックして認証を完了し、管理者を開きます。
 
-   ![Adobe Commerceログインページ](./assets/admin-adobeid-login.png){width="600" zoomable="yes"}
+   ![Adobe Commerceのログインページ](./assets/admin-adobeid-login.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->詳しくは、 [Experience Cloud統合の管理](admin-unified-experience-integration-manage.md) 認証統合が有効または無効の場合の認証Experience Cloudの影響の詳細。
+>参照： [Experience Cloud統合の管理](admin-unified-experience-integration-manage.md) Experience Cloud統合が有効または無効な場合に認証ワークフローが影響を受ける方法の詳細を説明します。
 
 ## 要件
 
 - Adobe Commerce 2.4.5 以降
-- Adobe Commerce an cloud infrastructure
+- クラウドインフラストラクチャー上のAdobe Commerce
 - Adobe Commerce拡張機能
 
-   - コマース管理 Unified Experience 拡張機能 (`magento/module-unified-experience`)
+   - Commerce Admin Unified Experience 拡張機能（`magento/module-unified-experience`）
 
-     このモジュールがコマースインスタンスで使用できない場合、Composer を使用してインストールできます。
+     モジュールがCommerce インスタンスで使用できない場合は、Composer を使用してインストールできます。
 
-   - [Adobe I/Oイベントサービス](https://developer.adobe.com/commerce/extensibility/events/)- Commerce プロジェクトへの管理者アクセスを管理するために、イベントデータをExperience Cloudから送信するために必要です。
+   - [Adobe I/Oイベントサービス](https://developer.adobe.com/commerce/extensibility/events/)- Experience CloudからCommerce プロジェクトへの管理者アクセスを管理するために、イベントデータを送信する必要があります。
 
-     コマースとのAdobe I/Oイベントの統合は、コマースイベント拡張 (`magento/commerce-eventing`) で利用できます ( Adobe Commerce 2.4.4 以降のバージョンで利用できます )。
+     CommerceとのAdobe I/Oイベント統合は、Commerce イベント拡張機能（`magento/commerce-eventing`）に含まれています。Adobe Commerce 2.4.4 以降のバージョンで使用できます。
 
 ## 統合の有効化
 
-次の手順に従って、統合を有効にします。 [コマース管理とのExperience Cloud統合の設定](admin-unified-experience-integration-configure.md).
+次の手順に従って、統合を有効にします。 [Commerce Admin とのExperience Cloud統合の設定](admin-unified-experience-integration-configure.md).
 
 >[!TIP]
 >
->コマースインスタンスでExperience Cloudの統合が既に有効になっている場合は、 [Experience Cloud統合の管理](admin-unified-experience-integration-manage.md) 設定の変更または更新、管理者アクセスの管理、トラブルシューティングの詳細。
+>Commerce インスタンスでExperience Cloud統合が既に有効になっている場合は、以下を参照してください。 [Experience Cloud統合の管理](admin-unified-experience-integration-manage.md) 設定の変更または更新、管理者アクセスの管理、トラブルシューティングについて詳しくは、
