@@ -3,16 +3,16 @@ title: キャッシュ管理
 description: サイトのパフォーマンスを簡単に向上させるキャッシュ管理ツールの使用方法を説明します。
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-source-git-commit: add2259bf326d7812999e3e7d4724af10f7497c0
+source-git-commit: fdf04be69754d0209772d9ceb244e3808f3b61d3
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1821'
 ht-degree: 0%
 
 ---
 
 # キャッシュ管理
 
-Adobe CommerceとMagento Open Sourceキャッシュの管理システムを使用すると、サイトのパフォーマンスを簡単に向上させることができます。 キャッシュの更新が必要になると、通知がワークスペースの上部に表示され、へのリンクが表示されます [!UICONTROL Cache Management] キャッシュを表示および更新できるページ。
+Adobe CommerceとMagento Open Sourceキャッシュの管理システムを使用すると、サイトのパフォーマンスを簡単に向上させることができます。 キャッシュの更新が必要な場合は常に、通知がにリンクされて表示されます [!UICONTROL Cache Management] ページをクリックして更新を完了します。
 
 ![製品属性の保存 – キャッシュメッセージの更新](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
@@ -40,8 +40,8 @@ Commerce では、インデックス再作成とキャッシュに異なる目�
 - 拡張機能やモジュールをインストールした後は、必ずキャッシュをフラッシュしてください。 1 つ以上の拡張機能をインストールしてから、キャッシュをフラッシュできます。
 - Commerce をインストールした後、キャッシュをフラッシュします。 新規インストールの場合は、のインデックスも再作成する必要があります。
 - あるバージョンの Open Source または Commerce から別のバージョンにアップグレードした後で、キャッシュをフラッシュします。
-- キャッシュをフラッシュする場合は、キャッシュのタイプと、ピーク時以外の時間にフラッシュをスケジュールすることを考慮してください。 例えば、深夜や早朝など、サイトにアクセスする顧客が少ない時間を選択します。 ピーク時に一部のキャッシュタイプをクリアすると、管理者の負荷が高くなり、完了するまでダウンサイトになる場合があります。
-- 条件 [再インデックス](index-management.md)また、フラッシュキャッシュを実行する必要もありません。
+- キャッシュをフラッシュする場合は、キャッシュのタイプと、ピーク時以外の時間にフラッシュをスケジュールすることを考慮してください。 例えば、深夜や早朝など、サイトを使用する顧客が少ない時間を選択します。 ピーク時の要求時にキャッシュ タイプをクリアすると、管理者の負荷が増え、操作が完了するまでサイトが停止する場合があります。
+- 条件 [再インデックス](index-management.md)キャッシュをフラッシュする必要はありません。
 
 ## キャッシュ管理ロール リソース
 
@@ -80,7 +80,7 @@ Commerce では、インデックス再作成とキャッシュに異なる目�
    - `Select All`
    - `Select Visible`
 
-1. アクションのターゲットにする各キャッシュのチェックボックスを選択します。
+1. 更新する各キャッシュのチェックボックスを選択します。
 
 1. を設定 **[!UICONTROL Actions]** 対象： `Refresh` をクリックして、 **[!UICONTROL Submit]**.
 
@@ -94,7 +94,7 @@ Commerce では、インデックス再作成とキャッシュに異なる目�
 
 ## Javascript/CSS キャッシュをフラッシュします
 
-1. 次の下 _[!UICONTROL Additional Cache Management]_を選択し、**[!UICONTROL Flush JavaScript/CSS Cache]**単一のファイルに結合された JavaScript ファイルと CSS ファイルをクリアします。
+1. 次の下 _[!UICONTROL Additional Cache Management]_をクリックし、1 つのファイルに結合された Javascript ファイルおよび CSS ファイルを消去します。**[!UICONTROL Flush JavaScript/CSS Cache]**.
 
    この `The JavaScript/CSS cache has been cleaned` メッセージがワークスペースの上部に表示されます。
 
@@ -102,7 +102,7 @@ Commerce では、インデックス再作成とキャッシュに異なる目�
 
 ## コマンドラインを使用したフラッシュ
 
-Commerce アプリケーション サーバへのアクセス権を持つシステム管理者および開発者は、Commerce CLI を使用してコマンド ラインからキャッシュとキャッシュの設定を管理することもできます。 参照： [キャッシュの管理](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#:~:text=You%20can%20also%20clean%20and,bin%2Fmagento%20cache%3Aclean%20.) が含まれる _設定ガイド_.{:target=&quot;_blank&quot;}。
+Commerce アプリケーション サーバへのアクセス権を持つシステム管理者および開発者は、Commerce CLI を使用してコマンド ラインからキャッシュとキャッシュの設定を管理することもできます。 参照： [キャッシュの管理](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target=&quot;_blank&quot;} _設定ガイド_.
 
 ## コントロール
 
@@ -134,7 +134,7 @@ Commerce アプリケーション サーバへのアクセス権を持つシス�
 
 - `%CACHE_TYPE_TAG%` キャッシュタイプスコーピングで使用される一意のタグを定義します。
 
-開発者およびシステムインテグレーターは、これらの値を使用して、Adobe Commerceのカスタマイズや統合を行う際のキャッシュの設定や管理を行います。例えば、GraphQL API を使用して統合を開発する場合などです。 この `cache type id` は、次のように、Commerce CLI を使用してアプリケーション サーバのコマンド ラインからキャッシュを管理する場合にも使用されます。 ` bin/magento cache:status config` 構成キャッシュの現在のステータスが表示されます。
+開発者およびシステムインテグレーターは、これらの値を使用して、Adobe Commerceのカスタマイズや統合を行う際のキャッシュの設定や管理を行います。例えば、GraphQL API を使用して統合を開発する場合などです。 この `cache type id` は、Commerce CLI を使用してアプリケーションサーバーのコマンドラインからキャッシュを管理する場合にも使用されます。 例： ` bin/magento cache:status config` 構成キャッシュの現在のステータスが表示されます。
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Commerce アプリケーション サーバへのアクセス権を持つシス�
 | `Database DDL operations` | データベーススキーマ。 必要に応じて、Commerce はこのキャッシュを自動的にクリーンアップしますが、サードパーティの開発者は任意のデータをキャッシュの任意のセグメントに配置できます。 データベーススキーマにカスタムの変更を加えた後、このキャッシュタイプをクリーンアップまたはフラッシュします。 （つまり、これらは Commerce 自体が行わない更新です。） データベーススキーマを自動的に更新する 1 つの方法は、magento 設定を使用することです:db-schema:アップグレード コマンド。 | `DB_DDL` | `db_ddl` |
 | [!UICONTROL Compiled Config] | コードのコンパイルの結果。 | `COMPILED_CONFIG` | `compiled_config` |
 | [!UICONTROL Webhooks Response Cache] | Webhook リクエストに対する応答をキャッシュします。 詳しくは、 [Webhook ガイド](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) （Commerce 開発者向けドキュメント）を参照してください。 | `WEBHOOKS_RESPONSE` | `webhooks_response` |
-| [!UICONTROL EAV types and attributes] | EAV 属性に関連するメタデータのエンティティタイプ宣言キャッシュ（例：ストアラベル、関連する PHP コードへのリンク、属性レンダリング、検索設定など）。 通常、このキャッシュタイプをクリーンアップまたはフラッシュする必要はありません。 | `EAV` | `eav` |
+| [!UICONTROL EAV types and attributes] | エンティティ属性値（EAV）属性に関連するメタデータのエンティティ・タイプ宣言をキャッシュします。 属性には、ストアラベル、関連する PHP コードへのリンク、属性レンダリング、検索設定などが含まれます。 通常、このキャッシュタイプをクリーンアップまたはフラッシュする必要はありません。 | `EAV` | `eav` |
 | [!UICONTROL Customer Notification] | ユーザーインターフェイスに表示される一時通知。 | `CUSTOMER_NOTIFICATION` | `customer_notification` |
 | [!UICONTROL GraphQL Query Resolver Results] | 顧客、CMS ページ、CMS ブロック、製品メディアギャラリーエンティティのGraphQL クエリリゾルバーの結果をキャッシュします。 GraphQLのパフォーマンスを向上させるために、このキャッシュを有効のままにします。 | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
 | [!UICONTROL Integrations Configuration] | 統合設定ファイル。 統合を変更または追加した後で、このキャッシュをクリーンアップまたはフラッシュしてください。 | `INTEGRATION` | `config_integration` |
@@ -169,17 +169,17 @@ Commerce アプリケーション サーバへのアクセス権を持つシス�
 
 ## フルページキャッシュ
 
-Adobe CommerceとMagento Open Sourceでは、サーバー上のフルページキャッシュを使用して、カテゴリページ、製品ページおよび CMS ページをすばやく表示します。 フルページキャッシュにより、応答時間が改善され、サーバーの負荷が軽減されます。 キャッシュを使用しない場合、各ページでコードブロックを実行し、データベースから情報を取得する必要が生じる可能性があります。 ただし、フルページキャッシュを有効にすると、完全に生成されたページをキャッシュから直接読み取ることができます。
+Adobe CommerceとMagento Open Sourceでは、カテゴリ、製品および CMS ページをすばやく表示するために、サーバー上でフルページキャッシュを使用します。 フルページキャッシュにより、応答時間が改善され、サーバーの負荷が軽減されます。 キャッシュを使用しない場合、各ページでコードブロックを実行し、データベースから情報を取得する必要が生じる可能性があります。 ただし、フルページキャッシュを有効にすると、完全に生成されたページをキャッシュから直接読み取ることができます。
 
 >[!NOTE]
 >
 >次の操作をお勧めします [Varnish キャッシュ](https://varnish-cache.org/){:target=&quot;_blank&quot;} は、実稼動環境でのみ使用してください。
 
-キャッシュされたコンテンツを使用して、類似したタイプの訪問からのリクエストを処理できます。 その結果、一般の訪問者に表示されるページは、顧客に表示されるページとは異なる場合があります。 キャッシュの目的上、各訪問は次の 3 つのタイプのいずれかになります。
+キャッシュされたコンテンツを使用して、類似したタイプの訪問からのリクエストを処理できます。 その結果、不用意な訪問者に表示されるページは、顧客に表示されるページとは異なる場合があります。 キャッシュの目的上、各訪問は次の 3 つのタイプのいずれかになります。
 
 - `Non-sessioned` - セッションなしの訪問中、買い物客はページを表示しますが、ストアとのやり取りは行いません。 システムは、表示された各ページのコンテンツをキャッシュし、セッションに参加していない他の買い物客に提供します。
-- `Sessioned` - セッション形式の訪問中、買い物客がストアとやり取りする際に（製品の比較や買い物かごへの製品の追加などのアクティビティを通じて）、セッション ID が割り当てられます。 セッション中に生成されたキャッシュ済みページは、セッション中にその買い物客のみが使用します。
-- `Customer`  – 顧客セッションは、ストアおよびショップのアカウントに登録し、そのアカウントにログインしているユーザーのために作成されます。 セッションの間、顧客には、割り当てられた顧客グループに基づく特別なオファー、プロモーション、価格が提示されます。
+- `Sessioned` - セッション訪問中、ストアとやり取りする買い物客には、セッション ID が割り当てられます。 インタラクションには、製品の比較や買い物かごへの製品の追加などのアクティビティが含まれます。 セッション中に生成されたキャッシュ済みページは、セッション中にその買い物客のみが使用します。
+- `Customer`  – 登録済みのアカウントを使用してログインして買い物をした顧客に対して、顧客セッションが作成されます。 セッションの間、お客様には、割り当てられた顧客グループに基づいて、特別なオファー、プロモーション、価格が提示されます。
 
 技術情報については、を参照してください [ワニスの設定と使用](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target=&quot;_blank&quot;} と [コマースページとデフォルトキャッシュに Redis を使用します](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target=&quot;_blank&quot;} _設定ガイド_.
 
