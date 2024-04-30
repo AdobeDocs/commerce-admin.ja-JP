@@ -5,9 +5,9 @@ breadcrumb-title: はじめに
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 5c9d61ae16576b3298336b94c9b4101c78c05976
+source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '206'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 1%
 
 + [Adobe Commerce入門ガイド](guide-overview.md)
 + [Adobe Commerceとは](about.md)
-+ [リリース情報](about-this-release.md)
 + [ログイン資格情報と URL](login-urls.md)
 + Commerce アカウント {#commerce-account}
    + [アカウントの作成とアクセス](commerce-account-create.md)

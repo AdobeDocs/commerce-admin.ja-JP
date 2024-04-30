@@ -1,9 +1,9 @@
 ---
 title: スニペット
 description: 特定のエディションに適用される機能またはページをメモするための再利用されたメモと視覚的要素
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe IDを持ち、Adobe CommerceおよびAdobeビジネス製品への効率的なログインを必要とするAdobe Commerce マーチャントは、Commerce Admin 認証をAdobe IMS認証ワークフローと統合できます。 この連携がコマースストアに対して有効になると、各管理者ユーザーは、コマースアカウントの資格情報ではなく、Adobe資格情報を使用してログインする必要があります。 参照： [Adobe CommerceとAdobe IMSの統合：概要](/help/getting-started/adobe-ims-integration-overview.md).
+>Adobe IDを持っていて、Adobe CommerceおよびAdobeビジネス製品への効率的なログインを必要とするAdobe Commerce マーチャントは、Commerce Admin Authentication をAdobe IMS認証ワークフローと統合できます。 この統合がCommerce ストアに対して有効になると、各管理者ユーザーは、Commerce アカウントの資格情報ではなく、Adobeの資格情報を使用してログインする必要があります。 参照： [Adobe CommerceとAdobe IMSの統合：概要](/help/getting-started/adobe-ims-integration-overview.md).
 
 ## GTag API メモ {#gtag-api-note}
 
@@ -75,10 +75,10 @@ ht-degree: 0%
 
 | ドキュメントリソース | 説明 |
 |----------------------- | ----------- |
-| [Adobe Commerce 2.4 マーチャントドキュメント](../landing/home.md) | Adobe CommerceとMagento Open Sourceの両方に関するマーチャント向けドキュメント |
+| [Adobe Commerce 2.4 マーチャントドキュメント](../landing/home.md) | Adobe Commerceに関するマーチャント向けドキュメント |
 | [Adobe Commerce向けサービス ドキュメント](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | マーチャントがビジネスの主要なコンポーネントをストアと統合するのに役立つ、サービスのコレクションをサポートするドキュメント。 |
-| [Commerce on Cloud Infrastructure ガイド](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 管理された自動ホスティングクラウドプラットフォームにAdobe Commerceをデプロイするためのステップバイステップの手順。 |
-| [Adobe Commerce 2.4 運用ガイド](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Adobe CommerceおよびMagento Open Sourceプラットフォームにデプロイされたプロジェクトを開発、デプロイ、管理するためのコンセプト、プロセス、ツールおよびベストプラクティスに関するシステムドキュメント。 |
-| [Adobe Commerce 2.4 開発者向けドキュメント](https://developer.adobe.com/commerce/docs) | Adobe CommerceまたはMagento Open Sourceの構築とカスタマイズに使用される、開発者向けドキュメント |
+| [クラウドインフラストラクチャー上のCommerce ガイド](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 管理された自動ホスティングクラウドプラットフォームにAdobe Commerceをデプロイするためのステップバイステップの手順。 |
+| [Adobe Commerce 2.4 運用ガイド](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Adobe Commerce プロジェクトを開発、デプロイ、管理するためのコンセプト、プロセス、ツールおよびベストプラクティスに関するシステムドキュメント。 |
+| [Adobe Commerce 2.4 開発者向けドキュメント](https://developer.adobe.com/commerce/docs) | Adobe Commerceのカスタマイズとサードパーティシステムとの統合に使用する、開発者向けドキュメント |
 
 {style="table-layout:auto"}
