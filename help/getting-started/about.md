@@ -2,13 +2,13 @@
 title: Adobe Commerceとは
 description: Adobe Commerceは、エンタープライズ e コマースプラットフォームです。 e コマースチームのグローバルな成長を促進している最新機能をお読みください。
 mini-toc-levels: 1
-source-git-commit: f3bba921f180f0338722d0e29fef1c6f260837de
+exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
+source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
 workflow-type: tm+mt
-source-wordcount: '3323'
+source-wordcount: '3326'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Commerceとは
 
@@ -34,6 +34,8 @@ Adobeのビジョンは、エクスペリエンス主導で、データを活用
 - [データを活用した](#data-powered-commerce). Adobe Commerceは、マーケティングテクノロジースタック全体でシームレスなデータ共有を提供し、ファーストパーティのコマースデータを機能させ、すべてのタッチポイントとチャネルにわたってエクスペリエンスをパーソナライズできるようにします。
 
 - [テクノロジー対応](#tech-enabled-commerce). Adobe Commerceは、e コマース機能を迅速に立ち上げ、サードパーティシステム間でのデータ共有を容易にし、統合とカスタマイズの所有コストを削減するように設計された構成可能な e コマースプラットフォームです。
+
+![Adobe Commerceのインフォグラフィック](assets/about-commerce.png)
 
 ## 体験型Commerce
 
