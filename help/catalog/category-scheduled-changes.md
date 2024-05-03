@@ -1,67 +1,71 @@
 ---
-title: カテゴリに対する予定変更
-description: マーケティングキャンペーンをサポートし、プロモーションを保存するために、カテゴリの変更をスケジュールする方法を説明します。
+title: カテゴリのスケジュール済み変更
+description: マーケティングキャンペーンやストアプロモーションをサポートするために、カテゴリの変更をスケジュールする方法を説明します。
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
 
-# カテゴリに対する予定変更
+# カテゴリのスケジュール済み変更
 
 {{ee-feature}}
 
-カテゴリの更新は、スケジュールに従って適用し、他のコンテンツの変更と共にグループ化できます。 カテゴリに対する予定された変更に基づいてキャンペーンを作成したり、変更を既存のキャンペーンに適用したりできます。 詳しくは、 [コンテンツのステージング](../content-design/content-staging.md).
+カテゴリの更新はスケジュールに従って適用でき、他のコンテンツの変更と共にグループ化できます。 カテゴリに対してスケジュールされた変更に基づいてキャンペーンを作成したり、既存のキャンペーンに変更を適用したりできます。 詳しくは、 [コンテンツのステージング](../content-design/content-staging.md).
 
 >[!NOTE]
 >
->スケジュールされたすべての更新は連続して適用されます。つまり、どのエンティティも一度に 1 つのスケジュールされた更新のみを持つことができます。 スケジュールされた更新は、その期間内のすべてのストアビューに適用されます。 その結果、異なるストア表示に対して、エンティティが複数のスケジュール済み更新を同時に持つことはできません。 現在のスケジュール済み更新の影響を受けない、すべてのストア表示内のすべてのエンティティ属性値は、以前のスケジュール済み更新の値ではなく、デフォルト値から取得されます。
+>この [!UICONTROL Schedule Design Update] タブがで削除されました ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerceであり、カテゴリで直接変更することはできません。 これらのアクティベーションに対して、スケジュールされた更新を作成する必要があります。
 
-## カテゴリの更新をスケジュールする
+>[!NOTE]
+>
+>スケジュールされた更新はすべて連続して適用されます。つまり、どのエンティティも一度に 1 つのスケジュールされた更新しか持つことができません。 スケジュールされた更新は、その期間内のすべてのストアビューに適用されます。 その結果、1 つのエンティティに対して、異なるストア表示の複数のスケジュールされた更新を同時に行うことはできません。 現在スケジュールされている更新の影響を受けないすべてのストアビュー内のすべてのエンティティ属性値は、前回スケジュールされた更新ではなく、デフォルト値から取得されます。
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+## カテゴリの更新をスケジュール
 
-1. 左側のカテゴリツリーで、変更するカテゴリを選択します。
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. Adobe Analytics の _予定されている変更_ 」ボックスをクリックします。 **[!UICONTROL Schedule New Update]**.
+1. 左側のカテゴリ ツリーで、変更するカテゴリを選択します。
 
-   ![予定されている変更](./assets/category-scheduled-changes.png){width="600" zoomable="yes"}
+1. が含まれる _スケジュールされた変更_ ページの上部にあるボックスで、 **[!UICONTROL Schedule New Update]**.
 
-1. を使用 **[!UICONTROL Save as a New Update]** オプションを選択した場合、更新の基本パラメーターを設定します。
+   ![スケジュールされた変更](./assets/category-scheduled-changes.png){width="600" zoomable="yes"}
 
-   - の場合 **[!UICONTROL Update Name]**」に、新しいコンテンツステージングキャンペーンの名前を入力します。
+1. （を使用） **[!UICONTROL Save as a New Update]** オプションを選択して、更新の基本パラメーターを設定：
 
-   - 概要を入力 **[!UICONTROL Description]** を更新し、その使用方法を示します。
+   - の場合 **[!UICONTROL Update Name]**、新しいコンテンツのステージングキャンペーンの名前を入力します。
 
-   - カレンダー ( ![カレンダーアイコン](../assets/icon-calendar.png) ) ツールを使用して **[!UICONTROL Start Date]** および **[!UICONTROL End Date]** キャンペーンの。
+   - 概要を入力 **[!UICONTROL Description]** 更新の概要と使用方法。
+
+   - カレンダーの使用（ ![カレンダーアイコン](../assets/icon-calendar.png) ）を選択します。 **[!UICONTROL Start Date]** および **[!UICONTROL End Date]** キャンペーン用。
 
    >[!IMPORTANT]
    >
-   >Campaign **[!UICONTROL Start Date]** および **[!UICONTROL End Date]** は、 **_デフォルト_** 管理者タイムゾーン。各 Web サイトのローカルタイムゾーンから変換されます。 例えば、異なるタイムゾーンの複数の Web サイトで、米国のタイムゾーンに基づいてキャンペーンを開始する場合、ローカルタイムゾーンごとに個別の更新をスケジュールする必要があります。 次の項目を設定します。 **[!UICONTROL Start Date]** および **[!UICONTROL End Date]** それぞれに対して（ローカル web サイトのタイムゾーンからデフォルトの管理者タイムゾーンに変換されます）。
+   >キャンペーン **[!UICONTROL Start Date]** および **[!UICONTROL End Date]** を使用して定義する必要があります。 **_default_** 各 web サイトのローカルタイムゾーンから変換される管理タイムゾーン。 例えば、米国のタイムゾーンをベースにキャンペーンを開始する、異なるタイムゾーンの複数の web サイトでは、ローカルタイムゾーンごとに個別の更新をスケジュールする必要があります。 を設定します **[!UICONTROL Start Date]** および **[!UICONTROL End Date]** それぞれに対して、ローカルの web サイトのタイムゾーンからデフォルトの管理者のタイムゾーンに変換されます。
 
-   ![予定されている変更](./assets/category-scheduled-changes-new-update.png){width="600" zoomable="yes"}
+   ![スケジュールされた変更](./assets/category-scheduled-changes-new-update.png){width="600" zoomable="yes"}
 
-1. スケジュールされた更新に必要な変更を加えます。
+1. スケジュールされている更新に必要な変更を加えます。
 
-1. 変更をプレビューするには、 **[!UICONTROL Preview]** をクリックします。
+1. 変更をプレビューするには、をクリックします **[!UICONTROL Preview]** 右上のボタンバーに
 
-1. 完了したら、「 **[!UICONTROL Save]**.
+1. 完了したら、 **[!UICONTROL Save]**.
 
-## 既存の更新に割り当て
+## 既存の更新に割り当てる
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. 左側のカテゴリツリーで、変更するカテゴリを選択します。
+1. 左側のカテゴリ ツリーで、変更するカテゴリを選択します。
 
-1. Adobe Analytics の _予定されている変更_ 」ボックスをクリックします。 **[!UICONTROL Schedule New Update]**.
+1. が含まれる _スケジュールされた変更_ ページの上部にあるボックスで、 **[!UICONTROL Schedule New Update]**.
 
-1. 選択 **[!UICONTROL Assign to Existing Campaign]**.
+1. を選択 **[!UICONTROL Assign to Existing Campaign]**.
 
-1. リストで、必要なキャンペーンを見つけて、 **[!UICONTROL Select]**.
+1. リストで必要なキャンペーンを見つけて、 **[!UICONTROL Select]**.
 
-1. スケジュールされた更新に必要な変更を加えます。
+1. スケジュールされている更新に対して必要な変更を行います。
 
-1. 完了したら、「 **[!UICONTROL Save]**.
+1. 完了したら、 **[!UICONTROL Save]**.
