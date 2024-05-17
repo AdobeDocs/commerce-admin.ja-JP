@@ -1,34 +1,34 @@
 ---
 title: サイトマップ
-description: コマースサイトのすべてのページと画像のインデックスを作成するサイトマップの設定方法を説明します。
+description: Commerce サイトのすべてのページと画像をインデックス化するようにサイトマップを設定する方法を説明します。
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
 
 # サイトマップ
 
-サイトマップは、検索エンジンによってストアのインデックスが作成される方法を改善し、Web クローラーが見落とす可能性のあるページを見つけるように設計されています。 サイトマップは、すべてのページと画像のインデックスを作成するように設定できます。
+サイト マップを使用すると、検索エンジンによるストアのインデックス作成方法が向上し、Web クローラーによって見落とされる可能性のあるページを検索できます。 サイトマップは、すべてのページと画像のインデックスを作成するように設定できます。
 
-有効にすると、Commerce は、 `sitemap.xml` は、指定した場所にインストールされた場所に保存されます。 この設定を使用すると、更新の頻度と、コンテンツの各タイプの優先度を設定できます。 サイトマップは、サイト上のコンテンツが変更されるたびに（日別、週別、月別など）更新される必要があります。
+有効にすると、Commerceでという名前のファイルが作成されます `sitemap.xml` は、指定した場所にインストールされて保存されます。 この設定を使用すると、更新の頻度や、各タイプのコンテンツの優先度を設定できます。 サイトマップは、サイト上のコンテンツが変更される頻度に合わせて更新する必要があります（日単位、週単位、月単位など）。
 
-サイトの開発中に、 `robots.txt` ファイルを使用して、サイトのインデックス作成を回避します。 その後、起動前に手順を変更して、サイトのインデックスを作成できるようにします。
+サイトが開発中の場合は、に手順を記載することができます。 `robots.txt` サイトのインデックス作成を回避するための web クローラー用ファイル。 その後、ローンチの前に手順を変更して、サイトのインデックスを作成できます。
 
-技術情報については、 [サイトマップと robots.txt を追加][1] （内） _Commerce on Cloud Infrastructure ガイド_.
+技術情報については、を参照してください [サイトマップと robots.txt の追加][1] が含まれる _クラウドインフラストラクチャー上のCommerce ガイド_.
 
 ![サイトマップグリッド](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
 ## 手順 1. サイトマップの設定
 
-次を完了： [XML サイトマップの設定](#site-map-configuration) を使用して、何が含まれ、どのくらいの頻度でサイトマップが更新されるかを決定します。
+を完了する [XML サイトマップ設定](#site-map-configuration) 含める内容と、サイトマップを更新する頻度を決定します。
 
-## 手順 2. サイトマップを生成します
+## 手順 2. サイトマップを生成
 
-1. 次の日： _管理者_ メニュー、移動 **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**.
+1. 日 _Admin_ メニュー、に移動 **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**.
 
 1. クリック **[!UICONTROL Add Site Map]**.
 
@@ -36,78 +36,78 @@ ht-degree: 0%
 
 1. サイトマップを入力 **[!UICONTROL Filename]**. 例： `sitemap.xml`
 
-1. 次を入力します。 **[!UICONTROL Path]** を使用して、サーバ上のサイトマップファイルの場所を特定します。 パスが書き込み可能であることを確認します。
+1. を入力 **[!UICONTROL Path]** サイト マップ ファイルが存在するサーバー上の場所を特定します。 パスが書き込み可能であることを確認します。
 
-   - `/sitemap/`  — サイトマップファイルを、 _sitemap_.
+   - `/sitemap/`  – というディレクトリにサイト マップ ファイルを配置します _サイトマップ_.
 
-   - `/`  — サイトマップファイルをコマースインストール環境のベースパスまたはルートに配置します。
+   - `/` - サイトマップファイルをCommerce インストールのベースパス（ルート）に配置します。
 
    ![新しいサイトマップ](./assets/marketing-sitemap-new.png){width="600" zoomable="yes"}
 
-1. 完了したら、「 **[!UICONTROL Save & Generate]**.
+1. 完了したら、 **[!UICONTROL Save & Generate]**.
 
-   サイトマップがグリッドに表示されるまでに数分かかる場合があります。
+   サイト マップがグリッドに表示されるまでに数分かかる場合があります。
 
 ## 手順 3. robots.txt の設定と有効化（オプション）
 
-次を完了： [検索エンジンロボット](seo-overview.md#search-engine-robots) インデックスを作成するサイトの一部を検索エンジンでクロールするよう指示を含む設定。
+を完了する [検索エンジンロボット](seo-overview.md#search-engine-robots) インデックスを作成するサイトの部分を検索エンジンがクロールするように指示する指示を含む構成。
 
 ## 手順 4. 検索エンジンにサイトマップを送信
 
-サイトマップを様々な検索エンジンに送信するには、サイトマップを `sitemap.xml` ファイルを Commerce インストールに保存します。 リンクをコピーするには、次の手順を実行します。
+次へのリンクを指定することで、様々な検索エンジンにサイトマップを送信できます `sitemap.xml` Commerceのインストール先のファイル。 リンクをコピーするには、次の手順を実行します。
 
-1. Adobe Analytics の _サイトマップ_ リストで、 **[!UICONTROL Link for Google]** 列。
+1. が含まれる _サイトマップ_ リストで、 **[!UICONTROL Link for Google]** 列。
 
-1. メニューで、「 」を選択します。 **[!UICONTROL Copy Link Address]**.
+1. メニューで、を選択します **[!UICONTROL Copy Link Address]**.
 
-詳しくは、特定の検索エンジンに関する説明を参照してください。 次に、上位 2 つの検索エンジンの手順へのリンクを示します。
+詳しくは、特定の検索エンジンの手順を参照してください。 上位 2 つの検索エンジンの手順へのリンクを次に示します。
 
 - [Google][2]
-- [Microsoft® Bing][3]
+- [Microsoft®Bing][3]
 
-## 手順 5：以前のロボットの手順を復元する（オプション）
+## ステップ 5：以前のロボットの指示を復元する（オプション）
 
-これで、元の（デフォルトの）制限を復元できます。
+元の（デフォルトの）制限のいずれかを復元できるようになりました。
 
-## 複数の Web サイト用のサイトマップと robots.txt の管理
+## 複数の Web サイトのサイトマップと robots.txt の管理
 
-複数の Web サイトがある場合は、サイトマップの作成と送信のプロセスを簡略化できます。 簡単に [作成](#site-map-configuration) 検証済みのすべてのストアの URL を含む 1 つ以上のサイトマップを 1 つの場所に保存します。 すべてのサイトをで検証する必要があります。 [Google Search Console](https://support.google.com/webmasters/answer/7451001).
+複数の web サイトがある場合は、サイトマップの作成と送信のプロセスを簡素化できます。 簡単に [作成](#site-map-configuration) 検証済みのすべてのストアの URL を含んだ 1 つ以上のサイトマップで、サイトマップを 1 つの場所に保存します。 すべてのサイトを次で検証する必要があります [Google検索コンソール](https://support.google.com/webmasters/answer/7451001).
 
-マルチストアインスタンスのサイトマップを作成するには、次の手順を実行します。
+マルチストアインスタンス用のサイトマップを作成するには、次の手順を実行します。
 
-1. という名前のフォルダーを作成します。 `sitemaps` web サイトのルートで、各ドメインのサブフォルダーを作成します。
+1. というフォルダーを作成します。 `sitemaps` web サイトのルートに、各ドメインのサブフォルダーを作成します。
 
        /sitemaps/domain_1/
        /sitemaps/domain_2/
    
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**.
 
-1. 各ストアのサイトマップリストを作成または編集し、 **[!UICONTROL Path]** をストア用に作成したものに変更します。
+1. 各ストアのサイトマップのリストを作成または編集し、 **[!UICONTROL Path]** ストア用に作成したノードに対して、次の操作を行います。
 
    `/sitemaps/domain_1/`
    `/sitemaps/domain_2/`
 
-1. 必要に応じて、 robots.txt ファイルを更新します。
+1. 必要に応じて、robots.txt ファイルを更新します。
 
-   検索エンジンのスパイダーが新しいサイトマップに正しく送られるように、 robots.txt ファイルを更新または作成できます。 上部に次の行を追加します。
+   検索エンジンスパイダーが新しいサイトマップに正しく誘導されていることを確認するには、robots.txt ファイルを更新または作成します。 次の行を上部に追加します。
 
-       Web サイトサイトマップ
-       サイトマップ： https://www.domain_1.com/sitemaps/domain_1/sitemap.xml
-       サイトマップ： https://www.domain_2.com/sitemaps/domain_2/sitemap.xml
+       Web サイトマップ
+       サイトマップ：https://www.domain_1.com/sitemaps/domain_1/sitemap.xml
+       サイトマップ：https://www.domain_2.com/sitemaps/domain_2/sitemap.xml
    
 >[!NOTE]
 >
->サイトで [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) web サーバーエンジンの場合は、 [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) ファイルを Web サイトのルートに配置して、他のサイトマップリクエストを適切な場所に送信します。
+>サイトでを使用している場合 [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) web サーバーエンジン。を更新してください [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) web サイトのルートにファイルを作成して、その他のサイトマップ要求を適切な場所に誘導します。
 
 ## 列の説明
 
 | 列 | 説明 |
 |------|-----------|
-| [!UICONTROL ID] | 現在のサイトマップの連続したレコード番号。 |
-| [!UICONTROL Filename] | サイトマップのファイル名。 |
-| [!UICONTROL Path] | サイトマップがサーバー上に存在する場所。 例： <br/>`/sitemap/`  — サイトマップファイルを、 _sitemap_（コマースインストールのルートの 1 レベル下） <br/>`/`  — サイトマップファイルをコマースインストール環境のベースパスまたはルートに配置します。 |
-| [!UICONTROL Link for Google] | Googleおよびその他の検索エンジンに送信するサイトマップの URL。 |
-| [!UICONTROL Last Generated] | サイトマップが最後に生成された日時を示します。 |
+| [!UICONTROL ID] | 現在のサイト マップの順次レコード番号。 |
+| [!UICONTROL Filename] | サイト マップのファイル名。 |
+| [!UICONTROL Path] | サイト マップがサーバー上に存在する場所。 例： <br/>`/sitemap/`  – というディレクトリにサイト マップ ファイルを配置します _サイトマップ_（Commerce インストールのルートの 1 レベル下）。 <br/>`/` - サイトマップファイルをCommerce インストールのベースパス（ルート）に配置します。 |
+| [!UICONTROL Link for Google] | Googleおよびその他の検索エンジンに送信されるサイトマップの URL。 |
+| [!UICONTROL Last Generated] | サイト マップが最後に生成された日時を示します。 |
 | [!UICONTROL Store View] | サイトマップが適用されるストア表示。 |
 | [!UICONTROL Generate] | サイトマップを再生成します。 |
 
@@ -115,21 +115,21 @@ ht-degree: 0%
 
 ## サイトマップの設定
 
-サイトマップは、サイト上のコンテンツが変更されるたびに頻繁に更新される必要があります（日別、週別、月別）。 この設定を使用すると、コンテンツのタイプごとに頻度と優先度を設定できます。
+サイトマップは、サイト上のコンテンツが変更される頻度（日単位、週単位、月単位のいずれか）で更新する必要があります。 設定では、コンテンツのタイプごとに頻度と優先度を設定できます。
 
 ### 手順 1. コンテンツ更新の頻度と優先度を設定する
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. 左側のパネルで、を展開します。 **[!UICONTROL Catalog]** を選択します。 **[!UICONTROL XML Sitemap]**.
+1. 左側のパネルで、を展開します **[!UICONTROL Catalog]** を選択します **[!UICONTROL XML Sitemap]**.
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Categories Options]** 」セクションで次の操作を実行します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Categories Options]** を選択し、次の操作を実行します。
 
    >[!NOTE]
    >
-   >必要に応じて、 **[!UICONTROL Use system value]** チェックボックスを使用して、これらの設定を変更できます。
+   >必要に応じて、 **[!UICONTROL Use system value]** これらの設定を変更するチェックボックス。
 
-   - 設定 **[!UICONTROL Frequency]** を次のいずれかに変更します。
+   - を設定 **[!UICONTROL Frequency]** を次のいずれかに変更します。
 
       - `Always`
       - `Hourly`
@@ -139,89 +139,89 @@ ht-degree: 0%
       - `Yearly`
       - `Never`
 
-   - の場合 **[!UICONTROL Priority]**、次の値の間に値を入力 `0.0` および `1.0`. 0 が最も低い優先度です。
+   - の場合 **[!UICONTROL Priority]**&#x200B;の値を入力してください `0.0` および `1.0`. 優先順位が最も低いのはゼロです。
 
-   ![XML サイトマップ — カテゴリオプション](../configuration-reference/catalog/assets/xml-sitemap-categories-options.png){width="600" zoomable="yes"}
+   ![XML サイトマップ – カテゴリオプション](../configuration-reference/catalog/assets/xml-sitemap-categories-options.png){width="600" zoomable="yes"}
 
-   これらのオプションの詳細なリストについては、 [カテゴリオプション](../configuration-reference/catalog/xml-sitemap.md#categories-options) （内） _設定リファレンス_.
+   これらのオプションの詳細なリストについては、を参照してください [カテゴリオプション](../configuration-reference/catalog/xml-sitemap.md#categories-options) が含まれる _設定リファレンス_.
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Products Options]** 「 」セクションに移動して、 **[!UICONTROL Frequency]** および **[!UICONTROL Priority]** 必要に応じて設定します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Products Options]** 「」セクションを選択して、 **[!UICONTROL Frequency]** および **[!UICONTROL Priority]** 必要に応じて設定します。
 
-   これらのオプションの詳細なリストについては、 [製品オプション](../configuration-reference/catalog/xml-sitemap.md#products-options) （内） _設定リファレンス_.
+   これらのオプションの詳細なリストについては、を参照してください [製品オプション](../configuration-reference/catalog/xml-sitemap.md#products-options) が含まれる _設定リファレンス_.
 
-1. サイトマップに画像が含まれる範囲を決定するには、 **[!UICONTROL Add Images into Sitemap]** を次のいずれかに変更します。
+1. サイトマップに画像を含める範囲を決定するには、を設定します **[!UICONTROL Add Images into Sitemap]** を次のいずれかに変更します。
 
    - `None`
    - `Base Only`
    - `All`
 
-   ![カタログ設定 — XML サイトマップ製品](../configuration-reference/catalog/assets/xml-sitemap-products-options.png){width="600" zoomable="yes"}
+   ![カタログの設定 – XML サイトマップ製品](../configuration-reference/catalog/assets/xml-sitemap-products-options.png){width="600" zoomable="yes"}
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL CMS Pages Options]** 「 」セクションに移動して、 **[!UICONTROL Frequency]** および **[!UICONTROL Priority]** 必要に応じて設定します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL CMS Pages Options]** 「」セクションを選択して、 **[!UICONTROL Frequency]** および **[!UICONTROL Priority]** 必要に応じて設定します。
 
-   ![カタログ設定 — XML サイトマップ CMS ページ](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
+   ![カタログ設定 – XML サイトマップの CMS ページ](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
 
-   これらのオプションの詳細なリストについては、 [CMS ページオプション](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options) （内） _設定リファレンス_.
+   これらのオプションの詳細なリストについては、を参照してください [CMS ページオプション](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options) が含まれる _設定リファレンス_.
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Store Url Options]** 「 」セクションに移動して、 **[!UICONTROL Frequency]** および **[!UICONTROL Priority]** 必要に応じて設定します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Store Url Options]** 「」セクションを選択して、 **[!UICONTROL Frequency]** および **[!UICONTROL Priority]** 必要に応じて設定します。
 
-   ![カタログ設定 — XML サイトマップストア URL](./assets/xml-sitemap.png){width="600" zoomable="yes"}
+   ![カタログ設定 – XML サイトマップストア URL](./assets/xml-sitemap.png){width="600" zoomable="yes"}
 
-   これらのオプションの詳細なリストについては、 [ストア URL オプション](../configuration-reference/catalog/xml-sitemap.md#store-url-options) （内） _設定リファレンス_.
+   これらのオプションの詳細なリストについては、を参照してください [Url オプションの保存](../configuration-reference/catalog/xml-sitemap.md#store-url-options) が含まれる _設定リファレンス_.
 
-1. 完了したら、「 **[!UICONTROL Save Config]**.
+1. 完了したら、 **[!UICONTROL Save Config]**.
 
-### 手順 2. 生成設定を完了
+### 手順 2. 生成の設定を完了
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Generation Settings]** 」セクションに入力します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Generation Settings]** セクション。
 
-   必要に応じて、 **システム値を使用** チェックボックスを使用して、これらの設定を変更できます。
+   必要に応じて、 **システム値を使用** これらの設定を変更するチェックボックス。
 
-   ![カタログの設定 — XML サイトマップの生成設定](../configuration-reference/catalog/assets/xml-sitemap-generation-settings.png){width="600" zoomable="yes"}
+   ![カタログの設定 – XML サイトマップの生成設定](../configuration-reference/catalog/assets/xml-sitemap-generation-settings.png){width="600" zoomable="yes"}
 
-   これらのオプションの詳細なリストについては、 [生成設定](../configuration-reference/catalog/xml-sitemap.md#generation-settings) （内） _設定リファレンス_.
+   これらのオプションの詳細なリストについては、を参照してください [生成設定](../configuration-reference/catalog/xml-sitemap.md#generation-settings) が含まれる _設定リファレンス_.
 
-1. サイトマップを生成するには、 **[!UICONTROL Enabled]** から `Yes` 次の操作を実行します。
+1. サイトマップを生成するには、を設定します **[!UICONTROL Enabled]** 対象： `Yes` 次の手順を実行します。
 
-   - 設定 **[!UICONTROL Start Time]** を、サイトマップを更新する時間、分、秒に設定します。
+   - を設定 **[!UICONTROL Start Time]** サイトマップを更新する時、分、秒。
 
-   - 設定 **[!UICONTROL Frequency]** を次のいずれかに変更します。
+   - を設定 **[!UICONTROL Frequency]** を次のいずれかに変更します。
 
       - `Daily`
       - `Weekly`
       - `Monthly`
 
-   - の場合 **[!UICONTROL Error Email Recipient]**「 」では、サイトマップの更新中にエラーが発生した場合に通知を受け取る人の電子メールアドレスを入力します。
+   - の場合 **[!UICONTROL Error Email Recipient]**&#x200B;で、サイトマップの更新中にエラーが発生した場合に通知を受け取るユーザーのメールアドレスを入力します。
 
-   - 設定 **[!UICONTROL Error Email Sender]** エラー通知の送信者として表示されるストア連絡先に追加します。
+   - を設定 **[!UICONTROL Error Email Sender]** をエラー通知の送信者として表示される店舗連絡先に送信します。
 
-   - 設定 **[!UICONTROL Error Email Template]** をエラー通知に使用するテンプレートに追加します。
+   - を設定 **[!UICONTROL Error Email Template]** をエラー通知に使用されるテンプレートに追加します。
 
-### 手順 3. サイトマップファイルの制限を設定する
+### 手順 3. サイトマップファイル制限の設定
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Sitemap File Limits]** 」セクションに入力します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Sitemap File Limits]** セクション。
 
-   ![カタログ設定 — XML サイトマップファイルの制限](../configuration-reference/catalog/assets/xml-sitemap-sitemap-file-limits.png){width="600" zoomable="yes"}
+   ![カタログ設定 – XML サイトマップファイルの制限](../configuration-reference/catalog/assets/xml-sitemap-sitemap-file-limits.png){width="600" zoomable="yes"}
 
-   これらのオプションの詳細なリストについては、 [サイトマップファイルの制限](../configuration-reference/catalog/xml-sitemap.md#sitemap-file-limits) （内） _設定リファレンス_.
+   これらのオプションの詳細なリストについては、を参照してください [サイトマップファイルの制限](../configuration-reference/catalog/xml-sitemap.md#sitemap-file-limits) が含まれる _設定リファレンス_.
 
-1. の場合 **[!UICONTROL Maximum No of URLs per File]**」には、サイトマップに含めることができる URL の最大数を入力します。
+1. の場合 **[!UICONTROL Maximum No of URLs per File]**&#x200B;に設定し、サイトマップに含めることができる URL の最大数を入力します。
 
-   デフォルトでは、制限は 50,000 です。
+   デフォルトの上限は 50,000 です。
 
-1. の場合 **[!UICONTROL Maximum File Size]**&#x200B;の場合は、サイトマップに割り当てる最大サイズをバイト単位で入力します。
+1. の場合 **[!UICONTROL Maximum File Size]**&#x200B;サイトマップに割り当てる最大サイズ（バイト単位）を入力します。
 
    デフォルトのサイズは 10,485,760 バイトです。
 
-### 手順 4. 検索エンジンの送信設定を設定
+### 手順 4. 検索エンジン送信設定の指定
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Search Engine Submission Settings]** 」セクションに入力します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Search Engine Submission Settings]** セクション。
 
-   ![カタログ設定 — XML サイトマップ検索エンジンの送信設定](../configuration-reference/catalog/assets/xml-sitemap-search-engine-submission-settings.png){width="600" zoomable="yes"}
+   ![カタログ設定 – XML サイトマップ検索エンジンの送信設定](../configuration-reference/catalog/assets/xml-sitemap-search-engine-submission-settings.png){width="600" zoomable="yes"}
 
-1. を使用している場合、 `robots.txt` サイトをクロールする検索エンジンに指示を提供するファイル、 **[!UICONTROL Enable Submission to Robots.txt]** から `Yes`.
+1. を使用する場合 `robots.txt` ファイル サイトをクロールする検索エンジンに指示を提供するには、次のように設定します **[!UICONTROL Enable Submission to Robots.txt]** 対象： `Yes`.
 
-1. 完了したら、「 **[!UICONTROL Save Config]**.
+1. 完了したら、 **[!UICONTROL Save Config]**.
 
 [1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
 [2]: https://support.google.com/webmasters/answer/183669?hl=en

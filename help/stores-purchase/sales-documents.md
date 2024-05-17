@@ -1,52 +1,52 @@
 ---
-title: セールスドキュメント
-description: コマースストアの顧客の注文と達成をサポートするようにセールスドキュメントを設定する方法を説明します。
+title: 販売ドキュメント
+description: Commerce ストアに関するお客様の注文と受け渡しをサポートするための営業文書の設定方法を説明します。
 exl-id: 869d79ca-688a-4032-a95c-c66ebf7f2775
 feature: Invoices
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
-# セールスドキュメント
+# 販売ドキュメント
 
-注文ワークフローをサポートし、顧客が送信した注文に関するドキュメントを提供するには、ストアのブランドを反映するように関連する販売ドキュメントを設定し、参照情報を含めます。
+注文ワークフローをサポートし、顧客が送信する注文に関するドキュメントを顧客に提供するには、関連する販売ドキュメントを設定して店舗ブランドを反映し、参照情報を含めます。
 
-## 請求書および梱包明細の構成
+## 請求書と梱包明細の構成
 
-ストアフロントページで使用されるロゴ画像とは異なり、PDF請求書や他の販売ドキュメントのロゴは、高解像度の 300 dpi の画像にすることができます。 ロゴのサイズを変更する際は、縦横比を保持するように注意してください。 ロゴを高さに合うようにサイズ変更し、右側の未使用のスペースを気にしないようにします。
+店頭ページで使用されるロゴ画像とは異なり、PDF請求書やその他の営業資料のロゴは、高解像度の 300 dpi 画像にすることができます。 ロゴのサイズを変更する際は、縦横比を維持するように注意します。 ロゴのサイズを高さに合わせて変更し、右側の未使用のスペースを気にしないようにします。
 
 ![サンプルロゴ](./assets/logo-pdf.png){width="200"}
 
-必要なサイズに合わせてロゴのサイズを変更する方法の 1 つは、正しいサイズの新しい空白の画像を作成する方法です。 次に、ロゴイメージを貼り付け、高さに合わせてサイズを変更します。 ほとんどの画像編集プログラムでは、縦横比を維持するためにパーセンテージで拡大・縮小するか、Shift キーを押しながら手動で画像のサイズを変更することができます。
+必要なサイズに合わせてロゴのサイズを変更する 1 つの方法は、正しいサイズで新しい空白の画像を作成することです。 次に、ロゴ画像を貼り付け、高さに合わせてサイズを変更します。 ほとんどの画像編集プログラムでは、縦横比を維持するために倍率をパーセント単位で変更するか、Shift キーを押しながら手動で画像のサイズを変更できます。
 
 **_ロゴを更新するには：_**
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. 左側のパネルで、を展開します。 **[!UICONTROL Sales]** を選択します。 **[!UICONTROL Sales]** の下に
+1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL Sales]** その下に。
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Invoice and Packing Slip Design]** 」セクションで次の操作を実行します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Invoice and Packing Slip Design]** を選択し、次の操作を実行します。
 
-   ![販売構成 — 販売請求書および梱包明細の設計](../configuration-reference/sales/assets/sales-invoice-packing-slip-design.png){width="600" zoomable="yes"}
+   ![販売構成 – 販売請求書および梱包明細設計](../configuration-reference/sales/assets/sales-invoice-packing-slip-design.png){width="600" zoomable="yes"}
 
-   - 次の手順で **[!UICONTROL Logo for PDF Print-outs]**&#x200B;をクリックし、 **[!UICONTROL Choose File]**&#x200B;をクリックし、作成したロゴを探して、 **[!UICONTROL Open]**.
+   - をアップロードするには **[!UICONTROL Logo for PDF Print-outs]**&#x200B;を選択し、 **[!UICONTROL Choose File]**&#x200B;で、用意したロゴを見つけて、 **[!UICONTROL Open]**.
 
-   - 次の手順で **[!UICONTROL Logo for HTML Print View]**&#x200B;をクリックし、 **[!UICONTROL Choose File]**&#x200B;をクリックし、作成したロゴを探して、 **[!UICONTROL Open]**.
+   - をアップロードするには **[!UICONTROL Logo for HTML Print View]**&#x200B;を選択し、 **[!UICONTROL Choose File]**&#x200B;で、用意したロゴを見つけて、 **[!UICONTROL Open]**.
 
-   - 請求書および梱包明細に表示する住所を入力します。
+   - 請求書と梱包明細に表示する住所を入力します。
 
-1. 完了したら、「 **[!UICONTROL Save Config]**.
+1. 完了したら、 **[!UICONTROL Save Config]**.
 
-   参照用に、アップロードされた画像のサムネールが各フィールドの前に表示されます。 サムネールがゆがんで表示されても、心配する必要はありません。 ロゴの比率は請求書に正しい。
+   参照用に、アップロードした画像のサムネールが各フィールドの前に表示されます。 サムネールがゆがんで表示されても心配ありません。 ロゴの比率は請求書に記載されています。
 
-### 画像の置換
+### 画像を置換
 
-1. クリック **[!UICONTROL Choose File]** 別のロゴファイルを選択します。
+1. クリック **[!UICONTROL Choose File]** 別のロゴ ファイルを選択してください。
 
-1. を選択します。 **[!UICONTROL Delete Image]** チェックボックスをオンにします。
+1. 「」を選択します **[!UICONTROL Delete Image]** 置き換える画像のチェックボックス。
 
 1. クリック **[!UICONTROL Save Config]**.
 
@@ -55,46 +55,46 @@ ht-degree: 0%
 | 形式 | 要件 |
 |--- |------------------------------------------|
 | **_PDF_** |  |
-| ファイル形式 | JPG(JPEG)、PNG、TIF(TIFF) |
-| 画像サイズ | 幅 1,080 ピクセル、高さ 270 ピクセルまで |
-| 解決策 | 300 DPI を推奨 |
+| ファイル形式 | JPG（JPEG）、PNG、TIF （TIFF） |
+| 画像サイズ | 幅 1,080 ピクセル、高 270 ピクセルまで |
+| 解決策 | 300 DPI 推奨 |
 | **_HTML_** |  |
-| ファイル形式 | JPG(JPEG)、PNG、GIF |
-| 画像サイズ | テーマ別に決定されます。 |
+| ファイル形式 | JPG（JPEG）, PNG, GIF |
+| 画像サイズ | テーマによって決定されます。 |
 | 解決策 | 72 または 96 DPI |
 
 {style="table-layout:auto"}
 
 ## 参照 ID を追加
 
-注文 ID と顧客 IP アドレスは、注文に付随する販売ドキュメントのヘッダーに含めることができます。 デフォルトでは、注文 ID と顧客 IP アドレスの両方が請求書のヘッダー、出荷梱包明細およびクレジットメモに表示されます。
+注文 ID と顧客 IP アドレスは、注文に伴う販売文書のヘッダーに含めることができます。 デフォルトでは、請求書、出荷梱包明細およびクレジット・メモのヘッダーに受注 ID と顧客 IP アドレスの両方が表示されます。
 
-![セールス構成 —PDFの印刷アウト](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
+![セールス構成：PDFの印刷出力](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
 
 **_注文 ID の設定を変更するには：_**
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. 左側のパネルで、を展開します。 **[!UICONTROL Sales]** を選択します。 **[!UICONTROL PDF Print-outs]**.
+1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL PDF Print-outs]**.
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **請求書** 」セクションに入力します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **請求書** セクション。
 
-1. 設定 **[!UICONTROL Display Order ID in Header]** 好みに応じて
+1. を設定 **[!UICONTROL Display Order ID in Header]** あなたの好みに応じて。
 
-1. 次に対して繰り返します。 **[!UICONTROL Shipment]** および **[!UICONTROL Credit Memo]** セクション。
+1. 繰り返して、 **[!UICONTROL Shipment]** および **[!UICONTROL Credit Memo]** セクション。
 
-1. 完了したら、「 **[!UICONTROL Save Config]**.
+1. 完了したら、 **[!UICONTROL Save Config]**.
 
 **_顧客の IP アドレス設定を変更するには：_**
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. 左側のパネルで、を展開します。 **[!UICONTROL Sales]** を選択します。 **[!UICONTROL Sales]** の下に
+1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL Sales]** その下に。
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL General]** 」セクションに入力します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL General]** セクション。
 
-   ![セールス構成 — 一般的なセールス設定](../configuration-reference/sales/assets/sales-general.png){width="600" zoomable="yes"}
+   ![販売設定 – 一般的な販売設定](../configuration-reference/sales/assets/sales-general.png){width="600" zoomable="yes"}
 
-1. 設定 **[!UICONTROL Hide Customer IP]** を選択します。
+1. を設定 **[!UICONTROL Hide Customer IP]** ご希望に合わせてください。
 
-1. 完了したら、「 **[!UICONTROL Save Config]**.
+1. 完了したら、 **[!UICONTROL Save Config]**.

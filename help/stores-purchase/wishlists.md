@@ -40,7 +40,7 @@ ht-degree: 0%
 
    製品に対して選択したオプションは、製品名の下に表示されます。
 
-   ![Commerce Admin - customer wish list](./assets/customer-wishlist-edit-admin.png){width="600" zoomable="yes"}
+   ![Commerce管理者 – ユーザーのウィッシュリスト](./assets/customer-wishlist-edit-admin.png){width="600" zoomable="yes"}
 
 1. 製品オプションを編集するには、次の手順を実行します。
 

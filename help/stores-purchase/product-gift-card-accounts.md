@@ -1,176 +1,176 @@
 ---
-title: ギフトカードのアカウント
-description: ギフトカードアカウントと、コードプール管理のデフォルト設定を構成する方法について説明します。
+title: ギフト カード アカウント
+description: ギフトカードアカウントと、コードプール管理のデフォルト設定について説明します。
 exl-id: f8caff04-38fd-4195-ab11-77dae900976d
 feature: Products, Gift, Configuration
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
 
-# ギフトカードのアカウント
+# ギフト カード アカウント
 
-ギフトカードのアカウントは、購入したギフトカードごとに自動的に作成されます。 ギフトカードの値は、ストアでの商品の購入に適用できます。 また、プロモーションまたは顧客向けサービスとして、管理者からギフトカードアカウントを作成することもできます。 ギフトカードのアカウント番号はギフトカードのコードに対応しています。
+購入したギフトカードごとに、ギフトカードアカウントが自動的に作成されます。 ギフトカードの値は、ストア内の製品の購入に適用できます。 また、お客様のプロモーションまたはサービスとして、管理者からギフトカードアカウントを作成することもできます。 ギフト カードの口座番号は、ギフト カード コードに対応します。
 
-![ギフトカードのアカウント](./assets/marketing-gift-card-accounts-grid.png){width="700" zoomable="yes"}
+![ギフト カード アカウント](./assets/marketing-gift-card-accounts-grid.png){width="700" zoomable="yes"}
 
-## ギフトカードアカウントの設定
+## ギフト カード アカウントの構成
 
-ギフトカードの設定は、ストア表示のすべてのギフトカードのデフォルト設定を設定し、コードプールを管理します。 コードプールは、特定の形式の一意のギフトカードコードのセットです。 プールのコードは、ギフトカードのアカウントが作成されるたびに使用されます。 ギフトカードの販売に利用できる十分なコードがあることを確認するのは、店舗管理者の責任です。 ギフトカードを販売する前に、必ずコードプールを生成してください。 デフォルトでは、Adobe Commerceは 1,000 個のコードを生成します。 現在のプールに使用可能なコードがなくなるまで、新しいコードプールは生成されません。
+ギフトカードの設定では、ストア表示のすべてのギフトカードのデフォルト設定が確立され、コードプールが管理されます。 コードプールは、特定の形式の一意のギフトカードコードのセットです。 プールのコードは、ギフトカードアカウントが作成されるたびに使用されます。 ギフトカード販売に使用できるコードが十分にあることを確認するのは、店舗管理者の責任です。 ギフトカードを販売する前に、コードプールを生成してください。 デフォルトでは、Adobe Commerceは 1,000 個のコードを生成します。 新しいコード プールは、現在のプールで使用できるコードがなくなるまで生成されません。
 
-### 手順 1：電子メール通知を設定する
+### 手順 1：メール通知を設定する
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. 左側のパネルで、を展開します。 **[!UICONTROL Sales]** を選択します。 **[!UICONTROL Gift Cards]**.
+1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL Gift Cards]**.
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の _[!UICONTROL Gift Card Email Settings]_」セクションで次の操作を実行します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この _[!UICONTROL Gift Card Email Settings]_を選択し、次の操作を実行します。
 
-   - 設定 **[!UICONTROL Gift Card Notification Email Sender]** を追加します。
+   - を設定 **[!UICONTROL Gift Card Notification Email Sender]** ギフトカード通知の送信者として表示されるストア ID に関連付けます。
 
-   - 設定 **[!UICONTROL Gift Card Notification Email Template]** 通知に使用するテンプレートに追加します。
+   - を設定 **[!UICONTROL Gift Card Notification Email Template]** 通知に使用されるテンプレート。
 
-   ![ギフトカードのメール設定](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
+   ![ギフト カードの E メール設定](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の _[!UICONTROL Email Sent from Gift Card Account Management]_」セクションで次の操作を実行します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この _[!UICONTROL Email Sent from Gift Card Account Management]_を選択し、次の操作を実行します。
 
-   - 設定 **[!UICONTROL Gift Card Email Sender]** を追加します。
+   - を設定 **[!UICONTROL Gift Card Email Sender]** ギフトカードの送信者として表示されるストア ID に対して指定します。
 
-   - 設定 **[!UICONTROL Gift Card Template]** をギフトカードに使用するテンプレートに追加します。
+   - を設定 **[!UICONTROL Gift Card Template]** をギフトカードに使用するテンプレートに変更します。
 
-詳しくは、 [電子メールアドレスを保存](../configuration-reference/general/store-email-addresses.md) を参照してください。
+参照： [メールアドレスの保存](../configuration-reference/general/store-email-addresses.md) （特定の設定フィールドおよびオプション用）。
 
-### 手順 2：一般設定の完了
+### 手順 2：一般設定を完了する
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の _[!UICONTROL Gift Card General Settings]_」セクションに入力します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この _[!UICONTROL Gift Card General Settings]_セクション。
 
-1. お客様がカードの価値を現金で使用できるようにするには、 **[!UICONTROL Redeemable]** から `Yes`.
+1. お客様がカードの値を現金に交換できるようにするには、次のように設定します **[!UICONTROL Redeemable]** 対象： `Yes`.
 
-1. の場合 **[!UICONTROL Lifetime (days)]**」には、カードの有効期限が切れるまでの日数を入力します。
+1. の場合 **[!UICONTROL Lifetime (days)]**&#x200B;カードの有効期限が切れるまでの日数を入力します。
 
    有効期限がない場合は、フィールドを空白のままにします。
 
    >[!NOTE]
    >
-   >場所によっては、ギフトカードが期限切れになるので、違法な可能性があります。 ギフトカードの有効期間を設定する前に、現地の法律を確認してください。
+   >お住まいの地域によっては、ギフトカードの有効期限が切れる場合があります。 ギフトカードの有効期間を設定する前に、地域の法律を確認してください。
 
-1. ギフトカードに添付するメッセージを顧客に入力するオプションを与えるには、 **[!UICONTROL Allow Gift Message]** から `Yes` メッセージに使用できる文字数を入力します。 **[!UICONTROL Gift Message Maximum Length]**.
+1. ギフトカードに添付するメッセージを入力するオプションを顧客に提供するには、次のように設定します **[!UICONTROL Allow Gift Message]** 対象： `Yes` およびメッセージで使用できる文字数を入力します **[!UICONTROL Gift Message Maximum Length]**.
 
-1. 設定 **[!UICONTROL Generate Gift Card Account when Orders Item is]** を次のいずれかに変更します。
+1. を設定 **[!UICONTROL Generate Gift Card Account when Orders Item is]** を次のいずれかに変更します。
 
-   - `Ordered`  — ギフトカードのアカウントは注文時に作成されます。
-   - `Invoiced`  — ギフトカードのアカウントは、支払いが取り込まれ、注文が請求された後に作成されます。
+   - `Ordered`  – 注文が行われると、ギフトカードのアカウントが作成されます。
+   - `Invoiced`  – 支払いがキャプチャされ、注文が請求された後にギフトカード口座が作成されます。
 
-   ![ギフトカードの一般設定](../configuration-reference/sales/assets/gift-cards-gift-card-general-settings.png){width="600" zoomable="yes"}
+   ![ギフト カードの一般設定](../configuration-reference/sales/assets/gift-cards-gift-card-general-settings.png){width="600" zoomable="yes"}
 
-### 手順 3：ギフトカードコードプールの設定
+### 手順 3: ギフト カードのコード プールを確立する
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の _[!UICONTROL Gift Card Account General Settings]_」セクションで次の操作を実行します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この _[!UICONTROL Gift Card Account General Settings]_を選択し、次の操作を実行します。
 
-   ![ギフトカードアカウントの一般設定](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
+   ![ギフト カード アカウントの一般設定](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
 
-   - コードをカスタマイズするには、好みに応じて次の操作を実行します。
+   - コードをカスタマイズするには、必要に応じて次の手順を実行します。
 
-      - コードの長さ
-      - コード形式
+      - コード長
+      - コードフォーマット
       - コードプレフィックス
       - コードサフィックス
       - X 文字ごとにダッシュ
 
-   - 生成するコード数を決定するには、 **[!UICONTROL New Pool Size]**.
+   - 生成するコードの数を決定するには、 **[!UICONTROL New Pool Size]**.
 
-   - コードプールを再在庫する通知を受け取るタイミングを指定するには、 **[!UICONTROL Low Code Pool Threshold]**.
+   - コードプールを再入荷する通知を受信するタイミングを指定するには、 **[!UICONTROL Low Code Pool Threshold]**.
 
-1. コードプールを生成する前に、 **[!UICONTROL Save Config]**.
+1. コード プールを生成する前に、 **[!UICONTROL Save Config]**.
 
 1. クリック **[!UICONTROL Generate]**.
 
-1. 完了したら、「 **[!UICONTROL Save Config]**.
+1. 完了したら、 **[!UICONTROL Save Config]**.
 
-## 既存のギフトカードアカウントの確認
+## 既存のギフト カード アカウントを確認する
 
-1. 現在の注文のギフトカードのアカウント番号を確認するには、次の手順を実行します。
+1. 現在の注文のギフト カード アカウントの番号を調べるには、次の操作を行います。
 
-   - 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+   - 日 _Admin_ サイドバー、に移動 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
 
-   - リスト内の順序を検索し、 **[!UICONTROL View]** （内） _[!UICONTROL Action]_列。
+   - リスト内の順序を見つけて、 **[!UICONTROL View]** が含まれる _[!UICONTROL Action]_列。
 
-   - 下にスクロールして、 _[!UICONTROL Items Ordered]_」セクションに入力します。
+   - にスクロール ダウンします。 _[!UICONTROL Items Ordered]_セクション。
 
-   数値は _[!UICONTROL Product]_列、下&#x200B;**[!UICONTROL Gift Card Accounts]**.
+   数字はです _[!UICONTROL Product]_列、下&#x200B;**[!UICONTROL Gift Card Accounts]**.
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
 
-1. グリッドでギフトカードのアカウントを見つけ、編集モードで開きます。
+1. グリッドでギフトカードアカウントを見つけて、編集モードで開きます。
 
-   ギフトカードコードは _情報_ 」セクションに入力します。
+   ギフトカードのコードは、の上部に表示されます _情報_ セクション。
 
-   ![ギフトカードのアカウント情報](./assets/gift-card-account-information.png){width="600" zoomable="yes"}
+   ![ギフト カード アカウント情報](./assets/gift-card-account-information.png){width="600" zoomable="yes"}
 
 ## ギフトカードアカウントの作成
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
 
-1. 右上隅で、 **[!UICONTROL Add Gift Card Account]**.
+1. 右上隅のをクリックします。 **[!UICONTROL Add Gift Card Account]**.
 
-1. Adobe Analytics の _[!UICONTROL Information]_セクション、設定&#x200B;**[!UICONTROL Active]**から `Yes` 次の操作を実行します。
+1. が含まれる _[!UICONTROL Information]_セクション、設定&#x200B;**[!UICONTROL Active]**対象： `Yes` 次の手順を実行します。
 
-   - カード残高をチェックアウト時または顧客の店舗クレジットに振り替える際に償還可能にするには、 **[!UICONTROL Redeemable]** から `Yes`.
+   - チェックアウト時にカード残高を引き換えたり、顧客の店舗クレジットに転送したりするには、次のように設定します **[!UICONTROL Redeemable]** 対象： `Yes`.
 
-   - を選択します。 **[!UICONTROL Website]** ギフトカードアカウントを使用できる場所です。
+   - を選択します。 **[!UICONTROL Website]** ギフトカードアカウントを使用できる場所。
 
-   - 初期の **[!UICONTROL Balance]** ギフトカードに貼り付けます。
+   - 最初のを入力 **[!UICONTROL Balance]** ギフトカードに。
 
-   - _（オプション）_ 次の手順で、 **[!UICONTROL Expiration Date]** ギフトカードの場合は、カレンダーから日付を選択します。 ![カレンダーアイコン](../assets/icon-calendar.png).
+   - _（オプション）_ を設定するには **[!UICONTROL Expiration Date]** ギフトカードには、カレンダーから日付を選択します ![カレンダーアイコン](../assets/icon-calendar.png).
 
-     空白の場合、ギフトカードのアカウントは期限切れになりません。
+     空白のままにすると、ギフトカードのアカウントは期限切れになりません。
 
      ![新しいアカウント](./assets/gift-card-account-add-new.png){width="600" zoomable="yes"}
 
-1. 左側のパネルで、を選択します。 **[!UICONTROL Send Gift Card]** 次の操作を実行します。
+1. 左パネルで、を選択します。 **[!UICONTROL Send Gift Card]** 次の手順を実行します。
 
-   - 次を入力します。 **[!UICONTROL Recipient Email]** 住所。
+   - を入力 **[!UICONTROL Recipient Email]** 住所。
 
-   - 次を入力します。 **[!UICONTROL Recipient Name]**.
+   - を入力 **[!UICONTROL Recipient Name]**.
 
-   - 設定 **[!UICONTROL Send Email from the Following Store View]** ギフトカード通知の送信者として表示されるストア表示に追加します。
+   - を設定 **[!UICONTROL Send Email from the Following Store View]** ギフトカード通知の送信者として表示されるストア表示に移動します。
 
-   ![ギフトカードの送信設定](./assets/marketing-gift-card-accounts-new-send.png){width="600" zoomable="yes"}
+   ![ギフト カードの設定を送信](./assets/marketing-gift-card-accounts-new-send.png){width="600" zoomable="yes"}
 
 1. 次のいずれかの操作を行って、新しいアカウントを保存します。
 
-   - ギフトカードを送信する準備ができていない場合は、 **[!UICONTROL Save]**.
+   - ギフト カードを送る準備ができていない場合は、 **[!UICONTROL Save]**.
 
-   - 変更内容を保存し、受信者に E メールでギフトカードを送信するには、 **メールを保存して送信**.
+   - 変更を保存し、ギフト カードを電子メールで受信者に送信するには、 **メールを保存して送信**.
 
-## ギフトカードのアカウント履歴を表示
+## ギフト カード アカウント履歴の表示
 
-1. に移動します。 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. に移動 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
 
 1. ギフトカードを編集モードで開きます。
 
-1. The **[!UICONTROL History]** のギフトカードが表示されます。
+1. この **[!UICONTROL History]** ギフトカードのが表示されます。
 
-   ![ギフトカード履歴](./assets/gift-card-history.png){width="600" zoomable="yes"}
+   ![ギフト カードの履歴](./assets/gift-card-history.png){width="600" zoomable="yes"}
 
 | 列 | 説明 |
 |--- |--- |
-| [!UICONTROL ID] | ギフトカードを含む一意のアクション数値。 |
+| [!UICONTROL ID] | ギフトカードを使用したアクションの一意の数値。 |
 | [!UICONTROL Date] | アクションの日付。 |
-| [!UICONTROL Action] | ギフトカードで実行可能なすべてのアクションを決定します。 オプション： `Created` / `Updated` / `Sent` / `Used` / `Redeemed` / `Expired` |
-| [!UICONTROL Balance Change] | ギフトカードの残高が変更された金額を表示します。 |
+| [!UICONTROL Action] | ギフトカードを使用して、可能なすべてのアクションを決定します。 オプション： `Created` / `Updated` / `Sent` / `Used` / `Redeemed` / `Expired` |
+| [!UICONTROL Balance Change] | ギフト カードの残高が変更された金額を表示します。 |
 | [!UICONTROL Balance] | 使用可能な残高を示します。 |
-| [!UICONTROL More Information] | ギフトカードの残高を変更した人に関する情報を表示します。 |
+| [!UICONTROL More Information] | ギフト カードの残高を変更したユーザーに関する情報を表示します。 |
 
 {style="table-layout:auto"}
 
-## ギフトカードのアカウントを削除する
+## ギフト カード アカウントの削除
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
 
-1. 削除するギフトカードのアカウントを選択し、編集モードで開きます。
+1. 削除するギフト カード アカウントを選択し、編集モードで開きます。
 
 1. メニューバーで、 **[!UICONTROL Delete]**.
 
@@ -180,13 +180,13 @@ ht-degree: 0%
 
 | 列 | 説明 |
 |--- |--- |
-| [!UICONTROL ID] | ギフトカードのアカウントに割り当てられる一意の数値 ID。 |
-| [!UICONTROL Code] | ギフトカードを適用するために入力する必要があるコードです。 |
-| [!UICONTROL Website] | ギフトカードのアカウントを使用できる Web サイトを示します。 |
+| [!UICONTROL ID] | ギフトカードアカウントに割り当てられる一意の数値識別子。 |
+| [!UICONTROL Code] | ギフト カードを適用するために入力する必要があるコード。 |
+| [!UICONTROL Website] | ギフト カード アカウントを利用できる Web サイトを示します。 |
 | [!UICONTROL Created] | 作成日。 |
-| [!UICONTROL End] | ギフトカードの有効期限（スケジュールされている場合）。 |
-| [!UICONTROL Active] | ギフトカードがアクティブかどうかを判断します。 |
-| [!UICONTROL Status] | ギフトカードが顧客のアカウントで引き換えられるか、使用可能かを指定します。 オプション： `Used` / `Redeemed` / `Expired` |
+| [!UICONTROL End] | ギフト カードの有効期限（スケジュールされている場合）。 |
+| [!UICONTROL Active] | ギフト カードが有効かどうかを決定します。 |
+| [!UICONTROL Status] | ギフトカードを顧客のアカウントで引き換えるか、使用可能にするかを決定します。 オプション： `Used` / `Redeemed` / `Expired` |
 | [!UICONTROL Balance] | 使用可能な残高を示します。 |
 
 {style="table-layout:auto"}

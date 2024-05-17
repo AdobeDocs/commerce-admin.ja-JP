@@ -1,42 +1,43 @@
 ---
-title: 規模に応じたパーソナライゼーション
-description: 買い物客向けにパーソナライズされたエクスペリエンスを作成できるAdobe Commerceの機能を説明します。
+title: 大規模なパーソナライゼーション
+description: Adobe Commerceのどの機能を使用して、買い物客向けにパーソナライズされたエクスペリエンスを作成できるかを説明します。
 feature: Customers, Storefront, Personalization
-source-git-commit: a4eeda918adcb74ad5e7008b80eff703fa15e878
+exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
+source-git-commit: 5f40c98324c3033cdeb8a11e89a71497ced890b8
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 0%
 
 ---
 
-# 規模に応じたパーソナライゼーション
+# 大規模なパーソナライゼーション
 
-規模に応じたパーソナライ&#x200B;ズ機能を使用すると、企業は、すぐに使用できるコンテキストと以前に確認された動作に基づいて、すべての顧客タッチポイントのショッピングエクスペリエンスをパーソナライズできます。 目標は、可能な限り関連性の高いパーソナライズされたエクスペリエンスを毎回提示することです。
+&#x200B;大規模なパーソナライゼーションにより、企業は、直近のコンテキストと以前に観察された行動に基づいて、すべての顧客タッチポイントに対するショッピングエクスペリエンスをパーソナライズできます。 可能な限り関連性が高く、パーソナライズされたエクスペリエンスを毎回提示することが目標です。
 
 パーソナライズされたショッピングエクスペリエンスを提供するメリットを理解するには、 [_大規模なパーソナライゼーションの概要_](https://business.adobe.com/resources/reports/getting-started-with-personalization-at-scale.html) レポート。
 
-パーソナライズされたショッピングエクスペリエンスを作成するには、顧客コンテキストを理解するために必要なデータのタイプを学ぶ必要があります。 ここから、そのデータを使用して、パーソナライズされたショッピングエクスペリエンスを作成するために必要な顧客インサイトを解放するAdobe Commerceの機能について学びます。
+パーソナライズされたショッピングエクスペリエンスを作成するには、顧客のコンテキストを理解するために必要なデータのタイプについて知る必要があります。 そこから、そのデータを使用して、パーソナライズされたショッピングエクスペリエンスを構築するために必要な顧客インサイトを解き放つAdobe Commerce機能について説明します。
 
-次の画像は、買い物体験のパーソナライズに関わる概念を示しています。
+次の画像は、ショッピングエクスペリエンスのパーソナライズに関する概念を示しています。
 
 ![パーソナライゼーションパイプラインの構築](assets/personalization-journey.png){width="700" zoomable="yes"}
 
 この記事では、上記の各概念について詳しく説明します。
 
-## 買い物体験をパーソナライズする方法
+## ショッピング体験をパーソナライズする方法
 
-パーソナライゼーションが成功するには、顧客コンテキストから始まります。 この節では、顧客コンテキストの構築に役立つデータ型について学びます。
+パーソナライゼーションの成功は、顧客コンテキストから始まります。 この節では、顧客コンテキストの構築に役立つデータタイプについて説明します。
 
 ### ストアフロントデータ
 
-ストアフロントデータ（行動データやブラウザーデータとも呼ばれます）は、買い物客がサイトとどのようにやり取りするかに関するインサイトを明らかにできます。 例：
+ストアフロントのデータは、行動データやブラウザーデータとも呼ばれ、買い物客がサイトとどのようにやり取りするかについてのインサイトを明らかにすることができます。 例：
 
-- 買い物客が最も関心を持っているのは、どの製品やカテゴリですか？
-- 私の買い物客が最も関心を寄せているのは、どのような検索クエリーですか？
-- 買い物客が買い物かごに製品を追加して、その後放棄しているか。
-- 買い物客がデスクトップまたはモバイルブラウザーを使用しているか。
+- 買い物客が最も興味を持っているのはどの製品やカテゴリですか？
+- 買い物客が最も従事しているのは、どのような検索クエリですか？
+- 買い物客は商品を買い物かごに追加した後、放棄していますか？
+- 買い物客はデスクトップまたはモバイルブラウザーを使用していますか？
 
-次のストアフロントイベントでは、これらの質問に回答するのに役立つデータをキャプチャします。
+次のストアフロントイベントでは、これらの質問に答えるのに役立つデータを取得しています。
 
 - [pageView](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
 - [searchRequestSent](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
@@ -44,7 +45,7 @@ ht-degree: 0%
 - [productPageView](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
 - [addToCart](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
 - [openCart](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [signIn](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
+- [ログイン](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
 - [signOut](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
 - [startCheckout](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
 - [completeCheckout](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
@@ -54,13 +55,13 @@ ht-degree: 0%
 
 ### バックオフィスデータ
 
-バックオフィスデータ（サーバーサイドデータとも呼ばれます）は、注文のライフサイクルに関するインサイトを明らかにできます。 例：
+バックオフィスデータ（サーバーサイドデータとも呼ばれます）を使用すると、注文のライフサイクルに関するインサイトを得ることができます。 例：
 
-- シーズンに応じて、より頻繁に購入される製品はありますか。
-- 買い物客は製品を返していますか？
-- 全期間顧客値を計算するにはどうすればよいですか？
+- 季節に応じてより頻繁に購入される製品はありますか？
+- 買い物客は商品を返していますか？
+- 顧客の生涯価値を計算するにはどうすればよいですか？
 
-次のバックオフィスイベントでは、これらの質問に回答するのに役立つデータをキャプチャします。
+次のバックオフィスイベントでは、これらの質問に答えるのに役立つデータを取得しています。
 
 - [orderPlaced](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
 - [orderItemsReturnedInitiated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
@@ -69,77 +70,77 @@ ht-degree: 0%
 
 ### 顧客プロファイルとセグメントデータ
 
-顧客プロファイルデータを使用すると、買い物客の人物と、どのセグメントに適合するかに関するインサイトを明らかにできます。 例：
+顧客プロファイルデータを使用すると、買い物客の概要と対象となるセグメントに関するインサイトを得ることができます。 例：
 
 - 名前
 - 性別
 - アドレス
-- ロイヤリティステータス
+- ロイヤルティステータス
 - 電話番号
 - メールアドレス
-- ロイヤリティステータス
+- ロイヤルティステータス
 - 電話番号
 - メールアドレス
 - アップグレードの実施要件
-- クロスチャネルの買い物客
-- 新製品の見込み客
-- ゴールド、シルバー、ブロンズのロイヤルティメンバー
+- クロスチャネルショッパー
+- 新製品の見通し
+- ゴールド、シルバーまたはブロンズのロイヤルティメンバー
 
-次のプロファイルイベントは、次の質問への回答に役立つデータをキャプチャします。
+次のプロファイルイベントでは、これらの質問に答えるのに役立つデータを取得します。
 
 - [プロファイルレコード](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-profilerecord)
 - [accountCreated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
 - [accountUpdated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
 - [accountDeleted](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
 
-ストアフロント、バックオフィス、プロファイルのデータは、コマースの顧客と注文のコンテキストの基盤を形成し、顧客が閲覧している製品と最終的に購入している製品を知るのに役立ちます。 その後、顧客の興味をターゲットにし、顧客のエクスペリエンスをパーソナライズできます。 次の節では、買い物客と関わり合える、パーソナライズされたエクスペリエンスのタイプを学びます。
+ストアフロント、バックオフィス、プロファイルデータは、Commerceのお客様および注文コンテキストの基盤となるので、お客様が表示している商品や最終的に購入する商品を把握するのに役立ちます。 その後、顧客の関心をターゲットにし、エクスペリエンスをパーソナライズできます。 次の節では、買い物客と関わることができる、パーソナライズされたエクスペリエンスのタイプについて説明します。
 
 ## パーソナライズされたエクスペリエンスのタイプ
 
-コマースの顧客と注文のコンテキストデータは、次のタイプのパーソナライズされたエクスペリエンスを提供します。
+Commerceの顧客および注文のコンテキストデータにより、次のタイプのパーソナライズされたエクスペリエンスが実現します。
 
-| エクスペリエンス | 説明 |
+| 経験 | 説明 |
 |---|---|
-| **製品の検出** | 次のマーチャンダイジングサービスが含まれます： [SaaS としてデプロイ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas). これらの機能を使用すると、行動データ、製品属性および在庫レベルを使用して、検索結果、製品のレコメンデーションおよび閲覧ページにわたって製品の検出を自動的にパーソナライズできます。 これらの機能はすべてを使用しています [Adobe Sensei AI](https://business.adobe.com/products/sensei/adobe-sensei.html). |
-| **サイトコンテンツ** | サイトを閲覧している現在の顧客に基づいてパーソナライズされた動的コンテンツブロックをデプロイする機能を指します。 |
+| **製品の検出** | 次のマーチャンダイジングサービスが含まれます [saaS として導入](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas). これらの機能を使用すると、行動データ、製品属性、在庫レベルを使用して、検索結果、製品レコメンデーションおよび閲覧ページ全体で製品検出を自動的にパーソナライズできます。 これらの機能はすべて [ADOBE SENSEI AI](https://business.adobe.com/products/sensei/adobe-sensei.html). |
+| **サイトコンテンツ** | サイトを閲覧している現在の顧客に基づいて、パーソナライズされた動的コンテンツブロックをデプロイする機能を指します。 |
 | **オファーとキャンペーン** | セグメントデータに基づいてパーソナライズされたプロモーションコンテンツをデプロイできます。 |
-| **測定** | データインテリジェンスを使用して、売上高、チャネルと商品のパフォーマンス、プロモーションなど、ビジネスをより深く理解できます。 |
+| **測定** | は、データインテリジェンスを使用して、売上高、チャネルおよび商品のパフォーマンス、プロモーションなどを含むビジネスをよりよく理解します。 |
 
-次の 2 つの節では、このデータを使用して [Adobe Experience Platform](#using-commerce-data-in-adobe-experience-platform) および [ネイティブコマース機能](#using-commerce-data-in-native-commerce-features).
+次の 2 つの節では、このデータを使用して、パーソナライズされたエクスペリエンスをで作成する方法について説明します [Adobe Experience Platform](#using-commerce-data-in-adobe-experience-platform) および [Commerceのネイティブ機能](#using-commerce-data-in-native-commerce-features).
 
-## Adobe Experience Platformでのコマースデータの使用
+## Adobe Experience PlatformでのCommerce データの使用
 
-すべてのチャネルをまたいで買い物客にパーソナライズされたエクスペリエンスを作成するには、 [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) 拡張子。
+Commerce Experience Platform Edge Networkすべてのチャネルをまたいで買い物客にパーソナライズされたエクスペリエンスを提供するには、 [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) 拡張機能。
 
-![データがExperience Platformエッジに送られる仕組み](assets/commerce-edge.png){width="700" zoomable="yes"}
+![Experience Platformエッジへのデータのフロー](assets/commerce-edge.png){width="700" zoomable="yes"}
 
-上の画像では、ストアフロント、バックオフィス、顧客プロファイルのデータが、SDK、API、ソースコネクタを使用してExperience Platformエッジに送信されます。 拡張機能でデータ共有の複雑さが処理されるので、これらの要素の動作を完全に理解する必要はありません。 イベントデータが最前線にある場合は、そのデータを他のイベントアプリケーションに取り込むことができますExperience Platform。
+上記の画像では、SDK、API およびソースコネクタを使用して、ストアフロント、バックオフィスおよびExperience Platformプロファイルデータがカスタマーエッジに送信されています。 拡張機能がデータ共有の複雑さを処理するので、これらの要素の仕組みを完全に理解する必要はありません。 イベントデータがエッジにある場合は、そのデータを他のExperience Platformアプリケーションに取り込むことができます。
 
-次の表は、使用可能なExperience Platformアプリケーションの一部と、それらのアプリケーションがコマースデータをどのように使用するかを示しています。
+次の表に、使用可能なExperience Platformアプリケーションの一部と、それらのアプリケーションでのCommerce データの使用方法を示します。
 
-| エクスペリエンス | アプリ | コマースデータの使用方法 |
+| 経験 | 用途 | Commerce データの使用方法 |
 |---|---|---|
-| **サイトコンテンツ** | [Adobe [!DNL Real-Time CDP]](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview) | Adobe Commerceのデータは、Real-Time CDPが複数のソース (ERP、CRM、CMS、POS) のデータを単一のプロファイルに結合することで、統合された顧客プロファイルを燃料化します。 また、Real-Time CDPは、ルールベースのセグメントと AI ベースのセグメントの両方を作成し、マーケティングソリューションセット全体で使用できます。 また、Real-Time CDPのオーディエンスを使用して、コンテンツブロック、プロモーションおよび関連する製品ルールをパーソナライズすることもできます。 詳しくは、 [[!DNL Audience Activation]](../customers/audience-activation.md) を参照してくださ&#x200B;い。 |
-|  | [Adobe [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro) | Adobe Commerceデータは、Adobeでアクティブ化できます [!DNL Target] 動的なランディングページのテスト、最適化、作成に使用します。 送信されたコマースデータに基づいて、コンテンツがページに表示される順序（説明、仕様、レビュー、推奨製品など）をパーソナライズできます。 |
-| **オファーとキャンペーン** | [Adobe [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started) | Adobe Commerceの行動およびバックオフィスデータは、電子メールキャンペーン、SMS、プッシュ通知など、パーソナライズされたオムニチャネルジャーニーのトリガーとして機能しま&#x200B;す。 |
-| **測定** | [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview) および [顧客 [!DNL Journey Analytics]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) | Commerce はストアフロントとバックオフィスの両方のデータを顧客に送信します [!DNL Journey Analytics] ( また、Adobeに対するストアフロントデータのみ [!DNL Analytics]) を使用すると、売上高、商品、プロモーションなど、Adobe Commerceインテリジェンスの基本的な指標を超えた豊富な分析を実現できま&#x200B;す。 |
+| **サイトコンテンツ** | [Adobe [!DNL Real-Time CDP]](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview) | Adobe Commerce データは、Real-Time CDPが複数のソース（ERP、CRM、CMS、POS）のデータを単一のプロファイルにステッチすることで、統合された顧客プロファイルを強化します。 Real-Time CDPでは、ルールベースのセグメントと AI ベースのセグメントの両方を作成して、マーケティングソリューションセット全体で使用することもできます。 また、Real-Time CDP オーディエンスを使用して、コンテンツブロック、プロモーションおよび関連する商品ルールをパーソナライズすることもできます。 参照： [[!DNL Audience Activation]](../customers/audience-activation.md) を参照してください。&#x200B; |
+|  | [Adobe [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro) | Adobe Commerce データは、Adobeでアクティブ化できます [!DNL Target] （動的ランディングページのテスト、最適化および作成の場合）。 送信されるCommerce データに基づいて、説明、仕様、レビュー、お勧め商品など、ページ上でのコンテンツの表示順序をパーソナライズできます。 |
+| **オファーとキャンペーン** | [Adobe [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started) | Adobe Commerceの行動データやバックオフィスデータは、メールキャンペーン、SMS、プッシュ通知などのパーソナライズされたオムニチャネルジャーニーのトリガーとして機能できます&#x200B; |
+| **測定** | [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview) および [顧客 [!DNL Journey Analytics]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) | Commerceは、ストアフロントとバックオフィスの両方のデータをお客様に送信します [!DNL Journey Analytics] （ストアフロントデータのみAdobeに送信） [!DNL Analytics]）を使用して、Adobe Commerce Intelligence の基本指標（売上高、商品、プロモーションなど）を超えた豊富な分析を可能に&#x200B;ます。 |
 
-コマースデータをExperience Platformに送信する方法について詳しくは、 [データ接続](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
+Commerce データをExperience Platformに送信する方法について詳しくは、以下を参照してください。 [データ接続](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
 
-## ネイティブの Commerce 機能での Commerce データの使用
+## Commerceのネイティブ機能でのCommerce データの使用
 
-次の節では、製品Recommendationsやライブ検索などのネイティブのコマース機能を使用して、パーソナライズされたショッピングエクスペリエンスを作成する方法を学びます。 また、 [!DNL Audience Activation]：前述のように、Real-Time CDPと呼ばれるExperience Platformで利用可能な製品のデータを使用します [以前](#using-commerce-data-in-adobe-experience-platform). Real-Time CDPは Commerce のネイティブではありませんが、その情報は [[!DNL Audience Activation]](../customers/audience-activation.md) 拡張子。
+次の節では、製品Recommendationsや Live Search などのCommerceのネイティブ機能を使用して、パーソナライズされたショッピングエクスペリエンスを作成する方法について説明します。 また、という機能についても説明します [!DNL Audience Activation]：前述のように、Real-Time CDPというExperience Platformで利用可能な製品のデータを使用します [以前](#using-commerce-data-in-adobe-experience-platform). Real-Time CDPはCommerce固有ではありませんが、その情報は次を通じてCommerceに取り込むことができます [[!DNL Audience Activation]](../customers/audience-activation.md) 拡張機能。
 
-次の表は、コマースの顧客と注文のコンテキストデータを実用的なインサイトに変換するために使用できるコマース機能を示しています。
+次の表に、Commerceの顧客データと注文コンテキストデータを実用的なインサイトに変えるために使用できるCommerce機能を示します。
 
-| エクスペリエンス | 機能 | 説明 |
+| 経験 | 機能 | 説明 |
 |---|---|---|
-| **製品の検出** | [ライブ検索](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview) | AI ランキングアルゴリズムを使用して、買い物客のオンサイト行動アクションに基づいて検索結果をパーソナライズおよび最適化し、検索の関連性とコンバージョンを高めます。 |
-|  | [製品Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) | 買い物客の行動、傾向、製品の類似性などに基づいて、AI 燃料の製品レコメンデーションを表示します。 製品レコメンデーションをAdobe Commerceカタログと組み合わせることで、非常に魅力的で関連性が高く、パーソナライズされたエクスペリエンスを提供します。 |
-|  | [カテゴリマーチャンダイジング](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch) | カテゴリマーチャンダイジングはライブ検索管理からアクセスし、AI を使用して各カテゴリページで製品のシーケンスを自動的に再ランク付けし、各買い物客の関連性とコンバージョンを高めます。 AI を利用したルールを作成および管理して、買い物客のアクションと親和性に従って、カテゴリページの製品のシーケンスを自動的に再ランク付けできます。 |
-| **サイトコンテンツ** | [ネイティブのコマース機能によって通知される動的ブロック](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | 価格ルールと顧客セグメントで設定されたロジックに基づいて、パーソナライズされたサイトコンテンツを配信できます。 |
-|  | [Real-Time CDPオーディエンスから情報を得た動的ブロック](../customers/audience-activation.md) | Real-Time CDPで設定されたオーディエンスに基づいて、マーチャントがパーソナライズされたサイトコンテンツを配信できるようにします。 |
-| **オファーとキャンペーン** | [買い物かごの価格ルール](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart) | 一連の条件に基づいて、買い物かご内の品目に割引を適用できます。 |
-|  | [ネイティブのコマース機能によって通知される動的ブロック](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | コマースでネイティブに設定された顧客セグメントに基づいて、パーソナライズされたバナープロモーションを表示できます。 |
-|  | [Real-Time CDPオーディエンスから情報を得た動的ブロック](../customers/audience-activation.md) | Real-Time CDPで設定されたオーディエンスに基づいてパーソナライズされたプロモーションを表示できます。 |
-| **測定** | [Adobe Commerce Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) | ( 旧称：Magento Business Intelligence) は、データ主導型の意思決定をおこない、十分な情報に基づいた行動を取るのに役立つ、ベストプラクティスのインサイトを提供するクラウドプラットフォームです。 Adobe Commerce Intelligence では、データを分析し、注文の増加、顧客の行動、プロモーション戦略の効果に関する質問に答えるのに役立ちます。 |
+| **製品の検出** | [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview) | AI ランキングアルゴリズムを使用して、買い物客のオンサイト行動アクションに基づいて検索結果をパーソナライズおよび最適化し、検索の関連性とコンバージョンを高めます。 |
+|  | [製品のRecommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) | 買い物客の行動、トレンド、製品の類似性などに基づく、AI を活用した製品レコメンデーションを表示します。 商品レコメンデーションをAdobe Commerce カタログと組み合わせると、非常に魅力的で関連性が高く、パーソナライズされたエクスペリエンスが提供されます。 |
+|  | [カテゴリマーチャンダイジング](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch) | ライブサーチ管理者からアクセスするカテゴリマーチャンダイジングは、AI を使用して、各カテゴリページの製品のシーケンスを自動的にランク変更し、すべての買い物客の関連性とコンバージョンを高めます。 AI を活用したルールを作成および管理し、買い物客のアクションとアフィニティに従って、カテゴリページでの製品シーケンスを自動的にランク付け直すことができます。 |
+| **サイトコンテンツ** | [Commerceのネイティブ機能に基づく動的ブロック](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | を使用すると、価格ルールや顧客セグメントで設定されたロジックに基づいてパーソナライズされたサイトコンテンツを配信できます。 |
+|  | [Real-Time CDP オーディエンスによって通知された動的ブロック](../customers/audience-activation.md) | マーチャントは、Real-Time CDPで設定されたオーディエンスに基づいてパーソナライズされたサイトコンテンツを提供できます。 |
+| **オファーとキャンペーン** | [買い物かご価格ルール](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart) | 一連の条件に基づいて、買い物かご内の商品に割引を適用できます。 |
+|  | [Commerceのネイティブ機能に基づく動的ブロック](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | Commerceでネイティブに設定された顧客セグメントに基づいて、パーソナライズされたバナープロモーションを表示できます。 |
+|  | [Real-Time CDP オーディエンスによって通知された動的ブロック](../customers/audience-activation.md) | Real-Time CDPで設定されたオーディエンスに基づいて、パーソナライズされたプロモーションを表示できます。 |
+| **測定** | [Adobe Commerce Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) | （旧称：Magento Business Intelligence）は、データに基づいた意思決定や、明確で十分な情報に基づいたアクションの実行に役立つベストプラクティスのインサイトを提供するクラウドプラットフォームです。 Adobe Commerce Intelligence は、お客様のデータを分析して、注文の増加、お客様の行動、プロモーション戦略の効果に関する質問に回答するのに役立ちます。 |

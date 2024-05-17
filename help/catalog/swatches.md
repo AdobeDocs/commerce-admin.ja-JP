@@ -1,44 +1,44 @@
 ---
 title: 製品スウォッチ
-description: 設定可能な製品リストにスウォッチを定義する方法を説明します。
+description: 設定可能な製品リストのスウォッチを定義する方法について説明します。
 exl-id: 6163cec4-5d84-4e2c-ba5c-3c22ac4e3f28
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
 
 # 製品スウォッチ
 
-お客様は色の選択に対する期待が高く、製品の説明が、使用可能な各色、パターンまたはテクスチャを正確に表すことが重要です。 例えば、次の例のパンツは、赤、緑、青では使用できません。 むしろ、赤、緑、青の特定の色合いでのみ利用できます。これはおそらくこの製品に固有のものです。
+顧客は色の選択に大きな期待を抱いており、製品の説明で、使用可能な各色、パターンまたはテクスチャを正確に表すことが重要です。 たとえば、次の例のズボンは、赤、緑、および青では使用できません。 むしろ、赤、緑、青の特定の色合いでのみ利用可能です。これはおそらくこの製品に固有のものです。
 
 ![製品ページのスウォッチ](./assets/storefront-color-swatches.png){width="700" zoomable="yes"}
 
-の場合 [設定可能な製品](product-create-configurable.md)の場合、色は、ビジュアルスウォッチ、テキストスウォッチまたは入力コントロールで示すことができます。 スウォッチは、製品ページ、製品リスト、および [層状ナビゲーション](navigation-layered.md). 製品ページでは、スウォッチが選択されると、対応する製品画像が表示されるようにスウォッチが同期されます。 顧客がスウォッチを選択すると、対応する値が入力フィールドに表示され、スウォッチが現在の選択範囲としてアウトライン表示されます。
+の場合 [設定可能な製品](product-create-configurable.md)の色は、視覚的なスウォッチ、テキストスウォッチまたは入力コントロールで示すことができます。 スウォッチは製品ページ、製品リストおよび [階層型ナビゲーション](navigation-layered.md). 製品ページでは、スウォッチが同期され、スウォッチが選択されると、対応する製品画像が表示されます。 ユーザーがスウォッチを選択すると、対応する値が入力フィールドに表示され、スウォッチの概要が現在の選択内容に設定されます。
 
 >[!NOTE]
 >
->スウォッチを選択するときに、対応するシンプルな製品画像が表示されないように、スウォッチの属性を設定するには、 _[!UICONTROL Update Product Preview Image]_オプション値 `No` の [!UICONTROL Attribute Edit] ページを管理者に表示します。
+>スウォッチ属性は、を設定することで、スウォッチが選択されたときに対応するシンプルな商品画像を表示しないように設定できます。 _[!UICONTROL Update Product Preview Image]_オプションの値： `No` 日 [!UICONTROL Attribute Edit] 管理画面の「」ページ。
 
 ## テキストベースのスウォッチ
 
-スウォッチに画像が使用できない場合は、属性値がテキストとして表示されます。 テキストベースのスウォッチは、テキストラベルを持つボタンのようなもので、画像を持つスウォッチと同じように動作します。 テキストベースのスウォッチを使用して使用可能なサイズを表示する場合、使用できないサイズはすべて消去されます。
+画像がスウォッチで使用できない場合、属性値はテキストで表示されます。 テキストベースのスウォッチは、テキストラベルを付けたボタンのようなもので、画像を付けたスウォッチと同じように動作します。 テキストベースのスウォッチを使用して使用可能なサイズを表示すると、使用できないサイズは消去されます。
 
-![テキストベースのスウォッチを選択すると、在庫切れのサイズが表示されます。](./assets/storefront-swatch-size-out-of-stock.png){width="700" zoomable="yes"}
+![テキストベースのスウォッチ選択で在庫切れのサイズが表示される](./assets/storefront-swatch-size-out-of-stock.png){width="700" zoomable="yes"}
 
-## レイヤーナビゲーション内のスウォッチ
+## レイヤー化されたナビゲーションでのスウォッチ
 
-スウォッチは、レイヤーナビゲーションでも使用できます ( _[!UICONTROL Use in Layered Navigation]_color 属性のプロパティが `Yes`. 次の例は、レイヤーナビゲーションでのテキストベースとカラーの両方の画像スウォッチを示しています。
+スウォッチは、次のような場合、階層化されたナビゲーションでも使用できます _[!UICONTROL Use in Layered Navigation]_color 属性のプロパティがに設定されている `Yes`. 次の例では、レイヤーナビゲーションで、テキストベースのスウォッチとカラー画像スウォッチの両方を表示しています。
 
-![レイヤーナビゲーションに表示されるスウォッチ](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
+![のスウォッチをレイヤー化されたナビゲーションで表示](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
 ## 製品のスウォッチの作成
 
-スウォッチは、 `color` 特定の製品に対して属性を設定するか、ローカルで設定し、 [製品画像](product-image.md#upload-an-image).
+スウォッチは、 `color` 特定の製品に対して属性を設定するか、ローカルに設定して、次のようにアップロードします [製品画像](product-image.md#upload-an-image).
 
-前の例では、「Sylvia Capri」パンツは、 `red`, `green`、および `blue`. スウォッチは製品画像から取得されたので、それぞれが色の真の表現です。 The `color` 属性は、すべての製品のカラーとスウォッチの情報を管理するために使用されます。
+前述の例では、「Sylvia Capri」パンツは、次の特定の値で使用できます `red`, `green`、および `blue`. スウォッチは製品画像から取得されたものなので、それぞれが実際の色を表現したものです。 この `color` 属性は、すべての製品カラーとスウォッチの情報を管理するために使用します。
 
 ### 手順 1：スウォッチを作成する
 
@@ -46,69 +46,69 @@ ht-degree: 0%
 
 #### 方法 1：カラースウォッチを追加する
 
-1. 製品の真の色をキャプチャするには、写真エディターで画像を開き、スポイトツールを使用して正確な色を識別し、同等の 16 進値をメモします。
+1. 製品の実際の色を取得するには、画像をフォトエディターで開き、スポイトツールを使用して正確な色を特定し、16 進数値に相当するものをメモします。
 
    ![16 進数のカラー値](./assets/swatch-hex-values.png){width="400"}
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
-1. グリッドで、 _カラー_ 属性を編集モードで使用します。
+1. グリッドで、 _色_ 編集モードの属性。
 
-1. を確認します。 **[!UICONTROL Catalog Input Type for Store Owner]** が `Visual Swatch`.
+1. を確認します。 **[!UICONTROL Catalog Input Type for Store Owner]** はに設定されています。 `Visual Swatch`.
 
-1. 製品の表示ページでスウォッチを選択したときに、対応するシンプルな製品画像を表示しない場合は、 **[!UICONTROL Update Product Preview Image]** から `No`.
+1. 製品表示ページでスウォッチが選択されているときに、対応するシンプルな製品画像を表示しないようにするには、次のように設定します **[!UICONTROL Update Product Preview Image]** 対象： `No`.
 
-1. の下 _[!UICONTROL Manage Swatch (Values of Your Attribute)]_をクリックし、**[!UICONTROL Add Swatch]**次の操作を実行します。
+1. 次の下 _[!UICONTROL Manage Swatch (Values of Your Attribute)]_を選択し、**[!UICONTROL Add Swatch]**次の手順を実行します。
 
-   ![スウォッチ値を管理](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
+   ![スウォッチ値の管理](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
-   - Adobe Analytics の _スウォッチ_ 列で、新しいスウォッチをクリックし、 **[!UICONTROL Choose a color]** を選択します。
+   - が含まれる _スウォッチ_ 列で、新しいスウォッチをクリックし、 **[!UICONTROL Choose a color]** メニューから。
 
-     ![スウォッチのカラーを選択](./assets/attribute-color-swatch-menu.png){width="500" zoomable="yes"}
+     ![スウォッチカラーの選択](./assets/attribute-color-swatch-menu.png){width="500" zoomable="yes"}
 
-   - カラーピッカーで、 **#** フィールドで、現在の値を削除し、新しい色の 6 文字の 16 進値を入力します。
+   - カラーピッカーで、 **#** フィールドで、現在の値を削除し、新しいカラーの 6 文字の 16 進数値を入力します。
 
-     ![16 進値を入力](./assets/attribute-swatch-color-picker-hex-value.png){width="500" zoomable="yes"}
+     ![16 進数値を入力](./assets/attribute-swatch-color-picker-hex-value.png){width="500" zoomable="yes"}
 
-   - スウォッチを保存するには、 _カラーホイール_ ( ![カラーアイコン](../assets/icon-color-wheel.png) ) アイコンをクリックします。
+   - スウォッチを保存するには、 _カラーホイール_ （ ![カラーアイコン](../assets/icon-color-wheel.png) ） アイコンをクリックします。
 
-   - Adobe Analytics の _管理者_ 列に、ストア管理者に表示する色を示すラベルを入力します。
+   - が含まれる _Admin_ 列に、色をストア管理者に説明するラベルを入力します。
 
-     該当する場合は、サポートされる各言語の色の翻訳を入力することもできます。 次の例では、SKU が _管理者_ ラベルは、色が特定の製品に対してのみ使用されるためです。 ラベルには、スペースやアンダースコアを含めることができますが、ハイフンは含めることができません。
+     該当する場合は、サポートされている各言語のカラーの翻訳を入力することもできます。 次の例では、参照用に SKU がに含まれています _Admin_ 特定の商品に対してのみ色が使用されるので、ラベルを付けます。 ラベルにはスペースやアンダースコアを含めることができますが、ハイフンは含めることはできません。
 
-   - Adobe Analytics の _デフォルト_ 列で、デフォルトのオプションにするスウォッチを選択します。
+   - が含まれる _デフォルト_ 列で、デフォルトオプションにするスウォッチを選択します。
 
-   - カラースウォッチの順序を変更するには、 _[!UICONTROL Order]_![並べ替え順アイコン](../assets/icon-sort-order.png) アイコンをクリックし、項目をリスト内の新しい位置にドラッグします。
+   - カラースウォッチの順序を変更するには、 _[!UICONTROL Order]_![並べ替え順アイコン](../assets/icon-sort-order.png) アイコンをクリックして、リスト内の新しい位置に項目をドラッグします。
 
      ![スウォッチラベル](./assets/attribute-swatch-labels.png){width="400"}
 
-1. 完了したら、「 **[!UICONTROL Save Attribute]** プロンプトが表示されたら、キャッシュを更新します。
+1. 完了したら、 **[!UICONTROL Save Attribute]** プロンプトが表示されたらキャッシュを更新します。
 
-1. 各製品を編集モードで開き、 **カラー** 属性を適切なスウォッチに置き換えます。
+1. 各製品を編集モードで開き、 **カラー** 属性に正しいスウォッチが付きます。
 
    複数の製品を同時に更新するには、次の手順に従います。
 
-#### 方法 2：スウォッチ画像のアップロード
+#### 方法 2：スウォッチ画像をアップロードする
 
-1. スウォッチの画像をキャプチャするには、フォトエディターで製品画像を開き、カラー、パターン、テクスチャを表す画像の四角形の領域を保存します。
+1. スウォッチの画像をキャプチャするには、フォトエディターで商品画像を開き、画像の正方形の領域（カラー、パターン、テクスチャを示す）を保存します。
 
-   必要に応じて、製品のバリエーションごとにこの操作を繰り返すことができます。
+   必要に応じて、製品のバリエーションごとにこのアクションを繰り返すことができます。
 
-   スウォッチのサイズとサイズは、テーマによって決まります。 通常、画像を四角形として保存すると、パターンの縦横比を保持するのに役立ちます。
+   スウォッチのサイズとサイズは、テーマによって決まります。 通常、画像を正方形として保存すると、パターンの縦横比を維持するのに役立ちます。
 
    ![スウォッチ画像](./assets/swatch-samples.png){width="400"}
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
-1. グリッドで、 **[!UICONTROL color]** 属性を編集モードで使用します。
+1. グリッドで、 **[!UICONTROL color]** 編集モードの属性。
 
-1. を確認します。 **[!UICONTROL Catalog Input Type for Store Owner]** が `Visual Swatch`.
+1. を確認します。 **[!UICONTROL Catalog Input Type for Store Owner]** はに設定されています。 `Visual Swatch`.
 
-1. 製品の表示ページでスウォッチを選択したときに、対応するシンプルな製品画像を表示しない場合は、 **[!UICONTROL Update Product Preview Image]** から `No`.
+1. 製品表示ページでスウォッチが選択されているときに、対応するシンプルな製品画像を表示しないようにするには、次のように設定します **[!UICONTROL Update Product Preview Image]** 対象： `No`.
 
-1. の下 _[!UICONTROL Manage Swatch]_（属性の値）、「**[!UICONTROL Add Swatch]**次の操作を実行します。
+1. 次の下 _[!UICONTROL Manage Swatch]_（属性の値）を選択し、**[!UICONTROL Add Swatch]**次の手順を実行します。
 
-   - Adobe Analytics の _[!UICONTROL Swatch]_列で、新しいスウォッチをクリックしてメニューを表示し、**[!UICONTROL Upload a file]**.
+   - が含まれる _[!UICONTROL Swatch]_列で、新しいスウォッチをクリックしてメニューを表示し、**[!UICONTROL Upload a file]**.
 
    - 準備したスウォッチファイルに移動し、アップロードするファイルを選択します。
 
@@ -116,58 +116,58 @@ ht-degree: 0%
 
    - 管理者およびストアフロントのラベルを入力します。
 
-     この例では、SKU が参照用に管理者ラベルに含まれています。これらの色は特定の製品に対してのみ使用されるからです。 ラベルには、スペースやアンダースコアを含めることができますが、ハイフンを含めることはできません。
+     この例では、SKU が管理者のラベルに参照用に含まれています。これらの色は特定の製品にのみ使用されるからです。 ラベルにスペースやアンダースコアを含めることはできますが、ハイフンを含めることはできません。
 
      ![ラベルを入力](./assets/swatch-upload.png){width="500" zoomable="yes"}
 
-1. 完了したら、「 **[!UICONTROL Save Attribute]** プロンプトが表示されたら、キャッシュを更新します。
+1. 完了したら、 **[!UICONTROL Save Attribute]** プロンプトが表示されたらキャッシュを更新します。
 
-1. 各製品を編集モードで開き、 **[!UICONTROL Color]** 属性を適切なスウォッチに置き換えます。
+1. 各製品を編集モードで開き、 **[!UICONTROL Color]** 属性に正しいスウォッチが付きます。
 
    複数の製品を同時に更新するには、次の手順に従います。
 
-### 手順 2：製品の更新
+### 手順 2：製品を更新する
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. 以下を使用します。 **[!UICONTROL Filter]** をクリックして、名前または SKU 別にリストを表示し、該当する製品のみを含めます。
+1. の使用 **[!UICONTROL Filter]** リストを名前または SKU で表示し、該当する製品のみを含めます。
 
 1. グリッドで、スウォッチを適用する各製品のチェックボックスを選択します。
 
-1. 設定 **[!UICONTROL Actions]** から `Update Attributes`.
+1. を設定 **[!UICONTROL Actions]** 対象： `Update Attributes`.
 
-   この例では、パンツのすべての青い設定が選択されています。
+   この例では、ズボンのすべての青い設定が選択されています。
 
-   ![製品スウォッチ属性を更新](./assets/swatch-apply-update-attributes.png){width="600" zoomable="yes"}
+   ![製品スウォッチ属性の更新](./assets/swatch-apply-update-attributes.png){width="600" zoomable="yes"}
 
-1. 下にスクロールして、 **[!UICONTROL Color]** 属性を選択し、 **[!UICONTROL Change]** チェックボックス。
+1. にスクロール ダウンします。 **[!UICONTROL Color]** 属性とを選択し、 **[!UICONTROL Change]** チェックボックス。
 
    ![チェックボックスを変更](./assets/swatch-update-attributes-choose-color.png){width="400"}
 
-1. 選択した製品に適用するスウォッチを選択し、「 **[!UICONTROL Save]**.
+1. 選択した商品に適用されるスウォッチを選択し、 **[!UICONTROL Save]**.
 
 1. プロンプトが表示されたら、キャッシュを更新します。
 
-   ![ストアフロントに表示されるスウォッチ](./assets/swatch-blue-schmear.png){width="200"}
+   ![ストアフロントに表示されるのスウォッチ](./assets/swatch-blue-schmear.png){width="200"}
 
-## 単純な製品へのスウォッチの追加
+## シンプルな製品へのスウォッチの追加
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. 製品を編集モードで開き、製品のステータスを確認します（有効にする必要があります）。
+1. 製品を編集モードで開き、製品ステータスを確認します（有効にする必要があります）。
 
-1. クリック **[!UICONTROL Create Configurations]** ボタン ( `Configurations` 」タブ ) をクリックします。
+1. クリック **[!UICONTROL Create Configurations]** ボタン（ `Configurations` タブ）。
 
-1. ポップアップウィンドウで、カラー (Color) 属性を選択し、 **[!UICONTROL Next]**.
+1. ポップアップウィンドウで、カラー属性を選択し、 **[!UICONTROL Next]**.
 
 1. この製品に含める属性からカラースウォッチを選択します。
 
 1. プログレスバーで、 **[!UICONTROL Next]**.
 
-1. [画像、価格、数量の設定](product-create-configurable.md#step-3-configure-the-images-price-and-quantity).
+1. [画像、価格、数量を設定](product-create-configurable.md#step-3-configure-the-images-price-and-quantity).
 
-   この手順では、各設定の画像、価格、数量を設定します。 使用可能なオプションはそれぞれ同じで、1 つだけ選択できます。 すべての SKU に同じ設定を適用したり、各 SKU に固有の設定を適用したり、現時点では設定をスキップしたりできます。
+   このステップでは、各設定の画像、価格、数量を設定します。 使用可能なオプションはそれぞれに対して同じで、1 つのみ選択できます。 すべての SKU に同じ設定を適用することも、各 SKU に一意の設定を適用することも、今は設定をスキップすることもできます。
 
-1. 画像、価格、数量の設定が完了したら、 **[!UICONTROL Next]** をクリックします。
+1. 画像、価格、数量の設定が完了したら、 **[!UICONTROL Next]** 右上隅
 
-   現在の製品バリエーションが「設定」セクションの下部に表示されます。 設定が完了したら、「 **[!UICONTROL Generate Products]**.
+   現在の製品バリエーションは、「設定」セクションの下部に表示されます。 設定に問題がなければ、 **[!UICONTROL Generate Products]**.

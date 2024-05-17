@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend]'
-description: 次のページで設定を確認します： [!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend] コマース管理のページ。
+description: の設定を確認します。 [!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend] コマース管理者のページ。
 exl-id: cd1e3a8d-14ce-47e9-a3bc-c1b1dcbe0d8c
 feature: Configuration, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | ストア表示 | 顧客がストア内の製品に関する電子メールを友人に送信できるようにするプロセスをアクティブ化します。 オプション： `Yes` / `No` |
-| [!UICONTROL Select Email Template] | ストア表示 | が生成するメッセージに使用する電子メールテンプレートを識別します。 _友達にメールを送信_ 関数に置き換えます。 デフォルトのテンプレート： `Send Product to Friend` |
-| [!UICONTROL Allow for Guests] | ストア表示 | 友達に製品に関する E メールを送信するために、送信者が登録済みの顧客である必要があるかどうかを指定します。 オプション： `Yes` / `No` |
-| [!UICONTROL Max Recipients] | ストア表示 | 1 件の E メールの配信リストに登録できる人数を制限します。 |
-| [!UICONTROL Max Products Sent in 1  Hour] | ストア表示 | 1 時間の間に 1 人のユーザーが共有できる製品の数を制限します。 |
-| [!UICONTROL Limit Sending By] | ストア表示 | 送信者の識別に使用する方法を決定します。 オプションは次のとおりです。 <br/>**`IP Address`**- （推奨）製品の E メールの送信に使用されるコンピューターの IP アドレスで送信者を識別します。<br/>**`Cookie (unsafe)`**  — 送信者をブラウザーの Cookie で識別します。 ユーザーは制限を避けるために Cookie を削除できるので、このメソッドは安全ではありません。 |
+| [!UICONTROL Enabled] | ストア表示 | ストア内の商品に関する電子メールを顧客が友人に送信できるようにするプロセスをアクティブ化します。 オプション： `Yes` / `No` |
+| [!UICONTROL Select Email Template] | ストア表示 | によって生成されるメッセージに使用されるメールテンプレートを識別します _友達にメールを送信_ 関数。 デフォルトのテンプレート： `Send Product to Friend` |
+| [!UICONTROL Allow for Guests] | ストア表示 | 送信者が製品に関するメールを友人に送信するには、登録済みの顧客である必要があるかどうかを決定します。 オプション： `Yes` / `No` |
+| [!UICONTROL Max Recipients] | ストア表示 | 1 通のメールに対して、配信リストに登録できるユーザーの数を制限します。 |
+| [!UICONTROL Max Products Sent in 1  Hour] | ストア表示 | 1 時間に 1 人のユーザーが共有できる製品の数を制限します。 |
+| [!UICONTROL Limit Sending By] | ストア表示 | 送信者の識別に使用する方法を決定します。 次のようなオプションがあります。 <br/>**`IP Address`**- （推奨）製品メールの送信に使用されるコンピューターの IP アドレスで送信者を識別します。<br/>**`Cookie (unsafe)`**  – 送信者をブラウザーの cookie で識別します。 このメソッドは、ユーザーが制限を回避するために cookie を削除できるので、安全ではありません。 |
 
 {style="table-layout:auto"}

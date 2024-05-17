@@ -22,7 +22,7 @@ ht-degree: 0%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Share Customer Accounts] | グローバル | ストア階層内の顧客アカウントの範囲を決定します。 オプション： <br/>**`Global`**– 顧客アカウント情報は、Commerce インストール内のすべての web サイトおよびストアで共有されます。<br/>**`Per Website`**  – 顧客アカウント情報は、アカウントが作成された web サイトに限定されます。 |
+| [!UICONTROL Share Customer Accounts] | グローバル | ストア階層内の顧客アカウントの範囲を決定します。 オプション： <br/>**`Global`**- カスタマーアカウント情報は、Commerce インストール内のすべての web サイトおよびストアで共有されます。<br/>**`Per Website`**  – 顧客アカウント情報は、アカウントが作成された web サイトに限定されます。 |
 
 {style="table-layout:auto"}
 
@@ -212,8 +212,8 @@ ht-degree: 0%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable CAPTCHA on Storefront] | Web サイト | コマース web サイトに関連付けられたストアで CAPTCHA を有効にします。 オプション： `Yes` / `No` |
-| [!UICONTROL Font] | Web サイト | CAPTCHA を表示するために使用するフォントを決定します。 独自のフォントを追加するには、フォントファイルを Commerce のインストール先と同じディレクトリに置き、に宣言を追加します `config.xml` にファイル `app/code/Magento/Captcha/etc`. |
+| [!UICONTROL Enable CAPTCHA on Storefront] | Web サイト | Commerce web サイトに関連付けられているストアで CAPTCHA を有効にします。 オプション： `Yes` / `No` |
+| [!UICONTROL Font] | Web サイト | CAPTCHA を表示するために使用するフォントを決定します。 独自のフォントを追加するには、フォントファイルをCommerceのインストール先と同じディレクトリに置き、に宣言を追加します `config.xml` にファイル `app/code/Magento/Captcha/etc`. |
 | [!UICONTROL Forms] | Web サイト | CAPTCHA が使用されるフォームを決定します。 オプション： <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （を参照） [セキュリティパッチ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg)  <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg)  <br /><br />_**注意：**_ 「ユーザーを作成」、「パスワードを忘れた場合」および「Payflow Pro」フォームは、選択すると常に有効になります。 |
 | [!UICONTROL Displaying Mode] | Web サイト | CAPTCHA が表示されるタイミングを決定します。 オプション： <br/>**`Always`**- ログインには常に CAPTCHA が必要です。<br/>**`After number of attempts to login`**  – このオプションは、管理者のログインフォームにのみ適用されます。 選択すると、 _[!UICONTROL Number of Unsuccessful Attempts to Login]_フィールドが表示されます。 許可するログイン試行回数を入力します。 値 `0` （ゼロ）は設定に似ています [!UICONTROL Displaying Mode] 対象： `Always`.<br/>_**注意：**_失敗したログイン試行の回数を追跡するために、1 つのメールアドレスおよび 1 つの IP アドレスからのログイン試行がカウントされます。 同じ IP アドレスから許可されるログイン試行回数の上限は 1,000 です。 この制限は、CAPTCHA が有効な場合にのみ適用されます。 |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | Web サイト | アカウントがロックされるまで顧客がログインできる回数を指定します。 |

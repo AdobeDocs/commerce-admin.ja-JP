@@ -1,12 +1,12 @@
 ---
 title: '[!UICONTROL Advanced] &gt; [!UICONTROL Admin]'
-description: 次のページで設定を確認します： [!UICONTROL Advanced] &gt; [!UICONTROL Admin] コマース管理のページ。
+description: の設定を確認します。 [!UICONTROL Advanced] &gt; [!UICONTROL Admin] コマース管理者のページ。
 exl-id: 546b8d01-9611-4415-ab2b-29be560316f5
 role: Admin
 feature: Configuration, Admin Workspace
 source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -17,23 +17,23 @@ ht-degree: 0%
 
 ## [!UICONTROL Admin User Emails]
 
-![管理者ユーザーの電子メール](./assets/admin-admin-user-emails.png)<!-- zoom -->
+![管理者ユーザーの E メール](./assets/admin-admin-user-emails.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、 [パスワードを忘れて電子メールをリセット](../../systems/permissions-users-all.md#forgotten-password-and-reset-emails).
+これらの設定の変更の詳細については、を参照してください [パスワードを忘れた場合の E メールのリセット](../../systems/permissions-users-all.md#forgotten-password-and-reset-emails).
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |---------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Forgot Password Email Template] | グローバル | 管理者ユーザーがパスワードを忘れたときに送信されるメッセージに使用される電子メールテンプレートを識別します。 デフォルトのテンプレート： `Forgot Admin Password` |
-| [!UICONTROL Forgot and Reset Email Sender] | グローバル | の送信者として表示されるストアの連絡先を識別します _パスワードを忘れた場合_ 電子メール。 デフォルトの送信者： `General Contact`<br/>その他の送信者オプション： `Sales Representative`, `Customer Support`, `Custom Email` |
-| [!UICONTROL User Notification Template] | グローバル | 管理者通知のデフォルトとして使用する電子メールテンプレートを決定します。 デフォルトのテンプレート： `User Notification` |
+| [!UICONTROL Forgot Password Email Template] | グローバル | 管理者ユーザーがパスワードを忘れた場合に送信されるメッセージに使用されるメールテンプレートを識別します。 デフォルトのテンプレート： `Forgot Admin Password` |
+| [!UICONTROL Forgot and Reset Email Sender] | グローバル | の送信者として表示される店舗連絡先を識別します _Forgot Password_ 電子メール。 既定の送信者： `General Contact`<br/>その他の送信者オプション： `Sales Representative`, `Customer Support`, `Custom Email` |
+| [!UICONTROL User Notification Template] | グローバル | 管理者通知用のデフォルトとして使用されるメールテンプレートを決定します。 デフォルトのテンプレート： `User Notification` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Startup Page]
 
-![起動ページ](./assets/admin-startup-page.png)<!-- zoom -->
+![スタートアップページ](./assets/admin-startup-page.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、 [スタートアップページを変更する](../../getting-started/admin-dashboard.md#change-the-startup-page) （内） _はじめに_.
+これらの設定の変更の詳細については、を参照してください [スタートアップページの変更](../../getting-started/admin-dashboard.md#change-the-startup-page) が含まれる _はじめる前に_.
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |---------------------------|------------------------------------------------------------------------|------------------------------------------------------------------|
@@ -41,22 +41,22 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-### [!UICONTROL Startup Page] options
+### [!UICONTROL Startup Page] オプション
 
-| 面グラフ |                                                                                                                                                                                                                                                                                                                                                                           | オプション |
+| 領域 |                                                                                                                                                                                                                                                                                                                                                                           | オプション |
 |---------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`Dashboard`](../../getting-started/admin-dashboard.md) |                                                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| `Sales` | `Operations` | [`Quotes`](../../b2b/quotes.md) ![Adobe Commerce用 B2B](../../assets/b2b.svg) <br/>[`Orders`](../../stores-purchase/orders.md)<br/>[`Invoices`](../../stores-purchase/invoices.md)<br/>[`Shipments`](../../stores-purchase/shipments.md)<br/>[`Credit Memos`](../../stores-purchase/credit-memos.md)<br/>[`Billing Agreements`](../../stores-purchase/paypal-billing-agreements.md)<br/>[`Returns`](../../stores-purchase/returns.md) ![Adobe Commerce](../../assets/adobe-logo.svg) </span><br/>[`Transactions`](../../stores-purchase/transactions.md)<br/>`Braintree Virtual Terminal` |
-| `Catalog` | [`Inventory`](../../inventory-management/introduction.md) | [`Products`](../../catalog/products-list.md)<br/>[`Categories`](../../catalog/categories.md)<br/>[`Shared Catalog`](../../b2b/catalog-shared-create.md) ![Adobe Commerce用 B2B](../../assets/b2b.svg) |
-| `Customers` | [`All Customers`](../../customers/customers-all.md)<br/>[`Now Online`](../../customers/now-online.md)<br/>[`Customer Groups`](../../customers/customer-groups.md)<br/>[`Segments`](../../customers/customer-segments.md) ![Adobe Commerce](../../assets/adobe-logo.svg) <br/>[`Companies`](../../b2b/account-companies.md)![Adobe Commerce用 B2B](../../assets/b2b.svg) |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| `Marketing` | `Promotions` | [`Catalog Price Rule`](../../merchandising-promotions/price-rules-catalog.md) <br/>[`Cart Price Rules`](../../merchandising-promotions/price-rules-cart.md)) <br/>[`Related Products Rules`](../../merchandising-promotions/product-related-rules.md) ![Adobe Commerce](../../assets/adobe-logo.svg) <br/>[`Gift Card Accounts`](../../stores-purchase/product-gift-card-accounts.md) ![Adobe Commerce](../../assets/adobe-logo.svg) |
+| `Sales` | `Operations` | [`Quotes`](../../b2b/quotes.md) ![Adobe Commerceの B2B](../../assets/b2b.svg) <br/>[`Orders`](../../stores-purchase/orders.md)<br/>[`Invoices`](../../stores-purchase/invoices.md)<br/>[`Shipments`](../../stores-purchase/shipments.md)<br/>[`Credit Memos`](../../stores-purchase/credit-memos.md)<br/>[`Billing Agreements`](../../stores-purchase/paypal-billing-agreements.md)<br/>[`Returns`](../../stores-purchase/returns.md) ![Adobe Commerce](../../assets/adobe-logo.svg) </span><br/>[`Transactions`](../../stores-purchase/transactions.md)<br/>`Braintree Virtual Terminal` |
+| `Catalog` | [`Inventory`](../../inventory-management/introduction.md) | [`Products`](../../catalog/products-list.md)<br/>[`Categories`](../../catalog/categories.md)<br/>[`Shared Catalog`](../../b2b/catalog-shared-create.md) ![Adobe Commerceの B2B](../../assets/b2b.svg) |
+| `Customers` | [`All Customers`](../../customers/customers-all.md)<br/>[`Now Online`](../../customers/now-online.md)<br/>[`Customer Groups`](../../customers/customer-groups.md)<br/>[`Segments`](../../customers/customer-segments.md) ![Adobe Commerce](../../assets/adobe-logo.svg) <br/>[`Companies`](../../b2b/account-companies.md)![Adobe Commerceの B2B](../../assets/b2b.svg) |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| `Marketing` | `Promotions` | [`Catalog Price Rule`](../../merchandising-promotions/price-rules-catalog.md) <br/>[`Cart Price Rules`](../../merchandising-promotions/price-rules-cart.md)） <br/>[`Related Products Rules`](../../merchandising-promotions/product-related-rules.md) ![Adobe Commerce](../../assets/adobe-logo.svg) <br/>[`Gift Card Accounts`](../../stores-purchase/product-gift-card-accounts.md) ![Adobe Commerce](../../assets/adobe-logo.svg) |
 |                                                         | [`Private Sales`](../../merchandising-promotions/events-private-sales.md) ![Adobe Commerce](../../assets/adobe-logo.svg) | [`Events`](../../merchandising-promotions/event-configure.md) <br/>[`Invitations`](../../merchandising-promotions/invitations.md) |
 |                                                         | `Communications` | [`Email Templates`](../../systems/email-templates.md) <br/>[`Newsletter Template`](../../merchandising-promotions/newsletter-template.md) <br/>[`Newsletter Queue`](../../merchandising-promotions/newsletter-queue.md) <br/>[`Newsletter Subscribers`](../../merchandising-promotions/newsletter-subscribers.md) <br/>[`Email Reminders`](../../merchandising-promotions/email-reminder-rules.md) ![Adobe Commerce](../../assets/adobe-logo.svg) |
 |                                                         | `SEO & Search` | [`Search Terms`](../../catalog/search-terms.md) <br/>[`Search Synonyms`](../../catalog/search-terms.md#search-synonyms) ![Adobe Commerce](../../assets/adobe-logo.svg)<br/>[`URL Rewrites`](../../merchandising-promotions/url-rewrite.md) <br/>[`Site Map`](../../merchandising-promotions/sitemap-xml.md) |
 |                                                         | [`User Content`](../../catalog/settings-advanced-product-reviews.md) | [`All Reviews`](../../catalog/settings-advanced-product-reviews.md) <br/>[`Pending Reviews`](../../merchandising-promotions/product-reviews-moderate.md) <br/> |
 | `Content` | `Elements` | [`Pages`](../../content-design/pages.md)<br/>[`Hierarchy`](../../content-design/page-hierarchy.md) ![Adobe Commerce](../../assets/adobe-logo.svg)<br/>[`Blocks`](../../content-design/blocks.md)<br/>[`Dynamic Blocks`](../../content-design/dynamic-blocks.md) ![Adobe Commerce](../../assets/adobe-logo.svg)<br/>[`Widgets`](../../content-design/widgets.md)<br/>[`Media Gallery`](../../content-design/media-storage.md) |
 |                                                         | `Design` | [`Configuration`](../../content-design/configuration.md)<br/>[`Themes`](../../content-design/themes.md)<br/>[`Schedule`](../../content-design/schedule.md) |
-|                                                         | `Content Staging` ![Adobe Commerce](../../assets/adobe-logo.svg)<br /> | [ダッシュボード](../../content-design/content-staging.md) |
+|                                                         | `Content Staging` ![Adobe Commerce](../../assets/adobe-logo.svg)<br /> | [Dashboard](../../content-design/content-staging.md) |
 | `Reports` | [`Marketing`](../../getting-started/marketing-reports.md) | `Products in Cart`<br />`Search Terms`<br />`Abandoned Carts`<br />`Newsletter Problem Reports` |
 |                                                         | [`Reviews`](../../getting-started/review-reports.md) | `By Customer`<br/> `By Products`<br/> |
 |                                                         | [`Sales`](../../getting-started/sales-reports.md) | `Orders`<br/>`Tax`<br/>`Invoiced`<br/>`Shipping`<br/>`Refunds`<br/>`Coupons`<br/>`PayPal Settlement`<br/>`Braintree Settlement` |
@@ -104,13 +104,13 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![管理ベース URL](./assets/admin-admin-base-url.png)<!-- zoom -->
 
-これらのオプションの設定について詳しくは、 [ベース URL の設定](../../stores-purchase/store-urls.md#configure-the-base-url) （内） _店舗および購入エクスペリエンスガイド_.
+これらのオプションの設定については、を参照してください。 [ベース URL の設定](../../stores-purchase/store-urls.md#configure-the-base-url) が含まれる _店舗および購入エクスペリエンスガイド_.
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Use Custom Admin URL] | グローバル | カスタム URL を使用して管理者にアクセスするかどうかを決定します。 オプション： `Yes` / `No` |
-| [!UICONTROL Custom Admin URL] | グローバル | 管理者にアクセスするためのカスタム URL を指定します。 デフォルトでは、管理 URL はベース URL と同じです。<br/>**重要：** 管理 URL は、同じ Commerce インストールに存在し、ストアフロントと同じドキュメントルートを持つ必要があります。 |
-| [!UICONTROL Use Custom Admin Path] | グローバル | 管理者へのアクセスにカスタムパスを使用するかどうかを決定します。 デフォルトのパスは `admin`. オプション： `Yes` / `No` |
+| [!UICONTROL Use Custom Admin URL] | グローバル | 管理者へのアクセスにカスタム URL を使用するかどうかを決定します。 オプション： `Yes` / `No` |
+| [!UICONTROL Custom Admin URL] | グローバル | 管理者にアクセスするためのカスタム URL を指定します。 デフォルトでは、管理者 URL はベース URL と同じです。<br/>**重要：** 管理者 URL は、同じCommerce インストール内にあり、ストアフロントと同じドキュメントルートを持つ必要があります。 |
+| [!UICONTROL Use Custom Admin Path] | グローバル | 管理者へのアクセスにカスタムパスを使用するかどうかを決定します。 デフォルトパスはです。 `admin`. オプション： `Yes` / `No` |
 | [!UICONTROL Custom Admin Path] | グローバル | デフォルトの管理者パスの名前を推測しにくい名前に変更します。 カスタムパス名を小文字で入力します。 例： `aardvark` |
 
 {style="table-layout:auto"}
@@ -119,34 +119,34 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![セキュリティ](./assets/admin-security.png)<!-- zoom -->
 
-これらのオプションの設定について詳しくは、 [管理者セキュリティの設定](../../systems/security-admin.md) （内） _管理システムガイド_.
+これらのオプションの設定については、を参照してください。 [Admin Security の設定](../../systems/security-admin.md) が含まれる _管理システムガイド_.
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--------------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Admin Account Sharing] | ストア表示 | 異なるデバイスから同じアカウントに同時にログインできる管理者ユーザーかどうかを指定します。 オプション： <br/>**`Yes`**— 同じ管理者アカウントからの複数のアクティブなセッションを許可します。<br/>**`No`**  — 管理者アカウントごとに 1 つのアクティブなセッションのみを許可します。 |
-| [!UICONTROL Password Reset Protection Type] | ストア表示 | パスワードのリセット要求の管理に使用するメソッドを決定します。 オプション： <br/>**`By IP and Email`**— パスワードは、通知からの応答を Admin アカウントに関連付けられた電子メールアドレスに送信した後に、オンラインでリセットできます。<br/>**`By IP`**  — パスワードは、追加の確認なしでオンラインでリセットできます。 <br/>**`By Email`**— パスワードは、Admin アカウントに関連付けられた電子メールアドレスに送信される通知に電子メールで応答することでのみ、リセットできます。<br/>**`None`**  — パスワードはストア管理者のみがリセットできます。 |
-| [!UICONTROL Recovery Link Expiration Period (hours)] | グローバル | パスワード回復リンクが有効である時間数を決定します。 |
-| [!UICONTROL Max Number of Password Reset Requests] | ストア表示 | 1 時間に送信できるパスワード要求の最大数を決定します。 |
-| [!UICONTROL Min Time Between Password Reset Requests] | ストア表示 | パスワードのリセット要求間隔の最小値を分単位で指定します。 |
-| [!UICONTROL Add Secret Key to URLs] | グローバル | 有効にした場合、悪用に対する予防策として、秘密鍵を管理 URL に追加します。 オプション： `Yes` / `No` |
-| [!UICONTROL Login Is Case Sensitive] | グローバル | ユーザーが入力したログイン資格情報が、保存されているログイン資格情報と一致する必要があるかどうかを指定します。 オプション： `Yes` / `No` |
-| [!UICONTROL Admin Session Lifetime (seconds)] | グローバル | 管理者セッションの長さを秒単位で決定します。 |
-| [!UICONTROL Maximum Login Failures to Lockout Account] | グローバル | 管理者ユーザーがログインしてからアカウントがロックされる回数を指定します。 このフィールドが空の場合、最小値は設定されません。 デフォルト値： `6` |
-| [!UICONTROL Lockout Time (minutes)] | グローバル | 管理者アカウントがロックされてから、ユーザーが再度ログインを試みるまでの時間（分）を指定します。 デフォルト値： `30` |
-| [!UICONTROL Password Lifetime (days)] | グローバル | 管理者パスワードの有効期限が切れるまでの日数を決定します。 このフィールドが空の場合、全期間は設定されません。 デフォルト値： `90` |
-| [!UICONTROL Password Change] | グローバル | 管理者ユーザーが自分のパスワードを変更する必要があるかどうかを決定します。 オプション： <br/>**`Forced`**— アカウントの設定後に管理者ユーザーがパスワードを変更する必要があります。<br/>**`Recommended`** ：管理者ユーザーは、アカウントの設定後にパスワードを変更することをお勧めします。 |
+| [!UICONTROL Admin Account Sharing] | ストア表示 | 管理者ユーザーが、異なるデバイスから同じアカウントに同時にログインできるかどうかを決定します。 オプション： <br/>**`Yes`**– 同じ管理者アカウントからの複数のアクティブなセッションを許可します。<br/>**`No`**  – 管理者アカウントごとに 1 つのアクティブなセッションのみを許可します。 |
+| [!UICONTROL Password Reset Protection Type] | ストア表示 | パスワードリセットリクエストの管理に使用する方法を決定します。 オプション： <br/>**`By IP and Email`**– 管理者アカウントに関連付けられたメールアドレスに通知から応答を受信した後、パスワードをオンラインでリセットできます。<br/>**`By IP`**  – 追加の確認なしにオンラインでパスワードをリセットできます。 <br/>**`By Email`**- パスワードは、管理者アカウントに関連付けられたメールアドレスに送信される通知にメールで応答することによってのみリセットできます。<br/>**`None`** - パスワードは、ストア管理者のみがリセットできます。 |
+| [!UICONTROL Recovery Link Expiration Period (hours)] | グローバル | パスワード回復リンクの有効期間を決定します。 |
+| [!UICONTROL Max Number of Password Reset Requests] | ストア表示 | 1 時間あたりに送信できるパスワード要求の最大数を決定します。 |
+| [!UICONTROL Min Time Between Password Reset Requests] | ストア表示 | パスワードリセットリクエストの間隔の最小分数を決定します。 |
+| [!UICONTROL Add Secret Key to URLs] | グローバル | 有効にすると、悪用に対する予防策として秘密鍵が Admin URL に追加されます。 オプション： `Yes` / `No` |
+| [!UICONTROL Login Is Case Sensitive] | グローバル | ユーザーが入力したログイン資格情報が、保存されたログイン資格情報の大文字と小文字を一致させる必要があるかどうかを決定します。 オプション： `Yes` / `No` |
+| [!UICONTROL Admin Session Lifetime (seconds)] | グローバル | 管理者セッションの長さを秒単位で指定します。 |
+| [!UICONTROL Maximum Login Failures to Lockout Account] | グローバル | 管理者ユーザーがログインを試みる回数を決定します。この回数を超えると、管理者ユーザーのアカウントはロックされます。 フィールドが空の場合、最小値は設定されません。 デフォルト値 `6` |
+| [!UICONTROL Lockout Time (minutes)] | グローバル | ユーザーが再度ログインできるようになるまでの、管理者アカウントがロックされる時間（分）を指定します。 デフォルト値 `30` |
+| [!UICONTROL Password Lifetime (days)] | グローバル | 管理者パスワードの有効期限が切れるまでの日数を決定します。 フィールドが空の場合、有効期間は設定されません。 デフォルト値 `90` |
+| [!UICONTROL Password Change] | グローバル | 管理者ユーザーが自分のパスワードを変更する必要があるかどうかを決定します。 オプション： <br/>**`Forced`**– 管理者ユーザーは、アカウントの設定後にパスワードを変更する必要があります。<br/>**`Recommended`**  – 管理者ユーザーに対し、アカウントの設定後にパスワードを変更することを推奨します。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Dashboard]
 
-![ダッシュボード](./assets/admin-dashboard.png)<!-- zoom -->
+![Dashboard](./assets/admin-dashboard.png)<!-- zoom -->
 
-これらのオプションの設定について詳しくは、 [管理ダッシュボード](../../getting-started/admin-dashboard.md) （内） _はじめに_.
+これらのオプションの設定については、を参照してください。 [管理ダッシュボード](../../getting-started/admin-dashboard.md) が含まれる _はじめる前に_.
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |----------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Enable Charts] | グローバル | 現在の販売データから生成されたグラフがダッシュボードに含まれるかどうかを指定します。 オプション： `Yes` / `No` |
+| [!UICONTROL Enable Charts] | グローバル | 現在の販売データから生成されたグラフがダッシュボードに含まれているかどうかを決定します。 オプション： `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -154,34 +154,34 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![管理グリッド](./assets/admin-admin-grids.png)<!-- zoom -->
 
-これらのオプションの設定について詳しくは、 [製品の表示を制限](../../catalog/products-list.md#limit-product-display) （内） _カタログ管理ガイド_.
+これらのオプションの設定については、を参照してください。 [製品表示を制限](../../catalog/products-list.md#limit-product-display) が含まれる _カタログ管理ガイド_.
 
 >[!NOTE]
 >
->大きなカタログのパフォーマンスを向上させるには、グリッドに表示する製品の数を制限することをお勧めします。
+>大きなカタログのパフォーマンスを向上させるには、グリッドに表示する製品数を制限することをお勧めします。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |-----------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Limit Number of Products in Grid] | グローバル | グリッドに表示する製品の数を _[!UICONTROL Records Limit]_の値です。 オプション： `Yes` / `No` |
-| [!UICONTROL Records Limit] | グローバル | 製品グリッドの製品数の制限を設定します。 デフォルトの最小値は次のとおりです。 `20000`. |
+| [!UICONTROL Limit Number of Products in Grid] | グローバル | グリッドに表示される製品の数を _[!UICONTROL Records Limit]_の値。 オプション： `Yes` / `No` |
+| [!UICONTROL Records Limit] | グローバル | 製品グリッド内の製品数の上限を設定します。 デフォルトの最小値はです `20000`. |
 
 ## [!UICONTROL CAPTCHA]
 
 ![CAPTCHA](./assets/admin-captcha.png)<!-- zoom -->
 
-これらのオプションの設定について詳しくは、 [CAPTCHA](../../systems/security-captcha.md) （内） _管理システムガイド_.
+これらのオプションの設定については、を参照してください。 [CAPTCHA](../../systems/security-captcha.md) が含まれる _管理システムガイド_.
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |-------------------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Enable CAPTCHA in Admin] | グローバル | 管理者ログイン用に CAPTCHA を有効にします。 オプション： `Yes` / `No` |
-| [!UICONTROL Font] | グローバル | CAPTCHA の表示に使用するフォントを決定します。 独自のフォントを追加するには、フォントファイルをコマースインスタンスと同じディレクトリに配置し、次の場所にある config.xml ファイルに宣言を追加します。 `app/code/Magento/Captcha/etc` デフォルトフォント：` LinLibertine` |
+| [!UICONTROL Enable CAPTCHA in Admin] | グローバル | 管理者ログインの CAPTCHA を有効にします。 オプション： `Yes` / `No` |
+| [!UICONTROL Font] | グローバル | CAPTCHA を表示するために使用するフォントを決定します。 独自のフォントを追加するには、フォントファイルをCommerce インスタンスと同じディレクトリに置き、で宣言を config.xml ファイルに追加します。 `app/code/Magento/Captcha/etc` デフォルトのフォント：` LinLibertine` |
 | [!UICONTROL Forms] | グローバル | CAPTCHA が使用されるフォームを決定します。 オプション： `Admin Login` / `Admin Forgot Password` |
-| [!UICONTROL Displaying Mode] | グローバル | CAPTCHA を表示するタイミングを決定します。 オプション： <br/>**`Always`**— ログインするには、常に CAPTCHA が必要です。<br/>**`After number of attempts to login`** - [!UICONTROL Number of Unsuccessful Attempts to Login] フィールドに入力します。 許可するログイン試行回数を入力します。 0（ゼロ）の値は、[ 表示モード ] を [ 常に ] に設定した場合と同様です。 このオプションでは、「パスワードを忘れた場合」および「ユーザーを作成」の各フォームは対象となりません。 CAPTCHA が有効で、表示するように設定されている場合は、常にフォームに含まれます。<br />**注意**：ログインの失敗を追跡するには、1 つの電子メールアドレスと 1 つの IP アドレスからログインしようとするたびに、カウントされます。 同じ IP アドレスから許可されるログイン試行の最大回数は 1,000 です。 この制限は、CAPTCHA が有効な場合にのみ適用されます。 |
-| [!UICONTROL Number of Unsuccessful Attempts to Login] | グローバル | アカウントがロックされる前にユーザーがログインを試みる回数を指定します。 ログイン試行の失敗回数を追跡するために、1 つの IP アドレスから 1 つの電子メールアドレスからの試行を追跡します。 同じ IP アドレスから許可される最大試行回数は 1,000 です。 この制限は、CAPTCHA が有効な場合にのみ適用されます。 |
-| [!UICONTROL CAPTCHA Timeout (minutes)] | グローバル | 現在の CAPTCHA の有効期間を決定します。 CAPTCHA の有効期限が切れたら、ユーザーはページを再読み込みする必要があります。 |
-| [!UICONTROL Number of Symbols] | グローバル | CAPTCHA で使用されるシンボルの数を決定します。 最大値は次のとおりです。 `8`. また、範囲を指定することもできます。例： `5-8`. |
-| [!UICONTROL Symbols Used in CAPTCHA] | グローバル | CAPTCHA で使用するシンボルを決定します。 文字（a ～ z および A ～ Z）と数字 (0 ～ 9) のみを使用できます。 フィールドに表示される既定の記号セットでは、i、l、1 などの類似した記号は除外されます。 CAPTCHA でこれらの記号を表示すると、ユーザーが CAPTCHA を正しく認識する可能性が低くなります。 |
-| [!UICONTROL Case Sensitive] | グローバル | CAPTCHA で使用される文字が大文字と小文字を区別するかどうかを指定します。 オプション： `Yes` / `No` |
+| [!UICONTROL Displaying Mode] | グローバル | CAPTCHA が表示されるタイミングを決定します。 オプション： <br/>**`Always`**- ログインには常に CAPTCHA が必要です。<br/>**`After number of attempts to login`**  – が表示されます [!UICONTROL Number of Unsuccessful Attempts to Login] フィールド。 許可されるログイン試行回数を入力します。 値が 0 （ゼロ）の場合は、[ 表示モード ] を [ 常に ] に設定する場合と似ています。 このオプションでは、パスワードを忘れた場合とユーザーを作成フォームには対応しません。 CAPTCHA が有効で表示するように設定されている場合、常にフォームに含まれます。<br />**注意**：失敗したログイン試行の回数を追跡するために、1 つのメールアドレスで、1 つの IP アドレスからログイン試行がカウントされます。 同じ IP アドレスから許可されるログイン試行回数の上限は 1,000 です。 この制限は、CAPTCHA が有効な場合にのみ適用されます。 |
+| [!UICONTROL Number of Unsuccessful Attempts to Login] | グローバル | アカウントがロックされるまでのログイン試行回数を指定します。 ログインの失敗回数を追跡するために、システムは 1 つの IP アドレスからの試行を 1 つの IP アドレスから追跡します。 同じ IP アドレスからの最大試行回数は 1,000 です。 この制限は、CAPTCHA が有効になっている場合にのみ適用されます。 |
+| [!UICONTROL CAPTCHA Timeout (minutes)] | グローバル | 現在の CAPTCHA の有効期間を決定します。 CAPTCHA の有効期限が切れたら、ユーザーはページをリロードする必要があります。 |
+| [!UICONTROL Number of Symbols] | グローバル | CAPTCHA で使用されるシンボルの数を決定します。 許可される最大値はです `8`. 範囲を指定することもできます。例： `5-8`. |
+| [!UICONTROL Symbols Used in CAPTCHA] | グローバル | CAPTCHA で使用されるシンボルを決定します。 文字（a ～ z および A ～ Z）と数字（0 ～ 9）のみを使用できます。 フィールドに表示される記号の既定のセットは、i、l、1 などの類似した記号を除外します。 CAPTCHA にこれらの記号を表示すると、ユーザーが CAPTCHA を正しく認識できる可能性が低くなります。 |
+| [!UICONTROL Case Sensitive] | グローバル | CAPTCHA で使用される文字で大文字と小文字を区別するかどうかを決定します。 オプション： `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -189,9 +189,9 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 {{ee-feature}}
 
-![管理アクションのログ](./assets/admin-actions-logging.png)<!-- zoom -->
+![管理アクションログ](./assets/admin-actions-logging.png)<!-- zoom -->
 
-これらのオプションの設定について詳しくは、 [アクションログのアーカイブ](../../systems/action-log-archive.md) （内） _管理システムガイド_.
+これらのオプションの設定については、を参照してください。 [アクションログアーカイブ](../../systems/action-log-archive.md) が含まれる _管理システムガイド_.
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |-----------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -201,12 +201,12 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ## [!UICONTROL Admin Usage]
 
-![管理使用状況](./assets/admin-usage.png)<!-- zoom -->
+![Admin Usage](./assets/admin-usage.png)<!-- zoom -->
 
-これらのオプションの設定について詳しくは、 [使用状況データの収集](../../getting-started/admin.md#usage-data-collection) （内） _はじめに_.
+これらのオプションの設定については、を参照してください。 [使用状況データの収集](../../getting-started/admin.md#usage-data-collection) が含まれる _はじめる前に_.
 
 | フィールド | 範囲 | 説明 |
 |------------------------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Enable Admin Usage Tracking] | グローバル | 管理者の使用状況データを収集するAdobeに対して、 _管理者_、および関連する製品とサービス。 データ収集も有効にする _製品内ガイダンス_ ヘルプ、ツールヒント、ウォークスルーガイド、オンボーディング情報、機能のお知らせなどのインタラクティブなコンテンツを _管理者_. 個々の管理者は、使用状況データでは識別されません。 オプション：<br />**`Yes`**— データ収集を許可し、を有効にします。 _製品内ガイダンス_.<br />**`No`**  — データ収集も有効化も許可されていません _製品内ガイダンス_. |
+| [!UICONTROL Enable Admin Usage Tracking] | グローバル | を使用するエクスペリエンスを向上させるために、管理者の使用状況データを収集するAdobe権限を付与します _Admin_、および関連製品とサービス。 データ収集を許可すると、も有効になります _製品内ガイダンス_ は、ヘルプ、ツールヒント、ウォークスルーガイド、オンボーディング情報、機能のお知らせなどのインタラクティブコンテンツを _Admin_. 使用状況データでは個々の管理者は識別されません。 オプション：<br />**`Yes`**- データ収集を許可し、有効化 _製品内ガイダンス_.<br />**`No`** - データ収集も有効化もできません _製品内ガイダンス_. |
 
 {style="table-layout:auto"}

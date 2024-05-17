@@ -1,5 +1,5 @@
 ---
-title: ID を使用して Commerce Admin 統合を設定する
+title: ID を使用したCommerce Admin Integration の設定
 description: Adobe Commerce管理者のユーザーアカウントのログインをAdobe IDと統合するには、次のオプション手順に従います。
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
@@ -10,15 +10,15 @@ ht-degree: 0%
 
 ---
 
-# Adobe IDと Commerce Admin の統合の設定
+# Commerce Admin とAdobe IDの統合の設定
 
 {{ee-feature}}
 
-この統合は、Adobe IDを持ち、Adobe Commerceへのログインとビジネス製品のAdobeを効率化したい管理者ユーザーとのコマースマーチャントをサポートします。 これはオプションであり、インスタンスごとに有効になります。 有効にすると、管理ユーザーワークフローのみが影響を受けます。 
+この統合は、Adobe IDを持ち、Adobe Commerceへのログインと業務Adobeを効率化したい管理者ユーザーを持つCommerce マーチャントをサポートします。 これはオプションであり、インスタンスごとに有効になります。 有効にすると、管理ユーザーワークフローのみが影響を受けます。 
 
 >[!IMPORTANT]
 >
->管理者ユーザーは、この統合を有効にする前に、Commerce 管理者資格情報（ユーザー名とパスワード）と 2FA 資格情報を保存する必要があります。 これらの資格情報は、IMS 統合が無効な場合に必要です。
+>管理者ユーザーは、この統合を有効にする前に、Commerce管理者資格情報（ユーザー名とパスワード）と 2FA 資格情報を保存する必要があります。 これらの資格情報は、IMS 統合が無効な場合に必要です。
 
 ## 前提条件
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 * クライアント秘密鍵
 * から API キーを取得すると、クライアント ID とクライアント秘密鍵を利用できるようになります [Adobe Developer コンソール](https://developer.adobe.com/developer-console/docs/guides/credentials/).
 
-Commerce 管理者ユーザーがログインするには、Adobe IDのアカウントを作成する必要があります。
+Commerce管理者ユーザーがログインするには、Adobe IDのアカウントを作成する必要があります。
 
 ## 一般的な手順
 
@@ -46,7 +46,7 @@ Commerce 管理者ユーザーがログインするには、Adobe IDのアカウ
 
 ## 統合の設定
 
-システムアクセス権を持つ管理者または開発者が次の手順を完了した後、 _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_ボタンは、すべての管理者ユーザーの Commerce Admin ログインページに表示されます。
+システムアクセス権を持つ管理者または開発者が次の手順を完了した後、 _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_すべての管理者ユーザーのCommerce Admin ログインページに「」ボタンが表示されます。
 
 ### 手順 1:Adobe組織 ID の取得
 

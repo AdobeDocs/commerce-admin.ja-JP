@@ -5,144 +5,144 @@ exl-id: 91630717-9da7-4d2f-a0d8-adb794a30ee1
 feature: Storefront
 source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
 
 # ストアフロントのブランディング
 
-最初にしたいことの 1 つは、 [ロゴを変更する](#upload-your-logo) ヘッダーおよび [favicon をアップロード](#add-a-favicon) ブラウザーの 次に、 [お知らせメッセージを追加](#change-the-welcome-message) および [著作権情報を更新する](#change-the-copyright-notice) を使用します。 これらのタスクは、すぐに対処できるいくつかのシンプルなデザイン要素です。 ストアの開発中は、 [店のデモ通知をオンにする](#set-the-store-demo-notice)を削除し、起動する準備が整ったら削除します。
+最初にあなたがやりたいことの 1 つは次のとおりです [ロゴの変更](#upload-your-logo) ヘッダー内および [お気に入りのアップロード](#add-a-favicon) ブラウザーの場合。 次に、以下を行います [ようこそメッセージを追加](#change-the-welcome-message) および [著作権表示の更新](#change-the-copyright-notice) フッターで。 これらのタスクは、すぐに対処できるシンプルなデザイン要素です。 ストアが開発中の間に、次の操作を実行できます [デモの保存に関する通知を表示](#set-the-store-demo-notice)を選択し、起動する準備が整ったら削除します。
 
-![ストアフロントのブランディング要素](./assets/storefront-home-page-branding.png){width="600" zoomable="yes"}
+![ストアフロントブランディング要素](./assets/storefront-home-page-branding.png){width="600" zoomable="yes"}
 
 ## ロゴをアップロード
 
-ヘッダー内のロゴのサイズと場所は、ストアのテーマによって決まります。 ロゴは、GIF、PNG、JPG(JPEG) のいずれかのファイルタイプとして保存し、ストアの管理者からアップロードできます。
+ヘッダー内のロゴのサイズと場所は、ストアテーマによって決まります。 ロゴは、GIF、PNG またはJPG（JPEG）ファイルタイプとして保存し、ストアの管理者からアップロードできます。
 
-![ヘッダーのロゴ](./assets/storefront-header-logo.png){width="600"}
+![ヘッダー内のロゴ](./assets/storefront-header-logo.png){width="600"}
 
-ロゴイメージは、サーバー上の次の場所に存在します。 名前を持つ画像ファイル `logo.svg` は、デフォルトのテーマロゴとして使用されます。
+ロゴ画像はサーバー上の次の場所にあります。 という名前の任意の画像ファイル `logo.svg` は、デフォルトのテーマロゴとして使用されます。
 
-フルパス — `app/design/frontend/[vendor]/[theme]/web/images/logo.svg`
+フルパス - `app/design/frontend/[vendor]/[theme]/web/images/logo.svg`
 
-相対パス —  `images/logo.svg`
+相対パス -  `images/logo.svg`
 
-テーマで使用されるロゴや他の画像のサイズがわからない場合は、ブラウザーでページを開き、画像を右クリックして要素を検査します。
+テーマで使用されるロゴやその他の画像のサイズがわからない場合は、ブラウザーでページを開き、画像を右クリックして、要素を調べます。
 
 >[!NOTE]
 >
->ヘッダーにロゴが表示される以外に、ロゴもに表示されます。 [電子メールテンプレート](../systems/email-templates.md#prepare-your-email-logo) および [PDF請求書](../stores-purchase/sales-documents.md) その他のセールスドキュメント 電子メールテンプレートと請求書に使用されるロゴには、異なるサイズ要件があり、個別にアップロードする必要があります。
+>ヘッダーのロゴに加えて、のロゴも表示されます [メールテンプレート](../systems/email-templates.md#prepare-your-email-logo) およびに [PDF請求書](../stores-purchase/sales-documents.md) およびその他の営業文書 メールテンプレートと請求書に使用されるロゴは、サイズの要件が異なり、別々にアップロードする必要があります。
 
 サポートされるロゴファイル形式：
 
 | ファイル形式 | 説明 |
 |--- |--- |
-| PNG | (Portable Network Graphics) この新しいGIF形式の代わりに、最大 1,600 万色（24 ビット）をサポートします。 ロスレス圧縮形式は、テキストが鮮明で高品質のビットマップ画像を生成しますが、一部の形式よりもファイルサイズが大きくなります。 PNG 形式は、透明なレイヤーをサポートし、オンライン表示およびストリーミング用に設計されています。 |
-| GIF | (Graphics Interchange Format)256 色（8 ビット）に制限される、広くサポートされている古いビットマップ形式。 このGIF形式では、単純なアニメーションと透明なレイヤをサポートしています。 |
-| JPG(JPEG) | (Joint Photographic Expert Group) ほとんどのデジタルカメラで使用される圧縮ビットマップ形式。 非可逆圧縮は、データの損失を引き起こします。これは、テキストのぼやけたスポットとして見られる場合があります。 |
+| PNG | （Portable Network Graphics） GIFフォーマットに代わるこの新しいフォーマットは、最大 1600 万色（24 ビット）をサポートします。 可逆圧縮形式では、テキストは鮮明になるが、一部の形式よりもファイルサイズが大きい、高品質のビットマップ画像が生成されます。 PNG 形式は、透明レイヤーをサポートし、オンライン表示とストリーミング用に設計されています。 |
+| GIF | （Graphics Interchange Format）広くサポートされている古いビットマップ形式で、256 色（8 ビット）に制限されています。 GIFフォーマットは、単純なアニメーションと透明レイヤーをサポートしています。 |
+| JPG（JPEG） | （Joint Photographic Expert Group）ほとんどのデジタルカメラで使用される圧縮ビットマップ形式。 非可逆圧縮によってデータがやや失われますが、テキストのぼやけた点として目立つ場合があります。 |
 
 {style="table-layout:auto"}
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
    ![デザイン設定ページ](./assets/design-configuration.png){width="700"}
 
-1. 設定するストア表示を見つけ、 **[!UICONTROL Edit]** （内） _[!UICONTROL Action]_列。
+1. 設定するストア表示を見つけて、クリックします **[!UICONTROL Edit]** が含まれる _[!UICONTROL Action]_列。
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Header]** 」セクションに入力します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Header]** セクション。
 
    ![ヘッダー設定](./assets/configuration-header.png){width="600"}
 
-1. 新しいロゴをアップロードするには、 **[!UICONTROL Upload]** お使いのシステムからファイルを選択します。
+1. 新しいロゴをアップロードするには、をクリックします **[!UICONTROL Upload]** そして、システムからファイルを選択します。
 
-1. 次を入力します。 **[!UICONTROL Logo Image Width]** および **[!UICONTROL Logo Image Height]** ピクセル単位で指定します。
+1. を入力 **[!UICONTROL Logo Image Width]** および **[!UICONTROL Logo Image Height]** ピクセル単位。
 
-1. の場合 **[!UICONTROL Logo Image Alt]**」をクリックし、画像にカーソルを合わせたときに表示するテキストを入力します。
+1. の場合 **[!UICONTROL Logo Image Alt]**&#x200B;で、画像の上にマウスポインターが置かれたときに表示されるテキストを入力します。
 
-1. 完了したら、「 **[!UICONTROL Save Configuration]**.
+1. 完了したら、 **[!UICONTROL Save Configuration]**.
 
-## お気に入りに追加
+## お気に入りの追加
 
-_Favicon_ は、 _お気に入りのアイコン_ とは、各ブラウザーページの「 」タブにある小さなアイコンを指します。 ブラウザーに応じて、favicon もアドレスバー（URL の直前）に表示されます。
+_Favicon_ を短くする _お気に入りのアイコン_ 各ブラウザーページのタブにある小さなアイコンを指します。 ブラウザーによっては、favicon がアドレスバーの URL の直前にも表示されます。
 
-favicon は通常、16 x 16 ピクセルまたは 32 x 32 ピクセルのサイズです。 [!DNL Commerce] は、ICO、PNG、APNG、GIF、JPG(JPEG) の各ファイルタイプを受け入れますが、一部のブラウザーではこれらの形式をサポートしていません。 favicon に使用する、最も広くサポートされているファイル形式は ICO です。 他の種類のイメージファイルを使用することもできますが、この形式が一部のブラウザーでサポートされているとは限りません。 ICO イメージを生成したり、その形式にイメージを変換したりするのに使用できる無料のツールは、オンラインで多数用意されています。
+favicon は通常、16 x 16 ピクセルまたは 32 x 32 ピクセルのサイズです。 [!DNL Commerce] は ICO、PNG、APNG、GIF、JPG（JPEG）のファイルタイプを受け入れますが、すべてのブラウザーがこれらのフォーマットをサポートしているわけではありません。 favicon で最も広くサポートされているファイル形式は ICO です。 他の画像ファイルタイプを使用することもできますが、一部のブラウザーではその形式がサポートされていない場合があります。 ICO 画像を生成したり、画像をその形式に変換したりできる無料のツールがオンラインで多数用意されています。
 
-![ブラウザータブのお気に入りアイコン](./assets/storefront-favicon.png){width="600"}
+![ブラウザータブの Favicon](./assets/storefront-favicon.png){width="600"}
 
-[!DNL Commerce] では、次のファイル形式を favicon としてサポートしています。
+[!DNL Commerce] では、favicon として以下のファイル形式がサポートされています。
 
 | ファイル形式 | 説明 |
 |--- |--- |
-| ICO | この画像ファイル形式は、小さいサイズのコンピューターのアイコン画像用に設計されています。 ICO 形式は、Microsoft® Windows OS で主に使用され、最大 256 x 256 ピクセル、1600 万色（24 ビット）の画像を含み、透明度が 8 ビットになります。 |
-| PNG | (Portable Network Graphics) この新しいGIF形式の代わりに、最大 1,600 万色（24 ビット）をサポートします。 ロスレス圧縮形式は、テキストが鮮明で高品質のビットマップ画像を生成しますが、一部の形式よりもファイルサイズが大きくなります。 PNG 形式は、透明なレイヤーをサポートし、オンライン表示およびストリーミング用に設計されています。 |
-| APNG | (Animated Portable Network Graphics)PNG に似た、単純なアニメーションをサポートするファイル形式です。 |
-| GIF | (Graphics Interchange Format)256 色（8 ビット）に制限される、広くサポートされている古いビットマップ形式。 このGIF形式では、単純なアニメーションと透明なレイヤをサポートしています。 |
-| JPG(JPEG) | (Joint Photographic Expert Group) ほとんどのデジタルカメラで使用される圧縮ビットマップ形式。 非可逆圧縮は、データの損失を引き起こします。これは、テキストのぼやけたスポットとして見られる場合があります。 |
+| ICO | この画像ファイル形式は、小さいサイズのコンピューターアイコン画像用に設計されています。 主にMicrosoft® Windows OS で使用される ICO フォーマットは、最大 256 x 256 ピクセルと 8 ビットの透明度を持つ 1600 万色（24 ビット）の画像を含めることができます。 |
+| PNG | （Portable Network Graphics） GIFフォーマットに代わるこの新しいフォーマットは、最大 1600 万色（24 ビット）をサポートします。 可逆圧縮形式では、テキストは鮮明になるが、一部の形式よりもファイルサイズが大きい、高品質のビットマップ画像が生成されます。 PNG 形式は、透明レイヤーをサポートし、オンライン表示とストリーミング用に設計されています。 |
+| APNG | （Animated Portable Network Graphics）単純なアニメーションをサポートする PNG に似たファイル形式。 |
+| GIF | （Graphics Interchange Format）広くサポートされている古いビットマップ形式で、256 色（8 ビット）に制限されています。 GIFフォーマットは、単純なアニメーションと透明レイヤーをサポートしています。 |
+| JPG（JPEG） | （Joint Photographic Expert Group）ほとんどのデジタルカメラで使用される圧縮ビットマップ形式。 非可逆圧縮によってデータがやや失われますが、テキストのぼやけた点として目立つ場合があります。 |
 
 {style="table-layout:auto"}
 
-### 手順 1：お気に入りアイコンを作成する
+### 手順 1:favicon の作成
 
-1. 任意の画像エディターを使用して、ロゴの 16 x 16 または 32 x 32 グラフィック画像を作成します。
+1. 任意の画像エディターを使用して、ロゴの 16 x 16 または 32 x 32 のグラフィック画像を作成します。
 
-1. （オプション）利用可能なオンラインツールの 1 つを使用して、ファイルを.ico 形式に変換し、そのファイルをコンピュータに保存します。
+1. （オプション）使用可能なオンラインツールのいずれかを使用して、ファイルを.ico 形式に変換し、コンピューターに保存します。
 
-### 手順 2: favicon をストアにアップロードする
+### 手順 2:favicon をストアにアップロードする
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. グリッドで、設定するストア表示を探し、 **[!UICONTROL Edit]** （内） _[!UICONTROL Action]_列。
+1. グリッドで、設定するストア表示を見つけて、クリックします **[!UICONTROL Edit]** が含まれる _[!UICONTROL Action]_列。
 
-1. の下 _[!UICONTROL Other Settings]_、展開 ![拡張セレクター](../assets/icon-display-expand.png) の&#x200B;**[!UICONTROL HTML Head]**」セクションに入力します。
+1. 次の下 _[!UICONTROL Other Settings]_、を展開 ![展開セレクター](../assets/icon-display-expand.png) この&#x200B;**[!UICONTROL HTML Head]**セクション。
 
-   ![HTMLヘッド設定](./assets/configuration-html-head.png){width="600"}
+   ![HTMLヘッドの設定](./assets/configuration-html-head.png){width="600"}
 
-1. 現在のお気に入りを削除する場合は、 _削除_ (![ごみ箱アイコン](../assets/icon-delete-trashcan.png)) アイコンをクリックします。
+1. 現在の favicon を削除するには、 _削除_ （![ごみ箱アイコン](../assets/icon-delete-trashcan.png)）アイコンをクリックします。
 
-1. クリック **[!UICONTROL Upload]** をクリックし、用意した favicon ファイルを開きます。
+1. クリック **[!UICONTROL Upload]** 準備した favicon ファイルを開きます。
 
-   ![favicon をアップロードしました](./assets/favicon-upload.png){width="400"}
+   ![Uploaded favicon](./assets/favicon-upload.png){width="400"}
 
-1. 完了したら、「 **[!UICONTROL Save Configuration]**.
+1. 完了したら、 **[!UICONTROL Save Configuration]**.
 
-### 手順 3：キャッシュの更新
+### 手順 3：キャッシュを更新
 
-1. キャッシュを更新するよう求められたら、 **[!UICONTROL Cache Management]** リンクを使用して、メッセージの上部に表示されます。
+1. キャッシュを更新するように求められたら、 **[!UICONTROL Cache Management]** ワークスペースの上部にあるメッセージのリンク。
 
-1. リストで、 **[!UICONTROL Page Cache]** マーク付きのチェックボックス `Invalidated`.
+1. リストで、 **[!UICONTROL Page Cache]** マークされているチェックボックス `Invalidated`.
 
-1. 設定 **[!UICONTROL Actions]** から `Refresh` をクリックします。 **[!UICONTROL Submit]**.
+1. を設定 **[!UICONTROL Actions]** 対象： `Refresh` をクリックして、 **[!UICONTROL Submit]**.
 
-1. 新しい favicon を表示するには、ストアフロントに戻って、ブラウザーを更新します。
+1. 新しいお気に入りを表示するには、ストアフロントに戻ってブラウザーを更新します。
 
-## お知らせメッセージを変更する
+## ようこそメッセージの変更
 
-ヘッダー内のようこそメッセージが展開され、ログインした顧客の名前が表示されます。 ストアを起動する前に、必ずデフォルトの _ようこそ_ 各ストア表示のテキスト。
+ヘッダーのウェルカムメッセージが展開され、ログインした顧客の名前が表示されます。 ストアを起動する前に、必ずデフォルトを変更してください _ようこそ_ 各ストア表示のテキスト。
 
 ![ようこそメッセージ](./assets/storefront-welcome-message.png){width="600"}
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. グリッドで、設定するストア表示を探し、 **[!UICONTROL Edit]** （内） _[!UICONTROL Action]_列。
+1. グリッドで、設定するストア表示を見つけて、クリックします **[!UICONTROL Edit]** が含まれる _[!UICONTROL Action]_列。
 
-1. の下 _[!UICONTROL Other Settings]_、展開 ![拡張セレクター](../assets/icon-display-expand.png) の&#x200B;**[!UICONTROL Header]**」セクションに入力します。
+1. 次の下 _[!UICONTROL Other Settings]_、を展開 ![展開セレクター](../assets/icon-display-expand.png) この&#x200B;**[!UICONTROL Header]**セクション。
 
-1. の場合 **[!UICONTROL Welcome Text]**&#x200B;ストアのヘッダーに表示するようこそメッセージのテキストを入力します。
+1. の場合 **[!UICONTROL Welcome Text]**&#x200B;で、ストアのヘッダーに表示するようこそメッセージのテキストを入力します。
 
    ![ヘッダー設定](./assets/configuration-header.png){width="600"}
 
-1. 完了したら、「 **[!UICONTROL Save Configuration]**.
+1. 完了したら、 **[!UICONTROL Save Configuration]**.
 
-1. ページキャッシュを更新するように求められたら、 **[!UICONTROL Cache Management]** リンクをクリックし、指示に従ってキャッシュを更新します。
+1. ページキャッシュを更新するよう求められたら、 **[!UICONTROL Cache Management]** ワークスペースの上部にあるリンクをクリックし、指示に従ってキャッシュを更新します。
 
-## 著作権情報の変更
+## 著作権表示の変更
 
-ストアでは、各ページのフッターに著作権情報が表示されます。 ベストプラクティスとして、著作権情報には現在の年を含め、貴社をサイト上のコンテンツの法的所有者として特定する必要があります。
+ストアの各ページのフッターには著作権表示が表示されます。 ベストプラクティスとして、著作権表示には現在の年を含め、自社をサイト上のコンテンツの法的所有者として識別する必要があります。
 
 ![著作権表示の例](./assets/storefront-footer-copyright.png){width="600"}
 
-The `&copy;` 次の例に示すように、文字コードは著作権記号の挿入に使用されます。
+この `&copy;` 文字コードは、次の例に示すように、著作権記号を挿入するために使用されます。
 
 - 長い形式の例
 
@@ -152,38 +152,38 @@ The `&copy;` 次の例に示すように、文字コードは著作権記号の�
 
   `&copy; 2021 Luma, Inc. All rights reserved.`
 
-**_著作権情報を更新するには：_**
+**_著作権表示を更新するには：_**
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. グリッドで、設定するストア表示を探し、 **[!UICONTROL Edit]** （内） _[!UICONTROL Action]_列。
+1. グリッドで、設定するストア表示を見つけて、クリックします **[!UICONTROL Edit]** が含まれる _[!UICONTROL Action]_列。
 
-1. の下 _その他の設定_、展開 ![拡張セレクター](../assets/icon-display-expand.png)の **[!UICONTROL Footer]** 」セクションに入力します。
+1. 次の下 _その他の設定_、を展開 ![展開セレクター](../assets/icon-display-expand.png)この **[!UICONTROL Footer]** セクション。
 
-   ![フッターデザインの設定](./assets/configuration-footer.png){width="600"}
+   ![フッターデザイン設定](./assets/configuration-footer.png){width="600"}
 
-1. の場合 **[!UICONTROL Copyright]**」をクリックし、各ページのフッターに表示する著作権情報を入力します。
+1. の場合 **[!UICONTROL Copyright]**&#x200B;を選択し、各ページのフッターに表示する著作権表示を入力します。
 
-   以下を使用します。 `&copy;` 著作権記号を挿入する文字コード。
+   の使用 `&copy;` 著作権記号を挿入するための文字コード。
 
-1. 完了したら、「 **[!UICONTROL Save Configuration]**.
+1. 完了したら、 **[!UICONTROL Save Configuration]**.
 
-## ストアのデモ通知を設定
+## デモ用ストア通知の設定
 
-ストアがオンラインで、まだ構築中の場合は、ページの上部にストアのデモ通知を表示して、ストアがまだ開いていないことを知らせることができます。 次の準備が整ったら、 _生きて行く_、単にメッセージを削除します。 これは、窓にぶら下がっている記号を _閉じる_ から _開く_. デモ通知の形式は、ストアのテーマによって決まります。
+店舗がオンラインでも建設中の場合は、ページの上部に店舗デモ通知を表示して、店舗がまだ営業していないことを知らせることができます。 準備ができたら _運用開始_&#x200B;メッセージを削除するだけです。 窓にぶら下がっている看板を反転させることに似ています _クローズ_ 対象： _開く_. デモ通知の形式は、ストアのテーマによって決まります。
 
 ![ストアフロントデモのお知らせ](./assets/storefront-demo-notice.png){width="600"}
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. グリッドで、設定するストア表示を探し、 **[!UICONTROL Edit]** （内） _[!UICONTROL Action]_列。
+1. グリッドで、設定するストア表示を見つけて、クリックします **[!UICONTROL Edit]** が含まれる _[!UICONTROL Action]_列。
 
-1. の下 _[!UICONTROL Other Settings]_、展開 ![拡張セレクター](../assets/icon-display-expand.png) の&#x200B;**[!UICONTROL HTML Head]**」セクションに入力します。
+1. 次の下 _[!UICONTROL Other Settings]_、を展開 ![展開セレクター](../assets/icon-display-expand.png) この&#x200B;**[!UICONTROL HTML Head]**セクション。
 
-   ![HTML頭](./assets/configuration-html-head.png){width="600"}
+   ![HTMLヘッド](./assets/configuration-html-head.png){width="600"}
 
-1. 下にスクロールして下に移動し、 **[!UICONTROL Display Demo Store Notice]** を選択します。
+1. 一番下までスクロールし、 **[!UICONTROL Display Demo Store Notice]** ご希望に合わせてください。
 
-1. 完了したら、「 **[!UICONTROL Save Configuration]**.
+1. 完了したら、 **[!UICONTROL Save Configuration]**.
 
-1. キャッシュを更新するよう求められた場合は、 **[!UICONTROL Cache Management]** を選択し、指示に従ってキャッシュを更新します。
+1. キャッシュの更新を求めるメッセージが表示されたら、 **[!UICONTROL Cache Management]** システムメッセージで、手順に従ってキャッシュを更新します。

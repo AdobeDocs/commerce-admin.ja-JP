@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL Store Email Addresses]'
-description: 次のページで設定を確認します： [!UICONTROL General] &gt; [!UICONTROL Store Email Addresses] コマース管理のページ。
+description: の設定を確認します。 [!UICONTROL General] &gt; [!UICONTROL Store Email Addresses] コマース管理者のページ。
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '206'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 {{config}}
 
-詳しくは、 [電子メールアドレスを保存](../../getting-started/store-details.md#store-email-addresses) を参照してください。
+参照： [メールアドレスの保存](../../getting-started/store-details.md#store-email-addresses) これらの設定フィールドとオプションについて詳しくは、を参照してください。
 
 ## [!UICONTROL General Contact]
 
@@ -22,51 +22,51 @@ ht-degree: 2%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | ストア表示 | が送信した E メールの送信者として表示する名前 `General Contact` ID。 |
-| [!UICONTROL Sender Email] | ストア表示 | 次に関連付けられた電子メールアドレス： `General Contact` ID。 |
+| [!UICONTROL Sender Name] | ストア表示 | によって送信されるメールの送信者として表示される名前 `General Contact` id。 |
+| [!UICONTROL Sender Email] | ストア表示 | に関連付けられている E メール アドレス `General Contact` id。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Sales Representative]
 
-![ストアのメールアドレス/営業担当者](./assets/store-email-addresses-sales-rep.png)<!-- zoom -->
+![Store Email Addresses > Sales Representative](./assets/store-email-addresses-sales-rep.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | ストア表示 | が送信した E メールの送信者として表示する名前 `Sales Representative` ID。 |
-| [!UICONTROL Sender Email] | ストア表示 | 次に関連付けられた電子メールアドレス： `Sales Representative` ID。 |
+| [!UICONTROL Sender Name] | ストア表示 | によって送信されるメールの送信者として表示される名前 `Sales Representative` id。 |
+| [!UICONTROL Sender Email] | ストア表示 | に関連付けられている E メール アドレス `Sales Representative` id。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Customer Support]
 
-![ストアの電子メールアドレス/カスタマーサポート](./assets/store-email-addresses-customer-support.png)<!-- zoom -->
+![メールアドレスを保存/カスタマーサポート](./assets/store-email-addresses-customer-support.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | ストア表示 | が送信した E メールの送信者として表示する名前 `Customer Support` ID。 |
-| [!UICONTROL Sender Email] | ストア表示 | 次に関連付けられた電子メールアドレス： `Customer Support` ID。 |
+| [!UICONTROL Sender Name] | ストア表示 | によって送信されるメールの送信者として表示される名前 `Customer Support` id。 |
+| [!UICONTROL Sender Email] | ストア表示 | に関連付けられている E メール アドレス `Customer Support` id。 |
 
 {style="table-layout:auto"}
 
-## カスタムメール 1
+## カスタム E メール 1
 
-![ストアのメールアドレス/カスタムメール 1](./assets/store-email-addresses-custom-email1.png)<!-- zoom -->
+![メールアドレスを保存/カスタムメール 1](./assets/store-email-addresses-custom-email1.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | ストア表示 | が送信した E メールの送信者として表示する名前 `Custom 1` ID。 |
-| [!UICONTROL Sender Email] | ストア表示 | 次に関連付けられた電子メールアドレス： `Custom 1` ID。 |
+| [!UICONTROL Sender Name] | ストア表示 | によって送信されるメールの送信者として表示される名前 `Custom 1` id。 |
+| [!UICONTROL Sender Email] | ストア表示 | に関連付けられている E メール アドレス `Custom 1` id。 |
 
 {style="table-layout:auto"}
 
-## カスタムメール 2
+## カスタム E メール 2
 
-![ストアの電子メールアドレス/カスタム電子メール 2](./assets/store-email-addresses-custom-email1.png)<!-- zoom -->
+![メールアドレスを保存/カスタムメール 2](./assets/store-email-addresses-custom-email1.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | ストア表示 | が送信した E メールの送信者として表示する名前 `Custom 2` ID。 |
-| [!UICONTROL Sender Email] | ストア表示 | 次に関連付けられた電子メールアドレス： `Custom 2` ID。 |
+| [!UICONTROL Sender Name] | ストア表示 | によって送信されるメールの送信者として表示される名前 `Custom 2` id。 |
+| [!UICONTROL Sender Email] | ストア表示 | に関連付けられている E メール アドレス `Custom 2` id。 |
 
 {style="table-layout:auto"}

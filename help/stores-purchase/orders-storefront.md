@@ -1,6 +1,6 @@
 ---
 title: ストアフロントの注文管理
-description: 顧客が Commerce ストアフロントで注文履歴を表示および管理する方法について説明します。
+description: お客様がCommerce ストアフロントで注文履歴を表示および管理する方法について説明します。
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
 source-git-commit: c13a4b730ed70ed4829cc20b13c2723137dcbb3a

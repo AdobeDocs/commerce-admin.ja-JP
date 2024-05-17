@@ -1,13 +1,13 @@
 ---
 user-guide-title: カタログ管理ガイド
-user-guide-description: Adobe Commerce、Magento Open Source管理者、e コマースマーケター向けのカタログ管理機能に関する包括的な情報。
+user-guide-description: Adobe Commerce、Magento Open Source管理者および e コマースマーケター向けのカタログ管理機能に関する包括的な情報です。
 breadcrumb-title: カタログ管理
 role: Admin, Leader, User
 feature: Catalog Management
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,64 +18,64 @@ ht-degree: 0%
 + [カタログ管理の概要](introduction.md)
 + [カタログメニュー](catalog-menu.md)
 + カタログの基本 {#catalog}
-   + [カタログと製品の URL](catalog-urls.md)
-   + [フラットカタログ](catalog-flat.md)
+   + [カタログおよび製品 URL](catalog-urls.md)
+   + [フラット カタログ](catalog-flat.md)
    + カタログナビゲーション {#navigation}
       + [ナビゲーションの概要](navigation.md)
       + [上部ナビゲーション](navigation-top.md)
       + [パンくずリスト](navigation-breadcrumb-trail.md)
       + [製品リスト](navigation-product-listings.md)
-      + [レイヤーナビゲーション](navigation-layered.md)
+      + [階層型ナビゲーション](navigation-layered.md)
    + カタログ検索 {#search}
       + [検索の概要](search.md)
       + [カタログ検索の設定](search-configuration.md)
       + [検索結果](search-results.md)
-      + [検索語句を管理](search-terms.md)
+      + [検索語句の管理](search-terms.md)
 + カテゴリ {#categories}
    + [カテゴリの概要](categories.md)
-   + [ルートカテゴリと階層](category-root.md)
+   + [ルートのカテゴリと階層](category-root.md)
    + [非表示のカテゴリ](category-hidden.md)
    + カテゴリの作成と更新 {#create}
       + [カテゴリの作成](category-create.md)
       + [コンテンツ設定](categories-content-settings.md)
-      + [表示設定](categories-display-settings.md)
-      + [検索エンジンの最適化設定](categories-search-engine-optimization.md)
+      + [ディスプレイ設定](categories-display-settings.md)
+      + [検索エンジン最適化設定](categories-search-engine-optimization.md)
       + [デザイン設定](categories-custom-design.md)
       + [カテゴリの変更](category-modify.md)
    + カテゴリ内の製品 {#products-in-category}
       + [製品の割り当て](categories-product-assignments.md)
       + [カテゴリ製品の並べ替え](category-products-sort.md)
       + [カテゴリ製品の追加と削除](category-products-add.md)
-   + [予定されている変更](category-scheduled-changes.md)
+   + [スケジュールされた変更](category-scheduled-changes.md)
    + [カテゴリ権限](category-permissions.md)
 + 製品 {#products}
-   + [製品リスト](products-list.md)
+   + [商品リスト](products-list.md)
    + [製品ワークスペース](product-workspace.md)
    + [製品の作成](product-create.md)
    + 製品タイプ {#types}
-      + [シンプルな製品](product-create-simple.md)
+      + [シンプル製品](product-create-simple.md)
       + [設定可能な製品](product-create-configurable.md)
       + [グループ化された製品](product-create-grouped.md)
       + [仮想製品](product-create-virtual.md)
       + [バンドル製品](product-create-bundle.md)
       + [ダウンロード可能な製品](product-create-downloadable.md)
       + [ギフトカード](product-gift-card-create.md)
-   + 製品のデジタルアセット {#digital-assets}
+   + 製品デジタルアセット {#digital-assets}
       + [カタログ画像とビデオ](catalog-images-video.md)
-      + [画像アセットの設定](product-image-config.md)
+      + [画像アセット設定](product-image-config.md)
       + [製品画像の管理](product-image.md)
-      + [製品ビデオの追加](product-video.md)
+      + [製品ビデオを追加](product-video.md)
       + 製品 3D モデルの管理 {#product-3d-model}
          + [AR ビューアの概要](ar-viewer-overview.md)
          + [AR ビューアの設定](ar-viewer-setup.md)
    + 価格の管理 {#pricing}
-      + [価格の範囲](catalog-price-scope.md)
-      + [高度な価格](pricing-advanced.md)
-      + [グループ価格](product-price-group.md)
+      + [価格範囲](catalog-price-scope.md)
+      + [高度な価格設定](pricing-advanced.md)
+      + [グループの価格](product-price-group.md)
       + [特別価格](product-price-special.md)
-      + [価格帯](product-price-tier.md)
-      + [最小広告価格](product-price-minimum-advertised.md)
-   + [製品のアップデートのスケジュール設定](product-scheduled-changes.md)
+      + [階層の価格](product-price-tier.md)
+      + [広告の最低価格](product-price-minimum-advertised.md)
+   + [製品アップデートのスケジュール設定](product-scheduled-changes.md)
    + 製品設定リファレンス {#settings}
       + [ソース](sources.md)
       + [コンテンツ](product-content.md)
@@ -96,6 +96,6 @@ ht-degree: 0%
    + [製品への属性の追加](product-attributes-add.md)
    + [製品スウォッチ](swatches.md)
    + 属性の作成と更新 {#create}
-      + [属性の作成と削除](attribute-product-create.md)
+      + [属性の作成および削除](attribute-product-create.md)
       + [一括更新](bulk-product-attribute-update.md)
       + [属性セット](attribute-sets.md)

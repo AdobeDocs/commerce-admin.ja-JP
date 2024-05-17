@@ -1,54 +1,54 @@
 ---
-title: セキュリティ上の問題のレポート
-description: セキュリティ研究者がサイトに関するセキュリティ上の問題を報告する際に使用できる、連絡先情報およびセキュリティ関連のリンクの設定方法を説明します。
+title: セキュリティ問題のレポート
+description: サイトに関するセキュリティ上の問題を報告するためにセキュリティ研究者が使用できる連絡先情報およびセキュリティ関連リンクを設定する方法について説明します。
 exl-id: 47b95505-51a3-4b7a-a4e3-dbc4b0045797
 role: Admin
 feature: Configuration, Security
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
 
-# セキュリティ上の問題のレポート
+# セキュリティ問題のレポート
 
-The `security.txt` ファイルには、連絡先情報とセキュリティ関連のリンクが含まれており、セキュリティ研究者がサイトに関するセキュリティ上の問題を報告する際に使用できます。 セキュリティ情報が時間の経過と共に変化する場合は、 `security.txt` ファイルは最新です。
+この `security.txt` ファイルには、セキュリティ研究者がサイトのセキュリティ上の問題を報告するために使用できる連絡先情報とセキュリティ関連リンクが含まれています。 セキュリティ情報が時間と共に変化する場合は、 `security.txt` ファイルは最新です。
 
 **_security.txt を構成するには、次の手順に従います。_**
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. の下の左側のパネル _[!UICONTROL Security]_をクリックし、**[!UICONTROL Security.txt]**.
+1. の下の左パネルで _[!UICONTROL Security]_を選択し、**[!UICONTROL Security.txt]**.
 
-1. Adobe Analytics の _[!UICONTROL General]_セクション、設定&#x200B;**[!UICONTROL Enable]**から `Yes`.
+1. が含まれる _[!UICONTROL General]_セクション、設定&#x200B;**[!UICONTROL Enable]**対象： `Yes`.
 
    ![一般的なセキュリティ設定](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 
-1. の下 _[!UICONTROL Contact Information]_、次の情報を入力します。
+1. 次の下 _[!UICONTROL Contact Information]_を入力します。
 
-   - ストアのセキュリティ問題を管理する人の電子メールアドレスと電話番号。
+   - ストアのセキュリティ問題を管理する人物のメールアドレスと電話番号。
 
-   - ストアの URL **[!UICONTROL Contact Page]**. このページは、ストアのセキュリティ連絡先のリストか、 _お問い合わせ_ ページに貼り付けます。
+   - ストアの URL **[!UICONTROL Contact Page]**. このページは、ストアのセキュリティ連絡先のリストまたは _お問い合わせ_ ページ。
 
    ![連絡先情報の設定](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
 
-1. の下 _[!UICONTROL Other Information]_、次の情報を入力します。
+1. 次の下 _[!UICONTROL Other Information]_を入力します。
 
    - パブリックの URL **[!UICONTROL Encryption]** キー。 例： `https://example.com/pgp-key.txt`
 
-   - の URL **[!UICONTROL Acknowledgments]** セキュリティ研究者がお客様の店舗の代わりに取り組んでいることが認識されるページ。
+   - の URL **[!UICONTROL Acknowledgments]** セキュリティの研究者がストアに代わって彼らの取り組みを認められているページ。
 
-   - お使いの **[!UICONTROL Preferred Languages]** セキュリティ関連の通信用。 標準の 2 文字を入力 [言語コード](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) サポートされる言語ごとに、コンマで区切って入力します。 例えば、英語、スペイン語、フランス語を指定するには、次のように入力します。 `en, es, fr`. 指定した言語は、表示順序に関係なく、すべて同じ優先順位を持ちます。
+   - あなたの **[!UICONTROL Preferred Languages]** セキュリティ関連の通信。 標準の 2 文字を入力してください [言語コード](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) サポートされている言語ごとに、コンマで区切ります。 例えば、英語、スペイン語、フランス語を指定するには、 `en, es, fr`. 指定した言語は、表示順序に関係なく、すべて同じ優先度になります。
 
-   - の URL **[!UICONTROL Hiring]** お客様の店舗でのセキュリティ関連の雇用機会をリストするページ。
+   - の URL **[!UICONTROL Hiring]** 店舗でのセキュリティ関連の雇用機会を一覧表示するページです。
 
-   - セキュリティの URL **[!UICONTROL Policy]** ページに貼り付けます。
+   - セキュリティ URL **[!UICONTROL Policy]** ページ。
 
-   - デジタルの URL **[!UICONTROL Signature]** サーバーに保存されたファイル。 例： `https://mystore.com/.well-known/security.txt.sig`
+   - デジタルの URL **[!UICONTROL Signature]** サーバーに保存されているファイル。 例： `https://mystore.com/.well-known/security.txt.sig`
 
-   デジタル署名は、サーバーの CLI（コマンドラインインターフェイス）から設定する必要があります。 詳しくは、 [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) GitHub で
+   デジタル署名は、サーバの CLI （コマンドライン インターフェイス）から設定する必要があります。 詳しくは、 [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) GitHub で。
 
    ![その他の情報](../configuration-reference/security/assets/txt-other-info.png){width="600" zoomable="yes"}
 
-1. 完了したら、「 **[!UICONTROL Save Config]**.
+1. 完了したら、 **[!UICONTROL Save Config]**.

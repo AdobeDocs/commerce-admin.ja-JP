@@ -111,7 +111,7 @@ ht-degree: 1%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Installed Currencies] | グローバル | Commerce のインストールで現在使用可能な通貨を示します。 オプションには、インストールされている通貨が選択された、使用可能なすべての通貨が含まれます。 |
+| [!UICONTROL Installed Currencies] | グローバル | Commerceのインストールで現在使用可能な通貨を示します。 オプションには、インストールされている通貨が選択された、使用可能なすべての通貨が含まれます。 |
 
 {style="table-layout:auto"}
 
@@ -152,9 +152,9 @@ ht-degree: 1%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable Backup] | グローバル | コマースインスタンスがバックアップを許可するかどうかを決定します。 オプション： `Yes` / `No` |
+| [!UICONTROL Enable Backup] | グローバル | Commerce インスタンスでバックアップを許可するかどうかを指定します。 オプション： `Yes` / `No` |
 | [!UICONTROL Enable Scheduled Backup] | グローバル | （表示時期 _[!UICONTROL Enable Backup]_はに設定されています。 `Yes`.） Commerce インスタンスが通常のスケジュールで自動的にバックアップされるかどうかを指定します。 オプション： `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | グローバル | （表示時期 _[!UICONTROL Enable Scheduled Backup]_はに設定されています。 `Yes`.） バックアップに含めるコマースインスタンスの要素を決定します。 オプション： `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Scheduled Backup Type] | グローバル | （表示時期 _[!UICONTROL Enable Scheduled Backup]_はに設定されています。 `Yes`.） バックアップに含まれるCommerce インスタンスの要素を指定します。 オプション： `Database` / `Database and Media` / `System` / `System (excluding Media)` |
 | [!UICONTROL Start Time] | グローバル | （表示時期 [!UICONTROL Enable Scheduled Backup] はに設定されています。 `Yes`.） スケジュールされたバックアップを開始する時間、分、および秒を指定します。 |
 | [!UICONTROL Frequency] | グローバル | （表示時期 [!UICONTROL Enable Scheduled Backup] はに設定されています。 `Yes`.） スケジュールされたバックアップの実行頻度を決定します。 オプション： `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Maintenance Mode] | グローバル | （表示時期 [!UICONTROL Enable Scheduled Backup] はに設定されています。 `Yes`.） スケジュールされたバックアップ中にストアがメンテナンスモードにされるかどうかを決定します。 オプション： `Yes` / `No` |
@@ -273,7 +273,7 @@ ht-degree: 1%
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Quality] | グローバル | サイズ変更された画像のJPG画質を指定します。 画質が低いとファイルサイズは小さくなります。 80～90% を使用して、高品質でファイルサイズを縮小します。 デフォルト： `80` |
-| [!UICONTROL Enable Frontend Resize] | グローバル | この設定を有効にすると、 _製品詳細_ ページ。 Commerce は、ファイルをアップロードする前に、JavaScript を使用して画像ファイルのサイズを変更します。 画像のサイズを変更すると、正確な比率が維持され、「最大幅」または「最大高さ」の最大サイズを超えることはありません。 デフォルト： `Yes` |
+| [!UICONTROL Enable Frontend Resize] | グローバル | この設定を有効にすると、Commerceがアップロードする _製品詳細_ ページ。 Commerceは、ファイルをアップロードする前に、JavaScript を使用して画像ファイルのサイズを変更します。 画像のサイズを変更すると、正確な比率が維持され、「最大幅」または「最大高さ」の最大サイズを超えることはありません。 デフォルト： `Yes` |
 | [!UICONTROL Maximum Width] | グローバル | 画像の最大ピクセル幅を決定します。 画像のサイズを変更しても、この幅を超えることはありません。 デフォルト： `1920` |
 | [!UICONTROL Maximum Height] | グローバル | 画像の最大ピクセル高さを決定します。 画像のサイズを変更しても、この高さを超えることはありません。 デフォルト： `1200` |
 

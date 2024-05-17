@@ -1,136 +1,136 @@
 ---
-title: フラットカタログ
-description: 各行に商品やカテゴリに関する必要なデータがすべて含まれるフラットカタログの作成について説明します。
+title: フラット カタログ
+description: 製品またはカテゴリに関して必要なすべてのデータが各行に含まれるフラットなカタログの作成について説明します。
 exl-id: f67bd2e0-3902-41eb-b26f-c772a7692cef
 source-git-commit: f36925217230e558043078fdc274f5e69c096c1e
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# フラットカタログ
+# フラット カタログ
 
 >[!IMPORTANT]
 >
->フラットカタログの使用は、ベストプラクティスとして推奨されなくなりました。 この機能を継続して使用すると、パフォーマンスが低下し、その他のインデックス作成の問題が発生することがわかっています。 詳細な説明と解決策については、 [ヘルプセンター](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html).<br/><br/>影響を受けるバージョンは次のとおりです。 <br/>- Adobe Commerce on cloud infrastructure 2.3.x 以降<br/>- Adobe Commerce（オンプレミス）、2.3.x 以降<br/>-Magento Open Source、2.3.x 以降 <br/><br/>どのリリースバージョンでも、一部の拡張機能はフラットテーブルでのみ機能するので、フラットテーブルを無効にするとリスクが生じます。 フラットカタログインデクサーを使用する拡張機能があることがわかっている場合は、これらの値をに設定する際に、このリスクに注意する必要があります。 `No`.
+>フラット カタログを使用することは、現在ではベスト プラクティスとして推奨されていません。 この機能を継続的に使用すると、パフォーマンスの低下やその他のインデックス作成の問題が発生することが知られています。 詳細な説明と解決策については、こちらを参照してください [ヘルプセンター](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html).<br/><br/>影響を受けるバージョンは次のとおりです。 <br/>- クラウドインフラストラクチャー上のAdobe Commerce、2.3.x 以降<br/>- Adobe Commerce（オンプレミス）、2.3.x 以降<br/>- Magento Open Source, 2.3.x 以上 <br/><br/>どのリリースバージョンでも、一部の拡張機能はフラットテーブルでのみ機能するので、フラットテーブルを無効にした場合にリスクが発生します。 フラットカタログインデクサーを使用する拡張機能があることがわかっている場合は、それらの値をに設定する際に、このリスクに注意する必要があります `No`.
 
-Commerce では通常、エンティティ属性値 (EAV) モデルに基づいて、複数のテーブルにカタログデータを格納します。 製品属性は多くのテーブルに格納されるので、SQL クエリは長く複雑な場合があります。
+Commerceは通常、Entity-Attribute-Value （EAV）モデルに基づいて、カタログデータを複数のテーブルに格納します。 製品属性は多くのテーブルに格納されるので、SQL クエリは長くて複雑な場合があります。
 
-これに対し、フラットカタログではその場でテーブルを作成し、各行には製品またはカテゴリに関する必要なデータがすべて含まれます。 フラットカタログは、毎分、または cron ジョブに従って、自動的に更新されます。 フラットカタログのインデックス作成は、カタログと買い物かごの価格ルールの処理を高速化することもできます。 500,000 個もの SKU を持つカタログは、フラットカタログとしてすばやくインデックスを作成できます。
+これに対し、フラットなカタログはその場でテーブルを作成し、各行には、製品またはカテゴリに関する必要なデータがすべて含まれています。 フラットなカタログは、毎分、または cron ジョブに従って自動的に更新されます。 フラットなカタログインデックス作成により、カタログと買い物かごの価格ルールの処理も迅速化できます。 50 万個もの SKU を持つカタログは、フラットカタログとしてすばやくインデックスを作成できます。
 
 >[!NOTE]
 >
->フラットカタログをライブストアに対して有効にする前に、開発環境で設定をテストしておく必要があります。
+>ライブストアに対してフラットカタログを有効にする前に、必ず開発環境で設定をテストしてください。
 
 ## 手順 1：フラットカタログを有効にする
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. 左側のパネルで、を展開します。 **[!UICONTROL Catalog]** を選択します。 **[!UICONTROL Catalog]** の下に
+1. 左側のパネルで、を展開します **[!UICONTROL Catalog]** を選択します **[!UICONTROL Catalog]** その下に。
 
-1. を展開します。 _ストアフロント_ 」セクションで次の操作を実行します。
+1. を展開します。 _ストアフロント_ を選択し、次の操作を実行します。
 
-   - 設定 **[!UICONTROL Use Flat Catalog Category]** から `Yes`. ( 必要に応じて、 **[!UICONTROL Use system value]** チェックボックス )
+   - を設定 **[!UICONTROL Use Flat Catalog Category]** 対象： `Yes`. （必要に応じて、 **[!UICONTROL Use system value]** チェックボックスをオンにします）。
 
-   - 設定 **[!UICONTROL Use Flat Catalog Product]** から `Yes`.
+   - を設定 **[!UICONTROL Use Flat Catalog Product]** 対象： `Yes`.
 
-   ![フラットカタログ構成](./assets/use-flat-catalog.png){width="700" zoomable="yes"}
+   ![フラットなカタログ設定](./assets/use-flat-catalog.png){width="700" zoomable="yes"}
 
-1. 完了したら、「 **[!UICONTROL Save Config]**.
+1. 完了したら、 **[!UICONTROL Save Config]**.
 
-1. キャッシュを更新するように求められたら、 **[!UICONTROL Cache Management]** を選択し、指示に従ってキャッシュを更新します。
+1. キャッシュの更新を求めるメッセージが表示されたら、 **[!UICONTROL Cache Management]** システムメッセージで、手順に従ってキャッシュを更新します。
 
 ## 手順 2：結果の確認
 
-結果の検証に使用できる方法は 2 つあります。
+結果を検証する方法は 2 つあります。
 
-### 方法 1：単一の製品の結果を検証する
+### 方法 1：単一の製品の結果の確認
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. 製品を編集モードで開きます。
 
-1. の場合 **[!UICONTROL Name]**、テキストを追加 `_TEST` を製品名の末尾に追加します。
+1. の場合 **[!UICONTROL Name]**、テキストを追加します `_TEST` 製品名の末尾に追加されます。
 
 1. クリック **[!UICONTROL Save]**.
 
-1. 新しいブラウザータブで、ストアのホームページに移動し、次の操作を実行します。
+1. 新しいブラウザータブで、ストアのホームページに移動し、次の操作を行います。
 
    - 編集した製品を検索します。
 
-   - 割り当てられたカテゴリの製品を参照するには、ナビゲーションを使用します。
+   - ナビゲーションを使用して、割り当てられたカテゴリの下の製品を参照します。
 
-     必要に応じて、ページを更新して結果を確認します。 変更は 1 分以内に、または [Cron](../systems/cron.md) スケジュール。
+     必要に応じて、ページを更新して結果を確認します。 変更は 1 分以内に、または状況に応じて表示されます [Cron](../systems/cron.md) スケジュール。
 
    ![フラットカタログ付きストアフロント](./assets/storefront-flat-catalog-enabled.png){width="700" zoomable="yes"}
 
 ### 方法 2：カテゴリの結果の確認
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. 左上隅で、 **[!UICONTROL Store View]** が `All Store Views`.
+1. 左上隅で、次のことを確認します **[!UICONTROL Store View]** はに設定されています。 `All Store Views`.
 
-   プロンプトが表示されたら、をクリックします。 **[!UICONTROL OK]** をクリックして確定します。
+   プロンプトが表示されたら、 **[!UICONTROL OK]** を確認します。
 
-1. カテゴリツリーで、既存のカテゴリを選択し、 **[!UICONTROL Add Subcategory]**&#x200B;をクリックし、次の操作を実行します。
+1. カテゴリ ツリーで、既存のカテゴリを選択し、 **[!UICONTROL Add Subcategory]**&#x200B;をクリックし、次の手順を実行します。
 
-   - の場合 **[!UICONTROL Category Name]**，と入力します。 `Test Category`.
+   - の場合 **[!UICONTROL Category Name]**、と入力します `Test Category`.
 
-   - 完了したら、「 **[!UICONTROL Save]**.
+   - 完了したら、 **[!UICONTROL Save]**.
 
-     ![サブカテゴリをテスト](./assets/catalog-flat-test-category.png){width="600" zoomable="yes"}
+     ![サブカテゴリのテスト](./assets/catalog-flat-test-category.png){width="600" zoomable="yes"}
 
-   - 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Products in Category]** 「 」セクションで、「 」をクリックします。 **[!UICONTROL Reset Filter]** すべての製品を表示します。
+   - を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Products in Category]** セクションでクリック **[!UICONTROL Reset Filter]** すべての商品を表示します。
 
-   - 新しいカテゴリに追加する複数の製品のチェックボックスを選択します。
+   - 新しいカテゴリに追加する複数の製品のチェックボックスをオンにします。
 
    - click **[!UICONTROL Save]**.
 
-   ![カテゴリ製品をテスト](./assets/catalog-flat-test-category-products.png){width="600" zoomable="yes"}
+   ![テスト カテゴリ製品](./assets/catalog-flat-test-category-products.png){width="600" zoomable="yes"}
 
-1. 新しいブラウザータブで、ストアのホームページに移動し、ストアナビゲーションを使用して作成したカテゴリを参照します。
+1. 新しいブラウザータブでストアのホームページに移動し、ストアナビゲーションを使用して、作成したカテゴリを参照します。
 
-   必要に応じて、ページを更新して結果を確認します。 変更は、1 分以内または Cron スケジュールに従って表示されます。
+   必要に応じて、ページを更新して結果を確認します。 変更は 1 分以内か、cron スケジュールに従って表示されます。
 
-## 手順 3：テストデータを削除する
+## 手順 3：テストデータを削除
 
-次の手順を実行して、テストデータを削除し、元の製品名とカタログ設定を復元します。
+テストデータを削除して元の製品名とカタログ設定を復元するには、次の手順を実行します。
 
 ### テストカテゴリを削除
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. カテゴリツリーで、作成したテストサブカテゴリを選択します。
 
-1. 右上隅で、 **[!UICONTROL Delete]**.
+1. 右上隅のをクリックします。 **[!UICONTROL Delete]**.
 
-1. 確認するメッセージが表示されたら、「 **[!UICONTROL OK]**.
+1. 確認を求められたら、 **[!UICONTROL OK]**.
 
-   このカテゴリの削除では、カテゴリに割り当てられている製品は削除されません。
+   このカテゴリ削除によって、カテゴリに割り当てられている製品が削除されるわけではありません。
 
 ### 元の製品名を復元
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. テスト製品を編集モードで開きます。
 
-1. を削除します。 `_TEST` 追加したテキスト **[!UICONTROL Product Name]**.
+1. を削除 `_TEST` に追加したテキスト **[!UICONTROL Product Name]**.
 
-1. 右上隅で、 **[!UICONTROL Save]**.
+1. 右上隅のをクリックします。 **[!UICONTROL Save]**.
 
 ### 元のカタログ設定を復元
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. 左側のパネルで、を展開します。 **[!UICONTROL Catalog]** を選択します。 **[!UICONTROL Catalog]** の下に
+1. 左側のパネルで、を展開します **[!UICONTROL Catalog]** を選択します **[!UICONTROL Catalog]** その下に。
 
-1. を展開します。 _ストアフロント_ 」セクションで次の操作を実行します。
+1. を展開します。 _ストアフロント_ を選択し、次の操作を実行します。
 
-   - 設定 **[!UICONTROL Use Flat Catalog Category]** から `No`.
+   - を設定 **[!UICONTROL Use Flat Catalog Category]** 対象： `No`.
 
-   - 設定 **[!UICONTROL Use Flat Catalog Product]** から `No`.
+   - を設定 **[!UICONTROL Use Flat Catalog Product]** 対象： `No`.
 
-1. 完了したら、「 **[!UICONTROL Save Config]**.
+1. 完了したら、 **[!UICONTROL Save Config]**.
 
 1. プロンプトが表示されたら、キャッシュを更新します。

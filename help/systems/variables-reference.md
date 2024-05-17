@@ -1,6 +1,6 @@
 ---
 title: 変数リファレンス
-description: 頻繁に使用される電子メールテンプレートとその関連変数の例を確認します。
+description: 頻繁に使用するメールテンプレートとその関連変数の例を確認します。
 exl-id: b5e49a56-4b7c-431d-bd44-e8591106fa4e
 role: Admin, User
 feature: System, Variables, Communications
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # 変数リファレンス
 
-最も多い [電子メールテンプレート](email-template-custom.md) ～の一部を持つ [定義済み変数](variables-predefined.md) テンプレートに固有の 以下のリストに、頻繁に使用される電子メールテンプレートと、それに関連する変数の例を示します。
+Most [メールテンプレート](email-template-custom.md) ～のセクションがある [事前定義済みの変数](variables-predefined.md) テンプレートに固有のプロパティです。 次のリストには、頻繁に使用されるメールテンプレートとそれらに関連する変数の例が含まれています。
 
-## E メールテンプレート変数
+## メールテンプレート変数
 
 | 変数 | マークアップタグ |
 |--- |--- |

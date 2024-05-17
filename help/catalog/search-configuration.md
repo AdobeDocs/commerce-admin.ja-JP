@@ -36,7 +36,7 @@ ht-degree: 0%
 
    行数を制限すると、検索のパフォーマンスが向上し、返されるリストのサイズが小さくなります。 デフォルト値はです `8` ライン。
 
-## 方法 2:Elasticsearchを使用したコマース
+## 方法 2:Elasticsearchを使用したCommerce
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >この最小範囲と最大範囲に設定された値は、Elasticsearch検索エンジンの設定で設定された対応する範囲と互換性がある必要があります。 例えば、これらの値をに設定した場合 `2` および `300` commerce で、検索エンジン内の対応する値を更新します。
+   >この最小範囲と最大範囲に設定された値は、Elasticsearch検索エンジンの設定で設定された対応する範囲と互換性がある必要があります。 例えば、これらの値をに設定した場合 `2` および `300` Commerceで、検索エンジンの対応する値を更新します。
 
 1. キャッシュする一般的な検索結果の量を制限して応答を高速化するには、次の量を設定します： **[!UICONTROL Number of top search results to cache]**.
 
@@ -80,17 +80,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->この **[!UICONTROL Search Engine]**, **[!UICONTROL Elasticsearch Server Hostname]**, **[!UICONTROL Elasticsearch Server Port]**, **[!UICONTROL Elasticsearch Index Prefix]**, **[!UICONTROL Enable Elasticsearch HTTP Auth]**、および **[!UICONTROL Elasticsearch Server Timeout]** commerce のインストールまたはアップグレード時にフィールドが設定されました。 これらの値は、Elasticsearchのアップグレードまたは変更時にのみ変更してください。
+>この **[!UICONTROL Search Engine]**, **[!UICONTROL Elasticsearch Server Hostname]**, **[!UICONTROL Elasticsearch Server Port]**, **[!UICONTROL Elasticsearch Index Prefix]**, **[!UICONTROL Enable Elasticsearch HTTP Auth]**、および **[!UICONTROL Elasticsearch Server Timeout]** フィールドは、Commerceのインストールまたはアップグレード時に設定されました。 これらの値は、Elasticsearchのアップグレードまたは変更時にのみ変更してください。
 
 1. の場合 **[!UICONTROL Search Engine]**、デフォルト値を使用します `Elasticsearch 7`.
 
-   すべての Commerce インストールにElasticsearch 7.6.x が必要です。
+   すべてのCommerce インストールにElasticsearch 7.6.x が必要です。
 
-1. の場合 **[!UICONTROL Elasticsearch Server Hostname]**、Commerce のインストール時に設定したデフォルト値を使用します。
+1. の場合 **[!UICONTROL Elasticsearch Server Hostname]**&#x200B;を使用する場合は、Commerceのインストール時に設定されたデフォルト値を使用します。
 
    この例では、デフォルト値はです。 `elasticsearch.internal`.
 
-1. の場合 **[!UICONTROL Elasticsearch Server Port]**、Commerce のインストール時に設定したデフォルト値を使用します。
+1. の場合 **[!UICONTROL Elasticsearch Server Port]**&#x200B;を使用する場合は、Commerceのインストール時に設定されたデフォルト値を使用します。
 
    この例では、デフォルト値はです。 `9200`.
 

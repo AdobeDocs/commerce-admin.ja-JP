@@ -1,70 +1,70 @@
 ---
-title: 予定されているインポートおよびエクスポート
+title: スケジュールされた読み込みと書き出し
 description: スケジュールされたデータのインポートおよびエクスポート操作を管理する方法について説明します。
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '2371'
+source-wordcount: '2378'
 ht-degree: 0%
 
 ---
 
-# 予定されているインポートおよびエクスポート
+# スケジュールされた読み込みと書き出し
 
 {{ee-feature}}
 
-予定されているインポートおよびエクスポートは、日単位、週単位、月単位で実行できます。 インポートまたはエクスポートするファイルは、ローカルのAdobe Commerceサーバー上またはリモートの FTP サーバー上に配置できます。 スケジュールされたインポート/エクスポートはデフォルトで実装され、追加の設定は必要ありません。 スケジュールされたすべてのインポートおよびエクスポートは、Cron ジョブスケジューラーで管理されます。
+スケジュールされた読み込みと書き出しは、日単位、週単位または月単位で実行できます。 インポートまたはエクスポートするファイルは、ローカルのAdobe Commerce サーバーまたはリモート FTP サーバーに置くことができます。 スケジュールされたインポート/エクスポートはデフォルトで実装されており、追加の設定は必要ありません。 スケジュールされたすべてのインポートとエクスポートは、Cron ジョブスケジューラーによって管理されます。
 
-## 予定されているインポート/エクスポートにアクセス
+## スケジュールされたインポート/エクスポートへのアクセス
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Scheduled Imports/Exports]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Scheduled Imports/Exports]**.
 
-   ![予定されているデータのインポート/エクスポート](./assets/data-scheduled-import-export.png){width="700" zoomable="yes"}
+   ![スケジュールされたデータのインポート/エクスポート](./assets/data-scheduled-import-export.png){width="700" zoomable="yes"}
 
-1. 新しいスケジュール済みのインポートジョブまたはエクスポートジョブを作成するには、適切なボタンをクリックし、スケジュール済みジョブのタイプの指示に従います。
+1. 新しいスケジュール済みインポートまたはエクスポートジョブを作成するには、該当するボタンをクリックし、スケジュール済みジョブのタイプの指示に従います。
 
-   - [予定書き出しの追加](#schedule-an-export)
-   - [予定インポートの追加](#schedule-an-import)
+   - [スケジュール済み書き出しを追加](#schedule-an-export)
+   - [スケジュールされた読み込みを追加](#schedule-an-import)
 
-1. レコードを保存すると、ジョブが _[!UICONTROL Scheduled Import/Export]_グリッド。
+1. レコードを保存すると、ジョブがに表示されます _[!UICONTROL Scheduled Import/Export]_グリッド。
 
    >[!NOTE]
    >
-   >スケジュールされたインポート/エクスポートを作成または更新すると、システム設定が変更されます。 保存後、管理ページの上部に表示されるキャッシュの無効化通知に必ず対処し、新しいスケジュールや更新されたスケジュールを適用するためにキャッシュをフラッシュします。
+   >スケジュールされたインポート/エクスポートを作成または更新すると、システム設定が変更されます。 保存後、管理ページの上部に表示されるキャッシュ無効化通知に対処し、キャッシュをフラッシュして、新しいスケジュールまたは更新されたスケジュールを適用してください。
 
-1. スケジュールされた各ジョブの後、ファイルのコピーが `var/log/import_export` Adobe Commerceローカルサーバー上のディレクトリ。
+1. スケジュールされた各ジョブの後に、ファイルのコピーが `var/log/import_export` Adobe Commerce ローカルサーバー上のディレクトリ。
 
-   各操作の詳細はログに書き込まれません。 エラーが発生した場合、エラーの説明と共に、失敗したインポート/エクスポートジョブに関する通知が送信されます。
+   各操作の詳細はログには書き込まれません。 エラーが発生した場合は、失敗したインポート/エクスポートジョブの通知が、エラーの説明と共に送信されます。
 
-## インポートのスケジュール設定
+## 読み込みのスケジュール
 
-使用可能なインポート・ファイル・フォーマットおよびインポート・エンティティのタイプに関しては、予定インポート処理は手動インポート処理に似ています。
+使用可能なインポートファイル形式およびインポートエンティティのタイプの場合、スケジュールされたインポートプロセスは手動インポートプロセスに類似しています。
 
-- インポートファイルは.CSV 形式にする必要があります
-- 製品および顧客データをインポートできます
+- 読み込みファイルは.CSV 形式にする必要があります。
+- 製品および顧客データを読み込むことができます
 
-スケジュールされたインポートを使用する利点は、インポートパラメーターとスケジュールを 1 回だけ指定した後で、データファイルを複数回自動的にインポートできることです。
+スケジュール設定されたインポートを使用する利点は、インポート パラメータを指定した後にデータ ファイルを自動的に複数回インポートし、1 回だけスケジュールできることです。
 
-各インポート操作の詳細はログに書き込まれませんが、エラーが発生した場合は、 _読み込みに失敗しました_ 電子メールとエラーの説明。 最後にスケジュールされたインポートジョブの結果が、「スケジュールされたインポート/エクスポート」ページの「最終結果」列に表示されます。
+各インポート操作の詳細はログに書き込まれませんが、エラーが発生した場合は、 _インポートに失敗しました_ エラーの説明を記載したメール。 最後にスケジュールされた読み込みジョブの結果は、スケジュールされた読み込み/書き出しページの最後の結果列に表示されます。
 
-インポート操作のたびに、インポートファイルのコピーが `var/log/import_export` Adobe CommerceまたはMagento Open Sourceがデプロイされているサーバー上のディレクトリ。 インポートファイル名に、タイムスタンプ、インポートしたエンティティ（製品または顧客）のマーカー、操作のタイプ（この場合はインポート）が追加されます。
+インポート操作のたびに、インポートファイルのコピーがに配置されます。 `var/log/import_export` Adobe CommerceまたはMagento Open Sourceがデプロイされているサーバー上のディレクトリ。 タイムスタンプ、読み込まれたエンティティ（製品または顧客）のマーカー、操作のタイプ（この場合は import）がインポートファイル名に追加されます。
 
-スケジュールされたインポートジョブのたびに、再インデックス操作が自動的に実行されます。 フロントエンドでは、更新データがデータベースに送られた後に、説明の変更やその他のテキスト情報が反映され、価格の変更はインデックス再作成後にのみ反映されます。
+スケジュールされた各インポートジョブの後、再インデックス操作が自動的に実行されます。 フロントエンドでは、記述などのテキスト情報の変更は更新されたデータがデータベースに送信された後に反映され、価格の変更は再インデックス操作の後にのみ反映されます。
 
-### 手順 1：インポート設定を完了する
+### 手順 1：読み込み設定の完了
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Scheduled Import/Export]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Scheduled Import/Export]**.
 
-1. 右上隅で、 **[!UICONTROL Add Scheduled Import]**.
+1. 右上隅のをクリックします。 **[!UICONTROL Add Scheduled Import]**.
 
-1. スケジュールおよびインポートのオプションを設定します。
+1. スケジュールと読み込みのオプションを設定します。
 
-   - **[!UICONTROL Name]**  — スケジュールされたインポートの名前を入力します。
+   - **[!UICONTROL Name]** — スケジュールされたインポートの名前を入力します。
 
-   - **[!UICONTROL Description]**  — インポートの目的と使用方法を説明する簡単な説明を入力します。
+   - **[!UICONTROL Description]**  – 読み込みの目的と使用方法を説明する簡単な説明を入力します。
 
-   - **[!UICONTROL Entity Type]**  — 次のいずれかに設定します。
+   - **[!UICONTROL Entity Type]**  – 次のいずれかに設定します。
 
       - `Products`
       - `Advanced Pricing`
@@ -74,81 +74,81 @@ ht-degree: 0%
       - `Customers Main File`
       - `Stock Sources`
 
-   - **[!UICONTROL Import Behavior]**  — 次のいずれかに設定します。
+   - **[!UICONTROL Import Behavior]**  – 次のいずれかに設定します。
 
-      - `Add/Update Complex Data`  — データベース内の既存のエントリに対して、新しい複雑なデータを既存の複雑なデータに追加または更新します。 これはデフォルト値です。
-      - `Replace`  — データベース内の既存のエンティティの既存の複合体を書き込みます。
-      - `Delete Entities`  — データベース内の既存のエントリを削除します。
-      - `Custom Action`  — データベース内の既存のエンティティをカスタマイズします。
+      - `Add/Update Complex Data` - データベース内の既存のエントリの既存の複合データに対して、新しい複合データを追加または更新します。 これがデフォルト値です。
+      - `Replace` — データベース内の既存のエンティティの既存の複合に上書きします。
+      - `Delete Entities` — データベース内の既存のエントリを削除します。
+      - `Custom Action` - データベース内の既存のエンティティをカスタマイズします。
 
      >[!NOTE]
      >
-     >の _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_、および_[!UICONTROL Stock Sources]_ エンティティタイプの場合は、次の読み込み動作が表示されます。 `Add/Update`, `Replace`、および `Delete`. の _顧客の財政状況_, _顧客のメインファイル_、および _顧客と住所_ エンティティタイプの場合は、次の読み込み動作が表示されます。 `Add/Update Complex Data`, `Delete Entities`、および `Custom Action`.
+     >の場合 _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_、および_[!UICONTROL Stock Sources]_ エンティティタイプの場合、次のインポート動作が表示されます。 `Add/Update`, `Replace`、および `Delete`. の場合 _顧客の財務_, _顧客のメインファイル_、および _顧客と住所_ エンティティタイプの場合、次のインポート動作が表示されます。 `Add/Update Complex Data`, `Delete Entities`、および `Custom Action`.
 
-   - **[!UICONTROL Start Time]**  — インポートの開始がスケジュールされている時間、分、秒を設定します。
+   - **[!UICONTROL Start Time]**  – 読み込みを開始するようにスケジュールされている時間、分、および秒に設定します。
 
-   - **[!UICONTROL Frequency]**  — 次のいずれかに設定します。 `Daily`, `Weekly`または `Monthly`
+   - **[!UICONTROL Frequency]**  – 次のいずれかに設定します。 `Daily`, `Weekly`、または `Monthly`
 
-   - **[!UICONTROL On Error]**  — 次のいずれかに設定します。 `Stop Import` または `Continue Processing`
+   - **[!UICONTROL On Error]**  – 次のいずれかに設定します。 `Stop Import` または `Continue Processing`
 
-   - **[!UICONTROL Status]**  — スケジュールされたインポートを有効にするには、をに設定します。 `Enabled`.
+   - **[!UICONTROL Status]** — スケジュールされたインポートをアクティブにするには、をに設定します。 `Enabled`.
 
-   - **[!UICONTROL Field Separator]**  — インポートファイルのフィールドを区切る文字を入力します。 デフォルトの文字はコンマです。
+   - **[!UICONTROL Field Separator]** - インポートファイル内のフィールドの区切りに使用する文字を入力します。 デフォルトの文字はコンマです。
 
-   - **[!UICONTROL Multiple Value Separator]**  — フィールド内で複数の値を区切るために使用する文字を入力します。
+   - **[!UICONTROL Multiple Value Separator]** - フィールド内で複数の値を区切るために使用する文字を入力します。
 
-   ![データのインポート — 予定インポート設定](./assets/data-transfer-scheduled-import-settings.png){width="600" zoomable="yes"}
+   ![データの読み込み – スケジュールされた読み込み設定](./assets/data-transfer-scheduled-import-settings.png){width="600" zoomable="yes"}
 
-### 手順 2：インポートファイル情報の入力
+### 手順 2：インポートファイル情報の完了
 
-1. 設定 **[!UICONTROL Server Type]** を次のいずれかに変更します。
+1. を設定 **[!UICONTROL Server Type]** を次のいずれかに変更します。
 
    - `Local Server` - Adobe Commerceがインストールされているサーバーと同じサーバーからデータをインポートします。
-   - `Remote FTP`  — リモートサーバーからデータをインポートします。
+   - `Remote FTP` - リモートサーバーからデータをインポートします。
 
-   ![データのインポート — 予定インポートファイル情報](./assets/data-transfer-scheduled-import-file-information.png){width="600" zoomable="yes"}
+   ![データのインポート – スケジュールされたインポート ファイル情報](./assets/data-transfer-scheduled-import-file-information.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >リモートストレージモジュールが有効な場合、 `Local Server` 自動的に切り替える `Remote Storage`.
+   >リモート記憶域モジュールが有効な場合、 `Local Server` 自動的にに切り替え `Remote Storage`.
 
-1. 次を入力します。 **[!UICONTROL File Directory]** 読み込みファイルの元の場所。
+1. を入力 **[!UICONTROL File Directory]** 読み込みファイルの作成元。
 
-   - `Local Server`  — コマースインストールに相対パスを入力します。 例： `var/import`. リモートストレージモジュールが構成されている場合は、 `import_export/import`.
-   - `Remote FTP server`  — リモートサーバー上のインポートフォルダーの完全な URL とパスを入力します。
+   - `Local Server` - Commerceのインストール環境での相対パスを入力します。 例： `var/import`. リモートストレージモジュールが設定されている場合は、を使用します。 `import_export/import`.
+   - `Remote FTP server` - リモート サーバー上のインポート フォルダーの完全な URL とパスを入力します。
 
-1. 次を入力します。 **[!UICONTROL File Name]** を読み込みます。
+1. を入力 **[!UICONTROL File Name]** をインポートします。
 
-1. の場合 **[!UICONTROL Images File Directory]**&#x200B;には、製品画像が保存されるディレクトリのパスを入力します。
+1. の場合 **[!UICONTROL Images File Directory]**&#x200B;製品画像が保存されているディレクトリのパスを入力します。
 
-   ローカルサーバー上で、次のような相対パスを入力します。 `var/import`. リモート・ストレージで、次のような相対パスを入力します。 `import_export/import` または `import_export/import/some/dir`.
+   ローカルサーバーで、次のように相対パスを入力します。 `var/import`. リモートストレージで、次のような相対パスを入力します。 `import_export/import` または `import_export/import/some/dir`.
 
-### 手順 3：インポートに失敗した E メールを設定する
+### 手順 3：読み込みに失敗したメールの設定
 
-![データのインポート — 失敗した電子メールのインポートに失敗しました](./assets/data-transfer-scheduled-import-email-fail.png){width="600" zoomable="yes"}
+![データのインポート – 失敗したインポート失敗メール](./assets/data-transfer-scheduled-import-email-fail.png){width="600" zoomable="yes"}
 
-1. 設定 **[!UICONTROL Failed Email Receiver]** インポート中にエラーが発生した場合に通知を受け取るストア連絡先。
+1. を設定 **[!UICONTROL Failed Email Receiver]** インポート中にエラーが発生した場合に通知を受け取るストアの連絡先に送信します。
 
-1. 設定 **[!UICONTROL Failed Email Sender]** 通知の送信者として表示されるストア連絡先に追加します。
+1. を設定 **[!UICONTROL Failed Email Sender]** 通知の送信者として表示される店舗連絡先に送信されます。
 
-1. 設定 **[!UICONTROL Failed Email Template]** 通知に使用するテンプレートに追加します。
+1. を設定 **[!UICONTROL Failed Email Template]** 通知に使用されるテンプレート。
 
-1. の場合 **[!UICONTROL Send Failed Email Copy To]**「 」には、通知のコピーを受け取る人の電子メールアドレスを入力します。
+1. の場合 **[!UICONTROL Send Failed Email Copy To]**&#x200B;に、通知のコピーを受信するユーザーのメールアドレスを入力します。
 
-   複数の電子メールアドレスはコンマで区切ります。
+   複数のメールアドレスを指定する場合はコンマで区切ります。
 
-1. 設定 **[!UICONTROL Failed Email Copy Method]** を次のいずれかに変更します。
+1. を設定 **[!UICONTROL Failed Email Copy Method]** を次のいずれかに変更します。
 
-   - `Bcc`  — 失敗したインポート通知の非表示のコピーを送信します。 受信者の名前とアドレスは、元の E メール配布に含まれますが、表示には表示されません。
-   - `Separate Email`  — 失敗したインポート通知のコピーを別の電子メールとして送信します。
+   - `Bcc`  – 失敗したインポート通知の詳細なコピーを送信します。 受信者の名前とアドレスは元のメール配信に含まれますが、非表示になります。
+   - `Separate Email`  – 失敗した読み込み通知のコピーを別のメールとして送信します。
 
-1. 完了したら、「 **[!UICONTROL Save]**.
+1. 完了したら、 **[!UICONTROL Save]**.
 
-   新しくスケジュールされたインポートジョブが、 _[!UICONTROL Scheduled Import/Export]_ページに貼り付けます。 このページから、テストや編集を行うためにすぐに実行できます。 インポートファイルは、各インポートジョブの実行前に検証されます。
+   新しいスケジュールされたインポートジョブがリスト _[!UICONTROL Scheduled Import/Export]_ページ。 このページからすぐに実行してテストし、編集できます。 インポートファイルは、各インポートジョブの実行前に検証されます。
 
 >[!NOTE]
 >
->スケジュールされたインポート/エクスポートを作成または更新すると、システム設定が変更されます。 保存後、管理ページの上部に表示されるキャッシュの無効化通知に必ず対処し、新しいスケジュールや更新されたスケジュールを適用するためにキャッシュをフラッシュします。
+>スケジュールされたインポート/エクスポートを作成または更新すると、システム設定が変更されます。 保存後、管理ページの上部に表示されるキャッシュ無効化通知に対処し、キャッシュをフラッシュして、新しいスケジュールまたは更新されたスケジュールを適用してください。
 
 ### フィールドの説明
 
@@ -156,16 +156,16 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 | ----- | ----------- | 
-| [!UICONTROL Name] | インポートの名前。 多数の異なるスケジュール済みインポートが作成された場合、これを区別するのに役立ちます。 |
+| [!UICONTROL Name] | 読み込みの名前。 スケジュールされた読み込みが異なる多数の読み込みが作成される場合に区別するのに役立ちます。 |
 | [!UICONTROL Description] | （オプション）説明を入力できます。 |
 | [!UICONTROL Entity Type] | インポートするデータを定義します。 |
-| [!UICONTROL Import Behavior] | インポートするエンティティがデータベースに存在する場合の複雑なデータの処理方法を定義します。 製品の複雑なデータには、カテゴリ、Web サイト、カスタムオプション、階層価格、関連製品、アップセル、クロスセル、関連製品データなどがあります。 顧客向けの複雑なデータには、住所が含まれます。 オプション：<br>**[!UICONTROL Add/Update Complex Data]**— 新しい複合データが、データベース内の既存のエントリの既存の複合データに追加または更新されます。 これはデフォルト値です。<br>**[!UICONTROL Add/Update]**  — 新しいデータは、データベース内の既存のエントリに追加されます。 以下を除くすべてのフィールド `sku` は製品に対して更新できます。 カテゴリや Web サイトなど、CSV ファイルにリストされない複数のフィールド値は、読み込み後もデータベースに残ります。<br>**[!UICONTROL Replace]**— 既存のエンティティの既存の複雑なデータが置き換えられます。<br>**[!UICONTROL Delete Entities]**  — インポートされたエンティティがデータベース内に存在する場合は、データベースから削除されます。<br>**[!UICONTROL Custom Action]**— インポートプロセス中に、既存の複雑なエンティティがカスタマイズされます。 |
-| [!UICONTROL Start Time] | インポートの開始時間、分、秒を設定します。 |
-| [!UICONTROL Frequency] | インポートの実行頻度を定義します。 オプション： `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL On Error] | ファイルの検証中にエラーが見つかった場合のシステムの動作を定義します。 オプション：<br>**インポートを停止**  — 検証中にエラーが見つかった場合、ファイルはインポートされません。 これはデフォルト値です。<br>**処理を続行**  — 検証中にエラーが見つかったが、インポートが可能な場合は、ファイルがインポートされます。 |
-| [!UICONTROL Status] | インポートはデフォルトで有効になっています。 「ステータス」を「 `Disabled`. |
-| [!UICONTROL Field Separator] | フィールドの区切りに使用する文字を決定します。 デフォルト値： `,` （コンマ） |
-| [!UICONTROL Multiple Value Separator] | フィールド内の複数の値を区切る文字を決定します。 デフォルト値： `,` （コンマ） |
+| [!UICONTROL Import Behavior] | インポートするエンティティがデータベース内に存在する場合の、複雑なデータの処理方法を定義します。 製品の複雑なデータには、カテゴリ、web サイト、カスタムオプション、階層価格、関連製品、アップセル、クロスセル、関連製品データが含まれます。 顧客の複雑なデータにはアドレスが含まれます。 オプション：<br>**[!UICONTROL Add/Update Complex Data]**– 新しい複合データが、データベース内の既存のエントリの既存の複合データに追加または更新されます。 これがデフォルト値です。<br>**[!UICONTROL Add/Update]**  – 新しいデータがデータベース内の既存のエントリに追加されます。 を除くすべてのフィールド `sku` 製品に関して更新可能です。 CSV ファイルにリストされていない複数のフィールド値（カテゴリや web サイトなど）は、読み込み後もデータベースに残ります。<br>**[!UICONTROL Replace]**– 既存のエンティティの既存の複合データが置き換えられます。<br>**[!UICONTROL Delete Entities]** - インポートされたエンティティがデータベースに存在する場合、データベースから削除されます。<br>**[!UICONTROL Custom Action]**– 既存の複合エンティティは、読み込みプロセス中にカスタマイズされます。 |
+| [!UICONTROL Start Time] | 読み込みの開始時刻（時、分、秒）を設定します。 |
+| [!UICONTROL Frequency] | 読み込みの実行頻度を定義します。 オプション： `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL On Error] | ファイル検証中にエラーが見つかった場合のシステム動作を定義します。 オプション：<br>**読み込みを停止**  – 検証中にエラーが見つかった場合、ファイルはインポートされません。 これがデフォルト値です。<br>**処理を続行**  – 検証中にエラーが見つかったが、インポートが可能な場合、ファイルがインポートされます。 |
+| [!UICONTROL Status] | 読み込みはデフォルトで有効になっています。 ステータスをに設定すると、ワークフローを中断できます。 `Disabled`. |
+| [!UICONTROL Field Separator] | フィールドの区切りに使用する文字を指定します。 デフォルト値 `,` （コンマ） |
+| [!UICONTROL Multiple Value Separator] | フィールド内の複数の値を区切るために使用する文字を指定します。 デフォルト値 `,` （コンマ） |
 
 {style="table-layout:auto"}
 
@@ -173,10 +173,10 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 | ----- | ----------- | 
-| [!UICONTROL Server Type] | コマースがデプロイされているサーバーと同じサーバー上のファイルからインポートできます (「 `Local Server`) またはリモート FTP サーバー ( `Remote FTP`) をクリックします。 次を選択した場合、 _[!UICONTROL Remote FTP]_に設定すると、資格情報とファイル転送設定の追加オプションが表示されます。 リモートストレージモジュールが有効な場合、 `Local Server` タイプは自動的に次に切り替わります： `Remote Storage`. |
-| [!UICONTROL File Directory] | インポートファイルが存在するディレクトリを指定します。 Server Type が _[!UICONTROL Local Server]_に設定し、Commerce インストールディレクトリを基準とした相対パスを指定します。 例： `var/import` または `import_export/import` リモートストレージ用。 |
-| [!UICONTROL File Name] | インポートファイルの名前を指定します。 |
-| [!UICONTROL Images File Directory] | 製品画像が保存されるディレクトリのパスを入力します。 ローカルサーバーの場合は、相対パスを入力します。 例： `var/import` または `import_export/import` リモートストレージ用。 |
+| [!UICONTROL Server Type] | Commerceがデプロイされているのと同じサーバー上のファイルから読み込むことができます（ `Local Server`）またはリモート FTP サーバーから（ `Remote FTP`）に設定します。 を選択する場合 _[!UICONTROL Remote FTP]_に変わり、資格情報とファイル転送設定の追加オプションが表示されます。 リモートストレージモジュールが有効になっている場合、 `Local Server` タイプは自動的にに切り替わります `Remote Storage`. |
+| [!UICONTROL File Directory] | インポート ファイルがあるディレクトリを指定してください。 サーバーの種類がに設定されている場合 _[!UICONTROL Local Server]_を選択し、Commerce インストールディレクトリへの相対パスを指定します。 例： `var/import` または `import_export/import` （リモートストレージの場合）。 |
+| [!UICONTROL File Name] | 読み込みファイルの名前を指定します。 |
+| [!UICONTROL Images File Directory] | 製品画像が保存されているディレクトリのパスを入力します。 ローカルサーバーには、相対パスを入力します。 例： `var/import` または `import_export/import` （リモートストレージの場合）。 |
 
 {style="table-layout:auto"}
 
@@ -184,38 +184,38 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 | ----- | ----------- | 
-| [!UICONTROL Failed Email Receiver] | インポートに失敗した場合に電子メール通知（インポートに失敗した電子メール）を送信する電子メールアドレスを指定します。 |
-| [!UICONTROL Failed Email Sender] | インポートに失敗した電子メールの送信者として使用する電子メールアドレスを指定します。 |
-| [!UICONTROL Failed Email Template] | インポートに失敗した E メールのテンプレートを選択します。 デフォルトでは、「読み込みに失敗しました」（「ロケールのデフォルトテンプレート」オプションを使用できます）オプションのみ使用できます。 カスタムテンプレートは以下に作成できます。 _[!UICONTROL System]_>_[!UICONTROL Transactional Emails]_. |
-| [!UICONTROL Send Failed Email Copy To] | インポートに失敗した電子メールのコピーの送信先の電子メールアドレス。 |
-| [!UICONTROL Send Failed Email Copy Method] | インポートに失敗した E メールのコピー送信方法を選択します。 |
+| [!UICONTROL Failed Email Receiver] | 読み込みが失敗した場合にメール通知（読み込みに失敗したメール）を送信するメールアドレスを指定します。 |
+| [!UICONTROL Failed Email Sender] | 読み込みに失敗したメールの送信者として使用するメールアドレスを指定します。 |
+| [!UICONTROL Failed Email Template] | インポートに失敗したメールのテンプレートを選択します。 デフォルトでは、「読み込みに失敗しました（ロケールからのデフォルトテンプレート）」オプションのみ使用できます。 カスタムテンプレートは次の場所で作成できます _[!UICONTROL System]_>_[!UICONTROL Transactional Emails]_. |
+| [!UICONTROL Send Failed Email Copy To] | 読み込みに失敗したメールのコピーの送信先のメールアドレス。 |
+| [!UICONTROL Send Failed Email Copy Method] | 読み込みに失敗したメールのコピー送信方法を選択します。 |
 
 {style="table-layout:auto"}
 
-## エクスポートのスケジュール設定
+## 書き出しのスケジュール
 
-スケジュールされた書き出しは、手動の [書き出し](data-export.md) エクスポート可能なエクスポートファイルフォーマットとエクスポート可能なエンティティのタイプ：
+スケジュールされた書き出しは、手動に似ています [Export](data-export.md) 使用可能なエクスポートファイル形式と、エクスポート可能なエンティティのタイプで以下を行います。
 
 - CSV 形式に書き出すことができます
-- 製品および顧客データを書き出すことができます
+- 製品および顧客データをエクスポートできます
 
-スケジュールされたエクスポートを使用する利点は、エクスポートパラメーターを指定し、スケジュールを 1 回だけ実行した後で、データを複数回自動的にエクスポートできることです。
+スケジュールされた書き出しを使用する利点は、書き出しパラメーターを指定した後にデータを複数回、自動的に書き出すことができ、スケジュールは 1 回だけできることです。
 
-各エクスポートの詳細はログに書き込まれませんが、エラーが発生した場合は、エラーの説明を含む「エクスポート失敗」の電子メールが送信されます。 最後のエクスポートジョブの結果は、「スケジュールされたインポート/エクスポート」ページの「最終結果」列に表示されます。
+各エクスポートの詳細はログに書き込まれませんが、エラーが発生した場合は、エラーの説明が記載されたエクスポート失敗のメールが届きます。 最後のエクスポートジョブの結果は、スケジュールされたインポート/エクスポートページの最後の結果列に表示されます。
 
-エクスポートのたびに、エクスポートファイルはユーザー定義の場所に配置され、コピーは `var/log/import_export` Adobe CommerceまたはMagento Open Sourceがデプロイされているサーバー上のディレクトリ。 エクスポートするエンティティ（製品または顧客）のタイムスタンプとマーカー、操作のタイプ（この場合はエクスポート）がエクスポートファイル名に追加されます。
+エクスポートのたびに、エクスポートファイルはユーザー定義の場所に配置され、コピーはに配置されます。 `var/log/import_export` Adobe CommerceまたはMagento Open Sourceがデプロイされているサーバー上のディレクトリ。 エクスポートされたエンティティ（製品または顧客）のタイムスタンプとマーカー、および操作のタイプ（この場合はエクスポート）がエクスポートファイル名に追加されます。
 
-### 手順 1：書き出し設定を完了する
+### 手順 1：書き出し設定の完了
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Scheduled Import/Export]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Scheduled Import/Export]**.
 
-1. 右上隅で、 **[!UICONTROL Add Scheduled Export]** 次の操作を実行します。
+1. 右上隅のをクリックします。 **[!UICONTROL Add Scheduled Export]** 次の手順を実行します。
 
-   - を入力します。 **[!UICONTROL Name]** スケジュールされた書き出し用。
+   - を入力 **[!UICONTROL Name]** スケジュールされた書き出し用。
 
-   - 概要を入力 **[!UICONTROL Description]** これが、輸出の目的とその使い方を説明する。
+   - 概要を入力 **[!UICONTROL Description]** 書き出しの目的と使用方法について説明します。
 
-   - 設定 **[!UICONTROL Entity Type]** を次のいずれかに変更します。
+   - を設定 **[!UICONTROL Entity Type]** を次のいずれかに変更します。
 
       - `Advanced Pricing`
       - `Products`
@@ -224,79 +224,79 @@ ht-degree: 0%
       - `Customer Addresses`
       - `Stock Sources`
 
-     The _[!UICONTROL Entity Attributes]_」セクションが更新され、選択したエンティティタイプが反映されます。
+     この _[!UICONTROL Entity Attributes]_ページの下部のセクションが更新され、選択したエンティティタイプが反映されます。
 
-   - 設定 **[!UICONTROL Start Time]** 書き出しがスケジュールされている時間、分、秒を指定します。
+   - を設定 **[!UICONTROL Start Time]** エクスポートを開始するスケジュールの時、分、および秒。
 
-   - 設定 **[!UICONTROL Frequency]** を次のいずれかに変更します。
+   - を設定 **[!UICONTROL Frequency]** を次のいずれかに変更します。
 
       - `Daily`
       - `Weekly`
       - `Monthly`
 
-1. スケジュールされたエクスポートを有効にするには、 **[!UICONTROL Status]** から `Enabled`.
+1. スケジュールされた書き出しを有効にするには、次を設定します **[!UICONTROL Status]** 対象： `Enabled`.
 
-1. 確定 `CSV` をデフォルトとして **[!UICONTROL File Format]**.
+1. 承諾 `CSV` デフォルトとして **[!UICONTROL File Format]**.
 
-   ![予定書き出し設定](./assets/data-transfer-scheduled-export-settings.png){width="600" zoomable="yes"}
+   ![スケジュールされた書き出し設定](./assets/data-transfer-scheduled-export-settings.png){width="600" zoomable="yes"}
 
-### 手順 2：エクスポートファイル情報の入力
+### 手順 2：書き出しファイル情報の完了
 
-1. 設定 **[!UICONTROL Server Type]** を次のいずれかに変更します。
+1. を設定 **[!UICONTROL Server Type]** を次のいずれかに変更します。
 
-   - `Local Server` - Commerce がインストールされているサーバーと同じサーバーにエクスポートファイルを保存します。
-   - `Remote FTP`  — エクスポートファイルをリモートサーバーに保存します。
+   - `Local Server` - Commerceがインストールされているサーバーにエクスポートファイルを保存する
+   - `Remote FTP` — エクスポート・ファイルをリモート・サーバに保存します。
 
    ![スケジュールされた書き出しファイル情報](./assets/data-transfer-scheduled-export-file-information.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >リモートストレージモジュールが有効な場合、 `Local Server` 自動的に切り替える `Remote Storage`.
+   >リモートストレージモジュールが有効な場合、 `Local Server` 自動的にに切り替え `Remote Storage`.
 
-1. の場合 **[!UICONTROL File Directory]**&#x200B;をクリックし、エクスポートファイルを保存するディレクトリを次のように入力します。
+1. の場合 **[!UICONTROL File Directory]**&#x200B;で、エクスポートファイルを保存するディレクトリを次のように入力します。
 
-   - の場合 **[!UICONTROL Local Server]**、コマースインストール内の相対パスを入力します。例： `var/export`. リモートストレージモジュールが構成されている場合は、 `import_export/export`.
-   - の場合 **[!UICONTROL Remote FTP server]**」に、宛先サーバー上のターゲットフォルダーの完全な URL とパスを入力します。
+   - の場合 **[!UICONTROL Local Server]**&#x200B;を選択し、Commerceのインストール内の相対パス（例：）を入力します `var/export`. リモート・ストレージ・モジュールが構成されている場合は、 `import_export/export`.
+   - の場合 **[!UICONTROL Remote FTP server]**&#x200B;に、宛先サーバー上のターゲットフォルダーの完全な URL とパスを入力します。
 
-1. 次の場合、 _[!UICONTROL Remote FTP]_サーバを選択し、サーバへの接続資格情報を入力して、追加設定を選択します。
+1. 次の場合 _[!UICONTROL Remote FTP]_「サーバー」を選択し、サーバーへの接続資格情報を入力して、追加の設定を選択します。
 
-   - の場合 **[!UICONTROL FTP Host[:Port]]**、リモート FTP ホストアドレスを入力します。
-   - の場合 **[!UICONTROL User Name]**」に、リモートサーバーへのアクセスに使用するユーザー名を入力します。
-   - の場合 **[!UICONTROL Password]**、指定したユーザー名アカウントのパスワードを入力します。
-   - の場合 **[!UICONTROL File Mode]**&#x200B;を選択します。 `Binary` または `ASCII`.
-   - の場合 **[!UICONTROL Passive Mode]**&#x200B;を選択します。 `No` または `Yes`.
+   - の場合 **[!UICONTROL FTP Host[:Port]]**&#x200B;にリモート FTP ホストアドレスを入力します。
+   - の場合 **[!UICONTROL User Name]**&#x200B;に移動し、リモートサーバーへのアクセスに使用するユーザー名を入力します。
+   - の場合 **[!UICONTROL Password]**&#x200B;に入力し、指定したユーザー名アカウントのパスワードを入力します。
+   - の場合 **[!UICONTROL File Mode]**、を選択 `Binary` または `ASCII`.
+   - の場合 **[!UICONTROL Passive Mode]**、を選択 `No` または `Yes`.
 
-### 手順 3：書き出しエラーの電子メールを設定する
+### 手順 3：書き出し失敗メールの設定
 
-1. 設定 **[!UICONTROL Failed Email Receiver]** エクスポート中にエラーが発生した場合に通知を受け取るストア連絡先。
+1. を設定 **[!UICONTROL Failed Email Receiver]** エクスポート中にエラーが発生した場合に通知を受け取るストアの連絡先に送信されます。
 
-1. 設定 **[!UICONTROL Failed Email Sender]** 通知の送信者として表示されるストア連絡先に追加します。
+1. を設定 **[!UICONTROL Failed Email Sender]** 通知の送信者として表示される店舗連絡先に送信されます。
 
-1. 設定 **[!UICONTROL Failed Email Template]** 通知に使用するテンプレートに追加します。
+1. を設定 **[!UICONTROL Failed Email Template]** 通知に使用されるテンプレート。
 
-1. の場合 **[!UICONTROL Send Failed Email Copy To]**「 」には、通知のコピーを受け取る人の電子メールアドレスを入力します。
+1. の場合 **[!UICONTROL Send Failed Email Copy To]**&#x200B;に、通知のコピーを受信するユーザーのメールアドレスを入力します。
 
-   複数の電子メールアドレスの場合は、コンマで区切ります。
+   複数のメールアドレスの場合は、コンマで区切ります。
 
-1. 設定 **[!UICONTROL Failed Email Copy Method]** を次のいずれかに変更します。
+1. を設定 **[!UICONTROL Failed Email Copy Method]** を次のいずれかに変更します。
 
-   - `Bcc`  — ブラインドのコピーを送信します。 受信者の名前とアドレスは、元の E メール配布に含まれますが、表示には表示されません。
-   - `Separate Email`  — コピーを別の E メールとして送信します。
+   - `Bcc`  – 参考にならないコピーを送信します。 受信者の名前とアドレスは元のメール配信に含まれますが、表示されません。
+   - `Separate Email` - コピーを別のメールとして送信します。
 
 ### 手順 4：エンティティ属性の選択
 
-1. Adobe Analytics の _[!UICONTROL Entity Attributes]_「 」セクションで、エクスポートデータに含める属性を選択します。
+1. が含まれる _[!UICONTROL Entity Attributes]_セクションで、書き出しデータに含める属性を選択します。
 
-   - 書き出しデータを属性値でフィルタするには、 _[!UICONTROL Filter]_列。
-   - 特定の属性値を持つ製品や顧客を除外するには、除外する属性の値を入力し、「スキップ」列のチェックボックスをオンにします。
+   - 書き出しデータを属性値でフィルタリングするには、属性値を _[!UICONTROL Filter]_列。
+   - 特定の属性値を持つ製品または顧客を除外するには、除外する属性の値を入力し、「スキップ」列のチェックボックスを選択します。
 
-1. 完了したら、「 **[!UICONTROL Save]**.
+1. 完了したら、 **[!UICONTROL Save]**.
 
-   新しいスケジュール済み書き出しジョブが、 _[!UICONTROL Scheduled Import/Export]_ページに貼り付けます。 このページから、テスト用、編集用に、即座に実行できます。
+   新しいスケジュールされた書き出しジョブが _[!UICONTROL Scheduled Import/Export]_ページ。 このページから、テスト用にすぐに実行し、編集できます。
 
 >[!NOTE]
 >
->スケジュールされたインポート/エクスポートを作成または更新すると、システム設定が変更されます。 保存後、管理ページの上部に表示されるキャッシュの無効化通知に必ず対処し、新しいスケジュールや更新されたスケジュールを適用するためにキャッシュをフラッシュします。
+>スケジュールされたインポート/エクスポートを作成または更新すると、システム設定が変更されます。 保存後、管理ページの上部に表示されるキャッシュ無効化通知に対処し、キャッシュをフラッシュして、新しいスケジュールまたは更新されたスケジュールを適用してください。
 
 ### フィールドの説明
 
@@ -304,13 +304,13 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 | ----- | ----------- | 
-| [!UICONTROL Name] | エクスポートの名前。 スケジュールされた多数の書き出しが作成された場合、区別するのに役立ちます。 |
-| [!UICONTROL Description] | （オプション）スケジュールされたエクスポートの説明。 |
-| [!UICONTROL Entity Type] | 書き出すデータを指定します。 選択を行うと、エンティティ属性が下に表示されます。 オプション： `Advanced Pricing` / `Products` / `Customer Finances` / `Customers Main File` / `Customer Addresses` / `Stock Sources` |
-| [!UICONTROL Start Time] | エクスポートの開始時間、分、秒を設定します。 |
-| [!UICONTROL Frequency] | 書き出しジョブの実行頻度を定義します。 オプション： `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Status] | 新しいスケジュール済み書き出しは、デフォルトで有効になっています。 「ステータス」を「無効」に設定すると、この機能を休止できます。 オプション： `Enabled` / `Disabled` |
-| [!UICONTROL File Format] | エクスポートファイルの形式を選択します。 現在、 `.CSV` オプションが使用可能です。 |
+| [!UICONTROL Name] | エクスポートの名前。 スケジュールされた書き出しが異なる多数の書き出しが作成される場合に、書き出しを区別するのに役立ちます。 |
+| [!UICONTROL Description] | （任意）スケジュールされた書き出しの説明。 |
+| [!UICONTROL Entity Type] | 書き出すデータを識別します。 選択後、エンティティ属性が下に表示されます。 オプション： `Advanced Pricing` / `Products` / `Customer Finances` / `Customers Main File` / `Customer Addresses` / `Stock Sources` |
+| [!UICONTROL Start Time] | 書き出しの開始時刻（時、分、秒）を設定します。 |
+| [!UICONTROL Frequency] | エクスポートジョブの実行頻度を定義します。 オプション： `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Status] | 新しいスケジュール済み書き出しは、デフォルトで有効になっています。 ステータスを無効に設定すると、ワークフローを中断できます。 オプション： `Enabled` / `Disabled` |
+| [!UICONTROL File Format] | エクスポートファイルの形式を選択します。 現在のみ `.CSV` オプションを利用できます。 |
 
 {style="table-layout:auto"}
 
@@ -318,8 +318,8 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 | ----- | ----------- | 
-| [!UICONTROL Server Type] | 書き出しファイルの場所を決定します。 オプション：<br>**ローカルサーバー** — Commerce がデプロイされているサーバーと同じサーバーにエクスポートファイルを配置します。 リモートストレージモジュールが有効な場合、 `Local Server` は、 `Remote Storage`.<br>**リモート FTP**  — エクスポートファイルをリモートサーバーに配置します。 資格情報とファイル転送設定の追加オプションが表示されます。 |
-| [!UICONTROL File Directory] | エクスポートファイルを配置するディレクトリを指定します。 ケース _[!UICONTROL Server Type]_が `Local Server`に設定し、Commerce インストールパスを基準とした相対パスを指定します。 例： `var/export`または `import_export/export` リモートストレージ用。 |
+| [!UICONTROL Server Type] | 書き出しファイルの場所を決定します。 オプション：<br>**ローカルサーバー** - Commerceがデプロイされているサーバーと同じサーバーにエクスポートファイルを配置します。 リモートストレージモジュールが有効になっている場合、 `Local Server` がに切り替えられました `Remote Storage`.<br>**リモート FTP** — エクスポート・ファイルをリモート・サーバに配置します。 資格情報とファイル転送設定の追加オプションが表示されます。 |
+| [!UICONTROL File Directory] | エクスポートファイルを配置するディレクトリを指定します。 Case _[!UICONTROL Server Type]_はに設定されています。 `Local Server`を選択し、Commerceのインストールパスを基準とした相対パスを指定します。 例： `var/export`、または `import_export/export` （リモートストレージの場合）。 |
 
 {style="table-layout:auto"}
 
@@ -327,10 +327,10 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 | ----- | ----------- | 
-| [!UICONTROL Failed Email Receiver] | 書き出しが失敗した場合に電子メール通知（書き出しに失敗した電子メール）を送信する電子メールアドレスを指定します。 |
-| [!UICONTROL Failed Email Sender] | 書き出しに失敗した電子メールの送信者として使用する電子メールアドレスを指定します。 |
-| [!UICONTROL Failed Email Template] | 失敗した書き出し E メールのテンプレートを選択します。 デフォルトでは、 `Export Failed (Default Template from Locale)` オプションが使用可能です。 |
-| [!UICONTROL Send Failed Email Copy To] | 失敗した書き出し電子メールのコピーの送信先の電子メールアドレス。 |
-| [!UICONTROL Send Failed Email Copy Method] | 書き出しに失敗した電子メールのコピー送信方法を指定します。 |
+| [!UICONTROL Failed Email Receiver] | 書き出しが失敗した場合にメール通知（書き出しに失敗したメール）を送信するメールアドレスを指定します。 |
+| [!UICONTROL Failed Email Sender] | エクスポートに失敗したメールの送信者として使用するメールアドレスを指定します。 |
+| [!UICONTROL Failed Email Template] | 失敗した書き出しメールのテンプレートを選択します。 デフォルトでは、 `Export Failed (Default Template from Locale)` オプションを利用できます。 |
+| [!UICONTROL Send Failed Email Copy To] | 失敗した書き出しメールのコピーの送信先のメールアドレス。 |
+| [!UICONTROL Send Failed Email Copy Method] | エクスポートに失敗したメールのコピー送信方法を指定します。 |
 
 {style="table-layout:auto"}

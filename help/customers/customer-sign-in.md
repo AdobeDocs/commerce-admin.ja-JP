@@ -1,6 +1,6 @@
 ---
-title: 顧客のログイン
-description: ストアフロントでの顧客のログイン機能を使用すると、顧客のアカウントに簡単にアクセスできます。
+title: ユーザーによるログイン
+description: ストアフロントのカスタマーログイン機能により、お客様のアカウントに簡単にアクセスできます。
 exl-id: eadcc15a-a052-4213-a818-d5b248d974d2
 feature: Customers, Storefront
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
@@ -10,78 +10,78 @@ ht-degree: 0%
 
 ---
 
-# 顧客のログイン
+# ユーザーによるログイン
 
-お客様は、ストアの各ページからアカウントに簡単にアクセスできます。 に応じて [設定](../customers/account-options-new.md)のお客様は、アカウントダッシュボードにリダイレクトされるか、アカウントにログインした後も買い物を続行することができます。
+顧客は、ストア内のすべてのページから自分のアカウントに簡単にアクセスできます。 応じて [設定](../customers/account-options-new.md)の場合、顧客はアカウントダッシュボードにリダイレクトしたり、アカウントにログインした後で買い物を続行したりできます。
 
-次の場合 [CAPTCHA](../systems/security-captcha.md) が設定で有効になっている場合、ユーザーは、アカウントへのアクセス権を取得する前に、自分が人間であることを検証するテストを正しく完了する必要があります。
+次の場合 [CAPTCHA](../systems/security-captcha.md) が有効になっている設定では、ユーザーはアカウントにアクセスする前に、自分が人間であることを確認するテストを正しく完了する必要があります。
 
-ユーザーがパスワードを忘れた場合、リセットリンクがアカウントに関連付けられた電子メールアドレスに送信されます。 The [パスワードオプション](../customers/password-options.md) 設定は、ログイン試行の顧客体験を制御します。
+顧客がパスワードを忘れると、リセットリンクがそのアカウントに関連付けられているメールアドレスに送信されます。 この [パスワードオプション](../customers/password-options.md) 設定は、ログイン試行のカスタマーエクスペリエンスを制御します。
 
-- ユーザーがパスワードを入力できる回数
+- 顧客がパスワードの入力を試みる回数
 - 試行間隔（分）
-- アカウントがロックされるまでの試行回数の合計です
+- アカウントがロックされるまでの合計試行回数
 - ロックアウトの長さ
 
-![ストアフロントヘッダーのログインリンク](assets/storefront-sign-in-create-account.png){width="700" zoomable="yes"}
+![ストアフロントヘッダーのサインインリンク](assets/storefront-sign-in-create-account.png){width="700" zoomable="yes"}
 
 ## 顧客アカウントにサインイン
 
-1. ストアのヘッダーで、顧客がクリックする **[!UICONTROL Sign in]**.
+1. ストアのヘッダーで、顧客は次をクリックします **[!UICONTROL Sign in]**.
 
-   ![顧客ログイン](assets/login.png){width="700" zoomable="yes"}
+   ![カスタマーログイン](assets/login.png){width="700" zoomable="yes"}
 
-1. 次に入る **[!UICONTROL Email]** 住所と住所 **[!UICONTROL Password]**.
+1. エントリ数 **[!UICONTROL Email]** 住所と **[!UICONTROL Password]**.
 
 1. クリック数 **[!UICONTROL Sign in]**.
 
    >[!IMPORTANT]
    >
-   >パスワードを忘れた場合は、 **[!UICONTROL Forgot Your Password?]** そして、 [instructions](../customers/password-reset.md) をクリックして、パスワードをリセットします。
+   >パスワードを思い出せない場合は、 **[!UICONTROL Forgot Your Password?]** およびフォロー [指示](../customers/password-reset.md) ：パスワードをリセットします。
 
-## 顧客ログイン後にアカウントダッシュボードにリダイレクトを設定する
+## カスタマーログイン後のアカウントダッシュボードへのリダイレクトの設定
 
-ストアを設定して、ログイン後に顧客をアカウントダッシュボードにリダイレクトしたり、顧客が引き続き買い物をおこなうようにすることができます。
+ログイン後に顧客を自分のアカウントダッシュボードにリダイレクトしたり、買い物を続行させたりするように、ストアを設定できます。
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. 左側のパネルで、を展開します。 **[!UICONTROL Customers]** を選択します。 **[!UICONTROL Customer Configuration]**.
+1. 左側のパネルで、を展開します **[!UICONTROL Customers]** を選択します **[!UICONTROL Customer Configuration]**.
 
-1. を展開します。 **[!UICONTROL Login Options]** 」セクションに入力します。
+1. を展開します。 **[!UICONTROL Login Options]** セクション。
 
-1. 設定 **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]** を次のいずれかに変更します。
+1. を設定 **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]** を次のいずれかに変更します。
 
-   - `Yes`  — 顧客がアカウントにログインすると、アカウントダッシュボードが表示されます。
-   - `No` ：顧客は、アカウントにログインした後も買い物を続行できます。
+   - `Yes`  – 顧客が自分のアカウントにログインすると、アカウントダッシュボードが表示されます。
+   - `No`  – 顧客はアカウントにログインした後も買い物を続けることができます。
 
-1. 完了したら、「 **[!UICONTROL Save Config]**.
+1. 完了したら、 **[!UICONTROL Save Config]**.
 
 ## Amazonでログイン
 
-が設定されたストアの場合 [!DNL Amazon Pay] および [!DNL Login with Amazon] のお客様は、Amazon購入者アカウントにログインできます。
+が設定されているストアの場合 [!DNL Amazon Pay] および [!DNL Login with Amazon] 統合により、お客様はAmazonのバイヤーアカウントにログインできます。
 
-1. ストアのヘッダーで、顧客がクリックする **[!UICONTROL Sign in]**.
+1. ストアのヘッダーで、顧客は次をクリックします **[!UICONTROL Sign in]**.
 
 1. クリック数 **[!UICONTROL Login with Amazon]**.
 
    ![Amazonでログイン](assets/amazon-pay.png){width="700" zoomable="yes"}
 
-1. ログインを求められたら、ユーザーが **[!UICONTROL email address]** および **[!UICONTROL password]** をAmazon購入者アカウントに追加する必要があります。
+1. ログインを求めるメッセージが表示されたら、顧客は **[!UICONTROL email address]** および **[!UICONTROL password]** Amazonのバイヤーアカウント用。
 
    ![Amazon資格情報の入力](assets/amazon-popup1.png){width="700" zoomable="yes"}
 
-1. 購入を処理する際に、Amazonに対して、自分のアカウントから次の情報をストアと共有する権限を付与するには、「 」をクリックします **OK**.
+1. 購入処理時にAmazonに以下の情報をストアと共有する権限を付与するには、をクリックします **分かった**.
 
    - 名前
-   - 電子メールアドレス
+   - メールアドレス
    - 発送先住所
 
-   ![データを共有する権限を付与する](assets/amazon-popup2.png){width="700" zoomable="yes"}
+   ![データ共有の権限を付与](assets/amazon-popup2.png){width="700" zoomable="yes"}
 
-## 顧客アカウントからのサインアウト
+## 顧客アカウントからのログアウト
 
-1. の隣の右上隅に  _[!UICONTROL Welcome, Customer Name!]_をクリックした場合、顧客が&#x200B;**[!UICONTROL v]**メニューセレクター。
+1. の右上隅にある  _[!UICONTROL Welcome, Customer Name!]_顧客が&#x200B;**[!UICONTROL v]**メニューセレクター。
 
-1. 選択 **[!UICONTROL Sign Out]**.
+1. を選択 **[!UICONTROL Sign Out]**.
 
 ログアウト後、顧客はホームページにリダイレクトされます。

@@ -1,102 +1,102 @@
 ---
-title: '''[!DNL Page Builder] ガイド第 1 章：シンプルなページ`'
-description: サンプルファイルを使用し、手順に従って [!DNL Page Builder] インターフェイス。
+title: '''[!DNL Page Builder] チュートリアル第 1 部：シンプルなページ'
+description: サンプルファイルを使用し、の手順に従ってで簡単なページを作成します。 [!DNL Page Builder] インターフェイス。
 exl-id: 2c146241-675f-4d23-9513-1722d5dd3357
 feature: Page Builder, Page Content
 source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
 workflow-type: tm+mt
-source-wordcount: '3311'
+source-wordcount: '3334'
 ht-degree: 0%
 
 ---
 
-# [!DNL Page Builder] ガイド第 1 章：シンプルなページ
+# [!DNL Page Builder] チュートリアル第 1 部：シンプルなページ
 
-この 3 つのパートから成る演習に従って、 [!DNL Page Builder] ワークスペースを作成して、独自のデザインのコンテンツに富んだページを簡単に作成できることを示す簡単なページを作成します。
+この 3 つのパートから成る演習に従って、 [!DNL Page Builder] workspace：独自のデザインのコンテンツに富んだページを簡単に作成できるシンプルなページを作成します。
 
 ![単純なページの例](./assets/pb-tutorial1-simple-layout.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->これらのチュートリアルの演習は、 [!DNL Page Builder] workspace（2.4.1 リリース） 以前のAdobe Commerceリリースを使用している場合は、 [!DNL Page Builder] に含まれるチュートリアル演習 [[!DNL Commerce] 2.3 ユーザーガイド](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+>これらのチュートリアルの演習は、の最近の変更を反映して更新されました [!DNL Page Builder] workspace 2.4.1 リリース。 以前のAdobe Commerce リリースを使用している場合は、 [!DNL Page Builder] に含まれているチュートリアル演習 [[!DNL Commerce] 2.3 ユーザーガイド](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
 
 ## 始める前に
 
-この演習を開始する前に、 [管理セッションの有効期間](../systems/security-admin.md) を使用して、作業中にセッションがタイムアウトするのを防ぎます。
+この演習を開始する前に、を増やすことを推奨します [管理セッションの有効期間](../systems/security-admin.md) を使用して、作業中にセッションがタイムアウトしないようにします。
 
-次の必要なコンテンツ管理設定を確認します。
+必要なコンテンツ管理設定を確認します。
 
-- WYSIWYG Editor が有効になっている場合は、 [WYSIWYG オプション](../content-design/editor.md#configure-the-editor) 設定。
+- で WYSIWYG エディターが有効になっている [WYSIWYG オプション](../content-design/editor.md#configure-the-editor) 設定。
 
-- [!DNL Page Builder] が有効な場合は、 [高度なコンテンツツール](setup.md) 設定。
+- [!DNL Page Builder] では有効になっています [高度なコンテンツツール](setup.md) 設定。
 
-### ウォークスルー画像アセットをダウンロードする
+### チュートリアル画像アセットのダウンロード
 
-1. をダウンロードします。 [`simple-page-assets`](./assets/simple-page-assets.zip) ファイルを作成し、ローカルシステムにファイルを保存します。
+1. をダウンロード [`simple-page-assets`](./assets/simple-page-assets.zip) ファイルを作成し、ローカルシステムにファイルを保存します。
 
-1. ダウンロードしたファイルに移動し、圧縮されたファイルを展開します。
+1. ダウンロードしたファイルに移動し、zip 形式のファイルを解凍します。
 
-   Windows システムでは、右クリックして「 」を選択します。 **[!UICONTROL Extract All]** ファイル。 次に、保存先フォルダーを選択し、 **[!UICONTROL Extract]**.
+   Windows システムでは、右クリックして次のコマンドを選択します。 **[!UICONTROL Extract All]** ファイル。 次に、保存先フォルダーを選択し、 **[!UICONTROL Extract]**.
 
-   Macシステムでは、zip ファイルをダブルクリックして、抽出したファイルを保存先フォルダーに移動するだけで済みます。
+   Mac システムでは、zip ファイルをダブルクリックするだけで、抽出したファイルを保存先フォルダーに移動できます。
 
-   このフォルダーには、次の画像ファイルが含まれます。
+   フォルダーには、次の画像ファイルが含まれています。
 
-   ![[!DNL Page Builder] ウォークスルーファイル — シンプルページアセット](./assets/pb-tutorial-simple-page-assets.png){width="500"}
+   ![[!DNL Page Builder] チュートリアルファイル – 単純なページアセット](./assets/pb-tutorial-simple-page-assets.png){width="500"}
 
-このチュートリアルの 3 つの部分を順に実行します。
+このチュートリアルの 3 つの部分を順番に実行します。
 
-## 第 1 部：全裁ち落とし行（バナー付き）
+## パート 1：バナー付きフルブリード行
 
-「シンプルページ」の演習のこの部分では、フルブリードの行とバナーを含むページを作成します。 デスクトップとモバイルデバイスでは、行に異なる背景画像が表示されます。
+シンプルなページの演習のこの部分では、裁ち落とし行とバナーが満杯のページを作成します。 行の背景画像は、デスクトップとモバイルデバイスで異なります。
 
-![[!DNL Page Builder] バナー付きの完全な裁ち落とし行](./assets/pb-tutorial1-full-bleed-with-banner.png){width="700" zoomable="yes"}
+![[!DNL Page Builder] バナー付きフルブリードロー](./assets/pb-tutorial1-full-bleed-with-banner.png){width="700" zoomable="yes"}
 
-### 手順 1：ページの作成
+### 手順 1：ページを作成する
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. 右上隅で、 **[!UICONTROL Add New Page]** 次の操作を実行します。
+1. 右上隅のをクリックします。 **[!UICONTROL Add New Page]** 次の手順を実行します。
 
-   - このページがストアで公開されないようにするには、 **[!UICONTROL Enable Page]** から `No`.
+   - このページがストアで公開されないようにするには、次を設定します **[!UICONTROL Enable Page]** 対象： `No`.
 
-   - の場合 **[!UICONTROL Page Title]**，と入力します。 `Simple Page`.
+   - の場合 **[!UICONTROL Page Title]**、と入力します `Simple Page`.
 
-   ![基本ページ設定](./assets/pb-tutorial1-currently-active.png){width="600" zoomable="yes"}
+   ![基本的なページ設定](./assets/pb-tutorial1-currently-active.png){width="600" zoomable="yes"}
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Design]** 」セクションに入力します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Design]** セクション。
 
-   次の点に注意してください。 **[!UICONTROL Layout]** が `Page -- Full Width` デフォルトでは。 5 つの標準に加えて [レイアウト](../content-design/page-layout.md) オプション， [!DNL Page Builder] ページ、カテゴリ、製品の全幅レイアウトを追加します。
+   に注意してください **[!UICONTROL Layout]** はに設定されています。 `Page -- Full Width` デフォルトでは。 5 つの標準に加えて [layout](../content-design/page-layout.md) オプション、 [!DNL Page Builder] ページ、カテゴリ、製品に全幅レイアウトを追加します。
 
-1. サンプルデータが使用可能な場合は、 **[!UICONTROL New Theme]** から `Magento Luma`. それ以外の場合は、別の使用可能なテーマを選択するか、空白のままにしてデフォルトのテーマを使用できます。
+1. サンプルデータが使用可能な場合は、を設定します **[!UICONTROL New Theme]** 対象： `Magento Luma`. それ以外の場合は、別の使用可能なテーマを選択するか、空白のままにしてデフォルトのテーマを使用できます。
 
-   The _[!UICONTROL New Theme]_設定を使用して、デフォルトのテーマを上書きし、ページに別のテーマを適用することができます。
+   この _[!UICONTROL New Theme]_設定を使用して、デフォルトのテーマを上書きしたり、ページに別のテーマを適用したりできます。
 
    >[!NOTE]
    >
-   >全幅レイアウトは、互換性のある [テーマ](../content-design/themes.md).
+   >全幅レイアウトは、互換のでのみ使用できます [テーマ](../content-design/themes.md).
 
    ![ページデザイン設定](./assets/pb-tutorial1-design-section.png){width="600" zoomable="yes"}
 
-1. 右上隅で、 **[!UICONTROL Save]**.
+1. 右上隅のをクリックします。 **[!UICONTROL Save]**.
 
-   ページを保存する際に、名前 _単純なページ_ がページの左上隅に表示されます。
+   ページを保存すると、名前 _シンプルなページ_ ページの左上隅に表示されます。
 
-### 手順 2：行の書式設定
+### 手順 2：行のフォーマット
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Content]** 」セクションに入力します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Content]** セクション。
 
-   このアクションでは、 [!DNL Page Builder] 空の行でプレビューします。
+   このアクションにより、が表示されます [!DNL Page Builder] 空の行でプレビューします。
 
    >[!NOTE]
    >
-   >The [コンテンツ見出し](workspace.md) フィールドはオプションです。 デフォルトでは、テーマに応じて見出しレベル 1(H1) の形式で表示されます。 この演習では、 _コンテンツ見出し_ が空白のままの場合、
+   >この [コンテンツの見出し](workspace.md) フィールドはオプションです。 デフォルトでは、テーマに従って見出しレベル 1 （H1）の形式になっています。 この演習では、 _コンテンツの見出し_ は空白のままにします。
 
-   ![空の行を含むページコンテンツのプレビュー](./assets/pb-content-preview-empty.png){width="600" zoomable="yes"}
+   ![空の行を含むページコンテンツプレビュー](./assets/pb-content-preview-empty.png){width="600" zoomable="yes"}
 
-1. クリック **[!UICONTROL Edit with Page Builder]** または、コンテンツプレビュー領域内に配置します。
+1. クリック **[!UICONTROL Edit with Page Builder]** またはコンテンツプレビュー領域内です。
 
-   展開された [!DNL Page Builder] [workspace](workspace.md)の場合は、左側のパネルに、ステージでコンテンツを作成するために使用できるコンテンツツールが表示されます。
+   展開済み [!DNL Page Builder] [workspace](workspace.md)左側のパネルには、ステージでコンテンツを作成するためのコンテンツツールが表示されます。
 
 1. 空の行の上にマウスポインターを置くと、ツールボックスが表示されます。
 
@@ -104,76 +104,76 @@ ht-degree: 0%
 
    ![[!DNL Page Builder] 行ツールボックス](./assets/pb-layout-page-add-content-row-tools.png){width="600" zoomable="yes"}
 
-1. 行ツールボックスで、 _設定_ (![設定アイコン](./assets/pb-icon-settings.png){width="20"} アイコン。
+1. 行ツールボックスで、 _設定_ （![設定アイコン](./assets/pb-icon-settings.png){width="20"} アイコン。
 
-1. の下 _[!UICONTROL Appearance]_を選択します。**裁ち落とし（最大）**.
+1. 次の下 _[!UICONTROL Appearance]_、を選択&#x200B;**全出血**.
 
-   「裁ち落としの外観」設定では、行と背景のコンテンツ領域の左右の境界線が、ページの幅いっぱいに引き伸ばされます。
+   フルブリードアピアランスの設定では、行と背景のコンテンツ領域の左右の境界線がページの全幅に拡張されます。
 
-   ![行設定 — 裁ち落とし（全体）](./assets/pb-tutorial1-row-settings-appearance-full-bleed.png){width="600" zoomable="yes"}
+   ![行設定 – 裁ち落とし](./assets/pb-tutorial1-row-settings-appearance-full-bleed.png){width="600" zoomable="yes"}
 
-1. 下にスクロールして、 _[!UICONTROL Advanced]_「 」セクションと「**[!UICONTROL Margins and Padding]**設定 `0`.
+1. にスクロール ダウンします。 _[!UICONTROL Advanced]_section と set all **[!UICONTROL Margins and Padding]**設定 `0`.
 
-   この設定により、バナーが行の幅いっぱいに広がります。
+   この設定により、バナーが行の全幅を拡張します。
 
-   ![行設定 — 余白とパディング](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
+   ![行設定 – 余白とパディング](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-1. 設定を保存してに戻るには、以下を実行します。 [!DNL Page Builder] ワークスペースで、ページの上部までスクロールし、 **[!UICONTROL Save]** をクリックします。
+1. 設定を保存し、に戻るには [!DNL Page Builder] ワークスペースで、ページの上部までスクロールし、 **[!UICONTROL Save]** 右上隅
 
-### 手順 3：バナーを追加する
+### 手順 3：バナーの追加
 
 >[!NOTE]
 >
->[!DNL Page Builder] には、という名前の新しいコンテンツタイプがあります。 _バナー_：この手順で取り上げます。 以前は _バナー_ コンテンツメニューの「 」オプションが _ダイナミックブロック_.
+>[!DNL Page Builder] には、という名前の新しいコンテンツタイプがあります _バナー_&#x200B;この手順で紹介します。 以前は何でしたか？ _バナー_ コンテンツ メニューのオプションが _動的ブロック_.
 
-1. Adobe Analytics の [!DNL Page Builder] パネル、展開 **[!UICONTROL Media]** をクリックし、 **バナー** プレースホルダーをステージに追加します。
+1. が含まれる [!DNL Page Builder] パネル、展開 **[!UICONTROL Media]** をドラッグします。 **バナー** ステージへのプレースホルダー。
 
    ![バナーコンテンツタイプのステージへのドラッグ](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 1. バナーコンテナの上にマウスポインターを置くと、ツールボックスが表示されます。
 
    >[!NOTE]
    >
-   >ステージに 2 つのコンテンツコンテナが追加され、それぞれが別々のツールボックスになります。 バナーは行の中に入れ子になっているので、正しいツールボックスで作業していることを確認してください。
+   >ステージに 2 つのコンテンツコンテナが追加され、それぞれに個別のツールボックスが表示されます。 バナーは行内にネストされているので、正しいツールボックスで作業していることを確認してください。
 
-   ツールボックスに加えて、 _画像をアップロード_ および _ギャラリーから選択_ ボタンが含まれているので、ステージから直接バナーをすばやく変更できます。
+   ツールボックスに加えて、 _画像をアップロード_ および _ギャラリーから選択_ ボタンを使用すると、ステージから直接バナーに素早く変更を加えることができます。
 
    ![バナーツールボックス](./assets/pb-tutorial1-banner-toolbox.png){width="600" zoomable="yes"}
 
-1. バナーツールボックスで、 _設定_ ( ![設定アイコン](./assets/pb-icon-settings.png){width="20"} ) アイコンをクリックします。
+1. バナーツールボックスで、 _設定_ （ ![設定アイコン](./assets/pb-icon-settings.png){width="20"} ） アイコンをクリックします。
 
-1. の下 _[!UICONTROL Appearance]_を選択します。**[!UICONTROL Collage Right]**.
+1. 次の下 _[!UICONTROL Appearance]_、を選択&#x200B;**[!UICONTROL Collage Right]**.
 
-   「右揃え」設定では、コンテンツがバナーの右側に配置されます。
+   右にコラージュ設定では、コンテンツがバナーの右側に配置されます。
 
-   ![バナーの外観 — 右揃え](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
+   ![バナーの外観 – 右のコラージュ](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
-1. 下にスクロールして、 _[!UICONTROL Background]_「 」セクションに移動して、バナーの背景画像を設定します。
+1. にスクロール ダウンします。 _[!UICONTROL Background]_セクションに移動して、バナーの背景画像を設定します。
 
-   - の場合 **[!UICONTROL Background Image]**&#x200B;をクリックし、 **アップロード**.
+   - の場合 **[!UICONTROL Background Image]**&#x200B;を選択し、 **Upload**.
 
-     ![バナーの背景 — 画像をアップロード](./assets/pb-tutorial1-row-background-image-upload.png){width="600" zoomable="yes"}
+     ![バナーの背景 – 画像のアップロード](./assets/pb-tutorial1-row-background-image-upload.png){width="600" zoomable="yes"}
 
-     抽出したシンプルページアセットを保存したディレクトリに移動し、を選択します。 `wide-banner-background.jpg` ファイル。
+     抽出したシンプルなページアセットを保存したディレクトリに移動して、 `wide-banner-background.jpg` ファイル。
 
-     画像がアップロードされ、アップロードされた画像のサムネールが表示されます。 ファイル名、画像のサイズ、ファイルサイズについては、以下に説明します。
+     画像がアップロードされ、アップロードされた画像のサムネールが表示されます。 ファイル名、画像のサイズおよびファイルサイズについては、以下で説明します。
 
-     ![メディアギャラリーにアップロードされた背景画像](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
+     ![メディアギャラリーへのアップロード済み背景画像](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
-   - の場合 **[!UICONTROL Background Mobile Image]**&#x200B;をクリックし、 **アップロード**.
+   - の場合 **[!UICONTROL Background Mobile Image]**&#x200B;を選択し、 **Upload**.
 
      同じファイルディレクトリで、 `wide-banner-background-mobile.jpg` ファイル。
 
-     モバイルの背景画像は、モバイルデバイスに使用されるほか、デスクトップブラウザーウィンドウがモバイルデバイスの幅に合わせてサイズ変更される場合にも使用されます。
+     モバイルの背景画像はモバイルデバイスで使用され、デスクトップブラウザーウィンドウのサイズがモバイルデバイスの幅に変更された場合にも使用されます。
 
      ![モバイル用のサンプルバナー画像ファイルの選択](./assets/pb-tutorial1-row-settings-background-mobile-image-selected.png){width="600" zoomable="yes"}
 
-   - ページの先頭までスクロールし、をクリックします。 **[!UICONTROL Save]** 設定を保存し、に戻るには、以下の手順に従います。 [!DNL Page Builder] ワークスペース。
+   - ページの先頭までスクロールして戻り、 **[!UICONTROL Save]** 設定を保存し、に戻ります [!DNL Page Builder] ワークスペース。
 
-     背景はステージに表示され、行の幅全体に広がります。
+     背景がステージ上に表示され、行の全幅を拡張します。
 
      ![背景画像付きバナー](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
-   行の右側に表示されるプレースホルダーテキストに注目します。 このテキストの位置は、 _右揃え_ 外観の設定。
+   行の右側にプレースホルダーテキストが表示されます。 このテキストの位置は、 _コラージュ権限_ 外観設定。
 
 1. プレースホルダーテキストをクリックし、次のメッセージを 2 行で入力します。
 
@@ -181,289 +181,289 @@ ht-degree: 0%
 
    `New LUMA yoga collection`
 
-   テキストボックスの上にエディターツールバーが表示されます。 テキストは、ステージから直接入力するか、「 」を選択して書式設定できます _設定_ 」を選択します。
+   テキストボックスの上にエディターツールバーが表示されます。 テキストの入力と書式設定は、ステージから直接行うことも、 _設定_ バナーのツールボックスで調整します。
 
    ![ステージからのバナーコンテンツの編集](./assets/pb-tutorial1-banner-stage-text.png){width="600" zoomable="yes"}
 
-1. テキストに書式を適用します。
+1. テキストに書式を適用する：
 
-   - テキストの最初の行を選択します。 次に、エディターツールバーで、 **形式**&#x200B;を選択します。 `Heading 2`.
+   - テキストの 1 行目を選択します。 次に、の下にあるエディターツールバーで **形式**、を選択 `Heading 2`.
 
-     ![見出し 2 形式の適用](./assets/pb-tutorial1-banner-stage-text-format-line1.png){width="600" zoomable="yes"}
+     ![「見出し 2」フォーマットの適用](./assets/pb-tutorial1-banner-stage-text-format-line1.png){width="600" zoomable="yes"}
 
-   - テキストの 2 行目を選択します。 次に、エディターツールバーで、 **形式**&#x200B;を選択します。 `Paragraph`.
+   - 2 行目のテキストを選択します。 次に、の下にあるエディターツールバーで **形式**、を選択 `Paragraph`.
 
-   形式設定では、現在のテーマに関連付けられているスタイルシートからスタイルが適用されます。
+   形式設定は、現在のテーマに関連付けられているスタイルシートのスタイルを適用します。
 
-   ![書式付きテキストを含むコンテンツステージのバナー](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
+   ![コンテンツステージのバナー（書式設定されたテキストを含む）](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
 __
 
-1. カーソルを合わせてバナーツールボックスを表示し、 _設定_ ( ![設定アイコン](./assets/pb-icon-settings.png){width="20"} ) アイコンを再度クリックし、スクロールして _[!UICONTROL Content]_」セクションに入力します。
+1. カーソルを合わせてバナーツールボックスを表示し、 _設定_ （ ![設定アイコン](./assets/pb-icon-settings.png){width="20"} ）アイコンをもう一度クリックし、 _[!UICONTROL Content]_セクション。
 
-   テキストが _メッセージテキスト_ ボックス。 テキストは、ステージまたは _[!UICONTROL Content]_」セクションに表示されます。
+   にテキストが表示されていることに注意してください。 _メッセージテキスト_ ボックス。 テキストの入力と編集は、ステージまたは _[!UICONTROL Content]_バナー設定の「」セクション。
 
-   ![バナー設定 — メッセージテキスト](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
+   ![バナー設定 – メッセージテキスト](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
-1. 次で続行： _[!UICONTROL Content]_「 」セクションで、バナーのリンクとボタンを設定します。
+1. 継続#セツゾク# _[!UICONTROL Content]_セクションで、バナーリンクとボタンを設定します。
 
-   - 設定 **リンク** から `Category`をクリックし、 **[!UICONTROL Select]** をクリックして、カテゴリツリーを表示します。
+   - を設定 **リンク** 対象： `Category`を選択し、 **[!UICONTROL Select]** カテゴリ ツリーを表示します。
 
-   - 選択 `What's New` をリンクされたカテゴリとして使用します。
+   - を選択 `What's New` をリンクされたカテゴリとして設定します。
 
-     ![バナーコンテンツ — カテゴリへのリンク](./assets/pb-tutorial1-banner-settings-link-category-tree.png){width="600" zoomable="yes"}
+     ![バナーコンテンツ – カテゴリへのリンク](./assets/pb-tutorial1-banner-settings-link-category-tree.png){width="600" zoomable="yes"}
 
-   - 設定 **[!UICONTROL Show Button]** から `Always`.
+   - を設定 **[!UICONTROL Show Button]** 対象： `Always`.
 
-   - の場合 **[!UICONTROL Button Text]**，と入力します。 `Shop Now` を、ボタンに表示されるテキストとして使用します。
+   - の場合 **[!UICONTROL Button Text]**、と入力します `Shop Now` をボタンに表示されるテキストとして使用します。
 
-   - の場合 **[!UICONTROL Button Type]**&#x200B;を受け入れ、 `Primary` デフォルト。
+   - の場合 **[!UICONTROL Button Type]**、を承認します `Primary` デフォルト。
 
      現在のテーマのボタンのスタイルによって、ボタンの形式が決まります。
 
 1. バナーオーバーレイを設定します。
 
-   オーバーレイを使用して、「外観」設定で定義されたアクティブなコンテンツ領域に背景色を適用できます。 バナーの背景画像は、バナーの幅全体にわたって表示されたままになります。
+   オーバーレイを使用して、アピアランス設定で定義されたアクティブなコンテンツ領域に背景色を適用できます。 バナーの背景画像は、バナーの全幅に対して表示されたままになります。
 
-   - 設定 **[!UICONTROL Show Overlay]** から `Always`.
+   - を設定 **[!UICONTROL Show Overlay]** 対象： `Always`.
 
-   - の場合 **[!UICONTROL Overlay Color]**、次のいずれかの操作を行います。
+   - の場合 **[!UICONTROL Overlay Color]**&#x200B;次のいずれかの操作をおこないます。
 
-      - カラースクエアをクリックし、白のスウォッチを選択します。
-      - をクリックします。 _カラーなし_ テキストボックスに `White` または 16 進値 `#ffffff`.
+      - カラーの四角形をクリックし、白いスウォッチを選択します。
+      - 内をクリック _カラーなし_ テキストボックスに「」と入力 `White` または 16 進数値 `#ffffff`.
 
-     次に、「 **[!UICONTROL Apply]**.
+     次に、 **[!UICONTROL Apply]**.
 
-     ![バナー設定 — ボタンオーバーレイのカラー](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
+     ![バナー設定 – ボタンのオーバーレイカラー](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
 
-   - ページの先頭までスクロールし、をクリックします。 **[!UICONTROL Save]** 設定を保存し、に戻るには、以下の手順に従います。 [!DNL Page Builder] ワークスペース。
+   - ページの先頭までスクロールして戻り、 **[!UICONTROL Save]** 設定を保存し、に戻ります [!DNL Page Builder] ワークスペース。
 
-     このボタンは、ステージ上のバナーメッセージの下に表示されます。
+     ボタンは、ステージのバナーメッセージの下に表示されます。
 
-     ![テキストメッセージとボタンを含むコンテンツステージ内のバナー](./assets/pb-tutorial1-banner-stage-background-color.png){width="600" zoomable="yes"}
+     ![テキストメッセージとボタンを含むコンテンツステージのバナー](./assets/pb-tutorial1-banner-stage-background-color.png){width="600" zoomable="yes"}
 
-1. ステージの右上隅で、 _全画面表示を閉じる_ (![全画面表示アイコンを閉じる](./assets/pb-icon-reduce.png)) アイコンをクリックします。
+1. ステージの右上隅にあるをクリックします _全画面表示を閉じる_ （![全画面表示アイコンを閉じる](./assets/pb-icon-reduce.png)） アイコンをクリックします。
 
-   このアイコンをクリックすると、 _[!UICONTROL Content]_」セクションにプレビューが表示されます。
+   このアイコンをクリックすると、に戻ります _[!UICONTROL Content]_プレビューが表示されたページの「」セクション。
 
-   2 つのワークスペースモードは、いつでも必要に応じて切り替えることができます。
+   2 つのワークスペースモードは、必要に応じていつでも切り替えることができます。
 
-1. 右上隅で、 **[!UICONTROL Save]** 矢印と選択 **[!UICONTROL Save & Close]**.
+1. 右上隅のをクリックします **[!UICONTROL Save]** 矢印と選択 **[!UICONTROL Save & Close]**.
 
-1. プロンプトが表示されたら、 [キャッシュ管理](../systems/cache-management.md) リンクをクリックして、無効なキャッシュを更新します。
+1. プロンプトが表示されたら、 [キャッシュ管理](../systems/cache-management.md) ページ上部のメッセージ内のリンクをクリックし、無効なキャッシュを更新します。
 
-## パート 2:2 つの等しい列を持つ行が含まれます
+## パート 2:2 つの等しい列を持つ行
 
-この演習のこの部分では、ページに行を追加し、その行を 2 つの等しい列に分割します。 次に、各列にリンクされた画像を追加します。 手順では、各新しい行が最初の行の前に追加され、 [!DNL Page Builder] パネルはステージと並んでいます。 演習の最後に、単純なページの例に合うように行を並べ替えます。
+演習のこの部分では、ページに行を追加し、その行を 2 つの等しい列に分割します。 次に、各列にリンク画像を追加します。 この手順では、新しい各行を最初の行の前に追加して、 [!DNL Page Builder] ステージに合わせてパネルを並べます。 演習の最後では、簡単なページの例と一致するように行を並べ替えます。
 
-![2 つの等しい列を持つ含まれる行を使用するページの例](./assets/pb-tutorial1-contained-row-with-two-equal-columns.png){width="600" zoomable="yes"}
+![2 つの等しい列を持つ含まれた行を使用したページの例](./assets/pb-tutorial1-contained-row-with-two-equal-columns.png){width="600" zoomable="yes"}
 
 ### 手順 1：行を追加
 
-1. ページグリッドで、 _単純なページ_ この演習の最初の部分で作成し、「 **[!UICONTROL Edit]** （内） _[!UICONTROL Action]_列。
+1. ページグリッドで、を見つけます。 _シンプルなページ_ この練習の最初のパートで作成し、を選択していること **[!UICONTROL Edit]** が含まれる _[!UICONTROL Action]_列。
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Content]** 」セクションに入力します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Content]** セクション。
 
-1. クリック **[!UICONTROL Edit with Page Builder]** または、コンテンツプレビュー領域内に配置します。
+1. クリック **[!UICONTROL Edit with Page Builder]** またはコンテンツプレビュー領域内です。
 
-1. Adobe Analytics の [!DNL Page Builder] 下のパネル _[!UICONTROL Layout]_、**[!UICONTROL Row]**ステージのプレースホルダーを追加し、バナーの上に配置します。
+1. が含まれる [!DNL Page Builder] 下のパネル _[!UICONTROL Layout]_、ドラッグ：**[!UICONTROL Row]**プレースホルダーをステージに追加して、バナーの上に配置します。
 
-   赤いガイドラインは、2 つの行の間の境界を示します。
+   赤いガイドラインは、2 行の境界を示します。
 
    ![バナーの上に新しい行を追加](./assets/pb-tutorial1-row-drag-to-stage.png){width="600" zoomable="yes"}
 
-1. 新しい行の上にマウスポインターを置いてツールボックスを表示し、 _設定_ ( ![設定アイコン](./assets/pb-icon-settings.png){width="20"} ) アイコンをクリックします。
+1. 新しい行にカーソルを合わせてツールボックスを表示し、 _設定_ （ ![設定アイコン](./assets/pb-icon-settings.png){width="20"} ） アイコンをクリックします。
 
    ![行ツールボックス](./assets/pb-tutorial1-row-settings.png){width="600" zoomable="yes"}
 
-1. の下 _[!UICONTROL Appearance]_を受け入れ、**含む**デフォルト設定です。
+1. 次の下 _[!UICONTROL Appearance]_、を承認します&#x200B;**含まれる**デフォルト設定。
 
-   この設定は、行のコンテンツ領域を、テーマで定義されたページの幅に制限します。
+   この設定により、テーマで定義されているページの幅に行のコンテンツ領域が制限されます。
 
-   ![デフォルトの「含まれる外観」設定を維持する](./assets/pb-tutorial1-row-settings-appearance.png){width="600" zoomable="yes"}
+   ![デフォルトの「含まれる外観」設定の維持](./assets/pb-tutorial1-row-settings-appearance.png){width="600" zoomable="yes"}
 
-1. 右上隅で、 **[!UICONTROL Save]** 設定を保存し、に戻るには、以下の手順に従います。 [!DNL Page Builder] ワークスペース。
+1. 右上隅のをクリックします。 **[!UICONTROL Save]** 設定を保存し、に戻ります [!DNL Page Builder] ワークスペース。
 
-### 手順 2：列を追加する
+### 手順 2：列の追加
 
-1. Adobe Analytics の [!DNL Page Builder] 下のパネル _[!UICONTROL Layout]_、**[!UICONTROL Column]**プレースホルダーを新しい行に追加します。
+1. が含まれる [!DNL Page Builder] 下のパネル _[!UICONTROL Layout]_、ドラッグ：**[!UICONTROL Column]**新しい行へのプレースホルダー。
 
-   ![列のコンテンツタイプのステージへのドラッグ](./assets/pb-tutorial1-column-drag-to-stage.png){width="600" zoomable="yes"}
+   ![列コンテンツタイプのステージへのドラッグ](./assets/pb-tutorial1-column-drag-to-stage.png){width="600" zoomable="yes"}
 
-   これで、行が同じ幅の 2 つの列に分割されます。 各列は、コンテンツ用の個別のコンテナで、独自のオプション用ツールボックスがあります。
+   これで、行が同じ幅の 2 つの列に分割されました。 各列は、コンテンツ用の個別のコンテナであり、専用のオプションのツールボックスを持ちます。
 
-   ![同じ幅の 2 列を持つ行](./assets/pb-tutorial1-columns-equal-width.png){width="600" zoomable="yes"}
+   ![幅が等しい 2 つの列を持つ行](./assets/pb-tutorial1-columns-equal-width.png){width="600" zoomable="yes"}
 
-1. 最初の列の左上隅で、円をクリックします。 _グリッド_ コントロール (![グリッドコントロール](./assets/pb-icon-grid-control.png)) をクリックして、グリッドのガイドラインを表示します。
+1. 最初の列の左上隅にある円形をクリックします _グリッド_ コントロール （![グリッドコントロール](./assets/pb-icon-grid-control.png)）を選択して、グリッドガイドラインを表示します。
 
-   グリッドを使用すると、コンテンツの整列が一貫しておこなわれ、デスクトップとモバイルの両方のデバイスでコンテンツが正しくレンダリングされます。 グリッドサイズの設定について詳しくは、 [設定 [!DNL Page Builder]](setup.md#configure-page-builder) セクション内 [!DNL Page Builder] トピックを設定します。
+   グリッドにより、コンテンツの一貫性が確保され、デスクトップとモバイルデバイスの両方で正しくレンダリングされます。 グリッド サイズの設定については、 [設定 [!DNL Page Builder]](setup.md#configure-page-builder) セクション： [!DNL Page Builder] 設定トピック。
 
-   各列コンテナの上の枠の(6/12)の括弧内の数字は、各列のグリッド分割数と、行の分割総数を示します。
+   各列コンテナの上部の境界線の括弧内の数字（6/12）は、各列のグリッド分割数と、行内の分割数の合計を示します。
 
-   ![列のグリッドサイズの詳細を表示しています](./assets/pb-tutorial1-columns-grid-size.png){width="600" zoomable="yes"}
+   ![列のグリッド・サイズの詳細の表示](./assets/pb-tutorial1-columns-grid-size.png){width="600" zoomable="yes"}
 
-### 手順 3：リンクを含む画像を追加する
+### 手順 3：リンクを使用した画像の追加
 
-この手順では、画像をバナーにアップロードする方法を学びます。
+この手順では、画像をバナーにアップロードする方法を説明します。
 
-1. Adobe Analytics の [!DNL Page Builder] パネル、展開 **[!UICONTROL Media]** セクションを開き、 **[!UICONTROL Image]** プレースホルダーを最初の列に追加します。
+1. が含まれる [!DNL Page Builder] パネルの、 **[!UICONTROL Media]** を選択してドラッグ **[!UICONTROL Image]** 最初の列へのプレースホルダー。
 
-   ![画像コンテンツタイプを最初の列にドラッグしています](./assets/pb-tutorial1-column1-media-image-drag.png){width="600" zoomable="yes"}
+   ![画像コンテンツタイプを最初の列にドラッグ](./assets/pb-tutorial1-column1-media-image-drag.png){width="600" zoomable="yes"}
 
-1. プレースホルダーにサンプル画像を挿入します。
+1. サンプル画像をプレースホルダに挿入します。
 
-   ![画像プレースホルダー](./assets/pb-tutorial1-column-image-upload.png){width="600" zoomable="yes"}
+   ![画像のプレースホルダー](./assets/pb-tutorial1-column-image-upload.png){width="600" zoomable="yes"}
 
-   ご使用のシステム上にある am イメージの場合、次のいずれかの方法を選択できます。
+   システム上の画像の場合は、次のいずれかの方法を選択できます。
 
-   - **画像ファイルをアップロード**：最初の列で、 **[!UICONTROL Upload Image]**. 次に、抽出したシンプルページアセットを保存したディレクトリに移動し、 `small-banner-1.jpg` ファイル。
+   - **画像ファイルのアップロード**：最初の列で、 **[!UICONTROL Upload Image]**. 次に、抽出したシンプルなページアセットを保存したディレクトリに移動して、を選択します。 `small-banner-1.jpg` ファイル。
 
-     ![最初の列に追加されたアップロード済み画像](./assets/pb-tutorial1-column1-image.png){width="600" zoomable="yes"}
+     ![アップロードされた画像が最初の列に追加されました](./assets/pb-tutorial1-column1-image.png){width="600" zoomable="yes"}
 
-     この操作を繰り返して、 `small-banner-2.jpg` ファイルを 2 列目にコピーします。
+     このアクションを繰り返して、 `small-banner-2.jpg` ファイルを 2 番目の列に追加します。
 
-   - **画像ファイルをドラッグします。**：デスクトップで、シンプルページアセットフォルダーを開き、を操作している Admin ブラウザーウィンドウの横に配置します。 [!DNL Page Builder] ステージ。 次に、ファイルをドラッグします。 `small-banner-1.jpg` をシンプルページの assets フォルダーから削除し、最初の列にドロップします。
+   - **画像ファイルをドラッグ**：デスクトップで、シンプルページアセットフォルダーを開いて、を使用している管理者ブラウザーウィンドウの横に配置します [!DNL Page Builder] ステージ。 次に、ファイルをドラッグします `small-banner-1.jpg` simple page assets フォルダーから、最初の列にドロップします。
 
      ![画像を 2 列目にドラッグ](./assets/pb-tutorial1-column-image-drag.png){width="600" zoomable="yes"}
 
-     この操作を繰り返して、 `small-banner-2.jpg` ファイルを 2 列目にコピーします。
+     このアクションを繰り返して、 `small-banner-2.jpg` ファイルを 2 番目の列に追加します。
 
-1. カタログ内のどのページを各画像にリンクするかを決定します。
+1. 各画像にリンクするページをカタログから決定します。
 
-1. 最初の列の画像の上にマウスポインターを置いてツールボックスを表示し、 _設定_ ( ![設定アイコン](./assets/pb-icon-settings.png){width="20"} ) アイコンをクリックします。
+1. 最初の列の画像の上にマウスポインターを置いてツールボックスを表示し、 _設定_ （ ![設定アイコン](./assets/pb-icon-settings.png){width="20"} ） アイコンをクリックします。
 
    ![画像ツールボックス](./assets/pb-tutorial1-column1-image-settings.png){width="600" zoomable="yes"}
 
-1. 画像をカテゴリにリンク：
+1. 画像をカテゴリにリンクする：
 
-   - 下にスクロールして、 **リンク** から `Category`.
+   - 下にスクロールして設定 **リンク** 対象： `Category`.
 
-   - カテゴリツリーで、ドリルダウンして「 `Men's Hoodies & Sweatshirt` カテゴリ。
+   - カテゴリツリーでドリルダウンし、 `Men's Hoodies & Sweatshirt` カテゴリ。
 
-   - 右上隅に、 **[!UICONTROL Save]** 設定を行い、 [!DNL Page Builder] ワークスペース。
+   - 右上隅に **[!UICONTROL Save]** 設定を選択し、に戻ります。 [!DNL Page Builder] ワークスペース。
 
-1. 前の手順を繰り返して、2 列目の画像を _ギア_ カテゴリ。
+1. 前の手順を繰り返して、2 列目の画像をにリンクします _歯車_ カテゴリ。
 
-1. ステージの右上隅で、 _全画面表示を閉じる_ (![全画面表示アイコンを閉じる](./assets/pb-icon-reduce.png)) アイコンをクリックします。
+1. ステージの右上隅にあるをクリックします _全画面表示を閉じる_ （![全画面表示アイコンを閉じる](./assets/pb-icon-reduce.png)） アイコンをクリックします。
 
-   このアイコンをクリックすると、 _[!UICONTROL Content]_」セクションにプレビューが表示されます。
+   このアイコンをクリックすると、に戻ります _[!UICONTROL Content]_プレビューが表示されたページの「」セクション。
 
-1. 右上隅で、 **[!UICONTROL Save]** 矢印と選択 **[!UICONTROL Save & Close]**.
+1. 右上隅のをクリックします **[!UICONTROL Save]** 矢印と選択 **[!UICONTROL Save & Close]**.
 
-1. プロンプトが表示されたら、 [キャッシュ管理](../systems/cache-management.md) リンクをクリックして、無効なキャッシュを更新します。
+1. プロンプトが表示されたら、 [キャッシュ管理](../systems/cache-management.md) ページ上部のメッセージ内のリンクをクリックし、無効なキャッシュを更新します。
 
-## 第 3 部：列が同じでない全幅の行
+## パート 3：列が等しくない全幅の行
 
-このページの最後の行には、製品レビューのコンテンツが記載されています。 全幅の行を追加し、異なる幅の 2 列に分割します。 1 列目に背景画像が追加され、統一された効果を得るために行に適用される一致する背景色が設定されます。
+このページの最後の行には、製品レビューのコンテンツが表示されます。 全幅の行を追加し、幅の異なる 2 つの列に分割します。 最初の列に背景画像が追加され、一致する背景色が行に適用されて、統一された効果が得られます。
 
-![幅が異なる列を含む全幅の行の例](./assets/pb-tutorial1-full-width-row-two-unequal-columns.png){width="500"}
+![異なる幅の列を持つ全幅の行の例](./assets/pb-tutorial1-full-width-row-two-unequal-columns.png){width="500"}
 
 ### 手順 1：行を追加
 
-1. ページグリッドで、 _単純なページ_ この演習の最初の部分で作成し、「 **[!UICONTROL Edit]** （内） _[!UICONTROL Action]_列。
+1. ページグリッドで、を見つけます。 _シンプルなページ_ この練習の最初のパートで作成し、を選択していること **[!UICONTROL Edit]** が含まれる _[!UICONTROL Action]_列。
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Content]** 」セクションに入力します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Content]** セクション。
 
-1. クリック **[!UICONTROL Edit with Page Builder]** または、コンテンツプレビュー領域内に配置します。
+1. クリック **[!UICONTROL Edit with Page Builder]** またはコンテンツプレビュー領域内です。
 
-1. Adobe Analytics の [!DNL Page Builder] 下のパネル _[!UICONTROL Layout]_、**[!UICONTROL Row]**プレースホルダーをステージに追加し、この演習の 2 番目の部分で作成した行の上に配置します。
+1. が含まれる [!DNL Page Builder] 下のパネル _[!UICONTROL Layout]_、ドラッグ：**[!UICONTROL Row]**ステージにプレースホルダーを配置し、この演習の 2 番目の部分で作成した行の上に配置します。
 
-   赤いガイドラインは、2 つの行の間の境界を示します。
+   赤いガイドラインは、2 行の境界を示します。
 
    ![新しい行の追加](./assets/pb-tutorial1-add-new-row.png){width="600" zoomable="yes"}
 
-1. 新しい行の上にマウスポインターを置いてツールボックスを表示し、 _設定_ (![設定アイコン](./assets/pb-icon-settings.png){width="20"} ) アイコンをクリックします。
+1. 新しい行にカーソルを合わせてツールボックスを表示し、 _設定_ （![設定アイコン](./assets/pb-icon-settings.png){width="20"} ） アイコンをクリックします。
 
    ![行ツールボックス](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
 
-1. 行を編集ページの _[!UICONTROL Appearance]_を選択します。**[!UICONTROL Full Width]**.
+1. の下にある行を編集ページで _[!UICONTROL Appearance]_、を選択&#x200B;**[!UICONTROL Full Width]**.
 
-   この設定により、コンテンツ領域がテーマで定義されているページの幅の最大値に制限されます。 背景色や画像は制限されず、行の幅全体を広げます。
+   この設定により、コンテンツ領域が、テーマで定義されている最大ページ幅に制限されます。 背景色や画像に制限はなく、行の全幅を広げます。
 
    ![全幅の外観の選択](./assets/pb-tutorial1-row-settings-appearance-full-width.png){width="600" zoomable="yes"}
 
-1. Adobe Analytics の _[!UICONTROL Background]_セクションに入力 `#f1f1f1` として&#x200B;**[!UICONTROL Background Color]**.
+1. が含まれる _[!UICONTROL Background]_セクション、を入力 `#f1f1f1` as the **[!UICONTROL Background Color]**.
 
    ![背景色の設定](./assets/pb-tutorial1-row-settings-background-color.png){width="600" zoomable="yes"}
 
-1. 下にスクロールして、 _[!UICONTROL Advanced]_「 」セクションと「**余白とパディング**の値 `0`.
+1. にスクロール ダウンします。 _[!UICONTROL Advanced]_section と set all **余白とパディング**値：至 `0`.
 
    ![余白とパディングの設定](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-1. ページの先頭までスクロールし、をクリックします。 **[!UICONTROL Save]** 設定を保存し、に戻るには、以下の手順に従います。 [!DNL Page Builder] ワークスペース。
+1. ページの先頭までスクロールして戻り、 **[!UICONTROL Save]** 設定を保存し、に戻ります [!DNL Page Builder] ワークスペース。
 
-   行の背景色が薄いベージュになりました。
+   行の背景色が淡いベージュになります。
 
-   ![ステージの背景色の行](./assets/pb-tutorial1-row-background-beige.png){width="600" zoomable="yes"}
+   ![ステージ内の背景色を含む行](./assets/pb-tutorial1-row-background-beige.png){width="600" zoomable="yes"}
 
-### 手順 2：異なる幅の列を追加する
+### 手順 2：異なる幅の列の追加
 
-1. Adobe Analytics の [!DNL Page Builder] 下のパネル _[!UICONTROL Layout]_、**[!UICONTROL Column]**プレースホルダーをステージの上の行に追加します。
+1. が含まれる [!DNL Page Builder] 下のパネル _[!UICONTROL Layout]_、ドラッグ：**[!UICONTROL Column]**ステージの一番上の行へのプレースホルダー。
 
-   ![ステージへの列のドラッグ](./assets/pb-tutorial1-column-drag.png){width="600" zoomable="yes"}
+   ![列をステージにドラッグ](./assets/pb-tutorial1-column-drag.png){width="600" zoomable="yes"}
 
-1. 最初の列の右の境界線を 12 の 4 つにドラッグします (`4/12`) の位置を指定します。
+1. 最初の列の右側の境界線をドラッグして、「4/12」にします（`4/12`）をグリッド上に配置します。
 
-   2 番目の列のサイズは、12 の 8 に調整されます (`8/12`) をクリックします。
+   2 番目の列のサイズは、8/12 に調整されます（`8/12`）に設定します。
 
    ![最初の列のサイズ変更](./assets/pb-tutorial1-column-first-4.png){width="600" zoomable="yes"}
 
-1. 最初の列コンテナの上にマウスポインターを置いてツールボックスを表示し、 _設定_ ( ![設定アイコン](./assets/pb-icon-settings.png){width="20"} ) アイコンをクリックします。
+1. 最初の列コンテナにポインタを合わせてツールボックスを表示し、 _設定_ （ ![設定アイコン](./assets/pb-icon-settings.png){width="20"} ） アイコンをクリックします。
 
-1. 下にスクロールして、 _[!UICONTROL Advanced]_「 」セクションと「**余白とパディング**の値 `0`.
+1. にスクロール ダウンします。 _[!UICONTROL Advanced]_section と set all **余白とパディング**値：至 `0`.
 
    ![余白とパディングの設定](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-1. ページの先頭までスクロールし、をクリックします。 **[!UICONTROL Save]** 設定を保存し、に戻るには、以下の手順に従います。 [!DNL Page Builder] ワークスペース。
+1. ページの先頭までスクロールして戻り、 **[!UICONTROL Save]** 設定を保存し、に戻ります [!DNL Page Builder] ワークスペース。
 
-### 手順 3：最初の列に画像を追加する
+### 手順 3：最初の列への画像の追加
 
-1. Adobe Analytics の [!DNL Page Builder] パネル、展開 **[!UICONTROL Media]** をクリックし、 **[!UICONTROL Image]** コンテンツタイプを最初の列に設定します。
+1. が含まれる [!DNL Page Builder] パネル、展開 **[!UICONTROL Media]** をドラッグして **[!UICONTROL Image]** 最初の列にコンテンツタイプを追加します。
 
-   ![画像コンテンツタイプを最初の列にドラッグしています](./assets/pb-tutorial1-column1-image-drag.png){width="600" zoomable="yes"}
+   ![画像コンテンツタイプを最初の列にドラッグ](./assets/pb-tutorial1-column1-image-drag.png){width="600" zoomable="yes"}
 
-1. 画像プレースホルダーで、 **[!UICONTROL Upload Image]**.
+1. 画像のプレースホルダーでをクリックします **[!UICONTROL Upload Image]**.
 
    ![画像をアップロード](./assets/pb-tutorial1-column1-image-upload.png){width="600" zoomable="yes"}
 
-1. 抽出したシンプルページアセットを保存したディレクトリに移動し、を選択します。 `review-image.jpg` ファイル。
+1. 抽出したシンプルなページアセットを保存したディレクトリに移動して、 `review-image.jpg` ファイル。
 
    アップロードされた画像は最初の列に表示され、行の背景色とシームレスにブレンドされます。
 
-   ![列に追加されたアップロード済み画像](./assets/pb-tutorial1-column1-image-uploaded.png){width="600" zoomable="yes"}
+   ![アップロードした画像が列に追加されました](./assets/pb-tutorial1-column1-image-uploaded.png){width="600" zoomable="yes"}
 
-### 手順 4:2 列目にレビューコンテンツを追加する
+### 手順 4:2 列目へのレビューコンテンツの追加
 
-行の 2 列目には、5 つ星の評価画像や書式付きテキストメッセージなど、顧客のレビューによるコンテンツを含める必要があります。
+行の 2 番目の列には、顧客レビューのコンテンツ（5 つ星評価の画像と書式設定されたテキストメッセージを含む）が含まれている必要があります。
 
-1. Adobe Analytics の [!DNL Page Builder] パネル、展開 **[!UICONTROL Elements]** セクションを開き、 **[!UICONTROL Text]** コンテンツタイプを 2 列目に設定します。
+1. が含まれる [!DNL Page Builder] パネルの、 **[!UICONTROL Elements]** 「」セクションをドラッグします。 **[!UICONTROL Text]** 2 番目の列にコンテンツタイプを追加します。
 
-   ![テキストコンテンツタイプのステージへのドラッグ](./assets/pb-tutorial1-column2-text-drag.png){width="600" zoomable="yes"}
+   ![テキストコンテンツタイプをステージにドラッグ](./assets/pb-tutorial1-column2-text-drag.png){width="600" zoomable="yes"}
 
 1. テキスト要素内をクリックして、エディターツールバーを表示します。
 
-1. ツールバーで、 _画像を挿入_ (![画像挿入アイコン](./assets/editor-btn-insert-edit-image.png)) アイコンをクリックし、次の操作を実行します。
+1. ツールバーで、 _画像の挿入_ （![画像を挿入アイコン](./assets/editor-btn-insert-edit-image.png)） アイコンをクリックし、次の操作を実行します。
 
    ![テキストへの画像の挿入](./assets/pb-tutorial1-column2-editor-toolbar-insert-image.png){width="600" zoomable="yes"}
 
-   - Adobe Analytics の _[!UICONTROL Insert/edit image]_ダイアログで、_&#x200B;検索文字列&#x200B;_( ![検索アイコン](./assets/editor-btn-find-source.png) ) アイコンをクリックします。_[!UICONTROL Source]_ フィールドに入力します。
+   - が含まれる _[!UICONTROL Insert/edit image]_ダイアログで、_&#x200B;検索&#x200B;_（ ![検索アイコン](./assets/editor-btn-find-source.png) ）アイコンが表示されます。_[!UICONTROL Source]_ フィールド。
 
-     ![画像の挿入/編集ダイアログ](./assets/pb-tutorial1-column2-text-insert-edit-image.png){width="600" zoomable="yes"}
+     ![画像を挿入/編集ダイアログ](./assets/pb-tutorial1-column2-text-insert-edit-image.png){width="600" zoomable="yes"}
 
-   - 次の日： _[!UICONTROL Select Images]_ページ、クリック&#x200B;**[!UICONTROL Choose Files]**.
+   - 日 _[!UICONTROL Select Images]_ページ、クリック&#x200B;**[!UICONTROL Choose Files]**.
 
-   - シンプルページアセットを保存したフォルダーで、「 」を選択します。 `rating.png`.
+   - シンプルなページアセットを保存したフォルダーで、を選択します。 `rating.png`.
 
-   - ページに戻るには、画像タイルをダブルクリックして選択し、「ソース」フィールドに URL を挿入します。
+   - ページに戻り、画像タイルをダブルクリックして選択し、その URL をソースフィールドに挿入します。
 
      ![ページ上の画像の選択](./assets/pb-tutorial1-column2-editor-gallery-select-image.png){width="600" zoomable="yes"}
 
-   - の場合 **[!UICONTROL Image Description]**，と入力します。 `5-Star Rating` をクリックします。 **[!UICONTROL OK]** をクリックして、画像を列に挿入します。
+   - の場合 **[!UICONTROL Image Description]**、と入力します `5-Star Rating` をクリックして、 **[!UICONTROL OK]** をクリックして、画像を列に挿入します。
 
-   - エディターのツールバーで、 **中央揃え** (![中央揃えボタン](./assets/editor-btn-align-center.png)) をクリックして、画像を列の中央に配置します。
+   - エディターツールバーで、 **中央揃え** （![中央揃えボタン](./assets/editor-btn-align-center.png)）を選択して、画像を列の中央に配置します。
 
-     ![中央揃えの評価画像](./assets/pb-tutorial1-column2-5stars-centered.png){width="600" zoomable="yes"}
+     ![中央揃えのレーティング画像](./assets/pb-tutorial1-column2-5stars-centered.png){width="600" zoomable="yes"}
 
-1. 5 つ星の画像の直後にカーソルを置き、Enter/Return キーを押して新しい行を開始し、次のテキストを入力します。
+1. 5 つ星の画像の直後に挿入ポイントを置き、Enter/Return キーを押して新しい行を開始し、次のテキストを入力します。
 
    `Awesome Tank!`
 
@@ -471,112 +471,112 @@ __
 
    `Antonia Racer Tank – Reviewed by Allyson`
 
-   入力時にテキストが中央揃えになります。
+   入力したテキストが中央揃えになります。
 
-   ![列の中央にテキストを表示](./assets/pb-tutorial1-column2-text-unformatted.png){width="600" zoomable="yes"}
+   ![列の中央に配置されたテキストをレビューします](./assets/pb-tutorial1-column2-text-unformatted.png){width="600" zoomable="yes"}
 
-1. テキストを書式設定します。
+1. テキストの書式を設定します。
 
-   - テキストの最初の行の任意の場所をクリックし、エディターツールバーの下の **形式**&#x200B;を選択します。 `Heading 2`.
+   - テキストの 1 行目とエディターツールバーの下の任意の場所をクリックします **形式**、を選択 `Heading 2`.
 
-   - 残りのテキストを選択し、エディターツールバーの下で **形式**&#x200B;を選択します。 `Paragraph`.
+   - 残りのテキストを選択し、の下にあるエディターツールバーで **形式**、を選択 `Paragraph`.
 
    テキストは、テーマに関連付けられたスタイルシートに従って書式設定されます。
 
-1. コンテンツを列内で垂直方向に中央揃えできるように、画像のサイズを取得します。
+1. コンテンツを垂直方向に列の中央に配置できるように、画像のサイズを取得します。
 
-   - 最初の列の画像の上にマウスポインターを置いてツールボックスを表示し、 _設定_ (![設定アイコン](./assets/pb-icon-settings.png){width="20"} ) アイコンをクリックします。
+   - 最初の列の画像の上にマウスポインターを置いてツールボックスを表示し、 _設定_ （![設定アイコン](./assets/pb-icon-settings.png){width="20"} ） アイコンをクリックします。
 
-   - 画像のサムネールの下に、画像のサイズをメモします。
+   - 画像のサムネールの下に、画像のサイズが表示されます。
 
      ![サムネールの下に表示される画像のサイズ](./assets/pb-tutorial1-column1-image-dimensions.png){width="600" zoomable="yes"}
 
-   - 右上隅で、 **閉じる**.
+   - 右上隅のをクリックします。 **閉じる**.
 
-1. コンテンツを 2 列目に垂直方向に中央揃えします。
+1. コンテンツを 2 列目に垂直方向の中央に配置します。
 
-   - 2 番目の列の上にマウスポインターを置いてツールボックスを表示し、 _設定_ (![設定アイコン](./assets/pb-icon-settings.png){width="20"} ) アイコンをクリックします。
+   - 2 番目の列にカーソルを合わせてツールボックスを表示し、 _設定_ （![設定アイコン](./assets/pb-icon-settings.png){width="20"} ） アイコンをクリックします。
 
    >[!NOTE]
    >
-   >正しいツールボックスを表示するには、テキストコンテナではなく列コンテナを選択する必要があります。
+   >正しいツールボックスを表示するには、必ずテキストコンテナではなく列コンテナを選択します。
 
-   - の場合 **[!UICONTROL Minimum Height]**，と入力します。 `450` は、最初の列の画像の高さ（ピクセル単位）です。
+   - の場合 **[!UICONTROL Minimum Height]**、と入力します `450` 最初の列の画像の高さをピクセル単位で指定します。
 
-   - 設定 **[!UICONTROL Vertical Alignment]** から `Center`.
+   - を設定 **[!UICONTROL Vertical Alignment]** 対象： `Center`.
 
-   ![最小の高さと垂直方向の整列を設定する](./assets/pb-tutorial1-column2-layout-vertical-alignment.png){width="600" zoomable="yes"}
+   ![最小の高さと垂直方向の整列の設定](./assets/pb-tutorial1-column2-layout-vertical-alignment.png){width="600" zoomable="yes"}
 
-1. 下にスクロールして、 _[!UICONTROL Advanced]_「 」セクションと「**[!UICONTROL Margins and Padding]**値がゼロ ( `0` ) をクリックします。
+1. にスクロール ダウンします。 _[!UICONTROL Advanced]_section と set all **[!UICONTROL Margins and Padding]**値をゼロに（ `0` ）に設定します。
 
    ![余白とパディングの設定](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-1. ページの上部に戻り、右上隅の「 」をクリックします。 **[!UICONTROL Save]** 設定を保存し、に戻るには、以下の手順に従います。 [!DNL Page Builder] ワークスペース。
+1. ページの先頭までスクロールして戻り、右上隅のをクリックします。 **[!UICONTROL Save]** 設定を保存し、に戻ります [!DNL Page Builder] ワークスペース。
 
    ![ステージ上のレビューコンテンツを含む行](./assets/pb-tutorial1-row-reviw-content.png){width="600" zoomable="yes"}
 
-### 手順 5：カタログ製品リンクを挿入する
+### 手順 5：カタログ製品リンクの挿入
 
-1. を選択します。 `Antonia Racer Tank` テキストを入力し、 _リンクを挿入_ (![リンクを挿入アイコン](./assets/editor-btn-insert-edit-link.png)) アイコンをクリックします。
+1. 「」を選択します `Antonia Racer Tank` テキストを入力し、 _リンクを挿入_ （![リンクを挿入アイコン](./assets/editor-btn-insert-edit-link.png)） アイコンが表示されます。
 
-1. Adobe Analytics の _リンクを挿入_ ダイアログで、カタログ商品へのリンクを指定します。
+1. が含まれる _リンクを挿入_ ダイアログで、カタログ製品へのリンクを指定します。
 
    - 製品を入力 **[!UICONTROL URL]**.
 
-     相対 URL または完全修飾 URL を入力できます。 この例では、次の相対リンクが入力されます。
+     相対 URL または完全修飾 URL のいずれかを入力できます。 この例では、次の相対リンクが入力されます。
 
      `../antonia-racer-tank.html`
 
-   - （オプション）の場合 **タイトル**」に、製品名を入力します。
+   - （オプション） **タイトル**、製品名を入力します。
 
-     タイトルリンク属性は、一部のブラウザーではツールチップとして使用されます。
+     タイトルリンク属性は、一部のブラウザーでツールヒントとして使用されます。
 
      ![テキストへのリンクの挿入](./assets/pb-tutorial1-text-link-insert.png){width="600" zoomable="yes"}
 
-   - 完了したら、「 **[!UICONTROL OK]** をクリックしてリンクを保存します。
+   - 完了したら、 **[!UICONTROL OK]** をクリックしてリンクを保存します。
 
      リンクされたテキストがバナーでハイライト表示されます。
 
      ![リンクされたテキストを含むバナー](./assets/pb-tutorial1-text-link-highlight.png){width="600" zoomable="yes"}
 
-1. ステージの右上隅で、 _全画面表示を閉じる_ (![全画面表示アイコンを閉じる](./assets/pb-icon-reduce.png)) アイコンをクリックします。
+1. ステージの右上隅にあるをクリックします _全画面表示を閉じる_ （![全画面表示アイコンを閉じる](./assets/pb-icon-reduce.png)） アイコンをクリックします。
 
-   このアイコンをクリックすると、 _[!UICONTROL Content]_」セクションにプレビューが表示されます。
+   このアイコンをクリックすると、に戻ります _[!UICONTROL Content]_プレビューが表示されたページの「」セクション。
 
-1. 右上隅で、 **[!UICONTROL Save]**.
+1. 右上隅のをクリックします。 **[!UICONTROL Save]**.
 
-### 手順 6：行を並べ替える
+### 手順 6：行の並べ替え
 
-3 つの行がすべて完了したら、最後の手順は、元の行に合わせて行を並べ替えることです _単純なページ_ 例： 元の例に合わせるには、最初の行を一番下に移動し、最後の行を一番上に移動する必要があります。
+3 つの行がすべて完了したら、最後の手順は、元の行に一致するように行を再配置することです _シンプルなページ_ 例えば、のようになります。 元の例と一致させるには、最初の行を一番下に、最後の行を一番上に移動する必要があります。
 
-1. 必要に応じて、を展開します。 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Content]** 」セクションに入力します。
+1. 必要に応じて、を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Content]** セクション。
 
-1. クリック **[!UICONTROL Edit with Page Builder]** または、コンテンツプレビュー領域内に配置します。
+1. クリック **[!UICONTROL Edit with Page Builder]** またはコンテンツプレビュー領域内です。
 
-1. ステージの最初の行の上にマウスポインターを置いてツールボックスを表示し、 _移動_ ( ![移動アイコン](./assets/pb-icon-move.png)) アイコンをクリックします。
+1. ステージの最初の行の上にマウスポインターを置いてツールボックスを表示し、 _移動_ （ ![移動アイコン](./assets/pb-icon-move.png)） アイコンをクリックします。
 
    ![移動](./assets/pb-tutorial1-row-toolbox-move.png){width="600" zoomable="yes"}
 
-1. 行内のすべてのコンテンツが選択されていることを確認したら、マウスボタンを押したまま、行を、ページ下部の赤いガイドラインの下にある位置にドラッグします。
+1. マウスボタンを押したまま、行内のすべてのコンテンツが選択されていることを確認し、行をページ下部の赤いガイドラインの下にドラッグします。
 
    >[!NOTE]
    >
-   >誤ってコンテンツの一部（画像など）のみを移動した場合は、コンテンツをそのコンテンツの属する場所に戻して、もう一度試してください。
+   >コンテンツの一部（画像など）のみを誤って移動した場合は、コンテンツが属する場所にコンテンツを戻して、もう一度試してください。
 
    ![ステージ上での行の移動](./assets/pb-tutorial1-row-toolbox-move-to-position.png){width="600" zoomable="yes"}
 
-1. この手順を繰り返して、最初の行を 2 番目の位置に移動します。
+1. この手順を繰り返して、1 行目を 2 行目に移動します。
 
-   ページ上の行の順序が、単純なページの例と一致するようになりました。
+   ページの行の順序が、シンプルなページの例と一致するようになりました。
 
-1. ステージの右上隅で、 _全画面表示を閉じる_ (![全画面表示アイコンを閉じる](./assets/pb-icon-reduce.png)) アイコンをクリックします。
+1. ステージの右上隅にあるをクリックします _全画面表示を閉じる_ （![全画面表示アイコンを閉じる](./assets/pb-icon-reduce.png)） アイコンをクリックします。
 
-   このアイコンをクリックすると、 _[!UICONTROL Content]_」セクションにプレビューが表示されます。
+   このアイコンをクリックすると、に戻ります _[!UICONTROL Content]_プレビューが表示されたページの「」セクション。
 
-1. 右上隅で、 **[!UICONTROL Save]** 矢印と選択 **[!UICONTROL Save & Close]**.
+1. 右上隅のをクリックします **[!UICONTROL Save]** 矢印と選択 **[!UICONTROL Save & Close]**.
 
-1. プロンプトが表示されたら、 [キャッシュ管理](../systems/cache-management.md) リンクをクリックして、無効なキャッシュを更新します。
+1. プロンプトが表示されたら、 [キャッシュ管理](../systems/cache-management.md) ページ上部のメッセージ内のリンクをクリックし、無効なキャッシュを更新します。
 
-「シンプルページ」の演習を完了しました。 後で参照できるように、作成した作業を保持します。
+これで、シンプルなページの演習は完了です。 作成した作業は保持しておくと、後で参照できます。
 
-準備が整ったら、次に進みます。 [パート 2：ブロック](2-blocks.md).
+準備ができたら、次に進みます。 [パート 2：ブロック](2-blocks.md).

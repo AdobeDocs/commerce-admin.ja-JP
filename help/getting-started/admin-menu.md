@@ -1,6 +1,6 @@
 ---
-title: 管理者のサイドバー
-description: コマース管理者は、左側のサイドバーを使用してメインメニューにアクセスします。 マーチャントは、ストアの設定と管理に必要なすべての管理ツールにアクセスできます。
+title: 管理者サイドバー
+description: Commerce管理者は、左側のサイドバーを使用してメインメニューにアクセスします。 マーチャントは、ストアの設定と管理に必要なすべての管理ツールにアクセスできます。
 exl-id: 2619645e-22fc-4365-80c5-14e2ce7ea8df
 source-git-commit: 1be366de110b933aec163a675d8ed53e814dfbfe
 workflow-type: tm+mt
@@ -9,22 +9,22 @@ ht-degree: 0%
 
 ---
 
-# 管理者のサイドバー
+# 管理者サイドバー
 
-左側のサイドバーは、そのストアのメインメニューです _管理者_ およびは、デスクトップとモバイルデバイスの両方に対して設計されています。 フライアウトメニューを使用すると、ストアを毎日管理するために使用するすべてのツールにアクセスできます。
+左側のサイドバーは、ストアのメインメニューです _Admin_ およびは、デスクトップとモバイルデバイスの両方に対応するように設計されています。 フライアウトメニューを使用すると、ストアを毎日管理するために使用するすべてのツールにアクセスできます。
 
 | メニューアイコン | リンク | 説明 |
 | --------- | ---- | ----------- |
-| ![管理サイドバーアイコン](./assets/icon-admin-sidebar-logo.png) | **[[ 管理 ] [ 起動 ] ページ](../configuration-reference/advanced/admin.md)** | [ 管理 ] 起動ページが表示されます。これは、既定では [ ダッシュボード ] です。 |
-| ![ダッシュボードメニュー](./assets/icon-admin-sidebar-dashboard.png) | **[[!UICONTROL Dashboard]](admin-dashboard.md)** | ダッシュボードは、ストアの販売と顧客のアクティビティの概要をすばやく示し、通常は管理者にログインする際に表示される最初のページです。 |
-| ![セールスメニュー](./assets/icon-admin-sidebar-sales.png) | **[[!UICONTROL Sales]](../stores-purchase/sales-menu.md)** | The [!UICONTROL Sales] メニューでは、処理オーダー、請求書、出荷、クレジット・メモおよびトランザクションの処理に関連するすべての情報を確認できます。 |
-| ![カタログメニュー](./assets/icon-admin-sidebar-catalog.png) | **[[!UICONTROL Catalog]](../catalog/catalog-menu.md)** | The [!UICONTROL Catalog] メニューは、製品の作成やカテゴリの定義に使用します。 |
-| ![顧客メニュー](./assets/icon-admin-sidebar-customers.png) | **[[!UICONTROL Customers]](../customers/customers-introduction.md)** | The [!UICONTROL Customers] メニューでは、顧客アカウントを管理し、どの顧客が現在オンラインになっているかを確認できます。 |
-| ![マーケティングメニュー](./assets/icon-admin-sidebar-marketing.png) | **[[!UICONTROL Marketing]](../merchandising-promotions/marketing-menu.md)** | The [!UICONTROL Marketing] メニューは、カタログと買い物かごの価格ルールとクーポンを設定する場所です。 価格ルールトリガー：特定の条件のセットが満たされた場合のアクション。 |
-| ![コンテンツメニュー](./assets/icon-admin-sidebar-content.png) | **[[!UICONTROL Content]](../content-design/content-menu.md)** | The [!UICONTROL Content] メニューでは、コンテンツ要素とストアのデザインを管理できます。 ページ、ブロック、フロントエンドアプリを作成し、ストアのプレゼンテーションを管理する方法について説明します。 |
-| ![レポートメニュー](./assets/icon-admin-sidebar-reports.png) | **[[!UICONTROL Reports]](reports-menu.md)** | The [!UICONTROL Reports] メニューでは、販売、買い物かご、製品、顧客、タグ、レビュー、検索語句など、店舗のあらゆる側面を把握できる様々なレポートを提供します。 |
-| ![ストアメニュー](./assets/icon-admin-sidebar-stores.png) | **[[!UICONTROL Stores]](../stores-purchase/stores-menu.md)** | The [!UICONTROL Stores] メニューには、マルチサイトインストール設定、税金、通貨、製品属性、顧客グループなど、ストアのあらゆる側面を設定および管理するツールが含まれています。 |
-| ![システムメニュー](./assets/icon-admin-sidebar-system.png) | **[[!UICONTROL System]](../systems/system-menu.md)** | The [!UICONTROL System] メニューには、システム操作の管理、拡張機能のインストール、他のアプリケーションとの統合のための web サービスの管理をおこなうツールが含まれています。 |
-| ![拡張機能の検索](./assets/icon-admin-sidebar-extensions.png) | **[[!UICONTROL Find Partners & Extensions]](commerce-marketplace.md)** | The [!DNL Commerce Marketplace] は、お客様のストアのAdobe CommerceおよびMagento Open Sourceソリューションを検索できる場所です。 |
+| ![管理者サイドバーアイコン](./assets/icon-admin-sidebar-logo.png) | **[管理スタートアップページ](../configuration-reference/advanced/admin.md)** | 管理者の起動ページが表示されます。このページはデフォルトでダッシュボードになっています。 |
+| ![ダッシュボードメニュー](./assets/icon-admin-sidebar-dashboard.png) | **[[!UICONTROL Dashboard]](admin-dashboard.md)** | ダッシュボードには、ストアでの販売と顧客のアクティビティの概要がすばやく表示されます。通常は、管理者にログインしたときに最初に表示されるページです。 |
+| ![販売メニュー](./assets/icon-admin-sidebar-sales.png) | **[[!UICONTROL Sales]](../stores-purchase/sales-menu.md)** | この [!UICONTROL Sales] メニューでは、受注、請求書、出荷、クレジット・メモおよび取引の処理に関連するすべてを検索できます。 |
+| ![カタログメニュー](./assets/icon-admin-sidebar-catalog.png) | **[[!UICONTROL Catalog]](../catalog/catalog-menu.md)** | この [!UICONTROL Catalog] メニューは、製品の作成とカテゴリの定義に使用されます。 |
+| ![顧客メニュー](./assets/icon-admin-sidebar-customers.png) | **[[!UICONTROL Customers]](../customers/customers-introduction.md)** | この [!UICONTROL Customers] メニューでは、顧客アカウントを管理し、現在オンラインになっている顧客を確認できます。 |
+| ![マーケティングメニュー](./assets/icon-admin-sidebar-marketing.png) | **[[!UICONTROL Marketing]](../merchandising-promotions/marketing-menu.md)** | この [!UICONTROL Marketing] メニューは、カタログと買い物かごの価格ルールおよびクーポンを設定する場所です。 価格ルール一連の特定の条件が満たされた場合のトリガーアクション。 |
+| ![コンテンツメニュー](./assets/icon-admin-sidebar-content.png) | **[[!UICONTROL Content]](../content-design/content-menu.md)** | この [!UICONTROL Content] メニューでは、ストアのコンテンツ要素とデザインを管理します。 ページ、ブロック、フロントエンドアプリを作成する方法、およびストアのプレゼンテーションを管理する方法について説明します。 |
+| ![レポートメニュー](./assets/icon-admin-sidebar-reports.png) | **[[!UICONTROL Reports]](reports-menu.md)** | この [!UICONTROL Reports] メニューには、販売、買い物かご、製品、顧客、タグ、レビュー、検索用語など、ストアのあらゆる側面に関するインサイトを提供する幅広いレポートが用意されています。 |
+| ![ストアメニュー](./assets/icon-admin-sidebar-stores.png) | **[[!UICONTROL Stores]](../stores-purchase/stores-menu.md)** | この [!UICONTROL Stores] メニューには、マルチサイトインストール設定、税金、通貨、製品属性、顧客グループなど、ストアのあらゆる側面を設定および管理するツールが含まれています。 |
+| ![システムメニュー](./assets/icon-admin-sidebar-system.png) | **[[!UICONTROL System]](../systems/system-menu.md)** | この [!UICONTROL System] メニューには、システム操作の管理、拡張機能のインストール、他のアプリケーションと統合するための web サービスの管理を行うためのツールが含まれています。 |
+| ![拡張機能の検索](./assets/icon-admin-sidebar-extensions.png) | **[[!UICONTROL Find Partners & Extensions]](commerce-marketplace.md)** | この [!DNL Commerce Marketplace] は、お客様のストアに適したAdobe CommerceおよびMagento Open Sourceのソリューションを見つける場所です。 |
 
 {style="table-layout:auto"}

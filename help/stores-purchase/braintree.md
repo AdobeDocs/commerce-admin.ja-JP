@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Braintree
 
-Braintreeは、不正検知と PayPal 統合により、完全にカスタマイズ可能なチェックアウトエクスペリエンスを提供します。 をサポートします [!DNL Apple Pay], [!DNL Google Pay]、ACH、Venmo およびローカル支払い方法。 BraintreeはBraintreeシステムで行われるので、マーチャントの PCI コンプライアンスに関する負担を軽減できます。 Braintree支払いの統合は、次の方法で開発されました。 [遺伝子取引](https://www.gene.co.uk/gene-braintree-payments/).
+Braintreeは、不正検知と PayPal 統合により、完全にカスタマイズ可能なチェックアウトエクスペリエンスを提供します。 をサポートします [!DNL Apple Pay], [!DNL Google Pay]、ACH、Venmo およびローカル支払い方法。 BraintreeはBraintreeシステムで行われるので、マーチャントの PCI コンプライアンスに関する負担を軽減できます。 Braintree支払いの統合は、次の方法で開発されました。 [ジーンCommerce](https://www.gene.co.uk/gene-braintree-payments/).
 
 >[!NOTE]
 >
@@ -29,11 +29,11 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 
 1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL Payment Methods]**.
 
-   - Commerce のインストールに複数の web サイト、ストア、表示がある場合は、左上隅のを選択します **[!UICONTROL Store View]** 設定が適用される場所。
+   - Commerceのインストールに複数の web サイト、ストア、ビューがある場合は、左上隅にある **[!UICONTROL Store View]** 設定が適用される場所。
 
    - が含まれる _[!UICONTROL Merchant Location]_セクションで、次のことを確認します&#x200B;**[!UICONTROL Merchant Country]**は、ビジネスの場所に設定されます。
 
-1. 次の下 _[!UICONTROL Recommended Solutions]_、内_[!UICONTROL Braintree Payments] （基準： [遺伝子取引](https://www.gene.co.uk/gene-braintree-payments/) v4.6.1 - [リリースノート](https://support.gene.co.uk/support/solutions/articles/35000228529)_セクションで、をクリック&#x200B;**[!UICONTROL Configure]**.
+1. 次の下 _[!UICONTROL Recommended Solutions]_、内_[!UICONTROL Braintree Payments] （基準： [ジーンCommerce](https://www.gene.co.uk/gene-braintree-payments/) v4.6.1 - [リリースノート](https://support.gene.co.uk/support/solutions/articles/35000228529)_セクションで、をクリック&#x200B;**[!UICONTROL Configure]**.
 
    ![Braintreeの設定](./assets/braintree-payments.png){width="600" zoomable="yes"}
 
@@ -117,11 +117,11 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 
 1. を **[!UICONTROL Fraud Protection Approve Order Status]** Braintreeが不正防止を承認するタイミングを決定するフィールド。
 
-   選択した注文ステータスがコマース注文に割り当てられます。
+   選択した注文ステータスがCommerceの注文に割り当てられます。
 
 1. を **[!UICONTROL Fraud Protection Reject Order Status]** Braintreeにより不正防止が拒否された場合に判断するためのフィールド。
 
-   選択した注文ステータスがコマース注文に割り当てられます。
+   選択した注文ステータスがCommerceの注文に割り当てられます。
 
 ## 手順 5：国固有の設定の完了
 
@@ -392,7 +392,7 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 
 ## 2.4 アップグレードノート
 
-Adobe CommerceおよびMagento Open Source 2.4.0 以降、Braintree拡張機能はリリースに含まれています。 Marketplace のBraintree拡張機能がインストールされている 2.4.0 以前のバージョンから Commerce 2.4.x に移行する場合は、拡張機能をアンインストールする必要があります（`paypal/module-braintree` または `gene/module-braintree`）を選択し、コードのカスタマイズを更新して、 `PayPal_Braintree` の代わりにの名前空間 `Magento_Braintree`. コアコマースBraintree支払いバンドル拡張機能の設定とCommerce Marketplaceで配布された拡張機能が保持され、以前のバージョンで配置された支払いは通常どおりキャプチャ、無効化、払い戻しできます。
+Adobe CommerceおよびMagento Open Source 2.4.0 以降、Braintree拡張機能はリリースに含まれています。 Marketplace のBraintree拡張機能がインストールされている 2.4.0 以前のバージョンから Commerce 2.4.x に移行する場合は、拡張機能をアンインストールする必要があります（`paypal/module-braintree` または `gene/module-braintree`）を選択し、コードのカスタマイズを更新して、 `PayPal_Braintree` の代わりにの名前空間 `Magento_Braintree`. Commerce Braintreeの主要な支払いバンドル拡張機能および拡張機能で配布されたCommerce Marketplaceが保持され、以前のバージョンで行われた支払いは、通常どおりキャプチャ、無効化または払い戻しできます。
 
 [1]: https://www.braintreepayments.com/
 [2]: https://developers.braintreepayments.com/reference/general/testing/php

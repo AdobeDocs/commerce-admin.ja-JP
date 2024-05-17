@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
-description: 次のページで設定を確認します： [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] コマース管理のページ。
+description: の設定を確認します。 [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] コマース管理者のページ。
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable RSS] | ストア表示 | 顧客がストアから RSS フィードを受け取れるようにします。 |
+| [!UICONTROL Enable RSS] | ストア表示 | 顧客がストアから RSS フィードを受信できるようにします。 |
 
 {style="table-layout:auto"}
 
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable RSS] | ストア表示 | 有効にすると、ウィッシュリストページの上部に RSS フィードリンクが表示されます。 ウィッシュリスト共有ページには、共有ウィッシュリストからフィードへのリンクをユーザーが選択できるチェックボックスが含まれています。 |
+| [!UICONTROL Enable RSS] | ストア表示 | 有効化すると、ウィッシュリストページの上部に RSS フィードリンクが表示されます。 ウィッシュリスト共有ページには、共有ウィッシュリストからフィードにリンクするために顧客が選択できるチェックボックスが含まれています。 |
 
 {style="table-layout:auto"}
 
@@ -46,21 +46,21 @@ ht-degree: 2%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL New Products] | ストア表示 | 有効にすると、ストアカタログに追加された新しい製品の通知を公開します。 |
-| [!UICONTROL Special Products] | ストア表示 | 有効にすると、特別価格の製品に関する通知が発行されます。 |
-| [!UICONTROL Coupons/Discounts] | ストア表示 | 有効にすると、クーポンまたは割引の通知を発行します。 |
-| [!UICONTROL Top Level Category] | ストア表示 | カタログの最上位カテゴリ構造に対する変更の通知をパブリッシュします。この変更はメインメニューに反映されます。 |
+| [!UICONTROL New Products] | ストア表示 | 有効にすると、ストアカタログに追加された新製品の通知が公開されます。 |
+| [!UICONTROL Special Products] | ストア表示 | 有効にすると、特別価格が設定されている製品に関する通知が公開されます。 |
+| [!UICONTROL Coupons/Discounts] | ストア表示 | 有効にすると、クーポンまたは割引の通知が公開されます。 |
+| [!UICONTROL Top Level Category] | ストア表示 | カタログの最上位のカテゴリ構造に対する変更の通知を公開します。この通知は、メインメニューに反映されます。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
-![注文](./assets/rss-feeds-order.png)<!-- zoom -->
+![順序](./assets/rss-feeds-order.png)<!-- zoom -->
 
 <!-- [Order](https://docs.magento.com/user-guide/sales/order-status-notification.html) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Customer Order Status Notification] | ストア表示 | 顧客が RSS フィードで注文ステータスを追跡できるようにします。 有効にすると、RSS フィードのリンクが注文に表示されます |
+| [!UICONTROL Customer Order Status Notification] | ストア表示 | 顧客が RSS フィードで注文の状態を追跡できるようにします。 有効化すると、RSS フィードリンクがオーダーに表示されます |
 
 {style="table-layout:auto"}

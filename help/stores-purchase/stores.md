@@ -1,30 +1,30 @@
 ---
-title: ストアとサイト構造
-description: Web サイト、ストア、およびストア表示の階層について説明します。
+title: ストアとサイトの構造
+description: Web サイト、ストア、ストア表示階層について説明します。
 exl-id: d745cbd0-151b-4f82-bb6c-fb6b9565a014
 feature: Site Management, System
 source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
 
-# ストアとサイト構造
+# ストアとサイトの構造
 
-Adobe CommerceまたはMagento Open Sourceがインストールされると、メインの Web サイト、ストア、ストア表示を含む階層が作成されます。 必要に応じて、追加の Web サイト、ストア、ビューを作成し、保存できます。 例えば、メインの Web サイトに加えて、異なるドメインの Web サイトを追加することができます。 各 Web サイト内には複数のストアを含め、各ストア内に個別のストアビューを含めることができます。 多くのインストールでは、1 つの Web サイトと 1 つのストアがありますが、異なる言語をサポートするために複数のストア表示があります。
+Adobe CommerceまたはMagento Open Sourceがインストールされると、メインの web サイト、ストアおよびストアビューを含む階層が作成されます。 必要に応じて、追加の web サイト、ストア、ストア表示を作成できます。 例えば、メインの web サイトに加えて、別のドメインを持つ追加の web サイトがある場合などです。 各 web サイト内に複数のストアを配置でき、各ストア内でストアを個別に表示できます。 多くのインストールでは、1 つの web サイトと 1 つのストアがありますが、異なる言語をサポートするために複数のストア表示があります。
 
-開始する前に、設定全体で参照されるストアカタログ階層を事前に計画します。 各ストアには、 [ルートカテゴリ](../catalog/category-root.md)を使用すると、各ストアに対してまったく異なるメインメニューオプションのセットを設定できます。
+設定全体で参照されるので、事前にストアカタログ階層を計画しておいてください。 各店舗は、個別のを持つことができます [ルートカテゴリ](../catalog/category-root.md)を使用すると、ストアごとに完全に異なるメインメニューオプションのセットを使用できます。
 
 ![スコープ図](./assets/scope-multisite.svg){width="550"}
 
 ## ストアを追加
 
-Adobe CommerceまたはMagento Open Sourceを 1 回インストールするだけで、管理者を共有する複数のストアを持つことができます。 同じ Web サイトにあるストアの IP アドレスとドメインが同じで、同じセキュリティ証明書を使用し、単一のチェックアウトプロセスを共有します。
+Adobe CommerceまたはMagento Open Sourceの 1 つのインストールに、1 つの管理者を共有する複数のストアを含めることができます。 同じ web サイトの配下にあるストアは、同じ IP アドレスとドメインを持ち、同じセキュリティ証明書を使用し、単一のチェックアウトプロセスを共有します。
 
-ストアが同じコードを使用し、管理者を共有していることを理解しておく必要があります。 各ストアには個別のカタログを持つことも、ストアでカタログを共有することもできます。 各ストアには、 [ルートカテゴリ](../catalog/category-root.md)：店舗ごとに異なるメインメニューを使用できます。 ストアは、異なるブランディング、プレゼンテーション、コンテンツを持つこともできます。 ストア階層は設定全体で使用されるので、開始する前に将来の拡大を考慮して、ストア階層の計画を立てる必要があります。
+理解しておくべき重要なことは、ストアでは同じコードを使用し、管理者を共有することです。 各ストアは個別のカタログを持つことができますが、ストアはカタログを共有できます。 各店舗は、個別のを持つことができます [ルートカテゴリ](../catalog/category-root.md)これにより、店舗ごとに異なるメインメニューを持つことができます。 ストアには、様々なブランディング、プレゼンテーション、コンテンツを含めることもできます。 ストア階層は設定全体で使用されるので、開始する前に、将来の成長を考慮してストア階層を計画する必要があります。
 
-![範囲 — 複数のストア](./assets/scope-multistore.svg){width="550"}
+![範囲 – 複数のストア](./assets/scope-multistore.svg){width="550"}
 
 次に、複数のストアに対して URL を設定する方法の例を示します。
 
@@ -33,130 +33,130 @@ Adobe CommerceまたはMagento Open Sourceを 1 回インストールするだ�
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | 各ストアには異なるパスがありますが、1 つのドメインを共有します。 |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | 各ストアには、プライマリドメインの異なるサブドメインがあります。 |
 
-Adobe Commerceのマルチストアインストールは、管理者とサーバーのコマンドラインから設定する必要があります。 ザAdobe Commerce [設定ガイド](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) に、サーバー環境を設定する手順を示します。
+Adobe Commerceのマルチストアインストールは、管理者だけでなく、サーバーのコマンドラインからも設定する必要があります。 Adobe Commerce [設定ガイド](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) サーバー環境の設定手順を詳しく説明します。
 
 ### 手順 1：ストアドメインの選択
 
-最初の手順は、ストアの配置方法を選択することです。 ストアは 1 つのドメインを共有し、それぞれがサブドメインを持つ、または明確に異なるドメインを持つ必要がありますか。 各ストアに対して、次のいずれかの操作を行います。
+最初のステップは、ストアの配置方法を選択することです。 ストアはドメインを共有する必要がありますか。それぞれのストアにサブドメインを含めるか、明確に異なるドメインを持たせますか。 ストアごとに、次のいずれかの操作を行います。
 
-- ストアをプライマリドメインの 1 つ下のレベルに配置する場合は、何もする必要はありません。
+- ストアをプライマリドメインの 1 レベル下に配置する場合は、何もする必要はありません。
 - プライマリドメインのサブドメインを設定します。
 - 別のプライマリドメインを設定します。
 
-### 手順 2：ストアを作成する
+### 手順 2：ストアの作成
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
 
-1. クリック **[!UICONTROL Create Store]** 新しいストアのオプションを設定します。
+1. クリック **[!UICONTROL Create Store]** そして、新しいストアのオプションを設定します。
 
-   - **[!UICONTROL Web Site]**  — 新しいストアの親となる Web サイトを選択します。 インストールに 1 つの Web サイトしかない場合は、デフォルト (`Main Website`) をクリックします。
+   - **[!UICONTROL Web Site]**  – 新しいストアの親となる Web サイトを選択します。 インストールに web サイトが 1 つしかない場合は、デフォルトのを使用します（`Main Website`）に設定します。
 
-   - **[!UICONTROL Name]**  — 新しいストアの名前を入力します。 名前は内部参照用です。
+   - **[!UICONTROL Name]**  – 新しいストアの名前を入力します。 この名前は内部参照用です。
 
-   - **[!UICONTROL Code]**  — ストアを識別するコードを小文字で入力します。 例： `mainstore`.
+   - **[!UICONTROL Code]** — ストアを識別するコードを小文字で入力します。 例： `mainstore`.
 
-   - **[!UICONTROL Root Category]**  — に設定します。 [ルートカテゴリ](../catalog/category-root.md) 新しいストアのメインメニューのカテゴリ構造を定義します。 ストアの特定のルートカテゴリを既に作成している場合は、そのカテゴリを選択します。 それ以外の場合は、「 `Default Category`. 後で戻って、設定を更新できます。
+   - **[!UICONTROL Root Category]**  – に設定 [ルートカテゴリ](../catalog/category-root.md) 新しいストアのメインメニューのカテゴリ構造を定義します。 ストアの特定のルートカテゴリを既に作成している場合は、そのカテゴリを選択します。 それ以外の場合は、 `Default Category`. 後で戻って設定を更新することもできます。
 
-   ![ストアを作成 — ストアオプション](./assets/stores-all-store-information.png){width="600" zoomable="yes"}
+   ![ストアを作成 – ストアオプション](./assets/stores-all-store-information.png){width="600" zoomable="yes"}
 
 1. クリック **[!UICONTROL Save Store]**.
 
-### 手順 3：デフォルトのストア表示を作成する
+### 手順 3：デフォルトのストア表示の作成
 
 1. クリック **[!UICONTROL Create Store View]** ストア表示オプションを設定します。
 
-   - **[!UICONTROL Store]**  — 作成した新しいストアに設定します。
+   - **[!UICONTROL Store]**  – 作成した新しいストアに設定します。
 
-   - **[!UICONTROL Name]**  — ビューの名前を入力します。 例： `English`.
+   - **[!UICONTROL Name]** — ビューの名前を入力します。 例： `English`.
 
-   - **[!UICONTROL Code]**  — ビューのコードを小文字で入力します。
+   - **[!UICONTROL Code]** — ビューのコードを小文字で入力します。
 
-   - **[!UICONTROL Status]**  — に設定します。 `Enabled`.
+   - **[!UICONTROL Status]**  – に設定 `Enabled`.
 
-   - **[!UICONTROL Sort Order]**  — 他の店舗と一緒にリストされる店舗の位置を決定する数値を入力します。
+   - **[!UICONTROL Sort Order]**  – 他のストアと一緒にリストされた場合のストアの位置を決定する番号を入力します。
 
 1. クリック **[!UICONTROL Save Store View]**.
 
-   ストアを編集モードで開くと、デフォルトの表示になっていることがわかります。
+   ストアを編集モードで開くと、デフォルトのビューが表示されていることがわかります。
 
-   ![デフォルト表示の新しいストア](./assets/new-store-default-view.png){width="600" zoomable="yes"}
+   ![デフォルトの表示を使用した新しいストア](./assets/new-store-default-view.png){width="600" zoomable="yes"}
 
-### 手順 4：ストアの URL の設定
+### 手順 4：ストア URL の設定
 
-1. 次の日： _管理者_ サイドバー、クリック **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、クリック **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. の下 _[!UICONTROL General]_左側の左側のパネルで、を選択します。**[!UICONTROL Web]**.
+1. 次の下 _[!UICONTROL General]_左側の左側のパネルで、を選択します。**[!UICONTROL Web]**.
 
-1. 左上隅で、 **[!UICONTROL Store View]** を新しいストア用に作成したビューに追加します。
+1. 左上隅にを設定します **[!UICONTROL Store View]** 新しいストア用に作成したビューに移動します。
 
-1. 確認を求められた場合 [範囲](../getting-started/websites-stores-views.md#scope-settings) 切り替え、クリック **[!UICONTROL OK]**.
+1. 確認を求められたら [範囲](../getting-started/websites-stores-views.md#scope-settings) 切り替え，クリック **[!UICONTROL OK]**.
 
-   ![ストア表示を選択](./assets/create-store-config-view.png){width="600" zoomable="yes"}
+   ![ストア表示の選択](./assets/create-store-config-view.png){width="600" zoomable="yes"}
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Base URLs]** 」セクションに移動し、ストアのベース URL を入力します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Base URLs]** 「」セクションに、ストアのベース URL を入力します。
 
-   必要に応じて、 **[!UICONTROL Use system value]** チェックボックスを使用して設定を変更します。
+   必要に応じて、 **[!UICONTROL Use system value]** チェックボックスをオンにして、設定を変更します。
 
-   ![一般設定 — Web ベース URL](./assets/config-general-web-base-urls-clear-checkbox.png){width="600" zoomable="yes"}
+   ![一般設定 – web ベース URL](./assets/config-general-web-base-urls-clear-checkbox.png){width="600" zoomable="yes"}
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Secure Base URLs]** ストアを設定する場合は、セクションをクリックし、前の手順を繰り返します。 [セキュア URL](store-urls.md).
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Secure Base URLs]** をセクションし、ストアを設定する場合は前の手順を繰り返します [セキュア URL](store-urls.md).
 
 1. クリック **[!UICONTROL Save Config]**.
 
 ### 手順 5：サーバーの設定
 
-複数の Web サイトをサポートするようにサーバーを設定するには、 [複数の Web サイトまたはストア](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) （内） _設定ガイド_.
+複数の Web サイトをサポートするようにサーバーを設定するには、を参照してください。 [複数の web サイトまたはストア](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) が含まれる _設定ガイド_.
 
-Web サーバーの設定に関するヘルプについては、次のリソースを参照してください。
+Web サーバーの設定のヘルプについては、次のリソースを参照してください。
 
-- [NGX で複数の Web サイトを設定する](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
-- [Apache で複数の Web サイトを設定](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
+- [NGNX で複数の Web サイトを設定する](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
+- [Apache での複数の web サイトの設定](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
 
-クラウドインフラストラクチャ上のAdobe Commerceについては、 [複数の Web サイトまたはストアを設定する](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).
+クラウドインフラストラクチャー上のAdobe Commerceについては、以下を参照してください。 [複数の web サイトまたはストアを設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).
 
 ## Web サイトの追加
 
-1 つのAdobe CommerceまたはMagento Open Sourceインストールから、同じドメインまたは異なるドメインで複数の Web サイトを設定できます。 デフォルトでは、同じ Web サイトにあるストアの IP アドレスとドメインは同じで、同じセキュリティ証明書を使用し、単一のチェックアウトプロセスを共有します。 各ストアに専用のチェックアウトプロセスを独自のドメインで割り当てる場合は、各ストアに個別の IP アドレスと個別のセキュリティ証明書が必要です。
+複数の web サイトを、1 つのAdobe Commerceまたは同じドメインまたは異なるドメインを持つMagento Open Sourceのインストールからセットアップできます。 デフォルトでは、同じ web サイトの配下にあるストアは同じ IP アドレスとドメインを持ち、同じセキュリティ証明書を使用し、単一のチェックアウトプロセスを共有します。 各ストアに専用のチェックアウトプロセスを独自のドメインで実行する場合は、各ストアに個別の IP アドレスと個別のセキュリティ証明書が必要です。
 
-Adobe CommerceまたはMagento Open Sourceのマルチサイトインストールは、管理者から、またはサーバーのコマンドラインから構成する必要があります。 コマース [設定ガイド](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) に、サーバー環境を設定する手順を示します。
+Adobe CommerceまたはMagento Open Sourceのマルチサイトインストールは、管理者だけでなく、サーバーのコマンドラインからも設定する必要があります。 Commerce [設定ガイド](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) サーバー環境の設定手順を詳しく説明します。
 
-![範囲 — Web サイト](./assets/scope-multisite.svg){width="550"}
+![範囲 – Web サイト](./assets/scope-multisite.svg){width="550"}
 
-### 手順 1:Web サイトを作成する
+### 手順 1:web サイトの作成
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
 
-1. 右上隅で、 **[!UICONTROL Create Website]**.
+1. 右上隅のをクリックします。 **[!UICONTROL Create Website]**.
 
-1. を設定します。 **[!UICONTROL Web Site Information]** options:
+1. を **[!UICONTROL Web Site Information]** オプション：
 
-   ![Web サイトの作成 — オプション](./assets/create-website-info.png){width="600" zoomable="yes"}
+   ![Web サイトの作成 – オプション](./assets/create-website-info.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Name]**  — 新しい Web サイトのドメインを入力します。 例： `domain.com`.
+   - **[!UICONTROL Name]**  – 新しい Web サイトのドメインを入力します。 例： `domain.com`.
 
-   - **[!UICONTROL Code]**  — サーバー上でドメインを指すために使用するコードを入力します。
+   - **[!UICONTROL Code]** — ドメインを指すためにサーバーで使用されるコードを入力します。
 
-     コードは、小文字 (a ～ z) で始まる必要があり、文字 (a ～ z)、数字 (0 ～ 9)、アンダースコア (_) の組み合わせを含めることができます。
+     コードは、小文字（a ～ z）で始まる必要があり、文字（a ～ z）、数字（0 ～ 9）、アンダースコア（_）記号を任意に組み合わせることができます。
 
-   - **[!UICONTROL Sort Order]** — _（オプション）_ このサイトが他のサイトと共に表示される順序を決定する番号を入力します。 このサイトをリストの一番上に表示するには、ゼロ (`0`) をクリックします。
+   - **[!UICONTROL Sort Order]** — _（オプション）_ このサイトが他のサイトと一緒に表示される順序を決定する番号を入力します。 このサイトをリストの上部に表示するには、ゼロ （`0`）に設定します。
 
 1. クリック **[!UICONTROL Save Web Site]**.
 
-1. 各 [保存する](#add-stores) および [ストア表示](store-views.md) これは新しい Web サイトに必要です。
+1. 各 [store](#add-stores) および [ストア表示](store-views.md) これは、新しい web サイトに必要です。
 
-   その後、Web サイトを編集モードで開いて、デフォルトのストアを設定できます。
+   その後、web サイトを編集モードで開いて、デフォルトストアを設定できます。
 
-### 手順 2：ストアの URL を設定する
+### 手順 2：ストア URL の設定
 
-次の手順で [ストア URL](store-urls.md)をクリックし、指示に従います。
+を設定するには [url を格納](store-urls.md)、手順に従います。
 
 ### 手順 3：サーバーの設定
 
-複数の Web サイトをサポートするようにサーバーを設定するには、 [複数の Web サイトまたはストア](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) （内） _設定ガイド_.
+複数の Web サイトをサポートするようにサーバーを設定するには、を参照してください。 [複数の web サイトまたはストア](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) が含まれる _設定ガイド_.
 
-Web サーバーの設定に関するヘルプについては、次のチュートリアルを参照してください。
+Web サーバーの設定のヘルプについては、次のチュートリアルを参照してください。
 
-- [NGX で複数の Web サイトを設定する](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
-- [Apache で複数の Web サイトを設定](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
+- [NGNX で複数の Web サイトを設定する](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
+- [Apache での複数の web サイトの設定](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
 
-クラウドインフラストラクチャ上のAdobe Commerceについては、 [複数の Web サイトまたはストアを設定する](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).
+クラウドインフラストラクチャー上のAdobe Commerceについては、以下を参照してください。 [複数の web サイトまたはストアを設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).

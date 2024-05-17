@@ -17,7 +17,7 @@ ht-degree: 2%
 + 顧客管理ツール {#customers-menu}
    + [顧客リスト](customers-all.md)
    + [オンラインになりました](now-online.md)
-   + [規模に応じたパーソナライゼーション](personalize-scale.md)
+   + [大規模なパーソナライゼーション](personalize-scale.md)
 + 顧客アカウント {#customer-accounts}
    + [アカウントの範囲](customer-account-scope.md)
    + アカウントオプション {#configure}
@@ -26,23 +26,23 @@ ht-degree: 2%
       + [名前と住所のオプション](name-address-options.md)
       + [パスワードオプション](password-options.md)
       + [顧客セッションの有効期間](customer-online-options.md)
-      + [顧客のログイン](customer-sign-in.md)
+      + [ユーザーのサインイン](customer-sign-in.md)
       + [パスワードのリセット](password-reset.md)
-   + [個々のアカウントの作成](account-create.md)
+   + [個人アカウントの作成](account-create.md)
    + アカウントの管理 {#manage}
       + [顧客アカウント](manage-account.md)
       + [顧客プロファイルの更新](update-account.md)
-      + [買い物客の支援を提供する](login-as-customer.md)
+      + [買い物客への支援の提供](login-as-customer.md)
    + 顧客属性 {#attributes}
       + [属性プロパティ](attribute-properties.md)
-      + [住所の属性](address-attributes.md)
-      + [住所テンプレート](address-templates.md)
-   + 店舗クレジット {#store-credit}
-      + [クレジットワークフローを保存](store-credit.md)
-      + [店舗クレジットの設定](credit-configure.md)
+      + [アドレス属性](address-attributes.md)
+      + [アドレステンプレート](address-templates.md)
+   + ストアクレジット {#store-credit}
+      + [ストアクレジットワークフロー](store-credit.md)
+      + [ストアクレジットの設定](credit-configure.md)
       + [店舗クレジットの適用](store-credit-using.md)
       + [アカウントダッシュボードにクレジットを保存](account-dashboard-store-credit.md)
-      + [アカウントダッシュボードでの返金](refunds-customer-account.md)
+      + [アカウントダッシュボードでの払い戻し](refunds-customer-account.md)
    + 顧客アカウントダッシュボード {#storefront}
       + [アカウントダッシュボードの管理](account-dashboard.md)
       + [[!UICONTROL My Account]](account-dashboard-my-account.md)
@@ -52,6 +52,6 @@ ht-degree: 2%
 + [顧客グループ](customer-groups.md)
 + 顧客セグメント {#segments}
    + [概要](customer-segments.md)
-   + [顧客セグメントの作成と削除](customer-segment-create.md)
+   + [顧客セグメントの作成および削除](customer-segment-create.md)
    + [価格ルールの顧客セグメント](customer-segment-price-rule.md)
    + [顧客セグメントレポート](customer-segment-reports.md)

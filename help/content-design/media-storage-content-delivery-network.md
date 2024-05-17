@@ -1,58 +1,58 @@
 ---
-title: コンテンツ配信ネットワークを使用する
-description: コンテンツ配信ネットワーク (CDN) を使用してメディアファイルを保存する方法について説明します。
+title: コンテンツ配信ネットワークの使用
+description: コンテンツ配信ネットワーク（CDN）を使用してメディアファイルを保存する方法について説明します。
 exl-id: cb612b79-f3e3-4f1b-8cf9-d47886486686
 feature: Page Content, Media, Configuration
 level: Experienced
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
-# コンテンツ配信ネットワークを使用する
+# コンテンツ配信ネットワークの使用
 
-コンテンツ配信ネットワーク (CDN) を使用して、メディアファイルを保存できます。 Adobe Commerce on cloud infrastructure には Fastly CDN が含まれます ( [Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html) （内） _Commerce on Cloud Infrastructure ガイド_) をクリックします。 インストールされているコマースインスタンス _オンプレミス_ には、特定の CDN との統合は含まれていないので、任意の CDN を使用できます。
+コンテンツ配信ネットワーク（CDN）は、メディアファイルの保存に使用できます。 クラウドインフラストラクチャー上のAdobe Commerceには、Fastly CDN が含まれます（ [Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html) が含まれる _クラウドインフラストラクチャー上のCommerce ガイド_）に設定します。 インストールされているCommerce インスタンス _オンプレミス_ には特定の CDN との統合は含まれていません。任意の CDN を使用できます。
 
-CDN を設定した後、管理者から設定を完了する必要があります。 変更は、グローバルレベルまたは Web サイトレベルでおこなうことができます。 CDN をメディアストレージに使用すると、コマースストアページ上のメディアへのすべてのパスが、設定で指定された CDN パスに変更されます。
+CDN を設定したら、管理者から設定を完了する必要があります。 変更は、グローバルレベルまたは web サイトレベルで行うことができます。 CDN がメディアストレージに使用される場合、Commerce ストアページ上のメディアへのすべてのパスは、設定で指定された CDN パスに変更されます。
 
 ## CDN ワークフロー
 
-1. **ブラウザーがメディアをリクエストします**  — お客様のブラウザーでストアのページが開き、HTMLーがそのストアで指定されたメディアをリクエストします。
-1. **CDN に送信されたリクエスト。見つかった画像と提供された画像**  — リクエストが最初に CDN に送信されます。 CDN のストレージに画像が含まれている場合、メディアファイルは顧客のブラウザーに提供されます。
-1. **メディアが見つかりません。リクエストの送信先： [!DNL Commerce] web サーバー** - CDN にメディアファイルがない場合、リクエストは [!DNL Commerce] Web サーバー。 メディアファイルがファイルシステムに存在する場合、Web サーバはそれらをお客様のブラウザに送信します。
+1. **ブラウザーはメディアをリクエストします** - ストアのページが顧客のブラウザーで開かれ、ブラウザーはHTMLで指定されたメディアをリクエストします。
+1. **リクエストは CDN に送信され、画像が見つかり、提供される** - リクエストは最初に CDN に送信されます。 CDN のストレージに画像が格納されている場合は、顧客のブラウザーにメディアファイルが提供されます。
+1. **メディアが見つかりません。要求はに送信されました [!DNL Commerce] web サーバー** - CDN にメディアファイルがない場合、リクエストはに送信されます。 [!DNL Commerce] web サーバー。 メディア・ファイルがファイル・システム内で見つかった場合、Web サーバはメディア・ファイルをお客様のブラウザに送信します。
 
 >[!IMPORTANT]
 >
->セキュリティ上の理由から、CDN をメディアストレージとして使用する場合、CDN がサブドメインの外部にあると JavaScript が正しく機能しないことがあります。
+>セキュリティ上、CDN がメディアストレージとして使用されている場合、CDN がサブドメインの外部にある場合、JavaScript が正しく機能しない可能性があります。
 
 ## コンテンツ配信ネットワークの設定
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. の下の左側のパネル _[!UICONTROL General]_を選択します。**[!UICONTROL Web]**.
+1. の下の左パネルで _[!UICONTROL General]_、を選択&#x200B;**[!UICONTROL Web]**.
 
-1. 左上隅で、 **[!UICONTROL Store View]** 必要に応じて。
+1. 左上隅にを設定します **[!UICONTROL Store View]** 必要に応じて。
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Base URLs]** 」セクションで次の操作を実行します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Base URLs]** を選択し、次の操作を実行します。
 
-   ![一般設定 — Web ベース URL](./assets/web-base-urls.png){width="600" zoomable="yes"}
+   ![一般設定 – web ベース URL](./assets/web-base-urls.png){width="600" zoomable="yes"}
 
-   - を更新します。 **[!UICONTROL Base URL for Static View Files]** と、静的ビューファイルが格納される CDN 上の場所の URL。
+   - を更新 **[!UICONTROL Base URL for Static View Files]** を静的ビューファイルが格納される CDN 上の場所の URL に置きます。
 
-   - を更新します。 **[!UICONTROL Base URL for User Media Files]** を、CDN 上の JavaScript ファイルの URL に置き換えます。
+   - を更新 **[!UICONTROL Base URL for User Media Files]** CDN 上の JavaScript ファイルの URL を使用します。
 
-     これらのフィールドは、空白のままにすることも、プレースホルダーで始めることもできます。 `{% raw %}{{unsecure_base_url}}{% endraw %}`
+     これらのフィールドは空白のままでも、プレースホルダーで開始することもできます。 `{% raw %}{{unsecure_base_url}}{% endraw %}`
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Base URLs (Secure)]** 」セクションで次の操作を実行します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Base URLs (Secure)]** を選択し、次の操作を実行します。
 
-   ![一般設定 — Web ベース URL （セキュア）](./assets/web-base-urls-secure.png){width="600" zoomable="yes"}
+   ![一般設定 – web ベース URL （セキュア）](./assets/web-base-urls-secure.png){width="600" zoomable="yes"}
 
-   - を更新します。 **[!UICONTROL Secure Base URL for Static View Files]** と、静的ビューファイルが格納される CDN 上の場所の URL。
+   - を更新 **[!UICONTROL Secure Base URL for Static View Files]** を静的ビューファイルが格納される CDN 上の場所の URL に置きます。
 
-   - を更新します。 **[!UICONTROL Secure Base URL for User Media Files]** を、CDN 上の JavaScript ファイルの URL に置き換えます。
+   - を更新 **[!UICONTROL Secure Base URL for User Media Files]** CDN 上の JavaScript ファイルの URL を使用します。
 
-     これらのフィールドは、空白のままにすることも、プレースホルダーで始めることもできます。 `{% raw %}{{unsecure_base_url}}{% endraw %}`
+     これらのフィールドは空白のままでも、プレースホルダーで開始することもできます。 `{% raw %}{{unsecure_base_url}}{% endraw %}`
 
-1. 完了したら、「 **[!UICONTROL Save Config]**.
+1. 完了したら、 **[!UICONTROL Save Config]**.

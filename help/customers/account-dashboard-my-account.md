@@ -1,6 +1,6 @@
 ---
-title: "[!UICONTROL My Account] page"
-description: The [!UICONTROL My Account] 顧客ダッシュボードのページでは、店舗に関連する顧客の情報やアクティビティの概要を確認できます。
+title: “[!UICONTROL My Account] ページ"
+description: この [!UICONTROL My Account] 顧客ダッシュボードのページでは、ストアに関連する顧客の情報やアクティビティの概要を顧客に提供します。
 exl-id: 01413b6b-ce32-4284-ae29-0fadf6ed22ca
 feature: Customers, Storefront
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # [!UICONTROL My Account] ページ
 
-The **[!UICONTROL My Account]** 顧客ダッシュボードのページでは、店舗に関連する顧客の情報やアクティビティの概要を確認できます。
+この **[!UICONTROL My Account]** 顧客ダッシュボードのページでは、ストアに関連する顧客の情報やアクティビティの概要を顧客に提供します。
 
-このページは、次のセクションで構成されています。
+このページは、次のセクションで構成されます。
 
 * [**[!UICONTROL Account Information]**](../customers/account-dashboard-account-information.md)
 * [**[!UICONTROL Address Book]**](../customers/account-dashboard-address-book.md)

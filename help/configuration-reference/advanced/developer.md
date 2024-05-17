@@ -1,12 +1,12 @@
 ---
 title: '[!UICONTROL Advanced] &gt; [!UICONTROL Developer]'
-description: 次のページで設定を確認します： [!UICONTROL Advanced] &gt; [!UICONTROL Developer] コマース管理のページ。
+description: の設定を確認します。 [!UICONTROL Advanced] &gt; [!UICONTROL Developer] コマース管理者のページ。
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -17,17 +17,17 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->これらの設定は、 [開発者モード](../../systems/developer-tools.md#operation-modes) のみ。
+>これらの設定は、次の場所で利用できます [開発者モード](../../systems/developer-tools.md#operation-modes) のみ。
 
 ## [!UICONTROL Frontend Development Workflow]
 
 ![フロントエンド開発ワークフロー](./assets/developer-frontend-development-workflow.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、 [フロントエンド開発ワークフロー](../../systems/developer-tools.md#frontend-development-workflow) （内） _管理システムガイド_.
+これらの設定の変更の詳細については、を参照してください [フロントエンド開発ワークフロー](../../systems/developer-tools.md#frontend-development-workflow) が含まれる _管理システムガイド_.
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Workflow Type] | グローバル | 開発時に、クライアント側またはサーバー側でコンパイルを少なくするかどうかを指定します。 オプション： <br/>**`Client side less compilation`**— コンパイルは、ネイティブの less.js ライブラリを使用してブラウザーでおこなわれます。<br/>**`Server side less compilation`**  — コンパイルは、Less PHP ライブラリを使用してサーバー上で行われます。 これは実稼動用のデフォルトのモードです。 |
+| [!UICONTROL Workflow Type] | グローバル | 開発中にクライアント側またはサーバー側で LESS コンパイルが行われるかどうかを決定します。 オプション： <br/>**`Client side less compilation`**- コンパイルは、ネイティブの less.js ライブラリを使用してブラウザーで行われます。<br/>**`Server side less compilation`** - コンパイルは、Less PHP ライブラリを使用してサーバ上で実行されます。 これは、実稼動用のデフォルトのモードです。 |
 
 {style="table-layout:auto"}
 
@@ -35,11 +35,11 @@ ht-degree: 1%
 
 ![開発者クライアントの制限](./assets/developer-developer-client-restrictions.png)<!-- zoom -->
 
-この設定の変更の詳細については、 [クライアントの制限](../../systems/developer-tools.md#client-restrictions) （内） _管理システムガイド_.
+この設定の変更の詳細については、を参照してください。 [クライアントの制限](../../systems/developer-tools.md#client-restrictions) が含まれる _管理システムガイド_.
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Allow IPs (comma separated)] | ストア表示 | ストア内許可リストに加えるの顧客に干渉することなく、ライブサイトで開発者ツールを使用できる IP アドレスのを作成します。 開発者ツール ( _インライン翻訳_&#x200B;は、上の IP アドレスからのみ表示され許可リストに加えるます。 |
+| [!UICONTROL Allow IPs (comma separated)] | ストア表示 | ストア内の顧客に干渉することなく、ライブサイトで開発者ツールを使用できる IP アドレスの許可リストを作成します。 などの開発者ツールを使用する際のサイトへの変更 _インライン翻訳_、許可リストの IP アドレスからのみ表示されます。 |
 
 {style="table-layout:auto"}
 
@@ -47,11 +47,11 @@ ht-degree: 1%
 
 ![テンプレート設定](./assets/developer-template-settings.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、 [リソースファイルの最適化](../../systems/developer-tools.md#optimizing-resource-files) （内） _管理システムガイド_.
+これらの設定の変更の詳細については、を参照してください [リソースファイルの最適化](../../systems/developer-tools.md#optimizing-resource-files) が含まれる _管理システムガイド_.
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Allow Symlinks] | ストア表示 | 有効化 [シンボリックリンク](https://en.wikipedia.org/wiki/Symbolic_link) では、サイトをセキュリティ上のリスクにさらすことができるので、実稼動用ストアには推奨されません。 |
+| [!UICONTROL Allow Symlinks] | ストア表示 | 有効化 [シンボリックリンク](https://en.wikipedia.org/wiki/Symbolic_link) では、サイトがセキュリティリスクにさらされる可能性があるので、実稼動ストアには推奨されません。 |
 | [!UICONTROL Minify Html] | ストア表示 | ストアテンプレートのHTMLを最小化するかどうかを指定します。 オプション： `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -60,26 +60,26 @@ ht-degree: 1%
 
 ![デバッグ](./assets/developer-debug.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、 [テンプレートパスのヒント](../../systems/developer-tools.md#template-path-hints) （内） _管理システムガイド_.
+これらの設定の変更の詳細については、を参照してください [テンプレートパスのヒント](../../systems/developer-tools.md#template-path-hints) が含まれる _管理システムガイド_.
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable Template Path Hints for Storefront] | ストア表示 | ページで使用される各テンプレートのパスを示す表記をストアフロントに追加します。 オプション： `Yes` / `No` |
-| [!UICONTROL Enable Template Path Hints for Admin] | グローバル | 管理者に、ページで使用される各テンプレートへのパスを示す表記を追加します。 オプション： `Yes` / `No` |
-| [!UICONTROL Add Block Class Type to Hints] | ストア表示 | テンプレートパスのヒントにブロックの名前が含まれます。 オプション： `Yes` / `No` |
+| [!UICONTROL Enable Template Path Hints for Storefront] | ストア表示 | ページで使用される各テンプレートへのパスを示す表記法をストアフロントに追加します。 オプション： `Yes` / `No` |
+| [!UICONTROL Enable Template Path Hints for Admin] | グローバル | ページで使用される各テンプレートへのパスを示す表記を管理者に追加します。 オプション： `Yes` / `No` |
+| [!UICONTROL Add Block Class Type to Hints] | ストア表示 | テンプレートパスのヒントにブロックの名前を含めます。 オプション： `Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Translate Inline]
 
-![インラインを翻訳](./assets/developer-translate-inline.png)<!-- zoom -->
+![インライン翻訳](./assets/developer-translate-inline.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、 [インラインを翻訳](../../systems/developer-tools.md#translate-inline) （内） _管理システムガイド_.
+これらの設定の変更の詳細については、を参照してください [インラインで翻訳](../../systems/developer-tools.md#translate-inline) が含まれる _管理システムガイド_.
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable for Storefront] | ストア表示 | ストアフロント用のインライントランスレーターをアクティブにします。 インターフェイスのテキストは、ストアの表示ごとに編集できます。 ライブストアに干渉することなくインライントランスレーターを使用するには、IP アドレスを開発者クライアント制限に追加し許可リストに加えるます。 |
-| [!UICONTROL Enable for Admin] | グローバル | 管理者用のインライントランスレーターをアクティベートします。 ストアフロントとは異なり、管理者は複数の言語に翻訳できません。 ただし、インターフェイス内のフィールドラベルやその他のテキストは変更できます。 |
+| [!UICONTROL Enable for Storefront] | ストア表示 | ストアフロントのインライン トランスレータをアクティブにします。 インターフェイスのテキストは、ストア表示ごとに編集できます。 許可リストに加える ライブストアに干渉せずに Inline Translator を使用するには、IP アドレスを Developer Client Restrictions に追加します。 |
+| [!UICONTROL Enable for Admin] | グローバル | 管理者用のインライン翻訳をアクティブにします。 ストアフロントとは異なり、管理者を複数の言語に翻訳することはできません。 ただし、インターフェイスのフィールドラベルやその他のテキストは変更できます。 |
 
 {style="table-layout:auto"}
 
@@ -87,16 +87,16 @@ ht-degree: 1%
 
 ![JavaScript 設定](./assets/developer-javascript-settings.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、 [リソースファイルの最適化](../../systems/developer-tools.md#optimizing-resource-files) （内） _管理システムガイド_.
+これらの設定の変更の詳細については、を参照してください [リソースファイルの最適化](../../systems/developer-tools.md#optimizing-resource-files) が含まれる _管理システムガイド_.
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Merge JavaScript Files] | ストア表示 | 複数の JavaScript ファイルを 1 つのファイルに結合して、ページの読み込み時間を短縮します。 |
-| [!UICONTROL Enable JavaScript Bundling] | ストア表示 | 複数の JavaScript ファイルを 1 つのファイルにバンドルできるかどうかを指定します。 オプション： `Yes` / `No` |
-| [!UICONTROL Minify JavaScript Files] | ストア表示 | 不要な文字、スペースおよびインデントを削除して、コードのサイズを小さくします。 |
-| [!UICONTROL Move JS code to the bottom of the page] | グローバル | 有効にすると、JS コードがページの末尾に移動します。 オプション： `Yes` / `No` |
-| [!UICONTROL Translation Strategy] | グローバル | システムで使用される翻訳方法を決定します。 オプション： <br/>**`Dictionary`**— ストアフロント側での翻訳。<br/>**`Embedded`**  — 管理者側での翻訳。 |
-| [!UICONTROL Log JS Errors to Session Storage] | グローバル | 有効にした場合、機能テストでレポートに使用できます。 オプション： `Yes` / `No` |
+| [!UICONTROL Enable JavaScript Bundling] | ストア表示 | 複数の JavaScript ファイルを 1 つのファイルにバンドルできるかどうかを決定します。 オプション： `Yes` / `No` |
+| [!UICONTROL Minify JavaScript Files] | ストア表示 | 不要な文字、スペース、インデントを削除して、コードのサイズを小さくします。 |
+| [!UICONTROL Move JS code to the bottom of the page] | グローバル | 有効にすると、JS コードがページの下部に移動します。 オプション： `Yes` / `No` |
+| [!UICONTROL Translation Strategy] | グローバル | システムで使用される翻訳方法を決定します。 オプション： <br/>**`Dictionary`**- ストアフロント側での翻訳。<br/>**`Embedded`**  – 管理者側での翻訳。 |
+| [!UICONTROL Log JS Errors to Session Storage] | グローバル | 有効にすると、機能テストでレポートに使用できます。 オプション： `Yes` / `No` |
 | [!UICONTROL Log JS Errors to Session Storage Key] | グローバル | 収集された js エラーを取得するために使用されるキーを識別します。 |
 
 {style="table-layout:auto"}
@@ -105,13 +105,13 @@ ht-degree: 1%
 
 ![CSS 設定](./assets/developer-css-settings.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、 [リソースファイルの最適化](../../systems/developer-tools.md#optimizing-resource-files) （内） _管理システムガイド_.
+これらの設定の変更の詳細については、を参照してください [リソースファイルの最適化](../../systems/developer-tools.md#optimizing-resource-files) が含まれる _管理システムガイド_.
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Merge CSS Files] | ストア表示 | 複数の CSS ファイルを 1 つのファイルに結合して、ページの読み込み時間を短縮します。 オプション： `Yes` / `No` |
-| [!UICONTROL Minify CSS Files] | ストア表示 | 不要な文字、スペースおよびインデントを削除して、コードのサイズを小さくします。 オプション： `Yes` / `No` |
-| [!UICONTROL Use CSS critical path] | グローバル | The _CSS クリティカルパス_ で縮小された重要な CSS をインラインで配信 `<head>` とは、非同期で読み込まれる重要でないスタイルをすべて遅延させます。 オプション： `Yes` / `No` |
+| [!UICONTROL Minify CSS Files] | ストア表示 | 不要な文字、スペース、インデントを削除して、コードのサイズを小さくします。 オプション： `Yes` / `No` |
+| [!UICONTROL Use CSS critical path] | グローバル | この _CSS のクリティカルパス_ では、縮小された重要な CSS をインラインで配信します。 `<head>` およびは、非同期で読み込まれる重要でないスタイルをすべて延期します。 オプション： `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -121,7 +121,7 @@ ht-degree: 1%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | グローバル | イメージのレンダリングに使用するアダプタを指定します。 アダプタの設定を変更した後、カタログイメージのキャッシュをフラッシュします。 オプション： `PHP GD2` / `ImageMagick` <br/><br/>**_注意：_**ICO ファイルタイプは、ImageMagik アダプタでのみサポートされます。 |
+| [!UICONTROL Image Adapter] | グローバル | イメージのレンダリングに使用するアダプタを指定します。 アダプターの設定を変更した後、カタログ画像のキャッシュをフラッシュします。 オプション： `PHP GD2` / `ImageMagick` <br/><br/>**_注意：_**ICO ファイルタイプは、ImageMagik アダプタでのみサポートされます。 |
 
 {style="table-layout:auto"}
 
@@ -131,17 +131,17 @@ ht-degree: 1%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Cache User Defined Attributes] | グローバル | 有効にすると、ユーザー定義の属性とシステムエンティティ属性値 (EAV) 属性をキャッシュします。 このオプションを使用すると、パフォーマンスが向上しますが、キャッシュに追加の領域が必要になる場合があります。 オプション： `Yes` / `No` |
+| [!UICONTROL Cache User Defined Attributes] | グローバル | 有効な場合、はユーザー定義の属性およびシステムエンティティ属性値（EAV）属性をキャッシュします。 このオプションを使用するとパフォーマンスが向上する可能性がありますが、キャッシュ用に追加のスペースが必要になることもあります。 オプション： `Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Static Files Settings]
 
-![静的ファイル設定](./assets/developer-static-files-settings.png)<!-- zoom -->
+![静的ファイルの設定](./assets/developer-static-files-settings.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Sign Static Files] | グローバル | 有効にすると、静的ファイルの URL にデジタル署名が追加され、ブラウザーがファイルの新しいバージョンが使用可能かどうかを検出できるようになります。 ファイルの署名がブラウザーのキャッシュに保存されているものと異なる場合は、ファイルの新しいバージョンが使用されます。 署名可能な静的ファイルには、JavaScript、CSS、画像、フォントなどがあります。 オプション： `Yes` / `No` |
+| [!UICONTROL Sign Static Files] | グローバル | 有効にすると、静的ファイルの URL にデジタル署名が追加され、ブラウザーでファイルの新しいバージョンが使用可能かどうかを検出できるようになります。 ファイルの署名がブラウザーのキャッシュに格納されている署名と異なる場合は、ファイルの新しいバージョンが使用されます。 署名可能な静的ファイルには、JavaScript、CSS、画像、フォントなどがあります。 オプション： `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -151,6 +151,6 @@ ht-degree: 1%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Asynchronous Indexing|Global] | オーダー処理システムエンティティ（オーダー、請求書、出荷、クレジット・メモなど）をグリッドに追加し、再インデックスを作成するタイミングを決定します。 非同期インデックス作成は、保存操作中のデータのロックを回避し、処理時間を短縮するために使用できます。 オプション： <br/>**`Disable`**- （デフォルト）注文関連のエンティティは、様々なタイミングでグリッドに追加されます。 保存時に<br/>**`Enable`**  — 注文関連のエンティティは、スケジュールされた Cron ジョブ中にのみグリッドに追加されます。 Cron は、1 分に 1 回実行するように設定する必要があります。 |
+| [!UICONTROL Asynchronous Indexing|Global] | 注文、請求書、出荷、クレジット メモなどの注文処理システム エンティティをグリッドに追加し、インデックスを再作成するタイミングを決定します。 非同期インデックス作成を使用すると、保存操作中のデータのロックを回避し、処理時間を短縮できます。 オプション： <br/>**`Disable`**- （デフォルト）注文に関連するエンティティが、様々なタイミングでグリッドに追加されます。 保存されたとおりに。<br/>**`Enable`**  – 注文関連のエンティティは、スケジュールされた cron ジョブの実行中にのみグリッドに追加されます。 Cron は 1 分ごとに 1 回実行されるように設定する必要があります。 |
 
 {style="table-layout:auto"}

@@ -14,12 +14,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**Commerce 2.4 移行：**<br/>
+>**Commerce 2.4 への移行：**<br/>
 >Adobe CommerceおよびMagento Open Sourceのバージョンが 2.4.0 より前の場合、マーチャントは、から公式のBraintree支払い統合拡張機能をインストールして設定することをお勧めします [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree) ：コア統合に取って代わります。 2.4.0 以降、拡張機能はコアリリースに含まれるようになりました。
 ><br/><br/>
->Commerce 2.4 に移行する場合、マーケットプレイスに配布されている拡張機能をマーケットプレイスでアンインストールする必要があります（`paypal/module-braintree` または `gene/module-braintree`）を選択し、コードのカスタマイズを更新して、 `PayPal_Braintree` の代わりにの名前空間 `Magento_Braintree`. バンドルされた Commerce 拡張機能の設定とCommerce Marketplaceで配布される拡張機能は保持されます。 これらのバージョンの拡張機能で行われた支払いは、通常どおりキャプチャ、無効化、または払い戻されます。
+>Commerce 2.4 に移行する場合、マーケットプレイスに配布されている拡張機能をアンインストールする必要があります（`paypal/module-braintree` または `gene/module-braintree`）を選択し、コードのカスタマイズを更新して、 `PayPal_Braintree` の代わりにの名前空間 `Magento_Braintree`. Commerce用にバンドルされた拡張機能の設定とCommerce Marketplaceに配布された拡張機能は保持されます。 これらのバージョンの拡張機能で行われた支払いは、通常どおりキャプチャ、無効化、または払い戻されます。
 ><br/><br/>
->Commerce 2.4.0 にアップグレードする際に、旧バージョンの 2.3.x で推奨されたCommerce Marketplace拡張機能を使用しない場合、マルチアドレス機能は旧バージョンのBraintreeでは動作しません。 買い物客が選択したとき _複数のアドレスに配信_ Braintreeの支払い方法は表示されません。 2.3.x で以前に推奨したCommerce Marketplace拡張機能には、この複数のアドレスの問題があります。
+>Commerce 2.4.0 にアップグレードする際に、以前の 2.3.x バージョンで推奨されたCommerce Marketplace拡張機能を使用しない場合、マルチアドレス機能は、2.4.0 バージョンのBraintreeでは動作しません。 買い物客が選択したとき _複数のアドレスに配信_ Braintreeの支払い方法は表示されません。 2.3.x で以前に推奨したCommerce Marketplace拡張機能には、この複数のアドレスの問題があります。
 
 {{config}}
 
@@ -69,8 +69,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable Webhook] | Web サイト | 詐欺保護、ACH 支払い、ローカル支払い方法、および紛争に対して Webhook 機能を有効にします。 オプション： `Yes` / `No` |
 | [!UICONTROL Fraud Protection URL] | Web サイト | この URL をBraintreeアカウントにとして追加します [!UICONTROL Webhook Destination URL]. **この URL はセキュリティで保護され、公開アクセス可能である必要があります。** |
-| [!UICONTROL Fraud Protection Approve Order Status] | Web サイト | 不正防止がBraintreeによって承認されると、選択された注文ステータスがコマース注文に割り当てられます。 このステータスは、ACH 支払方法が使用されている注文のステータスと、その移動先を更新するために使用されます `SETTLED` Braintreeで。 |
-| [!UICONTROL Fraud Protection Reject Order Status] | Web サイト | Braintreeにより不正防止が却下されると、選択された注文ステータスがコマース注文に割り当てられます。 このステータスは、ACH 支払方法が使用されている注文のステータスを更新するために使用されます `SETTLEMENT` 等しい `DECLINED` Braintreeで。 |
+| [!UICONTROL Fraud Protection Approve Order Status] | Web サイト | 不正防止がBraintreeによって承認されると、選択された注文ステータスがCommerce注文に割り当てられます。 このステータスは、ACH 支払方法が使用されている注文のステータスと、その移動先を更新するために使用されます `SETTLED` Braintreeで。 |
+| [!UICONTROL Fraud Protection Reject Order Status] | Web サイト | Braintreeにより不正防止が拒否されると、選択された注文ステータスがCommerce注文に割り当てられます。 このステータスは、ACH 支払方法が使用されている注文のステータスを更新するために使用されます `SETTLEMENT` 等しい `DECLINED` Braintreeで。 |
 
 {style="table-layout:auto"}
 

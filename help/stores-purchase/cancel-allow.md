@@ -2,13 +2,13 @@
 title: 注文のキャンセルを許可
 description: 顧客にキャンセル機能を提供する方法を説明します。
 feature: Orders, Storefront
-source-git-commit: 613c081c02dd9b5e55de37dccd021af4e429d424
+exl-id: 5a8ef668-f929-4188-8574-0bccdd076f3e
+source-git-commit: a9d1dc4fe50e98f0f1dfc8ec204930e2cc885d6e
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 0%
 
 ---
-
 
 # 注文のキャンセルを許可
 
@@ -74,5 +74,3 @@ ht-degree: 0%
 この _注文をキャンセル_ 注文をキャンセルできる場合は、マイアカウント ページの「最近の注文」セクションにボタンが表示されます。
 
 ![マイアカウントページ](./assets/my-account-page-view-cancel.png){width="700" zoomable="yes"}
-
-

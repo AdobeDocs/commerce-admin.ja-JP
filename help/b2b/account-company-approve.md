@@ -1,6 +1,6 @@
 ---
 title: 会社アカウントを承認
-description: 管理者で会社アカウントのリクエストを承認する方法について説明します。
+description: 管理者で会社アカウントのリクエストを承認する方法を説明します。
 exl-id: c7123383-0e94-4d6c-be3c-b6ca84145a59
 feature: B2B, Companies, Configuration
 role: Admin, User
@@ -13,50 +13,50 @@ ht-degree: 0%
 
 # 会社アカウントを承認
 
-ストアフロントから会社の作成に対して受け取った要求のステータスは次のとおりです `Pending Approval` 要求がストア管理者によってレビューされ、承認または拒否されるまで。 会社アカウントのステータスは、次のいずれかに設定できます。
+ストアフロントから受け取った会社設立依頼のステータスは以下のとおりです `Pending Approval` ストア管理者がリクエストを確認し、承認または却下するまで。 会社アカウントのステータスは、次のいずれかに設定される場合があります。
 
 - [!UICONTROL Active]
 - [!UICONTROL Pending Approval]
 - [!UICONTROL Rejected]
 - [!UICONTROL Blocked]
 
-また、 [アクションコントロール](account-company-manage.md) をクリックして、複数の会社リクエストを承認します。
+を使用することもできます [アクション制御](account-company-manage.md) 複数の会社リクエストを承認する場合。
 
 ![承認待ち](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
 
 ## 保留中の会社アカウントを承認
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-   以下を使用すると、 _[!UICONTROL Columns]_グリッドの上のセレクターを使用して、**[!UICONTROL Status]**列。
+   を使用できます _[!UICONTROL Columns]_グリッドの上にセレクターを配置して、**[!UICONTROL Status]**列。
 
-1. Adobe Analytics の _[!UICONTROL Action]_列、クリック&#x200B;**[!UICONTROL Edit]**.
+1. が含まれる _[!UICONTROL Action]_列、クリック&#x200B;**[!UICONTROL Edit]**.
 
-1. 設定 **[!UICONTROL Company Status]** から `Active`.
+1. を設定 **[!UICONTROL Company Status]** 対象： `Active`.
 
    ![会社ステータスの設定](./assets/company-status-active.png){width="700" zoomable="yes"}
 
-1. 確認するメッセージが表示されたら、「 **[!UICONTROL Change status]**.
+1. 確認を求められたら、 **[!UICONTROL Change status]**.
 
-   会社の管理者に、会社がアクティブになったことを知らせる電子メール通知が届きます。
+   会社の管理者に、会社がアクティブになったというメール通知が届きます。
 
-1. 該当する場合は、 **[!UICONTROL Sales Representative]** を特定の管理者ユーザーアカウントに追加します。
+1. 該当する場合、を設定します **[!UICONTROL Sales Representative]** を特定の管理者ユーザーアカウントに対して実行します。
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png)  の **[!UICONTROL Account Information]** セクションの **[!UICONTROL Comment]** フィールドにアカウントに関するメモを入力します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png)  この **[!UICONTROL Account Information]** セクションと使用 **[!UICONTROL Comment]** アカウントに関するメモを入力するフィールド。
 
-   コメントはストアフロントには表示されません。
+   コメントはストアフロントからは表示されません。
 
-1. 完了したら、「 **[!UICONTROL Save]**.
+1. 完了したら、 **[!UICONTROL Save]**.
 
-   会社および会社の管理者に、会社アカウントが承認されたことを確認する電子メールが送信されます。
+   会社アカウントが承認されたことを示す確認メールが会社と会社の管理者に送信されます。
 
 ## 会社ステータス
 
 | ステータス | 説明 |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Active] | 会社が承認され、会社管理者がストアフロントから管理できます。 |
-| [!UICONTROL Pending Approval] | 会社アカウントの作成リクエストがストアフロントから送信されましたが、まだ確認されていません。 |
-| [!UICONTROL Rejected] | 会社アカウントの作成リクエストがストア管理者によって拒否されました。 |
-| [!UICONTROL Blocked] | 会社の口座はもはや良い状態ではない。 顧客はストアフロントからアカウントにアクセスできますが、購入はできません。 |
+| [!UICONTROL Active] | 会社は承認され、会社管理者がストアフロントから管理できます。 |
+| [!UICONTROL Pending Approval] | 会社アカウントを作成するリクエストがストアフロントから送信されましたが、まだレビューされていません。 |
+| [!UICONTROL Rejected] | 会社アカウントを作成するリクエストは、ストア管理者によって拒否されました。 |
+| [!UICONTROL Blocked] | 会社の帳簿は調わなくなった。 顧客はストアフロントからアカウントにアクセスできますが、購入することはできません。 |
 
 {style="table-layout:auto"}

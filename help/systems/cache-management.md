@@ -22,7 +22,7 @@ Adobe CommerceとMagento Open Sourceキャッシュの管理システムを使�
 >
 >カタログエンティティが変更されると、他のページに影響を与え、複数のキャッシュが同時に無効になる可能性があります。 キャッシュ管理ページを確認すると、無効な項目があり、次の場合に更新が必要であることがわかります _**直接編集されない**_. 例えば、この無効化は、任意のカテゴリに割り当てられているカタログ内の製品を編集した場合や、関連する製品ルールを変更した場合に発生します。
 
-キャッシュをクリアした後は、常にブラウザーを更新して、最新のファイルが表示されるようにします。 コマースキャッシュをクリアしても、web ブラウザーのキャッシュはクリアされません。 更新されたコンテンツを表示するには、ブラウザーのキャッシュをクリアする必要がある場合があります。
+キャッシュをクリアした後は、常にブラウザーを更新して、最新のファイルが表示されるようにします。 Commerceのキャッシュをクリアしても、web ブラウザーのキャッシュはクリアされません。 更新されたコンテンツを表示するには、ブラウザーのキャッシュをクリアする必要がある場合があります。
 
 Adobe Commerceのキャッシュに関するその他の技術情報については、を参照してください [キャッシュの概要](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target=&quot;_blank&quot;} _Commerce フロントエンド開発ガイド_.
 
@@ -35,11 +35,11 @@ Adobe Commerceのキャッシュに関するその他の技術情報について
 
 ## キャッシュのベストプラクティス
 
-Commerce では、インデックス再作成とキャッシュに異なる目的があります。 [インデックス](index-management.md) データベース情報を追跡して、検索パフォーマンスの向上、ストアフロントのデータ取得の迅速化などを実現します。 キャッシュは、読み込んだデータ、画像、形式などを保存して、ストアフロントへの読み込みとアクセスのパフォーマンスを向上させます。
+Commerceでのインデックス再作成とキャッシュの目的は異なります。 [インデックス](index-management.md) データベース情報を追跡して、検索パフォーマンスの向上、ストアフロントのデータ取得の迅速化などを実現します。 キャッシュは、読み込んだデータ、画像、形式などを保存して、ストアフロントへの読み込みとアクセスのパフォーマンスを向上させます。
 
 - 拡張機能やモジュールをインストールした後は、必ずキャッシュをフラッシュしてください。 1 つ以上の拡張機能をインストールしてから、キャッシュをフラッシュできます。
-- Commerce をインストールした後、キャッシュをフラッシュします。 新規インストールの場合は、のインデックスも再作成する必要があります。
-- あるバージョンの Open Source または Commerce から別のバージョンにアップグレードした後で、キャッシュをフラッシュします。
+- Commerceをインストールした後、キャッシュをフラッシュします。 新規インストールの場合は、のインデックスも再作成する必要があります。
+- あるバージョンのオープンソースまたはCommerceから別のバージョンにアップグレードした後で、キャッシュをフラッシュします。
 - キャッシュをフラッシュする場合は、キャッシュのタイプと、ピーク時以外の時間にフラッシュをスケジュールすることを考慮してください。 例えば、深夜や早朝など、サイトを使用する顧客が少ない時間を選択します。 ピーク時の要求時にキャッシュ タイプをクリアすると、管理者の負荷が増え、操作が完了するまでサイトが停止する場合があります。
 - 条件 [再インデックス](index-management.md)キャッシュをフラッシュする必要はありません。
 
@@ -102,7 +102,7 @@ Commerce では、インデックス再作成とキャッシュに異なる目�
 
 ## コマンドラインを使用したフラッシュ
 
-Commerce アプリケーション サーバへのアクセス権を持つシステム管理者および開発者は、Commerce CLI を使用してコマンド ラインからキャッシュとキャッシュの設定を管理することもできます。 参照： [キャッシュの管理](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target=&quot;_blank&quot;} _設定ガイド_.
+Commerce アプリケーションサーバーへのアクセス権を持つシステム管理者および開発者は、Commerce CLI を使用して、コマンドラインからキャッシュとキャッシュ設定を管理することもできます。 参照： [キャッシュの管理](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target=&quot;_blank&quot;} _設定ガイド_.
 
 ## コントロール
 
@@ -118,8 +118,8 @@ Commerce アプリケーション サーバへのアクセス権を持つシス�
 
 | ボタン | 説明 |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Flush Magento Cache] | デフォルトのコマースキャッシュのすべての項目を削除します（`var/cache`）に設定します（関連付けられたコマース タグに従います）。 |
-| [!UICONTROL Flush Cache Storage] | Commerce タグに関係なく、キャッシュからすべての項目を削除します。 システムで別のキャッシュの場所を使用している場合、他のアプリケーションで使用されているキャッシュされたファイルは、そのプロセスで削除されます。 |
+| [!UICONTROL Flush Magento Cache] | デフォルトのCommerce キャッシュのすべての項目を削除します（`var/cache`）を使用する場合は、関連付けられているCommerce タグに従います。 |
+| [!UICONTROL Flush Cache Storage] | Commerceのタグに関係なく、キャッシュからすべての項目を削除します。 システムで別のキャッシュの場所を使用している場合、他のアプリケーションで使用されているキャッシュされたファイルは、そのプロセスで削除されます。 |
 | [!UICONTROL Flush Catalog Images Cache] | に保存されている、サイズが自動的に変更された、透かし付きのカタログ画像をすべて削除します `media/catalog/product/cache`. 最近アップロードした画像がカタログに反映されない場合は、カタログをフラッシュし、ブラウザーを更新してみてください。 |
 | [!UICONTROL Flush JavaScript/CSS Cache] | JavaScript ファイルと CSS ファイルの結合コピーをキャッシュから削除します。 スタイルシートまたは JavaScript に対する最近の変更がストアに反映されない場合は、JavaScript/CSS キャッシュをフラッシュし、ブラウザーを更新してみてください。 |
 | [!UICONTROL Flush Static Files Cache] | 前処理されたビューファイルと静的ファイルを削除します。 |
@@ -138,7 +138,7 @@ Commerce アプリケーション サーバへのアクセス権を持つシス�
 
 >[!NOTE]
 >
->開発者およびシステムインテグレーターは、Commerce キャッシュ管理システムをカスタマイズおよび拡張して、カスタムモジュールと統合をサポートできます。 詳しくは、を参照してください [キャッシュの設定](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview) が含まれる _Adobe Commerce設定ガイド_.
+>開発者とシステムインテグレーターは、Commerce キャッシュ管理システムをカスタマイズおよび拡張して、カスタムモジュールやカスタムインテグレーションをサポートできます。 詳しくは、を参照してください [キャッシュの設定](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview) が含まれる _Adobe Commerce設定ガイド_.
 
 <!-- prettier-ignore -->
 
@@ -146,14 +146,14 @@ Commerce アプリケーション サーバへのアクセス権を持つシス�
 
 | キャッシュ | 説明 | キャッシュタグ | キャッシュ ID |
 |-------|------------|----------|----------|
-| [!UICONTROL Configuration] | Commerce は、すべてのモジュールから XML 設定を収集し、結合して、結合結果をキャッシュに保存します。<br>**[!UICONTROL System]**-  `config.xml`,`local.xml`<br>**[!UICONTROL Module]** - `config.xml`<br><br>このキャッシュには、ファイルシステムとデータベースに保存されたストア固有の設定も含まれます。 構成ファイルを変更した後、このキャッシュの種類を消去またはフラッシュしてください。 | `CONFIG` | `config` |
+| [!UICONTROL Configuration] | Commerceは、すべてのモジュールから XML 設定を収集し、結合して、結合結果をキャッシュに保存します。<br>**[!UICONTROL System]**-  `config.xml`,`local.xml`<br>**[!UICONTROL Module]** - `config.xml`<br><br>このキャッシュには、ファイルシステムとデータベースに保存されたストア固有の設定も含まれます。 構成ファイルを変更した後、このキャッシュの種類を消去またはフラッシュしてください。 | `CONFIG` | `config` |
 | [!UICONTROL Layouts] | コンパイル済みのページレイアウト、つまり、すべてのコンポーネントのレイアウトコンポーネント。 レイアウト ファイルを変更した後で、このキャッシュの種類を消去またはフラッシュしてください。 | `LAYOUT_GENERAL_CACHE_TAG` | `layout` |
 | [!UICONTROL Blocks HTML output] | ブロックごとのHTMLページフラグメント。 ビューレイヤを変更した後で、このキャッシュ タイプをクリーンアップまたはフラッシュします。 | `BLOCK_HTML` | `block_html` |
-| [!UICONTROL Collections Data] | データベースクエリの結果を保存するコレクションデータファイル。 必要に応じて、Commerce はこのキャッシュを自動的にクリーンアップしますが、サードパーティの開発者は任意のデータをキャッシュの任意のセグメントに配置できます。 カスタム モジュールでロジックが使用され、その結果 Commerce でクリーンアップできないキャッシュ エントリが生成される場合は、このキャッシュ タイプをクリーンアップまたはフラッシュしてください。 | `COLLECTION_DATA` | `collections` |
+| [!UICONTROL Collections Data] | データベースクエリの結果を保存するコレクションデータファイル。 必要に応じて、Commerceはこのキャッシュを自動的にクリーンアップしますが、サードパーティのデベロッパーは任意のデータをキャッシュの任意のセグメントに配置できます。 カスタムモジュールでロジックが使用されているため、Commerceでクリーンアップできないキャッシュエントリが発生している場合は、このキャッシュタイプをクリーンアップまたはフラッシュしてください。 | `COLLECTION_DATA` | `collections` |
 | [!UICONTROL Reflections] | 通常は実行時に生成される API インターフェイスのリフレクションデータをクリアします。 | `REFLECTION` | `reflection` |
-| `Database DDL operations` | データベーススキーマ。 必要に応じて、Commerce はこのキャッシュを自動的にクリーンアップしますが、サードパーティの開発者は任意のデータをキャッシュの任意のセグメントに配置できます。 データベーススキーマにカスタムの変更を加えた後、このキャッシュタイプをクリーンアップまたはフラッシュします。 （つまり、これらは Commerce 自体が行わない更新です。） データベーススキーマを自動的に更新する 1 つの方法は、magento 設定を使用することです:db-schema:アップグレード コマンド。 | `DB_DDL` | `db_ddl` |
+| `Database DDL operations` | データベーススキーマ。 必要に応じて、Commerceはこのキャッシュを自動的にクリーンアップしますが、サードパーティのデベロッパーは任意のデータをキャッシュの任意のセグメントに配置できます。 データベーススキーマにカスタムの変更を加えた後、このキャッシュタイプをクリーンアップまたはフラッシュします。 （つまり、これらはCommerce自体が行わない更新です）。 データベーススキーマを自動的に更新する 1 つの方法は、magento 設定を使用することです:db-schema:アップグレード コマンド。 | `DB_DDL` | `db_ddl` |
 | [!UICONTROL Compiled Config] | コードのコンパイルの結果。 | `COMPILED_CONFIG` | `compiled_config` |
-| [!UICONTROL Webhooks Response Cache] | Webhook リクエストに対する応答をキャッシュします。 詳しくは、 [Webhook ガイド](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) （Commerce 開発者向けドキュメント）を参照してください。 | `WEBHOOKS_RESPONSE` | `webhooks_response` |
+| [!UICONTROL Webhooks Response Cache] | Webhook リクエストに対する応答をキャッシュします。 詳しくは、 [Webhook ガイド](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) Commerce開発者向けドキュメント | `WEBHOOKS_RESPONSE` | `webhooks_response` |
 | [!UICONTROL EAV types and attributes] | エンティティ属性値（EAV）属性に関連するメタデータのエンティティ・タイプ宣言をキャッシュします。 属性には、ストアラベル、関連する PHP コードへのリンク、属性レンダリング、検索設定などが含まれます。 通常、このキャッシュタイプをクリーンアップまたはフラッシュする必要はありません。 | `EAV` | `eav` |
 | [!UICONTROL Customer Notification] | ユーザーインターフェイスに表示される一時通知。 | `CUSTOMER_NOTIFICATION` | `customer_notification` |
 | [!UICONTROL GraphQL Query Resolver Results] | 顧客、CMS ページ、CMS ブロック、製品メディアギャラリーエンティティのGraphQL クエリリゾルバーの結果をキャッシュします。 GraphQLのパフォーマンスを向上させるために、このキャッシュを有効のままにします。 | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
@@ -181,7 +181,7 @@ Adobe CommerceとMagento Open Sourceでは、カテゴリ、製品および CMS 
 - `Sessioned` - セッション訪問中、ストアとやり取りする買い物客には、セッション ID が割り当てられます。 インタラクションには、製品の比較や買い物かごへの製品の追加などのアクティビティが含まれます。 セッション中に生成されたキャッシュ済みページは、セッション中にその買い物客のみが使用します。
 - `Customer`  – 登録済みのアカウントを使用してログインして買い物をした顧客に対して、顧客セッションが作成されます。 セッションの間、お客様には、割り当てられた顧客グループに基づいて、特別なオファー、プロモーション、価格が提示されます。
 
-技術情報については、を参照してください [ワニスの設定と使用](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target=&quot;_blank&quot;} と [コマースページとデフォルトキャッシュに Redis を使用します](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target=&quot;_blank&quot;} _設定ガイド_.
+技術情報については、を参照してください [ワニスの設定と使用](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target=&quot;_blank&quot;} と [Commerceページとデフォルトキャッシュには Redis を使用します](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target=&quot;_blank&quot;} _設定ガイド_.
 
 **_フルページキャッシュを設定するには：_**
 

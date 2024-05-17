@@ -1,85 +1,85 @@
 ---
-title: 管理者セキュリティの設定
-description: ストア管理者のセキュリティを設定する方法を説明します。
+title: Admin Security の設定
+description: ストア管理者のセキュリティを設定する方法について説明します。
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
 source-git-commit: e301cfaeec3a8427fff6138ba041bdbd7433c137
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
 
-# 管理者セキュリティの設定
+# Admin Security の設定
 
-ストアのセキュリティを保護するために、多面的なアプローチを取ることをお勧めします。 まず、 [カスタム管理 URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) これは、明らかな「管理者」や「バックエンド」というよりは、推測が容易ではありません。 デフォルトでは、 [ログイン](../getting-started/admin-signin.md) を管理者に渡すには、7 文字以上で、文字と数字の両方を含める必要があります。 As a [ベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)では、文字、数字、記号の組み合わせを含む堅牢な管理者パスワードのみを使用します。 Adobe CommerceとMagento Open Sourceは、アカウントに割り当てられた最後の 4 つのパスワードを再利用できません。
+店舗のセキュリティを保護するために、多面的なアプローチを取ることをお勧めします。 を使用して開始できます [カスタム管理 URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) これは、明白な「管理者」や「バックエンド」というよりも、推測が容易ではありません。 デフォルトでは、次の目的で使用されるパスワード [ログイン](../getting-started/admin-signin.md) 管理者には、文字と数字の両方を含む 7 文字以上の長さにする必要があります。 As a [ベストプラクティス](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)は、文字、数字、記号の組み合わせを含む強力な管理者パスワードのみを使用してください。 Adobe CommerceとMagento Open Sourceでは、アカウントに割り当てられた最後の 4 つのパスワードを再利用することはできません。
 
-管理セキュリティ設定では、次の操作を実行できます。
+Admin セキュリティ設定を使用すると、次の操作を行うことができます。
 
 - URL への秘密鍵の追加
-- パスワードで大文字と小文字を区別する必要があります
-- 管理セッションの長さを制限
-- パスワードの有効期間を制限
-- Admin ユーザーアカウントが有効になるまでに実行できるログイン試行回数を制限します [ロック済み](permissions-users-all.md#locked-users).
+- パスワードでは大文字と小文字を区別する必要があります
+- 管理セッションの長さの制限
+- パスワードの有効期間を制限する
+- 管理者ユーザーアカウントが次の値になるまで、ログインを試行できる回数を制限します [locked](permissions-users-all.md#locked-users).
 
-セキュリティを強化するために、現在のセッションが期限切れになるまでのキーボードの操作不能時間を設定し、ユーザー名とパスワードで大文字と小文字を区別するように設定できます。
+セキュリティを強化するために、現在のセッションの有効期限が切れる前にキーボードが非アクティブになる期間を設定し、ユーザー名とパスワードで大文字と小文字を区別するように要求することができます。
 
-この節のセキュリティ設定に加えて、 [二段階認証](security-two-factor-authentication.md) (2FA) は、アプリまたはデバイスで生成される 1 回限りのパスワードを使用してユーザーの ID を検証するために必要です。 初めて管理者にログインする際に、2FA を設定するよう求められます。 セキュリティを強化するために、管理者ログインを [CAPTCHA](security-captcha.md).
+このセクションのセキュリティ設定に加えて、 [二要素認証](security-two-factor-authentication.md) （2FA）は、アプリまたはデバイスで生成された 1 回限りのパスワードでユーザーの ID を検証するために必要です。 管理者に初めてログインすると、2FA を設定するよう求められます。 セキュリティを強化するために、を必要とするように Admin ログインを設定することもできます [CAPTCHA](security-captcha.md).
 
 >[!NOTE]
 >
->を有効にしたストア [!DNL Adobe Identity Management Services] (IMS) 認証では、ネイティブのAdobe CommerceとMagento Open Source2FA が無効になっています。 コマースインスタンスにログインしている管理者Adobeは、多くの管理者タスクを再認証する必要はありません。 認証は、管理者Adobe IMSが現在のセッションにログインする際にユーザーによって処理されます。 詳しくは、 [[!DNL Adobe Identity Management Service] (IMS) 統合の概要](../getting-started/adobe-ims-integration-overview.md).
+>が有効になっているストア [!DNL Adobe Identity Management Services] （IMS）認証では、ネイティブのAdobe CommerceとMagento Open Source 2FA が無効になっています。 Adobe資格情報を使用してCommerce インスタンスにログインしている管理者ユーザーは、多くの管理タスクで再認証する必要はありません。 Adobe IMSは、管理者ユーザーが現在のセッションにログインする際に認証を処理します。 参照： [[!DNL Adobe Identity Management Service] （IMS）統合の概要](../getting-started/adobe-ims-integration-overview.md).
 
-技術情報については、 [セキュリティの概要](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target=&quot;_blank&quot;}（開発者向けドキュメント）。
+技術情報については、を参照してください [セキュリティの概要](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target=&quot;_blank&quot;} を参照してください。
 
-![管理セキュリティ](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
+![Admin security](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
-## 管理者セキュリティの設定
+## Admin Security の設定
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. の下の左側のパネル _[!UICONTROL Advanced]_を選択します。**[!UICONTROL Admin]**.
+1. の下の左パネルで _[!UICONTROL Advanced]_、を選択&#x200B;**[!UICONTROL Admin]**.
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Security]** 」セクションに入力します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Security]** セクション。
 
-1. 管理者ユーザーが異なるデバイスで同じアカウントからログインするのを防ぐには、 **[!UICONTROL Admin Account Sharing]** から `No`.
+1. 管理者ユーザーが異なるデバイスの同じアカウントにログインできないようにするには、次のように設定します **[!UICONTROL Admin Account Sharing]** 対象： `No`.
 
-1. パスワードリセット要求の管理に使用する方法を決定するには、 **[!UICONTROL Password Reset Protection Type]** を次のいずれかに変更します。
+1. パスワードリセットリクエストの管理に使用する方法を決定するには、を設定します **[!UICONTROL Password Reset Protection Type]** を次のいずれかに変更します。
 
-   - `By IP and Email`  — パスワードは、通知からの応答を Admin アカウントに関連付けられた電子メールアドレスに送信した後に、オンラインでリセットできます。
-   - `By IP`  — パスワードは、追加の確認なしでオンラインでリセットできます。
-   - `By Email`  — パスワードは、Admin アカウントに関連付けられた電子メールアドレスに送信される通知に電子メールで応答することによってのみ、リセットできます。
-   - `None`  — パスワードは、ストア管理者のみがリセットできます。
+   - `By IP and Email` — パスワードは、管理者アカウントに関連付けられたメールアドレスに通知から応答を受信した後に、オンラインでリセットできます。
+   - `By IP` — パスワードは、追加の確認なしにオンラインでリセットできます。
+   - `By Email` — パスワードは、管理者アカウントに関連付けられた電子メール アドレスに送信される通知に電子メールで応答することによってのみリセットできます。
+   - `None` — パスワードは、ストア管理者のみがリセットできます。
 
-1. ログインセキュリティオプションを設定します。
+1. ログインセキュリティオプションの設定：
 
-   - の場合 **[!UICONTROL Recovery Link Expiration Period (hours)]**&#x200B;に設定した場合は、パスワード回復リンクが有効である時間数を入力します。
+   - の場合 **[!UICONTROL Recovery Link Expiration Period (hours)]**：パスワード回復リンクの有効期間を入力します。
 
-   - 1 時間に送信できるパスワード要求の最大数を決定するには、次の数を入力します： **[!UICONTROL Max Number of Password Reset Requests]**.
+   - 1 時間あたりに送信できるパスワード要求の最大数を決定するには、次の数を入力します **[!UICONTROL Max Number of Password Reset Requests]**.
 
-   - の場合 **[!UICONTROL Min Time Between Password Reset Requests]**」に値を入力する場合は、パスワードリセット要求の間隔の最小値を分単位で入力します。
+   - の場合 **[!UICONTROL Min Time Between Password Reset Requests]**&#x200B;を入力し、パスワードリセットリクエストの間に経過する必要がある最小分数を入力します。
 
-   - 悪用に対する予防策として秘密鍵を管理 URL に追加するには、 **[!UICONTROL Add Secret Key to URLs]** から `Yes`. この設定は、デフォルトで有効になっています。
+   - 悪用に対する予防策として秘密鍵を管理 URL に追加するには、を設定します **[!UICONTROL Add Secret Key to URLs]** 対象： `Yes`. この設定は、デフォルトで有効になっています。
 
-   - 入力されたログイン資格情報での大文字と小文字の使用が、システムに保存されているものと一致するようにするには、 **[!UICONTROL Login is Case Sensitive]** から `Yes`.
+   - 入力するログイン資格情報での大文字と小文字の使用がシステムに保存されている内容と一致することを必須にするには、を設定します **[!UICONTROL Login is Case Sensitive]** 対象： `Yes`.
 
-   - タイムアウト前の管理者セッションの長さを判断するには、セッションの期間を秒単位で入力します。 **[!UICONTROL Admin Session Lifetime (seconds)]** フィールドに入力します。 値は 60 秒以上にする必要があります。
+   - タイムアウトする前の管理者セッションの長さを判断するには、次の単位でセッションの時間（秒単位）を入力します **[!UICONTROL Admin Session Lifetime (seconds)]** フィールド。 値は 60 秒以上にする必要があります。
 
-   - の場合 **[!UICONTROL Maximum Login Failures to Lockout Account]**」には、ユーザーがアカウントがロックされる前に Admin へのログインを試行できる回数を入力します。 デフォルトでは、6 回の試行が許可されます。 ログイン試行を無制限におこなう場合は、このフィールドを空のままにします。
+   - の場合 **[!UICONTROL Maximum Login Failures to Lockout Account]**：アカウントがロックされるまでユーザーが管理者にログインできる回数を入力します。 デフォルトでは、6 回の試行が許可されています。 ログインの試行回数に制限がない場合は、フィールドを空のままにします。
 
-   - の場合 **[!UICONTROL Lockout Time (minutes)]**&#x200B;を使用する場合は、最大試行回数に達したときに管理者アカウントがロックされる時間（分）を入力します。
+   - の場合 **[!UICONTROL Lockout Time (minutes)]**、最大試行回数に達したときに管理者アカウントをロックする時間（分）を入力します。
 
-1. パスワードオプションを設定：
+1. パスワードオプションの設定：
 
-   - 管理者パスワードの有効期間を制限するには、パスワードが有効な日数を入力します。 **[!UICONTROL Password Lifetime (days)]**. 無制限の有効期間は、「 」フィールドを空白のままにします。
+   - 管理者パスワードの有効期間を制限するには、パスワードの有効期間を入力してください **[!UICONTROL Password Lifetime (days)]**. 無期限の場合は、フィールドを空白のままにします。
 
-   - 設定 **[!UICONTROL Password Change]** を次のいずれかに変更します。
+   - を設定 **[!UICONTROL Password Change]** を次のいずれかに変更します。
 
-      - `Forced`  — 管理者ユーザーは、アカウント設定後にパスワードを変更する必要があります。
-      - `Recommended`  — 管理者ユーザーは、アカウント設定後にパスワードを変更することをお勧めします。
+      - `Forced`  – 管理者ユーザーが、アカウントの設定後にパスワードを変更する必要があります。
+      - `Recommended`  – 管理者ユーザーに対して、アカウントの設定後にパスワードを変更することを推奨します。
 
-1. 完了したら、「 **[!UICONTROL Save Config]**.
+1. 完了したら、 **[!UICONTROL Save Config]**.
 
 ## 管理者パスワードの要件
 

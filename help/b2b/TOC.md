@@ -1,14 +1,14 @@
 ---
 user-guide-title: 「[!DNL B2B for Adobe Commerce] ガイド」
-user-guide-description: Adobe Commerce、
+user-guide-description: Adobe Commerceで利用できる統合 B2B 機能の使用方法を説明します。
 breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
 source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 5%
+source-wordcount: '142'
+ht-degree: 7%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 5%
 + [B2B 機能の概要](introduction.md)
 + [リリースノート](release-notes.md)
 + [インストール](install.md)
-+ [B2B 機能を有効にする](enable-basic-features.md)
++ [B2B 機能の有効化](enable-basic-features.md)
 + 会社アカウント {#companies}
    + [概要](account-companies.md)
-   + [会社の電子メールオプションを設定する](email-company-configuration.md)
+   + [会社のメールオプションを設定](email-company-configuration.md)
    + [会社アカウントの作成](account-company-create.md)
    + [会社アカウントの承認](account-company-approve.md)
    + [会社管理者の割り当て](account-company-admin.md)
@@ -31,31 +31,31 @@ ht-degree: 5%
    + [会社への顧客の追加](customer-assign-company.md)
    + [会社クレジットの管理](credit-company.md)
    + 会社のユーザーと構造 {#users}
-      + [会社のユーザーアカウント](account-company-users.md)
+      + [会社ユーザーアカウント](account-company-users.md)
       + [会社の役割と権限](account-company-roles-permissions.md)
-      + [会社構造を定義](account-company-structure.md)
+      + [会社構造の定義](account-company-structure.md)
 + 会社管理 {#company-management}
    + [概要](manage-companies.md)
    + [会社階層の管理](assign-companies.md)
 + 共有カタログ {#shared-catalogs}
    + [概要](catalog-shared.md)
-   + 共有カタログを定義 {#define}
-      + [共有カタログを作成](catalog-shared-create.md)
-      + [共有カタログに商品を追加する](catalog-shared-product-add.md)
+   + 共有カタログの定義 {#define}
+      + [共有カタログの作成](catalog-shared-create.md)
+      + [共有カタログへの製品の追加](catalog-shared-product-add.md)
       + [カタログの価格と構造の設定](catalog-shared-pricing-structure.md)
-      + [会社をカタログに割り当て](catalog-shared-assign-companies.md)
-   + [共有カタログを管理](catalog-shared-manage.md)
+      + [カタログへの会社の割り当て](catalog-shared-assign-companies.md)
+   + [共有カタログの管理](catalog-shared-manage.md)
 + [クイックオーダー](quick-order.md)
 + 発注書 {#purchase-orders}
    + [会社の発注書](purchase-order-flow.md)
    + [承認ルール](account-dashboard-approval-rules.md)
    + [[!UICONTROL My Purchase Orders]](account-dashboard-my-purchase-orders.md)
-+ 引用符 {#quotes}
++ 見積もり {#quotes}
    + [概要](quotes.md)
-   + [引用符の設定](configure-quotes.md)
-   + [見積もり依頼](quote-request.md)
-   + [購入者の見積もりを開始](sales-rep-initiates-quote.md)
-   + [見積もりの交渉](quote-price-negotiation.md)
+   + [見積の設定](configure-quotes.md)
+   + [見積依頼](quote-request.md)
+   + [購買担当の見積を開始します](sales-rep-initiates-quote.md)
+   + [見積の交渉](quote-price-negotiation.md)
    + [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)
 + 購買依頼リスト {#requisition-lists}
    + [概要](requisition-lists.md)

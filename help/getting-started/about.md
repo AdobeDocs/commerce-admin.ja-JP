@@ -5,7 +5,7 @@ mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
 source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
 workflow-type: tm+mt
-source-wordcount: '3326'
+source-wordcount: '3322'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Adobeのビジョンは、エクスペリエンス主導で、データを活用
 この新しい高性能ストアフロントは、既に次のようなAdobe Commerceのマーチャントによってパイロット化されています [Maidenform](https://business.adobe.com/blog/perspectives/how-hanesbrands-and-adobe-built-one-of-the-fastest-ecommerce-websites-in-the-world):HanesBrands のプロパティ。 結果は自分自身を物語っています。 Maidenform ページは、Google Lighthouse のスコアを一貫して提供する [100 および Core Web Vitals の結果](https://treo.sh/sitespeed/www.maidenform.com) 業界平均をはるかに上回る。
 
 ![サイト速度の結果](assets/maidenform-site.png){width=&quot;50%&quot; align=center}
-![Core Web Vitals グラフ](assets/maidenform-site-stats.png){zoomable=&quot;yes&quot;}
+![Core Web Vitals グラフ](assets/maidenform-site-stats.png){zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
@@ -186,7 +186,7 @@ Adobe Commerceが他のAdobe Experience Cloud ソリューションとともに�
 
 また、Adobeは、マーケターがCommerce データを分析してパーソナライゼーションの機会を特定するのに役立つCommerce固有のダッシュボードをAdobe Experience Platformに追加しています。
 
-![放棄された買い物かごキャンペーンの図](assets/use-case-playbook.png){zoomable=&quot;yes&quot;}
+![放棄された買い物かごキャンペーンの図](assets/use-case-playbook.png){zoomable="yes"}
 
 #### AdobeReal-time CDP のオーディエンスを使用したパーソナライゼーションのアクティブ化
 

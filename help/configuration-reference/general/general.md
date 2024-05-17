@@ -94,7 +94,7 @@ ht-degree: 0%
 | [!UICONTROL City] | Web サイト | Web サイトを運営するビジネスの市区町村の場所。 |
 | [!UICONTROL Street Address] | Web サイト | Web サイトを運営するビジネスの通りや郵送先住所。 |
 | [!UICONTROL Street Address Line 2|]Web サイト | 必要に応じて、会社の住所の 2 行目。 |
-| [!UICONTROL VAT Number] | Web サイト | Commerce インストールを所有するビジネスの付加価値税番号（該当する場合）。 |
+| [!UICONTROL VAT Number] | Web サイト | Commerce インストールを所有する事業の付加価値税番号（該当する場合）。 |
 | [!UICONTROL Validate VAT Number] |  | 付加価値税 ID 番号を検証します。 |
 
 {style="table-layout:auto"}

@@ -14,38 +14,38 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-任意 [動的ブロック](dynamic-blocks.md) 作成したをプロモーションに関連付けることができます。 関連付けを作成するには、まずダイナミックブロックと [カタログ価格ルール](../merchandising-promotions/price-rules-catalog.md) または [買い物かごの価格ルール](../merchandising-promotions/price-rules-cart.md). 関連付けは、価格ルールの作業中、または動的ブロックの操作中に作成できます。
+任意 [動的ブロック](dynamic-blocks.md) 作成した情報は、プロモーションに関連付けることができます。 関連付けを行うには、まずダイナミック ブロックとダイナミック ブロックの両方を作成する必要があります。 [カタログ価格ルール](../merchandising-promotions/price-rules-catalog.md) または [買い物かご価格ルール](../merchandising-promotions/price-rules-cart.md). 関連付けは、価格ルールの作業中や、動的ブロックの作業中に行うことができます。
 
 >[!IMPORTANT]
 >
->この関連付けを作成すると、ダイナミックブロックが表示されます **のみ** ルールが起動したとき。 プロモーションがセグメント A をターゲットとしている場合、ブロックはセグメント A に表示されます。プロモーションがアクティブでない場合、ブロックは表示されません。
+>この関連付けを作成すると、ダイナミック ブロックが表示されます **のみ** ルールが起動したとき。 プロモーションがセグメント A をターゲットにしている場合、ブロックがセグメント A に表示されます。プロモーションがアクティブでない場合、ブロックは表示されません。
 
 ## 価格ルールへの動的ブロックの関連付け
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_をクリックし、次のいずれかを選択します。
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_次のいずれかの操作を行います。
 
    - **[!UICONTROL Catalog Price Rules]**
    - **[!UICONTROL Cart Price Rules]**
 
-1. グリッドで、ダイナミックブロックに関連付けるルールを探し、編集モードで開きます。
+1. グリッドで、ダイナミック ブロックに関連付けるルールを見つけ、編集モードで開きます。
 
-1. 下にスクロールして展開 ![拡張セレクター](../assets/icon-display-expand.png) **[!UICONTROL Related Dynamic Blocks]**.
+1. 下にスクロールして展開 ![展開セレクター](../assets/icon-display-expand.png) **[!UICONTROL Related Dynamic Blocks]**.
 
-1. 1 列目で、フィルターをに設定します。 `Any` をクリックします。 **[!UICONTROL Reset Filter]**.
+1. 最初の列で、フィルターをに設定します `Any` をクリックして、 **[!UICONTROL Reset Filter]**.
 
-   グリッドに、使用可能なすべてのダイナミックブロックがリストされます。
+   グリッドに、使用可能なすべてのダイナミック ブロックが一覧表示されます。
 
-1. ルールに関連付ける各ダイナミックブロックのチェックボックスをオンにします。
+1. ルールに関連付ける各ダイナミック ブロックのチェックボックスをオンにします。
 
-   ![選択した動的ブロックの追加](./assets/price-rule-cart-related-dynamic-blocks-any.png){width="600" zoomable="yes"}
+   ![選択したダイナミック ブロックを追加する](./assets/price-rule-cart-related-dynamic-blocks-any.png){width="600" zoomable="yes"}
 
-1. 完了したら、「 **[!UICONTROL Save]**.
+1. 完了したら、 **[!UICONTROL Save]**.
 
 ## 価格ルールと動的ブロックの関連付け
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
 
-1. グリッド内のダイナミックブロックを探し、編集モードで開きます。
+1. グリッドでダイナミック ブロックを見つけ、編集モードで開きます。
 
 1. 下にスクロールして展開 **[!UICONTROL Related Promotions]**.
 
@@ -53,14 +53,14 @@ ht-degree: 0%
 
 1. 新しい関連付けられたルールを追加するか、現在の関連付けを削除します。
 
-   - 買い物かごのプロモーションを関連付けるには、 **[!UICONTROL Add Cart Price Rules]**.
+   - 買い物かごプロモーションを関連付けるには、 **[!UICONTROL Add Cart Price Rules]**.
 
-   - 製品関連のプロモーションを関連付けるには、 **[!UICONTROL Add Catalog Price Rules]**.
+   - 製品に関連するプロモーションを関連付けるには、 **[!UICONTROL Add Catalog Price Rules]**.
 
-1. グリッドで、ダイナミックブロックに関連付ける各ルールのチェックボックスをオンにします。
+1. グリッドで、ダイナミック ブロックに関連付ける各ルールのチェックボックスをオンにします。
 
 1. クリック **[!UICONTROL Add Selected]**.
 
-   ![選択した価格ルールを動的ブロックに追加する](./assets/pb-dynamic-block-add-related-cart-price-rules.png){width="600" zoomable="yes"}
+   ![選択した価格ルールの動的ブロックへの追加](./assets/pb-dynamic-block-add-related-cart-price-rules.png){width="600" zoomable="yes"}
 
-1. 完了したら、「 **[!UICONTROL Save]**.
+1. 完了したら、 **[!UICONTROL Save]**.

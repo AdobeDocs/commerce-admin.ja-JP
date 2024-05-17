@@ -1,126 +1,126 @@
 ---
 title: '[!DNL Google Analytics]'
-description: 使用方法 [!DNL Google Analytics] コマースサイトに役立つ指標を収集する。
+description: の使用方法を説明します [!DNL Google Analytics] Commerce サイトに役立つ指標を収集できます。
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
 feature: Marketing Tools, Integration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Analytics]
 
-[!DNL Google Analytics] では、オフラインおよびモバイルアプリのインタラクションをサポートし、継続的な更新にアクセスできるように、追跡用の追加のカスタムディメンションおよび指標を定義できます。 [!DNL Google Analytics] 4 はGoogleの次世代測定ソリューションであり、代わりとなる [!DNL Universal Analytics]. 2023 年 7 月 1 日に、標準のユニバーサルアナリティクスプロパティは、新しいヒットの処理を停止します。
+[!DNL Google Analytics] では、追加のカスタムディメンションおよび指標を定義してトラッキングし、オフラインおよびモバイルアプリのインタラクションをサポートし、継続的な更新にアクセスできるようにします。 [!DNL Google Analytics] 4 はGoogleの次世代型計測ソリューションで、 [!DNL Universal Analytics]. 2023 年 7 月 1 日（PT）に、標準の Universal Analytics プロパティは、新しいヒットの処理を停止します。
 
 >[!NOTE]
 >
->お客様のビジネスが [EU 一般データ保護規則](../getting-started/compliance-gdpr.md) および/または [カリフォルニア州消費者プライバシー法](../getting-started/compliance-ccpa.md)を参照してください。 [Google Privacy Settings](google-tools.md#google-privacy-settings).
+>ビジネスが、次のようなプライバシー規制の対象となる場合 [EU 一般データ保護規則](../getting-started/compliance-gdpr.md) および/または [カリフォルニア消費者プライバシー法](../getting-started/compliance-ccpa.md)を参照してください [Google プライバシー設定](google-tools.md#google-privacy-settings).
 
 >[!IMPORTANT]
 >
->以下を有効にした場合、 [Cookie 制限モード](../getting-started/compliance-cookie-law.md), [!DNL Google Analytics] では、cookie を受け入れない限り訪問者に関するデータを収集しません。
+>を有効にする場合 [Cookie 制限モード](../getting-started/compliance-cookie-law.md), [!DNL Google Analytics] は、Cookie を受け入れない限り、訪問者に関するデータを収集しません。
 
 ## [!DNL Google Analytics] 4
 
 {{gtag-api-note}}
 
-### 手順 1：セットアップ [!UICONTROL Google Analytics] 4
+### 手順 1：の設定 [!UICONTROL Google Analytics] 4
 
-まだ [!DNL Google Analytics] 4 サイトのセットアップは、次のいずれかの方法でおこないます。
+まだない場合は、 [!DNL Google Analytics] 4 サイトの設定は、次のいずれかの方法で行います。
 
-- [Analytics データ収集の初回セットアップ](https://support.google.com/analytics/answer/9304153)
-- [Google Analytics4 を [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)
+- [初めて Analytics データ収集を設定](https://support.google.com/analytics/answer/9304153)
+- [を使用してサイトにGoogle Analytics 4 を追加する [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)
 
-### 手順 2：コマース設定の完了
+### 手順 2:Commerceの設定を完了する
 
-1. コマースストアの管理者にログインします。
+1. Commerce ストアの管理者にログインします。
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. 左側のパネルで、を展開します。 **[!UICONTROL Sales]** を選択します。 **[!UICONTROL Google API]**.
+1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL Google API]**.
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Google GTag]** 」セクションに入力します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Google GTag]** セクション。
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Google Analytics4]** サブセクションで、以下の操作を実行します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Google Analytics4]** およびを参照し、次の操作を行います。
 
-   - 設定 **[!UICONTROL Enable]** から `Yes`.
+   - を設定 **[!UICONTROL Enable]** 対象： `Yes`.
 
-   - を残します。 **[!UICONTROL Account type]** as `Google Analytics4`.
+   - を残す **[!UICONTROL Account type]** as `Google Analytics4`.
 
-   - を入力します。 **[!UICONTROL Measurement ID]**. 詳しくは、 [Google Analyticsヘルプ](https://support.google.com/analytics/answer/9539598).
+   - を入力 **[!UICONTROL Measurement ID]**. 詳しくは、 [Google Analyticsヘルプ](https://support.google.com/analytics/answer/9539598).
 
-   - コンテンツに対して A/B テストや他のパフォーマンステストを実行する場合は、 **コンテンツ実験** から `Yes`.
+   - A/B テストやその他のパフォーマンステストをコンテンツに対して実行する場合は、を設定します **コンテンツ実験** 対象： `Yes`.
 
-   ![セールス設定 —Google Analytics4 用Google API](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png){width="600" zoomable="yes"}
+   ![Sales configuration - Google Analytics4 用Google API](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png){width="600" zoomable="yes"}
 
-1. 完了したら、「 **[!UICONTROL Save Config]**.
+1. 完了したら、 **[!UICONTROL Save Config]**.
 
 ## Google Universal Analytics
 
 >[!IMPORTANT]
 >
->2023 年 7 月 1 日 (PT) に、標準のユニバーサルアナリティクスプロパティはデータを処理しなくなります。 依然として [!DNL Universal Analytics]を使用する場合は、 [Google Analytics4 を使用する準備](https://support.google.com/analytics/answer/10759417) 前に進む。
+>2023 年 7 月 1 日（PT）をもって、標準のユニバーサルアナリティクス プロパティはデータを処理しなくなります。 まだ依存している場合 [!DNL Universal Analytics]を使用する場合は、を使用することをお勧めします [Google Analytics4 の使用準備](https://support.google.com/analytics/answer/10759417) 先に進む。
 
-### 手順 1:Google Universal Analytics のセットアップ
+### 手順 1:Google Universal Analytics の設定
 
-Googleの Web サイトにアクセスし、 [Google Universal Analytics][1] アカウント。
+Googleの web サイトにアクセスして、 [Google Universal Analytics][1] アカウント。
 
-### 手順 2：コマース設定の完了
+### 手順 2:Commerceの設定を完了する
 
-1. コマースストアの管理者にログインします。
+1. Commerce ストアの管理者にログインします。
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. 左側のパネルで、を展開します。 **[!UICONTROL Sales]** を選択します。 **[!UICONTROL Google API]**.
+1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL Google API]**.
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Google Analytics]** 」セクションで次の操作を実行します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Google Analytics]** を選択し、次の操作を実行します。
 
-   - 設定 **[!UICONTROL Enable]** から `Yes`.
+   - を設定 **[!UICONTROL Enable]** 対象： `Yes`.
 
-   - を入力します。 [!DNL Google Analytics] **[!UICONTROL Account Number]**.
+   - を入力 [!DNL Google Analytics] **[!UICONTROL Account Number]**.
 
-   - コンテンツに対して A/B テストや他のパフォーマンステストを実行する場合は、 **[!UICONTROL Content Experiments]** から `Yes`.
+   - A/B テストやその他のパフォーマンステストをコンテンツに対して実行する場合は、を設定します **[!UICONTROL Content Experiments]** 対象： `Yes`.
 
-   ![セールス設定 — Google API -Google Analytics](../configuration-reference/sales/assets/google-api-analytics-ee.png){width="600" zoomable="yes"}
+   ![Sales configuration - Google API - Google Analytics](../configuration-reference/sales/assets/google-api-analytics-ee.png){width="600" zoomable="yes"}
 
-1. 完了したら、「 **[!UICONTROL Save Config]**.
+1. 完了したら、 **[!UICONTROL Save Config]**.
 
-## e コマースの強化
+## E コマースの強化
 
-拡張 e コマースは、 [!DNL Google Universal Analytics] 顧客の買い物行動や購入行動を把握できます。 拡張 e コマースを使用すると、顧客が品目を買い物かごに追加した場合、チェックアウトプロセスを開始する場合、購入を完了する場合など、主要な顧客アクティビティに関するレポートを作成できます。 また、買い物かごを放棄した買い物客のパターンを購入せずに特定し、分析することもできます。
+Enhanced E コマースは以下のプラグインです。 [!DNL Google Universal Analytics] これにより、顧客の買い物や購入行動に関するインサイトを得ることができます。 E コマースの強化機能を使用すると、顧客が買い物かごに商品を追加したタイミング、チェックアウトプロセスを開始したタイミング、購入を完了したタイミングなど、顧客の主要なアクティビティに関するレポートを作成できます。 また、購入せずに買い物かごを放棄した買い物客のパターンを特定し、分析することもできます。
 
-次の手順は、 [!DNL Google Tag Manager] 次を使用 [!DNL Universal Analytics] e コマースのデータおよびレポートを拡張しました。
+次の手順に、設定方法を示します [!DNL Google Tag Manager] （を使用） [!DNL Universal Analytics] 強化された E コマースデータおよびレポートを生成する
 
-### 手順 1. Googleアカウントに新規登録
+### 手順 1. Google アカウントへの新規登録
 
-1. 新規登録： [Google Tag Manager](google-tag-manager.md) アカウントを作成し、コマース設定を完了します。
+1. に新規登録 [Google Tag Manager](google-tag-manager.md) アカウントを作成し、Commerceの設定を完了します。
 
 1. 新規登録 [Google Universal Analytics][1] アカウント。
 
-### 手順 2. 拡張 e コマースの設定
+### 手順 2. Enhanced Ecommerce の設定
 
 1. Google Universal Analytics アカウントにログインします。
 
-1. 次の設定を使用して、拡張 e コマース分析用のプロパティを作成します。
+1. 次の設定を使用して、Enhanced Ecommerce Analytics のプロパティを作成します。
 
-   - ステータス：オン
+   - 状態：オン
    - 関連製品：オン
-   - 拡張 e コマースレポートを有効にする：オン
-   - チェックアウトのラベル付け： （必須ではありません）
+   - E コマースレポートの強化機能を有効にする：オン
+   - チェックアウトラベル：（必須ではありません）
 
-1. 完了したら、「 **[!UICONTROL Submit]**.
+1. 完了したら、 **[!UICONTROL Submit]**.
 
 ### 手順 3. タグとトリガーの作成
 
-1. ログイン先： [!DNL Google Tag Manager] アカウントを作成し、次のトリガーを作成します。
+1. にログイン [!DNL Google Tag Manager] 次のトリガーをアカウントに追加して作成します。
 
    | 名前 | イベントタイプ | フィルター |
    |--- |--- |--- |
    | `addToCart` | カスタムイベント |  |
    | `checkout` | カスタムイベント |  |
-   | `checkout only` | ページビュー | ページ URL は RegEx /checkout/に一致します。* |
+   | `checkout only` | ページビュー | ページ URL が正規表現/checkout/に一致します。* |
    | `checkoutOption` | カスタムイベント |  |
    | `gtm.dom` | カスタムイベント |  |
    | `productClick` | カスタムイベント |  |
@@ -129,88 +129,88 @@ Googleの Web サイトにアクセスし、 [Google Universal Analytics][1] ア
 
    >[!NOTE]
    >
-   >The [!UICONTROL Checkout] イベントは、組み込みの Commerce 基本支払い方法 ( `Check / Money Order` および `Cash On Delivery Payment`) をクリックします。 このイベントは、 `PayPal checkout` 外部リソースからのチェックアウトへのリダイレクトを使用する、その他の外部支払い方法。
+   >この [!UICONTROL Checkout] イベントは、組み込みのCommerceの基本的な支払い方法に対してのみトリガーされます `Check / Money Order` および `Cash On Delivery Payment`）に設定します。 このイベントは、に対しては実行されません `PayPal checkout` 外部リソースからチェックアウトへのリダイレクトを使用する、およびその他の外部支払い方法。
 
 1. 同じ基本設定で次の Universal Analytics タグを作成します。
 
    - Universal Analytics タグ
 
-     | 名前 | タイプ | 実行トリガー |
+     | 名前 | タイプ | トリガーの実行 |
      |--- |--- |--- |
-     | `Add to cart tracking` | ユニバーサル分析 | addToCart |
-     | `Checkout option tracking` | ユニバーサル分析 | checkoutOption |
-     | `Checkout tracking` | ユニバーサル分析 | checkout |
-     | `Pageview tracking` | ユニバーサル分析 | gtm.dom |
-     | `Product click tracking` | ユニバーサル分析 | productClick |
-     | `Promo click tracking` | ユニバーサル分析 | promotionClick |
-     | `Remove from cart tracking` | ユニバーサル分析 | removeFromCart |
+     | `Add to cart tracking` | ユニバーサルアナリティクス | addToCart |
+     | `Checkout option tracking` | ユニバーサルアナリティクス | checkoutOption |
+     | `Checkout tracking` | ユニバーサルアナリティクス | チェックアウト |
+     | `Pageview tracking` | ユニバーサルアナリティクス | gtm.dom |
+     | `Product click tracking` | ユニバーサルアナリティクス | productClick |
+     | `Promo click tracking` | ユニバーサルアナリティクス | promotionClick |
+     | `Remove from cart tracking` | ユニバーサルアナリティクス | removeFromCart |
 
-   - 基本タグ設定
+   - タグの基本設定
 
      | 設定 | 値 |
      |--- |--- |
      | [!UICONTROL Product] | Google Analytics |
-     | [!UICONTROL Tag Type] | ユニバーサル分析 |
-     | [!UICONTROL Tracking ID] | UA-XXX （Universal Analytics アカウントからのトラッキング ID） |
+     | [!UICONTROL Tag Type] | ユニバーサルアナリティクス |
+     | [!UICONTROL Tracking ID] | UA-XXX （ユニバーサルアナリティクスアカウントのトラッキング ID） |
      | [!UICONTROL Enable Enhanced Ecommerce Features] | True |
      | [!UICONTROL Use data layer] | True |
      | [!UICONTROL Use Debug version] | True |
 
 1. 個々のトラッキング設定を完了します。
 
-   - 次を入力します。 **[!UICONTROL Add to Cart]** トラッキング設定：
+   - 以下を入力します **[!UICONTROL Add to Cart]** トラッキング設定：
 
      | 設定 | 値 |
      |--- |--- |
      | [!UICONTROL Track Type] | イベント |
-     | [!UICONTROL Category] | e コマース |
-     | [!UICONTROL Action] | 買い物かごに追加 |
+     | [!UICONTROL Category] | E コマース |
+     | [!UICONTROL Action] | カートに追加 |
      | [!UICONTROL Trigger] | addToCart |
 
-   - 次を入力します。 **[!UICONTROL Checkout option]** トラッキング設定：
+   - 以下を入力します **[!UICONTROL Checkout option]** トラッキング設定：
 
      | 設定 | 値 |
      |--- |--- |
      | [!UICONTROL Track Type] | イベント |
-     | [!UICONTROL Category] | e コマース |
+     | [!UICONTROL Category] | E コマース |
      | [!UICONTROL Action] | チェックアウトオプション |
      | [!UICONTROL Trigger] | checkoutOption |
 
-   - 次を入力します。 **[!UICONTROL PageView]** トラッキング設定：
+   - 以下を入力します **[!UICONTROL PageView]** トラッキング設定：
 
      | 設定 | 値 |
      |--- |--- |
-     | [!UICONTROL Track Type] | PageView |
+     | [!UICONTROL Track Type] | ページビュー |
      | [!UICONTROL Trigger] | gtm.dom |
 
-   - 次の手順を実行します。 **[!UICONTROL Product Click]** トラッキング設定：
+   - 次の手順を実行します **[!UICONTROL Product Click]** トラッキング設定：
 
      | 設定 | 値 |
      |--- |--- |
      | [!UICONTROL Track Type] | イベント |
-     | [!UICONTROL Category] | e コマース |
-     | [!UICONTROL Action] | 製品のクリック |
+     | [!UICONTROL Category] | E コマース |
+     | [!UICONTROL Action] | 製品クリック |
      | [!UICONTROL Trigger] | productClick |
 
-   - 次の手順を実行します。 **[!UICONTROL Promotion Click]** トラッキング設定：
+   - 次の手順を実行します **[!UICONTROL Promotion Click]** トラッキング設定：
 
      | 設定 | 値 |
      |--- |--- |
      | [!UICONTROL Track Type] | イベント |
-     | [!UICONTROL Category] | e コマース |
-     | [!UICONTROL Action] | プロモーションクリック |
+     | [!UICONTROL Category] | E コマース |
+     | [!UICONTROL Action] | プロモーションをクリック |
      | [!UICONTROL Trigger] | promotionClick |
 
-   - 次の手順を実行します。 **[!UICONTROL Remove from Cart]** トラッキング設定：
+   - 次の手順を実行します **[!UICONTROL Remove from Cart]** トラッキング設定：
 
      | 設定 | 値 |
      |--- |--- |
      | [!UICONTROL Track Type] | イベント |
-     | [!UICONTROL Category] | e コマース |
-     | [!UICONTROL Action] | 買い物かごから削除 |
+     | [!UICONTROL Category] | E コマース |
+     | [!UICONTROL Action] | カートから削除 |
      | [!UICONTROL Trigger] | removeFromCart |
 
-1. 完了したら、「 **[!UICONTROL Preview]** タグが正しく機能することを確認します。
+1. 完了したら、 **[!UICONTROL Preview]** そして、タグが正しく機能することを確認します。
 
 1. 設定を確認したら、 **[!UICONTROL Publish]**.
 

@@ -1,6 +1,6 @@
 ---
 title: 会社アカウントへの顧客の追加
-description: 会社アカウントに既存の顧客を追加する方法を説明します。
+description: 既存の顧客を会社アカウントに追加する方法について説明します。
 exl-id: ee2f9c27-37d6-4997-8285-1c4c84f8d04c
 feature: B2B, Companies, Customers
 role: Admin, User
@@ -13,33 +13,33 @@ ht-degree: 0%
 
 # 会社アカウントへの顧客の追加
 
-この設定を有効にすると、会社の管理者が会社にユーザーを追加します。 ただし、顧客プロファイルの会社割り当ては管理者からもおこなうことができます。
+設定で有効にすると、会社の管理者がユーザーを会社に追加します。 ただし、顧客プロファイルの会社割り当ては、管理者から作成または変更することもできます。
 
 >[!NOTE]
 >
->個人が既にストアの個人アカウントを持っていて、後で会社に勤務する場合は、その個人アカウントを会社に割り当てないでください。 代わりに、会社の電子メールアドレスを持つユーザーの会社ユーザーアカウントを作成します。
+>個人が既にストアに個人用アカウントを持っていて、後で会社に就職する場合は、その個人の個人用アカウントを会社に割り当てないでください。 代わりに、会社のメールアドレスを持つユーザーの会社ユーザーアカウントを作成します。
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. グリッド内の顧客を検索し、 **[!UICONTROL Edit]** （内） _[!UICONTROL Action]_列。
+1. グリッドで顧客を見つけて、 **[!UICONTROL Edit]** が含まれる _[!UICONTROL Action]_列。
 
-1. 左側のパネルで、を選択します。 **[!UICONTROL Account Information]**.
+1. 左パネルで、を選択します。 **[!UICONTROL Account Information]**.
 
-1. クリック **[!UICONTROL Associate to Company]** 入力ボックスに会社名の最初の数文字を入力します。
+1. クリック **[!UICONTROL Associate to Company]** 会社名の最初の数文字を入力します。
 
-   システムは、考えられるすべての一致のリストを生成します。
+   システムによって、可能なすべての一致のリストが生成されます。
 
    ![会社に関連付け](./assets/company-assign-customer-account.png){width="600"}
 
 1. リストで、顧客を割り当てる会社を選択し、 **[!UICONTROL Done]**.
 
-1. 顧客が以前に別の会社に割り当てられていた場合は、 **[!UICONTROL Confirm]**.
+1. お客様が以前に別の会社に割り当てられている場合は、 **[!UICONTROL Confirm]**.
 
-   顧客が顧客グループ ( または [共有カタログ](catalog-shared.md)) を含め、そのに追加されています。 [会社構造](account-company-structure.md).
+   顧客が顧客グループに再割り当てされている [共有カタログ](catalog-shared.md)）を追加し、これに追加しました [会社構造](account-company-structure.md).
 
-1. 完了したら、「 **[!UICONTROL Save Customer]**.
+1. 完了したら、 **[!UICONTROL Save Customer]**.
 
-   次の列が [顧客](../customers/customers-all.md) グリッド：
+   で次の列が更新されます。 [顧客](../customers/customers-all.md) グリッド：
 
-   - The _[!UICONTROL Group]_列は、会社に割り当てられている顧客グループ（または共有カタログ）の名前に変更されます。
-   - The _[!UICONTROL Company]_列には、顧客プロファイルが関連付けられた会社の名前が表示されます。
+   - この _[!UICONTROL Group]_列が、会社に割り当てられている顧客グループ（または共有カタログ）の名前に変わります。
+   - この _[!UICONTROL Company]_列には、顧客プロファイルが関連付けられるようになった会社の名前が表示されます。

@@ -1,103 +1,103 @@
 ---
-title: SKU 別の注文
-description: 顧客の利便性を考慮して、SKU による注文をサポートするようにストアを設定する方法を説明します。
+title: SKU で並べ替え
+description: 顧客の利便性を考慮して SKU での並べ替えをサポートするようにストアを設定する方法を説明します。
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
 feature: Orders, Storefront, Configuration
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
 
-# SKU 別の注文
+# SKU で並べ替え
 
 {{ee-feature}}
 
-「SKU」は「在庫管理単位」です。 SKU は、一般に、オンライン販売者が、サイズ、色、価格、素材など、最も重要な製品特性を特定するのに役立ちます。 製品 ID は SKU とは異なります。
+「SKU」は「在庫管理単位」です。 SKU は通常、オンラインセラーがサイズ、色、価格、素材などの最も重要な製品特性を識別するのに役立ちます。 製品 ID は SKU とは異なります。
 
-- The `Product ID` は、内部的に製品の識別に使用され、顧客は利用できない一連の数字です。
-- The `SKU` は、通常、マーケティングまたは内部トラッキングの製品名と属性に基づいて、販売者によって生成されます。 例：青、綿 T シャツ、サイズ中： T-COT-MED-BL。 SKU は、必要に応じて、販売者が変更する場合があります。
+- この `Product ID` は、内部的に製品を識別するために使用される一連の数値で、顧客は使用できません。
+- この `SKU` 通常、マーケティングまたは内部トラッキングの製品名および属性に基づいて、販売者によって生成されます。 例：青色の綿 T シャツ、サイズ中間：T-COT-MED-BL。 SKU は、必要に応じて販売者によって変更される場合があります。
 
-通常、SKU には製品の識別特性を示す一連の略語が含まれます。 SKU の最大長は 64 文字です。 在庫を効果的に追跡および管理するには、SKU が重要なので、e コマースでは正しく設定することが重要です。
+通常、SKU には製品の際立った特徴を示す略語のセットが含まれます。 SKU の長さは最大 64 文字です。 SKU は在庫を効果的に追跡および管理するために重要なので、SKU を正しく設定することは、e コマースにとって重要です。
 
-_SKU 別の注文_ は [widget](../content-design/widgets.md) すべての買い物客の便宜を図ってストアに表示したり、特定の顧客グループの買い物客のみが利用できるようにします。 買い物客は、SKU と数量の情報を「SKU ごとの並べ替え」ブロックに直接入力するか、顧客アカウントから csv ファイルをアップロードできます。 設定に関係なく、店舗管理者は常に SKU 順に並べ替えることができます。
+_SKU で並べ替え_ が [ウィジェット](../content-design/widgets.md) すべての買い物客の便宜のためにストアに表示することも、特定の顧客グループの買い物客のみが利用できるようにすることもできます。 買い物客は、SKU および数量情報を Order by SKU ブロックに直接入力するか、顧客アカウントから CSV ファイルをアップロードできます。 設定に関係なく、ストア管理者は常に SKU で注文できます。
 
-![ストアフロントの SKU による並べ替え](./assets/storefront-order-by-sku.png){width="700" zoomable="yes"}
+![ストアフロントでの SKU による並べ替え](./assets/storefront-order-by-sku.png){width="700" zoomable="yes"}
 
-## SKU ごとの並べ替えの設定
+## SKU による順序の設定
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. 左側のパネルで、を展開します。 **[!UICONTROL Sales]** 「 」セクションで「 」を選択します。 **[!UICONTROL Sales]** の下に
+1. 左側のパネルで、を展開します **[!UICONTROL Sales]** セクションで選択 **[!UICONTROL Sales]** その下に。
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL Order by SKU Settings]** 」セクションに入力します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Order by SKU Settings]** セクション。
 
-1. 設定 **[!UICONTROL Enable Order by SKU on my Account in Storefront]** を次のいずれかに変更します。
+1. を設定 **[!UICONTROL Enable Order by SKU on my Account in Storefront]** を次のいずれかに変更します。
 
-   - `Yes, for Everyone` - SKU ごとの並べ替えブロックは、各買い物客のストアで利用できます。
-   - `Yes, for Specified Customer Groups` - SKU ごとの注文は、特定の顧客グループのメンバー（例： ）のみが利用できます。 `Wholesale`.
-   - `No`  — ストアフロントには「 SKU ごとの並べ替え」ブロックが表示されず、顧客アカウントでは「 SKU ごとの並べ替え」ページは使用できません。
+   - `Yes, for Everyone`  – 並べ替え SKU ブロックは、すべての買い物客に対してストアで使用できます。
+   - `Yes, for Specified Customer Groups` - SKU による並べ替えは、次のような特定の顧客グループのメンバーのみが使用できます `Wholesale`.
+   - `No` - ストアフロントに「SKU で注文」ブロックが表示されず、お客様のアカウントでは「SKU で注文」ページを使用できません。
 
-   ![SKU 設定別の順序](../configuration-reference/sales/assets/sales-order-by-sku-settings.png){width="600" zoomable="yes"}
+   ![SKU 設定で並べ替え](../configuration-reference/sales/assets/sales-order-by-sku-settings.png){width="600" zoomable="yes"}
 
 1. クリック **[!UICONTROL Save Config]**.
 
-![Adobe Commerce用 B2B](../assets/b2b.svg) (B2B(Adobe Commerceのみ )) _**「SKU ごとの並べ替え」機能を有効にするには、「クイックオーダー」機能を無効にします。**_
+![Adobe Commerceの B2B](../assets/b2b.svg) （B2B はAdobe Commerceのみ） _**「SKU で並べ替え」機能を有効にするには、「クイックオーダー」機能を無効にします。**_
 
-1. に移動します。 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. の下の左側のパネル _[!UICONTROL General]_を選択します。**[!UICONTROL B2B Features]**
+1. の下の左パネルで _[!UICONTROL General]_、を選択&#x200B;**[!UICONTROL B2B Features]**
 
-1. 展開 ![拡張セレクター](../assets/icon-display-expand.png) の **[!UICONTROL B2B Features]** 」セクションに入力します。
+1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL B2B Features]** セクション。
 
-1. 設定 **[!UICONTROL Enable Quick Order]** から `No`.
+1. を設定 **[!UICONTROL Enable Quick Order]** 対象： `No`.
 
-   The [クイックオーダー機能](../b2b/quick-order.md) では、顧客とゲストが SKU または製品名に基づいて迅速に注文をおこなうことができます。
+   この [クイックオーダー機能](../b2b/quick-order.md) を使用すると、顧客およびゲストは SKU または製品名に基づいてすばやく注文できます。
 
-## ストアフロントエクスペリエンス
+## ストアフロントの経験
 
-この機能がストアに対して設定されている場合、顧客は、 _SKU 別の注文_ ウィジェットまたはアカウントダッシュボードから。
+ストアの機能が設定されると、顧客は次の機能を含むすべてのページから SKU で注文できます _SKU で並べ替え_ ウィジェットまたはアカウントダッシュボードから。
 
-### ページブロックからの SKU 順の並べ替え
+### ページブロックからの SKU で並べ替え
 
-1. Adobe Analytics の _SKU 別の注文_ ブロックを使用する場合、顧客が **[!UICONTROL SKU]** および **[!UICONTROL Qty]** の値を指定します。
+1. が含まれる _SKU で並べ替え_ ブロックすると、顧客は **[!UICONTROL SKU]** および **[!UICONTROL Qty]** 注文する品目の。
 
-1. 別の項目を追加するには、「 **[!UICONTROL Add Row]** プロセスを繰り返します。
+1. 別の項目を追加するには、をクリックします **[!UICONTROL Add Row]** そしてプロセスを繰り返します。
 
 1. クリック数 **[!UICONTROL Add to Cart]**.
 
-### 顧客アカウントからの SKU 別の注文
+### 顧客アカウントからの SKU による注文
 
 1. ストアフロントから、顧客は自分のアカウントにログインします。
 
-1. 左側のパネルで、を選択します。 **[!UICONTROL Order by SKU]**.
+1. 左側のパネルで、を選択します **[!UICONTROL Order by SKU]**.
 
-1. 環境設定に従って個々の項目を追加します。
+1. 環境設定に従って個別の項目を追加します。
 
-   _**各項目を SKU 別に追加します。**_
+   _**SKU ごとに各項目を追加します：**_
 
-   - 次に入る **[!UICONTROL SKU]** および **[!UICONTROL Qty]** の値を指定します。
+   - エントリ数： **[!UICONTROL SKU]** および **[!UICONTROL Qty]** 注文する品目の。
 
-   - 必要に応じて他の項目を追加するには、「 」をクリックします。 _行を追加_ ![プラス記号ボタン](../assets/button-add-item.png) およびは、必要な数の項目に対して繰り返します。
-
-   - クリック数 **[!UICONTROL Add to Cart]**.
-
-   _**複数の項目の CSV ファイルをアップロードします。**_
-
-   - を準備します。 [データ CSV を読み込み](../systems/data-csv.md) （コンマ区切り値）ファイル。 `SKU` および `Qty`.
-
-   ![読み込む SKU](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"}
-
-   - CSV ファイルをアップロードするには、「 」をクリックします。 **[!UICONTROL Choose File]** をクリックし、アップロードするファイルを選択します。
+   - 必要に応じて項目を追加するには、をクリックします _行を追加_ ![プラス記号ボタン](../assets/button-add-item.png) およびは、必要な数の項目に対して繰り返されます。
 
    - クリック数 **[!UICONTROL Add to Cart]**.
 
-   いずれかの製品に追加のオプションがある場合、顧客は買い物かごから、製品に注意が必要な旨のプロンプトを受け取ります。
+   _**複数項目の CSV ファイルをアップロードします。**_
 
-   ![製品に注意が必要](./assets/account-dashboard-order-by-sku-cart-product-requires-attention.png){width="600" zoomable="yes"}
+   - 準備： [データ CSV を読み込む](../systems/data-csv.md) （コンマ区切り値）ファイルに含まれる、以下の列 `SKU` および `Qty`.
+
+   ![インポートする SKU](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"}
+
+   - CSV ファイルをアップロードするには、をクリックします **[!UICONTROL Choose File]** アップロードするファイルを選択します。
+
+   - クリック数 **[!UICONTROL Add to Cart]**.
+
+   いずれかの製品に追加のオプションがある場合、買い物かごから、製品に注意が必要であることを尋ねられます。
+
+   ![注意が必要な製品](./assets/account-dashboard-order-by-sku-cart-product-requires-attention.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >重複する SKU がある場合、数量は買い物かご内の 1 つの行項目に組み合わされます。 顧客は、任意の品目の数量を変更し、 **[!UICONTROL Update Shopping Cart]** ：合計を再計算します。
+   >SKU が重複している場合、買い物かごで数量が 1 つの行項目に結合されます。 顧客は任意の品目の数量を変更し、 **[!UICONTROL Update Shopping Cart]** 合計を再計算します。
 

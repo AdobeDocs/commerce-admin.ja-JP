@@ -1,6 +1,6 @@
 ---
-title: ストアフロントエクスペリエンスを返します
-description: ストアフロントで顧客が自分のアカウントから返品を管理する方法を説明します。
+title: ストアフロントのエクスペリエンスを返します
+description: 顧客がストアフロントのアカウントから製品の返品を管理する方法を説明します。
 exl-id: c276ca2c-3d8b-4019-a9aa-e7631080f331
 feature: Returns, Storefront
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
@@ -10,32 +10,32 @@ ht-degree: 0%
 
 ---
 
-# ストアフロントエクスペリエンスを返します
+# ストアフロントのエクスペリエンスを返します
 
 {{ee-feature}}
 
-ストアフロントから RMA を要求するには、次のいずれかを使用できます。
+お客様は、次のいずれかを使用して、ストアフロントから RMA をリクエストできます。
 
 - [注文と返品ウィジェット](../content-design/widget-orders-returns.md) サイドバー内
-- _注文件数と返品数_ フッター内のリンク
+- _注文と返品_ フッター内のリンク
 
-ベストプラクティスとして、RMA 要件とプロセスの説明を必ずカスタマーサービスポリシーに記載してください。
+ベストプラクティスとして、RMA 要件とプロセスの説明を必ずカスタマーサービスポリシーに含めてください。
 
 >[!NOTE]
 >
->返品に関する追加情報を収集したい場合は、独自のカスタム情報を追加できます [属性を返す](attributes-returns.md).
+>返品に関する追加情報を収集する場合は、独自のカスタムを追加できます [属性を返します](attributes-returns.md).
 
-すべての顧客 RMA 情報が **[!UICONTROL My Returns]** 」ページを開き、顧客アカウントダッシュボードに表示します。
+すべての顧客 RMA 情報は、 **[!UICONTROL My Returns]** 顧客アカウントダッシュボードの「」ページ。
 
-![戻り値](./assets/my-returns-page.png){width="700" zoomable="yes"}
+![自分の返品](./assets/my-returns-page.png){width="700" zoomable="yes"}
 
-## RMA の要求
+## RMA をリクエスト
 
-ストアフロントで次の手順を実行して、RMA を送信します。
+お客様は、ストアフロントで次の手順を完了して RMA を送信します。
 
-1. フッターで、をクリックします。 **[!UICONTROL Orders and Returns]**.
+1. フッターでをクリックします **[!UICONTROL Orders and Returns]**.
 
-1. オーダー情報を入力します。
+1. 注文情報を入力します。
 
    - 注文 ID
    - 請求の姓
@@ -43,9 +43,9 @@ ht-degree: 0%
 
 1. クリック数 **[!UICONTROL Continue]**.
 
-   ![注文件数と返品数](./assets/storefront-orders-and-returns.png){width="700" zoomable="yes"}
+   ![注文と返品](./assets/storefront-orders-and-returns.png){width="700" zoomable="yes"}
 
-1. 注文日の下で、「 」をクリックします **[!UICONTROL Return]**.
+1. 注文日の下のクリック数 **[!UICONTROL Return]**.
 
    ![注文の詳細](./assets/storefront-orders-and-returns-order-information.png){width="700" zoomable="yes"}
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 1. セット **[!UICONTROL Resolution]** を次のいずれかに変更します。
 
    - Exchange
-   - [払い戻し](../customers/refunds-customer-account.md)
+   - [払戻](../customers/refunds-customer-account.md)
    - [店舗クレジット](../customers/store-credit-using.md)
 
 1. セット **[!UICONTROL Item Condition]** を次のいずれかに変更します。
@@ -70,12 +70,12 @@ ht-degree: 0%
    - `Out of Service`
    - `Other`
 
-   ![新しいリターンの作成](./assets/storefront-orders-and-returns-create-new-return.png){width="700" zoomable="yes"}
+   ![新しい返品の作成](./assets/storefront-orders-and-returns-create-new-return.png){width="700" zoomable="yes"}
 
-1. 必要に応じて、 **[!UICONTROL Contact Email Address]** および **[!UICONTROL Comments]**.
+1. 必要に応じて、を設定します **[!UICONTROL Contact Email Address]** および **[!UICONTROL Comments]**.
 
    >[!NOTE]
    >
-   >注文に複数の品目が含まれ、顧客が別の品目を返したい場合、クリックできます **[!UICONTROL Add Item To Return]**、項目を選択し、前述のすべてのオプションを設定します。
+   >注文に複数の品目が含まれており、顧客が別の品目を返品したい場合は、 **[!UICONTROL Add Item To Return]**&#x200B;を選択し、項目を選択して、すべてのオプションを設定します。
 
 1. クリック数 **[!UICONTROL Submit]**.

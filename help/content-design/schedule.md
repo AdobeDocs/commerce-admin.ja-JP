@@ -1,6 +1,6 @@
 ---
-title: スケジュールデザインの変更
-description: テーマデザインの変更を事前にスケジュールする方法を説明します。
+title: 設計の変更を集計する
+description: テーマのデザインの変更を事前にスケジュールする方法を説明します
 exl-id: 0a214fd5-77a6-4ad4-9740-5138d40ad0a1
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
@@ -9,44 +9,44 @@ ht-degree: 0%
 
 ---
 
-# スケジュールデザインの変更
+# 設計の変更を集計する
 
-テーマデザインの変更を事前にスケジュールし、ビジネスサイクルやイベントに応じて有効にします。 季節ごとの変更やプロモーションに対して、スケジュールされたデザイン変更を使用することも、バリエーションを追加する目的で使用することもできます。
+テーマのデザインの変更を事前にスケジュールして、ビジネスサイクルとイベントに応じて有効にします。 季節的な変化やプロモーションのためにスケジュールされたデザインの変更を使用することも、バリエーションを追加するためだけに使用することもできます。
 
-![予定されているデザインの変更](./assets/design-schedule.png){width="700" zoomable="yes"}
+![スケジュールされた設計の変更](./assets/design-schedule.png){width="700" zoomable="yes"}
 
-## 予定されているデザイン変更の追加
+## スケジュールされたデザインの変更を追加
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
 
 1. クリック **[!UICONTROL Add Design Change]**.
 
-   ![新しいストアデザイン変更設定](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
+   ![新しいストア デザインの変更の設定](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
 
-1. 設定 **[!UICONTROL Store]** を、変更を適用するストア表示に追加します。
+1. を設定 **[!UICONTROL Store]** 変更を適用するストア表示に移動します。
 
-1. 設定 **[!UICONTROL Custom Design]** 使用するテーマまたはテーマのバリエーションに追加します。
+1. を設定 **[!UICONTROL Custom Design]** 使用するテーマまたはテーマのバリエーション。
 
-1. の **[!UICONTROL Date From]** および **[!UICONTROL Date To]**&#x200B;をクリックし、 _カレンダー_ (![カレンダーアイコン](../assets/icon-calendar.png)) アイコンを使用して、変更が有効な期間の開始値と終了値を選択します。
+1. の場合 **[!UICONTROL Date From]** および **[!UICONTROL Date To]**&#x200B;を選択し、 _カレンダー_ （![カレンダーアイコン](../assets/icon-calendar.png)） アイコンをクリックして、変更が有効な期間の開始値と終了値を選択します。
 
-1. 完了したら、「 **[!UICONTROL Save]**.
+1. 完了したら、 **[!UICONTROL Save]**.
 
-## 予定されているデザイン変更の編集
+## スケジュールされたデザインの変更を編集
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
 
 1. 編集する項目を選択します。
 
 1. 必要な変更を加えます。
 
-1. 完了したら、「 **[!UICONTROL Save]**.
+1. 完了したら、 **[!UICONTROL Save]**.
 
-## 予定されているデザイン変更の削除
+## スケジュールされたデザインの変更を削除
 
-1. 次の日： _管理者_ サイドバー、移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
 
 1. 削除する項目を選択します。
 
-1. ページ上部のボタンバーで、 **[!UICONTROL Delete]**.
+1. ページ上部のボタン バーで、 **[!UICONTROL Delete]**.
 
 1. アクションを確定するには、 **[!UICONTROL OK]**.
