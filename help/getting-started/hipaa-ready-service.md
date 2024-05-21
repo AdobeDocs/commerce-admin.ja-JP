@@ -1,11 +1,11 @@
 ---
 title: Adobe Commerceに対する HIPAA 対応
-description: Adobe Commerce HIPAA 対応モジュールを追加し、HIPAA 義務に準拠できるその他の機能を取得する方法を説明します。
+description: Adobe Commerce HIPAA 対応の拡張機能を追加し、HIPAA の義務に準拠できるその他の機能を取得する方法について説明します。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 7e132d66523feba579baf0bae14e1de9de4d6591
+source-git-commit: b7ce092f843992b1e4d0ca23981c70d854ded5f9
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1570'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,13 @@ HIPAA （Health Insurance Portability and Accountability Act：医療保険の�
 
 ## Adobe Commerce HIPAA 対応
 
-Adobe Commerce HIPAA 対応には、マーチャントがそれぞれの HIPAA 義務を遵守できる追加の機能があります。
+Adobe Commerce HIPAA 対応の拡張機能により、Adobe Commerceのインストールに機能が追加され、マーチャントが HIPAA の各義務に準拠できるようになりました。
 
-Adobe Commerce HIPAA 対応は、Adobe Commerce拡張機能として提供されます。 `magento/hipaa-ee` これは、クラウドインフラストラクチャー上のAdobe CommerceまたはAdobeのManaged Services プロジェクトで使用できます。 Adobe Commerce HIPAA 対応のインストールプロセスは、HIPAA の要件に準拠するために、一部のネイティブサービスと機能を無効にします。 参照： [無効にされたサービスと機能](#disabled-services-and-features).
+Adobe Commerce HIPAA 対応の拡張機能 `magento/hipaa-ee` は、クラウドインフラストラクチャー上のAdobe CommerceまたはAdobe Managed Services プロジェクトで使用できます。 Adobe Commerce HIPAA 対応のインストールプロセスは、HIPAA の要件に準拠するために、一部のネイティブサービスと機能を無効にします。 参照： [無効にされたサービスと機能](#disabled-services-and-features).
+
+>[!NOTE]
+>
+>HIPAA 対応の機能へのアクセスは、Adobe Commerce用ヘルスケアアドオンを購入したマーチャントのみが利用できます。
 
 *これらの資料は情報提供のみを目的としています。 この情報の提供は、受信者に契約上またはその他の権利を与えるものではありません。 また、提供日現在の情報の正確性については保証しておりますが、正確かつ完全なものであることを示すものではありません。 Adobeは、法令またはAdobeの商品の変更に伴い、この情報を更新する義務を負いません。 また、Adobeの書面による同意なく、対象者以外の者に配布することはできません。*
 
@@ -39,15 +43,16 @@ Adobe Commerceは、クラウドインフラストラクチャのAdobe Commerce�
 
 ## インストール
 
-Adobeの HIPAA 対応サービス拡張機能の最新バージョンをインストールします（`magento/hipaa-ee`Adobe Commerce）を選択する必要があります。 拡張機能は、からコンポーザメタパッケージとして提供されます。 [repo.magento.com](https://repo.magento.com) リポジトリ。
+**前提条件**
 
 >[!BEGINSHADEBOX]
 
-**前提条件**
-
-次へのアクセス権が必要です。 [repo.magento.com](https://repo.magento.com) をクリックして拡張機能をインストールします。 キーの生成と必要な権限の取得については、を参照してください。 [認証キーの取得](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+- Adobeは、HIPAA 対応拡張機能にアクセスするためのAdobe Commerce アカウントをプロビジョニングしました。
+- アクセス先 [repo.magento.com](https://repo.magento.com) をクリックして拡張機能をインストールします。 キーの生成と必要な権限の取得については、を参照してください。 [認証キーの取得](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
 >[!ENDSHADEBOX]
+
+Adobeの HIPAA 対応サービス拡張機能の最新バージョンをインストールします（`magento/hipaa-ee`Adobe Commerce）を選択する必要があります。 拡張機能は、からコンポーザメタパッケージとして提供されます。 [repo.magento.com](https://repo.magento.com) リポジトリ。 メタパッケージには、Adobe Commerce インスタンスに対して HIPAA 機能を有効にするモジュールのコレクションが含まれています。
 
 1. ローカルワークステーションで、Adobe Commerce on cloud infrastructure プロジェクトのプロジェクトディレクトリに移動します。
 
@@ -120,7 +125,7 @@ Adobeの HIPAA 対応サービス拡張機能の最新バージョンをイン�
 
 ## HIPAA 対応の機能の強化
 
-この `magento/hipaa-ee` パッケージでは、Commerceの基本商品にいくつかの変更と機能強化が導入されています。 次のセクションでは、これらの変更の詳細と、基本製品の変更方法について説明します。
+この `magento/hipaa-ee` 拡張機能では、基本Commerce製品に変更と機能強化がいくつか導入されています。 次のセクションでは、これらの変更の詳細と、基本製品の変更方法について説明します。
 
 ### アクションログ
 
@@ -210,7 +215,7 @@ HIPAA の要件に準拠するために、Adobe Commerceでサポートされて
    - App Builder
    - カタログサービス
 
-- **[SendGrid サービス](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)** – アプリケーションが HIPAA に準拠していないので、このサービスはデフォルトで無効になっています。 マーチャントは、Sendgrid を有効にするためにサポートリクエストを送信できますが、サービスを使用するリスクを負っていることを認める必要があります。
+- **[SendGrid サービス](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)** – アプリケーションが HIPAA に準拠していないので、このサービスはデフォルトで無効になっています。
 
 ### デフォルトで無効になっている機能
 
