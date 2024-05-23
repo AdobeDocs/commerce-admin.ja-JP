@@ -1,11 +1,11 @@
 ---
 title: Commerce マーチャンダイジングとプロモーションの概要
-description: カスタマーエンゲージメントを目的としたプロモーションやオポチュニティを作成するためのCommerce ツールについて説明します。
+description: カスタマーエンゲージメントを目的としたプロモーションやオポチュニティを作成するための Commerce ツールについて説明します。
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
 source-wordcount: '1094'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

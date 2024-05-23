@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerceとは
-description: Adobe Commerceは、エンタープライズ e コマースプラットフォームです。 e コマースチームのグローバルな成長を促進している最新機能をお読みください。
+description: Adobe Commerce は、エンタープライズ向けの e コマースプラットフォームです。世界中の e コマースチームの成長を促進する最新機能をお読みください。
 mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
 source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8

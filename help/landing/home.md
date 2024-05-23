@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce マーチャントドキュメント
-description: Adobe Commerce製品ドキュメントを参照する
+description: Adobe Commerce 製品ドキュメントの参照
 seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: マーチャントドキュメント

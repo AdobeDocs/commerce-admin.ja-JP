@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce入門ガイド
-description: Adobe Commerceを初めて使用するマーチャント向けの包括的な情報です。
+description: Adobe Commerce を初めて使用するマーチャント向けの包括的な情報です。
 seo-title: Adobe Commerce Getting Started Guide
 seo-description: Describes basic tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
@@ -8,7 +8,7 @@ recommendations: noCatalog
 source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
