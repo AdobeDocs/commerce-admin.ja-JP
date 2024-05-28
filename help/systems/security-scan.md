@@ -4,9 +4,9 @@ description: 強化されたセキュリティスキャンを実行し、Adobe C
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 1f3173d17cc43227f7d44637f1ef0b62606cd0fd
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,15 @@ ht-degree: 0%
 - サイトの進行状況を追跡および監視する履歴セキュリティレポートにアクセスします。
 - 成功したチェックと失敗したチェックを表示するスキャン レポートにアクセスします。推奨されるアクションも表示されます。
 
-セキュリティスキャンツールは、のダッシュボードから無料で使用できます [Commerce アカウント](../getting-started/commerce-account-create.md). 技術情報については、を参照してください [セキュリティスキャンツールの設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) が含まれる _クラウドインフラストラクチャー上のCommerce ガイド_.
+セキュリティスキャンツールは、のダッシュボードから無料で使用できます [Commerce/Magentoアカウント](../getting-started/commerce-account-create.md). 技術情報については、を参照してください [セキュリティスキャンツールの設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) が含まれる _クラウドインフラストラクチャー上のCommerce ガイド_.
 
 ![セキュリティ スキャン ツール](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## セキュリティスキャンを実行
 
-1. Commerceのホームページに移動し、にサインインします [Commerce アカウント](../getting-started/commerce-account-create.md) 次の手順を実行します。
+1. Commerceのホームページから、 [Commerce/Magentoアカウント](../getting-started/commerce-account-create.md).
+
+1. セキュリティ スキャン ツールの使用条件を確認し、同意します。
 
    - 左パネルで、を選択します。 **[!UICONTROL Security Scan]**.
    - クリック **[!UICONTROL Go to Security Scan]**.
@@ -37,7 +39,7 @@ ht-degree: 0%
 
 1. 日 _[!UICONTROL Monitored Websites]_ページ、クリック&#x200B;**[!UICONTROL +Add Site]**.
 
-   異なるドメインを持つ複数のサイトがある場合は、ドメインごとに個別のスキャンを設定する必要があります。
+   異なるドメインを持つ複数のサイトがある場合は、ドメインごとに個別のスキャンを設定します。
 
    ![監視対象サイト](./assets/monitored-website.png){width="600" zoomable="yes"}
 
@@ -102,7 +104,7 @@ ht-degree: 0%
 
         ビルドプロセスが完了すると、変更内容がPWAストアフロントにデプロイされます。
 
-1. に戻る _[!UICONTROL Security Scan]_Commerce アカウントにアクセスして、**[!UICONTROL Verify Confirmation Code]**：ドメインの所有権を確立します。
+1. に戻る _[!UICONTROL Security Scan]_Commerceをクリックし、**[!UICONTROL Verify Confirmation Code]**ドメインの所有権を確立します。
 
 1. 確認が成功したら、以下を設定します **[!UICONTROL Set Automatic Security Scan]** 次のいずれかのタイプのオプション。
 
