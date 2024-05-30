@@ -3,9 +3,9 @@ title: 魅力的でパーソナライズされたエクスペリエンスを大�
 description: Adobeの機能について説明します [!DNL Commerce] を使用すると、買い物客向けにパーソナライズされたエクスペリエンスを作成できます。
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
-source-git-commit: 1a63af10d76cb9d17a992e8822e99d50bcdfa84e
+source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -102,4 +102,5 @@ Adobe [!DNL Commerce] お客様は、標準搭載の機能を使用し、様々�
 
 ## 使用例
 
-Adobe Journey Optimizerを使用して以下を行う方法について説明します [放棄された買い物かごのメールの送信](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
+- Adobe Journey Optimizerを使用して以下を行う方法について説明します [放棄された買い物かごのメールの送信](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
+- 方法を学ぶ [Real-Time CDPでのオーディエンスの作成](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience) Adobeで買い物かごの価格ルールを通知するには [!DNL Commerce].

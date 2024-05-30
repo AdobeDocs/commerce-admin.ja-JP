@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: d1079c8eac20c08a17af1f72bf49b6cb859c0699
+source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -173,6 +173,8 @@ composer require magento/audiences
 - [買い物かご価格ルールの作成](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) オーディエンス別に表示
 - [ダイナミック ブロックを作成する](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) オーディエンス別に表示
 - [（**ベータ版**）関連製品ルールを作成します](../merchandising-promotions/product-related-rule-create.md) オーディエンス別に表示
+
+書き出し方法に関する完全なエンドツーエンドのユースケースについては、こちらを参照してください [!DNL Commerce] Real-Time CDPにデータを送信してオーディエンスを作成したあと、そのオーディエンスを次に対してアクティブ化します [!DNL Commerce]を参照してください [を使用した、Real-Time CDPでのオーディエンスの作成 [!DNL Commerce] イベントデータ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## Real-Time CDP オーディエンスダッシュボード
 
