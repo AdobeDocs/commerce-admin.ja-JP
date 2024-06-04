@@ -2,9 +2,9 @@
 title: '[!UICONTROL Sales] メニュー'
 description: Commerce管理者には次が含まれます [!UICONTROL Sales] メニュー。ワークフロー内の位置に応じて、注文を操作するためのツールにアクセスできます。
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: a7c6203cf738e3fb9be887d637010ca9c155937a
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Quotes]
 
-![Adobe Commerceの B2B](../assets/b2b.svg) （Adobe Commerceの B2B で使用可能）
+![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能）
 
 権限のある購入者は、次のことができます [価格を交渉する](../b2b/quotes.md) 売主と共に [リクエスト](../b2b/quote-request.md) 買い物かごから。
 

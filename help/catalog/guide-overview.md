@@ -4,9 +4,9 @@ description: Adobe Commerce、Magento Open Source管理者および e コマー�
 seo-title: Adobe Commerce Catalog Management Guide
 seo-description: Describes how to use the product catalog features for Adobe Commerce and Magento Open Source.
 exl-id: 894b7cc3-8dc5-43aa-ab9c-ebc6480c7b2f
-source-git-commit: 45a13c41bdb8a08b6b99790b6a47792219ed0bcd
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerceの B2B では、様々な会社のカスタム価格でゲートされた共有カタログを管理できます。 標準のプライマリ製品カタログに加えて、価格構造の異なる 2 種類の共有カタログに顧客がアクセスできるようにします。 共有カタログ機能の詳細については、を参照してください [Adobe Commerceの B2B ユーザーガイド](../b2b/catalog-shared.md).
+>Adobe Commerce B2B を使用すると、様々な会社のカスタム価格でゲートされた共有カタログを管理できます。 標準のプライマリ製品カタログに加えて、価格構造の異なる 2 種類の共有カタログに顧客がアクセスできるようにします。 共有カタログ機能の詳細については、を参照してください [Adobe Commerce B2B ユーザーガイド](../b2b/catalog-shared.md).
 
 ## 使用可能なドキュメント
 

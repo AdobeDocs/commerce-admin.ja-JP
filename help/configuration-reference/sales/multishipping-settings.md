@@ -3,10 +3,10 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings]'
 description: の設定を確認します。 [!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings] コマース管理者のページ。
 exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
 feature: Configuration, Shipping/Delivery
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 0%
+source-wordcount: '99'
+ht-degree: 1%
 
 ---
 
@@ -31,4 +31,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->![Adobe Commerceの B2B](../../assets/b2b.svg) （Adobe Commerceの B2B でのみ使用可能）複数の配送先住所を持つ注文の場合、 [分割払い](../../b2b/enable-basic-features.md#configure-payment-on-account) 有効になっている場合でも、支払い方法はチェックアウト時には使用できません。
+>![Adobe Commerce B2B](../../assets/b2b.svg) （Adobe Commerce B2B でのみ使用可能）複数の配送先住所を持つ注文の場合、 [分割払い](../../b2b/enable-basic-features.md#configure-payment-on-account) 有効になっている場合でも、支払い方法はチェックアウト時には使用できません。

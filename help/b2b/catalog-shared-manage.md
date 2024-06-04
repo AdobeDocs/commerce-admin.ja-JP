@@ -3,9 +3,9 @@ title: 共有カタログの管理
 description: 共有カタログ ページから使用できる情報とツールについて説明します。
 exl-id: a01ac292-240d-42e7-b4c9-2982f293c521
 feature: B2B, Companies, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 0%
 | フィールド | 説明 |
 |--- |--- |
 | [!UICONTROL Name] | 管理者全体、および共有カタログが使用可能な顧客アカウントで共有カタログを識別します。 カタログ名は、説明的で 32 文字以下にする必要があります。 同じ名前の 2 つの共有カタログを持つことはできません。 最大文字数：32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]**  – 割り当てられている特定の会社のみが使用できるカスタム価格のカタログを識別します。<br/>**[!UICONTROL Public]**– すべてのゲスト訪問者と、ログインした企業に関連付けられていない顧客が使用できる共有カタログを識別します。 「デフォルト」の公開共有カタログは、Adobe Commerce用 B2B のインストール時に作成されますが、管理者による設定が必要です。 一度に存在できる公開共有カタログは 1 つだけです。 |
+| [!UICONTROL Type] | **[!UICONTROL Custom]**  – 割り当てられている特定の会社のみが使用できるカスタム価格のカタログを識別します。<br/>**[!UICONTROL Public]**– すべてのゲスト訪問者と、ログインした企業に関連付けられていない顧客が使用できる共有カタログを識別します。 「デフォルト」の公開共有カタログは、Adobe Commerce B2B のインストール時に作成されますが、管理者による設定が必要です。 一度に存在できる公開共有カタログは 1 つだけです。 |
 | [!UICONTROL Customer Tax Class] | カタログから行われた購入に使用する税クラスを決定します。 オプションには、使用可能なすべての税金クラスが含まれます。 |
 | [!UICONTROL Description] | カタログの使用方法の簡単な説明。 |
 

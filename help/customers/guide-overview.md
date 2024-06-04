@@ -4,9 +4,9 @@ description: Adobe Commerce管理者とMagento Open Source管理者向けの顧�
 seo-title: Adobe Commerce Customer Management Guide
 seo-description: Describes how to use the customer management features in Adobe Commerce or Magento Open Source.
 exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
-source-git-commit: 3f0d03ce1bfaa445c654949b69765092582d4643
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerceの B2B を使用すると、個々のストアフロントの顧客アカウントに関連付けられている会社アカウントを管理できます。 会社コード機能の詳細については、を参照してください [Adobe Commerceの B2B ユーザーガイド](../b2b/account-companies.md).
+>Adobe Commerce B2B を使用すると、個々のストアフロントの顧客アカウントに関連付けられている会社アカウントを管理できます。 会社コード機能の詳細については、を参照してください [Adobe Commerce B2B ユーザーガイド](../b2b/account-companies.md).
 
 ## 追加ドキュメント
 

@@ -3,9 +3,9 @@ title: 製品の作成
 description: カタログに作成できる製品のタイプについて説明します。
 exl-id: ff90bf8a-a64d-403f-bd09-5c8167a36f0b
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 | [[!UICONTROL Product in Websites]](settings-basic-websites.md) | ストア階層に従って、製品が使用可能な各 web サイトを識別します。 |
 | [[!UICONTROL Design]](settings-advanced-design.md) | 製品ページに異なるテーマを適用したり、列のレイアウトを変更したり、製品オプションの表示場所を決定したり、カスタム XML コードを入力したりするために使用します。 |
 | [[!UICONTROL Gift options]](product-gift-options.md) | 商品レベルでのチェックアウト中にギフトメッセージオプションを有効または無効にするために使用します。 |
-| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![Adobe Commerceの B2B](../assets/b2b.svg) （で利用可能 [Adobe Commerceの B2B](../b2b/introduction.md) のみ）を使用すると、異なる会社のカスタム価格で共有カタログを管理できます。 |
+| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![Adobe Commerce B2B](../assets/b2b.svg) （で利用可能 [Adobe Commerce B2B](../b2b/introduction.md) のみ）を使用すると、異なる会社のカスタム価格で共有カタログを管理できます。 |
 | [[!UICONTROL Downloadable Information]](product-create-downloadable.md#step-5-complete-the-downloadable-information) | 製品ダウンロードのパラメーターを定義するために使用されます。 |
 
 {style="table-layout:auto"}

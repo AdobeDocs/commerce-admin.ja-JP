@@ -4,9 +4,9 @@ description: 登録ユーザーによって開始される管理者アクセス�
 exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Google reCAPTCHA を有効にするには、1 組の API キーが必要です�
    - [!UICONTROL Enable for Forgot Password]
    - [!UICONTROL Enable for Create New Customer Account]
    - [!UICONTROL Enable for Edit Customer Account]
-   - [!UICONTROL Enable for Create New Company Account] ![Adobe Commerceの B2B](../assets/b2b.svg) （B2B でAdobe Commerceでのみ使用可能）
+   - [!UICONTROL Enable for Create New Company Account] ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B でのみ使用可能）
    - [!UICONTROL Enable for Contact Us]
    - [!UICONTROL Enable for Product Review]
    - [!UICONTROL Enable for Newsletter Subscription]

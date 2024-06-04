@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists]'
 description: の設定を確認します。 [!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists] コマース管理者のページ。
 exl-id: 3720d9de-a5cc-4c44-a42a-af7409021f52
 feature: Configuration, B2B
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerceの B2B をインストールして有効化すると、会社固有の機能を使用して購入エクスペリエンスをパーソナライズできます。 Adobe Commerceの B2B は、B2B モデルと B2C モデルの両方をサポートする統合ソリューションです。 B2B 機能について詳しくは、 [_Adobe Commerceの B2B ユーザーガイド_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Adobe Commerce B2B をインストールして有効化すると、会社固有の機能を使用して購入体験をパーソナライズできます。 Adobe Commerce B2B は、B2B モデルと B2C モデルの両方をサポートする統合ソリューションです。 B2B 機能について詳しくは、 [_Adobe Commerce B2B ユーザーガイド_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!NOTE]
 >

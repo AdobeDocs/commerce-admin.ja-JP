@@ -3,9 +3,9 @@ title: 注文のワークフローと処理
 description: 注文ワークフロー、各ステップに適用されるステータス、このプロセスを通じて注文を移動する方法について説明します。
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1718'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 0%
 | [!UICONTROL Order Date] | 注文が行われた日時。 |
 | [!UICONTROL Purchased From] | 注文が行われた web サイト、ストア、ストア表示を示します。 |
 | [!UICONTROL Placed from IP] | 注文元のコンピューターの IP アドレスを示します。 |
-| [!UICONTROL Order Placed from Quote] | ![Adobe Commerceの B2B](../assets/b2b.svg) （Adobe Commerceの B2B で使用可能）は、 [見積もり](../b2b/quotes.md) 注文の生成元（該当する場合）。 見積書名は見積書にリンクされています。 |
+| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能）は、 [見積もり](../b2b/quotes.md) 注文の生成元（該当する場合）。 見積書名は見積書にリンクされています。 |
 
 {style="table-layout:auto"}
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 | [!UICONTROL Customer Name] | 注文を行った顧客または購入者の名前。 顧客名が顧客プロファイルにリンクされています。 |
 | [!UICONTROL Email] | 顧客または購入者の電子メールアドレス。 このメールアドレスに、新しいメールメッセージを開くリンクが付いています。 |
 | [!UICONTROL Customer Group] | 顧客が割り当てられている顧客グループまたは共有カタログの名前。 |
-| [!UICONTROL Company Name] | ![Adobe Commerceの B2B](../assets/b2b.svg) （Adobe Commerceの B2B で使用可能）購入者が関連付けられており、その代わりに注文が行われる会社の名前。 会社名はにリンクされています [会社概要](../b2b/account-companies.md). |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能）購入者が関連付けられており、その代わりに注文が行われる会社の名前。 会社名はにリンクされています [会社概要](../b2b/account-companies.md). |
 
 {style="table-layout:auto"}
 
@@ -220,9 +220,9 @@ ht-degree: 0%
 | [!UICONTROL Total Refunded] | 注文から返金された合計金額（該当する場合）。 |
 | [!UICONTROL Total Due] | 期限の合計金額。 |
 | [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）注文に適用される利用可能なストアクレジットの金額（該当する場合）。 |
-| [!UICONTROL Catalog Total Price] | ![Adobe Commerceの B2B](../assets/b2b.svg) （Adobe Commerceの B2B で使用可能）見積もりの基礎として使用される共通カタログまたは標準カタログの価格に従って、見積もりの品目の合計価格（税抜）。 ストアフロントの表示通貨が基本通貨と異なる場合、値は両方の通貨で表示され、ストアフロントは角括弧で囲まれて表示されます。 |
-| [!UICONTROL Negotiated Discount] | ![Adobe Commerceの B2B](../assets/b2b.svg) （Adobe Commerceの B2B で利用可能）買い手と売り手の間で交渉された見積もりの結果である割引。 ストアフロントの表示通貨が基本通貨と異なる場合、値は両方の通貨で表示され、ストアフロントは角括弧で囲まれて表示されます。 |
-| [!UICONTROL Subtotal] | ![Adobe Commerceの B2B](../assets/b2b.svg) （Adobe Commerceの B2B で使用可能） カタログの合計価格から交渉済みの割引を差し引いた値。 |
+| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能）見積書の基礎として使用される共通カタログまたは標準カタログの価格に従った、見積書に記載されている品目の合計価格（税抜）。 ストアフロントの表示通貨が基本通貨と異なる場合、値は両方の通貨で表示され、ストアフロントは角括弧で囲まれて表示されます。 |
+| [!UICONTROL Negotiated Discount] | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で利用可能）買い手と売り手の間で交渉された見積もりの結果である割引。 ストアフロントの表示通貨が基本通貨と異なる場合、値は両方の通貨で表示され、ストアフロントは角括弧で囲まれて表示されます。 |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能）カタログの合計価格から交渉済の割引を差し引いた値。 |
 
 {style="table-layout:auto"}
 

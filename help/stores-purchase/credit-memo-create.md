@@ -3,9 +3,9 @@ title: クレジットメモを発行する
 description: 請求済み注文のクレジットメモを生成および印刷する方法を説明します。
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 クレジット メモを印刷する前に、 [請求済注文](invoices.md#create-an-invoice). 支払い方法に応じて、オープン・クレジット・メモからオンラインとオフラインの両方の払戻（一部または全部）を発行できます。
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）返金は店舗クレジットに充当できます。
-- ![Adobe Commerceの B2B](../assets/b2b.svg) （Adobe Commerceの B2B で利用可能）払い戻しは、会社のクレジットに適用できます。
+- ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で利用可能）払い戻しは、会社のクレジットに適用できます。
 - クレジットカードによる購入は、オンラインまたはオフラインで返金できます。
 - 小切手またはマネーオーダーによる購入は、オフラインで返金する必要があります。
 
@@ -108,13 +108,13 @@ ht-degree: 0%
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）お客様の店舗クレジットに金額を返金するには、 **[!UICONTROL Refund to Store Credit]** チェックボックス。
 
-   - ![Adobe Commerceの B2B](../assets/b2b.svg) （Adobe Commerceの B2B で利用可能）お客様の会社のクレジットに金額を返金するには、 **[!UICONTROL Refund to Company Credit]** チェックボックス。
+   - ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能）お客様の会社のクレジットに金額を返金するには、 **[!UICONTROL Refund to Company Credit]** チェックボックス。
 
    - オフラインでの払い戻しを発行するには、 **[!UICONTROL Refund Offline]**.
 
    - オンライン払い戻しを行うには、 **[!UICONTROL Refund]**.
 
-   - ![Adobe Commerceの B2B](../assets/b2b.svg) （Adobe Commerceの B2B で利用可能）購入が会社のクレジットで支払われた場合は、をクリックします **[!UICONTROL Refund to Company Credit]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で利用可能）購入が会社のクレジットで支払われた場合は、をクリックします **[!UICONTROL Refund to Company Credit]**.
 
    参照： [クレジットメモ](credit-memos.md) オフラインおよびオンラインでの払い戻しの詳細については、こちらを参照してください。
 
@@ -195,7 +195,7 @@ ht-degree: 0%
 | [!UICONTROL Customer Name] | 注文を行った顧客または購入者の名前。 顧客名が顧客プロファイルにリンクされています。 |
 | [!UICONTROL Email] | 顧客または購入者の電子メールアドレス。 このメールアドレスに、新しいメールメッセージを開くリンクが付いています。 |
 | [!UICONTROL Customer Group] | 顧客が割り当てられている顧客グループまたは共有カタログの名前。 |
-| [!UICONTROL Company Name] | ![Adobe Commerceの B2B](../assets/b2b.svg) （Adobe Commerceの B2B で使用可能）購入者に関連付けられている会社の名前。その会社に代わって注文が行われます。 会社名は会社プロファイルにリンクされています。 |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能）購入者に関連付けられた会社の名前。その会社に代わって注文が行われます。 会社名は会社プロファイルにリンクされています。 |
 
 {style="table-layout:auto"}
 
@@ -222,7 +222,7 @@ ht-degree: 0%
 | フィールド | 説明 |
 |--- |--- |
 | [!UICONTROL Product] | 製品名、SKU およびオプション（該当する場合）。 |
-| [!UICONTROL Price] | 商品の購入価格。 Adobe Commerceの B2B の場合、この値は、該当する場合、共有カタログの商品に適用された割引を反映します。 |
+| [!UICONTROL Price] | 商品の購入価格。 Adobe Commerce B2B の場合、この値は、該当する場合、共有カタログの商品に適用される割引を反映します。 |
 | [!UICONTROL Qty] | 注文された数量。 |
 | [!UICONTROL Return to Stock] | 返された項目が在庫に返されるかどうかを示すチェックボックス。 |
 | [!UICONTROL Qty to Refund] | 商品から返される単位数を示します。 |
@@ -254,7 +254,7 @@ ht-degree: 0%
 | [!UICONTROL Append Comments] | コメントをクレジット メモに含めるかどうかを決定するチェックボックスです。 |
 | [!UICONTROL Email Copy of Credit Memo] | クレジット メモのコピーを E メールで送信するかどうかを決定するチェックボックスです。 |
 | [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）合計を返金するかどうかを指定するチェックボックス [店舗クレジット](../customers/store-credit-using.md). |
-| [!UICONTROL Subtotal] | ![Adobe Commerceの B2B](../assets/b2b.svg) （Adobe Commerceの B2B で利用可能）払い戻されるすべてのライン項目の合計。 |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で利用可能）払い戻されるすべてのライン項目の合計。 |
 
 {style="table-layout:auto"}
 
@@ -266,7 +266,7 @@ ht-degree: 0%
 |--- |--- |
 | **[!UICONTROL Refund]** | 元の購入が支払いゲートウェイを通じてクレジットカードによって支払われた場合、払い戻し金額は支払い処理者によって管理されます。 払い戻しを管理するには、支払いプロバイダーが提供するドキュメントを参照してください。 |
 | **[!UICONTROL Refund Offline]** | 元の購入が小切手またはマネーオーダーによって支払われた場合、払い戻しは小切手、ギフトカード、または現金を発行することにより、顧客に直接支払われます。 クレジット・メモは、オフライン取引の記録として機能します。 |
-| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerceの B2B](../assets/b2b.svg) （Adobe Commerceの B2B で利用可能）購入が会社のクレジットに課金された場合、払い戻しは次の場所に返されます [会社アカウント](../b2b/credit-company.md). |
+| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で利用可能）購入が会社のクレジットに課金された場合、払い戻しは次の場所に返されます [会社アカウント](../b2b/credit-company.md). |
 
 {style="table-layout:auto"}
 

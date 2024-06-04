@@ -5,9 +5,9 @@ seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: マーチャントドキュメント
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: e64045a84f79a204450e6da71bcf9f7f72882403
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -43,8 +43,8 @@ Magento Open Sourceは、Adobeが公式に提供し、Adobe Commerceへの移行
   </tr>
 <tr>
   <td valign="top">
-      <img alt="Adobe Commerceの B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html"><strong>Adobe Commerceの B2B</strong></a>
+      <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html"><strong>Adobe Commerce B2B</strong></a>
     <div><em>この機能セットは、顧客が主に企業である販売者（マーチャント）のニーズを満たすように設計されています。複雑な組織構造を持っている場合や、様々な役割や購入の許可レベルを持つ複数のスタッフを持っている場合があります。</em>
     <br></div>
   </td>
@@ -123,8 +123,8 @@ Magento Open Sourceは、Adobeが公式に提供し、Adobe Commerceへの移行
 
 | 説明 | タイプ | 日付 |
 | ----------- | ---- | ---- |
-| **1.4.0 B2B リリース** - Adobe Commerceの B2B リリースノートは、 [1.4.0 リリース](../b2b/release-notes.md#b2b-v140). | 更新 | 2023/6/13 |
-| **1.4.0 B2B リリース**  – が [購買担当の見積を開始します](../b2b/sales-rep-initiates-quote.md) トピックは、 _Adobe Commerceの B2B ガイド_. 販売者が特定の購入者に対して見積もりを作成して交渉プロセスを開始する方法を説明します。 | 新規 | 2023/6/13 |
+| **1.4.0 B2B リリース** - Adobe Commerce B2B リリースノートは、の変更と追加について説明しています [1.4.0 リリース](../b2b/release-notes.md#b2b-v140). | 更新 | 2023/6/13 |
+| **1.4.0 B2B リリース**  – が [購買担当の見積を開始します](../b2b/sales-rep-initiates-quote.md) トピックは、 _Adobe Commerce B2B ガイド_. 販売者が特定の購入者に対して見積もりを作成して交渉プロセスを開始する方法を説明します。 | 新規 | 2023/6/13 |
 | **1.4.0 B2B リリース**  – が [見積の交渉](../b2b/quote-price-negotiation.md), [交渉可能な見積](../b2b/quotes.md)、および [B2B 機能の有効化](../b2b/enable-basic-features.md) 販売者が開始した見積もりとデフォルトの機能の変更を反映するように、トピックが更新されます。 | 更新 | 2023/6/13 |
 | **2.2.0 Adobe IMS統合リリース**  – が [Adobe IDとのCommerce管理者の統合を無効にする](../getting-started/adobe-ims-disable.md) トピックは、 _はじめる前に_. ここでは、Adobe Commerce Admin とAdobe IMSの統合を無効にするオプションの手順について説明します。 | 新規 | 2023/6/13 |
 | **2.2.0 Adobe IMS統合リリース**  – の変更 [AdobeIdentity Management サービス（IMS）の統合の概要](../getting-started/adobe-ims-integration-overview.md) および [Commerce Admin とAdobe IDの統合の設定](../getting-started/adobe-ims-config.md) 更新された機能を反映するトピック。 | 更新 | 2023/6/13 |

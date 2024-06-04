@@ -3,9 +3,9 @@ title: チェックアウト時のアドレス検索
 description: ストアのチェックアウト時に住所の検索を含める方法を説明します。
 exl-id: 8153c456-0848-4bb4-8deb-8219323344ed
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 引用符で囲まれたアドレス検索
 
-![Adobe Commerceの B2B](../assets/b2b.svg) （B2B でAdobe Commerceでのみ使用可能）
+![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B でのみ使用可能）
 
 また、住所検索を有効にすると、顧客の保存済み住所の数が設定された制限を満たしているか、超えている見積もりから作成された注文のチェックアウトにも影響します。 見積もりが完了し、顧客がチェックアウトに進むと、選択した配送先住所のみが表示されます。 ページには、配送先住所がロックされていて、見積書でのみ変更できるというメッセージも表示されます。
 

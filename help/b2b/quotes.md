@@ -3,9 +3,9 @@ title: 交渉可能な見積
 description: 見積もりワークフローと、このサービスを会社アカウントに提供する方法について説明します。
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 27b0c43f72faa2c2e8717fd5929f36d12f9e1b08
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 交渉可能な引用符は、Adobe Commerceに次の設定がある場合にのみ使用できます。
 
-- [B2B for Adobe Commerce拡張機能がインストールされている](install.md)
+- [Adobe Commerce B2B 拡張機能がインストールされている](install.md)
 - [構成済みの B2B 機能](enable-basic-features.md)
    - 会社アカウントを有効にする
    - B2B 見積もりを有効にする

@@ -3,9 +3,9 @@ title: 階層の価格
 description: 階層価格を使用して、製品リストまたは製品ページから数量割引を提供する方法を説明します。
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. ストアに複数の web サイトがある場合は、 **[!UICONTROL Website]** 対象となる層の価格。
 
-1. 必要に応じて、を選択して価格レベルの可用性を制限します。 **[!UICONTROL Customer Group]** または **[!UICONTROL Shared Catalog]** （![Adobe Commerceの B2B](../assets/b2b.svg) で利用可能 [Adobe Commerceの B2B](./b2b/../introduction.md) のみ）。
+1. 必要に応じて、を選択して価格レベルの可用性を制限します。 **[!UICONTROL Customer Group]** または **[!UICONTROL Shared Catalog]** （![Adobe Commerce B2B](../assets/b2b.svg) で利用可能 [Adobe Commerce B2B](./b2b/../introduction.md) のみ）。
 
 1. の場合 **[!UICONTROL Qty]**：割引を受けるために注文する必要がある数量を入力します。
 

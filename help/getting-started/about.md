@@ -3,9 +3,9 @@ title: Adobe Commerceとは
 description: Adobe Commerce は、エンタープライズ向けの e コマースプラットフォームです。世界中の e コマースチームの成長を促進する最新機能をお読みください。
 mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
-source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '3322'
+source-wordcount: '3320'
 ht-degree: 0%
 
 ---
@@ -99,8 +99,8 @@ Adobe Commerceの強力な組み込み見積ツールを基盤として、B2B �
 >[!TIP]
 >B2B Commerceの機能について詳しくは、次のドキュメントを参照してください。
 >
->- [Adobe Commerceの B2B ユーザーガイド](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)
->- [Adobe Commerceの B2B 開発者ガイド](https://developer.adobe.com/commerce/webapi/rest/b2b/)
+>- [Adobe Commerce B2B ユーザーガイド](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)
+>- [Adobe Commerce B2B デベロッパーガイド](https://developer.adobe.com/commerce/webapi/rest/b2b/)
 
 ### Adobe Commerceの支払いサービス
 

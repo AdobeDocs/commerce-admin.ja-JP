@@ -3,9 +3,9 @@ title: ストアフロントエクスペリエンスの強化
 description: 顧客エンゲージメント、リテンション、ロイヤルティを最大化するのに役立つ、様々なツールについて説明します。
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: ecc1ae5a741cab915369eac619905728d1c61061
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Adobe CommerceとMagento Open Sourceは、ショッピングエクスペリエ�
 
 - **自動ビジネス・ルール**  – 設定 [自動ビジネス・ルール](../merchandising-promotions/price-rules-cart.md) 製品の関連を定義し、様々な条件に基づいて割引をトリガー付けする価格ルールを使用します。
 
-- **統合 B2B と B2C**  – を使用 [Adobe Commerceの B2B](../b2b/introduction.md)は、B2C と B2B の両方の顧客にサービスを提供できます。 使いやすい顧客ポータルを通じて、B2B のお客様は、特定の役割と権限を持つ複数の購入者の層を設定し、見積もりと注文を追跡し、購入承認ルールを定義し、オンラインでクレジットを管理できます。
+- **統合 B2B と B2C**  – を使用 [Adobe Commerce B2B](../b2b/introduction.md)は、B2C と B2B の両方の顧客にサービスを提供できます。 使いやすい顧客ポータルを通じて、B2B のお客様は、特定の役割と権限を持つ複数の購入者の層を設定し、見積もりと注文を追跡し、購入承認ルールを定義し、オンラインでクレジットを管理できます。
 
 ## 購入の瞬間
 

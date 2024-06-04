@@ -3,9 +3,9 @@ title: メールテンプレート
 description: メールテンプレートの概要と、それらを使用して顧客へのコミュニケーションをサポートし、ブランドを強化する方法について説明します。
 exl-id: dfe28c77-607e-41e4-b872-3a07bcd67962
 feature: Communications, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Commerce メールは、HTMLおよびプレーンテキストのメールクラ�
 
 ### [!DNL Magento_Company]
 
-![Adobe Commerceの B2B](../assets/b2b.svg) （B2B でAdobe Commerceでのみ使用可能）
+![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B でのみ使用可能）
 
 | Template | 設定パス |
 |--- |--- |
@@ -121,7 +121,7 @@ Commerce メールは、HTMLおよびプレーンテキストのメールクラ�
 
 ### [!DNL Magento_CompanyCredit]
 
-![Adobe Commerceの B2B](../assets/b2b.svg) （B2B でAdobe Commerceでのみ使用可能）
+![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B でのみ使用可能）
 
 | Template | 設定パス |
 |--- |--- |
@@ -233,7 +233,7 @@ Commerce メールは、HTMLおよびプレーンテキストのメールクラ�
 
 ### [!DNL Magento_NegotiableQuote]
 
-![Adobe Commerceの B2B](../assets/b2b.svg) （B2B でAdobe Commerceでのみ使用可能）
+![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B でのみ使用可能）
 
 | Template | 設定パス |
 |--- |--- |

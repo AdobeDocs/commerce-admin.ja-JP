@@ -3,9 +3,9 @@ title: 価格範囲
 description: 製品価格に使用される範囲を説明します。この範囲は、グローバルレベルまたは web サイトレベルのいずれかで適用するように設定できます。
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 異なる要因は、ある場所ではなく別の場所で同じ製品の価格に影響を与える可能性があります。 例えば、商品の追加の流通コストや、特定の店舗で販売される商品の価格に影響を与えるその他の考慮事項が発生する可能性があります。 次の図は、基本通貨が web サイトレベルに設定されたマルチサイトのインストールを示しています。 各 web サイトに関連付けられたストアとストアの表示は、web サイトレベルで設定された製品価格を反映します。
 
-![Adobe Commerceの B2B](../assets/b2b.svg) 共有カタログを使用する場合は、も参照してください [共有カタログの価格と構造の設定](../b2b/catalog-shared-pricing-structure.md) が含まれる _Adobe Commerceの B2B ガイド_.
+![Adobe Commerce B2B](../assets/b2b.svg) 共有カタログを使用する場合は、も参照してください [共有カタログの価格と構造の設定](../b2b/catalog-shared-pricing-structure.md) が含まれる _Adobe Commerce B2B ガイド_.
 
 ![価格範囲図](./assets/catalog-price-scope.svg){width="550"}
 

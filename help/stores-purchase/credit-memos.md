@@ -3,9 +3,9 @@ title: クレジットメモ
 description: クレジットメモと、それらを使用して部分的または完全な払い戻しを発行する方法について説明します。
 exl-id: dc2faf86-0182-4661-9543-bc6e00e06dbf
 feature: Orders, Invoices, Returns
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ A _クレジット メモ_ は、全額払い戻しまたは一部払い戻し�
 
 - アカウント・クレジット – クレジット・アカウントを使用して支払われた注文は、アカウント・クレジットとして払い戻すことができます。
    - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [店舗クレジット](../customers/store-credit-using.md)
-   - ![Adobe Commerceの B2B](../assets/b2b.svg) （Adobe Commerceの B2B で使用可能） [分割払い](../b2b/enable-basic-features.md#configure-payment-on-account) （オフライン方式）
-   - ![Adobe Commerceの B2B](../assets/b2b.svg) （Adobe Commerceの B2B で使用可能） [会社クレジット](../b2b/credit-company.md)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能） [分割払い](../b2b/enable-basic-features.md#configure-payment-on-account) （オフライン方式）
+   - ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能） [会社クレジット](../b2b/credit-company.md)
 - [オンライン返金](payments.md#online-payment-methods)- PayPal やBraintreeなどの決済ゲートウェイを通じてクレジットカードで支払われた注文は、決済処理サービスを通じてオンラインで返金されます。
 - [オフライン払い戻し](payments.md#offline-payment-methods) – 代金引換で支払われる注文（[コード](cash-on-delivery.md)）または [小切手または為替](check-money-order.md) オフラインで返金されます。
 

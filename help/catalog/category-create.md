@@ -3,9 +3,9 @@ title: カテゴリの作成
 description: 設定で設定されたメニューの最大深度に応じて、必要な数のサブカテゴリを追加できます。
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ ht-degree: 0%
 
 1. を選択します。 **[!UICONTROL Customer Group]** カテゴリ権限が適用される場所。
 
-   ![Adobe Commerceの B2B](../assets/b2b.svg) （[Adobe Commerceの B2B](../b2b/introduction.md) のみ）必要に応じて、 **[!UICONTROL Shared Catalog]** その代わり。
+   ![Adobe Commerce B2B](../assets/b2b.svg) （[Adobe Commerce B2B](../b2b/introduction.md) のみ）必要に応じて、 **[!UICONTROL Shared Catalog]** その代わり。
 
 1. 必要に応じて、次の権限を設定します。
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 
 1. 必要に応じてデザイン設定を指定します。
 
-   - （[Adobe Commerceの B2B](../b2b/introduction.md) のみ）このカテゴリに親カテゴリのデザイン設定を適用するには、 **[!UICONTROL Use Parent Category Settings]** 対象： `Yes`.
+   - （[Adobe Commerce B2B](../b2b/introduction.md) のみ）このカテゴリに親カテゴリのデザイン設定を適用するには、 **[!UICONTROL Use Parent Category Settings]** 対象： `Yes`.
 
    - カテゴリページのデザインを変更するには、 **[!UICONTROL Theme]** お申し込みください。
 

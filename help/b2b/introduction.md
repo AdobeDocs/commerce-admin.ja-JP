@@ -1,18 +1,18 @@
 ---
-title: の概要 [!DNL B2B for Adobe Commerce]
+title: の概要 [!DNL Adobe Commerce B2B]
 description: 統合 B2B 機能を使用して、企業のお客様のニーズを満たす方法を説明します。
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
+source-git-commit: 8e4e070f41f7d3bf872e81c9805e7c24779b812d
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 0%
+source-wordcount: '813'
+ht-degree: 2%
 
 ---
 
-# の概要 [!DNL B2B for Adobe Commerce]
+# の概要 [!DNL Adobe Commerce B2B]
 
-標準的な B2B （Business to Consumer）モデルとは異なり、統合された B2B （Business to Business）機能は、企業のお客様を持つセラー（Adobe Commerceのマーチャント）のニーズを満たすように設計されています。 複雑な組織構造を持つ企業や、様々な役割や購買権限レベルを持つ複数のユーザーに対応します。 典型的な B2B 顧客は、小売店のマネージャーや、会社の代わりに購入を行う購入者の場合があります。 どちらの場合も、取引はビジネスとそのビジネスの間で行われます。 また、製品を消費者に直接販売することもできます。 [!DNL B2B for Adobe Commerce] は、B2B モデルと B2C モデルの両方をサポートする統合ソリューションです。
+標準的な B2B （Business to Consumer）モデルとは異なり、統合された B2B （Business to Business）機能は、企業のお客様を持つセラー（Adobe Commerceのマーチャント）のニーズを満たすように設計されています。 複雑な組織構造を持つ企業や、様々な役割や購買権限レベルを持つ複数のユーザーに対応します。 典型的な B2B 顧客は、小売店のマネージャーや、会社の代わりに購入を行う購入者の場合があります。 どちらの場合も、取引はビジネスとそのビジネスの間で行われます。 また、製品を消費者に直接販売することもできます。 [!DNL Adobe Commerce B2B] は、B2B モデルと B2C モデルの両方をサポートする統合ソリューションです。
 
 （を使用） [インストール](install.md) および [イネーブルメント](enable-basic-features.md) Adobe Commerce ストアの B2B 拡張機能のうち、顧客固有のカタログと価格、ターゲットを絞ったコンテンツとプロモーションを使用して、購入エクスペリエンスをパーソナライズできます。
 

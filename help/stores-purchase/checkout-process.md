@@ -3,9 +3,9 @@ title: チェックアウトプロセスとオプション
 description: Adobe CommerceとMagento Open Sourceのチェックアウトプロセスが、トランザクションの完了に必要な情報を収集する方法と、「チェックアウト」ページがプロセスの各ステップを通じてお客様を導く方法について説明します。
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ### レビューと支払 – 発注
 
-![Adobe Commerceの B2B](../assets/b2b.svg) （B2B でAdobe Commerceでのみ使用可能）
+![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B でのみ使用可能）
 
 を有効にしている会社に顧客が関連付けられている場合 [発注書](../b2b/purchase-order-flow.md)すべての注文は発注書として処理されます。 利用可能な支払い方法は、会社アカウントの設定によって決まります。
 

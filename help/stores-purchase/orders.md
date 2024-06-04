@@ -3,9 +3,9 @@ title: 注文件数
 description: 注文ワークスペースと、管理で注文を見つけるために使用する検索機能について説明します。
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Method] | 注文に使用される支払い方法。 |
 | [!UICONTROL Total Refunded] | 注文から顧客に払い戻される金額。 |
 | [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）注文から顧客の店舗クレジットに払い戻される金額。 |
-| [!UICONTROL Company Name] | ![Adobe Commerceの B2B](../assets/b2b.svg) （Adobe Commerceの B2B で使用可能）の名前 [会社](../b2b/account-companies.md) 注文した人物。 |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能）の名前 [会社](../b2b/account-companies.md) 注文した人物。 |
 
 {style="table-layout:auto"}
 

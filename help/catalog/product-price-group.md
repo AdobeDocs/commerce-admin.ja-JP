@@ -3,9 +3,9 @@ title: グループの価格
 description: グループ価格を使用して、ストアの顧客グループに基づいて割引品目の価格を設定する方法を説明します。
 exl-id: bc5be23f-64eb-47c3-beda-01168abfbf96
 feature: Catalog Management, Products, Customers
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. が含まれる _[!UICONTROL Customer Group Price]_セクションで、をクリック&#x200B;**[!UICONTROL Add]**.
 
-   ストアに次が含まれる場合 [Adobe Commerceの B2B](../b2b/introduction.md) および次を持つ [共有カタログ](../b2b/catalog-shared.md) 有効にすると、このセクションにラベルが付けられます _[!UICONTROL Catalog and Tier Price]_.
+   ストアに次が含まれる場合 [Adobe Commerce B2B](../b2b/introduction.md) および次を持つ [共有カタログ](../b2b/catalog-shared.md) 有効にすると、このセクションにラベルが付けられます _[!UICONTROL Catalog and Tier Price]_.
 
    ![詳細価格](./assets/product-price-group.png){width="600" zoomable="yes"}
 

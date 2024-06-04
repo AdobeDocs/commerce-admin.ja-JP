@@ -3,9 +3,9 @@ title: インデックス管理
 description: インデックス再作成にトリガーとなるアクションやベストプラクティスなど、インデックス管理について説明します。
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 28b8e430336090666402f3f2868311ef98d9217d
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Commerceでのインデックス再作成とキャッシュの目的は異なり
 
 >[!IMPORTANT]
 >
->を使用するストアの場合 [Adobe Commerceの B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) およびで、Elasticsearchをフルテキストとして設定している（`catalogsearch_fulltext`） インデクサー：フルテキストインデックスは、一括権限の変更後、または「権限」インデクサーが「スケジュール済み」モードの場合に再実行する必要があります。
+>を使用するストアの場合 [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) およびで、Elasticsearchをフルテキストとして設定している（`catalogsearch_fulltext`） インデクサー：フルテキストインデックスは、一括権限の変更後、または「権限」インデクサーが「スケジュール済み」モードの場合に再実行する必要があります。
 
 1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 

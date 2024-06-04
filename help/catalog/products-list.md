@@ -3,9 +3,9 @@ title: 商品リスト
 description: _について学ぶ[!UICONTROL Products]製品の作成と既存の製品の編集を行える、管理者向けの_ ページ。
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 カタログ内のすべての製品には、 _[!UICONTROL Products]_管理にあるページで、製品を作成し、既存の製品を編集できます。 マルチサイトインストールの場合、同じカタログから販売される異なる製品を各 web サイトで選択できます。
 
-この _[!UICONTROL Products]_リストには、カタログ内のすべての製品が含まれ、製品が使用可能な web サイトと、現在販売が有効な web サイトが示されます。 を使用したAdobe Commerce インストールの B2B における [共有カタログ](../b2b/catalog-shared.md) 有効にすると、グリッドには、共有カタログで代替割引価格を持つ製品を示す列が含まれます。
+この _[!UICONTROL Products]_リストには、カタログ内のすべての製品が含まれ、製品が使用可能な web サイトと、現在販売が有効な web サイトが示されます。 を使用したAdobe Commerce B2B インストール [共有カタログ](../b2b/catalog-shared.md) 有効にすると、グリッドには、共有カタログで代替割引価格を持つ製品を示す列が含まれます。
 
 ページごとにリストページを参照するか、特定の製品を検索できます。 標準を使用 [制御](../getting-started/admin-grid-controls.md) リストを並べ替えてフィルタリングし、適用するには [アクション](../getting-started/admin-actions-control.md) を選択された製品に適用します。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 | [!UICONTROL Status] | 商品のステータスを示します。 オプション： `Enabled` および `Disabled` |
 | [!UICONTROL Websites] | 製品が使用可能な web サイトを示します。 |
 | [!UICONTROL Action] | 製品を編集モードで開きます。 |
-| [!UICONTROL Shared Catalog] | ![Adobe Commerceの B2B](../assets/b2b.svg) （で利用可能 [Adobe Commerceの B2B](./b2b/../introduction.md) のみ）は、商品のカスタム価格を含む共有カタログを示します。 |
+| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) （で利用可能 [Adobe Commerce B2B](./b2b/../introduction.md) のみ）は、商品のカスタム価格を含む共有カタログを示します。 |
 
 {style="table-layout:auto"}
 

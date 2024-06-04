@@ -2,9 +2,9 @@
 title: ストアと購入体験の概要
 description: オンラインストアの構築と管理に使用する機能と、顧客の購入体験について説明します。
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: a56509eeedbb30a1e9cacfd521ea4c18e0241d94
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Adobe CommerceとMagento Open Sourceは、注文が送信される前に SKU と
 
 >[!TIP]
 >
->![Adobe Commerceの B2B](../assets/b2b.svg) Adobe Commerce用 B2B のインストールとイネーブルメントを使用すると、 _クイック注文_ 会社アカウントに関連付けられている顧客の場合。 この機能により、注文する商品の名前や SKU がわかっている場合の注文プロセスが数回のクリックに短縮されます。 また、会社アカウントの譲渡可能見積もりのサポートを設定することもできます。 B2B 機能について詳しくは、 [Adobe Commerceの B2B ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>![Adobe Commerce B2B](../assets/b2b.svg) Adobe Commerce B2B のインストールとイネーブルメントを使用すると、 _クイック注文_ 会社アカウントに関連付けられている顧客の場合。 この機能により、注文する商品の名前や SKU がわかっている場合の注文プロセスが数回のクリックに短縮されます。 また、会社アカウントの譲渡可能見積もりのサポートを設定することもできます。 B2B 機能について詳しくは、 [Adobe Commerce B2B ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## 買い物かご支援
 

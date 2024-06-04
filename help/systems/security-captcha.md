@@ -4,9 +4,9 @@ description: 登録ユーザーによって開始される管理者アクセス�
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ CAPTCHA は、コンピューター（または「ボット」）ではなく人
       - `Payflow Pro` （を参照） [セキュリティパッチ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _ナレッジベース_ 記事）
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）
-      - `Create company` ![Adobe Commerceの B2B](../assets/b2b.svg) （B2B でAdobe Commerceでのみ使用可能）
+      - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B でのみ使用可能）
 
    - を設定 **[!UICONTROL Displaying Mode]** を次のいずれかに変更します。
 

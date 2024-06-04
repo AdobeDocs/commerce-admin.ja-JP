@@ -1,11 +1,11 @@
 ---
-user-guide-title: 「[!DNL B2B for Adobe Commerce] ガイド」
+user-guide-title: 「[!DNL Adobe Commerce B2B] ガイド」
 user-guide-description: Adobe Commerceで利用できる統合 B2B 機能の使用方法を説明します。
-breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
+breadcrumb-title: "[!DNL Adobe Commerce B2B]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: 3b282f7ead80bb7b01046137c9c7127f92b8726c
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 6%
@@ -13,9 +13,9 @@ ht-degree: 6%
 ---
 
 
-# [!DNL B2B for Adobe Commerce] ガイド {#b2b}
+# [!DNL Adobe Commerce B2B] ガイド {#b2b}
 
-+ [[!DNL B2B for Adobe Commerce] ガイド](guide-overview.md)
++ [[!DNL Adobe Commerce B2B] ガイド](guide-overview.md)
 + [B2B 機能の概要](introduction.md)
 + [リリースノート](release-notes.md)
 + [インストール](install.md)

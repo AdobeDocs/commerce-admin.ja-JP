@@ -4,7 +4,7 @@ description: 共有カタログの作成と、既存の共有カタログの複�
 exl-id: 969c352c-ff88-4902-8347-334ee8b79afb
 feature: B2B, Companies, Catalog Management
 role: Admin
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 0%
@@ -131,7 +131,7 @@ ht-degree: 0%
 | フィールド | 説明 |
 |--- |--- |
 | [!UICONTROL Name] | 管理者全体、および共有カタログが使用可能な顧客アカウントで共有カタログを識別します。 カタログ名は、説明的で 32 文字以下にする必要があります。 同じ名前の 2 つの共有カタログを持つことはできません。 最大文字数：32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]**  – 割り当てられている特定の会社のみが使用できるカスタム価格のカタログを識別します。<br/>**[!UICONTROL Public]**– すべてのゲスト訪問者と、ログインした企業に関連付けられていない顧客が使用できる共有カタログを識別します。 デフォルトの公開共有カタログは、次の場合に作成されます [!DNL B2B for Adobe Commerce] はインストールされますが、ストア管理者が設定する必要があります。 一度に存在できる公開共有カタログは 1 つだけです。 |
+| [!UICONTROL Type] | **[!UICONTROL Custom]**  – 割り当てられている特定の会社のみが使用できるカスタム価格のカタログを識別します。<br/>**[!UICONTROL Public]**– すべてのゲスト訪問者と、ログインした企業に関連付けられていない顧客が使用できる共有カタログを識別します。 デフォルトの公開共有カタログは、次の場合に作成されます [!DNL Adobe Commerce B2B] はインストールされますが、ストア管理者が設定する必要があります。 一度に存在できる公開共有カタログは 1 つだけです。 |
 | [!UICONTROL Customer Tax Class] | カタログから行われた購入に使用する税クラスを決定します。 オプションには、使用可能なすべての税金クラスが含まれます。 |
 | [!UICONTROL Description] | カタログの使用方法の簡単な説明。 |
 

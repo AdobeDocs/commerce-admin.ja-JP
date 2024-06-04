@@ -3,9 +3,9 @@ title: 支払いの概要
 description: Adobe CommerceとMagento Open Sourceでネイティブにサポートされている支払い方法とサービスについて説明します。
 exl-id: 474bf6df-96e2-4db3-ad3c-1804b5de33b0
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe CommerceとMagento Open Sourceには、サードパーティの支払い�
 - [銀行振込による支払い](bank-transfer.md)
 - [小切手/送金](check-money-order.md)
 - [注文書](purchase-order.md)
-- [分割払い](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerceの B2B](../assets/b2b.svg) （Adobe Commerceの B2B で使用可能）
+- [分割払い](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能）
 
 ## オンライン支払方法
 

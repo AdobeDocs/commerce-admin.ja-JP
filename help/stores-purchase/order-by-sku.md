@@ -3,9 +3,9 @@ title: SKU で並べ替え
 description: 顧客の利便性を考慮して SKU での並べ替えをサポートするようにストアを設定する方法を説明します。
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
 feature: Orders, Storefront, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ _SKU で並べ替え_ が [ウィジェット](../content-design/widgets.md) す
 
 1. クリック **[!UICONTROL Save Config]**.
 
-![Adobe Commerceの B2B](../assets/b2b.svg) （B2B はAdobe Commerceのみ） _**「SKU で並べ替え」機能を有効にするには、「クイックオーダー」機能を無効にします。**_
+![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B のみ） _**「SKU で並べ替え」機能を有効にするには、「クイックオーダー」機能を無効にします。**_
 
 1. に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

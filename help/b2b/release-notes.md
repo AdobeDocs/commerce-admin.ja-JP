@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL B2B for Adobe Commerce] リリースノート'
-description: の変更点について詳しくは、リリースノートを参照してください [!DNL B2B for Adobe Commerce] 拡張機能リリース。
+title: '''[!DNL Adobe Commerce B2B] リリースノート'
+description: の変更点について詳しくは、リリースノートを参照してください [!DNL Adobe Commerce B2B] リリース。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
 workflow-type: tm+mt
-source-wordcount: '6852'
+source-wordcount: '6851'
 ht-degree: 0%
 
 ---
 
-# [!DNL B2B for Adobe Commerce] リリースノート
+# [!DNL Adobe Commerce B2B] リリースノート
 
 B2BAdobeのこれらのリリースノートでは、拡張機能がリリースサイクル中に追加した追加と修正をキャプチャしています。以下に例を示します。
 

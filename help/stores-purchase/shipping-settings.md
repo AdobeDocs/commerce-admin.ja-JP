@@ -3,9 +3,9 @@ title: 発送設定
 description: ストアの発送元と配送ポリシーを定義する配送設定の設定方法を説明します。
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -80,4 +80,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->![Adobe Commerceの B2B](../assets/b2b.svg) （Adobe Commerceの B2B）複数の配送先住所を持つ注文の場合、 [分割払い](../b2b/enable-basic-features.md#configure-payment-on-account) 有効になっている場合でも、支払い方法はチェックアウト時には使用できません。
+>![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B）複数の配送先住所を持つ注文の場合、 [分割払い](../b2b/enable-basic-features.md#configure-payment-on-account) 有効になっている場合でも、支払い方法はチェックアウト時には使用できません。

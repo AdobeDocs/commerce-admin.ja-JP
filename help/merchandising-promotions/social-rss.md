@@ -3,9 +3,9 @@ title: ソーシャルメディアと RSS フィード
 description: ソーシャルメディアやその他の RSS フィード統合を追加して、ブランドや製品の認知度を高める方法を説明します。
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 右上隅のをクリックします。 **[!UICONTROL Add Widget]** 次の手順を実行します。
 
-   - ![Adobe Commerceの B2B](../assets/b2b.svg) （B2B でAdobe Commerceでのみ使用可能）で、 _設定_ セクション、設定 **[!UICONTROL Type]** 対象： `CMS Static Block` をクリックして、 **[!UICONTROL Continue]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B でのみ使用可能） _設定_ セクション、設定 **[!UICONTROL Type]** 対象： `CMS Static Block` をクリックして、 **[!UICONTROL Continue]**.
 
    - を確認します。 **[!UICONTROL Design Theme]** 現在のテーマに設定されます。
 

@@ -1,9 +1,9 @@
 ---
 title: スニペット
 description: 特定のエディションに適用される機能またはページをメモするための再利用されたメモと視覚的要素
-source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 ## B2B のみの機能 {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce機能の B2B" src="../assets/b2b.svg" width="20" height="20" /> 専用機能は次の製品でのみ使用可能： <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">Adobe Commerceの B2B</a></td></tr>
+<tr><td><img alt="Adobe Commerce B2B 機能" src="../assets/b2b.svg" width="20" height="20" /> 専用機能は次の製品でのみ使用可能： <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">Adobe Commerce B2B</a></td></tr>
 </table>
 
 ## CE のみの機能 {#ce-feature}

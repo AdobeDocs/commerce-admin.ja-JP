@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Quotes]'
 description: の設定を確認します。 [!UICONTROL Sales] &gt; [!UICONTROL Quotes] コマース管理者のページ。
 exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
 feature: Configuration, Quotes
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
->Adobe Commerceの B2B をインストールして有効化すると、会社固有の機能を使用して購入エクスペリエンスをパーソナライズできます。 Adobe Commerceの B2B は、B2B モデルと B2C モデルの両方をサポートする統合ソリューションです。 B2B 機能について詳しくは、 [Adobe Commerceの B2B ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Adobe Commerce B2B をインストールして有効化すると、会社固有の機能を使用して購入体験をパーソナライズできます。 Adobe Commerce B2B は、B2B モデルと B2C モデルの両方をサポートする統合ソリューションです。 B2B 機能について詳しくは、 [Adobe Commerce B2B ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 {{config}}
 

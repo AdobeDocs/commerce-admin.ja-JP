@@ -2,9 +2,9 @@
 title: '[!UICONTROL Catalog] メニュー'
 description: の使用 [!UICONTROL Catalog] メニューから、製品作成、カテゴリおよび在庫管理ツールにアクセスできます。
 exl-id: cfb163d6-eccc-4ab9-bd19-37c611abbc78
-source-git-commit: f36925217230e558043078fdc274f5e69c096c1e
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,6 @@ ht-degree: 0%
 
 ## [!UICONTROL Shared Catalogs]
 
-Adobe Commerceの B2B がインストールされて有効になっているストアの場合、 [共有カタログ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) を使用すると、様々な会社がカスタム価格を利用できるようになります。
+Adobe Commerce B2B がインストールされ、有効になっているストアの場合、 [共有カタログ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) を使用すると、様々な会社がカスタム価格を利用できるようになります。
 
 ![共有カタログ製品](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

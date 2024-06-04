@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
 description: の設定を確認します。 [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] コマース管理者のページ。
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerceの B2B をインストールして有効化すると、会社固有の機能を使用して購入エクスペリエンスをパーソナライズできます。 Adobe Commerceの B2B は、B2B モデルと B2C モデルの両方をサポートする統合ソリューションです。 B2B 機能について詳しくは、 [Adobe Commerceの B2B ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Adobe Commerce B2B をインストールして有効化すると、会社固有の機能を使用して購入体験をパーソナライズできます。 Adobe Commerce B2B は、B2B モデルと B2C モデルの両方をサポートする統合ソリューションです。 B2B 機能について詳しくは、 [Adobe Commerce B2B ユーザーガイド](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!NOTE]
 >
 >B2B 機能に対するこれらの設定オプションへのアクセスは、 [役割リソース](../../systems/permissions-user-roles.md#role-resources). これらのロールリソースは、管理者ユーザーに割り当てられたユーザーロール用に設定される必要があります。
 
-これらの設定の詳細については、を参照してください。 [基本的な B2B 機能の有効化](../../b2b/enable-basic-features.md) が含まれる _Adobe Commerceの B2B ユーザーガイド_.
+これらの設定の詳細については、を参照してください。 [基本的な B2B 機能の有効化](../../b2b/enable-basic-features.md) が含まれる _Adobe Commerce B2B ユーザーガイド_.
 
 ## [!UICONTROL General]
 
