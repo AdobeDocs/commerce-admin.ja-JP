@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
+source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -370,7 +370,7 @@ Real-Time CDP オーディエンスがCommerceに表示されない場合は、�
 1. システム管理者にAdobe Experience Platformを起動してもらい、次の URL に移動します。 **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
 1. 上記のテクニカルアカウントのメールを使用して、変更する資格情報を検索します。
 1. 資格情報を開いてから、 **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
-1. 追加 **実稼動のすべてのアクセス**.
+1. 次を含む役割を追加 **[!UICONTROL Manage destinations]** 権限。
 1. クリック **[!UICONTROL Save]**.
 1. [再生成](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) コンソールのアクセストークン。
 1. トークンが、 [ターゲット接続 API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).
