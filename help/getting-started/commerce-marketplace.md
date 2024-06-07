@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: について説明します [!DNL Commerce Marketplace]は、マーチャントに厳選されたソリューションを提供し、適格な開発者に活発なビジネスを構築するためのツール、プラットフォーム、主要な場所を提供します。
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 1a5a00493e9994343c7decc763f2decdd11192c7
+source-git-commit: 02e7c71fc47e6850371bfbdc1be50f65ec8015e9
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -24,14 +24,14 @@ ht-degree: 0%
 
 次のリソースは、新規採用者がアプリを習熟するための出発点となります。
 
-### Commerce リソース：
+### Commerce リソース
 
 - [Adobe Commerceの I/O イベントの設定](https://developer.adobe.com/commerce/extensibility/events/)
 - [Adobe Commerceのイベントの設定](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
 - [管理 UI SDK のセットアップ](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [拡張機能のアプリへの変換](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
-### App Builder リソース：
+### App Builder リソース
 
 - [Commerce App Builder の概要](https://developer.adobe.com/commerce/extensibility/app-development/)
 - [Adobe Developer App Builder の API メッシュの設定](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
@@ -85,11 +85,55 @@ ht-degree: 0%
 
 ## サポート
 
-拡張機能のインストールや使用に関するヘルプが必要な場合は、まず拡張機能に付属するドキュメントを参照してください。 質問の回答が見つからない場合は、拡張機能リストの連絡先情報を使用して、開発者に直接問い合わせてください。
+拡張機能のインストールや使用に関するヘルプが必要な場合は、まず拡張機能に付属するドキュメントを参照してください。 質問の回答が見つからない場合は、拡張機能リストの連絡先情報を使用して、開発者に直接問い合わせてください。 Marketplace で購入したものがニーズを満たさない場合は、次のことができます [払い戻しを請求する](#refund-requests) 購入日から 25 日以内。 Adobeは、すべての払い戻しリクエストを確認し、（承認された場合は）適切な払い戻しを発行します。 Commerce Marketplaceに関するサポートの問題については、を参照してください。 [[!DNL Marketplace] ヘルプセンター][5].
 
-Commerce Marketplaceで購入したものがニーズを満たさない場合は、購入日から 25 日以内に払い戻しをリクエストできます。 Adobeはすべての返金リクエストを確認し、承認された場合は適切な返金を行います。
+### チェックアウトの問題
 
-Commerce Marketplaceに関するサポートの問題については、を参照してください。 [[!DNL Marketplace] ヘルプセンター][5].
+アカウントプロファイルのアドレスフィールドは、マーケットプレイス購入システムで検証するために入力する必要があります。
+
+1. Marketplace アカウントプロファイルにアドレスフィールドを追加します。
+1. 更新したプロファイルを保存します。
+1. チェックアウトを続行します。
+
+### ログインに関する問題
+
+ログインの問題は、通常、MAGEID とアカウントデータベースのメールアドレスの不一致に関連しています。 サポートが必要な場合は、Marketplace サポートにお問い合わせください。
+
+>[!INFO]
+>
+>アプリと拡張機能の購入は、次の場合に実行できません [転送](#purchase-transfers) 新しいアカウントに追加します。
+
+### オープンソースの質問
+
+Marketplace サポートチームが、に関連する問題を解決します [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) および [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) サイトのみ。 Magento Open Sourceに関するご質問は、までお願いいたします。 [コミュニティフォーラム](https://community.magento.com/) または [パートナーに連絡する](https://business.adobe.com/products/magento/partners.html) 誰がMagento Open Sourceを支援することができます。
+
+### 払戻要求
+
+Marketplace での購入に対する返金をリクエストするには、アカウントにログインし、次の手順に従います。
+
+1. クリック [!UICONTROL **マイプロファイル**] > [!UICONTROL **購入履歴**].
+1. 購入した製品を見つけて、 [!UICONTROL **払い戻しを請求する**].
+1. 払い戻し注文フォームに入力します。
+
+Marketplace サポートは、払い戻しリクエストが生成された後、情報をリクエストします。 払い戻しオプションは、購入日から 25 日間ご利用いただけます。 を参照してください。 [Marketplace 顧客契約](https://www.adobe.com/legal/terms/enterprise-licensing/magento-legacy-terms.html).
+
+### 請求書の注文
+
+から注文請求書をダウンロードできます [!UICONTROL **購入履歴**] を Marketplace アカウントに追加してください。 この請求書は、現時点では Marketplace の要件ではないため、販売者の VAT または住所を提供しません。
+
+Marketplace での購入に対する注文請求書をダウンロードするには、Marketplace アカウントにログインして、次の手順に従います。
+
+1. クリック [!UICONTROL **マイプロファイル**] > [!UICONTROL **購入履歴**].
+1. 購入を見つけます。
+1. 注文の右上隅にあるプリンタアイコンをクリックします。
+
+### 購買転送
+
+Marketplace サポート チームには、購入を別のアカウントに転送する機能がありません。 インストールとデプロイメントの問題を回避するには、プライマリ Commerce アカウントですべてのアプリと拡張機能を購入する必要があります。 Adobe Commerceには、1 つの一意の ID が付与されます。 Composer はインストールに使用されるため、 [アクセスキー](#create-an-access-key) プライマリアカウントに関連付けられているを使用できます。 唯一の解決策は、次の方法です [払い戻しを請求する](#refund-requests) マーケットプレイスの購入アカウントから（Adobe Commerceの返金ポリシーで許可されている場合）。
+
+次のことができます [share](commerce-account-share.md) プライマリアカウントを使用したCommerce インスタンス。 共有アクセスでは、プライマリ・アカウントから下位アカウントに特別な権限が付与されます。 共有アクセス ポイントはプライマリ アカウントから生成されます。 プライマリ口座は、Commerceの権限付き口座、メインのマーチャントアカウント、組織内で共有される口座のいずれかです。
+
+これらの特別な権限により、Adobe Commerceにプライマリと同じレベルのアクセス権が付与されますが、Adobe Commerce Marketplace や開発者ポータルには引き継がれません。 つまり、Marketplace の下位アカウントから拡張機能を購入しても、プライマリアカウントと共有することはできません。 共有アクセスは一方通行の通りです（従属するプライマリ アカウント）。 下位アカウントがプライマリに共有しようとする場合は機能しません。
 
 [1]: https://marketplace.magento.com/
 [2]: https://www.paypal.com/us/home
