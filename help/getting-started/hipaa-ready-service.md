@@ -1,12 +1,12 @@
 ---
 title: Adobe Commerceに対する HIPAA 対応
-description: Adobe Commerce HIPAA 対応の拡張機能を追加し、HIPAA の義務に準拠できるその他の機能を取得する方法について説明します。
+description: Adobe Commerce HIPAA 対応拡張機能を追加し、HIPAA 義務を準拠できる追加機能を取得する方法について説明します。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
 source-git-commit: b7ce092f843992b1e4d0ca23981c70d854ded5f9
 workflow-type: tm+mt
 source-wordcount: '1570'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
