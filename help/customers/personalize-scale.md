@@ -3,9 +3,9 @@ title: 魅力的でパーソナライズされたエクスペリエンスを大�
 description: Adobeの機能について説明します [!DNL Commerce] を使用すると、買い物客向けにパーソナライズされたエクスペリエンスを作成できます。
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
-source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
+source-git-commit: 728a1fdb413009a00377cd8205dde93cd4feadc8
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1808'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,22 @@ Adobe [!DNL Commerce] データ共有には、次の 2 つの主要なコンポ�
 
 1. [[!DNL Audience Activation]](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)：を使用 [!DNL Real-Time CDP] オーディエンス :Adobe上の動的コンテンツブロック、プロモーションおよび関連する製品ルールをパーソナライズします [!DNL Commerce] サイト。
 
+### あらゆるチャネルにわたって規模に応じてパーソナライズされたストアフロントエクスペリエンス
+
+Adobe [!DNL Commerce] という高性能ストアフロントを活用できる [Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/)を使用すると、コアに AI 機能を搭載し、基盤として迅速に対応しながら、すべてのチャネルにわたってパーソナライズされたエクスペリエンスを提供できます。
+
+Edge Delivery Servicesを使用すると、次のことができます。
+
+- **パーソナライズされたコンテンツの作成**：エクスペリエンスを大規模にパーソナライズするには、ドキュメントベースのオーサリング、生成 AI テキストおよび画像バリエーションのネイティブ実験を使用します。 アセットとジェネレーティブ AI コンテンツ作成を使用して、製品およびマーケティング画像を大規模に生成します。
+
+- **バリエーションを生成**：コンテンツ作成者がジェネレーティブ AI を使用して、パーソナライズされた AI 駆動型のコンテンツを大量に作成できるようにします [テキストコンテンツと画像バリエーション](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/generative-ai/generate-variations) Adobe Fireflyで。
+
+- **Edge Delivery Services ストアフロントを介したデプロイ**：ドロップインコンポーネントを活用した Edge およびCommerce上のコンテンツで、オーディエンス向けにカスタムのショッパブルエクスペリエンスを作成します。
+
+- **CommerceとAdobe Experience Manager Assets**：大規模なジェネレーティブ AI 製品アセットの作成とバリエーション。 任意のチャネルをまたいだコンテンツ配信を作成、配信、監視します。
+
+![ドロップダウン：製品詳細ページ](assets/drop-in.png){width="700" zoomable="yes"}
+
 ### 標準のパーソナライゼーション：ネイティブAdobeの概要 [!DNL Commerce] の機能
 
 Adobe [!DNL Commerce] は、すぐに使用できるネイティブの機能で、強力なパーソナライゼーションを提供します。 以下の表で説明します [!DNL Commerce] の機能を即座にアクティベートして、パーソナライゼーションジャーニーを開始できます。
@@ -90,7 +106,7 @@ Adobe [!DNL Commerce] お客様は、標準搭載の機能を使用し、様々�
 
 | ユースケース | 解決策 |
 |---|---|
-| **パーソナライズされたサイトコンテンツ** - サイトのバナーやその他のページコンテンツを、買い物客のアクション（製品の参照やカテゴリへの親和性など）に基づいてパーソナライズします。 A/B テストの結果やビジネス目標に基づいて、最適なコンテンツをデプロイします。 | **Adobe [!DNL Commerce] のみ**:<br>セグメント固有のデプロイ [動的コンテンツブロック](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] （Real-Time CDPを使用）**:<br>使用方法 [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) Real-Time CDPでプロファイルとオーディエンスを一元的に管理しながら、リアルタイムのアクションおよび統合された顧客プロファイルデータに対応する、オーディエンス固有の動的コンテンツブロックをデプロイする場合。<br>**[!DNL Commerce] （を使用）[!DNL Target]**:<br>Adobeを使用して、コンテンツ、ナビゲーション項目、フルページレイアウトなど、サイトエクスペリエンスのあらゆる部分をパーソナライズします [!DNL Commerce] Adobe内のデータ [!DNL Target]. コンテンツの A/B テストを行い、顧客ごとに勝者コンテンツを自動的に選択してデプロイします。<br>**[!DNL Commerce] （AEM Assetsを使用）**:<br>コンテンツをすべてAdobe Experience Manager Assetsに保存します。 Adobe Commerce内からそのコンテンツにネイティブにアクセスします。 GenAI を使用して、コンテンツのバリエーションを作成し、様々なセグメントやオーディエンス向けにパーソナライズします。 |
+| **パーソナライズされたサイトコンテンツ** - サイトのバナーやその他のページコンテンツを、買い物客のアクション（製品の参照やカテゴリへの親和性など）に基づいてパーソナライズします。 A/B テストの結果やビジネス目標に基づいて、最適なコンテンツをデプロイします。 | **Adobe [!DNL Commerce] のみ**:<br>セグメント固有のデプロイ [動的コンテンツブロック](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] （Real-Time CDPを使用）**:<br>使用方法 [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) Real-Time CDPでプロファイルとオーディエンスを一元的に管理しながら、リアルタイムのアクションおよび統合された顧客プロファイルデータに対応する、オーディエンス固有の動的コンテンツブロックをデプロイする場合。<br>**[!DNL Commerce] （を使用）[!DNL Target]**:<br>Adobeを使用して、コンテンツ、ナビゲーション項目、フルページレイアウトなど、サイトエクスペリエンスのあらゆる部分をパーソナライズします [!DNL Commerce] Adobe内のデータ [!DNL Target]. コンテンツの A/B テストを行い、顧客ごとに勝者コンテンツを自動的に選択してデプロイします。<br>**[!DNL Commerce] （AEM Assetsを使用）**:<br>コンテンツをすべてAdobe Experience Manager Assetsに保存します。 Adobe Commerce内からそのコンテンツにネイティブにアクセスします。 ジェネレーティブ AI を使用して、コンテンツのバリエーションを作成し、様々なセグメントやオーディエンスに合わせてパーソナライズします。 |
 | **行動に基づいてパーソナライズされたオンサイトオファー**  – 製品の閲覧やカテゴリへの親和性など、買い物客のアクションに基づいてプロモーションをパーソナライズします。 A/B テストの結果やビジネス目標に基づいて、次善のオファーをデプロイします。 | **Adobe [!DNL Commerce] のみ**:<br>セグメント固有のカタログのデプロイ [買い物かご価格ルール](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart).<br>**Adobe [!DNL Commerce] （Real-Time CDPを使用）**:<br>使用方法 [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) Real-Time CDPでプロファイルやオーディエンスを一元的に管理しながら、オーディエンス固有のオファーをデプロイします。<br>**とのCommerce[!DNL Target]**:offer decisioningを使用して、Adobe Commerceにデプロイされたオファーをガイドするために、デプロイするオファー、A/B テストまたはビジネス目標を決定します。 |
 
 ### 分析とインサイト
