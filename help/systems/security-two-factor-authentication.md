@@ -4,9 +4,9 @@ description: システムとデータのセキュリティを確保するため�
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: c391a3eef8be0dd45cc8a499b63bcb0fc32640aa
+source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,11 @@ Adobe Commerceは、複数のプロバイダーの 2FA メソッドをサポー�
 
 ログイン時にワンタイムパスワード（OTP）を使用できる期間を変更するには、 **[!UICONTROL Use system value]** チェックボックス。 次に、秒数を **[!UICONTROL OTP Window]** が有効である。
 
+![セキュリティ設定 – Google](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
+
 >[!NOTE]
 >
->Adobe Commerce 2.4.7 以降では、管理者のワンタイムパスワード（OTP）の有効期限が切れた後に、システムが OTP ウィンドウ設定を受け入れる時間（秒単位）を制御します。 この値は 30 秒未満にする必要があります。 システムのデフォルト設定はです。 `1`.<br><br> バージョン 2.4.6 では、OTP ウィンドウの設定によって、有効な過去および未来の OTP コードの数が決まります。 値 `1` 現在の OTP コードに、過去と未来の 1 つのコードを加えたものが、任意の時点で有効であることを示します。
+>Adobe Commerce 2.4.7 以降では、管理者のワンタイムパスワード（OTP）の有効期限が切れた後に、システムが OTP ウィンドウ設定を受け入れる時間（秒単位）を制御します。 この値は 30 秒未満にする必要があります。 システムのデフォルト設定はです。 `29`.<br><br> バージョン 2.4.6 では、OTP ウィンドウの設定によって、有効な過去および未来の OTP コードの数が決まります。 値 `1` 現在の OTP コードに、過去と未来の 1 つのコードを加えたものが、任意の時点で有効であることを示します。
 
 ### [!DNL Duo Security]
 

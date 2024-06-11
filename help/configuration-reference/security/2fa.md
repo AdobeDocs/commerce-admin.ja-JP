@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: の設定を確認します。 [!UICONTROL Security] &gt; [!UICONTROL 2FA] コマース管理者のページ。
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL OTP Window] | グローバル | Google Authenticator によって生成された各ワンタイムパスワード （OTP）の有効期間（秒）。 デフォルト： `30` |
+| [!UICONTROL OTP Window] | グローバル | 管理者のワンタイムパスワード（OTP）の有効期限が切れてから、システムがその OTP を受け入れる時間（秒）を決定します。 単一の OTP の有効期間（通常は 30 秒）よりも長くすることはできません。 デフォルト： `29` |
 
 {style="table-layout:auto"}
 
