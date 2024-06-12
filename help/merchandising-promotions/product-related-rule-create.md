@@ -3,9 +3,9 @@ title: 関連製品ルールの作成
 description: トリガーして、関連製品、アップセル、クロスセルを表示できる、関連製品ルールを作成する方法を説明します。
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
+source-git-commit: cea943cd7f4d148c885fbd113c3bc08bfdf63ea0
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    - ルールが特定のに適用される場合 [顧客セグメント](../customers/customer-segments.md)、設定 **[!UICONTROL Customer Segments]** 対象： `Specified` リストから顧客セグメントを選択します。
 
-   - （**ベータ版**）を選択します（ルールが特定のに適用される場合） [Real-Time CDP オーディエンス](../customers/audience-activation.md)、設定 **[!UICONTROL Real-Time CDP Audience]** 対象： `Specified` リストからReal-Time CDP オーディエンスを選択します。 この機能はベータ版です。 ベータ版プログラムへの参加を希望される場合は、以下にリクエストを送信します。 [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+   - ルールが特定のに適用される場合 [Real-Time CDP オーディエンス](../customers/audience-activation.md)、設定 **[!UICONTROL Real-Time CDP Audience]** 対象： `Specified` リストからReal-Time CDP オーディエンスを選択します。 この機能はベータ版です。 ベータ版プログラムへの参加を希望される場合は、以下にリクエストを送信します。 [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
 
      ![関連製品ルール - Real-Time CDP オーディエンス](./assets/rtcdp-related-products.png){width="500"}
 

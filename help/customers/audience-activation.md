@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
+source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _2023 年 5 月 30 日（Pt）_
 ![新規](../assets/new.svg)  – が更新されました [Real-Time CDP Audiences ダッシュボード](#real-time-cdp-audiences-dashboard) Adobe Commerce インスタンス内のアクティブなオーディエンスを並べ替え、検索およびフィルタリングする機能を含めることができます。
 
 +++
+
+### 2.2.0
+
+[!BADGE 互換性]{type=Informative tooltip="互換性"}
+
+_2024 年 6 月 12 日（Pt）_
+
+![新規](../assets/new.svg)  – の一般公開（GA）リリース [関連する製品ルール](../merchandising-promotions/product-related-rule-create.md) オーディエンス別に表示
 
 ### 2.1.1
 
@@ -172,9 +180,11 @@ composer require magento/audiences
 
 - [買い物かご価格ルールの作成](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) オーディエンス別に表示
 - [ダイナミック ブロックを作成する](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) オーディエンス別に表示
-- [（**ベータ版**）関連製品ルールを作成します](../merchandising-promotions/product-related-rule-create.md) オーディエンス別に表示
+- [関連製品ルールの作成](../merchandising-promotions/product-related-rule-create.md) オーディエンス別に表示
 
-書き出し方法に関する完全なエンドツーエンドのユースケースについては、こちらを参照してください [!DNL Commerce] Real-Time CDPにデータを送信してオーディエンスを作成したあと、そのオーディエンスを次に対してアクティブ化します [!DNL Commerce]を参照してください [を使用した、Real-Time CDPでのオーディエンスの作成 [!DNL Commerce] イベントデータ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+>[!TIP]
+>
+>書き出し方法に関する完全なエンドツーエンドのユースケースについては、こちらを参照してください [!DNL Commerce] Real-Time CDPにデータを送信してオーディエンスを作成したあと、そのオーディエンスを次に対してアクティブ化します [!DNL Commerce]を参照してください [を使用した、Real-Time CDPでのオーディエンスの作成 [!DNL Commerce] イベントデータ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## Real-Time CDP オーディエンスダッシュボード
 
@@ -195,6 +205,7 @@ composer require magento/audiences
 | `Websites` | オーディエンスを使用するように設定されている web サイトを示します。 |
 | `Dynamic Blocks` | オーディエンスを使用するように設定されている動的ブロックを示します。 |
 | `Cart Price Rules` | オーディエンスを使用するように設定されている買い物かご価格ルールを示します。 |
+| `Related Product Rules` | オーディエンスを使用するように設定されている関連製品ルールを示します。 |
 | `Last updated` | オーディエンスがReal-Time CDPで変更された日時を示します。 |
 | `Sync now` | 新規オーディエンスまたは更新されたオーディエンスをReal-Time CDPから取得します。 |
 | `Customize table` | を表示または非表示にできます `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`、および `Last updated` 列。 |
