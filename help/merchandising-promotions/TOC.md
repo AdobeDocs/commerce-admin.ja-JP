@@ -4,9 +4,9 @@ user-guide-description: Adobe CommerceとMagento Open Sourceには、売上の�
 breadcrumb-title: マーチャンダイジングとプロモーション
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: f9d1f66f8fb8d5c00bfa298234ab22becec33f56
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
@@ -87,3 +87,5 @@ ht-degree: 1%
    - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
    - [Google コンテンツ実験](google-content-experiments.md)
+- [Merchant Guides に戻る](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

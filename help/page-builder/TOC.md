@@ -5,9 +5,9 @@ breadcrumb-title: "[!DNL Page Builder]"
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-source-git-commit: addc34aeb4418aa3a1a9c2fc3adca738352ef94f
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '80'
 ht-degree: 2%
 
 ---
@@ -46,3 +46,5 @@ ht-degree: 2%
    - [製品](products.md)
    - [製品のRecommendations](recommendations.md)
 - [テンプレート](templates.md)
+- [Merchant Guides に戻る](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

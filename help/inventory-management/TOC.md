@@ -4,9 +4,9 @@ user-guide-description: の使用方法を学ぶ [!DNL Inventory Management] 販
 breadcrumb-title: "[!DNL Inventory Management]"
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '137'
 ht-degree: 5%
 
 ---
@@ -58,3 +58,5 @@ ht-degree: 5%
    - [概要](shipments.md)
    - [出荷の作成](shipments-create.md)
 - [CLI リファレンス](cli.md)
+- [Merchant Guides に戻る](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+
