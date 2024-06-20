@@ -3,9 +3,9 @@ title: データ管理ダッシュボード
 description: のデータストリームに関するインサイトにアクセスする方法を説明します [!DNL Catalog Service], [!DNL Live Search]、および [!DNL Product Recommendation]s.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: 13f47c8dccb98a721924df716ae0793db6889f3a
+source-git-commit: e883a678885aefaf832cece431e458c5d7741c40
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,10 @@ Commerce データベース内の商品を更新すると、商品データは�
 >同期の完了に要する時間は、カタログのサイズと更新されたデータの量に応じて異なります。
 
 処理された製品の数が更新された製品の数と一致する場合は、同期が完了したことを示しています。
+
+>[!NOTE]
+>
+>また、Adobeは、コマンドラインインターフェイスとシステムログも提供します。これらのログは、開発者とシステムインテグレーターがCommerce SaaS サービスの同期処理の管理とトラッキング、エラーのトラブルシューティングに使用できます。 詳しくは、を参照してください [SaaS データ エクスポート ガイド](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ### 同期された製品のリスト
 
