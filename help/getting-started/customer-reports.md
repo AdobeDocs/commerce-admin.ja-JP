@@ -3,10 +3,10 @@ title: 顧客レポート
 description: Adobe CommerceとMagento Open Sourceで使用できる顧客レポートでは、指定した期間または日付範囲における顧客のアクティビティに関するインサイトを得ることができます。
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: a530d74f8d073f834f310826562407b8f949f17b
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,8 +41,8 @@ ht-degree: 1%
 | [!UICONTROL Interval] | 注文の合計間隔（） `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | 注文を行った顧客の名前。 |
 | [!UICONTROL Orders] | 指定した期間の注文数。 |
-| [!UICONTROL Average] | 平均注文額。 |
-| [!UICONTROL Total] | 期間のすべての注文の合計。 |
+| [!UICONTROL Average] | 平均注文額。 この金額は常に製品価格に対して計算されます **税別** カタログ商品価格であっても、注文の小計と合計には税金が含まれます。 その結果、このレポートに表示される金額は、受注合計に税金が含まれる場合の受注詳細に表示される金額とは異なります。 |
+| [!UICONTROL Total] | 期間のすべての注文の合計。 この金額は常に製品価格に対して計算されます **税別** カタログ商品価格であっても、注文の小計と合計には税金が含まれます。 その結果、このレポートに表示される合計額は、受注合計に税金が含まれる場合の受注詳細に表示される金額とは異なります。 |
 
 {style="table-layout:auto"}
 
@@ -73,8 +73,8 @@ ht-degree: 1%
 | [!UICONTROL Interval] | 順序数の間隔 `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | 注文を行った顧客。 |
 | [!UICONTROL Orders] | 指定した期間の注文数。 |
-| [!UICONTROL Average] | 平均注文額。 |
-| [!UICONTROL Total] | 期間のすべての注文の合計。 |
+| [!UICONTROL Average] | 平均注文額。 この金額は常に製品価格に対して計算されます **税別** カタログ商品価格であっても、注文の小計と合計には税金が含まれます。 その結果、このレポートに表示される金額は、受注合計に税金が含まれる場合の受注詳細に表示される金額とは異なります。 |
+| [!UICONTROL Total] | 期間のすべての注文の合計。 この金額は常に製品価格に対して計算されます **税別** カタログ商品価格であっても、注文の小計と合計には税金が含まれます。 その結果、注文合計にタグが含まれている場合、レポートに表示される合計は注文の詳細に表示される金額とは異なります。 |
 
 {style="table-layout:auto"}
 
