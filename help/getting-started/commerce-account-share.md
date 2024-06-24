@@ -3,9 +3,9 @@ title: を共有 [!DNL Commerce] アカウント
 description: に制限付きアクセスを付与する方法を説明します [!DNL Commerce] その他のアカウント [!DNL Commerce] 口座名義人。
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 1bf75814ed292a4623b934910026f9fb127058be
+source-git-commit: ec634ebedd43b8bbc6b4a3e5079035b055740f2d
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,10 @@ ht-degree: 0%
    新しいユーザー情報がに表示されます _[!UICONTROL Manage Permissions]_共有アクセスページの「」セクションと、共有アカウントへのアクセス手順を記載した電子メール招待状が新しいユーザーに送信されます。
 
    ![共有アクセスの権限管理](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>へのアクセスを共有する必要はありません _[!UICONTROL Security Tool]_- MAGE ID を持つユーザーは誰でも、自分のアカウントでセキュリティスキャンツールをセットアップできます。 サイトに変更を加えたり、次のいずれかを使用してドメインの所有権を検証したりするために必要な権限だけです。 [必要なメソッド](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)）に設定します。
 
 ## 共有アカウントへのアクセス
 
