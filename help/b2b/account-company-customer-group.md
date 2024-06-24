@@ -4,9 +4,9 @@ description: Adobe Commerce ストアの会社アカウントに顧客グルー�
 exl-id: fba3c17e-95df-4e9e-84b8-67409c6da72d
 feature: B2B, Companies, Configuration, Customers
 role: Admin, User
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: a5a8da076d6cd91eb6c3e573fec5b3fb9d2d3341
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ ht-degree: 0%
    >この [!UICONTROL Customer Group] 設定で共有カタログが無効になっている場合でも、リストには既存の共有カタログがすべて含まれます。
 
    会社に割り当てられている顧客グループを変更すると、すべての会社メンバーのプロファイルが更新されます。
+
+   >[!NOTE]
+   >
+   >会社グループを変更した後、会社のユーザーはログアウトしてストアフロントにログインして、カタログに新しい価格を表示する必要があります。
 
    ![顧客グループまたは共有カタログの変更](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 

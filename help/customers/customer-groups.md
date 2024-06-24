@@ -3,9 +3,9 @@ title: 顧客グループ
 description: 顧客グループを使用して、グループに割り当てられた顧客と、そのグループに関連付けられている税区分に使用可能な割引を決定します。
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 805ceef0fe67c1ed2a4fbd06e6f02d9ad252ecef
+source-git-commit: c2fd228311a4b990be9c1409d2cdd2b5677fe2af
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,10 @@ ht-degree: 0%
 1. 完了したら、 **[!UICONTROL Save Customer Group]**.
 
 ## 顧客を別のグループに割り当てる
+
+>[!NOTE]
+>
+>会社グループを変更した後、会社のユーザーはログアウトしてストアフロントにログインして、カタログに新しい価格を表示する必要があります。
 
 1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
