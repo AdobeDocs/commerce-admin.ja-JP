@@ -3,9 +3,9 @@ title: '"設定 [!DNL Inventory Management]“'
 description: 設定について説明します [!DNL Inventory Management] ソースの可用性、ストアフロント製品および注文出荷を決定するオプション。
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL Allow Multiple Boxes for Shipping] | 製品の一部を個別に出荷できるかどうかを決定します。 このオプションは、次の場合に表示されます **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | バックオーダーが許可されているかどうかを示します。 ソースのレベルで指定され、割り当てられたソースに基づいて在庫レベルで計算されます。 バックオーダーを許可する場合は、在庫切れのしきい値に負の値を設定します（ [バックオーダーの設定](backorders.md)）をお勧めします。 オプション：<br />**[!UICONTROL No Backorders]**：商品の在庫切れ時にバックオーダーを受け付けません。<br />**[!UICONTROL Allow Qty Below 0]**：数量がゼロを下回った場合にバックオーダーを受け入れます。<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**：数量がゼロを下回った場合はバックオーダーを受け入れますが、オーダーを発注できる旨を顧客に通知します。 |
 | [!UICONTROL Notify for Quantity Below] | 低在庫を警告する「数量未満」のトリガーを示す数量を設定します。 この金額は、在庫数量からではなく、販売可能数量から差し引かれます。 |
-| [!UICONTROL Enable Qty Increments] | 製品を数量単位で販売できるかどうかを決定します。 有効化されている場合は、増分手順で購入する必要がある製品の数量を入力します。 |
+| [!UICONTROL Enable Qty Increments] | 製品を数量単位で販売できるかどうかを決定します。 有効化されている場合は、増分手順で購入する必要がある製品の数量を入力します。 増分は、1 つの製品として、また設定可能な製品、グループ化された製品およびバンドル製品の子として購入する必要がある製品項目の数を設定します。 |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | [!DNL Inventory Management] はこの値を使用しません。 返品またはクレジット・メモを完了すると、製品数量は影響を受けるソース数量に自動的に返品されます。 参照： [製品オプションの設定](product-options.md). |
 
 ## 設定のフォールバックと継承

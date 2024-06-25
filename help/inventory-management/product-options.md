@@ -3,9 +3,9 @@ title: '"設定 [!DNL Inventory Management] 製品オプション」'
 description: を設定する方法を説明します [!DNL Inventory Management] 製品の設定オプション。
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
-source-git-commit: ccd93a54b6fa23a7a54fb423f8232c72cd8fe027
+source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,8 @@ ht-degree: 0%
 
    例えば、6 ずつ増分して販売される商品は、6、12、18 などの数量で購入できます。
 
+   **[!UICONTROL Qty Increments]** フィールドは、1 つの製品として、また設定可能な製品、グループ化された製品およびバンドル製品の子として購入する必要がある製品項目の数を設定します。
+
 1. 完了したら、 **[!UICONTROL Done]** その後 **[!UICONTROL Save]**.
 
 ### フィールドの説明
@@ -113,7 +115,7 @@ ht-degree: 0%
 | [!UICONTROL Qty Uses Decimals] | グローバル | 顧客が注文数量を入力する際に、整数ではなく小数値を使用できるかどうかを決定します。 オプション：<br />`Yes`  – 値を整数ではなく小数として入力できます。 小数は、重量、体積、長さで販売される製品に適しています。<br />`No`  – 数量値を整数として入力する必要があります。 |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | グローバル | 製品の一部を個別に出荷できるかどうかを決定します。 このオプションは、次の場合に表示されます **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | グローバル | バックオーダーの管理方法を決定します。 バックオーダーによってオーダーの処理ステータスが変更されることはありません。 ファンドは、商品が在庫しているかどうかに関係なく、注文が行われるとすぐに承認または取得されます。 製品は出荷され次第、出荷されます。 有効にする場合は、在庫切れのしきい値に負の値を入力することをお勧めします。 オプション：<br/>`No Backorders`  – 商品の在庫切れ時にバックオーダーを受け付けません。<br />`Allow Qty Below 0`  – 数量がゼロを下回った場合にバックオーダーを受け入れます。<br />`Allow Qty Below 0 and Notify Customer`  – 数量がゼロを下回った場合はバックオーダーを受け入れますが、オーダーは引き続き発注可能であることを顧客に通知します。 |
-| [!UICONTROL Enable Qty Increments] | グローバル | 製品を数量単位で販売できるかどうかを決定します。 |
+| [!UICONTROL Enable Qty Increments] | グローバル | 製品を数量単位で販売できるかどうかを決定します。 増分は、1 つの製品として、また設定可能な製品、グループ化された製品およびバンドル製品の子として購入する必要がある製品項目の数を設定します。 |
 
 >[!NOTE]
 >
