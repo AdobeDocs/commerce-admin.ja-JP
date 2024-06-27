@@ -3,9 +3,9 @@ title: データ転送
 description: データ検証を含む、データ転送のサポートについて説明します。
 exl-id: 5057e398-c458-42e9-8ec0-bf116a667a3c
 feature: System, Data Import/Export
-source-git-commit: ae3bb3463df13c30ce34739bb6e476d3f7422671
+source-git-commit: b89d6b08d0559dc769a8c51570696f033f23c7f3
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,10 @@ ht-degree: 0%
 
 例えば、在庫に新しい製品を追加したり、製品データや詳細な価格データを更新したり、既存の製品セットを新しい製品に置き換えたりできます。 読み込みツールおよび書き出しツールを使用すると、データを書き出し、スプレッドシートで編集し、管理画面で複数の操作を行う代わりにストアに読み込むことができるため、大きな製品カタログをより効率的に管理できます。
 
-Adobe Commerceには、読み込みツールと書き出しツールに加えて、次のようなプロセスがあります [SaaS データのエクスポート](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) Commerce サーバーから SaaS サービスに商品データを書き出します。 SaaS データの書き出しは、次のようなCommerce SaaS サービスと統合されています [製品のRecommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview), [カタログサービス](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview)、および [SaaS 価格インデックス作成](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/price-indexer/price-indexing).
+
+>[!NOTE]
+>
+>Adobe Commerceは、Commerce サーバーから SaaS サービスに商品データを転送するための SaaS データの書き出しもサポートしています。 SaaS データの書き出しは、次のようなCommerce SaaS サービスと統合されています [製品のRecommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)、および [カタログサービス](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). 詳しくは、を参照してください [SaaS データ エクスポート ガイド](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ## データの検証
 
