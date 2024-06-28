@@ -3,7 +3,7 @@ title: '''[!DNL Adobe Commerce B2B] リリースノート'
 description: の変更点について詳しくは、リリースノートを参照してください [!DNL Adobe Commerce B2B] リリース。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 17eec4e7755ce4e83fb0533940bdce6c96ddc717
+source-git-commit: 35402eda770e59cc2862b204e6e54b55190ded13
 workflow-type: tm+mt
 source-wordcount: '6867'
 ht-degree: 0%
@@ -68,7 +68,7 @@ B2B v1.5.0 ベータ版リリースには、新機能、品質の向上、バグ
 
 [!BADGE サポート]{type=Informative tooltip="サポート"}
 
-![新規](../assets/new.svg) Adobe Commerce 2.4.7-p1 および 2.4.6-p6 セキュリティパッチリリースとの互換性が追加されました。
+![新規](../assets/new.svg) Adobe Commerce 2.4.7-p1+および 2.4.6-p6+ セキュリティパッチリリースとの互換性が追加されました。
 
 
 ## B2B v1.4.2
