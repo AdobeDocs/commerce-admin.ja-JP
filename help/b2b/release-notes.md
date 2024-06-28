@@ -3,9 +3,9 @@ title: '''[!DNL Adobe Commerce B2B] リリースノート'
 description: の変更点について詳しくは、リリースノートを参照してください [!DNL Adobe Commerce B2B] リリース。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
+source-git-commit: 17eec4e7755ce4e83fb0533940bdce6c96ddc717
 workflow-type: tm+mt
-source-wordcount: '6851'
+source-wordcount: '6867'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,13 @@ B2B v1.5.0 ベータ版リリースには、新機能、品質の向上、バグ
 ![修正された問題](../assets/fix.svg) <!--ACP2E-1825-->会社がブロックされると、会社に関連付けられているユーザーは発注書を送信できなくなります。 以前は、会社がブロックされている場合、会社に関連付けられているユーザーが発注書を送信することができました。
 
 ![修正された問題](../assets/fix.svg)<!--ACP2E-1933-->会社管理者は、ストアフロントから会社ユーザーを追加できるようになりました。 以前は、管理者ユーザーが新しいユーザーを追加しようとすると、Commerceがエラーをログに記録していました。 `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
+## B2B v1.4.2-p1
+
+[!BADGE サポート]{type=Informative tooltip="サポート"}
+
+![新規](../assets/new.svg) Adobe Commerce 2.4.7-p1 および 2.4.6-p6 セキュリティパッチリリースとの互換性が追加されました。
+
 
 ## B2B v1.4.2
 
