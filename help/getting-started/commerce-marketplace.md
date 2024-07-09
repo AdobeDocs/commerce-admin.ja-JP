@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: について説明します [!DNL Commerce Marketplace]は、マーチャントに厳選されたソリューションを提供し、適格な開発者に活発なビジネスを構築するためのツール、プラットフォーム、主要な場所を提供します。
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 02e7c71fc47e6850371bfbdc1be50f65ec8015e9
+source-git-commit: 20e1439810891b0d19cda62cc2646701ec5a778c
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -33,12 +33,12 @@ ht-degree: 0%
 
 ### App Builder リソース
 
-- [Commerce App Builder の概要](https://developer.adobe.com/commerce/extensibility/app-development/)
-- [Adobe Developer App Builder の API メッシュの設定](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
+- [Commerce App Builderの概要](https://developer.adobe.com/commerce/extensibility/app-development/)
+- [Adobe Developer App Builderの API メッシュの設定](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
 - [App Builder アプリのデプロイ](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [App Builder アプリ用の CI/CD](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
-- App Builder/Developer Console の概要
-   - [App Builder の概要](https://developer.adobe.com/app-builder/docs/getting_started/)
+- App Builder/Developer Consoleの概要
+   - [App Builderの概要](https://developer.adobe.com/app-builder/docs/getting_started/)
    - [プロジェクトとワークスペースについて](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
 
 ## [!DNL Marketplace] 資格情報
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 ## サポート
 
-拡張機能のインストールや使用に関するヘルプが必要な場合は、まず拡張機能に付属するドキュメントを参照してください。 質問の回答が見つからない場合は、拡張機能リストの連絡先情報を使用して、開発者に直接問い合わせてください。 Marketplace で購入したものがニーズを満たさない場合は、次のことができます [払い戻しを請求する](#refund-requests) 購入日から 25 日以内。 Adobeは、すべての払い戻しリクエストを確認し、（承認された場合は）適切な払い戻しを発行します。 Commerce Marketplaceに関するサポートの問題については、を参照してください。 [[!DNL Marketplace] ヘルプセンター][5].
+拡張機能のインストールや使用に関するヘルプが必要な場合は、まず拡張機能に付属するドキュメントを参照してください。 質問の回答が見つからない場合は、拡張機能リストの連絡先情報を使用して、開発者に直接問い合わせてください。 Marketplace で購入したものがニーズを満たさない場合は、次のことができます [払い戻しを請求する](#refund-requests) 購入日から 25 日以内。 Adobeは、すべての払い戻しリクエストを確認し、（承認された場合は）適切な払い戻しを発行します。 Commerce Marketplaceに関する問題については、にお問い合わせください [サポート](mailto:commercemarketplacesupport@adobe.com).
 
 ### チェックアウトの問題
 
@@ -139,5 +139,4 @@ Marketplace サポート チームには、購入を別のアカウントに転�
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[5]: https://marketplacesupport.magento.com/hc/en-us
 [6]: https://business.adobe.com/products/magento/magento-commerce.html
