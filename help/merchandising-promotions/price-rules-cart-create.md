@@ -3,9 +3,9 @@ title: 買い物かご価格ルールの作成
 description: 買い物かごまたは製品属性に基づいて買い物かごの価格ルールを作成する方法を説明します。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
+source-git-commit: 6ac8d41de0f97767296216f8239311bc6fbf168e
 workflow-type: tm+mt
-source-wordcount: '3302'
+source-wordcount: '3320'
 ht-degree: 0%
 
 ---
@@ -393,7 +393,7 @@ Real-Time CDPに基づいて、買い物かごの価格ルールの条件を設�
 | [!UICONTROL Apply] | 購入に適用される計算のタイプを決定します。 オプション： <br/>**[!UICONTROL Percent of product price discount]**– 元の価格からパーセンテージを引いて品目を値引きします。 入力例： `10` 。対象： _[!UICONTROL Discount Amount]_元の価格より 10% 少ない更新価格の場合。<br/>**[!UICONTROL Fixed amount discount]**– 買い物かごの中で、条件を満たす各品目の元の価格から固定金額を引いて品目を値引きします。 入力例： `10` 。対象：_[!UICONTROL Discount Amount]_ 元の価格より 10 ドル安い更新価格の場合。 <br/>**[!UICONTROL Fixed amount discount for whole cart]**– 買い物かごの小計から固定金額を引いて、買い物かご全体を割引します。 入力例： `10` 。対象： _[!UICONTROL Discount Amount]_カートの小計から$10 を減算する手順は、次のとおりです。 デフォルトでは、割引は買い物かごの小計にのみ適用されます。 小計と送料に割引を適用する方法は、次を参照してください_出荷金額に適用&#x200B;_.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**– 無料で数量を受け取るために顧客が購入する必要がある数量を定義します。 （_[!UICONTROL Discount Amount]_ は Y.） |
 | [!UICONTROL Discount Amount] | （必須）提供される割引の金額。 |
 | [!UICONTROL Maximum Qty Discount is Applied To] | 同じ購入に対して割引を適用できる商品の最大数を設定します。 |
-| [!UICONTROL Discount Qty Step (Buy X)] | によって表される製品の数を設定します `X` in a `Buy X Get Y Free` プロモーション。 |
+| [!UICONTROL Discount Qty Step (Buy X)] | によって表される製品の数を設定します `X` in a `Buy X Get Y Free` プロモーション。 また、適用するために一括で買い物かごに追加する必要がある製品の数を定義します `Fixed amount discount` および `Percent of product price discount` プロモーション。 |
 | [!UICONTROL Apply to Shipping Amount] | 小計と出荷金額に割引が個別に適用されるかどうかを決定します。 それ以外の場合は、小計にのみ適用されます。 オプション： `Yes` / `No` |
 | [!UICONTROL Discard Subsequent Rules] | この買い物かご価格ルールが一致する場合に、優先度の低いルール （1 が最も優先度が高い）を製品に適用できるかどうかを決定します。 このオプションを有効にすると、同じ製品に複数の割引が適用されなくなります。 オプション： `Yes` / `No` |
 | [!UICONTROL Free Shipping] | プロモーションに送料無料が含まれているかどうか、含まれている場合はどのアイテムに使用するかを決定します。 オプション： <br/>**[!UICONTROL No]**– 現在のルールでは送料無料は利用できません。<br/>**[!UICONTROL For matching items only]**  – 送料無料は、ルールに一致するカート内の特定の項目に対してのみ使用できます。 <br/>**[!UICONTROL For shipment with matching items]**– カートに入っているすべての商品は送料無料です。 この [送料無料](../stores-purchase/shipping-free.md) このオプションを使用するには、配信方法を有効にする必要があります。 |
