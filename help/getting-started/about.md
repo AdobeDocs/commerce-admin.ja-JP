@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerceとは
-description: Adobe Commerce は、エンタープライズ向けの e コマースプラットフォームです。世界中の e コマースチームの成長を促進する最新機能をお読みください。
+description: Adobe Commerce は、エンタープライズ向けの e コマースプラットフォームです。 世界中の e コマースチームの成長を促進する最新機能をお読みください。
 mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
 source-git-commit: 0774e2d0af7c3e33c726da8ae72012d97f42adb1
@@ -60,7 +60,7 @@ HanesBrands とAdobeが、データ共有とパーソナライゼーション機
 
 この新しいエクスペリエンス主導のストアフロントの中心には、コンバージョンの向上、コストの削減、速度の向上を伴う、構成可能なコマースエクスペリエンスの提供に重点を置いた一連の原則があります。
 
-Commerceのコンバージョンは、オフサイトで顧客を結び付ける能力と、効率的かつターゲットを絞った方法でオンサイトで顧客のエクスペリエンスをパーソナライズする能力の両方に関連しています。 Commerceのエッジ配信サービスは、Core Web Vitals 全体の原則を取り入れることで、両方の指標を促進します。
+Commerceのコンバージョンは、オフサイトで顧客を結び付ける能力と、効率的かつターゲットを絞った方法でオンサイトで顧客のエクスペリエンスをパーソナライズする能力の両方に関連しています。 CommerceのEdge Delivery サービスは、Core Web Vitals 全体の原則を取り入れることで、両方の指標を促進します。
 
 つまり、より高速でエクスペリエンス主導のサイトが検索エンジンで上位にランク付けされ、SEO コストが削減されると同時に、オーガニックトラフィックとキーワードトラフィックが促進されます。 これにより、訪問者数が増えるだけでなく、顧客と製品がこれまで以上にシームレスに接続され、製品の検出、選択、チェックアウトを迅速化できます。
 
@@ -73,7 +73,7 @@ Commerceのコンバージョンは、オフサイトで顧客を結び付ける
 
 >[!TIP]
 >
->Adobe Commerceのエッジ配信サービスを使い始める場合は、すべてがどのように統合されているかを確認できます [はい、どうぞ。](https://experienceleague.adobe.com/developer/commerce/storefront/)
+>Adobe CommerceでEdge Delivery サービスを使い始める場合は、すべてがどのように統合されているかを確認できます [はい、どうぞ。](https://experienceleague.adobe.com/developer/commerce/storefront/)
 
 ### Adobe Experience Manager Assetsの統合
 
@@ -210,7 +210,7 @@ Adobe CommerceのAdobe Journey Optimizerとのデータ接続および Real-time
 
 ## テクノロジー対応Commerce
 
-### App Builder を使用した構成可能な開発の簡素化
+### App Builderによる構成可能な開発の簡素化
 
 Adobe Commerceは、e コマース機能を迅速に立ち上げ、サードパーティシステム間でのデータ共有を容易にし、統合とカスタマイズの所有コストを削減するように設計された構成可能な e コマースプラットフォームです。
 
@@ -253,9 +253,9 @@ Adobe Commerce Cloud および Managed Service のお客様は、HIPAA 対応の
 
 - 最大 1,000 万のクーポンベースの買い物かご価格ルールのサポート。
 
-## ベータ版の商談
+## Beta商談
 
-にアクセスします [ベータ版リリースページ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta) ベータ版および早期アクセスプログラムの概要（IBM Sterling Order Management、Adobe Experience Platformへのデータ接続、App Builder を使用したバックオフィス ERP、CRM、PIM 統合スターターキットなど）
+にアクセスします [ベータ版リリースページ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta) IBM Sterling Order Management、Adobe Experience Platformへのデータ接続、App Builderを使用したバックオフィス ERP、CRM、PIM 統合スターターキットなど、ベータ版および早期アクセスプログラムの概要です。
 
 ## Adobe Summitからのオンデマンドコンテンツ
 
