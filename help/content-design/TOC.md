@@ -3,10 +3,10 @@ user-guide-title: コンテンツおよびデザインガイド
 user-guide-description: Adobe Commerce管理者、Magento Open Source管理者および e コマースマーケター向けのコンテンツおよびデザイン機能に関する包括的な情報です。
 breadcrumb-title: コンテンツとデザイン
 feature: CMS, Page Content
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 4%
+source-wordcount: '232'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 - [コンテンツおよびデザインガイド](guide-overview.md)
 - [コンテンツとデザインの概要](introduction.md)
 - [コンテンツメニュー](content-menu.md)
-- デザイン {#design}
+- 設計 {#design}
    - [デザイン設定](configuration.md)
    - テーマ {#themes}
       - [概要](themes.md)
@@ -44,7 +44,7 @@ ht-degree: 4%
       - [ダイナミック ブロックを作成する](dynamic-blocks.md)
       - [回転するダイナミック ブロックを追加する](dynamic-blocks-rotate.md)
       - [価格ルールの動的ブロック](dynamic-blocks-price-rules.md)
-   - ウィジェット {#widgets}
+   - Widgets {#widgets}
       - [概要](widgets.md)
       - [ウィジェットの作成と管理](widget-create.md)
       - [ウィジェットを使用したブロックの配置](widget-static-block.md)
@@ -57,12 +57,19 @@ ht-degree: 4%
    - [画像の挿入](editor-insert-image.md)
    - [ウィジェットの挿入](editor-widget.md)
    - [変数の挿入](editor-insert-variable.md)
-- メディア {#media}
+- Media {#media}
    - メディアストレージ {#storage}
       - [概要](media-storage.md)
       - [メディアデータベースの使用](media-storage-database.md)
       - [コンテンツ配信ネットワークの使用](media-storage-content-delivery-network.md)
       - [Dynamic Media の URL](catalog-urls-dynamic-media.md)
+   - Experience Manager Assets {#aem-assets}
+      - [Assetsの統合](aem-assets.md)
+      - Onboarding {#onboarding}
+         - [AEM Assetsの設定](aem-assets-configure-aem.md)
+         - [Adobe Commerceの設定](aem-assets-configure-commerce.md)
+         - [同期サービスの設定](aem-assets-setup-synchronization.md)
+      - [AEM Assetsの使用](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Adobe Stockの統合](adobe-stock.md)
       - [Adobe Stock画像の使用](adobe-stock-manage.md)
@@ -79,5 +86,5 @@ ht-degree: 4%
    - [ステージングダッシュボード](content-staging-dashboard.md)
    - [キャンペーン項目の追加](content-staging-add-item.md)
    - [キャンペーンのプレビュー](content-staging-preview.md)
-- [Merchant Guides に戻る](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [ マーチャントガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
