@@ -16,19 +16,19 @@ ht-degree: 0%
 
 ## 手順 1:YouTube API キーの取得
 
-1. Google アカウントにログインし、 [Google開発者コンソール][1].
+1. Google アカウントにログインし、[Google Developers Console][1] にアクセスします。
 
-1. 上部の検索フィールドに、 `YouTube Data API v3` 検索アイコンをクリックします。
+1. 上部の検索フィールドに「`YouTube Data API v3`」と入力し、検索アイコンをクリックします。
 
 1. API ページが表示されたら、有効になっていることを確認します。
 
-1. 左パネルで、を選択します。 **[!UICONTROL Credentials]**.
+1. 左側のパネルで「**[!UICONTROL Credentials]**」を選択します。
 
 1. 資格情報があるかどうかに応じて、次のいずれかの操作を行います。
 
-   - 必要な資格情報が既にある場合は、キーを _API キー_ テーブル。
+   - 必要な資格情報が既にある場合は、_API キー_ テーブルにそのキーをコピーします。
 
-   - この API に対する認証情報がまだない場合は、 **[!UICONTROL Create Credentials]**  上部で、画面の指示に従って必要な資格情報を作成します。 次の下 _資格情報を取得_&#x200B;を入力し、API キーをコピーして、 **[!UICONTROL Done]**.
+   - この API に対する資格情報がまだない場合は、上部の「**[!UICONTROL Create Credentials]**」をクリックし、画面の指示に従って必要な資格情報を作成します。 「_資格情報を取得_」の下で、API キーをコピーし、「**[!UICONTROL Done]**」をクリックします。
 
 1. API キーをクリップボードにコピーします。
 
@@ -40,15 +40,15 @@ ht-degree: 0%
 
 ## 手順 2:Commerceでのキーの設定
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Catalog]** を選択します **[!UICONTROL Catalog]** その下に。
+1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この _[!UICONTROL Product Video]_「」セクションを選択して、**[!UICONTROL YouTube API key]**.
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「_[!UICONTROL Product Video]_」セクションを展開して、**[!UICONTROL YouTube API key]**を貼り付けます。
 
-   ![製品ビデオの設定](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
+   ![ 製品ビデオ設定 ](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 1. プロンプトが表示されたら、キャッシュを更新します。
 
@@ -56,33 +56,33 @@ ht-degree: 0%
 
 1. 製品を編集モードで開きます。
 
-1. スクロールして「」を展開します _[!UICONTROL Images and Videos]_セクション。
+1. スクロールして「_[!UICONTROL Images and Videos]_」セクションを展開します。
 
-   ![画像とビデオ](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
+   ![ 画像とビデオ ](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
-1. click **[!UICONTROL Add Video]**.
+1. 「**[!UICONTROL Add Video]**」をクリックします。
 
-   YouTube API キーをまだ設定していない場合は、 **[!UICONTROL OK]** 続行します。 YouTube ビデオにリンクすることはできませんが、手順は完了します。
+   YouTube API キーをまだ設定していない場合は、「**[!UICONTROL OK]**」をクリックして続行します。 YouTube ビデオにリンクすることはできませんが、手順は完了します。
 
-1. の場合 **[!UICONTROL Url]**&#x200B;を選択し、YouTubeまたは Vimeo ビデオの URL を入力します。
+1. **[!UICONTROL Url]** しくは、YouTubeまたは Vimeo ビデオの URL を入力します。
 
-   ![製品の新しいビデオ](./assets/product-video-add.png){width="600" zoomable="yes"}
+   ![ 製品の新しいビデオ ](./assets/product-video-add.png){width="600" zoomable="yes"}
 
 1. フィールドの外側をクリックして、API キーまたはビデオのフィードバックを待ちます。
 
    すべてがチェックアウトされると、YouTubeはビデオの基本情報を提供します
 
-1. を入力 **[!UICONTROL Title]** および **[!UICONTROL Description]** ビデオの
+1. ビデオの **[!UICONTROL Title]** と **[!UICONTROL Description]** を入力します。
 
-1. をアップロードするには **[!UICONTROL Preview Image]**&#x200B;画像を参照し、ファイルを選択します。
+1. **[!UICONTROL Preview Image]** をアップロードするには、画像を参照し、ファイルを選択します。
 
    >[!NOTE]
    >
    >アップロード後、表示されるプレビュー画像は、外部のビデオサービスプロバイダーによって自動的に生成されます。 Adobe Commerce Admin からは画像を編集できません。
 
-1. ビデオ メタデータを使用する場合は、 **[!UICONTROL Get Video Information]**.
+1. ビデオのメタデータを使用する場合は、「**[!UICONTROL Get Video Information]**」をクリックします。
 
-1. ビデオがストアでどのように使用されるかを判断するには、それぞれのチェックボックスをオンにします **[!UICONTROL Role]** 次の場合に適用されます。
+1. ストアでのビデオの使用方法を確認するには、該当する各 **[!UICONTROL Role]** のチェックボックスをオンにします。
 
    - `Base Image`
    - `Small Image`
@@ -90,15 +90,15 @@ ht-degree: 0%
    - `Thumbnail`
    - `Hide from Product Page`
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
    >[!NOTE]
    >
-   >次の場合 _[!UICONTROL Autostart base video]_設定オプションがに設定されています `Yes` ただし、ビデオの再生が自動的に開始されるわけではありません。ブラウザーによって適用され、Adobe Commerceで制御できない自動再生ポリシーが原因である可能性があります。 サポートされている各ブラウザーには、時間の経過と共に変化する可能性のある独自の自動再生ポリシーがあり、ビデオは今後自動再生されない可能性があります。 推奨されるベストプラクティスとして、ビジネス上の重要な機能で自動再生を使用しないでください。また、サポートされている各ブラウザーで、ストアでのビデオの自動再生動作をテストする必要があります。
+   >_[!UICONTROL Autostart base video]_configuration option が `Yes` に設定されていて、ビデオの再生が自動的に開始されない場合は、ブラウザーによって適用され、Adobe Commerceで制御できない自動再生ポリシーが原因である可能性があります。 サポートされている各ブラウザーには、時間の経過と共に変化する可能性のある独自の自動再生ポリシーがあり、ビデオは今後自動再生されない可能性があります。 推奨されるベストプラクティスとして、ビジネス上の重要な機能で自動再生を使用しないでください。また、サポートされている各ブラウザーで、ストアでのビデオの自動再生動作をテストする必要があります。
 
 ## API アクセスの管理
 
-Googleの開発者によると [利用条件]、YouTubeは、90 日以上非アクティブになっているアカウントの API アクセスを無効にすることができます。 この問題が発生すると、ビデオが表示されない場合があります。 API アクセスを最新の状態に保つには、cron ジョブを使用して、一定の間隔で API に ping を実行します。
+Google開発者 [ 利用条件 ] によると、YouTubeは、90 日以上非アクティブになっているアカウントの API アクセスを無効にする場合があります。 この問題が発生すると、ビデオが表示されない場合があります。 API アクセスを最新の状態に保つには、cron ジョブを使用して、一定の間隔で API に ping を実行します。
 
 ```code
 30 10 1 * * curl -i -G -e https://yourdomain.com/ -d "part=snippet&maxResults=1&q=test&key=YOUTUBEAPIKEY" https://www.googleapis.com/youtube/v3/search >/dev/null 2>&1
@@ -113,7 +113,7 @@ Googleの開発者によると [利用条件]、YouTubeは、90 日以上非ア�
 | [!UICONTROL Description] | ビデオの説明。 |
 | [!UICONTROL Preview Image] | ストアでビデオのプレビューとして使用される、アップロードされた画像。 |
 | [!UICONTROL Get Video Information] | ホストサーバーに保存されているビデオメタデータを取得します。 元のデータを使用することも、必要に応じて更新することもできます。 |
-| [!UICONTROL Role] | ストアでのプレビュー画像の使用方法を決定します。 次のオプションを任意に組み合わせて選択できます。 `Base Image`, `Small Image`, `Thumbnail`, `Swatch Image`, `Hide from Product Page` |
+| [!UICONTROL Role] | ストアでのプレビュー画像の使用方法を決定します。 `Base Image`、`Small Image`、`Thumbnail`、`Swatch Image`、`Hide from Product Page` など、オプションの任意の組み合わせを選択できます。 |
 
 {style="table-layout:auto"}
 

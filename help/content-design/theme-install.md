@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 新しいテーマのインストール
 
-を初めてインストールしたとき [!DNL Commerce] ストアのデザイン要素は、デフォルトに基づいています `Magento Blank` テーマ。 この _Luma_ テーマは、サンプルデータがインストールされている場合にも使用できます。 テーマを変更したり、他のユーザーが作成したテーマを追加したり、独自のテーマを作成したりできます。 [[!DNL Commerce Marketplace]](../getting-started/commerce-marketplace.md) ストアの外観を変更するためにインストールできるテーマの選択肢が増えています。 テーマを作成または変更する方法については、を参照してください [_フロントエンド開発ガイド_](https://developer.adobe.com/commerce/frontend-core/guide/).
+を初めてインストールするとき [!DNL Commerce]、ストアのデザイン要素はデフォルトの `Magento Blank` テーマに基づいています。 _Luma_ テーマは、サンプルデータをインストールした場合にも使用できます。 テーマを変更したり、他のユーザーが作成したテーマを追加したり、独自のテーマを作成したりできます。 [[!DNL Commerce Marketplace]](../getting-started/commerce-marketplace.md) には、ストアの外観を変更するためにインストールできるテーマの選択肢が増えています。 テーマを作成または変更する方法については、[_フロントエンド開発ガイド_](https://developer.adobe.com/commerce/frontend-core/guide/) を参照してください。
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-開始する前に、の有効なセットがあることを確認してください [[!DNL Commerce] アクセスキー](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+開始する前に、有効な [[!DNL Commerce]  アクセスキー ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) セットがあることを確認します。
 
-にテーマを追加するには [!DNL Commerce] 保存するには、に記載されている手順に従ってください [!DNL Commerce Marketplace]:
+[!DNL Commerce] ストアにテーマを追加するには、[!DNL Commerce Marketplace] の手順に従ってください。
 
 1. テーマの検索
 1. 製品の評価
@@ -26,4 +26,4 @@ ht-degree: 0%
 1. パッケージをダウンロードします
 1. テーマのインストール
 
-テーマをストアに適用するには、を参照してください。 [テーマ](themes.md).
+テーマをストアに適用するには、[ テーマ ](themes.md) を参照してください。

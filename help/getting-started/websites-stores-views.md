@@ -12,23 +12,23 @@ ht-degree: 0%
 
 # サイト、ストア、ビューの範囲
 
-Adobe CommerceとMagento Open Sourceのすべてのインストールには、 [階層](../stores-purchase/stores.md) （web サイト、ストア、ストアビューのリスト）。 用語 _範囲_ 製品、属性、カテゴリなどのデータベースエンティティ、コンテンツ要素、設定などを適用する階層内の場所を決定します。 Web サイト、ストア、ストアビューには、1 対多の親子関係があります。 1 つのインストールに複数の web サイトを含めることができ、各 web サイトに複数のストアやストア表示を含めることができます。
+すべてのAdobe CommerceとMagento Open Sourceのインストールには、web サイト、ストア、ストアビューの [ 階層 ](../stores-purchase/stores.md) があります。 _範囲_ という用語は、製品、属性、カテゴリなどのデータベースエンティティ、コンテンツ要素、構成設定が適用される階層内の場所を決定します。 Web サイト、ストア、ストアビューには、1 対多の親子関係があります。 1 つのインストールに複数の web サイトを含めることができ、各 web サイトに複数のストアやストア表示を含めることができます。
 
 >[!NOTE]
 >
->詳しくは、 [複数の web サイトまたはストア](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) が含まれる [!DNL Commerce] 開発者向けドキュメント。
+>詳しくは、[!DNL Commerce] 開発者向けドキュメントの [ 複数の web サイトまたはストア ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) を参照してください。
 
 ## Web サイト
 
-インストールは 1 つの [web サイト](../stores-purchase/stores.md#add-websites)と呼ばれます。 _メイン Web サイト_ デフォルトでは。 また、1 つのインストールに対して、独自の IP アドレスとドメインを持つ複数の web サイトを設定することもできます。
+インストールは、単一の [Web サイト ](../stores-purchase/stores.md#add-websites) から始まります。これは、デフォルトでは _メイン Web サイト_ と呼ばれます。 また、1 つのインストールに対して、独自の IP アドレスとドメインを持つ複数の web サイトを設定することもできます。
 
 ## ストア
 
-1 つの Web サイトに複数の Web サイトを含めることができます [ストア](../stores-purchase/stores.md#add-stores)、それぞれ独自のメインメニューを持つ。 店舗は商品カタログを共有しますが、異なる商品とデザインを選択できます。 同じ web サイト下のすべてのストアで、管理とチェックアウトが共有されます。
+1 つの web サイトに複数の [ ストア ](../stores-purchase/stores.md#add-stores) を含めることができ、それぞれに独自のメインメニューを持たせることができます。 店舗は商品カタログを共有しますが、異なる商品とデザインを選択できます。 同じ web サイト下のすべてのストアで、管理とチェックアウトが共有されます。
 
 ## ビューを保存
 
-顧客が利用できる各ストアは、特定のストアに従って表示されます _[表示](../stores-purchase/store-views.md)_. 最初は、ストアには単一のデフォルト表示があります。 別の言語をサポートするために、またはその他の目的のために、追加のストアビューを追加できます。 ユーザーは、ヘッダーの言語選択を使用して、ストア表示を変更できます。
+顧客が使用できる各ストアは、特定の _[表示](../stores-purchase/store-views.md)_ に従って表示されます。 最初は、ストアには単一のデフォルト表示があります。 別の言語をサポートするために、またはその他の目的のために、追加のストアビューを追加できます。 ユーザーは、ヘッダーの言語選択を使用して、ストア表示を変更できます。
 
 Web サイト、ストア、ストアビューを使用する場合は、次の点に注意してください。
 
@@ -41,13 +41,13 @@ Web サイト、ストア、ストアビューを使用する場合は、次の�
 
 ## 範囲設定
 
-Adobe CommerceまたはMagento Open Sourceのインストールに web サイト、ストアまたはビューの階層がある場合は、 _範囲_ （設定）。 また、多くのデータベースエンティティのコンテキストに特定の範囲を割り当てて、ストア階層での使用方法を決定することもできます。 詳しくは、 [製品の範囲](../catalog/introduction.md#product-scope) および [価格範囲](../catalog/catalog-price-scope.md).
+Adobe CommerceまたはMagento Open Sourceのインストールに Web サイト、ストア、ビューの階層がある場合は、設定のコンテキストまたは _範囲_ を設定できます。 また、多くのデータベースエンティティのコンテキストに特定の範囲を割り当てて、ストア階層での使用方法を決定することもできます。 詳しくは、[ 製品範囲 ](../catalog/introduction.md#product-scope) と [ 価格範囲 ](../catalog/catalog-price-scope.md) を参照してください。
 
-郵便番号などの一部の設定は、システム全体で同じ値が使用されるので、グローバル範囲を持ちます。 この [web サイト](../stores-purchase/stores.md#add-websites) 範囲は、階層内のそのレベルより下のすべてのストア（すべてのストアとそのビューを含む）に適用されます。 スコープがの任意の項目 [ストア表示](../stores-purchase/store-views.md) はストア表示ごとに異なる設定を行うことができます。通常、この設定は複数の言語をサポートするために使用されます。 構成設定のデフォルト値を上書きするには、次を参照してください： [範囲を設定](../configuration-reference/scope-change.md#set-the-scope).
+郵便番号などの一部の設定は、システム全体で同じ値が使用されるので、グローバル範囲を持ちます。 [web サイト ](../stores-purchase/stores.md#add-websites) の範囲は、階層内のそのレベルより下のすべてのストア（すべてのストアとそのビューを含む）に適用されます。 [ ストア表示 ](../stores-purchase/store-views.md) の範囲を持つ項目は、ストア表示ごとに異なる設定が可能です。これは通常、複数の言語をサポートするために使用されます。 構成設定のデフォルト値を上書きする方法については、[ 範囲の設定 ](../configuration-reference/scope-change.md#set-the-scope) を参照してください。
 
-ストアが次の場所で実行されていない場合 [シングルストアモード](#single-store-mode)各設定の範囲は、フィールドラベルの下に小さなテキストで表示されます。 インストールに複数の web サイト、ストアまたはビューが含まれている場合は、 [ストア表示](../stores-purchase/store-views.md) 変更を加える前に設定が適用される場所。
+ストアが [ 単一ストアモード ](#single-store-mode) で実行されていない限り、各設定の範囲は、フィールドラベルの下に小さなテキストで表示されます。 インストールに複数の web サイト、ストアまたはビューが含まれている場合は、変更を加える前に設定が適用される [ ストア表示 ](../stores-purchase/store-views.md) を選択します。
 
-![Web サイト、ストア、ストアビューの階層](./assets/scope-multisite.svg){width="550"}
+![Web サイト、ストア、ストアビューの階層 ](./assets/scope-multisite.svg){width="550"}
 
 | 範囲 | 説明 |
 |--- |--- |
@@ -60,26 +60,26 @@ Adobe CommerceまたはMagento Open Sourceのインストールに web サイト
 
 ## シングルストアモード
 
-Commerceのインストールにストアとストアの表示が 1 つしかない場合は、すべてのストア表示オプションとスコープインジケーターをオフにすることで、表示を簡単にすることができます。 次の場合は、シングルストアモードが上書きされます [さらにストア表示を追加](../stores-purchase/store-views.md) 後で。
+Commerceのインストールにストアとストアの表示が 1 つしかない場合は、すべてのストア表示オプションとスコープインジケーターをオフにすることで、表示を簡単にすることができます。 後で [ さらにストア表示を追加 ](../stores-purchase/store-views.md) すると、シングルストアモードが上書きされます。
 
-![範囲 – 1 つのビュー](./assets/scope-single-view.svg){width="550"}
+![ 範囲 – シングルビュー ](./assets/scope-single-view.svg){width="550"}
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 次の下 **[!UICONTROL General]**&#x200B;ページの一番下までスクロールし、を展開します **[!UICONTROL Single-Store Mode]** セクション。
+1. **[!UICONTROL General]** の下で、ページの下部までスクロール ダウンし、[**[!UICONTROL Single-Store Mode]**] セクションを展開します。
 
-1. を設定 **[!UICONTROL Enable Single-Store Mode]** 対象： `Yes`.
+1. **[!UICONTROL Enable Single-Store Mode]** を `Yes` に設定します。
 
-   ![一般設定 – シングルストアモードの有効化](./assets/general-single-store-mode.png){width="400"}
+   ![ 一般設定 – シングルストアモードの有効化 ](./assets/general-single-store-mode.png){width="400"}
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。
 
 1. キャッシュを更新するように求められたら、次の操作を行います。
 
-   - 「」をクリックします **[!UICONTROL Cache Management]** ページ上部のシステムメッセージのリンク。
+   - ページ上部にあるシステムメッセージの「**[!UICONTROL Cache Management]**」リンクをクリックします。
 
-     ![システム メッセージ – キャッシュ管理](../catalog/assets/msg-cache-management.png){width="600" zoomable="yes"}
+     ![ システムメッセージ – キャッシュ管理 ](../catalog/assets/msg-cache-management.png){width="600" zoomable="yes"}
 
-   - 「」を選択します **[!UICONTROL Page Cache]** チェックボックス。
+   - 「**[!UICONTROL Page Cache]**」チェックボックスをオンにします。
 
-   - （を使用） **[!UICONTROL Actions]** をに設定 `Refresh`を選択し、 **[!UICONTROL Submit]**
+   - **[!UICONTROL Actions]** を `Refresh` に設定し、「**[!UICONTROL Submit]**」をクリックします

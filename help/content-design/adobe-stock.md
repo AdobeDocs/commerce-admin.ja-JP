@@ -1,6 +1,6 @@
 ---
 title: Adobe Stockの統合
-description: Adobe Stockとの統合 [!DNL Commerce] ストア内で使用する無数のメディアアセットにアクセスするためのインスタンス。
+description: Adobe Stockをお使いのインスタンスと統合して  [!DNL Commerce]  ストアで使用するための無数のメディアアセットにアクセスできるようにします。
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
 source-git-commit: 6666073a48741cb494f408a61401f46fc20cedc4
@@ -12,88 +12,88 @@ ht-degree: 0%
 
 # Adobe Stockの統合
 
-ストアで使用する無数のメディアアセットにアクセスするには、次を統合します。 [Adobe Stock][adobe-stock] （を使用） [!UICONTROL Commerce].
+ストアで使用する無数のメディアアセットにアクセスするには、[Adobe Stock][adobe-stock] を [!UICONTROL Commerce] と統合します。
 
-![Adobe Stockの検索結果](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
+![Adobe Stock検索結果 ](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
-Adobe Stock サービスは、あらゆるクリエイティブプロジェクトに使用できる、何百万点もの質の高い選ばれたロイヤリティーフリーの写真、ベクター、イラスト、ビデオ、テンプレートおよび 3D アセットを提供します。 [!DNL Commerce] Adobe Stock アセットをすばやく検索、プレビュー、ライセンス付与することができます。 ユーザーは、以下に保存することもできます [メディアストレージ][media-storage]管理ワークスペースから移動せずに実行できます。
+Adobe Stock サービスは、あらゆるクリエイティブプロジェクトに使用できる、何百万点もの質の高い選ばれたロイヤリティーフリーの写真、ベクター、イラスト、ビデオ、テンプレートおよび 3D アセットを提供します。 [!DNL Commerce] ユーザーは、Adobe Stock アセットをすばやく検索、プレビューおよびライセンス付与することができます。 また、ユーザーは、管理ワークスペースを離れることなく、すべてを [ メディアストレージ ][media-storage] に保存できます。
 
 ## 前提条件
 
 この統合には次が必要です。
 
-- An [Adobe Developer][dev-console] アカウント
+- [Adobe Developer][dev-console] アカウント
 - Adobe CommerceまたはMagento Open Source、2.3.4 以降
 
 Adobe Stock イメージのライセンスを取得するには、次の操作が必要です。
 
-- An [Adobeアカウント][adobe-signin]
-- 有給 [Adobe Stock][adobe-stock] アカウントに関連付けられたプラン
+- [Adobeアカウント ][adobe-signin]
+- アカウントに関連付けられた有料の [Adobe Stock][adobe-stock] プラン
 
-## の統合 [!DNL Commerce] とAdobe Stock
+## [!DNL Commerce] とAdobe Stockの統合
 
 Adobe Stock統合をAdobe Commerce用に設定するには、次の 2 つの手順があります。
 
-1. [adobe.developer 統合の作成](#create-an-adobe-developer-integration) api キーを生成するには
+1. [adobe.developer 統合を作成 ](#create-an-adobe-developer-integration) して API キーを生成
 1. [Commerce Admin でのAdobe Stock統合の設定](#configure-the-adobe-stock-integration)
 
 ### Adobe Developer統合の作成
 
-1. に移動します。 [Adobe Developer コンソール][dev-console].
+1. [Adobe Developer Console][dev-console] に移動します。
 
-1. 次の下 _[!UICONTROL Quick Start]_を選択し、**[!UICONTROL Create new project]**.
+1. [_[!UICONTROL Quick Start]_] で、[**[!UICONTROL Create new project]**] をクリックします。
 
-1. が含まれる _[!UICONTROL Project overview]_ブロック、クリック&#x200B;**[!UICONTROL Add API]**.
+1. _[!UICONTROL Project overview]_ブロックで、「**[!UICONTROL Add API]**」をクリックします。
 
-1. を選択 **[!UICONTROL Adobe Stock]** 統合リストから、次の順にクリックします **[!UICONTROL Next]**.
+1. 統合リストから「**[!UICONTROL Adobe Stock]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 
-1. Oauth 2.0 を選択します。 **[!UICONTROL Web App]**.
+1. 「OAuth 2.0 **[!UICONTROL Web App]**」を選択します。
 
-1. を指定 **[!UICONTROL redirect URI]**.
+1. **[!UICONTROL redirect URI]** を指定してください
 
-   デフォルトのリダイレクト URI の形式は次のとおりです `${HOST}/${ADMIN_URI}/adobe_ims/oauth/callback/`（例：） `https://store.myshop.com/admin_hgkq1l/adobe_ims/oauth/callback/`。ここで、
+   デフォルトのリダイレクト URI の形式は `${HOST}/${ADMIN_URI}/adobe_ims/oauth/callback/` です。例えば `https://store.myshop.com/admin_hgkq1l/adobe_ims/oauth/callback/` です。
 
-   - `${HOST}` が自分 [!DNL Commerce] 完全修飾ドメイン名（例：） `https://store.myshop.com`）に設定します。
-   - `${ADMIN_URI}` が自分 [!DNL Commerce] 管理 URI （など） `admin_hgkq1l`）、次を実行して取得できます。 `magento info:adminuri`.
+   - `${HOST}` は、[!DNL Commerce] の完全修飾ドメイン名（例：`https://store.myshop.com`）です。
+   - `${ADMIN_URI}` は [!DNL Commerce] の管理者 URI （`admin_hgkq1l` など）で、`magento info:adminuri` を実行して取得できます。
 
-1. を指定 **[!UICONTROL Redirect URI pattern]**（リダイレクト URI と同じですが、次の 2 つの違いがあります。）
+1. **[!UICONTROL Redirect URI pattern]** を指定します。これは、リダイレクト URI と同じですが、次の 2 つの違いがあります。
 
-   - 任意の期間（`.`）は、2 つのバックスラッシュ（`\\`）に設定します。
-   - 追加 `.*` をパターンの最後まで追加します。
+   - ピリオド（`.`）は、2 つのバックスラッシュ（`\\`）でエスケープする必要があります。
+   - パターンの最後に `.*` を追加します。
 
-   前のデフォルトのリダイレクト URI の例を使用すると、次のようになります `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`.
+   前のデフォルトのリダイレクト URI の例を使用すると、`https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*` のようになります。
 
-1. クリック **[!UICONTROL Next]**.
+1. 「**[!UICONTROL Next]**」をクリックします。
 
-1. 使用可能な範囲を確認し、 **[!UICONTROL Save configured API]**.
+1. 使用可能な範囲を確認し、「**[!UICONTROL Save configured API]**」をクリックします。
 
-1. 次のページで、 **[!UICONTROL Client ID]** （API キー）と **[!UICONTROL Client secret]**.
+1. 次のページで、**[!UICONTROL Client ID]** （API キー）と **[!UICONTROL Client secret]** をコピーします。
 
    この情報は、次の節の手順で使用します。
 
 ### Adobe Stock統合の設定
 
-でシステム設定を指定するには [!DNL Commerce] 管理者、を使用する _API キー_ および _クライアント秘密鍵_ 生成日時： [前のセクション][create-integration].
+[!DNL Commerce] Admin でシステム設定を設定するには、_前の節 ][create-integration] で生成した [API キー_ と _クライアントシークレット_ を使用します。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Advanced]** を選択します **[!UICONTROL System]**.
+1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) **[!UICONTROL Adobe Stock Integration]** 次の手順を実行します。
+1. ![ 拡張セレクター ](../assets/icon-display-expand.png) を展開し **[!UICONTROL Adobe Stock Integration]** 以下を実行します。
 
-   - を設定 **[!UICONTROL Enabled Adobe Stock]** 対象： `Yes`.
+   - **[!UICONTROL Enabled Adobe Stock]** を `Yes` に設定します。
 
-   - を入力 **[!UICONTROL API Key (Client ID)]**.
+   - **[!UICONTROL API Key (Client ID)]** を入力します。
 
-   - を入力 **[!UICONTROL Client Secret]**.
+   - **[!UICONTROL Client Secret]** を入力します。
 
-   - クリック **[!UICONTROL Test Connection]** キーを検証します。
+   - 「**[!UICONTROL Test Connection]**」をクリックしてキーを検証します。
 
-   ![詳細設定 – Adobe Stockの統合](./assets/system-adobe-stock-integration.png){width="600" zoomable="yes"}
+   ![ 詳細設定 – Adobe Stockの統合 ](./assets/system-adobe-stock-integration.png){width="600" zoomable="yes"}
 
-   検証を数秒間行います。 資格情報が有効な場合は、緑のマークが表示されます _接続に成功しました。_ メッセージ。
+   検証を数秒間行います。 資格情報が有効な場合は、緑色の _接続に成功しました！_ メッセージ。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 [adobe-stock]: https://stock.adobe.com
 [adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html

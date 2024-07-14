@@ -14,22 +14,22 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-報酬ポイントは、次の条件に従って顧客に付与されます [買い物かご価格ルール](price-rules-cart.md). ポイントの付与は、価格ルールの唯一のアクションになるか、割引で使用できます。
+報酬ポイントは、[ 買い物かご価格ルール ](price-rules-cart.md) に従って顧客に付与できます。 ポイントの付与は、価格ルールの唯一のアクションになるか、割引で使用できます。
 
 >[!NOTE]
 >
->[報酬為替レート](reward-exchange-rates.md) チェックアウト時にお客様および管理者ユーザーが報酬ポイントを引き換えるには、設定が必要です。
+>[ 報酬為替レート ](reward-exchange-rates.md) チェックアウト中にお客様および管理者ユーザーが報酬ポイントを引き換えるには、設定が必要です。
 
 ## 価格ルールへの報酬ポイントの追加
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Cart Price Rules]**に移動します。
 
-1. クリック **[!UICONTROL Add New Rule]** 買い物かご価格ルールを作成するか、既存の買い物かご価格ルールをクリックして開きます。
+1. 「**[!UICONTROL Add New Rule]**」をクリックして買い物かご価格ルールを作成するか、既存の買い物かご価格ルールをクリックして開きます。
 
-1. 下にスクロール、展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Actions]** セクションで、条件を設定し、にポイント数を入力します **[!UICONTROL Add Reward Points]** フィールド。
+1. 下にスクロールして、「**[!UICONTROL Actions]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、条件を設定して、「**[!UICONTROL Add Reward Points]**」フィールドにポイント数を入力します。
 
-   ![買い物かご価格ルール – 報酬ポイント](./assets/reward-points-price-rule-actions.png){width="600" zoomable="yes"}
+   ![ 買い物かご価格ルール – 報酬ポイント ](./assets/reward-points-price-rule-actions.png){width="600" zoomable="yes"}
 
-1. 標準の手順に従って、 [買い物かご価格ルール](price-rules-cart-create.md).
+1. 標準的な手順に従って、[ 買い物かご価格ルール ](price-rules-cart-create.md) を完了します。
 
    価格ルールがアクティブ化されると、カートにメッセージが表示され、注文することで獲得できるポイント数を顧客に知らせます。 これは登録ユーザーにのみ適用され、ユーザーがログインしたときに異なる場合があります。

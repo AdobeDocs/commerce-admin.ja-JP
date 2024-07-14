@@ -14,51 +14,51 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-有効化すると、顧客がストアフロントから RMA リクエストを送信できるようになります。 RMA は、返品可能な品目が注文にある場合にのみ生成できます。 個々の項目を返すリクエストは、 _RMA を有効にする_ 各製品レコードの属性。 デフォルトでは、設定が製品に適用されます（_[!UICONTROL Use Config Settings]_が選択されている）。 次の場合_[!UICONTROL Enable RMA]_ はに設定されています。 `No`その場合、製品は返品可能な項目のリストには表示されません。 変更した場合 _RMA を有効にする_ 設定すると、新規注文と既存注文の両方に適用されます。
+有効化すると、顧客がストアフロントから RMA リクエストを送信できるようになります。 RMA は、返品可能な品目が注文にある場合にのみ生成できます。 個々の項目を返すリクエストは、各製品レコードの _RMA を有効にする_ 属性で管理されます。 デフォルトでは、設定が製品に適用されます（_[!UICONTROL Use Config Settings]_が選択されています）。_[!UICONTROL Enable RMA]_ を `No` に設定した場合、製品は返品可能な項目のリストには表示されません。 _RMA を有効化_ 設定を変更すると、新規注文と既存注文の両方に適用されます。
 
 ## ストアの RMA を有効にする
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL Sales]** その下に。
+1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、その下の「**[!UICONTROL Sales]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL RMA Settings]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL RMA Settings]**」セクションを展開します。
 
-   ![RMA 設定](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
+   ![RMA 設定 ](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
 
-1. を設定 **[!UICONTROL Enable RMA on Storefront]** 対象： `Yes`.
+1. **[!UICONTROL Enable RMA on Storefront]** を `Yes` に設定します。
 
    この設定により、顧客がストアフロントからの RMA リクエストを作成および表示できるかどうかが決まります。 RMA は、新規注文と既存注文の両方に適用できます。
 
-1. を設定 **[!UICONTROL Enable RMA on Product Level]** 対象： `Yes`.
+1. **[!UICONTROL Enable RMA on Product Level]** を `Yes` に設定します。
 
-   この設定により、の動作が決まります _RMA を有効にする_ ストアフロントの個々の製品の属性：
+   この設定により、ストアフロントの個々の製品の _RMA を有効にする_ 属性の動作が決まります。
 
-   - 条件 [!UICONTROL Enable RMA on Product Level] はに設定されています。 `Yes`を使用すると、ストアフロントの顧客は、個々の製品をすべて返すことができます。 次の両方が含まれます _[!UICONTROL Enable RMA]_= `Yes` および_[!UICONTROL Enable RMA]_ = `No` 製品属性値。
-   - 条件 [!UICONTROL Enable RMA on Product Level] はに設定されています。 `No`を使用すると、ストアフロントにいるお客様は、 _[!UICONTROL Enable RMA]_= `Yes` 製品属性値。
+   - [!UICONTROL Enable RMA on Product Level] を `Yes` に設定すると、ストアフロントのお客様は、個々の製品をすべて返すことができます。 _[!UICONTROL Enable RMA]_= `Yes` と_[!UICONTROL Enable RMA]_ = `No` の製品属性値の両方が含まれます。
+   - [!UICONTROL Enable RMA on Product Level] を `No` に設定すると、ストアフロントの顧客は、_[!UICONTROL Enable RMA]_= `Yes` 製品属性値を持つ製品のみを返すことができます。
 
-1. を設定 **[!UICONTROL Use Store Address]** を次のいずれかの値に変更します。
+1. **[!UICONTROL Use Store Address]** を次のいずれかの値に設定します。
 
-   - `Yes`  – 返品された商品をストアアドレスに送信します。
-   - `No`  – 製品の返品用の代替住所を入力します。
+   - `Yes` – 返品された商品をストアアドレスに送信します。
+   - `No` – 製品の返品用の代替所在地を入力します。
 
-   ![代替アドレスを使用した RMA 設定](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
+   ![ 代替アドレスを使用した RMA 設定 ](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。
 
 ## 返品用の出荷方法の構成
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL Delivery Methods]**.
+1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Delivery Methods]**」を選択します。
 
-1. 再来訪サービスに使用する通信事業者のセクションを展開します。例えば、次のようになります **[!UICONTROL UPS]**.
+1. 再来訪サービスに使用する通信事業者のセクション（例：**[!UICONTROL UPS]**）を展開します。
 
-   ![通信事業者の RMA サービスを有効にする](./assets/rma-delivery-method.png){width="600" zoomable="yes"}
+   ![ 通信事業者の RMA サービスを有効にする ](./assets/rma-delivery-method.png){width="600" zoomable="yes"}
 
-1. を設定 **[!UICONTROL Enabled for RMA]** 対象： `Yes`.
+1. **[!UICONTROL Enabled for RMA]** を `Yes` に設定します。
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。
 
 ## 製品レベルでの許可された RMA の変更
 
@@ -66,12 +66,12 @@ ht-degree: 0%
 
 1. 製品を編集モードで開きます。
 
-1. 下にスクロールして展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Autosettings]** セクション。
+1. 下にスクロールして、「**[!UICONTROL Autosettings]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 
-1. をクリア **[!UICONTROL Use Config Setting]** 必要に応じて、チェックボックスをオンにします。
+1. 必要に応じて、「**[!UICONTROL Use Config Setting]**」チェックボックスをオフにします。
 
-1. を切り替え **[!UICONTROL Enable RMA]** をに設定しています `No`.
+1. **[!UICONTROL Enable RMA]** 設定を `No` に切り替えます。
 
-   ![製品の RMA を無効にする](./assets/product-advanced-autosettings-enable-rma.png){width="600" zoomable="yes"}
+   ![ 製品の RMA の無効化 ](./assets/product-advanced-autosettings-enable-rma.png){width="600" zoomable="yes"}
 
-1. クリック **[!UICONTROL Save]**.
+1. 「**[!UICONTROL Save]**」をクリックします。

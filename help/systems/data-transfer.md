@@ -19,17 +19,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerceは、Commerce サーバーから SaaS サービスに商品データを転送するための SaaS データの書き出しもサポートしています。 SaaS データの書き出しは、次のようなCommerce SaaS サービスと統合されています [製品のRecommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)、および [カタログサービス](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). 詳しくは、を参照してください [SaaS データ エクスポート ガイド](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe Commerceは、Commerce サーバーから SaaS サービスに商品データを転送するための SaaS データの書き出しもサポートしています。 SaaS データの書き出しは、[Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html)、[Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)、[ カタログサービス ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) などのCommerce SaaS サービスと統合されています。 詳細については、「[SaaS データ書き出しガイド ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)」を参照してください。
 
 ## データの検証
 
-すべてのデータは、ストアに読み込む前に、値の品質、精度、整合性を確保するための検証に合格する必要があります。 をクリックすると検証が開始されます **[!UICONTROL Check Data]**. このプロセスでは、インポートファイル内のすべてのエンティティが以下について検証されます。
+すべてのデータは、ストアに読み込む前に、値の品質、精度、整合性を確保するための検証に合格する必要があります。 [**[!UICONTROL Check Data]**] をクリックすると、検証が開始されます。 このプロセスでは、インポートファイル内のすべてのエンティティが以下について検証されます。
 
-- **属性**  – 列ヘッダー名は、システム データベース内の対応する属性と一致することを確認するために検証されます。 各属性の値が、データタイプ（decimal、integer、varchar、text および datetime）の要件を満たしているかどうかを確認します。
-- **複雑なデータ**  – 定義済みのセット（ドロップダウンや複数選択の入力タイプなど）から取得された値が、定義済みのセットに値が存在することを確認するために検証されます。
-- **サービスデータ** - サービスデータ列の値は、プロパティや複雑なデータ値がシステムデータベースで既に定義されているものと一致していることを確認するために検証されます。
-- **必要な値**  – 新規エンティティの場合、必要な属性値がファイルに存在するかどうかがチェックされます。 既存のエンティティの場合、必要な属性値の存在を再確認する必要はありません。
-- **区切り** - スプレッドシートで表示すると区切り記号は表示されませんが、CSV ファイルのデータ値はコンマで区切られ、テキスト値は二重引用符で囲まれます。 検証プロセスでは、区切り文字の書式と、文字列を囲む引用符のセットが検証されます。
+- **属性** – 列ヘッダー名がシステムデータベース内の対応する属性に一致することを確認するために検証されます。 各属性の値が、データタイプ（decimal、integer、varchar、text および datetime）の要件を満たしているかどうかを確認します。
+- **複合データ** – 定義済みのセット（ドロップダウンや複数の選択入力タイプなど）から取得された値が、定義済みのセットに値が存在することを確認します。
+- **サービスデータ** - サービスデータ列の値は、プロパティや複雑なデータ値がシステムデータベースで既に定義されているものと一致することを確認するために検証されます。
+- **必要な値** – 新しいエンティティの場合、ファイル内に必要な属性値が存在するかどうかが確認されます。 既存のエンティティの場合、必要な属性値の存在を再確認する必要はありません。
+- **区切り記号** - スプレッドシートで表示すると区切り記号は表示されませんが、CSV ファイル内のデータ値はコンマで区切られ、テキスト値は二重引用符で囲まれます。 検証プロセスでは、区切り文字の書式と、文字列を囲む引用符のセットが検証されます。
 
 検証の結果は、「検証結果」セクションに表示され、次の情報が含まれます。
 
@@ -37,9 +37,9 @@ ht-degree: 0%
 - 無効な行数
 - 見つかったエラーの数
 
-データが有効な場合、 _インポートの成功_ メッセージが表示されます。
+データが有効な場合は、_インポートの成功_ メッセージが表示されます。
 
-![システム メッセージ – ファイルは有効です](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
+![ システムメッセージ – ファイルは有効です ](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
 
 検証に失敗した場合は、各エラーの説明を読み、CSV ファイルで問題を修正します。 例えば、行に無効な SKU が含まれている場合、インポートプロセスは停止し、その行はインポートされず、後続のすべての行はインポートされません。 問題が正しく解決されたら、データを再度インポートします。 多くのエラーが発生した場合は、検証に合格するまでに何度か時間がかかることがあります。
 

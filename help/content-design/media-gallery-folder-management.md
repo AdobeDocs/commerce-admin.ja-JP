@@ -12,36 +12,36 @@ ht-degree: 0%
 
 # Media Gallery フォルダー管理
 
-フォルダーを使用した新規画像の整理 [メディアギャラリー](media-gallery.md). メディアアセットの数が増えると、フォルダーを使用してメディアギャラリー内の既存のアセットを簡単に見つけて管理できます。
+フォルダーを使用して、新しい [ メディアギャラリー ](media-gallery.md) の画像を整理します。 メディアアセットの数が増えると、フォルダーを使用してメディアギャラリー内の既存のアセットを簡単に見つけて管理できます。
 
 ## フォルダーの作成
 
 >[!NOTE]
 >
->ではフォルダーのみを作成できます `pub/media/wysywig` および `pub/media/catalog/category` フォルダー。
+>`pub/media/wysywig` フォルダーと `pub/media/catalog/category` フォルダーにのみフォルダーを作成できます。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
 
-1. クリック **[!UICONTROL Create Folder]**.
+1. 「**[!UICONTROL Create Folder]**」をクリックします。
 
-   サブフォルダーを作成する場合は、親フォルダーを選択してから、をクリックします **[!UICONTROL Create Folder]**.
+   サブフォルダーを作成する場合は、親フォルダーを選択してから「**[!UICONTROL Create Folder]**」をクリックします。
 
-1. 新しいフォルダー名を入力し、 **[!UICONTROL Confirm]**.
+1. 新しいフォルダー名を入力し、「**[!UICONTROL Confirm]**」をクリックします。
 
-   ![新しいフォルダー名](./assets/media-gallery-folder-name.png){width="600" zoomable="yes"}
+   ![ 新規フォルダー名 ](./assets/media-gallery-folder-name.png){width="600" zoomable="yes"}
 
 ## フォルダーの削除
 
 >[!WARNING]
 >
->フォルダーを削除すると、そのフォルダー内のすべての画像が削除されます。 で削除できるのはフォルダーのみです `pub/media/wysywig` および `pub/media/catalog/category` フォルダー。
+>フォルダーを削除すると、そのフォルダー内のすべての画像が削除されます。 `pub/media/wysywig` フォルダーと `pub/media/catalog/category` フォルダー内のフォルダーのみを削除できます。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
 
 1. 削除するフォルダーを選択します。
 
-   ![フォルダーを選択](./assets/media-gallery-selected-folder.png){width="600" zoomable="yes"}
+   ![ フォルダーを選択 ](./assets/media-gallery-selected-folder.png){width="600" zoomable="yes"}
 
-1. クリック **[!UICONTROL Delete Folder]**.
+1. 「**[!UICONTROL Delete Folder]**」をクリックします。
 
-1. フォルダーの削除を確認するには、 **[!UICONTROL OK]**.
+1. フォルダーの削除を確認するには、「**[!UICONTROL OK]**」をクリックします。

@@ -16,31 +16,31 @@ ht-degree: 0%
 
 ## 手順 1：メールテンプレートの更新
 
-ブランドを反映させるために、必要なメールテンプレートを更新したことを確認します。 テンプレートの完全なリストについては、を参照してください [E メール テンプレート リスト](../systems/email-templates.md#email-template-list).
+ブランドを反映させるために、必要なメールテンプレートを更新したことを確認します。 テンプレートの完全なリストについては、[ メールテンプレートリスト ](../systems/email-templates.md#email-template-list) を参照してください。
 
 ## 手順 2：支払いに失敗したメールの設定
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL Checkout]**.
+1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Payment Failed Emails]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Payment Failed Emails]**」セクションを展開します。
 
-   ![支払いに失敗したメール](../configuration-reference/sales/assets/checkout-payment-failed-emails.png){width="600" zoomable="yes"}
+   ![ 支払いに失敗したメール ](../configuration-reference/sales/assets/checkout-payment-failed-emails.png){width="600" zoomable="yes"}
 
 1. 支払失敗 E メールのオプションを設定します：
 
-   - を設定 **[!UICONTROL Payment Failed Email Sender]** メッセージの送信者として表示されるストアの連絡先に送信されます。
-   - を設定 **[!UICONTROL Payment Failed Email Receiver]** に送信されます。ストアの連絡先は、メール送信の失敗の通知を受け取ることになります。
-   - を設定 **[!UICONTROL Payment Failed Template]** チェックアウト中に支払い方法が失敗した場合に送信されるメールに使用されるテンプレート。
+   - メッセージの送信者として表示されるストアの連絡先に **[!UICONTROL Payment Failed Email Sender]** を設定します。
+   - **[!UICONTROL Payment Failed Email Receiver]** を、メール送信の失敗の通知を受信するストア連絡先に設定します。
+   - チェックアウト中に支払い方法が失敗した場合に送信される E メールに使用されるテンプレートに **[!UICONTROL Payment Failed Template]** を設定します。
 
-1. の場合 **[!UICONTROL Send Payment Failed Email Copy To]**：支払い失敗通知のコピーを受け取るユーザーのメールアドレスを入力します。
+1. **[!UICONTROL Send Payment Failed Email Copy To]**：支払失敗通知のコピーを受け取るユーザーの電子メール アドレスを入力します。
 
    複数の受信者にコピーを送信する場合は、各アドレスをコンマで区切ります。
 
-1. を設定 **[!UICONTROL Payment Failed Copy Method]** を次のいずれかに変更します。
+1. **[!UICONTROL Payment Failed Copy Method]** を次のいずれかに設定します。
 
-   - `Bcc`  – が _盲目の礼状コピー_ 顧客に送信されるのと同じメールのヘッダーに受信者を含めることで答えることができます。 BCC 受信者が顧客に表示されない。
-   - `Separate Email` - コピーを別のメールとして送信します。
+   - `Bcc` – 顧客に送信されるのと同じメールのヘッダーに受信者を含めることで、_ブラインドの儀礼用コピー_ を送信します。 BCC 受信者が顧客に表示されない。
+   - `Separate Email` - コピーを個別のメールとして送信します。
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。

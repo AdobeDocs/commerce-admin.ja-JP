@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists]'
-description: の設定を確認します。 [!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists] コマース管理者のページ。
+description: Commerce Admin の [!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists] ページで設定を確認します。
 exl-id: 3720d9de-a5cc-4c44-a42a-af7409021f52
 feature: Configuration, B2B
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
@@ -18,20 +18,20 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce B2B をインストールして有効化すると、会社固有の機能を使用して購入体験をパーソナライズできます。 Adobe Commerce B2B は、B2B モデルと B2C モデルの両方をサポートする統合ソリューションです。 B2B 機能について詳しくは、 [_Adobe Commerce B2B ユーザーガイド_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Adobe Commerce B2B をインストールして有効化すると、会社固有の機能を使用して購入体験をパーソナライズできます。 Adobe Commerce B2B は、B2B モデルと B2C モデルの両方をサポートする統合ソリューションです。 B2B 機能について詳しくは、[_Adobe Commerce B2B ユーザーガイド_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) を参照してください。
 
 >[!NOTE]
 >
->B2B 機能に対するこれらの設定オプションへのアクセスは、 [役割リソース](../../systems/permissions-user-roles.md#role-resources). これらのロールリソースは、管理者ユーザーに割り当てられたユーザーロール用に設定される必要があります。
+>B2B 機能に対するこれらの設定オプションへのアクセスは、[ 役割リソース ](../../systems/permissions-user-roles.md#role-resources) によって制御されます。 これらのロールリソースは、管理者ユーザーに割り当てられたユーザーロール用に設定される必要があります。
 
 ## [!UICONTROL General]
 
-![一般](./assets/requisition-lists-general.png)<!-- zoom -->
+![ 一般 ](./assets/requisition-lists-general.png)<!-- zoom -->
 
 <!-- General](https://docs.magento.com/user-guide/stores/b2b-configure-requisition-lists.html) -->
 
-| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Number of Requisition Lists] | ストア表示 | 顧客 ID ごとに維持可能な購買依頼リストの最大数を決定します。 最小数はです `2`、最大値はです `999`. |
+| [!UICONTROL Number of Requisition Lists] | ストア表示 | 顧客 ID ごとに維持可能な購買依頼リストの最大数を決定します。 最小値は `2`、最大値は `999` です。 |
 
 {style="table-layout:auto"}

@@ -16,56 +16,56 @@ ht-degree: 0%
 
 ## 顧客パスワードオプションの設定
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Customers]** を選択します **[!UICONTROL Customer Configuration]**.
+1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Customer Configuration]**」を選択します。
 
-1. を展開します。 **[!UICONTROL Password Options]** セクション。
+1. 「**[!UICONTROL Password Options]**」セクションを展開します。
 
-   ![パスワードオプション](../configuration-reference/customers/assets/customer-configuration-password-options.png){width="600" zoomable="yes"}
+   ![ パスワードオプション ](../configuration-reference/customers/assets/customer-configuration-password-options.png){width="600" zoomable="yes"}
 
-1. を **[!UICONTROL Password Reset Protection Type]** パスワードリセットリクエストの確認に使用するメソッドに対して：
+1. パスワードリセットリクエストの確認に使用するメソッドの **[!UICONTROL Password Reset Protection Type]** を設定します。
 
-   - `By IP and Email`  – 特定の電子メールまたは特定の IP からパスワードをリセットしようとしたことがないかどうかを確認します。
-   - `By IP`  – 特定の IP からパスワードのリセットが前回試行されたかどうかを確認します。
-   - `By Email`  – 特定の E メールに対してパスワードのリセットが過去に試行されていないか確認します。
-   - `None`  – 保護が無効（パスワードのリセットに制限なし）。
+   - `By IP and Email` – 特定の E メールまたは特定の IP からパスワードをリセットしようとした回数を確認します。
+   - `By IP` – 特定の IP からパスワードのリセットが前回試行されていないか確認します。
+   - `By Email` – 特定の E メールに対してパスワードのリセットが過去に試行されていないか確認します。
+   - `None` – 保護が無効（パスワードのリセットに制限なし）。
 
-   この **[!UICONTROL Max Number of Password Reset Requests]** および **[!UICONTROL Min Time Between Password Reset Requests]** はこの設定に基づいて計算されます。
+   **[!UICONTROL Max Number of Password Reset Requests]** と **[!UICONTROL Min Time Between Password Reset Requests]** は、この設定に基づいて計算されます。
 
 1. 1 時間あたりに送信されるパスワードリセット要求の数を制限するには、次の操作を行います。
 
-   - の場合 **[!UICONTROL Max Number of Password Reset Requests]**&#x200B;に設定し、1 時間あたりに送信できるパスワードリセットリクエストの最大数を入力します。
+   - **[!UICONTROL Max Number of Password Reset Requests]**:1 時間あたりに送信できるパスワードリセットリクエストの最大数を入力します。
 
-   - の場合 **[!UICONTROL Min Time Between Password Reset Requests]**&#x200B;は、リクエストから次のリクエストまでの最小時間（分）を入力します。
+   - **[!UICONTROL Min Time Between Password Reset Requests]**：要求間の経過に必要な最小分数を入力します。
 
 1. パスワードリセットメール通知を設定するには、次の手順を実行します。
 
-   - を設定 **[!UICONTROL Forgot Email Template]** パスワードを忘れた顧客に送信されるメールに使用されるテンプレート。
+   - パスワードを忘れた顧客に送信されるメールに使用されるテンプレートに **[!UICONTROL Forgot Email Template]** を設定します。
 
-   - を設定 **[!UICONTROL Remind Email Template]** を、管理者ユーザーが顧客パスワードをリセットする際に使用するテンプレートに変更します。
+   - 管理者ユーザーが顧客パスワードをリセットする際に使用するテンプレートに **[!UICONTROL Remind Email Template]** を設定します。
 
-   - を設定 **[!UICONTROL Reset Password Template]** を、顧客がパスワードを変更する際に使用するテンプレートに変更します。
+   - 顧客がパスワードを変更する際に使用するテンプレートに **[!UICONTROL Reset Password Template]** を設定します。
 
-   - を設定 **[!UICONTROL Password Template Email Sender]** に [店舗の連絡先](../getting-started/store-details.md) パスワード関連の通知の送信者として表示されます。
+   - パスワード関連の通知の送信者として表示される [ ストアの連絡先 ](../getting-started/store-details.md) に **[!UICONTROL Password Template Email Sender]** を設定します。
 
 1. 次のパスワードリセットセキュリティオプションを入力します。
 
-   - の場合 **[!UICONTROL Recovery Link Expiration Period (hours)]**：パスワード回復リンクの有効期限が切れるまでの時間数を入力します。
+   - **[!UICONTROL Recovery Link Expiration Period (hours)]**: パスワード回復リンクの有効期限が切れるまでの時間数を入力します。
 
-   - 顧客ログインおよびパスワードを忘れた場合のフォームのフィールドを以前の入力内容から自動的に入力する場合は、次のように設定します **[!UICONTROL Enable Autocomplete on login/forgot password forms]** 対象： `Yes`.
+   - 顧客ログインおよびパスワードを忘れた場合のフォームのフィールドを以前の入力内容から自動的に入力する場合は、「**[!UICONTROL Enable Autocomplete on login/forgot password forms]**」を「`Yes`」に設定します。
 
-   - の場合 **[!UICONTROL Number of Required Character Classes]**：次の文字クラスに基づいて、パスワードに含める必要がある様々な文字タイプの数を入力します。
+   - **[!UICONTROL Number of Required Character Classes]**：次の文字クラスに基づいて、パスワードに含める必要がある様々な文字タイプの数を入力します。
 
       - `Lowercase`
       - `Uppercase`
       - `Numeric`
       - `Special Characters`
 
-   - の場合 **[!UICONTROL Maximum Login Failures to Lockout Account]**&#x200B;を入力し、カスタマーアカウントがロックされるまでログインが失敗した回数を入力します。 試行回数を制限しない場合は、ゼロ（`0`）に設定します。
+   - **[!UICONTROL Maximum Login Failures to Lockout Account]**: カスタマーアカウントがロックされるまでログインが失敗した回数を入力します。 試行回数に制限のない場合は、ゼロ（`0`）を入力します。
 
-   - の場合 **[!UICONTROL Minimum Password Length]**：パスワードで使用できる最小文字数を入力します。 数値は 0 より大きくなければなりません。
+   - **[!UICONTROL Minimum Password Length]**: パスワードで使用できる最小文字数を入力します。 数値は 0 より大きくなければなりません。
 
-   - の場合 **[!UICONTROL Lockout Time (minutes)]**：ログインの試行に失敗した回数が多すぎた場合に顧客アカウントがロックされる時間（分）を入力します。
+   - **[!UICONTROL Lockout Time (minutes)]**: ログインの試行に失敗した回数が多すぎた場合に顧客アカウントがロックされる時間（分）を入力します。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

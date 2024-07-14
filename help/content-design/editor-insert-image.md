@@ -13,62 +13,62 @@ ht-degree: 0%
 
 エディターから、次の 3 つのソースタイプを使用して画像を挿入できます。
 
-- にアップロードされた画像を追加 [メディアストレージ](media-storage.md)
+- [ メディアストレージ ](media-storage.md) にアップロードされた画像を追加
 - 別のサーバーにある画像へのリンク
 - Adobe Stock統合を使用したAdobe Stock アセットの検索と使用
 
-![メディアストレージ](./assets/media-storage.png){width="650" zoomable="yes"}
+![ メディアストレージ ](./assets/media-storage.png){width="650" zoomable="yes"}
 
 1. ページ、ブロック、またはダイナミックブロックを編集モードで開きます。
 
-1. に移動します _[!UICONTROL Content]_「」セクションで、エディターをサポートする要素をクリックします。
+1. 「_[!UICONTROL Content]_」セクションに移動して、エディターをサポートする要素をクリックします。
 
 1. 画像を表示する位置にカーソルを置きます。
 
-1. エディターツールバーで、 _画像の挿入_ アイコン。
+1. エディターツールバーで、「_画像を挿入_ アイコンをクリックします。
 
-   ![画像を挿入アイコン](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
+   ![ 画像を挿入アイコン ](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   このアクションにより、が開きます _[!UICONTROL Insert/edit image]_ダイアログ。
+   この操作を実行すると、_[!UICONTROL Insert/edit image]_ダイアログが開きます。
 
-1. の場合 **ソース**&#x200B;を選択し、 _検索_ アイコンをクリックし、使用する画像アセットの場所に一致するメソッドを使用します。
+1. **Source** の場合は、「_検索_ アイコンをクリックし、使用する画像アセットの場所に一致するメソッドを使用します。
 
-   ![検索アイコンの選択](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
+   ![ 検索アイコンの選択 ](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 
-   - **新しい画像をアップロード**：この方法を使用して、新しい画像ファイルをアップロードします。
+   - **新しい画像をアップロード**：新しい画像ファイルをアップロードするには、この方法を使用します。
 
       - 新しい画像ファイルを追加するツリー内のフォルダーを選択します。
 
-      - クリック **[!UICONTROL Choose Files]**.
+      - 「**[!UICONTROL Choose Files]**」をクリックします。
 
       - 画像ファイルを見つけて選択します。
 
-      - 新しいファイルのサムネールをクリックし、 **[!UICONTROL Add Selected]**.
+      - 新しいファイルのサムネールをクリックし、「**[!UICONTROL Add Selected]**」をクリックします。
 
-   - **既存のアセットを選択**：メディアストレージ/ギャラリーから既存の画像アセットを選択するには、この方法を使用します。
+   - **既存のアセットを選択**：メディアストレージ/ギャラリーから既存の画像アセットを選択する場合は、この方法を使用します。
 
       - ツリーを使用して画像に移動します。
 
-      - サムネールをクリックし、 **[!UICONTROL Add Selected]**.
+      - サムネールをクリックし、「**[!UICONTROL Add Selected]**」をクリックします。
 
-   - **Adobe Stock画像を検索して選択します**:Adobe Stock内から画像を検索する場合に使用します。
+   - **Adobe Stock画像を検索して選択**:Adobe Stock内から画像を検索する場合に使用します。
 
      >[!NOTE]
      >
-     >このメソッドには、 [Adobe Stockの統合](adobe-stock.md) が管理者用に設定されています。
+     >この方法を使用するには、管理者向けに設定された ](adobe-stock.md)0}Adobe Stock統合 } が必要です。[
 
-      - クリック **[!UICONTROL Search Adobe Stock]** で画像を検索します。
+      - 「**[!UICONTROL Search Adobe Stock]**」をクリックして画像を検索します。
 
       - プレビューまたはライセンス済み画像をギャラリーに保存します。
 
-        参照： [Adobe Stock画像の使用](adobe-stock-manage.md) の操作の詳細 [Adobe Stock](https://stock.adobe.com) アセット。
+        [2}Adobe Stock](adobe-stock-manage.md) アセットの操作について詳しくは、{Adobe Stock画像の使用 ](https://stock.adobe.com) を参照してください。[
 
-      - ギャラリーでアセットサムネールを選択し、をクリックします。 **[!UICONTROL Add Selected]**.
+      - ギャラリーでアセットのサムネールを選択し、「**[!UICONTROL Add Selected]**」をクリックします。
 
-1. の場合 **[!UICONTROL Image Description]**：画像の簡単な説明を入力します。
+1. **[!UICONTROL Image Description]**：画像の簡単な説明を入力します。
 
-1. 幅と高さを入力 **[!UICONTROL Dimensions]**&#x200B;ページ上に画像をレンダリングするためのピクセル単位。
+1. ページ上の画像のレンダリングに使用する幅と高さの **[!UICONTROL Dimensions]** をピクセル単位で入力します。
 
-   保持： **[!UICONTROL Constrain proportions]** 画像の縦横比を自動的に維持する場合に選択したチェックボックス。
+   画像の縦横比を自動的に維持するには、「**[!UICONTROL Constrain proportions]**」チェックボックスをオンのままにします。
 
-1. クリック **[!UICONTROL Insert]** をクリックしてプロセスを完了します。
+1. 「**[!UICONTROL Insert]**」をクリックしてプロセスを完了します。

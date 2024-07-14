@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # ストアのプライバシーポリシー
 
-ストアには、独自の情報で更新する必要があるサンプルプライバシーポリシーが含まれています。 プライバシーポリシーでは、会社が収集する情報の種類と使用方法を説明する必要があります。 次のファイル名のリストも表示されます。 [cookie](compliance-cookie-law.md#default-cookies) お店を訪れた人のコンピューターに置かれるファイルです。 サードパーティの拡張機能やアドオンに関連付けられているその他の Cookie は、リストに含める必要があります。
+ストアには、独自の情報で更新する必要があるサンプルプライバシーポリシーが含まれています。 プライバシーポリシーでは、会社が収集する情報の種類と使用方法を説明する必要があります。 また、ストアを訪問した人のコンピューターに配置されている [cookie](compliance-cookie-law.md#default-cookies) のファイル名もリストする必要があります。 サードパーティの拡張機能やアドオンに関連付けられているその他の Cookie は、リストに含める必要があります。
 
 ## 個人データ
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 情報が適用される個人の身元を許可する情報の表現は、直接的または間接的な手段のいずれかによって合理的に推測されます。 PII は、個人を直接識別する情報（名前、住所、社会保障番号、その他の識別番号など）として定義されます。 また、他のデータ要素を用いて特定の個人を識別しようとする情報（間接識別）でもあります。 これらのデータ要素には、性別、人種、生年月日、地理的指標、その他の記述子の組み合わせが含まれる場合があります。 また、特定の個人の物理的またはオンラインでの接触を許可する情報は、個人を特定できる情報と同じであることが含まれます。 この情報は、紙、電子、またはその他のメディアで維持管理できます。
 
-![ストアフロントの例 – プライバシーポリシー](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
+![ ストアフロントの例 – プライバシーポリシー ](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
 
 ## プライバシーポリシーを編集
 
@@ -34,18 +34,18 @@ ht-degree: 0%
 >
 >Luma サンプルデータには、ユーザーが使用するために変更できるサンプルプライバシーポリシーが含まれています。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
 
-1. グリッドで、次を検索します **[!UICONTROL Privacy Policy]**. 次に、 _[!UICONTROL Action]_列、クリック&#x200B;**[!UICONTROL Select]**を選択します&#x200B;**[!UICONTROL Edit]**.
+1. グリッドで、**[!UICONTROL Privacy Policy]** を見つけます。 次に、「_[!UICONTROL Action]_」列の「**[!UICONTROL Select]**」をクリックし、「**[!UICONTROL Edit]**」を選択します。
 
    >[!NOTE]
    >
-   >プライバシーポリシーページの URL キーを変更する場合は、も作成する必要があります [カスタム URL 書き換え](../merchandising-promotions/url-rewrite-custom.md) 新しい URL キーにトラフィックをリダイレクトします。 それ以外の場合は、フッターのリンクがを返します `404 Page Not Found`.
+   >プライバシーポリシーページの URL キーを変更する場合は、新しい URL キーにトラフィックをリダイレクトする [ カスタム URL 書き換え ](../merchandising-promotions/url-rewrite-custom.md) を作成する必要もあります。 それ以外の場合、フッター内のリンクは `404 Page Not Found` を返します。
 
-1. を展開します。 **[!UICONTROL Content]** をセクション化し、コンテンツに必要な変更を加えます。
+1. 「**[!UICONTROL Content]**」セクションを展開し、コンテンツに必要な変更を加えます。
 
-   ページコンテンツツールの使用について詳しくは、 [コンテンツの完了](../content-design/page-add.md#step-2-complete-the-content) が含まれる _コンテンツおよびデザインガイド_.
+   ページコンテンツツールの使用について詳しくは、『 [ コンテンツおよびデザインガイド _の ](../content-design/page-add.md#step-2-complete-the-content) コンテンツを完了_ を参照してください。
 
-   ![プライバシーポリシーページ – コンテンツを編集](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
+   ![ プライバシーポリシーページ – コンテンツを編集 ](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
 
-1. 完了したら、 **[!UICONTROL Save Page]**.
+1. 完了したら、「**[!UICONTROL Save Page]**」をクリックします。

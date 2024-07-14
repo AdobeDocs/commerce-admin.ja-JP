@@ -13,40 +13,40 @@ ht-degree: 0%
 
 テーマのデザインの変更を事前にスケジュールして、ビジネスサイクルとイベントに応じて有効にします。 季節的な変化やプロモーションのためにスケジュールされたデザインの変更を使用することも、バリエーションを追加するためだけに使用することもできます。
 
-![スケジュールされた設計の変更](./assets/design-schedule.png){width="700" zoomable="yes"}
+![ スケジュールされた設計の変更 ](./assets/design-schedule.png){width="700" zoomable="yes"}
 
 ## スケジュールされたデザインの変更を追加
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Schedule]**に移動します。
 
-1. クリック **[!UICONTROL Add Design Change]**.
+1. 「**[!UICONTROL Add Design Change]**」をクリックします。
 
-   ![新しいストア デザインの変更の設定](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
+   ![ 新しいストア デザイン変更の設定 ](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
 
-1. を設定 **[!UICONTROL Store]** 変更を適用するストア表示に移動します。
+1. 変更を適用するストア表示に **[!UICONTROL Store]** を設定します。
 
-1. を設定 **[!UICONTROL Custom Design]** 使用するテーマまたはテーマのバリエーション。
+1. 使用するテーマまたはテーマのバリエーションに **[!UICONTROL Custom Design]** を設定します。
 
-1. の場合 **[!UICONTROL Date From]** および **[!UICONTROL Date To]**&#x200B;を選択し、 _カレンダー_ （![カレンダーアイコン](../assets/icon-calendar.png)） アイコンをクリックして、変更が有効な期間の開始値と終了値を選択します。
+1. **[!UICONTROL Date From]** と **[!UICONTROL Date To]** については、_カレンダー_ （![ カレンダーアイコン ](../assets/icon-calendar.png)）アイコンをクリックして、変更が有効になっている期間の開始値と終了値を選択します。
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
 ## スケジュールされたデザインの変更を編集
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Schedule]**に移動します。
 
 1. 編集する項目を選択します。
 
 1. 必要な変更を加えます。
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
 ## スケジュールされたデザインの変更を削除
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Schedule]**に移動します。
 
 1. 削除する項目を選択します。
 
-1. ページ上部のボタン バーで、 **[!UICONTROL Delete]**.
+1. ページ上部のボタン バーの [**[!UICONTROL Delete]**] をクリックします。
 
-1. アクションを確定するには、 **[!UICONTROL OK]**.
+1. アクションを確定するには、「**[!UICONTROL OK]**」をクリックします。

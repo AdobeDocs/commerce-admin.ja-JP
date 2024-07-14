@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Commerce Intelligence] ツール'
-description: Adobe CommerceとMagento Open SourceマーチャントがCommerce Intelligence ツールを使用して、健全なビジネス上の意思決定に使用されるインサイトを得る方法について説明します。
+description: Adobe CommerceとMagento Open SourceマーチャントがCommerce Intelligence ツールを使用して、健全なビジネス上の意思決定に使用されるインサイトを得る方法を説明します。
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
 source-git-commit: 78bcac16713f9ec87faf7029732972db73216e79
@@ -12,23 +12,23 @@ ht-degree: 0%
 
 # [!DNL Commerce Intelligence] ツール
 
-Commerce Intelligence ツールを使用すると、ビジネス上の意思決定を健全にするために使用されるインサイトを得ることができます。
+Commerce Intelligence ツールを使用すると、健全なビジネス上の意思決定に使用されるインサイトを得ることができます。
 
 ## [!DNL Commerce Intelligence] アカウント
 
-をアクティブ化したとき [!DNL Commerce Intelligence] Adobeを通じてアカウントを設定し、約 70 件のレポートを含む 5 つのダッシュボードにアクセスできます。 これらのレポートは、データに関するインサイトを提供し、「注文が前月比でどのように増加しているか」、「最も常連客は誰か」、「クーポン戦略は機能しているか」などの質問に回答するように設計されています。 このツール セットの詳細については、を参照してください [Commerce Intelligence ユーザーガイド][1].
+Adobeを通じて [!DNL Commerce Intelligence] アカウントをアクティブ化すると、約 70 件のレポートを含む 5 つのダッシュボードにアクセスできます。 これらのレポートは、データに関するインサイトを提供し、「注文が前月比でどのように増加しているか」、「最も常連客は誰か」、「クーポン戦略は機能しているか」などの質問に回答するように設計されています。 このツールセットについて詳しくは、[Commerce Intelligenceユーザーガイド ][1] を参照してください。
 
 ## [!DNL Advanced Reporting]
 
-[!DNL Advanced Reporting] は、Adobe CommerceおよびMagento Open Sourceに含まれています。 この機能を使用すると、製品、注文、顧客データに基づく動的レポートスイートにアクセスでき、ビジネスニーズに合わせてパーソナライズされたダッシュボードが提供されます。 While [!DNL Advanced Reporting] 使用 [!DNL Commerce Intelligence] analytics の場合、使用するためにCommerce Intelligence アカウントは必要ありません [!DNL Advanced Reporting].
+[!DNL Advanced Reporting] は、Adobe CommerceおよびMagento Open Sourceに含まれています。 この機能を使用すると、製品、注文、顧客データに基づく動的レポートスイートにアクセスでき、ビジネスニーズに合わせてパーソナライズされたダッシュボードが提供されます。 [!DNL Advanced Reporting] は Analytics に [!DNL Commerce Intelligence] を使用しますが、[!DNL Advanced Reporting] を使用するためにCommerce Intelligence アカウントを持っている必要はありません。
 
-技術情報については、を参照してください [[!DNL Advanced Reporting]][2]開発者ドキュメントの {:target=&quot;_blank&quot;} トピック。
+技術情報については、開発者向けドキュメントの [[!DNL Advanced Reporting]][2]{:target=&quot;_blank&quot;} トピックを参照してください。
 
 >[!NOTE]
 >
->との互換性の問題により [!DNL Adobe Commerce Intelligence]、Commerceは、AWS S3 バケットを内のソースデータファイルのメディアとして使用した高度なレポートを一時的にサポートできません [!DNL Commerce Intelligence].
+>[!DNL Adobe Commerce Intelligence] との互換性の問題により、Commerceは一時的に、[!DNL Commerce Intelligence] のソースデータファイルのメディアとしてAWS S3 バケットを使用した高度なレポートをサポートできません。
 
-![高度なレポートダッシュボード](./assets/reporting-advanced.png){width="700"}
+![ 詳細レポートダッシュボード ](./assets/reporting-advanced.png){width="700"}
 
 ### 要件
 
@@ -36,94 +36,94 @@ Commerce Intelligence ツールを使用すると、ビジネス上の意思決�
 
 * ドメインには有効なセキュリティ（SSL）証明書が必要です。
 
-* [!DNL Commerce] は、エラーなく正常にインストールまたはアップグレードされた必要があります。
+* [!DNL Commerce] は、エラーなく正常にインストールまたはアップグレードされている必要があります。
 
-* が含まれる [!DNL Commerce] の設定 [url を格納](../stores-purchase/store-urls.md), **[!UICONTROL Base URL (Secure)]** ストア表示の設定は、セキュア URL を指している必要があります。 例： `https://yourdomain.com`.
+* [ ストア URL](../stores-purchase/store-urls.md) の [!DNL Commerce] 設定では、ストア表示の **[!UICONTROL Base URL (Secure)]** 設定はセキュア URL を指している必要があります。 例：`https://yourdomain.com`。
 
-* が含まれる [!DNL Commerce] ストア URL の設定、 **[!UICONTROL Use Secure URLs on Storefront]** および **[!UICONTROL Use Secure URLs in Admin]** に設定する必要があります。 `Yes`.
+* ストア URL の [!DNL Commerce] 設定では、**[!UICONTROL Use Secure URLs on Storefront]** と **[!UICONTROL Use Secure URLs in Admin]** を `Yes` に設定する必要があります。
 
-* [[!DNL Commerce] crontab][3] が作成され、インストールされたサーバーで cron ジョブが実行されている。
+* [[!DNL Commerce] crontab][3] が作成され、インストールされたサーバーで cron ジョブが実行されます。
 
 >[!NOTE]
 >
->[!DNL Advanced Reporting] と共にのみ使用できます [!DNL Commerce] 1 つを継続的に使用したインストール [基準通貨](../stores-purchase/currency-configuration.md).
+>[!DNL Advanced Reporting] は、単一の [ 基本通貨 ](../stores-purchase/currency-configuration.md) を継続的に使用している [!DNL Commerce] インストールでのみ使用できます。
 
 
-### 手順 1：を有効にする [!DNL Advanced Reporting]
+### 手順 1:[!DNL Advanced Reporting] を有効にする
 
-が含まれる [!DNL Commerce] 設定、 [[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md) はデフォルトで有効になっており、cron が [設定済み](../configuration-reference/advanced/system.md) を実行しています。 サブスクリプションを確立する試みは、成功するまで、次の 24 時間にわたって各時間の初めに開始されます。 購読のステータスは、購読が正常に確立されるまで「保留中」です。
+[!DNL Commerce] の設定では、[[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md) はデフォルトで有効になっており、cron が [ 設定 ](../configuration-reference/advanced/system.md) および実行されている場合に自動的に起動します。 サブスクリプションを確立する試みは、成功するまで、次の 24 時間にわたって各時間の初めに開始されます。 購読のステータスは、購読が正常に確立されるまで「保留中」です。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のナビゲーションパネルで、 **[!UICONTROL General]** 展開済み、を選択 **[!UICONTROL Advanced Reporting]** 次の手順を実行します。
+1. **[!UICONTROL General]** が展開されている左側のナビゲーションパネルで「**[!UICONTROL Advanced Reporting]**」を選択し、以下の手順を実行します。
 
-   * を確認します。 **[!UICONTROL Advanced Reporting Service]** はに設定されています。 `Enable` （デフォルト設定）。
+   * **[!UICONTROL Advanced Reporting Service]** が `Enable` （デフォルト設定）に設定されていることを確認します。
 
-   * を **[!UICONTROL Time of day to send data]** サービスでストアから更新されたデータを受信する時刻（24 時間制）。 デフォルトでは、データは午前 2 時に送信されます。
+   * ストアから更新されたデータをサービスで受信する **[!UICONTROL Time of day to send data]** を、24 時間制に従って、時、分、秒に設定します。 デフォルトでは、データは午前 2 時に送信されます。
 
-   * 次の下 **[!UICONTROL Industry Data]**、を選択します **[!UICONTROL Industry]** それが君の仕事にもっともよく当てはまる。
+   * [**[!UICONTROL Industry Data]**] で、ビジネスに最も適した **[!UICONTROL Industry]** を選択します。
 
-   ![高度なレポート設定](./assets/advanced-reporting-config.png){width="400"}
+   ![ 高度なレポート設定 ](./assets/advanced-reporting-config.png){width="400"}
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
-1. プロンプトが表示されたら、 **[[!UICONTROL Cache Management]](../systems/cache-management.md)** ページ上部のメッセージで、無効なキャッシュを更新します。
+1. プロンプトが表示されたら、ページ上部のメッセージの **[[!UICONTROL Cache Management]](../systems/cache-management.md)** をクリックし、無効なキャッシュを更新します。
 
-1. 夜間または次にスケジュールされた更新の時間が過ぎるまで待ちます。 次に、サブスクリプションのステータスを確認します。 ステータスが「」の場合 _保留中_&#x200B;をインストールし、すべての要件が満たされていることを確認します。
+1. 夜間または次にスケジュールされた更新の時間が過ぎるまで待ちます。 次に、サブスクリプションのステータスを確認します。 ステータスが引き続き _保留中_ の場合は、インストール環境がすべての要件を満たしていることを確認します。
 
-### 手順 2：アクセス [!DNL Advanced Reporting]
+### 手順 2:[!DNL Advanced Reporting] へのアクセス
 
 1. 次のいずれかの操作を行います。
 
-   * 日 _Admin_ サイドバー、選択 **[!UICONTROL Dashboard]**. 次に、 **[!UICONTROL Go to Advanced Reporting]**.
-   * 日 _Admin_ サイドバー、に移動 **[!UICONTROL Reports]** > _[!UICONTROL Business Intelligence]_>**[!UICONTROL Advanced Reporting]**.
+   * _管理者_ サイドバーで「**[!UICONTROL Dashboard]**」を選択します。 次に、「**[!UICONTROL Go to Advanced Reporting]**」をクリックします。
+   * _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Business Intelligence]_/**[!UICONTROL Advanced Reporting]**に移動します。
 
-   この [!DNL Advanced Reporting] ダッシュボードには、注文、顧客、製品の概要が表示されます。 ダッシュボード全体を表示するには、必ず下にスクロールします。
+   [!DNL Advanced Reporting] ダッシュボードには、注文、顧客、製品の概要が表示されます。 ダッシュボード全体を表示するには、必ず下にスクロールします。
 
-1. データをよりよく表示するには、 **[!UICONTROL Filters]** をクリックします。 次に、以下の手順を実行します。
+1. データをわかりやすく表示するには、右上隅の **[!UICONTROL Filters]** をレポートに含める期間とストア表示に設定します。 次に、以下の手順を実行します。
 
    * 詳しくは、任意のデータポイントにポインタを合わせます。
    * すべてのダッシュボードレポートを表示するには、各タブをクリックします。
 
-   ![データポイント](./assets/reporting-advanced-data-point.png){width="600" zoomable="yes"}
+   ![ データ ポイント ](./assets/reporting-advanced-data-point.png){width="600" zoomable="yes"}
 
-## アクセス [!DNL Advanced Reporting] データリソース
+## [!DNL Advanced Reporting] データリソースへのアクセス
 
-詳細レポート ダッシュボードの右上隅のをクリックします。 **[!UICONTROL Additional Resources]**.
+詳細レポート ダッシュボードの右上隅にある [**[!UICONTROL Additional Resources]**] をクリックします。
 
-![高度なレポートデータリソース](./assets/advanced-reporting-your-data-resources.png){width="600" zoomable="yes"}
+![ 高度なレポートデータリソース ](./assets/advanced-reporting-your-data-resources.png){width="600" zoomable="yes"}
 
 ## トラブルシューティング
 
-404 「Page Not Found」というメッセージが表示された場合は、ストアが次の要件を満たしていることを確認します。 [!DNL Advanced Reporting]. 次に、指示に従って統合がインストールされていることを確認します。
+404 「Page Not Found」というメッセージが表示された場合は、ストアが [!DNL Advanced Reporting] の要件を満たしていることを確認します。 次に、指示に従って統合がインストールされていることを確認します。
 
 ### 統合がアクティブであることを確認
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Extensions]_/**[!UICONTROL Integration]**に移動します。
 
-1. を確認します **[!UICONTROL Magento Analytics user]** 統合がリストに表示され、 **[!UICONTROL Status]** 等しい `Active`.
+1. **[!UICONTROL Magento Analytics user]** 統合がリストに表示され、**[!UICONTROL Status]** が `Active` しいことを確認します。
 
-1. ユーザーを再確立するには、 **[!UICONTROL Reauthorize]** 次の手順を実行します。
+1. ユーザーを再確立するには、「**[!UICONTROL Reauthorize]**」をクリックし、次の手順を実行します。
 
-   ![再認証](./assets/advanced-reporting-integration-reauthorize.png){width="600"}
+   ![ 再認証 ](./assets/advanced-reporting-integration-reauthorize.png){width="600"}
 
-   * プロンプトが表示されたら、 **[!UICONTROL Reauthorize]** API リソースへのアクセスを承認します。
+   * プロンプトが表示されたら、「**[!UICONTROL Reauthorize]**」をクリックして、API リソースへのアクセスを承認します。
 
-     ![API リソースへのアクセスを再認証](./assets/advanced-reporting-integration-api.png){width="600"}
+     ![API リソースへのアクセスの再認証 ](./assets/advanced-reporting-integration-api.png){width="600"}
 
-   * 拡張機能の統合トークンのリストが完了していることを確認します。 次に、 **完了**.
+   * 拡張機能の統合トークンのリストが完了していることを確認します。 次に、「完了 **をクリックし** す。
 
-     ![統合トークン](./assets/advanced-reporting-integration-tokens-for-extensions.png){width="600"}
+     ![ 統合トークン ](./assets/advanced-reporting-integration-tokens-for-extensions.png){width="600"}
 
-1. 統合を示すメッセージを探します `Magento Analytics user` 再認証されました。
+1. 統合 `Magento Analytics user` ーザーが再認証されていることを示すメッセージを探します。
 
 1. 夜間または次にスケジュールされた更新の時間が過ぎるまで待ちます。
 
 ### 単一の基本通貨を検証
 
-[!DNL Advanced Reporting] と共にのみ使用できます [!DNL Commerce] 1 つしか使用していないインストール [基準通貨](../stores-purchase/currency-configuration.md) インストール時から。 その結果、履歴では、すべての注文が同じ基本通貨を使用します。 [!DNL Advanced Reporting] の基本通貨を変更し、履歴に別の基本通貨で処理された注文がある場合、は機能しません。
+[!DNL Advanced Reporting] は、インストール時から単一の [ 基本通貨 ](../stores-purchase/currency-configuration.md) のみを使用していた [!DNL Commerce] インストールでのみ使用できます。 その結果、履歴では、すべての注文が同じ基本通貨を使用します。 [!DNL Advanced Reporting] の場合、基本通貨を変更し、履歴の中に異なる基本通貨で処理された注文がある場合は、機能しません。
 
-ストアに複数の基本通貨があるかどうかを判断するには、 [!DNL Commerce] 次の MySQL の例を使用して、コマンドラインからデータベースを取得します。 場合によっては、データ構造に合わせてテーブル名を変更する必要があります。
+ストアに複数の基本通貨があるかどうかを判断するには、次の MySQL の例を使用して、コマンドラインから [!DNL Commerce] データベースにクエリを実行します。 場合によっては、データ構造に合わせてテーブル名を変更する必要があります。
 
 ```sql
 select distinct base_currency_code from sales_order;
@@ -131,7 +131,7 @@ select distinct base_currency_code from sales_order;
 
 ### データの不一致
 
-次のことに気付いた場合： `Data last updated...` キャプションには、今日ではなく昨日の日付が表示されます。詳細レポートの更新には、最大 1 日の遅延が生じる可能性があります。 この遅延は、予想されるキューサイズよりも大きいことが原因です。
+`Data last updated...` のキャプションに今日ではなく昨日の日付が表示されていることに気付いた場合は、詳細レポートの更新で最大 1 日の遅延が発生する可能性があります。 この遅延は、予想されるキューサイズよりも大きいことが原因です。
 
 ## ダッシュボードレポート
 

@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # 出荷
 
-この _[!UICONTROL Shipments]_グリッド出荷用に準備されたすべての請求書の出荷記録を表示します。 注文が次の場合に出荷レコードを生成できます [請求済](invoices.md) またはそれ以降。
+_[!UICONTROL Shipments]_グリッドには、出荷用に準備されたすべての請求書の出荷記録が表示されます。 出荷レコードは、注文が [ 請求 ](invoices.md) 以降の場合に生成できます。
 
-Adobe CommerceとMagento Open Sourceは、部分的および完全な注文発送をサポートしており、次の場所から追加のオプションを利用できます [Inventory management](../inventory-management/introduction.md) とサードパーティの拡張機能をサポートしています。
+Adobe CommerceとMagento Open Sourceでは、[Inventory management](../inventory-management/introduction.md) およびサードパーティの拡張機能から利用できるその他のオプションを使用して、部分的な注文と完全な注文の出荷をサポートしています。
 
-![出荷グリッド](./assets/shipments.png){width="600" zoomable="yes"}
+![ 出荷グリッド ](./assets/shipments.png){width="600" zoomable="yes"}
 
 ## 列の説明
 
 | 列またはコントロール | 説明 |
 |--- |--- |
-| [!UICONTROL Select] | アクションの対象となる各見積もりのチェックボックスを選択するか、列見出しの選択コントロールを使用します。 オプション： `Select All` / `Deselect All` |
+| [!UICONTROL Select] | アクションの対象となる各見積もりのチェックボックスを選択するか、列見出しの選択コントロールを使用します。 オプション：`Select All` / `Deselect All` |
 | [!UICONTROL Shipment] | 新しい出荷が初めて保存されるときに割り当てられる一意の連続番号 |
 | [!UICONTROL Ship Date] | 発送日 |
 | [!UICONTROL Order] | 注文の一意の番号 |
@@ -51,13 +51,13 @@ Adobe CommerceとMagento Open Sourceは、部分的および完全な注文発�
 
 ## 出荷の作成
 
-以下の手順に従って、Adobe CommerceまたはMagento Open Sourceで商品を作成します。 Inventory managementを有効にしている場合は、次の点を確認してください [マルチソース出荷の作成](../inventory-management/shipments-create.md) ライン品目ごとに送信するソース（または場所）と数量を選択します。
+以下の手順に従って、Adobe CommerceまたはMagento Open Sourceで商品を作成します。 Inventory managementを使用可能にしている場合は、[ 複数Source納入の作成 ](../inventory-management/shipments-create.md) を検討し、明細品目ごとに送付するソース（または事業所）と数量を選択できます。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/**[!UICONTROL Orders]** に移動します。
 
 1. グリッド内の順序を見つけて開きます。
 
-1. 注文が支払われ、請求が行われ、出荷準備が整ったら、 **[!UICONTROL Ship]**.
+1. 注文が支払われ、請求され、出荷準備が整ったら、「**[!UICONTROL Ship]**」をクリックします。
 
    出荷の上部のセクションには、販売注文の名前、住所、支払い情報が含まれています。
 
@@ -65,21 +65,21 @@ Adobe CommerceとMagento Open Sourceは、部分的および完全な注文発�
 
 ### [!UICONTROL Items to Ship]
 
-注文の各行項目に対して、 **[!UICONTROL Qty to Ship]** 必要に応じて。
+注文の各品目に対して、必要に応じて **[!UICONTROL Qty to Ship]** を変更します。
 
 ### [!UICONTROL Shipping Information]
 
-**メソッド 1:** 注文ページの使用
+**方法 1:** 注文ページの使用
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/**[!UICONTROL Orders]** に移動します。
 
-1. が含まれる **[!UICONTROL Action]** 選択したオーダーの列で、 **[!UICONTROL View]**.
+1. 選択した注文の [**[!UICONTROL Action]**] 列で、[**[!UICONTROL View]**] をクリックします。
 
-1. クリック **[!UICONTROL Ship]**.
+1. 「**[!UICONTROL Ship]**」をクリックします。
 
-1. にスクロール ダウンします。 _[!UICONTROL Payment & Shipping Method]_ブロックしてクリック&#x200B;**[!UICONTROL Add Tracking Number]**.
+1. _[!UICONTROL Payment & Shipping Method]_ブロックまで下にスクロールし、「**[!UICONTROL Add Tracking Number]**」をクリックします。
 
-1. を設定 **[!UICONTROL Carrier]**:
+1. Set **[!UICONTROL Carrier]**:
 
    - `Custom Value`
    - `DHL`
@@ -87,32 +87,32 @@ Adobe CommerceとMagento Open Sourceは、部分的および完全な注文発�
    - `United Parcel Service`
    - `United States Postal Service`
 
-1. 出荷を追跡するには、 **[!UICONTROL Title]** および **[!UICONTROL Number]** .
+1. 出荷を追跡するには、**[!UICONTROL Title]** と **[!UICONTROL Number]** を入力します。
 
-**メソッド 2:** 出荷ページの使用
+**方法 2:** 出荷ページの使用
 
 この方法は、注文ページから既に注文出荷が作成されている場合にのみ使用できます。
 必要に応じて、「直接出荷」ページを使用して、出荷情報および追跡情報を変更できます。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/**[!UICONTROL Shipments]** に移動します。
 
 1. 出荷を検索し、編集モードで開きます。
 
-1. にスクロール ダウンします。 _[!UICONTROL Payment & Shipping Method]_ブロック。
+1. _[!UICONTROL Payment & Shipping Method]_ブロックまで下にスクロールします。
 
-1. 「」を選択します **[!UICONTROL Carrier]**.
+1. **[!UICONTROL Carrier]** を選択します。
 
-1. を入力 **[!UICONTROL Title]** パッケージ用。
+1. パッケージ **[!UICONTROL Title]** を入力します。
 
-1. トラッキングを入力 **[!UICONTROL Number]**.
+1. 追跡 **[!UICONTROL Number]** を入力します。
 
-1. クリック **[!UICONTROL Add]**.
+1. 「**[!UICONTROL Add]**」をクリックします。
 
-1. トラッキング情報を記載した E メールを顧客に送信するには、 **[!UICONTROL Send Tracking Information]**&#x200B;をクリックし、アクションを確認します。
+1. トラッキング情報を含むメールを顧客に送信するには、「**[!UICONTROL Send Tracking Information]**」をクリックし、アクションを確認します。
 
-   出荷の場所を追跡するには、必要な出荷を編集モードで開き、 **[!UICONTROL Track this shipment]**.
+   出荷の場所を追跡するには、必要な出荷を編集モードで開き、「**[!UICONTROL Track this shipment]**」をクリックします。
 
-   ![配送情報および追跡情報](./assets/tracking-information.png){width="600" zoomable="yes"}
+   ![ 配送情報および追跡情報 ](./assets/tracking-information.png){width="600" zoomable="yes"}
 
 ### ボタン
 
@@ -126,53 +126,53 @@ Adobe CommerceとMagento Open Sourceは、部分的および完全な注文発�
 
 ### 発送用コメント
 
-1. Enter **コメント** 必要に応じて、出荷に対して。
+1. 必要に応じて、出荷の **コメント** を入力します。
 
-1. 出荷の準備ができたら、 **出荷の発行**.
+1. 出荷の準備が整ったら、「**出荷の発行**」をクリックします。
 
 ## 出荷のコメントを設定します
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 次の下 _[!UICONTROL Sales]_を選択&#x200B;**[!UICONTROL Sales Email]**.
+1. 「_[!UICONTROL Sales]_」で、「**[!UICONTROL Sales Email]**」を選択します。
 
-1. を展開します。 **出荷コメント** を切り替え、必要に応じて設定を変更します。
+1. 「**出荷コメント**」セクションを展開し、必要に応じて設定を変更します。
 
-   ![出荷コメントの構成](../configuration-reference/sales/assets/sales-emails-shipment-comments.png){width="600" zoomable="yes"}
+   ![ 出荷コメントの構成 ](../configuration-reference/sales/assets/sales-emails-shipment-comments.png){width="600" zoomable="yes"}
 
-   - この **[!UICONTROL Enabled]** オプションの設定 `Yes` デフォルトでは、出荷コメントが入力されると、メールが顧客に送信されます。
+   - **[!UICONTROL Enabled]** オプションはデフォルトで `Yes` に設定されています。つまり、出荷コメントが入力されると、メールが顧客に送信されます。
 
-   - の場合 **[!UICONTROL Shipment Comment Email Sender]**&#x200B;出荷注釈メールの送信元を選択します。 デフォルトでは、5 つのメールアドレスが提供されます。
+   - **[!UICONTROL Shipment Comment Email Sender]**：出荷コメントの電子メールの送信元の人物を選択します。 デフォルトでは、5 つのメールアドレスが提供されます。
 
-   - の場合 **[!UICONTROL Shipment Comment Email Template]**&#x200B;必要に応じてテンプレートを選択するか、デフォルトオプションを選択します。
+   - **[!UICONTROL Shipment Comment Email Template]**：要件に基づいてテンプレートを選択するか、デフォルトオプションを選択します。
 
-   - の場合 **[!UICONTROL Shipment Comment Email Template for Guests]**&#x200B;で、ストアにアカウントを持っていないお客様に使用するテンプレートを選択します。
+   - **[!UICONTROL Shipment Comment Email Template for Guests]** しくは、ストアにアカウントを持たない顧客に使用するテンプレートを選択します。
 
-   - の場合 **[!UICONTROL Shipment Comment Email Copy To]**&#x200B;を入力し、出荷コメントのメールコピーを送信するメールアドレスを入力します。 複数のメールアドレスを指定する場合はコンマで区切ります。
+   - **[!UICONTROL Shipment Comment Email Copy To]**：出荷コメントの電子メール・コピーを送信する電子メール・アドレスを入力します。 複数のメールアドレスを指定する場合はコンマで区切ります。
 
-   - の場合 **[!UICONTROL Shipment Comment Email Copy Method]**&#x200B;を選択 `bcc` （ブラインドカーボンコピー）または `separate email copy` 使用する環境に応じて選択します。
+   - **[!UICONTROL Shipment Comment Email Copy Method]** の場合は、「`bcc` （ブラインドカーボンコピー）」または「`separate email copy` 法」を選択します。
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。
 
 ## 出荷の取消
 
 出荷が運送業者に発送される前に、運送業者が取消をサポートしている場合は、受注をオープンして出荷にナビゲートすることで取消を実行できます。 一部の通信事業者は、予約後のキャンセルを制限または制限しています。 たとえば、UPS はキャンセルを許可しますが、出荷が予約されてから 24 時間待つ必要があります。 出荷が取り消された場合は、取消を取り消すことはできません。 唯一の方法は、注文を再作成することです。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/**[!UICONTROL Orders]** に移動します。
 
 1. グリッド内の順序を検索します。
 
-1. が含まれる _アクション_ 列、を選択 **[!UICONTROL View]**.
+1. 「_アクション_」列で「**[!UICONTROL View]**」を選択します。
 
-1. 左パネルで、を選択します。 **[!UICONTROL Shipments]**.
+1. 左側のパネルで「**[!UICONTROL Shipments]**」を選択します。
 
-   出荷を取り消すことができる場合は、 _[!UICONTROL Cancel Shipment]_は、上部のボタンバーにオプションとして表示されます。
+   出荷をキャンセルできる場合は、上部のボタンバーにオプションとして _[!UICONTROL Cancel Shipment]_が表示されます。
 
-1. クリック **[!UICONTROL Cancel Shipment]**.
+1. 「**[!UICONTROL Cancel Shipment]**」をクリックします。
 
-1. 確認を求められたら、 **[!UICONTROL OK]**.
+1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL OK]**」をクリックします。
 
-出荷のステータスが「」に変わります `Canceled`. 配送業者がキャンセルをサポートしていない場合は、エラーメッセージが表示され、出荷をキャンセルできなかった理由が説明されます。
+出荷のステータスが「`Canceled`」に変わります。 配送業者がキャンセルをサポートしていない場合は、エラーメッセージが表示され、出荷をキャンセルできなかった理由が説明されます。
 
 ## 出荷フィールドの説明
 
@@ -183,7 +183,7 @@ Adobe CommerceとMagento Open Sourceは、部分的および完全な注文発�
 | [!UICONTROL Carrier] | 選択した通信事業者の名前 |
 | [!UICONTROL Title] | 配送業者によってパッケージに割り当てられた説明的な名前。 |
 | [!UICONTROL Number] | パッケージに割り当てられるリンクされたトラッキング番号。 |
-| [!UICONTROL Action] | ![ごみ箱アイコン](../assets/icon-delete-trashcan-solid.png)  – 出荷レコードからパッケージ情報を削除します。 |
+| [!UICONTROL Action] | ![ ごみ箱アイコン ](../assets/icon-delete-trashcan-solid.png) – 出荷レコードからパッケージ情報を削除します。 |
 | [!UICONTROL Add] | 別のパッケージを出荷に追加します。 |
 
 {style="table-layout:auto"}
@@ -222,6 +222,6 @@ Adobe CommerceとMagento Open Sourceは、部分的および完全な注文発�
 
 | フィールド | 説明 |
 |-----|-----------|
-| [!UICONTROL Package Label] | **PNG**  – 出荷パッケージラベルをダウンロードします。 サイズ：A6 （105 x 148 mm、4.1 x 5.6 インチ） |
+| [!UICONTROL Package Label] | **PNG** – 出荷パッケージラベルをダウンロードします。 サイズ：A6 （105 x 148 mm、4.1 x 5.6 インチ） |
 
 {style="table-layout:auto"}

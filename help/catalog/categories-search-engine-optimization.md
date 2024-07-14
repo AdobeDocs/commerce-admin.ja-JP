@@ -1,6 +1,6 @@
 ---
 title: カテゴリ – 検索エンジンの最適化設定
-description: の使用について説明します [!UICONTROL Search Engine Optimization] 検索エンジンでカテゴリのインデックス作成に使用する URL キーおよびメタデータフィールドを定義するための設定。
+description: '[!UICONTROL Search Engine Optimization] 設定を使用して、検索エンジンでカテゴリのインデックス作成に使用される URL キーとメタデータフィールドを定義する方法について説明します。'
 exl-id: 6c8af01d-d2aa-4c13-af76-663c47cbe38c
 feature: Catalog Management, Categories, Search
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # カテゴリ – 検索エンジンの最適化設定
 
-この _[!UICONTROL Search Engine Optimization]_「」セクションは、 [URL キー](catalog-urls.md) および [メタデータ](../merchandising-promotions/meta-data.md) 検索エンジンでカテゴリのインデックスを作成するために使用されるフィールド。 メタキーワードを無視する検索エンジンもあれば、メタキーワードを使用し続ける検索エンジンもあります。 現在の SEO のベストプラクティスは、価値の高いキーワードをメタタイトルとメタ説明の両方に組み込むことです。
+_[!UICONTROL Search Engine Optimization]_のセクションでは、検索エンジンでカテゴリのインデックスを作成するために使用する [URL キー ](catalog-urls.md) および [ メタデータ ](../merchandising-promotions/meta-data.md) フィールドを指定します。 メタキーワードを無視する検索エンジンもあれば、メタキーワードを使用し続ける検索エンジンもあります。 現在の SEO のベストプラクティスは、価値の高いキーワードをメタタイトルとメタ説明の両方に組み込むことです。
 
-![検索エンジンの最適化](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
+![ 検索エンジンの最適化 ](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 
-| フィールド | [範囲](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |----------------------------------------------------|
 | [!UICONTROL URL Key] | ストア表示 | カテゴリページのオンラインアドレスを決定します。 URL キーはストアのベース URL に追加され、ブラウザーのアドレスバーに表示されます。 設定で、商品 URL にカテゴリ URL キーを含めるか除外することができます。 URL キーは、すべて小文字で、スペースではなく、これらの文字の間にハイフンを含める必要があります。 .html などのサフィックスは構成内で管理されるので、含めないでください。 |
 | [!UICONTROL Meta Title] | ストア表示 | タイトルは、ブラウザーのタイトルバーとタブに表示され、検索エンジンの結果ページ（SERP）のタイトルでもあります。 メタタイトルは、ページに固有で、長さが。である必要があります。 |

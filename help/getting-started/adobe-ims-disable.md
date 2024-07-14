@@ -18,7 +18,7 @@ Commerce インスタンスをAdobe IMS認証ワークフローと統合した�
 
 Commerce デプロイメントは、IMS 統合が無効になった後、デフォルトのCommerce認証ワークフローおよびパスワードポリシーに戻ります。 この統合が有効または無効の場合は、管理者ユーザーワークフローのみが影響を受けます。
 
-参照： [管理者アカウント](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html) Commerce管理者のログインの概要については、を参照してください。
+Commerce管理者によるログインの概要については、[ 管理者アカウント ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html) を参照してください。
 
 ## 手順 1：統合を無効にする
 
@@ -42,10 +42,10 @@ Admin Adobe IMS integration is disabled.
 
 * Commerce管理者ユーザーは、既存のCommerce パスワード（IMS 統合前に作成されたCommerce パスワード）を覚えている場合は、そのパスワードを使用して管理者にログインできます。
 
-* Commerce管理者ユーザーが、Commerceの既存のパスワードを持っていない場合や忘れた場合は、新しいパスワードを作成する必要があります。 新しいパスワードを作成するために、管理者ユーザーはを使用できます [!UICONTROL Forgot your password?] Commerceのログインページで新しいパスワードを作成するための機能です。 参照： [顧客パスワードのリセット](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html). Commerceでは、空のパスワードフィールドを使用できません。
+* Commerce管理者ユーザーが、Commerceの既存のパスワードを持っていない場合や忘れた場合は、新しいパスワードを作成する必要があります。 新しいパスワードを作成するために、管理者ユーザーはCommerce ログインページの [!UICONTROL Forgot your password?] 機能を使用して新しいパスワードを作成できます。 [ 顧客パスワードのリセット ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html) を参照してください。 Commerceでは、空のパスワードフィールドを使用できません。
 
 ## 統合を無効にした後
 
 IMS 統合が無効になると、デフォルトのCommerce認証ワークフローが再開され、管理者ユーザーにはパスワードの入力を求められます。
 
-IMS 統合を無効にすると、統合が有効（`Organization ID`, `Client ID`、および `Client Secret` 値）を含めることができます。（Commerce設定ファイルから）
+IMS 統合を無効にすると、統合が有効になったときに入力された資格情報（`Organization ID`、`Client ID` および `Client Secret` の値）がCommerce設定ファイルから削除されます。

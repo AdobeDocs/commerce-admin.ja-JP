@@ -13,23 +13,23 @@ ht-degree: 0%
 
 # 最大購買要求リストのコンフィギュレーション
 
-購買依頼リスト機能が使用可能な場合、顧客は頻繁に購入する品目の複数のリストを作成し、それらのリストを発注に使用できます。 ログインしているユーザーとゲストの両方が利用できます。 次の場合に購買依頼リストを使用可能にできます [b2B 機能の設定](enable-basic-features.md).
+購買依頼リスト機能が使用可能な場合、顧客は頻繁に購入する品目の複数のリストを作成し、それらのリストを発注に使用できます。 ログインしているユーザーとゲストの両方が利用できます。 [B2B 機能の構成 ](enable-basic-features.md) 時に、購買依頼リストを使用可能にできます。
 
-顧客は、様々なベンダー、購入者、チーム、キャンペーンなど、一般的なワークフローを効率化する要素の製品に焦点を当てた複数のリストを持つことができます。 [購買依頼リスト機能](requisition-lists.md) はウィッシュリストに似ていますが、次の違いがあります。
+顧客は、様々なベンダー、購入者、チーム、キャンペーンなど、一般的なワークフローを効率化する要素の製品に焦点を当てた複数のリストを持つことができます。 [ 購買依頼リスト機能 ](requisition-lists.md) は、ウィッシュ・リストに似ていますが、次の点が異なります。
 
 - 品目を買い物かごに送信した後、要求リストがクリアされません。 複数回使用できます。
 - 購買依頼リストのユーザー・インタフェースでは、多数の品目を表示するためにコンパクト・ビューが使用されます。
 
 デフォルトでは、顧客は自分のアカウントに対して最大 999 件の購買依頼リストを保守できます。 ただし、設定を変更し、より小さい数を指定して、ストアの負荷を軽減することができます。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Customers]** を選択します **[!UICONTROL Requisition Lists]**.
+1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Requisition Lists]**」を選択します。
 
-   ![購買依頼リスト – 一般設定](./assets/requisition-lists-general.png){width="600" zoomable="yes"}
+   ![ 購買依頼リスト – 一般設定 ](./assets/requisition-lists-general.png){width="600" zoomable="yes"}
 
-1. の場合 **[!UICONTROL Number of Requisition Lists]**&#x200B;各顧客アカウントに保持できる購買依頼リストの最大数を入力します。
+1. **[!UICONTROL Number of Requisition Lists]** に、各顧客アカウントで保守できる購買依頼リストの最大数を入力します。
 
-   最小数はです `2`、最大値はです `999`.
+   最小値は `2`、最大値は `999` です。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

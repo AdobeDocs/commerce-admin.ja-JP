@@ -11,82 +11,82 @@ ht-degree: 0%
 
 # 管理ダッシュボード
 
-ダッシュボードは、通常、にログインしたときに表示される最初のページです。 _Admin_ また、販売と顧客活動の概要をリアルタイムで提供できます。 ダッシュボードデータは、ライフタイム販売、平均注文額、最近の注文、検索語句のスナップショットを提供します。 グラフには、選択した日付範囲の完了済み注文と金額が表示され、動的、リアルタイム データ、または過去の集計データから生成できます。 下部のタブには、最も売れた製品、最も多く閲覧された製品、新規顧客、最も多く購入した顧客のクイックレポートが表示されます。
+ダッシュボードは、通常、_管理者_ にログインしたときに表示される最初のページであり、販売と顧客アクティビティの概要をリアルタイムで提供できます。 ダッシュボードデータは、ライフタイム販売、平均注文額、最近の注文、検索語句のスナップショットを提供します。 グラフには、選択した日付範囲の完了済み注文と金額が表示され、動的、リアルタイム データ、または過去の集計データから生成できます。 下部のタブには、最も売れた製品、最も多く閲覧された製品、新規顧客、最も多く購入した顧客のクイックレポートが表示されます。
 
 処理するデータが大量にある場合は、パフォーマンスを向上させるためにグラフをオフにできます。 次の例のダッシュボードは、リアルタイムデータを使用するように設定されており、過去 24 時間の完了済み注文を時間別に表示します。 グラフは、完了した注文ごとに更新されます。
 
-![Dashboard](./assets/dashboard-full.png){zoomable="yes"}
+![ ダッシュボード ](./assets/dashboard-full.png){zoomable="yes"}
 
-[高度なレポート](business-intelligence.md#advanced-reporting) は、製品、注文、顧客のデータに基づいてパーソナライズされたダッシュボードを表示します。
+[ 詳細レポート ](business-intelligence.md#advanced-reporting) 製品、注文、顧客のデータに基づいてパーソナライズされたダッシュボードを表示します。
 
-![高度なレポート](./assets/dashboard-advanced-reporting.png){zoomable="yes"}
+![ 高度なレポート ](./assets/dashboard-advanced-reporting.png){zoomable="yes"}
 
 ## ダッシュボードの設定
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**次のいずれかの設定を行います。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動し、次のいずれかの設定を行います。
 
-1. 設定が完了したら、 **[!UICONTROL Save Config]**.
+1. 設定が完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
-1. 変更を保存したら、 **[!UICONTROL Cache Management]** 無効なキャッシュをすべて更新します。
+1. 変更を保存したら、「**[!UICONTROL Cache Management]**」をクリックして、無効なキャッシュをすべて更新します。
 
 ### グラフを有効にする
 
 処理するデータが大量にある場合は、パフォーマンスを向上させるためにグラフの表示をオフにできます。 有効になっていない場合は、グラフの代わりに「データが見つかりません」というメッセージが表示されますが、下の概要合計は引き続き生成されます。
 
-1. の下の左側のナビゲーションパネル **[!UICONTROL Advanced]**、を選択 **[!UICONTROL Admin]**.
+1. 左側のナビゲーションパネルの **[!UICONTROL Advanced]** の下で、「**[!UICONTROL Admin]**」を選択します。
 
-1. 必要に応じて、 **[!UICONTROL Dashboard]** セクション。
+1. 必要に応じて、「**[!UICONTROL Dashboard]**」セクションを展開します。
 
-   ![詳細設定 – グラフを有効にします](./assets/admin-dashboard-config.png){width="600"}
+   ![ 詳細設定 – グラフを有効にする ](./assets/admin-dashboard-config.png){width="600"}
 
-1. デフォルト値を変更するには、 **[!UICONTROL Use system value]** チェックボックス。
+1. デフォルト値を変更するには、「**[!UICONTROL Use system value]**」チェックボックスをオフにします。
 
-1. を設定 **グラフを有効にする** 対象： `Yes`.
+1. **グラフを有効にする** を `Yes` に設定します。
 
-管理者設定オプションについて詳しくは、を参照してください。 [設定リファレンスガイド](../configuration-reference/advanced/admin.md).
+Admin Configuration オプションについては、[Configuration Reference Guide](../configuration-reference/advanced/admin.md) を参照してください。
 
 ### スタートアップページの変更
 
-ダッシュボードがデフォルトです [スタートアップページ](../configuration-reference/advanced/admin.md) 管理者の場合は、別のスタートアップページを設定できます。
+ダッシュボードは管理者のデフォルトの [ 起動ページ ](../configuration-reference/advanced/admin.md) ですが、別の起動ページを設定することもできます。
 
-1. 管理設定オプションをまだ開いていない場合は、次を選択します **[!UICONTROL Admin]** 未満 _[!UICONTROL Advanced]_左側のナビゲーションパネルで以下を実行します。
+1. 管理設定オプションを開いていない場合は、左側のナビゲーションパネルの _[!UICONTROL Advanced]_の下にある&#x200B;**[!UICONTROL Admin]**を選択します。
 
-1. をクリックして、 **スタートアップページ** セクション。
+1. **スタートアップページ** セクションをクリックして展開します。
 
-   ![管理ダッシュボード – スタートアップページの設定](./assets/admin-startup-page.png){width="600"}
+   ![ 管理者ダッシュボード – スタートアップページの設定 ](./assets/admin-startup-page.png){width="600"}
 
-1. をクリア **[!UICONTROL Use system value]** チェックボックスで、 **スタートアップページ** 管理者にログインしたときに表示する名前。
+1. **[!UICONTROL Use system value]** チェックボックスをオフにして、管理者にログインしたときに表示される **スタートアップページ** を選択します。
 
 ### 開始日を選択
 
-1. の下の左側のナビゲーションパネル **[!UICONTROL General]**、を選択 **報告書**.
+1. **[!UICONTROL General]** の下の左側のナビゲーションパネルで、「**レポート**」を選択します。
 
-1. ページで、を展開します **[!UICONTROL Dashboard]** セクション。
+1. ページで、「**[!UICONTROL Dashboard]**」セクションを展開します。
 
-1. をクリア **[!UICONTROL Use system value]** 日付設定のチェックボックスをオンにし、次の手順を実行します。
+1. 日付設定の **[!UICONTROL Use system value]** のチェックボックスをオフにして、次の手順を実行します。
 
-   - を設定 **年初から年初まで** に **月** および **日**.
+   - **年累計開始日** を **月** および **日** に設定します。
 
-   - を設定 **今月の開始日** に **日**.
+   - **今月の開始日** を **日** に設定します。
 
-   ![管理ダッシュボード – 日付設定](./assets/reports-dashboard.png){width="600"}
+   ![ 管理ダッシュボード – 日付設定 ](./assets/reports-dashboard.png){width="600"}
 
-について [!UICONTROL Reports] 設定オプションについては、を参照してください [_設定リファレンスガイド_](../configuration-reference/general/reports.md).
+[!UICONTROL Reports] 設定オプションについて詳しくは、[_設定リファレンスガイド_](../configuration-reference/general/reports.md) を参照してください。
 
 ### データソースの設定
 
 ダッシュボードグラフは、リアルタイムで生成することも、履歴の集計データを使用して生成することもできます。 パフォーマンスに問題がある場合は、集計データを使用して処理を高速化できます。
 
-1. 左側のナビゲーションパネルでをクリックして展開します **売上** を選択します **売上** その下に。
+1. 左側のナビゲーションパネルで、「**Sales**」をクリックして展開し、その下の「**Sales**」を選択します。
 
-1. ページで、を展開します **[!UICONTROL Dashboard]** セクション。
+1. ページで、「**[!UICONTROL Dashboard]**」セクションを展開します。
 
-   ![管理ダッシュボード – データソース設定](./assets/config-sales-dashboard.png){width="600"}
+   ![ 管理ダッシュボード – データソース設定 ](./assets/config-sales-dashboard.png){width="600"}
 
-1. をクリア **[!UICONTROL Use system value]** チェックボックスとセット **[!UICONTROL Use Aggregated Data]** を次のいずれかに変更します。
+1. 「**[!UICONTROL Use system value]**」チェックボックスをオフにして、**[!UICONTROL Use Aggregated Data]** を次のいずれかに設定します。
 
-   - 履歴データと集計データの場合は、 `Yes`.
-   - リアルタイムデータの場合は、を選択します。 `No`.
+   - 履歴データと集計データには、「`Yes`」を選択します。
+   - リアルタイムデータの場合は、「`No`」を選択します。
 
 ## グラフセクション
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Orders] | このタブには、現在の店舗表示と指定した期間について、完了したすべての注文のリアルタイムグラフが表示されます。 |
 | [!UICONTROL Amounts] | このタブには、現在の店舗表示と指定した期間について、完了したすべての注文金額のリアルタイムグラフが表示されます。 |
-| [!UICONTROL Time Range] | 以下のグラフおよび概要の合計で表されるデータを決定します。 オプション： `Last 7 Days` / `Current Month` / `YTD` / `2YTD` |
+| [!UICONTROL Time Range] | 以下のグラフおよび概要の合計で表されるデータを決定します。 オプション：`Last 7 Days`/`Current Month`/`YTD`/`2YTD` |
 | [!UICONTROL Summary Totals] | グラフの下の収益、税、出荷、数量の合計は、グラフのデータと現在の時間範囲設定に基づいています。 |
 
 {style="table-layout:auto"}
@@ -127,6 +127,6 @@ ht-degree: 0%
 | ボタン | 説明 |
 |--- |--- |
 | [!UICONTROL Reload Data] | ダッシュボードデータを更新します。 |
-| [!UICONTROL Go to Advanced Reporting] | 製品、注文および顧客データに基づいて、動的グラフおよびレポートのパーソナライズされたダッシュボードを表示します。 より詳細な分析については、を参照してください [高度なレポート](business-intelligence.md#advanced-reporting). |
+| [!UICONTROL Go to Advanced Reporting] | 製品、注文および顧客データに基づいて、動的グラフおよびレポートのパーソナライズされたダッシュボードを表示します。 詳細な分析については、[ 詳細レポート ](business-intelligence.md#advanced-reporting) を参照してください。 |
 
 {style="table-layout:auto"}

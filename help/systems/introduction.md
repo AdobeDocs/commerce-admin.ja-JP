@@ -15,21 +15,21 @@ ht-degree: 0%
 
 ## 変数と顧客コミュニケーション
 
-変数は、一度作成すると複数の場所で使用できる情報です。 ストアには、パーソナライズに簡単に使用できる事前定義済みの変数が多数含まれています [電子メール](email-templates.md) および [ニュースレター](../merchandising-promotions/newsletter-template.md) テンプレート、およびその他のタイプの [コンテンツ](../content-design/introduction.md#content). また、カスタム変数を作成して、ニーズに固有の情報を組み込むこともできます。
+変数は、一度作成すると複数の場所で使用できる情報です。 ストアには、[ メール ](email-templates.md) および [ ニュースレター ](../merchandising-promotions/newsletter-template.md) テンプレート、その他のタイプの [ コンテンツ ](../content-design/introduction.md#content) のパーソナライズに簡単に使用できる、事前定義済みの変数が多数含まれています。 また、カスタム変数を作成して、ニーズに固有の情報を組み込むこともできます。
 
 - [事前定義済みの変数](variables-predefined.md)
 - [カスタム変数](variables-custom.md)
 
-ストアを起動する前に完了する必要があるタスクの 1 つは、ストアから送信されるすべてのコミュニケーションに使用されるメールテンプレートを確認して、ブランドが反映されていることを確認することです。 これには、メールのカスタマイズや、 [ニュースレターテンプレート](../merchandising-promotions/newsletter-template.md)PDFの請求書と梱包明細 また、変数を使用したコンテンツのパーソナライズや、 [マークアップ タグ](markup-tags.md).
+ストアを起動する前に完了する必要があるタスクの 1 つは、ストアから送信されるすべてのコミュニケーションに使用されるメールテンプレートを確認して、ブランドが反映されていることを確認することです。 これには、メールおよび [ ニュースレターテンプレート ](../merchandising-promotions/newsletter-template.md)、PDFの請求書および納品書のカスタマイズが含まれます。 また、変数と [ マークアップタグ ](markup-tags.md) を使用したコンテンツのパーソナライズも含まれます。
 
 ## 運用管理
 
 また、管理者は、システム管理者が組織内の管理者ユーザーを管理し、ストアを操作するための様々なタスクもサポートしています。 これには、次のツールが含まれます。
 
-- **管理者ユーザーアカウントと権限**  – 管理者を管理 [ユーザーアカウント](permissions-users-all.md)、および関連するが [役割と権限](permissions-user-roles.md) 管理者のサイトおよび機能領域へのアクセスを制御します。
-- **管理セッションと web サイトの制限** - レビュー [担保](security.md) また、管理者セッションと資格情報の管理、CAPTCHA の実装、web サイト制限の管理方法についてのベストプラクティスも説明します。
-- **システムツール** - ルーチンの実行 [索引](index-management.md) および [キャッシュ](cache-management.md) 管理操作、 [バックアップ](backups.md) システム、管理 [スケジュールされた操作](data-scheduled-import-export.md)、およびの品揃えを使用します [開発者ツール](developer-tools.md).
-- **データ転送**  – を使用します [データ転送](data-transfer.md) データのインポートおよびエクスポートを行うためのツールです。また、製品、価格、顧客、および税率データを管理するためのツールです。
-- **統合** - OAuth 認証情報の場所とリダイレクト URL の確立 [サードパーティの統合](integrations.md)使用可能な API リソースを特定します。
-- **アクションログ** - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）レコードにアクセス（[アクションログ](action-log.md)）を選択します。
-- **サポートツール** - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）サポートツール（[データ コレクタ](support.md#data-collector) および [システムレポート](support.md#access-system-reports)）は、システムの既知の問題を識別するように設計されています。 開発および最適化プロセス中のリソースとして、また、サポートチームが問題を特定して解決するのに役立つ診断ツールとして使用できます。
+- **管理者ユーザーアカウントと権限** – 管理者 [ ユーザーアカウント ](permissions-users-all.md) と、管理者のサイトや機能領域へのアクセスを制御する関連 [ 役割と権限 ](permissions-user-roles.md) を管理します。
+- **管理セッションと web サイト制限** - [ セキュリティ ](security.md) ベストプラクティスを確認し、管理セッションと資格情報の管理方法、CAPTCHA の実装方法、web サイト制限の管理方法を説明します。
+- **システムツール** - ルーチンの [ インデックス ](index-management.md) および [ キャッシュ ](cache-management.md) 管理操作、システムの [ バックアップ ](backups.md)、[ スケジュールされた操作 ](data-scheduled-import-export.md) の管理、および様々な [ 開発者ツール ](developer-tools.md) の使用を実行します。
+- **データ転送** - [ データ転送 ](data-transfer.md) ツールを使用して、データの読み込みと書き出しを行い、製品、価格、顧客、税率のデータを管理します。
+- **統合** - [ サードパーティ統合 ](integrations.md) 用の OAuth 認証情報とリダイレクト URL の場所を確立し、使用可能な API リソースを特定します。
+- **アクションログ** - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）ストアで作業している管理者ユーザーによる変更について、レコード（[ アクションログ ](action-log.md)）にアクセスします。
+- **サポートツール** - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）サポートツール（[ データコレクター ](support.md#data-collector) および [ システムレポート ](support.md#access-system-reports)）は、システムの既知の問題を特定するように設計されています。 開発および最適化プロセス中のリソースとして、また、サポートチームが問題を特定して解決するのに役立つ診断ツールとして使用できます。

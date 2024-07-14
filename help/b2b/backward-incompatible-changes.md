@@ -1,7 +1,8 @@
 ---
 title: Adobe Commerce B2B に後方互換性のない変更
 description: カスタムコードの更新が必要になる可能性のあるAdobe Commerce B2B リリースの変更点について説明します。
-source-git-commit: d794e7891d9c15d8a106535ba2fdc93fdc5515ea
+exl-id: 79b66843-3f34-4fe9-9670-53d19b749eb4
+source-git-commit: 148b2f7a6d778fbff440783df02d2138984a9940
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 0%

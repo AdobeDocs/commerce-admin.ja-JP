@@ -12,59 +12,59 @@ ht-degree: 0%
 
 # Adobe Stock画像のライセンスを取得
 
-実稼動Adobe CommerceおよびMagento Open Sourceストアに使用するAdobe Stock アセットには、ライセンスが必要です。 このライセンスにより、画像への法的アクセスが可能になり、すべてに存在するAdobe Stockの透かしを排除できます [画像プレビュー][save-preview]. 画像のライセンスを取得したり、既にライセンスを取得した画像を保存したりするには、Adobeアカウントにログインする必要があります。
+実稼動Adobe CommerceおよびMagento Open Sourceストアに使用するAdobe Stock アセットには、ライセンスが必要です。 このライセンスにより、画像への法的アクセスが可能になり、すべての [ 画像プレビュー ][save-preview] に存在するAdobe Stock透かしを排除できます。 画像のライセンスを取得したり、既にライセンスを取得した画像を保存したりするには、Adobeアカウントにログインする必要があります。
 
-新しい [[!DNL Media Gallery]](media-gallery.md) は、Adobe Stockと直接統合できるので、ギャラリーページから直接イメージのライセンスを簡単に取得できます。
+新しい [[!DNL Media Gallery]](media-gallery.md) はAdobe Stockとの直接統合を提供し、ギャラリーページから直接イメージのライセンスを簡単に取得できます。
 
 ## 前提条件
 
-この機能には、 [Adobe Stockの統合][adobe-stock-integration] モジュールと設定。 ライセンス [Adobe Stock][adobe-stock] 画像を使用するには、有料のAdobe Stock プランおよびが必要です。 [Adobeアカウント][adobe-signin].
+この機能を使用するには、[Adobe Stock Integration][adobe-stock-integration] モジュールおよび設定が必要です。 [Adobe Stock][adobe-stock] 画像のライセンスを取得するには、有料のAdobe Stock プランと [Adobeアカウント ][adobe-signin] が必要です。
 
-## 新しいから画像のライセンスを取得 [!DNL Media Gallery]
+## 新しい [!DNL Media Gallery] ージからの画像のライセンス
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
 
-1. の手順に従います [Adobe Stock画像の使用][using-adobe-stock] にログインしてプレビューイメージを保存するには [メディアストレージ][media-storage].
+1. [Adobe Stock画像の使用 ][using-adobe-stock] の手順に従って、ログインし、プレビューイメージを [ メディアストレージ ][media-storage] に保存します。
 
-   ![保存されたプレビュー画像](./assets/adobe-stock-gallery-unlicensed.png){width="600" zoomable="yes"}
+   ![ 保存されたプレビューイメージ ](./assets/adobe-stock-gallery-unlicensed.png){width="600" zoomable="yes"}
 
-1. 画像の下の 3 つのドットをクリックします（![アセットメニューアイコン](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}）を選択し、 **[!UICONTROL License]**.
+1. 画像の下にある 3 つのドット（![ アセットメニューアイコン ](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}）をクリックし、「**[!UICONTROL License]**」をクリックします。
 
-   ![Adobe Stock画像アクション](./assets/adobe-stock-gallery-image-actions.png){width="600" zoomable="yes"}
-
-   >[!NOTE]
-   >
-   >ログインしていない場合は、ログインフォームが表示されます。 ログインの詳細については、を参照してください。 [Adobe Stock画像の使用][using-adobe-stock].
-
-1. ライセンスの確認ダイアログで、 **[!UICONTROL Confirm]** ：画像のライセンスを取得します。
-
-   ![ライセンスの確認](./assets/adobe-stock-gallery-license-confirm.png){width="350" zoomable="yes"}
+   ![Adobe Stock画像アクション ](./assets/adobe-stock-gallery-image-actions.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >利用可能である必要があります [Adobe Stock クレジット][stock-credits] アカウントでをクリックして、画像のライセンスを取得します。
+   >ログインしていない場合は、ログインフォームが表示されます。 ログインについて詳しくは、[Adobe Stock画像の使用 ][using-adobe-stock] を参照してください。
+
+1. ライセンス確認ダイアログで、「**[!UICONTROL Confirm]**」をクリックして画像のライセンスを取得します。
+
+   ![ 許可の確認 ](./assets/adobe-stock-gallery-license-confirm.png){width="350" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >画像のライセンスを取得するには、アカウントで利用可能な ][stock-credits]0}Adobe Stock クレジット } が必要です。[
 
 ## 標準メディアストレージからの画像のライセンス取得
 
-1. [Adobe Stock検索グリッドへのアクセス][access-search].
+1. [Adobe Stock検索グリッドへのアクセス ][access-search]。
 
-1. 終了 [画像の詳細の表示][view-details]で、検索グリッド内の画像を順にクリックします。
+1. [ 画像の詳細を表示 ][view-details] するには、検索グリッド内の画像を順番にクリックします。
 
 1. イメージの現在のライセンス ステータスに応じて、次のいずれかの操作を行います。
 
-   - 画像がライセンス済みの場合は、 **[!UICONTROL Save]**.
+   - 画像がライセンス済みの場合は、「**[!UICONTROL Save]**」をクリックします。
 
-   - 画像がの場合 _ではない_ ライセンス済み、クリック **[!UICONTROL License and Save]**.
+   - 画像がライセンス済み _ない_ 場合は、「**[!UICONTROL License and Save]**」をクリックします。
 
      >[!NOTE]
      >
-     >利用可能である必要があります [Adobe Stock クレジット][stock-credits] アカウントでをクリックして、画像のライセンスを取得します。
+     >画像のライセンスを取得するには、アカウントで利用可能な ][stock-credits]0}Adobe Stock クレジット } が必要です。[
 
-   この操作を実行すると、イメージをに保存するために使用するファイル名を指定するようプロンプトが表示されます [メディアストレージ][media-storage]. デフォルトのファイル名が提供されますが、この名前は好みに合わせてカスタマイズできます。
+   この操作を実行すると、イメージを [ メディア ストレージ ][media-storage] に保存するために使用するファイル名を指定するよう求めるメッセージが表示されます。 デフォルトのファイル名が提供されますが、この名前は好みに合わせてカスタマイズできます。
 
-   ![Adobe Stockのライセンス画像を保存](./assets/adobe-stock-save-licensed.png){width="550" zoomable="yes"}
+   ![Adobe Stock ライセンス画像を保存 ](./assets/adobe-stock-save-licensed.png){width="550" zoomable="yes"}
 
-1. クリック **[!UICONTROL Confirm]**.
+1. 「**[!UICONTROL Confirm]**」をクリックします。
 
    ページがメディアストレージにリダイレクトされ、保存されたプレビューが表示されます。
 

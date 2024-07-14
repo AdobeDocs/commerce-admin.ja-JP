@@ -15,19 +15,19 @@ ht-degree: 1%
 
 ## マーチャンダイジング
 
-_マーチャンダイジング_ は、フロアプラン開発や商品のプレゼンテーションなどのアートやサイエンスを表す、小売業界で使われる用語です。 次のことを思い浮かべるかもしれません [カテゴリベースのナビゲーション](../catalog/navigation-top.md) 店舗の間取り図として、また店舗内の商品一覧に適用できる条件として商品の動的提示として。 また、製品の売上を増やすプログラムを実装することもできます。
+_マーチャンダイジング_ は、フロアプラン開発の技術や科学、商品のプレゼンテーションなどを表す小売りの用語です。 [ カテゴリベースのナビゲーション ](../catalog/navigation-top.md) は店舗のフロアプラン、製品の動的な表示は店舗の商品一覧に適用できる条件と考えることができます。 また、製品の売上を増やすプログラムを実装することもできます。
 
-- [ビジュアルマーチャンダイザー](visual-merchandiser.md)  – 製品を配置し、カテゴリリストに表示する製品を決定する条件を適用できる一連の高度なツール。
+- [ ビジュアルマーチャンダイザー ](visual-merchandiser.md) – 製品を配置し、カテゴリリストに表示する製品を決定する条件を適用できる一連の高度なツール。
 
-- [ギフト レジストリ](gift-registries.md)  – 特別な機会にギフト登録を作成したり、友人や家族にギフト登録からギフトを購入してもらったりできるように、顧客に権限を付与します。
+- [ ギフトレジストリ ](gift-registries.md) – 特別な機会のためのギフトレジストリを作成し、友人や家族がギフトレジストリからギフトを購入するように招待する機能を顧客に提供します。
 
-- [報酬とロイヤルティ](rewards-loyalty.md) - ポイントシステムを使用して、顧客エンゲージメントを促進し、顧客ロイヤルティを促進する独自のプログラムを実装します。 幅広い取引や顧客活動に対してポイントを付与し、ポイントの割り当て、残高、有効期限を制御できます。
+- [ 報酬とロイヤルティ ](rewards-loyalty.md) - ポイントシステムを使用して、顧客エンゲージメントを高め、顧客ロイヤルティを促進する独自のプログラムを実装します。 幅広い取引や顧客活動に対してポイントを付与し、ポイントの割り当て、残高、有効期限を制御できます。
 
-- [個人の販売とイベント](events-private-sales.md)  – 既存の顧客ベースを使用して、バズや新しいリードを生み出したり、民間販売やその他のカタログイベントを通じて余剰在庫をオフロードしたりします。
+- [ 民間販売とイベント ](events-private-sales.md) – 既存の顧客ベースを使用して、バズや新しいリードを生成したり、民間販売やその他のカタログイベントを通じて余剰在庫をオフロードしたりします。
 
 >[!TIP]
 >
->製品Recommendationsと、購入者に最適なエクスペリエンスを提供するために必要なインサイトと制御を製品テンプレートで提供する方法については、を参照してください。 [製品Recommendationsユーザーガイド](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
+>製品Recommendationsとその機能を使用して、購入者にとって最適なエクスペリエンスを実現するために必要なインサイトと制御を提供する方法については、[ 製品Recommendationsユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html) を参照してください。
 
 ## プロモーション
 
@@ -45,22 +45,22 @@ Adobe Commerceでは、プロモーション機能を使用して商品の関係
 
 >[!NOTE]
 >
->特定の製品属性に基づいて条件を定義する場合は、 **[!UICONTROL Use for Promo Rule Conditions]** に設定する必要があります。 `Yes` のフィールド名に設定します [ストアフロント プロパティ](../catalog/attribute-product-create.md).
+>特定の製品属性に基づいて条件を定義する場合は、[ ストアフロントのプロパティ ](../catalog/attribute-product-create.md) の属性に対して、**[!UICONTROL Use for Promo Rule Conditions]** を `Yes` に設定する必要があります。
 
 
 ### 価格ルール
 
-の場合 [カタログ価格ルール](price-rules-catalog.md)に基づいて条件を作成します [属性セット](../catalog/attribute-sets.md) カタログ内で、比較関数および選択した属性。 いくつかのステートメントを選択することで、文のような条件を作成できます。 例えば、カテゴリに基づいて子供向けの衣類と男女向けの衣類に割引を適用する 2 つの価格ルールを作成できます。
+[ カタログ価格ルール ](price-rules-catalog.md) の場合は、カタログ内の [ 属性セット ](../catalog/attribute-sets.md)、比較関数および選択した属性に基づいて条件を作成します。 いくつかのステートメントを選択することで、文のような条件を作成できます。 例えば、カテゴリに基づいて子供向けの衣類と男女向けの衣類に割引を適用する 2 つの価格ルールを作成できます。
 
-![図 – カタログ価格ルールの例](./assets/diagram-catalog-price-rules.png){width="500"}
+![ 図 – カタログ価格ルールの例 ](./assets/diagram-catalog-price-rules.png){width="500"}
 
-[買い物かご価格ルール](price-rules-cart.md) 条件は、ストアの子である任意のカテゴリに基づくことができます [root](../catalog/category-root.md). 価格ルールは事前に設定され、必要な条件が満たされた場合は常に行動に春。 これらのルールでは、属性を使用します。これには、製品属性を使用して買い物かごで SKU を照合するなど、製品属性の組み合わせが含まれます。 また、これらのルールでは、製品選択数量条件、複雑なルールの条件の組み合わせ、小計などの買い物かご属性も使用できます。
+[ 買い物かご価格ルール ](price-rules-cart.md) 条件は、ストア [root](../catalog/category-root.md) の子である任意のカテゴリに基づくことができます。 価格ルールは事前に設定され、必要な条件が満たされた場合は常に行動に春。 これらのルールでは、属性を使用します。これには、製品属性を使用して買い物かごで SKU を照合するなど、製品属性の組み合わせが含まれます。 また、これらのルールでは、製品選択数量条件、複雑なルールの条件の組み合わせ、小計などの買い物かご属性も使用できます。
 
-![図 – カート価格ルールの例](./assets/diagram-cart-price-rules.png){width="500"}
+![ 図 – 買い物かご価格ルールの例 ](./assets/diagram-cart-price-rules.png){width="500"}
 
 ## 通信と SEO
 
-マスタリング [検索エンジン最適化（SEO）](seo-overview.md) 潜在的な買い手を引き込むのに不可欠である。 検索エンジンによるページのインデックス作成方法を改善するために、検索エンジンの最適化と、サイトのコンテンツおよび表示の微調整について説明します。
+[ 検索エンジン最適化（SEO） ](seo-overview.md) の習得は、潜在的な購入者を取り込むために重要です。 検索エンジンによるページのインデックス作成方法を改善するために、検索エンジンの最適化と、サイトのコンテンツおよび表示の微調整について説明します。
 
 ストアを起動する前に完了する必要があるタスクの 1 つは、ストアから送信されるすべてのコミュニケーションに使用されるメールテンプレートを確認して、ブランドが反映されていることを確認することです。 しかし、ブランドや製品を既存の顧客に宣伝するその他のコミュニケーションを開発することで、これを一歩進める必要があります。 変数とマークアップタグを使用してコンテンツをパーソナライズできます。
 
@@ -68,13 +68,13 @@ Adobe Commerceでは、プロモーション機能を使用して商品の関係
 >
 >Adobe CommerceおよびMagento Open Sourceリリース 2.4.0 から 2.4.3 には、dotdigital Engagement Cloud との統合に使用される、dotdigital ベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、このCommerce Marketplaceはコアリリースにバンドルされなくなり、拡張機能からインストールおよび更新する必要があります。 また、Marketplace では、拡張機能開発者が提供する最新のドキュメントにもアクセスできます。
 ><br><br>
->バンドルされた拡張機能を有効にして設定してある場合は、2.4.4 のアップグレードプロセスの一環として composer.json ファイルを更新し、今後、拡張機能の更新を管理する必要があります。 参照： [アップグレードモジュール](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) が含まれる _アップグレードガイド_ を参照してください。
+>バンドルされた拡張機能を有効にして設定してある場合は、2.4.4 のアップグレードプロセスの一環として composer.json ファイルを更新し、今後、拡張機能の更新を管理する必要があります。 詳しくは、『 [ アップグレードガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) の _アップグレードモジュール_ を参照してください。
 
-- [ニュースレター](newsletters.md) - ニュースレターの作成、購読者のリストの管理、コンテンツの開発、ストアへのトラフィックの促進などを行います。
+- [ ニュースレター ](newsletters.md) - ニュースレターの作成、購読者のリストの管理、コンテンツの開発、ストアへのトラフィックの促進などを行います。
 
-- [RSS フィード](social-rss.md#rss-feeds) - RSS フィードを使用して、商品情報をショッピング集計サイトに発行したり、ニュースレターに含めたりできます。 お客様は RSS フィードを購読して、新製品やプロモーションについて知ることができます。
+- [RSS フィード ](social-rss.md#rss-feeds) - RSS フィードを使用すると、商品情報をショッピング集計サイトに発行したり、ニュースレターに含めたりできます。 お客様は RSS フィードを購読して、新製品やプロモーションについて知ることができます。
 
-- [ソーシャルネットワーク](social-rss.md#social-networks) - Marketplace 拡張機能をインストールするか、コンテンツページにプラグインを追加して、ストアをソーシャルネットワークと統合します。
+- [ ソーシャルネットワーク ](social-rss.md#social-networks) - Marketplace 拡張機能をインストールするか、コンテンツページにプラグインを追加して、ストアをソーシャルネットワークと統合します。
 
 ## Google マーケティングツール
 
@@ -82,12 +82,12 @@ Adobe Commerceでは、プロモーション機能を使用して商品の関係
 
 >[!NOTE]
 >
->2.4.5 リリース以降、Google サービスの統合が更新されて、GTag API の使用がサポートされるようになりました。 GTag は、Web ページのGoogle機能と統合するための統合メカニズムであり、Google サービスを通じてコンテンツをトラッキングおよび管理するための最新の機能と機会をサポートしています。 詳しくは、 [Google Analytics開発者向けドキュメント](https://developers.google.com/analytics/devguides/collection/gtagjs).
+>2.4.5 リリース以降、Google サービスの統合が更新されて、GTag API の使用がサポートされるようになりました。 GTag は、Web ページのGoogle機能と統合するための統合メカニズムであり、Google サービスを通じてコンテンツをトラッキングおよび管理するための最新の機能と機会をサポートしています。 詳しくは、[Google Analytics開発者向けドキュメント ](https://developers.google.com/analytics/devguides/collection/gtagjs) を参照してください。
 
-- [Google Analytics](google-analytics.md) - Google Universal Analytics を使用すると、オフラインおよびモバイルアプリのインタラクションをサポートし、継続的な更新にアクセスできるので、トラッキング用にさらにカスタムのディメンションと指標を定義できます。
+- [Google Analytics](google-analytics.md) - Google Universal Analytics を使用すると、トラッキング用にさらにカスタムのディメンションと指標を定義でき、オフラインおよびモバイルアプリのインタラクションに対応し、継続的な更新にアクセスできます。
 
-- [Google コンテンツ実験](google-content-experiments.md) -Google Analyticsコンテンツを使用して、製品、カテゴリまたはコンテンツページの A/B テストを設定します
+- [Google コンテンツ実験 ](google-content-experiments.md) - Google Analyticsコンテンツを使用して、製品、カテゴリまたはコンテンツページの A/B テストを設定します
 
-- [Google Tag Manager](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）Google タグマネージャーを使用して、マーケティングキャンペーンイベントに関連する多くのタグを管理します。
+- [Google タグマネージャー ](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） Google タグマネージャーを使用して、マーケティングキャンペーンイベントに関連する多くのタグを管理します。
 
 - [Google AdWords](google-adwords.md) - Google AdWords キャンペーンを作成し、ストアのコンバージョンを追跡します。

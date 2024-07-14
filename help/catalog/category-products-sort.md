@@ -14,66 +14,66 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-カテゴリ内の商品の位置は、商品を位置にドラッグ&amp;ドロップするか、事前に定義された並べ替え順を適用することで、手動で指定できます。 デフォルトでは、商品は在庫レベル、年齢、カラー、名前、SKU、価格で並べ替えることができます。 自動ソートは、現在のソート順序を上書きし、手動で設定したドラッグ アンド ドロップ位置をリセットします。 リストに含める製品に必要な色の並べ替え順序と最小在庫レベルは、 [ビジュアルマーチャンダイザー](../configuration-reference/catalog/visual-merchandiser.md) 設定。
+カテゴリ内の商品の位置は、商品を位置にドラッグ&amp;ドロップするか、事前に定義された並べ替え順を適用することで、手動で指定できます。 デフォルトでは、商品は在庫レベル、年齢、カラー、名前、SKU、価格で並べ替えることができます。 自動ソートは、現在のソート順序を上書きし、手動で設定したドラッグ アンド ドロップ位置をリセットします。 色の並べ替え順序と、リストに含める製品に必要な最小在庫レベルは、[ ビジュアルマーチャンダイザー ](../configuration-reference/catalog/visual-merchandiser.md) 設定で設定します。
 
 >[!NOTE]
 >
->カテゴリページで、 `Out of stock` 製品は常に表示されます **_後_** `In Stock` すべての並べ替えタイプを含む製品リスト上の製品
+>カテゴリページ `Out of stock` は、製品リストには、すべての並べ替えタイプで `In Stock` 常に **_後_** 製品が表示されます。
 
-カテゴリオプションは、ごとに個別に設定できます [ストア表示](../stores-purchase/stores.md#add-stores) 商品の選択、リスト内の相対的な位置、カテゴリルールで使用できる属性を決定します。 ただし、1 つだけがあります。 **_global_** カタログ内の並べ替え順と製品位置。すべてのユーザー間で共有されます [ビューを保存](../stores-purchase/store-views.md)、ストア、web サイトなどの情報を管理できます。
+カテゴリオプションを [ ストア表示 ](../stores-purchase/stores.md#add-stores) ごとに個別に設定して、商品の選択、リスト内の相対的な位置、カテゴリルールに使用できる属性を決定することができます。 ただし、カタログ内には単一の **_グローバル_** 並べ替え順と製品位置があり、これらは [ ストア表示 ](../stores-purchase/store-views.md)、ストア、web サイトすべてで共有されます。
 
 ## 手順 1：設定の範囲を設定する
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Categories]** に移動します。
 
-1. 必要に応じて、 **[!UICONTROL Store View]** 設定が適用される場所。
+1. 必要に応じて、設定が適用される **[!UICONTROL Store View]** を選択します。
 
-   マルチストアインストールの場合、 _[!UICONTROL Store View]_を設定すると、ストア内の使用可能なすべてのビューに並べ替え順が適用されます。
+   マルチストアインストールの場合、_[!UICONTROL Store View]_設定は、ストア内の使用可能なすべてのビューに並べ替え順を適用します。
 
 1. 左側のカテゴリ ツリーで、編集するカテゴリを選択します。
 
-   ![カテゴリツリー](./assets/category-selected.png){width="700" zoomable="yes"}
+   ![ カテゴリツリー ](./assets/category-selected.png){width="700" zoomable="yes"}
 
 ## 手順 2：製品の並べ替え
 
 >[!NOTE]
 >
->カテゴリを製品属性で並べ替える場合、属性値が同じ製品も _[!UICONTROL Product ID]_昇順。
+>カテゴリを製品属性で並べ替える場合、同じ属性値を持つ製品も _[!UICONTROL Product ID]_の昇順で並べ替えられます。
 
-が含まれる _[!UICONTROL Products in Category]_セクションで、タイル（ ![タイルの表示](../assets/icon-view-tiles.png) ）アイコンで製品タイルをグリッドで表示します。 手動または自動のいずれかの方法を使用して、製品を並べ替えます。
+「_[!UICONTROL Products in Category]_」セクションでタイル（![ タイルを表示 ](../assets/icon-view-tiles.png)）アイコンをクリックして、製品タイルをグリッドで表示します。 手動または自動のいずれかの方法を使用して、製品を並べ替えます。
 
-![製品タイル](./assets/category-products-tiles.png){width="600" zoomable="yes"}
+![ 製品タイル ](./assets/category-products-tiles.png){width="600" zoomable="yes"}
 
 ### 方法 1：手動ソート
 
-1. を設定 **[!UICONTROL Sort Order]** ご希望に合わせてください。
+1. **[!UICONTROL Sort Order]** を好みに合わせて設定します。
 
-   ![並べ替え順序](./assets/category-edit-sort-order.png){width="600" zoomable="yes"}
+   ![ 並べ替え順 ](./assets/category-edit-sort-order.png){width="600" zoomable="yes"}
 
-1. 新しい並べ替え順を適用するには、をクリックします。 **[!UICONTROL Sort]**.
+1. 新しい並べ替え順を適用するには、[**[!UICONTROL Sort]**] をクリックします。
 
-1. 並べ替え順を保存するには、をクリックします。 **[!UICONTROL Save Category]**.
+1. 並べ替え順を保存するには、「**[!UICONTROL Save Category]**」をクリックします。
 
 1. プロンプトが表示されたら、無効なインデクサーを更新します。
 
 ### 方法 2：自動ソート
 
-1. を設定 **[!UICONTROL Match products by rule]** （![「はい」を切り替え](../assets/toggle-yes.png)） ～ `Yes`.
+1. 「**[!UICONTROL Match products by rule]**」（![ 切り替え yes](../assets/toggle-yes.png)）を「`Yes`」に設定します。
 
 
-1. を設定 **[!UICONTROL Automatic Sorting]** ご希望に合わせてください。
+1. **[!UICONTROL Automatic Sorting]** を好みに合わせて設定します。
 
 1. カテゴリルールを作成するには、次の手順に従います。
 
 ## 手順 3：カテゴリルールの作成
 
-1. を設定 **[!UICONTROL Match products by rule]** （![「はい」を切り替え](../assets/toggle-yes.png)） ～ `Yes`.
+1. 「**[!UICONTROL Match products by rule]**」（![ 切り替え yes](../assets/toggle-yes.png)）を「`Yes`」に設定します。
 
-1. クリック **[!UICONTROL Add Condition]**.
+1. 「**[!UICONTROL Add Condition]**」をクリックします。
 
-1. を選択します。 **[!UICONTROL Attribute]** それが条件の基礎です。
+1. 条件の基礎となる **[!UICONTROL Attribute]** を選択します。
 
-1. を設定 **[!UICONTROL Operator]** を次のいずれかに変更します。
+1. **[!UICONTROL Operator]** を次のいずれかに設定します。
 
    - `Equal`
    - `Not equal`
@@ -83,17 +83,17 @@ ht-degree: 0%
    - `Less than or equal to`
    - `Contains`
 
-1. 適切なを入力 **[!UICONTROL Value]**.
+1. 適切な **[!UICONTROL Value]** を入力します。
 
-   ![カテゴリ条件](./assets/category-rule-create.png){width="600" zoomable="yes"}
+   ![ カテゴリ条件 ](./assets/category-rule-create.png){width="600" zoomable="yes"}
 
-1. 別の条件を追加するには、をクリックします **[!UICONTROL Add Condition]** そしてプロセスを繰り返します。
+1. 別の条件を追加するには、「**[!UICONTROL Add Condition]**」をクリックして手順を繰り返します。
 
 ## 手順 4：保存、更新、検証
 
-1. 完了したら、 **[!UICONTROL Save Category]**.
+1. 完了したら、「**[!UICONTROL Save Category]**」をクリックします。
 
-1. キャッシュを更新するように求められたら、 **[!UICONTROL Cache Management]** 無効な各キャッシュを更新します。
+1. キャッシュを更新するように求めるメッセージが表示されたら、[ **[!UICONTROL Cache Management]** ] をクリックして無効な各キャッシュを更新します。
 
 1. ストアフロントで、製品の選択、並べ替えおよびカテゴリルールが正しく機能していることを確認します。
 

@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->税金を含む/除外する価格を示すと、お客様にとって混乱を招く可能性があります。 警告メッセージのトリガーを回避するには、 [ガイドライン](international-tax-guidelines.md) お住まいの国や [推奨設定](taxes.md#warning-messages) 警告メッセージを回避する。
+>税金を含む/除外する価格を示すと、お客様にとって混乱を招く可能性があります。 警告メッセージが表示されないようにするには、お住まいの国の [ ガイドライン ](international-tax-guidelines.md) および [ 推奨設定 ](taxes.md#warning-messages) を参照して、警告メッセージが表示されないようにします。
 
-![価格の表示設定](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
+![ 価格表示設定 ](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
 
-これらの各設定について詳しくは、を参照してください。 [価格の表示設定](../configuration-reference/sales/tax.md#price-display-settings) が含まれる _設定リファレンスガイド_.
+これらの各設定の詳細については、『 [ 設定リファレンスガイド _の ](../configuration-reference/sales/tax.md#price-display-settings) 価格表示設定_ を参照してください。
 
 ## 価格表示設定の指定
 
@@ -32,13 +32,13 @@ ht-degree: 0%
 
 ### 手順 1：カタログ価格の表示設定の構成
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL Tax]**.
+1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Tax]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Price Display Settings]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Price Display Settings]**」セクションを展開します。
 
-1. の場合 **[!UICONTROL Display Product Prices in Catalog]**&#x200B;次のいずれかの操作を行います。
+1. **[!UICONTROL Display Product Prices in Catalog]** の場合は、次のいずれかを選択します。
 
    - `Excluding Tax`
    - `Including Tax`
@@ -46,9 +46,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >このオプションを `Including Tax`、税金が表示されるのは、税源に一致する税務処理基準がある場合、または税務処理基準に一致する顧客所在地がある場合のみです。 照合をトリガーにできるイベントには、顧客アカウントの作成、ログイン、またはショッピング・カート内の税金および出荷見積ツールの使用が含まれます。
+   >このオプションを「`Including Tax`」に設定すると、税金が表示されるのは、税金発生元と一致する税務処理基準がある場合、または税務処理基準と一致する顧客所在地がある場合のみです。 照合をトリガーにできるイベントには、顧客アカウントの作成、ログイン、またはショッピング・カート内の税金および出荷見積ツールの使用が含まれます。
 
-1. の場合 **[!UICONTROL Display Shipping Prices]**&#x200B;次のいずれかの操作を行います。
+1. **[!UICONTROL Display Shipping Prices]** の場合は、次のいずれかを選択します。
 
    - `Excluding Tax`
    - `Including Tax`
@@ -56,45 +56,45 @@ ht-degree: 0%
 
 両方の価格（税込および非税込）を表示することを選択した場合、ストアフロントは次のようになります。
 
-![ストアフロントでの税を含む価格表示の例](./assets/catalog-prices-tax.png){width="700" zoomable="yes"}
+![ 店舗店舗等における税込み価格表示例 ](./assets/catalog-prices-tax.png){width="700" zoomable="yes"}
 
 ### 手順 2：買い物かごの表示設定
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Shopping Cart Display Settings]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Shopping Cart Display Settings]**」セクションを展開します。
 
-   ![買い物かごの表示設定](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
+   ![ 買い物かごの表示設定 ](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
 
-1. の場合 **[!UICONTROL Display Prices]**&#x200B;次のいずれかの操作を行います。
-
-   - `Excluding Tax`
-   - `Including Tax`
-   - `Including and Excluding Tax`
-
-1. の場合 **[!UICONTROL Display Subtotal]**&#x200B;次のいずれかの操作を行います。
+1. **[!UICONTROL Display Prices]** の場合は、次のいずれかを選択します。
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. の場合 **[!UICONTROL Display Shipping Amount]**&#x200B;次のいずれかの操作を行います。
+1. **[!UICONTROL Display Subtotal]** の場合は、次のいずれかを選択します。
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **[!UICONTROL Display Gift Wrapping Prices]**&#x200B;次のいずれかの操作を行います。
+1. **[!UICONTROL Display Shipping Amount]** の場合は、次のいずれかを選択します。
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **[!UICONTROL Display Printed Card Prices]**&#x200B;次のいずれかの操作を行います。
+1. ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **[!UICONTROL Display Gift Wrapping Prices]** に対して、次のいずれかを選択します。
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. 残りのオプションごとに、を切り替えます。 `Yes` または `No` 好みに応じて：
+1. ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **[!UICONTROL Display Printed Card Prices]** に対して、次のいずれかを選択します。
+
+   - `Excluding Tax`
+   - `Including Tax`
+   - `Including and Excluding Tax`
+
+1. その他のオプションごとに、必要に応じて `Yes` または `No` に切り替えます。
 
    - **[!UICONTROL Include Tax in Order Total]**
    - **[!UICONTROL Display Full Tax Summary]**
@@ -102,44 +102,44 @@ ht-degree: 0%
 
 ### 手順 3：受注、請求書およびクレジット・メモの表示設定の構成
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Orders, Invoices, Credit Memos Display Settings]**」セクションを展開します。
 
-   ![受注、請求書、クレジット・メモの表示設定](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
+   ![ 注文、請求書、クレジット メモの表示設定 ](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
 
-1. の場合 **[!UICONTROL Display Prices]**&#x200B;次のいずれかの操作を行います。
-
-   - `Excluding Tax`
-   - `Including Tax`
-   - `Including and Excluding Tax`
-
-1. の場合 **[!UICONTROL Display Subtotal]**&#x200B;次のいずれかの操作を行います。
+1. **[!UICONTROL Display Prices]** の場合は、次のいずれかを選択します。
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. の場合 **[!UICONTROL Display Shipping Amount]**&#x200B;次のいずれかの操作を行います。
+1. **[!UICONTROL Display Subtotal]** の場合は、次のいずれかを選択します。
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **[!UICONTROL Display Gift Wrapping Prices]**&#x200B;次のいずれかの操作を行います。
+1. **[!UICONTROL Display Shipping Amount]** の場合は、次のいずれかを選択します。
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **[!UICONTROL Display Printed Card Prices]**&#x200B;次のいずれかの操作を行います。
+1. ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **[!UICONTROL Display Gift Wrapping Prices]** に対して、次のいずれかを選択します。
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. 残りのオプションごとに、を切り替えます。 `Yes` または `No` 好みに応じて：
+1. ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **[!UICONTROL Display Printed Card Prices]** に対して、次のいずれかを選択します。
+
+   - `Excluding Tax`
+   - `Including Tax`
+   - `Including and Excluding Tax`
+
+1. その他のオプションごとに、必要に応じて `Yes` または `No` に切り替えます。
 
    - **[!UICONTROL Include Tax in Order Total]**
    - **[!UICONTROL Display Full Tax Summary]**
    - **[!UICONTROL Display Zero Tax Subtotal]**
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

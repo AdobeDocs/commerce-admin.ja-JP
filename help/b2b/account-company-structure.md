@@ -15,38 +15,38 @@ ht-degree: 0%
 
 会社アカウントを設定して、ビジネスの構造を反映させることができます。 最初は、会社の構造には会社の管理者のみが含まれていますが、ユーザーのチームを含めるように拡張できます。 ユーザーは、チームに関連付けたり、会社内の部門や下位部門の階層内で整理したりできます。
 
-![事業部を持つ会社組織](./assets/company-structure-diagram.svg){width="500"}
+![ 部門を有する企業体質 ](./assets/company-structure-diagram.svg){width="500"}
 
 会社管理者のアカウントダッシュボードでは、会社構造はツリーで表され、最初は会社管理者のみで構成されます。
 
-![会社管理者を含む会社構造](./assets/company-structure-tree-admin.png){width="600" zoomable="yes"}
+![ 会社管理者を置く会社組織 ](./assets/company-structure-tree-admin.png){width="600" zoomable="yes"}
 
 アカウントを作成して承認すると、会社の管理者は会社のメールアドレスを使用したり、別のメールアドレスを割り当てたりできます。
 
 会社管理者となるユーザーは、会社内で複数の役割を持つ可能性があります。 会社管理者のメールアドレスを別途入力した場合、最初の会社構造には、会社管理者と、会社管理者の名前に個々のユーザーアカウントが含まれます。 この場合、会社の管理者は、会社または個人ユーザーとしてアカウントにログインできます。
 
-![管理者とユーザーアカウントを使用した会社構造](./assets/company-structure-tree-admin-user.png){width="600" zoomable="yes"}
+![ 管理者とユーザーアカウントを使用した会社構造 ](./assets/company-structure-tree-admin-user.png){width="600" zoomable="yes"}
 
-マーチャントの場合、会社構造全体が _会社_ および _顧客_ 管理内のグリッド。 会社グリッドには、ステータスに関係なくすべての会社が一覧表示されます。 次の例は、2 つの会社のアカウントを示しています。 _ACME_ 会社およびの _Vendelay_ 会社
+マーチャントの場合、会社全体の構造が管理画面の _会社_ グリッドと _顧客_ グリッドに反映されます。 会社グリッドには、ステータスに関係なくすべての会社が一覧表示されます。 次の例は、2 つの会社（_ACME_ 会社と _Vendelay_ 会社）のアカウントを示しています。
 
-![会社グリッド](./assets/companies-grid.png){width="700" zoomable="yes"}
+![ 会社グリッド ](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-次の例は、 [!UICONTROL Customers] これらの会社の最初の会社管理者アカウントを持つグリッド。
+次の例は、これらの会社の最初の会社管理者アカウントを持つ [!UICONTROL Customers] グリッドを示しています。
 
-![会社管理者アカウントを使用した顧客グリッド](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![ 会社管理者アカウントを使用した顧客グリッド ](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-アカウントを作成したら、会社の管理者は、の会社構造を定義する必要があります [チーム](account-company-structure.md)、を設定します [会社のユーザー](account-company-users.md)を作成して確立します [役割と権限](account-company-roles-permissions.md) それぞれについて。
+アカウントを作成したら、会社の管理者は、会社の構造 [ チーム ](account-company-structure.md) を定義し、[ 会社のユーザー ](account-company-users.md) を設定して、それぞれに [ 役割と権限 ](account-company-roles-permissions.md) を設定する必要があります。
 
 ## 会社構造アイコン
 
 | アイコン | 説明 |
 | ---- | ----------------- |
-| ![会社管理者アイコン](./assets/company-icon-admin.png) | 会社構造内の会社管理者を表します。 |
-| ![チームアイコン](./assets/company-icon-team.png) | 会社構造内のチームを表します。 |
-| ![ユーザーアイコン](./assets/company-icon-user.png) | 会社構造内のユーザーを表します。 |
-| ![移動アイコン](./assets/company-icon-move.png) | チームを会社構造内の別の位置に移動します。 |
-| ![拡張アイコン](./assets/company-icon-expand.png) | 会社構造でチームを展開します。 |
-| ![折りたたみアイコン](./assets/company-icon-collapse.png) | 会社構造内のチームを折りたたみます。 |
+| ![ 会社管理者アイコン ](./assets/company-icon-admin.png) | 会社構造内の会社管理者を表します。 |
+| ![ チームアイコン ](./assets/company-icon-team.png) | 会社構造内のチームを表します。 |
+| ![ ユーザーアイコン ](./assets/company-icon-user.png) | 会社構造内のユーザーを表します。 |
+| ![ 移動アイコン ](./assets/company-icon-move.png) | チームを会社構造内の別の位置に移動します。 |
+| ![ 拡張アイコン ](./assets/company-icon-expand.png) | 会社構造でチームを展開します。 |
+| ![ 折りたたみアイコン ](./assets/company-icon-collapse.png) | 会社構造内のチームを折りたたみます。 |
 
 {style="table-layout:auto"}
 
@@ -54,41 +54,41 @@ ht-degree: 0%
 
 会社のアカウントの構造は、シンプルでフラットな組織か、会社の下位区分や部署ごとに異なるチームを持つ複雑な組織かに関わらず、購買組織を反映する必要があります。
 
-ストアが [設定済み](enable-basic-features.md) 会社が独自のアカウントを管理できるようにするには、アカウントの承認後、会社の管理者が最初に完了するタスクの 1 つに会社構造を設定します。 会社アカウントでは、会社の構造はツリーとして表され、会社の管理者が最上位に表示されます。
+会社が独自のアカウントを管理できるようにストアが [ 設定 ](enable-basic-features.md) されている場合、アカウントの承認後、会社の管理者が最初に完了するタスクの 1 つは、会社構造の設定です。 会社アカウントでは、会社の構造はツリーとして表され、会社の管理者が最上位に表示されます。
 
-![チームを使用した会社構造](./assets/company-structure-teams-diagram.svg){width="450"}
+![ チームを持つ会社体制 ](./assets/company-structure-teams-diagram.svg){width="450"}
 
 1. 会社の管理者が自分のアカウントにログインします。
 
-1. 左側のパネルで、を選択します **[!UICONTROL Company Structure]**.
+1. 左側のパネルで、「**[!UICONTROL Company Structure]**」を選択します。
 
-1. 次の下 **[!UICONTROL Business Structure]**, クリック数 **[!UICONTROL Add Team]** 次の操作を実行します。
+1. **[!UICONTROL Business Structure]** で **[!UICONTROL Add Team]** をクリックし、次の操作を実行します。
 
-   - エントリ数： **[!UICONTROL Team Title]** および **[!UICONTROL Description]**.
+   - **[!UICONTROL Team Title]** および **[!UICONTROL Description]** を入力します。
 
      チームのタイトルには、チーム、オフィス、会社内の部署など、会社の構造を表すものを使用できます
 
-     ![チームを追加](./assets/company-structure-add-team.png){width="700" zoomable="yes"}
+     ![ チームを追加 ](./assets/company-structure-add-team.png){width="700" zoomable="yes"}
 
-   - 完了したら、をクリックします **[!UICONTROL Save]**.
+   - 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
    - 必要な数のチームを作成します。
 
-     ![チームを使用した会社構造](./assets/company-structure-teams.png){width="600" zoomable="yes"}
+     ![ チームを持つ会社体制 ](./assets/company-structure-teams.png){width="600" zoomable="yes"}
 
 1. チームの階層を作成するには、次の操作を実行します。
 
-   - 親チームを選択し、 **[!UICONTROL Add Team]**.
+   - 親チームを選択し、[**[!UICONTROL Add Team]**] をクリックします。
 
-     ![事業部を持つ会社組織](./assets/company-structure-northwest-division.png){width="600" zoomable="yes"}
+     ![ 部門を有する企業体質 ](./assets/company-structure-northwest-division.png){width="600" zoomable="yes"}
 
-   - エントリ数： **[!UICONTROL Team Title]** および **[!UICONTROL Description]**.
+   - **[!UICONTROL Team Title]** および **[!UICONTROL Description]** を入力します。
 
-   - クリック数 **[!UICONTROL Save]**.
+   - **[!UICONTROL Save]** をクリックします。
 
 1. これらの手順を繰り返して、必要な数のチーム、または必要な数の分割と分割を作成します。
 
-   ![事業部・部署付き会社体制](./assets/company-structure-divisions.png){width="600" zoomable="yes"}
+   ![ 組織と事業部を有する企業体質 ](./assets/company-structure-divisions.png){width="600" zoomable="yes"}
 
 ## チームの移動
 
@@ -106,23 +106,23 @@ ht-degree: 0%
 
 1. 会社の管理者が、削除するチームを選択します。
 
-1. クリック数 **[!UICONTROL Delete Selected]**.
+1. **[!UICONTROL Delete Selected]** をクリックします。
 
-1. 確認を求められたら、をクリックします **[!UICONTROL Delete]**.
+1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL Delete]**」をクリックします。
 
 ## チーム構造を展開または折りたたむ
 
 会社の管理者は、会社の構造を操作する際に、ツリーを折りたたんだり展開したりできます。
 
-- クリック数 **[!UICONTROL Collapse All]** または **[!UICONTROL Expand All]**.
+- **[!UICONTROL Collapse All]** または **[!UICONTROL Expand All]** をクリックします。
 
-- クリック数 ![展開されたアイコン](../assets/icon-display-collapse.png) チームを折りたたむ ![折りたたまれたアイコン](../assets/icon-display-expand.png) チームを展開します。
+- チームを折りたたむには ![ 展開されたアイコン ](../assets/icon-display-collapse.png) をクリックし、チームを展開するには ![ 折りたたまれたアイコン ](../assets/icon-display-expand.png) をクリックします。
 
 ## チームへのユーザーの割り当て
 
-チームとユーザーが最初にに追加されたとき [会社構造](account-company-structure.md)を選択すると、会社管理者の下の同じレベルに配置されます。
+チームとユーザーが最初に [ 会社構造 ](account-company-structure.md) に追加されると、それらは会社管理者の下の同じレベルに配置されます。
 
-![ユーザーとチームを使用した会社構造](./assets/company-users-added.png){width="700" zoomable="yes"}
+![ ユーザーとチームを使用した会社構造 ](./assets/company-users-added.png){width="700" zoomable="yes"}
 
 | 制御 | 説明 |
 |--- |--- |
@@ -133,8 +133,8 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-1. 左側のパネルでは、会社の管理者が次を選択します **[!UICONTROL Company Structure]**.
+1. 左側のパネルでは、会社の管理者が **[!UICONTROL Company Structure]** を選択します。
 
-1. 既存のチームにユーザーを割り当てるには、![移動アイコン](../assets/icon-move.png)）を選択します。
+1. 既存のチームにユーザーを割り当てるには、ユーザーを適切なチームの下にドラッグ（![ 移動アイコン ](../assets/icon-move.png)）します。
 
-   ![チームの割り当て](./assets/company-structure-teams-users-assigned.png){width="700" zoomable="yes"}
+   ![ チームの割り当て ](./assets/company-structure-teams-users-assigned.png){width="700" zoomable="yes"}

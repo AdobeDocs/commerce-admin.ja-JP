@@ -16,23 +16,23 @@ ht-degree: 0%
 
 店舗与信構成は、自動払戻、顧客アカウントでの使用可能な与信の表示、および顧客に送信される通知に使用される E メール・テンプレートを制御します。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Customers]** を選択します **[!UICONTROL Customer Configuration]**.
+1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Customer Configuration]**」を選択します。
 
-1. を展開します。 **[!UICONTROL Store Credit Options]** セクション。
+1. 「**[!UICONTROL Store Credit Options]**」セクションを展開します。
 
-   ![店舗クレジット オプション](../configuration-reference/customers/assets/customer-configuration-store-credit-options.png){width="600" zoomable="yes"}
+   ![ 店舗クレジット オプション ](../configuration-reference/customers/assets/customer-configuration-store-credit-options.png){width="600" zoomable="yes"}
 
-1. を設定 **[!UICONTROL Enable Store Credit Functionality]** 対象： `Yes`.
+1. **[!UICONTROL Enable Store Credit Functionality]** を `Yes` に設定します。
 
 1. 必要に応じて、次の設定を行います。
 
    * **[!UICONTROL Show Store Credit History to Customers]**
    * **[!UICONTROL Refund Store Credit Automatically]**
 
-1. を設定 **[!UICONTROL Store Credit Update Email Sender]** を顧客に送信されるメール通知の送信者として表示されるストア id に設定します。
+1. 顧客に送信されるメール通知の送信者として表示されるストア ID に **[!UICONTROL Store Credit Update Email Sender]** を設定します。
 
-1. を設定 **[!UICONTROL Store Credit Update Email Template]** を顧客に送信するメール通知に使用されるテンプレートに追加します。
+1. 顧客に送信するメール通知に使用するテンプレートに **[!UICONTROL Store Credit Update Email Template]** を設定します。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

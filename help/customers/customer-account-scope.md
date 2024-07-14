@@ -12,16 +12,16 @@ ht-degree: 0%
 
 # 顧客アカウントの範囲
 
-ストア内のすべてのページのヘッダーは、買い物客の招待を次まで拡張します。 _ログインまたは登録_ ストアのアカウントの場合。 アカウントを開設するお客様には、次のような様々なメリットがあります。
+ストア内のすべてのページのヘッダーに、買い物客がストアのアカウントを _ログインまたは登録_ するための招待が拡張されます。 アカウントを開設するお客様には、次のような様々なメリットがあります。
 
-* **顧客アカウントを作成**  – 訪問者は顧客アカウントを作成して、ストアフロントを登録顧客として使用できます。
-* **会社アカウントの作成** 設定に応じて、ストアへの訪問者が会社アカウントの作成を選択できます。 詳しくは、を参照してください [Adobe Commerce B2B](../b2b/introduction.md).
-* **チェックアウトの迅速化**  – 登録顧客は、多くの情報が既にアカウントに含まれているため、チェックアウトをより迅速に進めることができます。
-* **セルフサービス**  – 登録されたお客様は、情報の更新、注文のステータスの確認、アカウントからの並べ替えなどを行うことができます。
+* **顧客アカウントの作成** – 訪問者は、ストアフロントを登録顧客として使用できるように顧客アカウントを作成できます。
+* **会社アカウントの作成** 設定に応じて、ストアへの訪問者は会社アカウントの作成を選択できます。 詳しくは、[Adobe Commerce B2B](../b2b/introduction.md) を参照してください。
+* **迅速なチェックアウト** – 多くの情報が既にアカウントに存在するので、登録済みの顧客はチェックアウトをより迅速に進めることができます。
+* **セルフサービス** – 登録されたお客様は、情報の更新、注文のステータスの確認、アカウントからの並べ替えなどを行うことができます。
 
-顧客は、 **[!UICONTROL My Account]** ストアのヘッダー内のリンク。 顧客は自分のアカウントから、過去や現在の住所、請求や配送の環境設定、ニュースレターの購読、ウィッシュリストなどの情報を表示および変更できます。
+顧客は、ストアのヘッダーにある **[!UICONTROL My Account]** リンクをクリックしてアカウントにアクセスできます。 顧客は自分のアカウントから、過去や現在の住所、請求や配送の環境設定、ニュースレターの購読、ウィッシュリストなどの情報を表示および変更できます。
 
-![マイアカウント](assets/account-dashboard-my-account.png){width="600" zoomable="yes"}
+![ マイアカウント ](assets/account-dashboard-my-account.png){width="600" zoomable="yes"}
 
 ## 顧客アカウントの範囲の設定
 
@@ -29,17 +29,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Web サイトを顧客グループから除外した場合、顧客アカウントの範囲を Web サイトに限定したり、すべての Web サイトと共有したりすると、顧客は Web サイトにログインできなくなります。 参照： [顧客グループの作成](customer-groups.md#create-a-customer-group) web サイトをグループから除外する方法の詳細については、こちらを参照してください。
+>Web サイトを顧客グループから除外した場合、顧客アカウントの範囲を Web サイトに限定したり、すべての Web サイトと共有したりすると、顧客は Web サイトにログインできなくなります。 Web サイトをグループから除外する方法について詳しくは、[ 顧客グループの作成 ](customer-groups.md#create-a-customer-group) を参照してください。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > [!UICONTROL _[!UICONTROL Settings]_] > **[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/[!UICONTROL _[!UICONTROL Settings]_]/**[!UICONTROL Configuration]** に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Customers]** を選択します **[!UICONTROL Customer Configuration]**.
+1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Customer Configuration]**」を選択します。
 
-1. を展開します。 **[!UICONTROL Account Sharing Options]** セクション。
+1. 「**[!UICONTROL Account Sharing Options]**」セクションを展開します。
 
-   ![アカウント共有オプション](assets/customer-configuration-account-sharing-options.png){width="600" zoomable="yes"}
+   ![ アカウント共有オプション ](assets/customer-configuration-account-sharing-options.png){width="600" zoomable="yes"}
 
-1. を設定 **[!UICONTROL Share Customer Accounts]** を次のいずれかに変更します。
+1. **[!UICONTROL Share Customer Accounts]** を次のいずれかに設定します。
 
    | オプション | 説明 |
    | --- | --- |
@@ -50,10 +50,10 @@ ht-degree: 0%
 
    >[!INFO]
    >
-   > 必要に応じて、 **[!UICONTROL User system value]** 変更するチェックボックス。
+   > 必要に応じて、「**[!UICONTROL User system value]**」チェックボックスをオフにして変更を加えます。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
    >[!NOTE]
    >
-   >条件 `Global` で顧客情報が選択されています **マイアカウント** （住所やアカウント情報（連絡先の詳細など）を共有します。
+   >`Global` を選択すると、**マイアカウント** の顧客情報（住所と連絡先詳細などのアカウント情報）が共有されます。

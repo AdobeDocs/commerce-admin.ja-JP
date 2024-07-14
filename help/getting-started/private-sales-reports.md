@@ -14,28 +14,28 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-民間販売レポートは、次の情報を提供します [イベントおよび民間販売](../merchandising-promotions/events-private-sales.md).
+民間販売レポートは、[ イベントおよび民間販売 ](../merchandising-promotions/events-private-sales.md) に関する情報を提供します。
 
 ## [!UICONTROL Invitations Report]
 
-この [!UICONTROL Invitations Report] 次の数を表示 [招待状](../merchandising-promotions/invitations.md) 指定された期間に送信され、承認および破棄された数。
+[!UICONTROL Invitations Report] は、指定された期間中に送信された [ 招待 ](../merchandising-promotions/invitations.md) の数、および承認された数と破棄された数を示します。
 
-日 _Admin_ サイドバー、に移動 **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
+_管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invitations]**に移動します。
 
-![招待状レポート](./assets/private-sales-invitations.png){width="600"}
+![ 招待状の報告 ](./assets/private-sales-invitations.png){width="600"}
 
 ## [!UICONTROL Invited Customers Report]
 
-この [!UICONTROL Invited Customers Report] プライベート販売またはイベントへの招待状を送信したすべての顧客を表示します。 これには、名前とメールアドレス、顧客グループ、送信された招待状の数、受け入れられた数が含まれます。
+[!UICONTROL Invited Customers Report] には、非公開の販売またはイベントへの招待状を送信したすべての顧客が表示されます。 これには、名前とメールアドレス、顧客グループ、送信された招待状の数、受け入れられた数が含まれます。
 
-日 _Admin_ サイドバー、に移動 **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invited Customers]**.
+_管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invited Customers]**に移動します。
 
-![招待顧客レポート](./assets/private-sales-invited-customers.png){width="600"}
+![ 招待顧客レポート ](./assets/private-sales-invited-customers.png){width="600"}
 
 ## [!UICONTROL Conversion Rate Report]
 
-この [!UICONTROL Conversion Rate Report] 送信および承認された招待の数、購入につながった招待の数、およびコンバージョン率をパーセンテージで表示します。
+[!UICONTROL Conversion Rate Report] には、送信および承認された招待の数、購入につながった招待の数、およびコンバージョン率がパーセンテージで表示されます。
 
-日 _Admin_ サイドバー、に移動 **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Conversions]**.
+_管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Conversions]**に移動します。
 
-![コンバージョン率レポート](./assets/private-sales-conversions.png){width="600"}
+![ コンバージョン率レポート ](./assets/private-sales-conversions.png){width="600"}

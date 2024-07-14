@@ -20,35 +20,35 @@ ht-degree: 0%
 
 ## 自動リダイレクトの設定
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Catalog]** を選択します **[!UICONTROL Catalog]** その下に。
+1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Search Engine Optimization]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Search Engine Optimization]**」セクションを展開します。
 
-   ![カタログ設定 – 検索エンジンの最適化](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![ カタログ設定 – 検索エンジンの最適化 ](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
-1. を設定 **[!UICONTROL Create Permanent Redirect for URLs if URL Key Changed]** 対象： `Yes`.
+1. **[!UICONTROL Create Permanent Redirect for URLs if URL Key Changed]** を `Yes` に設定します。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ## 製品 URL を自動的にリダイレクト
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
 1. リストで製品を見つけ、クリックしてレコードを開きます。
 
-1. を展開 ![展開セレクター ](../assets/icon-display-expand.png) この **[!UICONTROL Search Engine Optimization]** セクション。
+1. 「**[!UICONTROL Search Engine Optimization]**」セクション ](../assets/icon-display-expand.png)![ 展開セレクター」を展開します。
 
-   ![製品検索エンジンの最適化 – 永続的なリダイレクト](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
+   ![ 製品検索エンジンの最適化 – 永続的なリダイレクト ](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 
-1. の場合 **[!UICONTROL URL Key]**、次の手順を実行します。
+1. **[!UICONTROL URL Key]** の場合は、次の手順を実行します。
 
-   - 次のことを確認します **[!UICONTROL Create Permanent Redirect for old URL]** チェックボックスが選択されています。 そうでない場合は、次の手順に従います。 [自動リダイレクトを有効にする](url-rewrite.md#configure-url-rewrites).
+   - 「**[!UICONTROL Create Permanent Redirect for old URL]**」チェックボックスが選択されていることを確認します。 表示されない場合は、手順に従って [ 自動リダイレクトを有効にする ](url-rewrite.md#configure-url-rewrites) ください。
 
-   - を更新 **[!UICONTROL URL Key]** 必要に応じて、スペースの代わりにこれらの文字の間にすべての小文字と末尾でないハイフンを使用します。
+   - 必要に応じて **[!UICONTROL URL Key]** を更新し、スペースの代わりにこれらの文字の間に小文字と末尾でないハイフンをすべて使用します。
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
 1. キャッシュを更新するように求められたら、ワークスペースの上部にあるメッセージのリンクに従います。
 
@@ -56,19 +56,19 @@ ht-degree: 0%
 
 ## カテゴリ URL を自動的にリダイレクト
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Categories]** に移動します。
 
 1. ツリーでカテゴリを見つけ、クリックしてレコードを開きます。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Search Engine Optimization]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Search Engine Optimization]**」セクションを展開します。
 
-1. の場合 **[!UICONTROL URL Key]**、次の手順を実行します。
+1. **[!UICONTROL URL Key]** の場合は、次の手順を実行します。
 
-   - 次のことを確認します **[!UICONTROL Create Permanent Redirect for old URL]** チェックボックスが選択されています。 そうでない場合は、次の手順に従います。 [自動リダイレクトを有効にする](url-rewrite.md#configure-url-rewrites).
+   - 「**[!UICONTROL Create Permanent Redirect for old URL]**」チェックボックスが選択されていることを確認します。 表示されない場合は、手順に従って [ 自動リダイレクトを有効にする ](url-rewrite.md#configure-url-rewrites) ください。
 
-   - を更新 **[!UICONTROL URL Key]** 必要に応じて、スペースの代わりにこれらの文字の間にすべての小文字と末尾でないハイフンを使用します。
+   - 必要に応じて **[!UICONTROL URL Key]** を更新し、スペースの代わりにこれらの文字の間に小文字と末尾でないハイフンをすべて使用します。
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
 1. キャッシュを更新するように求められたら、ワークスペースの上部にあるメッセージのリンクに従います。
 
@@ -80,16 +80,16 @@ ht-degree: 0%
 >
 >カテゴリ/製品の URL 書き換えの自動生成をオフにすると、既存のカテゴリ/製品タイプの URL の書き換えが完全に削除されますが、復元することはできません。 これにより、未解決のカテゴリや製品タイプの URL の競合が発生する可能性があり、解決するために URL キーを手動で更新する必要が生じる場合があります。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Catalog]** を選択します **[!UICONTROL Catalog]** その下に。
+1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Search Engine Optimization]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Search Engine Optimization]**」セクションを展開します。
 
-1. を設定 **[!UICONTROL Generate "category/product" URL Rewrites]** 対象： `No`.
+1. **[!UICONTROL Generate "category/product" URL Rewrites]** を `No` に設定します。
 
-1. 確認ダイアログで、 **[!UICONTROL OK]** 既存の URL の書き換えの変更と削除を確認します。
+1. 確認ダイアログで、「**[!UICONTROL OK]**」をクリックして、変更と既存の URL の書き換えの削除を確認します。
 
-   ![カテゴリ/製品 URL の書き換えを無効にする – 確認](./assets/seo-rewrite-off.png){width="350"}
+   ![ カテゴリ/製品 URL の書き換えを無効にする – 確認 ](./assets/seo-rewrite-off.png){width="350"}
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

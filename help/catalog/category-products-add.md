@@ -12,29 +12,29 @@ ht-degree: 0%
 
 # カテゴリ製品の追加と削除
 
-から [カテゴリ内の製品](categories-product-assignments.md) セクションでは、ストア管理者が商品をカテゴリに追加できます。 このセクションには、カテゴリに割り当てられているすべての製品が一覧表示され、表示されます **[!UICONTROL Add Product]** 条件 **[!UICONTROL Match products by rule]** はに設定されています。 `No`.
+「[ カテゴリの製品 ](categories-product-assignments.md)」セクションでは、店舗管理者が商品をカテゴリに追加できます。 このセクションには、カテゴリに割り当てられているすべての製品が一覧表示され、「**[!UICONTROL Match products by rule]**」が「`No`」に設定されている場合にの **[!UICONTROL Add Product]** 表示されます。
 
-![「カテゴリ」セクションの製品](./assets/category-products-in-category.png){width="600" zoomable="yes"}
+![ 製品カテゴリー ](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
 ## 追加する製品を検索
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Categories]** に移動します。
 
 1. 左側のカテゴリツリーで、製品を追加するカテゴリを選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この _カテゴリ内の製品_ セクション。
+1. ![ 展開セレクター ](../assets/icon-display-expand.png) 「カテゴリ内の商品 _セクション_ を展開します。
 
-1. クリック **[!UICONTROL Add Products]**.
+1. 「**[!UICONTROL Add Products]**」をクリックします。
 
-1. 使用方法 _キーワードで検索_ またはフィルターして、追加する製品を検索します。
+1. _キーワードで検索_ またはフィルターを使用して、追加する製品を見つけます。
 
-   ![「すべての製品を検索」タブ](./assets/search-all-product.png){width="700" zoomable="yes"}
+   ![ 「すべての製品を検索」タブ ](./assets/search-all-product.png){width="700" zoomable="yes"}
 
-1. が含まれる _[!UICONTROL Assign]_列。オプションをに切り替えます。 `Yes` 追加する製品ごとに調整します。
+1. _[!UICONTROL Assign]_列で、追加する各製品のオプションを `Yes` に切り替えます。
 
-   表示されるすべての製品を含める場合は、列見出しのメニュー矢印をクリックして、次のオプションを選択します **[!UICONTROL Select All]**.
+   表示されるすべての製品を含める場合は、列ヘッダーのメニュー矢印をクリックして「**[!UICONTROL Select All]**」を選択します。
 
-1. 変更を適用するには、 **[!UICONTROL Save and Close]**.
+1. 変更を適用するには、[**[!UICONTROL Save and Close]**] をクリックします。
 
 ### アクション
 
@@ -49,28 +49,28 @@ ht-degree: 0%
 
 ## SKU 別に製品を追加
 
-1. クリック **[!UICONTROL Add Products]**
+1. **[!UICONTROL Add Products]** をクリック
 
-1. 「」を選択します **[!UICONTROL Add Products by SKU]** タブ。
+1. 「**[!UICONTROL Add Products by SKU]**」タブを選択します。
 
-1. SKU を入力し（1 行に 1 つずつ）、 **[!UICONTROL Assign]**.
+1. SKU を入力し（1 行に 1 つずつ）、「**[!UICONTROL Assign]**」をクリックします。
 
-   変更を破棄するには、をクリックします **[!UICONTROL Remove]**.
+   変更を破棄するには、[**[!UICONTROL Remove]**] をクリックします。
 
-   ![「SKU による製品の追加」タブ](./assets/add-product-by-sku.png){width="700" zoomable="yes"}
+   ![ 「SKU による製品の追加」タブ ](./assets/add-product-by-sku.png){width="700" zoomable="yes"}
 
-1. 変更を適用するには、 **[!UICONTROL Save and Close]**.
+1. 変更を適用するには、[**[!UICONTROL Save and Close]**] をクリックします。
 
 ## カテゴリからの製品の削除
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Categories]** に移動します。
 
 1. 左側のカテゴリ ツリーで、編集するカテゴリを選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この _[!UICONTROL Products in Category]_セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「_[!UICONTROL Products in Category]_」セクションを展開します。
 
 1. 削除する製品を検索します。
 
-1. が含まれる _[!UICONTROL Actions]_列、クリック&#x200B;**[!UICONTROL Unassign]**.
+1. 「_[!UICONTROL Actions]_」列で「**[!UICONTROL Unassign]**」をクリックします。
 
-1. 変更を適用するには、 **[!UICONTROL Save]**.
+1. 変更を適用するには、[**[!UICONTROL Save]**] をクリックします。

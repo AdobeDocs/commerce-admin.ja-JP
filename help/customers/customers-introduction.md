@@ -11,20 +11,20 @@ ht-degree: 0%
 
 # 顧客管理の概要
 
-この _[!UICONTROL Customers]_メニューを使用すると、顧客アカウント管理ツールにアクセスでき、ストア内でオンラインのユーザーを確認できるようになります。
+_[!UICONTROL Customers]_メニューから顧客アカウント管理ツールにアクセスでき、ストア内でオンラインのユーザーを確認できます。
 
-![顧客メニュー](assets/admin-menu-customers.png){width="300" zoomable="yes"}
+![ 顧客メニュー ](assets/admin-menu-customers.png){width="300" zoomable="yes"}
 
-## を表示 [!UICONTROL Customers] メニュー
+## [!UICONTROL Customers] メニューの表示
 
-日 _Admin_ サイドバー、クリック [!UICONTROL Customers] メニューオプションを表示するには：
+_管理者_ サイドバーの「[!UICONTROL Customers]」をクリックして、メニューオプションを表示します。
 
 | フィールド | 説明 |
 |---|---|
-| [!UICONTROL All Customers] | すべてをリスト [顧客](../customers/customers-all.md) ストアにアカウントを登録したか、管理者によって追加されたユーザー。 |
-| [!UICONTROL Now Online] | 現在あるすべての顧客と訪問者をリストします [オンライン](../customers/now-online.md) あなたの店で。 |
-| [!UICONTROL Segments] | リスト [顧客セグメント](../customers/customer-segments.md) を使用して、様々なプロパティに基づいて、特定の顧客にコンテンツやプロモーションを動的に表示します。 |
-| [!UICONTROL Customer Groups] | この [顧客グループ](../customers/customer-groups.md) 買い物客が利用できる割引と、購入に対する税クラスを決定します。 |
-| [!UICONTROL Companies] | （Adobe Commerce B2B が必要）すべてのアクティブなリスト [会社アカウント](../b2b/account-companies.md) および保留中の要求（ステータス設定に関係なく）で、およびの作成に使用するツールを提供します。 [管理](../b2b/account-company-manage.md) 会社アカウント。 |
+| [!UICONTROL All Customers] | ストアにアカウントを登録したか、管理者によって追加されたすべての [ 顧客 ](../customers/customers-all.md) を一覧表示します。 |
+| [!UICONTROL Now Online] | ストア内に現在 [ オンライン ](../customers/now-online.md) にあるすべての顧客と訪問者をリストします。 |
+| [!UICONTROL Segments] | 様々なプロパティに基づいて、特定の顧客に対するコンテンツとプロモーションを動的に表示するために使用される [ 顧客セグメント ](../customers/customer-segments.md) を一覧表示します。 |
+| [!UICONTROL Customer Groups] | [ 顧客グループ ](../customers/customer-groups.md) は、買い物客が利用できる割引と購入の税クラスを決定します。 |
+| [!UICONTROL Companies] | （Adobe Commerce B2B が必要）ステータス設定に関係なく、アクティブなすべての [ 会社アカウント ](../b2b/account-companies.md) および保留中のリクエストを一覧表示し、会社アカウントの作成と [ 管理 ](../b2b/account-company-manage.md) に使用するツールを提供します。 |
 
 {style="table-layout:auto"}

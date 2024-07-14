@@ -14,42 +14,42 @@ ht-degree: 0%
 
 基本的な顧客アカウント情報には、名前、メールアドレス、パスワードが含まれ、ストアフロントの顧客アカウントダッシュボードから管理できます。
 
-![ストアフロントのアカウント情報](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
+![ 店舗店舗等の口座情報 ](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
 
-アカウントのサイドバーで、顧客は次の項目を選択できます **[!UICONTROL Account Information]** また、次のいずれかの操作を行って、アカウント情報を更新します。
+アカウントのサイドバーで、顧客は **[!UICONTROL Account Information]** を選択し、次のいずれかの操作を行ってアカウント情報を更新できます。
 
 ## アカウント名の名前の更新
 
-アカウントの名前を更新するには、顧客がの値を変更します **[!UICONTROL First Name]** および **[!UICONTROL Last Name]** 必要に応じてフィールドを使用します。
+アカウントの名前を更新するために、顧客が必要に応じて「**[!UICONTROL First Name]**」フィールドと「**[!UICONTROL Last Name]**」フィールドの値を変更します。
 
 >[!INFO]
 >
->以下の場合、追加のフィールドが名前の一部として表示されます [顧客設定](../configuration-reference/customers/customer-configuration.md) プレフィックス、ミドルネームのイニシャル、サフィックスが含まれます。
+>[ 顧客設定 ](../configuration-reference/customers/customer-configuration.md) にプレフィックス、ミドルネームのイニシャル、サフィックスが含まれている場合、追加のフィールドが名前の一部として表示されます。
 
 ## メールアドレスを変更
 
-1. お客様が **[!UICONTROL Change Email]** チェックボックス。
+1. ユーザーが「**[!UICONTROL Change Email]**」チェックボックスをオンにします。
 
-1. 新規入力 **[!UICONTROL Email]** 住所。
+1. 新しい **[!UICONTROL Email]** アドレスを入力します。
 
-1. エントリ数 **[!UICONTROL Current Password]**.
+1. **[!UICONTROL Current Password]** を入力します。
 
-   ![メールアドレスを変更](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
+   ![ メールアドレスの変更 ](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
 
-1. クリック数 **[!UICONTROL Save]**.
+1. **[!UICONTROL Save]** をクリックします。
 
 ## パスワードを変更
 
-1. お客様が **[!UICONTROL Change Password]** チェックボックス。
+1. ユーザーが「**[!UICONTROL Change Password]**」チェックボックスをオンにします。
 
-1. エントリ数 **[!UICONTROL Current Password]**.
+1. **[!UICONTROL Current Password]** を入力します。
 
-1. エントリ数 **[!UICONTROL New Password]**.
+1. **[!UICONTROL New Password]** を入力します。
 
    >[!INFO]
    >
    >パスワードは 8 文字以上で、大文字、小文字、数字、記号を組み合わせることができます。 パスワード強度インジケータは、お客様が最適なパスワードを選択するのに役立ちます。
 
-   ![パスワードの変更](assets/account-dashboard-account-information-change-password.png){width="700" zoomable="yes"}
+   ![ パスワードの変更 ](assets/account-dashboard-account-information-change-password.png){width="700" zoomable="yes"}
 
 1. 確認のため再度入力します。

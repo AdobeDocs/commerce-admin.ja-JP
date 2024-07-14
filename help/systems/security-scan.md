@@ -22,64 +22,64 @@ ht-degree: 0%
 - サイトの進行状況を追跡および監視する履歴セキュリティレポートにアクセスします。
 - 成功したチェックと失敗したチェックを表示するスキャン レポートにアクセスします。推奨されるアクションも表示されます。
 
-セキュリティスキャンツールは、のダッシュボードから無料で使用できます [Commerce/Magentoアカウント](../getting-started/commerce-account-create.md). 技術情報については、を参照してください [セキュリティスキャンツールの設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) が含まれる _クラウドインフラストラクチャー上のCommerce ガイド_.
+セキュリティスキャンツールは、[Commerce/Magentoアカウント ](../getting-started/commerce-account-create.md) のダッシュボードから無料で利用できます。 技術情報については、『 [2}Cloud Infrastructure ガイドのCommerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) セキュリティスキャンツールの設定 _を参照してください。_
 
-![セキュリティ スキャン ツール](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+![ セキュリティスキャンツール ](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## セキュリティスキャンを実行
 
-1. Commerceのホームページから、 [Commerce/Magentoアカウント](../getting-started/commerce-account-create.md).
+1. Commerceのホームページから、[Commerce/Magentoアカウント ](../getting-started/commerce-account-create.md) にログインします。
 
 1. セキュリティ スキャン ツールの使用条件を確認し、同意します。
 
-   - 左パネルで、を選択します。 **[!UICONTROL Security Scan]**.
-   - クリック **[!UICONTROL Go to Security Scan]**.
-   - を読み取る **[!UICONTROL Terms and Conditions]**.
-   - クリック **[!UICONTROL Agree]** 続行します。
+   - 左側のパネルで「**[!UICONTROL Security Scan]**」を選択します。
+   - 「**[!UICONTROL Go to Security Scan]**」をクリックします。
+   - **[!UICONTROL Terms and Conditions]** を読んでください。
+   - 「**[!UICONTROL Agree]**」をクリックして続行します。
 
-1. 日 _[!UICONTROL Monitored Websites]_ページ、クリック&#x200B;**[!UICONTROL +Add Site]**.
+1. _[!UICONTROL Monitored Websites]_ページで「**[!UICONTROL +Add Site]**」をクリックします。
 
    異なるドメインを持つ複数のサイトがある場合は、ドメインごとに個別のスキャンを設定します。
 
-   ![監視対象サイト](./assets/monitored-website.png){width="600" zoomable="yes"}
+   ![ 監視対象サイト ](./assets/monitored-website.png){width="600" zoomable="yes"}
 
 1. 確認コードを追加してサイト ドメインの所有権を確認するには、次のいずれかの操作を行います。
 
    **Commerce ストアフロント**:
 
-   - を入力 **[!UICONTROL Site URL]** および **[!UICONTROL Site Name]**.
-   - クリック **[!UICONTROL Generate Confirmation Code]**.
-   - クリック **コピー** をクリックして、確認コードをクリップボードにコピーします。
+   - **[!UICONTROL Site URL]** と **[!UICONTROL Site Name]** を入力します。
+   - 「**[!UICONTROL Generate Confirmation Code]**」をクリックします。
+   - 「**コピー**」をクリックして、確認コードをクリップボードにコピーします。
 
-     ![確認コードを生成](./assets/scan-site1.png){width="400" zoomable="yes"}
+     ![ 確認コードを生成 ](./assets/scan-site1.png){width="400" zoomable="yes"}
 
    - 完全な管理者権限を持つユーザーとしてストアの管理者にログインし、次の手順を実行します。
 
-      - が含まれる _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
-      - リストでサイトを見つけて、 **[!UICONTROL Edit]**.
-      - を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL HTML Head]** セクション。
-      - Scroll down to **[!UICONTROL Scripts and Style Sheets]** 既存のコードの末尾にあるテキストボックスをクリックして、確認コードをテキストボックスに貼り付けます。
+      - _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
+      - リストでサイトを見つけて、「**[!UICONTROL Edit]**」をクリックします。
+      - 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL HTML Head]**」セクションを展開します。
+      - **[!UICONTROL Scripts and Style Sheets]** までスクロールし、既存のコードの末尾にあるテキストボックスをクリックして、確認コードをテキストボックスに貼り付けます。
 
-        ![スクリプトとスタイルシート](./assets/scan-paste-code.png){width="600" zoomable="yes"}
+        ![ スクリプトとスタイルシート ](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
-      - 完了したら、 **[!UICONTROL Save Configuration]**.
+      - 完了したら、「**[!UICONTROL Save Configuration]**」をクリックします。
 
    **PWAストアフロント**:
 
-   - を入力 **[!UICONTROL Site URL]** および **[!UICONTROL Site Name]**.
+   - **[!UICONTROL Site URL]** と **[!UICONTROL Site Name]** を入力します。
 
-   - の場合 **[!UICONTROL Confirmation Code]**、を選択します `META Tag` オプションを選択し、をクリックします **[!UICONTROL Generate Code]**.
+   - **[!UICONTROL Confirmation Code]** の場合は、`META Tag` オプションを選択し、「**[!UICONTROL Generate Code]**」をクリックします。
 
-   - クリック **[!UICONTROL Copy]** 生成した確認コードの META タグをクリップボードにコピーします。
+   - 「**[!UICONTROL Copy]**」をクリックして、生成された確認コードの META タグをクリップボードにコピーします。
 
-     ![確認コードを生成](./assets/scan-site2.png){width="400" zoomable="yes"}
+     ![ 確認コードを生成 ](./assets/scan-site2.png){width="400" zoomable="yes"}
 
    - PWA Studioストアフロントのプロジェクトディレクトリに移動して、次の手順を実行します。
 
-      - PWA Studioプロジェクトディレクトリの下で、に移動します `packages > venia-concept > template.html`.
+      - PWA Studioプロジェクトディレクトリの下で、`packages > venia-concept > template.html` に移動します。
       - コピーした確認コード（生成された META タグ）をHTMLヘッダーに追加し、変更内容を保存します。
 
-        ![確認コードをコピー](./assets/code-pwa.png){width="600" zoomable="yes"}
+        ![ 確認コードをコピー ](./assets/code-pwa.png){width="600" zoomable="yes"}
 
       - PWA Studio CLI に戻り、yarn を使用してプロジェクトの依存関係をインストールし、project build コマンドを実行します。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
         yarn build
         ```
 
-      - *クラウドプロジェクト内*、を作成します `pwa` フォルダーを作成して、ストアフロントプロジェクト内のコンテンツをコピーします。 `dist` フォルダー。
+      - *クラウドプロジェクトで*、`pwa` フォルダーを作成し、ストアフロントプロジェクトの `dist` フォルダー内にコンテンツをコピーします。
 
         ```sh
         mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
@@ -104,29 +104,29 @@ ht-degree: 0%
 
         ビルドプロセスが完了すると、変更内容がPWAストアフロントにデプロイされます。
 
-1. に戻る _[!UICONTROL Security Scan]_Commerceをクリックし、**[!UICONTROL Verify Confirmation Code]**ドメインの所有権を確立します。
+1. Commerce アカウントの _[!UICONTROL Security Scan]_ページに戻り、「**[!UICONTROL Verify Confirmation Code]**」をクリックしてドメインの所有権を確立します。
 
-1. 確認が成功したら、以下を設定します **[!UICONTROL Set Automatic Security Scan]** 次のいずれかのタイプのオプション。
+1. 確認が正常に完了したら、次のいずれかのタイプで **[!UICONTROL Set Automatic Security Scan]** のオプションを設定します。
 
    **毎週スキャン （推奨）**:
 
-   - を選択します。 **[!UICONTROL Week Day]**, **[!UICONTROL Time]**、および **[!UICONTROL Time Zone]** スキャンは毎週行われることです。
+   - 毎週スキャンを実行する **[!UICONTROL Week Day]**、**[!UICONTROL Time]**、**[!UICONTROL Time Zone]** を選択します。
    - デフォルトでは、スキャンは毎週午前 0 時（土曜日、UTC）に開始され、毎週早朝（日曜日）まで継続するようにスケジュールされています。
 
-     ![毎週スキャン](./assets/scan-weekly.png){width="500" zoomable="yes"}
+     ![ 毎週スキャン ](./assets/scan-weekly.png){width="500" zoomable="yes"}
 
    **毎日スキャン**:
 
-   - を選択します。 **[!UICONTROL Time]**、および **[!UICONTROL Time Zone]** スキャンは毎日行われます。
+   - **[!UICONTROL Time]** を選択し、スキャンが毎日実行されることを **[!UICONTROL Time Zone]** 認します。
    - デフォルトでは、スキャンは毎日、午前 0 時（UTC）に開始するようにスケジュールされています。
 
-     ![毎日スキャン](./assets/scan-daily.png){width="500" zoomable="yes"}
+     ![ 毎日スキャン ](./assets/scan-daily.png){width="500" zoomable="yes"}
 
-1. を入力 **[!UICONTROL Email Address]** 完了したスキャンとセキュリティ更新の通知を受信する場所。
+1. 完了したスキャンとセキュリティ更新の通知を受信する **[!UICONTROL Email Address]** を入力します。
 
-   ![メールアドレス](./assets/scan-notification-email.png){width="400" zoomable="yes"}
+   ![ メールアドレス ](./assets/scan-notification-email.png){width="400" zoomable="yes"}
 
-1. 完了したら、 **[!UICONTROL Submit]**.
+1. 完了したら、「**[!UICONTROL Submit]**」をクリックします。
 
    ドメインの所有権が確認されると、そのサイトはCommerce アカウントの監視対象 Web サイトリストに表示されます。
 

@@ -1,6 +1,6 @@
 ---
 title: 要素 – HTMLコード
-description: でHTML、CSS、JavaScript コードのスニペットを追加するために使用される、HTMLコードのコンテンツタイプについて説明します [!DNL Page Builder] ステージ。
+description: ステージ内でHTML、CSS、JavaScript コードのスニペットを追加するために使用される、HTMLコードのコンテンツタ  [!DNL Page Builder]  プについて説明します。
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
 source-git-commit: 556394327a6eff9282acb09bdd16777dd3fee360
@@ -12,39 +12,39 @@ ht-degree: 0%
 
 # 要素 – HTMLコード
 
-の使用 _HTMLコード_ HTML、CSS、JavaScript コードのスニペットをに追加するコンテンツタイプ [[!DNL Page Builder] ステージ](workspace.md#stage). 例えば、ページ上の要素に適用できるカスタムHTMLを追加し、CSS クラスを宣言することができます。 また、サードパーティのプロバイダーから受け取ったロゴ、ボタン、バナーのコードのスニペットを追加する場合もあります。
+_HTMLコード_ コンテンツタイプを使用して、[[!DNL Page Builder]  ステージ ](workspace.md#stage) にHTML、CSS、JavaScript コードのスニペットを追加します。 例えば、ページ上の要素に適用できるカスタムHTMLを追加し、CSS クラスを宣言することができます。 また、サードパーティのプロバイダーから受け取ったロゴ、ボタン、バナーのコードのスニペットを追加する場合もあります。
 
 ## HTMLコード ツールボックス
 
-![HTMLコード ツールボックス](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
+![HTMLコード ツールボックス ](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
 
 | ツール | アイコン | 説明 |
 | --------- | ---------- | ----------------- |
-| 移動 | ![移動アイコン](./assets/pb-icon-move.png){width="25"} | HTMLコードコンテナをページ上の別の有効な場所に移動します。 |
-| 設定 | ![設定アイコン](./assets/pb-icon-settings.png){width="25"} | 「HTMLコードを編集」ページが開きます。このページで、コンテナのプロパティを変更できます。 |
-| Hide | ![アイコンを非表示](./assets/pb-icon-hide.png){width="25"} | HTMLコードコンテナを非表示にします。 |
-| 表示 | ![アイコンを表示](./assets/pb-icon-show.png){width="25"} | 非表示のHTMLコードコンテナを表示します。 |
-| 複製 | ![アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | HTMLコードコンテナをコピーします。 |
-| 削除 | ![アイコンを削除](./assets/pb-icon-remove.png){width="25"} | HTMLコードコンテナとそのコンテンツをステージから削除します。 |
+| 移動 | ![ 移動アイコン ](./assets/pb-icon-move.png){width="25"} | HTMLコードコンテナをページ上の別の有効な場所に移動します。 |
+| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | 「HTMLコードを編集」ページが開きます。このページで、コンテナのプロパティを変更できます。 |
+| Hide | ![ アイコンを非表示 ](./assets/pb-icon-hide.png){width="25"} | HTMLコードコンテナを非表示にします。 |
+| 表示 | ![ アイコンを表示 ](./assets/pb-icon-show.png){width="25"} | 非表示のHTMLコードコンテナを表示します。 |
+| 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | HTMLコードコンテナをコピーします。 |
+| 削除 | ![ 削除アイコン ](./assets/pb-icon-remove.png){width="25"} | HTMLコードコンテナとそのコンテンツをステージから削除します。 |
 
 {{$include /help/_includes/page-builder-hidden-element-note.md}}
 
 ## HTMLコードを追加
 
-次の例は、埋め込み方法を示しています [Google フォント][1] 現在のスタイルシートを上書きするカスタム見出しクラスをコーディングし、宣言します。
+次の例は、[Google Font][1] コードを埋め込み、現在のスタイルシートを上書きするカスタム見出しクラスを宣言する方法を示しています。
 
 ### 手順 1:Google フォントを選択する
 
-1. にアクセスします [Google フォント][1] サイトを選択し、使用するフォントファミリーを選択します。
+1. [Google Fonts][1] サイトにアクセスし、使用するフォントファミリーを選択します。
 
-1. に埋め込む生成されたコードをコピーします。 `<head>` ページの「」セクションを選択し、一時的にテキストエディターに貼り付けます。
+1. ページの `<head>` セクションに埋め込む生成されたコードをコピーし、一時的にテキストエディターに貼り付けます。
 
    - 埋め込みフォントコード
    - CSS ルール
 
-1. 各見出しクラスにフォントファミリルールを追加し、見出しクラスを `<style>` タグ。
+1. 見出しクラスを `<style>` タグで囲み、各見出しクラスにフォントファミリルールを追加します。
 
-   このコードはに貼り付けられます [!DNL Page Builder].
+   このコードは [!DNL Page Builder] に貼り付けられます。
 
    ```html
    <style>
@@ -56,51 +56,51 @@ ht-degree: 0%
 
 ### 手順 2：ページへのコードの追加
 
-1. が含まれる _Admin_ ストアのサイドバー、に移動します **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. ストアの _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
 
 1. フォントを使用できるページを探し、編集モードで開きます。
 
-1. 下にスクロールして、 **[!UICONTROL Content]** セクション。
+1. 下にスクロールして、「**[!UICONTROL Content]**」セクションを展開します。
 
-1. が含まれる [!DNL Page Builder] パネル、展開 **[!UICONTROL Elements]** をドラッグして **[!UICONTROL HTML Code]** ステージ上の行、列またはタブセットへのプレースホルダー。
+1. [!DNL Page Builder] パネルで **[!UICONTROL Elements]** を展開し、**[!UICONTROL HTML Code]** プレースホルダーをステージ上の行、列、タブセットにドラッグします。
 
    赤いガイドラインを使用して、行、列、タブセット内の別のコンテンツコンテナの前または後にディバイダーを配置します。
 
-   ![HTMLコードプレースホルダーのステージへのドラッグ](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
+   ![HTMLコードのプレースホルダーのステージへのドラッグ ](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. HTMLコンテナにカーソルを合わせてツールボックスを表示し、 _設定_ （ ![設定アイコン](./assets/pb-icon-settings.png){width="20"} ）、アイコンです。
+1. HTMLコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）, アイコンを選びます。
 
 1. テキストボックスに、準備した埋め込みGoogle フォントコードおよびスタイル宣言を貼り付けます。
 
    読みやすくするために、スペースを 2、3 個入力してコードをインデントできます。
 
-   ![HTMLコードとスタイル](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
+   ![HTMLコードとスタイル ](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. 必要に応じて、残りの設定を更新します（を参照）。 [HTMLコード設定の変更](#html-settings) （詳細はこちら）。
+1. 必要に応じて残りの設定を更新します（詳しくは [HTMLコード設定の変更 ](#html-settings) を参照）。
 
-1. 右上隅のをクリックします。 **[!UICONTROL Save]** 設定を適用し、 [!DNL Page Builder] ワークスペース。
+1. 右上隅にある「**[!UICONTROL Save]**」をクリックして設定を適用し、[!DNL Page Builder] ワークスペースに戻ります。
 
    新しいフォントは、ブラウザーを使用してページを表示するとレンダリングされます。
 
 ### 手順 3：ページのプレビュー
 
-1. が含まれる _[!UICONTROL Currently Active]_セクション、設定&#x200B;**[!UICONTROL Enable Page]**対象： `Yes`.
+1. _[!UICONTROL Currently Active]_セクションで、**[!UICONTROL Enable Page]**を `Yes` に設定します。
 
-   ![ページの有効化](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
+   ![ ページの有効化 ](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
-1. 右上隅のをクリックします **[!UICONTROL Save]** 矢印と選択 **[!UICONTROL Save & Close]**.
+1. 右上隅の **[!UICONTROL Save]** 矢印をクリックし、「**[!UICONTROL Save & Close]**」を選択します。
 
-1. グリッドでページを見つけて、を選択します。 **[!UICONTROL View]** が含まれる _[!UICONTROL Actions]_列。
+1. グリッドでページを見つけ、_[!UICONTROL Actions]_列で&#x200B;**[!UICONTROL View]**を選択します。
 
-   ![新しいフォントファミリーでページ見出しをプレビュー](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
+   ![ 新しいフォントファミリーでページの見出しをプレビューする ](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
 ## HTMLコード設定の変更 {#html-settings}
 
-1. HTMLコンテナにカーソルを合わせてツールボックスを表示し、 _設定_ （ ![設定アイコン](./assets/pb-icon-settings.png){width="20"} ） アイコンをクリックします。
+1. HTMLコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
 1. テキストボックスで、必要に応じてコードを編集します。
 
-   HTML、CSS、JavaScript コードがサポートされています。 に属するコードスニペット `<head>` ページのセクションは、ここに入力できます。
+   HTML、CSS、JavaScript コードがサポートされています。 ページの `<head>` セクションに属するコードスニペットは、ここに入力できます。
 
    エディターには、コードに特殊な要素を挿入するボタンもあります。
 
@@ -110,9 +110,9 @@ ht-degree: 0%
    | イメージの挿入… | アップロードした画像または Gallery の画像をHTML テキスト ボックスのカーソル位置に挿入するときにクリックします。 |
    | 変数の挿入… | クリックすると、HTMLテキストボックス内のカーソル位置に変数が挿入されます。 |
 
-1. を更新 _[!UICONTROL Advanced]_必要に応じて設定します。
+1. 必要に応じて、_[!UICONTROL Advanced]_設定を更新します。
 
-   - 親コンテナ内のコードの位置を制御するには、 **[!UICONTROL Alignment]**:
+   - 親コンテナ内のコードの位置を制御するには、**[!UICONTROL Alignment]** のいずれかを選択します。
 
      | オプション | 説明 |
      | ------ | ----------- |
@@ -123,9 +123,9 @@ ht-degree: 0%
 
      次の例では、オプションを設定して、レンダリングされたコードブロックに中央揃えを使用します。
 
-     ![中央揃えのディバイダー](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
+     ![ 中央揃えのデバイダー ](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
 
-   - を **[!UICONTROL Border]** コードコンテナの 4 つの辺すべてに適用されるスタイル：
+   - コードコンテナの 4 つの辺すべてに適用する **[!UICONTROL Border]** スタイルを設定します。
 
      | オプション | 説明 |
      | ------ | ----------- |
@@ -140,7 +140,7 @@ ht-degree: 0%
      | `Inset` | コンテナの境界線は、インセットされた線として表示されます。 |
      | `Outset` | コンテナの境界線は、先頭行として表示されます。 |
 
-   - 境界線のスタイルを `None`の場合は、次のボーダー表示オプションを入力します。
+   - `None` 以外の境界線のスタイルを設定する場合は、境界線の表示オプションを完了します。
 
      | オプション | 説明 |
      | ------ |------------ |
@@ -150,17 +150,17 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-   - （オプション）の名前を指定します **[!UICONTROL CSS classes]** を現在のスタイルシートから取得して、コンテナに適用します。
+   - （オプション）コンテナに適用する現在のスタイルシートの **[!UICONTROL CSS classes]** の名前を指定します。
 
      複数のクラス名はスペースで区切ります。
 
-   - 次の値をピクセル単位で入力 **[!UICONTROL Margins and Padding]** コードコンテナの外側の余白と内側のパディングを決定します。
+   - コードコンテナの外側の余白と内側のパディングを決定する **[!UICONTROL Margins and Padding]** の値をピクセル単位で入力します。
 
      対応する値を図に入力します。
 
      | コンテナ領域 | 説明 |
      | -------------- | ----------- |
-     | [!UICONTROL Margins] | コンテナのすべての側面の外側の端に適用される空白スペースの量。 オプション： `Top` / `Right` / `Bottom` / `Left` |
-     | [!UICONTROL Padding] | コンテナのすべての側面の内側の端に適用される空白のスペースの量です。 オプション： `Top` / `Right` / `Bottom` / `Left` |
+     | [!UICONTROL Margins] | コンテナのすべての側面の外側の端に適用される空白スペースの量。 オプション：`Top`/`Right`/`Bottom`/`Left` |
+     | [!UICONTROL Padding] | コンテナのすべての側面の内側の端に適用される空白のスペースの量です。 オプション：`Top`/`Right`/`Bottom`/`Left` |
 
 [1]: https://fonts.google.com/

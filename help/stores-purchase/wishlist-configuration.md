@@ -16,74 +16,74 @@ ht-degree: 0%
 
 ## ウィッシュリスト機能の有効化
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Customers]** を選択します **[!UICONTROL Wish List]**.
+1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Wish List]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL General Options]** を選択し、次の操作を実行します。
+1. **[!UICONTROL General Options]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![お客様の設定 – ウィッシュリストの一般設定](../configuration-reference/customers/assets/wishlist-general-options.png){width="600" zoomable="yes"}
+   ![ 顧客設定 – ウィッシュリストの一般設定 ](../configuration-reference/customers/assets/wishlist-general-options.png){width="600" zoomable="yes"}
 
-   - 切り替え **[!UICONTROL Enabled]** 対象： `Yes`：ストアのウィッシュリストモジュールを有効化します。
+   - **[!UICONTROL Enabled]** を `Yes` に切り替えます。これにより、ストアのウィッシュリストモジュールがアクティブになります。
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）切り替え **[!UICONTROL Enable Multiple Wish Lists]** 対象： `Yes`を使用すると、お客様は複数のウィッシュリストを作成および管理できます。
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **[!UICONTROL Enable Multiple Wish Lists]** を `Yes` に切り替えます。これにより、複数のウィッシュリストを作成して管理できます。
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）顧客が自分のアカウントに関連付けることができるウィッシュリストの数を制限するには、値を **[!UICONTROL Number of Multiple Wish Lists]**.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）顧客が自分のアカウントに関連付けることのできるウィッシュリストの数を制限するには、**[!UICONTROL Number of Multiple Wish Lists]** の値を入力します。
 
-   - 切り替え **[!UICONTROL Show in Sidebar]** 対象： `Yes`サイドバーにウィッシュリストが表示されます。
+   - **[!UICONTROL Show in Sidebar]** を `Yes` に切り替えて、サイドバーにウィッシュリストを表示します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Share Options]** を選択し、次の操作を実行します。
+1. **[!UICONTROL Share Options]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![顧客の設定 – ウィッシュリスト共有オプション](../configuration-reference/customers/assets/wishlist-share-options.png){width="600" zoomable="yes"}
+   ![ 顧客設定 – ウィッシュリスト共有オプション ](../configuration-reference/customers/assets/wishlist-share-options.png){width="600" zoomable="yes"}
 
-   - を **[!UICONTROL Email Sender]** メッセージの送信者として表示されるストアの連絡先に送信されます。 オプション：一般連絡先、営業担当、カスタマーサポート、カスタムメール
+   - メッセージの送信者として表示されるストアの連絡先の **[!UICONTROL Email Sender]** を設定します。 オプション：一般連絡先、営業担当、カスタマーサポート、カスタムメール
 
-   - を **[!UICONTROL Email Template]** 顧客がウィッシュリストを共有する際に使用されます。
+   - 顧客がウィッシュリストを共有する際に使用する **[!UICONTROL Email Template]** を設定します。
 
-   - 顧客が送信できるメールの合計数を制限するには、 **[!UICONTROL Max Emails Allowed to be Sent]** の値。 デフォルトは 10 で、最大値は 10,000 です。
+   - 顧客が送信できるメールの合計数を制限するには、**[!UICONTROL Max Emails Allowed to be Sent]** 値を入力します。 デフォルトは 10 で、最大値は 10,000 です。
 
-   - メッセージのサイズを制限するには、値を **[!UICONTROL Email Text Length Limit]**. デフォルトは 255 です。
+   - メッセージのサイズを制限するには、**[!UICONTROL Email Text Length Limit]** の値を入力します。 デフォルトは 255 です。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL My Wish List Link]** セクションとセット **[!UICONTROL Display Wish List Summary]** を次のいずれかに変更します。
+1. **[!UICONTROL My Wish List Link]** のセクションの ![ 拡張セレクター ](../assets/icon-display-expand.png) を展開し、**[!UICONTROL Display Wish List Summary]** を次のいずれかに設定します。
 
    - `Display number of items in wish list`
    - `Display item quantities`
 
-   ![顧客設定 – ウィッシュリストの表示](../configuration-reference/customers/assets/wishlist-my-wishlist-link.png){width="600" zoomable="yes"}
+   ![ 顧客設定 – ウィッシュリストの表示 ](../configuration-reference/customers/assets/wishlist-my-wishlist-link.png){width="600" zoomable="yes"}
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ## ウィッシュリスト検索を追加
 
 ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）
 
-公開されているウィッシュリストは、ウィッシュリスト検索を使用して見つけることができます [ウィジェット](../content-design/widgets.md). このウィジェットにより、顧客はウィッシュリストの所有者の名前またはメールアドレスで検索できます。 ストア顧客は、他の顧客に属するウィッシュリストを検索したり、それらを表示して製品を注文したり、独自のウィッシュリストに製品を追加したりできます。 他の顧客が公開ウィッシュリストから購入したアイテムは、元のウィッシュリストからは削除されません。 この _ウィッシュリスト検索_ ウィジェットは、顧客が友人や家族のウィッシュリストを簡単に見つけられるように、ストアの任意のページに追加できます。
+公開されているウィッシュリストは、ウィッシュリスト検索 [widget](../content-design/widgets.md) を使用して検索できます。 このウィジェットにより、顧客はウィッシュリストの所有者の名前またはメールアドレスで検索できます。 ストア顧客は、他の顧客に属するウィッシュリストを検索したり、それらを表示して製品を注文したり、独自のウィッシュリストに製品を追加したりできます。 他の顧客が公開ウィッシュリストから購入したアイテムは、元のウィッシュリストからは削除されません。 _ウィッシュリスト検索_ ウィジェットは、ストアの任意のページに追加でき、顧客が友人や家族のウィッシュリストを簡単に見つけることができます。
 
-![ストアフロントの例 – ウィッシュリスト検索](./assets/storefront-wishlist-search.png){width="700" zoomable="yes"}
+![ ストアフロントの例 – ウィッシュリスト検索 ](./assets/storefront-wishlist-search.png){width="700" zoomable="yes"}
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**に移動します。
 
-1. 右上隅のをクリックします。 **[!UICONTROL Add Widget]**.
+1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックします。
 
-1. が含まれる _[!UICONTROL Settings]_タブで、次の操作を実行します。
+1. 「_[!UICONTROL Settings]_」タブで以下を実行します。
 
-   - を設定 **[!UICONTROL Type]** 対象： `Wish List Search`.
+   - **[!UICONTROL Type]** を `Wish List Search` に設定します。
 
-   - を設定 **[!UICONTROL Design Theme]** をウィッシュリストが追加されるストアのテーマに追加します。
+   - **[!UICONTROL Design Theme]** を、ウィッシュリストが追加されるストアのテーマに設定します。
 
-   - クリック **[!UICONTROL Continue]**.
+   - 「**[!UICONTROL Continue]**」をクリックします。
 
-1. を完了する _[!UICONTROL Storefront Properties]_:
+1. _[!UICONTROL Storefront Properties]_を完了します。
 
-   - を入力 **[!UICONTROL Widget Title]**.
+   - **[!UICONTROL Widget Title]** を入力します。
 
-   - を設定 **[!UICONTROL Assign to Store Views]** からウィジェットを使用するビューまたは web サイト。
+   - ウィジェットを使用するビューまたは web サイトに **[!UICONTROL Assign to Store Views]** を設定します。
 
-   - の場合 **[!UICONTROL Sort Order]**&#x200B;を入力し、コンテナ内のウィジェットの配置を決定する数値を入力します。
+   - **[!UICONTROL Sort Order]**：コンテナ内でのウィジェットの配置を決定する数値を入力します。
 
-     `0` =最初（デフォルト）、 `1` =秒、 `2` = 3 番目、以下同様です。
+     `0` = first （デフォルト）、`1` = second、`2` = third など。
 
-1. が含まれる _[!UICONTROL Layout Updates]_セクションで、をクリック&#x200B;**[!UICONTROL Add Layout Update]**およびを設定&#x200B;**[!UICONTROL Display on]**を次のいずれかに変更します。
+1. 「_[!UICONTROL Layout Updates]_」セクションで「**[!UICONTROL Add Layout Update]**」をクリックし、**[!UICONTROL Display on]**を次のいずれかに設定します。
 
    - _[!UICONTROL Categories]_
 
@@ -107,24 +107,24 @@ ht-degree: 0%
       - `Specified Page`
       - `Page Layouts`
 
-1. が含まれる **[!UICONTROL Container]** リストから、ページレイアウトを配置する領域を選択します。
+1. **[!UICONTROL Container]** リストで、ページレイアウトを配置する領域を選択します。
 
-   ![ウィッシュリスト検索ウィジェット – レイアウト](./assets/widget-wishlist-search-storefront.png){width="700" zoomable="yes"}
+   ![ ウィッシュリスト検索ウィジェット – レイアウト ](./assets/widget-wishlist-search-storefront.png){width="700" zoomable="yes"}
 
-1. 左パネルで、を選択します。 **[!UICONTROL Widget Options]**.
+1. 左側のパネルで「**[!UICONTROL Widget Options]**」を選択します。
 
-1. を設定 **[!UICONTROL Quick Search Form Types]** を次のいずれかに変更します。
+1. **[!UICONTROL Quick Search Form Types]** を次のいずれかに設定します。
 
-   - `All Forms`  – お客様は、利用可能なすべてのパラメーターで検索できます。
-   - `Owner Name`  – お客様は所有者名でウィッシュリストを検索できます。
-   - `Owner Email`  – 所有者のメールアドレスでウィッシュリストを検索できます。
+   - `All Forms` – お客様は、利用可能なすべてのパラメーターで検索できます。
+   - `Owner Name` – お客様は、所有者名でウィッシュリストを検索できます。
+   - `Owner Email` – 所有者のメールアドレスでウィッシュリストを検索できます。
 
    >[!NOTE]
    >
    >配送先住所はウィッシュリストには含まれません。
 
-1. 必要に応じて、標準に従って、残りのウィジェットプロパティを設定します [指示](../content-design/widget-create.md).
+1. 必要に応じて、標準 [ 手順 ](../content-design/widget-create.md) に従って、残りのウィジェットプロパティを設定します。
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
 1. プロンプトが表示されたら、無効なキャッシュをすべて更新します。

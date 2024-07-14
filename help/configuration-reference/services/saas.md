@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector]'
-description: の設定を確認します。 [!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector] コマース管理者のページ。
+description: Commerce Admin の [!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector] ページで設定を確認します。
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -12,15 +12,15 @@ ht-degree: 2%
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-ストアをAdobe Commerce サービスに接続する方法については、以下を参照してください。 [Commerce サービス](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
+ストアをAdobe Commerce サービスに接続する方法については、[Commerce サービス ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html) を参照してください。
 
 {{config}}
 
 ## [!UICONTROL Sandbox API Keys]
 
-![サンドボックス API キー](./assets/sandbox-key-saas-configuration.png)<!-- zoom -->
+![ サンドボックス API キー ](./assets/sandbox-key-saas-configuration.png)<!-- zoom -->
 
-| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Sandbox public API key] | グローバル | 作成者とその使用権限を識別する API キー（存在する場合）。 |
 | [!UICONTROL Sandbox private API key] | グローバル | API キーに関連付けられた秘密鍵。 |
@@ -29,9 +29,9 @@ ht-degree: 2%
 
 ## [!UICONTROL Production Keys]
 
-![実稼動 API キー](./assets/prod-key-saas-configuration.png)<!-- zoom -->
+![ 実稼動 API キー ](./assets/prod-key-saas-configuration.png)<!-- zoom -->
 
-| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Production public API key] | グローバル | 作成者とその使用権限を識別する API キー（存在する場合）。 |
 | [!UICONTROL Production private API key] | グローバル | API キーに関連付けられた秘密鍵。 |
@@ -40,18 +40,18 @@ ht-degree: 2%
 
 ## [!UICONTROL SaaS Identifier]
 
-![SaaS 識別子](./assets/saas-identifier.png)<!-- zoom -->
+![SaaS 識別子 ](./assets/saas-identifier.png)<!-- zoom -->
 
-| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Project] | グローバル | すべての SaaS データ スペースをグループ化する SaaS プロジェクトの名前。 A _プロジェクトを作成_ saaS プロジェクトが存在しない場合は、ボタンが表示されます。 |
-| [!UICONTROL Data Space] | グローバル | 指定した SaaS プロジェクトの SaaS データ スペースを一覧表示します。 SaaS データ領域の数は、 [Commerce ライセンス](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html):<br />Adobe Commerce - 1 つの実稼動データスペース、2 つのテストデータスペース、<br />Magento Open Source - 1 つの実稼動データスペースで、テスト用のデータスペースはない |
+| [!UICONTROL Project] | グローバル | すべての SaaS データ スペースをグループ化する SaaS プロジェクトの名前。 SaaS プロジェクトが存在しない場合は、「_プロジェクトを作成_」ボタンが表示されます。 |
+| [!UICONTROL Data Space] | グローバル | 指定した SaaS プロジェクトの SaaS データ スペースを一覧表示します。 SaaS データスペースの数は、[Commerce ライセンスによって異なります ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html):<br />Adobe Commerce - 1 つの実稼動データスペース；2 つのテスト用データスペース；<br />Magento Open Source - 1 つの実稼動データスペース；テスト用データスペース |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL IMS Organization]
 
-![IMS 組織](./assets/ims-organization.png)<!-- zoom -->
+![IMS 組織 ](./assets/ims-organization.png)<!-- zoom -->
 
 | フィールド | 説明 |
 |--- |--- |

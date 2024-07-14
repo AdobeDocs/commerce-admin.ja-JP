@@ -19,27 +19,27 @@ ht-degree: 0%
 >
 >個人が既にストアに個人用アカウントを持っていて、後で会社に就職する場合は、その個人の個人用アカウントを会社に割り当てないでください。 代わりに、会社のメールアドレスを持つユーザーの会社ユーザーアカウントを作成します。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL All Customers]** に移動します。
 
-1. グリッドで顧客を見つけて、 **[!UICONTROL Edit]** が含まれる _[!UICONTROL Action]_列。
+1. グリッドで顧客を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
 
-1. 左パネルで、を選択します。 **[!UICONTROL Account Information]**.
+1. 左側のパネルで「**[!UICONTROL Account Information]**」を選択します。
 
-1. クリック **[!UICONTROL Associate to Company]** 会社名の最初の数文字を入力します。
+1. 「**[!UICONTROL Associate to Company]**」をクリックし、会社名の最初の数文字を入力ボックスに入力します。
 
    システムによって、可能なすべての一致のリストが生成されます。
 
-   ![会社に関連付け](./assets/company-assign-customer-account.png){width="600"}
+   ![ 会社への関連付け ](./assets/company-assign-customer-account.png){width="600"}
 
-1. リストで、顧客を割り当てる会社を選択し、 **[!UICONTROL Done]**.
+1. リストで、顧客を割り当てる会社を選択し、「**[!UICONTROL Done]**」をクリックします。
 
-1. お客様が以前に別の会社に割り当てられている場合は、 **[!UICONTROL Confirm]**.
+1. 顧客が以前に別の会社に割り当てられていた場合は、[**[!UICONTROL Confirm]**] をクリックします。
 
-   顧客が顧客グループに再割り当てされている [共有カタログ](catalog-shared.md)）を追加し、これに追加しました [会社構造](account-company-structure.md).
+   顧客が会社の顧客グループ（または [ 共有カタログ ](catalog-shared.md)）に再割り当てされ、その [ 会社構造 ](account-company-structure.md) に追加されます。
 
-1. 完了したら、 **[!UICONTROL Save Customer]**.
+1. 完了したら、「**[!UICONTROL Save Customer]**」をクリックします。
 
-   で次の列が更新されます。 [顧客](../customers/customers-all.md) グリッド：
+   [ 顧客 ](../customers/customers-all.md) グリッドで次の列が更新されます。
 
-   - この _[!UICONTROL Group]_列が、会社に割り当てられている顧客グループ（または共有カタログ）の名前に変わります。
-   - この _[!UICONTROL Company]_列には、顧客プロファイルが関連付けられるようになった会社の名前が表示されます。
+   - _[!UICONTROL Group]_の列は、会社に割り当てられている顧客グループ（または共有カタログ）の名前に変わります。
+   - _[!UICONTROL Company]_の列には、顧客プロファイルが関連付けられた会社の名前が表示されます。

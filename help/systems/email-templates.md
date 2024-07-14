@@ -14,7 +14,7 @@ ht-degree: 0%
 
 メールテンプレートは、ストアから送信される自動メッセージのレイアウト、コンテンツ、書式を定義します。 各トランザクションメールは、特定のタイプのトランザクションまたはイベントに関連付けられているので、トランザクションメールと呼ばれます。
 
-Commerceには、ストアの操作中に発生する様々なイベントによってトリガーされる一連のレスポンシブメールテンプレートが含まれています。 各テンプレートは画面サイズに合わせて最適化されており、デスクトップだけでなく、タブレットやモバイルデバイスでも表示できます。 顧客アクティビティ、販売、製品アラート、管理者アクション、システムメッセージに関連する、様々な準備済みのメールテンプレートを使用できます [customize](email-template-custom.md) ブランドを反映する。
+Commerceには、ストアの操作中に発生する様々なイベントによってトリガーされる一連のレスポンシブメールテンプレートが含まれています。 各テンプレートは画面サイズに合わせて最適化されており、デスクトップだけでなく、タブレットやモバイルデバイスでも表示できます。 顧客アクティビティ、販売、製品アラート、管理者アクション、システムメッセージに関連する様々な準備済みのメールテンプレートがあり、ブランドを反映するために [ カスタマイズ ](email-template-custom.md) できます。
 
 Commerce メールは、HTMLおよびプレーンテキストのメールクライアントでレンダリングできます。 メールのレンダリング方法は、クライアント間で多少異なる場合があります。
 
@@ -43,37 +43,37 @@ Commerce メールは、HTMLおよびプレーンテキストのメールクラ�
 
 ## メールテンプレートの設定
 
-この設定によって、デフォルトのヘッダーテンプレートに表示されるロゴと、任意のカスタムが決まります [ヘッダー](email-template-custom.md#header-template) および [フッター](email-template-custom.md#footer-template) ストアから送信されるトランザクションメールメッセージに使用するテンプレート。
+この設定により、デフォルトのヘッダーテンプレートに表示されるロゴと、ストアから送信されるトランザクションメールメッセージに使用する任意のカスタム [ ヘッダー ](email-template-custom.md#header-template) および [ フッター ](email-template-custom.md#footer-template) テンプレートが決まります。
 
-![トランザクションメールデザイン](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
+![ トランザクションメールデザイン ](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
 
-設定の詳細なリストについては、を参照してください [_トランザクションメール_](../content-design/configuration.md) が含まれる _コンテンツおよびデザインガイド_.
+構成設定の詳細なリストについては、『 [_コンテンツおよびデザインガイド_ の _](../content-design/configuration.md)トランザクションメール_ を参照してください。
 
 ## 手順 1. ロゴをアップロード
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 設定するストア表示を見つけて、クリックします **[!UICONTROL Edit]** が含まれる _[!UICONTROL Action]_列。
+1. 設定するストア表示を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
 
-1. 次の下 _[!UICONTROL Other Settings]_、を展開 ![展開セレクター](../assets/icon-display-expand.png) この&#x200B;**[!UICONTROL Transactional Emails]**セクション。
+1. 「_[!UICONTROL Other Settings]_」の下の「展開セレクター ![ 「**[!UICONTROL Transactional Emails]**」セクション ](../assets/icon-display-expand.png) を展開します。
 
-1. 準備したをアップロードするには **[!UICONTROL Logo Image]**&#x200B;を選択し、 **[!UICONTROL Upload]** そして、システムからファイルを選択します。
+1. 準備した **[!UICONTROL Logo Image]** をアップロードするには、「**[!UICONTROL Upload]**」をクリックしてシステムからファイルを選択します。
 
-1. の場合 **[!UICONTROL Logo Image Alt]**、代替テキストを入力して画像を識別します。
+1. **[!UICONTROL Logo Image Alt]**：代替テキストを入力して画像を識別します。
 
-1. を入力 **[!UICONTROL Logo Width]** および **[!UICONTROL Logo Height]** ピクセル単位。
+1. **[!UICONTROL Logo Width]** と **[!UICONTROL Logo Height]** をピクセル単位で入力します。
 
-   それぞれの値を数字で入力します（を除く） `px` 省略形。 これらの値は、画像の実際のサイズではなく、ヘッダー内のロゴの表示寸法を参照します。
+   各値を、`px` の省略形を除いた数字で入力します。 これらの値は、画像の実際のサイズではなく、ヘッダー内のロゴの表示寸法を参照します。
 
 ## 手順 2. ヘッダーテンプレートとフッターテンプレートの選択
 
-ストアまたは異なるストアにカスタムのヘッダーおよびフッターテンプレートがある場合は、に従って、それぞれに使用するテンプレートを指定できます [範囲](../getting-started/websites-stores-views.md#scope-settings) ：設定。 それ以外の場合は、デフォルトのテンプレートが使用されます。 詳しくは、 [メールテンプレートのカスタマイズ](email-template-custom.md).
+自分のストアまたは異なるストアにカスタムのヘッダーおよびフッターテンプレートがある場合は、設定の [ スコープ ](../getting-started/websites-stores-views.md#scope-settings) に従って、それぞれに使用するテンプレートを指定できます。 それ以外の場合は、デフォルトのテンプレートが使用されます。 詳しくは、[ メールテンプレートのカスタマイズ ](email-template-custom.md) を参照してください。
 
-1. を選択します。 **[!UICONTROL Header Template]** すべてのトランザクションメールメッセージに使用する。
+1. すべてのトランザクションメールメッセージに使用する **[!UICONTROL Header Template]** を選択します。
 
-1. を選択します。 **[!UICONTROL Footer Template]** すべてのトランザクションメールメッセージに使用する。
+1. すべてのトランザクションメールメッセージに使用する **[!UICONTROL Footer Template]** を選択します。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ## メールテンプレートリスト
 
@@ -103,7 +103,7 @@ Commerce メールは、HTMLおよびプレーンテキストのメールクラ�
 | Template | 設定パス |
 |--- |--- |
 | `Assign Company Admin` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**セクション：** [!UICONTROL Customer-Related Emails]<br/>**フィールド：** [!UICONTROL Default 'Assign Company Admin' Email] |
-| `Assign Company to Customer` | **ページ：** [!UICONTROL Customers] > [会社設定&#x200B;](../configuration-reference/customers/company-configuration.md)<br/>**セクション：** [!UICONTROL Customer-Related Emails] <br/>**フィールド：** [!UICONTROL Default 'Assign Company to Customer' Email] |
+| `Assign Company to Customer` | **ページ：** [!UICONTROL Customers] > [ 会社設定 ](../configuration-reference/customers/company-configuration.md)<br/>**セクション：** [!UICONTROL Customer-Related Emails] <br/>**フィールド：** [!UICONTROL Default 'Assign Company to Customer' Email] |
 | `Company Admin Changed to Member` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**セクション：** [!UICONTROL Customer-Related Emails]<br/>**フィールド：** [!UICONTROL Default 'Company Admin Changed To Member' Email] |
 | `Company Admin Set Inactive` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**セクション：** [!UICONTROL Customer-Related Emails]<br/>**フィールド：** [!UICONTROL Default 'Customer Status Inactive' Email] |
 | `Company Invite` | 該当なし |
@@ -148,12 +148,12 @@ Commerce メールは、HTMLおよびプレーンテキストのメールクラ�
 | `Change Email` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**セクション：** [!UICONTROL Account Information Options]<br/>**フィールド：** [!UICONTROL Change Email Template] |
 | メールとパスワードの変更 | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**セクション：** [!UICONTROL Account Information Options]<br/>**フィールド：** [!UICONTROL Change Email and Password Template] |
 | `Forgot Password` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**セクション：** [!UICONTROL Password Options]<br/>**フィールド：** メールを忘れた場合のテンプレート |
-| `New Account` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**セクション：** [!UICONTROL Create New Account Options]<br/>**フィールド：** デフォルトのようこそメール |
-| `New Account (Magento/luma)` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**セクション：** [!UICONTROL Create New Account Options]<br/>**フィールド：** デフォルトのようこそメール |
+| `New Account` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**セクション：** [!UICONTROL Create New Account Options]<br/>**フィールド：** デフォルトのウェルカムメール |
+| `New Account (Magento/luma)` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**セクション：** [!UICONTROL Create New Account Options]<br/>**フィールド：** デフォルトのウェルカムメール |
 | `New Account Confirmation Key` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**セクション：** [!UICONTROL Create New Account Options]<br/>**フィールド：** 確認リンクメール |
 | `New Account Confirmed` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**セクション：** [!UICONTROL Create New Account Options]<br/>**フィールド：** お知らせメール |
-| `New Account Without Password` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**セクション：** [!UICONTROL Create New Account Options]<br/>**フィールド：** パスワードなしの既定のウェルカムメール |
-| `Remind Password` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**セクション：** [!UICONTROL Password Options]<br/>**フィールド：** メールテンプレートにリマインド |
+| `New Account Without Password` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**セクション：** [!UICONTROL Create New Account Options]<br/>**フィールド：** デフォルトのパスワードなしのウェルカムメール |
+| `Remind Password` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**セクション：** [!UICONTROL Password Options]<br/>**フィールド：** Remind Email Template |
 | `Reset Password` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**セクション：** [!UICONTROL Password Options] <br/>**フィールド：** パスワードリセットテンプレート |
 
 {style="table-layout:auto"}
@@ -332,7 +332,7 @@ Commerce メールは、HTMLおよびプレーンテキストのメールクラ�
 | `Invoice Update for Guest` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice Comments]<br/>**フィールド：** [!UICONTROL Invoice Comment Email Template for Guest] |
 | `Invoice Update for Guest (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice Comments]<br/>**フィールド：** [!UICONTROL Invoice Comment Email Template for Guest] |
 | `New Credit Memo` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Credit Memo]<br/>**フィールド：** [!UICONTROL Credit Memo Email Template] |
-| `New Credit Memo (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]]../configuration-reference/sales/sales-emails.md）<br/>**セクション：** [!UICONTROL Credit Memo]<br/>**フィールド：** [!UICONTROL Credit Memo Email Template] |
+| `New Credit Memo (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]]../configuration-reference/sales/sales-emails.md） <br/>**セクション：** [!UICONTROL Credit Memo]<br/>**フィールド：** [!UICONTROL Credit Memo Email Template] |
 | `New Credit Memo for Guest` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Credit Memo]<br/>**フィールド：** [!UICONTROL Credit Memo Email Template for Guest] |
 | `New Credit Memo for Guest (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Credit Memo]<br/>**フィールド：** [!UICONTROL Credit Memo Email Template for Guest] |
 | `New Invoice` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice]<br/>**フィールド：** [!UICONTROL Invoice Email Template] |
@@ -374,7 +374,7 @@ Commerce メールは、HTMLおよびプレーンテキストのメールクラ�
 
 | Template | 設定パス |
 |--- |--- |
-| `Send Product Link to Friend` | **ページ：** [!UICONTROL Catalog] > [[!UICONTROL Email to a Friend]](../configuration-reference/catalog/email-to-a-friend.md)<br/>**セクション：** [!UICONTROL Email Templates]<br/>**フィールド：** [!UICONTROL Select Email Template] |
+| `Send Product Link to Friend` | **ページ：** [!UICONTROL Catalog] > [[!UICONTROL Email to a Friend]](../configuration-reference/catalog/email-to-a-friend.md)<br/>**セクション：** [!UICONTROL Email Templates]<br/>**フィールド：** [!UICONTROL Select Email Template] |
 
 {style="table-layout:auto"}
 
@@ -399,7 +399,7 @@ Commerce メールは、HTMLおよびプレーンテキストのメールクラ�
 
 | Template | 設定パス |
 |--- |--- |
-| `Forgot Admin Password` | **ページ：** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**セクション：** [!UICONTROL Admin User Emails]<br/>**フィールド：** パスワードを忘れた場合の E メール テンプレート |
+| `Forgot Admin Password` | **ページ：** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**セクション：** [!UICONTROL Admin User Emails]<br/>**フィールド：** パスワードを忘れた場合のメールテンプレート |
 | `User Notification` | **ページ：** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**セクション：** [!UICONTROL Admin User Emails]<br/>**フィールド：** ユーザー通知テンプレート |
 | `New User Notification` | **ページ：** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**セクション：** [!UICONTROL Admin User Emails]<br/>**フィールド：** [!UICONTROL New User Notification Template] |
 

@@ -16,18 +16,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->参照： [Commerce Marketplace](../getting-started/commerce-marketplace.md) Commerceのインストールに関するその他の配送サービスについては、
+>Commerceのインストールに関するその他の配送サービスについては ](../getting-started/commerce-marketplace.md)0}Commerce Marketplace} を参照してください。[
 
 顧客に選択した配送業者を提供する前に、次の手順を完了する必要があります。
 
-- の設定 [配送設定](shipping-settings.md) ストアの原点を確立するため。
+- [ 配送設定 ](shipping-settings.md) を設定して、ストアの配送元を確立します。
 
 - 提供する各通信事業者サービスの設定を構成します。
 
-   - [**UPS**](ups.md)  ・ユナイテッド・パーセル・サービス（UPS）は、220 か国以上に対し、国内外の陸路および空路の配送サービスを提供しています。
-   - [**USPS**](usps.md) ・米国郵政公社（United States Postal Service:USPS）は、米国政府の独立した郵政公社。 USPS は国内外の陸路および空路の輸送サービスを提供しています。
+   - [**UPS**](ups.md) - United Parcel Service （UPS）は、220 カ国以上に陸路および空路で国内外の配送サービスを提供しています。
+   - [**USPS**](usps.md) – 米国郵政公社（USPS）は、米国政府の独立した郵便サービスです。 USPS は国内外の陸路および空路の輸送サービスを提供しています。
    - [**FedEx**](fedex.md) - FedEx は、220 カ国以上に陸路および空路で国内外の配送サービスを提供しています。
-   - [**DHL**](dhl.md) - DHL は、手紙、商品、情報の管理と輸送のために、統合された国際サービスと、カスタマイズされた顧客志向のソリューションを提供します。
+   - [**DHL**](dhl.md) - DHL は、手紙、商品、情報を管理および輸送するための統合された国際サービスと、カスタマイズされた顧客志向のソリューションを提供します。
 
 ## ディメンションの重み付け
 

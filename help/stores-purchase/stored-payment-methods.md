@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 保存されている支払い方法
 
-支払い情報を保存するための安全なコンテナにアクセスできるお客様は、毎回クレジットカード情報を入力することなく、チェックアウトをスピードアップできます。 次の場合 [即時購入](checkout-instant-purchase.md) を有効にすると、お客様は 2 ステップのチェックアウトプロセスを回避して、製品ページから注文できます。
+支払い情報を保存するための安全なコンテナにアクセスできるお客様は、毎回クレジットカード情報を入力することなく、チェックアウトをスピードアップできます。 [ 即時購入 ](checkout-instant-purchase.md) が有効になっている場合、お客様は 2 ステップのチェックアウトプロセスを回避し、製品ページから注文を行うことができます。
 
-セキュアなコンテナをサポートする支払方法（例：） [Braintree](braintree.md)、は必須です。 支払い方法の設定で Secure Vault が有効になっている場合、お客様はチェックアウト時にクレジットカード情報を保存された支払い方法として保存するオプションを使用できます。 顧客は、アカウントダッシュボードから保存済みの支払い方法を管理できます。
+[Braintree](braintree.md) など、セキュリティで保護されたコンテナーをサポートする支払い方法が必要です。 支払い方法の設定で Secure Vault が有効になっている場合、お客様はチェックアウト時にクレジットカード情報を保存された支払い方法として保存するオプションを使用できます。 顧客は、アカウントダッシュボードから保存済みの支払い方法を管理できます。
 
-![保存されている支払方法](./assets/customer-account-stored-payment-methods.png){width="700" zoomable="yes"}
+![ 保管支払方法 ](./assets/customer-account-stored-payment-methods.png){width="700" zoomable="yes"}
 
 ## チェックアウト時に保存されている支払方法を追加する
 
@@ -26,26 +26,26 @@ ht-degree: 0%
 
 1. チェックアウトページに進みます。
 
-1. 完了： _送料_ ステップ。
+1. _出荷_ 手順を完了します。
 
-1. 選択します。 **[!UICONTROL Braintree Credit Card]** 支払い方法。
+1. **[!UICONTROL Braintree Credit Card]** の支払方法を選択します。
 
 1. クレジットカードのデータを入力します。
 
-1. 選択します。 **[!UICONTROL Save for later use]** チェックボックス。
+1. **[!UICONTROL Save for later use]** チェックボックスを選択します。
 
-1. クリック数 **[!UICONTROL Place Order]**.
+1. **[!UICONTROL Place Order]** をクリックします。
 
-保存された支払い方法が _[!UICONTROL Stored Payment Methods]_顧客ダッシュボードの「」タブ。
+保存された支払い方法が、顧客ダッシュボードの「_[!UICONTROL Stored Payment Methods]_」タブに表示されます。
 
 ## 保存されている支払方法の削除
 
 以前に追加された保存済みの支払い方法は、顧客が編集することはできません。削除のみが可能です。 このアクションは取り消しできません。
 
-1. アカウントのサイドバーで、顧客が次を選択します。 **[!UICONTROL Stored Payment Methods]**.
+1. アカウントのサイドバーで、顧客が「**[!UICONTROL Stored Payment Methods]**」を選択します。
 
 1. 削除する支払方法エントリを検索します。
 
-1. クリック数 **[!UICONTROL Delete]**.
+1. **[!UICONTROL Delete]** をクリックします。
 
-1. アクションを確定するには、をクリックします **[!UICONTROL OK]**.
+1. アクションを確定するには、「**[!UICONTROL OK]**」をクリックします。

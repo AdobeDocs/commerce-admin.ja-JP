@@ -22,17 +22,17 @@ PayPal マーチャントアカウントで決済レポートを設定して有�
 
 **_決済レポートを表示する手順は、次のとおりです。_**
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL PayPal Settlement]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Sales]_/**[!UICONTROL PayPal Settlement]**に移動します。
 
-   ![PayPal 決済レポート](../getting-started/assets/reports-sales-paypal-settlement.png){width="600" zoomable="yes"}
+   ![PayPal 決済レポート ](../getting-started/assets/reports-sales-paypal-settlement.png){width="600" zoomable="yes"}
 
-1. 最新の更新については、次をクリックしてください： **[!UICONTROL Fetch Updates]** 右上隅
+1. 最新の更新については、右上隅の「**[!UICONTROL Fetch Updates]**」をクリックします。
 
    システムは、レポートを取得するために PayPal SFTP サーバーに接続します。 処理が完了すると、取得したレポート数を示すメッセージが表示されます。 レポートには、各トランザクションに関する次の情報が含まれます。
 
    | レポート列 | 説明 |
    | ------------ | ----------- |
-   | [!UICONTROL PayPal Reference ID Type] | 次のいずれかの参照コード。<br/> – 注文 IDT<br/>- トランザクション ID<br/> – 購読 ID |
-   | [!UICONTROL Preapproved Payment ID] | **[!UICONTROL Custom]** - PayPal でのトランザクションでマーチャントが入力したテキスト。<br/>**[!UICONTROL Transaction Debit or Credit]**・総額の移動の方向<br/>**[!UICONTROL Fee Debit or Credit]**  – 手数料を支払う場合の資金移動の方向。 |
+   | [!UICONTROL PayPal Reference ID Type] | 次のいずれかの参照コード：<br/> – 注文 IDT<br/>- トランザクション ID<br/> – 購読 ID |
+   | [!UICONTROL Preapproved Payment ID] | **[!UICONTROL Custom]** - PayPal でのトランザクションでマーチャントが入力したテキスト。<br/>**[!UICONTROL Transaction Debit or Credit]**– 総額の金銭移動方向。<br/>**[!UICONTROL Fee Debit or Credit]** – 手数料のためのお金の動きの方向。 |
 
    {style="table-layout:auto"}

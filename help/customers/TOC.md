@@ -17,7 +17,7 @@ ht-degree: 2%
 + 顧客管理ツール {#customers-menu}
    + [顧客リスト](customers-all.md)
    + [オンラインになりました](now-online.md)
-   + [大規模なパーソナライゼーション](personalize-scale.md)
+   + [大規模なPersonalization](personalize-scale.md)
 + 顧客アカウント {#customer-accounts}
    + [アカウントの範囲](customer-account-scope.md)
    + アカウントオプション {#configure}
@@ -29,7 +29,7 @@ ht-degree: 2%
       + [ユーザーのサインイン](customer-sign-in.md)
       + [パスワードのリセット](password-reset.md)
    + [個人アカウントの作成](account-create.md)
-   + アカウントの管理 {#manage}
+   + アカウント管理 {#manage}
       + [顧客アカウント](manage-account.md)
       + [顧客プロファイルの更新](update-account.md)
       + [買い物客への支援の提供](login-as-customer.md)
@@ -37,7 +37,7 @@ ht-degree: 2%
       + [属性プロパティ](attribute-properties.md)
       + [アドレス属性](address-attributes.md)
       + [アドレステンプレート](address-templates.md)
-   + ストアクレジット {#store-credit}
+   + 店舗クレジット {#store-credit}
       + [ストアクレジットワークフロー](store-credit.md)
       + [ストアクレジットの設定](credit-configure.md)
       + [店舗クレジットの適用](store-credit-using.md)
@@ -55,5 +55,5 @@ ht-degree: 2%
    + [顧客セグメントの作成および削除](customer-segment-create.md)
    + [価格ルールの顧客セグメント](customer-segment-price-rule.md)
    + [顧客セグメントレポート](customer-segment-reports.md)
-+ [Merchant Guides に戻る](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [ マーチャントガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

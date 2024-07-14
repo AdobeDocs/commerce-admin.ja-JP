@@ -15,20 +15,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->の削除 [在庫](stocks-manage.md) 販売チャネルの販売可能な数量および未処理の注文に影響を与える可能性があります。 販売チャネルを引き続き使用する場合は、販売チャネルを別の既存または新しい在庫に追加します。
+>[ 在庫 ](stocks-manage.md) を削除すると、販売チャネルの販売可能数量と未処理の注文に影響を与える可能性があります。 販売チャネルを引き続き使用する場合は、販売チャネルを別の既存または新しい在庫に追加します。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Inventory]_/**[!UICONTROL Stocks]**に移動します。
 
 1. 削除する在庫を 1 つ以上選択します。
 
    削除する在庫のチェックボックスを参照または検索して選択します。
 
-1. から **[!UICONTROL Actions]** メニュー、選択 **[!UICONTROL Delete]**.
+1. **[!UICONTROL Actions]** メニューから「**[!UICONTROL Delete]**」を選択します。
 
-   ![アクション メニューから「削除」を選択します](assets/inventory-stock-delete.png){width="350" zoomable="yes"}
+   ![ アクションメニューから「削除」を選択 ](assets/inventory-stock-delete.png){width="350" zoomable="yes"}
 
-1. 確認ダイアログで、 **[!UICONTROL OK]**.
+1. 確認ダイアログで、「**[!UICONTROL OK]**」をクリックします。
 
    在庫が削除され、割り当てられている販売チャネルがマッピング解除されます。
 
-   ![在庫の削除の検証メッセージ](assets/inventory-stock-delete-confirm.png){width="350" zoomable="yes"}
+   ![ 在庫削除の検証メッセージ ](assets/inventory-stock-delete-confirm.png){width="350" zoomable="yes"}

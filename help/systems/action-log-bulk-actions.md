@@ -14,30 +14,30 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-一括アクションログには、読み込み/書き出しや割り当てなど、バックグラウンドで実行される非同期の一括操作の詳細が記録されます [カスタム価格](../b2b/catalog-shared-manage.md#update-custom-pricing) で複数の製品に適用する [共有カタログ](../b2b/catalog-shared.md).
+一括アクション ログは、インポート/エクスポートや、（カスタム価格 [ を [ 共有カタログ ](../b2b/catalog-shared-manage.md#update-custom-pricing) 内の複数の製品に割り当てるなど、バックグラウンドで実行される非同期の一括操作の詳細を記録 ](../b2b/catalog-shared.md) ます。
 
-![一括アクションログ](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
+![ 一括アクションログ ](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
 
 ## 一括アクションの設定
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Advanced]** を選択します **[!UICONTROL System]**.
+1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Bulk Actions]** 「」セクションと「ログの保存」オプションを設定します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Bulk Actions]**」セクションを展開し、「ログの保存」オプションを設定します。
 
-   **[!UICONTROL Days Saved in Log]**  – 一括アクションがログに保存される日数を入力します。
+   「**[!UICONTROL Days Saved in Log]**」 – 一括アクションがログに保存される日数を入力します。
 
-   ![詳細設定 – 一括アクション](../configuration-reference/advanced/assets/system-bulk-actions.png){width="600" zoomable="yes"}
+   ![ 詳細設定 – 一括アクション ](../configuration-reference/advanced/assets/system-bulk-actions.png){width="600" zoomable="yes"}
 
-   設定の詳細なリストについては、を参照してください [_一括アクション_](../configuration-reference/advanced/system.md) が含まれる _設定リファレンス_.
+   設定の詳細なリストについては、『設定リファレンス _の[_ 一括アクション _](../configuration-reference/advanced/system.md)を参照してください_。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ## 一括アクションの表示
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Bulk Actions]**.
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Actions Logs]_/**[!UICONTROL Bulk Actions]**に移動します。
 
 1. ログで目的のアクションを見つけます。
 
-1. が含まれる _[!UICONTROL Action]_列、クリック&#x200B;**[!UICONTROL Details]**.
+1. 「_[!UICONTROL Action]_」列で「**[!UICONTROL Details]**」をクリックします。

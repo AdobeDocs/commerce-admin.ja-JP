@@ -13,27 +13,27 @@ ht-degree: 0%
 
 # ブラウザー機能の検出
 
-インターネット上のほとんどの web サイトやアプリケーションと同様に、Adobe CommerceおよびMagento Open Sourceーでは、訪問者のブラウザーが Cookie と JavaScript の両方を許可している必要があります。 ただし、ユーザーのブラウザーが、Cookie と JavaScript の両方を防ぐ最も高いプライバシー設定に設定されている場合があります。 ストアを設定して、各訪問者のブラウザーの機能をテストし、設定の変更が必要な場合は通知を表示することができます。
+インターネット上のほとんどの web サイトやアプリケーションと同様に、Adobe CommerceおよびMagento Open Sourceでは、訪問者のブラウザーが Cookie とJavaScriptの両方を許可して完全に動作することを求めています。 ただし、ユーザーのブラウザーが、Cookie とJavaScriptの両方を防ぐ最高のプライバシー設定に設定されている場合があります。 ストアを設定して、各訪問者のブラウザーの機能をテストし、設定の変更が必要な場合は通知を表示することができます。
 
-- ブラウザーのプライバシー設定で Cookie が許可されていない場合は、システムが自動的に Cookie をにリダイレクトするように設定できます [Cookie を有効にする](../content-design/pages.md#enable-cookies) ページでは、ほとんどのブラウザーで推奨設定を行う方法を説明しています。
-- ブラウザーのプライバシー設定で JavaScript が許可されていない場合は、各ページのヘッダーの上に次のメッセージが表示されるようにシステムを設定できます。
+- ブラウザーのプライバシー設定で Cookie が許可されていない場合は、システムが自動的に [Cookie を有効にする ](../content-design/pages.md#enable-cookies) ページにリダイレクトするように設定できます。このページでは、ほとんどのブラウザーで推奨設定を行う方法を説明します。
+- ブラウザーのプライバシー設定によってJavaScriptが許可されていない場合は、すべてのページのヘッダーの上に次のメッセージが表示されるようにシステムを設定できます。
 
-技術情報については、を参照してください。 [サポートされているブラウザー](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers) が含まれる _インストールガイド_.
+技術情報については、_インストールガイド_ の [ サポートされているブラウザー ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers) を参照してください。
 
 ## ブラウザー機能の検出の設定
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. の下にある左側のパネル _[!UICONTROL General]_、を選択&#x200B;**[!UICONTROL Web]**.
+1. _[!UICONTROL General]_の下にある左側のパネルで、「**[!UICONTROL Web]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Browser Capabilities Detection]** を選択し、次の操作を実行します。
+1. **[!UICONTROL Browser Capabilities Detection]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   - Cookie を許可するようにブラウザーを設定する方法を説明する手順を表示するには、次のように設定します： **[!UICONTROL Redirect to CMS-page if Cookies are Disabled]** 対象： `Yes`.
+   - Cookie を許可するようにブラウザーを設定する方法を説明する手順を表示するには、**[!UICONTROL Redirect to CMS-page if Cookies are Disabled]** を `Yes` に設定します。
 
-   - ユーザーのブラウザーで JavaScript が無効になっているときにヘッダーの上にバナーを表示するには、次のように設定します **[!UICONTROL Show Notice if JavaScript is Disabled]** 対象： `Yes`.
+   - ユーザーのブラウザーでJavaScriptが無効になっているときにヘッダーの上にバナーを表示するには、**[!UICONTROL Show Notice if JavaScript is Disabled]** を `Yes` に設定します。
 
-   - ユーザーのブラウザーでローカルストレージが無効になっているときにヘッダーの上にバナーを表示するには、次のように設定します **[!UICONTROL Show Notice if Local Storage is Disabled]** 対象： `Yes`.
+   - ユーザーのブラウザーでローカルストレージが無効になっているときにヘッダーの上にバナーを表示するには、**[!UICONTROL Show Notice if Local Storage is Disabled]** を `Yes` に設定します。
 
-   ![一般設定 – web ブラウザー機能の検出](../configuration-reference/general/assets/web-browser-capabilities-detection.png){width="600" zoomable="yes"}
+   ![ 一般設定 – web ブラウザー機能の検出 ](../configuration-reference/general/assets/web-browser-capabilities-detection.png){width="600" zoomable="yes"}
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

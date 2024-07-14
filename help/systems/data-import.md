@@ -44,7 +44,7 @@ ht-degree: 0%
 ### 無効なファイル
 
 - すべての行が無効な場合、ファイルをインポートすることはできません。
-- 存在しないサービスデータまたは複合データ名（を含む列など）がインポートファイルで指定されている。 `_<non-existing name>` 見出し。
+- 既存のサービスデータまたは複雑なデータ名（`_<non-existing name>` 見出しを持つ列など）がインポートファイルで指定されている。
 
 Adobe Commerceのインポートプロセスでは、UTF-8 でエンコードされ、バイト順マーク（BOM）を使用するファイルが正しく認識されない場合があります。 BOM を含むファイルは、インポート処理中に問題やエラーが発生する可能性があります。
 
@@ -52,27 +52,27 @@ Adobe Commerceのインポートプロセスでは、UTF-8 でエンコードさ
 
 | 操作 | 説明 |
 | --------- | ----------- |
-| 追加/更新 | データベース内の既存のエントリの既存の製品データに、新しい製品データが追加されます。 を除くすべてのフィールド `sku` を更新できます。<br><br>インポートデータで指定された新しい税クラスは、自動的に作成されます。<br><br>インポートファイルで指定された新しい製品カテゴリが自動的に作成されます。<br><br>インポートファイルで指定された新しい SKU が自動的に作成されます&#x200B;<br><br>**_注意：_**製品の場合は、読み込みを通じて、SKU を除くすべてのフィールドを更新できます。<br><br>**_重要：_** Web サイトやカテゴリなど、複数のフィールド値は、 _追加/更新_ 読み込み動作。 これらのフィールドが CSV ファイルにリストされていない場合、読み込み後もデータベースに残ります。 |
-| 置換 | 既存の製品データは新しいデータに置き換えられます。<br><br>**_重要：_**データを置き換える際は、既存の製品データが消去され、システム内のすべての参照が失われるので、注意が必要です。<br><br>インポートデータの SKU が既存のエンティティの SKU と一致する場合、SKU を含むすべてのフィールドが削除され、CSV データを使用して新しいレコードが作成されます。 CSV ファイルが参照している SKU がデータベースに存在しない場合、エラーが発生します。 データを確認すると、エラーを表示できます。 |
-| 削除 | データベースに存在するインポートデータのエンティティがデータベースから削除されます。<br><br>削除では、SKU を除く、インポートデータ内のすべての列が無視されます。 データ内のその他すべての属性は無視できます。<br><br>CSV ファイルが参照している SKU がデータベースに存在しない場合、エラーが発生します。 データを確認すると、エラーを表示できます。 |
+| 追加/更新 | データベース内の既存のエントリの既存の製品データに、新しい製品データが追加されます。 `sku` 以外のすべてのフィールドは更新できます。<br><br> インポートデータで指定された新しい税クラスは自動的に作成されます。<br><br> インポートファイルで指定された新しい製品カテゴリが自動的に作成されます。<br><br> 読み込みファイルで指定された新しい SKU は自動的に作成されます <br><br>**_注意：_**製品の場合は、読み込みを通じて SKU を除くすべてのフィールドを更新できます。<br><br>**_ 重要：_** Web サイトやカテゴリなど、複数のフィールド値は、「_追加/更新_」読み込み動作では削除できません。 これらのフィールドが CSV ファイルにリストされていない場合、読み込み後もデータベースに残ります。 |
+| 置換 | 既存の製品データは新しいデータに置き換えられます。<br><br>**_重要：_**データを置き換える際は、既存の製品データが消去され、システム内のすべての参照が失われるので、注意が必要です。<br><br> インポートデータの SKU が既存のエンティティの SKU と一致する場合、SKU を含むすべてのフィールドが削除され、CSV データを使用して新しいレコードが作成されます。 CSV ファイルが参照している SKU がデータベースに存在しない場合、エラーが発生します。 データを確認すると、エラーを表示できます。 |
+| 削除 | データベースに存在するインポートデータのエンティティがデータベースから削除されます。<br><br> 削除では、SKU を除く、インポートデータ内のすべての列が無視されます。 データ内のその他すべての属性は無視できます。<br><br>CSV ファイルが参照している SKU がデータベースに存在しない場合、エラーが発生します。 データを確認すると、エラーを表示できます。 |
 
 {style="table-layout:auto"}
 
 ## 読み込みプロセス
 
-読み込みファイルのサイズは、 `php.ini` ファイルをサーバー上に置きます。 に関するシステムメッセージ _インポート_ ページは、現在のサイズ制限を示します。 デフォルトサイズは 2 MB です。
+インポートファイルのサイズは、サーバー上の `php.ini` ファイルの設定によって決まります。 _インポート_ ページのシステムメッセージに、現在のサイズ制限が示されます。 デフォルトサイズは 2 MB です。
 
-特殊文字（等号、記号より大きいまたは小さい、一重引用符と二重引用符、バックスラッシュ、パイプ、アンパサンド記号など）は、データ転送中に問題を引き起こす可能性があります。 このような特殊文字を正しく解釈するには、 _エスケープシーケンス_. 例えば、データに次のようなテキスト文字列が含まれている場合 `code="str"`, `code="str2"`を選択してテキストを二重引用符で囲むと、元の二重引用符がデータの一部と理解されます。 システムが二重引用符の二重セットに遭遇すると、外側の二重引用符セットが実際のデータを囲んでいることを認識します。
+特殊文字（等号、記号より大きいまたは小さい、一重引用符と二重引用符、バックスラッシュ、パイプ、アンパサンド記号など）は、データ転送中に問題を引き起こす可能性があります。 このような特殊文字を正しく解釈するには、_エスケープシーケンス_ としてマークします。 例えば、データに `code="str"`、`code="str2"` などのテキスト文字列が含まれている場合、テキストを二重引用符で囲むように選択すると、元の二重引用符がデータの一部と理解されます。 システムが二重引用符の二重セットに遭遇すると、外側の二重引用符セットが実際のデータを囲んでいることを認識します。
 
 製品データをインポートすると、新しい製品データがデータベース内の既存の製品データエントリに追加されます。 SKU を除くすべてのフィールドは、読み込みを通じて更新できます。 既存の製品データはすべて、読み込んだ新しいデータに置き換えられます。 データを置き換える際は注意が必要です。 既存の製品データがすべて消去され、システム内のすべての参照が失われます。
 
-![データのインポート](./assets/import-options.png){width="600" zoomable="yes"}
+![ データのインポート ](./assets/import-options.png){width="600" zoomable="yes"}
 
 ### 手順 1：データを準備
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import]**に移動します。
 
-1. 次の下 _設定を読み込み_、設定 **[!UICONTROL Entity Type]** を次のいずれかに変更します。
+1. _読み込み設定_ で、**[!UICONTROL Entity Type]** を次のいずれかに設定します。
 
    - `Advanced Pricing`
    - `Products`
@@ -82,33 +82,33 @@ Adobe Commerceのインポートプロセスでは、UTF-8 でエンコードさ
    - `Customer Addresses`
    - `Stock Sources`
 
-1. クリック **[!UICONTROL Download Sample File]**.
+1. 「**[!UICONTROL Download Sample File]**」をクリックします。
 
 1. Web ブラウザーのダウンロード先にあるエクスポートファイルを探して開きます。
 
    サンプルファイルには、製品タイプのプレースホルダーデータを含んだ列見出しが含まれています。
 
-   ![データの読み込みサンプルファイル](./assets/data-export-sample-data.png){width="600" zoomable="yes"}
+   ![ データの読み込みサンプルファイル ](./assets/data-export-sample-data.png){width="600" zoomable="yes"}
 
 1. サンプルファイルの構造を調べ、それを使用して CSV インポートファイルを準備します。列見出しが正しく入力されていることを確認します。
 
 1. インポートファイルのサイズが、メッセージに表示される制限を超えていないことを確認します。
 
-   ![データインポートサイズ通知](./assets/data-import-size-notification.png){width="600"}
+   ![ データインポートサイズ通知 ](./assets/data-import-size-notification.png){width="600"}
 
 1. 読み込みデータに製品画像へのパスが含まれている場合は、画像ファイルが適切な場所にアップロードされていることを確認してください。
 
-   Commerce サーバーのデフォルトの場所は次のとおりです。 `pub/media/import`.
+   Commerce サーバーのデフォルトの場所は `pub/media/import` です。
 
    画像が外部サーバー上に存在する場合は、画像を含むディレクトリへの完全な URL を持っていることを確認してください。
 
 ### 手順 2：読み込み動作の選択
 
-![データの読み込み動作](./assets/data-import-import-behavior.png){width="600" zoomable="yes"}
+![ データの読み込み動作 ](./assets/data-import-import-behavior.png){width="600" zoomable="yes"}
 
-1. を設定 **[!UICONTROL Import Behavior]** を次のいずれかに変更します。
+1. **[!UICONTROL Import Behavior]** を次のいずれかに設定します。
 
-   - `Add/Update` （製品の場合は、読み込みを通じて SKU を除くすべてのフィールドを更新できます）。
+   - `Add/Update` （製品の場合は、読み込みを通じて SKU を除くすべてのフィールドを更新できます。）
    - `Replace`
    - `Delete`
 
@@ -117,49 +117,49 @@ Adobe Commerceのインポートプロセスでは、UTF-8 でエンコードさ
    - `Stop on Error`
    - `Skip error entries`
 
-1. の場合 **[!UICONTROL Allowed Errors Count]**：読み込みがキャンセルされるまでに発生する可能性のあるエラーの数を入力します。
+1. **[!UICONTROL Allowed Errors Count]**：読み込みがキャンセルされるまでに発生する可能性のあるエラー数を入力します。
 
    デフォルト値は 10 です。
 
-1. デフォルト値のコンマ（`,`）に設定します **[!UICONTROL Field separator]**.
+1. **[!UICONTROL Field separator]** の場合は、デフォルト値のコンマ（`,`）を使用します。
 
-1. デフォルト値のコンマ（`,`）に設定します **[!UICONTROL Multiple value separator]**.
+1. **[!UICONTROL Multiple value separator]** の場合は、デフォルト値のコンマ（`,`）を使用します。
 
    CSV ファイルでは、デフォルトの区切り文字はコンマです。 別の文字を使用するには、CSV ファイルのデータが、指定した文字と一致していることを確認してください。
 
-1. デフォルト値を使用 `_EMPTY_VALUE_` （用） **[!UICONTROL Empty attribute value constant]**.
+1. **[!UICONTROL Empty attribute value constant]** のデフォルト値 `_EMPTY_VALUE_` をそのまま使用します。
 
-1. データに含まれる可能性のある特殊文字を _エスケープシーケンス_&#x200B;を選択し、 **[!UICONTROL Fields Enclosure]** チェックボックス。
+1. データ内にある特殊文字を _エスケープシーケンス_ として囲む場合は、「**[!UICONTROL Fields Enclosure]**」チェックボックスをオンにします。
 
 ### 手順 3：インポートファイルの特定
 
-![データインポートファイル](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
+![ データインポートファイル ](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
-1. クリック **[!UICONTROL Choose File]** 読み込むファイルを選択します。
+1. 「**[!UICONTROL Choose File]**」をクリックして、インポートするファイルを選択します。
 
-1. 読み込む CSV ファイルを見つけて、クリックします **[!UICONTROL Open]**.
+1. 読み込む準備をした CSV ファイルを見つけて、「**[!UICONTROL Open]**」をクリックします。
 
-1. の場合 **[!UICONTROL Images File Directory]**：アップロードされた画像が保存されるCommerce サーバー上の場所の相対パスを入力します。
+1. **[!UICONTROL Images File Directory]**：アップロードされた画像が保存されるCommerce サーバー上の場所の相対パスを入力します。
 
-   例： `product_images`.
+   例：`product_images`。
 
    >[!NOTE]
    >
-   >Adobe CommerceとMagento Open Sourceの概要 `2.3.2` release、で指定されたパス _[!UICONTROL Images File Directory]_はインポート用に画像のベースディレクトリに連結されます。 `<Magento-root-folder>/var/import/images`. 例えば、 `product_images` 内のファイル `<Magento-root-directory>/var/import/images/product_images` フォルダー。 インポートイメージのベースディレクトリは、 `\Magento\ImportExport\etc\config.xml` ファイル。 リモートストレージモジュールが有効な場合は、ファイルをにインポートします `<remote-storage-root-directory>/var/import/images/product_images` フォルダー。
+   >Adobe CommerceおよびMagento Open Source `2.3.2` リリース以降、_[!UICONTROL Images File Directory]_で指定されたパスは、images ベースディレクトリ `<Magento-root-folder>/var/import/images` へのインポートを連結します。 例えば、`product_images` ファイルを `<Magento-root-directory>/var/import/images/product_images` フォルダーに配置します。 インポートイメージのベースディレクトリは、`\Magento\ImportExport\etc\config.xml` ファイルで設定できます。 リモート記憶域モジュールが有効な場合は、ファイルを `<remote-storage-root-directory>/var/import/images/product_images` フォルダーにインポートします。
 
-   製品画像の読み込みについて詳しくは、以下を参照してください [製品画像の読み込み](data-import-product-images.md).
+   製品画像の読み込みについて詳しくは、[ 製品画像の読み込み ](data-import-product-images.md) を参照してください。
 
 ### 手順 4：インポートデータの確認
 
-1. 右上隅のをクリックします。 **[!UICONTROL Check Data]**.
+1. 右上隅の「**[!UICONTROL Check Data]**」をクリックします。
 
 1. 検証プロセスが完了するまで、しばらくお待ちください。
 
    インポートデータが有効な場合は、次のメッセージが表示されます。
 
-   ![成功メッセージ – ファイルは有効です](./assets/data-import-validation-message.png){width="600"}
+   ![ 成功メッセージ – ファイルは有効です ](./assets/data-import-validation-message.png){width="600"}
 
-1. ファイルが有効な場合、 **[!UICONTROL Import]**.
+1. ファイルが有効な場合は、[**[!UICONTROL Import]**] をクリックします。
 
    それ以外の場合は、メッセージにリストされているデータの各問題を修正し、ファイルを再度インポートしてください。
 
@@ -167,23 +167,23 @@ Adobe Commerceのインポートプロセスでは、UTF-8 でエンコードさ
 
    検証結果にエラーメッセージが表示された場合は、データの問題を修正し、ファイルを再度読み込みます。
 
-   ![エラーメッセージ - URL キーは既に存在します](./assets/data-import-validation-error-url-key-exists.png){width="600"}
+   ![ エラーメッセージ - URL キーは既に存在します ](./assets/data-import-validation-error-url-key-exists.png){width="600"}
 
    読み込みが完了すると、メッセージが表示されます。
 
 ## 履歴を読み込み
 
-Commerceには、ストアに読み込まれたデータ（開始日時、ユーザー、実行時刻、読み込まれたファイルへのリンクなど）の記録が保持されます。 この _実行時間_ は、読み込みプロセスの期間です。
+Commerceには、ストアに読み込まれたデータ（開始日時、ユーザー、実行時刻、読み込まれたファイルへのリンクなど）の記録が保持されます。 _実行時間_ は、インポートプロセスの期間です。
 
 **_読み込み履歴を表示するには：_**
 
-日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**.
+_管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import History]**に移動します。
 
-![データの読み込み履歴](./assets/data-import-history.png){width="600" zoomable="yes"}
+![ データの読み込み履歴 ](./assets/data-import-history.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->デフォルトでは、インポート履歴ファイルは `<Magento-root-directory>/var/import_history` フォルダー。 リモートストレージモジュールが有効な場合、インポート履歴ファイルは `<remote-storage-root-directory>/import_export/import_history` フォルダー。
+>デフォルトでは、インポート履歴ファイルは `<Magento-root-directory>/var/import_history` フォルダーにあります。 リモート記憶域モジュールが有効な場合、インポート履歴ファイルは `<remote-storage-root-directory>/import_export/import_history` フォルダーにあります。
 
 | フィールド | 説明 |
 |--- |--- |
@@ -197,4 +197,4 @@ Commerceには、ストアに読み込まれたデータ（開始日時、ユー
 
 {style="table-layout:auto"}
 
-をダウンロードします _インポート/エラー_ ファイル、クリック **[!UICONTROL Download]**.
+_インポート/エラー_ ファイルをダウンロードするには、「**[!UICONTROL Download]**」をクリックします。

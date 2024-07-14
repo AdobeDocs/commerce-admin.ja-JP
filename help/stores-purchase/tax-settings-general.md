@@ -12,165 +12,165 @@ ht-degree: 0%
 
 # 税の構成設定
 
-以下の手順に従うことで、Commerce インスタンスの基本的な税金設定を行うことができます。 税金を設定する前に、の税金要件を熟知していることを確認してください [locale](store-localize.md#step-3-change-the-locale-of-the-store-view). 次に、要件に従って税金設定を完了します。
+以下の手順に従うことで、Commerce インスタンスの基本的な税金設定を行うことができます。 税金を設定する前に、[ ロケール ](store-localize.md#step-3-change-the-locale-of-the-store-view) の税金要件を熟知していることを確認してください。 次に、要件に従って税金設定を完了します。
 
-Admin [権限](../systems/permissions.md) 制限するように設定できます [アクセス](../systems/permissions-user-roles.md) 事業に基づいて資源に税金を課す _知る必要がある_. 税金設定へのアクセス権を持つ管理者ロールを作成するには、「売上/税金」および「システム/税金」リソースの両方を選択します。 デフォルトの出荷元と異なる地域に web サイトを設定する場合は、その役割のシステム/出荷資源へのアクセスも許可する必要があります。 配送設定によって、カタログ価格に使用する店舗の税率が決まります。
+管理者 [ 権限 ](../systems/permissions.md) は、ビジネス ](../systems/permissions-user-roles.md) 必要な情報 _に基づいて、税金リソースに [ アクセス_ を制限するように設定できます。 税金設定へのアクセス権を持つ管理者ロールを作成するには、「売上/税金」および「システム/税金」リソースの両方を選択します。 デフォルトの出荷元と異なる地域に web サイトを設定する場合は、その役割のシステム/出荷資源へのアクセスも許可する必要があります。 配送設定によって、カタログ価格に使用する店舗の税率が決まります。
 
 ## 一般税金設定の構成
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. マルチサイト設定の場合、次のように設定します **[!UICONTROL Store View]** ：設定のターゲットである web サイトとストアに移動します。
+1. マルチサイト設定の場合は、**[!UICONTROL Store View]** を web サイトに設定し、設定のターゲットとなるストアを指定します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL Tax]**.
+1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Tax]**」を選択します。
 
 1. 次の設定を行います。
 
-   必要に応じて、 **[!UICONTROL Use system value]** グレー表示されている設定のチェックボックス。
+   必要に応じて、グレー表示になっている設定の「**[!UICONTROL Use system value]**」チェックボックスをオフにします。
 
 ### [!UICONTROL Tax Classes]
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Tax Classes]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Tax Classes]**」セクションを展開します。
 
-   ![税金クラス](../configuration-reference/sales/assets/tax-tax-classes.png){width="600" zoomable="yes"}
+   ![ 税の区分 ](../configuration-reference/sales/assets/tax-tax-classes.png){width="600" zoomable="yes"}
 
-   - **配送用の税クラス**  – 適切なクラスに設定します。 デフォルトのクラスは次のとおりです。 `None` および `Taxable Goods`
-   - **ギフト オプションの税クラス** — ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）適切なクラスに設定します。 デフォルトのクラスは次のとおりです。 `None` および `Taxable Goods`
-   - **商品の既定の税クラス**  – 適切なクラスに設定します。 デフォルトのクラスは次のとおりです。 `None` および `Taxable Goods`
-   - **顧客の既定の税クラス**  – 適切なクラスに設定します。 デフォルトのクラスはです。 `Retail Customer` および `Wholesale Customer`
+   - **出荷用の税金区分**：適切な区分に設定します。 デフォルトのクラスは `None` と `Taxable Goods` です。
+   - **ギフトオプションの税クラス** — ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）適切なクラスに設定します。 デフォルトのクラスは `None` と `Taxable Goods` です。
+   - **製品のデフォルトの税区分**：適切な区分に設定します。 デフォルトのクラスは `None` と `Taxable Goods` です。
+   - **顧客のデフォルト税金区分**：適切な区分に設定します。 デフォルトのクラスは `Retail Customer` と `Wholesale Customer` です。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ### [!UICONTROL Calculation Settings]
 
-1. を展開します。 **[!UICONTROL Calculation Settings]** セクション。
+1. 「**[!UICONTROL Calculation Settings]**」セクションを展開します。
 
-   ![計算設定](../configuration-reference/sales/assets/tax-calculation-settings.png){width="600" zoomable="yes"}
+   ![ 算定の設定 ](../configuration-reference/sales/assets/tax-calculation-settings.png){width="600" zoomable="yes"}
 
-1. を設定 **[!UICONTROL Tax Calculation Method Based On]** を次のいずれかに変更します。
+1. **[!UICONTROL Tax Calculation Method Based On]** を次のいずれかに設定します。
 
-   - `Unit Price` ・各商品の価格
-   - `Row Total`  – 注文の品目の合計（割引を除く）
-   - `Total`  – 注文合計
+   - `Unit Price` – 各製品の価格
+   - `Row Total` – 受注の明細品目の合計（値引きを差し引いた値）
+   - `Total` – 注文の合計
 
-1. を設定 **[!UICONTROL Tax Calculation Based On]** を次のいずれかに変更します。
+1. **[!UICONTROL Tax Calculation Based On]** を次のいずれかに設定します。
 
-   - `Shipping Address`  – 注文を発送する住所
-   - `Billing Address`  – 顧客または会社の請求先住所
-   - `Shipping Origin`  – として指定されるアドレス [原点](shipping-settings.md#point-of-origin) ストア用
+   - `Shipping Address` – 注文を発送する住所
+   - `Billing Address` – 顧客または会社の請求先住所
+   - `Shipping Origin` - ストアの [ 接触チャネル ](shipping-settings.md#point-of-origin) として指定されるアドレス
 
-1. を設定 **[!UICONTROL Catalog Prices]** 対象： `Excluding Tax` または `Including Tax`.
+1. **[!UICONTROL Catalog Prices]** を `Excluding Tax` または `Including Tax` に設定します。
 
-1. を設定 **[!UICONTROL Shipping Prices]** 対象： `Excluding Tax` または `Including Tax`.
+1. **[!UICONTROL Shipping Prices]** を `Excluding Tax` または `Including Tax` に設定します。
 
-1. を設定 **[!UICONTROL Apply Customer Tax]** 税金が元の価格に適用されるか割引価格に適用されるかを決定するには、次のいずれかを行います。 `After Discount` または `Before Discount`
+1. 税金を元の価格に適用するか割引価格に適用するかを決定するには、**[!UICONTROL Apply Customer Tax]** を次のいずれかに設定します：`After Discount` または `Before Discount`
 
-1. を設定 **[!UICONTROL Apply Discount on Prices]** 値引に税金を含めるか除外するかを決定する手順は、次のいずれかです。 `Excluding Tax` または `Including Tax`
+1. 割引に税金が含まれているか税金が含まれていないかを判断するには、**[!UICONTROL Apply Discount on Prices]** を次のいずれかに設定します：`Excluding Tax` または `Including Tax`
 
-1. を設定 **[!UICONTROL Apply Tax On]** 対象： `Custom price if available` または `Original price only`.
+1. **[!UICONTROL Apply Tax On]** を `Custom price if available` または `Original price only` に設定します。
 
-1. を設定 **[!UICONTROL Enable Cross-Border Trade]** を次のいずれかに変更します。
+1. **[!UICONTROL Enable Cross-Border Trade]** を次のいずれかに設定します。
 
-   - `Yes`  – 異なる税率に対して一貫性のある価格設定を使用します。 カタログ価格に税金が含まれる場合、顧客の税率に関係なく価格を固定するには、この設定を選択します。
-   - `No`  – 税率によって価格を変えます。
+   - `Yes` – 異なる税率に対して一貫性のある価格設定を使用します。 カタログ価格に税金が含まれる場合、顧客の税率に関係なく価格を固定するには、この設定を選択します。
+   - `No` – 税率によって価格を変えます。
 
    >[!IMPORTANT]
    >
-   >次の場合 [国境を越えた貿易](#cross-border-price-consistency) 有効にすると、税率別に利益率が変更されます。 利益は数式（`Revenue - CustomerVAT - CostOfGoodsSold`）に設定します。 国境を越えた貿易を可能にするには、価格を税込みに設定しなければなりません。
+   >[ クロスボーダー取引 ](#cross-border-price-consistency) が有効化されている場合、税率別に利益率が変化します。 利益は式（`Revenue - CustomerVAT - CostOfGoodsSold`）によって決定されます。 国境を越えた貿易を可能にするには、価格を税込みに設定しなければなりません。
 
 ### [!UICONTROL Default Tax Destination Calculation]
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Default Tax Destination Calculation]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Default Tax Destination Calculation]**」セクションを展開します。
 
-   ![デフォルト税金宛先計算](../configuration-reference/sales/assets/tax-default-tax-destination-calculation.png){width="600" zoomable="yes"}
+   ![ デフォルト税金搬送先計算 ](../configuration-reference/sales/assets/tax-default-tax-destination-calculation.png){width="600" zoomable="yes"}
 
-1. を指定 **[!UICONTROL Default Country]** 税計算の場合。
+1. 税金計算の **[!UICONTROL Default Country]** を指定します。
 
-1. 該当する場合は、 **[!UICONTROL Default State]** 税計算の場合。
+1. 必要に応じて、税金計算の **[!UICONTROL Default State]** を指定します。
 
-1. 該当する場合は、 **[!UICONTROL Default Post Code]** 税計算の場合。
+1. 必要に応じて、税金計算の **[!UICONTROL Default Post Code]** を指定します。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ### [!UICONTROL Price Display Settings]
 
 >[!IMPORTANT]
 >
->税金を含む場合と税金を含まない場合の両方の価格表示に関連する設定の組み合わせが、お客様にとって混乱を招く可能性があります。 警告メッセージのトリガーを回避するには、 [推奨設定](taxes.md#warning-messages).
+>税金を含む場合と税金を含まない場合の両方の価格表示に関連する設定の組み合わせが、お客様にとって混乱を招く可能性があります。 警告メッセージがトリガーされないようにするには、[ 推奨設定 ](taxes.md#warning-messages) を参照してください。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Price Display Settings]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Price Display Settings]**」セクションを展開します。
 
-   ![価格の表示設定](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
+   ![ 価格表示設定 ](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
 
-1. を設定 **[!UICONTROL Display Product Prices in Catalog]** を次のいずれかに変更します。
+1. **[!UICONTROL Display Product Prices in Catalog]** を次のいずれかに設定します。
 
-   - `Excluding Tax` ・店頭に掲載されているカタログ価格には、税金は含まれていません。
-   - `Including Tax` - ストアフロントのカタログ価格には、税務処理基準が税源と一致する場合、または顧客の住所が税務処理基準と一致する場合にのみ、税金が含まれます。 この問題は、顧客がアカウントを作成した後、ログインした後、またはカート内の税金と送料の見積もりツールを使用した後に発生する可能性があります。
-   - `Including and Excluding Tax`  – 店舗内に表示されるカタログ価格が、税ありで表示される場合と税なしの場合があります。
+   - `Excluding Tax` - ストアフロントに表示されるカタログ価格には、税は含まれていません。
+   - `Including Tax` - ストアフロントのカタログ価格には、税務処理基準が税源と一致する場合、または顧客の住所が税務処理基準と一致する場合にのみ税金が含まれます。 この問題は、顧客がアカウントを作成した後、ログインした後、またはカート内の税金と送料の見積もりツールを使用した後に発生する可能性があります。
+   - `Including and Excluding Tax` - ストアフロントに表示されるカタログ価格は、税の有無にかかわらず表示されます。
 
-1. を設定 **[!UICONTROL Display Shipping Prices]** 対象： `Excluding Tax`, `Including Tax`、または `Including and Excluding Tax`.
+1. **[!UICONTROL Display Shipping Prices]** を `Excluding Tax`、`Including Tax` または `Including and Excluding Tax` に設定します。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ### [!UICONTROL Shopping Cart Display Settings]
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Shopping Cart Display Settings]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Shopping Cart Display Settings]**」セクションを展開します。
 
-   ![買い物かごの表示設定](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
+   ![ 買い物かごの表示設定 ](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
 
 1. 次の各設定について、店舗と地域の要件に応じて、買い物かごに税金と価格を表示する方法を選択します。
 
-   - を設定 **[!UICONTROL Display Prices]** 対象： `Excluding Tax`, `Including Tax`、または `Including and Excluding Tax`.
+   - **[!UICONTROL Display Prices]** を `Excluding Tax`、`Including Tax` または `Including and Excluding Tax` に設定します。
 
-   - を設定 **[!UICONTROL Display Subtotal]** 対象： `Excluding Tax`, `Including Tax`、または `Including and Excluding Tax`.
+   - **[!UICONTROL Display Subtotal]** を `Excluding Tax`、`Including Tax` または `Including and Excluding Tax` に設定します。
 
-   - を設定 **[!UICONTROL Display Shipping Amount]** 対象： `Excluding Tax`, `Including Tax`、または `Including and Excluding Tax`.
+   - **[!UICONTROL Display Shipping Amount]** を `Excluding Tax`、`Including Tax` または `Including and Excluding Tax` に設定します。
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）設定 **[!UICONTROL Display Gift Wrapping Prices]** 対象： `Excluding Tax`, `Including Tax`、または `Including and Excluding Tax`.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **[!UICONTROL Display Gift Wrapping Prices]** を `Excluding Tax`、`Including Tax` または `Including and Excluding Tax` に設定します。
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）設定 **[!UICONTROL Display Printed Card Prices]** 対象： `Excluding Tax`, `Including Tax`、または `Including and Excluding Tax`.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **[!UICONTROL Display Printed Card Prices]** を `Excluding Tax`、`Including Tax` または `Including and Excluding Tax` に設定します。
 
-1. 次の表示オプションをのいずれかに設定します `Yes` または `No`必要に応じて、
+1. 必要に応じて、次の表示オプションを `Yes` または `No` に設定します。
 
    - **[!UICONTROL Include Tax in Order Total]**
    - **[!UICONTROL Display Full Tax Summary]**
    - **[!UICONTROL Display Zero Tax Subtotal]**
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ### [!UICONTROL Orders, Invoices, Credit Memos Display Settings]
 
-1. を展開 ![展開](../assets/icon-display-expand.png) この **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** セクション。
+1. **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** のセクションの ![ 展開 ](../assets/icon-display-expand.png) を展開します。
 
-   ![受注、請求書、クレジット・メモの表示設定](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
+   ![ 注文、請求書、クレジット メモの表示設定 ](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
 
 1. 注文、請求書、およびクレジット メモでの価格と税金の表示方法を指定します。
 
-   - を設定 **[!UICONTROL Display Prices]** 対象： `Excluding Tax`, `Including Tax`、または `Including and Excluding Tax`.
+   - **[!UICONTROL Display Prices]** を `Excluding Tax`、`Including Tax` または `Including and Excluding Tax` に設定します。
 
-   - を設定 **[!UICONTROL Display Subtotal]** 対象： `Excluding Tax`, `Including Tax`、または `Including and Excluding Tax`.
+   - **[!UICONTROL Display Subtotal]** を `Excluding Tax`、`Including Tax` または `Including and Excluding Tax` に設定します。
 
-   - を設定 **[!UICONTROL Display Shipping Amount]** 対象： `Excluding Tax`, `Including Tax`、または `Including and Excluding Tax`.
+   - **[!UICONTROL Display Shipping Amount]** を `Excluding Tax`、`Including Tax` または `Including and Excluding Tax` に設定します。
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）設定 **[!UICONTROL Display Gift Wrapping Prices]** 対象： `Excluding Tax`, `Including Tax`、または `Including and Excluding Tax`.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **[!UICONTROL Display Gift Wrapping Prices]** を `Excluding Tax`、`Including Tax` または `Including and Excluding Tax` に設定します。
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）設定 **[!UICONTROL Display Printed Card Prices]** 対象： `Excluding Tax`, `Including Tax`、または `Including and Excluding Tax`.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **[!UICONTROL Display Printed Card Prices]** を `Excluding Tax`、`Including Tax` または `Including and Excluding Tax` に設定します。
 
-1. 次の表示オプションをに設定します。 `Yes` または `No`必要に応じて、次のようにします。
+1. 必要に応じて、次の表示オプションを `Yes` または `No` に設定します。
 
    - **[!UICONTROL Include Tax in Order Total]**
    - **[!UICONTROL Display Full Tax Summary]**
    - **[!UICONTROL Display Zero Tax Subtotal]**
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ### [!UICONTROL Fixed Product Taxes]
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Fixed Product Taxes]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Fixed Product Taxes]**」セクションを展開します。
 
-   ![固定製品税](../configuration-reference/sales/assets/tax-fixed-product-taxes.png){width="600" zoomable="yes"}
+   ![ 固定製品税 ](../configuration-reference/sales/assets/tax-fixed-product-taxes.png){width="600" zoomable="yes"}
 
-1. を設定 **[!UICONTROL Enable FPT]** どちらか一方へ `Yes` または `No`必要に応じて、
+1. 必要に応じて、**[!UICONTROL Enable FPT]** を `Yes` または `No` に設定します。
 
 1. FPT が有効な場合は、FPT 表示オプションを指定します。
 
@@ -179,48 +179,48 @@ Admin [権限](../systems/permissions.md) 制限するように設定できま�
    - **[!UICONTROL Display Prices in Sales Modules]**
    - **[!UICONTROL Display Prices in Emails]**
 
-   - `Including FPT Only`  – 表示価格には固定製品税が含まれています。 FPT 金額は個別には表示されません。
-   - `Including FPT and FPT description`  – 表示価格には固定製品税が含まれています。 FPT 金額は個別に表示されます。
-   - `Excluding FPT. Including FPT description and final price`  – 表示価格には固定製品税は含まれていません。 FPT 金額は個別に表示されます。
-   - `Excluding FPT`  – 表示価格には固定製品税は含まれていません。 FPT 金額は個別には表示されません。
+   - `Including FPT Only` – 表示される価格には固定製品税が含まれます。 FPT 金額は個別には表示されません。
+   - `Including FPT and FPT description` – 表示される価格には固定製品税が含まれます。 FPT 金額は個別に表示されます。
+   - `Excluding FPT. Including FPT description and final price` – 表示価格には固定製品税は含まれていません。 FPT 金額は個別に表示されます。
+   - `Excluding FPT` – 表示価格には固定製品税は含まれていません。 FPT 金額は個別には表示されません。
 
-1. を設定 **[!UICONTROL Apply Discounts to FPT]** 対象： `Yes` または `No`必要に応じて、
+1. 必要に応じて、**[!UICONTROL Apply Discounts to FPT]** を `Yes` または `No` に設定します。
 
-1. を設定 **[!UICONTROL FPT Tax Configuration]** FPT の計算方法を決定します。
+1. **[!UICONTROL FPT Tax Configuration]** を設定して、FPT の計算方法を決定します。
 
-   - `Not Taxed`  – 課税管轄区域が FPT に課税しない場合は、このオプションを選択します。 （例：California）。
-   - `Taxed`  – 課税管轄区域で FPT が税金である場合は、このオプションを選択します。 （例えば、カナダ）。
-   - `Loaded and Displayed with Tax`  – 税金を適用する前に FPT が注文合計に追加された場合は、このオプションをクリックします。 （例えば、EU 諸国）。
+   - `Not Taxed` – 課税管轄区域が FPT に課税しない場合は、このオプションを選択します。 （例：California）。
+   - `Taxed` – 課税管轄区域で FPT が税金である場合は、このオプションを選択します。 （例えば、カナダ）。
+   - `Loaded and Displayed with Tax` – 税金を適用する前に FPT を受注合計に追加する場合は、このオプションをクリックします。 （例えば、EU 諸国）。
 
-1. を設定 **[!UICONTROL Include FPT in Subtotal]** 対象： `Yes` または `No`必要に応じて、
+1. 必要に応じて、**[!UICONTROL Include FPT in Subtotal]** を `Yes` または `No` に設定します。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ## 国境を越えた価格の一貫性
 
 国境を越えた貿易（価格の一貫性とも呼ばれます）は、EU （欧州連合）や、店舗の税率と異なる税率を使用する顧客の価格を一貫して維持したい他のマーチャントをサポートします。
 
-地域や地域をまたいで営業しているマーチャントは、商品の価格に税を含めることで 1 つの価格を表示できます。 国ごとに異なる税制構造や税率に関係なく、料金はクリーンで散乱がありません。 これらの設定では、から税金計算拡張機能をインストールする必要があります [Marketplace](../getting-started/commerce-marketplace.md)（例：） _頂点クラウド_.
+地域や地域をまたいで営業しているマーチャントは、商品の価格に税を含めることで 1 つの価格を表示できます。 国ごとに異なる税制構造や税率に関係なく、料金はクリーンで散乱がありません。 これらの設定では、_Vertex Cloud_ などの [Marketplace](../getting-started/commerce-marketplace.md) から税金計算拡張機能をインストールする必要があります。
 
 >[!NOTE]
 >
 >国境を越えた取引が有効化されると、税率別に利益率が変化します。 利益は次の式によって決定されます。<br>
 >`Revenue - CustomerVAT - CostOfGoodsSold`
 
-**_クロスボーダーの価格の一貫性を有効にするには：_**
+**_クロスボーダー価格の一貫性を有効にするには：_**
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. マルチサイト設定の場合、次のように設定します **[!UICONTROL Store View]** ：設定のターゲットである web サイトとストアに移動します。
+1. マルチサイト設定の場合は、**[!UICONTROL Store View]** を web サイトに設定し、設定のターゲットとなるストアを指定します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL Tax]**.
+1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Tax]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Calculation Settings]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Calculation Settings]**」セクションを展開します。
 
-1. を設定 **[!UICONTROL Catalog Prices]** 対象： `Including Tax`.
+1. **[!UICONTROL Catalog Prices]** を `Including Tax` に設定します。
 
-1. クロスボーダー価格の一貫性を有効にするには、次のように設定します **[!UICONTROL Enable Cross Border Trade]** 対象： `Yes`.
+1. クロスボーダーの価格の一貫性を有効にするには、**[!UICONTROL Enable Cross Border Trade]** を `Yes` に設定します。
 
-   ![国境を越えた貿易設定の有効化](./assets/cross-border-calculations-settings.png){width="600" zoomable="yes"}
+   ![ 国境を越えた貿易設定を有効にする ](./assets/cross-border-calculations-settings.png){width="600" zoomable="yes"}
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

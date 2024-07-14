@@ -1,6 +1,6 @@
 ---
 title: 顧客アカウントの管理
-description: の使用 [!UICONTROL Customers] グリッドを使用して顧客アカウントを検索し、個々の顧客アカウントの情報にアクセスします。
+description: '[!UICONTROL Customers] グリッドを使用して、顧客アカウントと、個々の顧客アカウントのアクセス情報を検索します。'
 exl-id: 5f817ca8-9d1f-4498-b3bd-989713f0b6ad
 source-git-commit: 0316475a37ee09948b9ba3649e059155212ab1ae
 workflow-type: tm+mt
@@ -11,15 +11,15 @@ ht-degree: 0%
 
 # 顧客アカウントの管理
 
-の使用 _[!UICONTROL Customers]_グリッドで顧客アカウントを検索します。 標準を使用できます [職場管理](../getting-started/admin-workspace.md) リストをフィルタリングするには、 [列のレイアウト](../getting-started/admin-grid-controls.md)、ビューを保存およびデータを書き出します。 この [アクション制御](../getting-started/admin-actions-control.md) グリッドの上では、1 つの操作を複数の顧客レコードに適用できます。
+_[!UICONTROL Customers]_グリッドを使用して、顧客アカウントを検索します。 標準の [ ワークスペースコントロール ](../getting-started/admin-workspace.md) を使用して、リストのフィルタリング、[ 列のレイアウト ](../getting-started/admin-grid-controls.md) の変更、ビューの保存、データの書き出しを行うことができます。 グリッドの上にある [ アクションコントロール ](../getting-started/admin-actions-control.md) を使用して、複数の顧客レコードに操作を適用できます。
 
-![すべての顧客](assets/customers-all-customers.png){width="700" zoomable="yes"}
+![ すべての顧客 ](assets/customers-all-customers.png){width="700" zoomable="yes"}
 
-参照： [顧客プロファイルの更新](update-account.md) 顧客アカウントを手動で更新する方法については、を参照してください。
+顧客アカウントを手動で更新する方法については、[ 顧客プロファイルの更新 ](update-account.md) を参照してください。
 
 ## 顧客アカウントのアクション
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL All Customers]** に移動します。
 
 1. グリッドの最初の列で、更新する各レコードのチェックボックスをオンにします。
 
@@ -29,50 +29,50 @@ ht-degree: 0%
    >
    >次のアクションは、1 つまたは複数のレコードに適用できます。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ### ニュースレターの購読
 
-グローバルなマルチストアおよびマルチサイト設定 [顧客アカウントの範囲](../customers/customer-account-scope.md)の場合、顧客アカウントは複数のサイトやストアでニュースレターを購読できます。 を適用する場合 _登録_ 顧客アカウントに対して、デフォルトのサイト / ストア表示のみのニュースレター購読をアクティブ化します。
+グローバルな [ 顧客アカウント範囲 ](../customers/customer-account-scope.md) を使用したマルチストアおよびマルチサイト設定では、顧客アカウントは複数のサイトまたはストアでニュースレターを購読できます。 _購読_ アクションを顧客アカウントに適用すると、デフォルトのサイト/ストア表示に対してのみニュースレターの購読がアクティベートされます。
 
-* を **[!UICONTROL Actions]** コントロール先 `Subscribe to newsletter`.
+* **[!UICONTROL Actions]** コントロールを `Subscribe to newsletter` に設定します。
 
-参照： [購読者の管理](../merchandising-promotions/newsletter-subscribers.md) 顧客のニュースレター購読の管理についての詳細情報
+顧客のニュースレター購読の管理について詳しくは、[ 購読者の管理 ](../merchandising-promotions/newsletter-subscribers.md) を参照してください。
 
 ### ニュースレターの配信解除
 
-グローバルなマルチストアおよびマルチサイト設定 [顧客アカウントの範囲](customer-account-scope.md)の場合、1 つの顧客アカウントで複数のサイトやストアのニュースレターを購読できます。 を適用する場合 _購読解除_ 顧客アカウントに対するアクション。すべてのアクティブな購読が購読解除されます。
+グローバルな [ 顧客アカウント範囲 ](customer-account-scope.md) を使用したマルチストアおよびマルチサイト設定では、顧客アカウントは複数のサイト/ストアのニュースレターを購読できます。 顧客アカウントに _購読解除_ アクションを適用すると、アクティブな購読がすべて購読解除されます。
 
-1. を **[!UICONTROL Actions]** コントロール先 `Unsubscribe to newsletter`.
+1. **[!UICONTROL Actions]** コントロールを `Unsubscribe to newsletter` に設定します。
 
-1. 確認を求められたら、 **OK**.
+1. 確認を求めるメッセージが表示されたら、「**OK**」をクリックします。
 
 ### 顧客グループの割り当て
 
-1. を **[!UICONTROL Actions]** コントロール先 `Assign a customer group`.
+1. **[!UICONTROL Actions]** コントロールを `Assign a customer group` に設定します。
 
 1. 選択したすべての顧客レコードを割り当てる顧客グループを選択します。
 
-1. 確認を求められたら、 **[!UICONTROL OK]**.
+1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL OK]**」をクリックします。
 
 ### 顧客アカウントの削除
 
 削除された顧客アカウントは復元できません。 顧客のアクティビティおよびトランザクションに関する情報は、システムに保持されます。
 
-1. を **[!UICONTROL Actions]** コントロール先 `Delete`.
+1. **[!UICONTROL Actions]** コントロールを `Delete` に設定します。
 
-1. 確認を求められたら、 **[!UICONTROL OK]**.
+1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL OK]**」をクリックします。
 
 ## 顧客アカウントの書き出し
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL All Customers]** に移動します。
 
-1. テーブルヘッダーメニューで、 **[!UICONTROL Export]** 目的の形式を選択します。
+1. テーブルヘッダーメニューで **[!UICONTROL Export]** をクリックし、目的の形式を選択します。
 
    * CSV
    * Excel XML
 
-1. クリック **[!UICONTROL OK]**.
+1. 「**[!UICONTROL OK]**」をクリックします。
 
    ファイルはデフォルトのダウンロードフォルダーに移動します。
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 | **[!UICONTROL Confirmed Email]** | 確認メールが必要かどうかを示します。 |
 | **[!UICONTROL Account Created In]** | 顧客アカウントが作成されたストア表示を示します。 |
 | **[!UICONTROL Date of Birth]** | 顧客の生年月日。 現在のセキュリティおよびプライバシーのベストプラクティスに従い、顧客の完全な生年月日（月、日、年）を他の個人識別子と保存することに関連して、法的およびセキュリティ上の潜在的なリスクがあることを認識しておいてください。 顧客の完全な生年月日の保存を制限し、代替として顧客の生年月日の使用を提案することをお勧めします。 |
-| **[!UICONTROL Tax / VAT Number]** | 該当する場合、税番号または [付加価値税](../stores-purchase/vat.md) 顧客に割り当てられた番号。 <br/><br/> このフィールドは VAT 番号と同じではありません。 |
+| **[!UICONTROL Tax / VAT Number]** | 該当する場合、顧客に割り当てられた税金番号または [ 付加価値税 ](../stores-purchase/vat.md) 番号。 <br/><br/> このフィールドは VAT 番号とは異なります。 |
 | **[!UICONTROL Gender]** | 顧客の性別。 |
 | **[!UICONTROL Action]** | 編集 – 会社アカウントを編集モードで開きます。 |
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ### 追加の列
 
-これらの列は、 [列のレイアウト](../getting-started/admin-grid-controls.md) を表示します。
+これらの列は、グリッドの [ 列のレイアウト ](../getting-started/admin-grid-controls.md) を変更することで使用できます。
 
 | 列 | 説明 |
 |--- |--- |
@@ -128,10 +128,10 @@ ht-degree: 0%
 | **[!UICONTROL Billing Lastname]** | 顧客の請求先住所の姓。 |
 | **[!UICONTROL Billing Address]** | 請求情報が送信される住所。 |
 | **[!UICONTROL Shipping Address]** | 注文を発送する住所。 |
-| **[!UICONTROL VAT Number]** | 顧客の住所に関連付けられている付加価値税番号。 の場合 [デジタル商品](../stores-purchase/taxes.md) eu で販売されている VAT は、お客様の請求先住所に基づいています。 <br/><br/> このフィールドは税/VAT 番号と同じではありません。 |
-| **[!UICONTROL Account Lock]** | アカウントのステータスを示します。 セキュリティ対策として、顧客アカウントには次の種類があります [locked](../customers/password-options.md) ログインの試行回数が多すぎた場合。 値： `Locked` / `Unlocked` |
-| **[!UICONTROL Status]** | 現在のユーザーステータス。 オプション： `Active` / `Inactive` |
-| **[!UICONTROL Customer Type]** | 顧客の分類。 オプション： `Individual user` / `Company admin` / `Company user` |
+| **[!UICONTROL VAT Number]** | 顧客の住所に関連付けられている付加価値税番号。 EU で販売されている [ デジタル商品 ](../stores-purchase/taxes.md) の場合、VAT は顧客の請求先住所に基づきます。 <br/><br/> このフィールドは税金/VAT 番号と同じではありません。 |
+| **[!UICONTROL Account Lock]** | アカウントのステータスを示します。 セキュリティ対策として、ログインの試行が多すぎると、カスタマーアカウントを [ ロック ](../customers/password-options.md) することができます。 値：`Locked`/`Unlocked` |
+| **[!UICONTROL Status]** | 現在のユーザーステータス。 オプション：`Active` / `Inactive` |
+| **[!UICONTROL Customer Type]** | 顧客の分類。 オプション：`Individual user`/`Company admin`/`Company user` |
 | **[!UICONTROL Sales Representative]** | 会社アカウントの連絡先として割り当てられ、会社に関連するすべての自動メールメッセージを受信する販売担当者。 |
 
 {style="table-layout:auto"}

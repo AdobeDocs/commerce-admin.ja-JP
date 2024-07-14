@@ -13,7 +13,7 @@ ht-degree: 0%
 
 顧客セグメントを使用すると、様々なプロパティに基づいて、特定の顧客に対するコンテンツとプロモーションを動的に表示できます。 例としては、顧客の住所、注文履歴、買い物かごの中身があります。 買い物かごの価格ルールを使用して、ターゲットセグメントに基づいたマーケティング活動を最適化できます。 また、レポートを生成し、ターゲット顧客のリストを書き出すこともできます。 顧客セグメント情報は絶えず更新されるので、顧客はストアでの買い物の際にセグメントとの関連付けや関連付けの解除を行うことができます。
 
-A と B の違いをより深く理解するため [顧客グループ](../customers/customer-groups.md) および顧客セグメントを使用する場合は、次の点に注意してください。
+[ 顧客グループ ](../customers/customer-groups.md) と顧客セグメントの違いをより深く理解するには、これらが使用される場所をメモしておきます。
 
 |  | 顧客セグメント | 顧客グループ |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ A と B の違いをより深く理解するため [顧客グループ](../custo
 
 ## 顧客セグメント属性
 
-顧客セグメント属性は、買い物かごとカタログ価格ルールと同様の方法で定義されます。 顧客セグメント条件で使用する属性の場合、 _[!UICONTROL Use in Customer Segment]_[プロパティ](attribute-properties.md#) に設定する必要があります。 `Yes`. 顧客セグメント条件には、次のタイプの属性を組み込むことができます。
+顧客セグメント属性は、買い物かごとカタログ価格ルールと同様の方法で定義されます。 属性を顧客セグメント条件で使用するには、_[!UICONTROL Use in Customer Segment]_[ プロパティ ](attribute-properties.md#) を `Yes` に設定する必要があります。 顧客セグメント条件には、次のタイプの属性を組み込むことができます。
 
 | 属性 | 説明 |
 |---|---|
@@ -42,9 +42,9 @@ A と B の違いをより深く理解するため [顧客グループ](../custo
 
 {style="table-layout:auto"}
 
-参照： [顧客セグメントの作成および削除](../customers/customer-segment-create.md) 顧客セグメントの定義の詳細を参照してください。
+顧客セグメントの定義について詳しくは、[ 顧客セグメントの作成と削除 ](../customers/customer-segment-create.md) を参照してください。
 
 ## eBook
 
-- **顧客のセグメント化**  – を取得します [e ブック](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) 利益と全体的な顧客満足度を高める方法を学びます。
-- **セグメント化戦術**  – を取得します [e ブック](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html) メッセージやプロモーションのターゲティングを改善して、顧客との有意義な会話を作成します。
+- **顧客のセグメント化** - [eBook](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) を入手して、利益と全体的な顧客満足度を高める方法を学習します。
+- **セグメント化戦術** - [eBook](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html) を入手して、メッセージとプロモーションのターゲティングを改善し、顧客との有意義な会話を作成します。

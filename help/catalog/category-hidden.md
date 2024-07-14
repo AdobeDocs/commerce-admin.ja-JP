@@ -16,16 +16,16 @@ ht-degree: 0%
 
 ## 非表示のカテゴリを作成
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Categories]** に移動します。
 
 1. カテゴリツリーで、非表示にするカテゴリを選択し、次の操作を実行します。
 
-   - を設定 **[!UICONTROL Is Active]** 対象： `Yes`.
-   - を設定 **[!UICONTROL Include in Menu]** 対象： `No`.
+   - **[!UICONTROL Is Active]** を `Yes` に設定します。
+   - **[!UICONTROL Include in Menu]** を `No` に設定します。
 
-1. が含まれる **[!UICONTROL Display Settings]** セクション、設定 **[!UICONTROL Anchor]** 対象： `No`.
+1. **[!UICONTROL Display Settings]** セクションで、**[!UICONTROL Anchor]** を `No` に設定します。
 
-   ![非表示のカテゴリ](./assets/hidden-categories.png){width="600" zoomable="yes"}
+   ![ 非表示のカテゴリ ](./assets/hidden-categories.png){width="600" zoomable="yes"}
 
    非表示のカテゴリはアクティブですが、トップメニューや階層的なナビゲーションには表示されません。
 
@@ -35,9 +35,9 @@ ht-degree: 0%
    >
    >カテゴリは非表示ですが、その下にサブカテゴリを作成してアクティブにすることができます。
 
-   - を設定 **[!UICONTROL Enable Category]** 対象： `Yes`.
-   - が含まれる **[!UICONTROL Display Settings]** セクション、設定 **[!UICONTROL Anchor]** 対象： `Yes`.
+   - **[!UICONTROL Enable Category]** を `Yes` に設定します。
+   - **[!UICONTROL Display Settings]** セクションで、**[!UICONTROL Anchor]** を `Yes` に設定します。
 
    アクティブなカテゴリとして、ストア内の他の場所からリンクできるようになりましたが、メニューには表示されません。
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。

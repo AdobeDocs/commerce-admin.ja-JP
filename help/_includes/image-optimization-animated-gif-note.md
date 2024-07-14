@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->アニメーションGIF画像の最適化はサポートされていません。 このような画像は、画像の最適化プロセス後にアニメーションが失われる場合があります。 この問題を回避するには、アニメーション化されたGIFのイメージサイズが、で定義されている最大の幅と高さの下にあることを確認します [[!UICONTROL Media Gallery Image Optimization] 設定](../content-design/media-gallery-image-optimization.md).
+>アニメーションGIF画像の最適化はサポートされていません。 このような画像は、画像の最適化プロセス後にアニメーションが失われる場合があります。 この問題を回避するには、アニメーション化されたGIFの画像サイズが、[[!UICONTROL Media Gallery Image Optimization] の設定で定義されている幅と高さの最大値より小さいことを確認してください ](../content-design/media-gallery-image-optimization.md)。

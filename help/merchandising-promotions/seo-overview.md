@@ -12,23 +12,23 @@ ht-degree: 0%
 
 # SEO の概要
 
-_検索エンジンの最適化_ （SEO）は、サイトのコンテンツと表示を微調整して、検索エンジンによるページのインデックス作成方法を改善する手法です。 Commerceには、継続的な SEO の取り組みをサポートする様々な機能が含まれています。
+_検索エンジン最適化_ （SEO）は、サイトのコンテンツと表示を微調整して、検索エンジンによるページのインデックス作成方法を改善する手法です。 Commerceには、継続的な SEO の取り組みをサポートする様々な機能が含まれています。
 
 ## メタデータ
 
-豊富なキーワードの追加と強化の詳細を説明します [メタデータ](meta-data.md) サイトやストアの場合。
+サイトやストアに対してキーワードが豊富な [ メタデータ ](meta-data.md) を追加および強化する方法について説明します。
 
 ## サイトマップの使用
 
-A [サイトマップ](sitemap-xml.md) 検索エンジンでストアのインデックスを作成する方法を改善し、Web クローラーによって見落とされる可能性のあるページを検索するように設計します。 サイトマップは、すべてのページと画像のインデックスを作成するように設定できます。
+[ サイト マップ ](sitemap-xml.md) を使用すると、検索エンジンによるストアのインデックス作成方法が向上し、Web クローラーによって見落とされる可能性のあるページを検索できます。 サイトマップは、すべてのページと画像のインデックスを作成するように設定できます。
 
 ## URL の書き換え
 
-この [URL の書き換え](url-rewrite.md) ツールを使用すると、製品、カテゴリまたは CMS ページに関連付けられている URL を変更できます。
+[URL 書き換え ](url-rewrite.md) ツールを使用すると、製品、カテゴリ、CMS ページに関連付けられている URL を変更できます。
 
 ## 検索エンジンロボット
 
-Commerce設定には、サイトのインデックスを作成する web クローラーとボットの手順を生成および管理する設定が含まれています。 次に対するリクエストの場合： `robots.txt` （物理ファイルではなく）Commerceに到達すると、ロボット コントローラに動的にルーティングされます。 指示は、ほとんどの検索エンジンで認識され、その後に続くディレクティブです。
+Commerce設定には、サイトのインデックスを作成する web クローラーとボットの手順を生成および管理する設定が含まれています。 `robots.txt` のリクエストが（物理ファイルではなく）Commerceに到達すると、ロボットコントローラに動的にルーティングされます。 指示は、ほとんどの検索エンジンで認識され、その後に続くディレクティブです。
 
 Commerceで生成される robots.txt ファイルには、システムで内部的に使用されるファイルを含んだサイトの特定の部分のインデックスを作成しない web クローラー向けの手順が、デフォルトで含まれています。 デフォルト設定を使用することも、すべてまたは特定の検索エンジン用に独自のカスタム手順を定義することもできます。 このテーマを詳しく解説する記事はオンライン上にたくさんあります。
 
@@ -37,44 +37,44 @@ Commerceで生成される robots.txt ファイルには、システムで内部
 **フルアクセスを許可**
 
     User-agent:*
-    禁止：
+    Disallow:
 
 **すべてのフォルダーへのアクセスを許可しない**
 
-    User-agent:*
-    許可しない：/
+     ユーザーエージェント：*
+     許可しない：/
 
 **デフォルトの手順**
 
     User-agent: *
-    許可しない：/index.php/
-    許可しない：/*?
-    許可しない：/checkout/
-    許可しない：/app/
-    許可しない：/lib/
-    許可しない：/*.php$
-    許可しない：/pkginfo/
-    許可しない：/report/
-    許可しない：/var/
-    許可しない：/catalog/
-    許可しない：/customer/
-    許可しない：/sendfriend/
-    許可しない：/review/
-    許可しない：/*SID=
+    Disallow: /index.php/
+    Disallow: /*?
+     許可しない：/checkout/
+     許可しない：/app/
+     許可しない：/lib/
+     許可しない：/*.php$
+     許可しない：/pkginfo/
+     許可しない：/report/
+     許可しない：/var/
+     許可しない：/catalog/
+     許可しない：/customer/
+     許可しない：/sendfriend/
+     許可しない：/review/
+     許可しない：/*SID=
 
-### 設定 `robots.txt`
+### `robots.txt` の設定
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
 
-1. の検索 **[!UICONTROL Global]** グリッドの最初の行にある設定をクリックし、 **[!UICONTROL Edit]**.
+1. グリッドの最初の行で **[!UICONTROL Global]** 設定を見つけ、「**[!UICONTROL Edit]**」をクリックします。
 
-   ![グローバル設計設定](./assets/design-configuration-grid.png){width="700" zoomable="yes"}
+   ![ グローバル設計設定 ](./assets/design-configuration-grid.png){width="700" zoomable="yes"}
 
-1. 下にスクロールして展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Search Engine Robots]** を選択し、次の操作を実行します。
+1. 下にスクロールして、「**[!UICONTROL Search Engine Robots]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、次の操作を行います。
 
-   ![設計設定 – 検索エンジンロボット](./assets/design-configuration-search-engine-robots.png){width="600" zoomable="yes"}
+   ![ 設計構成 – 検索エンジンロボット ](./assets/design-configuration-search-engine-robots.png){width="600" zoomable="yes"}
 
-   - を設定 **[!UICONTROL Default Robots]** を次のいずれかに変更します。
+   - **[!UICONTROL Default Robots]** を次のいずれかに設定します。
 
      | オプション | 説明 |
      |------|------------|
@@ -85,8 +85,8 @@ Commerceで生成される robots.txt ファイルには、システムで内部
 
      {style="table-layout:auto"}
 
-   - 必要に応じて、にカスタム手順を入力します **[!UICONTROL Edit Custom instruction of robots.txt file]** ボックス。 例えば、サイトが開発中の場合に、すべてのフォルダーへのアクセスを許可しないことをお勧めします。
+   - 必要に応じて、**[!UICONTROL Edit Custom instruction of robots.txt file]** のボックスにカスタム手順を入力します。 例えば、サイトが開発中の場合に、すべてのフォルダーへのアクセスを許可しないことをお勧めします。
 
-   - デフォルトの手順に戻すには、をクリックします **[!UICONTROL Reset to Default]**.
+   - 既定の手順に戻すには、[**[!UICONTROL Reset to Default]**] をクリックします。
 
-1. 完了したら、 **[!UICONTROL Save Configuration]**.
+1. 完了したら、「**[!UICONTROL Save Configuration]**」をクリックします。

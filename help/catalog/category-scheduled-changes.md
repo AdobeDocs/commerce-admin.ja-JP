@@ -14,11 +14,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-カテゴリの更新はスケジュールに従って適用でき、他のコンテンツの変更と共にグループ化できます。 カテゴリに対してスケジュールされた変更に基づいてキャンペーンを作成したり、既存のキャンペーンに変更を適用したりできます。 詳しくは、 [コンテンツのステージング](../content-design/content-staging.md).
+カテゴリの更新はスケジュールに従って適用でき、他のコンテンツの変更と共にグループ化できます。 カテゴリに対してスケジュールされた変更に基づいてキャンペーンを作成したり、既存のキャンペーンに変更を適用したりできます。 詳しくは、[ コンテンツのステージング ](../content-design/content-staging.md) を参照してください。
 
 >[!NOTE]
 >
->この [!UICONTROL Schedule Design Update] タブがで削除されました ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerceであり、カテゴリで直接変更することはできません。 これらのアクティベーションに対して、スケジュールされた更新を作成する必要があります。
+>[!UICONTROL Schedule Design Update] タブは、![Adobe Commerce](../assets/adobe-logo.svg)Adobe Commerceで削除されており、カテゴリで直接変更することはできません。 これらのアクティベーションに対して、スケジュールされた更新を作成する必要があります。
 
 >[!NOTE]
 >
@@ -26,46 +26,46 @@ ht-degree: 0%
 
 ## カテゴリの更新をスケジュール
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Categories]** に移動します。
 
 1. 左側のカテゴリ ツリーで、変更するカテゴリを選択します。
 
-1. が含まれる _スケジュールされた変更_ ページの上部にあるボックスで、 **[!UICONTROL Schedule New Update]**.
+1. ページ上部の _スケジュールされた変更_ ボックスで、「**[!UICONTROL Schedule New Update]** 更」をクリックします。
 
-   ![スケジュールされた変更](./assets/category-scheduled-changes.png){width="600" zoomable="yes"}
+   ![ スケジュールされた変更 ](./assets/category-scheduled-changes.png){width="600" zoomable="yes"}
 
-1. （を使用） **[!UICONTROL Save as a New Update]** オプションを選択して、更新の基本パラメーターを設定：
+1. **[!UICONTROL Save as a New Update]** オプションを選択した状態で、更新の基本パラメーターを設定します。
 
-   - の場合 **[!UICONTROL Update Name]**、新しいコンテンツのステージングキャンペーンの名前を入力します。
+   - **[!UICONTROL Update Name]**：新しいコンテンツのステージングキャンペーンの名前を入力します。
 
-   - 概要を入力 **[!UICONTROL Description]** 更新の概要と使用方法。
+   - 更新の簡単な **[!UICONTROL Description]** と使用方法を入力します。
 
-   - カレンダーの使用（ ![カレンダーアイコン](../assets/icon-calendar.png) ）を選択します。 **[!UICONTROL Start Date]** および **[!UICONTROL End Date]** キャンペーン用。
+   - カレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）ツールを使用して、キャンペーンの **[!UICONTROL Start Date]** と **[!UICONTROL End Date]** を選択します。
 
    >[!IMPORTANT]
    >
-   >キャンペーン **[!UICONTROL Start Date]** および **[!UICONTROL End Date]** を使用して定義する必要があります。 **_default_** 各 web サイトのローカルタイムゾーンから変換される管理タイムゾーン。 例えば、米国のタイムゾーンをベースにキャンペーンを開始する、異なるタイムゾーンの複数の web サイトでは、ローカルタイムゾーンごとに個別の更新をスケジュールする必要があります。 を設定します **[!UICONTROL Start Date]** および **[!UICONTROL End Date]** それぞれに対して、ローカルの web サイトのタイムゾーンからデフォルトの管理者のタイムゾーンに変換されます。
+   >Campaign **[!UICONTROL Start Date]** と **[!UICONTROL End Date]** は、各 web サイトのローカルタイムゾーンから変換される **_デフォルト_** の管理タイムゾーンを使用して定義する必要があります。 例えば、米国のタイムゾーンをベースにキャンペーンを開始する、異なるタイムゾーンの複数の web サイトでは、ローカルタイムゾーンごとに個別の更新をスケジュールする必要があります。 それぞれの **[!UICONTROL Start Date]** と **[!UICONTROL End Date]** を設定します。これらは、ローカル Web サイトのタイムゾーンからデフォルトの管理者のタイムゾーンに変換されます。
 
-   ![スケジュールされた変更](./assets/category-scheduled-changes-new-update.png){width="600" zoomable="yes"}
+   ![ スケジュールされた変更 ](./assets/category-scheduled-changes-new-update.png){width="600" zoomable="yes"}
 
 1. スケジュールされている更新に必要な変更を加えます。
 
-1. 変更をプレビューするには、をクリックします **[!UICONTROL Preview]** 右上のボタンバーに
+1. 変更をプレビューするには、右上のボタンバーの「**[!UICONTROL Preview]**」をクリックします。
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
 ## 既存の更新に割り当てる
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Categories]** に移動します。
 
 1. 左側のカテゴリ ツリーで、変更するカテゴリを選択します。
 
-1. が含まれる _スケジュールされた変更_ ページの上部にあるボックスで、 **[!UICONTROL Schedule New Update]**.
+1. ページ上部の _スケジュールされた変更_ ボックスで、「**[!UICONTROL Schedule New Update]** 更」をクリックします。
 
-1. を選択 **[!UICONTROL Assign to Existing Campaign]**.
+1. 「**[!UICONTROL Assign to Existing Campaign]**」を選択します。
 
-1. リストで必要なキャンペーンを見つけて、 **[!UICONTROL Select]**.
+1. リストで必要なキャンペーンを見つけて、「**[!UICONTROL Select]**」をクリックします。
 
 1. スケジュールされている更新に対して必要な変更を行います。
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。

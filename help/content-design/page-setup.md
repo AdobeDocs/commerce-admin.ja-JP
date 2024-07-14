@@ -17,23 +17,23 @@ ht-degree: 0%
 - [ヘッダー](#header)
 - [フッター](#footer)
 
-![HTMLページセクション](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
+![HTMLページのセクション ](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
 
 ## HTMLヘッド
 
-「HTMLヘッド」セクションの設定は、 `<head>` HTMLページのタグで、ストア表示ごとに設定できます。 このセクションには、ページタイトル、説明およびキーワードのメタデータに加えて、favicon およびその他のスクリプトへのリンクが含まれています。 検索エンジンロボットの手順とストアデモ通知の表示についても、この節で設定します。
+「HTMLヘッド」セクションの設定は、HTMLページの `<head>` タグに対応し、ストアビューごとに設定できます。 このセクションには、ページタイトル、説明およびキーワードのメタデータに加えて、favicon およびその他のスクリプトへのリンクが含まれています。 検索エンジンロボットの手順とストアデモ通知の表示についても、この節で設定します。
 
 ### HTMLヘッドの設定
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 設定するストア表示を見つけて、クリックします **[!UICONTROL Edit]** が含まれる _[!UICONTROL Action]_列。
+1. 設定するストア表示を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
 
-1. 次の下 _その他の設定_、を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL HTML Head]** セクション。
+1. _その他の設定_ の下で、「**[!UICONTROL HTML Head]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 
-   ![HTMLヘッドの設定](./assets/configuration-html-head.png){width="500" zoomable="yes"}
+   ![HTML ヘッドの構成設定 ](./assets/configuration-html-head.png){width="500" zoomable="yes"}
 
-1. を更新 [favicon](../getting-started/storefront-branding.md#add-a-favicon) 必要に応じて、
+1. 必要に応じて [favicon](../getting-started/storefront-branding.md#add-a-favicon) を更新します。
 
 1. 必要に応じて、ページタイトル設定を更新します。
 
@@ -48,11 +48,11 @@ ht-degree: 0%
    - **[!UICONTROL Default Meta Description]**
    - **[!UICONTROL Default Meta Keywords]**
 
-1. 次のいずれかを入力 **[!UICONTROL Scripts and Style Sheets]** 必要に応じて。
+1. 必要に応じて **[!UICONTROL Scripts and Style Sheets]** を入力します。
 
-1. を有効または無効にする [デモストアのお知らせ](../getting-started/storefront-branding.md#set-the-store-demo-notice) 必要に応じて、
+1. 必要に応じて、[demo store notice](../getting-started/storefront-branding.md#set-the-store-demo-notice) を有効または無効にします。
 
-1. 完了したら、 **[!UICONTROL Save Configuration]**.
+1. 完了したら、「**[!UICONTROL Save Configuration]**」をクリックします。
 
 ### HTML見出しフィールドの説明
 
@@ -64,8 +64,8 @@ ht-degree: 0%
 | [!UICONTROL Page Title Suffix] | ストア表示 | タイトルの後にサフィックスを追加して、2 つまたは 3 つの部分のタイトルを作成できます。 メインタイトルのテキストと区別するために、プリフィックスの末尾に縦棒またはコロンを区切り文字として使用することができます。 |
 | [!UICONTROL Default Meta Description] | ストア表示 | 説明には、検索エンジンの一覧用にサイトの概要が記載されています。160 文字以下にする必要があります。 |
 | [!UICONTROL Default Meta Keywords] | ストア表示 | ストアを説明する一連のキーワード。各キーワードはコンマで区切ります。 |
-| [!UICONTROL Scripts and Style Sheets] | ストア表示 | 終了する前にHTMLに含める必要があるスクリプトが含まれます `<head>` タグ。 例えば、以下より前に配置する必要があるサードパーティ JavaScript です。 `<body>` タグはここで入力できます。 |
-| [!UICONTROL Display Demo Store Notice] | ストア表示 | ページ上部でのデモストア通知の表示を制御します。 オプション： `Yes` / `No` |
+| [!UICONTROL Scripts and Style Sheets] | ストア表示 | 終了 `<head>` タグの前にHTMLに含める必要があるスクリプトが含まれます。 例えば、`<body>` タグの前に配置する必要があるサードパーティのJavaScriptは、ここに入力できます。 |
+| [!UICONTROL Display Demo Store Notice] | ストア表示 | ページ上部でのデモストア通知の表示を制御します。 オプション：`Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -73,22 +73,22 @@ ht-degree: 0%
 
 ヘッダー設定は、ストアのロゴのパスを識別し、ロゴの代替テキストとようこそメッセージを指定します。
 
-![ヘッダー設定](./assets/configuration-header.png){width="400" zoomable="yes"}
+![ ヘッダー設定 ](./assets/configuration-header.png){width="400" zoomable="yes"}
 
 ### ヘッダーの設定
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 設定するストア表示を見つけて、クリックします **[!UICONTROL Edit]** が含まれる _[!UICONTROL Action]_列。
+1. 設定するストア表示を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
 
-1. 次の下 _その他の設定_、を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Header]** セクション。
+1. _その他の設定_ の下で、「**[!UICONTROL Header]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 
 1. ストア表示に必要な変更を加えます。
 
-   - [ロゴ](../getting-started/storefront-branding.md#upload-your-logo) 設定
-   - [ようこそメッセージ](../getting-started/storefront-branding.md#change-the-welcome-message) 設定
+   - [ ロゴ ](../getting-started/storefront-branding.md#upload-your-logo) 設定
+   - [ ようこそメッセージ ](../getting-started/storefront-branding.md#change-the-welcome-message) 設定
 
-1. 完了したら、 **[!UICONTROL Save Configuration]**.
+1. 完了したら、「**[!UICONTROL Save Configuration]**」をクリックします。
 
 ### ヘッダーフィールドの説明
 
@@ -99,34 +99,34 @@ ht-degree: 0%
 | [!UICONTROL Logo Attribute Height] | ストア表示 | ロゴ画像の高さ（ピクセル単位）。 |
 | [!UICONTROL Welcome Text] | ストア表示 | ウェルカムメッセージはページのヘッダーに表示され、ログインした顧客の名前が含まれます。 |
 | [!UICONTROL Logo Image Alt] | ストア表示 | ロゴに関連付けられている代替テキストです。 |
-| [!UICONTROL Translate Title] | ストア表示 | 次のかどうかを判断します `Page Title` または `Meta Title` 翻訳する必要があります。 |
+| [!UICONTROL Translate Title] | ストア表示 | `Page Title` または `Meta Title` を翻訳する必要があるかどうかを決定します。 |
 
 {style="table-layout:auto"}
 
 ## フッター
 
-フッター設定セクションでは、を更新できます [著作権表示](../getting-started/storefront-branding.md#change-the-copyright-notice) ページの下部に表示され、終了する前に配置する必要があるその他のスクリプトを入力します `<body>` タグ。
+フッター設定セクションでは、ページの下部に表示される [ 著作権表示 ](../getting-started/storefront-branding.md#change-the-copyright-notice) を更新したり、終了 `<body>` タグの前に配置しなければならないその他のスクリプトを入力したりできます。
 
-![フッター設定](./assets/configuration-footer.png){width="400" zoomable="yes"}
+![ フッター設定 ](./assets/configuration-footer.png){width="400" zoomable="yes"}
 
 ### フッターの設定
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 設定するストア表示を見つけて、クリックします **[!UICONTROL Edit]** が含まれる _[!UICONTROL Action]_列。
+1. 設定するストア表示を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
 
-1. 次の下 _その他の設定_、を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Footer]** セクション。
+1. _その他の設定_ の下で、「**[!UICONTROL Footer]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 
-1. に必要な変更を加えます **[!UICONTROL Copyright]** および **[!UICONTROL Miscellaneous HTML]** 設定。
+1. **[!UICONTROL Copyright]** と **[!UICONTROL Miscellaneous HTML]** の設定に対して必要な変更を加えます。
 
-1. 完了したら、 **[!UICONTROL Save Configuration]**.
+1. 完了したら、「**[!UICONTROL Save Configuration]**」をクリックします。
 
 ## フッターフィールドの説明
 
 | フィールド | 範囲 | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Miscellaneous HTML] | ストア表示 | 終了する直前に配置する必要があるその他のスクリプトをサーバーにアップロードできる入力ボックス `<body>` タグ。 |
-| [!UICONTROL Copyright] | ストア表示 | 各ページの下部に表示される著作権情報。 著作権記号を含めるには、HTML文字エンティティを使用します `\&copy;` 例えば、次のようになります。 `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` サンプルの著作権表示は必ず独自のものに置き換えてください。 |
+| [!UICONTROL Miscellaneous HTML] | ストア表示 | 終了 `<body>` タグの直前に配置する必要があるその他のスクリプトをサーバーにアップロードできる入力ボックス。 |
+| [!UICONTROL Copyright] | ストア表示 | 各ページの下部に表示される著作権情報。 著作権シンボルを含めるには、次のようにHTMLのキャラクタエンティティ `\&copy;` を使用します。`\&copy; 2021 Commerce Demo Store. All Rights Reserved.` 必ずサンプルの著作権表示を独自の表示に置き換えてください。 |
 | [!UICONTROL Display Report Bugs Link] | ストア表示 | バグ報告のリンク （一部のテーマでサポートされています）が有効になっているか無効になっているかを判断します。 |
 
 {style="table-layout:auto"}

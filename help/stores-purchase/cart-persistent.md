@@ -12,31 +12,31 @@ ht-degree: 0%
 
 # 買い物かごの永続性
 
-永続的な買い物かごは、買い物かごに残った未購入の品目を追跡し、顧客の次回の訪問に備えて情報を保存します。 次の顧客： _remembered_ 買い物かごの中身を、次回ストアを訪問した際に復元できます。
+永続的な買い物かごは、買い物かごに残った未購入の品目を追跡し、顧客の次回の訪問に備えて情報を保存します。 _記憶に残る_ 顧客は、次回ストアを訪問した際に、買い物かごの内容を復元させることができます。
 
 永続的な買い物かごを使用すると、放棄された買い物かごの数を減らし、売上を増やすのに役立ちます。 永続的な買い物かごでは、機密アカウント情報はいつでも公開されないことを理解することが重要です。 永続的な買い物かごが使用中の間、登録済みのお客様とゲストの買い物客は、既存のアカウントにログインするか、チェックアウトを行う前にアカウントを作成する必要があります。 ゲストの買い物客にとって、以前のセッションから情報を取得する唯一の方法は、永続的な買い物かごです。
 
-サイトまたは特定のストア表示内での買い物かごの永続性の使用を管理するには、次の操作を実行します [永続的な買い物かごの設定](#configure-a-persistent-cart) 設定。 これらの設定がストアフロントの買い物客エクスペリエンスに与える影響について詳しくは、を参照してください。 [永続的な買い物かごワークフロー](#persistent-cart-workflow).
+サイトまたは特定のストア表示内での買い物かごの永続性の使用を管理するには、[ 永続的な買い物かごの設定 ](#configure-a-persistent-cart) を指定できます。 これらの設定がストアフロントの買い物客エクスペリエンスに与える影響について詳しくは、[ 永続的な買い物かごワークフロー ](#persistent-cart-workflow) を参照してください。
 
 >[!NOTE]
 >
->永続的な買い物かごを使用する場合、サーバーセッションとセッション cookie の有効期間を長い期間に設定することをお勧めします。 参照： [セッションの有効期間](../customers/customer-online-options.md) を参照してください。
+>永続的な買い物かごを使用する場合、サーバーセッションとセッション cookie の有効期間を長い期間に設定することをお勧めします。 詳しくは、[ セッションの有効期間 ](../customers/customer-online-options.md) を参照してください。
 
 永続的な買い物かごを使用するには、顧客のブラウザーが Cookie を許可するように設定されている必要があります。 買い物かごの操作に使用される cookie には、次の 2 種類があります。
 
-- **セッション cookie**  – 短期セッション Cookie は、サイトへの 1 回の訪問中に存在し、顧客が離脱するか、設定された期間が経過すると有効期限が切れます。
+- **セッション cookie** – 短期的なセッション cookie は、サイトへの 1 回の訪問中に存在し、顧客が離脱するか、設定された期間が経過すると有効期限が切れます。
 
-- **永続 Cookie**  – 長期の永続的な Cookie は、セッションの終了後も存在し続け、今後の参照のために顧客の買い物かごの内容の記録を保存します。
+- **永続的な Cookie** – 永続的な永続的な Cookie は、セッションの終了後も存在し続け、将来の参照のために顧客の買い物かごの内容の記録を保存します。
 
 ## 永続的な買い物かごワークフロー
 
-永続的な買い物かごが [enabled](#configure-a-persistent-cart)。ワークフローは次に依存します。
+永続的な買い物かごが [ 有効 ](#configure-a-persistent-cart) になっている場合、ワークフローは次のものに依存します。
 
-- の値 _Enable Remember Me_ および _ログアウト時の永続性のクリア_ 設定
-- お客様の選択またはクリアの決定 _記録する_ checkbox
+- _記憶する_ と _ログアウト時に永続性をクリア_ 設定の値
+- 顧客が「このアカウントを記憶する _チェックボックスをオンまたはオフにした_ と
 - 永続的な Cookie がクリアされた場合
 
-永続的な Cookie が適用されている場合、 `Not Jane Smith?` リンクはページヘッダーに表示されます。 このプロンプトを使用すると、永続セッションを終了してゲストとして作業を開始したり、別の顧客としてログインしたりできます。 システムは、顧客が後で店舗で買い物をするために異なるデバイスを使用した場合でも、買い物かごの内容の記録を保持します。 例えば、顧客はラップトップコンピューターから買い物かごに項目を追加し、モバイルデバイスから項目を追加し、タブレットからチェックアウトプロセスを完了できます。
+永続的な cookie が適用されると、ページヘッダーに `Not Jane Smith?` リンクが表示されます。 このプロンプトを使用すると、永続セッションを終了してゲストとして作業を開始したり、別の顧客としてログインしたりできます。 システムは、顧客が後で店舗で買い物をするために異なるデバイスを使用した場合でも、買い物かごの内容の記録を保持します。 例えば、顧客はラップトップコンピューターから買い物かごに項目を追加し、モバイルデバイスから項目を追加し、タブレットからチェックアウトプロセスを完了できます。
 
 ブラウザーごとに個別の独立した永続 cookie があります。 1 回の永続的セッションで顧客がストアにアクセスする際に複数のブラウザーを使用している場合、あるブラウザーで行われた変更は、ページの更新時に他のブラウザーに反映されます。 永続的な買い物かごを有効にしている間、ストアは、顧客がログインまたはアカウントを作成するために使用するブラウザーごとに個別の永続的な cookie を作成および管理します。
 
@@ -44,11 +44,11 @@ ht-degree: 0%
 
 ジェーンは休みの買い物を終わらせてがんばり続けている。 彼女はジョンへのプレゼントを買い物かごに、何かお母さんへのプレゼントを加える。 それから彼女はおやつを食べるために台所に行きます。
 
-ジェーンが台所にいる間、ジョンはコンピューターに向かって軽い買い物をしている。 に気付かずに `Not Jane Smith?` ページの上部にあるリンクをクリックすると、Jane に素敵なプレゼントを見つけて買い物かごに追加します。 チェックアウトに行き、自分でログインすると、ジェーンの買い物かごの両方のアイテムが彼の買い物かごに追加されます。 ジョンは、彼が中に追加の項目に気付かないほど急いでいる _注文の確認_&#x200B;注文を送信します。 ジェーンの買い物かごは空になり、ジョンが贈り物を全部買い取りました。
+ジェーンが台所にいる間、ジョンはコンピューターに向かって軽い買い物をしている。 ページ上部の `Not Jane Smith?` リンクに気付かずに、彼はジェーンのために素敵なプレゼントを見つけて、それを買い物かごに追加します。 チェックアウトに行き、自分でログインすると、ジェーンの買い物かごの両方のアイテムが彼の買い物かごに追加されます。 John は非常に急いでいるので、_注文レビュー_ 中に追加の項目に気付かず、注文を送信します。 ジェーンの買い物かごは空になり、ジョンが贈り物を全部買い取りました。
 
 ### 記録する
 
-顧客は、 _記録する_ ログインページのチェックボックスをオンにして、買い物かごの内容を保存します。
+お客様は、ログインページで「_このアカウントを記憶する_」チェックボックスを選択して、買い物かごの内容を保存できます。
 
 | 私を覚えてる？ | 結果 |
 | ------------ |  ------ |
@@ -81,10 +81,10 @@ ht-degree: 0%
 
 | 設定 | 効果 |
 |----------|--------|
-| **[!UICONTROL Enable Remember Me]** はに設定されています。 `No`.<br/><br/>**[!UICONTROL Clear Persistence on Log Out]**には値がありません。<br/><br/>この**&#x200B;記録する&#x200B;**ログインと登録ページではチェックボックスを使用できません。 | 永続的な Cookie は使用されません。 |
-| **[!UICONTROL Enable Remember Me]** はに設定されています。 `Yes`.<br/><br/>**[!UICONTROL Clear Persistence on Log Out]**には値がありません。<br/><br/>**&#x200B;記録する&#x200B;**が選択されていません。 | セッション cookie は通常どおり適用され、永続 cookie は使用されません。 |
-| **[!UICONTROL Enable Remember Me]** はに設定されています。 `Yes`.<br/><br/>**[!UICONTROL Clear Persistence on Log Out]**はに設定されています。 `Yes`.<br/><br/>**&#x200B;記録する&#x200B;**はに設定されています。 `Yes`. | ユーザーがログインすると、両方の cookie が適用されます。 ユーザーがログアウトすると、両方の cookie が削除されます。 ユーザーがログインしていないのにセッション cookie の有効期限が切れている場合は、永続的な cookie が引き続き使用されます。 ログアウトの他に、永続 cookie は、有効期間が終了したり、顧客がクリックしたりすると削除されます `Not Jane Smith` リンク。 |
-| **[!UICONTROL Enable Remember Me]** はに設定されています。 `Yes`.<br/><br/>**[!UICONTROL Clear Persistence on Log Out]**はに設定されています。 `No`.<br/><br/>**&#x200B;記録する&#x200B;**はに設定されています。 `Yes` | ユーザーがログインすると、両方の cookie が適用されます。 ユーザーがログアウトすると、セッション Cookie は削除され、永続的なセッションが続行されます。 永続 cookie は、有効期間が終了するか、顧客がクリックすると削除されます `Not Jane Smith` リンク。 |
+| **[!UICONTROL Enable Remember Me]** は `No` に設定されています。<br/><br/>**[!UICONTROL Clear Persistence on Log Out]**には値がありません。<br/><br/> ログインと登録ページでは** このアカウントを記憶する **チェックボックスを使用できません。 | 永続的な Cookie は使用されません。 |
+| **[!UICONTROL Enable Remember Me]** は `Yes` に設定されています。<br/><br/>**[!UICONTROL Clear Persistence on Log Out]**には値がありません。<br/><br/>** 自分を記憶 **が選択されていません。 | セッション cookie は通常どおり適用され、永続 cookie は使用されません。 |
+| **[!UICONTROL Enable Remember Me]** は `Yes` に設定されています。<br/><br/>**[!UICONTROL Clear Persistence on Log Out]**は `Yes` に設定されています。<br/><br/>** Remember Me **は `Yes` に設定されています。 | ユーザーがログインすると、両方の cookie が適用されます。 ユーザーがログアウトすると、両方の cookie が削除されます。 ユーザーがログインしていないのにセッション cookie の有効期限が切れている場合は、永続的な cookie が引き続き使用されます。 ログアウトの他に、永続 cookie は、有効期間が終了したり、顧客が `Not Jane Smith` リンクをクリックしたりすると削除されます。 |
+| **[!UICONTROL Enable Remember Me]** は `Yes` に設定されています。<br/><br/>**[!UICONTROL Clear Persistence on Log Out]**は `No` に設定されています。<br/><br/>** Remember Me **は `Yes` に設定されています | ユーザーがログインすると、両方の cookie が適用されます。 ユーザーがログアウトすると、セッション Cookie は削除され、永続的なセッションが続行されます。 永続 cookie は、有効期間が終了するか、顧客が `Not Jane Smith` リンクをクリックすると削除されます。 |
 
 {style="table-layout:auto"}
 
@@ -92,78 +92,78 @@ ht-degree: 0%
 
 永続的な買い物かごを設定する際に、Cookie の有効期間や、様々な顧客アクティビティで利用できるようにするオプションを指定できます。
 
-これらの設定によって顧客ワークフローが決定される方法について詳しくは、を参照してください。 [永続的な買い物かごワークフロー](#persistent-cart-workflow).
+これらの設定で顧客ワークフローが決定される方法について詳しくは、[ 永続的な買い物かごワークフロー ](#persistent-cart-workflow) を参照してください。
 
 >[!NOTE]
 >
 >ユーザーのログイン中にセッション cookie が期限切れになっても、永続的な cookie はアクティブなままです。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Customers]** を選択します **[!UICONTROL Persistent Shopping Cart]**.
+1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Persistent Shopping Cart]**」を選択します。
 
-1. 永続的な買い物かごを有効にして追加のオプションを表示するには、次を設定します： **[!UICONTROL Enable Persistence]** 対象： `Yes`.
+1. 永続的な買い物かごを有効にして追加のオプションを表示するには、**[!UICONTROL Enable Persistence]** を `Yes` に設定します。
 
-   ![買い物かごの永続性の有効化と設定](../configuration-reference/customers/assets/persistent-shopping-cart-general.png){width="600" zoomable="yes"}
+   ![ 買い物かごの永続性の有効化と設定 ](../configuration-reference/customers/assets/persistent-shopping-cart-general.png){width="600" zoomable="yes"}
 
-   これらの各設定について詳しくは、を参照してください。 [_設定リファレンス_](../configuration-reference/customers/persistent-shopping-cart.md)
+   これらの各設定について詳しくは、[_設定リファレンス_](../configuration-reference/customers/persistent-shopping-cart.md) を参照してください
 
    >[!NOTE]
    >
-   >必要に応じて、 **[!UICONTROL Use system value]** チェックボックスをオンにして、これらの設定を変更します。
+   >必要に応じて、「**[!UICONTROL Use system value]**」チェックボックスをオフにして、これらの設定を変更します。
 
-1. の場合 **[!UICONTROL Persistence Lifetime (seconds)]**&#x200B;永続 cookie の持続時間を秒単位で入力します。
+1. **[!UICONTROL Persistence Lifetime (seconds)]**：永続 cookie の持続時間を秒単位で入力します。
 
    デフォルト値の 31,536,000 秒は 1 年に等しくなります。 最長 100 年です。
 
-1. を設定 **[!UICONTROL Enable "Remember Me"]** を次のいずれかに変更します。
+1. **[!UICONTROL Enable "Remember Me"]** を次のいずれかに設定します。
 
-   - `Yes`  – が表示されます _記録する_ ストアのログインページでチェックボックスをオンにして、顧客が買い物かごの情報を保存できるようにします。
+   - `Yes` - ストアのログイン ページに _自分を記憶する_ チェックボックスを表示します。これにより、顧客は買い物かごの情報を保存することができます。
 
-   - `No`  – 永続性は引き続き有効にできますが、顧客は情報を保存するかどうかを選択するオプションを与えられません。
+   - `No` – 永続性は引き続き有効にできますが、顧客は情報を保存するかどうかを選択するオプションを与えられません。
 
-1. を事前選択するには _記録する_ 顧客のチェックボックス、設定 **[!UICONTROL Remember Me Default Value]** 対象： `Yes`.
+1. 顧客の _このアカウントを記憶する_ チェックボックスを事前に選択するには、「**[!UICONTROL Remember Me Default Value]**」を「`Yes`」に設定します。
 
    お客様は必要に応じてこのオプションをオフにできます。
 
-1. を設定 **[!UICONTROL Clear Persistence on Log Out]** を次のいずれかに変更します。
+1. **[!UICONTROL Clear Persistence on Log Out]** を次のいずれかに設定します。
 
-   - `Yes`  – 登録済みの顧客がログアウトすると、買い物かごはクリアされます。
+   - `Yes` – 登録済みの顧客がログアウトすると、買い物かごはクリアされます。
 
-   - `No`  – 登録済みの顧客がログアウトすると、買い物かごは保存されます。
+   - `No` – 登録済みの顧客がログアウトすると、買い物かごは保存されます。
 
    >[!NOTE]
    >
    >ユーザーがログイン中にセッション cookie が期限切れになった場合、永続的な cookie は使用されたままになります。
 
-1. を設定 **[!UICONTROL Persist Shopping Cart]** を次のいずれかに変更します。
+1. **[!UICONTROL Persist Shopping Cart]** を次のいずれかに設定します。
 
    - `Yes` - セッション cookie の有効期限が切れた場合、永続的な cookie は保持されます。 ゲストの買い物客が後でログインするかアカウントを作成すると、買い物かごは復元されます。
 
    - `No` - セッション cookie の有効期限が切れた後、ゲストに対して買い物かごが保持されない。
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）設定 **[!UICONTROL Persist Wish List]** セッションの終了時に顧客ウィッシュリストの状態を保持するかどうかを決定するには、次の手順に従います。
+1. ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **[!UICONTROL Persist Wish List]** を設定して、セッションの終了時にお客様のウィッシュリストのステータスを保持するかどうかを決定します。
 
    - `Yes` - セッションが終了すると、ウィッシュリストのコンテンツが保存されます。
 
    - `No` - セッションが終了しても、ウィッシュリストは保存されません。
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）設定 **[!UICONTROL Persist Recently Ordered Items]** セッションの終了時に最近注文した項目の状態を保持するかどうかを判断するには、次の手順に従います。
+1. ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **[!UICONTROL Persist Recently Ordered Items]** を設定して、セッションの終了時に最近注文された商品のステータスを保持するかどうかを指定します。
 
-   - `Yes`  – 最近注文した項目の状態は、セッションが終了すると保存されます。
+   - `Yes` – 最近注文した項目の状態は、セッションの終了時に保存されます。
 
-   - `No`  – 最近注文した項目の状態は、セッションが終了しても保存されません。
+   - `No` – 最近注文した項目の状態は、セッションの終了時に保存されません。
 
-1. を設定 **[!UICONTROL Persist Currently Compared Products]** 対象： `Yes` または `No`.
+1. **[!UICONTROL Persist Currently Compared Products]** を `Yes` または `No` に設定します。
 
-1. を設定 **[!UICONTROL Persist Comparison History]** 対象： `Yes` または `No`.
+1. **[!UICONTROL Persist Comparison History]** を `Yes` または `No` に設定します。
 
-1. を設定 **[!UICONTROL Persist Recently Viewed Products]** 対象： `Yes` または `No`.
+1. **[!UICONTROL Persist Recently Viewed Products]** を `Yes` または `No` に設定します。
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）設定 **[!UICONTROL Persist Customer Group Membership and Segmentation]** セッションが終了したときにお客様のグループメンバーシップの状態とセグメント化条件を保持するかどうかを決定するには、次の手順に従います。
+1. ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）セッションの終了時に顧客のグループメンバーシップのステートとセグメント化条件を保持するかどうかを指定するには、**[!UICONTROL Persist Customer Group Membership and Segmentation]** を設定します。
 
-   - `Yes`  – 顧客のグループメンバーシップとセグメント化データの状態は、セッションが終了すると保存されます。
+   - `Yes` – 顧客のグループメンバーシップの状態とセグメント化データは、セッションが終了すると保存されます。
 
-   - `No`  – 顧客のグループメンバーシップの状態とセグメント化データは、セッションが終了しても保存されません。
+   - `No` – 顧客のグループメンバーシップの状態とセグメント化データは、セッションが終了しても保存されません。
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。

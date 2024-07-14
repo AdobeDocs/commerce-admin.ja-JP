@@ -13,35 +13,35 @@ ht-degree: 0%
 
 # 二要素認証の管理
 
-にログインできないユーザー _Admin_ 2 要素認証（2FA）を使用すると、問題の同期またはトラブルシューティングを試みることができます。 また、アカウントに関連付けられた認証をリセットすることもできます。 リセットした場合、ユーザーは再度ログインし、必要な認証を再設定する必要があります。
+二要素認証（2FA）で _Admin_ にログインできないユーザーは、問題の同期やトラブルシューティングを試みることができます。 また、アカウントに関連付けられた認証をリセットすることもできます。 リセットした場合、ユーザーは再度ログインし、必要な認証を再設定する必要があります。
 
 2FA でのログインに問題がある場合は、次の点を考慮してください。
 
 - 一部のモバイルアプリには同期オプションが含まれています。 このオプションは、アプリとサーバーを再接続し、デバイスとサーバーの時間設定を同期します。
 - デバイスを取り消したり、認証システムをリセットしたりすると、ユーザーが接続しやすくなります。
 - Adobe CommerceまたはMagento Open Sourceのインストール用の web キャッシュと Cookie のクリアも役に立ちます。 Googleなどの認証者は、生成された Cookie を使用してアクセスと期間を保存します。 特定のブラウザーおよびストアドメインの Cookie をクリアします。
-- Cookie をブロックすると、次のような一部の認証を防ぐことができます [!DNL Google Authenticator]：検証プロセスの完了から。 ブラウザーに、Adobe Commerceのインストールに対して cookie を許可するルールを追加します。
+- Cookie をブロックすると、[!DNL Google Authenticator] などの一部のオーセンティケーターは検証プロセスを完了できなくなります。 ブラウザーに、Adobe Commerceのインストールに対して cookie を許可するルールを追加します。
 
-コマンドラインからオーセンティケータをリセットする方法や、より詳細なトラブルシューティング情報については、を参照してください。 [二要素認証](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/) 開発者向けドキュメント
+コマンドラインからの認証機能のリセットや、より高度なトラブルシューティング情報については、開発者向けドキュメントの [ 二要素認証 ](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/) を参照してください。
 
-**_ユーザー・アカウントの認証をリセットするには：_**
+**_ユーザーアカウントの認証をリセットするには：_**
 
 >[!NOTE]
 >
->他のユーザーの 2FA プロバイダーをリセットするには、 _管理者_ （を使用） `All` 権限、または持つ `Custom` での役割の権限 [!UICONTROL System] > [!UICONTROL Permissions] > [!UICONTROL Two Factor Auth] および [!UICONTROL System] > [!UICONTROL Permissions] > [!UICONTROL All Users] を選択しました。 詳しくは、 [ユーザーの役割](permissions-user-roles.md).
+>他のユーザーの 2FA プロバイダーをリセットするには、`All` の権限を持つ _管理者_ であるか、自分の役割で [!UICONTROL System] > [!UICONTROL Permissions] > [!UICONTROL Two Factor Auth] および [!UICONTROL System] > [!UICONTROL Permissions] > [!UICONTROL All Users] を選択できる `Custom` 権限が必要です。 詳しくは、「[ ユーザーの役割 ](permissions-user-roles.md)」を参照してください。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**.
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL All Users]**に移動します。
 
 1. ユーザーを選択し、アカウントを編集モードで開きます。
 
-1. にスクロール ダウンします。 _[!UICONTROL Current User Identity Verification]_セクションとパスワードを入力します。
+1. 「_[!UICONTROL Current User Identity Verification]_」セクションまでスクロールし、パスワードを入力します。
 
-1. 左側のパネルで、 **[!UICONTROL 2FA]**.
+1. 左側のパネルで「**[!UICONTROL 2FA]**」をクリックします。
 
-1. が含まれる _[!UICONTROL Configuration reset]_セクションで、をクリック&#x200B;**[!UICONTROL Reset]**および&#x200B;**[!UICONTROL OK]**を確認します。
+1. 「_[!UICONTROL Configuration reset]_」セクションで、「**[!UICONTROL Reset]**」をクリックし、「**[!UICONTROL OK]**」をクリックして確認します。
 
-   ![ユーザーアカウント - 2FA の有効化](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
+   ![ ユーザーアカウント - 2FA の有効化 ](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
 
-   ユーザーが必要な 2FA メソッドを自分のアカウントにリストアする場合は、 _サインオン_ ページ。
+   必要な 2FA メソッドを自分のアカウントに復元したい場合は、_サインオン_ ページからそれぞれを再設定する必要があります。
 
-1. 完了したら、 **[!UICONTROL Save User]**.
+1. 完了したら、「**[!UICONTROL Save User]**」をクリックします。

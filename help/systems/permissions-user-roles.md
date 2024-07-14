@@ -14,23 +14,23 @@ ht-degree: 0%
 
 管理者へのアクセスを制限されたユーザーを許可するには、まず、適切なレベルの権限を持つ役割を作成します。 役割を保存したら、新しいユーザーを追加し、制限付きの役割を割り当てて、管理者への制限付きアクセスを許可できます。
 
-![管理者 – ユーザーの役割](./assets/permissions-role-grid.png){width="600" zoomable="yes"}
+![ 管理者 – ユーザーの役割 ](./assets/permissions-role-grid.png){width="600" zoomable="yes"}
 
 ## 役割の定義
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL User Roles]**に移動します。
 
-1. 右上隅のをクリックします。 **[!UICONTROL Add New Role]**.
+1. 右上隅の「**[!UICONTROL Add New Role]**」をクリックします。
 
 1. 役割を定義する手順を実行します。
 
 ### 手順 1：役割名の追加
 
-1. 次の下 _[!UICONTROL Role Information]_、説明的なを入力します&#x200B;**[!UICONTROL Role Name]**.
+1. 「_[!UICONTROL Role Information]_」に、説明&#x200B;**[!UICONTROL Role Name]**を入力します。
 
-1. 次の下 _[!UICONTROL Current User Identity Verification]_、パスワードを入力します。
+1. _[!UICONTROL Current User Identity Verification]_の下に、パスワードを入力します。
 
-   ![システム権限 – 役割情報](./assets/permissions-role-info.png){width="600" zoomable="yes"}
+   ![ システム権限 – 役割情報 ](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
 ### 手順 2：リソースを割り当てる
 
@@ -38,62 +38,62 @@ ht-degree: 0%
 >
 >リソースを割り当てる際に、特定の役割のアクセスを制限している場合は、権限ツールへのアクセスを無効にしてください。 そうでない場合、ユーザーは自分の権限を変更できます。
 
-1. を設定 **[!UICONTROL Role Scopes]** を次のいずれかに変更します。
+1. **[!UICONTROL Role Scopes]** を次のいずれかに設定します。
 
    - `All`
    - `Custom`
 
-   に設定されている場合 `Custom` マルチサイトインストールの場合は、web サイトのチェックボックスをオンにして、役割を使用するストアを選択します。
+   マルチサイトインストールで `Custom` に設定した場合は、web サイトのチェックボックスをオンにして、役割を使用するストアを選択します。
 
-   ![ユーザーの役割リソース – カスタム範囲](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
+   ![ ユーザーの役割リソース – カスタム スコープ ](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >を使用しているユーザー `Custom` の役割の範囲で、web サイトとカテゴリの作成、カテゴリへの製品の割り当て、製品の編集を行うことができません。 _[!UICONTROL All Store Views]_制限付きストアに割り当てられる場合の範囲。 これらのユーザーは、他の操作も実行できません_ global _アクセス権を持たないスコープに影響するアクション。
+   >`Custom` の役割の範囲を持つユーザーは、制限付きストアに割り当てられたときに、web サイトとカテゴリを作成したり、カテゴリに製品を割り当てたり、_[!UICONTROL All Store Views]_の範囲で製品を編集したりすることができません。 また、これらのユーザーは、アクセス権を持たないスコープに影響を与えるその他の_ グローバル _アクションも実行できません。
 
-1. 次の下 _[!UICONTROL Roles Resources]_、設定&#x200B;**[!UICONTROL Resource Access]**対象： `Custom`.
+1. _[!UICONTROL Roles Resources]_で、**[!UICONTROL Resource Access]**を `Custom` に設定します。
 
-1. が含まれる **[!UICONTROL Resource]** ツリー構造で、役割がアクセスできる各管理機能のチェックボックスを選択します。
+1. **[!UICONTROL Resource]** ツリー構造で、役割がアクセスできる各管理機能のチェックボックスをオンにします。
 
-   税金設定へのアクセス権を持つ管理者ロールを作成するには、「売上/税金」および「システム/税金」リソースの両方を選択します。 デフォルトとは異なる地域用に web サイトを設定する場合 [出荷元](../stores-purchase/shipping-settings.md#point-of-origin)。役割のシステム /配送料リソースへのアクセスを許可する必要があります。 配送設定によって、カタログ価格に使用する店舗の税率が決まります。
+   税金設定へのアクセス権を持つ管理者ロールを作成するには、「売上/税金」および「システム/税金」リソースの両方を選択します。 デフォルトの [ 出荷元 ](../stores-purchase/shipping-settings.md#point-of-origin) とは異なる地域の Web サイトを設定する場合は、その役割のシステム/出荷リソースへのアクセスを許可する必要があります。 配送設定によって、カタログ価格に使用する店舗の税率が決まります。
 
-   ![割り当てられたユーザーの役割リソース](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
+   ![ 割り当てられたユーザーの役割リソース ](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
 
    使用可能な権限のリストには、バンドルされた拡張機能やインストールされた拡張機能に対する追加のオプションが含まれる場合があります。 各機能の最上位の権限を選択すると、ユーザーに使用可能なすべての権限を割り当てることができます。
 
    >[!NOTE]
    >
-   >管理者ユーザーには次が必要です **[!UICONTROL Sales / Archive]** 役割の範囲に対するを表示する権限 _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_、および _[!UICONTROL Shipments]_順序 [タブ](../stores-purchase/order-processing.md).
+   >管理者ユーザーが _[!UICONTROL Invoices]_、_[!UICONTROL Credit Memos]_、_[!UICONTROL Shipments]_の順序 [ タブ ](../stores-purchase/order-processing.md) を表示するには、役割の範囲に対する&#x200B;**[!UICONTROL Sales / Archive]**権限が必要です。
 
-1. 完了したら、 **[!UICONTROL Save Role]**.
+1. 完了したら、「**[!UICONTROL Save Role]**」をクリックします。
 
    役割がグリッドに表示され、ユーザーアカウントに割り当てることができます。
 
 ## ユーザーへの役割の割り当て
 
-1. から _[!UICONTROL Roles]_グリッドで、編集モードでレコードを開きます。
+1. _[!UICONTROL Roles]_グリッドから、編集モードでレコードを開きます。
 
-1. 次の下 _[!UICONTROL Current User Identity Verification]_：ユーザーアカウントのパスワードを入力します。
+1. _[!UICONTROL Current User Identity Verification]_の下に、ユーザーアカウントのパスワードを入力します。
 
-1. 左パネルで、を選択します。 **[!UICONTROL Role Users]**.
+1. 左側のパネルで「**[!UICONTROL Role Users]**」を選択します。
 
-   この _[!UICONTROL Role Users]_新しい役割を保存した後にのみオプションが表示されます。
+   _[!UICONTROL Role Users]_オプションは、新しい役割が保存された後にのみ表示されます。
 
-   ![役割に割り当てられているユーザーアカウント](./assets/permissions-role-users.png){width="600" zoomable="yes"}
+   ![ 役割に割り当てられたユーザーアカウント ](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
 1. 特定のユーザーレコードを検索するには、次の手順を実行します。
 
-   - 列の上部にある検索フィルターに値を入力して、キーを押します **Enter**.
+   - 列の上部にある検索フィルターに値を入力し、**Enter** キーを押します。
 
-   - 完全なリストに戻る準備ができたら、 **[!UICONTROL Reset Filter]**.
+   - 完全なリストに戻る準備ができたら、「**[!UICONTROL Reset Filter]**」をクリックします。
 
 1. 役割に割り当てるユーザーのチェックボックスを選択します。
 
-1. クリック **[!UICONTROL Save Role]**.
+1. 「**[!UICONTROL Save Role]**」をクリックします。
 
 ## 役割の編集
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL User Roles]**に移動します。
 
 1. グリッドの上にあるフィルターを使用して役割を見つけ、役割名をクリックします。
 
@@ -103,17 +103,17 @@ ht-degree: 0%
 
 1. プロンプトが表示されたら、パスワードを入力して ID を確認します。
 
-1. 「」をクリックします **[!UICONTROL Save Role]**.
+1. **[!UICONTROL Save Role]** をクリックします。
 
 ## 役割の削除
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL User Roles]**に移動します。
 
 1. グリッドの上にあるフィルターを使用して役割を見つけ、編集モードで開きます。
 
-1. 右上隅のをクリックします。 **[!UICONTROL Delete Role]**.
+1. 右上隅の「**[!UICONTROL Delete Role]**」をクリックします。
 
-1. アクションを確定するには、 **[!UICONTROL OK]**.
+1. アクションを確定するには、「**[!UICONTROL OK]**」をクリックします。
 
 ## ユーザーの役割のデモ
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 ![Adobe Commerce](../assets/adobe-logo.svg) - Adobe Commerceのみ
 
-![Adobe Commerce B2B](../assets/b2b.svg) - Adobe Commerce B2B でのみ使用可能
+![Adobe Commerce B2B](../assets/b2b.svg) - Adobe Commerce B2B でのみ使用できます
 
 | Resource |   |   |
 | --- | --- | --- |
@@ -152,7 +152,7 @@ ht-degree: 0%
 |  | [`User Content`](../merchandising-promotions/product-reviews-moderate.md) | [`All Reviews`](../merchandising-promotions/product-reviews.md) <br/>[`Pending Reviews`](../merchandising-promotions/product-reviews-moderate.md) <br/> |  |
 | [`Content`](../content-design/content-menu.md) | [`Elements`](../content-design/content-menu.md#uicontrol-elements)） | [`Pages`](../content-design/pages.md)<br/>[`Hierarchy`](../content-design/page-hierarchy.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Blocks`](../content-design/blocks.md)<br/>[`Dynamic Blocks`](../content-design/dynamic-blocks.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Widgets`](../content-design/widgets.md)<br/>[`Media Gallery`](../content-design/media-gallery.md) |  |
 |  | [`Design`](../content-design/introduction.md#design) | [`Themes`](../content-design/themes.md)<br/>[`Schedule`](../content-design/schedule.md) |  |
-|  | [コンテンツのステージング](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
+|  | [ コンテンツのステージング ](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
 | [`Reports`](../getting-started/reports-menu.md) | [`Marketing`](../getting-started/marketing-reports.md) | `Shopping Cart`<br />[`Search Terms`](../catalog/search-terms.md#search-terms-report)<br />`Newsletter Problem Reports` |  |
 |  | [`Reviews`](../getting-started/review-reports.md)<br /> |  |
 |  | [`Sales`](../getting-started/sales-reports.md) |  |

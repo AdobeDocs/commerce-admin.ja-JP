@@ -1,6 +1,6 @@
 ---
 title: メディア – ビデオ
-description: YouTubeまたは Vimeo でホストされているビデオをに追加するために使用される、ビデオコンテンツタイプについて説明します [!DNL Page Builder] ステージ。
+description: YouTubeまたは Vimeo でホストされているビデオをステージに追加するために使用される、ビデオコンテンツタイプについて説明  [!DNL Page Builder]  ます。
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
 source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 # メディア – ビデオ
 
-の使用 _ビデオ_ ホストされているビデオを追加するためのコンテンツタイプ [YouTube][1] または [Vimeo][2] に [[!DNL Page Builder] ステージ](workspace.md#stage). ページやブロック、または製品やカテゴリの説明にビデオを簡単に埋め込むことができます。
+_ビデオ_ コンテンツタイプを使用して、[YouTube][1] または [Vimeo][2] でホストされているビデオを [[!DNL Page Builder]  ステージ ](workspace.md#stage) に追加します。 ページやブロック、または製品やカテゴリの説明にビデオを簡単に埋め込むことができます。
 
-![ストアフロントのホームページのビデオ](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
+![ ストアフロントのホームページに関するビデオ ](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## ビデオツールボックス
 
-![ビデオツールボックス](./assets/pb-media-video-toolbox.png){width="600" zoomable="yes"}
+![ ビデオツールボックス ](./assets/pb-media-video-toolbox.png){width="600" zoomable="yes"}
 
 | ツール | アイコン | 説明 |
 |--- |--- |--- |
-| 移動 | ![移動アイコン](./assets/pb-icon-move.png){width="25"} | ビデオをステージ上の別の位置に移動します。 |
+| 移動 | ![ 移動アイコン ](./assets/pb-icon-move.png){width="25"} | ビデオをステージ上の別の位置に移動します。 |
 | （ラベル） | [!UICONTROL Video] | 現在のコンテンツコンテナをビデオとして識別します。 画像コンテナにカーソルを合わせると、ツールボックスが表示されます。 |
-| 設定 | ![設定アイコン](./assets/pb-icon-settings.png){width="25"} | を開きます _[!UICONTROL Edit Video]_このページで、ビデオとコンテナのプロパティを変更できます。 |
-| Hide | ![アイコンを非表示](./assets/pb-icon-hide.png){width="25"} | 現在のビデオを非表示にします。 |
-| 表示 | ![アイコンを表示](./assets/pb-icon-show.png){width="25"} | 非表示のビデオを表示します。 |
-| 複製 | ![アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | ビデオをコピーします。 |
-| 削除 | ![アイコンを削除](./assets/pb-icon-remove.png){width="25"} | ステージからビデオを削除します。 |
+| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | _[!UICONTROL Edit Video]_ページが開き、ビデオとコンテナのプロパティを変更できます。 |
+| Hide | ![ アイコンを非表示 ](./assets/pb-icon-hide.png){width="25"} | 現在のビデオを非表示にします。 |
+| 表示 | ![ アイコンを表示 ](./assets/pb-icon-show.png){width="25"} | 非表示のビデオを表示します。 |
+| 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | ビデオをコピーします。 |
+| 削除 | ![ 削除アイコン ](./assets/pb-icon-remove.png){width="25"} | ステージからビデオを削除します。 |
 
 {style="table-layout:auto"}
 
@@ -38,66 +38,66 @@ ht-degree: 0%
 
 ## ビデオを追加
 
-1. 開始する前に、 [YouTube][1] または [Vimeo][2] 埋め込むビデオで、リンクをコピーします。
+1. 開始する前に、埋め込む [YouTube][1] または [Vimeo][2] ビデオに移動し、リンクをコピーします。
 
-   または、有効なビデオファイルへの直接リンクをコピーすることもできます。 参照： [基本的なビデオ設定](#basic-video-settings) 有効なリンク用。
+   または、有効なビデオファイルへの直接リンクをコピーすることもできます。 有効なリンクについては、[ 基本ビデオ設定 ](#basic-video-settings) を参照してください。
 
-1. が含まれる [!DNL Commerce] 管理者、に戻る [!DNL Page Builder] ビデオを追加するワークスペース。
+1. [!DNL Commerce] Admin で、ビデオを追加する [!DNL Page Builder] ワークスペースに戻ります。
 
-1. が含まれる [!DNL Page Builder] パネル、展開 **[!UICONTROL Media]** をドラッグします。 **[!UICONTROL Video]** ステージへのプレースホルダー。
+1. [!DNL Page Builder] パネルで **[!UICONTROL Media]** を展開し、**[!UICONTROL Video]** プレースホルダーをステージにドラッグします。
 
-   ![ビデオプレースホルダーのステージへのドラッグ](./assets/pb-media-video-drag.png){width="600" zoomable="yes"}
+   ![ ビデオプレースホルダーのステージへのドラッグ ](./assets/pb-media-video-drag.png){width="600" zoomable="yes"}
 
-1. ビデオコンテナにカーソルを合わせてツールボックスを表示し、 _設定_ （ ![設定アイコン](./assets/pb-icon-settings.png){width="20"} ） アイコンをクリックします。
+1. ビデオコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-1. の場合 **[!UICONTROL Video URL]**、コピーしたビデオの URL をペーストします。
+1. **[!UICONTROL Video URL]**：コピーしたビデオの URL をペーストします。
 
-   の URL [!DNL Page Builder] この例で使用するビデオは次のとおりです。 `https://www.youtube.com/watch?v=Y0KNS7C5dZA`.
+   この例で使用される [!DNL Page Builder] ビデオの URL は `https://www.youtube.com/watch?v=Y0KNS7C5dZA` です。
 
-1. を制限するには **[!UICONTROL Maximum Width]** ビデオの最大幅をピクセル単位で入力します。
+1. ビデオの **[!UICONTROL Maximum Width]** を制限するには、最大幅をピクセル単位で入力します。
 
    空白の場合、ビデオの幅はコンテナで許可されている幅になり、余白とパディングを使用できます。
 
-1. 右上隅のをクリックします。 **[!UICONTROL Save]** 設定を適用し、 [!DNL Page Builder] ワークスペース。
+1. 右上隅にある「**[!UICONTROL Save]**」をクリックして設定を適用し、[!DNL Page Builder] ワークスペースに戻ります。
 
 ## ビデオ設定の変更
 
-1. ビデオコンテナにカーソルを合わせてツールボックスを表示し、 _設定_ （ ![設定アイコン](./assets/pb-icon-settings.png){width="20"} ） アイコンをクリックします。
+1. ビデオコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
 1. 次の節に従って、設定を変更します。
 
    - [基本](#basic-video-settings)
    - [詳細](#advanced)
 
-1. 右上隅のをクリックします。 **[!UICONTROL Save]** 設定を適用し、 [!DNL Page Builder] ワークスペース。
+1. 右上隅にある「**[!UICONTROL Save]**」をクリックして設定を適用し、[!DNL Page Builder] ワークスペースに戻ります。
 
 ### 基本的なビデオ設定
 
-1. 現在のビデオを変更するには、 **[!UICONTROL Video URL]**.
+1. 現在のビデオを変更するには、**[!UICONTROL Video URL]** を更新します。
 
    有効なビデオ URL を入力します。 有効なビデオ URL は、次へのリンクです。
 
-   - YouTube ビデオ： `https://youtu.be/CoDhMRUUjeI`
-   - Vimeo 動画： `https://vimeo.com/190156113`
-   - 有効なビデオファイル （`.mp4` 推奨）: `https://myvideos.com/spiral.mp4`
+   - YouTube ビデオ：`https://youtu.be/CoDhMRUUjeI`
+   - Vimeo ビデオ：`https://vimeo.com/190156113`
+   - 有効なビデオ ファイル （`.mp4` を推奨）: `https://myvideos.com/spiral.mp4`
 
-1. ストアフロントのビデオに許可される幅を変更するには、新しいを入力します **[!UICONTROL Maximum Width]** ピクセル単位。
+1. ストアフロントのビデオに許可される幅を変更するには、新しい **[!UICONTROL Maximum Width]** をピクセル単位で入力します。
 
    空白の場合、ビデオはコンテナの全幅を拡大し、余白とパディングの許容値を減らします。
 
-1. ページの読み込み後にビデオを自動開始するには、次のように設定します **[!UICONTROL Autoplay]** 対象： `Yes`.
+1. ページの読み込み後にビデオを自動開始するには、**[!UICONTROL Autoplay]** を `Yes` に設定します。
 
-   自動再生が次のように設定されている場合： `Yes`の場合、ビデオはポリシーに従って再生時にミュートされます。 ただし、この設定を使用しても、モバイルデバイスでビデオを自動再生することはできません。 これらのポリシーについて詳しくは、次の開発者向けリソースを参照してください。
+   自動再生が `Yes` に設定されている場合、ビデオはポリシーに従って再生時にミュートされます。 ただし、この設定を使用しても、モバイルデバイスでビデオを自動再生することはできません。 これらのポリシーについて詳しくは、次の開発者向けリソースを参照してください。
 
-   - [Vimeo の自動再生ポリシー](https://vimeo.zendesk.com/hc/en-us/articles/115004485728-Autoplaying-and-looping-embedded-videos)
-   - [Googleからの自動再生ポリシー（Chrome/YouTube）](https://developer.chrome.com/blog/autoplay/)
-   - [ローカルビデオの自動再生ポリシー](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
+   - [Vimeo の自動再生ポリシー ](https://vimeo.zendesk.com/hc/en-us/articles/115004485728-Autoplaying-and-looping-embedded-videos)
+   - [Google（Chrome/YouTube）の自動再生ポリシー ](https://developer.chrome.com/blog/autoplay/)
+   - [ ローカルビデオの自動再生ポリシー ](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
 
-   自動再生が次のように設定されている場合： `No`このビデオは、ユーザーの要求に応じてのみ再生されます。
+   自動再生が `No` に設定されている場合、ビデオはユーザーの要求に応じてのみ再生されます。
 
 ### [!UICONTROL Advanced]
 
-1. コンテナ内のビデオの水平方向の位置を制御するには、 **[!UICONTROL Alignment]**:
+1. コンテナ内のビデオの水平方向の位置を制御するには、**[!UICONTROL Alignment]** のいずれかを選択します。
 
    | オプション | 説明 |
    | ------ | ----------- |
@@ -108,7 +108,7 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-- を **[!UICONTROL Border]** ビデオコンテナの 4 つの辺すべてに適用されるスタイル：
+- ビデオコンテナの 4 つの辺すべてに適用する **[!UICONTROL Border]** スタイルを設定します。
 
   | オプション | 説明 |
   | ------ | ----------- |
@@ -125,9 +125,9 @@ ht-degree: 0%
 
   {style="table-layout:auto"}
 
-- 境界線のスタイルを `None`の場合は、次のボーダー表示オプションを入力します。
+- `None` 以外の境界線のスタイルを設定する場合は、境界線の表示オプションを完了します。
 
-  ![境界線のカラー](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
+  ![ 境界線のカラー ](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
   | オプション | 説明 |
   | ------ |------------ |
@@ -137,11 +137,11 @@ ht-degree: 0%
 
   {style="table-layout:auto"}
 
-- （オプション）の名前を指定します **[!UICONTROL CSS classes]** ビデオコンテナに適用する現在のスタイルシートから。
+- （オプション）ビデオコンテナに適用する現在のスタイルシートの **[!UICONTROL CSS classes]** の名前を指定します。
 
   複数のクラス名はスペースで区切ります。
 
-- 次の値をピクセル単位で入力 **[!UICONTROL Margins and Padding]** ビデオコンテナの外側の余白と内側のパディングを指定します。
+- ビデオコンテナの外側の余白と内側のパディングを指定する **[!UICONTROL Margins and Padding]** の値をピクセル単位で入力します。
 
   対応する各値をビデオコンテナ図に入力します。
 
@@ -154,19 +154,19 @@ ht-degree: 0%
 
 ## ビデオの移動
 
-1. ビデオコンテナにカーソルを合わせてツールボックスを表示し、 _移動_ （ ![移動アイコン](./assets/pb-icon-move.png){width="20"} ） アイコンをクリックします。
+1. ビデオコンテナにカーソルを合わせてツールボックスを表示し、_移動_ （![ 移動アイコン ](./assets/pb-icon-move.png){width="20"}）アイコンを選択します。
 
-   ![ビデオの移動](./assets/pb-media-video-toolbox-move-col1.png){width="500" zoomable="yes"}
+   ![ ビデオの移動 ](./assets/pb-media-video-toolbox-move-col1.png){width="500" zoomable="yes"}
 
 1. ビデオを選択して、赤いガイドラインのすぐ下の新しい位置にドラッグします。
 
-   ![赤いガイドラインを使用したビデオの配置](./assets/pb-media-video-toolbox-move-col2.png){width="500" zoomable="yes"}
+   ![ 赤いガイドラインを使用したビデオの配置 ](./assets/pb-media-video-toolbox-move-col2.png){width="500" zoomable="yes"}
 
 ## ステージからビデオを削除
 
-1. ビデオコンテナにカーソルを合わせてツールボックスを表示し、 _削除_ （![アイコンを削除](./assets/pb-icon-remove.png)） アイコンをクリックします。
+1. ビデオコンテナにカーソルを合わせてツールボックスを表示し、「_削除_」（![ 削除アイコン ](./assets/pb-icon-remove.png)）アイコンを選択します。
 
-1. 確認を求められたら、 **[!UICONTROL OK]**.
+1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL OK]**」をクリックします。
 
 [1]: https://www.youtube.com/
 [2]: https://vimeo.com/

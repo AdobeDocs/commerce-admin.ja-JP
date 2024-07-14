@@ -13,42 +13,42 @@ ht-degree: 0%
 
 # セキュリティ問題のレポート
 
-この `security.txt` ファイルには、セキュリティ研究者がサイトのセキュリティ上の問題を報告するために使用できる連絡先情報とセキュリティ関連リンクが含まれています。 セキュリティ情報が時間と共に変化する場合は、 `security.txt` ファイルは最新です。
+`security.txt` ファイルには、連絡先情報とセキュリティ関連リンクが含まれており、セキュリティ研究者がサイトのセキュリティ上の問題を報告するために使用できます。 セキュリティ情報が時間の経過と共に変化する場合は、`security.txt` ファイルの情報が最新であることを確認してください。
 
-**_security.txt を構成するには、次の手順に従います。_**
+**_security.txt を構成するには：_**
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. の下の左パネルで _[!UICONTROL Security]_を選択し、**[!UICONTROL Security.txt]**.
+1. _[!UICONTROL Security]_の下の左パネルで、「**[!UICONTROL Security.txt]**」をクリックします。
 
-1. が含まれる _[!UICONTROL General]_セクション、設定&#x200B;**[!UICONTROL Enable]**対象： `Yes`.
+1. _[!UICONTROL General]_セクションで、**[!UICONTROL Enable]**を `Yes` に設定します。
 
-   ![一般的なセキュリティ設定](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
+   ![ 一般的なセキュリティ設定 ](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 
-1. 次の下 _[!UICONTROL Contact Information]_を入力します。
+1. _[!UICONTROL Contact Information]_の下に、次の情報を入力します。
 
    - ストアのセキュリティ問題を管理する人物のメールアドレスと電話番号。
 
-   - ストアの URL **[!UICONTROL Contact Page]**. このページは、ストアのセキュリティ連絡先のリストまたは _お問い合わせ_ ページ。
+   - ストアの **[!UICONTROL Contact Page]** の URL。 このページは、店舗のセキュリティ担当者のリストまたは _お問い合わせ_ ページのいずれかです。
 
-   ![連絡先情報の設定](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
+   ![ 連絡先情報の設定 ](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
 
-1. 次の下 _[!UICONTROL Other Information]_を入力します。
+1. _[!UICONTROL Other Information]_の下に、次の情報を入力します。
 
-   - パブリックの URL **[!UICONTROL Encryption]** キー。 例： `https://example.com/pgp-key.txt`
+   - 公開 **[!UICONTROL Encryption]** 鍵の URL。 例：`https://example.com/pgp-key.txt`
 
-   - の URL **[!UICONTROL Acknowledgments]** セキュリティの研究者がストアに代わって彼らの取り組みを認められているページ。
+   - ストアに代わってセキュリティ研究者の活動が認められる **[!UICONTROL Acknowledgments]** ページの URL。
 
-   - あなたの **[!UICONTROL Preferred Languages]** セキュリティ関連の通信。 標準の 2 文字を入力してください [言語コード](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) サポートされている言語ごとに、コンマで区切ります。 例えば、英語、スペイン語、フランス語を指定するには、 `en, es, fr`. 指定した言語は、表示順序に関係なく、すべて同じ優先度になります。
+   - セキュリティ関連の通信に対する **[!UICONTROL Preferred Languages]** ール。 サポートされている各言語に対して、標準の 2 文字 [ 言語コード ](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) をコンマで区切って入力します。 例えば、英語、スペイン語、フランス語を指定するには、「`en, es, fr`」と入力します。 指定した言語は、表示順序に関係なく、すべて同じ優先度になります。
 
-   - の URL **[!UICONTROL Hiring]** 店舗でのセキュリティ関連の雇用機会を一覧表示するページです。
+   - ストアでのセキュリティ関連の雇用機会を一覧表示する **[!UICONTROL Hiring]** ページの URL。
 
-   - セキュリティ URL **[!UICONTROL Policy]** ページ。
+   - セキュリティ **[!UICONTROL Policy]** ページの URL。
 
-   - デジタルの URL **[!UICONTROL Signature]** サーバーに保存されているファイル。 例： `https://mystore.com/.well-known/security.txt.sig`
+   - サーバーに保存されているデジタル **[!UICONTROL Signature]** ファイルの URL。 例：`https://mystore.com/.well-known/security.txt.sig`
 
-   デジタル署名は、サーバの CLI （コマンドライン インターフェイス）から設定する必要があります。 詳しくは、 [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) GitHub で。
+   デジタル署名は、サーバの CLI （コマンドライン インターフェイス）から設定する必要があります。 詳しくは、GitHub の [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) を参照してください。
 
-   ![その他の情報](../configuration-reference/security/assets/txt-other-info.png){width="600" zoomable="yes"}
+   ![ その他の情報 ](../configuration-reference/security/assets/txt-other-info.png){width="600" zoomable="yes"}
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

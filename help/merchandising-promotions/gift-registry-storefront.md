@@ -14,15 +14,15 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-この [ギフト レジストリ](gift-registries.md) 顧客アカウントの「」セクションには、顧客の現在のギフトレジストリと関連するイベントが一覧表示されます。 顧客は現在のレジストリを管理し、新しいレジストリを追加できます。
+顧客アカウントの [ ギフト登録 ](gift-registries.md) セクションには、顧客の現在のギフト登録と関連するイベントが一覧表示されます。 顧客は現在のレジストリを管理し、新しいレジストリを追加できます。
 
-![ギフト レジストリ](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
+![ 贈与原簿 ](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
 
 ## ギフト レジストリ情報
 
 顧客は、自分のアカウントからギフトレジストリを作成および管理できます。 各タイプのレジストリに関連付けられているすべての情報は、顧客のアカウントから入手できます。
 
-![ストアフロントの例 – ギフトレジストリ情報](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
+![ ストアフロントの例 – ギフトレジストリ情報 ](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
 
 | セクション | 説明 |
 |--- |--- |
@@ -40,11 +40,11 @@ ht-degree: 0%
 
 ## ギフト レジストリの作成
 
-1. 顧客が次を選択 **[!UICONTROL Gift Registry]** をアカウントダッシュボードに表示します。
+1. 顧客は、アカウントダッシュボードで **[!UICONTROL Gift Registry]** を選択します。
 
-1. 日 _ギフト レジストリ_ ページ、クリック **[!UICONTROL Add New]**.
+1. _ギフトレジストリ_ ページで、「**[!UICONTROL Add New]**」をクリックします。
 
-1. 選択： **[!UICONTROL Gift Registry Type]**&#x200B;例：
+1. 次のような **[!UICONTROL Gift Registry Type]** を選択します。
 
    - 誕生日
 
@@ -52,58 +52,58 @@ ht-degree: 0%
 
    - 結婚式
 
-1. クリック数 **[!UICONTROL Next]**.
+1. **[!UICONTROL Next]** をクリックします。
 
-1. 必要な情報を入力し、クリックします **[!UICONTROL Save]**.
+1. 必要な情報を入力し、**[!UICONTROL Save]** をクリックします。
 
 ## レジストリへの製品の追加
 
 1. ギフト レジストリ イベントに追加する商品を開きます。
 
-1. クリック数 **[!UICONTROL Add to Cart]**.
+1. **[!UICONTROL Add to Cart]** をクリックします。
 
-1. クリック数 **[!UICONTROL View and Edit Cart]** ミニカートに入れます。
+1. ミニ買 **[!UICONTROL View and Edit Cart]** 物かごをクリックします。
 
-1. 買い物かごページで、必要なイベントを選択し、クリックまたはタップします **[!UICONTROL Add All To Gift Registry]**.
+1. 買い物かごページで、必要なイベントを選択し、**[!UICONTROL Add All To Gift Registry]** をクリックまたはタップします。
 
    選択したイベントのギフト レジストリにアイテムが追加されます。
 
 ## ギフト レジストリの共有
 
-1. 顧客は、アカウントダッシュボードからに移動します。 **[!UICONTROL Gift Registry]**.
+1. 顧客は、アカウントダッシュボードから **[!UICONTROL Gift Registry]** に移動します。
 
-1. 管理するレジストリイベントを検索してクリックします **[!UICONTROL Share]**.
+1. ユーザーが管理するレジストリイベントを検索してクリック **[!UICONTROL Share]** ます。
 
-1. 必要な情報を入力してクリックします。 **[!UICONTROL Share Gift Registry]**.
+1. 必要な情報を入力し、**[!UICONTROL Share Gift Registry]** をクリックします。
 
 ## ギフト レジストリの編集
 
-1. 顧客は、アカウントダッシュボードからに移動します。 **[!UICONTROL Gift Registry]**.
+1. 顧客は、アカウントダッシュボードから **[!UICONTROL Gift Registry]** に移動します。
 
-1. 管理するレジストリイベントを検索してクリックします **[!UICONTROL Edit]**.
+1. ユーザーが管理するレジストリイベントを検索してクリック **[!UICONTROL Edit]** ます。
 
 1. 必要に応じてオプションを変更します。
 
-1. 必要なオプションを編集し、クリックします **[!UICONTROL Save]**.
+1. 必要なオプションを編集し、**[!UICONTROL Save]** をクリックします。
 
 ## ギフト レジストリ項目の管理
 
-1. 顧客は、アカウントダッシュボードからに移動します。 **[!UICONTROL Gift Registry]**.
+1. 顧客は、アカウントダッシュボードから **[!UICONTROL Gift Registry]** に移動します。
 
-   ![ギフト レジストリ項目の管理](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
+   ![ 商品登録品目の管理 ](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
 
-1. レジストリ イベントを検索し、管理する項目を選択して、クリックします **[!DNL Manage Items]**.
+1. レジストリ イベントを検索し、管理する項目を選択して、**[!DNL Manage Items]** をクリックします。
 
-1. 次のような必要なオプションを変更します **[!UICONTROL Note]** および **[!UICONTROL Qty]**.
+1. **[!UICONTROL Note]** や **[!UICONTROL Qty]** など、必要なオプションを変更します。
 
-1. 必要に応じて、チェックボックスを選択してをクリックすることで、ギフトレジストリから項目を削除します **[!UICONTROL Delete]**.
+1. 必要に応じて、チェックボックスを選択して「削除」をクリックすると、ギフトレジストリから項目が削 **[!UICONTROL Delete]** されます。
 
-1. クリック数 **[!UICONTROL Update Gift Registry]** 変更を保存します。
+1. **[!UICONTROL Update Gift Registry]** をクリックして、変更を保存します。
 
 ## ギフト レジストリの削除
 
-1. 顧客は、アカウントダッシュボードからに移動します。 **[!UICONTROL Gift Registry]**.
+1. 顧客は、アカウントダッシュボードから **[!UICONTROL Gift Registry]** に移動します。
 
-1. 管理するレジストリイベントを検索してクリックします **[!UICONTROL Delete]**.
+1. ユーザーが管理するレジストリイベントを検索してクリック **[!UICONTROL Delete]** ます。
 
-1. クリック数 **[!UICONTROL OK]** を確認します。
+1. **[!UICONTROL OK]** をクリックして確定します。

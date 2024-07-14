@@ -17,11 +17,11 @@ ht-degree: 0%
 
 {{$include /help/_includes/directives-caution.md}}
 
-![新しい製品リストウィジェット](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
+![ 新しい製品リストウィジェット ](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
 
 ## ウィジェットのタイプ
 
-実行する場合 [ウィジェットの作成](widget-create.md)。タイプを設定する必要があります。 このタイプは、ウィジェットがどのように機能するかを決定します。
+[ ウィジェットを作成 ](widget-create.md) する場合、タイプを設定する必要があります。 このタイプは、ウィジェットがどのように機能するかを決定します。
 
 | タイプ | 説明 |
 |--- |--- |

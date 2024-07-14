@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # 管理グリッドコントロール
 
-データを管理する管理ページには、レコードのコレクションがグリッドに表示されます。 各列の上部にあるコントロールを使用して、データを並べ替えることができます。 現在の並べ替え順序は、列ヘッダーの昇順または降順の矢印で示されます。 グリッドに表示する列を指定し、それらを別の位置にドラッグできます。 また、異なる列の配置をビューとして保存し、後で使用することもできます。 この **[!UICONTROL Action]** 列には、個々のレコードに適用できる操作が一覧表示されます。 さらに、ほとんどのグリッドの現在のビューの日付を [CSV](../systems/data-csv.md) または XML ファイルです。
+データを管理する管理ページには、レコードのコレクションがグリッドに表示されます。 各列の上部にあるコントロールを使用して、データを並べ替えることができます。 現在の並べ替え順序は、列ヘッダーの昇順または降順の矢印で示されます。 グリッドに表示する列を指定し、それらを別の位置にドラッグできます。 また、異なる列の配置をビューとして保存し、後で使用することもできます。 **[!UICONTROL Action]** の列には、個々のレコードに適用できる操作が一覧表示されます。 さらに、ほとんどのグリッドの現在のビューの日付を [CSV](../systems/data-csv.md) または XML ファイルに書き出すことができます。
 
-![注文ページ – グリッド表示](./assets/admin-workspace-grid.png){width="700" zoomable="yes"}
+![ 注文ページ – グリッド表示 ](./assets/admin-workspace-grid.png){width="700" zoomable="yes"}
 
 ## リストを並べ替え
 
@@ -23,23 +23,23 @@ ht-degree: 0%
 
 1. コレクションに追加のページを表示するには、ページネーションコントロールを使用します。
 
-   ![グリッド表示 – ページコントロール](./assets/pagination-controls.png){width="300"}
+   ![ グリッド表示 – ページコントロール ](./assets/pagination-controls.png){width="300"}
 
 ## リストにページ番号を付ける
 
-1. を **[!UICONTROL Pagination]** ページごとに表示するレコード数を制御します。
+1. **[!UICONTROL Pagination]** コントロールを、1 ページに表示するレコードの数に設定します。
 
-1. クリック **[!UICONTROL Next]** および **[!UICONTROL Previous]** リストをページスルーするか、特定のを入力します **[!UICONTROL Page Number]**.
+1. 「**[!UICONTROL Next]**」と「**[!UICONTROL Previous]**」をクリックしてリスト内を移動するか、特定の **[!UICONTROL Page Number]** を入力します。
 
 ## リストのフィルタリング
 
-1. クリック **[!UICONTROL Filters]**.
+1. 「**[!UICONTROL Filters]**」をクリックします。
 
 1. 検索するレコードを記述するために必要な数のフィルターを完了します。
 
-1. クリック **[!UICONTROL Apply Filters]**.
+1. 「**[!UICONTROL Apply Filters]**」をクリックします。
 
-   ![注文リスト – フィルターコントロール](./assets/admin-workspace-filters.png){width="700" zoomable="yes"}
+   ![ 注文リスト – フィルターコントロール ](./assets/admin-workspace-filters.png){width="700" zoomable="yes"}
 
 ## データを書き出し
 
@@ -47,34 +47,34 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >製品データをグリッドから書き出すことはできません。 詳しくは、 [Export](../systems/data-export.md).
+   >製品データをグリッドから書き出すことはできません。 詳しくは、[ 書き出し ](../systems/data-export.md) を参照してください。
 
-1. 日 _Export_ （![メニューセレクター](../assets/icon-export.png)）メニュー右上隅にある次のいずれかのファイル形式を選択します。
+1. 右上隅の _エクスポート_ （![ メニューセレクター ](../assets/icon-export.png)）メニューで、次のいずれかのファイル形式を選択します。
 
    - `CSV`
    - `Excel XML`
 
-   ![注文リスト – 書き出しオプション](./assets/customers-grid-export.png){width="700" zoomable="yes"}
+   ![ 注文リスト – 書き出しオプション ](./assets/customers-grid-export.png){width="700" zoomable="yes"}
 
-1. クリック **[!UICONTROL Export]**.
+1. 「**[!UICONTROL Export]**」をクリックします。
 
 1. ブラウザーでダウンロードに使用される場所で、書き出されたデータのダウンロードされたファイルを探します。
 
 ## グリッドレイアウト
 
-グリッド内の列の選択と順序は、必要に応じて変更し、として保存できます。 _表示_. 個々の属性設定の下のグリッドに表示する属性を制御できます。 製品グリッドに表示される属性の数が多いと、管理者の読み込み時間とパフォーマンスに影響を与える可能性があります。
+列の選択とグリッド内の順序は、必要に応じて変更し、_ビュー_ として保存できます。 個々の属性設定の下のグリッドに表示する属性を制御できます。 製品グリッドに表示される属性の数が多いと、管理者の読み込み時間とパフォーマンスに影響を与える可能性があります。
 
-![グリッド列の順序](./assets/admin-grid-columns.png){width="700" zoomable="yes"}
+![ グリッド列の順序 ](./assets/admin-grid-columns.png){width="700" zoomable="yes"}
 
 ### 列の選択の変更
 
-1. 右上隅のをクリックします _列_ （![列の制御](../assets/icon-columns.png)） コントロールします。
+1. 右上隅にある _列_ （![ 列コントロール ](../assets/icon-columns.png)）コントロールをクリックします。
 
 1. 列の選択を変更する：
 
    - グリッドに追加する任意の列のチェックボックスをオンにします。
    - グリッドから削除する列のチェックボックスをオフにします。
-   - 既定のグリッド ビューに戻すには、をクリックします **[!UICONTROL Reset]**.
+   - 既定のグリッド ビューに戻すには、[**[!UICONTROL Reset]**] をクリックします。
 
 必ず下にスクロールして、使用可能なすべての列を表示してください。
 
@@ -86,22 +86,22 @@ ht-degree: 0%
 
 ### グリッド表示の保存
 
-1. 「」をクリックします _表示_ （![ビュー制御](../assets/icon-view-eye.png)） コントロールします。
+1. _ビュー_ （![ ビューコントロール ](../assets/icon-view-eye.png)）コントロールをクリックします。
 
-1. クリック **[!UICONTROL Save Current View]**.
+1. 「**[!UICONTROL Save Current View]**」をクリックします。
 
-1. を入力 **[!UICONTROL name]** をビューに追加します。
+1. ビューの **[!UICONTROL name]** を入力します。
 
-1. すべての変更を保存するには、 _矢印_ （![すべての変更を保存](../assets/icon-arrow-save.png)）に設定します。
+1. すべての変更を保存するには、_矢印_ （![ すべての変更を保存 ](../assets/icon-arrow-save.png)）をクリックします。
 
    ビューの名前が現在のビューとして表示されます。
 
 ### グリッド表示の変更
 
-1. 「」をクリックします _表示_ （![表示アイコン](../assets/icon-view-eye.png)） コントロールします。
+1. _表示_ （![ 表示アイコン ](../assets/icon-view-eye.png)）コントロールをクリックします。
 
 1. 次のいずれかの操作を行います。
 
    - 別のビューを使用するには、ビューの名前をクリックします。
-   - ビューの名前を変更するには、 _編集_ （![編集アイコン](../assets/icon-edit-pencil.png)）アイコンをクリックして、名前を更新します。
-   - ビューを削除するには、 _編集_ （![編集アイコン](../assets/icon-edit-pencil.png)）アイコンをクリックしてから、 _削除_ （![アイコンを削除](../assets/icon-delete-trashcan-solid.png)） アイコンをクリックします。
+   - ビューの名前を変更するには、_編集_ （![ 編集アイコン ](../assets/icon-edit-pencil.png)） アイコンをクリックして名前を更新します。
+   - ビューを削除するには、_編集_ （![ 編集アイコン ](../assets/icon-edit-pencil.png)）アイコンをクリックしてから、_削除_ （![ 削除アイコン ](../assets/icon-delete-trashcan-solid.png)）アイコンをクリックします。

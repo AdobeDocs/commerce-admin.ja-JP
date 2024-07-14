@@ -1,6 +1,6 @@
 ---
-title: '[!DNL New Relic] 報告書'
-description: について説明します [!DNL New Relic] New Relic APM サービスのソフトウェアを含む、クラウドインフラストラクチャー上のAdobe Commerceのアカウントで使用できるレポート。
+title: '[!DNL New Relic] レポート'
+description: New Relic APM サ  [!DNL New Relic]  ビスのソフトウェアを含む、クラウドインフラストラクチャー上のAdobe Commerceのアカウントで使用できるレポートについて説明します。
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # [!DNL New Relic] レポート
 
-[New Relic][1] は、アプリケーションのインタラクションを分析および改善するのに役立つソフトウェア分析サービスです。 クラウドインフラストラクチャー上のAdobe Commerceのアカウントには、 [!DNL New Relic APM] サービス。 詳しくは、を参照してください [New Relic サービス][4] が含まれる _クラウドインフラストラクチャー上のCommerce ガイド_.
+[New Relic][1] は、アプリケーションのインタラクションを分析および改善するのに役立つソフトウェア分析サービスです。 クラウドインフラストラクチャー上のAdobe Commerceのアカウントには、[!DNL New Relic APM] サービス用のソフトウェアが含まれます。 詳しくは、_New Relic インフラストラクチャー上のCommerce ガイドの ][4]0} クラウドサービス } を参照してください_[
 
-## 手順 1：にサインアップ [!DNL New Relic] アカウント
+## 手順 1:[!DNL New Relic] アカウントに新規登録する
 
-1. に移動します [[!DNL New Relic]][1] web サイトでアカウントに新規登録します。
+1. [[!DNL New Relic]][1] の web サイトに移動し、アカウントに新規登録します。
 
    無料体験版アカウントに新規登録することもできます。
 
@@ -27,77 +27,77 @@ ht-degree: 0%
 
    | オプション | 説明 |
    | ------ | ----------- |
-   | アカウント ID | から [!DNL New Relic] アカウントダッシュボード。アカウント ID は、URL 内の次の後の数字です。 `/accounts` |
-   | アプリケーション ID | から [!DNL New Relic] アカウントダッシュボード、クリック **[!UICONTROL New Relic APM]**. メニューで、を選択します **[!UICONTROL Applications]**. 次に、アプリケーションを選択します。 アプリケーション ID は、URL次の後の番号です。 `/applications/` |
-   | 新規 Relic API キー | から [!DNL New Relic] アカウントダッシュボード、クリック **[!UICONTROL Account Settings]**. 左側の統合の下のメニューで、 **[!UICONTROL Data Sharing]**. このページから API キーを作成、再生成または削除できます。 |
-   | Insights API キー | から [!DNL New Relic] アカウントダッシュボード、クリック **[!UICONTROL Insights]**. 左側の管理の下のメニューで、次を選択します **[!UICONTROL API Keys]**. Insights API キーがこのページに表示されます。 必要に応じて、プラス記号（**+**）を選択し、キーを生成します。 |
+   | アカウント ID | [!DNL New Relic] アカウントダッシュボードでは、アカウント ID は URL 内の `/accounts` 以降の番号です。 |
+   | アプリケーション ID | [!DNL New Relic] アカウントダッシュボードで、「**[!UICONTROL New Relic APM]**」をクリックします。 メニューで、「**[!UICONTROL Applications]**」を選択します。 次に、アプリケーションを選択します。 アプリケーション ID は、URL次の後の番号です。 `/applications/` |
+   | 新規 Relic API キー | [!DNL New Relic] アカウントダッシュボードで、「**[!UICONTROL Account Settings]**」をクリックします。 左側の「統合」の下のメニューで、「**[!UICONTROL Data Sharing]**」を選択します。 このページから API キーを作成、再生成または削除できます。 |
+   | Insights API キー | [!DNL New Relic] アカウントダッシュボードで、「**[!UICONTROL Insights]**」をクリックします。 左側の管理の下のメニューで、「**[!UICONTROL API Keys]**」を選択します。 Insights API キーがこのページに表示されます。 必要に応じて、[ キーを挿入 ] の横のプラス記号（**+**）をクリックしてキーを生成します。 |
 
    {style="table-layout:auto"}
 
-## 手順 2：をインストールする [!DNL New Relic] サーバー上のエージェント
+## 手順 2：サーバーへの [!DNL New Relic] エージェントのインストール
 
-使用目的 [!DNL New Relic APM Pro] データを収集して送信するには、PHP エージェントがサーバーにインストールされている必要があります。
+[!DNL New Relic APM Pro] を使用してデータを収集および送信するには、PHP エージェントがサーバーにインストールされている必要があります。
 
-1. Web エージェントの選択を求められたら、 **PHP**.
+1. Web エージェントを選択するプロンプトが表示されたら、「**PHP**」をクリックします。
 
 1. サーバー上に PHP エージェントを設定するには、次の手順に従います。
 
-   ヘルプが必要な場合は、 [PHP 用New Relic][3].
+   ヘルプが必要な場合は、[New Relic for PHP][3] を参照してください。
 
 1. cron がサーバー上で実行されていることを確認します。
 
-   詳しくは、 [Cron の設定と実行][5] 開発者向けドキュメント
+   詳しくは、開発者向けドキュメントの [cron の設定と実行 ][5] を参照してください。
 
 ## 手順 3：ストアの設定
 
 >[!NOTE]
 >これらの設定オプションは、クラウドインフラストラクチャー上のAdobe Commerceには適用されません。
 >
->Pro プランを利用している場合は、New Relicは既にインストールされています [事前設定されており、デフォルトで有効](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). スタータープランを使用している場合は、を完了する必要があります [New Relic設定手順](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) これは、設定プロセスの一部です。
+>Pro プランを使用している場合、New Relicは既に [ デフォルトで事前設定され、有効 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html) になっています。 スタータープランを利用している場合は、設定プロセスの一部である ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment)0}New Relic設定手順を完了する必要があります。[
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のナビゲーションパネルで、 **[!UICONTROL General]** 展開済み、を選択 **[!UICONTROL New Relic Reporting]** 次の手順を実行します。
+1. **[!UICONTROL General]** が展開されている左側のナビゲーションパネルで「**[!UICONTROL New Relic Reporting]**」を選択し、以下の手順を実行します。
 
-   ![New Relic レポートの設定](./assets/new-relic-reporting-general.png){width="600"}
+   ![New Relic レポートの設定 ](./assets/new-relic-reporting-general.png){width="600"}
 
-   * を設定 **[!UICONTROL Enable New Relic Integration]** 対象： `Yes`.
+   * **[!UICONTROL Enable New Relic Integration]** を `Yes` に設定します。
 
-   * が含まれる **[!UICONTROL Insights API URL]**&#x200B;をパーセントで置き換えます（`%`）記号はNew Relic アカウント ID を使用します。
+   * **[!UICONTROL Insights API URL]** で、パーセント（`%`）記号をNew Relic アカウント ID に置き換えます。
 
-   * を入力 **[!UICONTROL New Relic Account ID]**.
+   * **[!UICONTROL New Relic Account ID]** を入力します。
 
-   * を入力 **[!UICONTROL New Relic Application ID]**.
+   * **[!UICONTROL New Relic Application ID]** を入力します。
 
-   * を入力 **[!UICONTROL New Relic API Key]**.
+   * **[!UICONTROL New Relic API Key]** を入力します。
 
-   * 入力 **[!UICONTROL Insights API Key]**.
+   * **[!UICONTROL Insights API Key]** を入力してください。
 
-1. の場合 **[!UICONTROL New Relic Application Name]**&#x200B;を入力し、内部参照用の設定を識別する名前を入力します。
+1. **[!UICONTROL New Relic Application Name]**：内部参照の設定を識別する名前を入力します。
 
-1. （オプション） **[!UICONTROL Send Adminhtml and Frontend as Separate Apps]**&#x200B;を選択 `Yes` ストアフロントと管理者の収集したデータを別々のアプリとしてNew Relicに送信する
+1. （オプション） **[!UICONTROL Send Adminhtml and Frontend as Separate Apps]** の場合は、「`Yes`」を選択して、ストアフロントと管理者の収集したデータを別のアプリとしてNew Relicに送信します。
 
-   このオプションには、に名前を入力する必要があります **[!UICONTROL New Relic Application Name]**.
+   このオプションには、**[!UICONTROL New Relic Application Name]** の名前を入力する必要があります。
 
    >[!NOTE]
    >
-   >この機能を有効にすると、偽陽性の数が減ります [!DNL New Relic] アラートと有効化により、フロントエンドのパフォーマンスに厳密に対応した監視とアラートを設定できます。 New Relicは、アプリケーション名がに追加された個別のアプリデータファイルを受け取ります `Adminhtml` フロントエンド 例： `MyStore_Adminhtml`
+   >この機能を有効にすると、偽陽性 [!DNL New Relic] アラートの数が減り、フロントエンドのパフォーマンスに厳密に対応した監視とアラートを設定できるようになります。 New Relicは、アプリケーション名が `Adminhtml` およびフロントエンドに追加された個別のアプリデータファイルを受け取ります。 例：`MyStore_Adminhtml`
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
-## 手順 4：で Cron を有効にする [!DNL New Relic] レポート
+## 手順 4:[!DNL New Relic] レポート用に Cron を有効にする
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Cron]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Cron]**」セクションを展開します。
 
-   ![New Relic Cron の設定](./assets/new-relic-reporting-cron.png){width="600"}
+   ![New Relic Cron 設定 ](./assets/new-relic-reporting-cron.png){width="600"}
 
-1. を設定 **[!UICONTROL Enable Cron]** 対象： `Yes`.
+1. **[!UICONTROL Enable Cron]** を `Yes` に設定します。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ## [!DNL New Relic] クエリ
 
-[!DNL New Relic Insights] データは、で記述されたステートメントに基づいています [!DNL New Relic Query Language] （NRQL）、および含めるカスタムパラメーター。 データは、アドホッククエリから、またはダッシュボードに保存されたクエリから返すことができます。 詳しくは、 [NRQL リファレンス][6] が含まれる [!DNL New Relic] ドキュメント。
+[!DNL New Relic Insights] データは、[!DNL New Relic Query Language] （NRQL）で記述されたステートメントと、含める可能性のあるカスタムパラメーターに基づいています。 データは、アドホッククエリから、またはダッシュボードに保存されたクエリから返すことができます。 詳しくは、[!DNL New Relic] ドキュメントの [NRQL リファレンス ][6] を参照してください。
 
 ### 管理イベント
 
@@ -105,25 +105,25 @@ ht-degree: 0%
 
 アクティブな管理者ユーザーの数を返します。
 
-    SELECT uniqueCount （AdminId）
-    トランザクションから
-    appName=&#39;&lt;your_app_name>&#39; 15 分前から
+    SELECT uniqueCount （AdminId） 
+    FROM Transaction
+    WHERE appName=&#39;&lt;your_app_name>&#39; SINCE 15 分 
 
 #### 現在アクティブな管理者ユーザー
 
 アクティブな管理者ユーザーの名前を返します。
 
-    ユニークを選択（AdminName）
-    トランザクションから
-    appName=&#39;&lt;your_app_name>&#39; 15 分前から
+    SELECT uniques （AdminName） 
+    FROM Transaction
+    WHERE appName=&#39;&lt;your_app_name>&#39; SINCE 15 分 
 
 #### 最近の管理者アクティビティ
 
 最近の管理者アクションの数を返します。
 
-    SELECT count （AdminId）
-    トランザクションから
-    appName =&#39;&lt;your_app_name>&#39; 1 日前からの FACET AdminName
+    SELECT count （AdminId） 
+    FROM Transaction
+    WHERE appName =&#39;&lt;your_app_name>&#39; FACET AdminName SINCE 1 day ago
 
 #### 最新の管理者アクティビティ
 
@@ -140,10 +140,10 @@ ht-degree: 0%
 
 指定した期間におけるカテゴリイベントのアプリケーション数を返します。
 
-    SELECT average （CatalogCategoryCount）
-    CRON から
-    CatalogCategoryCount が NULL でない場合
-    AND appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 分
+    SELECT average （CatalogCategoryCount） 
+    FROM Cron
+    WHERE CatalogCategoryCount IS NOT NULL
+    AND appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 分 
 
 #### 現在のカタログ数
 
@@ -159,120 +159,120 @@ ht-degree: 0%
 
 指定された期間における製品別のアプリケーション イベントの数を返します。
 
-    SELECT average （CatalogProductActiveCount）
-    CRON から
-    CatalogProductActiveCount が NULL でない場合
-    AND appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 分
+    SELECT average （CatalogProductActiveCount） 
+    FROM Cron
+    WHERE CatalogProductActiveCount IS NOT NULL
+    AND appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 分 
 
 #### アクティブな製品数
 
 指定された期間における製品別のアクティブなアプリケーション・イベントの平均数が戻されます。
 
-    SELECT average （CatalogProductActiveCount）
-    CRON から
-    CatalogProductActiveCount が NULL でない場合
-    AND CatalogProductActiveCount > 0
-    AND appName = &#39;&lt;your_app_name>&#39; 2 分前の制限 1 からの経過時間
+    SELECT average （CatalogProductActiveCount） 
+    FROM Cron
+    WHERE CatalogProductActiveCount IS NOT NULL
+     および CatalogProductActiveCount > 0
+    AND appName = &#39;&lt;your_app_name>&#39; SINCE 2 minutes ago LIMIT 1
 
 #### 設定可能な製品
 
 指定された期間内の設定可能な製品のアプリケーション イベントの平均数を返します。
 
-    SELECT average （CatalogProductConfigurableCount）
-    CRON から
-    CatalogProductConfigurableCount が NULL でない場合
-    AND appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 分
+    SELECT average （CatalogProductConfigurableCount） 
+    FROM Cron
+    WHERE CatalogProductConfigurableCount IS NOT NULL
+    AND appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 分 
 
 #### 設定可能な製品数
 
 指定された期間内の設定可能な製品別のアプリケーションイベントの平均数を返します。
 
-    SELECT average （CatalogProductConfigurableCount）
-    CRON から
-    CatalogProductConfigurableCount が NULL でない場合
-    AND CatalogProductConfigurableCount > 0
-    AND appName = &#39;&lt;your_app_name>&#39; 2 分前の制限 1 からの経過時間
+    SELECT average （CatalogProductConfigurableCount） 
+    FROM Cron
+    WHERE CatalogProductConfigurableCount IS NOT NULL
+     および CatalogProductConfigurableCount > 0
+    AND appName = &#39;&lt;your_app_name>&#39; SINCE 2 minutes ago LIMIT 1
 
 #### 製品数（すべて）
 
 すべての製品の申請イベントの合計数を返します。
 
-    SELECT average （CatalogProductCount）
-    CRON から
-    CatalogProductCount が NULL でない場合
-    AND appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 分
+    SELECT average （CatalogProductCount） 
+    FROM Cron
+    WHERE CatalogProductCount IS NOT NULL
+    AND appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 分 
 
 #### 現在の製品数（すべて）
 
 指定された期間におけるすべての製品のアプリケーション・イベントの平均数が戻されます。
 
-    SELECT average （CatalogProductCount）
-    CRON から
-    CatalogProductCount が NULL でない場合
-    AND CatalogProductCount > 0
-    AND appName = &#39;&lt;your_app_name>&#39; 2 分前の制限 1 からの経過時間
+    SELECT average （CatalogProductCount） 
+    FROM Cron
+    WHERE CatalogProductCount IS NOT NULL
+     および CatalogProductCount > 0
+    AND appName = &#39;&lt;your_app_name>&#39; SINCE 2 minutes ago LIMIT 1
 
 #### 顧客数
 
 アプリケーション イベントの平均数を顧客別に返します。
 
-    SELECT average （CustomerCount）
-    CRON から
-    CustomerCount が NULL でない場合
-    および CustomerCount > 0&lt;
-    AND appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 分
+    SELECT average （CustomerCount） 
+    FROM Cron
+    WHERE CustomerCount NOT NULL
+     および CustomerCount > 0&lt;
+     および appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 分 
 
 #### 現在の顧客数
 
 指定された期間の平均顧客数を返します。
 
-    SELECT average （CustomerCount）
-    CRON から
-    CustomerCount が NULL でない場合
-    CustomerCount > 0 である場合
-    AND appName = &#39;&lt;your_app_name>&#39; 2 分前の制限 1 からの経過時間
+    SELECT average （CustomerCount） 
+    FROM Cron
+    WHERE CustomerCount IS NOT NULL
+    AND CustomerCount > 0
+    AND appName = &#39;&lt;your_app_name>&#39; LIMIT 1
 
 #### モジュールステータス
 
 指定された期間内にアプリケーション モジュールが有効、無効、またはインストールされた平均回数を返します。
 
-    SELECT average （ModulesDisabled）,average （ModulesEnabled）,average
-    （ModulesInstalled）
-    CRON から &lt;
-    AppName = &#39;の場合&lt;your_app_name>&#39; TIMESERIES 2 分
+    SELECT average （ModulesDisabled）, average （ModulesEnabled）, average
+     （ModulesInstalled） 
+    FROM Cron&lt;
+    WHERE appName = &#39;&lt;your_app_name>&#39; TIMESERIES 2 分 
 
 #### 現在のモジュールステータス
 
 指定された期間内にモジュールが有効、無効、またはインストールされた平均回数を返します。
 
-    SELECT average （ModulesDisabled）,average （ModulesEnabled）,average
-    （ModulesInstalled）
-    CRON から
-    AppName = &#39;の場合&lt;your_app_name>&#39; 2 分前の制限 1 からの経過時間
+    SELECT average （ModulesDisabled）, average （ModulesEnabled）, average
+     （ModulesInstalled） 
+    FROM Cron
+    WHERE appName = &#39;&lt;your_app_name>&#39; SINCE 2 minutes ago LIMIT 1
 
 #### Web サイトとストアの数
 
 指定された期間中の web サイトおよびストア別のアプリケーションイベントの平均数を返します。
 
-    SELECT average （StoreViewCount）, average （WebsiteCount）
-    CRON から
-    WHERE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; TIMESERIES 2 分
+    SELECT average （StoreViewCount）, average （WebsiteCount） 
+    FROM Cron
+    WHERE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; TIMESERIES 2 分 
 
 #### 現在の web サイトとストアの数
 
 指定された期間における現在のアプリケーション・イベントの平均数が戻されます。
 
-    SELECT average （StoreViewCount）, average （WebsiteCount）
-    CRON から
-    AppName = &#39;の場合&lt;your_app_name>&#39; 2 分前の制限 1 からの経過時間
+    SELECT average （StoreViewCount）, average （WebsiteCount） 
+    FROM Cron
+    WHERE appName = &#39;&lt;your_app_name>&#39; SINCE 2 minutes ago LIMIT 1
 
 #### Cron - イベントからのすべてのデータ
 
 すべてのアプリケーション イベント データを返します。
 
     SELECT *
-    CRON から
-    AppName = &#39;の場合&lt;your_app_name>&#39;
+    FROM Cron
+    WHERE appName = &#39;&lt;your_app_name>&#39;
 
 ### 顧客
 
@@ -280,25 +280,25 @@ ht-degree: 0%
 
 指定された期間のアクティブな顧客の数を返します。
 
-    SELECT uniqueCount （CustomerId）
-    トランザクションから
-    AppName = &#39;の場合&lt;your_app_name>&#39; 15 分前から
+    SELECT uniqueCount （CustomerId） 
+    FROM Transaction
+    WHERE appName = &#39;&lt;your_app_name>&#39; SINCE 15 分 
 
 #### アクティブな顧客
 
 指定された期間のアクティブな顧客の名前を返します。
 
-    SELECT uniques （CustomerName）
-    トランザクションから
-    appName=&#39;&lt;your_app_name>&#39; 15 分前から
+    SELECT uniques （CustomerName） 
+    FROM Transaction
+    WHERE appName=&#39;&lt;your_app_name>&#39; SINCE 15 分 
 
 #### 上位のお客様
 
 指定された期間内の上位顧客を返します。
 
-    SELECT count （CustomerId）
-    トランザクションから
-    AppName = &#39;の場合&lt;your_app_name>&#39; 1 日前からの FACET CustomerName
+    SELECT count （CustomerId） 
+    FROM Transaction
+    WHERE appName = &#39;&lt;your_app_name>&#39; FACET CustomerName SINCE 1 day ago
 
 #### 最近の管理者アクティビティ
 
@@ -308,9 +308,9 @@ ht-degree: 0%
     FROM Transaction
     WHERE appName=&#39;&lt;your_app_name>&#39;
     AND CustomerName IS NOT NULL
-    AND CustomerName !&lt;/your_app_name>= &#39;該当なし&#39; 制限 50
+    AND CustomerName!&lt;/your_app_name>= &#39;該当なし&#39; 制限 50
 
-### 注文
+### 詻
 
 #### 注文数字
 
@@ -330,8 +330,8 @@ ht-degree: 0%
 
 指定した期間の中で注文された行項目の合計数を返します。
 
-    SELECT sum （lineItemCount）
-    1 日前からのトランザクション
+    SELECT sum （lineItemCount） 
+    FROM Transaction SINCE 1 day ago
 
 
 [1]: https://newrelic.com/

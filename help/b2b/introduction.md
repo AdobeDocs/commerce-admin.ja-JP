@@ -1,5 +1,5 @@
 ---
-title: の概要 [!DNL Adobe Commerce B2B]
+title: 概要  [!DNL Adobe Commerce B2B]
 description: 統合 B2B 機能を使用して、企業のお客様のニーズを満たす方法を説明します。
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
@@ -10,11 +10,11 @@ ht-degree: 2%
 
 ---
 
-# の概要 [!DNL Adobe Commerce B2B]
+# [!DNL Adobe Commerce B2B] の概要
 
 標準的な B2B （Business to Consumer）モデルとは異なり、統合された B2B （Business to Business）機能は、企業のお客様を持つセラー（Adobe Commerceのマーチャント）のニーズを満たすように設計されています。 複雑な組織構造を持つ企業や、様々な役割や購買権限レベルを持つ複数のユーザーに対応します。 典型的な B2B 顧客は、小売店のマネージャーや、会社の代わりに購入を行う購入者の場合があります。 どちらの場合も、取引はビジネスとそのビジネスの間で行われます。 また、製品を消費者に直接販売することもできます。 [!DNL Adobe Commerce B2B] は、B2B モデルと B2C モデルの両方をサポートする統合ソリューションです。
 
-（を使用） [インストール](install.md) および [イネーブルメント](enable-basic-features.md) Adobe Commerce ストアの B2B 拡張機能のうち、顧客固有のカタログと価格、ターゲットを絞ったコンテンツとプロモーションを使用して、購入エクスペリエンスをパーソナライズできます。
+Adobe Commerce ストアに B2B 拡張機能の [ インストール ](install.md) と [ 有効化 ](enable-basic-features.md) を導入すると、顧客固有のカタログと価格、ターゲットを絞ったコンテンツとプロモーションで購入エクスペリエンスをパーソナライズできます。
 
 ## 会社アカウント
 
@@ -22,41 +22,41 @@ ht-degree: 2%
 
 Commerceのサイト管理者は、管理者から、会社が web サイトでどのように運営するかを設定できます。 設定によって、会社のユーザーが使用できる B2B 機能（支払い方法、価格レベル、見積を使用して価格を交渉する機能、購買依頼リストを作成する機能など）が決まります。
 
-詳しくは、を参照してください [会社アカウント](account-companies.md).
+詳しくは、「[ 会社アカウント ](account-companies.md)」を参照してください。
 
 >[!NOTE]
 >
->有効化すると、ストアは企業に対して以下のオプションを提供できます _分割払い_&#x200B;会社のクレジットラインで購入することを意味します。 マーチャントは、会社アカウントのクレジットを割り当て、会社のクレジット設定とクレジット償還を管理できます。
+>有効にすると、ストアは会社に _アカウントでの支払い_ のオプションを提供できます。これは、会社のクレジットラインで購入することを意味します。 マーチャントは、会社アカウントのクレジットを割り当て、会社のクレジット設定とクレジット償還を管理できます。
 
 ## 会社管理
 
-[!BADGE 1.5.0 – ベータ版]{type=Informative url="/help/b2b/release-notes.md" tooltip="ベータ版プログラムの参加者のみが使用できます"}
+[!BADGE 1.5.0 – ベータ版 ]{type=Informative url="/help/b2b/release-notes.md" tooltip="Beta プログラム参加者のみ使用可能"}
 
 会社管理は、マーチャント管理者が、複雑な運用モデルを持つ B2B 組織の管理と管理を合理化するのに役立ちます。
 
-適切な権限を持つユーザーは、管理者から **[!UICONTROL Company Hierarchy]** これは、複数の会社で構成される企業の組織構造を反映しています。 この階層を使用すると、会社をグループとして表示および管理できます。 例えば、管理者は親会社を指定し、その親会社の子会社として機能するすべての会社を割り当てることができます。 その後、親会社管理者は、割り当てられたすべての会社の会社アカウントを表示および管理できます。
+適切な権限を持つユーザーは、管理者から、複数の会社で構成されるビジネス企業の組織構造を反映した **[!UICONTROL Company Hierarchy]** ールを作成できます。 この階層を使用すると、会社をグループとして表示および管理できます。 例えば、管理者は親会社を指定し、その親会社の子会社として機能するすべての会社を割り当てることができます。 その後、親会社管理者は、割り当てられたすべての会社の会社アカウントを表示および管理できます。
 
-詳しくは、を参照してください [会社管理](manage-companies.md).
+詳しくは、[ 会社管理 ](manage-companies.md) を参照してください。
 
 ## Adobe Commerce 向けサービス
 
 Adobe Commerce向けサービスは、Adobe CommerceとMagento Open Sourceの機能を拡張するホストサービスです。 B2B ワークフローをサポートするサービスは次のとおりです。
 
-* [カタログサービス](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html)
+* [ カタログサービス ](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html)
 * [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)
-* [製品のRecommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)
+* [ 製品のRecommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)
 
 ## 共有カタログ
 
 共有カタログは、1 つまたは複数の web サイト上の異なる会社に対して、製品ごとのカスタム価格を設定できる価格レベルです。 共有カタログを使用すると、顧客グループごとに異なる価格レベルを適用して製品を販売できます。 共有カタログのサポートは、会社アカウントをサポートするように設定されたCommerce ストアでのみ使用できます。
 
-詳しくは、を参照してください [共有カタログの操作](catalog-shared.md).
+詳しくは、[ 共有カタログの操作 ](catalog-shared.md) を参照してください。
 
 ## クイック注文
 
 クイックオーダーを設定すると、注文する製品の製品名や SKU がわかっている場合に、ログインしている顧客の注文プロセスを数回のクリックに減らすことができます。
 
-詳しくは、を参照してください [クイックオーダー](quick-order.md).
+詳しくは、「クイックオーダー [ を参照してください ](quick-order.md)。
 
 ## 交渉可能な見積
 
@@ -66,20 +66,20 @@ Adobe Commerce向けサービスは、Adobe CommerceとMagento Open Sourceの機
 
 * 販売者は、管理者から購入者に対する見積もりを開始できます。
 
-バイヤーとセラーは、交渉プロセス（品目の追加、数量の更新、値引の要求と適用など）を契約に至るまで管理するために見積を使用します。 この _見積もり_ 管理画面のグリッドには、受け取った各見積もりが一覧表示され、購入者と販売者の間のコミュニケーションの履歴が保持されます。
+バイヤーとセラーは、交渉プロセス（品目の追加、数量の更新、値引の要求と適用など）を契約に至るまで管理するために見積を使用します。 管理者の _見積もり_ グリッドには、受信した各見積もりが一覧表示され、購入者と販売者の間のコミュニケーションの履歴が保持されます。
 
 譲渡可能見積のサポートは、会社アカウントをサポートするように設定されたCommerce ストアでのみ利用できます。
 
-詳しくは、を参照してください [交渉可能な見積](quotes.md).
+詳しくは、[ 交渉可能な見積もり ](quotes.md) を参照してください。
 
 ## 発注書承認
 
 会社アカウントに対して発注が有効化されると、すべての発注が発注（PO）として自動的に作成されます。 必要な権限を持つ会社ユーザーは、自分が作成した PO および下位ユーザーが作成した PO を作成、編集および削除できます。 ユーザーの役割と順序に応じて、会社ユーザーは複数の承認ルールの対象となる場合があります。
 
-詳しくは、を参照してください [会社の発注書](purchase-order-flow.md).
+詳しくは、「[ 会社発注 ](purchase-order-flow.md)」を参照してください。
 
 ## 購買依頼リスト
 
 顧客は購買依頼リストを使用して、頻繁に発注される製品を購入する際に時間を節約できます。これは、リストから直接品目を買い物かごに追加できるためです。 様々なベンダー、購入者、チーム、キャンペーンなど、ワークフローを効率化する要素の製品に焦点を当てた複数のリストを維持できます。
 
-詳しくは、を参照してください [購買依頼リスト](requisition-lists.md).
+詳細は、「[ 購買依頼リスト ](requisition-lists.md)」を参照してください。

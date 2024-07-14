@@ -37,7 +37,7 @@ ht-degree: 6%
 + 会社管理 {#company-management}
    + [概要](manage-companies.md)
    + [会社階層の管理](assign-companies.md)
-+ 共有カタログ {#shared-catalogs}
++ Shared catalogs {#shared-catalogs}
    + [概要](catalog-shared.md)
    + 共有カタログの定義 {#define}
       + [共有カタログの作成](catalog-shared-create.md)
@@ -46,11 +46,11 @@ ht-degree: 6%
       + [カタログへの会社の割り当て](catalog-shared-assign-companies.md)
    + [共有カタログの管理](catalog-shared-manage.md)
 + [クイックオーダー](quick-order.md)
-+ 発注書 {#purchase-orders}
++ 発注 {#purchase-orders}
    + [会社の発注書](purchase-order-flow.md)
    + [承認ルール](account-dashboard-approval-rules.md)
    + [[!UICONTROL My Purchase Orders]](account-dashboard-my-purchase-orders.md)
-+ 見積もり {#quotes}
++ {#quotes} の引用
    + [概要](quotes.md)
    + [見積の設定](configure-quotes.md)
    + [見積依頼](quote-request.md)
@@ -64,4 +64,4 @@ ht-degree: 6%
 + 参照 {#reference}
    + [後方互換性のない変更](backward-incompatible-changes.md)
    + [パッケージ](packages.md)
-+ [Merchant Guides に戻る](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [ マーチャントガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

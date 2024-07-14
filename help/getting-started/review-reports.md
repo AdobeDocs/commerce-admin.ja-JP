@@ -12,20 +12,20 @@ ht-degree: 0%
 
 # レポートを確認
 
-組み込みを使用している場合 [!DNL Commerce] レビュー、レビューレポートは、製品レビューに関する情報を顧客別および製品別に提供します。
+組み込みの [!DNL Commerce] レビューを使用している場合、レビューレポートには、顧客別および製品別の製品レビューに関する情報が表示されます。
 
 ## [!UICONTROL Customer Reviews Report]
 
-この [!UICONTROL Customer Reviews Report] 製品レビューを送信したすべての顧客のリストが表示されます。 レポートには、各顧客が送信したレビューの数、およびレビューのリストへのリンクが含まれます。
+[!UICONTROL Customer Reviews Report] には、製品レビューを送信したすべての顧客のリストが表示されます。 レポートには、各顧客が送信したレビューの数、およびレビューのリストへのリンクが含まれます。
 
-日 _Admin_ サイドバー、に移動 **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Customers]**.
+_管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Reviews]_/**[!UICONTROL By Customers]**に移動します。
 
-![顧客別レポートを確認](./assets/customer-reviews.png){width="600"}
+![ 顧客別レビュー報告書 ](./assets/customer-reviews.png){width="600"}
 
 ## [!UICONTROL Product Reviews Report]
 
-この [!UICONTROL Product Reviews Report] お客様によってレビューされたすべての製品をリストします。 レポートには、レビューの数と平均評価、最後にレビューされた製品、各製品のレビューのリストへのリンクが含まれます。
+[!UICONTROL Product Reviews Report] には、お客様によってレビューされたすべての製品がリストされます。 レポートには、レビューの数と平均評価、最後にレビューされた製品、各製品のレビューのリストへのリンクが含まれます。
 
-日 _Admin_ サイドバー、に移動 **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Products]**.
+_管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Reviews]_/**[!UICONTROL By Products]**に移動します。
 
-![製品別レポートを確認](./assets/product-reviews.png){width="600"}
+![ 製品別レビュー報告書 ](./assets/product-reviews.png){width="600"}

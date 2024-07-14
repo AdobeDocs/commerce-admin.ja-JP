@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 買い物客への支援の提供
 
-顧客は注文に関するヘルプが必要になる場合があります。 ストア管理者が使用できる _顧客としてログイン_&#x200B;を使用すると、顧客に表示される内容を確認し、更新を行って支援することができます。
+顧客は注文に関するヘルプが必要になる場合があります。 ストア管理者は _顧客としてログイン_ を使用できます。これにより、顧客に対して表示される内容を確認し、更新を行って支援することができます。
 
 ユーザーとしてログインした際に実行されたすべてのアクションは、実際のお客様のアカウントに適用されます。
 
-に対して有効になっている場合 _Admin_ ユーザー、 _[!UICONTROL Login as Customer]_ボタンが複数のページに表示される：
+_管理者_ ユーザーに対して有効になっている場合は、_[!UICONTROL Login as Customer]_のボタンが複数のページに表示されます。
 
 * [顧客編集ページ](../customers/update-account.md)
 * [注文ビューページ](../stores-purchase/order-processing.md)
@@ -24,64 +24,64 @@ ht-degree: 0%
 * [「出荷ビュー」ページ](../stores-purchase/shipments.md)
 * [「クレジット・メモ表示」ページ](../stores-purchase/credit-memo-create.md)
 
-![顧客としてログイン](assets/login-as-customer.png){width="600" zoomable="yes"}
+![ 顧客としてログイン ](assets/login-as-customer.png){width="600" zoomable="yes"}
 
 ## 顧客としてログインを有効にする
 
-有効化 _顧客としてログイン_ Commerce インスタンスでこの機能を有効にし、ユーザーロール権限で管理者ユーザーのアクセスを有効にする必要があります。
+_顧客としてログイン_ を有効にするには、Commerce インスタンスでその機能を有効にし、ユーザーロール権限で管理者ユーザーのアクセスを有効にする必要があります。
 
 ### 機能の有効化
 
-1. 管理サイドバーで、に移動します。  **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 管理者サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Customers]** を選択します  **[!UICONTROL Login as Customer]**.
+1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Login as Customer]**」を選択します。
 
-   ![設定オプション – 顧客としてログイン](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
+   ![ 設定オプション – 顧客としてログイン ](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
 
-1. を設定 **[!UICONTROL Enable Login as Customer]** 対象： `Yes`.
+1. **[!UICONTROL Enable Login as Customer]** を `Yes` に設定します。
 
-1. _（オプション）_ を設定 **[!UICONTROL Disable Page Cache for Admin User]** 対象： `No` 管理者ユーザーがユーザーとしてログインした際にページキャッシュを有効にする場合。
+1. _（オプション）_ 管理者ユーザーが顧客としてログインした際にページキャッシュを有効にするには、**[!UICONTROL Disable Page Cache for Admin User]** を `No` に設定します。
 
    >[!WARNING]
    >
-   > ページキャッシュの無効化（`Yes` - デフォルト）を使用すると、ユーザーとしてログインした際に、キャッシュされていない新しいデータを取得できます。
+   > ページキャッシュを無効にする（`Yes` - デフォルト）と、ユーザーとしてログインした際に、キャッシュされていない新しいデータが確実に取得されます。
 
-1. _（オプション）_ を設定 **[!UICONTROL Store View to Log in]** 対象： `Manual Selection` マルチサイトまたはマルチストアの設定があり、管理者ユーザーが顧客としてログインした際にストア表示を選択できるようにする場合。
+1. _（オプション）_ マルチサイトまたはマルチストアの設定があり、管理者ユーザーが顧客としてログインした際にストア表示を選択する場合は、**[!UICONTROL Store View to Log in]** を `Manual Selection` に設定します。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ### 管理者ユーザーのアクセスを有効にする
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _権限_ > **[!UICONTROL User Roles]**.
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_権限_/**[!UICONTROL User Roles]** に移動します。
 
 1. リストで役割をクリックします。
 
-1. が含まれる [!UICONTROL _役割に関する情報_] 左のパネル、をクリック **[!UICONTROL Role Resources]**.
+1. [!UICONTROL _役割情報_] 左側のパネルで、「**[!UICONTROL Role Resources]**」をクリックします。
 
-1. 変更 **[!UICONTROL Role Resources]** ～するページに載っている `Custom`.
+1. ページの **[!UICONTROL Role Resources]** を `Custom` に変更します。
 
    >[!INFO]
    >
    > このオプションを選択すると、リソース階層がページに表示されます。
 
-1. スクロール先：  **[!UICONTROL Customers]** 親項目と **[!UICONTROL Login as Customer]** その下の項目。 次に、役割に対して有効にするリソースを選択します。
+1. **[!UICONTROL Customers]** の親項目とその下の **[!UICONTROL Login as Customer]** の項目までスクロールします。 次に、役割に対して有効にするリソースを選択します。
 
-   * **[!UICONTROL Allow Login as Customer]**  – 管理者ユーザーがを使用することを許可します _顧客としてログイン_ 機能
-   * **[!UICONTROL View Login as Customer Log]**  – 管理者ユーザーに対し、このプロパティの表示を許可します _顧客としてログイン_ ログ。
+   * **[!UICONTROL Allow Login as Customer]** – 管理者ユーザーが _顧客としてログイン_ 機能を使用できるようにします。
+   * **[!UICONTROL View Login as Customer Log]** – 管理者ユーザーに _顧客としてログイン_ ログを表示することを許可します。
 
-   ![ロールリソース – 顧客としてログイン](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
+   ![ 役割のリソース – 顧客としてログイン ](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
 
-1. クリック **[!UICONTROL Save Role]**.
+1. 「**[!UICONTROL Save Role]**」をクリックします。
 
 ## 管理者から顧客としてログインします
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Customers]** > [!UICONTROL _すべての顧客_].
+1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/[!UICONTROL _すべての顧客_] に移動します。
 
 1. ユーザーを編集モードで開きます。
 
-1. が含まれる **[!UICONTROL Customer Information]** パネルで、 **[!UICONTROL Account Information]** セクション。
+1. **[!UICONTROL Customer Information]** パネルで、「**[!UICONTROL Account Information]**」セクションを選択します。
 
-1. を **[!UICONTROL Allow remote shopping assistance]** 対象： `Yes`.
+1. **[!UICONTROL Allow remote shopping assistance]** を `Yes` に設定します。
 
    >[!INFO]
    >
@@ -91,13 +91,13 @@ ht-degree: 0%
 
 管理者がストアサポートスタッフのアカウントアクセスを有効にするには、お客様は自分のアカウントでこの機能を有効にする必要があります。
 
-1. 顧客は次の場所に移動します。 **[!UICONTROL Account Information]** ページ。
+1. お客様は **[!UICONTROL Account Information]** のページに移動します。
 
-1. 選択します。 **[!UICONTROL Allow remote shopping assistance]** チェックボックス。
+1. **[!UICONTROL Allow remote shopping assistance]** チェックボックスを選択します。
 
-1. 顧客のクリック数 **[!UICONTROL Save]**.
+1. 顧客は「**[!UICONTROL Save]**」をクリックします。
 
-![アカウント情報ページ](assets/permission.png){width="700" zoomable="yes"}
+![ アカウント情報ページ ](assets/permission.png){width="700" zoomable="yes"}
 
 >[!WARNING]
 >
@@ -107,23 +107,23 @@ ht-degree: 0%
 
 >[!INFO]
 >
->使用目的 _顧客としてログイン_&#x200B;管理者が前述のように設定されていることを確認してください。
+>_顧客としてログイン_ を使用するには、管理者が前述のように設定されていることを確認してください。
 
-_顧客としてログイン_ を使用すると、顧客と同様にサイトを表示でき、トラブルシューティングや顧客向けの他のアクションを実行できます。 必要な権限を持つユーザーの役割が割り当てられている場合：
+_顧客としてログイン_ すると、顧客と同じようにサイトを表示でき、トラブルシューティングを行ったり、顧客に対して他のアクションを実行したりできます。 必要な権限を持つユーザーの役割が割り当てられている場合：
 
-1. 次のいずれかをクリックできます。 **[!UICONTROL Login as Customer]** 前のセクションにリストされたページで。
+1. 前の節で一覧表示したページで「**[!UICONTROL Login as Customer]**」をクリックできます。
 1. 「顧客としてログイン」アクションは、「アクション」レポートで使用できます。
 
 >[!WARNING]
 >
->ログイン中に実行されたアクション [!UICONTROL _顧客として_] （製品の追加や削除など）は、実際の顧客の注文に適用されます。 ストアフロントには、次の場合にバナーが表示されます `logged in as customer_name` 特別な状態を思い出させる。
+>[!UICONTROL _顧客として_] ログイン中に実行されたアクション（製品の追加/削除など）は、実際の顧客の注文に適用されます。 ストアフロントでは、特別な状態を `logged in as customer_name` 示するバナーが表示されます。
 
 ## カスタマーログとしてログイン
 
 {{ee-feature}}
 
-Adobe Commerceには、のログが用意されています _顧客としてログイン_ アクション。 管理者ユーザーが機能にアクセスするすべてのセッションが一覧表示されます。 ログに記録されたアクションにアクセスするには、 [管理アクションレポート](../systems/action-log-report.md).
+Adobe Commerceには、「顧客としてログイン _アクションのログが用意されて_ ます。 管理者ユーザーが機能にアクセスするすべてのセッションが一覧表示されます。 ログに記録されたアクションにアクセスするには、[ 管理者アクションレポート ](../systems/action-log-report.md) に移動します。
 
-レポート設定をフィルタリングできます **[!UICONTROL Action Group]** 対象： `Login As Customer` ページの上部との **[!UICONTROL Search]**.
+レポート設定 **[!UICONTROL Action Group]** をフィルタリングして、ページの上部にある `Login As Customer` をクリック **[!UICONTROL Search]** きます。
 
-![アクションレポートのフィルタリング](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}
+![ アクションレポートのフィルタリング ](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}

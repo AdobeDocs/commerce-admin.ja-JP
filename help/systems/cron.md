@@ -23,37 +23,37 @@ Adobe CommerceとMagento Open Sourceは、スクリプトを定期的に実行�
 
 >[!IMPORTANT]
 >
->Commerce サービスを crontab にインストールして、コアコンポーネントと一部のサードパーティの拡張機能が期待どおりに機能することを確認する必要があります。 を参照してください。 [の説明 _インストールガイド_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html) crontab へのサービスのインストールに関する詳細情報
+>Commerce サービスを crontab にインストールして、コアコンポーネントと一部のサードパーティの拡張機能が期待どおりに機能することを確認する必要があります。 crontab へのサービスのインストールについて詳しくは、[_インストールガイドの手順_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html) を参照してください。
 
 さらに、cron スケジュールに従って実行するように次を設定できます。
 
 - システム グリッドの更新とインデックス再作成の注文
 - 保留中の支払いの有効期間
 
-次のことを確認します [ベース URL](../stores-purchase/store-urls.md) ストアのは、cron 操作中に生成される URL が正しくなるように正しく設定されています。 クラウドインフラストラクチャー上のAdobe Commerceについては、以下を参照してください。 [cron ジョブの設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html) が含まれる _クラウドインフラストラクチャー上のCommerce ガイド_. オンプレミスについては、を参照してください。 [の設定と実行](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) が含まれる _設定ガイド_.
+Cron 操作中に生成される URL が正しくなるように、ストアの [ ベース URL](../stores-purchase/store-urls.md) が正しく設定されていることを確認します。 [ クラウドインフラストラクチャー上のAdobe Commerceについては、_クラウドインフラストラクチャー上のCommerce ガイド ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)cron ジョブの設定_ を参照してください。 オンプレミスの場合は、[ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) の _設定と実行コン_ を参照してください。
 
 ## Cron の設定
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Advanced]** を選択します **[!UICONTROL System]**.
+1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Cron]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Cron]**」セクションを展開します。
 
-   ![詳細設定 – cron タスク](../configuration-reference/advanced/assets/system-cron.png){width="600" zoomable="yes"}
+   ![ 詳細設定 – cron タスク ](../configuration-reference/advanced/assets/system-cron.png){width="600" zoomable="yes"}
 
-1. の次の設定を行います **[!UICONTROL Index]** および **[!UICONTROL Default]** グループ。
+1. **[!UICONTROL Index]** グループと **[!UICONTROL Default]** グループに対して、次の設定を行います。
 
    設定は、各セクションで同じです。
 
    - **[!UICONTROL Generate Schedules Every]** - スケジュールを生成する頻度（分）を定義します。 スケジュールはデータベースに保存されます。
-   - **[!UICONTROL Schedule Ahead for]** - cron ジョブが事前にスケジュールされる期間（分単位）を定義します。 例えば、この設定がに設定されている場合 `10` cron が実行されると、cron ジョブは次の 10 分間にスケジュールされます。
-   - **[!UICONTROL Missed if not Run Within]**  – 失敗したジョブを特定するために使用する時間（分）を定義します。 Cron ジョブがスケジュールされた時間に実行されず、指定された時間が経過した場合は、実行できず、ステータスが「」に設定されます `Missed`.
-   - **[!UICONTROL History Cleanup Every]**  – 終了したタスクの履歴がデータベースからクリアされる時間（分単位）を定義します。
-   - **[!UICONTROL Success History Lifetime]** - cron ジョブの履歴に次の値が含まれる時間（分単位）を定義します `Successful` ステータスはデータベースに残ります。
-   - **[!UICONTROL Failure History Lifetime]** - cron ジョブの履歴がである期間（分単位）を `Error` ステータスはデータベースに残ります。
-   - **[!UICONTROL Use Separate Process]** - グループのすべての cron ジョブを別のシステムプロセスで実行するかどうかを定義します。 オプション： `Yes` / `No`
+   - **[!UICONTROL Schedule Ahead for]** – 事前に cron ジョブをスケジュールする間隔（分単位）を定義します。 例えば、この設定が `10` に設定され、cron が実行される場合、cron ジョブは次の 10 分間にスケジュールされます。
+   - **[!UICONTROL Missed if not Run Within]** – 失敗したジョブを特定するために使用する時間（分）を定義します。 Cron ジョブがスケジュールされた時刻に実行されず、指定された時間が経過した場合は、ジョブを実行できず、ジョブのステータスが `Missed` に設定されます。
+   - **[!UICONTROL History Cleanup Every]** – 終了したタスクの履歴がデータベースからクリアされる時間（分単位）を定義します。
+   - **[!UICONTROL Success History Lifetime]** - `Successful` ステータスの cron ジョブの履歴がデータベースに残る時間（分単位）を定義します。
+   - **[!UICONTROL Failure History Lifetime]** - `Error` ステータスの cron ジョブの履歴がデータベースに残る時間（分単位）を定義します。
+   - **[!UICONTROL Use Separate Process]** - グループのすべての cron ジョブを別のシステムプロセスで実行するかどうかを定義します。 オプション：`Yes` / `No`
 
-   ![詳細設定 – cron グループインデックス](../configuration-reference/advanced/assets/system-cron-group-index.png){width="600" zoomable="yes"}
+   ![ 詳細設定 – cron グループインデックス ](../configuration-reference/advanced/assets/system-cron-group-index.png){width="600" zoomable="yes"}
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

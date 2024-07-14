@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # テーブル レート配送
 
-この _テーブル率_ 出荷方法では、データのテーブルが参照され、次のような条件の組合せに基づいて出荷率が計算されます。
+_テーブル率_ 配送方法は、データのテーブルを参照して、次のような条件の組み合わせに基づいて配送料を計算します。
 
 - 重み付けと宛先
 - 価格 v.目的地
@@ -26,39 +26,39 @@ ht-degree: 3%
 >
 >一度にアクティブにできるテーブル・レート・データのセットは 1 つだけです。
 
-![表ショッピング・カート受注要約のレート出荷オプション](./assets/storefront-cart-table-rate.png){width="700" zoomable="yes"}
+![ 表買い物かご注文の概要の料金配送オプション ](./assets/storefront-cart-table-rate.png){width="700" zoomable="yes"}
 
 ## 手順 1：デフォルト設定の完了
 
 最初の手順は、テーブルのレートのデフォルト設定を完了することです。 この手順は、設定の範囲を変更せずに完了できます。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. が含まれる _[!UICONTROL Sales]_左パネルの「」セクションで、**[!UICONTROL Delivery Methods]**.
+1. 左パネルの「_[!UICONTROL Sales]_」セクションで、「**[!UICONTROL Delivery Methods]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Table Rates]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Table Rates]**」セクションを展開します。
 
    >[!NOTE]
    >
-   >必要に応じて、まず **[!UICONTROL Use system value]** チェックボックスをオンにして、説明に従って次の設定を変更します。
+   >必要に応じて、最初に「**[!UICONTROL Use system value]**」チェックボックスをオフにして、説明に従って次の設定を変更します。
 
-   ![テーブル率](../configuration-reference/sales/assets/delivery-methods-table-rates.png){width="600" zoomable="yes"}
+   ![ テーブル料率 ](../configuration-reference/sales/assets/delivery-methods-table-rates.png){width="600" zoomable="yes"}
 
-1. を設定 **[!UICONTROL Enabled]** 対象： `Yes`.
+1. **[!UICONTROL Enabled]** を `Yes` に設定します。
 
-1. を入力 **[!UICONTROL Title]** チェックアウト時にテーブルの料金セクションに表示する項目。
+1. チェックアウト時に表の料率セクションに表示する **[!UICONTROL Title]** を入力します。
 
-   デフォルトのタイトルはです。 `Best Way`.
+   デフォルトのタイトルは `Best Way` です。
 
-1. を入力 **[!UICONTROL Method Name]** 買い物かごで計算された料金の横にラベルとして表示する場合。
+1. 買い物かご内の計算された料金の横にラベルとして表示する **[!UICONTROL Method Name]** を入力します。
 
-1. を設定 **[!UICONTROL Condition]** を次のいずれかの計算方法に変更します。
+1. **[!UICONTROL Condition]** を次のいずれかの計算方法に設定します。
 
    - `Weight v. Destination`
    - `Price v. Destination`
    - `Number of Items v. Destination`
 
-1. 仮想製品を含む注文の場合は、次のように設定します **[!UICONTROL Include Virtual Products in Price Calculation]** 対象： `Yes` 計算に仮想製品を含めることができるかどうか。
+1. 仮想商品を含む注文の場合、仮想商品を計算に含めることができるようにするには、**[!UICONTROL Include Virtual Products in Price Calculation]** を `Yes` に設定します。
 
    >[!NOTE]
    >
@@ -68,72 +68,72 @@ ht-degree: 3%
 
    手数料は任意で、送料に加算される追加料金として表示されます。 手数料を含める場合は、次の操作を行います。
 
-   - を設定 **[!UICONTROL Calculate Handling Fee]**:
+   - Set **[!UICONTROL Calculate Handling Fee]**:
 
       - `Fixed`
       - `Percent`
 
-   - を入力 **[!UICONTROL Handling Fee]** 手数料の計算に使用される方法に従ったレート。
+   - 手数料の計算に使用する方法に従って **[!UICONTROL Handling Fee]** 料率を入力します。
 
-     例えば、料金が固定料金に基づいている場合は、次のように金額を小数で入力します `4.90`. ただし、手数料が注文のパーセンテージに基づいている場合は、パーセンテージで金額を入力します。 例えば、注文の 6% を請求する場合は、値を `.06`.
+     例えば、料金が固定料金に基づいている場合は、`4.90` のように小数で金額を入力します。 ただし、手数料が注文のパーセンテージに基づいている場合は、パーセンテージで金額を入力します。 例えば、注文の 6% を請求する場合は、値を `.06` のように入力します。
 
-1. 必要に応じて、 **[!UICONTROL Displayed Error Message]**.
+1. 必要に応じて、**[!UICONTROL Displayed Error Message]** を変更します。
 
    このテキストボックスにはデフォルトのメッセージが事前に設定されていますが、この配信方法が使用できなくなった場合に表示する別のメッセージを入力できます。
 
-1. を設定 **[!UICONTROL Ship to Applicable Countries]**:
+1. Set **[!UICONTROL Ship to Applicable Countries]**:
 
-   - `All Allowed Countries`  – すべてのお客様 [国](../getting-started/store-details.md#country-options) ストア設定で指定されたこの配信方法を使用できます。
-   - `Specific Countries`  – このオプションを選択すると、 _[!UICONTROL Ship to Specific Countries]_リストが表示されます。 リストで、この配信方法を使用できる国を選択します。
+   - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) の顧客がこの配信方法を使用できます。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Ship to Specific Countries]_リストが表示されます。 リストで、この配信方法を使用できる国を選択します。
 
-1. を設定 **[!UICONTROL Show Method if Not Applicable]** 対象： `Yes` テーブルの料率を常に表示する場合
+1. テーブルの料金を常に表示する場合は、**[!UICONTROL Show Method if Not Applicable]** を `Yes` に設定します
 
-1. の場合 **[!UICONTROL Sort Order]**：数字を入力して、チェックアウト時に他の配信方法と共にリストされた場合に表の料金による配送が表示される順序を決定します。
+1. **[!UICONTROL Sort Order]** しくは、番号を入力して、チェックアウト時に他の配信方法と共にリストされたときに表の料金で出荷されるときの表示順序を決定します。
 
-   `0` =最初、 `1` =秒、 `2` = 3 番目、以下同様です。
+   `0` = 1 番目、`1` = 2 番目、`2` = 3 番目など。
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。
 
 ## 手順 2：テーブルレートデータを準備
 
-1. 左上隅にを設定します **[!UICONTROL Store View]** 対象： `Main Website`、または設定が適用される他の web サイトに移動します。
+1. 左上隅で、**[!UICONTROL Store View]** を `Main Website` または設定が適用されるその他の web サイトに設定します。
 
    >[!NOTE]
    >
-   >必要に応じて、まず **[!UICONTROL Use system value]** チェックボックスをオンにして、説明に従って次の設定を変更します。
+   >必要に応じて、まず「**[!UICONTROL Use system value]**」チェックボックスの選択を解除し、説明に従って次の設定を変更します。
 
-1. 変更： **[!UICONTROL Condition]** 必要に応じて。
+1. 必要に応じて **[!UICONTROL Condition]** を変更します。
 
-1. クリック **[!UICONTROL Export CSV]**.
+1. 「**[!UICONTROL Export CSV]**」をクリックします。
 
-   ![CSV を書き出し](./assets/shipping-table-rates-export.png){width="700" zoomable="yes"}
+   ![CSV を書き出し ](./assets/shipping-table-rates-export.png){width="700" zoomable="yes"}
 
-1. を保存します `tablerates.csv` ファイルをお使いのシステムに送信します。
+1. `tablerates.csv` ファイルをシステムに保存します。
 
 1. ファイルをスプレッドシートアプリケーションで開きます。
 
 1. 出荷計算条件の適切な値を使用して、表を完成させます。
 
    - ワイルドカードとしてアスタリスク （*）を使用し、任意のカテゴリの使用可能なすべての値を表します。
-   - この _[!UICONTROL Country]_列にはを含める必要があります [有効な 3 文字コード][1] 各行。
-   - データ並べ替え基準 _[!UICONTROL Region/State]_つまり、特定の場所がリストの上部に、ワイルドカードの場所が下部に表示されます。 このメソッドを使用すると、最初に絶対値でルールが処理され、後でワイルドカード値でルールが処理されます。
-   - の値 _[!UICONTROL Weight (and above)]_列の小数点以下 4 桁は最大にできます（例：） `2.5075`）に設定します。 データで小数点以下の桁数を増やすと、読み込みが失敗します。
+   - _[!UICONTROL Country]_列には、各行に [ 有効な 3 文字のコード ][1] を含める必要があります。
+   - 特定の場所がリストの上部に、ワイルドカードの場所が下部に表示されるように、データを _[!UICONTROL Region/State]_で並べ替えます。 このメソッドを使用すると、最初に絶対値でルールが処理され、後でワイルドカード値でルールが処理されます。
+   - _[!UICONTROL Weight (and above)]_列の値には、小数点以下 4 桁まで（`2.5075` など）を指定できます。 データで小数点以下の桁数を増やすと、読み込みが失敗します。
 
-   ![重み付け対宛先（オーストラリア）](./assets/table-rates-weight-destination-csv.png){width="500"}
+   ![ 重み付け対宛先（オーストラリア） ](./assets/table-rates-weight-destination-csv.png){width="500"}
 
-1. を保存します `tablerates.csv` ファイル。
+1. `tablerates.csv` ファイルを保存します。
 
 ## 手順 3：テーブルレートデータのインポート
 
-1. に戻る **[!UICONTROL Table Rates]** ストア設定の「」セクション。
+1. ストア設定の「**[!UICONTROL Table Rates]**」セクションに戻ります。
 
-1. 左上隅にを設定します **[!UICONTROL Store View]** ：このメソッドを使用する web サイト
+1. 左上隅で、このメソッドが使用される Web サイトの **[!UICONTROL Store View]** を設定します。
 
-1. の場合 **[!UICONTROL Import]**&#x200B;を選択し、 **[!UICONTROL Choose File]** を選択して完了します `tablerates.csv` レートをインポートするファイル。
+1. **[!UICONTROL Import]** の場合は、「**[!UICONTROL Choose File]**」をクリックし、完成した `tablerates.csv` ファイルを選択してレートをインポートします。
 
-   ![インポート テーブルの料率](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
+   ![ インポートテーブルのレート ](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。
 
 ## 手順 4：レートの検証
 
@@ -176,7 +176,7 @@ ht-degree: 3%
 
 ### 例 3：米国本土への送料無料の制限
 
-1. を作成 `tablerates.csv` 送料無料を提供する意思のあるすべての州の宛先を含むファイル。
+1. 送料無料を提供する意思のあるすべての州の宛先を含む `tablerates.csv` ファイルを作成します。
 
 1. テーブル レートの設定を次の設定で行います。
 
@@ -190,9 +190,9 @@ ht-degree: 3%
 
    {style="table-layout:auto"}
 
-1. 左上隅にを設定します **[!UICONTROL Store View]** 対象： `Main Website`、または設定が適用される他の web サイトに移動します。
+1. 左上隅で、**[!UICONTROL Store View]** を `Main Website` または設定が適用されるその他の web サイトに設定します。
 
-1. の場合 **[!UICONTROL Import]**&#x200B;を選択し、 **[!UICONTROL Choose File]** を選択して完了します `tablerates.csv` レートをインポートするファイル。
+1. **[!UICONTROL Import]** の場合は、「**[!UICONTROL Choose File]**」をクリックし、完成した `tablerates.csv` ファイルを選択してレートをインポートします。
 
 
 [1]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3

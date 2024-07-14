@@ -13,37 +13,37 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-からのロジックによって駆動される、リッチでインタラクティブなコンテンツの作成 [価格ルール](../merchandising-promotions/introduction.md#price-rules) および [顧客セグメント](../customers/customer-segments.md). 既存 [ダイナミック ブロック](../page-builder/dynamic-block.md) に直接追加できます [!DNL Page Builder] [ステージ](../page-builder/workspace.md). ダイナミック ブロックを使用する詳細な手順の例については、を参照してください。 [チュートリアル 2: ブロック](../page-builder/2-blocks.md).
+[ 価格ルール ](../merchandising-promotions/introduction.md#price-rules) および [ 顧客セグメント ](../customers/customer-segments.md) のロジックによって駆動される、リッチでインタラクティブなコンテンツを作成します。 既存の [ ダイナミック ブロック ](../page-builder/dynamic-block.md) を [!DNL Page Builder] ージ [ ステージ ](../page-builder/workspace.md) に直接追加できます。 ダイナミック ブロックを使用する詳細な手順の例については、[ チュートリアル 2: ブロック ](../page-builder/2-blocks.md) を参照してください。
 
 >[!NOTE]
 >
->この _[!UICONTROL Banner]_のオプション [[!UICONTROL Content] メニュー](content-menu.md) は 2.3.1 で非推奨となり、2.4.0 で削除されました。その機能はダイナミック ブロックに置き換えられています。
+>[[!UICONTROL Content] メニューの _[!UICONTROL Banner]_オプションは ](content-menu.md)2.3.1 で非推奨となり、2.4.0 で削除されました。その機能はダイナミック ブロックに置き換えられています。
 
-![[!DNL Page Builder]  – 価格ルールと顧客セグメントを含むダイナミックブロック](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
+![[!DNL Page Builder] – 価格ルールと顧客セグメントを含むダイナミックブロック ](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
 ## 手順 1：ダイナミックブロックの作成
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Dynamic Blocks]**に移動します。
 
-   ![ダイナミック ブロック リスト](../page-builder/assets/pb-tutorial2-block-dynamic-add.png){width="600" zoomable="yes"}
+   ![ ダイナミック ブロック リスト ](../page-builder/assets/pb-tutorial2-block-dynamic-add.png){width="600" zoomable="yes"}
 
-1. 右上隅のをクリックします。 **[!UICONTROL Add Dynamic Block]**.
+1. 右上隅の「**[!UICONTROL Add Dynamic Block]**」をクリックします。
 
-   ![新規ダイナミック ブロック](../page-builder/assets/pb-tutorial2-block-dynamic-new.png){width="600" zoomable="yes"}
+   ![ 新規ダイナミック ブロック ](../page-builder/assets/pb-tutorial2-block-dynamic-new.png){width="600" zoomable="yes"}
 
-1. 該当する場合、を設定します **[!UICONTROL Store View]** を指定して、ダイナミック ブロックが表示される特定のストア ビューを表示します。
+1. 必要に応じて、動的ブロックを表示する特定のストア表示に **[!UICONTROL Store View]** を設定します。
 
-1. ダイナミック ブロックをアクティブにするには、を設定します **[!UICONTROL Enable Dynamic Block]** 対象： `Yes`.
+1. ダイナミック ブロックをアクティブにするには、**[!UICONTROL Enable Dynamic Block]** を `Yes` に設定します。
 
-1. 内部参照の場合は、説明的なを入力します **[!UICONTROL Dynamic Block Name]**.
+1. 内部参照の場合は、わかりやすい **[!UICONTROL Dynamic Block Name]** を入力します。
 
-1. を設定 **[!UICONTROL Dynamic Block Type]** をクリックして、ダイナミックブロックを表示するページの領域に移動し、 **[!UICONTROL Done]**.
+1. ダイナミックブロックを表示するページの領域に **[!UICONTROL Dynamic Block Type]** を設定し、「**[!UICONTROL Done]**」をクリックします。
 
-   ![ダイナミック ブロック タイプを設定する](../page-builder/assets/pb-dynamic-block-type.png){width="500" zoomable="yes"}
+   ![ ダイナミック ブロック タイプを設定する ](../page-builder/assets/pb-dynamic-block-type.png){width="500" zoomable="yes"}
 
-1. が含まれる **[!UICONTROL Customer Segment]** リストで、ダイナミックブロックを表示する各セグメントのチェックボックスを選択し、をクリックします **[!UICONTROL Done]** 設定を保存します。
+1. **[!UICONTROL Customer Segment]** リストで、動的ブロックを表示する各セグメントのチェックボックスをオンにし、「**[!UICONTROL Done]**」をクリックして設定を保存します。
 
-   ![顧客セグメントの選択](../page-builder/assets/pb-dynamic-block-customer-segment.png){width="500" zoomable="yes"}
+   ![ 顧客セグメントの選択 ](../page-builder/assets/pb-dynamic-block-customer-segment.png){width="500" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -53,41 +53,41 @@ ht-degree: 0%
 
 ### 動的ブロックでのReal-Time CDP オーディエンスの使用
 
-次の場合： [installed](../customers/audience-activation.md#install-the-extension) および [設定済み](../customers/audience-activation.md#configure-the-extension) この [!DNL Audience Activation] 拡張機能には、というセクションが表示されます。 **[!UICONTROL Audiences]**.
+[!DNL Audience Activation] 拡張機能を [ インストール ](../customers/audience-activation.md#install-the-extension) および [ 設定 ](../customers/audience-activation.md#configure-the-extension) した場合は、「**[!UICONTROL Audiences]**」というセクションが表示されます。
 
-![Real-Time CDP オーディエンスを選択](./assets/dynamic-block-rtcdp.png){width="600" zoomable="yes"}
+![Real-Time CDP オーディエンスを選択 ](./assets/dynamic-block-rtcdp.png){width="600" zoomable="yes"}
 
-が含まれる **[!UICONTROL Real-Time CDP Audience]** リストで、動的ブロックを表示する各オーディエンスのチェックボックスをオンにし、クリックします。 **[!UICONTROL Done]** 設定を保存します。
+**[!UICONTROL Real-Time CDP Audience]** リストで、動的ブロックを表示する各オーディエンスのチェックボックスをオンにし、「**[!UICONTROL Done]**」をクリックして設定を保存します。
 
 ## 手順 2：コンテンツを完了する
 
-の使用 [!DNL Page Builder] [workspace](../page-builder/workspace.md) をクリックしてコンテンツを完了します。
+[!DNL Page Builder] [ ワークスペース ](../page-builder/workspace.md) を使用して、コンテンツを完了します。
 
-![[!DNL Page Builder] - ダイナミックブロックワークスペース](../page-builder/assets/pb-dynamic-block-workspace.png){width="600" zoomable="yes"}
+![[!DNL Page Builder] - ダイナミック ブロック ワークスペース ](../page-builder/assets/pb-dynamic-block-workspace.png){width="600" zoomable="yes"}
 
 ## 手順 3：関連プロモーションの選択
 
-1. 下にスクロールして展開 ![展開セレクター](../assets/icon-display-expand.png) **[!UICONTROL Related Promotions]**.
+1. 下にスクロールして、![ 展開セレクター ](../assets/icon-display-expand.png)**[!UICONTROL Related Promotions]** を展開します。
 
 1. ダイナミックブロックに関連付けるプロモーションのタイプをクリックします。
 
-   - **[!UICONTROL Add Cart Price Rules]** （を参照） [買い物かご価格ルール](../merchandising-promotions/price-rules-cart.md)）
+   - **[!UICONTROL Add Cart Price Rules]** （[ 買い物かご価格ルール ](../merchandising-promotions/price-rules-cart.md)）
 
-   - **[!UICONTROL Add Catalog Price Rules]** （を参照） [カタログ価格ルール](../merchandising-promotions/price-rules-catalog.md)）
+   - **[!UICONTROL Add Catalog Price Rules]** （[ カタログ価格ルール ](../merchandising-promotions/price-rules-catalog.md)）
 
    >[!NOTE]
    >
    >カタログ価格ルールは、Real-Time CDP オーディエンスではサポートされていません。
 
-1. 使用可能なルールのリストで、使用する各ルールのチェックボックスをオンにし、 **[!UICONTROL Add Selected]**.
+1. 使用可能なルールのリストで、使用する各ルールのチェックボックスをオンにし、「**[!UICONTROL Add Selected]**」をクリックします。
 
-1. ダイナミック ブロックが完成したら、 **[!UICONTROL Save]**.
+1. ダイナミック ブロックが完成したら、[**[!UICONTROL Save]**] をクリックします。
 
 ## 手順 4：ページへの動的ブロックの追加
 
 1. ダイナミックブロックを表示するページを開きます。
 
-1. の使用 [[!UICONTROL Add Dynamic Block]](../page-builder/dynamic-block.md) コンテンツタイプを使用して、動的ブロックをステージに追加します。
+1. [[!UICONTROL Add Dynamic Block]](../page-builder/dynamic-block.md) コンテンツタイプを使用して、動的ブロックをステージに追加します。
 
 ## フィールドとツールの説明
 
@@ -96,9 +96,9 @@ ht-degree: 0%
 | [!UICONTROL Store View] | ダイナミック ブロックを使用できるストア ビューを指定します。 |
 | [!UICONTROL Enable Dynamic Block] | ダイナミック ブロックをアクティブまたは非アクティブにします。 オプション：はい/いいえ |
 | [!UICONTROL Dynamic Block Name] | 管理画面で動的ブロックを識別するわかりやすい名前。 |
-| [!UICONTROL Dynamic Block Type] | 内の場所を識別 [標準ページレイアウト](layout-updates.md) ダイナミック ブロックが配置される場所。 オプション： <br/>**[!UICONTROL Content Area]**- ダイナミック ブロックをメインに配置します [コンテンツ領域](layout-updates.md) を表示します。<br/>**[!UICONTROL Footer]** - ダイナミックブロックをページに配置します [フッター](page-setup.md#footer). <br/>**[!UICONTROL Header]**- ダイナミックブロックをページに配置します [ヘッダー](page-setup.md#header).<br/>**[!UICONTROL Left Column]**  – 動的ブロックを [左サイドバー](page-layout.md#standard-page-layouts) （2 カラムまたは 3 カラムのレイアウト）。 <br/>**[!UICONTROL Right Column]**– 動的ブロックを [右側のサイドバー](page-layout.md#standard-page-layouts) （2 列または 3 列のレイアウト）。 |
+| [!UICONTROL Dynamic Block Type] | ダイナミック ブロックが配置される [ 標準ページ レイアウト ](layout-updates.md) 内の場所を識別します。 オプション：<br/>**[!UICONTROL Content Area]**- ページのメイン [ コンテンツ領域 ](layout-updates.md) に動的ブロックを配置します。<br/>**[!UICONTROL Footer]** - ページに動的ブロックを配置します [ フッター ](page-setup.md#footer)。 <br/>**[!UICONTROL Header]**- ページに動的ブロックを配置します [ ヘッダー ](page-setup.md#header)。<br/>**[!UICONTROL Left Column]** - 2 列または 3 列のレイアウトの [ 左側のサイドバー ](page-layout.md#standard-page-layouts) に動的ブロックを配置します。 <br/>**[!UICONTROL Right Column]**- 2 列または 3 列のレイアウトの [ 右側のサイドバー ](page-layout.md#standard-page-layouts) にダイナミックブロックを配置します。 |
 | 顧客セグメント | 顧客セグメントを動的ブロックに関連付けて、どの顧客に表示できるかを決定します。 |
-| Real-Time CDP オーディエンス | を関連付けます [Real-Time CDP オーディエンス](../customers/audience-activation.md) を動的ブロックに置き換えて、どの顧客に表示するかを決定します。 |
+| Real-Time CDP オーディエンス | [Real-Time CDP オーディエンス ](../customers/audience-activation.md) を動的ブロックに関連付けて、どの顧客に表示できるかを決定します。 |
 
 {style="table-layout:auto"}
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 |--- |--- |
-| [!UICONTROL Related Cart Price Rule] | **[!UICONTROL Add Cart Price Rules]**  – 既存のを関連付ける [買い物かご価格ルール](../merchandising-promotions/price-rules-cart.md) プロモーションとしてダイナミックブロックを使用します。 |
-| [!UICONTROL Related Catalog Price Rule] | **[!UICONTROL Add Catalog Price Rules]**  – 既存のを関連付ける [カタログ価格ルール](../merchandising-promotions/price-rules-catalog.md) プロモーションとしてダイナミックブロックを使用します。 |
+| [!UICONTROL Related Cart Price Rule] | **[!UICONTROL Add Cart Price Rules]** – 既存の [ 買い物かご価格ルール ](../merchandising-promotions/price-rules-cart.md) を動的ブロックにプロモーションとして関連付けます。 |
+| [!UICONTROL Related Catalog Price Rule] | **[!UICONTROL Add Catalog Price Rules]** – 既存の [ カタログ価格ルール ](../merchandising-promotions/price-rules-catalog.md) をプロモーションとして動的ブロックに関連付けます。 |
 
 {style="table-layout:auto"}

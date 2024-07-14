@@ -18,37 +18,37 @@ ht-degree: 0%
 >
 >多数の税率を定義する必要がある場合は、税率をインポートしてプロセスを簡略化できます。
 
-![税務処理基準](./assets/tax-rules.png){width="600" zoomable="yes"}
+![ 税務ルール ](./assets/tax-rules.png){width="600" zoomable="yes"}
 
 ## 手順 1：税務処理基準情報の完了
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Rules]**に移動します。
 
-1. 右上隅のをクリックします。 **[!UICONTROL Add New Tax Rule]**.
+1. 右上隅の「**[!UICONTROL Add New Tax Rule]**」をクリックします。
 
-1. 次の下 _税務処理基準情報_、a と入力します **[!UICONTROL Name]** 新しいルール用。
+1. 「_税務処理基準情報_」に、新規処理基準の **[!UICONTROL Name]** を入力します。
 
-   ![税務処理基準情報](./assets/tax-rule-information.png){width="600" zoomable="yes"}
+   ![ 税制上の措置情報 ](./assets/tax-rule-information.png){width="600" zoomable="yes"}
 
-1. を選択します。 **[!UICONTROL Tax Rate]** それは該当する規則だ。
+1. ルールに適用する **[!UICONTROL Tax Rate]** を選択します。
 
    既存の税率を編集するには、次の手順を実行します。
 
-   - 税率にカーソルを合わせて、 _編集_ ![鉛筆アイコン](../assets/icon-edit-pencil.png) アイコン。
+   - 税率の上にマウスポインターを置き、_編集_![ 鉛筆アイコン ](../assets/icon-edit-pencil.png) アイコンをクリックします。
 
-   - 必要に応じてフォームを更新し、 **[!UICONTROL Save]**.
+   - 必要に応じてフォームを更新し、「**[!UICONTROL Save]**」をクリックします。
 
 1. 税率を入力するには、次のいずれかの方法を使用します。
 
 ### 方法 1：税率の手動入力
 
-1. クリック **[!UICONTROL Add New Tax Rate]**.
+1. 「**[!UICONTROL Add New Tax Rate]**」をクリックします。
 
-1. 必要に応じてフォームに入力します（ [税ゾーンと税率](tax-zones-rates.md)）に設定します。
+1. 必要に応じてフォームに入力します（[ 税ゾーンと税率 ](tax-zones-rates.md) を参照）。
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
-   ![新しい税率](./assets/tax-rate-create-new.png){width="600" zoomable="yes"}
+   ![ 新税率 ](./assets/tax-rate-create-new.png){width="600" zoomable="yes"}
 
 ### 方法 2：税率のインポート
 
@@ -56,41 +56,41 @@ ht-degree: 0%
 
 1. 税率をインポートするには、次の手順を実行します。
 
-   - クリック **[!UICONTROL Choose File]** 読み込む税率を含む CSV ファイルに移動します。
+   - 「**[!UICONTROL Choose File]**」をクリックして、インポートする税率を含む CSV ファイルに移動します。
 
-   - クリック **[!UICONTROL Import Tax Rates]**.
+   - 「**[!UICONTROL Import Tax Rates]**」をクリックします。
 
-1. 税率をエクスポートするには、 **[!UICONTROL Export Tax Rates]** （を参照） [インポート/エクスポート税率](../systems/data-transfer-tax-rates.md)）に設定します。
+1. 税率をエクスポートするには、「**[!UICONTROL Export Tax Rates]**」をクリックします（[ 税率のインポート/エクスポート ](../systems/data-transfer-tax-rates.md) を参照）。
 
-![インポート/エクスポート税率](./assets/tax-rule-new-import-export.png){width="600" zoomable="yes"}
+![ 輸出入税率 ](./assets/tax-rule-new-import-export.png){width="600" zoomable="yes"}
 
 ## 手順 2：追加設定を完了する
 
-1. セクションを開くには、をクリックします **[!UICONTROL Additional Settings]**.
+1. セクションを開くには、「**[!UICONTROL Additional Settings]**」をクリックします。
 
-   ![税務処理基準の追加設定](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
+   ![ 税務処理基準の追加設定 ](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
 
-1. を選択します。 **[!UICONTROL Customer Tax Class]** 規則を適用する。
+1. ルールを適用する **[!UICONTROL Customer Tax Class]** を選択します。
 
-   - 顧客税区分を編集するには、 _編集_ ![鉛筆アイコン](../assets/icon-edit-pencil.png) アイコンをクリックし、必要に応じてフォームを更新して、 **[!UICONTROL Save]**.
+   - 顧客税区分を編集するには、「_編集_![ 鉛筆アイコン ](../assets/icon-edit-pencil.png) アイコンをクリックし、必要に応じてフォームを更新して「**[!UICONTROL Save]**」をクリックします。
 
-   - 税金区分を作成するには、次をクリックします。 **[!UICONTROL Add New Tax Class]**&#x200B;必要に応じてフォームに入力し、 **[!UICONTROL Save]**.
+   - 税金区分を作成するには、「**[!UICONTROL Add New Tax Class]**」をクリックし、必要に応じてフォームに入力して「**[!UICONTROL Save]**」をクリックします。
 
-1. を選択します。 **[!UICONTROL Product Tax Class]** 規則を適用する。
+1. ルールを適用する **[!UICONTROL Product Tax Class]** を選択します。
 
-   - 製品税区分を編集するには、 _編集_ ![鉛筆アイコン](../assets/icon-edit-pencil.png) アイコンをクリックし、必要に応じてフォームを更新して、 **[!UICONTROL Save]**.
+   - 製品税クラスを編集するには、_編集_![ 鉛筆アイコン ](../assets/icon-edit-pencil.png) アイコンをクリックし、必要に応じてフォームを更新して、「**[!UICONTROL Save]**」をクリックします。
 
-   - 税金区分を作成するには、次をクリックします。 **[!UICONTROL Add New Tax Class]**&#x200B;必要に応じてフォームに入力し、 **[!UICONTROL Save]**.
+   - 税金区分を作成するには、「**[!UICONTROL Add New Tax Class]**」をクリックし、必要に応じてフォームに入力して「**[!UICONTROL Save]**」をクリックします。
 
-1. 複数の税金が適用される場合、この税金の優先度を示す数値を入力します **[!UICONTROL Priority]**.
+1. 複数の税金が適用される場合は、**[!UICONTROL Priority]** の税金の優先度を示す数値を入力します。
 
    同じ優先度の 2 つの税務処理基準が適用される場合、税金が追加されます。 優先度の異なる 2 つの税金が適用される場合、税金は合計されます。
 
-1. 注文の小計に基づいて税金を計算する場合は、 **[!UICONTROL Calculate off Subtotal Only]** チェックボックス。
+1. 注文の小計に基づいて税金を計算する場合は、「**[!UICONTROL Calculate off Subtotal Only]**」チェックボックスを選択します。
 
-1. の場合 **[!UICONTROL Sort Order]**&#x200B;を入力し、この税務処理基準の順序を示す番号を他のユーザーとともにリスト表示します。
+1. **[!UICONTROL Sort Order]**：この税務処理基準の順序を示す番号を入力します。他の税務処理基準と一緒にリストされます。
 
-1. 完了したら、 **[!UICONTROL Save Rule]**.
+1. 完了したら、「**[!UICONTROL Save Rule]**」をクリックします。
 
 ## 通貨および税ルールのデモ
 

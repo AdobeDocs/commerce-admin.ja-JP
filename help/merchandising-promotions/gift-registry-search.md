@@ -14,49 +14,49 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-この [ウィジェット](../content-design/widgets.md) ツールを使用して、ギフトレジストリ検索ボックスをストア内の最も多くの場所に配置できます。 名前、メールアドレス、ギフトレジストリ ID など、顧客が使用できる検索オプションを指定できます。 顧客が「検索」ボタンをクリックすると、結果が「ギフトレジストリの検索」ページに表示されます。 検索で結果が返されない場合は、他のパラメーターを使用して再試行できます。
+[ ウィジェット ](../content-design/widgets.md) ツールを使用すると、ストア内の最も多くの場所にギフトレジストリ検索ボックスを配置できます。 名前、メールアドレス、ギフトレジストリ ID など、顧客が使用できる検索オプションを指定できます。 顧客が「検索」ボタンをクリックすると、結果が「ギフトレジストリの検索」ページに表示されます。 検索で結果が返されない場合は、他のパラメーターを使用して再試行できます。
 
-![ストアフロントの例 – ギフトレジストリ検索](./assets/storefront-gift-registry-search.png){width="700" zoomable="yes"}
+![ ストアフロントの例 – ギフトレジストリ検索 ](./assets/storefront-gift-registry-search.png){width="700" zoomable="yes"}
 
 ## ギフト レジストリ検索の構成
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**に移動します。
 
-1. 右上隅のをクリックします。 **[!UICONTROL Add Widget]**.
+1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックします。
 
-1. を選択します。 **[!UICONTROL Settings]** tab キーを押して、次の操作を実行します。
+1. 「**[!UICONTROL Settings]**」タブを選択し、次の操作を実行します。
 
-   - を設定 **[!UICONTROL Type]** 対象： `Gift Registry Search`.
+   - **[!UICONTROL Type]** を `Gift Registry Search` に設定します。
 
-   - を設定 **[!UICONTROL Design Theme]** をストアが使用するテーマに変更します。
+   - ストアで使用されるテーマに **[!UICONTROL Design Theme]** を設定します。
 
-   - クリック **[!UICONTROL Continue]**.
+   - 「**[!UICONTROL Continue]**」をクリックします。
 
-   ![ギフト レジストリ – 検索設定](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
+   ![ ギフトレジストリ – 検索設定 ](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
 
-1. が含まれる _[!UICONTROL Storefront Properties]_セクションで、次の操作を行います。
+1. _[!UICONTROL Storefront Properties]_セクションで、次の操作を行います。
 
-   - を入力 **[!UICONTROL Widget Title]** 内部参照用。
+   - 内部参照の **[!UICONTROL Widget Title]** を入力します。
 
-   - を設定 **[!UICONTROL Assign to Store Views]** ギフトレジストリ検索を使用できるストア表示に移動します。
+   - **[!UICONTROL Assign to Store Views]** を、ギフトレジストリ検索を使用できるストア表示に設定します。
 
-   - を設定 **[!UICONTROL Sort Order]** ページ上の同じ場所に割り当てられている他のブロックがある場合に、ギフトレジストリ検索ブロックが表示される順序を決定します。
+   - ページ上の同じ場所に割り当てられている他のブロックがある場合に、ギフトレジストリ検索ブロックが表示される順序を決定するには、**[!UICONTROL Sort Order]** を設定します。
 
-   ![ギフトレジストリ – ストアフロントプロパティ](./assets/widget-gift-registry-search-storefront-properties.png){width="700" zoomable="yes"}
+   ![ ギフトレジストリ – ストアフロントのプロパティ ](./assets/widget-gift-registry-search-storefront-properties.png){width="700" zoomable="yes"}
 
-1. が含まれる **[!UICONTROL Layout Updates]** セクションで、をクリック **[!UICONTROL Add Layout Update]**.
+1. 「**[!UICONTROL Layout Updates]**」セクションで、「**[!UICONTROL Add Layout Update]**」をクリックします。
 
 1. ギフト レジストリの検索がストア内のどこに表示されるかを確認するには、次の操作を行います。
 
-   - を設定 **[!UICONTROL Display On]** ギフト レジストリ検索ブロックを表示するストア内のページに移動します。
+   - ストア内のギフトレジストリ検索ブロックを表示するページに **[!UICONTROL Display On]** を設定します。
 
-   - 該当する場合、 **[!UICONTROL Categories]** 目的の場所に挿入します。
+   - 必要に応じて、表示する **[!UICONTROL Categories]** を選択します。
 
-   - を設定 **[!UICONTROL Container]** をギフトレジストリ検索ブロックを配置するページ上の場所に移動します。
+   - ページ上の場所に **[!UICONTROL Container]** を設定して、ギフトレジストリ検索ブロックを配置します。
 
-   ![ギフトレジストリ – レイアウトの更新](./assets/widget-gift-registry-search-layout-updates.png){width="500" zoomable="yes"}
+   ![ ギフトレジストリ – レイアウトの更新 ](./assets/widget-gift-registry-search-layout-updates.png){width="500" zoomable="yes"}
 
-1. 左パネルで、を選択します。 **[!UICONTROL Widget Options]**.
+1. 左側のパネルで「**[!UICONTROL Widget Options]**」を選択します。
 
 1. サイトの訪問者がギフトレジストリを検索する方法を決定するには、次の中から該当するものを選択します。
 
@@ -65,9 +65,9 @@ ht-degree: 0%
    - [!UICONTROL Registrant Email Search]
    - [!UICONTROL Gift Registry ID Search]
 
-   ![ギフトレジストリ – ウィジェットオプション](./assets/widget-gift-registry-search-widget-options.png){width="700" zoomable="yes"}
+   ![ ギフトレジストリ – ウィジェットオプション ](./assets/widget-gift-registry-search-widget-options.png){width="700" zoomable="yes"}
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
 1. ページキャッシュを更新するように求めるプロンプトが表示されたら、ワークスペース上部のメッセージに記載されているリンクをクリックし、指示に従います。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 |--- |--- |
-| [!UICONTROL Type] | Identities `Gift Registry Search` ウィジェットのタイプとして設定します。 |
+| [!UICONTROL Type] | `Gift Registry Search` をウィジェットのタイプとして識別します。 |
 | [!UICONTROL Design Theme] | ギフトレジストリ検索が表示されるストアで使用されるテーマ。 |
 
 {style="table-layout:auto"}
@@ -106,6 +106,6 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 |--- |--- |
-| [!UICONTROL Quick Search Form Types] | ギフト レジストリ検索で実行できる検索の種類を決定します。 オプション： `All Forms` / `Registrant Name Search` /` Registrant Email Search` / `Gift Registry ID Search` |
+| [!UICONTROL Quick Search Form Types] | ギフト レジストリ検索で実行できる検索の種類を決定します。 オプション：`All Forms` / `Registrant Name Search` /` Registrant Email Search` / `Gift Registry ID Search` |
 
 {style="table-layout:auto"}

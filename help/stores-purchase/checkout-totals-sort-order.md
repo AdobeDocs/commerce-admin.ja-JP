@@ -14,28 +14,28 @@ ht-degree: 0%
 
 注文の確認時には、合計が注文の下部に表示され、割引、送料、店舗クレジット、税金の調整が行われます。 各項目の順序によって計算の順序が決まり、各項目に割り当てられた番号によって設定されます。 たとえば、小計はセクションの最初の項目で、値 10 が割り当てられます。 総計は最後に表示され、100 の値が割り当てられます。 合計セクション内のその他すべての項目には、これらの値の間に値が割り当てられます。
 
-![注文概要にはチェックアウトの合計が表示されます](./assets/storefront-checkout-totals.png){width="700" zoomable="yes"}
+![ 注文概要にはチェックアウトの合計が表示されます ](./assets/storefront-checkout-totals.png){width="700" zoomable="yes"}
 
-**_チェックアウト合計の並べ替え順を設定するには：_**
+**_チェックアウト合計の並べ替え順序を設定するには：_**
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Sales]** セクションで選択 **[!UICONTROL Sales]** その下に。
+1. 左側のパネルで「**[!UICONTROL Sales]**」セクションを展開し、その下 **[!UICONTROL Sales]** 選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Checkout Totals Sort Order]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Checkout Totals Sort Order]**」セクションを展開します。
 
-   ![並べ替え順を決定するために番号付けされたチェックアウト合計オプション](../configuration-reference/sales/assets/sales-checkout-totals-sort-order.png){width="600" zoomable="yes"}
+   ![ 並べ替え順を決定するために番号付けされたチェックアウト合計オプション ](../configuration-reference/sales/assets/sales-checkout-totals-sort-order.png){width="600" zoomable="yes"}
 
-   これらの各設定について詳しくは、を参照してください。 [チェックアウトの合計の並べ替え順序](../configuration-reference/sales/sales.md#checkout-totals-sort-order) が含まれる _設定リファレンスガイド_.
+   これらの各設定の詳細については、『 [ 設定リファレンスガイド _の ](../configuration-reference/sales/sales.md#checkout-totals-sort-order) チェックアウト合計の並べ替え順序_ を参照してください。
 
-1. 設定が特定のストア表示の場合、 [ストア表示の選択](../configuration-reference/scope-change.md#set-the-scope) 設定が適用される場所。
+1. 設定が特定のストア表示の場合は、[ ストア表示を選択 ](../configuration-reference/scope-change.md#set-the-scope) して設定が適用されます。
 
-   プロンプトが表示されたら、 **[!UICONTROL OK]** 続行します。
+   プロンプトが表示されたら、「**[!UICONTROL OK]**」をクリックして続行します。
 
-1. での順序を決定するには _合計_ セクションで、各項目に割り当てる番号を変更します。
+1. _合計_ セクションの順序を決定するには、各項目に割り当てる番号を変更します。
 
-   値が小さいほど、リスト内の位置が早くなります。 デフォルト設定では、小計（`10`）が最初の合計で、総計（`100`）が最後です。
+   値が小さいほど、リスト内の位置が早くなります。 デフォルトの設定では、小計（`10`）が最初で、総計（`100`）が最後です。
 
-   必要に応じて、 **[!UICONTROL Use system value]** チェックボックスをオンにして、これらの変更を完了します。
+   必要に応じて、「**[!UICONTROL Use system value]**」チェックボックスをオフにして、これらの変更を完了します。
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。

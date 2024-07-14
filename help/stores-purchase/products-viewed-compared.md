@@ -12,34 +12,34 @@ ht-degree: 0%
 
 # 最近表示または比較した製品
 
-この _最近表示した項目と最近比較した項目_ 通常、ブロックはカタログページの右側のサイドバーに表示されます。 それぞれにリストされる製品数は、web サイト、ストアまたはストア表示ごとに設定できます。
+_最近表示された項目と最近比較された項目_ ブロックは、通常、カタログページの右側のサイドバーに表示されます。 それぞれにリストされる製品数は、web サイト、ストアまたはストア表示ごとに設定できます。
 
 **_最近表示および比較した製品を設定するには：_**
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Catalog]** を選択します **[!UICONTROL Catalog]** その下に。
+1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Recently Viewed/Compared Products]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Recently Viewed/Compared Products]**」セクションを展開します。
 
-   ![カタログの設定 – 最近表示または比較した製品](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
+   ![ カタログの設定 – 最近表示または比較した製品 ](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
 
-   これらの各設定について詳しくは、を参照してください。 [最近表示/比較した製品](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products) が含まれる _設定リファレンスガイド_.
+   これらの各設定について詳しくは、『設定リファレンスガイド _の [ 最近閲覧/比較された製品 ](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products) を参照してください_。
 
-1. を設定 **[!UICONTROL Synchronize widget products with backend storage]** 製品 ID などの製品ウィジェット情報をデータベース内の現在の製品ストレージの可用性と同期し、この情報を別のデバイスで再利用します。
+1. 製品 ID などの製品ウィジェット情報を、データベース内の現在の製品ストレージの可用性と同期し、この情報を別のデバイスで再利用するには、**[!UICONTROL Synchronize widget products with backend storage]** を設定します。
 
-1. を設定 **[!UICONTROL Show for Current]** 設定が適用される web サイト、ストアまたはストア表示に移動します。
+1. 設定が適用される web サイト、ストア、またはストア表示に **[!UICONTROL Show for Current]** を設定します。
 
-1. の場合 **[!UICONTROL Default Recently Viewed Products Count]**、リストに表示する最近表示された製品の数を入力します。
+1. **[!UICONTROL Default Recently Viewed Products Count]**：最近表示した製品の数を入力して、リストに表示します。
 
-1. の場合 **[!UICONTROL Default Recently Compared Products Count]**、最近比較した製品の数を入力してリストに表示します。
+1. **[!UICONTROL Default Recently Compared Products Count]**：最近比較した製品の数を入力してリストに表示します。
 
-1. の場合 **[!UICONTROL Lifetime of products in Recently Viewed Widget]**:0 より大きい任意の時間範囲（秒）を入力します。
+1. **[!UICONTROL Lifetime of products in Recently Viewed Widget]** の場合は、0 より大きい任意の時間範囲を秒単位で入力します。
 
    この設定は、最近表示された項目の一覧に表示される、閲覧された商品の表示期間を決定します。
 
-1. の場合 **[!UICONTROL Lifetime of products in Recently Compared Widget]**:0 より大きい任意の時間範囲（秒）を入力します。
+1. **[!UICONTROL Lifetime of products in Recently Compared Widget]** の場合は、0 より大きい任意の時間範囲を秒単位で入力します。
 
    この設定は、比較した製品を最近比較したリストに表示する期間を決定します。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

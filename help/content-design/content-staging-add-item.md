@@ -18,37 +18,37 @@ ht-degree: 0%
 
 ## カテゴリのキャンペーン項目の追加
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Categories]** に移動します。
 
 1. キャンペーンで使用するカテゴリを見つけ、編集モードで開きます。
 
-1. クリック **[!UICONTROL Schedule New Update]**.
+1. 「**[!UICONTROL Schedule New Update]**」をクリックします。
 
-1. を選択 **[!UICONTROL Assign to Existing Campaign]**.
+1. 「**[!UICONTROL Assign to Existing Campaign]**」を選択します。
 
 1. リストで、変更するキャンペーンを選択します。
 
-   ![既存のキャンペーンへの割り当て](./assets/content-staging-assign-to-existing-campaign.png){width="600" zoomable="yes"}
+   ![ 既存のキャンペーンへの割り当て ](./assets/content-staging-assign-to-existing-campaign.png){width="600" zoomable="yes"}
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
+1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Content]** を展開します。
 
-1. の場合 **[!UICONTROL Category Image]**&#x200B;を選択し、 **[!UICONTROL Upload]** キャンペーン中にカテゴリページに表示する画像を選択します。
+1. **[!UICONTROL Category Image]**:「**[!UICONTROL Upload]**」をクリックし、キャンペーン中にカテゴリページに表示する画像を選択します。
 
-   ![カテゴリ画像の追加](./assets/content-staging-existing-category-image.png){width="600" zoomable="yes"}
+   ![ カテゴリ画像の追加 ](./assets/content-staging-existing-category-image.png){width="600" zoomable="yes"}
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
 ## 項目の検証
 
-1. 日 _Admin_ サイドバー、に移動  **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Content Staging]_/**[!UICONTROL Dashboard]**に移動します。
 
 1. 表示されたリストまたはタイムラインでキャンペーンを見つけて、開いて詳細にアクセスします。
 
-   - リストを表示するには、 **[!UICONTROL Select]** その後 **[!UICONTROL View/Edit]** が含まれる _[!UICONTROL Action]_列。
-   - タイムライン表示の場合、1 回クリックして概要を表示し、次にクリックします **[!UICONTROL View/Edit]**.
+   - リストを表示するには、「**[!UICONTROL Select]**」をクリックし、_[!UICONTROL Action]_の列の「**[!UICONTROL View/Edit]**」をクリックします。
+   - タイムライン表示の場合、1 回クリックして概要を表示し、「**[!UICONTROL View/Edit]**」をクリックします。
 
-   ![キャンペーンの詳細](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}
+   ![ キャンペーンの詳細 ](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) **[!UICONTROL Categories]** 割り当てられたカテゴリのリストを表示します。
+1. ![ 展開セレクター ](../assets/icon-display-expand.png)**[!UICONTROL Categories]** を展開して、割り当てられたカテゴリのリストを表示します。
 
-1. キャンペーンがアクティブなときにカテゴリのページをレビューするには、ダッシュボードに戻ってキャンペーンをもう一度クリックし、をクリックします。 **[!UICONTROL Preview]**.
+1. キャンペーンがアクティブなときにカテゴリのページをレビューするには、ダッシュボードに戻ってキャンペーンをもう一度クリックし、「**[!UICONTROL Preview]**」をクリックします。

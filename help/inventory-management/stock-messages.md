@@ -14,7 +14,7 @@ ht-degree: 1%
 
 設定を組み合わせて、製品ページおよびカタログページの製品リストで在庫状況メッセージを制御できます。
 
-![「在庫切れ」のメッセージを含むグループ化された製品](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
+![ 「在庫切れ」のメッセージを含むグループ化された製品 ](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 
 ## 製品ページのストックメッセージ
 
@@ -68,7 +68,7 @@ ht-degree: 1%
 
 カテゴリおよび検索結果のリストでは、製品の可用性や設定に応じて、次の表示オプションを使用できます。
 
-![カテゴリページの在庫切れメッセージ](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
+![ カテゴリページの在庫切れメッセージ ](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
 
 ### 例 1:「在庫切れ」というメッセージを使用して製品を表示する
 

@@ -13,46 +13,46 @@ ht-degree: 0%
 
 # コンテンツ配信ネットワークの使用
 
-コンテンツ配信ネットワーク（CDN）は、メディアファイルの保存に使用できます。 クラウドインフラストラクチャー上のAdobe Commerceには、Fastly CDN が含まれます（ [Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html) が含まれる _クラウドインフラストラクチャー上のCommerce ガイド_）に設定します。 インストールされているCommerce インスタンス _オンプレミス_ には特定の CDN との統合は含まれていません。任意の CDN を使用できます。
+コンテンツ配信ネットワーク（CDN）は、メディアファイルの保存に使用できます。 クラウドインフラストラクチャー上のAdobe Commerceには、Fastly CDN が含まれます（_クラウドインフラストラクチャー上のCommerce ガイドの [Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html) を参照_）。 _オンプレミス_ でインストールされたCommerce インスタンスには、特定の CDN との統合が含まれていません。任意の CDN を使用できます。
 
 CDN を設定したら、管理者から設定を完了する必要があります。 変更は、グローバルレベルまたは web サイトレベルで行うことができます。 CDN がメディアストレージに使用される場合、Commerce ストアページ上のメディアへのすべてのパスは、設定で指定された CDN パスに変更されます。
 
 ## CDN ワークフロー
 
-1. **ブラウザーはメディアをリクエストします** - ストアのページが顧客のブラウザーで開かれ、ブラウザーはHTMLで指定されたメディアをリクエストします。
-1. **リクエストは CDN に送信され、画像が見つかり、提供される** - リクエストは最初に CDN に送信されます。 CDN のストレージに画像が格納されている場合は、顧客のブラウザーにメディアファイルが提供されます。
-1. **メディアが見つかりません。要求はに送信されました [!DNL Commerce] web サーバー** - CDN にメディアファイルがない場合、リクエストはに送信されます。 [!DNL Commerce] web サーバー。 メディア・ファイルがファイル・システム内で見つかった場合、Web サーバはメディア・ファイルをお客様のブラウザに送信します。
+1. **ブラウザーがメディアをリクエスト** - ストアのページが顧客のブラウザーで開かれ、ブラウザーは、HTMLで指定されたメディアをリクエストします。
+1. **リクエストは CDN に送信されます。画像が見つかり、提供されます** - リクエストは最初に CDN に送信されます。 CDN のストレージに画像が格納されている場合は、顧客のブラウザーにメディアファイルが提供されます。
+1. **メディアが見つからない、[!DNL Commerce] web サーバーにリクエストが送信される** - CDN にメディアファイルがない場合、リクエストは [!DNL Commerce] web サーバーに送信されます。 メディア・ファイルがファイル・システム内で見つかった場合、Web サーバはメディア・ファイルをお客様のブラウザに送信します。
 
 >[!IMPORTANT]
 >
->セキュリティ上、CDN がメディアストレージとして使用されている場合、CDN がサブドメインの外部にある場合、JavaScript が正しく機能しない可能性があります。
+>セキュリティのため、CDN がメディアストレージとして使用されている場合、CDN がサブドメインの外部にある場合、JavaScriptが正しく機能しない可能性があります。
 
 ## コンテンツ配信ネットワークの設定
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. の下の左パネルで _[!UICONTROL General]_、を選択&#x200B;**[!UICONTROL Web]**.
+1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
 
-1. 左上隅にを設定します **[!UICONTROL Store View]** 必要に応じて。
+1. 左上隅で、必要に応じて **[!UICONTROL Store View]** を設定します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Base URLs]** を選択し、次の操作を実行します。
+1. **[!UICONTROL Base URLs]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![一般設定 – web ベース URL](./assets/web-base-urls.png){width="600" zoomable="yes"}
+   ![ 一般設定 – web ベース URL](./assets/web-base-urls.png){width="600" zoomable="yes"}
 
-   - を更新 **[!UICONTROL Base URL for Static View Files]** を静的ビューファイルが格納される CDN 上の場所の URL に置きます。
+   - 静的ビューファイルが格納されている CDN 上の場所の URL で **[!UICONTROL Base URL for Static View Files]** を更新します。
 
-   - を更新 **[!UICONTROL Base URL for User Media Files]** CDN 上の JavaScript ファイルの URL を使用します。
+   - CDN のJavaScript ファイルの URL で **[!UICONTROL Base URL for User Media Files]** を更新します。
 
-     これらのフィールドは空白のままでも、プレースホルダーで開始することもできます。 `{% raw %}{{unsecure_base_url}}{% endraw %}`
+     これらのフィールドは両方とも空白のままでも、プレースホルダーで始めることもできます（例：`{% raw %}{{unsecure_base_url}}{% endraw %}`）。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Base URLs (Secure)]** を選択し、次の操作を実行します。
+1. **[!UICONTROL Base URLs (Secure)]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![一般設定 – web ベース URL （セキュア）](./assets/web-base-urls-secure.png){width="600" zoomable="yes"}
+   ![ 一般設定 – web ベース URL （セキュア） ](./assets/web-base-urls-secure.png){width="600" zoomable="yes"}
 
-   - を更新 **[!UICONTROL Secure Base URL for Static View Files]** を静的ビューファイルが格納される CDN 上の場所の URL に置きます。
+   - 静的ビューファイルが格納されている CDN 上の場所の URL で **[!UICONTROL Secure Base URL for Static View Files]** を更新します。
 
-   - を更新 **[!UICONTROL Secure Base URL for User Media Files]** CDN 上の JavaScript ファイルの URL を使用します。
+   - CDN のJavaScript ファイルの URL で **[!UICONTROL Secure Base URL for User Media Files]** を更新します。
 
-     これらのフィールドは空白のままでも、プレースホルダーで開始することもできます。 `{% raw %}{{unsecure_base_url}}{% endraw %}`
+     これらのフィールドは両方とも空白のままでも、プレースホルダーで始めることもできます（例：`{% raw %}{{unsecure_base_url}}{% endraw %}`）。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

@@ -1,5 +1,5 @@
 ---
-title: “[!DNL Page Builder] 非表示要素」
+title: 「[!DNL Page Builder] の非表示要素」
 description: 非表示の要素に関する注記を再利用
 source-git-commit: d8eddb226843fe72449f1001bf4bbc8d545f3a6d
 workflow-type: tm+mt
@@ -8,7 +8,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Page Builder] 非表示の要素
+# [!DNL Page Builder] 非表示要素
 
 >[!NOTE]
 >

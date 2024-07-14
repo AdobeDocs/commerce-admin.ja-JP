@@ -16,47 +16,47 @@ ht-degree: 0%
 
 ストア管理者は、顧客アカウントからクレジット残高と履歴を表示でき、購入にストアクレジットを適用することもできます。
 
-![顧客のクレジット残高と履歴](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
+![ 顧客の与信残高と履歴 ](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
 
 ## 貸方残高の表示
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL All Customers]** に移動します。
 
 1. グリッドで顧客を検索します。
 
-1. が含まれる _アクション_ 列、クリック **[!UICONTROL Edit]**.
+1. _アクション_ 列の「**[!UICONTROL Edit]**」をクリックします。
 
-1. Scroll _[!UICONTROL Customer View]_をページおよび表示します&#x200B;**[!UICONTROL Store Credit Balance]**下部にあります。
+1. ページ _[!UICONTROL Customer View]_スクロールし、下部の&#x200B;**[!UICONTROL Store Credit Balance]**を表示します。
 
-![店舗の貸方残高](assets/store-credit-balance.png){width="600" zoomable="yes"}
+![ 店舗の貸方残高 ](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
 ## 店舗クレジット残高の更新
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Customers]** > _運用_ > **[!UICONTROL All Customers]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/_運営_/**[!UICONTROL All Customers]** に移動します。
 
 1. グリッドで顧客を検索します。
 
-1. が含まれる _アクション_ 列、クリック **[!UICONTROL Edit]**.
+1. _アクション_ 列の「**[!UICONTROL Edit]**」をクリックします。
 
-1. 左パネルで、を選択します。 **[!UICONTROL Store Credit]**.
+1. 左側のパネルで「**[!UICONTROL Store Credit]**」を選択します。
 
 1. 残高に関連付ける Web サイト（ストアフロント）を選択します。
 
-1. の場合 **[!UICONTROL Update Balance]**、新しい値を入力します。
+1. **[!UICONTROL Update Balance]**：新しい値を入力します。
 
-1. 残高の更新を顧客に通知するには、 **[!UICONTROL Notify Customer by Email]** チェックボックスをオンにして、次からストア表示を選択します **[!UICONTROL Send Email Notification From the Following Store View]**.
+1. 残高の更新を顧客に通知するには、「**[!UICONTROL Notify Customer by Email]**」チェックボックスを選択し、**[!UICONTROL Send Email Notification From the Following Store View]** からストア表示を選択します。
 
-1. を入力 **[!UICONTROL Comment]** 変更について。
+1. 変更に関する **[!UICONTROL Comment]** を入力します。
 
-1. 更新が完了したら、 **[!UICONTROL Save and Continue Edit]** または **[!UICONTROL Save Customer]**.
+1. 更新が完了したら、「**[!UICONTROL Save and Continue Edit]**」または「**[!UICONTROL Save Customer]**」をクリックします。
 
-更新された残高はに表示されます。 **[!UICONTROL Balance History]**.
+更新された残高は **[!UICONTROL Balance History]** に表示されます。
 
 ## 店舗管理者として注文にクレジット残高を適用する
 
-ストア管理者は、顧客に代わって注文の送信など、様々な操作を実行できます。 実行する場合 [オーダーの作成](../stores-purchase/customer-account-create-order.md)を使用する場合は、顧客が支払うストアクレジット残高を適用できます。 使用可能な残高は _お支払いと配送情報_ セクション。 「」を選択します **[!UICONTROL Use Store Credit]** 残高を適用する場合はチェックボックス、注文合計が少ない場合は残高の一部。
+ストア管理者は、顧客に代わって注文の送信など、様々な操作を実行できます。 [ 注文の作成 ](../stores-purchase/customer-account-create-order.md) 時に、顧客が支払うストアクレジット残高を適用できます。 使用可能な残高は、「支払および配送情報 _セクションに表示さ_ ます。 「**[!UICONTROL Use Store Credit]**」チェックボックスを選択して残高を適用するか、受注合計が少ない場合は残高の一部を適用します。
 
-![注文への店舗クレジット残高の適用](assets/store-credit-apply.png){width="500" zoomable="yes"}
+![ 注文への店舗クレジット残高の適用 ](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
 ## チェックアウト時の店舗クレジットの適用
 
@@ -64,14 +64,14 @@ ht-degree: 0%
 
 1. 顧客は、使用可能なストアクレジットの量を表示します。
 
-   期間中に _レビューと支払い_ 使用可能な量がの下に表示されます。 _[!UICONTROL Store Credit]_.
+   _レビューと支払い_ ステップ中に、使用可能な金額が _[!UICONTROL Store Credit]_の下に表示されます。
 
-1. 金額を注文に適用するには、をクリックします **[!UICONTROL Use Store Credit]**.
+1. 金額を注文に適用するには、「**[!UICONTROL Use Store Credit]**」をクリックします。
 
    >[!INFO]
    >
-   >注文合計が再計算され、適用されたストアクレジットの額がに表示されます _[!UICONTROL Order Summary]_.
+   >注文合計が再計算され、適用されたストアクレジットの額が _[!UICONTROL Order Summary]_に表示されます。
 
-   ![注文に適用された店舗の貸方残高](assets/store-credit-checkout.png){width="700" zoomable="yes"}
+   ![ 注文に適用された店舗のクレジット残高 ](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 
-1. 準備ができたら、クリックします **[!UICONTROL Place Order]**.
+1. 準備ができたら、「**[!UICONTROL Place Order]**」をクリックします。

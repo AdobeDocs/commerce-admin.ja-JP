@@ -12,23 +12,23 @@ ht-degree: 0%
 
 # 即時購入
 
-_即時購入_ を使用すると、お客様は、アカウントに保存された情報を使用して、チェックアウトプロセスを迅速に実行できます。 有効にすると、 _即時購入_ ボタンがの下に表示されます _カートに追加_ 要件を満たすお客様向けの製品ページのボタン。
+_即時購入_ を使用すると、お客様は、アカウントに保存された情報を使用して、チェックアウトプロセスを迅速に実行できます。 有効にすると、要件を満たすお客様に対して、製品ページの _買い物かごに追加_ ボタンの下に _即時購入_ ボタンが表示されます。
 
-![「インスタント購入」オプションが表示された製品ページ](./assets/storefront-checkout-instant-purchase.png){width="700" zoomable="yes"}
+![ 「インスタント購入」オプションが表示された製品ページ ](./assets/storefront-checkout-instant-purchase.png){width="700" zoomable="yes"}
 
 ## 顧客要件
 
-- 顧客 [ログイン済み](../customers/customer-sign-in.md) をユーザーに報告します。
+- 顧客が自分のアカウントに [ ログイン ](../customers/customer-sign-in.md) している。
 
-- 顧客アカウントに [既定の請求先住所と送付先住所](../customers/account-dashboard-address-book.md).
+- 顧客アカウントには [ デフォルトの請求および配送先住所 ](../customers/account-dashboard-address-book.md) があります。
 
-- 少なくとも 1 つ [発送方法](delivery.md) は、デフォルトの配送先住所で指定された国で使用できます。
+- デフォルトの配送先住所で指定された国で、少なくとも 1 つの [ 配送方法 ](delivery.md) を使用できます。
 
-- 顧客アカウントに [保管済みの支払い](../stores-purchase/stored-payment-methods.md) vault が有効になっているメソッド。
+- 顧客アカウントには、Vault が有効になっている [ 保存された支払い ](../stores-purchase/stored-payment-methods.md) 方法があります。
 
   保存されたクレジットカード情報への安全なアクセスを提供するには、次の支払い方法を使用できます。
 
-   - [Braintreeクレジットカード](braintree.md) （3D セキュアが有効化されている場合、Braintreeクレジットカードでは即時購入を利用できません。
+   - [Braintree クレジット カード ](braintree.md) （3D セキュアが有効になっている場合、インスタント購入はBraintree クレジット カードで使用できません。）
    - [PayPal が有効なBraintree](braintree.md)
    - [PayPal Payflow Pro](paypal-payflow-pro.md)
 
@@ -36,11 +36,11 @@ _即時購入_ を使用すると、お客様は、アカウントに保存さ�
 
 1. ストアフロントでは、お客様は購入する商品の商品ページに移動します。
 
-1. 必要なオプションとクリックを選択します **[!UICONTROL Instant Purchase]**.
+1. 必要なオプションを選択し、**[!UICONTROL Instant Purchase]** をクリックします。
 
-   ![インスタント購入を確認するための確認ダイアログ](./assets/storefront-checkout-instant-purchase-confirmation.png){width="500" zoomable="yes"}
+   ![ インスタント購入を確認するための確認ダイアログ ](./assets/storefront-checkout-instant-purchase-confirmation.png){width="500" zoomable="yes"}
 
-1. をレビュー **[!UICONTROL Instant Purchase Confirmation]** 情報とクリック数 **[!UICONTROL OK]** をクリックしてトランザクションを完了します。
+1. **[!UICONTROL Instant Purchase Confirmation]** の情報を確認し、**[!UICONTROL OK]** をクリックしてトランザクションを完了します。
 
    製品ページの上部に確認メッセージと注文番号が表示されます。
 
@@ -48,7 +48,7 @@ _即時購入_ を使用すると、お客様は、アカウントに保存さ�
 
 ### 手順 1：設定ページを開く
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 ### 手順 2：支払い方法 Vault の設定
 
@@ -57,28 +57,28 @@ Adobe CommerceとMagento Open SourceのBraintreeまたは支払いサービス�
 支払い方法を設定し、Braintreeまたは支払いサービスのヴォールティングを有効にする方法を説明します。
 
 - [Braintree](braintree.md)
-- [支払いサービスのドキュメント](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
+- [ 支払いサービスのドキュメント ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
 
 ### 手順 3：即時購入を有効にする
 
-1. 左パネルのの下にある _[!UICONTROL Sales]_セクションで選択&#x200B;**[!UICONTROL Sales]**.
+1. 「_[!UICONTROL Sales]_」セクションの下にある左パネルで、「**[!UICONTROL Sales]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Instant Purchase]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Instant Purchase]**」セクションを展開します。
 
-1. この変更が特定のストア表示に対するものである場合、 [ストア表示の選択](../configuration-reference/scope-change.md#set-the-scope) 設定が適用される場所。
+1. この変更が特定のストア表示に対するものである場合は、設定が適用される [ ストア表示を選択 ](../configuration-reference/scope-change.md#set-the-scope) します。
 
-   プロンプトが表示されたら、 **[!UICONTROL OK]** 続行します。
+   プロンプトが表示されたら、「**[!UICONTROL OK]**」をクリックして続行します。
 
-1. を設定 **[!UICONTROL Enabled]** 対象： `Yes`.
+1. **[!UICONTROL Enabled]** を `Yes` に設定します。
 
-1. を入力 **[!UICONTROL Button Text]** ボタンに表示する。
+1. ボタンに表示する **[!UICONTROL Button Text]** を入力します。
 
-   ボタンのテキストは、ストア表示または言語ごとに変更できます。 デフォルトでは、ボタンのテキストはです `Instant Purchase`.
+   ボタンのテキストは、ストア表示または言語ごとに変更できます。 デフォルトでは、ボタンのテキストは `Instant Purchase` です。
 
-   ![設定 – 即時購入オプション](../configuration-reference/sales/assets/sales-instant-purchase.png){width="600" zoomable="yes"}
+   ![ 設定 – 即時購入オプション ](../configuration-reference/sales/assets/sales-instant-purchase.png){width="600" zoomable="yes"}
 
-   これらの各設定について詳しくは、を参照してください。 [即時購入](../configuration-reference/sales/sales.md#instant-purchase) が含まれる _設定リファレンスガイド_.
+   これらの各設定について詳しくは、『 [ 設定リファレンスガイド _の ](../configuration-reference/sales/sales.md#instant-purchase) 即時購入_ を参照してください。
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。
 
-1. キャッシュの更新を求めるメッセージが表示されたら、 **[!UICONTROL Cache Management]** システムメッセージで、指示に従ってキャッシュをフラッシュします。
+1. キャッシュを更新するように求められたら、システムメッセージの **[!UICONTROL Cache Management]** をクリックし、指示に従ってキャッシュをフラッシュします。

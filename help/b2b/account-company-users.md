@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # 会社ユーザーアカウントの管理
 
-会社ユーザーは会社の管理者によって割り当てられ、 _[!UICONTROL Customers]_顧客タイプ別グリッド_[!UICONTROL Company User]_. これらの個人は、通常、ストアのサービスやリソースにアクセスする権限のレベルが異なる買い手です。
+会社ユーザーは会社の管理者によって割り当てられ、顧客タイプ _[!UICONTROL Company User]_によって、_[!UICONTROL Customers]_ グリッドの管理者から表示されます。 これらの個人は、通常、ストアのサービスやリソースにアクセスする権限のレベルが異なる買い手です。
 
-会社の管理者は、最初に [会社構造](account-company-structure.md)を選択し、必要に応じて次のタスクを完了します。
+会社の管理者は、まず [ 会社の構造 ](account-company-structure.md) を設定し、必要に応じて次のタスクを実行します。
 
 - 会社ユーザーの作成とチームへのユーザーの割り当て
 
@@ -29,72 +29,72 @@ ht-degree: 0%
 
 1. ストアフロントから、会社の管理者が自分のアカウントにサインインします。
 
-1. 左側のパネルで、を選択します **[!UICONTROL Company Users]**.
+1. 左側のパネルで、「**[!UICONTROL Company Users]**」を選択します。
 
-   ![会社のユーザー](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
+   ![ 会社ユーザー ](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
-1. クリック数 **[!UICONTROL Add New User]** 次の操作を実行します。
+1. **[!UICONTROL Add New User]** をクリックして、次の操作を実行します。
 
-   - エントリ数： **[!UICONTROL Job Title]** （新規ユーザー）。
+   - 新しいユーザーの **[!UICONTROL Job Title]** を入力します。
 
-   - 適切なを選択します **[!UICONTROL User Role]** 役割と権限が定義されている。 そうしないと、後で戻って役割を割り当てることができます。
+   - 役割と権限が定義されている場合は、適切な **[!UICONTROL User Role]** を選択します。 そうしないと、後で戻って役割を割り当てることができます。
 
-     ![新しいユーザーを追加](./assets/company-structure-users-add.png){width="700" zoomable="yes"}
+     ![ 新しいユーザーを追加 ](./assets/company-structure-users-add.png){width="700" zoomable="yes"}
 
    - ユーザーの必要に応じて、残りのフィールドに入力します。
 
-      - **[!UICONTROL First Name]** および **[!UICONTROL Last Name]**
+      - **[!UICONTROL First Name]** と **[!UICONTROL Last Name]**
       - **[!UICONTROL Email]**
       - **[!UICONTROL Phone Number]**
 
-   デフォルトでは、 **[!UICONTROL Status]** 口座の口座 `Active`.
+   デフォルトでは、アカウントの **[!UICONTROL Status]** は `Active` です。
 
-1. 完了したら、をクリックします **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
 1. 必要な数の会社ユーザーを作成するプロセスを繰り返します。
 
    新しいユーザーが、会社管理者と共に会社ユーザーリストに表示されます。
 
-初回注文時の時間を節約するために、会社の管理者は、各会社のユーザーに、デフォルトの会社の請求と配送先住所をユーザーに追加するようリマインダーできます [アドレス帳](../customers/account-dashboard-address-book.md).
+初回注文時の時間を節約するために、会社の管理者は、各会社のユーザーに、デフォルトの会社の請求と配送先住所を [ アドレス帳 ](../customers/account-dashboard-address-book.md) に追加するようリマインダーできます。
 
 ## 会社ユーザーの編集
 
 1. ストアフロントから、会社の管理者が自分のアカウントにサインインします。
 
-1. 左側のパネルで、を選択します **[!UICONTROL Company Users]**.
+1. 左側のパネルで、「**[!UICONTROL Company Users]**」を選択します。
 
-1. 更新するユーザーレコードを検索し、クリックします **[!UICONTROL Edit]**.
+1. 更新するユーザーレコードを検索し、**[!UICONTROL Edit]** をクリックします。
 
 1. 必要な変更を行います。
 
-1. 完了したら、をクリックします **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
 ## 会社ユーザーの削除
 
 1. ストアフロントから、会社の管理者が自分のアカウントにサインインします。
 
-1. 左側のパネルで、を選択します **[!UICONTROL Company Structure]**.
+1. 左側のパネルで、「**[!UICONTROL Company Structure]**」を選択します。
 
 1. 会社構造内の会社ユーザーを選択します。
 
-1. クリック数 **[!UICONTROL Delete Selected]**.
+1. **[!UICONTROL Delete Selected]** をクリックします。
 
-   ![ユーザーの削除](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
+   ![ ユーザーの削除 ](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
 
-1. 確認を求められたら、をクリックします **[!UICONTROL Delete]**.
+1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL Delete]**」をクリックします。
 
-管理者には、会社ユーザーは引き続き [顧客](../customers/customers-all.md) グリッドですが、 `Inactive` ステータス。
+管理者では、会社ユーザーは [ 顧客 ](../customers/customers-all.md) グリッドに引き続き表示されますが、ステータスは `Inactive` です。
 
 ## フィールドの説明
 
 | フィールド | 説明 |
 |--------------|---------------|
 | [!UICONTROL Job Title] | 会社ユーザーの役職。 |
-| [!UICONTROL User Role] | この [役割](account-company-roles-permissions.md) 会社ユーザーに割り当てられています。 オプション： `Default User` / （その他の役割） |
+| [!UICONTROL User Role] | 会社ユーザーに割り当てられた [ 役割 ](account-company-roles-permissions.md)。 オプション：`Default User` / （その他の役割） |
 | [!UICONTROL First Name] | 会社ユーザーの名。 |
 | [!UICONTROL Last Name] | 会社ユーザーの姓。 |
 | [!UICONTROL Email] | 会社ユーザーの電子メールアドレス。 |
 | [!UICONTROL Phone Number] | 会社ユーザーの電話番号。 |
-| [!UICONTROL Status] | 会社ユーザーアカウントのステータス。 オプション： `Active` / `Inactive` |
+| [!UICONTROL Status] | 会社ユーザーアカウントのステータス。 オプション：`Active` / `Inactive` |
 
 {style="table-layout:auto"}

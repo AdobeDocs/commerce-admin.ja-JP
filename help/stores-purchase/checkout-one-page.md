@@ -18,22 +18,22 @@ ht-degree: 0%
 
 **_1 ページのチェックアウトを無効にするには：_**
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL Checkout]**.
+1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Checkout Options]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Checkout Options]**」セクションを展開します。
 
-   ![設定 – チェックアウトオプション](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
+   ![ 設定 – チェックアウトオプション ](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-   これらの各設定について詳しくは、を参照してください。 [チェックアウトオプション](../configuration-reference/sales/checkout.md#checkout-options) が含まれる _設定リファレンスガイド_.
+   これらの各設定について詳しくは、『設定リファレンスガイド _の [ チェックアウトオプション ](../configuration-reference/sales/checkout.md#checkout-options) を参照してください_。
 
-1. 設定が特定のストア表示の場合、 [ストア表示の選択](../configuration-reference/scope-change.md#set-the-scope) 設定が適用される場所。
+1. 設定が特定のストア表示の場合は、[ ストア表示を選択 ](../configuration-reference/scope-change.md#set-the-scope) して設定が適用されます。
 
-   プロンプトが表示されたら、 **[!UICONTROL OK]** 続行します。
+   プロンプトが表示されたら、「**[!UICONTROL OK]**」をクリックして続行します。
 
-1. を設定 **[!UICONTROL Enable Onepage Checkout]** 対象： `No`.
+1. **[!UICONTROL Enable Onepage Checkout]** を `No` に設定します。
 
-   必要に応じて、 **[!UICONTROL Use system value]** この設定を変更するには、チェックボックスをオンにします。
+   必要に応じて、「**[!UICONTROL Use system value]**」チェックボックスをオフにして、この設定を変更します。
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。

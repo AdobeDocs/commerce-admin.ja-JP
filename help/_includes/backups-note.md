@@ -12,8 +12,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**無効にされた機能：** バックアップはデフォルトで無効になっています。 この関数を有効にするには、開発者の支援が必要になる場合があります。 以下を参照してください _インストールガイド_ バックアップを有効にするトピック： [ファイル・システム、メディア、データベースのバックアップとロール・バック](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html).
+>**無効な機能：** バックアップはデフォルトで無効になっています。 この関数を有効にするには、開発者の支援が必要になる場合があります。 バックアップを有効にするには、次の _インストール ガイド_ トピックを参照してください：[ ファイル システム、メディア、およびデータベースをバックアップおよびロールバックする ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html)。
 
 >[!NOTE]
 >
->**非推奨（廃止予定）のお知らせ：** バックアップ機能は v2.3.0 以降で廃止されています。すべてのマーチャントは、追加のバックアップテクノロジーおよびバイナリバックアップツール（など）を調査することをお勧めします [[!DNL Percona XtraBackup]](https://www.percona.com/software/mysql-database/percona-xtrabackup)）に設定します。
+>**非推奨（廃止予定）のお知らせ：** バックアップ機能は v2.3.0 以降で非推奨になりました。すべてのマーチャントは、追加のバックアップテクノロジーとバイナリバックアップツール（[[!DNL Percona XtraBackup]](https://www.percona.com/software/mysql-database/percona-xtrabackup) など）を調査することをお勧めします。

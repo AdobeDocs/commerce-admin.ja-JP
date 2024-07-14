@@ -1,6 +1,6 @@
 ---
 title: Media Gallery 画像の最適化
-description: 画像の最適化をユーザーに適用する方法を説明します [!DNL Commerce] メディアアセット。
+description: メディアアセットに画像の最適化を使用する方法  [!DNL Commerce]  説明します。
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
 source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 # Media Gallery 画像の最適化
 
-新しい [メディアギャラリー](media-gallery.md) 次を提供 _画像の最適化_ パフォーマンスを向上させ、ストアフロントのメディアファイルのサイズを縮小する機能。 この最適化はデフォルトで有効になっており、ストアの設定で変更できます。
+新しい [Media Gallery](media-gallery.md) には、パフォーマンスを向上させストアフロントのメディアファイルのサイズを縮小する _画像の最適化_ 機能が用意されています。 この最適化はデフォルトで有効になっており、ストアの設定で変更できます。
 
 ## 画像の最適化の設定
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Advanced]** を選択します **[!UICONTROL System]**.
+1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) **[!UICONTROL Media Gallery Image Optimization]** 次の手順を実行します。
+1. ![ 拡張セレクター ](../assets/icon-display-expand.png) を展開し **[!UICONTROL Media Gallery Image Optimization]** 以下を実行します。
 
-   - を設定 **[!UICONTROL Enable Image Optimization]** 対象： `Yes`.
-   - を入力 **[!UICONTROL Maximum Width]** および **[!UICONTROL Maximum Height]** 必要に応じて値（ピクセル単位）を指定します。
+   - **[!UICONTROL Enable Image Optimization]** を `Yes` に設定します。
+   - 必要に応じて **[!UICONTROL Maximum Width]** と **[!UICONTROL Maximum Height]** の値（ピクセル単位）を入力します。
 
 ## 動作
 
-Media Gallery の画像最適化機能が有効になっている場合、画像の最適化されたコピーがのコンテンツに自動的に挿入されます [メディアギャラリー](media-gallery.md) 元のファイルの代わりに使用します。
+Media Gallery の画像最適化機能が有効になっている場合、画像の最適化されたコピーが、元のファイルではなく [Media Gallery](media-gallery.md) のコンテンツに自動的に挿入されます。
 
-いつ _最大の幅_ および _最大高さ_ 設定で値が変更され、以前に挿入された既存の最適化画像がすべて更新されます。
+設定で _最大幅_ と _最大高さ_ の値を変更すると、以前に挿入された既存の最適化画像がすべて更新されます。
 
-Media Gallery の画像の最適化では、 `media.gallery.renditions.update` 設定が変更されると、キューコンシューマーは最適化された画像を再生成するために実行されます。 参照： [メッセージキューの管理](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) が含まれる _設定ガイド_ を参照してください。
+Media Gallery の画像の最適化を使用するには、構成が変更されたときに最適化された画像を再生成するために、`media.gallery.renditions.update` キューコンシューマーが実行されている必要があります。 詳しくは [ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) の _メッセージキューの管理_ を参照してください。
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}

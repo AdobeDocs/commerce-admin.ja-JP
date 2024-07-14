@@ -14,37 +14,37 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-各イベントはカタログのカテゴリに関連付けられ、特定のカテゴリに関連付けることができるイベントは一度に 1 つだけです。 ストアで今後のイベントのリストを表示するには、以下を設定する必要があります。 [カタログイベントカルーセル](../content-design/widget-event-carousel.md) ウィジェット。
+各イベントはカタログのカテゴリに関連付けられ、特定のカテゴリに関連付けることができるイベントは一度に 1 つだけです。 ストアに今後のイベントのリストを表示するには、[ カタログイベントカルーセル ](../content-design/widget-event-carousel.md) ウィジェットも設定する必要があります。
 
-![イベントリスト](./assets/category-events.png){width="700" zoomable="yes"}
+![ イベントリスト ](./assets/category-events.png){width="700" zoomable="yes"}
 
 ## イベントの作成
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Events]**に移動します。
 
-1. 右上隅のをクリックします。 **[!UICONTROL Add Catalog Event]**.
+1. 右上隅の「**[!UICONTROL Add Catalog Event]**」をクリックします。
 
 1. カテゴリ ツリーで、イベントに関連付けるカテゴリを選択します。
 
    各カテゴリは一度に 1 つのイベントしか持つことができないので、既にイベントを持つカテゴリは無効になります。
 
-   ![新しいイベント – カテゴリツリー](./assets/catalog-events-category-tree.png){width="500" zoomable="yes"}
+   ![ 新規イベント – カテゴリツリー ](./assets/catalog-events-category-tree.png){width="500" zoomable="yes"}
 
-1. の定義 **[!UICONTROL Catalog Event Information]**:
+1. **[!UICONTROL Catalog Event Information]** を定義します。
 
-   ![カタログイベント情報](./assets/catalog-event-information.png){width="700" zoomable="yes"}
+   ![ カタログイベント情報 ](./assets/catalog-event-information.png){width="700" zoomable="yes"}
 
-   - の場合 **[!UICONTROL Start Date]** イベントの場合は、カレンダー（![カレンダーアイコン](../assets/icon-calendar.png)）を選択して、日付を選択します。 の使用 **[!UICONTROL Hour]** および **[!UICONTROL Minute]** スライダを使用して、イベントが開始される時間を設定します。
+   - イベントの **[!UICONTROL Start Date]** には、カレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）を使用して日付を選択します。 **[!UICONTROL Hour]** と **[!UICONTROL Minute]** のスライダーを使用して、イベントの開始時刻を設定します。
 
-   - の場合 **[!UICONTROL End Date]** イベントの場合は、カレンダー（![カレンダーアイコン](../assets/icon-calendar.png)）を選択して、日付を選択します。 の使用 **[!UICONTROL Hour]** および **[!UICONTROL Minute]** スライダーを使用して、イベントが終了する時間を設定します。
+   - イベントの **[!UICONTROL End Date]** には、カレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）を使用して日付を選択します。 **[!UICONTROL Hour]** と **[!UICONTROL Minute]** のスライダーを使用して、イベントの終了時間を設定します。
 
-   - をアップロードするには **[!UICONTROL Image]** イベント ウィジェットで、をクリックします。 **[!UICONTROL Choose File]** ディレクトリから画像ファイルを選択します。
+   - イベントウィジェットの **[!UICONTROL Image]** をアップロードするには、「**[!UICONTROL Choose File]**」をクリックし、ディレクトリから画像ファイルを選択します。
 
-   - が含まれる **[!UICONTROL Sort Order]** フィールドに、このイベントが他のイベントと共にリストされた際に表示される順序を示す数字を入力します。
+   - 「**[!UICONTROL Sort Order]**」フィールドに、このイベントが他のイベントと共にリストされるときの表示順序を示す数値を入力します。
 
    - カウントダウンティッカーを表示する各ページタイプのチェックボックスを選択します。
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
 ## イベントの更新
 
@@ -52,47 +52,47 @@ ht-degree: 0%
 
 ### 方法 1：イベントページからイベントを編集する
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Events]**に移動します。
 
 1. リストでイベントを検索し、編集モードで開きます。
 
 1. イベントに対して必要な変更を行います。
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
 ### 方法 2：カテゴリからのイベントの編集
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Categories]** に移動します。
 
 1. 左側のカテゴリ ツリーで、イベントに関連付けられているカテゴリを選択します。
 
-1. 右上隅のをクリックします。 **[!UICONTROL Edit Even]t**.
+1. 右上隅の「**[!UICONTROL Edit Even]t**」をクリックします。
 
 1. イベントに対して必要な変更を行います。
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
 ## イベントの削除
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Events]**に移動します。
 
 1. リストでイベントを検索し、編集モードで開きます。
 
-1. 右上隅のをクリックします。 **[!UICONTROL Delete]**.
+1. 右上隅の「**[!UICONTROL Delete]**」をクリックします。
 
-1. アクションを確定するには、をクリックします **[!UICONTROL OK]**.
+1. アクションを確定するには、「**[!UICONTROL OK]**」をクリックします。
 
 ## フィールドの説明
 
-| フィールド | [範囲](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Category] | グローバル | イベントを作成すると、このフィールドはカテゴリツリーにリンクします。 イベントを編集すると、そのイベントに関連するカテゴリページにリンクします。 |
-| [!UICONTROL Start Date] | グローバル | でのイベントの開始日時 `MMDDYYYY HH;MM` 形式。 カレンダーアイコンをクリックして、日付を選択します。 |
-| [!DNL End Date] | グローバル | イベントの終了日時 `MMDDYYYY HH;MM` 形式。 カレンダーアイコンをクリックして、日付を選択します。 |
-| [!UICONTROL Image] | ストア表示 | に表示される画像をアップロードします。 [カタログイベントカルーセルウィジェット](../content-design/widget-event-carousel.md). |
+| [!UICONTROL Start Date] | グローバル | `MMDDYYYY HH;MM` 形式のイベントの開始日時。 カレンダーアイコンをクリックして、日付を選択します。 |
+| [!DNL End Date] | グローバル | `MMDDYYYY HH;MM` 形式のイベントの終了日時。 カレンダーアイコンをクリックして、日付を選択します。 |
+| [!UICONTROL Image] | ストア表示 | [ カタログイベントカルーセルウィジェット ](../content-design/widget-event-carousel.md) に表示される画像をアップロードします。 |
 | [!UICONTROL Sort Order] | グローバル | 他のイベントと共にリストされるときにこのイベントが表示されるシーケンスを決定します。 |
-| [!UICONTROL Display Countdown Ticker On] | グローバル | 指定した各ページのヘッダーにカウントダウンティッカーを表示します。 オプション： `Category Page` / `Product Page` |
-| [!UICONTROL Status] | グローバル | 開始日と終了日の範囲に基づいて、イベントのステータスを示します。 ステータスは読み取り専用の値です。 値： `Open` / `Closed` / `Upcoming` |
+| [!UICONTROL Display Countdown Ticker On] | グローバル | 指定した各ページのヘッダーにカウントダウンティッカーを表示します。 オプション：`Category Page` / `Product Page` |
+| [!UICONTROL Status] | グローバル | 開始日と終了日の範囲に基づいて、イベントのステータスを示します。 ステータスは読み取り専用の値です。 値：`Open`/`Closed`/`Upcoming` |
 
 {style="table-layout:auto"}
 

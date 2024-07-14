@@ -14,11 +14,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-顧客アカウントのアドレス帳だけでなく、印刷された請求書、出荷、払い戻しに表示される、顧客の請求先および出荷先の形式を制御するテンプレートを変更できます。 追加情報を含める場合は、次を作成できます [カスタム属性](attribute-properties.md) 顧客アカウントに関連付けられている [住所](address-attributes.md)を作成して、テンプレートに組み込みます。
+顧客アカウントのアドレス帳だけでなく、印刷された請求書、出荷、払い戻しに表示される、顧客の請求先および出荷先の形式を制御するテンプレートを変更できます。 追加情報を含める場合は、顧客アカウントおよび [ 住所 ](attribute-properties.md) に関連付けられた [ カスタム属性 ](address-attributes.md) を作成してテンプレートに組み込むことができます。
 
 ## 例 1：ショートフォーマット
 
-の場合 [!UICONTROL Text One Line] 住所テンプレート：
+アドレステンプレート [!UICONTROL Text One Line] 場合：
 
 ```text
 {{depend prefix}}{{var prefix}} {{/depend}}{{var firstname}} {{depend middlename}}{{var middlename}} {{/depend}}{{var lastname}}{{depend suffix}} {{var suffix}}{{/depend}}, {{var street}}, {{var city}}, {{var region}} {{var postcode}}, {{var country}}
@@ -26,21 +26,21 @@ ht-degree: 0%
 
 ## 例 2:long 形式
 
-の場合 [!UICONTROL Text], [!UICONTROL HTML]、および [!UICONTROL PDF] アドレステンプレート：
+[!UICONTROL Text]、[!UICONTROL HTML]、[!UICONTROL PDF] のアドレステンプレートの場合：
 
 ```text
 {{depend prefix}}{{var prefix}} {{/depend}}{{var firstname}} {{depend middlename}}{{var middlename}} {{/depend}}{{var lastname}}{{depend suffix}} {{var suffix}}{{/depend}}{{depend company}}{{var company}}{{/depend}}{{if street1}}{{var street1}}{{/if}}{{depend street2}}{{var street2}}{{/depend}}{{depend street3}}{{var street3}}{{/depend}}{{depend street4}}{{var street4}}{{/depend}}{{if city}}{{var city}},  {{/if}}{{if region}}{{var region}}, {{/if}}{{if postcode}}{{var postcode}}{{/if}}{{var country}}{{depend telephone}}T: {{var telephone}}{{/depend}}{{depend fax}}F: {{var fax}}{{/depend}}{{depend vat_id}}VAT: {{var vat_id}}{{/depend}}
 ```
 
-![顧客の住所テンプレート](../configuration-reference/customers/assets/customer-configuration-address-templates.png){width="600" zoomable="yes"}
+![ 顧客の住所テンプレート ](../configuration-reference/customers/assets/customer-configuration-address-templates.png){width="600" zoomable="yes"}
 
 ## アドレスフィールドの順序の変更
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Customers]** を選択して、 **[!UICONTROL Customer Configuration]**.
+1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Customer Configuration]**」を選択します。
 
-1. をクリックして、 **[!UICONTROL Address Templates]** セクション。
+1. 「」をクリックして「**[!UICONTROL Address Templates]**」セクションを展開します。
 
    この節では、次の各項目について個別の書式設定手順を説明します。
 
@@ -51,4 +51,4 @@ ht-degree: 0%
 
 1. 必要に応じて、例を参照しながら各テンプレートを編集します。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

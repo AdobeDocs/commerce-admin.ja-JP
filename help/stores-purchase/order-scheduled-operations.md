@@ -12,29 +12,29 @@ ht-degree: 0%
 
 # スケジュール済み注文操作
 
-使用方法 [Cron](../systems/cron.md) ジョブ：次のオーダー処理タスクをスケジュールします。
+[Cron](../systems/cron.md) ジョブを使用して、次の注文処理タスクをスケジュールします。
 
-![注文グリッド](./assets/orders-grid.png){width="700" zoomable="yes"}
+![ 注文グリッド ](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 ## 保留中の支払注文の有効期間を設定します
 
-支払いが保留されている注文の有効期間は、 _注文 Cron 設定_ 設定。 デフォルト値は 480 分（8 時間）に設定されています。
+支払いが保留されている注文の有効期間は、_注文 Cron 設定_ 設定によって決まります。 デフォルト値は 480 分（8 時間）に設定されています。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Sales]** セクションで選択 **[!UICONTROL Sales]** その下に。
+1. 左側のパネルで「**[!UICONTROL Sales]**」セクションを展開し、その下 **[!UICONTROL Sales]** 選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Orders Cron Settings]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Orders Cron Settings]**」セクションを展開します。
 
-   ![注文 Cron 設定](../configuration-reference/sales/assets/sales-orders-cron-settings.png){width="600" zoomable="yes"}
+   ![ 注文 Cron 設定 ](../configuration-reference/sales/assets/sales-orders-cron-settings.png){width="600" zoomable="yes"}
 
-1. の場合 **[!UICONTROL Pending Payment Order Lifetime (minutes)]**：保留中の支払いが期限切れになるまでの分数を入力します。
+1. **[!UICONTROL Pending Payment Order Lifetime (minutes)]**：保留中の支払いが期限切れになるまでの分数を入力します。
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。
 
 ## スケジュールされたグリッドの更新とインデックス再作成を有効にする
 
-「グリッド設定」構成では、次の受注管理グリッドが更新され、スケジュールに従ってデータの索引が再作成されます。 [Cron](../systems/cron.md):
+グリッド設定の構成スケジュールは、次の Order Management グリッドを更新し、[Cron](../systems/cron.md) がスケジュールどおりにデータのインデックスを再作成します。
 
 - [注文件数](orders.md#orders-workspace)
 - [請求書](invoices.md)
@@ -45,20 +45,20 @@ ht-degree: 0%
 
 **_更新とインデックス再作成を有効にするには：_**
 
-条件 [実稼動モード](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) （クラウドインフラストラクチャー上のAdobe Commerceで使用されるデフォルトモード）が有効になっている場合は、次のコマンドを実行します。
+[ 実稼動モード ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) （クラウドインフラストラクチャ上のAdobe Commerceで使用されるデフォルトのモード）が有効な場合は、次のコマンドを実行します。
 
 ``bin/magento config:set dev/grid/async_indexing 1``
 
-条件 [デフォルトモード](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) が有効になっている場合は、以下の手順を実行します。
+[ デフォルトモード ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) が有効な場合、次の手順を実行します。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Advanced]** セクションで選択 **[!UICONTROL Developer]**.
+1. 左側のパネルで「**[!UICONTROL Advanced]**」セクションを展開し、「**[!UICONTROL Developer]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Grid Settings]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Grid Settings]**」セクションを展開します。
 
-1. を設定 **[!UICONTROL Asynchronous Indexing]** 対象： `Enable`.
+1. **[!UICONTROL Asynchronous Indexing]** を `Enable` に設定します。
 
-   ![グリッド設定](../configuration-reference/advanced/assets/developer-grid-settings.png){width="600" zoomable="yes"}
+   ![ グリッド設定 ](../configuration-reference/advanced/assets/developer-grid-settings.png){width="600" zoomable="yes"}
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。

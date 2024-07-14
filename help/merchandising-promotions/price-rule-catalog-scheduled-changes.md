@@ -18,96 +18,96 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この [!UICONTROL From] および [!UICONTROL To] フィールドがで削除されました ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerceとは、カタログ価格ルールで直接変更することはできません。 これらのアクティベーションに対して、スケジュールされた更新を作成する必要があります。
+>[!UICONTROL From] および [!UICONTROL To] フィールドは、![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerceで削除されており、カタログ価格ルールで直接変更することはできません。 これらのアクティベーションに対して、スケジュールされた更新を作成する必要があります。
 
 >[!NOTE]
 >
 >スケジュールされたすべての更新は、連続して適用されます。 つまり、どのエンティティも、1 つの時点でスケジュールされた更新を 1 つのみ持つことができます。 スケジュールされた更新は、その期間内のすべてのストアビューに適用されます。 その結果、1 つのエンティティに対して、異なるストア表示の異なるスケジュールされた更新を同時に行うことはできません。 現在スケジュールされている更新の影響を受けないすべてのストアビュー内のすべてのエンティティ属性値は、前回スケジュールされた更新ではなく、デフォルト値から取得されます。
 
-同じキャンペーンで複数の価格ルールが実行されている場合は、価格ルールの「優先度」設定によって、優先されるルールが決まります。 詳しくは、 [コンテンツのステージング](../content-design/content-staging.md).
+同じキャンペーンで複数の価格ルールが実行されている場合は、価格ルールの「優先度」設定によって、優先されるルールが決まります。 詳しくは、[ コンテンツのステージング ](../content-design/content-staging.md) を参照してください。
 
 >[!IMPORTANT]
 >
 >価格ルールを含むキャンペーンが最初に終了日なしで作成された場合、後でキャンペーンを編集して終了日を含めることはできません。 キャンペーンを作成する際に終了日を追加するか、既存のキャンペーンの重複バージョンを作成し、必要に応じて終了日を重複に追加することをお勧めします。
 
-![カタログ価格ルール – 予定された変更](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
+![ カタログ価格ルール – 予定された変更 ](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
 
 ## カタログ価格ルールの更新をスケジュール
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**カタログ価格ルール**.
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**カタログ価格ルール**に移動します。
 
 1. ルールを編集モードで開きます。
 
-1. が含まれる **[!UICONTROL Scheduled Changes]** ページの上部にあるボックスで、 **[!UICONTROL Schedule New Update]**.
+1. ページ上部の **[!UICONTROL Scheduled Changes]** ボックスで、[**[!UICONTROL Schedule New Update]**] をクリックします。
 
-1. （を使用） **[!UICONTROL Save as a New Update]** オプションを選択した場合、次の操作を行います。
+1. **[!UICONTROL Save as a New Update]** オプションを選択した状態で、次の操作を行います。
 
-   - の場合 **[!UICONTROL Update Name]**&#x200B;を入力し、ルールの更新の名前を入力します。
+   - **[!UICONTROL Update Name]**：ルールの更新の名前を入力します。
 
-   - 概要を入力 **[!UICONTROL Description]** 更新内容（適用方法や適用理由を含む）。
+   - 適用方法や理由など、更新の簡単な **[!UICONTROL Description]** を入力します。
 
-   - の使用 _カレンダー_ （![カレンダーアイコン](../assets/icon-calendar.png)）を選択して、 **[!DNL Start Date]** および **[!UICONTROL End Date]** （スケジュールされた変更が有効になる）。 無期限の変更を作成するには、終了日を空白のままにします。
+   - _カレンダー_ （![ カレンダーアイコン ](../assets/icon-calendar.png)）を使用して、スケジュールされた変更を有効にする **[!DNL Start Date]** と **[!UICONTROL End Date]** を選択します。 無期限の変更を作成するには、終了日を空白のままにします。
 
-   ![カタログ価格ルール – 新しくスケジュールされた変更](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
+   ![ カタログ価格ルール – 新しくスケジュールされた変更 ](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
    >開始日と終了日の日付と時刻は、特定の web サイトのタイムゾーンではなく、デフォルトの管理パネルの日付と時刻とタイムゾーンによって決定されます。 Web サイトのタイムゾーンを考慮して、開始時刻と終了時刻を適切に決定します。 特定のローカル時間に開始または停止する必要がある様々なタイムゾーンの web サイトに対して、個別のルールを作成します。
 
-1. にスクロール ダウンします。 **[!UICONTROL Rule Information]** をセクションし、必要に応じてルールを変更します。
+1. **[!UICONTROL Rule Information]** セクションまでスクロールし、必要に応じてルールを変更します。
 
-   ルールの web サイト（範囲）/顧客グループ、ルールの条件、ルールで適用されるアクションなど、任意のルールパラメーターの変更をスケジュールできます。 詳しくは、を参照してください [カタログ価格ルールの作成](price-rules-catalog-create.md).
+   ルールの web サイト（範囲）/顧客グループ、ルールの条件、ルールで適用されるアクションなど、任意のルールパラメーターの変更をスケジュールできます。 詳細は、「[ カタログ価格ルールの作成 ](price-rules-catalog-create.md)」を参照してください。
 
    >[!NOTE]
    >
-   >ルール情報のパラメーターを変更する場合は、必ず _[!UICONTROL Status]_が正しく設定されている。 変更によってルールがアクティブに適用されるようにするには、ステータスを`Active`.
+   >いずれかのルール情報パラメーターに変更する場合は、ルー _[!UICONTROL Status]_が正しく設定されていることを確認してください。 変更によってルールがアクティブに適用されるようにするには、ステータスを `Active` にします。
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
    スケジュールされた変更が、キャンペーンの開始日と終了日と共にページの上部に表示されます。
 
 ## スケジュールされたルールの変更の編集
 
-1. が含まれる **[!UICONTROL Scheduled Changes]** ページの上部にあるボックスで、 **[!UICONTROL View/Edit]**.
+1. ページ上部の **[!UICONTROL Scheduled Changes]** ボックスで、[**[!UICONTROL View/Edit]**] をクリックします。
 
 1. スケジュールされている更新に必要な変更を加えます。
 
-1. クリック **[!UICONTROL Save]**.
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 ## スケジュールされたルールの変更のプレビュー
 
-1. が含まれる **[!UICONTROL Scheduled Changes]** ページの上部にあるボックスで、 **[!UICONTROL Preview]**.
+1. ページ上部の **[!UICONTROL Scheduled Changes]** ボックスで、[**[!UICONTROL Preview]**] をクリックします。
 
    プレビューをクリックすると、新しいブラウザータブが開き、適用されたスケジュール済みの変更がストアフロントに読み込まれます。 変更の影響を受ける製品に移動します。
 
-   ![スケジュールされた変更のプレビュー](./assets/price-rule-catalog-scheduled-update-preview.png){width="600" zoomable="yes"}
+   ![ スケジュールされた変更のプレビュー ](./assets/price-rule-catalog-scheduled-update-preview.png){width="600" zoomable="yes"}
 
-1. プレビューウィンドウの左上隅にある、をクリックします。 **[!UICONTROL Calendar]**.
+1. プレビューウィンドウの左上隅にある [**[!UICONTROL Calendar]**] をクリックします。
 
    カレンダーの詳細には、同じ日にスケジュールされた他のキャンペーンが表示されます。 リスト内の各レコードは、個別のルールの更新です。
 
-   ![特定の日付にスケジュールされた更新のリスト](./assets/price-rule-catalog-scheduled-preview-calendar.png){width="600" zoomable="yes"}
+   ![ 特定の日付にスケジュールされた更新のリスト ](./assets/price-rule-catalog-scheduled-preview-calendar.png){width="600" zoomable="yes"}
 
-1. 別の日時をプレビューするには、 **[!UICONTROL Date & Time]** カレンダー ![カレンダーアイコン](../assets/icon-calendar.png) 次の手順を実行します。
+1. 別の日時をプレビューするには、**[!UICONTROL Date & Time]** のカレンダー ![ カレンダーアイコン ](../assets/icon-calendar.png) をクリックし、次の手順を実行します。
 
    - 別の日付や時刻を選択してください。
 
-   - クリック **[!UICONTROL Preview]**.
+   - 「**[!UICONTROL Preview]**」をクリックします。
 
-1. カレンダーに戻るには、 **[!UICONTROL Calendar]** プレビューページのヘッダーで指定します。
+1. カレンダーに戻るには、プレビューページのヘッダーにある「**[!UICONTROL Calendar]**」をクリックします。
 
    ここから、次の操作を実行できます。
 
    **プレビューへのリンクの共有**
 
-   ストアのプレビューへのリンクを仕事仲間と共有するには、 **[!UICONTROL Share]**. リンクをクリップボードにコピーし、メールメッセージの本文に貼り付けます。
+   ストアのプレビューへのリンクを仕事仲間と共有するには、[**[!UICONTROL Share]**] をクリックします。 リンクをクリップボードにコピーし、メールメッセージの本文に貼り付けます。
 
    >[!NOTE]
    >
-   >共有プレビューを表示するには、管理者ユーザーアカウントが必要です。 次の場合 [役割のアクセス権](../systems/permissions-user-roles.md) 管理者ユーザーアカウントを作成するには、共有する前に新しいユーザーのアカウントを作成する必要があります。
+   >共有プレビューを表示するには、管理者ユーザーアカウントが必要です。 [ 役割にアクセス ](../systems/permissions-user-roles.md) できる場合、管理者ユーザーアカウントを作成するには、共有する前に新しいユーザーのアカウントを作成する必要があります。
 
    **プレビューの範囲の変更**
 
-   様々なストア表示でスケジュールされた変更を確認するには、次のボタンをクリックします **[!UICONTROL Scope]** プレビューページのヘッダーで指定します。 プレビューする web サイト、ストア、またはストア表示を選択します。
+   様々なストアビューでスケジュールされた変更を表示するには、プレビューページのヘッダーの **[!UICONTROL Scope]** をクリックします。 プレビューする web サイト、ストア、またはストア表示を選択します。
 
-1. 必要に応じて、カレンダーに戻り、 **[!UICONTROL View/Edit]** が含まれる _[!UICONTROL Action]_スケジュールされている別の更新を開くための列。
+1. 必要に応じて、カレンダーに戻り、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL View/Edit]**をクリックして、別のスケジュールされた更新を開きます。

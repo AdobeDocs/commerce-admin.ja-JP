@@ -14,21 +14,21 @@ ht-degree: 0%
 
 ログイン後に顧客が自分のアカウントダッシュボードにリダイレクトしたり、買い物を続行させたりするように、ストアを設定できます。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Customers]** を選択します **[!UICONTROL Customer Configuration]**.
+1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Customer Configuration]**」を選択します。
 
-1. を展開します。 **[!UICONTROL Login Options]** セクション。
+1. 「**[!UICONTROL Login Options]**」セクションを展開します。
 
-   ![ログインオプション](assets/customer-configuration-login-options.png){width="600" zoomable="yes"}
+   ![ ログインオプション ](assets/customer-configuration-login-options.png){width="600" zoomable="yes"}
 
-1. を設定 **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]** を次のいずれかに変更します。
+1. **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]** を次のいずれかに設定します。
 
-   - `Yes`  – 顧客が自分のアカウントにログインすると、アカウントダッシュボードが表示されます。
-   - `No`  – 顧客はアカウントにログインした後も買い物を続けることができます。
+   - `Yes` – 顧客が自分のアカウントにログインすると、アカウントダッシュボードが表示されます。
+   - `No` – 顧客はアカウントにログインした後も買い物を続けることができます。
 
    >[!INFO]
    >
-   >必要に応じて、 **[!UICONTROL User system value]** 変更するチェックボックス。
+   >必要に応じて、「**[!UICONTROL User system value]**」チェックボックスをオフにして変更を加えます。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

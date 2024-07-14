@@ -19,22 +19,22 @@ ht-degree: 0%
 
 1 列レイアウトのコンテンツ領域は、メイン列の全幅に広がります。 このレイアウトは、大きなバナーやスライダーを持つホームページや、ナビゲーションを必要としないページ（ログインページ、スプラッシュページ、ビデオ、フルページ広告など）でよく使用されます。
 
-![1 列レイアウトの例](./assets/page-layout-1-col.png){width="700" zoomable="yes"}
+![1 列レイアウトの例 ](./assets/page-layout-1-col.png){width="700" zoomable="yes"}
 
 ## 左側に棒が付いた 2 列
 
 このレイアウトのコンテンツ領域は 2 つの列に分割されています。 メインコンテンツ列は右に、サイドバーは左にフローティングします。
 
-![左バーを含む 2 列の例](./assets/page-layout-2-col-left-bar.png){width="700" zoomable="yes"}
+![ 左側に棒が付いた 2 つの列の例 ](./assets/page-layout-2-col-left-bar.png){width="700" zoomable="yes"}
 
 ## 右側のバー付き 2 列
 
 このレイアウトは、他の 2 列のレイアウトのミラーイメージです。 今度は、サイドバーが右側にフローティングし、メインコンテンツ列が左側にフローティングします。
 
-![右バーを含む 2 列の例](./assets/page-layout-2-col-right-bar.png){width="700" zoomable="yes"}
+![ 右バーのある 2 列の例 ](./assets/page-layout-2-col-right-bar.png){width="700" zoomable="yes"}
 
 ## 3 列
 
 3 列のレイアウトには、2 つの側列を持つメインコンテンツ領域があります。 左側のサイドバーとメインコンテンツ列は一緒にラップされ、左側にユニットとしてフロートされます。 もう一方のサイドバーは右側に浮かんでいます。
 
-![3 列の例](./assets/page-layout-3-col.png){width="700" zoomable="yes"}
+![3 列の例 ](./assets/page-layout-3-col.png){width="700" zoomable="yes"}

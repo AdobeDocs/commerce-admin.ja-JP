@@ -15,31 +15,31 @@ ht-degree: 0%
 
 会社の管理者は、会社アカウントを最初に作成したときに最初に割り当てられ、管理者からのストア管理者のみが変更できます。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL Companies]** に移動します。
 
-1. リストで会社を見つけて、 **[!UICONTROL Edit]**.
+1. リストで会社を見つけて、「**[!UICONTROL Edit]**」をクリックします。
 
-   ![会社](./assets/companies-grid.png){width="700" zoomable="yes"}
+   ![ 会社 ](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Company Admin]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Company Admin]**」セクションを展開します。
 
-   ![会社管理者](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
+   ![ 会社管理者 ](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
-1. を入力 **[!UICONTROL Job Title]** 新しい会社管理者のを選択し、 **[!UICONTROL Proceed]** 続行します。
+1. 新しい会社の管理者の **[!UICONTROL Job Title]** を入力し、[**[!UICONTROL Proceed]**] をクリックして続行します。
 
-   このアクションを実行すると、フォームと必要な内容がクリアされます _[!UICONTROL First Name]_および_[!UICONTROL Last Name]_ フィールドがハイライト表示されている様子
+   このアクションを実行すると、フォームがクリアされ、必須 _[!UICONTROL First Name]_および_[!UICONTROL Last Name]_ フィールドがハイライト表示されます。
 
-1. を入力 **[!UICONTROL Email]** 新しい会社管理者のアドレス。
+1. 新しい会社管理者の **[!UICONTROL Email]** アドレスを入力します。
 
    システムがデータベース内でメールアドレスを見つけられない場合は、会社管理者を置き換えるかどうかを確認するプロンプトが表示されます。
 
-   - 新しい会社管理者のユーザーアカウントが存在しない場合は、次のアカウントが作成されます `Company Admin` タイプ。
+   - 新しい会社管理者のユーザーアカウントが存在しない場合、`Company Admin` タイプのアカウントが作成されます。
 
    - ユーザーアカウントがシステムに存在する場合は、会社構造内の会社管理者の位置に移動されます。
 
-1. を入力 **[!UICONTROL First Name]** および **[!UICONTROL Last Name]**、および新しい会社管理者に適用されるその他の情報。
+1. **[!UICONTROL First Name]** と **[!UICONTROL Last Name]**、および新しい会社管理者に適用されるその他の情報を入力します。
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
    元の会社管理者の個人アカウントは、デフォルトのユーザーロールに割り当てられた、会社構造内のアクティブな個人ユーザーアカウントとしてシステムに残ります。
 

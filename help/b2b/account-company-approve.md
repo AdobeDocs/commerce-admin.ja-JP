@@ -13,40 +13,40 @@ ht-degree: 0%
 
 # 会社アカウントを承認
 
-ストアフロントから受け取った会社設立依頼のステータスは以下のとおりです `Pending Approval` ストア管理者がリクエストを確認し、承認または却下するまで。 会社アカウントのステータスは、次のいずれかに設定される場合があります。
+会社を作成するためにストアフロントから受け取ったリクエストのステータスは、ストア管理者がリクエストを確認し、承認または拒否するまで `Pending Approval` 定されます。 会社アカウントのステータスは、次のいずれかに設定される場合があります。
 
 - [!UICONTROL Active]
 - [!UICONTROL Pending Approval]
 - [!UICONTROL Rejected]
 - [!UICONTROL Blocked]
 
-を使用することもできます [アクション制御](account-company-manage.md) 複数の会社リクエストを承認する場合。
+[ アクションコントロール ](account-company-manage.md) を使用して、複数の会社リクエストを承認することもできます。
 
-![承認待ち](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
+![ 承認保留中 ](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
 
 ## 保留中の会社アカウントを承認
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL Companies]** に移動します。
 
-   を使用できます _[!UICONTROL Columns]_グリッドの上にセレクターを配置して、**[!UICONTROL Status]**列。
+   グリッドの上にある _[!UICONTROL Columns]_セレクターを使用して、**[!UICONTROL Status]**の列を表示できます。
 
-1. が含まれる _[!UICONTROL Action]_列、クリック&#x200B;**[!UICONTROL Edit]**.
+1. 「_[!UICONTROL Action]_」列で「**[!UICONTROL Edit]**」をクリックします。
 
-1. を設定 **[!UICONTROL Company Status]** 対象： `Active`.
+1. **[!UICONTROL Company Status]** を `Active` に設定します。
 
-   ![会社ステータスの設定](./assets/company-status-active.png){width="700" zoomable="yes"}
+   ![ 会社ステータスの設定 ](./assets/company-status-active.png){width="700" zoomable="yes"}
 
-1. 確認を求められたら、 **[!UICONTROL Change status]**.
+1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL Change status]**」をクリックします。
 
    会社の管理者に、会社がアクティブになったというメール通知が届きます。
 
-1. 該当する場合、を設定します **[!UICONTROL Sales Representative]** を特定の管理者ユーザーアカウントに対して実行します。
+1. 該当する場合、**[!UICONTROL Sales Representative]** を特定の管理者ユーザーアカウントに設定します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png)  この **[!UICONTROL Account Information]** セクションと使用 **[!UICONTROL Comment]** アカウントに関するメモを入力するフィールド。
+1. 「**[!UICONTROL Account Information]**![ 展開セレクター ](../assets/icon-display-expand.png)」セクションを展開し、「**[!UICONTROL Comment]**」フィールドを使用して、アカウントに関するメモを入力します。
 
    コメントはストアフロントからは表示されません。
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
    会社アカウントが承認されたことを示す確認メールが会社と会社の管理者に送信されます。
 

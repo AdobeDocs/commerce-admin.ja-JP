@@ -12,39 +12,39 @@ ht-degree: 0%
 
 # システムバックアップ
 
-Adobe CommerceとMagento Open Sourceを使用すると、ファイルシステム、データベース、メディアファイルなど、システムの様々な部分をバックアップしたり、自動的にロールバックしたりできます。 各バックアップのレコードは、 _バックアップ_ ページ。 リストからレコードを削除すると、アーカイブされたファイルも削除されます。 データベース バックアップ ファイルは、GZ 形式で圧縮されます。 システムバックアップとデータベースおよびメディアバックアップには、TGZ 形式が使用されます。 ベストプラクティスとして、拡張機能と更新をインストールする前に、バックアップツールへのアクセスを制限し、バックアップする必要があります。
+Adobe CommerceとMagento Open Sourceを使用すると、ファイルシステム、データベース、メディアファイルなど、システムの様々な部分をバックアップしたり、自動的にロールバックしたりできます。 各バックアップのレコードは、グリッドの [_バックアップ_] ページに表示されます。 リストからレコードを削除すると、アーカイブされたファイルも削除されます。 データベース バックアップ ファイルは、GZ 形式で圧縮されます。 システムバックアップとデータベースおよびメディアバックアップには、TGZ 形式が使用されます。 ベストプラクティスとして、拡張機能と更新をインストールする前に、バックアップツールへのアクセスを制限し、バックアップする必要があります。
 
-- **バックアップツールへのアクセスを制限します。** バックアップおよびロールバック管理ツールへのアクセスは、以下を設定することによって制限できます。 [ユーザーロール](permissions-user-roles.md) （バックアップおよびロールバック用リソース）。 アクセスを制限するには、対応するチェックボックスをオフのままにします。 リソースのロールバックへのアクセス権を付与するには、バックアップ リソースへのアクセス権も付与する必要があります。
+- **バックアップツールへのアクセスを制限します。** バックアップおよびロールバック管理ツールへのアクセスは、バックアップおよびロールバックリソース用に [ ユーザーの役割 ](permissions-user-roles.md) を設定することで制限できます。 アクセスを制限するには、対応するチェックボックスをオフのままにします。 リソースのロールバックへのアクセス権を付与するには、バックアップ リソースへのアクセス権も付与する必要があります。
 
-- **拡張機能とアップデートをインストールする前にバックアップを作成します。** 拡張機能または更新をインストールする前に、必ずバックアップを実行してください。
+- **拡張機能とアップデートをインストールする前にバックアップしてください。** 拡張機能またはアップデートをインストールする前に、必ずバックアップを実行してください。
 
 {{$include /help/_includes/backups-note.md}}
 
 ## バックアップの有効化とスケジュール設定
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Advanced]** を選択します **[!UICONTROL System]**.
+1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Backup Settings]**.
+1. **[!UICONTROL Backup Settings]** の ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 
-1. を設定 **[!UICONTROL Enabled Schedule Backup]** 対象： `Yes`.
+1. **[!UICONTROL Enabled Schedule Backup]** を `Yes` に設定します。
 
 1. 自動バックアップをスケジュールするには、次のようにスケジュール・オプションを設定します。
 
-   - を設定 **[!UICONTROL Enabled Schedule Backup]** 対象： `Yes`.
-   - を設定 **[!UICONTROL Scheduled Backup Type]** を、スケジュールされた間隔で実行するバックアップの種類に変更します。
-   - を設定 **[!UICONTROL Start Time]** バックアップ オペレーションを実行する時刻です。
-   - を設定 **[!UICONTROL Frequency]** 対象： `Daily`, `Weekly`、または `Monthly`.
-   - を設定 **[!UICONTROL Maintenance Mode]** 対象： `Yes`.
+   - **[!UICONTROL Enabled Schedule Backup]** を `Yes` に設定します。
+   - スケジュールされた間隔で実行するバックアップのタイプに **[!UICONTROL Scheduled Backup Type]** を設定します。
+   - **[!UICONTROL Start Time]** を、バックアップ操作を実行する時刻に設定します。
+   - **[!UICONTROL Frequency]** を `Daily`、`Weekly` または `Monthly` に設定します。
+   - **[!UICONTROL Maintenance Mode]** を `Yes` に設定します。
 
-   ![詳細設定 – バックアップ](../configuration-reference/advanced/assets/system-scheduled-backup-settings.png){width="600" zoomable="yes"}
+   ![ 詳細設定 – バックアップ ](../configuration-reference/advanced/assets/system-scheduled-backup-settings.png){width="600" zoomable="yes"}
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ## バックアップの作成
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Backups]**.
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Backups]**に移動します。
 
 1. 右上隅で、作成するバックアップの種類をクリックします。
 
@@ -54,13 +54,13 @@ Adobe CommerceとMagento Open Sourceを使用すると、ファイルシステ�
 
    - **[!UICONTROL Database Backup]** - データベースのバックアップを作成します。
 
-   ![システムツール – バックアップ](./assets/tools-backups.png){width="600" zoomable="yes"}
+   ![ システムツール – バックアップ ](./assets/tools-backups.png){width="600" zoomable="yes"}
 
 1. バックアップ中にストアをメンテナンスモードにするには、このチェックボックスを選択します。
 
    バックアップが完了すると、メンテナンスモードが自動的にオフになります。
 
-1. システムバックアップの場合は、 **[!UICONTROL Include Media folder to System Backup]** チェックボックスをオンにして、メディア フォルダを含めます。
+1. システムバックアップの場合は、「**[!UICONTROL Include Media folder to System Backup]**」チェックボックスをオンにしてメディアフォルダーを含めます。
 
 1. プロンプトが表示されたら、アクションを確認します。
 

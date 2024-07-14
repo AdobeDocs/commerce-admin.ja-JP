@@ -12,45 +12,45 @@ ht-degree: 0%
 
 # ニュースレターキュー
 
-サーバーの負荷を管理するために、多数の購読者を持つニュースレターは複数のバッチのキューに送信されます。 ニュースレターキューを定期的に確認して、ステータスを確認したり、処理された数を確認したりできます。 転送中に発生する問題は、以下のデバイスに表示されます。 _ニュースレターの問題_ レポート。
+サーバーの負荷を管理するために、多数の購読者を持つニュースレターは複数のバッチのキューに送信されます。 ニュースレターキューを定期的に確認して、ステータスを確認したり、処理された数を確認したりできます。 送信中に発生した問題は、_ニュースレターの問題_ レポートに表示されます。
 
 ## ニュースレターの送信
 
-1. 日 _Admin_ メニュー、に移動 **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**.
+1. _管理者_ メニューで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Newsletter Template]**に移動します。
 
-1. グリッドで、を見つけます [ニュースレターテンプレート](newsletter-template.md) その通知を送信して、 **[!UICONTROL Action]** 列を `Queue Newsletter`.
+1. グリッドで、送信する [ ニュースレターテンプレート ](newsletter-template.md) を見つけ、「**[!UICONTROL Action]**」列を `Queue Newsletter` に設定します。
 
-1. の場合 **[!UICONTROL Queue Date Start]**&#x200B;で、送信を開始する日付をカレンダーから選択します（![カレンダーアイコン](../assets/icon-calendar.png)）に設定します。
+1. **[!UICONTROL Queue Date Start]**：送信を開始する日付をカレンダーから選択します（![ カレンダーアイコン ](../assets/icon-calendar.png)）。
 
-1. の場合 **[!UICONTROL Subscribers From]**&#x200B;を選択し、メール送信に含める各ストア表示を選択します。
+1. **[!UICONTROL Subscribers From]** しくは、メール送信に含める各ストア表示を選択します。
 
 1. メールヘッダー情報を入力します。
 
-   - のニュースレターの簡単な説明を入力します **[!UICONTROL Subject]** 電子メールヘッダーの行。
+   - メールヘッダーの **[!UICONTROL Subject]** 行に対するニュースレターの簡単な説明を入力します。
 
-   - を入力 **[!UICONTROL Sender Name]**.
+   - **[!UICONTROL Sender Name]** を入力します。
 
-   - の場合 **[!UICONTROL Sender Email]**：送信者のメールアドレスを入力します。
+   - **[!UICONTROL Sender Email]**：送信者のメールアドレスを入力します。
 
      設定では、送信者のデフォルトの名前とメールアドレスが指定されます。
 
-     ![ニュースレターキュー情報](./assets/newsletter-queue-information1.png){width="600" zoomable="yes"}
+     ![ ニュースレターキュー情報 ](./assets/newsletter-queue-information1.png){width="600" zoomable="yes"}
 
-1. 該当する場合は、 **[!UICONTROL Message]** 登録解除する手順の上にあるボックス。
+1. 該当する場合は、購読解除する手順の上にある **[!UICONTROL Message]** ボックスにメモを入力します。
 
    >[!NOTE]
    >
    >多くの管轄区域で法律で義務付けられている指示を削除しないでください。
 
-1. ニュースレターにカスタムスタイルを適用するには、カスタムスタイルを **[!UICONTROL Newsletter Styles]** フィールド。
+1. ニュースレターにカスタムスタイルを適用するには、カスタムスタイルを「**[!UICONTROL Newsletter Styles]**」フィールドに追加します。
 
-1. 完了したら、 **[!UICONTROL Save and Resume]**.
+1. 完了したら、「**[!UICONTROL Save and Resume]**」をクリックします。
 
    ニュースレターは、処理待ちのキューに表示されます。
 
 ## 問題の確認
 
-日 _Admin_ メニュー、に移動 **[!UICONTROL Reports]** > _[!UICONTROL Marketing]_>**[!UICONTROL Newsletter Problem Reports]**.
+_管理者_ メニューで、**[!UICONTROL Reports]**/_[!UICONTROL Marketing]_/**[!UICONTROL Newsletter Problem Reports]**に移動します。
 
 ## ボタンバー
 
@@ -72,9 +72,9 @@ ht-degree: 0%
 | [!UICONTROL Queue Start] | ニュースレターが送信された日付です。 |
 | [!UICONTROL Queue End] | ニュースレターの送信が終了した日付。 |
 | [!UICONTROL Subject] | ニュースレターテンプレートの件名です。 |
-| [!UICONTROL Status] | ニュースレターのメール送信のステータスを示します。 使用可能な値： `Sent`, `Canceled`, `Not Sent`, `Sending`、または `Paused`. |
+| [!UICONTROL Status] | ニュースレターのメール送信のステータスを示します。 使用可能な値：`Sent`、`Canceled`、`Not Sent`、`Sending`、`Paused`。 |
 | [!UICONTROL Processed] | 送信されたニュースレターの数を示します。 |
 | [!UICONTROL Recipients] | 購読者が受信したニュースレターの数を示します。 |
-| [!UICONTROL Actions] | **[!UICONTROL Preview]**：テンプレートのプレビュー用の別のウィンドウが開きます。 |
+| [!UICONTROL Actions] | **[!UICONTROL Preview]**：別のウィンドウが開き、テンプレートのプレビューが表示されます。 |
 
 {style="table-layout:auto"}

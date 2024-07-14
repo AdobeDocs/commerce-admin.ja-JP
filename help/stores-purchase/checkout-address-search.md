@@ -20,13 +20,13 @@ ht-degree: 0%
 >
 >アドレス検索は、デフォルトでは有効になっていません。 この機能を設定して、サイトに機能を組み込むことができます。
 
-この機能が有効になっていて、顧客の保存アドレス数が設定されている制限を満たしているか超えている場合、 _送料_ および _レビューと支払い_ ステップには 1 つのアドレスのみ表示されます（デフォルト）。 顧客は、次のボタンをクリックして、選択したアドレスを変更できます。 **住所の変更** 次に、市区町村、都道府県、番地または郵便番号で正しい住所を検索します。 この機能は、ギフトレジストリチェックアウトのアドレス選択もサポートします。
+この機能が有効になっていて、顧客の保存済みアドレスの数が設定された制限を満たしているか超えている場合、_配送_ および _確認と支払い_ ステップには 1 つのアドレスのみが表示されます（デフォルト）。 お客様は、「住所を変更 **をクリックし、市区町村、都道府県、番地または郵便番号で正しい住所を検索することで** 選択した住所を変更できます。 この機能は、ギフトレジストリチェックアウトのアドレス選択もサポートします。
 
-![保存された配送先住所が表示されたチェックアウト](./assets/storefront-checkout-address-search.png){width="700" zoomable="yes"}
+![ 保存された配送先住所を使用したチェックアウトが表示される ](./assets/storefront-checkout-address-search.png){width="700" zoomable="yes"}
 
-顧客にデフォルトの配送先住所がない場合、 _送料_ ページ表示 _アドレスが選択されていません_. この場合、顧客は次の操作を行う必要があります。 **住所の変更** 保存したアドレスを選択するか、 **新しいアドレス** チェックアウトを進める前に住所を追加して選択します。 顧客にデフォルトの請求先住所がない場合、 _レビューと支払い_ ページには、配送用に選択した住所が _住所の変更_ オプション。
+顧客にデフォルトの配送先住所がない場合、「_配送先_」ページに _住所が選択されていません_ と表示されます。 この場合、顧客は、チェックアウトに進む前に、**住所の変更** をクリックして保存済みの住所を選択するか、**新しい住所** をクリックして住所を追加して選択する必要があります。 顧客にデフォルトの請求先住所がない場合、_確認および支払い_ ページには、出荷用に選択された住所と _住所の変更_ オプションが表示されます。
 
-![アドレスが選択されていないメッセージのチェックアウト](./assets/storefront-checkout-address-search-no-default.png){width="600" zoomable="yes"}
+![ アドレスが選択されていないチェックアウトのメッセージ ](./assets/storefront-checkout-address-search-no-default.png){width="600" zoomable="yes"}
 
 ## 引用符で囲まれたアドレス検索
 
@@ -34,26 +34,26 @@ ht-degree: 0%
 
 また、住所検索を有効にすると、顧客の保存済み住所の数が設定された制限を満たしているか、超えている見積もりから作成された注文のチェックアウトにも影響します。 見積もりが完了し、顧客がチェックアウトに進むと、選択した配送先住所のみが表示されます。 ページには、配送先住所がロックされていて、見積書でのみ変更できるというメッセージも表示されます。
 
-![見積書に対してロックされた配送先住所](./assets/quote-checkout-shipping-address-locked.png){width="600" zoomable="yes"}
+![ 見積書に対してロックされた配送先住所 ](./assets/quote-checkout-shipping-address-locked.png){width="600" zoomable="yes"}
 
 ## アドレス検索を有効にする
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL Checkout]**.
+1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Checkout Options]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Checkout Options]**」セクションを展開します。
 
-   ![設定 – チェックアウトオプション](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
+   ![ 設定 – チェックアウトオプション ](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-   これらの各設定について詳しくは、を参照してください。 [チェックアウトオプション](../configuration-reference/sales/checkout.md#checkout-options) が含まれる _設定リファレンスガイド_.
+   これらの各設定について詳しくは、『設定リファレンスガイド _の [ チェックアウトオプション ](../configuration-reference/sales/checkout.md#checkout-options) を参照してください_。
 
-1. を設定 **[!UICONTROL Enable Address Search]** 対象： `Yes`.
+1. **[!UICONTROL Enable Address Search]** を `Yes` に設定します。
 
-1. アドレス検索機能を含めるしきい値を指定するには、 **[!UICONTROL Number of Customer Addresses Limit]** オプション。
+1. アドレス検索機能を含めるしきい値を指定するには、**[!UICONTROL Number of Customer Addresses Limit]** オプションを設定します。
 
-   必要に応じて、 **[!UICONTROL Use system value]** この変更を行うチェックボックス。
+   必要に応じて、「**[!UICONTROL Use system value]**」チェックボックスをオフにして、この変更を行います。
 
-   顧客の保存済みアドレスの数がこの制限を満たしているか、超えている場合、ページにはデフォルトのアドレス（顧客にアドレスがある場合）または _アドレスが選択されていません_ （を使用） _住所の変更_ オプション。 デフォルトの制限はです。 `10`.
+   保存されているアドレスの数がこの制限を満たしているか、超えている場合、ページでは、「_アドレスを変更_」オプションを使用して、デフォルトのアドレス（顧客にアドレスがある場合）または _アドレスが選択されていません_ と表示されます。 デフォルトの制限は `10` です。
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。

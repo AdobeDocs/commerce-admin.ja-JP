@@ -16,7 +16,7 @@ ht-degree: 0%
 
 最初のイネーブルメント後に、Commerce Admin Unified Experience 拡張機能を有効または無効にして、Experience Cloud統合のステータスを管理します。
 
-- Commerce Admin Unified Experience Extension が有効になっていて、管理者アカウントが [正しくプロビジョニング](#manage-admin-user-accounts)を使用すると、Commerce管理者は、Adobe Experience Cloudから使用可能なCommerce プロジェクトを表示してアクセスできます。 管理者は、Commerce プロジェクト環境用の管理者 URL を使用して、個々のプロジェクトに引き続きアクセスできます。
+- Commerce Admin Unified Experience Extension が有効になっていて、管理者アカウントが [ 正しくプロビジョニング ](#manage-admin-user-accounts) されている場合、Commerce管理者はAdobe Experience Cloudから使用可能なCommerce プロジェクトを表示してアクセスできます。 管理者は、Commerce プロジェクト環境用の管理者 URL を使用して、個々のプロジェクトに引き続きアクセスできます。
 
 - Commerce Admin Unified Experience 拡張機能が無効になっている場合は、Experience Cloudからのアクセスは無効になります。 管理者は、Commerce プロジェクト環境の管理者 URL を使用して、個々のプロジェクトにログインする必要があります。
 
@@ -26,15 +26,15 @@ ht-degree: 0%
 
 ## 管理者から統合を管理
 
-1. Commerce管理者から、次の項目を選択して、ストア設定メニューを開きます。 **[!UICONTROL Stores]** 左側のナビゲーションメニューからを選択し、 **[!UICONTROL Configuration]**.
+1. Commerce管理で、左側のナビゲーションメニューから「**[!UICONTROL Stores]**」を選択して Store Configuration メニューを開き、「**[!UICONTROL Configuration]**」を選択します。
 
-1. 設定メニューから、を選択します。 **[!UICONTROL Advanced > Admin]**&#x200B;を選択し、 **[!UICONTROL Unified Experience option]**.
+1. 設定メニューから「**[!UICONTROL Advanced > Admin]**」を選択し、**[!UICONTROL Unified Experience option]** を展開します。
 
-   ![Experience Cloud統合用の管理ストアの設定](./assets/admin-uex-manage-settings.png){width="600" zoomable="yes"}
+   ![Experience Cloud統合用の管理ストア設定 ](./assets/admin-uex-manage-settings.png){width="600" zoomable="yes"}
 
-1. を選択して、統合を有効または無効にします **[!UICONTROL Enable]** の値。
+1. **[!UICONTROL Enable]** の値を選択して、統合を有効または無効にします。
 
-1. を追加または更新して、Commerce プロジェクトワークスペースに表示されるプロジェクト名を変更します。 **[!UICONTROL Project Name]** の値。
+1. **[!UICONTROL Project Name]** 値を追加または更新して、Commerce プロジェクトワークスペースに表示されるプロジェクト名を変更します。
 
 1. 設定を保存します。
 
@@ -64,22 +64,22 @@ Commerce クラウドプロジェクトへの管理者アクセス権を持つCo
 
 1. 拡張機能のステータスを変更して統合を無効にする
 
-   - **Enable （有効）**—`bin/magento config:set admin/unified_experience/enabled 1`
+   - **Enable**—`bin/magento config:set admin/unified_experience/enabled 1`
 
-   - **無効**—`bin/magento config:set admin/unified_experience/enabled 0`
+   - **Disable**—`bin/magento config:set admin/unified_experience/enabled 0`
 
 ## 管理者ユーザーアカウントの管理
 
 すべてのCommerce管理者ユーザーは、Adobeの製品やサービスにアクセスするために、Commerce インスタンスの管理者アカウントとAdobeユーザーアカウント（Adobe ID）の両方を持っている必要があります。 両方のアカウントが同じメールアドレスに関連付けられている必要があります。
 
-- **Commerce管理者アカウント**—[Commerce管理者ユーザーの管理](../systems/permissions-users-all.md) Commerce インスタンス用に管理者から。 Commerce管理者のユーザーアカウントには、管理者ロールが割り当てられている必要があります。
+- **Commerce管理者アカウント** - Commerce インスタンスの管理者から [Commerce管理者ユーザーを管理 ](../systems/permissions-users-all.md) します。 Commerce管理者のユーザーアカウントには、管理者ロールが割り当てられている必要があります。
 
-  Commerce プロジェクトのシステム管理者が使用できる [リモート環境に接続するための SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment)Commerce CLI を使用する `admin:user:create` および `admin:user:unlock` 管理者ユーザーアカウントを追加またはロック解除するコマンド。
+  Commerce プロジェクトのシステム管理者は、[SSH を使用してリモート環境に接続し ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment)Commerce CLI `admin:user:create` および `admin:user:unlock` コマンドを使用して管理者ユーザーアカウントを追加またはロック解除できます。
 
-- **Adobeユーザーアカウント**- Commerce インスタンスに関連付けられているAdobe組織の管理者がAdobe Admin Consoleにログインして、Commerce管理者ごとにAdobe IDを組織に追加する必要があります。 次に、Commerce アプリケーションにアクセスするための製品の使用権限と権限を割り当てる必要があります。 参照： [Adobe Admin ConsoleでのAdobe Commerce ユーザーの設定](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console).
+- **Adobeユーザーアカウント** - Commerce インスタンスに関連付けられているAdobe組織の管理者がAdobe Admin Consoleにログインして、Commerce管理者ごとにAdobe IDを組織に追加する必要があります。 次に、Commerce アプリケーションにアクセスするための製品の使用権限と権限を割り当てる必要があります。 [Adobe Admin ConsoleでAdobe Commerce ユーザーを設定する ](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console) を参照してください。
 
-Adobe Developer コンソールからExperience Cloud統合の設定を管理する管理者には、システム管理者または開発者アクセス権を持つAdobeユーザーアカウントが必要です。
+Adobe Developer ConsoleからExperience Cloud統合の設定を管理する管理者には、システム管理者または開発者アクセス権を持つAdobeユーザーアカウントが必要です。
 
 >[!NOTE]
 >
->Adobe IDは、Experience Cloudを通じて製品やサービスにアクセスするために必要な、Adobeを通じて作成されたアカウントです。 Adobe IDを持たないCommerce管理者は、次のことができます [無料アカウントを作成](https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html) Commerce管理者へのログインに使用するのと同じメールアドレスを使用します。
+>Adobe IDは、Experience Cloudを通じて製品やサービスにアクセスするために必要な、Adobeを通じて作成されたアカウントです。 Adobe IDを持っていないCommerce管理者は、Commerce管理者へのログインに使用するのと同じメールアドレスを使用して [ 無料アカウントを作成 ](https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html) できます。

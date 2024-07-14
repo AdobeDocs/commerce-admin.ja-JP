@@ -18,62 +18,62 @@ Y （カテゴリ）全体の X% 割引（$Z ドルを超える）
 
 ## 手順 1. 買い物かごルールの作成
 
-基本に従う [指示](price-rules-cart.md) で買い物かごルールを作成します。
+基本的な [ 手順 ](price-rules-cart.md) に従って、買い物かごルールを作成します。
 
 ## 手順 2. 条件の定義
 
-1. 下にスクロールして展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Conditions]** セクション。
+1. 下にスクロールして、「**[!UICONTROL Conditions]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 
-1. クリック _追加_ （![アイコンを追加](../assets/icon-add-green-circle.png)）を選択して、 **[!UICONTROL Product Attribute Combination]**.
+1. _追加_ （![ 追加アイコン ](../assets/icon-add-green-circle.png)）をクリックし、**[!UICONTROL Product Attribute Combination]** を選択します。
 
-   ![買い物かご価格ルール条件 – 製品属性の組み合わせ](./assets/condition1.png){width="500" zoomable="yes"}
+   ![ 買い物かご価格ルール条件 – 製品属性の組み合わせ ](./assets/condition1.png){width="500" zoomable="yes"}
 
-1. クリック _追加_ （![アイコンを追加](../assets/icon-add-green-circle.png)）を次の行の先頭に追加し、の下のリストに追加します **[!UICONTROL Product Attribute]**、を選択 **[!UICONTROL Category]**.
+1. 次の行の先頭にある _追加_ （![ 追加アイコン ](../assets/icon-add-green-circle.png)）をクリックし、「**[!UICONTROL Product Attribute]**」の下のリストで「**[!UICONTROL Category]**」を選択します。
 
-   - 「」（**...**） _詳細_ 追加のオプションを表示するリンク。
+   - （**...**） _その他_ リンクをクリックすると、その他のオプションが表示されます。
 
-     ![買い物かご価格ルールの条件 – カテゴリオプション](./assets/condition3.png){width="600" zoomable="yes"}
+     ![ 買い物かご価格ルールの条件 – カテゴリオプション ](./assets/condition3.png){width="600" zoomable="yes"}
 
-   - 「」をクリックします _選択_ （![リストアイコン](../assets/icon-list-chooser.png)）アイコンをクリックして、使用可能なカテゴリを確認します。 カテゴリツリーで、含める各カテゴリのチェックボックスを選択します。 チェックアイコンをクリックして、カテゴリの選択を確定します。
+   - _選択_ （![ リストアイコン ](../assets/icon-list-chooser.png)）アイコンをクリックして、使用可能なカテゴリを表示します。 カテゴリツリーで、含める各カテゴリのチェックボックスを選択します。 チェックアイコンをクリックして、カテゴリの選択を確定します。
 
-     ![買い物かご価格ルール条件 – カテゴリ](./assets/condition4.png){width="600" zoomable="yes"}
+     ![ 買い物かご価格ルール条件 – カテゴリ ](./assets/condition4.png){width="600" zoomable="yes"}
 
-1. クリック _追加_ （![アイコンを追加](../assets/icon-add-green-circle.png)）を選択し、次の手順を実行します。
+1. 次の行の先頭にある _追加_ （![ 追加アイコン ](../assets/icon-add-green-circle.png)）をクリックし、次の手順を実行します。
 
-   - の下のリスト **[!UICONTROL Cart Item Attribute]**、を選択 **[!UICONTROL Price in cart]**.
+   - **[!UICONTROL Cart Item Attribute]** の下のリストで、「**[!UICONTROL Price in cart]**」を選択します。
 
-     ![買い物かご価格ルールの条件 – 買い物かご品目属性](./assets/condition5.png){width="500"}
+     ![ 買い物かご価格ルール条件 – 買い物かご品目属性 ](./assets/condition5.png){width="500"}
 
-   - クリック **等しい** を選択します `equals or greater than`.
+   - 「**is**」をクリックし、「`equals or greater than`」を選択します。
 
-   - クリック **...** そして、買い物かごの価格が条件を満たす必要がある金額を入力します。 例えば、 `30`.
+   - 「**...**」をクリックし、「買い物かごの価格」が条件を満たす必要がある金額を入力します。 例えば、「`30`」と入力します。
 
-     ![買い物かご価格ルールの条件 – 買い物かごの価格](./assets/condition6.png){width="500"}
+     ![ 買い物かご価格ルールの条件 – 買い物かごの価格 ](./assets/condition6.png){width="500"}
 
-1. クリック **[!UICONTROL Save and Continue Edit]**.
+1. 「**[!UICONTROL Save and Continue Edit]**」をクリックします。
 
 ## 手順 3. アクションの定義
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Actions]** を選択し、次の操作を実行します。
+1. **[!UICONTROL Actions]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![買い物かご価格ルールアクション](./assets/minimum-discount-actions.png){width="600" zoomable="yes"}
+   ![ 買い物かご価格ルールアクション ](./assets/minimum-discount-actions.png){width="600" zoomable="yes"}
 
-   - を設定 **[!UICONTROL Apply]** 対象： `Percent of product price discount`.
+   - **[!UICONTROL Apply]** を `Percent of product price discount` に設定します。
 
-   - を入力 **[!UICONTROL Discount Amount]**. 例えば、 `10` 10% 引きで。
+   - **[!UICONTROL Discount Amount]** を入力します。 例えば、10% の割引を受ける場合は `10` と入力します。
 
-   - 追加のプロモーションが購入に適用されないようにするには、を設定します **[!UICONTROL Discard subsequent rules]** 対象： `Yes`.
+   - 追加のプロモーションが購入に適用されないようにするには、**[!UICONTROL Discard subsequent rules]** を `Yes` に設定します。
 
-1. クリック **[!UICONTROL Save and Continue Edit]** 必要に応じてルールを完成させます。
+1. 「**[!UICONTROL Save and Continue Edit]**」をクリックし、必要に応じてルールを入力します。
 
 ## 手順 4. ラベルを完成させる
 
-完了 [手順 4](price-rules-cart.md) （チェックアウト時に表示されるラベルを入力するための買い物かご価格ルール手順）。
+買い物かご価格ルールの手順の [ 手順 4](price-rules-cart.md) を完了して、チェックアウト時に表示されるラベルを入力します。
 
 ## 手順 5：ルールを保存してテストする
 
 {{new-price-rule}}
 
-1. ルールが完了したら、 **[!UICONTROL Save Rule]**.
+1. ルールが完成したら、「**[!UICONTROL Save Rule]**」をクリックします。
 
 1. ルールをテストして、正しく動作することを確認します。

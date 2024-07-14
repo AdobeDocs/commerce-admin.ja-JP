@@ -26,7 +26,7 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
 
 ## 方法 1：ローカルサーバーからの画像のインポート
 
-1. Commerce サーバーで、画像ファイルをにアップロードします `var/import/images` フォルダーまたはサブフォルダー（例：） `var/import/images/product_images`. これは、商品画像を読み込むためのデフォルトのルートフォルダーです。
+1. Commerce サーバー上で、画像ファイルを `var/import/images` フォルダーまたはサブフォルダー（`var/import/images/product_images` など）にアップロードします。 これは、商品画像を読み込むためのデフォルトのルートフォルダーです。
 
    ```terminal
    <Magento root folder>/var/import/images
@@ -34,49 +34,49 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
 
    >[!NOTE]
    >
-   >Adobe CommerceとMagento Open Sourceの概要 `2.3.2` release、で指定されたパス **[!UICONTROL Images File Directory]** は画像のベースディレクトリへのインポート用に連結します –  `<Magento-root-folder>/var/import/images`. 以前のAdobe CommerceおよびMagento Open Sourceのリリースでは、読み込み処理中にフォルダーへのパスが指定されている限り、Commerce サーバー上で別のフォルダーを使用できます。
+   >Adobe CommerceおよびMagento Open Source `2.3.2` リリース以降、**[!UICONTROL Images File Directory]** で指定されたパスは、images ベースディレクトリ `<Magento-root-folder>/var/import/images` へのインポートを連結します。 以前のAdobe CommerceおよびMagento Open Sourceのリリースでは、読み込み処理中にフォルダーへのパスが指定されている限り、Commerce サーバー上で別のフォルダーを使用できます。
 
-1. CSV データで、正しい行に読み込む各画像ファイルの名前を、次のように入力します。 `sku`を選択し、画像タイプに応じて適切な列に表示されます（`base_image`, `small_image`, `thumbnail_image`、または `additional_images`）に設定します。
+1. CSV データで、正しい行に読み込む各画像ファイルの名前を `sku` で入力し、画像タイプ（`base_image`、`small_image`、`thumbnail_image`、`additional_images`）に応じて正しい列に入力します。
 
    >[!NOTE]
    >
-   >デフォルトの読み込みフォルダー内の画像の場合（`var/import/images`）、CSV データのファイル名の前にパスを含めないでください。
+   >デフォルトの読み込みフォルダー（`var/import/images`）内の画像の場合、CSV データのファイル名の前にパスを含めないでください。
 
-   CSV ファイルには、を含める必要があります。 `sku` 列および関連する画像列。
+   CSV ファイルには、`sku` の列と関連する画像列のみを含める必要があります。
 
-   ![例 – CSV 画像データの読み込み](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
+   ![ 例 – CSV 画像データのインポート ](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
 
-1. 指示に従って～する [import](data-import.md) データ。
+1. 指示に従って、データを [ インポート ](data-import.md) します。
 
-1. 読み込むファイルを選択したら、次の相対パスを入力します **[!UICONTROL Images File Directory]**.
+1. 読み込むファイルを選択したら、**[!UICONTROL Images File Directory]** の後に相対パスを入力します。
 
    ```terminal
    var/import/images
    ```
 
-   ![データインポート画像ファイルディレクトリ](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
+   ![ データインポート画像ファイルディレクトリ ](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
    >[!TIP]
    >
-   >移動 _[!UICONTROL Images File Directory]_を使用する場合は空白 `<Magento-root-folder>/var/import/images` ディレクトリ。 Adobe CommerceおよびMagento Open Sourceバージョン 2.3.2 以降、これはデフォルトの import images ベースディレクトリです。
+   >`<Magento-root-folder>/var/import/images` ディレクトリを使用する場合は、_[!UICONTROL Images File Directory]_を空白のままにします。 Adobe CommerceおよびMagento Open Sourceバージョン 2.3.2 以降、これはデフォルトの import images ベースディレクトリです。
 
-   1 つの画像に対して複数の画像を読み込む場合 `sku`画像をという名前の列に挿入します。 `additional_images` （まだ追加されていない場合は、列をコンマで区切って追加します）。 例： `image02.jpg,image03.jpg`
+   1 つの `sku` に対して複数の画像を読み込む場合、コンマで区切られた `additional_images` という名前の列に画像を挿入します（まだ追加されていない場合は列を追加します）。 例：`image02.jpg,image03.jpg`
 
 ## 方法 2：外部サーバーからの画像のインポート
 
 1. インポートする画像を外部サーバー上の指定フォルダーにアップロードします。
 
-1. CSV データで、画像タイプ（`base_image`, `small_image`, `thumbnail_image`、または `additional_images`）に設定します。
+1. CSV データで、画像タイプ（`base_image`、`small_image`、`thumbnail_image`、`additional_images`）に応じて、正しい列に各画像ファイルの完全な URL を入力します。
 
    ```terminal
    https://example.com/images/image.jpg
    ```
 
-1. 指示に従って～する [import](data-import.md) データ。
+1. 指示に従って、データを [ インポート ](data-import.md) します。
 
 ## 方法 3：リモートストレージを使用した画像のインポート
 
-1. リモートストレージモジュールで、画像ファイルをにアップロードします。 `var/import/images` フォルダーまたはサブフォルダー（例：） `var/import/images/product_images`. これは、商品画像を読み込むためのデフォルトのルートフォルダーです。
+1. リモートストレージモジュールで、画像ファイルを `var/import/images` フォルダーまたはサブフォルダー（`var/import/images/product_images` など）にアップロードします。 これは、商品画像を読み込むためのデフォルトのルートフォルダーです。
 
    ```terminal
    <remote-storage-root-folder>/var/import/images
@@ -84,21 +84,21 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
 
    >[!NOTE]
    >
-   >Adobe CommerceとMagento Open Sourceの概要 `2.3.2` release、で指定されたパス _[!UICONTROL Images File Directory]_はインポート用に画像のベースディレクトリに連結されます。 `<remote-storage-root-folder>/var/import/images`. 以前のAdobe CommerceおよびMagento Open Sourceのリリースでは、読み込み処理中にフォルダーへのパスが指定されている限り、Commerce サーバー上で別のフォルダーを使用できます。
+   >Adobe CommerceおよびMagento Open Source `2.3.2` リリース以降、_[!UICONTROL Images File Directory]_で指定されたパスは、images ベースディレクトリ `<remote-storage-root-folder>/var/import/images` へのインポートを連結します。 以前のAdobe CommerceおよびMagento Open Sourceのリリースでは、読み込み処理中にフォルダーへのパスが指定されている限り、Commerce サーバー上で別のフォルダーを使用できます。
 
-1. CSV データで、正しい行に読み込む各画像ファイルの名前を、次のように入力します。 `sku`を選択し、画像タイプに応じて適切な列に表示されます（`base_image`, `small_image`, `thumbnail_image`、または `additional_images`）に設定します。
+1. CSV データで、正しい行に読み込む各画像ファイルの名前を `sku` で入力し、画像タイプ（`base_image`、`small_image`、`thumbnail_image`、`additional_images`）に応じて正しい列に入力します。
 
    >[!NOTE]
    >
-   >デフォルトの読み込みフォルダー内の画像の場合（`var/import/images`）、CSV データのファイル名の前にパスを含めないでください。
+   >デフォルトの読み込みフォルダー（`var/import/images`）内の画像の場合、CSV データのファイル名の前にパスを含めないでください。
 
-   CSV ファイルには、を含める必要があります。 `sku` 列および関連する画像列。
+   CSV ファイルには、`sku` の列と関連する画像列のみを含める必要があります。
 
-   ![例 – CSV 画像データの読み込み](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
+   ![ 例 – CSV 画像データのインポート ](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
 
-1. 指示に従って～する [import](data-import.md) データ。
+1. 指示に従って、データを [ インポート ](data-import.md) します。
 
-1. 読み込むファイルを選択したら、次の相対パスを入力します **[!UICONTROL Images File Directory]**.
+1. 読み込むファイルを選択したら、**[!UICONTROL Images File Directory]** の後に相対パスを入力します。
 
    ```terminal
    var/import/images/product_images
@@ -106,12 +106,12 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
 
    >[!TIP]
    >
-   >を残す _[!UICONTROL Images File Directory]_を使用する場合は空白 `<Magento-root-folder>/var/import/images` ディレクトリ。 Adobe CommerceおよびMagento Open Sourceバージョン 2.3.2 以降、これはデフォルトの import images ベースディレクトリです。
+   >`<Magento-root-folder>/var/import/images` ディレクトリを使用する場合は、_[!UICONTROL Images File Directory]_を空白のままにします。 Adobe CommerceおよびMagento Open Sourceバージョン 2.3.2 以降、これはデフォルトの import images ベースディレクトリです。
 
-   1 つの画像に対して複数の画像を読み込む場合 `sku`画像をという名前の列に挿入します。 `additional_images` （まだ追加されていない場合は列を追加）。コンマで区切ります。 `image02.jpg,image03.jpg`
+   1 つの `sku` に対して複数の画像を読み込む場合、コンマで区切って、`additional_images` という名前の列に画像を挿入します（まだ追加されていない場合は列を追加します）。`image02.jpg,image03.jpg`
 
-リモート・ストレージ・モジュールの有効化と管理の詳細については、を参照してください [リモートストレージの設定](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html) が含まれる _設定ガイド_.
+リモート記憶域モジュールの有効化と管理の詳細については、[ 構成ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html) の _リモート記憶域の構成_ を参照してください。
 
 >[!NOTE]
 >
->製品画像を読み込んでも、画像のサイズ変更は開始されません。 製品画像は、フロントエンドで次のようにサイズ変更されます。 `pub/get.php`. 次のことを確認します `pub/get.php` は正常に機能しています。正常に機能していない場合は、画像のサイズが変更されない可能性があります。
+>製品画像を読み込んでも、画像のサイズ変更は開始されません。 製品画像は、フロントエンドで `pub/get.php` によってサイズ変更されます。 `pub/get.php` が正しく動作していることを確認してください。そうでない場合、画像のサイズが変更されない可能性があります。

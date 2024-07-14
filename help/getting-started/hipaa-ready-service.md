@@ -21,7 +21,7 @@ ht-degree: 1%
 
 **HIPAA （Health Insurance Portability and Accountability Act：医療保険の相互運用性と説明責任に関する法律）**
 
-HIPAA （Health Insurance Portability and Accountability Act：医療保険の携行性と責任に関する法律）は、米国では主要な連邦医療プライバシー法であり、米国保健福祉省（Department of Health and Human Services:HHS）によって施行されています。 HIPAA の適用先 _対象エンティティ_ （医療機関、保険会社、クリアリングハウスなど） _ビジネス・アソシエイツ_ （対象事業者に対してサービスを提供する事業者など） HIPAA の要件は、「Privacy Rule」、「Security Rule」、「Breach Notification Rule」の 3 つの異なるルールで設定されます。 Adobeは、特定の製品（Adobeが「HIPAA 対応サービス」に分類する）のビジネスアソシエイトとして機能します。 HIPAA で規制されるデータは次のとおりです _保護された医療情報_ または PHI。 PHI とは、（1）医療提供者、健康計画若しくは医療情報交換所が作成または受領した健康情報、（2）個人の過去、現在または将来の心身の健康若しくは状態、個人への医療提供または個人への医療提供の過去、現在または将来の支払いに関する情報、（3）個人または個人を識別するために利用できると信ずるに足る合理的な根拠を特定する情報です。 HIPAA のプライバシーおよびセキュリティに関するルールでは、対象となるエンティティは、ビジネス・アソシエイトからビジネス・アソシエイト契約（BAA）の形式で書面による保証を取得し、ビジネス・アソシエイトが対象となるエンティティの PHI のプライバシーおよびセキュリティを保護するʼとを求めています。 詳しくは、を参照してください [HIPAA およびAdobe製品とサービス](https://www.adobe.com/trust/compliance/hipaa-ready.html) Adobeトラストセンターで。
+HIPAA （Health Insurance Portability and Accountability Act：医療保険の携行性と責任に関する法律）は、米国では主要な連邦医療プライバシー法であり、米国保健福祉省（Department of Health and Human Services:HHS）によって施行されています。 HIPAA は、_対象事業者_ （医療機関、保険会社、クリアリングハウスなど）および _ビジネスアソシエイト_ （対象事業者にサービスを提供する事業者など）に適用されます。 HIPAA の要件は、「Privacy Rule」、「Security Rule」、「Breach Notification Rule」の 3 つの異なるルールで設定されます。 Adobeは、特定の製品（Adobeが「HIPAA 対応サービス」に分類する）のビジネスアソシエイトとして機能します。 HIPAA で規制されるデータは、_保護された医療情報_ PHI と呼ばれます。 PHI とは、（1）医療提供者、健康計画若しくは医療情報交換所が作成または受領した健康情報、（2）個人の過去、現在または将来の心身の健康若しくは状態、個人への医療提供または個人への医療提供の過去、現在または将来の支払いに関する情報、（3）個人または個人を識別するために利用できると信ずるに足る合理的な根拠を特定する情報です。 HIPAA のプライバシーおよびセキュリティに関するルールでは、対象となるエンティティは、ビジネス・アソシエイトからビジネス・アソシエイト契約（BAA）の形式で書面による保証を取得し、ビジネス・アソシエイトが対象となるエンティティの PHI のプライバシーおよびセキュリティを保護するʼとを求めています。 詳しくは、Adobeトラストセンターの [HIPAA およびAdobe製品およびサービス ](https://www.adobe.com/trust/compliance/hipaa-ready.html) を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -29,7 +29,7 @@ HIPAA （Health Insurance Portability and Accountability Act：医療保険の�
 
 Adobe Commerce HIPAA 対応の拡張機能により、Adobe Commerceのインストールに機能が追加され、マーチャントが HIPAA の各義務に準拠できるようになりました。
 
-Adobe Commerce HIPAA 対応の拡張機能 `magento/hipaa-ee` は、クラウドインフラストラクチャー上のAdobe CommerceまたはAdobe Managed Services プロジェクトで使用できます。 Adobe Commerce HIPAA 対応のインストールプロセスは、HIPAA の要件に準拠するために、一部のネイティブサービスと機能を無効にします。 参照： [無効にされたサービスと機能](#disabled-services-and-features).
+Adobe Commerce HIPAA 対応の拡張機能は、クラウドインフラストラクチャー上のAdobe CommerceまたはAdobeのManaged Services プロジェクトで利用で `magento/hipaa-ee` ます。 Adobe Commerce HIPAA 対応のインストールプロセスは、HIPAA の要件に準拠するために、一部のネイティブサービスと機能を無効にします。 [ 無効にされたサービスと機能 ](#disabled-services-and-features) を参照してください。
 
 >[!NOTE]
 >
@@ -48,17 +48,17 @@ Adobe Commerceは、クラウドインフラストラクチャのAdobe Commerce�
 >[!BEGINSHADEBOX]
 
 - Adobeは、HIPAA 対応拡張機能にアクセスするためのAdobe Commerce アカウントをプロビジョニングしました。
-- アクセス先 [repo.magento.com](https://repo.magento.com) をクリックして拡張機能をインストールします。 キーの生成と必要な権限の取得については、を参照してください。 [認証キーの取得](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+- [repo.magento.com](https://repo.magento.com) にアクセスして拡張機能をインストールします。 キーの生成と必要な権限の取得については、[ 認証キーの取得 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) を参照してください。
 
 >[!ENDSHADEBOX]
 
-Adobeの HIPAA 対応サービス拡張機能の最新バージョンをインストールします（`magento/hipaa-ee`Adobe Commerce）を選択する必要があります。 拡張機能は、からコンポーザメタパッケージとして提供されます。 [repo.magento.com](https://repo.magento.com) リポジトリ。 メタパッケージには、Adobe Commerce インスタンスに対して HIPAA 機能を有効にするモジュールのコレクションが含まれています。
+Adobe Commerce バージョン 2.4.6-p3 以降が稼働しているインスタンスに、Adobeの最新バージョンの HIPAA 対応サービス拡張機能（`magento/hipaa-ee`）をインストールします。 拡張機能は、[repo.magento.com](https://repo.magento.com) リポジトリからコンポーザメタパッケージとして提供されます。 メタパッケージには、Adobe Commerce インスタンスに対して HIPAA 機能を有効にするモジュールのコレクションが含まれています。
 
 1. ローカルワークステーションで、Adobe Commerce on cloud infrastructure プロジェクトのプロジェクトディレクトリに移動します。
 
    >[!NOTE]
    >
-   >Commerce プロジェクト環境のローカル管理については、を参照してください。  [CLI によるブランチの管理](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) が含まれる _Adobe Commerce on Cloud Infrastructure ユーザーガイド_.
+   >Commerce Adobe Commerce プロジェクト環境のローカル管理について詳しくは、_クラウドインフラストラクチャユーザーガイドの [CLI を使用したブランチの管理 ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) を参照してください_。
 
 1. Adobe Commerce Cloud CLI を使用して、更新する環境ブランチをチェックアウトします。
 
@@ -66,7 +66,7 @@ Adobeの HIPAA 対応サービス拡張機能の最新バージョンをイン�
    magento-cloud environment:checkout <environment-id>
    ```
 
-1. メタパッケージを追加 `magento/hipaa-ee` composer CLI を使用して composer を設定します。
+1. Composer CLI を使用して、metapackage `magento/hipaa-ee` を composer 設定に追加します。
 
    ```shell
    composer require "magento/hipaa-ee" --no-update
@@ -86,11 +86,11 @@ Adobeの HIPAA 対応サービス拡張機能の最新バージョンをイン�
    git push origin <branch-name>
    ```
 
-   更新をプッシュすると、が開始されます [Commerce cloud のデプロイメントプロセス](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) 変更を適用します。 からデプロイメントステータスを確認します。 [ログをデプロイ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   更新をプッシュすると、[Commerce クラウドデプロイメントプロセス ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) が開始され、変更が適用されます。 [ デプロイメントログ ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log) からデプロイメントステータスを確認します。
 
 ### インストールの確認
 
-アップデートをデプロイした後、 `Hipaa*` 拡張機能がインストールされました
+アップデートがデプロイされたら、`Hipaa*` 拡張機能がインストールされていることを確認します
 
 1. SSH を使用してリモートクラウド環境にログインします。
 
@@ -121,37 +121,37 @@ Adobeの HIPAA 対応サービス拡張機能の最新バージョンをイン�
    <truncated for brevity>
    ```
 
-   プレフィックスが付いたすべてのモジュール `Magento_Hipaa` 有効なモジュールセクションに配置する必要があります。
+   プレフィックスが `Magento_Hipaa` のすべてのモジュールは、「有効なモジュール」セクションに配置する必要があります。
 
 ## HIPAA 対応の機能の強化
 
-この `magento/hipaa-ee` 拡張機能では、基本Commerce製品に変更と機能強化がいくつか導入されています。 次のセクションでは、これらの変更の詳細と、基本製品の変更方法について説明します。
+`magento/hipaa-ee` 拡張機能では、Commerceの基本製品にいくつかの変更と機能強化が導入されています。 次のセクションでは、これらの変更の詳細と、基本製品の変更方法について説明します。
 
 ### アクションログ
 
-監査ログは HIPAA 要件の 1 つです。 Adobe Commerceでは、 [アクションログ](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en) 機能は、ストアで作業する管理者ユーザーが行ったすべての変更を記録します。 監査ログの HIPAA 要件を満たすために、機能が更新され、管理 UI および API 呼び出しを使用して実行されたすべての管理ユーザーおよび顧客操作を記録するようになりました。
+監査ログは HIPAA 要件の 1 つです。 Adobe Commerceでは、[ アクションログ ](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en) 機能は、ストアで作業している管理者ユーザーが行ったすべての変更を記録します。 監査ログの HIPAA 要件を満たすために、機能が更新され、管理 UI および API 呼び出しを使用して実行されたすべての管理ユーザーおよび顧客操作を記録するようになりました。
 
 #### アクションログレポート
 
-この _アクションログ_ レポートグリッド （**[!UICONTROL System]** / アクションログ / レポート）が変更され、管理 UI および API を使用して実行されたお客様のアクションに対応するようになりました。
+_アクションログ_ レポートグリッド（**[!UICONTROL System]**/アクションログ/レポート）は、管理 UI および API を使用して実行された顧客のアクションに対応するように変更されます。
 
 1. 次の 2 つの列を追加しました。
-   - ***ソース***：アクションが実行された場所を表示します。
-値： `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
-   - ***クライアントタイプ***：クライアントタイプが表示されます。
+   - ***Source***：アクションが実行された場所を表示します。
+値：`Admin UI`/`Customer UI`/`REST API`/`SOAP API`/`GraphQL API`
+   - ***クライアントの種類***: クライアントの種類を表示します。
 値：Customer |管理者 |統合
 
-2. の名前を変更 ***ユーザー名*** ～に列を成す ***クライアント識別子***
-   - ***クライアント識別子***：アクションを実行したユーザーのログイン ID が表示されます。
+2. ***ユーザー名*** 列の名前を ***クライアント識別子*** に変更しました
+   - ***クライアント識別子***：アクションを実行したユーザーのログイン ID を表示します。
 値：
       - クライアントタイプが「顧客」の場合はメール
       - 「Client Type」が「Admin」の場合のユーザー名
       - 「クライアントタイプ」が「統合」の場合の名前
 
-3. の名前を変更 ***完全なアクション名*** 列を ***ターゲット***
+3. ***フルアクション名*** 列の名前を ***ターゲット*** に変更しました
    - ***ターゲット***：アクション名を表示します。
 値：
-      - ソースが REST API または SOAP API の場合のエンドポイント
+      - Sourceが REST API またはSOAP API の場合のエンドポイント
       - GraphQL API の場合はクエリまたはミューテーション名
       - 管理 UI または顧客 UI の場合はアクション名。
 
@@ -165,11 +165,11 @@ Adobeの HIPAA 対応サービス拡張機能の最新バージョンをイン�
 
 >[!NOTE]
 >
->これら ***機能強化によってインポートおよびエクスポートのコアロジックが変更されることはありません***&#x200B;代わりに、機能を拡張して、より包括的なログと改善されたデータアトリビューションを提供します。 インポートとエクスポートの基本的な機能は変更されません。 ユーザーは、中断することなく既存の機能とワークフローを引き続き使用できます。
+>これらの ***機能強化は、インポートとエクスポートのコアロジックを変更するものではありません***。むしろ、より包括的なログ記録と改善されたデータアトリビューションを提供するために機能を拡張するものです。 インポートとエクスポートの基本的な機能は変更されません。 ユーザーは、中断することなく既存の機能とワークフローを引き続き使用できます。
 
 #### 管理アクションログ
 
-読み込みおよび書き出し機能における主な改善点の 1 つは、管理アクションのログの機能強化です。 この機能強化により、データのインポートとエクスポートに関連するアクティビティをより深く掘り下げる機能が導入され、トラッキングと監査性の向上に貢献します。 以下のアクションがログに記録され、 **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**グリッド：
+読み込みおよび書き出し機能における主な改善点の 1 つは、管理アクションのログの機能強化です。 この機能強化により、データのインポートとエクスポートに関連するアクティビティをより深く掘り下げる機能が導入され、トラッキングと監査性の向上に貢献します。 以下のアクションがログに記録され、**[!UICONTROL System]/ _[!UICONTROL Action Logs]_/[!UICONTROL Report]**グリッドに反映されるようになりました。
 
 | タイプ | アクション |
 | ---- | ------- |
@@ -181,26 +181,26 @@ Adobeの HIPAA 対応サービス拡張機能の最新バージョンをイン�
 
 管理者ユーザーがより多くの情報を持つグリッドを使用できるように、HIPAA 対応サービスでは、データの表示、フィルタリング、並べ替えにいくつかの機能強化を提供しています。
 
-#### 履歴を読み込み（[!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Import History]）
+#### インポート履歴（[!UICONTROL System]/_[!UICONTROL Data Transfer]_/[!UICONTROL Import History]）
 
-- を除くすべての列に対してフィルターを有効にしました **[!UICONTROL Imported File]**, **[!UICONTROL Error File]**, **[!UICONTROL Execution Time]**、および **[!UICONTROL Summary]**.
+- **[!UICONTROL Imported File]**、**[!UICONTROL Error File]**、**[!UICONTROL Execution Time]**、**[!UICONTROL Summary]** を除くすべての列に対してフィルターを有効にしました。
 
-#### エクスポート （[!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Export]）
+#### 書き出し（[!UICONTROL System]/_[!UICONTROL Data Transfer]_/[!UICONTROL Export]）
 
-- さんがを追加しました **[!UICONTROL ID]** 列。
-- がを追加しました **[!UICONTROL Requested At]** 列（_エクスポートが要求された日時_）に設定します。
-- がを追加しました **[!UICONTROL User]** 列（_リクエストを行った管理者のユーザー名_）に設定します。
-- が削除されました **[!UICONTROL Action]** 列。
-- がを移動しました **[!UICONTROL Download]** へのリンク **[!UICONTROL File name]** 列（_[ 履歴を読み込み ] グリッドに似ています_）に設定します。
-- 書き出されたファイル（_トラッキングを改善するには_）に設定します。
-- を除くすべての列で並べ替えが有効になりました **[!UICONTROL File name]**.
+- **[!UICONTROL ID]** 列を追加しました。
+- **[!UICONTROL Requested At]** 列（_書き出しがリクエストされた日時_）を追加しました。
+- **[!UICONTROL User]** 列（_リクエストを行った管理者のユーザー名_）を追加しました。
+- **[!UICONTROL Action]** 列を削除しました。
+- **[!UICONTROL Download]** リンクを **[!UICONTROL File name]** 列に移動しました（_履歴の読み込みグリッド_）。
+- 書き出されたファイルの削除を行うアクションを無効にしました（_トラッキングを改善するため_）。
+- **[!UICONTROL File name]** 以外のすべての列の並べ替えが有効になりました。
 - すべての列に対してフィルターを有効にしました。
 
-#### スケジュールされた読み込みと書き出し（[!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Scheduled Import/Export]）
+#### スケジュールされたインポートおよびエクスポート（[!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Scheduled Import/Export]）
 
-- さんがを追加しました **[!UICONTROL ID]** 列。
-- がを追加しました **[!UICONTROL Scheduled At]** 列（the _インポートまたはエクスポートがスケジュールされた日時_）に設定します。
-- がを追加しました **[!UICONTROL User]** 列（the _インポートまたはエクスポートをスケジュールした管理者ユーザーのユーザー名_）に設定します。
+- **[!UICONTROL ID]** 列を追加しました。
+- **[!UICONTROL Scheduled At]** 列（_読み込みまたは書き出しがスケジュールされた日時_）を追加しました。
+- **[!UICONTROL User]** の列（_読み込みまたは書き出しをスケジュールした管理者ユーザーのユーザー名_）を追加しました。
 
 ## 無効にされたサービスと機能
 
@@ -208,21 +208,21 @@ HIPAA の要件に準拠するために、Adobe Commerceでサポートされて
 
 ### サービス
 
-- **Adobe Commerce サービス**—HIPAA 対応ソリューションでは、Adobe Commerce サービスや拡張サービスは利用できません。 これらのサービスには以下が含まれますが、これらに限定されません。
+- **Adobe Commerce サービス** - HIPAA 対応のサービスでは、Adobe Commerce サービスまたは拡張サービスは利用できません。 これらのサービスには以下が含まれますが、これらに限定されません。
 
    - Live Search
    - API メッシュ
    - App Builder
    - カタログサービス
 
-- **[SendGrid サービス](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)** – アプリケーションが HIPAA に準拠していないので、このサービスはデフォルトで無効になっています。
+- **[SendGrid サービス ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)** - アプリケーションが HIPAA に準拠していないので、このサービスはデフォルトで無効になっています。
 
 ### デフォルトで無効になっている機能
 
 次の機能は、HIPAA 対応モジュールでデフォルトで無効になっています。 マーチャントは、独自の責任でこれらの機能のいずれかを有効にすることができます。
 
-- **[ゲストのチェックアウト](../stores-purchase/checkout-guest.md)** – この機能は、ログ、アクセス制御、PHI ハイジーンと系統など、HIPAA の様々な側面に対する潜在的なリスクをもたらし、さらに多くの可能性があります。
+- **[ゲストのチェックアウト](../stores-purchase/checkout-guest.md)** – この機能は、ログ、アクセス制御、PHI 衛生と系統など、HIPAA の様々な側面で発生する可能性のあるリスクであり、さらに多くの可能性があります。
 
-- **[ニュースレター機能](../merchandising-promotions/newsletters.md)** – この機能は、マーケティングコンテキストで PHI が使用されるのを防ぐために無効になっています。
+- **[ニュースレター機能](../merchandising-promotions/newsletters.md)** – この機能は、マーケティングコンテキストで PHI が使用されないようにするために無効になっています。
 
-- **[高度なレポートサービス設定](../getting-started/business-intelligence.md)** – この構成設定は、PHI が分析およびレポートに使用されるのを防ぐために無効になっています。
+- **[詳細レポート サービス設定](../getting-started/business-intelligence.md)** – この構成設定は、PHI が分析およびレポートに使用されるのを防ぐために無効になっています。

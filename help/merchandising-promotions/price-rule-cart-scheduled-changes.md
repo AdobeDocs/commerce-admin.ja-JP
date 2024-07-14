@@ -18,22 +18,22 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この [!UICONTROL From] および [!UICONTROL To] フィールドがで削除されました ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerceおよびを買い物かご価格ルールで直接変更することはできません。 これらのアクティベーションに対して、スケジュールされた更新を作成する必要があります。
+>[!UICONTROL From] フィールドと [!UICONTROL To] フィールドは、![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerceで削除されており、買い物かごの価格ルールで直接変更することはできません。 これらのアクティベーションに対して、スケジュールされた更新を作成する必要があります。
 
-![買い物かご価格ルール – 予定された変更](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
+![ 買い物かご価格ルール – 予定された変更 ](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
 >スケジュールされたすべての更新は、連続して適用されます。 つまり、どのエンティティも、1 つの時点でスケジュールされた更新を 1 つのみ持つことができます。 スケジュールされた更新は、その期間内のすべてのストアビューに適用されます。 その結果、1 つのエンティティに対して、異なるストア表示の異なるスケジュールされた更新を同時に行うことはできません。 現在スケジュールされている更新の影響を受けないすべてのストアビュー内のすべてのエンティティ属性値は、前回スケジュールされた更新ではなく、デフォルト値から取得されます。
 
-同じキャンペーンで複数の価格ルールが実行されている場合、 _[!UICONTROL Priority]_価格ルールの設定によって、優先されるルールが決まります。 詳しくは、 [コンテンツのステージング](../content-design/content-staging.md).
+同じキャンペーンで複数の価格ルールが実行されている場合は、価格ルールの _[!UICONTROL Priority]_設定によって、優先されるルールが決定されます。 詳しくは、[ コンテンツのステージング ](../content-design/content-staging.md) を参照してください。
 
 次の点に注意してください。
 
 - 価格ルールを含むキャンペーンが最初に終了日なしで作成された場合、後でキャンペーンを編集して終了日を含めることはできません。 キャンペーンを作成する際に終了日を追加するか、既存のキャンペーンの重複バージョンを作成し、必要に応じて終了日を重複に追加することをお勧めします。
 - スケジュールされた更新を使用して終了日のある買い物かご価格ルールを有効にする場合は、最初は無効になっていたようにルールを設定してください。 既にアクティブなルールの終了日は考慮されません。
-- クーポンは買い物かごの価格ルールには接続されません。 スケジュールされた更新では、へのアクセスは提供されません _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_、および_[!UICONTROL Uses per Customer]_ のフィールド _[!UICONTROL Rule Information]_タブ。 また、からのすべての設定_[!UICONTROL Manage Coupon Codes]_ タブは使用できません。
+- クーポンは買い物かごの価格ルールには接続されません。 スケジュールされた更新では、「_[!UICONTROL Rule Information]_」タブの「_[!UICONTROL Coupon]_」、「_[!UICONTROL Coupon Code]_」、「_[!UICONTROL Uses per Coupon]_」および「_[!UICONTROL Uses per Customer]_」フィールドへのアクセスは提供されません。 また、「_[!UICONTROL Manage Coupon Codes]_」タブのすべての設定は使用できません。
 
 >[!IMPORTANT]
 >
->キャンペーン **[!UICONTROL Start Date]** および **[!UICONTROL End Date]** を使用して定義する必要があります。 **_default_** 各 Web サイトのローカルタイムゾーンから変換された管理タイムゾーン。 異なるタイムゾーンに複数の web サイトがあり、米国のタイムゾーンに基づいてキャンペーンを開始する例を考えてみましょう。 この場合は、ローカルタイムゾーンごとに個別の更新をスケジュールし、を設定する必要があります **[!UICONTROL Start Date]** および **[!UICONTROL End Date]** 各ローカル web サイトのタイムゾーンからデフォルトの管理者のタイムゾーンに変換されました。
+>Campaign **[!UICONTROL Start Date]** と **[!UICONTROL End Date]** は、各 web サイトのローカルタイムゾーンから変換される **_デフォルト_** の管理タイムゾーンを使用して定義する必要があります。 異なるタイムゾーンに複数の web サイトがあり、米国のタイムゾーンに基づいてキャンペーンを開始する例を考えてみましょう。 この場合は、ローカルタイムゾーンごとに個別の更新をスケジュールし、各ローカル web サイトのタイムゾーンからデフォルトの管理者タイムゾーンに変換された **[!UICONTROL Start Date]** と **[!UICONTROL End Date]** を設定する必要があります。

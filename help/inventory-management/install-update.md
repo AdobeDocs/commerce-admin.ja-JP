@@ -1,6 +1,6 @@
 ---
-title: '"インストール、更新、削除 [!DNL Inventory Management]“'
-description: の管理方法について説明します [!DNL Inventory Management] メタパッケージ。
+title: "インストール、更新、削除  [!DNL Inventory Management]"
+description: メタパッケージの管理方法  [!DNL Inventory Management]  説明します。
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
@@ -11,25 +11,25 @@ ht-degree: 0%
 
 ---
 
-# インストール、更新、削除 [!DNL Inventory Management]
+# [!DNL Inventory Management] のインストール、更新、削除
 
-[!DNL Inventory Management] モジュールは、単一ソースおよび複数ソースのマーチャント向けのすべての在庫機能とオプションを提供し、販売チャネル向けの製品数量と在庫を管理します。 これらの機能は、Adobe CommerceおよびMagento Open Sourceの 2.4.x リリースで使用できます。
+[!DNL Inventory Management] モジュールは、単一および複数のソースのマーチャントに対して、販売チャネルの製品数量と在庫を管理するためのすべての在庫機能とオプションを提供します。 これらの機能は、Adobe CommerceおよびMagento Open Sourceの 2.4.x リリースで使用できます。
 
-これらの機能と拡張機能は、 [在庫プロジェクト](https://github.com/magento/inventory) Magento Open Sourceコミュニティエンジニアリングプログラムを通じて。
+これらの機能と拡張機能は、Magento Open Sourceコミュニティエンジニアリングプログラムを通じて [ 在庫プロジェクト ](https://github.com/magento/inventory) の一部として開発されました。
 
-[!DNL Inventory Management] は 2.3.x および 2.4.x リリースのAdobe CommerceおよびMagento Open Sourceにインストールされます。すべての機能がデフォルトで有効になっています。 これらのインベントリ機能を有効にするために必要な追加手順はありません。 v2.1.x または 2.2.x からのアップグレードでは、追加の手順が必要になる場合があります。 参照： [Inventory managementのアップグレード](#upgrade-inventory-management).
+[!DNL Inventory Management] は、Adobe CommerceおよびMagento Open Sourceの 2.3.x および 2.4.x リリースにインストールされ、すべての機能がデフォルトで有効になっています。 これらのインベントリ機能を有効にするために必要な追加手順はありません。 v2.1.x または 2.2.x からのアップグレードでは、追加の手順が必要になる場合があります。 [Inventory managementのアップグレード ](#upgrade-inventory-management) を参照してください。
 
-によるインストール [オンプレミスでのクイックスタートのインストール](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"} 推奨されます。 すべてのものを受け取るためにメタパッケージでインストール [!DNL Inventory Management] モジュール。
+[ オンプレミスでのクイックスタートインストール ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"} に従ったインストールをお勧めします。 すべての [!DNL Inventory Management] モジュールを受け取るためにメタパッケージと一緒にインストールします。
 
-次の行 `composer.json` metapackage インストール [!DNL Inventory Management]:
+`composer.json` メタパッケージの次の行は [!DNL Inventory Management] をインストールします。
 
 ```json
         magento/inventory-composer-metapackage = 1.1.3
 ```
 
-のリスト用 [!DNL Inventory Management] メタパッケージのバージョンについては、 [リリースノート](release-notes.md).
+メタパッケージのバージョンの一覧 [!DNL Inventory Management] ついては、[ リリースノート ](release-notes.md) を参照してください。
 
-この [!DNL Inventory Management] インストールプロセスは、すべてのモジュールをに追加します。 `<Magento_installation_directory>/app/etc/config.php` ファイル。 A `1` 値は、対応するモジュールが有効であることを示します。 次のモジュールのリストが追加されました。
+[!DNL Inventory Management] インストールプロセスにより、すべてのモジュールが `<Magento_installation_directory>/app/etc/config.php` ファイルに追加されます。 `1` 値は、対応するモジュールが有効であることを示します。 次のモジュールのリストが追加されました。
 
 ```php
         'Magento_Inventory' => 1,
@@ -81,26 +81,26 @@ ht-degree: 0%
         'Magento_InventoryGraphQl' => 1,
 ```
 
-## Enable （有効） [!DNL Inventory Management] の機能
+## [!DNL Inventory Management] 機能の有効化
 
-インストール、アップグレード、更新の際に、 _[!UICONTROL Manage Stock]_管理者のオプションは、デフォルトで有効になっています。 このオプションを使用すると、在庫の追跡と管理が可能になりますが、モジュールのステータスには影響しません。 モジュールを無効にするには、次の節を参照してください。
+インストール、アップグレードまたは更新すると、管理者の _[!UICONTROL Manage Stock]_オプションがデフォルトで有効になります。 このオプションを使用すると、在庫の追跡と管理が可能になりますが、モジュールのステータスには影響しません。 モジュールを無効にするには、次の節を参照してください。
 
-設定について詳しくは、を参照してください。 [Inventory managementの設定](configuration.md).
+設定について詳しくは、[Inventory managementの設定 ](configuration.md) を参照してください。
 
 ## Inventory managementを無効にする
 
 >[!IMPORTANT]
 >
->デフォルトの使用 [!DNL Inventory Management] モジュールを使用することを強くお勧めします。 代替手段 [!DNL CatalogInventory] モジュール（無効になっているシステムに使用） [!DNL Inventory Management] モジュールは、非推奨（廃止予定）になりました。 の無効化 [!DNL Inventory Management] モジュールはシステムを不安定にし、様々な問題を引き起こす可能性があります。
+>デフォルトの [!DNL Inventory Management] モジュールを使用することを強くお勧めします。 [!DNL Inventory Management] モジュールが無効なシステムで使用される代替 [!DNL CatalogInventory] モジュールは、非推奨（廃止予定）になりました。 [!DNL Inventory Management] モジュールを無効にすると、システムが不安定になり、様々な問題が発生する可能性があります。
 
-無効にすることができます [!DNL Inventory Management] モジュールの目的：
+[!DNL Inventory Management] のモジュールを無効にすると、次の操作を実行できます。
 
 * 2.0.x、2.1.x、2.2.x、または 2.3.x から 2.4.x に移行するマーチャントのアップグレードプロセスを迅速化します。
 * カスタムまたはサードパーティの在庫および受注管理システム・モジュールを使用します。
 
-を参照してください。 [モジュールの有効化または無効化](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) 内のページ _インストールガイド_ 該当するモジュールを無効にする方法については、を参照してください。
+該当するモジュールを無効にする方法については、_インストール ガイド_ の [ モジュールの有効化または無効化 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) ページを参照してください。
 
-完了すると、次の場所にモジュールと値のリストが表示されます `<Magento_installation_directory>/app/etc/config.php`で始まる。
+完了すると、次で始まるモジュールと値のリストが `<Magento_installation_directory>/app/etc/config.php` 示されます。
 
 ```php
    'Magento_Inventory' => 0,
@@ -111,15 +111,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->OMS コネクタモジュールがインストールされている場合は、を無効にしないでください `Magento_InventoryMessageBus` モジュール（コネクタモジュール）。 OMS でコネクタを使用する必要があります。
+>OMS コネクタ・モジュールがインストールされている場合、コネクタ・モジュールである `Magento_InventoryMessageBus` モジュールを無効にしないでください。 OMS でコネクタを使用する必要があります。
 
 ## Inventory managementを削除
 
 >[!IMPORTANT]
 >
->デフォルトの使用 [!DNL Inventory Management] モジュールを使用することを強くお勧めします。 代替手段 [!DNL CatalogInventory] モジュール（削除されたシステムに使用されます） [!DNL Inventory Management] モジュールは、非推奨（廃止予定）になりました。 削除， [!DNL Inventory Management] モジュールはシステムを不安定にし、様々な問題を引き起こす可能性があります。
+>デフォルトの [!DNL Inventory Management] モジュールを使用することを強くお勧めします。 [!DNL Inventory Management] モジュールが削除されたシステムで使用される代替 [!DNL CatalogInventory] モジュールは、非推奨（廃止予定）になりました。 [!DNL Inventory Management] モジュールを削除すると、システムが不安定になり、様々な問題が発生する可能性があります。
 
-を使用しないことを選択した場合 [!DNL Inventory Management] 機能を使用すると、これらのモジュールを削除（アンインストール）できます。 composer ファイルを使用してすべてのモジュールを削除するには、次のコマンドをに追加します。 `composer.json`:
+[!DNL Inventory Management] の機能を使用しない場合は、これらのモジュールを削除（アンインストール）できます。 composer ファイルを使用してすべてのモジュールを削除するには、以下を `composer.json` に追加します。
 
 ```
 "replace": {
@@ -201,19 +201,19 @@ ht-degree: 0%
 
 ## Inventory managementのアップグレード
 
-### 前へ [!DNL Commerce] バージョン
+### 以前の [!DNL Commerce] バージョン
 
-Adobe CommerceまたはMagento Open Source 2.4.x に既存の 2.1.x、2.2.x または 2.3.x をアップグレードまたはアップデートする場合 [!DNL Inventory Management] モジュールはデフォルトで無効になっています。 このデフォルト設定は、後方互換性のないアップグレードを防ぎ、Order Management （OMS）をより適切にサポートするための予防策です。
+Adobe CommerceまたはMagento Open Source 2.4.x への既存の 2.1.x、2.2.x または 2.3.x のインストールをアップグレードまたは更新する場合、[!DNL Inventory Management] のモジュールはデフォルトで無効になります。 このデフォルト設定は、後方互換性のないアップグレードを防ぎ、Order Management（OMS）のサポートを強化するための予防策です。
 
 >[!NOTE]
 >
->Order Management はサポートしていません [!DNL Inventory Management]. アップグレード時、 [!DNL Inventory Management] oms および OMS を許可するモジュールは無効です。 [!DNL Commerce] 2.3.x でシームレスに動作
+>Order Managementは [!DNL Inventory Management] をサポートしていません。 アップグレード時には、[!DNL Inventory Management] モジュールが無効になり、OMS と [!DNL Commerce] 2.3.x がシームレスに動作するようになります。
 
 
-を有効にする [!DNL Inventory Management] モジュール：
+[!DNL Inventory Management] モジュールを有効にするには：
 
-1. を編集する `<Commerce_installation_directory>/app/etc/config.php` ファイル。
-1. すべての在庫モジュールの変更元 `0` 対象： `1` を有効にします。
+1. `<Commerce_installation_directory>/app/etc/config.php` ファイルを編集します。
+1. すべてのインベントリ モジュールを `0` から `1` に変更して有効にします。
 1. データベースを更新します。
 
    ```bash
@@ -226,11 +226,11 @@ Adobe CommerceまたはMagento Open Source 2.4.x に既存の 2.1.x、2.2.x ま�
    bin/magento cache:clean
    ```
 
-を使用することをお勧めします [予約の不整合コマンド](cli.md) アップグレード後。 アップグレードすると、すべての製品がデフォルトの在庫に追加されます。 保留中の受注がある場合、受注および受注の履行に対する販売可能数量および予約が正しく更新されます。
+アップグレード後は、[reservation inconsistencies コマンド ](cli.md) を使用することをお勧めします。 アップグレードすると、すべての製品がデフォルトの在庫に追加されます。 保留中の受注がある場合、受注および受注の履行に対する販売可能数量および予約が正しく更新されます。
 
-### 前へ [!DNL Inventory Management] バージョン
+### 以前の [!DNL Inventory Management] バージョン
 
-の以前のリリースからアップグレードする場合 [!DNL Inventory Management] 最新バージョンには、通常の拡張機能アップグレード手順に従います。
+[!DNL Inventory Management] の以前のリリースから最新のバージョンにアップグレードする場合は、通常の拡張機能のアップグレード手順に従います。
 
 最新のメタパッケージのバージョンを更新してください。
 
@@ -240,5 +240,5 @@ Adobe CommerceまたはMagento Open Source 2.4.x に既存の 2.1.x、2.2.x ま�
 
 Commerceのアップグレードについて詳しくは、次のガイドを参照してください。
 
-* [Commerce アップデートガイド](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
-* [モジュールの有効化または無効化](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}
+* [Commerce アップデートガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
+* [ モジュールの有効化または無効化 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}

@@ -1,6 +1,6 @@
 ---
 title: 要素 – テキスト
-description: でテキストコンテナを追加するために使用される、テキスト コンテンツタイプについて説明します [!DNL Page Builder] ステージ。
+description: ステージでテキストコンテナを追加するために使用される、テキストコンテンツタイプについて説明  [!DNL Page Builder]  ます。
 exl-id: 3f14af35-9c04-4f4b-b3dd-d3406d56a9c0
 feature: Page Builder, Page Content
 source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
@@ -12,31 +12,31 @@ ht-degree: 0%
 
 # 要素 – テキスト
 
-の使用 _テキスト_ コンテンツタイプを使用すると、で WYSIWYG （&quot;What You See Is What You Get&quot;）エディターを使用してテキストコンテナを追加できます [[!DNL Page Builder] ステージ](workspace.md#stage). また、リンクや画像を追加できます。 [変数](../systems/variables-predefined.md)エディターツールバーからテキストへのウィジェット。
+_テキスト_ コンテンツタイプを使用すると、[[!DNL Page Builder]  ステージ ](workspace.md#stage) に WYSIWYG （「What You See Is What You Get」）エディターを含むテキストコンテナを追加できます。 また、エディターツールバーからテキストにリンク、画像、[ 変数 ](../systems/variables-predefined.md) およびウィジェットを追加できます。
 
-![バナー上の書式設定されたテキスト](./assets/pb-storefont-banner-with-button.png){width="700"}
+![ バナー上の書式付きテキスト ](./assets/pb-storefont-banner-with-button.png){width="700"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## テキストエディターツール
 
-テキストエディターには、ステージから直接アクセスすることも、設定ページからアクセスすることもできます。 ステージに直接加えられた変更は、自動的に保存されます。 詳しくは、を参照してください [エディターの使用](../content-design/editor.md).
+テキストエディターには、ステージから直接アクセスすることも、設定ページからアクセスすることもできます。 ステージに直接加えられた変更は、自動的に保存されます。 詳しくは、[ エディターの使用 ](../content-design/editor.md) を参照してください。
 
-![テキストエディターツール - TinyMCE](./assets/pb-elements-text-editor-tools.png){width="600"}
+![ テキストエディターツール - TinyMCE](./assets/pb-elements-text-editor-tools.png){width="600"}
 
 ## テキストコンテナツールボックス
 
-![テキストコンテナツールボックス](./assets/pb-elements-text-toolbox.png){width="600"}
+![ テキストコンテナツールボックス ](./assets/pb-elements-text-toolbox.png){width="600"}
 
 | ツール | アイコン | 説明 |
 | --------- | --------------------- | -------------- |
-| 移動 | ![移動アイコン](./assets/pb-icon-move.png){width="25"} | テキスト コンテナをページ上の別の有効な場所に移動します。 |
+| 移動 | ![ 移動アイコン ](./assets/pb-icon-move.png){width="25"} | テキスト コンテナをページ上の別の有効な場所に移動します。 |
 | （ラベル） | テキスト | 現在のコンテナをテキスト要素として識別します。 |
-| 設定 | ![設定アイコン](./assets/pb-icon-settings.png){width="25"} | テキストコンテナのプロパティを編集モードで開きます。 |
-| Hide | ![アイコンを非表示](./assets/pb-icon-hide.png){width="25"} | テキストコンテナを非表示にします。 |
-| 表示 | ![アイコンを表示](./assets/pb-icon-show.png){width="25"} | 非表示のテキストコンテナを表示します。 |
-| 複製 | ![アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | テキストコンテナをコピーします。 |
-| 削除 | ![アイコンを削除](./assets/pb-icon-remove.png){width="25"} | テキストコンテナとそのコンテンツをステージから削除します。 |
+| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | テキストコンテナのプロパティを編集モードで開きます。 |
+| Hide | ![ アイコンを非表示 ](./assets/pb-icon-hide.png){width="25"} | テキストコンテナを非表示にします。 |
+| 表示 | ![ アイコンを表示 ](./assets/pb-icon-show.png){width="25"} | 非表示のテキストコンテナを表示します。 |
+| 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | テキストコンテナをコピーします。 |
+| 削除 | ![ 削除アイコン ](./assets/pb-icon-remove.png){width="25"} | テキストコンテナとそのコンテンツをステージから削除します。 |
 
 {style="table-layout:auto"}
 
@@ -44,21 +44,21 @@ ht-degree: 0%
 
 ## テキストを追加
 
-1. が含まれる [!DNL Page Builder] パネル、展開 **[!UICONTROL Elements]** をドラッグします。 **[!UICONTROL Text]** ステージ上の行、列またはタブセットへのプレースホルダー。
+1. [!DNL Page Builder] パネルで **[!UICONTROL Elements]** を展開し、**[!UICONTROL Text]** プレースホルダーをステージ上の行、列またはタブセットにドラッグします。
 
-   ![テキストプレースホルダーのステージへのドラッグ](./assets/pb-elements-text-drag.png){width="600" zoomable="yes"}
+   ![ テキストプレースホルダーのステージへのドラッグ ](./assets/pb-elements-text-drag.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、エディターを使用してテキストの入力や書式設定を行います。
 
-   詳しくは、を参照してください [エディターの使用](../content-design/editor.md).
+   詳しくは、[ エディターの使用 ](../content-design/editor.md) を参照してください。
 
-   ![コンテンツ付きテキストエディター](./assets/pb-elements-text-editor.png){width="600"}
+   ![ コンテンツを含むテキストエディター ](./assets/pb-elements-text-editor.png){width="600"}
 
 ## リンクの作成
 
 エディターの「リンクを挿入」ボタンを使用すると、ギャラリー内の画像にハイパーリンクを簡単に追加できます。 ただし、事前に URL があれば、テキスト内にインラインリンクを作成する場合にも使用できます。 ウィジェットボタンとは異なり、「リンクを挿入/編集」ボタンは、ストアのページ、製品、カテゴリには統合されません。
 
-電話番号またはメールのリンクを作成するには、を参照してください。 [カスタム変数の追加](../systems/variables-custom.md).
+電話番号またはメールのリンクを作成するには、[ カスタム変数の追加 ](../systems/variables-custom.md) を参照してください。
 
 1. ストアフロントで、リンクのターゲットにするページに移動し、リンク情報をコピーします。
 
@@ -68,45 +68,45 @@ ht-degree: 0%
 
    相対 URL - `../women/tops-women/tees-women.html`
 
-1. エディタースペースでテキストを選択し、 _リンクを挿入/編集_ （ ![「リンクを挿入/編集」ボタン](./assets/pb-icon-add-link.png){width="20"} ）を選択します。
+1. エディタースペースでテキストを選択し、エディターツールバーの _リンクを挿入/編集_ （![ リンクを挿入/編集ボタン ](./assets/pb-icon-add-link.png){width="20"}）をクリックします。
 
-   ![書式設定されたテキストへのリンクの追加](./assets/pb-tutorial2-column-text-editor-link-insert.png){width="500" zoomable="yes"}
+   ![ 書式設定されたテキストへのリンクの追加 ](./assets/pb-tutorial2-column-text-editor-link-insert.png){width="500" zoomable="yes"}
 
-1. の場合 **[!UICONTROL URL]**&#x200B;に、作成した相対リンクを入力します。
+1. **[!UICONTROL URL]**：準備した相対リンクを入力します。
 
-1. を設定 **[!UICONTROL Target]** 対象： `None`.
+1. **[!UICONTROL Target]** を `None` に設定します。
 
    この設定の場合、ページは新しいタブを開かずに同じブラウザーウィンドウで開きます。
 
-1. の場合 **[!UICONTROL Title]**、と入力します `Shop Tees`.
+1. **[!UICONTROL Title]** には、`Shop Tees` と入力します。
 
-   この `Title` リンク属性は、一部のブラウザーでツールヒントとして使用されます。
+   `Title` リンク属性は、一部のブラウザーでツールヒントとして使用されます。
 
-1. リンクを保存して、に戻るには [!DNL Page Builder] ワークスペース、クリック **[!UICONTROL OK]**.
+1. リンクを保存して [!DNL Page Builder] ワークスペースに戻るには、「**[!UICONTROL OK]**」をクリックします。
 
-   ![リンクの詳細](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png){width="500" zoomable="yes"}
+   ![ リンクの詳細 ](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png){width="500" zoomable="yes"}
 
 ## 画像の挿入
 
 1. 画像を挿入するテキスト内の位置にカーソルを置きます。
 
-1. クリック _画像を挿入/編集_ （ ![画像を挿入/編集ボタン](./assets/icon-pb-add-image.png){width="20"} ）を選択します。
+1. エディターツールバーの _画像を挿入/編集_ （![ 画像を挿入/編集ボタン ](./assets/icon-pb-add-image.png){width="20"}）をクリックします。
 
-1. の場合 **[!UICONTROL Source]**&#x200B;を選択します。検索アイコンをクリックすると、メディアストレージを使用して画像を検索および選択できます。
+1. **[!UICONTROL Source]**：検索アイコンをクリックし、メディア ストレージを使用して画像を検索および選択します。
 
-1. の場合 **[!UICONTROL Image Description]**、画像の説明テキストを入力します。
+1. **[!UICONTROL Image Description]**：画像の説明テキストを入力します。
 
-   このテキストはに入力されます `alt` 画像のリンク属性で、アクセシビリティのために一部のブラウザーで使用されます。
+   このテキストは、画像の `alt` リンク属性に設定され、一部のブラウザーでアクセシビリティのために使用されます。
 
-1. 幅と高さを入力 **[!UICONTROL Dimensions]**&#x200B;ページ上に画像をレンダリングするためのピクセル単位。
+1. ページ上の画像のレンダリングに使用する幅と高さの **[!UICONTROL Dimensions]** をピクセル単位で入力します。
 
-   保持： **[!UICONTROL Constrain proportions]** 画像の縦横比を自動的に維持する場合に選択したチェックボックス。
+   画像の縦横比を自動的に維持するには、「**[!UICONTROL Constrain proportions]**」チェックボックスをオンのままにします。
 
-1. 画像を挿入して、に戻るには [!DNL Page Builder] ワークスペース、クリック **[!UICONTROL OK]**.
+1. 画像を挿入して [!DNL Page Builder] ワークスペースに戻るには、[**[!UICONTROL OK]**] をクリックします。
 
 ## テキスト設定の変更
 
-1. テキストコンテナにカーソルを合わせてツールボックスを表示し、 _設定_ （ ![設定アイコン](./assets/pb-icon-settings.png){width="20"} ） アイコンをクリックします。
+1. テキストコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
    >[!NOTE]
    >
@@ -114,9 +114,9 @@ ht-degree: 0%
 
 1. 必要に応じてコンテンツを更新します。
 
-1. を更新 _[!UICONTROL Advanced]_必要に応じて設定します。
+1. 必要に応じて、_[!UICONTROL Advanced]_設定を更新します。
 
-   - 親コンテナ内のテキストの位置を制御するには、 **[!UICONTROL Alignment]**:
+   - 親コンテナ内のテキストの位置を制御するには、**[!UICONTROL Alignment]** のいずれかを選択します。
 
      | オプション | 説明 |
      | ------ |------------ |
@@ -127,7 +127,7 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-   - を **[!UICONTROL Border]** テキストコンテナの 4 つの辺すべてに適用されるスタイル：
+   - テキストコンテナの 4 つの辺すべてに適用する **[!UICONTROL Border]** スタイルを設定します。
 
      | オプション | 説明 |
      | ------ |------------ |
@@ -144,7 +144,7 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-   - 境界線のスタイルを `None`の場合は、次のボーダー表示オプションを入力します。
+   - `None` 以外の境界線のスタイルを設定する場合は、境界線の表示オプションを完了します。
 
      | オプション | 説明 |
      | ------ |------------ |
@@ -154,19 +154,19 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-   - （オプション）の名前を指定します **[!UICONTROL CSS classes]** を現在のスタイルシートから取得して、コンテナに適用します。
+   - （オプション）コンテナに適用する現在のスタイルシートの **[!UICONTROL CSS classes]** の名前を指定します。
 
      複数のクラス名はスペースで区切ります。
 
-   - 次の値をピクセル単位で入力 **[!UICONTROL Margins and Padding]** テキストコンテナの外側の余白と内側のパディングを決定します。
+   - テキストコンテナの外側の余白と内側のパディングを決定する **[!UICONTROL Margins and Padding]** の値をピクセル単位で入力します。
 
      対応する値を図に入力します。
 
      | コンテナ領域 | 説明 |
      | -------------- |------------ |
-     | [!UICONTROL Margins] | コンテナのすべての側面の外側の端に適用される空白スペースの量。 オプション： `Top` / `Right` / `Bottom` / `Left` |
-     | [!UICONTROL Padding] | コンテナのすべての側面の内側の端に適用される空白のスペースの量です。 オプション： `Top` / `Right` / `Bottom` / `Left` |
+     | [!UICONTROL Margins] | コンテナのすべての側面の外側の端に適用される空白スペースの量。 オプション：`Top`/`Right`/`Bottom`/`Left` |
+     | [!UICONTROL Padding] | コンテナのすべての側面の内側の端に適用される空白のスペースの量です。 オプション：`Top`/`Right`/`Bottom`/`Left` |
 
      {style="table-layout:auto"}
 
-1. 完了したら、 **[!UICONTROL Save]** 設定を適用し、 [!DNL Page Builder] ワークスペース。
+1. 完了したら、「**[!UICONTROL Save]**」をクリックして設定を適用し、[!DNL Page Builder] ワークスペースに戻ります。

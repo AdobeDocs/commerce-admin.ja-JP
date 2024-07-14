@@ -12,67 +12,67 @@ ht-degree: 0%
 
 # 中程度の製品レビュー
 
-Commerceの商品レビューの場合、送信された商品レビューを表示するには、そのレビューが承認されている必要があります。 これにより、レビューがストアの公開ディスプレイに適切になります。 送信されたレビューはにあります。 `Pending` 承認または却下されるまでステータスを保持します。
+Commerceの商品レビューの場合、送信された商品レビューを表示するには、そのレビューが承認されている必要があります。 これにより、レビューがストアの公開ディスプレイに適切になります。 送信されたレビューは、承認または却下されるまで、`Pending` ステータスになります。
 
 ## 管理者で製品レビューを表示
 
 特定の製品のすべてのレビューを管理者に表示するには、次の手順を実行します。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
-1. 表示する製品を見つけて、クリックします **[!UICONTROL Edit]** が含まれる _[!UICONTROL Action]_列。
+1. 表示する製品を見つけて、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
 
-1. 製品ページで、下にスクロールして展開します ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Product Reviews]** セクション。
+1. 製品ページで、下にスクロールして、「**[!UICONTROL Product Reviews]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 
-   このグリッドでは、 **[!UICONTROL Edit]** 内のリンク _[!UICONTROL Action]_列。
+   このグリッドでは、_[!UICONTROL Action]_の列の&#x200B;**[!UICONTROL Edit]**リンクをクリックして特定のレビューを変更することもできます。
 
 ## レビューのステータスを更新
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**または&#x200B;**[!UICONTROL All Reviews]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL User Content]_/**[!UICONTROL Pending Reviews]**または&#x200B;**[!UICONTROL All Reviews]**に移動します。
 
 1. リストで、保留中のレビューをクリックして詳細を表示し、必要に応じて編集します。
 
-1. 変更： **[!UICONTROL Status]** 評価に従って、次の操作を行います。
+1. 評価に従って **[!UICONTROL Status]** を変更します。
 
-   - 保留中のレビューを承認するには、次を選択します `Approved`.
+   - 保留中のレビューを承認するには、「`Approved`」を選択します。
 
-   - レビューを却下するには、次を選択します `Not Approved`. のリストから未承認のレビューが消える _[!UICONTROL Pending Reviews]_ページ。
+   - レビューを却下するには、「`Not Approved`」を選択します。 承認されていないレビューがページのリストから消え _[!UICONTROL Pending Reviews]_す。
 
    >[!NOTE]
    >
-   >を使用したレビュー `Pending` および `Not Approved` ステータスはストアフロントに表示されません。
+   >`Pending` と `Not Approved` のステータスを含むレビューは、ストアフロントには表示されません。
 
-1. 該当する場合、 **[!UICONTROL Visibility]** 異なるストア表示に表示される製品レビューの。
+1. 該当する場合、異なるストア表示に表示される製品レビューの **[!UICONTROL Visibility]** を設定します。
 
-1. 必要に応じて、の値を変更します **[!UICONTROL Detailed Rating]**, **[!UICONTROL Nickname]**、および **[!UICONTROL Summary of Review]**.
+1. 必要に応じて、**[!UICONTROL Detailed Rating]**、**[!UICONTROL Nickname]**、**[!UICONTROL Summary of Review]** の値を変更します。
 
-   レビューを利用できるストア表示を変更するには、で必要なストア表示を選択します。 _[!UICONTROL Visibility]_列。
+   レビューが使用可能なストア表示を変更するには、必要なストア表示を _[!UICONTROL Visibility]_列で選択します。
 
-   ![レビューページを編集](./assets/edit-review-page.png){width="600" zoomable="yes"}
+   ![ レビューページを編集 ](./assets/edit-review-page.png){width="600" zoomable="yes"}
 
-1. 完了したら、 **[!UICONTROL Save Review]**.
+1. 完了したら、「**[!UICONTROL Save Review]**」をクリックします。
 
 ## バッチ更新
 
 複数のレビューを同時に更新または削除できます。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL User Content]_/**[!UICONTROL All Reviews]**に移動します。
 
 1. 更新するレビューを選択します。
 
-1. の使用 _[!UICONTROL Action]_左上隅のセレクターを選択して、アクションを適用します。
+1. 左上隅の _[!UICONTROL Action]_セレクターを使用して、アクションを適用します。
 
-1. クリック **[!UICONTROL Submit]**
+1. **[!UICONTROL Submit]** をクリック
 
 ## 製品レビューの削除
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL User Content]_/**[!UICONTROL All Reviews]**に移動します。
 
 1. 削除する製品レビューを検索し、編集モードで開きます。
 
-1. メニューバーで、 **[!UICONTROL Delete Review]** ボタン。
+1. メニューバーで、「」ボタン **[!UICONTROL Delete Review]** クリックします。
 
-1. アクションを確定するには、 **[!UICONTROL OK]**.
+1. アクションを確定するには、「**[!UICONTROL OK]**」をクリックします。
 
 ## ボタンバー
 

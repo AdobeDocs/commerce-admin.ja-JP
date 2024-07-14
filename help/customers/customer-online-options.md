@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 顧客セッションの有効期間
 
-顧客の買い物セッションの有効期間は、サーバーセッションの長さ、の使用など、いくつかの要因によって決まります。 [永続カート](../stores-purchase/cart-persistent.md)、およびブラウザーに保存される情報の有効期間。 これらは同じ顧客体験に関連していますが、有効期限イベントと有効期間が異なる別個のプロセスです。
+顧客ショッピング セッションの有効期間は、サーバーセッションの長さ、[ 永続的な買い物かごの使用 ](../stores-purchase/cart-persistent.md)、ブラウザーに保存されている情報の有効期間など、いくつかの要因によって決定されます。 これらは同じ顧客体験に関連していますが、有効期限イベントと有効期間が異なる別個のプロセスです。
 
 | プロセス | 説明 |
 | --- | --- |
@@ -21,38 +21,38 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-次の場合 [永続カート](../stores-purchase/cart-persistent.md) が有効になっている場合は、顧客が次回アカウントにログインする際に備えて買い物かごの中身が保存されます。 永続的な買い物かごを使用する場合、サーバーセッションとセッション cookie の有効期間を長い期間に設定することをお勧めします。
+[ 永続的な買い物かご ](../stores-purchase/cart-persistent.md) が有効になっている場合、顧客が次回アカウントにログインする際に備えて、買い物かごの内容が保存されます。 永続的な買い物かごを使用する場合、サーバーセッションとセッション cookie の有効期間を長い期間に設定することをお勧めします。
 
-サーバーでは、セッションの長さは以下によって制御されます。 `php.ini` ファイルおよびいくつかの変数。 現在、Adobe Commerceには、サーバーセッションの長さを制御する管理者設定がありません。
+サーバーでは、セッションの長さは `php.ini` ファイルといくつかの変数によって制御されます。 現在、Adobe Commerceには、サーバーセッションの長さを制御する管理者設定がありません。
 
 ## cookie の有効期間の設定
 
-1. 日 _Admin_ サイドバー、に移動 [!UICONTROL **ストア**] > _[!UICONTROL Settings]_>[!UICONTROL **設定**].
+1. _管理者_ サイドバーで、[!UICONTROL **ストア**]/_[!UICONTROL Settings]_/[!UICONTROL **設定**]に移動します。
 
-1. 複数のストアがある場合、 **[!UICONTROL Store View]** 設定が適用されるストアの右上隅にある選択。
+1. 複数のストアがある場合は、右上隅の **[!UICONTROL Store View]** 選択を、設定が適用されるストアに設定します。
 
-1. の下の左パネルで **[!UICONTROL General]**、を選択 **[!UICONTROL Web]**.
+1. **[!UICONTROL General]** の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
 
-1. を展開します。 **[!UICONTROL Default Cookie Settings]** セクション。
+1. 「**[!UICONTROL Default Cookie Settings]**」セクションを展開します。
 
-   ![デフォルトの Cookie 設定](../configuration-reference/general/assets/web-default-cookie-settings.png){width="600" zoomable="yes"}
+   ![ デフォルトの Cookie 設定 ](../configuration-reference/general/assets/web-default-cookie-settings.png){width="600" zoomable="yes"}
 
-1. デフォルトを変更するには、 **[!UICONTROL Use system value]** チェックボックスをオンにして、新しい値を秒単位で入力します。
+1. デフォルト値を変更するには、「**[!UICONTROL Use system value]**」チェックボックスをオフにして、新しい値（秒単位）を入力します。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
-## 設定 _記録する_ 機能
+## _記憶する_ 機能の設定
 
-ログインを容易にするには、 **[!UICONTROL Remember Me]** 機能を使用すると、ユーザーアカウント所有者は、ストアフロントに入るたびに資格情報を入力するのを回避できます。 セキュリティ上の理由から、永続性機能はデフォルトで無効になっています。
+ログインを容易にするために、**[!UICONTROL Remember Me]** 機能を使用すると、ユーザーアカウント所有者は、ストアフロントに入るたびに資格情報を入力するのを回避できます。 セキュリティ上の理由から、永続性機能はデフォルトで無効になっています。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Customers]** を選択します **[!UICONTROL Persistent Shopping Cart]**.
+1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Persistent Shopping Cart]**」を選択します。
 
-1. を展開します。 **[!UICONTROL General Options]** セクション。
+1. 「**[!UICONTROL General Options]**」セクションを展開します。
 
-1. の場合 **[!UICONTROL Enable Persistence]**、に設定 `Yes`. （をクリア **[!UICONTROL Use system value]** デフォルト設定の変更を許可するチェックボックス）。
+1. **[!UICONTROL Enable Persistence]** の場合は、`Yes` に設定します。 （デフォルト設定の変更を許可する場合は、「**[!UICONTROL Use system value]**」チェックボックスをオフにします）。
 
-1. の場合 **[!UICONTROL Enable "Remember Me"]**、に設定 `Yes` または `No` ご要望に応じて。
+1. **[!UICONTROL Enable "Remember Me"]** の場合は、要件に応じて `Yes` または `No` に設定します。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

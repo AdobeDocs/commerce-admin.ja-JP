@@ -15,14 +15,14 @@ ht-degree: 0%
 
 顧客セグメントレポートは、各セグメントの顧客数に関する情報を提供します。
 
-![顧客セグメントレポート](assets/customer-segments-reports.png){width="700" zoomable="yes"}
+![ 顧客セグメントレポート ](assets/customer-segments-reports.png){width="700" zoomable="yes"}
 
 | 列 | 説明 |
 |--- |--- |
-| **[!UICONTROL Select]** | アクションの対象となる各セグメントのチェックボックスを選択するか、列ヘッダーの選択コントロールを使用します。 オプション： `Select All` / `Deselect All` / `Select Visible` / `Unselect Visible` |
+| **[!UICONTROL Select]** | アクションの対象となる各セグメントのチェックボックスを選択するか、列ヘッダーの選択コントロールを使用します。 オプション：`Select All`/`Deselect All`/`Select Visible`/`Unselect Visible` |
 | **[!UICONTROL ID]** | 各セグメントに割り当てられる一意の数値識別子 |
 | **[!UICONTROL Segment]** | セグメント名 |
-| **[!UICONTROL Status]** | セグメントステータス。 オプション： `Active` / `Inactive` |
+| **[!UICONTROL Status]** | セグメントステータス。 オプション：`Active` / `Inactive` |
 | **[!UICONTROL Website]** | セグメントが割り当てられている web サイト |
 | **[!UICONTROL Customers]** | セグメントに割り当てられた顧客の数 |
 
@@ -30,16 +30,16 @@ ht-degree: 0%
 
 セグメント内の顧客のリストにドリルダウンし、データを書き出すことができます。
 
-![顧客データへのドリルダウン](assets/customer-segment-drilldown.png){width="600" zoomable="yes"}
+![ 顧客データへのドリルダウン ](assets/customer-segment-drilldown.png){width="600" zoomable="yes"}
 
-最新のデータを確実に入手するには、セグメントデータを更新する必要があります。 セグメントデータが使用できない場合や古い場合は、 **[!UICONTROL Refresh Segment Data]** をクリックします。
+最新のデータを確実に入手するには、セグメントデータを更新する必要があります。 セグメントデータが使用できない場合や古い場合は、ボタンバーの **[!UICONTROL Refresh Segment Data]** をクリックして更新します。
 
-1. の場合 **[!UICONTROL Export to]**&#x200B;で、書き出し形式を選択します。
+1. **[!UICONTROL Export to]** の場合は、書き出し形式を選択します。
 
    * CSV - プレーンテキストデータを含む、コンマ区切り値ファイル。
    * Excel XML - XML ベースのスプレッドシートデータ形式。
 
-1. クリック **[!UICONTROL Export]**.
+1. 「**[!UICONTROL Export]**」をクリックします。
 
    | 列 | 説明 |
    |--- |--- |

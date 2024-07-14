@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 戻り値
 
-A _返品された商品承認_ （RMA）は、交換または払い戻しのために商品の返品をリクエストするお客様に付与できます。 通常、顧客はマーチャントに連絡して払い戻しをリクエストします。 承認されると、返される製品を識別する一意の RMA 番号が割り当てられます。 この設定では、すべての製品に対して RMA を有効にするか、特定の製品にのみ RMA を許可するかを指定できます。 この _[!UICONTROL Returns]_グリッドは、現在の返品された商品要求（RMA）をリストし、新しい返品要求を入力するために使用されます。
+交換または払い戻しのために商品を返品することをリクエストするお客様には、_返品商品承認_ （RMA）を付与できます。 通常、顧客はマーチャントに連絡して払い戻しをリクエストします。 承認されると、返される製品を識別する一意の RMA 番号が割り当てられます。 この設定では、すべての製品に対して RMA を有効にするか、特定の製品にのみ RMA を許可するかを指定できます。 _[!UICONTROL Returns]_グリッドには、現在の返品要求（RMA）がリストされ、新しい返品要求を入力するために使用されます。
 
-![グリッドを返します](./assets/return.png){width="600" zoomable="yes"}
+![ グリッドを返します ](./assets/return.png){width="600" zoomable="yes"}
 
 RMA は、シンプル、グループ化、設定可能、バンドル製品タイプに対して発行できます。 ただし、仮想製品、ダウンロード可能な製品、ギフトカードでは RMA を使用できません。
 
@@ -22,26 +22,26 @@ RMA は、シンプル、グループ化、設定可能、バンドル製品タ�
 
 | 列 | 説明 |
 |--- |--- |
-| [!UICONTROL Select] | アクションの対象となる返品のチェックボックスを選択するか、列ヘッダーの選択コントロールを使用します。 オプション： `Select All` / `Deselect All` / `Select Visible` / `Unselect Visible` |
+| [!UICONTROL Select] | アクションの対象となる返品のチェックボックスを選択するか、列ヘッダーの選択コントロールを使用します。 オプション：`Select All`/`Deselect All`/`Select Visible`/`Unselect Visible` |
 | [!UICONTROL RMA] | 各返品に割り当てられる一意の数値識別子 |
 | [!UICONTROL Requested] | 返品された日時 |
 | [!UICONTROL Order] | 元の注文の一意の番号 |
 | [!UICONTROL Ordered] | 注文された日時 |
 | [!UICONTROL Customer] | 注文した顧客または購入者の名前 |
-| [!UICONTROL Status] | ステータスを返します。 オプション： `Pending` / `Authorized` / `Partially Authorized` / `Approved` / `Rejected` / `Processed and Closed` / `Closed` |
-| [!UICONTROL Action] | **[!UICONTROL View]** リターンを編集モードで開きます。 |
+| [!UICONTROL Status] | ステータスを返します。 オプション：`Pending` / `Authorized` / `Partially Authorized` / `Approved` / `Rejected` / `Processed and Closed` / `Closed` |
+| [!UICONTROL Action] | **[!UICONTROL View]** は、リターンを編集モードで開きます。 |
 
 {style="table-layout:auto"}
 
 ## RMA と再来訪ワークフロー
 
-1. **リクエストを受信**  – 次の場合 [enabled](rma-configure.md#enable-rmas-for-your-store) ストアフロントの場合、登録ユーザーとゲストの両方が RMA をリクエストできます。 以下の手順でも可能です [管理者に RMA リクエストを送信](#create-a-return-request-in-the-admin).
+1. **リクエストを受信** - ストアフロントに対して [ 有効 ](rma-configure.md#enable-rmas-for-your-store) になっている場合、登録ユーザーとゲストの両方が RMA をリクエストできます。 また、[ 管理者で RMA リクエストを送信する ](#create-a-return-request-in-the-admin) こともできます。
 
-2. **RMA 発行** - リクエストを検討した後、リクエストの一部、完全またはキャンセルを承認できます。 返品を承認し、返品出荷の支払いに同意した場合は、サポートされている通信事業者で管理者から出荷注文を作成できます。
+2. **RMA 発行済み** - リクエストを検討した後、リクエストを部分的または完全に承認したり、リクエストをキャンセルしたりできます。 返品を承認し、返品出荷の支払いに同意した場合は、サポートされている通信事業者で管理者から出荷注文を作成できます。
 
-3. **商品の受け取りと返品処理**  – 次のフロー・チャートは、返品プロセスを完了するための操作オーダーを示しています。
+3. **受入商品および返品処理済** – 次のフロー・チャートは、返品処理を完了するための作業指示を示しています。
 
-   ![製品返品ワークフロー](./assets/workflow-customer-returns.png){width="500"}
+   ![ 製品返品ワークフロー ](./assets/workflow-customer-returns.png){width="500"}
 
 ## RMA ステータス
 
@@ -64,45 +64,45 @@ RMA は、シンプル、グループ化、設定可能、バンドル製品タ�
 
 ## 管理者での再来訪リクエストの作成
 
-マーチャントは、顧客に代わって管理者から返品リクエストを作成できます。 顧客は次のことができます [再来訪リクエストの作成](rma-customer-experience.md) Adobe Commerceストアのストアフロントで。
+マーチャントは、顧客に代わって管理者から返品リクエストを作成できます。 お客様は、Adobe Commerce ストアのストアフロントで [ 返品リクエストを作成 ](rma-customer-experience.md) できます。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Sales]** > **[!UICONTROL Returns]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/**[!UICONTROL Returns]** に移動します。
 
-1. クリック **[!UICONTROL New Return Request]**.
+1. 「**[!UICONTROL New Return Request]**」をクリックします。
 
-1. 返品リクエストを作成するには、注文をクリックします `Complete` ステータス。
+1. 返品要求を作成するには、`Complete` のステータスを持つ受注をクリックします。
 
-1. の下 _[!UICONTROL Return Information]_セクションで、**[!UICONTROL Return Items]**タブ。
+1. 「_[!UICONTROL Return Information]_」セクションで、「**[!UICONTROL Return Items]**」タブを選択します。
 
-1. 戻る項目を追加するには、次をクリックします： **[!UICONTROL Add Items]**.
+1. 戻るアイテムを追加するには、[**[!UICONTROL Add Items]**] をクリックします。
 
-1. 必要な製品のチェックボックスをオンにして、 **[!UICONTROL Add Selected Product to returns]**.
+1. 必要な製品のチェックボックスをオンにして、「**[!UICONTROL Add Selected Product to returns]**」をクリックします。
 
-1. の場合 **[!UICONTROL Requested]**&#x200B;は、返される項目の数を入力します。
+1. **[!UICONTROL Requested]**：返される項目の数を入力します。
 
-1. を設定 **[!UICONTROL Return Reason]** を次のいずれかに変更します。
+1. **[!UICONTROL Return Reason]** を次のいずれかに設定します。
 
    - `Wrong Color`
    - `Wrong Size`
    - `Out of Service`
    - `Other`
 
-   返品の理由がリストされた選択肢と異なる場合は、 `Other` オプション。
+   返品の理由がリストされた選択肢と異なる場合は、「`Other`」オプションを選択すると、独自の理由を入力できます。
 
-1. を設定 **[!UICONTROL Item Condition]** を次のいずれかに変更します。
+1. **[!UICONTROL Item Condition]** を次のいずれかに設定します。
 
    - `Unopened`
    - `Opened`
    - `Damaged`
 
-1. を設定 **[!UICONTROL Resolution]** を次のいずれかに変更します。
+1. **[!UICONTROL Resolution]** を次のいずれかに設定します。
 
    - `Exchange`
    - `Refund`
    - `Store Credit`
 
-1. 返品を作成するには、次をクリックします。 **[!UICONTROL Submit Returns]**.
+1. 返品を作成するには、「**[!UICONTROL Submit Returns]**」をクリックします。
 
-   ![RMA アイテムが要求されました](./assets/return-item-request.png){width="600" zoomable="yes"}
+   ![RMA 項目が要求されました ](./assets/return-item-request.png){width="600" zoomable="yes"}
 
-   新しく送信された RMA リクエストがに表示されます **[!UICONTROL Returns]** を含むページ `Pending` ステータス。
+   新しく送信された RMA リクエストが、`Pending` ステータスで **[!UICONTROL Returns]** ページに表示されます。

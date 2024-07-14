@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## カテゴリの移動
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Categories]** に移動します。
 
 1. カテゴリを移動するには、カテゴリをツリー内の新しい位置にドラッグ&amp;ドロップします。
 
@@ -28,8 +28,8 @@ ht-degree: 0%
 
    削除したカテゴリは復元できません。続行する前に、正しいカテゴリを選択していることを確認してください。
 
-1. クリック **[!UICONTROL Delete Category]**.
+1. 「**[!UICONTROL Delete Category]**」をクリックします。
 
-1. 確認を求められたら、 **[!UICONTROL OK]**.
+1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL OK]**」をクリックします。
 
-以下の手順でも可能です [イベントの更新](../merchandising-promotions/event-create.md#create-and-update-events) 次のいずれかからのカテゴリに関連付けられます **[!UICONTROL Events]** ページ、 **[!UICONTROL Category]** ページ。
+カテゴリに関連付けられた [ イベントを更新 ](../merchandising-promotions/event-create.md#create-and-update-events) するには、**[!UICONTROL Events]** のページまたは **[!UICONTROL Category]** のページからも行えます。

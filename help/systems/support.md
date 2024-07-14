@@ -19,33 +19,33 @@ ht-degree: 0%
 
 データコレクターは、アドビのサポートチームがAdobe Commerceのインストールに関する問題のトラブルシューティングに必要な、お使いのシステムに関する情報を収集します。 作成されるバックアップは完了するまでに数分かかり、コードとデータベースダンプの両方が含まれます。 データは、CSV または Excel XML ファイルにエクスポートできます。
 
-![システム – データコレクター](./assets/data-collector.png){width="600" zoomable="yes"}
+![ システム – データコレクター ](./assets/data-collector.png){width="600" zoomable="yes"}
 
 ### データコレクターの実行
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**.
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL Data Collector]**に移動します。
 
-1. 右上隅のをクリックします。 **[!UICONTROL New Backup]**.
+1. 右上隅の「**[!UICONTROL New Backup]**」をクリックします。
 
-   バックアップの生成には数分かかります。 処理の結果を監視するには、次のボタンをクリックします。 **[!UICONTROL Refresh Status]**. 完了すると、バックアップがに表示されます _[!UICONTROL Data Collector]_グリッド。
+   バックアップの生成には数分かかります。 「**[!UICONTROL Refresh Status]**」をクリックすると、処理の結果を監視できます。 完了すると、バックアップが _[!UICONTROL Data Collector]_グリッドに表示されます。
 
 1. バックアップの詳細を含むログを表示するには、次の手順を実行します。
 
-   - が含まれる _[!UICONTROL Action]_列、選択&#x200B;**[!UICONTROL Show Log]**.
+   - 「_[!UICONTROL Action]_」列で「**[!UICONTROL Show Log]**」を選択します。
 
-   - クリック **[!UICONTROL Back]** をクリックしてグリッドに戻ります。
+   - **[!UICONTROL Back]** をクリックしてグリッドに戻ります。
 
-   ![データ コレクタ ログ](./assets/data-collector-log.png){width="600" zoomable="yes"}
+   ![ データ コレクタ ログ ](./assets/data-collector-log.png){width="600" zoomable="yes"}
 
 ### バックアップデータの書き出し
 
 1. 最初の列で、エクスポートするバックアップのチェックボックスを選択します。
 
-1. の使用 **[!UICONTROL Export]** メニューを使用して、エクスポートデータの形式を選択します。
+1. **[!UICONTROL Export]** メニューを使用して、エクスポートデータの形式を選択します。
 
-   ![書き出し形式](./assets/data-collector-export.png){width="600" zoomable="yes"}
+   ![ 書き出しフォーマット ](./assets/data-collector-export.png){width="600" zoomable="yes"}
 
-1. Web ブラウザーのダウンロード場所からファイルにアクセスし、 **[!UICONTROL Save]** それ。
+1. Web ブラウザーのダウンロード場所からファイルにアクセスして **[!UICONTROL Save]** きます。
 
 ### バックアップデータのダウンロード
 
@@ -53,21 +53,21 @@ ht-degree: 0%
 
 1. グリッド内で必要なバックアップ図形を見つけます。
 
-1. 次が含まれていることを確認します `Complete` ステータス。
+1. ステータスが `Complete` であることを確認します。
 
-1. でエンティティ名をクリックします。 _[!UICONTROL Code Dump]_または_[!UICONTROL DB Dump]_ 列。
+1. _[!UICONTROL Code Dump]_列または_[!UICONTROL DB Dump]_ 列のエンティティ名をクリックします。
 
 ダウンロードプロセスが自動的に開始します。
 
 ## バックアップデータの削除
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**.
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL Data Collector]**に移動します。
 
 1. 削除するバックアップデータを検索して選択します。
 
-1. が含まれる _[!UICONTROL Action]_列、クリック&#x200B;**[!UICONTROL Delete]**.
+1. 「_[!UICONTROL Action]_」列で「**[!UICONTROL Delete]**」をクリックします。
 
-1. アクションを確定するには、 **[!UICONTROL OK]**.
+1. アクションを確定するには、「**[!UICONTROL OK]**」をクリックします。
 
 ## システムレポート
 
@@ -77,19 +77,19 @@ ht-degree: 0%
 
 ### システムレポートへのアクセス
 
-日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**.
+_管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL System Report]**に移動します。
 
-![管理者 – システムレポート](./assets/reports.png){width="600" zoomable="yes"}
+![ 管理者 – システムレポート ](./assets/reports.png){width="600" zoomable="yes"}
 
 ### レポートの生成
 
-1. クリック **[!UICONTROL New Report]**.
+1. 「**[!UICONTROL New Report]**」をクリックします。
 
-1. が含まれる **[!UICONTROL Groups]** リストで、レポートに含める情報の各セットを選択します。 デフォルトでは、すべてのグループが選択されます。
+1. **[!UICONTROL Groups]** リストで、レポートに含める情報のセットを選択します。 デフォルトでは、すべてのグループが選択されます。
 
-   ![システムレポート – グループを選択](./assets/report-create.png){width="600" zoomable="yes"}
+   ![ システムレポート – グループを選択 ](./assets/report-create.png){width="600" zoomable="yes"}
 
-1. 右上隅のをクリックします。 **[!UICONTROL Create]**.
+1. 右上隅の「**[!UICONTROL Create]**」をクリックします。
 
    選択したレポートタイプの数によっては、レポートの生成に数分かかることがあります。 レポートの準備が整うと、生成された日時と共にグリッドの上部に表示されます。
 
@@ -99,44 +99,44 @@ ht-degree: 0%
 
 **_インストールされている各モジュールのレポート情報を表示するには：_**
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**.
-1. クリック **[!UICONTROL New Report]**.
-1. を選択 `Modules` から **[!UICONTROL Groups]** リスト。
-1. クリック **[!UICONTROL Create]**.
-1. レポートが生成されたら、 **[!UICONTROL Select]** その後 **[!UICONTROL View]** をクリックして、すべてのモジュールバージョンを表示します。
-1. クリック **[!UICONTROL Download]** レポートをダウンロードします。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL System Report]**に移動します。
+1. 「**[!UICONTROL New Report]**」をクリックします。
+1. リストから `Modules` を選 **[!UICONTROL Groups]** します。
+1. 「**[!UICONTROL Create]**」をクリックします。
+1. レポートが生成されたら、**[!UICONTROL Select]** をクリックし、**[!UICONTROL View]** をクリックして、すべてのモジュールバージョンを表示します。
+1. 「**[!UICONTROL Download]**」をクリックして、レポートをダウンロードします。
 
 ### システムレポートの管理
 
-が含まれる **[!UICONTROL Action]** グリッドの列で、次のいずれかを選択します。
+グリッドの「**[!UICONTROL Action]**」列で、次のいずれかを選択します。
 
-- `View`  – この関数を使用して、レポートの詳細を表示します。
-- `Delete`  – この関数を使用して、生成されたレポートをリストから削除します。
-- `Download`  – この関数を使用して、レポートをHTMLファイルとして保存します。
+- `View` – この関数を使用して、レポートの詳細を表示します。
+- `Delete` – この関数を使用して、生成されたレポートをリストから削除します。
+- `Download` – この関数を使用して、レポートをHTMLファイルとして保存します。
 
 ### システムレポートの詳細の表示
 
-1. 必要なレポートで、 **[!UICONTROL View]** が含まれる _[!UICONTROL Actions]_列。
+1. 必要なレポートの _[!UICONTROL Actions]_列で「**[!UICONTROL View]**」を選択します。
 
-1. 左側のパネルで、を展開します ![展開セレクター](../assets/icon-display-expand.png) 詳細を表示するレポートの各セクション。
+1. 左側のパネルで ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、レポートの各セクションで詳細を表示します。
 
-   ![一般的なシステムレポート情報](./assets/report-information.png){width="600" zoomable="yes"}
+   ![ システムレポートの一般情報 ](./assets/report-information.png){width="600" zoomable="yes"}
 
 ### 使用可能なシステムレポート
 
 | レポートグループ | 含まれる情報 |
 | ------------ | -------------------- |
-| [!UICONTROL General] | Adobe Commerceのバージョン<br>データ数<br>キャッシュステータス<br>インデックスステータス |
-| [!UICONTROL Environment] | 環境情報<br>MySQL ステータス |
-| [!UICONTROL Data] | URL キー別に重複するカテゴリ<br>URL キーで製品を複製<br>SKU 別に製品を複製<br>増分 Id による重複注文<br>メールでユーザーを複製<br>カテゴリデータの破損 |
-| [!UICONTROL Modules] | カスタムモジュールリスト<br>無効なモジュール リスト<br>すべてのモジュールリスト |
-| [!UICONTROL Configuration] | 設定<br>からのデータ `app/etc/env.php`<br>発送方法<br>支払い方法<br>支払機能マトリックス |
-| [!UICONTROL Logs] | ログファイル<br>上位のシステムメッセージ<br>今日の上位のシステムメッセージ<br>上位のデバッグメッセージ<br>今日の上位のデバッグメッセージ<br>上位の例外メッセージ<br>今日の上位の例外メッセージ |
-| [!UICONTROL Attributes] | ユーザー定義の EAV 属性<br>新しい EAV 属性<br>エンティティタイプ<br>すべての EAV 属性<br>カテゴリ EAV 属性<br>製品 EAV 属性<br>顧客 EAV 属性<br>顧客の住所 EAV 属性<br>RMA 品目 EAV 属性 |
-| [!UICONTROL Events] | カスタムグローバルイベント<br>カスタム管理イベント<br>カスタムフロントエンドイベント<br>カスタム ドキュメント イベント<br>カスタム Crontab イベント<br>カスタム REST イベント<br>カスタム SOAP イベント<br>主要なグローバルイベント<br>コア管理イベント<br>コアフロントエンドイベント<br>コアドキュメントイベント<br>コア Crontab イベント<br>コア REST イベント<br>コア SOAP イベント<br>すべてのグローバル イベント<br>すべての管理イベント<br>すべてのフロントエンドイベント<br>すべてのドキュメント イベント<br>すべての REST イベント<br>すべての SOAP イベント<br>すべての Crontab イベント |
-| [!UICONTROL Cron] | ステータスコード別 Cron スケジュール<br>ジョブコード別の Cron スケジュール<br>Cron スケジュールキューのエラー<br>Cron スケジュールリスト<br>カスタム Global Cron ジョブ<br>カスタム設定可能な Cron ジョブ<br>コア Global Cron ジョブ<br>コア設定可能な Cron ジョブ<br>すべての Global Cron ジョブ<br>設定可能なすべての Cron ジョブ |
-| [!UICONTROL Design] | Adminhtml テーマリスト<br>フロントエンドテーマリスト |
-| [!UICONTROL Stores] | Web サイトツリー<br>Web サイトリスト<br>ストアリスト<br>表示リストの保存 |
-| OMS コネクタ&#x200B;<br>_（OMS 統合で表示）_ | コネクタのバージョン<br>コネクタの監視<br>メッセージ処理の結果 |
+| [!UICONTROL General] | Adobe Commerceのバージョン <br> データ数 <br> キャッシュステータス <br> インデックスステータス |
+| [!UICONTROL Environment] | 環境情報 <br>MySQL ステータス |
+| [!UICONTROL Data] | URL キーによる重複カテゴリ <br>URL キーによる重複製品 <br>SKU による重複製品 <br> 増分による重複注文 <br> メールによる重複ユーザー <br> 破損したカテゴリデータ |
+| [!UICONTROL Modules] | カスタムモジュール一覧 <br> 無効なモジュール一覧 <br> すべてのモジュール一覧 |
+| [!UICONTROL Configuration] | 構成 <br> 出荷方法 `app/etc/env.php`<br> 支払方法 <br> 支払機能マトリックスからのデータ <br> 支払機能 |
+| [!UICONTROL Logs] | ログファイル <br> 上位のシステムメッセージ <br> 今日の上位のシステムメッセージ <br> 上位のデバッグメッセージ <br> 今日の上位のデバッグメッセージ <br> 上位の例外メッセージ <br> 今日の上位の例外メッセージ |
+| [!UICONTROL Attributes] | ユーザー定義 EAV 属性 <br> 新規 EAV 属性 <br> エンティティ・タイプ <br> すべての EAV 属性 <br> カテゴリ EAV 属性 <br> 製品 EAV 属性 <br> 顧客 EAV 属性 <br> 顧客アドレス EAV 属性 <br>RMA 品目 EAV 属性 |
+| [!UICONTROL Events] | カスタムのグローバルイベント <br> カスタム管理イベント <br> カスタムのフロントエンドイベント <br> カスタムのドキュメントイベント <br> カスタム Crontab イベント <br> カスタム SOAP イベント <br> カスタム イベント <br> コアのグローバルイベント <br> コア管理イベント <br> コア Crontend イベント <br> コア Crontab イベント <br> コア REST イベント <br> コア SOAP イベント <br> すべてのグローバルイベント <br><br> すべての管理イベント <br> すべてのフロントエンドイベント <br> すべてのドキュメントイベント <br> すべての REST イベント <br> すべてのSOAP イベント <br> すべての Crontab イベント |
+| [!UICONTROL Cron] | ステータスコード別の Cron スケジュール <br> ジョブコード別の Cron スケジュール <br>Cron スケジュールキューのエラー <br>Cron スケジュールリスト <br> カスタムグローバル Cron ジョブ <br> カスタム設定可能な Cron ジョブ <br> コアグローバル Cron ジョブ <br> コア設定可能な Cron ジョブ <br> すべてのグローバル Cron ジョブ <br> すべての設定可能な Cron ジョブ |
+| [!UICONTROL Design] | Adminhtml テーマリスト <br> フロントエンドテーマリスト |
+| [!UICONTROL Stores] | Web サイトツリー <br>Web サイトのリスト <br> ストアのリスト <br> ストアの表示リスト |
+| OMS コネクタ <br>_（OMS 統合で表示）_ | コネクタのバージョン <br> コネクタの監視 <br> メッセージの処理結果 |
 
 {style="table-layout:auto"}

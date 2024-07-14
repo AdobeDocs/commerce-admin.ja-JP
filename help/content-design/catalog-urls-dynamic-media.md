@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Dynamic Media の URL
 
-Dynamic Media URL は、画像またはその他のメディアアセットへの相対参照です。 有効にすると、Dynamic Media の URL を使用して、サーバー上のアセットまたはに保存されたファイルに直接リンクできます [コンテンツ配信ネットワーク](media-storage-content-delivery-network.md). Dynamic Media の URL を使用すると、カタログのパフォーマンスに影響する可能性があり、 [エディター](editor.md#configure-the-editor) は、静的 URL または Dynamic Media URL を使用するように設定できます。
+Dynamic Media URL は、画像またはその他のメディアアセットへの相対参照です。 有効にすると、Dynamic Media URL を使用して、サーバー上のアセットや、（コンテンツ配信ネットワーク [ に保存されたファイルに直接リンクでき ](media-storage-content-delivery-network.md) す。 Dynamic Media URL を使用すると、カタログのパフォーマンスに影響を与える可能性があり、静的 URL または Dynamic Media URL を使用するように [ エディター ](editor.md#configure-the-editor) を設定できます。
 
-他と同様 [マークアップ タグ](../systems/markup-tags.md)、ディレクティブは二重の中括弧で囲まれています。 Dynamic Media URL の形式は次のようになります。
+すべての [ マークアップタグ ](../systems/markup-tags.md) と同様に、ディレクティブは二重の中括弧で囲まれています。 Dynamic Media URL の形式は次のようになります。
 
 `\{\{media url="path/to/image.jpg"}}`
 
-動的 URL ディレクティブは、ページがストアフロントでレンダリングされる際に、保存されたHTMLコンテンツから処理されます。 ページがレンダリングされるたびに、コンテンツがスキャンされます `\{\{media url="..."}}` 各ディレクティブは、対応するメディア URL に置き換えられます。
+動的 URL ディレクティブは、ページがストアフロントでレンダリングされる際に、保存されたHTMLコンテンツから処理されます。 ページがレンダリングされるたびに、コンテンツの `\{\{media url="..."}}` がスキャンされ、各ディレクティブが対応するメディア URL に置き換えられます。
 
 {{$include /help/_includes/directives-caution.md}}
 
@@ -26,18 +26,18 @@ Dynamic Media URL は、画像またはその他のメディアアセットへ�
 
 デフォルトでは、WYSIWYG エディターからカタログに挿入された画像には、相対的な動的 URL が割り当てられます。 静的 URL を使用する場合は、設定を変更できます。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. の下の左パネルで _[!UICONTROL General]_、を選択&#x200B;**[!UICONTROL Content Management]**.
+1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL WYSIWYG Options]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL WYSIWYG Options]**」セクションを展開します。
 
-   ![WYSIWYG オプション](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+   ![WYSIWYG オプション ](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
 
-1. を設定 **[!UICONTROL Use Static URLs for Media Content in WYSIWYG]** を次のいずれかに変更します。
+1. **[!UICONTROL Use Static URLs for Media Content in WYSIWYG]** を次のいずれかに設定します。
 
-   - `Yes` - WYSIWYG エディターで挿入されるメディアコンテンツに静的 URL を使用します。 静的 URL は絶対 URL で、 [ベース URL](../stores-purchase/store-urls.md) ストアの変更。
+   - `Yes` - WYSIWYG エディターで挿入されるメディアコンテンツに静的 URL を使用します。 静的 URL は絶対 URL で、ストアの [ ベース URL](../stores-purchase/store-urls.md) が変更された場合は壊れます。
 
-   - `No`  – （デフォルト）に基づいて、WYSIWYG エディターで挿入されたメディアコンテンツに動的 URL を使用します `\{\{media url="..."}}` ディレクティブ。 動的 URL は相対 URL で、ストアのベース URL が変更された場合でも破損しません。
+   - `No` – （デフォルト） `\{\{media url="..."}}` ディレクティブに基づいて、WYSIWYG エディターで挿入されたメディアコンテンツに動的 URL を使用します。 動的 URL は相対 URL で、ストアのベース URL が変更された場合でも破損しません。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

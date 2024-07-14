@@ -1,5 +1,5 @@
 ---
-title: '"設定 [!DNL Inventory Management] バックオーダー」'
+title: "Configure [!DNL Inventory Management] backorders"
 description: 在庫切れ製品の販売をサポートするためのバックオーダーを設定する方法を説明します。
 exl-id: 2fe778df-781e-4cda-8b85-47cf973c9e94
 feature: Inventory, Orders
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# 設定 [!DNL Inventory Management] バックオーダー
+# [!DNL Inventory Management] 件のバックオーダーの設定
 
 バックオーダーを使用すると、数量がゼロに達した後や、事実上在庫切れになった後も、店舗で製品を販売し続けることができます。 顧客の注文がバックオーダーの場合、資金は直ちに承認および取得され、注文の処理ステータスは変更されず、在庫が利用可能になるまで出荷は保留中のままになります。
 
 店舗や売上に応じて、次のレベルでバックオーダーを有効または無効にできます。
 
-- **[!UICONTROL Global]** - カタログ内のすべての製品（サイトレベル）
+- **[!UICONTROL Global]** - サイト レベルでのカタログ内のすべての製品
 
 - **[!UICONTROL Product]** - サイト、ソース、在庫の設定を上書きする特定の製品
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 このしきい値に負の値を使用して、商品が実際に在庫切れと見なされるまでの間にバックオーダー可能な商品の最大数量を設定します。 この金額は売れる量に加算されます。 製品レベルで設定された値は、グローバルレベルで設定された値を上書きします。
 
-販売可能数量の式は次のとおりです `(Quantity - (Out-of-Stock Threshold))`.
+販売可能数量の式は `(Quantity - (Out-of-Stock Threshold))` です。
 
 以下は例です。
 
@@ -37,17 +37,17 @@ ht-degree: 0%
 - X 左スレッショルドのみ：5
 - 在庫切れのしきい値：-50
 
-この商品の販売可能数量は `75 (25 - (-50))`.
+この商品の販売可能数量は `75 (25 - (-50))` です。
 
-![バックオーダーが有効化される前の販売可能数量の例](assets/inventory-backorders-before.png){width="600" zoomable="yes"}
+![ バックオーダーが有効化される前の販売可能数量の例 ](assets/inventory-backorders-before.png){width="600" zoomable="yes"}
 
-![バックオーダーが有効化された後の販売可能数量の例](assets/inventory-backorders-after.png){width="600" zoomable="yes"}
+![ バックオーダーが有効化された後の販売可能数量の例 ](assets/inventory-backorders-after.png){width="600" zoomable="yes"}
 
-顧客が使用可能な 25 個の製品を購入すると、新規オーダーはバックオーダーとして入力されます。 商品の販売可能数量が 5 に減少する（70 点販売済み）と、 _製品_ ページにメッセージが表示される `Only 5 left` 店先で。 販売可能数量に達した場合 `0`製品は次のように表示されます `Out of Stock` 店の前で。
+顧客が使用可能な 25 個の製品を購入すると、新規オーダーはバックオーダーとして入力されます。 製品の販売可能数量が 5 に減ると（70 個の品目が販売されました）、「_製品_」ページにストアフロントにメッセージ `Only 5 left` が表示されます。 販売可能数量が `0` に達すると、製品はストアフロントに `Out of Stock` として表示されます。
 
 >[!NOTE]
 >
->顧客がを使用して注文する場合 _[!UICONTROL backorder qty]_, [!DNL Inventory Management] 販売可能数量から数量が自動的に減算されます。 注文が出荷されず、キャンセルされた場合、その数量は集計された仮想販売可能数量に戻されます。 この&#x200B;**_キャンセル済み注文数量がどのソースにも割り当てられていません_**ただし、は販売できる製品の合計数（_[!UICONTROL Salable Quantity]_ 列（製品グリッド上）
+>顧客が _[!UICONTROL backorder qty]_を使用して注文すると、[!DNL Inventory Management] は販売可能な数量から数量を自動的に減算します。 注文が出荷されず、キャンセルされた場合、その数量は集計された仮想販売可能数量に戻されます。**_キャンセル済み注文数量はどのソースにも割り当てられていません_**が、販売できる商品の合計数（商品グリッドの_[!UICONTROL Salable Quantity]_ 列）に返されます。
 
 <!--### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
 
@@ -55,21 +55,21 @@ The _Notify for Quantity Below_ configuration option is configurable at the glob
 
 ### 在庫ステータス
 
-製品はに設定する必要があります `In Stock` バックオーダーを有効にする際のステータス。 この値は、 _製品_ ページ。 マルチソースマーチャントの場合、としてマークされたソースが少なくとも 1 つ必要です。 `In Stock`. へのアクセスとステータスの設定 _製品_ ページして割り当て済み _ソース_ グリッド。
+バックオーダーを有効にする場合は、製品を `In Stock` ステータスに設定する必要があります。 この値は、_製品_ ページから設定できます。 マルチソースマーチャントの場合、`In Stock` とマークされたソースが少なくとも 1 つ必要です。 _製品_ ページと割り当てられた _ソース_ グリッドからステータスにアクセスして設定します。
 
 ## バックオーダーのグローバルな設定
 
 これらのステップにより、サイト・レベルですべての製品のバックオーダーが可能になります。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. を設定 **[!UICONTROL Store View]** 対象： `Default Config`.
+1. **[!UICONTROL Store View]** を `Default Config` に設定します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Catalog]** を選択します **[!UICONTROL Inventory]**.
+1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、「**[!UICONTROL Inventory]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) **[!UICONTROL Product Stock Options]**.
+1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Product Stock Options]** を展開します。
 
-1. の場合 **[!UICONTROL Backorders]**、選択を解除 **[!UICONTROL Use system value]** チェックボックスをオンにしてオプションを選択します。
+1. **[!UICONTROL Backorders]** の場合は、「**[!UICONTROL Use system value]**」チェックボックスの選択を解除し、オプションを選択します。
 
    | オプション | 説明 |
    | -- | -- |
@@ -77,31 +77,31 @@ The _Notify for Quantity Below_ configuration option is configurable at the glob
    | `Allow Qty Below 0` | 数量がゼロを下回った場合にバックオーダーを受け入れること。 |
    | `Allow Qty Below 0 and Notify Customer` | 数量がゼロを下回った場合にバックオーダーを受け入れ、顧客に対してオーダーがまだ発注可能であることを通知します。 |
 
-1. の場合 **[!UICONTROL Out-of-Stock Threshold]**、選択を解除 **[!UICONTROL Use system value]** チェックボックスをオンにして、別の量を入力します。
+1. **[!UICONTROL Out-of-Stock Threshold]** の場合は、「**[!UICONTROL Use system value]**」チェックボックスの選択を解除して、別の金額を入力します。
 
    | 値 | 説明 |
    | -- | -- |
    | 正の金額 | 「バックオーダー」を使用不可にした状態で、正の値を入力します。 |
-   | ゼロ | バックオーダーが使用可能な場合、次のように入力します `0` 無制限のバックオーダーが可能になります。 |
-   | マイナスの金額 | 「バックオーダー」を使用可能にする場合は、マイナスの値を入力することをお薦めします。 金額は販売可能数量に追加されます。 例えば、 `-50` この金額までの注文を許可します。 |
+   | ゼロ | 「バックオーダー」が使用可能になっている場合は、`0` と入力すると無限バックオーダーが可能になります。 |
+   | マイナスの金額 | 「バックオーダー」を使用可能にする場合は、マイナスの値を入力することをお薦めします。 金額は販売可能数量に追加されます。 例えば、この金額までの注文を許可するには、「`-50`」と入力します。 |
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。
 
 ## 商品のバックオーダーの設定
 
 製品レベルの設定は、グローバル設定よりも優先されます。 グローバル店舗またはソース レベルの設定を上書きするために、製品レベルでバックオーダーを構成できます。 例えば、店舗はバックオーダーをグローバルにサポートしている場合があります。 製品設定を使用すると、他の製品やソースに影響を与えることなく、バックオーダーを無効にしたり、在庫切れのしきい値を変更したりできます。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
-1. で製品を開く **[!UICONTROL Edit]** をモードにし、ページを下にスクロールして「」を表示します。 _[!UICONTROL Sources]_領域。
+1. 製品を **[!UICONTROL Edit]** モードで開き、ページを下にスクロールして _[!UICONTROL Sources]_領域に移動します。
 
-   を指定せずに設定した製品の場合 [!DNL Inventory Management]この場合、「」タブは表示されません。 この `Advanced Inventory` ボタンは以下に表示されます _[!UICONTROL Quantity]_フィールド。
+   [!DNL Inventory Management] を使用せずに設定された製品の場合、タブは表示されません。 「`Advanced Inventory`」ボタンが「_[!UICONTROL Quantity]_」フィールドの下に表示されます。
 
-1. クリック **[!UICONTROL Advanced Inventory]**.
+1. 「**[!UICONTROL Advanced Inventory]**」をクリックします。
 
-   製品固有の設定のページを表示します。 としてリストされた設定 `global` ストアの現在のグローバル設定を表示します。
+   製品固有の設定のページを表示します。 `global` としてリストされた設定は、ストアの現在のグローバル設定を表示します。
 
-1. の場合 **[!UICONTROL Backorders]**、選択を解除 **[!UICONTROL Use Config Setting]** チェックボックスをオンにしてオプションを選択します。
+1. **[!UICONTROL Backorders]** の場合は、「**[!UICONTROL Use Config Setting]**」チェックボックスの選択を解除し、オプションを選択します。
 
    | オプション | 説明 |
    | -- | -- |
@@ -109,14 +109,14 @@ The _Notify for Quantity Below_ configuration option is configurable at the glob
    | `Allow Qty Below 0` | 数量がゼロを下回った場合にバックオーダーを受け入れること。 |
    | `Allow Qty Below 0 and Notify Customer` | 数量がゼロを下回った場合にバックオーダーを受け入れ、顧客に対してオーダーを引き続き発注できる旨を通知する。 |
 
-1. の場合 **[!UICONTROL Out-of-Stock Threshold]**、選択を解除 **[!UICONTROL Use Config Setting]** チェックボックスをオンにして金額を入力します。
+1. **[!UICONTROL Out-of-Stock Threshold]** の場合は、「**[!UICONTROL Use Config Setting]**」チェックボックスの選択を解除して金額を入力します。
 
    | 値 | 説明 |
    | -- | -- |
    | 正の金額 | 「バックオーダー」を使用不可にした状態で、正の値を入力します。 |
-   | ゼロ | バックオーダーが使用可能な場合、次のように入力します `0` 無制限のバックオーダーが可能になります。 |
-   | マイナスの金額 | 「バックオーダー」を使用可能にする場合は、マイナスの値を入力することをお薦めします。 金額は販売可能数量に追加されます。 例えば、 `-50` その金額までの注文を許可します。 |
+   | ゼロ | 「バックオーダー」が使用可能になっている場合は、`0` と入力すると無限バックオーダーが可能になります。 |
+   | マイナスの金額 | 「バックオーダー」を使用可能にする場合は、マイナスの値を入力することをお薦めします。 金額は販売可能数量に追加されます。 例えば、`-50` と入力すると、その金額を上限とする注文が許可されます。 |
 
-   ![バックオーダー用に設定された事前在庫](assets/inventory-backorders-product-settings.png){width="600" zoomable="yes"}
+   ![ バックオーダー用に構成された事前在庫 ](assets/inventory-backorders-product-settings.png){width="600" zoomable="yes"}
 
-1. クリック **[!UICONTROL Done]**、次に **[!UICONTROL Save]**.
+1. 「**[!UICONTROL Done]**」をクリックし、「**[!UICONTROL Save]**」をクリックします。

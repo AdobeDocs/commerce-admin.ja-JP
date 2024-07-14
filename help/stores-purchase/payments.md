@@ -16,21 +16,21 @@ Adobe CommerceとMagento Open Sourceは、お客様がチェックアウトを�
 
 >[!TIP]
 >
->Adobe CommerceおよびMagento Open Source向け支払いサービスは、堅牢で安全な支払い処理を提供するために、サンドボックステストやシンプルなセットアップなどのターンキーセルフサービスソリューションを提供します。 この強力なツールセットの詳細と、購入者にとって最適なエクスペリエンスを作成するために必要なインサイトと制御を提供する方法については、 [支払いサービスユーザーガイド](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+>Adobe CommerceおよびMagento Open Source向け支払いサービスは、堅牢で安全な支払い処理を提供するために、サンドボックステストやシンプルなセットアップなどのターンキーセルフサービスソリューションを提供します。 この強力なツールセットの詳細と、購入者にとって最適なエクスペリエンスを作成するために必要なインサイトと制御を提供する方法については、[ 支払いサービスユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) を参照してください。
 
 >[!NOTE]
 >
->をレビュー [PCI コンプライアンスガイドライン](../getting-started/compliance-pci.md) インターネット上でクレジットカードによる支払いを受け付ける企業に対して、Payment Card Industry （PCI）によって設定された要件の概要を説明します。
+>インターネット経由でクレジットカードによる支払いを受け付ける企業の場合、Payment Card Industry （PCI）が設定した要件の概要を説明した [PCI 準拠ガイドライン ](../getting-started/compliance-pci.md) を確認します。
 
 ## 2.4 の変更点
 
-一部の支払い統合およびバンドルされた拡張機能は、2.4.x リリースで削除され、Commerce Marketplaceに移行されました。 最新の公式の支払い統合拡張機能については、こちらを参照してください。 [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target=&quot;_blank&quot;}。
+一部の支払い統合およびバンドルされた拡張機能は、2.4.x リリースで削除され、Commerce Marketplaceに移行されました。 最新の公式の支払い統合拡張機能については、[Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target=&quot;_blank&quot;} をご覧ください。
 
-- **Amazon ペイ** および **クラルナ**:Adobe CommerceおよびMagento Open Sourceリリース 2.4.0 から 2.4.3 には、これらのベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、これらの拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 また、Marketplace では、拡張機能開発者が提供する最新のドキュメントにもアクセスできます。
+- **Amazon Pay** および **Klarna**: Adobe CommerceおよびMagento Open Sourceリリース 2.4.0 から 2.4.3 には、これらのベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、これらの拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 また、Marketplace では、拡張機能開発者が提供する最新のドキュメントにもアクセスできます。
 
-  これらのバンドルされた拡張機能のいずれかが有効になって設定されている場合、2.4.4 のアップグレードプロセスの一環として composer.json ファイルを更新し、今後、拡張機能の更新を管理する必要があります。 参照： [アップグレードモジュール](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) が含まれる _アップグレードガイド_ を参照してください。
+  これらのバンドルされた拡張機能のいずれかが有効になって設定されている場合、2.4.4 のアップグレードプロセスの一環として composer.json ファイルを更新し、今後、拡張機能の更新を管理する必要があります。 詳しくは、『 [ アップグレードガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) の _アップグレードモジュール_ を参照してください。
 
-- **Worldpay**, **Eway**, **CyberSource**、および **Authorize.Net**：これらの支払い統合から安全に移行する方法について詳しくは、 [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target=&quot;_blank&quot;}。
+- **Worldpay**、**Eway**、**CyberSource**、**Authorize.Net**：これらの支払い統合から安全に移行する方法について詳しくは、[DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target=&quot;_blank&quot;} を参照してください。
 
 ## オフラインの支払方法
 
@@ -41,7 +41,7 @@ Adobe CommerceとMagento Open Sourceには、サードパーティの支払い�
 - [銀行振込による支払い](bank-transfer.md)
 - [小切手/送金](check-money-order.md)
 - [注文書](purchase-order.md)
-- [分割払い](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能）
+- [ 分割払い ](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で利用可能）
 
 ## オンライン支払方法
 
@@ -49,13 +49,13 @@ Adobe CommerceとMagento Open Sourceは、世界中のマーチャントサー�
 
 ### 推奨されるソリューション
 
-- [支払いサービス](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
+- [ 資金決済 ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
 - [PayPal Express チェックアウト](paypal-express-checkout.md)
 - [Braintree](braintree.md)
 
 ### その他の PayPal 支払いソリューション
 
-参照： [PayPal 支払いソリューション](paypal.md) paypal の支払い方法オプションの詳細については、こちらを参照してください。
+PayPal 支払い方法のオプションについて詳しくは、[PayPal 支払いソリューション ](paypal.md) を参照してください。
 
 #### オールインワン PayPal ソリューション
 
@@ -74,14 +74,14 @@ Adobe CommerceとMagento Open Sourceは、世界中のマーチャントサー�
 
 - [PayPal 不正管理フィルター](paypal.md#paypal-fraud-management-filters)
 
-- [Marketplace の不正対策ソリューション][1]
+- [Marketplace の不正防止ソリューション ][1]
 
 >[!NOTE]
 >
->セキュリティコンプライアンスに関するアップデートをサポートするために、2.4.0 リリース以降、Signifyd の不正対策はCommerceから削除されました。 2.3.x 以前のリリースで Signifyd 統合を使用している場合は、に移行することをお勧めします。 [Signifyd Fraud &amp; Chargeback Protection 拡張機能](https://marketplace.magento.com/signifyd-module-connect.html){:target=&quot;_blank&quot;}。 ベンダーのガイドラインに従って、拡張機能のアップデートを維持してください。
+>セキュリティコンプライアンスに関するアップデートをサポートするために、2.4.0 リリース以降、Signifyd の不正対策はCommerceから削除されました。 2.3.x 以前のリリースで Signifyd の統合を使用している場合は、{Signifyd Fraud &amp; Chargeback Protection 拡張機能 [{:target=&quot;_blank&quot;} に移行することを ](https://marketplace.magento.com/signifyd-module-connect.html) 勧めします。 ベンダーのガイドラインに従って、拡張機能のアップデートを維持してください。
 
 ## リソースのトラブルシューティング
 
-支払いに関する問題のトラブルシューティングについて詳しくは、 [サポートナレッジベース](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=en).
+支払いに関する問題のトラブルシューティングについて詳しくは、[ サポートナレッジベース ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=en) を参照してください。
 
 [1]: https://marketplace.magento.com/catalogsearch/result?q=fraud%20protection

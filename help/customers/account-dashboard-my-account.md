@@ -1,6 +1,6 @@
 ---
-title: “[!UICONTROL My Account] ページ"
-description: この [!UICONTROL My Account] 顧客ダッシュボードのページでは、ストアに関連する顧客の情報やアクティビティの概要を顧客に提供します。
+title: "[!UICONTROL My Account] ページ"
+description: 顧客ダッシュボードの [!UICONTROL My Account] ページには、顧客に、ストアに関連する情報やアクティビティの概要が表示されます。
 exl-id: 01413b6b-ce32-4284-ae29-0fadf6ed22ca
 feature: Customers, Storefront
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Account] ページ
 
-この **[!UICONTROL My Account]** 顧客ダッシュボードのページでは、ストアに関連する顧客の情報やアクティビティの概要を顧客に提供します。
+顧客ダッシュボードの **[!UICONTROL My Account]** ページには、顧客に、ストアに関連する情報やアクティビティの概要が表示されます。
 
 このページは、次のセクションで構成されます。
 
@@ -21,4 +21,4 @@ ht-degree: 0%
 * [**[!UICONTROL My Recent Reviews]**](../merchandising-promotions/product-reviews.md#product-reviews-on-the-storefront)
 * [**[!UICONTROL Recent Orders]**](../stores-purchase/orders-storefront.md#view-recently-ordered-products)
 
-![ストアフロントのマイアカウントページ](assets/account-dashboard-my-account.png){width="700" zoomable="yes"}
+![ ストアフロントのマイアカウントページ ](assets/account-dashboard-my-account.png){width="700" zoomable="yes"}

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 このオプションを使用すると、1 つ以上の製品、在庫を移動する移動元ソース、および数量を受け入れる移動先ソースを選択できます。
 
-- 在庫数量、ソース品目ステータス（在庫中/在庫切れ）、および選択したソースの通知数量が製品ごとに移動されます。
+- 在庫数量、Source品目ステータス（在庫中/在庫切れ）、および選択したソースの通知数量が製品ごとに移動されます。
 
 - 製品にそのソースがない場合は、スキップされます。
 
@@ -30,26 +30,26 @@ ht-degree: 0%
 
 {{$include /help/_includes/unassign-source.md}}
 
-![在庫を別のソースに転送](assets/inventory-bulk-transfer-source.gif)
+![ 在庫を別のソースに転送 ](assets/inventory-bulk-transfer-source.gif)
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
 1. ソースを変更する製品を選択します。
 
    製品を参照または検索して検索し、転送するチェックボックスを選択します。
 
-1. 「」をクリックします **[!UICONTROL Actions]** 上部のメニューからを選択します。 **[!UICONTROL Transfer Inventory to Source]**.
+1. 上部の「**[!UICONTROL Actions]**」メニューをクリックし、「**[!UICONTROL Transfer Inventory to Source]**」を選択します。
 
-1. クリック **[!UICONTROL OK]** 確認ダイアログで、次の手順を実行します。
+1. 確認ダイアログで「**[!UICONTROL OK]**」をクリックします。
 
-1. 新しい宛先に製品を転送するには、転送元（_[!UICONTROL from]_） ソース。
+1. 製品を新しい宛先に転送するには、転送元（_[!UICONTROL from]_）のソースを選択します。
 
-1. 製品を新しい宛先に転送するには、宛先（_[!UICONTROL to]_） ソース。
+1. 製品を新しい宛先に転送するには、宛先（_[!UICONTROL to]_）ソースを選択します。
 
-1. 製品からソースを削除するには、オプションのチェックボックスを選択します **[!UICONTROL Unassign from origin source after transfer]**.
+1. 製品からソースを削除するには、**[!UICONTROL Unassign from origin source after transfer]** のオプションのチェックボックスを選択します。
 
-   ![転送元と転送先を選択](assets/inventory-bulk-transfer-summary.png){width="600" zoomable="yes"}
+   ![ 転送元と転送先を選択 ](assets/inventory-bulk-transfer-summary.png){width="600" zoomable="yes"}
 
-1. クリック **[!UICONTROL Transfer Inventory]**.
+1. 「**[!UICONTROL Transfer Inventory]**」をクリックします。
 
    すべての製品数量が搬送元ソースから差し引かれ、搬送先ソースに追加されます。 「数量」と「販売可能数量」が自動的に更新されます。

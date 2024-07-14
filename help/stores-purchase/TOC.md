@@ -23,7 +23,7 @@ ht-degree: 3%
    + [ビューを保存](store-views.md)
    + [ストアのローカリゼーション](store-localize.md)
    + [URL を格納](store-urls.md)
-   + 税金 {#taxes}
+   + 税 {#taxes}
       + [概要](taxes.md)
       + [税の構成設定](tax-settings-general.md)
       + [価格の表示設定](display-settings.md)
@@ -40,14 +40,14 @@ ht-degree: 3%
       + [通貨レートを更新](currency-update.md)
    + [販売メール](sales-email.md)
    + [販売ドキュメント](sales-documents.md)
-+ POI {#point-of-purchase}
++ POI （購入 {#point-of-purchase}）
    + [即時購入](checkout-instant-purchase.md)
-   + ショッピングカート {#cart}
+   + 買い物かご {#cart}
       + [概要](cart.md)
       + [買い物かご設定](cart-configuration.md)
       + [買い物かごの永続性](cart-persistent.md)
       + [SKU で並べ替え](order-by-sku.md)
-   + 買い物かご支援 {#assist}
+   + 買い物支援 {#assist}
       + [買い物かごの管理](shopping-assisted-cart-manage.md)
       + [オーダーの作成](customer-account-create-order.md)
       + [顧客注文の更新](order-update.md)
@@ -59,12 +59,12 @@ ht-degree: 3%
       + [アドレス検索](checkout-address-search.md)
       + [支払い失敗通知](checkout-payment-failed-emails.md)
       + [チェックアウト合計の並べ替え順序](checkout-totals-sort-order.md)
-   + ギフトカード {#gift-cards}
+   + ギフト カード {#gift-cards}
       + [ギフト カードの購入と引き換え](product-gift-card-workflow.md)
       + [ギフト カード アカウント](product-gift-card-accounts.md)
 + 買い物客ツール {#shopper-tools}
    + [友達にメールを送信](email-a-friend.md)
-   + ウィッシュリスト {#wish-lists}
+   + 欲しい物のリスト {#wish-lists}
       + [概要](wishlists.md)
       + [ウィッシュリストの設定](wishlist-configuration.md)
       + [ウィッシュリストのストアフロントの経験](wishlist-storefront.md)
@@ -72,7 +72,7 @@ ht-degree: 3%
    + [最近表示または比較](products-viewed-compared.md)
    + [並べ替えを許可](reorders-allow.md)
    + [注文のキャンセルを許可](cancel-allow.md)
-+ 支払額 {#payments}
++ 支払い {#payments}
    + [概要](payments.md)
    + PayPal 支払いソリューション {#paypal}
       + [PayPal ソリューションの概要](paypal.md)
@@ -86,15 +86,15 @@ ht-degree: 3%
       + [PayPal 決済レポート](paypal-settlement-reports.md)
    + [Braintree](braintree.md)
    + [保存されている支払い方法](stored-payment-methods.md)
-   + オフラインの支払方法 {#offline}
+   + オフライン支払方法 {#offline}
       + [小切手注文とマネーオーダー](check-money-order.md)
       + [代金引換払い](cash-on-delivery.md)
       + [銀行振込](bank-transfer.md)
       + [発注書](purchase-order.md)
       + [小計ゼロのチェックアウト](zero-subtotal-checkout.md)
-+ 注文フローの管理 {#order-management}
++ 注文フロー {#order-management} の管理
    + [販売メニュー](sales-menu.md)
-   + 注文件数 {#orders}
+   + 受注 {#orders}
       + [概要](orders.md)
       + [ワークフローと処理](order-processing.md)
       + [注文の発送](order-ship.md)
@@ -107,7 +107,7 @@ ht-degree: 3%
    + クレジットメモ {#credit-memos}
       + [概要](credit-memos.md)
       + [クレジットメモを発行する](credit-memo-create.md)
-   + 戻り値 {#returns}
+   + {#returns} を返します
       + [概要](returns.md)
       + [戻り値の設定](rma-configure.md)
       + [属性を返す](attributes-returns.md)
@@ -116,7 +116,7 @@ ht-degree: 3%
 + 配信 {#delivery}
    + [概要](delivery.md)
    + [発送設定](shipping-settings.md)
-   + 基本的な配信方法 {#basic-methods}
+   + の基本的な配信方法 {#basic-methods}
       + [送料無料](shipping-free.md)
       + [定額料金](shipping-flat-rate.md)
       + [テーブル率](shipping-table-rate.md)
@@ -131,5 +131,5 @@ ht-degree: 3%
       + [出荷ラベルの概要](shipping-labels.md)
       + [配送ラベルの設定](shipping-label-configure.md)
       + [配送ラベルの作成](shipping-label-create.md)
-+ [Merchant Guides に戻る](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [ マーチャントガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

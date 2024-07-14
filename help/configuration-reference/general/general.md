@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL General]'
-description: の設定を確認します。 [!UICONTROL General] &gt; [!UICONTROL General] コマース管理者のページ。
+description: Commerce Admin の [!UICONTROL General] &gt; [!UICONTROL General] ページで設定を確認します。
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
 source-git-commit: 17006d71d73329abcf7c7d34a0b699172d645fa1
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Country Options]
 
-参照： [国オプション](../../getting-started/store-details.md#country-options) これらの設定フィールドとオプションについて詳しくは、を参照してください。
+これらの設定フィールドとオプションについて詳しくは、[ 国オプション ](../../getting-started/store-details.md#country-options) を参照してください。
 
-![一般/国オプション](./assets/general-country-options.png)<!-- zoom -->
+![ 一般 > 国オプション ](./assets/general-country-options.png)<!-- zoom -->
 
-| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Default Country] | ストア表示 | ストアが所在する国。 |
 | [!UICONTROL Allow Countries] | Web サイト | 注文を受け付ける国。 |
@@ -32,28 +32,28 @@ ht-degree: 0%
 
 ## [!UICONTROL State Options]
 
-参照： [状態オプション](../../getting-started/store-details.md#state-options) これらの設定フィールドとオプションについて詳しくは、を参照してください。
+これらの設定フィールドとオプションについて詳しくは、[ 状態オプション ](../../getting-started/store-details.md#state-options) を参照してください。
 
-![一般/状態オプション](./assets/general-state-options.png)<!-- zoom -->
+![ 一般/状態オプション ](./assets/general-state-options.png)<!-- zoom -->
 
-| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL State is required for] | グローバル | 住所に地域または都道府県を含める必要がある国（ビジネスを行う国）。 |
-| [!UICONTROL Allow to Choose State if It is Optional for Country] | グローバル | このプロパティが不要な国の場合、は、 _地域/都道府県_ フィールドは、顧客の郵送先住所に含まれます。<br /> <br />**`Yes`**– が含まれます _地域/都道府県_ 国によって要求されていない場合でも、顧客の住所のフィールド。<br />**`No`**  – 国によって必要とされていない場合、お客様の住所から「地域/都道府県」フィールドを省略します。 |
+| [!UICONTROL Allow to Choose State if It is Optional for Country] | グローバル | 国を指定する必要がない場合は、は「_地域/都道府県_ フィールドを顧客の郵送先住所に含めるかどうかを決定します。<br /> <br />**`Yes`**– 国によって要求されていない場合でも、顧客の住所に _地域/都道府県_ フィールドを含めます。<br />**`No`** – 国で必要ない場合、お客様の住所から「地域/都道府県」フィールドを省略します。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Locale Options]
 
-参照： [ロケールオプション](../../getting-started/store-details.md#locale-options) これらの設定フィールドとオプションについて詳しくは、を参照してください。
+これらの設定フィールドとオプションについて詳しくは、[ ロケールオプション ](../../getting-started/store-details.md#locale-options) を参照してください。
 
-![一般/ ロケールオプション](./assets/general-locale-options.png)<!-- zoom -->
+![ 一般/ロケールオプション ](./assets/general-locale-options.png)<!-- zoom -->
 
-| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Timezone] | Web サイト | Web サイトが提供する主要市場のタイムゾーン。 通常、タイムゾーンはビジネスの物理的な場所で使用されているものと同じです。 |
 | [!UICONTROL Locale] | ストア表示 | ストアビューが提供する、市場で使用される言語、通貨、測定システム。 |
-| [!UICONTROL Weight Unit] | ストア表示 | 通常、ロケールからの出荷に使用される測定単位。 オプション： `lbs` / `kgs` |
+| [!UICONTROL Weight Unit] | ストア表示 | 通常、ロケールからの出荷に使用される測定単位。 オプション：`lbs` / `kgs` |
 | [!UICONTROL First Day of Week] | ストア表示 | 店舗ビューが提供する市場の週の最初の日と見なされる日。 |
 | [!UICONTROL Weekend Days] | ストア表示 | 市場の週末に落ちる日は、ストアビューによって提供されました。 |
 
@@ -63,28 +63,28 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![一般 > Web サイトの制限](./assets/general-website-restrictions.png)<!-- zoom -->
+![ 一般 > Web サイトの制限 ](./assets/general-website-restrictions.png)<!-- zoom -->
 
-これらの設定の変更の詳細については、を参照してください [アクセス制限](../../merchandising-promotions/event-configure.md#access-restrictions) が含まれる _マーチャンダイジングおよびプロモーションガイド_.
+これらの設定の変更について詳しくは、『 [ マーチャンダイジングおよびプロモーションガイド _の ](../../merchandising-promotions/event-configure.md#access-restrictions) アクセス制限_ を参照してください。
 
-| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Access Restriction] | Web サイト | Web サイトが制限モードで動作しているかどうかを判断します。<br /> <br />**`Yes`**– 以下のフィールドに設定されている方法で web サイトへのアクセスが制限されます。<br />**`No`**  – 制限は無効で、次の設定は無効です。 |
-| [!UICONTROL Restriction Mode] | Web サイト | Web サイトに適用されるアクセス制限の種類を決定します。<br /> <br />**`Website Closed`**- ストアフロントへのすべてのアクセスが制限され、ストアフロント URL は一時的にランディングページにリダイレクトされます。 この設定は、サイトのメンテナンス時や起動前に役立ちます。<br />**`Private Sales: Login Only`**  – 登録ユーザーのみがログインしてストアフロントにアクセスできます。 すべてのストアフロント URL は、指定したランディングページまたはログインフォームに一時的にリダイレクトされます。 ユーザーはこのモードでアカウントを作成できません。<br />**`Private Sales: Login and Register`**- ユーザーがストアフロントにアクセスするにはログインする必要があります。 すべてのストアフロント URL は、ユーザーがログインするまで、一時的にログインフォームにリダイレクトされます。 ユーザーは、サイトがこのモードの間にアカウントを登録できます。 |
-| [!UICONTROL Startup Page] | ストア表示 | Web サイトがプライベート販売モードの場合、この設定によって、顧客がログインするまで表示されるページが決まります。<br />  <br />**`To login form`**- ユーザーは、ログインするまで、ログインフォームにリダイレクトされます。<br />**`To landing page`** - ユーザーは、ログインするまで、以下に指定された静的ページにリダイレクトされます。<br /> <br />**_重要！_**顧客がログインしてサイト全体にアクセスできるように、指定したランディングページからのログインページへのリンクを必ず含めてください。 |
+| [!UICONTROL Access Restriction] | Web サイト | Web サイトが制限モードで動作しているかどうかを判断します。<br /> <br />**`Yes`**- Web サイトへのアクセスは、以下のフィールドに設定されている方法で制限されます。<br />**`No`** – 制限は無効で、次の設定は無効です。 |
+| [!UICONTROL Restriction Mode] | Web サイト | Web サイトに適用されるアクセス制限の種類を決定します。<br /> <br />**`Website Closed`**- ストアフロントへのすべてのアクセスが制限され、ストアフロント URL は一時的にランディングページにリダイレクトされます。 この設定は、サイトのメンテナンス時や起動前に役立ちます。<br />**`Private Sales: Login Only`** – 登録されたお客様のみがログインしてストアフロントにアクセスできます。 すべてのストアフロント URL は、指定したランディングページまたはログインフォームに一時的にリダイレクトされます。 ユーザーはこのモードでアカウントを作成できません。<br />**`Private Sales: Login and Register`**- ユーザーがストアフロントにアクセスするにはログインする必要があります。 すべてのストアフロント URL は、ユーザーがログインするまで、一時的にログインフォームにリダイレクトされます。 ユーザーは、サイトがこのモードの間にアカウントを登録できます。 |
+| [!UICONTROL Startup Page] | ストア表示 | Web サイトがプライベート販売モードの場合、この設定によって、顧客がログインするまで表示されるページが決まります。<br />  <br />**`To login form`**- ユーザーは、ログインするまで、ログインフォームにリダイレクトされます。<br />**`To landing page`** - ユーザーは、ログインするまで、以下に指定された静的ページにリダイレクトされます。<br /> <br />**_重要！_**お客様がログインしてサイト全体にアクセスできるように、指定したランディングページからのログインページへのリンクを必ず含めてください。 |
 | [!UICONTROL Landing Page] | ストア表示 | Web サイトが Private Sales モードの場合に表示される最初のページを指定します。 |
 | [!UICONTROL HTTP Response] | Web サイト | Web サイトが閉じられ、ボット、クローラーまたはスパイダーによって接続が試行されたときに送信される HTTP 応答を決定します。<br /> <br />**`503 Service unavailable`**- ページは使用できませんが、スパイダーはインデックスを更新しないでください。<br />**`200 OK`** - ランディングページは正しく、サイト上の唯一のページとしてスパイダーによって扱われる必要があります。 |
-| [!UICONTROL Enable Autocomplete on login/forgot password forms] | Web サイト | 上のフィールドを _ログイン_ および _Forgot Password_ フォームは、以前のエントリから自動的に入力されます。 オプション： `Yes` / `No` |
+| [!UICONTROL Enable Autocomplete on login/forgot password forms] | Web サイト | _ログイン_ フォームおよび _パスワードを忘れた場合_ フォームのフィールドが、以前の入力内容から自動的に入力されるかどうかを決定します。 オプション：`Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Store Information]
 
-![一般/ストア情報](./assets/general-store-information.png)<!-- zoom -->
+![ 一般/ストア情報 ](./assets/general-store-information.png)<!-- zoom -->
 
-これらの設定の変更の詳細については、を参照してください [ストア情報](../../getting-started/store-details.md) が含まれる _はじめる前に_.
+これらの設定の変更の詳細については、「[ はじめる前に _」の_ ストア情報 ](../../getting-started/store-details.md) を参照してください。
 
-| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Store Name] | ストア表示 | ストア表示に関連付けられているストアの名前。 |
 | [!UICONTROL Store Phone Number] | ストア表示 | （ストア表示に関連付けられた）ストアのプライマリ電話番号がビジネス用に開かれています。 例：月～金、9～5、土 9～正午（PST） |
@@ -101,12 +101,12 @@ ht-degree: 0%
 
 ## [!UICONTROL Single-Store Mode]
 
-![一般/シングルストアモード](./assets/general-single-store-mode.png)<!-- zoom -->
+![ 一般/シングルストアモード ](./assets/general-single-store-mode.png)<!-- zoom -->
 
-これらの設定の変更の詳細については、を参照してください [シングルストアモード](../../getting-started/websites-stores-views.md#single-store-mode) が含まれる _はじめる前に_.
+これらの設定の変更方法の詳細については、「[ はじめる前に _の ](../../getting-started/websites-stores-views.md#single-store-mode) シングル ストア モード_ を参照してください。
 
-| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable Single-Store Mode] | グローバル | シングルストアインストールで有効にした場合、は設定範囲ボックスと関連するフィールドラベルのオプションを非表示にします。 `Yes` / `No` <br/>**_注意：_**複数のビューを含むストアの場合、シングルストアモードは無視されます。<br/> シングルストアモードを有効にすると、カタログおよび製品ストアに固有のすべてのデータが、デフォルトのストア表示からすべてのストア表示範囲にコピーされます。 ストアに storereview が 1 つしかない場合にのみ、カタログおよび製品データがコピーされます。 ストアに、無効な storereview と有効な storereview が 1 つある場合、カタログと製品のデータはコピーされません。<br/> シングルストアモードを有効にすると、コンテンツ固有のデータに対する storereview 固有の設定が無視されます。 代わりに、グローバルレベルの範囲で定義された構成設定を使用して、管理 UI とストアフロントの間の一貫性を確保します。 |
+| [!UICONTROL Enable Single-Store Mode] | グローバル | シングルストアインストールで有効にすると、設定の範囲ボックスと関連するフィールドラベルが非表示になります。オプション : `Yes` / `No` <br/>**_注意：_**複数の表示を持つストアの場合、シングルストアモードは無視されます。<br/> 単一ストアモードを有効にすると、すべてのカタログおよび製品ストア固有のデータが、デフォルトのストア表示からすべてのストア表示範囲にコピーされます。 ストアに storereview が 1 つしかない場合にのみ、カタログおよび製品データがコピーされます。 ストアに、無効な storereview と有効な storereview が 1 つある場合、カタログと製品のデータはコピーされません。<br/> シングルストアモードを有効にすると、コンテンツ固有のデータに対する storreview 固有の設定が無視されます。 代わりに、グローバルレベルの範囲で定義された構成設定を使用して、管理 UI とストアフロントの間の一貫性を確保します。 |
 
 {style="table-layout:auto"}

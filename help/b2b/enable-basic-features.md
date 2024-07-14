@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # B2B 機能の有効化
 
-デフォルトでは、すべての B2B 機能は最初は無効になっています。 ストア管理者は、Commerce ストアで必要に応じて、B2B 機能を有効または無効にすることができます。 B2B 設定の完全なリストについては、を参照してください。 [B2B 機能の設定リファレンス](../configuration-reference/general/b2b-features.md).
+デフォルトでは、すべての B2B 機能は最初は無効になっています。 ストア管理者は、Commerce ストアで必要に応じて、B2B 機能を有効または無効にすることができます。 B2B 設定の完全なリストについては、[B2B 機能の設定リファレンス ](../configuration-reference/general/b2b-features.md) を参照してください。
 
 顧客企業のサポートを有効にすると、追加の B2B 機能が自動的に有効になります。
 
@@ -33,98 +33,98 @@ ht-degree: 0%
 
   ストアフロントで B2B 購入者が使用できる支払いと配送オプションの選択を決定します。
 
-これらの機能の設定は、の場合にのみ表示されます [!DNL Enable Company] はに設定されています。 `Yes`.
+これらの機能の設定は、[!DNL Enable Company] が `Yes` に設定されている場合にのみ表示されます。
 
-B2B [!DNL Quick Order] および [!DNL Requisition List] 機能は、個別に有効または無効にできます。
+B2B の [!DNL Quick Order] 機能と [!DNL Requisition List] 機能は、個別に有効または無効にできます。
 
 ## B2B 機能の設定
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-   マルチサイトインストールの場合は、 **[!UICONTROL Store View]** 設定が適用される web サイトの左上隅にあるコントロール。
+   マルチサイトインストールを使用している場合は、左上隅の **[!UICONTROL Store View]** コントロールを設定が適用される Web サイトに設定します。
 
-1. の下の左パネルで _[!UICONTROL General]_、を選択&#x200B;**[!UICONTROL B2B Features]**:
+1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL B2B Features]**」を選択します。
 
-   ![B2B 設定 – 一般](./assets/b2b-features.png){width="600"}
+   ![B2B 設定 – 一般 ](./assets/b2b-features.png){width="600"}
 
-   - を設定して、顧客が独自の会社アカウントを管理し、追加の B2B 機能のサポートを有効にできるようにします **[!UICONTROL Enable Company]**  対象： `Yes`.
+   - **[!UICONTROL Enable Company]** を `Yes` に設定することで、顧客が独自の会社アカウントを管理し、追加の B2B 機能のサポートを有効にできるようにします。
 
      会社サポートを有効にすると、共有カタログ、B2B 見積もり、B2B 支払い方法、B2B 配送方法が自動的に有効になります。
 
-   - 顧客およびゲストが SKU または製品名に基づいてすばやく注文できるようにするには、次のように設定します **[!UICONTROL Enable Quick Order]** 対象： `Yes`.
+   - 顧客やゲストが SKU や製品名に基づいてすばやく注文できるようにするには、**[!UICONTROL Enable Quick Order]** を `Yes` に設定します。
 
-   - 顧客が自分のアカウント・ダッシュボードから購買依頼リストを作成および管理できるようにするには、次のように設定します。 **[!UICONTROL Enable Requisition List]** 対象： `Yes`.
+   - 顧客が自分のアカウント・ダッシュボードから購買依頼リストを作成および管理できるようにするには、**[!UICONTROL Enable Requisition List]** を `Yes` に設定します。
 
-     以下の手順でも可能です [リストの最大数の設定](configure-requisition-lists.md) 顧客は、のアカウントにを持つことができます。
+     また、顧客が自分のアカウントに持つことができる [ リストの最大数を設定する ](configure-requisition-lists.md) こともできます。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ## デフォルトの B2B 支払および発送方法の設定
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Default B2B Payment Methods]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Default B2B Payment Methods]**」セクションを展開します。
 
-1. B2B 注文のデフォルトの支払方法を設定するには、次のように設定します **[!UICONTROL Applicable Payment Methods]** を次のいずれかに変更します。
+1. B2B 注文のデフォルトの支払い方法を設定するには、**[!UICONTROL Applicable Payment Methods]** を次のいずれかに設定します。
 
    - `All Payment Methods`
 
    - `Selected Payment Methods`
 
-     特定のオプションの場合は、 **[!UICONTROL Payment Methods]** ctrl キー（PC）または Command キー（Mac）を押しながら各オプションをクリックすることにより、顧客が利用できるようにする場合。
+     Ctrl キー（PC）または Command キー（Mac）を押しながら各オプションをクリックして、顧客が使用できる **[!UICONTROL Payment Methods]** を選択します。
 
-   のリスト [支払い方法](../configuration-reference/sales/payment-methods.md) ストアで現在有効または無効になっているオプションを表示します。 リストには、標準の支払い方法に加えて、次の項目も含まれています。
+   [ 支払い方法 ](../configuration-reference/sales/payment-methods.md) のリストには、ストアで現在有効または無効になっているオプションが表示されます。 リストには、標準の支払い方法に加えて、次の項目も含まれています。
 
    - 支払い情報は必要ありません
    - [分割払い](#configure-payment-on-account)
    - 保存済みアカウント
    - 保存されたカード
 
-   ![B2B 設定 – デフォルトの支払方法設定](./assets/b2b-features-default-payment-methods.png){width="600"}
+   ![B2B 設定 – デフォルトの支払方法設定 ](./assets/b2b-features-default-payment-methods.png){width="600"}
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Default B2B Shipping Methods]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Default B2B Shipping Methods]**」セクションを展開します。
 
-1. B2B 注文のデフォルトの出荷方法を指定するには、次のように設定します **[!UICONTROL Applicable Shipping Methods]** を次のいずれかに変更します。
+1. B2B 注文のデフォルトの出荷方法を指定するには、**[!UICONTROL Applicable Shipping Methods]** を次のいずれかに設定します。
 
    - `All Shipping Methods`
    - `Selected Shipping Methods`
 
-     特定のオプションの場合は、 **[!UICONTROL Shipping Methods]** ctrl キー（PC）または Command キー（Mac）を押しながら各オプションをクリックすることにより、顧客が利用できるようにする場合。
+     Ctrl キー（PC）または Command キー（Mac）を押しながら各オプションをクリックして、顧客が使用できる **[!UICONTROL Shipping Methods]** を選択します。
 
-     発送方法のリストには、現在の発送方法が表示されます [有効または無効](../configuration-reference/sales/delivery-methods.md).
+     発送方法のリストには、現在 [ 有効または無効 ](../configuration-reference/sales/delivery-methods.md) が表示されます。
 
-   ![B2B 設定 – デフォルトの発送方法](./assets/b2b-features-shipping-methods.png){width="600"}
+   ![B2B 設定 – デフォルトの発送方法 ](./assets/b2b-features-shipping-methods.png){width="600"}
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ## 会社のメールオプションを設定
 
-この [営業担当者](account-company-manage.md#assign-a-sales-representative) 会社のプライマリ連絡先として割り当てられた連絡先は、会社に送信される多数の自動メールメッセージの送信者としてデフォルトで設定されます。
+会社の主要連絡先として割り当てられた [ 営業担当者 ](account-company-manage.md#assign-a-sales-representative) は、デフォルトで、会社に送信される多くの自動メールメッセージの送信者として設定されます。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Customers]** を選択します **[!UICONTROL Company Configuration]**.
+1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Company Configuration]**」を選択します。
 
-1. 必要に応じて、を設定します **[!UICONTROL Store View]** をストア表示に追加して定義します。 [範囲](../getting-started/websites-stores-views.md#scope-settings) ：設定。
+1. 必要に応じて、**[!UICONTROL Store View]** をストア表示に設定して、設定の [ スコープ ](../getting-started/websites-stores-views.md#scope-settings) を定義します。
 
-1. を完了する **[!UICONTROL Company Registration]** セクション：
+1. **[!UICONTROL Company Registration]** のセクションを完了します。
 
    >[!NOTE]
    >
-   >をクリア **[!UICONTROL Use system value]** フィールドを編集可能にするチェックボックス。
+   >フィールドを編集可能にするには、「**[!UICONTROL Use system value]**」チェックボックスをオフにします。
 
-   - を設定 **[!UICONTROL Company Registration Email Recipient]** に [店舗の連絡先](../getting-started/store-details.md#store-email-addresses) 新しい会社登録要求を受信したときに通知されるユーザー。
+   - **[!UICONTROL Company Registration Email Recipient]** を、新しい会社登録要求を受信したときに通知される [ ストアの連絡先 ](../getting-started/store-details.md#store-email-addresses) に設定します。
 
-   - の場合 **[!UICONTROL Send Company Registration Email Copy To]**&#x200B;に、登録通知のコピーを受け取る各ユーザーのメールアドレスを入力します。 複数のメールアドレスを指定する場合はコンマで区切ります。
+   - **[!UICONTROL Send Company Registration Email Copy To]**：登録通知のコピーを受け取る各ユーザーのメールアドレスを入力します。 複数のメールアドレスを指定する場合はコンマで区切ります。
 
-   - 通知のコピーの送信方法を決定するには、次のように設定します **Send Email Copy メソッド** を次のいずれかに変更します。
+   - 通知のコピーの送信方法を決定するには、**Send Email Copy Method** を次のいずれかに設定します。
 
-      - `Bcc`  – が _盲目の礼状コピー_ 顧客に送信されるのと同じメールのヘッダーに受信者を含めることで答えることができます。 BCC 受信者が顧客に表示されない。
-      - `Separate Email` - コピーを別のメールとして送信します。
+      - `Bcc` – 顧客に送信されるのと同じメールのヘッダーに受信者を含めることで、_ブラインドの儀礼用コピー_ を送信します。 BCC 受信者が顧客に表示されない。
+      - `Separate Email` - コピーを個別のメールとして送信します。
 
-   - デフォルトの代わりに使用するメールテンプレートを準備している場合は、を設定します **[!UICONTROL Default Company Registration Email]** ：テンプレートの名前。 デフォルトでは、 `Company Registration Request` テンプレートが使用されます。
+   - デフォルトの代わりに使用するメールテンプレートを準備した場合は、**[!UICONTROL Default Company Registration Email]** をテンプレートの名前に設定します。 デフォルトでは、`Company Registration Request` テンプレートが使用されます。
 
-     ![顧客設定 – 会社登録](./assets/company-email-options-company-registration.png){width="600"}
+     ![ 顧客設定 – 会社登録 ](./assets/company-email-options-company-registration.png){width="600"}
 
-1. を完了する **[!UICONTROL Customer-Related Emails]** セクション：
+1. **[!UICONTROL Customer-Related Emails]** のセクションを完了します。
 
    デフォルトの代わりに使用する代替電子メールテンプレートを準備している場合は、次のそれぞれに使用するテンプレートを選択します。
 
@@ -136,39 +136,39 @@ B2B [!DNL Quick Order] および [!DNL Requisition List] 機能は、個別に�
    - **[!UICONTROL Default 'Customer Status Active' Email]**
    - **[!UICONTROL Default 'Customer Status Inactive' Email]**
 
-   ![顧客設定 – 顧客関連のメール](./assets/company-email-options-customer-related-emails.png){width="600"}
+   ![ 顧客設定 – 顧客関連のメール ](./assets/company-email-options-customer-related-emails.png){width="600"}
 
-1. を完了する **[!UICONTROL Company Status Change]** セクション：
+1. **[!UICONTROL Company Status Change]** のセクションを完了します。
 
-   - の場合 **[!UICONTROL Send Company Status Change Email Copy To]**&#x200B;に、ステータス変更通知のコピーを受け取る各ユーザーのメールアドレスを入力します。 複数のメールアドレスを指定する場合はコンマで区切ります。
+   - **[!UICONTROL Send Company Status Change Email Copy To]**: ステータス変更通知のコピーを受信する各担当者の電子メール・アドレスを入力します。 複数のメールアドレスを指定する場合はコンマで区切ります。
 
-   - 通知のコピーの送信方法を決定するには、次のように設定します **Send Email Copy メソッド** を次のいずれかに変更します。
+   - 通知のコピーの送信方法を決定するには、**Send Email Copy Method** を次のいずれかに設定します。
 
-      - `Bcc`  – が _盲目の礼状コピー_ 顧客に送信されるのと同じメールのヘッダーに受信者を含めることで答えることができます。 BCC 受信者が顧客に表示されない。
-      - `Separate Email` - コピーを別のメールとして送信します。
+      - `Bcc` – 顧客に送信されるのと同じメールのヘッダーに受信者を含めることで、_ブラインドの儀礼用コピー_ を送信します。 BCC 受信者が顧客に表示されない。
+      - `Separate Email` - コピーを個別のメールとして送信します。
 
-   - 会社のステータスが次から変更されたときに使用するメールテンプレートを準備している場合： `Pending Approval` 対象： `Active`、設定 **[!UICONTROL Default 'Company Status Change to Active 1' Email]** ：テンプレートの名前。 デフォルトでは、 `Company Status Active 1` テンプレートが使用されます。
+   - 会社のステータスが `Pending Approval` から `Active` に変更されたときに使用するメールテンプレートを準備した場合は、**[!UICONTROL Default 'Company Status Change to Active 1' Email]** をテンプレートの名前に設定します。 デフォルトでは、`Company Status Active 1` テンプレートが使用されます。
 
-   - 会社のステータスが次から変更されたときに使用するメールテンプレートを準備している場合： `Rejected` または `Blocked` 対象： `Active`、設定 **[!UICONTROL Default 'Company Status Change to Active 2' Email]** ：テンプレートの名前。 デフォルトでは、 `Company Status Active 2` テンプレートが使用されます。
+   - 会社のステータスが「`Rejected`」または「`Blocked`」から「`Active`」に変更されたときに使用するメールテンプレートを準備した場合は、**[!UICONTROL Default 'Company Status Change to Active 2' Email]** をテンプレートの名前に設定します。 デフォルトでは、`Company Status Active 2` テンプレートが使用されます。
 
-   - 会社のステータスが「」に変更された場合に使用するメールテンプレートを準備している場合 `Rejected`、設定 **[!UICONTROL Default 'Company Status Change to Rejected' Email]** ：テンプレートの名前。 デフォルトでは、 `Company Status Rejected` テンプレートが使用されます。
+   - 会社のステータスが「`Rejected`」に変わるときに使用するメールテンプレートを準備した場合は、**[!UICONTROL Default 'Company Status Change to Rejected' Email]** をテンプレートの名前に設定します。 デフォルトでは、`Company Status Rejected` テンプレートが使用されます。
 
-   - 会社のステータスが「」に変更された場合に使用するメールテンプレートを準備している場合 `Blocked`、設定 **[!UICONTROL Default 'Company Status Change to Blocked' Email]** ：テンプレートの名前。 デフォルトでは、 `Company Status Blocked` テンプレートが使用されます。
+   - 会社のステータスが「`Blocked`」に変わるときに使用するメールテンプレートを準備した場合は、**[!UICONTROL Default 'Company Status Change to Blocked' Email]** をテンプレートの名前に設定します。 デフォルトでは、`Company Status Blocked` テンプレートが使用されます。
 
-   - 会社のステータスが「」に変更された場合に使用するメールテンプレートを準備している場合 `Pending Approval`、設定 **[!UICONTROL Default 'Company Status Change to Pending Approval' Email]** ：テンプレートの名前。 デフォルトでは、 `Company Status Pending Approval` テンプレートが使用されます。
+   - 会社のステータスが「`Pending Approval`」に変わるときに使用するメールテンプレートを準備した場合は、**[!UICONTROL Default 'Company Status Change to Pending Approval' Email]** をテンプレートの名前に設定します。 デフォルトでは、`Company Status Pending Approval` テンプレートが使用されます。
 
-   ![顧客の設定 – 会社ステータスの変更](./assets/company-email-options-company-status-change.png){width="600"}
+   ![ 顧客の設定 – 会社ステータスの変更 ](./assets/company-email-options-company-status-change.png){width="600"}
 
-1. を完了する **[!UICONTROL Company Credit Emails]** セクション：
+1. **[!UICONTROL Company Credit Emails]** のセクションを完了します。
 
-   - を設定 **[!UICONTROL Company Credit Change Email Sender]** に [店舗の連絡先](../getting-started/store-details.md#store-email-addresses) 会社に割り当てられた与信限度額を変更した際に通知されるユーザー。 デフォルトでは、通知はに送信されます。 _営業担当者_.
+   - 会社に割り当てられているクレジット限度額に変更があったときに通知される [ ストア連絡先 ](../getting-started/store-details.md#store-email-addresses) に **[!UICONTROL Company Credit Change Email Sender]** を設定します。 デフォルトでは、通知は _営業担当者_ に送信されます。
 
-   - の場合 **[!UICONTROL Send Company Credit Change Email Copy To]**&#x200B;に、クレジット変更通知のコピーを受信する各ユーザーのメールアドレスを入力します。 複数のメールアドレスを指定する場合はコンマで区切ります。
+   - **[!UICONTROL Send Company Credit Change Email Copy To]**：与信変更通知のコピーを受信する各担当者の電子メール・アドレスを入力します。 複数のメールアドレスを指定する場合はコンマで区切ります。
 
-   - 通知のコピーの送信方法を決定するには、次のように設定します **Send Email Copy メソッド** を次のいずれかに変更します。
+   - 通知のコピーの送信方法を決定するには、**Send Email Copy Method** を次のいずれかに設定します。
 
-      - `Bcc`  – が _盲目の礼状コピー_ 顧客に送信されるのと同じメールのヘッダーに受信者を含めることで答えることができます。 BCC 受信者が顧客に表示されない。
-      - `Separate Email` - コピーを別のメールとして送信します。
+      - `Bcc` – 顧客に送信されるのと同じメールのヘッダーに受信者を含めることで、_ブラインドの儀礼用コピー_ を送信します。 BCC 受信者が顧客に表示されない。
+      - `Separate Email` - コピーを個別のメールとして送信します。
 
    - デフォルトの代わりに使用するメールテンプレートを準備している場合は、会社管理者に送信される次の各通知に対してテンプレートを選択します。
 
@@ -178,89 +178,89 @@ B2B [!DNL Quick Order] および [!DNL Requisition List] 機能は、個別に�
       - **[!UICONTROL Refunded Email Template]**
       - **[!UICONTROL Reverted Email Template]**
 
-   ![顧客設定 – 会社のクレジットメール](./assets/company-email-options-company-credit.png){width="600"}
+   ![ 顧客設定 – 会社クレジットメール ](./assets/company-email-options-company-credit.png){width="600"}
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ## 注文の承認を設定
 
 注文処理と発注書を追跡する機能により、会社管理者は会社の購入者の行動を制御できます。 注文承認機能は、店舗管理者が発注機能を有効にした場合に使用できます。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL General]** を選択します **[!UICONTROL B2B Features]**.
+1. 左側のパネルで「**[!UICONTROL General]**」を展開し、「**[!UICONTROL B2B Features]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Order Approval Configuration]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Order Approval Configuration]**」セクションを展開します。
 
-   ![注文の承認設定](./assets/b2b-features-order-approval.png){width="600"}
+   ![ 注文承認の設定 ](./assets/b2b-features-order-approval.png){width="600"}
 
-1. 会社が独自の発注書を作成できるようにするには、次のように設定します **[!UICONTROL Enable Purchase Orders]** 対象： `Yes`.
+1. 会社が独自の発注書を作成できるようにするには、**[!UICONTROL Enable Purchase Orders]** を `Yes` に設定します。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
-   発注機能は web サイトレベルで有効になります。 会社に対してこのタイプの注文を有効にするには、それぞれに適切な設定で同じ操作を行います [会社概要](account-company-manage.md).
+   発注機能は web サイトレベルで有効になります。 会社に対してこのタイプの注文を有効にするには、各 [ 会社プロファイル ](account-company-manage.md) の適切な設定で同じ操作を行います。
 
 ## 発注書の構成
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL Companies]** に移動します。
 
-1. リストで会社を見つけて、 **[!UICONTROL Edit]**.
+1. リストで会社を見つけて、「**[!UICONTROL Edit]**」をクリックします。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Advanced Settings]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advanced Settings]**」セクションを展開します。
 
-1. を設定 **[!UICONTROL Enable Purchase Orders]** 対象： `Yes`.
+1. **[!UICONTROL Enable Purchase Orders]** を `Yes` に設定します。
 
-1. 完了したら、 **[!UICONTROL Save]**.
+1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
-アクティブ化後、 **[!UICONTROL Approval Rules]** セクションはストアフロントに表示されます [Account Dashboard](../customers/account-dashboard.md) 会社の管理者の場合。
+アクティブ化後、会社管理者の場合、ストアフロント [ アカウントダッシュボード ](../customers/account-dashboard.md) に「**[!UICONTROL Approval Rules]**」セクションが表示されます。
 
 >[!NOTE]
 >
->ストアフロントの発注書へのアクセスは、次に基づいて、会社の管理者から許可される必要があります [会社ユーザーの役割の権限](account-company-roles-permissions.md).
+>ストアフロントの発注書へのアクセスは、[ 会社のユーザーロールの権限 ](account-company-roles-permissions.md) に基づいて、会社の管理者から許可される必要があります。
 
 ## 分割払いの構成
 
-アカウント内支払いは、企業がプロファイルで指定されたクレジット制限を超えない範囲で購入できるオフラインの支払い方法です。 アカウントでの支払いは、グローバルに、または会社ごとに有効化できます。有効化されている場合にのみ、チェックアウト時に表示されます。 条件 _分割払い_ を支払方法として使用すると、注文の上部に、アカウントのステータスを示すメッセージが表示されます。 特定の会社に対してこの支払い方法を設定するには、次を参照してください。 [会社アカウントの管理](account-company-manage.md).
+アカウント内支払いは、企業がプロファイルで指定されたクレジット制限を超えない範囲で購入できるオフラインの支払い方法です。 アカウントでの支払いは、グローバルに、または会社ごとに有効化できます。有効化されている場合にのみ、チェックアウト時に表示されます。 支払い方法として _アカウントでの支払い_ が使用されている場合、注文の上部にアカウントのステータスを示すメッセージが表示されます。 特定の会社に対してこの支払い方法を設定するには、[ 会社アカウントの管理 ](account-company-manage.md) を参照してください。
 
 >[!NOTE]
 >
->での注文については、分割払いはサポートされていません。 [複数の配送先住所](../stores-purchase/shipping-settings.md#multiple-addresses) およびは、これらの注文の支払いオプションの中には表示されません。
+>アカウントでのお支払いは、[ 複数の配送先住所 ](../stores-purchase/shipping-settings.md#multiple-addresses) を含む注文ではサポートされておらず、これらの注文の支払いオプションには表示されません。
 
 ストアでアカウント内支払いを有効にするには：
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL Payment Methods]**.
+1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Payment Methods]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Payment on Account]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Payment on Account]**」セクションを展開します。
 
-   ![分割払い](./assets/payment-methods-payment-on-account.png){width="600"}
+   ![ 分割払 ](./assets/payment-methods-payment-on-account.png){width="600"}
 
    >[!NOTE]
    >
-   >必要に応じて、まず **[!UICONTROL Use system value]** これらの設定を変更するチェックボックス。
+   >必要に応じて、まず「**[!UICONTROL Use system value]**」チェックボックスの選択を解除して、これらの設定を変更します。
 
-1. 分割払いを許可するには、次のように設定します **[!UICONTROL Enabled]** 対象： `Yes`.
+1. 分割払いを許可するには、**[!UICONTROL Enabled]** を `Yes` に設定します。
 
-1. を入力 **[!UICONTROL Title]** チェックアウト時に支払い方法を識別します。または、 `Payment on Account` デフォルトのタイトル。
+1. チェックアウト時に支払い方法を識別する **[!UICONTROL Title]** を入力するか、`Payment on Account` のデフォルトのタイトルをそのまま使用します。
 
-1. 注文が通常、承認を待つ場合は、デフォルトのを使用します **[!UICONTROL New Order Status]** as `Pending` 承認されるまで。
+1. 注文が通常、承認を待つ場合は、承認されるまでデフォルト **[!UICONTROL New Order Status]** を `Pending` として受け入れます。
 
-   必要に応じて、を使用できます `Processing` または `Suspected Fraud` この支払い方法を使用する新しい注文のステータス。
+   必要に応じて、この支払い方法を使用して新しい注文の `Processing` または `Suspected Fraud` のステータスを使用できます。
 
-1. を設定 **[!UICONTROL Payment from Applicable Countries]** を次のいずれかに変更します。
+1. **[!UICONTROL Payment from Applicable Countries]** を次のいずれかに設定します。
 
-   - `All Allowed Countries`  – すべてのお客様 [国](../getting-started/store-details.md#country-options) ストア設定で指定されたお支払方法を使用できます。
-   - `Specific Countries`  – このオプションを選択すると、 _[!UICONTROL Payment from Specific Countries]_リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、それぞれのオプションをクリックします。
+   - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、それぞれのオプションをクリックします。
 
-1. を設定 **[!UICONTROL Minimum Order Total]** および **[!UICONTROL Maximum Order Total]** ご注文の金額は、この支払い方法の対象として必要です。
+1. この支払い方法の対象として必要な注文金額に **[!UICONTROL Minimum Order Total]** および **[!UICONTROL Maximum Order Total]** を設定します。
 
    >[!NOTE]
    >
    >注文は、合計が最小値と最大値の間に収まる、または完全に一致する場合に該当します。
 
-1. を入力 **[!UICONTROL Sort Order]** チェックアウト時に表示される支払い方法の一覧で、この項目の位置を設定する数値です。
+1. チェックアウト時に表示される支払い方法の一覧のこの項目の位置を設定する **[!UICONTROL Sort Order]** 番号を入力します。
 
-   この値は、他の支払い方法を基準にしています。 （`0` =最初、 `1` =秒、 `2` = 3 番目、など）。
+   この値は、他の支払い方法を基準にしています。 （`0` = 1 番目、`1` = 2 番目、`2` = 3 番目など）。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

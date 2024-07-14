@@ -24,47 +24,47 @@ Adobe Commerceには、これらの各メールメッセージ用のテンプレ
 
 ## 手順 1. ギフト レジストリを有効にする
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Customers]** を選択します **[!UICONTROL Gift Registry]**
+1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Gift Registry]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL General Options]** を選択し、次の操作を実行します。
+1. **[!UICONTROL General Options]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![顧客の構成 – ギフト レジストリ全般](../configuration-reference/customers/assets/gift-registry-general-options.png){width="600" zoomable="yes"}
+   ![ 顧客の設定 – ギフトレジストリの一般 ](../configuration-reference/customers/assets/gift-registry-general-options.png){width="600" zoomable="yes"}
 
-   - ギフト レジストリは既定で有効になっています。 必要に応じて、を設定します **[!UICONTROL Enable Gift Registry]** 対象： `Yes`.
+   - ギフト レジストリは既定で有効になっています。 必要に応じて、**[!UICONTROL Enable Gift Registry]** を `Yes` に設定します。
 
-   - の場合 **[!UICONTROL Maximum Registrants]**：ギフトレジストリイベントへの参加を招待できる最大人数を入力します。
+   - **[!UICONTROL Maximum Registrants]**: ギフトレジストリイベントへの参加を招待できる最大人数を入力します。
 
 ## 手順 2. メール通知を設定する
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Owner Notification]** を選択し、次の操作を実行します。
+1. **[!UICONTROL Owner Notification]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![顧客の構成 – ギフト レジストリ所有者の通知](../configuration-reference/customers/assets/gift-registry-owner-notification.png){width="600" zoomable="yes"}
+   ![ 顧客の構成 – ギフト レジストリ所有者の通知 ](../configuration-reference/customers/assets/gift-registry-owner-notification.png){width="600" zoomable="yes"}
 
-   - を選択します。 **[!UICONTROL Email Template]** ギフト レジストリの所有者にレジストリの作成時に通知します。
+   - ギフト レジストリの作成時に所有者に通知する **[!UICONTROL Email Template]** を選択してください。
 
-   - を選択します。 [店舗の連絡先](../getting-started/store-details.md#store-email-addresses) として表示されます **[!UICONTROL Email Sender]** （メッセージ）。
+   - メッセージの **[!UICONTROL Email Sender]** として表示される [ ストアの連絡先 ](../getting-started/store-details.md#store-email-addresses) を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Gift Registry Sharing]** を選択し、次の操作を実行します。
+1. **[!UICONTROL Gift Registry Sharing]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![顧客の設定 – ギフトレジストリの共有](../configuration-reference/customers/assets/gift-registry-gift-registry-sharing.png){width="600" zoomable="yes"}
+   ![ 顧客の設定 – ギフトレジストリの共有 ](../configuration-reference/customers/assets/gift-registry-gift-registry-sharing.png){width="600" zoomable="yes"}
 
-   - を選択します。 **[!UICONTROL Email Template]** レジストリが共有されたときに、ギフト レジストリの受信者に通知します。
+   - レジストリが共有されたときにギフト レジストリの受信者に通知する **[!UICONTROL Email Template]** を選択してください。
 
-   - 表示されるストア ID を選択します。 **[!UICONTROL Email Sender]** （メッセージ）。
+   - メッセージの **[!UICONTROL Email Sender]** として表示されるストア ID を選択します。
 
-   - の場合 **[!UICONTROL Maximum Sent Emails Threshold]**&#x200B;に設定し、一度に送信できるメールの最大数を入力します。
+   - **[!UICONTROL Maximum Sent Emails Threshold]**：一度に送信できるメールの最大数を入力します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Gift Registry Update]** を選択し、次の操作を実行します。
+1. **[!UICONTROL Gift Registry Update]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![顧客の構成 – ギフト レジストリの更新](../configuration-reference/customers/assets/gift-registry-gift-registry-update.png){width="600" zoomable="yes"}
+   ![ 顧客の設定 – ギフトレジストリの更新 ](../configuration-reference/customers/assets/gift-registry-gift-registry-update.png){width="600" zoomable="yes"}
 
-   - を選択します。 **[!UICONTROL Email Template]** ギフト レジストリの所有者にレジストリの変更を通知します。
+   - レジストリに対する変更をギフト レジストリ所有者に通知する **[!UICONTROL Email Template]** を選択してください。
 
-   - 表示されるストア ID を選択します。 **[!UICONTROL Email Sender]** （メッセージ）。
+   - メッセージの **[!UICONTROL Email Sender]** として表示されるストア ID を選択します。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 1. プロンプトが表示されたら、キャッシュを更新します。
 

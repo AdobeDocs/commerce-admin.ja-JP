@@ -12,43 +12,43 @@ ht-degree: 0%
 
 # 製品ワークスペース
 
-製品ワークスペースは、すべての製品タイプで基本的に同じですが、フィールドの選択は、使用する属性セットによって変わります。 製品属性はフォームの上部に表示され、その後に商品情報の展開可能なセクションが続きます。 新しい製品を初めて保存する場合、 _[!UICONTROL Store View]_選択はフォームの左上に表示されます。
+製品ワークスペースは、すべての製品タイプで基本的に同じですが、フィールドの選択は、使用する属性セットによって変わります。 製品属性はフォームの上部に表示され、その後に商品情報の展開可能なセクションが続きます。 新しい製品を初めて保存すると、フォームの左上に _[!UICONTROL Store View]_選択が表示されます。
 
-![製品ワークスペース](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
+![ 製品ワークスペース ](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Enable Product] 設定
 
-製品のオンラインステータスは、フォーム上部のスイッチで示されます。 オンラインステータスを変更するには、 **[!UICONTROL Enable Product]** 切り替え先 `Yes` または `No`.
+製品のオンラインステータスは、フォーム上部のスイッチで示されます。 オンラインステータスを変更するには、**[!UICONTROL Enable Product]** スイッチを `Yes` または `No` に設定します。
 
 | 制御 | 説明 |
 |-------- | ----------- |
-| ![「はい」を切り替え](../assets/toggle-yes.png) | 製品がオンラインであることを示します。 |
-| ![いいえ切り替え](../assets/toggle-no.png) | 製品がオフラインであることを示します。 |
+| ![ はい切り替え ](../assets/toggle-yes.png) | 製品がオンラインであることを示します。 |
+| ![ 切り替え番号 ](../assets/toggle-no.png) | 製品がオフラインであることを示します。 |
 
 {style="table-layout:auto"}
 
 ## 属性セット
 
-の名前 [属性セット](attribute-sets.md) は左上隅に表示され、製品レコードに表示されるフィールドを決定します。 別の属性セットを選択するには、デフォルトの属性セット名の横にある下向き矢印をクリックします。
+[ 属性セット ](attribute-sets.md) の名前が左上隅に表示され、製品レコードに表示されるフィールドを決定します。 別の属性セットを選択するには、デフォルトの属性セット名の横にある下向き矢印をクリックします。
 
-![属性セット](./assets/product-attribute-set.png){width="600" zoomable="yes"}
+![ 属性セット ](./assets/product-attribute-set.png){width="600" zoomable="yes"}
 
 ## 展開/折りたたむ
 
-セクションを展開または折りたたむには、展開をクリックします ![展開セレクター](../assets/icon-display-expand.png) または折りたたむ ![セレクターを折りたたむ](../assets/icon-display-collapse.png) アイコン。
+セクションを展開または折りたたむには、展開 ![ 展開セレクター ](../assets/icon-display-expand.png) または折りたたむ ![ 折りたたみセレクター ](../assets/icon-display-collapse.png) アイコンをクリックします。
 
 ## [!UICONTROL Save] メニュー
 
-この _[!UICONTROL Save]_メニューには、保存して続行、製品を保存して作成、製品を保存して複製、保存して閉じるなどの操作を行える複数のオプションが含まれています。
+_[!UICONTROL Save]_のメニューには、保存して続行、保存して作成、保存して複製、保存して閉じるなどのいくつかのオプションが含まれています。
 
-![保存メニュー](./assets/product-save-menu.png){width="600" zoomable="yes"}
+![ 保存メニュー ](./assets/product-save-menu.png){width="600" zoomable="yes"}
 
 | コマンド | 説明 |
 |--- |--- |
 | [!UICONTROL Save] | 現在の製品を保存して、作業を続行します。 |
 | [!UICONTROL Save & New] | 現在の製品を保存して閉じ、同じ製品タイプとテンプレートに基づいて新しい製品を開始します。 |
 | [!UICONTROL Save & Duplicate] | 現在の製品を保存して閉じ、新しい複製コピーを開きます。 |
-| [!UICONTROL Save & Close] | 現在の製品を保存し、に戻ります _[!UICONTROL Products]_ワークスペース。 |
+| [!UICONTROL Save & Close] | 現在の製品を保存し、_[!UICONTROL Products]_ワークスペースに戻ります。 |
 
 {style="table-layout:auto"}
 
@@ -65,19 +65,19 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-別のフィールドの値を表すプレースホルダーは、二重中括弧で囲まれています。 製品に含まれる属性コード [属性セット](attribute-sets.md) プレースホルダーとして使用できます。
+別のフィールドの値を表すプレースホルダーは、二重中括弧で囲まれています。 製品 [ 属性セット ](attribute-sets.md) に含まれる属性コードは、プレースホルダーとして使用できます。
 
-![製品フィールドの自動生成](../configuration-reference/catalog/assets/catalog-product-fields-auto-generation.png){width="600" zoomable="yes"}
+![ 製品フィールドの自動生成 ](../configuration-reference/catalog/assets/catalog-product-fields-auto-generation.png){width="600" zoomable="yes"}
 
-これらの設定の詳細なリストについては、を参照してください [製品フィールドの自動生成](../configuration-reference/catalog/catalog.md#product-fields-auto-generation) が含まれる _設定リファレンス_.
+これらの設定の詳細なリストについては、[ 設定リファレンス ](../configuration-reference/catalog/catalog.md#product-fields-auto-generation) の _製品フィールドの自動生成_ を参照してください。
 
 ### プレースホルダー値の編集
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Catalog]** を選択します **[!UICONTROL Catalog]** その下に。
+1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Product Fields Auto-Generation]** をセクション化し、必要な変更をプレースホルダー値に加えます。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Product Fields Auto-Generation]**」セクションを展開し、プレースホルダーの値に必要な変更を加えます。
 
    例えば、すべてのメタ説明に含めるすべての製品またはフレーズに含める特定のキーワードがある場合は、適切なフィールドに直接値を入力します。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
    >
    >既存のプレースホルダー値を保持する場合は、各マークアップタグを囲む二重中括弧を保持します。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ### 共通のプレースホルダー
 

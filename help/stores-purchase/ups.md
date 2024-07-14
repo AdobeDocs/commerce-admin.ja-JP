@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->UPS が使用できる機能 [寸法重量](carriers.md#dimensional-weight) 配送料を決定します。 ただし、Adobe Commerceでは、重量ベースの送料の計算のみをサポートしています。
+>UPS では [ ディメンション重量 ](carriers.md#dimensional-weight) を使用して、一部の配送料を算出できます。 ただし、Adobe Commerceでは、重量ベースの送料の計算のみをサポートしています。
 
 ## 手順 1: UPS 出荷アカウントのオープン
 
@@ -26,56 +26,56 @@ ht-degree: 0%
 
 ## 手順 2：ストアに対して UPS を有効にする
 
-1. 日 _管理者サイドバー_&#x200B;に移動します。 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者サイドバー_ で、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルの下の **[!UICONTROL Sales]**、を選択 **[!UICONTROL Delivery Methods]**.
+1. 左側のパネルの **[!UICONTROL Sales]** の下で、「**[!UICONTROL Delivery Methods]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL UPS]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL UPS]**」セクションを展開します。
 
-1. を設定 **[!UICONTROL Enabled for Checkout]** 対象： `Yes`.
+1. **[!UICONTROL Enabled for Checkout]** を `Yes` に設定します。
 
 1. UPS REST アカウント（デフォルト）の場合、次の手順を実行します。
 
-   - UPS 資格情報を入力します。UPS ClientID をとして入力します。 **[!UICONTROL User ID]**、UPS クライアント秘密鍵を **[!UICONTROL Password]**
+   - UPS 資格情報を入力します。UPS ClientID を **[!UICONTROL User ID]**、UPS Client Secret を **[!UICONTROL Password]** と入力します。
 
-   - を設定 **[!UICONTROL Mode]** 対象： `Live` 安全な接続で UPS 出荷システムにデータを送信する。 （開発モードでは、安全な接続を介してデータが送信されません）。
+   - 安全な接続を介して UPS 出荷システムにデータを送信するには、**[!UICONTROL Mode]** を `Live` に設定します。 （開発モードでは、安全な接続を介してデータが送信されません）。
 
-   - を確認 **[!UICONTROL Gateway URL]** これはリクエストの送信に必要です。 テストモードにはサンドボックス URL を、ライブリクエストには実稼動 URL を使用します。
+   - リクエストの送信に必要な **[!UICONTROL Gateway URL]** を確認します。 テストモードにはサンドボックス URL を、ライブリクエストには実稼動 URL を使用します。
 
-   - を確認 **[!UICONTROL Tracking URL]** トラッキング情報を取得するには、この情報が必要です。 テストモードにはサンドボックス URL を、ライブリクエストには実稼動 URL を使用します。
+   - トラッキング情報の取得に必要な **[!UICONTROL Tracking URL]** を確認します。 テストモードにはサンドボックス URL を、ライブリクエストには実稼動 URL を使用します。
 
-   - を設定 **[!UICONTROL Origin of the Shipment]** 出荷元のリージョンに移動します。
+   - 出荷元の地域に **[!UICONTROL Origin of the Shipment]** を設定します。
 
-   - UPS を使用して特別料金を設定する場合は、 **[!UICONTROL Enable Negotiated Rates]** 対象： `Yes` そして 6 桁を入力してください **[!UICONTROL Shipper Number]** ups によってあなたに割り当てられました。
+   - UPS に特別料金がある場合は、**[!UICONTROL Enable Negotiated Rates]** を `Yes` に設定し、UPS によって割り当てられた 6 桁の **[!UICONTROL Shipper Number]** を入力します。
 
-   - を設定 **[!UICONTROL Live Account]** を次のいずれかに変更します。
+   - **[!UICONTROL Live Account]** を次のいずれかに設定します。
 
-      - `Yes`  – 実稼動モードで UPS を実行し、顧客に出荷方法として UPS を提供します。
-      - `No` - UPS をテスト モードで実行します。
+      - `Yes` – 実稼動モードで UPS を実行し、顧客に出荷方法として UPS を提供します。
+      - `No` - テストモードで UPS を実行します。
 
    >[!NOTE]
    >
-   >標準の United Parcel Service タイプは廃止される予定です。 新しい設定では、デフォルトのを使用します `United Parcel Service REST` タイプ。 REST タイプも、を生成するために必要です。 [配送ラベル](shipping-labels.md).<br/>
-   >2.4.7 リリースの場合 **[!UICONTROL UPS Type]**  は次の理由で削除されました `UPS` および `UPS XML` タイプは廃止予定で、次のようにスケジュールされています `UPS REST` がデフォルトです。 ネイティブのAdobe Commerce統合で使用される United Parcel Service （UPS） API は、現在 OAuth 2.0 セキュリティモデルをサポートしていないので、一時的に廃止されます。
+   >標準の United Parcel Service タイプは廃止される予定です。 新しい設定の場合は、デフォルトの `United Parcel Service REST` タイプを使用します。 REST タイプは、[ 配送ラベル ](shipping-labels.md).<br/> を生成する際にも必要です。
+   >2.4.7 リリースでは、`UPS` および `UPS XML` タイプが廃止予定で、デフォルトは `UPS REST` であるため、**[!UICONTROL UPS Type]** は削除されます。 ネイティブのAdobe Commerce統合で使用される United Parcel Service （UPS） API は、現在 OAuth 2.0 セキュリティモデルをサポートしていないので、一時的に廃止されます。
 
    >[!IMPORTANT]
    >
-   >UPS は現在のデフォルト （システム値）で使用されている HTTP のサポートを終了しています。 をクリア **[!UICONTROL Use system value]** チェックボックスをオンにして、HTTPS を使用する URL を変更します。 例： `https://www.ups.com/using/services/rave/qcostcgi.cgi`
+   >UPS は現在のデフォルト （システム値）で使用されている HTTP のサポートを終了しています。 「**[!UICONTROL Use system value]**」チェックボックスをオフにして、HTTPS を使用するように URL を変更します。 例：`https://www.ups.com/using/services/rave/qcostcgi.cgi`
 
-1. の場合 **[!UICONTROL Title]**&#x200B;で、チェックアウト時に表示する配送オプションの名前を入力します。
+1. **[!UICONTROL Title]**：チェックアウト時に表示する配送オプションの名前を入力します。
 
-   デフォルトでは、このフィールドはに設定されています。 `United Parcel Service`.
+   デフォルトでは、このフィールドは `United Parcel Service` に設定されています。
 
-   ![UPS を有効にする](../configuration-reference/sales/assets/delivery-methods-ups1.png){width="600" zoomable="yes"}
+   ![UPS を有効にする ](../configuration-reference/sales/assets/delivery-methods-ups1.png){width="600" zoomable="yes"}
 
 ## 手順 3：コンテナの説明の完了
 
-1. を設定 **[!UICONTROL Packages Request Type]** を次のいずれかに変更します。
+1. **[!UICONTROL Packages Request Type]** を次のいずれかに設定します。
 
    - `Use origin weight (few requests)`
    - `Divide to equal weight (one request)`
 
-1. の場合 **[!UICONTROL Container]**&#x200B;を選択し、出荷に使用する典型的なパッケージタイプを指定します。
+1. **[!UICONTROL Container]** しくは、出荷に使用する一般的な梱包タイプを指定します。
 
    - `Customer Packaging`
    - `UPS Letter Envelope`
@@ -90,21 +90,21 @@ ht-degree: 0%
    - `Medium Express Box`
    - `Large Express Box`
 
-1. を設定 **[!UICONTROL Weight Unit]** を、製品の重量の測定に使用するシステムに追加します。
+1. 製品の重量の測定に使用するシステムに **[!UICONTROL Weight Unit]** を設定します。
 
    UPS がサポートするウェイト システムは国によって異なります。 疑問がある場合は、UPS にどの重量システムを使用する必要があるかを尋ねます。 次のようなオプションがあります。
 
    - `LBS`
    - `KGS`
 
-1. を設定 **[!UICONTROL Destination Type]** を次のいずれかに変更します。
+1. **[!UICONTROL Destination Type]** を次のいずれかに設定します。
 
-   - `Residential`  – 出荷のほとんどは B2C （Business to Consumer）です。
-   - `Commercial`  – 出荷のほとんどは B2B です。
+   - `Residential` – ほとんどの出荷は B2C （Business to Consumer）です。
+   - `Commercial` – 出荷のほとんどは B2B です。
 
-1. を入力 **[!UICONTROL Maximum Package Weight]** 通信事業者によって許可されています。
+1. 通信事業者が許可する **[!UICONTROL Maximum Package Weight]** を入力します。
 
-1. を設定 **[!UICONTROL Pickup Method]** を次のいずれかに変更します。
+1. **[!UICONTROL Pickup Method]** を次のいずれかに設定します。
 
    - `Regular Daily Pickup`
    - `On Call Air`
@@ -112,81 +112,81 @@ ht-degree: 0%
    - `Letter Center`
    - `Customer Counter`
 
-1. を入力 **[!UICONTROL Minimum Package Weight]** 通信事業者によって許可されています。
+1. 通信事業者が許可する **[!UICONTROL Minimum Package Weight]** を入力します。
 
-   ![コンテナの説明](./assets/ups2.png){width="600" zoomable="yes"}
+   ![ コンテナの説明 ](./assets/ups2.png){width="600" zoomable="yes"}
 
 ## 手順 4：手数料の設定
 
 手数料は任意で、UPS の送料に加算される追加料金として表示されます。 手数料を含める場合は、次の操作を行います。
 
-1. を設定 **[!UICONTROL Calculate Handling Fee]** 次のいずれかの方法を使用します。
+1. **[!UICONTROL Calculate Handling Fee]** を次のいずれかのメソッドに設定します。
 
    - `Fixed`
    - `Percent`
 
-1. 手数料の適用方法を決定するには、を設定します **[!UICONTROL Handling Applied]** を次のいずれかに変更します。
+1. 手数料の適用方法を決定するには、**[!UICONTROL Handling Applied]** を次のいずれかに設定します。
 
    - `Per Order`
    - `Per Package`
 
-1. 金額を入力 **[!UICONTROL Handling Fee]** 請求される。
+1. 請求する **[!UICONTROL Handling Fee]** の金額を入力します。
 
-   パーセンテージを入力するには、小数点形式を使用します。 例えば、 `0.25` 25% の場合。
+   パーセンテージを入力するには、小数点形式を使用します。 例えば、25% の場合は `0.25` と入力します。
 
-   ![手数料](./assets/ups3.png){width="600" zoomable="yes"}
+   ![ 手数料 ](./assets/ups3.png){width="600" zoomable="yes"}
 
 ## 手順 5：許可される方法と適用可能な国を指定
 
-1. の場合 **[!UICONTROL Allowed Methods]**&#x200B;顧客が使用できる各 UPS 配送方法を選択します。
+1. **[!UICONTROL Allowed Methods]** しくは、顧客が使用できる各 UPS 配送方法を選択します。
 
    チェックアウト時に UPS の下にメソッドが表示されます。 複数の方法を選択するには、Ctrl キー（PC）または Command キー（Mac）を押したまま、各オプションをクリックします。
 
-1. を指定する場合 [送料無料](shipping-free.md) ups 経由のオプション、送料無料オプションを設定します。
+1. UPS 経由で [ 送料無料 ](shipping-free.md) オプションを提供する場合は、送料無料オプションを設定します。
 
-   - を設定 **[!UICONTROL Free Method]** を送料無料に使用する方法に変更します。 UPS 経由で送料無料を提供したくない場合は、次のいずれかを選択します `None`.
+   - 送料無料に使用する方法に **[!UICONTROL Free Method]** を設定します。 UPS を通じて送料無料を提供したくない場合は、`None` を選択します。
 
-   - UPS を使用した無料配送の注文に適合する最小注文金額を要求するには、次のように設定します **[!UICONTROL Enable Free Shipping Threshold]** 対象： `Enable`. 次に、で最小値を入力します **[!UICONTROL Free Shipping Amount Threshold]**.
+   - UPS を使用した送料無料の注文に該当する最小注文額を要求するには、**[!UICONTROL Enable Free Shipping Threshold]** を `Enable` に設定します。 次に、**[!UICONTROL Free Shipping Amount Threshold]** に最小値を入力します。
 
-1. 必要に応じて、 **[!UICONTROL Displayed Error Message]**.
+1. 必要に応じて、**[!UICONTROL Displayed Error Message]** を変更します。
 
    このテキスト ボックスには既定のメッセージがあらかじめ設定されていますが、UPS が使用できなくなったときに表示する別のメッセージを入力できます。
 
-   ![許可されるメソッド](./assets/ups4.png){width="600" zoomable="yes"}
+   ![ 許可されるメソッド ](./assets/ups4.png){width="600" zoomable="yes"}
 
-1. を設定 **[!UICONTROL Ship to Applicable Countries]** を次のいずれかに変更します。
+1. **[!UICONTROL Ship to Applicable Countries]** を次のいずれかに設定します。
 
-   - `All Allowed Countries`  – すべてのお客様 [国](../getting-started/store-details.md#country-options) ストア設定で指定されたこの配信方法を使用できます。
-   - `Specific Countries`  – このオプションを選択すると、 _特定の国に出荷_ リストが表示されます。 リストで、この配信方法を使用できる国を選択します。
+   - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) の顧客がこの配信方法を使用できます。
+   - `Specific Countries` – このオプションを選択すると、「_特定の国に発送_ リストが表示されます。 リストで、この配信方法を使用できる国を選択します。
 
-1. を設定 **[!UICONTROL Show Method if Not Applicable]** を次のいずれかに変更します。
+1. **[!UICONTROL Show Method if Not Applicable]** を次のいずれかに設定します。
 
-   - `Yes` - チェックアウト時に利用可能なすべての UPS 発送方法を一覧表示します。このリストには、出荷に適用されない方法も含まれます。
-   - `No`  – 出荷に適用可能な UPS 出荷方法のみをリストします。
+   - `Yes` - チェックアウト時に利用可能なすべての UPS 配送方法を一覧表示します。これには、配送に適用されない方法も含まれます。
+   - `No` – 出荷に適用可能な UPS 出荷方法のみをリストします。
 
-   ![対象国](./assets/ups5.png){width="600" zoomable="yes"}
+   ![ 対象国 ](./assets/ups5.png){width="600" zoomable="yes"}
 
-1. ストアからの UPS 出荷の詳細を記録したログ ファイルを作成するには、次のように設定します **[!UICONTROL Debug]** 対象： `Yes`.
+1. ストアから行われた UPS 出荷の詳細を記録したログ ファイルを作成するには、**[!UICONTROL Debug]** を `Yes` に設定します。
 
-1. の場合 **[!UICONTROL Sort Order]**：数字を入力して、チェックアウト時に他の配信方法と共にリストされたときに UPS が表示される順序を決定します。
+1. **[!UICONTROL Sort Order]**：番号を入力して、チェックアウト時に他の配信方法と一緒に表示される UPS の順序を決定します。
 
-   `0` =最初、 `1` =秒、 `2` = 3 番目、以下同様です。
+   `0` = 1 番目、`1` = 2 番目、`2` = 3 番目など。
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。
 
 ## 手順 6：発送元住所の設定
 
-1. 次のことを確認します [ストア情報](../getting-started/store-details.md#store-information) が完了しました。
+1. [ ストア情報 ](../getting-started/store-details.md#store-information) が完成していることを確認します。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択して、 **[!UICONTROL Shipping Settings]**.
+1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Shipping Settings]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) **[!UICONTROL Origin]** ページで、発送元住所を設定します。
+1. ページの ![ 拡張セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Origin]** を展開し、発送元住所を設定します。
 
-   ![販売設定 – 発送元住所オプション](./assets/shipping-origin.png){width="600" zoomable="yes"}
+   ![ 販売設定 – 発送元住所オプション ](./assets/shipping-origin.png){width="600" zoomable="yes"}
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。
 
 >[!NOTE]
 >

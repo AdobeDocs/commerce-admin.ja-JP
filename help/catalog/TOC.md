@@ -17,7 +17,7 @@ ht-degree: 1%
 + [カタログ管理ガイド](guide-overview.md)
 + [カタログ管理の概要](introduction.md)
 + [カタログメニュー](catalog-menu.md)
-+ カタログの基本 {#catalog}
++ Catalog basics {#catalog}
    + [カタログおよび製品 URL](catalog-urls.md)
    + [フラット カタログ](catalog-flat.md)
    + カタログナビゲーション {#navigation}
@@ -31,18 +31,18 @@ ht-degree: 1%
       + [カタログ検索の設定](search-configuration.md)
       + [検索結果](search-results.md)
       + [検索語句の管理](search-terms.md)
-+ カテゴリ {#categories}
++ Categories {#categories}
    + [カテゴリの概要](categories.md)
    + [ルートのカテゴリと階層](category-root.md)
    + [非表示のカテゴリ](category-hidden.md)
-   + カテゴリの作成と更新 {#create}
+   + のカテゴリの作成 {#create} 更新
       + [カテゴリの作成](category-create.md)
       + [コンテンツ設定](categories-content-settings.md)
       + [ディスプレイ設定](categories-display-settings.md)
       + [検索エンジン最適化設定](categories-search-engine-optimization.md)
       + [デザイン設定](categories-custom-design.md)
       + [カテゴリの変更](category-modify.md)
-   + カテゴリ内の製品 {#products-in-category}
+   + カテゴリ {#products-in-category} の製品
       + [製品の割り当て](categories-product-assignments.md)
       + [カテゴリ製品の並べ替え](category-products-sort.md)
       + [カテゴリ製品の追加と削除](category-products-add.md)
@@ -52,7 +52,7 @@ ht-degree: 1%
    + [商品リスト](products-list.md)
    + [製品ワークスペース](product-workspace.md)
    + [製品の作成](product-create.md)
-   + 製品タイプ {#types}
+   + 商品タイプ {#types}
       + [シンプル製品](product-create-simple.md)
       + [設定可能な製品](product-create-configurable.md)
       + [グループ化された製品](product-create-grouped.md)
@@ -68,7 +68,7 @@ ht-degree: 1%
       + 製品 3D モデルの管理 {#product-3d-model}
          + [AR ビューアの概要](ar-viewer-overview.md)
          + [AR ビューアの設定](ar-viewer-setup.md)
-   + 価格の管理 {#pricing}
+   + 価格 {#pricing} の管理
       + [価格範囲](catalog-price-scope.md)
       + [高度な価格設定](pricing-advanced.md)
       + [グループの価格](product-price-group.md)
@@ -95,9 +95,9 @@ ht-degree: 1%
    + [属性入力タイプ](attributes-input-types.md)
    + [製品への属性の追加](product-attributes-add.md)
    + [製品スウォッチ](swatches.md)
-   + 属性の作成と更新 {#create}
+   + の属性の作成 {#create} 更新
       + [属性の作成および削除](attribute-product-create.md)
       + [一括更新](bulk-product-attribute-update.md)
       + [属性セット](attribute-sets.md)
-+ [Merchant Guides に戻る](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [ マーチャントガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

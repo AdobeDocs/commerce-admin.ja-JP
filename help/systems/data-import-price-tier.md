@@ -12,33 +12,33 @@ ht-degree: 0%
 
 # 階層の価格のインポート
 
-入るのではなく [階層価格](../catalog/product-price-tier.md) 製品ごとに手動で行う方が、次の操作を行う際に効率的です [import](data-import.md) 価格データ。 開始する前に、テンプレートとして使用できる、書き出された階層価格データのサンプルファイルを作成します。
+製品ごとに [ 階層価格 ](../catalog/product-price-tier.md) を手動で入力する代わりに、価格データを [ インポート ](data-import.md) する方が効率的な場合があります。 開始する前に、テンプレートとして使用できる、書き出された階層価格データのサンプルファイルを作成します。
 
-![ストアフロントの例 – 階層化された価格](./assets/storefront-tier-pricing-water-bottle.png){width="700" zoomable="yes"}
+![ ストアフロントの例 – 階層化された価格 ](./assets/storefront-tier-pricing-water-bottle.png){width="700" zoomable="yes"}
 
 ## 手順 1：階層価格データのエクスポート
 
-次の例では、1 つの製品の階層価格データを書き出します。 次に、書き出されたデータを、階層価格データの一括読み込みのテンプレートとして使用できます。 詳細価格データのエクスポートについて詳しくは、 [高度な価格データ](data-attributes-product.md#advanced-pricing-attributes).
+次の例では、1 つの製品の階層価格データを書き出します。 次に、書き出されたデータを、階層価格データの一括読み込みのテンプレートとして使用できます。 詳細価格データのエクスポートについて詳しくは、[ 詳細価格データ ](data-attributes-product.md#advanced-pricing-attributes) を参照してください。
 
-![製品の階層化された価格](./assets/price-tier-customer-group-discount.png){width="600" zoomable="yes"}
+![ 製品ティアド価格 ](./assets/price-tier-customer-group-discount.png){width="600" zoomable="yes"}
 
-1. 日付： _Admin_ サイドバー、に移動  **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Export]**に移動します。
 
-1. 次の下 _[!UICONTROL Export Settings]_、設定&#x200B;**[!UICONTROL Entity Type]**対象： `Advanced Pricing`.
+1. _[!UICONTROL Export Settings]_で、**[!UICONTROL Entity Type]**を `Advanced Pricing` に設定します。
 
-1. が含まれる **[!UICONTROL Entity Attributes]** グリッドで、下にスクロールして SKU 属性を選択し、次の手順を実行します。
+1. **[!UICONTROL Entity Attributes]** グリッドで、下にスクロールして SKU 属性を選択し、以下の操作を行います。
 
    - 割引率に基づく階層価格の場合、書き出す各製品の SKU をコンマで区切って入力します。
 
-     ![データのエクスポート – 製品 SKU](./assets/price-tier-export-sku.png){width="600" zoomable="yes"}
+     ![ データのエクスポート – 製品 SKU](./assets/price-tier-export-sku.png){width="600" zoomable="yes"}
 
    - 固定金額に基づく階層価格については、各製品の SKU を入力します。
 
-   - 下にスクロールして、 **[!UICONTROL Continue]**.
+   - 下にスクロールして、「**[!UICONTROL Continue]**」をクリックします。
 
 1. Web ブラウザーのダウンロード先にあるエクスポートファイルを探して開きます。
 
-   ![例 – 書き出された顧客グループ割引階層の価格データ](./assets/price-tier-customer-group-discount-export.png){width="600" zoomable="yes"}
+   ![ 例 – 書き出された顧客グループ割引階層の価格データ ](./assets/price-tier-customer-group-discount-export.png){width="600" zoomable="yes"}
 
 **_エクスポートされた階層価格データ_**
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    階層価格アップデートのない製品は、CSV ファイルから削除できます。 変更されていない製品を再インポートする必要はありません。
 
-1. **[!UICONTROL Save]** 更新された CSV ファイル。
+1. 更新された CSV ファイルを **[!UICONTROL Save]** きます。
 
 >[!NOTE]
 >
@@ -67,16 +67,16 @@ ht-degree: 0%
 
 ## 手順 3：更新したデータのインポート
 
-1. 日付： _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import]**に移動します。
 
-1. 次の下 _設定を読み込み_、設定 **[!UICONTROL Entity Type]** 対象： `Advanced Pricing`.
+1. _読み込み設定_ で、**[!UICONTROL Entity Type]** を `Advanced Pricing` に設定します。
 
-1. を設定 **[!UICONTROL Import Behavior]** 対象： `Add/Update`.
+1. **[!UICONTROL Import Behavior]** を `Add/Update` に設定します。
 
-1. 次の下 **[!UICONTROL File to Import]**&#x200B;を選択し、 **[!UICONTROL Choose File]** ディレクトリからインポートするファイルを選択します。
+1. **[!UICONTROL File to Import]** の下の **[!UICONTROL Choose File]** をクリックし、ディレクトリからインポートするファイルを選択します。
 
-1. 右上隅のをクリックします。 **[!UICONTROL Check Data]**.
+1. 右上隅の「**[!UICONTROL Check Data]**」をクリックします。
 
-1. ファイルが有効な場合、 **[!UICONTROL Import]**.
+1. ファイルが有効な場合は、[**[!UICONTROL Import]**] をクリックします。
 
    それ以外の場合は、メッセージにリストされているデータの各問題を修正し、ファイルを再度インポートしてください。

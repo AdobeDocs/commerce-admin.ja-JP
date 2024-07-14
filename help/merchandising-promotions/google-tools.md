@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ストア設定は、コンテンツを最適化し、トラフィックを分析し、カタログをショッピングアグリゲータおよびマーケットプレイスに接続するのに役立つ、次のGoogle ツールと統合されています。
 
-- [Google Analytics](google-analytics.md)  – 使用 _Google Universal Analytics_ オフラインおよびモバイルアプリのインタラクションをサポートし、継続的な更新にアクセスできるので、トラッキング用の追加のカスタムディメンションと指標を定義できます。
+- [Google Analytics](google-analytics.md) - _Google Universal Analytics_ を使用すると、オフラインおよびモバイルアプリのインタラクションをサポートし、継続的な更新にアクセスできるので、トラッキング用にさらにカスタムのディメンションと指標を定義できます。
 
-- [Google コンテンツ実験](google-content-experiments.md) -Google Analyticsコンテンツ実験を使用して、製品、カテゴリまたはコンテンツページに対する A/B テストを設定します。
+- [Google コンテンツ実験 ](google-content-experiments.md) - Google Analyticsコンテンツ実験を使用して、商品、カテゴリまたはコンテンツページに対する A/B テストを設定します。
 
-- [Google Tag Manager](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）Google タグマネージャーを使用して、マーケティングキャンペーンイベントに関連する多くのタグを管理します。
+- [Google タグマネージャー ](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） Google タグマネージャーを使用して、マーケティングキャンペーンイベントに関連する多くのタグを管理します。
 
 - [Google AdWords](google-adwords.md) - Google AdWords キャンペーンを作成し、ストアのコンバージョンを追跡します。
 
@@ -26,15 +26,15 @@ ht-degree: 0%
 
 ## Google プライバシー設定
 
-次のようなプライバシー規制に準拠する必要がある場合： [GDPR](../getting-started/compliance-gdpr.md) または [CCPA](../getting-started/compliance-ccpa.md)プライバシー要件を満たすようにGoogle ツールのデフォルト設定を変更します。 次の手順に従って、顧客データの使用が引き続きコンプライアンスに準拠していることを確認します。
+[GDPR](../getting-started/compliance-gdpr.md) または [CCPA](../getting-started/compliance-ccpa.md) などのプライバシー規制に準拠する必要がある場合は、プライバシー要件を満たすようにGoogle ツールのデフォルト設定を変更します。 次の手順に従って、顧客データの使用が引き続きコンプライアンスに準拠していることを確認します。
 
 ### 手順 1:Google設定の更新
 
-1. [ログイン][1]{: target=&quot;_blank&quot;} を会社のGoogle Analytics アカウントに追加します。
+1. 会社のGoogle Analytics アカウントに [ ログイン ][1]{: target=&quot;_blank&quot;}。
 
-1. 左サイドバーの下部にある **[!UICONTROL Admin]**&#x200B;に移動した後、編集するアカウントに移動します（該当する場合）。
+1. 左側のサイドバーの下部で「**[!UICONTROL Admin]**」を選択し、編集するアカウントに移動します（該当する場合）。
 
-1. が含まれる **[!UICONTROL Account]** 列、クリック **[!UICONTROL Account Settings]**.
+1. 「**[!UICONTROL Account]**」列で「**[!UICONTROL Account Settings]**」をクリックします。
 
 1. プライバシー規制の要件を満たすには、データ共有をオフにします。
 
@@ -45,22 +45,22 @@ ht-degree: 0%
    - テクニカルサポート
    - アカウントスペシャリスト
 
-1. を承認 _データ処理の修正_.
+1. _データ処理の修正_ を受け入れます。
 
-   Google Ads データ処理条件では、Googleによるデータの処理方法と、GDPR の対象となるビジネスのデータセキュリティを確保するために必要な対策について説明します。 法人の記録と連絡先情報も修正で維持されます。 終了 [詳細を表示する][2]{: target=&quot;_blank&quot;}、ページ上部のメッセージ内のリンクをクリックします。
+   Google Ads データ処理条件では、Googleによるデータの処理方法と、GDPR の対象となるビジネスのデータセキュリティを確保するために必要な対策について説明します。 法人の記録と連絡先情報も修正で維持されます。 [ 詳細情報 ][2]{:target=&quot;_blank&quot;} するには、ページ上部のメッセージ内のリンクをクリックします。
 
-   - ページを下にスクロールして、 **[!UICONTROL Data Processing Amendment]**.
-   - クリック **[!UICONTROL Review Amendment]** を読む _Google広告のデータ処理条件_.
-   - クリック **[!UICONTROL Accept]**.
-   - クリック **[!UICONTROL Save]**.
+   - **[!UICONTROL Data Processing Amendment]** までページを下にスクロールします。
+   - **[!UICONTROL Review Amendment]** をクリックして、_Google Ads データ処理条件_ をお読みください。
+   - 「**[!UICONTROL Accept]**」をクリックします。
+   - 「**[!UICONTROL Save]**」をクリックします。
 
-1. を完了する _DPA 管理_ の詳細。
+1. _DPA 管理_ の詳細を入力します。
 
-   - クリック **[!UICONTROL Manage DPA Details]** 連絡先と組織の法人を編集できる DPA 管理ページを開きます。
+   - 「**[!UICONTROL Manage DPA Details]**」をクリックすると、DPA 管理ページが開き、担当者および組織の法的エンティティを編集できます。
 
-   - が含まれる **[!UICONTROL Legal Entities]** セクションで、 _編集_ （ ![Google編集アイコン](./assets/google-icon-edit.png) ） アイコンをクリックし、組織の登録済みの名前を 1 つ以上追加します。 完了したら、 **[!UICONTROL Save]**.
+   - 「**[!UICONTROL Legal Entities]**」セクションで、「_編集_ （![Google編集アイコン ](./assets/google-icon-edit.png)）」アイコンをクリックし、組織の 1 つ以上の登録名を追加します。 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
-   - が含まれる **連絡先** セクションで、 _追加_ （ ![Google追加アイコン](./assets/google-icon-add.png) ）アイコンをクリックし、最初の連絡先の情報を入力します。 次に、該当する各役割のチェックボックスをオンにし、 **[!UICONTROL Add]**.
+   - 「**連絡先**」セクションで、「_追加_ （![Google追加アイコン ](./assets/google-icon-add.png)）」アイコンをクリックして、最初の連絡先の情報を入力します。 次に、該当する各役割のチェックボックスをオンにして、「**[!UICONTROL Add]**」をクリックします。
 
       - プライマリ連絡先 – （通知メールアドレス）通知の送信先の連絡先。
       - データ保護責任者 – （該当する場合）プライバシー規制のコンプライアンスを促進するために指定された人物。
@@ -70,11 +70,11 @@ ht-degree: 0%
 
 ### 手順 2:Google JS ライブラリを変更する
 
-Googleでは、Google製品に応じて web サイトの使用状況を測定する 3 つの JavaScript ライブラリがサポートされています。 `gtag.js`, `analytics.js`、および `ga.js`. プライバシー要件を満たすために、標準コードを次のように変更できます。
+Googleでは、Google製品に応じて web サイトの使用状況を測定する 3 つのJavaScript ライブラリ（`gtag.js`、`analytics.js`、`ga.js`）がサポートされています。 プライバシー要件を満たすために、標準コードを次のように変更できます。
 
 #### IP アドレスの匿名化
 
-で使用される IP アドレスを匿名化するには **_Google Universal Analytics_**&#x200B;次のスニペットをに追加します `analytics.js` web サーバー上のライブラリ：
+**_Google Universal Analytics_** で使用される IP アドレスの匿名化を行うには、次のスニペットを Web サーバー上の `analytics.js` ライブラリに追加します。
 
 analytics.js
 
@@ -82,9 +82,9 @@ analytics.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-詳しくは、 [Analytics.js フィールドリファレンス][3]Google ヘルプの {: target=&quot;_blank&quot;}。
+詳しくは、Google ヘルプの [Analytics.js フィールドリファレンス ][3]{: target=&quot;_blank&quot;} を参照してください。
 
-レガシーを使用する場合 `ga.js` ライブラリに、次のスニペットを追加します。
+従来の `ga.js` ライブラリを使用する場合は、次のスニペットを追加します。
 
 ga.js
 
@@ -92,7 +92,7 @@ ga.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-で使用される IP アドレスを匿名化するには **_Google Tag Manager_**、を設定 `anonymize_ip` パラメーター先 `true` が含まれる `gtag.js` web サーバー上のライブラリ。
+**_Google Tag Manager_** で使用される IP アドレスを匿名化するには、Web サーバー上の `gtag.js` ライブラリで `anonymize_ip` パラメーターを `true` に設定します。
 
 gtag.js
 
@@ -100,11 +100,11 @@ gtag.js
 : `gtag('event', 'your_event', { 'anonymize_ip': true })`
 ```
 
-詳しくは、 [Analytics での IP の匿名化][4] （Google ヘルプ）。
+詳しくは、Google ヘルプの [Analytics での IP 匿名化 ][4] を参照してください。
 
 #### SSL を強制
 
-すべてのGoogle データを Secure Socket Layer （SSL）経由で強制的に送信するには、次のスニペットをに追加します。 `analytics.js` web サーバー上のライブラリ。
+すべてのGoogle データを Secure Socket Layer （SSL）経由で強制的に送信するには、次のスニペットを web サーバーの `analytics.js` ライブラリに追加します。
 
 analytics.js
 
@@ -114,7 +114,7 @@ analytics.js
 
 ### 手順 3：プライバシーポリシーを更新する
 
-を更新 [プライバシーポリシー](../getting-started/privacy-policy.md) 会社について次のように述べます。
+[ プライバシーポリシー ](../getting-started/privacy-policy.md) を更新し、会社について説明します。
 
 - Google Analyticsの使用
 - IP アドレスをマスクして個人情報を非表示にする

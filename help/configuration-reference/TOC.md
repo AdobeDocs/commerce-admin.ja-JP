@@ -1,6 +1,6 @@
 ---
 user-guide-title: 設定リファレンスガイド
-user-guide-description: このガイドでは、**の_Admin_ サイドバーからアクセスできるすべてのストア設定のリファレンス情報を提供します[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**。
+user-guide-description: このガイドでは、_Admin_ サイドバー（**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**）からアクセスできるすべてのストア設定のリファレンス情報を提供します。
 breadcrumb-title: 設定リファレンス
 hide: false
 role: Admin, Developer, User
@@ -28,7 +28,7 @@ ht-degree: 0%
    - [コンテンツ管理](./general/content-management.md)
    - [New Relic レポート](./general/new-relic-reporting.md)
    - [高度なレポート](./general/advanced-reporting.md)
-- カタログ {#catalog}
+- Catalog {#catalog}
    - [カタログ](./catalog/catalog.md)
    - [ビジュアルマーチャンダイザー](./catalog/visual-merchandiser.md)
    - [在庫](./catalog/inventory.md)
@@ -52,7 +52,7 @@ ht-degree: 0%
    - [プロモーション](./customers/promotions.md)
    - [ギフト レジストリ](./customers/gift-registry.md)
    - [永続ショッピングカート](./customers/persistent-shopping-cart.md)
-- 売上 {#sales}
+- 営業 {#sales}
    - [売上](./sales/sales.md)
    - [販売メール](./sales/sales-emails.md)
    - [見積もり](./sales/quotes.md)
@@ -84,5 +84,5 @@ ht-degree: 0%
    - [Admin](./advanced/admin.md)
    - [システム](./advanced/system.md)
    - [開発者](./advanced/developer.md)
-- [Merchant Guides に戻る](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [ マーチャントガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

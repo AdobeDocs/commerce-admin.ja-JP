@@ -12,76 +12,76 @@ ht-degree: 0%
 
 # ユーザーによるログイン
 
-顧客は、ストア内のすべてのページから自分のアカウントに簡単にアクセスできます。 応じて [設定](../customers/account-options-new.md)の場合、顧客はアカウントダッシュボードにリダイレクトしたり、アカウントにログインした後で買い物を続行したりできます。
+顧客は、ストア内のすべてのページから自分のアカウントに簡単にアクセスできます。 [ 設定 ](../customers/account-options-new.md) に応じて、顧客はアカウントダッシュボードにリダイレクトしたり、アカウントにログインした後で買い物を続行したりできます。
 
-次の場合 [CAPTCHA](../systems/security-captcha.md) が有効になっている設定では、ユーザーはアカウントにアクセスする前に、自分が人間であることを確認するテストを正しく完了する必要があります。
+設定で [CAPTCHA](../systems/security-captcha.md) が有効になっている場合、アカウントにアクセスする前に、人間であることを確認するテストを正しく完了する必要があります。
 
-顧客がパスワードを忘れると、リセットリンクがそのアカウントに関連付けられているメールアドレスに送信されます。 この [パスワードオプション](../customers/password-options.md) 設定は、ログイン試行のカスタマーエクスペリエンスを制御します。
+顧客がパスワードを忘れると、リセットリンクがそのアカウントに関連付けられているメールアドレスに送信されます。 [ パスワードオプション ](../customers/password-options.md) 設定は、ログイン試行のカスタマーエクスペリエンスを制御します。
 
 - 顧客がパスワードの入力を試みる回数
 - 試行間隔（分）
 - アカウントがロックされるまでの合計試行回数
 - ロックアウトの長さ
 
-![ストアフロントヘッダーのサインインリンク](assets/storefront-sign-in-create-account.png){width="700" zoomable="yes"}
+![ ストアフロントヘッダーのサインインリンク ](assets/storefront-sign-in-create-account.png){width="700" zoomable="yes"}
 
 ## 顧客アカウントにサインイン
 
-1. ストアのヘッダーで、顧客は次をクリックします **[!UICONTROL Sign in]**.
+1. ストアのヘッダーで、顧客は「**[!UICONTROL Sign in]**」をクリックします。
 
-   ![カスタマーログイン](assets/login.png){width="700" zoomable="yes"}
+   ![ カスタマーログイン ](assets/login.png){width="700" zoomable="yes"}
 
-1. エントリ数 **[!UICONTROL Email]** 住所と **[!UICONTROL Password]**.
+1. **[!UICONTROL Email]** アドレスと **[!UICONTROL Password]** を入力します。
 
-1. クリック数 **[!UICONTROL Sign in]**.
+1. **[!UICONTROL Sign in]** をクリックします。
 
    >[!IMPORTANT]
    >
-   >パスワードを思い出せない場合は、 **[!UICONTROL Forgot Your Password?]** およびフォロー [指示](../customers/password-reset.md) ：パスワードをリセットします。
+   >パスワードを思い出せない場合は、お客様は **[!UICONTROL Forgot Your Password?]** をクリックし、[ 手順 ](../customers/password-reset.md) に従ってパスワードをリセットできます。
 
 ## カスタマーログイン後のアカウントダッシュボードへのリダイレクトの設定
 
 ログイン後に顧客を自分のアカウントダッシュボードにリダイレクトしたり、買い物を続行させたりするように、ストアを設定できます。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Customers]** を選択します **[!UICONTROL Customer Configuration]**.
+1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Customer Configuration]**」を選択します。
 
-1. を展開します。 **[!UICONTROL Login Options]** セクション。
+1. 「**[!UICONTROL Login Options]**」セクションを展開します。
 
-1. を設定 **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]** を次のいずれかに変更します。
+1. **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]** を次のいずれかに設定します。
 
-   - `Yes`  – 顧客が自分のアカウントにログインすると、アカウントダッシュボードが表示されます。
-   - `No`  – 顧客はアカウントにログインした後も買い物を続けることができます。
+   - `Yes` – 顧客が自分のアカウントにログインすると、アカウントダッシュボードが表示されます。
+   - `No` – 顧客はアカウントにログインした後も買い物を続けることができます。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ## Amazonでログイン
 
-が設定されているストアの場合 [!DNL Amazon Pay] および [!DNL Login with Amazon] 統合により、お客様はAmazonのバイヤーアカウントにログインできます。
+[!DNL Amazon Pay] と [!DNL Login with Amazon] の統合が設定されているストアの場合、お客様はAmazonのバイヤーアカウントにログインできます。
 
-1. ストアのヘッダーで、顧客は次をクリックします **[!UICONTROL Sign in]**.
+1. ストアのヘッダーで、顧客は「**[!UICONTROL Sign in]**」をクリックします。
 
-1. クリック数 **[!UICONTROL Login with Amazon]**.
+1. **[!UICONTROL Login with Amazon]** をクリックします。
 
-   ![Amazonでログイン](assets/amazon-pay.png){width="700" zoomable="yes"}
+   ![Amazonでログイン ](assets/amazon-pay.png){width="700" zoomable="yes"}
 
-1. ログインを求めるメッセージが表示されたら、顧客は **[!UICONTROL email address]** および **[!UICONTROL password]** Amazonのバイヤーアカウント用。
+1. ログインを求めるメッセージが表示されたら、お客様は **[!UICONTROL email address]** を入力し、Amazon Buyer アカウントを **[!UICONTROL password]** します。
 
-   ![Amazon資格情報の入力](assets/amazon-popup1.png){width="700" zoomable="yes"}
+   ![Amazon資格情報の入力 ](assets/amazon-popup1.png){width="700" zoomable="yes"}
 
-1. 購入処理時にAmazonに以下の情報をストアと共有する権限を付与するには、をクリックします **分かった**.
+1. 購入処理時にAmazonに以下の情報をストアと共有する権限を付与するには、「**OK**」をクリックします。
 
    - 名前
    - メールアドレス
    - 発送先住所
 
-   ![データ共有の権限を付与](assets/amazon-popup2.png){width="700" zoomable="yes"}
+   ![ データの共有の許可 ](assets/amazon-popup2.png){width="700" zoomable="yes"}
 
 ## 顧客アカウントからのログアウト
 
-1. の右上隅にある  _[!UICONTROL Welcome, Customer Name!]_顧客が&#x200B;**[!UICONTROL v]**メニューセレクター。
+1. _[!UICONTROL Welcome, Customer Name!]_の横にある右上隅で、顧客は「**[!UICONTROL v]**」メニューセレクターをクリックします。
 
-1. を選択 **[!UICONTROL Sign Out]**.
+1. 「**[!UICONTROL Sign Out]**」を選択します。
 
 ログアウト後、顧客はホームページにリダイレクトされます。

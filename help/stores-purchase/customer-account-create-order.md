@@ -12,33 +12,33 @@ ht-degree: 0%
 
 # オーダーの作成
 
-サポートが必要な登録ユーザーの場合は、管理者から直接注文全体を作成できます。 この _[!UICONTROL Create New Order]_フォームには、通常のチェックアウトプロセスに必要なすべての情報と、顧客のアカウントダッシュボードに表示されるアクティビティ概要が含まれます。
+サポートが必要な登録ユーザーの場合は、管理者から直接注文全体を作成できます。 _[!UICONTROL Create New Order]_フォームには、通常のチェックアウトプロセスに必要なすべての情報と、顧客のアカウントダッシュボードからのアクティビティ概要が含まれます。
 
-![顧客の注文の作成](./assets/create-new-order.png){width="700" zoomable="yes"}
+![ 顧客の注文の作成 ](./assets/create-new-order.png){width="700" zoomable="yes"}
 
 ## 手順 1：オーダーの作成
 
-1. 日 _Admin_ サイドバー、クリック **[!UICONTROL Customers]**.
+1. _管理者_ サイドバーで、「**[!UICONTROL Customers]**」をクリックします。
 
 1. グリッドで顧客を検索します。
 
-1. が含まれる _アクション_ 列、クリック **[!UICONTROL Edit]**.
+1. _アクション_ 列の「**[!UICONTROL Edit]**」をクリックします。
 
-1. ワークスペースヘッダーで、 **[!UICONTROL Create Order]**.
+1. ワークスペースヘッダーで、「**[!UICONTROL Create Order]**」をクリックします。
 
-   ![ワークスペースヘッダー](./assets/order-create-buttons.png){width="700" zoomable="yes"}
+   ![Workspace ヘッダー ](./assets/order-create-buttons.png){width="700" zoomable="yes"}
 
-   で注文を作成することもできます [注文ワークスペース](orders.md#orders-workspace) クリックして **[!UICONTROL Create New Order]**.
+   [ 注文ワークスペース ](orders.md#orders-workspace) で **[!UICONTROL Create New Order]** をクリックして注文を作成することもできます。
 
 ## 手順 2：製品を追加
 
 ストアに複数のビューがある場合は、注文を行うストア表示を選択します。
 
-### からの製品の追加 [!UICONTROL Customer's Activities] サイドバー
+### [!UICONTROL Customer's Activities] サイドバーからの製品の追加
 
 顧客のウィッシュリストから買い物かごに項目を転送したり、最近表示した項目、比較した項目または注文した項目を転送したりできます。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) 次のセクションの 1 つ：
+1. 次のいずれかのセクションで ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 
    - **[!UICONTROL Wish List]**
    - **[!UICONTROL Last Ordered Items]**
@@ -48,21 +48,21 @@ ht-degree: 0%
 
 1. 左側のパネルで各製品のチェックボックスをオンにします。
 
-1. 下にスクロールして、 **[!UICONTROL Update Changes]**.
+1. 下にスクロールして、「**[!UICONTROL Update Changes]**」をクリックします。
 
    項目が注文フォームに表示されます。
 
-   ![カートに追加](./assets/create-order-add-wishlist.png){width="600" zoomable="yes"}
+   ![ 買い物かごに追加 ](./assets/create-order-add-wishlist.png){width="600" zoomable="yes"}
 
 ### カタログから製品を追加
 
-1. クリック **[!UICONTROL Add Products]**.
+1. 「**[!UICONTROL Add Products]**」をクリックします。
 
-   ![製品を追加](./assets/account-add-wishlist-product.png){width="600" zoomable="yes"}
+   ![ 製品を追加 ](./assets/account-add-wishlist-product.png){width="600" zoomable="yes"}
 
-1. グリッドで、カートに追加する各製品のチェックボックスを選択し、 **[!UICONTROL Qty]** 購入予定。
+1. グリッドで、買い物かごに追加する各製品のチェックボックスを選択し、購入する **[!UICONTROL Qty]** を入力します。
 
-   ![製品を選択](./assets/create-order-from-catalog.png){width="600" zoomable="yes"}
+   ![ 製品の選択 ](./assets/create-order-from-catalog.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -70,23 +70,23 @@ ht-degree: 0%
 
 1. 使用可能な製品オプションを設定します。
 
-   - クリック **[!UICONTROL Configure]**.
+   - 「**[!UICONTROL Configure]**」をクリックします。
 
    - 必要に応じてオプションを入力します。
 
-   - クリック **[!UICONTROL OK]**.
+   - 「**[!UICONTROL OK]**」をクリックします。
 
-   - クリック **[!UICONTROL Add Selected Product(s) to Order]** ：買い物かごを更新します。
+   - 「**[!UICONTROL Add Selected Product(s) to Order]**」をクリックすると、買い物かごが更新されます。
 
-1. 製品が次のように設定されている場合： [ギフトオプション](../catalog/product-gift-options.md)必要に応じてオプションを設定します。
+1. 製品が [ ギフトオプション ](../catalog/product-gift-options.md) に設定されている場合は、必要に応じてオプションを設定します。
 
 1. 必要に応じて品目の価格を上書きします。
 
-   - 「」を選択します **[!UICONTROL Custom Price]** チェックボックスをオンにして、下のボックスに新しい価格を入力します。
+   - 「**[!UICONTROL Custom Price]**」チェックボックスをオンにして、下のボックスに新しい価格を入力します。
 
-   - 買い物かごの合計を更新するには、をクリックします **[!UICONTROL Update Items and Quantities]**.
+   - 買い物かごの合計を更新するには、「**[!UICONTROL Update Items and Quantities]**」をクリックします。
 
-   ![カスタム価格](./assets/create-order-custom-price.png){width="600" zoomable="yes"}
+   ![ カスタム価格 ](./assets/create-order-custom-price.png){width="600" zoomable="yes"}
 
 1. 注文の際に必要に応じて、以下の節を完了してください。
 
@@ -98,10 +98,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->を参照してください。 [支払いサービスガイド](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html) 支払いサービス拡張機能がインストールおよび設定されている場合に、この機能をサポートする支払い方法の詳細を確認します。
+>Payment Services 拡張機能がインストールおよび設定されている場合に、この機能をサポートする支払方法の詳細については、[Payment Services Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html) を参照してください。
 
 ## 手順 3：注文を送信する
 
-クリック **[!UICONTROL Submit Order]**.
+「**[!UICONTROL Submit Order]**」をクリックします。
 
 確認が顧客に送信され、顧客は自分のアカウントから注文の詳細を表示できます。

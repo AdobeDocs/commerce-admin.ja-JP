@@ -18,23 +18,23 @@ ht-degree: 0%
 >
 >クーポン買い物かごルールに、特定の配送方法や支払い方法など、チェックアウトオプションを指定する条件がある場合、条件は、特定の配送方法または支払い方法が選択された後のチェックアウトでのみ満たされます。 この場合、クーポンは最後の手順のチェックアウト時に適用できます。
 
-![ストアフロントの例 – カートにクーポンを適用](./assets/storefront-cart-apply-coupon.png){width="600" zoomable="yes"}
+![ ストアフロントの例 – カートにクーポンを適用 ](./assets/storefront-cart-apply-coupon.png){width="600" zoomable="yes"}
 
 ## 買い物かご価格ルールへのアクセス
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Cart Price Rules]**に移動します。
 
-   ![買い物かご価格ルール](./assets/price-rule-cart.png){width="700" zoomable="yes"}
+   ![ 買い物かご価格ルール ](./assets/price-rule-cart.png){width="700" zoomable="yes"}
 
-1. ルール数が多い場合は、各列の上部にあるフィルターオプションを使用してリストを整理し、をクリックします **[!UICONTROL Search]** をクリックしてフィルターを適用します。
+1. ルールの数が多い場合は、各列の上部にあるフィルターオプションを使用してリストを効率化し、**[!UICONTROL Search]** をクリックしてフィルターを適用します。
 
-1. すべてのフィルタ オプションをクリアして完全な一覧を表示するには、 **[!UICONTROL Reset Filter]**.
+1. すべてのフィルタ オプションをクリアして完全な一覧を表示するには、[**[!UICONTROL Reset Filter]**] をクリックします。
 
 1. ルールのプロパティを更新します。
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）クリック **[!UICONTROL Edit]** をクリックして、ルール情報ページを表示します。
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）「**[!UICONTROL Edit]**」をクリックすると、ルール情報ページが表示されます。
 
-   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）リスト内のルールをクリックして、[Rule Information] ページを表示します。
+   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）一覧内のルールをクリックして、[ ルール情報 ] ページを表示します。
 
    ここで、（ルールの作成と同様に）ルールの設定を変更できます。
 
@@ -46,14 +46,14 @@ ht-degree: 0%
 | [!UICONTROL Rule] | ルールの作成時に定義したルール名に基づいてリストをフィルタリングするためのテキストを入力します。 |
 | [!UICONTROL Coupon Code] | ルールの作成時に定義したコード名に基づいてリストをフィルタリングするためのテキストを入力します。 |
 | [!UICONTROL Priority] | ルールに定義されている優先度に基づいてリストをフィルタリングするフリーテキストフィールド。 |
-| [!UICONTROL Status] | このオプションを使用して、ルールのステータス（`Active` または `Inactive`）に設定します。 |
+| [!UICONTROL Status] | このオプションを使用して、ルールのステータス（`Active` または `Inactive`）に基づいてリストをフィルタリングします。 |
 | [!UICONTROL Web Site] | このオプションを使用して、ルールに定義された web サイトに基づいてリストをフィルタリングします。 |
-| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）クリック **[!UICONTROL Edit]** を表示するには _[!UICONTROL Rule Information]_ルール設定をページして更新します（ルールの作成と同様）。 |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）動的カレンダーフィールドの使用（_[!UICONTROL To:]_および_[!UICONTROL From:]_）を選択し、ルールの作成時に定義したルールの開始日に基づいてリストをフィルタリングします。 |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）動的カレンダーフィールドの使用（_[!UICONTROL To:]_および_[!UICONTROL From:]_）を選択し、ルールの作成時に定義したルールの終了日に基づいてリストをフィルタリングします。 |
+| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）「**[!UICONTROL Edit]**」をクリックすると、_[!UICONTROL Rule Information]_ページが表示され、ルール設定を更新できます（ルールの作成と同様です）。 |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）動的カレンダーフィールド （_[!UICONTROL To:]_および_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたルールの開始日に基づいてリストをフィルタリングします。 |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）動的カレンダーフィールド （_[!UICONTROL To:]_および_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたルールの終了日に基づいてリストをフィルタリングします。 |
 
 {style="table-layout:auto"}
 
 ## Real-Time CDP オーディエンスを使用した買い物かごの価格ルールの通知
 
-方法を学ぶ [アクティベート](../customers/audience-activation.md) Adobe Commerce インスタンスにオーディエンスをReal-Time CDPし、買い物かごの価格ルールを通知します。
+Real-Time CDP オーディエンスをAdobe Commerce インスタンスに [ アクティブ化 ](../customers/audience-activation.md) して、買い物かごの価格ルールを通知する方法を説明します。

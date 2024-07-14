@@ -12,60 +12,60 @@ ht-degree: 0%
 
 # チェックアウトの利用条件
 
-手動の場合 _利用条件_ 機能が有効になっている場合は、購入が確定する前に、お客様は販売条件に同意する必要があります。 販売条件には、通常、B2C または B2B サイトに関して法律で要求される可能性のある開示情報が含まれており、購入者および販売者の権利の概要が説明されています。 利用条件メッセージは、支払い情報の後、支払い情報の直前に表示されます _注文する_ ボタン。
+手動 _利用規約_ 機能が有効になっている場合、お客様は購入が確定する前に販売条件に同意する必要があります。 販売条件には、通常、B2C または B2B サイトに関して法律で要求される可能性のある開示情報が含まれており、購入者および販売者の権利の概要が説明されています。 利用規約メッセージは、支払い情報の後、「注文する _ボタンの直前に表示さ_ ます。
 
-![チェックアウト時の利用条件](./assets/storefront-checkout-step2-terms-conditions.png){width="700" zoomable="yes"}
+![ チェックアウト時の利用条件 ](./assets/storefront-checkout-step2-terms-conditions.png){width="700" zoomable="yes"}
 
 ## 手順 1：チェックアウトに関する利用条件を有効にする
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL Checkout]**.
+1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Checkout Options]** セクション。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Checkout Options]**」セクションを展開します。
 
-   ![チェックアウトオプション](../configuration-reference/sales/assets/checkout-checkout-options.png){width="600" zoomable="yes"}
+   ![ チェックアウトオプション ](../configuration-reference/sales/assets/checkout-checkout-options.png){width="600" zoomable="yes"}
 
-1. を確認します。 **[!UICONTROL Enable Onepage Checkout]** はに設定されています。 `Yes`.
+1. **[!UICONTROL Enable Onepage Checkout]** が `Yes` に設定されていることを確認します。
 
-1. を設定 **[!UICONTROL Enable Terms and Conditions]** 対象： `Yes`.
+1. **[!UICONTROL Enable Terms and Conditions]** を `Yes` に設定します。
 
-1. クリック **[!UICONTROL Save Config]**.
+1. 「**[!UICONTROL Save Config]**」をクリックします。
 
 ## 手順 2：独自の利用条件情報を追加する
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Terms and Conditions]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Terms and Conditions]**に移動します。
 
-   ![利用条件グリッド](./assets/terms-conditions.png){width="600" zoomable="yes"}
+   ![ 利用条件グリッド ](./assets/terms-conditions.png){width="600" zoomable="yes"}
 
-1. 右上隅のをクリックします。 **[!UICONTROL Add New Condition]**.
+1. 右上隅の「**[!UICONTROL Add New Condition]**」をクリックします。
 
-1. を入力 **[!UICONTROL Condition Name]** 内部参照用。
+1. 内部参照の **[!UICONTROL Condition Name]** を入力します。
 
-   ![新規条件](./assets/terms-conditions-new.png){width="600" zoomable="yes"}
+   ![ 新規条件 ](./assets/terms-conditions-new.png){width="600" zoomable="yes"}
 
-1. を設定 **[!UICONTROL Status]** 対象： `Enabled`.
+1. **[!UICONTROL Status]** を `Enabled` に設定します。
 
-1. を設定 **[!UICONTROL Applied]** を次のいずれかに変更します。
+1. **[!UICONTROL Applied]** を次のいずれかに設定します。
 
-   - `Automatically`  – 条件はチェックアウト時に自動的に承認されます。
-   - `Manually`  – お客様は、注文を行う際に、手動で条件を受け入れる必要があります。
+   - `Automatically` – 条件はチェックアウト時に自動的に承認されます。
+   - `Manually` – お客様は、注文を行う際に手動で条件を受け入れる必要があります。
 
-1. を設定 **[!UICONTROL Show Content as]** を次のいずれかに変更します。
+1. **[!UICONTROL Show Content as]** を次のいずれかに設定します。
 
-   - `Text`  – 利用条件コンテンツを書式なしのテキストとして表示します。
+   - `Text` – 利用条件コンテンツを書式なしのテキストとして表示します。
    - `HTML` - フォーマット可能なHTMLとしてコンテンツを表示します。
 
-1. 各を選択 **[!UICONTROL Store View]** これらの利用条件を使用する場所。
+1. これらの利用条件を使用する各 **[!UICONTROL Store View]** を選択します。
 
 1. 下にスクロールして、表示する情報を入力します。
 
-   - を入力 **[!UICONTROL Checkbox Text]** 利用規約リンクのテキストとして使用されます。 例： `I understand and accept the terms and conditions of the sale`.
+   - 利用条件リンクのテキストとして使用する **[!UICONTROL Checkbox Text]** を入力します。 例：`I understand and accept the terms and conditions of the sale`。
 
-   - が含まれる **[!UICONTROL Content]** ボックスに、販売条件の全文を入力します。
+   - **[!UICONTROL Content]** のボックスに、販売条件の全文を入力します。
 
-1. （任意） **[!UICONTROL Content Height (css)]** チェックアウト時に利用条件ステートメントが表示されるテキストボックスの高さをピクセル単位で指定します。
+1. （オプション） **[!UICONTROL Content Height (css)]** をピクセル単位で入力して、チェックアウト時に利用条件ステートメントが表示されるテキストボックスの高さを指定します。
 
-   たとえば、96 dpi のディスプレイでテキスト ボックスの高さを 1 インチにするには、次のように入力します `96`. コンテンツがボックスの高さを超えると、スクロールバーが表示されます。
+   たとえば、96 dpi のディスプレイでテキスト ボックスの高さを 1 インチにするには、`96` と入力します。 コンテンツがボックスの高さを超えると、スクロールバーが表示されます。
 
-1. クリック **[!UICONTROL Save Condition]**.
+1. 「**[!UICONTROL Save Condition]**」をクリックします。

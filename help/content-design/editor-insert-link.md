@@ -11,34 +11,34 @@ ht-degree: 0%
 
 # エディターへのリンクの挿入
 
-リンクを簡単に挿入するには、 _リンク_ のボタン [エディター](editor.md) ツールバー。 HTMLに関する知識は必要なく、結果も同じです。
+リンクを簡単に挿入するには、「_エディター_ ツールバーの「[ リンク ](editor.md)」ボタンを使用します。 HTMLに関する知識は必要なく、結果も同じです。
 
 1. リンクを作成するテキストを選択します。
 
-1. 「」をクリックします _リンクを挿入/編集_ アイコンが表示されます。
+1. エディターツールバーの _リンクを挿入/編集_ アイコンをクリックします。
 
-   ![エディターツールバー – リンクを挿入](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
+   ![ エディターツールバー – リンクを挿入 ](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
-   このアクションにより、が開きます _[!UICONTROL Insert link]_ダイアログ。
+   この操作を実行すると、_[!UICONTROL Insert link]_ダイアログが開きます。
 
-   ![エディター – リンクを挿入ダイアログ](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
+   ![ エディター – リンクを挿入ダイアログ ](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
 
-1. の場合 **[!UICONTROL Url]**&#x200B;次のいずれかを入力します。
+1. **[!UICONTROL Url]**：次のいずれかを入力します。
 
    - ストアのページの URL キー。
 
    - リンクする外部ページの完全な URL。
 
-1. 必要に応じて、を **[!UICONTROL Text to display]**.
+1. 必要に応じて、**[!UICONTROL Text to display]** を変更します。
 
    デフォルトは、リンクに対して選択したテキストです。 テキストボックスで変更できます。
 
-1. の場合 **[!UICONTROL Title]**&#x200B;を入力し、ユーザーがリンクにポインタを合わせたときに表示されるツールヒントのテキストを入力します。
+1. **[!UICONTROL Title]** しくは、ユーザーがリンクにポインタを合わせたときに表示されるツールヒントのテキストを入力します。
 
-1. を設定 **[!UICONTROL Target]** を次のいずれかに変更します。
+1. **[!UICONTROL Target]** を次のいずれかに設定します。
 
    - `Open link in the same window`
 
    - `Open in a new window`
 
-1. リンクを作成するには、 **[!UICONTROL OK]**.
+1. リンクを作成するには、「**[!UICONTROL OK]**」をクリックします。

@@ -11,68 +11,68 @@ ht-degree: 0%
 
 # コンテンツブロックを追加
 
-コンテンツのカスタムブロックを作成して、任意のページ、ページのグループ、または別のブロックに追加できます。 たとえば、ブロックに画像スライダーを配置し、そのブロックをホーム ページに配置できます。 ブロック ワークスペースでも同じ機能を使用できます [基本コントロール](pages-workspace.md) as the _ページ_ ワークスペースは、使用可能なブロックを見つけ、日常のメンテナンスを実行するのに役立ちます。 ブロックが完了したら、 [ウィジェット](widget-static-block.md) ストアの特定のページに配置するためのツール。
+コンテンツのカスタムブロックを作成して、任意のページ、ページのグループ、または別のブロックに追加できます。 たとえば、ブロックに画像スライダーを配置し、そのブロックをホーム ページに配置できます。 ブロック ワークスペースでは、_ページ_ ワークスペースと同じ [ 基本コントロール ](pages-workspace.md) を使用して、使用可能なブロックを検索し、日常のメンテナンスを実行するのに役立ちます。 ブロックが完了したら、[ ウィジェット ](widget-static-block.md) ツールを使用して、ストアの特定のページに配置できます。
 
-![ブロック ページには、既存のブロックのグリッドが表示されます](./assets/blocks-workspace.png){width="700" zoomable="yes"}
+![ ブロック ページには、既存のブロックのグリッドが表示されます ](./assets/blocks-workspace.png){width="700" zoomable="yes"}
 
 ## ブロックの作成
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**に移動します。
 
-1. 右上隅のをクリックします。 **新規ブロックを追加**.
+1. 右上隅の「**新しいブロックを追加**」をクリックします。
 
-   ![新しいブロック ページには、オプションとコンテンツ スペースが表示されます](./assets/block-detail.png){width="500" zoomable="yes"}
+   ![ 新規ブロック ページには、オプションとコンテンツスペースが表示されます ](./assets/block-detail.png){width="500" zoomable="yes"}
 
-1. 新しいブロックの既定の有効ステータスを変更する場合は、次のように設定します **ブロックを有効にする** 対象： `No`.
+1. 新しいブロックのデフォルト有効ステータスを変更する場合は、「**ブロックを有効にする** を `No` に設定します。
 
-1. を割り当て **ブロックのタイトル** 内部参照用。
+1. 内部参照に **ブロック タイトル** を割り当てます。
 
-1. 一意のを割り当て **識別子** をブロックに使用します。
+1. ブロックに一意の **識別子** を割り当てます。
 
    スペースの代わりにアンダースコアを含む小文字をすべて使用します。
 
-1. 各を選択 **[!UICONTROL Store View]** ブロックを使用可能にする場所。
+1. ブロックを使用する各 **[!UICONTROL Store View]** を選択します。
 
 1. 表示されたコンテンツツールセットを使用してブロックのコンテンツを追加します。
 
-   - 次の場合 [ページビルダー](../page-builder/introduction.md) 有効にする、を選択します **[!UICONTROL Edit with Page Builder]** コンテンツでページビルダーツールを使用するには [workspace](../page-builder/workspace.md).
+   - [ ページビルダー ](../page-builder/introduction.md) が有効な場合、コンテンツ [ ワークスペース ](../page-builder/workspace.md) のページビルダーツールを使用するには **[!UICONTROL Edit with Page Builder]** を選択します。
 
-     ![ページビルダーワークスペース](./assets/pb-workspace-block.png){width="500" zoomable="yes"}
+     ![ ページビルダーワークスペース ](./assets/pb-workspace-block.png){width="500" zoomable="yes"}
 
      >[!NOTE]
      >
-     >ページビルダーを使用してブロックを追加する方法については、を参照してください。 [チュートリアル 2: ブロック](../page-builder/2-blocks.md).
+     >ページビルダーを使用してブロックを追加する方法については、[ チュートリアル 2：ブロック ](../page-builder/2-blocks.md) を参照してください。
 
-   - の使用 [エディター](editor.md) テキストの書式設定、リンクの作成、表、画像、ビデオおよびオーディオの追加を行います。
+   - [ エディター ](editor.md) を使用して、テキストの書式設定や、リンクの作成、表、画像、ビデオおよびオーディオの追加を行います。
 
-     HTMLコードを使用するには、 **エディターを表示/非表示**.
+     HTMLコードを使用する場合は、「**エディターを表示/非表示**」をクリックします。
 
-     ![ブロック エディタ（非表示）](./assets/block-editor-hidden.png){width="500" zoomable="yes"}
+     ![ ブロック エディタ（非表示） ](./assets/block-editor-hidden.png){width="500" zoomable="yes"}
 
-1. 完了したら、 **[!UICONTROL Save]** 矢印と選択 **[!UICONTROL Save & Close]**.
+1. 完了したら、**[!UICONTROL Save]** 矢印をクリックして「**[!UICONTROL Save & Close]**」を選択します。
 
    新しいブロックが、[ ブロック ] グリッドのリストの一番下に表示されます。
 
-1. の使用 [ウィジェット](widget-static-block.md) 完成したブロックをストアの特定のページに配置するツール。
+1. [ ウィジェット ](widget-static-block.md) ツールを使用して、完成したブロックをストアの特定のページに配置します。
 
 ## ブロックの削除
 
-カスタムブロックを削除する方法は 2 つあります。 から削除できます _ブロック_ グリッド、またはブロックを編集ページから。
+カスタムブロックを削除する方法は 2 つあります。 _ブロック_ グリッド、またはブロックを編集ページから削除できます。
 
 ### 方法 1: ブロック グリッドからブロックを削除する
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**に移動します。
 1. グリッドの上でフィルタを使用してブロックを見つけ、削除する 1 つまたは複数のブロックのチェックボックスをオンにします。
-1. リストの左上隅にあるを設定します。 **[!UICONTROL Actions]** 対象： `Delete`.
-1. アクションを確定するには、 **[!UICONTROL OK]**.
+1. リストの左上隅にある **[!UICONTROL Actions]** を `Delete` に設定します。
+1. アクションを確定するには、「**[!UICONTROL OK]**」をクリックします。
 
 ### 方法 2：編集ページからブロックを削除する
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**に移動します。
 1. 削除するブロックを検索します。
-1. が含まれる _アクション_ ブロックの列で、をクリックします **[!UICONTROL Select]** を選択します **[!UICONTROL Edit]**.
-1. メニューバーで、 **[!UICONTROL Delete Block]**.
-1. アクションを確定するには、 **[!UICONTROL OK]**.
+1. ブロックの _アクション_ 列で、「**[!UICONTROL Select]**」をクリックし、「**[!UICONTROL Edit]**」を選択します。
+1. メニューバーで、「**[!UICONTROL Delete Block]**」をクリックします。
+1. アクションを確定するには、「**[!UICONTROL OK]**」をクリックします。
 
 ## 保存メニュー
 
@@ -86,12 +86,12 @@ ht-degree: 0%
 
 ## ライトボックスまたはスライダーの追加
 
-- を追加するのは簡単です [slider](../page-builder/slider.md) 次を使用してストアに移動 [[!DNL Page Builder]](../page-builder/introduction.md). スライダーは、自動的に再生するように設定することも、ナビゲーションボタンを使用して手動で制御することもできます。
+- [[!DNL Page Builder]](../page-builder/introduction.md) を使用すると、ストアに [ スライダー ](../page-builder/slider.md) を簡単に追加できます。 スライダーは、自動的に再生するように設定することも、ナビゲーションボタンを使用して手動で制御することもできます。
 
-  ![ページビルダーのスライダー](./assets/pb-tutorial3-slider-tee-shirt-promo.png){width="600" zoomable="yes"}
+  ![ ページビルダースライダー ](./assets/pb-tutorial3-slider-tee-shirt-promo.png){width="600" zoomable="yes"}
 
-  また、で利用できる jQuery ベースの画像ライトボックスも幅広く揃えています [[!DNL Commerce Marketplace]][1]無料のコンテンツもあります。
+  また、[[!DNL Commerce Marketplace]][1] で利用できる jQuery ベースの画像ライトボックスの幅広い品揃えもあり、無料のものもあります。
 
-- から拡張機能をダウンロードすることもできます。 [!DNL Commerce Marketplace]. その他のヘルプについては、拡張機能開発者が提供するドキュメントを参照してください。
+- また、[!DNL Commerce Marketplace] から拡張機能をダウンロードすることもできます。 その他のヘルプについては、拡張機能開発者が提供するドキュメントを参照してください。
 
 [1]: https://marketplace.magento.com/extensions.html?q=lightbox

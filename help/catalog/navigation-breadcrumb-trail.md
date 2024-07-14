@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # パンくずリスト
 
-A _パンくずリスト_ は、ストア内の他のページとの関連を顧客に示すリンクのセットです。 パンくずリスト内の任意のリンクをクリックすると、前のページに戻ることができます。
+_パンくずリスト_ は、ストア内の他のページとの関連を顧客に示す一連のリンクです。 パンくずリスト内の任意のリンクをクリックすると、前のページに戻ることができます。
 
 パンくずリストは、コンテンツページとカタログページに表示するように設定できます。 パンくずリストの形式と位置はテーマによって異なりますが、通常はヘッダーのすぐ下にあります。 デフォルトでは、パンくずリストは CMS ページに表示されます。
 
-![ストアフロントに表示されるパンくずリスト](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
+![ ストアフロントに表示されるパンくずリスト ](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
 
 ## パン粉の一般的な種類
 
@@ -26,7 +26,7 @@ A _パンくずリスト_ は、ストア内の他のページとの関連を顧
 
 このタイプのパンくずリストは、サイト上に設定されたカテゴリ階層に基づいています。 表示されるチェーンは、構造内の場所をユーザーに示します。 この場合、各テキストリンクは、前のページよりも 1 レベル高いページを対象としています。
 
-例： `Men > Tops > Hoodies & Sweatshirts`
+例：`Men > Tops > Hoodies & Sweatshirts`
 
 このタイプの利点は、ユーザーがどのカテゴリレベルにいるかを簡単に確認でき、カタログページ間を簡単に移動できることです。
 
@@ -36,30 +36,30 @@ A _パンくずリスト_ は、ストア内の他のページとの関連を顧
 
 このタイプの利点は、カテゴリページで複数のフィルターを選択した後に前のページに戻りたいときに最も役立ちます。
 
-例： `Home > What's New > Gear > Bags`
+例：`Home > What's New > Gear > Bags`
 
 ### 属性ベースの階層リンク
 
 このタイプのパンくずリストには、カテゴリページで選択された属性が表示されます。 他のタイプとの主な違いは、属性ベースのパンくずリストが、特定の製品（価格、品質、色など）のナビゲーションレイヤーで顧客が選択したフィルターおよびオプションを表すことです。
 
-例： `Home > Suits > All Suits > Refined by > Slim Fit`
+例：`Home > Suits > All Suits > Refined by > Slim Fit`
 
 ## CMS ページからのパンくずリストの追加/削除
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. の下の左パネルで _[!UICONTROL General]_、を選択&#x200B;**[!UICONTROL Web]**.
+1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
 
-   ![CMS ページのパンくずリストを表示](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
+   ![CMS ページのパンくずリストを表示 ](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
-1. を展開します。 _[!UICONTROL Default Pages]_セクション。
+1. 「_[!UICONTROL Default Pages]_」セクションを展開します。
 
-1. の選択を解除 **[!UICONTROL Use system value]** チェックボックス。
+1. 「**[!UICONTROL Use system value]**」チェックボックスの選択を解除します。
 
-1. を設定 **[!UICONTROL Show Breadcrumbs for CMS Pages]** 対象： `No` または `Yes`.
+1. **[!UICONTROL Show Breadcrumbs for CMS Pages]** を `No` または `Yes` に設定します。
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 >[!NOTE]
 >
->親カテゴリが次の場合、子カテゴリページのパンくずリストに表示されません `Browsing Category`= `Deny` [カテゴリ権限](category-permissions.md) 設定。
+>`Browsing Category`= `Deny` [ カテゴリ権限 ](category-permissions.md) 設定がある場合、子カテゴリページのパンくずリストに親カテゴリが表示されません。

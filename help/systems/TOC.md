@@ -35,14 +35,14 @@ ht-degree: 2%
 - データ転送 {#data-transfer}
    - [概要](data-transfer.md)
    - [CSV ファイル](data-csv.md)
-   - インポート {#import}
+   - Import {#import}
       - [読み込みプロセス](data-import.md)
       - [製品画像](data-import-product-images.md)
    - [Export](data-export.md)
    - [製品データ属性リファレンス](data-attributes-product.md)
    - [顧客データ属性リファレンス](data-attributes-customer.md)
    - [税率データの更新](data-transfer-tax-rates.md)
-   - 例 {#examples}
+   - {#examples} の例
       - [バンドル製品の読み込み](data-transfer-bundle-products.md)
       - [設定可能な製品のインポート](data-transfer-configurable-products.md)
       - [ダウンロード可能な製品のインポート](data-transfer-downloadable-products.md)
@@ -54,7 +54,7 @@ ht-degree: 2%
    - [アクションログレポート](action-log-report.md)
    - [ログアーカイブ](action-log-archive.md)
    - [一括アクション](action-log-bulk-actions.md)
-- システムツールと設定 {#tools}
+- システム ツールと設定 {#tools}
    - [キャッシュ管理](cache-management.md)
    - [インデックス管理](index-management.md)
    - [システムバックアップ](backups.md)
@@ -67,7 +67,7 @@ ht-degree: 2%
    - [暗号化キー](encryption-key.md)
    - [セキュリティスキャン](security-scan.md)
    - [Admin Security の設定](security-admin.md)
-   - CAPTCHA {#captcha}
+   - CAPTCHA{#captcha}
       - [標準 CAPTCHA](security-captcha.md)
       - [Google reCAPTCHA](security-google-recaptcha.md)
    - 2 要素認証（2FA） {#2fa}
@@ -77,6 +77,6 @@ ht-degree: 2%
    - [セッション管理](security-session-management.md)
    - [ブラウザー機能の検出](security-browser-capabilities-detection.md)
    - [セキュリティ問題のレポート](security-issue-reporting.md)
-- [Merchant Guides に戻る](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [ マーチャントガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 

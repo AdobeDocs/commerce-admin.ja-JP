@@ -12,86 +12,86 @@ ht-degree: 0%
 
 # 注文の発送
 
-支払いが完了したが、出荷を待っている注文には、 `Processing` ステータス。 出荷レコードには、受注に関連付けられた履行プロセスの詳細な履歴が含まれます。 注文が履行されるまで、部分的な出荷を行うことができます。
+支払済だが出荷待ちの注文のステータスは `Processing` です。 出荷レコードには、受注に関連付けられた履行プロセスの詳細な履歴が含まれます。 注文が履行されるまで、部分的な出荷を行うことができます。
 
-1. 日 _Admin_ サイドバー、選択 **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/**[!UICONTROL Orders]** を選択します。
 
-1. が含まれる _[!UICONTROL Orders]_リストを表示し、発送する注文を見つけてクリックして開きます。
+1. _[!UICONTROL Orders]_の一覧で、出荷する注文を見つけ、クリックして開きます。
 
-1. 右上隅のをクリックします **[!UICONTROL Ship]** ボタン。
+1. 右上隅の「**[!UICONTROL Ship]**」ボタンをクリックします。
 
-1. 請求先または配送先住所を更新する場合は、 **[!UICONTROL Edit]** セクションの右上隅にあるリンク。
+1. 請求先または配送先住所を更新する場合は、セクションの右上隅にある **[!UICONTROL Edit]** リンクをクリックします。
 
-   必要な変更を行い、 **[!UICONTROL Save Order Address]**.
+   必要な変更を行い、「**[!UICONTROL Save Order Address]**」をクリックします。
 
-1. 配送業者に配送ラベルを生成させるには、 **[!UICONTROL Create Shipping Label]** チェックボックスをオンにして、次のオプションを設定します。
+1. 配送業者に配送ラベルを生成させるには、「**[!UICONTROL Create Shipping Label]**」チェックボックスを選択し、オプションを設定します。
 
-   - トラッキング番号を追加するには、下にスクロールして _[!UICONTROL Shipping Information]_セクションで、をクリックします。**[!UICONTROL Add Tracking Number]**.
+   - 追跡番号を追加するには、[_[!UICONTROL Shipping Information]_] セクションまでスクロールし、[**[!UICONTROL Add Tracking Number]**] をクリックします。
 
    - 次のいずれかの操作を行います。
 
-      - 「」を選択します **[!UICONTROL Carrier]** およびトラッキングを入力 **[!UICONTROL Number]**.
+      - **[!UICONTROL Carrier]** を選択し、トラッキング **[!UICONTROL Number]** を入力します。
 
-      - を設定 **[!UICONTROL Carrier]** 対象： `Custom Value`、a と入力します **[!UICONTROL Title]** カスタムキャリアの場合、およびトラッキングを入力 **[!UICONTROL Number]**.
+      - **[!UICONTROL Carrier]** を `Custom Value` に設定し、カスタム通信事業者の **[!UICONTROL Title]** を入力して、トラッキング **[!UICONTROL Number]** を入力します。
 
-      - [トラッキング情報の表示](#track-the-shipment).
+      - [ トラッキング情報を表示 ](#track-the-shipment).
 
-1. 部分出荷を行うには、「出荷品目」セクションまでスクロールし、 **[!UICONTROL Qty to Ship]** 項目ごとに調整します。
+1. 一部出荷を行うには、「出荷品目」セクションまでスクロールし、各品目の **[!UICONTROL Qty to Ship]** を入力します。
 
 1. メールで顧客に出荷を通知するには、次の手順を実行します。
 
-   - に含めるコメントを入力してください **[!UICONTROL Shipment Comments]** ボックス。
+   - **[!UICONTROL Shipment Comments]** ボックスに、コメントを入力します。
 
-   - 顧客に送信される通知メールにコメントを含めるには、 **[!UICONTROL Append Comments]** チェックボックス。
+   - 顧客に送信される通知メールにコメントを含めるには、「**[!UICONTROL Append Comments]**」チェックボックスを選択します。
 
-   - 発送用メールのコピーを自分宛てに送信するには、 **[!UICONTROL Email Copy of Shipment]** チェックボックス。
+   - 発送用メールのコピーを自分宛てに送信するには、「**[!UICONTROL Email Copy of Shipment]**」チェックボックスを選択します。
 
      請求書メールのステータスは、完了した請求書の請求書番号の横に、送信済みまたは未送信として表示されます。
 
-1. 完了したら、 **[!UICONTROL Submit Shipment]**.
+1. 完了したら、「**[!UICONTROL Submit Shipment]**」をクリックします。
 
-   注文のステータスが次のように変更されます `Processing` 対象： `Complete`.
+   注文のステータスが「`Processing`」から「`Complete`」に変わります。
 
 >[!NOTE]
 >
->注文が「店舗での配送」の場合、配送オプションは利用できません。 クリック **[!UICONTROL Notify Order is Ready for Pickup]** ：顧客にメールをトリガーします。 その後、注文のステータスが「」に変更されます `Complete`.
+>注文が「店舗での配送」の場合、配送オプションは利用できません。 「**[!UICONTROL Notify Order is Ready for Pickup]**」をクリックして、メールを顧客にトリガーします。 すると、注文のステータスが `Complete` に変更されます。
 
 ## 出荷の詳細の表示
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/**[!UICONTROL Shipments]** に移動します。
 
 1. リストで出荷を検索し、クリックしてレコードを開きます。
 
-1. 注文にコメントを追加する場合は、下にスクロールして _[!UICONTROL Comments History]_「」セクションをクリックし、ボックスにコメントを入力します。
+1. 注文にコメントを追加する場合は、「_[!UICONTROL Comments History]_」セクションまでスクロールし、ボックスにコメントを入力します。
 
-   - コメントを顧客にメールで送信するには、 **[!UICONTROL Notify Customer by Email]** チェックボックス。
+   - コメントを顧客にメールで送信するには、「**[!UICONTROL Notify Customer by Email]**」チェックボックスをオンにします。
 
-   - 顧客のアカウントにコメントを投稿するには、 **[!UICONTROL Visible on Frontend]** チェックボックス。
+   - 顧客のアカウントにコメントを投稿するには、「**[!UICONTROL Visible on Frontend]**」チェックボックスをオンにします。
 
-1. クリック **[!UICONTROL Submit Comment]**.
+1. 「**[!UICONTROL Submit Comment]**」をクリックします。
 
 ## 出荷の追跡
 
-**メソッド 1:** 「注文情報」タブから
+**方法 1:** 注文情報タブから
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/**[!UICONTROL Orders]** に移動します。
 
-1. グリッドで出荷順序を検索し、 **[!UICONTROL View]**.
+1. グリッドで出荷順序を検索し、「**[!UICONTROL View]**」をクリックします。
 
-1. にスクロール ダウンします。 _[!UICONTROL Shipping & Handling Information]_セクションでクリック&#x200B;**[!UICONTROL Track Order]**.
+1. 「_[!UICONTROL Shipping & Handling Information]_」セクションまでスクロールし、「**[!UICONTROL Track Order]**」をクリックします。
 
    使用可能なトラッキング情報がポップアップウィンドウに表示されます。
 
-1. 準備ができたら、 **[!UICONTROL Close Window]**.
+1. 準備ができたら、「**[!UICONTROL Close Window]**」をクリックします。
 
-**メソッド 2:** 「発注納入」タブから
+**方法 2:** 「発注納入」タブ
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/**[!UICONTROL Shipments]** に移動します。
 
 1. リストで出荷を検索し、クリックしてレコードを開きます。
 
-1. クリック **[!UICONTROL Track this Shipment]**.
+1. 「**[!UICONTROL Track this Shipment]**」をクリックします。
 
    使用可能なトラッキング情報がポップアップウィンドウに表示されます。
 
-1. 準備ができたら、 **[!UICONTROL Close Window]**.
+1. 準備ができたら、「**[!UICONTROL Close Window]**」をクリックします。

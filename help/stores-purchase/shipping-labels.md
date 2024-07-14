@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Commerceには、主要な配送業者との高度な統合が含まれています。これにより、配送業者の配送システムにアクセスして、注文の追跡、配送ラベルの作成などを行うことができます。 返品の承認を得た通常の配送および商品に対しては、配送ラベルを作成できます。 配送業者が提供する情報に加えて、ラベルにはCommerceの注文番号、パッケージの数、出荷するパッケージの総数も含まれます。
 
-![USPS 優先配送ラベル](./assets/shipping-usps-priority-label.png){width="300"}
+![USPS 優先配送ラベル ](./assets/shipping-usps-priority-label.png){width="300"}
 
 - [配送ラベルの設定](shipping-label-configure.md)
 - [出荷ラベルおよびパッケージの作成](shipping-label-create.md)

@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # バンドル製品の読み込み
 
-バンドル製品には様々な商品が表示され、顧客は購入する商品を選択できます。 バンドルを構成するすべての項目は、次のいずれかとしてカタログに存在します [シンプル製品](../catalog/product-create-simple.md) または [バーチャル製品](../catalog/product-create-virtual.md). 通常、バンドル製品は管理者が作成および更新します。 ただし、データを読み込んでバンドル製品を作成したり、既存のバンドル製品を書き出してデータを編集し、カタログに読み込むこともできます。 Sprite Yoga Companion Kit は、次の例で使用されるサンプルデータのバンドル製品です。
+バンドル製品には様々な商品が表示され、顧客は購入する商品を選択できます。 バンドルを構成するすべての項目は、カタログ内に [ シンプル製品 ](../catalog/product-create-simple.md) または [ 仮想製品 ](../catalog/product-create-virtual.md) として存在します。 通常、バンドル製品は管理者が作成および更新します。 ただし、データを読み込んでバンドル製品を作成したり、既存のバンドル製品を書き出してデータを編集し、カタログに読み込むこともできます。 Sprite Yoga Companion Kit は、次の例で使用されるサンプルデータのバンドル製品です。
 
-![バンドル製品](../catalog/assets/product-bundle.png){width="700" zoomable="yes"}
+![ バンドル製品 ](../catalog/assets/product-bundle.png){width="700" zoomable="yes"}
 
 ## バンドル項目の順序の変更
 
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 ### 方法 1：ドラッグ&amp;ドロップ
 
-を使用する場合 [バンドル](../catalog/product-create-bundle.md) 製品：管理者から、項目とセクションを任意の位置にドラッグ&amp;ドロップできます。
+管理者から [ バンドル ](../catalog/product-create-bundle.md) 製品を操作する際に、項目とセクションを任意の位置にドラッグ&amp;ドロップできます。
 
-![バンドル項目](../catalog/assets/product-bundle-items-move.png){width="600" zoomable="yes"}
+![ バンドル項目 ](../catalog/assets/product-bundle-items-move.png){width="600" zoomable="yes"}
 
 ### 方法 2：製品データを編集する
 
-バンドル製品の構造を理解する最善の方法は、製品を書き出し、スプレッドシートでデータを調べることです。 バンドル項目の順序を変更するには、製品をエクスポートし、各項目のデータに位置パラメーターを追加します。 項目データはにあります `bundle_values` 書き出された商品の列。 スプレッドシートで開くと、製品に関連付けられているすべての項目が、長い文字列として 1 つのセルに含まれます。 この `bundle_values` 列には、各項目の次の要素が含まれます。
+バンドル製品の構造を理解する最善の方法は、製品を書き出し、スプレッドシートでデータを調べることです。 バンドル項目の順序を変更するには、製品をエクスポートし、各項目のデータに位置パラメーターを追加します。 項目データは、書き出された商品の `bundle_values` 列に表示されます。 スプレッドシートで開くと、製品に関連付けられているすべての項目が、長い文字列として 1 つのセルに含まれます。 `bundle_values` の列には、各項目に関する次の要素が含まれます。
 
 - 項目セクションの名前
 - 入力制御
@@ -43,19 +43,19 @@ ht-degree: 0%
 
 #### 手順 1：バンドル製品のエクスポート
 
-このステップでは、Sprite Yoga Companion Kit は（[CSV](data-csv.md) ファイル。 カタログに含まれている他のバンドル製品を使用できます。
+このステップでは、Sprite Yoga Companion Kit が（[CSV](data-csv.md) ファイルとしてエクスポートされます。 カタログに含まれている他のバンドル製品を使用できます。
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Export]**に移動します。
 
-1. 次の下 _書き出し設定_、設定 **[!UICONTROL Entity Type]** 対象： `Products`.
+1. _書き出し設定_ で、**[!UICONTROL Entity Type]** を `Products` に設定します。
 
-1. 製品属性のリストで、まで下にスクロールします。 **[!UICONTROL SKU]** 書き出すバンドル製品の SKU を入力します。
+1. 製品属性のリストで、**[!UICONTROL SKU]** まで下にスクロールし、書き出すバンドル製品の SKU を入力します。
 
-   SKU は `24-WG080` この例の製品の場合。
+   この例では、製品の SKU は `24-WG080` です。
 
-1. セクションの下部までスクロール ダウンし、 **[!UICONTROL Continue]**.
+1. セクションの下部までスクロール ダウンし、[**[!UICONTROL Continue]**] をクリックします。
 
-1. が含まれる _[!UICONTROL Action]_の列_[!UICONTROL File name]_ グリッド、クリック **[!UICONTROL Select]** を選択します `Download`.
+1. _[!UICONTROL File name]_グリッドの_[!UICONTROL Action]_ 列で「**[!UICONTROL Select]**」をクリックし、「`Download`」を選択します。
 
    ファイルは、ブラウザーが使用するダウンロード場所に表示されます。
 
@@ -63,40 +63,40 @@ ht-degree: 0%
 
 1. ダウンロードした CSV ファイルをスプレッドシートで開きます。
 
-1. 右端までスクロールして、次の項目を表示します `bundle_values` 列。
+1. `bundle_values` の列が表示されるまで、右端までスクロールします。
 
-   が含まれる `bundle_values` データの場合、各要素はコンマで区切られ、各バンドル項目は次の項目から縦棒で区切られます。 （最後の項目が縦棒で終わらない。） 書き出されたバンドルデータは、次の例のようになります。
+   `bundle_values` データでは、各要素はコンマで区切られ、各バンドル項目は次の項目から縦棒で区切られています。 （最後の項目が縦棒で終わらない。） 書き出されたバンドルデータは、次の例のようになります。
 
-   ![バンドル値](./assets/product-bundle-values-export-data.png){width="600" zoomable="yes"}
+   ![ バンドル値 ](./assets/product-bundle-values-export-data.png){width="600" zoomable="yes"}
 
-1. 編集を容易にするために、をコピーできます `bundle_values` データをテキストエディターに貼り付け、各項目の後ろに改行を追加して、各項目が別々の行になるようにします。
+1. 編集を簡単にするために、`bundle_values` のデータをコピーしてテキストエディターに貼り付け、各項目の後ろに改行を追加して、各項目が別々の行に表示されるようにすることができます。
 
-1. データを編集した後、慎重に改行を削除し、編集したデータを元のに貼り付けます `bundle_values` 列。
+1. データを編集した後、改行を慎重に削除し、編集したデータを `bundle_values` の列に貼り付けます。
 
-   次の図では、 `position=[number]` 各ヨガストラップにパラメーターを追加して、ストアリスト内の項目の順序を変更します。
+   次の図では、ストアリスト内の項目の順序を変更するために、各ヨガストラップに `position=[number]` パラメーターを追加しています。
 
-   ![位置パラメーター](./assets/product-bundle-values-position-parameter.png){width="500" zoomable="yes"}
+   ![ 位置パラメータ ](./assets/product-bundle-values-position-parameter.png){width="500" zoomable="yes"}
 
-1. データの編集後、 **[!UICONTROL Save]** csv ファイル。
+1. データを編集した後、CSV ファイルを **[!UICONTROL Save]** きます。
 
 #### 手順 3：更新された製品のインポート
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import]**に移動します。
 
-1. 次の下 _[!UICONTROL Import Settings]_、設定&#x200B;**[!UICONTROL Entity Type]**対象： `Products`.
+1. _[!UICONTROL Import Settings]_で、**[!UICONTROL Entity Type]**を `Products` に設定します。
 
-1. を設定 **[!UICONTROL Import Behavior]** 対象： `Replace`.
+1. **[!UICONTROL Import Behavior]** を `Replace` に設定します。
 
    このオプションを選択すると、変更内容が追加の項目として追加されるのではなく、バンドル製品の以前のデータが上書きされます。
 
-1. にスクロール ダウンします。 _インポートするファイル_ セクションでクリック **[!UICONTROL Choose File]**.
+1. 「インポートするファイル _セクションまでスクロールダウンし_ 「イン **[!UICONTROL Choose File]** ート」をクリックします。
 
 1. 編集した CSV ファイルを選択します。
 
-1. クリック **[!UICONTROL Check Data]** データがチェックされるまでしばらく待ちます。
+1. 「**[!UICONTROL Check Data]**」をクリックして、データがチェックされるまで少し待ちます。
 
-1. ファイルが有効な場合、 **[!UICONTROL Import]**.
+1. ファイルが有効な場合は、[**[!UICONTROL Import]**] をクリックします。
 
-1. 処理が完了したら、に移動します。 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**をクリックして、**[!UICONTROL Flush Cache Storage]**.
+1. 処理が完了したら、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**に移動し、「**[!UICONTROL Flush Cache Storage]**」をクリックします。
 
    これにより、更新された製品がストアフロントですぐに使用できるようになります。

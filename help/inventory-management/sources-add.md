@@ -14,81 +14,81 @@ ht-degree: 0%
 
 カスタムソースを使用して、複数の場所からの在庫と注文のフルフィルメントを管理します。 倉庫、実店舗、配送センター、配送業者など、各場所のソースを作成します。 ソースの割り当てと製品ごとの数量の更新
 
-デフォルトソースを編集すると、名前とコードを除くすべての設定を編集できます。 シングルソースマーチャントは、場所に合わせて情報を追加することをお勧めします。
+デフォルトのSourceを編集する場合、名前とコードを除くすべての設定を編集できます。 シングルソースマーチャントは、場所に合わせて情報を追加することをお勧めします。
 
 ## 在庫ソースの追加
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Inventory]_/**[!UICONTROL Sources]**に移動します。
 
-1. クリック **[!UICONTROL Add New Source]**.
+1. 「**[!UICONTROL Add New Source]**」をクリックします。
 
-   ![ソースの管理](assets/inventory-sources.png)
+   ![ ソースの管理 ](assets/inventory-sources.png)
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL General]** を選択し、次の操作を実行します。
+1. **[!UICONTROL General]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   - 在庫ソースを識別するには、一意のソースを入力します **[!UICONTROL Name]**.
+   - 在庫ソースを識別するには、一意の **[!UICONTROL Name]** を入力します。
 
-   - 一意のを入力 **[!UICONTROL Code]**.
+   - 一意の **[!UICONTROL Code]** を入力します。
 
      このコードでは、大文字、小文字、数字、ダッシュ、アンダースコアを使用できます。 コードは、在庫への割り当てやデータの書き出しと読み込みの際に使用される一意の ID です。
 
-   - この在庫ソースを使用する準備ができている場合は、を設定します **[!UICONTROL Is Enabled]** 対象： `Yes`.
+   - この在庫ソースを使用する準備ができている場合は、**[!UICONTROL Is Enabled]** を `Yes` に設定します。
 
-   - 概要を入力 **[!UICONTROL Description]** この場所からクイックリファレンスや追加の詳細を確認できます。
+   - この場所の簡単な **[!UICONTROL Description]** を入力して、クイックリファレンスや追加の詳細を確認します。
 
-   - の場合 **[!UICONTROL Latitude]** および **[!UICONTROL Longitude]**&#x200B;を入力し、ファシリティの位置の GPS （全地球測位システム）座標を入力します。
+   - **[!UICONTROL Latitude]** と **[!UICONTROL Longitude]** には、施設の位置の GPS （全地球測位システム）座標を入力します。
 
-     で GPS 座標を検索するには [Google マップ][1]を選択し、検索ボックスにアドレスを入力します。 マップ上のマーカーを右クリックし、 **[!UICONTROL What's here?]**. GPS 座標が、住所の下の詳細ボックスに表示されます。
+     [Google マップ ][1] で GPS 座標を検索するには、検索ボックスに住所を入力します。 マップ上のマーカーを右クリックし、[**[!UICONTROL What's here?]**] を選択します。 GPS 座標が、住所の下の詳細ボックスに表示されます。
 
-     ![一般的なソースオプション](assets/inventory-source-general.png)
+     ![ 一般的なソースオプション ](assets/inventory-source-general.png)
 
-   - この在庫ソースが集荷場所の場合、次のように設定します **[!UICONTROL Use as Pickup Location]** 対象： `Yes`.
+   - この在庫ソースが集荷場所の場合は、**[!UICONTROL Use as Pickup Location]** を `Yes` に設定します。
 
-     既定のソースは、店舗の集荷注文の集荷場所として使用できません。
+     既定のSourceは、店舗の集荷注文の集荷場所として使用できません。
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Contact Info]** を選択し、次の操作を実行します。
+1. **[!UICONTROL Contact Info]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   - の場合 **[!UICONTROL Contact Name]**&#x200B;で、その場所のプライマリ連絡先の氏名を入力します。
+   - **[!UICONTROL Contact Name]**：その場所のプライマリ連絡先の氏名を入力します。
 
-   - を入力 **[!UICONTROL Email]** その場所に連絡するための住所。
+   - 場所に連絡するための **[!UICONTROL Email]** アドレスを入力します。
 
-   - の場合 **[!UICONTROL Phone]**&#x200B;を入力し、市外局番と電話番号を入力します。
+   - **[!UICONTROL Phone]**：市外局番と電話番号を入力します。
 
-   - の場合 **[!UICONTROL Fax]** FAX の市外局番と電話番号（使用可能な場合）を入力します。
+   - **[!UICONTROL Fax]**: FAX の市外局番と電話番号（使用可能な場合）を入力します。
 
-     ![Contact Info](assets/inventory-source-contact-info.png)
+     ![ 連絡先情報 ](assets/inventory-source-contact-info.png)
 
-1. を展開 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Address Data]** を選択し、次の操作を実行します。
+1. **[!UICONTROL Address Data]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   - を選択します。 **[!UICONTROL Country]**.
+   - **[!UICONTROL Country]** を選択します。
 
-   - の場合 **[!UICONTROL State/Province]**：都道府県の標準的な省略形を入力します。
+   - **[!UICONTROL State/Province]**：州または都道府県の標準省略形を入力します。
 
-   - を入力 **[!UICONTROL City]**.
+   - **[!UICONTROL City]** を入力します。
 
-   - 物理を入力 **[!UICONTROL Street]** 住所。
+   - 物理 **[!UICONTROL Street]** アドレスを入力します。
 
-   - の場合 **[!UICONTROL Postcode]**：郵便番号を入力します。
+   - **[!UICONTROL Postcode]**：郵便番号を入力します。
 
-     ![アドレスデータ](assets/inventory-source-address.png)
+     ![ アドレスデータ ](assets/inventory-source-address.png)
 
-1. 前の手順でソースをピックアップ場所として設定した場合は、を展開します ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Pickup Location]** を参照し、場所に関する説明情報を指定します。
+1. 前の手順でソースをピックアップ場所として設定した場合は、![ 拡張セレクター ](../assets/icon-display-expand.png) の **[!UICONTROL Pickup Location]** のセクションを展開し、その場所に関する説明情報を指定します。
 
-   - を入力 **[!UICONTROL Frontend Name]** 集荷場所
+   - 集荷場所の **[!UICONTROL Frontend Name]** を入力します。
 
-   - を入力 **[!UICONTROL Frontend Description]** 集荷場所 このテキスト ボックスを使用して、店舗の営業時間、他のランドマークに対する相対的な場所、または顧客が正しい集荷場所を選択するのに役立つその他の役に立つ情報を表示します。
+   - 集荷場所の **[!UICONTROL Frontend Description]** を入力します。 このテキスト ボックスを使用して、店舗の営業時間、他のランドマークに対する相対的な場所、または顧客が正しい集荷場所を選択するのに役立つその他の役に立つ情報を表示します。
 
-     ![集荷場所](assets/inventory-pickup-location.png)
+     ![ 受け取り場所 ](assets/inventory-pickup-location.png)
 
-   ソースをピックアップ場所として使用する場合のメール通知の設定方法について詳しくは、を参照してください。 [販売メール](../configuration-reference/sales/sales-emails.md) が含まれる _設定リファレンスガイド_.
+   ソースを集荷場所として使用する際のメール通知の設定方法について詳しくは、[ 設定リファレンスガイド _の ](../configuration-reference/sales/sales-emails.md) 販売メール_ を参照してください。
 
 1. 作業内容を保存するには、次のいずれかの操作を行います。
 
-   - 作業内容を保存して編集を続行するには、 **[!UICONTROL Save & Continue]**.
+   - 作業内容を保存して編集を続行するには、「**[!UICONTROL Save & Continue]**」をクリックします。
 
-   - 作業内容を保存してソースの管理ページに戻るには、下向き矢印（![メニュー矢印](../assets/icon-menu-down-arrow-red.png)）を選択して、 **[!UICONTROL Save & Close]**.
+   - 作業内容を保存して「ソースの管理」ページに戻るには、下向き矢印（![ メニュー矢印 ](../assets/icon-menu-down-arrow-red.png)）をクリックして「**[!UICONTROL Save & Close]**」を選択します。
 
-   - 現在のソース レコードに対する作業内容を保存し、新しいソースを入力するには、 **[!UICONTROL Save & New]**.
+   - 現在のソース レコードに対する作業内容を保存し、新しいソースを入力するには、[**[!UICONTROL Save & New]**] を選択します。
 
 ## ボタンバー
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 |--|--|
 | [!UICONTROL Back] | ソースの管理ページに戻ります。 |
 | [!UICONTROL Reset] | フォーム内のすべてのフィールドを、最後の保存時の値に復元します。 |
-| [!UICONTROL Save & Continue] | すべての変更を保存し、さらに編集するためにフォームを開いたままにします。 その他のオプションを表示するには、下向き矢印をクリックします。<br/>**[!UICONTROL Save & Close]**– 現在のレコードへの変更を保存し、フォームを閉じて、ソースの管理ページに戻ります。<br/>**[!UICONTROL Save & New]**  – 変更を保存し、現在のレコードを閉じて、新しい空白のフォームを開きます。 |
+| [!UICONTROL Save & Continue] | すべての変更を保存し、さらに編集するためにフォームを開いたままにします。 下向き矢印をクリックして追加のオプションを表示します。<br/>**[!UICONTROL Save & Close]**– 現在のレコードに対する変更を保存し、フォームを閉じて、ソースの管理ページに戻ります。<br/>**[!UICONTROL Save & New]** – 変更を保存し、現在のレコードを閉じて、新しい空白のフォームを開きます。 |
 
 ## フィールドの説明
 
@@ -108,11 +108,11 @@ ht-degree: 0%
 | [!UICONTROL Is Enabled] | 在庫ソースを使用できるかどうかを決定します。 オプション：はい/いいえ |
 | [!UICONTROL Description] | 在庫ソース場所の簡単な説明。 管理者ユーザーに役立つ詳細を含めます。 |
 | [!UICONTROL Latitude] | GPS のインベントリ ソースの緯度の座標を指定します。 必要に応じて、値を数字で入力し、先頭にプラス記号またはマイナス記号を付けます。 度記号と文字は使用できません。 例：Latitude 32.7555 |
-| [!UICONTROL Longitude] | GPS の在庫ソースの経度座標を指定します。 必要に応じて、値を数字で入力し、先頭にプラス記号またはマイナス記号を付けます。 度記号と文字は使用できません。 例： `-97.3308` |
+| [!UICONTROL Longitude] | GPS の在庫ソースの経度座標を指定します。 必要に応じて、値を数字で入力し、先頭にプラス記号またはマイナス記号を付けます。 度記号と文字は使用できません。 例：`-97.3308` |
 | **[!UICONTROL Contact Info]** | |
 | [!UICONTROL Contact Name] | 在庫ソースの場所の主要連絡先の名前。 |
 | [!UICONTROL Email] | プライマリ連絡先の電子メール。 |
-| [!UICONTROL Phone] | 希望する形式を使用した、プライマリ連絡先の市外局番と電話番号。 例： `(123) 456-7890` または `123-456-7890` |
+| [!UICONTROL Phone] | 希望する形式を使用した、プライマリ連絡先の市外局番と電話番号。 例：`(123) 456-7890` または `123-456-7890` |
 | [!UICONTROL Fax] | プライマリ連絡先の市外局番と FAX 番号。 |
 | **[!UICONTROL Address Data]** | |
 | [!UICONTROL Country] | （必須）在庫ソースが存在する国。 |

@@ -100,7 +100,7 @@ ht-degree: 0%
 
 | オプション | 推奨設定 |
 |--- |--- |
-| [!UICONTROL Enable FPT] | `No`（カリフォルニア州を除く） |
+| [!UICONTROL Enable FPT] | カリフォルニア州を除く `No`。 |
 
 {style="table-layout:auto"}
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 | 税計算 | アイテム時 |
 | 送税？ | はい |
 | 割引を適用 | 税引前、税込み値引き。 |
-| コメント | B2B マーチャント向けに、VAT のサプライチェーンに関する考慮事項を簡素化します。 行の税金計算も有効ですが、課税管轄区域を確認してください。 設定では、販売者がサプライ チェーンにあり、販売された商品が他の仕入先によって VAT リベートなどに使用されることを前提としています。 この定義により、品目ごとに税金を簡単に識別できるので、リベートの生成が迅速化されます。 <br/><br/>**_注意：_**一部の国や地域では、現在Commerceでサポートされていない異なる丸め方法が必要です。また、すべての国や地域で品目税または行レベルの税が許可されているわけではありません。 |
+| コメント | B2B マーチャント向けに、VAT のサプライチェーンに関する考慮事項を簡素化します。 行の税金計算も有効ですが、課税管轄区域を確認してください。 設定では、販売者がサプライ チェーンにあり、販売された商品が他の仕入先によって VAT リベートなどに使用されることを前提としています。 この定義により、品目ごとに税金を簡単に識別できるので、リベートの生成が迅速化されます。 <br/><br/>**_注意：_**一部の国や地域では、現在Commerceでサポートされていない異なる端数処理方式が必要です。また、すべての国や地域で品目税または行税が許可されているわけではありません。 |
 
 {style="table-layout:auto"}
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->GST/PST 州（モントリオール）のマーチャントは、1 つの税務処理基準を作成し、合計の税額を表示する必要があります。 ご質問がある場合は、必ず税務当局にお問い合わせください。 特定の都道府県の税要件について詳しくは、次を参照してください。 [レヴヌ ケベック][1], [サスカチュワン政府][2]、および [ベンダー向けマニトバ情報][3]
+>GST/PST 州（モントリオール）のマーチャントは、1 つの税務処理基準を作成し、合計の税額を表示する必要があります。 ご質問がある場合は、必ず税務当局にお問い合わせください。 特定の州の税要件については、[Revenu Québec][1]、[Government of Saskatchewan][2]、および [Manitoba Information for Vendors][3] を参照してください。
 
 | 税オプション | 推奨事項 |
 |--- |--- |
@@ -160,11 +160,11 @@ ht-degree: 0%
 
 ### 手順 1：税金計算設定の完了
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. マルチサイト設定の場合、次のように設定します **[!UICONTROL Store View]** ：設定のターゲットである web サイトとストアに移動します。
+1. マルチサイト設定の場合は、**[!UICONTROL Store View]** を web サイトに設定し、設定のターゲットとなるストアを指定します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL Tax]**.
+1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Tax]**」を選択します。
 
 1. クリックしてページの各セクションを展開し、次の設定を行います。
 
@@ -178,7 +178,7 @@ ht-degree: 0%
 | [!UICONTROL Shipping Prices] | `Excluding Tax` |
 | [!UICONTROL Apply Customer Tax] | `After Discount` |
 | [!UICONTROL Apply Discount on Prices] | `Excluding Tax` |
-| [!UICONTROL Apply Tax On] | `Custom Price` （使用可能な場合） |
+| [!UICONTROL Apply Tax On] | `Custom Price` （利用可能な場合） |
 
 {style="table-layout:auto"}
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Default Country] | `Canada` |
 | [!UICONTROL Default State] | （適宜） |
-| [!UICONTROL Default Postal Code] | `*` アスタリスク） |
+| [!UICONTROL Default Postal Code] | `*` （アスタリスク） |
 
 {style="table-layout:auto"}
 
@@ -232,9 +232,9 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Tax Identifier] | `Canada-GST` |
 | [!UICONTROL Country] | `Canada` |
-| [!UICONTROL State] | `*` アスタリスク） |
+| [!UICONTROL State] | `*` （アスタリスク） |
 | [!UICONTROL Zip/Post is Range] | `No` |
-| [!UICONTROL Zip/Post Code] | `*` アスタリスク） |
+| [!UICONTROL Zip/Post Code] | `*` （アスタリスク） |
 | [!UICONTROL Rate Percent] | `5.0000` |
 
 {style="table-layout:auto"}
@@ -251,14 +251,14 @@ ht-degree: 0%
 | [!UICONTROL Country] | `Canada` |
 | [!UICONTROL State] | `Saskatchewan` |
 | [!UICONTROL Zip/Post is Range] | `No` |
-| [!UICONTROL Zip/Post Code] | `*` アスタリスク） |
+| [!UICONTROL Zip/Post Code] | `*` （アスタリスク） |
 | [!UICONTROL Rate Percent] | `5.0000` |
 
 {style="table-layout:auto"}
 
 ### 手順 4:GST 税務処理基準の作成
 
-税金の複合化を回避し、計算された税金を GST と PST の別々の明細項目として正しく表示するには、各基準に異なる優先度を設定し、 **小計のみを計算** チェックボックス。 各税金は個別の明細項目として表示されますが、税額は合計されません。
+税金の複合化を回避し、計算された税金を GST と PST の別々の明細項目として正しく表示するには、各基準に異なる優先度を設定し、「**小計のみ計算**」チェックボックスを選択します。 各税金は個別の明細項目として表示されますが、税額は合計されません。
 
 #### 税務処理基準情報
 
@@ -276,7 +276,7 @@ ht-degree: 0%
 
 ### 手順 5: Saskatchewan の PST 税務処理基準の作成
 
-この税務処理基準では、必ず優先度を 0 に設定し、 **小計のみを計算** チェックボックス。 各税金は個別の明細項目として表示されますが、税額は合計されません。
+この税務処理基準の場合は、必ず優先度を 0 に設定し、「**小計のみ計算**」チェックボックスを選択します。 各税金は個別の明細項目として表示されますが、税額は合計されません。
 
 #### 税務処理基準情報
 
@@ -294,7 +294,7 @@ ht-degree: 0%
 
 ### 手順 6：結果を保存してテストする
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 1. ストアフロントに戻り、サンプル注文を作成して結果をテストします。
 
@@ -324,10 +324,10 @@ ht-degree: 0%
 
 | 税率 | 設定 |
 |--- |--- |
-| フランス - StandardVAT | 国：フランス <br/>都道府県/地域：* <br/>郵便番号：* <br/>割合：20% |
-| フランス – ReducedVAT | 国：フランス <br/>都道府県/地域：* <br/>郵便番号：* <br/>割合：5% |
-| Germany-StandardVAT | 国：ドイツ <br/>都道府県/地域：* <br/>郵便番号：*料金：19% |
-| Germany-ReducedVAT | 国：ドイツ <br/>都道府県/地域：* <br/>郵便番号：* <br/>割合：7% |
+| フランス - StandardVAT | 国：フランス <br/> 都道府県/地域：* <br/> 郵便番号：* <br/> 料金：20% |
+| フランス – ReducedVAT | 国：フランス <br/> 都道府県/地域：* <br/> 郵便番号：* <br/> 率：5% |
+| Germany-StandardVAT | 国：ドイツ <br/> 都道府県/地域：* <br/> 郵便番号：*料金：19% |
+| Germany-ReducedVAT | 国：ドイツ <br/> 都道府県/地域：* <br/> 郵便番号：* <br/> 率：7% |
 
 {style="table-layout:auto"}
 
@@ -337,32 +337,32 @@ ht-degree: 0%
 
 | 税務処理基準 | 設定 |
 |--- |--- |
-| 小売 – フランス - StandardVAT | 顧客クラス：小売顧客 <br/>税金区分：VAT 標準 <br/>税率：France-StandardVAT <br/>優先度：0 <br/>並べ替え順：0 |
-| 小売 – フランス – ReducedVAT | 顧客クラス：小売顧客 <br/>税金区分：VAT 減額 <br/>税率：フランスから減額された VAT <br/>優先度：0 <br/>並べ替え順：0 |
-| 小売 – ドイツ – StandardVAT | 顧客クラス：小売顧客 <br/>税金区分：VAT 標準 <br/>税率：Germany-StandardVAT <br/>優先度：0 <br/>並べ替え順：0 |
-| 小売 – ドイツ – ReducedVAT | 顧客クラス：小売顧客 <br/>税金区分：VAT 減額 <br/>税率：ドイツの VAT 減額 <br/>優先度：0 <br/>並べ替え順：0 |
+| 小売 – フランス - StandardVAT | 顧客区分：小売顧客 <br/> 税金区分：VAT – 標準 <br/> 税率：France – 標準 VAT <br/> 優先度：0 <br/> ソート順：0 |
+| 小売 – フランス – ReducedVAT | 顧客区分：小売顧客 <br/> 税金区分：VAT 減額 <br/> 税率：France-ReducedVAT <br/> 優先度：0 <br/> ソート順：0 |
+| 小売 – ドイツ – StandardVAT | 顧客区分：小売顧客 <br/> 税金区分：VAT – 標準 <br/> 税率：Germany-StandardVAT<br/> 優先度：0<br/> ソート順：0 |
+| 小売 – ドイツ – ReducedVAT | 顧客区分：小売顧客 <br/> 税金区分：VAT 減額 <br/> 税率：Germany-ReducedVAT<br/> 優先度：0<br/> ソート順：0 |
 
 {style="table-layout:auto"}
 
 ### 手順 4：ドイツのストア表示の設定
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL All Stores]**に移動します。
 
-1. デフォルトの web サイトで、のストア表示を作成します。 **[!UICONTROL Germany]**.
+1. デフォルトの web サイトで、**[!UICONTROL Germany]** のストア表示を作成します。
 
 1. 次に、以下の手順を実行します。
 
-   - 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+   - _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-   - 左上隅にを設定します **[!UICONTROL Default Config]** フランスの店に。
+   - 左上隅の **[!UICONTROL Default Config]** をフランスの店に設定します。
 
-   - 一般ページで、を展開します。 ![展開セレクター](../assets/icon-display-expand.png) この **[!UICONTROL Countries Options]** セクションで、デフォルトの国をに設定します。 `France`.
+   - 「一般」ページで、「![ 拡張セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Countries Options]**」セクションを展開し、デフォルトの国を `France` に設定します。
 
    - 必要に応じてロケールオプションを入力します。
 
-1. 左上隅の「ドイツ語」を選択します **[!UICONTROL Store View]**.
+1. 左上隅の「ドイツ語」 **[!UICONTROL Store View]** プションを選択します。
 
-1. 日 _一般_ ページ、展開 ![展開セレクター](../assets/icon-display-expand.png) **[!UICONTROL Countries Options]** デフォルトの国をに設定します。 `Germany`.
+1. _一般_ ページで、「![ 拡張セレクター ](../assets/icon-display-expand.png)**[!UICONTROL Countries Options]** を展開し、デフォルトの国を `Germany` に設定します。
 
 1. 必要に応じてロケールオプションを入力します。
 
@@ -385,7 +385,7 @@ ht-degree: 0%
 | [[!UICONTROL Default Tax Destination Calculation]](../configuration-reference/sales/tax.md#default-tax-destination-calculation) |  |
 | [!UICONTROL Default Country] | `France` |
 | [!UICONTROL Default State] |  |
-| [!UICONTROL Default Postal Code] | `*` アスタリスク） |
+| [!UICONTROL Default Postal Code] | `*` （アスタリスク） |
 | [[!UICONTROL Fixed Product taxes]](../configuration-reference/sales/tax.md#fixed-product-taxes) |  |
 | [!UICONTROL Enable FPT] | `Yes` |
 | [!UICONTROL All FPT Display Settings] | `Including FPT and FPT description` |
@@ -397,27 +397,27 @@ ht-degree: 0%
 
 ### 手順 6：ドイツの税金設定の構成
 
-1. 日 _Admin_ サイドバー、に移動 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 右上隅で、を設定します **[!UICONTROL Store View]** ドイツのストアのビューに移動し、 **[!UICONTROL OK]** を確認します。
+1. 右上隅のドイツの店舗のビューに **[!UICONTROL Store View]** を設定し、「**[!UICONTROL OK]**」をクリックして確認します。
 
-1. 左側のパネルで、を展開します **[!UICONTROL Sales]** を選択します **[!UICONTROL Tax]**.
+1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Tax]**」を選択します。
 
-1. が含まれる **[!UICONTROL Default Tax Destination Calculation]** セクションで、次の操作を行います。
+1. **[!UICONTROL Default Tax Destination Calculation]** セクションで、次の操作を行います。
 
-   - をクリア **[!UICONTROL Use Website]** 各フィールドの後のチェックボックス、
+   - 各フィールドの後の「**[!UICONTROL Use Website]**」チェックボックスをオフにします。
 
-   - サイトの配送設定に合わせるには [原点](shipping-settings.md#point-of-origin)、次の値を更新します。
+   - サイトの発送設定 [ 接触チャネル ](shipping-settings.md#point-of-origin) に一致させるには、次の値を更新します。
 
       - デフォルトの国
       - デフォルトの状態
-      - 既定の Post コード
+      - デフォルトのPost コード
 
      この設定により、製品価格に税金が含まれる場合に税金が正しく計算されます。
 
-     ![デフォルト税金宛先計算](./assets/destination-calc-french.png){width="600" zoomable="yes"}
+     ![ デフォルト税金搬送先計算 ](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
-1. 完了したら、 **[!UICONTROL Save Config]**.
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 [1]: https://www.revenuquebec.ca/en/businesses/
 [2]: https://www.saskatchewan.ca/finance

@@ -13,59 +13,59 @@ ht-degree: 0%
 
 # 会社の役割と権限
 
-会社ユーザーの役割は、販売情報およびリソースにアクセスするための様々なレベルの権限で設定されます。 デフォルトでは、会社管理者はです _スーパーユーザー_ フルアクセス権を持つ。 この [アクセス拒否](../content-design/pages.md#access-denied) ユーザーがページへのアクセス権を持っていない場合は、ページが表示されます。
+会社ユーザーの役割は、販売情報およびリソースにアクセスするための様々なレベルの権限で設定されます。 デフォルトでは、会社の管理者は、すべての権限を持つ _スーパーユーザー_ です。 ユーザーがそのページへのアクセス権を持っていない場合は、「[ アクセスが拒否されました ](../content-design/pages.md#access-denied)」ページが表示されます。
 
-![デフォルトの役割を持つ役割と権限ページ](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
+![ デフォルトの役割を持つ役割および権限ページ ](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
 
-システムには、事前に定義されたデフォルトのユーザーの役割が 1 つあり、それを使用できます _現状_ または、ニーズに合わせて変更します。 次のような会社の構造と組織の責任に合わせて、必要な数の役割を作成できます。
+システムには、デフォルトのユーザーの役割が 1 つ事前定義されており、必要に応じて _そのまま_ 使用したり、変更したりできます。 次のような会社の構造と組織の責任に合わせて、必要な数の役割を作成できます。
 
-- **既定のユーザー** — デフォルト・ユーザーは、売上と見積に関連するアクティビティへのフル・アクセス権を持ち、会社のプロファイルとクレジット情報への表示専用アクセス権を持ちます。
+- **デフォルトユーザー** - デフォルトユーザーは、販売および見積りに関連するアクティビティへのフルアクセス権、および会社プロファイルとクレジット情報への表示専用アクセス権を持ちます。
 
-- **上級バイヤー**  – 上級購買担当は、すべての Sales および Quote リソースにアクセスでき、Company Profile、User and Teams、Payment Information、および Company Credit に対する表示専用の権限を持つ場合があります。
+- **シニアバイヤー** - シニアバイヤーは、すべての販売および見積リソースへのアクセス、および会社プロファイル、ユーザーおよびチーム、支払情報および会社クレジットへの表示専用の権限を持つ場合があります。
 
-- **アシスタントの購入者** — アシスタントの購入者には、を使用して注文する権限がある場合があります。 _見積もり付きチェックアウト_、および注文、見積もり、情報を会社プロファイルに表示します。
+- **アシスタント・バイヤー** - アシスタント・バイヤーには、_見積付きの精算_ を使用した発注、および会社プロファイルでの発注、見積および情報の表示を行う権限が付与される場合があります。
 
 ## 役割と権限の管理
 
 1. 会社の管理者が、店舗のアカウントにログインします。
 
-1. 左側のパネルで、を選択します **[!UICONTROL Roles and Permissions]**.
+1. 左側のパネルで、「**[!UICONTROL Roles and Permissions]**」を選択します。
 
 1. 次のいずれかのタスクを完了します。
 
 ### 役割の作成
 
-1. クリック数 **[!UICONTROL Add New Role]**.
+1. **[!UICONTROL Add New Role]** をクリックします。
 
-   ![Add New Role](./assets/company-roles-permissions-add-storefront.png){width="600" zoomable="yes"}
+   ![ 新しい役割の追加 ](./assets/company-roles-permissions-add-storefront.png){width="600" zoomable="yes"}
 
-1. 説明を入力 **[!UICONTROL Role Name]**.
+1. 説明 **[!UICONTROL Role Name]** を入力します。
 
-1. 次の下 _[!UICONTROL Role Permissions]_は、次のいずれかの操作を行います。
+1. [_[!UICONTROL Role Permissions]_] で、次のいずれかの操作を行います。
 
    - 役割を割り当てられたユーザーがアクセス権限を持つ各リソースまたはアクティビティのチェックボックスを選択します。
 
-   - 選択します。 **[!UICONTROL All]** チェックボックスをオンにして、役割に割り当てられたユーザーがアクセス権限を持たない各リソースまたはアクティビティのチェックボックスをオフにします。
+   - 「**[!UICONTROL All]**」チェックボックスをオンにして、役割に割り当てられたユーザーがアクセス権限を持たない各リソースまたはアクティビティのチェックボックスをオフにします。
 
-1. クリック数 **[!UICONTROL Save Role]**.
+1. **[!UICONTROL Save Role]** をクリックします。
 
 1. これらの手順を繰り返して、必要な数の役割を作成します。
 
 ### 役割の変更
 
-1. 役割を変更するには、会社の管理者は、 **[!UICONTROL Edit]** が含まれる _[!UICONTROL Actions]_列。
+1. 役割を変更するには、会社管理者が「_[!UICONTROL Actions]_」列の「**[!UICONTROL Edit]**」をクリックします。
 
 1. 名前と権限の設定に必要な変更を加えます。
 
-1. 完了したら、をクリックします **[!UICONTROL Save Role]**.
+1. 完了したら、「**[!UICONTROL Save Role]**」をクリックします。
 
 ### 役割の複製
 
-1. 役割を複製する場合、会社管理者は、 **[!UICONTROL Duplicate]** が含まれる _[!UICONTROL Actions]_列。
+1. 役割を複製する場合、会社管理者は _[!UICONTROL Actions]_列の&#x200B;**[!UICONTROL Duplicate]**をクリックします。
 
 1. 名前と権限の設定に必要な変更を加えます。
 
-1. 完了したら、をクリックします **[!UICONTROL Save Role]**.
+1. 完了したら、「**[!UICONTROL Save Role]**」をクリックします。
 
 ### 役割の削除
 
@@ -73,15 +73,15 @@ ht-degree: 0%
 
    削除できるのは、ユーザーが割り当てられていない役割のみです。
 
-1. クリック数 **[!UICONTROL Delete]** が含まれる _[!UICONTROL Actions]_列。
+1. 「_[!UICONTROL Actions]_」列の&#x200B;**[!UICONTROL Delete]**をクリックします。
 
-1. 確認を求められたら、をクリックします **[!UICONTROL OK]**.
+1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL OK]**」をクリックします。
 
 ## アクション
 
 | アクション | 説明 |
 |-----------| ----------- |
-| [!UICONTROL Duplicate] | 選択した役割のコピーを作成します。 重複する役割の名前 `- Duplicated` 最後にを追加しました。 |
+| [!UICONTROL Duplicate] | 選択した役割のコピーを作成します。 重複する役割の名前が最後に追加さ `- Duplicated` ました。 |
 | [!UICONTROL Edit] | 名前や権限のセットを変更します。 |
 | [!UICONTROL Delete] | 役割を削除します。 削除できるのは、ユーザーが割り当てられていない役割のみです。 |
 
@@ -130,14 +130,14 @@ ht-degree: 0%
 
 1. 会社の管理者として会社アカウントにログインします。
 
-1. 左側のパネルで、を選択します **[!UICONTROL Company Users]**.
+1. 左側のパネルで、「**[!UICONTROL Company Users]**」を選択します。
 
-   ![会社のユーザー](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
+   ![ 会社ユーザー ](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
-1. リストからユーザーを検索してクリックします **[!UICONTROL Edit]**.
+1. リスト内のユーザーを検索してクリック **[!UICONTROL Edit]** ます。
 
-1. 適切なを選択します **[!UICONTROL User Role]** をユーザーの場合。
+1. ユーザーに適した **[!UICONTROL User Role]** を選択します。
 
-   ![ユーザーを編集 – ユーザーロールを選択します](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
+   ![ ユーザーを編集 – ユーザーロールを選択します ](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
 
-1. クリック数 **[!UICONTROL Save]**.
+1. **[!UICONTROL Save]** をクリックします。

@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
-description: の設定を確認します。 [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] コマース管理者のページ。
+description: Commerce Admin の [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] ページで設定を確認します。
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe CommerceおよびMagento Open Source向け支払いサービスは、堅牢で安全な支払い処理を提供するために、サンドボックステストやシンプルなセットアップなどのターンキーセルフサービスソリューションを提供します。 この強力なツールセットの詳細と、購入者にとって最適なエクスペリエンスを作成するために必要なインサイトと制御を提供する方法については、 [_支払いサービスユーザーガイド_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+>Adobe CommerceおよびMagento Open Source向け支払いサービスは、堅牢で安全な支払い処理を提供するために、サンドボックステストやシンプルなセットアップなどのターンキーセルフサービスソリューションを提供します。 この強力なツールセットの詳細と、購入者にとって最適なエクスペリエンスを作成するために必要なインサイトと制御を提供する方法については、[_支払いサービスユーザーガイド_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) を参照してください。
 
 {{config}}
 
 ## [!UICONTROL Merchant Location]
 
-![マーチャントの場所](./assets/payment-methods-merchant-location.png)<!-- zoom -->
+![ 販売者の所在地 ](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
 <!-- [Merchant Location](https://docs.magento.com/user-guide/payment/merchant-location.html) -->
 
-| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Merchant Country] | Web サイト | 営業を行うために商人が登録されている国を識別します。 |
 
@@ -40,13 +40,13 @@ PayPal アカウントまたはクレジットカードによるオンライン�
 
 >[!NOTE]
 >
->一部の支払い統合およびバンドルされた拡張機能は、2.4.x リリースで削除され、Commerce Marketplaceに移行されました。 最新の公式の支払い統合拡張機能については、こちらを参照してください。 [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target=&quot;_blank&quot;}。
+>一部の支払い統合およびバンドルされた拡張機能は、2.4.x リリースで削除され、Commerce Marketplaceに移行されました。 最新の公式の支払い統合拡張機能については、[Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target=&quot;_blank&quot;} をご覧ください。
 ><br/>
->**Amazon ペイ** および **クラルナ**:Adobe CommerceおよびMagento Open Sourceリリース 2.4.0 から 2.4.3 には、これらのベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、これらの拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 また、Marketplace では、拡張機能開発者が提供する最新のドキュメントにもアクセスできます。
+>**Amazon Pay** および **Klarna**:Adobe CommerceおよびMagento Open Sourceリリース 2.4.0 から 2.4.3 には、これらのベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、これらの拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 また、Marketplace では、拡張機能開発者が提供する最新のドキュメントにもアクセスできます。
 ><br/>
->これらのバンドルされた拡張機能のいずれかが有効になっていて設定されている場合は、 `composer.json` 2.4.4 アップグレードプロセスの一環として、および今後は拡張機能の更新を管理するために、ファイルをアップロードします。 参照： [アップグレードモジュール](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) が含まれる _アップグレードガイド_ を参照してください。<br/>
+>これらのバンドルされた拡張機能のいずれかが有効になって設定済みの場合は、2.4.4 アップグレードプロセスの一環として `composer.json` ファイルを更新し、今後、拡張機能の更新を管理する必要があります。 詳しくは、『 [ アップグレードガイド _の ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) アップグレードモジュール_ を参照してください。<br/>
 ><br/>
->**Worldpay**, **Eway**, **CyberSource**、および **Authorize.Net**：これらの支払い統合から安全に移行する方法について詳しくは、 [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target=&quot;_blank&quot;}。
+>**Worldpay**、**Eway**、**CyberSource**、および **Authorize.Net**：これらの支払い統合から安全に移行する方法については、[DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target=&quot;_blank&quot;} を参照してください。
 
 ## その他の PayPal メソッド
 
@@ -61,7 +61,7 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 ### PayPal 支払いゲートウェイ
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md) （高速チェックアウトを含む）
-- [PayPal ペイフローリンク](paypal-payflow-link.md) （高速チェックアウトを含む）
+- [PayPal ペイフローリンク ](paypal-payflow-link.md) （高速チェックアウトを含む）
 
 ## 基本的な支払い方法
 
@@ -69,41 +69,41 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 
 ### [!UICONTROL Check / Money Order]
 
-![小切手/送金](./assets/payment-methods-check-money-order.png)<!-- zoom -->
+![ 小切手/送金 ](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
 <!-- [Check / Money Order](https://docs.magento.com/user-guide/payment/check-money-order.html) -->
 
-| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | Web サイト | 顧客が小切手または送金で支払うことができるかどうかを決定します。 オプション： `Yes` / `No` |
+| [!UICONTROL Enabled] | Web サイト | 顧客が小切手または送金で支払うことができるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時に顧客に表示されるこの支払い方法の名前。 |
-| [!UICONTROL New Order Status] | Web サイト | 最初のを決定します [注文ステータス](../../stores-purchase/order-status.md) 小切手またはマネーオーダーによって支払われた注文に割り当てられます。 デフォルト値 `Pending` |
-| [!UICONTROL Payment from Applicable Countries] | Web サイト | 小切手またはマネーオーダーによる支払いを受け入れる国を決定します。 オプション： `All Allowed Countries` / `Specific Countries` |
+| [!UICONTROL New Order Status] | Web サイト | 小切手またはマネーオーダーによって支払われた注文に割り当てられる最初の [ 注文ステータス ](../../stores-purchase/order-status.md) を決定します。 デフォルト値：`Pending` |
+| [!UICONTROL Payment from Applicable Countries] | Web サイト | 小切手またはマネーオーダーによる支払いを受け入れる国を決定します。 オプション：`All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Web サイト | 小切手またはマネーオーダーによる支払いを受け入れる特定の国を識別します。 |
 | [!UICONTROL Make Check Payable to] | ストア表示 | 小切手および為替を支払う必要があるエンティティの名前。 |
 | [!UICONTROL Send Check to] | ストア表示 | 小切手および送金が送信される住所または私書箱。 |
 | [!UICONTROL Minimum Order Total] | Web サイト | 小切手またはマネーオーダーで支払うことができる最小の注文金額。 |
-| [!UICONTROL Maximum Order Total] | Web サイト | 小切手またはマネーオーダーで支払うことができる最大の注文金額。 <br/><br/>**_注意：_**注文は、合計が最小注文の合計と最大注文の合計の間にあるか、合計と一致するかを検証します。 |
-| [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法でリストされたときに、小切手または送金による支払いが表示される順序を決定する数値です。 Enter `0` をクリックして、リストの先頭に追加します。 |
+| [!UICONTROL Maximum Order Total] | Web サイト | 小切手またはマネーオーダーで支払うことができる最大の注文金額。 <br/><br/>**_注意：_**注文は、合計が最小注文合計と最大注文合計の間にあるか、合計と一致するかを検証します。 |
+| [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法でリストされたときに、小切手または送金による支払いが表示される順序を決定する数値です。 `0` と入力して、リストの先頭に配置します。 |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Bank Transfer Payment]
 
-![銀行振込による支払い](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
+![ 振替支払 ](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
 <!-- [Bank Transfer Payment](https://docs.magento.com/user-guide/payment/bank-transfer.html) -->
 
-| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | Web サイト | 顧客が支払いを銀行から販売者の口座に直接送金して支払うことができるかどうかを決定します。 オプション： `Yes` / `No` |
+| [!UICONTROL Enabled] | Web サイト | 顧客が支払いを銀行から販売者の口座に直接送金して支払うことができるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時に顧客に表示されるこの支払い方法の名前。 |
-| [!UICONTROL New Order Status] | Web サイト | 銀行振込で支払われた注文に割り当てられた最初の注文ステータスを決定します。 デフォルト値 `Pending` |
-| [!UICONTROL Payment from Applicable Countries] | Web サイト | 銀行振込による支払いを受け入れる国を決定します。 オプション： `All Allowed Countries` / `Specific Countries` |
+| [!UICONTROL New Order Status] | Web サイト | 銀行振込で支払われた注文に割り当てられた最初の注文ステータスを決定します。 デフォルト値：`Pending` |
+| [!UICONTROL Payment from Applicable Countries] | Web サイト | 銀行振込による支払いを受け入れる国を決定します。 オプション：`All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Web サイト | 銀行振込による支払いを受け入れる特定の国を識別します。 |
 | [!UICONTROL Minimum Order Total] | Web サイト | 銀行振込で支払うことができる最小の注文金額。 |
-| [!UICONTROL Maximum Order Total] | Web サイト | 銀行振込で支払うことができる最大の注文金額。 <br/><br/>**_注意：_**注文は、合計が最小注文の合計と最大注文の合計の間にあるか、合計と一致するかを検証します。 |
-| [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法でリストされた場合に、銀行振込による支払いが表示される順序を決定する数値です。 Enter `0` をクリックして、リストの先頭に追加します。 |
+| [!UICONTROL Maximum Order Total] | Web サイト | 銀行振込で支払うことができる最大の注文金額。 <br/><br/>**_注意：_**注文は、合計が最小注文合計と最大注文合計の間にあるか、合計と一致するかを検証します。 |
+| [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法でリストされた場合に、銀行振込による支払いが表示される順序を決定する数値です。 `0` と入力して、リストの先頭に配置します。 |
 
 {style="table-layout:auto"}
 
@@ -111,66 +111,66 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 
 {{b2b-feature}}
 
-![分割払い](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
+![ 分割払 ](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
 <!-- [Payment on Account](https://docs.magento.com/user-guide/payment/payment-on-account.html) -->
 
-| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | Web サイト | 会社が会社クレジットを使用して購入できるかどうかを決定します。 オプション： `Yes` / `No` |
+| [!UICONTROL Enabled] | Web サイト | 会社が会社クレジットを使用して購入できるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時に顧客に表示されるこの支払い方法の名前。 |
-| [!UICONTROL New Order Status] | Web サイト | 会社アカウントに請求される新規注文のステータスを決定します。 オプション： `Pending (default)` / `Processing` / `Suspected Fraud` |
-| [!UICONTROL Payment from Applicable Countries] | Web サイト | 会社がアカウントに購入を請求できる国を決定します。 オプション： `All Allowed Countries` / `Specific Countries` |
+| [!UICONTROL New Order Status] | Web サイト | 会社アカウントに請求される新規注文のステータスを決定します。 オプション：`Pending (default)`/`Processing`/`Suspected Fraud` |
+| [!UICONTROL Payment from Applicable Countries] | Web サイト | 会社がアカウントに購入を請求できる国を決定します。 オプション：`All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Web サイト | 企業がアカウントに購入を請求できる特定の国を識別します。 |
 | [!UICONTROL Minimum Order Total] | Web サイト | 会社の口座に請求できる最小の注文金額を指定します。 |
-| [!UICONTROL Maximum Order Total] | Web サイト | 会社の口座に請求できる最大注文金額。 <br/><br/>**_注意：_**注文は、合計が最小注文の合計と最大注文の合計の間にあるか、合計と一致するかを検証します。 |
-| [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法と一緒にリストされた場合に、分割払いが表示される順序を決定する数値です。 Enter `0` をクリックして、リストの先頭に追加します。 |
+| [!UICONTROL Maximum Order Total] | Web サイト | 会社の口座に請求できる最大注文金額。 <br/><br/>**_注意：_**注文は、合計が最小注文合計と最大注文合計の間にあるか、合計と一致するかを検証します。 |
+| [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法と一緒にリストされた場合に、分割払いが表示される順序を決定する数値です。 `0` と入力して、リストの先頭に配置します。 |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->での注文については、分割払いはサポートされていません。 [複数の配送先住所](../../stores-purchase/shipping-settings.md#multiple-addresses) およびは支払いオプションの中には表示されません。
+>[ 複数の配送先住所 ](../../stores-purchase/shipping-settings.md#multiple-addresses) を含む注文については、アカウントでのお支払いはサポートされておらず、お支払いオプションには表示されません。
 
 ### [!UICONTROL Cash On Delivery Payment]
 
-![代金引換支払](./assets/payment-methods-cash-on-delivery-payment.png)<!-- zoom -->
+![ 代金交付金 ](./assets/payment-methods-cash-on-delivery-payment.png)<!-- zoom -->
 
 <!-- [Cash On Delivery Payment](../../stores-purchase/cash-on-delivery.html) -->
 
-| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | Web サイト | 顧客が支払いを銀行から販売者の口座に直接送金して支払うことができるかどうかを決定します。 オプション： `Yes` / `No` |
+| [!UICONTROL Enabled] | Web サイト | 顧客が支払いを銀行から販売者の口座に直接送金して支払うことができるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時に顧客に表示されるこの支払い方法の名前。 |
-| [!UICONTROL New Order Status] | Web サイト | 銀行振込で支払われた注文に割り当てられた最初の注文ステータスを決定します。 デフォルト値 `Pending` |
-| [!UICONTROL Payment from Applicable Countries] | Web サイト | 銀行振込による支払いを受け入れる国を決定します。 オプション： `All Allowed Countries` / `Specific Countries` |
+| [!UICONTROL New Order Status] | Web サイト | 銀行振込で支払われた注文に割り当てられた最初の注文ステータスを決定します。 デフォルト値：`Pending` |
+| [!UICONTROL Payment from Applicable Countries] | Web サイト | 銀行振込による支払いを受け入れる国を決定します。 オプション：`All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Web サイト | 銀行振込による支払いを受け入れる特定の国を識別します。 |
 | [!UICONTROL Minimum Order Total] | Web サイト | 銀行振込で支払うことができる最小の注文金額を指定します。 |
-| [!UICONTROL Maximum Order Total] | Web サイト | 銀行振込で支払うことができる最大の注文金額。 <br/><br/>**_注意：_**注文は、合計が最小注文の合計と最大注文の合計の間にあるか、合計と一致するかを検証します。 |
-| [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法でリストされた場合に、銀行振込による支払いが表示される順序を決定する数値です。 Enter `0` をクリックして、リストの先頭に追加します。 |
+| [!UICONTROL Maximum Order Total] | Web サイト | 銀行振込で支払うことができる最大の注文金額。 <br/><br/>**_注意：_**注文は、合計が最小注文合計と最大注文合計の間にあるか、合計と一致するかを検証します。 |
+| [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法でリストされた場合に、銀行振込による支払いが表示される順序を決定する数値です。 `0` と入力して、リストの先頭に配置します。 |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Zero Subtotal Checkout]
 
-![小計ゼロ チェックアウト](./assets/payment-methods-zero-subtotal-checkout.png)<!-- zoom -->
+![ 小計ゼロのチェックアウト ](./assets/payment-methods-zero-subtotal-checkout.png)<!-- zoom -->
 
 <!-- [Zero Subtotal Checkout](../../stores-purchase/zero-subtotal-checkout.html) -->
 
-| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時にこの支払い方法に使用される名前。 デフォルト値：支払情報は不要 |
-| [!UICONTROL Enabled] | Web サイト | 小計ゼロの小計チェックアウトを店舗管理者が使用できるかどうかを決定します。小計ゼロの注文（課税済みの注文など）を管理できますが、割引によって金額がゼロに減らされています。 オプション： `Yes` / `No` |
-| [!UICONTROL New Order Status] | Web サイト | ゼロ小計チェックアウトとして処理された注文に割り当てられた最初の注文ステータスを決定します。 デフォルト値 `Pending` |
-| [!UICONTROL Payment from Applicable Countries] | Web サイト | ゼロ小計チェックアウトを適用できる国を決定します。 オプション： `All Allowed Countries` / `Specific Countries` |
+| [!UICONTROL Enabled] | Web サイト | 小計ゼロの小計チェックアウトを店舗管理者が使用できるかどうかを決定します。小計ゼロの注文（課税済みの注文など）を管理できますが、割引によって金額がゼロに減らされています。 オプション：`Yes` / `No` |
+| [!UICONTROL New Order Status] | Web サイト | ゼロ小計チェックアウトとして処理された注文に割り当てられた最初の注文ステータスを決定します。 デフォルト値：`Pending` |
+| [!UICONTROL Payment from Applicable Countries] | Web サイト | ゼロ小計チェックアウトを適用できる国を決定します。 オプション：`All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Web サイト | ゼロ小計チェックアウトを適用できる特定の国を識別します。 |
-| [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法と一緒にリストされた場合に、「支払い情報が必要ありません」などのタイトルが表示される順序を決定する数値です。 Enter `0` をクリックして、リストの先頭に追加します。 |
+| [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法と一緒にリストされた場合に、「支払い情報が必要ありません」などのタイトルが表示される順序を決定する数値です。 `0` と入力して、リストの先頭に配置します。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Payment actions]
 
-支払アクションが設定されています _支払方法ごと_. 支払処理では、資金が取得される時期と、受注に対する請求書が作成される時期が決定されます。
+支払いアクションは _支払い方法ごとに_ 設定されます。 支払処理では、資金が取得される時期と、受注に対する請求書が作成される時期が決定されます。
 
 個々の設定オプションの包括的なリストについては、個々の支払い方法のトピックの基本設定の節を参照してください。
 
@@ -189,23 +189,23 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 
 >[!NOTE]
 >
->を選択しないでください _[!UICONTROL Not Capture]_後でCommerceを通じて支払いをキャプチャすることが確実でない限り、オプション。 「取得」ボタンを使用して支払を取得するまでは、クレジット・メモを作成できません。
+>後でCommerceを通じて支払いをキャプチャすることが確実でない限り、「_[!UICONTROL Not Capture]_」オプションを選択しないでください。 「取得」ボタンを使用して支払を取得するまでは、クレジット・メモを作成できません。
 
 ## [!UICONTROL Purchase Order]
 
-![注文書](./assets/payment-methods-purchase-order.png)<!-- zoom -->
+![ 注文書 ](./assets/payment-methods-purchase-order.png)<!-- zoom -->
 
 <!-- [Purchase Order](../../stores-purchase/purchase-order.html) -->
 
-| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | Web サイト | 顧客が発注書（PO）で支払うことができるかどうかを決定します。 オプション： `Yes` / `No` |
+| [!UICONTROL Enabled] | Web サイト | 顧客が発注書（PO）で支払うことができるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時に顧客に表示されるこの支払い方法の名前。 |
-| [!UICONTROL New Order Status] | Web サイト | 最初のを決定します [注文ステータス](../../stores-purchase/order-status.md) 発注によって支払われた注文に割り当てられます。 デフォルト値：保留中 |
-| [!UICONTROL Payment from Applicable Countries] | Web サイト | 発注による支払を受け入れる国を決定します。 オプション： `All Allowed Countries` / `Specific Countries` |
+| [!UICONTROL New Order Status] | Web サイト | PO によって支払われた注文に割り当てられる最初の [ 注文ステータス ](../../stores-purchase/order-status.md) を決定します。 デフォルト値：保留中 |
+| [!UICONTROL Payment from Applicable Countries] | Web サイト | 発注による支払を受け入れる国を決定します。 オプション：`All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Web サイト | 発注による支払を受け入れる特定の国を識別します。 |
 | [!UICONTROL Minimum Order Total] | Web サイト | PO で支払うことができる最小の注文金額。 |
-| [!UICONTROL Maximum Order Total] | Web サイト | PO で支払うことができる最大注文金額。 <br/><br/>**_注意：_**注文は、合計が最小注文の合計と最大注文の合計の間にあるか、合計と一致するかを検証します。 |
-| [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法と一緒にリストされたときに発注による支払いが表示される順序を決定する数値です。 Enter `0` をクリックして、リストの先頭に追加します。 |
+| [!UICONTROL Maximum Order Total] | Web サイト | PO で支払うことができる最大注文金額。 <br/><br/>**_注意：_**注文は、合計が最小注文合計と最大注文合計の間にあるか、合計と一致するかを検証します。 |
+| [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法と一緒にリストされたときに発注による支払いが表示される順序を決定する数値です。 `0` と入力して、リストの先頭に配置します。 |
 
 {style="table-layout:auto"}
