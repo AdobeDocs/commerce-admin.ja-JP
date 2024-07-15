@@ -3,9 +3,9 @@ title: 商品リスト
 description: 製品を作成し、既存の製品を編集できる、管理者の_[!UICONTROL Products]_ ページについて説明します。
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
+source-git-commit: 8bb91b80f8ba957676c654e984deb5704b777612
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,6 @@ _[!UICONTROL Products]_リストには、カタログ内のすべての製品が
 | [!UICONTROL Visibility] | カタログ内で商品が表示される場所を示します。 オプション：`Not Visible Individually`/`Catalog`/`Search`/`Catalog, Search` |
 | [!UICONTROL Status] | 商品のステータスを示します。 オプション：`Enabled` および `Disabled` |
 | [!UICONTROL Websites] | 製品が使用可能な web サイトを示します。 |
-| [!UICONTROL Remote Media URL] | Commerceの [AEM Assets統合 ](../content-design/aem-assets.md) を使用して商品メディアアセットを管理している場合、このフィールドには、アセットを保存する一元化されたリポジトリーであるAEM Assets デジタルアセット管理ストアでCommerce アセットを表示する URL が表示されます。 このフィールドは、AEM Assets統合が有効な場合にのみ表示されます。 |
 | [!UICONTROL Action] | 製品を編集モードで開きます。 |
 | [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) （[Adobe Commerce B2B](./b2b/../introduction.md) でのみ使用可能）商品のカスタム価格を含む共有カタログを示します。 |
 
