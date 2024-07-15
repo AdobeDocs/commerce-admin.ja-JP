@@ -2,9 +2,9 @@
 title: CommerceのExperience Manager Assets統合
 description: Experience Manager Assetsをインスタンスと統合して  [!DNL Commerce]  ストアで使用する無数のメディアアセットにアクセスする方法を説明します。
 feature: CMS, Media, Configuration, Integration
-source-git-commit: fafe8d46931cc00e58d0888639fd8e739a170f8a
+source-git-commit: 8588973f265c6bd3dfdd41e574f27f653cc9da0e
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,6 @@ CommerceとAdobe Experience Manager（AEM）Assetsの統合は、AEM as a Digita
    - **動的な更新** – アセット管理システムの最新の変更に合わせて製品画像を最新の状態に保ちます。 これらの自動更新により、コマースストアフロントに常に最新の製品情報が保持されるようになります。
    - **効率的なカタログ管理** - アセットのクリーンアップと更新を自動化することで、製品カタログのメンテナンスを簡素化します。
 
-## 統合を有効にすると変更される内容
-
-製品リスト – 新しいフィールド [!UICONTROL Remote Media URL]
-
-商品詳細ページ - AEM DAM から取得されるアセットが表示される以外、変更はありません
-
-
 ## CommerceとExperience Manager Assetsの統合
 
 >[!BEGINSHADEBOX]
@@ -51,12 +44,10 @@ CommerceとAdobe Experience Manager（AEM）Assetsの統合は、AEM as a Digita
 
 >[!ENDSHADEBOX]
 
+CommerceとExperience Manager Assetsの統合を有効にするには、次のタスクを実行します。
 
-CommerceとExperience Manager Assetsの統合を有効にするには、次の 3 つの手順を実行します。
+1. [Experience Manager Assets プロジェクトを設定してCommerce アセットを管理します](aem-assets-configure-aem.md)
 
-1. [Experience Manager Assets プロジェクトを設定してCommerce アセットを管理します ](aem-assets-configure-aem.md)。
-
-1. [Experience Manager Assets Integration 拡張機能のインストールとAdobe Commerceの設定](aem-assets-configure-aem.md)
+1. [Experience Manager Assets Integration 拡張機能のインストールとAdobe Commerceの設定](aem-assets-configure-commerce.md)
 
 1. [同期サービスの設定](aem-assets-setup-synchronization.md)
-

@@ -2,7 +2,7 @@
 title: 同期サービスの設定
 description: Adobe Commerce プロジェクトとExperience Manager Assets プロジェクトをAssets ルールエンジンサービスに接続して、これら 2 つのシステム間のアセット同期を有効にする方法を説明します。
 feature: CMS, Media
-source-git-commit: 9d7b1b58b472a99196213e5ab109142bc57b1692
+source-git-commit: 939fa5caeeb7a8913457c3492484362a1d3471be
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -45,8 +45,8 @@ Commerce プロジェクト環境とAEM Assets プロジェクト環境をCommer
 | 必須データ | Source | 検索場所 |
 | ---------- | ------ | ------------- |
 | Magentoアカウントからの API キー | Commerce | ステージングまたは実稼動で使用するCommerce環境の公開 API キーを指定します。 実稼動環境とステージング環境の API キーは、[Commerce サービスコネクタの設定 ](aem-assets-configure-commerce.md#configure-the-commerce-services-connector) ページ（管理）または「[!UICONTROL API Portal]」セクションの [!UICONTROL My Account] ページにあります。 |
-| Commerce SaaS プロジェクト識別子 <ul><li>`magento-environment-Id`</li><li>`Project ID`</li></ul> | Commerce管理者 | これらの値は、Commerce環境と、接続先の SaaS データ領域およびプロジェクトを特定します。 値は、[Commerce Services Connector SaaS Identifier configuration] から取得されます。（aem-assets-configure-commerce.md#configure-the-commerce-services-connector）。 |
-| AEM `programId`<br>`environmentId` | [AEM Assets オーサリング環境 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | AEM Sitesページを開き、「**[!UICONTROL Assets]**」を選択します。  次の URL からプロジェクト ID と環境 ID をコピーします。`https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/` |
+| Commerce SaaS プロジェクト識別子 <ul><li>`magento-environment-Id`</li><li>`Project ID`</li></ul> | Commerce管理者 | これらの値は、Commerce環境と、接続先の SaaS データ領域およびプロジェクトを特定します。 値は、[Commerce Services Connector SaaS Identifier configuration](aem-assets-configure-commerce.md#configure-the-commerce-services-connector) から取得されます。 |
+| AEM `programId` と <br>`environmentId` | [AEM Assets オーサリング環境 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | AEM Sitesページを開き、「**[!UICONTROL Assets]**」を選択します。  次の URL からプロジェクト ID と環境 ID をコピーします。<br>`https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/` |
 | baseURL | Commerce ストアフロント | Commerce ストアフロントの [ ベース URL](../stores-purchase/store-urls.md)。 |
 | API アクセス用の OAuth 認証情報 | Commerce管理者 | これらの資格情報は、Commerce[Assets統合の設定 ](aem-assets-configure-commerce.md#experience-manager-assets-integration-for-adobe-commerce-10-release) で確認できます。 |
 

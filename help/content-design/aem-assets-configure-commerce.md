@@ -2,7 +2,7 @@
 title: Experience Manager Assets統合のインストールと設定
 description: 「をインストールして設定する方法を説明  [!DNL AEM Assets Integration for Adobe Commerce] ます。」
 feature: CMS, Media
-source-git-commit: 8d981258fcfe3515280fa8a7cc99770db7f467f4
+source-git-commit: 81910c45f85cde9c7b2264a55ea6fb2759107d40
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 0%
@@ -171,8 +171,8 @@ AEM Assets統合では、Adobe I/Oイベントサービスを使用して、Comm
 セットアップには、次の手順が必要です。
 
 1. アプリケーションサーバーと管理者でAdobe I/Oイベントを設定して、Commerce イベントフレームワークを有効にします。
-1. Assets Rules Engine サービス API を使用してAEM Assetsを設定することにより、Adobe Commerceと Connection の間でデータ同期を有効にします
-1. 管理者でAEM Assets統合を有効にします
+1. Assets Rules Engine サービス API を使用してAEM Assetsを設定することにより、Adobe Commerceと Connection の間でデータ同期を有効にします。
+1. 管理者でAEM Assets統合を有効にします。
 
 ### Commerce イベントフレームワークの有効化
 
@@ -258,7 +258,7 @@ CommerceのAEM Assets統合では、Commerce インスタンスへの API アク
 
    1. 左側のパネルから、「**[!UICONTROL API]**」をクリックします。
 E
-   1. 外部メディア リソース（**[!UICONTROL Catalog > Inventory > Products > External Media]** を選択します。
+   1. 外部メディア リソース **[!UICONTROL Catalog > Inventory > Products > External Media]** を選択します。
 
    ![API リソースの管理統合設定 ](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
 
@@ -281,15 +281,3 @@ E
 >[!NOTE]
 >
 >また、Adobe Commerce API を使用して認証資格情報を生成することもできます。 このプロセスの詳細と、Adobe Developerの OAuth ベースの認証の詳細については、Adobe Commerce ドキュメントの [OAuth ベースの認証 ](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) を参照してください。
-
-
-
-
-
-
-
-
-
-
-
-
