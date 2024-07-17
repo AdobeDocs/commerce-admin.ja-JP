@@ -1,10 +1,10 @@
 ---
-title: 同期サービスの設定
+title: アセット同期の有効化
 description: Adobe Commerce プロジェクトとExperience Manager Assets プロジェクトをAssets ルールエンジンサービスに接続して、これら 2 つのシステム間のアセット同期を有効にする方法を説明します。
 feature: CMS, Media
-source-git-commit: 939fa5caeeb7a8913457c3492484362a1d3471be
+source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---

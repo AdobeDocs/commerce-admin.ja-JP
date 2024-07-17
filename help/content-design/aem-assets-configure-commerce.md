@@ -2,9 +2,9 @@
 title: Experience Manager Assets統合のインストールと設定
 description: 「をインストールして設定する方法を説明  [!DNL AEM Assets Integration for Adobe Commerce] ます。」
 feature: CMS, Media
-source-git-commit: 81910c45f85cde9c7b2264a55ea6fb2759107d40
+source-git-commit: 65a4339f0f6d4e9eb280ce90d6173caf671fde0f
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,12 @@ ht-degree: 0%
 - PHP 8.1、8.2、8.3
 - コンポーザー：2.x
 
-## 前提条件
+**設定要件**
 
 - Adobe Commerceは、[Adobe IMS認証 ](/help/getting-started/adobe-ims-config.md) を使用するように設定する必要があります。
-- アカウントのプロビジョニングと権限 – 管理者がExperience Manager Assets統合を設定するには、次のリソースにアクセスできる必要があります。
-   - Commerce アプリケーション管理者 – 必要な拡張機能をインストールして、管理者またはコマンドラインからCommerce アプリケーションサーバーを設定します
+- アカウントのプロビジョニングと権限
+   - [Commerce クラウドプロジェクト管理者 ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) – 必要な拡張機能をインストールして、管理者またはコマンドラインからCommerce アプリケーションサーバーを設定します
    - [Commerce管理者 ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - ストア設定を更新し、Commerce ユーザーアカウントを管理します
-   - [Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/introduction) - Adobe IMSアプリケーション管理者またはユーザーアカウント。 フォルダーの作成と管理、公開コレクションの作成、アセットのアップロード、権限の設定、メタデータの設定を行うための権限がアカウントに必要です。
 
 ## 設定の概要
 

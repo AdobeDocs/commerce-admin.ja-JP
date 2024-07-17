@@ -3,9 +3,9 @@ user-guide-title: コンテンツおよびデザインガイド
 user-guide-description: Adobe Commerce管理者、Magento Open Source管理者および e コマースマーケター向けのコンテンツおよびデザイン機能に関する包括的な情報です。
 breadcrumb-title: コンテンツとデザイン
 feature: CMS, Page Content
-source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
+source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '231'
 ht-degree: 3%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 3%
       - Onboarding {#onboarding}
          - [AEM Assetsの設定](aem-assets-configure-aem.md)
          - [Adobe Commerceの設定](aem-assets-configure-commerce.md)
-         - [同期サービスの設定](aem-assets-setup-synchronization.md)
+         - [アセット同期の有効化](aem-assets-setup-synchronization.md)
       - [AEM Assetsの使用](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Adobe Stockの統合](adobe-stock.md)
