@@ -3,7 +3,7 @@ title: 商品画像の読み込み
 description: 各画像のパスとファイル名を使用して、製品画像を読み込む方法を説明します。
 exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
 feature: Products, Data Import/Export, Media
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
 
 1. Commerce サーバー上で、画像ファイルを `var/import/images` フォルダーまたはサブフォルダー（`var/import/images/product_images` など）にアップロードします。 これは、商品画像を読み込むためのデフォルトのルートフォルダーです。
 
-   ```terminal
+   ```
    <Magento root folder>/var/import/images
    ```
 
@@ -50,7 +50,7 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
 
 1. 読み込むファイルを選択したら、**[!UICONTROL Images File Directory]** の後に相対パスを入力します。
 
-   ```terminal
+   ```
    var/import/images
    ```
 
@@ -68,7 +68,7 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
 
 1. CSV データで、画像タイプ（`base_image`、`small_image`、`thumbnail_image`、`additional_images`）に応じて、正しい列に各画像ファイルの完全な URL を入力します。
 
-   ```terminal
+   ```
    https://example.com/images/image.jpg
    ```
 
@@ -78,7 +78,7 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
 
 1. リモートストレージモジュールで、画像ファイルを `var/import/images` フォルダーまたはサブフォルダー（`var/import/images/product_images` など）にアップロードします。 これは、商品画像を読み込むためのデフォルトのルートフォルダーです。
 
-   ```terminal
+   ```bash
    <remote-storage-root-folder>/var/import/images
    ```
 
@@ -100,7 +100,7 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
 
 1. 読み込むファイルを選択したら、**[!UICONTROL Images File Directory]** の後に相対パスを入力します。
 
-   ```terminal
+   ```
    var/import/images/product_images
    ```
 

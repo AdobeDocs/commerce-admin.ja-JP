@@ -4,7 +4,7 @@ description: メタパッケージのインストール方法  [!DNL Adobe Comme
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: be36742aa1214e7e8e7f343051336cd3635099f4
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 0%
@@ -105,7 +105,7 @@ Adobeでは、B2B 拡張機能をプロジェクトに追加する際に、開�
 
    応答の例：
 
-   ```terminal
+   ```
    Magento_B2b : Module is enabled
    ```
 
@@ -119,7 +119,7 @@ Adobeでは、B2B 拡張機能をプロジェクトに追加する際に、開�
 
    エラーが発生した場合、例えば次のようになります。
 
-   ```terminal
+   ```
    [InvalidArgumentException] Could not find a matching version of package magento/extension-b2b.
    ```
 
@@ -221,7 +221,7 @@ B2B 機能の非同期操作を有効にするには、複数のメッセージ�
 
 cron 設定ファイル [/app/code/Magento/MessageQueue/etc/crontab.xml](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#process-management) にスケジュールを追加することで、`SharedCatalogUpdateCategoryPermissions` および `SharedCatalogUpdatePrice` メッセージコンシューマーの実行スケジュールを自動化できます。
 
-```terminal
+```
 * * * * * ps ax | grep [s]haredCatalogUpdateCategoryPermissions >>/dev/null 2>&1 || nohup php /var/www/html/magento2/bin/magento queue:consumers:start sharedCatalogUpdateCategoryPermissions &
 * * * * * ps ax | grep [s]haredCatalogUpdatePrice >>/dev/null 2>&1 || nohup php /var/www/html/magento2/bin/magento queue:consumers:start sharedCatalogUpdatePrice &
 ```
