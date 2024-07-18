@@ -3,9 +3,9 @@ title: カタログ検索の概要
 description: ストアフロントで製品を見つけるために使用できるクイック検索ツールと詳細検索ツールについて説明します。
 exl-id: a796fa48-212a-47c7-ab6e-98edd4d040f4
 feature: Catalog Management, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 65d295694e13be2e0a0de29b8b396faa9f2c9cd4
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html) をインストールすると、検索ボックスが「入力中に検索」を返し、結果がポップアップで表示されます。
+>[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) をインストールし、[[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/storefront-popover) ウィジェットを有効にすると、検索ボックスが「入力中に検索」を返して、ポップアップが表示されます。
 
 ストアのヘッダーにある検索ボックスは、訪問者がカタログ内の製品を見つけるのに役立ちます。 検索テキストには、製品名の全部または一部や、製品を説明するその他の単語やフレーズを使用できます。 製品を検索するためにユーザーが使用する検索用語は、管理者から管理できます。
 
