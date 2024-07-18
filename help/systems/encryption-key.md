@@ -4,9 +4,9 @@ description: セキュリティを向上させるために定期的に変更す�
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 21be3c7a56cb72d685b2b3605bc27266e8e55f37
+source-git-commit: 2469b3853d074f7a7adfe822b645e41d1420259a
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,33 @@ Adobe CommerceとMagento Open Sourceは、パスワードやその他の機密�
 
 技術情報については、[ インストール ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) の _オンプレミスの高度なインストール_ を参照してください。
 
-## 手順 1：ファイルを書き込み可能にする
+>[!IMPORTANT]
+>
+>これらの手順に従って暗号化キーを変更する前に、次のファイルが書き込み可能であることを確認してください：`[your store]/app/etc/env.php`
 
-暗号化キーを変更するには、次のファイルが書き込み可能であることを確認してください：`[your store]/app/etc/env.php`
+**暗号化キーを変更するには：**
 
-## 手順 2：暗号化キーの変更
+次の手順では、ターミナルにアクセスする必要があります。
+
+1. [ メンテナンスモード ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode) を有効にします。
+
+   ```bash
+   bin/magento maintenance:enable
+   ```
+
+1. cron ジョブを無効にします。
+
+   _クラウドインフラストラクチャプロジェクト：_
+
+   ```bash
+   ./vendor/bin/ece-tools cron:disable
+   ```
+
+   _オンプレミス プロジェクト_
+
+   ```bash
+   crontab -e
+   ```
 
 1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Manage Encryption Key]**に移動します。
 
@@ -36,6 +58,40 @@ Adobe CommerceとMagento Open Sourceは、パスワードやその他の機密�
 
 1. 「**[!UICONTROL Change Encryption Key]**」をクリックします。
 
-1. 新しいキーを安全な場所に記録します。
+   >[!NOTE]
+   >
+   >新しいキーを安全な場所に記録します。 ファイルに問題が発生した場合は、データを復号化する必要があります。
 
-   ファイルに問題が発生した場合は、データを復号化する必要があります。
+1. キャッシュをフラッシュします。
+
+   _クラウドインフラストラクチャプロジェクト：_
+
+   ```bash
+   magento-cloud cc
+   ```
+
+   _オンプレミス プロジェクト：_
+
+   ```bash
+   bin/magento cache:flush
+   ```
+
+1. cron ジョブを有効にします。
+
+   _クラウドインフラストラクチャプロジェクト：_
+
+   ```bash
+   ./vendor/bin/ece-tools cron:enable
+   ```
+
+   _オンプレミス プロジェクト：_
+
+   ```bash
+   crontab -e
+   ```
+
+1. メンテナンスモードを無効にします。
+
+   ```bash
+   bin/magento maintenance:disable
+   ```
