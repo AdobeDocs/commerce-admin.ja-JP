@@ -3,9 +3,9 @@ title: テーブル レート配送
 description: ストアに定額配送オプションを設定する方法を説明します。
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 0f368e87275a85e3801e6770b8985184e2071384
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -117,6 +117,7 @@ _テーブル率_ 配送方法は、データのテーブルを参照して、�
    - ワイルドカードとしてアスタリスク （*）を使用し、任意のカテゴリの使用可能なすべての値を表します。
    - _[!UICONTROL Country]_列には、各行に [ 有効な 3 文字のコード ][1] を含める必要があります。
    - 特定の場所がリストの上部に、ワイルドカードの場所が下部に表示されるように、データを _[!UICONTROL Region/State]_で並べ替えます。 このメソッドを使用すると、最初に絶対値でルールが処理され、後でワイルドカード値でルールが処理されます。
+   - 郵便番号の範囲はサポートされていません。 アスタリスク（*）を使用すると、リージョン/ステート内のすべてのコードが許可されます。また、_[!UICONTROL Zip/Postal Code]_列で特定の場所に対して 1 つのコードを指定することもできます。
    - _[!UICONTROL Weight (and above)]_列の値には、小数点以下 4 桁まで（`2.5075` など）を指定できます。 データで小数点以下の桁数を増やすと、読み込みが失敗します。
 
    ![ 重み付け対宛先（オーストラリア） ](./assets/table-rates-weight-destination-csv.png){width="500"}
