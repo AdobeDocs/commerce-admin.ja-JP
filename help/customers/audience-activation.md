@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
+source-git-commit: 9f351ab659b21377310f8327fef5bc29cc9f7c89
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -359,10 +359,34 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 
 Real-Time CDP オーディエンスがCommerceに表示されない場合は、次の原因が考えられます。
 
+- 無効な接続
 - **データ接続** 設定ページで選択された認証タイプが正しくありません
 - 生成されたトークンに対する権限が不十分です
 
-次の 2 つの節では、どちらの場合もトラブルシューティングを行う方法について説明します。
+次の節では、これらの問題のトラブルシューティング方法について説明します。
+
+### 接続の検証
+
+資格情報とAdobe Experience Platformからの応答を検証するには、次のコマンドを実行します。
+
+```bash
+bin/magento audiences:config:status
+```
+
+このコマンドは、接続ステータスを返します。 `-v` フラグを追加して、より冗長にします。
+
+```
+./bin/magento audiences:config:status -v  
+```
+
+例：
+
+```
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| Client ID                        | Client secret | Technical account ID                        | Technical account email                                 | Sandbox name |
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| 1234bd57fac8497d8933327c535347d8 | *****         | 12341E116638D6B00A495C80@techacct.adobe.com | 12345-b95b-4894-a41c-a4130d26bd80@techacct.adobe.com | dev          |
+```
 
 ### 設定で選択された認証タイプが正しくありません
 
