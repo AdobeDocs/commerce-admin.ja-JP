@@ -4,14 +4,18 @@ description: セキュリティを向上させるために定期的に変更す�
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 2469b3853d074f7a7adfe822b645e41d1420259a
+source-git-commit: cbe4cfd59b1cacbac22a01ca96617f52bcdd7d3a
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
 
 # 暗号化キー
+
+>[!NOTE]
+>
+>これらの手順を実行しようとして問題が発生した場合は、ナレッジベースの記事 [ 暗号化キーのローテーションのトラブルシューティング：CVE-2024-34102](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102)」を参照してください。
 
 Adobe CommerceとMagento Open Sourceは、パスワードやその他の機密データを保護するために暗号化キーを使用します。 業界標準の [!DNL ChaCha20-Poly1305] アルゴリズムは、暗号化が必要なすべてのデータを暗号化するために 256 ビットキーと共に使用されます。 これには、クレジットカードのデータや統合（支払いおよび配送モジュール）のパスワードが含まれます。 さらに、強力なセキュアハッシュアルゴリズム（SHA-256）を使用して、復号化を必要としないすべてのデータをハッシュ化します。
 
