@@ -1,8 +1,9 @@
 ---
 title: Experience Manager Assets統合のインストールと設定
-description: 「をインストールして設定する方法を説明  [!DNL AEM Assets Integration for Adobe Commerce] ます。」
+description: をインストールして設定する方法を説明し  [!DNL AEM Assets Integration for Adobe Commerce] す。
 feature: CMS, Media
-source-git-commit: 65a4339f0f6d4e9eb280ce90d6173caf671fde0f
+exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
+source-git-commit: da98c253d0d3f773551c7b58b5eedbb1db622ac6
 workflow-type: tm+mt
 source-wordcount: '1261'
 ht-degree: 0%
@@ -34,7 +35,7 @@ ht-degree: 0%
 
 統合を有効にするには、次のタスクを実行します。
 
-1. [AEM Assets integration extension （`aem-assets-integration`）をインストールします ](#install-the-aem-assets-integration-extension)。
+1. [AEM Assets Integration Extension （`aem-assets-integration`）をインストールします ](#install-the-aem-assets-integration-extension)。
 1. [Commerce サービスコネクタを設定 ](#configure-the-commerce-services-connector) して、Adobe Commerce インスタンスと、Adobe CommerceとAEM Assets間でデータを転送できるサービスを接続します。
 1. [Commerce用のAdobe I/Oイベントの設定](#configure-adobe-io-events-for-commerce)
 1. [API アクセスの認証資格情報の取得](#get-authentication-credentials-for-api-access)
