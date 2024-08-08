@@ -5,9 +5,9 @@ seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: マーチャントドキュメント
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: c9dfc5385a008619a5ab1eceeec93df2c00df059
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,3 @@ Magento Open Sourceは、Adobeが公式に提供し、Adobe Commerceへの移行
 | **新しいトピック** - [Commerce アカウントの転送 ](../getting-started/commerce-account-transfer.md) のトピックを _はじめる前に_ に追加しました。 | 新規 | 2023/27 |
 
 {style="table-layout:auto"}
-
-## 2.3.x ドキュメント
-
-[Adobe Commerce 2.3 ユーザーガイド ](https://docs.magento.com/user-guide/v2.3/) は、延長サポート契約を締結しているAdobe Commerce 2.3 のお客様が `docs.magento.com` ドメインから引き続き利用できます。
