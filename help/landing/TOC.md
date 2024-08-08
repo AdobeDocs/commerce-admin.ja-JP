@@ -3,10 +3,10 @@ user-guide-title: Adobe Commerce マーチャントドキュメント
 user-guide-description: 管理で操作する Adobe Commerce および Magento Open Source マーチャント向けのドキュメントとリソースです。
 title: Adobe Commerce マーチャントドキュメント
 feature: Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: b014b624cc02b35f3d2273cb9acf602a1b74eaa5
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 38%
+source-wordcount: '69'
+ht-degree: 39%
 
 ---
 
@@ -24,4 +24,4 @@ ht-degree: 38%
 - [ 店舗と購入の経験 ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html)
 - [ 管理システム ](https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html)
 - [ 設定リファレンスガイド ](https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html)
-- [Commerceのサービス ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html)
+- [Commerceのサービス](services.md)
