@@ -3,9 +3,9 @@ title: バンドル製品
 description: ストア内で買い物客がカスタマイズされた製品を構築できるバンドル製品を作成する方法を説明します。
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -274,6 +274,8 @@ ht-degree: 0%
 ## 注意事項
 
 ![ チェックボックス ](../assets/checkbox.png) お客様は独自のバンドル製品を _ビルド_ できます。
+
+![ チェックボックス ](../assets/checkbox.png) すべての子製品は、すべての web サイト、ストア、ストア表示に対して、バンドル製品から **_グローバル_** 割り当ておよび割り当て解除されます。
 
 ![ チェックボックス ](../assets/checkbox.png) バンドル項目は、カスタムオプションを持たないシンプル製品または仮想製品にすることができます。
 

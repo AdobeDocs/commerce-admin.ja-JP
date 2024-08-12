@@ -3,9 +3,9 @@ title: 設定可能な製品
 description: 選択用のバリエーションを買い物客に提供する、設定可能な製品の作成方法を説明します。
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2506'
 ht-degree: 0%
 
 ---
@@ -377,6 +377,8 @@ _[Inventory managementを使用するマルチSourceマーチャント](../inven
 - 設定可能な商品の [ 在庫ステータス ](../inventory-management/sources-stocks.md) は、半手動で制御される設定です。 これは、単純な製品の在庫ステータスとは異なります。単純な製品の在庫ステータスは、製品の可用性を直接表します。 設定可能なプロダクトの場合、ストックステータスは複数基準のストックステータス計算の一部になります。
 
 - 設定可能な子製品は、単純な製品でも仮想製品でも構いません **カスタムオプションはありません**。 カスタムの子製品をバーチャルにするには、それぞれの **[!UICONTROL Weight]** 設定に `Тhis item has no weight` を選択する必要があります。
+
+- すべての子製品は、すべての web サイト、ストア、ストア表示に対して、設定可能な製品から **_グローバルに_** 割り当ておよび割り当て解除されます。
 
 - 設定可能な製品には、カタログ内に独自の価格はありません。 設定可能な製品価格は、その [!UICONTROL In Stock] の子製品から派生します。
 

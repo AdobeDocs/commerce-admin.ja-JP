@@ -3,9 +3,9 @@ title: グループ化された製品
 description: グループとして表示されるシンプルなスタンドアロン製品で構成されるグループ化された製品を作成する方法を説明します。
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,8 @@ ht-degree: 0%
 ## 注意事項
 
 - グループ化された製品は、基本的に単純な関連製品のコレクションです。
+
+- すべての子製品は、すべての web サイト、ストア、ストア表示に対して、グループ化された製品から **_グローバルに_** 割り当てと割り当て解除を同時に行います。
 
 - グループ化された子製品は、シンプル、ダウンロード可能または仮想製品 **[!UICONTROL without custom options]** です。
 
