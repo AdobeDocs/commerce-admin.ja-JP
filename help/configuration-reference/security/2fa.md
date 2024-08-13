@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: Commerce Admin の [!UICONTROL Security] &gt; [!UICONTROL 2FA] ページで設定を確認します。
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '310'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Providers to use] | グローバル | 必要な 2 要素認証方式を示します。 複数のプロバイダを選択した場合、各ユーザーは次回ログイン時に各 2FA メソッドを構成する必要があります。 |
 | [!UICONTROL Configuration Email URL for Web API] | グローバル | カスタム実装の場合、最初のログイン時に _管理者_ ユーザーに送信される代替メール設定リンクの URL です。 メールテンプレートで、プレースホルダー `:tfat` を使用して、トークンの挿入場所を示します。 |
+| [!UICONTROL Retry attempt limit for Two-Factor Authentication] | グローバル | アカウントが一時的に無効になるまでに管理者が [!DNL one-time password (OTP)] を入力できる回数を決定します。 デフォルト：`10` |
+| [!UICONTROL Two-Factor Authentication lockout time (seconds)] | グローバル | アカウントが一時的に無効になるまでに、管理者が [!DNL one-time password (OTP)] ールを入力するのを待つ時間（秒）を決定します。 デフォルト：`300` |
 
 {style="table-layout:auto"}
 
@@ -37,7 +39,7 @@ ht-degree: 1%
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL OTP Window] | グローバル | 管理者のワンタイムパスワード（OTP）の有効期限が切れてから、システムがその OTP を受け入れる時間（秒）を決定します。 単一の OTP の有効期間（通常は 30 秒）よりも長くすることはできません。 デフォルト：`29` |
+| [!UICONTROL OTP Window] | グローバル | システムが管理者の [!DNL one-time-password (OTP)] ールの有効期限が切れてから受け入れる時間（秒）を決定します。 単一の OTP の有効期間（通常は 30 秒）よりも長くすることはできません。 デフォルト：`29` |
 
 {style="table-layout:auto"}
 

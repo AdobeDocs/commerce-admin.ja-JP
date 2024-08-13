@@ -4,7 +4,7 @@ description: システムとデータのセキュリティを確保するため�
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Adobe Commerceは、複数のプロバイダーの 2FA メソッドをサポー�
 
    複数の方法を選択するには、Ctrl キー（PC）または Command キー（Mac）を押したまま、各項目をクリックします。
 
-1. 必要な 2FA 方式ごとに設定を完了します。
+1. 必要な 2FA 方式ごとに [settings](../configuration-reference/security/2fa.md) を入力します。
 
    ![ セキュリティ設定 – 2FA](../configuration-reference/security/assets/2fa-general.png){width="600" zoomable="yes"}
 
