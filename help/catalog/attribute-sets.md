@@ -3,9 +3,9 @@ title: 属性セット
 description: 製品レコード内の属性の表示場所を決定するグループに属性を整理する方法を説明します。
 exl-id: de0c5fa2-158c-44ff-b84d-e4904ed8aa7d
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 43550b9370f4ed4b631ae7773324ed0913718a79
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
    - ページの中央には、属性グループの現在選択されている項目が一覧表示されます。
    - 右側の列には、属性セットに現在割り当てられていない属性の選択が一覧表示されます。
 
-1. セットに属性を追加するには、属性リストから **[!UICONTROL Groups]** 列の適切なフォルダーに **[!UICONTROL Unassigned Attributes]** 属性をドラッグします。
+1. セットに属性を追加するには、属性リストから **[!UICONTROL Groups]** 列の適切なフォルダーに **[!UICONTROL Unassigned Attributes]** 属性をドラッグします。 セットから属性を削除するには、属性を **[!UICONTROL Unassigned Attributes]** のリストにドラッグします。
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 属性グループの作成
 
-1. 属性が設定された _[!UICONTROL Groups]_列で、「**[!UICONTROL Add New]**」をクリックします。
+1. 属性セットの「_[!UICONTROL Groups]_」列で、「**[!UICONTROL Add New]**」をクリックします。
 
 1. 新しいグループの **[!UICONTROL Name]** を入力し、[**[!UICONTROL OK]**] をクリックします。
 
@@ -58,6 +58,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Unassigned Attributes]** を新しいグループにドラッグします。
    - 他のグループから新しいグループにアトリビュートをドラッグします。
+   - 不要な属性を **[!UICONTROL Unassigned Attributes]** にドラッグします。
 
    新しいグループは、属性セットに基づくすべての製品の属性のセクションになります。
 
