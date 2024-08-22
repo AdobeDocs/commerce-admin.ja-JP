@@ -2,9 +2,9 @@
 title: ページ設定
 description: ストアページのメイン部分のデフォルトを設定する方法を説明します。
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ ht-degree: 0%
    - **[!UICONTROL Default Meta Keywords]**
 
 1. 必要に応じて **[!UICONTROL Scripts and Style Sheets]** を入力します。
+
+   >[!NOTE]
+   >
+   >「[!UICONTROL Scripts and Style Sheets]」フィールドに入力するJavaScriptは、コンテンツセキュリティポリシー（CSP）設定で許可リストに登録する必要があります。登録しない場合、チェックアウトページでは実行されません。 詳しくは、[ コンテンツセキュリティポリシー ](https://developer.adobe.com/commerce/php/development/security/content-security-policies) を参照してください。
+
 
 1. 必要に応じて、[demo store notice](../getting-started/storefront-branding.md#set-the-store-demo-notice) を有効または無効にします。
 
@@ -118,6 +123,10 @@ ht-degree: 0%
 1. _その他の設定_ の下で、「**[!UICONTROL Footer]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 
 1. **[!UICONTROL Copyright]** と **[!UICONTROL Miscellaneous HTML]** の設定に対して必要な変更を加えます。
+
+   >[!NOTE]
+   >
+   >「[!UICONTROL Miscellaneous HTML]」フィールドに入力するJavaScriptは、コンテンツセキュリティポリシー（CSP）設定で許可リストに登録する必要があります。登録しない場合、チェックアウトページでは実行されません。 詳しくは、[ コンテンツセキュリティポリシー ](https://developer.adobe.com/commerce/php/development/security/content-security-policies) を参照してください。
 
 1. 完了したら、「**[!UICONTROL Save Configuration]**」をクリックします。
 

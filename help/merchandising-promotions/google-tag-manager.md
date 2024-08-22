@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: を使用して  [!DNL Google Tag Manager] Adobe Commerce サイトのマーケティングキャンペーンイベントに関連する多数のタグ（コードスニペット）を管理する方法を説明します。
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+source-git-commit: be426ca16fb7a72ebeda4a2f92c0f0062a9acc62
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-[!DNL Google Tag Manager] は、マーケティングキャンペーンイベントに関連する多数のタグ（コードスニペット）を管理するのに役立ちます。 [!DNL Google Tag Manager] を使用すると、サイトにトラッキングタグを追加し、オーディエンスを測定したり、検索エンジンのマーケティング戦略をパーソナライズ、リターゲティング、実施したりできます。
+[!DNL Google Tag Manager] は、マーケティングキャンペーンイベントに関連付けられた様々なタグ（コードスニペット）を効率的に管理およびデプロイするのに役立つ強力なツールです。 [!DNL Google Tag Manager] を使用すると、サイトにトラッキングタグを追加し、オーディエンスを測定したり、検索エンジンのマーケティング戦略をパーソナライズ、リターゲティング、実施したりできます。
 
 [!DNL Google Tag Manager] は、データとイベントを [!DNL Google Analytics]、Enhanced Ecommerce、その他のサードパーティの分析ソリューションに直接転送して、サイト、製品、プロモーションのパフォーマンスを明確に把握します。
 
@@ -137,24 +137,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >各コンテナは 1 つの web サイトに関連付けられ、アカウントごとに必要なコンテナは 1 つだけです。 マルチサイト Commerce インスタンスがある場合は、個別のコンテナが必要です。
-
-## 手順 4. Adobe Commerce ストアに GTM コードを追加します。
-
-1. GTM コードをコピーするには、**[!UICONTROL Admin]**/**[!UICONTROL Install Google Tag Manager]** に移動します。
-
-   Commerce サイトに追加する GTM コードスニペットは 2 つあります。1 つ目は `<head>` タグ用であり、2 つ目は `<body>` タグ用です。
-
-1. Commerce管理者で、**[!UICONTROL Content]** / _[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動し、ストアビューを編集モードで開きます。
-
-1. 「_[!UICONTROL Other Settings]_」の下で「**[!UICONTROL HTML Head]**」を展開し、`<head>` タグ用の GTM からコピーしたコードを「**[!UICONTROL Scripts and Style Sheets]**」フィールドに貼り付けます。
-
-   ![HTMLヘッドへのコードの挿入 ](./assets/head-tag.png){width="600" zoomable="yes"}
-
-1. 「**[!UICONTROL Footer]**」を展開し、`<body>` の GTM コードを「**[!UICONTROL Miscellaneous HTML]**」フィールドにペーストします。
-
-   ![ フッターへのコードの挿入 ](./assets/footer-tag-section.png){width="600" zoomable="yes"}
-
-1. 完了したら、「**[!UICONTROL Save Configuration]**」をクリックします。
 
 ## フィールドの説明
 
