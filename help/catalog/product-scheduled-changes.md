@@ -3,9 +3,9 @@ title: 製品アップデートのスケジュール設定
 description: キャンペーンやプロモーションプログラムをサポートするために、製品リストの変更をスケジュールする方法を説明します。
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,10 @@ ht-degree: 0%
 1. ページ上部の _[!UICONTROL Scheduled Changes]_ボックスで、[**[!UICONTROL View/Edit]**] をクリックします。
 
 1. スケジュールされている更新に必要な変更を加えます。
+
+>[!NOTE]
+>
+>キャンペーンが複数の製品にリンクされている場合、キャンペーンは、[ コンテンツのステージングダッシュボード ](../content-design/content-staging-dashboard.md) からのみ編集できます。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 

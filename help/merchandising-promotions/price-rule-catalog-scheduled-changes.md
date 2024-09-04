@@ -3,9 +3,9 @@ title: カタログ価格ルールのスケジュールされた変更
 description: キャンペーンの一部としてスケジュールにカタログ価格ルールを適用し、他のコンテンツ変更とグループ化する方法を説明します。
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ ht-degree: 0%
 1. ページ上部の **[!UICONTROL Scheduled Changes]** ボックスで、[**[!UICONTROL View/Edit]**] をクリックします。
 
 1. スケジュールされている更新に必要な変更を加えます。
+
+   >[!NOTE]
+   >
+   >キャンペーンが複数のカタログ価格ルールにリンクされている場合、キャンペーンは、「コンテンツのステージングダッシュボード [ からのみ編集でき ](../content-design/content-staging-dashboard.md) す。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 

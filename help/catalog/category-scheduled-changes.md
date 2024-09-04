@@ -3,9 +3,9 @@ title: カテゴリのスケジュール済み変更
 description: マーケティングキャンペーンやストアプロモーションをサポートするために、カテゴリの変更をスケジュールする方法を説明します。
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -69,3 +69,7 @@ ht-degree: 0%
 1. スケジュールされている更新に対して必要な変更を行います。
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
+
+   >[!NOTE]
+   >
+   >キャンペーンが複数のカテゴリにリンクされている場合、キャンペーンは、[ コンテンツのステージングダッシュボード ](../content-design/content-staging-dashboard.md) からのみ編集できます。

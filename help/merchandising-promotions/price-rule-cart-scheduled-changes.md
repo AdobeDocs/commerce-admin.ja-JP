@@ -3,9 +3,9 @@ title: 買い物かご価格ルールのスケジュールされた変更
 description: キャンペーンの一部としてスケジュールに沿って買い物かごの価格ルールを適用し、他のコンテンツの変更とグループ化する方法を説明します。
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,10 @@ ht-degree: 0%
 >スケジュールされたすべての更新は、連続して適用されます。 つまり、どのエンティティも、1 つの時点でスケジュールされた更新を 1 つのみ持つことができます。 スケジュールされた更新は、その期間内のすべてのストアビューに適用されます。 その結果、1 つのエンティティに対して、異なるストア表示の異なるスケジュールされた更新を同時に行うことはできません。 現在スケジュールされている更新の影響を受けないすべてのストアビュー内のすべてのエンティティ属性値は、前回スケジュールされた更新ではなく、デフォルト値から取得されます。
 
 同じキャンペーンで複数の価格ルールが実行されている場合は、価格ルールの _[!UICONTROL Priority]_設定によって、優先されるルールが決定されます。 詳しくは、[ コンテンツのステージング ](../content-design/content-staging.md) を参照してください。
+
+>[!NOTE]
+>
+>キャンペーンが複数の買い物かご価格ルールにリンクされている場合、キャンペーンは、[ コンテンツのステージングダッシュボード ](../content-design/content-staging-dashboard.md) からのみ編集できます。
 
 次の点に注意してください。
 
