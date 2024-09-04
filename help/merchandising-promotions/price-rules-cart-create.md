@@ -3,9 +3,9 @@ title: 買い物かご価格ルールの作成
 description: 買い物かごまたは製品属性に基づいて買い物かごの価格ルールを作成する方法を説明します。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7058e08de0de72999b3baf7762126be4e9040dba
+source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3379'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >優先度が同じ買い物かご価格ルールでは、組み合わせた割引は発生しません。 一致する製品に対して、1 つずつ各ルールが適用されます。
+   >優先度が同じ買い物かご価格ルールでは、組み合わせた割引は発生しません。 各ルール（クーポン）は、データベース内の買い物かご価格ルール ID に従って、一致する製品に 1 つずつ個別に適用されます。 割引が適用される順序を制御するために、Adobeでは、追加された買い物かごの価格ルールごとに異なる優先度を設定することをお勧めします。
 
 1. 公開された [RSS フィード ](social-rss.md#rss-feeds) にルールを適用するには、**RSS フィードで公開** を `Yes` に設定します。
 
