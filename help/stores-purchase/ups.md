@@ -3,9 +3,9 @@ title: UPS （統一宅配便）
 description: ストアの配送業者として UPS を設定する方法を説明します。
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ ht-degree: 0%
 
    - 安全な接続を介して UPS 出荷システムにデータを送信するには、**[!UICONTROL Mode]** を `Live` に設定します。 （開発モードでは、安全な接続を介してデータが送信されません）。
 
-   - リクエストの送信に必要な **[!UICONTROL Gateway URL]** を確認します。 テストモードにはサンドボックス URL を、ライブリクエストには実稼動 URL を使用します。
+   - リクエストの送信に必要な **[!UICONTROL Gateway URL]** を確認します。 テストモードにはサンドボックス URL （`https://wwwcie.ups.com/`）を使用し、ライブリクエスト（`https://onlinetools.ups.com`）には実稼動 URL を使用します。 指定したホストでの各リクエストに対して、それぞれのエンドポイントを使用するようにしてください。
 
-   - トラッキング情報の取得に必要な **[!UICONTROL Tracking URL]** を確認します。 テストモードにはサンドボックス URL を、ライブリクエストには実稼動 URL を使用します。
+   - トラッキング情報の取得に必要な **[!UICONTROL Tracking URL]** を確認します。 テストモードにはサンドボックス URL （`https://wwwcie.ups.com/`）を使用し、ライブリクエスト（`https://onlinetools.ups.com`）には実稼動 URL を使用します。 指定したホストでの各リクエストに対して、それぞれのエンドポイントを使用するようにしてください。
 
    - 出荷元の地域に **[!UICONTROL Origin of the Shipment]** を設定します。
 
@@ -50,8 +50,8 @@ ht-degree: 0%
 
    - **[!UICONTROL Live Account]** を次のいずれかに設定します。
 
-      - `Yes` – 実稼動モードで UPS を実行し、顧客に出荷方法として UPS を提供します。
-      - `No` - テストモードで UPS を実行します。
+      - `Yes` – 実稼動モードで UPS を実行し、顧客に出荷方法として UPS を提供します。 「ゲートウェイ URL」と「トラッキング URL」で正しいエンドポイントを使用していることを確認します。
+      - `No` - テストモードで UPS を実行します。 「ゲートウェイ URL」と「トラッキング URL」で正しいエンドポイントを使用していることを確認します。
 
    >[!NOTE]
    >

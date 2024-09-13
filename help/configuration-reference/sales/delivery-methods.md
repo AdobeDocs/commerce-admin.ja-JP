@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: Commerce Admin の [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] ページで設定を確認します。
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 8e80e6f33ede2f49f320394905b9d1a964cf8331
 workflow-type: tm+mt
-source-wordcount: '3773'
+source-wordcount: '3792'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 0%
 | [!UICONTROL Live Account] | ストア表示 | United Parcel Service アカウントが有効であることを指定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時にこの発送方法に使用される名前。 |
 | _[!UICONTROL UPS REST Account Settings]_ |  |  |
-| [!UICONTROL Gateway URL] | Web サイト | UPS REST サービスの場合、JSON データの送信に必要な次の URL が表示されます。ゲートウェイ URL、トラッキング URL、出荷 URL |
+| [!UICONTROL Gateway URL] | Web サイト | UPS REST サービスの場合、JSON データの送信に必要な次の URL が表示されます。ゲートウェイ URL、トラッキング URL、出荷 URL。 ライブアカウント設定に従って、サンドボックスまたは実稼動エンドポイントを使用します。 |
 | [!UICONTROL Mode] | Web サイト | UPS システムに送信されるデータの送信モードを決定します。 オプション：<br/>**`Development`**- Commerce サーバーから受信したデータが SSL 経由で送信されることを UPS が検証しない。<br/>**`Live`** - UPS は、Commerce サーバーから受信したデータが SSL （Secure Socket Layer）経由で送信されることを確認します。 |
 | ユーザー ID | Web サイト | UPS 荷主アカウントのクライアント ID。 |
 | [!UICONTROL Origin of the Shipment] | Web サイト | （UPS REST のみ）製品出荷が開始される国または地域。 |
@@ -140,7 +140,7 @@ ht-degree: 0%
 | [!UICONTROL Shipper Number] | Web サイト | （UPS REST のみ）交渉レートを使用するための参照には、6 文字の UPS 荷主番号が必要です。 |
 | [!UICONTROL Container] | Web サイト | 出荷をパッケージ化するために使用するコンテナタイプを設定します。 オプション：`Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
 | [!UICONTROL Weight Unit] | Web サイト | ストアの商品の重量の既定の測定単位を設定します。 詳細は、[ 次元の重み付け ](../../stores-purchase/carriers.md#dimensional-weight) を参照してください。 |
-| [!UICONTROL Tracking URL] | Web サイト | （UPS REST のみ）パッケージの追跡に使用される UPS URL。 |
+| [!UICONTROL Tracking URL] | Web サイト | （UPS REST のみ）パッケージの追跡に使用される UPS URL。 実稼動には `https://onlinetools.ups.com/api/track` を、サンドボックスセットアップには `https://wwwcie.ups.com/api/track` を使用します。 |
 | [!UICONTROL Destination Type] | Web サイト | 既定の出荷先タイプを設定します。 オプション：`Business` / `Residential` |
 | [!UICONTROL Maximum Package Weight] | Web サイト | UPS によって指定されているように、パッケージが指定できる最大重量を設定します。 注文した商品がパッケージの最大重量を超えている場合、この配送オプションは利用できません。 [UPS.com](https://www.ups.com/us/en/global.page) によると、パッケージは 150 ポンド（70 kg）を超えることはできません。最大重量を確認するには、配送業者に確認してください。 |
 | [!UICONTROL Pickup Method] | Web サイト | UPS ピックアップ方法を設定します。 オプション：`Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter` |
