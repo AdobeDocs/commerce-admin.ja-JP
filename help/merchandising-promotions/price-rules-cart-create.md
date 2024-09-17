@@ -3,9 +3,9 @@ title: 買い物かご価格ルールの作成
 description: 買い物かごまたは製品属性に基づいて買い物かごの価格ルールを作成する方法を説明します。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
+source-git-commit: 83f341c59ab9517a076eaaba71f4988e21abf826
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3386'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >同じ商品に対して同時に 2 つの買い物かごルール/クーポンコードが有効な場合、優先度設定は重要です。 優先度が最も高い（最も高 `1`）ルールが、買い物かごのアクションを制御します。 _処理の定義_ ステップの _後続の価格ルールの破棄_ を参照してください。
+   >同じ商品に対して同時に 2 つの買い物かごルールまたはクーポンコードが有効な場合、_[!UICONTROL Priority]_の設定は重要です。 買い物かごのアクションを制御する最も高い [!UICONTROL Priority] 設定を持つルール。  優先順位は、高い順に `0,1,2,3...` まります。_ 処理の定義 _ステップの_[ 後続の価格ルールの破棄 ](#step-3-define-the-actions)_を参照してください。
 
    >[!NOTE]
    >
@@ -350,7 +350,7 @@ Real-Time CDP[ オーディエンス ](../customers/audience-activation.md) に�
 | [!UICONTROL Coupon] | （必須）クーポンがルールに関連付けられているかどうかを示します。 オプション：<br/>**[!UICONTROL No Coupon]**- ルールにクーポンが関連付けられていません。<br/>**[!UICONTROL Specific Coupon]** – 特定のクーポンがルールに関連付けられています。 <br/>**[!UICONTROL Coupon Code]**- プロンプトが表示されたら、プロモーションを利用するために顧客が入力する必要があるクーポンコードを入力します。<br/>**[!UICONTROL Use Auto Generation]** - プロモーションで使用できる複数のクーポンコードを自動的に生成するには、このチェックボックスを選択します。 <br/>**[!UICONTROL Auto]**– 生成するクーポンコードの形式を定義する「_[!UICONTROL Manage Coupon Codes]_」セクションを表示します。 |
 | [!UICONTROL Uses per Coupon] | クーポンコードを使用できる回数を決定します。 制限がない場合は、フィールドを空白のままにします。 |
 | [!UICONTROL Uses per Customer] | 選択した顧客グループに属する同じ登録済み顧客が、買い物かご価格ルールを使用できる回数を決定します。 ログインしていない顧客グループのメンバーであるゲストの買い物客、またはアカウントにログインせずに買い物をしたお客様には適用されません。 無制限の場合は、空白のままにします。 |
-| [!UICONTROL Priority] | このルールの優先度を他のルールと比較して示す数値。 最も優先度が高いのは数値 `1` です。 |
+| [!UICONTROL Priority] | このルールの優先度を他のルールと比較して示す数値。 優先順位は高い順に `0,1,2,3...` まります |
 | [!UICONTROL Public in RSS Feed] | プロモーションがストアのパブリック RSS フィードに含まれるかどうかを決定します。 オプション：  `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） クーポンを使用できる最初の日付。 |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） クーポンを最後に使用できる日付。 |

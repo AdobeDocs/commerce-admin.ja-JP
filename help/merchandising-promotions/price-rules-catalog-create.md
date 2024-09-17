@@ -3,9 +3,9 @@ title: カタログ価格ルールの作成
 description: 一連の条件が満たされた場合に特定の製品に割引を適用するカタログ価格ルールを作成する方法を説明します。
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 0f26e981a1ba5bffb1acdeeb4320415772826aba
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >同じカタログ製品が複数の価格ルールに設定された条件を満たす場合、_[!UICONTROL Priority]_設定は重要です。 優先度の設定が最も高い（1 が最も高い）ルールが、商品に対してアクティブになります。
+   >同じカタログ製品が複数の価格ルールに設定された条件を満たす場合、_[!UICONTROL Priority]_設定は重要です。 優先度の設定が最も高いルール（優先度の高い順に 0、1、2、3...）が商品に対してアクティブになります。
 
 ## 手順 2：条件の定義
 
@@ -236,7 +236,7 @@ ht-degree: 0%
 | [!UICONTROL Description] | ルールの説明には、ルールの目的と使用方法を含める必要があります。 |
 | [!UICONTROL Websites] | （必須） ルールを使用できる web サイトを識別します。 |
 | [!UICONTROL Customer Groups] | （必須）ルールが適用される顧客グループを識別します。 |
-| [!UICONTROL Priority] | このルールの優先度を他のルールと比較して示す数値。 優先順位が最も高いのは数値 1 です。 |
+| [!UICONTROL Priority] | このルールの優先度を他のルールと比較して示す数値。 優先順位は高い順に `0,1,2,3...` まります |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）ルールがストア内でアクティブかどうかを判断します。 オプション：`Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）価格ルールが有効になる最初の日を指定します。 空白のままにすると、価格ルールは保存時に有効になります。 |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）価格ルールが有効になる最終日を指定します。 空白のままにすると、価格ルールは無期限に継続されます。 |
