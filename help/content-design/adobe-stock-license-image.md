@@ -3,9 +3,9 @@ title: Adobe Stock画像のライセンスを取得
 description: 法的なアクセス権を持ち、Adobe Stockの透かしを排除するには、Adobe Stock画像のライセンスを取得します。
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: ee619d6a46948a714789dfbc275735df8669cdcb
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 0%
 
 新しい [[!DNL Media Gallery]](media-gallery.md) はAdobe Stockとの直接統合を提供し、ギャラリーページから直接イメージのライセンスを簡単に取得できます。
 
-## 前提条件
+>[!BEGINSHADEBOX]
 
-この機能を使用するには、[Adobe Stock Integration][adobe-stock-integration] モジュールおよび設定が必要です。 [Adobe Stock][adobe-stock] 画像のライセンスを取得するには、有料のAdobe Stock プランと [Adobeアカウント ][adobe-signin] が必要です。
+**前提条件**
+
+Adobe Stock ライセンス機能は、[Adobe Stock Integration][adobe-stock-integration] がインストールおよび設定されている場合にのみ使用できます。 [Adobe Stock][adobe-stock] 画像のライセンスを取得するには、有料のAdobe Stock プランと [Adobeアカウント ][adobe-signin] が必要です。
+
+>[!ENDSHADEBOX]
 
 ## 新しい [!DNL Media Gallery] ージからの画像のライセンス
 
