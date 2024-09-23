@@ -3,10 +3,10 @@ user-guide-title: コンテンツおよびデザインガイド
 user-guide-description: Adobe Commerce管理者、Magento Open Source管理者および e コマースマーケター向けのコンテンツおよびデザイン機能に関する包括的な情報です。
 breadcrumb-title: コンテンツとデザイン
 feature: CMS, Page Content
-source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
+source-git-commit: ea1532d326d3e787ba36cb98ced708f2bc2776e4
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -51,25 +51,17 @@ ht-degree: 3%
       - [新製品リストウィジェット](widget-new-products-list.md)
       - [注文と返品ウィジェット](widget-orders-returns.md)
       - [カタログイベントカルーセルウィジェット](widget-event-carousel.md)
-- WYSIWYG エディター {#wysiwyg}
+- WYSIWYG Editor {#wysiwyg}
    - [概要](editor.md)
    - [リンクの挿入](editor-insert-link.md)
    - [画像の挿入](editor-insert-image.md)
    - [ウィジェットの挿入](editor-widget.md)
    - [変数の挿入](editor-insert-variable.md)
-- Media {#media}
    - メディアストレージ {#storage}
       - [概要](media-storage.md)
       - [メディアデータベースの使用](media-storage-database.md)
       - [コンテンツ配信ネットワークの使用](media-storage-content-delivery-network.md)
       - [Dynamic Media の URL](catalog-urls-dynamic-media.md)
-   - Experience Manager Assets {#aem-assets}
-      - [Assetsの統合](aem-assets.md)
-      - Onboarding {#onboarding}
-         - [AEM Assetsの設定](aem-assets-configure-aem.md)
-         - [Adobe Commerceの設定](aem-assets-configure-commerce.md)
-         - [アセット同期の有効化](aem-assets-setup-synchronization.md)
-      - [AEM Assetsの使用](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Adobe Stockの統合](adobe-stock.md)
       - [Adobe Stock画像の使用](adobe-stock-manage.md)
@@ -80,6 +72,15 @@ ht-degree: 3%
       - [アセット管理](media-gallery-asset-management.md)
       - [フォルダー管理](media-gallery-folder-management.md)
       - [画像の最適化](media-gallery-image-optimization.md)
+- Advanced Asset Management {#aem-assets}
+   - [CommerceのAEM Assets統合](aem-assets.md)
+   - 統合 {#onboarding} ールの設定
+      - [概要](aem-assets-setup.md)
+      - [AEM Assetsの設定](aem-assets-configure-aem.md)
+      - [Adobe Commerceの設定](aem-assets-configure-commerce.md)
+      - [アセット同期の有効化](aem-assets-setup-synchronization.md)
+   - [AEM Assetsの使用](aem-assets-manage.md)
+- Media {#media}
 - コンテンツのステージング {#staging}
    - [概要](content-staging.md)
    - [更新のスケジュール設定](content-staging-scheduled-update.md)
@@ -87,4 +88,3 @@ ht-degree: 3%
    - [キャンペーン項目の追加](content-staging-add-item.md)
    - [キャンペーンのプレビュー](content-staging-preview.md)
 - [ マーチャントガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
-
