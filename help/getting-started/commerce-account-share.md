@@ -3,9 +3,9 @@ title: アカウント  [!DNL Commerce]  共有
 description: 自分のアカウントに対する制限付きアクセスを、他のアカウン  [!DNL Commerce]  所有者に許可する方法  [!DNL Commerce]  説明します。
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: ec634ebedd43b8bbc6b4a3e5079035b055740f2d
+source-git-commit: 8f8cb141c79b8b5a57363faf7ec5c8f2e75bb473
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,11 @@ ht-degree: 0%
    アカウントの左側のナビゲーションパネルには、新しい「_[!UICONTROL Shared with me]_」タブが追加されました。 右上隅の_[!UICONTROL Switch Accounts]_ コントロールには、`My Account` と共有アカウントの名前のオプションがあります。
 
    ![ 自分と共有 ](./assets/shared-with-me.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >   _[!UICONTROL Switch Accounts]_コントロールが表示されない場合は、プライマリアカウントの所有者に連絡し、正しい [ アカウント情報 ](#set-up-a-shared-account) が入力されていることを確認します。
+
 
 1. 共有アカウントにアクセスするには、**[!UICONTROL Switch Accounts]** を共有アカウントの名前に設定します。
 
