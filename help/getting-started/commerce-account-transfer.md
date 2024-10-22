@@ -3,7 +3,7 @@ title: Commerce アカウントの転送
 description: Commerce アカウントを別の所有者またはメールアドレスに転送する方法について説明します。
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 03a16730eebe3979157bc9eb847ac2b232d938bf
+source-git-commit: 5c7fbeaa0f09cb106c3105e3c36871df7e1bc368
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -69,6 +69,8 @@ ht-degree: 0%
 1. 新しいメールアドレスに送信された確認コードを入力します。
 
 1. 「**[!UICONTROL Verify]**」をクリックします。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
 
 ## メールの変更
 
