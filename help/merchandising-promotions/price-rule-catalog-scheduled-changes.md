@@ -3,9 +3,9 @@ title: カタログ価格ルールのスケジュールされた変更
 description: キャンペーンの一部としてスケジュールにカタログ価格ルールを適用し、他のコンテンツ変更とグループ化する方法を説明します。
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 11f8fcba70491f9dcb6c20d14b406fba4b14cab4
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->価格ルールを含むキャンペーンが最初に終了日なしで作成された場合、後でキャンペーンを編集して終了日を含めることはできません。 キャンペーンを作成する際に終了日を追加するか、既存のキャンペーンの重複バージョンを作成し、必要に応じて終了日を重複に追加することをお勧めします。
+>アクティブなキャンペーンが最初に終了日なしで作成された場合、後でキャンペーンを編集して終了日を含めることはできません。 この場合、重複するキャンペーンを作成し、必要な終了日を入力する必要があります。
 
 ![ カタログ価格ルール – 予定された変更 ](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
 
