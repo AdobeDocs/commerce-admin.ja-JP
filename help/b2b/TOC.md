@@ -5,9 +5,9 @@ breadcrumb-title: "[!DNL Adobe Commerce B2B]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: c88e5be54ac4af04302abbb25cc3f7db7b6b2606
+source-git-commit: 7f4993ff8b16beda2a371737fb5a8ecb5f9c9396
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '161'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 6%
       + [会社構造の定義](account-company-structure.md)
 + 会社管理 {#company-management}
    + [概要](manage-companies.md)
-   + [会社階層の管理](assign-companies.md)
+   + [会社階層の管理](manage-company-hierarchy.md)
 + Shared catalogs {#shared-catalogs}
    + [概要](catalog-shared.md)
    + 共有カタログの定義 {#define}
@@ -56,7 +56,11 @@ ht-degree: 6%
    + [見積依頼](quote-request.md)
    + [購買担当の見積を開始します](sales-rep-initiates-quote.md)
    + [見積の交渉](quote-price-negotiation.md)
+   + [見積もりテンプレートの作成](quote-templates.md)
    + [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)
++ Quote Templates {#templates}
+   + [ユースケースとワークフロー](quote-templates-overview.md)
+   + [[!UICONTROL My Quote Templates]](account-dashboard-my-quote-templates.md)
 + 購買依頼リスト {#requisition-lists}
    + [概要](requisition-lists.md)
    + [リストの最大値を設定](configure-requisition-lists.md)

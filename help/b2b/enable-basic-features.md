@@ -4,9 +4,9 @@ description: 会社アカウント、デフォルトの支払方法と発送方�
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 feature: B2B, Configuration
 role: Admin
-source-git-commit: 7e36d0b7c9b414cb072118b87cd903b3374bb9de
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 顧客企業のサポートを有効にすると、追加の B2B 機能が自動的に有効になります。
 
-- [!DNL Shared Catalog]
+- [[!DNL Shared Catalog]](catalog-shared.md)
 
   では、様々な会社のカスタム価格設定をサポートしており、すべての店舗に対してカテゴリ権限も有効にします。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
   共有カタログに割り当てられた製品のみを価格インデックスに保存することで、サイトのパフォーマンスを向上させます。 この機能を有効にすることは、多くの共有カタログを持つマーチャントにとって、様々な企業のカスタム価格を管理するためのベストプラクティスです。
 
-- [!DNL B2B Quotes]
+- [[!DNL B2B Quotes]](quotes.md)
 
   売り手と会社の買い手に価格を交渉する機能を提供します。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 これらの機能の設定は、[!DNL Enable Company] が `Yes` に設定されている場合にのみ表示されます。
 
-B2B の [!DNL Quick Order] 機能と [!DNL Requisition List] 機能は、個別に有効または無効にできます。
+B2B の [[!DNL Quick Order]](quick-order.md) 機能と [[!DNL Requisition List]](requisition-lists.md) 機能は、個別に有効または無効にできます。
 
 ## B2B 機能の設定
 
@@ -52,6 +52,8 @@ Adobe Commerce B2B 機能を設定するオプションは、[Adobe Commerce B2B
    - **[!UICONTROL Enable Company]** を `Yes` に設定することで、顧客が独自の会社アカウントを管理し、追加の B2B 機能のサポートを有効にできるようにします。
 
      会社サポートを有効にすると、共有カタログ、B2B 見積もり、B2B 支払い方法、B2B 配送方法が自動的に有効になります。
+
+     ![B2B の設定 – 会社の機能 ](assets/b2b-additional-features.png){width="600"}
 
    - 顧客やゲストが SKU や製品名に基づいてすばやく注文できるようにするには、**[!UICONTROL Enable Quick Order]** を `Yes` に設定します。
 

@@ -4,9 +4,9 @@ description: 会社アカウントに関連付けられている顧客が見積�
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
+source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,6 @@ ht-degree: 0%
 1. 見積もりを作成および処理します。
 
    - **[!UICONTROL Request a Quote]** を選択して Quote を Seller に送信します。
-   - [!BADGE 1.5.0 ベータ版機能 ]{type=Informative url="/help/b2b/release-notes.md" tooltip="Beta プログラム参加者のみ使用可能"}**[!UICONTROL Save as Draft]**。
+   - **[!UICONTROL Save as Draft]** を選択して見積をドラフトとして保存します。
 
      購買担当が見積を草案として保存すると、見積は [!UICONTROL My Quotes] の状態で使用可能 `Draft` なります。 下書きの見積りは、購入者がレビュー用に送信するまで、販売者には表示されません。

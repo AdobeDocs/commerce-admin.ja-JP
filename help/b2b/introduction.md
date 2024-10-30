@@ -3,9 +3,9 @@ title: 概要  [!DNL Adobe Commerce B2B]
 description: 統合 B2B 機能を使用して、企業のお客様のニーズを満たす方法を説明します。
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: 8e4e070f41f7d3bf872e81c9805e7c24779b812d
+source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '803'
 ht-degree: 2%
 
 ---
@@ -29,8 +29,6 @@ Commerceのサイト管理者は、管理者から、会社が web サイトで�
 >有効にすると、ストアは会社に _アカウントでの支払い_ のオプションを提供できます。これは、会社のクレジットラインで購入することを意味します。 マーチャントは、会社アカウントのクレジットを割り当て、会社のクレジット設定とクレジット償還を管理できます。
 
 ## 会社管理
-
-[!BADGE 1.5.0 – ベータ版 ]{type=Informative url="/help/b2b/release-notes.md" tooltip="Beta プログラム参加者のみ使用可能"}
 
 会社管理は、マーチャント管理者が、複雑な運用モデルを持つ B2B 組織の管理と管理を合理化するのに役立ちます。
 

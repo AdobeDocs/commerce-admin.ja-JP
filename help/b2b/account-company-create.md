@@ -4,9 +4,9 @@ description: Adobe Commerce Admin での会社アカウントの作成と、ス�
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
+source-git-commit: 30c988ac7d4108ae85980498472d96363107212c
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1750'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->この方法をサポートするには（顧客がストアフロントから会社を登録できるようにするには）、[B2B 機能 ](enable-basic-features.md) が `Yes` に設定されている **[!UICONTROL Allow Company Registration from the Storefront]** とを確認します。
+>この方法をサポートするには（顧客がストアフロントから会社を登録できるようにします）、[B2B 機能 ](enable-basic-features.md) が有効になっていることを確認します。
 
 1. ストアフロントヘッダーの右上隅で、顧客が「**[!UICONTROL Create an Account]**」をクリックして **[!UICONTROL Create New Company Account]** を選択します。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >訪問者が登録済みユーザーアカウントにログインしている場合は、_[!UICONTROL Customer Profile]_/**[!UICONTROL Company Structure]**/**[!UICONTROL Create a Company Account]**に移動して、会社アカウントを作成できます。 会社アカウントの作成時に、顧客のアカウントがプライマリ連絡先として割り当てられます。 それ以外の場合、システムは顧客を作成し、この顧客はパスワードを設定するメールを受け取ります。
+   >訪問者が登録済みユーザーアカウントにログインしている場合は、_[!UICONTROL Customer Profile]_/**[!UICONTROL Company Structure]**/**[!UICONTROL Create a Company Account]**に移動して、会社アカウントを作成できます。
 
 1. _[!UICONTROL Company Information]_のセクションでは、顧客は次の操作を行います。
 

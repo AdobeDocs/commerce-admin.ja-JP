@@ -4,9 +4,9 @@ description: 販売者が特定の購入者に対して見積もりを作成し�
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
+source-git-commit: 69396421bae610ff02b12054bdea2278a8c0efe5
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,15 @@ ht-degree: 0%
 
    - 「[!UICONTROL Discount]」フィールドに、値引タイプの値を入力します。 たとえば、パーセンテージ割引を選択した場合、10 と入力して、明細品目に 10% 割引を適用します。
 
-   - [!BADGE 1.5.0 ベータ版の機能 ]{type=Informative url="/help/b2b/release-notes.md" tooltip="Beta プログラム参加者のみ使用可能"}
+   - 必要に応じて、見積レベルで適用される値引によって製品価格がさらに減少しないように、明細品目値引の値をロックします。
 
      変更を確認すると、製品グリッドの行項目属性が更新され、適用された割引額が表示されます。 割引がロックされている場合は、ロックアイコンが表示されます。
+
+   営業担当は、見積内の特定の品目からの値引きを要求できます。
+
+   >[!NOTE]
+   >
+   >行項目の値引きの仕組みを示すビデオのデモについては、_CommerceのビデオとTutorials[ の「営業担当が見積依頼行項目に値引きを適用する ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) を参照してください_。
 
 1. 必要に応じて、見積レベルの値引きを適用します。
 
@@ -90,6 +96,14 @@ ht-degree: 0%
    ![ 売主が買主に対し情報を追加 ](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
    デフォルトでは、[ 添付ファイル ](configure-quotes.md) は最大 2 MB で、次のファイル形式のいずれかで使用できます：DOC、DOCX、XLS、XLSX、PDF、TXT、JPGまたはJPEG、PNG。
+
+1. ネゴシエーション中に配送先住所を追加します。
+
+   バイヤーが見積書に配送先住所を追加した後は、営業担当が配送と配送を選択できます。
+
+   配送オプションはチェックアウト時にロックされます。
+
+   詳しくは、[My quotes](account-dashboard-my-quotes.md#adding-a-shipping-address) を参照してください。
 
 1. 見積もりを処理します。
 

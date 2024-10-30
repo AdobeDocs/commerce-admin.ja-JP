@@ -4,9 +4,9 @@ description: 会社構造と、ビジネスワークフローおよびポリシ�
 exl-id: 4724b208-b6ac-4de5-9a4c-bc4d68402506
 feature: B2B, Companies
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -17,25 +17,23 @@ ht-degree: 0%
 
 ![ 部門を有する企業体質 ](./assets/company-structure-diagram.svg){width="500"}
 
-会社管理者のアカウントダッシュボードでは、会社構造はツリーで表され、最初は会社管理者のみで構成されます。
+ストアフロント上の会社管理者のアカウントダッシュボードでは、会社構造はツリーで表され、最初は会社管理者のみで構成されています。
 
-![ 会社管理者を置く会社組織 ](./assets/company-structure-tree-admin.png){width="600" zoomable="yes"}
+![ 会社管理者を置く会社組織 ](./assets/company-structure-tree-admin.png){width="700" zoomable="yes"}
 
-アカウントを作成して承認すると、会社の管理者は会社のメールアドレスを使用したり、別のメールアドレスを割り当てたりできます。
-
-会社管理者となるユーザーは、会社内で複数の役割を持つ可能性があります。 会社管理者のメールアドレスを別途入力した場合、最初の会社構造には、会社管理者と、会社管理者の名前に個々のユーザーアカウントが含まれます。 この場合、会社の管理者は、会社または個人ユーザーとしてアカウントにログインできます。
-
-![ 管理者とユーザーアカウントを使用した会社構造 ](./assets/company-structure-tree-admin-user.png){width="600" zoomable="yes"}
-
-マーチャントの場合、会社全体の構造が管理画面の _会社_ グリッドと _顧客_ グリッドに反映されます。 会社グリッドには、ステータスに関係なくすべての会社が一覧表示されます。 次の例は、2 つの会社（_ACME_ 会社と _Vendelay_ 会社）のアカウントを示しています。
+マーチャントの場合、会社全体の構造が管理画面の _会社_ グリッドと _顧客_ グリッドに反映されます。 会社グリッドには、ステータスに関係なくすべての会社が一覧表示されます。
 
 ![ 会社グリッド ](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-次の例は、これらの会社の最初の会社管理者アカウントを持つ [!UICONTROL Customers] グリッドを示しています。
+次の例は、各会社の最初の会社管理者アカウントを含む [!UICONTROL Customers] グリッドを示しています。
 
-![ 会社管理者アカウントを使用した顧客グリッド ](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![ 会社管理者アカウントを持つ顧客グリッド ](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-アカウントを作成したら、会社の管理者は、会社の構造 [ チーム ](account-company-structure.md) を定義し、[ 会社のユーザー ](account-company-users.md) を設定して、それぞれに [ 役割と権限 ](account-company-roles-permissions.md) を設定する必要があります。
+アカウントを作成した後、会社の管理者は、会社の構造を [ チーム ](account-company-structure.md) で定義し、それぞれに [ 会社ユーザー ](account-company-users.md) を設定して [ 役割と権限 ](account-company-roles-permissions.md) を設定できます。
+
+>[!NOTE]
+>
+>会社ユーザーが追加されると、最初は会社ユーザーが会社管理者の下のルート会社構造に追加されます。 会社管理者が会社内で複数の役割を実行する場合は、役割ごとに異なるメールアドレスを使用して、個別の会社ユーザーアカウントを作成します。
 
 ## 会社構造アイコン
 
@@ -74,9 +72,7 @@ ht-degree: 0%
 
    - 必要な数のチームを作成します。
 
-     ![ チームを持つ会社体制 ](./assets/company-structure-teams.png){width="600" zoomable="yes"}
-
-1. チームの階層を作成するには、次の操作を実行します。
+1. チームの階層を作成するために、管理者は次の操作を実行します。
 
    - 親チームを選択し、[**[!UICONTROL Add Team]**] をクリックします。
 
@@ -129,7 +125,7 @@ ht-degree: 0%
 | [!UICONTROL Collapse All / Expand All] | ビジネス構造ツリーを折りたたむか展開します |
 | [!UICONTROL Add User] | 現在のチームの下にユーザーを作成します |
 | [!UICONTROL Add Team] | チームを作成します |
-| [!UICONTROL Edit Selected / Delete Selected] | ビジネス ツリーのユーザーを編集または削除します |
+| [!UICONTROL Edit Selected / Remove from Structure] | ユーザー情報を編集するか、ビジネス ツリーからユーザーを削除します。 詳しくは、[ 会社ユーザーアカウントの管理 ](account-company-users.md) を参照してください。 |
 
 {style="table-layout:auto"}
 
