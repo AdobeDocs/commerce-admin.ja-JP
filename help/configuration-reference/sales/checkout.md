@@ -3,7 +3,7 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Checkout]'
 description: Commerce Admin の [!UICONTROL Sales] &gt; [!UICONTROL Checkout] ページで設定を確認します。
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![ チェックアウトオプション ](./assets/checkout-checkout-options.png)<!-- zoom -->
 
-<!--[Checkout Options](https://docs.magento.com/user-guide/sales/checkout-options.html) -->
+<!--[Checkout Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-process#checkout-options) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |------------------------------------------------------------------|--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ![ 買い物かご ](./assets/checkout-shopping-cart.png)<!-- zoom -->
 
-<!--[Shopping Cart](https://docs.magento.com/user-guide/sales/cart-configuration.html) -->
+<!--[Shopping Cart](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ![ 自分の買い物かごリンク ](./assets/checkout-my-cart-link.png)<!-- zoom -->
 
-<!-- [*My Cart Link*](https://docs.magento.com/user-guide/sales/mini-cart.html) -->
+<!-- [*My Cart Link*](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ![ ミニカート ](./assets/checkout-mini-cart.png)<!-- zoom -->
 
-<!-- [*Mini Cart*](https://docs.magento.com/user-guide/sales/mini-cart.html) -->
+<!-- [*Mini Cart*](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ![ 支払いに失敗したメール ](./assets/checkout-payment-failed-emails.png)<!-- zoom -->
 
-<!-- [*Payment Failed Emails*](https://docs.magento.com/user-guide/sales/checkout-payment-failed-emails.html) -->
+<!-- [*Payment Failed Emails*](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-payment-failed-emails) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

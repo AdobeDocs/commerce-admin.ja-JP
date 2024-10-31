@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: Commerce Admin の [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] ページで設定を確認します。
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![ 販売者の所在地 ](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
-<!-- [Merchant Location](https://docs.magento.com/user-guide/payment/merchant-location.html) -->
+<!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -40,13 +40,13 @@ PayPal アカウントまたはクレジットカードによるオンライン�
 
 >[!NOTE]
 >
->一部の支払い統合およびバンドルされた拡張機能は、2.4.x リリースで削除され、Commerce Marketplaceに移行されました。 最新の公式の支払い統合拡張機能については、[Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target=&quot;_blank&quot;} をご覧ください。
+>一部の支払い統合およびバンドルされた拡張機能は、2.4.x リリースで削除され、Commerce Marketplaceに移行されました。 最新の公式の支払い統合拡張機能については、[Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"} をご覧ください。
 ><br/>
 >**Amazon Pay** および **Klarna**:Adobe CommerceおよびMagento Open Sourceリリース 2.4.0 から 2.4.3 には、これらのベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、これらの拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 また、Marketplace では、拡張機能開発者が提供する最新のドキュメントにもアクセスできます。
 ><br/>
 >これらのバンドルされた拡張機能のいずれかが有効になって設定済みの場合は、2.4.4 アップグレードプロセスの一環として `composer.json` ファイルを更新し、今後、拡張機能の更新を管理する必要があります。 詳しくは、『 [ アップグレードガイド _の ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) アップグレードモジュール_ を参照してください。<br/>
 ><br/>
->**Worldpay**、**Eway**、**CyberSource**、および **Authorize.Net**：これらの支払い統合から安全に移行する方法については、[DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target=&quot;_blank&quot;} を参照してください。
+>**Worldpay**、**Eway**、**CyberSource**、および **Authorize.Net**：これらの支払い統合から安全に移行する方法については、[DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"} を参照してください。
 
 ## その他の PayPal メソッド
 
@@ -71,7 +71,7 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 
 ![ 小切手/送金 ](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
-<!-- [Check / Money Order](https://docs.magento.com/user-guide/payment/check-money-order.html) -->
+<!-- [Check / Money Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -92,7 +92,7 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 
 ![ 振替支払 ](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
-<!-- [Bank Transfer Payment](https://docs.magento.com/user-guide/payment/bank-transfer.html) -->
+<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -113,7 +113,7 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 
 ![ 分割払 ](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
-<!-- [Payment on Account](https://docs.magento.com/user-guide/payment/payment-on-account.html) -->
+<!-- [Payment on Account](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

@@ -3,7 +3,7 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: Commerce Admin の [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] ページで設定を確認します。
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: 1ae3e1fd10e29de690f7f159c36101a9817dea91
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![ 報酬ポイント ](./assets/reward-points-reward-points.png)<!-- zoom -->
 
-<!-- [Reward Points](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
+<!-- [Reward Points](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expiry Calculation] | Web サイト | 報酬ポイントの有効期限が切れるタイミングを決定するために使用する方法を決定します。 オプション：<br/>**`Static`**– 設定で設定された日数に基づいて、報酬ポイントの残りの有効期間を決定します。 設定の有効期限が変更された場合、既存のポイントの有効期限は変更されません。<br/>**`Dynamic`** – 報酬ポイント残高が増加した場合の残り日数を計算します。 設定の有効期限制限が変更されると、それに応じて、既存のすべてのポイントの有効期限計算が更新されます。 |
 | [!UICONTROL Refund Reward Points Automatically] | グローバル | 利用可能な報酬ポイントが自動的に払い戻されるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | グローバル | この機能が有効化されている場合、購入を通じて獲得した報酬ポイントが注文払い戻し時に完全に無効になるか、一部が無効になるかを決定します。 その注文が返金される際に影響を受けるのは、その注文で獲得したポイントのみです。 オプション：`Yes`/`No`。 |
-| [!UICONTROL Landing Page] | ストア表示 | 報酬ポイント プログラムを説明する CMS ページを指定します。 ポイントを獲得できるストアの場所に、デフォルトの報酬ページへのリンクが表示されます。 |
+| [!UICONTROL Landing Page] | ストア表示 | 報酬ポイント プログラムについて説明するCMS ページを指定します。 ポイントを獲得できるストアの場所に、デフォルトの報酬ページへのリンクが表示されます。 |
 
 {style="table-layout:auto"}
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ![ 顧客の報酬ポイント獲得の訴え ](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
 
-<!-- [Actions for Acquiring Reward Points by Customers](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
+<!-- [Actions for Acquiring Reward Points by Customers](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ![ メール通知設定 ](./assets/reward-points-email-notification-settings.png)<!-- zoom -->
 
-<!-- [Email Notification Settings](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
+<!-- [Email Notification Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

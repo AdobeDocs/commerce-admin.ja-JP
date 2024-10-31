@@ -3,7 +3,7 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings]'
 description: Commerce Admin の [!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings] ページで設定を確認します。
 exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
 feature: Configuration, Shipping/Delivery
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ![ オプション ](./assets/multishipping-settings-options.png)<!-- zoom -->
 
-<!-- [Options](https://docs.magento.com/user-guide/shipping/shipping-multiaddress.html) -->
+<!-- [Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

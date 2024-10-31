@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
 description: Commerce Admin の [!UICONTROL General] &gt; [!UICONTROL Web] ページで設定を確認します。
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 ![Web > 一般オプション ](./assets/web-url-options.png)<!-- zoom -->
 
-<!-- [URL Options configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
-| フィールド | 範囲 | 説明 |
+| フィールド | 対象範囲 | 説明 |
 |  ---  |  ---  |  ---  |
 | [!UICONTROL Add Store Code to URLs] | グローバル | Web Server Rewrites が有効な場合、は現在のビューのストア・コードを URL に挿入します。 オプション：`Yes`/`No`。 <br /> このフィールドを `Yes` に設定した場合、URL の書き換えが正しくマッピングされ、すべてのページが正常に開かれるように、ブラウザーの URL にストアコードを含める必要があります。 これにより、_404 Page Not Found_ エラーが回避されます。 |
 | [!UICONTROL Auto-redirect to Base URL] | ストア表示 | （シングルストア設定の場合）サイトに壊れたリンクがある場合、は、「404 Page Not Found」というメッセージを含んだページではなく、ベース URL にトラフィックをリダイレクトします。 オプション：` No`/`Yes (302 Found)`/`Yes (301 Moved Permanently)` <br />**_重要：_**マルチストアの設定で、自動リダイレクトをベース URL に使用しないでください。 |
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![Web > 検索エンジンの最適化 ](./assets/web-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization configuration settings](https://docs.magento.com/user-guide/marketing/url-rewrite.html) -->
+<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ![Web > ベース URL](./assets/web-base-urls.png)<!-- zoom -->
 
-<!-- [Base URLS configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ![Web > ベース URL （セキュア） ](./assets/web-base-urls-secure.png)<!-- zoom -->
 
-<!-- [Base URLs (Secure) configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -79,16 +79,16 @@ ht-degree: 0%
 
 ![Web/デフォルトページ ](./assets/web-default-pages.png)<!-- zoom -->
 
-<!-- [Default Pages configuration settings](https://docs.magento.com/user-guide/cms/pages-default.html) -->
+<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Default Web URL] | ストア表示 | ベース URL に関連付けられているランディングページを示します。 これは、Commerce コンテンツ管理システム（CMS）からのページを示すために、デフォルトで「cms」に設定されます。 また、ブログなど、別のタイプのランディングページを使用することもできます。 例えば、`magento/blog` にサーバーにブログがインストールされている場合、選択したページへの相対パスとして「blog」フォルダーの名前を入力できます。 |
-| [!UICONTROL CMS Home Page] | ストア表示 | ストアのホームページを選択するには、リストから CMS ページを選択するだけです。 デフォルトでは、CMS のホームページには、ストアで使用可能な CMS ページの選択全体が一覧表示されます。 |
+| [!UICONTROL CMS Home Page] | ストア表示 | ストアのホームページを選択するには、リストからCMSページを選択します。 デフォルトでは、CMSのホームページには、ストアで使用可能なCMSのページの選択全体が一覧表示されます。 |
 | [!UICONTROL Default No-route URL] | ストア表示 | `404 Page not Found` エラーが発生したときに表示されるデフォルトのページの URL が含まれます。 デフォルト値は `cms/noroute/index` です。 |
-| [!UICONTROL CMS No Route Page] | ストア表示 | 404 ページが見つからないというエラーが発生した場合に表示する特定の CMS ページを識別します。 デフォルトのページは「404 Not Found」です。 |
-| [!UICONTROL CMS No Cookies Page] | ストア表示 | ブラウザーで Cookie が有効になっていない場合に表示される特定の CMS ページを識別します。 このページでは、cookie が使用される理由と、各ブラウザーで cookie を有効にする方法について説明します。 デフォルトのページでは、Cookie を有効にします。 |
-| [!UICONTROL Show Breadcrumbs for CMS Pages] | ストア表示 | カタログ内のすべての CMS ページにパンくずリストを表示するかどうかを決定します。 オプション：`Yes` / `No` |
+| [!UICONTROL CMS No Route Page] | ストア表示 | 404 ページが見つからないというエラーが発生した場合に表示する、特定のCMS ページを指定します。 デフォルトのページは「404 Not Found」です。 |
+| [!UICONTROL CMS No Cookies Page] | ストア表示 | ブラウザーで Cookie が有効になっていない場合に表示される特定のCMSページを識別します。 このページでは、cookie が使用される理由と、各ブラウザーで cookie を有効にする方法について説明します。 デフォルトのページでは、Cookie を有効にします。 |
+| [!UICONTROL Show Breadcrumbs for CMS Pages] | ストア表示 | パンくずリストをカタログ内のすべてのCMS ページに表示するかどうかを指定します。 オプション：`Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -96,13 +96,13 @@ ht-degree: 0%
 
 ![ デフォルトのレイアウト ](./assets/web-default-layouts.png)<!-- zoom -->
 
-<!--[Default Layouts](https://docs.magento.com/user-guide/design/page-layout.html) -->
+<!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Default Product Layout] | グローバル | 製品ページにデフォルトで使用される [ レイアウト ](../../content-design/page-layout.md) を決定します。 オプション：<br/>**`No layout updates`**- デフォルトでは、製品ページのレイアウトのアップデートは使用できません。<br/>**`Empty`** - デフォルトでは、は製品ページに空白のレイアウトを使用します。 <br/>**`1 column`**- デフォルトでは、製品ページに 1 列のレイアウトを使用します。<br/>**`2 columns with left bar`** - デフォルトでは、製品ページ用にサイドバーが左側にある 2 列のレイアウトを使用します。 <br/>**`2 columns with right bar`**- デフォルトでは、は製品ページ用にサイドバーが右側にある 2 列のレイアウトを使用します。<br/>**`3 columns`** - デフォルトでは、は製品ページに対して左右にサイドバーを持つ 3 列のレイアウトを使用します。<br/>**`Page -- Full Width`**- （[!DNL Page Builder] が必要）デフォルトでは、製品ページの「ページ – 全幅」レイアウトを使用します。<br/>**`Category - Full Width`** - （[!DNL Page Builder] が必要）デフォルトでは、製品ページに対して「カテゴリ – 全幅」レイアウトを使用します。 <br/>**`Product - Full Width`**- （[!DNL Page Builder] が必要）デフォルトでは、製品ページに対して「製品 – 全幅」レイアウトを使用します。 |
 | [!UICONTROL Default Category Layout] | グローバル | カテゴリページにデフォルトで使用される [ レイアウト ](../../content-design/page-layout.md) を決定します。 オプション：<br/>**`No layout updates`**- デフォルトでは、カテゴリページのレイアウト更新は使用できません。<br/>**`Empty`** - デフォルトでは、はカテゴリページに空白のレイアウトを使用します。 <br/>**`1 column`**- デフォルトでは、カテゴリページに 1 列のレイアウトを使用します。<br/>**`2 columns with left bar`** - デフォルトでは、は、カテゴリページ用にサイドバーが左側にある 2 列のレイアウトを使用します。 <br/>**`2 columns with right bar`**- デフォルトでは、は、カテゴリページ用にサイドバーが右側にある 2 列のレイアウトを使用します。<br/>**`3 columns`** - デフォルトでは、はカテゴリページに対して左右にサイドバーを持つ 3 列のレイアウトを使用します。<br/>**`Page - Full Width`**- （[!DNL Page Builder] が必要）デフォルトでは、カテゴリページに「ページ – 全幅」レイアウトを使用します。<br/>**`Category - Full Width`** - （[!DNL Page Builder] が必要）デフォルトでは、カテゴリページに対して「カテゴリ – 全幅」レイアウトを使用します。 <br/>**`Product - Full Width`**- （[!DNL Page Builder] が必要）デフォルトでは、カテゴリページに対して「製品 – 全幅」レイアウトを使用します。 |
-| 既定のページ レイアウト | グローバル | CMS ページに対してデフォルトで使用される [ レイアウト ](../../content-design/page-layout.md) を決定します。 オプション：<br/>**`No layout updates`**- デフォルトでは、CMS ページのレイアウト更新は使用できません。<br/>**`Empty`** - デフォルトでは、は CMS ページに空白のレイアウトを使用します。 <br/>**`1 column`**- デフォルトでは、は CMS ページに 1 列のレイアウトを使用します。<br/>**`2 columns with left bar`** - デフォルトでは、CMS ページ用にサイドバーが左側にある 2 列のレイアウトを使用します。<br/>**`2 columns with right bar`**- デフォルトでは、は CMS ページ用にサイドバーが右側にある 2 列のレイアウトを使用します。<br/>**`3 columns`** - デフォルトでは、は CMS ページに対して左右にサイドバーを持つ 3 列のレイアウトを使用します。<br/>**`Page - Full Width`**- （[!UICONTROL Page Builder] が必要）デフォルトでは、CMS ページに対して「ページ – 全幅」レイアウトを使用します。<br/>**`Category - Full Width`** - （[!UICONTROL Page Builder] が必要）デフォルトでは、CMS ページに対して「カテゴリ – 全幅」レイアウトを使用します。 <br/>**`Product - Full Width`**- （[!DNL Page Builder] が必要）デフォルトでは、CMS ページに製品 – 全幅レイアウトを使用します。 |
+| 既定のページ レイアウト | グローバル | CMSページに対してデフォルトで使用される [ レイアウト ](../../content-design/page-layout.md) を指定します。 オプション：<br/>**`No layout updates`**- デフォルトでは、CMS ページのレイアウト更新は使用できません。<br/>**`Empty`** - デフォルトでは、はCMS ページに空白のレイアウトを使用します。 <br/>**`1 column`**- デフォルトでは、CMSページに 1 列のレイアウトを使用します。<br/>**`2 columns with left bar`** - デフォルトでは、CMS ページ用にサイドバーが左側にある 2 列のレイアウトを使用します。<br/>**`2 columns with right bar`**- デフォルトでは、CMS ページの右側にサイドバーがある 2 列のレイアウトを使用します。<br/>**`3 columns`** - デフォルトでは、CMS ページに対して左右にサイドバーを持つ 3 列のレイアウトを使用します。<br/>**`Page - Full Width`**- （[!UICONTROL Page Builder] が必要）デフォルトでは、CMSページに対して「ページ – 全幅」レイアウトを使用します。<br/>**`Category - Full Width`** - （[!UICONTROL Page Builder] が必要）デフォルトでは、CMSページに対して「カテゴリ – 全幅」レイアウトを使用します。 <br/>**`Product - Full Width`**- （[!DNL Page Builder] が必要）デフォルトでは、CMS ページに対して「製品 – 全幅」レイアウトを使用します。 |
 
 {style="table-layout:auto"}
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![Web/デフォルトの Cookie 設定 ](./assets/web-default-cookie-settings.png)<!-- zoom -->
 
-<!-- [Default Cookie configuration settings](https://docs.magento.com/user-guide/stores/compliance-cookie-law.html) -->
+<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ![Web > セッションの検証 ](./assets/web-session-validation-settings.png)<!-- zoom -->
 
-<!-- [Session Validation configuration settings](https://docs.magento.com/user-guide/stores/security-session-validation.html) -->
+<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -141,11 +141,11 @@ ht-degree: 0%
 
 ![Web > ブラウザー機能の検出 ](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
-<!-- [Browser Capabilities Detection configuration settings](https://docs.magento.com/user-guide/stores/security-browser-capabilities-detection.html) -->
+<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Redirect to CMS-page if Cookies are Disabled] | ストア表示 | ブラウザーで Cookie が無効になっている場合は、CMS の Cookie が無効ページに自動的にリダイレクトされます。 オプション：`Yes` / `No` |
+| [!UICONTROL Redirect to CMS-page if Cookies are Disabled] | ストア表示 | ブラウザーで Cookie が無効になっている場合は、CMSの Cookie が無効ページに自動的にリダイレクトされます。 オプション：`Yes` / `No` |
 | [!UICONTROL Show Notice if JavaScript is Disabled] | ストア表示 | ブラウザーでJavaScriptが無効になっている場合は、JavaScript オプションを有効にするよう求める次の通知が表示されます。`Yes` / `No` （無効） |
 | [!UICONTROL Show Notice if Local Storage is Disabled] | ストア表示 | ローカルキャッシュが無効な場合にメッセージを表示します。 オプション：`Yes` / `No` |
 

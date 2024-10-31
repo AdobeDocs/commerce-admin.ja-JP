@@ -3,9 +3,9 @@ title: '[!DNL Page Builder] ウォークスルー第 2 部：ブロック'
 description: ' [!DNL Page Builder] を使用する場合の、単純ブロックとダイナミック ブロックの違いについて説明します。'
 exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content
-source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2054'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->これらのチュートリアルの演習は、2.4.1 リリースの [!DNL Page Builder] ワークスペースに対する最近の変更を反映して更新されました。 以前のAdobe Commerce リリースを使用している場合は、[[!DNL Commerce] 2.3 ユーザーガイド ](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html) に含まれている [!DNL Page Builder] の演習を使用してください。
+>これらのチュートリアルの演習は、2.4.1 リリースの [!DNL Page Builder] ワークスペースに対する最近の変更を反映して更新されました。
 
 ## パート 1：シンプルなブロックの作成
 

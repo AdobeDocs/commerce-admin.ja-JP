@@ -3,7 +3,7 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Login As Customer]'
 description: Commerce Admin の [!UICONTROL Customers] &gt; [!UICONTROL Login As Customer] ページで設定を確認します。
 exl-id: fe5925a2-f66f-44a1-aead-8b1abcbd9db2
 feature: Configuration, Customer Service
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ![ 顧客としてログイン – 一般オプション ](./assets/login-as-customer.png)<!-- zoom -->
 
-<!-- [Login As Customer - General Options](https://docs.magento.com/user-guide/customers/login-as-customer.html#enable-the-feature) -->
+<!-- [Login As Customer - General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer) -->
 
 | オプション | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |-- | -- | -- |

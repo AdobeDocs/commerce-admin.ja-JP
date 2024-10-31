@@ -2,9 +2,9 @@
 title: 概要  [!DNL Page Builder]
 description: Adobe CommerceとMagento Open Sourceでコンテンツを簡単に作成するための  [!DNL Page Builder]  ツールについて説明します。
 exl-id: 2f71f910-4141-4fe5-bc0f-b891daeb8334
-source-git-commit: 43e71a77c3f4a4b92406bae03d27d3ec3c2359ba
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 [!DNL Page Builder] を使用すると、視覚的なストーリーテリングを強化するカスタムレイアウトでコンテンツに富んだページを簡単に作成し、顧客エンゲージメントとロイヤルティを高めることができます。 以下に、品質を向上させ、カスタムページの作成に要する時間とコストを削減するために設計された、多くの [!DNL Page Builder] 機能の一部を示します。
 
 - 高度なコンテンツツール
-- CMS ページ、製品およびカテゴリ用のフルページレイアウト
+- CMSのページ、製品およびカテゴリ向けのフルページレイアウト
 - ワークスペースからのリアルタイム編集
 - ドラッグ&amp;ドロップによるページデザイン
 - 豊富なコンテンツタイプ
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->これらのチュートリアルの演習が更新され、2.4.x リリースラインの [!DNL Page Builder] ワークスペースに対する重要な変更が反映されました。 以前のAdobe Commerce リリースを使用している場合は、[[!DNL Commerce] 2.3 ユーザーガイド ](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html) に含まれている [!DNL Page Builder] のチュートリアル演習を使用してください。
+>これらのチュートリアルの演習が更新され、2.4.x リリースラインの [!DNL Page Builder] ワークスペースに対する重要な変更が反映されました。
 
 ## ページビルダーのデモ
 

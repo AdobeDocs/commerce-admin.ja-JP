@@ -3,7 +3,7 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser]'
 description: Commerce Admin の [!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser] ページで設定を確認します。
 exl-id: 264f0f21-7324-4e37-938e-9f0cdbb3dfe8
 feature: Configuration, Merchandising
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ![ 一般オプション ](./assets/catalog-visual-merchandiser-general-options.png)<!-- zoom -->
 
-<!-- [General Options](https://docs.magento.com/user-guide/marketing/visual-merchandiser-configuration.html) -->
+<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/visual-merch/smart-attributes-configure) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

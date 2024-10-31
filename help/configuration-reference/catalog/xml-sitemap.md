@@ -3,7 +3,7 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
 description: Commerce Admin の [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] ページで設定を確認します。
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ![ カテゴリオプション ](./assets/xml-sitemap-categories-options.png)<!-- zoom -->
 
-<!-- [Categories Options](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
+<!-- [Categories Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 ![ 製品オプション ](./assets/xml-sitemap-products-options.png)<!-- zoom -->
 
-<!-- [Products Options](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
+<!-- [Products Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -43,14 +43,14 @@ ht-degree: 2%
 
 ## [!UICONTROL CMS Pages Options]
 
-![CMS ページオプション ](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
+![CMSページオプション ](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
 
-<!-- [CMS Pages Options](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
+<!-- [CMS Pages Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Frequency] | ストア表示 | サイトマップ CMS ページの更新頻度を決定します。 オプション：`Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | ストア表示 | CMS ページサイトマップの更新の優先度を、他のコンテンツとの関連で決定する `0.0` ～ `1.0` の値です。 優先順位が最も低いのはゼロ（`0.0`）です。 |
+| [!UICONTROL Frequency] | ストア表示 | サイトマップのCMSページを更新する頻度を指定します。 オプション：`Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
+| [!UICONTROL Priority] | ストア表示 | CMS ページサイトマップの更新の優先度を他のコンテンツと関連付けて決定する、`0.0` ～ `1.0` の値です。 優先順位が最も低いのはゼロ（`0.0`）です。 |
 
 {style="table-layout:auto"}
 
@@ -67,7 +67,7 @@ ht-degree: 2%
 
 ![ 生成設定 ](./assets/xml-sitemap-generation-settings.png)<!-- zoom -->
 
-<!-- [Generation Settings](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
+<!-- [Generation Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -84,7 +84,7 @@ ht-degree: 2%
 
 ![ サイトマップファイルの制限 ](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
 
-<!-- [Sitemap File Limits](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
+<!-- [Sitemap File Limits](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -97,7 +97,7 @@ ht-degree: 2%
 
 ![ 検索エンジン送信設定 ](./assets/xml-sitemap-search-engine-submission-settings.png)<!-- zoom -->
 
-<!-- [Search Engine Submission Settings](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
+<!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
