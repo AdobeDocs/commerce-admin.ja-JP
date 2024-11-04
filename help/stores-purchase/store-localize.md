@@ -3,9 +3,9 @@ title: ストアのローカリゼーション
 description: ストアまたはストア表示をローカライズする方法について説明します。
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 248c60b20d8554fc73f94cfd249ac3fd7b677f62
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ストア全体でページにハードコードされているように見えるテキストのほとんどは、表示のロケールを変更することで、すぐに別の言語に変更できます。 ロケールを変更しても、実際には一語一語が翻訳されるわけではなく、ストア全体で使用されるインターフェイステキストを提供する別の翻訳テーブルが参照されるだけです。 変更可能なテキストには、ナビゲーションタイトル、ラベル、ボタン、およびリンク（_買い物かご_ や _マイアカウント_ など）が含まれます。 [ インライン翻訳 ](../configuration-reference/advanced/developer.md) ツールを使用して、インターフェイス内のテキストにタッチ アップすることもできます。
 
-言語パックは、Commerce Marketplaceの [ 翻訳とローカライゼーション ][1]{:target=&quot;_blank&quot;} にあります。 新しい拡張機能が Marketplace に継続的に追加されるので、頻繁に確認してください。
+言語パックは、Commerce Marketplaceの [ 翻訳とローカライゼーション ][1]{:target="_blank"} にあります。 新しい拡張機能が Marketplace に継続的に追加されるので、頻繁に確認してください。
 
 ## 手順 1：言語パックをインストールする
 
@@ -46,11 +46,9 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 左上隅で、設定を適用する特定のビューに **[!UICONTROL Store View]** を設定します。
+1. **[!UICONTROL Scope]** ドロップダウンで、設定するストア表示を選択し、プロンプトが表示されたら「**[!UICONTROL OK]**」をクリックします。
 
-1. 範囲の切り替えを確認するプロンプトが表示されたら、「**[!UICONTROL OK]**」をクリックします。
-
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Locale Options]**」セクションを展開します。
+1. *[!UICONTROL General]* 設定ページで、「拡張セレクター ![ の「**[!UICONTROL Locale Options]**」セクション ](../assets/icon-display-expand.png) 展開します。
 
 1. 「**[!UICONTROL Use Website]**」チェックボックスをオフにして、ビューに割り当てる言語に **[!UICONTROL Locale]** を設定します。
 
@@ -58,7 +56,7 @@ ht-degree: 0%
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
-   ロケールの言語を変更した後、製品名と説明、カテゴリ、[CMS](../content-design/page-translate.md) ページ、ブロックなど、作成した残りのコンテンツを、ストア表示ごとに個別に翻訳する必要があります。
+   ロケールの言語を変更した後、商品名と説明、カテゴリ、[CMS](../content-design/page-translate.md) ページ、ブロックなど、作成した残りのコンテンツを、ストアビューごとに個別に翻訳する必要があります。
 
 ## 製品をローカライズ
 
