@@ -4,9 +4,9 @@ description: 会社ユーザーアカウントと、関連する会社アカウ�
 exl-id: 36b55f61-e579-4eb8-8f67-0156221d378e
 feature: B2B, Companies, User Account, Storefront
 role: Admin, User
-source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
+source-git-commit: 9c16d7a3909598328cc42bbcbf39fc14ae6a9eb9
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
    - 残りのフィールドにユーザー情報を追加します。
       - **[!UICONTROL First Name]** と **[!UICONTROL Last Name]**
       - **[!UICONTROL Email]**
-      - **[!UICONTROL Phone Number]**
+      - **[!UICONTROL Work Phone Number]**
 
    デフォルトでは、アカウントの **[!UICONTROL Status]** は `Active` です。
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->会社のユーザーアカウントを編集した際、プロファイルに役職や電話番号などの必須のアカウント情報が欠落していることがわかった場合は、そのアカウントがCommerce サイト管理者によって追加されたことを示します。 これらのアカウントは、ストアフロントから編集できません。 情報を更新したり、アカウントの状態を変更したりするには、サイト管理者に問い合わせてください。
+>会社のユーザーアカウントを編集した際に、プロファイルに役職や勤務先電話番号などの必須のアカウント情報が欠落していることがわかった場合は、そのアカウントがCommerce サイト管理者によって追加されたことを示します。 これらのアカウントは、ストアフロントから編集できません。 情報を更新したり、アカウントの状態を変更したりするには、サイト管理者に問い合わせてください。
 
 ### アクティブなアカウントの非アクティブ化または削除
 
@@ -120,13 +120,13 @@ ht-degree: 0%
 ## 会社ユーザーアカウントのプロファイルフィールドの説明
 
 | フィールド | 説明 |
-|--------------|---------------|
+|--------------------------------|---------------|
 | [!UICONTROL Job Title] | 会社ユーザーの役職。 |
 | [!UICONTROL User Role] | 会社ユーザーに割り当てられた [ 役割 ](account-company-roles-permissions.md)。 オプション：`Default User` / （その他の役割） |
 | [!UICONTROL First Name] | 会社ユーザーの名。 |
 | [!UICONTROL Last Name] | 会社ユーザーの姓。 |
 | [!UICONTROL Email] | 会社ユーザーの電子メールアドレス。 |
-| [!UICONTROL Phone Number] | 会社ユーザーの電話番号。 |
+| [!UICONTROL Work Phone Number] | 会社ユーザーの仕事用電話番号。 |
 | [!UICONTROL Status] | 会社ユーザーアカウントのステータス。 オプション：`Active` / `Inactive` |
 
 {style="table-layout:auto"}

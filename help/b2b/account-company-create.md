@@ -4,9 +4,9 @@ description: Adobe Commerce Admin での会社アカウントの作成と、ス�
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 30c988ac7d4108ae85980498472d96363107212c
+source-git-commit: 5312aa3f483399ecc4e9491b39f8300d8616e9e5
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1762'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,7 @@ ht-degree: 0%
    - 必要に応じて、次のフィールドに入力します。
 
       - **[!UICONTROL Job Title]**
+      - **[!UICONTROL Work Phone Number]**
       - **[!UICONTROL Gender]**
 
    ![ 会社管理者 ](./assets/company-administrator-account-storefront.png)
@@ -142,6 +143,7 @@ ht-degree: 0%
 
       - **[!UICONTROL Website]**
       - **[!UICONTROL Job Title]**
+      - **[!UICONTROL Work Phone Number]**
       - **[!UICONTROL Gender]**
       - **[!UICONTROL Send Welcome Email From]**
 
@@ -265,6 +267,7 @@ ht-degree: 0%
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website] | 会社管理者が属する web サイトを決定します。 |
 | [!UICONTROL Job Title] | 会社アカウントを管理する会社管理者の役職。 |
+| [!UICONTROL Work Phone Number] | 会社アカウントを管理する会社管理者の電話番号。 |
 | [!UICONTROL Email] | 会社の管理者のメールアドレスは、会社のメールアドレスと同じにすることができます。 別のメールアドレスを入力した場合は、会社アカウントに加えて、会社管理者用に個別のアカウントが作成されます。 |
 | [!UICONTROL Prefix] | 該当する場合、会社管理者の名前に関連付けられたプレフィックス （`Mr.`、`Ms.`、`Mrs.`、`Dr.` など）。 設定に応じて、入力フィールドはテキストフィールドまたはリストになります。 |
 | [!UICONTROL First Name] | 会社の管理者の名。 |
