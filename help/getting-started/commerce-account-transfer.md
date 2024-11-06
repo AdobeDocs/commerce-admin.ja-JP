@@ -3,9 +3,9 @@ title: Commerce アカウントの転送
 description: Commerce アカウントを別の所有者またはメールアドレスに転送する方法について説明します。
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 5c7fbeaa0f09cb106c3105e3c36871df7e1bc368
+source-git-commit: 00994f506056bf5504df758a44a7cd56f590750d
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -31,10 +31,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Adobe Commerceは他のAdobeソリューションとの統合を続けるため、Commerce アカウント（MAGEID）にはAdobeログインとの関連付けが必要になりました。 このAdobe IDは、Commerce アカウントに接続されているのと同じメールアドレスを使用します。
-
->[!NOTE]
->
->現在または新しいオーナーが、他のAdobeの製品やサービスに関連付けられているAdobeログインアカウントを持っている場合は、[ サポートチケット ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) を開いて、Commerce アカウントを別のAdobe IDに転送する方法を参照できます。
 
 ## 新しいAdobe IDとメールの変更
 
