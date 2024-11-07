@@ -3,9 +3,9 @@ title: Commerce アカウントの転送
 description: Commerce アカウントを別の所有者またはメールアドレスに転送する方法について説明します。
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 00994f506056bf5504df758a44a7cd56f590750d
+source-git-commit: 89637c8f2c4ff725499c27ebe0feb91bf3f9a0ef
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -158,6 +158,6 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Verify]**」をクリックします。
 
-1. **サポートリクエストを送信** して、アカウント所有者のメールアドレスを更新したことをサポートチームに通知します。 リクエストには、以前のアカウント所有者のメールアドレスを含めます。
-
-[Commerce Marketplace](https://commercemarketplace.adobe.com/) プロファイルのメールアドレスの更新など、サポートで実行する手順があります。
+>[!IMPORTANT]
+>
+>サポートリクエストを送信して、アカウント所有者のメールアドレスが更新されたことをサポートチームに通知します。 更新を完了するには、[Commerce Marketplace](https://commercemarketplace.adobe.com/) プロファイルのメールアドレスの更新など、さらに手順を実行する必要があります。 リクエストには、以前のアカウント所有者のメールアドレスを含めます。
