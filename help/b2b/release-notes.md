@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] リリースノート'
 description: リリースの変更点について詳しくは、リリースノート  [!DNL Adobe Commerce B2B]  参照してください。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: b3892e2b34aae1579472f3562e479267cca2dce3
+source-git-commit: ad2acb61acc3e7ace3421f51987939394f5d8cbe
 workflow-type: tm+mt
-source-wordcount: '7776'
+source-wordcount: '7801'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ B2BAdobeのこれらのリリースノートでは、拡張機能がリリース
 Adobe Commerce バージョン 2.4.8-beta1、2.4.7 ～ 2.4.7-p2、2.4.6 ～ 2.4.6-p7 と互換性あり
 
 B2B v1.5.0 リリースには、新機能、品質の改善、バグ修正が含まれています。
+
+>[!NOTE]
+>
+> 「[ 後方互換性のない変更 ](backward-incompatible-changes.md)」トピックのハイライトと参照情報を確認して、B2B 1.5.0 リリースで導入された後方互換性のない変更（BIC）について説明します。
 
 ### 会社管理
 
