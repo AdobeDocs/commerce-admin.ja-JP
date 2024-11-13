@@ -3,16 +3,16 @@ title: メールテンプレートのカスタマイズ
 description: 各 web サイト、ストア、ストア表示のメールテンプレートをカスタマイズする方法を説明します。
 exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 feature: Communications, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
 
 # メールテンプレートのカスタマイズ
 
-Commerceには、システムから送信される各メッセージの本文セクション用のデフォルトのメールテンプレートが含まれています。 本文コンテンツのテンプレートは、ヘッダーテンプレートおよびフッターテンプレートと組み合わせて、完全なメッセージを作成します。 コンテンツはHTMLと CSS を使用して書式設定され、[variables](variables-predefined.md) と [widgets](../content-design/widgets.md) を追加して簡単に編集およびカスタマイズできます。 メールテンプレートは、web サイト、ストアまたはストア表示ごとにカスタマイズできます。 カスタムテンプレートを使用する場合、必ず [ システム設定 ](email-templates.md#configure-email-templates) を更新して、正しいテンプレートが使用されていることを確認します。
+Commerceには、システムから送信される各メッセージの本文セクション用のデフォルトのメールテンプレートが含まれています。 本文コンテンツのテンプレートは、ヘッダーテンプレートおよびフッターテンプレートと組み合わせて、完全なメッセージを作成します。 コンテンツはHTMLと CSS で書式設定されており、[variables](variables-predefined.md) を追加することで、簡単に編集およびカスタマイズできます。 メールテンプレートは、web サイト、ストアまたはストア表示ごとにカスタマイズできます。 カスタムテンプレートを使用する場合、必ず [ システム設定 ](email-templates.md#configure-email-templates) を更新して、正しいテンプレートが使用されていることを確認します。 メールテンプレートのカスタマイズで条件文を使用する方法については、[ 開発者ドキュメント ](https://developer.adobe.com/commerce/frontend-core/guide/templates/email/#theme-based-customizations-1) を参照してください。
 
 ![ 例 – ウェルカムメールのプレビュー ](./assets/email-template-preview.png){width="500" zoomable="yes"}
 

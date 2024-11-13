@@ -3,9 +3,9 @@ title: PayPal Payflow Pro
 description: ストアでオンライン支払いソリューションとして PayPal Payflow Pro を設定する方法を説明します。
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2194'
 ht-degree: 0%
 
 ---
@@ -136,8 +136,8 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
 1. PayPal マーチャントアカウントへのログインに使用する次の資格情報のいずれかを入力します。
 
    - **[!UICONTROL Partner]** - PayPal パートナー ID。
-   - **[!UICONTROL User]** - PayPal アカウントで設定されている別のユーザーの ID。
-   - **[!UICONTROL Vendor]** - PayPal ユーザーのログイン名。
+   - **[!UICONTROL User]** - アカウントに 1 人以上の追加ユーザーを設定する場合、この値は、トランザクションを処理する権限のあるユーザーの ID になります。 ただし、追加のユーザーを設定していない場合、**[!UICONTROL USER]** は **[!UICONTROL Vendor]** と同じ値を持ちます。
+   - **[!UICONTROL Vendor]** - アカウントへの登録時に作成されたマーチャントログイン ID。
 
 1. PayPal アカウントに関連付けられている **[!UICONTROL Password]** を入力します。
 
