@@ -3,7 +3,7 @@ title: ユーザーの役割
 description: ユーザーの役割および関連する権限を作成して、管理機能へのアクセスを管理する方法について説明します。
 exl-id: a70f74d4-72b4-4639-a67d-9fc13df65924
 feature: Admin Workspace, Roles/Permissions, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 0%
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 ユーザーの役割の管理については、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
 
 ## 役割リソース
 

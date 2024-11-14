@@ -3,7 +3,7 @@ title: カタログ価格ルールの作成
 description: 一連の条件が満たされた場合に特定の製品に割引を適用するカタログ価格ルールを作成する方法を説明します。
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 0f26e981a1ba5bffb1acdeeb4320415772826aba
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 0%
@@ -224,7 +224,7 @@ ht-degree: 0%
 
 カタログ価格ルールの作成については、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## フィールドの説明
 

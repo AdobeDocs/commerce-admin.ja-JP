@@ -3,7 +3,7 @@ title: 税務処理基準
 description: 製品区分、顧客区分および税率を使用して税務処理基準を定義する方法を説明します。
 exl-id: 38d65998-7769-49ce-9814-e65df9d77bba
 feature: Taxes, Currency
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -96,4 +96,4 @@ ht-degree: 0%
 
 次のビデオを視聴して、通貨と税金ルールの管理について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)

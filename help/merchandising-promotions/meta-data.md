@@ -3,7 +3,7 @@ title: メタデータ
 description: 検索エンジンによるCommerce サイトのインデックス作成方法を改善するために、キーワードの多いメタデータを入力する方法について説明します。
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
@@ -93,6 +93,6 @@ URL からカテゴリを省略するか、正規のメタタグを使用して�
 
 SEO メタデータの管理については、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
 
 [1]: https://schema.org/

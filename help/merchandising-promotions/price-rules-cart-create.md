@@ -3,7 +3,7 @@ title: 買い物かご価格ルールの作成
 description: 買い物かごまたは製品属性に基づいて買い物かごの価格ルールを作成する方法を説明します。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 83f341c59ab9517a076eaaba71f4988e21abf826
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '3386'
 ht-degree: 0%
@@ -334,7 +334,7 @@ Real-Time CDP[ オーディエンス ](../customers/audience-activation.md) に�
 
 買い物かご価格ルールの作成については、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
 
 ## フィールドの説明
 

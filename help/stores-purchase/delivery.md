@@ -3,9 +3,9 @@ title: 発送および配信
 description: 顧客に提供できる様々な配信方法および配送業者のサポートについて説明します。
 exl-id: 79fce11c-d45d-4176-94ac-80261c65b7ad
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Temando のシャットダウンにより、[!DNL Magento Shipping] のサポートは 2.4.0 で削除されました。Commerceの新しい出荷実装に関するステータス情報と推奨事項について詳しくは、{product information](https://business.adobe.com/products/magento/shipping.html){:target=&quot;_blank&quot;} のページを参照してください [
+>Temando のシャットダウンにより、[!DNL Magento Shipping] のサポートは 2.4.0 で削除されました。Commerceの新しい出荷実装に関するステータス情報および推奨事項について詳しくは、[product information](https://business.adobe.com/products/magento/shipping.html){:target="_blank"} ページを参照してください。
 
 ## 基本的な配信方法
 
@@ -40,4 +40,4 @@ Adobe CommerceとMagento Open Sourceは、幅広い配信方法と配送業者�
 
 配送および配信方法については、次のビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)

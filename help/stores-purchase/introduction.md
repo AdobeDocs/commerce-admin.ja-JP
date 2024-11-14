@@ -2,7 +2,7 @@
 title: ストアと購入体験の概要
 description: オンラインストアの構築と管理に使用する機能と、顧客の購入体験について説明します。
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Adobe CommerceとMagento Open Sourceは、注文が送信される前に SKU と
 
 次のビデオで、販売者支援による買い物について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
 
 ## オーダー管理と運用
 

@@ -3,7 +3,7 @@ title: ' [!DNL Media Gallery]'
 description: メディア ギャラリーを使用して、サーバー上のメディア ファイルを整理および管理します。
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -64,13 +64,13 @@ Adobe CommerceまたはMagento Open Source 2.4 では、マーチャントは新
 
      ![ 画像をステージにドラッグ ](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
 
-   - [WYSIWYG エディターを有効 ](/help/content-design/editor.md) にしている場合は、「**[!UICONTROL Show/Hide Editor]**」をクリックし、「**[!UICONTROL Insert Image]**」をクリックします。
+   - [WYSIWYG Editor を有効にしている場合は ](/help/content-design/editor.md)[**[!UICONTROL Show/Hide Editor]**]、[**[!UICONTROL Insert Image]**] の順にクリックします。
 
 ## [!DNL Media Gallery] デモ
 
 [!DNL Media Gallery] について詳しくは、次のビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
 
 [adobe-stock]: https://stock.adobe.com
 

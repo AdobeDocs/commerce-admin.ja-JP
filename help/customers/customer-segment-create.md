@@ -3,7 +3,7 @@ title: 顧客セグメントの作成および削除
 description: お客様は、注文に関連する払い戻し情報を顧客アカウントダッシュボードで確認できます。
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
-source-git-commit: 8d5cd6fa586feb5e44819755245814bff7678d34
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 0%
@@ -196,4 +196,4 @@ _**[!UICONTROL Matched Customers]グリッド&#x200B;**_
 
 顧客セグメントの作成に関するデモについては、このビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)

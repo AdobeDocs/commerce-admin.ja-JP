@@ -4,7 +4,7 @@ description: 発注書の承認ルールと、会社の管理者がストアフ�
 exl-id: e8d8bbc9-41cf-4024-85cc-92f0b0ce32d6
 feature: B2B, Companies, Configuration
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 0%
@@ -150,4 +150,4 @@ B2B の顧客は、必要な [ 自分の役割の権限 ](account-company-roles-
 
 発注書の承認について詳しくは、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12&learn=on)
