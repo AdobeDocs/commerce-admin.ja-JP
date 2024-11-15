@@ -3,9 +3,9 @@ title: Cookie 法への準拠
 description: Cookie の使用に関する多くの国の法律に対応するために、Adobe CommerceとMagento Open Sourceでは、マーチャントに対して、お客様の同意を得るための選択肢を提供しています。
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: ae43d97bb3031a06ce6a0211ee304aae53e4eb08
+source-git-commit: 04e8fe7cf303f434bab748df447eef8ac1097196
 workflow-type: tm+mt
-source-wordcount: '2105'
+source-wordcount: '1825'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,6 @@ Cookie は、サイトへの各訪問者のコンピューターに保存され�
 >[!NOTE]
 >
 >[EU 一般データ保護規則 ](compliance-gdpr.md) に準拠するためにデフォルトの ](../merchandising-promotions/google-tools.md#google-privacy-settings)0}Google プライバシー設定 } を変更する場合、Google Analytics Cookie の使用に関するユーザーの同意を得る必要はありません。[
-
-## 方法 1：暗黙の同意
-
-黙示的な同意とは、ストアの訪問者が、Cookie が操作に必要な部分であることを明確に理解し、サイトを使用することで、それらを使用する権限を間接的に付与していることを意味します。 暗黙の同意を得るための鍵は、訪問者が十分な情報に基づいた意思決定をおこなうための十分な情報を提供することです。 多くのストアでは、すべての標準ページの上部にメッセージが表示され、ストアのプライバシーポリシーへのリンクとともに、cookie の使用方法の概要が表示されます。 プライバシーポリシーには、ストアが収集する情報の種類と使用方法を記述する必要があります。
-
-## 方法 2：同意の表明
-
-ストアを _cookie 制限モード_ で操作するには、訪問者は、cookie をコンピューターに保存する前に同意を表明する必要があります。 同意が得られない限り、ストアの多くの機能は使用できません。 例えば、ストアでGoogle Analyticsが使用可能な場合、訪問者が Cookie の使用権限を付与した後にのみ呼び出すことができます。
 
 ## cookie 制限モード
 
@@ -62,7 +54,7 @@ cookie 制限モードが有効になっている場合、ストアを訪問し�
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
-1. キャッシュを更新するように求められたら、システムメッセージの **[!UICONTROL Cache Management]** リンクをクリックします。 次に、無効な各キャッシュを更新します。
+1. キャッシュを更新するように求められたら、システムメッセージの **[!UICONTROL Cache Management]** リンクをクリックして、無効な各キャッシュを更新します。
 
 ### 手順 2：プライバシーポリシーを更新する
 
@@ -72,264 +64,157 @@ cookie 制限モードが有効になっている場合、ストアを訪問し�
 
 Adobe CommerceとMagento Open Sourceのデフォルトの Cookie は、マーチャントが [GDPR](compliance-gdpr.md) などのプライバシー規制の要件を満たすのに役立つように、免除/非免除に分類されています。 マーチャントは、この情報を参考にして、法的アドバイザーに相談して、包括的なプライバシー規制コンプライアンス戦略の一環としてプライバシーと Cookie ポリシーを更新する必要があります。
 
-次の Cookie は [!DNL Commerce] オンプレミスおよびクラウドのインストール用に「標準」で使用されます。 これらの Cookie は、お客様から明示的にリクエストされた機能で必要になる場合があります。 セッション Cookie の有効期間については、[ セッションの有効期間 ](../customers/customer-online-options.md) を参照してください。
+次の Cookie は [!DNL Commerce] オンプレミスおよびクラウドのインストール用に「標準」で使用されます。 これらの Cookie は、お客様から明示的にリクエストされた機能で必要になる場合があります。 セッション Cookie の有効期間について詳しくは、[ セッションの有効期間 ](../customers/customer-online-options.md) を参照してください。
 
 これらの Cookie の一部では、必要に応じて、有効/無効を含む設定オプションが提供される場合があります。
 
 ### リクエストされた機能の Cookie （除外）
 
-
 #### `add_to_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）Google Tag Manager で使用されます。 買い物かごから削除された製品 SKU、名前、価格、数量をキャプチャし、サードパーティスクリプトによって今後の統合で情報を利用できるようにします。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）買い物かごから削除された商品 SKU、名前、価格および数量をキャプチャします。 商品が買い物かごに追加された日時をGoogle Analyticsが把握できます。
 
 #### `guest-view`
 
-ゲストの買い物客が注文ステータスを取得するために使用する注文 ID を格納します。 ゲスト注文表示。 _[!DNL Orders and Returns]_ウィジェットで使用されます。
-
-- 安全ですか？ 不可
-- HTTP のみ：はい
-- 有効期限ポリシー：セッション
-- モジュール：`Magento_Sales`
+ゲストのアカウントがないため、ゲストの注文をゲストにリンクします。
 
 #### `login_redirect`
 
-顧客がログインを指示される前に読み込まれていた宛先ページを保持します。 ログイン リダイレクトは、[ ミニ カートを表示 [] 構成オプションが `Yes` に設定されている場合に、ログインしている顧客のミニ カート ](../stores-purchase/cart-configuration.md#mini-cart) 使用されます。
-
-- 安全ですか？ 不可
-- HTTP のみ：いいえ
-- 有効期限ポリシー：セッション
-- モジュール：`Magento_Customer`
+ログインとユーザー登録に成功した場合に、ユーザーをルーティングするリダイレクト URL を保存します。 ログイン前にユーザーがいたページを保存します（ログイン後に戻る場所を判断するために）。
 
 #### `mage-banners-cache-storage`
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）パフォーマンスを向上させるために、バナーコンテンツをローカルに保存します。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）パフォーマンスを向上させるために、バナーコンテンツをローカルに保存します。 バナーコンテンツとは、マーチャントが web サイトに表示する任意のコンテンツです。
 
 #### `mage-messages`
 
-Cookie 同意メッセージ、様々なエラーメッセージなど、ユーザーに表示されるエラーメッセージやその他の通知をトラッキングします。 メッセージは、買い物客に表示された後、Cookie から削除されます。
-
-この cookie を無効にするオプションはありません。
-
-- 安全ですか？ 不可
-- HTTP のみ：いいえ
-- 有効期限ポリシー：期間 1 年。 メッセージがユーザーに表示される際に、フロントエンドでクリアされます。
-- モジュール：`Magento_Theme`
-
-#### `mage-translation-storage` （ローカルストレージ）
-
-買い物客からリクエストされた際に、翻訳済みコンテンツを格納します。 [ 翻訳戦略 ](../configuration-reference/advanced/developer.md) が「辞書（ストアフロント側での翻訳）」として設定されている場合に使用します。
-
-- 安全ですか？ 不可
-- HTTP のみ：いいえ
-- 有効期限ポリシー：ローカルストレージルールごと
-- モジュール：`Magento_Translation`
-
-#### `mage-translation-file-version` （ローカルストレージ）
-
-ローカルストレージ内の翻訳のバージョンをトラッキングします。 [ 翻訳戦略 ](../configuration-reference/advanced/developer.md) が `Dictionary (Translation on Storefront side)` として設定されている場合に使用されます。
-
-- 安全ですか？ 不可
-- HTTP のみ：いいえ
-- 有効期限ポリシー：ローカルストレージルールごと
-- モジュール：`Magento_Translation`
+Cookie 同意メッセージ、様々なエラーメッセージなど、ユーザーに表示されるエラーメッセージやその他の通知をトラッキングします。 メッセージは、買い物客に表示された後、Cookie から削除されます。 この cookie を無効にするオプションはありません。 エラーメッセージなど、1 回限りの情報がユーザーに伝わる方法です。
 
 #### `product_data_storage` （ローカルストレージ）
 
-最近閲覧/比較された製品に関連する製品データの設定を保存します。
-
-- 安全ですか？ 不可
-- HTTP のみ：いいえ
-- 有効期限ポリシー：ローカルストレージルールごと
-- モジュール：`Magento_Catalog`
+「最近閲覧された」関数および「製品を比較」関数を使用するために使用される製品データの設定を格納します。 ユーザーの特定の設定を格納します（例えば、ユーザーが最近製品を閲覧したり、製品を比較した場合）。
 
 #### `recently_compared_product` （ローカルストレージ）
 
 最近比較した製品の製品 ID を格納します。
 
-- 安全ですか？ 不可
-- HTTP のみ：いいえ
-- 有効期限ポリシー：ローカルストレージルールごと
-- モジュール：`Magento_Catalog`
-
 #### `recently_compared_product_previous` （ローカルストレージ）
 
 前に比較した製品の製品 ID を保存してナビゲーションを容易にします。
-
-- 安全ですか？ 不可
-- HTTP のみ：いいえ
-- 有効期限ポリシー：ローカルストレージルールごと
-- モジュール：`Magento_Catalog`
 
 #### `recently_viewed_product` （ローカルストレージ）
 
 最近閲覧した製品の製品 ID を保存して、ナビゲーションを簡単にします。
 
-- 安全ですか？ 不可
-- HTTP のみ：いいえ
-- 有効期限ポリシー：ローカルストレージルールごと
-- モジュール：`Magento_Catalog`
-
 #### `recently_viewed_product_previous` （ローカルストレージ）
 
 最近閲覧した製品の製品 ID を保存して、ナビゲーションを簡単にします。
 
-- 安全ですか？ 不可
-- HTTP のみ：いいえ
-- 有効期限ポリシー：ローカルストレージルールごと
-- モジュール：`Magento_Catalog`
-
 #### `remove_from_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [Google Tag Manager が使用 ](../merchandising-promotions/google-tag-manager.md)。 買い物かごに追加された製品 SKU、名前、価格、数量をキャプチャし、サードパーティスクリプトによって今後の統合で情報を利用できるようにします。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）商品が買い物かごから削除された日時をGoogle Analyticsが把握できます。
 
 #### `stf`
 
-SendFriend （[Email a Friend](../stores-purchase/email-a-friend.md)） モジュールによってメッセージが送信された時間を記録します。
-
-- 安全ですか？ はい
-- HTTP のみ：はい
-- 有効期限ポリシー：セッション
-- モジュール：`Magento_SendFriend`
+SendFriend （[Email a Friend](../stores-purchase/email-a-friend.md)） モジュールによってメッセージが送信された時間を記録します。 買い物客が製品にリンクを送信すると、この cookie はタイムスタンプを記録し、カウントを保持します。
 
 #### `X-Magento-Vary`
 
-Varnish 静的コンテンツ キャッシュを使用する際のパフォーマンスを向上させる構成設定。
-
-- 安全ですか？ はい
-- HTTP のみ：はい
-- 有効期限ポリシー：PHP の session.cookie_lifetime 設定に基づく
-- モジュール：`Magento_PageCache`
+新しいバージョンのページをキャッシュから提供する必要がある場合に指定します。 Web サイトのパフォーマンスをサポートします。
 
 #### `form_key`
 
-すべてのフォーム送信にランダムな文字列を追加して、クロスサイトリクエストフォージェリ（CSRF）からデータを保護するセキュリティ対策。
-
-- 安全ですか？ 不可
-- HTTP のみ：いいえ
-- 有効期限ポリシー：
-   - PHP: session.cookie_lifetime の設定に基づく
-   - JS:Session
-- モジュール：ページキャッシュ
+要求が正規の発信元によるものか不正なアクターによるものかを判断するために役立つことで、クロスサイト要求偽造攻撃（CSRF）を防ぐためにランダムに生成された値を保持するセキュリティ メカニズム。 これは、CSRF 攻撃を防ぐための業界標準の手法です。
 
 #### `mage-cache-sessid`
 
-この cookie の値は、ローカルキャッシュストレージのクリーンアップをトリガーします。 Cookie がバックエンドアプリケーションによって削除されると、管理者はローカルストレージをクリーンアップし、cookie の値を `true` に設定します。
-
-- 安全ですか？ 不可
-- HTTP のみ：いいえ
-- 有効期限ポリシー：セッション
-- モジュール：`Magento_Customer`
+セッションの有効期限が切れた後、ブラウザーでローカルストレージをクリーンアップするタイミングを決定する際に役立ちます。 これは、ローカルストレージをクリーンアップする必要があるかどうかを判断するために使用されます。 この cookie がないと、ローカルストレージのクリーンアップがトリガーされます。
 
 #### `mage-cache-storage`
 
-e コマース機能を有効にする訪問者固有のコンテンツのローカルストレージ。
+e コマース機能を有効にする訪問者固有のコンテンツのローカルストレージ。 デフォルトでは未使用ですが、使用すると、チェックアウトを迅速化するために使用されるので、ユーザーが移動して戻ったときに基本的なユーザー情報を利用できます。
 
-- 安全ですか？ 不可
-- HTTP のみ：いいえ
-- 有効期限ポリシー：セッション
-- モジュール：`Magento_Customer`、`Magento_Persistent`
+#### `mage-cache-storage-section-invalidation`
 
-#### `mage-cache-storage` （ローカルストレージ）
-
-e コマース機能を有効にする訪問者固有のコンテンツのローカルストレージ。
-
-- 安全ですか？ 不可
-- HTTP のみ：いいえ
-- 有効期限ポリシー：セッション
-- モジュール：`Magento_Customer`、`Magento_Persistent`、`Magento_NegotiableQuote`
-
-#### `mage-cache-storage-section-invalidation` （ローカルストレージ）
-
-無効化する必要がある特定のコンテンツセクションのローカルストレージを強制します。
-
-- 安全ですか？ 不可
-- HTTP のみ：いいえ
-- 有効期限ポリシー：ローカルストレージあたり
-- モジュール：`Magento_Customer`
+無効化および削除する必要があるページのセクションに関連する情報を格納します。
 
 #### `persistent_shopping_cart`
 
-永続的な買い物かごのキー（ID）を格納して、匿名の買い物客に買い物かごを復元できるようにします。
-
-- 安全ですか？ はい
-- HTTP のみ：はい
-- 有効期限ポリシー：[ 永続的な買い物かご ](../stores-purchase/cart-persistent.md) – 永続有効期間（秒）の設定に基づいています
-- モジュール：`Magento_Persistent`
+永続的な買い物かごのキー ID を格納して、匿名の買い物客が買い物かごを復元できるようにします。
 
 #### `private_content_version`
 
-顧客コンテンツを含んだページにランダムな一意の番号と時間を追加して、ページがサーバー上にキャッシュされないようにします。
-
-PHP では、JavaScript as a cookie で、JavaScriptでは、ローカルストレージに対して、複数の場所で設定されます。
-
-HTTP のみ=`Yes` （リクエストに基づく）の場合、Cookie は HTTPS リクエストの最中に設定されると保護され、HTTP リクエストの最中に設定されると保護されません。
-
-- 安全ですか？ `Yes` （リクエストに基づく）、`No`
-- HTTP のみ：`No`
-- 有効期限ポリシー：[ 永続的な買い物かご ](../stores-purchase/cart-persistent.md) – 永続有効期間（秒）の設定に基づいています
-   - PHP: `1` 年/`315360000s` （10 年）
-   - JS:`1` 日
-   - JS ローカルストレージ：ローカルストレージルールごと（永続的）
-- モジュール：`Magento_PageCache`、`Magento_Customer`
+顧客コンテンツを含んだページにランダムな一意の番号と時間を追加して、ページがサーバー上にキャッシュされないようにします。 PHP では、JavaScript as a cookie で、JavaScriptでは、ローカルストレージに対して、複数の場所で設定されます。
 
 #### `section_data_ids`
 
 買い物客が開始したアクションに関連する、顧客固有の情報を格納します（ウィッシュリストの表示やチェックアウト情報など）。
 
-- 安全ですか？`No`
-- HTTP のみ：`No`
-- 有効期限ポリシー：`Session`
-- モジュール：`Magento_Customer`
-
 #### `store`
 
-買い物客が選択した特定のストア表示/ロケールをトラッキングします。
+買い物客が選択した特定のストアの表示/ロケールをトラッキングします。
 
-- 安全ですか？`No`
-- HTTP のみ：`Yes`
-- 有効期限ポリシー：`1` 年
-- モジュール：`Magento_Store`
+#### `mage-banners-cache-storage`
 
-#### `mage-banners-cache-storage` - ローカルストレージ
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）バナー機能用のローカルストレージ。 バナーとは、一般的な web サイトアセットや、買い物客に表示される情報を意味します。
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）バナー機能用のローカルストレージ。
+#### `PHPSESSID`
 
-- 安全ですか？`No`
-- HTTP のみ：`No`
-- 有効期限ポリシー：ローカルストレージルールごと
-- モジュール：`Magento_Banner`
+ストアフロントでのユーザーセッションをトラッキングします。 これは、最終製品を使用する買い物客です。
 
-## Google Analyticsの cookie
+#### `admin`
 
-次の Cookie は、[Google Analytics](../merchandising-promotions/google-analytics.md) またはGoogle Universal Analytics がインストールで完全に有効な場合に使用されます。 プライバシー規制に準拠するためにこれらの Cookie を無効にするには、[Google プライバシー設定 ](../merchandising-promotions/google-tools.md#google-privacy-settings) を参照してください。 詳しくは、[Web サイトでのGoogle Analytics cookie の使用 ][1] を参照してください。
+管理者側のユーザーセッションをトラッキングします。
 
-### Google Universal Analytics の Cookie – 適用除外なし
+#### `loggedOutReasonCode`
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）JavaScript ライブラリ：`gtag.js` および `analytics.js`
+管理者ユーザーが一定回数パスワードの試行に失敗した後でロックアウトされる際に設定します。
 
-- `_ga`：サイトへの訪問者を区別します。
-- `_gid`：サイトへの訪問者を区別します。
-- `gat`：リクエスト率のスロットルに使用されます。
-- `dc_gtm_<property-id>`: [Google Tag Manager](../merchandising-promotions/google-tag-manager.md) でGoogle Analyticsがデプロイされる際のリクエスト率を調整します。
-- `AMP_TOKEN`:AMP Client ID サービスからクライアント ID を取得するために使用できるトークンが含まれています。 その他の使用可能な値には、オプトアウト、実行中のリクエスト、AMP Client ID サービスからのクライアント ID の取得エラーなどがあります。
-- `_gac_<property-id>`：ユーザーのキャンペーン関連の情報が含まれます。 Google AdWords コンバージョンタグは、Google Analyticsが [AdWords][2] アカウントにリンクされている場合にこの cookie を読み取ります。
+#### `section_data_clean`
 
-### Google Analyticsの Cookie – 適用除外なし
+ユーザーがストア表示を切り替えたときに設定します。 この cookie が存在する場合、JavaScriptはページの特定のセクションを再読み込みして、正しいストア表示を反映させるトリガーがあります。
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）JavaScript ライブラリ：`ga.js`
+#### `lang`
 
-- `__utma`：買い物客とセッションを区別します。 この cookie は、JavaScript ライブラリの実行時に作成され、`__utma` の Cookie が存在しません。 cookie は、データがGoogle Analyticsに送信されるたびに更新されます。
-- `__utmt`：リクエスト率のスロットルに使用されます。
-- `__utmb`：新規セッション/訪問回数を決定します。 この cookie は、JavaScript ライブラリの実行時に作成され、`__utmb` の Cookie が存在しません。 cookie は、データがGoogle Analyticsに送信されるたびに更新されます。
-- `_utmz`：買い物客がサイトに到達した方法を説明するトラフィックソースまたはキャンペーンを保存します。 この cookie はJavaScript ライブラリの実行時に作成され、Google Analyticsにデータが送信されるたびに更新されます。
-- `__utmv`：訪問者レベルのカスタム変数データを格納します。 この cookie は、開発者が訪問者レベルのカスタム変数で `_setCustomVar` メソッドを使用すると作成されます。 この cookie はGoogle Analyticsにデータが送信されるたびに更新されます。
+Admin Analytics モジュールによって間接的に設定されます。 店舗の管理区域内でのみ使用すること。 買い物客には適用されません。
+
+#### `s_fid`
+
+Admin Analytics モジュールによって間接的に設定されます。 フォールバックのユニーク訪問者 ID の時刻/日付スタンプ。 サードパーティ cookie の制限が原因で標準 `s_vi` cookie が使用できない場合に、ユニーク訪問者を識別するために使用されます。 店舗の管理区域内でのみ使用すること。 買い物客には適用されません。
+
+#### `s_cc`
+
+Admin Analytics モジュールによって間接的に設定されます。 cookie が有効になっているかどうかを判断するために、JavaScript コードによって設定され、読み取られます。 店舗の管理区域内でのみ使用すること。 買い物客には適用されません。
+
+#### `apt.sid`
+
+Admin Analytics モジュールで間接的に使用される Gainsight PX ライブラリによって設定されます。 この cookie の目的は、製品のトップレベルドメインで永続的なセッション ID のトラッキングを許可し、アクティブなセッションへの参照 ID として使用することです。 店舗の管理区域内でのみ使用すること。 買い物客には適用されません。
+
+#### `apt.uid`
+
+Admin Analytics モジュールで間接的に使用される Gainsight PX ライブラリによって設定されます。 この cookie の目的は、製品のトップレベルドメインで永続的な ID のトラッキングを許可し、ユーザーエンティティへの参照 ID として使用することです。 店舗の管理区域内でのみ使用すること。 買い物客には適用されません。
+
+#### `s_sq`
+
+Admin Analytics モジュールによって間接的に設定されます。 訪問者のクリック場所とクリック内容に関するClickMapを収集するデータ機能で使用されます。 各クリックからの情報を格納します。 店舗の管理区域内でのみ使用すること。 買い物客には適用されません。
+
+#### `pagebuilder_modal_dismissed`
+
+ページビルダーモジュールで設定されます。 管理者が以前に明示的に却下した場合に、特定のアクションを開かないように管理者に確認するプロンプトを以降から表示しないようにするフラグが含まれます。 店舗の管理区域内でのみ使用すること。 買い物客には適用されません。
+
+#### `pagebuilder_template_apply_confirm`
+
+ページビルダーモジュールで設定されます。 管理者が以前に明示的に却下した場合に、特定のアクションを開かないように管理者に確認するプロンプトを以降から表示しないようにするフラグが含まれます。 店舗の管理区域内でのみ使用すること。 買い物客には適用されません。
+
+#### `accordion-{VARIABLE}-{VARIABLE}`
+
+タブ機能の実装の一部として使用されるのは、ストアの管理領域のみです。 買い物客には適用されません。
 
 ## 製品のRecommendationsの cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）次の Cookie が Product RecommendationsでAdobe Commerceのお客様向けに使用されます。 これらの Cookie は [DataServices モジュール ](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html) と共にインストールされます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）次の Cookie が Product RecommendationsでAdobe Commerceのお客様向けに使用されます。 これらの Cookie は [DataServices モジュール ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) と共にインストールされます。
 
-- `mg_dnt`：サイトで cookie の同意を管理するカスタムコードがある場合は、](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie.html)Adobe Commerce データ収集を制限 [ できます。
+- `mg_dnt`：サイトで cookie の同意を管理するカスタムコードがある場合は、](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie)Adobe Commerce データ収集を制限 [ できます。
 - `user_allowed_save_cookie`: [cookie 制限モード ](#cookie-restriction-mode) に使用されます。
 - `authentication_flag`：買い物客がサインインまたはログアウトしたかどうかを示します。 この cookie は、`dataservices_customer_id` cookie と同時に更新されます。
 - `dataservices_customer_id`：買い物客がサインインまたはログアウトしたかどうかを示します。 この cookie には、システム内の顧客の一意の ID が含まれます。
@@ -339,9 +224,9 @@ HTTP のみ=`Yes` （リクエストに基づく）の場合、Cookie は HTTPS 
 
 ## その他の cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） Adobe Commerceのお客様向けに設定されている Cookie は次のとおりです。 これらの Cookie は [DataServices モジュール ](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html) と共にインストールされます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） Adobe Commerceのお客様向けに設定されている Cookie は次のとおりです。 これらの Cookie は [DataServices モジュール ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) と共にインストールされます。
 
-- `mg`: Snowplow JavaScript トラッカーによって設定されます。 詳しくは、[Snowplow ドキュメント ](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/javascript-tracker/javascript-tracker-v3/tracker-setup/initialization-options) を参照してください。
+- `mg`: Snowplow JavaScript トラッカーによって設定されます。 詳しくは、[Snowplow ドキュメント ](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options) を参照してください。
 - `com.adobe.alloy.getTld`：現在の web ページのホスト名では、https://publicsuffix.orgで説明されているように、「パブリックサフィックス」ではない最上位のドメインになります。 基本的に、これは Cookie を受け入れられる最上位のドメインです。 この cookie は [Alloy Web SDK](https://github.com/adobe/alloy) の一部です。
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
