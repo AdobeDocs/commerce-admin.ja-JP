@@ -2,13 +2,13 @@
 title: '[!UICONTROL My Quote Templates]'
 description: ストアフロントアカウントダッシュボードで使用できる見積もりテンプレートのカスタマーエクスペリエンスについて説明します。
 feature: B2B, Companies, Quotes
-source-git-commit: c2cb4db24effa764996b0fb77fbda67727392efe
+exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
+source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
 
 ---
-
 
 # [!UICONTROL My Quote Templates]
 
@@ -114,7 +114,3 @@ ht-degree: 0%
 見積テンプレート ページで、[**[!UICONTROL Cancel Quote Template]**] をクリックします。
 
 見積テンプレートが取り消され、見積の状態が `Closed` に変わります。 クローズド引用符は、*[!UICONTROL Inactive]* の引用符のリストに残り、管理者の _[!UICONTROL Quote Templates]_グリッドにも残ります。
-
-
-
-
