@@ -3,7 +3,7 @@ title: オーダーの作成
 description: Commerce Admin で顧客の注文を作成する方法を説明します。
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Payment Services 拡張機能がインストールおよび設定されている場合に、この機能をサポートする支払方法の詳細については、[Payment Services Guide](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html) を参照してください。
+>Payment Services 拡張機能がインストールおよび設定されている場合に、この機能をサポートする支払方法の詳細については、[Payment Services Guide](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) を参照してください。
 
 ## 手順 3：注文を送信する
 

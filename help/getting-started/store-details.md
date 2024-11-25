@@ -3,9 +3,9 @@ title: ストアの詳細
 description: ストアの基本情報を更新する方法を説明します。
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1780'
 ht-degree: 0%
 
 ---
@@ -170,7 +170,6 @@ _[!UICONTROL Store Information]_のセクションでは、販売ドキュメン
 国の設定に関する問題のトラブルシューティングについては、[!DNL Commerce] サポートナレッジベースの次の記事を参照してください。
 
 - [ 国を追加する方法 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
-- [ 入力された countryId は存在しません ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-15/mdva-33393-magento-patch-provided-countryid-does-not-exist.html)
 
 ## [!UICONTROL Merchant Location]
 
@@ -324,7 +323,7 @@ Luma サンプルデータには、ストア用にカスタマイズできる _�
 
 >[!IMPORTANT]
 >
->2.4.0 リリース以降、CMS ブロックまたは CMS ページ内で連絡先フォームを呼び出すことができなくなりました。 お問い合わせフォームをカスタマイズする際は、レイアウト xml またはカスタムテーマテンプレートを使用してください。
+>2.4.0 リリース以降、CMS ブロックまたはCMS ページ内で連絡先フォームを呼び出すことができなくなりました。 お問い合わせフォームをカスタマイズする際は、レイアウト xml またはカスタムテーマテンプレートを使用してください。
 
 デフォルトでは、買い物客は、ストアフロントページのフッターにある _連絡先リンク_ を使用して、連絡先フォームにアクセスします。 連絡先ページのカスタマイズについて詳しくは、[ フロントエンド開発者ガイド ][theme-guide] を参照してください。
 

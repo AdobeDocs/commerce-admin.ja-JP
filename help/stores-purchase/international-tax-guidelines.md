@@ -3,9 +3,9 @@ title: 国別の税金ガイドライン
 description: 国に応じて、推奨される税金設定をレビューします。
 exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->GST/PST 州（モントリオール）のマーチャントは、1 つの税務処理基準を作成し、合計の税額を表示する必要があります。 ご質問がある場合は、必ず税務当局にお問い合わせください。 特定の州の税要件については、[Revenu Québec][1]、[Government of Saskatchewan][2]、および [Manitoba Information for Vendors][3] を参照してください。
+>GST/PST 州（モントリオール）のマーチャントは、1 つの税務処理基準を作成し、合計の税額を表示する必要があります。 ご質問がある場合は、必ず税務当局にお問い合わせください。
 
 | 税オプション | 推奨事項 |
 |--- |--- |
@@ -411,14 +411,10 @@ ht-degree: 0%
 
       - デフォルトの国
       - デフォルトの状態
-      - デフォルトのPost コード
+      - 既定の Post コード
 
      この設定により、製品価格に税金が含まれる場合に税金が正しく計算されます。
 
      ![ デフォルト税金搬送先計算 ](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
-
-[1]: https://www.revenuquebec.ca/en/businesses/
-[2]: https://www.saskatchewan.ca/finance
-[3]: https://www.gov.mb.ca/finance/taxation/bulletins/004.pdf

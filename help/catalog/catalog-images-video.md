@@ -3,9 +3,9 @@ title: カタログの画像とビデオ
 description: デジタルメディアを使用してカタログ製品ページを強化し、顧客にビジュアルを提供する方法を説明します。
 exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
 feature: Catalog Management, Media
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,6 @@ ht-degree: 0%
 画像とビデオの問題のトラブルシューティングについて詳しくは、Commerce サポートナレッジベースの次の記事を参照してください。
 
 - [ インストール後、画像とスタイルシートは読み込まれません。テキストのみが表示され、グラフィックは表示されません ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html)
-- [REST API を使用した製品画像の管理に関する問題 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-5/mdva-28763-magento-patch-issues-with-managing-product-images-via-rest-api.html)
-- [ 製品の.csv 画像の読み込みが複製されました ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-31969-magento-patch-import-products-.csv-images-duplicated.html)
+mdva-31969-magento-patch-import-products-.csv-images-duplicated.html）
 - [ 製品編集画像の役割にもかかわらず、製品画像が表示されない ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
 - [ デプロイメント後に画像を保存が表示されない ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)

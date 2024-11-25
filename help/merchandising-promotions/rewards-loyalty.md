@@ -3,9 +3,9 @@ title: 報酬およびロイヤルティプログラム
 description: 顧客エンゲージメントを高め、顧客ロイヤルティを促進するために使用できる報酬ポイントシステムについて説明します。
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 3376b6f4fd558f7dd10133beeabf87e7228776a1
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1389'
 ht-degree: 0%
 
 ---
@@ -187,5 +187,4 @@ Adobe Commerceの _報酬ポイント_ システムを使用すると、顧客�
 
 報酬ポイントに関する問題のトラブルシューティングについて詳しくは、Commerce サポートナレッジベースの次の記事を参照してください。
 
-- [ 一部注文のロイヤルティポイント ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31295-magento-patch-loyalty-points-on-partial-orders.html)
 - [404 エラー – 複数配送チェックアウトでの報酬ポイントの削除 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)

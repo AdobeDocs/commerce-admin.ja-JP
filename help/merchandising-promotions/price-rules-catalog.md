@@ -3,9 +3,9 @@ title: カタログ価格ルール
 description: 定義された一連の条件に基づいて割引価格で購入者に製品を提供するために使用できるカタログ価格ルールについて説明します。
 exl-id: 8da95076-d724-41f6-b3ca-e61ff1906b72
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -48,12 +48,3 @@ ht-degree: 0%
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）ルールのステータス （`Active` または `Inactive`）に基づいてリストをフィルターするには、このオプションを使用します。 |
 
 {style="table-layout:auto"}
-
-## リソースのトラブルシューティング
-
-カタログ価格ルールに関する問題のトラブルシューティングについて詳しくは、Commerce サポートナレッジベースの次の記事を参照してください。
-
-- [404 カタログ価格ルール スケジュールの更新が実行されると、店舗フロントでエラーが発生しました ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/404-error-on-store-front-once-catalog-price-rule-schedules-update-is-performed.html)
-- [ 関連製品およびターゲットルールによる製品ページのパフォーマンスの向上 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-31791-magento-patch-improvement-for-product-page-with-related-products-and-target-rules.html)
-- [ カタログ価格ルールが機能しない ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-24201-magento-patch-catalog-price-rules-don-t-work.html)
-- [GraphQLの価格計算 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-33975-magento-patch-graphql-price-calculations.html)

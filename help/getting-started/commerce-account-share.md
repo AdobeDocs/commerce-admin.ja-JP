@@ -3,7 +3,7 @@ title: アカウント  [!DNL Commerce]  共有
 description: 自分のアカウントに対する制限付きアクセスを、他のアカウン  [!DNL Commerce]  所有者に許可する方法  [!DNL Commerce]  説明します。
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 8f8cb141c79b8b5a57363faf7ec5c8f2e75bb473
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
@@ -91,11 +91,11 @@ ht-degree: 0%
 
    ![ サポート ](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   共有アカウントから [Adobe Commerce ヘルプセンター ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html) を使用して、記事とトラブルシューティング情報の検索、既知の問題のパッチの検索、サポートチケットの作成を行うことができます。
+   共有アカウントから [Adobe Commerce ヘルプセンター ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) を使用して、記事とトラブルシューティング情報の検索、既知の問題のパッチの検索、サポートチケットの作成を行うことができます。
 
    >[!NOTE]
    >
-   >共有アクセスを受け取った後、ユーザーは [[!DNL Commerce]  アカウント ](https://account.magento.com/customer/account/login) にログインし、「_共有アクセス_」に移動して「**[!UICONTROL Support]**」タブをクリックする必要があります。 この操作が初めて必要になるのは、[Adobe Commerce サポートナレッジベース ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html) が `SSO` 呼び出しを通じて正しく設定されていることを確認する場合のみです。
+   >共有アクセスを受け取った後、ユーザーは [[!DNL Commerce]  アカウント ](https://account.magento.com/customer/account/login) にログインし、「_共有アクセス_」に移動して「**[!UICONTROL Support]**」タブをクリックする必要があります。 この操作が初めて必要になるのは、[Adobe Commerce サポートナレッジベース ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) が `SSO` 呼び出しを通じて正しく設定されていることを確認する場合のみです。
 
 1. 自分のアカウントに戻るには、ブラウザーコントロールで **戻る** をクリックし、**[!UICONTROL Switch Accounts]** を `My Account` に設定します。
 
@@ -113,11 +113,11 @@ ht-degree: 0%
    > 
    > その場合は、アカウント所有者に共有アクセス アカウントを変更して、アカウントの権限をクリアするように依頼します。 その更新後は、ユーザーはアカウントリソースにアクセスできません。
    >
-   > さらに、メール通知を受信しないように、ユーザーがプロジェクトから削除されていることを確認してください。[ 以前のチームメンバーには、Adobe Commerce Cloud Notification のメールが届きます ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+   > さらに、メール通知を受信しないように、ユーザーがプロジェクトから削除されていることを確認してください。[ 以前のチームメンバーには、Adobe Commerce Cloud Notification のメールが届きます ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL Delete User]**」をクリックします。
 
 >[!NOTE]
 >
->このインターフェイスでは、共有名が _Cloud Shared Access のユーザーを MAG[XYZ]_ から削除することはできません。 [ クラウドプロジェクトを介した共有アクセス権を付与されたユーザーを削除する方法 ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) を参照してください。
+>このインターフェイスでは、共有名が _Cloud Shared Access のユーザーを MAG[XYZ]_ から削除することはできません。 [ クラウドプロジェクトを介した共有アクセス権を付与されたユーザーを削除する方法 ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting) を参照してください。

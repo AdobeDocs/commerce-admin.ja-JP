@@ -2,7 +2,7 @@
 title: 'Adobe Commerceの [!DNL AR Viewer]'
 description: がAdobe Commerce インスタンスに与えるメリット  [!DNL AR Viewer] 、拡張機能を正常にオンボーディングおよび設定する方法について説明します。
 exl-id: 9f9f3ff3-2402-4f70-9fc7-031dd2bb3916
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -17,7 +17,7 @@ AR （Augmented Reality）とは、デバイスのカメラからライブビュ
 
 このガイドでは、Adobe Commerceでの [!DNL AR Viewer] ーザーのオンボーディングエクスペリエンスの概要と [!DNL AR Viewer] のメリットのほか、このジャーニーに従うためのベストプラクティスについて説明します。
 
-Pixar が開発した [Universal Scene Description （USD） ](https://www.pixar.com/usd){target=_blank} は、非常に共同作業の多いワークフローを促進しながら、多くの異なるアセット、ソース、アニメーションで構成される 3D シーンを確実かつスケーラブルに交換できる最初のオープンソースソフトウェアです。 この USD は `.USDZ` ファイル内で使用されます。 この `.USDZ` ファイルは、ユーザーのデバイスに AR および 3D コンテンツを配信します。
+Pixar が開発した [Universal Scene Description （USD） ](https://openusd.org/release/index.html){target=_blank} は、非常に共同作業の多いワークフローを促進しながら、多くの異なるアセット、ソース、アニメーションで構成される 3D シーンを確実かつスケーラブルに交換できる最初のオープンソースソフトウェアです。 この USD は `.USDZ` ファイル内で使用されます。 この `.USDZ` ファイルは、ユーザーのデバイスに AR および 3D コンテンツを配信します。
 
 >[!NOTE]
 >

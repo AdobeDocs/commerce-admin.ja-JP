@@ -3,9 +3,9 @@ title: 請求書
 description: オーダー処理およびカスタマーサービス操作をサポートするための請求書を作成および印刷する方法を説明します。
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -148,15 +148,5 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]**/_運営_/**請求書** �
    ![ 複数請求書の印刷 ](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 請求書は、プリンタに送ったり保存したりできる 1 つのPDFファイルに保存されます。
-
-## リソースのトラブルシューティング
-
-請求書の問題のトラブルシューティングについて詳しくは、_Commerce サポートナレッジベース_ を参照してください。
-
-- [ バンドル製品のバーチャルおよびシンプルな請求書は発行できません ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.html)
-- [ 店舗クレジット情報のない請求書 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31150-magento-patch-invoice-without-store-credit-info.html)
-- [100% 割引の税金が請求書に表示される ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-22/mdva-35773-tax-appears-on-invoice-with-100-discount.html)
-- [ 注文請求書は自動送信されません ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-13/mdva-32545-magento-patch-order-invoices-don-t-send-automatically.html)
-
 
 [1]: https://www.adobe.com/acrobat/pdf-reader.html "Adobe Readerの取得"

@@ -3,9 +3,9 @@ title: FedEx
 description: ストアの配送業者として FedEx を設定する方法を説明します。
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ FedEx 社は、航空便、貨物、陸上輸送サービスを複数の優先�
 
 ## 手順 1:FedEx Web サービスの本番環境への登録
 
-[FedEx マーチャントアカウント ][1] と、FedEx Web サービス実稼動アクセスの登録が必要です。 FedEx アカウントを作成したら、実稼動アカウントの情報ページを読み、ページの下部にある _実稼動キーを取得_ リンクをクリックして登録し、キーを取得します。
+FedEx の販売者アカウントと、FedEx Web サービスの生産アクセスの登録が必要です。 FedEx アカウントを作成したら、実稼動アカウントの情報ページを読み、ページの下部にある _実稼動キーを取得_ リンクをクリックして登録し、キーを取得します。
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ FedEx 社は、航空便、貨物、陸上輸送サービスを複数の優先�
    - 国内のオプション – エクスプレス セーバー、グラウンド、ファースト、オーバーナイト、宅配、スタンダード オーバーナイト
    - 国際オプション – 国際経済，Intl Economy Freight, International First, International Ground, International, Priority Intl
    - 優先オプション – 運賃、一晩での優先
-   - スマートPost方式を使用するスマートPost-If （「ハブ ID **を入力**）
+   - スマートポストメソッドを提供するスマートポスト If （**ハブ ID** を入力）
    - 運送費 – 運送費、全国運送費
 
 1. FedEx を通じて [ 送料無料 ](shipping-free.md) オプションを提供したい場合は、送料無料オプションを設定します。
@@ -159,5 +159,3 @@ FedEx 社は、航空便、貨物、陸上輸送サービスを複数の優先�
 >[!NOTE]
 >
 >Commerceは、配送料を計算する際に、常にフルオーダー価格を FedEx に宣言します。 この動作は変更できません。
-
-[1]: https://www.fedex.com/login/web/jsp/contactInfo1.jsp

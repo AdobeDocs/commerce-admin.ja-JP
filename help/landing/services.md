@@ -3,7 +3,8 @@ title: Commerce SaaS サービス
 description: Commerce ストアフロント機能の拡張に使用できるCommerce SaaS サービスについて説明します
 seo-title: Commerce Services
 seo-description: Get an overview of available services that help Adobe Commerce merchants extend storefront capabilities to support key components of their business.
-source-git-commit: ab886855f087186bb1598ab4a780f49c15757c16
+exl-id: 2e673eb2-a90b-491a-b320-e9bd089d19f2
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Adobeは、マーチャントがビジネスの主要なコンポーネントを
 
 ![ 検索 ](../landing/assets/icon-magnify.svg){width="40"}**[ ライブ検索 ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)**- AI を活用した検索ツールを実装し、B2C の買い物客に対してスマートで迅速、かつ関連性の高い結果を提供します。
 
-![ThumbsUp](../landing/assets/icon-thumbs-up.svg){width="40"}**[Product Recommendations](https://experienceleague.adobe.com/en/en/docs/commerce-merchant-services/product-recommendations/overview)**– 買い物客の行動、人気のトレンド、商品の類似性などに基づいて、AI を活用したレコメンデーションを追加します。
+![ThumbsUp](../landing/assets/icon-thumbs-up.svg){width="40"}**[Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview)**– 買い物客の行動、人気のトレンド、商品の類似性などに基づいて、AI を活用したレコメンデーションを追加します。
 
 ![ 接続されたサービスのカタログ・データ ](../landing/assets/icon-data-book.svg){width="40"}**[ カタログ・サービス ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/overview)**：パフォーマンスの向上、拡張性の向上、コンバージョンの向上を実現しつつ、顧客に最適化された製品体験を提供します。
 
