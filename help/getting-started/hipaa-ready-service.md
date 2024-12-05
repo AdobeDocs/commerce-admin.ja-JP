@@ -3,9 +3,9 @@ title: Adobe Commerceに対する HIPAA 対応
 description: Adobe Commerce HIPAA 対応拡張機能を追加し、HIPAA 義務を準拠できる追加機能を取得する方法について説明します。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: dd97177836f5795f64e04665acdf8c1baa777465
+source-git-commit: c74d05e4a26f46f1aca5d82936a4bb61f8764084
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1598'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Adobe Commerce HIPAA 対応の拡張機能は、クラウドインフラスト�
 
 ## 必要システム構成
 
-Adobe Commerceは、クラウドインフラストラクチャのAdobe Commerce、またはバージョン 2.4.6-p3 以降（ベータ版なし）のAdobe Commerce Managed Servicesにデプロイする必要があります。
+Adobe Commerceは、クラウドインフラストラクチャー上のAdobe Commerceまたはバージョン 2.4.6-p3 ～ 2.4.6-p8 のAdobe Commerce Managed Servicesにデプロイする必要があります（ベータ版はありません）。
 
 ## インストール
 
