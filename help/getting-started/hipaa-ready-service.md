@@ -3,9 +3,9 @@ title: Adobe Commerceに対する HIPAA 対応
 description: Adobe Commerce HIPAA 対応拡張機能を追加し、HIPAA 義務を準拠できる追加機能を取得する方法について説明します。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: c74d05e4a26f46f1aca5d82936a4bb61f8764084
+source-git-commit: cbcdaf8f5c531ba10a95e9455a5ebc28bd61c3b5
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1597'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Adobe Commerceは、クラウドインフラストラクチャー上のAdobe Com
 
 >[!ENDSHADEBOX]
 
-Adobe Commerce バージョン 2.4.6-p3 以降が稼働しているインスタンスに、Adobeの最新バージョンの HIPAA 対応サービス拡張機能（`magento/hipaa-ee`）をインストールします。 拡張機能は、[repo.magento.com](https://repo.magento.com) リポジトリからコンポーザメタパッケージとして提供されます。 メタパッケージには、Adobe Commerce インスタンスに対して HIPAA 機能を有効にするモジュールのコレクションが含まれています。
+Adobe Commerce バージョン 2.4.6-p3 ～ 2.4.6-p8 を実行しているインスタンスに、Adobeの最新バージョンの HIPAA 対応サービス拡張機能（`magento/hipaa-ee`）をインストールします。 拡張機能は、[repo.magento.com](https://repo.magento.com) リポジトリからコンポーザメタパッケージとして提供されます。 メタパッケージには、Adobe Commerce インスタンスに対して HIPAA 機能を有効にするモジュールのコレクションが含まれています。
 
 1. ローカルワークステーションで、Adobe Commerce on cloud infrastructure プロジェクトのプロジェクトディレクトリに移動します。
 
