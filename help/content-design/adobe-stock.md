@@ -3,7 +3,7 @@ title: Adobe Stockの統合
 description: Adobe Stockをお使いのインスタンスと統合して  [!DNL Commerce]  ストアで使用するための無数のメディアアセットにアクセスできるようにします。
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-source-git-commit: 6666073a48741cb494f408a61401f46fc20cedc4
+source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ![Adobe Stock検索結果 ](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
-Adobe Stock サービスは、あらゆるクリエイティブプロジェクトに使用できる、何百万点もの質の高い選ばれたロイヤリティーフリーの写真、ベクター、イラスト、ビデオ、テンプレートおよび 3D アセットを提供します。 [!DNL Commerce] ユーザーは、Adobe Stock アセットをすばやく検索、プレビューおよびライセンス付与することができます。 また、ユーザーは、管理ワークスペースを離れることなく、すべてを [ メディアストレージ ][media-storage] に保存できます。
+Adobe Stock サービスは、あらゆるクリエイティブプロジェクトに使用できる、何百万点もの質の高い選ばれたロイヤリティーフリーの写真、ベクター、イラスト、ビデオ、テンプレートおよび 3D アセットを提供します。 [!DNL Commerce] ユーザーは、Adobe Stock アセットをすばやく検索、プレビューおよびライセンス付与することができます。 また、ユーザーは、管理ワークスペースを離れることなく、すべてを [ メディアストレージ ](./media-storage.md) に保存できます。
 
 ## 前提条件
 
@@ -97,6 +97,5 @@ Adobe Stock統合をAdobe Commerce用に設定するには、次の 2 つの手�
 
 [adobe-stock]: https://stock.adobe.com
 [adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
-[media-storage]: media-storage.md
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration
