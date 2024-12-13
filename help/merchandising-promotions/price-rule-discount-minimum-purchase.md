@@ -3,14 +3,14 @@ title: 買い物かご価格ルールの例 – 最小製品価格による割�
 description: 買い物かご価格ルールを使用して、最小製品価格による割引を提供する例を確認します。
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 6bc76c76bc7a17e115696911cc2499075d35c541
+source-git-commit: 2a370dc38b54ee668513bc738b7e8c99f660deae
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
-# 買い物かご価格ルールの例 – 最小購入による割引
+# 買い物かご価格ルールの例 – 最小製品価格による割引
 
 買い物かご価格ルールを使用すると、買い物かご内の最小製品価格に基づいてパーセンテージの割引を提供できます。 次の例では、指定したカテゴリの価格が 30.00 ドルを超える商品が 1 つ以上カートに追加された場合に、カート全体のすべての商品に 10% の割引が適用されます。 割引の形式は次のとおりです。
 
