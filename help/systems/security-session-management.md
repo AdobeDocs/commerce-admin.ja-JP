@@ -4,9 +4,9 @@ description: 管理者とストアフロントを保護するためにセッシ�
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: aabbf6d37a2c7fa730e1f3673edfb414685008b6
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -104,25 +104,7 @@ Adobe CommerceとMagento Open Sourceを使用すると、セッションの固�
 
 1. 「**[!UICONTROL Admin]**」をクリックします。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「_[!UICONTROL Security]_」セクションを展開します。
-
-1. **[!UICONTROL Admin Session Lifetime (seconds)]** に、セッションがタイムアウトするまでアクティブなままである秒数を入力します。
-
-   ![ 詳細設定 – Admin security settings](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
-
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。##管理者セッションの有効期間
-
-セキュリティ対策として、_管理者_ は、最初、キーボードが無操作状態になった 900 秒（15 分）が経過するとタイムアウトするように設定されています。 作業スタイルに合わせて、セッションの有効期間を調整できます。
-
-**_管理者セッションの有効期間を調整するには：_**
-
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
-
-1. 下にスクロールして、左側のパネルの **[!UICONTROL Advanced]** を展開します。
-
-1. 「**[!UICONTROL Admin]**」をクリックします。
-
-1. ![ 拡張セレクター ](../assets/icon-display-expand.png) 「_セキュリティ_」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Security]**」セクションを展開します。
 
 1. **[!UICONTROL Admin Session Lifetime (seconds)]** に、セッションがタイムアウトするまでアクティブなままである秒数を入力します。
 
