@@ -3,7 +3,7 @@ title: 買い物かご価格ルールの例 – 最小製品価格による割�
 description: 買い物かご価格ルールを使用して、最小製品価格による割引を提供する例を確認します。
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 2a370dc38b54ee668513bc738b7e8c99f660deae
+source-git-commit: 1a784e894e02090cfa3bc9edc47149b35d935e8e
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -75,5 +75,4 @@ ht-degree: 0%
 {{new-price-rule}}
 
 1. ルールが完成したら、「**[!UICONTROL Save Rule]**」をクリックします。
-
 1. ルールをテストして、正しく動作することを確認します。
