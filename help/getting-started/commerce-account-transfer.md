@@ -3,9 +3,9 @@ title: Commerce アカウントの転送
 description: Commerce アカウントを別の所有者またはメールアドレスに転送する方法について説明します。
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 89637c8f2c4ff725499c27ebe0feb91bf3f9a0ef
+source-git-commit: e436bbe8f4c2ed913489df22fdc3915d37d9185a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 0%
 | 転送タイプ | 現在の所有者 | 新しい所有者 |
 | ------------- | ------------- | --------- |
 | [ 新しいAdobe IDとメールの変更 ](#new-adobe-id-and-email-change) | Adobeのログインアカウントを使用して **_接続されていない_** MAGEID を持っている。 | MAGEID を持たず、Adobeログインアカウントに接続されていません。 |
-| [ メールの変更 ](#email-change) | 他のAdobe商品やサービスが関連付けられていないAdobeログインアカウントを持つ **_接続_** された MAGEID を持っています。 | MAGEID を持たず、Adobeログインアカウントに接続されていません。 |
-| [Adobe IDスイッチ ](#adobe-id-account-switch) | 他のAdobe商品やサービスが関連付けられていないAdobeログインアカウントを持つ **_接続_** された MAGEID を持っています。 | MAGEID を持ち、他のAdobe商品/サービスが関連付けられていないAdobeログインアカウントに接続されている。 |
+| [ メールの変更 ](#email-change) | Adobeのログインアカウントで **_接続_** されている MAGEID を持っている。 | MAGEID を持たず、Adobeログインアカウントに接続されていません。 |
+| [Adobe IDスイッチ ](#adobe-id-account-switch) | Adobeのログインアカウントで **_接続_** されている MAGEID を持っている。 | MAGEID を持ち、他のAdobe商品/サービスが関連付けられていないAdobeログインアカウントに接続されている。 |
 
 {style="table-layout:auto"}
 
