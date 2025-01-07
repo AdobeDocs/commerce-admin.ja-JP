@@ -3,9 +3,9 @@ title: 管理者ユーザーアカウント
 description: 管理者アカウントの概要、および二要素認証を使用して管理者にログインする方法を説明します。
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
+source-git-commit: 54fdc97156c602337c983de5fddfafd7c50a67e1
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -157,3 +157,21 @@ _[!UICONTROL Sign In]_ページには、ログアウト済みのメッセージ�
 1. 「**[!UICONTROL Save Config]**」をクリックします。
 
 [1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_US
+
+## 管理者への安全なアクセスの維持
+
+管理者のセキュリティを確保するために、管理者アクセス権を持つユーザーおよび役割を定期的に監査します。
+
+さらに、[ 管理ベース URL 設定の更新 ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url) を検討して、デフォルトの `/admin` エンドポイントをカスタムパスに変更します。 カスタムパスを設定すると、次のようなセキュリティ上の利点があります。
+
+**セキュリティの強化**：デフォルトの「管理者」パスは広く知られており、ブルートフォース攻撃を試みる悪意のあるアクターによってターゲットにされることがよくあります。 一意のカスタム値に変更することで、未承認のアクセス試行のリスクを大幅に軽減できます。
+
+**脆弱性の軽減**：自動ボットは、「管理者」などの一般的なパスを頻繁にスキャンして、脆弱性を悪用します。 カスタムパスを使用すると、これらのボットが管理者ログインページを見つけるのが難しくなり、攻撃の可能性が低くなります。
+
+**プライバシーの向上**：カスタム管理パスを使用すると、隠ぺいのレイヤーが追加され、潜在的な攻撃者が管理者のログインページを特定してターゲットにするのが難しくなります。
+
+**ベストプラクティスへの準拠**：管理パスのカスタマイズなどのセキュリティのベストプラクティスに従うと、e コマースサイトと顧客データを保護するためのプロアクティブなアプローチが示されます。
+
+>[!NOTE]
+>
+>違反が疑われる場合は、不明なすべての管理者ユーザーを削除し、すべての管理者パスワードをリセットして、[ セキュリティアクションプラン ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) を確認して、さらに手順を進めてください。
