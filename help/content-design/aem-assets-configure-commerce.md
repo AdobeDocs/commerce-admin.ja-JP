@@ -3,9 +3,9 @@ title: Experience Manager Assets統合のインストールと設定
 description: Adobe Commerce インスタンスにをインストールして設定する方法  [!DNL AEM Assets Integration for Adobe Commerce]  説明します。
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 5e3de8e9b99c864e5650c59998e518861ca106f5
+source-git-commit: 521dd5c333e5753211127567532508156fbda5b4
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,13 @@ CommerceのAEM Assets統合には、次のシステム要件と設定要件が�
 
 **設定要件**
 
-- Adobe Commerceは、[Adobe IMS認証 ](/help/getting-started/adobe-ims-config.md) を使用するように設定する必要があります。
 - アカウントのプロビジョニングと権限
    - [Commerce クラウドプロジェクト管理者 ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) – 必要な拡張機能をインストールして、管理者またはコマンドラインからCommerce アプリケーションサーバーを設定します
    - [Commerce管理者 ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - ストア設定を更新し、Commerce ユーザーアカウントを管理します
+
+>[!TIP]
+>
+> Adobe Commerceは、[Adobe IMS認証 ](/help/getting-started/adobe-ims-config.md) を使用するように設定できます。
 
 ## 設定の概要
 
@@ -186,6 +189,44 @@ Commerce Admin からイベントフレームワークを有効にします。
    ![Adobe I/OイベントのCommerce管理者設定 – Commerce イベントを有効にする ](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Merchant ID]** に商社の名前を入力し、**[!UICONTROL Environment ID]** のフィールドに環境名を入力します。 これらの値を設定する場合は、英数字とアンダースコアのみを使用します。
+
+>[!BEGINSHADEBOX]
+
+**ブロックリクエスト用のカスタム VCL の設定**
+
+カスタム VCL スニペットを使用して、不明な受信リクエストをブロックする場合は、HTTP ヘッダー `X-Ims-Org-Idheader` を含めて、Commerce サービスのAEM Assets Integration からの着信接続を許可する必要がある可能性があります。
+
+>[!TIP]
+>
+> Fastly CDN モジュールを使用し、ブロックする IP アドレスのリストを含んだEdge ACL を作成できます。
+
+次のカスタム VCL スニペットコード（JSON 形式）は、`X-Ims-Org-Id` リクエストヘッダーを持つ例を示しています。
+
+```json
+{
+  "name": "blockbyuseragent",
+  "dynamic": "0",
+  "type": "recv",
+  "priority": "5",
+  "content": "if ( req.http.X-ims-org ~ \"<YOUR-IMS-ORG>\" ) {error 405 \"Not allowed\";}"
+}
+```
+
+この例に基づいてスニペットを作成する前に、値を確認して、変更が必要かどうかを判断してください。
+
+- `name`: VCL スニペットの名前。 この例では、`blockbyuseragent` という名前を使用しました。
+
+- `dynamic`: スニペットのバージョンを設定します。 この例では、`0` を使用します。 詳細なデータモデル情報については、[Fastly VCL スニペット ](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/) を参照してください。
+
+- `type`: VCL スニペットのタイプを指定します。このスニペットは、生成された VCL コード内のスニペットの場所を決定します。 この例では、`recv` を使用しました。スニペットのタイプのリストについては、[Fastly VCL スニペットのリファレンス ](https://docs.fastly.com/api/config#api-section-snippet) を参照してください。
+
+- `priority`: VCL スニペットを実行するタイミングを指定します。 この例では、優先度 `5` を使用して、直ちに実行し、許可された IP アドレスからの管理リクエストであるかどうかを確認します。
+
+- `content`：実行する VCL コードのスニペット。クライアントの IP アドレスを確認します。 IP がEdgeの ACL に含まれている場合は、web サイト全体に対して `405 Not allowed` エラーが発生して IP のアクセスがブロックされます。 その他すべてのクライアント IP アドレスへのアクセスが許可されます。
+
+VCL スニペットを使用して受信リクエストをブロックする方法については、『クラウドインフラストラクチャー上の _Commerceガイド ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) の [Custom VCL for blocking requests_ を参照してください。
+
+>[!ENDSHADEBOX]
 
 ## API アクセスの認証資格情報の取得
 
