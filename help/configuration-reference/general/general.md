@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Commerce Admin の [!UICONTROL General] &gt; [!UICONTROL General] ページで設定を確認します。
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 17006d71d73329abcf7c7d34a0b699172d645fa1
+source-git-commit: 54f6c7abf38e4368a843b7cf042ccd9af19239b2
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -108,5 +108,15 @@ ht-degree: 0%
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | グローバル | シングルストアインストールで有効にすると、設定の範囲ボックスと関連するフィールドラベルが非表示になります。オプション : `Yes` / `No` <br/>**_注意：_**複数の表示を持つストアの場合、シングルストアモードは無視されます。<br/> 単一ストアモードを有効にすると、すべてのカタログおよび製品ストア固有のデータが、デフォルトのストア表示からすべてのストア表示範囲にコピーされます。 ストアに storereview が 1 つしかない場合にのみ、カタログおよび製品データがコピーされます。 ストアに、無効な storereview と有効な storereview が 1 つある場合、カタログと製品のデータはコピーされません。<br/> シングルストアモードを有効にすると、コンテンツ固有のデータに対する storreview 固有の設定が無視されます。 代わりに、グローバルレベルの範囲で定義された構成設定を使用して、管理 UI とストアフロントの間の一貫性を確保します。 |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Data Services]
+
+![ 一般/データサービス ](./assets/general-data-services.png)<!-- zoom -->
+
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+|--- |--- |--- |
+| [!UICONTROL Commerce Events Enabled] | グローバル | 医療関係のお客様が [ データサービス HIPAA](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/hipaa-readiness.html#installation) 拡張機能をインストールしている場合、この設定はデフォルトでオフになっています。 その結果、ライブ検索や製品Recommendationsで使用されるストアフロントイベントデータが取得されなくなりました。 これは、ストアフロントのイベントデータがクライアントサイドで生成されるからです。 [ ライブ検索 ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) および [ 製品Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) サービスで使用するストアフロントイベントデータを引き続きキャプチャして送信するには、**Commerce イベントを有効** を `Yes` に設定します。 |
 
 {style="table-layout:auto"}

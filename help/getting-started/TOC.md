@@ -5,9 +5,9 @@ breadcrumb-title: はじめに
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 1%
    + [アカウントを共有](commerce-account-share.md)
    + [アカウントの転送](commerce-account-transfer.md)
 + Site compliance {#compliance}
-   + [Adobe Commerceに対する HIPAA 対応](hipaa-ready-service.md)
+   + Adobe Commerceに対する HIPAA 対応 {#hipaa-ready-service}
+      + [概要](hipaa/overview.md)
+      + [運用ガイダンス](hipaa/operations.md)
    + Privacy {#privacy}
       + [ストアのプライバシーポリシー](privacy-policy.md)
       + [CCPA コンプライアンス](compliance-ccpa.md)
