@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] リリースノート'
 description: リリースの変更点について詳しくは、リリースノート  [!DNL Adobe Commerce B2B]  参照してください。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: ad2acb61acc3e7ace3421f51987939394f5d8cbe
+source-git-commit: 0b7200331b9b7aa59636a0ff6fd6b98194054a32
 workflow-type: tm+mt
-source-wordcount: '7801'
+source-wordcount: '7820'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ B2BAdobeのこれらのリリースノートでは、拡張機能がリリース
 *2024 年 10 月 30 日*
 
 [!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}
-Adobe Commerce バージョン 2.4.8-beta1、2.4.7 ～ 2.4.7-p2、2.4.6 ～ 2.4.6-p7 と互換性あり
+Adobe Commerce バージョン 2.4.8-beta1、2.4.7 ～ 2.4.7-p2、2.4.6 ～ 2.4.6-p7 と互換性があります。
+
+Adobe Commerce B2B バージョン 1.5.0 は、PHP 8.3 とも互換性があり、[GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server) をサポートしています。
 
 B2B v1.5.0 リリースには、新機能、品質の改善、バグ修正が含まれています。
 

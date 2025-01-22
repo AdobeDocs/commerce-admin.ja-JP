@@ -4,9 +4,9 @@ description: メタパッケージのインストール方法  [!DNL Adobe Comme
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: 97717f367e2709c6b940ef16dec788027704799e
+source-git-commit: df3f01bb8e6dab61523d5cb7e0e430b61f87145b
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Adobe Commerce B2B 拡張機能は、サポートされてい `magento/extension
 ## 要件
 
 - [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html)、サポートされているすべてのバージョン
-- PHP 8.1 および 8.2
+- PHP 8.1、8.2、8.3 （B2B 1.5.0 が必要）
 - [!DNL Composer]
 
 >[!IMPORTANT]
@@ -187,7 +187,7 @@ B2B 機能について [ メッセージコンシューマーを開始 ](#start-
 
 - `--max-messages <value>` – 各消費者が終了するまでに処理する必要があるメッセージの最大数を指定します（デフォルトは 10000）。 Adobeでは推奨しませんが、0 を使用して、コンシューマーが終了しないようにできます。 PHP アプリケーションのベストプラクティスは、長時間実行されているプロセスを再起動して、メモリリークの可能性を防ぐことです。
 
-- `--batch-size <value>` - コンシューマーが消費するシステム リソース （CPU、メモリ）を制限できます。 より小さなバッチを使用すると、リソースの使用量が減少します。その結果、処理が遅くなります。  指定した場合、キュー内のメッセージが各 `<value>` のバッチで消費されます。 このオプションは、バッチコンシューマーにのみ適用できます。 `--batch-size` が定義されていない場合、バッチコンシューマーはキュー内の使用可能なすべてのメッセージを受け取ります。
+- `--batch-size <value>` - コンシューマーが使用するシステムリソースを制限できます（CPU、メモリ）。 より小さなバッチを使用すると、リソースの使用量が減少します。その結果、処理が遅くなります。  指定した場合、キュー内のメッセージが各 `<value>` のバッチで消費されます。 このオプションは、バッチコンシューマーにのみ適用できます。 `--batch-size` が定義されていない場合、バッチコンシューマーはキュー内の使用可能なすべてのメッセージを受け取ります。
 
 その他の設定オプションについて詳しくは、[ 特定の設定 ](https://experienceleague.adobe.com//en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#specific-configuration) を参照してください。
 
