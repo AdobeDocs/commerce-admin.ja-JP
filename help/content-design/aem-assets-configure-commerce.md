@@ -3,7 +3,7 @@ title: Experience Manager Assets統合のインストールと設定
 description: Adobe Commerce インスタンスにをインストールして設定する方法  [!DNL AEM Assets Integration for Adobe Commerce]  説明します。
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 521dd5c333e5753211127567532508156fbda5b4
+source-git-commit: a2b9fc6584b9d8a57f24d87a9b5ebcdc2f29cbae
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -28,8 +28,10 @@ CommerceのAEM Assets統合には、次のシステム要件と設定要件が�
 
 **設定要件**
 
-- アカウントのプロビジョニングと権限
+- アカウントのプロビジョニングと権限：
+
    - [Commerce クラウドプロジェクト管理者 ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) – 必要な拡張機能をインストールして、管理者またはコマンドラインからCommerce アプリケーションサーバーを設定します
+
    - [Commerce管理者 ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - ストア設定を更新し、Commerce ユーザーアカウントを管理します
 
 >[!TIP]
