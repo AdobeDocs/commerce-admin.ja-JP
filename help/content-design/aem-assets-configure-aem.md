@@ -3,16 +3,14 @@ title: Experience Manager Assetsの設定
 description: CommerceのAEM Assets統合を有効にして、Adobe Commerce プロジェクトとExperience Manager Assets プロジェクトの間でアセットを同期するために必要なアセットメタデータを追加します。
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: 8a150c79c2e15ce5bd2cb2037f94c94f90b7a1df
+source-git-commit: 6b0c8054e86ae697025626ad2eb575d633003578
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
 
 # Experience Manager Assetsの設定
-
-{{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
 環境設定を更新し、AEM as a Cloud Service アセットを識別および管理するようにCommerce メタデータを設定することで、Assets アセットを管理するCommerce環境を準備します。
 
