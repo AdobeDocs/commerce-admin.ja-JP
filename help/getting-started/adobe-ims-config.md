@@ -3,7 +3,7 @@ title: ID を使用したCommerce Admin Integration の設定
 description: Adobe Commerce管理者のユーザーアカウントのログインをAdobe IDと統合するには、次のオプション手順に従います。
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 9a9106cde5184823755fb1f44fe7eae300442abc
+source-git-commit: 446fe9a5c7cc7178f5bbac0045bdea7e93a73699
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -61,8 +61,8 @@ Commerce管理者ユーザーがログインするには、Adobe IDのアカウ�
 1. 新しく作成されたプロジェクトページで「**[!UICONTROL Add API]**」をクリックします。
 1. **[!UICONTROL Adobe Services]**/**[!UICONTROL Adobe Commerce with Adobe ID]** を選択します。
 1. 「**[!UICONTROL Oauth 2.0 Web]**」を選択します。
-1. **[!UICONTROL Redirect URI]** を指定します。`https://<hostname>/`
-1. **[!UICONTROL Redirect URI pattern]** を指定します。`https://<hostname>/.*`
+1. **[!UICONTROL Redirect URI]** を指定します。`https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
+1. **[!UICONTROL Redirect URI pattern]** を指定します。`https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
 
    ホスト名のドットの前に `\\` を付けることで、ドットをエスケープします。 URL の末尾にワイルドカードを追加すると、Adobe Commerce管理者の秘密鍵がサポートされます。
 
