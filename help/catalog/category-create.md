@@ -3,9 +3,9 @@ title: カテゴリの作成
 description: 設定で設定されたメニューの最大深度に応じて、必要な数のサブカテゴリを追加できます。
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 6f83e90ed6bacd9e132d5caa01942f0ea90eb4b0
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -86,9 +86,11 @@ ht-degree: 0%
 
    - メディア ストレージの画像を使用するには、[**[!UICONTROL Select from Gallery]**] をクリックし、カテゴリを表す画像を選択します。
 
+   Media Gallery 内では、[Adobe Stock Integration](../content-design/adobe-stock.md) を使用して、**[!UICONTROL Search Adobe Stock]** をクリックして適切な画像を見つけることもできます。
+
    >[!NOTE]
    >
-   >Media Gallery 内では、[Adobe Stock Integration](../content-design/adobe-stock.md) を使用して、**[!UICONTROL Search Adobe Stock]** をクリックして適切な画像を見つけることもできます。
+   > AEM Assetsを有効にしている場合、詳しくは [ カテゴリの管理 ](../content-design/aem-assets-manage.md) を参照してください。
 
 1. **[!UICONTROL Description]**：カテゴリランディングページに表示するテキストまたはその他のコンテンツを入力します。
 
