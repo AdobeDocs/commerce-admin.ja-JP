@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] リリースノート'
 description: リリースの変更点について詳しくは、リリースノート  [!DNL Adobe Commerce B2B]  参照してください。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 2d98c6c5de28ea2103e1299aea5cc886d866c6e0
+source-git-commit: f91d3b669fcb6112510b9845535c4373a05ce8fe
 workflow-type: tm+mt
-source-wordcount: '8177'
+source-wordcount: '8313'
 ht-degree: 0%
 
 ---
@@ -134,6 +134,21 @@ B2B v1.5.0 リリースには、新機能、品質の改善、バグ修正が含
 
 ![ 修正された問題 ](../assets/fix.svg)<!--ACP2E-1825--> 会社がブロックされると、会社に関連付けられているユーザーは発注書を送信できなくなります。 以前は、会社がブロックされている場合、会社に関連付けられているユーザーが発注書を送信することができました。
 
+## B2B v1.4.2-p4
+
+*2025 年 2 月 11 日*
+
+[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}
+
+![ 新規 ](../assets/new.svg) Adobe Commerce 2.4.7-p4 以降および 2.4.6-p9 以降のセキュリティパッチリリースとの互換性が追加されました。
+
+![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html) に記載されているセキュリティ修正が含まれます。
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B バージョン 1.4.2 以降は、PHP 8.2 と互換性があります。Commerce インスタンスをバージョン 2.4.7 以降にアップグレードする場合は、インスタンスが PHP バージョン 8.2 を使用して、Adobe Commerce B2B リリースとの互換性を保っていることを確認します。 また、B2B 1.4.2 以降のリリースでは、[GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server) をサポートしていません。
+
+
 ## B2B v1.4.2-p3
 
 *2024 年 10 月 8 日*
@@ -248,6 +263,16 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 この問題を修正するには、[stability tag](https://getcomposer.org/doc/04-schema.md#package-links) を使用して、B2B セキュリティパッケージの手動依存関係を追加することにより、B2B セキュリティパッケージの手動依存関係を追加します。 手順については、[Adobe Commerce ナレッジベース ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html) を参照してください。
 
+## B2B v1.3.5-p9
+
+*2025 年 2 月 11 日*
+
+[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}
+
+![ 新規 ](../assets/new.svg)Adobe Commerce 2.4.6-p9 セキュリティパッチリリースとの互換性が追加されました。
+
+![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html) に記載されているセキュリティ修正が含まれます。
+
 ## B2B v1.3.5-p8
 
 *2024 年 10 月 8 日*
@@ -301,6 +326,16 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 ![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-2456--> カテゴリクエリで、クエリ対象のカテゴリに対してカテゴリ権限が明示的に設定されていない場合、ストア設定に従って製品価格を返すようになりました。
 
 ![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-6829--> 承認済みの見積もりリクエストを使用して購入を完了する際に、「**[!UICONTROL Place Order]**」ボタンが期待どおりに機能するようになりました。 交渉可能な見積もり `negotiableQuoteCheckoutSessionPlugin` プラグインに関する問題が解決されました。
+
+## B2B v1.3.4-p11
+
+*2025 年 2 月 11 日*
+
+[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}
+
+![ 新規 ](../assets/new.svg)Adobe Commerce 2.4.5-p11 がサポートされるようになりました。
+
+![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.3.4-p10
 
