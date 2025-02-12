@@ -3,16 +3,16 @@ title: '[!DNL Adobe Commerce B2B] リリースノート'
 description: リリースの変更点について詳しくは、リリースノート  [!DNL Adobe Commerce B2B]  参照してください。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: e872a121b624d718dd60c128177abb6640f85b58
+source-git-commit: 2d98c6c5de28ea2103e1299aea5cc886d866c6e0
 workflow-type: tm+mt
-source-wordcount: '7879'
+source-wordcount: '8177'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Commerce B2B] リリースノート
 
-B2BAdobeのこれらのリリースノートでは、拡張機能がリリースサイクル中に追加した追加と修正をキャプチャしています。以下に例を示します。
+B2B 拡張機能のこれらのリリースノートでは、リリースサイクルでAdobeによって追加された追加と修正が取り込まれています。これには、以下が含まれます。
 
 ![ 新機能 ](../assets/new.svg) 新機能
 ![ 修正された問題 ](../assets/fix.svg) 修正および改善
@@ -22,6 +22,34 @@ B2BAdobeのこれらのリリースノートでは、拡張機能がリリース
 >
 >使用可能なAdobe Commerce リリースでサポートされている B2B Commerce拡張機能のバージョンについて詳しくは、[ 製品の可用性 ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) を参照してください。
 
+## B2B 1.5.1
+
+*2025 年 2 月 11 日*
+
+[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}
+Adobe Commerce バージョン 2.4.8-beta1 から 2.4.8-beta2、2.4.7 から 2.4.7-p3、2.4.6 から 2.4.9-p8 との互換性
+
+B2B v1.5.1 リリースには、品質の改善とバグ修正が含まれています。
+
+### 会社
+
+![ 修正された問題 ](../assets/fix.svg)<!-- B2B-4422 --> 顧客が見積もりの詳細ページで会社を切り替えようとした場合、ある会社のために作成された見積もりを別の会社の価格で注文するために使用できないように、システムは顧客を *アクセス拒否* ページにリダイレクトするようになりました。 以前は、ユーザーは、ある会社の価格で見積もりを作成してから、別の会社に切り替えて、異なる価格で注文することができました。
+
+### 品目割引
+
+![ 修正された問題 ](../assets/fix.svg)<!-- B2B-2938 --> 見積もりの再計算シナリオで発生するパフォーマンスの低下に対処することで、システム効率を向上しました。 以前は、買い物かごの行項目ごとに 2 つの新しいエンティティが追加され、データベースリクエストが顕著に増加し、パフォーマンスが低下する原因となっていました。
+
+### 譲渡可能見積
+
+![ 問題を修正しました ](../assets/fix.svg)<!-- B2B-3820 -->Luma ストアフロントの引用テンプレートページの *[!UICONTROL min/max qty]* フィールドにJavaScriptの検証が適用された場合、UI 要素の位置が維持されるようになりました。 以前は、これらのフィールドにJavaScriptの検証を適用すると、ページ上の他の UI 要素がシフトしていました。
+
+### ショッピングカート
+
+![ 問題を修正 ](../assets/fix.svg)<!-- B2B-4222 --> 複数の会社アカウントを管理するユーザーのショッピングエクスペリエンスを効率化するように設計された、新しい買い物かご管理システムを導入しました。 この新しいシステムは、買い物かごを顧客アカウントではなく個々の会社に関連付けて、次の機能をサポートすることで、買い物体験を合理化し、ワークフローを改善します。
+
+- **企業固有の買い物かご：** – 企業固有の価格と製品オプションをサポートするために、買い物かごが個々の企業にリンクされるようになりました。
+- **シームレスな切り替え**：ユーザーは、各企業の買い物かごの内容に影響を与えることなく、異なる企業アカウントを容易に切り替えることができます。
+- **コンテキストの整合性** – 買い物かごの詳細はすべて、それぞれの会社のコンテキスト内に残り、一貫性と信頼性の高いショッピングエクスペリエンスを提供します。
 
 ## B2B 1.5.0
 
@@ -94,7 +122,7 @@ B2B v1.5.0 リリースには、新機能、品質の改善、バグ修正が含
 
 ![ 修正された問題 ](../assets/fix.svg)**既存の引用機能の修正**
 
-- 管理画面で Quote の詳細表示の「*[!UICONTROL Print]*」ボタンをクリックすると、Quote をPDFとして保存するよう促すメッセージが表示されるようになりました。 以前は、マーチャントは見積りの詳細を含むページにリダイレクトされていました。<!--ACP2E-1984-->
+- 管理者が Quote の詳細表示で「*[!UICONTROL Print]*」ボタンをクリックすると、Quote をPDFとして保存するよう促すメッセージが表示されるようになりました。 以前は、マーチャントは見積りの詳細を含むページにリダイレクトされていました。<!--ACP2E-1984-->
 
 - 以前は、割合と数量の変更を含む顧客の見積 `0` を送信すると、管理者は例外をスローしていましたが、数量は保存されていました。 この修正が適用されると、`0 percentage` の適切な例外に対してメッセージがスローされます。<!--ACP2E-1742-->
 
@@ -192,7 +220,7 @@ B2B v1.4.1 リリースには、品質の改善とバグ修正が含まれてい
 
 ![ 修正された問題 ](../assets/fix.svg)Adobe Commerceでは、「発注書」オプションが有効になっており、PayPal 支払いオプションを使用して作成されたバーチャル見積もりが選択されている場合、支払い中に正しい詳細が表示されるようになりました。 以前は、これらの条件の下で合計はゼロとして表示されていました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--ACP2E-1504--> クレジット制限が 999 を超える会社を保存しようとすると、検証エラーが発生しなくなりました。 以前は、会社のクレジット制限が 999 を超える場合、Adobeコマースにコンマ区切り記号が挿入され、検証エラーが発生して更新を保存できませんでした。
+![ 修正された問題 ](../assets/fix.svg) <!--ACP2E-1504--> クレジット制限が 999 を超える会社を保存しようとすると、検証エラーが発生しなくなりました。 以前は、会社のクレジット制限が 999 を超える場合、Adobe commerce でコンマ区切り記号が挿入され、検証エラーが発生して更新を保存できませんでした。
 
 ![ 修正された問題 ](../assets/fix.svg) <!--ACP2E-1474--> 交渉可能な見積もりで注文を行っても、選択した配送先住所は変更されません。 以前は、注文すると、選択した配送先住所がデフォルトの配送先住所に変更されていました。
 
@@ -296,7 +324,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-406-->Adobe Commerceでは、**[!UICONTROL Enable Cross Border Trade]** 税の計算設定が有効な場合、交渉可能な見積もりの総計を正しく計算するようになりました。
 
-![ 修正された問題 ](../assets/fix.svg)<!--- ACP2E-322--> 設定 **[!UICONTROL Move out of stock to the bottom]** 定が有効な場合、在庫が更新された後、設定可能な製品が製品リストの最後の位置に移動されるようになりました。 新しいカスタムデータベースクエリが実装され、Elasticsearchインデックスの並べ替え順が管理者向けの並べ替え順に従うようになりました。 以前は、この設定が有効な場合、設定可能な製品とその子製品は、リストの下部に移動されませんでした。
+![ 修正された問題 ](../assets/fix.svg)<!--- ACP2E-322--> 設定 **[!UICONTROL Move out of stock to the bottom]** 定が有効な場合、在庫が更新された後、設定可能な製品が製品リストの最後の位置に移動されるようになりました。 新しいカスタムデータベースクエリが実装され、Elasticsearch インデックスの並べ替え順が管理者向けの並べ替え順に従うようになりました。 以前は、この設定が有効な場合、設定可能な製品とその子製品は、リストの下部に移動されませんでした。
 
 ![ 問題の修正 ](../assets/fix.svg)<!--- ACP2E-308--> 発注書のメールが、マルチサイトデプロイメントの各 web サイトのメール送信設定に従うようになりました。 メールキューのカスタムロジックに **[!UICONTROL Disable Email Communications]** 設定のチェックが追加されます。 以前は、Adobe Commerceは、セカンダリ web サイトのメール送信設定を受け入れませんでした。
 
@@ -328,7 +356,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![ 修正された問題 ](../assets/fix.svg) <!--- MC-41985--> 会社の役割が 10 万件を超えるデプロイメントでAdobe Commerce 2.3.x からAdobe Commerce 2.4.x にアップグレードするのに必要な時間が大幅に短縮されました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-42153-->POSTの `V1/order/:orderId/invoice` リクエストで、**[!UICONTROL Payment on Account]** 支払い方法が有効な場合に、部分請求書の作成がサポートされるようになりました。 以前は、Adobe Commerceは次のエラーをスローしていました：`An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`。 [GitHub-32428](https://github.com/magento/magento2/issues/32428)
+![ 修正された問題 ](../assets/fix.svg) <!--- MC-42153--> POST `V1/order/:orderId/invoice` リクエストで、**[!UICONTROL Payment on Account]** 支払い方法が有効な場合に部分請求書の作成がサポートされるようになりました。 以前は、Adobe Commerceは次のエラーをスローしていました：`An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`。 [GitHub-32428](https://github.com/magento/magento2/issues/32428)
 
 ![ 修正された問題 ](../assets/fix.svg) <!--- MC-41975--> 顧客の買い物かごに他の製品が含まれている場合、PayPal Payflow Pro は B2B 譲渡可能な見積もりで期待どおりに機能するようになりました。 Adobe Commerceが注文を正常に処理し、期待どおりにメールを顧客に送信するようになりました。 以前は、Adobe Commerceが致命的なエラーをスローし、値が 0 の確認メールをお客様に送信していました。
 
@@ -438,7 +466,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ### 購買依頼リスト
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-40426--> マーチャントは、POST `rest/all/V1/requisition_lists` エンドポイントを使用して、顧客の購買依頼リストを作成できるようになりました。 以前は、Adobe Commerceが購買依頼リストを作成しようとした際に、次の 400 エラーがスローされていました。`Could not save Requisition List`
+![ 修正された問題 ](../assets/fix.svg)<!--- MC-40426--> マーチャントは、POST `rest/all/V1/requisition_lists` エンドポイントを使用して、顧客用の購買依頼リストを作成できるようになりました。 以前は、Adobe Commerceが購買依頼リストを作成しようとした際に、次の 400 エラーがスローされていました。`Could not save Requisition List`
 
 ![ 修正された問題 ](../assets/fix.svg) <!--- MC-41123--> 買い物かごに在庫切れの商品も含まれている場合、買い物かごの在庫商品に「**[!UICONTROL Add to Requisition List]**」ボタンが表示されるようになりました。 以前は、1 つの買い物かごに 2 つの製品が含まれ、そのうち 1 つが在庫切れの場合、どちらの製品にも「_[!UICONTROL Add to Requisition List]_」ボタンが表示されませんでした。
 
@@ -458,7 +486,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![ 修正された問題 ](../assets/fix.svg) <!--- MC-41337--> レイヤードナビゲーションの結果に、フィルタリングされた属性を持つ製品の正確な数が含まれるようになり、買い物客は複数のフィルターを適用できるようになりました。 以前は、1 つのフィルターのみを適用できましたが、Adobe Commerceのレイヤーナビゲーションで、不正確な製品数が表示されていました。
 
-![ 修正された問題 ](../assets/fix.svg) Adobe Commerce<!--- MC-40779-->、検索結果のレイヤー化されたナビゲーションフィルターに製品数を正しく表示するようになりました。 以前は、検索結果ページのプラグインはElasticsearchを使用していませんでしたが、データベースに新しいクエリを発行しました。
+![ 修正された問題 ](../assets/fix.svg) Adobe Commerce<!--- MC-40779-->、検索結果のレイヤー化されたナビゲーションフィルターに製品数を正しく表示するようになりました。 以前は、検索結果ページのプラグインはElasticsearchを使用せずに、データベースに新しいクエリを発行していました。
 
 ![ 修正された問題 ](../assets/fix.svg)<!--- MC-39978--> マーチャントがデフォルトの共有カタログからすべての商品を削除した場合に、Adobe Commerceで階層価格が削除されなくなりました。
 
@@ -574,7 +602,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![ 修正された問題 ](../assets/fix.svg) マーチャントが **[!UICONTROL Allow To Exceed Credit Limit]** 設定を有効にすると、お客様が指定されたクレジット制限を超える権限を持っていることを確認するメール通知をAdobe Commerceが送信するようになりました。 以前は、Adobe Commerceから送信される通知メールで、お客様が制限を超える権限を持っていないことを示していました。<!--- MC-34584-->
 
-![ 修正された問題 ](../assets/fix.svg) 購買依頼リストの商品価格を囲むHTMLコンテナが、バンドルされた商品の子に対して正しく表示されるようになりました。<!--- MC-36331-->
+![ 修正された問題 ](../assets/fix.svg) 購買依頼リストの商品価格を囲むHTML コンテナが、バンドルされた商品の子に対して正しくレンダリングされるようになりました。<!--- MC-36331-->
 
 ![ 修正された問題 ](../assets/fix.svg) 多言語デプロイメントで会社を作成する際に、マーチャントが会社のユーザーのメールの送信言語を指定できるようになりました。 以前は、のドロップダウンメニューを使用すると、マーチャントは適切なストア表示を選択できましたが、言語は表示されませんでした。 <!--- MC-35777-->
 
@@ -582,7 +610,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![ 修正された問題 ](../assets/fix.svg) 「B2B 機能の設定」タブが正しく開くようになりました。 <!--- MC-35458--> ゲストは QuickOrder を使用して商品を買い物かごに追加し、商品を正常に削除できるようになりました。 以前は、買い物客が QuickOrder を使用して買い物かごに複数の製品を追加してから、製品を削除しても、製品が削除されませんでした。<!--- MC-35327-->
 
-![ 修正された問題 ](../assets/fix.svg) 状態が **不要** に設定されている場合、`region_id` を指定せずに、REST API PUTを使用して `/V1/company/:companyId` リクエストを更新できるようになりました。 以前は、`region_id` が必須でなくても、指定されていない場合、Adobe Commerceがエラーをスローしていました。<!--- MC-35304-->
+![ 修正された問題 ](../assets/fix.svg) 状態が **不要** に設定されている場合、`region_id` を指定せずに、REST API PUT `/V1/company/:companyId` リクエストを使用して会社を更新できるようになりました。 以前は、`region_id` が必須でなくても、指定されていない場合、Adobe Commerceがエラーをスローしていました。<!--- MC-35304-->
 
 ![ 修正された問題 ](../assets/fix.svg)REST API （`http://magento.local/rest/V1/company/2`、`2` は会社 ID を表す）を使用して B2B 会社を作成または更新した場合、期待どおりに応答に `applicable_payment_method` または `available_payment_methods` の設定が含まれるようになりました。<!--- MC-35248-->
 
@@ -590,7 +618,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![ 修正された問題 ](../assets/fix.svg) 新しい製品が公開共有カタログに割り当てられると、カテゴリ権限が変更されなくなりました。 以前は、カテゴリ権限は複製されていました。<!--- MC-34386-->
 
-![ 修正された問題 ](../assets/fix.svg) 会社のメールを更新するために使用される REST API エンドポイントPUT`rest/default/V1/company/{id}` で、大文字と小文字が区別されなくなりました。<!--- MC-34308-->
+![ 修正された問題 ](../assets/fix.svg) 会社のメールを更新するために使用される REST API エンドポイント PUT `rest/default/V1/company/{id}` で、大文字と小文字が区別されなくなりました。<!--- MC-34308-->
 
 ![ 修正された問題 ](../assets/fix.svg) 報酬モジュールを無効にすると、顧客アカウントの B2B 機能に影響しなくなりました。 以前は、報酬モジュールが無効の場合、会社プロファイル、会社ユーザー、役割と権限という B2B 関連のタブは表示されませんでした。<!--- MC-34191-->
 
@@ -632,7 +660,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![ 新規 ](../assets/new.svg) お客様としてログインがAdobe Commerceにデフォルトで含まれるようになりました。 この機能を使用すると、サイト従業員は、顧客としてログインして表示内容を確認することで、顧客を支援できます。
 
-![ 修正された問題 ](../assets/fix.svg)Elasticsearchを使用した階層型ナビゲーションで、属性の集計が正しく機能するようになりました
+![ 修正された問題 ](../assets/fix.svg)Elasticsearchを使用したレイヤーナビゲーションで、属性集計が正しく機能するようになりました
 
 ![ 問題を修正 ](../assets/fix.svg) 特殊文字による注文の検索が正常に機能するようになりました。
 
