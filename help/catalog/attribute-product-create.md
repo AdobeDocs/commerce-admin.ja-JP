@@ -3,9 +3,9 @@ title: 製品属性の作成および削除
 description: カタログ内の製品の特定の特性を説明するために使用される製品属性の作成および削除について説明します。
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3768fc8896dd353e5cc29b4fe82862d6653d6348
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
    | プロパティ | 説明 |
    |--- |--- |
    | `Text Field` | テキストの 1 行入力フィールド。 |
-   | `Text Area` | 製品の説明など、テキストの段落を入力するための複数行の入力フィールド。 WYSIWYG エディターを使用して、HTMLタグでテキストの書式を設定したり、テキストにタグを直接入力したりできます。 |
+   | `Text Area` | 製品の説明など、テキストの段落を入力するための複数行の入力フィールド。 WYSIWYG エディターを使用して、テキストをHTML タグで書式設定したり、テキストにタグを直接入力したりできます。 |
    | `Text Editor` | 属性の場所に完全に機能するテキストエディター。 |
    | 日付 | 日付値を [ 優先形式 ](attributes-input-types.md#date-and-time-options) および [ タイムゾーン ](../getting-started/store-details.md#locale-options) で表示します。 日付値は、リストまたはカレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）から選択できます。 <br/><br/>**_メモ：_**システムの設定に応じて、_ 管理者 _ユーザーはフィールドに日付を直接入力したり、カレンダーやリストから日付を選択したりできます。 日付と時刻の値を指定する方法については、[ 日付と時刻のオプション ](attributes-input-types.md#date-and-time-options) を参照してください。 |
    | `Yes/No` | `Yes` と `No` の定義済みオプションを含むドロップダウン リストを表示します。 |
@@ -63,6 +63,10 @@ ht-degree: 0%
 ## 手順 2：詳細プロパティを記述する（必要な場合）
 
 1. 一意の **[!UICONTROL Attribute Code]** をスペースを含めずに小文字で入力します。
+
+   >[!NOTE]
+   >
+   >[!UICONTROL Attribute Code] フィールドに `type` の値を使用することはお勧めしません。 `type` の値はシステムでの使用のために予約されているので、これが原因でエラーが発生する可能性があります。
 
    ![ 製品属性 – 詳細プロパティ ](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
@@ -128,7 +132,7 @@ ht-degree: 0%
 
 1. テキストをHTMLで書式設定するには、**[!UICONTROL Allow HTML Tags on Frontend]** を `Yes` に設定します。
 
-   この設定により、フィールドで WYSIWYG エディターを使用できるようになります。
+   この設定により、フィールドでWYSIWYG エディターを使用できるようになります。
 
 1. 製品ページに属性を含めるには、**[!UICONTROL Visible on Catalog Pages on Storefront]** を `Yes` に設定します。
 
@@ -159,7 +163,7 @@ ht-degree: 0%
 | プロパティ | 値 |
 |----------|------ |
 | 店舗所有者のカタログ入力タイプ | ドロップダウン |
-| 範囲 | グローバル |
+| 対象範囲 | グローバル |
 
 {style="table-layout:auto"}
 
