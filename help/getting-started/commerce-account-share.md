@@ -3,9 +3,9 @@ title: アカウント  [!DNL Commerce]  共有
 description: 自分のアカウントに対する制限付きアクセスを、他のアカウン  [!DNL Commerce]  所有者に許可する方法  [!DNL Commerce]  説明します。
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: e7d76a7fa9ba8d8b8ee1ce122f7ca61e2aa317c6
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->共有アクセスを持つユーザーが実行するすべてのアクションは、プライマリアカウント所有者の唯一の責任です。 Adobeは、お客様のアカウントに対して共通のアクセス権を持つユーザーが行うすべてのアクションに対して責任を負いません。
+>共有アクセスを持つユーザーが実行するすべてのアクションは、プライマリアカウント所有者の唯一の責任です。 Adobeは、お客様のアカウントに対する共有アクセス権を持つユーザーが実行するいかなるアクションについても責任を負いません。
 
 ![ 共有アクセス設定 ](./assets/shared-access.png){width="600" zoomable="yes"}
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 開始する前に、**新しい共有アクセス権限** の [!DNL Commerce] アカウントから次の情報を取得します。
 
-   - ユーザーは、account.adobe.comで既にアカウントに登録されており、account.magento.comでログインしている必要があります。
+   - ユーザーは、account.adobe.comで既にアカウントに登録されており、account.magento.comでログインしている必要があります。 詳しくは [Commerce アカウントの作成 ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) を参照してください。
    - この `MAGE ID/Account ID (MAG00XXXXXXX)` は、「ログアウ _[!UICONTROL Magento]_**リンクのすぐ上の「**ログアウト」タブの左上隅に表示されます。
    - アカウントに関連付けられている `Email` アドレス。
 

@@ -4,9 +4,9 @@ description: 管理者ユーザーアカウントを作成し、役割を割り�
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: ad75c77ada34c4d66b1a58a666edadd44d054e17
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 ストアを初めてインストールすると、完全な管理アクセス権を付与するログイン資格情報を使用して、デフォルトの管理者アカウントが作成されます。 ベストプラクティスとして、完全な管理者アクセス権を持つ別のユーザーアカウントを作成してください。 これにより、1 つのアカウントを日常の管理活動に使用し、もう 1 つを「スーパー管理者」アカウントとして予約できます。 これは、通常の資格情報を忘れた場合や、何らかの理由で使用できなくなった場合に役立ちます。
 
-チームまたはサービスプロバイダーにアクセスを必要とする他のユーザーがいる場合は、それぞれに個別のユーザーアカウントを作成し、ビジネスで必要な知識に基づいて制限付きアクセスを割り当てることができます。 管理者でユーザーがアクセスできる web サイトやストアを制限するには、まず [ 役割を作成 ](permissions-user-roles.md) する必要があります。範囲は限られており、必要なリソースのみが選択されています。 次に、その役割を特定のユーザーアカウントに割り当てることができます。 制限付き役割に割り当てられた管理者ユーザーは、その役割に関連付けられた Web サイトまたはストアのデータのみを表示および変更できますが、グローバル設定やデータは変更できません。
+他のチームメンバーやサービスプロバイダーがアクセスを必要とする場合は、それらのメンバーに対して個別のユーザーアカウントを作成し、特定のビジネスニーズに基づいて制限付きアクセスを割り当てることができます。 管理者でユーザーがアクセスできる web サイトやストアを制限するには、まず [ 役割を作成 ](permissions-user-roles.md) する必要があります。範囲は限られており、必要なリソースのみが選択されています。 次に、その役割を特定のユーザーアカウントに割り当てることができます。 制限付き役割に割り当てられた管理者ユーザーは、その役割に関連付けられた Web サイトまたはストアのデータのみを表示および変更できますが、グローバル設定やデータは変更できません。
 
 >[!NOTE]
 >
->Adobe IDを持ち、Adobe CommerceおよびAdobeビジネス製品への効率的なログインを必要とするAdobe Commerce マーチャントは、Commerce認証をAdobe IMS認証ワークフローと統合できます。 この統合がCommerce ストアに対して有効になると、各管理者ユーザーは、Commerce資格情報ではなく、Adobe資格情報を使用してログインする必要があります。 [Integration Identity Management Service （IMS）のAdobeの概要 ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html) を参照してください。
+>Adobe IDを持ち、Adobe CommerceおよびAdobe Business Products への効率的なログインを必要とするAdobe Commerce マーチャントは、Commerce認証をAdobe IMS認証ワークフローと統合できます。 この統合がCommerce ストアに対して有効になると、各管理者ユーザーは、Commerce資格情報ではなく、Adobe資格情報を使用してログインする必要があります。 [Adobe Identity Management Service （IMS）統合の概要 ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html) を参照してください。
 
 一時的なユーザーまたは役割の場合は、ユーザーアカウントの有効期限を設定することもできます。
 
