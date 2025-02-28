@@ -1,33 +1,51 @@
 ---
-title: CommerceのExperience Manager Assets統合
+title: CommerceのAdobe Experience Manager Assets統合
 description: Experience Manager Assetsをインスタンスと統合して  [!DNL Commerce]  ストアで使用する無数のメディアアセットにアクセスする方法を説明します。
 feature: CMS, Media, Configuration, Integration
 exl-id: b3c9d12c-bf95-435c-bb93-b8fbf80d084e
-source-git-commit: b6f95cd23bbeb5200f31a23d7ff9216b0c21a53c
+source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
-# CommerceのExperience Manager Assets統合
+# CommerceのAdobe Experience Manager Assets統合
 
-CommerceのExperience Manager Assets統合では、AEM as a Digital Asset Management （DAM）システムの堅牢な機能とAdobe Commerceを組み合わせて、e コマースエクスペリエンスを強化しています。 これらの機能は、Commerce プロジェクトをAEMの強力なアセット管理環境に接続することで提供され、コマースストアフロントをまたいでアセットを管理および配信するための、シームレスでスケーラブルかつ効率的な方法を提供します。
+Adobe Experience Manager（AEM）CommerceのAssets統合では、AEM as a Digital Asset Management （DAM）システムの堅牢な機能とAdobe Commerceを組み合わせて、e コマースエクスペリエンスを強化できます。 これらの機能は、Commerce プロジェクトをAEMの強力なアセット管理環境に接続することで提供され、コマースストアフロントをまたいでアセットを管理および配信するための、シームレスでスケーラブルかつ効率的な方法を提供します。
 
-**主な特長**
+>[!BEGINSHADEBOX]
 
-- **一元的なアセット管理**
+## 主なビジネス上のメリット
 
-   - **AEM Assets as a Single Source of Truth**-AEM Assetsは、すべてのデジタルアセットの中央リポジトリとして機能し、すべての e コマースプラットフォームがオンブランドの承認済みアセットにアクセスできるようにします。
+![ チェック ](assets/icon-check.png)**一元的なアセット管理**
 
-   - **一括アセット管理** AEMの堅牢なアセット管理機能により、組織は大量のアセットを効率的に管理できます。 これにより、マーケターとマーチャンダイザーは、新しい製品ライン用に大量の画像セットを効率的にマッピングできます。
+- **AEM Assets as a Single Source of Truth**-AEM Assetsは、すべてのデジタルアセットの中央リポジトリとして機能し、すべての e コマースプラットフォームがオンブランドの承認済みアセットにアクセスできるようにします。
 
-- **パーソナライズされたCommerce エクスペリエンス** - AEMの GenAI サービスを使用すると、パーソナライズされた e コマースエクスペリエンスに対して何百万種類もの製品バリエーションを生成できます。 マーケターやマーチャンダイザーは、これらの画像を使用して、製品のローンチや季節的なキャンペーンのための動的なストアフロントを作成し、エンゲージメントを強化し、コンバージョン率を高めることができます。
+- **一括アセット管理** - AEMの堅牢なアセット管理機能により、組織は大量のアセットを効率的に管理できます。 これにより、マーケターとマーチャンダイザーは、新しい製品ライン用に大量の画像セットを効率的にマッピングできます。
 
-- **自動アセットマッチング** – この統合には、SKU またはその他の主要な属性に基づいてAEM内のアセットをAdobe Commerce内の製品に自動的に照合するルールエンジンサービスが含まれています。 このサービスにより、最新の製品アセットとバリエーションが、e コマースストアフロントで常に利用できるようになります。 また、アセットの管理に必要な手動の手間を軽減し、より戦略的なアクティビティに時間を解放します。
+![ チェック ](assets/icon-check.png) パーソナライズされたCommerce エクスペリエンス **** AEMの GenAI サービスを使用すると、パーソナライズされた e コマースエクスペリエンスに向けて何百万もの商品バリエーションを生み出すことができます。 マーケターやマーチャンダイザーは、これらの画像を使用して、製品のローンチや季節的なキャンペーンのための動的なストアフロントを作成し、エンゲージメントを強化し、コンバージョン率を高めることができます。
 
-- **事務の合理化**
+![ チェック ](assets/icon-check.png)**自動アセットマッチング** – この統合には、SKU またはその他の主要な属性に基づいて、AEM内のアセットをAdobe Commerce内の製品と自動的に照合するルールエンジンサービスが含まれています。 このサービスにより、最新の製品アセットとバリエーションが、e コマースストアフロントで常に利用できるようになります。 また、アセットの管理に必要な手動の手間を軽減し、より戦略的なアクティビティに時間を解放します。
 
-   - **Commerce管理から統合を有効にして設定します** – 管理者と開発者は、使い慣れたツールとプロセスを使用して、Adobe Commerceから統合をインストールして設定できます。
-   - **動的な更新** – アセット管理システムの最新の変更に合わせて製品画像を最新の状態に保ちます。 これらの自動更新により、コマースストアフロントに常に最新の製品情報が保持されるようになります。
-   - **効率的なカタログ管理** - アセットのクリーンアップと更新を自動化することで、製品カタログのメンテナンスを簡素化します。
+![ プロセス ](assets/icon-check.png) チ **ック**
+
+- **Commerce管理から統合を有効にして設定します** – 管理者と開発者は、使い慣れたツールとプロセスを使用して、Adobe Commerceから統合をインストールして設定できます。
+
+- **動的な更新** – アセット管理システムの最新の変更に合わせて製品画像を最新の状態に保ちます。 これらの自動更新により、コマースストアフロントに常に最新の製品情報が保持されるようになります。
+
+- **効率的なカタログ管理** - アセットのクリーンアップと更新を自動化することで、製品カタログのメンテナンスを簡素化します。
+
+>[!ENDSHADEBOX]
+
+このビデオでは、Adobe CommerceとAEM Assetsを連携させてコンテンツワークフローを効率化する方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3447837)
+
+## 次の手順
+
+[CommerceのAEM Assets統合を設定する ](aem-assets-onboard.md)。
+
+## サポート
+
+情報が必要な場合や、このガイドで扱われていない質問がある場合は、AEM Assets Integration の営業担当または [ サポートチケット ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) を作成して、追加のヘルプを受けてください。
