@@ -1,18 +1,18 @@
 ---
-title: アセット同期の有効化
+title: 統合の設定
 description: Adobe Commerce プロジェクトとExperience Manager Assets プロジェクトを接続して、これら 2 つのシステム間のアセット同期を有効にする方法を説明します。
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 36defb137a48067fe59b95f0519a7703a38e039d
+source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
-# アセット同期の有効化
+# 統合の設定
 
-CommerceをAEM Assets インスタンスに接続するようにCommerce環境設定を更新して、アセットの同期を有効にします。 統合により、CommerceとAEM Assetsの間でアセットを同期できるので、商品イメージやその他のアセットを常に最新の状態に保つことができます。
+CommerceをAEM Assets インスタンスに接続し、アセット同期の一致する方法を選択することで、統合を設定します。
 
 AEM Assets プロジェクトを特定した後、Adobe CommerceとAEM Assetsの間でアセットを同期するための一致ルールを選択します。
 
@@ -24,11 +24,11 @@ AEM Assets プロジェクトを特定した後、Adobe CommerceとAEM Assetsの
 
 ## 前提条件
 
-- [Commerce アセットを管理するためのAEM Assetsの設定](aem-assets-configure-aem.md)
+- [AEM Assets パッケージのインストール](aem-assets-configure-aem.md)
 
-- [CommerceのAEM Assets統合をインストールおよび設定 ](aem-assets-configure-commerce.md) して、拡張機能を追加し、拡張機能を使用するために必要な資格情報と接続を生成します。
+- [Adobe Commerce パッケージをインストール ](aem-assets-configure-commerce.md) して、拡張機能を追加し、拡張機能を使用するために必要な資格情報と接続を生成します。
 
-- AEM Assets統合の有効化をリクエストするサポートチケットを作成します。 Commerceに接続するAEM Assets オーサリング環境用の **[!UICONTROL Program ID]**、**[!UICONTROL Environment ID]** および **[!UICONTROL IMS Org ID]** を指定する必要があります。
+- AEM Assets for Commerce統合の有効化をリクエストするサポートチケットを作成します。 チケットに、Commerceに接続するAEM Assets オーサリング環境用の **[!UICONTROL Program ID]**、**[!UICONTROL Environment ID]** および **[!UICONTROL IMS Org ID]** を含めます。
 
   >[!TIP]
   >
@@ -69,7 +69,7 @@ AEM Assets プロジェクトを特定した後、Adobe CommerceとAEM Assetsの
 
 1. 「**[!UICONTROL Save Config]**」を選択すると、更新を適用し、アセットの同期を開始します。
 
-   設定のアップデートは、初期同期プロセスをトリガーし、CommerceがAEM Assetsから受信するアップデートを受け入れるようにします。同期に要する時間は、アセットのボリュームと具体的な設定によって異なります。 この統合では、自動化されたプロセスを活用して、同期に要する時間を最小限に抑えます。
+   設定の更新は初期同期プロセスをトリガーし、CommerceがAEM Assetsから受信する更新を受け入れるようにします。 同期に要する時間は、アセットの量と特定の設定によって異なります。 この統合では、自動化されたプロセスを活用して、同期に要する時間を最小限に抑えます。
 
 ## 次の手順
 

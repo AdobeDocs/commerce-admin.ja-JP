@@ -1,22 +1,24 @@
 ---
-title: Experience Manager Assets統合のインストールと設定
-description: Adobe Commerce インスタンスにをインストールして設定する方法  [!DNL AEM Assets Integration for Adobe Commerce]  説明します。
+title: Adobe Commerce パッケージのインストール
+description: Adobe Commerce インスタンスにおよび拡張機能をインスト  [!DNL AEM Assets Integration for Adobe Commerce]  ルする方法について説明します。
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: bdfff57ed5bbf2ae460c382d9cfbaef0ebcaa2e8
+source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
 
-# Commerce用のAEM Assets統合のインストールと設定
+# Adobe Commerce パッケージのインストール
 
-`aem-assets-integration` PHP 拡張機能をインストールすることにより、CommerceのAEM Assets統合を使用するようにCommerce環境を準備します。 次に、管理者設定を更新して、Adobe CommerceとAEM Assets間の通信とワークフローを有効にします。
+AEM Assets Integration for Commerce拡張機能（`aem-assets-integration`）を使用すると、Adobe CommerceとAdobe Experience Manager Assetsの間でアセットを同期できます。 この拡張機能は、製品画像、ビデオ、その他のメディアアセットなど、両方のプラットフォームにわたってアセットを管理する一連のツールとサービスを提供します。
+
+`aem-assets-integration` PHP 拡張機能をインストールすることにより、この拡張機能をCommerce環境に追加します。 また、Adobe CommerceのAdobe I/O Eventsを有効にして、CommerceとAdobe Experience Manager Assets間の通信およびワークフローに必要な資格情報を生成する必要があります。
 
 ## 必要システム構成
 
-CommerceのAEM Assets統合には、次のシステム要件と設定要件があります。
+AEM Assets Integration for Commerce拡張機能には、次のシステム要件と設定要件があります。
 
 **ソフトウェア要件**
 
@@ -24,38 +26,32 @@ CommerceのAEM Assets統合には、次のシステム要件と設定要件が�
 - PHP 8.1、8.2、8.3
 - コンポーザー：2.x
 
-**設定要件**
+**アクセス要件**
 
-- アカウントのプロビジョニングと権限：
+統合を設定するには、次の役割と権限が必要です。
 
-   - [Commerce クラウドプロジェクト管理者 ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) – 必要な拡張機能をインストールして、管理者またはコマンドラインからCommerce アプリケーションサーバーを設定します
+- [Commerce クラウドプロジェクト管理者 ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) – 必要な拡張機能をインストールして、管理者またはコマンドラインからCommerce アプリケーションサーバーを設定します。
 
-   - [Commerce管理者 ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - ストア設定を更新し、Commerce ユーザーアカウントを管理します
+   - [repo.magento.com](https://repo.magento.com/admin/dashboard) にアクセスして、拡張機能をインストールします。
+
+     キーの生成と必要な権限の取得については、[ 認証キーの取得 ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) を参照してください。 クラウドインストールについては、[Commerce on Cloud Infrastructure ガイドを参照してください ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+
+- [Commerce管理者 ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - ストア設定を更新し、Commerce ユーザーアカウントを管理します。
 
 >[!TIP]
 >
 > Adobe Commerceは、[Adobe IMS認証 ](/help/getting-started/adobe-ims-config.md) を使用するように設定できます。
 
-## 設定ワークフロー
+## インストールと設定のワークフロー
 
-統合を有効にするには、次のタスクを実行します。
+Adobe Commerce パッケージをインストールし、次のタスクを実行してCommerce環境を準備します。
 
-1. [AEM Assets Integration Extension （`aem-assets-integration`）をインストールします ](#install-the-aem-assets-integration-extension)。
+1. [AEM Assets Integration for Commerce拡張機能（`aem-assets-integration`）をインストールします ](#install-the-aem-assets-integration-extension)。
 1. [Commerce サービスコネクタを設定 ](#configure-the-commerce-services-connector) して、Adobe Commerce インスタンスと、Adobe CommerceとAEM Assets間でデータを転送できるサービスを接続します。
 1. [Commerce用のAdobe I/O Eventsの設定](#configure-adobe-io-events-for-commerce)
 1. [API アクセスの認証資格情報の取得](#get-authentication-credentials-for-api-access)
 
 ## `aem-assets-integration` 拡張機能のインストール
-
-拡張機能のインストールには、次の権限が必要です。
-
-- [repo.magento.com](https://repo.magento.com/admin/dashboard) にアクセスして、拡張機能をインストールします。
-
-  キーの生成と必要な権限の取得については、[ 認証キーの取得 ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) を参照してください。 クラウドインストールについては、[Commerce on Cloud Infrastructure ガイドを参照してください ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
-
-- Adobe Commerce アプリケーションサーバーのコマンドラインにアクセスします。
-
-### Commerce環境への拡張機能の追加
 
 Adobe Commerce 2.4.5 以降のバージョンのAdobe Commerce インスタンスに、最新バージョンのAEM Assets Integration Extension （`aem-assets-integration`）をインストールします。 AEM Asset Integration は、[repo.magento.com](https://repo.magento.com/admin/dashboard) リポジトリから composer メタパッケージとして提供されます。
 
@@ -159,7 +155,7 @@ Adobe Commerce インスタンスとAEM Assets統合を有効にするサービ�
 
 AEM Assets統合では、Adobe I/O Events サービスを使用して、Commerce インスタンスとExperience Cloudの間でカスタムイベントデータを送信します。 イベントデータは、AEM Assets統合のワークフローを調整するために使用されます。
 
-Adobe I/O イベントを設定する前に、Commerce プロジェクトの RabbitMQ および cron ジョブ設定を確認します。
+Adobe I/O Eventsを設定する前に、Commerce プロジェクトの RabbitMQ と cron ジョブ設定を確認します。
 
 - RabbitMQ が有効になっていて、イベントをリッスンしていることを確認します。
    - [Adobe Commerce オンプレミス用の RabbitMQ のセットアップ ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
@@ -174,6 +170,10 @@ Adobe I/O イベントを設定する前に、Commerce プロジェクトの Rab
 ### Commerce イベントフレームワークの有効化
 
 Commerce Admin からイベントフレームワークを有効にします。
+
+>[!NOTE]
+>
+>App Builderの設定が必要になるのは、CommerceとAEM Assetsの間でアセットを同期するためにカスタムのマッチング方法を使用する予定がある場合のみです。
 
 1. 管理者から、**[!UICONTROL Stores]**/[!UICONTROL Settings]/**[!UICONTROL Configuration]**/**[!UICONTROL Adobe Services]**/**Adobe I/O Events** に移動します。
 
@@ -209,13 +209,13 @@ Commerce Admin からイベントフレームワークを有効にします。
 
 この例に基づいてスニペットを作成する前に、値を確認して、変更が必要かどうかを判断してください。
 
-- `name`: VCL スニペットの名前。 この例では、`blockbyuseragent` という名前を使用しました。
+- `name`: VCL スニペットの名前。 この例では、`blockbyuseragent` という名前を使用します。
 
 - `dynamic`: スニペットのバージョンを設定します。 この例では、`0` を使用します。 詳細なデータモデル情報については、[Fastly VCL スニペット ](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/) を参照してください。
 
-- `type`: VCL スニペットのタイプを指定します。このスニペットは、生成された VCL コード内のスニペットの場所を決定します。 この例では、`recv` を使用しました。スニペットのタイプのリストについては、[Fastly VCL スニペットのリファレンス ](https://docs.fastly.com/api/config#api-section-snippet) を参照してください。
+- `type`: VCL スニペットのタイプを指定します。このスニペットは、生成された VCL コード内のスニペットの場所を決定します。 この例では、`recv` を使用します。 スニペットタイプのリストについては、[Fastly VCL スニペットリファレンス ](https://www.fastly.com/documentation/reference/api/#api-section-snippet) を参照してください。
 
-- `priority`: VCL スニペットを実行するタイミングを指定します。 この例では、優先度 `5` を使用して、直ちに実行し、許可された IP アドレスからの管理リクエストであるかどうかを確認します。
+- `priority`: VCL スニペットを実行するタイミングを指定します。 この例では、優先度 `5` を使用してすぐに実行し、許可された IP アドレスからの管理リクエストであるかどうかを確認します。
 
 - `content`：実行する VCL コードのスニペット。クライアントの IP アドレスを確認します。 IP がEdgeの ACL に含まれている場合は、web サイト全体に対して `405 Not allowed` エラーが発生して IP のアクセスがブロックされます。 その他すべてのクライアント IP アドレスへのアクセスが許可されます。
 
@@ -253,7 +253,7 @@ CommerceのAEM Assets統合では、Commerce インスタンスへの API アク
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-### 資格情報を生成
+### OAuth 認証情報の生成
 
 統合ページで、Assets統合の「**アクティブ化**」をクリックして、OAuth 認証資格情報を生成します。 Commerce プロジェクトをAssets Rule Engine サービスに登録し、Adobe CommerceとAEM Assetsの間でアセットを管理するための API リクエストを送信するには、これらの資格情報が必要です。
 
@@ -273,4 +273,4 @@ CommerceのAEM Assets統合では、Commerce インスタンスへの API アク
 
 ## 次の手順
 
-[アセット同期を有効にして、Adobe Commerce プロジェクト環境とAEM Assets プロジェクト環境の間でアセットを転送します](aem-assets-setup-synchronization.md)
+[Adobe CommerceとAEM Assets プロジェクト環境を結び付け、アセットを同期するためのマッチング戦略を選択します](aem-assets-setup-synchronization.md)
