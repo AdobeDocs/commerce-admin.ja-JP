@@ -3,9 +3,9 @@ title: UPS （統一宅配便）
 description: ストアの配送業者として UPS を設定する方法を説明します。
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
+source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,15 @@ ht-degree: 0%
 
 ## 手順 1: UPS 出荷アカウントのオープン
 
-この配送方法を顧客に提供するには、まず UPS でアカウントを開設する必要があります。
+この配送方法を顧客に提供するには、最初に UPS アカウントを開設し、申請を完了して荷主アカウント番号を取得する必要があります。 [ 無料の UPS アカウントを開く ](https://www.ups.com/us/en/business-solutions/open-an-account) を参照してください。
 
-## 手順 2：ストアに対して UPS を有効にする
+## 手順 2:UPS OAUTH 資格情報の取得
+
+[UPS API の概要 ](https://developer.ups.com/get-started) の手順に従って、UPS 統合を有効にするための API 資格情報（クライアント ID およびクライアント秘密鍵）を取得します。 資格情報を取得するには、UPS アプリケーションを作成する必要があります。
+
+管理者で UPS 設定を指定する場合、`username` と `password` の資格情報の値を使用します。
+
+## 手順 3：ストアの UPS を有効にする
 
 1. _管理者サイドバー_ で、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
@@ -116,7 +122,7 @@ ht-degree: 0%
 
    ![ コンテナの説明 ](./assets/ups2.png){width="600" zoomable="yes"}
 
-## 手順 4：手数料の設定
+## 手順 5：手数料の設定
 
 手数料は任意で、UPS の送料に加算される追加料金として表示されます。 手数料を含める場合は、次の操作を行います。
 
@@ -136,7 +142,7 @@ ht-degree: 0%
 
    ![ 手数料 ](./assets/ups3.png){width="600" zoomable="yes"}
 
-## 手順 5：許可される方法と適用可能な国を指定
+## 手順 6：許可される方法と適用国の指定
 
 1. **[!UICONTROL Allowed Methods]** しくは、顧客が使用できる各 UPS 配送方法を選択します。
 
@@ -174,7 +180,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Save Config]**」をクリックします。
 
-## 手順 6：発送元住所の設定
+## 手順 7：発送元住所の設定
 
 1. [ ストア情報 ](../getting-started/store-details.md#store-information) が完成していることを確認します。
 

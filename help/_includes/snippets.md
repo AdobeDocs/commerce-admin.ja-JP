@@ -1,9 +1,9 @@
 ---
 title: スニペット
 description: 特定のエディションに適用される機能またはページをメモするための再利用されたメモと視覚的要素
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 192d46c4d7105210d4fdcf090f60d45a5a6e40bd
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe IDを持っていて、Adobe CommerceおよびAdobeビジネス製品への効率的なログインを必要とするAdobe Commerce マーチャントは、Commerce Admin Authentication をAdobe IMS認証ワークフローと統合できます。 この統合がCommerce ストアに対して有効になると、各管理者ユーザーは、Commerce アカウントの資格情報ではなく、Adobeの資格情報を使用してログインする必要があります。 [Adobe CommerceとAdobe IMSの統合：概要 ](/help/getting-started/adobe-ims-integration-overview.md) を参照してください。
+>Adobe IDを持ち、Adobe CommerceおよびAdobe Business 製品への効率的なログインを必要とするAdobe Commerce マーチャントは、Commerce Admin Authentication をAdobe IMS認証ワークフローと統合できます。 この統合がCommerce ストアに対して有効になると、各管理者ユーザーは、Commerce アカウントの資格情報ではなく、Adobeの資格情報を使用してログインする必要があります。 [Adobe CommerceとAdobe IMSの統合：概要 ](/help/getting-started/adobe-ims-integration-overview.md) を参照してください。
 
 ## GTag API メモ {#gtag-api-note}
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->リダイレクトのプロセスでは、セキュリティ上の理由から、URL で指定されたすべてのGETパラメーターが削除されます。
+>リダイレクトのプロセスでは、セキュリティ上の理由から、URL で指定されたGET パラメーターがすべて削除されます。
 
 ## 新規価格ルール {#new-price-rule}
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->2024 年 6 月以降、Adobe Commerceのマーチャントは、現在の UPS 統合で取引できなくなりました。 これは、ネイティブのAdobe Commerce統合で使用される United Parcel Service （UPS） API が、現在、必要な OAuth 2.0 セキュリティモデルをサポートしていないためです。 この変更について詳しくは、[_開発者ポータルアクセスキー移行ガイド_](https://developer.ups.com/oauth-developer-guide) を参照してください。<br/>
+>2024 年 6 月以降、Adobe Commerceのマーチャントは、現在の UPS 統合で取引できなくなりました。 これは、ネイティブのAdobe Commerce統合で使用される United Parcel Service （UPS） API が、現在、必要な OAuth 2.0 セキュリティモデルをサポートしていないためです。 統合を有効にするには、[UPS 開発者プラットフォーム上でアプリケーションを作成 ](https://developer.ups.com/get-started) して、OAuth 2.0 に必要な資格情報を取得します。新しい資格情報を `username` として使用し、Commerce UPS の Shipping 設定で `password` を使用します。 セキュリティモデルの変更について詳しくは、[ 開発者ポータルのアクセスキー移行ガイド_](https://developer.ups.com/oauth-developer-guide) を参照してください。<br/>
 >
 >マーチャントは、SOAP API から OAuth 2.0 認証プロトコルをサポートする RESTful API に移行するために、ストアに [ 品質パッチの更新を適用 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) する必要があります。
 
