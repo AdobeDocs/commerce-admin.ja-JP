@@ -3,7 +3,7 @@ title: Adobe Commerceに対する HIPAA 対応
 description: Adobe Commerce HIPAA 対応拡張機能を追加し、HIPAA 義務を準拠できる追加機能を取得する方法について説明します。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 7e18b0b0ea308a6126b6cd35f943b133c75adff3
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '2300'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Adobe バージョン 2.4.6-p3 ～ 2.4.6-p8 を実行しているインスタン
 
 >[!NOTE]
 >
->Experience Platformに送信されるバックオフィスイベントデータが HIPAA に対応していることを確認するには、[Data Connection Extension ガイド ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/install#install-the-data-services-hipaa-extension) を参照してください。
+>Experience Platformに送信されるバックオフィスイベントデータが HIPAA に対応していることを確認するには、[Data Connection Extension ガイド ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension) を参照してください。
 
 1. ローカルワークステーションで、Adobe Commerce on cloud infrastructure プロジェクトのプロジェクトディレクトリに移動します。
 
@@ -264,12 +264,12 @@ Adobe Commerceの HIPAA 顧客検索結果制限機能は、保護された医�
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | はい | はい |
 | [Adobe Developer App Builderの API メッシュ ](https://developer.adobe.com/graphql-mesh-gateway/) | はい | はい |
-| [SaaS データのエクスポート ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) | はい | はい |
-| [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) | 不可 | 不可 |
-| [ 製品の推奨事項 ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview) | 不可 | 不可 |
-| [ 資金決済 ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) | 不可 | 不可 |
-| [ データ接続バックオフィスイベント ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice) | はい | はい |
-| [ データ接続ストアフロントイベント ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#storefront-events) | 不可 | 不可 |
+| [SaaS データのエクスポート ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | はい | はい |
+| [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | 不可 | 不可 |
+| [ 製品の推奨事項 ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | 不可 | 不可 |
+| [ 資金決済 ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | 不可 | 不可 |
+| [ データ接続バックオフィスイベント ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | はい | はい |
+| [ データ接続ストアフロントイベント ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | 不可 | 不可 |
 | [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | 不可 | 不可 |
 
 ### ツール

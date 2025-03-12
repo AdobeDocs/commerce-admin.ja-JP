@@ -1,22 +1,22 @@
 ---
-title: Adobe Commerce マーチャントドキュメント
+title: Adobe Commerce管理ユーザーガイド
 description: Adobe Commerce 製品ドキュメントの参照
 seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
-breadcrumb-title: マーチャントドキュメント
+breadcrumb-title: 管理ユーザーガイド
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: c9dfc5385a008619a5ab1eceeec93df2c00df059
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
 
-# <!-- use banner as heading -->![ マーチャントドキュメント ](./assets/banner-user-home.png) {#documentation}
+# <!-- use banner as heading -->![ 管理ドキュメント ](./assets/banner-user-home.png) {#documentation}
 
 次世代の世界最先端のデジタルコマースプラットフォームへようこそ。 Adobe Commerceは、オンラインストアの外観、コンテンツ、機能をこれまでになく柔軟に制御できるようにします。 管理者は、強力なマーケティング、検索エンジンの最適化、製品管理ツールを備えており、独自のビジネスニーズに合わせてカスタマイズされたサイトを作成できます。
 
-マーチャントドキュメントの情報は、Adobe CommerceまたはMagento Open Sourceコードベースで作業するビジネスユーザーに合わせて設計されています。 Adobe Commerce専用の機能や関数、または拡張された機能セット専用の機能や関数の表記法があります。
+管理者ユーザーガイドの情報は、Adobe Commerce管理者またはMagento Open Source コードベースで作業するビジネスユーザーに合わせて設計されています。 Adobe Commerce専用の機能や関数、または拡張された機能セット専用の機能や関数の表記法があります。
 
 ## Adobe Commerce {#product-editions}
 
@@ -24,11 +24,11 @@ Adobe Commerceは、アジャイルな B2B および B2C コマースプラッ�
 
 Adobe Commerceに含まれている高度な機能のリストについては、_リリース情報_ の [Commerce機能 ](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) を参照してください。
 
-## Magento Open Sourceコードベース
+## Magento Open Source コードベース
 
-Magento Open Sourceは、Adobeが公式に提供し、Adobe Commerceへの移行の互換性を確保するコードベースです。 このコードベースは、個人のデベロッパーに権限を与え、急速に成長することを目指す中小企業を育成するAdobeの取り組みの一部です。
+Magento Open Sourceは、Adobeが公式に提供し、Adobe Commerceへの移行の互換性を確保するコードベースです。 このコードベースは、個人のデベロッパーを支援し、急速な成長を目指す中小企業を育成するAdobeの取り組みの一部です。
 
-## マーチャントガイド
+## 管理ユーザーガイド
 
 <table>
 <tr>
@@ -37,7 +37,7 @@ Magento Open Sourceは、Adobeが公式に提供し、Adobe Commerceへの移行
    <td valign="top">
    <a href="https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html"><strong> はじめに </strong></a>
     <div>
-    <em> 多くのマーチャントが、Adobe CommerceまたはMagento Open Sourceの使用方法を学ぶときに持つ「理由、場所、方法」に関する質問に加えて、参考資料やリファレンス情報を示します。 このガイドは、より高度なトピックを紹介します。</em>
+    <em> ほとんどのマーチャントが、管理者に最初に問い合わせる際に持つ「理由、場所、方法」の質問に加え、リソースと参照情報です。 このガイドは、より高度なトピックを紹介します。</em>
     <br> </div>
   </td>
   </tr>
@@ -115,11 +115,11 @@ Magento Open Sourceは、Adobeが公式に提供し、Adobe Commerceへの移行
 </tr>
 </table>
 
-## マーチャントガイドの新機能
+## 管理ユーザーガイドの新機能
 
 >[!TIP]
 >
->また、[Commerce サービスのドキュメントの新機能 ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) および [ 運用ガイドの新機能 ](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new) も確認できます。
+>また、[Commerce サービスのドキュメントの新機能 ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html#what%E2%80%99s-new) および [ 運用ガイドの新機能 ](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new) も確認できます。
 
 | 説明 | タイプ | 日付 |
 | ----------- | ---- | ---- |
@@ -127,12 +127,12 @@ Magento Open Sourceは、Adobeが公式に提供し、Adobe Commerceへの移行
 | **1.4.0 B2B リリース** - [ 購入者への見積書の開始 ](../b2b/sales-rep-initiates-quote.md) トピックが _Adobe Commerce B2B ガイド_ に含まれるようになりました。 販売者が特定の購入者に対して見積もりを作成して交渉プロセスを開始する方法を説明します。 | 新規 | 2023/6/13 |
 | **1.4.0 B2B リリース** - [ 見積りの交渉 ](../b2b/quote-price-negotiation.md)、[ 交渉可能な見積り ](../b2b/quotes.md) および [B2B 機能の有効化 ](../b2b/enable-basic-features.md) の各トピックが更新され、セラーが開始した見積りとデフォルト機能の変更が反映されます。 | 更新 | 2023/6/13 |
 | **2.2.0 Adobe IMS統合リリース** - [Adobe IDとのCommerce管理者の統合を無効にする ](../getting-started/adobe-ims-disable.md) トピックが _はじめる前に_ ガイドに含まれるようになりました。 ここでは、Adobe Commerce Admin とAdobe IMSの統合を無効にするオプションの手順について説明します。 | 新規 | 2023/6/13 |
-| **2.2.0 Adobe IMS統合リリース** – 更新された機能に反映するために、[AdobeIdentity Management サービス （IMS）統合の概要 ](../getting-started/adobe-ims-integration-overview.md) および [Adobe IDとのCommerce管理者の統合の設定 ](../getting-started/adobe-ims-config.md) のトピックの変更です。 | 更新 | 2023/6/13 |
+| **2.2.0 Adobe IMS統合リリース** ](../getting-started/adobe-ims-integration-overview.md) - [Adobe Identity Management Service （IMS）統合の概要および [CommerceとAdobe IDの管理者の統合の設定 ](../getting-started/adobe-ims-config.md) のトピックの変更点が、更新された機能に反映されました。 | 更新 | 2023/6/13 |
 | **[!DNL Audience Activation]** - [[!DNL Audience Activation]](../customers/audience-activation.md) トピックには、[!DNL Experience Platform Connector] 設定 UI と、買い物かご価格ルールおよび動的ブロックでヘッドレス Commerce インスタンスを使用する方法に関する、新しい情報、更新された情報、改善された情報が含まれています。 | 更新 | 2023/6/13 |
 | **UPS API の廃止** - [United Parcel Service （UPS） ](../stores-purchase/ups.md) トピックおよび [ 配信方法 ](../configuration-reference/sales/delivery-methods.md#ups) 設定リファレンスページを更新して、新しい API キーを生成するための UPS API の一時的な廃止を反映しました。 | 更新 | 2023/6/08 |
 | **2.4.6 リリース** - [ 製品リスト ](../catalog/products-list.md) および [ 管理者設定リファレンス ](../configuration-reference/advanced/admin.md) トピックを更新して、大きなカタログのパフォーマンスを向上させるために使用できる製品の表示制限に関する情報を追加しました。 | 更新 | 2023/3/14 |
 | **2.4.6 リリース** - [ 顧客セグメントの作成と削除 ](../customers/customer-segment-create.md) および [ 顧客設定リファレンス ](../configuration-reference/customers/customer-configuration.md) のトピックを更新して、セグメントのリアルタイム検証に関する情報を含めました。 | 更新 | 2023/3/14 |
-| **2.4.6 リリース** - バンドルされたBraintree統合でサポートされている更新された支払いBraintreeと新しい支払いオプションを反映するために、[ オプション ](../stores-purchase/braintree.md) および [Braintree設定リファレンス ](../configuration-reference/sales/braintree.md) のトピックを更新しました。 | 更新 | 2023/3/14 |
+| **2.4.6 リリース** - バンドルされたBraintree統合でサポートされている更新済みの支払いオプションと新しい支払いオプションを反映するために、[Braintree](../stores-purchase/braintree.md) および [Braintree設定リファレンス ](../configuration-reference/sales/braintree.md) のトピックを更新しました。 | 更新 | 2023/3/14 |
 | **2.4.6 リリース** - [ 通貨設定 ](../stores-purchase/currency-configuration.md) および [ 通貨セットアップ設定 ](../configuration-reference/general/currency-setup.md) トピックを更新して、新しい [!DNL Fixer API] （APILayer）オプションを含めました。 | 更新 | 2023/3/14 |
 | **2.4.6 リリース** - [ メール通信の設定 ](../systems/email-communications.md) および [ システム設定リファレンス ](../configuration-reference/advanced/system.md#uicontrol-mail-sending-settings) トピックを更新して、メール通信用の新しい SMTP オプションを含めました。 | 更新 | 2023/3/14 |
 | **2.4.6 リリース** – 最新のバンドルされた拡張機能バージョン（v1.2.6）に含まれる修正の説明的なリストを使用して ](../inventory-management/release-notes.md)2}Inventory management リリースノート } を更新しました。[ | 更新 | 2023/3/14 |

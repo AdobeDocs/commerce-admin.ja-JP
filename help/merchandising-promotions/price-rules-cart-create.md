@@ -3,7 +3,7 @@ title: 買い物かご価格ルールの作成
 description: 買い物かごまたは製品属性に基づいて買い物かごの価格ルールを作成する方法を説明します。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '3386'
 ht-degree: 0%
@@ -215,11 +215,11 @@ Real-Time CDP[ オーディエンス ](../customers/audience-activation.md) に�
    | オプション | 説明 |
    |------|-----------|
    | `ID` | 管理内で使用されるオーディエンスの内部識別子 |
-   | `Real-Time CDP Audience ID` | Experience Platformで作成された際のオーディエンスの一意の ID |
+   | `Real-Time CDP Audience ID` | Experience Platformで作成されたときのオーディエンスの一意の ID |
    | `Name` | オーディエンスの名前（`Orders over $50` など） |
    | `Description` | オーディエンスの説明（`People who placed an order over $50 in the last month.` など）。 |
    | `Source` | オーディエンスの元の場所を示します（`Experience Platform` など）。 |
-   | `Website` | オーディエンスを含むデータストリームにリンクした web サイトを示します。 このリンクは、[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) 拡張機能を使用してCommerce インスタンスをExperience Platformに接続する際に作成します。 |
+   | `Website` | オーディエンスを含むデータストリームにリンクした web サイトを示します。 このリンクは、[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html) 拡張機能を使用してCommerce インスタンスをExperience Platformに接続する際に作成します。 |
 
    {style="table-layout:auto"}
 
@@ -352,8 +352,8 @@ Real-Time CDP[ オーディエンス ](../customers/audience-activation.md) に�
 | [!UICONTROL Uses per Customer] | 選択した顧客グループに属する同じ登録済み顧客が、買い物かご価格ルールを使用できる回数を決定します。 ログインしていない顧客グループのメンバーであるゲストの買い物客、またはアカウントにログインせずに買い物をしたお客様には適用されません。 無制限の場合は、空白のままにします。 |
 | [!UICONTROL Priority] | このルールの優先度を他のルールと比較して示す数値。 優先順位は高い順に `0,1,2,3...` まります |
 | [!UICONTROL Public in RSS Feed] | プロモーションがストアのパブリック RSS フィードに含まれるかどうかを決定します。 オプション：  `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） クーポンを使用できる最初の日付。 |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） クーポンを最後に使用できる日付。 |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）クーポンを使用できる最初の日付。 |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） クーポンを使用できる最終日。 |
 
 {style="table-layout:auto"}
 

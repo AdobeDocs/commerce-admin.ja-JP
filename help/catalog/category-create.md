@@ -3,7 +3,7 @@ title: カテゴリの作成
 description: 設定で設定されたメニューの最大深度に応じて、必要な数のサブカテゴリを追加できます。
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 6f83e90ed6bacd9e132d5caa01942f0ea90eb4b0
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 0%
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 1. カテゴリページにレイヤー化されたナビゲーションの _`Filter by Attribute`_セクションを含める場合は、「**[!UICONTROL Anchor]**」を「`Yes`」に設定します。
 
-1. **[!UICONTROL Available Product Listing Sort By]** のオプションでは、顧客がリストを並べ替えるために使用できる値を 1 つ以上選択します。 この設定は [!DNL Live Search] 製品一覧ページウィジェット [ には適用され ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling) せん。
+1. **[!UICONTROL Available Product Listing Sort By]** のオプションでは、顧客がリストを並べ替えるために使用できる値を 1 つ以上選択します。 この設定は [!DNL Live Search] 製品一覧ページウィジェット [ には適用され ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling) せん。
 
    デフォルトでは、使用可能なすべての値が含まれます。 「**[!UICONTROL Use All]**」チェックボックスの選択を解除して、選択内容を変更します。 例えば、次のような値が含まれます。
 
@@ -124,7 +124,7 @@ ht-degree: 0%
    - `Product Name`
    - `Price`
 
-1. カテゴリの既定の並べ替え順を設定するには、**[!UICONTROL Default Product Listing Sort By]** の値を選択します。 この設定は [!DNL Live Search] 製品一覧ページウィジェット [ には適用され ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling) せん。
+1. カテゴリの既定の並べ替え順を設定するには、**[!UICONTROL Default Product Listing Sort By]** の値を選択します。 この設定は [!DNL Live Search] 製品一覧ページウィジェット [ には適用され ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling) せん。
 
 1. デフォルトのレイヤー化されたナビゲーション [ 価格ステップ ](navigation-layered.md#configure-price-navigation) 設定を変更するには、次の手順を実行します。
 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
    ![ デザイン設定 ](./assets/category-design.png){width="600" zoomable="yes"}
 
-1. ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）特定の期間に対してデザインの更新をスケジュールするには、次の操作を行います。
+1. ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）特定の期間に対してデザインの更新をスケジュールするには、次の手順を実行します。
 
    - 「_[!UICONTROL Schedule Design Update]_」セクションを展開します。
 

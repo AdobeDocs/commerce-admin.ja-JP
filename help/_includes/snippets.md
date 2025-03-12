@@ -1,9 +1,9 @@
 ---
 title: スニペット
 description: 特定のエディションに適用される機能またはページをメモするための再利用されたメモと視覚的要素
-source-git-commit: 192d46c4d7105210d4fdcf090f60d45a5a6e40bd
+source-git-commit: eae60b99d6721442c4bfcf1a8db6a06826463d9c
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -75,10 +75,10 @@ ht-degree: 0%
 
 | ドキュメントリソース | 説明 |
 |----------------------- | ----------- |
-| [Adobe Commerce 2.4 マーチャントドキュメント ](../landing/home.md) | Adobe Commerceに関するマーチャント向けドキュメント |
-| [Adobe Commerce向けサービスのドキュメント ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | マーチャントがビジネスの主要なコンポーネントをストアと統合するのに役立つ、サービスのコレクションをサポートするドキュメント。 |
+| [Adobe Commerce 2.4 管理ユーザーガイド ](../landing/home.md) | 管理で操作するマーチャント向けのドキュメントとリソースです。 |
+| [Adobe Commerce向けサービスのドキュメント ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | マーチャンダイジングサービスのコレクションをサポートするドキュメント。マーチャントがビジネスの主要なコンポーネントをストアと統合するのに役立ちます。 |
 | [ クラウドインフラストラクチャー上のCommerceガイド ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 管理された自動ホスティングクラウドプラットフォームにAdobe Commerceをデプロイするためのステップバイステップの手順。 |
-| [Adobe Commerce 2.4 運用ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Adobe Commerce プロジェクトを開発、デプロイ、管理するためのコンセプト、プロセス、ツールおよびベストプラクティスに関するシステムドキュメント。 |
-| [Adobe Commerce 2.4 開発者向けドキュメント ](https://developer.adobe.com/commerce/docs) | Adobe Commerceのカスタマイズとサードパーティシステムとの統合に使用する、開発者向けドキュメント |
+| [Adobe Commerce 2.4 運用ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Adobe Commerce on Cloud プロジェクトおよびオンプレミスプロジェクトを開発、デプロイ、管理するためのコンセプト、プロセス、ツールおよびベストプラクティスに関するシステムドキュメント。 |
+| [Adobe Commerce 2.4 開発者向けドキュメント ](https://developer.adobe.com/commerce/docs) | Adobe Commerceのカスタマイズやサードパーティシステムとの統合に使用する、開発者向けドキュメントです。 |
 
 {style="table-layout:auto"}

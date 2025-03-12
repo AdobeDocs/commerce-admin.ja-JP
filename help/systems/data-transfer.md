@@ -3,7 +3,7 @@ title: データ転送
 description: データ検証を含む、データ転送のサポートについて説明します。
 exl-id: 5057e398-c458-42e9-8ec0-bf116a667a3c
 feature: System, Data Import/Export
-source-git-commit: b89d6b08d0559dc769a8c51570696f033f23c7f3
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerceは、Commerce サーバーから SaaS サービスに商品データを転送するための SaaS データの書き出しもサポートしています。 SaaS データの書き出しは、[Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html)、[Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)、[ カタログサービス ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) などのCommerce SaaS サービスと統合されています。 詳細については、「[SaaS データ書き出しガイド ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)」を参照してください。
+>Adobe Commerceは、Commerce サーバーから SaaS サービスに商品データを転送するための SaaS データの書き出しもサポートしています。 SaaS データの書き出しは、[Product Recommendations](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html)、[Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)、[ カタログサービス ](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) などのCommerce SaaS サービスと統合されています。 詳細については、「[SaaS データ書き出しガイド ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)」を参照してください。
 
 ## データの検証
 

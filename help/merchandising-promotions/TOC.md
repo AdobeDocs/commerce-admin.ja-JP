@@ -1,12 +1,12 @@
 ---
 user-guide-title: Adobe Commerce マーチャンダイジングおよびプロモーションガイド
-user-guide-description: Adobe CommerceとMagento Open Sourceには、売上の増加、カスタマーエンゲージメントの機会の創出、ターゲットを絞ったプロモーションの設定に使用できる多くのツールが含まれています。
+user-guide-description: Adobe CommerceとMagento Open Sourceには、売り上げの促進、カスタマーエンゲージメントの機会の創出、ターゲットを絞ったプロモーションの設定に使用できるツールが多数含まれています。
 breadcrumb-title: マーチャンダイジングとプロモーション
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '268'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 1%
       - [概要と設定](url-rewrite.md)
       - [カテゴリの書き換え](url-rewrite-category.md)
       - [製品の書き換え](url-rewrite-product.md)
-      - [CMS ページの書き換え](url-rewrite-cms-page.md)
+      - [CMSページの書き換え](url-rewrite-cms-page.md)
       - [カスタム書き換え](url-rewrite-custom.md)
       - [自動リダイレクト](url-redirect-product-automatic.md)
 - Google サイトツール {#google-tools}
@@ -87,5 +87,5 @@ ht-degree: 1%
    - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
    - [Google コンテンツ実験](google-content-experiments.md)
-- [ マーチャントガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

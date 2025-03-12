@@ -3,7 +3,7 @@ title: Adobe Commerce パッケージのインストール
 description: Adobe Commerce インスタンスにおよび拡張機能をインスト  [!DNL AEM Assets Integration for Adobe Commerce]  ルする方法について説明します。
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%
@@ -135,7 +135,7 @@ Commerce Cloud インスタンスの [!DNL AEM Assets Integration] 拡張機能�
 
 >[!NOTE]
 >
->Commerce Services Connector のセットアップは、[Adobe Commerce SaaS サービス ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#availableservices) を使用するために必要な 1 回限りのプロセスです。 別のサービス用にコネクタを既に設定している場合は、Commerce管理で **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]** を選択すると、既存の設定を表示できます。
+>Commerce Services Connector のセットアップは、[Adobe Commerce SaaS サービス ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#availableservices) を使用するために必要な 1 回限りのプロセスです。 別のサービス用にコネクタを既に設定している場合は、Commerce管理で **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]** を選択すると、既存の設定を表示できます。
 
 Adobe Commerce インスタンスとAEM Assets統合を有効にするサービスの間でデータを転送するには、管理者（**[!UICONTROL System]**/[!UICONTROL Services]/**[!UICONTROL Commerce Services Connector]**）からCommerce サービスコネクタを設定します。
 
@@ -147,7 +147,7 @@ Adobe Commerce インスタンスとAEM Assets統合を有効にするサービ�
 - セキュリティで保護されたクラウドストレージのデータ領域名（SaaS 識別子）
 - CommerceとAEM Assets環境がプロビジョニングされる IMS 組織 ID
 
-手順について詳しくは、[Commerce サービスコネクタ ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs) のドキュメントの [Commerce サービスコネクタ設定のビデオをご覧くだ ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid) い。
+手順について詳しくは、[Commerce サービスコネクタ ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs) のドキュメントの [Commerce サービスコネクタ設定のビデオをご覧くだ ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid) い。
 
 設定を保存すると、システムによって環境の SaaS プロジェクトとデータベース ID が生成されます。 これらの値は、Adobe CommerceとAEM Assets間のアセット同期を有効にするために必要です。
 

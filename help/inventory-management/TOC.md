@@ -1,12 +1,12 @@
 ---
-user-guide-title: "[!DNL Inventory Management] ユーザーガイド"
+user-guide-title: '[!DNL Inventory Management] ユーザーガイド'
 user-guide-description: ' [!DNL Inventory Management]  機能を使用して、販売の数量を管理し、出荷を完了  [!DNL Commerce]  注文に処理する方法を説明します。'
-breadcrumb-title: "[!DNL Inventory Management]"
+breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 5%
 
 ---
@@ -58,5 +58,5 @@ ht-degree: 5%
    - [概要](shipments.md)
    - [出荷の作成](shipments-create.md)
 - [CLI リファレンス](cli.md)
-- [ マーチャントガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

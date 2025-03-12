@@ -1,26 +1,26 @@
 ---
-title: コンテンツを追加 – 製品Recommendations
+title: コンテンツを追加 – 製品レコメンデーション
 description: レコメンデーションのリストをステージに追加するために使用される、Product Recommendations コンテンツタイプについて説明  [!DNL Page Builder]  ます。
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
-# コンテンツを追加 – 製品Recommendations
+# コンテンツを追加 – 製品レコメンデーション
 
-_製品Recommendations_ コンテンツタイプを使用して、CMS ページ、ブロック、動的ブロックの既存のアクティブな [ レコメンデーションユニット ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) を [[!DNL Page Builder]  ステージ ](workspace.md#stage) に追加します。
+_Product Recommendations_ コンテンツタイプを使用して、CMS ページ、ブロック、動的ブロックの [[!DNL Page Builder]  ステージ ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) にアクティブな既存の [ レコメンデーションユニット ](workspace.md#stage) を追加します。
 
 >[!NOTE]
 >
->[!DNL Page Builder]_Product Recommendations_ コンテンツタイプは、Adobe Commerce 2.4.4 以降でサポートされ、[Product Recommendations metapackage バージョン 3.0.x 以降 ](https://commercemarketplace.adobe.com/magento-product-recommendations.html) で利用できます。 Product Recommendationsのサポートを [!DNL Page Builder] 加するには、[ インストール情報を参照 ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) してください。 **このコンテンツタイプはMagento Open Sourceには使用できません。**
+>[!DNL Page Builder]_Product Recommendations_ コンテンツタイプは、Adobe Commerce 2.4.4 以降でサポートされ、[Product Recommendations metapackage バージョン 3.0.x 以降 ](https://commercemarketplace.adobe.com/magento-product-recommendations.html) で利用できます。 Product Recommendations のサポートを追加する [!DNL Page Builder] は、[ インストール情報を参照 ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure) してください。 **このコンテンツタイプは、Magento Open Sourceでは使用できません。**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
-## 製品Recommendationsツールボックス
+## Product Recommendations ツールボックス
 
 | ツール | アイコン | 説明 |
 | --- | --| --- |
@@ -37,7 +37,7 @@ _製品Recommendations_ コンテンツタイプを使用して、CMS ページ�
 
 ## 既存のレコメンデーションユニットの追加
 
-1. [!DNL Page Builder] ページタイプの [ レコメンデーションユニットの作成 ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) が完了していることを確認します。
+1. [!DNL Page Builder] ページタイプの [ レコメンデーションユニットの作成 ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) が完了していることを確認します。
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ _製品Recommendations_ コンテンツタイプを使用して、CMS ページ�
 
 ## 詳細設定
 
-1. 親コンテナ内の商品Recommendationsユニットの位置を制御するには、**[!UICONTROL Alignment]** のオプションを選択します。
+1. 親コンテナ内の Product Recommendations ユニットの位置を制御するには、**[!UICONTROL Alignment]** のいずれかを選択します。
 
    | オプション | 説明 |
    | ------ | ----------- |
@@ -123,7 +123,7 @@ _製品Recommendations_ コンテンツタイプを使用して、CMS ページ�
 
    {style="table-layout:auto"}
 
-1. Product Recommendationsユニットの 4 つの側面すべてに適用される **[!UICONTROL Border]** スタイルを設定します。
+1. Product Recommendations ユニットの 4 つの側面すべてに適用される **[!UICONTROL Border]** スタイルを設定します。
 
    | オプション | 説明 |
    | ------ | ----------- |

@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Commerce Admin の [!UICONTROL General] &gt; [!UICONTROL General] ページで設定を確認します。
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 7e18b0b0ea308a6126b6cd35f943b133c75adff3
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 0%
@@ -117,6 +117,6 @@ ht-degree: 0%
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Commerce Events Enabled] | グローバル | 医療関係のお客様が [ データサービス HIPAA](https://experienceleague.adobe.com/en/docs/commerce/data-connection/hipaa-readiness) 拡張機能をインストールしている場合、この設定はデフォルトでオフになっています。 その結果、ライブ検索および製品レコメンデーションで使用されるストアフロントイベントデータが取得されなくなりました。 これは、ストアフロントのイベントデータがクライアントサイドで生成されるからです。 [ ライブ検索 ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) および [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) サービスで使用するストアフロントイベントデータを引き続きキャプチャして送信するには、**Commerce イベント有効** を `Yes` に設定します。 |
+| [!UICONTROL Commerce Events Enabled] | グローバル | 医療関係のお客様が [ データサービス HIPAA](https://experienceleague.adobe.com/en/docs/commerce/data-connection/hipaa-readiness) 拡張機能をインストールしている場合、この設定はデフォルトでオフになっています。 その結果、ライブ検索および製品レコメンデーションで使用されるストアフロントイベントデータが取得されなくなりました。 これは、ストアフロントのイベントデータがクライアントサイドで生成されるからです。 [ ライブ検索 ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) および [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview) サービスで使用するストアフロントイベントデータを引き続きキャプチャして送信するには、**Commerce イベント有効** を `Yes` に設定します。 |
 
 {style="table-layout:auto"}

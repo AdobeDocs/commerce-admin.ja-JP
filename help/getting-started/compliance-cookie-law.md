@@ -3,7 +3,7 @@ title: Cookie 法への準拠
 description: Cookie の使用に関する多くの国の法律に対応するために、Adobe CommerceとMagento Open Sourceでは、マーチャントに対して、お客様の同意を得るための選択肢を提供しています。
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: 04e8fe7cf303f434bab748df447eef8ac1097196
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Adobe CommerceとMagento Open Sourceのデフォルトの Cookie は、マーチ
 
 #### `add_to_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）買い物かごから削除された商品 SKU、名前、価格および数量をキャプチャします。 商品が買い物かごに追加された日時をGoogle Analyticsが把握できます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）買い物かごから削除された商品 SKU、名前、価格および数量をキャプチャします。 商品が買い物かごに追加された日時をGoogle Analyticsが把握できるようにします。
 
 #### `guest-view`
 
@@ -112,7 +112,7 @@ Cookie 同意メッセージ、様々なエラーメッセージなど、ユー�
 
 #### `remove_from_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）商品が買い物かごから削除された日時をGoogle Analyticsが把握できます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）商品が買い物かごから削除された日時をGoogle Analyticsに通知します。
 
 #### `stf`
 
@@ -196,7 +196,7 @@ Admin Analytics モジュールで間接的に使用される Gainsight PX ラ�
 
 #### `s_sq`
 
-Admin Analytics モジュールによって間接的に設定されます。 訪問者のクリック場所とクリック内容に関するClickMapを収集するデータ機能で使用されます。 各クリックからの情報を格納します。 店舗の管理区域内でのみ使用すること。 買い物客には適用されません。
+Admin Analytics モジュールによって間接的に設定されます。 ClickMap機能で、訪問者のクリック場所とクリック内容に関するデータを収集するために使用されます。 各クリックからの情報を格納します。 店舗の管理区域内でのみ使用すること。 買い物客には適用されません。
 
 #### `pagebuilder_modal_dismissed`
 
@@ -210,11 +210,11 @@ Admin Analytics モジュールによって間接的に設定されます。 訪
 
 タブ機能の実装の一部として使用されるのは、ストアの管理領域のみです。 買い物客には適用されません。
 
-## 製品のRecommendationsの cookie
+## Product Recommendations の cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）次の Cookie が Product RecommendationsでAdobe Commerceのお客様向けに使用されます。 これらの Cookie は [DataServices モジュール ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) と共にインストールされます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）次の Cookie がAdobe Commerceのお客様向けの Product Recommendations で使用されます。 これらの Cookie は [DataServices モジュール ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure) と共にインストールされます。
 
-- `mg_dnt`：サイトで cookie の同意を管理するカスタムコードがある場合は、](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie)Adobe Commerce データ収集を制限 [ できます。
+- `mg_dnt`：サイトで cookie の同意を管理するカスタムコードがある場合は、](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie)Adobe Commerce データ収集を制限 [ できます。
 - `user_allowed_save_cookie`: [cookie 制限モード ](#cookie-restriction-mode) に使用されます。
 - `authentication_flag`：買い物客がサインインまたはログアウトしたかどうかを示します。 この cookie は、`dataservices_customer_id` cookie と同時に更新されます。
 - `dataservices_customer_id`：買い物客がサインインまたはログアウトしたかどうかを示します。 この cookie には、システム内の顧客の一意の ID が含まれます。
@@ -224,10 +224,10 @@ Admin Analytics モジュールによって間接的に設定されます。 訪
 
 ## その他の cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） Adobe Commerceのお客様向けに設定されている Cookie は次のとおりです。 これらの Cookie は [DataServices モジュール ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) と共にインストールされます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） Adobe Commerceのお客様向けに設定されている Cookie は次のとおりです。 これらの Cookie は [DataServices モジュール ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure) と共にインストールされます。
 
 - `mg`: Snowplow JavaScript トラッカーによって設定されます。 詳しくは、[Snowplow ドキュメント ](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options) を参照してください。
-- `com.adobe.alloy.getTld`：現在の web ページのホスト名では、https://publicsuffix.orgで説明されているように、「パブリックサフィックス」ではない最上位のドメインになります。 基本的に、これは Cookie を受け入れられる最上位のドメインです。 この cookie は [Alloy Web SDK](https://github.com/adobe/alloy) の一部です。
+- `com.adobe.alloy.getTld`：現在の web ページのホスト名では、https://publicsuffix.orgで説明されているように、「パブリックサフィックス」ではない最上位のドメインになります。 基本的に、これは Cookie を受け入れられる最上位のドメインです。 この Cookie は [Alloy Web SDK](https://github.com/adobe/alloy) の一部です。
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212

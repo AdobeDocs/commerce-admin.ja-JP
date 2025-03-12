@@ -1,12 +1,12 @@
 ---
 title: Adobe Commerce カスタマーマネージメントガイド
-description: Adobe Commerce管理者とMagento Open Source管理者向けの顧客アカウントとセグメントに関する包括的な情報（設定を含む）。
+description: 設定を含む、Adobe Commerce管理者とMagento Open Source管理者向けの顧客アカウントとセグメントに関する包括的な情報です。
 seo-title: Adobe Commerce Customer Management Guide
 seo-description: Describes how to use the customer management features in Adobe Commerce or Magento Open Source.
 exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Adobe Commerce カスタマーマネージメントガイド
 
-このガイドは、Adobe CommerceとMagento Open Sourceのカスタマーサービススタッフを対象としています。 Commerce Admin の顧客管理機能とストアフロントの顧客アカウントエクスペリエンスに関する詳細が提供されます。 ここでは、Commerceのコア設定と機能に関する基本的な知識を前提としています。
+このガイドは、Adobe CommerceおよびMagento Open Source管理者のカスタマーサービススタッフを対象としています。 Commerce Admin の顧客管理機能とストアフロントの顧客アカウントエクスペリエンスに関する詳細が提供されます。 ここでは、Commerceのコア設定と機能に関する基本的な知識を前提としています。
 
 | 件名 | 説明 |
 | ------- | ----------- |

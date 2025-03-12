@@ -3,16 +3,16 @@ title: カタログ検索の設定
 description: ストアのカタログ検索を設定する方法について説明します。
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
-source-git-commit: 279f54d41264a081166cfda7d2216172ac22cd26
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
 # カタログ検索の設定
 
-カタログ検索設定には 2 つのバリエーションがあります。 最初の方法では、[Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) のインストール時に使用できる設定を説明します。 2 つ目の方法は、{OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target=&quot;_blank[} を使用したネイティブ Adobe Commerceの設定について説明します。
+カタログ検索設定には 2 つのバリエーションがあります。 最初の方法では、[Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) のインストール時に使用できる設定を説明します。 2 つ目の方法は、[OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target="_blank"} を使用したネイティブ Adobe Commerceの設定を示しています。
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    デフォルト値は `100` です。 `0` の値を入力すると、2 回目の入力時にすべての検索語句と結果がキャッシュされます。
 
-1. [ ストアフロントポップオーバー ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html) で返される結果に使用できる最大行数を変更するには、別の **[!UICONTROL Autocomplete Limit]** 値を入力します。
+1. [ ストアフロントポップオーバー ](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html) で返される結果に使用できる最大行数を変更するには、別の **[!UICONTROL Autocomplete Limit]** 値を入力します。
 
    行数を制限すると、検索のパフォーマンスが向上し、返されるリストのサイズが小さくなります。 デフォルト値は `8` 行です。
 
@@ -45,13 +45,13 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >- 2023 年 8 月のサポート終了のお知らせが [!DNL Elasticsearch 7] 件になったため、Adobe Commerceのお客様はすべて OpenSearch 2.x 検索エンジンに移行することをお勧めします。 製品のアップグレード中に検索エンジンを移行する方法については、[ アップグレード ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) の _OpenSearch への移行_ を参照してください。
->- バージョン 2.4.4 および 2.4.3-p2 では、Elasticsearchというラベルの付いたすべてのフィールドも OpenSearch に適用されます。 Elasticsearch 2.4.6 でバージョン 8.x のサポートが導入された際には、Elasticsearch設定と OpenSearch 設定を区別する新しいラベルが作成されました。 ただし、両方の設定オプションは同じです。
+>- バージョン 2.4.4 および 2.4.3-p2 では、Elasticsearchのラベルが付いているすべてのフィールドも OpenSearch に適用されます。 バージョン 2.4.6 でElasticsearch 8.x がサポートされたとき、Elasticsearch設定と OpenSearch 設定を区別する新しいラベルが作成されました。 ただし、両方の設定オプションは同じです。
 
 ### 手順 1：一般的な検索オプションを設定する
 
 >[!NOTE]
 >
->OpenSearch とElasticsearchでは、サフィックスによる検索は標準ではサポートされていません。 例えば、キーワードに SKU の最後の部分のみが含まれている場合、SKU で検索しても期待した結果が返されない場合があります。
+>OpenSearch およびElasticsearchでは、サフィックスによる検索は標準ではサポートされていません。 例えば、キーワードに SKU の最後の部分のみが含まれている場合、SKU で検索しても期待した結果が返されない場合があります。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
    この例では、デフォルト値は `9200` です。
 
-1. **[!UICONTROL OpenSearch Index Prefix]**:Elasticsearchインデックスを識別するプレフィックスを入力します。
+1. **[!UICONTROL OpenSearch Index Prefix]**:Elasticsearchのインデックスを識別するプレフィックスを入力します。
 
    デフォルト値は `magento2` です。
 

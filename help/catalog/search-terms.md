@@ -3,7 +3,7 @@ title: 検索語句の管理
 description: スペルミスや代替用語を使用して顧客をリダイレクトするために、ストアの検索用語を管理する方法を説明します。
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 3851258543ba829a4bdbfdb5d3d053ec4627184a
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 0%
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 Adobe Commerceでは、次の 2 つの異なるシノニム管理ソリューションをサポートしています。
 
-- Live Search[ 同義語 ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms.html) 機能は、Live Search がインストールされているAdobe Commerceのインストールで使用できます。
+- Live Search[ 同義語 ](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html) 機能は、Live Search がインストールされているAdobe Commerceのインストールで使用できます。
 - 標準のシノニム検索機能（このページで説明）は、すべてのAdobe Commerce インストールでそのまま使用できます。
 
 >[!NOTE]

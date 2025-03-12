@@ -3,7 +3,7 @@ title: 製品設定 – [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 description: 製品の場合、[!UICONTROL Related Products, Up-Sells, and Cross-Sells] の設定では、追加の製品の選択をハイライト表示する製品ページ上のシンプルなプロモーションブロックを定義します。
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -33,9 +33,9 @@ _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_の節では、顧客�
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **Adobe Senseiを活用した製品Recommendations** は、人工知能と機械学習アルゴリズムを使用して集計された訪問者データの詳細な分析を行うことで、製品関係を定義するプロセスを簡素化します。 このデータをAdobe Commerce カタログと組み合わせると、買い物客にとって非常に魅力的で関連性が高く、パーソナライズされたエクスペリエンスが得られます。
+>![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **Adobe Senseiを活用した Product Recommendations** は、人工知能と機械学習アルゴリズムを使用して集計された訪問者データの詳細な分析を実行することで、商品関係を定義するプロセスを簡素化します。 このデータをAdobe Commerce カタログと組み合わせると、買い物客にとって非常に魅力的で関連性が高く、パーソナライズされたエクスペリエンスが得られます。
 ><br/>
->手動で設定した商品レコメンデーションやアップセルの代わりに、このAdobeが開発した拡張機能を使用する方法について詳しくは、『 _[商品Recommendationsガイド ](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)_ 』を参照してください。
+>手動で設定した Product Recommendations やアップセルの代わりに、このAdobeが開発した拡張機能を使用する方法について詳しくは、『 _[Product Recommendations ガイド ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_ 』を参照してください。
 
 ## 関連製品
 

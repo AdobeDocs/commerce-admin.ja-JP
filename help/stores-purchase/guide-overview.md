@@ -1,18 +1,18 @@
 ---
 title: 店舗および購入エクスペリエンスガイド
-description: Adobe CommerceおよびMagento Open Source管理のカスタマーサービス担当者および販売管理者を対象とした、店舗の定義および販売処理機能に関する包括的な情報です。
+description: Adobe CommerceおよびMagento Open Source Admin で作業するカスタマーサービスエージェントおよびセールスマネージャー向けの、店舗の定義および営業処理機能に関する包括的な情報です。
 exl-id: 01c075a5-d9ac-4edb-82de-35a52748b800
 recommendations: noCatalog
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce ストアと購入エクスペリエンスガイド
 
-このガイドは、Adobe CommerceとMagento Open Sourceで働くカスタマーサービスエージェントおよびセールスマネージャーを対象としています。 顧客を支援し、販売を促進するために買い物かごを設定する方法など、注文管理および購入機能に関する詳細情報を提供します。 ここでは、コア [!DNL Commerce] の設定と機能に関する基本的な知識を前提としています。
+このガイドは、Adobe CommerceおよびMagento Open Source Admin で作業するカスタマーサービスエージェントおよびセールスマネージャーを対象としています。 顧客を支援し、販売を促進するために買い物かごを設定する方法など、注文管理および購入機能に関する詳細情報を提供します。 ここでは、コア [!DNL Commerce] の設定と機能に関する基本的な知識を前提としています。
 
 このガイドでは、次の内容について説明します。
 

@@ -3,7 +3,7 @@ title: 概要  [!DNL Adobe Commerce B2B]
 description: 統合 B2B 機能を使用して、企業のお客様のニーズを満たす方法を説明します。
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 2%
@@ -38,11 +38,11 @@ Commerceのサイト管理者は、管理者から、会社が web サイトで�
 
 ## Adobe Commerce 向けサービス
 
-Adobe Commerce向けサービスは、Adobe CommerceとMagento Open Sourceの機能を拡張するホストサービスです。 B2B ワークフローをサポートするサービスは次のとおりです。
+Adobe Commerce用サービスは、Adobe CommerceとMagento Open Sourceの機能を拡張するホストサービスです。 B2B ワークフローをサポートするサービスは次のとおりです。
 
-* [ カタログサービス ](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html)
-* [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)
-* [ 製品のRecommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)
+* [ カタログサービス ](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)
+* [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html)
+* [ 製品の推奨事項 ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)
 
 ## 共有カタログ
 

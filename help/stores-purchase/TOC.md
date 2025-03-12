@@ -1,13 +1,13 @@
 ---
 user-guide-title: 店舗および購入エクスペリエンスガイド
-user-guide-description: Adobe CommerceおよびMagento Open Sourceで作業するサイト管理者、カスタマーサービスエージェント、およびセールスマネージャーを対象とした包括的な情報です。
+user-guide-description: Adobe CommerceとMagento Open Sourceで作業するサイト管理者、カスタマーサービスエージェント、セールスマネージャー向けの包括的な情報です。
 breadcrumb-title: 店舗と購入エクスペリエンス
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '320'
 ht-degree: 3%
 
 ---
@@ -131,5 +131,5 @@ ht-degree: 3%
       + [出荷ラベルの概要](shipping-labels.md)
       + [配送ラベルの設定](shipping-label-configure.md)
       + [配送ラベルの作成](shipping-label-create.md)
-+ [ マーチャントガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -1,14 +1,14 @@
 ---
-user-guide-title: "[!DNL Page Builder] ユーザーガイド"
+user-guide-title: '[!DNL Page Builder] ユーザーガイド'
 user-guide-description: ' [!DNL Page Builder]  機能を使用して、視覚的なストーリーテリングを強化するカスタムレイアウトでコンテンツに富んだページを作成し、顧客エンゲージメントとロイヤルティを高める方法を説明します。'
-breadcrumb-title: "[!DNL Page Builder]"
+breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 2%
+source-wordcount: '81'
+ht-degree: 4%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 2%
    - [見出し](heading.md)
    - [ボタン](buttons.md)
    - [ディバイダー](divider.md)
-   - [HTMLコード](html-code.md)
+   - [HTML コード](html-code.md)
 - Media {#media}
    - [画像](image.md)
    - [ビデオ](video.md)
@@ -44,7 +44,7 @@ ht-degree: 2%
    - [ブロック](block.md)
    - [動的ブロック](dynamic-block.md)
    - [製品](products.md)
-   - [製品のRecommendations](recommendations.md)
+   - [製品レコメンデーション](recommendations.md)
 - [テンプレート](templates.md)
-- [ マーチャントガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

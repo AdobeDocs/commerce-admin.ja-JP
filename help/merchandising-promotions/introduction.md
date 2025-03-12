@@ -2,7 +2,7 @@
 title: Commerce マーチャンダイジングとプロモーションの概要
 description: カスタマーエンゲージメントを目的としたプロモーションやオポチュニティを作成するための Commerce ツールについて説明します。
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 1%
@@ -27,7 +27,7 @@ _マーチャンダイジング_ は、フロアプラン開発の技術や科�
 
 >[!TIP]
 >
->製品Recommendationsとその機能を使用して、購入者にとって最適なエクスペリエンスを実現するために必要なインサイトと制御を提供する方法については、[ 製品Recommendationsユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html) を参照してください。
+>製品レコメンデーションと、お客様に最適なエクスペリエンスを作成するために必要なインサイトと制御を製品レコメンデーションでどのように提供できるかについて詳しくは、[ 製品レコメンデーションユーザーガイド ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html) を参照してください。
 
 ## プロモーション
 
@@ -66,7 +66,7 @@ Adobe Commerceでは、プロモーション機能を使用して商品の関係
 
 >[!NOTE]
 >
->Adobe CommerceおよびMagento Open Sourceリリース 2.4.0 から 2.4.3 には、dotdigital Engagement Cloud との統合に使用される、dotdigital ベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、このCommerce Marketplaceはコアリリースにバンドルされなくなり、拡張機能からインストールおよび更新する必要があります。 また、Marketplace では、拡張機能開発者が提供する最新のドキュメントにもアクセスできます。
+>Adobe CommerceおよびMagento Open Source リリース 2.4.0 から 2.4.3 には、dotdigital Engagement Cloud との統合に使用される、dotdigital ベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、この拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 また、Marketplace では、拡張機能開発者が提供する最新のドキュメントにもアクセスできます。
 ><br><br>
 >バンドルされた拡張機能を有効にして設定してある場合は、2.4.4 のアップグレードプロセスの一環として composer.json ファイルを更新し、今後、拡張機能の更新を管理する必要があります。 詳しくは、『 [ アップグレードガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) の _アップグレードモジュール_ を参照してください。
 
@@ -86,7 +86,7 @@ Adobe Commerceでは、プロモーション機能を使用して商品の関係
 
 - [Google Analytics](google-analytics.md) - Google Universal Analytics を使用すると、トラッキング用にさらにカスタムのディメンションと指標を定義でき、オフラインおよびモバイルアプリのインタラクションに対応し、継続的な更新にアクセスできます。
 
-- [Google コンテンツ実験 ](google-content-experiments.md) - Google Analyticsコンテンツを使用して、製品、カテゴリまたはコンテンツページの A/B テストを設定します
+- [Google コンテンツ実験 ](google-content-experiments.md) - Google Analytics コンテンツを使用して、製品、カテゴリまたはコンテンツページの A/B テストを設定します
 
 - [Google タグマネージャー ](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） Google タグマネージャーを使用して、マーケティングキャンペーンイベントに関連する多くのタグを管理します。
 

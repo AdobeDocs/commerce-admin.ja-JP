@@ -3,30 +3,30 @@ title: インデックス管理
 description: インデックス再作成にトリガーとなるアクションやベストプラクティスなど、インデックス管理について説明します。
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
 
 # インデックス管理
 
-1 つ以上の項目が変更されると、Adobe CommerceとMagento Open Sourceが自動的にインデックスを再作成します。 インデックス再作成をトリガーにするアクションには、価格の変更、カタログまたは買い物かごの価格ルールの作成、新しいカテゴリの追加などがあります。 Commerceでは、パフォーマンスを最適化するために、インデクサーを使用してデータを特別なテーブルに蓄積します。 データが変更されると、インデックス付けされたテーブルを更新するか、インデックスを再作成する必要があります。 Commerceは、バックグラウンドプロセスとしてインデックスを再作成し、プロセス中もストアにアクセスできるようにします。
+Adobe CommerceとMagento Open Sourceは、1 つ以上の項目が変更されるたびに自動的にインデックスを再作成します。 インデックス再作成をトリガーにするアクションには、価格の変更、カタログまたは買い物かごの価格ルールの作成、新しいカテゴリの追加などがあります。 Commerceでは、パフォーマンスを最適化するために、インデクサーを使用してデータを特別なテーブルに蓄積します。 データが変更されると、インデックス付けされたテーブルを更新するか、インデックスを再作成する必要があります。 Commerceは、バックグラウンドプロセスとしてインデックスを再作成し、プロセス中もストアにアクセスできるようにします。
 
 データのインデックス再作成により、処理が迅速化され、お客様の待ち時間が短縮されます。 例えば、ある商品の価格を 4.99 ドルから 3.99 ドルに変更した場合、Commerceは店舗で価格の変化を示すようにデータのインデックスを再作成します。 インデックスを作成しない場合、Commerceは、買い物かごの価格ルール、バンドル価格、割引、階層別の価格などの処理を行い、その場ですべての商品の価格を計算する必要があります。 製品の価格の読み込みには、お客様が待つ時間よりも長い時間がかかる場合があります。
 
 インデクサーは、保存時またはスケジュールに従って更新するように設定できます。 保存時にのみサポートされる顧客グリッドを除き、すべてのインデックスでいずれかのオプションを使用できます。 保存時にインデックスを作成する場合、Commerceは保存アクションで再インデックスを開始します。 インデックス管理ページが更新を完了し、キャッシュをフラッシュします。再インデックスメッセージは、1 ～ 2 分以内に表示されます。 スケジュールに基づいてインデックスを再作成する場合、インデックス再作成は cron ジョブとしてスケジュールに従って実行されます。 無効になったインデクサーを更新するために [cron ジョブ ](cron.md) を使用できない場合は、システムメッセージが表示されます。 インデックス再作成中も、ストアには引き続きアクセスできます。
 
 >[!NOTE]
-> Live Search、カタログサービス、製品Recommendationsのいずれかを使用しているAdobe Commerce マーチャントには、[SaaS ベースの価格インデクサー ](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/index.html) を使用するオプションがあります。
+> Live Search、カタログサービス、Product Recommendations を使用するAdobe Commerce マーチャントは、[SaaS ベースの価格インデクサー ](https://experienceleague.adobe.com/docs/commerce/price-indexer/index.html) を使用するオプションがあります。
 
 再インデックスが必要な場合は、通知がページの上部に表示されます。 インデックス再作成モードと実行する潜在的なアクションに基づいて、インデックスとメッセージがクリアされます。 インデックス作成について詳しくは、『 _PHP 開発者ガイド_ 』の [ アプリケーションでインデックスを実装する方法 ](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing) を参照してください。
 
 ![ インデックス管理 – アクション ](./assets/index-management.png){width="700" zoomable="yes"}
 
 - インデックス管理では、フラットな製品カタログに対する表示が若干異なります。
-- 複数の管理者ユーザーが自動インデックス再作成をトリガーとするオブジェクトを更新する際の問題を回避するために、すべてのインデクサーを [cron ジョブ ](cron.md) としてスケジュールに従って実行するように設定することをお勧めします。 そうしないと、オブジェクトが保存されるたびに、相互依存関係を持つオブジェクトがデッドロックを引き起こす可能性があります。 デッドロックの症状には、CPU 使用率の上昇や MySQL エラーなどがあります。 ベストプラクティスとして、スケジュール済みインデックスを使用することをお勧めします。
+- 複数の管理者ユーザーが自動インデックス再作成をトリガーとするオブジェクトを更新する際の問題を回避するために、すべてのインデクサーを [cron ジョブ ](cron.md) としてスケジュールに従って実行するように設定することをお勧めします。 そうしないと、オブジェクトが保存されるたびに、相互依存関係を持つオブジェクトがデッドロックを引き起こす可能性があります。 デッドロックの症状には、CPUの使用量が多いこと、MySQL エラーが含まれます。 ベストプラクティスとして、スケジュール済みインデックスを使用することをお勧めします。
 - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） デフォルトでは、インデックス再作成などの管理者アクションはシステムにより記録され、[ アクションログレポート ](action-log-report.md) で確認できます。 アクションログは、ストアの詳細管理設定の [ 管理者アクションログ ](action-log.md) で設定できます。
 
 ## インデックス再作成のベストプラクティス
@@ -43,7 +43,7 @@ Commerceでのインデックス再作成とキャッシュの目的は異なり
 
 >[!IMPORTANT]
 >
->[Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) を使用し、フルテキスト （`catalogsearch_fulltext`） インデクサーとして権限を設定したストアの場合：一括Elasticsearchが変更された後、または「権限」インデクサーが「スケジュール済み」モードの場合は、フルテキストインデックスを再実行する必要があります。
+>[Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) を使用し、Elasticsearchをフルテキスト （`catalogsearch_fulltext`） インデクサーとして設定しているストアの場合：一括権限の変更後、または「権限」インデクサーが「スケジュール済み」モードの場合は、フルテキスト インデックスを再実行する必要があります。
 
 1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Index Management]**に移動します。
 
@@ -76,7 +76,7 @@ Commerceでのインデックス再作成とキャッシュの目的は異なり
 
 ## コマンドラインを使用したインデックスの再作成
 
-Commerceでは、コマンドラインを使用して追加の再インデックスオプションを提供しています。 詳細およびコマンドオプションについては、[ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex) の {:target=&quot;blank&quot;} の _インデックス再作成_ を参照してください。
+Commerceでは、コマンドラインを使用して追加の再インデックスオプションを提供しています。 詳細およびコマンド オプションについては、_構成ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} の [ 再インデックス_ を参照してください。
 
 ## インデックストリガーイベント
 
@@ -102,7 +102,7 @@ Commerceでは、コマンドラインを使用して追加の再インデック
 
 | アクション | 結果 | コントロール |
 | ------ | ------ | -------- |
-| ストア、新しい顧客グループ、または `Actions that Cause a Full Reindex` にリストされているアクションの作成 | 完全な再インデックス | 完全なインデックス再作成は、Adobe CommerceまたはMagento Open Source cron ジョブによって決定されたスケジュールに従って実行されます。 |
+| ストア、新しい顧客グループ、または `Actions that Cause a Full Reindex` にリストされているアクションの作成 | 完全な再インデックス | 完全なインデックス再作成は、Adobe CommerceまたはMagento Open Source cron ジョブで指定したスケジュールに従って実行されます。 |
 | 項目の一括読み込み（Commerceの読み込み/書き出し、ダイレクト SQL クエリおよびデータを直接追加、変更または削除するその他の方法） | 部分再インデックス化（変更された項目のみ再インデックス化されます） | Commerce cron ジョブで決定された頻度。 |
 | 範囲の変更（グローバルから web サイトへの変更など） | 部分再インデックス化（変更された項目のみ再インデックス化されます） | Commerce cron ジョブで決定された頻度。 |
 

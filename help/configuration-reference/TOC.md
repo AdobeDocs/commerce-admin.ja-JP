@@ -5,10 +5,10 @@ breadcrumb-title: 設定リファレンス
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 0%
+source-wordcount: '162'
+ht-degree: 1%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 0%
    - [売上](./sales/sales.md)
    - [販売メール](./sales/sales-emails.md)
    - [見積もり](./sales/quotes.md)
-   - [PDFの印刷](./sales/pdf-print-outs.md)
+   - [PDFの印刷出力](./sales/pdf-print-outs.md)
    - [税](./sales/tax.md)
    - [チェックアウト](./sales/checkout.md)
    - [発送設定](./sales/shipping-settings.md)
@@ -75,7 +75,7 @@ ht-degree: 0%
       - [PayPal 支払い標準](./sales/paypal-payments-standard.md)
       - [PayPal Payflow Pro](./sales/paypal-payflow-pro.md)
       - [PayPal ペイフローリンク](./sales/paypal-payflow-link.md)
-- [Sales Channel](./sales-channels.md)
+- [販売チャネル](./sales-channels.md)
 - サービス {#services}
    - [Web API](./services/magento-web-api.md)
    - [Commerce サービス](./services/saas.md)
@@ -84,5 +84,5 @@ ht-degree: 0%
    - [Admin](./advanced/admin.md)
    - [システム](./advanced/system.md)
    - [開発者](./advanced/developer.md)
-- [ マーチャントガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

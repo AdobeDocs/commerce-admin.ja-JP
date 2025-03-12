@@ -3,7 +3,7 @@ title: カタログ検索の概要
 description: ストアフロントで製品を見つけるために使用できるクイック検索ツールと詳細検索ツールについて説明します。
 exl-id: a796fa48-212a-47c7-ab6e-98edd4d040f4
 feature: Catalog Management, Search
-source-git-commit: 65d295694e13be2e0a0de29b8b396faa9f2c9cd4
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) は、迅速で、非常に関連性が高く、直感的な検索エクスペリエンスを提供し、Adobe Commerceでは追加料金なしで利用できます。 ここでは、[!DNL Live Search] とは異なる可能性のある標準の検索機能について説明します。
+>[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) は、迅速で、非常に関連性が高く、直感的な検索エクスペリエンスを提供し、Adobe Commerceでは追加料金なしで利用できます。 ここでは、[!DNL Live Search] とは異なる可能性のある標準の検索機能について説明します。
 
 調査によると、検索を使用するユーザーは、ナビゲーションだけに依存する顧客よりも購入する可能性が高くなります。 実際、一部の調査によると、検索を使用する人は、購入する可能性がほぼ 2 倍です。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) をインストールし、[[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/storefront-popover) ウィジェットを有効にすると、検索ボックスが「入力中に検索」を返して、ポップアップが表示されます。
+>[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) をインストールし、[[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/storefront-popover) ウィジェットを有効にすると、検索ボックスが「入力中に検索」を返して、ポップアップが表示されます。
 
 ストアのヘッダーにある検索ボックスは、訪問者がカタログ内の製品を見つけるのに役立ちます。 検索テキストには、製品名の全部または一部や、製品を説明するその他の単語やフレーズを使用できます。 製品を検索するためにユーザーが使用する検索用語は、管理者から管理できます。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ここで説明する高度なフォーム検索機能は、[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) には適用されません。
+>ここで説明する高度なフォーム検索機能は、[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) には適用されません。
 
 詳細検索を使用すると、買い物客はフォームに入力された値に基づいてカタログを検索できます。 フォームには複数のフィールドが含まれているので、1 回の検索で複数のパラメーターを指定できます。 結果として、条件に一致するカタログ内のすべての製品のリストが表示されます。 詳細検索へのリンクは、ストアのフッターにあります。
 

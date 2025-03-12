@@ -2,16 +2,16 @@
 title: 管理システムガイド
 description: Commerce ストアを保護し権限を管理するためのベストプラクティスや、データのインポートおよびエクスポート方法、統合と拡張機能の管理方法、日常のメンテナンスを処理する方法について説明します。
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
-source-git-commit: 13f8858768b412d1ca2eb92e628331d9a45a347d
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce管理システムガイド
 
-このガイドは、Adobe CommerceとMagento Open Sourceで作業するシステム管理者とインテグレーターを対象としています。 e コマースビジネスの複数の組織機能にわたるアクティビティをサポートする、管理者セキュリティ、メンテナンス操作、システム全体のリソースに関する詳細情報を提供します。 ここでは、Commerceのコア設定と機能に関する基本的な知識を前提としています。
+このガイドは、Adobe CommerceおよびMagento Open Source Admin で作業するシステム管理者およびインテグレーターを対象としています。 e コマースビジネスの複数の組織機能にわたるアクティビティをサポートする、管理者セキュリティ、メンテナンス操作、システム全体のリソースに関する詳細情報を提供します。 ここでは、Commerceのコア設定と機能に関する基本的な知識を前提としています。
 
 このガイドでは、次の内容について説明します。
 

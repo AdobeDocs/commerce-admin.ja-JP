@@ -3,7 +3,7 @@ title: データ管理ダッシュボード
 description: ' [!DNL Catalog Service]、 [!DNL Live Search] および  [!DNL Product Recommendation] のデータストリームに関するインサイトにアクセスする方法を説明します。'
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: 4495a27b57c04c6f9c37b2c5237b5f2233cc8532
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Data Management Dashboard には、Commerce データベースからCommerce Saa
 
 ## オーディエンス
 
-Data Management Dashboard は、アクティブなライセンスを持つ [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview)、[[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview)、[[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) を使用するすべてのCommerce マーチャントが追加費用なしで利用できます。
+Data Management Dashboard は、アクティブなライセンスを持つ [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)、[[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)、[[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) を使用するすべてのCommerce マーチャントが追加費用なしで利用できます。
 
 データ管理ダッシュボードは、*システム*/データ転送/*データ管理ダッシュボード* にあります。
 
@@ -26,7 +26,7 @@ Data Management Dashboard は、アクティブなライセンスを持つ [[!DN
 
 | フィールド | 説明 |
 |--- |--- |
-| 範囲 | 同期されたデータの特定の web サイト。 |
+| 対象範囲 | 同期されたデータの特定の web サイト。 |
 | [!DNL Product Recommendations] | 同期ステータス、同期された製品の数、同期された製品の [ 表示可能 ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) テーブルを表示します [!DNL Product Recommendations] |
 | [!DNL Live Search] | 同期ステータス、同期された製品の数、同期された製品の [ 表示可能 ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) テーブルを表示します [!DNL Live Search] |
 | [!DNL Catalog Service] | 同期ステータス、同期された製品の数、同期された製品のテーブルを表示して [!DNL Catalog Service] ます。 |
@@ -47,7 +47,7 @@ Commerce データベース内の商品を更新すると、商品データは�
 
 >[!NOTE]
 >
->また、Adobeは、コマンドラインインターフェイスとシステムログも提供します。これらのログは、開発者とシステムインテグレーターがCommerce SaaS サービスの同期処理の管理とトラッキング、エラーのトラブルシューティングに使用できます。 詳細については、「[SaaS データ書き出しガイド ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)」を参照してください。
+>また、Adobeは、開発者やシステムインテグレーターがCommerce SaaS サービスの同期処理の管理とトラッキング、エラーのトラブルシューティングに使用できるコマンドラインインターフェイスとシステムログも提供します。 詳細については、「[SaaS データ書き出しガイド ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)」を参照してください。
 
 ### 同期された製品のリスト
 

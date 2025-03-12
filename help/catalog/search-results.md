@@ -3,7 +3,7 @@ title: 検索結果
 description: 製品が「クイック検索」ボックスまたは「詳細検索」フォームに入力された検索条件に一致する方法を設定する方法を説明します。
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
-source-git-commit: 4b2e1dd87a39c9be1adc49d867e44d306a969854
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このページでは、[ ライブサーチ ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) とは異なる可能性のある標準の検索機能について説明します。
+>このページでは、[ ライブサーチ ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) とは異なる可能性のある標準の検索機能について説明します。
 
 _検索結果_ リストには、「クイック検索」ボックスまたは「詳細検索」フォームに入力した検索条件に一致するすべての製品が表示されます。 カタログ内のすべての製品リストには、基本的に同じコントロールがあります。 唯一の違いは、1 つは検索クエリの結果であり、もう 1 つは [ ナビゲーション ](navigation.md) の結果であることです。
 
 結果は、グリッドまたはリストとして書式設定でき、属性の選択で並べ替えることができます。 ページに収まらない商品がある場合は、ページネーションコントロールが表示されます。 これらのコントロールを使用して、ページ間を移動します。 ページあたりのレコード数は、カタログフロントエンド設定によって決定されます。 詳しくは、[ 製品リスト ](navigation-product-listings.md) を参照してください。
 
-**Elasticsearch**:
+**Elasticsearch** を使用：
 
 - サフィックスによる検索は標準ではサポートされていません。 例えば、キーワードに SKU の最後の部分のみが含まれている場合、SKU で検索しても期待した結果が返されない場合があります。
 - `name` と `sku` の製品属性のみをプレフィックスで検索（部分キーワード検索）する機能は、すぐにサポートされています。 その他のすべての製品属性は、キーワード全体で検索され、完全に一致します。
@@ -30,7 +30,7 @@ _検索結果_ リストには、「クイック検索」ボックスまたは�
 
 >[!IMPORTANT]
 >
->2023 年 8 月のElasticsearch 7 のサポート終了のお知らせに伴い、Adobe Commerceのお客様はすべて OpenSearch 2.x 検索エンジンに移行することをお勧めします。 製品のアップグレード中に検索エンジンを移行する方法については、[ アップグレード ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) の _OpenSearch への移行_ を参照してください。
+>2023 年 8 月のElasticsearch 7 のサポート終了のお知らせに伴い、Adobe Commerceをご利用のすべてのお客様に OpenSearch 2.x 検索エンジンを利用することをお勧めします。 製品のアップグレード中に検索エンジンを移行する方法については、[ アップグレード ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) の _OpenSearch への移行_ を参照してください。
 
 ## 検索結果を拡張するキーワードマッピング
 

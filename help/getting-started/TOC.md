@@ -1,22 +1,21 @@
 ---
-user-guide-title: Adobe Commerce入門ガイド
-user-guide-description: Adobe CommerceやMagento Open Sourceを初めて使用する場合は、エコシステムのリソースを見つけ  [!DNL Commerce] 、カスタマージャーニーに従ってストアを探索し、主な機能について学びます。
+user-guide-title: Adobe Commerce管理者はじめる前に
+user-guide-description: Adobe Commerce管理者またはMagento Open Source管理者を初めて使用する場合は、エコシステムのリソースを見つけ  [!DNL Commerce]  カスタマージャーニーに従ってストアを探索し、主な管理機能について確認します。
 breadcrumb-title: はじめに
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
+source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '217'
 ht-degree: 1%
 
 ---
 
 
-# Adobe Commerce入門ガイド {#start}
+# Adobe Commerce管理者はじめる前に {#start}
 
-+ [Adobe Commerce入門ガイド](guide-overview.md)
-+ [Adobe Commerceとは](about.md)
++ [Adobe Commerce管理者はじめる前に](guide-overview.md)
 + [ログイン資格情報と URL](login-urls.md)
 + Commerce アカウント {#commerce-account}
    + [アカウントの作成とアクセス](commerce-account-create.md)
@@ -39,7 +38,7 @@ ht-degree: 1%
 + 管理 {#admin}
    + [管理者とは何ですか？](admin.md)
    + [管理者ユーザーアカウント](admin-signin.md)
-   + AdobeIdentity Management サービス（IMS）の統合 {#ims}
+   + Adobe Identity Management Service （IMS） Integration {#ims}
       + [IMS 統合の概要](adobe-ims-integration-overview.md)
       + [IMS を使用した管理者の統合の設定](adobe-ims-config.md)
       + [IMS との管理者統合の無効化](adobe-ims-disable.md)
@@ -77,5 +76,5 @@ ht-degree: 1%
    + [生態系](resources.md)
    + [拡張機能](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [ マーチャントガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

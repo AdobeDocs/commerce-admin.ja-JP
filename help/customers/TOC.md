@@ -2,9 +2,9 @@
 user-guide-title: 顧客管理ガイド
 breadcrumb-title: 顧客管理
 feature: Customers
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '128'
 ht-degree: 2%
 
 ---
@@ -55,5 +55,5 @@ ht-degree: 2%
    + [顧客セグメントの作成および削除](customer-segment-create.md)
    + [価格ルールの顧客セグメント](customer-segment-price-rule.md)
    + [顧客セグメントレポート](customer-segment-reports.md)
-+ [ マーチャントガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

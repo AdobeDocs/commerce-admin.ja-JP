@@ -3,7 +3,7 @@ title: 階層型ナビゲーション
 description: 階層化されたナビゲーションにより、買い物客がカテゴリ、価格範囲、その他の使用可能な属性に基づいて製品を簡単に見つけられるしくみを説明します。
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この節で説明する標準のレイヤー化されたナビゲーションは、[ ファセット ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html) を使用したライブサーチのフィルター済みナビゲーションとは異なります。
+>この節で説明する標準のレイヤー化されたナビゲーションは、[ ファセット ](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html) を使用したライブサーチのフィルター済みナビゲーションとは異なります。
 
 階層化されたナビゲーションにより、カテゴリ、価格範囲、その他の利用可能な属性に基づいて製品を簡単に見つけることができます。 通常、階層型ナビゲーションは検索結果ページとカテゴリページの左側の列に表示され、場合によってはホームページに表示されます。 標準ナビゲーションには、カテゴリと価格範囲の _ショップ_ リストが含まれています。 製品数や価格範囲など、レイヤナビゲーションの表示を設定できます。
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このトピックで説明するフィルタリング可能な属性の要件は、[Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) とは異なります。 詳しくは、[ ファセット ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html) を参照してください。
+>このトピックで説明するフィルタリング可能な属性の要件は、[Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) とは異なります。 詳しくは、[ ファセット ](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html) を参照してください。
 
 レイヤナビゲーションを使用して、カテゴリ別または属性別に製品を検索できます。 例えば、買い物客が上部のナビゲーションから Mens/Shorts カテゴリを選択すると、最初の結果にはカテゴリ内のすべての製品が含まれます。 リストは、特定のスタイル、気候、色、素材、パターン、価格を選択するか、値の組み合わせを選択して、さらにフィルタリングできます。 フィルタリング可能な属性は、各属性値を一覧表示する展開セクションに表示されます。 オプションとして、一致する結果を持つ製品のリストは、一致の有無を問わず製品を含めるように設定できます。
 
@@ -112,7 +112,7 @@ _例：結果を持たないフィルタリング可能なスウォッチ値_
 
 >[!NOTE]
 >
->このトピックで説明する価格ナビゲーション設定は、[ ライブサーチ ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) とは異なります。
+>このトピックで説明する価格ナビゲーション設定は、[ ライブサーチ ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) とは異なります。
 
 価格ナビゲーションを使用すると、レイヤードナビゲーションで価格範囲別に製品を配布できます。 また、各範囲を間隔で分割することもできます。 価格ナビゲーションを計算する方法はいくつかあります。
 
@@ -201,7 +201,7 @@ _例：結果を持たないフィルタリング可能なスウォッチ値_
 
 >[!NOTE]
 >
->このページで説明する標準設定は、[Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) とは異なります。
+>このページで説明する標準設定は、[Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) とは異なります。
 
 レイヤナビゲーション構成は、各属性の後の括弧内に製品数が表示されるかどうかを決定し、価格ナビゲーションで使用されるステップ計算のサイズを決定する。
 
