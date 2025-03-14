@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Br
 description: Commerce Admin の [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] ページで、「[!UICONTROL Braintree]」セクションの設定を確認します。
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
-source-git-commit: 5488a0a991f497059ea39fbbc8a08fd8f546e1ac
+source-git-commit: d22d44b8c93649a60b16569cc502d2e291ce6b22
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2621'
 ht-degree: 0%
 
 ---
@@ -15,32 +15,36 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**Commerce 2.4 の移行：**<br/>
->Adobe CommerceおよびMagento Open Source 2.4.0 より前のバージョンの場合、マーチャントは、コア統合の代わりに、](https://marketplace.magento.com/catalogsearch/result/?q=braintree)0} Commerce Marketplaceから公式のBraintree支払い統合拡張機能をインストールして設定することをお勧めします。 [2.4.0 以降、拡張機能はコアリリースに含まれるようになりました。
+>Adobe CommerceとMagento Open Sourceが 2.4.0 より前のバージョンの場合、マーチャントは、コア統合の代わりに、公式のBraintree支払い統合拡張機能を ](https://marketplace.magento.com/catalogsearch/result/?q=braintree)0}Commerce Marketplace} からインストールして設定することをお勧めします。 [2.4.0 以降、拡張機能はコアリリースに含まれるようになりました。
 ><br/><br/>
->Commerce 2.4 に移行する場合、マーケットプレイス（`paypal/module-braintree` または `gene/module-braintree`）で配布されている拡張機能をアンインストールし、`Magento_Braintree` の代わりに `PayPal_Braintree` 名前空間を使用するようにコードをカスタマイズする必要があります。 Commerce用にバンドルされた拡張機能の設定とCommerce Marketplaceに配布された拡張機能は保持されます。 これらのバージョンの拡張機能で行われた支払いは、通常どおりキャプチャ、無効化、または払い戻されます。
+>Commerce 2.4 に移行する場合、マーケットプレイス（`paypal/module-braintree` または `gene/module-braintree`）で配布されている拡張機能をアンインストールし、`Magento_Braintree` の代わりに `PayPal_Braintree` 名前空間を使用するようにコードをカスタマイズする必要があります。 Commerce用にバンドルされた拡張機能の設定とCommerce Marketplaceで配布された拡張機能は保持されます。 これらのバージョンの拡張機能で行われた支払いは、通常どおりキャプチャ、無効化、または払い戻されます。
 ><br/><br/>
->Commerce 2.4.0 にアップグレードする際に、以前の 2.3.x バージョンで推奨されたCommerce Marketplace拡張機能を使用しない場合、マルチアドレス機能は、2.4.0 バージョンのBraintreeでは動作しません。 買い物客が _複数の住所に配信_ を選択すると、Braintree支払い方法が表示されません。 2.3.x で以前に推奨したCommerce Marketplace拡張機能には、この複数のアドレスの問題があります。
+>Commerce 2.4.0 にアップグレードする場合、以前の 2.3.x バージョンで推奨されるCommerce Marketplace拡張機能を使用しないと、マルチアドレス機能はBraintree 2.4.0 バージョンで動作しません。 買い物客が _複数のアドレスに配信_ を選択すると、Braintreeの支払い方法が表示されません。 2.3.x で以前に推奨したCommerce Marketplace拡張機能には、この複数のアドレスの問題があります。
 
 {{config}}
 
+>[!IMPORTANT]
+>
+>カードに予想外の料金が発生した場合は、[ サブスクリプションをキャンセル ](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) ページでサポートを受けることができます。
+
 ## [!UICONTROL Basic Braintree Settings]
 
-![ 基本Braintree](./assets/payment-methods-braintree-basic-config.png)<!-- zoom -->
+![Braintreeの基本設定 ](./assets/payment-methods-braintree-basic-config.png)<!-- zoom -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Title] | ストア表示 | デフォルト値：`Credit Card` （Braintree） |
 | [!UICONTROL Environment] | ストア表示 | オプション：`Sandbox` / `Production` |
-| [!UICONTROL Payment Action] | ストア表示 | 支払が処理されるときにBraintreeが実行するアクションを指定します。 オプション：<br/>**`Authorize`**– 顧客のクレジットカードの資金は許可されていますが、アカウントから転送されません。 注文はストア管理者で作成されます。 後で販売をキャプチャし、請求書を作成できます。<br/>**`Intent Sale`** （以前のリリースで `Authorize and Capture` 用） – 顧客のクレジットカードの資金は、Braintreeによって承認および取得され、注文と請求書がストア管理者で作成されます。 |
+| [!UICONTROL Payment Action] | ストア表示 | 支払いが処理されたときにBraintreeが実行するアクションを指定します。 オプション：<br/>**`Authorize`**– 顧客のクレジットカードの資金は許可されていますが、アカウントから転送されません。 注文はストア管理者で作成されます。 後で販売をキャプチャし、請求書を作成できます。<br/>**`Intent Sale`** （以前のリリースで `Authorize and Capture` 用） – 顧客のクレジットカードの資金は、Braintreeによって承認および取得され、ストア管理者に注文と請求書が作成されます。 |
 | [!UICONTROL Sandbox Merchant ID] | ストア表示 | これは、サンドボックスゲートウェイアカウント全体の一意の ID です。 _パブリック ID_ または _実稼動 ID_ とも呼ばれ、マーチャント ID は実稼動ゲートウェイとサンドボックスゲートウェイで異なります。 このフィールドは、「_[!UICONTROL Environment]_」フィールドが「`Sandbox`」に設定されている場合に表示されます。 |
-| [!UICONTROL Sandbox Public Key] | ストア表示 | これは、暗号化されたデータへのアクセスを制限する、ユーザー固有の公開識別子です。 サンドボックスBraintreeゲートウェイに関連付けられた各ユーザーには、独自のサンドボックス公開鍵があります。 このフィールドは、「_[!UICONTROL Environment]_」フィールドが「`Sandbox`」に設定されている場合に表示されます。 |
-| [!UICONTROL Sandbox Private Key] | ストア表示 | これは、暗号化されたデータへのアクセスを制限する、ユーザー固有のプライベート識別子です。 サンドボックスBraintreeゲートウェイに関連付けられた各ユーザーには、サンドボックス用の独自の秘密鍵があります。 このフィールドは、「_[!UICONTROL Environment]_」フィールドが「`Sandbox`」に設定されている場合に表示されます。 |
+| [!UICONTROL Sandbox Public Key] | ストア表示 | これは、暗号化されたデータへのアクセスを制限する、ユーザー固有の公開識別子です。 サンドボックス Braintree ゲートウェイに関連付けられた各ユーザーには、独自のサンドボックス公開鍵があります。 このフィールドは、「_[!UICONTROL Environment]_」フィールドが「`Sandbox`」に設定されている場合に表示されます。 |
+| [!UICONTROL Sandbox Private Key] | ストア表示 | これは、暗号化されたデータへのアクセスを制限する、ユーザー固有のプライベート識別子です。 サンドボックス Braintree ゲートウェイに関連付けられた各ユーザーは、サンドボックス用に独自の秘密鍵を持ちます。 このフィールドは、「_[!UICONTROL Environment]_」フィールドが「`Sandbox`」に設定されている場合に表示されます。 |
 | [!UICONTROL Merchant ID] | ストア表示 | これは、ゲートウェイに存在する複数のマーチャントアカウントを含む、ゲートウェイアカウント全体の一意の ID です。 _パブリック ID_ または _実稼動 ID_ とも呼ばれ、マーチャント ID は実稼動ゲートウェイとサンドボックスゲートウェイで異なります。 このフィールドは、「_[!UICONTROL Environment]_」フィールドが「`Production`」に設定されている場合に表示されます。 |
-| [!UICONTROL Public Key] | ストア表示 | これは、暗号化されたデータへのアクセスを制限する、ユーザー固有の公開識別子です。 Braintreeゲートウェイに関連付けられた各ユーザーは、独自の公開鍵を持ちます。 このフィールドは、「_[!UICONTROL Environment]_」フィールドが「`Production`」に設定されている場合に表示されます。 |
-| [!UICONTROL Private Key] | ストア表示 | これは、暗号化されたデータへのアクセスを制限する、ユーザー固有のプライベート識別子です。 Braintreeゲートウェイに関連付けられた各ユーザーは、独自の秘密鍵を持ちます。 このフィールドは、「_[!UICONTROL Environment]_」フィールドが「`Production`」に設定されている場合に表示されます。 |
-| [!UICONTROL Enable Card Payments] | Web サイト | Braintreeのクレジット カードによる支払い方法が、お客様の支払い方法として利用可能かどうかを判断します。 オプション：`Yes` / `No` |
+| [!UICONTROL Public Key] | ストア表示 | これは、暗号化されたデータへのアクセスを制限する、ユーザー固有の公開識別子です。 Braintree ゲートウェイに関連付けられた各ユーザーは、独自の公開鍵を持ちます。 このフィールドは、「_[!UICONTROL Environment]_」フィールドが「`Production`」に設定されている場合に表示されます。 |
+| [!UICONTROL Private Key] | ストア表示 | これは、暗号化されたデータへのアクセスを制限する、ユーザー固有のプライベート識別子です。 Braintree Gateway に関連付けられた各ユーザーには、独自の秘密鍵があります。 このフィールドは、「_[!UICONTROL Environment]_」フィールドが「`Production`」に設定されている場合に表示されます。 |
+| [!UICONTROL Enable Card Payments] | Web サイト | Braintreeのクレジットカードによる支払い方法が、お客様の支払い方法として利用可能かどうかを判断します。 オプション：`Yes` / `No` |
 | [!UICONTROL Enable Vault for Card Payments] | Web サイト | 有効にすると、は顧客の支払い情報を安全に保存できるので、顧客は購入ごとにクレジットカード情報を再入力する必要はありません。 オプション：`Yes` / `No` |
-| [!UICONTROL Enable Vault CVV Reverification] | Web サイト | 有効化すると、Braintreeアカウントで設定された CVV ルールの検証が行われます。 オプション：`Yes` / `No` |
+| [!UICONTROL Enable Vault CVV Reverification] | Web サイト | 有効にすると、Braintree アカウントで設定された CVV ルールに対して検証が行われます。 オプション：`Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -51,15 +55,15 @@ ht-degree: 0%
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Vault Title] | Web サイト | 顧客カード情報が保存されている Vault を識別する、参照用の説明的なタイトル。 |
-| [!UICONTROL Merchant Account ID] | Web サイト | この Web サイトからのBraintree取引に関連付けられるマーチャントアカウント ID。 空白のままにすると、Braintreeアカウントのデフォルトのマーチャントアカウントが使用されます。 |
+| [!UICONTROL Merchant Account ID] | Web サイト | この web サイトからのBraintree取引に関連付けられるマーチャントアカウント ID。 空白の場合、Braintree アカウントのデフォルトのマーチャントアカウントが使用されます。 |
 | [!UICONTROL Enable Checkout Express Payments] | Web サイト | PayPal、PayLater、Apple Pay、Google Pay など、チェックアウトプロセスの開始時に Express Payment オプションを使用して、より迅速にチェックアウトできます。 オプション：`Yes` / `No` |
 | [!UICONTROL Skip Fraud Checks on Admin Orders] | Web サイト | `Yes` に設定されている場合にのみ、管理者を通じて行われた注文に対して、[!DNL Advanced Fraud Tools] チェックの一部として評価のためにトランザクションが送信されないようにします。<br/> オプション：`Yes` / `No` |
 | [!UICONTROL Bypass Fraud Protection Threshold] | Web サイト | しきい値に達した場合や、しきい値を超えた場合、`Advanced Fraud Protection` のチェックがバイパスされます。 このフィールドを空白にすると、このオプションが無効になります。 |
-| [!UICONTROL Debug] | Web サイト | Braintree システムとストア間のやり取りをログ ファイルに記録するかどうかを指定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Debug] | Web サイト | Braintree システムとストア間のやり取りをログファイルに記録するかどうかを指定します。 オプション：`Yes` / `No` |
 | [!UICONTROL CVV Verification] | Web サイト | 顧客がクレジット カードの裏面から 3 桁のセキュリティ コードを提供する必要があるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Send Card Line Items] | Web サイト | すべての支払い方法の買い物かご品目を送信します。 オプション：`Yes` / `No` |
-| [!UICONTROL Credit Card Types] | Web サイト | Braintreeを通じて支払いとして受け入れる各クレジットカードを指定します。 `Ctrl` キー（またはMacの `Command` キー）を押したままにして、カードの組み合わせを選択します。 オプション：`American Express` / `Visa` / `MasterCard` / `Discover` / `JCB` / `Diners` / `Maestro International` |
-| [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他のお支払い方法と共にBraintreeがリストされる順序を指定します。 |
+| [!UICONTROL Credit Card Types] | Web サイト | Braintree経由で支払いとして受け入れる各クレジットカードを指定します。 `Ctrl` キー（またはMacの `Command` キー）を押したままにして、カードの組み合わせを選択します。 オプション：`American Express` / `Visa` / `MasterCard` / `Discover` / `JCB` / `Diners` / `Maestro International` |
+| [!UICONTROL Sort Order] | Web サイト | チェックアウト時にBraintreeが他のお支払い方法と共にリストする注文を指定します。 |
 
 ## [!UICONTROL Braintree Webhooks Settings]
 
@@ -68,9 +72,9 @@ ht-degree: 0%
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Webhook] | Web サイト | 詐欺保護、ACH 支払い、ローカル支払い方法、および紛争に対して Webhook 機能を有効にします。 オプション：`Yes` / `No` |
-| [!UICONTROL Fraud Protection URL] | Web サイト | この URL を [!UICONTROL Webhook Destination URL] としてBraintreeアカウントに追加します。 **この URL はセキュリティで保護され、公にアクセス可能である必要があります。** |
-| [!UICONTROL Fraud Protection Approve Order Status] | Web サイト | 不正防止がBraintreeによって承認されると、選択された注文ステータスがCommerce注文に割り当てられます。 このステータスは、ACH 支払い方法が使用されている注文のステータスと、Braintreeに移 `SETTLED` した注文のステータスを更新するために使用されます。 |
-| [!UICONTROL Fraud Protection Reject Order Status] | Web サイト | Braintreeにより不正防止が拒否されると、選択された注文ステータスがCommerce注文に割り当てられます。 このステータスは、ACH 支払い方法が使用されている注文のステータスと、`SETTLEMENT` がBraintreeに `DECLINED` まれている注文のステータスを更新するために使用されます。 |
+| [!UICONTROL Fraud Protection URL] | Web サイト | この URL を [!UICONTROL Webhook Destination URL] としてBraintree アカウントに追加します。 **この URL はセキュリティで保護され、公にアクセス可能である必要があります。** |
+| [!UICONTROL Fraud Protection Approve Order Status] | Web サイト | 不正防止がBraintreeによって承認されると、選択された注文ステータスがCommerceの注文に割り当てられます。 このステータスは、ACH 支払い方法が使用されている注文のステータスと、Braintreeでの `SETTLED` 行のタイミングを更新するために使用されます。 |
+| [!UICONTROL Fraud Protection Reject Order Status] | Web サイト | Braintreeによって不正防止が拒否されると、選択された注文ステータスがCommerce注文に割り当てられます。 このステータスは、ACH 支払い方法が使用されている注文のステータスと、Braintreeで `SETTLEMENT` が使用さ `DECLINED` ている注文のステータスを更新するために使用されます。 |
 
 {style="table-layout:auto"}
 
@@ -80,19 +84,19 @@ ht-degree: 0%
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Payment from Applicable Countries] | Web サイト | Braintreeが処理する支払いをすべての国から受け入れるか、特定の国のみから受け入れるかを指定します。 オプション：`All Allowed Countries` / `Specific Countries` |
-| [!UICONTROL Payment from Specific Countries] | Web サイト | 該当する場合、はBraintreeによって処理される支払いを受け入れる特定の国を識別します。 |
-| [!UICONTROL Country Specific Credit Card Types] | Web サイト | Braintreeで処理される支払について、国ごとに受け入れられるクレジットカードを識別します。 レコードは国ごとに保存されます。 オプション：<br/>**`Country`**– 国を選択します。<br/>**`Allowed Card Types`** -Braintreeを通じて支払いとして国から受け入れる各クレジットカードを選択します。 <br/>**`Add`**– 別の国のクレジットカードを許可する行を追加します。<br/>**`Action`** – 許可されている国のクレジットカードの記録を削除します。 |
+| [!UICONTROL Payment from Applicable Countries] | Web サイト | Braintreeで処理される支払いをすべての国から受け入れるか、特定の国からのみ受け入れるかを指定します。 オプション：`All Allowed Countries` / `Specific Countries` |
+| [!UICONTROL Payment from Specific Countries] | Web サイト | 該当する場合、Braintreeで処理される支払いを受け入れる特定の国を識別します。 |
+| [!UICONTROL Country Specific Credit Card Types] | Web サイト | Braintreeで処理される支払いに対して、国ごとに受け入れられるクレジットカードを識別します。 レコードは国ごとに保存されます。 オプション：<br/>**`Country`**– 国を選択します。<br/>**`Allowed Card Types`** - Braintreeを通じて支払いとして国から受け入れる各クレジットカードを選択します。 <br/>**`Add`**– 別の国のクレジットカードを許可する行を追加します。<br/>**`Action`** – 許可されている国のクレジットカードの記録を削除します。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL ACH through Braintree]
 
-![Braintreeによる ACH](./assets/payment-methods-braintree-ach-config.png)<!-- zoom -->
+![ACH からBraintree](./assets/payment-methods-braintree-ach-config.png)<!-- zoom -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enabled ACH Direct Debit] | Web サイト | [!DNL ACH Direct Debit] がBraintreeによって支払い方法として含まれているかどうかを判断します。 オプション：`Yes` / `No` |
+| [!UICONTROL Enabled ACH Direct Debit] | Web サイト | Braintreeを通じて支払い方法として [!DNL ACH Direct Debit] を含めるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Enable Vault for ACH Direct Debit] | Web サイト | お客様は、将来の使用のために、使い捨ての ACH 口座引落し支払方法をヴォールティング/保存できます。 支払詳細がヴォールトされると、お客様はデータの再入力や支払情報の再認証を行うことなく、ACH 口座引落し支払方法を使用できます。 オプション：`Yes` / `No` |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法 [!DNL ACH Direct Debit] 一緒にリストされる順序を決定します。 |
 
@@ -100,13 +104,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Apple Pay through Braintree]
 
-![Apple ペイ スルーBraintree](./assets/payment-methods-braintree-applepay-config.png)<!-- zoom -->
+![Braintree経由のApple Pay](./assets/payment-methods-braintree-applepay-config.png)<!-- zoom -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable ApplePay through Braintree] | Web サイト | Apple Pay がBraintreeによる支払い方法として含まれているかどうかを判断します。 オプション：`Yes` / `No` <br/><br/> ドメインは [ 最初にBraintreeアカウントで検証 ](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3) する必要があります。 |
+| [!UICONTROL Enable ApplePay through Braintree] | Web サイト | Braintreeを通じてApple Pay を支払い方法として含めるかどうかを決定します。 オプション：`Yes` / `No` <br/><br/> ドメインを [ 最初にBraintree アカウントで検証 ](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3) する必要があります。 |
 | [!UICONTROL Enable Vault for ApplePay] | Web サイト | お客様は、今後の使用のためにApple Pay の支払い方法をヴォールティング/保存できます。 支払い情報が保管されると、お客様はデータを再入力したり、支払い情報を再認証したりすることなく、Apple Pay を使用できます。 オプション：`Yes` / `No` |
-| [!UICONTROL Payment Action] | Web サイト | 支払が処理されるときにBraintreeが実行するアクションを指定します。 オプション：<br/>**`Authorize`**– 顧客のカードの資金は許可されていますが、顧客のアカウントから転送されません。 注文はストア管理者で作成されます。 後で販売をキャプチャし、請求書を作成できます。<br/>**`Intent Sale`** – 顧客のカードの資金はBraintreeによって承認および取得され、注文と請求書はストア管理者で作成されます。 **_メモ：_** これは 2.3.x 以前のリリースで `Authorize and Capture` 行されました。 |
+| [!UICONTROL Payment Action] | Web サイト | 支払いが処理されたときにBraintreeが実行するアクションを指定します。 オプション：<br/>**`Authorize`**– 顧客のカードの資金は許可されていますが、顧客のアカウントから転送されません。 注文はストア管理者で作成されます。 後で販売をキャプチャし、請求書を作成できます。<br/>**`Intent Sale`** – 顧客のカードの資金はBraintreeによって承認および取得され、注文と請求書はストア管理で作成されます。 **_メモ：_** これは 2.3.x 以前のリリースで `Authorize and Capture` 行されました。 |
 | [!UICONTROL Merchant Name] | ストア表示 | ApplePay ポップアップで顧客に表示されるラベル。 |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時にApple Pay が他の支払い方法と共にリストされる注文を指定します。 |
 
@@ -118,9 +122,9 @@ ht-degree: 0%
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enabled Local Payment Methods] | Web サイト | Braintreeを通じて支払い方法として現地の支払い方法を含めるかどうかを決定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Enabled Local Payment Methods] | Web サイト | Braintreeを通じて現地の支払方法を支払方法として含めるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Title] | Web サイト | チェックアウト時の支払い方法セクションに表示されるラベル。 デフォルト値：`Local Payments` |
-| [!UICONTROL Fallback Button Text] | Web サイト | フォールバックBraintreeページに表示され、顧客を web サイトに戻すためのボタンに使用するテキストを入力します。 デフォルト値：`Complete Checkout` |
+| [!UICONTROL Fallback Button Text] | Web サイト | 顧客を web サイトに戻すフォールバック Braintree ページに表示されるボタンに使用するテキストを入力します。 デフォルト値：`Complete Checkout` |
 | [!UICONTROL Redirect on Fail] | Web サイト | ローカルの支払方法トランザクションが取り消された場合、失敗した場合、またはエラーが発生した場合に顧客がリダイレクトされる URL を指定します。 チェックアウト支払いページにする必要があります（例：`https://www.domain.com/checkout#payment`）。 |
 | [!UICONTROL Allowed Payment Method] | Web サイト | 有効化するローカルの支払方法を選択します。 オプション：`Bancontact`/`EPS`/`giropay`/`iDeal`/`Klarna Pay Now`/`SOFORT`/`MyBank`/`P24`/`SEPA/ELV Direct Debit` （まだサポートされていません） |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時にローカル支払方法が他の支払方法と共に一覧表示される順序を決定します。 |
@@ -129,17 +133,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->バンドルされたBraintree拡張機能は、[Braintree開発者向けドキュメント ](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview) に記載されているすべてのローカル支払い方法をサポートしているわけではありません。 今後のリリースでサポートされる予定の、その他の地域での支払い方法も開発中です。
+>バンドルされたBraintree拡張機能は、[Braintree開発者向けドキュメント ](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview) にリストされているすべてのローカル支払い方法をサポートしているわけではありません。 今後のリリースでサポートされる予定の、その他の地域での支払い方法も開発中です。
 
 ## [!UICONTROL GooglePay through Braintree]
 
-![Braintreeによる GooglePay](./assets/payment-methods-braintree-googlepay-config.png)<!-- zoom -->
+![Braintreeを使用した GooglePay](./assets/payment-methods-braintree-googlepay-config.png)<!-- zoom -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enabled GooglePay through Braintree] | Web サイト | Braintree[!DNL Google Pay] 支払い方法として支払いが含まれるかどうかを指定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Enabled GooglePay through Braintree] | Web サイト | お支払いがBraintree[!DNL Google Pay] 支払い方法として含まれるかどうかを判断します。 オプション：`Yes` / `No` |
 | [!UICONTROL Enable Vault for GooglePay] | Web サイト | お客様は、今後の使用のためにGoogle Pay の支払い方法をヴォールティング/保存できます。 支払い情報が保管されると、お客様はデータを再入力したり、支払い情報を再認証したりすることなく、Google Pay を使用できます。 オプション：`Yes` / `No` |
-| [!UICONTROL Payment Action] | Web サイト | 支払が処理されるときにBraintreeが実行するアクションを指定します。 オプション：<br/>**`Authorize`**– 顧客のカードの資金は許可されていますが、顧客のアカウントから転送されません。 注文はストア管理者で作成されます。 後で販売をキャプチャし、請求書を作成できます。<br/>**`Intent Sale`** – 顧客のカードの資金はBraintreeによって承認および取得され、注文と請求書はストア管理者で作成されます。 **_メモ：_** これは 2.3.x 以前のリリースで `Authorize and Capture` 行されました。 |
+| [!UICONTROL Payment Action] | Web サイト | 支払いが処理されたときにBraintreeが実行するアクションを指定します。 オプション：<br/>**`Authorize`**– 顧客のカードの資金は許可されていますが、顧客のアカウントから転送されません。 注文はストア管理者で作成されます。 後で販売をキャプチャし、請求書を作成できます。<br/>**`Intent Sale`** – 顧客のカードの資金はBraintreeによって承認および取得され、注文と請求書はストア管理で作成されます。 **_メモ：_** これは 2.3.x 以前のリリースで `Authorize and Capture` 行されました。 |
 | [!UICONTROL Button Color] | Web サイト | [!DNL Google Pay] ボタンの色を決定します。 オプション：`White` / `Black` |
 | [!UICONTROL Merchant ID] | ストア表示 | Googleから提供された ID をここに入力する必要があります。 |
 | [!UICONTROL Accepted Cards] | Web サイト | [!DNL Google Pay] を使用して顧客が注文に使用できるカードのタイプを選択します。 |
@@ -149,13 +153,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Venmo through Braintree]
 
-![Braintreeによる Venmo](./assets/payment-methods-braintree-venmo-config.png)<!-- zoom -->
+![Venmo からBraintreeへ ](./assets/payment-methods-braintree-venmo-config.png)<!-- zoom -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable Venmo through Braintree] | Web サイト | [!DNL Venmo] がBraintreeによって支払い方法として含まれているかどうかを判断します。 オプション：`Yes` / `No` |
+| [!UICONTROL Enable Venmo through Braintree] | Web サイト | Braintreeを通じて支払い方法として [!DNL Venmo] を含めるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Enable Vault for Venmo] | Web サイト | お客様は、将来の使用のために Venmo 支払い方法をヴォールティング/保存できます。 支払いの詳細が保管されると、お客様はデータを再入力したり、支払い情報を再認証したりすることなく、Venmo 支払い方法を使用できます。 オプション：`Yes` / `No` |
-| [!UICONTROL Payment Action] | Web サイト | 支払が処理されるときにBraintreeが実行するアクションを指定します。 オプション：<br/>**`Authorize`**– 顧客のカードの資金は許可されていますが、顧客のアカウントから転送されません。 注文はストア管理者で作成されます。 後で販売をキャプチャし、請求書を作成できます。<br/>**`Intent Sale`** – 顧客のカードの資金はBraintreeによって承認および取得され、注文と請求書はストア管理者で作成されます。 **_メモ：_** これは、2.3.x 以前のリリースでは _承認してキャプチャ_ されていました。 |
+| [!UICONTROL Payment Action] | Web サイト | 支払いが処理されたときにBraintreeが実行するアクションを指定します。 オプション：<br/>**`Authorize`**– 顧客のカードの資金は許可されていますが、顧客のアカウントから転送されません。 注文はストア管理者で作成されます。 後で販売をキャプチャし、請求書を作成できます。<br/>**`Intent Sale`** – 顧客のカードの資金はBraintreeによって承認および取得され、注文と請求書はストア管理で作成されます。 **_メモ：_** これは、2.3.x 以前のリリースでは _承認してキャプチャ_ されていました。 |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に Venmo が他の支払い方法と共にリストされる順序を決定します。 |
 
 {style="table-layout:auto"}
@@ -166,19 +170,19 @@ ht-degree: 0%
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable PayPal through Braintree] | Web サイト | PayPal をBraintreeによる支払い方法として含めるかどうかを決定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Enable PayPal Credit through Braintree] | Web サイト | PayPal クレジットをBraintreeによる支払い方法として含めるかどうかを指定します。 オプション：`Yes`/`No`。 このフィールドは、`Enable PayPal through Braintree` を `Yes` に設定すると表示されます |
-| [!UICONTROL Enable PayPal PayLater through Braintree] | Web サイト | PayPal PayLater をBraintreeの支払い方法として含めるかどうかを指定します。 オプション：`Yes`/`No`。 このフィールドは、`Enable PayPal through Braintree` を `Yes` に設定すると表示されます |
-| [!UICONTROL Title] | ストア表示 | チェックアウト時にお客様にBraintreeすることで PayPal を識別するラベル。 デフォルト値：`PayPal` |
+| [!UICONTROL Enable PayPal through Braintree] | Web サイト | PayPal をBraintree経由の支払い方法として含めるかどうかを決定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Enable PayPal Credit through Braintree] | Web サイト | PayPal クレジットをBraintree経由の支払い方法として含めるかどうかを決定します。 オプション：`Yes`/`No`。 このフィールドは、`Enable PayPal through Braintree` を `Yes` に設定すると表示されます |
+| [!UICONTROL Enable PayPal PayLater through Braintree] | Web サイト | PayPal PayLater をBraintree経由の支払い方法として含めるかどうかを決定します。 オプション：`Yes`/`No`。 このフィールドは、`Enable PayPal through Braintree` を `Yes` に設定すると表示されます |
+| [!UICONTROL Title] | ストア表示 | チェックアウト時にBraintreeを通じてお客様に PayPal を識別するラベル。 デフォルト値：`PayPal` |
 | [!UICONTROL Vault Enabled] | Web サイト | 有効にすると、顧客の支払い情報の安全なストレージが提供されるので、顧客は購入ごとに PayPal 情報を再入力する必要がなくなります。 オプション：`Yes` / `No` |
 | [!UICONTROL Send Cart Line Items for PayPal] | Web サイト | 明細（注文品目）を PayPal に送信し、明細としてギフトカード、商品用のギフトラッピング、注文用のギフトラッピング、ストクレジット、送料、税金を送信します。 オプション：`Yes` / `No` |
-| [!UICONTROL Sort Order] | Web サイト | チェックアウト時に PayPal が他のお支払い方法と一緒にBraintreeされる順序を決定する数字です。 |
+| [!UICONTROL Sort Order] | Web サイト | チェックアウト時にBraintreeを通じて PayPal が他のお支払い方法と一緒にリストされる順序を決定する数値です。 |
 | [!UICONTROL Override Merchant Name] | ストア表示 | 各店舗表示の販売者を識別するために使用できる代替名。 |
-| [!UICONTROL Payment Action] | Web サイト | 支払い処理時にBraintreeを通じて PayPal が実行するアクションを指定します。 オプション：<br/>**`Authorize`**– 顧客のカードの資金は許可されていますが、顧客のアカウントから転送されません。 注文はストア管理者で作成されます。 後で販売をキャプチャし、請求書を作成できます。<br/>**`Authorize and Capture`** – お客様のカードの資金は、Braintreeを通じて PayPal によって承認および取得され、注文と請求書はストア管理者で作成されます。 |
-| [!UICONTROL Payment from Applicable Countries] | Web サイト | PayPal で処理される支払いを、すべての国のBraintreeを通じて受け入れるか、特定の国のみから受け入れるかを指定します。 オプション：`All Allowed Countries` / `Specific Countries` |
-| [!UICONTROL Payment from Specific Countries] | Web サイト | 該当する場合、はBraintreeによって処理される支払いを受け入れる特定の国を識別します。 |
+| [!UICONTROL Payment Action] | Web サイト | 支払い処理時にBraintreeを通じて PayPal が実行するアクションを指定します。 オプション：<br/>**`Authorize`**– 顧客のカードの資金は許可されていますが、顧客のアカウントから転送されません。 注文はストア管理者で作成されます。 後で販売をキャプチャし、請求書を作成できます。<br/>**`Authorize and Capture`** – 顧客のカードの資金は、Braintreeを通じて PayPal によって承認および取得され、注文と請求書はストア管理で作成されます。 |
+| [!UICONTROL Payment from Applicable Countries] | Web サイト | PayPal によって処理される支払いを、すべての国からBraintreeを通じて受け入れるか、特定の国からのみ受け入れるかを指定します。 オプション：`All Allowed Countries` / `Specific Countries` |
+| [!UICONTROL Payment from Specific Countries] | Web サイト | 該当する場合、Braintreeで処理される支払いを受け入れる特定の国を識別します。 |
 | [!UICONTROL Require Customer's Billing Address] | Web サイト | 注文を送信するために顧客の請求先住所が必要かどうかを決定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Debug] | Web サイト | Braintreeシステムを介した PayPal とストア間の通信がログファイルに記録されるかどうかを指定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Debug] | Web サイト | Braintree システムを通じた PayPal とストア間のやり取りをログファイルに記録するかどうかを指定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Display on Shopping Cart] | Web サイト | PayPal ボタンを [ ミニ カート ](../../stores-purchase/cart-configuration.md#mini-cart) および [ 買い物かご ](../../stores-purchase/cart.md) ページに表示するかどうかを決定します。 オプション：`Yes` / `No` |
 
 {style="table-layout:auto"}
