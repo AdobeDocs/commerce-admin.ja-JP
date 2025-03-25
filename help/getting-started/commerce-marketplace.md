@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: マーチャントに厳選されたソリューションを提供し、適格な開発者に活発なビジネスを構築するためのツール、プラットフォーム、主要な場所を提供する  [!DNL Commerce Marketplace] について説明します。
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 20e1439810891b0d19cda62cc2646701ec5a778c
+source-git-commit: 7b5c331625e4c4dab0e41156722c4a8deb4aa4c0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [Adobe Commerce Marketplace][1] は、マーチャント向けに厳選されたソリューションを提供するアプリケーションストアです。資格のあるデベロッパー向けに、活発なビジネスを構築するためのツールやプラットフォームを提供します。 [!DNL Commerce Marketplace] には、無料で利用できる拡張機能と、販売されるその他の拡張機能が用意されています。 購入はクレジットカードまたは [PayPal][2] で支払うことができます。
 
-[!DNL Commerce Marketplace] で利用可能なすべての拡張機能は、包括的なレビューに合格しています。 [Extension Quality Program][3] （EQP）は、[!DNL Commerce] の専門知識、開発ガイドライン、検証ツールを組み合わせて、Commerce Marketplace上のすべての拡張機能がコーディング標準とベストプラクティスを満たしていることを確認します。 レビュープロセスには、自動チェックと手動 QA レビューの両方が含まれます。 このプロセスでは、各拡張機能の構造とコードが検査され、ウイルス/マルウェア感染の証拠や盗用の兆候がないかテストされます。 このレビューには、[!DNL Commerce] エンジニアによる詳細な技術調査と健全性チェックが含まれています。ここでは、ドキュメント、コーディング構造、パフォーマンス、スケーラビリティ、セキュリティ、[!DNL Commerce] コアとの互換性に重点を置いて行われます。
+[!DNL Commerce Marketplace] で利用可能なすべての拡張機能は、包括的なレビューに合格しています。 [Extension Quality Program][3] （EQP）は、Commerce Marketplace上のすべての拡張機能がコーディング標準とベストプラクティスを確実に満たすよ [!DNL Commerce] に、専門知識、開発ガイドライン、検証ツールを組み合わせたものです。 レビュープロセスには、自動チェックと手動 QA レビューの両方が含まれます。 このプロセスでは、各拡張機能の構造とコードが検査され、ウイルス/マルウェア感染の証拠や盗用の兆候がないかテストされます。 このレビューには、[!DNL Commerce] エンジニアによる詳細な技術調査と健全性チェックが含まれています。ここでは、ドキュメント、コーディング構造、パフォーマンス、スケーラビリティ、セキュリティ、[!DNL Commerce] コアとの互換性に重点を置いて行われます。
 
 他のソースから拡張機能を購入できますが、[!DNL Commerce Marketplace] で使用可能な拡張機能のみが、拡張機能品質プログラム内の広範な技術およびマーケティングレビューを通じて検証されます。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 - [Adobe Commerceの I/O イベントの設定 ](https://developer.adobe.com/commerce/extensibility/events/)
 - [Adobe Commerceのイベントの設定 ](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
-- [ 管理 UI SDK のセットアップ ](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
+- [ 管理 UI SDKのセットアップ ](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [ 拡張機能のアプリへの変換 ](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
 ### App Builder リソース
@@ -43,11 +43,11 @@ ht-degree: 0%
 
 ## [!DNL Marketplace] 資格情報
 
-[!DNL Commerce Marketplace] から購入した拡張機能をインストールする前に、[!DNL Commerce] アカウントにサインインし、アクティブなアクセスキーがあることを確認します。 [[!DNL Marketplace]][1] または [header.com][6] のMagentoから [!DNL Commerce] アカウントにサインインできます。
+[!DNL Commerce Marketplace] から購入した拡張機能をインストールする前に、[!DNL Commerce] アカウントにサインインし、アクティブなアクセスキーがあることを確認します。 [[!DNL Marketplace]][1] または [Magento.com][6] のヘッダーから [!DNL Commerce] アカウントにログインできます。
 
-アクセスキーは、[!DNL Commerce] インストールを [!DNL Commerce] アカウントと同期し、資格情報を検証するために使用される、一連の公開鍵と秘密鍵です。 アカウントが同期されたら、Commerce Marketplaceから拡張機能やモジュールをインストールしたり、[!DNL Commerce] のインストールをアップグレードしたりするたびに、秘密鍵を入力する必要があります。
+アクセスキーは、[!DNL Commerce] インストールを [!DNL Commerce] アカウントと同期し、資格情報を検証するために使用される、一連の公開鍵と秘密鍵です。 アカウントが同期されると、Commerce Marketplaceから拡張機能やモジュールをインストールしたり、[!DNL Commerce] インストールをアップグレードしたりするたびに、秘密鍵を入力する必要があります。
 
-目的に応じて複数のアクセスキーを作成し、必要に応じて有効または無効にすることができます。 ただし、[!DNL Commerce] ソフトウェアのインストールに使用したのと同じアクセス キーを使用する必要があります。 例えば、Magento Open Sourceアクセスキーを使用してAdobe Commerceを更新またはアップグレードすることはできません。逆も同様です。 また、別のユーザーに属するアクセスキーや、（共有アカウント [ からのアクセスキーは使用でき ](commerce-account-share.md) せん。
+目的に応じて複数のアクセスキーを作成し、必要に応じて有効または無効にすることができます。 ただし、[!DNL Commerce] ソフトウェアのインストールに使用したのと同じアクセス キーを使用する必要があります。 例えば、Magento Open Source アクセスキーを使用してAdobe Commerceを更新またはアップグレードすることはできません。逆も同様です。 また、別のユーザーに属するアクセスキーや、（共有アカウント [ からのアクセスキーは使用でき ](commerce-account-share.md) せん。
 
 ### アクセスキーの作成
 
@@ -71,21 +71,25 @@ ht-degree: 0%
 
    新しいアクセスキーが有効になり、リストに表示されます。
 
-   各公開鍵と秘密鍵の後に _コピー_ リンクがあることに注意してください。 次の手順では、これらの値をコピーして貼り付け、ストアをCommerce Marketplaceと同期させます。
+   各公開鍵と秘密鍵の後に _コピー_ リンクがあることに注意してください。 次の手順では、これらの値をコピーして貼り付け、ストアをCommerce Marketplaceと同期します。
 
 ## インストールプロセス
 
 >[!IMPORTANT]
 >
->Adobe CommerceおよびMagento Open Source 2.4.0 以降、web セットアップウィザードは削除されるので、コマンドラインを使用してインスタンスを [ インストール ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) または [ アップグレード ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) する必要があります。 この要件には、[ モジュール ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) および [ 拡張機能 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) も含まれます。
+>Adobe CommerceおよびMagento Open Source 2.4.0 以降では、web セットアップウィザードは削除されるので、コマンドラインを使用してインスタンスを [ インストール ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) または [ アップグレード ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) する必要があります。 この要件には、[ モジュール ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) および [ 拡張機能 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) も含まれます。
 
-Commerceの _オンプレミス_ インストールと、Adobeクラウドアーキテクチャ [ でホストされるインストールでは、[!DNL Marketplace] 購入のインストールプロセスが異な ][4] ます。
+[!DNL Marketplace] の購入のインストールプロセスは、Adobeの _オンプレミス_ インストールと、Commerce クラウドアーキテクチャ [ でホストされるインストールでは異な ][4] ます。
 
 ![Commerce Marketplace](./assets/marketplace.png){width="600"}
 
 ## サポート
 
-拡張機能のインストールや使用に関するヘルプが必要な場合は、まず拡張機能に付属するドキュメントを参照してください。 質問の回答が見つからない場合は、拡張機能リストの連絡先情報を使用して、開発者に直接問い合わせてください。 Marketplace で購入したものがニーズを満たさない場合は、購入日から 25 日以内に [ 払い戻しをリクエスト ](#refund-requests) できます。 Adobeは、すべての払い戻しリクエストを確認し、（承認された場合は）適切な払い戻しを発行します。 Commerce Marketplaceに関する問題については、[ サポート ](mailto:commercemarketplacesupport@adobe.com) にお問い合わせください。
+拡張機能のインストールや使用に関するヘルプが必要な場合は、まず拡張機能に付属するドキュメントを参照してください。 質問の回答が見つからない場合は、拡張機能リストの連絡先情報を使用して、開発者に直接問い合わせてください。 Marketplace で購入したものがニーズを満たさない場合は、購入日から 25 日以内に [ 払い戻しをリクエスト ](#refund-requests) できます。 Adobeは、すべての払い戻しリクエストを確認し、（承認された場合は）適切な払い戻しを発行します。 Commerce Marketplaceに関連する問題の場合：
+
+方法 1: [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/) に移動し、ページの下部に移動して「[!UICONTROL Contact Us]」をクリックします。このクリックによって、チケットを送信するためのフォームが開きます。
+
+方法 2:[ メールサポート ](mailto:commercemarketplacesupport@adobe.com)。
 
 ### チェックアウトの問題
 
@@ -105,7 +109,7 @@ Commerceの _オンプレミス_ インストールと、Adobeクラウドアー
 
 ### オープンソースの質問
 
-Marketplace サポートチームは、[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) および [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) サイトに関連する問題のみを解決します。 Magento Open Sourceに関するご質問は、[Community Forum](https://community.magento.com/) までお問い合わせください。または [ パートナーにお問い合わせください ](https://business.adobe.com/products/magento/partners.html) パートナーはMagento Open Sourceを支援できます。
+Marketplace サポートチームは、[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) および [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) サイトに関連する問題のみを解決します。 Magento Open Sourceに関するご質問は、[ コミュニティフォーラム ](https://community.magento.com/) または [ パートナーにお問い合わせください ](https://business.adobe.com/products/magento/partners.html) パートナーはMagento Open Sourceを支援できます。
 
 ### 払戻要求
 
