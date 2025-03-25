@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 90c653684be644f876937dc7acbc8f72498c5e3b
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1575'
 ht-degree: 1%
 
 ---
@@ -49,6 +49,14 @@ _2023 年 5 月 30 日_
 ![ 新規 ](../assets/new.svg) - [Real-Time CDP オーディエンスダッシュボード ](#real-time-cdp-audiences-dashboard) を更新し、Adobe Commerce インスタンス内のアクティブなオーディエンスの並べ替え、検索、フィルタリング機能を追加しました。
 
 +++
+
+### 2.4.0
+
+[!BADGE  互換性 ]{type=Informative tooltip="互換性"}
+
+_2025 年 3 月 24 日_
+
+![ 新規 ](../assets/new.svg) - PHP 8.4 のサポートを追加しました。
 
 ### 2.3.1
 
