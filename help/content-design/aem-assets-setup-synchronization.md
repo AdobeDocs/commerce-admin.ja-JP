@@ -3,9 +3,9 @@ title: 統合の設定
 description: Adobe Commerce プロジェクトとExperience Manager Assets プロジェクトを接続して、これら 2 つのシステム間のアセット同期を有効にする方法を説明します。
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
+source-git-commit: 8db3e4b039ed8e020a1a2400e400df01c34f1943
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,18 @@ AEM Assets プロジェクトを特定した後、Adobe CommerceとAEM Assetsの
 1. 「**[!UICONTROL Save Config]**」を選択すると、更新を適用し、アセットの同期を開始します。
 
    設定の更新は初期同期プロセスをトリガーし、CommerceがAEM Assetsから受信する更新を受け入れるようにします。 同期に要する時間は、アセットの量と特定の設定によって異なります。 この統合では、自動化されたプロセスを活用して、同期に要する時間を最小限に抑えます。
+
+### カスタムドメイン URL の設定
+
+マーチャントがAEM ダッシュボードで [ カスタムドメイン名 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank} を設定した場合、AEM Assets統合で使用できるように、この **カスタムドメイン URL** をCommerceに追加する必要があります。
+
+1. **[!UICONTROL Store]**/設定/**[!UICONTROL ADOBE SERVICES]**/**[!UICONTROL AEM Assets Integration]** に移動します。
+
+   ![AEM Assets統合：統合の有効化 ](assets/aem-assets-view.png){width="600" zoomable="yes"}
+
+1. **カスタムドメイン URL** を **[!UICONTROL Asset Custom Domain]** フィールドに追加します。
+
+1. 「**[!UICONTROL Save Config]**」をクリックして更新を適用し、アセットの同期を開始します。
 
 ## 次の手順
 
