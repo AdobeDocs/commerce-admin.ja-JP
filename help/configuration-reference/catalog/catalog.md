@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Commerce Admin の [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] ページで設定を確認します。
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 20f97d6ab391b7f5675d6790ab2ec5d24e9dda21
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3261'
 ht-degree: 0%
 
 ---
@@ -211,9 +211,9 @@ ht-degree: 0%
 | [!UICONTROL Popular Search Terms] | ストア表示 | _人気の検索語句_ がストアに実装されているかどうかを判断します。 この設定は、[Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) を使用するストアには適用されません。 オプション：`Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | ストア表示 | 製品の URL に html や htm などのサフィックスを適用するかどうかを決定します。 サフィックスは自動的に適用されるので、これを使用する場合はサフィックスの前にピリオドを含めないでください。 |
 | [!UICONTROL Category URL Suffix] | ストア表示 | カテゴリの URL に html や htm などのサフィックスを適用するかどうかを決定します。 サフィックスは自動的に適用されるので、これを使用する場合はサフィックスの前にピリオドを含めないでください。 |
-| [!UICONTROL Use Categories Path for Product URLs] | ストア表示 | カテゴリパスを製品 URL に含めるかどうかを決定します。 これにより、複数の URL が同じページを指す可能性があり、検索ランクに影響を与える可能性があります。 詳しくは、[ 正規メタタグ ](../../merchandising-promotions/meta-data.md#canonical-meta-tag) を参照してください。 |
+| [!UICONTROL Use Categories Path for Product URLs] | ストア表示 | カテゴリパスをストアフロントの製品 URL に含めるかどうかを決定します。 これにより、複数の URL が同じページを指す可能性があり、検索ランクに影響を与える可能性があります。 詳しくは、[ 正規メタタグ ](../../merchandising-promotions/meta-data.md#canonical-meta-tag) を参照してください。 |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | ストア表示 | URL キーが変更されるたびに永続的なリダイレクトを自動的に作成するかどうかを指定します。 実装すると、製品 URL キーフィールドの下にある「古い URL のカスタムリダイレクトを作成」チェックボックスがデフォルトで選択されます。 オプション：`Yes` / `No` |
-| [!UICONTROL Generate "category/product" URL Rewrites] | グローバル | Adobe Commerceが割り当てられた商品を多く含むカテゴリを保存した場合に、データを生成して書き換えテーブルに保存するかどうかを決定します。 オプション：`Yes` / `No` <br/><br/>**_重要：_**この生成されたデータを URL 書き換えテーブルに保存すると、パフォーマンスが低下する可能性があります。 詳しくは、[ 製品の自動リダイレクト ](../../merchandising-promotions/url-redirect-product-automatic.md) を参照してください。 |
+| [!UICONTROL Generate "category/product" URL Rewrites] | グローバル | Adobe Commerceが割り当てられた商品を多く含むカテゴリを保存した場合に、データを生成して書き換えテーブルに保存するかどうかを決定します。  <br/><br/> このオプションを変更しても、この設定に関係なく、商品 URL が自動的に解決されるので、Adobe Commerceでの商品 URL の解決方法には影響しません。 <br/><br/> オプション：`Yes` / `No` <br/><br/>**_重要：_**この生成されたデータを URL 書き換えテーブルに保存すると、パフォーマンスが低下する可能性があります。 詳しくは、[ 製品の自動リダイレクト ](../../merchandising-promotions/url-redirect-product-automatic.md) を参照してください。 |
 | [!UICONTROL Apply transliteration for product URL] | ストア表示 | 製品 URL を作成または更新する際に、表記変換を適用するかどうかを決定します。 オプション：`Yes`/`No`。 デフォルトは `Yes` に設定されています。 <br/><br/> 特定のユースケースでは、表記変換を無効にする必要があります。 例えば、中国語でオンラインストアを運営する場合、SEO のベストプラクティスでは、製品 URL が製品名と一致することをお勧めします。 オプションを `No` に設定すると、製品 URL で ASCII 相当の文字ではなく漢字を使用できます。 |
 | [!UICONTROL Page Title Separator] | ストア表示 | ブラウザのタイトル バーでカテゴリ名とサブカテゴリを区切る文字を指定します。 |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | ストア表示 | 同じカテゴリページを指す URL が複数ある場合、このオプションでは、正規のメタタグを使用して、検索エンジンでインデックスを作成するカテゴリ URL を識別します。 URL は、メタタグを使用したカテゴリへのフルネームを含みます。 これにより、重複コンテンツが減り、SEO が向上します。 オプション：`Yes` / `No` |

@@ -3,9 +3,9 @@ title: カタログおよび製品 URL
 description: カタログ製品の URL 形式タイプと設定方法について説明します。
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
+source-git-commit: 1edab49fd8d52a1b7414eb207a21c5c03200e75e
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -45,30 +45,30 @@ URL キーは、単語を区切るために、これらの文字の間に末尾�
 >
 >ローカライズされた URL など、URL のカスタマイズを拡張する方法については、[URL の書き換え ](../merchandising-promotions/url-rewrite.md) を参照してください。
 
-### HTML接尾辞
+### HTML サフィックス
 
 カタログは、カテゴリおよび製品 URL の一部としてサフィックスを含めるか除外するように設定できます。 サフィックスを使用または省略する理由は様々です。 サフィックスは有用な目的に役立たなくなり、サフィックスのないページは検索エンジンによって効果的にインデックス化されると考える人もいます。 ただし、会社が、サフィックスを必要とする URL の標準化された形式を持っている場合があります。
 
 サフィックスはシステム設定によって制御されるので、カテゴリや製品の URL キーに直接入力しないでください。 （これにより、URL の末尾に 2 つのサフィックスが付きます）。 サフィックスを使用するかどうかに関係なく、一貫性を保ち、すべての製品ページとカテゴリページに同じ設定を使用します。 サフィックスを含む（または含まない） URL の例を次に示します。
 
-#### HTMLサフィックスを含む URL
+#### HTML サフィックス付き URL
 
 - `http://mystore.com/helena-hooded-fleece.html`
 - `http://mystore.com/helena-hooded-fleece.htm`
 
-#### HTMLサフィックスのない URL
+#### HTML サフィックスのない URL
 
 - `http://mystore.com/helena-hooded-fleece`
 
 ### カテゴリパス
 
-URL を設定して、カテゴリパスを含めたり除外したりできます。 デフォルトでは、カテゴリパスは、すべてのカテゴリページと製品ページに含まれています。 次の例は、カテゴリパスを含む場合と含まない場合で同じ製品 URL を示しています。
+環境設定に基づいて、カテゴリパスを含めたり除外したりするように製品 URL を設定できます。 デフォルトでは、カテゴリパスは製品 URL に含まれていません。 ただし、ネストされたカテゴリでは、ストアフロントの URL に常に完全なカテゴリパスが表示されるので、カテゴリナビゲーションが明確かつ一貫性を持って行えます。 次の例は、カテゴリパスを含む場合と含まない場合で同じ製品 URL を示しています。
 
-#### カテゴリパスを含む URL
+#### カテゴリパスを含む製品 URL
 
 - `http://mystore.com/women/tops-women/hoodies-and-sweatshirts-women/helena-hooded-fleece.html`
 
-#### カテゴリパスのない URL
+#### カテゴリパスのない製品 URL
 
 - `http://mystore.com/helena-hooded-fleece.html`
 
