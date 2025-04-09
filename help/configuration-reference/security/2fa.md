@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: Commerce Admin の [!UICONTROL Security] &gt; [!UICONTROL 2FA] ページで設定を確認します。
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
+source-git-commit: 22bfff98a9189f3020de21b31705351510dcf1be
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '326'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->AdobeIdentity Management サービス（IMS）認証を有効にしているストアでは、ネイティブのAdobe CommerceおよびMagento Open Source二要素認証（2FA）が無効になっています。 Adobe資格情報を使用してAdobe Commerce インスタンスにログインしている管理者ユーザーは、多くの管理タスクで再認証する必要はありません。 Adobe IMSは、管理者ユーザーが現在のセッションにログインする際に認証を処理します。 [Adobe CommerceとAdobe IMSの統合：概要 ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html) を参照してください。
+>Adobe Identity Management サービス（IMS）認証を有効にしているストアでは、ネイティブのAdobe CommerceおよびMagento Open Source二要素認証（2FA）が無効になっています。 Adobe資格情報を使用してAdobe Commerce インスタンスにログインしている管理者ユーザーは、多くの管理タスクで再認証する必要はありません。 Adobe IMSは、管理者ユーザーが現在のセッションにログインする際に認証を処理します。 [Adobe CommerceとAdobe IMSの統合：概要 ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html) を参照してください。
 
 {{config}}
 
@@ -49,8 +49,10 @@ ht-degree: 1%
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Integration Key] | グローバル | [!DNL Duo Security] アカウントの統合キー。 |
-| [!UICONTROL Secret Key] | グローバル | [!DNL Duo Security] アカウントの秘密鍵。 |
+| [!UICONTROL Client Id] | グローバル | [!DNL Duo Security] アカウントのクライアント ID。 |
+| [!UICONTROL Client Secret] | グローバル | [!DNL Duo Security] アカウントのクライアント秘密鍵。 |
+| [!UICONTROL Integration Key] | グローバル | [!DNL Duo Security] API アカウントからの統合キー。 |
+| [!UICONTROL Secret Key] | グローバル | [!DNL Duo Security] API アカウントの秘密鍵。 |
 | [!UICONTROL API Hostname] | グローバル | [!DNL Duo Security] アカウントの API ホスト名。 |
 
 {style="table-layout:auto"}

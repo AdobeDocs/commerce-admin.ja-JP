@@ -3,7 +3,7 @@ title: 注文の発送
 description: 処理オーダーの出荷情報を完了する方法と、出荷および追跡情報を表示する方法を説明します。
 exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
 feature: Orders, Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: abd125cc6e61850db55fb31dbcbd9dc38ac0fca5
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    - 顧客のアカウントにコメントを投稿するには、「**[!UICONTROL Visible on Frontend]**」チェックボックスをオンにします。
 
-1. 「**[!UICONTROL Submit Comment]**」をクリックします。
+1. 「**[!UICONTROL Update]**」をクリックします。
 
 ## 出荷の追跡
 

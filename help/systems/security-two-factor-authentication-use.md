@@ -4,9 +4,9 @@ description: 管理者による最初のログイン時に二要素認証を設�
 exl-id: 1ea7f09e-4753-40fa-b9d4-376ba5d8f58f
 role: Admin, User
 feature: Configuration, Security, User Account
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: dc6e5fc7c0996af30bae6374cd7c9879902b9235
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Identity Management Services] （IMS）認証を有効にしているストアでは、ネイティブのAdobe CommerceとMagento Open Source 2FA が無効になっています。 Adobe資格情報を使用してCommerce インスタンスにログインしている管理者ユーザーは、多くの管理タスクで再認証する必要はありません。 Adobe IMSは、管理者ユーザーが現在のセッションにログインする際に認証を処理します。 [[!DNL Adobe Identity Management Service]  （IMS）統合の概要を参照してください ](../getting-started/adobe-ims-integration-overview.md)。
+>[!DNL Adobe Identity Management Services] （IMS）認証を有効にしているストアでは、ネイティブのAdobe CommerceおよびMagento Open Source 2FA が無効になっています。 Adobe資格情報を使用してCommerce インスタンスにログインしている管理者ユーザーは、多くの管理タスクで再認証する必要はありません。 Adobe IMSは、管理者ユーザーが現在のセッションにログインする際に認証を処理します。 [[!DNL Adobe Identity Management Service]  （IMS）統合の概要を参照してください ](../getting-started/adobe-ims-integration-overview.md)。
 
 ## [!DNL Google Authenticator]
 
@@ -59,27 +59,23 @@ ht-degree: 0%
 
 1. アカウントの資格情報を入力し、_管理者_ にログインします。
 
-1. [!DNL Duo] Setup ページが表示されたら、**[!UICONTROL Start setup]** をクリックして以下を実行します。
+1. [!DNL Duo] Setup ページが表示されたら、**[!UICONTROL Get Started]** をクリックして以下を実行します。
 
-   ![ ストアフロントの例 – Duo 設定 ](./assets/storefront-2fa-duo-user1.png){width="300"}
+   ![ ストアフロントの例 – Duo 設定 ](./assets/storefront-2fa-duo-setup-options.png){width="300"}
 
-1. デバイスを選択します。
+1. オプションを選択します。 タッチ ID、Duo モバイル、セキュリティ キー、または電話番号を選択できます。 この例は、「Duo モバイルまたは電話番号」オプションを示しています。
 
 1. プロンプトが表示されたら、電話番号を入力し、「**[!UICONTROL Continue]**」をクリックします。
 
-   この例ではモバイルデバイスを使用しているため、お客様の電話番号をリクエストしています。
+   電話番号のパスコードを送信して確認することで、所有権を確認します。
 
 1. お使いの電話の種類に合わせて [!DNL Duo Mobile] をインストールするように求めるメッセージが表示されたら、[**[!UICONTROL I have Duo Mobile]**] をクリックします。
 
 1. [!DNL Duo Mobile] を開き、QR コードをスキャンして、認証子をAdobe Commerceと同期します。 アクティベーションが完了すると、チェックマークが表示されます。
 
-1. デバイスの設定を構成するには、サインイン時に実行する操作を選択します。
+1. 必要に応じて、デバイスをさらに追加したり、スキップしたりできます。 これでセットアップが完了し、Duo を使ってログインできます。
 
-   - `Ask me to choose an authenticator method` - _Admin_ にログインして認証する際に、ユーザーが選択できるようにします。
-   - `Automatically send this device a Duo Push` — アクセスを許可または拒否するメッセージをデバイスに送信します。
-   - `Automatically call this device` — アクセス用に入力するパスコードを呼び出し、提供します。
-
-   ![Duo 検証アクション ](./assets/storefront-2fa-duo-user7.png){width="300"}
+   ![Duo 検証アクション ](./assets/storefront-2fa-duo-setup-complete.png){width="300"}
 
 ### 手順 2:[!DNL Duo Security] でログインする
 
@@ -89,13 +85,11 @@ ht-degree: 0%
 
    ![Duo - サインイン ](./assets/storefront-2fa-duo-auth.png){width="300"}
 
-1. 認証に使用する方法を選択します。
+1. Duo モバイル アプリでプッシュ通知を受け取る場合は、Duo でログインを選択し、タッチ ID でログインするか、セットアップ時に設定した別のオプションを使用して続行します。
 
-   - `Send Me a Push`：クリックすると、[!DNL Duo Mobile] へのプッシュ通知を受け取ります。 認証を承認します。
-   - 「`Call Me`」 – このオプションをクリックして、コードを含む呼び出しを受け取り、パスコードを入力します。
-   - 「`Enter a Passcode`」 – このオプションをクリックして、パスコードを受け取り、入力します。
+1. Duo アプリ/タッチ ID/テキストメッセージからのリクエストを承認すると、正常にログインします。
 
-1. プッシュまたはコードを完了して、_管理者_ に完全にログインします。
+   ![Duo - サインイン ](./assets/storefront-2fa-duo-success.png){width="300"}
 
 ## [!DNL Authy]
 

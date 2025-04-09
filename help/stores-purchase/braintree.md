@@ -1,11 +1,11 @@
 ---
 title: Braintree
-description: ストアでオンライン支払いソリューションとしてBraintreeを設定する方法を説明します。
+description: Learn how to set up Braintree as an online payment solution on your store.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-source-git-commit: da3d64b1d248635b8d13f8bb6e85c8ac661048c2
+source-git-commit: bb083698aff1da145bbb661307148c9223d5b545
 workflow-type: tm+mt
-source-wordcount: '2643'
+source-wordcount: '2873'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >カードに予想外の料金が発生した場合は、[ サブスクリプションをキャンセル ](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) ページでサポートを受けることができます。
 
-Braintreeは、不正検知と PayPal 統合により、完全にカスタマイズ可能なチェックアウトエクスペリエンスを提供します。 [!DNL Apple Pay]、[!DNL Google Pay]、ACH、Venmo、およびローカルの支払い方法をサポートします。 BraintreeではBraintree システム上で取引が行われるので、マーチャントの PCI コンプライアンスに関する負担が軽減されます。 Braintree Payments の統合は、[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) によって開発されました。
+Braintree offers a fully customizable checkout experience with fraud detection and PayPal integration. It supports [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo, and local payment methods. Braintree reduces the PCI compliance burden for merchants because the transaction takes place on the Braintree system. Braintree Payments の統合は、[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) によって開発されました。
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 
    - _[!UICONTROL Merchant Location]_セクションで、**[!UICONTROL Merchant Country]**がビジネスの場所に設定されていることを確認します。
 
-1. 「_[!UICONTROL Recommended Solutions]_」の「_[!UICONTROL Braintree Payments] （[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.6.1 - [ リリースノート ](https://support.gene.co.uk/support/solutions/articles/35000228529)_」セクションで、「**[!UICONTROL Configure]**」をクリックします。
+1. 「_[!UICONTROL Recommended Solutions]_」の「_[!UICONTROL Braintree Payments] （[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [ リリースノート ](https://support.gene.co.uk/support/solutions/articles/35000278668)_」セクションで、「**[!UICONTROL Configure]**」をクリックします。
 
    ![Braintreeの設定 ](./assets/braintree-payments.png){width="600" zoomable="yes"}
 
@@ -47,7 +47,7 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 
    サンドボックスで設定をテストする場合は、Braintreeで推奨されている [ クレジットカード番号 ][2] のみを使用します。 Braintreeを使用して実稼動に移行する準備が整ったら、**[!UICONTROL Environment]** を `Production` に設定します。
 
-   ![ 基本資格情報設定 ](./assets/braintree-settings1.png){width="600" zoomable="yes"}
+   ![ 基本資格情報設定 ](../configuration-reference/sales/assets/payment-methods-braintree-basic-config.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Payment Action]** を次のいずれかに設定します。
 
@@ -69,9 +69,9 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 
 1. **[!UICONTROL Enable Card Payments]** を `Yes` に設定します。
 
-   ![ 基本設定 ](./assets/braintree-settings2.png){width="600" zoomable="yes"}
+1. 顧客情報を安全に保存する機能を希望し、顧客が購入するたびに情報を再入力する必要がない場合は、**[!UICONTROL Enable Vault for Card Payments]** を `Yes` に設定します。
 
-   顧客情報を安全に保存する機能を希望し、顧客が購入するたびに情報を再入力する必要がない場合は、**[!UICONTROL Enable Vault for Card Payments]** を `Yes` に設定します。
+1. 購入時にヴォールト・カードの CVV 番号を確認する場合は、**[!UICONTROL Enable Vault CVV Re-verification]** を `Yes` に設定します。
 
 ## 手順 3：詳細設定の完了
 
@@ -132,11 +132,11 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 1. **[!UICONTROL Payment from Applicable Countries]** を次のいずれかに設定します。
 
    - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_のリストが表示されます。 Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store.
 
-   ![ 国別の設定 ](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png){width="600" zoomable="yes"}
+   ![Country-Specific Settings](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Country Specific Credit Card Types]** を設定するには：
+1. To set up **[!UICONTROL Country Specific Credit Card Types]**:
 
    - 「**[!UICONTROL Add]**」をクリックします。
 
@@ -150,7 +150,7 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 
 1. Braintreeの支払いオプションとして ACH を含めるには、**[!UICONTROL Enable ACH Direct Debit]** を `Yes` に設定します。
 
-1. お客様は、1 回限りの ACH Direct Debit 支払い方法をヴォールティングし、将来の使用のために保存できます。 ヴォールト後、お客様は ACH Direct Debit を再利用できます。`Yes` に設定されている場合は、支払い情報を再入力または認証する必要は **[!UICONTROL Enable Vault for ACH Direct Debit]** りません。
+1. お客様は、1 回限りの ACH Direct Debit 支払い方法をヴォールティングし、将来の使用のために保存できます。 Once vaulted, customers can reuse ACH Direct Debit without needing to re-enter or authenticate their payment information if set **[!UICONTROL Enable Vault for ACH Direct Debit]** to `Yes`.
 
 1. **[!UICONTROL Sort Order]**：番号を入力して、チェックアウト時に他の支払い方法と一緒に表示されるBraintree ACH 支払い方法の順序を指定します。
 
@@ -235,7 +235,7 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 
 ## 手順 11:Braintreeで PayPal を入力
 
-![Braintree設定を使用した PayPal](./assets/braintree-paypal.png){width="550" zoomable="yes"}
+![Braintree設定を使用した PayPal 1](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-1.png){width="550" zoomable="yes"}
 
 1. Braintreeの支払いオプションに PayPal を含めるには、**[!UICONTROL Enable PayPal through Braintree]** を `Yes` に設定します。
 
@@ -247,11 +247,11 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 
    - Braintreeの支払いオプションとして [!DNL PayPal Credit] を含めるには、**[!UICONTROL Enable PayPal Credit through Braintree]** を `Yes` に設定します。
 
-     **Braintreeで PayPal を有効にする** が `Yes` に設定されている場合、このフィールドのみが表示されます。
+     When **Enable PayPal through Braintree** is set to `Yes`, only this field appears.
 
      >[!NOTE]
      >
-     >PayPal クレジットは米国および英国でのみ利用できます。 _[!UICONTROL Merchant Country]_フィールドに選択した値が `US` または `UK` でない場合、PayPal クレジットは無効になります。
+     >PayPal Credit is only available in the United States and United Kingdom. PayPal Credit is disabled if the selected value for the _[!UICONTROL Merchant Country]_field is not `US` or `UK`.
 
    - Braintreeの支払いオプションとして [!DNL PayPal PayLater] を含めるには、**[!UICONTROL Enable PayPal PayLater through Braintree]** を `Yes` に設定します。
 
@@ -263,9 +263,9 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 
 1. **[!UICONTROL Vault Enabled]** を `Yes` に設定すると、顧客の PayPal アカウントを保存するためのセキュアなコンテナを使用できるようになります。 ヴォールティングされた PayPal アカウントは、将来のトランザクションに使用でき、顧客のステップ数を減らすことができます。
 
-1. 行項目（注文項目）を PayPal に送信し、ギフトカード、商品のギフトラッピング、注文のギフトラッピング、ストアクレジット、配送、税を行項目として送信するには、**[!UICONTROL Send Cart Line Items for PayPal]** を `Yes` に設定します。
+1. Set **[!UICONTROL Send Cart Line Items for PayPal]** to `Yes` to send the line items (order items) to PayPal along with Gift Cards, Gift Wrapping for items, Gift Wrapping for order, Store Credit, Shipping, and Tax as line items.
 
-1. **[!UICONTROL Sort Order]** しくは、数字を入力して、チェックアウト時に他の支払いオプションと一緒に表示されるBraintree PayPal 支払いオプションの表示順序を指定します。
+1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which the Braintree PayPal payment option appears when listed with other payment options during checkout.
 
 1. [ ストア設定 ](../getting-started/store-details.md#store-information) で定義した名前とは異なるマーチャント名を表示するには、表示したい名前を **[!UICONTROL Override Merchant Name]** フィールドに入力します。
 
@@ -279,15 +279,27 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
    - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
    - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
 
+   ![Braintree設定 2 を使用した PayPal](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
+
 1. 顧客に請求先住所の指定を要求するには、**[!UICONTROL Require Customer's Billing Address]** を `Yes` に設定します。
 
    >[!NOTE]
    >
    >この機能は、PayPal テクニカルサポートがお使いのアカウントで有効にする必要があります。
 
+1. PayPal Express の注文レビューページをスキップするには、**[!UICONTROL Skip Order Review Step]** を `Yes` に設定します。
+
+   PayPal Express でお支払いのお客様の場合：お支払いを完了する前にお客様をレビューページにリダイレクトさせたい場合は、これを `No` に設定します。 顧客に対して、レビューページをスキップしたい場合は、レビューページを `Yes` に設定します。
+
 1. Braintreeを使用してストアと PayPal 間のやり取りのログファイルを保存するには、**[!UICONTROL Debug]** を `Yes` に設定します。
 
 1. ミニカートと買い物かごページの両方に PayPal ボタンを表示するには、**[!UICONTROL Display on Shopping Cart]** を `Yes` に設定します。
+
+1. パッケージトラッキング情報を PayPal に送信するには、**[!UICONTROL Send Package Tracking]** を `Yes` に設定します。
+
+   パッケージトラッキング情報は、PayPal のトランザクション/注文の場合にのみ PayPal に送信されます。 [!UICONTROL Package Tracking] 機能を正しく動作させるには、[!UICONTROL Send Cart Line Items for PayPal] 設定フィールドを有効にする必要があります。
+
+1. パッケージトラッキングの更新について PayPal で購入者または支払者に通知するには、**[!UICONTROL Use PayPal's "Notify Payer" functionality]** を `Yes` に設定します。
 
 ## 手順 12：スタイル設定を指定する
 
@@ -319,21 +331,7 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 >
 >**[!DNL Size(Deprecated)]** 設定フィールドは非推奨となり、PayPal ボタンのスタイル設定には使用されません。
 
-**[!UICONTROL PayLater Messaging]**
-
-1. 選択した場所のストアフロントに [!DNL PayLater] メッセージを表示するには、「**[!UICONTROL Show PayLater Messaging]**」を「`Yes`」に設定します。
-
-   このメッセージには、使用可能なオファー [!DNL PayLater] メッセージの表示が含まれます（[ 制限あり ](https://developer.paypal.com/docs/checkout/pay-later/us/)）。
-
-1. **[!UICONTROL Message Layout]** の場合は、[!DNL PayLater] のメッセージレイアウト（`Text` または `Flex`）を選択します。
-
-1. **[!UICONTROL Logo]** しくは、PayPal ロゴのタイプ（`Inline`、`Primary`、`Alternative`、`None` のいずれか）を選択します
-
-1. **[!UICONTROL Logo Position]**:PayPal ロゴの位置（`Left`、`Right`、`Top` のいずれか）を選択します
-
-1. **[!UICONTROL Text Color]** の場合は、[!DNL PayLater] のメッセージのテキストの色を選択します（`Black`、`White`、`Monochrome`、`Grayscale`）。
-
-これらのオプションを設定すると、PayPal ボタンと PayLater メッセージのプレビューが表示されます。 設定の適用や値のリセットに使用できるコントロールがあります。
+これらのオプションを設定すると、PayPal ボタンのプレビューを確認できます。 設定の適用や値のリセットに使用できるコントロールがあります。
 
 - ボタンおよび PayLater メッセージング用に選択したスタイル設定を保存し、それらを現在の場所および現在のボタン タイプに適用するには、[**[!UICONTROL Apply]**] をクリックします。
 
@@ -341,7 +339,53 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 
 - スタイル設定をボタンと PayLater メッセージに推奨されるデフォルト値に戻し、すべてのボタンのタイプと場所に適用するには、[**[!UICONTROL Reset to Recommended Defaults]**] をクリックします。
 
-## 手順 13: 3D 検証設定の完了
+## 手順 13：後払いメッセージ
+
+**[!UICONTROL Product Page]**
+
+![ 後で支払うメッセージ – 製品ページの設定 ](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-product.png){width="600" zoomable="yes"}
+
+1. 製品ページのストアフロントに [!DNL Pay Later] のメッセージを表示するには、**[!UICONTROL Show PayLater Messaging]** を `Yes` に設定します。
+
+   使用可能なオファーに関する Pay Later メッセージを表示します。 制限事項があります。 [PayPal のドキュメント ](https://developer.paypal.com/studio/checkout/pay-later/us) を参照してください。
+
+1. **[!UICONTROL Message Layout]** の場合は、[!DNL Pay Later] のメッセージレイアウト（`Text` または `Flex`）を選択します。
+
+1. **[!UICONTROL Logo]** しくは、PayPal ロゴのタイプ（`Inline`、`Primary`、`Alternative`、`None` のいずれか）を選択します
+
+1. **[!UICONTROL Logo Position]**:PayPal ロゴの位置（`Left`、`Right`、`Top` のいずれか）を選択します
+
+1. **[!UICONTROL Text Color]** の場合は、[!DNL PayLater] のメッセージのテキストの色を選択します（`Black`、`White`、`Monochrome`、`Grayscale`）。
+
+**[!UICONTROL Cart]**
+
+![ 後払いメッセージ – 買い物かごページの設定 ](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-cart.png){width="600" zoomable="yes"}
+
+1. ストアフロントのミニカートまたはカートのページに [!DNL Pay Later] のメッセージを表示するには、**[!UICONTROL Show PayLater Messaging]** を `Yes` に設定します。
+
+   使用可能なオファーに関する Pay Later メッセージを表示します。 制限事項があります。 [PayPal のドキュメント ](https://developer.paypal.com/studio/checkout/pay-later/us) を参照してください。
+
+1. **[!UICONTROL Message Layout]** の場合は、[!DNL Pay Later] のメッセージレイアウト（`Text` または `Flex`）を選択します。
+
+1. **[!UICONTROL Logo]** しくは、PayPal ロゴのタイプ（`Inline`、`Primary`、`Alternative`、`None` のいずれか）を選択します
+
+1. **[!UICONTROL Logo Position]**:PayPal ロゴの位置（`Left`、`Right`、`Top` のいずれか）を選択します
+
+1. **[!UICONTROL Text Color]** の場合は、[!DNL PayLater] のメッセージのテキストの色を選択します（`Black`、`White`、`Monochrome`、`Grayscale`）。
+
+**[!UICONTROL Checkout]**
+
+![Pay Later Message - Checkout Page settings](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-checkout.png){width="600" zoomable="yes"}
+
+1. チェックアウト時にストアフロントに [!DNL Pay Later] のメッセージを表示するには、**[!UICONTROL Show PayLater Messaging]** を `Yes` に設定します。
+
+   使用可能なオファーに関する Pay Later メッセージを表示します。 制限事項があります。 [PayPal のドキュメント ](https://developer.paypal.com/studio/checkout/pay-later/us) を参照してください。
+
+1. **[!UICONTROL Text Align]** の場合、メッセージのテキストの位置揃え [!DNL Pay Later] 選択します（`Text`、`Center`、`Right`）
+
+1. **[!UICONTROL Text Color]** の場合は、[!DNL Pay Later] メッセージのテキストの色 `Black`、`White` を選択します。
+
+## 手順 14: 3D 検証設定の完了
 
 1. 認証プログラムに登録されているクレジットカードを使用するお客様（_VISA による認証済み_ など）に認証手順を追加する場合は、**[!UICONTROL 3D Secure Verification]** を `Yes` に設定します。
 
@@ -358,7 +402,7 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 
    ![3D 検証設定 ](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 
-## 手順 14:Braintree動的記述子の設定
+## 手順 15:Braintree動的記述子の設定
 
 次の記述子は、顧客のクレジットカード明細書の購入を識別するために使用されます。 各購入に関連付けられている会社を明確に識別することで、チャージバックの数を減らすことができます。 動的記述子がアカウントで有効になっていない場合は、Braintree サポートにお問い合わせください。
 

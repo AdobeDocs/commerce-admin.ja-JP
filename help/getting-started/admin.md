@@ -2,12 +2,13 @@
 title: 管理者とは何ですか？
 description: マーチャントが製品やプロモーションの設定、注文の管理、その他の管理タスクを実行する場所である  [!DNL Commerce] Admin について説明します。
 exl-id: 065cf14f-80e7-4695-8922-c761a2191d72
-source-git-commit: b657db7e486fec591d5a6239d554376f00707e8c
+source-git-commit: a6b293dca673808bbc7f37cb468c6e316fddb735
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
 
 ---
+
 
 # 管理者とは何ですか？
 
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 ## 使用状況データの収集
 
-_管理者_ に初めてログインすると、すべての管理者ユーザーの使用状況データを収集するAdobe権限を付与するよう求められます。 管理者の使用状況データ収集を許可することで、AdobeはAdobe Commerce Admin および関連する製品とサービスを使用するエクスペリエンスを向上させることができます。
+_管理者_ に初めてログインすると、すべての管理者ユーザーの使用状況データを収集するAdobe権限を付与するよう求められます。 管理者の使用状況データの収集を許可すると、AdobeがAdobe Commerce Admin および関連する製品とサービスを使用する際の操作性を向上させることができます。
 
 ![ 管理者による使用状況データの収集を許可 ](./assets/admin-usage-data.png){width="600"}
 

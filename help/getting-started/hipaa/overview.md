@@ -3,9 +3,9 @@ title: Adobe Commerceに対する HIPAA 対応
 description: Adobe Commerce HIPAA 対応拡張機能を追加し、HIPAA 義務を準拠できる追加機能を取得する方法について説明します。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 2807c36fdb4ca169c31a5e92b4dab278a45c474c
 workflow-type: tm+mt
-source-wordcount: '2300'
+source-wordcount: '2375'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,21 @@ Adobe Commerce HIPAA 対応の拡張機能は、クラウドインフラスト�
 
 ## 必要システム構成
 
-Adobe Commerceは、クラウドインフラストラクチャー上のAdobe Commerceまたはバージョン 2.4.6-p3 ～ 2.4.6-p8 のAdobe Commerce Managed Servicesにデプロイする必要があります（ベータ版はありません）。
+次の表に、Adobe Commerceのバージョンと HIPAA 対応の拡張機能の互換性を示します。
+
+| Adobe Commerce | サポート | 筆記 |
+|----------------|-----------|-------|
+| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | 2.4.7-p4 のサポートには、[ ホットフィックス ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) が必要です |
+| 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
+| 2.4.6-p8 | 1.1.0 | [データサービス](#adobe-commerce-services)のサポートは 1.1.0 で導入されました |
+| 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
+
+>[!IMPORTANT]
+>
+>- HIPAA 対応の拡張機能は、Cloud 上のAdobe CommerceまたはAdobe Commerce Managed Services プロジェクトでのみ使用できます。
+>- 拡張機能は、`repo.magento.com` から Composer メタパッケージとして使用できます。
+>- HIPAA に対応した機能にアクセスするには、Adobe Commerce用のヘルスケアアドオンが必要です。
+>- Adobe Commerceのベータ版はサポートされていません。
 
 ## インストール
 
@@ -52,7 +66,7 @@ Adobe Commerceは、クラウドインフラストラクチャー上のAdobe Com
 
 >[!ENDSHADEBOX]
 
-Adobe バージョン 2.4.6-p3 ～ 2.4.6-p8 を実行しているインスタンスに、Adobe Commerceの最新バージョンの HIPAA 対応サービス拡張機能（`magento/hipaa-ee`）をインストールします。 拡張機能は、[repo.magento.com](https://repo.magento.com) リポジトリからコンポーザメタパッケージとして提供されます。 メタパッケージには、Adobe Commerce インスタンスに対して HIPAA 機能を有効にするモジュールのコレクションが含まれています。
+Adobe バージョン 2.4.7-p5 または 2.4.6-p3 から 2.4.6-p8 を実行しているインスタンスに、Adobe Commerceの最新バージョンの HIPAA 対応サービス拡張機能（`magento/hipaa-ee`）をインストールします。 拡張機能は、[repo.magento.com](https://repo.magento.com) リポジトリからコンポーザメタパッケージとして提供されます。 メタパッケージには、Adobe Commerce インスタンスに対して HIPAA 機能を有効にするモジュールのコレクションが含まれています。
 
 >[!NOTE]
 >
@@ -175,8 +189,8 @@ Adobe Commerceの HIPAA 顧客検索結果制限機能は、保護された医�
 
 - **検索制限**：必要な役割を持たないユーザーは、顧客レコードを検索または表示できません。
 - **アクセスの必須検索**:Adobe Commerceのデフォルトの動作とは異なり、検索を行わない限り顧客情報を表示することはできません。 これにより、ユーザーは自分の情報を見つけるために、顧客に関する特定の詳細を知る必要があります。
-- **検索結果の制限**：条件に一致する検索結果は 10 件のレコードに制限され、一度に管理できる数のレコードのみが表示されます。
-- **フィルターの最小数**：ユーザーは、検索を実行するために、少なくとも 3 つのフィルター（メール、姓、状態など）を適用し、検索が具体的でターゲット設定されていることを確認する必要があります。
+- **限られたSearch結果**: 条件に一致するSearch結果は 10 レコードに制限され、一度に管理可能な数のレコードのみが表示されます。
+- **フィルター**&#x200B;最小数字:ユーザーは検索を実行するために少なくとも3つのフィルター(電子メール、姓、州など)を適用して、検索が具体的でターゲットを絞っていることを確認する必要があります。
 - **フィルター通知**：検索制限が有効になると、検索結果を絞り込むためのフィルターを適用するようユーザーに通知されます。
 
 #### 設定
@@ -243,8 +257,8 @@ Adobe Commerceの HIPAA 顧客検索結果制限機能は、保護された医�
 #### スケジュールされたインポートおよびエクスポート（[!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Scheduled Import/Export]）
 
 - **[!UICONTROL ID]** 列を追加しました。
-- **[!UICONTROL Scheduled At]** 列（_読み込みまたは書き出しがスケジュールされた日時_）を追加しました。
-- **[!UICONTROL User]** の列（_読み込みまたは書き出しをスケジュールした管理者ユーザーのユーザー名_）を追加しました。
+- **[!UICONTROL Scheduled At]**&#x200B;列(_インポートまたはエクスポートがスケジュールされた日時_)を追加しました。
+- **[!UICONTROL User]**&#x200B;列(_インポートまたはエクスポートをスケジュールした管理者ユーザーのユーザー名_)を追加しました。
 
 ## HIPAA 対応のサービスとツール
 
@@ -260,10 +274,10 @@ Adobe Commerceの HIPAA 顧客検索結果制限機能は、保護された医�
 
 次の表に、HIPAA 対応ソリューションで使用可能なAdobe Commerce サービスを示します。 これらのサービスには以下が含まれますが、これらに限定されません。
 
-| サービス | 実稼動以外 | 実稼動 |
+| サービス | 実稼動以外 | 生産 |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
-| [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | はい | はい |
-| [Adobe Developer App Builderの API メッシュ ](https://developer.adobe.com/graphql-mesh-gateway/) | はい | はい |
+| [Adobe Systems開発者アプリケーションビルダー](https://developer.adobe.com/app-builder/docs/overview/) | はい | はい |
+| [Adobe Systems 開発者向け API メッシュ アプリケーションビルダー](https://developer.adobe.com/graphql-mesh-gateway/) | はい | はい |
 | [SaaS データのエクスポート ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | はい | はい |
 | [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | 不可 | 不可 |
 | [ 製品の推奨事項 ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | 不可 | 不可 |
@@ -276,9 +290,9 @@ Adobe Commerceの HIPAA 顧客検索結果制限機能は、保護された医�
 
 Adobe Commerceの [ セキュリティスキャンツール ](../../systems/security-scan.md) を使用すると、ストアを監視して、必要なすべてのセキュリティコントロールが有効で機能していることを確認できます。 Adobeでは、標準のセキュリティチェックに加えて、Adobe Commerceの HIPAA 製品を使用しているお客様に対して HIPAA 固有のチェックを表示するツールを強化しました。 セキュリティスキャンツールの HIPAA チェックは、次のことを保証するように設計されています。
 
-- 監査モジュールは無効ではありません
-- 2 要素認証（2FA）は無効ではありません
-- マーケティング機能が無効になっています
+- 監査モジュールが無効になっていない
+- 二要素認証(2FA)は無効ではありません
+- マーケティング機能は無効になっています
 - インストールされているすべての拡張機能が、定義済みの許可リストに一致します。
 - サポートされていないAdobe サービスはインストールされていません
 

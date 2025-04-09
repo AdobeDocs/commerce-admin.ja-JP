@@ -1,9 +1,9 @@
 ---
 title: スニペット
 description: 特定のエディションに適用される機能またはページをメモするための再利用されたメモと視覚的要素
-source-git-commit: eae60b99d6721442c4bfcf1a8db6a06826463d9c
+source-git-commit: e82b979ee2c5f51caba6a2aa416c5f20dbce110a
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -82,3 +82,9 @@ ht-degree: 0%
 | [Adobe Commerce 2.4 開発者向けドキュメント ](https://developer.adobe.com/commerce/docs) | Adobe Commerceのカスタマイズやサードパーティシステムとの統合に使用する、開発者向けドキュメントです。 |
 
 {style="table-layout:auto"}
+
+## B2B 互換性 {#b2b-compatibility}
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B バージョン 1.4.2 以降は、PHP 8.2 と互換性があります。Commerce インスタンスをバージョン 2.4.7 以降にアップグレードする場合は、インスタンスが PHP バージョン 8.2 を使用して、Adobe Commerce B2B リリースとの互換性を保っていることを確認します。 また、B2B 1.4.2 以降のリリースでは、[GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server) をサポートしていません。

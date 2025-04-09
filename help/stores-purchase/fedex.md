@@ -3,9 +3,9 @@ title: FedEx
 description: ストアの配送業者として FedEx を設定する方法を説明します。
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: ad5da1d77b63bf6bcc0227a5c467e369b7bb8d89
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,15 @@ FedEx の販売者アカウントと、FedEx Web サービスの生産アクセ�
    - **[!UICONTROL Account ID]**
    - **[!UICONTROL Api Key]**
    - **[!UICONTROL Secret Key]**
+
+1. 別のトラッキング API 資格情報がある場合は、次の設定を有効にします。
+
+   - **[!UICONTROL Enable Tracking API credentials]**
+
+1. FedEx アカウントから以下の情報を入力します。
+
+   - **[!UICONTROL Tracking API Key]**
+   - **[!UICONTROL Tracking API Secret Key]**
 
 1. FedEx サンドボックスをセットアップ済みで、テスト環境で作業する場合は、**[!UICONTROL Sandbox Mode]** を `Yes` に設定します。
 

@@ -4,16 +4,16 @@ description: システムとデータのセキュリティを確保するため�
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
+source-git-commit: 4997c4c01f11d6e0355eb8e02f8f099db685b400
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
 
 # 2 要素認証（2FA）
 
-Adobe CommerceまたはMagento Open Sourceのインストール用のCommerce _管理者_ を使用すると、ストア、注文および顧客データにアクセスできます。 データへの不正アクセスを防ぐには、_Admin_ にログインしようとするすべてのユーザーが、本人確認のために認証プロセスを完了する必要があります。
+Adobe CommerceまたはMagento Open Source インストールのCommerce _管理者_ は、ストア、注文および顧客データへのアクセスを可能にします。 データへの不正アクセスを防ぐには、_Admin_ にログインしようとするすべてのユーザーが、本人確認のために認証プロセスを完了する必要があります。
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Adobe Commerceは、複数のプロバイダーの 2FA メソッドをサポー�
 
 >[!NOTE]
 >
->AdobeIdentity Management サービス（IMS）認証を有効にしているストアでは、ネイティブのAdobe CommerceとMagento Open Source 2FA が無効になっています。 Adobe資格情報を使用してCommerce インスタンスにログインしている管理者ユーザーは、多くの管理タスクで再認証する必要はありません。 Adobe IMSは、管理者ユーザーが現在のセッションにログインする際に認証を処理します。 [Integration Identity Management Service （IMS）のAdobeの概要 ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html) を参照してください。
+>Adobe Identity Management サービス（IMS）認証を有効にしているストアでは、ネイティブのAdobe CommerceおよびMagento Open Source 2FA が無効になっています。 Adobe資格情報を使用してCommerce インスタンスにログインしている管理者ユーザーは、多くの管理タスクで再認証する必要はありません。 Adobe IMSは、管理者ユーザーが現在のセッションにログインする際に認証を処理します。 [Adobe Identity Management Service （IMS）統合の概要 ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html) を参照してください。
 
 管理者での二要素認証の概要については、この [ ビデオデモ ](https://video.tv.adobe.com/v/339104?quality=12&learn=on) をご覧ください。
 
@@ -76,6 +76,8 @@ Adobe Commerceは、複数のプロバイダーの 2FA メソッドをサポー�
 
 Duo Security アカウントから次の資格情報を入力します。
 
+- クライアント ID
+- クライアント秘密鍵
 - 統合キー
 - 秘密鍵
 - API ホスト名

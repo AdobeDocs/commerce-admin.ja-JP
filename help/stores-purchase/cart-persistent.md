@@ -3,9 +3,9 @@ title: 買い物かごの永続性
 description: 永続ショッピングカートが買い物かごの未購入アイテムを追跡し、顧客の次回の訪問に備えて情報を保存する方法を説明します。
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: 2bddf979333bdafbfb6b445140515942b1115eea
+source-git-commit: a6cfcbb5774c0bafc3b7e7c96881329bde837837
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ### 「Remember Me」チェックボックスの動作
 
-ログインページまたは新しいアカウントの作成時に「_[!UICONTROL Remember Me]_」チェックボックスをオンにすると、ログインセッションの有効期限が切れたときに現在のデバイスで買い物かごの内容にアクセスできる状態を維持できます。
+ログインページ、認証ポップアップ、チェックアウトログイン、または新しいアカウントの作成時に「_[!UICONTROL Remember Me]_」チェックボックスをオンにすると、ログインセッションの有効期限が切れたときに現在のデバイスで買い物かごのコンテンツにアクセスできるようになります。
 
 | 私を覚えてる？ | 結果 |
 | ------------ |  ------ |
@@ -56,6 +56,10 @@ ht-degree: 0%
 | 未選択 | 永続的な cookie を作成せず、ログインセッションの有効期限が切れても現在のデバイスで買い物かごのコンテンツにアクセスできるようにします。 買い物かごのコンテンツは引き続きお客様のアカウントに保存され、お客様が次回ログインしたときに再読み込みされることに注意してください。 |
 
 {style="table-layout:auto"}
+
+![ ログイン情報を記憶する ](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
+![ 自分を記憶する認証ポップアップ ](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
+![ チェックアウト時のログイン ](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
 
 ### ログアウト時の動作の永続性のクリア
 

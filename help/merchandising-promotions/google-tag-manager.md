@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: を使用して  [!DNL Google Tag Manager] Adobe Commerce サイトのマーケティングキャンペーンイベントに関連する多数のタグ（コードスニペット）を管理する方法を説明します。
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: be426ca16fb7a72ebeda4a2f92c0f0062a9acc62
+source-git-commit: 22a619db0b0673dc520b9bdc5d6cd0c8ffecdf08
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -140,9 +140,9 @@ ht-degree: 0%
 
 ## フィールドの説明
 
-| フィールド | 範囲 | 説明 |
+| フィールド | 対象範囲 | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable] | ストア表示 | Google Analyticsの E コマース強化機能を使用して、ストア内のアクティビティを分析できるかどうかを決定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Enable] | ストア表示 | Google Analytics Enhanced Ecommerce を使用して、ストア内のアクティビティを分析できるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Account type] | ストア表示 | ストアのアクティビティとトラフィックを監視するために使用されるGoogle トラッキングコードを決定します。 オプション：`Google Analytics` / `Google Tag Manager` |
 | [!UICONTROL Anonymize IP] | ストア表示 | Google Analyticsの結果に表示される IP アドレスから識別情報を削除するかどうかを指定します。 |
 | [!UICONTROL Enable Content Experiments] | ストア表示 | Google コンテンツ実験をアクティブ化します。同じページの異なる 10 バージョンまでテストするために使用できます。 オプション：`Yes` / `No` |
@@ -210,3 +210,55 @@ Google AdWords アカウントをお持ちの場合は、コンバージョン�
 ### 手順 3. プレビューと公開
 
 プロセスの次の手順では、タグをプレビューします。 タグをプレビューするたびに、バージョンのスナップショットが保存されます。 結果に満足したら、使用するバージョンに移動し、[**[!UICONTROL Publish]**] をクリックします。
+
+## JavaScriptを使用したカスタム HTML タグ
+
+この節では、コンテンツセキュリティポリシー（CSP）の要件に準拠するために、チェックアウトページで実行するためにカスタム HTML タグJavaScriptに CSP Nonce を追加する方法について説明します。 この追加により、許可されていないスクリプトの実行が防がれ、サイトのセキュリティが強化されます。 詳しくは、[ コンテンツセキュリティポリシー ](https://developer.adobe.com/commerce/php/development/security/content-security-policies) ドキュメントを参照してください。
+
+>[!NOTE]
+>
+>`cspNonce` グローバル変数のGoogle Tag Manager への読み込みは、Adobe Commerce バージョン 2.4.8 以降でのみサポートされています。
+
+>[!WARNING]
+>
+>なじみのないスクリプトをストアに追加すると、データが危険に晒される可能性があります。 チェックアウトページで許可されたスクリプトが、支払いの詳細など、機密性の高い顧客情報を盗む可能性があります。 Google Tag Manager アカウントを保護するための予防策を講じることが不可欠です。 信頼できるスクリプトのみを追加し、タグを定期的に確認および監査し、二要素認証（2FA）やアクセス制御などの強力なセキュリティ対策を実装してください。
+
+### 手順 1. CSP Nonce 変数の作成
+
+変数設定を読み込むか手動で設定することで、Google Tag Manager 内で使用できる CSP Nonce 変数を作成できます。
+
+#### 変数設定の読み込み
+
+CSP Nonce 変数は、サンプルコンテナ [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt) に含まれています。 このコードをワークスペースに読み込むことで、変数を作成できます。
+
+#### 変数を手動で作成
+
+変数設定を読み込めない場合は、次の手順を実行して作成します。
+
+1. ワークスペースで、サイドバーの **変数** セクションに移動します。
+1. ページの下部にある「**ユーザー定義変数**」セクションの **新規** ボタンをクリックします。
+1. 変数に `gtmNonce` という名前を付けます。
+1. 変数を編集するには、鉛筆アイコンをクリックします。
+1. 「**ページ変数**」セクションから **0}JavaScript変数」を選択します。**
+1. 「**グローバル変数名**」フィールドに「`window.cspNonce`」と入力します。
+1. 変数を保存します。
+
+[Google Tag Manager 変数について詳しくは ](https://support.google.com/tagmanager/answer/7683056?hl=en)Google ドキュメントの [Web 用のユーザー定義変数タイプ ](https://support.google.com/tagmanager/answer/7683362?hl=en) を参照してください。 このドキュメントでは、特定のマーケティングおよび分析のニーズに合わせてタグ管理をカスタマイズするカスタム変数の作成と管理に関する詳細なガイダンスを提供します。
+
+### 手順 2. カスタム HTML タグの作成
+
+1. ワークスペースで、サイドバーの **タグ** セクションに移動します。
+1. 「**新規** ボタンをクリックします。
+1. 「**タグ設定**」セクションで、「**カスタム HTML タグ**」を選択します。
+1. テキスト領域に必要なJavaScriptを入力し、前の手順で作成した変数を指す nonce 属性を開始 `<script>` タグに追加します。 例：
+
+   ```html
+   <script nonce="{{gtmNonce}}">
+       // Your JavaScript code here
+   </script>
+   ```
+
+1. **Support document.write** を選択します。
+1. 「**トリガー**」セクションで、目的のトリガーを選択します。 例えば、**同意の初期化 – すべてのページ** などです。
+
+Google Tag Manager の [ タグ ](https://support.google.com/tagmanager/answer/3281060) について詳しくは、Google ドキュメントの [ カスタムタグ ](https://support.google.com/tagmanager/answer/6107167) を参照してください。
