@@ -3,7 +3,7 @@ title: Cookie 法への準拠
 description: Cookie の使用に関する多くの国の法律に対応するために、Adobe CommerceとMagento Open Sourceでは、マーチャントに対して、お客様の同意を得るための選択肢を提供しています。
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: abdd70f63ce9ce49ea7e6552951c644480f6024f
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 0%
@@ -226,7 +226,7 @@ Admin Analytics モジュールによって間接的に設定されます。 Cli
 
 ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） Adobe Commerceのお客様向けに設定されている Cookie は次のとおりです。 これらの Cookie は [DataServices モジュール ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure) と共にインストールされます。
 
-- `mg`: Snowplow JavaScript トラッカーによって設定されます。 詳しくは、[Snowplow ドキュメント ](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options) を参照してください。
+- `mg`: Snowplow JavaScript トラッカーによって設定されます。 詳しくは、[Snowplow ドキュメント ](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/) を参照してください。
 - `com.adobe.alloy.getTld`：現在の web ページのホスト名では、https://publicsuffix.orgで説明されているように、「パブリックサフィックス」ではない最上位のドメインになります。 基本的に、これは Cookie を受け入れられる最上位のドメインです。 この Cookie は [Alloy Web SDK](https://github.com/adobe/alloy) の一部です。
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
