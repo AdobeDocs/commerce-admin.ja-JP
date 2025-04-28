@@ -3,9 +3,9 @@ title: Commerce用AEM Assets パッケージのインストール
 description: CommerceのAEM Assets統合を有効にして、Adobe Commerce プロジェクトとExperience Manager Assets プロジェクトの間でアセットを同期するために必要なアセットメタデータを追加します。
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
+source-git-commit: d7125774dbf6fb2796ccabc6df8e574455e1e968
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Adobeは、Experience Manager Assets as a Cloud Service環境設定にCommerce�
 
   ![ カスタム製品データ UI コントロール ](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
-- Commerce アセットにタグ付けするための `Does it exist in Adobe Commerce?` フィールドと `Product Data` フィールドを含む、Commerce タブを持つメタデータスキーマフォーム このフォームには、AEM Assets UI の `roles` および `order` （位置）フィールドを表示または非表示にするオプションも用意されています。
+- Commerce アセットにタグ付けするための `Eligible for Commerce?` フィールドと `Product Data` フィールドを含む、Commerce タブを持つメタデータスキーマフォーム このフォームには、AEM Assets UI の `roles` および `order` （位置）フィールドを表示または非表示にするオプションも用意されています。
 
   ![AEM Assets メタデータスキーマフォームの「Commerce」タブ ](./assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
 
@@ -59,6 +59,15 @@ Adobeは、Experience Manager Assets as a Cloud Service環境設定にCommerce�
 
 AEM Assets オーサー環境で、メタデータプロファイルを作成して、Commerce アセットメタデータのデフォルト値を設定します。 次に、新しいプロファイルをAEM Asset フォルダーに適用すると、これらのデフォルトが自動的に使用されます。 この設定により、手動の手順が減ることでアセット処理が合理化されます。
 
+メタデータプロファイルを設定する場合、次のコンポーネントを設定するだけで済みます。
+
+- 「Commerce」タブを追加します。 このタブでは、テンプレートによって追加されたCommerce固有の設定を有効にします
+- 「`Eligible for Commerce`」フィールドを「Commerce」タブに追加します。
+
+テンプレートに基づいて、製品データ UI コンポーネントが自動的に追加されます。
+
+### メタデータプロファイルの設定
+
 1. Adobe Experience Manager オーサー環境にログインします。
 
 1. Adobe Experience Manager Workspace から、Adobe Experience Manager アイコンをクリックして、AEM Assetsのオーサーコンテンツ管理ワークスペースに移動します。
@@ -81,27 +90,41 @@ AEM Assets オーサー環境で、メタデータプロファイルを作成し
 
    1. タブ セクションの [**[!UICONTROL +]**] をクリックし、**[!UICONTROL Tab Name]**、`Commerce` を指定します。
 
-1. `Does it exist in Commerce?` フィールドをフォームに追加し、デフォルト値を `yes` に設定します。
+1. `Eligible for Commerce` フィールドをフォームに追加します。
 
    ![AEM オーサー管理者のプロファイルにメタデータフィールドを追加 ](./assets/aem-edit-metadata-profile-fields.png){width="600" zoomable="yes"}
 
+   - 「**[!UICONTROL Build form]**」をクリックします。
+
+   - 「`Single Line text`」フィールドをフォームにドラッグします。
+
+   - 「」をクリックして、ラベルの `Eligible for Commerce` のテキストを追加 **[!UICONTROL Field Label]** ます。
+
+   - 「設定」タブで、ラベルテキストを **フィールドラベル** に追加します。
+
+   - プレースホルダーテキストを `yes` に設定します。
+
+   - **[!UICONTROL Map to Property]** フィールドで、次の値をコピーして貼り付けます
+
+     ```terminal
+     ./jcr:content/metadata/commerce:isCommerce
+     ```
+
+1. オプション。 承認済みのCommerce アセットをAEM Assets環境にアップロードする際に自動的に同期させるには、「`Basic`」タブの「_[!UICONTROL Review Status]_」フィールドのデフォルト値を `approved` に設定します。
+
 1. 更新を保存します。
 
-1. Commerce アセットが保存されているフォルダーに `Commerce integration` メタデータプロファイルを適用します。
+#### メタデータプロファイルのCommerce assets ソースフォルダーへの適用
 
-   1. [!UICONTROL  Metadata Profiles] ページで、「Commerce統合」プロファイルを選択します。
+1. [!UICONTROL  Metadata Profiles] ページで、「Commerce統合」プロファイルを選択します。
 
-   1. アクションメニューから「**[!UICONTROL Apply Metadata Profiles to Folders]**」を選択します。
+1. アクションメニューから「**[!UICONTROL Apply Metadata Profiles to Folders]**」を選択します。
 
-   1. Commerce アセットを含むフォルダーを選択します。
+1. Commerce アセットを含むフォルダーを選択します。
 
-      Commerce フォルダーが存在しない場合は作成します。
+   Commerce フォルダーが存在しない場合は作成します。
 
-   1. 「**[!UICONTROL Apply]**」をクリックします。
-
->[!TIP]
->
->メタデータプロファイルを更新して _[!UICONTROL Review Status]_フィールドのデフォルト値を `Approved` に設定すると、AEM Assets環境にアップロードされたCommerce アセットを自動的に同期できます。 `Review Status` フィールドのプロパティタイプは `./jcr:content/metadata/dam:status` です。
+1. 「**[!UICONTROL Apply]**」をクリックします。
 
 ## 次の手順
 
