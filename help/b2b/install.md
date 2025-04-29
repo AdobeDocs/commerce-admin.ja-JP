@@ -4,9 +4,10 @@ description: メタパッケージのインストール方法  [!DNL Adobe Comme
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: df3f01bb8e6dab61523d5cb7e0e430b61f87145b
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 25964363ca5c4ec849e231d4eccb5f60b682a499
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---

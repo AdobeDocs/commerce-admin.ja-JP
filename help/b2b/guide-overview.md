@@ -6,9 +6,9 @@ seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: 19594a9dd1a8eb0b18bb372d049428e68c1328a6
+source-git-commit: a893a33a14d33106bb9291ceeff96dc155bb017a
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 ストア管理者には、次の 2 つの領域があります。
 
 - 管理者：この領域を使用して、設定 UI およびレポートにアクセスします。
-- コマンドラインインターフェイス：このツールを使用して、インストールタスクとバックエンド設定タスクを実行します。
+- コマンドラインインターフェイス：このツールを使用して、インストールタスクとバックエンド設定タスクを実行します。 [!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 このガイドでは、次の内容について説明します。
 
@@ -28,11 +28,11 @@ ht-degree: 1%
 | ------- | ----------- |
 | [ はじめに ](introduction.md) | [!DNL Adobe Commerce B2B] ではどのような機能を利用できますか？ |
 | [ リリースノート ](release-notes.md) | 各 [!DNL Adobe Commerce B2B] リリースで提供されるアップデートを確認します。 |
-| [ インストール ](install.md) | [!DNL Adobe Commerce B2B] 拡張機能をインストールします。 |
+| [ インストール ](install.md) | [!DNL Adobe Commerce B2B] 拡張機能をインストールします。 [!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} |
 | [ 基本的な B2B 機能の有効化 ](enable-basic-features.md) | [!DNL Adobe Commerce B2B] をインストールしたら、ストアに対してアクティブ化する機能を有効にする必要があります。 |
 | [ 会社アカウント ](account-companies.md) | 会社アカウントと、そのアカウントがストアで B2B 購入者にサポートを提供するための主要な構成要素をどのように提供しているかについて説明します。 |
 | [ 会社管理 ](manage-companies.md) | B2B Commerce サイト管理者が会社階層を構築して、同じ事業会社に属する複数の会社の管理を効率化する方法を説明します。 |
-| [ 共有カタログ ](catalog-shared.md) | 共有カタログを使用して、様々な会社のカスタム価格でゲート カタログを管理する方法を説明します。 |
+| [ 共有カタログ ](catalog-shared.md) | 共有カタログを使用して、様々な会社のカスタム価格でゲート カタログを管理する方法を説明します。 [!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} |
 | [ クイックオーダー ](quick-order.md) | クイックオーダー機能と、顧客に対して有効にする方法を説明します。 |
 | [ 発注書 ](purchase-order-flow.md) | 企業が支出を追跡および制御できる発注書ワークフローについて説明します。 |
 | [ 引用 ](quotes.md) | 見積もりワークフローと、このサービスを会社アカウントに提供する方法について説明します。 |
