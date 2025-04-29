@@ -3,9 +3,10 @@ title: コンテンツのステージング
 description: コンテンツステージングを使用すると、ビジネスチームは、管理者から直接、ストアに対して様々なコンテンツの更新を簡単に作成、プレビュー、スケジュールできます。
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---

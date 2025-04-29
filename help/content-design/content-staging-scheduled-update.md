@@ -3,9 +3,10 @@ title: コンテンツの更新をスケジュール
 description: 製品の一時的な価格変更をスケジュールするために使用するこのキャンペーンの例を確認してください。
 exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
-source-git-commit: b3897ba034770229ef8f3117231bed286abdddb9
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-次の例は、商品の一時的な価格変更をスケジュールする方法を示しています。 これには、変更のスケジュールとプレビュー、およびスケジュールされた更新のカレンダーでの表示が含まれます。 この例には 1 つの変更のみが含まれますが、キャンペーンには、同時に実行されるようにスケジュールされた製品、価格ルール、CMS ページおよびその他のエンティティに対する複数の変更が含まれる場合があります。 同様の方法に従って、[!UICONTROL Set Product As New] 属性の開始日/終了日を指定します。
+次の例は、商品の一時的な価格変更をスケジュールする方法を示しています。 これには、変更のスケジュールとプレビュー、およびスケジュールされた更新のカレンダーでの表示が含まれます。 この例では 1 つの変更のみが含まれますが、キャンペーンには、商品、価格ルール、CMSページ、および同時に実行されることがスケジュールされているその他のエンティティに対する複数の変更が含まれる場合があります。 同様の方法に従って、[!UICONTROL Set Product As New] 属性の開始日/終了日を指定します。
 
 >[!NOTE]
 >[!UICONTROL Set Product As New] の開始日（および終了日）を指定するには、スケジュールされた更新を作成する必要があります。 [!UICONTROL Special Price] および [!UICONTROL Design Change] の場合、開始日/終了日フィールドはAdobe Commerceから削除され、Magento Open Sourceでのみ使用できます。

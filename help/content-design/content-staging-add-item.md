@@ -3,9 +3,10 @@ title: キャンペーンへの項目の追加
 description: キャンペーン中にカテゴリページにプロモーション画像を追加する場合に使用するこのキャンペーンの例を確認します。
 exl-id: cd46b657-2586-46dd-beab-42f42d3476b6
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-次の例では、キャンペーン中にプロモーション画像をカテゴリページに追加します。 製品ページまたは CMS ページに対しても、同じ操作を実行できます。
+次の例では、キャンペーン中にプロモーション画像をカテゴリページに追加します。 製品ページまたはCMSページに対しても、同じ操作を行うことができます。
 
 ## カテゴリのキャンペーン項目の追加
 
