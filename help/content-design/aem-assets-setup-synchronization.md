@@ -3,9 +3,9 @@ title: 統合の設定
 description: Adobe Commerce プロジェクトとExperience Manager Assets プロジェクトを接続して、これら 2 つのシステム間のアセット同期を有効にする方法を説明します。
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 8db3e4b039ed8e020a1a2400e400df01c34f1943
+source-git-commit: f01ba239d885d96285186e35361a8d40f2f68e4e
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,7 @@ AEM Assets プロジェクトを特定した後、Adobe CommerceとAEM Assetsの
 
 - AEM Assets for Commerce統合の有効化をリクエストするサポートチケットを作成します。 チケットに、Commerceに接続するAEM Assets オーサリング環境用の **[!UICONTROL Program ID]**、**[!UICONTROL Environment ID]** および **[!UICONTROL IMS Org ID]** を含めます。
 
-  >[!TIP]
-  >
-  > （オプション） **[!UICONTROL Asset Selector IMS Client ID]** を指定します（使用可能な場合）。 [2}AEM Assets Selector](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) ドキュメントの {ImsAuthProps *を参照してください。*
+- **[!UICONTROL Asset Selector IMS Client ID]** を指定します。 [2}AEM Assets Selector](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) ドキュメントの {ImsAuthProps *を参照してください。*
 
 ## 接続の設定
 
@@ -51,7 +49,7 @@ AEM Assets プロジェクトを特定した後、Adobe CommerceとAEM Assetsの
 
    *[!UICONTROL Use system value]* から選択内容を削除して、設定値を編集します。
 
-1. 使用可能な場合は、**[!UICONTROL Asset Selector IMS Client ID]** を入力します。
+1. **[!UICONTROL Asset Selector IMS Client ID]** を入力します。
 
    [ アセットセレクター IMS クライアント ID](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props) は、[!UICONTROL Assets Selector] に必要です。これは、ユーザーがCommerce製品ページに直接ビジュアルアセットを埋め込むことができるAEM Assets機能です。
 
