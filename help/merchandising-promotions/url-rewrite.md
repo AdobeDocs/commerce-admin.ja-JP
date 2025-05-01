@@ -1,18 +1,19 @@
 ---
 title: URL の書き換え
-description: URL の書き換えと、Commerce URL 書き換えツールを使用した、商品、カテゴリまたは CMS ページに関連付けられている URL の変更について説明します。
+description: URL の書き換えと、Commerce URL 書き換えツールを使用した、商品、カテゴリまたはCMSページに関連付けられている URL の変更について説明します。
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
 
 # URL の書き換え
 
-URL 書き換えツールを使用すると、製品、カテゴリまたは CMS ページに関連付けられている URL を変更できます。 書き換えが有効になると、前の URL を指すリンクは新しいアドレスにリダイレクトされます。
+URL 書き換えツールを使用すると、商品、カテゴリまたはCMSページに関連付けられている URL を変更できます。 書き換えが有効になると、前の URL を指すリンクは新しいアドレスにリダイレクトされます。
 
 >[!NOTE]
 >
@@ -99,7 +100,7 @@ Commerceには、次の URL 書き換えタイプがあります。
 
 * [製品の書き換え](url-rewrite-product.md)
 * [カテゴリの書き換え](url-rewrite-category.md)
-* [CMS ページの書き換え](url-rewrite-cms-page.md)
+* [CMSページの書き換え](url-rewrite-cms-page.md)
 * [カスタム書き換え](url-rewrite-custom.md)
 
 ## URL 書き換えデモ

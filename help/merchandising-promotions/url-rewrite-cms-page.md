@@ -3,9 +3,10 @@ title: コンテンツページの URL の書き換え
 description: コンテンツページの URL の書き換えを使用して、Commerce ストア内の別のコンテンツページの URL にリンクをリダイレクトする方法を説明します。
 exl-id: e29c45fd-cf25-4b51-a8ae-9e188dc2a61c
 feature: Page Content, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 開始する前に、リダイレクトの目的を正確に理解しておく必要があります。 _ターゲット_/_ソース_ または _リダイレクト先_/_リダイレクト元_ を考慮します。 検索エンジンや古いリンクから以前のページに移動する場合もありますが、リダイレクトによってストアが新しいターゲットに切り替わります。
 
-![URL の書き換え – CMS ページ ](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
+![URL の書き換え – CMSページ ](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
 
 ## 手順 1. 書き換えの計画
 
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 不明な場合は、ストアの各ページを開き、ブラウザーのアドレスバーからパスをコピーします。
 
-### CMS ページのパス
+### CMSページのパス
 
 「`new-page`」にリダイレクト。
 
@@ -94,7 +95,7 @@ ht-degree: 0%
 | フィールド | 説明 |
 |--- |--- |
 | [!UICONTROL Create URL Rewrite] | 書き換えのタイプを示します。 書き換えの作成後にタイプを変更することはできません。 オプション：`Custom`/`For category`/`For product`/`For CMS page` |
-| [!UICONTROL Request Path] | リダイレクトされる CMS ページ。 リクエストパスは一意である必要があり、別のリダイレクトで使用することはできません。 リクエストパスが存在するというエラーメッセージが表示された場合は、既存のリダイレクトを削除してから再試行してください。 |
+| [!UICONTROL Request Path] | リダイレクトされるCMSページ。 リクエストパスは一意である必要があり、別のリダイレクトで使用することはできません。 リクエストパスが存在するというエラーメッセージが表示された場合は、既存のリダイレクトを削除してから再試行してください。 |
 | [!UICONTROL Target Path] | 宛先を指すためにシステムで使用される内部パス。 ターゲットパスは灰色表示になっており、編集できません。 |
 | [!UICONTROL Redirect] | リダイレクトのタイプを決定します。 オプション：<br/>**[!UICONTROL No]**- リダイレクトが指定されていません。<br/>**[!UICONTROL Temporary (302)]** – 検索エンジンに対して、書き換えが期間限定であることを示します。 検索エンジンは通常、一時的な書き換えのページランク情報を保持しません。 <br/>**[!UICONTROL Permanent (301)]**– 検索エンジンに対して、書き換えが永続的であることを示します。 検索エンジンでは通常、永続的な書き換えの際にページランク情報が保持されます。 |
 | [!UICONTROL Description] | 内部参照用の書き換えの目的について説明します。 |

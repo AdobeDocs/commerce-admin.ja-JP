@@ -3,9 +3,10 @@ title: 製品 URL の書き換え
 description: 商品 URL の書き換えを使用して、Commerce ストア内の別の商品の URL へのリンクをリダイレクトする方法を説明します。
 exl-id: 42b28ff7-e148-44f2-b6b4-63a38458e752
 feature: Products, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---

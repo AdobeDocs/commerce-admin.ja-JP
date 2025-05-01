@@ -3,9 +3,10 @@ title: ビジュアルマーチャンダイザーのスマート属性の設定
 description: ビジュアルマーチャンダイザーで使用されるスマート属性を設定する方法を説明します。
 exl-id: 7bbbca40-d991-4393-b99c-5bef2e711071
 feature: Merchandising, Products, Configuration, Attributes
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---

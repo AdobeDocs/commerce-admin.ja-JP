@@ -3,9 +3,10 @@ title: マーチャンダイジングのカテゴリ ルール
 description: 一連の条件に従って製品の選択を動的に変更するルールを作成する方法を説明します。
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
-source-git-commit: 50951e5aae51067cdba2d8b50c1e530c7f79007a
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
