@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# <!-- use banner as heading -->![ 管理ドキュメント ](./assets/banner-user-home.png) {#documentation}
+# &#x200B;<!-- use banner as heading -->![ 管理ドキュメント ](./assets/banner-user-home.png) {#documentation}
 
 次世代の世界最先端のデジタルコマースプラットフォームへようこそ。 Adobe Commerceは、オンラインストアの外観、コンテンツ、機能をこれまでになく柔軟に制御できるようにします。 管理者は、強力なマーケティング、検索エンジンの最適化、製品管理ツールを備えており、独自のビジネスニーズに合わせてカスタマイズされたサイトを作成できます。
 
@@ -127,7 +127,7 @@ Magento Open Sourceは、Adobeが公式に提供し、Adobe Commerceへの移行
 | **1.4.0 B2B リリース** - [ 購入者への見積書の開始 ](../b2b/sales-rep-initiates-quote.md) トピックが _Adobe Commerce B2B ガイド_ に含まれるようになりました。 販売者が特定の購入者に対して見積もりを作成して交渉プロセスを開始する方法を説明します。 | 新規 | 2023/6/13 |
 | **1.4.0 B2B リリース** - [ 見積りの交渉 ](../b2b/quote-price-negotiation.md)、[ 交渉可能な見積り ](../b2b/quotes.md) および [B2B 機能の有効化 ](../b2b/enable-basic-features.md) の各トピックが更新され、セラーが開始した見積りとデフォルト機能の変更が反映されます。 | 更新 | 2023/6/13 |
 | **2.2.0 Adobe IMS統合リリース** - [Adobe IDとのCommerce管理者の統合を無効にする ](../getting-started/adobe-ims-disable.md) トピックが _はじめる前に_ ガイドに含まれるようになりました。 ここでは、Adobe Commerce Admin とAdobe IMSの統合を無効にするオプションの手順について説明します。 | 新規 | 2023/6/13 |
-| **2.2.0 Adobe IMS統合リリース** ](../getting-started/adobe-ims-integration-overview.md) - [Adobe Identity Management Service （IMS）統合の概要および [CommerceとAdobe IDの管理者の統合の設定 ](../getting-started/adobe-ims-config.md) のトピックの変更点が、更新された機能に反映されました。 | 更新 | 2023/6/13 |
+| **2.2.0 Adobe IMS統合リリース** [&#128279;](../getting-started/adobe-ims-integration-overview.md) - Adobe Identity Management Service （IMS）統合の概要および [CommerceとAdobe IDの管理者の統合の設定 ](../getting-started/adobe-ims-config.md) のトピックの変更点が、更新された機能に反映されました。 | 更新 | 2023/6/13 |
 | **[!DNL Audience Activation]** - [[!DNL Audience Activation]](../customers/audience-activation.md) トピックには、[!DNL Experience Platform Connector] 設定 UI と、買い物かご価格ルールおよび動的ブロックでヘッドレス Commerce インスタンスを使用する方法に関する、新しい情報、更新された情報、改善された情報が含まれています。 | 更新 | 2023/6/13 |
 | **UPS API の廃止** - [United Parcel Service （UPS） ](../stores-purchase/ups.md) トピックおよび [ 配信方法 ](../configuration-reference/sales/delivery-methods.md#ups) 設定リファレンスページを更新して、新しい API キーを生成するための UPS API の一時的な廃止を反映しました。 | 更新 | 2023/6/08 |
 | **2.4.6 リリース** - [ 製品リスト ](../catalog/products-list.md) および [ 管理者設定リファレンス ](../configuration-reference/advanced/admin.md) トピックを更新して、大きなカタログのパフォーマンスを向上させるために使用できる製品の表示制限に関する情報を追加しました。 | 更新 | 2023/3/14 |
@@ -135,7 +135,7 @@ Magento Open Sourceは、Adobeが公式に提供し、Adobe Commerceへの移行
 | **2.4.6 リリース** - バンドルされたBraintree統合でサポートされている更新済みの支払いオプションと新しい支払いオプションを反映するために、[Braintree](../stores-purchase/braintree.md) および [Braintree設定リファレンス ](../configuration-reference/sales/braintree.md) のトピックを更新しました。 | 更新 | 2023/3/14 |
 | **2.4.6 リリース** - [ 通貨設定 ](../stores-purchase/currency-configuration.md) および [ 通貨セットアップ設定 ](../configuration-reference/general/currency-setup.md) トピックを更新して、新しい [!DNL Fixer API] （APILayer）オプションを含めました。 | 更新 | 2023/3/14 |
 | **2.4.6 リリース** - [ メール通信の設定 ](../systems/email-communications.md) および [ システム設定リファレンス ](../configuration-reference/advanced/system.md#uicontrol-mail-sending-settings) トピックを更新して、メール通信用の新しい SMTP オプションを含めました。 | 更新 | 2023/3/14 |
-| **2.4.6 リリース** – 最新のバンドルされた拡張機能バージョン（v1.2.6）に含まれる修正の説明的なリストを使用して ](../inventory-management/release-notes.md)2}Inventory management リリースノート } を更新しました。[ | 更新 | 2023/3/14 |
+| **2.4.6 リリース** – 最新のバンドルされた拡張機能バージョン（v1.2.6）に含まれる修正の説明的なリストを使用して [&#128279;](../inventory-management/release-notes.md)2&rbrace;Inventory management リリースノート &rbrace; を更新しました。 | 更新 | 2023/3/14 |
 | **2.4.6 リリース** – 最新の拡張機能バージョン（v1.3.5）に含まれる修正の説明的なリストを使用して [B2B リリースノート ](../b2b/release-notes.md) を更新しました。 | 更新 | 2023/3/14 |
 | **新しいトピック** - [Customer Management Guide](../getting-started/commerce-account-transfer.md) に Audience Activation _のトピックが追加されました。このガイドでは、Adobe CommerceでのReal-Time CDP オーディエンスのアクティブ化に関する詳細情報を提供_ ます。 | 新規 | 2023/3/13 |
 | **新しいトピック** - [Commerce アカウントの転送 ](../getting-started/commerce-account-transfer.md) のトピックを _はじめる前に_ に追加しました。 | 新規 | 2023/27 |
