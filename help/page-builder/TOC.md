@@ -5,10 +5,11 @@ breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 516b605ba357f093bdd1cf1e92df18202d16a800
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 4%
+source-wordcount: '98'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 4%
 - [概要  [!DNL Page Builder]](introduction.md)
 - [リリースノート](release-notes.md)
 - [設定とセットアップ](setup.md)
-- チュートリアル {#walkthrough}
+- ガイド {#walkthrough}
    - [第 1 部：シンプルなページ](1-simple-page.md)
    - [パート 2：ブロック](2-blocks.md)
    - [第 3 部：カタログのコンテンツ](3-catalog-content.md)
@@ -34,17 +35,17 @@ ht-degree: 4%
    - [ボタン](buttons.md)
    - [ディバイダー](divider.md)
    - [HTML コード](html-code.md)
-- Media {#media}
+- メディア {#media}
    - [画像](image.md)
    - [ビデオ](video.md)
    - [バナー](banner.md)
    - [Slider](slider.md)
    - [マップ](map.md)
-- Add Content {#add-content}
+- コンテンツを追加 {#add-content}
    - [ブロック](block.md)
    - [動的ブロック](dynamic-block.md)
    - [製品](products.md)
    - [製品レコメンデーション](recommendations.md)
 - [テンプレート](templates.md)
-- [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
+- [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
