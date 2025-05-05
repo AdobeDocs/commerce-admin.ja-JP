@@ -37,7 +37,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトですべてのペー�
 
 ## ベース URL の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左パネルの _一般_ の下で、「**[!UICONTROL Web]**」を選択します。
 
@@ -92,7 +92,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトですべてのペー�
    - **[!UICONTROL Use Secure URLs on Storefront]**
    - **[!UICONTROL Use Secure URLs in Admin]**
 
-1. _[!UICONTROL Enhanced Security Settings]_の場合は、次の手順を実行します。
+1. _[!UICONTROL Enhanced Security Settings]_&#x200B;の場合は、次の手順を実行します。
 
    - **[!UICONTROL Enable HTTP Strict Transport Security (HSTS)]** - ストアにセキュアな HTTPS ページリクエストのみを表示する場合は、`Yes` に設定します。
 
@@ -110,7 +110,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトですべてのペー�
 >
 >「_URL にストアコードを追加_ オプションが `Yes` に設定されている場合、ブラウザーの URL にストアコードを含める必要があります。 この設定により、_「404 Page Not Found」_ エラーを発生させずに、URL の書き換えが正しくマッピングされ、すべてのページが正常に開かれます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左パネルの「_[!UICONTROL General]_」で、「**[!UICONTROL Web]**」を選択します。
 
@@ -154,11 +154,11 @@ Adobe CommerceとMagento Open Sourceは、デフォルトですべてのペー�
 
 >[!NOTE]
 >
->予防措置として、サーバー上の設定ファイルの編集方法がわからない場合は、管理者 URL を自分で変更しないでください。 クラウドインフラストラクチャー上にデプロイされたAdobe Commerce プロジェクトの場合は、*クラウドインフラストラクチャー上のAdobe Commerce ガイド ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) の [ 手順* に従って、管理者 URL を変更します。
+>予防措置として、サーバー上の設定ファイルの編集方法がわからない場合は、管理者 URL を自分で変更しないでください。 クラウドインフラストラクチャー上にデプロイされたAdobe Commerce プロジェクトの場合は、*クラウドインフラストラクチャー上のAdobe Commerce ガイド [&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) の  手順* に従って、管理者 URL を変更します。
 
 ### 方法 1：管理者から変更する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Admin]**」を選択します。
 
@@ -200,7 +200,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトですべてのペー�
 
    >[!TIP]
    >
-   >クラウドインフラストラクチャー上のAdobe Commerceの場合、Cloud UI の `ADMIN_URL` 変数を使用してカスタム管理パスを設定できます。 [2}Cloud Infrastructure ガイドのCommerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) 管理者変数に関するトピック _を参照してください。_
+   >クラウドインフラストラクチャー上のAdobe Commerceの場合、Cloud UI の `ADMIN_URL` 変数を使用してカスタム管理パスを設定できます。 [2&rbrace;Cloud Infrastructure ガイドのCommerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) 管理者変数に関するトピック _を参照してください。_
 
    - **デフォルトの管理パス**
 
@@ -220,7 +220,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトですべてのペー�
 
 1. キャッシュをクリアするには、次のいずれかの方法を使用します。
 
-   - _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**に移動します。 次に、「**[!UICONTROL Flush Magento Cache]**」をクリックします。
+   - _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**&#x200B;に移動します。 次に、「**[!UICONTROL Flush Magento Cache]**」をクリックします。
    - サーバーで、次の操作を実行します。
 
      ```bash
@@ -259,7 +259,7 @@ bin/magento setup:config:set --backend-frontname="backend_front_name"
 
 1. キャッシュをクリアするには、次のいずれかの方法を使用します。
 
-   - _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**に移動します。 次に、「**[!UICONTROL Flush Magento Cache]**」をクリックします。
+   - _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**&#x200B;に移動します。 次に、「**[!UICONTROL Flush Magento Cache]**」をクリックします。
    - サーバーで、次の操作を実行します。
 
      ```bash

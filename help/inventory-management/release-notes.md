@@ -116,7 +116,7 @@ Inventory management 1.2.4 （モジュールバージョン：`magento/inventor
 
 ![ 修正された問題 ](../assets/fix.svg) 多くの（約 10,000 個の）在庫ソースを含むデプロイメントで買い物かごに製品を追加するなど、買い物かごおよびチェックアウトのアクションのパフォーマンスが向上しました。<!--- MC-42570-->
 
-![ 修正された問題 ](../assets/fix.svg) [!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}`bin/magento inventory:reservation:list-inconsistencies` コマンドでは、データベースから予約が失われ、キャッシュがクリアされている場合でも、部分出荷の注文を正しく処理するようになりました。 以前は、事前にクリアされたキャッシュでこのコマンドを実行すると、Commerceに次のエラーが表示されていました。`Area code is not set`。<!--- MC-42142-->
+![ 修正された問題 ](../assets/fix.svg) [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}`bin/magento inventory:reservation:list-inconsistencies` コマンドでは、データベースから予約が失われ、キャッシュがクリアされている場合でも、部分出荷の注文を正しく処理するようになりました。 以前は、事前にクリアされたキャッシュでこのコマンドを実行すると、Commerceに次のエラーが表示されていました。`Area code is not set`。<!--- MC-42142-->
 
 
 ![ 修正された問題 ](../assets/fix.svg) グループ化された製品の子製品の増分インデックス作成で、子を共有すると、他のグループ化された製品のインデックスが正しく作成されなくなりました。<!--- MC-41963-->
@@ -127,7 +127,7 @@ Inventory management 1.2.4 （モジュールバージョン：`magento/inventor
 
 ![ 修正された問題 ](../assets/fix.svg)10,000 項目を超える在庫在庫の管理が改善されました。 以前は、パフォーマンスの問題により、マーチャントが web サイトを起動する前に管理者で在庫を編集できないことがありました。<!--- MC-42643-->
 
-![ 修正された問題 ](../assets/fix.svg) 管理者の **[!UICONTROL User Roles]** ページが更新され、管理者に配信方法設定への制限付きアクセス権が提供されるようになりました。 _発送方法_ セクションの名前は _[!UICONTROL Delivery methods]_に変更され、_[!UICONTROL In-Store Pickup]_ は _[!UICONTROL Delivery methods]_セクションの下に移動します。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![ 修正された問題 ](../assets/fix.svg) 管理者の **[!UICONTROL User Roles]** ページが更新され、管理者に配信方法設定への制限付きアクセス権が提供されるようになりました。 _発送方法_ セクションの名前は _[!UICONTROL Delivery methods]_&#x200B;に変更され、_[!UICONTROL In-Store Pickup]_ は _[!UICONTROL Delivery methods]_&#x200B;セクションの下に移動します。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![ 修正された問題 ](../assets/fix.svg) クレジットメモが API で更新された後、Adobe Commerceで重複した製品予約が作成されなくなりました。<!--- MC-41757-->
 
@@ -179,7 +179,7 @@ Inventory management 1.2.4 （モジュールバージョン：`magento/inventor
 
 ![ 問題を修正 ](../assets/fix.svg) ソース割り当て、スケーラブルな環境のサポート、および PHP 7.4、MySQL 8、PHPUNIT 9 との互換性に関する問題を解決するための多数の修正。
 
-![ 新規 ](../assets/new.svg) ストア **配信方法。** チェックアウト時に集荷場所として使用するソースをユーザーが選択できるオプションを追加しました。 _販売および購入エクスペリエンスガイド ](../stores-purchase/shipping-in-store-delivery.md) の [ 店舗での配信_ を参照してください。
+![ 新規 ](../assets/new.svg) ストア **配信方法。** チェックアウト時に集荷場所として使用するソースをユーザーが選択できるオプションを追加しました。 _販売および購入エクスペリエンスガイド [&#128279;](../stores-purchase/shipping-in-store-delivery.md) の  店舗での配信_ を参照してください。
 
 ![ 新規 ](../assets/new.svg) マルチソースモード用 **バンドル製品のサポート。** Inventory では、複数のソースを持つすべての製品タイプがサポートされます。
 

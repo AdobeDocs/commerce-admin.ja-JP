@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## スケジュールされたインポート/エクスポートへのアクセス
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Scheduled Imports/Exports]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Scheduled Imports/Exports]**&#x200B;に移動します。
 
    ![ スケジュールされたデータのインポート/エクスポート ](./assets/data-scheduled-import-export.png){width="700" zoomable="yes"}
 
@@ -27,13 +27,13 @@ ht-degree: 0%
    - [スケジュール済み書き出しを追加](#schedule-an-export)
    - [スケジュールされた読み込みを追加](#schedule-an-import)
 
-1. レコードを保存すると、ジョブが _[!UICONTROL Scheduled Import/Export]_グリッドに表示されます。
+1. レコードを保存すると、ジョブが _[!UICONTROL Scheduled Import/Export]_&#x200B;グリッドに表示されます。
 
    >[!NOTE]
    >
    >スケジュールされたインポート/エクスポートを作成または更新すると、システム設定が変更されます。 保存後、管理ページの上部に表示されるキャッシュ無効化通知に対処し、キャッシュをフラッシュして、新しいスケジュールまたは更新されたスケジュールを適用してください。
 
-1. [!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} スケジュールされた各ジョブの後、ファイルのコピーがAdobe Commerce ローカルサーバーの `var/log/import_export` ディレクトリに配置されます。
+1. [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} スケジュールされた各ジョブの後、ファイルのコピーがAdobe Commerce ローカルサーバーの `var/log/import_export` ディレクトリに配置されます。
 
    各操作の詳細はログには書き込まれません。 エラーが発生した場合は、失敗したインポート/エクスポートジョブの通知が、エラーの説明と共に送信されます。
 
@@ -48,13 +48,13 @@ ht-degree: 0%
 
 各インポート操作の詳細はログに書き込まれませんが、エラーが発生した場合は、エラーの説明を記載した _インポートに失敗しました_ メールが届きます。 最後にスケジュールされた読み込みジョブの結果は、スケジュールされた読み込み/書き出しページの最後の結果列に表示されます。
 
-[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} 読み込み操作のたびに、Adobe CommerceまたはMagento Open Sourceがデプロイされているサーバー上の `var/log/import_export` ディレクトリに読み込みファイルのコピーが配置されます。 タイムスタンプ、読み込まれたエンティティ（製品または顧客）のマーカー、操作のタイプ（この場合は import）がインポートファイル名に追加されます。
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} 読み込み操作のたびに、Adobe CommerceまたはMagento Open Sourceがデプロイされているサーバー上の `var/log/import_export` ディレクトリに読み込みファイルのコピーが配置されます。 タイムスタンプ、読み込まれたエンティティ（製品または顧客）のマーカー、操作のタイプ（この場合は import）がインポートファイル名に追加されます。
 
 スケジュールされた各インポートジョブの後、再インデックス操作が自動的に実行されます。 フロントエンドでは、記述などのテキスト情報の変更は更新されたデータがデータベースに送信された後に反映され、価格の変更は再インデックス操作の後にのみ反映されます。
 
 ### 手順 1：読み込み設定の完了
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Scheduled Import/Export]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Scheduled Import/Export]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Scheduled Import]**」をクリックします。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >_[!UICONTROL Advanced Pricing]_、_[!UICONTROL Products]_、_[!UICONTROL Customers and Addresses (single file)]_および_[!UICONTROL Stock Sources]_ エンティティタイプの場合、`Add/Update`、`Replace` および `Delete` の読み込み動作が表示されます。 _顧客の財務_、_顧客のメイン ファイル_、および _顧客とアドレス_ エンティティ タイプの場合、`Add/Update Complex Data`、`Delete Entities`、および `Custom Action` のインポート動作が表示されます。
+     >_[!UICONTROL Advanced Pricing]_、_[!UICONTROL Products]_、_[!UICONTROL Customers and Addresses (single file)]_&#x200B;および&#x200B;_[!UICONTROL Stock Sources]_ エンティティタイプの場合、`Add/Update`、`Replace` および `Delete` の読み込み動作が表示されます。 _顧客の財務_、_顧客のメイン ファイル_、および _顧客とアドレス_ エンティティ タイプの場合、`Add/Update Complex Data`、`Delete Entities`、および `Custom Action` のインポート動作が表示されます。
 
    - **[!UICONTROL Start Time]**：読み込みの開始がスケジュールされている時間、分、および秒に設定します。
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
-   新しいスケジュール済みインポートジョブが _[!UICONTROL Scheduled Import/Export]_ページのリストに追加されます。 このページからすぐに実行してテストし、編集できます。 インポートファイルは、各インポートジョブの実行前に検証されます。
+   新しいスケジュール済みインポートジョブが _[!UICONTROL Scheduled Import/Export]_&#x200B;ページのリストに追加されます。 このページからすぐに実行してテストし、編集できます。 インポートファイルは、各インポートジョブの実行前に検証されます。
 
 >[!NOTE]
 >
@@ -173,7 +173,7 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 | ----- | ----------- | 
-| [!UICONTROL Server Type] | Commerceがデプロイされているサーバーと同じサーバー上のファイル（`Local Server` を選択）またはリモート FTP サーバーからインポート（`Remote FTP` を選択）できます。 _[!UICONTROL Remote FTP]_を選択すると、資格情報とファイル転送設定の追加オプションが表示されます。 リモート・ストレージ・モジュールが有効な場合、`Local Server` のタイプは自動的に `Remote Storage` に切り替わります。 |
+| [!UICONTROL Server Type] | Commerceがデプロイされているサーバーと同じサーバー上のファイル（`Local Server` を選択）またはリモート FTP サーバーからインポート（`Remote FTP` を選択）できます。 _[!UICONTROL Remote FTP]_&#x200B;を選択すると、資格情報とファイル転送設定の追加オプションが表示されます。 リモート・ストレージ・モジュールが有効な場合、`Local Server` のタイプは自動的に `Remote Storage` に切り替わります。 |
 | [!UICONTROL File Directory] | インポート ファイルがあるディレクトリを指定してください。 「サーバータイプ」が「_[!UICONTROL Local Server]_」に設定されている場合は、Commerce インストールディレクトリを基準とした相対パスを指定します。 例：リモートストレージの場合は `var/import` または `import_export/import`。 |
 | [!UICONTROL File Name] | 読み込みファイルの名前を指定します。 |
 | [!UICONTROL Images File Directory] | 製品画像が保存されているディレクトリのパスを入力します。 ローカルサーバーには、相対パスを入力します。 例：リモートストレージの場合は `var/import` または `import_export/import`。 |
@@ -203,11 +203,11 @@ ht-degree: 0%
 
 各エクスポートの詳細はログに書き込まれませんが、エラーが発生した場合は、エラーの説明が記載されたエクスポート失敗のメールが届きます。 最後のエクスポートジョブの結果は、スケジュールされたインポート/エクスポートページの最後の結果列に表示されます。
 
-[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} 各エクスポート後、エクスポートファイルはユーザー定義の場所に配置され、コピーはAdobe CommerceまたはMagento Open Sourceがデプロイされているサーバーの `var/log/import_export` ディレクトリに配置されます。 エクスポートされたエンティティ（製品または顧客）のタイムスタンプとマーカー、および操作のタイプ（この場合はエクスポート）がエクスポートファイル名に追加されます。
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} 各エクスポート後、エクスポートファイルはユーザー定義の場所に配置され、コピーはAdobe CommerceまたはMagento Open Sourceがデプロイされているサーバーの `var/log/import_export` ディレクトリに配置されます。 エクスポートされたエンティティ（製品または顧客）のタイムスタンプとマーカー、および操作のタイプ（この場合はエクスポート）がエクスポートファイル名に追加されます。
 
 ### 手順 1：書き出し設定の完了
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Scheduled Import/Export]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Scheduled Import/Export]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Scheduled Export]**」をクリックして、次の操作を行います。
 
@@ -224,7 +224,7 @@ ht-degree: 0%
       - `Customer Addresses`
       - `Stock Sources`
 
-     ページ下部の _[!UICONTROL Entity Attributes]_のセクションが更新され、選択したエンティティタイプが反映されます。
+     ページ下部の _[!UICONTROL Entity Attributes]_&#x200B;のセクションが更新され、選択したエンティティタイプが反映されます。
 
    - 書き出しを開始するスケジュールの時、分、秒に **[!UICONTROL Start Time]** を設定します。
 
@@ -258,7 +258,7 @@ ht-degree: 0%
    - **[!UICONTROL Local Server]**:Commerce インストール内の相対パス（例：`var/export`）を入力します。 リモートストレージモジュールが設定されている場合は、`import_export/export` を使用します。
    - **[!UICONTROL Remote FTP server]**：宛先サーバーのターゲットフォルダーの完全な URL とパスを入力します。
 
-1. _[!UICONTROL Remote FTP]_サーバーが選択されている場合は、そのサーバーへの接続資格情報を入力し、追加の設定を選択します。
+1. _[!UICONTROL Remote FTP]_&#x200B;サーバーが選択されている場合は、そのサーバーへの接続資格情報を入力し、追加の設定を選択します。
 
    - **[!UICONTROL FTP Host[:Port]]**: リモート FTP ホスト・アドレスを入力します。
    - **[!UICONTROL User Name]**: リモート・サーバへのアクセスに使用するユーザー名を入力します。
@@ -285,14 +285,14 @@ ht-degree: 0%
 
 ### 手順 4：エンティティ属性の選択
 
-1. _[!UICONTROL Entity Attributes]_セクションで、エクスポート データに含める属性を選択します。
+1. _[!UICONTROL Entity Attributes]_&#x200B;セクションで、エクスポート データに含める属性を選択します。
 
-   - 書き出しデータを属性値でフィルタリングするには、_[!UICONTROL Filter]_列に属性値を入力します。
+   - 書き出しデータを属性値でフィルタリングするには、_[!UICONTROL Filter]_&#x200B;列に属性値を入力します。
    - 特定の属性値を持つ製品または顧客を除外するには、除外する属性の値を入力し、「スキップ」列のチェックボックスを選択します。
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
-   新しいスケジュールされた書き出しジョブが _[!UICONTROL Scheduled Import/Export]_ページのリストに追加されます。 このページから、テスト用にすぐに実行し、編集できます。
+   新しいスケジュールされた書き出しジョブが _[!UICONTROL Scheduled Import/Export]_&#x200B;ページのリストに追加されます。 このページから、テスト用にすぐに実行し、編集できます。
 
 >[!NOTE]
 >
@@ -319,7 +319,7 @@ ht-degree: 0%
 | フィールド | 説明 |
 | ----- | ----------- | 
 | [!UICONTROL Server Type] | 書き出しファイルの場所を決定します。 Options:<br>**Local Server** - Commerceがデプロイされているサーバーにエクスポートファイルを配置します。 リモート・ストレージ・モジュールが有効な場合、`Local Server` は `Remote Storage` に切り替わります。<br>**リモート FTP** - エクスポート・ファイルをリモート・サーバに配置します。 資格情報とファイル転送設定の追加オプションが表示されます。 |
-| [!UICONTROL File Directory] | エクスポートファイルを配置するディレクトリを指定します。 _[!UICONTROL Server Type]_が `Local Server` に設定されている場合は、Commerceのインストールパスを基準とした相対パスを指定します。 例えば、リモートストレージの場合は `var/export` や `import_export/export` です。 |
+| [!UICONTROL File Directory] | エクスポートファイルを配置するディレクトリを指定します。 _[!UICONTROL Server Type]_&#x200B;が `Local Server` に設定されている場合は、Commerceのインストールパスを基準とした相対パスを指定します。 例えば、リモートストレージの場合は `var/export` や `import_export/export` です。 |
 
 {style="table-layout:auto"}
 
