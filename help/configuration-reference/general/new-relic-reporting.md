@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!NOTE]
 >これらの設定オプションは、クラウドインフラストラクチャー上のAdobe Commerceには適用されません。
 >
->Pro プランを使用している場合、New Relicは既に [ デフォルトで事前設定され、有効 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html) になっています。 スタータープランを利用している場合は、設定プロセスの一部である ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment)0}New Relic設定手順を完了する必要があります。[
+>Pro プランを使用している場合、New Relicは既に [ デフォルトで事前設定され、有効 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html) になっています。 スタータープランを利用している場合は、設定プロセスの一部である [&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment)0&rbrace;New Relic設定手順を完了する必要があります。
 
 ## [!UICONTROL General]
 

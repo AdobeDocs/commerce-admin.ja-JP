@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/**[!UICONTROL Orders]** を選択します。
 
-1. _[!UICONTROL Orders]_の一覧で、出荷する注文を見つけ、クリックして開きます。
+1. _[!UICONTROL Orders]_&#x200B;の一覧で、出荷する注文を見つけ、クリックして開きます。
 
 1. 右上隅の「**[!UICONTROL Ship]**」ボタンをクリックします。
 

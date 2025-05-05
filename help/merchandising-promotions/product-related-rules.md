@@ -18,7 +18,7 @@ ht-degree: 0%
 
 同時に複数のアクティブなルールをトリガーできるので、ルールごとに優先度を設定できます。 ルールが適用される順序と、ページ上での製品の表示順序を定義します。
 
-関連する製品ルールにアクセスするには、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Related Product Rules]**に移動します。
+関連する製品ルールにアクセスするには、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Related Product Rules]**&#x200B;に移動します。
 
 ![ 関連製品ルールリスト ](./assets/related-products-rules.png){width="700" zoomable="yes"}
 
@@ -28,8 +28,8 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL ID] | 関連する各製品ルールに割り当てられる一意の数値識別子 |
 | [!UICONTROL Rule] | 関連商品ルールの名前 |
-| [!UICONTROL Start] | 動的カレンダーフィールド（_[!UICONTROL To:]_および_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたルールの開始日に基づいてリストをフィルタリングします。 |
-| [!UICONTROL End] | 動的カレンダーフィールド（_[!UICONTROL To:]_および_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたルールの終了日に基づいてリストをフィルタリングします。 |
+| [!UICONTROL Start] | 動的カレンダーフィールド（_[!UICONTROL To:]_&#x200B;および&#x200B;_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたルールの開始日に基づいてリストをフィルタリングします。 |
+| [!UICONTROL End] | 動的カレンダーフィールド（_[!UICONTROL To:]_&#x200B;および&#x200B;_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたルールの終了日に基づいてリストをフィルタリングします。 |
 | [!UICONTROL Priority] | ルールに定義されている優先度に基づいてリストをフィルタリングするには、このフィールドにテキストを入力します。 |
 | [!UICONTROL Applies To] | このオプションは、`Related Products`、`Up-sells` および `Cross-sells` に適用されるルールのリストをフィルタリングします。 |
 | [!UICONTROL Status] | このオプションを使用して、ルールのステータス（`Active` または `Inactive`）に基づいてリストをフィルタリングします。 |
@@ -47,7 +47,7 @@ ht-degree: 0%
 例えば、優先度が `1`、`2`、`3` の 3 つのルールがあるとします。
 
 - _ルール 1_ には 2 つの一致する製品が返され、_ルール 2_ には 6 つの一致する製品が返され、_ルール 3_ には 20 の一致する製品が返されます。
-- 設定では、_[!UICONTROL Maximum Number of Products for Related Products List]_は `6` に設定されます。
+- 設定では、_[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;は `6` に設定されます。
 
   | ルール | 優先度 | 一致する製品 |
   |---|---|-----|
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 製品関係ルールの動作や一致した製品の表示は、設定によって決定されます。 これらの設定は、ルールに一致する製品の表示可能数と表示順序を決定します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下にある「**[!UICONTROL Catalog]**」を選択します。
 

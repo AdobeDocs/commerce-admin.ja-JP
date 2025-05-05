@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 製品設定 – [!UICONTROL Configurations]
 
-_[!UICONTROL Configurations]_のセクションには、製品の既存のバリエーションが一覧表示されます。設定可能な製品タイプで使用するバリエーションを生成するために使用できます。 詳しくは、「設定可能な製品 [ を参照してください ](product-create-configurable.md)。
+_[!UICONTROL Configurations]_&#x200B;のセクションには、製品の既存のバリエーションが一覧表示されます。設定可能な製品タイプで使用するバリエーションを生成するために使用できます。 詳しくは、「設定可能な製品 [ を参照してください ](product-create-configurable.md)。
 
 ![ 設定セクション ](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 

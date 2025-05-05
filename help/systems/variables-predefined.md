@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## メールテンプレートへの変数の追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Email Templates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Email Templates]**&#x200B;に移動します。
 
 1. 次のいずれかの操作を行います。
 
@@ -27,11 +27,11 @@ ht-degree: 0%
 
    - 新しいテンプレートで変数を使用するには、「**[!UICONTROL Add New Template]**」をクリックしてデフォルトのテンプレートコードをカスタマイズします。 [ メッセージテンプレート ](email-template-custom.md#message-templates) を参照してください。
 
-1. [_[!UICONTROL Load default template]_] で、カスタマイズする&#x200B;**[!UICONTROL Template]**を選択します。
+1. [_[!UICONTROL Load default template]_] で、カスタマイズする&#x200B;**[!UICONTROL Template]**&#x200B;を選択します。
 
 1. テンプレートを適用するには、「**[!UICONTROL Load Template]**」をクリックします。
 
-   「_[!UICONTROL Currently used for]_」フィールドには、テンプレートの設定パスが表示されます。_[!UICONTROL Template Subject]_ と _[!UICONTROL Template Content]_は、選択したテンプレートを基準にして自動的に生成されます。
+   「_[!UICONTROL Currently used for]_」フィールドには、テンプレートの設定パスが表示されます。_[!UICONTROL Template Subject]_ と _[!UICONTROL Template Content]_&#x200B;は、選択したテンプレートを基準にして自動的に生成されます。
 
    - **[!UICONTROL Template Subject]** – このテキストは、メールの件名に表示されます。
 

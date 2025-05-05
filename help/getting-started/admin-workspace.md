@@ -50,7 +50,7 @@ ht-degree: 0%
 
 [ ダッシュボード ](admin-workspace.md#the-dashboard) は管理者のデフォルトの起動ページですが、別の起動ページを設定することもできます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルの **[!UICONTROL Advanced]** の下で、「**[!UICONTROL Admin]**」を選択します。
 
@@ -60,6 +60,6 @@ ht-degree: 0%
 
 1. 管理者にログインした後に最初に表示するページに **[!UICONTROL Startup Page]** を設定します。
 
-   すべての管理オプションの詳細なリストについては、「設定リファレンス ](../configuration-reference/advanced/admin.md) の [Admin _を参照してください_。
+   すべての管理オプションの詳細なリストについては、「設定リファレンス [&#128279;](../configuration-reference/advanced/admin.md) の Admin _を参照してください_。
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

@@ -14,6 +14,6 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-_[!UICONTROL Autosettings]_の節には、他の操作の依存関係である属性が含まれます。 必要に応じて、製品にデフォルトの [RMA 設定 ](../stores-purchase/rma-configure.md) を適用したり、上書きしたりできます。
+_[!UICONTROL Autosettings]_&#x200B;の節には、他の操作の依存関係である属性が含まれます。 必要に応じて、製品にデフォルトの [RMA 設定 ](../stores-purchase/rma-configure.md) を適用したり、上書きしたりできます。
 
 ![ 自動設定 ](./assets/product-autosettings.png){width="600" zoomable="yes"}

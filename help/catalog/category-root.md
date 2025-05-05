@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ## 手順 3：ルートカテゴリをストアに割り当てる
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL All Stores]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL All Stores]**&#x200B;に移動します。
 
 1. グリッドの _ストア_ 列で、新しいカタログを割り当てるストアをクリックします。
 

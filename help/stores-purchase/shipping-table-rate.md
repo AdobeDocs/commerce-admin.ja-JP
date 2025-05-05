@@ -32,7 +32,7 @@ _テーブル率_ 配送方法は、データのテーブルを参照して、�
 
 最初の手順は、テーブルのレートのデフォルト設定を完了することです。 この手順は、設定の範囲を変更せずに完了できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左パネルの「_[!UICONTROL Sales]_」セクションで、「**[!UICONTROL Delivery Methods]**」を選択します。
 
@@ -84,7 +84,7 @@ _テーブル率_ 配送方法は、データのテーブルを参照して、�
 1. Set **[!UICONTROL Ship to Applicable Countries]**:
 
    - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) の顧客がこの配信方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Ship to Specific Countries]_リストが表示されます。 リストで、この配信方法を使用できる国を選択します。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Ship to Specific Countries]_&#x200B;リストが表示されます。 リストで、この配信方法を使用できる国を選択します。
 
 1. テーブルの料金を常に表示する場合は、**[!UICONTROL Show Method if Not Applicable]** を `Yes` に設定します
 
@@ -115,10 +115,10 @@ _テーブル率_ 配送方法は、データのテーブルを参照して、�
 1. 出荷計算条件の適切な値を使用して、表を完成させます。
 
    - ワイルドカードとしてアスタリスク （*）を使用し、任意のカテゴリの使用可能なすべての値を表します。
-   - _[!UICONTROL Country]_列には、各行に [ 有効な 3 文字のコード ][1] を含める必要があります。
-   - 特定の場所がリストの上部に、ワイルドカードの場所が下部に表示されるように、データを _[!UICONTROL Region/State]_で並べ替えます。 このメソッドを使用すると、最初に絶対値でルールが処理され、後でワイルドカード値でルールが処理されます。
-   - 郵便番号の範囲はサポートされていません。 アスタリスク（*）を使用すると、リージョン/ステート内のすべてのコードが許可されます。また、_[!UICONTROL Zip/Postal Code]_列で特定の場所に対して 1 つのコードを指定することもできます。
-   - _[!UICONTROL Weight (and above)]_列の値には、小数点以下 4 桁まで（`2.5075` など）を指定できます。 データで小数点以下の桁数を増やすと、読み込みが失敗します。
+   - _[!UICONTROL Country]_&#x200B;列には、各行に [ 有効な 3 文字のコード ][1] を含める必要があります。
+   - 特定の場所がリストの上部に、ワイルドカードの場所が下部に表示されるように、データを _[!UICONTROL Region/State]_&#x200B;で並べ替えます。 このメソッドを使用すると、最初に絶対値でルールが処理され、後でワイルドカード値でルールが処理されます。
+   - 郵便番号の範囲はサポートされていません。 アスタリスク（*）を使用すると、リージョン/ステート内のすべてのコードが許可されます。また、_[!UICONTROL Zip/Postal Code]_&#x200B;列で特定の場所に対して 1 つのコードを指定することもできます。
+   - _[!UICONTROL Weight (and above)]_&#x200B;列の値には、小数点以下 4 桁まで（`2.5075` など）を指定できます。 データで小数点以下の桁数を増やすと、読み込みが失敗します。
 
    ![ 重み付け対宛先（オーストラリア） ](./assets/table-rates-weight-destination-csv.png){width="500"}
 

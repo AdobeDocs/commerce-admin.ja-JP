@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## ギフト レジストリ検索の構成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックします。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    ![ ギフトレジストリ – 検索設定 ](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Storefront Properties]_セクションで、次の操作を行います。
+1. _[!UICONTROL Storefront Properties]_&#x200B;セクションで、次の操作を行います。
 
    - 内部参照の **[!UICONTROL Widget Title]** を入力します。
 

@@ -50,7 +50,7 @@ ht-degree: 6%
    + [会社の発注書](purchase-order-flow.md)
    + [承認ルール](account-dashboard-approval-rules.md)
    + [[!UICONTROL My Purchase Orders]](account-dashboard-my-purchase-orders.md)
-+ {#quotes} の引用
++ の引用{#quotes}
    + [概要](quotes.md)
    + [見積の設定](configure-quotes.md)
    + [見積依頼](quote-request.md)

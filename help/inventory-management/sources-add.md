@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 在庫ソースの追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Inventory]_/**[!UICONTROL Sources]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Inventory]_/**[!UICONTROL Sources]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add New Source]**」をクリックします。
 

@@ -213,7 +213,7 @@ ht-degree: 0%
 | [!UICONTROL Category URL Suffix] | ストア表示 | カテゴリの URL に html や htm などのサフィックスを適用するかどうかを決定します。 サフィックスは自動的に適用されるので、これを使用する場合はサフィックスの前にピリオドを含めないでください。 |
 | [!UICONTROL Use Categories Path for Product URLs] | ストア表示 | カテゴリパスをストアフロントの製品 URL に含めるかどうかを決定します。 これにより、複数の URL が同じページを指す可能性があり、検索ランクに影響を与える可能性があります。 詳しくは、[ 正規メタタグ ](../../merchandising-promotions/meta-data.md#canonical-meta-tag) を参照してください。 |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | ストア表示 | URL キーが変更されるたびに永続的なリダイレクトを自動的に作成するかどうかを指定します。 実装すると、製品 URL キーフィールドの下にある「古い URL のカスタムリダイレクトを作成」チェックボックスがデフォルトで選択されます。 オプション：`Yes` / `No` |
-| [!UICONTROL Generate "category/product" URL Rewrites] | グローバル | Adobe Commerceが割り当てられた商品を多く含むカテゴリを保存した場合に、データを生成して書き換えテーブルに保存するかどうかを決定します。  <br/><br/> このオプションを変更しても、この設定に関係なく、商品 URL が自動的に解決されるので、Adobe Commerceでの商品 URL の解決方法には影響しません。 <br/><br/> オプション：`Yes` / `No` <br/><br/>**_重要：_**この生成されたデータを URL 書き換えテーブルに保存すると、パフォーマンスが低下する可能性があります。 詳しくは、[ 製品の自動リダイレクト ](../../merchandising-promotions/url-redirect-product-automatic.md) を参照してください。 |
+| [!UICONTROL Generate "category/product" URL Rewrites] | グローバル | Adobe Commerceが割り当てられた商品を多く含むカテゴリを保存した場合に、データを生成して書き換えテーブルに保存するかどうかを決定します。  <br/><br/> このオプションを変更しても、この設定に関係なく、商品 URL が自動的に解決されるので、Adobe Commerceでの商品 URL の解決方法には影響しません。 <br/><br/> オプション：`Yes` / `No` <br/><br/>**_重要：_**&#x200B;この生成されたデータを URL 書き換えテーブルに保存すると、パフォーマンスが低下する可能性があります。 詳しくは、[ 製品の自動リダイレクト ](../../merchandising-promotions/url-redirect-product-automatic.md) を参照してください。 |
 | [!UICONTROL Apply transliteration for product URL] | ストア表示 | 製品 URL を作成または更新する際に、表記変換を適用するかどうかを決定します。 オプション：`Yes`/`No`。 デフォルトは `Yes` に設定されています。 <br/><br/> 特定のユースケースでは、表記変換を無効にする必要があります。 例えば、中国語でオンラインストアを運営する場合、SEO のベストプラクティスでは、製品 URL が製品名と一致することをお勧めします。 オプションを `No` に設定すると、製品 URL で ASCII 相当の文字ではなく漢字を使用できます。 |
 | [!UICONTROL Page Title Separator] | ストア表示 | ブラウザのタイトル バーでカテゴリ名とサブカテゴリを区切る文字を指定します。 |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | ストア表示 | 同じカテゴリページを指す URL が複数ある場合、このオプションでは、正規のメタタグを使用して、検索エンジンでインデックスを作成するカテゴリ URL を識別します。 URL は、メタタグを使用したカテゴリへのフルネームを含みます。 これにより、重複コンテンツが減り、SEO が向上します。 オプション：`Yes` / `No` |
@@ -281,7 +281,7 @@ Adobe Commerceは、OpenSearch とElasticsearchをサポートしています。
 | [!UICONTROL OpenSearch HTTP Password] | グローバル | _Elasticsearch HTTP Auth を有効にする_ が `Yes` に設定されている場合は、OpenSearch またはElasticsearch HTTP 認証用のパスワードを指定します。 |
 | [!UICONTROL OpenSearch Server Timeout] | グローバル | OpenSearch またはElasticsearch サーバーへのリクエストがタイムアウトするまでの秒数を指定します。 デフォルト値：`15` |
 | [!UICONTROL Test Connection] |  | OpenSearch またはElasticsearchの連携を検証します。 |
-| [!UICONTROL Enable Search Recommendations] | ストア表示 | 検索で結果が返されず、検索結果ページの「`Related search terms`」セクションに表示される場合に、検索レコメンデーションを提供するかどうかを決定します。 オプション：`Yes`/`No`<br/> 「はい」を設定すると、_[!UICONTROL Search Recommendations Count]_と_[!UICONTROL Shows Results Count for Each Recommendation]_ に追加のオプションが表示されます。 |
+| [!UICONTROL Enable Search Recommendations] | ストア表示 | 検索で結果が返されず、検索結果ページの「`Related search terms`」セクションに表示される場合に、検索レコメンデーションを提供するかどうかを決定します。 オプション：`Yes`/`No`<br/> 「はい」を設定すると、_[!UICONTROL Search Recommendations Count]_&#x200B;と_[!UICONTROL Shows Results Count for Each Recommendation]_ に追加のオプションが表示されます。 |
 | [!UICONTROL Search Recommendations Count] | ストア表示 | お勧めとして提供される検索用語の数を指定します。 デフォルトでは、5 個以下が表示されます。 |
 | [!UICONTROL Show Results Count for Each Recommendation] | ストア表示 | `Yes` に設定すると、提案された検索レコメンデーションで見つかった製品の数が角括弧で囲まれて表示されます。 オプション：`Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | ストア表示 | 一般的なスペルミスに対して検索候補が表示されるかどうかを決定します。 有効にすると、結果を返さないリクエストに対して検索候補が提示され、「**検索結果** ページの「`Did you mean`」セクションに表示されます。 検索候補は、検索のパフォーマンスに影響を与える可能性があります。 `Yes` に設定すると、「検索のお勧めを有効にする」と関連フィールドに追加のオプションが表示されます。 オプション：`Yes` / `No` |
@@ -304,7 +304,7 @@ Adobe Commerceは、OpenSearch とElasticsearchをサポートしています。
 | [!UICONTROL Default Link Title] | ストア表示 | すべてのダウンロード可能なタイトルの既定のリンクです。 |
 | [!UICONTROL Opens Links in New Window] | Web サイト | ダウンロードリンクを新しいブラウザーウィンドウで開くかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Use Content Disposition] | ストア表示 | ダウンロード可能なコンテンツへのリンクを、電子メールの添付ファイルまたはブラウザーウィンドウのインラインリンクとして配信する方法を決定します。 オプション：<br/>**`Attachment`**- ダウンロードリンクは、メールの添付ファイルとして配信されます。<br/>**`Inline`** - ダウンロードリンクは、web ページ上のインラインリンクとして配信されます。 |
-| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Web サイト | ダウンロード可能な製品を購入するゲストが、アカウントに登録してログインしてチェックアウトプロセスを完了する必要があるかどうかを決定します。 オプション：<br/>**`Yes`**- カートにダウンロード可能な製品が含まれている場合、ゲストはアカウントを登録するか、既存のアカウントにログインして購入を完了する必要があります。<br/>**`No`** - ダウンロードリンクは、メールメッセージの本文内のインラインリンクとして配信されます。 <br/> _**注意：**_ ゲストのチェックアウトは、共有可能が `Yes` に設定されている場合にのみ、ダウンロード製品で使用できます。 |
+| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Web サイト | ダウンロード可能な製品を購入するゲストが、アカウントに登録してログインしてチェックアウトプロセスを完了する必要があるかどうかを決定します。 オプション：<br/>**`Yes`**- カートにダウンロード可能な製品が含まれている場合、ゲストはアカウントを登録するか、既存のアカウントにログインして購入を完了する必要があります。<br/>**`No`** - ダウンロードリンクは、メールメッセージの本文内のインラインリンクとして配信されます。 <br/> _&#x200B;**注意：**&#x200B;_ ゲストのチェックアウトは、共有可能が `Yes` に設定されている場合にのみ、ダウンロード製品で使用できます。 |
 
 {style="table-layout:auto"}
 

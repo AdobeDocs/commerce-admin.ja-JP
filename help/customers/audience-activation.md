@@ -52,7 +52,7 @@ _2023 年 5 月 30 日_
 
 ### 2.4.0
 
-[!BADGE  互換性 ]{type=Informative tooltip="互換性"}
+[!BADGE &#x200B; 互換性 &#x200B;]{type=Informative tooltip="互換性"}
 
 _2025 年 3 月 24 日_
 
@@ -60,7 +60,7 @@ _2025 年 3 月 24 日_
 
 ### 2.3.1
 
-[!BADGE  互換性 ]{type=Informative tooltip="互換性"}
+[!BADGE &#x200B; 互換性 &#x200B;]{type=Informative tooltip="互換性"}
 
 _2024 年 11 月 12 日_
 
@@ -68,7 +68,7 @@ _2024 年 11 月 12 日_
 
 ### 2.3.0
 
-[!BADGE  互換性 ]{type=Informative tooltip="互換性"}
+[!BADGE &#x200B; 互換性 &#x200B;]{type=Informative tooltip="互換性"}
 
 _2024 年 7 月 29 日_
 
@@ -76,7 +76,7 @@ _2024 年 7 月 29 日_
 
 ### 2.2.0
 
-[!BADGE  互換性 ]{type=Informative tooltip="互換性"}
+[!BADGE &#x200B; 互換性 &#x200B;]{type=Informative tooltip="互換性"}
 
 _2024 年 6 月 12 日_
 
@@ -84,7 +84,7 @@ _2024 年 6 月 12 日_
 
 ### 2.1.1
 
-[!BADGE  互換性 ]{type=Informative tooltip="互換性"}
+[!BADGE &#x200B; 互換性 &#x200B;]{type=Informative tooltip="互換性"}
 
 _2024 年 4 月 4 日_
 
@@ -92,7 +92,7 @@ _2024 年 4 月 4 日_
 
 ### 2.2.0-beta1
 
-[!BADGE  互換性 ]{type=Informative tooltip="互換性"}
+[!BADGE &#x200B; 互換性 &#x200B;]{type=Informative tooltip="互換性"}
 
 _2024 年 2 月 16 日_
 
@@ -101,7 +101,7 @@ _2024 年 2 月 16 日_
 
 ### 2.1.0
 
-[!BADGE  互換性 ]{type=Informative tooltip="互換性"}
+[!BADGE &#x200B; 互換性 &#x200B;]{type=Informative tooltip="互換性"}
 
 _2024 年 1 月 24 日_
 
@@ -109,7 +109,7 @@ _2024 年 1 月 24 日_
 
 ### 2.0.1
 
-[!BADGE  互換性 ]{type=Informative tooltip="互換性"}
+[!BADGE &#x200B; 互換性 &#x200B;]{type=Informative tooltip="互換性"}
 
 _2023 年 11 月 16 日_
 
@@ -117,7 +117,7 @@ _2023 年 11 月 16 日_
 
 ### 2.0.0
 
-[!BADGE  互換性 ]{type=Informative tooltip="互換性"}
+[!BADGE &#x200B; 互換性 &#x200B;]{type=Informative tooltip="互換性"}
 
 _2023 年 10 月 10 日_
 
@@ -126,7 +126,7 @@ _2023 年 10 月 10 日_
 
 ### 1.2.0
 
-[!BADGE  互換性 ]{type=Informative tooltip="互換性"}
+[!BADGE &#x200B; 互換性 &#x200B;]{type=Informative tooltip="互換性"}
 
 _2023 年 8 月 15 日_
 
@@ -136,7 +136,7 @@ _2023 年 8 月 15 日_
 
 _2023 年 5 月 30 日_
 
-[!BADGE  互換性 ]{type=Informative tooltip="互換性"}
+[!BADGE &#x200B; 互換性 &#x200B;]{type=Informative tooltip="互換性"}
 
 ![ 新規 ](../assets/new.svg) - ヘッドレスストアフロントで [ 動的ブロック ](#headless-support) のサポートを追加しました。
 
@@ -144,7 +144,7 @@ _2023 年 5 月 30 日_
 
 _2023 年 5 月 11 日_
 
-[!BADGE  互換性 ]{type=Informative tooltip="互換性"}
+[!BADGE &#x200B; 互換性 &#x200B;]{type=Informative tooltip="互換性"}
 
 ![ 修正 ](../assets/fix.svg) – 動的ブロックまたは買い物かごの価格ルールがストアフロントに適用されなかった問題を修正しました。
 ![ 修正 ](../assets/fix.svg) - マーチャントが動的ブロックを作成または更新しようとすると、Audience Activation拡張機能の未設定のインストールでエラーが発生する問題を修正しました。
@@ -153,7 +153,7 @@ _2023 年 5 月 11 日_
 
 _2023 年 3 月 31 日_
 
-[!BADGE  互換性 ]{type=Informative tooltip="互換性"}
+[!BADGE &#x200B; 互換性 &#x200B;]{type=Informative tooltip="互換性"}
 
 ![ 新規 ](../assets/new.svg) – 一般提供リリース
 
@@ -162,8 +162,8 @@ _2023 年 3 月 31 日_
 次のタスクは、Luma とヘッドレスストアフロントの両方の実装に適用されます。 Adobe Commerceでオーディエンスをアクティブ化するには、次の操作を行う必要があります。
 
 - Adobe Commerce バージョン 2.4.4 以降をインストールします。
-- Real-Time CDPの宛先としてのAdobe Commerce](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html)[ アクティブ化
-- 管理者の [!DNL Audience Activation] 拡張機能 ](#install-the-extension) インストール [
+- Real-Time CDPの宛先としてのAdobe Commerce[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) アクティブ化
+- 管理者の [!DNL Audience Activation] 拡張機能 [&#128279;](#install-the-extension) インストール 
 - 管理者の [!DNL Audience Activation] 拡張機能 [ 設定 ](#configure-the-extension)
 
 ### 拡張機能のインストール
@@ -178,11 +178,11 @@ composer require magento/audiences
 
 [!DNL Audience Activation] 拡張機能をインストールした後、Commerce管理者にログインして、次の手順を実行する必要があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Services]_/**[!UICONTROL Commerce Services Connector]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Services]_/**[!UICONTROL Commerce Services Connector]**&#x200B;に移動します。
 
 1. Adobe アカウントに [ ログイン ](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html#organizationid) し、組織 ID を選択します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Services]_/**[!UICONTROL [!DNL Data Connection]]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Services]_/**[!UICONTROL [!DNL Data Connection]]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Datastream ID]**」フィールドに、Adobe CommerceをReal-Time CDPの宛先として [ アクティブ化 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) したときに作成したデータストリームの ID を貼り付けます。
 
@@ -192,7 +192,7 @@ composer require magento/audiences
    >
    >データストリーム ID を指定するときは、[!DNL Data Connection] 拡張機能で [ 特定の web サイトに関連付ける ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) ことができます。 Commerce ストアに複数の web サイトがある場合は、Real-Time CDPの web サイトごとに [ 宛先を作成 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) し、それぞれに異なるデータストリーム ID を使用します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Services]**」を展開し、「**[!UICONTROL [!DNL Data Connection]]**」を選択します。
 
@@ -212,7 +212,7 @@ composer require magento/audiences
 
 ## Real-Time CDP オーディエンスダッシュボード
 
-[2}Real-Time CDP オーディエンス ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) ダッシュボードを使用すると、Adobe Commerce インスタンス内でパーソナライズするために使用できるすべての **アクティブな } オーディエンスを表示できます。**
+[2&rbrace;Real-Time CDP オーディエンス ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) ダッシュボードを使用すると、Adobe Commerce インスタンス内でパーソナライズするために使用できるすべての **アクティブな &rbrace; オーディエンスを表示できます。**
 
 **Real-Time CDP オーディエンス** ダッシュボードにアクセスするには、_管理者_ サイドバーで **[!UICONTROL Customers]**/**[!UICONTROL Real-time CDP Audience]** に移動します。
 
@@ -415,7 +415,7 @@ bin/magento audiences:config:status
 ### 設定で選択された認証タイプが正しくありません
 
 1. Commerce インスタンスを開きます。
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 1. 「**[!UICONTROL Services]**」を展開し、「**[!UICONTROL [!DNL Data Connection]]**」を選択します。
 1. **[!UICONTROL Authentication Type]** フィールドに指定したサーバー間の認証方法が正しいことを確認してください。 Adobeでは、**OAuth** を使用することをお勧めします。 JWT は非推奨（廃止予定）になりました。 [ 詳細情報 ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)。
 

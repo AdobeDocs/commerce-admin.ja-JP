@@ -45,7 +45,7 @@ _検索結果_ リストには、「クイック検索」ボックスまたは�
 
 ### 手順 1：属性の作成
 
-1. _[!UICONTROL Products]_リストで、`Montana Wind Jacket` （MJ03）を編集モードで開きます。
+1. _[!UICONTROL Products]_&#x200B;リストで、`Montana Wind Jacket` （MJ03）を編集モードで開きます。
 1. 右上隅の「**[!UICONTROL Add Attribute]**」をクリックします。
 1. _属性を選択_ ページで「**[!UICONTROL Create New Attribute]**」をクリックします。
 1. 属性プロパティを次のように設定します。
@@ -80,15 +80,15 @@ _検索結果_ リストには、「クイック検索」ボックスまたは�
    ![ 検索キーワードを含む属性セクション ](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
-1. **[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**に移動し、**[!UICONTROL Page Cache]**を更新します。
+1. **[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**&#x200B;に移動し、**[!UICONTROL Page Cache]**&#x200B;を更新します。
 
 ### 手順 3:2 番目の製品のマッピング
 
-1. _[!UICONTROL Products]_リストで、`Chaz Kangaroo Hoodie` （MH01）を編集モードで開きます。
+1. _[!UICONTROL Products]_&#x200B;リストで、`Chaz Kangaroo Hoodie` （MH01）を編集モードで開きます。
 1. 下にスクロールして、「**[!UICONTROL Attributes]**」セクションを展開します。
 1. 「**[!UICONTROL Search Keywords]**」フィールドに、他の製品の SKU`MJ03` を入力します。
 1. 「**[!UICONTROL Save]**」をクリックします。
-1. **[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**に移動し、**[!UICONTROL Page Cache]**を更新します。
+1. **[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**&#x200B;に移動し、**[!UICONTROL Page Cache]**&#x200B;を更新します。
 
 ### 手順 4：ストアフロントでテストする
 
@@ -105,7 +105,7 @@ _検索結果_ リストには、「クイック検索」ボックスまたは�
 
 **_属性の検索の重み付けプロパティを設定するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. リストで属性を見つけ、編集モードで開きます。
 

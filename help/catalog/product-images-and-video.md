@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 画像の詳細
 
-製品画像を追加する際に、_[!UICONTROL Image Detail]_ウィンドウの画像表示をカスタマイズできます。
+製品画像を追加する際に、_[!UICONTROL Image Detail]_&#x200B;ウィンドウの画像表示をカスタマイズできます。
 
 ![ 製品画像 ](./assets/image-video.png){width="600" zoomable="yes"}
 

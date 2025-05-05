@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >`pub/media/wysywig` フォルダーと `pub/media/catalog/category` フォルダーにのみフォルダーを作成できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Create Folder]**」をクリックします。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 >
 >フォルダーを削除すると、そのフォルダー内のすべての画像が削除されます。 `pub/media/wysywig` フォルダーと `pub/media/catalog/category` フォルダー内のフォルダーのみを削除できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
 
 1. 削除するフォルダーを選択します。
 

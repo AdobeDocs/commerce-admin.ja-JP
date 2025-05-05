@@ -22,11 +22,11 @@ ht-degree: 0%
 
 ### 手順 1：メール通知を設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Gift Cards]**」を選択します。
 
-1. _[!UICONTROL Gift Card Email Settings]_のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. _[!UICONTROL Gift Card Email Settings]_&#x200B;のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
    - ギフトカード通知の送信者として表示されるストア ID に **[!UICONTROL Gift Card Notification Email Sender]** を設定します。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    ![ ギフト カード E メールの設定 ](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Email Sent from Gift Card Account Management]_のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. _[!UICONTROL Email Sent from Gift Card Account Management]_&#x200B;のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
    - ギフトカードの送信者として表示するストア ID に **[!UICONTROL Gift Card Email Sender]** を設定します。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ### 手順 3: ギフト カードのコード プールを確立する
 
-1. _[!UICONTROL Gift Card Account General Settings]_のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. _[!UICONTROL Gift Card Account General Settings]_&#x200B;のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
    ![ ギフト カード アカウントの一般設定 ](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
 
@@ -93,29 +93,29 @@ ht-degree: 0%
 
 1. 現在の注文のギフト カード アカウントの番号を調べるには、次の操作を行います。
 
-   - _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**に移動します。
+   - _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**&#x200B;に移動します。
 
-   - リストで順序を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL View]**をクリックします。
+   - リストで順序を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL View]**&#x200B;をクリックします。
 
-   - _[!UICONTROL Items Ordered]_セクションまで下にスクロールします。
+   - _[!UICONTROL Items Ordered]_&#x200B;セクションまで下にスクロールします。
 
    数値は「_[!UICONTROL Product]_」列の「**[!UICONTROL Gift Card Accounts]**」の下にあります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Gift Card Accounts]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Gift Card Accounts]**&#x200B;に移動します。
 
 1. グリッドでギフトカードアカウントを見つけて、編集モードで開きます。
 
-   ギフト カード コードは、[ 情報 _セクションの上部に表示さ_ ます。
+   ギフト カード コードは、&lbrack; 情報 _セクションの上部に表示さ_ ます。
 
    ![ ギフト カード アカウント情報 ](./assets/gift-card-account-information.png){width="600" zoomable="yes"}
 
 ## ギフトカードアカウントの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Gift Card Accounts]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Gift Card Accounts]**&#x200B;に移動します。
 
 1. 右上隅にある「**[!UICONTROL Add Gift Card Account]**」をクリックします。
 
-1. _[!UICONTROL Information]_セクションで、**[!UICONTROL Active]**を `Yes` に設定し、以下を実行します。
+1. _[!UICONTROL Information]_&#x200B;セクションで、**[!UICONTROL Active]**&#x200B;を `Yes` に設定し、以下を実行します。
 
    - チェックアウト時にカードの残高を引き換えたり、顧客の店舗クレジットに転送したりするには、**[!UICONTROL Redeemable]** を `Yes` に設定します。
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 ## ギフト カード アカウント履歴の表示
 
-1. **[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Gift Card Accounts]**に移動します。
+1. **[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Gift Card Accounts]**&#x200B;に移動します。
 
 1. ギフトカードを編集モードで開きます。
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 ## ギフト カード アカウントの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Gift Card Accounts]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Gift Card Accounts]**&#x200B;に移動します。
 
 1. 削除するギフト カード アカウントを選択し、編集モードで開きます。
 

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 価格ルールへの報酬ポイントの追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Cart Price Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Cart Price Rules]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add New Rule]**」をクリックして買い物かご価格ルールを作成するか、既存の買い物かご価格ルールをクリックして開きます。
 

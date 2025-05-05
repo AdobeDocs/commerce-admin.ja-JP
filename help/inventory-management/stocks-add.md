@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 在庫在庫の追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Inventory]_/**[!UICONTROL Stock]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Inventory]_/**[!UICONTROL Stock]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add New Stock]**」をクリックします。
 

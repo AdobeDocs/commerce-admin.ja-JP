@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### テーマグリッドのフィルタリング
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Themes]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Themes]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Filters]**」をクリックします。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 現在のテーマの設定を表示する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Themes]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Themes]**&#x200B;に移動します。
 
 1. インストールされたテーマの一覧で、調査するテーマを見つけ、その行をクリックして設定を表示します。
 
@@ -48,11 +48,11 @@ ht-degree: 0%
 
 ## デフォルトのテーマの適用
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. 設定するストア表示を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
+1. 設定するストア表示を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. _[!UICONTROL Default Theme]_の下で、現在のビューに使用するビューに&#x200B;**[!UICONTROL Applied Theme]**を設定します。
+1. _[!UICONTROL Default Theme]_&#x200B;の下で、現在のビューに使用するビューに&#x200B;**[!UICONTROL Applied Theme]**&#x200B;を設定します。
 
    ![ 適用されたテーマ ](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## ユーザーエージェントルールの追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. [_[!UICONTROL Design Rule]_] で、[**[!UICONTROL Add New User Agent Rule]**] をクリックします。
 

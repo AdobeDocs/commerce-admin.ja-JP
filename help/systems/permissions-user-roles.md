@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 役割の定義
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL User Roles]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL User Roles]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Role]**」をクリックします。
 
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 ### 手順 1：役割名の追加
 
-1. 「_[!UICONTROL Role Information]_」に、説明&#x200B;**[!UICONTROL Role Name]**を入力します。
+1. 「_[!UICONTROL Role Information]_」に、説明&#x200B;**[!UICONTROL Role Name]**&#x200B;を入力します。
 
-1. _[!UICONTROL Current User Identity Verification]_の下に、パスワードを入力します。
+1. _[!UICONTROL Current User Identity Verification]_&#x200B;の下に、パスワードを入力します。
 
    ![ システム権限 – 役割情報 ](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
@@ -49,9 +49,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >`Custom` の役割の範囲を持つユーザーは、制限付きストアに割り当てられたときに、web サイトとカテゴリを作成したり、カテゴリに製品を割り当てたり、_[!UICONTROL All Store Views]_の範囲で製品を編集したりすることができません。 また、これらのユーザーは、アクセス権を持たないスコープに影響を与えるその他の_ グローバル _アクションも実行できません。
+   >`Custom` の役割の範囲を持つユーザーは、制限付きストアに割り当てられたときに、web サイトとカテゴリを作成したり、カテゴリに製品を割り当てたり、_[!UICONTROL All Store Views]_&#x200B;の範囲で製品を編集したりすることができません。 また、これらのユーザーは、アクセス権を持たないスコープに影響を与えるその他の_ グローバル _アクションも実行できません。
 
-1. _[!UICONTROL Roles Resources]_で、**[!UICONTROL Resource Access]**を `Custom` に設定します。
+1. _[!UICONTROL Roles Resources]_&#x200B;で、**[!UICONTROL Resource Access]**&#x200B;を `Custom` に設定します。
 
 1. **[!UICONTROL Resource]** ツリー構造で、役割がアクセスできる各管理機能のチェックボックスをオンにします。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >管理者ユーザーが _[!UICONTROL Invoices]_、_[!UICONTROL Credit Memos]_、_[!UICONTROL Shipments]_の順序 [ タブ ](../stores-purchase/order-processing.md) を表示するには、役割の範囲に対する&#x200B;**[!UICONTROL Sales / Archive]**権限が必要です。
+   >管理者ユーザーが _[!UICONTROL Invoices]_、_[!UICONTROL Credit Memos]_、_[!UICONTROL Shipments]_&#x200B;の順序 [ タブ ](../stores-purchase/order-processing.md) を表示するには、役割の範囲に対する&#x200B;**[!UICONTROL Sales / Archive]**&#x200B;権限が必要です。
 
 1. 完了したら、「**[!UICONTROL Save Role]**」をクリックします。
 
@@ -71,13 +71,13 @@ ht-degree: 0%
 
 ## ユーザーへの役割の割り当て
 
-1. _[!UICONTROL Roles]_グリッドから、編集モードでレコードを開きます。
+1. _[!UICONTROL Roles]_&#x200B;グリッドから、編集モードでレコードを開きます。
 
-1. _[!UICONTROL Current User Identity Verification]_の下に、ユーザーアカウントのパスワードを入力します。
+1. _[!UICONTROL Current User Identity Verification]_&#x200B;の下に、ユーザーアカウントのパスワードを入力します。
 
 1. 左側のパネルで「**[!UICONTROL Role Users]**」を選択します。
 
-   _[!UICONTROL Role Users]_オプションは、新しい役割が保存された後にのみ表示されます。
+   _[!UICONTROL Role Users]_&#x200B;オプションは、新しい役割が保存された後にのみ表示されます。
 
    ![ 役割に割り当てられたユーザーアカウント ](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 ## 役割の編集
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL User Roles]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL User Roles]**&#x200B;に移動します。
 
 1. グリッドの上にあるフィルターを使用して役割を見つけ、役割名をクリックします。
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 ## 役割の削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL User Roles]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL User Roles]**&#x200B;に移動します。
 
 1. グリッドの上にあるフィルターを使用して役割を見つけ、編集モードで開きます。
 

@@ -32,7 +32,7 @@ ht-degree: 0%
 >
 >**_[!UICONTROL Shared Catalog]_** 機能が有効な場合、既存のすべての [ グループ権限設定 ](../configuration-reference/catalog/catalog.md#category-permissions) は、カタログ内の **_すべて_** カテゴリで無視されます。 カタログ [!UICONTROL Shared Catalog] 有効にすると、カタログのすべてのカテゴリ権限が完全に制御されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Allow Browsing Category]_の設定は web サイトのすべてのカテゴリに適用されますが、ストア表示ごとに異なるランディングページを設定することもできます。
+   >_[!UICONTROL Allow Browsing Category]_&#x200B;の設定は web サイトのすべてのカテゴリに適用されますが、ストア表示ごとに異なるランディングページを設定することもできます。
 
 ### [!UICONTROL Display Product Prices]
 

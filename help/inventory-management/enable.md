@@ -22,7 +22,7 @@ ht-degree: 0%
 
 この設定が単一および複数ソースのインベントリでどのように機能するか：
 
-- [!DNL Inventory Management] を使用するには、_[!UICONTROL Manage Stock]_を有効にします。
+- [!DNL Inventory Management] を使用するには、_[!UICONTROL Manage Stock]_&#x200B;を有効にします。
 
 - 製品レベル設定の [!UICONTROL Manage Stock] の設定は、ストア設定よりも優先されます。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## [!DNL Inventory Management] の有効化または無効化
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、「**[!UICONTROL Inventory]**」を選択します。
 

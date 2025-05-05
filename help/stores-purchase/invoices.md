@@ -61,7 +61,7 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]**/_運営_/**請求書** �
 
 **_注文をインボイス化するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**&#x200B;に移動します。
 
 1. ステータスが「`Processing`」の受注をグリッドで検索します。 次に、以下の手順を実行します。
 
@@ -71,7 +71,7 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]**/_運営_/**請求書** �
 
    >[!NOTE]
    >
-   >特定の [ 支払方法 ](../configuration-reference/sales/payment-methods.md#payment-actions) の [ 支払アクション ](../configuration-reference/sales/payment-methods.md) が `Authorize and Capture` に設定され、請求書が自動生成される場合、_[!UICONTROL Invoice]_オプションは表示されません。 これは、注文が行われ、支払い方法の支払いアクションが `Authorize` に設定され、注文が請求された場合にも当てはまります。
+   >特定の [ 支払方法 ](../configuration-reference/sales/payment-methods.md#payment-actions) の [ 支払アクション ](../configuration-reference/sales/payment-methods.md) が `Authorize and Capture` に設定され、請求書が自動生成される場合、_[!UICONTROL Invoice]_&#x200B;オプションは表示されません。 これは、注文が行われ、支払い方法の支払いアクションが `Authorize` に設定され、注文が請求された場合にも当てはまります。
 
    ![ 請求書受注 ](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -125,13 +125,13 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]**/_運営_/**請求書** �
 
 >[!NOTE]
 >
->PDFを表示または印刷するには、PDF リーダーが必要です。 ][1]0}Adobe Reader} は無料でダウンロードできます。[
+>PDFを表示または印刷するには、PDF リーダーが必要です。 &rbrack;[1]0&rbrace;Adobe Reader&rbrace; は無料でダウンロードできます。&lbrack;
 
 ### 単一の請求書を印刷する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Invoices]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Invoices]**&#x200B;に移動します。
 
-1. _[!UICONTROL Invoices]_グリッドで請求書を見つけ、_ Action _列の&#x200B;**[!UICONTROL View]**をクリックします。
+1. _[!UICONTROL Invoices]_&#x200B;グリッドで請求書を見つけ、_ Action _列の&#x200B;**[!UICONTROL View]**&#x200B;をクリックします。
 
 1. 請求書の上部にある [**[!UICONTROL Print]**] をクリックして、請求書のPDFを作成します。
 
@@ -139,9 +139,9 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]**/_運営_/**請求書** �
 
 ### 複数の請求書の印刷
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Invoices]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Invoices]**&#x200B;に移動します。
 
-1. _[!UICONTROL Invoices]_グリッドで、印刷する各請求書のチェックボックスを選択します。
+1. _[!UICONTROL Invoices]_&#x200B;グリッドで、印刷する各請求書のチェックボックスを選択します。
 
 1. **[!UICONTROL Actions]** コントロールを `PDF Invoices` に設定します。
 

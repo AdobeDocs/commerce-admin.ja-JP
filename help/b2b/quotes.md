@@ -99,7 +99,7 @@ ht-degree: 0%
 
 引用符の設定オプションは、[ 役割リソース ](../systems/permissions-user-roles.md#role-resources) を使用して制御します。 これらのロール リソースは、ストア管理者に割り当てられた管理者ユーザーロールに対して設定する必要があります。
 
-管理者で引用機能へのアクセス権を付与するには、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL User Roles]**に移動し、役割を選択して、_ 役割リソース _ツリーの [!UICONTROL Sales]/[!UICONTROL Operations]/[!UICONTROL Quotes] に移動します。
+管理者で引用機能へのアクセス権を付与するには、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL User Roles]**&#x200B;に移動し、役割を選択して、_ 役割リソース _ツリーの [!UICONTROL Sales]/[!UICONTROL Operations]/[!UICONTROL Quotes] に移動します。
 
 ![ 役割と権限の引用 ](./assets/roles-permissions-quotes.png){width="700" zoomable="yes"}
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 1. 拒否するオープン見積依頼をそれぞれ選択します。
 
-1. _[!UICONTROL Actions]_コントロールを `Declined` に設定します。
+1. _[!UICONTROL Actions]_&#x200B;コントロールを `Declined` に設定します。
 
 1. プロンプトが表示されたら、見積が却下された理由を入力し、「**[!UICONTROL Confirm]**」をクリックします。
 

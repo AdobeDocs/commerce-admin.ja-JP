@@ -45,7 +45,7 @@ ht-degree: 0%
 | [!UICONTROL After Adding a Product Redirect to Shopping Cart] | ストア表示 | 商品が買い物かごに追加された直後に [ 買い物かごページ ](../../stores-purchase/cart-configuration.md#redirect-to-cart) が表示されるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Number of Items to Display Pager] | ストア表示 | ポケットベルがトリガーされるまでの、買い物かごの中のアイテム数を決定します。 デフォルト値：`20` |
 | [!UICONTROL Show Cross-sell Items in the Shopping Cart] | ストア表示 | 買い物かごに [ クロスセル品目 ](../../catalog/related-products-up-sells-cross-sells.md#cross-sells) が表示され、顧客に追加の販売オプションを提供するかどうかを示します。 オプション：`Yes` （デフォルト）/`No` |
-| [!UICONTROL Grouped Product Image] | ストア表示 | 買い物かご内の [ グループ化された商品 [ に表示される ](../../catalog/product-create-grouped.md) サムネール ](../../stores-purchase/cart-configuration.md#cart-thumbnails) 画像を決定します。 オプション：`Product Thumbnail Itself` / `Parent Product Thumbnail` |
+| [!UICONTROL Grouped Product Image] | ストア表示 | 買い物かご内の [&#128279;](../../stores-purchase/cart-configuration.md#cart-thumbnails) グループ化された商品 [ に表示される ](../../catalog/product-create-grouped.md) サムネール  画像を決定します。 オプション：`Product Thumbnail Itself` / `Parent Product Thumbnail` |
 | [!UICONTROL Configurable Product Image] | ストア表示 | 買い物かご内の設定可能な商品に対して表示される [ サムネール ](../../stores-purchase/cart-configuration.md#cart-thumbnails) 画像を決定します。 オプション：`Product Thumbnail Itself` / `Parent Product Thumbnail` |
 | [!UICONTROL Preview Quote Lifetime (minutes)] | ストア表示 | 買い物かごからプレビューしたときの見積もりの最大期間（分単位）を決定します。 |
 | [!UICONTROL Enable Clear Shopping Cart] | Web サイト | ユーザーが 1 回の操作で買い物かごの中身をクリアできるオプションを買い物かごに表示するかどうかを決定します。 オプション：`Yes` / `No` |

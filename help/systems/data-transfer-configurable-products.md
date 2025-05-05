@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. サイズや色を追加する場合や、既存の属性に他の変更を加える場合は、必ず新しい値で属性を更新してください。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. リストで属性を見つけ、編集モードで開きます。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
    - **[!UICONTROL Type]** を `Configurable Product` に設定し、「**[!UICONTROL Apply Filters]**」をクリックします。
    - テスト書き出しに使用する設定可能な製品を選択し、**[!UICONTROL SKU]** をメモします。
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Export]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Export]**&#x200B;に移動します。
 
    ![ データ書き出し設定 ](./assets/data-transfer-export-settings.png){width="600" zoomable="yes"}
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Export File Format]** を `CSV` に設定します。
 
-1. _[!UICONTROL Entity Attributes]_の下で、下にスクロールするか、属性ラベルフィルターを使用して&#x200B;**[!UICONTROL SKU]**属性を見つけて、次の操作を行います。
+1. _[!UICONTROL Entity Attributes]_&#x200B;の下で、下にスクロールするか、属性ラベルフィルターを使用して&#x200B;**[!UICONTROL SKU]**&#x200B;属性を見つけて、次の操作を行います。
 
    - 書き出すために選択した設定可能な商品の SKU を入力し、「**[!UICONTROL Continue]**」をクリックします。
 
@@ -150,15 +150,15 @@ ht-degree: 0%
 
 ## 手順 4：更新したデータのインポート
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import]**&#x200B;に移動します。
 
-1. _[!UICONTROL Import Settings]_で、**[!UICONTROL Entity Type]**を `Products` に設定します。
+1. _[!UICONTROL Import Settings]_&#x200B;で、**[!UICONTROL Entity Type]**&#x200B;を `Products` に設定します。
 
-1. _[!UICONTROL Import Behavior]_で、**[!UICONTROL Import Behavior]**を `Add/Update` に設定します。
+1. _[!UICONTROL Import Behavior]_&#x200B;で、**[!UICONTROL Import Behavior]**&#x200B;を `Add/Update` に設定します。
 
    ![ データの読み込み動作 ](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL File to Import]_の下で「**[!UICONTROL Choose File]**」をクリックし、読み込み用に準備した CSV ファイルに移動して、ファイルを選択します。
+1. _[!UICONTROL File to Import]_&#x200B;の下で「**[!UICONTROL Choose File]**」をクリックし、読み込み用に準備した CSV ファイルに移動して、ファイルを選択します。
 
    ![ データインポートファイル ](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 

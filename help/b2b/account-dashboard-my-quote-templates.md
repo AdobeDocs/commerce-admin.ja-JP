@@ -74,7 +74,7 @@ ht-degree: 0%
 
 1. 左側のパネルで、「**[!UICONTROL My Quote Templates]**」を選択します。
 
-1. リストで見積テンプレートを検索し、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL View]**をクリックします。
+1. リストで見積テンプレートを検索し、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL View]**&#x200B;をクリックします。
 
 ## 配送先住所を追加
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 見積テンプレート ページで、[**[!UICONTROL Cancel Quote Template]**] をクリックします。
 
-見積テンプレートが取り消され、見積の状態が `Closed` に変わります。 クローズド引用符は、*[!UICONTROL Inactive]* の引用符のリストに残り、管理者の _[!UICONTROL Quote Templates]_グリッドにも残ります。
+見積テンプレートが取り消され、見積の状態が `Closed` に変わります。 クローズド引用符は、*[!UICONTROL Inactive]* の引用符のリストに残り、管理者の _[!UICONTROL Quote Templates]_&#x200B;グリッドにも残ります。
 
 ## 参照ドキュメントのリンクの管理
 

@@ -59,13 +59,13 @@ ht-degree: 0%
 
 [!UICONTROL Customers grid] の図は、ユーザーが割り当てられている会社ごとに別々の行を示しています。 次の列が更新されます。
 
-- _[!UICONTROL Customer Type]_の列が更新され、ユーザーに割り当てられた役割が表示されます。
+- _[!UICONTROL Customer Type]_&#x200B;の列が更新され、ユーザーに割り当てられた役割が表示されます。
 
-  顧客が会社に初めて割り当てられた場合、_[!UICONTROL Customer Type]_の列が_[!UICONTROL Individual user]_ から _[!UICONTROL Company User]_に更新されます。
+  顧客が会社に初めて割り当てられた場合、_[!UICONTROL Customer Type]_&#x200B;の列が&#x200B;_[!UICONTROL Individual user]_ から _[!UICONTROL Company User]_&#x200B;に更新されます。
 
-- _[!UICONTROL Group]_の列は、会社に割り当てられている顧客グループ（または共有カタログ）の名前に変わります。
+- _[!UICONTROL Group]_&#x200B;の列は、会社に割り当てられている顧客グループ（または共有カタログ）の名前に変わります。
 
-- _[!UICONTROL Company]_の列には、顧客プロファイルが関連付けられた会社の名前が表示されます。
+- _[!UICONTROL Company]_&#x200B;の列には、顧客プロファイルが関連付けられた会社の名前が表示されます。
 
 ## ユーザーを 1 つ以上の会社アカウントに割り当てる
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL All Customers]** に移動します。
 
-1. グリッドで顧客を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
+1. グリッドで顧客を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. 左側のパネルで「**[!UICONTROL Account Information]**」を選択します。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ## ユーザーアカウントから会社の割り当てを削除
 
-ユーザープロファイルから会社を削除すると、その会社へのユーザーアクセスが無効になります。 ユーザーデータは、管理者で引き続きアクセスできます。 すべての会社の割り当てを削除すると、_[!UICONTROL Customer Type]_がアカウントの B2B 機能の無効化&#x200B;*[!UICONTROL Individual user]*に変わります。
+ユーザープロファイルから会社を削除すると、その会社へのユーザーアクセスが無効になります。 ユーザーデータは、管理者で引き続きアクセスできます。 すべての会社の割り当てを削除すると、_[!UICONTROL Customer Type]_&#x200B;がアカウントの B2B 機能の無効化&#x200B;*[!UICONTROL Individual user]*&#x200B;に変わります。
 
 1. 管理者の顧客グリッドで、更新する顧客プロファイルを編集します。
 

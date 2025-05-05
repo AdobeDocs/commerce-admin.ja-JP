@@ -32,7 +32,7 @@ Commerceには、システムから送信される各メッセージの本文セ
 | [!UICONTROL Insert Variable] | テンプレートのカーソル位置に変数を挿入します。 |
 | [!UICONTROL Template Subject] | テンプレートの件名は、「件名」列に表示され、リスト内のテンプレートの並べ替えやフィルタリングに使用できます。 |
 | [!UICONTROL Template Content] | HTML内のテンプレートのコンテンツ。 |
-| [!UICONTROL Template Styles] | テンプレートの書式設定に必要な CSS スタイル宣言は、_[!UICONTROL Template Styles]_のボックスに入力できます。 |
+| [!UICONTROL Template Styles] | テンプレートの書式設定に必要な CSS スタイル宣言は、_[!UICONTROL Template Styles]_&#x200B;のボックスに入力できます。 |
 
 {style="table-layout:auto"}
 
@@ -42,7 +42,7 @@ Commerceには、システムから送信される各メッセージの本文セ
 
 ### 手順 1. デフォルトテンプレートの読み込み
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Email Templates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Email Templates]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add New Template]**」をクリックします。
 
@@ -60,7 +60,7 @@ Commerceには、システムから送信される各メッセージの本文セ
 
 1. テンプレートの整理に役立つ **[!UICONTROL Template Subject]** を入力します。
 
-   グリッドでは、テンプレートのリストを並べ替えたり、_[!UICONTROL Subject]_列でフィルタリングしたりできます。
+   グリッドでは、テンプレートのリストを並べ替えたり、_[!UICONTROL Subject]_&#x200B;列でフィルタリングしたりできます。
 
    ![ メールテンプレートヘッダー情報 ](./assets/email-template-information.png){width="600" zoomable="yes"}
 
@@ -92,9 +92,9 @@ Commerceには、システムから送信される各メッセージの本文セ
 
 ### 手順 3. 設定の更新
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. グリッドで、設定するストア表示を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
+1. グリッドで、設定するストア表示を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. 下にスクロールして、「**[!UICONTROL Transactional Emails]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 
@@ -110,7 +110,7 @@ Commerceには、システムから送信される各メッセージの本文セ
 
 ### 手順 1. デフォルトテンプレートの読み込み
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Email Templates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Email Templates]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add New Template]**」をクリックします。
 
@@ -126,7 +126,7 @@ Commerceには、システムから送信される各メッセージの本文セ
 
 1. テンプレートの整理に役立つ **[!UICONTROL Template Subject]** を入力します。
 
-   グリッドでは、テンプレートを並べ替えたり、_[!UICONTROL Subject]_列でフィルタリングしたりできます。
+   グリッドでは、テンプレートを並べ替えたり、_[!UICONTROL Subject]_&#x200B;列でフィルタリングしたりできます。
 
    ![ メールテンプレートフッター – 情報 ](./assets/email-template-footer-information.png){width="600" zoomable="yes"}
 
@@ -148,9 +148,9 @@ Commerceには、システムから送信される各メッセージの本文セ
 
 ### 手順 3. 設定の更新
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. グリッドで、設定するストア表示を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
+1. グリッドで、設定するストア表示を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. 下にスクロールして、「**[!UICONTROL Transactional Emails]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 
@@ -166,7 +166,7 @@ Commerceには、システムから送信される各メッセージの本文セ
 
 ### 手順 1. デフォルトテンプレートの読み込み
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Email Templates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Email Templates]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add New Template]**」をクリックします。
 
@@ -214,11 +214,11 @@ Commerceには、システムから送信される各メッセージの本文セ
 
    >[!NOTE]
    >
-   >カスタムスタイルは、_[!UICONTROL Template Styles]_に `{{template config_path="design/email/header_template"}}` が存在する場合にのみ、メールに適用されます。 デフォルトのヘッダーテンプレートを使用せずにカスタム CSS を使用するには、`<style>` のHTMLタグ内でカスタム CSS を指定する必要があります。
+   >カスタムスタイルは、_[!UICONTROL Template Styles]_&#x200B;に `{{template config_path="design/email/header_template"}}` が存在する場合にのみ、メールに適用されます。 デフォルトのヘッダーテンプレートを使用せずにカスタム CSS を使用するには、`<style>` のHTMLタグ内でカスタム CSS を指定する必要があります。
 
 ### 手順 3. 設定の更新
 
-_[!UICONTROL Currently Used For]_のパンくずリストに、テンプレートの使用場所が表示されます。 この例では、テンプレートの設定は_[!UICONTROL Customer Configuration]_ ページ上の「_[!UICONTROL Create New Account Options]_」セクションと「_[!UICONTROL Default Welcome Email]_」フィールドにあります。
+_[!UICONTROL Currently Used For]_&#x200B;のパンくずリストに、テンプレートの使用場所が表示されます。 この例では、テンプレートの設定は&#x200B;_[!UICONTROL Customer Configuration]_ ページ上の「_[!UICONTROL Create New Account Options]_」セクションと「_[!UICONTROL Default Welcome Email]_」フィールドにあります。
 
 - ページ - [!UICONTROL Customer Configuration]
 - セクション - [!UICONTROL Create New Account Options]

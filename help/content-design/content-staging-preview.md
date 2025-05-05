@@ -21,12 +21,12 @@ ht-degree: 0%
 
    - _コンテンツのステージングダッシュボードから_
 
-      - _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Content Staging]_/**[!UICONTROL Dashboard]**に移動します。
+      - _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Content Staging]_/**[!UICONTROL Dashboard]**&#x200B;に移動します。
       - ページ上の任意の項目をクリックし、キャンペーンに関して表示された概要情報の **[!UICONTROL Preview]** をクリックします。
 
    - _スケジュールされた変更がある任意のページから_
 
-      - 上部に _[!UICONTROL Scheduled Changes]_ボックスがあるページを開きます。
+      - 上部に _[!UICONTROL Scheduled Changes]_&#x200B;ボックスがあるページを開きます。
       - 「**[!UICONTROL Preview]**」をクリックします。
 
    プレビューが新しいブラウザータブで開き、スケジュールされたキャンペーン中に製品がどのように表示されるかを示します。

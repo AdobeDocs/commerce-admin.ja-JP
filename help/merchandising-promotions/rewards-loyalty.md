@@ -48,7 +48,7 @@ Adobe Commerceの _報酬ポイント_ システムを使用すると、顧客�
 
 ### 手順 1. 報酬ポイントの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Reward Points]**」を選択します。
 
@@ -144,7 +144,7 @@ Adobe Commerceの _報酬ポイント_ システムを使用すると、顧客�
 
 1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL All Customers]** に移動します。
 
-1. グリッドで顧客を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
+1. グリッドで顧客を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. _顧客情報_ の下で、「**[!UICONTROL Reward Points]**」セクションを選択します。
 
@@ -164,7 +164,7 @@ Adobe Commerceの _報酬ポイント_ システムを使用すると、顧客�
 
 1. 「**[!UICONTROL Save Customer]**」をクリックします。
 
-報酬ポイントに関連するすべてのアクションは、ストアフロントの顧客のアカウントの _[!UICONTROL Reward Points History]_ブロックに表示されます。
+報酬ポイントに関連するすべてのアクションは、ストアフロントの顧客のアカウントの _[!UICONTROL Reward Points History]_&#x200B;ブロックに表示されます。
 
 ## フィールドの説明
 

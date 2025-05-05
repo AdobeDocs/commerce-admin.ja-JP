@@ -102,7 +102,7 @@ PayPal の不正管理フィルターを使用すると、不正な取引を検�
 | アクション | 結果 |
 | --- | --- |
 | [!UICONTROL Review] | 疑わしい注文は、注文が行われると、ステータス _支払いレビュー_ を受け取ります。 注文を確認して承認するか、管理者または PayPal 側で支払いをキャンセルすることができます。 **[!UICONTROL Accept Payment]** または **[!UICONTROL Deny Payment]** をクリックすると、注文の新しいトランザクションは作成されません。 <br/><br/>PayPal サイトで取引のステータスを変更する場合は、管理者の注文ページの **[!UICONTROL Get Payment Update]** をクリックして変更を適用する必要があります。 **[!UICONTROL Accept Payment]** または **[!UICONTROL Deny Payment]** をクリックすると、PayPal サイトで行われた変更が適用されます。 |
-| [!UICONTROL Deny] | 対応する取引は PayPal によって拒否されるため、疑わしい注文を顧客が行うことはできません。 <br/><br/> 管理者から支払いを拒否するには、ページの右上隅にある「**[!UICONTROL Deny Payment]**」をクリックします。 注文ステータスが `Canceled` に変わり、トランザクションが取り消され、資金が顧客口座でリリースされます。 対応する情報が注文表示の _[!UICONTROL Comments History]_セクションに追加されます。 |
+| [!UICONTROL Deny] | 対応する取引は PayPal によって拒否されるため、疑わしい注文を顧客が行うことはできません。 <br/><br/> 管理者から支払いを拒否するには、ページの右上隅にある「**[!UICONTROL Deny Payment]**」をクリックします。 注文ステータスが `Canceled` に変わり、トランザクションが取り消され、資金が顧客口座でリリースされます。 対応する情報が注文表示の _[!UICONTROL Comments History]_&#x200B;セクションに追加されます。 |
 | [!UICONTROL Flag] | 注文が行われると、疑わしい注文がステータス `Processing` を取得します。 該当する取引は、商社勘定の取引のリスト内でフラグ付きでマークされます。 |
 
 {style="table-layout:auto"}

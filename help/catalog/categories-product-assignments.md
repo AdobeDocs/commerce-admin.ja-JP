@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->_在庫_ 列には、_**選択したカテゴリ範囲**_ のみの販売可能な製品数量が表示されます。 製品に対して複数の在庫を管理する場合、対応する範囲を切り替えて、他の _在庫_ 列の値を _カテゴリ製品_ グリッドに表示する必要があります。
+>_在庫_ 列には、_&#x200B;**選択したカテゴリ範囲**&#x200B;_ のみの販売可能な製品数量が表示されます。 製品に対して複数の在庫を管理する場合、対応する範囲を切り替えて、他の _在庫_ 列の値を _カテゴリ製品_ グリッドに表示する必要があります。
 
 ## カテゴリルールの適用
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 | オプション | 説明 |
 |--- |--- |
-| [!UICONTROL Attribute] | 条件の基礎として使用する属性を指定します。 オプション：<br/>**[!UICONTROL Clone Category ID(s)]**- カテゴリ ID に基づいて、複数のカテゴリから、並べ替えや順序なしで動的に製品のクローンを作成します。<br/>**[!UICONTROL Color]** – 色に基づいて製品を含めます。 <br/>**[!UICONTROL Date Created (days ago)]**– 製品がカタログに追加されてからの経過日数に基づいて、製品を含めます。<br/>**[!UICONTROL Date Modified (days ago)]** – 製品が最後に変更されてからの経過日数に基づいて、製品を含めます。 <br/>**[!UICONTROL Name]**– 製品名に基づいて製品を含めます。<br/>**[!UICONTROL Price]** – 価格に基づいて製品を含めます。 <br/>**[!UICONTROL Quantity]**– 在庫数に基づいて製品を含めます。<br/>** SKU **- SKU に基づいた製品を含みます。 |
+| [!UICONTROL Attribute] | 条件の基礎として使用する属性を指定します。 オプション：<br/>**[!UICONTROL Clone Category ID(s)]**- カテゴリ ID に基づいて、複数のカテゴリから、並べ替えや順序なしで動的に製品のクローンを作成します。<br/>**[!UICONTROL Color]** – 色に基づいて製品を含めます。 <br/>**[!UICONTROL Date Created (days ago)]**– 製品がカタログに追加されてからの経過日数に基づいて、製品を含めます。<br/>**[!UICONTROL Date Modified (days ago)]** – 製品が最後に変更されてからの経過日数に基づいて、製品を含めます。 <br/>**[!UICONTROL Name]**– 製品名に基づいて製品を含めます。<br/>**[!UICONTROL Price]** – 価格に基づいて製品を含めます。 <br/>**[!UICONTROL Quantity]**– 在庫数に基づいて製品を含めます。<br/>**&#x200B; SKU &#x200B;**- SKU に基づいた製品を含みます。 |
 | [!UICONTROL Operator] | 条件を満たすために属性値に適用する演算子を指定します。 演算子を指定しない限り、`Equal` がデフォルトとして使用されます。 オプション：`Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
 | [!UICONTROL Value] | 属性が条件を満たす必要がある値を指定します。 |
 | [!UICONTROL Logic] | 複数の条件の定義に使用し、別の条件が追加された場合にのみ表示されます。 オプション：`OR` / `AND` |

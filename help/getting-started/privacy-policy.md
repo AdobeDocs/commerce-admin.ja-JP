@@ -34,7 +34,7 @@ ht-degree: 0%
 >
 >Luma サンプルデータには、ユーザーが使用するために変更できるサンプルプライバシーポリシーが含まれています。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
 
 1. グリッドで、**[!UICONTROL Privacy Policy]** を見つけます。 次に、「_[!UICONTROL Action]_」列の「**[!UICONTROL Select]**」をクリックし、「**[!UICONTROL Edit]**」を選択します。
 

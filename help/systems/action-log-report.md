@@ -34,7 +34,7 @@ _アクションログ_ レポートには、ログ記録が有効になって�
 
 ## アクションログレポートの表示
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Actions Logs]_/**[!UICONTROL Report]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Actions Logs]_/**[!UICONTROL Report]**&#x200B;に移動します。
 
    ![ アクションログ ](./assets/action-log-report.png){width="600" zoomable="yes"}
 

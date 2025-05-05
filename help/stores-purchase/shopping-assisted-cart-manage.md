@@ -55,7 +55,7 @@ ht-degree: 0%
    >
    >顧客レコードを急いで見つけるには、[ フィルター ](../getting-started/admin-grid-controls.md) コントロールを使用します。
 
-   _[!UICONTROL Personal Information]_の顧客プロファイルでは、_[!UICONTROL Last Logged In]_ の日時は顧客がオンラインであることを示します。
+   _[!UICONTROL Personal Information]_&#x200B;の顧客プロファイルでは、_[!UICONTROL Last Logged In]_ の日時は顧客がオンラインであることを示します。
 
    ![ オンライン顧客の顧客プロファイル ](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Create Order]**」をクリックします。
 
-   _[!UICONTROL Create New Order]_のページには、カート内の商品が表示され、その後に発送情報と支払い情報が表示されます。
+   _[!UICONTROL Create New Order]_&#x200B;のページには、カート内の商品が表示され、その後に発送情報と支払い情報が表示されます。
 
 1. 配送および支払い情報を入力します。
 

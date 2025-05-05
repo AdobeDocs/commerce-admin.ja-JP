@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 製品アラートの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
@@ -58,13 +58,13 @@ ht-degree: 0%
 
 メールメッセージの使用について詳しくは、『 [ 管理システムガイド _の ](../systems/email-template-custom.md#message-templates) メッセージテンプレート_ を参照してください。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Email Templates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Email Templates]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add New Template]**」をクリックします。
 
 1. _既定のテンプレートの読み込み_ の下で、カスタマイズする **[!UICONTROL Template]** を選択します。
 
-   テーマに含まれるアラートテンプレートを選択することもできます。 または、_[!UICONTROL Magento_PriceAlert]_の下で `Price Alert` または `Stock Alert` のテンプレートを選択できます。
+   テーマに含まれるアラートテンプレートを選択することもできます。 または、_[!UICONTROL Magento_PriceAlert]_&#x200B;の下で `Price Alert` または `Stock Alert` のテンプレートを選択できます。
 
 1. 「**[!UICONTROL Load Template]**」をクリックします。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ![ 製品アラートの実行設定 ](assets/config-catalog-product-alerts-run-settings.png){width="600" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 

@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## [!DNL Page Builder] プレビュー
 
-[!DNL Page Builder] で作成されたコンテンツがある既存の製品の「_[!UICONTROL Content]_」セクションを展開すると、**[!UICONTROL Description]**のコンテンツのプレビューが製品ページと同じように表示されます。 [!DNL Page Builder] ワークスペースを開き、「**[!UICONTROL Edit with Page Builder]**」をクリックして必要な更新を行うことができます。
+[!DNL Page Builder] で作成されたコンテンツがある既存の製品の「_[!UICONTROL Content]_」セクションを展開すると、**[!UICONTROL Description]**&#x200B;のコンテンツのプレビューが製品ページと同じように表示されます。 [!DNL Page Builder] ワークスペースを開き、「**[!UICONTROL Edit with Page Builder]**」をクリックして必要な更新を行うことができます。
 
 ![ 説明プレビュー ](../page-builder/assets/pb-product-category-content-preview.png){width="600" zoomable="yes"}
 

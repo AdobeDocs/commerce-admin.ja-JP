@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ### 役割の複製
 
-1. 役割を複製する場合、会社管理者は _[!UICONTROL Actions]_列の&#x200B;**[!UICONTROL Duplicate]**をクリックします。
+1. 役割を複製する場合、会社管理者は _[!UICONTROL Actions]_&#x200B;列の&#x200B;**[!UICONTROL Duplicate]**&#x200B;をクリックします。
 
 1. 名前と権限の設定に必要な変更を加えます。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
    削除できるのは、ユーザーが割り当てられていない役割のみです。
 
-1. 「_[!UICONTROL Actions]_」列の&#x200B;**[!UICONTROL Delete]**をクリックします。
+1. 「_[!UICONTROL Actions]_」列の&#x200B;**[!UICONTROL Delete]**&#x200B;をクリックします。
 
 1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL OK]**」をクリックします。
 

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 顧客プロファイルの更新
 
-_[!UICONTROL Customer Information]_ページの左側のパネルには、顧客のアクティビティ、住所、注文統計、最近の注文、買い物かごの内容、製品のレビュー、ニュースレターの購読に関する情報が含まれています。
+_[!UICONTROL Customer Information]_&#x200B;ページの左側のパネルには、顧客のアクティビティ、住所、注文統計、最近の注文、買い物かごの内容、製品のレビュー、ニュースレターの購読に関する情報が含まれています。
 
 ![ 顧客プロファイル ](assets/cust-profile.png){width="700" zoomable="yes"}
 

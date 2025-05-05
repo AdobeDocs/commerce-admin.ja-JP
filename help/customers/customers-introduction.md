@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 顧客管理の概要
 
-_[!UICONTROL Customers]_メニューから顧客アカウント管理ツールにアクセスでき、ストア内でオンラインのユーザーを確認できます。
+_[!UICONTROL Customers]_&#x200B;メニューから顧客アカウント管理ツールにアクセスでき、ストア内でオンラインのユーザーを確認できます。
 
 ![ 顧客メニュー ](assets/admin-menu-customers.png){width="300" zoomable="yes"}
 

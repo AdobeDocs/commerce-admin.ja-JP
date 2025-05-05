@@ -47,7 +47,7 @@ ht-degree: 0%
 
 1. ストア管理者に戻ります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Block]**」をクリックします。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
    - [!UICONTROL Page Builder] を使用する場合は、手順に従ってステージに [ ブロックを追加 ](../page-builder/block.md) します。
 
-   - _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**に移動します。
+   - _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックして、次の操作を行います。
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
    - ブロックが他のコンテンツ要素とページ上の同じ場所に表示されるように割り当てられている場合は、**[!UICONTROL Sort Order]** フィールドに数値を入力してブロックの順序を決定します。 一番上の位置はゼロです。
 
-1. [_[!UICONTROL Layout Updates]_] セクションで、[**[!UICONTROL Add Layout Update]**] をクリックし、ブロックを表示するカテゴリ、製品、またはページに&#x200B;**[!UICONTROL Display On]**を設定します。
+1. [_[!UICONTROL Layout Updates]_] セクションで、[**[!UICONTROL Add Layout Update]**] をクリックし、ブロックを表示するカテゴリ、製品、またはページに&#x200B;**[!UICONTROL Display On]**&#x200B;を設定します。
 
    例えば、`All Pages` を選択してヘッダーまたはフッターにブロックを配置すると、そのブロックはストアのすべてのページの同じ場所に表示されます。
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 1. プロンプトが表示されたら、ワークスペースの上部にある手順に従って、インデックスとページキャッシュを更新します。
 
-   ウィジェットが _[!UICONTROL Widgets]_リストに表示されます。
+   ウィジェットが _[!UICONTROL Widgets]_&#x200B;リストに表示されます。
 
 ### 手順 4. ストア内の場所の確認
 
@@ -158,7 +158,7 @@ RSS フィードを読み取るために必要なソフトウェアはフィー�
 
 ### ストアの RSS フィードを設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 右上隅で、フィードを使用できるビューに **[!UICONTROL Store View]** を設定します。
 

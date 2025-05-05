@@ -14,11 +14,11 @@ ht-degree: 0%
 
 以下の手順に従うことで、Commerce インスタンスの基本的な税金設定を行うことができます。 税金を設定する前に、[ ロケール ](store-localize.md#step-3-change-the-locale-of-the-store-view) の税金要件を熟知していることを確認してください。 次に、要件に従って税金設定を完了します。
 
-管理者 [ 権限 ](../systems/permissions.md) は、ビジネス ](../systems/permissions-user-roles.md) 必要な情報 _に基づいて、税金リソースに [ アクセス_ を制限するように設定できます。 税金設定へのアクセス権を持つ管理者ロールを作成するには、「売上/税金」および「システム/税金」リソースの両方を選択します。 デフォルトの出荷元と異なる地域に web サイトを設定する場合は、その役割のシステム/出荷資源へのアクセスも許可する必要があります。 配送設定によって、カタログ価格に使用する店舗の税率が決まります。
+管理者 [ 権限 ](../systems/permissions.md) は、ビジネス [&#128279;](../systems/permissions-user-roles.md) 必要な情報 _に基づいて、税金リソースに  アクセス_ を制限するように設定できます。 税金設定へのアクセス権を持つ管理者ロールを作成するには、「売上/税金」および「システム/税金」リソースの両方を選択します。 デフォルトの出荷元と異なる地域に web サイトを設定する場合は、その役割のシステム/出荷資源へのアクセスも許可する必要があります。 配送設定によって、カタログ価格に使用する店舗の税率が決まります。
 
 ## 一般税金設定の構成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. マルチサイト設定の場合は、**[!UICONTROL Store View]** を web サイトに設定し、設定のターゲットとなるストアを指定します。
 
@@ -209,7 +209,7 @@ ht-degree: 0%
 
 **_クロスボーダー価格の一貫性を有効にするには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. マルチサイト設定の場合は、**[!UICONTROL Store View]** を web サイトに設定し、設定のターゲットとなるストアを指定します。
 

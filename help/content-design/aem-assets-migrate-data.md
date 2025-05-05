@@ -37,7 +37,7 @@ Follow the migration workflow to export media files from Adobe Commerce or anoth
 
 ### 手順 1：既存のデータソースからのコンテンツのエクスポート
 
-Adobe Commerceのマーチャントにとっては、リモートストレージモジュールは、CommerceからメディアファイルをエクスポートしてAEM Assetsにインポートするための合理化された方法を提供します。 AWS S3 などのリモートストレージサービスでメディアファイルを保存および管理できるため、移行プロセスの効率が向上します。 Commerce インスタンスにリモートストレージを設定するには、*Commerce設定ガイド ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage-aws-s3) の [ リモートストレージの設定* を参照してください。
+Adobe Commerceのマーチャントにとっては、リモートストレージモジュールは、CommerceからメディアファイルをエクスポートしてAEM Assetsにインポートするための合理化された方法を提供します。 AWS S3 などのリモートストレージサービスでメディアファイルを保存および管理できるため、移行プロセスの効率が向上します。 Commerce インスタンスにリモートストレージを設定するには、*Commerce設定ガイド [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage-aws-s3) の  リモートストレージの設定* を参照してください。
 
 メディアファイルがAdobe Commerce以外に保存されている場合は、AEM as a Cloud Serviceでサポートされている [ データソース ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/bulk-import-assets-view#prerequisites) の 1 つに直接アップロードします。
 
@@ -99,7 +99,7 @@ assetPath,dc:title{{String}},dam:status{{String}},commerce:positions{{String: mu
    - Information about the MIME types, file size, and other parameters to customize the import configuration (optional)
    - The path to the metadata mapping CSV file you uploaded to the Cloud storage instance.
 
-   手順について詳しくは、*AEM Assets as a Cloud Service ユーザーガイド ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#configure-bulk-ingestor-tool) 一括読み込みツールの設定 [ を参照してください*。
+   手順について詳しくは、*AEM Assets as a Cloud Service ユーザーガイド [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#configure-bulk-ingestor-tool) 一括読み込みツールの設定  を参照してください*。
 
 1. 設定を保存したら、一括読み込みツールを使用して、読み込み操作をテストおよび実行します。
 

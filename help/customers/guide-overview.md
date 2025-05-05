@@ -19,7 +19,7 @@ ht-degree: 0%
 | 件名 | 説明 |
 | ------- | ----------- |
 | [ はじめに ](customers-introduction.md) | Commerce Admin での顧客管理機能の使用の概要です。 |
-| 顧客管理ツール | ストアカスタマーの管理に使用できるCommerce Admin で ](customers-all.md)[[!UICONTROL Customers] grid および [[!UICONTROL Now Online] 機能 ](now-online.md) 使用する方法について説明します。 |
+| 顧客管理ツール | ストアカスタマーの管理に使用できるCommerce Admin で [&#128279;](customers-all.md) [!UICONTROL Customers] grid および [[!UICONTROL Now Online] 機能 ](now-online.md) 使用する方法について説明します。 |
 | 顧客アカウント | [ ログイン ](login-landing-page.md) から [ パスワードリスト ](password-reset.md) まで、ストアフロントで登録されたお客様に最適なエクスペリエンスを提供する方法と、[ 買い物客支援を提供 ](login-as-customer.md) する方法について説明します。 |
 | [Personalization（大規模） ](personalize-scale.md) | 即時のコンテキストと以前に確認した行動に基づいて、すべての顧客タッチポイントのショッピングエクスペリエンスをパーソナライズするために使用できる機能について説明します。 |
 | [[!DNL Audience Activation]](audience-activation.md) | Adobe CommerceでReal-Time CDP オーディエンスをアクティブ化して、買い物かご内の個別のオファー、動的ブロックおよび関連商品を通知できる [!DNL Audience Activation] 拡張機能について説明します。 |

@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
-1. _[!UICONTROL Add Product]_ージの右上隅（![ メニュー矢印 ](../assets/icon-menu-down-arrow-red.png){width="25"}  ） メニューから、「**[!UICONTROL Gift Card]**」を選択します。
+1. _[!UICONTROL Add Product]_&#x200B;ージの右上隅（![ メニュー矢印 ](../assets/icon-menu-down-arrow-red.png){width="25"}  ） メニューから、「**[!UICONTROL Gift Card]**」を選択します。
 
    ![ ギフト カードの追加 ](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
 
@@ -96,9 +96,9 @@ ht-degree: 0%
 
 ### 手順 5: ギフト カード情報を入力する
 
-製品設定の _[!UICONTROL Gift Card Information]_セクションは、カードの管理方法を決定する [ ギフトカード設定 ](../configuration-reference/sales/gift-cards.md) 設定を上書きするために使用できます。
+製品設定の _[!UICONTROL Gift Card Information]_&#x200B;セクションは、カードの管理方法を決定する [ ギフトカード設定 ](../configuration-reference/sales/gift-cards.md) 設定を上書きするために使用できます。
 
-1. _[!UICONTROL Gift Card Information]_セクションまで下にスクロールします。
+1. _[!UICONTROL Gift Card Information]_&#x200B;セクションまで下にスクロールします。
 
    このセクションのデフォルト設定は、システム設定によって決まります。
 

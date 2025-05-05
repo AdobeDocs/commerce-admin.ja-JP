@@ -14,13 +14,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-一括アクション ログは、インポート/エクスポートや、（カスタム価格 [ を [ 共有カタログ ](../b2b/catalog-shared-manage.md#update-custom-pricing) 内の複数の製品に割り当てるなど、バックグラウンドで実行される非同期の一括操作の詳細を記録 ](../b2b/catalog-shared.md) ます。
+一括アクション ログは、インポート/エクスポートや、（カスタム価格 [&#128279;](../b2b/catalog-shared.md) を [ 共有カタログ ](../b2b/catalog-shared-manage.md#update-custom-pricing) 内の複数の製品に割り当てるなど、バックグラウンドで実行される非同期の一括操作の詳細を記録  ます。
 
 ![ 一括アクションログ ](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
 
 ## 一括アクションの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## 一括アクションの表示
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Actions Logs]_/**[!UICONTROL Bulk Actions]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Actions Logs]_/**[!UICONTROL Bulk Actions]**&#x200B;に移動します。
 
 1. ログで目的のアクションを見つけます。
 

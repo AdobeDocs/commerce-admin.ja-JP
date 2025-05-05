@@ -41,7 +41,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >選択した属性が複数選択 _[!UICONTROL Input Type]_でないことを確認します。
+   >選択した属性が複数選択 _[!UICONTROL Input Type]_&#x200B;でないことを確認します。
 
 1. [configuration](smart-attributes-configure.md) を完成させて、ビジュアルマーチャンダイザーで使用する各 _スマート_ 属性を識別します。
 

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 顧客アカウントの管理
 
-_[!UICONTROL Customers]_グリッドを使用して、顧客アカウントを検索します。 標準の [ ワークスペースコントロール ](../getting-started/admin-workspace.md) を使用して、リストのフィルタリング、[ 列のレイアウト ](../getting-started/admin-grid-controls.md) の変更、ビューの保存、データの書き出しを行うことができます。 グリッドの上にある [ アクションコントロール ](../getting-started/admin-actions-control.md) を使用して、複数の顧客レコードに操作を適用できます。
+_[!UICONTROL Customers]_&#x200B;グリッドを使用して、顧客アカウントを検索します。 標準の [ ワークスペースコントロール ](../getting-started/admin-workspace.md) を使用して、リストのフィルタリング、[ 列のレイアウト ](../getting-started/admin-grid-controls.md) の変更、ビューの保存、データの書き出しを行うことができます。 グリッドの上にある [ アクションコントロール ](../getting-started/admin-actions-control.md) を使用して、複数の顧客レコードに操作を適用できます。
 
 ![ すべての顧客 ](assets/customers-all-customers.png){width="700" zoomable="yes"}
 

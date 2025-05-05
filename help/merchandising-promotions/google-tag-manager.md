@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 手順 1. [!DNL Google Analytics] アカウントの設定
 
-開始するために必要な基本については、Google ヘルプの [ サイト検索の設定 ](https://support.google.com/analytics/answer/1012264) を参照してください。 [Google Analytics](https://support.google.com/analytics/answer/9304153) および [Google Tag Manager} のGoogle ガイドも参照してくだ ](https://support.google.com/tagmanager/answer/6102821) い。
+開始するために必要な基本については、Google ヘルプの [ サイト検索の設定 ](https://support.google.com/analytics/answer/1012264) を参照してください。 [Google Analytics](https://support.google.com/analytics/answer/9304153) および [Google Tag Manager&rbrace; のGoogle ガイドも参照してくだ ](https://support.google.com/tagmanager/answer/6102821) い。
 
 1. [!DNL Google Analytics] アカウントにログインします。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    - 「**[!UICONTROL Property Settings]**」を選択します。
 
-   - _[!UICONTROL Advertising Features]_で、**[!UICONTROL Enable Demographics and Interest Reports]**を `On` に設定します。
+   - _[!UICONTROL Advertising Features]_&#x200B;で、**[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;を `On` に設定します。
 
    - 設定を **[!UICONTROL Save]** 定します。
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 1. Commerce ストアの管理者にログインします。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Google API]**」を選択します。
 
@@ -189,7 +189,7 @@ Google AdWords アカウントをお持ちの場合は、コンバージョン�
 
 1. [**[!UICONTROL Fire On]**] で、[**[!UICONTROL Some Pages]**] をクリックします。
 
-1. _[!UICONTROL Choose Pages]_セクションで、次の設定を行います。
+1. _[!UICONTROL Choose Pages]_&#x200B;セクションで、次の設定を行います。
 
    - **[!UICONTROL Name]** - ページの説明の名前を入力します。
 
@@ -239,7 +239,7 @@ CSP Nonce 変数は、サンプルコンテナ [GTM_M2_Config_json.txt](./assets
 1. ページの下部にある「**ユーザー定義変数**」セクションの **新規** ボタンをクリックします。
 1. 変数に `gtmNonce` という名前を付けます。
 1. 変数を編集するには、鉛筆アイコンをクリックします。
-1. 「**ページ変数**」セクションから **0}JavaScript変数」を選択します。**
+1. 「**ページ変数**」セクションから **0&rbrace;JavaScript変数」を選択します。**
 1. 「**グローバル変数名**」フィールドに「`window.cspNonce`」と入力します。
 1. 変数を保存します。
 

@@ -30,7 +30,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Minimum Amount] | Web サイト | 顧客が見積依頼を送信する前に必要となる、割引の後の買い物かごの小計の最小金額。 デフォルト値：`0` |
 | [!UICONTROL Minimum Amount Message] | ストア表示 | 顧客が見積依頼を送信しようとしたが、最低限必要な金額を満たしていない場合に、買い物かごに表示されるメッセージ。 |
-| [!UICONTROL Default Expiration Period] | Web サイト | 見積もり依頼が送信された日付からの期間として ](../../b2b/quote-price-negotiation.md) 見積もり [ の既定の有効期間を決定します。 オプション：`Days`/`Weeks`/`Months` |
+| [!UICONTROL Default Expiration Period] | Web サイト | 見積もり依頼が送信された日付からの期間として [&#128279;](../../b2b/quote-price-negotiation.md) 見積もり  の既定の有効期間を決定します。 オプション：`Days`/`Weeks`/`Months` |
 
 {style="table-layout:auto"}
 

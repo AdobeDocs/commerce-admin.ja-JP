@@ -35,14 +35,14 @@ ht-degree: 1%
    + [カテゴリの概要](categories.md)
    + [ルートのカテゴリと階層](category-root.md)
    + [非表示のカテゴリ](category-hidden.md)
-   + のカテゴリの作成 {#create} 更新
+   + のカテゴリの作成 更新 {#create}
       + [カテゴリの作成](category-create.md)
       + [コンテンツ設定](categories-content-settings.md)
       + [ディスプレイ設定](categories-display-settings.md)
       + [検索エンジン最適化設定](categories-search-engine-optimization.md)
       + [デザイン設定](categories-custom-design.md)
       + [カテゴリの変更](category-modify.md)
-   + カテゴリ {#products-in-category} の製品
+   + カテゴリ の製品 {#products-in-category}
       + [製品の割り当て](categories-product-assignments.md)
       + [カテゴリ製品の並べ替え](category-products-sort.md)
       + [カテゴリ製品の追加と削除](category-products-add.md)
@@ -68,7 +68,7 @@ ht-degree: 1%
       + 製品 3D モデルの管理 {#product-3d-model}
          + [AR ビューアの概要](ar-viewer-overview.md)
          + [AR ビューアの設定](ar-viewer-setup.md)
-   + 価格 {#pricing} の管理
+   + 価格 の管理 {#pricing}
       + [価格範囲](catalog-price-scope.md)
       + [高度な価格設定](pricing-advanced.md)
       + [グループの価格](product-price-group.md)
@@ -95,7 +95,7 @@ ht-degree: 1%
    + [属性入力タイプ](attributes-input-types.md)
    + [製品への属性の追加](product-attributes-add.md)
    + [製品スウォッチ](swatches.md)
-   + の属性の作成 {#create} 更新
+   + の属性の作成 更新 {#create}
       + [属性の作成および削除](attribute-product-create.md)
       + [一括更新](bulk-product-attribute-update.md)
       + [属性セット](attribute-sets.md)

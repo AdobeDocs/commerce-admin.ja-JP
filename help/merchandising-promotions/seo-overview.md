@@ -64,7 +64,7 @@ Commerceで生成される robots.txt ファイルには、システムで内部
 
 ### `robots.txt` の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. グリッドの最初の行で **[!UICONTROL Global]** 設定を見つけ、「**[!UICONTROL Edit]**」をクリックします。
 

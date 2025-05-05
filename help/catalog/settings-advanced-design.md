@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 製品設定 – [!UICONTROL Design]
 
-_[!UICONTROL Design]_の設定を使用すると、製品ページに異なるテーマを適用したり、列のレイアウトを変更したり、製品オプションの表示場所を決定したり、カスタム XML コードを入力したりできます。
+_[!UICONTROL Design]_&#x200B;の設定を使用すると、製品ページに異なるテーマを適用したり、列のレイアウトを変更したり、製品オプションの表示場所を決定したり、カスタム XML コードを入力したりできます。
 
 ![ デザイン ](./assets/product-design-ee.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->同じ製品が、カテゴリごとに異なるデザイン設定を持つ複数のカテゴリに割り当てられている場合、[ 検索エンジン最適化設定オプション [] で **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` を設定することをお勧め ](../configuration-reference/catalog/catalog.md#search-engine-optimization) ます。 この設定にアクセスするには、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動し、「**[!UICONTROL Catalog]**」を展開して左パネルの下にある「**[!UICONTROL Catalog]**」を選択し、ページの「**[!UICONTROL Search Engine Optimization]**」セクションを展開します。
+>同じ製品が、カテゴリごとに異なるデザイン設定を持つ複数のカテゴリに割り当てられている場合、[ 検索エンジン最適化設定オプション [] で **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` を設定することをお勧め ](../configuration-reference/catalog/catalog.md#search-engine-optimization) ます。 この設定にアクセスするには、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動し、「**[!UICONTROL Catalog]**」を展開して左パネルの下にある「**[!UICONTROL Catalog]**」を選択し、ページの「**[!UICONTROL Search Engine Optimization]**」セクションを展開します。
 
 | フィールド | [ 範囲 ](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |---|---|----|

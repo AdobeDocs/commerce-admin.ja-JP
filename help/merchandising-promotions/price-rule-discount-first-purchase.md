@@ -67,7 +67,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-顧客セグメントが作成され、_[!UICONTROL Customer Segments]_グリッドに表示されます。
+顧客セグメントが作成され、_[!UICONTROL Customer Segments]_&#x200B;グリッドに表示されます。
 
 >[!TIP]
 >
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 ## 手順 2. 買い物かご価格ルールの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Cart Price Rule]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Cart Price Rule]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Rule]**」をクリックします。
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 方法 1:[!DNL Live Search] を使用したAdobe Commerce
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 >
 >OpenSearch およびElasticsearchでは、サフィックスによる検索は標準ではサポートされていません。 例えば、キーワードに SKU の最後の部分のみが含まれている場合、SKU で検索しても期待した結果が返されない場合があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    ![ 検索エンジンの設定 ](../configuration-reference/catalog/assets/catalog-search-opensearch.png){zoomable="yes"}
 
-   これらのオプションについて詳しくは、{Configuration Reference _の [ ネイティブ検索のAdobe Commerce](../configuration-reference/catalog/catalog.md#adobe-commerce-with-native-search) を参照し_ ください。
+   これらのオプションについて詳しくは、&lbrace;Configuration Reference _の [ ネイティブ検索のAdobe Commerce](../configuration-reference/catalog/catalog.md#adobe-commerce-with-native-search) を参照し_ ください。
 
 1. 検索クエリテキストの長さと単語数を制限するには、**[!UICONTROL Minimal Query Length]** と **[!UICONTROL Maximum Query Length]** の値を設定します。
 

@@ -62,7 +62,7 @@ ht-degree: 0%
 
 {{gtag-api-note}}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 特定のストア表示用にGoogle AdWords を設定する場合は、次の操作を行います。
 
@@ -125,7 +125,7 @@ ht-degree: 0%
    - `Dynamic` – 動的な注文金額の値に基づいてコンバージョンが発生したことを判断します。
    - `Constant` – 入力された特定の値に基づいてコンバージョンが発生したことを判別します。
 
-   _定数_ のコンバージョン値の種類には、コンバージョンと見なされる _[!UICONTROL Order Amount]_の特定の&#x200B;**[!UICONTROL Value]**を入力します。
+   _定数_ のコンバージョン値の種類には、コンバージョンと見なされる _[!UICONTROL Order Amount]_&#x200B;の特定の&#x200B;**[!UICONTROL Value]**&#x200B;を入力します。
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 

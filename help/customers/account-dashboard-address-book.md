@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 顧客アカウントの左側のナビゲーションでは、顧客が **[!UICONTROL Address Book]** を選択しています。
 
-1. _[!UICONTROL Address Book]_ページの_ その他のアドレス エントリ _で、**[!UICONTROL Add New Address]**をクリックします。
+1. _[!UICONTROL Address Book]_&#x200B;ページの_ その他のアドレス エントリ _で、**[!UICONTROL Add New Address]**&#x200B;をクリックします。
 
    ![ 新しいアドレスを追加 ](assets/add-new-address.png){width="600" zoomable="yes"}
 
@@ -69,9 +69,9 @@ ht-degree: 0%
 
 1. 次のいずれかの編集方法を選択します。
 
-   * 「_[!UICONTROL Default Addresses]_」セクションの&#x200B;**[!UICONTROL Change Billing/Shipping Address]**をクリックします。
+   * 「_[!UICONTROL Default Addresses]_」セクションの&#x200B;**[!UICONTROL Change Billing/Shipping Address]**&#x200B;をクリックします。
 
-   * _[!UICONTROL Additional Address Entries]_グリッドの&#x200B;**[!UICONTROL Edit]**をクリックします。
+   * _[!UICONTROL Additional Address Entries]_&#x200B;グリッドの&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. 必要な変更を行い、**[!UICONTROL Save Address]** をクリックします。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 削除するアドレス エントリを検索します。
 
-1. _[!UICONTROL Additional Address Entries]_グリッドの&#x200B;**[!UICONTROL Delete]**をクリックします。
+1. _[!UICONTROL Additional Address Entries]_&#x200B;グリッドの&#x200B;**[!UICONTROL Delete]**&#x200B;をクリックします。
 
 1. アクションを確定するには、「**[!UICONTROL OK]**」をクリックします。
 

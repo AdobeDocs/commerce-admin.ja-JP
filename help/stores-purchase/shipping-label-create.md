@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. [ ストア情報 ](../getting-started/store-details.md#store-information) が完成していることを確認します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Shipping Settings]**」を選択します。
 
@@ -124,7 +124,7 @@ DHL は国際配送サービスを提供しています。
 
 1. パッケージ内の製品を追加または更新：
 
-   - 受注からパッケージに製品を追加するには、「**[!UICONTROL Add Products]**」をクリックします。 _[!UICONTROL Quantity]_の列には、パッケージで使用できる製品の最大数が表示されます。
+   - 受注からパッケージに製品を追加するには、「**[!UICONTROL Add Products]**」をクリックします。 _[!UICONTROL Quantity]_&#x200B;の列には、パッケージで使用できる製品の最大数が表示されます。
 
    - パッケージに追加する各製品のチェックボックスを選択し、それぞれの **[!UICONTROL Quantity]** を入力します。 次に、「**[!UICONTROL Add Selected Product(s) to Package]**」をクリックします。
 
@@ -144,7 +144,7 @@ DHL は国際配送サービスを提供しています。
 
 ### 方法 2：既存の出荷のラベルの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**&#x200B;に移動します。
 
 1. グリッドで注文を見つけて、配送フォームを開きます。
 
@@ -215,7 +215,7 @@ DHL は国際配送サービスを提供しています。
 
    - 製品と数量を指定します。
 
-     _[!UICONTROL Qty]_の列には、追加できる最大数量が表示されます。 1 つ目のパッケージの場合、この数値は出荷される製品の合計数量です。
+     _[!UICONTROL Qty]_&#x200B;の列には、追加できる最大数量が表示されます。 1 つ目のパッケージの場合、この数値は出荷される製品の合計数量です。
 
    - 製品をパッケージに追加するには、[**[!UICONTROL Add Selected Product(s) to Package]**] をクリックします。
 

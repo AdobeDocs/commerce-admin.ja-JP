@@ -60,7 +60,7 @@ Commerceの製品レビュー機能は、デフォルトで有効になってい
 >
 >これらのフィールドをCommerceの商品レビューに対して `No` 効または無効にするには、「システム値を使用 **チェックボックスをオフ** する必要があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下にある「**[!UICONTROL Catalog]**」を選択します。
 
@@ -84,13 +84,13 @@ Commerce商品レビューを使用すると、お客様は商品レビューを
 
 ![ ストアフロントの例 – カスタム評価 ](./assets/attribute-custom-ratings-review.png){width="700" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Rating]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Rating]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Rating]**」をクリックします。
 
    ![ 管理者 – 評価 ](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. [_[!UICONTROL Rating Title]_] セクションで、新しい評価の&#x200B;**[!UICONTROL Default Value]**を入力します。
+1. [_[!UICONTROL Rating Title]_] セクションで、新しい評価の&#x200B;**[!UICONTROL Default Value]**&#x200B;を入力します。
 
    該当する場合は、各ストア表示の翻訳も入力します。
 

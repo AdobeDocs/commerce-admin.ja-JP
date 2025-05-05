@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## ニュースレターテンプレートの作成
 
-1. 管理者サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Newsletter Template]**に移動します。
+1. 管理者サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Newsletter Template]**&#x200B;に移動します。
 
 1. テンプレートを追加するには、「**[!UICONTROL Add New Template]**」をクリックします。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ## ニュースレターテンプレートの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Newsletter Template]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Newsletter Template]**&#x200B;に移動します。
 
 1. 削除するニュースレターテンプレートを見つけ、編集モードで開きます。
 

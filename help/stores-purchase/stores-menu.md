@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # [!UICONTROL Stores] メニュー
 
-_[!UICONTROL Stores]_メニューを使用すると、使用頻度は低いものの、Adobe CommerceやMagento Open Sourceのインストール全体で参照される設定にアクセスできます。 これらの機能には、店舗階層の設定、構成、販売および受注設定、税金および通貨、製品属性、製品レビュー評価および顧客グループが含まれます。
+_[!UICONTROL Stores]_&#x200B;メニューを使用すると、使用頻度は低いものの、Adobe CommerceやMagento Open Sourceのインストール全体で参照される設定にアクセスできます。 これらの機能には、店舗階層の設定、構成、販売および受注設定、税金および通貨、製品属性、製品レビュー評価および顧客グループが含まれます。
 
 ![ 管理者 – ストアメニュー ](./assets/stores-menu.png){width="500" zoomable="yes"}
 

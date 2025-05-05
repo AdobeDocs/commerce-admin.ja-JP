@@ -43,7 +43,7 @@ Sales Channelは、在庫を販売するエンティティを表します。 デ
 
 | ボタン | 説明 |
 |--|--|
-| [!UICONTROL Add New Stock] | 在庫を販売チャネルにマッピングするための新しい在庫在庫を入力するために使用する _[!UICONTROL New Stock]_フォームを開きます。 |
+| [!UICONTROL Add New Stock] | 在庫を販売チャネルにマッピングするための新しい在庫在庫を入力するために使用する _[!UICONTROL New Stock]_&#x200B;フォームを開きます。 |
 
 ## 在庫列の説明の管理
 

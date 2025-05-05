@@ -18,20 +18,20 @@ ht-degree: 0%
 
 ![ 顧客セグメントリスト ](assets/customer-segments.png){width="700" zoomable="yes"}
 
-_**[!UICONTROL Customer Segments]グリッド&#x200B;**_
+_&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 
 | 列 | 説明 |
 |--- |--- |
 | **[!UICONTROL ID]** | 顧客セグメントの一意の ID。 |
 | **[!UICONTROL Segment]** | 顧客セグメントの名前。 |
-| **[!UICONTROL Status]** | 顧客セグメントが _[!UICONTROL Active]_か_[!UICONTROL Inactive]_ かを示します。 |
+| **[!UICONTROL Status]** | 顧客セグメントが _[!UICONTROL Active]_&#x200B;か_[!UICONTROL Inactive]_ かを示します。 |
 | **[!UICONTROL Website]** | 顧客セグメントが属する web サイトを示します。 |
 
 {style="table-layout:auto"}
 
 ## 前提条件：顧客セグメントを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Customer Configuration]**」を選択します。
 
@@ -82,7 +82,7 @@ _**[!UICONTROL Customer Segments]グリッド&#x200B;**_
 
 1. 「**[!UICONTROL Save and Continue Edit]**」をクリックします。
 
-   セグメント _[!UICONTROL General Properties]_を保存すると、左パネルで追加のオプションが使用できるようになります。
+   セグメント _[!UICONTROL General Properties]_&#x200B;を保存すると、左パネルで追加のオプションが使用できるようになります。
 
    ![ セグメントのプロパティ ](assets/customer-segment-saved.png){width="600" zoomable="yes"}
 
@@ -107,7 +107,7 @@ _**[!UICONTROL Customer Segments]グリッド&#x200B;**_
 
 1. 左側のウィンドウで、[**[!UICONTROL Conditions]**] をクリックします。
 
-   デフォルトの条件はページの _[!UICONTROL If ALL of these conditions are TRUE:]_で始まります。
+   デフォルトの条件はページの _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;で始まります。
 
    ![ 条件 ](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -153,7 +153,7 @@ _**[!UICONTROL Customer Segments]グリッド&#x200B;**_
 
 1. 顧客セグメントを使用して、プロモーション、コンテンツ、メールのターゲティングを行えるようになりました。
 
-_**[!UICONTROL Matched Customers]グリッド&#x200B;**_
+_&#x200B;**[!UICONTROL Matched Customers]グリッド&#x200B;**&#x200B;_
 
 | 列 | 説明 |
 |--- |--- |
@@ -183,7 +183,7 @@ _**[!UICONTROL Matched Customers]グリッド&#x200B;**_
 
 | ボタン | 説明 |
 |--- |--- |
-| **[!UICONTROL Back]** | 変更を保存せずに _[!UICONTROL Customer Segments]_ページに戻ります。 |
+| **[!UICONTROL Back]** | 変更を保存せずに _[!UICONTROL Customer Segments]_&#x200B;ページに戻ります。 |
 | **[!UICONTROL Delete]** | 現在の顧客セグメントを削除します。 セグメント内の顧客に関連付けられている顧客または完了済み注文は削除されません。 |
 | **[!UICONTROL Reset]** | 顧客セグメントフォーム内の未保存の変更を以前の値にリセットします。 |
 | **[!UICONTROL Refresh Segment Data]** | セグメントデータを最近保存した値に更新します。 使用できないセグメントデータや古いセグメントデータがある場合に関連します。 |

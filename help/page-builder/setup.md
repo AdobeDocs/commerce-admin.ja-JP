@@ -28,9 +28,9 @@ ht-degree: 0%
 
 ## [!DNL Page Builder] の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
 
 1. ![ 拡張セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** を展開し、**[!UICONTROL Enable Page Builder]** が `Yes` に設定されていることを確認します。
 
@@ -60,9 +60,9 @@ ht-degree: 0%
 
 ## デフォルトのレイアウトを設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
 
 1. ![ 拡張セレクター ](../assets/icon-display-expand.png) を展開し **[!UICONTROL Default Layouts]** 以下を実行します。
 
@@ -84,9 +84,9 @@ ht-degree: 0%
 >
 >[!DNL Page Builder] を無効にすると、詳細コンテンツツールが WYSIWYG [editor](../content-design/editor.md) に置き換わり、ストアフロントに表示エラーが発生する場合があります。 以前に [!DNL Page Builder] で作成したコンテンツは、管理者からは編集できない場合があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
 
 1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** を展開し、「**[!UICONTROL Enable Page Builder]**」を `No` に設定します。
 

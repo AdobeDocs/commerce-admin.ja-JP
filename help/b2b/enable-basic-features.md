@@ -41,11 +41,11 @@ B2B の [[!DNL Quick Order]](quick-order.md) 機能と [[!DNL Requisition List]]
 
 Adobe Commerce B2B 機能を設定するオプションは、[Adobe Commerce B2B 拡張機能がインストールされているCommerce プロジェクトでのみ使用でき ](install.md) す。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
    マルチサイトインストールを使用している場合は、左上隅の **[!UICONTROL Store View]** コントロールを設定が適用される Web サイトに設定します。
 
-1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL B2B Features]**」を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL B2B Features]**」を選択します。
 
    ![B2B 設定 – 一般 ](./assets/b2b-features.png){width="600"}
 
@@ -103,7 +103,7 @@ Adobe Commerce B2B 機能を設定するオプションは、[Adobe Commerce B2B
 
 会社の主要連絡先として割り当てられた [ 営業担当者 ](account-company-manage.md#assign-a-sales-representative) は、デフォルトで、会社に送信される多くの自動メールメッセージの送信者として設定されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Company Configuration]**」を選択します。
 
@@ -190,7 +190,7 @@ Adobe Commerce B2B 機能を設定するオプションは、[Adobe Commerce B2B
 
 注文処理と発注書を追跡する機能により、会社管理者は会社の購入者の行動を制御できます。 注文承認機能は、店舗管理者が発注機能を有効にした場合に使用できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL General]**」を展開し、「**[!UICONTROL B2B Features]**」を選択します。
 
@@ -232,7 +232,7 @@ Adobe Commerce B2B 機能を設定するオプションは、[Adobe Commerce B2B
 
 ストアでアカウント内支払いを有効にするには：
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Payment Methods]**」を選択します。
 
@@ -255,7 +255,7 @@ Adobe Commerce B2B 機能を設定するオプションは、[Adobe Commerce B2B
 1. **[!UICONTROL Payment from Applicable Countries]** を次のいずれかに設定します。
 
    - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、それぞれのオプションをクリックします。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、それぞれのオプションをクリックします。
 
 1. この支払い方法の対象として必要な注文金額に **[!UICONTROL Minimum Order Total]** および **[!UICONTROL Maximum Order Total]** を設定します。
 

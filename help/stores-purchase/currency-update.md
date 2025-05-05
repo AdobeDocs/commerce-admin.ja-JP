@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 通貨レートの手動更新
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Currency]_/**[!UICONTROL Currency Rates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Currency]_/**[!UICONTROL Currency Rates]**&#x200B;に移動します。
 
 1. 変更するレートをクリックし、サポートされる各通貨に新しい値を入力します。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 通貨レートのインポート
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Currency]_/**[!UICONTROL Currency Rates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Currency]_/**[!UICONTROL Currency Rates]**&#x200B;に移動します。
 
 1. 通貨レートプロバイダーに **[!UICONTROL Import Service]** を設定します。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Import]**」をクリックします。
 
-   更新されたレートが _[!UICONTROL Currency Rates]_のリストに表示されます。 前回の更新以降にレートが変更されている場合は、参照用に古いレートが以下に表示されます。
+   更新されたレートが _[!UICONTROL Currency Rates]_&#x200B;のリストに表示されます。 前回の更新以降にレートが変更されている場合は、参照用に古いレートが以下に表示されます。
 
 1. 完了したら、「**[!UICONTROL Save Currency Rates]**」をクリックします。
 
@@ -54,6 +54,6 @@ ht-degree: 0%
 
 1. インポートの接続とスケジュールを承認および確立する通貨を指定するには、[ 通貨レートの設定 ](currency-configuration.md) を完了します。
 
-1. レートがスケジュールどおりにインポートされていることを確認するには、_[!UICONTROL Currency Rates]_のリストを確認します。
+1. レートがスケジュールどおりにインポートされていることを確認するには、_[!UICONTROL Currency Rates]_&#x200B;のリストを確認します。
 
 1. スケジュールに設定された頻度設定の期間が経過するのを待って、もう一度レートを確認します。

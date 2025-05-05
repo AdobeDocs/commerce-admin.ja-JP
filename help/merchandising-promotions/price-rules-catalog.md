@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## カタログ価格ルールへのアクセス
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Catalog Price Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Catalog Price Rules]**&#x200B;に移動します。
 
    ![ カタログ価格ルール ](./assets/price-rule-catalog.png){width="700" zoomable="yes"}
 

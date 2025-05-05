@@ -26,7 +26,7 @@ _ビデオ_ コンテンツタイプを使用して、[YouTube][1] または [Vi
 |--- |--- |--- |
 | 移動 | ![ 移動アイコン ](./assets/pb-icon-move.png){width="25"} | ビデオをステージ上の別の位置に移動します。 |
 | （ラベル） | [!UICONTROL Video] | 現在のコンテンツコンテナをビデオとして識別します。 画像コンテナにカーソルを合わせると、ツールボックスが表示されます。 |
-| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | _[!UICONTROL Edit Video]_ページが開き、ビデオとコンテナのプロパティを変更できます。 |
+| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | _[!UICONTROL Edit Video]_&#x200B;ページが開き、ビデオとコンテナのプロパティを変更できます。 |
 | Hide | ![ アイコンを非表示 ](./assets/pb-icon-hide.png){width="25"} | 現在のビデオを非表示にします。 |
 | 表示 | ![ アイコンを表示 ](./assets/pb-icon-show.png){width="25"} | 非表示のビデオを表示します。 |
 | 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | ビデオをコピーします。 |

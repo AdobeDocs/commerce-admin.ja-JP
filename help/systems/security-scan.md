@@ -22,7 +22,7 @@ ht-degree: 0%
 - サイトの進行状況を追跡および監視する履歴セキュリティレポートにアクセスします。
 - 成功したチェックと失敗したチェックを表示するスキャン レポートにアクセスします。推奨されるアクションも表示されます。
 
-セキュリティスキャンツールは、[Commerce/Magentoアカウント ](../getting-started/commerce-account-create.md) のダッシュボードから無料で利用できます。 技術情報については、『 [2}Cloud Infrastructure ガイドのCommerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) セキュリティスキャンツールの設定 _を参照してください。_
+セキュリティスキャンツールは、[Commerce/Magentoアカウント ](../getting-started/commerce-account-create.md) のダッシュボードから無料で利用できます。 技術情報については、『 [2&rbrace;Cloud Infrastructure ガイドのCommerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) セキュリティスキャンツールの設定 _を参照してください。_
 
 ![ セキュリティスキャンツール ](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
    - **[!UICONTROL Terms and Conditions]** を読んでください。
    - 「**[!UICONTROL Agree]**」をクリックして続行します。
 
-1. _[!UICONTROL Monitored Websites]_ページで「**[!UICONTROL +Add Site]**」をクリックします。
+1. _[!UICONTROL Monitored Websites]_&#x200B;ページで「**[!UICONTROL +Add Site]**」をクリックします。
 
    異なるドメインを持つ複数のサイトがある場合は、ドメインごとに個別のスキャンを設定します。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
    - 完全な管理者権限を持つユーザーとしてストアの管理者にログインし、次の手順を実行します。
 
-      - _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
+      - _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
       - リストでサイトを見つけて、「**[!UICONTROL Edit]**」をクリックします。
       - 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL HTML Head]**」セクションを展開します。
       - **[!UICONTROL Scripts and Style Sheets]** までスクロールし、既存のコードの末尾にあるテキストボックスをクリックして、確認コードをテキストボックスに貼り付けます。
@@ -104,7 +104,7 @@ ht-degree: 0%
 
         ビルドプロセスが完了すると、変更内容がPWAストアフロントにデプロイされます。
 
-1. Commerce アカウントの _[!UICONTROL Security Scan]_ページに戻り、「**[!UICONTROL Verify Confirmation Code]**」をクリックしてドメインの所有権を確立します。
+1. Commerce アカウントの _[!UICONTROL Security Scan]_&#x200B;ページに戻り、「**[!UICONTROL Verify Confirmation Code]**」をクリックしてドメインの所有権を確立します。
 
 1. 確認が正常に完了したら、次のいずれかのタイプで **[!UICONTROL Set Automatic Security Scan]** のオプションを設定します。
 

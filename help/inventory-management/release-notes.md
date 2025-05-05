@@ -126,7 +126,7 @@ Inventory management 1.2.4 （モジュールバージョン：`magento/inventor
 
 ![ 修正された問題 ](../assets/fix.svg)10,000 項目を超える在庫在庫の管理が改善されました。 以前は、パフォーマンスの問題により、マーチャントが web サイトを起動する前に管理者で在庫を編集できないことがありました。<!--- MC-42643-->
 
-![ 修正された問題 ](../assets/fix.svg) 管理者の **[!UICONTROL User Roles]** ページが更新され、管理者に配信方法設定への制限付きアクセス権が提供されるようになりました。 _発送方法_ セクションの名前は _[!UICONTROL Delivery methods]_に変更され、_[!UICONTROL In-Store Pickup]_ は _[!UICONTROL Delivery methods]_セクションの下に移動します。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![ 修正された問題 ](../assets/fix.svg) 管理者の **[!UICONTROL User Roles]** ページが更新され、管理者に配信方法設定への制限付きアクセス権が提供されるようになりました。 _発送方法_ セクションの名前は _[!UICONTROL Delivery methods]_&#x200B;に変更され、_[!UICONTROL In-Store Pickup]_ は _[!UICONTROL Delivery methods]_&#x200B;セクションの下に移動します。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![ 修正された問題 ](../assets/fix.svg) クレジットメモが API で更新された後、Adobe Commerceで重複した製品予約が作成されなくなりました。<!--- MC-41757-->
 
@@ -178,7 +178,7 @@ Inventory management 1.2.4 （モジュールバージョン：`magento/inventor
 
 ![ 問題を修正 ](../assets/fix.svg) ソース割り当て、スケーラブルな環境のサポート、および PHP 7.4、MySQL 8、PHPUNIT 9 との互換性に関する問題を解決するための多数の修正。
 
-![ 新規 ](../assets/new.svg) ストア **配信方法。** チェックアウト時に集荷場所として使用するソースをユーザーが選択できるオプションを追加しました。 _販売および購入エクスペリエンスガイド ](../stores-purchase/shipping-in-store-delivery.md) の [ 店舗での配信_ を参照してください。
+![ 新規 ](../assets/new.svg) ストア **配信方法。** チェックアウト時に集荷場所として使用するソースをユーザーが選択できるオプションを追加しました。 _販売および購入エクスペリエンスガイド [&#128279;](../stores-purchase/shipping-in-store-delivery.md) の  店舗での配信_ を参照してください。
 
 ![ 新規 ](../assets/new.svg) マルチソースモード用 **バンドル製品のサポート。** Inventory では、複数のソースを持つすべての製品タイプがサポートされます。
 

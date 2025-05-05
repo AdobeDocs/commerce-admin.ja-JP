@@ -28,7 +28,7 @@ ht-degree: 0%
 
 メールのリマインダールールは、分、時間、または日ごとに定期的に送信できます。 この設定によって、1 つのバッチで送信されるメールの数と、メッセージの送信者として表示されるストア ID が決定されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Promotions]**」を選択します。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
       - `Hourly`
       - `Daily`
 
-   - _[!UICONTROL Frequency]_の設定に基づいて、適切な&#x200B;**[!UICONTROL Interval]**を設定します。
+   - _[!UICONTROL Frequency]_&#x200B;の設定に基づいて、適切な&#x200B;**[!UICONTROL Interval]**&#x200B;を設定します。
 
    - **[!UICONTROL Start Time]** を、24 時間の時間に基づいてメールを送信する時、分、秒に設定します。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ### メールリマインダーテンプレートのカスタマイズ
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Email Templates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Email Templates]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add New Template]**」をクリックします。
 

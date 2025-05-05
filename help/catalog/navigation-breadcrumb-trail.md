@@ -46,9 +46,9 @@ _パンくずリスト_ は、ストア内の他のページとの関連を顧�
 
 ## CMS ページからのパンくずリストの追加/削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
 
    ![CMS ページのパンくずリストを表示 ](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ユーザーとしてログインした際に実行されたすべてのアクションは、実際のお客様のアカウントに適用されます。
 
-_管理者_ ユーザーに対して有効になっている場合は、_[!UICONTROL Login as Customer]_のボタンが複数のページに表示されます。
+_管理者_ ユーザーに対して有効になっている場合は、_[!UICONTROL Login as Customer]_&#x200B;のボタンが複数のページに表示されます。
 
 * [顧客編集ページ](../customers/update-account.md)
 * [注文ビューページ](../stores-purchase/order-processing.md)
@@ -32,7 +32,7 @@ _顧客としてログイン_ を有効にするには、Commerce インスタ�
 
 ### 機能の有効化
 
-1. 管理者サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. 管理者サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Login as Customer]**」を選択します。
 

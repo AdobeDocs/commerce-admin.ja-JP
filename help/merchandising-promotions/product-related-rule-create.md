@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 関連製品ルールの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Related Product Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Related Product Rules]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Rule]**」をクリックします。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ## 関連製品ルールの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Related Product Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Related Product Rules]**&#x200B;に移動します。
 
 1. 削除する関連製品ルールを見つけます。
 

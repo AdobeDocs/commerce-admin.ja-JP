@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 手順 2. 買い物かご価格ルールの作成
 
-_管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Cart Price Rules]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Cart Price Rules]**&#x200B;に移動します。
 
 次の手順に従って、提供する送料無料プロモーションのタイプを設定します。
 

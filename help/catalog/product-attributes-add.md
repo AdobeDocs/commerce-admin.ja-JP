@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ![ 属性プロパティ ](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. 「_[!UICONTROL Attribute Properties]_」に、属性を識別する&#x200B;**[!UICONTROL Attribute Label]**を入力します。
+1. 「_[!UICONTROL Attribute Properties]_」に、属性を識別する&#x200B;**[!UICONTROL Attribute Label]**&#x200B;を入力します。
 
 1. データ入力に使用する [ 入力コントロール ](attributes-input-types.md) のタイプに **[!UICONTROL Catalog Input Type for Store Owner]** を設定します。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 1. 製品グリッドの列として属性を含めたい場合は、**[!UICONTROL Add to Column Options]** を `Yes` に設定します。
 
-1. この列で _[!UICONTROL Products]_グリッドをフィルタリングできるようにする場合は、**[!UICONTROL Use in Filter Options]**を `Yes` に設定します。
+1. この列で _[!UICONTROL Products]_&#x200B;グリッドをフィルタリングできるようにする場合は、**[!UICONTROL Use in Filter Options]**&#x200B;を `Yes` に設定します。
 
 ## 手順 4：フィールドラベルの入力
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Use in Search]_設定が `No` に設定されている場合、_[!UICONTROL Use in Search Results Layered Navigation]_ 設定は表示されず、製品属性は [!UICONTROL Use in Layered Navigation] の設定値を持つ検索で使用されません。
+   >_[!UICONTROL Use in Search]_&#x200B;設定が `No` に設定されている場合、_[!UICONTROL Use in Search Results Layered Navigation]_ 設定は表示されず、製品属性は [!UICONTROL Use in Layered Navigation] の設定値を持つ検索で使用されません。
 
 1. 検索結果ページの階層型ナビゲーションで属性を使用するには、「**[!UICONTROL Use in Search Results Layered Navigation]**」を「`Yes`」に設定し、「**[!UICONTROL Position]**」フィールドに数値を入力します。
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Position]_フィールドはデフォルトで淡色表示され、この設定を変更する前に属性を保存する必要があります。
+   >_[!UICONTROL Position]_&#x200B;フィールドはデフォルトで淡色表示され、この設定を変更する前に属性を保存する必要があります。
 
 1. 価格ルールで属性を使用するには、**[!UICONTROL Use for Promo Rule Conditions]** を `Yes` に設定します。
 

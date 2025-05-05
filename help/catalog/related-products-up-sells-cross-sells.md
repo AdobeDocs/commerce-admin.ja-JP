@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 製品設定 – [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-_[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_の節では、顧客が興味を持つ可能性のある追加製品のセレクションを提示する簡単なプロモーションブロックを設定します。 詳しくは、[ 製品の関係 ](../merchandising-promotions/product-relationships.md) を参照してください。
+_[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;の節では、顧客が興味を持つ可能性のある追加製品のセレクションを提示する簡単なプロモーションブロックを設定します。 詳しくは、[ 製品の関係 ](../merchandising-promotions/product-relationships.md) を参照してください。
 
 ![ 関連商品、アップセル及びクロスセル ](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
 
@@ -91,7 +91,7 @@ _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_の節では、顧客�
 
 >[!NOTE]
 >
->店舗表示ごとにクロスセル項目を表示または非表示にするには、買い物かごで [ チェックアウト/買い物かご ](../configuration-reference/sales/checkout.md) オプションを _[!UICONTROL Show Cross-sell Items]_認します。 特定の販売中や、ストア表示での A/B テストのために、クロスセルを非表示にすることができます。
+>店舗表示ごとにクロスセル項目を表示または非表示にするには、買い物かごで [ チェックアウト/買い物かご ](../configuration-reference/sales/checkout.md) オプションを _[!UICONTROL Show Cross-sell Items]_&#x200B;認します。 特定の販売中や、ストア表示での A/B テストのために、クロスセルを非表示にすることができます。
 
 ![ 買い物かごのクロスセル ](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 

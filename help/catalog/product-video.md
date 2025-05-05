@@ -40,11 +40,11 @@ ht-degree: 0%
 
 ## 手順 2:Commerceでのキーの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「_[!UICONTROL Product Video]_」セクションを展開して、**[!UICONTROL YouTube API key]**を貼り付けます。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「_[!UICONTROL Product Video]_」セクションを展開して、**[!UICONTROL YouTube API key]**&#x200B;を貼り付けます。
 
    ![ 製品ビデオ設定 ](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Autostart base video]_configuration option が `Yes` に設定されていて、ビデオの再生が自動的に開始されない場合は、ブラウザーによって適用され、Adobe Commerceで制御できない自動再生ポリシーが原因である可能性があります。 サポートされている各ブラウザーには、時間の経過と共に変化する可能性のある独自の自動再生ポリシーがあり、ビデオは今後自動再生されない可能性があります。 推奨されるベストプラクティスとして、ビジネス上の重要な機能で自動再生を使用しないでください。また、サポートされている各ブラウザーで、ストアでのビデオの自動再生動作をテストする必要があります。
+   >_[!UICONTROL Autostart base video]_&#x200B;configuration option が `Yes` に設定されていて、ビデオの再生が自動的に開始されない場合は、ブラウザーによって適用され、Adobe Commerceで制御できない自動再生ポリシーが原因である可能性があります。 サポートされている各ブラウザーには、時間の経過と共に変化する可能性のある独自の自動再生ポリシーがあり、ビデオは今後自動再生されない可能性があります。 推奨されるベストプラクティスとして、ビジネス上の重要な機能で自動再生を使用しないでください。また、サポートされている各ブラウザーで、ストアでのビデオの自動再生動作をテストする必要があります。
 
 ## API アクセスの管理
 

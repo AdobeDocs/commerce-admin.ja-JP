@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 製品設定 – [!UICONTROL Product in Websites]
 
-_[!UICONTROL Product in Websites]_のセクションは、「ストア階層 [ に基づいて、製品が使用可能な各 web サイトを識別 ](../stores-purchase/stores.md) ます。
+_[!UICONTROL Product in Websites]_&#x200B;のセクションは、「ストア階層 [ に基づいて、製品が使用可能な各 web サイトを識別 ](../stores-purchase/stores.md) ます。
 
 ![ 製品 Web サイトのスコープ図 ](./assets/scope-product-website.svg){width="550"}
 

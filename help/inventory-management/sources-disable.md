@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 1 つ以上のカスタムソースを無効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Inventory]_/**[!UICONTROL Sources]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Inventory]_/**[!UICONTROL Sources]**&#x200B;に移動します。
 
 1. 無効にする有効なカスタムソースごとにチェックボックスを選択します。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 単一のカスタムソースを有効または無効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Inventory]_/**[!UICONTROL Sources]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Inventory]_/**[!UICONTROL Sources]**&#x200B;に移動します。
 
 1. カスタムソースを見つけて、「**[!UICONTROL Edit]**」をクリックします。
 

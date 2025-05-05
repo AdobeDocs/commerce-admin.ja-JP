@@ -83,7 +83,7 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 | [!UICONTROL Make Check Payable to] | ストア表示 | 小切手および為替を支払う必要があるエンティティの名前。 |
 | [!UICONTROL Send Check to] | ストア表示 | 小切手および送金が送信される住所または私書箱。 |
 | [!UICONTROL Minimum Order Total] | Web サイト | 小切手またはマネーオーダーで支払うことができる最小の注文金額。 |
-| [!UICONTROL Maximum Order Total] | Web サイト | 小切手またはマネーオーダーで支払うことができる最大の注文金額。 <br/><br/>**_注意：_**注文は、合計が最小注文合計と最大注文合計の間にあるか、合計と一致するかを検証します。 |
+| [!UICONTROL Maximum Order Total] | Web サイト | 小切手またはマネーオーダーで支払うことができる最大の注文金額。 <br/><br/>**_注意：_**&#x200B;注文は、合計が最小注文合計と最大注文合計の間にあるか、合計と一致するかを検証します。 |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法でリストされたときに、小切手または送金による支払いが表示される順序を決定する数値です。 `0` と入力して、リストの先頭に配置します。 |
 
 {style="table-layout:auto"}
@@ -102,7 +102,7 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 | [!UICONTROL Payment from Applicable Countries] | Web サイト | 銀行振込による支払いを受け入れる国を決定します。 オプション：`All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Web サイト | 銀行振込による支払いを受け入れる特定の国を識別します。 |
 | [!UICONTROL Minimum Order Total] | Web サイト | 銀行振込で支払うことができる最小の注文金額。 |
-| [!UICONTROL Maximum Order Total] | Web サイト | 銀行振込で支払うことができる最大の注文金額。 <br/><br/>**_注意：_**注文は、合計が最小注文合計と最大注文合計の間にあるか、合計と一致するかを検証します。 |
+| [!UICONTROL Maximum Order Total] | Web サイト | 銀行振込で支払うことができる最大の注文金額。 <br/><br/>**_注意：_**&#x200B;注文は、合計が最小注文合計と最大注文合計の間にあるか、合計と一致するかを検証します。 |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法でリストされた場合に、銀行振込による支払いが表示される順序を決定する数値です。 `0` と入力して、リストの先頭に配置します。 |
 
 {style="table-layout:auto"}
@@ -123,7 +123,7 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 | [!UICONTROL Payment from Applicable Countries] | Web サイト | 会社がアカウントに購入を請求できる国を決定します。 オプション：`All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Web サイト | 企業がアカウントに購入を請求できる特定の国を識別します。 |
 | [!UICONTROL Minimum Order Total] | Web サイト | 会社の口座に請求できる最小の注文金額を指定します。 |
-| [!UICONTROL Maximum Order Total] | Web サイト | 会社の口座に請求できる最大注文金額。 <br/><br/>**_注意：_**注文は、合計が最小注文合計と最大注文合計の間にあるか、合計と一致するかを検証します。 |
+| [!UICONTROL Maximum Order Total] | Web サイト | 会社の口座に請求できる最大注文金額。 <br/><br/>**_注意：_**&#x200B;注文は、合計が最小注文合計と最大注文合計の間にあるか、合計と一致するかを検証します。 |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法と一緒にリストされた場合に、分割払いが表示される順序を決定する数値です。 `0` と入力して、リストの先頭に配置します。 |
 
 {style="table-layout:auto"}
@@ -146,7 +146,7 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 | [!UICONTROL Payment from Applicable Countries] | Web サイト | 銀行振込による支払いを受け入れる国を決定します。 オプション：`All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Web サイト | 銀行振込による支払いを受け入れる特定の国を識別します。 |
 | [!UICONTROL Minimum Order Total] | Web サイト | 銀行振込で支払うことができる最小の注文金額を指定します。 |
-| [!UICONTROL Maximum Order Total] | Web サイト | 銀行振込で支払うことができる最大の注文金額。 <br/><br/>**_注意：_**注文は、合計が最小注文合計と最大注文合計の間にあるか、合計と一致するかを検証します。 |
+| [!UICONTROL Maximum Order Total] | Web サイト | 銀行振込で支払うことができる最大の注文金額。 <br/><br/>**_注意：_**&#x200B;注文は、合計が最小注文合計と最大注文合計の間にあるか、合計と一致するかを検証します。 |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法でリストされた場合に、銀行振込による支払いが表示される順序を決定する数値です。 `0` と入力して、リストの先頭に配置します。 |
 
 {style="table-layout:auto"}
@@ -205,7 +205,7 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 | [!UICONTROL Payment from Applicable Countries] | Web サイト | 発注による支払を受け入れる国を決定します。 オプション：`All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Web サイト | 発注による支払を受け入れる特定の国を識別します。 |
 | [!UICONTROL Minimum Order Total] | Web サイト | PO で支払うことができる最小の注文金額。 |
-| [!UICONTROL Maximum Order Total] | Web サイト | PO で支払うことができる最大注文金額。 <br/><br/>**_注意：_**注文は、合計が最小注文合計と最大注文合計の間にあるか、合計と一致するかを検証します。 |
+| [!UICONTROL Maximum Order Total] | Web サイト | PO で支払うことができる最大注文金額。 <br/><br/>**_注意：_**&#x200B;注文は、合計が最小注文合計と最大注文合計の間にあるか、合計と一致するかを検証します。 |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に他の支払い方法と一緒にリストされたときに発注による支払いが表示される順序を決定する数値です。 `0` と入力して、リストの先頭に配置します。 |
 
 {style="table-layout:auto"}

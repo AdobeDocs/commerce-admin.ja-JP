@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 手順 1:Commerceの税率データのエクスポート
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import/Export Tax Rates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import/Export Tax Rates]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Export Tax Rates]**」をクリックします。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 ## 手順 3：税率のインポート
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import/Export Tax Rates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import/Export Tax Rates]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Choose File]**」をクリックし、インポート用に準備した CSV 税率ファイルを選択します。
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
    データの読み込みに数分かかる場合があります。 処理が完了すると、`The tax rate has been imported` のメッセージが表示されます。 エラーメッセージが表示された場合は、データの問題を修正して、もう一度試してください。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Zones and Rates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
 
    読み込まれたレートがリストに表示されます。
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![ 買い物かご価格ルール – ターゲット顧客セグメント ](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
-_**セグメントを買い物かごの価格ルールに関連付けるには：**_
+_&#x200B;**セグメントを買い物かごの価格ルールに関連付けるには：**&#x200B;_
 
 1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_プロモーション_/**[!UICONTROL Cart Price Rules]** に移動します。
 

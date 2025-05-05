@@ -38,7 +38,7 @@ _行_ コンテンツタイプを使用して、[[!DNL Page Builder]  ステー�
 
 ## 行を追加
 
-1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_の下で、新しい&#x200B;**[!UICONTROL Row]**をステージの最初の行のすぐ下にドラッグします。
+1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_&#x200B;の下で、新しい&#x200B;**[!UICONTROL Row]**&#x200B;をステージの最初の行のすぐ下にドラッグします。
 
 1. 行を書式設定するには、行コンテナの上にマウスポインターを置いてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
@@ -114,7 +114,7 @@ _外観_ 設定を使用して、行にコンテンツを表示する方法を�
 
 ### 画像タイプの設定
 
-_[!UICONTROL Background Type]_を `Image` に設定した場合は、次の設定を使用して背景画像の表示を定義します。
+_[!UICONTROL Background Type]_&#x200B;を `Image` に設定した場合は、次の設定を使用して背景画像の表示を定義します。
 
 ![ 背景画像 ](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 

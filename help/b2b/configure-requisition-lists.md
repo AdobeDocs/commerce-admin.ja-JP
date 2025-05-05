@@ -22,7 +22,7 @@ ht-degree: 0%
 
 デフォルトでは、顧客は自分のアカウントに対して最大 999 件の購買依頼リストを保守できます。 ただし、設定を変更し、より小さい数を指定して、ストアの負荷を軽減することができます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Requisition Lists]**」を選択します。
 

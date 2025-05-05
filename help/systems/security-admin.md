@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Admin Security の設定
 
-店舗のセキュリティを保護するために、多面的なアプローチを取ることをお勧めします。 推測が容易ではない、明らかな「管理者」や「バックエンド ](../stores-purchase/store-urls.md#use-a-custom-admin-url) ではなく、[ カスタム管理 URL」を使用して開始することができます。 デフォルトでは、管理者への [ ログイン ](../getting-started/admin-signin.md) に使用するパスワードは 7 文字以上で、文字と数字の両方を含める必要があります。 [ ベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) として、文字、数字、記号の組み合わせを含む強力な管理者パスワードのみを使用します。 Adobe CommerceとMagento Open Sourceでは、アカウントに割り当てられた最後の 4 つのパスワードを再利用することはできません。
+店舗のセキュリティを保護するために、多面的なアプローチを取ることをお勧めします。 推測が容易ではない、明らかな「管理者」や「バックエンド [&#128279;](../stores-purchase/store-urls.md#use-a-custom-admin-url) ではなく、 カスタム管理 URL」を使用して開始することができます。 デフォルトでは、管理者への [ ログイン ](../getting-started/admin-signin.md) に使用するパスワードは 7 文字以上で、文字と数字の両方を含める必要があります。 [ ベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) として、文字、数字、記号の組み合わせを含む強力な管理者パスワードのみを使用します。 Adobe CommerceとMagento Open Sourceでは、アカウントに割り当てられた最後の 4 つのパスワードを再利用することはできません。
 
 Admin セキュリティ設定を使用すると、次の操作を行うことができます。
 
@@ -37,9 +37,9 @@ Admin セキュリティ設定を使用すると、次の操作を行うこと�
 
 ## Admin Security の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL Advanced]_の下の左パネルで、「**[!UICONTROL Admin]**」を選択します。
+1. _[!UICONTROL Advanced]_&#x200B;の下の左パネルで、「**[!UICONTROL Admin]**」を選択します。
 
 1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Security]**」セクションを展開します。
 

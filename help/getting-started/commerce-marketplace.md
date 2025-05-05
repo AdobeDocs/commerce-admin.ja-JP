@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. [!DNL Commerce] アカウントにログインします。
 
-1. _[!UICONTROL My Account]_ページで、「**[!UICONTROL Marketplace]**」タブを選択します。
+1. _[!UICONTROL My Account]_&#x200B;ページで、「**[!UICONTROL Marketplace]**」タブを選択します。
 
 1. 名前の横の右上隅にある下向き矢印をクリックし、「**[!UICONTROL My Profile]**」を選択します。
 

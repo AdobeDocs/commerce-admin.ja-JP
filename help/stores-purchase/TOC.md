@@ -40,7 +40,7 @@ ht-degree: 3%
       + [通貨レートを更新](currency-update.md)
    + [販売メール](sales-email.md)
    + [販売ドキュメント](sales-documents.md)
-+ POI （購入 {#point-of-purchase}）
++ POI （購入） {#point-of-purchase}
    + [即時購入](checkout-instant-purchase.md)
    + 買い物かご {#cart}
       + [概要](cart.md)
@@ -92,7 +92,7 @@ ht-degree: 3%
       + [銀行振込](bank-transfer.md)
       + [発注書](purchase-order.md)
       + [小計ゼロのチェックアウト](zero-subtotal-checkout.md)
-+ 注文フロー {#order-management} の管理
++ 注文フロー の管理 {#order-management}
    + [販売メニュー](sales-menu.md)
    + 受注 {#orders}
       + [概要](orders.md)
@@ -107,7 +107,7 @@ ht-degree: 3%
    + クレジットメモ {#credit-memos}
       + [概要](credit-memos.md)
       + [クレジットメモを発行する](credit-memo-create.md)
-   + {#returns} を返します
+   + を返します{#returns}
       + [概要](returns.md)
       + [戻り値の設定](rma-configure.md)
       + [属性を返す](attributes-returns.md)

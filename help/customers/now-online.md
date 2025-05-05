@@ -1,6 +1,6 @@
 ---
 title: 顧客がオンラインになりました
-description: '[!UICONTROL Customers ] メニューの_Now Online_ オプションには、ストアで現在オンラインになっているすべての顧客と訪問者が一覧表示されます。'
+description: '[!UICONTROL Customers &#x200B;] メニューの_Now Online_ オプションには、ストアで現在オンラインになっているすべての顧客と訪問者が一覧表示されます。'
 exl-id: 69af669d-f9aa-471b-9d62-5657f3fb2103
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt
@@ -31,7 +31,7 @@ _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL Online
 
 ## 時間間隔の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Customer Configuration]**」を選択します。
 

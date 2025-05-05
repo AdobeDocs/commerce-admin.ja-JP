@@ -20,7 +20,7 @@ returns 属性は、製品の返品プロセス中に必要な情報を保存す
 
 ## 戻り値の属性の作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Returns]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Returns]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Attribute]**」をクリックします。
 
@@ -63,7 +63,7 @@ returns 属性は、製品の返品プロセス中に必要な情報を保存す
    - `Strip HTML Tags`
    - `Escape  HTML Entities`
 
-1. 顧客に属性を表示するには、_[!UICONTROL Storefront Properties]_の節で&#x200B;**[!UICONTROL Show on Storefront]**を `Yes` に設定します。
+1. 顧客に属性を表示するには、_[!UICONTROL Storefront Properties]_&#x200B;の節で&#x200B;**[!UICONTROL Show on Storefront]**&#x200B;を `Yes` に設定します。
 
 1. （オプション） **[!UICONTROL Sort Order]** の場合は、数値を入力して、ページの同じ部分にある他の属性に対するこの属性の相対的な位置を決定します。 （`0` = 1 番目、`1` = 2 番目、`2` = 3 番目など）。
 

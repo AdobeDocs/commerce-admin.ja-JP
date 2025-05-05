@@ -24,9 +24,9 @@ ht-degree: 0%
 
 ## 製品の更新をスケジュール
 
-1. _[!UICONTROL Products]_グリッドから、編集モードで製品を開きます。
+1. _[!UICONTROL Products]_&#x200B;グリッドから、編集モードで製品を開きます。
 
-1. ページ上部の _[!UICONTROL Scheduled Changes]_ボックスで、[**[!UICONTROL Schedule New Update]**] をクリックします。
+1. ページ上部の _[!UICONTROL Scheduled Changes]_&#x200B;ボックスで、[**[!UICONTROL Schedule New Update]**] をクリックします。
 
    ![ 新しい更新をスケジュール ](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
 
@@ -49,7 +49,7 @@ ht-degree: 0%
      >
      >キャンペーンの開始日と終了日は、**_デフォルト_** の管理者タイムゾーンを使用して定義する必要があります。このタイムゾーンは、各 web サイトのローカルタイムゾーンから変換されます。 例えば、異なるタイムゾーンに複数の web サイトがあり、米国（デフォルト）のタイムゾーンに基づいてキャンペーンを開始する場合、ローカルタイムゾーンごとに個別の更新をスケジュールする必要があります。 この場合は、各ローカル Web サイトのタイムゾーンからデフォルトの管理者タイムゾーンに変換された **[!UICONTROL Start Date]** と **[!UICONTROL End Date]** を設定します。
 
-1. _[!UICONTROL Price]_まで下にスクロールし、「**[!UICONTROL Advanced Pricing]**」をクリックします。
+1. _[!UICONTROL Price]_&#x200B;まで下にスクロールし、「**[!UICONTROL Advanced Pricing]**」をクリックします。
 
 1. スケジュール済みキャンペーン中に製品の **[!UICONTROL Special Price]** を入力し、「**[!UICONTROL Done]**」をクリックします。
 

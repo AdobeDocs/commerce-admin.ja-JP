@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Use system value]
 
-多くの設定の右側にある _[!UICONTROL Use System Value]_チェックボックスは、現在の設定範囲内のデフォルトフィールド値を適用または上書きするために使用されます。 チェックボックスが選択されている場合、デフォルトフィールド値は変更できません。 値を変更するには、このチェックボックスをオフにして新しい値を入力します。 システム値を変更するたびに確認を求められます。
+多くの設定の右側にある _[!UICONTROL Use System Value]_&#x200B;チェックボックスは、現在の設定範囲内のデフォルトフィールド値を適用または上書きするために使用されます。 チェックボックスが選択されている場合、デフォルトフィールド値は変更できません。 値を変更するには、このチェックボックスをオフにして新しい値を入力します。 システム値を変更するたびに確認を求められます。
 
 チェックボックスのラベルは、現在のスコープに応じて変わり、スコープ階層の 1 ステップ上の親レベルを常に参照します。 親レベルは、そのレベルの下にあるすべての項目のコンテナであるため、親レベルのスコープ設定は上書きされない限り継承されます。
 
@@ -47,9 +47,9 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、次のいずれかの操作を行います。
 
-   - ほとんどの設定は、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+   - ほとんどの設定は、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-   - [ デザイン関連の設定 ](../content-design/configuration.md) については、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。 次に、グリッドで、該当するストア表示を選択します。
+   - [ デザイン関連の設定 ](../content-design/configuration.md) については、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。 次に、グリッドで、該当するストア表示を選択します。
 
 1. 変更する設定に移動して、次の手順を実行します。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 | ドメイン | 複数のストアがある場合、各ストアは同じドメイン、サブドメインまたは明確に異なるドメインを持つことができます。 詳しくは、[ ストアの追加 ](../stores-purchase/stores.md#add-stores) を参照してください。 |
 | ルートカテゴリ | 各店舗には、「ルート」カテゴリとサブカテゴリに基づく製品とメインメニューの別々のセットを持つことができます。 各カタログには [ ルートカテゴリ ](../catalog/category-root.md) があり、ストアレベルで割り当てられます。 |
 | **[!UICONTROL Store View]** |  |
-| サブカテゴリ | メインメニュー ](../catalog/category-create.md#category-structure) ルートの下）を構成する [ サブカテゴリ）は、ストア表示レベルで割り当てられます。 |
+| サブカテゴリ | メインメニュー [&#128279;](../catalog/category-create.md#category-structure) ルートの下）を構成する  サブカテゴリ）は、ストア表示レベルで割り当てられます。 |
 | Locale | 各ストア表示には、異なる [ ロケール ](../getting-started/store-details.md#locale-options) を割り当てることができます。 表示通貨、測定単位、管理インターフェイスはロケールに固有です。 |
 | 言語 | 複数の言語をサポートするには、製品の説明を含むすべてのコンテンツを、ストア表示ごとに [ 翻訳 ](../stores-purchase/store-localize.md#localize-products) する必要があります。 |
 | 通貨を表示 | ストア表示ごとに異なる [ 表示通貨 ](../stores-purchase/currency-configuration.md) を使用できますが、トランザクションはベース通貨を使用して web サイトレベルで処理されます。 |

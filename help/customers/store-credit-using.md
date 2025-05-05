@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. _アクション_ 列の「**[!UICONTROL Edit]**」をクリックします。
 
-1. ページ _[!UICONTROL Customer View]_スクロールし、下部の&#x200B;**[!UICONTROL Store Credit Balance]**を表示します。
+1. ページ _[!UICONTROL Customer View]_&#x200B;スクロールし、下部の&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;を表示します。
 
 ![ 店舗の貸方残高 ](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 
 1. 顧客は、使用可能なストアクレジットの量を表示します。
 
-   _レビューと支払い_ ステップ中に、使用可能な金額が _[!UICONTROL Store Credit]_の下に表示されます。
+   _レビューと支払い_ ステップ中に、使用可能な金額が _[!UICONTROL Store Credit]_&#x200B;の下に表示されます。
 
 1. 金額を注文に適用するには、「**[!UICONTROL Use Store Credit]**」をクリックします。
 
    >[!INFO]
    >
-   >注文合計が再計算され、適用されたストアクレジットの額が _[!UICONTROL Order Summary]_に表示されます。
+   >注文合計が再計算され、適用されたストアクレジットの額が _[!UICONTROL Order Summary]_&#x200B;に表示されます。
 
    ![ 注文に適用された店舗のクレジット残高 ](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 

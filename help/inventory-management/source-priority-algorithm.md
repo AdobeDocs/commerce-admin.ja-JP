@@ -30,11 +30,11 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/**[!UICONTROL Inventory]**/**[!UICONTROL Stocks]** に移動します。
 
-1. 在庫を編集モードで開き、_[!UICONTROL Sources]_の領域に移動します。
+1. 在庫を編集モードで開き、_[!UICONTROL Sources]_&#x200B;の領域に移動します。
 
 1. 「**[!UICONTROL Assign Sources]**」をクリックします。
 
-1. _[!UICONTROL Assign Sources]_表示で、必要なソースのチェックボックスを選択し、「**[!UICONTROL Done]**」をクリックして、在庫にソースを割り当てます。
+1. _[!UICONTROL Assign Sources]_&#x200B;表示で、必要なソースのチェックボックスを選択し、「**[!UICONTROL Done]**」をクリックして、在庫にソースを割り当てます。
 
 >[!NOTE]
 >

@@ -24,13 +24,13 @@ ht-degree: 0%
 
 ### 手順 1：ステージへの製品リストの追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
 
-1. 最初の演習で作成し、2 番目の演習で変更した _シンプルなページ_ を見つけ、_[!UICONTROL Action]_の列の&#x200B;**[!UICONTROL Edit]**を選択します。
+1. 最初の演習で作成し、2 番目の演習で変更した _シンプルなページ_ を見つけ、_[!UICONTROL Action]_&#x200B;の列の&#x200B;**[!UICONTROL Edit]**&#x200B;を選択します。
 
 1. ![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Content]**」セクションを展開し、コンテンツプレビュー領域 **[!UICONTROL Edit with Page Builder]** または内側をクリックします。
 
-1. _[!UICONTROL Layout]_の下の [!DNL Page Builder] パネルで、**[!UICONTROL Row]**をステージの上部にドラッグします。
+1. _[!UICONTROL Layout]_&#x200B;の下の [!DNL Page Builder] パネルで、**[!UICONTROL Row]**&#x200B;をステージの上部にドラッグします。
 
 1. [!DNL Page Builder] パネルで **[!UICONTROL Add Content]** を展開し、**[!UICONTROL Products]** プレースホルダーを新しい行にドラッグします。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
    商品の説明が以前に [!DNL Page Builder] なしで入力された場合、現在の説明は、[HTMLコード ](html-code.md) コンテナのHTMLとして表示されます。 Luma テーマを使用すると、製品の説明が「詳細」タブに表示されます。
 
-1. _[!UICONTROL Layout]_の下の [!DNL Page Builder] パネルで、**[!UICONTROL Row]**をステージにドラッグして、HTMLコードコンテナの下に配置します。
+1. _[!UICONTROL Layout]_&#x200B;の下の [!DNL Page Builder] パネルで、**[!UICONTROL Row]**&#x200B;をステージにドラッグして、HTMLコードコンテナの下に配置します。
 
    行が正しい位置にあるときに表示される赤いガイドラインを探します。
 
@@ -160,17 +160,22 @@ ht-degree: 0%
 
 1. 次のプロパティを持つ製品を作成します。
 
-   - 
+   - &#x200B;
+
      [!UICONTROL 属性セット]: Default
    - [!UICONTROL Product Name]: My Product
-   - 
+   - &#x200B;
+
      [!UICONTROL SKU]: Tutorial
-   - 
+   - &#x200B;
+
      [!UICONTROL Price]: 75.00
-   - 
+   - &#x200B;
+
      [!UICONTROL Quantity]: 100
    - [!UICONTROL Stock Status]：在庫あり
-   - 
+   - &#x200B;
+
      [!UICONTROL Weight]: 1
    - [!UICONTROL Categories]：女性/トップス/T 型
 
@@ -180,7 +185,7 @@ ht-degree: 0%
 
 この手順では、[!DNL Page Builder] とテキストエディターの入力タイプを使用する方法を示す 2 つの新しいカスタム属性を作成します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Attribute]**」をクリックします。
 
@@ -199,20 +204,26 @@ ht-degree: 0%
    - [!UICONTROL Attribute Code]：属性コードをスペースではなくハイフンを使用して、小文字で入力します。 この例では、`my_page_builder_attribute` を使用します。
    - [!UICONTROL Scope]: デフォルト値 `Store View` を使用します。
    - [!UICONTROL Default Value]：属性のデフォルト値を入力します。
-   - 
+   - &#x200B;
+
      [!UICONTROL Unique Value]: `No`
-   - 
+   - &#x200B;
+
      [!UICONTROL Add to Column Options]: `No`
-   - 
+   - &#x200B;
+
      [!UICONTROL Use in Filter Options]: `Yes`
 
-1. 左側の _[!UICONTROL Attribute Information]_パネルで「**[!UICONTROL Storefront Properties]**」を選択し、次の設定を行います。
+1. 左側の _[!UICONTROL Attribute Information]_&#x200B;パネルで「**[!UICONTROL Storefront Properties]**」を選択し、次の設定を行います。
 
-   - 
+   - &#x200B;
+
      [!UICONTROL Use for Promo Rule Conditions]: `Yes`
-   - 
+   - &#x200B;
+
      [!UICONTROL Visible on Catalog Pages on Storefront]: `Yes`
-   - 
+   - &#x200B;
+
      [!UICONTROL Used in Product Listing]: `Yes`
 
 1. 完了したら、「**[!UICONTROL Save Attribute]**」をクリックします。
@@ -221,12 +232,13 @@ ht-degree: 0%
 
    - [!UICONTROL Default Label]: My Text Editor 属性
    - [!UICONTROL Catalog Input Type for Store Owner]：テキストエディター
-   - 
+   - &#x200B;
+
      [!UICONTROL 属性コード]: `my_text_editor_attribute`
 
 ### 手順 3：製品属性セットの更新
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Attribute Set]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Attribute Set]**&#x200B;に移動します。
 
    この例では、新しい属性を一時的に `default` 属性セットに追加します。 この演習の最後では、カタログに影響を与えないように、属性セットから属性を削除します。
 
@@ -234,9 +246,9 @@ ht-degree: 0%
    >
    >ライブストアを変更しない場合は、属性セットを更新せずにそれに従うことができます。
 
-1. リストで _[!UICONTROL Default]_属性セットを見つけてダブルクリックし、編集モードで開きます。
+1. リストで _[!UICONTROL Default]_&#x200B;属性セットを見つけてダブルクリックし、編集モードで開きます。
 
-1. _未割り当て属性_ リストで、作成した新しい属性を見つけて、**[!UICONTROL Content]** の下の _[!UICONTROL Groups]_の列にドラッグします。
+1. _未割り当て属性_ リストで、作成した新しい属性を見つけて、**[!UICONTROL Content]** の下の _[!UICONTROL Groups]_&#x200B;の列にドラッグします。
 
    [!UICONTROL Groups] 列内の属性の場所によって、ページ上の表示場所が決まります。
 

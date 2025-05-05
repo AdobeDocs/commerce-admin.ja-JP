@@ -16,13 +16,13 @@ _メール送信設定_ を使用すると、返されたメールや返信を�
 
 >[!IMPORTANT]
 >
->**セキュリティに関する通知** すべてのマーチャントは、最近特定された潜在的なリモートコード実行の不正利用から保護するために、直ちにメール送信設定を設定する必要があります。 この問題が解決されるまで、メール通信に [!DNL Sendmail] を使用しないことを強くお勧めします。 _[!UICONTROL Mail Sending Settings]_で、_[!UICONTROL Set Return Path]_ が `No` に設定されていることを確認します。
+>**セキュリティに関する通知** すべてのマーチャントは、最近特定された潜在的なリモートコード実行の不正利用から保護するために、直ちにメール送信設定を設定する必要があります。 この問題が解決されるまで、メール通信に [!DNL Sendmail] を使用しないことを強くお勧めします。 _[!UICONTROL Mail Sending Settings]_&#x200B;で、_[!UICONTROL Set Return Path]_ が `No` に設定されていることを確認します。
 
 設定の詳細なリストについては、_設定リファレンス_ の [_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md) を参照してください。
 
 ## メール通信を設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 

@@ -22,7 +22,7 @@ ht-degree: 5%
    - [Sourceの品揃えと予約](selection-reservations.md)
    - [注文と予約のステータス](order-status.md)
    - [製品タイプ](product-types.md)
-- {#get-started} の基本を学ぶ
+- の基本を学ぶ{#get-started}
    - [Commerce アップグレード](migrate.md)
    - [インストールとアップデート](install-update.md)
    - [マーチャントソーシング](merchant-sourcing.md)
@@ -42,12 +42,12 @@ ht-degree: 5%
    - [概要](sources-manage.md)
    - [ソースを追加](sources-add.md)
    - [ソースを無効にする](sources-disable.md)
-- 在庫 {#stocks} の管理
+- 在庫 の管理 {#stocks}
    - [概要](stocks-manage.md)
    - [在庫を追加](stocks-add.md)
    - [在庫のソースの優先順位付け](stocks-prioritize-sources.md)
    - [在庫の削除](stocks-delete.md)
-- 在庫数量 {#quantities} 管理
+- 在庫数量 管理 {#quantities}
    - [概要](quantities-manage.md)
    - [製品ごとのソースの割り当て](sources-assign-per-product.md)
    - [製品ごとの数量の割り当て](quantities-assign-per-product.md)

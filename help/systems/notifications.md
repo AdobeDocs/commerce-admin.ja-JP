@@ -14,11 +14,11 @@ ht-degree: 0%
 
 _通知_ ページには、重要度でランク付けされたすべてのメッセージがリストされます。最新のメッセージは一番上に表示されます。 アクション コマンドを使用すると、個々のメッセージを既読としてマークしたり、詳細情報を表示したり、受信トレイからメッセージを削除したりできます。
 
-1. _[!UICONTROL Notifications]_のページを開くには、次のいずれかの操作を行います。
+1. _[!UICONTROL Notifications]_&#x200B;のページを開くには、次のいずれかの操作を行います。
 
    - ヘッダーの _通知_ アイコンをクリックします。 新しいメッセージが 1 つ以上表示されている場合は、[**[!UICONTROL See All]**] をクリックします。
 
-   - _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Notifications]**に移動します。
+   - _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Notifications]**&#x200B;に移動します。
 
 1. **[!UICONTROL Action]** 列で、次のいずれかの操作を行います。
 

@@ -22,9 +22,9 @@ ht-degree: 0%
 
 ![ 製品ティアド価格 ](./assets/price-tier-customer-group-discount.png){width="600" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Export]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Export]**&#x200B;に移動します。
 
-1. _[!UICONTROL Export Settings]_で、**[!UICONTROL Entity Type]**を `Advanced Pricing` に設定します。
+1. _[!UICONTROL Export Settings]_&#x200B;で、**[!UICONTROL Entity Type]**&#x200B;を `Advanced Pricing` に設定します。
 
 1. **[!UICONTROL Entity Attributes]** グリッドで、下にスクロールして SKU 属性を選択し、以下の操作を行います。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ## 手順 3：更新したデータのインポート
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import]**&#x200B;に移動します。
 
 1. _読み込み設定_ で、**[!UICONTROL Entity Type]** を `Advanced Pricing` に設定します。
 

@@ -47,7 +47,7 @@ _ミニカート_ には、カート内の項目の概要が表示されます�
 
 ### ミニ買い物かごの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
@@ -73,7 +73,7 @@ _ミニカート_ には、カート内の項目の概要が表示されます�
 
 ### 買い物かごリンクの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
@@ -94,7 +94,7 @@ _ミニカート_ には、カート内の項目の概要が表示されます�
 
 **_買い物かごが表示されるタイミングを設定するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
@@ -115,13 +115,13 @@ _ミニカート_ には、カート内の項目の概要が表示されます�
 
 ## 見積もりの有効期間
 
-Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機能のサポートが追加されます。 この機能を使用すると、権限のある購入者は、買い物かごからリクエストを送信することで、価格ネゴシエーションプロセスを開始できます。 _Quotes_ グリッドには、受け取った各見積が一覧表示され、購入者と販売者の間のコミュニケーションの履歴が保持されます。 B2B 機能について詳しくは、_Adobe Commerce B2B ユーザーガイド ](../b2b/quotes.md) の [ 交渉済みの引用符_ を参照してください。
+Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機能のサポートが追加されます。 この機能を使用すると、権限のある購入者は、買い物かごからリクエストを送信することで、価格ネゴシエーションプロセスを開始できます。 _Quotes_ グリッドには、受け取った各見積が一覧表示され、購入者と販売者の間のコミュニケーションの履歴が保持されます。 B2B 機能について詳しくは、_Adobe Commerce B2B ユーザーガイド [&#128279;](../b2b/quotes.md) の  交渉済みの引用符_ を参照してください。
 
 設定で買い物かごの見積もり有効期間を設定することで、価格の有効期間を決定できます。 例えば、買い物客が数日後に買い物かごを放置した場合、一部の商品の見積価格が同じではなくなる可能性があります。 デフォルトでは、見積もりの有効期間は 30 日に設定されています。
 
 **_見積もりの有効期間を設定するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
@@ -145,7 +145,7 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
 
 **_最小注文金額を設定するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、その下の「**[!UICONTROL Sales]**」を選択します。
 
@@ -195,7 +195,7 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
 
 注文に許可される最小数量を設定できます。 最小数量は、各顧客グループに応じて設定することもできます。
 
-1. **[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. **[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、「**[!UICONTROL Inventory]**」を選択します。
 
@@ -227,7 +227,7 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
 
 **_買い物かごのサムネールを設定するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
@@ -257,7 +257,7 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
 
 ### ギフトオプションを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、その下の「**[!UICONTROL Sales]**」を選択します。
 
@@ -297,7 +297,7 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
 
 #### ギフトラップデザインの追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Gift Wrapping]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Gift Wrapping]**&#x200B;に移動します。
 
    ![ ギフト包装グリッド ](./assets/gift-wrapping.png){width="700" zoomable="yes"}
 
@@ -321,13 +321,13 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
 
 1. ギフトラッピングのサムネール **[!UICONTROL Image]** をアップロードするには、「**[!UICONTROL Choose File]**」をクリックし、アップロードするファイルをディレクトリから選択します。
 
-   レコードを保存すると、画像のサムネールが _[!UICONTROL Gift Wrapping Information]_に表示されます。
+   レコードを保存すると、画像のサムネールが _[!UICONTROL Gift Wrapping Information]_&#x200B;に表示されます。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
 #### ギフトラップデザインの編集
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Gift Wrapping]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Gift Wrapping]**&#x200B;に移動します。
 
 1. リストでギフト ラップ レコードを検索します。
 
@@ -367,7 +367,7 @@ _ギフトラッピング_ グリッドを開いた状態で、これらの方�
 
 **_ギフトオプション税を設定するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Tax]**」を選択します。
 

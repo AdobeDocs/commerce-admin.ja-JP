@@ -64,7 +64,7 @@ Commerceのインストールにストアとストアの表示が 1 つしかな
 
 ![ 範囲 – シングルビュー ](./assets/scope-single-view.svg){width="550"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. **[!UICONTROL General]** の下で、ページの下部までスクロール ダウンし、[**[!UICONTROL Single-Store Mode]**] セクションを展開します。
 

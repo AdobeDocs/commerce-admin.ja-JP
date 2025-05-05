@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 価格ルールへの動的ブロックの関連付け
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_に移動し、次のいずれかを選択します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_&#x200B;に移動し、次のいずれかを選択します。
 
    - **[!UICONTROL Catalog Price Rules]**
    - **[!UICONTROL Cart Price Rules]**
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 価格ルールと動的ブロックの関連付け
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Dynamic Blocks]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Dynamic Blocks]**&#x200B;に移動します。
 
 1. グリッドでダイナミック ブロックを見つけ、編集モードで開きます。
 

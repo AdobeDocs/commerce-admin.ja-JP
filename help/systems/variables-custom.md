@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ## 手順 1：カスタム変数の作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Custom Variables]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Custom Variables]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add New Variable]**」をクリックします。
 

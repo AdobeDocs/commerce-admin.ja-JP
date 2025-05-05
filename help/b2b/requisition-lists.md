@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. アカウントのサイドバーで、**[!UICONTROL My Requisition Lists]** を選択します。
 
-1. _[!UICONTROL Requisition Lists]_ページで、「**[!UICONTROL Create New Requisition List]**」をクリックします。
+1. _[!UICONTROL Requisition Lists]_&#x200B;ページで、「**[!UICONTROL Create New Requisition List]**」をクリックします。
 
 1. **[!UICONTROL Requisition List Name]** および **[!UICONTROL Description]** を入力します。
 

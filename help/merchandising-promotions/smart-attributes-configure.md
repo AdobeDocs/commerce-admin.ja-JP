@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ビジュアルマーチャンダイザーの設定によって、マーチャンダイジングウィンドウで使用できる属性と、在庫の最小しきい値が決まります。 この設定は、カラーに使用する属性とカラー値の順序も識別します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Visual Merchandiser]**」を選択します。
 

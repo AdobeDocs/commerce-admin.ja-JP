@@ -26,7 +26,7 @@ Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.m
 
 ## 新しい [!DNL Media Gallery] ージからの画像のライセンス
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
 
 1. [Adobe Stock画像の使用 ](./adobe-stock-manage.md) の手順に従って、ログインし、プレビューイメージを [ メディアストレージ ](./media-storage.md) に保存します。
 
@@ -46,7 +46,7 @@ Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.m
 
    >[!NOTE]
    >
-   >画像のライセンスを取得するには、アカウントで利用可能な ][stock-credits]0}Adobe Stock クレジット } が必要です。[
+   >画像のライセンスを取得するには、アカウントで利用可能な &rbrack;[stock-credits]0&rbrace;Adobe Stock クレジット &rbrace; が必要です。&lbrack;
 
 ## 標準メディアストレージからの画像のライセンス取得
 
@@ -62,7 +62,7 @@ Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.m
 
      >[!NOTE]
      >
-     >画像のライセンスを取得するには、アカウントで利用可能な ][stock-credits]0}Adobe Stock クレジット } が必要です。[
+     >画像のライセンスを取得するには、アカウントで利用可能な &rbrack;[stock-credits]0&rbrace;Adobe Stock クレジット &rbrace; が必要です。&lbrack;
 
    この操作を実行すると、イメージを [ メディア ストレージ ](./media-storage.md) に保存するために使用するファイル名を指定するよう求めるメッセージが表示されます。 デフォルトのファイル名が提供されますが、この名前は好みに合わせてカスタマイズできます。
 

@@ -96,7 +96,7 @@ TFA を使用するには、TFA アプリケーションがパーソナルデバ
 
 ## 確認コードを使用してログインします
 
-1. [!DNL Commerce] アカウントログイン ][1]{:target=&quot;_blank&quot;[} に移動します。
+1. [!DNL Commerce] アカウントログイン &rbrack;[1]{:target=&quot;_blank&quot;&lbrack;} に移動します。
 
 1. ユーザー名とパスワードの資格情報を入力し、「**[!UICONTROL Login]**」を選択します。
 
@@ -108,7 +108,7 @@ TFA を使用するには、TFA アプリケーションがパーソナルデバ
 
 ## 回復コードを使用してログインします
 
-1. [!DNL Commerce] アカウントログイン ][1]{:target=&quot;_blank&quot;[} に移動します。
+1. [!DNL Commerce] アカウントログイン &rbrack;[1]{:target=&quot;_blank&quot;&lbrack;} に移動します。
 
 1. ユーザー名とパスワードの資格情報を入力し、「**[!UICONTROL Login]**」を選択します。
 
@@ -140,7 +140,7 @@ TFA を使用するには、TFA アプリケーションがパーソナルデバ
 
 ## 回復コードの表示
 
-1. [!DNL Commerce] アカウントログイン ][1]{:target=&quot;_blank&quot;[} に移動します。
+1. [!DNL Commerce] アカウントログイン &rbrack;[1]{:target=&quot;_blank&quot;&lbrack;} に移動します。
 
 1. ユーザー名とパスワードの資格情報を入力し、「**[!UICONTROL Login]**」を選択します。
 
@@ -168,7 +168,7 @@ TFA を使用するには、TFA アプリケーションがパーソナルデバ
 
 ## 新しい回復コードの生成
 
-1. [!DNL Commerce] アカウントログイン ][1]{:target=&quot;_blank&quot;[} に移動します。
+1. [!DNL Commerce] アカウントログイン &rbrack;[1]{:target=&quot;_blank&quot;&lbrack;} に移動します。
 
 1. ユーザー名とパスワードの資格情報を入力し、「**[!UICONTROL Login]**」を選択します。
 
@@ -190,7 +190,7 @@ TFA を使用するには、TFA アプリケーションがパーソナルデバ
 
 ## 回復 E メールを変更する
 
-1. [!DNL Commerce] アカウントログイン ][1]{:target=&quot;_blank&quot;[} に移動します。
+1. [!DNL Commerce] アカウントログイン &rbrack;[1]{:target=&quot;_blank&quot;&lbrack;} に移動します。
 
 1. ユーザー名とパスワードの資格情報を入力し、「**[!UICONTROL Login]**」を選択します。
 
@@ -218,7 +218,7 @@ TFA を使用するには、TFA アプリケーションがパーソナルデバ
 
 ## 二要素認証アプリケーションの変更
 
-1. [!DNL Commerce] アカウントログイン ][1]{:target=&quot;_blank&quot;[} に移動します。
+1. [!DNL Commerce] アカウントログイン &rbrack;[1]{:target=&quot;_blank&quot;&lbrack;} に移動します。
 
 1. ユーザー名とパスワードの資格情報を入力し、「**[!UICONTROL Login]**」を選択します。
 
@@ -270,7 +270,7 @@ TFA を使用するには、TFA アプリケーションがパーソナルデバ
 >
 >組織のセキュリティポリシーでAdobe Commerce アカウントに多要素認証が必要な場合、2 要素認証を無効にすることはできません。
 
-1. [!DNL Commerce] アカウントログイン ][1]{:target=&quot;_blank&quot;[} に移動します。
+1. [!DNL Commerce] アカウントログイン &rbrack;[1]{:target=&quot;_blank&quot;&lbrack;} に移動します。
 
 1. ユーザー名とパスワードの資格情報を入力し、「**[!UICONTROL Login]**」を選択します。
 

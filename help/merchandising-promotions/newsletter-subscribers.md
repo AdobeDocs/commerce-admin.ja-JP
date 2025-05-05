@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL All Customers]** に移動します。
 
-1. グリッドで顧客を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
+1. グリッドで顧客を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. 左側のパネルで「**[!UICONTROL Newsletter]**」をクリックします。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ## サブスクライバーリストからのサブスクリプションのキャンセル
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Newsletter Subscribers]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Newsletter Subscribers]**&#x200B;に移動します。
 
    一部の顧客が複数のサイトの購読を持っているマルチサイト設定の場合、各購読はグリッドに行項目として表示されます。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
    >
    >一括登録解除の場合は、キャンセルする各購読者のチェックボックスを選択します。
 
-1. _[!UICONTROL Action]_コントロールを&#x200B;**[!UICONTROL Unsubscribe]**に設定し、**[!UICONTROL Submit]**をクリックします。
+1. _[!UICONTROL Action]_&#x200B;コントロールを&#x200B;**[!UICONTROL Unsubscribe]**&#x200B;に設定し、**[!UICONTROL Submit]**&#x200B;をクリックします。
 
    ![ ニュースレターの登録解除 ](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ## サブスクライバーのリストのエクスポート
 
-1. _[!UICONTROL Newsletter Subscribers]_リストから、フィルターコントロールを使用して、`Subscribed` の_ ステータス _を持つレコードと、適切な web サイト、ストアまたはストア表示のレコードのみを含めます。
+1. _[!UICONTROL Newsletter Subscribers]_&#x200B;リストから、フィルターコントロールを使用して、`Subscribed` の_ ステータス _を持つレコードと、適切な web サイト、ストアまたはストア表示のレコードのみを含めます。
 
 1. **[!UICONTROL Export to]** コントロールを次のいずれかに設定します。
 
@@ -79,10 +79,10 @@ ht-degree: 0%
 
 ## サブスクライバーリストからサブスクライバーを削除します
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Newsletter Subscribers]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Newsletter Subscribers]**&#x200B;に移動します。
 
 1. グリッドで購読者を見つけ、最初の列のチェックボックスを選択します。
 
-1. _[!UICONTROL Action]_コントロールを&#x200B;**[!UICONTROL Delete]**に設定し、**[!UICONTROL Submit]**をクリックします。
+1. _[!UICONTROL Action]_&#x200B;コントロールを&#x200B;**[!UICONTROL Delete]**&#x200B;に設定し、**[!UICONTROL Submit]**&#x200B;をクリックします。
 
 1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL OK]**」をクリックします。

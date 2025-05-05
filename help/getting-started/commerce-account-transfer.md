@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Continue]**」をクリックします。
 
-   これにより、Adobe IDが作成され、現在のCommerce アカウント（MAGEID）にリンクされます。 このアカウントリンクを使用すると、_[!UICONTROL Email]_フィールドはすべての変更からブロックされます。 関連付けられているメールアドレスは、Adobe ID アカウントで管理されます。
+   これにより、Adobe IDが作成され、現在のCommerce アカウント（MAGEID）にリンクされます。 このアカウントリンクを使用すると、_[!UICONTROL Email]_&#x200B;フィールドはすべての変更からブロックされます。 関連付けられているメールアドレスは、Adobe ID アカウントで管理されます。
 
 1. [account.adobe.com](https://account.adobe.com/) に移動します。
 

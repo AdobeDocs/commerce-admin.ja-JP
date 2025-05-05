@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
-1. グリッドに追加する製品の _[!UICONTROL Action]_列に移動し、「**[!UICONTROL Edit]**」をクリックします。
+1. グリッドに追加する製品の _[!UICONTROL Action]_&#x200B;列に移動し、「**[!UICONTROL Edit]**」をクリックします。
 
 1. 下にスクロールして、「展開セレクター ![ 展開セレクター ](../assets/icon-display-expand.png) 「_[!UICONTROL Product in Shared Catalogs]_」セクションを展開し、次の操作を実行します。
 

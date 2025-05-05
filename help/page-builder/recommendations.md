@@ -45,11 +45,11 @@ _Product Recommendations_ コンテンツタイプを使用して、CMS ペー�
 
 1. ページ、ブロック、またはダイナミックブロックを編集モードで開きます。
 
-1. 「_[!UICONTROL Content]_」セクションを展開し、コンテンツプレビュー領域の&#x200B;**[!UICONTROL Edit with Page Builder]**または内部をクリックして、[!DNL Page Builder] ワークスペースを開きます。
+1. 「_[!UICONTROL Content]_」セクションを展開し、コンテンツプレビュー領域の&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;または内部をクリックして、[!DNL Page Builder] ワークスペースを開きます。
 
-1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_の下にある&#x200B;**[!UICONTROL Row]**プレースホルダーをステージにドラッグします。
+1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_&#x200B;の下にある&#x200B;**[!UICONTROL Row]**&#x200B;プレースホルダーをステージにドラッグします。
 
-1. [!DNL Page Builder] パネルの _[!UICONTROL Add Content]_の下で、**[!UICONTROL Product Recommendation]**プレースホルダーを行にドラッグします。
+1. [!DNL Page Builder] パネルの _[!UICONTROL Add Content]_&#x200B;の下で、**[!UICONTROL Product Recommendation]**&#x200B;プレースホルダーを行にドラッグします。
 
    ![ 製品レコメンデーションコンテンツタイプの追加 ](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -68,7 +68,7 @@ _Product Recommendations_ コンテンツタイプを使用して、CMS ペー�
 
 1. 右上隅の「**[!UICONTROL Add Selected]**」をクリックします。
 
-   選択した製品レコメンデーションの名前が、_[!UICONTROL Edit Product Recommendation]_のページの「_[!UICONTROL Selection]_」セクションに表示されます。
+   選択した製品レコメンデーションの名前が、_[!UICONTROL Edit Product Recommendation]_&#x200B;のページの「_[!UICONTROL Selection]_」セクションに表示されます。
 
 1. [ 詳細設定 ](#advanced-settings) に必要な変更を加えます。
 

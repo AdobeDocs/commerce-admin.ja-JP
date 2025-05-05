@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## ステージングダッシュボードの表示
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Content Staging]_/**[!UICONTROL Dashboard]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Content Staging]_/**[!UICONTROL Dashboard]**&#x200B;に移動します。
 
 1. ダッシュボードの形式を変更するには、**[!UICONTROL View As]** コントロールを `list`、`Grid`、または `Timeline` に設定します。
 
@@ -69,11 +69,11 @@ ht-degree: 0%
 
 このキャンペーン内のオブジェクトを編集するには、次の手順に従います。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Content Staging]_/**[!UICONTROL Dashboard]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Content Staging]_/**[!UICONTROL Dashboard]**&#x200B;に移動します。
 
 1. 表示されたリストまたはタイムラインでキャンペーンを見つけて、開いて詳細にアクセスします。
 
-   - リストを表示するには、「**[!UICONTROL Select]**」をクリックし、_[!UICONTROL Action]_の列の「**[!UICONTROL View/Edit]**」をクリックします。
+   - リストを表示するには、「**[!UICONTROL Select]**」をクリックし、_[!UICONTROL Action]_&#x200B;の列の「**[!UICONTROL View/Edit]**」をクリックします。
    - タイムライン表示の場合、1 回クリックして概要を表示し、「**[!UICONTROL View/Edit]**」をクリックします。
 
 1. 必要に応じて、「_[!UICONTROL General]_」セクションの設定を更新します。

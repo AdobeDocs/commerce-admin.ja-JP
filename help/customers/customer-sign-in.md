@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ログイン後に顧客を自分のアカウントダッシュボードにリダイレクトしたり、買い物を続行させたりするように、ストアを設定できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Customer Configuration]**」を選択します。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 ## 顧客アカウントからのログアウト
 
-1. _[!UICONTROL Welcome, Customer Name!]_の横にある右上隅で、顧客は「**[!UICONTROL v]**」メニューセレクターをクリックします。
+1. _[!UICONTROL Welcome, Customer Name!]_&#x200B;の横にある右上隅で、顧客は「**[!UICONTROL v]**」メニューセレクターをクリックします。
 
 1. 「**[!UICONTROL Sign Out]**」を選択します。
 

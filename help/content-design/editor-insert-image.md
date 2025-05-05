@@ -29,7 +29,7 @@ ht-degree: 0%
 
    ![ 画像を挿入アイコン ](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   この操作を実行すると、_[!UICONTROL Insert/edit image]_ダイアログが開きます。
+   この操作を実行すると、_[!UICONTROL Insert/edit image]_&#x200B;ダイアログが開きます。
 
 1. **Source** の場合は、「_検索_ アイコンをクリックし、使用する画像アセットの場所に一致するメソッドを使用します。
 
@@ -55,13 +55,13 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >この方法を使用するには、管理者向けに設定された ](adobe-stock.md)0}Adobe Stock統合 } が必要です。[
+     >この方法を使用するには、管理者向けに設定された [&#128279;](adobe-stock.md)0&rbrace;Adobe Stock統合 &rbrace; が必要です。
 
       - 「**[!UICONTROL Search Adobe Stock]**」をクリックして画像を検索します。
 
       - プレビューまたはライセンス済み画像をギャラリーに保存します。
 
-        [2}Adobe Stock](adobe-stock-manage.md) アセットの操作について詳しくは、{Adobe Stock画像の使用 ](https://stock.adobe.com) を参照してください。[
+        [2&rbrace;Adobe Stock](adobe-stock-manage.md) アセットの操作について詳しくは、&lbrace;Adobe Stock画像の使用 [&#128279;](https://stock.adobe.com) を参照してください。
 
       - ギャラリーでアセットのサムネールを選択し、「**[!UICONTROL Add Selected]**」をクリックします。
 

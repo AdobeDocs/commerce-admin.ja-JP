@@ -54,7 +54,7 @@ ht-degree: 0%
 
      ![Sourceを選択して数量を入力 ](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. _[!UICONTROL New Shipment]_ページをレビューし、必要に応じて追加の変更を入力します。
+1. _[!UICONTROL New Shipment]_&#x200B;ページをレビューし、必要に応じて追加の変更を入力します。
 
    「_[!UICONTROL Inventory]_」セクションには、ソース、製品出荷、合計受注数量および出荷数量が表示されます。
 

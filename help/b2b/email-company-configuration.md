@@ -15,7 +15,7 @@ ht-degree: 0%
 
 会社の主要連絡先として割り当てられた [ 営業担当者 ](account-company-manage.md) は、デフォルトで、会社に送信される多くの自動メールメッセージの送信者として設定されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Company Configuration]**」を選択します。
 

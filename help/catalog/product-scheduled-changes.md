@@ -53,7 +53,7 @@ ht-degree: 0%
 
    ![ 新しい更新としてスケジュール ](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Price]_まで下にスクロールし、「**[!UICONTROL Advanced Pricing]**」をクリックします。
+1. _[!UICONTROL Price]_&#x200B;まで下にスクロールし、「**[!UICONTROL Advanced Pricing]**」をクリックします。
 
 1. スケジュール済みキャンペーン中に製品の **[!UICONTROL Special Price]** を入力し、「**[!UICONTROL Done]**」をクリックします。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 ## スケジュールされた変更の編集
 
-1. ページ上部の _[!UICONTROL Scheduled Changes]_ボックスで、[**[!UICONTROL View/Edit]**] をクリックします。
+1. ページ上部の _[!UICONTROL Scheduled Changes]_&#x200B;ボックスで、[**[!UICONTROL View/Edit]**] をクリックします。
 
 1. スケジュールされている更新に必要な変更を加えます。
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 ## スケジュールされている変更を削除
 
-1. ページ上部の _[!UICONTROL Scheduled Changes]_ボックスで、[**[!UICONTROL View/Edit]**] をクリックします。
+1. ページ上部の _[!UICONTROL Scheduled Changes]_&#x200B;ボックスで、[**[!UICONTROL View/Edit]**] をクリックします。
 
 1. 上部のバーで「**[!UICONTROL Remove from Update]**」をクリックします。
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 {{ce-feature}}
 
-_[!UICONTROL Schedule Design Update]_のセクションでは、製品ページの外観を一時的に変更できます。 デザインの変更は、シーズンやプロモーションに合わせてスケジュールを設定することも、新鮮なものにするためだけにスケジュールを設定することもできます。 デザインの変更は事前にスケジュールできるので、定義したスケジュールに従って有効または_ ドリップ _されます。
+_[!UICONTROL Schedule Design Update]_&#x200B;のセクションでは、製品ページの外観を一時的に変更できます。 デザインの変更は、シーズンやプロモーションに合わせてスケジュールを設定することも、新鮮なものにするためだけにスケジュールを設定することもできます。 デザインの変更は事前にスケジュールできるので、定義したスケジュールに従って有効または_ ドリップ _されます。
 
 ![ スケジュールされたデザインの更新 ](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
 

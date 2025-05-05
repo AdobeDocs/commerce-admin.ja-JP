@@ -23,7 +23,7 @@ ht-degree: 0%
 | フィールド | 対象範囲 | 説明 |
 |  ---  |  ---  |  ---  |
 | [!UICONTROL Add Store Code to URLs] | グローバル | Web Server Rewrites が有効な場合、は現在のビューのストア・コードを URL に挿入します。 オプション：`Yes`/`No`。 <br /> このフィールドを `Yes` に設定した場合、URL の書き換えが正しくマッピングされ、すべてのページが正常に開かれるように、ブラウザーの URL にストアコードを含める必要があります。 これにより、_404 Page Not Found_ エラーが回避されます。 |
-| [!UICONTROL Auto-redirect to Base URL] | ストア表示 | （シングルストア設定の場合）サイトに壊れたリンクがある場合、は、「404 Page Not Found」というメッセージを含んだページではなく、ベース URL にトラフィックをリダイレクトします。 オプション：` No`/`Yes (302 Found)`/`Yes (301 Moved Permanently)` <br />**_重要：_**マルチストアの設定で、自動リダイレクトをベース URL に使用しないでください。 |
+| [!UICONTROL Auto-redirect to Base URL] | ストア表示 | （シングルストア設定の場合）サイトに壊れたリンクがある場合、は、「404 Page Not Found」というメッセージを含んだページではなく、ベース URL にトラフィックをリダイレクトします。 オプション：` No`/`Yes (302 Found)`/`Yes (301 Moved Permanently)` <br />**_重要：_**&#x200B;マルチストアの設定で、自動リダイレクトをベース URL に使用しないでください。 |
 | [!UICONTROL Catalog media URL format] | グローバル | 製品およびカテゴリに割り当てる [URL 形式 ](../../catalog/catalog-urls.md) を定義します。 オプション：画像バリアントごとの一意のハッシュ（レガシーモード）は、変換されたファイル名を一意のハッシュ値として定義します。 クエリパラメーターに基づく画像の最適化では、クエリパラメーターに応じてプロセスを [ 画像の最適化 ](../../content-design/media-gallery-image-optimization.md) 定義します。 |
 
 {style="table-layout:auto"}

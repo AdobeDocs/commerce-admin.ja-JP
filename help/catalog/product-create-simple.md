@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
-1. 右上の _[!UICONTROL Add Product]_（メニュー矢印 ![ メニューで ](../assets/icon-menu-down-arrow-red.png){width="25"} 「」を選択&#x200B;**[!UICONTROL Simple Product]**ます。
+1. 右上の _[!UICONTROL Add Product]_（メニュー矢印 ![ メニューで ](../assets/icon-menu-down-arrow-red.png){width="25"} 「」を選択&#x200B;**[!UICONTROL Simple Product]**&#x200B;ます。
 
    ![ シンプルな製品を追加 ](./assets/product-add-simple.png){width="700" zoomable="yes"}
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 1. `Catalog, Search` のデフォルトの **[!UICONTROL Visibility]** 設定を受け入れます。
 
-1. 製品に _[!UICONTROL Categories]_を割り当てるには、**[!UICONTROL Select…]**のボックスをクリックし、次のいずれかの操作を行います。
+1. 製品に _[!UICONTROL Categories]_&#x200B;を割り当てるには、**[!UICONTROL Select…]**&#x200B;のボックスをクリックし、次のいずれかの操作を行います。
 
    **既存のカテゴリを選択**:
 

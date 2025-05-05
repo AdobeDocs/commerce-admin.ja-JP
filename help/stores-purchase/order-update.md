@@ -75,7 +75,7 @@ ht-degree: 0%
 
 **_オーダーを無効にするには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**&#x200B;に移動します。
 
 1. 編集する順序の **[!UICONTROL Action]** 列で、「**[!UICONTROL View]**」をクリックします。
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ## 保留中の注文を編集
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**&#x200B;に移動します。
 
 1. 編集する順序の **[!UICONTROL Action]** 列で、「**[!UICONTROL View]**」をクリックします。
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 注文をキャンセルすると、ステータスが `Pending` から `Canceled` に変更されます。
 
-1. _[!UICONTROL Orders]_グリッドで、キャンセルする保留中の注文を見つけます。
+1. _[!UICONTROL Orders]_&#x200B;グリッドで、キャンセルする保留中の注文を見つけます。
 
 1. 「_[!UICONTROL Action]_」列で「**[!UICONTROL View]**」をクリックします。
 

@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 左側のパネルで、「**[!UICONTROL My Quotes]**」を選択します。
 
-1. リストで引用符を検索し、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL View]**をクリックします。
+1. リストで引用符を検索し、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL View]**&#x200B;をクリックします。
 
 ## 見積もりのコピー
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 1. 左側のパネルで、「**[!UICONTROL My Quote Templates]**」を選択します。
 
-1. **[!UICONTROL My Quotes]** リストで引用符を検索し、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Create Quote Template]**をクリックします。
+1. **[!UICONTROL My Quotes]** リストで引用符を検索し、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Create Quote Template]**&#x200B;をクリックします。
 
 ## 見積から購買依頼リストへの明細品目の移動
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 1. ライン項目を選択します。
 
-1. _[!UICONTROL Actions]_ドロップダウンで「**[!UICONTROL Move to Requisition list]**」をクリックします。
+1. _[!UICONTROL Actions]_&#x200B;ドロップダウンで「**[!UICONTROL Move to Requisition list]**」をクリックします。
 
 1. 既存の購買依頼リストを選択し、選択した品目を移動します。
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 1. ライン項目を選択します。
 
-1. _[!UICONTROL Actions]_ドロップダウンで「**[!UICONTROL Move item to new quote]**」をクリックします。
+1. _[!UICONTROL Actions]_&#x200B;ドロップダウンで「**[!UICONTROL Move item to new quote]**」をクリックします。
 
 1. モーダルで新しい引用符に名前を付けます。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 ## 見積もりを印刷する
 
-1. _[!UICONTROL Items Quoted]_のセクションの右側にある開始引用符で、購入者は「**[!UICONTROL Print]**」をクリックします。
+1. _[!UICONTROL Items Quoted]_&#x200B;のセクションの右側にある開始引用符で、購入者は「**[!UICONTROL Print]**」をクリックします。
 
 1. **[!UICONTROL Destination]** がプリンタかPDFかを確認します。
 
@@ -158,13 +158,13 @@ ht-degree: 0%
 
 1. 「引用項目」セクションのすぐ上にある開始引用符で、「**[!UICONTROL Close quote]**」をクリックします。
 
-   リクエストがキャンセルされ、見積もりステータスが `Closed` に変わります。 クローズド引用符は引用符のリストに残り、管理者から _[!UICONTROL Quotes]_グリッドにリストされたままになります。
+   リクエストがキャンセルされ、見積もりステータスが `Closed` に変わります。 クローズド引用符は引用符のリストに残り、管理者から _[!UICONTROL Quotes]_&#x200B;グリッドにリストされたままになります。
 
 1. キャンセルした見積を見積の一覧から削除するには、[**[!UICONTROL Delete]**] をクリックします。
 
 1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL OK]**」をクリックします。
 
-   クローズした見積は、見積のリストから削除されます。 ただし、管理者の _[!UICONTROL Quotes]_グリッドには `Closed` ステータスで表示されたままになります。
+   クローズした見積は、見積のリストから削除されます。 ただし、管理者の _[!UICONTROL Quotes]_&#x200B;グリッドには `Closed` ステータスで表示されたままになります。
 
 ## 見積もりアクション
 
@@ -184,6 +184,6 @@ ht-degree: 0%
 | [!UICONTROL Quote Name] | 購買担当によって見積依頼に割り当てられた名前。 |
 | [!UICONTROL Created] | 見積もり依頼が最初に送信された日付。 |
 | [!UICONTROL Created By] | 見積依頼を送信した購買担当の氏名。 |
-| [!UICONTROL Status] | 見積もりの状態を示します。 見積もりのステータスは、買い手または売り手の側の行動によってのみ変更できます。 <br/>**[!UICONTROL Submitted]**– 見積もりに対する購入者の要求が販売者によって開かれていません。 この状態でも、購買担当は見積依頼を変更できます。 使用可能なアクション：`View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** – 販売者がリクエストを開き、リクエストを確認して応答を準備する処理中です。 使用可能なアクション：`View` / `Close` <br/>**[!UICONTROL Updated]**– 売り手は買い手に応答を送信し、_[!UICONTROL Proceed to Checkout]_ボタンが有効になっています。 この状態の間、購入者は引き続き見積もりを変更できます。 使用可能な処理：`View`/`Send for Review`/`Proceed to Checkout`/`Delete Quote`/`Close`/`Edit Quantity`/`Delete SKU`/`Add comments`/`Edit Shipping Address`<br/>**[!UICONTROL Open]**– 購買担当は引き続き見積を更新中で、「_[!UICONTROL Proceed to Checkout]_」ボタンは無効化されています。 使用可能な処理：`View`/`Send for Review`/`Delete Quote`/`Edit quantity`/`Delete SKU`/`Add Comments`/`Edit Shipping Address`<br/>**[!UICONTROL Ordered]**：購買担当は、交渉済の見積に基づいて受注を発行しました。 見積もりはロックされており、編集できません。 使用可能な処理：表示<br/>**[!UICONTROL Closed]**：購買担当がネゴシエーションを終了し、見積を取り消します。 見積もりはロックされており、購入者または販売者が編集することはできません。 使用可能な処理：`View` / `Delete` <br/>**[!UICONTROL Declined]**– 売主が見積の要求を拒否したか、ネゴシエーション・プロセス中に提案された変更を行います。 見積もりは、ワークフローのどの段階でも却下できます。 カスタム価格はすべて見積りから削除されます。 買い手は見積もりを編集し続けて再発行するか、標準のカタログ価格で購入できます。 使用可能なアクション：`View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** – 見積もりの有効期限が切れています。 提案された価格はすべてリセットされます。 バイヤーは、標準カタログ価格に基づいて購入を完了するか、別の交渉ラウンドを開始できます。 使用可能なアクション：`View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
+| [!UICONTROL Status] | 見積もりの状態を示します。 見積もりのステータスは、買い手または売り手の側の行動によってのみ変更できます。 <br/>**[!UICONTROL Submitted]**– 見積もりに対する購入者の要求が販売者によって開かれていません。 この状態でも、購買担当は見積依頼を変更できます。 使用可能なアクション：`View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** – 販売者がリクエストを開き、リクエストを確認して応答を準備する処理中です。 使用可能なアクション：`View` / `Close` <br/>**[!UICONTROL Updated]**– 売り手は買い手に応答を送信し、_[!UICONTROL Proceed to Checkout]_&#x200B;ボタンが有効になっています。 この状態の間、購入者は引き続き見積もりを変更できます。 使用可能な処理：`View`/`Send for Review`/`Proceed to Checkout`/`Delete Quote`/`Close`/`Edit Quantity`/`Delete SKU`/`Add comments`/`Edit Shipping Address`<br/>**[!UICONTROL Open]**– 購買担当は引き続き見積を更新中で、「_[!UICONTROL Proceed to Checkout]_」ボタンは無効化されています。 使用可能な処理：`View`/`Send for Review`/`Delete Quote`/`Edit quantity`/`Delete SKU`/`Add Comments`/`Edit Shipping Address`<br/>**[!UICONTROL Ordered]**：購買担当は、交渉済の見積に基づいて受注を発行しました。 見積もりはロックされており、編集できません。 使用可能な処理：表示<br/>**[!UICONTROL Closed]**：購買担当がネゴシエーションを終了し、見積を取り消します。 見積もりはロックされており、購入者または販売者が編集することはできません。 使用可能な処理：`View` / `Delete` <br/>**[!UICONTROL Declined]**– 売主が見積の要求を拒否したか、ネゴシエーション・プロセス中に提案された変更を行います。 見積もりは、ワークフローのどの段階でも却下できます。 カスタム価格はすべて見積りから削除されます。 買い手は見積もりを編集し続けて再発行するか、標準のカタログ価格で購入できます。 使用可能なアクション：`View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** – 見積もりの有効期限が切れています。 提案された価格はすべてリセットされます。 バイヤーは、標準カタログ価格に基づいて購入を完了するか、別の交渉ラウンドを開始できます。 使用可能なアクション：`View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
 
 {style="table-layout:auto"}

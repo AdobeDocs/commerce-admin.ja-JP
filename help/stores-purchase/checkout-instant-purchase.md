@@ -48,7 +48,7 @@ _即時購入_ を使用すると、お客様は、アカウントに保存さ�
 
 ### 手順 1：設定ページを開く
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 ### 手順 2：支払い方法 Vault の設定
 

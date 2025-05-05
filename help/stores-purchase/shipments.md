@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 出荷
 
-_[!UICONTROL Shipments]_グリッドには、出荷用に準備されたすべての請求書の出荷記録が表示されます。 出荷レコードは、注文が [ 請求 ](invoices.md) 以降の場合に生成できます。
+_[!UICONTROL Shipments]_&#x200B;グリッドには、出荷用に準備されたすべての請求書の出荷記録が表示されます。 出荷レコードは、注文が [ 請求 ](invoices.md) 以降の場合に生成できます。
 
 Adobe CommerceとMagento Open Sourceでは、[Inventory management](../inventory-management/introduction.md) およびサードパーティの拡張機能から利用できるその他のオプションを使用して、部分的な注文と完全な注文の出荷をサポートしています。
 
@@ -77,7 +77,7 @@ Adobe CommerceとMagento Open Sourceでは、[Inventory management](../inventory
 
 1. 「**[!UICONTROL Ship]**」をクリックします。
 
-1. _[!UICONTROL Payment & Shipping Method]_ブロックまで下にスクロールし、「**[!UICONTROL Add Tracking Number]**」をクリックします。
+1. _[!UICONTROL Payment & Shipping Method]_&#x200B;ブロックまで下にスクロールし、「**[!UICONTROL Add Tracking Number]**」をクリックします。
 
 1. Set **[!UICONTROL Carrier]**:
 
@@ -98,7 +98,7 @@ Adobe CommerceとMagento Open Sourceでは、[Inventory management](../inventory
 
 1. 出荷を検索し、編集モードで開きます。
 
-1. _[!UICONTROL Payment & Shipping Method]_ブロックまで下にスクロールします。
+1. _[!UICONTROL Payment & Shipping Method]_&#x200B;ブロックまで下にスクロールします。
 
 1. **[!UICONTROL Carrier]** を選択します。
 
@@ -132,7 +132,7 @@ Adobe CommerceとMagento Open Sourceでは、[Inventory management](../inventory
 
 ## 出荷のコメントを設定します
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 「_[!UICONTROL Sales]_」で、「**[!UICONTROL Sales Email]**」を選択します。
 
@@ -166,7 +166,7 @@ Adobe CommerceとMagento Open Sourceでは、[Inventory management](../inventory
 
 1. 左側のパネルで「**[!UICONTROL Shipments]**」を選択します。
 
-   出荷をキャンセルできる場合は、上部のボタンバーにオプションとして _[!UICONTROL Cancel Shipment]_が表示されます。
+   出荷をキャンセルできる場合は、上部のボタンバーにオプションとして _[!UICONTROL Cancel Shipment]_&#x200B;が表示されます。
 
 1. 「**[!UICONTROL Cancel Shipment]**」をクリックします。
 

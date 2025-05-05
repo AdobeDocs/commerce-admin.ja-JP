@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## スケジュールされたデザインの変更を追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Schedule]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Schedule]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add Design Change]**」をクリックします。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## スケジュールされたデザインの変更を編集
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Schedule]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Schedule]**&#x200B;に移動します。
 
 1. 編集する項目を選択します。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## スケジュールされたデザインの変更を削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Schedule]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Schedule]**&#x200B;に移動します。
 
 1. 削除する項目を選択します。
 

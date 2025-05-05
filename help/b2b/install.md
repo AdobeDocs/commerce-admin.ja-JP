@@ -174,7 +174,7 @@ Adobe Commerce B2B 拡張機能は、メッセージキューの管理に MySQL 
 | `purchaseorder.validation` | 関連する [ 承認ルール ](account-dashboard-approval-rules.md) に対して発注書を検証します。 管理システムの設定で「[**[!UICONTROL Purchase Orders]**](purchase-order-flow.md)」オプションが有効になっている場合は必須です。 |
 | `quoteItemCleaner` | 商品がカタログから削除された場合、または買い物かごから削除された場合に、無効または非アクティブな価格見積を削除します。 管理システムの設定で「[**[!UICONTROL Quotes]**](quotes.md)」オプションが有効になっている場合は必須です。 |
 | `inventoryQtyCounter` | 注文または製品の削除後に、在庫インデックスを非同期で修正します。 Admin 設定でInventory managementに対して「[**[!UICONTROL Use deferred stock update]**](../configuration-reference/catalog/inventory.md#product-stock-options)」オプションが有効になっている場合は必須です。 [ パフォーマンスのベストプラクティス ](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration#deferred-stock-update) を参照してください。 |
-| `async.operations.all` | 品目のインポートまたはエクスポート、一括スケールでの価格の変更、倉庫への製品の割り当てなど ](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/) 一括操作 [ の個々のタスクごとにメッセージを作成します。 [!DNL Inventory Management] の [**管理者の一括操作**](../configuration-reference/catalog/inventory.md#admin-bulk-operations) オプションが管理システムの設定で **非同期で実行** に設定されている場合に必要です。 |
+| `async.operations.all` | 品目のインポートまたはエクスポート、一括スケールでの価格の変更、倉庫への製品の割り当てなど [&#128279;](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/) 一括操作  の個々のタスクごとにメッセージを作成します。 [!DNL Inventory Management] の [**管理者の一括操作**](../configuration-reference/catalog/inventory.md#admin-bulk-operations) オプションが管理システムの設定で **非同期で実行** に設定されている場合に必要です。 |
 
 {style="table-layout:auto"}
 

@@ -26,7 +26,7 @@ _小計ゼロのチェックアウト_ は、割引が適用された後に課�
 
 **_ゼロ小計チェックアウトを設定するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Payment Methods]**」を選択します。
 
@@ -52,12 +52,12 @@ _小計ゼロのチェックアウト_ は、割引が適用された後に課�
 
    >[!NOTE]
    >
-   >_[!UICONTROL New Order Status]_が `Processing` に設定され、_[!UICONTROL Automatically Invoice All Items]_ が `No` に設定されている場合、「[ 注文ステータス ](order-status.md#custom-order-status)」ページで **[!UICONTROL Order State]** = `Pending` および **[!UICONTROL Default Status]** = `No` マッピングに **[!UICONTROL Order Status]** = `Processing` を割り当てる必要もあります。
+   >_[!UICONTROL New Order Status]_&#x200B;が `Processing` に設定され、_[!UICONTROL Automatically Invoice All Items]_ が `No` に設定されている場合、「[ 注文ステータス ](order-status.md#custom-order-status)」ページで **[!UICONTROL Order State]** = `Pending` および **[!UICONTROL Default Status]** = `No` マッピングに **[!UICONTROL Order Status]** = `Processing` を割り当てる必要もあります。
 
 1. **[!UICONTROL Payment from Applicable Countries]** を次のいずれかに設定します。
 
    - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、それぞれのオプションをクリックします。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、それぞれのオプションをクリックします。
 
 1. **[!UICONTROL Sort Order]** の場合は、チェックアウト時に表示される支払い方法の一覧で、この項目の位置を決定する数値を入力します。
 

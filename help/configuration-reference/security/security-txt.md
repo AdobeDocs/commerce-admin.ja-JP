@@ -44,7 +44,7 @@ ht-degree: 0%
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Encryption] | Web サイト | セキュリティの研究者が暗号化された通信の送信に使用できる暗号化キーの場所を指す URL。 _**このフィールドには暗号化キーを入力しないでください。**_ <br/><br/> 鍵が信頼できる情報源からのものであることを確認するのは、研究者の責任です。 研究者は、キーがデジタル署名の生成に使用されたものと同じであると想定してはなりません。 例：<br />OpenPGP キー（web サーバーから） - `https://mystore.com/pgp-key.txt` |
+| [!UICONTROL Encryption] | Web サイト | セキュリティの研究者が暗号化された通信の送信に使用できる暗号化キーの場所を指す URL。 _&#x200B;**このフィールドには暗号化キーを入力しないでください。**&#x200B;_ <br/><br/> 鍵が信頼できる情報源からのものであることを確認するのは、研究者の責任です。 研究者は、キーがデジタル署名の生成に使用されたものと同じであると想定してはなりません。 例：<br />OpenPGP キー（web サーバーから） - `https://mystore.com/pgp-key.txt` |
 | [!UICONTROL Acknowledgments] | Web サイト | セキュリティ調査者が確認されているストア内のページを指す URL。`https://mystore.com/hall-of-fame.html` など。 今後の攻撃を防ぐには、脆弱性の問題に関する具体的な情報を明らかにせずに、一般的な説明のみを含めます。 例：<br /> 次の研究者の皆様に感謝します。<br /> （yyyy/mm/dd） Justin Thyme - SQL injection |
 | [!UICONTROL Preferred Languages] | Web サイト | セキュリティ レポートの優先言語を少なくとも 1 つ指定します。 複数の 2 文字 [ 言語コード ](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) をコンマで区切ります。 指定した言語の優先度はすべて同じです。 例えば、英語、スペイン語、フランス語を指定するには、「`en, es, fr`」と入力します。 |
 | [!UICONTROL Hiring] | Web サイト | セキュリティ関連のジョブ ポジションを一覧表示するサイト上のページの URL。 例：`https://mystore.com/jobs.html` |

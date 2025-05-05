@@ -23,11 +23,11 @@ ht-degree: 0%
 
 ### データコレクターの実行
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL Data Collector]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL Data Collector]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL New Backup]**」をクリックします。
 
-   バックアップの生成には数分かかります。 「**[!UICONTROL Refresh Status]**」をクリックすると、処理の結果を監視できます。 完了すると、バックアップが _[!UICONTROL Data Collector]_グリッドに表示されます。
+   バックアップの生成には数分かかります。 「**[!UICONTROL Refresh Status]**」をクリックすると、処理の結果を監視できます。 完了すると、バックアップが _[!UICONTROL Data Collector]_&#x200B;グリッドに表示されます。
 
 1. バックアップの詳細を含むログを表示するには、次の手順を実行します。
 
@@ -55,13 +55,13 @@ ht-degree: 0%
 
 1. ステータスが `Complete` であることを確認します。
 
-1. _[!UICONTROL Code Dump]_列または_[!UICONTROL DB Dump]_ 列のエンティティ名をクリックします。
+1. _[!UICONTROL Code Dump]_&#x200B;列または&#x200B;_[!UICONTROL DB Dump]_ 列のエンティティ名をクリックします。
 
 ダウンロードプロセスが自動的に開始します。
 
 ## バックアップデータの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL Data Collector]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL Data Collector]**&#x200B;に移動します。
 
 1. 削除するバックアップデータを検索して選択します。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 ### システムレポートへのアクセス
 
-_管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL System Report]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL System Report]**&#x200B;に移動します。
 
 ![ 管理者 – システムレポート ](./assets/reports.png){width="600" zoomable="yes"}
 
@@ -99,7 +99,7 @@ _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/
 
 **_インストールされている各モジュールのレポート情報を表示するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL System Report]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL System Report]**&#x200B;に移動します。
 1. 「**[!UICONTROL New Report]**」をクリックします。
 1. リストから `Modules` を選 **[!UICONTROL Groups]** します。
 1. 「**[!UICONTROL Create]**」をクリックします。
@@ -116,7 +116,7 @@ _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/
 
 ### システムレポートの詳細の表示
 
-1. 必要なレポートの _[!UICONTROL Actions]_列で「**[!UICONTROL View]**」を選択します。
+1. 必要なレポートの _[!UICONTROL Actions]_&#x200B;列で「**[!UICONTROL View]**」を選択します。
 
 1. 左側のパネルで ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、レポートの各セクションで詳細を表示します。
 

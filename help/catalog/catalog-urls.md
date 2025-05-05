@@ -37,7 +37,7 @@ URL キーは、製品またはカテゴリを説明する静的 URL の一部�
 
 >[!NOTE]
 >
->デフォルトでは、アクセント付きの特殊文字は、URL キー内の通常のアクセント付きでないバージョンに自動的に置き換えられます。 例えば、`ñ` は自動的に `n` に置き換えられます。 この動作は、_[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_設定オプションを `No` に設定することで無効にできます。 [ カタログ URL の設定 ](#configure-catalog-urls) を参照してください。
+>デフォルトでは、アクセント付きの特殊文字は、URL キー内の通常のアクセント付きでないバージョンに自動的に置き換えられます。 例えば、`ñ` は自動的に `n` に置き換えられます。 この動作は、_[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;設定オプションを `No` に設定することで無効にできます。 [ カタログ URL の設定 ](#configure-catalog-urls) を参照してください。
 
 URL キーは、単語を区切るために、これらの文字の間に末尾でないハイフンを含む小文字で構成する必要があります。 URL キーの先頭または末尾にはハイフンを使用できません。 適切にデザインされた「検索エンジンに適した」 URL キーには、検索エンジンによるインデックス作成方法を向上させるために、製品名とキーワードが含まれている場合があります。 URL キーは、URL キーが変更された場合に自動リダイレクトを作成するように設定できます。
 
@@ -76,7 +76,7 @@ URL キーは、単語を区切るために、これらの文字の間に末尾�
 
 ## カタログ URL の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
@@ -102,7 +102,7 @@ URL キーは、単語を区切るために、これらの文字の間に末尾�
 
 ## カタログメディアの URL 形式の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL General]**」を展開し、「**[!UICONTROL Web]**」を選択します。
 
@@ -113,7 +113,7 @@ URL キーは、単語を区切るために、これらの文字の間に末尾�
 | フィールド | [ 範囲 ](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | グローバル | Web サーバーの書き換えが有効な場合、この設定を有効にすると、現在のビューのストア コードが URL に挿入されます。 オプション：`Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | グローバル | （シングルストア設定の場合）サイトに壊れたリンクがある場合、「404 Page Not Found」というメッセージが表示されたページではなく、ベース URL にトラフィックがリダイレクトされます。 オプション：`No`/`Yes (302 Found)`/`Yes (301 Moved Permanently)`<br /><br />**_重要！_**マルチストア設定の場合は、ベース URL への自動リダイレクトを使用しないでください。 |
-| [!UICONTROL Catalog media URL format] | グローバル | 製品およびカテゴリに割り当てる URL フォーマットを定義します。 オプション：<br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**– 変換されたファイル名を一意のハッシュ値として定義します。<br />**[!UICONTROL Image optimization based on query parameters]** - クエリパラメーターに応じて ](../content-design/media-gallery-image-optimization.md) 画像の最適化 [ プロセスを定義します。 |
+| [!UICONTROL Auto-redirect to Base URL] | グローバル | （シングルストア設定の場合）サイトに壊れたリンクがある場合、「404 Page Not Found」というメッセージが表示されたページではなく、ベース URL にトラフィックがリダイレクトされます。 オプション：`No`/`Yes (302 Found)`/`Yes (301 Moved Permanently)`<br /><br />**_重要！_**&#x200B;マルチストア設定の場合は、ベース URL への自動リダイレクトを使用しないでください。 |
+| [!UICONTROL Catalog media URL format] | グローバル | 製品およびカテゴリに割り当てる URL フォーマットを定義します。 オプション：<br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**– 変換されたファイル名を一意のハッシュ値として定義します。<br />**[!UICONTROL Image optimization based on query parameters]** - クエリパラメーターに応じて [&#128279;](../content-design/media-gallery-image-optimization.md) 画像の最適化  プロセスを定義します。 |
 
 {style="table-layout:auto"}

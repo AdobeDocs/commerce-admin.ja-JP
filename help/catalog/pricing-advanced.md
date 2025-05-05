@@ -16,11 +16,11 @@ Adobe CommerceとMagento Open Sourceは、プロモーションや製造元の�
 
 顧客により多くの費用を割り当て、サイトへのトラフィックを促進し、古い在庫を消去するように促す料金を顧客に提供するために、高度な価格で製品の価格を管理します。
 
-_[!UICONTROL Advanced Pricing]_の設定では、特定の顧客グループまたは共有カタログで利用できる特別な価格に必要な条件を定義します。 シンプルな製品、バーチャル製品、ダウンロード可能な製品、バンドル製品には、高度な価格を適用できます。 他の製品タイプに割引価格を適用するには、[ カタログ価格ルール ](../merchandising-promotions/price-rules-catalog.md) を使用します。 詳しくは、「[ 価格範囲 ](catalog-price-scope.md)」を参照してください。
+_[!UICONTROL Advanced Pricing]_&#x200B;の設定では、特定の顧客グループまたは共有カタログで利用できる特別な価格に必要な条件を定義します。 シンプルな製品、バーチャル製品、ダウンロード可能な製品、バンドル製品には、高度な価格を適用できます。 他の製品タイプに割引価格を適用するには、[ カタログ価格ルール ](../merchandising-promotions/price-rules-catalog.md) を使用します。 詳しくは、「[ 価格範囲 ](catalog-price-scope.md)」を参照してください。
 
 詳細な価格データは、製品ページと同期されます。 例えば、階層価格数量を更新すると、製品ページの値が更新されます。
 
-![Adobe Commerce B2B](../assets/b2b.svg) （[Adobe Commerce B2B](./b2b/../introduction.md) でのみ使用可能）共有カタログを使用している場合、高度な価格データが商品ページと共有カタログの両方と同期されます。 例えば、階層価格数量を更新すると、共有カタログおよび製品ページの値が更新されます。 共有カタログに示されているカスタム価格は、顧客グループの価格よりも優先されます。 [2}Adobe Commerce B2B ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) の「カタログの共有価格と構造を設定する _も参照してください。_
+![Adobe Commerce B2B](../assets/b2b.svg) （[Adobe Commerce B2B](./b2b/../introduction.md) でのみ使用可能）共有カタログを使用している場合、高度な価格データが商品ページと共有カタログの両方と同期されます。 例えば、階層価格数量を更新すると、共有カタログおよび製品ページの値が更新されます。 共有カタログに示されているカスタム価格は、顧客グループの価格よりも優先されます。 [2&rbrace;Adobe Commerce B2B ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) の「カタログの共有価格と構造を設定する _も参照してください。_
 
 ![Advanced Pricing](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 
@@ -88,7 +88,7 @@ _[!UICONTROL Advanced Pricing]_の設定では、特定の顧客グループま�
 
 | 項目 | 説明 |
 |----|-----------|
-| [!UICONTROL Website] | グループ価格ルールが適用される web サイトを識別します。 このオプションは、インストールに複数の web サイトがある場合にのみ表示されます。 <br>**_重要：_**[ カタログの価格範囲_ 設定で _Website](catalog-price-scope.md) を選択します。選択しない場合、設定された詳細価格が**すべて&#x200B;**の Web サイトに表示されます。 |
+| [!UICONTROL Website] | グループ価格ルールが適用される web サイトを識別します。 このオプションは、インストールに複数の web サイトがある場合にのみ表示されます。 <br>**_重要：_**&#x200B;[ カタログの価格範囲_ 設定で _Website](catalog-price-scope.md) を選択します。選択しない場合、設定された詳細価格が&#x200B;**すべて&#x200B;**&#x200B;の Web サイトに表示されます。 |
 | [!UICONTROL Group or Catalog] | （必須）割引価格を受け取る資格のある顧客グループまたは共有カタログを識別します。 グループまたはカタログフィールドの値が変更されると、以前の設定に一致した対応するカスタム価格行が共有カタログから削除されます。 <br/>**[!UICONTROL ALL GROUPS]**– すべての顧客グループにルールを適用します。 値は共有カタログに適用されず、詳細価格データの変更は共有カタログと同期されません。<br/>**[!UICONTROL NOT LOGGED IN]** - アカウントにログインしていないゲストおよび顧客にルールを適用します。<br/>**[!UICONTROL Shared Catalogs]**– 特定の共有カタログにルールを適用します。 |
 | 数量 | 階層価格を受け取るために必要な数量を指定します。 |
 | [!UICONTROL Price] | （必須）特定の web サイト内の顧客グループのメンバーに対する固定または割引製品価格を指定します。 オプション：<br/>**[!UICONTROL Fixed]**- （デフォルト）割引価格は固定小数値として入力されます。 例えば、割引価格として `9.99` と入力します。<br/>**[!UICONTROL Discount]** – 割引価格は、基本製品価格に対する割合（%）として入力されます。 例えば、10% の割引を受ける場合は `10` と入力します。 |

@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ### 手順 2:Google MAP プロバイダーの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、「**[!UICONTROL Inventory]**」を選択します。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    ![ 距離ベース SSA のプロバイダ ](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. _[!UICONTROL Google Distance Provider]_のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、設定を指定します。
+1. _[!UICONTROL Google Distance Provider]_&#x200B;のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、設定を指定します。
 
    - **[!UICONTROL Google API Key]**: Google アカウントからコピーしたキーを入力します。
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 ### 手順 2：計算を設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、「**[!UICONTROL Inventory]**」を選択します。
 

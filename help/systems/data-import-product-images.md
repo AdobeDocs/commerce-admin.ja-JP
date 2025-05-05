@@ -58,7 +58,7 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
 
    >[!TIP]
    >
-   >`<Magento-root-folder>/var/import/images` ディレクトリを使用する場合は、_[!UICONTROL Images File Directory]_を空白のままにします。 Adobe CommerceおよびMagento Open Sourceバージョン 2.3.2 以降、これはデフォルトの import images ベースディレクトリです。
+   >`<Magento-root-folder>/var/import/images` ディレクトリを使用する場合は、_[!UICONTROL Images File Directory]_&#x200B;を空白のままにします。 Adobe CommerceおよびMagento Open Sourceバージョン 2.3.2 以降、これはデフォルトの import images ベースディレクトリです。
 
    1 つの `sku` に対して複数の画像を読み込む場合、コンマで区切られた `additional_images` という名前の列に画像を挿入します（まだ追加されていない場合は列を追加します）。 例：`image02.jpg,image03.jpg`
 
@@ -84,7 +84,7 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
 
    >[!NOTE]
    >
-   >Adobe CommerceおよびMagento Open Source `2.3.2` リリース以降、_[!UICONTROL Images File Directory]_で指定されたパスは、images ベースディレクトリ `<remote-storage-root-folder>/var/import/images` へのインポートを連結します。 以前のAdobe CommerceおよびMagento Open Sourceのリリースでは、読み込み処理中にフォルダーへのパスが指定されている限り、Commerce サーバー上で別のフォルダーを使用できます。
+   >Adobe CommerceおよびMagento Open Source `2.3.2` リリース以降、_[!UICONTROL Images File Directory]_&#x200B;で指定されたパスは、images ベースディレクトリ `<remote-storage-root-folder>/var/import/images` へのインポートを連結します。 以前のAdobe CommerceおよびMagento Open Sourceのリリースでは、読み込み処理中にフォルダーへのパスが指定されている限り、Commerce サーバー上で別のフォルダーを使用できます。
 
 1. CSV データで、正しい行に読み込む各画像ファイルの名前を `sku` で入力し、画像タイプ（`base_image`、`small_image`、`thumbnail_image`、`additional_images`）に応じて正しい列に入力します。
 
@@ -106,7 +106,7 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
 
    >[!TIP]
    >
-   >`<Magento-root-folder>/var/import/images` ディレクトリを使用する場合は、_[!UICONTROL Images File Directory]_を空白のままにします。 Adobe CommerceおよびMagento Open Sourceバージョン 2.3.2 以降、これはデフォルトの import images ベースディレクトリです。
+   >`<Magento-root-folder>/var/import/images` ディレクトリを使用する場合は、_[!UICONTROL Images File Directory]_&#x200B;を空白のままにします。 Adobe CommerceおよびMagento Open Sourceバージョン 2.3.2 以降、これはデフォルトの import images ベースディレクトリです。
 
    1 つの `sku` に対して複数の画像を読み込む場合、コンマで区切って、`additional_images` という名前の列に画像を挿入します（まだ追加されていない場合は列を追加します）。`image02.jpg,image03.jpg`
 

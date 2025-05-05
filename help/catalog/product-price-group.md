@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 「_[!UICONTROL Customer Group Price]_」セクションで、「**[!UICONTROL Add]**」をクリックします。
 
-   ストアに [Adobe Commerce B2B](../b2b/introduction.md) が含まれ、[shared catalogs](../b2b/catalog-shared.md) が有効になっている場合、このセクションには _[!UICONTROL Catalog and Tier Price]_というラベルが付けられます。
+   ストアに [Adobe Commerce B2B](../b2b/introduction.md) が含まれ、[shared catalogs](../b2b/catalog-shared.md) が有効になっている場合、このセクションには _[!UICONTROL Catalog and Tier Price]_&#x200B;というラベルが付けられます。
 
    ![Advanced Pricing](./assets/product-price-group.png){width="600" zoomable="yes"}
 

@@ -27,7 +27,7 @@ _SKU で並べ替え_ は、[ ウィジェット ](../content-design/widgets.md)
 
 ## SKU による順序の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」セクションを展開し、その下 **[!UICONTROL Sales]** 選択します。
 
@@ -43,11 +43,11 @@ _SKU で並べ替え_ は、[ ウィジェット ](../content-design/widgets.md)
 
 1. 「**[!UICONTROL Save Config]**」をクリックします。
 
-![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B のみ） _**SKU による注文機能を有効にするには、クイックオーダー機能を無効にします。**_
+![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B のみ） _&#x200B;**SKU による注文機能を有効にするには、クイックオーダー機能を無効にします。**&#x200B;_
 
-1. **[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. **[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL B2B Features]**」を選択します
+1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL B2B Features]**」を選択します
 
 1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL B2B Features]**」セクションを展開します。
 
@@ -75,7 +75,7 @@ _SKU で並べ替え_ は、[ ウィジェット ](../content-design/widgets.md)
 
 1. 環境設定に従って個別の項目を追加します。
 
-   _**SKU ごとに各項目を追加：**_
+   _&#x200B;**SKU ごとに各項目を追加：**&#x200B;_
 
    - 注文する品目の **[!UICONTROL SKU]** と **[!UICONTROL Qty]** を入力します。
 
@@ -83,7 +83,7 @@ _SKU で並べ替え_ は、[ ウィジェット ](../content-design/widgets.md)
 
    - **[!UICONTROL Add to Cart]** をクリックします。
 
-   _**複数の項目の CSV ファイルをアップロードします。**_
+   _&#x200B;**複数の項目の CSV ファイルをアップロードします。**&#x200B;_
 
    - `SKU` と `Qty` の列を含む [ データを読み込む ](../systems/data-csv.md)CSV （コンマ区切り値）ファイルを準備します。
 

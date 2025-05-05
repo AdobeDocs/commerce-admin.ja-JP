@@ -17,7 +17,7 @@ ht-degree: 1%
 
 _マーチャンダイジング_ は、フロアプラン開発の技術や科学、商品のプレゼンテーションなどを表す小売りの用語です。 [ カテゴリベースのナビゲーション ](../catalog/navigation-top.md) は店舗のフロアプラン、製品の動的な表示は店舗の商品一覧に適用できる条件と考えることができます。 また、製品の売上を増やすプログラムを実装することもできます。
 
-- [!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}[ ビジュアルマーチャンダイザー ](visual-merchandiser.md) – 製品の配置や、カテゴリリストに表示する製品を決定する条件の適用を行える一連の高度なツール。
+- [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}[ ビジュアルマーチャンダイザー ](visual-merchandiser.md) – 製品の配置や、カテゴリリストに表示する製品を決定する条件の適用を行える一連の高度なツール。
 
 - [ ギフトレジストリ ](gift-registries.md) – 特別な機会のためのギフトレジストリを作成し、友人や家族がギフトレジストリからギフトを購入するように招待する機能を顧客に提供します。
 

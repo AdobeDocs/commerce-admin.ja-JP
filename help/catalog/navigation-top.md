@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ### 手順 2：上部ナビゲーションの深度の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    ![ カテゴリのトップ ナビゲーション ](../configuration-reference/catalog/assets/catalog-category-top-navigation.png){width="600" zoomable="yes"}
 
-   上部のナビゲーションの深度にはグローバルな [Configuration Scope](../getting-started/websites-stores-views.md#scope-settings) があるので、この設定は、Commerce インストール内のすべての web サイト、ストア、ストアビューに適用されます。 「_[!UICONTROL Category Top Navigation]_設定」セクションは、左上隅の「_[!UICONTROL Store View]_」が「`Default Config`」に設定されている場合にのみ使用できます。
+   上部のナビゲーションの深度にはグローバルな [Configuration Scope](../getting-started/websites-stores-views.md#scope-settings) があるので、この設定は、Commerce インストール内のすべての web サイト、ストア、ストアビューに適用されます。 「_[!UICONTROL Category Top Navigation]_&#x200B;設定」セクションは、左上隅の「_[!UICONTROL Store View]_」が「`Default Config`」に設定されている場合にのみ使用できます。
 
    これらのオプションの詳細なリストについては、[ 設定リファレンス ](../configuration-reference/catalog/catalog.md#layered-navigation) の _カテゴリの上部ナビゲーション_ を参照してください。
 

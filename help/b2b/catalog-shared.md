@@ -20,13 +20,13 @@ Adobe Commerce B2B を使用すると、様々な会社のカスタム価格で�
 
 >[!NOTE]
 >
->**[B2B リリース 1.3.0](release-notes.md#b2b-v130) 以降** – 共有カタログを作成すると、カタログの各 [ カテゴリ権限 ](../catalog/category-permissions.md) は _[!UICONTROL Allow for the Display Product Prices]_に設定され、カタログ権限設定でこのアクセス権が割り当てられた顧客グループの_[!UICONTROL Add to Cart]_ に設定されます。 以前は、カタログ権限が `Deny` に設定されている場合でも、これらの設定は自動的に `Allow` に設定されていました。
+>**[B2B リリース 1.3.0](release-notes.md#b2b-v130) 以降** – 共有カタログを作成すると、カタログの各 [ カテゴリ権限 ](../catalog/category-permissions.md) は _[!UICONTROL Allow for the Display Product Prices]_&#x200B;に設定され、カタログ権限設定でこのアクセス権が割り当てられた顧客グループの&#x200B;_[!UICONTROL Add to Cart]_ に設定されます。 以前は、カタログ権限が `Deny` に設定されている場合でも、これらの設定は自動的に `Allow` に設定されていました。
 
 >[!IMPORTANT]
 >
 >**_[!UICONTROL Shared Catalog]_** 機能が有効な場合、既存のすべての [ グループ権限設定 ](../configuration-reference/catalog/catalog.md#category-permissions) は、カタログ内の **_すべて_** カテゴリで無視されます。 カタログ [!UICONTROL Shared Catalog] 有効にすると、カタログのすべてのカテゴリ権限が完全に制御されます。
 
-_[!UICONTROL Shared Catalogs]_ページでは、共有カタログの管理に使用するツールにアクセスできます。 このページは、フィルターとアクションコントロールを備えた、標準の [ 管理ワークスペース ](../getting-started/admin-workspace.md) に似ています。 グリッドには、既定のパブリック共有カタログを含むすべての共有カタログと、設定したカスタム カタログが一覧表示されます。
+_[!UICONTROL Shared Catalogs]_&#x200B;ページでは、共有カタログの管理に使用するツールにアクセスできます。 このページは、フィルターとアクションコントロールを備えた、標準の [ 管理ワークスペース ](../getting-started/admin-workspace.md) に似ています。 グリッドには、既定のパブリック共有カタログを含むすべての共有カタログと、設定したカスタム カタログが一覧表示されます。
 
 ![ 共有カタログ ](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
 
@@ -36,7 +36,7 @@ _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Shared C
 
 ## アクション制御
 
-左上隅の [ アクション コントロール ](../getting-started/admin-actions-control.md) をマス アクション コントロールと一緒に使用して、不要になった選択した共有カタログを削除できます。 グリッドの _[!UICONTROL Actions]_の列には、共有カタログを管理するためのツールがすべて表示されます。
+左上隅の [ アクション コントロール ](../getting-started/admin-actions-control.md) をマス アクション コントロールと一緒に使用して、不要になった選択した共有カタログを削除できます。 グリッドの _[!UICONTROL Actions]_&#x200B;の列には、共有カタログを管理するためのツールがすべて表示されます。
 
 ![ 共有カタログのアクション ](./assets/shared-catalog-grid-action-column-controls.png){width="350"}
 

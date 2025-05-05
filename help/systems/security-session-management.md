@@ -30,7 +30,7 @@ ht-degree: 0%
 
 **_最大セッションサイズを設定するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
@@ -74,7 +74,7 @@ Adobe CommerceとMagento Open Sourceを使用すると、セッションの固�
 
 **_セッション検証を設定するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「_[!UICONTROL General]_」を展開し、「**[!UICONTROL Web]**」を選択します。
 
@@ -98,7 +98,7 @@ Adobe CommerceとMagento Open Sourceを使用すると、セッションの固�
 
 **_管理者セッションの有効期間を調整するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 下にスクロールして、左側のパネルの **[!UICONTROL Advanced]** を展開します。
 

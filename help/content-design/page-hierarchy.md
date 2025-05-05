@@ -25,9 +25,9 @@ ht-degree: 0%
 
 ![CMS ページ階層 ](./assets/content-management-cms-page-hierarchy.png){width="600" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
 
 1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]** を展開し、必要な変更を加えます。
 
@@ -53,13 +53,13 @@ ht-degree: 0%
 
 ### 手順 1：ノードを作成する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Hierarchy]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Hierarchy]**&#x200B;に移動します。
 
    ![CMS ページグリッド ](./assets/page-hierarchy-cms-pages.png){width="600" zoomable="yes"}
 
 1. グリッドの上にある「**[!UICONTROL Add Node...]**」をクリックします。
 
-1. 「_[!UICONTROL Page Properties]_」に、ノードの&#x200B;**[!UICONTROL Title]**と適切な&#x200B;**[!UICONTROL URL Key]**を入力します。
+1. 「_[!UICONTROL Page Properties]_」に、ノードの&#x200B;**[!UICONTROL Title]**&#x200B;と適切な&#x200B;**[!UICONTROL URL Key]**&#x200B;を入力します。
 
    URL キーは、ノードの一意の web アドレスを提供します。 スペースではなくハイフンを使用して単語を区切り、すべて小文字にする必要があります。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 1. 階層の最上位にあるノードをクリックします。
 
-   _[!UICONTROL Page Properties]_セクションには、ノードに関する情報が表示されるようになりました。
+   _[!UICONTROL Page Properties]_&#x200B;セクションには、ノードに関する情報が表示されるようになりました。
 
 1. [**[!UICONTROL Render Metadata in HTML Head]**] で、次の操作を行います。
 

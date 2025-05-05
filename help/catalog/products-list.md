@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 商品リスト
 
-カタログ内のすべての製品には、管理者の _[!UICONTROL Products]_ページからアクセスできます。このページで、製品を作成したり、既存の製品を編集したりできます。 マルチサイトインストールの場合、同じカタログから販売される異なる製品を各 web サイトで選択できます。
+カタログ内のすべての製品には、管理者の _[!UICONTROL Products]_&#x200B;ページからアクセスできます。このページで、製品を作成したり、既存の製品を編集したりできます。 マルチサイトインストールの場合、同じカタログから販売される異なる製品を各 web サイトで選択できます。
 
-_[!UICONTROL Products]_リストには、カタログ内のすべての製品が含まれ、製品が使用可能な web サイトと、現在販売が有効な web サイトが示されます。 [ 共有カタログ ](../b2b/catalog-shared.md) が有効になっているAdobe Commerce B2B インストールの場合、グリッドには、共有カタログで代替割引価格が設定されている商品を示す列が含まれます。
+_[!UICONTROL Products]_&#x200B;リストには、カタログ内のすべての製品が含まれ、製品が使用可能な web サイトと、現在販売が有効な web サイトが示されます。 [ 共有カタログ ](../b2b/catalog-shared.md) が有効になっているAdobe Commerce B2B インストールの場合、グリッドには、共有カタログで代替割引価格が設定されている商品を示す列が含まれます。
 
 ページごとにリストページを参照するか、特定の製品を検索できます。 標準の [ コントロール ](../getting-started/admin-grid-controls.md) を使用してリストの並べ替えとフィルタリングを行い、選択した製品に [ アクション ](../getting-started/admin-actions-control.md) を適用します。
 
@@ -38,7 +38,7 @@ _[!UICONTROL Products]_リストには、カタログ内のすべての製品が
 
 **_製品の表示制限を設定するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Admin]**」を選択します。
 

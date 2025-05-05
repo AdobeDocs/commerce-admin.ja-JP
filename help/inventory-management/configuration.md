@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [!DNL Inventory Management] モジュールは、製品レベルおよびグローバル レベルで在庫構成設定をサポートし、ソースの可用性、ストアフロント製品および注文出荷に影響を与える追加設定も提供します。 設定は次の場合に適用されます。
 
-- カタログ全体：**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。 次に、左側のパネルで「**[!UICONTROL Catalog]**」を展開し、「**[!UICONTROL Inventory]**」を選択します。
+- カタログ全体：**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。 次に、左側のパネルで「**[!UICONTROL Catalog]**」を展開し、「**[!UICONTROL Inventory]**」を選択します。
 
 - 特定の製品：**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。 次に、製品を編集モードで開き、「_[!UICONTROL Sources]_」セクションの「**[!UICONTROL Advanced Inventory]**」をクリックします。
 
@@ -46,13 +46,13 @@ ht-degree: 0%
 
 ## 設定のフォールバックと継承
 
-設定は、次の継承パスで上書きまたは適用されます。Product _[!UICONTROL Sources]_セクションは、Product_[!UICONTROL Advanced Options]_ をオーバーライドし、グローバル _[!UICONTROL Inventory]_ストア設定をオーバーライドします。
+設定は、次の継承パスで上書きまたは適用されます。Product _[!UICONTROL Sources]_&#x200B;セクションは、Product&#x200B;_[!UICONTROL Advanced Options]_ をオーバーライドし、グローバル _[!UICONTROL Inventory]_&#x200B;ストア設定をオーバーライドします。
 
 適用 [!DNL Commerce] るカスタム設定を確認する場合は、次の順序に従います。
 
-1. _[!UICONTROL Sources]_セクションの製品レベルでカスタム設定をチェックします。 いくつかの設定を使用できます。
+1. _[!UICONTROL Sources]_&#x200B;セクションの製品レベルでカスタム設定をチェックします。 いくつかの設定を使用できます。
 
-1. Product _[!UICONTROL Advanced Inventory]_の設定を確認します。
+1. Product _[!UICONTROL Advanced Inventory]_&#x200B;の設定を確認します。
 
 1. 製品設定に `Use Config Settings` が選択されている場合は、グローバルな _在庫_ ストアの設定ページから値が確認されます。
 

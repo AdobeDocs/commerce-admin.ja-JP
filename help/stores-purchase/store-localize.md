@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 手順 2：言語のストア表示の作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL All Stores]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL All Stores]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Create Store View]**」をクリックします。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 手順 3：ストア表示のロケールの変更
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. **[!UICONTROL Scope]** ドロップダウンで、設定するストア表示を選択し、プロンプトが表示されたら「**[!UICONTROL OK]**」をクリックします。
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ### 手順 2：フィールドラベルを翻訳
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. リストで、翻訳する属性を見つけ、編集モードで開きます。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. _基本情報_ については、**[!UICONTROL Category Name]** を翻訳してください。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「_[!UICONTROL Content]_」セクションを展開し、「**[!UICONTROL Description]**を翻訳」を選択します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「_[!UICONTROL Content]_」セクションを展開し、「**[!UICONTROL Description]**&#x200B;を翻訳」を選択します。
 
 1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Search Engine Optimization Settings]**」セクションを展開し、次のフィールドを翻訳します。
 
@@ -112,7 +112,7 @@ ht-degree: 0%
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. _[!UICONTROL Search Engine Optimization Settings]_セクションで、次の操作を行って&#x200B;**[!UICONTROL URL Key]**を翻訳します。
+1. _[!UICONTROL Search Engine Optimization Settings]_&#x200B;セクションで、次の操作を行って&#x200B;**[!UICONTROL URL Key]**&#x200B;を翻訳します。
 
    - フィールドの右側にある「**[!UICONTROL Use Default Value]**」チェックボックスをオフにします。
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 
 ### 手順 4：製品属性および属性オプションの翻訳
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. 翻訳する属性を選択します。
 

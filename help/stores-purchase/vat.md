@@ -42,7 +42,7 @@ B2B 取引の中には、VAT が評価されないものもあります。 Comme
 
 税務処理基準を作成するプロセスは、税率を追加することから始まります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Zones and Rates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
 
    ![ 顧客税区分の設定 ](./assets/vat-zones.png){width="600" zoomable="yes"}
 
@@ -66,7 +66,7 @@ B2B 取引の中には、VAT が評価されないものもあります。 Comme
 
 ### 手順 2：製品税区分の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Rules]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add New Tax Rule]**」をクリックします。
 
@@ -88,7 +88,7 @@ B2B 取引の中には、VAT が評価されないものもあります。 Comme
 
 ### 手順 3：税金ゾーンおよび税率の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Zones and Rates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
 
    この例では、米国の税率を削除するか、そのままにしておくことができます。
 
@@ -116,7 +116,7 @@ B2B 取引の中には、VAT が評価されないものもあります。 Comme
 
 税務処理基準は、顧客税金区分、製品税金区分および税率の組合せです。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Rules]**&#x200B;に移動します。
 
 1. 次のように新規税務処理基準を追加します。
 
@@ -201,7 +201,7 @@ VAT ID 検証が有効化されている場合、登録後に各顧客に VAT ID
 
 顧客が VAT 番号およびその他の所在地フィールドを指定して保存を選択すると、システムは所在地を保存し、VAT ID 検証要求を欧州委員会サーバーに送信します。 検証の結果に応じて、デフォルトのグループの 1 つが顧客に割り当てられます。 このグループは、顧客または管理者が既定の住所の VAT ID を変更した場合、または既定の住所全体を変更した場合に変更できます。 1 ページのチェックアウト中に、グループを一時的に変更できる（グループの変更がエミュレートされる）場合があります。
 
-有効化すると、_[!UICONTROL Customer Information]_のページのチェックボックスをオンにして、個々の顧客の VAT ID 検証を上書きできます。
+有効化すると、_[!UICONTROL Customer Information]_&#x200B;のページのチェックボックスをオンにして、個々の顧客の VAT ID 検証を上書きできます。
 
 ### チェックアウトワークフロー
 
@@ -279,7 +279,7 @@ VAT ID 検証を効果的に使用するための [ 税ルール ](tax-rules.md)
 
 #### 手順 3:VAT ID 検証の有効化と設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 必要に応じて、設定の **[!UICONTROL Store View]** を設定します。
 

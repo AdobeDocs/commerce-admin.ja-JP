@@ -15,7 +15,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**Commerce 2.4 の移行：**<br/>
->Adobe CommerceとMagento Open Sourceが 2.4.0 より前のバージョンの場合、マーチャントは、コア統合の代わりに、公式のBraintree支払い統合拡張機能を ](https://marketplace.magento.com/catalogsearch/result/?q=braintree)0}Commerce Marketplace} からインストールして設定することをお勧めします。 [2.4.0 以降、拡張機能はコアリリースに含まれるようになりました。
+>Adobe CommerceとMagento Open Sourceが 2.4.0 より前のバージョンの場合、マーチャントは、コア統合の代わりに、公式のBraintree支払い統合拡張機能を [&#128279;](https://marketplace.magento.com/catalogsearch/result/?q=braintree)0&rbrace;Commerce Marketplace&rbrace; からインストールして設定することをお勧めします。 2.4.0 以降、拡張機能はコアリリースに含まれるようになりました。
 ><br/><br/>
 >Commerce 2.4 に移行する場合、マーケットプレイス（`paypal/module-braintree` または `gene/module-braintree`）で配布されている拡張機能をアンインストールし、`Magento_Braintree` の代わりに `PayPal_Braintree` 名前空間を使用するようにコードをカスタマイズする必要があります。 Commerce用にバンドルされた拡張機能の設定とCommerce Marketplaceで配布された拡張機能は保持されます。 これらのバージョンの拡張機能で行われた支払いは、通常どおりキャプチャ、無効化、または払い戻されます。
 ><br/><br/>
@@ -207,7 +207,7 @@ ht-degree: 0%
 
 **[!UICONTROL Mini-Cart and Cart Page]**
 
-このセクションのオプションと設定は、_[!UICONTROL Location]_フィールドの設定によって異なります。
+このセクションのオプションと設定は、_[!UICONTROL Location]_&#x200B;フィールドの設定によって異なります。
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

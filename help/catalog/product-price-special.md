@@ -50,7 +50,7 @@ Adobe Commerceでは、[ スケジュールされた更新 ](../content-design/c
 
    ストアフロントでは、カタログリストと商品ページの両方に特別価格が表示されます。
 
-   _[!UICONTROL Scheduled Change]_がページの上部に表示されます。
+   _[!UICONTROL Scheduled Change]_&#x200B;がページの上部に表示されます。
 
    ![ スケジュールされた変更 ](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
@@ -62,7 +62,7 @@ Magento Open Sourceには、詳細価格オプションのシンプルな開始�
 
 1. 製品を編集モードで開きます。
 
-1. 「_[!UICONTROL Price]_」フィールドまでスクロールし、「**[!UICONTROL Advanced Pricing]**」をクリックして&#x200B;**[!UICONTROL Special Price]**の値を入力します。
+1. 「_[!UICONTROL Price]_」フィールドまでスクロールし、「**[!UICONTROL Advanced Pricing]**」をクリックして&#x200B;**[!UICONTROL Special Price]**&#x200B;の値を入力します。
 
 1. _カレンダー_ （![ カレンダーアイコン ](../assets/icon-calendar.png)）アイコンを使用して、特別価格昇格の **[!UICONTROL Start Date]** と **[!UICONTROL End Date]** を選択します。
 
@@ -84,7 +84,7 @@ Magento Open Sourceには、詳細価格オプションのシンプルな開始�
 
 次の例では、Adobe Commerceで設定可能な商品の複数の商品バリエーションに同じ特別価格を割り当てる方法を示しています。
 
-1. _[!UICONTROL Products]_のページで「**[!UICONTROL Filters]**」をクリックし、設定可能な製品の&#x200B;**[!UICONTROL Name]**を入力します。
+1. _[!UICONTROL Products]_&#x200B;のページで「**[!UICONTROL Filters]**」をクリックし、設定可能な製品の&#x200B;**[!UICONTROL Name]**&#x200B;を入力します。
 
 1. **[!UICONTROL Type]** を `Configurable Product` に設定し、「**[!UICONTROL Apply Filters]**」をクリックします。
 
@@ -132,7 +132,7 @@ Magento Open Sourceには、詳細価格オプションのシンプルな開始�
 
 1. [_[!UICONTROL Special Price]**] フィールドまでスクロールし、次の操作を行います。
 
-   - 「_[!UICONTROL Special Price]**」フィールドの下にある「**[!UICONTROL Change]**」チェックボックスをオンにして、提供する特別価格を入力します。
+   - 「_[!UICONTROL Special Price]&#x200B;**」フィールドの下にある「**&#x200B;[!UICONTROL Change]**」チェックボックスをオンにして、提供する特別価格を入力します。
 
    - 「_特別価格開始日_」フィールドの下にある「**[!UICONTROL Change]**」チェックボックスを選択し、_カレンダー_ （![ カレンダーアイコン ](../assets/icon-calendar.png)）をクリックして、特別価格昇格の最初の日付を選択します。
 

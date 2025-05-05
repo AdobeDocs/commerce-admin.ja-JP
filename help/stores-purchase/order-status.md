@@ -70,13 +70,13 @@ Adobe Commerce以外の進行状況（注文ピッキングや配送の進行状
 
 ### カスタム注文ステータスの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Order Status]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Order Status]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Create New Status]**」をクリックします。
 
    ![ 新しい注文ステータスの作成 ](./assets/order-status-new.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Order Status Information]_のセクションを更新します。
+1. _[!UICONTROL Order Status Information]_&#x200B;のセクションを更新します。
 
    - 内部参照の **[!UICONTROL Status Code]** を入力します。 最初の文字は文字（a ～ z）である必要があり、残りは文字と数字（0 ～ 9）の任意の組み合わせにすることができます。 スペースの代わりにアンダースコア文字を使用します。
 
@@ -116,7 +116,7 @@ Adobe Commerce以外の進行状況（注文ピッキングや配送の進行状
 
 ### 既存の注文ステータスの編集
 
-1. _[!UICONTROL Order Status]_グリッドで、ステータスレコードを編集モードで開きます。
+1. _[!UICONTROL Order Status]_&#x200B;グリッドで、ステータスレコードを編集モードで開きます。
 
 1. 必要に応じて、ステータス設定を更新します。
 
@@ -128,15 +128,15 @@ Adobe Commerce以外の進行状況（注文ピッキングや配送の進行状
 >
 >ステータスが使用中の場合は、ステータス設定のステータスからの割り当てを解除できません。
 
-1. _[!UICONTROL Order Status]_グリッドで、割り当てを解除する注文ステータスレコードを見つけます。
+1. _[!UICONTROL Order Status]_&#x200B;グリッドで、割り当てを解除する注文ステータスレコードを見つけます。
 
-1. 行の右端にある _[!UICONTROL Action]_列で、**[!UICONTROL Unassign]**のリンクをクリックします。
+1. 行の右端にある _[!UICONTROL Action]_&#x200B;列で、**[!UICONTROL Unassign]**&#x200B;のリンクをクリックします。
 
    注文ステータスが未割り当てであることを示すメッセージがワークスペースの上部に表示されます。 注文ステータスラベルはリスト内に残りますが、状態に割り当てられなくなります。 注文ステータス設定は削除できません。
 
 >[!NOTE]
 >
->デフォルトの注文ステータスが注文ステータスから割り当て解除されている場合、_**別の**_ 注文ステータスはこの注文ステータスのデフォルトとして _**自動的に設定**_ されます。
+>デフォルトの注文ステータスが注文ステータスから割り当て解除されている場合、_&#x200B;**別の**&#x200B;_ 注文ステータスはこの注文ステータスのデフォルトとして _&#x200B;**自動的に設定**&#x200B;_ されます。
 
 ## 通知
 
@@ -144,7 +144,7 @@ Adobe Commerce以外の進行状況（注文ピッキングや配送の進行状
 
 ### 注文ステータス通知を有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL RSS Feeds]**」を選択します。
 
@@ -158,7 +158,7 @@ Adobe Commerce以外の進行状況（注文ピッキングや配送の進行状
 
 ### 新規注文のメール通知を設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、その下の「**[!UICONTROL Sales Emails]**」を選択します。
 

@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ### 手順 1：ページを作成する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Page]**」をクリックして、次の操作を行います。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. サンプルデータが使用可能な場合は、**[!UICONTROL New Theme]** を `Magento Luma` に設定します。 それ以外の場合は、別の使用可能なテーマを選択するか、空白のままにしてデフォルトのテーマを使用できます。
 
-   _[!UICONTROL New Theme]_設定を使用して、デフォルトのテーマを上書きしたり、ページに別のテーマを適用したりできます。
+   _[!UICONTROL New Theme]_&#x200B;設定を使用して、デフォルトのテーマを上書きしたり、ページに別のテーマを適用したりできます。
 
    >[!NOTE]
    >
@@ -112,7 +112,7 @@ ht-degree: 0%
 
    ![ 行設定 – 裁ち落とし全体 ](./assets/pb-tutorial1-row-settings-appearance-full-bleed.png){width="600" zoomable="yes"}
 
-1. 「_[!UICONTROL Advanced]_」セクションまでスクロールし、すべての&#x200B;**[!UICONTROL Margins and Padding]**設定を「`0`」に設定します。
+1. 「_[!UICONTROL Advanced]_」セクションまでスクロールし、すべての&#x200B;**[!UICONTROL Margins and Padding]**&#x200B;設定を「`0`」に設定します。
 
    この設定により、バナーが行の全幅を拡張します。
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
    ![ バナーの外観 – 右のコラージュ ](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Background]_のセクションまでスクロールし、バナーの背景画像を設定します。
+1. _[!UICONTROL Background]_&#x200B;のセクションまでスクロールし、バナーの背景画像を設定します。
 
    - **[!UICONTROL Background Image]** しくは、「**アップロード**」をクリックします。
 
@@ -200,11 +200,11 @@ __
 
 1. カーソルを合わせてバナーツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンをもう一度選択してから、「_[!UICONTROL Content]_」セクションまでスクロールします。
 
-   テキストが「_メッセージテキスト_ ボックスに表示されます。 テキストの入力と編集は、ステージまたはバナー設定の _[!UICONTROL Content]_セクションから行うことができます。
+   テキストが「_メッセージテキスト_ ボックスに表示されます。 テキストの入力と編集は、ステージまたはバナー設定の _[!UICONTROL Content]_&#x200B;セクションから行うことができます。
 
    ![ バナー設定 – メッセージテキスト ](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Content]_のセクションに進み、バナーリンクとボタンを設定します。
+1. _[!UICONTROL Content]_&#x200B;のセクションに進み、バナーリンクとボタンを設定します。
 
    - **リンク** を `Category` に設定し、**[!UICONTROL Select]** をクリックしてカテゴリツリーを表示します。
 
@@ -259,13 +259,13 @@ __
 
 ### 手順 1：行を追加
 
-1. ページグリッドで、この演習の最初の部分で作成した _シンプルなページ_ を見つけ、_[!UICONTROL Action]_の列の&#x200B;**[!UICONTROL Edit]**を選択します。
+1. ページグリッドで、この演習の最初の部分で作成した _シンプルなページ_ を見つけ、_[!UICONTROL Action]_&#x200B;の列の&#x200B;**[!UICONTROL Edit]**&#x200B;を選択します。
 
 1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Content]**」セクションを展開します。
 
 1. コンテンツプレビュー領域の **[!UICONTROL Edit with Page Builder]** または内側をクリックします。
 
-1. _[!UICONTROL Layout]_の下の [!DNL Page Builder] パネルで、**[!UICONTROL Row]**プレースホルダーをステージにドラッグし、バナーの上に配置します。
+1. _[!UICONTROL Layout]_&#x200B;の下の [!DNL Page Builder] パネルで、**[!UICONTROL Row]**&#x200B;プレースホルダーをステージにドラッグし、バナーの上に配置します。
 
    赤いガイドラインは、2 行の境界を示します。
 
@@ -275,7 +275,7 @@ __
 
    ![ 行ツールボックス ](./assets/pb-tutorial1-row-settings.png){width="600" zoomable="yes"}
 
-1. 「_[!UICONTROL Appearance]_」で、「含まれる&#x200B;**デフォルト設定**を受け入れます。
+1. 「_[!UICONTROL Appearance]_」で、「含まれる&#x200B;**デフォルト設定**&#x200B;を受け入れます。
 
    この設定により、テーマで定義されているページの幅に行のコンテンツ領域が制限されます。
 
@@ -285,7 +285,7 @@ __
 
 ### 手順 2：列の追加
 
-1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_の下で、**[!UICONTROL Column]**のプレースホルダーを新しい行にドラッグします。
+1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_&#x200B;の下で、**[!UICONTROL Column]**&#x200B;のプレースホルダーを新しい行にドラッグします。
 
    ![ 列コンテンツタイプのステージへのドラッグ ](./assets/pb-tutorial1-column-drag-to-stage.png){width="600" zoomable="yes"}
 
@@ -359,13 +359,13 @@ __
 
 ### 手順 1：行を追加
 
-1. ページグリッドで、この演習の最初の部分で作成した _シンプルなページ_ を見つけ、_[!UICONTROL Action]_の列の&#x200B;**[!UICONTROL Edit]**を選択します。
+1. ページグリッドで、この演習の最初の部分で作成した _シンプルなページ_ を見つけ、_[!UICONTROL Action]_&#x200B;の列の&#x200B;**[!UICONTROL Edit]**&#x200B;を選択します。
 
 1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Content]**」セクションを展開します。
 
 1. コンテンツプレビュー領域の **[!UICONTROL Edit with Page Builder]** または内側をクリックします。
 
-1. _[!UICONTROL Layout]_の下の [!DNL Page Builder] パネルで、**[!UICONTROL Row]**プレースホルダーをステージにドラッグし、この演習の 2 番目の部分で作成した行の上に配置します。
+1. _[!UICONTROL Layout]_&#x200B;の下の [!DNL Page Builder] パネルで、**[!UICONTROL Row]**&#x200B;プレースホルダーをステージにドラッグし、この演習の 2 番目の部分で作成した行の上に配置します。
 
    赤いガイドラインは、2 行の境界を示します。
 
@@ -375,17 +375,17 @@ __
 
    ![ 行ツールボックス ](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Appearance]_の下の [ 行の編集 ] ページで、[**[!UICONTROL Full Width]**] を選択します。
+1. _[!UICONTROL Appearance]_&#x200B;の下の [ 行の編集 ] ページで、[**[!UICONTROL Full Width]**] を選択します。
 
    この設定により、コンテンツ領域が、テーマで定義されている最大ページ幅に制限されます。 背景色や画像に制限はなく、行の全幅を広げます。
 
    ![ 全幅の表示方法の選択 ](./assets/pb-tutorial1-row-settings-appearance-full-width.png){width="600" zoomable="yes"}
 
-1. 「_[!UICONTROL Background]_」セクションで、**[!UICONTROL Background Color]**として `#f1f1f1` と入力します。
+1. 「_[!UICONTROL Background]_」セクションで、**[!UICONTROL Background Color]**&#x200B;として `#f1f1f1` と入力します。
 
    ![ 背景色の設定 ](./assets/pb-tutorial1-row-settings-background-color.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Advanced]_セクションまで下にスクロールし、すべての&#x200B;**余白とパディング**の値を `0` に設定します。
+1. _[!UICONTROL Advanced]_&#x200B;セクションまで下にスクロールし、すべての&#x200B;**余白とパディング**&#x200B;の値を `0` に設定します。
 
    ![ 余白とパディングの設定 ](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -397,7 +397,7 @@ __
 
 ### 手順 2：異なる幅の列の追加
 
-1. _[!UICONTROL Layout]_の下の [!DNL Page Builder] パネルで、**[!UICONTROL Column]**のプレースホルダーをステージの一番上の行にドラッグします。
+1. _[!UICONTROL Layout]_&#x200B;の下の [!DNL Page Builder] パネルで、**[!UICONTROL Column]**&#x200B;のプレースホルダーをステージの一番上の行にドラッグします。
 
    ![ 列のステージへのドラッグ ](./assets/pb-tutorial1-column-drag.png){width="600" zoomable="yes"}
 
@@ -409,7 +409,7 @@ __
 
 1. 最初の列コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-1. _[!UICONTROL Advanced]_セクションまで下にスクロールし、すべての&#x200B;**余白とパディング**の値を `0` に設定します。
+1. _[!UICONTROL Advanced]_&#x200B;セクションまで下にスクロールし、すべての&#x200B;**余白とパディング**&#x200B;の値を `0` に設定します。
 
    ![ 余白とパディングの設定 ](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -445,11 +445,11 @@ __
 
    ![ テキストへの画像の挿入 ](./assets/pb-tutorial1-column2-editor-toolbar-insert-image.png){width="600" zoomable="yes"}
 
-   - _[!UICONTROL Insert/edit image]_ダイアログで、_[!UICONTROL Source]_ フィールドの横にある _検索_ （![ 検索アイコン ](./assets/editor-btn-find-source.png)） アイコンをクリックします。
+   - _[!UICONTROL Insert/edit image]_&#x200B;ダイアログで、_[!UICONTROL Source]_ フィールドの横にある _検索_ （![ 検索アイコン ](./assets/editor-btn-find-source.png)） アイコンをクリックします。
 
      ![ 画像を挿入/編集ダイアログ ](./assets/pb-tutorial1-column2-text-insert-edit-image.png){width="600" zoomable="yes"}
 
-   - _[!UICONTROL Select Images]_ページで「**[!UICONTROL Choose Files]**」をクリックします。
+   - _[!UICONTROL Select Images]_&#x200B;ページで「**[!UICONTROL Choose Files]**」をクリックします。
 
    - シンプルなページアセットを保存したフォルダーで、「`rating.png`」を選択します。
 
@@ -507,7 +507,7 @@ __
 
    ![ 最小の高さと垂直方向の整列の設定 ](./assets/pb-tutorial1-column2-layout-vertical-alignment.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Advanced]_セクションまでスクロールし、すべての&#x200B;**[!UICONTROL Margins and Padding]**値をゼロに設定します（`0`）。
+1. _[!UICONTROL Advanced]_&#x200B;セクションまでスクロールし、すべての&#x200B;**[!UICONTROL Margins and Padding]**&#x200B;値をゼロに設定します（`0`）。
 
    ![ 余白とパディングの設定 ](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 

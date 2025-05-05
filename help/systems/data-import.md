@@ -52,8 +52,8 @@ Adobe Commerceのインポートプロセスでは、UTF-8 でエンコードさ
 
 | 操作 | 説明 |
 | --------- | ----------- |
-| 追加/更新 | データベース内の既存のエントリの既存の製品データに、新しい製品データが追加されます。 `sku` 以外のすべてのフィールドは更新できます。<br><br> インポートデータで指定された新しい税クラスは自動的に作成されます。<br><br> インポートファイルで指定された新しい製品カテゴリが自動的に作成されます。<br><br> 読み込みファイルで指定された新しい SKU は自動的に作成されます <br><br>**_注意：_**製品の場合は、読み込みを通じて SKU を除くすべてのフィールドを更新できます。<br><br>**_ 重要：_** Web サイトやカテゴリなど、複数のフィールド値は、「_追加/更新_」読み込み動作では削除できません。 これらのフィールドが CSV ファイルにリストされていない場合、読み込み後もデータベースに残ります。 |
-| 置換 | 既存の製品データは新しいデータに置き換えられます。<br><br>**_重要：_**データを置き換える際は、既存の製品データが消去され、システム内のすべての参照が失われるので、注意が必要です。<br><br> インポートデータの SKU が既存のエンティティの SKU と一致する場合、SKU を含むすべてのフィールドが削除され、CSV データを使用して新しいレコードが作成されます。 CSV ファイルが参照している SKU がデータベースに存在しない場合、エラーが発生します。 データを確認すると、エラーを表示できます。 |
+| 追加/更新 | データベース内の既存のエントリの既存の製品データに、新しい製品データが追加されます。 `sku` 以外のすべてのフィールドは更新できます。<br><br> インポートデータで指定された新しい税クラスは自動的に作成されます。<br><br> インポートファイルで指定された新しい製品カテゴリが自動的に作成されます。<br><br> 読み込みファイルで指定された新しい SKU は自動的に作成されます <br><br>**_注意：_**&#x200B;製品の場合は、読み込みを通じて SKU を除くすべてのフィールドを更新できます。<br><br>**_ 重要：_** Web サイトやカテゴリなど、複数のフィールド値は、「_追加/更新_」読み込み動作では削除できません。 これらのフィールドが CSV ファイルにリストされていない場合、読み込み後もデータベースに残ります。 |
+| 置換 | 既存の製品データは新しいデータに置き換えられます。<br><br>**_重要：_**&#x200B;データを置き換える際は、既存の製品データが消去され、システム内のすべての参照が失われるので、注意が必要です。<br><br> インポートデータの SKU が既存のエンティティの SKU と一致する場合、SKU を含むすべてのフィールドが削除され、CSV データを使用して新しいレコードが作成されます。 CSV ファイルが参照している SKU がデータベースに存在しない場合、エラーが発生します。 データを確認すると、エラーを表示できます。 |
 | 削除 | データベースに存在するインポートデータのエンティティがデータベースから削除されます。<br><br> 削除では、SKU を除く、インポートデータ内のすべての列が無視されます。 データ内のその他すべての属性は無視できます。<br><br>CSV ファイルが参照している SKU がデータベースに存在しない場合、エラーが発生します。 データを確認すると、エラーを表示できます。 |
 
 {style="table-layout:auto"}
@@ -70,7 +70,7 @@ Adobe Commerceのインポートプロセスでは、UTF-8 でエンコードさ
 
 ### 手順 1：データを準備
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import]**&#x200B;に移動します。
 
 1. _読み込み設定_ で、**[!UICONTROL Entity Type]** を次のいずれかに設定します。
 
@@ -145,7 +145,7 @@ Adobe Commerceのインポートプロセスでは、UTF-8 でエンコードさ
 
    >[!NOTE]
    >
-   >Adobe CommerceおよびMagento Open Source `2.3.2` リリース以降、_[!UICONTROL Images File Directory]_で指定されたパスは、images ベースディレクトリ `<Magento-root-folder>/var/import/images` へのインポートを連結します。 例えば、`product_images` ファイルを `<Magento-root-directory>/var/import/images/product_images` フォルダーに配置します。 インポートイメージのベースディレクトリは、`\Magento\ImportExport\etc\config.xml` ファイルで設定できます。 リモート記憶域モジュールが有効な場合は、ファイルを `<remote-storage-root-directory>/var/import/images/product_images` フォルダーにインポートします。
+   >Adobe CommerceおよびMagento Open Source `2.3.2` リリース以降、_[!UICONTROL Images File Directory]_&#x200B;で指定されたパスは、images ベースディレクトリ `<Magento-root-folder>/var/import/images` へのインポートを連結します。 例えば、`product_images` ファイルを `<Magento-root-directory>/var/import/images/product_images` フォルダーに配置します。 インポートイメージのベースディレクトリは、`\Magento\ImportExport\etc\config.xml` ファイルで設定できます。 リモート記憶域モジュールが有効な場合は、ファイルを `<remote-storage-root-directory>/var/import/images/product_images` フォルダーにインポートします。
 
    製品画像の読み込みについて詳しくは、[ 製品画像の読み込み ](data-import-product-images.md) を参照してください。
 
@@ -177,7 +177,7 @@ Commerceには、ストアに読み込まれたデータ（開始日時、ユー
 
 **_読み込み履歴を表示するには：_**
 
-_管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import History]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import History]**&#x200B;に移動します。
 
 ![ データの読み込み履歴 ](./assets/data-import-history.png){width="600" zoomable="yes"}
 

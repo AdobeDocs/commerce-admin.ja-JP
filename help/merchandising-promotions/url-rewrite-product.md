@@ -41,7 +41,7 @@ ht-degree: 0%
 
 {{url-rewrite-params}}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL SEO & Search]_/**[!UICONTROL URL Rewrites]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL SEO & Search]_/**[!UICONTROL URL Rewrites]**&#x200B;に移動します。
 
 1. 続行する前に、次の手順を実行して、リクエストパスが使用可能であることを確認します。
 
@@ -124,9 +124,9 @@ ht-degree: 0%
 
 1. URL の書き換えを更新するすべての製品を選択します。
 
-1. _[!UICONTROL Actions]_で、複数またはすべての書き換えを更新する&#x200B;**[!UICONTROL Update attributes]**を選択します。
+1. _[!UICONTROL Actions]_&#x200B;で、複数またはすべての書き換えを更新する&#x200B;**[!UICONTROL Update attributes]**&#x200B;を選択します。
 
-1. _[!UICONTROL PRODUCTS INFORMATION]_の下の「**[!UICONTROL Websites]**」タブをクリックします。
+1. _[!UICONTROL PRODUCTS INFORMATION]_&#x200B;の下の「**[!UICONTROL Websites]**」タブをクリックします。
 
 1. 「_[!UICONTROL Add Product To Websites]_」セクションで、URL の書き換えを復元するすべての web サイトを選択します。
 

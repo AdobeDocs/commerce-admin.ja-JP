@@ -48,13 +48,13 @@ ht-degree: 0%
 
 1. 通常のチェックアウトワークフローに従い、**[!UICONTROL Place Purchase Order]** をクリックします。
 
-買い物かごにアイテムがある状態でクリックすると、ダ _[!UICONTROL Add Items to Shopping Cart]_アログが表示されます。 このダイアログでは、買い物かごの項目を新しい項目と結合するか、買い物かごの項目を発注書内の項目に置き換えるかを選択できます。
+買い物かごにアイテムがある状態でクリックすると、ダ _[!UICONTROL Add Items to Shopping Cart]_&#x200B;アログが表示されます。 このダイアログでは、買い物かごの項目を新しい項目と結合するか、買い物かごの項目を発注書内の項目に置き換えるかを選択できます。
 
 元の発注書は、不要になった場合はクローズできます。
 
 ## 発注書承認
 
-会社の構造に基づいて承認者として指定された顧客、または会社の役割が割り当てられた顧客の場合、_[!UICONTROL My Purchase Orders]_ダッシュボードページには「**[!UICONTROL Requires My Approval]**」タブが表示されます。 顧客はこのタブをクリックして、承認待ちの PO を確認します。 カウンターには、承認待ちの注文の数が表示されます。
+会社の構造に基づいて承認者として指定された顧客、または会社の役割が割り当てられた顧客の場合、_[!UICONTROL My Purchase Orders]_&#x200B;ダッシュボードページには「**[!UICONTROL Requires My Approval]**」タブが表示されます。 顧客はこのタブをクリックして、承認待ちの PO を確認します。 カウンターには、承認待ちの注文の数が表示されます。
 
 発注の「**[!UICONTROL View]**」をクリックし、詳細をレビューした後、承認者は「**[!UICONTROL Approve]**」または「**[!UICONTROL Reject]**」をクリックできます。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 Adobe Commerce 2.4.1 以降では、承認者は一度に複数の発注書を承認または却下できます。
 
-1. _[!UICONTROL My Purchase Order]_ページで、「**[!UICONTROL Requires My Approval]**」タブをクリックします。
+1. _[!UICONTROL My Purchase Order]_&#x200B;ページで、「**[!UICONTROL Requires My Approval]**」タブをクリックします。
 
 1. 承認または拒否する各発注書のチェックボックスを選択します。
 

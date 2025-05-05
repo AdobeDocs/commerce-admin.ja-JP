@@ -64,7 +64,7 @@ MAP が有効な場合、製品レベルの MAP 設定が使用可能になり�
 
 ### 手順 1：ストアビューのマップを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 該当する場合は、設定が適用されるビューの右上隅の **[!UICONTROL Store View]** を設定します。
 

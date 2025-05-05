@@ -14,7 +14,7 @@ ht-degree: 0%
 
 _注文_ グリッドは、現在のすべての注文を一覧表示し、[ ワークフロー ](order-processing.md) を通じてその進行状況と [ 注文ステータス ](order-status.md) を追跡します。 基本的なプロセスを簡単に理解するには、注文が [ 請求書 ](invoices.md) になり、請求書が [ 出荷 ](shipments.md) になるようにします。 グリッドは処理の最初のステージを表し、ここで既存の注文を [ 更新 ](order-update.md) したり、注文を作成したりできます。
 
-通常、注文は顧客がストアフロントからチェックアウトプロセスを完了したときに作成されます。 ただし、顧客がサポートを必要とする場合は、[ 注文 ](shopping-assisted-cart-manage.md) グリッドから、または顧客アカウントから直接、顧客の _買い物かご ](customer-account-create-order.md) または [ 注文の作成_ にアクセスすることもできます。
+通常、注文は顧客がストアフロントからチェックアウトプロセスを完了したときに作成されます。 ただし、顧客がサポートを必要とする場合は、[ 注文 ](shopping-assisted-cart-manage.md) グリッドから、または顧客アカウントから直接、顧客の _買い物かご [&#128279;](customer-account-create-order.md) または  注文の作成_ にアクセスすることもできます。
 
 ## 注文ワークスペース
 
@@ -111,7 +111,7 @@ _注文_ グリッドは、現在のすべての注文を一覧表示し、[ ワ
 | [!UICONTROL Grand Total (Base)] | 注文の総計。 |
 | [!UICONTROL Grand Total (Purchased)] | 注文で購入した製品の合計金額。 |
 | [!UICONTROL Status] | 現在の注文ステータス。 |
-| [!UICONTROL Action] | 注文 _[!UICONTROL View]_編集モードで開きます。 |
+| [!UICONTROL Action] | 注文 _[!UICONTROL View]_&#x200B;編集モードで開きます。 |
 | [!UICONTROL Allocated sources] | その特定の注文に割り当てられたソース。 |
 
 {style="table-layout:auto"}

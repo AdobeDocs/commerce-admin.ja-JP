@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## ウィッシュリスト機能の有効化
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Wish List]**」を選択します。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ![ ストアフロントの例 – ウィッシュリスト検索 ](./assets/storefront-wishlist-search.png){width="700" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックします。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
    - 「**[!UICONTROL Continue]**」をクリックします。
 
-1. _[!UICONTROL Storefront Properties]_を完了します。
+1. _[!UICONTROL Storefront Properties]_&#x200B;を完了します。
 
    - **[!UICONTROL Widget Title]** を入力します。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
      `0` = first （デフォルト）、`1` = second、`2` = third など。
 
-1. 「_[!UICONTROL Layout Updates]_」セクションで「**[!UICONTROL Add Layout Update]**」をクリックし、**[!UICONTROL Display on]**を次のいずれかに設定します。
+1. 「_[!UICONTROL Layout Updates]_」セクションで「**[!UICONTROL Add Layout Update]**」をクリックし、**[!UICONTROL Display on]**&#x200B;を次のいずれかに設定します。
 
    - _[!UICONTROL Categories]_
 

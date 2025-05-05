@@ -41,11 +41,11 @@ ht-degree: 0%
 
 ## 項目の検証
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Content Staging]_/**[!UICONTROL Dashboard]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Content Staging]_/**[!UICONTROL Dashboard]**&#x200B;に移動します。
 
 1. 表示されたリストまたはタイムラインでキャンペーンを見つけて、開いて詳細にアクセスします。
 
-   - リストを表示するには、「**[!UICONTROL Select]**」をクリックし、_[!UICONTROL Action]_の列の「**[!UICONTROL View/Edit]**」をクリックします。
+   - リストを表示するには、「**[!UICONTROL Select]**」をクリックし、_[!UICONTROL Action]_&#x200B;の列の「**[!UICONTROL View/Edit]**」をクリックします。
    - タイムライン表示の場合、1 回クリックして概要を表示し、「**[!UICONTROL View/Edit]**」をクリックします。
 
    ![ キャンペーンの詳細 ](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}

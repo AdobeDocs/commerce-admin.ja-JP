@@ -34,11 +34,11 @@ ht-degree: 0%
 
 ## オーダーを表示
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**&#x200B;に移動します。
 
 1. グリッド内の順序検索文字列。
 
-1. _[!UICONTROL Action]_列で、「**[!UICONTROL View]**」をクリックします。
+1. _[!UICONTROL Action]_&#x200B;列で、「**[!UICONTROL View]**」をクリックします。
 
 1. 注文ステータスの確認：
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->管理者ユーザーが [ 請求書 ](../systems/permissions-user-roles.md)、「クレジットメモ _および_ 出荷 _の注文タブを表示するには、役割の範囲に対する&#x200B;**[!UICONTROL Sales / Archive]**の__権限_ が必要です。
+>管理者ユーザーが [ 請求書 ](../systems/permissions-user-roles.md)、「クレジットメモ _および_ 出荷 _の注文タブを表示するには、役割の範囲に対する&#x200B;**[!UICONTROL Sales / Archive]**&#x200B;の__権限_ が必要です。
 
 ### ボタンバー
 

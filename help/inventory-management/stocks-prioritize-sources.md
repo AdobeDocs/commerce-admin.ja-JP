@@ -22,7 +22,7 @@ ht-degree: 0%
 
 商人は、より大きなベルリンの倉庫、ロンドンの倉庫、ロンドンのオーバーフロー場所、そして最後にロンドンのストアフロントから出荷を優先することを好みます。 順序を変更するには、エントリを目的の順序にドラッグ&amp;ドロップします。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Inventory]_/**[!UICONTROL Stocks]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Inventory]_/**[!UICONTROL Stocks]**&#x200B;に移動します。
 
 1. 在庫を _編集_ モードで開きます。
 

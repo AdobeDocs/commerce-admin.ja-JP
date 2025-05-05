@@ -57,7 +57,7 @@ ht-degree: 0%
 
    - （オプション）オプションの **[!UICONTROL SKU]** を入力します。 オプション SKU は、製品 SKU に追加されるサフィックスです。
 
-   - _[!UICONTROL Option Type]_が `File` の場合は、ファイルのパラメーターを設定します。**[!UICONTROL Compatible File Extensions]**の場合は、有効な拡張子をコンマ区切り値（`png, jpg, gif` など）で入力します。**[!UICONTROL Maximum Image Size]**しくは、画像の最大サイズをピクセル単位で入力します。 テキスト入力の場合は、**[!UICONTROL Maximum Characters]**の最大値を入力します。
+   - _[!UICONTROL Option Type]_&#x200B;が `File` の場合は、ファイルのパラメーターを設定します。**[!UICONTROL Compatible File Extensions]**&#x200B;の場合は、有効な拡張子をコンマ区切り値（`png, jpg, gif` など）で入力します。**[!UICONTROL Maximum Image Size]**&#x200B;しくは、画像の最大サイズをピクセル単位で入力します。 テキスト入力の場合は、**[!UICONTROL Maximum Characters]**&#x200B;の最大値を入力します。
 
    ![ カスタマイズの値を追加オプション ](./assets/product-customizable-options-add-values.png){width="600" zoomable="yes"}
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    - 前と同じように設定を完了します。
 
-   - オプションの順序を変更するには、「並べ替え _[!UICONTROL Order]_順アイコン ![ アイコンをクリックし ](../assets/icon-sort-order.png) リストの新しい位置にオプションをドラッグします。
+   - オプションの順序を変更するには、「並べ替え _[!UICONTROL Order]_&#x200B;順アイコン ![ アイコンをクリックし ](../assets/icon-sort-order.png) リストの新しい位置にオプションをドラッグします。
 
    追加する各オプションに対して、この手順を繰り返します。
 

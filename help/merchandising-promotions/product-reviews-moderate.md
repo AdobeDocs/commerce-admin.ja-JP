@@ -20,15 +20,15 @@ Commerceの商品レビューの場合、送信された商品レビューを表
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
-1. 表示する製品を見つけて、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
+1. 表示する製品を見つけて、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. 製品ページで、下にスクロールして、「**[!UICONTROL Product Reviews]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 
-   このグリッドでは、_[!UICONTROL Action]_の列の&#x200B;**[!UICONTROL Edit]**リンクをクリックして特定のレビューを変更することもできます。
+   このグリッドでは、_[!UICONTROL Action]_&#x200B;の列の&#x200B;**[!UICONTROL Edit]**&#x200B;リンクをクリックして特定のレビューを変更することもできます。
 
 ## レビューのステータスを更新
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL User Content]_/**[!UICONTROL Pending Reviews]**または&#x200B;**[!UICONTROL All Reviews]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL User Content]_/**[!UICONTROL Pending Reviews]**&#x200B;または&#x200B;**[!UICONTROL All Reviews]**&#x200B;に移動します。
 
 1. リストで、保留中のレビューをクリックして詳細を表示し、必要に応じて編集します。
 
@@ -36,7 +36,7 @@ Commerceの商品レビューの場合、送信された商品レビューを表
 
    - 保留中のレビューを承認するには、「`Approved`」を選択します。
 
-   - レビューを却下するには、「`Not Approved`」を選択します。 承認されていないレビューがページのリストから消え _[!UICONTROL Pending Reviews]_す。
+   - レビューを却下するには、「`Not Approved`」を選択します。 承認されていないレビューがページのリストから消え _[!UICONTROL Pending Reviews]_&#x200B;す。
 
    >[!NOTE]
    >
@@ -46,7 +46,7 @@ Commerceの商品レビューの場合、送信された商品レビューを表
 
 1. 必要に応じて、**[!UICONTROL Detailed Rating]**、**[!UICONTROL Nickname]**、**[!UICONTROL Summary of Review]** の値を変更します。
 
-   レビューが使用可能なストア表示を変更するには、必要なストア表示を _[!UICONTROL Visibility]_列で選択します。
+   レビューが使用可能なストア表示を変更するには、必要なストア表示を _[!UICONTROL Visibility]_&#x200B;列で選択します。
 
    ![ レビューページを編集 ](./assets/edit-review-page.png){width="600" zoomable="yes"}
 
@@ -56,17 +56,17 @@ Commerceの商品レビューの場合、送信された商品レビューを表
 
 複数のレビューを同時に更新または削除できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL User Content]_/**[!UICONTROL All Reviews]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL User Content]_/**[!UICONTROL All Reviews]**&#x200B;に移動します。
 
 1. 更新するレビューを選択します。
 
-1. 左上隅の _[!UICONTROL Action]_セレクターを使用して、アクションを適用します。
+1. 左上隅の _[!UICONTROL Action]_&#x200B;セレクターを使用して、アクションを適用します。
 
 1. **[!UICONTROL Submit]** をクリック
 
 ## 製品レビューの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL User Content]_/**[!UICONTROL All Reviews]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL User Content]_/**[!UICONTROL All Reviews]**&#x200B;に移動します。
 
 1. 削除する製品レビューを検索し、編集モードで開きます。
 

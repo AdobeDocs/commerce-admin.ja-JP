@@ -30,7 +30,7 @@ ht-degree: 0%
 
    ![ 「すべての製品を検索」タブ ](./assets/search-all-product.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Assign]_列で、追加する各製品のオプションを `Yes` に切り替えます。
+1. _[!UICONTROL Assign]_&#x200B;列で、追加する各製品のオプションを `Yes` に切り替えます。
 
    表示されるすべての製品を含める場合は、列ヘッダーのメニュー矢印をクリックして「**[!UICONTROL Select All]**」を選択します。
 

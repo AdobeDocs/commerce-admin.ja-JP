@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL Companies]** に移動します。
 
-   グリッドの上にある _[!UICONTROL Columns]_セレクターを使用して、**[!UICONTROL Status]**の列を表示できます。
+   グリッドの上にある _[!UICONTROL Columns]_&#x200B;セレクターを使用して、**[!UICONTROL Status]**&#x200B;の列を表示できます。
 
 1. 「_[!UICONTROL Action]_」列で「**[!UICONTROL Edit]**」をクリックします。
 

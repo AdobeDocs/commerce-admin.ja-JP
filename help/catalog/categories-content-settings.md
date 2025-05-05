@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # カテゴリ – コンテンツ設定
 
-_[!UICONTROL Content]_の設定によって、カテゴリページに表示される追加コンテンツが決まります。 カテゴリ製品のリストに加えて、ページには画像、説明、CMS ブロックを含めることができます。 [[!DNL Page Builder]](../page-builder/introduction.md) のコンテンツツールを使用して、カテゴリの説明を定義できます。
+_[!UICONTROL Content]_&#x200B;の設定によって、カテゴリページに表示される追加コンテンツが決まります。 カテゴリ製品のリストに加えて、ページには画像、説明、CMS ブロックを含めることができます。 [[!DNL Page Builder]](../page-builder/introduction.md) のコンテンツツールを使用して、カテゴリの説明を定義できます。
 
 ## カテゴリの説明を [!DNL Page Builder] に追加します
 

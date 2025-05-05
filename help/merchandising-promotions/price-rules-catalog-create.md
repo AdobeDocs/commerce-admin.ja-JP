@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## 手順 1：ルールを追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Catalog Price Rule]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Catalog Price Rule]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Rule]**」をクリックします。
 
-   _[!UICONTROL Rule Information]_部は、**[!UICONTROL Conditions]**び&#x200B;**[!UICONTROL Actions]**き出し可能な伸縮部を含む。
+   _[!UICONTROL Rule Information]_&#x200B;部は、**[!UICONTROL Conditions]**&#x200B;び&#x200B;**[!UICONTROL Actions]**&#x200B;き出し可能な伸縮部を含む。
 
    ![ カタログ価格ルール – 情報 ](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >同じカタログ製品が複数の価格ルールに設定された条件を満たす場合、_[!UICONTROL Priority]_設定は重要です。 優先度の設定が最も高いルール（優先度の高い順に 0、1、2、3...）が商品に対してアクティブになります。
+   >同じカタログ製品が複数の価格ルールに設定された条件を満たす場合、_[!UICONTROL Priority]_&#x200B;設定は重要です。 優先度の設定が最も高いルール（優先度の高い順に 0、1、2、3...）が商品に対してアクティブになります。
 
 ## 手順 2：条件の定義
 
@@ -212,9 +212,9 @@ ht-degree: 0%
 
 1. ルールのプロパティを更新します。
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） 「**[!UICONTROL Edit]**」をクリックすると、_[!UICONTROL Rule Information]_ページが表示されます。
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） 「**[!UICONTROL Edit]**」をクリックすると、_[!UICONTROL Rule Information]_&#x200B;ページが表示されます。
 
-   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）リスト内のルールをクリックして、_[!UICONTROL Rule Information]_ページを表示します。
+   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）リスト内のルールをクリックして、_[!UICONTROL Rule Information]_&#x200B;ページを表示します。
 
 1. ルールをテストして、正しく動作することを確認します。
 
@@ -251,7 +251,7 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 |-----|-----------|
-| [!UICONTROL Apply] | 購入に適用される計算のタイプを決定します。 オプション：<br/>**[!UICONTROL Apply as percentage of original]**– 通常価格のパーセンテージを差し引いて品目を値引きします。<br/>**[!UICONTROL Apply as fixed amount]** – 定価から固定金額を引いて品目を値引きします。 <br/>**[!UICONTROL Adjust final price to this percentage]**– 最終価格を通常価格に対するパーセンテージで調整します。<br/>**[!UICONTROL Adjust final price to discount value]** – 最終価格を固定の割引額に設定します。 <br/><br/>**_注：_**通常価格とは、特別価格（特定/階層/グループ）またはプロモーション割引を含まない基本商品価格を指します。 最終価格とは、買い物かごに表示される割引価格を指します。 <br/>**_最終&#x200B;_**製品価格は、次の式を使用して**_最小&#x200B;_**関連価格として計算されます。<br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | 購入に適用される計算のタイプを決定します。 オプション：<br/>**[!UICONTROL Apply as percentage of original]**– 通常価格のパーセンテージを差し引いて品目を値引きします。<br/>**[!UICONTROL Apply as fixed amount]** – 定価から固定金額を引いて品目を値引きします。 <br/>**[!UICONTROL Adjust final price to this percentage]**– 最終価格を通常価格に対するパーセンテージで調整します。<br/>**[!UICONTROL Adjust final price to discount value]** – 最終価格を固定の割引額に設定します。 <br/><br/>**_注：_**&#x200B;通常価格とは、特別価格（特定/階層/グループ）またはプロモーション割引を含まない基本商品価格を指します。 最終価格とは、買い物かごに表示される割引価格を指します。 <br/>**_最終&#x200B;_**&#x200B;製品価格は、次の式を使用して&#x200B;**_最小&#x200B;_**&#x200B;関連価格として計算されます。<br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | （必須）提供される割引の金額。 |
 | [!UICONTROL Discard Subsequent Rules] | この購入に追加ルールを適用できるかどうかを決定します。 同じ購入に複数の割引が適用されないようにするには、「`Yes`」を選択します。 オプション：`Yes` / `No` |
 

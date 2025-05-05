@@ -38,7 +38,7 @@ ht-degree: 0%
 | [!UICONTROL Operation] | トランザクションに関連付けられている活動のタイプ。 値：<br/>**[!UICONTROL Allocated]**– 会社に割り当てられたクレジット。<br/>**[!UICONTROL Updated]** – 次のいずれかのフィールドに変更が適用されました：[!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**– 注文が行われました。<br/>**[!UICONTROL Reimbursed]** – 未払残高が返済されました。 <br/>**[!UICONTROL Refunded]**- クレジット・メモ金額が払戻された場合。<br/>**[!UICONTROL Reverted]** – 注文がキャンセルされ、クレジット残高に返された金額。 |
 | [!UICONTROL Amount] | 次の取引タイプに関連付けられている取引の金額：`Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/> 購買金額の場合、金額は店舗の表示通貨およびクレジット通貨設定の形式で表示され、その後に現在の換算レート（該当する場合）が続きます。 例：<br/>EUR 20,000.00 （$22,400.00） <br/>USD/EUR 0.8928 |
 | [!UICONTROL Outstanding Balance] | 払い戻された金額から、分割払い方法を使用して行われたすべての注文の合計金額を差し引いた金額。 金額は、正または負の値として表示される場合があります。 <br/>**[!UICONTROL Positive value]**– 前払いは正の値で表されます。<br/>**[!UICONTROL Negative value]** – 未払額は負の値で表されます。 |
-| [!UICONTROL Available Credit] | _[!UICONTROL Credit Limit]_と_[!UICONTROL Outstanding Balance]_ の合計。 会社が与信限度額を超えた場合、金額は負の値として表示されます。 |
+| [!UICONTROL Available Credit] | _[!UICONTROL Credit Limit]_&#x200B;と_[!UICONTROL Outstanding Balance]_ の合計。 会社が与信限度額を超えた場合、金額は負の値として表示されます。 |
 | [!UICONTROL Credit Limit] | 会社に対して延長されるクレジットの金額。 |
 | [!UICONTROL Updated By] | 操作を開始したユーザーの名前。 |
 | [!UICONTROL Custom Reference Number] | トランザクションに関連付けられているカスタム参照番号。 |

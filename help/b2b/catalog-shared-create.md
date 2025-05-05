@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![Web サイト選択 ](./assets/shared-catalog-scope-pricing.png){width="600" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**カタログ**」を展開し、その下にある「**カタログ**」を選択します。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
-   新しいカタログが _[!UICONTROL Shared Catalogs]_グリッドに表示されます。
+   新しいカタログが _[!UICONTROL Shared Catalogs]_&#x200B;グリッドに表示されます。
 
 ### 方法 2：既存の共有カタログを複製する
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
-   複製が一意の ID と共に _[!UICONTROL Shared Catalogs]_グリッドに表示されます。
+   複製が一意の ID と共に _[!UICONTROL Shared Catalogs]_&#x200B;グリッドに表示されます。
 
 ## 手順 2：設定の完了
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**[B2B リリース 1.3.0](release-notes.md#b2b-v130) 以降** – 共有カタログを作成すると、カタログの各 [ カテゴリ権限 ](../catalog/category-permissions.md) は _[!UICONTROL Allow for the Display Product Prices]_に設定され、カタログ権限設定でこのアクセス権が割り当てられた顧客グループの_[!UICONTROL Add to Cart]_ に設定されます。 以前は、カタログ権限が `Deny` に設定されている場合でも、これらの設定は自動的に `Allow` に設定されていました。
+>**[B2B リリース 1.3.0](release-notes.md#b2b-v130) 以降** – 共有カタログを作成すると、カタログの各 [ カテゴリ権限 ](../catalog/category-permissions.md) は _[!UICONTROL Allow for the Display Product Prices]_&#x200B;に設定され、カタログ権限設定でこのアクセス権が割り当てられた顧客グループの&#x200B;_[!UICONTROL Add to Cart]_ に設定されます。 以前は、カタログ権限が `Deny` に設定されている場合でも、これらの設定は自動的に `Allow` に設定されていました。
 
 ## 共有カタログのデモ
 

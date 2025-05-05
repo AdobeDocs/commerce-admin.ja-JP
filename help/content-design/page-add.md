@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ### 手順 1：ページを作成する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add New Page]**」をクリックします。
 
@@ -145,13 +145,13 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]** 矢印をクリックし、「**[!UICONTROL Save & Close]**」を選択してページグリッドに戻ります。
 
-1. グリッドでページを見つけ、_[!UICONTROL Action]_列で&#x200B;**[!UICONTROL View]**を選択します。
+1. グリッドでページを見つけ、_[!UICONTROL Action]_&#x200B;列で&#x200B;**[!UICONTROL View]**&#x200B;を選択します。
 
 1. グリッドに戻るには、ブラウザーウィンドウの左上隅にある **[!UICONTROL Back]** をクリックします。
 
 ### 手順 8：ページのPublish
 
-1. グリッドの _[!UICONTROL Action]_列の「**[!UICONTROL Edit]**」を選択します。
+1. グリッドの _[!UICONTROL Action]_&#x200B;列の「**[!UICONTROL Edit]**」を選択します。
 
 1. **[!UICONTROL Enable Page]** を `Yes` に設定します。
 
@@ -163,9 +163,9 @@ ht-degree: 0%
 
 ![ 保存して複製 ](./assets/page-duplicate-save-menu.png){width="600" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
 
-1. グリッドで、複製するページを見つけ、_[!UICONTROL Action]_の列の&#x200B;**[!UICONTROL Edit]**をクリックします。
+1. グリッドで、複製するページを見つけ、_[!UICONTROL Action]_&#x200B;の列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. **[!UICONTROL Save]** の矢印をクリックし、「**[!UICONTROL Save & Duplicate]**」を選択します。
 
@@ -206,11 +206,11 @@ ht-degree: 0%
 
 ## ページの削除
 
-作成したページを削除する方法は 2 つあります。 _[!UICONTROL Pages]_グリッドまたは_[!UICONTROL Edit]_ ページから削除できます。
+作成したページを削除する方法は 2 つあります。 _[!UICONTROL Pages]_&#x200B;グリッドまたは&#x200B;_[!UICONTROL Edit]_ ページから削除できます。
 
 ### 方法 1：ページグリッドからページを削除する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
 
 1. グリッドの上でフィルターを使用してページを見つけ、削除する 1 つ以上のページのチェックボックスを選択します。
 
@@ -220,7 +220,7 @@ ht-degree: 0%
 
 ### 方法 2：編集ページからページを削除する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
 
 1. 削除するページを検索します。
 

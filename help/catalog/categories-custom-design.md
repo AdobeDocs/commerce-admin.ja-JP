@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # カテゴリ – デザイン設定
 
-_[!UICONTROL Design]_のセクションでは、カテゴリのルックアンドフィール、関連するすべての製品ページおよびページレイアウトを制御できます。 プロモーションのカテゴリページとそれに関連する製品をカスタマイズしたり、カテゴリを区別したりできます。 例えば、ブランドや特別な製品ライン用に独特のデザインを作成したり、特定の期間に更新を適用したりできます。
+_[!UICONTROL Design]_&#x200B;のセクションでは、カテゴリのルックアンドフィール、関連するすべての製品ページおよびページレイアウトを制御できます。 プロモーションのカテゴリページとそれに関連する製品をカスタマイズしたり、カテゴリを区別したりできます。 例えば、ブランドや特別な製品ライン用に独特のデザインを作成したり、特定の期間に更新を適用したりできます。
 
 ![ カテゴリのデザイン設定 ](./assets/category-design.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->同じ製品が、カテゴリごとに異なるデザイン設定を持つ複数のカテゴリに割り当てられる場合は、**検索エンジン最適化設定オプション [ で** 製品 URL にカテゴリパスを使用 ](../configuration-reference/catalog/catalog.md#search-engine-optimization) = `Yes` を設定することをお勧めします。 この設定にアクセスするには、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動して「**[!UICONTROL Catalog]**」を展開し、左パネルの下にある&#x200B;**カタログ**を選択して、ページの「**検索エンジンの最適化**」セクションを展開します。
+>同じ製品が、カテゴリごとに異なるデザイン設定を持つ複数のカテゴリに割り当てられる場合は、**検索エンジン最適化設定オプション [ で** 製品 URL にカテゴリパスを使用 ](../configuration-reference/catalog/catalog.md#search-engine-optimization) = `Yes` を設定することをお勧めします。 この設定にアクセスするには、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動して「**[!UICONTROL Catalog]**」を展開し、左パネルの下にある&#x200B;**カタログ**&#x200B;を選択して、ページの「**検索エンジンの最適化**」セクションを展開します。
 
 | フィールド | 説明 |
 |--- |--- |
@@ -34,7 +34,7 @@ _[!UICONTROL Design]_のセクションでは、カテゴリのルックアン�
 
 {{ce-feature}}
 
-_[!UICONTROL Scheduled Design Update]_セクションでは、カテゴリページにカスタムデザインが適用される日付の範囲を決定します。
+_[!UICONTROL Scheduled Design Update]_&#x200B;セクションでは、カテゴリページにカスタムデザインが適用される日付の範囲を決定します。
 
 | フィールド | 説明 |
 |--- |--- |

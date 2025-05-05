@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![ 報酬為替レート ](./assets/reward-exchange-rates.png){width="700" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Reward Exchange Rates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Reward Exchange Rates]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Rate]**」をクリックします。
 
@@ -51,12 +51,12 @@ ht-degree: 0%
 
    どちらの方向設定でも、金額は Web サイトの基本通貨で表されます。
 
-1. _[!UICONTROL Direction]_の設定に従って&#x200B;**[!UICONTROL Rate]**の値を入力します。
+1. _[!UICONTROL Direction]_&#x200B;の設定に従って&#x200B;**[!UICONTROL Rate]**&#x200B;の値を入力します。
 
    | 方向 | レート設定 |
    |---------|-------------|
-   | [!UICONTROL Points to Currency] | 最初の「_[!UICONTROL Rate]_」フィールドに、ポイントの数を入力します。 2 番目の_[!UICONTROL Rate]_ フィールドに、ポイントの金額を入力します。 |
-   | [!UICONTROL Currency to Points] | 「最初の _[!UICONTROL Rate]_」フィールドに金額を入力します。 2 番目の_[!UICONTROL Rate]_ フィールドに、金額で表されるポイントの数を入力します。 |
+   | [!UICONTROL Points to Currency] | 最初の「_[!UICONTROL Rate]_」フィールドに、ポイントの数を入力します。 2 番目の&#x200B;_[!UICONTROL Rate]_ フィールドに、ポイントの金額を入力します。 |
+   | [!UICONTROL Currency to Points] | 「最初の _[!UICONTROL Rate]_」フィールドに金額を入力します。 2 番目の&#x200B;_[!UICONTROL Rate]_ フィールドに、金額で表されるポイントの数を入力します。 |
 
    ポイントを通貨に変換する場合、ポイント数を分割することはできません。 例えば、10 ポイントが 2.00 ドルに換算される場合、ポイントは 10 のグループで交換する必要があります。 したがって、25 ポイントは 4.00 ドルで引き換えられ、5 ポイントが顧客の残高に残ります。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ## 報酬為替レートの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Reward Exchange Rates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Reward Exchange Rates]**&#x200B;に移動します。
 
 1. 削除する報酬為替レートを見つけて、編集モードで開きます。
 
@@ -80,4 +80,4 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Website] | 報酬率が適用される Web サイト。 |
 | [!UICONTROL Customer Group] | 報酬レートが適用される顧客グループ。 |
-| [!UICONTROL Direction] | 為替レートで定義するトランザクションのタイプを決定します。 オプション：<br/>**[!UICONTROL Points to Currency]**– 注文額に対するクレジットとして適用できるポイントの数を定義します。 最初の「_[!UICONTROL Rate]_」フィールドに、ポイントの数を入力します。 2 番目の_[!UICONTROL Rate]_ フィールドに、ポイントの金額を入力します。<br/>**[!UICONTROL Currency to Points]** – 顧客ポイントを獲得できる注文の量を定義します。 「最初の _[!UICONTROL Rate]_」フィールドに金額を入力します。 2 番目の_[!UICONTROL Rate]_ フィールドに、金額で表されるポイントの数を入力します。 |
+| [!UICONTROL Direction] | 為替レートで定義するトランザクションのタイプを決定します。 オプション：<br/>**[!UICONTROL Points to Currency]**– 注文額に対するクレジットとして適用できるポイントの数を定義します。 最初の「_[!UICONTROL Rate]_」フィールドに、ポイントの数を入力します。 2 番目の&#x200B;_[!UICONTROL Rate]_ フィールドに、ポイントの金額を入力します。<br/>**[!UICONTROL Currency to Points]** – 顧客ポイントを獲得できる注文の量を定義します。 「最初の _[!UICONTROL Rate]_」フィールドに金額を入力します。 2 番目の&#x200B;_[!UICONTROL Rate]_ フィールドに、金額で表されるポイントの数を入力します。 |

@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 手順 1：属性プロパティの完了
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Customer Address]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Customer Address]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Attribute]**」をクリックします。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 1. フィールドに初期値を割り当てるには、**[!UICONTROL Default Value]** を入力します。
 
-1. レコードを保存する前に、フィールドに入力されたデータの正確性を確認するには、**[!UICONTROL Input Validation]** をフィールドで許可されるデータのタイプに設定します。 使用できる値は、指定した _[!UICONTROL Input Type]_によって異なります。
+1. レコードを保存する前に、フィールドに入力されたデータの正確性を確認するには、**[!UICONTROL Input Validation]** をフィールドで許可されるデータのタイプに設定します。 使用できる値は、指定した _[!UICONTROL Input Type]_&#x200B;によって異なります。
 
    - `None` - フィールドには、データ入力時の入力検証はありません。
    - `Alphanumeric` - データ入力時に数字（0 ～ 9）と英字（a ～ z、A ～ Z）の任意の組み合わせを使用できます。 特殊文字を含めるには、次の手順の [!UICONTROL Escape HTML Entities] を参照してください。
@@ -128,11 +128,11 @@ ht-degree: 0%
 | [!UICONTROL Input Type] | データ入力に使用する [ 入力コントロール ](../catalog/attributes-input-types.md) を決定します。 オプション：<br/>**`Text Field`**- 1 行のテキストフィールド。<br/>**`Text Area`** – 複数行のテキスト領域。 <br/>**`Multiple Line`**– 複数行の住所のように、属性に対して複数のテキスト行を作成します。 個別のデータ入力行の数は、2 ～ 20 の範囲で指定できます。<br/>**`Date`** – 日付フィールドとポップアップカレンダーを表示します。<br/>**`Dropdown`**– 値の選択を 1 つだけ受け入れるドロップダウンリスト。<br/>**`Multiple Select`** – 複数の値の選択を受け入れるドロップダウンリスト。 <br/>**`Yes/No`**- `Yes` 値または `No` 値の選択のみを提供するフィールド。<br/>**`File (attachment)`** - ファイルをアップロードし、顧客属性に添付ファイルとして関連付けることができるフィールド。 <br/>**`Image File`**– 画像をギャラリーにアップロードし、顧客属性に関連付けることができるフィールド。 |
 | [!UICONTROL Values Required] | フィールドに値を入力する必要があるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Default Value] | 属性の初期値を指定します。 |
-| [!UICONTROL Input Validation] | オプションの選択は、入力タイプによって決まります。 オプション：<br/>**`None`**- フィールドには、データ入力時に入力検証はありません。<br/>**`Alphanumeric`** - データ入力時に数字（0 ～ 9）と英字（a ～ z、A ～ Z）の任意の組み合わせを使用できます。 <br/>**`Alphanumeric with Space`**– 配送業者の最大長の要件に準拠するために、番地内のスペースを許可します。 チェックアウト時に、お客様は数字（0 ～ 9）、英字（a ～ z、A ～ Z）、および受信者と送信者の住所のスペースを任意に組み合わせて入力できます。 アドレスを保存する際、余分なスペースは削除されます。<br/>**`Numeric Only`** - データ入力中は数字（0 ～ 9）のみを使用できます。 <br/>**`Alpha Only`**- データ入力時に使用できる文字は、英字（a ～ z、A ～ Z）のみです。<br/>** URL **- データ入力時に URL のみを受け入れます。<br/>**`Email`** - データ入力時にメールアドレスのみを受け入れます。 <br/>**`Length Only`**- フィールドに入力されたデータの長さに基づいて入力を検証します。 |
+| [!UICONTROL Input Validation] | オプションの選択は、入力タイプによって決まります。 オプション：<br/>**`None`**- フィールドには、データ入力時に入力検証はありません。<br/>**`Alphanumeric`** - データ入力時に数字（0 ～ 9）と英字（a ～ z、A ～ Z）の任意の組み合わせを使用できます。 <br/>**`Alphanumeric with Space`**– 配送業者の最大長の要件に準拠するために、番地内のスペースを許可します。 チェックアウト時に、お客様は数字（0 ～ 9）、英字（a ～ z、A ～ Z）、および受信者と送信者の住所のスペースを任意に組み合わせて入力できます。 アドレスを保存する際、余分なスペースは削除されます。<br/>**`Numeric Only`** - データ入力中は数字（0 ～ 9）のみを使用できます。 <br/>**`Alpha Only`**- データ入力時に使用できる文字は、英字（a ～ z、A ～ Z）のみです。<br/>**&#x200B; URL &#x200B;**- データ入力時に URL のみを受け入れます。<br/>**`Email`** - データ入力時にメールアドレスのみを受け入れます。 <br/>**`Length Only`**- フィールドに入力されたデータの長さに基づいて入力を検証します。 |
 | [!UICONTROL Input/Output Filter] | レコードを保存する前に、テキスト フィールド、テキスト領域、または複数行の入力タイプに入力された値に前処理フィルタを適用します。 オプション：<br/>**`None`**- フィールドに入力されたテキストにフィルターを適用しません。<br/>**`Strip HTML Tags`** - テキストからHTMLタグを削除します。 このフィルターは、HTMLタグを含む別のソースからフィールドに貼り付けられたデータをクリーンアップするのに役立ちます。 <br/>**`Escape HTML Entities`**- テキスト内の特殊文字を、`amp;` などの有効なHTMLエスケープシーケンスに変換します。 エスケープシーケンスは、アンパサンドとセミコロンで囲まれ、タイポグラファーのスマート引用符、著作権記号、商標記号によく使用されます。 エスケープシーケンスは、より小さい（`<`）記号や大きい（`>`）記号などの文字、およびコードでも使用されるアンパサンド文字の識別にも使用されます。 このフィルタは、ワード プロセッサからデータベース フィールドに貼り付けられる特殊文字をクリーンアップするのに役立ちます。 |
 | [!UICONTROL Add to Column Options] | 属性が [Customers](./customers-all.md) グリッドの列として含まれるかどうかを指定します。 オプション：`Yes` / `No` |
 | フィルターオプションで使用 | 属性をグリッドからの検索操作のフィルターとして使用できるかどうかを指定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Grid Filter Condition Type] | グリッドからの検索操作で、属性のフィルター一致条件を指定します。 グリッドの _[!UICONTROL Search by keyword]_フィールドには影響しません。 オプション：`Partial Match`/`Prefix Match`/`Full Match` |
+| [!UICONTROL Grid Filter Condition Type] | グリッドからの検索操作で、属性のフィルター一致条件を指定します。 グリッドの _[!UICONTROL Search by keyword]_&#x200B;フィールドには影響しません。 オプション：`Partial Match`/`Prefix Match`/`Full Match` |
 | [!UICONTROL Use in Search Options] | 属性値を検索操作でキーワードとして使用できるかどうかを指定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Use in Customer Segment] | 属性が [ 顧客セグメント ](./customer-segments.md) 条件に含まれるかどうかを決定します。 オプション：`Yes` / `No` |
 

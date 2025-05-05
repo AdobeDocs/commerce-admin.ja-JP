@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## ストア表示の追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL All Stores]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL All Stores]**&#x200B;に移動します。
 
    ![ すべてのストア ](./assets/stores-all.png){width="700" zoomable="yes"}
 
@@ -55,9 +55,9 @@ Adobe CommerceまたはMagento Open Sourceのインストールでマルチサ�
 
 {style="table-layout:auto"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL All Stores]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL All Stores]**&#x200B;に移動します。
 
-1. グリッドの _[!UICONTROL Store View]_列で、編集するビューの名前をクリックします。
+1. グリッドの _[!UICONTROL Store View]_&#x200B;列で、編集するビューの名前をクリックします。
 
    デフォルトのビューを編集する場合、「_[!UICONTROL Store]_」フィールドと「_[!UICONTROL Status]_」フィールドは使用できません。
 

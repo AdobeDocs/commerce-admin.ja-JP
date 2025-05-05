@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Inventory Management] 製品オプションの設定
 
-これらの設定は、編集された製品にのみ適用され、グローバル web サイトレベルのすべての設定を上書きします。 製品の編集時に、_[!UICONTROL Sources]_のセクションと_[!UICONTROL Advanced Inventory]_ のページで、これらの設定を変更します。
+これらの設定は、編集された製品にのみ適用され、グローバル web サイトレベルのすべての設定を上書きします。 製品の編集時に、_[!UICONTROL Sources]_&#x200B;のセクションと&#x200B;_[!UICONTROL Advanced Inventory]_ のページで、これらの設定を変更します。
 
 - ソース別の製品オプションの設定
 - 詳細在庫用の製品オプションの構成
@@ -51,8 +51,8 @@ ht-degree: 0%
 | [!UICONTROL Status] | グローバル | 製品がカタログで有効または無効になっている。 |
 | [!UICONTROL Source Item Status] | グローバル | 商品の現在の可用性を決定します。 オプション：<br />`In Stock` – 製品を購入できるようにします。<br />`Out of Stock` - バックオーダーが有効化されていない限り、は商品を購入できないようにし、カタログからリストを削除します。 |
 | [!UICONTROL Qty] | グローバル | ソースまたは事業所ごとの手持在庫金額。 |
-| [!UICONTROL Notify Quantity] | グローバル | _[!UICONTROL Notify Quantity Use Default]_が選択されていない場合のこの特定のソースの_[!UICONTROL Notify for Quantity Below]_ の金額。 |
-| [!UICONTROL Notify Quantity Use Default] | グローバル | 製品 _[!UICONTROL Advanced Inventory]_定の_[!UICONTROL Notify for Quantity Below]_ のデフォルト設定、またはストア設定のグローバル設定を使用することを示します。 |
+| [!UICONTROL Notify Quantity] | グローバル | _[!UICONTROL Notify Quantity Use Default]_&#x200B;が選択されていない場合のこの特定のソースの&#x200B;_[!UICONTROL Notify for Quantity Below]_ の金額。 |
+| [!UICONTROL Notify Quantity Use Default] | グローバル | 製品 _[!UICONTROL Advanced Inventory]_&#x200B;定の&#x200B;_[!UICONTROL Notify for Quantity Below]_ のデフォルト設定、またはストア設定のグローバル設定を使用することを示します。 |
 
 ## 高度な製品オプション
 
@@ -74,9 +74,9 @@ ht-degree: 0%
 
    | 値 | 説明 |
    | ----- | ----- |
-   | 正の金額 | _[!UICONTROL Backorders]_を無効にした場合は、正の値を入力します。 |
-   | ゼロ | _[!UICONTROL Backorders]_を有効にした場合、`0` と入力すると無制限のバックオーダーが可能になります。 |
-   | マイナスの金額 | _[!UICONTROL Backorders]_を有効にする場合は、負の値を入力することをお勧めします。 金額は販売可能数量に追加されます。 例えば、この金額までの注文を許可するには、「`-50`」と入力します。 |
+   | 正の金額 | _[!UICONTROL Backorders]_&#x200B;を無効にした場合は、正の値を入力します。 |
+   | ゼロ | _[!UICONTROL Backorders]_&#x200B;を有効にした場合、`0` と入力すると無制限のバックオーダーが可能になります。 |
+   | マイナスの金額 | _[!UICONTROL Backorders]_&#x200B;を有効にする場合は、負の値を入力することをお勧めします。 金額は販売可能数量に追加されます。 例えば、この金額までの注文を許可するには、「`-50`」と入力します。 |
 
 1. **[!UICONTROL Minimum Qty Allowed in Shopping Cart]** を入力します。
 

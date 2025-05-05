@@ -42,11 +42,11 @@ ht-degree: 0%
 
 新製品リストの内容とストア内での配置を決定するコードは、ウィジェットツールによって生成されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックします。
 
-1. _[!UICONTROL Settings]_セクションで、次の操作を行います。
+1. _[!UICONTROL Settings]_&#x200B;セクションで、次の操作を行います。
 
    - **[!UICONTROL Type]** を `Catalog New Products List` に設定します。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
    ![ 新しい製品リストウィジェットの設定 ](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Storefront Properties]_セクションで、次の操作を行います。
+1. _[!UICONTROL Storefront Properties]_&#x200B;セクションで、次の操作を行います。
 
    - **[!UICONTROL Widget Title]** しくは、ウィジェットのわかりやすいタイトルを入力します。 （このタイトルは、_管理者_ からのみ表示されます。）
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 1. **[!UICONTROL Display Products]** を次のいずれかに設定します。
 
    - `All Products` – 最後に追加された製品から順に製品を一覧表示します。
-   - `New Products` - _新規_ として識別される製品のみを一覧表示します。 製品は、_[!UICONTROL Set Product As New From/To]_で指定された日付範囲で、新規と見なされます。 新しい製品が定義されずに日付範囲が期限切れになった場合、リストは空になります。
+   - `New Products` - _新規_ として識別される製品のみを一覧表示します。 製品は、_[!UICONTROL Set Product As New From/To]_&#x200B;で指定された日付範囲で、新規と見なされます。 新しい製品が定義されずに日付範囲が期限切れになった場合、リストは空になります。
 
 1. 複数のページを含むリストのナビゲーション制御を提供するには、**[!UICONTROL Display Page Control]** を `Yes` に設定します。
 
@@ -118,6 +118,6 @@ ht-degree: 0%
 
 ## 手順 5：作業のプレビュー
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
 
 1. _新製品_ リストが表示されるグリッドでページを見つけ、「_[!UICONTROL Action]_」列の「**[!UICONTROL Preview]**」リンクをクリックします。

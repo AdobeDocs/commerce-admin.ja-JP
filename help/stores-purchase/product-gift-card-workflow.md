@@ -66,7 +66,7 @@ ht-degree: 0%
 
 - ギフトコードのアカウントは、特定の割引券の残高を追跡するために作成されます。 店舗管理者は手動で残高を調整できます。
 
-受信側の顧客は、アカウントダッシュボードの _[!UICONTROL Gift Card]_セクションを使用して、[ ギフトカード口座 ](product-gift-card-accounts.md) の残高を確認し、[ ストアクレジット ](../customers/store-credit-using.md) にギフトカードを引き換えることができます。
+受信側の顧客は、アカウントダッシュボードの _[!UICONTROL Gift Card]_&#x200B;セクションを使用して、[ ギフトカード口座 ](product-gift-card-accounts.md) の残高を確認し、[ ストアクレジット ](../customers/store-credit-using.md) にギフトカードを引き換えることができます。
 
 ![ ギフト カード ](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ### ギフト カードの有効化
 
-1. _[!UICONTROL Gift Card]_のページで、顧客がギフトカードコードを入力します。
+1. _[!UICONTROL Gift Card]_&#x200B;のページで、顧客がギフトカードコードを入力します。
 
 1. 顧客は「**[!UICONTROL Redeem Gift Card]**」をクリックします。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ![ 店舗の貸方残高 ](./assets/store-credit.png){width="700" zoomable="yes"}
 
-ギフトカード残高のすべての操作は、_[!UICONTROL Store Credit]_のページで利用できます。
+ギフトカード残高のすべての操作は、_[!UICONTROL Store Credit]_&#x200B;のページで利用できます。
 
 ### チェックアウト時のギフトカードの適用
 
@@ -104,6 +104,6 @@ ht-degree: 0%
 
 1. ギフト カードのコードを入力し、**[!UICONTROL Apply]** をクリックします。
 
-   割引は _[!UICONTROL Order Summary]_に反映されるべきである。
+   割引は _[!UICONTROL Order Summary]_&#x200B;に反映されるべきである。
 
 1. **[!UICONTROL Place Order]** をクリックして、注文を確定します。

@@ -37,7 +37,7 @@ CSV ファイルを使用して、複数の製品と割り当てられたソー�
 
 ## すべてのソースの製品データのエクスポート
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Export]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Export]**&#x200B;に移動します。
 
 1. **[!UICONTROL Entity Type]** の場合は、「`Stock Sources`」を選択します。
 
@@ -53,7 +53,7 @@ CSV ファイルを使用して、複数の製品と割り当てられたソー�
 
 ## 特定のソースの製品データのエクスポート
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Export]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Export]**&#x200B;に移動します。
 
 1. **[!UICONTROL Entity Type]** の場合は、「`Stock Sources`」を選択します。
 
@@ -71,7 +71,7 @@ CSV ファイルを使用して、複数の製品と割り当てられたソー�
 
 ## 製品データの読み込み
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import]**&#x200B;に移動します。
 
 1. **[!UICONTROL Entity Type]** の場合は、「`Stock Sources`」を選択します。
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 製品属性の一括アップデート
 
-_[!UICONTROL Update Attributes]_ツールを使用して、商品の 1 つ以上の属性を変更します。 このツールを使用すると、大規模な製品グループに大幅な変更を適用できます。
+_[!UICONTROL Update Attributes]_&#x200B;ツールを使用して、商品の 1 つ以上の属性を変更します。 このツールを使用すると、大規模な製品グループに大幅な変更を適用できます。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 

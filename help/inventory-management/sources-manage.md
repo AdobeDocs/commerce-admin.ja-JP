@@ -36,9 +36,9 @@ ht-degree: 0%
 
 デフォルトのSourceを編集すると、名前とコードを除くすべての設定を編集できます。 シングルソースマーチャントは、場所に合わせて情報を追加することをお勧めします。
 
-_[!UICONTROL Manage Sources]_のページには、使用可能なすべての在庫場所とフルフィルメント施設が一覧表示されます。 新しい在庫ソースを追加し、既存の場所を編集できます。
+_[!UICONTROL Manage Sources]_&#x200B;のページには、使用可能なすべての在庫場所とフルフィルメント施設が一覧表示されます。 新しい在庫ソースを追加し、既存の場所を編集できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Inventory]_/**[!UICONTROL Sources]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Inventory]_/**[!UICONTROL Sources]**&#x200B;に移動します。
 
 1. 在庫場所を追加するには、[ 新しいSourceの追加 ](sources-add.md) を参照してください。
 

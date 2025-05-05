@@ -33,7 +33,7 @@ ht-degree: 0%
 1. 在庫数量の通知を設定するには、次のいずれかを実行します。
 
    - カスタム通知数量：「**[!UICONTROL Use Default]**」チェックボックスの選択を解除して、**[!UICONTROL Notify Qty]** に金額を入力します。
-   - デフォルトの通知数量：「**[!UICONTROL Use Default]**」チェックボックスを選択します。 [!DNL Commerce] は、_[!UICONTROL Advanced Inventory]_またはグローバルストア設定の設定を確認し、使用します。
+   - デフォルトの通知数量：「**[!UICONTROL Use Default]**」チェックボックスを選択します。 [!DNL Commerce] は、_[!UICONTROL Advanced Inventory]_&#x200B;またはグローバルストア設定の設定を確認し、使用します。
 
    ![Sourceごとの製品数量の更新 ](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
 
@@ -44,6 +44,6 @@ ht-degree: 0%
    - **[!UICONTROL Save]** （メニュー矢印 ![ メニュー ](../assets/icon-menu-down-arrow-red.png) で、「**[!UICONTROL Save & Close]**」を選択します。
 
 
-製品グリッドが更新され、すべてのソースと関連数量のリストが表示されます。 ソースが 6 つ以上ある製品の場合は、_[!UICONTROL Quantity per Source]_の列にカーソルを合わせると、完全なリストが表示されます。
+製品グリッドが更新され、すべてのソースと関連数量のリストが表示されます。 ソースが 6 つ以上ある製品の場合は、_[!UICONTROL Quantity per Source]_&#x200B;の列にカーソルを合わせると、完全なリストが表示されます。
 
 ![ ソースごとの製品数量 ](assets/inventory-product-quantity.png){width="600" zoomable="yes"}

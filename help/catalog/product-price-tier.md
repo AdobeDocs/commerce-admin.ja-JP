@@ -56,7 +56,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >割引価格を取得するには、定義済みの割合を、_[!UICONTROL Special Price]_フィールドではなく、_[!UICONTROL Price]_ フィールドで定義された値に対して計算します。
+     >割引価格を取得するには、定義済みの割合を、_[!UICONTROL Special Price]_&#x200B;フィールドではなく、_[!UICONTROL Price]_ フィールドで定義された値に対して計算します。
 
      ![ 階層価格（割合） ](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 

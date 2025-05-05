@@ -45,7 +45,7 @@ ht-degree: 0%
 
 このステップでは、Sprite Yoga Companion Kit が（[CSV](data-csv.md) ファイルとしてエクスポートされます。 カタログに含まれている他のバンドル製品を使用できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Export]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Export]**&#x200B;に移動します。
 
 1. _書き出し設定_ で、**[!UICONTROL Entity Type]** を `Products` に設定します。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. セクションの下部までスクロール ダウンし、[**[!UICONTROL Continue]**] をクリックします。
 
-1. _[!UICONTROL File name]_グリッドの_[!UICONTROL Action]_ 列で「**[!UICONTROL Select]**」をクリックし、「`Download`」を選択します。
+1. _[!UICONTROL File name]_&#x200B;グリッドの&#x200B;_[!UICONTROL Action]_ 列で「**[!UICONTROL Select]**」をクリックし、「`Download`」を選択します。
 
    ファイルは、ブラウザーが使用するダウンロード場所に表示されます。
 
@@ -81,9 +81,9 @@ ht-degree: 0%
 
 #### 手順 3：更新された製品のインポート
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import]**&#x200B;に移動します。
 
-1. _[!UICONTROL Import Settings]_で、**[!UICONTROL Entity Type]**を `Products` に設定します。
+1. _[!UICONTROL Import Settings]_&#x200B;で、**[!UICONTROL Entity Type]**&#x200B;を `Products` に設定します。
 
 1. **[!UICONTROL Import Behavior]** を `Replace` に設定します。
 
@@ -97,6 +97,6 @@ ht-degree: 0%
 
 1. ファイルが有効な場合は、[**[!UICONTROL Import]**] をクリックします。
 
-1. 処理が完了したら、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**に移動し、「**[!UICONTROL Flush Cache Storage]**」をクリックします。
+1. 処理が完了したら、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**&#x200B;に移動し、「**[!UICONTROL Flush Cache Storage]**」をクリックします。
 
    これにより、更新された製品がストアフロントですぐに使用できるようになります。

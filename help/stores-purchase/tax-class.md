@@ -22,9 +22,9 @@ ht-degree: 0%
 
 ## 税クラスの構成
 
-出荷に使用される税クラスと、[ 製品および顧客 ](#add-a-product-tax-class) のデフォルトの税クラスは、_[!UICONTROL Sales]_設定で設定されます。
+出荷に使用される税クラスと、[ 製品および顧客 ](#add-a-product-tax-class) のデフォルトの税クラスは、_[!UICONTROL Sales]_&#x200B;設定で設定されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Tax]**」を選択します。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 顧客および製品の税金クラスを簡単に追加して、個別の顧客および製品に割り当て、税務処理基準で使用できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Rules]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add New Tax Rule]**」をクリックします。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 **_計算のデフォルト税金宛先を構成する手順は、次のとおりです。_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Tax]**」を選択します。
 

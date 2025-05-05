@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ### 検索語句を追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL SEO & Search]_/**[!UICONTROL Search Terms]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL SEO & Search]_/**[!UICONTROL Search Terms]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add New Search Term]**」をクリックします。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## 検索語句を編集
 
-1. _[!UICONTROL Search Terms]_グリッドで、レコードの行をクリックして、検索語句を編集モードで開きます。
+1. _[!UICONTROL Search Terms]_&#x200B;グリッドで、レコードの行をクリックして、検索語句を編集モードで開きます。
 
 1. 必要な変更を加えます。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 検索語句を削除する方法には、グリッドからの方法と編集ページでの方法の 2 つがあります。
 
-**方法 1:** _[!UICONTROL Search Terms]_グリッド内
+**方法 1:** _[!UICONTROL Search Terms]_&#x200B;グリッド内
 
 1. リストで、削除する用語のチェックボックスを選択します。
 
@@ -78,9 +78,9 @@ ht-degree: 0%
 
 1. 完了したら、「**[!UICONTROL Submit]**」をクリックします。
 
-**方法 2:**_[!UICONTROL Edit a Search Term]_ページで
+**方法 2:**&#x200B;_[!UICONTROL Edit a Search Term]_&#x200B;ページで
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL SEO & Search]_/**[!UICONTROL Search Terms]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL SEO & Search]_/**[!UICONTROL Search Terms]**&#x200B;に移動します。
 
 1. 削除する検索語句を見つけ、編集モードで開きます。
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 **_一般的な検索用語を設定するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
@@ -139,9 +139,9 @@ Adobe Commerceでは、次の 2 つの異なるシノニム管理ソリューシ
 
 ### シノニム・グループの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL SEO & Search]_/**[!UICONTROL Search Synonyms]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL SEO & Search]_/**[!UICONTROL Search Synonyms]**&#x200B;に移動します。
 
-   _[!UICONTROL Search Synonyms]_グリッドが表示されます。 同義語の検索を初めて使用した場合、グリッドは空になります。
+   _[!UICONTROL Search Synonyms]_&#x200B;グリッドが表示されます。 同義語の検索を初めて使用した場合、グリッドは空になります。
 
    ![ シノニム グリッドの検索 ](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 
@@ -164,7 +164,7 @@ Adobe Commerceでは、次の 2 つの異なるシノニム管理ソリューシ
 
 ### シノニム・グループの編集
 
-1. _[!UICONTROL Search Synonyms]_グリッドで、レコードの行をクリックして、シノニム グループを編集モードで開きます。
+1. _[!UICONTROL Search Synonyms]_&#x200B;グリッドで、レコードの行をクリックして、シノニム グループを編集モードで開きます。
 
 1. 必要な変更を加えます。
 
@@ -176,7 +176,7 @@ Adobe Commerceでは、次の 2 つの異なるシノニム管理ソリューシ
 
 **方法 1:** 類義語検索グリッド
 
-1. _[!UICONTROL Search Synonyms]_グリッドで、削除するグループのチェックボックスを選択します。
+1. _[!UICONTROL Search Synonyms]_&#x200B;グリッドで、削除するグループのチェックボックスを選択します。
 
 1. リストの左上隅にある **[!UICONTROL Actions]** を `Delete` に設定します。
 
@@ -196,7 +196,7 @@ Adobe Commerceでは、次の 2 つの異なるシノニム管理ソリューシ
 
 ### レポートを表示
 
-1. _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Marketing]_/**[!UICONTROL Search Terms]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Marketing]_/**[!UICONTROL Search Terms]**&#x200B;に移動します。
 
 1. 必要に応じてコントロールを使用してレポートをフィルタリングします。
 

@@ -16,7 +16,7 @@ Cookie は、サイトへの各訪問者のコンピューターに保存され�
 
 >[!NOTE]
 >
->[EU 一般データ保護規則 ](compliance-gdpr.md) に準拠するためにデフォルトの ](../merchandising-promotions/google-tools.md#google-privacy-settings)0}Google プライバシー設定 } を変更する場合、Google Analytics Cookie の使用に関するユーザーの同意を得る必要はありません。[
+>[EU 一般データ保護規則 ](compliance-gdpr.md) に準拠するためにデフォルトの [&#128279;](../merchandising-promotions/google-tools.md#google-privacy-settings)0&rbrace;Google プライバシー設定 &rbrace; を変更する場合、Google Analytics Cookie の使用に関するユーザーの同意を得る必要はありません。
 
 ## cookie 制限モード
 
@@ -32,7 +32,7 @@ cookie 制限モードが有効になっている場合、ストアを訪問し�
 
 ### 手順 1:cookie 制限モードを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルの **[!UICONTROL General]** の下で、「**[!UICONTROL Web]**」を選択します。
 
@@ -206,7 +206,7 @@ Admin Analytics モジュールによって間接的に設定されます。 Cli
 
 ページビルダーモジュールで設定されます。 管理者が以前に明示的に却下した場合に、特定のアクションを開かないように管理者に確認するプロンプトを以降から表示しないようにするフラグが含まれます。 店舗の管理区域内でのみ使用すること。 買い物客には適用されません。
 
-#### `accordion-{VARIABLE}-{VARIABLE}`
+#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
 
 タブ機能の実装の一部として使用されるのは、ストアの管理領域のみです。 買い物客には適用されません。
 
@@ -214,7 +214,7 @@ Admin Analytics モジュールによって間接的に設定されます。 Cli
 
 ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）次の Cookie がAdobe Commerceのお客様向けの Product Recommendations で使用されます。 これらの Cookie は [DataServices モジュール ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure) と共にインストールされます。
 
-- `mg_dnt`：サイトで cookie の同意を管理するカスタムコードがある場合は、](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie)Adobe Commerce データ収集を制限 [ できます。
+- `mg_dnt`：サイトで cookie の同意を管理するカスタムコードがある場合は、[&#128279;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie)Adobe Commerce データ収集を制限  できます。
 - `user_allowed_save_cookie`: [cookie 制限モード ](#cookie-restriction-mode) に使用されます。
 - `authentication_flag`：買い物客がサインインまたはログアウトしたかどうかを示します。 この cookie は、`dataservices_customer_id` cookie と同時に更新されます。
 - `dataservices_customer_id`：買い物客がサインインまたはログアウトしたかどうかを示します。 この cookie には、システム内の顧客の一意の ID が含まれます。

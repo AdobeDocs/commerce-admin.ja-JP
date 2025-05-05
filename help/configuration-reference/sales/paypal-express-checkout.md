@@ -38,7 +38,7 @@ ht-degree: 0%
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | Web サイト | PayPal マーチャントアカウントが確立されたときに指定したメールアドレスを指定します。 メールアドレスは大文字と小文字が区別され、PayPal システムのメールアドレスと完全に一致する必要があります。 |
-| [!UICONTROL API Authentication Methods] | Web サイト | API 認証に使用する方法を決定します。 オプション：<br/>**`API Signature`**- フォームに _[!UICONTROL API Signature]_フィールドを表示します。<br/>**`API Certificate`**- フォームに「_[!UICONTROL API Certificate]_」フィールドを表示します。 |
+| [!UICONTROL API Authentication Methods] | Web サイト | API 認証に使用する方法を決定します。 オプション：<br/>**`API Signature`**- フォームに _[!UICONTROL API Signature]_&#x200B;フィールドを表示します。<br/>**`API Certificate`**- フォームに「_[!UICONTROL API Certificate]_」フィールドを表示します。 |
 | [!UICONTROL API Username] | Web サイト | PayPal マーチャントアカウントに関連付けられている API ユーザー名。 |
 | [!UICONTROL API Password] | Web サイト | PayPal マーチャントアカウントに関連付けられた API パスワード。 |
 | [!UICONTROL API Signature] | Web サイト | PayPal マーチャントアカウントに関連付けられた API 署名。 |
@@ -89,7 +89,7 @@ ht-degree: 0%
 | [!UICONTROL Display on Shopping Cart] | ストア表示 | PayPal Express チェックアウトが買い物かごに支払いオプションとして表示されるかどうかを決定します。 オプション：`Yes` （PayPal 推奨）/`No` |
 | [!UICONTROL Payment Action Applicable From] | Web サイト | 適用可能な国選択の範囲を決定します。 オプション：`All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Countries Payment Applicable From] | Web サイト | 支払いが受け入れられる各国を識別します。 この支払い方法で購入できるのは、選択した国の請求先住所を持つお客様のみです。 |
-| [!UICONTROL Debug Mode] | Web サイト | ストアと支払いシステム間で送信されたメッセージをログ ファイルに記録します。 オプション：`Yes` / `No` <br/><br/>**_注意：_**ログファイルはサーバーに保存され、開発者のみがアクセスできます。 PCI Data Security Standards に従い、クレジットカード情報はログファイルに記録されません。 |
+| [!UICONTROL Debug Mode] | Web サイト | ストアと支払いシステム間で送信されたメッセージをログ ファイルに記録します。 オプション：`Yes` / `No` <br/><br/>**_注意：_**&#x200B;ログファイルはサーバーに保存され、開発者のみがアクセスできます。 PCI Data Security Standards に従い、クレジットカード情報はログファイルに記録されません。 |
 | [!UICONTROL Enable SSL Verification] | Web サイト | ホスト セキュリティ証明書の検証を有効にします。 オプション：`Yes` / `No` |
 | [!UICONTROL Transfer Cart Line Items] | Web サイト | PayPal サイトの顧客の買い物かごからの明細項目の完全な概要を表示します。 オプション：`Yes` / `No` |
 | [!UICONTROL Transfer Shipping Options] | Web サイト | PayPal サイトに最大 10 の配送オプションが含まれます。 オプション：`Yes` / `No` |
@@ -113,7 +113,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Action] | Web サイト | PayPal がトランザクションをどのように管理するかを決定します。オプション：<br/>**認証** – 購入を承認しますが、資金を保留します。 この金額は、マーチャントによって「キャプチャ」されるまで引き出されません。 <br/>**セール** – 購入金額は許可され、すぐにお客様のアカウントから引き出されます。 |
 | [!UICONTROL Payment Applicable From] | Web サイト | 適用可能な国選択の範囲を決定します。 オプション：許可されているすべての国/特定の国 |
 | [!UICONTROL Countries Payment Applicable From] | Web サイト | 支払いが受け入れられる各国を識別します。 この支払い方法で購入できるのは、選択した国の請求先住所を持つお客様のみです。 |
-| [!UICONTROL Debug Mode] | Web サイト | 支払システムとの通信をログ ファイルに記録します。 オプション：`Yes` / `No` <br/><br/>**_注意：_**ログファイルはサーバーに保存され、開発者のみがアクセスできます。 PCI Data Security Standards に従い、クレジットカード情報はログファイルに記録されません。 |
+| [!UICONTROL Debug Mode] | Web サイト | 支払システムとの通信をログ ファイルに記録します。 オプション：`Yes` / `No` <br/><br/>**_注意：_**&#x200B;ログファイルはサーバーに保存され、開発者のみがアクセスできます。 PCI Data Security Standards に従い、クレジットカード情報はログファイルに記録されません。 |
 | [!UICONTROL Enable SSL Verification] | Web サイト | 暗号化された SSL チャネルでトランザクションが確実に実行されるように、に対して検証手順を有効にします。 オプション：`Yes` / `No` |
 | [!UICONTROL Transfer Cart Line Items] | Web サイト | 有効にすると、PayPal 支払いページの買い物かごからの明細項目の概要が表示されます。 オプション：`Yes` / `No` |
 | [!UICONTROL Allow in Billing Agreement Wizard] | Web サイト | 有効にすると、顧客は、顧客アカウントのダッシュボードから請求契約を開始できます。 |
@@ -148,7 +148,7 @@ ht-degree: 0%
 | [!UICONTROL PayPal Product Logo] | ストア表示 | ストアに表示される PayPal ロゴを決定します。 2 つのサイズには 4 つの基本スタイルがあります。 オプション：`No Logo` / `We prefer PayPal (150 x 60)` / `We prefer PayPal (150 x 40)` / `Now accepting PayPal (150 x 60)` / `Now accepting PayPal (150 x 40)` / `Payments by PayPal (150 x 60)` / `Payments by PayPal (150 x 40)` / `Shop now using (150 x 60)` / `Shop now using (150 x 40)` |
 | **[!UICONTROL PayPal Merchant Pages Style]** |  |  |
 | [!UICONTROL Page Style] | ストア表示 | PayPal マーチャントページの外観を決定します。 許可されている値：**`paypal`** - PayPal ページスタイルを使用します。 <br/>**`primary`**- アカウントプロファイルで「プライマリ」スタイルとして識別したページスタイルを使用します。<br/>**`your_custom_value`** - アカウントプロファイルで指定されているカスタム支払いページスタイルを使用します。 |
-| [!UICONTROL Header Image URL] | ストア表示 | チェックアウトページの左上隅に表示される画像の URL。 最大サイズは 750 x 90 ピクセルです。 <br/><br/>**_注意：_**PayPal では、画像を安全な（https）サーバーに保存することをお勧めします。 そうしないと、顧客のブラウザーで「ページにセキュアな項目とセキュアでない項目の両方が含まれています」と警告される場合があります。 |
+| [!UICONTROL Header Image URL] | ストア表示 | チェックアウトページの左上隅に表示される画像の URL。 最大サイズは 750 x 90 ピクセルです。 <br/><br/>**_注意：_**&#x200B;PayPal では、画像を安全な（https）サーバーに保存することをお勧めします。 そうしないと、顧客のブラウザーで「ページにセキュアな項目とセキュアでない項目の両方が含まれています」と警告される場合があります。 |
 | [!UICONTROL Header Image Background Color] | ストア表示 | チェックアウトページのヘッダーの背景色を 6 文字 [16 進数カラー ](https://en.wikipedia.org/wiki/Web_colors) のコードで表します。 コードは、大文字でも小文字でも入力できます。 |
 | [!UICONTROL Header Image Border Color] | ストア表示 | ヘッダーの周囲の 2 ピクセルの境界線の 6 文字 [16 進色 ](https://en.wikipedia.org/wiki/Web_colors) コード。 |
 | [!UICONTROL Page Background Color] | ストア表示 | ヘッダーと支払いフォームの後ろに表示される、チェックアウトページの背景色の 6 文字 [16 進数カラー ](https://en.wikipedia.org/wiki/Web_colors) コード。 |

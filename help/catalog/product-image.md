@@ -14,7 +14,7 @@ ht-degree: 0%
 
 各製品について、複数の画像やビデオをアップロードし、順序を並べ替えて、それぞれの使用方法を制御できます。 管理する画像が大量にある場合は、個別にアップロードするのではなく、1 つのバッチとして読み込んだ方がよいでしょう。 詳しくは、[ 製品画像の読み込み ](../systems/data-import-product-images.md) を参照してください。
 
-_[!UICONTROL Product Details]_ページに表示する大きな画像をアップロードする場合は、最大ピクセルサイズ（幅と高さ）を設定し、アップロード時にファイルのサイズを自動的に変更することを検討してください。 アップロード時に、大きな画像ファイルの自動サイズ変更を有効にするオプションがあります。 詳しくは、[ 製品画像のサイズ変更 ](product-image-config.md#product-image-resizing) を参照してください。
+_[!UICONTROL Product Details]_&#x200B;ページに表示する大きな画像をアップロードする場合は、最大ピクセルサイズ（幅と高さ）を設定し、アップロード時にファイルのサイズを自動的に変更することを検討してください。 アップロード時に、大きな画像ファイルの自動サイズ変更を有効にするオプションがあります。 詳しくは、[ 製品画像のサイズ変更 ](product-image-config.md#product-image-resizing) を参照してください。
 
 ## 製品画像の更新
 
@@ -36,21 +36,21 @@ _[!UICONTROL Product Details]_ページに表示する大きな画像をアッ�
 
 画像をアップロードするには、次のいずれかの操作を行います。
 
-- デスクトップから画像をドラッグし、_[!UICONTROL Images And Videos]_ールボックスの_ カメラ _（![ カメラアイコン ](../assets/icon-camera.png)）タイルにドロップします。
+- デスクトップから画像をドラッグし、_[!UICONTROL Images And Videos]_&#x200B;ールボックスの_ カメラ _（![ カメラアイコン ](../assets/icon-camera.png)）タイルにドロップします。
 
-- _[!UICONTROL Images And Videos]_ボックスで、_ カメラ _（![ カメラアイコン ](../assets/icon-camera.png)） タイルをクリックし、コンピューター上の画像ファイルを選択して、「**[!UICONTROL Open]**」をクリックします。
+- _[!UICONTROL Images And Videos]_&#x200B;ボックスで、_ カメラ _（![ カメラアイコン ](../assets/icon-camera.png)） タイルをクリックし、コンピューター上の画像ファイルを選択して、「**[!UICONTROL Open]**」をクリックします。
 
   ![ アップロードまたはドラッグ&amp;ドロップ ](./assets/product-images-and-video-jewel-tee.png){width="600" zoomable="yes"}
 
 ### 画像の並べ替え
 
-ギャラリー内の画像の順序を変更するには、画像タイルの下部にある _[!UICONTROL Sort]_（並べ替えアイコン ![）アイコンをクリックし ](./assets/inventory-icon-sort.png) 画像を画像ボックス内の別の位置にドラ_[!UICONTROL Images And Videos]_ グします。
+ギャラリー内の画像の順序を変更するには、画像タイルの下部にある _[!UICONTROL Sort]_（並べ替えアイコン ![）アイコンをクリックし ](./assets/inventory-icon-sort.png) 画像を画像ボックス内の別の位置にドラ&#x200B;_[!UICONTROL Images And Videos]_ グします。
 
 ![ 変更依頼 ](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
 ### 画像の削除
 
-ギャラリーから画像を削除するには、画像タイルの右上隅にある **[!UICONTROL Delete]** （ごみ箱アイコン ](../assets/icon-delete-trashcan.png) ![ アイコンをクリックし、「**[!UICONTROL Save]**」をクリックします。
+ギャラリーから画像を削除するには、画像タイルの右上隅にある **[!UICONTROL Delete]** （ごみ箱アイコン ![&#128279;](../assets/icon-delete-trashcan.png)  アイコンをクリックし、「**[!UICONTROL Save]**」をクリックします。
 
 ### 画像の詳細を設定
 
@@ -72,7 +72,7 @@ _[!UICONTROL Product Details]_ページに表示する大きな画像をアッ�
 
 デフォルトでは、製品にアップロードされた最初の画像にすべての役割が割り当てられます。 別の画像に役割を再割り当てするには、次の手順を実行します。
 
-_[!UICONTROL Role]_ボックスで、画像に割り当てる役割を選択します。
+_[!UICONTROL Role]_&#x200B;ボックスで、画像に割り当てる役割を選択します。
 
 「_画像とビデオ_」セクションに戻ると、現在割り当てられている役割が各画像の下に表示されます。
 
@@ -109,11 +109,11 @@ _[!UICONTROL Role]_ボックスで、画像に割り当てる役割を選択し�
 
 ### 製品画像への透かしの追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
    デザイン設定について詳しくは、「[ デザイン設定 ](../content-design/configuration.md)」を参照してください。
 
-1. 設定するストア表示を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
+1. 設定するストア表示を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. 「_[!UICONTROL Other Settings]_」の下の「展開セレクター ![ 「**[!UICONTROL Product Image Watermarks]**」セクション ](../assets/icon-display-expand.png) を展開します。
 

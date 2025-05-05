@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 「_[!UICONTROL Shipping Address]_」セクションの下部で、顧客は「**[!UICONTROL + New Address]**」をクリックします。
 
-1. _[!UICONTROL Shipping Address]_フォームに入力します。
+1. _[!UICONTROL Shipping Address]_&#x200B;フォームに入力します。
 
    デフォルトでは、顧客の姓と名が最初にフォームに表示されます。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ![ 注文概要に表示される項目の数 ](./assets/order-summary.png){width="700" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 ### チェックアウトオプションの変更
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 1. 必要に応じて、次のいずれかのオプションを設定します。
 1. 「**[!UICONTROL Save Config]**」をクリックします。
@@ -148,7 +148,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Terms and Conditions] | ストア表示 | 購入を行う前に、顧客が販売の [ 利用条件 ](terms-and-conditions.md) に同意する必要があるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | ストア表示 | チェックアウト時の請求先住所の場所を決定します。 オプション：`Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | ストア表示 | チェックアウト時に注文概要に表示できる項目の最大数を決定します。 デフォルトは `10` です。 |
-| [!UICONTROL Enable Address Search] | Web サイト | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）お客様が [ 配送料 _および_ 確認と支払い _手順に ](checkout-address-search.md) 住所の検索_ 機能を使用できるかどうかを判断します。 この機能が有効な場合は、_[!UICONTROL Number of Customer Addresses Limit]_を使用して、チェックアウト時にこの機能を有効化するために必要な保存済みアドレスの数を設定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Enable Address Search] | Web サイト | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）お客様が [ 配送料 _および_ 確認と支払い _手順に ](checkout-address-search.md) 住所の検索_ 機能を使用できるかどうかを判断します。 この機能が有効な場合は、_[!UICONTROL Number of Customer Addresses Limit]_&#x200B;を使用して、チェックアウト時にこの機能を有効化するために必要な保存済みアドレスの数を設定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Number of Customer Addresses Limit] | Web サイト | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） アドレス検索が **[!UICONTROL Enabled]** の場合、は、チェックアウト時にこの機能をアクティブにするために必要な保存済みアドレスの数を決定します。 顧客の保存済みアドレスの数がこの数を超える場合、_配送_ ステップおよび _確認と支払い_ ステップではデフォルトのアドレスのみがレンダリングされます。 お客様は、検索機能を使用して、選択したアドレスを変更できます。 デフォルトは 10 です。 |
 
 {style="table-layout:auto"}

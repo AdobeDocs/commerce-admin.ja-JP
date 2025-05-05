@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## テンプレートへのアクセス
 
-_管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Templates]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Templates]**&#x200B;に移動します。
 
 ![ サムネールのプレビューを含むテンプレートグリッド ](./assets/templates-list.png){width="700" zoomable="yes"}
 
@@ -30,7 +30,7 @@ _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]
 
    「テンプレートとして保存」ボタンを使用してステージを ![[!DNL Page Builder] 成する ](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
 
-   _[!UICONTROL Save Content as Template]_ダイアログが表示されます。
+   _[!UICONTROL Save Content as Template]_&#x200B;ダイアログが表示されます。
 
    ![[!DNL Page Builder] テンプレートとして保存」ダイアログ ](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
 
@@ -56,7 +56,7 @@ _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]
 
    ![[!DNL Page Builder] テンプレートを適用」ボタン ](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Apply Template]_のグリッドからテンプレートを選択し、行の最後にある&#x200B;**[!UICONTROL Apply]**をクリックします。
+1. _[!UICONTROL Apply Template]_&#x200B;のグリッドからテンプレートを選択し、行の最後にある&#x200B;**[!UICONTROL Apply]**&#x200B;をクリックします。
 
    テンプレート全体を表示するには、テンプレートのサムネール画像をクリックします。 この操作により画像が展開され、必要に応じてテンプレート全体を表示できます。
 

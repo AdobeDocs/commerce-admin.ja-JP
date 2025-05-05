@@ -20,7 +20,7 @@ _送料無料_ は、あなたが提供できる最も効果的なプロモー�
 
 ## 手順 1：送料無料の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Delivery Methods]**」を選択します。
 
@@ -38,7 +38,7 @@ _送料無料_ は、あなたが提供できる最も効果的なプロモー�
 
    >[!TIP]
    >
-   >[ テーブル料金 ](shipping-table-rate.md) で送料無料を使用するには、_[!UICONTROL Minimum Order Amount]_が満たされないほど高くします。 この高い値を使用すると、価格ルールによってトリガーされない限り、送料無料が有効になりません。
+   >[ テーブル料金 ](shipping-table-rate.md) で送料無料を使用するには、_[!UICONTROL Minimum Order Amount]_&#x200B;が満たされないほど高くします。 この高い値を使用すると、価格ルールによってトリガーされない限り、送料無料が有効になりません。
 
 1. Set **[!UICONTROL Include Tax to Amount]**:
 
@@ -53,7 +53,7 @@ _送料無料_ は、あなたが提供できる最も効果的なプロモー�
 
    - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様は送料無料を使用できます。
 
-   - `Specific Countries` – この値を選択すると、_[!UICONTROL Ship to Specific Countries]_リストが表示されます。 リストから、送料無料を使用できる国を 1 つずつ選択します。
+   - `Specific Countries` – この値を選択すると、_[!UICONTROL Ship to Specific Countries]_&#x200B;リストが表示されます。 リストから、送料無料を使用できる国を 1 つずつ選択します。
 
 1. Set **[!UICONTROL Show Method if Not Applicable]**:
 
@@ -70,7 +70,7 @@ _送料無料_ は、あなたが提供できる最も効果的なプロモー�
 
 送料無料のために使用する予定の各通信事業者に必要な設定を完了してください。 例えば、[UPS 設定 ](ups.md) が完了していない場合は、次の設定を更新して送料無料を有効にし、設定します。
 
-1. _[!UICONTROL Delivery Methods]_設定で、「拡張セレクター ![ の「**[!UICONTROL UPS]**」セクション ](../assets/icon-display-expand.png) 展開します。
+1. _[!UICONTROL Delivery Methods]_&#x200B;設定で、「拡張セレクター ![ の「**[!UICONTROL UPS]**」セクション ](../assets/icon-display-expand.png) 展開します。
 
 1. **[!UICONTROL Free Method]** を `UPS Ground` または送料無料に指定する別のタイプに設定します。
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 開始する前に、`sku` 属性の [Storefront プロパティ ](../catalog/attribute-product-create.md#step-4-describe-the-storefront-properties) が `Use in Promo Rules` に設定されていることを確認します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. 「_[!UICONTROL Attribute Code]_」列の上部にある検索フィルターで、「`sku`」と入力して「**[!UICONTROL Search]**」をクリックします。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 手順 2. 複数の SKU への価格ルールの適用
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Catalog Price Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Catalog Price Rules]**&#x200B;に移動します。
 
 1. 次のいずれかの操作を行います。
 

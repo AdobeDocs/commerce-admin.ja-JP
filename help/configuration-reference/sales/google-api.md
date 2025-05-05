@@ -65,7 +65,7 @@ ht-degree: 0%
 | [!UICONTROL Conversion Color] | ストア表示 | 変換ラベルの色を決定します。 [ カラーピッカー ](https://www.w3schools.com/colors/colors_picker.asp) を使用して、16 進数値を選択します。 この 16 進数値は、AdWords スクリプトの `google_conversion_color` 変数に割り当てられます。 例：ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | ストア表示 | [!DNL Google Site Stats] 通知と共に表示されるテキストラベル。 このテキスト文字列は、AdWords スクリプトの `~` 変数に割り当てられます。 例：「お買い物ありがとうございます。」 |
 | [!UICONTROL Conversion Value Type] | ストア表示 | 変換を行うタイミングを決定するために使用する値のタイプを指定します。 オプション：<br/>**`Dynamic`**– 動的な注文金額に基づいてコンバージョンが発生したことを判断します。<br/>**`Constant`** – 入力された値に基づいて、コンバージョンが発生したことを判別します。 |
-| [!UICONTROL Conversion Value] | ストア表示 | コンバージョン値の _[!UICONTROL Constant]_イプに使用する値を指定します。 |
+| [!UICONTROL Conversion Value] | ストア表示 | コンバージョン値の _[!UICONTROL Constant]_&#x200B;イプに使用する値を指定します。 |
 | [!UICONTROL Send Order Currency] | ストア表示 | （基本通貨の異なる Web サイト用に） AdWords でトランザクション固有の通貨換算値を有効にします。 |
 
 {style="table-layout:auto"}
@@ -125,7 +125,7 @@ ht-degree: 0%
 | [!UICONTROL Conversion Color] | ストア表示 | 変換ラベルの色を決定します。 [ カラーピッカー ](https://www.w3schools.com/colors/colors_picker.asp) を使用して、16 進数値を選択します。 この 16 進数値は、AdWords スクリプトの `google_conversion_color` 変数に割り当てられます。 例：ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | ストア表示 | Google サイト統計の通知と共に表示されるテキストラベルです。 このテキスト文字列は、AdWords スクリプトの `~` 変数に割り当てられます。 例：「お買い物ありがとうございます。」 |
 | [!UICONTROL Conversion Value Type] | ストア表示 | 変換を行うタイミングを決定するために使用する値のタイプを指定します。 オプション：<br/>**`Dynamic`**– 動的な注文金額に基づいてコンバージョンが発生したことを判断します。<br/>**`Constant`** – 入力された値に基づいて、コンバージョンが発生したことを判別します。 |
-| [!UICONTROL Conversion Value] | ストア表示 | コンバージョン値の _[!UICONTROL Constant]_イプに使用する値を指定します。 |
+| [!UICONTROL Conversion Value] | ストア表示 | コンバージョン値の _[!UICONTROL Constant]_&#x200B;イプに使用する値を指定します。 |
 | [!UICONTROL Send Order Currency] | ストア表示 | （基本通貨の異なる Web サイト用に） AdWords でトランザクション固有の通貨換算値を有効にします。 |
 
 {style="table-layout:auto"}

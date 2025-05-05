@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL New Relic] レポート
 
-[New Relic][1] は、アプリケーションのインタラクションを分析および改善するのに役立つソフトウェア分析サービスです。 クラウドインフラストラクチャー上のAdobe Commerceのアカウントには、[!DNL New Relic APM] サービス用のソフトウェアが含まれます。 詳しくは、_New Relic インフラストラクチャー上のCommerce ガイドの ][4]0} クラウドサービス } を参照してください_[
+[New Relic][1] は、アプリケーションのインタラクションを分析および改善するのに役立つソフトウェア分析サービスです。 クラウドインフラストラクチャー上のAdobe Commerceのアカウントには、[!DNL New Relic APM] サービス用のソフトウェアが含まれます。 詳しくは、_New Relic インフラストラクチャー上のCommerce ガイドの &rbrack;[4]0&rbrace; クラウドサービス &rbrace; を参照してください_&lbrack;
 
 ## 手順 1:[!DNL New Relic] アカウントに新規登録する
 
@@ -53,9 +53,9 @@ ht-degree: 0%
 >[!NOTE]
 >これらの設定オプションは、クラウドインフラストラクチャー上のAdobe Commerceには適用されません。
 >
->Pro プランを使用している場合、New Relicは既に [ デフォルトで事前設定され、有効 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html) になっています。 スタータープランを利用している場合は、設定プロセスの一部である ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment)0}New Relic設定手順を完了する必要があります。[
+>Pro プランを使用している場合、New Relicは既に [ デフォルトで事前設定され、有効 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html) になっています。 スタータープランを利用している場合は、設定プロセスの一部である [&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment)0&rbrace;New Relic設定手順を完了する必要があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. **[!UICONTROL General]** が展開されている左側のナビゲーションパネルで「**[!UICONTROL New Relic Reporting]**」を選択し、以下の手順を実行します。
 
@@ -155,6 +155,7 @@ ht-degree: 0%
     AND CatalogCategoryCount > 0
     AND appName = &#39;&lt;your_app_name>&#39; SINCE 2 分前 LIMIT 1
 &lt;/your_app_name>
+
 #### アクティブ製品
 
 指定された期間における製品別のアプリケーション イベントの数を返します。
@@ -256,7 +257,7 @@ ht-degree: 0%
 
     SELECT average （StoreViewCount）, average （WebsiteCount） 
     FROM Cron
-    WHERE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; TIMESERIES 2 分 
+    WHERE appName = &#39;&lt;your_app_name&gt;&#39; TIMESERIES 2 分 
 
 #### 現在の web サイトとストアの数
 

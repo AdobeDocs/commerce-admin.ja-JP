@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. Commerce インストールの管理者にログインします。
 
-1. 手順に従って、Commerce設定のコンテンツ実験で ](google-analytics.md)0}Google Analytics} を有効にします。[
+1. 手順に従って、Commerce設定のコンテンツ実験で [&#128279;](google-analytics.md)0&rbrace;Google Analytics&rbrace; を有効にします。
 
    ![Sales configuration - Google API - Google Analytics](../configuration-reference/sales/assets/google-api-analytics-ee.png){width="600" zoomable="yes"}
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    - 完了したら、「**[!UICONTROL Create View]**」をクリックし、戻る矢印をクリックして前のページに戻ります。
 
-1. _[!UICONTROL Reports]_の下の左パネルで、**[!UICONTROL Behavior]**/**[!UICONTROL Experiments]**を選択します。
+1. _[!UICONTROL Reports]_&#x200B;の下の左パネルで、**[!UICONTROL Behavior]**/**[!UICONTROL Experiments]**&#x200B;を選択します。
 
 1. 「**[!UICONTROL Create experiment]**」をクリックして、次の操作を実行します。
 

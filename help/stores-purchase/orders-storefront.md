@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{b2b-feature}}
 
-最初の _[!UICONTROL My Orders]_結果には、コマースインスタンス内のすべての web サイトの下位ユーザーからの一致する注文も含まれます。 会社アカウントに関連付けられている顧客は、注文リストをフィルタリングして、結果に含まれるレコードをすばやく見つけることができます。 フィルターオプションを表示するには、顧客が&#x200B;**[!UICONTROL Filter]**をクリックし、**[!UICONTROL Close]**をクリックしてフィルターを非表示にします。
+最初の _[!UICONTROL My Orders]_&#x200B;結果には、コマースインスタンス内のすべての web サイトの下位ユーザーからの一致する注文も含まれます。 会社アカウントに関連付けられている顧客は、注文リストをフィルタリングして、結果に含まれるレコードをすばやく見つけることができます。 フィルターオプションを表示するには、顧客が&#x200B;**[!UICONTROL Filter]**&#x200B;をクリックし、**[!UICONTROL Close]**&#x200B;をクリックしてフィルターを非表示にします。
 
 ![ 注文件数 ](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 注文した後にログインした顧客のサイドバーおよび **[!UICONTROL My Account]** ページに、「**[!UICONTROL Recent Orders]**」ブロックが表示されます。 前回の購入から 5 つの製品が表示されます。
 
-お客様は、商品を選択して **[!UICONTROL Add to Cart]** をクリックすることで、買い物かごに商品を追加できます。 また、「**[!UICONTROL View all]**」をクリックすると、_[!UICONTROL My Account]_ページと&#x200B;**[!UICONTROL Recent Orders]**ブロックにリダイレクトされ、最後の注文を表示することもできます。
+お客様は、商品を選択して **[!UICONTROL Add to Cart]** をクリックすることで、買い物かごに商品を追加できます。 また、「**[!UICONTROL View all]**」をクリックすると、_[!UICONTROL My Account]_&#x200B;ページと&#x200B;**[!UICONTROL Recent Orders]**&#x200B;ブロックにリダイレクトされ、最後の注文を表示することもできます。
 
 ### 注文の印刷
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 ## 並べ替え
 
-_[!UICONTROL Reorder]_リンクは、_[!UICONTROL View]_ リンクの近くにある注文と共にリストに表示されます。
+_[!UICONTROL Reorder]_&#x200B;リンクは、_[!UICONTROL View]_ リンクの近くにある注文と共にリストに表示されます。
 
 ![ マイ注文ページでのリンクの並べ替え ](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
@@ -117,7 +117,7 @@ _[!UICONTROL Reorder]_リンクは、_[!UICONTROL View]_ リンクの近くに�
 >
 >製品の並べ替えは可能 `Not Visible Individually` す。
 
-_[!UICONTROL My Orders]_ページと_[!UICONTROL View Order]_ ページに _[!UICONTROL Reorder]_リンクが表示されません。
+_[!UICONTROL My Orders]_&#x200B;ページと&#x200B;_[!UICONTROL View Order]_ ページに _[!UICONTROL Reorder]_&#x200B;リンクが表示されません。
 
 ![ マイオーダーページ ](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
@@ -135,7 +135,7 @@ _[!UICONTROL My Orders]_ページと_[!UICONTROL View Order]_ ページに _[!UI
 - 注文ビューページ
 - マイアカウントページ
 
-_[!UICONTROL Cancel Order]_リンクは_[!UICONTROL Reorder]_ リンクの近くに表示されます。 注文をキャンセルできない場合、リンクは表示されません。
+_[!UICONTROL Cancel Order]_&#x200B;リンクは&#x200B;_[!UICONTROL Reorder]_ リンクの近くに表示されます。 注文をキャンセルできない場合、リンクは表示されません。
 
 ![ 注文ページのキャンセルリンク ](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
@@ -153,7 +153,7 @@ _[!UICONTROL Cancel Order]_リンクは_[!UICONTROL Reorder]_ リンクの近く
 
    ![ 注文ページでのキャンセル ](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   キャンセル後、_[!UICONTROL Pending]_ステータスの注文、_[!UICONTROL Canceled]_ ステータスの注文、_[!UICONTROL Processing]_ステータスの注文、_[!UICONTROL Closed]_ ステータスの変更、払い戻しが処理されます。
+   キャンセル後、_[!UICONTROL Pending]_&#x200B;ステータスの注文、_[!UICONTROL Canceled]_ ステータスの注文、_[!UICONTROL Processing]_&#x200B;ステータスの注文、_[!UICONTROL Closed]_ ステータスの変更、払い戻しが処理されます。
 
    キャンセルが完了すると、顧客にメールが送信されます。
 

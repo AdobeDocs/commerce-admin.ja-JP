@@ -49,7 +49,7 @@ SKU など特定の値を持つレコードのみを含めるには、その値�
 
 ## データを書き出し
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Export]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Export]**&#x200B;に移動します。
 
 1. _書き出し設定_ セクションで、**[!UICONTROL Entity Type]** を次のいずれかに設定します。
 

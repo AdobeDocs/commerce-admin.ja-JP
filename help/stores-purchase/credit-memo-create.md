@@ -272,9 +272,9 @@ ht-degree: 0%
 
 ## クレジット メモの印刷
 
-完了したクレジット メモを印刷または表示するには、PDF リーダーがインストールされている必要があります。 ][1]0}Adobe Reader} は無料でダウンロードできます。[
+完了したクレジット メモを印刷または表示するには、PDF リーダーがインストールされている必要があります。 &rbrack;[1]0&rbrace;Adobe Reader&rbrace; は無料でダウンロードできます。&lbrack;
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Credit Memos]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Credit Memos]**&#x200B;に移動します。
 
 1. クレジット・メモを印刷するには、次のいずれかの方法を使用します。
 

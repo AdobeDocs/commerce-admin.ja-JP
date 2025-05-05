@@ -30,7 +30,7 @@ Commerce 2.4.7 以降では、買い物客は 1 つの買い物かごに複数�
 
 自動生成されたクーポンコードの長さと形式は、この構成によって制御されます。 文字は、すべての数字、すべての文字、またはそれらの組み合わせに設定できます。 設定した間隔でダッシュを挿入して読みやすくしたり、プレフィックスとサフィックスを追加してコードを特定のキャンペーンやイニシアチブに関連付けたりできます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Promotions]**」を選択します。
 
@@ -184,7 +184,7 @@ _クーポン_ レポートは、特定の日付範囲内で使用される各�
 
 ### レポートの実行
 
-1. _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Sales]_/**[!UICONTROL Coupons]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Sales]_/**[!UICONTROL Coupons]**&#x200B;に移動します。
 
 1. 複数のストア表示がある場合は、左上隅の **[!DNL Store View]** を設定して、レポートの範囲を確定します。
 

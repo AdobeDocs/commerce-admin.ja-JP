@@ -132,7 +132,7 @@ ht-degree: 0%
 | 税計算 | アイテム時 |
 | 送税？ | はい |
 | 割引を適用 | 税引前、税込み値引き。 |
-| コメント | B2B マーチャント向けに、VAT のサプライチェーンに関する考慮事項を簡素化します。 行の税金計算も有効ですが、課税管轄区域を確認してください。 設定では、販売者がサプライ チェーンにあり、販売された商品が他の仕入先によって VAT リベートなどに使用されることを前提としています。 この定義により、品目ごとに税金を簡単に識別できるので、リベートの生成が迅速化されます。 <br/><br/>**_注意：_**一部の国や地域では、現在Commerceでサポートされていない異なる端数処理方式が必要です。また、すべての国や地域で品目税または行税が許可されているわけではありません。 |
+| コメント | B2B マーチャント向けに、VAT のサプライチェーンに関する考慮事項を簡素化します。 行の税金計算も有効ですが、課税管轄区域を確認してください。 設定では、販売者がサプライ チェーンにあり、販売された商品が他の仕入先によって VAT リベートなどに使用されることを前提としています。 この定義により、品目ごとに税金を簡単に識別できるので、リベートの生成が迅速化されます。 <br/><br/>**_注意：_**&#x200B;一部の国や地域では、現在Commerceでサポートされていない異なる端数処理方式が必要です。また、すべての国や地域で品目税または行税が許可されているわけではありません。 |
 
 {style="table-layout:auto"}
 
@@ -160,7 +160,7 @@ ht-degree: 0%
 
 ### 手順 1：税金計算設定の完了
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. マルチサイト設定の場合は、**[!UICONTROL Store View]** を web サイトに設定し、設定のターゲットとなるストアを指定します。
 
@@ -346,13 +346,13 @@ ht-degree: 0%
 
 ### 手順 4：ドイツのストア表示の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL All Stores]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL All Stores]**&#x200B;に移動します。
 
 1. デフォルトの web サイトで、**[!UICONTROL Germany]** のストア表示を作成します。
 
 1. 次に、以下の手順を実行します。
 
-   - _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+   - _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
    - 左上隅の **[!UICONTROL Default Config]** をフランスの店に設定します。
 
@@ -397,7 +397,7 @@ ht-degree: 0%
 
 ### 手順 6：ドイツの税金設定の構成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 右上隅のドイツの店舗のビューに **[!UICONTROL Store View]** を設定し、「**[!UICONTROL OK]**」をクリックして確認します。
 

@@ -35,11 +35,11 @@ Adobe Commerceは、複数のプロバイダーの 2FA メソッドをサポー�
 
 ## 必要な 2FA プロバイダーの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Security]**」を展開し、「**[!UICONTROL 2FA]**」を選択します。
 
-1. _[!UICONTROL General]_セクションで、使用するプロバイダーを選択します。
+1. _[!UICONTROL General]_&#x200B;セクションで、使用するプロバイダーを選択します。
 
    | プロバイダ | 関数 |
    |--- |--- |

@@ -21,7 +21,7 @@ ht-degree: 0%
 | [!UICONTROL Text Field] | テキストの 1 行入力フィールド。 |
 | [!UICONTROL Text Area] | 製品の説明など、テキストの段落を入力するための複数行の入力フィールド。 WYSIWYG エディターを使用して、HTMLタグでテキストの書式を設定したり、テキストにタグを直接入力したりできます。 |
 | [!UICONTROL Text Editor] | 属性の場所に完全に機能するテキストエディター。 |
-| [!UICONTROL Date] | 日付値を [ 優先形式 ](#date-and-time-options) および [ タイムゾーン ](../getting-started/store-details.md#locale-options) で表示します。 日付値は、リストまたはカレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）から選択できます。 <br/><br/>**_メモ：_**システムの設定に応じて、_ 管理者 _ユーザーはフィールドに日付を直接入力したり、カレンダーやリストから日付を選択したりできます。 日付と時刻の値を指定する方法については、[ 日付と時刻のオプション ](#date-and-time-options) を参照してください。 |
+| [!UICONTROL Date] | 日付値を [ 優先形式 ](#date-and-time-options) および [ タイムゾーン ](../getting-started/store-details.md#locale-options) で表示します。 日付値は、リストまたはカレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）から選択できます。 <br/><br/>**_メモ：_**&#x200B;システムの設定に応じて、_ 管理者 _ユーザーはフィールドに日付を直接入力したり、カレンダーやリストから日付を選択したりできます。 日付と時刻の値を指定する方法については、[ 日付と時刻のオプション ](#date-and-time-options) を参照してください。 |
 | [!UICONTROL Date and Time] | 日付と時刻の値を [ 優先形式 ](#date-and-time-options) および [ タイムゾーン ](../getting-started/store-details.md#locale-options) で表示します。 日時は、手動で入力することも、カレンダーから選択することもできます。 形式の例：MM/DD/YYYY HH:MM |
 | [!UICONTROL Yes/No] | `Yes` と `No` の定義済みオプションを含むドロップダウン リストを表示します。 |
 | ドロップダウン | 1 つの選択のみを受け入れる値のドロップダウン リストを表示します。 ドロップダウン入力タイプは、[ 設定可能な製品 ](../catalog/product-create-configurable.md) の主要コンポーネントです。 |
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 **_日付/時間フィールドをフォーマットするには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、「**[!UICONTROL Catalog]**」サブアイテムをクリックします。
 

@@ -66,9 +66,9 @@ _Map_ コンテンツタイプを使用して、[[!DNL Google Maps] Platform][1]
 
 ### 手順 2:[!DNL Commerce] で [!DNL Google Maps] を設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
 
 1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** を展開します。
 
@@ -104,7 +104,7 @@ _Map_ コンテンツタイプを使用して、[[!DNL Google Maps] Platform][1]
 
 1. マップコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-1. _[!UICONTROL Edit Map]_ページの右上隅にある「**[!UICONTROL Add Location]**」をクリックします。
+1. _[!UICONTROL Edit Map]_&#x200B;ページの右上隅にある「**[!UICONTROL Add Location]**」をクリックします。
 
 1. マップ上のピンに関連付ける **[!UICONTROL Location Name]** を入力します。
 
@@ -148,7 +148,7 @@ _Map_ コンテンツタイプを使用して、[[!DNL Google Maps] Platform][1]
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
-   新しい位置がマップおよび _[!UICONTROL Edit Map]_ページのマップ位置グリッドに表示されます。
+   新しい位置がマップおよび _[!UICONTROL Edit Map]_&#x200B;ページのマップ位置グリッドに表示されます。
 
    ![[!DNL Page Builder] - マップ位置グリッド ](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
 
@@ -158,9 +158,9 @@ _Map_ コンテンツタイプを使用して、[[!DNL Google Maps] Platform][1]
 
 ### マップ スタイルを変更する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
 
 1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** を展開します。
 
@@ -197,7 +197,7 @@ _Map_ コンテンツタイプを使用して、[[!DNL Google Maps] Platform][1]
 
    {style="table-layout:auto"}
 
-1. 必要に応じて、_[!UICONTROL Advanced]_の設定を変更します。
+1. 必要に応じて、_[!UICONTROL Advanced]_&#x200B;の設定を変更します。
 
    - コンテナに追加されるマップコンテンツの水平方向の位置を制御するには、**[!UICONTROL Alignment]** のいずれかを選択します。
 
@@ -264,9 +264,9 @@ _Map_ コンテンツタイプを使用して、[[!DNL Google Maps] Platform][1]
 
 グリッドサイズは、[!DNL Page Builder] のステージの [ 列 ](column.md) に関連するマップのサイズを決定します。 デフォルトでは、マップの幅は 12 列、最大 16 列です。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
 
 1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** を展開します。
 

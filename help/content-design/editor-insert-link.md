@@ -19,7 +19,7 @@ ht-degree: 0%
 
    ![ エディターツールバー – リンクを挿入 ](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
-   この操作を実行すると、_[!UICONTROL Insert link]_ダイアログが開きます。
+   この操作を実行すると、_[!UICONTROL Insert link]_&#x200B;ダイアログが開きます。
 
    ![ エディター – リンクを挿入ダイアログ ](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
 

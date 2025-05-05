@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 手順 1：税務処理基準情報の完了
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Rules]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Tax Rule]**」をクリックします。
 

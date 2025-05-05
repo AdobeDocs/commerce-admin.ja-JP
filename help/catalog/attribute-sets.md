@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 属性セットの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Attribute Set]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Attribute Set]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add New Set]**」をクリックします。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >システム属性はドットでマークされ、_[!UICONTROL Groups]_ータリストから削除できません。 ただし、属性セットの別のグループにドラッグすることはできます。
+   >システム属性はドットでマークされ、_[!UICONTROL Groups]_&#x200B;ータリストから削除できません。 ただし、属性セットの別のグループにドラッグすることはできます。
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ## 属性セットの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Attribute Set]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Attribute Set]**&#x200B;に移動します。
 
 1. リストで属性セットを選択し、編集モードで開きます。
 

@@ -17,13 +17,13 @@ ht-degree: 0%
 
 ![ カタログに掲載された製品 ](./assets/shared-catalog-products-workspace.png){width="700" zoomable="yes"}
 
-標準のカテゴリツリーでは、ルートカテゴリが最上位のコンテナであり、サンプルデータでは _デフォルトカテゴリ_ と呼ばれます。 ただし、共有カタログが有効な場合、カテゴリ ツリーには [ ルート カタログ _という外側のコンテナが_ ります。 ルート カタログには、システムに存在するその他すべてのカテゴリ構造が含まれます。 詳しくは、[ カタログ範囲 ](../catalog/introduction.md#catalog-scope) を参照してください。
+標準のカテゴリツリーでは、ルートカテゴリが最上位のコンテナであり、サンプルデータでは _デフォルトカテゴリ_ と呼ばれます。 ただし、共有カタログが有効な場合、カテゴリ ツリーには &lbrack; ルート カタログ _という外側のコンテナが_ ります。 ルート カタログには、システムに存在するその他すべてのカテゴリ構造が含まれます。 詳しくは、[ カタログ範囲 ](../catalog/introduction.md#catalog-scope) を参照してください。
 
 ## 手順 1：共有カタログの価格と構造の設定を開く
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Shared Catalogs]** に移動します。
 
-1. グリッド内の共有カタログの場合は、_[!UICONTROL Action]_の列に移動して [**[!UICONTROL Set Pricing and Structure]**] をクリックします。
+1. グリッド内の共有カタログの場合は、_[!UICONTROL Action]_&#x200B;の列に移動して [**[!UICONTROL Set Pricing and Structure]**] をクリックします。
 
    ![ 共有カタログの価格と構造の設定 ](./assets/shared-catalog-set-pricing-structure.png){width="700" zoomable="yes"}
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 手順 3：カスタム価格の設定
 
-各製品に対して個別にカスタム価格を設定するか、_[!UICONTROL Action]_のコントロールを使用して、複数の製品レコードに対して固定金額または割合でカスタム価格を設定できます。
+各製品に対して個別にカスタム価格を設定するか、_[!UICONTROL Action]_&#x200B;のコントロールを使用して、複数の製品レコードに対して固定金額または割合でカスタム価格を設定できます。
 
 - **[!UICONTROL Fixed]**：最終製品価格を指定します。 例えば、$10.00 の固定価格を入力した場合、対応する会社のストアフロントの価格は$10.00 です。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 - **[!UICONTROL Percentage]**：割引率に基づいてカスタム価格を決定します。 例えば、10% の割引を提供するには、カスタム価格タイプを `Percentage` に設定して `10` と入力します。 値引きされるカスタム価格は、元の製品価格の 90% です。
 
-次の商品タイプについて割引額を固定金額またはパーセンテージに設定するには、グリッドの _[!UICONTROL Custom Price]_列を使用します。
+次の商品タイプについて割引額を固定金額またはパーセンテージに設定するには、グリッドの _[!UICONTROL Custom Price]_&#x200B;列を使用します。
 
 - [ シンプル ](../catalog/product-create-simple.md) （設定可能な製品バリエーションを含む）
 - [バンドル](../catalog/product-create-bundle.md)
@@ -105,7 +105,7 @@ ht-degree: 0%
 1. 次のいずれかの方法を使用して、カスタム価格を適用する製品を選択します。
 
    - カテゴリツリーを使用して、特定のカテゴリに含まれるすべての製品を選択します。
-   - ヘッダーの _[!UICONTROL Mass Actions]_コントロールを `Select All` に設定します。
+   - ヘッダーの _[!UICONTROL Mass Actions]_&#x200B;コントロールを `Select All` に設定します。
    - 個々の製品のチェックボックスを選択します。
 
    グリッドには、現在選択されているカテゴリの製品が表示されます。標準のコントロールを使用して、製品を検索したり、リストをフィルタしたりできます。
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 1. 完了したら、「**[!UICONTROL Done]**」をクリックします。
 
-   グリッドでは、階層の数が _[!UICONTROL Tier Price]_列の括弧内に表示されます。
+   グリッドでは、階層の数が _[!UICONTROL Tier Price]_&#x200B;列の括弧内に表示されます。
 
    ![ 複数の層 ](./assets/shared-catalog-tier-price-configure-parentheses.png){width="600" zoomable="yes"}
 
@@ -163,4 +163,4 @@ ht-degree: 0%
 
 カスタム価格が設定されたら、**[!UICONTROL Generate Catalog]** をクリックして **[!UICONTROL Save]** をクリックします。
 
-これで、共有カタログがデータベースに保存されました。 その名前は、_[!UICONTROL Products]_グリッドの_[!UICONTROL Shared Catalog]_ 列に表示されます。 次の手順は、[ 共有カタログを会社に割り当てる ](./catalog-shared-assign-companies.md) ことです。
+これで、共有カタログがデータベースに保存されました。 その名前は、_[!UICONTROL Products]_&#x200B;グリッドの&#x200B;_[!UICONTROL Shared Catalog]_ 列に表示されます。 次の手順は、[ 共有カタログを会社に割り当てる ](./catalog-shared-assign-companies.md) ことです。

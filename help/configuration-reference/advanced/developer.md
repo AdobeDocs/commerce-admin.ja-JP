@@ -121,7 +121,7 @@ ht-degree: 1%
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | グローバル | イメージのレンダリングに使用するアダプタを指定します。 アダプターの設定を変更した後、カタログ画像のキャッシュをフラッシュします。 オプション：`PHP GD2` / `ImageMagick` <br/><br/>**_注意：_**ICO ファイルタイプは ImageMagik アダプタでのみサポートされています。 |
+| [!UICONTROL Image Adapter] | グローバル | イメージのレンダリングに使用するアダプタを指定します。 アダプターの設定を変更した後、カタログ画像のキャッシュをフラッシュします。 オプション：`PHP GD2` / `ImageMagick` <br/><br/>**_注意：_**&#x200B;ICO ファイルタイプは ImageMagik アダプタでのみサポートされています。 |
 
 {style="table-layout:auto"}
 

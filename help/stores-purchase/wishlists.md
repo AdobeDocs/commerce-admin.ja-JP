@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL All Customers]** に移動します。
 
-1. リストで顧客を見つけて、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
+1. リストで顧客を見つけて、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. 左側のパネルで「**[!UICONTROL Wish List]**」を選択し、リストで編集する項目を見つけます。
 

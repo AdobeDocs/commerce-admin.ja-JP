@@ -147,7 +147,7 @@ ht-degree: 0%
 
    それ以外の場合は、「**[!UICONTROL Save and Continue Edit]**」をクリックし、前の手順を繰り返してアドレスを追加します。
 
-   新しいアドレスが [!UICONTROL Addresses] ページに表示され、選択した _[!UICONTROL Default Billing]_と_[!UICONTROL Default Shipping]_ アドレスが完全なリストの上に表示されます。
+   新しいアドレスが [!UICONTROL Addresses] ページに表示され、選択した _[!UICONTROL Default Billing]_&#x200B;と_[!UICONTROL Default Shipping]_ アドレスが完全なリストの上に表示されます。
 
    ![ アドレス表示 ](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 
 1. グリッドで新しい顧客アカウントを見つけます。
 
-1. _[!UICONTROL Action]_列の「**[!UICONTROL Edit]**」をクリックします。
+1. _[!UICONTROL Action]_&#x200B;列の「**[!UICONTROL Edit]**」をクリックします。
 
 1. ページ上部のメニューバーで、[**[!UICONTROL Reset Password]**] をクリックします。
 
@@ -169,7 +169,7 @@ ht-degree: 0%
 
 | ボタン | 説明 |
 |--- |--- |
-| **[!UICONTROL Back]** | 変更を保存せずに _[!UICONTROL Customers]_ページに戻ります。 |
+| **[!UICONTROL Back]** | 変更を保存せずに _[!UICONTROL Customers]_&#x200B;ページに戻ります。 |
 | **[!UICONTROL Delete Customer]** | 現在の顧客を削除します。 顧客に関連付けられている完了済み注文は削除されません。 |
 | **[!UICONTROL Reset]** | 顧客フォーム内の未保存の変更をすべて以前の値にリセットします。 |
 | **[!UICONTROL Create Order]** | 顧客の注文を作成します。 |

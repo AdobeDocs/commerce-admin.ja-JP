@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Commerceのインストールに関するその他の配送サービスについては ](../getting-started/commerce-marketplace.md)0}Commerce Marketplace} を参照してください。[
+>Commerceのインストールに関するその他の配送サービスについては [&#128279;](../getting-started/commerce-marketplace.md)0&rbrace;Commerce Marketplace&rbrace; を参照してください。
 
 顧客に選択した配送業者を提供する前に、次の手順を完了する必要があります。
 

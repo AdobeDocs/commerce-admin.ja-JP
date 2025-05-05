@@ -14,7 +14,7 @@ ht-degree: 0%
 
 _検索エンジン最適化_ （SEO）は、サイトのコンテンツと表示を微調整して、検索エンジンによるページのインデックス作成方法を改善する手法です。
 
-製品の _[!UICONTROL Search Engine Optimization]_設定では、検索エンジンが製品のインデックスを作成するために使用する [URL キー ](catalog-urls.md) および [ メタデータ ](../merchandising-promotions/meta-data.md) フィールドを指定します。 メタキーワードを無視する検索エンジンもありますが、メタキーワードを使用し続ける検索エンジンもあります。 現在の [SEO のベストプラクティス ](../merchandising-promotions/seo-overview.md) は、価値の高いキーワードをメタタイトルとメタ説明の両方に組み込むことです。
+製品の _[!UICONTROL Search Engine Optimization]_&#x200B;設定では、検索エンジンが製品のインデックスを作成するために使用する [URL キー ](catalog-urls.md) および [ メタデータ ](../merchandising-promotions/meta-data.md) フィールドを指定します。 メタキーワードを無視する検索エンジンもありますが、メタキーワードを使用し続ける検索エンジンもあります。 現在の [SEO のベストプラクティス ](../merchandising-promotions/seo-overview.md) は、価値の高いキーワードをメタタイトルとメタ説明の両方に組み込むことです。
 
 各メタデータフィールドのデフォルト値は、設定で指定された値に基づいて自動生成できます。 各フィールドには、実際の値に置き換えられるプレースホルダーが含まれます。 詳しくは、[ 製品フィールドの自動生成 ](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation) を参照してください。
 

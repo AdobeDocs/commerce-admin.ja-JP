@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 買い物かご価格ルールへのアクセス
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Cart Price Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Cart Price Rules]**&#x200B;に移動します。
 
    ![ 買い物かご価格ルール ](./assets/price-rule-cart.png){width="700" zoomable="yes"}
 
@@ -48,9 +48,9 @@ ht-degree: 0%
 | [!UICONTROL Priority] | ルールに定義されている優先度に基づいてリストをフィルタリングするフリーテキストフィールド。 |
 | [!UICONTROL Status] | このオプションを使用して、ルールのステータス（`Active` または `Inactive`）に基づいてリストをフィルタリングします。 |
 | [!UICONTROL Web Site] | このオプションを使用して、ルールに定義された web サイトに基づいてリストをフィルタリングします。 |
-| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）「**[!UICONTROL Edit]**」をクリックすると、_[!UICONTROL Rule Information]_ページが表示され、ルール設定を更新できます（ルールの作成と同様です）。 |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）動的カレンダーフィールド （_[!UICONTROL To:]_および_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたルールの開始日に基づいてリストをフィルタリングします。 |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）動的カレンダーフィールド （_[!UICONTROL To:]_および_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたルールの終了日に基づいてリストをフィルタリングします。 |
+| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）「**[!UICONTROL Edit]**」をクリックすると、_[!UICONTROL Rule Information]_&#x200B;ページが表示され、ルール設定を更新できます（ルールの作成と同様です）。 |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）動的カレンダーフィールド （_[!UICONTROL To:]_&#x200B;および&#x200B;_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたルールの開始日に基づいてリストをフィルタリングします。 |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）動的カレンダーフィールド （_[!UICONTROL To:]_&#x200B;および&#x200B;_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたルールの終了日に基づいてリストをフィルタリングします。 |
 
 {style="table-layout:auto"}
 

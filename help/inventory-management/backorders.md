@@ -47,7 +47,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->顧客が _[!UICONTROL backorder qty]_を使用して注文すると、[!DNL Inventory Management] は販売可能な数量から数量を自動的に減算します。 注文が出荷されず、キャンセルされた場合、その数量は集計された仮想販売可能数量に戻されます。**_キャンセル済み注文数量はどのソースにも割り当てられていません_**が、販売できる商品の合計数（商品グリッドの_[!UICONTROL Salable Quantity]_ 列）に返されます。
+>顧客が _[!UICONTROL backorder qty]_&#x200B;を使用して注文すると、[!DNL Inventory Management] は販売可能な数量から数量を自動的に減算します。 注文が出荷されず、キャンセルされた場合、その数量は集計された仮想販売可能数量に戻されます。**_キャンセル済み注文数量はどのソースにも割り当てられていません_**&#x200B;が、販売できる商品の合計数（商品グリッドの&#x200B;_[!UICONTROL Salable Quantity]_ 列）に返されます。
 
 <!--### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
 
@@ -61,7 +61,7 @@ The _Notify for Quantity Below_ configuration option is configurable at the glob
 
 これらのステップにより、サイト・レベルですべての製品のバックオーダーが可能になります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. **[!UICONTROL Store View]** を `Default Config` に設定します。
 
@@ -93,7 +93,7 @@ The _Notify for Quantity Below_ configuration option is configurable at the glob
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
-1. 製品を **[!UICONTROL Edit]** モードで開き、ページを下にスクロールして _[!UICONTROL Sources]_領域に移動します。
+1. 製品を **[!UICONTROL Edit]** モードで開き、ページを下にスクロールして _[!UICONTROL Sources]_&#x200B;領域に移動します。
 
    [!DNL Inventory Management] を使用せずに設定された製品の場合、タブは表示されません。 「`Advanced Inventory`」ボタンが「_[!UICONTROL Quantity]_」フィールドの下に表示されます。
 

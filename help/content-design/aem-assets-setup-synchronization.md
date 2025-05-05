@@ -16,7 +16,7 @@ CommerceをAEM Assets インスタンスに接続し、アセット同期の一�
 
 AEM Assets プロジェクトを特定した後、Adobe CommerceとAEM Assetsの間でアセットを同期するための一致ルールを選択します。
 
-- **[!UICONTROL Match by product SKU]** - アセットが正しい商品に関連付けられるようにするために、アセットメタデータの SKU を ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#sku)1}Commerce商品 SKU} と一致させるデフォルトのルール。[
+- **[!UICONTROL Match by product SKU]** - アセットが正しい商品に関連付けられるようにするために、アセットメタデータの SKU を [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#sku)1&rbrace;Commerce商品 SKU&rbrace; と一致させるデフォルトのルール。
 
 - **[!UICONTROL Custom match]** - カスタム・マッチング・ロジックを必要とするより複雑なシナリオや特定のビジネス要件の照合ルール。 カスタムマッチングを実装するには、アセットと商品のマッチング方法を定義するカスタムコードをAdobe Developer App Builderで開発する必要があります。 詳細は近日公開予定です…
 
@@ -30,7 +30,7 @@ AEM Assets プロジェクトを特定した後、Adobe CommerceとAEM Assetsの
 
 - AEM Assets for Commerce統合の有効化をリクエストするサポートチケットを作成します。 チケットに、Commerceに接続するAEM Assets オーサリング環境用の **[!UICONTROL Program ID]**、**[!UICONTROL Environment ID]** および **[!UICONTROL IMS Org ID]** を含めます。
 
-- **[!UICONTROL Asset Selector IMS Client ID]** を指定します。 [2}AEM Assets Selector](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) ドキュメントの {ImsAuthProps *を参照してください。*
+- **[!UICONTROL Asset Selector IMS Client ID]** を指定します。 [2&rbrace;AEM Assets Selector](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) ドキュメントの &lbrace;ImsAuthProps *を参照してください。*
 
 ## 接続の設定
 
@@ -63,7 +63,7 @@ AEM Assets プロジェクトを特定した後、Adobe CommerceとAEM Assetsの
 
    1. **[!UICONTROL Match by product SKU]** または **[!UICONTROL Custom match (Requires App Builder)]** を選択します。
 
-   1. Commerce製品 SKU に対して定義された ](aem-assets-configure-aem.md#configure-metadata)0}AEM Assets メタデータフィールド名を **[!UICONTROL Match by product SKU attribute name]** フィールドに追加します（例：`commerce:skus`）。[
+   1. Commerce製品 SKU に対して定義された [&#128279;](aem-assets-configure-aem.md#configure-metadata)0&rbrace;AEM Assets メタデータフィールド名を **[!UICONTROL Match by product SKU attribute name]** フィールドに追加します（例：`commerce:skus`）。
 
 1. 「**[!UICONTROL Save Config]**」を選択すると、更新を適用し、アセットの同期を開始します。
 

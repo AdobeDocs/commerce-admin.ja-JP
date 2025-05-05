@@ -33,11 +33,11 @@ _注文と返品_ ウィジェットを使用すると、ゲストは注文の�
 
 ## 注文と返品ウィジェットの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックします。
 
-1. _[!UICONTROL Settings]_セクションで、次の操作を行います。
+1. _[!UICONTROL Settings]_&#x200B;セクションで、次の操作を行います。
 
    - **[!UICONTROL Type]** を `Orders and Returns` に設定します。
 
@@ -45,7 +45,7 @@ _注文と返品_ ウィジェットを使用すると、ゲストは注文の�
 
 1. 「**[!UICONTROL Continue]**」をクリックします。
 
-1. _[!UICONTROL Storefront Properties]_セクションで、次の操作を行います。
+1. _[!UICONTROL Storefront Properties]_&#x200B;セクションで、次の操作を行います。
 
    - **[!UICONTROL Widget Title]** しくは、ウィジェットのわかりやすいタイトルを入力します。
 

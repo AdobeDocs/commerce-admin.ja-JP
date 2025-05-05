@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ![ 管理者 – 受信メッセージ ](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Notifications]_のページには、日付別にランク付けされたすべてのメッセージがリストされます。_[!UICONTROL Action]_ のコマンドを使用して、個々のメッセージを読み取り済みとしてマークしたり、詳細情報を表示したり、インボックスからメッセージを削除したりできます。
+_[!UICONTROL Notifications]_&#x200B;のページには、日付別にランク付けされたすべてのメッセージがリストされます。_[!UICONTROL Action]_ のコマンドを使用して、個々のメッセージを読み取り済みとしてマークしたり、詳細情報を表示したり、インボックスからメッセージを削除したりできます。
 
 設定によって、インボックスの更新頻度とメッセージの配信方法が決定されます。 ストア管理者にセキュア URL がある場合、通知は HTTPS で配信する必要があります。
 
@@ -42,7 +42,7 @@ _[!UICONTROL Notifications]_のページには、日付別にランク付けさ�
 
    - ヘッダーの「**[!UICONTROL Notification]**」アイコンをクリックします。 新しいメッセージが 1 つ以上表示されている場合は、[**[!UICONTROL See All]**] をクリックします。
 
-   - _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Notifications]**に移動します。
+   - _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Notifications]**&#x200B;に移動します。
 
 1. **[!UICONTROL Action]** 列で、次のいずれかの操作を行います。
 
@@ -68,7 +68,7 @@ _[!UICONTROL Notifications]_のページには、日付別にランク付けさ�
 
 ## 通知の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルで **[!UICONTROL Advanced]** を展開し、「**[!UICONTROL System]**」を選択します。
 

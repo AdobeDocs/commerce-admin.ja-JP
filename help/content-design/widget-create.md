@@ -21,11 +21,11 @@ ht-degree: 0%
 
 ### 手順 1：タイプの選択
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add Widget]**」をクリックします。
 
-1. _[!UICONTROL Settings]_のセクションで以下を実行します。
+1. _[!UICONTROL Settings]_&#x200B;のセクションで以下を実行します。
 
    - 作成するウィジェットのタイプに **[!UICONTROL Type]** を設定します。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ### 手順 2：ストアフロントのプロパティとレイアウトを指定する
 
-1. _[!UICONTROL Storefront Properties]_のセクションで以下を実行します。
+1. _[!UICONTROL Storefront Properties]_&#x200B;のセクションで以下を実行します。
 
    - **[!UICONTROL Widget Title]** しくは、ウィジェットのわかりやすいタイトルを入力します。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 ## ウィジェットの編集
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**&#x200B;に移動します。
 
 1. グリッドの上にあるフィルターを使用してウィジェットを見つけ、ウィジェット名をクリックします。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 ## ウィジェットの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**&#x200B;に移動します。
 
 1. グリッドの上にあるフィルターを使用してウィジェットを見つけ、削除するウィジェットのチェックボックスを選択します。
 

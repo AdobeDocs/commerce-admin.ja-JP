@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### 手順 1：ブロックの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Block]**」をクリックします。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. ステージの右上隅にある _フルスクリーンを閉じる_ （![ フルスクリーンアイコンを閉じる ](./assets/pb-icon-reduce.png)）アイコンをクリックします。
 
-   このアイコンをクリックすると、ブロックの _[!UICONTROL Content]_セクションに戻り、プレビューが表示されます。
+   このアイコンをクリックすると、ブロックの _[!UICONTROL Content]_&#x200B;セクションに戻り、プレビューが表示されます。
 
 1. 右上隅の **[!UICONTROL Save]** 矢印をクリックし、「**[!UICONTROL Save & Close]**」を選択します。
 
@@ -80,9 +80,9 @@ ht-degree: 0%
 
 1. API キーをクリップボードにコピーします。
 
-1. [!DNL Commerce] Admin に戻り、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. [!DNL Commerce] Admin に戻り、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
 
 1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** を展開します。
 
@@ -100,13 +100,13 @@ ht-degree: 0%
 
 ### 手順 4：ページへのブロックの追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
 
-1. グリッドで、最初のチュートリアルで作成した _[!UICONTROL Simple Page]_を見つけ、_[!UICONTROL Action]_ の列の **[!UICONTROL Edit]** を選択します。
+1. グリッドで、最初のチュートリアルで作成した _[!UICONTROL Simple Page]_&#x200B;を見つけ、_[!UICONTROL Action]_ の列の **[!UICONTROL Edit]** を選択します。
 
 1. ![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Content]**」セクションを展開し、コンテンツプレビュー領域 **[!UICONTROL Edit with Page Builder]** または内側をクリックします。
 
-1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_の下で、**[!UICONTROL Row]**のプレースホルダーをステージの上部にドラッグします。
+1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_&#x200B;の下で、**[!UICONTROL Row]**&#x200B;のプレースホルダーをステージの上部にドラッグします。
 
    ![ 行をステージの上部に追加 ](./assets/pb-tutorial2-elements-row-drag-top.png){width="600" zoomable="yes"}
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 ### 手順 1：新しいダイナミック ブロックを作成する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Dynamic Blocks]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Dynamic Blocks]**&#x200B;に移動します。
 
    ![ ダイナミック ブロック リスト ](./assets/pb-tutorial2-block-dynamic-add.png){width="700" zoomable="yes"}
 
@@ -172,7 +172,7 @@ ht-degree: 0%
 
 ### 手順 2：設定を完了する
 
-_[!UICONTROL Content]_セクションまでスクロールし、空の [!DNL Page Builder] コンテンツプレビューを表示して、「**[!UICONTROL Edit with Page Builder]**」をクリックします。 次に、以下のタスクを実行します。
+_[!UICONTROL Content]_&#x200B;セクションまでスクロールし、空の [!DNL Page Builder] コンテンツプレビューを表示して、「**[!UICONTROL Edit with Page Builder]**」をクリックします。 次に、以下のタスクを実行します。
 
 **タスク 1:** 背景画像の追加
 
@@ -182,7 +182,7 @@ _[!UICONTROL Content]_セクションまでスクロールし、空の [!DNL Pag
 
 1. **[!UICONTROL Minimum Height]** には、`400px` と入力します。
 
-1. 「_[!UICONTROL Background]_」セクションまでスクロールし、**[!UICONTROL Select from Gallery]**をクリックして、最初のチュートリアルでアップロードした `wide-banner-background.png` 画像を選択することで、**[!UICONTROL Background Image]**を設定します。
+1. 「_[!UICONTROL Background]_」セクションまでスクロールし、**[!UICONTROL Select from Gallery]**&#x200B;をクリックして、最初のチュートリアルでアップロードした `wide-banner-background.png` 画像を選択することで、**[!UICONTROL Background Image]**&#x200B;を設定します。
 
 1. 右上隅にある「**[!UICONTROL Save]**」をクリックして設定を適用し、[!DNL Page Builder] ワークスペースに戻ります。
 
@@ -190,7 +190,7 @@ _[!UICONTROL Content]_セクションまでスクロールし、空の [!DNL Pag
 
 **タスク 2:** 列の追加
 
-[!DNL Page Builder] パネルの _[!UICONTROL Layout]_の下で、**[!UICONTROL Column]**のプレースホルダーを行にドラッグします。
+[!DNL Page Builder] パネルの _[!UICONTROL Layout]_&#x200B;の下で、**[!UICONTROL Column]**&#x200B;のプレースホルダーを行にドラッグします。
 
 ![ 列タイプを行にドラッグ ](./assets/pb-tutorial2-column-drag.png){width="600" zoomable="yes"}
 
@@ -264,7 +264,7 @@ _[!UICONTROL Content]_セクションまでスクロールし、空の [!DNL Pag
 
 1. ステージの右上隅にある _フルスクリーンを閉じる_ （![ フルスクリーンアイコンを閉じる ](./assets/pb-icon-reduce.png)）アイコンをクリックします。
 
-   このアイコンをクリックすると、ダイナミック ブロックの _[!UICONTROL Content]_セクションに戻り、プレビューが表示されます。
+   このアイコンをクリックすると、ダイナミック ブロックの _[!UICONTROL Content]_&#x200B;セクションに戻り、プレビューが表示されます。
 
 1. 右上隅の「**[!UICONTROL Save]**」をクリックします。
 
@@ -288,7 +288,7 @@ _[!UICONTROL Content]_セクションまでスクロールし、空の [!DNL Pag
 
 ### 手順 4：ページへの動的ブロックの追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
 
 1. [ 最初のチュートリアルの演習 _で作成した_ シンプルなページ ](1-simple-page.md) を見つけて、編集モードで開きます。
 
@@ -298,7 +298,7 @@ _[!UICONTROL Content]_セクションまでスクロールし、空の [!DNL Pag
 
    ページからの行の削除を確認するには、「削 **[!UICONTROL OK]**」をクリックします。
 
-1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_の下で、新しい&#x200B;**[!UICONTROL Row]**プレースホルダーをステージの上部にドラッグします。
+1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_&#x200B;の下で、新しい&#x200B;**[!UICONTROL Row]**&#x200B;プレースホルダーをステージの上部にドラッグします。
 
 1. [!DNL Page Builder] パネルで **[!UICONTROL Add Content]** を展開し、**[!UICONTROL Dynamic Block]** プレースホルダーを新しい行にドラッグします。
 
@@ -308,11 +308,11 @@ _[!UICONTROL Content]_セクションまでスクロールし、空の [!DNL Pag
 
    ![ ダイナミック ブロック ツールボックス ](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Edit Dynamic Block]_ページで「**[!UICONTROL Select Dynamic Block]**」をクリックします。
+1. _[!UICONTROL Edit Dynamic Block]_&#x200B;ページで「**[!UICONTROL Select Dynamic Block]**」をクリックします。
 
    ![ ダイナミック ブロックを選択 ](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
-1. 作成した _[!DNL Tee Shirt Promo]_ダイナミック ブロックを見つけて、[**[!UICONTROL Select]**] をクリックします。
+1. 作成した _[!DNL Tee Shirt Promo]_&#x200B;ダイナミック ブロックを見つけて、[**[!UICONTROL Select]**] をクリックします。
 
    ダイナミック ブロック情報の概要が下に表示されます。
 
@@ -340,9 +340,9 @@ _[!UICONTROL Content]_セクションまでスクロールし、空の [!DNL Pag
 
 ### 手順 1：ダイナミックブロックを編集する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Dynamic Blocks]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Dynamic Blocks]**&#x200B;に移動します。
 
-1. グリッドで _[!DNL Tee Shirt Promo]_のダイナミック ブロックを探し、編集モードで開きます。
+1. グリッドで _[!DNL Tee Shirt Promo]_&#x200B;のダイナミック ブロックを探し、編集モードで開きます。
 
 1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Content]**」セクションを展開し、「**[!UICONTROL Edit with Page Builder]**」をクリックします。
 
@@ -368,7 +368,7 @@ _[!UICONTROL Content]_セクションまでスクロールし、空の [!DNL Pag
 
 1. ステージの右上隅にある _フルスクリーンを閉じる_ （![ フルスクリーンアイコンを閉じる ](./assets/pb-icon-reduce.png)）アイコンをクリックします。
 
-   このアイコンをクリックすると、ダイナミック ブロックの _[!UICONTROL Content]_セクションに戻り、プレビューが表示されます。
+   このアイコンをクリックすると、ダイナミック ブロックの _[!UICONTROL Content]_&#x200B;セクションに戻り、プレビューが表示されます。
 
 1. 右上隅の「**[!UICONTROL Save]**」をクリックします。
 

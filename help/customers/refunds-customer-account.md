@@ -57,7 +57,7 @@ ht-degree: 0%
 
    ![ レビューと支払ページのストアクレジット ](assets/customer-account-order-refund-from-checkout.png){width="700" zoomable="yes"}
 
-5. 顧客が店舗クレジットの使用に関する考えを変えた場合は、「注文概要 _セクションの&#x200B;**[!UICONTROL Remove]**をクリック_ ます。
+5. 顧客が店舗クレジットの使用に関する考えを変えた場合は、「注文概要 _セクションの&#x200B;**[!UICONTROL Remove]**&#x200B;をクリック_ ます。
 
 ## 管理者の支払いアクション
 

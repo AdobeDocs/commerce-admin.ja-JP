@@ -42,7 +42,7 @@ ht-degree: 3%
    - [製品データ属性リファレンス](data-attributes-product.md)
    - [顧客データ属性リファレンス](data-attributes-customer.md)
    - [税率データの更新](data-transfer-tax-rates.md)
-   - {#examples} の例
+   - の例{#examples}
       - [バンドル製品の読み込み](data-transfer-bundle-products.md)
       - [設定可能な製品のインポート](data-transfer-configurable-products.md)
       - [ダウンロード可能な製品のインポート](data-transfer-downloadable-products.md)

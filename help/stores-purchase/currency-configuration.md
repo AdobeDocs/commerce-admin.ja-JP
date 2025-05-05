@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 手順 1：使用可能な通貨の選択
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左上隅の **[!UICONTROL Scope]** を、設定が適用されるストア表示に設定します。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 通貨サービス接続の設定：
 
-   サービスオプションには、_[!UICONTROL Fixer.io (legacy)]_、_[!UICONTROL Fixer Api (APILayer)]_、_[!UICONTROL Currency Converter API]_の 3 つがあります
+   サービスオプションには、_[!UICONTROL Fixer.io (legacy)]_、_[!UICONTROL Fixer Api (APILayer)]_、_[!UICONTROL Currency Converter API]_&#x200B;の 3 つがあります
 
    >[!IMPORTANT]
    >
@@ -142,9 +142,9 @@ ht-degree: 0%
 
 ![ 通貨記号 ](./assets/stores-currency-symbols.png){width="600" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Currency]_/**[!UICONTROL Currency Symbols]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Currency]_/**[!UICONTROL Currency Symbols]**&#x200B;に移動します。
 
-   ストアで有効になっている各通貨が _[!UICONTROL Currency]_リストに表示されます。
+   ストアで有効になっている各通貨が _[!UICONTROL Currency]_&#x200B;リストに表示されます。
 
 1. 必要に応じて、リストの設定を変更します。
 

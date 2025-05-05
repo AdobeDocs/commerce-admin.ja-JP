@@ -22,7 +22,7 @@ Admin [actions](action-log.md) アーカイブには、サーバーに保存さ�
 
 ## ログアーカイブの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
@@ -39,6 +39,6 @@ Admin [actions](action-log.md) アーカイブには、サーバーに保存さ�
 
 ## アーカイブの表示
 
-_管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Actions Logs]_/**[!UICONTROL Archive]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Actions Logs]_/**[!UICONTROL Archive]**&#x200B;に移動します。
 
 ![ アクションログアーカイブ ](./assets/action-log-archive.png){width="600" zoomable="yes"}

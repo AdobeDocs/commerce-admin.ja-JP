@@ -16,20 +16,20 @@ Adobe CommerceとMagento Open Sourceキャッシュの管理システムを使�
 
 ![ 製品属性の保存 – キャッシュメッセージの更新 ](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
-_[!UICONTROL Cache Management]_のページには、各プライマリ・キャッシュのステータスと関連するタグが表示されます。 右上隅の大きなボタンを使用して、キャッシュまたは包括的なキャッシュストレージをフラッシュできます。 ページの下部には、カタログ商品画像のキャッシュとJavaScript/CSS のキャッシュをフラッシュするためのボタンが用意されています。
+_[!UICONTROL Cache Management]_&#x200B;のページには、各プライマリ・キャッシュのステータスと関連するタグが表示されます。 右上隅の大きなボタンを使用して、キャッシュまたは包括的なキャッシュストレージをフラッシュできます。 ページの下部には、カタログ商品画像のキャッシュとJavaScript/CSS のキャッシュをフラッシュするためのボタンが用意されています。
 
 >[!IMPORTANT]
 >
->カタログエンティティが変更されると、他のページに影響を与え、複数のキャッシュが同時に無効になる可能性があります。 キャッシュ管理ページを確認すると、無効な項目が _**直接編集されていない**_ 場合に、更新が必要となることがあります。 例えば、この無効化は、任意のカテゴリに割り当てられているカタログ内の製品を編集した場合や、関連する製品ルールを変更した場合に発生します。
+>カタログエンティティが変更されると、他のページに影響を与え、複数のキャッシュが同時に無効になる可能性があります。 キャッシュ管理ページを確認すると、無効な項目が _&#x200B;**直接編集されていない**&#x200B;_ 場合に、更新が必要となることがあります。 例えば、この無効化は、任意のカテゴリに割り当てられているカタログ内の製品を編集した場合や、関連する製品ルールを変更した場合に発生します。
 
 キャッシュをクリアした後は、常にブラウザーを更新して、最新のファイルが表示されるようにします。 Commerceのキャッシュをクリアしても、web ブラウザーのキャッシュはクリアされません。 更新されたコンテンツを表示するには、ブラウザーのキャッシュをクリアする必要がある場合があります。
 
-Adobe Commerceのキャッシュに関するその他の技術情報については、_Commerce フロントエンド開発ガイド ](https://developer.adobe.com/commerce/frontend-core/guide/caching/) の [ キャッシュの概要 {:target=&quot;_blank&quot;}_ を参照してください。
+Adobe Commerceのキャッシュに関するその他の技術情報については、_Commerce フロントエンド開発ガイド [&#128279;](https://developer.adobe.com/commerce/frontend-core/guide/caching/) の  キャッシュの概要 {:target=&quot;_blank&quot;}_ を参照してください。
 
-次のいずれかの操作を行って、_[!UICONTROL Cache Management]_ページにアクセスします。
+次のいずれかの操作を行って、_[!UICONTROL Cache Management]_&#x200B;ページにアクセスします。
 
 - ワークスペースの上にあるメッセージ内の「**[!UICONTROL Cache Management]**」リンクをクリックします。
-- _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**に移動します。
+- _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**&#x200B;に移動します。
 
 ![ キャッシュ管理 ](./assets/cache-management-invalid.png){width="700" zoomable="yes"}
 
@@ -108,7 +108,7 @@ Commerce アプリケーションサーバーへのアクセス権を持つシ�
 
 | 制御 | 説明 |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Mass Actions] | 複数のキャッシュのチェックボックスを選択します。 Options: <br/>**[!UICONTROL Select All]**– すべてのキャッシュのチェックボックスを選択します。<br/>** Unselect All **：すべてのキャッシュのチェックボックスをクリアします。<br/>**[!UICONTROL Select Visible]** – すべての表示可能なキャッシュのチェックボックスを選択します。 <br/>**[!UICONTROL Unselect Visible]**– 表示されているすべてのキャッシュのチェックボックスをクリアします。 |
+| [!UICONTROL Mass Actions] | 複数のキャッシュのチェックボックスを選択します。 Options: <br/>**[!UICONTROL Select All]**– すべてのキャッシュのチェックボックスを選択します。<br/>**&#x200B; Unselect All &#x200B;**：すべてのキャッシュのチェックボックスをクリアします。<br/>**[!UICONTROL Select Visible]** – すべての表示可能なキャッシュのチェックボックスを選択します。 <br/>**[!UICONTROL Unselect Visible]**– 表示されているすべてのキャッシュのチェックボックスをクリアします。 |
 | [!UICONTROL Actions] | 選択したすべてのキャッシュに適用されるアクションを決定します。 Options: <br/>**[!UICONTROL Enable]**– 選択したすべてのキャッシュを有効にします。<br/>**[!UICONTROL Disable]** – 選択したすべてのキャッシュを無効にします。 <br/>**[!UICONTROL Refresh]**– 選択したすべてのキャッシュを更新します。 |
 | [!UICONTROL Submit] | 選択したすべてのキャッシュにアクションを適用します。 |
 
@@ -138,7 +138,7 @@ Commerce アプリケーションサーバーへのアクセス権を持つシ�
 
 >[!NOTE]
 >
->開発者とシステムインテグレーターは、Commerce キャッシュ管理システムをカスタマイズおよび拡張して、カスタムモジュールやカスタムインテグレーションをサポートできます。 詳しくは、_Adobe Commerce設定ガイド ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview) の [ キャッシュの設定_ を参照してください。
+>開発者とシステムインテグレーターは、Commerce キャッシュ管理システムをカスタマイズおよび拡張して、カスタムモジュールやカスタムインテグレーションをサポートできます。 詳しくは、_Adobe Commerce設定ガイド [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview) の  キャッシュの設定_ を参照してください。
 
 <!-- prettier-ignore -->
 
@@ -185,7 +185,7 @@ Adobe CommerceとMagento Open Sourceでは、カテゴリ、製品および CMS 
 
 **_フルページキャッシュを設定するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 

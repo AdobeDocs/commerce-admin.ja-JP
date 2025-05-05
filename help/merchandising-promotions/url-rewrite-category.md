@@ -35,7 +35,7 @@ ht-degree: 0%
 
 {{url-rewrite-params}}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL SEO & Search]_/**[!UICONTROL URL Rewrites]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL SEO & Search]_/**[!UICONTROL URL Rewrites]**&#x200B;に移動します。
 
 1. 続行する前に、次の手順を実行して、リクエストパスが使用可能であることを確認します。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
    - 右上隅の「**[!UICONTROL Delete]**」をクリックします。 プロンプトが表示されたら、「**[!UICONTROL OK]**」をクリックして確認します。
 
-1. _[!UICONTROL URL Rewrites]_ページに戻ったら、「**[!UICONTROL Add URL Rewrite]**」をクリックします。
+1. _[!UICONTROL URL Rewrites]_&#x200B;ページに戻ったら、「**[!UICONTROL Add URL Rewrite]**」をクリックします。
 
 1. **[!UICONTROL Create URL Rewrite]** を `For category` に設定して、リダイレクトの宛先となるツリー内のターゲットカテゴリを選択します。
 

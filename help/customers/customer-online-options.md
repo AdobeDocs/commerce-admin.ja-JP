@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ログインを容易にするために、**[!UICONTROL Remember Me]** 機能を使用すると、ユーザーアカウント所有者は、ストアフロントに入るたびに資格情報を入力するのを回避できます。 セキュリティ上の理由から、永続性機能はデフォルトで無効になっています。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Persistent Shopping Cart]**」を選択します。
 

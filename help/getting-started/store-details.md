@@ -18,9 +18,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Store Information]
 
-_[!UICONTROL Store Information]_のセクションでは、販売ドキュメントやその他のコミュニケーションに表示される基本情報を提供します。
+_[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキュメントやその他のコミュニケーションに表示される基本情報を提供します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルの「**[!UICONTROL General]**」で、「**[!UICONTROL General]**」を選択します。
 
@@ -63,7 +63,7 @@ _[!UICONTROL Store Information]_のセクションでは、販売ドキュメン
 
 ロケール設定は、各ストアに使用されるタイムゾーンと言語を決定し、そのエリアの営業週の曜日を識別します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルの **[!UICONTROL General]** の下で、「**[!UICONTROL General]**」を選択します。
 
@@ -93,7 +93,7 @@ _[!UICONTROL Store Information]_のセクションでは、販売ドキュメン
 
 標準の住所形式は国によって異なるので、請求書、梱包明細、出荷ラベルの住所の書式設定に使用するテンプレートを編集することもできます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルの「**[!UICONTROL General]**」で、「**[!UICONTROL General]**」を選択します。
 
@@ -119,7 +119,7 @@ _[!UICONTROL Store Information]_のセクションでは、販売ドキュメン
 
 ### ストアの国オプションの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルの **[!UICONTROL General]** の下で、「**[!UICONTROL General]**」を選択します。
 
@@ -151,7 +151,7 @@ _[!UICONTROL Store Information]_のセクションでは、販売ドキュメン
 
 また、利用可能な [ 配送方法 ](../stores-purchase/delivery.md) （UPS、FedEx など）ごとに、特定の国への配送を設定することもできます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルで **[!UICONTROL Sales]** を展開し、「**[!UICONTROL Delivery Methods]**」を選択します。
 
@@ -175,7 +175,7 @@ _[!UICONTROL Store Information]_のセクションでは、販売ドキュメン
 
 「マーチャントの場所」設定は、[ 支払い方法 ](../stores-purchase/payments.md) の設定に使用します。 この設定に値がない場合は、[ デフォルトの国 ](#uicontrol-country-options) 設定が使用されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルで **[!UICONTROL Sales]** を展開し、「**[!UICONTROL Payment Methods]**」を選択します。
 
@@ -213,7 +213,7 @@ _[!UICONTROL Store Information]_のセクションでは、販売ドキュメン
 
 ### 手順 2：ストアのメールアドレスの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルの「**[!UICONTROL General]**」で、「**[!UICONTROL Store Email Addresses]**」を選択します。
 
@@ -269,7 +269,7 @@ Luma のサンプルデータには、ストアに合わせてページをカス
 
 ### お問い合わせフォームの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルの **[!UICONTROL General]** の下で、「**[!UICONTROL Contacts]**」を選択します。
 
@@ -297,7 +297,7 @@ Luma のサンプルデータには、ストアに合わせてページをカス
 
 Luma サンプルデータには、ストア用にカスタマイズできる _お問い合わせ情報_ ブロックが含まれています。 `contact-us-info` [ ブロック ](../content-design/blocks.md) は簡単に変更でき、お問い合わせページに独自のコンテンツを追加できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**&#x200B;に移動します。
 
 1. リストで **[!UICONTROL Contact Us Info]** ブロックを見つけ、**[!UICONTROL Edit]** モードで開きます。
 

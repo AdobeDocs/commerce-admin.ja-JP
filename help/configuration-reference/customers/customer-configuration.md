@@ -57,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL Default Welcome Email] | ストア表示 | デフォルトの _ようこそ_ メールに使用するメールテンプレートを識別します。 |
 | [!UICONTROL Default Welcome Email Without Password] | ストア表示 | 管理者によって作成され、パスワードが割り当てられていない新しい顧客アカウントに使用される、代替のようこそ E メール テンプレート。 |
 | [!UICONTROL Email Sender] | ストア表示 | ようこそメールの送信者として表示される店舗連絡先を識別します。 |
-| [!UICONTROL Require Emails Confirmation] | Web サイト | アカウントの作成要求に顧客の確認が必要かどうかを判断します。 オプション：`Yes` / `No`. <br/><br/> _**注意：**_ バージョン 2.4.7 以降、ブラウザーに関係なく、メールによる確認後にアカウントにログインするには、メールとパスワードを再入力する必要があります。 |
+| [!UICONTROL Require Emails Confirmation] | Web サイト | アカウントの作成要求に顧客の確認が必要かどうかを判断します。 オプション：`Yes` / `No`. <br/><br/> _&#x200B;**注意：**&#x200B;_ バージョン 2.4.7 以降、ブラウザーに関係なく、メールによる確認後にアカウントにログインするには、メールとパスワードを再入力する必要があります。 |
 | [!UICONTROL Confirmation Link Email] | ストア表示 | 確認 E メールに使用する E メールテンプレートを識別します。 既定のテンプレート：`New account confirmation key` |
 | [!UICONTROL Welcome Email] | ストア表示 | アカウントの確認後に送信されるようこそメッセージに使用するメールテンプレートを識別します。 |
 | [!UICONTROL Generate Human-Friendly Customer ID] | グローバル | VAT ID 番号の入力と保存に使用されるフィールドがストアフロントから表示されるかどうかを決定します。 オプション：`Yes` / `No` |
@@ -117,7 +117,7 @@ ht-degree: 0%
 | [!UICONTROL Show Middle Name (initial)] | Web サイト | ミドルネームのイニシャルを顧客名の一部として含めるかどうかを決定します。 使用する場合、中央の最初のフィールドはオプションです。 オプション：`Yes` / `No` |
 | [!UICONTROL Show Suffix] | Web サイト | 顧客名の末尾にサフィックスが含まれるかどうかを決定します（Jr.、Sr.、III など）。 オプション：`No`/`Optional`/`Required` |
 | [!UICONTROL Suffix Dropdown Options] | Web サイト | サフィックスオプションのリストを定義します。 値はセミコロンで区切ります。 最初の値の前にセミコロンを入れると、リストの先頭に空の値が表示されます。 |
-| [!UICONTROL Show Date of Birth] | Web サイト | 顧客の生年月日が氏名および住所フォームに含まれるかどうかを決定します。 オプション：`No` / `Optional` / `Required` <br><br>**_重要：_**現在のセキュリティとプライバシーのベストプラクティスに従って、顧客の完全な生年月日（月、日、年）を他の個人識別子と一緒に保存することに関連する潜在的な法的およびセキュリティリスクに注意してください。 顧客の完全な生年月日の保存を制限し、代替として顧客の生年月日の使用を提案することをお勧めします。 |
+| [!UICONTROL Show Date of Birth] | Web サイト | 顧客の生年月日が氏名および住所フォームに含まれるかどうかを決定します。 オプション：`No` / `Optional` / `Required` <br><br>**_重要：_**&#x200B;現在のセキュリティとプライバシーのベストプラクティスに従って、顧客の完全な生年月日（月、日、年）を他の個人識別子と一緒に保存することに関連する潜在的な法的およびセキュリティリスクに注意してください。 顧客の完全な生年月日の保存を制限し、代替として顧客の生年月日の使用を提案することをお勧めします。 |
 | [!UICONTROL Show Tax/VAT Number] | Web サイト | 名前と住所のフォームに税または [VAT 番号 ](../../stores-purchase/vat.md) が含まれるかどうかを決定します。 オプション：`No`/`Optional`/`Required` |
 | [!UICONTROL Show Gender] | Web サイト | 名前と住所のフォームに性別が含まれているかどうかを決定します。 オプション：`No`/`Optional`/`Required` |
 | [!UICONTROL Show Telephone] | Web サイト | 顧客の電話番号が名前と住所のフォームに含まれているかどうかを決定します。 オプション：`No`/`Optional`/`Required` |
@@ -214,8 +214,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | Web サイト | Commerce web サイトに関連付けられているストアで CAPTCHA を有効にします。 オプション：`Yes` / `No` |
 | [!UICONTROL Font] | Web サイト | CAPTCHA を表示するために使用するフォントを決定します。 独自のフォントを追加するには、フォントファイルをCommerceのインストール先と同じディレクトリに置き、宣言を `config.xml` ファイルの `app/code/Magento/Captcha/etc` に追加します。 |
-| [!UICONTROL Forms] | Web サイト | CAPTCHA が使用されるフォームを決定します。 オプション：<br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （[ セキュリティパッチ ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) を参照） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_**注意：**_ ユーザー作成、パスワードを忘れた場合、Payflow Pro フォームは、選択した場合は常に有効になります。 |
-| [!UICONTROL Displaying Mode] | Web サイト | CAPTCHA が表示されるタイミングを決定します。 オプション：<br/>**`Always`**- ログインには常に CAPTCHA が必要です。<br/>**`After number of attempts to login`** – このオプションは、管理者のログインフォームにのみ適用されます。 選択すると、_[!UICONTROL Number of Unsuccessful Attempts to Login]_フィールドが表示されます。 許可するログイン試行回数を入力します。 値 `0` （ゼロ）は、[!UICONTROL Displaying Mode] を `Always` に設定する場合と似ています。<br/>_**注意：**_失敗したログインの試行回数を追跡するために、1 つのメールアドレスおよび 1 つの IP アドレスからのログインがカウントされます。 同じ IP アドレスから許可されるログイン試行回数の上限は 1,000 です。 この制限は、CAPTCHA が有効な場合にのみ適用されます。 |
+| [!UICONTROL Forms] | Web サイト | CAPTCHA が使用されるフォームを決定します。 オプション：<br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （[ セキュリティパッチ ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) を参照） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**注意：**&#x200B;_ ユーザー作成、パスワードを忘れた場合、Payflow Pro フォームは、選択した場合は常に有効になります。 |
+| [!UICONTROL Displaying Mode] | Web サイト | CAPTCHA が表示されるタイミングを決定します。 オプション：<br/>**`Always`**- ログインには常に CAPTCHA が必要です。<br/>**`After number of attempts to login`** – このオプションは、管理者のログインフォームにのみ適用されます。 選択すると、_[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;フィールドが表示されます。 許可するログイン試行回数を入力します。 値 `0` （ゼロ）は、[!UICONTROL Displaying Mode] を `Always` に設定する場合と似ています。<br/>_&#x200B;**注意：**&#x200B;_失敗したログインの試行回数を追跡するために、1 つのメールアドレスおよび 1 つの IP アドレスからのログインがカウントされます。 同じ IP アドレスから許可されるログイン試行回数の上限は 1,000 です。 この制限は、CAPTCHA が有効な場合にのみ適用されます。 |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | Web サイト | アカウントがロックされるまで顧客がログインできる回数を指定します。 |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | Web サイト | 現在の CAPTCHA の有効期間を決定します。 CAPTCHA の有効期限が切れたら、ユーザーはページをリロードする必要があります。 |
 | [!UICONTROL Number of Symbols] | Web サイト | CAPTCHA に表示されるシンボルの数を指定します（最大 8 個）。 また、範囲を指定することもできます（例：5～8）。 |

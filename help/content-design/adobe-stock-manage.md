@@ -22,11 +22,11 @@ Adobe Stockの検索パネルには、[ ページの追加または編集 ](page
 
 **_Adobe Stock アセットを検索してページにストック画像を追加するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add a New Page]**」をクリックします。
 
-   既存のページを編集する場合は、「_[!UICONTROL Action]_」列を使用して「**[!UICONTROL Select]**」をクリックし、**[!UICONTROL Edit]**を選択します。
+   既存のページを編集する場合は、「_[!UICONTROL Action]_」列を使用して「**[!UICONTROL Select]**」をクリックし、**[!UICONTROL Edit]**&#x200B;を選択します。
 
 1. **[!UICONTROL Content]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
@@ -46,7 +46,7 @@ Adobe Stockの検索パネルには、[ ページの追加または編集 ](page
 
    既存のカテゴリに画像を追加する場合は、左側の一覧でカテゴリ名をクリックします。
 
-1. **[!UICONTROL Content]** セクションを展開し、_[!UICONTROL Category Image]_の下の [**[!UICONTROL Select from Gallery]**] をクリックします。
+1. **[!UICONTROL Content]** セクションを展開し、_[!UICONTROL Category Image]_&#x200B;の下の [**[!UICONTROL Select from Gallery]**] をクリックします。
 
 1. 「**[!UICONTROL Search Adobe Stock]**」をクリックします。
 
@@ -178,7 +178,7 @@ Adobe Stock統合を使用して検索された画像を [!DNL Commerce] [ メ�
 
      >[!NOTE]
      >
-     >画像のライセンスを取得するには、アカウントで利用可能な ](https://helpx.adobe.com/stock/help/credit-packs.html)0}Adobe Stock クレジット } が必要です。[
+     >画像のライセンスを取得するには、アカウントで利用可能な [&#128279;](https://helpx.adobe.com/stock/help/credit-packs.html)0&rbrace;Adobe Stock クレジット &rbrace; が必要です。
 
    この操作を実行すると、イメージを [ メディア ストレージ ](media-storage.md) に保存するために使用するファイル名を指定するよう求めるメッセージが表示されます。 デフォルトのファイル名が提供されますが、この名前は好みに合わせてカスタマイズできます。
 

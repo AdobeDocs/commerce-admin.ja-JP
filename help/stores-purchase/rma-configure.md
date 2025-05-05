@@ -14,11 +14,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-有効化すると、顧客がストアフロントから RMA リクエストを送信できるようになります。 RMA は、返品可能な品目が注文にある場合にのみ生成できます。 個々の項目を返すリクエストは、各製品レコードの _RMA を有効にする_ 属性で管理されます。 デフォルトでは、設定が製品に適用されます（_[!UICONTROL Use Config Settings]_が選択されています）。_[!UICONTROL Enable RMA]_ を `No` に設定した場合、製品は返品可能な項目のリストには表示されません。 _RMA を有効化_ 設定を変更すると、新規注文と既存注文の両方に適用されます。
+有効化すると、顧客がストアフロントから RMA リクエストを送信できるようになります。 RMA は、返品可能な品目が注文にある場合にのみ生成できます。 個々の項目を返すリクエストは、各製品レコードの _RMA を有効にする_ 属性で管理されます。 デフォルトでは、設定が製品に適用されます（_[!UICONTROL Use Config Settings]_&#x200B;が選択されています）。_[!UICONTROL Enable RMA]_ を `No` に設定した場合、製品は返品可能な項目のリストには表示されません。 _RMA を有効化_ 設定を変更すると、新規注文と既存注文の両方に適用されます。
 
 ## ストアの RMA を有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、その下の「**[!UICONTROL Sales]**」を選択します。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    この設定により、ストアフロントの個々の製品の _RMA を有効にする_ 属性の動作が決まります。
 
-   - [!UICONTROL Enable RMA on Product Level] を `Yes` に設定すると、ストアフロントのお客様は、個々の製品をすべて返すことができます。 _[!UICONTROL Enable RMA]_= `Yes` と_[!UICONTROL Enable RMA]_ = `No` の製品属性値の両方が含まれます。
+   - [!UICONTROL Enable RMA on Product Level] を `Yes` に設定すると、ストアフロントのお客様は、個々の製品をすべて返すことができます。 _[!UICONTROL Enable RMA]_= `Yes` と&#x200B;_[!UICONTROL Enable RMA]_ = `No` の製品属性値の両方が含まれます。
    - [!UICONTROL Enable RMA on Product Level] を `No` に設定すると、ストアフロントの顧客は、_[!UICONTROL Enable RMA]_= `Yes` 製品属性値を持つ製品のみを返すことができます。
 
 1. **[!UICONTROL Use Store Address]** を次のいずれかの値に設定します。
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ## 返品用の出荷方法の構成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Delivery Methods]**」を選択します。
 

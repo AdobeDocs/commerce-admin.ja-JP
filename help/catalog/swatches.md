@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->スウォッチ属性は、管理者の [!UICONTROL Attribute Edit] ページで _[!UICONTROL Update Product Preview Image]_オプションの値を `No` に設定することで、スウォッチが選択されたときに対応するシンプルな製品画像を表示しないように設定できます。
+>スウォッチ属性は、管理者の [!UICONTROL Attribute Edit] ページで _[!UICONTROL Update Product Preview Image]_&#x200B;オプションの値を `No` に設定することで、スウォッチが選択されたときに対応するシンプルな製品画像を表示しないように設定できます。
 
 ## テキストベースのスウォッチ
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## レイヤー化されたナビゲーションでのスウォッチ
 
-スウォッチは、color 属性の _[!UICONTROL Use in Layered Navigation]_プロパティが `Yes` に設定されている場合に、レイヤー化されたナビゲーションでも使用できます。 次の例では、レイヤーナビゲーションで、テキストベースのスウォッチとカラー画像スウォッチの両方を表示しています。
+スウォッチは、color 属性の _[!UICONTROL Use in Layered Navigation]_&#x200B;プロパティが `Yes` に設定されている場合に、レイヤー化されたナビゲーションでも使用できます。 次の例では、レイヤーナビゲーションで、テキストベースのスウォッチとカラー画像スウォッチの両方を表示しています。
 
 ![ スウォッチをレイヤー化されたナビゲーションで表示 ](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    ![16 進数カラー値 ](./assets/swatch-hex-values.png){width="400"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. グリッドで、_color_ 属性を編集モードで開きます。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
    - _デフォルト_ 列で、デフォルトオプションにするスウォッチを選択します。
 
-   - カラースウォッチの順序を変更するには、_[!UICONTROL Order]_の ![ 並べ替え順序アイコン ](../assets/icon-sort-order.png) アイコンをクリックし、項目をリストの新しい位置にドラッグします。
+   - カラースウォッチの順序を変更するには、_[!UICONTROL Order]_&#x200B;の ![ 並べ替え順序アイコン ](../assets/icon-sort-order.png) アイコンをクリックし、項目をリストの新しい位置にドラッグします。
 
      ![ スウォッチラベル ](./assets/attribute-swatch-labels.png){width="400"}
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
    ![ スウォッチ画像 ](./assets/swatch-samples.png){width="400"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. グリッドで、**[!UICONTROL color]** 属性を編集モードで開きます。
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 1. 「_[!UICONTROL Manage Swatch]_（属性の値）」で「**[!UICONTROL Add Swatch]**」をクリックし、次の手順を実行します。
 
-   - _[!UICONTROL Swatch]_列で、新しいスウォッチをクリックしてメニューを表示し、**[!UICONTROL Upload a file]**を選択します。
+   - _[!UICONTROL Swatch]_&#x200B;列で、新しいスウォッチをクリックしてメニューを表示し、**[!UICONTROL Upload a file]**&#x200B;を選択します。
 
    - 準備したスウォッチファイルに移動し、アップロードするファイルを選択します。
 

@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 製品属性の作成および削除
 
-属性は、製品の操作時または _[!UICONTROL Product Attributes]_ページから作成できます。 次の手順は、_[!UICONTROL Stores]_ メニューから属性を作成する方法を示しています。
+属性は、製品の操作時または _[!UICONTROL Product Attributes]_&#x200B;ページから作成できます。 次の手順は、_[!UICONTROL Stores]_ メニューから属性を作成する方法を示しています。
 
 ## 手順 1：基本的な属性プロパティの説明
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add New Attribute]**」をクリックします。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
    | `Text Field` | テキストの 1 行入力フィールド。 |
    | `Text Area` | 製品の説明など、テキストの段落を入力するための複数行の入力フィールド。 WYSIWYG エディターを使用して、テキストをHTML タグで書式設定したり、テキストにタグを直接入力したりできます。 |
    | `Text Editor` | 属性の場所に完全に機能するテキストエディター。 |
-   | 日付 | 日付値を [ 優先形式 ](attributes-input-types.md#date-and-time-options) および [ タイムゾーン ](../getting-started/store-details.md#locale-options) で表示します。 日付値は、リストまたはカレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）から選択できます。 <br/><br/>**_メモ：_**システムの設定に応じて、_ 管理者 _ユーザーはフィールドに日付を直接入力したり、カレンダーやリストから日付を選択したりできます。 日付と時刻の値を指定する方法については、[ 日付と時刻のオプション ](attributes-input-types.md#date-and-time-options) を参照してください。 |
+   | 日付 | 日付値を [ 優先形式 ](attributes-input-types.md#date-and-time-options) および [ タイムゾーン ](../getting-started/store-details.md#locale-options) で表示します。 日付値は、リストまたはカレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）から選択できます。 <br/><br/>**_メモ：_**&#x200B;システムの設定に応じて、_ 管理者 _ユーザーはフィールドに日付を直接入力したり、カレンダーやリストから日付を選択したりできます。 日付と時刻の値を指定する方法については、[ 日付と時刻のオプション ](attributes-input-types.md#date-and-time-options) を参照してください。 |
    | `Yes/No` | `Yes` と `No` の定義済みオプションを含むドロップダウン リストを表示します。 |
    | `Dropdown` | 1 つの選択のみを受け入れる値のドロップダウン リストを表示します。 ドロップダウン入力タイプは、[ 設定可能な製品 ](product-create-configurable.md) の主要コンポーネントです。 |
    | `Multiple Select` | 複数の値を選択できるドロップダウン リストを表示します。 |
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    ![ 製品属性 – 詳細プロパティ ](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
-   使用できるオプションは、_[!UICONTROL Catalog Input Type for Store Owner]_の設定によって異なります。
+   使用できるオプションは、_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;の設定によって異なります。
 
 1. 属性を使用できる [ ストア階層 ](../getting-started/websites-stores-views.md) の場所を示すために、**[!UICONTROL Scope]** を設定します。
 
@@ -91,8 +91,8 @@ ht-degree: 0%
 
 1. この属性を [ 製品リスト ](products-list.md) に追加するには、次のオプションを `Yes` に設定します。
 
-   - **列オプションに追加** – 属性を列として _[!UICONTROL Products]_リストに含めます。
-   - **フィルターオプションで使用** - フィルターリストの列ヘッダーに _[!UICONTROL Products]_ィルターコントロールを追加します。
+   - **列オプションに追加** – 属性を列として _[!UICONTROL Products]_&#x200B;リストに含めます。
+   - **フィルターオプションで使用** - フィルターリストの列ヘッダーに _[!UICONTROL Products]_&#x200B;ィルターコントロールを追加します。
 
 ## 手順 3：フィールドラベルの入力
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
    ![ 製品属性 – ストアフロントのプロパティ ](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
-   使用できるオプションは、_[!UICONTROL Catalog Input Type for Store Owner]_の設定によって異なります。
+   使用できるオプションは、_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;の設定によって異なります。
 
 1. 属性を検索に使用できるようにする場合は、**[!UICONTROL Use in Search]** を `Yes` に設定します。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 製品作成ページに属性を表示するには、属性を特定の属性セットに追加します。
 
-1. 前の手順が完了したら、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Attribute Set]**に移動します。
+1. 前の手順が完了したら、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Attribute Set]**&#x200B;に移動します。
 
 1. リストで必要な属性セットを選択し、編集モードで開きます。
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 
 **_属性を削除するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. リストで属性を見つけ、編集モードで開きます。
 

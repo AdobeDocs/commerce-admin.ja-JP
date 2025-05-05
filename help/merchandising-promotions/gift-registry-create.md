@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 準備済みギフト レジストリの使用
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Gift Registry]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Gift Registry]**&#x200B;に移動します。
 
    誕生日、結婚式、赤ちゃんのレジストリは、顧客が自分のアカウントから使用する準備ができています。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## カスタムギフトレジストリの作成
 
-1. 管理者サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Gift Registry]**に移動します。
+1. 管理者サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Gift Registry]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Gift Registry Type]**」をクリックします。
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 | [!UICONTROL Event Date] | ストアでの date 属性の使用方法を決定します。 オプション：<br/>**[!UICONTROL Searchable]**– 詳細検索に属性を使用できるかどうかを決定します。 オプション：`Yes`/`No`。<br/>**[!UICONTROL Is Listed]** - ストアで使用可能なイベントのリストにイベントを含めるかどうかを決定します。 オプション：`Yes`/`No`。 <br/>**[!UICONTROL Date Format]**- イベントの日付の形式を決定します。 オプション：`Short (3/23/2014)`/`Medium (Mar 23, 1914)`/`Long (March 23, 1914)`/`Full (Sunday, March 23, 2014)` |
 | [!UICONTROL Event Country] | 属性を国のリストとして表示します。 オプション：<br/>**[!UICONTROL Searchable]**– 詳細検索に属性を使用できるかどうかを決定します。 オプション：`Yes`/`No`。<br/>**[!UICONTROL Is Listed]** - ストアで使用可能なイベントのリストにイベントを含めるかどうかを決定します。 オプション：`Yes`/`No`。 <br/>**[!UICONTROL Show Region]**- イベントの地域を決定します。 |
 | [!UICONTROL Event Location] | ギフト レジストリに関連するイベントの場所。 <br/>**[!UICONTROL Is Searcheable]** を `Yes` / `No` <br/>**[!UICONTROL Is Listed]** を `Yes` / `No` に設定 |
-| [!UICONTROL Role] | ギフト受取人を識別する役割。 例えば、`Bride`、`Groom`、`Partner` などです。<br/>**[!UICONTROL Is Searcheable]**- `Yes`/`No` に設定<br/>** 一覧表示 **- `Yes`/`No` に設定<br/>**[!UICONTROL Add New Option]** - クリックしてドロップダウンメニューに条件を追加：<br/>**コード** – 属性を内部的に識別する一意の名前。<br/>**[!UICONTROL Label]**– 顧客のアカウントダッシュボードで属性を識別する名前。<br/>**[!UICONTROL Is Default]** - デフォルトの条件を選択する場合は、このスイッチを設定します。<br/>**[!UICONTROL Delete Option]**- クリックしてオプションを削除します。 |
+| [!UICONTROL Role] | ギフト受取人を識別する役割。 例えば、`Bride`、`Groom`、`Partner` などです。<br/>**[!UICONTROL Is Searcheable]**- `Yes`/`No` に設定<br/>**&#x200B; 一覧表示 &#x200B;**- `Yes`/`No` に設定<br/>**[!UICONTROL Add New Option]** - クリックしてドロップダウンメニューに条件を追加：<br/>**コード** – 属性を内部的に識別する一意の名前。<br/>**[!UICONTROL Label]**– 顧客のアカウントダッシュボードで属性を識別する名前。<br/>**[!UICONTROL Is Default]** - デフォルトの条件を選択する場合は、このスイッチを設定します。<br/>**[!UICONTROL Delete Option]**- クリックしてオプションを削除します。 |
 
 {style="table-layout:auto"}
 

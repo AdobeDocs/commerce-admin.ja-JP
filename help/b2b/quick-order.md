@@ -18,7 +18,7 @@ _クイックオーダー_ 機能を使用すると、注文する製品の製�
 
 ## ストアのクイックオーダーを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左パネルの「_[!UICONTROL General]_」セクションで、「**[!UICONTROL B2B Features]**」を選択します。
 

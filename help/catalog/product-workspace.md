@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 製品ワークスペース
 
-製品ワークスペースは、すべての製品タイプで基本的に同じですが、フィールドの選択は、使用する属性セットによって変わります。 製品属性はフォームの上部に表示され、その後に商品情報の展開可能なセクションが続きます。 新しい製品を初めて保存すると、フォームの左上に _[!UICONTROL Store View]_選択が表示されます。
+製品ワークスペースは、すべての製品タイプで基本的に同じですが、フィールドの選択は、使用する属性セットによって変わります。 製品属性はフォームの上部に表示され、その後に商品情報の展開可能なセクションが続きます。 新しい製品を初めて保存すると、フォームの左上に _[!UICONTROL Store View]_&#x200B;選択が表示されます。
 
 ![ 製品ワークスペース ](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Save] メニュー
 
-_[!UICONTROL Save]_のメニューには、保存して続行、保存して作成、保存して複製、保存して閉じるなどのいくつかのオプションが含まれています。
+_[!UICONTROL Save]_&#x200B;のメニューには、保存して続行、保存して作成、保存して複製、保存して閉じるなどのいくつかのオプションが含まれています。
 
 ![ 保存メニュー ](./assets/product-save-menu.png){width="600" zoomable="yes"}
 
@@ -48,7 +48,7 @@ _[!UICONTROL Save]_のメニューには、保存して続行、保存して作�
 | [!UICONTROL Save] | 現在の製品を保存して、作業を続行します。 |
 | [!UICONTROL Save & New] | 現在の製品を保存して閉じ、同じ製品タイプとテンプレートに基づいて新しい製品を開始します。 |
 | [!UICONTROL Save & Duplicate] | 現在の製品を保存して閉じ、新しい複製コピーを開きます。 |
-| [!UICONTROL Save & Close] | 現在の製品を保存し、_[!UICONTROL Products]_ワークスペースに戻ります。 |
+| [!UICONTROL Save & Close] | 現在の製品を保存し、_[!UICONTROL Products]_&#x200B;ワークスペースに戻ります。 |
 
 {style="table-layout:auto"}
 
@@ -73,7 +73,7 @@ _[!UICONTROL Save]_のメニューには、保存して続行、保存して作�
 
 ### プレースホルダー値の編集
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 

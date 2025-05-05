@@ -162,7 +162,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |-----------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Limit Number of Products in Grid] | グローバル | グリッドに表示される製品の数を _[!UICONTROL Records Limit]_の値に制限するかどうかを決定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Limit Number of Products in Grid] | グローバル | グリッドに表示される製品の数を _[!UICONTROL Records Limit]_&#x200B;の値に制限するかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Records Limit] | グローバル | 製品グリッド内の製品数の上限を設定します。 デフォルトの最小値は `20000` です。 |
 
 ## [!UICONTROL CAPTCHA]

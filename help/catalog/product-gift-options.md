@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 製品設定 – [!UICONTROL Gift Options]
 
-_[!UICONTROL Gift Options]_のセクションでは、商品レベルのチェックアウト時にギフトメッセージとギフト包装オプションを設定できます。 デフォルトの設定をオーバーライドするには、「**[!UICONTROL Use Config Settings]**」チェックボックスの選択を解除します。
+_[!UICONTROL Gift Options]_&#x200B;のセクションでは、商品レベルのチェックアウト時にギフトメッセージとギフト包装オプションを設定できます。 デフォルトの設定をオーバーライドするには、「**[!UICONTROL Use Config Settings]**」チェックボックスの選択を解除します。
 
 ![ ギフト オプション ](./assets/product-gift-options-ee.png){width="600" zoomable="yes"}
 
@@ -38,7 +38,7 @@ _[!UICONTROL Gift Options]_のセクションでは、商品レベルのチェ�
 
 ストアに対して _ギフトメッセージ_ を有効にすることで、顧客にこの機能を提供できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、その下の「**[!UICONTROL Sales]**」を選択します。
 

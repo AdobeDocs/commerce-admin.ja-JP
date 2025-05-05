@@ -17,9 +17,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->見積の構成オプションおよび見積ネゴシエーション機能の使用機能は、[ ロール・リソース ](../systems/permissions-user-roles.md#role-resources) を使用して制御されます。 これらのロール リソースは、管理者ユーザーアカウントに割り当てられている管理者ユーザーロールに対して選択する必要があります。 管理者で引用機能へのアクセス権を付与するには、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL User Roles]**に移動し、役割を選択して、_ 役割リソース _ツリーの [!UICONTROL Sales]/[!UICONTROL Operations]/[!UICONTROL Quotes] に移動します。
+>見積の構成オプションおよび見積ネゴシエーション機能の使用機能は、[ ロール・リソース ](../systems/permissions-user-roles.md#role-resources) を使用して制御されます。 これらのロール リソースは、管理者ユーザーアカウントに割り当てられている管理者ユーザーロールに対して選択する必要があります。 管理者で引用機能へのアクセス権を付与するには、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL User Roles]**&#x200B;に移動し、役割を選択して、_ 役割リソース _ツリーの [!UICONTROL Sales]/[!UICONTROL Operations]/[!UICONTROL Quotes] に移動します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Quotes]**」を選択します。
 

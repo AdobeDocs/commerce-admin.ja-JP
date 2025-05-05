@@ -41,7 +41,7 @@ Commerce開発者ドキュメントの [ クライアントサイドの LESS コ
 
 ![ 詳細設定 – フロントエンド開発ワークフロー ](../configuration-reference/advanced/assets/developer-frontend-development-workflow.png){width="600" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Developer]**」を選択します。
 
@@ -70,7 +70,7 @@ Commerce開発者ドキュメントの [ 静的コンテンツ署名 ](https://e
 
 **_署名済み静的ファイルを有効にするには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Developer]**」を選択します。
 
@@ -106,7 +106,7 @@ Commerce開発者ドキュメントの [ 静的コンテンツ署名 ](https://e
 
 **_リソースファイルを最適化するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Developer]**」を選択します。
 
@@ -144,7 +144,7 @@ Commerce技術情報については、_Cloud Infrastructure ガイドの [ リ�
 
 **_IP アドレスを許可リストに追加するには_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Developer]**」を選択します。
 
@@ -174,13 +174,13 @@ Commerce開発者向けドキュメントの [ テンプレート、レイアウ
 
 ### 許可リストに加える手順 1：に IP アドレスを追加する
 
-許可リストに加える テンプレートパスヒントを使用する前に、IP アドレスを [](#client-restrictions) に追加して、ストアで買い物をしている顧客への干渉を避けます。 完了したら、必ずCommerceのキャッシュをクリアして、ストアからすべてのヒントを削除します。
+許可リストに加える テンプレートパスヒントを使用する前に、IP アドレスを [&#128279;](#client-restrictions) に追加して、ストアで買い物をしている顧客への干渉を避けます。 完了したら、必ずCommerceのキャッシュをクリアして、ストアからすべてのヒントを削除します。
 
 ![ 詳細設定 – デベロッパークライアントの制限 ](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png){width="600" zoomable="yes"}
 
 ### 手順 2：テンプレートパスヒントを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Developer]**」を選択します。
 
@@ -200,7 +200,7 @@ Commerce開発者向けドキュメントの [ テンプレート、レイアウ
 
 ### 手順 3：キャッシュのクリア
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Flush Magento Cache]**」をクリックします。
 
@@ -224,7 +224,7 @@ Commerce開発者向けドキュメントの [ 翻訳の概要 ](https://develop
 
 ### 手順 1：出力キャッシュを無効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**&#x200B;に移動します。
 
 1. 次のチェックボックスをオンにします。
 
@@ -236,7 +236,7 @@ Commerce開発者向けドキュメントの [ 翻訳の概要 ](https://develop
 
 ### 手順 2：インライン翻訳ツールを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 特定のストア表示を操作するには、更新する **[!UICONTROL Store View]** を設定します。
 
@@ -246,7 +246,7 @@ Commerce開発者向けドキュメントの [ 翻訳の概要 ](https://develop
 
    必要に応じて「**[!UICONTROL Use Website]**」チェックボックスをオフにして、これらの設定を変更します。
 
-   特定のストア表示を編集する場合、_[!UICONTROL Enabled for Admin]_オプションは使用できません。
+   特定のストア表示を編集する場合、_[!UICONTROL Enabled for Admin]_&#x200B;オプションは使用できません。
 
    ![ 詳細設定 – インライン翻訳 ](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 
@@ -280,7 +280,7 @@ Commerce開発者向けドキュメントの [ 翻訳の概要 ](https://develop
 
 1. ストアの管理者に戻ります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 編集した特定のビューに **[!UICONTROL Store View]** を設定します。
 
@@ -292,7 +292,7 @@ Commerce開発者向けドキュメントの [ 翻訳の概要 ](https://develop
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**&#x200B;に移動します。
 
 1. 以前に無効にした次の出力キャッシュのチェックボックスを選択します。
 

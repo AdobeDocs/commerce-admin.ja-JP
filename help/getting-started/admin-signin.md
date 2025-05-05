@@ -110,7 +110,7 @@ ht-degree: 0%
 
    ![ ログアウト ](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Sign In]_ページには、ログアウト済みのメッセージが表示されます。 コンピューターを無人のままにするときは、常に_ Admin _からサインアウトします。
+_[!UICONTROL Sign In]_&#x200B;ページには、ログアウト済みのメッセージが表示されます。 コンピューターを無人のままにするときは、常に_ Admin _からサインアウトします。
 
 ## アカウント情報の編集
 
@@ -132,7 +132,7 @@ _[!UICONTROL Sign In]_ページには、ログアウト済みのメッセージ�
 
 管理者は、注文、顧客、製品、配送、支払いの各機能を管理するためのアクセス権を提供します。 デフォルトの設定では、セキュリティのベストプラクティスとして、管理者ユーザーアカウントに対して複数のログインを許可しないように設定されています。 ただし、この設定を変更して、管理者ユーザーが複数のデバイスからログインして、ビジネスワークフローに対応できるようにすることができます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルで **[!UICONTROL Advanced]** を展開し、「**[!UICONTROL Admin]**」を選択します。
 
@@ -146,7 +146,7 @@ _[!UICONTROL Sign In]_ページには、ログアウト済みのメッセージ�
 
 ## 管理者ユーザーのログイン名で大文字と小文字を区別するように設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルで **[!UICONTROL Advanced]** を展開し、「**[!UICONTROL Admin]**」を選択します。
 

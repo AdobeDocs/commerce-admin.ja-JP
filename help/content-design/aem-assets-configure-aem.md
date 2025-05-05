@@ -116,7 +116,7 @@ AEM Assets オーサー環境で、メタデータプロファイルを作成し
 
 #### メタデータプロファイルのCommerce assets ソースフォルダーへの適用
 
-1. [!UICONTROL  Metadata Profiles] ページで、「Commerce統合」プロファイルを選択します。
+1. [!UICONTROL &#x200B; Metadata Profiles] ページで、「Commerce統合」プロファイルを選択します。
 
 1. アクションメニューから「**[!UICONTROL Apply Metadata Profiles to Folders]**」を選択します。
 

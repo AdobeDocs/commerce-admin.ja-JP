@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 新しい税率を定義
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Zones and Rates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Tax Rate]**」をクリックします。
 
@@ -54,9 +54,9 @@ ht-degree: 0%
 
 ## 既存の税率を編集
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Zones and Rates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
 
-1. _[!UICONTROL Tax Zones and Rates]_グリッドで税率を検索し、編集モードでレコードを開きます。
+1. _[!UICONTROL Tax Zones and Rates]_&#x200B;グリッドで税率を検索し、編集モードでレコードを開きます。
 
    リストに多くの料率がある場合は、[ フィルターコントロール ](../getting-started/admin-grid-controls.md) を使用して、必要な料率を見つけます。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ## 税率を削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Zones and Rates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
 
 1. 削除する税率を検索し、編集モードで開きます。
 

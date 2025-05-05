@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## ダッシュボードの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動し、次のいずれかの設定を行います。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動し、次のいずれかの設定を行います。
 
 1. 設定が完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
@@ -49,7 +49,7 @@ Admin Configuration オプションについては、[Configuration Reference Gu
 
 ダッシュボードは管理者のデフォルトの [ 起動ページ ](../configuration-reference/advanced/admin.md) ですが、別の起動ページを設定することもできます。
 
-1. 管理設定オプションを開いていない場合は、左側のナビゲーションパネルの _[!UICONTROL Advanced]_の下にある&#x200B;**[!UICONTROL Admin]**を選択します。
+1. 管理設定オプションを開いていない場合は、左側のナビゲーションパネルの _[!UICONTROL Advanced]_&#x200B;の下にある&#x200B;**[!UICONTROL Admin]**&#x200B;を選択します。
 
 1. **スタートアップページ** セクションをクリックして展開します。
 

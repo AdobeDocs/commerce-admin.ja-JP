@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## ニュースレターの送信
 
-1. _管理者_ メニューで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Newsletter Template]**に移動します。
+1. _管理者_ メニューで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Newsletter Template]**&#x200B;に移動します。
 
 1. グリッドで、送信する [ ニュースレターテンプレート ](newsletter-template.md) を見つけ、「**[!UICONTROL Action]**」列を `Queue Newsletter` に設定します。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 問題の確認
 
-_管理者_ メニューで、**[!UICONTROL Reports]**/_[!UICONTROL Marketing]_/**[!UICONTROL Newsletter Problem Reports]**に移動します。
+_管理者_ メニューで、**[!UICONTROL Reports]**/_[!UICONTROL Marketing]_/**[!UICONTROL Newsletter Problem Reports]**&#x200B;に移動します。
 
 ## ボタンバー
 

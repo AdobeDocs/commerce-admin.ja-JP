@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 必要な配送情報をすべて入力し、_確認して支払い_ ステップに移動します。
 
-1. _[!UICONTROL Reward points]_セクションで、使用可能なポイントの数とその通貨の値を確認します。
+1. _[!UICONTROL Reward points]_&#x200B;セクションで、使用可能なポイントの数とその通貨の値を確認します。
 
 1. **[!UICONTROL Use reward points]** をクリックします。
 

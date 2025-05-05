@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. 新しい会社管理者の **[!UICONTROL Job Title]** を入力します。
 
-   このアクションを実行すると、フォームがクリアされ、必須 _[!UICONTROL First Name]_および_[!UICONTROL Last Name]_ フィールドがハイライト表示されます。
+   このアクションを実行すると、フォームがクリアされ、必須 _[!UICONTROL First Name]_&#x200B;および&#x200B;_[!UICONTROL Last Name]_ フィールドがハイライト表示されます。
 
 1. 新しい会社管理者の **[!UICONTROL Email]** アドレスを入力します。
 

@@ -147,7 +147,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Package Weight] | Web サイト | UPS で指定されたとおりに、パッケージの最小重量を設定します。 注文された商品の重量が最小梱包重量を下回る場合、この配送オプションは利用できません。 最小重量を確認するには、配送業者にお問い合わせください。 |
 | [!UICONTROL Calculate Handling Fee] | Web サイト | テーブル レート配送の処理料金計算方法を設定します。 オプション：<br>**`Fixed`**– 手数料は固定レートです。<br>**`Percent`** – 手数料は、注文額に対する割合として適用されます。 |
 | [!UICONTROL Handling Applied] | Web サイト | 手数料を注文ごとに適用するか、注文内のパッケージごとに適用するかを指定します。 |
-| [!UICONTROL Handling Fee] | Web サイト | 配送料に含まれる処理を設定します。 手数料は、固定金額またはパーセンテージで設定できます。 <br/><br/>**_注：_**パーセンテージを入力する場合は、25% の小数点形式 `0.25` を使用してください。 |
+| [!UICONTROL Handling Fee] | Web サイト | 配送料に含まれる処理を設定します。 手数料は、固定金額またはパーセンテージで設定できます。 <br/><br/>**_注：_**&#x200B;パーセンテージを入力する場合は、25% の小数点形式 `0.25` を使用してください。 |
 
 {style="table-layout:auto"}
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL UPS allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Web サイト | 顧客に提供される UPS 配送の許可される方法を指定します。 配送料は、選択した配送方法に基づいて計算されます。 |
-| [!UICONTROL Free Method] | Web サイト | UPS を通じた送料無料の方法に使用される方法を識別します。 送料無料を無効にするには、「なし」を選択します。 <br/><br/>**_注意：_**この方法は基本的な [ 送料無料 ](../../stores-purchase/shipping-free.md) に似ていますが、チェックアウト時に UPS 配送オプションとして表示されます。 |
+| [!UICONTROL Free Method] | Web サイト | UPS を通じた送料無料の方法に使用される方法を識別します。 送料無料を無効にするには、「なし」を選択します。 <br/><br/>**_注意：_**&#x200B;この方法は基本的な [ 送料無料 ](../../stores-purchase/shipping-free.md) に似ていますが、チェックアウト時に UPS 配送オプションとして表示されます。 |
 | [!UICONTROL Free Shipping Amount Threshold] | Web サイト | 注文金額が送料無料しきい値を満たした場合に、送料無料を適用するかどうかを決定します。 オプション：`Enable` / `Disable` |
 | [!UICONTROL Free Shipping Amount Threshold] | Web サイト | 注文が送料無料の対象になるために到達する必要のある最小合計金額を設定します。 |
 | [!UICONTROL Displayed Error Message] | ストア表示 | この発送方法が何らかの理由で利用できない場合に表示されるエラーメッセージ。 |
@@ -219,7 +219,7 @@ ht-degree: 0%
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Web サイト | テーブル レート配送の処理料金計算方法を設定します。 オプション：<br/>**`Fixed`**– 手数料は固定レートです。<br/>**`Percent`** – 手数料は、注文額に対する割合として適用されます。 |
 | [!UICONTROL Handling Applied] | Web サイト | 手数料を注文ごとに適用するか、注文内のパッケージごとに適用するかを指定します。 |
-| [!UICONTROL Handling Fee] | Web サイト | 配送料に含まれる処理を設定します。 手数料は、固定金額またはパーセンテージで設定できます。 <br/><br/>**_注意：_**パーセント値を入力する場合は、25% の小数形式 `0.25` を使用します。 |
+| [!UICONTROL Handling Fee] | Web サイト | 配送料に含まれる処理を設定します。 手数料は、固定金額またはパーセンテージで設定できます。 <br/><br/>**_注意：_**&#x200B;パーセント値を入力する場合は、25% の小数形式 `0.25` を使用します。 |
 
 {style="table-layout:auto"}
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL USPS Allowed Methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Web サイト | 顧客に提供される USPS 配送で許可される方法を指定します。 配送料は、選択した配送方法に基づいて計算されます。 |
-| [!UICONTROL Free Method] | Web サイト | USPS 経由での送料無料の方法を設定するか、`None` を選択して無効にできます。 <br/><br/>**_注：_**この配送方法は、お客様のストアの送料無料の方法に似ていますが、USPS 配送オプションとしてリストされ、USPS 配送と識別されています。 |
+| [!UICONTROL Free Method] | Web サイト | USPS 経由での送料無料の方法を設定するか、`None` を選択して無効にできます。 <br/><br/>**_注：_**&#x200B;この配送方法は、お客様のストアの送料無料の方法に似ていますが、USPS 配送オプションとしてリストされ、USPS 配送と識別されています。 |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Web サイト | 送料無料の対象とするために満たす必要がある最小注文金額を設定します。 |
 | [!UICONTROL Displayed Error Message] | ストア表示 | USPS が何らかの理由で利用できない場合に表示されるエラーメッセージ。 |
 
@@ -291,7 +291,7 @@ ht-degree: 0%
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Calculate Handling Fee] | Web サイト | 手数料の計算に使用する方法を決定します。 オプション：`Fixed Fee` / `Percentage` <br/><br/>**_注：_**手数料は任意であり、FedEx の送料に追加される追加料金として表示されます。 |
+| [!UICONTROL Calculate Handling Fee] | Web サイト | 手数料の計算に使用する方法を決定します。 オプション：`Fixed Fee` / `Percentage` <br/><br/>**_注：_**&#x200B;手数料は任意であり、FedEx の送料に追加される追加料金として表示されます。 |
 | [!UICONTROL Handling Applied] | Web サイト | 手数料の適用方法を決定します。 オプション：`Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Web サイト | 金額の計算方法に基づいて、手数料として請求される金額を指定します。 料金が固定料金に基づいている場合は、`4.90` のように小数で金額を入力します。 手数料が注文のパーセンテージに基づいている場合は、パーセンテージで金額を入力します。 例えば、注文の 6% を請求するには、値を `.06` と入力します。 |
 
@@ -306,7 +306,7 @@ ht-degree: 0%
 | [!UICONTROL Residential Delivery] | Web サイト | B2C 販売か B2B 販売かに応じて、次のいずれかに設定します。<br/>**`Yes`**- B2C 配信用<br/>**`No`** - B2B 配信用 |
 | [!UICONTROL Allowed Methods] | Web サイト | リストから、サポートする出荷方法を選択します。 方法は、FedEx アカウント、配送頻度とサイズ、国際配送を許可しているかどうかによって異なります。 商人として、あなたは地上輸送のみを提供することを決定するかもしれません。 |
 | [!UICONTROL Hub ID] | Web サイト | [!DNL Smart Post] メソッドで使用される、FedEx から提供された ID です。 |
-| [!UICONTROL Free Method] | Web サイト | リストから、送料無料のオファーに使用する配送方法を選択します。 <br/><br/>**_注：_**この配送方法は通常の送料無料の方法に似ていますが、FedEx の配送オプション内にリストされ、FedEx の配送として識別されます。 |
+| [!UICONTROL Free Method] | Web サイト | リストから、送料無料のオファーに使用する配送方法を選択します。 <br/><br/>**_注：_**&#x200B;この配送方法は通常の送料無料の方法に似ていますが、FedEx の配送オプション内にリストされ、FedEx の配送として識別されます。 |
 | [!UICONTROL Free Shipping Amount Threshold] | Web サイト | 送料無料に最低注文金額が必要かどうかを決定します。 オプション：<br/>**`Enable`**– 最小金額を満たす注文に対して送料無料を有効にします。<br/>**`Disable`** – 最小注文で FedEx による送料無料を無効にします。 |
 | [!UICONTROL Free Shipping Amount Threshold] | Web サイト | 送料無料に必要な最小注文金額を指定します。 |
 | [!UICONTROL Displayed Error Message] | ストア表示 | FedEx が何らかの理由で利用できない場合に表示されるメッセージです。 デフォルトのメッセージを使用するか、別のメッセージを入力できます。 |

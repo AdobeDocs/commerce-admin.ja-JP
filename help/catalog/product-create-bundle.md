@@ -115,7 +115,7 @@ ht-degree: 0%
 
 1. `Catalog, Search` のデフォルトの **[!UICONTROL Visibility]** 設定を受け入れます。
 
-1. 製品に _[!UICONTROL Categories]_を割り当てるには、**[!UICONTROL Select…]**のボックスをクリックし、次のいずれかの操作を行います。
+1. 製品に _[!UICONTROL Categories]_&#x200B;を割り当てるには、**[!UICONTROL Select…]**&#x200B;のボックスをクリックし、次のいずれかの操作を行います。
 
    **既存のカテゴリを選択：**
 
@@ -180,7 +180,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >量は、プリセット値またはユーザー定義値にすることができます。 ただし、_[!UICONTROL User Defined]_プロパティをチェックボックスや複数選択の入力タイプに割り当てないでください。
+     >量は、プリセット値またはユーザー定義値にすることができます。 ただし、_[!UICONTROL User Defined]_&#x200B;プロパティをチェックボックスや複数選択の入力タイプに割り当てないでください。
 
      デフォルトでは、バンドル品目に含まれるデフォルト数量を顧客が変更することはできません。 ただし、顧客は、バンドルに含める品目の数量を入力できます。
 
@@ -283,10 +283,10 @@ ht-degree: 0%
 
 ![ チェックボックス ](../assets/checkbox.png)SKU と重みは、`Fixed` または `Dynamic` のいずれかです。
 
-![ チェックボックス ](../assets/checkbox.png) 数量は、プリセット値またはユーザー定義値にすることができます。 ただし、_[!UICONTROL User Defined]_プロパティをチェックボックスや複数選択の入力タイプに割り当てないでください。
+![ チェックボックス ](../assets/checkbox.png) 数量は、プリセット値またはユーザー定義値にすることができます。 ただし、_[!UICONTROL User Defined]_&#x200B;プロパティをチェックボックスや複数選択の入力タイプに割り当てないでください。
 
 ![ チェックボックス ](../assets/checkbox.png) バンドル項目は、一緒に出荷することも、個別に出荷することもできます。
 
 ![ チェックボックス ](../assets/checkbox.png) 親バンドル製品は、そのすべての子製品のアップセル製品として常に自動的に表示されます。
 
-![ チェックボックス ](../assets/checkbox.png)[!UICONTROL Special Price] および [!UICONTROL Customer Group Price] （階層価格）は、すべてのバンドル製品タイプの割引率として常に設定されます。
+![ チェックボックス ](../assets/checkbox.png) [!UICONTROL Special Price] および [!UICONTROL Customer Group Price] （階層価格）は、すべてのバンドル製品タイプの割引率として常に設定されます。

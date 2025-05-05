@@ -24,7 +24,7 @@ _名前と住所のオプション_ は、顧客がストアで [ アカウン�
 
 ### 手順 1：設定の範囲を設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Customer Configuration]**」を選択します。
 
@@ -41,7 +41,7 @@ _名前と住所のオプション_ は、顧客がストアで [ アカウン�
 
    >[!INFO]
    >
-   >範囲が `Default Store View` に設定されている場合、_[!UICONTROL Name and Address Options]_セクションは表示されません。
+   >範囲が `Default Store View` に設定されている場合、_[!UICONTROL Name and Address Options]_&#x200B;セクションは表示されません。
 
    ![ 構成スコープ ](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 
@@ -83,7 +83,7 @@ _名前と住所のオプション_ は、顧客がストアで [ アカウン�
 
 ### 手順 1：設定の範囲を設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Customer Configuration]**」を選択します。
 

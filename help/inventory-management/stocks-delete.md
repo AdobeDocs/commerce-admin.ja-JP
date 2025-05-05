@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >[ 在庫 ](stocks-manage.md) を削除すると、販売チャネルの販売可能数量と未処理の注文に影響を与える可能性があります。 販売チャネルを引き続き使用する場合は、販売チャネルを別の既存または新しい在庫に追加します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Inventory]_/**[!UICONTROL Stocks]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Inventory]_/**[!UICONTROL Stocks]**&#x200B;に移動します。
 
 1. 削除する在庫を 1 つ以上選択します。
 

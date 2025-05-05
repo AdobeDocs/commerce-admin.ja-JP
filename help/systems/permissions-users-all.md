@@ -27,13 +27,13 @@ ht-degree: 0%
 
 ## ユーザーの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL All Users]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL All Users]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New User]**」をクリックします。
 
    既存のユーザーを編集するには、グリッド内のユーザー名をクリックします。 必要に応じて、「_[!UICONTROL User Info]_」セクションと「_[!UICONTROL User Role]_」セクションを変更できます。
 
-1. _[!UICONTROL Account Information]_セクションで、次の操作を行います。
+1. _[!UICONTROL Account Information]_&#x200B;セクションで、次の操作を行います。
 
    ![ ユーザーアカウント情報 ](./assets/permissions-user-new.png){width="600" zoomable="yes"}
 
@@ -65,21 +65,21 @@ ht-degree: 0%
 
    ユーザーまたは役割が一時的な場合は、有効期限を定義すると役立ちます。 有効期限が切れると、ユーザーアカウントのステータスが `Inactive` に変わり、必要に応じて更新することができます。
 
-1. _[!UICONTROL Current User Identity Verification]_の下に、ユーザーアカウントのパスワードを入力します。
+1. _[!UICONTROL Current User Identity Verification]_&#x200B;の下に、ユーザーアカウントのパスワードを入力します。
 
 >[!IMPORTANT]
 >
->_[!UICONTROL Account Information]_のセクションが完了したら、ユーザーを保存できます。 新しいユーザーが_[!UICONTROL Users]_ グリッドに表示されますが、役割が割り当てられるまで、ユーザー名はログインできません。
+>_[!UICONTROL Account Information]_&#x200B;のセクションが完了したら、ユーザーを保存できます。 新しいユーザーが&#x200B;_[!UICONTROL Users]_ グリッドに表示されますが、役割が割り当てられるまで、ユーザー名はログインできません。
 
 ## ユーザーの役割の割り当て
 
 1. 左側のパネルで「**[!UICONTROL User Role]**」をクリックします。
 
-   グリッドには、既存のすべてのユーザーの役割が一覧表示されます。 新しいストアの場合、_[!UICONTROL Administrators]_が使用可能な唯一の役割です。
+   グリッドには、既存のすべてのユーザーの役割が一覧表示されます。 新しいストアの場合、_[!UICONTROL Administrators]_&#x200B;が使用可能な唯一の役割です。
 
    ![ 管理者 – 新しいユーザーロールを追加 ](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Assigned]_列で、ユーザーの役割を選択します。
+1. _[!UICONTROL Assigned]_&#x200B;列で、ユーザーの役割を選択します。
 
    [ 既存の役割を表示するか、追加のユーザー役割を定義する ](permissions-user-roles.md) ことができます。 役割を定義したら、ユーザーアカウントを編集して新しい役割を割り当てる必要があります。
 
@@ -105,11 +105,11 @@ ht-degree: 0%
 
 1. プロンプトが表示されたら、パスワードを入力して ID を確認し、再度「**[!UICONTROL Save User]**」をクリックします。
 
-   _[!UICONTROL Users]_グリッドが開き、すべてのユーザーが一覧表示されます。
+   _[!UICONTROL Users]_&#x200B;グリッドが開き、すべてのユーザーが一覧表示されます。
 
 ## 管理者ユーザーの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL All Users]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL All Users]**&#x200B;に移動します。
 
 1. グリッドの上にあるフィルターを使用してユーザーアカウントを見つけ、ユーザー名をクリックします。
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 **_管理者のメールテンプレートを設定するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Setting]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Setting]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Admin]**」を選択します。
 
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 **_管理者アカウントのロックを解除するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL Locked Users]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL Locked Users]**&#x200B;に移動します。
 
 1. グリッドで、ロックされたアカウントのチェックボックスを選択します。
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->新しい [[!DNL Media Gallery]](media-gallery.md) が有効になると、「_[!UICONTROL Media]_」セクションが表示され、[!DNL Media Gallery] にアクセスするための単一のオプションが表示されます。**[!UICONTROL Enable Old Media Gallery]**オプションを `No` に設定するには、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]** に移動し、左パネルの **[!UICONTROL Advanced]**/**[!UICONTROL System]** を選択します。
+>新しい [[!DNL Media Gallery]](media-gallery.md) が有効になると、「_[!UICONTROL Media]_」セクションが表示され、[!DNL Media Gallery] にアクセスするための単一のオプションが表示されます。**[!UICONTROL Enable Old Media Gallery]**&#x200B;オプションを `No` に設定するには、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]** に移動し、左パネルの **[!UICONTROL Advanced]**/**[!UICONTROL System]** を選択します。
 
 ## [!UICONTROL Content] メニューの表示
 
@@ -32,7 +32,7 @@ _管理者_ サイドバーで「**[!UICONTROL Content]**」を選択します�
 
 >[!NOTE]
 >
->このメニューの _[!UICONTROL Banners]_オプションは、2.3.1 で非推奨（廃止予定）となり、現在は削除されています。 その機能はダイナミック ブロックに置き換えられています。
+>このメニューの _[!UICONTROL Banners]_&#x200B;オプションは、2.3.1 で非推奨（廃止予定）となり、現在は削除されています。 その機能はダイナミック ブロックに置き換えられています。
 
 ## [!UICONTROL Design] {#design-features}
 
