@@ -64,7 +64,7 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 Adobe CommerceとMagento Open Sourceを使用すると、セッションの固定攻撃の可能性や、ユーザーセッションの毒物またはハイジャックを試みることに対する防御手段として、セッション変数を検証できます。 セッション検証設定は、各ストア訪問の間にセッション変数を検証する方法、およびセッション ID がストアの URL に含まれるかどうかを決定します。
 
-技術情報については、_設定ガイド_ の [ セッションストレージに Redis を使用する ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) を参照してください。
+技術情報については、_設定ガイド_ の [ セッションストレージに Redis を使用する ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=ja) を参照してください。
 
 ![ 一般設定 – Web セッションの検証 ](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

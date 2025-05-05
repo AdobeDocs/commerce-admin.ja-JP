@@ -35,11 +35,11 @@ _管理者_ サイドバーで、「**[!UICONTROL Marketing]**」をクリック
 
 ### [!UICONTROL Channels]
 
-[Amazon Marketplace との統合 ](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html) により、さらに web ストアに売上を拡大し、売上高を増加しました。 チャネル サブメニューは、AmazonSales Channelが設定されている場合にのみ表示されます。
+[Amazon Marketplace との統合 ](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html?lang=ja) により、さらに web ストアに売上を拡大し、売上高を増加しました。 チャネル サブメニューは、AmazonSales Channelが設定されている場合にのみ表示されます。
 
 >[!TIP]
 >
->Channel Manager は、Adobe CommerceまたはMagento Open Source製品カタログとウォルマートのマーケットプレイスを統合することで、マーチャントが売上を伸ばし、新規顧客にリーチし、営業業務を合理化し、時間を節約するのに役立ちます。 チャネルマネージャーのインストール、オンボーディング、設定および管理について詳しくは、[_チャネルマネージャーガイド_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html) を参照してください。
+>Channel Manager は、Adobe CommerceまたはMagento Open Source製品カタログとウォルマートのマーケットプレイスを統合することで、マーチャントが売上を伸ばし、新規顧客にリーチし、営業業務を合理化し、時間を節約するのに役立ちます。 チャネルマネージャーのインストール、オンボーディング、設定および管理について詳しくは、[_チャネルマネージャーガイド_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html?lang=ja) を参照してください。
 
 ### [!UICONTROL Communications]
 

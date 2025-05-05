@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Adobe CommerceまたはMagento Open Sourceインスタンスは、_実稼働モード_ または _開発者モード_ のいずれかで実行するようにデプロイできます。 開発者向けに特別に設計されたツールと設定は、ストアが _開発者モード_ で動作している場合にのみアクセスできます。
 
-操作モードは、適切な権限を持つユーザーがサーバーのコマンドラインからのみ変更できます。 詳しくは、『 _設定ガイド_ の [ 操作モードの設定 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) を参照してください。
+操作モードは、適切な権限を持つユーザーがサーバーのコマンドラインからのみ変更できます。 詳しくは、『 _設定ガイド_ の [ 操作モードの設定 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=ja) を参照してください。
 
 マーチャントドキュメントのほとんどのトピックは、実稼動モードで実行されているCommerce インスタンスに適用されます。 ただし、次の設定とツールは、インストールが開発者モードで実行されている場合にのみ使用できます。
 
@@ -58,7 +58,7 @@ Commerce開発者ドキュメントの [ クライアントサイドの LESS コ
 
 静的ファイルの URL にデジタル署名を追加すると、ブラウザーはファイルの新しいバージョンが使用可能かどうかを検出できます。 デジタル署名で追跡できる静的ファイルには、JavaScript、CSS、画像、フォントなどがあります。 署名は、ベース URL の直後のパスに追加されます。 ファイルの署名がブラウザーのキャッシュに格納されている署名と異なる場合は、ファイルの新しいバージョンが使用されます。
 
-Commerce開発者ドキュメントの [ 静的コンテンツ署名 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){:target=&quot;_blank&quot;} を参照してください。
+Commerce開発者ドキュメントの [ 静的コンテンツ署名 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=ja){:target=&quot;_blank&quot;} を参照してください。
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Commerce開発者ドキュメントの [ 静的コンテンツ署名 ](https://e
 
 デフォルトでは、Adobe CommerceとMagento Open Sourceはファイルの結合、バンドル、最小化を行わないので、プロジェクト開発者はどのファイル最適化方法を使用するかを決定する必要があります。
 
-詳しくは、[ パフォーマンスのベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html) を参照してください。
+詳しくは、[ パフォーマンスのベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=ja) を参照してください。
 
 >[!NOTE]
 >
@@ -140,7 +140,7 @@ Commerce開発者ドキュメントの [ 静的コンテンツ署名 ](https://e
 >
 >開発者クライアント制限は、[ 開発者モード ](../systems/developer-tools.md#operation-modes) でのみ設定できます。
 
-Commerce技術情報については、_Cloud Infrastructure ガイドの [ リクエストを許可するためのカスタム VCL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html) を参照してください_。
+Commerce技術情報については、_Cloud Infrastructure ガイドの [ リクエストを許可するためのカスタム VCL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=ja) を参照してください_。
 
 **_IP アドレスを許可リストに追加するには_**
 

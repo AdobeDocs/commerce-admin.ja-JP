@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->詳しくは、[!DNL Commerce] 開発者向けドキュメントの [ 複数の web サイトまたはストア ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) を参照してください。
+>詳しくは、[!DNL Commerce] 開発者向けドキュメントの [ 複数の web サイトまたはストア ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=ja) を参照してください。
 
 ## Web サイト
 

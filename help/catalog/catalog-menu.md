@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # [!UICONTROL Catalog] メニュー
 
-[!UICONTROL Catalog] メニューを使用すると、商品作成、カテゴリ、在庫管理ツール、[B2B ストア ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) のカスタム価格用の共有カタログに簡単にアクセスできます。
+[!UICONTROL Catalog] メニューを使用すると、商品作成、カテゴリ、在庫管理ツール、[B2B ストア ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ja) のカスタム価格用の共有カタログに簡単にアクセスできます。
 
 ![ カタログメニュー ](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
@@ -31,6 +31,6 @@ _管理者_ サイドバーで、「**[!UICONTROL Catalog]**」をクリック�
 
 ## [!UICONTROL Shared Catalogs]
 
-Adobe Commerce B2B がインストールされて有効になっているストアの場合は、[ 共有カタログ ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) を使用すると、様々な会社でカスタムの価格を利用できます。
+Adobe Commerce B2B がインストールされて有効になっているストアの場合は、[ 共有カタログ ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=ja) を使用すると、様々な会社でカスタムの価格を利用できます。
 
 ![ 共有カタログ製品 ](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

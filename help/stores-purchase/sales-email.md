@@ -35,7 +35,7 @@ ht-degree: 0%
    - `Disable` - イベントによってトリガーされたときに販売メールを送信します。
    - `Enable` – 事前に決められた一定の間隔で販売メールを送信します。
 
-   Adobe Commerce サポートでは、注文パフォーマンスを向上させるために、非同期送信を有効にすることをお勧めします。 Adobe Commerce サポートナレッジベースの [ 注文処理の設定のベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html) を参照してください。
+   Adobe Commerce サポートでは、注文パフォーマンスを向上させるために、非同期送信を有効にすることをお勧めします。 Adobe Commerce サポートナレッジベースの [ 注文処理の設定のベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=ja) を参照してください。
 
 ## 手順 3. 各販売メールメッセージの詳細を入力します
 

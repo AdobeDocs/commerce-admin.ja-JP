@@ -18,7 +18,7 @@ ht-degree: 0%
 - ブラウザーのプライバシー設定で Cookie が許可されていない場合は、システムが自動的に [Cookie を有効にする ](../content-design/pages.md#enable-cookies) ページにリダイレクトするように設定できます。このページでは、ほとんどのブラウザーで推奨設定を行う方法を説明します。
 - ブラウザーのプライバシー設定によってJavaScriptが許可されていない場合は、すべてのページのヘッダーの上に次のメッセージが表示されるようにシステムを設定できます。
 
-技術情報については、_インストールガイド_ の [ サポートされているブラウザー ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers) を参照してください。
+技術情報については、_インストールガイド_ の [ サポートされているブラウザー ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=ja#supported-browsers) を参照してください。
 
 ## ブラウザー機能の検出の設定
 

@@ -23,14 +23,14 @@ Adobe CommerceとMagento Open Sourceは、スクリプトを定期的に実行�
 
 >[!IMPORTANT]
 >
->Commerce サービスを crontab にインストールして、コアコンポーネントと一部のサードパーティの拡張機能が期待どおりに機能することを確認する必要があります。 crontab へのサービスのインストールについて詳しくは、[_インストールガイドの手順_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html) を参照してください。
+>Commerce サービスを crontab にインストールして、コアコンポーネントと一部のサードパーティの拡張機能が期待どおりに機能することを確認する必要があります。 crontab へのサービスのインストールについて詳しくは、[_インストールガイドの手順_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=ja) を参照してください。
 
 さらに、cron スケジュールに従って実行するように次を設定できます。
 
 - システム グリッドの更新とインデックス再作成の注文
 - 保留中の支払いの有効期間
 
-Cron 操作中に生成される URL が正しくなるように、ストアの [ ベース URL](../stores-purchase/store-urls.md) が正しく設定されていることを確認します。 [ クラウドインフラストラクチャー上のAdobe Commerceについては、_クラウドインフラストラクチャー上のCommerce ガイド ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)cron ジョブの設定_ を参照してください。 オンプレミスの場合は、[ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) の _設定と実行コン_ を参照してください。
+Cron 操作中に生成される URL が正しくなるように、ストアの [ ベース URL](../stores-purchase/store-urls.md) が正しく設定されていることを確認します。 [ クラウドインフラストラクチャー上のAdobe Commerceについては、_クラウドインフラストラクチャー上のCommerce ガイド ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=ja)cron ジョブの設定_ を参照してください。 オンプレミスの場合は、[ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ja) の _設定と実行コン_ を参照してください。
 
 ## Cron の設定
 

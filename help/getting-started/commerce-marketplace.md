@@ -77,7 +77,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe CommerceおよびMagento Open Source 2.4.0 以降では、web セットアップウィザードは削除されるので、コマンドラインを使用してインスタンスを [ インストール ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) または [ アップグレード ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) する必要があります。 この要件には、[ モジュール ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) および [ 拡張機能 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) も含まれます。
+>Adobe CommerceおよびMagento Open Source 2.4.0 以降では、web セットアップウィザードは削除されるので、コマンドラインを使用してインスタンスを [ インストール ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=ja) または [ アップグレード ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=ja) する必要があります。 この要件には、[ モジュール ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ja) および [ 拡張機能 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=ja) も含まれます。
 
 [!DNL Marketplace] の購入のインストールプロセスは、Adobeの _オンプレミス_ インストールと、Commerce クラウドアーキテクチャ [ でホストされるインストールでは異な ][4] ます。
 

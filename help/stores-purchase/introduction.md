@@ -25,7 +25,7 @@ Adobe CommerceとMagento Open Sourceは、注文が送信される前に SKU と
 
 >[!TIP]
 >
->![Adobe Commerce B2B](../assets/b2b.svg) Adobe Commerce B2B のインストールとイネーブルメントを使用すると、会社アカウントに関連付けられているお客様に対して _クイックオーダー_ を設定できます。 この機能により、注文する商品の名前や SKU がわかっている場合の注文プロセスが数回のクリックに短縮されます。 また、会社アカウントの譲渡可能見積もりのサポートを設定することもできます。 B2B 機能について詳しくは、[Adobe Commerce B2B ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) を参照してください。
+>![Adobe Commerce B2B](../assets/b2b.svg) Adobe Commerce B2B のインストールとイネーブルメントを使用すると、会社アカウントに関連付けられているお客様に対して _クイックオーダー_ を設定できます。 この機能により、注文する商品の名前や SKU がわかっている場合の注文プロセスが数回のクリックに短縮されます。 また、会社アカウントの譲渡可能見積もりのサポートを設定することもできます。 B2B 機能について詳しくは、[Adobe Commerce B2B ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ja) を参照してください。
 
 ## 買い物かご支援
 

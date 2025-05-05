@@ -38,6 +38,6 @@ ht-degree: 0%
 
 画像とビデオの問題のトラブルシューティングについて詳しくは、Commerce サポートナレッジベースの次の記事を参照してください。
 
-- [ インストール後、画像とスタイルシートは読み込まれません。テキストのみが表示され、グラフィックは表示されません ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html)
-- [ 製品編集画像の役割にもかかわらず、製品画像が表示されない ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
-- [ デプロイメント後に画像を保存が表示されない ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)
+- [ インストール後、画像とスタイルシートは読み込まれません。テキストのみが表示され、グラフィックは表示されません ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html?lang=ja)
+- [ 製品編集画像の役割にもかかわらず、製品画像が表示されない ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html?lang=ja)
+- [ デプロイメント後に画像を保存が表示されない ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=ja)

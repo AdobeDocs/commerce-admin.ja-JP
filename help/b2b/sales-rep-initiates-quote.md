@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->購入者の見積もりを作成する販売者のビデオデモについては、_CommerceのビデオとTutorials[ の ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html) 営業担当者が見積もりを開始_ を参照してください。
+>購入者の見積もりを作成する販売者のビデオデモについては、_CommerceのビデオとTutorials[ の ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=ja) 営業担当者が見積もりを開始_ を参照してください。
 
 ### 見積もりグリッドからの見積もりの作成
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >行項目の値引きの仕組みを示すビデオのデモについては、_CommerceのビデオとTutorials[ の「営業担当が見積依頼行項目に値引きを適用する ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) を参照してください_。
+   >行項目の値引きの仕組みを示すビデオのデモについては、_CommerceのビデオとTutorials[ の「営業担当が見積依頼行項目に値引きを適用する ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=ja) を参照してください_。
 
 1. 必要に応じて、見積レベルの値引きを適用します。
 

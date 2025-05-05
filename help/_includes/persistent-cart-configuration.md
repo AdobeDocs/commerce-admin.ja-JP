@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ![ 一般オプション ](/help/configuration-reference/customers/assets/persistent-shopping-cart-general.png)<!-- zoom -->
 
-<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-persistent#configure-a-persistent-cart) -->
+<!-- [General Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-persistent#configure-a-persistent-cart) -->
 
 | フィールド | [ 範囲 ](/help/getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |------------------------------------------------------------------------|--- |

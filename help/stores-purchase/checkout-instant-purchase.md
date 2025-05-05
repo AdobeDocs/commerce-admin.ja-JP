@@ -57,7 +57,7 @@ Braintreeで即時購入を使用するか、Adobe CommerceとMagento Open Sourc
 支払方法を設定し、Braintreeまたは支払いサービスの保管を有効にする方法を説明します。
 
 - [Braintree](braintree.md)
-- [ 支払いサービスのドキュメント ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
+- [ 支払いサービスのドキュメント ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=ja)
 
 ### 手順 3：即時購入を有効にする
 

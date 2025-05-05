@@ -32,7 +32,7 @@ Edge Delivery Services **を活用した** Commerce ストアフロントの登�
 
 Edge Delivery Servicesを活用したCommerce ストアフロントには、マーチャントと開発者の両方に利益をもたらす主な機能がいくつか用意されています。 これらの機能により、企業は、ニーズに応じてストアフロントをカスタマイズおよび拡張する柔軟性を維持しながら、魅力的なショッピング体験を作成できます。
 
-Commerce ストアフロントの設定と最適化について詳しくは、[Adobe Commerce ストアフロントのドキュメント ](https://experienceleague.adobe.com/en/docs/commerce) を参照してください。
+Commerce ストアフロントの設定と最適化について詳しくは、[Adobe Commerce ストアフロントのドキュメント ](https://experienceleague.adobe.com/ja/docs/commerce) を参照してください。
 
 >[!BEGINTABS]
 
@@ -81,7 +81,7 @@ Edge Delivery Servicesを活用したCommerce ストアフロントは、直観�
 
 ### [!DNL Live Search]
 
-[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) for Adobe Commerceを使用すると、ストアは迅速で非常に関連性が高く直感的な検索エクスペリエンスを提供し、Adobe Commerceでも追加料金なしで利用できます。
+[[!DNL Live Search]](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview) for Adobe Commerceを使用すると、ストアは迅速で非常に関連性が高く直感的な検索エクスペリエンスを提供し、Adobe Commerceでも追加料金なしで利用できます。
 
 ![Live Search の例 – 入力中に検索する ](./assets/storefront-search-as-you-type.png){width="700"}
 

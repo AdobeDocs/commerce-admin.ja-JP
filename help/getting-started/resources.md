@@ -29,9 +29,9 @@ Adobeは、ビジネスおよび技術リソース、セルフヘルプツール
 
 {style="table-layout:auto"}
 
-[1]: https://experienceleague.adobe.com/docs/commerce.html
+[1]: https://experienceleague.adobe.com/docs/commerce.html?lang=ja
 [3]: https://business.adobe.com/resources/main.html?Products+%26+Services=Commerce%252CCommerce%2520Cloud
-[4]: https://helpx.adobe.com/security.html
+[4]: https://helpx.adobe.com/jp/security.html
 [5]: https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf
 [6]: https://community.magento.com/
 [7]: https://business.adobe.com/blog/

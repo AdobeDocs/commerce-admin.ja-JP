@@ -19,7 +19,7 @@ Commerce Admin Unified Experience Extension （`magento/module-unified-experienc
 
 >[!NOTE]
 >
->Adobe Commerceに関連する Admin Unified Experience 拡張機能のリリースステータスについて詳しくは、[ 製品の可用性 ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) を参照してください。
+>Adobe Commerceに関連する Admin Unified Experience 拡張機能のリリースステータスについて詳しくは、[ 製品の可用性 ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=ja) を参照してください。
 
 ## 1.0 リリース
 

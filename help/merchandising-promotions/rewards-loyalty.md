@@ -187,4 +187,4 @@ Adobe Commerceの _報酬ポイント_ システムを使用すると、顧客�
 
 報酬ポイントに関する問題のトラブルシューティングについて詳しくは、Commerce サポートナレッジベースの次の記事を参照してください。
 
-- [404 エラー – 複数配送チェックアウトでの報酬ポイントの削除 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)
+- [404 エラー – 複数配送チェックアウトでの報酬ポイントの削除 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html?lang=ja)

@@ -36,4 +36,4 @@ ht-degree: 0%
 
 ## Adobe Senseiによる製品レコメンデーション
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [Adobe Senseiを活用した Product Recommendations](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html) は、人工知能と機械学習アルゴリズムを使用して集計された訪問者データの詳細な分析を実行することで、商品関係を定義するプロセスを簡素化します。 このデータをAdobe Commerce カタログと組み合わせると、買い物客にとって非常に魅力的で関連性が高く、パーソナライズされたエクスペリエンスが得られます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [Adobe Senseiを活用した Product Recommendations](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=ja) は、人工知能と機械学習アルゴリズムを使用して集計された訪問者データの詳細な分析を実行することで、商品関係を定義するプロセスを簡素化します。 このデータをAdobe Commerce カタログと組み合わせると、買い物客にとって非常に魅力的で関連性が高く、パーソナライズされたエクスペリエンスが得られます。

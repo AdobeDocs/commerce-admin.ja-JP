@@ -42,4 +42,4 @@ ht-degree: 0%
 
 ## サンプルデータ
 
-Adobeは、250 個を超える商品（そのうち約 200 個は設定可能な商品）、カテゴリ、プロモーションの価格ルール、CMS ページ、バナーなどを含むサンプルストアを含むサンプルデータセットを提供しています。 サンプルデータでは、ストアフロントの _Luma_ テーマを使用しています。 [ このサンプルデータのインストール ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html) はオプションですが、e コマースビジネスのカスタマイズのテストと開発に役立ちます。
+Adobeは、250 個を超える商品（そのうち約 200 個は設定可能な商品）、カテゴリ、プロモーションの価格ルール、CMS ページ、バナーなどを含むサンプルストアを含むサンプルデータセットを提供しています。 サンプルデータでは、ストアフロントの _Luma_ テーマを使用しています。 [ このサンプルデータのインストール ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=ja) はオプションですが、e コマースビジネスのカスタマイズのテストと開発に役立ちます。

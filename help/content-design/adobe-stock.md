@@ -96,6 +96,6 @@ Adobe Stock統合をAdobe Commerce用に設定するには、次の 2 つの手�
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/jp/manage-account/using/access-adobe-id-account.html
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration

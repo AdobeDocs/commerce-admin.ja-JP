@@ -22,11 +22,11 @@ ht-degree: 0%
 >
 >[!DNL Adobe Identity Management Services] （IMS）認証を有効にしているストアでは、ネイティブのAdobe CommerceとMagento Open Source 2FA が無効になっています。 Adobe資格情報を使用してCommerce インスタンスにログインしている管理者ユーザーは、多くの管理タスクで再認証する必要はありません。 Adobe IMSは、管理者ユーザーが現在のセッションにログインする際に認証を処理します。 [[!DNL Adobe Identity Management Service]  （IMS）統合の概要を参照してください ](../getting-started/adobe-ims-integration-overview.md)。
 
-潜在的な脆弱性に関する最新の情報を入手するには、[ セキュリティ センター ](https://helpx.adobe.com/security.html){:target=&quot;_blank&quot;} にアクセスしてください。また、Adobe セキュリティ通知の登録や、Adobeのセキュリティ センターへのアクセスも可能です。
+潜在的な脆弱性に関する最新の情報を入手するには、[ セキュリティ センター ](https://helpx.adobe.com/jp/security.html){:target=&quot;_blank&quot;} にアクセスしてください。また、Adobe セキュリティ通知の登録や、Adobeのセキュリティ センターへのアクセスも可能です。
 
 ![ セキュリティセンター ](./assets/product-security-home.png){width="700" zoomable="yes"}
 
-セキュリティのベストプラクティスについては、_実装プレイブック_ の [Commerce サイトとインフラストラクチャのセキュリティ保護 ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) を参照してください。
+セキュリティのベストプラクティスについては、_実装プレイブック_ の [Commerce サイトとインフラストラクチャのセキュリティ保護 ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=ja) を参照してください。
 
 ## セキュリティ アクション プラン
 

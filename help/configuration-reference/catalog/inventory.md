@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe CommerceおよびMagento Open Source用の [!DNL Inventory Management] は、商品インベントリを管理するツールを提供します。 複数の倉庫、店舗、集荷場所、直荷主などに 1 つの店舗を持つマーチャントは、これらの機能を使用して販売の数量を管理し、注文を完了するための出荷を処理できます。 これらの機能の詳細と、それらの機能を使用して複数の場所で在庫を管理する方法については、『 [_[!DNL Inventory Management] ユーザーガイド _](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html) 』を参照してください。
+>Adobe CommerceおよびMagento Open Source用の [!DNL Inventory Management] は、商品インベントリを管理するツールを提供します。 複数の倉庫、店舗、集荷場所、直荷主などに 1 つの店舗を持つマーチャントは、これらの機能を使用して販売の数量を管理し、注文を完了するための出荷を処理できます。 これらの機能の詳細と、それらの機能を使用して複数の場所で在庫を管理する方法については、『 [_[!DNL Inventory Management] ユーザーガイド _](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=ja) 』を参照してください。
 
 ## [!UICONTROL Stock Options]
 
 ![ ストック・オプション ](./assets/catalog-inventory-stock-options.png)<!-- zoom -->
 
-<!-- [Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Stock Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 ![ 商品ストックオプション ](./assets/catalog-inventory-product-stock-options.png)<!-- zoom -->
 
-<!-- [Product Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Product Stock Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/inventory/configuration/global-options) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Manage Stock] | グローバル | 完全な在庫管理を使用してカタログ内の品目を管理するかどうかを決定します。 オプション：<br/>**はい** – 完全な在庫管理をアクティブ化して、現在在庫にある項目数を追跡します。 <br/>**いいえ** – 現在在庫のある項目数は追跡しません。 |
 | [!UICONTROL Backorders] | グローバル | 店舗でのバックオーダーの管理方法を決定します。 バックオーダーによってオーダーの処理ステータスが変更されることはありません。 ファンドは、商品が在庫しているかどうかに関係なく、注文が行われるとすぐに承認または取得されます。 製品が利用可能になると、出荷されます。 オプション：<br/>**バックオーダーなし** – 商品が在庫切れの場合にバックオーダーを受け付けません。 <br/>**0 未満の数量を許可** – 数量が 0 を下回った場合にバックオーダーを受け入れます。 <br/>**0 未満の数量を許可し、顧客に通知**：数量がゼロを下回った場合はバックオーダーを受け入れますが、発注が可能であることを顧客に通知します。 |
-| [!UICONTROL Use deferred Stock update] | グローバル | ![Adobe Commerce](../../assets/adobe-logo.svg) （Adobe Commerceのみ）バックオーダーが許可されている場合に、在庫更新を延期するかどうかを指定します（「_バックオーダー_」オプションが `No backorders` のデフォルト値以外に設定されている場合）。 単一の製品または web サイト全体で機能し、_ジョブキュー_ メカニズムを使用して、注文が行われた後に在庫数量インジケーターを非同期で更新できます。 このオプションは、[&#128279;](../../inventory-management/introduction.md)Inventory management[ と組み合わせて ](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html#asynchronous-order-placement) 非同期注文プレースメント  でも機能します。 |
+| [!UICONTROL Use deferred Stock update] | グローバル | ![Adobe Commerce](../../assets/adobe-logo.svg) （Adobe Commerceのみ）バックオーダーが許可されている場合に、在庫更新を延期するかどうかを指定します（「_バックオーダー_」オプションが `No backorders` のデフォルト値以外に設定されている場合）。 単一の製品または web サイト全体で機能し、_ジョブキュー_ メカニズムを使用して、注文が行われた後に在庫数量インジケーターを非同期で更新できます。 このオプションは、[&#128279;](../../inventory-management/introduction.md)Inventory management[ と組み合わせて ](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html?lang=ja#asynchronous-order-placement) 非同期注文プレースメント  でも機能します。 |
 | 買い物かごで許可される最大数量 | グローバル | 1 回の注文で購入できる商品の最大数を決定します。 デフォルトでは、最大数量は 10,000 に設定されています。 |
 | [!UICONTROL Out-of-Stock Threshold] | グローバル | 商品が在庫切れとみなされる在庫レベルを決定します。 オプション：<br/>**プラス金額** - _バックオーダー_ が無効の場合は、プラス金額を入力します。 「バックオーダー」が有効化されている場合、この金額は無視されます。 <br/>**ゼロ** - _バックオーダー_ が使用可能な場合、`0` を入力すると無制限のバックオーダーが可能になります。 <br/>**マイナス金額** - _バックオーダー_ が有効な場合は、マイナス金額の入力をお勧めします。 金額は販売可能数量に追加されます。 例えば、-50 と入力すると、この金額までの注文が許可されます。 |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | グローバル | 顧客グループに応じて、購入できる商品の最小金額を決定します。 デフォルトでは、最小数量は 1 に設定されています。 「**[!UICONTROL Add Minimum Qty]**」をクリックして、特定の顧客グループに別の値を入力します。 |
@@ -61,11 +61,11 @@ ht-degree: 0%
 
 ![ 管理の一括操作 ](./assets/catalog-inventory-admin-bulk-operations.png)<!-- zoom -->
 
-<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+<!-- [Admin Bulk Operations](https://experienceleague.adobe.com/ja/docs/commerce-admin/inventory/configuration/global-options) -->
 
 >[!NOTE]
 >
->**非同期キューマネージャー** を設定およびサポートするには、コマンドラインを使用する必要があります。 これには、開発者の支援が必要になる場合があります。 _設定ガイド_ の [ メッセージキューコンシューマーの開始 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) を参照してください。
+>**非同期キューマネージャー** を設定およびサポートするには、コマンドラインを使用する必要があります。 これには、開発者の支援が必要になる場合があります。 _設定ガイド_ の [ メッセージキューコンシューマーの開始 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=ja) を参照してください。
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 ![ 距離ベース SSA の距離プロバイダ ](./assets/catalog-inventory-distance-provider.png)<!-- zoom -->
 
-<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Distance Providers for Distance Based SSA](https://experienceleague.adobe.com/ja/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 ![Google ディスタンス プロバイダー ](./assets/catalog-inventory-distance-provider-settings.png)<!-- zoom -->
 
-<!-- [Google Distance Provider](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
+<!-- [Google Distance Provider](https://experienceleague.adobe.com/ja/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

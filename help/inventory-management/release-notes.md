@@ -20,11 +20,11 @@ ht-degree: 0%
 
 [!DNL Inventory Management] は、コントリビューター向けのMagento Open Sourceコミュニティエンジニアリング特別プロジェクトです。 参加して投稿するには、[GitHub プロジェクト ](https://github.com/magento/inventory) リポジトリ、および [wiki](https://github.com/magento/inventory/wiki) を参照して開始してください。 プロジェクトについて話し合うには、[Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) チャンネル（[ セルフ サインアップ ](https://opensource.magento.com/slack)）に参加します。
 
-サポートされるリリースおよび互換性のあるリリースの [ リリーススケジュール ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"}。
+サポートされるリリースおよび互換性のあるリリースの [ リリーススケジュール ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=ja){target="_blank"}。
 
 ## v1.2.7
 
-[!DNL Inventory Management] 1.2.7 リリースノートは、[core 2.4.7 リリースノート ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1) に含まれています。
+[!DNL Inventory Management] 1.2.7 リリースノートは、[core 2.4.7 リリースノート ](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1) に含まれています。
 
 ## v1.2.6
 
@@ -276,7 +276,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.0 （モジュールバージョン：`inventory-composer-metapackage = 1.1.0`）は、Adobe Commerce、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Sourceコードベースのバージョン 2.3.0 でサポートされ、互換性があります。 [!DNL Inventory Management] 1.1.1 は、パッケージ名のアップデートとしてのみリリースされ、バージョン 2.3.1 でサポートされ、Adobe Commerceのバージョン 2.3.0、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Sourceコードベースと互換性があります。
 
-![ 問題を修正 ](../assets/fix.svg)**シングルソースモードとマルチソースモードのElasticsearchがサポートされるようになりました** — カスタムストックでElasticsearchを設定および使用できるようになりました。 インストールについては、[Elasticsearchサービスの設定 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"} を参照してください。<!-- PR https://github.com/magento/inventory/pull/1943 -->
+![ 問題を修正 ](../assets/fix.svg)**シングルソースモードとマルチソースモードのElasticsearchがサポートされるようになりました** — カスタムストックでElasticsearchを設定および使用できるようになりました。 インストールについては、[Elasticsearchサービスの設定 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=ja){target="_blank"} を参照してください。<!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![ 修正された問題 ](../assets/fix.svg) デフォルトの Stock に関するパフォーマンスの問題を解決し、多数の操作でパフォーマンスを大幅に向上させました。 改善により、シングルソースモード、Sourceへの在庫転送、ストアフロントカテゴリページ、販売可能数量の計算のパフォーマンスが向上しました。
 

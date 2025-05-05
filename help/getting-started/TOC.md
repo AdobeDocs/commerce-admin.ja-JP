@@ -76,5 +76,5 @@ ht-degree: 1%
    + [生態系](resources.md)
    + [拡張機能](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
 

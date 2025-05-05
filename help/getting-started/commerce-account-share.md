@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 開始する前に、**新しい共有アクセス権限** の [!DNL Commerce] アカウントから次の情報を取得します。
 
-   - ユーザーは、account.adobe.comで既にアカウントに登録されており、account.magento.comでログインしている必要があります。 詳しくは [Commerce アカウントの作成 ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) を参照してください。
+   - ユーザーは、account.adobe.comで既にアカウントに登録されており、account.magento.comでログインしている必要があります。 詳しくは [Commerce アカウントの作成 ](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) を参照してください。
    - この `MAGE ID/Account ID (MAG00XXXXXXX)` は、「ログアウ _[!UICONTROL Magento]_&#x200B;**リンクのすぐ上の「**&#x200B;ログアウト」タブの左上隅に表示されます。
    - アカウントに関連付けられている `Email` アドレス。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->_[!UICONTROL Security Tool]_&#x200B;へのアクセスを共有する必要はありません。MAGE ID を持つユーザーは誰でも、自分のアカウントでセキュリティスキャンツールを設定できます。 サイトに変更を加えたり、いずれかの [ 必須メソッド）を使用してドメインの所有権を検証したりするために必要な権限 ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) 必要なだけです。
+>_[!UICONTROL Security Tool]_&#x200B;へのアクセスを共有する必要はありません。MAGE ID を持つユーザーは誰でも、自分のアカウントでセキュリティスキャンツールを設定できます。 サイトに変更を加えたり、いずれかの [ 必須メソッド）を使用してドメインの所有権を検証したりするために必要な権限 ](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/security/security-scan) 必要なだけです。
 
 ## 共有アカウントへのアクセス
 
@@ -91,11 +91,11 @@ ht-degree: 0%
 
    ![ サポート ](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   共有アカウントから [Adobe Commerce ヘルプセンター ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) を使用して、記事とトラブルシューティング情報の検索、既知の問題のパッチの検索、サポートチケットの作成を行うことができます。
+   共有アカウントから [Adobe Commerce ヘルプセンター ](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/overview) を使用して、記事とトラブルシューティング情報の検索、既知の問題のパッチの検索、サポートチケットの作成を行うことができます。
 
    >[!NOTE]
    >
-   >共有アクセスを受け取った後、ユーザーは [[!DNL Commerce]  アカウント ](https://account.magento.com/customer/account/login) にログインし、「_共有アクセス_」に移動して「**[!UICONTROL Support]**」タブをクリックする必要があります。 この操作が初めて必要になるのは、[Adobe Commerce サポートナレッジベース ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) が `SSO` 呼び出しを通じて正しく設定されていることを確認する場合のみです。
+   >共有アクセスを受け取った後、ユーザーは [[!DNL Commerce]  アカウント ](https://account.magento.com/customer/account/login) にログインし、「_共有アクセス_」に移動して「**[!UICONTROL Support]**」タブをクリックする必要があります。 この操作が初めて必要になるのは、[Adobe Commerce サポートナレッジベース ](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/overview) が `SSO` 呼び出しを通じて正しく設定されていることを確認する場合のみです。
 
 1. 自分のアカウントに戻るには、ブラウザーコントロールで **戻る** をクリックし、**[!UICONTROL Switch Accounts]** を `My Account` に設定します。
 
@@ -109,15 +109,15 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > **[!UICONTROL Delete]** が表示されない場合は、**[!UICONTROL Share Name]** が `Cloud Shared Access from MAG XYZ` で始まるかどうかを確認します。 この [ 命名パターン ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users) のアカウントは削除できません。
+   > **[!UICONTROL Delete]** が表示されない場合は、**[!UICONTROL Share Name]** が `Cloud Shared Access from MAG XYZ` で始まるかどうかを確認します。 この [ 命名パターン ](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users) のアカウントは削除できません。
    > 
    > その場合は、アカウント所有者に共有アクセス アカウントを変更して、アカウントの権限をクリアするように依頼します。 その更新後は、ユーザーはアカウントリソースにアクセスできません。
    >
-   > さらに、メール通知を受信しないように、ユーザーがプロジェクトから削除されていることを確認してください。[ 以前のチームメンバーには、Adobe Commerce Cloud Notification のメールが届きます ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
+   > さらに、メール通知を受信しないように、ユーザーがプロジェクトから削除されていることを確認してください。[ 以前のチームメンバーには、Adobe Commerce Cloud Notification のメールが届きます ](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL Delete User]**」をクリックします。
 
 >[!NOTE]
 >
->このインターフェイスでは、共有名が _Cloud Shared Access のユーザーを MAG[XYZ]_ から削除することはできません。 [ クラウドプロジェクトを介した共有アクセス権を付与されたユーザーを削除する方法 ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting) を参照してください。
+>このインターフェイスでは、共有名が _Cloud Shared Access のユーザーを MAG[XYZ]_ から削除することはできません。 [ クラウドプロジェクトを介した共有アクセス権を付与されたユーザーを削除する方法 ](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting) を参照してください。

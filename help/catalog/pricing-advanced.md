@@ -20,7 +20,7 @@ _[!UICONTROL Advanced Pricing]_&#x200B;の設定では、特定の顧客グル�
 
 詳細な価格データは、製品ページと同期されます。 例えば、階層価格数量を更新すると、製品ページの値が更新されます。
 
-![Adobe Commerce B2B](../assets/b2b.svg) （[Adobe Commerce B2B](./b2b/../introduction.md) でのみ使用可能）共有カタログを使用している場合、高度な価格データが商品ページと共有カタログの両方と同期されます。 例えば、階層価格数量を更新すると、共有カタログおよび製品ページの値が更新されます。 共有カタログに示されているカスタム価格は、顧客グループの価格よりも優先されます。 [2&rbrace;Adobe Commerce B2B ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) の「カタログの共有価格と構造を設定する _も参照してください。_
+![Adobe Commerce B2B](../assets/b2b.svg) （[Adobe Commerce B2B](./b2b/../introduction.md) でのみ使用可能）共有カタログを使用している場合、高度な価格データが商品ページと共有カタログの両方と同期されます。 例えば、階層価格数量を更新すると、共有カタログおよび製品ページの値が更新されます。 共有カタログに示されているカスタム価格は、顧客グループの価格よりも優先されます。 [2&rbrace;Adobe Commerce B2B ガイド ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html?lang=ja) の「カタログの共有価格と構造を設定する _も参照してください。_
 
 ![Advanced Pricing](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 

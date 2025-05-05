@@ -40,7 +40,7 @@ Adobe CommerceまたはMagento Open Source 2.4 では、マーチャントは新
 
 >[!NOTE]
 >
->新しい [!DNL Media Gallery] の完全な機能を使用するには、初期同期のために `media.gallery.synchronization` および `media.content.synchronization` キューコンシューマーを開始する必要があります。 詳しくは [ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) の _メッセージキューの管理_ を参照してください。
+>新しい [!DNL Media Gallery] の完全な機能を使用するには、初期同期のために `media.gallery.synchronization` および `media.content.synchronization` キューコンシューマーを開始する必要があります。 詳しくは [ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ja) の _メッセージキューの管理_ を参照してください。
 
 ## 新しい [!DNL Media Gallery] へのアクセス
 

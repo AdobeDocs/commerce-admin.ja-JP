@@ -124,7 +124,7 @@ ht-degree: 0%
 
 Adobe Commerceでは、次の 2 つの異なるシノニム管理ソリューションをサポートしています。
 
-- Live Search[ 同義語 ](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html) 機能は、Live Search がインストールされているAdobe Commerceのインストールで使用できます。
+- Live Search[ 同義語 ](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html?lang=ja) 機能は、Live Search がインストールされているAdobe Commerceのインストールで使用できます。
 - 標準のシノニム検索機能（このページで説明）は、すべてのAdobe Commerce インストールでそのまま使用できます。
 
 >[!NOTE]

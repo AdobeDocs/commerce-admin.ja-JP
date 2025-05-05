@@ -31,6 +31,6 @@ Media Gallery の画像最適化機能が有効になっている場合、画像
 
 設定で _最大幅_ と _最大高さ_ の値を変更すると、以前に挿入された既存の最適化画像がすべて更新されます。
 
-Media Gallery の画像の最適化を使用するには、構成が変更されたときに最適化された画像を再生成するために、`media.gallery.renditions.update` キューコンシューマーが実行されている必要があります。 詳しくは [ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) の _メッセージキューの管理_ を参照してください。
+Media Gallery の画像の最適化を使用するには、構成が変更されたときに最適化された画像を再生成するために、`media.gallery.renditions.update` キューコンシューマーが実行されている必要があります。 詳しくは [ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ja) の _メッセージキューの管理_ を参照してください。
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}

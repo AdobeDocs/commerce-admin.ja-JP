@@ -26,4 +26,4 @@ CSV ファイルには、`downloadable_links` と `downloadable_samples` に別�
 
   ![ サンプルデータ – ダウンロード可能なサンプルを含むダウンロード可能な製品 ](./assets/data-import-downloadable-samples.png){width="400" zoomable="yes"}
 
-リモート記憶域モジュールの有効化と管理の詳細については、[ 構成ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html) の _リモート記憶域の構成_ を参照してください。
+リモート記憶域モジュールの有効化と管理の詳細については、[ 構成ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=ja) の _リモート記憶域の構成_ を参照してください。

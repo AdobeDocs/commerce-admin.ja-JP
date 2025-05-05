@@ -58,5 +58,5 @@ ht-degree: 5%
    - [概要](shipments.md)
    - [出荷の作成](shipments-create.md)
 - [CLI リファレンス](cli.md)
-- [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
 

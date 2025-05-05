@@ -118,13 +118,13 @@ WYSIWYG エディターを使用してAdobe Stock アセットを検索し、ス
 
 ## Adobeアカウントにログインします
 
-画像への完全なアクセス権を取得し、Adobe Stockの透かしを削除するには、[Adobeアカウントでログイン ](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) し、画像を使用するライセンス権限のクレジットを購入する必要があります。
+画像への完全なアクセス権を取得し、Adobe Stockの透かしを削除するには、[Adobeアカウントでログイン ](https://helpx.adobe.com/jp/manage-account/using/access-adobe-id-account.html) し、画像を使用するライセンス権限のクレジットを購入する必要があります。
 
 1. [Adobe Stock検索グリッドへのアクセス ](#access-the-adobe-stock-search-grid)。
 
 1. 右上の「**[!UICONTROL Sign In]**」をクリックします。
 
-   新しいブラウザーウィンドウに表示される手順に従って、[Adobeのサインイン ](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) を実行できます。
+   新しいブラウザーウィンドウに表示される手順に従って、[Adobeのサインイン ](https://helpx.adobe.com/jp/manage-account/using/access-adobe-id-account.html) を実行できます。
 
    ログインプロセスが完了すると、検索結果に、ライセンス済みの画像の状態がラベルとして表示されます。
 
@@ -178,7 +178,7 @@ Adobe Stock統合を使用して検索された画像を [!DNL Commerce] [ メ�
 
      >[!NOTE]
      >
-     >画像のライセンスを取得するには、アカウントで利用可能な [&#128279;](https://helpx.adobe.com/stock/help/credit-packs.html)0&rbrace;Adobe Stock クレジット &rbrace; が必要です。
+     >画像のライセンスを取得するには、アカウントで利用可能な [&#128279;](https://helpx.adobe.com/jp/stock/help/credit-packs.html)0&rbrace;Adobe Stock クレジット &rbrace; が必要です。
 
    この操作を実行すると、イメージを [ メディア ストレージ ](media-storage.md) に保存するために使用するファイル名を指定するよう求めるメッセージが表示されます。 デフォルトのファイル名が提供されますが、この名前は好みに合わせてカスタマイズできます。
 

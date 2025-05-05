@@ -16,7 +16,7 @@ Data Management Dashboard には、Commerce データベースからCommerce Saa
 
 ## オーディエンス
 
-Data Management Dashboard は、アクティブなライセンスを持つ [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)、[[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)、[[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) を使用するすべてのCommerce マーチャントが追加費用なしで利用できます。
+Data Management Dashboard は、アクティブなライセンスを持つ [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/guide-overview)、[[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/ja/docs/commerce/live-search/guide-overview)、[[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/ja/docs/commerce/catalog-service/guide-overview) を使用するすべてのCommerce マーチャントが追加費用なしで利用できます。
 
 データ管理ダッシュボードは、*システム*/データ転送/*データ管理ダッシュボード* にあります。
 
@@ -27,8 +27,8 @@ Data Management Dashboard は、アクティブなライセンスを持つ [[!DN
 | フィールド | 説明 |
 |--- |--- |
 | 対象範囲 | 同期されたデータの特定の web サイト。 |
-| [!DNL Product Recommendations] | 同期ステータス、同期された製品の数、同期された製品の [ 表示可能 ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) テーブルを表示します [!DNL Product Recommendations] |
-| [!DNL Live Search] | 同期ステータス、同期された製品の数、同期された製品の [ 表示可能 ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) テーブルを表示します [!DNL Live Search] |
+| [!DNL Product Recommendations] | 同期ステータス、同期された製品の数、同期された製品の [ 表示可能 ](https://experienceleague.adobe.com/ja/docs/commerce-admin/config/catalog/inventory#stock-options) テーブルを表示します [!DNL Product Recommendations] |
+| [!DNL Live Search] | 同期ステータス、同期された製品の数、同期された製品の [ 表示可能 ](https://experienceleague.adobe.com/ja/docs/commerce-admin/config/catalog/inventory#stock-options) テーブルを表示します [!DNL Live Search] |
 | [!DNL Catalog Service] | 同期ステータス、同期された製品の数、同期された製品のテーブルを表示して [!DNL Catalog Service] ます。 |
 | 設定 | ダイアログが開きます。このダイアログで [ カタログ データを手動で再同期 ](#resync-catalog-data) できます。 |
 | 同期ステータス | 過去 3 時間以内にCommerce データベースからいずれかの SaaS サービスに転送された商品の数を表示します。 カタログを更新する頻度が低い場合、この値は頻繁にゼロになります。 同期が進行中の場合は、「**[!UICONTROL Refresh]**」をクリックすると、更新されたカウントを取得できます。 |
@@ -47,7 +47,7 @@ Commerce データベース内の商品を更新すると、商品データは�
 
 >[!NOTE]
 >
->また、Adobeは、開発者やシステムインテグレーターがCommerce SaaS サービスの同期処理の管理とトラッキング、エラーのトラブルシューティングに使用できるコマンドラインインターフェイスとシステムログも提供します。 詳細については、「[SaaS データ書き出しガイド ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)」を参照してください。
+>また、Adobeは、開発者やシステムインテグレーターがCommerce SaaS サービスの同期処理の管理とトラッキング、エラーのトラブルシューティングに使用できるコマンドラインインターフェイスとシステムログも提供します。 詳細については、「[SaaS データ書き出しガイド ](https://experienceleague.adobe.com/ja/docs/commerce/saas-data-export/overview)」を参照してください。
 
 ### 同期された製品のリスト
 
@@ -57,7 +57,7 @@ Commerce データベース内の商品を更新すると、商品データは�
 
 ### カタログデータを再同期
 
-Commerce SaaS サービスを常に最新の商品情報で更新するには、カタログデータを同期する [ スケジュールを設定する ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) 必要があります。
+Commerce SaaS サービスを常に最新の商品情報で更新するには、カタログデータを同期する [ スケジュールを設定する ](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) 必要があります。
 
 カタログデータをCommerce データベースから SaaS サービスに [ 手動で同期 ](#manually-resync-catalog) することもできますが、ハードウェアリソースの負荷が増える可能性があるので、この方法はお勧めしません。 ただし、次のような場合は、カタログを手動で再同期する必要があります。
 

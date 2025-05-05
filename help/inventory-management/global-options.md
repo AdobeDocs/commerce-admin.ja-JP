@@ -86,7 +86,7 @@ Web サイトの製品と Stock に対するデフォルトの設定オプショ
 
      >[!NOTE]
      >
-     >_非同期キューマネージャー_ を設定およびサポートするには、コマンドラインを使用してコマンドを発行する必要があります。 この手順には、開発者の支援が必要な場合があります。 _設定ガイド_ の [ メッセージキューコンシューマーの開始 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) を参照してください。
+     >_非同期キューマネージャー_ を設定およびサポートするには、コマンドラインを使用してコマンドを発行する必要があります。 この手順には、開発者の支援が必要な場合があります。 _設定ガイド_ の [ メッセージキューコンシューマーの開始 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=ja) を参照してください。
 
    - 有効な場合、**[!UICONTROL Asynchronous batch size]** を設定します。 デフォルトバッチサイズは 100 です。 バルクプロセスがこの量に達すると、システムはトリガーします。
 
