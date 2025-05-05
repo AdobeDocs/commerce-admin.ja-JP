@@ -3,9 +3,9 @@ title: クーポンコード
 description: 買い物かごの価格ルールでクーポンコードを使用して、一連の条件を満たした場合に割引を適用する方法を説明します。
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: f6f3dba7a43cbadd5ca8bdac15af8141cbf2d260
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '1895'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Commerce 2.4.7 以降では、買い物客は 1 つの買い物かごに複数�
 
 自動生成されたクーポンコードの長さと形式は、この構成によって制御されます。 文字は、すべての数字、すべての文字、またはそれらの組み合わせに設定できます。 設定した間隔でダッシュを挿入して読みやすくしたり、プレフィックスとサフィックスを追加してコードを特定のキャンペーンやイニシアチブに関連付けたりできます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Promotions]**」を選択します。
 
@@ -62,7 +62,7 @@ Commerce 2.4.7 以降では、買い物客は 1 つの買い物かごに複数�
 
 >[!NOTE]
 >
->クーポンを作成する前に、`bin/magento cron:run` コマンドを使用して cron が実行中であることを確認します。 詳しくは、『 _設定ガイド_ の [ コマンドラインからの cron の実行 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ja#run-cron-from-the-command-line) を参照してください。
+>[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} クーポンを作成する前に、`bin/magento cron:run` コマンドを使用して cron が実行されていることを確認します。 詳しくは、『 _設定ガイド_ の [ コマンドラインからの cron の実行 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) を参照してください。
 
 ### 方法 1：特定のクーポンの作成
 
@@ -89,7 +89,7 @@ Commerce 2.4.7 以降では、買い物客は 1 つの買い物かごに複数�
 
 1. クーポンを一定期間有効にするには、次の操作を行います。
 
-   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） **開始日** と **終了日** を入力します。 日付を選択するには、各フィールドの横にある **カレンダー** （![ カレンダーアイコン ](../assets/icon-calendar.png)）アイコンをクリックします。 日付範囲を空のままにすると、ルールは期限切れになりません。
+   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） **開始日** および **終了日** を入力します。 日付を選択するには、各フィールドの横にある **カレンダー** （![ カレンダーアイコン ](../assets/icon-calendar.png)）アイコンをクリックします。 日付範囲を空のままにすると、ルールは期限切れになりません。
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）次のいずれかの操作をおこないます。
 
@@ -184,7 +184,7 @@ _クーポン_ レポートは、特定の日付範囲内で使用される各�
 
 ### レポートの実行
 
-1. _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Sales]_/**[!UICONTROL Coupons]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Sales]_/**[!UICONTROL Coupons]**に移動します。
 
 1. 複数のストア表示がある場合は、左上隅の **[!DNL Store View]** を設定して、レポートの範囲を確定します。
 

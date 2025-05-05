@@ -3,9 +3,9 @@ title: スケジュール済み注文操作
 description: この機能をサポートするスケジュール済み注文操作および注文 cron 設定について説明します。
 exl-id: 330fe75a-d901-4696-946e-fa7af9ea3d40
 feature: Orders, Configuration
-source-git-commit: db859c40cd6f052a8f1153e245c23d9f1ea97d33
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 支払いが保留されている注文の有効期間は、_注文 Cron 設定_ 設定によって決まります。 デフォルト値は 480 分（8 時間）に設定されています。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」セクションを展開し、その下 **[!UICONTROL Sales]** 選択します。
 
@@ -45,13 +45,13 @@ ht-degree: 0%
 
 **_更新とインデックス再作成を有効にするには：_**
 
-[ 実稼動モード ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=ja#production-mode) （クラウドインフラストラクチャ上のAdobe Commerceで使用されるデフォルトのモード）が有効な場合は、次のコマンドを実行します。
+[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}[ 実稼動モード ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) （クラウドインフラストラクチャ上のAdobe Commerceで使用されるデフォルトモード）が有効な場合、次のコマンドを実行します。
 
-``bin/magento config:set dev/grid/async_indexing 1``
+`bin/magento config:set dev/grid/async_indexing 1`
 
-[ デフォルトモード ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=ja#default-mode) が有効な場合、次の手順を実行します。
+[ デフォルトモード ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) が有効な場合、次の手順を実行します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」セクションを展開し、「**[!UICONTROL Developer]**」を選択します。
 

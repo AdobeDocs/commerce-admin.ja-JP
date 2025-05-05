@@ -3,9 +3,9 @@ title: Sourceのアルゴリズムと予約
 description: 売り上げ可能な数量を最新の状態に保つためにバックグラウンドで実行されるSource Selection Algorithm および Reservations システムについて説明します。
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2196'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ SSA は、サードパーティのサポートと、費用対効果の高い出�
 
 >[!NOTE]
 >
->予約機能を使用するには、`inventory.reservations.updateSalabilityStatus` メッセージキューコンシューマーを継続的に実行する必要があります。 実行中かどうかを確認するには、`bin/magento queue:consumers:list` コマンドを使用します。 メッセージキューコンシューマーがリストにない場合は、開始します（`bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`）。
+>[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} 予約機能を使用するには、`inventory.reservations.updateSalabilityStatus` メッセージキューコンシューマーを継続的に実行する必要があります。 実行中かどうかを確認するには、`bin/magento queue:consumers:list` コマンドを使用します。 メッセージキューコンシューマーがリストにない場合は、開始します（`bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`）。
 
 ### 予約の注文
 
@@ -188,7 +188,7 @@ SSA は、サードパーティのサポートと、費用対効果の高い出�
 
 `inventory_cleanup_reservations` cron ジョブは、SQL クエリを実行して予約データベーステーブルをクリアします。 デフォルトでは、毎日午前 0 時に実行されますが、時間と頻度は設定できます。 cron ジョブは、数量値の合計が 0 である完全な予約シーケンスを見つけるためにデータベースに問い合わせるスクリプトを実行します。 同じ日（または設定された他の時間）に発生した特定の製品のすべての予約が補正されると、cron ジョブは予約をすべて一度に削除します。
 
-`inventory_reservations_cleanup` cron ジョブは、`inventory.reservations.cleanup` メッセージキューコンシューマーとは異なります。 消費者は製品が削除された後、製品 SKU によって予約を非同期で削除しますが、cron ジョブは予約テーブル全体をクリアします。 ストアの設定で「[**カタログと同期**](../configuration-reference/catalog/inventory.md) Stock オプションを有効にする場合、コンシューマーは必要です。 _設定ガイド [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ja) の  メッセージキューの管理_ を参照してください。
+`inventory_reservations_cleanup` cron ジョブは、`inventory.reservations.cleanup` メッセージキューコンシューマーとは異なります。 消費者は製品が削除された後、製品 SKU によって予約を非同期で削除しますが、cron ジョブは予約テーブル全体をクリアします。 ストアの設定で「[**カタログと同期**](../configuration-reference/catalog/inventory.md) Stock オプションを有効にする場合、コンシューマーは必要です。 _設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) の [ メッセージキューの管理_ を参照してください。
 
 多くの場合、1 日に作成されたすべての初期予約は、その日に補償されません。 この状況は、顧客が cron ジョブが開始される直前に注文を行った場合や、銀行振込などのオフラインの支払い方法で購入した場合に発生する可能性があります。 補正された予約シーケンスは、すべて補正されるまでデータベースに残ります。 各予約の合計が 0 であるため、この方法では予約計算が妨げられることはありません。
 

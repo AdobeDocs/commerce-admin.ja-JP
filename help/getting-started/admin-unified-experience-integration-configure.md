@@ -1,31 +1,32 @@
 ---
 title: Commerce Admin 用のExperience Cloud統合の設定
-description: Commerce プロジェクトをExperience Cloudして、管理者アクセスを有効にする方法を説明します。
+description: Commerce プロジェクトを設定して、Experience Cloud経由での管理者アクセスを有効にする方法を説明します。
 hide: false
 hidefromtoc: false
 feature: Integration
 role: Admin, Leader
 exl-id: b2522d25-8255-4219-98b5-4b764430dea2
-source-git-commit: 8278d725a7377b865c118b86a57702cd2be43238
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
 
-# Commerce Admin とのExperience Cloud統合の設定
+# Experience CloudとCommerce Admin の統合の設定
 
-Commerce Admin の統合エクスペリエンスおよびCommerce Events 拡張機能を使用するようにCommerce Experience Cloudを設定して、Commerce Admin とのアプリケーション統合を開始します。
+Commerce Admin の統合エクスペリエンスおよびCommerce Events 拡張機能を使用するようにCommerce アプリケーションを設定して、Commerce Admin とのExperience Cloud統合を開始します。
 
 
 ## 前提条件
 
 - Adobe Commerceは、[Adobe IMS認証を使用するように構成する必要があり ](../getting-started/adobe-ims-config.md) す
-- アカウントのプロビジョニングと権限：管理者は、Experience Cloud統合を構成するための次のリソースにアクセスできる [&#128279;](https://helpx.adobe.com/jp/enterprise/kb/introducing-adobe-profiles.html#:~:text=Adobe%20profiles%20help%20you%20manage,under%20the%20same%20email%20address)Adobeのビジネス・プロファイルを持っている必要があります。
-   - [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/admin-guide.html) – 組織のAdobeユーザーおよび開発者アカウントを追加して管理します
-   - [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/) - App Builder プロジェクトを作成し、Adobe I/Oイベントサービスを使用するための接続資格情報とプロジェクト設定を生成するための開発者またはシステム管理者のアクセス権
-   - [ クラウドインフラストラクチャプロジェクトのCommerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/start/onboarding.html?lang=ja#get-started-with-the-project-web-interface) – 必要なモジュールをインストールし、Adobe Commerce CLI を使用してCommerce アプリケーションサーバーを設定します
-   - [Commerce管理者 ](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html?lang=ja) - ストア設定を更新し、Commerce ユーザーアカウントを管理します
+- アカウントのプロビジョニングと権限 – 管理者は、Experience Cloud統合を設定するための次のリソースにアクセスできる ](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html#:~:text=Adobe%20profiles%20help%20you%20manage,under%20the%20same%20email%20address)0}Adobe ビジネスプロファイルを持っている必要があります。[
+   - [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html) – 組織のAdobe ユーザーおよび開発者アカウントを追加し、管理します
+   - [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/) - App Builder プロジェクトを作成し、Adobe I/O Events サービスを使用するための接続資格情報とプロジェクト設定を生成するための開発者またはシステム管理者のアクセス権
+   - [ クラウドインフラストラクチャプロジェクトのCommerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/start/onboarding.html#get-started-with-the-project-web-interface) – 必要なモジュールをインストールし、Adobe Commerce CLI を使用してCommerce アプリケーションサーバーを設定します
+   - [Commerce管理者 ](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html) - ストア設定を更新し、Commerce ユーザーアカウントを管理します
 
 ## 設定の概要
 
@@ -35,13 +36,13 @@ Commerce Admin の統合エクスペリエンスおよびCommerce Events 拡張�
 
 1. [Commerce Admin 統合エクスペリエンス拡張機能を有効にします ](#enable-the-commerce-admin-unified-experience-extension)。
 
-1. [CommerceのAdobe I/Oイベントを設定する ](#set-up-adobe-io-events)。
+1. [Commerce用にAdobe I/O Eventsを設定 ](#set-up-adobe-io-events) します。
 
 1. [ 統合をテストします ](#test-the-integration)。
 
 ## Commerce環境とアプリケーション設定の確認
 
-Experience Cloudの統合を設定する前に、プロジェクトとCommerce アプリケーションが要件を満たしていることを確認します。
+Experience Cloud統合を設定する前に、プロジェクトとCommerce アプリケーションが要件を満たしていることを確認します。
 
 1. ローカルワークステーションで、Commerce プロジェクトのプロジェクトディレクトリに移動します。
 
@@ -49,7 +50,7 @@ Experience Cloudの統合を設定する前に、プロジェクトとCommerce �
 
 1. Adobe IMSが有効になっていることを確認します。
 
-   - Commerce アプリケーションサーバーに接続するには、環境に [SSH アクセス URL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=ja) を使用します。
+   - Commerce アプリケーションサーバーに接続するには、環境に [SSH アクセス URL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) を使用します。
 
    - コマンドラインから、Adobe Commerce CLI を使用して、IMS モジュールのステータスを確認します。
 
@@ -90,13 +91,13 @@ Experience Cloudの統合を設定する前に、プロジェクトとCommerce �
 
 ## Commerce Admin Unified Experience を有効にする
 
-Commerce Admin Unified Experience 拡張機能を有効にしてから、Experience Cloudを通じてログインします。
+Commerce Admin Unified Experience 拡張機能を有効にしてから、Experience Cloudを使用してログインします。
 
 >[!NOTE]
 >
->これらの手順は、Commerce Cloudプロジェクト管理者がAdobe Commerce CLI を使用して拡張機能を有効にする方法を示しています。 Commerce管理者ユーザーは、[Commerce ストアの設定 ](admin-unified-experience-integration-manage.md#from-the-commerce-admin) を更新して、この拡張機能を有効にすることもできます。
+>これらの手順は、Commerce Cloud プロジェクト管理者がAdobe Commerce CLI を使用して拡張機能を有効にする方法を示しています。 Commerce管理者ユーザーは、[Commerce ストアの設定 ](admin-unified-experience-integration-manage.md#from-the-commerce-admin) を更新して、この拡張機能を有効にすることもできます。
 
-1. ローカルワークステーションのクラウドプロジェクト環境のルートディレクトリから、[magento-cloud CLI ツール ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html?lang=ja) を使用して、Commerce アプリケーションサーバーにログインします。
+1. ローカルワークステーションのクラウドプロジェクト環境のルートディレクトリから、[magento-cloud CLI ツール ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html) を使用して、Commerce アプリケーションサーバーにログインします。
 
    ```bash
    magento-cloud ssh
@@ -115,13 +116,13 @@ Commerce Admin Unified Experience 拡張機能を有効にしてから、Experie
    bin/magento cache:clean
    ```
 
-## Commerce用のAdobe I/Oイベントの設定
+## Commerce用のAdobe I/O Eventsの設定
 
-Experience Cloud統合が有効な場合、Commerce プロジェクトへの管理者アクセスを管理するために、Adobe I/OイベントサービスはCommerce イベントデータをExperience Cloudに送信します。 サービスを設定するには、Commerce拡張機能（`magento/commerce-eventing`）のAdobe I/Oイベントを有効にして、管理者でAdobe I/Oイベントサービスを設定する必要があります。
+Experience Cloud統合が有効な場合、Adobe I/O Events サービスはCommerce イベントデータをExperience Cloudに送信し、Commerce プロジェクトへの管理者アクセスを管理します。 サービスをセットアップするには、Adobe I/O Events for Commerce拡張機能（`magento/commerce-eventing`）を有効にして、管理者でAdobe I/O Events サービスを設定する必要があります。
 
 ### Commerce イベントを有効にする
 
-Commerce Events 拡張機能（`magento/commerce-eventing`）を有効にして、カスタムイベントデータをCommerce アプリケーションからAdobe I/Oイベントサービスに送信します。
+Commerce イベント拡張機能（`magento/commerce-eventing`）を有効にして、カスタムイベントデータをCommerce アプリケーションからAdobe I/O Events サービスに送信します。
 
 >[!NOTE]
 >
@@ -144,19 +145,19 @@ Commerce Events 拡張機能（`magento/commerce-eventing`）を有効にして�
 
 >[!TIP]
 >
->`.magento.env.yaml` ファイルを使用した環境変数の設定と管理について詳しくは、「[ デプロイメント用の環境変数の設定 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=ja) を参照してください。
+>`.magento.env.yaml` ファイルを使用した環境変数の設定と管理について詳しくは、「[ デプロイメント用の環境変数の設定 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) を参照してください。
 
 ### Commerce イベント統合の設定
 
-次のタスクを実行して、Commerce イベントの統合を設定します。 手順について詳しくは、[CommerceのAdobe I/Oイベント ](https://developer.adobe.com/commerce/extensibility/events/project-setup/) 開発者向けドキュメントを参照してください。
+次のタスクを実行して、Commerce イベントの統合を設定します。 手順について詳しくは、[Adobe I/O Events for Commerce](https://developer.adobe.com/commerce/extensibility/events/project-setup/) 開発者向けドキュメントを参照してください。
 
 1. Commerce インスタンスからイベントデータを受け取る [App Builder プロジェクトを作成 ](https://developer.adobe.com/commerce/extensibility/events/project-setup/) します。
 
    Commerce Admin で統合を設定するには、App Builder プロジェクトの資格情報と設定データが必要です。
 
-1. Adobe I/Oイベントを使用するようにAdobe Commerceを設定します。
+1. Adobe I/O Eventsを使用するようにAdobe Commerceを設定します。
 
-   - [Adobe I/Oイベントサービスのストア設定を更新します ](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#begin-configuring-events-on-commerce)。
+   - [Adobe I/O Events サービスのストア設定を更新します ](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#begin-configuring-events-on-commerce)。
 
    - [ イベントプロバイダーを設定して、Commerce イベントを送信する ](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#create-an-event-provider-and-complete-the-commerce-configuration)。
 
@@ -168,7 +169,7 @@ Commerce Events 拡張機能（`magento/commerce-eventing`）を有効にして�
 
 1. 接続を確立するには、イベント プロバイダーを通じて消費者にイベントを送信します。
 
-   - ローカルクラウドプロジェクトディレクトリのコマンドラインから [SSH を使用してCommerce アプリケーションサーバーに接続する ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=ja#connect-to-a-remote-environment) を実行します。
+   - ローカルクラウドプロジェクトディレクトリのコマンドラインから [SSH を使用してCommerce アプリケーションサーバーに接続する ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment) を実行します。
 
      ```bash
      magento-cloud ssh
@@ -184,13 +185,13 @@ Commerce Events 拡張機能（`magento/commerce-eventing`）を有効にして�
 
 Commerce管理者がExperience Cloudにログインして使用可能なCommerce プロジェクトを表示し、各プロジェクトの管理者およびストアフロントにアクセスできることを確認します。
 
-1. Commerce インスタンスに関連付けられたAdobe IDと組織を使用して [&#128279;](https://experiencecloud.adobe.com/library)Experience Cloudにログイン  します。
+1. Adobe IDと、Commerce インスタンスに関連付けられた組織を使用して、[Experience Cloudにログイン ](https://experiencecloud.adobe.com/library) します。
 
-   ![Experience CloudのホームページからCommerce プロジェクトにアクセスする ](./assets/admin-uex-home-page.png){width="600" zoomable="yes"}
+   ![CommerceのホームページからExperience Cloud プロジェクトにアクセスする ](./assets/admin-uex-home-page.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Commerce]**」を選択して、使用可能なCommerce プロジェクトを表示します。
 
-   ![Experience Cloud用のCommerce プロジェクトワークスペース ](./assets/admin-uex-commerce-projects-home.png){width="600" zoomable="yes"}
+   ![Experience CloudのCommerce プロジェクト ワークスペース ](./assets/admin-uex-commerce-projects-home.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Open]** を選択して、インスタンスの管理者を開きます。
 
@@ -198,6 +199,6 @@ Commerce管理者がExperience Cloudにログインして使用可能なCommerce
 
 1. 管理者タスクを期待どおりに実行できることを確認します。
 
-   Commerce管理者のワークフローも、同じプロセスに従う必要があります。 Experience Cloud統合を有効にした後にワークフローの変更やエラーが発生した場合は、Commerce システム管理者または [Adobeのサポートチケットを送信 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ja#submit-ticket) にお問い合わせください。
+   Commerce管理者のワークフローも、同じプロセスに従う必要があります。 Experience Cloud統合を有効にした後にワークフローの変更やエラーが発生した場合は、Commerce システム管理者または [Adobe サポートチケットを送信 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) にお問い合わせください。
 
-AdministratorExperience Cloudを設定したら、統合を通じてCommerce プロジェクトにアクセスできるようにExperience Cloudアカウントが正しくプロビジョニングされていることを確認します。 [ 管理者ユーザーの管理 ](/help/getting-started/admin-unified-experience-integration-manage.md#manage-admin-user-accounts) を参照してください。
+Experience Cloud統合を設定したら、Experience Cloudを通じてCommerce プロジェクトにアクセスできるよう管理者アカウントが正しくプロビジョニングされていることを確認します。 [ 管理者ユーザーの管理 ](/help/getting-started/admin-unified-experience-integration-manage.md#manage-admin-user-accounts) を参照してください。

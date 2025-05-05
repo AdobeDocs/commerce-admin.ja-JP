@@ -3,9 +3,10 @@ title: ID を使用したCommerce Admin Integration の設定
 description: Adobe Commerce管理者のユーザーアカウントのログインをAdobe IDと統合するには、次のオプション手順に従います。
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 8589444a126c82f033c5b852b20493d1cf83c338
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -27,8 +28,8 @@ ht-degree: 0%
 
 この統合を設定する管理者には、モジュールのイネーブルメント時に次の資格情報が必要です。
 
-* 組織 ID （[Adobe Admin Console](https://adminconsole.adobe.com/) から取得）。24 文字以上にする必要があります。 認証済みユーザーは、この IMS 組織に属している必要があります。 組織 ID の検索について詳しくは、[Experience Cloudの組織 ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja) を参照してください。
-* モジュールを有効にするには、Adobe Admin Consoleの組織レベルで 2FA を適用する必要があります。 [ 認証設定 ](https://helpx.adobe.com/jp/enterprise/using/authentication-settings.html#two-step-verification) をオンにします。
+* 組織 ID （[Adobe Admin Console](https://adminconsole.adobe.com/) から取得）。24 文字以上にする必要があります。 認証済みユーザーは、この IMS 組織に属している必要があります。 組織 ID の検索について詳しくは、[Experience Cloudの組織 ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html) を参照してください。
+* モジュールを有効にするには、Adobe Admin Consoleの組織レベルで 2FA を適用する必要があります。 [ 認証設定 ](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification) をオンにします。
 * クライアント ID
 * クライアント秘密鍵
 * クライアント ID およびクライアント秘密鍵は、[Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials/) から API キーを取得した後に利用できます。
@@ -75,7 +76,7 @@ Commerce管理者ユーザーがログインするには、Adobe IDのアカウ�
 
 >[!TIP]
 >
->CSV ファイルからユーザー情報をアップロードすることで、複数のユーザーアカウントを作成できます。 [ 複数のユーザーの管理 ](https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html) を参照してください。
+>CSV ファイルからユーザー情報をアップロードすることで、複数のユーザーアカウントを作成できます。 [ 複数のユーザーの管理 ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) を参照してください。
 
 1. [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) で、**[!UICONTROL Users]**/**[!UICONTROL Users]** に移動します。
 

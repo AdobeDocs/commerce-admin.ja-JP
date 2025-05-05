@@ -3,9 +3,9 @@ title: '[!DNL Inventory Management] リリースノート'
 description: すべてのリリースについて詳しくは、リリースノ  [!DNL Inventory Management]  トを参照してください。
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-source-git-commit: 01d8a1d50f574330f3ce7e8bf03a018f0079f5db
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '3445'
+source-wordcount: '3462'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 0%
 ![ 修正された問題 ](../assets/fix.svg) 修正および改善
 ![ 既知の問題 ](../assets/bug.svg)
 
-[!DNL Inventory Management] は、コントリビューター向けのMagento Open Sourceコミュニティエンジニアリング特別プロジェクトです。 参加して投稿するには、[GitHub プロジェクト ](https://github.com/magento/inventory) リポジトリ、および [wiki](https://github.com/magento/inventory/wiki) を参照して開始してください。 プロジェクトについて話し合うには、[Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) チャンネル（[ セルフ サインアップ ](https://opensource.magento.com/slack)）に参加します。
+[!DNL Inventory Management] は、コントリビューター向けのMagento Open Source コミュニティエンジニアリング特別プロジェクトです。 参加して投稿するには、[GitHub プロジェクト ](https://github.com/magento/inventory) リポジトリ、および [wiki](https://github.com/magento/inventory/wiki) を参照して開始してください。 プロジェクトについて話し合うには、[Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) チャンネル（[ セルフサインアップ ](https://opensource.magento.com/slack)）に参加します。
 
-サポートされるリリースおよび互換性のあるリリースの [ リリーススケジュール ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=ja){target="_blank"}。
+サポートされるリリースおよび互換性のあるリリースの [ リリーススケジュール ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"}。
 
 ## v1.2.7
 
-[!DNL Inventory Management] 1.2.7 リリースノートは、[core 2.4.7 リリースノート ](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1) に含まれています。
+[!DNL Inventory Management] 1.2.7 リリースノートは、[core 2.4.7 リリースノート ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1) に含まれています。
 
 ## v1.2.6
 
-[!DNL Inventory Management] 1.2.6 （モジュールバージョン：`magento/inventory-metapackage = 1.2.6`）はバージョン 2.4.6 でサポートされ、Adobe Commerceのバージョン 2.4.0、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Sourceコードベースと互換性があります。
+[!DNL Inventory Management] 1.2.6 （モジュールバージョン：`magento/inventory-metapackage = 1.2.6`）は、バージョン 2.4.6 でサポートされ、Adobe Commerce、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Source コードベースのバージョン 2.4.0 と互換性があります。
 
 ![ 修正された問題 ](../assets/fix.svg) ストアフロントには、売り切れた子製品が在庫に戻された際に、複合製品（設定可能、バンドル、グループ化）が在庫中として表示されるようになりました。 以前は、これらの条件で複合製品が在庫切れであることがストアフロントで示されていました。<!-- ACP2E-1106-->
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ## v1.2.5
 
-[!DNL Inventory Management] 1.2.5 （モジュールバージョン：`magento/inventory-metapackage = 1.2.5`）は、バージョン 2.4.5 でサポートされ、Adobe Commerceのバージョン 2.4.0、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Sourceコードベースと互換性があります。
+[!DNL Inventory Management] 1.2.5 （モジュールバージョン：`magento/inventory-metapackage = 1.2.5`）は、バージョン 2.4.5 でサポートされ、Adobe Commerce、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Source コードベースのバージョン 2.4.0 と互換性があります。
 
 ![ 修正された問題 ](../assets/fix.svg) 販売者が管理者から出荷を作成すると、バンドルおよびグループ化された製品のデフォルトの在庫在庫ステータスが期待どおりに更新されるようになりました。 以前は、これらの製品のステータスは出荷作成後も変更されていません。<!--- ACP2E-418-->
 
@@ -106,17 +106,18 @@ ht-degree: 0%
 
 ![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-274--> **[!UICONTROL Display Out-Of-Stock Products]** 設定を有効にして在庫の単一ソースモードを使用すると、カテゴリリストの製品数が正しく表示されるようになりました。 新しいプラグインは、`AreProductsSalableInterface` と `StockConfigurationInterface` を使用して製品の合計数を決定するようになりました。 以前は、カテゴリ製品リストから誤った製品数量が返されていました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-322--> 設定 **[!UICONTROL Move out of stock to the bottom]** 定が有効な場合、在庫が更新された後、設定可能な製品が製品リストの最後の位置に移動されるようになりました。 Elasticsearchインデックスの並べ替え順を否定する新しいカスタムデータベースクエリが実装されました。これは、管理者向けの並べ替え順を無視します。 以前は、この設定が有効な場合、設定可能な製品とその子製品は、リストの下部に移動されませんでした。
+![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-322--> 設定 **[!UICONTROL Move out of stock to the bottom]** 定が有効な場合、在庫が更新された後、設定可能な製品が製品リストの最後の位置に移動されるようになりました。 Elasticsearchのインデックスの並べ替え順を否定する新しいカスタムデータベースクエリが実装されました。これは、管理者が有効にした並べ替え順を無視します。 以前は、この設定が有効な場合、設定可能な製品とその子製品は、リストの下部に移動されませんでした。
 
 ## v1.2.4
 
-Inventory management 1.2.4 （モジュールバージョン：`magento/inventory-metapackage = 1.2.4`）は、バージョン 2.4.4 でサポートされ、Adobe Commerceのバージョン 2.4.0、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Sourceコードベースと互換性があります。
+Inventory management 1.2.4 （モジュールバージョン：`magento/inventory-metapackage = 1.2.4`）は、バージョン 2.4.4 でサポートされ、Adobe Commerce、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Source コードベースのバージョン 2.4.0 と互換性があります。
 
 ![ 修正された問題 ](../assets/fix.svg)Commerceの管理商品リスト表示で、すべての商品の正確な販売可能数量の値が表示されるようになりました。 以前は、特殊文字を含む SKU を持つ在庫製品の売り上げ可能数量に対して空白の値が表示されていました。<!--- MC-41936-->
 
 ![ 修正された問題 ](../assets/fix.svg) 多くの（約 10,000 個の）在庫ソースを含むデプロイメントで買い物かごに製品を追加するなど、買い物かごおよびチェックアウトのアクションのパフォーマンスが向上しました。<!--- MC-42570-->
 
-![ 修正された問題 ](../assets/fix.svg) `bin/magento inventory:reservation:list-inconsistencies` コマンドでは、データベースから予約が逃され、キャッシュがクリアされている場合でも、部分出荷の注文を正しく処理するようになりました。 以前は、事前にクリアされたキャッシュでこのコマンドを実行すると、Commerceに次のエラーが表示されていました。`Area code is not set`。<!--- MC-42142-->
+![ 修正された問題 ](../assets/fix.svg) [!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}`bin/magento inventory:reservation:list-inconsistencies` コマンドでは、データベースから予約が失われ、キャッシュがクリアされている場合でも、部分出荷の注文を正しく処理するようになりました。 以前は、事前にクリアされたキャッシュでこのコマンドを実行すると、Commerceに次のエラーが表示されていました。`Area code is not set`。<!--- MC-42142-->
+
 
 ![ 修正された問題 ](../assets/fix.svg) グループ化された製品の子製品の増分インデックス作成で、子を共有すると、他のグループ化された製品のインデックスが正しく作成されなくなりました。<!--- MC-41963-->
 
@@ -126,7 +127,7 @@ Inventory management 1.2.4 （モジュールバージョン：`magento/inventor
 
 ![ 修正された問題 ](../assets/fix.svg)10,000 項目を超える在庫在庫の管理が改善されました。 以前は、パフォーマンスの問題により、マーチャントが web サイトを起動する前に管理者で在庫を編集できないことがありました。<!--- MC-42643-->
 
-![ 修正された問題 ](../assets/fix.svg) 管理者の **[!UICONTROL User Roles]** ページが更新され、管理者に配信方法設定への制限付きアクセス権が提供されるようになりました。 _発送方法_ セクションの名前は _[!UICONTROL Delivery methods]_&#x200B;に変更され、_[!UICONTROL In-Store Pickup]_ は _[!UICONTROL Delivery methods]_&#x200B;セクションの下に移動します。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![ 修正された問題 ](../assets/fix.svg) 管理者の **[!UICONTROL User Roles]** ページが更新され、管理者に配信方法設定への制限付きアクセス権が提供されるようになりました。 _発送方法_ セクションの名前は _[!UICONTROL Delivery methods]_に変更され、_[!UICONTROL In-Store Pickup]_ は _[!UICONTROL Delivery methods]_セクションの下に移動します。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![ 修正された問題 ](../assets/fix.svg) クレジットメモが API で更新された後、Adobe Commerceで重複した製品予約が作成されなくなりました。<!--- MC-41757-->
 
@@ -138,7 +139,7 @@ Inventory management 1.2.4 （モジュールバージョン：`magento/inventor
 
 ## 1.2.3
 
-[!DNL Inventory Management] 1.2.3 （モジュールバージョン：`magento/inventory-metapackage = 1.2.3`）は、バージョン 2.4.3 でサポートされ、Adobe Commerceのバージョン 2.4.0、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Sourceコードベースと互換性があります。
+[!DNL Inventory Management] 1.2.3 （モジュールバージョン：`magento/inventory-metapackage = 1.2.3`）は、バージョン 2.4.3 でサポートされ、Adobe Commerceのバージョン 2.4.0、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Source コードベースと互換性があります。
 
 ![ 問題を修正 ](../assets/fix.svg) フロントエンドでの複合製品の表示に関するいくつかの問題を修正しました。
 
@@ -154,7 +155,7 @@ Inventory management 1.2.4 （モジュールバージョン：`magento/inventor
 
 ## 1.2.2
 
-[!DNL Inventory Management] 1.2.2 （モジュールバージョン：`magento/inventory-metapackage = 1.2.2`）は、バージョン 2.4.2 でサポートされ、Adobe Commerceのバージョン 2.4.0、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Sourceコードベースと互換性があります。
+[!DNL Inventory Management] 1.2.2 （モジュールバージョン：`magento/inventory-metapackage = 1.2.2`）は、バージョン 2.4.2 でサポートされ、Adobe Commerceのバージョン 2.4.0、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Source コードベースと互換性があります。
 
 ![ 問題を修正 ](../assets/fix.svg) フロントエンドでの複合製品の表示に関するいくつかの問題を修正しました。
 
@@ -166,7 +167,7 @@ Inventory management 1.2.4 （モジュールバージョン：`magento/inventor
 
 ## 1.2.1
 
-[!DNL Inventory Management] 1.2.1 （モジュールバージョン：`magento/inventory-metapackage = 1.2.1`）は、バージョン 2.4.1 でサポートされ、Adobe Commerceのバージョン 2.4.0、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Sourceコードベースと互換性があります。
+[!DNL Inventory Management] 1.2.1 （モジュールバージョン：`magento/inventory-metapackage = 1.2.1`）は、バージョン 2.4.1 でサポートされ、Adobe Commerce、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Source コードベースのバージョン 2.4.0 と互換性があります。
 
 ![ 修正された問題 ](../assets/fix.svg) `inventory_cleanup_reservations` cron ジョブに関する既知の問題を修正し、バンドル製品の店舗内ピックアップ機能に関する問題を修正しました。 この更新には、在庫計算、バンドル製品のサポート、バックオーダー機能に対する一般的な改善も含まれています。
 
@@ -174,11 +175,11 @@ Inventory management 1.2.4 （モジュールバージョン：`magento/inventor
 
 ## 1.2.0
 
-[!DNL Inventory Management] 1.2.0 （モジュールバージョン：`magento/inventory-metapackage = 1.2.0`）は、Adobe Commerceのバージョン 2.4.0、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Sourceコードベースでサポートされています。
+[!DNL Inventory Management] 1.2.0 （モジュールバージョン：`magento/inventory-metapackage = 1.2.0`）は、Adobe Commerceのバージョン 2.4.0、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Source コードベースでサポートされています。
 
 ![ 問題を修正 ](../assets/fix.svg) ソース割り当て、スケーラブルな環境のサポート、および PHP 7.4、MySQL 8、PHPUNIT 9 との互換性に関する問題を解決するための多数の修正。
 
-![ 新規 ](../assets/new.svg) ストア **配信方法。** チェックアウト時に集荷場所として使用するソースをユーザーが選択できるオプションを追加しました。 _販売および購入エクスペリエンスガイド [&#128279;](../stores-purchase/shipping-in-store-delivery.md) の  店舗での配信_ を参照してください。
+![ 新規 ](../assets/new.svg) ストア **配信方法。** チェックアウト時に集荷場所として使用するソースをユーザーが選択できるオプションを追加しました。 _販売および購入エクスペリエンスガイド ](../stores-purchase/shipping-in-store-delivery.md) の [ 店舗での配信_ を参照してください。
 
 ![ 新規 ](../assets/new.svg) マルチソースモード用 **バンドル製品のサポート。** Inventory では、複数のソースを持つすべての製品タイプがサポートされます。
 
@@ -199,7 +200,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.6
 
-[!DNL Inventory Management] 1.1.6 （モジュールバージョン：`inventory-composer-metapackage = 1.1.6`）はバージョン 2.3.6 でサポートされ、Adobe Commerceのバージョン 2.3.5、2.3.4、2.3.3、2.3.2、2.3.1、2.3.0、クラウドインフラストラクチャーのAdobe Commerce、およびMagento Open Sourceコードベースと互換性があります。
+[!DNL Inventory Management] 1.1.6 （モジュールバージョン：`inventory-composer-metapackage = 1.1.6`）はバージョン 2.3.6 でサポートされ、Adobe Commerce、クラウドインフラストラクチャー上のAdobe Commerce、およびMagento Open Source コードベースのバージョン 2.3.5、2.3.4、2.3.3、2.3.2、2.3.1、および 2.3.0 と互換性があります。
 
 ![ 修正された問題 ](../assets/fix.svg) バックオーダー、クレジットメモ、低在庫のレポートグリッドに関連する問題を解決するための修正、「不整合の解決」 CLI ツールに関連する修正および一般的な改善。
 
@@ -207,7 +208,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.5
 
-[!DNL Inventory Management] 1.1.5 （モジュールバージョン：`inventory-composer-metapackage = 1.1.5`）は、バージョン 2.3.5 でサポートされ、Adobe Commerceのバージョン 2.3.4、2.3.3、2.3.2、2.3.1、2.3.0、クラウドインフラストラクチャー上のAdobe Commerce、およびMagento Open Sourceコードベースと互換性があります。
+[!DNL Inventory Management] 1.1.5 （モジュールバージョン：`inventory-composer-metapackage = 1.1.5`）は、バージョン 2.3.5 でサポートされ、Adobe Commerceのバージョン 2.3.4、2.3.3、2.3.2、2.3.1、2.3.0、Magento Open Source、クラウドインフラストラクチャーのAdobe Commerce、および Cloud Code Base と互換性があります。
 
 ![ 製品 SKU が変更された後 ](../assets/new.svg) 在庫を新規 **更新します。** 新しい動作「カタログとの同期」に切り替える新しい設定が導入されました。
 
@@ -217,7 +218,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.4
 
-[!DNL Inventory Management] 1.1.4 （モジュールバージョン：`inventory-composer-metapackage = 1.1.4`）は、バージョン 2.3.4 でサポートされ、Adobe Commerceのバージョン 2.3.3、2.3.2、2.3.1、2.3.0、クラウドインフラストラクチャー上のAdobe Commerce、およびMagento Open Sourceコードベースと互換性があります。
+[!DNL Inventory Management] 1.1.4 （モジュールバージョン：`inventory-composer-metapackage = 1.1.4`）は、バージョン 2.3.4 でサポートされ、Adobe Commerceのバージョン 2.3.3、2.3.2、2.3.1、2.3.0、クラウドインフラストラクチャー上のAdobe Commerce、およびMagento Open Source コードベースと互換性があります。
 
 ![ 問題を修正 ](../assets/fix.svg)**パフォーマンスが向上しました。** メモリ使用量を減らし、応答なくプロセスが停止した場合を回避するために、在庫予約 CLI コマンドのバンチングロジックが導入されました。
 
@@ -227,7 +228,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.3
 
-[!DNL Inventory Management] 1.1.3 （モジュールバージョン：`inventory-composer-metapackage = 1.1.3`）は、バージョン 2.3.3 でサポートされ、Adobe Commerceのバージョン 2.3.2、2.3.1、2.3.0、クラウドインフラストラクチャー上のAdobe Commerce、およびMagento Open Sourceコードベースと互換性があります。
+[!DNL Inventory Management] 1.1.3 （モジュールバージョン：`inventory-composer-metapackage = 1.1.3`）は、バージョン 2.3.3 でサポートされ、Adobe Commerceのバージョン 2.3.2、2.3.1、2.3.0、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Source コードベースと互換性があります。
 
 ![ 問題を修正 ](../assets/fix.svg)**Adobe Commerceと B2B 機能との統合が改善されました。** [!DNL Inventory Management] は、デフォルト以外の在庫ソースおよび在庫を使用する web サイトで、次の機能を正しく使用できるようになりました。
 
@@ -241,9 +242,9 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.2
 
-[!DNL Inventory Management] 1.1.2 （モジュールバージョン：`inventory-composer-metapackage = 1.1.2`）は、バージョン 2.3.2 でサポートされ、Adobe Commerceのバージョン 2.3.1 および 2.3.0、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Sourceコードベースと互換性があります。
+[!DNL Inventory Management] 1.1.2 （モジュールバージョン：`inventory-composer-metapackage = 1.1.2`）は、バージョン 2.3.2 でサポートされ、Adobe Commerceのバージョン 2.3.1 および 2.3.0、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Source コードベースと互換性があります。
 
-![ 修正された問題 ](../assets/fix.svg)REST エンドポイントのGETの応答に `source_code` が追加さ `/V1/shipments` ました。<!-- https://github.com/magento/inventory/pull/2142 -->
+![ 修正された問題 ](../assets/fix.svg)GET `/V1/shipments` REST エンドポイントの応答に `source_code` が追加されました。<!-- https://github.com/magento/inventory/pull/2142 -->
 
 ![ 修正された問題 ](../assets/fix.svg) 未出荷注文のクレジットメモを発行した後に、予約を正しくクリアして製品数量を更新する問題を解決しました。 <!-- https://github.com/magento/inventory/pull/2179 --> すオプションを選択した場合
 
@@ -270,13 +271,13 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ![ 新規 ](../assets/new.svg)**割り当てられたソースのシンプルな UI** – 製品ページの割り当てられたソース テーブルでは、コンテンツが簡素化されて更新が容易になり、多数のソースを表示する際のパフォーマンスが向上しています。 すべてのソースがソース名別にリストされます（`source_code` の場合はカーソルを合わせます）。
 
-![ 新規 ](../assets/new.svg)**エクスポート集計在庫サービス** – このリリースでは、Amazon、eBay、Googleのショッピング広告などの外部Sales Channelをサポートする新しいエクスポート集計在庫サービス（システム内で予約を保持）が提供されます。 <!-- https://github.com/magento/inventory/pull/2067 -->
+![ 新規 ](../assets/new.svg)**エクスポート集計在庫サービス** – このリリースでは、Amazon、eBay、Googleなどの外部販売チャネルをサポートする新しいエクスポート集計在庫サービス（システム内で予約を保持）が提供されます。 <!-- https://github.com/magento/inventory/pull/2067 -->
 
 ## 1.1.0
 
-[!DNL Inventory Management] 1.1.0 （モジュールバージョン：`inventory-composer-metapackage = 1.1.0`）は、Adobe Commerce、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Sourceコードベースのバージョン 2.3.0 でサポートされ、互換性があります。 [!DNL Inventory Management] 1.1.1 は、パッケージ名のアップデートとしてのみリリースされ、バージョン 2.3.1 でサポートされ、Adobe Commerceのバージョン 2.3.0、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Sourceコードベースと互換性があります。
+[!DNL Inventory Management] 1.1.0 （モジュールバージョン：`inventory-composer-metapackage = 1.1.0`）は、Adobe Commerce、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Source コードベースのバージョン 2.3.0 でサポートされ、互換性があります。 [!DNL Inventory Management] 1.1.1 は、パッケージ名のアップデートとしてのみリリースされ、バージョン 2.3.1 でサポートされ、Adobe Commerceのバージョン 2.3.0、クラウドインフラストラクチャー上のAdobe Commerce、Magento Open Source コードベースと互換性があります。
 
-![ 問題を修正 ](../assets/fix.svg)**シングルソースモードとマルチソースモードのElasticsearchがサポートされるようになりました** — カスタムストックでElasticsearchを設定および使用できるようになりました。 インストールについては、[Elasticsearchサービスの設定 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=ja){target="_blank"} を参照してください。<!-- PR https://github.com/magento/inventory/pull/1943 -->
+![ 問題の修正 ](../assets/fix.svg)**シングルソースモードとマルチソースモードでのElasticsearchのサポートが追加されました** — カスタム在庫でElasticsearchを設定および使用できるようになりました。 インストールについては、[Elasticsearch サービスの設定 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"} を参照してください。<!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![ 修正された問題 ](../assets/fix.svg) デフォルトの Stock に関するパフォーマンスの問題を解決し、多数の操作でパフォーマンスを大幅に向上させました。 改善により、シングルソースモード、Sourceへの在庫転送、ストアフロントカテゴリページ、販売可能数量の計算のパフォーマンスが向上しました。
 
@@ -290,4 +291,4 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ![ 新規 ](../assets/new.svg)**拡張されたソース数量リスト** – 多数のソースを持つマーチャントは、製品グリッドを通じて、製品ごとのすべてのソースを簡単に移動して表示できます。 各製品には、最低 5 つのソースと一致する数量が表示されます。 ソースの上にマウスポインターを置くと、ソースと現在の数量のリスト全体をスクロールできます。
 
-![ 既知の問題 ](../assets/bug.svg) Magento Open SourceとAdobe Commerce v2.3.1 に関する既知の問題 – ソース間のデータの非同期移行では、PHP クラスとメソッド名を反映したトピック名を持つ非同期 API の変更に起因する問題が発生します。 同期操作を使用する場合は、**[!UICONTROL Run asynchronously]** を `No` に設定することをお勧めします。
+![ 既知の問題 ](../assets/bug.svg) Magento Open SourceおよびAdobe Commerce v2.3.1 に関する既知の問題 – ソース間のデータの非同期移行では、PHP クラスとメソッド名を反映したトピック名を持つ非同期 API の変更に起因する問題が発生します。 同期操作を使用する場合は、**[!UICONTROL Run asynchronously]** を `No` に設定することをお勧めします。

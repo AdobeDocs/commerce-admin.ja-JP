@@ -1,12 +1,13 @@
 ---
 title: '[!DNL Inventory Management] CLI リファレンス'
-description: インベントリデータと設定を管理するためにモジュールが提供するコマンドについて説明します  [!DNL Inventory Management]
+description: 'インベントリデータと設定を管理するためにモジュールが提供するコマンドについて説明します  [!DNL Inventory Management] '
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced
 feature: Inventory, Configuration
-source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
