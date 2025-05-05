@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ### 管理セッション
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 最大セッションサイズを超えると、エラーメッセージが表示され、セッションサイズの制約が `var/log` ディレクトリに記録されます。
 
@@ -60,7 +60,7 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 ### ストアフロントセッション
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 最大セッションサイズを超えると、エラーは表示されませんが、セッションサイズの制約が `var/log` ディレクトリに記録されます。
 
@@ -68,7 +68,7 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 Adobe CommerceとMagento Open Sourceでは、セッション固定攻撃の可能性や、ユーザーセッションに対する毒物の使用またはハイジャックの試みに対する防御手段として、セッション変数を検証できます。 セッション検証設定は、各ストア訪問の間にセッション変数を検証する方法、およびセッション ID がストアの URL に含まれるかどうかを決定します。
 
-技術情報については、_設定ガイド_ の [ セッションストレージに Redis を使用する ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) を参照してください。
+技術情報については、_設定ガイド_ の [ セッションストレージに Redis を使用する ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=ja) を参照してください。
 
 ![ 一般設定 – Web セッションの検証 ](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

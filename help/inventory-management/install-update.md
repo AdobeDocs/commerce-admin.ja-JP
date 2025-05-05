@@ -4,7 +4,7 @@ description: メタパッケージの管理方法  [!DNL Inventory Management]  
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
 source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
 source-wordcount: '620'
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 [!DNL Inventory Management] は、Adobe CommerceおよびMagento Open Sourceの 2.3.x および 2.4.x リリースにインストールされ、すべての機能がデフォルトで有効になっています。 これらのインベントリ機能を有効にするために必要な追加手順はありません。 v2.1.x または 2.2.x からのアップグレードでは、追加の手順が必要になる場合があります。 [Inventory managementのアップグレード ](#upgrade-inventory-management) を参照してください。
 
-[ オンプレミスでのクイックスタートインストール ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"} に従ったインストールをお勧めします。 すべての [!DNL Inventory Management] モジュールを受け取るためにメタパッケージと一緒にインストールします。
+[ オンプレミスでのクイックスタートインストール ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=ja){target="_blank"} に従ったインストールをお勧めします。 すべての [!DNL Inventory Management] モジュールを受け取るためにメタパッケージと一緒にインストールします。
 
 `composer.json` メタパッケージの次の行は [!DNL Inventory Management] をインストールします。
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 * 2.0.x、2.1.x、2.2.x、または 2.3.x から 2.4.x に移行するマーチャントのアップグレードプロセスを迅速化します。
 * カスタムまたはサードパーティの在庫および受注管理システム・モジュールを使用します。
 
-該当するモジュールを無効にする方法については、_インストール ガイド_ の [ モジュールの有効化または無効化 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) ページを参照してください。
+該当するモジュールを無効にする方法については、_インストール ガイド_ の [ モジュールの有効化または無効化 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=ja) ページを参照してください。
 
 完了すると、次で始まるモジュールと値のリストが `<Magento_installation_directory>/app/etc/config.php` 示されます。
 
@@ -241,5 +241,5 @@ Adobe CommerceまたはMagento Open Source 2.4.x への既存の 2.1.x、2.2.x �
 
 Commerceのアップグレードについて詳しくは、次のガイドを参照してください。
 
-* [Commerce アップデートガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
-* [ モジュールの有効化または無効化 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}
+* [Commerce アップデートガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=ja){target="_blank"}
+* [ モジュールの有効化または無効化 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=ja){target="_blank"}

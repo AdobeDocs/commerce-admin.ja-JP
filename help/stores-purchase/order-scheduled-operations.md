@@ -45,11 +45,11 @@ ht-degree: 0%
 
 **_更新とインデックス再作成を有効にするには：_**
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}[ 実稼動モード ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) （クラウドインフラストラクチャ上のAdobe Commerceで使用されるデフォルトモード）が有効な場合、次のコマンドを実行します。
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}[ 実稼動モード ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=ja#production-mode) （クラウドインフラストラクチャ上のAdobe Commerceで使用されるデフォルトモード）が有効な場合、次のコマンドを実行します。
 
 `bin/magento config:set dev/grid/async_indexing 1`
 
-[ デフォルトモード ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) が有効な場合、次の手順を実行します。
+[ デフォルトモード ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=ja#default-mode) が有効な場合、次の手順を実行します。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 

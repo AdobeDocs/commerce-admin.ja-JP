@@ -33,7 +33,7 @@ ht-degree: 0%
    >
    >スケジュールされたインポート/エクスポートを作成または更新すると、システム設定が変更されます。 保存後、管理ページの上部に表示されるキャッシュ無効化通知に対処し、キャッシュをフラッシュして、新しいスケジュールまたは更新されたスケジュールを適用してください。
 
-1. [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} スケジュールされた各ジョブの後、ファイルのコピーがAdobe Commerce ローカルサーバーの `var/log/import_export` ディレクトリに配置されます。
+1. [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} スケジュールされた各ジョブの後、ファイルのコピーがAdobe Commerce ローカルサーバーの `var/log/import_export` ディレクトリに配置されます。
 
    各操作の詳細はログには書き込まれません。 エラーが発生した場合は、失敗したインポート/エクスポートジョブの通知が、エラーの説明と共に送信されます。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 各インポート操作の詳細はログに書き込まれませんが、エラーが発生した場合は、エラーの説明を記載した _インポートに失敗しました_ メールが届きます。 最後にスケジュールされた読み込みジョブの結果は、スケジュールされた読み込み/書き出しページの最後の結果列に表示されます。
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} 読み込み操作のたびに、Adobe CommerceまたはMagento Open Sourceがデプロイされているサーバー上の `var/log/import_export` ディレクトリに読み込みファイルのコピーが配置されます。 タイムスタンプ、読み込まれたエンティティ（製品または顧客）のマーカー、操作のタイプ（この場合は import）がインポートファイル名に追加されます。
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} 読み込み操作のたびに、Adobe CommerceまたはMagento Open Sourceがデプロイされているサーバー上の `var/log/import_export` ディレクトリに読み込みファイルのコピーが配置されます。 タイムスタンプ、読み込まれたエンティティ（製品または顧客）のマーカー、操作のタイプ（この場合は import）がインポートファイル名に追加されます。
 
 スケジュールされた各インポートジョブの後、再インデックス操作が自動的に実行されます。 フロントエンドでは、記述などのテキスト情報の変更は更新されたデータがデータベースに送信された後に反映され、価格の変更は再インデックス操作の後にのみ反映されます。
 
@@ -203,7 +203,7 @@ ht-degree: 0%
 
 各エクスポートの詳細はログに書き込まれませんが、エラーが発生した場合は、エラーの説明が記載されたエクスポート失敗のメールが届きます。 最後のエクスポートジョブの結果は、スケジュールされたインポート/エクスポートページの最後の結果列に表示されます。
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} 各エクスポート後、エクスポートファイルはユーザー定義の場所に配置され、コピーはAdobe CommerceまたはMagento Open Sourceがデプロイされているサーバーの `var/log/import_export` ディレクトリに配置されます。 エクスポートされたエンティティ（製品または顧客）のタイムスタンプとマーカー、および操作のタイプ（この場合はエクスポート）がエクスポートファイル名に追加されます。
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} 各エクスポート後、エクスポートファイルはユーザー定義の場所に配置され、コピーはAdobe CommerceまたはMagento Open Sourceがデプロイされているサーバーの `var/log/import_export` ディレクトリに配置されます。 エクスポートされたエンティティ（製品または顧客）のタイムスタンプとマーカー、および操作のタイプ（この場合はエクスポート）がエクスポートファイル名に追加されます。
 
 ### 手順 1：書き出し設定の完了
 

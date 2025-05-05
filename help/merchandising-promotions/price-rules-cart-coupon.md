@@ -62,7 +62,7 @@ Commerce 2.4.7 以降では、買い物客は 1 つの買い物かごに複数�
 
 >[!NOTE]
 >
->[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} クーポンを作成する前に、`bin/magento cron:run` コマンドを使用して cron が実行されていることを確認します。 詳しくは、『 _設定ガイド_ の [ コマンドラインからの cron の実行 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) を参照してください。
+>[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} クーポンを作成する前に、`bin/magento cron:run` コマンドを使用して cron が実行されていることを確認します。 詳しくは、『 _設定ガイド_ の [ コマンドラインからの cron の実行 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ja#run-cron-from-the-command-line) を参照してください。
 
 ### 方法 1：特定のクーポンの作成
 
