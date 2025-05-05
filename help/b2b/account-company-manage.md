@@ -208,7 +208,7 @@ _[!UICONTROL Companies]_&#x200B;のページには、ステータスに関係な
 
 以下のビデオで、会社アカウントの管理について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410773?quality=12&learn=on&captions=jpn)
 
 ## 会社管理
 

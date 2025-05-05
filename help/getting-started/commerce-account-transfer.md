@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Verify]**」をクリックします。
 
->[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447660/?learn=on&captions=jpn)
 
 ## メールの変更
 

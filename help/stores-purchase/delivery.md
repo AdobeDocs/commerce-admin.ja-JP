@@ -40,4 +40,4 @@ Adobe CommerceとMagento Open Sourceは、幅広い配信方法と配送業者�
 
 配送および配信方法については、次のビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410208/?quality=12&learn=on&captions=jpn)

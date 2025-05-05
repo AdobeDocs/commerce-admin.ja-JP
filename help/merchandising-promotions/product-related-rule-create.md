@@ -84,7 +84,7 @@ ht-degree: 0%
 
 関連する製品ルールの作成については、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343837?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411064?quality=12&learn=on&captions=jpn)
 
 ## フィールドの説明
 

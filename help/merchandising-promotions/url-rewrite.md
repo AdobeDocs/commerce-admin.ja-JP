@@ -107,4 +107,4 @@ Commerceには、次の URL 書き換えタイプがあります。
 
 URL の書き換えの管理については、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410126?quality=12&learn=on&captions=jpn)

@@ -119,4 +119,4 @@ ht-degree: 0%
 
 このデモビデオで会社のクレジットの管理について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410761?quality=12&learn=on&captions=jpn)

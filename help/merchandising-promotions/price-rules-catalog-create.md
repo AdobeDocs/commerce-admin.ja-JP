@@ -224,7 +224,7 @@ ht-degree: 0%
 
 カタログ価格ルールの作成については、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410850?quality=12&learn=on&captions=jpn)
 
 ## フィールドの説明
 

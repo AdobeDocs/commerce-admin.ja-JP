@@ -39,7 +39,7 @@ Adobe CommerceとMagento Open Sourceは、注文が送信される前に SKU と
 
 次のビデオで、販売者支援による買い物について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410203/?quality=12&learn=on&captions=jpn)
 
 ## オーダー管理と運用
 

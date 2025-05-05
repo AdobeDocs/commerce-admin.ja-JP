@@ -40,7 +40,7 @@ Adobe Experience Manager（AEM）CommerceのAssets統合では、AEM as a Digita
 
 このビデオでは、Adobe CommerceとAEM Assetsを連携させてコンテンツワークフローを効率化する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447837)
+>[!VIDEO](https://video.tv.adobe.com/v/3447884?captions=jpn)
 
 ## 次の手順
 

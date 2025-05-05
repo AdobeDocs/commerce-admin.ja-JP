@@ -150,4 +150,4 @@ B2B の顧客は、必要な [ 自分の役割の権限 ](account-company-roles-
 
 発注書の承認について詳しくは、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410767?quality=12&learn=on&captions=jpn)

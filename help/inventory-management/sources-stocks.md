@@ -65,4 +65,4 @@ Sales Channelは、web サイト、ストアビュー、B2B カスタマーグ�
 
 Inventory managementのソースと在庫については、このビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410198?quality=12&learn=on&captions=jpn)
