@@ -2,9 +2,9 @@
 title: 管理システムの概要
 description: サイト、データ、統合および管理者ユーザーを効果的に管理するためにストアの管理者が使用できるシステムツールおよび機能について説明します。
 exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
-source-git-commit: 46564240e7f76cf2a691c209b36d530763ba4f01
+source-git-commit: 51c8b526e1f03e65ad71eb00ec3cdf82365bd33c
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -32,4 +32,4 @@ ht-degree: 0%
 - **データ転送** - [ データ転送 ](data-transfer.md) ツールを使用して、データの読み込みと書き出しを行い、製品、価格、顧客、税率のデータを管理します。
 - **統合** - [ サードパーティ統合 ](integrations.md) 用の OAuth 認証情報とリダイレクト URL の場所を確立し、使用可能な API リソースを特定します。
 - **アクションログ** - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）ストアで作業している管理者ユーザーによる変更について、レコード（[ アクションログ ](action-log.md)）にアクセスします。
-- **サポートツール** - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）サポートツール（[ データコレクター ](support.md#data-collector) および [ システムレポート ](support.md#access-system-reports)）は、システムの既知の問題を特定するように設計されています。 開発および最適化プロセス中のリソースとして、また、サポートチームが問題を特定して解決するのに役立つ診断ツールとして使用できます。
+- **サポートツール** - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [ システムレポート ](support.md#access-system-reports) は、システムの既知の問題を特定するように設計されています。 開発および最適化プロセス中のリソースとして、また、サポートチームが問題を特定して解決するのに役立つ診断ツールとして使用できます。
