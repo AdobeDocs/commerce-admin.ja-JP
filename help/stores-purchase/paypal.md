@@ -3,9 +3,10 @@ title: PayPal 支払いソリューション
 description: ストアで使用できる PayPal 支払いソリューションの統合について説明します。
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -102,7 +103,7 @@ PayPal の不正管理フィルターを使用すると、不正な取引を検�
 | アクション | 結果 |
 | --- | --- |
 | [!UICONTROL Review] | 疑わしい注文は、注文が行われると、ステータス _支払いレビュー_ を受け取ります。 注文を確認して承認するか、管理者または PayPal 側で支払いをキャンセルすることができます。 **[!UICONTROL Accept Payment]** または **[!UICONTROL Deny Payment]** をクリックすると、注文の新しいトランザクションは作成されません。 <br/><br/>PayPal サイトで取引のステータスを変更する場合は、管理者の注文ページの **[!UICONTROL Get Payment Update]** をクリックして変更を適用する必要があります。 **[!UICONTROL Accept Payment]** または **[!UICONTROL Deny Payment]** をクリックすると、PayPal サイトで行われた変更が適用されます。 |
-| [!UICONTROL Deny] | 対応する取引は PayPal によって拒否されるため、疑わしい注文を顧客が行うことはできません。 <br/><br/> 管理者から支払いを拒否するには、ページの右上隅にある「**[!UICONTROL Deny Payment]**」をクリックします。 注文ステータスが `Canceled` に変わり、トランザクションが取り消され、資金が顧客口座でリリースされます。 対応する情報が注文表示の _[!UICONTROL Comments History]_&#x200B;セクションに追加されます。 |
+| [!UICONTROL Deny] | 対応する取引は PayPal によって拒否されるため、疑わしい注文を顧客が行うことはできません。 <br/><br/> 管理者から支払いを拒否するには、ページの右上隅にある「**[!UICONTROL Deny Payment]**」をクリックします。 注文ステータスが `Canceled` に変わり、トランザクションが取り消され、資金が顧客口座でリリースされます。 対応する情報が注文表示の _[!UICONTROL Comments History]_セクションに追加されます。 |
 | [!UICONTROL Flag] | 注文が行われると、疑わしい注文がステータス `Processing` を取得します。 該当する取引は、商社勘定の取引のリスト内でフラグ付きでマークされます。 |
 
 {style="table-layout:auto"}

@@ -3,9 +3,10 @@ title: PayPal 支払い標準
 description: ストアでオンライン支払いソリューションとして PayPal Payments Standard を設定する方法を説明します。
 exl-id: b4024dac-34d7-4f1a-ad9d-0fc406194609
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2081'
 ht-degree: 0%
 
 ---
@@ -51,13 +52,13 @@ PayPal Payments Standard を使用すると、モバイルデバイスでクレ�
 
 この設定方法は、既存の PayPal アカウントがあることを前提としています。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Payment Methods]**」を選択します。
 
 1. Commerceのインストールに複数の web サイト、ストアまたはビューがある場合は、この設定を適用するストアビューに **[!UICONTROL Store View]** を設定します。
 
-1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが所在する&#x200B;**[!UICONTROL Merchant Country]**&#x200B;を選択します。
+1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが所在する&#x200B;**[!UICONTROL Merchant Country]**を選択します。
 
    この設定により、設定に表示される PayPal ソリューションの選択が決まります。
 
@@ -269,7 +270,7 @@ PayPal Payments Standard を使用すると、モバイルデバイスでクレ�
 1. **[!UICONTROL Payment from Applicable Countries]** を次のいずれかに設定します。
 
    - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、それぞれのオプションをクリックします。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、それぞれのオプションをクリックします。
 
 1. 支払いシステムとの通信をログファイルに記録するには、**[!UICONTROL Debug Mode]** を `Yes` に設定します。
 
@@ -340,7 +341,7 @@ PayPal Payments Standard を使用すると、モバイルデバイスでクレ�
 1. **[!UICONTROL Payment Applicable From]** を次のいずれかに設定します。
 
    - `All Allowed Countries` - ストア設定で指定されたすべての国の顧客は、この支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;のリストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、それぞれの国をクリックします。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_のリストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、それぞれの国をクリックします。
 
 1. 支払いシステムとの通信をログファイルに記録するには、**[!UICONTROL Debug Mode]** を `Yes` に設定します。
 
@@ -397,7 +398,7 @@ PayPal Payments Standard を使用すると、モバイルデバイスでクレ�
 
 #### フロントエンドエクスペリエンス設定
 
-_[!UICONTROL Frontend Experience Settings]_&#x200B;を使用して、サイトに表示する PayPal ロゴを選択したり、PayPal マーチャントページの外観をカスタマイズしたりします。
+_[!UICONTROL Frontend Experience Settings]_を使用して、サイトに表示する PayPal ロゴを選択したり、PayPal マーチャントページの外観をカスタマイズしたりします。
 
 1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Frontend Experience Settings]**」セクションを展開します。
 

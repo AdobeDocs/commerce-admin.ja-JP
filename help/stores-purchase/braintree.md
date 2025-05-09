@@ -1,11 +1,12 @@
 ---
 title: Braintree
-description: Learn how to set up Braintree as an online payment solution on your store.
+description: ストアでオンライン支払いソリューションとしてBraintreeを設定する方法を説明します。
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-source-git-commit: bb083698aff1da145bbb661307148c9223d5b545
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '2873'
+source-wordcount: '2890'
 ht-degree: 0%
 
 ---
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->カードに予想外の料金が発生した場合は、[ サブスクリプションをキャンセル ](https://helpx.adobe.com/jp/manage-account/using/cancel-subscription.html) ページでサポートを受けることができます。
+>カードに予想外の料金が発生した場合は、[ サブスクリプションをキャンセル ](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) ページでサポートを受けることができます。
 
-Braintree offers a fully customizable checkout experience with fraud detection and PayPal integration. It supports [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo, and local payment methods. Braintree reduces the PCI compliance burden for merchants because the transaction takes place on the Braintree system. Braintree Payments の統合は、[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) によって開発されました。
+Braintreeは、不正検知と PayPal 統合により、完全にカスタマイズ可能なチェックアウトエクスペリエンスを提供します。 [!DNL Apple Pay]、[!DNL Google Pay]、ACH、Venmo、およびローカルの支払い方法をサポートします。 BraintreeではBraintree システム上で取引が行われるので、マーチャントの PCI コンプライアンスに関する負担が軽減されます。 Braintree Payments の統合は、[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) によって開発されました。
 
 >[!NOTE]
 >
@@ -29,13 +30,13 @@ Braintree offers a fully customizable checkout experience with fraud detection a
 
 ## 手順 2：基本設定を完了する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Payment Methods]**」を選択します。
 
    - Commerceのインストールに複数の web サイト、ストア、ビューがある場合は、左上隅で設定が適用される **[!UICONTROL Store View]** を選択します。
 
-   - _[!UICONTROL Merchant Location]_&#x200B;セクションで、**[!UICONTROL Merchant Country]**&#x200B;がビジネスの場所に設定されていることを確認します。
+   - _[!UICONTROL Merchant Location]_セクションで、**[!UICONTROL Merchant Country]**がビジネスの場所に設定されていることを確認します。
 
 1. 「_[!UICONTROL Recommended Solutions]_」の「_[!UICONTROL Braintree Payments] （[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [ リリースノート ](https://support.gene.co.uk/support/solutions/articles/35000278668)_」セクションで、「**[!UICONTROL Configure]**」をクリックします。
 
@@ -113,7 +114,7 @@ Braintree offers a fully customizable checkout experience with fraud detection a
 
 1. **[!UICONTROL Enable Webhook]** を `Yes` に設定すると、不正防止、ACH 支払いおよびローカル支払い方法の Webhook 機能が有効になります。
 
-1. 「**[!UICONTROL Fraud Protection URL]**」フィールドに URL をコピーし、_[!UICONTROL Webhook Destination URL]_&#x200B;としてBraintree アカウントに追加します。
+1. 「**[!UICONTROL Fraud Protection URL]**」フィールドに URL をコピーし、_[!UICONTROL Webhook Destination URL]_としてBraintree アカウントに追加します。
 
    >[!IMPORTANT]
    >
@@ -132,11 +133,11 @@ Braintree offers a fully customizable checkout experience with fraud detection a
 1. **[!UICONTROL Payment from Applicable Countries]** を次のいずれかに設定します。
 
    - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;のリストが表示されます。 Hold down the Ctrl key (PC) or the Command key (Mac) and select each country in the list where customers can make purchases from your store.
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
 
-   ![Country-Specific Settings](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png){width="600" zoomable="yes"}
+   ![ 国別の設定 ](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png){width="600" zoomable="yes"}
 
-1. To set up **[!UICONTROL Country Specific Credit Card Types]**:
+1. **[!UICONTROL Country Specific Credit Card Types]** を設定するには：
 
    - 「**[!UICONTROL Add]**」をクリックします。
 
@@ -150,7 +151,7 @@ Braintree offers a fully customizable checkout experience with fraud detection a
 
 1. Braintreeの支払いオプションとして ACH を含めるには、**[!UICONTROL Enable ACH Direct Debit]** を `Yes` に設定します。
 
-1. お客様は、1 回限りの ACH Direct Debit 支払い方法をヴォールティングし、将来の使用のために保存できます。 Once vaulted, customers can reuse ACH Direct Debit without needing to re-enter or authenticate their payment information if set **[!UICONTROL Enable Vault for ACH Direct Debit]** to `Yes`.
+1. お客様は、1 回限りの ACH Direct Debit 支払い方法をヴォールティングし、将来の使用のために保存できます。 ヴォールト後、お客様は ACH Direct Debit を再利用できます。`Yes` に設定されている場合は、支払い情報を再入力または認証する必要は **[!UICONTROL Enable Vault for ACH Direct Debit]** りません。
 
 1. **[!UICONTROL Sort Order]**：番号を入力して、チェックアウト時に他の支払い方法と一緒に表示されるBraintree ACH 支払い方法の順序を指定します。
 
@@ -247,11 +248,11 @@ Braintree offers a fully customizable checkout experience with fraud detection a
 
    - Braintreeの支払いオプションとして [!DNL PayPal Credit] を含めるには、**[!UICONTROL Enable PayPal Credit through Braintree]** を `Yes` に設定します。
 
-     When **Enable PayPal through Braintree** is set to `Yes`, only this field appears.
+     **Braintreeで PayPal を有効にする** が `Yes` に設定されている場合、このフィールドのみが表示されます。
 
      >[!NOTE]
      >
-     >PayPal Credit is only available in the United States and United Kingdom. PayPal Credit is disabled if the selected value for the _[!UICONTROL Merchant Country]_&#x200B;field is not `US` or `UK`.
+     >PayPal クレジットは米国および英国でのみ利用できます。 _[!UICONTROL Merchant Country]_フィールドに選択した値が `US` または `UK` でない場合、PayPal クレジットは無効になります。
 
    - Braintreeの支払いオプションとして [!DNL PayPal PayLater] を含めるには、**[!UICONTROL Enable PayPal PayLater through Braintree]** を `Yes` に設定します。
 
@@ -263,9 +264,9 @@ Braintree offers a fully customizable checkout experience with fraud detection a
 
 1. **[!UICONTROL Vault Enabled]** を `Yes` に設定すると、顧客の PayPal アカウントを保存するためのセキュアなコンテナを使用できるようになります。 ヴォールティングされた PayPal アカウントは、将来のトランザクションに使用でき、顧客のステップ数を減らすことができます。
 
-1. Set **[!UICONTROL Send Cart Line Items for PayPal]** to `Yes` to send the line items (order items) to PayPal along with Gift Cards, Gift Wrapping for items, Gift Wrapping for order, Store Credit, Shipping, and Tax as line items.
+1. 行項目（注文項目）を PayPal に送信し、ギフトカード、商品のギフトラッピング、注文のギフトラッピング、ストアクレジット、配送、税を行項目として送信するには、**[!UICONTROL Send Cart Line Items for PayPal]** を `Yes` に設定します。
 
-1. For **[!UICONTROL Sort Order]**, enter a number to determine the sequence in which the Braintree PayPal payment option appears when listed with other payment options during checkout.
+1. **[!UICONTROL Sort Order]** しくは、数字を入力して、チェックアウト時に他の支払いオプションと一緒に表示されるBraintree PayPal 支払いオプションの表示順序を指定します。
 
 1. [ ストア設定 ](../getting-started/store-details.md#store-information) で定義した名前とは異なるマーチャント名を表示するには、表示したい名前を **[!UICONTROL Override Merchant Name]** フィールドに入力します。
 
@@ -277,7 +278,7 @@ Braintree offers a fully customizable checkout experience with fraud detection a
 1. PayPal で処理されるBraintree トランザクションの場合は、**[!UICONTROL Payment from Applicable Countries]** を次のいずれかに設定します。
 
    - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
 
    ![Braintree設定 2 を使用した PayPal](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
 
@@ -375,7 +376,7 @@ Braintree offers a fully customizable checkout experience with fraud detection a
 
 **[!UICONTROL Checkout]**
 
-![Pay Later Message - Checkout Page settings](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-checkout.png){width="600" zoomable="yes"}
+![ 後払いメッセージ – チェックアウトページの設定 ](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-checkout.png){width="600" zoomable="yes"}
 
 1. チェックアウト時にストアフロントに [!DNL Pay Later] のメッセージを表示するには、**[!UICONTROL Show PayLater Messaging]** を `Yes` に設定します。
 
@@ -398,7 +399,7 @@ Braintree offers a fully customizable checkout experience with fraud detection a
 4. **[!UICONTROL Verify for Applicable Countries]** を次のいずれかに設定します。
 
    - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Verify for Specific Countries]_&#x200B;のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Verify for Specific Countries]_のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
 
    ![3D 検証設定 ](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 

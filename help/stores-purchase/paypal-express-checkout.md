@@ -3,9 +3,10 @@ title: PayPal Express チェックアウト
 description: ストアでオンライン支払いソリューションとして PayPal Express Checkout を設定する方法を説明します。
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3110'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ PayPal Express Checkout は、顧客がクレジットカードまたは個人�
 >**PSD2 の要件：** <br/>
 >2019 年 9 月 14 日（PT）現在、ヨーロッパの銀行は、[PSD2](../getting-started/compliance-payment-services-directive.md) の要件を満たさない支払いを拒否する可能性があります。 PayPal Express Checkout がPSD2 に準拠するには、すべての要件が PayPal で処理されるため、何もする必要はありません。
 
-現在 PayPal アカウントをお持ちのお客様は、_[!UICONTROL Check out with PayPal]_&#x200B;ボタンをクリックすると、1 回の手順で購入することができます。 エクスプレスチェックアウトは、スタンドアロンとして、または PayPal オールインワンソリューションの 1 つと共に使用できます。 既にオンラインでクレジットカードを受け入れている場合は、PayPal で支払うことを好む新規顧客を引き付けるための追加オプションとしてエクスプレスチェックアウトを提供できます。
+現在 PayPal アカウントをお持ちのお客様は、_[!UICONTROL Check out with PayPal]_ボタンをクリックすると、1 回の手順で購入することができます。 エクスプレスチェックアウトは、スタンドアロンとして、または PayPal オールインワンソリューションの 1 つと共に使用できます。 既にオンラインでクレジットカードを受け入れている場合は、PayPal で支払うことを好む新規顧客を引き付けるための追加オプションとしてエクスプレスチェックアウトを提供できます。
 
 >[!NOTE]
 >
@@ -87,13 +88,13 @@ PayPal Express Checkout とオールインワンソリューションの 2 つ�
 
 ### 手順 1：設定の開始
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Payment Methods]**」を選択します。
 
 1. インストールに複数の web サイト、ストア、またはビューがある場合は、この設定を適用するストア表示に **[!UICONTROL Store View]** を設定します。
 
-1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが所在する&#x200B;**[!UICONTROL Merchant Country]**&#x200B;を選択します。
+1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが所在する&#x200B;**[!UICONTROL Merchant Country]**を選択します。
 
    この設定により、設定に表示される PayPal ソリューションの選択が決まります。
 
@@ -332,7 +333,7 @@ PayPal Express Checkout とオールインワンソリューションの 2 つ�
 1. **[!UICONTROL Payment Applicable From]** を次のいずれかに設定します。
 
    - `All Allowed Countries` - ストア設定で指定されたすべての国の顧客は、この支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;のリストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、各項目をクリックします。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_のリストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、各項目をクリックします。
 
 1. 支払いシステムとの通信をログファイルに書き込むには、**[!UICONTROL Debug Mode]** を `Yes` に設定します。
 
@@ -409,7 +410,7 @@ PayPal Express Checkout とオールインワンソリューションの 2 つ�
 1. **[!UICONTROL Payment Applicable From]** を次のいずれかに設定します。
 
    - `All Allowed Countries` - ストア設定で指定されたすべての国の顧客は、この支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;のリストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、それぞれの国をクリックします。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_のリストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、それぞれの国をクリックします。
 
 1. 支払いシステムとの通信をログファイルに記録するには、**[!UICONTROL Debug Mode]** を `Yes` に設定します。
 
@@ -579,5 +580,5 @@ _スマート支払いボタン_ 機能を使用すると、PayPal ボタンを�
 [3]: https://manager.paypal.com/
 [4]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
 [5]: https://www.paypal.com/rs/webapps/mpp/express-checkout
-[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout
+[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;amp;page=incontextProductCheckout
 [7]: https://developer.paypal.com/docs/api-basics/sandbox/

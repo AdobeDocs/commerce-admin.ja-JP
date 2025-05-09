@@ -3,9 +3,9 @@ title: ストアの詳細
 description: ストアの基本情報を更新する方法を説明します。
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 81b55a634d33b79d3164a4d438ae0f23198bc364
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Store Information]
 
-_[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキュメントやその他のコミュニケーションに表示される基本情報を提供します。
+_[!UICONTROL Store Information]_のセクションでは、販売ドキュメントやその他のコミュニケーションに表示される基本情報を提供します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルの「**[!UICONTROL General]**」で、「**[!UICONTROL General]**」を選択します。
 
@@ -63,7 +63,7 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 ロケール設定は、各ストアに使用されるタイムゾーンと言語を決定し、そのエリアの営業週の曜日を識別します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルの **[!UICONTROL General]** の下で、「**[!UICONTROL General]**」を選択します。
 
@@ -93,7 +93,7 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 標準の住所形式は国によって異なるので、請求書、梱包明細、出荷ラベルの住所の書式設定に使用するテンプレートを編集することもできます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルの「**[!UICONTROL General]**」で、「**[!UICONTROL General]**」を選択します。
 
@@ -119,7 +119,7 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 ### ストアの国オプションの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルの **[!UICONTROL General]** の下で、「**[!UICONTROL General]**」を選択します。
 
@@ -151,7 +151,7 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 また、利用可能な [ 配送方法 ](../stores-purchase/delivery.md) （UPS、FedEx など）ごとに、特定の国への配送を設定することもできます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルで **[!UICONTROL Sales]** を展開し、「**[!UICONTROL Delivery Methods]**」を選択します。
 
@@ -169,13 +169,15 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 国の設定に関する問題のトラブルシューティングについては、[!DNL Commerce] サポートナレッジベースの次の記事を参照してください。
 
-- [ 国を追加する方法 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=ja)
+- [ 国を追加する方法 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
 
+[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+
 「マーチャントの場所」設定は、[ 支払い方法 ](../stores-purchase/payments.md) の設定に使用します。 この設定に値がない場合は、[ デフォルトの国 ](#uicontrol-country-options) 設定が使用されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルで **[!UICONTROL Sales]** を展開し、「**[!UICONTROL Payment Methods]**」を選択します。
 
@@ -213,7 +215,7 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 ### 手順 2：ストアのメールアドレスの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルの「**[!UICONTROL General]**」で、「**[!UICONTROL Store Email Addresses]**」を選択します。
 
@@ -269,7 +271,7 @@ Luma のサンプルデータには、ストアに合わせてページをカス
 
 ### お問い合わせフォームの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルの **[!UICONTROL General]** の下で、「**[!UICONTROL Contacts]**」を選択します。
 
@@ -297,7 +299,7 @@ Luma のサンプルデータには、ストアに合わせてページをカス
 
 Luma サンプルデータには、ストア用にカスタマイズできる _お問い合わせ情報_ ブロックが含まれています。 `contact-us-info` [ ブロック ](../content-design/blocks.md) は簡単に変更でき、お問い合わせページに独自のコンテンツを追加できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**に移動します。
 
 1. リストで **[!UICONTROL Contact Us Info]** ブロックを見つけ、**[!UICONTROL Edit]** モードで開きます。
 
@@ -311,11 +313,11 @@ Luma サンプルデータには、ストア用にカスタマイズできる _�
    >
    >[[!DNL Page Builder]  無効 ](../page-builder/setup.md#disable-dnl-page-builder) になっている場合は、エディター [ ツールバー ](../content-design/editor.md) を使用してテキストの書式を設定し、[ 画像 ](../content-design/editor-insert-image.md) および [ リンク ](../content-design/editor-insert-link.md) を追加できます。
 
-1. HTMLコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](../page-builder/assets/pb-icon-settings.png)）アイコンを選択します。
+1. HTML コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](../page-builder/assets/pb-icon-settings.png)）アイコンを選択します。
 
-1. 店舗の連絡先情報を入力したに従ってHTMLコードを編集し、「**[!UICONTROL Save]**」をクリックします。
+1. ストアの連絡先情報を入力したに従ってHTML コードを編集し、「**[!UICONTROL Save]**」をクリックします。
 
-   ![ コンテンツブロック -HTMLコードを編集 ](./assets/content-block-contact-us-html.png){width="700"}
+   ![ コンテンツブロック - HTML コードの編集 ](./assets/content-block-contact-us-html.png){width="700"}
 
 1. [!DNL Page Builder] ステージを終了し、「**[!UICONTROL Save Block]**」をクリックします。
 

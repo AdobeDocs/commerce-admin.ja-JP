@@ -3,9 +3,10 @@ title: PayPal 決済レポート
 description: PayPal トランザクションを管理するツールとしての PayPal 決済レポートについて説明します。
 exl-id: cd087e15-e6ad-4472-9038-8c64fde316f9
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ PayPal マーチャントアカウントで決済レポートを設定して有�
 
 **_決済レポートを表示する手順は、次のとおりです。_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Sales]_/**[!UICONTROL PayPal Settlement]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Sales]_/**[!UICONTROL PayPal Settlement]**に移動します。
 
    ![PayPal 決済レポート ](../getting-started/assets/reports-sales-paypal-settlement.png){width="600" zoomable="yes"}
 

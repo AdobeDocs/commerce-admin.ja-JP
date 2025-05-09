@@ -3,23 +3,24 @@ title: PayPal ペイフローリンク
 description: ストアでオンライン支払いソリューションとして PayPal Payflow Link を設定する方法を説明します。
 exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2178'
 ht-degree: 0%
 
 ---
 
 # PayPal ペイフローリンク
 
-PayPal Payflow Link は、米国およびカナダのマーチャントのみが利用できます。 お客様は PayPal アカウントを持ち、PayPal が管理するフォームにクレジットカード情報を入力する必要はありません。 この情報は、Adobe CommerceやMagento Open Sourceサーバーに保存されません。 Payflow Link は、管理者から作成された注文には使用できません。
+PayPal Payflow Link は、米国およびカナダのマーチャントのみが利用できます。 お客様は PayPal アカウントを持ち、PayPal が管理するフォームにクレジットカード情報を入力する必要はありません。 これらの情報は、Adobe CommerceやMagento Open Source サーバーに保存されません。 Payflow Link は、管理者から作成された注文には使用できません。
 
 オンラインとオフラインの両方の払い戻しでクレジットメモがサポートされています。 ただし、複数のオンライン払い戻しはサポートされていません。
 
 >[!IMPORTANT]
 >
 >**PSD2 の要件：** <br/>
->2019 年 9 月 14 日（PT）現在、ヨーロッパの銀行は、[PSD2](../getting-started/compliance-payment-services-directive.md) の要件を満たさない支払いを拒否する可能性があります。 PSD2 に準拠するには、PayPal Payflow Link を Cardinal Commerceと統合する必要があります。 詳しくは、[3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/) を参照してください。
+>2019 年 9 月 14 日（PT）現在、ヨーロッパの銀行は、[PSD2](../getting-started/compliance-payment-services-directive.md) の要件を満たさない支払いを拒否する可能性があります。 PSD2 に準拠するには、PayPal Payflow Link をCommerceと統合する必要があります。 詳しくは、[3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/) を参照してください。
 
 ## 要件
 
@@ -92,13 +93,13 @@ PayPal Payflow Link は、米国およびカナダのマーチャントのみが
 
 この設定方法は、既存の PayPal アカウントがあることを前提としています。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Payment Methods]**」を選択します。
 
 1. Commerceのインストールに複数の web サイト、ストアまたはビューがある場合は、この設定を適用するストアビューに **[!UICONTROL Store View]** を設定します。
 
-1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが所在する&#x200B;**[!UICONTROL Merchant Country]**&#x200B;を選択します。
+1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが所在する&#x200B;**[!UICONTROL Merchant Country]**を選択します。
 
    この設定により、設定に表示される PayPal ソリューションの選択が決まります。
 
@@ -293,7 +294,7 @@ PayPal Payflow Link は、米国およびカナダのマーチャントのみが
 1. **[!UICONTROL Payment Applicable From]** を次のいずれかに設定します。
 
    - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;のリストが表示されます。 Ctrl キーを押しながら、顧客がストアから購入できるリストの各国を選択します。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_のリストが表示されます。 Ctrl キーを押しながら、顧客がストアから購入できるリストの各国を選択します。
 
 1. 支払いシステムとの通信をログファイルに書き込むには、**[!UICONTROL Debug Mode]** を `Yes` に設定します。
 
@@ -364,7 +365,7 @@ PayPal Payflow Link は、米国およびカナダのマーチャントのみが
 
 #### フロントエンドエクスペリエンス設定
 
-_[!UICONTROL Frontend Experience Settings]_&#x200B;を使用して、サイトに表示する PayPal ロゴを選択したり、PayPal マーチャントページの外観をカスタマイズしたりします。
+_[!UICONTROL Frontend Experience Settings]_を使用して、サイトに表示する PayPal ロゴを選択したり、PayPal マーチャントページの外観をカスタマイズしたりします。
 
 1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Frontend Experience Settings]**」セクションを展開します。
 
@@ -432,7 +433,7 @@ _[!UICONTROL Frontend Experience Settings]_&#x200B;を使用して、サイト�
 1. **[!UICONTROL Payment Applicable From]** を次のいずれかに設定します。
 
    - `All Allowed Countries` - ストア設定で指定されたすべての国の顧客は、この支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;のリストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、各項目をクリックします。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_のリストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、各項目をクリックします。
 
 1. 支払いシステムとの通信をログファイルに書き込むには、**[!UICONTROL Debug Mode]** を `Yes` に設定します。
 
