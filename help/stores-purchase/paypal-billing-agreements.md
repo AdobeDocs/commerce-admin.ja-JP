@@ -27,15 +27,15 @@ ht-degree: 0%
 
 ## 請求契約の管理
 
-_[!UICONTROL Billing Agreements]_のページには、ストアと顧客の間のすべての請求契約が一覧表示されます。 マーチャントは、顧客または請求契約情報（請求契約参照 ID、ステータス、作成日など）でレコードをフィルタリングできます。 各レコードには、請求契約に関する一般情報と、支払方法として使用したすべての受注が含まれます。 顧客請求契約を表示、キャンセル、または削除できます。 キャンセルされた請求契約は、店舗管理者のみが削除できます。
+_[!UICONTROL Billing Agreements]_&#x200B;のページには、ストアと顧客の間のすべての請求契約が一覧表示されます。 マーチャントは、顧客または請求契約情報（請求契約参照 ID、ステータス、作成日など）でレコードをフィルタリングできます。 各レコードには、請求契約に関する一般情報と、支払方法として使用したすべての受注が含まれます。 顧客請求契約を表示、キャンセル、または削除できます。 キャンセルされた請求契約は、店舗管理者のみが削除できます。
 
 ### 請求契約の表示
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Billing Agreements]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Billing Agreements]**&#x200B;に移動します。
 
 1. リストで請求契約を見つけ、クリックして開きます。
 
-各請求契約ページは、_[!UICONTROL General Information]_と_[!UICONTROL Related Orders]_ の 2 つのタブで構成されています。
+各請求契約ページは、_[!UICONTROL General Information]_&#x200B;と_[!UICONTROL Related Orders]_ の 2 つのタブで構成されています。
 
 #### 一般情報
 
@@ -57,7 +57,7 @@ _[!UICONTROL Billing Agreements]_のページには、ストアと顧客の間�
 
 ### 請求契約のキャンセル
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Billing Agreements]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Billing Agreements]**&#x200B;に移動します。
 
 1. リストで請求契約を見つけ、クリックして開きます。
 
@@ -67,7 +67,7 @@ _[!UICONTROL Billing Agreements]_のページには、ストアと顧客の間�
 
 ### 請求契約の削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Billing Agreements]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Billing Agreements]**&#x200B;に移動します。
 
 1. リストで請求契約を見つけ、クリックして開きます。
 

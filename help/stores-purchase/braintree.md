@@ -30,13 +30,13 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 
 ## 手順 2：基本設定を完了する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Payment Methods]**」を選択します。
 
    - Commerceのインストールに複数の web サイト、ストア、ビューがある場合は、左上隅で設定が適用される **[!UICONTROL Store View]** を選択します。
 
-   - _[!UICONTROL Merchant Location]_セクションで、**[!UICONTROL Merchant Country]**がビジネスの場所に設定されていることを確認します。
+   - _[!UICONTROL Merchant Location]_&#x200B;セクションで、**[!UICONTROL Merchant Country]**&#x200B;がビジネスの場所に設定されていることを確認します。
 
 1. 「_[!UICONTROL Recommended Solutions]_」の「_[!UICONTROL Braintree Payments] （[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [ リリースノート ](https://support.gene.co.uk/support/solutions/articles/35000278668)_」セクションで、「**[!UICONTROL Configure]**」をクリックします。
 
@@ -114,7 +114,7 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 
 1. **[!UICONTROL Enable Webhook]** を `Yes` に設定すると、不正防止、ACH 支払いおよびローカル支払い方法の Webhook 機能が有効になります。
 
-1. 「**[!UICONTROL Fraud Protection URL]**」フィールドに URL をコピーし、_[!UICONTROL Webhook Destination URL]_としてBraintree アカウントに追加します。
+1. 「**[!UICONTROL Fraud Protection URL]**」フィールドに URL をコピーし、_[!UICONTROL Webhook Destination URL]_&#x200B;としてBraintree アカウントに追加します。
 
    >[!IMPORTANT]
    >
@@ -133,7 +133,7 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 1. **[!UICONTROL Payment from Applicable Countries]** を次のいずれかに設定します。
 
    - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
 
    ![ 国別の設定 ](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png){width="600" zoomable="yes"}
 
@@ -252,7 +252,7 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 
      >[!NOTE]
      >
-     >PayPal クレジットは米国および英国でのみ利用できます。 _[!UICONTROL Merchant Country]_フィールドに選択した値が `US` または `UK` でない場合、PayPal クレジットは無効になります。
+     >PayPal クレジットは米国および英国でのみ利用できます。 _[!UICONTROL Merchant Country]_&#x200B;フィールドに選択した値が `US` または `UK` でない場合、PayPal クレジットは無効になります。
 
    - Braintreeの支払いオプションとして [!DNL PayPal PayLater] を含めるには、**[!UICONTROL Enable PayPal PayLater through Braintree]** を `Yes` に設定します。
 
@@ -278,7 +278,7 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 1. PayPal で処理されるBraintree トランザクションの場合は、**[!UICONTROL Payment from Applicable Countries]** を次のいずれかに設定します。
 
    - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
 
    ![Braintree設定 2 を使用した PayPal](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
 
@@ -399,7 +399,7 @@ Braintreeは、不正検知と PayPal 統合により、完全にカスタマイ
 4. **[!UICONTROL Verify for Applicable Countries]** を次のいずれかに設定します。
 
    - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Verify for Specific Countries]_のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Verify for Specific Countries]_&#x200B;のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
 
    ![3D 検証設定 ](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 

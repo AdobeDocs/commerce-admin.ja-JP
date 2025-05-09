@@ -104,13 +104,13 @@ Commerceで PayPal Payments Advanced を設定する前に、PayPal Web サイ�
 
 ### 手順 1：設定の開始
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Payment Methods]**」を選択します。
 
 1. Commerceのインストールに複数の web サイト、ストアまたはビューがある場合は、この設定を適用するストアビューに **[!UICONTROL Store View]** を設定します。
 
-1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが所在する&#x200B;**[!UICONTROL Merchant Country]**を選択します。
+1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが所在する&#x200B;**[!UICONTROL Merchant Country]**&#x200B;を選択します。
 
    この設定により、設定に表示される PayPal ソリューションの選択が決まります。
 
@@ -122,7 +122,7 @@ Commerceで PayPal Payments Advanced を設定する前に、PayPal Web サイ�
 
 ### 手順 2：必要な設定を完了する
 
-1. 必要に応じて ](../assets/icon-display-expand.png) 展開セレクター ![**[!UICONTROL Required PayPal Settings]** セクション）を展開します。
+1. 必要に応じて ![&#128279;](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Required PayPal Settings]** セクション）を展開します。
 
    ![ 高度な必須設定 – PayPal 支払いの高度な設定 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-required.png){width="600" zoomable="yes"}
 
@@ -281,7 +281,7 @@ Commerceで PayPal Payments Advanced を設定する前に、PayPal Web サイ�
 
 ### 手順 4：基本設定を完了する
 
-1. 必要に応じて ](../assets/icon-display-expand.png) 展開セレクター ![**[!UICONTROL Basic Settings - PayPal Payments Advanced]** セクション）を展開します。
+1. 必要に応じて ![&#128279;](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Basic Settings - PayPal Payments Advanced]** セクション）を展開します。
 
    ![PayPal 支払いの高度な基本設定 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-basic-settings.png){width="600" zoomable="yes"}
 
@@ -307,7 +307,7 @@ Commerceで PayPal Payments Advanced を設定する前に、PayPal Web サイ�
 1. **[!UICONTROL Payment Applicable From]** を次のいずれかに設定します。
 
    - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
 
 1. 支払いシステムとの通信をログファイルに書き込むには、**[!UICONTROL Debug Mode]** を `Yes` に設定します。
 
@@ -380,7 +380,7 @@ Commerceで PayPal Payments Advanced を設定する前に、PayPal Web サイ�
 
 #### フロントエンドエクスペリエンス設定
 
-_[!UICONTROL Frontend Experience Settings]_を使用して、サイトに表示する PayPal ロゴを選択したり、PayPal マーチャントページの外観をカスタマイズしたりします。
+_[!UICONTROL Frontend Experience Settings]_&#x200B;を使用して、サイトに表示する PayPal ロゴを選択したり、PayPal マーチャントページの外観をカスタマイズしたりします。
 
 1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Frontend Experience Settings]**」セクションを展開します。
 

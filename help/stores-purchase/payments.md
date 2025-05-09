@@ -24,7 +24,7 @@ Adobe CommerceとMagento Open Sourceは、様々な支払い方法とサービ�
 
 ## 2.4 の変更点
 
-[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 一部の支払い統合およびバンドルされた拡張機能は、2.4.x リリースで削除され、Commerce Marketplaceに移行されました。 最新の公式の支払い統合拡張機能については、[Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"} を参照してください。
 
@@ -53,17 +53,17 @@ Adobe CommerceとMagento Open Sourceは、世界中のあらゆる場所でマ�
 
 - [ 資金決済 ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
 - [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} [PayPal Express Checkout](paypal-express-checkout.md)
-- [!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} [Braintree](braintree.md)
+- [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} [Braintree](braintree.md)
 
 ### その他の PayPal 支払いソリューション
 
-[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 PayPal 支払い方法のオプションについて詳しくは、[PayPal 支払いソリューション ](paypal.md) を参照してください。
 
 #### オールインワン PayPal ソリューション
 
-[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 - [PayPal 支払い詳細](paypal-payments-advanced.md)
 - [PayPal ペイメントプロ](paypal-payments-pro.md)
@@ -71,14 +71,14 @@ PayPal 支払い方法のオプションについて詳しくは、[PayPal 支�
 
 #### PayPal 支払いゲートウェイ
 
-[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md)
 - [PayPal ペイフローリンク](paypal-payflow-link.md)
 
 ## 不正保護
 
-[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 不正防止サービスとフィルターは、トランザクションが処理される前に送信済みの注文を調べて、不正な注文を検出し、チャージバックの費用から保護します。 Adobe CommerceとMagento Open Sourceは、次の不正対策ソリューションをサポートしています。
 
@@ -92,7 +92,7 @@ PayPal 支払い方法のオプションについて詳しくは、[PayPal 支�
 
 ## リソースのトラブルシューティング
 
-[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 支払いに関する問題のトラブルシューティングについて詳しくは、[ サポートナレッジベース ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=en) を参照してください。
 
