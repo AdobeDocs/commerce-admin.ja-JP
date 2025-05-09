@@ -14,17 +14,17 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe CommerceおよびMagento Open Source向け支払いサービスは、堅牢で安全な支払い処理を実現するために、サンドボックステストやシンプルなセットアップなどのターンキーセルフサービスソリューションを提供します。 この強力なツールセットの詳細と、購入者にとって最適なエクスペリエンスを実現するために必要なinsightと制御を提供する方法については、[_支払いサービスユーザーガイド_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html) を参照してください。
+>Adobe CommerceおよびMagento Open Source向け支払いサービスは、堅牢で安全な支払い処理を実現するために、サンドボックステストやシンプルなセットアップなどのターンキーセルフサービスソリューションを提供します。 この強力なツールセットの詳細と、購入者にとって最適なエクスペリエンスを実現するために必要なinsightと制御を提供する方法については、[_支払いサービスユーザーガイド_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=ja) を参照してください。
 
 {{config}}
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 ![ 販売者の所在地 ](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
-<!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
+<!-- [Merchant Location](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -37,8 +37,8 @@ ht-degree: 0%
 PayPal アカウントまたはクレジットカードによるオンライン支払いを始めたばかりのマーチャントにとって、以下の支払いソリューションは簡単な方法としてお勧めします。 ビジネスが成長するにつれて、これらを追加の PayPal 支払いソリューションと組み合わせることができます。
 
 - [支払いサービス](payment-services.md)
-- [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} [PayPal Express Checkout](paypal-express-checkout.md)
-- [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} [Braintree](braintree.md)
+- [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} [PayPal Express Checkout](paypal-express-checkout.md)
+- [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} [Braintree](braintree.md)
 
 >[!NOTE]
 >
@@ -46,19 +46,19 @@ PayPal アカウントまたはクレジットカードによるオンライン�
 ><br/>
 >**Amazon Pay** および **Klarna**:Adobe CommerceおよびMagento Open Source リリース 2.4.0 から 2.4.3 には、これらのベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、これらの拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 また、Marketplace では、拡張機能開発者が提供する最新のドキュメントにもアクセスできます。
 ><br/>
->これらのバンドルされた拡張機能のいずれかが有効になって設定済みの場合は、2.4.4 アップグレードプロセスの一環として `composer.json` ファイルを更新し、今後、拡張機能の更新を管理する必要があります。 詳しくは、『 [ アップグレードガイド _の ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) アップグレードモジュール_ を参照してください。<br/>
+>これらのバンドルされた拡張機能のいずれかが有効になって設定済みの場合は、2.4.4 アップグレードプロセスの一環として `composer.json` ファイルを更新し、今後、拡張機能の更新を管理する必要があります。 詳しくは、『 [ アップグレードガイド _の ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ja) アップグレードモジュール_ を参照してください。<br/>
 ><br/>
 >**Worldpay**、**Eway**、**CyberSource**、および **Authorize.Net**：これらの支払い統合から安全に移行する方法については、[DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"} を参照してください。
 
 ## その他の PayPal メソッド
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 PayPal は、あらゆる規模の企業のニーズに対応し、世界中でビジネスに従事している様々な支払いソリューションを提供しています。 PayPal は、すべての主要なデビットカードとクレジットカードから支払いを受け入れる機能を提供します。 PayPal アカウントをお持ちでないお客様でも PayPal で購入の支払いが可能であるため、PayPal は追加の手間をかけずに利便性を高めます。
 
 ### PayPal オールインワンメソッド
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 - [PayPal 支払い詳細](paypal-payments-advanced.md)
 - [PayPal ペイメントプロ](paypal-payments-pro.md)
@@ -66,7 +66,7 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 
 ### PayPal 支払いゲートウェイ
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md) （高速チェックアウトを含む）
 - [PayPal ペイフローリンク ](paypal-payflow-link.md) （高速チェックアウトを含む）
@@ -79,7 +79,7 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 
 ![ 小切手/送金 ](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
-<!-- [Check / Money Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
+<!-- [Check / Money Order](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -100,7 +100,7 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 
 ![ 振替支払 ](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
-<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
+<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -121,7 +121,7 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 
 ![ 分割払 ](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
-<!-- [Payment on Account](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
+<!-- [Payment on Account](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -178,7 +178,7 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 
 ## [!UICONTROL Payment actions]
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 支払いアクションは _支払い方法ごとに_ 設定されます。 支払処理では、資金が取得される時期と、受注に対する請求書が作成される時期が決定されます。
 

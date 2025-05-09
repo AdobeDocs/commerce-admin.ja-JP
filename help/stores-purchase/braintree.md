@@ -3,7 +3,7 @@ title: Braintree
 description: ストアでオンライン支払いソリューションとしてBraintreeを設定する方法を説明します。
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
 source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
 source-wordcount: '2890'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->カードに予想外の料金が発生した場合は、[ サブスクリプションをキャンセル ](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) ページでサポートを受けることができます。
+>カードに予想外の料金が発生した場合は、[ サブスクリプションをキャンセル ](https://helpx.adobe.com/jp/manage-account/using/cancel-subscription.html) ページでサポートを受けることができます。
 
 Braintreeは、不正検知と PayPal 統合により、完全にカスタマイズ可能なチェックアウトエクスペリエンスを提供します。 [!DNL Apple Pay]、[!DNL Google Pay]、ACH、Venmo、およびローカルの支払い方法をサポートします。 BraintreeではBraintree システム上で取引が行われるので、マーチャントの PCI コンプライアンスに関する負担が軽減されます。 Braintree Payments の統合は、[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) によって開発されました。
 

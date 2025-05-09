@@ -169,11 +169,11 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 国の設定に関する問題のトラブルシューティングについては、[!DNL Commerce] サポートナレッジベースの次の記事を参照してください。
 
-- [ 国を追加する方法 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [ 国を追加する方法 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=ja)
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 「マーチャントの場所」設定は、[ 支払い方法 ](../stores-purchase/payments.md) の設定に使用します。 この設定に値がない場合は、[ デフォルトの国 ](#uicontrol-country-options) 設定が使用されます。
 
