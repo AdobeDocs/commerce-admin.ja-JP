@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Store Email Addresses]'
 description: Commerce Admin の [!UICONTROL General] &gt; [!UICONTROL Store Email Addresses] ページで設定を確認します。
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: bad9a004d0354f3db7739d4582a015f4b38116f8
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '258'
 ht-degree: 2%
 
 ---
@@ -15,6 +15,18 @@ ht-degree: 2%
 {{config}}
 
 これらの設定フィールドとオプションについて詳しくは、[ メールアドレスの保存 ](../../getting-started/store-details.md#store-email-addresses) を参照してください。
+
+## [!UICONTROL General]
+
+[!BADGE SaaS のみ ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+
+![ メールアドレスを保存/一般連絡先 ](./assets/store-email-addresses-general-general.png)<!-- zoom -->
+
+| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+|--- |--- |--- |
+| [!UICONTROL Storefront Base URL] | ストア表示 | 顧客向けのメールに含まれるリンクの構築に使用されるベース URL。 URL の末尾はスラッシュにする必要があります。 例：`https://www.example.com/`。 |
+
+{style="table-layout:auto"}
 
 ## [!UICONTROL General Contact]
 
