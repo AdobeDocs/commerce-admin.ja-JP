@@ -1,11 +1,11 @@
 ---
 title: 管理システムガイド
-description: Commerce ストアを保護し権限を管理するためのベストプラクティスや、データのインポートおよびエクスポート方法、統合と拡張機能の管理方法、日常のメンテナンスを処理する方法について説明します。
+description: Commerce ストアを保護して権限を管理するためのベストセキュリティプラクティスや、データのインポートおよびエクスポート方法、統合と拡張機能の管理方法、日常のメンテナンスを行う方法を学びます。
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
 source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 

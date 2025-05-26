@@ -1,13 +1,13 @@
 ---
 title: カタログ管理ガイド
-description: Adobe Commerce、Magento Open Sourceの管理者および e コマースマーチャンダイザー向けの製品カタログ機能に関する包括的な情報です。
+description: Adobe Commerce と Magento Open Source の管理者および e コマースマーチャンダイザー向けの製品カタログ機能についての包括的な情報。
 seo-title: Adobe Commerce Catalog Management Guide
 seo-description: Describes how to use the product catalog features for Adobe Commerce and Magento Open Source.
 exl-id: 894b7cc3-8dc5-43aa-ab9c-ebc6480c7b2f
 source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
