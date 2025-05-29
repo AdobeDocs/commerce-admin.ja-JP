@@ -4,9 +4,10 @@ description: 管理者とストアフロントを保護するためにセッシ�
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 0%
 
 **_最大セッションサイズを設定するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
@@ -48,8 +49,6 @@ ht-degree: 0%
 
 ### 管理セッション
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
-
 最大セッションサイズを超えると、エラーメッセージが表示され、セッションサイズの制約が `var/log` ディレクトリに記録されます。
 
 セッションサイズを低く設定しすぎると管理者にアクセスできなくなる場合は、CLI を使用して設定をリセットします。
@@ -60,15 +59,13 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 ### ストアフロントセッション
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
-
 最大セッションサイズを超えると、エラーは表示されませんが、セッションサイズの制約が `var/log` ディレクトリに記録されます。
 
 ## セッションの検証
 
 Adobe CommerceとMagento Open Sourceでは、セッション固定攻撃の可能性や、ユーザーセッションに対する毒物の使用またはハイジャックの試みに対する防御手段として、セッション変数を検証できます。 セッション検証設定は、各ストア訪問の間にセッション変数を検証する方法、およびセッション ID がストアの URL に含まれるかどうかを決定します。
 
-技術情報については、_設定ガイド_ の [ セッションストレージに Redis を使用する ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=ja) を参照してください。
+技術情報については、_設定ガイド_ の [ セッションストレージに Redis を使用する ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) を参照してください。
 
 ![ 一般設定 – Web セッションの検証 ](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 
@@ -78,7 +75,7 @@ Adobe CommerceとMagento Open Sourceでは、セッション固定攻撃の可�
 
 **_セッション検証を設定するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「_[!UICONTROL General]_」を展開し、「**[!UICONTROL Web]**」を選択します。
 
@@ -102,7 +99,7 @@ Adobe CommerceとMagento Open Sourceでは、セッション固定攻撃の可�
 
 **_管理者セッションの有効期間を調整するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 下にスクロールして、左側のパネルの **[!UICONTROL Advanced]** を展開します。
 

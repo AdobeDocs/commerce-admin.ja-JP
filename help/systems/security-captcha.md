@@ -4,16 +4,17 @@ description: 登録ユーザーによって開始される管理者アクセス�
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
 
 # CAPTCHA
 
-CAPTCHA は、コンピューター（または「ボット」）ではなく人間がサイトとやり取りしていることを保証する視覚的なデバイスです。 CAPTCHA は、_Completely Automated Public Turing test to tell Computers and Humans Apart_ の頭字語です。 管理者アクセスと、登録済み顧客によって開始された様々なストアフロントアクションの両方に使用できます。 Adobe CommerceとMagento Open Sourceは、このトピックで説明されている標準の CAPTCHA と [&#128279;](security-google-recaptcha.md)0&rbrace;Google reCAPTCHA&rbrace; をサポートしています。
+CAPTCHA は、コンピューター（または「ボット」）ではなく人間がサイトとやり取りしていることを保証する視覚的なデバイスです。 CAPTCHA は、_Completely Automated Public Turing test to tell Computers and Humans Apart_ の頭字語です。 管理者アクセスと、登録済み顧客によって開始された様々なストアフロントアクションの両方に使用できます。 Adobe CommerceとMagento Open Sourceは、このトピックで説明されている標準の CAPTCHA と ](security-google-recaptcha.md)0}Google reCAPTCHA} をサポートしています。[
 
 画像の右上隅にある「再読み込み」アイコンをクリックして、CAPTCHA を必要な回数だけ再読み込みできます。 CAPTCHA は完全に設定可能で、毎回または定義した回数のログイン試行に失敗した後にのみ表示されるように設定できます。
 
@@ -25,7 +26,7 @@ CAPTCHA は、コンピューター（または「ボット」）ではなく人
 
 ![ 管理者 – CAPTCHA でログイン ](./assets/security-captcha-admin.png){width="300"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Admin]**」を選択します。
 
@@ -51,7 +52,7 @@ CAPTCHA は、コンピューター（または「ボット」）ではなく人
    - **[!UICONTROL Displaying Modes]** を次のいずれかに設定します。
 
       - `Always` – 管理者にログインするには、常に CAPTCHA が必要です。
-      - `After number of attempts to login` – このオプションは、管理者ログインフォームにのみ適用されます。 選択すると、_[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;フィールドが表示されます。 許可するログイン試行回数を入力します。 値が 0 （ゼロ）の場合は、表示モードを `Always` に設定する場合と似ています。
+      - `After number of attempts to login` – このオプションは、管理者ログインフォームにのみ適用されます。 選択すると、_[!UICONTROL Number of Unsuccessful Attempts to Login]_フィールドが表示されます。 許可するログイン試行回数を入力します。 値が 0 （ゼロ）の場合は、表示モードを `Always` に設定する場合と似ています。
 
      失敗したログイン試行の回数を追跡するために、1 つのメールアドレスおよび 1 つの IP アドレスからのログイン試行がカウントされます。 同じ IP アドレスから許可されるログイン試行回数の上限は 1,000 です。 この制限は、CAPTCHA が有効な場合にのみ適用されます。
 
@@ -73,7 +74,7 @@ CAPTCHA は、コンピューター（または「ボット」）ではなく人
 
 ![ チェックアウト中の CAPTCHA](./assets/storefront-checkout-payment-captcha.png){width="700" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Customer Configuration]**」を選択します。
 
@@ -97,7 +98,7 @@ CAPTCHA は、コンピューター（または「ボット」）ではなく人
       - `Contact Us`
       - `Change password`
       - `Share Wishlist Form`
-      - `Payflow Pro` （[ セキュリティパッチ ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=ja)_ナレッジベース_ 記事を参照）
+      - `Payflow Pro` （[ セキュリティパッチ ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)_ナレッジベース_ 記事を参照）
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）
       - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B でのみ使用可能）

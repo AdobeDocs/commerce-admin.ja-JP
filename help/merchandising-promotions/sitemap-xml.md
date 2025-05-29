@@ -3,14 +3,19 @@ title: サイトマップ
 description: Commerce サイトのすべてのページと画像をインデックス化するようにサイトマップを設定する方法を説明します。
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
 
 # サイトマップ
+
+>[!TIP]
+>
+>Adobe Commerce as a Cloud Serviceについては、Commerce ストアフロントドキュメントの [SEO ガイドライン ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) を参照してください
 
 サイト マップを使用すると、検索エンジンによるストアのインデックス作成方法が向上し、Web クローラーによって見落とされる可能性のあるページを検索できます。 サイトマップは、すべてのページと画像のインデックスを作成するように設定できます。
 
@@ -28,7 +33,7 @@ Commerce技術情報については、_Cloud Infrastructure ガイドの [ サ�
 
 ## 手順 2. サイトマップを生成
 
-1. _管理者_ メニューで、**[!UICONTROL Marketing]**/_[!UICONTROL SEO & Search]_/**[!UICONTROL Site Map]**&#x200B;に移動します。
+1. _管理者_ メニューで、**[!UICONTROL Marketing]**/_[!UICONTROL SEO & Search]_/**[!UICONTROL Site Map]**に移動します。
 
 1. 「**[!UICONTROL Add Site Map]**」をクリックします。
 
@@ -80,7 +85,7 @@ Commerceのインストール先にある `sitemap.xml` ファイルへのリン
        /sitemaps/domain_1/
        /sitemaps/domain_2/
    
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL SEO & Search]_/**[!UICONTROL Site Map]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL SEO & Search]_/**[!UICONTROL Site Map]**に移動します。
 
 1. 各ストアのサイトマップのリストを作成または編集し、**[!UICONTROL Path]** をストアに対して作成したリストに設定します。
 
@@ -97,7 +102,7 @@ Commerceのインストール先にある `sitemap.xml` ファイルへのリン
    
 >[!NOTE]
 >
->サイトで [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=ja) web サーバーエンジンを使用している場合は、web サイトのルートにある [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) ファイルを更新して、その他のサイトマップリクエストを適切な場所に誘導する必要があります。
+>サイトで [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) web サーバーエンジンを使用している場合は、web サイトのルートにある [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) ファイルを更新して、その他のサイトマップリクエストを適切な場所に誘導する必要があります。
 
 ## 列の説明
 
@@ -119,7 +124,7 @@ Commerceのインストール先にある `sitemap.xml` ファイルへのリン
 
 ### 手順 1. コンテンツ更新の頻度と優先度を設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、「**[!UICONTROL XML Sitemap]**」を選択します。
 
@@ -159,9 +164,9 @@ Commerceのインストール先にある `sitemap.xml` ファイルへのリン
 
 1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」 **[!UICONTROL CMS Pages Options]** クションを展開し、必要に応じて **[!UICONTROL Frequency]** と **[!UICONTROL Priority]** の設定を行います。
 
-   ![ カタログ設定 – XML サイトマップの CMS ページ ](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
+   ![ カタログ設定 – XML サイトマップのCMSページ ](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
 
-   これらのオプションの詳細なリストについては、[ 設定リファレンス ](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options) の _CMS ページオプション_ を参照してください。
+   これらのオプションの詳細なリストについては、_Configuration Reference_ の [CMS ページオプション ](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options) を参照してください。
 
 1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」 **[!UICONTROL Store Url Options]** クションを展開し、必要に応じて **[!UICONTROL Frequency]** と **[!UICONTROL Priority]** の設定を行います。
 
@@ -223,6 +228,6 @@ Commerceのインストール先にある `sitemap.xml` ファイルへのリン
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=ja
+[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

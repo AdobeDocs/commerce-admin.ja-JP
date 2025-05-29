@@ -2,9 +2,9 @@
 title: '[!UICONTROL Sales] メニュー'
 description: Commerce管理者には [!UICONTROL Sales] メニューが含まれており、ワークフロー内の場所に応じて、注文を操作するためのツールにアクセスできます。
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 621b4729e23952ddd720b4dcc49b5341baae64cc
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,21 @@ ht-degree: 0%
 
 「Sales」メニューには、受注ワークフローでの位置に従って取引がリストされます。 各オプションは、注文の有効期間中は異なるステージと考えることができます。
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+
 ![ 販売メニュー ](./assets/admin-menu-sales.png){width="450" zoomable="yes"}
+
+>[!TAB Adobe Commerceas a Cloud Service]
+
+[!BADGE SaaS のみ ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+
+![ 販売メニュー ](./assets/admin-menu-sales-accs.png){width="450" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## [!UICONTROL Sales] メニューの表示
 
@@ -26,6 +40,12 @@ _管理者_ サイドバーで、「**[!UICONTROL Sales]**」をクリックし�
 ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能）
 
 権限のある購入者は、買い物かごから [ リクエスト ](../b2b/quotes.md) を送信することで、販売者と [ 価格の交渉 ](../b2b/quote-request.md) を行うことができます。
+
+### [!UICONTROL Quote Templates]
+
+![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能）
+
+再利用可能でカスタマイズ可能な [ 見積もりテンプレート ](../b2b/quote-templates-overview.md) を作成することにより、購入者と販売者が見積もりプロセスを合理化できます。
 
 ### [!UICONTROL Orders]
 
@@ -51,6 +71,8 @@ _管理者_ サイドバーで、「**[!UICONTROL Sales]**」をクリックし�
 
 ### [!UICONTROL Billing Agreements]
 
+[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+
 [ 請求契約 ](paypal-billing-agreements.md) は、1 回の購入に限定されない点を除き、発注書に似ています。 チェックアウト時に、お客様は支払い方法として請求契約を選択します。 請求契約を使用すると、顧客は購入ごとに支払い情報を入力する必要がなくなるので、チェックアウトプロセスが合理化されます。
 
 ### [!UICONTROL Transactions]
@@ -59,7 +81,9 @@ _管理者_ サイドバーで、「**[!UICONTROL Sales]**」をクリックし�
 
 ### [!UICONTROL Braintree Virtual Terminal]
 
-Braintreeバーチャルターミナルページでは、管理者ユーザーは選択した金額の支払いを受け付けることができます。 ターミナル機能を利用できるようにするには、マーチャントが基本的な [Braintree設定 ](braintree.md) を構成する必要があります。 Braintreeは、不正検知と PayPal 統合により、完全にカスタマイズ可能なチェックアウトエクスペリエンスを提供します。
+[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+
+Braintreeバーチャルターミナルページでは、管理者ユーザーは選択した金額の支払いを受け入れることができます。 ターミナル機能を利用できるようにするには、マーチャントが基本的な [Braintree設定 ](braintree.md) を設定する必要があります。 Braintreeは、不正検知と PayPal 統合により、完全にカスタマイズ可能なチェックアウトエクスペリエンスを提供します。
 
 ### [!UICONTROL Archive]
 

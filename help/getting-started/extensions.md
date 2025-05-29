@@ -3,9 +3,10 @@ title: Adobeの拡張機能
 description: AdobeがリリースしたAdobe CommerceおよびMagento Open Sourceの拡張機能に関する情報を確認します。
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-source-git-commit: e37ca150c72bb46066690524a35de52d6db6d56a
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -99,7 +100,7 @@ Adobeには、Composer を使用して個別にインストールする必要が
 
 [!DNL Adobe Commerce B2B] は、標準的なCommerceのストアを、包括的な B2B プラットフォームに変換する統合拡張機能です。 これにより、企業は、統合された会社アカウントの下で、複数の購入者、カスタムの役割および購入権限を持つ複雑な組織構造を管理できます。 主な機能には、会社固有のカタログと価格、交渉可能な見積もり、発注管理、購買依頼リスト、クイックオーダー機能などがあります。 このソリューションは、1 つのインスタンスで B2B モデルと B2C モデルの両方をサポートしており、様々なビジネスニーズに柔軟に対応できます。 この拡張機能は個別のライセンスを必要とし、Adobe Commerceのコア機能とシームレスに統合して完全な B2B e コマースソリューションを提供します。
 
-プロビジョニングについては、Adobe アカウント担当者にお問い合わせください。 実装の詳細と設定手順については、[[!DNL B2B for Adobe Commerce]  ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ja) を参照してください。
+プロビジョニングについては、Adobe アカウント担当者にお問い合わせください。 実装の詳細と設定手順については、[[!DNL B2B for Adobe Commerce]  ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) を参照してください。
 
 ### [!DNL AEM Assets Integration for Commerce]
 
@@ -115,7 +116,7 @@ Adobeには、Composer を使用して個別にインストールする必要が
 
 ライブ検索は、Adobe Commerce独自の機能で、AI を活用したリアルタイムの「好みに応じて検索」機能を備えた検索ソリューションを提供します。 買い物客が入力すると同時に、製品サムネールで迅速で関連性の高い結果が得られるほか、買い物行動に基づいてフィルターを自動的に調整するインテリジェントなファセット機能も備えています。 このソリューションには、製品のブーストと埋め込み、シノニム管理、検索分析のためのマーチャンダイジング機能が含まれています。 Adobe Commerceに無償で含まれる [!DNL Live Search] は、デフォルトの検索機能に代わって、より高度な SaaS ベースの検索エクスペリエンスが提供されます。 開始するには、最小限の設定が必要です。
 
-実装の詳細と技術的要件については、[Live Search ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ja) を参照してください。
+実装の詳細と技術的要件については、[Live Search ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) を参照してください。
 
 ### [!DNL Product Recommendations]
 
@@ -123,15 +124,15 @@ Adobeには、Composer を使用して個別にインストールする必要が
 
 [!DNL Product Recommendations] は、Adobe Sensei AI テクノロジーを活用したAdobe Commerce専用の機能で、カスタマージャーニーを通じてパーソナライズされた商品の提案を提供します。 このソリューションは、買い物客の行動と製品の関係をリアルタイムで分析し、関連するレコメンデーションを自動的に生成します。手動のマーチャンダイジングルールは必要ありません。 この AI 駆動のアプローチは、コンバージョン率と収益の可能性を高めると同時に、買い物客に対してより魅力的な製品発見エクスペリエンスを作成するのに役立ちます。
 
-実装の詳細とベストプラクティスについては、[[!DNL Product Recommendations]  ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=ja) を参照してください。
+実装の詳細とベストプラクティスについては、[[!DNL Product Recommendations]  ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html) を参照してください。
 
 ### [!DNL Catalog Service]
 
-[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}
+[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe CommerceおよびMagento Open Sourceのインストール
 
 [!DNL Catalog Service] は、Adobe CommerceおよびGraphQL用の高性能ソリューションであり、Magento Open Source エンドポイントを介したカタログデータへの最適化されたアクセスを提供します。 製品の詳細および関連情報について、別個の同期済みデータベースを維持し、直接のアプリケーション通信をバイパスして、ページの読み込み時間を短縮します。 このサービスは、製品詳細ページ、カテゴリリスト、検索結果ページで特に価値が高く、従来のコマース実装とヘッドレスコマース実装の両方に最適です。
 
-セットアップ手順と技術的な詳細については、[[!DNL Catalog Service]  ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=ja) を参照してください。
+セットアップ手順と技術的な詳細については、[[!DNL Catalog Service]  ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html) を参照してください。
 
 >[!NOTE]
 >
@@ -139,8 +140,8 @@ Adobeには、Composer を使用して個別にインストールする必要が
 
 ### [!DNL Payment Services]
 
-[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}
+[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe CommerceおよびMagento Open Sourceのインストール
 
 [!DNL Payment Services] は、Adobe CommerceおよびMagento Open Sourceの店舗に対するターンキー支払いソリューションで、包括的な支払い処理機能を提供します。 このサービスは、安全な支払いゲートウェイ機能と組み込みの不正防止を統合し、クレジット/デビットカード、PayPal、Venmo （米国）、PayLater プランなど、複数の支払いオプションを提供します。 Commerce Admin インターフェイスを介した統合トランザクションレポートと注文管理が備わっているので、マーチャントは支払いの追跡、キャッシュフローの管理、財務データの調整を 1 か所で簡単に行えます。
 
-設定手順と支払いオプションについて詳しくは、[[!DNL Payment Services]  ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/commerce/payment-services/overview) を参照してください。
+設定手順と支払いオプションについて詳しくは、[[!DNL Payment Services]  ユーザーガイド ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/overview) を参照してください。

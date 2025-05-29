@@ -2,9 +2,10 @@
 title: サポートツール
 description: システムの問題を特定するために使用できる、提供されているサポートツールについて説明します。
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-source-git-commit: e05d13f79ceb2fe24c1931fefb48317ebd36d1fc
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: addde8c3e41b641712f5b08107c1d68b40cd4159
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 ### システムレポートへのアクセス
 
-_管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL System Report]**&#x200B;に移動します。
+_管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL System Report]**に移動します。
 
 ![ 管理者 – システムレポート ](./assets/reports.png){width="600" zoomable="yes"}
 
@@ -45,7 +46,7 @@ _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/
 
 **_インストールされている各モジュールのレポート情報を表示するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL System Report]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL System Report]**に移動します。
 1. 「**[!UICONTROL New Report]**」をクリックします。
 1. リストから `Modules` を選 **[!UICONTROL Groups]** します。
 1. 「**[!UICONTROL Create]**」をクリックします。
@@ -62,7 +63,7 @@ _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/
 
 ### システムレポートの詳細の表示
 
-1. 必要なレポートの _[!UICONTROL Actions]_&#x200B;列で「**[!UICONTROL View]**」を選択します。
+1. 必要なレポートの _[!UICONTROL Actions]_列で「**[!UICONTROL View]**」を選択します。
 
 1. 左側のパネルで ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、レポートの各セクションで詳細を表示します。
 

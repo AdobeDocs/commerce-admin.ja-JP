@@ -3,9 +3,10 @@ title: イベント招待状
 description: 顧客がイベントや個人販売への招待状を顧客アカウントのダッシュボードから送信および表示する方法について説明します。
 exl-id: 6a9123a0-bdb4-4cd6-99cd-658f728aa90c
 feature: Promotions/Events, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ ht-degree: 0%
 
 招待状設定では、ストアの招待が有効になり、招待状の送信方法が決定されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Invitations]**」を選択します。
 
@@ -99,7 +100,7 @@ ht-degree: 0%
 
 ### 管理者での招待状の作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invitations]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invitations]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Invitations]**」をクリックします。
 
@@ -113,7 +114,7 @@ ht-degree: 0%
 
 ### 単一エンティティの招待を破棄
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invitations]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invitations]**に移動します。
 
 1. フィルターを使用して必要な招待を見つけ、編集モードで開きます。
 
@@ -123,7 +124,7 @@ ht-degree: 0%
 
 ### 複数のエンティティの招待を破棄
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invitations]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invitations]**に移動します。
 
 1. 破棄する招待を検索して選択します。
 

@@ -2,10 +2,10 @@
 title: 管理システムガイド
 description: Commerce ストアを保護して権限を管理するためのベストセキュリティプラクティスや、データのインポートおよびエクスポート方法、統合と拡張機能の管理方法、日常のメンテナンスを行う方法を学びます。
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
-source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
+source-git-commit: bc52e81a445fe432187648f4e9003ad5332a18cd
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 8%
+source-wordcount: '390'
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 | [ メールテンプレート ](email-templates.md) | メールテンプレートは、ストアから送信される自動メッセージのレイアウト、コンテンツ、書式を定義します。 各トランザクションメールは、特定のタイプのトランザクションまたはイベントに関連付けられているので、トランザクションメールと呼ばれます。 |
 | [ データ転送 ](data-transfer.md) | 読み込みツールと書き出しツールを使用すると、1 回の操作で複数のレコードを管理できます。 新しい項目を読み込むだけでなく、既存の製品セットを更新、置換、削除することもできます。 |
 | [ アクションログ ](action-log.md) | Adobe Commerceの場合、アクションログには、ストアで作業する管理者ユーザーが行ったすべての変更が取り込まれます。 これにより、ストアに加えられたすべての変更を追跡できます。 |
-| ツール | システム管理者は、次のツールを使用できます。[ サポートツール ](support.md) は、システムの既知の問題を識別するように設計されています。 システムツールは、日常的な [ インデックス ](index-management.md) および [ キャッシュ ](cache-management.md) 管理、[ システムのバックアップ ](backups.md)、[ スケジュールされた操作 ](data-scheduled-import-export.md) の管理、および [ 開発者ツール ](developer-tools.md) の様々な使用を行うための運用サポートを提供します。 |
+| ツール | [!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} システム管理者は一連のツールを使用できます。[ サポートツール ](support.md) は、システムの既知の問題を識別するように設計されています。 システムツールは、日常的な [ インデックス ](index-management.md) および [ キャッシュ ](cache-management.md) 管理、[ システムのバックアップ ](backups.md)、[ スケジュールされた操作 ](data-scheduled-import-export.md) の管理、および [ 開発者ツール ](developer-tools.md) の様々な使用を行うための運用サポートを提供します。 |
 | [ 統合 ](integrations.md) | OAuth 認証情報の場所を確立し、サードパーティ統合用のリダイレクト URL を指定します。 |
 | [ セキュリティ ](security.md) | ストアとデータを保護するために使用できるツールと、セキュリティ侵害を検出した場合のセキュリティアクションプランのガイドラインについて説明します。 |
 

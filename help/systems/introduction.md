@@ -2,9 +2,9 @@
 title: 管理システムの概要
 description: サイト、データ、統合および管理者ユーザーを効果的に管理するためにストアの管理者が使用できるシステムツールおよび機能について説明します。
 exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
-source-git-commit: 51c8b526e1f03e65ad71eb00ec3cdf82365bd33c
+source-git-commit: 5517bb16a8f7c8aa2f9f057df773f142302a69c7
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 0%
 
 - **管理者ユーザーアカウントと権限** – 管理者 [ ユーザーアカウント ](permissions-users-all.md) と、管理者のサイトや機能領域へのアクセスを制御する関連 [ 役割と権限 ](permissions-user-roles.md) を管理します。
 - **管理セッションと web サイト制限** - [ セキュリティ ](security.md) ベストプラクティスを確認し、管理セッションと資格情報の管理方法、CAPTCHA の実装方法、web サイト制限の管理方法を説明します。
-- **システムツール** - ルーチンの [ インデックス ](index-management.md) および [ キャッシュ ](cache-management.md) 管理操作、システムの [ バックアップ ](backups.md)、[ スケジュールされた操作 ](data-scheduled-import-export.md) の管理、および様々な [ 開発者ツール ](developer-tools.md) の使用を実行します。
+- [!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} **システムツール** - ルーチンの [ インデックス ](index-management.md) および [ キャッシュ ](cache-management.md) 管理操作の実行、[ バックアップ ](backups.md) システムの管理、[ スケジュールされた操作 ](data-scheduled-import-export.md) の管理、および [ 開発者ツール ](developer-tools.md) の品揃えの使用を行います。
 - **データ転送** - [ データ転送 ](data-transfer.md) ツールを使用して、データの読み込みと書き出しを行い、製品、価格、顧客、税率のデータを管理します。
 - **統合** - [ サードパーティ統合 ](integrations.md) 用の OAuth 認証情報とリダイレクト URL の場所を確立し、使用可能な API リソースを特定します。
 - **アクションログ** - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）ストアで作業している管理者ユーザーによる変更について、レコード（[ アクションログ ](action-log.md)）にアクセスします。
-- **サポートツール** - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [ システムレポート ](support.md#access-system-reports) は、システムの既知の問題を特定するように設計されています。 開発および最適化プロセス中のリソースとして、また、サポートチームが問題を特定して解決するのに役立つ診断ツールとして使用できます。
+- [!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} **サポートツール** - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [ システムレポート ](support.md#access-system-reports)）は、システムの既知の問題を特定するように設計されています。 開発および最適化プロセス中のリソースとして、また、サポートチームが問題を特定して解決するのに役立つ診断ツールとして使用できます。

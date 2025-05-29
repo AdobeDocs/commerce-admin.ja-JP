@@ -4,9 +4,10 @@ description: サードパーティ統合用の OAuth 資格情報とリダイレ
 exl-id: b7632994-b07b-4cdb-b62c-79bc7a3a01c8
 role: Admin, Developer
 feature: System, Integration, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -19,13 +20,13 @@ Commerce管理者で統合を定義すると、サードパーティ統合用の
 
 ## オンボーディングワークフロー
 
-1. **統合を認証** - **[!UICONTROL System]**/_[!UICONTROL Extensions]_/**[!UICONTROL Integrations]**&#x200B;ページに移動し、関連する統合を見つけて認証します。
+1. **統合を認証** - **[!UICONTROL System]**/_[!UICONTROL Extensions]_/**[!UICONTROL Integrations]**ページに移動し、関連する統合を見つけて認証します。
 1. **ログインの検証と確立** - プロンプトが表示されたら、リクエストされたアクセスを受け入れます。 サードパーティにリダイレクトされた場合は、システムにログインするか、アカウントを作成します。 ログインに成功したら、統合ページに戻ります。
 1. **認証済み統合の確認を受信** - システムは、統合が正常に認証されたことを示す通知を送信します。 統合を設定して資格情報を受け取ると、アクセスまたはリクエストトークンを呼び出す必要はなくなります。
 
 ## 統合の追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Extensions]_/**[!UICONTROL Integrations]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Extensions]_/**[!UICONTROL Integrations]**に移動します。
 
    ![ 新しい統合 ](./assets/integration-new.png){width="600" zoomable="yes"}
 
@@ -60,7 +61,7 @@ Commerce管理者で統合を定義すると、サードパーティ統合用の
 
 デフォルトでは、保存済みの統合は `Inactive` ステータスでグリッドに表示されます。 有効にするには、次の手順を実行します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Extensions]_/**[!UICONTROL Integrations]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Extensions]_/**[!UICONTROL Integrations]**に移動します。
 
 1. 新しく作成した統合を見つけて、**[!UICONTROL Activate]** リンクをクリックします。
 
@@ -76,11 +77,11 @@ Commerce管理者で統合を定義すると、サードパーティ統合用の
 
 新しい統合アクセストークンおよびアクセストークン秘密鍵を生成するには、管理者から統合を再認証しました。
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Extensions]_/**[!UICONTROL Integrations]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Extensions]_/**[!UICONTROL Integrations]**に移動します。
 
 1. **[!UICONTROL Active]** ステータスの統合を見つけます。
 
-1. 列 _[!UICONTROL Activate]_、**[!UICONTROL Reauthorize]**&#x200B;をクリックします。
+1. 列 _[!UICONTROL Activate]_、**[!UICONTROL Reauthorize]**をクリックします。
 
 1. 「**[!UICONTROL Reauthorize]**」をクリックして、API リソースへのアクセスを承認します。
 
@@ -88,9 +89,9 @@ Commerce管理者で統合を定義すると、サードパーティ統合用の
 
 ## API ゲストアクセスのセキュリティ設定の変更
 
-デフォルトでは、CMS、カタログ、その他のストアリソースへの匿名ゲストアクセスは許可されません。 設定を変更する必要がある場合は、次の操作を行います。
+デフォルトでは、CMS、カタログ、その他のストアリソースへの匿名ゲストによるアクセスは許可されません。 設定を変更する必要がある場合は、次の操作を行います。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Services]**」を展開し、「**[!UICONTROL Magento Web API]**」を選択します。
 
@@ -106,7 +107,7 @@ Commerce管理者で統合を定義すると、サードパーティ統合用の
 
 ## 統合の削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Extensions]_/**[!UICONTROL Integrations]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Extensions]_/**[!UICONTROL Integrations]**に移動します。
 
 1. 既存の統合を見つけて、「**[!UICONTROL Delete]**」列のアイコン（![ ごみ箱アイコン ](../assets/icon-delete-trashcan-solid.png)）をクリックします。
 

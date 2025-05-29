@@ -2,20 +2,34 @@
 title: '[!UICONTROL Content] メニュー'
 description: '[!UICONTROL Content] メニューを使用して、ストア内のコンテンツを管理するための複数の機能にアクセスします。'
 exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: c036fffe602593a801f9cf1361fdb44f1f7e1d5f
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Content] メニュー
 
-![ 管理者に表示される [!UICONTROL Content] メニュー ](./assets/admin-menu-content.png){width="400" zoomable="yes"}
-
 >[!NOTE]
 >
->新しい [[!DNL Media Gallery]](media-gallery.md) が有効になると、「_[!UICONTROL Media]_」セクションが表示され、[!DNL Media Gallery] にアクセスするための単一のオプションが表示されます。**[!UICONTROL Enable Old Media Gallery]**&#x200B;オプションを `No` に設定するには、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]** に移動し、左パネルの **[!UICONTROL Advanced]**/**[!UICONTROL System]** を選択します。
+>新しい [[!DNL Media Gallery]](media-gallery.md) が有効になると、「_[!UICONTROL Media]_」セクションが表示され、[!DNL Media Gallery] にアクセスするための単一のオプションが表示されます。**[!UICONTROL Enable Old Media Gallery]**オプションを `No` に設定するには、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]** に移動し、左パネルの **[!UICONTROL Advanced]**/**[!UICONTROL System]** を選択します。
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+
+![ 管理者に表示される [!UICONTROL Content] メニュー ](./assets/admin-menu-content.png){width="400" zoomable="yes"}
+
+>[!TAB Adobe Commerceas a Cloud Service]
+
+[!BADGE SaaS のみ ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+
+![ 管理者に表示される [!UICONTROL Content] メニュー ](./assets/admin-menu-content-accs.png){width="400" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## [!UICONTROL Content] メニューの表示
 
@@ -32,7 +46,7 @@ _管理者_ サイドバーで「**[!UICONTROL Content]**」を選択します�
 
 >[!NOTE]
 >
->このメニューの _[!UICONTROL Banners]_&#x200B;オプションは、2.3.1 で非推奨（廃止予定）となり、現在は削除されています。 その機能はダイナミック ブロックに置き換えられています。
+>このメニューの _[!UICONTROL Banners]_オプションは、2.3.1 で非推奨（廃止予定）となり、現在は削除されています。 その機能はダイナミック ブロックに置き換えられています。
 
 ## [!UICONTROL Design] {#design-features}
 

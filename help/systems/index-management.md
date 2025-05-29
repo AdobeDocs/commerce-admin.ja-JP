@@ -3,9 +3,10 @@ title: インデックス管理
 description: インデックス再作成にトリガーとなるアクションやベストプラクティスなど、インデックス管理について説明します。
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1296'
 ht-degree: 0%
 
 ---
@@ -43,9 +44,9 @@ Commerceでのインデックス再作成とキャッシュの目的は異なり
 
 >[!IMPORTANT]
 >
->[Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ja) を使用し、Elasticsearchをフルテキスト （`catalogsearch_fulltext`） インデクサーとして設定しているストアの場合：一括権限の変更後、または「権限」インデクサーが「スケジュール済み」モードの場合は、フルテキスト インデックスを再実行する必要があります。
+>[Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) を使用し、Elasticsearchをフルテキスト （`catalogsearch_fulltext`） インデクサーとして設定しているストアの場合：一括権限の変更後、または「権限」インデクサーが「スケジュール済み」モードの場合は、フルテキスト インデックスを再実行する必要があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Index Management]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Index Management]**に移動します。
 
 1. 変更する各インデクサーのチェックボックスを選択します。
 
@@ -76,7 +77,7 @@ Commerceでのインデックス再作成とキャッシュの目的は異なり
 
 ## コマンドラインを使用したインデックスの再作成
 
-Commerceでは、コマンドラインを使用して追加の再インデックスオプションを提供しています。 詳細およびコマンド オプションについては、_構成ガイド [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=ja#reindex){:target="blank"} の  再インデックス_ を参照してください。
+Commerceでは、コマンドラインを使用して追加の再インデックスオプションを提供しています。 詳細およびコマンド オプションについては、_構成ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} の [ 再インデックス_ を参照してください。
 
 ## インデックストリガーイベント
 

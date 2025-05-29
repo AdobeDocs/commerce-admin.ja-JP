@@ -3,9 +3,9 @@ title: 検索エンジンの最適化
 description: Commerce Sites 向けの検索エンジン最適化（SEO）ツールと、最適な SEO のベストプラクティスについて説明します。
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
 feature: Merchandising, Products, Search
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,27 @@ ht-degree: 0%
 
 _検索エンジン最適化_ （SEO）は、サイトのコンテンツと表示を微調整して、検索エンジンによるページのインデックス作成方法を改善する手法です。 Commerceには、継続的な SEO の取り組みをサポートする様々な機能が含まれています。
 
+>[!TIP]
+>
+>Adobe Commerce as a Cloud Serviceについては、Commerce ストアフロントドキュメントの [SEO ガイドライン ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) を参照してください
+
 ## メタデータ
 
-サイトやストアに対してキーワードが豊富な [ メタデータ ](meta-data.md) を追加および強化する方法について説明します。
+[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+
+サイトやストアに対してキーワードの多い [ メタデータ ](meta-data.md) を追加および強化する方法の詳細を説明します。
 
 ## サイトマップの使用
+
+[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 [ サイト マップ ](sitemap-xml.md) を使用すると、検索エンジンによるストアのインデックス作成方法が向上し、Web クローラーによって見落とされる可能性のあるページを検索できます。 サイトマップは、すべてのページと画像のインデックスを作成するように設定できます。
 
 ## URL の書き換え
 
-[URL 書き換え ](url-rewrite.md) ツールを使用すると、製品、カテゴリ、CMS ページに関連付けられている URL を変更できます。
+[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+
+[URL 書き換え ](url-rewrite.md) ツールを使用すると、商品、カテゴリまたはCMSページに関連付けられている URL を変更できます。
 
 ## 検索エンジンロボット
 
@@ -64,7 +74,7 @@ Commerceで生成される robots.txt ファイルには、システムで内部
 
 ### `robots.txt` の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
 
 1. グリッドの最初の行で **[!UICONTROL Global]** 設定を見つけ、「**[!UICONTROL Edit]**」をクリックします。
 

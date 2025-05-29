@@ -3,9 +3,10 @@ title: 製品レビュー
 description: 製品レビューで店舗を強化し、製品の信頼性を高める方法を説明します。
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -14,13 +15,13 @@ ht-degree: 0%
 
 製品レビューはコミュニティの感覚を構築するのに役立ち、広告のお金が買うことができるよりも信頼できると考えられています。 実際、一部の検索エンジンでは、製品レビューのあるサイトのランキングがそうでないサイトよりも高くなっています。 特定の製品を検索してサイトを見つけたユーザーにとって、製品レビューは基本的にストアのランディングページです。 製品レビューは、顧客が店舗を見つけ、顧客の関心を維持し、多くの場合、販売につなげるのに役立ちます。
 
-Commerceには、管理者から管理できるネイティブの製品レビュー機能が含まれています。 また、[ 拡張機能の拡張機能を使用して ](../getting-started/commerce-marketplace.md) ホスト型のレビューCommerce Marketplaceを使用することもできます。
+Commerceには、管理者から管理できるネイティブの製品レビュー機能が含まれています。 また、[Commerce Marketplace](../getting-started/commerce-marketplace.md) の拡張機能を使用して、ホストされているレビュー管理システムを使用することもできます。
 
 >[!NOTE]
 >
->Adobe CommerceおよびMagento Open Sourceリリース 2.4.0 から 2.4.3 には、Yotpo ベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、このCommerce Marketplaceはコアリリースにバンドルされなくなり、拡張機能からインストールおよび更新する必要があります。 また、Marketplace では、拡張機能開発者が提供する最新のドキュメントにもアクセスできます。
-><br><br>
->バンドルされた拡張機能を有効にして設定してある場合は、2.4.4 のアップグレードプロセスの一環として composer.json ファイルを更新し、今後、拡張機能の更新を管理する必要があります。 詳しくは、『 [ アップグレードガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ja) の _アップグレードモジュール_ を参照してください。
+>Adobe CommerceおよびMagento Open Source リリース 2.4.0 から 2.4.3 には、Yotpo ベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、この拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 また、Marketplace では、拡張機能開発者が提供する最新のドキュメントにもアクセスできます。
+>><br><br>
+>>バンドルされた拡張機能を有効にして設定してある場合は、2.4.4 のアップグレードプロセスの一環として composer.json ファイルを更新し、今後、拡張機能の更新を管理する必要があります。 詳しくは、『 [ アップグレードガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) の _アップグレードモジュール_ を参照してください。
 
 ## ストアフロントでの商品レビュー
 
@@ -60,7 +61,7 @@ Commerceの製品レビュー機能は、デフォルトで有効になってい
 >
 >これらのフィールドをCommerceの商品レビューに対して `No` 効または無効にするには、「システム値を使用 **チェックボックスをオフ** する必要があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下にある「**[!UICONTROL Catalog]**」を選択します。
 
@@ -84,13 +85,13 @@ Commerce商品レビューを使用すると、お客様は商品レビューを
 
 ![ ストアフロントの例 – カスタム評価 ](./assets/attribute-custom-ratings-review.png){width="700" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Rating]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Rating]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Rating]**」をクリックします。
 
    ![ 管理者 – 評価 ](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. [_[!UICONTROL Rating Title]_] セクションで、新しい評価の&#x200B;**[!UICONTROL Default Value]**&#x200B;を入力します。
+1. [_[!UICONTROL Rating Title]_] セクションで、新しい評価の&#x200B;**[!UICONTROL Default Value]**を入力します。
 
    該当する場合は、各ストア表示の翻訳も入力します。
 

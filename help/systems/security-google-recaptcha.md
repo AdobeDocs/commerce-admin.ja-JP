@@ -4,9 +4,9 @@ description: 登録ユーザーによって開始される管理者アクセス�
 exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Google reCAPTCHA は、以下のようないくつかの方法で実装できま
 
 >[!IMPORTANT]
 >
->Google reCAPTCHA を設定する前に、`PHP.ini` ファイルに次の設定が含まれていることを確認してください。`allow_url_fopen = 1` これには、開発者の支援が必要になる場合があります。 インストールガイドの [ 必須の PHP 設定 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=ja){:target=&quot;_blank&quot;} を参照してください。
+>Google reCAPTCHA を設定する前に、`PHP.ini` ファイルに次の設定が含まれていることを確認してください。`allow_url_fopen = 1` これには、開発者の支援が必要になる場合があります。 インストールガイドの [ 必要な PHP 設定 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html){:target="_blank"} を参照してください。
 
 ## 手順 1:Google reCAPTCHA キーの生成
 
@@ -70,9 +70,11 @@ Google reCAPTCHA を有効にするには、1 組の API キーが必要です�
 
 ## 手順 2：管理者用のGoogle reCAPTCHA の設定
 
+[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+
 1. 管理者アカウントにログインします。
 
-1. 管理者サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. 管理者サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 右上隅の **[!UICONTROL Store View]** を `Default Config` に設定します。
 
@@ -82,7 +84,7 @@ Google reCAPTCHA を有効にするには、1 組の API キーが必要です�
    >
    >設定する各フィールドの「**[!UICONTROL Use system value]**」チェックボックスをオフにします。
 
-1. _[!DNL reCAPTCHA v2 ("I am not a robot")]_&#x200B;を使用するには、「**[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**」セクションを展開して、次の手順を実行します。
+1. _[!DNL reCAPTCHA v2 ("I am not a robot")]_を使用するには、「**[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**」セクションを展開して、次の手順を実行します。
 
    - **[!UICONTROL Google API Website Key]**:Google reCAPTCHA アカウントの登録時にこの reCAPTCHA タイプ用に作成された web サイトキーを入力します。
 
@@ -96,7 +98,7 @@ Google reCAPTCHA を有効にするには、1 組の API キーが必要です�
 
    ![reCAPTCHA v2 - 「私はロボットではありません」 ](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
-1. _[!DNL reCAPTCHA v2 Invisible]_&#x200B;を使用するには、「**[!UICONTROL reCAPTCHA v2 Invisible]**」セクションを展開して、次の手順を実行します。
+1. _[!DNL reCAPTCHA v2 Invisible]_を使用するには、「**[!UICONTROL reCAPTCHA v2 Invisible]**」セクションを展開して、次の手順を実行します。
 
    - **[!UICONTROL Google API Website Key]**:Google reCAPTCHA アカウントの登録時にこの reCAPTCHA タイプ用に作成された web サイトキーを入力します。
 
@@ -110,7 +112,7 @@ Google reCAPTCHA を有効にするには、1 組の API キーが必要です�
 
    ![reCAPTCHA v2 非表示 ](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
-1. _[!DNL reCAPTCHA v3 Invisible]_&#x200B;を使用するには、「**[!UICONTROL reCAPTCHA v3 Invisible]**」セクションを展開して、次の手順を実行します。
+1. _[!DNL reCAPTCHA v3 Invisible]_を使用するには、「**[!UICONTROL reCAPTCHA v3 Invisible]**」セクションを展開して、次の手順を実行します。
 
    - **[!UICONTROL Google API Website Key]**:Google reCAPTCHA アカウントの登録時にこの reCAPTCHA タイプ用に作成された web サイトキーを入力します。
 
@@ -140,7 +142,7 @@ Google reCAPTCHA を有効にするには、1 組の API キーが必要です�
 
 ## 手順 3：ストアフロントのGoogle reCAPTCHA の設定
 
-1. _[!UICONTROL Security]_&#x200B;の下の左パネルで、「**[!UICONTROL Google reCAPTCHA Storefront]**」を選択します。
+1. _[!UICONTROL Security]_の下の左パネルで、「**[!UICONTROL Google reCAPTCHA Storefront]**」を選択します。
 
 1. ストアフロントで使用する reCAPTCHA タイプごとに、セクションを完了します。
 
