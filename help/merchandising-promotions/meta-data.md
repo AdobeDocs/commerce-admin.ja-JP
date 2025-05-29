@@ -98,6 +98,6 @@ URL からカテゴリを省略するか、正規のメタタグを使用して�
 
 SEO メタデータの管理については、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410176?quality=12&learn=on&captions=jpn)
 
 [1]: https://schema.org/
