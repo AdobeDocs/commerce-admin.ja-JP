@@ -4,7 +4,7 @@ description: ストア管理者のセキュリティを設定する方法につ�
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '719'
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Admin Security の設定
 
-店舗のセキュリティを保護するために、多面的なアプローチを取ることをお勧めします。 推測が容易ではない、明らかな「管理者」や「バックエンド [&#128279;](../stores-purchase/store-urls.md#use-a-custom-admin-url) ではなく、 カスタム管理 URL」を使用して開始することができます。 デフォルトでは、管理者への [ ログイン ](../getting-started/admin-signin.md) に使用するパスワードは 7 文字以上で、文字と数字の両方を含める必要があります。 [ ベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) として、文字、数字、記号の組み合わせを含む強力な管理者パスワードのみを使用します。 Adobe CommerceおよびMagento Open Sourceでは、アカウントに割り当てられた最後の 4 つのパスワードを再利用することはできません。
+店舗のセキュリティを保護するために、多面的なアプローチを取ることをお勧めします。 推測が容易ではない、明らかな「管理者」や「バックエンド [&#128279;](../stores-purchase/store-urls.md#use-a-custom-admin-url) ではなく、 カスタム管理 URL」を使用して開始することができます。 デフォルトでは、管理者への [ ログイン ](../getting-started/admin-signin.md) に使用するパスワードは 7 文字以上で、文字と数字の両方を含める必要があります。 [ ベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=ja) として、文字、数字、記号の組み合わせを含む強力な管理者パスワードのみを使用します。 Adobe CommerceおよびMagento Open Sourceでは、アカウントに割り当てられた最後の 4 つのパスワードを再利用することはできません。
 
 Admin セキュリティ設定を使用すると、次の操作を行うことができます。
 

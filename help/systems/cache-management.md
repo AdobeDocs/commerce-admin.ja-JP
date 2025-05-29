@@ -3,7 +3,7 @@ title: キャッシュ管理
 description: サイトのパフォーマンスを簡単に向上させるキャッシュ管理ツールの使用方法を説明します。
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '1845'
@@ -103,7 +103,7 @@ Commerceでのインデックス再作成とキャッシュの目的は異なり
 
 ## コマンドラインを使用したフラッシュ
 
-Commerce アプリケーションサーバーへのアクセス権を持つシステム管理者および開発者は、Commerce CLI を使用して、コマンドラインからキャッシュとキャッシュ設定を管理することもできます。 _設定ガイド [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} の  キャッシュの管理_ を参照してください。
+Commerce アプリケーションサーバーへのアクセス権を持つシステム管理者および開発者は、Commerce CLI を使用して、コマンドラインからキャッシュとキャッシュ設定を管理することもできます。 _設定ガイド [&#128279;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} の  キャッシュの管理_ を参照してください。
 
 ## コントロール
 
@@ -137,11 +137,11 @@ Commerce アプリケーションサーバーへのアクセス権を持つシ�
 
 開発者およびシステムインテグレーターは、これらの値を使用して、Adobe Commerceのカスタマイズや統合を行う際のキャッシュの設定や管理を行います。例えば、GraphQL API を使用して統合を開発する場合などです。
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} この `cache_type_id` は、Commerce CLI を使用してアプリケーションサーバーのコマンドラインからキャッシュを管理する場合にも使用されます。 例えば、` bin/magento cache:status config` は設定キャッシュの現在のステータスを表示します。
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} この `cache_type_id` は、Commerce CLI を使用してアプリケーションサーバーのコマンドラインからキャッシュを管理する場合にも使用されます。 例えば、` bin/magento cache:status config` は設定キャッシュの現在のステータスを表示します。
 
 >[!NOTE]
 >
->開発者とシステムインテグレーターは、Commerce キャッシュ管理システムをカスタマイズおよび拡張して、カスタムモジュールやカスタムインテグレーションをサポートできます。 詳しくは、_Adobe Commerce設定ガイド [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview) の  キャッシュの設定_ を参照してください。
+>開発者とシステムインテグレーターは、Commerce キャッシュ管理システムをカスタマイズおよび拡張して、カスタムモジュールやカスタムインテグレーションをサポートできます。 詳しくは、_Adobe Commerce設定ガイド [&#128279;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cache/caching-overview) の  キャッシュの設定_ を参照してください。
 
 <!-- prettier-ignore -->
 
@@ -184,7 +184,7 @@ Adobe CommerceとMagento Open Sourceでは、サーバー上のフルページ�
 - `Sessioned` - セッション型の訪問中、ストアとやり取りする買い物客には、セッション ID が割り当てられます。 インタラクションには、製品の比較や買い物かごへの製品の追加などのアクティビティが含まれます。 セッション中に生成されたキャッシュ済みページは、セッション中にその買い物客のみが使用します。
 - `Customer` - ログインして登録済みアカウントを使用して買い物をした顧客に対して、顧客セッションが作成されます。 セッションの間、お客様には、割り当てられた顧客グループに基づいて、特別なオファー、プロモーション、価格が提示されます。
 
-技術情報については、[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html) 設定ガイド _の [Varnish の設定と使用 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target="_blank"} および_ Commerceページとデフォルトキャッシュに Redis を使用 {:target="_blank"} を参照してください。
+技術情報については、[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=ja) 設定ガイド _の [Varnish の設定と使用 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=ja){:target="_blank"} および_ Commerceページとデフォルトキャッシュに Redis を使用 {:target="_blank"} を参照してください。
 
 **_フルページキャッシュを設定するには：_**
 
@@ -203,7 +203,7 @@ Adobe CommerceとMagento Open Sourceでは、サーバー上のフルページ�
 
 1. ページキャッシュのタイムアウトを設定するには、**[!UICONTROL TTL for public content]** を入力します。 （デフォルト値は `86400`）
 
-1. [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP エンドポイントで処理する [ レイアウトハンドル ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) の最大数を指定するには、**[!UICONTROL Handles param size]** を入力します。 サイズを制限すると、セキュリティとパフォーマンスが向上する可能性があります。 （デフォルト値は `100`）
+1. [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=ja) HTTP エンドポイントで処理する [ レイアウトハンドル ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) の最大数を指定するには、**[!UICONTROL Handles param size]** を入力します。 サイズを制限すると、セキュリティとパフォーマンスが向上する可能性があります。 （デフォルト値は `100`）
 
 1. Varnish を使用する場合は、**[!UICONTROL Varnish Configuration]** のセクションを次のように完成させます。
 
@@ -213,7 +213,7 @@ Adobe CommerceとMagento Open Sourceでは、サーバー上のフルページ�
 
    - **[!UICONTROL Backend port]** – 設定ファイルの生成に使用するバックエンドポートを識別します。 デフォルト値は `8080` です。
 
-   - **[!UICONTROL Grace period]** – 設定ファイルを生成するための猶予期間として使用する秒数を指定します。 [ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) の _高度なワニス設定_ を参照してください。
+   - **[!UICONTROL Grace period]** – 設定ファイルを生成するための猶予期間として使用する秒数を指定します。 [ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html?lang=ja) の _高度なワニス設定_ を参照してください。
 
    - 設定を `varnish.vcl` ファイルとして書き出すには、使用する Varnish のバージョンのボタンをクリックします。
 

@@ -4,7 +4,7 @@ description: ブラウザー機能の検出を設定し、顧客のブラウザ�
 exl-id: 16caab8b-3ba5-43a1-a6f0-7c1e921be132
 role: Admin
 feature: Configuration, Security
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '265'
@@ -19,7 +19,7 @@ ht-degree: 0%
 - ブラウザーのプライバシー設定で Cookie が許可されていない場合は、システムが自動的に [Cookie を有効にする ](../content-design/pages.md#enable-cookies) ページにリダイレクトするように設定できます。このページでは、ほとんどのブラウザーで推奨設定を行う方法を説明します。
 - ブラウザーのプライバシー設定によってJavaScriptが許可されていない場合は、すべてのページのヘッダーの上に次のメッセージが表示されるようにシステムを設定できます。
 
-技術情報については、_インストールガイド_ の [ サポートされているブラウザー ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers) を参照してください。
+技術情報については、_インストールガイド_ の [ サポートされているブラウザー ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=ja#supported-browsers) を参照してください。
 
 ## ブラウザー機能の検出の設定
 

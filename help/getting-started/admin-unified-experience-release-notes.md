@@ -2,7 +2,7 @@
 title: '[!DNL Admin Unified Experience for Adobe Commerce] リリースノート'
 description: Commerce用の拡張機能の最新リリースについては、リリースノ  [!DNL Admin Unified Experience]  トを参照してください。
 exl-id: f8a16c63-13f9-4429-a1cd-2293bc465f9f
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
 source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
 source-wordcount: '210'
@@ -20,7 +20,7 @@ Commerce Admin Unified Experience Extension （`magento/module-unified-experienc
 
 >[!NOTE]
 >
->Adobe Commerceに関連する Admin Unified Experience 拡張機能のリリースステータスについて詳しくは、[ 製品の可用性 ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) を参照してください。
+>Adobe Commerceに関連する Admin Unified Experience 拡張機能のリリースステータスについて詳しくは、[ 製品の可用性 ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=ja) を参照してください。
 
 ## 1.0 リリース
 

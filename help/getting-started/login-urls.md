@@ -42,6 +42,6 @@ ht-degree: 0%
 
 ## サンプルデータ
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
-Adobeは、250 個を超える商品（そのうち約 200 個は設定可能な商品）、カテゴリ、プロモーションの価格ルール、CMSページ、バナーなどを含むサンプルストアを含むサンプルデータセットを提供します。 サンプルデータでは、ストアフロントの _Luma_ テーマを使用しています。 [ このサンプルデータのインストール ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html) はオプションですが、e コマースビジネスのカスタマイズのテストと開発に役立ちます。
+Adobeは、250 個を超える商品（そのうち約 200 個は設定可能な商品）、カテゴリ、プロモーションの価格ルール、CMSページ、バナーなどを含むサンプルストアを含むサンプルデータセットを提供します。 サンプルデータでは、ストアフロントの _Luma_ テーマを使用しています。 [ このサンプルデータのインストール ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=ja) はオプションですが、e コマースビジネスのカスタマイズのテストと開発に役立ちます。
