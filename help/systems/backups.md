@@ -23,7 +23,7 @@ Adobe CommerceとMagento Open Sourceを使用すると、ファイルシステ�
 
 ## バックアップの有効化とスケジュール設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
@@ -45,7 +45,7 @@ Adobe CommerceとMagento Open Sourceを使用すると、ファイルシステ�
 
 ## バックアップの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Backups]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Backups]**&#x200B;に移動します。
 
 1. 右上隅で、作成するバックアップの種類をクリックします。
 

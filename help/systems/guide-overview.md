@@ -24,7 +24,7 @@ ht-degree: 7%
 | [ メールテンプレート ](email-templates.md) | メールテンプレートは、ストアから送信される自動メッセージのレイアウト、コンテンツ、書式を定義します。 各トランザクションメールは、特定のタイプのトランザクションまたはイベントに関連付けられているので、トランザクションメールと呼ばれます。 |
 | [ データ転送 ](data-transfer.md) | 読み込みツールと書き出しツールを使用すると、1 回の操作で複数のレコードを管理できます。 新しい項目を読み込むだけでなく、既存の製品セットを更新、置換、削除することもできます。 |
 | [ アクションログ ](action-log.md) | Adobe Commerceの場合、アクションログには、ストアで作業する管理者ユーザーが行ったすべての変更が取り込まれます。 これにより、ストアに加えられたすべての変更を追跡できます。 |
-| ツール | [!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} システム管理者は一連のツールを使用できます。[ サポートツール ](support.md) は、システムの既知の問題を識別するように設計されています。 システムツールは、日常的な [ インデックス ](index-management.md) および [ キャッシュ ](cache-management.md) 管理、[ システムのバックアップ ](backups.md)、[ スケジュールされた操作 ](data-scheduled-import-export.md) の管理、および [ 開発者ツール ](developer-tools.md) の様々な使用を行うための運用サポートを提供します。 |
+| ツール | [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} システム管理者は一連のツールを使用できます。[ サポートツール ](support.md) は、システムの既知の問題を識別するように設計されています。 システムツールは、日常的な [ インデックス ](index-management.md) および [ キャッシュ ](cache-management.md) 管理、[ システムのバックアップ ](backups.md)、[ スケジュールされた操作 ](data-scheduled-import-export.md) の管理、および [ 開発者ツール ](developer-tools.md) の様々な使用を行うための運用サポートを提供します。 |
 | [ 統合 ](integrations.md) | OAuth 認証情報の場所を確立し、サードパーティ統合用のリダイレクト URL を指定します。 |
 | [ セキュリティ ](security.md) | ストアとデータを保護するために使用できるツールと、セキュリティ侵害を検出した場合のセキュリティアクションプランのガイドラインについて説明します。 |
 

@@ -58,7 +58,7 @@ ht-degree: 0%
 
 招待状設定では、ストアの招待が有効になり、招待状の送信方法が決定されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Invitations]**」を選択します。
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 ### 管理者での招待状の作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invitations]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invitations]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Invitations]**」をクリックします。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 ### 単一エンティティの招待を破棄
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invitations]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invitations]**&#x200B;に移動します。
 
 1. フィルターを使用して必要な招待を見つけ、編集モードで開きます。
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 ### 複数のエンティティの招待を破棄
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invitations]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invitations]**&#x200B;に移動します。
 
 1. 破棄する招待を検索して選択します。
 

@@ -18,15 +18,15 @@ ht-degree: 0%
 
 **_security.txt を構成するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL Security]_の下の左パネルで、「**[!UICONTROL Security.txt]**」をクリックします。
+1. _[!UICONTROL Security]_&#x200B;の下の左パネルで、「**[!UICONTROL Security.txt]**」をクリックします。
 
-1. _[!UICONTROL General]_セクションで、**[!UICONTROL Enable]**を `Yes` に設定します。
+1. _[!UICONTROL General]_&#x200B;セクションで、**[!UICONTROL Enable]**&#x200B;を `Yes` に設定します。
 
    ![ 一般的なセキュリティ設定 ](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Contact Information]_の下に、次の情報を入力します。
+1. _[!UICONTROL Contact Information]_&#x200B;の下に、次の情報を入力します。
 
    - ストアのセキュリティ問題を管理する人物のメールアドレスと電話番号。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    ![ 連絡先情報の設定 ](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Other Information]_の下に、次の情報を入力します。
+1. _[!UICONTROL Other Information]_&#x200B;の下に、次の情報を入力します。
 
    - 公開 **[!UICONTROL Encryption]** 鍵の URL。 例：`https://example.com/pgp-key.txt`
 

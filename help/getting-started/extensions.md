@@ -128,7 +128,7 @@ Adobeには、Composer を使用して個別にインストールする必要が
 
 ### [!DNL Catalog Service]
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe CommerceおよびMagento Open Sourceのインストール
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe CommerceおよびMagento Open Sourceのインストール
 
 [!DNL Catalog Service] は、Adobe CommerceおよびGraphQL用の高性能ソリューションであり、Magento Open Source エンドポイントを介したカタログデータへの最適化されたアクセスを提供します。 製品の詳細および関連情報について、別個の同期済みデータベースを維持し、直接のアプリケーション通信をバイパスして、ページの読み込み時間を短縮します。 このサービスは、製品詳細ページ、カテゴリリスト、検索結果ページで特に価値が高く、従来のコマース実装とヘッドレスコマース実装の両方に最適です。
 
@@ -140,7 +140,7 @@ Adobeには、Composer を使用して個別にインストールする必要が
 
 ### [!DNL Payment Services]
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe CommerceおよびMagento Open Sourceのインストール
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe CommerceおよびMagento Open Sourceのインストール
 
 [!DNL Payment Services] は、Adobe CommerceおよびMagento Open Sourceの店舗に対するターンキー支払いソリューションで、包括的な支払い処理機能を提供します。 このサービスは、安全な支払いゲートウェイ機能と組み込みの不正防止を統合し、クレジット/デビットカード、PayPal、Venmo （米国）、PayLater プランなど、複数の支払いオプションを提供します。 Commerce Admin インターフェイスを介した統合トランザクションレポートと注文管理が備わっているので、マーチャントは支払いの追跡、キャッシュフローの管理、財務データの調整を 1 か所で簡単に行えます。
 

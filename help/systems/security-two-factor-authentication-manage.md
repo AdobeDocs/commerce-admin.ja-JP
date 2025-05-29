@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >他のユーザーの 2FA プロバイダーをリセットするには、`All` の権限を持つ _管理者_ であるか、自分の役割で [!UICONTROL System] > [!UICONTROL Permissions] > [!UICONTROL Two Factor Auth] および [!UICONTROL System] > [!UICONTROL Permissions] > [!UICONTROL All Users] を選択できる `Custom` 権限が必要です。 詳しくは、「[ ユーザーの役割 ](permissions-user-roles.md)」を参照してください。
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL All Users]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL All Users]**&#x200B;に移動します。
 
 1. ユーザーを選択し、アカウントを編集モードで開きます。
 

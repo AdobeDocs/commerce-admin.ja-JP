@@ -33,7 +33,7 @@ Commerce技術情報については、_Cloud Infrastructure ガイドの [ サ�
 
 ## 手順 2. サイトマップを生成
 
-1. _管理者_ メニューで、**[!UICONTROL Marketing]**/_[!UICONTROL SEO & Search]_/**[!UICONTROL Site Map]**に移動します。
+1. _管理者_ メニューで、**[!UICONTROL Marketing]**/_[!UICONTROL SEO & Search]_/**[!UICONTROL Site Map]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add Site Map]**」をクリックします。
 
@@ -85,7 +85,7 @@ Commerceのインストール先にある `sitemap.xml` ファイルへのリン
        /sitemaps/domain_1/
        /sitemaps/domain_2/
    
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL SEO & Search]_/**[!UICONTROL Site Map]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL SEO & Search]_/**[!UICONTROL Site Map]**&#x200B;に移動します。
 
 1. 各ストアのサイトマップのリストを作成または編集し、**[!UICONTROL Path]** をストアに対して作成したリストに設定します。
 
@@ -124,7 +124,7 @@ Commerceのインストール先にある `sitemap.xml` ファイルへのリン
 
 ### 手順 1. コンテンツ更新の頻度と優先度を設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、「**[!UICONTROL XML Sitemap]**」を選択します。
 

@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## イベントの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Events]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Events]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Catalog Event]**」をクリックします。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ### 方法 1：イベントページからイベントを編集する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Events]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Events]**&#x200B;に移動します。
 
 1. リストでイベントを検索し、編集モードで開きます。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 ## イベントの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Events]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Events]**&#x200B;に移動します。
 
 1. リストでイベントを検索し、編集モードで開きます。
 

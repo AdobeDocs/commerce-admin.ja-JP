@@ -26,7 +26,7 @@ Commerce Admin Unified Experience Extension （`magento/module-unified-experienc
 
 *2023 年 2 月 13 日*
 
-[!BADGE  互換性 ]{type=Informative tooltip="互換性"}Adobe Commerce 2.4.5 以降のバージョン
+[!BADGE &#x200B; 互換性 &#x200B;]{type=Informative tooltip="互換性"}Adobe Commerce 2.4.5 以降のバージョン
 
 ![ 新規 ](../assets/new.svg)Adobe Experience Cloudとの統合を有効にするための Admin Unified Experience 拡張機能の一般提供リリースです。
 
@@ -37,7 +37,7 @@ Commerce Admin Unified Experience Extension （`magento/module-unified-experienc
 
 *2023 年 8 月 8 日*
 
-[!BADGE  互換性 ]{type=Informative tooltip="互換性"}Adobe Commerce 2.4.5 以降のバージョン
+[!BADGE &#x200B; 互換性 &#x200B;]{type=Informative tooltip="互換性"}Adobe Commerce 2.4.5 以降のバージョン
 
 ![ 新規 ](../assets/new.svg)Adobe Experience Cloudとの統合を有効にするための Admin Unified Experience 拡張機能の初期ベータ版リリースです。
 

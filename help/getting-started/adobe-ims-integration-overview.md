@@ -40,7 +40,7 @@ Commerce アプリケーションのユーザーアカウントとロール権�
 
 Commerce インスタンスでAdobe IMSによる管理者認証が有効になっている場合、Commerce管理 API は影響を受けます。 管理者ユーザーは、Commerce インスタンスが発行した資格情報を使用できなくなります。 これらは、管理者にログインし、サービスが管理者の REST API およびSOAP API にリクエストを行うために使用できるアクセストークンを取得するために必要な資格情報です。
 
-Adobe IMS統合が有効になると、管理者ユーザーは、認証を必要とするAdobe Commerce API エンドポイントに対して ](https://developer.adobe.com/developer-console/docs/guides/authentication/OAuthIntegration/)0}Adobe IMS OAuth トークン } を使用する必要があります。[ クライアントソリューションは、web API で使用するためにトークンを動的に取得します。 この認証メカニズムは、この統合の設定の一環として、REST およびSOAP Web API 領域に対して有効になっています。
+Adobe IMS統合が有効になると、管理者ユーザーは、認証を必要とするAdobe Commerce API エンドポイントに対して [&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/OAuthIntegration/)0&rbrace;Adobe IMS OAuth トークン &rbrace; を使用する必要があります。 クライアントソリューションは、web API で使用するためにトークンを動的に取得します。 この認証メカニズムは、この統合の設定の一環として、REST およびSOAP Web API 領域に対して有効になっています。
 
 Web API でのCommerce アクセストークンの使用方法（IMS アクセストークンを含む）の概要については、[ トークンベースの認証 ](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/) を参照してください。
 

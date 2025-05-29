@@ -19,11 +19,11 @@ ht-degree: 0%
 >
 >メールのリマインダーでは、クーポンの有無に関わらず、買い物かごの価格ルールを促進する場合があります。 自動生成されたクーポンを定義する買い物かご価格ルールにより、各顧客にランダムクーポンコードが生成されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Email Reminder Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Email Reminder Rules]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Rule]**」をクリックします。
 
-1. _[!UICONTROL Rule Information]_を次のように入力します。
+1. _[!UICONTROL Rule Information]_&#x200B;を次のように入力します。
 
    ![ メールリマインダールール ](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -58,7 +58,7 @@ ht-degree: 0%
    >
    >顧客に、一致する放棄された買い物かご、ウィッシュリストまたはその両方の組み合わせが複数ある場合、メールのリマインダーはその顧客に対して 1 回だけトリガーされます。 同じメールのリマインダーを再度トリガーするには、「_[!UICONTROL Repeat Schedule]_」フィールドを使用して、メール間の日数を設定します。<br/>
    >
-   >**_新規_** 放棄された買い物かごと **_後_** リストの同じ顧客に対して、同じメールのリマインダーは **_再トリガーされません_**_[!UICONTROL Repeat Schedule]_期間が終了します。
+   >**_新規_** 放棄された買い物かごと **_後_** リストの同じ顧客に対して、同じメールのリマインダーは **_再トリガーされません_**&#x200B;_[!UICONTROL Repeat Schedule]_&#x200B;期間が終了します。
 
    メールのリマインダーをトリガーするシナリオを示す条件を入力します。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
      ![ メールのリマインダー – タイトルと説明 ](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - 「_[!UICONTROL Titles and Descriptions Per Store View]_」セクションで、「_ デフォルトストア表示 _」の&#x200B;**[!UICONTROL Rule Title]**と&#x200B;**[!UICONTROL Description]**を入力します。 複数のストア表示の場合は、それぞれに適切なタイトルと説明を入力します。
+   - 「_[!UICONTROL Titles and Descriptions Per Store View]_」セクションで、「_ デフォルトストア表示 _」の&#x200B;**[!UICONTROL Rule Title]**&#x200B;と&#x200B;**[!UICONTROL Description]**&#x200B;を入力します。 複数のストア表示の場合は、それぞれに適切なタイトルと説明を入力します。
 
      >[!NOTE]
      >
