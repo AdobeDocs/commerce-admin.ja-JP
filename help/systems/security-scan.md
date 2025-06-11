@@ -4,16 +4,29 @@ description: 強化されたセキュリティスキャンを実行し、Adobe C
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 4f46ce0ee4e4d51d178dac04d1493f0d9cffc49b
+source-git-commit: fa3931d4aaa5e7b903a17ec074703d2c8130c71d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
 
+
 # セキュリティスキャン
 
-Adobe Commerce サイトとMagento Open Source サイトでセキュリティのリスクやマルウェアを監視し、セキュリティの更新や通知を受け取ります。
+Adobe Commerce セキュリティスキャンツールを使用すると、Adobe Commerce サイトおよびMagento Open Source サイトのセキュリティを無料で監視できます。 このツールは、オンラインのAdobe Commerce アカウント（[account.magento.com](https://account.magento.com/customer/account/login)）からアクセスできる web ベースのサービスとして機能します。
+
+![ セキュリティスキャンツール ](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Adobeはこのサービスを無料で提供しますが、マーチャントは、スキャン結果とサイト設定に基づいてAdobeの責任を制限する条件に同意する必要があります。
+
+## スキャン カバレッジ
+
+セキュリティスキャンツールは、HTTP と HTTPS の両方のプロトコルで動作し、マルウェアの検出、セキュリティの脆弱性の特定、ストアのセキュリティ態勢の維持に役立ちます。 このツールは、すべてのマーチャント、開発者、サイトセキュリティを担当する指定担当者が使用できます。
+
+セキュリティ スキャン ツールは、セキュリティで保護されたストア環境の維持に役立つ包括的なセキュリティ監視機能を提供します。
 
 - ストアのリアルタイムのセキュリティステータスに関するinsightを取得します。
 - 問題を解決するのに役立つ、ベストプラクティスに基づいた提案を受け取ります。
@@ -22,11 +35,25 @@ Adobe Commerce サイトとMagento Open Source サイトでセキュリティの
 - サイトの進行状況を追跡および監視する履歴セキュリティレポートにアクセスします。
 - 成功したチェックと失敗したチェックを表示するスキャン レポートにアクセスします。推奨されるアクションも表示されます。
 
-セキュリティスキャンツールは、[Commerce/Magento アカウント ](../getting-started/commerce-account-create.md) のダッシュボードから無料で利用できます。 Commerce技術情報については、[2&rbrace;Cloud Infrastructure ガイドのセキュリティスキャンツールの設定 ](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) を参照してください __
+>[!NOTE]
+>
+>Adobe Commerceのセキュリティ スキャン ツール スキャンから特定のセキュリティ テストを除外することはできません。 ただし、該当する場合は、誤検出として「失敗を無視 [ でセルフサービスを行うこ ](#manage-scan-failures) ができます。
 
-![ セキュリティスキャンツール ](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+## アクセス
 
-## セキュリティスキャンを実行
+セキュリティ スキャン ツールは、サイト情報を保護するために厳密なアクセス制御を維持します。 このツールはAdobe Commerce アカウントを通じてドメインの所有権を確認する必要があるので、サイトをスキャンできるのはあなただけです。 各サイトは、一意のトークンを介してアカウントに接続し、サードパーティによる不正なスキャンを防ぎます。
+
+このツールでは、特にAdobe Commerce ドメインとそのセキュリティの脆弱性に焦点を当てています。 Web ストアには他のプラットフォームのページが含まれている場合がありますが、セキュリティスキャンツールでは、Adobe Commerceで生成されたコンテンツのみをスキャンして、信頼性の高い結果を保証する必要があります。 Adobe Commerce以外のページをスキャンすると、信頼性の低い脆弱性評価が行われる可能性があります。
+
+## スキャンの実行
+
+スキャンプロセスでは、サイトのセキュリティに関する既知の問題をチェックし、ストアが攻撃を受けやすい状態になる可能性のある、Adobe Commerceのパッチやアップデートが見つからないかどうかを特定します。
+
+>[!TIP]
+>
+>クラウドインフラストラクチャプロジェクトのCommerceについては、[ セキュリティスキャンツールの設定 ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) を参照してください。
+
+スキャンを実行するには、次の手順に従います。
 
 1. Commerceのホームページから、[Commerce/Magento アカウント ](../getting-started/commerce-account-create.md) にログインします。
 
@@ -37,7 +64,7 @@ Adobe Commerce サイトとMagento Open Source サイトでセキュリティの
    1. **[!UICONTROL Terms and Conditions]** を読んでください。
    1. 「**[!UICONTROL Agree]**」をクリックして続行します。
 
-1. _[!UICONTROL Monitored Websites]_&#x200B;ページで「**[!UICONTROL +Add Site]**」をクリックします。
+1. _[!UICONTROL Monitored Websites]_ページで「**[!UICONTROL +Add Site]**」をクリックします。
 
    異なるドメインを持つ複数のサイトがある場合は、ドメインごとに個別のスキャンを設定します。
 
@@ -55,7 +82,7 @@ Adobe Commerce サイトとMagento Open Source サイトでセキュリティの
 
    1. 完全な管理者権限を持つユーザーとしてストアの管理者にログインし、次の手順を実行します。
 
-      1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+      1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
       1. リストでサイトを見つけて、「**[!UICONTROL Edit]**」をクリックします。
       1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL HTML Head]**」セクションを展開します。
       1. **[!UICONTROL Scripts and Style Sheets]** までスクロールし、既存のコードの末尾にあるテキストボックスをクリックします。 確認コードをテキストボックスに貼り付けます。
@@ -104,7 +131,7 @@ Adobe Commerce サイトとMagento Open Source サイトでセキュリティの
 
          ビルドプロセスが完了すると、変更内容がPWA ストアフロントにデプロイされます。
 
-1. Commerce アカウントの _[!UICONTROL Security Scan]_&#x200B;ページに戻り、「**[!UICONTROL Verify Confirmation Code]**」をクリックしてドメインの所有権を確立します。
+1. Commerce アカウントの _[!UICONTROL Security Scan]_ページに戻り、「**[!UICONTROL Verify Confirmation Code]**」をクリックしてドメインの所有権を確立します。
 
 1. 確認が正常に完了したら、次のいずれかのタイプで **[!UICONTROL Set Automatic Security Scan]** のオプションを設定します。
 
@@ -159,7 +186,7 @@ Adobe Commerce サイトとMagento Open Source サイトでセキュリティの
 
 誤検出と識別されたスキャンエラーを管理するには、次の手順に従います。
 
-1. _[!UICONTROL Monitored Websites]_&#x200B;ページで、管理するサイトの&#x200B;**[!UICONTROL View Report]**&#x200B;をクリックします。
+1. _[!UICONTROL Monitored Websites]_ページで、管理するサイトの&#x200B;**[!UICONTROL View Report]**をクリックします。
 
 1. レポート ビューで、誤検出としてマークする失敗したスキャンを見つけます。
 
@@ -169,7 +196,7 @@ Adobe Commerce サイトとMagento Open Source サイトでセキュリティの
 
 1. 「**[!UICONTROL Apply Changes]**」をクリックして選択内容を保存します。
 
-無視されたスキャンエラーは _[!UICONTROL Ignored Results]_&#x200B;のセクションに移動し、リスクスコアから除外されます。
+無視されたスキャンエラーは _[!UICONTROL Ignored Results]_のセクションに移動し、リスクスコアから除外されます。
 
 ### スキャンの失敗を無視しない
 
@@ -183,7 +210,7 @@ Adobe Commerce サイトとMagento Open Source サイトでセキュリティの
 
 1. 「**[!UICONTROL Apply Changes]**」をクリックして選択内容を保存します。
 
-スキャンの失敗は _[!UICONTROL Failed Scans]_&#x200B;のセクションに戻り、リスクスコアに含まれます。
+スキャンの失敗は _[!UICONTROL Failed Scans]_のセクションに戻り、リスクスコアに含まれます。
 
 ### 無視されたスキャン エラーの表示
 
