@@ -20,9 +20,9 @@ ht-degree: 0%
 
 ## デフォルトのレイアウトを設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
 
 1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Default Layouts]**」セクションを展開します。
 
@@ -87,28 +87,28 @@ ht-degree: 0%
 
 ![ 図 – 1 列のレイアウト ](./assets/layout-1-col-th.png){zoomable="yes"}
 
-_[!UICONTROL 1 Column]_レイアウトを使用して、大きな画像や焦点を持つ劇的なホームページを作成できます。 また、ランディングページや、テキスト、画像およびビデオを組み合わせたその他のページにも適しています。
+_[!UICONTROL 1 Column]_&#x200B;レイアウトを使用して、大きな画像や焦点を持つ劇的なホームページを作成できます。 また、ランディングページや、テキスト、画像およびビデオを組み合わせたその他のページにも適しています。
 
 ### 左側に棒が付いた 2 列
 
 ![ 図 – 左側に棒が付いた 2 列のレイアウト ](./assets/layout-2-col-lft-bar-th.png){zoomable="yes"}
 
-_[!UICONTROL 2 Columns with Left Bar]_レイアウトは、多くの場合、カタログや検索結果のページなど、左側にナビゲーションがあるページに対して使用されます。 また、左側に追加のナビゲーションやサポートコンテンツのブロックが必要なホームページにも最適です。
+_[!UICONTROL 2 Columns with Left Bar]_&#x200B;レイアウトは、多くの場合、カタログや検索結果のページなど、左側にナビゲーションがあるページに対して使用されます。 また、左側に追加のナビゲーションやサポートコンテンツのブロックが必要なホームページにも最適です。
 
 ### 右側のバー付き 2 列
 
 ![ 図 – 右棒グラフ付きの 2 列のレイアウト ](./assets/layout-2-col-rt-bar-th.png){zoomable="yes"}
 
-レイアウトが _[!UICONTROL 2 Columns with Right Bar]_い場合、メインコンテンツ領域は目を引く画像やバナーを表示するのに十分な大きさになります。 このレイアウトは、多くの場合、右側にサポートコンテンツのブロックが含まれる製品ページにも使用されます。
+レイアウトが _[!UICONTROL 2 Columns with Right Bar]_&#x200B;い場合、メインコンテンツ領域は目を引く画像やバナーを表示するのに十分な大きさになります。 このレイアウトは、多くの場合、右側にサポートコンテンツのブロックが含まれる製品ページにも使用されます。
 
 ### 3 列
 
 ![ 図 – 3 列のレイアウト ](./assets/layout-3-col-th.png){zoomable="yes"}
 
-_[!UICONTROL 3 Column]_レイアウトには、ページのメインテキストに十分な幅の中央の列があり、追加のナビゲーションとサポートコンテンツのブロック用のスペースが両側に配置されています。
+_[!UICONTROL 3 Column]_&#x200B;レイアウトには、ページのメインテキストに十分な幅の中央の列があり、追加のナビゲーションとサポートコンテンツのブロック用のスペースが両側に配置されています。
 
 ### 空
 
 ![ 図 – 空のレイアウト ](./assets/layout-blank-th.png){zoomable="yes"}
 
-_[!UICONTROL Empty]_レイアウトを使用して、カスタムページレイアウトを定義できます。
+_[!UICONTROL Empty]_&#x200B;レイアウトを使用して、カスタムページレイアウトを定義できます。

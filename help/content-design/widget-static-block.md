@@ -18,7 +18,7 @@ _CMS静的ブロック_ [widget](widgets.md) を使用すると、既存の [ �
 
 ## 手順 1：ウィジェットタイプの選択
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックします。
 
@@ -28,7 +28,7 @@ _CMS静的ブロック_ [widget](widgets.md) を使用すると、既存の [ �
 
    ![ ウィジェット設定 ](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Storefront Properties]_セクションで、次の操作を行います。
+1. _[!UICONTROL Storefront Properties]_&#x200B;セクションで、次の操作を行います。
 
    - **[!UICONTROL Widget Title]** しくは、ウィジェットのわかりやすいタイトルを入力します。
 

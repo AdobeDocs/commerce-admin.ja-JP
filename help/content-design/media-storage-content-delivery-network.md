@@ -30,9 +30,9 @@ CDN を設定したら、管理者から設定を完了する必要がありま�
 
 ## コンテンツ配信ネットワークの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
 
 1. 左上隅で、必要に応じて **[!UICONTROL Store View]** を設定します。
 

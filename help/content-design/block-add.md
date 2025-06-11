@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## ブロックの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**&#x200B;に移動します。
 
 1. 右上隅の「**新しいブロックを追加**」をクリックします。
 
@@ -62,14 +62,14 @@ ht-degree: 0%
 
 ### 方法 1: ブロック グリッドからブロックを削除する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**&#x200B;に移動します。
 1. グリッドの上でフィルタを使用してブロックを見つけ、削除する 1 つまたは複数のブロックのチェックボックスをオンにします。
 1. リストの左上隅にある **[!UICONTROL Actions]** を `Delete` に設定します。
 1. アクションを確定するには、「**[!UICONTROL OK]**」をクリックします。
 
 ### 方法 2：編集ページからブロックを削除する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**&#x200B;に移動します。
 1. 削除するブロックを検索します。
 1. ブロックの _アクション_ 列で、「**[!UICONTROL Select]**」をクリックし、「**[!UICONTROL Edit]**」を選択します。
 1. メニューバーで、「**[!UICONTROL Delete Block]**」をクリックします。

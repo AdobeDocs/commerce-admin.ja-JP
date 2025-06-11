@@ -44,7 +44,7 @@ Adobe Stock統合をAdobe Commerce用に設定するには、次の 2 つの手�
 
 1. [_[!UICONTROL Quick Start]_] で、[**[!UICONTROL Create new project]**] をクリックします。
 
-1. _[!UICONTROL Project overview]_ブロックで、「**[!UICONTROL Add API]**」をクリックします。
+1. _[!UICONTROL Project overview]_&#x200B;ブロックで、「**[!UICONTROL Add API]**」をクリックします。
 
 1. 統合リストから「**[!UICONTROL Adobe Stock]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 
@@ -74,9 +74,9 @@ Adobe Stock統合をAdobe Commerce用に設定するには、次の 2 つの手�
 
 ### Adobe Stock統合の設定
 
-[!DNL Commerce] Admin でシステム設定を設定するには、_前の節 ][create-integration] で生成した [API キー_ と _クライアントシークレット_ を使用します。
+[!DNL Commerce] Admin でシステム設定を設定するには、_前の節 &rbrack;[create-integration] で生成した &lbrack;API キー_ と _クライアントシークレット_ を使用します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## ページプロパティをすばやく更新
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
 1. グリッドの任意の行をクリックします。
 
    ![ ページプロパティはページグリッドで編集できます ](./assets/page-grid-properties-update.png){width="600" zoomable="yes"}
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 ## ページ検索
 
-_[!UICONTROL Pages]_グリッドの左上にある「検索」ボックスを使用すると、キーワードで特定のページを検索できます。 より高度な検索では、複数のパラメーターで検索を [ フィルター ](../getting-started/admin-grid-controls.md) できます。
+_[!UICONTROL Pages]_&#x200B;グリッドの左上にある「検索」ボックスを使用すると、キーワードで特定のページを検索できます。 より高度な検索では、複数のパラメーターで検索を [ フィルター ](../getting-started/admin-grid-controls.md) できます。
 
 ### キーワードで検索
 
@@ -150,7 +150,7 @@ _[!UICONTROL Pages]_グリッドの左上にある「検索」ボックスを使
 
 ### 一括アクション
 
-左上隅の _[!UICONTROL Action]_セレクターを使用して、選択した複数のページに対し、同時に次のアクションのいずれかを適用します。
+左上隅の _[!UICONTROL Action]_&#x200B;セレクターを使用して、選択した複数のページに対し、同時に次のアクションのいずれかを適用します。
 
 - [!UICONTROL Delete] - ページを削除します（確認が必要）
 - [!UICONTROL Disable] - ストアフロントでページを無効にします

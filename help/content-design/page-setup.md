@@ -26,9 +26,9 @@ ht-degree: 0%
 
 ### HTML ヘッドの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. 設定するストア表示を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
+1. 設定するストア表示を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. _その他の設定_ の下で、「**[!UICONTROL HTML Head]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 
@@ -83,9 +83,9 @@ ht-degree: 0%
 
 ### ヘッダーの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. 設定するストア表示を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
+1. 設定するストア表示を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. _その他の設定_ の下で、「**[!UICONTROL Header]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 
@@ -117,9 +117,9 @@ ht-degree: 0%
 
 ### フッターの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. 設定するストア表示を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
+1. 設定するストア表示を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. _その他の設定_ の下で、「**[!UICONTROL Footer]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 

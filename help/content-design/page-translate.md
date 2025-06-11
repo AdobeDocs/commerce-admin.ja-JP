@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # コンテンツページの翻訳
 
-ストアに異なる [ 言語 ](../stores-purchase/store-localize.md) の複数のビューがあり、各ビューのロケールを異なる言語に設定した場合、その結果、部分翻訳されたサイトになります。 次に、特定のストア表示から使用可能な各ページの翻訳済みバージョンを作成します。 _[!UICONTROL Manage Pages]_リストの [!UICONTROL Store View] 列には、翻訳されたバージョンのページを持つ各ビューが表示されます。
+ストアに異なる [ 言語 ](../stores-purchase/store-localize.md) の複数のビューがあり、各ビューのロケールを異なる言語に設定した場合、その結果、部分翻訳されたサイトになります。 次に、特定のストア表示から使用可能な各ページの翻訳済みバージョンを作成します。 _[!UICONTROL Manage Pages]_&#x200B;リストの [!UICONTROL Store View] 列には、翻訳されたバージョンのページを持つ各ビューが表示されます。
 
 コンテンツページを翻訳するには、元のページと同じ URL キーを持ち、特定のストア表示に割り当てられている別のページを作成する必要があります。 次に、翻訳されたテキストで特定のビューのページを更新します。 次の例では、スペイン語店表示用の _会社概要_ ページの翻訳版を作成する方法を示します。
 
 ## 手順 1：翻訳するページの URL キーをコピーする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
 
 1. グリッドで、翻訳するページを見つけ、_編集_ モードで開きます。
 
 1. 「![ 拡張セレクター ](../assets/icon-display-expand.png)**[!UICONTROL Search Engine Optimization]** セクションを展開して、**[!UICONTROL URL Key]** をクリップボードにコピーします。
 
-1. _[!UICONTROL Pages]_のグリッドに戻るには、上部のボタン バーの [**[!UICONTROL Back]**] をクリックします。
+1. _[!UICONTROL Pages]_&#x200B;のグリッドに戻るには、上部のボタン バーの [**[!UICONTROL Back]**] をクリックします。
 
 ## 手順 2：翻訳済みコンテンツのページを追加
 

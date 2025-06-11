@@ -27,11 +27,11 @@ ht-degree: 0%
 
 ## 手順 2：ウィジェットの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックします。
 
-1. _[!UICONTROL Settings]_セクションで、次の操作を行います。
+1. _[!UICONTROL Settings]_&#x200B;セクションで、次の操作を行います。
 
    - **[!UICONTROL Type]** を `Catalog Events Carousel` に設定します。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    ![ イベントカルーセルのウィジェット設定 ](./assets/widget-event-carousel-settings.png){width="500" zoomable="yes"}
 
-1. _[!UICONTROL Storefront Properties]_セクションで、次の操作を行います。
+1. _[!UICONTROL Storefront Properties]_&#x200B;セクションで、次の操作を行います。
 
    - **[!UICONTROL Widget Title]** しくは、ウィジェットのわかりやすいタイトルを入力します。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >結果は、テーマやページのレイアウトによって異なります。 また、カテゴリ設定で _[!UICONTROL Catalog Events Carousel Default Template]_を指定する必要があります。
+   >結果は、テーマやページのレイアウトによって異なります。 また、カテゴリ設定で _[!UICONTROL Catalog Events Carousel Default Template]_&#x200B;を指定する必要があります。
 
 1. イベントカルーセルをストアフロントの別の場所に表示する場合は、「**[!UICONTROL Add Layout Update]**」をクリックし、その場所に対してこれらの手順を繰り返します。
 

@@ -16,9 +16,9 @@ ht-degree: 0%
 
 1. [ ページの追加 ](page-add.md) 手順を完了します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
 
 1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Default Pages]**」セクションを展開し、**[!UICONTROL CMS Home Page]** を新しいページに設定します。
 

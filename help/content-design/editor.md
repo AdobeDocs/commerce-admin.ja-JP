@@ -31,9 +31,9 @@ WYSIWYG エディターはデフォルトで有効になっており、CMSのペ
 
 すべてのWYSIWYG オプションについて詳しくは、[ 設定リファレンス ](../configuration-reference/general/content-management.md) の _コンテンツ管理_ を参照してください。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
 
 1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL WYSIWYG Options]** を展開します。
 

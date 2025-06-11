@@ -29,9 +29,9 @@ ht-degree: 0%
 
    ![ 画像を挿入アイコン ](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   この操作を実行すると、_[!UICONTROL Insert/edit image]_ダイアログが開きます。
+   この操作を実行すると、_[!UICONTROL Insert/edit image]_&#x200B;ダイアログが開きます。
 
-1. _[!UICONTROL Source]_の後、_ 検索 _アイコン（![ 検索アイコン ](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）をクリックします。
+1. _[!UICONTROL Source]_&#x200B;の後、_ 検索 _アイコン（![ 検索アイコン ](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）をクリックします。
 
 1. 左側のディレクトリツリーで、次のいずれかの操作を行います。
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 1. [ エディター ](editor.md) ツールバーで _画像を挿入_ アイコンをクリックします。
 
-1. _[!UICONTROL Source]_の後、_ 検索 _アイコン（![ 検索アイコン ](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）をクリックします。
+1. _[!UICONTROL Source]_&#x200B;の後、_ 検索 _アイコン（![ 検索アイコン ](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）をクリックします。
 
    ![ 検索アイコンの選択 ](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 

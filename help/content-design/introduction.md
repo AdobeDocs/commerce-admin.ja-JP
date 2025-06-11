@@ -19,7 +19,7 @@ _コンテンツマーケティング_ という用語は、貴重な情報を�
 
 Adobe CommerceとMagento Open Sourceには、ストアに簡単な変更を加えるために使用できる、使いやすいデザインオプションが多数用意されています。 また、[Commerce Marketplace](../getting-started/commerce-marketplace.md) には、プロフェッショナルがデザインしたテーマも多数あります。 店のウィンドウドレッシングのように、シーズンやプロモーションのテーマを変更できます。
 
-[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} より高度なストアデザイナーは、個別のコンポーネントからページを組み立てるオブジェクト指向環境を扱う柔軟性を評価しています。 基本を理解したら、そのような柔軟で流動的な環境で働くことに感謝します。 詳しくは、[ フロントエンド開発者ガイド ][1] を参照してください。
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} より高度なストアデザイナーは、個別のコンポーネントからページを組み立てるオブジェクト指向環境を扱う柔軟性を評価しています。 基本を理解したら、そのような柔軟で流動的な環境で働くことに感謝します。 詳しくは、[ フロントエンド開発者ガイド ][1] を参照してください。
 
 ### 設定
 
@@ -31,7 +31,7 @@ Adobe CommerceとMagento Open Sourceには、ストアに簡単な変更を加�
 
 ### スケジュール
 
-[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 テーマは、[ スケジュール ](schedule.md) に従って、特定の期間アクティブ化できます。 スケジュールを使用して、シーズンやプロモーションに合わせてテーマの変更を事前に計画します。
 

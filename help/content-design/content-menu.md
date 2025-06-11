@@ -14,19 +14,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->新しい [[!DNL Media Gallery]](media-gallery.md) が有効になると、「_[!UICONTROL Media]_」セクションが表示され、[!DNL Media Gallery] にアクセスするための単一のオプションが表示されます。**[!UICONTROL Enable Old Media Gallery]**オプションを `No` に設定するには、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]** に移動し、左パネルの **[!UICONTROL Advanced]**/**[!UICONTROL System]** を選択します。
+>新しい [[!DNL Media Gallery]](media-gallery.md) が有効になると、「_[!UICONTROL Media]_」セクションが表示され、[!DNL Media Gallery] にアクセスするための単一のオプションが表示されます。**[!UICONTROL Enable Old Media Gallery]**&#x200B;オプションを `No` に設定するには、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]** に移動し、左パネルの **[!UICONTROL Advanced]**/**[!UICONTROL System]** を選択します。
 
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 ![ 管理者に表示される [!UICONTROL Content] メニュー ](./assets/admin-menu-content.png){width="400" zoomable="yes"}
 
 >[!TAB Adobe Commerceas a Cloud Service]
 
-[!BADGE SaaS のみ ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
 
 ![ 管理者に表示される [!UICONTROL Content] メニュー ](./assets/admin-menu-content-accs.png){width="400" zoomable="yes"}
 
@@ -47,7 +47,7 @@ _管理者_ サイドバーで「**[!UICONTROL Content]**」を選択します�
 
 >[!NOTE]
 >
->このメニューの _[!UICONTROL Banners]_オプションは、2.3.1 で非推奨（廃止予定）となり、現在は削除されています。 その機能はダイナミック ブロックに置き換えられています。
+>このメニューの _[!UICONTROL Banners]_&#x200B;オプションは、2.3.1 で非推奨（廃止予定）となり、現在は削除されています。 その機能はダイナミック ブロックに置き換えられています。
 
 ## [!UICONTROL Design] {#design-features}
 

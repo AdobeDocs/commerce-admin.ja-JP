@@ -63,9 +63,9 @@ Customer Service ページは、ページ階層内の別のノードです。 �
 
 _デフォルトページ_ の設定によって、[ ベース URL](../stores-purchase/store-urls.md) および対応するホームページに関連付けられるランディングページが決まります。 また、_ページが見つかりません_ エラーが発生した場合や、各ページの上部に [ パンくずリスト ](../catalog/navigation-breadcrumb-trail.md) が表示された場合に表示されるページも決定します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
 
 1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Default Pages]**」セクションを展開します。
 
@@ -88,7 +88,7 @@ _デフォルトページ_ の設定によって、[ ベース URL](../stores-pu
 
    >[!NOTE]
    >
-   >特定のストア表示の場合は、_[!UICONTROL Default Web URL]_の横にある「**[!UICONTROL Use Default]**」チェックボックスをオフにし、その他の変更するデフォルト設定をオフにします。
+   >特定のストア表示の場合は、_[!UICONTROL Default Web URL]_&#x200B;の横にある「**[!UICONTROL Use Default]**」チェックボックスをオフにし、その他の変更するデフォルト設定をオフにします。
 
 1. ホームページとして使用するCMSページに **[!UICONTROL CMS Home Page]** を設定します。 次のように、その他に作成されたページがホームページとして使用される場合があります。
 

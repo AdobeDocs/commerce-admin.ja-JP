@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[[!UICONTROL Content] メニューの _[!UICONTROL Banner]_オプションは ](content-menu.md)2.3.1 で非推奨となり、2.4.0 で削除されました。その機能はダイナミック ブロックに置き換えられています。
+>[[!UICONTROL Content] メニューの _[!UICONTROL Banner]_&#x200B;オプションは ](content-menu.md)2.3.1 で非推奨となり、2.4.0 で削除されました。その機能はダイナミック ブロックに置き換えられています。
 
 ![[!DNL Page Builder] – 価格ルールと顧客セグメントを含むダイナミックブロック ](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
 ## 手順 1：ダイナミックブロックの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Dynamic Blocks]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Dynamic Blocks]**&#x200B;に移動します。
 
    ![ ダイナミック ブロック リスト ](../page-builder/assets/pb-tutorial2-block-dynamic-add.png){width="600" zoomable="yes"}
 
