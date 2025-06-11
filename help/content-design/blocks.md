@@ -22,6 +22,6 @@ _ブロック_ は、ページ上のほとんどの場所に配置できるコ�
 
 次のビデオを視聴して、静的ブロックと [ 動的ブロック ](dynamic-blocks.md) について学びます。
 
->[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411070?quality=12&learn=on&captions=jpn)
 
 [1]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/
