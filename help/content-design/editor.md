@@ -2,16 +2,17 @@
 title: WYSIWYG Editor
 description: エディターを使用し、_What You See Is What You Get_（WYSIWYG）ビューでコンテンツを操作する方法について説明します。
 exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
-source-git-commit: 3cc17d79762d1a67c5329bc1971169f0e7cf5090
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
 
 # WYSIWYG Editor
 
-エディターを使用すると、コンテンツの _What You See Is What You Get_ （WYSIWYG）ビューでの作業中に、入力や書式設定をおこなうことができます。 基になるHTMLコードを直接操作する場合は、モードを簡単に変更できます。 エディターを使用して、[ ページ ](pages.md)、[ ブロック ](blocks.md) および [ 製品説明 ](../catalog/product-content.md) のコンテンツを作成できます。 製品の詳細を操作する場合は、「」をクリックしてエディターにアクセス **[!UICONTROL Show / Hide Editor]** ます。
+エディターを使用すると、コンテンツの _What You See Is What You Get_ （WYSIWYG）ビューでの作業中に、入力や書式設定をおこなうことができます。 基になるHTML コードを直接操作する場合は、モードを簡単に変更できます。 エディターを使用して、[ ページ ](pages.md)、[ ブロック ](blocks.md) および [ 製品説明 ](../catalog/product-content.md) のコンテンツを作成できます。 製品の詳細を操作する場合は、「」をクリックしてエディターにアクセス **[!UICONTROL Show / Hide Editor]** ます。
 
 ![ エディターツールバー ](./assets/editor-toolbar.png){width="700" zoomable="yes"}
 
@@ -30,9 +31,9 @@ WYSIWYG エディターはデフォルトで有効になっており、CMSのペ
 
 すべてのWYSIWYG オプションについて詳しくは、[ 設定リファレンス ](../configuration-reference/general/content-management.md) の _コンテンツ管理_ を参照してください。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
+1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
 
 1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL WYSIWYG Options]** を展開します。
 

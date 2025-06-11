@@ -2,9 +2,10 @@
 title: エディターへのリンクの挿入
 description: WYSIWYG エディターを使用して、コンテンツにリンクを追加します
 exl-id: c9930a4f-a082-4bd8-b0c4-9d86b59a2365
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
    ![ エディターツールバー – リンクを挿入 ](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
-   この操作を実行すると、_[!UICONTROL Insert link]_&#x200B;ダイアログが開きます。
+   この操作を実行すると、_[!UICONTROL Insert link]_ダイアログが開きます。
 
    ![ エディター – リンクを挿入ダイアログ ](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
 

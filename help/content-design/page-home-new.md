@@ -1,10 +1,11 @@
 ---
 title: ホームページを設定
-description: デフォルトの CMS ページとして使用されるホームページを変更する方法について説明します。
+description: デフォルトのCMSページとして使用するホームページを変更する方法について説明します。
 exl-id: 0065da5a-ca55-45ef-b9a7-9b5548ef73d1
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -15,9 +16,9 @@ ht-degree: 0%
 
 1. [ ページの追加 ](page-add.md) 手順を完了します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
+1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
 
 1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Default Pages]**」セクションを展開し、**[!UICONTROL CMS Home Page]** を新しいページに設定します。
 

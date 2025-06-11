@@ -2,9 +2,10 @@
 title: ダイナミック ブロック
 description: 動的ブロックを使用して、価格ルールと顧客セグメントからのロジックによって駆動される、リッチでインタラクティブなコンテンツを作成します。
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[[!UICONTROL Content] メニューの _[!UICONTROL Banner]_&#x200B;オプションは ](content-menu.md)2.3.1 で非推奨となり、2.4.0 で削除されました。その機能はダイナミック ブロックに置き換えられています。
+>[[!UICONTROL Content] メニューの _[!UICONTROL Banner]_オプションは ](content-menu.md)2.3.1 で非推奨となり、2.4.0 で削除されました。その機能はダイナミック ブロックに置き換えられています。
 
 ![[!DNL Page Builder] – 価格ルールと顧客セグメントを含むダイナミックブロック ](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
 ## 手順 1：ダイナミックブロックの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Dynamic Blocks]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Dynamic Blocks]**に移動します。
 
    ![ ダイナミック ブロック リスト ](../page-builder/assets/pb-tutorial2-block-dynamic-add.png){width="600" zoomable="yes"}
 
@@ -107,7 +108,7 @@ ht-degree: 0%
 | フィールド | 説明 |
 |--- |--- |
 | [!UICONTROL Layout] | 行、列、タブをステージに追加します。 |
-| [!UICONTROL Elements] | ステージ上の任意のレイアウトコンテナにテキスト、見出し、ボタン、区切り文字、HTMLコードを追加できます。 |
+| [!UICONTROL Elements] | ステージ上の任意のレイアウトコンテナにテキスト、見出し、ボタン、区切り文字、HTML コードを追加できます。 |
 | [!UICONTROL Media] | 画像、ビデオ、バナー、スライダー、Googleマップを、ステージ上の既存のレイアウトコンテナに追加します。 |
 | [!UICONTROL Add Content] | 既存のブロック、ダイナミック ブロック、および製品をステージに追加します。 |
 

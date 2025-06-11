@@ -2,9 +2,10 @@
 title: コンテンツブロックを追加
 description: 任意のページや別のブロック内で再利用できる、コンテンツのカスタムブロックを作成します。
 exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 ## ブロックの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**に移動します。
 
 1. 右上隅の「**新しいブロックを追加**」をクリックします。
 
@@ -45,7 +46,7 @@ ht-degree: 0%
 
    - [ エディター ](editor.md) を使用して、テキストの書式設定や、リンクの作成、表、画像、ビデオおよびオーディオの追加を行います。
 
-     HTMLコードを使用する場合は、「**エディターを表示/非表示**」をクリックします。
+     HTML コードを使用する場合は、「**エディターを表示/非表示**」をクリックします。
 
      ![ ブロック エディタ（非表示） ](./assets/block-editor-hidden.png){width="500" zoomable="yes"}
 
@@ -61,14 +62,14 @@ ht-degree: 0%
 
 ### 方法 1: ブロック グリッドからブロックを削除する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**に移動します。
 1. グリッドの上でフィルタを使用してブロックを見つけ、削除する 1 つまたは複数のブロックのチェックボックスをオンにします。
 1. リストの左上隅にある **[!UICONTROL Actions]** を `Delete` に設定します。
 1. アクションを確定するには、「**[!UICONTROL OK]**」をクリックします。
 
 ### 方法 2：編集ページからブロックを削除する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**に移動します。
 1. 削除するブロックを検索します。
 1. ブロックの _アクション_ 列で、「**[!UICONTROL Select]**」をクリックし、「**[!UICONTROL Edit]**」を選択します。
 1. メニューバーで、「**[!UICONTROL Delete Block]**」をクリックします。

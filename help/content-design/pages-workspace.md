@@ -3,9 +3,10 @@ title: ページワークスペースコントロール
 description: コンテンツページの検索と更新に使用する Workspace ツールについて説明します。
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: fc8ebeeae56378967e95bda9bbf898c469b3a4c0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1373'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 ## ページプロパティをすばやく更新
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
 1. グリッドの任意の行をクリックします。
 
    ![ ページプロパティはページグリッドで編集できます ](./assets/page-grid-properties-update.png){width="600" zoomable="yes"}
@@ -79,7 +80,7 @@ ht-degree: 0%
 
 ## ページ検索
 
-_[!UICONTROL Pages]_&#x200B;グリッドの左上にある「検索」ボックスを使用すると、キーワードで特定のページを検索できます。 より高度な検索では、複数のパラメーターで検索を [ フィルター ](../getting-started/admin-grid-controls.md) できます。
+_[!UICONTROL Pages]_グリッドの左上にある「検索」ボックスを使用すると、キーワードで特定のページを検索できます。 より高度な検索では、複数のパラメーターで検索を [ フィルター ](../getting-started/admin-grid-controls.md) できます。
 
 ### キーワードで検索
 
@@ -149,7 +150,7 @@ _[!UICONTROL Pages]_&#x200B;グリッドの左上にある「検索」ボック�
 
 ### 一括アクション
 
-左上隅の _[!UICONTROL Action]_&#x200B;セレクターを使用して、選択した複数のページに対し、同時に次のアクションのいずれかを適用します。
+左上隅の _[!UICONTROL Action]_セレクターを使用して、選択した複数のページに対し、同時に次のアクションのいずれかを適用します。
 
 - [!UICONTROL Delete] - ページを削除します（確認が必要）
 - [!UICONTROL Disable] - ストアフロントでページを無効にします

@@ -3,16 +3,17 @@ title: Adobe Stock画像のライセンスを取得
 description: 法的なアクセス権を持ち、Adobe Stockの透かしを排除するには、Adobe Stock画像のライセンスを取得します。
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
 
 # Adobe Stock画像のライセンスを取得
 
-実稼動Adobe CommerceおよびMagento Open Sourceストアに使用するAdobe Stock アセットには、ライセンスが必要です。 このライセンスにより、画像への法的アクセスが可能になり、すべての [ 画像プレビュー ](./adobe-stock-save-preview.md) に存在するAdobe Stock透かしを排除できます。 画像のライセンスを取得したり、既にライセンスを取得した画像を保存したりするには、Adobeアカウントにログインする必要があります。
+Adobe CommerceおよびMagento Open Sourceの実稼動用ストアに使用するAdobe Stock アセットには、ライセンスを付与する必要があります。 このライセンスにより、画像への法的アクセスが可能になり、すべての [ 画像プレビュー ](./adobe-stock-save-preview.md) に存在するAdobe Stock透かしを排除できます。 画像のライセンスを取得したり、既にライセンスを取得している画像を保存したりするには、Adobe アカウントにログインする必要があります。
 
 新しい [[!DNL Media Gallery]](media-gallery.md) はAdobe Stockとの直接統合を提供し、ギャラリーページから直接イメージのライセンスを簡単に取得できます。
 
@@ -20,13 +21,13 @@ ht-degree: 0%
 
 **前提条件**
 
-Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.md) がインストールおよび設定されている場合にのみ使用できます。 [Adobe Stock][adobe-stock] 画像のライセンスを取得するには、有料のAdobe Stock プランと [Adobeアカウント ][adobe-signin] が必要です。
+Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.md) がインストールおよび設定されている場合にのみ使用できます。 [Adobe Stock][adobe-stock] 画像のライセンスを取得するには、有料のAdobe Stock プランと [Adobe アカウント ][adobe-signin] が必要です。
 
 >[!ENDSHADEBOX]
 
 ## 新しい [!DNL Media Gallery] ージからの画像のライセンス
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
 
 1. [Adobe Stock画像の使用 ](./adobe-stock-manage.md) の手順に従って、ログインし、プレビューイメージを [ メディアストレージ ](./media-storage.md) に保存します。
 
@@ -46,7 +47,7 @@ Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.m
 
    >[!NOTE]
    >
-   >画像のライセンスを取得するには、アカウントで利用可能な &rbrack;[stock-credits]0&rbrace;Adobe Stock クレジット &rbrace; が必要です。&lbrack;
+   >画像のライセンスを取得するには、アカウントで利用可能な ][stock-credits]0}Adobe Stock クレジット } が必要です。[
 
 ## 標準メディアストレージからの画像のライセンス取得
 
@@ -62,7 +63,7 @@ Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.m
 
      >[!NOTE]
      >
-     >画像のライセンスを取得するには、アカウントで利用可能な &rbrack;[stock-credits]0&rbrace;Adobe Stock クレジット &rbrace; が必要です。&lbrack;
+     >画像のライセンスを取得するには、アカウントで利用可能な ][stock-credits]0}Adobe Stock クレジット } が必要です。[
 
    この操作を実行すると、イメージを [ メディア ストレージ ](./media-storage.md) に保存するために使用するファイル名を指定するよう求めるメッセージが表示されます。 デフォルトのファイル名が提供されますが、この名前は好みに合わせてカスタマイズできます。
 
@@ -74,6 +75,6 @@ Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.m
 
 [access-search]: adobe-stock-manage.md#access-the-adobe-stock-search-grid
 [view-details]: adobe-stock-manage.md#view-image-details
-[stock-credits]: https://helpx.adobe.com/jp/stock/help/credit-packs.html
+[stock-credits]: https://helpx.adobe.com/stock/help/credit-packs.html
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/jp/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html

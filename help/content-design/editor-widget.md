@@ -2,9 +2,10 @@
 title: エディターでのウィジェットの挿入
 description: WYSIWYG エディターのウィジェットツールを使用して、ページに様々なコンテンツ要素を追加します。
 exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -55,6 +56,6 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Insert Widget]**」をクリックして、ページにリンクを配置します。
 
-   HTMLコードを使用する場合は、ページ上部にリンクの [ マークアップ タグ ](../systems/markup-tags.md) が表示され、二重中括弧で囲まれます。 必要に応じて、_切り取りと貼り付け_ を使用して、コード内でリンクを表示する位置にマークアップタグを配置します。
+   HTML コードを操作している場合は、ページ上部にリンクの [ マークアップタグ ](../systems/markup-tags.md) が表示され、二重中括弧で囲まれます。 必要に応じて、_切り取りと貼り付け_ を使用して、コード内でリンクを表示する位置にマークアップタグを配置します。
 
 1. コンテンツの編集が完了したら、「**[!UICONTROL Save]**」をクリックします。

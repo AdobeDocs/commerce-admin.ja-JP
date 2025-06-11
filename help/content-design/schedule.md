@@ -2,9 +2,10 @@
 title: 設計の変更を集計する
 description: テーマのデザインの変更を事前にスケジュールする方法を説明します
 exl-id: 0a214fd5-77a6-4ad4-9740-5138d40ad0a1
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 ## スケジュールされたデザインの変更を追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Schedule]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Schedule]**に移動します。
 
 1. 「**[!UICONTROL Add Design Change]**」をクリックします。
 
@@ -33,7 +34,7 @@ ht-degree: 0%
 
 ## スケジュールされたデザインの変更を編集
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Schedule]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Schedule]**に移動します。
 
 1. 編集する項目を選択します。
 
@@ -43,7 +44,7 @@ ht-degree: 0%
 
 ## スケジュールされたデザインの変更を削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Schedule]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Schedule]**に移動します。
 
 1. 削除する項目を選択します。
 

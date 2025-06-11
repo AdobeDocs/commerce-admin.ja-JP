@@ -2,9 +2,9 @@
 title: コンテンツ  [!DNL Commerce]  デザインの概要
 description: コンテンツとサイトデザインの機能を使用して、ストアにブランディングとスタイルを反映する方法を説明します。
 exl-id: e13782e3-b53c-4f25-b2cc-8dacec57e451
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ _コンテンツマーケティング_ という用語は、貴重な情報を�
 
 ## デザイン
 
-Adobe CommerceとMagento Open Sourceには、ストアに簡単な変更を加えるために使用できる、使いやすいデザインオプションが多数用意されています。 また、[Commerce Marketplaceには、プロフェッショナルがデザインしたテーマも多数あ ](../getting-started/commerce-marketplace.md) ます。 店のウィンドウドレッシングのように、シーズンやプロモーションのテーマを変更できます。
+Adobe CommerceとMagento Open Sourceには、ストアに簡単な変更を加えるために使用できる、使いやすいデザインオプションが多数用意されています。 また、[Commerce Marketplace](../getting-started/commerce-marketplace.md) には、プロフェッショナルがデザインしたテーマも多数あります。 店のウィンドウドレッシングのように、シーズンやプロモーションのテーマを変更できます。
 
-より高度なストアデザイナーでは、個別のコンポーネントからページを組み立てるオブジェクト指向環境を扱う柔軟性を評価しています。 基本を理解したら、そのような柔軟で流動的な環境で働くことに感謝します。 詳しくは、[ フロントエンド開発者ガイド ][1] を参照してください。
+[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} より高度なストアデザイナーは、個別のコンポーネントからページを組み立てるオブジェクト指向環境を扱う柔軟性を評価しています。 基本を理解したら、そのような柔軟で流動的な環境で働くことに感謝します。 詳しくは、[ フロントエンド開発者ガイド ][1] を参照してください。
 
 ### 設定
 
@@ -30,6 +30,8 @@ Adobe CommerceとMagento Open Sourceには、ストアに簡単な変更を加�
 [ テーマ ](themes.md) は、ストアの視覚的表示を決定し、レイアウトファイル、テンプレートファイル、翻訳ファイル、スキンのコレクションで構成されます。
 
 ### スケジュール
+
+[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 テーマは、[ スケジュール ](schedule.md) に従って、特定の期間アクティブ化できます。 スケジュールを使用して、シーズンやプロモーションに合わせてテーマの変更を事前に計画します。
 

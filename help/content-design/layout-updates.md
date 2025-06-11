@@ -2,9 +2,10 @@
 title: レイアウトの更新
 description: レイアウトの更新を使用してページのレイアウトをカスタマイズする方法を説明します。
 exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 0%
 | `page/html_wrapper` | デフォルトのレイアウトに含まれていますが、このブロックは非推奨であり、後方互換性を確保するためにのみ含まれています。 このタイプのブロックは使用しないでください。 |
 | `page/html_breadcrumbs` | このブロックの名前は `breadcrumbs` であり、ヘッダーブロックの子です。 このブロックには、現在のページのパンくずリストが表示されます。 このタイプのブロックは、ページごとに 1 つだけ存在できます。 |
 | `page/html_footer` | ブロック名は `footer` で、ルート ブロックの子です。 フッターブロックは、ページの下部にある視覚的なフッターに対応し、いくつかの標準ブロックが含まれています。 このタイプのブロックは、ページごとに 1 つのみ存在できるので、削除しないでください。 |
-| `page/template_links` | 標準レイアウトには、このタイプのブロックが 2 つあります。 `top.links` ブロックはヘッダーブロックの子で、上部のナビゲーションメニューに対応します。 `footer_links` ブロックは footer ブロックの子で、下部のナビゲーションメニューに対応します。 <br/><br/>**_メモ：_**&#x200B;例に示すように、テンプレートリンクを操作できます。 |
+| `page/template_links` | 標準レイアウトには、このタイプのブロックが 2 つあります。 `top.links` ブロックはヘッダーブロックの子で、上部のナビゲーションメニューに対応します。 `footer_links` ブロックは footer ブロックの子で、下部のナビゲーションメニューに対応します。 <br/><br/>**_メモ：_**例に示すように、テンプレートリンクを操作できます。 |
 | `page/switch` | 標準レイアウトには、このタイプのブロックが 2 つあります。 `store_language` ブロックはヘッダーブロックの子で、最上位の言語スイッチャーに対応します。 `store_switcher` ブロックは footer ブロックの子で、下部のストア切り替えボタンに対応します。 |
 | コア/メッセージ | 標準レイアウトには、このタイプのブロックが 2 つあります。 `global_messages` ブロックには、グローバル メッセージが表示されます。 `messages` ブロックは、他のすべてのメッセージを表示するために使用します。 これらのブロックを削除すると、メッセージは表示されません。 |
 | `core/text_list` | このタイプのブロックは、[!DNL Commerce] 全体で子ブロックをレンダリングするためのプレースホルダーとして広く使用されています。 |
@@ -60,20 +61,20 @@ ht-degree: 0%
 
    `<theme_dir>/<Namespace>_<Module>/layout`
 
-   レイアウトハンドルは、`cms_page_view_selectable_` で始まり、その後に CMS ページの URL キー、レイアウト更新オプション、`xml` ファイルサフィックスが続くファイル名です。 次の例では、`customer-service` はページの URL キーで、`ChatTool` はレイアウトの更新をページに適用するために選択するオプションです。
+   レイアウトハンドルは、`cms_page_view_selectable_` で始まり、その後にCMS ページの URL キー、レイアウト更新オプション、`xml` ファイルサフィックスが続くファイル名です。 次の例では、`customer-service` はページの URL キーで、`ChatTool` はレイアウトの更新をページに適用するために選択するオプションです。
 
    `cms_page_view_selectable_`&lt;`customer-service`>`_`&lt;`ChatTool`>`.xml`
 
    | 要素 | 説明 |
    |--- |--- |
-   | CMS ページ識別子 | スラッシュ（`/`）をアンダースコア（`_`）に置換したページの URL キー。 |
+   | CMSページ識別子 | スラッシュ（`/`）をアンダースコア（`_`）に置換したページの URL キー。 |
    | レイアウト更新名 | _カスタムレイアウトの更新_ のために表示されるオプション。 |
 
    {style="table-layout:auto"}
 
 ### 手順 3：ページからレイアウトの更新を参照する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
 
 1. ブロックを配置するページを見つけて、編集モードで開きます。
 

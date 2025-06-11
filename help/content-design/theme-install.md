@@ -1,11 +1,12 @@
 ---
 title: 新しいテーマのインストール
-description: Adobe CommerceまたはMagento Open Sourceストア用に新しいテーマをインストールする方法について説明します。
+description: Adobe CommerceまたはMagento Open Source ストア用に新しいテーマをインストールする方法について説明します。
 exl-id: 28728064-cf3e-44ef-a251-61a23499d096
 feature: Page Content, Themes
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-開始する前に、有効な [[!DNL Commerce]  アクセスキー ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=ja) セットがあることを確認します。
+開始する前に、有効な [[!DNL Commerce]  アクセスキー ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) セットがあることを確認します。
 
 [!DNL Commerce] ストアにテーマを追加するには、[!DNL Commerce Marketplace] の手順に従ってください。
 

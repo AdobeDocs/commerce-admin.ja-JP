@@ -3,9 +3,10 @@ title: Media Gallery フォルダー管理
 description: フォルダーを使用したメディアアセットの整理方法を説明します。
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-source-git-commit: 65521c2b2113768ebec43b3aadac487d4d07c3a0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 0%
 >
 >`pub/media/wysywig` フォルダーと `pub/media/catalog/category` フォルダーにのみフォルダーを作成できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
 
 1. 「**[!UICONTROL Create Folder]**」をクリックします。
 
@@ -36,7 +37,7 @@ ht-degree: 0%
 >
 >フォルダーを削除すると、そのフォルダー内のすべての画像が削除されます。 `pub/media/wysywig` フォルダーと `pub/media/catalog/category` フォルダー内のフォルダーのみを削除できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
 
 1. 削除するフォルダーを選択します。
 

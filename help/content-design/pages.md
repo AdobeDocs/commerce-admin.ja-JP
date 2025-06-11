@@ -3,9 +3,10 @@ title: ページ
 description: ' [!DNL Commerce] demo ストアに含まれているコアコンテンツページと、デフォルトページ設定の変更について詳しく説明します。'
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -62,9 +63,9 @@ Customer Service ページは、ページ階層内の別のノードです。 �
 
 _デフォルトページ_ の設定によって、[ ベース URL](../stores-purchase/store-urls.md) および対応するホームページに関連付けられるランディングページが決まります。 また、_ページが見つかりません_ エラーが発生した場合や、各ページの上部に [ パンくずリスト ](../catalog/navigation-breadcrumb-trail.md) が表示された場合に表示されるページも決定します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
+1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
 
 1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Default Pages]**」セクションを展開します。
 
@@ -73,11 +74,11 @@ _デフォルトページ_ の設定によって、[ ベース URL](../stores-pu
    | フィールド | [ 範囲 ](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
    |--- |--- |--- |
    | [!UICONTROL Default Web URL] | ストア表示 | ベース URL に関連付けられているランディングページを示します。 デフォルトでは、このフィールドは `cms` に設定されており、[!DNL Commerce] コンテンツ管理システムからのページを示します。 また、ブログなど、別のタイプのランディングページを使用することもできます。 例えば、`magento/blog` にサーバーにブログがインストールされている場合、選択したページへの相対パスとして `blog` というフォルダー名を入力できます。 |
-   | [!UICONTROL CMS Home Page] | ストア表示 | ストアのホームページを選択するには、リストから CMS ページを選択するだけです。 デフォルトでは、CMS のホームページには、ストアで使用可能な CMS ページの選択全体が一覧表示されます。 |
+   | [!UICONTROL CMS Home Page] | ストア表示 | ストアのホームページを選択するには、リストからCMSページを選択します。 デフォルトでは、CMSのホームページには、ストアで使用可能なCMSのページの選択全体が一覧表示されます。 |
    | [!UICONTROL Default No-route URL] | ストア表示 | `404 Page not Found` エラーが発生したときに表示されるデフォルトのページの URL が含まれます。 デフォルト値は `cms/noroute/index` です。 |
-   | [!UICONTROL CMS No Route Page] | ストア表示 | 404 ページが見つからないというエラーが発生した場合に表示する特定の CMS ページを識別します。 デフォルトページは `404 Not Found` です。 |
-   | [!UICONTROL CMS No Cookies Page] | ストア表示 | ブラウザーで Cookie が有効になっていない場合に表示される特定の CMS ページを識別します。 このページでは、cookie が使用される理由と、各ブラウザーで cookie を有効にする方法について説明します。 デフォルトページは `Enable Cookies` です。 |
-   | [!UICONTROL Show Breadcrumbs for CMS Pages] | ストア表示 | カタログ内のすべての CMS ページにパンくずリストを表示するかどうかを決定します。 オプション：`Yes` / `No` |
+   | [!UICONTROL CMS No Route Page] | ストア表示 | 404 ページが見つからないというエラーが発生した場合に表示する、特定のCMS ページを指定します。 デフォルトページは `404 Not Found` です。 |
+   | [!UICONTROL CMS No Cookies Page] | ストア表示 | ブラウザーで Cookie が有効になっていない場合に表示される特定のCMSページを識別します。 このページでは、cookie が使用される理由と、各ブラウザーで cookie を有効にする方法について説明します。 デフォルトページは `Enable Cookies` です。 |
+   | [!UICONTROL Show Breadcrumbs for CMS Pages] | ストア表示 | パンくずリストをカタログ内のすべてのCMS ページに表示するかどうかを指定します。 オプション：`Yes` / `No` |
 
    {style="table-layout:auto"}
 
@@ -87,9 +88,9 @@ _デフォルトページ_ の設定によって、[ ベース URL](../stores-pu
 
    >[!NOTE]
    >
-   >特定のストア表示の場合は、_[!UICONTROL Default Web URL]_&#x200B;の横にある「**[!UICONTROL Use Default]**」チェックボックスをオフにし、その他の変更するデフォルト設定をオフにします。
+   >特定のストア表示の場合は、_[!UICONTROL Default Web URL]_の横にある「**[!UICONTROL Use Default]**」チェックボックスをオフにし、その他の変更するデフォルト設定をオフにします。
 
-1. ホームページとして使用する CMS ページに **[!UICONTROL CMS Home Page]** を設定します。 次のように、その他に作成されたページがホームページとして使用される場合があります。
+1. ホームページとして使用するCMSページに **[!UICONTROL CMS Home Page]** を設定します。 次のように、その他に作成されたページがホームページとして使用される場合があります。
 
    - 限定オンラインストアへようこそ
    - 報酬ポイント
@@ -103,10 +104,10 @@ _デフォルトページ_ の設定によって、[ ベース URL](../stores-pu
 
    デフォルト値は `cms/index/noRoute` です。
 
-1. _404 Page Not Found_ エラーが発生した場合に表示される CMS ページに **[!UICONTROL CMS No Route Page]** を設定します。
+1. _404 Page Not Found_ エラーが発生した場合に表示されるCMSページに **[!UICONTROL CMS No Route Page]** を設定します。
 
-1. ブラウザーで Cookie が無効になっている場合に表示される CMS ページに **[!UICONTROL CMS No Cookies Page]** を設定します。 このページでは、cookie が使用される理由と、各ブラウザーで cookie を有効にする方法について説明します。 デフォルトページは `Enable Cookies` です。
+1. ブラウザーで cookie が無効になっている場合に表示されるCMSページに **[!UICONTROL CMS No Cookies Page]** を設定します。 このページでは、cookie が使用される理由と、各ブラウザーで cookie を有効にする方法について説明します。 デフォルトページは `Enable Cookies` です。
 
-1. パンくずリストをすべての CMS ページの上部に表示する場合は、**[!UICONTROL Show Breadcrumbs for CMS Pages]** を `Yes` に設定します。
+1. パンくずリストをすべてのCMS ページの上部に表示する場合は、**[!UICONTROL Show Breadcrumbs for CMS Pages]** を `Yes` に設定します。
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

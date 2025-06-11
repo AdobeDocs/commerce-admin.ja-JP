@@ -3,9 +3,10 @@ title: Adobe Stock画像の使用
 description: Adobe Stockの画像を使用してストアページを強化します。
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -22,15 +23,15 @@ Adobe Stockの検索パネルには、[ ページの追加または編集 ](page
 
 **_Adobe Stock アセットを検索してページにストック画像を追加するには：_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
 
 1. 「**[!UICONTROL Add a New Page]**」をクリックします。
 
-   既存のページを編集する場合は、「_[!UICONTROL Action]_」列を使用して「**[!UICONTROL Select]**」をクリックし、**[!UICONTROL Edit]**&#x200B;を選択します。
+   既存のページを編集する場合は、「_[!UICONTROL Action]_」列を使用して「**[!UICONTROL Select]**」をクリックし、**[!UICONTROL Edit]**を選択します。
 
 1. **[!UICONTROL Content]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   - [WYSIWYG エディターを有効 ](editor.md) にしている場合は、「**[!UICONTROL Show/Hide Editor]**」をクリックし、「**[!UICONTROL Insert Image]**」をクリックします。
+   - [WYSIWYG Editor を有効にしている場合は ](editor.md)[**[!UICONTROL Show/Hide Editor]**]、[**[!UICONTROL Insert Image]**] の順にクリックします。
 
    - [ ページビルダーを有効 ](../page-builder/setup.md) にしている場合は、**[!UICONTROL Media]** パネルを展開し、**[!UICONTROL Image]** プレースホルダーをターゲットコンテナにドラッグします。 次に、「**[!UICONTROL Select from Gallery]**」をクリックします。
 
@@ -46,11 +47,11 @@ Adobe Stockの検索パネルには、[ ページの追加または編集 ](page
 
    既存のカテゴリに画像を追加する場合は、左側の一覧でカテゴリ名をクリックします。
 
-1. **[!UICONTROL Content]** セクションを展開し、_[!UICONTROL Category Image]_&#x200B;の下の [**[!UICONTROL Select from Gallery]**] をクリックします。
+1. **[!UICONTROL Content]** セクションを展開し、_[!UICONTROL Category Image]_の下の [**[!UICONTROL Select from Gallery]**] をクリックします。
 
 1. 「**[!UICONTROL Search Adobe Stock]**」をクリックします。
 
-WYSIWYG エディターを使用してAdobe Stock アセットを検索し、ストック画像を追加するには：
+Adobe Stock アセットを検索し、WYSIWYG エディターからストック画像を追加するには：
 
 1. 「**[!UICONTROL Show/Hide Editor]**」をクリックします。
 
@@ -116,25 +117,25 @@ WYSIWYG エディターを使用してAdobe Stock アセットを検索し、ス
 
      ![Adobe Stock画像の詳細 ](./assets/adobe-stock-image-details.png){width="600" zoomable="yes"}
 
-## Adobeアカウントにログインします
+## Adobe アカウントにログインします
 
-画像への完全なアクセス権を取得し、Adobe Stockの透かしを削除するには、[Adobeアカウントでログイン ](https://helpx.adobe.com/jp/manage-account/using/access-adobe-id-account.html) し、画像を使用するライセンス権限のクレジットを購入する必要があります。
+画像への完全なアクセス権を取得し、Adobe Stockの透かしを削除するには、[Adobe アカウントでログイン ](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) し、画像を使用するライセンス権限に対するクレジットを購入する必要があります。
 
 1. [Adobe Stock検索グリッドへのアクセス ](#access-the-adobe-stock-search-grid)。
 
 1. 右上の「**[!UICONTROL Sign In]**」をクリックします。
 
-   新しいブラウザーウィンドウに表示される手順に従って、[Adobeのサインイン ](https://helpx.adobe.com/jp/manage-account/using/access-adobe-id-account.html) を実行できます。
+   [Adobeのログインプロセス ](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) を順を追って新しいブラウザーウィンドウが表示されます。
 
    ログインプロセスが完了すると、検索結果に、ライセンス済みの画像の状態がラベルとして表示されます。
 
-   ![Adobeサインイン ](./assets/adobe-stock-account-login.png){width="600" zoomable="yes"}
+   ![Adobeへのログイン ](./assets/adobe-stock-account-login.png){width="600" zoomable="yes"}
 
 ### 検索結果のライセンス済み状態の表示
 
-[Adobeアカウントにログインします ](#log-in-to-your-adobe-account)。
+[Adobe アカウントにログインします ](#log-in-to-your-adobe-account)。
 
-Adobeアカウントに関連付けられているすべてのライセンス済み画像にはラベルが表示され、ライセンスを取得した画像が明確になります。
+Adobe アカウントに関連付けられているライセンス済み画像にはすべてラベルが表示され、ライセンスを取得した画像が明確になります。
 
 ![ ライセンス取得済み画像のAdobe Stock検索結果 ](./assets/adobe-stock-licensed-images.png){width="600" zoomable="yes"}
 
@@ -164,9 +165,9 @@ Adobe Stock統合を使用して検索された画像を [!DNL Commerce] [ メ�
 
 #### ライセンス取得済み画像の保存
 
-実稼動 [!DNL Commerce] ードストアに使用するAdobe Stock アセットには、ライセンスを付与する必要があります。 ライセンスを取得すると、画像への法的アクセスが確保され、すべての [ 画像プレビュー ](adobe-stock-save-preview.md) に存在するAdobe Stockの透かしが排除されます。 画像のライセンスを取得したり、既にライセンスを取得した画像を保存したりするには、Adobeアカウントにログインする必要があります。
+実稼動 [!DNL Commerce] ードストアに使用するAdobe Stock アセットには、ライセンスを付与する必要があります。 ライセンスを取得すると、画像への法的アクセスが確保され、すべての [ 画像プレビュー ](adobe-stock-save-preview.md) に存在するAdobe Stockの透かしが排除されます。 画像のライセンスを取得したり、既にライセンスを取得している画像を保存したりするには、Adobe アカウントにログインする必要があります。
 
-1. [Adobeアカウントにログインします ](#log-in-to-your-adobe-account)。
+1. [Adobe アカウントにログインします ](#log-in-to-your-adobe-account)。
 
 1. [ 画像の詳細を表示 ](#view-image-details) するには、検索グリッドで画像をクリックします。
 
@@ -178,7 +179,7 @@ Adobe Stock統合を使用して検索された画像を [!DNL Commerce] [ メ�
 
      >[!NOTE]
      >
-     >画像のライセンスを取得するには、アカウントで利用可能な [&#128279;](https://helpx.adobe.com/jp/stock/help/credit-packs.html)0&rbrace;Adobe Stock クレジット &rbrace; が必要です。
+     >画像のライセンスを取得するには、アカウントで利用可能な ](https://helpx.adobe.com/stock/help/credit-packs.html)0}Adobe Stock クレジット } が必要です。[
 
    この操作を実行すると、イメージを [ メディア ストレージ ](media-storage.md) に保存するために使用するファイル名を指定するよう求めるメッセージが表示されます。 デフォルトのファイル名が提供されますが、この名前は好みに合わせてカスタマイズできます。
 

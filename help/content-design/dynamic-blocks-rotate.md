@@ -2,9 +2,10 @@
 title: 回転するダイナミック ブロックを追加する
 description: 複数の動的ブロックをロテータに追加して、インタラクティブ コンテンツのスライド ショーをストアフロントに表示します。
 exl-id: 3d338014-cf26-4171-b48b-d37b3d7b0e81
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 ## 手順 2：動的ブロックローテータウィジェットの追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックします。
 

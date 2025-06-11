@@ -1,10 +1,11 @@
 ---
 title: エディターでの画像の挿入
-description: WYSIWYG エディターを使用すると、メディアストレージ内の画像の挿入、別のサーバー上に存在する画像へのリンク、Adobe Stock Assets の使用を簡単に行うことができます。
+description: WYSIWYG エディターを使用すると、メディアストレージに画像を挿入したり、別のサーバー上に存在する画像にリンクしたり、Adobe Stock Assets を使用したりすることが簡単にできます。
 exl-id: 591830c9-6dba-4738-a6e7-cf5f93b3c319
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 0%
 
    ![ 画像を挿入アイコン ](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   この操作を実行すると、_[!UICONTROL Insert/edit image]_&#x200B;ダイアログが開きます。
+   この操作を実行すると、_[!UICONTROL Insert/edit image]_ダイアログが開きます。
 
 1. **Source** の場合は、「_検索_ アイコンをクリックし、使用する画像アセットの場所に一致するメソッドを使用します。
 
@@ -55,13 +56,13 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >この方法を使用するには、管理者向けに設定された [&#128279;](adobe-stock.md)0&rbrace;Adobe Stock統合 &rbrace; が必要です。
+     >この方法を使用するには、管理者向けに設定された ](adobe-stock.md)0}Adobe Stock統合 } が必要です。[
 
       - 「**[!UICONTROL Search Adobe Stock]**」をクリックして画像を検索します。
 
       - プレビューまたはライセンス済み画像をギャラリーに保存します。
 
-        [2&rbrace;Adobe Stock](adobe-stock-manage.md) アセットの操作について詳しくは、&lbrace;Adobe Stock画像の使用 [&#128279;](https://stock.adobe.com) を参照してください。
+        [2}Adobe Stock](adobe-stock-manage.md) アセットの操作について詳しくは、{Adobe Stock画像の使用 ](https://stock.adobe.com) を参照してください。[
 
       - ギャラリーでアセットのサムネールを選択し、「**[!UICONTROL Add Selected]**」をクリックします。
 

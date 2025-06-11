@@ -3,9 +3,10 @@ title: ' [!DNL Media Gallery]'
 description: メディア ギャラリーを使用して、サーバー上のメディア ファイルを整理および管理します。
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -18,11 +19,11 @@ Adobe CommerceまたはMagento Open Source 2.4 では、マーチャントは新
 
 >[!NOTE]
 >
->[_[!UICONTROL Images and Videos]_&#x200B;製品セクションに追加された製品画像は ](../catalog/product-image.md#upload-an-image) [!DNL Media Gallery] ーザーによって管理されません。_[!UICONTROL Content]_ 製品セクションのフィールドで使用される画像のみが、新しい [!DNL Media Gallery] に表示され、フィルタリングされます。
+>[_[!UICONTROL Images and Videos]_製品セクションに追加された製品画像は ](../catalog/product-image.md#upload-an-image)[!DNL Media Gallery] ーザーによって管理されません。_[!UICONTROL Content]_ 製品セクションのフィールドで使用される画像のみが、新しい [!DNL Media Gallery] に表示され、フィルタリングされます。
 
 ## 新しい [!DNL Media Gallery] を有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
@@ -36,11 +37,11 @@ Adobe CommerceまたはMagento Open Source 2.4 では、マーチャントは新
 
 1. プロンプトが表示されたら、システムメッセージの **[!UICONTROL Cache Management]** リンクをクリックし、無効なキャッシュを更新します。
 
-   [[!UICONTROL Content] メニューに ](/help/content-design/content-menu.md) 新しい _[!UICONTROL Media Gallery]_&#x200B;オプションが表示されるようになりました。
+   [[!UICONTROL Content] メニューに ](/help/content-design/content-menu.md) 新しい _[!UICONTROL Media Gallery]_オプションが表示されるようになりました。
 
 >[!NOTE]
 >
->新しい [!DNL Media Gallery] の完全な機能を使用するには、初期同期のために `media.gallery.synchronization` および `media.content.synchronization` キューコンシューマーを開始する必要があります。 詳しくは [ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ja) の _メッセージキューの管理_ を参照してください。
+>新しい [!DNL Media Gallery] の完全な機能を使用するには、初期同期のために `media.gallery.synchronization` および `media.content.synchronization` キューコンシューマーを開始する必要があります。 詳しくは [ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) の _メッセージキューの管理_ を参照してください。
 
 ## 新しい [!DNL Media Gallery] へのアクセス
 
@@ -48,15 +49,15 @@ Adobe CommerceまたはMagento Open Source 2.4 では、マーチャントは新
 
 [!UICONTROL Content] メニューから新しい [!UICONTROL Media Gallery] にアクセスするには：
 
-- _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
+- _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
 
 ページの追加または編集中に新しいメディアギャラリーにアクセスするには：
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
 
 1. 「**[!UICONTROL Add a New Page]**」をクリックします。
 
-   既存のページを編集する場合は、「_[!UICONTROL Action]_」列を使用して「**[!UICONTROL Select]**」をクリックし、**[!UICONTROL Edit]**&#x200B;を選択します。
+   既存のページを編集する場合は、「_[!UICONTROL Action]_」列を使用して「**[!UICONTROL Select]**」をクリックし、**[!UICONTROL Edit]**を選択します。
 
 1. **[!UICONTROL Content]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
@@ -64,13 +65,13 @@ Adobe CommerceまたはMagento Open Source 2.4 では、マーチャントは新
 
      ![ 画像をステージにドラッグ ](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
 
-   - [WYSIWYG Editor を有効にしている場合は ](/help/content-design/editor.md) [**[!UICONTROL Show/Hide Editor]**]、[**[!UICONTROL Insert Image]**] の順にクリックします。
+   - [WYSIWYG Editor を有効にしている場合は ](/help/content-design/editor.md)[**[!UICONTROL Show/Hide Editor]**]、[**[!UICONTROL Insert Image]**] の順にクリックします。
 
 ## [!DNL Media Gallery] デモ
 
 [!DNL Media Gallery] について詳しくは、次のビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3411046?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
 
 [adobe-stock]: https://stock.adobe.com
 

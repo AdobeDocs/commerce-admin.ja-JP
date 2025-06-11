@@ -1,11 +1,12 @@
 ---
 title: エディターへの変数の挿入
-description: WYSIWYG エディターでコンテンツに事前定義済みの変数またはカスタム変数を追加します。
+description: WYSIWYG エディターで、コンテンツに事前定義済みの変数またはカスタム変数を追加します。
 exl-id: 49b05df0-f425-4706-a402-f1c3f868cb49
 feature: Page Content, Variables
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 0%
 
    ![ エディターツールバー – 変数を挿入 ](./assets/editor-toolbar-variable-button.png){width="700" zoomable="yes"}
 
-   [!UICONTROL Page Builder] を有効にしていない場合に、HTMLコードを使用するには、[**[!UICONTROL Show / Hide Editor]**] をクリックします。 変数を表示するテキスト内の位置にカーソルを置きます。 次に、「**[!UICONTROL Insert Variable]**」をクリックします。
+   [!UICONTROL Page Builder] を有効にしていない場合に、HTML コードを使用するには、「**[!UICONTROL Show / Hide Editor]**」をクリックします。 変数を表示するテキスト内の位置にカーソルを置きます。 次に、「**[!UICONTROL Insert Variable]**」をクリックします。
 
 1. 使用可能な変数のリストで、必要な変数を選択し、「**[!UICONTROL Insert Variable]**」をクリックします。
 

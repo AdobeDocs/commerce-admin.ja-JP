@@ -3,9 +3,10 @@ title: Media Gallery アセット管理
 description: Adobe Stock統合を通じて取得したアップロード済みのメディアファイルおよびアセットを管理する方法について説明します。
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 ## アセットのアップロード
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
 
 1. 「**[!UICONTROL Upload Image]**」をクリックします。
 
@@ -26,7 +27,7 @@ ht-degree: 0%
 
 ## アセットの詳細の表示
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
 
 1. アセットの下にある 3 ドットアイコン（![ 詳細アイコン ](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}）をクリックし、「**[!UICONTROL View Details]**」をクリックします。
 
@@ -49,7 +50,7 @@ ht-degree: 0%
 
 ## アセットの編集
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
 
 1. アセットの下にある 3 ドットアイコン（![ アセットメニューアイコン ](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}）をクリックし、「**[!UICONTROL Edit]**」をクリックします。
 
@@ -61,7 +62,7 @@ ht-degree: 0%
    - **[!UICONTROL Description]**
    - **[!UICONTROL Tags/Keywords]**
 
-   このデータはデータベースとファイルのメタデータ自体に保存されます。 現在、XMPおよび IPTC 形式がサポートされています。
+   このデータはデータベースとファイルのメタデータ自体に保存されます。 現在、XMP形式とIPTC形式がサポートされています。
 
    更新されたメタデータを含む画像をダウンロードできます。
 
@@ -77,7 +78,7 @@ Assetsは、管理全体を通して幅広く使用できます。例えば、[ 
 
 ## アセットの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
 
 1. 「**[!UICONTROL Delete Images...]**」をクリックし、削除する各アセットのチェックボックスを選択します。
 
@@ -87,7 +88,7 @@ Assetsは、管理全体を通して幅広く使用できます。例えば、[ 
 
 ## アセットの検索
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
 
 1. キーワード/タグによる画像検索を実行するには、**[!UICONTROL Search by keywords]** 入力を使用します。
 
@@ -105,7 +106,7 @@ Assetsは、管理全体を通して幅広く使用できます。例えば、[ 
 >
 >_使用されている場所_ 機能を使用するには、[ 設定 ](media-gallery-image-optimization.md) で [!UICONTROL Media Gallery Image Optimization] が有効になっている必要があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
 
 1. 「**[!UICONTROL Filters]**」タブをクリックします。
 

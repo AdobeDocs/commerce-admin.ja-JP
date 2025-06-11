@@ -2,9 +2,10 @@
 title: コンテンツブロックを配置
 description: コードを記述せずに、ページ上の特定の場所（特定の製品やカテゴリに関しても）にブロックを配置します
 exl-id: cfc9eb2c-19c8-43f1-937d-4162b5011b8a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 次のリストは、通常ブロックが配置されるページ タイプ別の場所を示しています。 ページ上の領域の定義方法について詳しくは、「[ 標準ページレイアウト ](page-layout.md#standard-page-layouts)」を参照してください。
 
-## カテゴリページと CMS ページ
+## カテゴリページとCMSページ
 
 | ブロック参照 | 位置 |
 |----------|-------- |

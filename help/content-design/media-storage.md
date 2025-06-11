@@ -3,9 +3,10 @@ title: メディアストレージ
 description: サーバーに保存されているCommerce メディアファイルを整理し、アクセスできるようにするメディアストレージの仕組みについて説明します。
 exl-id: 5cf1bb20-d747-4a12-8558-e167c229efe8
 feature: Page Content, Media
-source-git-commit: 7dae6b6d387c796c5ff472293c6590fabaa83e85
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -28,9 +29,9 @@ ht-degree: 0%
 
    ![ 画像を挿入アイコン ](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   この操作を実行すると、_[!UICONTROL Insert/edit image]_&#x200B;ダイアログが開きます。
+   この操作を実行すると、_[!UICONTROL Insert/edit image]_ダイアログが開きます。
 
-1. _[!UICONTROL Source]_&#x200B;の後、_ 検索 _アイコン（![ 検索アイコン ](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）をクリックします。
+1. _[!UICONTROL Source]_の後、_ 検索 _アイコン（![ 検索アイコン ](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）をクリックします。
 
 1. 左側のディレクトリツリーで、次のいずれかの操作を行います。
 
@@ -68,7 +69,7 @@ ht-degree: 0%
 
 1. [ エディター ](editor.md) ツールバーで _画像を挿入_ アイコンをクリックします。
 
-1. _[!UICONTROL Source]_&#x200B;の後、_ 検索 _アイコン（![ 検索アイコン ](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）をクリックします。
+1. _[!UICONTROL Source]_の後、_ 検索 _アイコン（![ 検索アイコン ](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）をクリックします。
 
    ![ 検索アイコンの選択 ](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 
@@ -76,7 +77,7 @@ ht-degree: 0%
 
 1. 画像のタイルを選択し、「**[!UICONTROL Add Selected]**」をクリックします。
 
-### 方法 2:HTMLモード
+### 方法 2:HTML モード
 
 1. コード内で `<img>` タグを挿入する位置にカーソルを置きます。
 

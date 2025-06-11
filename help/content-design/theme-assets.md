@@ -3,9 +3,10 @@ title: テーマアセット
 description: CSS、フォント、画像、JavaScript ファイルなどのテーマアセットを管理する方法について説明します。
 exl-id: 326c648e-eace-45a0-b53d-bbc8702fee05
 feature: Page Content, Themes
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: e50b85311f4512fb54c7cb29faf6136eaf07eae6
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ _静的ファイル_ は、テーマで使用される CSS、フォント、画�
 
 ## 静的ファイル URL へのデジタル署名の追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Developer]**」を選択します。
 
@@ -49,7 +50,7 @@ _静的ファイル_ は、テーマで使用される CSS、フォント、画�
 >
 >CSS ファイルは、[ 開発者モード ](../systems/developer-tools.md#operation-modes) で作業している場合にのみ _管理_ パネルから結合できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、を **[!UICONTROL Advanced]** して「**[!UICONTROL Developer]**」を選択します。
 
@@ -71,7 +72,7 @@ _静的ファイル_ は、テーマで使用される CSS、フォント、画�
 >
 >JavaScriptのファイルは、[ 開発者モード _で作業している場合にのみ_ 管理 ](../systems/developer-tools.md#operation-modes) パネルから結合できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、を **[!UICONTROL Advanced]** して「**[!UICONTROL Developer]**」を選択します。
 
@@ -79,7 +80,7 @@ _静的ファイル_ は、テーマで使用される CSS、フォント、画�
 
    ![JavaScriptの設定 ](./assets/developer-javascript-settings.png){width="600" zoomable="yes"}
 
-   これらの設定オプションについて詳しくは、{Configuration Reference[&#128279;](../configuration-reference/advanced/developer.md#javascript-settings) の _0}JavaScript設定_ を参照してください。
+   これらの設定オプションについて詳しくは、{Configuration Reference](../configuration-reference/advanced/developer.md#javascript-settings) の _0}JavaScript設定_ を参照してください。[
 
 1. **[!UICONTROL Merge JavaScript Files]** を `Yes` に設定します。
 

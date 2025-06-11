@@ -2,36 +2,37 @@
 title: ページ設定
 description: ストアページのメイン部分のデフォルトを設定する方法を説明します。
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
 
 # ページ設定
 
-ページのメインセクションは、その一部が一連の標準HTMLタグによって制御されます。 これらのタグの一部は、ページの各セクションで使用されるフォント、カラー、サイズ、背景色および画像の選択を決定するために使用できます。 その他の設定は、ヘッダーのロゴやフッターの著作権表示などのページ要素を制御します。 これらのセクションは、HTMLページの基盤となる構造に対応しており、多くの基本的なプロパティは管理者から設定できます。
+ページの主要なセクションは、一部は一連の標準HTML タグによって制御されます。 これらのタグの一部は、ページの各セクションで使用されるフォント、カラー、サイズ、背景色および画像の選択を決定するために使用できます。 その他の設定は、ヘッダーのロゴやフッターの著作権表示などのページ要素を制御します。 これらのセクションは、HTMLページの基盤となる構造に対応しており、多くの基本的なプロパティは管理者で設定できます。
 
 - [HTMLヘッド](#html-head)
 - [ヘッダー](#header)
 - [フッター](#footer)
 
-![HTMLページのセクション ](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
+![HTMLページセクション ](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
 
 ## HTMLヘッド
 
-「HTMLヘッド」セクションの設定は、HTMLページの `<head>` タグに対応し、ストアビューごとに設定できます。 このセクションには、ページタイトル、説明およびキーワードのメタデータに加えて、favicon およびその他のスクリプトへのリンクが含まれています。 検索エンジンロボットの手順とストアデモ通知の表示についても、この節で設定します。
+「HTML Head」セクションの設定は、HTML ページの `<head>` タグに対応し、各ストアビューに対して設定できます。 このセクションには、ページタイトル、説明およびキーワードのメタデータに加えて、favicon およびその他のスクリプトへのリンクが含まれています。 検索エンジンロボットの手順とストアデモ通知の表示についても、この節で設定します。
 
-### HTMLヘッドの設定
+### HTML ヘッドの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 設定するストア表示を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
+1. 設定するストア表示を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
 
 1. _その他の設定_ の下で、「**[!UICONTROL HTML Head]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 
-   ![HTML ヘッドの構成設定 ](./assets/configuration-html-head.png){width="500" zoomable="yes"}
+   ![HTML Head の設定 ](./assets/configuration-html-head.png){width="500" zoomable="yes"}
 
 1. 必要に応じて [favicon](../getting-started/storefront-branding.md#add-a-favicon) を更新します。
 
@@ -59,9 +60,9 @@ ht-degree: 0%
 
 1. 完了したら、「**[!UICONTROL Save Configuration]**」をクリックします。
 
-### HTML見出しフィールドの説明
+### HTMLの「見出し」フィールドの説明
 
-| フィールド | 範囲 | 説明 |
+| フィールド | 対象範囲 | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Favicon Icon] | ストア表示 | ブラウザーのアドレスバーとタブに表示される小さなグラフィック画像をアップロードします。 許可されるファイルタイプ：ICO、PNG、APNG、GIF、JPG（JPEG）。 すべてのブラウザーがこれらの形式をサポートしているわけではありません。 |
 | [!UICONTROL Default Page Title] | ストア表示 | ブラウザーで表示された際に各ページのタイトルバーに表示されるタイトル。 個々のページに別のタイトルを指定しない限り、デフォルトのタイトルはすべてのページに使用されます。 |
@@ -82,9 +83,9 @@ ht-degree: 0%
 
 ### ヘッダーの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 設定するストア表示を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
+1. 設定するストア表示を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
 
 1. _その他の設定_ の下で、「**[!UICONTROL Header]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 
@@ -97,7 +98,7 @@ ht-degree: 0%
 
 ### ヘッダーフィールドの説明
 
-| フィールド | 範囲 | 説明 |
+| フィールド | 対象範囲 | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Logo Image] | ストア表示 | ヘッダーに表示されるロゴへのパスを識別します。 サポートされているファイルタイプ：PNG、GIF、JPG（JPEG） |
 | [!UICONTROL Logo Attribute Width] | ストア表示 | ロゴ画像の幅（ピクセル単位）。 |
@@ -116,9 +117,9 @@ ht-degree: 0%
 
 ### フッターの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
 
-1. 設定するストア表示を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
+1. 設定するストア表示を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
 
 1. _その他の設定_ の下で、「**[!UICONTROL Footer]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 
@@ -132,10 +133,10 @@ ht-degree: 0%
 
 ## フッターフィールドの説明
 
-| フィールド | 範囲 | 説明 |
+| フィールド | 対象範囲 | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Miscellaneous HTML] | ストア表示 | 終了 `<body>` タグの直前に配置する必要があるその他のスクリプトをサーバーにアップロードできる入力ボックス。 |
-| [!UICONTROL Copyright] | ストア表示 | 各ページの下部に表示される著作権情報。 著作権シンボルを含めるには、次のようにHTMLのキャラクタエンティティ `\&copy;` を使用します。`\&copy; 2021 Commerce Demo Store. All Rights Reserved.` 必ずサンプルの著作権表示を独自の表示に置き換えてください。 |
+| [!UICONTROL Copyright] | ストア表示 | 各ページの下部に表示される著作権情報。 著作権記号を含めるには、次のようにHTMLのキャラクターエンティティ `\&copy;` を使用します。`\&copy; 2021 Commerce Demo Store. All Rights Reserved.` 必ず、サンプルの著作権表示を独自の表示に置き換えてください。 |
 | [!UICONTROL Display Report Bugs Link] | ストア表示 | バグ報告のリンク （一部のテーマでサポートされています）が有効になっているか無効になっているかを判断します。 |
 
 {style="table-layout:auto"}

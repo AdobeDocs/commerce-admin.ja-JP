@@ -2,22 +2,23 @@
 title: ウィジェットを使用したブロックの配置
 description: 静的ブロックウィジェットを使用して、ストア内のほぼ任意の場所に既存のコンテンツを配置する方法を説明します。
 exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
 # ウィジェットを使用したブロックの配置
 
-_CMS 静的ブロック_[ ウィジェット ](widgets.md) を使用すると、既存の [ コンテンツブロック ](blocks.md) をストア内のほぼすべての場所に配置できます。
+_CMS静的ブロック_ [widget](widgets.md) を使用すると、既存の [ コンテンツブロック ](blocks.md) をストア内のほぼどこにでも配置できます。
 
 ![ ウィジェット ](./assets/widgets.png){width="700" zoomable="yes"}
 
 ## 手順 1：ウィジェットタイプの選択
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックします。
 
@@ -27,7 +28,7 @@ _CMS 静的ブロック_[ ウィジェット ](widgets.md) を使用すると、
 
    ![ ウィジェット設定 ](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Storefront Properties]_&#x200B;セクションで、次の操作を行います。
+1. _[!UICONTROL Storefront Properties]_セクションで、次の操作を行います。
 
    - **[!UICONTROL Widget Title]** しくは、ウィジェットのわかりやすいタイトルを入力します。
 

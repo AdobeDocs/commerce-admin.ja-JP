@@ -2,9 +2,10 @@
 title: ページ階層
 description: ページ階層システムを使用して、コンテンツページを整理し、ページネーション、ナビゲーション、メニューを追加する機能を提供する方法を説明します。
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -25,9 +26,9 @@ ht-degree: 0%
 
 ![CMS ページ階層 ](./assets/content-management-cms-page-hierarchy.png){width="600" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
+1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
 
 1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]** を展開し、必要な変更を加えます。
 
@@ -47,19 +48,19 @@ ht-degree: 0%
 
 例えば、個々のプレスリリースに移動できる _プレスリリース_ というノードを作成できます。 次に、「会社情報 _ページのリンクをノードに含めるこ_ ができます。 または、ニュースレターのバックイシューのコレクション用のノードを作成することもできます。
 
-ノードにリンクするには、[ ウィジェット ](widgets.md) ツールを使用して CMS 階層ノードリンクを作成し、ウィジェットをコンテンツブロックまたはページに配置します。
+ノードにリンクするには、[Widget](widgets.md) ツールを使用してCMS階層ノードリンクを作成し、ウィジェットをコンテンツブロックまたはページに配置します。
 
 ![ 会社概要ページのナビゲーションメニューの例 ](./assets/page-navigation-storefront.png){width="600" zoomable="yes"}
 
 ### 手順 1：ノードを作成する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Hierarchy]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Hierarchy]**に移動します。
 
-   ![CMS ページグリッド ](./assets/page-hierarchy-cms-pages.png){width="600" zoomable="yes"}
+   ![CMSページグリッド ](./assets/page-hierarchy-cms-pages.png){width="600" zoomable="yes"}
 
 1. グリッドの上にある「**[!UICONTROL Add Node...]**」をクリックします。
 
-1. 「_[!UICONTROL Page Properties]_」に、ノードの&#x200B;**[!UICONTROL Title]**&#x200B;と適切な&#x200B;**[!UICONTROL URL Key]**&#x200B;を入力します。
+1. 「_[!UICONTROL Page Properties]_」に、ノードの&#x200B;**[!UICONTROL Title]**と適切な&#x200B;**[!UICONTROL URL Key]**を入力します。
 
    URL キーは、ノードの一意の web アドレスを提供します。 スペースではなくハイフンを使用して単語を区切り、すべて小文字にする必要があります。
 
@@ -85,7 +86,7 @@ ht-degree: 0%
 
 1. 階層の最上位にあるノードをクリックします。
 
-   _[!UICONTROL Page Properties]_&#x200B;セクションには、ノードに関する情報が表示されるようになりました。
+   _[!UICONTROL Page Properties]_セクションには、ノードに関する情報が表示されるようになりました。
 
 1. [**[!UICONTROL Render Metadata in HTML Head]**] で、次の操作を行います。
 

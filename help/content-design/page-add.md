@@ -2,9 +2,10 @@
 title: ページの追加と削除
 description: ストアで使用するコンテンツページを追加および削除する方法について説明  [!DNL Commerce]  ます。
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1122'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 ### 手順 1：ページを作成する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
 
 1. 「**[!UICONTROL Add New Page]**」をクリックします。
 
@@ -45,7 +46,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Content Heading]** ボックスに、ページの先頭に表示する見出しを入力します。
 
-   有効にすると、[ ページビルダー ](../page-builder/introduction.md) ステージとパネルがコンテンツ見出しの下に表示されます。 詳しくは、[Workspace](../page-builder/workspace.md) を参照してください。 _ページビルダー_ が有効になっていない場合、エディターは WYSIWYG モードで開き、上部にツールバーが表示されます。
+   有効にすると、[ ページビルダー ](../page-builder/introduction.md) ステージとパネルがコンテンツ見出しの下に表示されます。 詳しくは、[Workspace](../page-builder/workspace.md) を参照してください。 _ページビルダー_ が有効になっていない場合、エディターはWYSIWYG モードで開き、上部にツールバーが表示されます。
 
 1. コンテンツを完成させ、必要に応じてテキストを書式設定します。
 
@@ -131,7 +132,7 @@ ht-degree: 0%
    - `Magento Black`
    - `Magento Luma`
 
-1. ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）デザインの変更をスケジュールするには、「![ 拡張セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]** を展開し、次の操作を実行します。
+1. ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）デザインの変更をスケジュールするには、![ 拡張セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]** を展開し、次の手順を実行します。
 
    ![ カスタムデザインの更新 ](./assets/page-custom-design-update.png){width="600" zoomable="yes"}
 
@@ -145,13 +146,13 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]** 矢印をクリックし、「**[!UICONTROL Save & Close]**」を選択してページグリッドに戻ります。
 
-1. グリッドでページを見つけ、_[!UICONTROL Action]_&#x200B;列で&#x200B;**[!UICONTROL View]**&#x200B;を選択します。
+1. グリッドでページを見つけ、_[!UICONTROL Action]_列で&#x200B;**[!UICONTROL View]**を選択します。
 
 1. グリッドに戻るには、ブラウザーウィンドウの左上隅にある **[!UICONTROL Back]** をクリックします。
 
-### 手順 8：ページのPublish
+### 手順 8：ページの公開
 
-1. グリッドの _[!UICONTROL Action]_&#x200B;列の「**[!UICONTROL Edit]**」を選択します。
+1. グリッドの _[!UICONTROL Action]_列の「**[!UICONTROL Edit]**」を選択します。
 
 1. **[!UICONTROL Enable Page]** を `Yes` に設定します。
 
@@ -163,9 +164,9 @@ ht-degree: 0%
 
 ![ 保存して複製 ](./assets/page-duplicate-save-menu.png){width="600" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
 
-1. グリッドで、複製するページを見つけ、_[!UICONTROL Action]_&#x200B;の列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
+1. グリッドで、複製するページを見つけ、_[!UICONTROL Action]_の列の&#x200B;**[!UICONTROL Edit]**をクリックします。
 
 1. **[!UICONTROL Save]** の矢印をクリックし、「**[!UICONTROL Save & Duplicate]**」を選択します。
 
@@ -206,11 +207,11 @@ ht-degree: 0%
 
 ## ページの削除
 
-作成したページを削除する方法は 2 つあります。 _[!UICONTROL Pages]_&#x200B;グリッドまたは&#x200B;_[!UICONTROL Edit]_ ページから削除できます。
+作成したページを削除する方法は 2 つあります。 _[!UICONTROL Pages]_グリッドまたは_[!UICONTROL Edit]_ ページから削除できます。
 
 ### 方法 1：ページグリッドからページを削除する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
 
 1. グリッドの上でフィルターを使用してページを見つけ、削除する 1 つ以上のページのチェックボックスを選択します。
 
@@ -220,7 +221,7 @@ ht-degree: 0%
 
 ### 方法 2：編集ページからページを削除する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
 
 1. 削除するページを検索します。
 

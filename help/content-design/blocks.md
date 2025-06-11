@@ -2,9 +2,10 @@
 title: コンテンツブロック
 description: ブロックを使用すると、テキスト、画像、埋め込みビデオなどの固定情報や、動的情報を表示できます。
 exl-id: 545740f7-802c-459e-acd1-a3b3ede29d07
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -21,6 +22,6 @@ _ブロック_ は、ページ上のほとんどの場所に配置できるコ�
 
 次のビデオを視聴して、静的ブロックと [ 動的ブロック ](dynamic-blocks.md) について学びます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3411070?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12&learn=on)
 
 [1]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/

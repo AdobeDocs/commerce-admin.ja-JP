@@ -4,9 +4,10 @@ description: メディアデータベースを使用してメディアファイ�
 exl-id: b59349fb-0cb6-4812-a126-6e0d8d37564f
 feature: Page Content, Media, Configuration
 level: Experienced
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -15,13 +16,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe CommerceおよびMagento Open Source 2.4.3 以降、データベースメディアのストレージ方式は非推奨（廃止予定）になりました。
+>データベースメディアのストレージ方式は、Adobe CommerceおよびMagento Open Source 2.4.3 で非推奨（廃止予定）となりました。
 
 デフォルトでは、[!DNL Commerce] インスタンスのすべての画像、コンパイル済み CSS ファイル、コンパイル済みJavaScript ファイルが、web サーバー上のファイルシステムに格納されます。 データベース・サーバ上のデータベースに、これらのファイルを格納するように選択できます。 このアプローチの利点の 1 つは、Web サーバーファイルシステムとデータベースの間の自動同期と逆同期のオプションです。 デフォルトのデータベースを使用して、メディアを保存したり作成したりできます。 新しく作成したデータベースをメディアストレージとして使用できるようにするには、データベースに関する情報とアクセス資格情報を `env.php` ファイルに追加する必要があります。
 
 ## データベースワークフロー
 
-1. **ブラウザーがメディアをリクエスト** - ストアのページが顧客のブラウザーで開かれ、ブラウザーは、HTMLで指定されたメディアをリクエストします。
+1. **ブラウザーがメディアをリクエスト** - ストアのページが顧客のブラウザーで開き、ブラウザーが、HTMLで指定されたメディアをリクエストします。
 
 1. **ファイルシステム内のメディアが検索されます** - システムはファイルシステム内のメディアを検索し、見つかった場合はブラウザーに渡します。
 
@@ -34,7 +35,7 @@ ht-degree: 0%
 
 ## メディアストレージにデータベースを使用
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 

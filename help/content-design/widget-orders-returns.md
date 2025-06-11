@@ -3,9 +3,10 @@ title: 注文と返品ウィジェット
 description: 注文と返品ウィジェットを使用して、顧客が注文のステータスを確認したり、請求書を印刷したり、出荷を追跡したりする方法を説明します。
 exl-id: 1c3948e6-a0de-4ee4-8abf-10ab845a94a7
 feature: Page Content, Orders, Returns
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -33,11 +34,11 @@ _注文と返品_ ウィジェットを使用すると、ゲストは注文の�
 
 ## 注文と返品ウィジェットの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックします。
 
-1. _[!UICONTROL Settings]_&#x200B;セクションで、次の操作を行います。
+1. _[!UICONTROL Settings]_セクションで、次の操作を行います。
 
    - **[!UICONTROL Type]** を `Orders and Returns` に設定します。
 
@@ -45,7 +46,7 @@ _注文と返品_ ウィジェットを使用すると、ゲストは注文の�
 
 1. 「**[!UICONTROL Continue]**」をクリックします。
 
-1. _[!UICONTROL Storefront Properties]_&#x200B;セクションで、次の操作を行います。
+1. _[!UICONTROL Storefront Properties]_セクションで、次の操作を行います。
 
    - **[!UICONTROL Widget Title]** しくは、ウィジェットのわかりやすいタイトルを入力します。
 
