@@ -3,7 +3,7 @@ title: Adobe Stock画像の使用
 description: Adobe Stockの画像を使用してストアページを強化します。
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '1013'
@@ -119,13 +119,13 @@ Adobe Stock アセットを検索し、WYSIWYG エディターからストック
 
 ## Adobe アカウントにログインします
 
-画像への完全なアクセス権を取得し、Adobe Stockの透かしを削除するには、[Adobe アカウントでログイン ](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) し、画像を使用するライセンス権限に対するクレジットを購入する必要があります。
+画像への完全なアクセス権を取得し、Adobe Stockの透かしを削除するには、[Adobe アカウントでログイン ](https://helpx.adobe.com/jp/manage-account/using/access-adobe-id-account.html) し、画像を使用するライセンス権限に対するクレジットを購入する必要があります。
 
 1. [Adobe Stock検索グリッドへのアクセス ](#access-the-adobe-stock-search-grid)。
 
 1. 右上の「**[!UICONTROL Sign In]**」をクリックします。
 
-   [Adobeのログインプロセス ](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) を順を追って新しいブラウザーウィンドウが表示されます。
+   [Adobeのログインプロセス ](https://helpx.adobe.com/jp/manage-account/using/access-adobe-id-account.html) を順を追って新しいブラウザーウィンドウが表示されます。
 
    ログインプロセスが完了すると、検索結果に、ライセンス済みの画像の状態がラベルとして表示されます。
 
@@ -179,7 +179,7 @@ Adobe Stock統合を使用して検索された画像を [!DNL Commerce] [ メ�
 
      >[!NOTE]
      >
-     >画像のライセンスを取得するには、アカウントで利用可能な [&#128279;](https://helpx.adobe.com/stock/help/credit-packs.html)0&rbrace;Adobe Stock クレジット &rbrace; が必要です。
+     >画像のライセンスを取得するには、アカウントで利用可能な [&#128279;](https://helpx.adobe.com/jp/stock/help/credit-packs.html)0&rbrace;Adobe Stock クレジット &rbrace; が必要です。
 
    この操作を実行すると、イメージを [ メディア ストレージ ](media-storage.md) に保存するために使用するファイル名を指定するよう求めるメッセージが表示されます。 デフォルトのファイル名が提供されますが、この名前は好みに合わせてカスタマイズできます。
 

@@ -2,7 +2,7 @@
 title: エディターでの画像の挿入
 description: WYSIWYG エディターを使用すると、メディアストレージに画像を挿入したり、別のサーバー上に存在する画像にリンクしたり、Adobe Stock Assets を使用したりすることが簡単にできます。
 exl-id: 591830c9-6dba-4738-a6e7-cf5f93b3c319
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '363'
