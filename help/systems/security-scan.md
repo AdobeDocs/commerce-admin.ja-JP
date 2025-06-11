@@ -51,7 +51,7 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
 
 >[!TIP]
 >
->クラウドインフラストラクチャプロジェクトのCommerceについては、[ セキュリティスキャンツールの設定 ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) を参照してください。
+>クラウドインフラストラクチャプロジェクトのCommerceについては、[ セキュリティスキャンツールの設定 ](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) を参照してください。
 
 スキャンを実行するには、次の手順に従います。
 
