@@ -4,9 +4,9 @@ description: 強化されたセキュリティスキャンを実行し、Adobe C
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: eb226a969397bbfa31f72a4ae4fb61b22a0101bc
+source-git-commit: 183b8c52c6d8e2ea1afcc74fe4e2ed8e42efb216
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
 >[!NOTE]
 >
 >Adobeはこのサービスを無料で提供しますが、マーチャントは、スキャン結果とサイト設定に基づいてAdobeの責任を制限する条件に同意する必要があります。
+
+>[!NOTE]
+>
+>Adobeでは、調査結果の調査中に最高のサービス品質を確保するために、他のサードパーティツールよりもセキュリティスキャンツールを使用することをお勧めします。
 
 ## スキャン カバレッジ
 
@@ -63,7 +67,7 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
 
 >[!TIP]
 >
->クラウドインフラストラクチャプロジェクトのCommerceについては、[ セキュリティスキャンツールの設定 ](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) を参照してください。
+>クラウドインフラストラクチャプロジェクトのCommerceについては、[ セキュリティスキャンツールの設定 ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) を参照してください。
 
 スキャンを実行するには、次の手順に従います。
 
@@ -76,7 +80,7 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
    1. **[!UICONTROL Terms and Conditions]** を読んでください。
    1. 「**[!UICONTROL Agree]**」をクリックして続行します。
 
-1. _[!UICONTROL Monitored Websites]_&#x200B;ページで「**[!UICONTROL +Add Site]**」をクリックします。
+1. _[!UICONTROL Monitored Websites]_ページで「**[!UICONTROL +Add Site]**」をクリックします。
 
    異なるドメインを持つ複数のサイトがある場合は、ドメインごとに個別のスキャンを設定します。
 
@@ -94,7 +98,7 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
 
    1. 完全な管理者権限を持つユーザーとしてストアの管理者にログインし、次の手順を実行します。
 
-      1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+      1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
       1. リストでサイトを見つけて、「**[!UICONTROL Edit]**」をクリックします。
       1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL HTML Head]**」セクションを展開します。
       1. **[!UICONTROL Scripts and Style Sheets]** までスクロールし、既存のコードの末尾にあるテキストボックスをクリックします。 確認コードをテキストボックスに貼り付けます。
@@ -143,7 +147,7 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
 
          ビルドプロセスが完了すると、変更内容がPWA ストアフロントにデプロイされます。
 
-1. Commerce アカウントの _[!UICONTROL Security Scan]_&#x200B;ページに戻り、「**[!UICONTROL Verify Confirmation Code]**」をクリックしてドメインの所有権を確立します。
+1. Commerce アカウントの _[!UICONTROL Security Scan]_ページに戻り、「**[!UICONTROL Verify Confirmation Code]**」をクリックしてドメインの所有権を確立します。
 
 1. 確認が正常に完了したら、次のいずれかのタイプで **[!UICONTROL Set Automatic Security Scan]** のオプションを設定します。
 
@@ -198,7 +202,7 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
 
 誤検出と識別されたスキャンエラーを管理するには、次の手順に従います。
 
-1. _[!UICONTROL Monitored Websites]_&#x200B;ページで、管理するサイトの&#x200B;**[!UICONTROL View Report]**&#x200B;をクリックします。
+1. _[!UICONTROL Monitored Websites]_ページで、管理するサイトの&#x200B;**[!UICONTROL View Report]**をクリックします。
 
 1. レポート ビューで、誤検出としてマークする失敗したスキャンを見つけます。
 
@@ -208,7 +212,7 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
 
 1. 「**[!UICONTROL Apply Changes]**」をクリックして選択内容を保存します。
 
-無視されたスキャンエラーは _[!UICONTROL Ignored Results]_&#x200B;のセクションに移動し、リスクスコアから除外されます。
+無視されたスキャンエラーは _[!UICONTROL Ignored Results]_のセクションに移動し、リスクスコアから除外されます。
 
 ### スキャンの失敗を無視しない
 
@@ -222,7 +226,7 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
 
 1. 「**[!UICONTROL Apply Changes]**」をクリックして選択内容を保存します。
 
-スキャンの失敗は _[!UICONTROL Failed Scans]_&#x200B;のセクションに戻り、リスクスコアに含まれます。
+スキャンの失敗は _[!UICONTROL Failed Scans]_のセクションに戻り、リスクスコアに含まれます。
 
 ### 無視されたスキャン エラーの表示
 
