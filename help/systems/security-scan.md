@@ -4,9 +4,9 @@ description: 強化されたセキュリティスキャンを実行し、Adobe C
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 183b8c52c6d8e2ea1afcc74fe4e2ed8e42efb216
+source-git-commit: bea6570d8d40ec7be8802ae6a793d88b72943e6f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,19 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
 
 >[!NOTE]
 >
->Adobe Commerceのセキュリティ スキャン ツール スキャンから特定のセキュリティ テストを除外することはできません。 ただし、該当する場合は、誤検出として「失敗を無視 [ でセルフサービスを行うこ ](#manage-scan-failures) ができます。
+>特定のセキュリティテストを実行から除外することはできませんが、失敗したチェックを **[!UICONTROL Ignored Results]** カテゴリに移動することはできます。 詳しくは、[ スキャンエラーの管理 ](#manage-scan-failures) を参照してください。
 
 ## アクセス
 
 セキュリティ スキャン ツールは、サイト情報を保護するために厳密なアクセス制御を維持します。 このツールはAdobe Commerce アカウントを通じてドメインの所有権を確認する必要があるので、サイトをスキャンできるのはあなただけです。 各サイトは、一意のトークンを介してアカウントに接続し、サードパーティによる不正なスキャンを防ぎます。
 
 このツールでは、特にAdobe Commerce ドメインとそのセキュリティの脆弱性に焦点を当てています。 Web ストアには他のプラットフォームのページが含まれている場合がありますが、セキュリティスキャンツールでは、Adobe Commerceで生成されたコンテンツのみをスキャンして、信頼性の高い結果を保証する必要があります。 Adobe Commerce以外のページをスキャンすると、信頼性の低い脆弱性評価が行われる可能性があります。
+
+
+## スキャン結果へのアクセス
+
+スキャン結果には、最初にスキャンを設定したユーザーのみがアクセスできます。 結果を他のユーザーと共有するには、元のユーザーが手動でPDF レポートを配布する必要があります。 または、ストア所有者は、[**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) 機能を使用して他の MAGEID と送信内容を共有できます。 他のユーザーも、自分のアカウントを使用してスキャンを開始できます。 スキャン設定時に、完了したスキャンの通知と評価されたリスクレベルを受け取るために、メールアドレスのコンマ区切りリストを指定できます。
+
 
 >[!NOTE]
 >
@@ -61,13 +67,14 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
 >
 >これらの IP アドレスをネットワーク ファイアウォール規則の許可リストに追加して、サイトをスキャンできるようにします。 このツールは、ポート `80` および `443` にのみリクエストを POST します。
 
+
 ## スキャンの実行
 
 スキャンプロセスでは、サイトのセキュリティに関する既知の問題をチェックし、ストアが攻撃を受けやすい状態になる可能性のある、Adobe Commerceのパッチやアップデートが見つからないかどうかを特定します。
 
 >[!TIP]
 >
->クラウドインフラストラクチャプロジェクトのCommerceについては、[ セキュリティスキャンツールの設定 ](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) を参照してください。
+>クラウドインフラストラクチャプロジェクトのCommerceについては、[ セキュリティスキャンツールの設定 ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) を参照してください。
 
 スキャンを実行するには、次の手順に従います。
 
@@ -80,7 +87,7 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
    1. **[!UICONTROL Terms and Conditions]** を読んでください。
    1. 「**[!UICONTROL Agree]**」をクリックして続行します。
 
-1. _[!UICONTROL Monitored Websites]_&#x200B;ページで「**[!UICONTROL +Add Site]**」をクリックします。
+1. _[!UICONTROL Monitored Websites]_ページで「**[!UICONTROL +Add Site]**」をクリックします。
 
    異なるドメインを持つ複数のサイトがある場合は、ドメインごとに個別のスキャンを設定します。
 
@@ -98,7 +105,7 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
 
    1. 完全な管理者権限を持つユーザーとしてストアの管理者にログインし、次の手順を実行します。
 
-      1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+      1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
       1. リストでサイトを見つけて、「**[!UICONTROL Edit]**」をクリックします。
       1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL HTML Head]**」セクションを展開します。
       1. **[!UICONTROL Scripts and Style Sheets]** までスクロールし、既存のコードの末尾にあるテキストボックスをクリックします。 確認コードをテキストボックスに貼り付けます。
@@ -147,7 +154,7 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
 
          ビルドプロセスが完了すると、変更内容がPWA ストアフロントにデプロイされます。
 
-1. Commerce アカウントの _[!UICONTROL Security Scan]_&#x200B;ページに戻り、「**[!UICONTROL Verify Confirmation Code]**」をクリックしてドメインの所有権を確立します。
+1. Commerce アカウントの _[!UICONTROL Security Scan]_ページに戻り、「**[!UICONTROL Verify Confirmation Code]**」をクリックしてドメインの所有権を確立します。
 
 1. 確認が正常に完了したら、次のいずれかのタイプで **[!UICONTROL Set Automatic Security Scan]** のオプションを設定します。
 
@@ -191,18 +198,20 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
 - 既知の偽陽性について、サポートへの連絡を不要にします。
 - 既に調査したスキャンの失敗を自己管理することで、時間を節約できます。
 
-スキャンの失敗を偽陽性としてマークする一般的なシナリオを次に示します。
+### スキャン エラーを無視する有効なシナリオの例
 
 - 既にセキュリティパッチを適用していて、スキャンツールが検出されなかった場合。
-- 検出された問題が特定のストア設定に適用できない場合。
-- 問題に対処する別のセキュリティ対策を実装した場合。
+- 検出された問題が特定のストア設定に適用できない場合（カスタムユーザーのログインや登録ページなど）。
+- 問題に対処する別のセキュリティ対策を実装した場合（Web アプリケーションファイアウォールなど）。
 - スキャンエラーが、ビジネスニーズに合わせて意図的に設定した設定に基づいている場合。
+- コードの不明化やエンコーディングが原因でチェックに失敗するサードパーティのJavaScript コードを意図的に使用する場合。
+
 
 ### スキャン エラーを無視する
 
 誤検出と識別されたスキャンエラーを管理するには、次の手順に従います。
 
-1. _[!UICONTROL Monitored Websites]_&#x200B;ページで、管理するサイトの&#x200B;**[!UICONTROL View Report]**&#x200B;をクリックします。
+1. _[!UICONTROL Monitored Websites]_ページで、管理するサイトの&#x200B;**[!UICONTROL View Report]**をクリックします。
 
 1. レポート ビューで、誤検出としてマークする失敗したスキャンを見つけます。
 
@@ -212,7 +221,7 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
 
 1. 「**[!UICONTROL Apply Changes]**」をクリックして選択内容を保存します。
 
-無視されたスキャンエラーは _[!UICONTROL Ignored Results]_&#x200B;のセクションに移動し、リスクスコアから除外されます。
+無視されたスキャンエラーは _[!UICONTROL Ignored Results]_のセクションに移動し、リスクスコアから除外されます。
 
 ### スキャンの失敗を無視しない
 
@@ -226,7 +235,7 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
 
 1. 「**[!UICONTROL Apply Changes]**」をクリックして選択内容を保存します。
 
-スキャンの失敗は _[!UICONTROL Failed Scans]_&#x200B;のセクションに戻り、リスクスコアに含まれます。
+スキャンの失敗は _[!UICONTROL Failed Scans]_のセクションに戻り、リスクスコアに含まれます。
 
 ### 無視されたスキャン エラーの表示
 
