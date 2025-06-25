@@ -52,7 +52,7 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
 
 ## スキャン結果へのアクセス
 
-スキャン結果には、最初にスキャンを設定したユーザーのみがアクセスできます。 結果を他のユーザーと共有するには、元のユーザーが手動でPDF レポートを配布する必要があります。 または、ストア所有者は、[**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) 機能を使用して他の MAGEID と送信内容を共有できます。 他のユーザーも、自分のアカウントを使用してスキャンを開始できます。 スキャン設定時に、完了したスキャンの通知と評価されたリスクレベルを受け取るために、メールアドレスのコンマ区切りリストを指定できます。
+スキャン結果には、最初にスキャンを設定したユーザーのみがアクセスできます。 結果を他のユーザーと共有するには、元のユーザーが手動でPDF レポートを配布する必要があります。 または、ストア所有者は、[**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/commerce-account/commerce-account-share) 機能を使用して他の MAGEID と送信内容を共有できます。 他のユーザーも、自分のアカウントを使用してスキャンを開始できます。 スキャン設定時に、完了したスキャンの通知と評価されたリスクレベルを受け取るために、メールアドレスのコンマ区切りリストを指定できます。
 
 
 >[!NOTE]
@@ -74,7 +74,7 @@ Adobe Commerce セキュリティスキャンツールを使用すると、Adobe
 
 >[!TIP]
 >
->クラウドインフラストラクチャプロジェクトのCommerceについては、[ セキュリティスキャンツールの設定 ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) を参照してください。
+>クラウドインフラストラクチャプロジェクトのCommerceについては、[ セキュリティスキャンツールの設定 ](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) を参照してください。
 
 スキャンを実行するには、次の手順に従います。
 
