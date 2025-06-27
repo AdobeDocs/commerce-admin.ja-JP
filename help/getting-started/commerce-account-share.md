@@ -27,7 +27,7 @@ ht-degree: 0%
 1. 開始する前に、**新しい共有アクセス権限** の [!DNL Commerce] アカウントから次の情報を取得します。
 
    - ユーザーは、account.adobe.comで既にアカウントに登録されており、account.magento.comでログインしている必要があります。 詳しくは [Commerce アカウントの作成 ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) を参照してください。
-   - この `MAGE ID/Account ID (MAG00XXXXXXX)` は、「ログアウ _[!UICONTROL Magento]_**リンクのすぐ上の「**ログアウト」タブの左上隅に表示されます。
+   - この `MAGE ID/Account ID (MAG00XXXXXXX)` は、「ログアウ _[!UICONTROL Magento]_&#x200B;**リンクのすぐ上の「**&#x200B;ログアウト」タブの左上隅に表示されます。
    - アカウントに関連付けられている `Email` アドレス。
 
 1. [[!DNL Commerce]  アカウント ](commerce-account-create.md) にログインします。
@@ -52,19 +52,19 @@ ht-degree: 0%
      ベストプラクティスは、組織名を [!UICONTROL Share Name] として使用することです。 `CLOUD SHARED ACCESS FROM MAG XYX` で始まる名前は使用しないでください。
    - 新しいユーザーと個人の連絡先情報を共有する場合は、**[!UICONTROL Your Email]** と **[!UICONTROL Your Phone]** を入力します。
 
-1. _[!UICONTROL Grant Account Permissions]_の下で、共有する各 [!DNL Commerce] 製品およびサービスのチェックボックスをオンにします。
+1. _[!UICONTROL Grant Account Permissions]_&#x200B;の下で、共有する各 [!DNL Commerce] 製品およびサービスのチェックボックスをオンにします。
 
    ![ アカウントへの権限の付与 ](./assets/shared-permissions.png){width="600"}
 
 1. 「**[!UICONTROL Create Shared Access]**」をクリックします。
 
-   新しいユーザー情報が共有アクセス ページの _[!UICONTROL Manage Permissions]_セクションに表示され、共有アカウントへのアクセス手順を記載した電子メールの招待状が新しいユーザーに送信されます。
+   新しいユーザー情報が共有アクセス ページの _[!UICONTROL Manage Permissions]_&#x200B;セクションに表示され、共有アカウントへのアクセス手順を記載した電子メールの招待状が新しいユーザーに送信されます。
 
    ![ 共有アクセスの権限の管理 ](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->_[!UICONTROL Security Tool]_へのアクセスを共有する必要はありません。MAGE ID を持つユーザーは誰でも、自分のアカウントでセキュリティスキャンツールを設定できます。 サイトに変更を加えたり、いずれかの [ 必須メソッド）を使用してドメインの所有権を検証したりするために必要な権限 ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) 必要なだけです。
+>_[!UICONTROL Security Tool]_&#x200B;へのアクセスを共有する必要はありません。MAGE ID を持つユーザーは誰でも、自分のアカウントでセキュリティスキャンツールを設定できます。 サイトに変更を加えたり、いずれかの [ 必須メソッド）を使用してドメインの所有権を検証したりするために必要な権限 ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) 必要なだけです。
 
 ## 共有アカウントへのアクセス
 
@@ -72,13 +72,13 @@ ht-degree: 0%
 
 1. 共有アカウントへの招待メールを受け取ったら、そのメールに記載されている手順に従って、自分の [!DNL Commerce] アカウントにログインします。
 
-   アカウントの左側のナビゲーションパネルには、新しい「_[!UICONTROL Shared with me]_」タブが追加されました。 右上隅の_[!UICONTROL Switch Accounts]_ コントロールには、`My Account` と共有アカウントの名前のオプションがあります。
+   アカウントの左側のナビゲーションパネルには、新しい「_[!UICONTROL Shared with me]_」タブが追加されました。 右上隅の&#x200B;_[!UICONTROL Switch Accounts]_ コントロールには、`My Account` と共有アカウントの名前のオプションがあります。
 
    ![ 自分と共有 ](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >   _[!UICONTROL Switch Accounts]_コントロールが表示されない場合は、プライマリアカウントの所有者に連絡し、正しい [ アカウント情報 ](#set-up-a-shared-account) が入力されていることを確認します。
+   >   _[!UICONTROL Switch Accounts]_&#x200B;コントロールが表示されない場合は、プライマリアカウントの所有者に連絡し、正しい [ アカウント情報 ](#set-up-a-shared-account) が入力されていることを確認します。
 
 
 1. 共有アカウントにアクセスするには、**[!UICONTROL Switch Accounts]** を共有アカウントの名前に設定します。
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. 左側のナビゲーションパネルで、「**[!UICONTROL Shared Access]**」をクリックします。
 
-1. _[!UICONTROL Managing Users & Permissions]_の下で失効させるアカウントを見つけて、「**[!UICONTROL Delete]**」をクリックします。
+1. _[!UICONTROL Managing Users & Permissions]_&#x200B;の下で失効させるアカウントを見つけて、「**[!UICONTROL Delete]**」をクリックします。
 
    >[!NOTE]
    >
