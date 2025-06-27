@@ -3,9 +3,9 @@ title: 買い物かご価格ルールの作成
 description: 買い物かごまたは製品属性に基づいて買い物かごの価格ルールを作成する方法を説明します。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: d981a0365cc7768394ca03f4352be45caef87a73
 workflow-type: tm+mt
-source-wordcount: '3386'
+source-wordcount: '3382'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## 手順 1：ルールを追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Cart Price Rules]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Cart Price Rules]**に移動します。
 
 1. 「**[!UICONTROL Add New Rule]**」をクリックして、次の操作を実行します。
 
-   - _[!UICONTROL Rule Information]_&#x200B;の下で、**[!UICONTROL Rule Name]**&#x200B;と&#x200B;**[!UICONTROL Description]**&#x200B;を入力します。
+   - _[!UICONTROL Rule Information]_の下で、**[!UICONTROL Rule Name]**と&#x200B;**[!UICONTROL Description]**を入力します。
 
    - ルールをすぐに有効にしない場合は、**[!UICONTROL Active]** を `No` に設定します。
 
@@ -59,13 +59,7 @@ ht-degree: 0%
 
 1. 同時にアクティブな他の価格ルールのアクション設定に関連するこの価格ルールの **[!UICONTROL Priority]** を定義する数値を入力します。
 
-   >[!NOTE]
-   >
-   >同じ商品に対して同時に 2 つの買い物かごルールまたはクーポンコードが有効な場合、_[!UICONTROL Priority]_&#x200B;の設定は重要です。 買い物かごのアクションを制御する最も高い [!UICONTROL Priority] 設定を持つルール。  優先順位は、高い順に `0,1,2,3...` まります。_ 処理の定義 _ステップの_[ 後続の価格ルールの破棄 ](#step-3-define-the-actions)_を参照してください。
-
-   >[!NOTE]
-   >
-   >優先度が同じ買い物かご価格ルールでは、組み合わせた割引は発生しません。 各ルール（クーポン）は、データベース内の買い物かご価格ルール ID に従って、一致する製品に 1 つずつ個別に適用されます。 割引が適用される順序を制御するために、Adobeでは、追加された買い物かごの価格ルールごとに異なる優先度を設定することをお勧めします。
+   同じ製品に複数の買い物かごルールまたはクーポンが適用される場合、優先度が最も高い（最も低い数値）ルールが最初に適用されます。 優先度が同じルールは結合されず、ルール ID に基づいて別々に適用されます。 割引が適用される順序を制御するには、一意の優先度を割り当て、「アクション」ステップの [ 後続の価格ルールを破棄 ](#step-3-define-the-actions) の使用を検討して、割引の積み重ねを防ぎます。
 
 1. 公開された [RSS フィード ](social-rss.md#rss-feeds) にルールを適用するには、**RSS フィードで公開** を `Yes` に設定します。
 
@@ -79,17 +73,15 @@ ht-degree: 0%
 
 ## 手順 2：条件の説明
 
-このステップでは、プロモーションの対象となる注文が満たされる必要がある条件を説明します。 このルールは、一連の条件が満たされた場合に常に実行されます。
-
-Real-Time CDPのオーディエンスを使用している場合は、[ この節 ](#use-real-time-cdp-audiences-to-set-a-condition) にスキップしてください。
-
 >[!NOTE]
 >
->買い物かごの価格ルールは、買い物かご内の **_各_** 製品に対して、買い物かごの「_[!UICONTROL Conditions]_」タブの一連の条件が満たされた場合に常に適用されます。 「_[!UICONTROL Actions]_」タブで条件を追加して、買い物かごの価格ルールの影響を受ける製品の数を制限します。
+>Real-Time CDPのオーディエンスを使用している場合は、[ この節 ](#use-real-time-cdp-audiences-to-set-a-condition) にスキップしてください。
 
->[!NOTE]
->
->少なくとも 1 つの条件付き製品属性の値が空の場合、買い物かごの価格ルールが製品に適用されません。
+このステップでは、プロモーションの対象となる注文が満たされる必要がある条件を説明します。 条件は、次のような方法で買い物かごの価格ルールに影響を与えます。
+
+- 買い物かごの価格ルールは、買い物かご内の **_各_** 製品に対して、買い物かごの「_[!UICONTROL Conditions]_」タブの一連の条件が満たされた場合に常に適用されます。 買い物かごの価格ルールの影響を受ける製品の数を制限するには、「_[!UICONTROL Actions]_」タブで条件を追加して、買い物かごの価格ルールの影響を受ける製品の数を制限します。
+
+- 少なくとも 1 つの条件付き製品属性の値が空の場合、買い物かごの価格ルールが製品に適用されません。
 
 1. 左側のパネルで「**[!UICONTROL Conditions]**」を選択します。
 
@@ -172,7 +164,7 @@ Real-Time CDPのオーディエンスを使用している場合は、[ この�
 
 ### 製品属性を買い物かごの価格ルールに追加
 
-1. **[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**&#x200B;に移動し、製品属性を開きます。
+1. **[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**に移動し、製品属性を開きます。
 
 1. 左側のパネルで「**[!UICONTROL Storefront Properties]**」を選択します。
 
@@ -219,7 +211,7 @@ Real-Time CDP[ オーディエンス ](../customers/audience-activation.md) に�
    | `Name` | オーディエンスの名前（`Orders over $50` など） |
    | `Description` | オーディエンスの説明（`People who placed an order over $50 in the last month.` など）。 |
    | `Source` | オーディエンスの元の場所を示します（`Experience Platform` など）。 |
-   | `Website` | オーディエンスを含むデータストリームにリンクした web サイトを示します。 このリンクは、[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=ja) 拡張機能を使用してCommerce インスタンスをExperience Platformに接続する際に作成します。 |
+   | `Website` | オーディエンスを含むデータストリームにリンクした web サイトを示します。 このリンクは、[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html) 拡張機能を使用してCommerce インスタンスをExperience Platformに接続する際に作成します。 |
 
    {style="table-layout:auto"}
 
@@ -243,6 +235,8 @@ Real-Time CDP[ オーディエンス ](../customers/audience-activation.md) に�
    | `Buy X get Y free` | 顧客が（同じ商品/バリエーションの **数量 Y を無料で受け取るために購入する必要がある数量 X を定義** ます。 （[!UICONTROL Discount Amount] は Y）割引を適用するには、同じ商品の X+Y の合計数量がカートに存在またはカートに追加されている必要があります。 |
 
    {style="table-layout:auto"}
+
+   - （グローバルの基本通貨から変換せずに）異なる通貨の Web サイト間で一貫して固定金額の割引を適用するには、「**[!UICONTROL Catalog Price Scope]**」オプションを「`Website`」に設定して、各サイトの基本通貨を定義します。
 
    - **[!UICONTROL Discount Amount]** を記号を付けずに数字で入力します。 例えば、選択した割引オプションに応じて、数値 10 は、割合、固定金額、または品目の数量を示す場合があります。
 
@@ -334,7 +328,7 @@ Real-Time CDP[ オーディエンス ](../customers/audience-activation.md) に�
 
 買い物かご価格ルールの作成については、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410806?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
 
 ## フィールドの説明
 
@@ -390,7 +384,7 @@ Real-Time CDP[ オーディエンス ](../customers/audience-activation.md) に�
 
 | フィールド | 説明 |
 |--- |--- |
-| [!UICONTROL Apply] | 購入に適用される計算のタイプを決定します。 オプション：<br/>**[!UICONTROL Percent of product price discount]**– 元の価格からパーセンテージを引いて品目を値引きします。 例：元の価格より 10% 少ない更新価格の場合は、_[!UICONTROL Discount Amount]_&#x200B;に `10` を入力します。<br/>**[!UICONTROL Fixed amount discount]**– 買い物かごで適格な各品目の元の価格から固定金額を減算して品目を値引きします。 例：元の価格より 10 ドル安い更新価格の場合は、_[!UICONTROL Discount Amount]_ に `10` を入力します。 <br/>**[!UICONTROL Fixed amount discount for whole cart]**– 買い物かごの小計から固定金額を引いて、買い物かご全体を割引します。 例：買い物かごの小計から$10 を減算するには、_[!UICONTROL Discount Amount]_&#x200B;に `10` と入力します。 デフォルトでは、割引は買い物かごの小計にのみ適用されます。 小計と個別の出荷に割引を適用するには、_ 出荷金額に適用 _を参照してください。<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**– 無料で数量を受け取るために顧客が購入する必要がある数量を定義します。 （_[!UICONTROL Discount Amount]_ は Y）。 |
+| [!UICONTROL Apply] | 購入に適用される計算のタイプを決定します。 オプション：<br/>**[!UICONTROL Percent of product price discount]**– 元の価格からパーセンテージを引いて品目を値引きします。 例：元の価格より 10% 少ない更新価格の場合は、_[!UICONTROL Discount Amount]_に `10` を入力します。<br/>**[!UICONTROL Fixed amount discount]**– 買い物かごで適格な各品目の元の価格から固定金額を減算して品目を値引きします。 例：元の価格より 10 ドル安い更新価格の場合は、_[!UICONTROL Discount Amount]_ に `10` を入力します。 <br/>**[!UICONTROL Fixed amount discount for whole cart]**– 買い物かごの小計から固定金額を引いて、買い物かご全体を割引します。 例：買い物かごの小計から$10 を減算するには、_[!UICONTROL Discount Amount]_に `10` と入力します。 デフォルトでは、割引は買い物かごの小計にのみ適用されます。 小計と個別の出荷に割引を適用するには、_ 出荷金額に適用 _を参照してください。<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**– 無料で数量を受け取るために顧客が購入する必要がある数量を定義します。 （_[!UICONTROL Discount Amount]_ は Y）。 |
 | [!UICONTROL Discount Amount] | （必須）提供される割引の金額。 |
 | [!UICONTROL Maximum Qty Discount is Applied To] | 同じ購入に対して割引を適用できる商品の最大数を設定します。 |
 | [!UICONTROL Discount Qty Step (Buy X)] | `Buy X Get Y Free` しいプロモーションで `X` によって表される製品の数を設定します。 また、は、`Fixed amount discount` ールと `Percent of product price discount` のプロモーションを適用するために、一括で買い物かごに追加する必要がある製品の数を定義します。 |

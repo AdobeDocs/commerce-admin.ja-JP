@@ -3,9 +3,9 @@ title: カタログ価格ルールの作成
 description: 一連の条件が満たされた場合に特定の製品に割引を適用するカタログ価格ルールを作成する方法を説明します。
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 3011d0287c74fd39b44e180733343c39d1cadea7
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## 手順 1：ルールを追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Catalog Price Rule]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Catalog Price Rule]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Rule]**」をクリックします。
 
-   _[!UICONTROL Rule Information]_&#x200B;部は、**[!UICONTROL Conditions]**&#x200B;び&#x200B;**[!UICONTROL Actions]**&#x200B;き出し可能な伸縮部を含む。
+   _[!UICONTROL Rule Information]_部は、**[!UICONTROL Conditions]**び&#x200B;**[!UICONTROL Actions]**き出し可能な伸縮部を含む。
 
    ![ カタログ価格ルール – 情報 ](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -32,41 +32,30 @@ ht-degree: 0%
 
    デフォルトでは、ステータスは `Inactive` です。
 
-   >[!NOTE]
-   >
-   >ルールを作成したら、必要に応じてステータスを `Active` または `Inactive` に変更することで、ルールのステータスを更新できます。
+   ルールを作成したら、必要に応じてステータスを `Active` または `Inactive` に変更することで、ルールのステータスを更新できます。
 
 1. ルールを使用できる **[!UICONTROL Websites]** を選択します。
 
 1. この規則を適用する **[!UICONTROL Customer Groups]** を選択してください。
 
-   複数のグループを選択するには、Ctrl キー（PC）または Command キー（Mac）を押したまま、各オプションをクリックします。
+   - 選択可能なオプションは、_顧客_/_顧客グループ_ で作成および管理する顧客グループによって異なります。
+   - 複数のグループを選択するには、Ctrl キー（PC）または Command キー（Mac）を押したまま、各オプションをクリックします。
 
-   >[!NOTE]
-   >
-   >このリストのオプションは、_顧客_/_顧客グループ_ で作成および管理する顧客グループによって異なります。
-
-1. ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） **[!UICONTROL From]** および **[!UICONTROL To]** の日付を入力して、価格ルールが有効な日付を決定します。
+1. ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） **[!UICONTROL From]** および **[!UICONTROL To]** の日付を入力して、価格ルールが有効になるタイミングを判断します。
 
    日付を入力するか、**[!UICONTROL Calendar]** （カレンダーアイコン ![）を使用して日付を選択 ](../assets/icon-calendar.png) きます。 日付を空白のままにすると、価格ルールが保存されたときにルールが有効になります。
 
 1. このルールの **[!UICONTROL Priority]** を他のルールとの関連で確立する数値を入力します。
 
-   >[!NOTE]
-   >
-   >同じカタログ製品が複数の価格ルールに設定された条件を満たす場合、_[!UICONTROL Priority]_&#x200B;設定は重要です。 優先度の設定が最も高いルール（優先度の高い順に 0、1、2、3...）が商品に対してアクティブになります。
+   **[!UICONTROL Priority]** 設定は、製品が複数の価格ルールの条件を満たす場合に適用されるルールを決定します。 優先度が最も高い（数値が最も低い（0、1、2、3 など）ルールが有効になります。
 
 ## 手順 2：条件の定義
 
 使用できる条件のほとんどは、既存の属性値に基づいています。 すべての製品にルールを適用する場合は、条件を空白のままにします。
 
->[!NOTE]
->
->少なくとも 1 つの条件付き製品属性の値が空の場合、カタログ価格ルールは製品に適用されません。
+- 少なくとも 1 つの条件付き製品属性の値が空の場合、カタログ価格ルールは製品に適用されません。
 
->[!NOTE]
->
->`Category` しい製品属性条件を任意の [ バンドル ](../catalog/product-create-bundle.md) または [ グループ化 ](../catalog/product-create-grouped.md) 製品に適用するには、ルールが正しく適用されるように、すべての子製品が同じカテゴリに割り当てられている必要があります。 そうでない場合は、代わりに [ 買い物かご価格ルール ](price-rules-cart-create.md) プロモーションを使用できます。
+- 製品属性条件 `[!UICONTROL Category]` バンドルまたはグループ化された製品に追加すると、すべての子項目が同じカテゴリを共有する場合にのみ、価格ルールが正しく適用されます。 子項目が同じカテゴリにない場合は、代わりに [ 買い物かご価格ルール ](price-rules-cart-create.md) プロモーションを使用します。
 
 1. 下にスクロールして、「**[!UICONTROL Conditions]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
 
@@ -144,6 +133,10 @@ ht-degree: 0%
 
    >[!NOTE]
    >
+   >（グローバルの基本通貨から変換せずに）異なる通貨の Web サイト間で一貫して固定金額の割引を適用するには、「**[!UICONTROL Catalog Price Scope]**」オプションを「`Website`」に設定して、各サイトの基本通貨を定義します。
+
+   >[!NOTE]
+   >
    >_通常価格_ は、高度な価格（特別/層/グループ）やプロモーションの割引がない基本製品価格を指します。 _最終価格_ は、買い物かごに表示される割引価格を指します。 <br/>**_最終_** 製品価格は、次の式を使用して **_最小_** 関連価格として計算されます。<br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
 
    >[!NOTE]
@@ -154,9 +147,7 @@ ht-degree: 0%
 
 1. このルールが適用された後に他のルールの処理を停止するには、**[!UICONTROL Discard Subsequent Rules]** を `Yes` に設定します。
 
-   >[!NOTE]
-   >
-   >これを `Yes` に設定すると、システムが同じ製品に複数の割引（ルール）を適用するのを防ぐための安全策です。
+   この値を `Yes` に設定することは、システムが同じ製品に複数の割引（ルール）を適用するのを防ぐための安全策です。
 
 ## 手順 4：関連するダイナミック ブロックを追加する
 
@@ -202,7 +193,7 @@ ht-degree: 0%
 
 1. 完了したら、ルールを保存します。
 
-   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） **[!UICONTROL Save and Apply]** をクリックします。
+   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）「**[!UICONTROL Save and Apply]**」をクリックします。
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）「**[!UICONTROL Save]**」をクリックします。
 
@@ -212,9 +203,9 @@ ht-degree: 0%
 
 1. ルールのプロパティを更新します。
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） 「**[!UICONTROL Edit]**」をクリックすると、_[!UICONTROL Rule Information]_&#x200B;ページが表示されます。
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） 「**[!UICONTROL Edit]**」をクリックすると、_[!UICONTROL Rule Information]_ページが表示されます。
 
-   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）リスト内のルールをクリックして、_[!UICONTROL Rule Information]_&#x200B;ページを表示します。
+   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）リスト内のルールをクリックして、_[!UICONTROL Rule Information]_ページを表示します。
 
 1. ルールをテストして、正しく動作することを確認します。
 
@@ -224,7 +215,7 @@ ht-degree: 0%
 
 カタログ価格ルールの作成については、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410850?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## フィールドの説明
 
@@ -237,7 +228,7 @@ ht-degree: 0%
 | [!UICONTROL Websites] | （必須） ルールを使用できる web サイトを識別します。 |
 | [!UICONTROL Customer Groups] | （必須）ルールが適用される顧客グループを識別します。 |
 | [!UICONTROL Priority] | このルールの優先度を他のルールと比較して示す数値。 優先順位は高い順に `0,1,2,3...` まります |
-| [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）ルールがストア内でアクティブかどうかを判断します。 オプション：`Yes` / `No` |
+| [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） ルールがストア内でアクティブかどうかを判断します。 オプション：`Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）価格ルールが有効になる最初の日を指定します。 空白のままにすると、価格ルールは保存時に有効になります。 |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）価格ルールが有効になる最終日を指定します。 空白のままにすると、価格ルールは無期限に継続されます。 |
 
@@ -251,7 +242,7 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 |-----|-----------|
-| [!UICONTROL Apply] | 購入に適用される計算のタイプを決定します。 オプション：<br/>**[!UICONTROL Apply as percentage of original]**– 通常価格のパーセンテージを差し引いて品目を値引きします。<br/>**[!UICONTROL Apply as fixed amount]** – 定価から固定金額を引いて品目を値引きします。 <br/>**[!UICONTROL Adjust final price to this percentage]**– 最終価格を通常価格に対するパーセンテージで調整します。<br/>**[!UICONTROL Adjust final price to discount value]** – 最終価格を固定の割引額に設定します。 <br/><br/>**_注：_**&#x200B;通常価格とは、特別価格（特定/階層/グループ）またはプロモーション割引を含まない基本商品価格を指します。 最終価格とは、買い物かごに表示される割引価格を指します。 <br/>**_最終&#x200B;_**&#x200B;製品価格は、次の式を使用して&#x200B;**_最小&#x200B;_**&#x200B;関連価格として計算されます。<br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | 購入に適用される計算のタイプを決定します。 オプション：<br/>**[!UICONTROL Apply as percentage of original]**– 通常価格のパーセンテージを差し引いて品目を値引きします。<br/>**[!UICONTROL Apply as fixed amount]** – 定価から固定金額を引いて品目を値引きします。 <br/>**[!UICONTROL Adjust final price to this percentage]**– 最終価格を通常価格に対するパーセンテージで調整します。<br/>**[!UICONTROL Adjust final price to discount value]** – 最終価格を固定の割引額に設定します。 <br/><br/>**_注：_**通常価格とは、特別価格（特定/階層/グループ）またはプロモーション割引を含まない基本商品価格を指します。 最終価格とは、買い物かごに表示される割引価格を指します。 <br/>**_最終&#x200B;_**製品価格は、次の式を使用して**_最小&#x200B;_**関連価格として計算されます。<br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | （必須）提供される割引の金額。 |
 | [!UICONTROL Discard Subsequent Rules] | この購入に追加ルールを適用できるかどうかを決定します。 同じ購入に複数の割引が適用されないようにするには、「`Yes`」を選択します。 オプション：`Yes` / `No` |
 
