@@ -21,7 +21,7 @@ ht-degree: 0%
 
 [!DNL Commerce] アカウントのログインは、ストアの管理者ログインとは別のものです。 通常は、それぞれに異なる資格情報を使用し、各システムへのアクセスは個別に管理されます。
 
-ただし、Adobe CommerceおよびAdobe Business 製品へのログインを効率化したい場合は、Adobe IDでストア管理者にログインすることができます。[Adobe IDとのCommerce Admin Integration の設定 ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)
+ただし、Adobe CommerceおよびAdobe Business 製品へのログインを効率化したい場合は、Adobe IDでストア管理者にログインすることができます。[Adobe IDとのCommerce Admin Integration の設定 ](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/admin/ims/adobe-ims-config)
 
 Commerceとストアの管理者ログインは別々であり、異なる資格情報と独立して管理されるアクセス権を持ちます。 ただし、Adobe IDをストア管理者にログインするように設定することで、アクセスを効率化できます。 *Commerce[IMS 統合ガイド ] のCommerce Admin Integration のAdobe IDへの設定* を参照してください。
 
