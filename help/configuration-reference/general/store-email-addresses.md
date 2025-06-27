@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ## [!UICONTROL General]
 
-[!BADGE SaaS のみ ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
 
 ![ メールアドレスを保存/一般連絡先 ](./assets/store-email-addresses-general-general.png)<!-- zoom -->
 
