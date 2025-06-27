@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## 手順 1：ルールを追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Cart Price Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Cart Price Rules]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add New Rule]**」をクリックして、次の操作を実行します。
 
-   - _[!UICONTROL Rule Information]_の下で、**[!UICONTROL Rule Name]**と&#x200B;**[!UICONTROL Description]**を入力します。
+   - _[!UICONTROL Rule Information]_&#x200B;の下で、**[!UICONTROL Rule Name]**&#x200B;と&#x200B;**[!UICONTROL Description]**&#x200B;を入力します。
 
    - ルールをすぐに有効にしない場合は、**[!UICONTROL Active]** を `No` に設定します。
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
 ### 製品属性を買い物かごの価格ルールに追加
 
-1. **[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**に移動し、製品属性を開きます。
+1. **[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**&#x200B;に移動し、製品属性を開きます。
 
 1. 左側のパネルで「**[!UICONTROL Storefront Properties]**」を選択します。
 
@@ -384,7 +384,7 @@ Real-Time CDP[ オーディエンス ](../customers/audience-activation.md) に�
 
 | フィールド | 説明 |
 |--- |--- |
-| [!UICONTROL Apply] | 購入に適用される計算のタイプを決定します。 オプション：<br/>**[!UICONTROL Percent of product price discount]**– 元の価格からパーセンテージを引いて品目を値引きします。 例：元の価格より 10% 少ない更新価格の場合は、_[!UICONTROL Discount Amount]_に `10` を入力します。<br/>**[!UICONTROL Fixed amount discount]**– 買い物かごで適格な各品目の元の価格から固定金額を減算して品目を値引きします。 例：元の価格より 10 ドル安い更新価格の場合は、_[!UICONTROL Discount Amount]_ に `10` を入力します。 <br/>**[!UICONTROL Fixed amount discount for whole cart]**– 買い物かごの小計から固定金額を引いて、買い物かご全体を割引します。 例：買い物かごの小計から$10 を減算するには、_[!UICONTROL Discount Amount]_に `10` と入力します。 デフォルトでは、割引は買い物かごの小計にのみ適用されます。 小計と個別の出荷に割引を適用するには、_ 出荷金額に適用 _を参照してください。<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**– 無料で数量を受け取るために顧客が購入する必要がある数量を定義します。 （_[!UICONTROL Discount Amount]_ は Y）。 |
+| [!UICONTROL Apply] | 購入に適用される計算のタイプを決定します。 オプション：<br/>**[!UICONTROL Percent of product price discount]**– 元の価格からパーセンテージを引いて品目を値引きします。 例：元の価格より 10% 少ない更新価格の場合は、_[!UICONTROL Discount Amount]_&#x200B;に `10` を入力します。<br/>**[!UICONTROL Fixed amount discount]**– 買い物かごで適格な各品目の元の価格から固定金額を減算して品目を値引きします。 例：元の価格より 10 ドル安い更新価格の場合は、_[!UICONTROL Discount Amount]_ に `10` を入力します。 <br/>**[!UICONTROL Fixed amount discount for whole cart]**– 買い物かごの小計から固定金額を引いて、買い物かご全体を割引します。 例：買い物かごの小計から$10 を減算するには、_[!UICONTROL Discount Amount]_&#x200B;に `10` と入力します。 デフォルトでは、割引は買い物かごの小計にのみ適用されます。 小計と個別の出荷に割引を適用するには、_ 出荷金額に適用 _を参照してください。<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**– 無料で数量を受け取るために顧客が購入する必要がある数量を定義します。 （_[!UICONTROL Discount Amount]_ は Y）。 |
 | [!UICONTROL Discount Amount] | （必須）提供される割引の金額。 |
 | [!UICONTROL Maximum Qty Discount is Applied To] | 同じ購入に対して割引を適用できる商品の最大数を設定します。 |
 | [!UICONTROL Discount Qty Step (Buy X)] | `Buy X Get Y Free` しいプロモーションで `X` によって表される製品の数を設定します。 また、は、`Fixed amount discount` ールと `Percent of product price discount` のプロモーションを適用するために、一括で買い物かごに追加する必要がある製品の数を定義します。 |
