@@ -46,7 +46,7 @@ Commerceでのインデックス再作成とキャッシュの目的は異なり
 >
 >[Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) を使用し、Elasticsearchをフルテキスト （`catalogsearch_fulltext`） インデクサーとして設定しているストアの場合：一括権限の変更後、または「権限」インデクサーが「スケジュール済み」モードの場合は、フルテキスト インデックスを再実行する必要があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Index Management]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Index Management]**&#x200B;に移動します。
 
 1. 変更する各インデクサーのチェックボックスを選択します。
 
