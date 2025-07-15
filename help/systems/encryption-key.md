@@ -76,7 +76,7 @@ Adobe CommerceとMagento Open Sourceでは、パスワードやその他の機�
    bin/magento encryption:key:change
    ```
 
-+++
+   +++
 
    +++管理設定
 
@@ -84,7 +84,7 @@ Adobe CommerceとMagento Open Sourceでは、パスワードやその他の機�
    >
    >この機能は廃止され、2.4.8 で削除されました。Adobeでは、CLI を使用して暗号化キーを変更することをお勧めします。
 
-   1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Manage Encryption Key]**に移動します。
+   1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Manage Encryption Key]**&#x200B;に移動します。
 
       ![ システム暗号化キー ](./assets/encryption-key.png){width="700" zoomable="yes"}
 
@@ -99,7 +99,7 @@ Adobe CommerceとMagento Open Sourceでは、パスワードやその他の機�
       >
       >新しいキーを安全な場所に記録します。 ファイルに問題が発生した場合は、データを復号化する必要があります。
 
-+++
+   +++
 
 1. キャッシュをフラッシュします。
 
