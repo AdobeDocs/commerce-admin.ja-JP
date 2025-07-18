@@ -3,26 +3,28 @@ title: Adobe Commerceに対する HIPAA 対応
 description: Adobe Commerce HIPAA 対応拡張機能を追加し、HIPAA 義務を準拠できる追加機能を取得する方法について説明します。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: ee2635e45c56be82b0abb7369fd6d74a3b00ce93
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2390'
 ht-degree: 1%
 
 ---
 
 # Adobe Commerceに対する HIPAA 対応
 
+{{ee-feature}}
+
 >[!IMPORTANT]
 >
 >**免責事項**<br/>
->この情報は、Adobeのお客様がAdobeの HIPAA 対応サービスに関する質問に答えるのを支援することを目的としています。 それは法的な助言にはならない。 マーチャントは、HIPAA の下での義務やAdobe製品の適切な使用と設定について理解するために、自社の法務担当者に相談する必要があります。
+>>この情報は、Adobeのお客様がAdobeの HIPAA 対応サービスに関する質問に答えるのを支援することを目的としています。 それは法的な助言にはならない。 マーチャントは、HIPAA の下での義務やAdobe製品の適切な使用と設定について理解するために、自社の法務担当者に相談する必要があります。
 
 >[!BEGINSHADEBOX]
 
 **HIPAA （Health Insurance Portability and Accountability Act：医療保険の相互運用性と説明責任に関する法律）**
 
-HIPAA （Health Insurance Portability and Accountability Act：医療保険の携行性と責任に関する法律）は、米国では主要な連邦医療プライバシー法であり、米国保健福祉省（Department of Health and Human Services:HHS）によって施行されています。 HIPAA は、_対象事業者_ （医療機関、保険会社、クリアリングハウスなど）および _ビジネスアソシエイト_ （対象事業者にサービスを提供する事業者など）に適用されます。 HIPAA の要件は、「Privacy Rule」、「Security Rule」、「Breach Notification Rule」の 3 つの異なるルールで設定されます。 Adobeは、特定の製品のビジネスアソシエイトとして機能します。Adobeはこれを HIPAA 対応サービスに分類しています。 HIPAA で規制されるデータは、_保護された医療情報_ PHI と呼ばれます。 PHI とは、（1）医療提供者、健康計画若しくは医療情報交換所が作成または受領した健康情報、（2）個人の過去、現在または将来の心身の健康若しくは状態、個人への医療提供または個人への医療提供の過去、現在または将来の支払いに関する情報、（3）個人または個人を識別するために利用できると信ずるに足る合理的な根拠を特定する情報です。 HIPAA のプライバシーおよびセキュリティに関するルールでは、対象となるエンティティは、ビジネス・アソシエイトからビジネス・アソシエイト契約（BAA）の形式で書面による保証を取得し、ビジネス・アソシエイトが対象となるエンティティの PHI のプライバシーおよびセキュリティを保護するʼとを求めています。 詳しくは、Adobeのセキュリティセンターにある [HIPAA およびAdobe製品およびサービス ](https://www.adobe.com/trust/compliance/hipaa-ready.html) を参照してください。
+HIPAA （Health Insurance Portability and Accountability Act：医療保険の携行性と責任に関する法律）は、米国では主要な連邦医療プライバシー法であり、米国保健福祉省（Department of Health and Human Services:HHS）によって施行されています。 HIPAA は、_対象事業者_ （医療機関、保険会社、クリアリングハウスなど）および _ビジネスアソシエイト_ （対象事業者にサービスを提供する事業者など）に適用されます。 HIPAA の要件は、「Privacy Rule」、「Security Rule」、「Breach Notification Rule」の 3 つの異なるルールで設定されます。 Adobeは、特定の製品のビジネスアソシエイトとして機能します。Adobeはこれを HIPAA 対応サービスに分類しています。 HIPAA で規制されるデータは、_保護された医療情報_ PHI と呼ばれます。 PHI とは、（1）医療提供者、健康計画若しくは医療情報交換所が作成または受領した健康情報、（2）個人の過去、現在または将来の心身の健康若しくは状態、個人への医療提供または個人への医療提供の過去、現在または将来の支払いに関する情報、（3）個人または個人を識別するために利用できると信ずるに足る合理的な根拠を特定する情報です。 HIPAA のプライバシーおよびセキュリティに関するルールでは、対象となるエンティティは、ビジネス・アソシエイトからビジネス・アソシエイト契約（BAA）の形式で書面による保証を取得し、ビジネス・アソシエイトが対象となるエンティティの PHI のプライバシーおよびセキュリティを保護するʼとを求めています。 詳しくは、Adobeのセキュリティセンターにある [HIPAA およびAdobe製品およびサービス ](https://www.adobe.com/trust/compliance/hipaa-hds/hipaa-ready.html) を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +46,7 @@ Adobe Commerce HIPAA 対応の拡張機能は、クラウドインフラスト�
 
 | Adobe Commerce | サポート | 備考 |
 |----------------|-----------|-------|
-| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | 2.4.7-p4 のサポートには、[ ホットフィックス ](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) が必要です |
+| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | 2.4.7-p4 のサポートには、[ ホットフィックス ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27147) が必要です |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
 | 2.4.6-p8 | 1.1.0 | [ データサービス ](#adobe-commerce-services) のサポートは、1.1.0 で導入されました |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
@@ -63,7 +65,7 @@ Adobe Commerce HIPAA 対応の拡張機能は、クラウドインフラスト�
 >[!BEGINSHADEBOX]
 
 - Adobeによって、HIPAA 対応拡張機能にアクセスするためのAdobe Commerce アカウントがプロビジョニングされました。
-- [repo.magento.com](https://repo.magento.com) にアクセスして拡張機能をインストールします。 キーの生成と必要な権限の取得については、[ 認証キーの取得 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=ja) を参照してください。
+- [repo.magento.com](https://repo.magento.com) にアクセスして拡張機能をインストールします。 キーの生成と必要な権限の取得については、[ 認証キーの取得 ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -71,13 +73,13 @@ Adobe バージョン 2.4.7-p5 または 2.4.6-p3 から 2.4.6-p8 を実行し�
 
 >[!NOTE]
 >
->Experience Platformに送信されるバックオフィスイベントデータが HIPAA に対応していることを確認するには、[Data Connection Extension ガイド ](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension) を参照してください。
+>Experience Platformに送信されるバックオフィスイベントデータが HIPAA に対応していることを確認するには、[Data Connection Extension ガイド ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension) を参照してください。
 
 1. ローカルワークステーションで、Adobe Commerce on cloud infrastructure プロジェクトのプロジェクトディレクトリに移動します。
 
    >[!NOTE]
    >
-   >Commerce Adobe Commerce プロジェクト環境のローカル管理について詳しくは、_クラウドインフラストラクチャユーザーガイドの [CLI を使用したブランチの管理 ](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/develop/cli-branches) を参照してください_。
+   >Commerce Adobe Commerce プロジェクト環境のローカル管理について詳しくは、[ クラウドインフラストラクチャユーザーガイドの ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches)CLI を使用したブランチの管理 _を参照してください_。
 
 1. Adobe Commerce Cloud CLI を使用して、更新する環境ブランチをチェックアウトします。
 
@@ -105,7 +107,7 @@ Adobe バージョン 2.4.7-p5 または 2.4.6-p3 から 2.4.6-p8 を実行し�
    git push origin <branch-name>
    ```
 
-   更新をプッシュすると、[Commerce クラウドデプロイメントプロセス ](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/develop/deploy/process) が開始され、変更が適用されます。 [ デプロイメントログ ](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log) からデプロイメントステータスを確認します。
+   更新をプッシュすると、[Commerce クラウドデプロイメントプロセス ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process) が開始され、変更が適用されます。 [ デプロイメントログ ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations) からデプロイメントステータスを確認します。
 
 ### インストールの確認
 
@@ -160,7 +162,7 @@ _アクションログ_ レポートグリッド（**[!UICONTROL System]**/ア�
 
 1. 次の 2 つの列を追加しました。
    - ***Source***：アクションが実行された場所を表示します。
-値：`Admin UI`/`Customer UI`/`REST API`/`SOAP API`/`GraphQL API`
+値：`Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
    - ***クライアントの種類***: クライアントの種類を表示します。
 値：Customer |管理者 |統合
 
@@ -191,7 +193,7 @@ Adobe Commerceの HIPAA 顧客検索結果制限機能は、保護された医�
 - **検索制限**：必要な役割を持たないユーザーは、顧客レコードを検索または表示できません。
 - **アクセスの必須検索**:Adobe Commerceのデフォルトの動作とは異なり、検索を行わない限り顧客情報を表示することはできません。 これにより、ユーザーは自分の情報を見つけるために、顧客に関する特定の詳細を知る必要があります。
 - **検索結果の制限**：条件に一致する検索結果は 10 件のレコードに制限され、一度に管理できる数のレコードのみが表示されます。
-- **フィルターの最小数**：ユーザーは、検索を実行するために、少なくとも 3 つのフィルター（メール、姓、状態など）を適用し、検索が具体的でターゲット設定されていることを確認する必要があります。
+- **フィルターの最小数**：ユーザーは、検索を実行するために、少なくとも 3 つのフィルター（メール、姓、状態など）を適用し、検索が具体的でターゲット設定されるようにする必要があります。
 - **フィルター通知**：検索制限が有効になると、検索結果を絞り込むためのフィルターを適用するようユーザーに通知されます。
 
 #### 設定
@@ -203,7 +205,7 @@ Adobe Commerceの HIPAA 顧客検索結果制限機能は、保護された医�
 
 #### 影響を受けた機能領域
 
-管理者による注文の作成ページ（**[!UICONTROL Sales]**/**[!UICONTROL Orders]**/**[!UICONTROL Create New Order]**）および顧客ページ（**[!UICONTROL Customers]**/**[!UICONTROL All Customers]**）の顧客グリッドは、検索結果制限機能の影響を受けます。
+検索結果の制限機能は、管理者による注文の作成ページ（**[!UICONTROL Sales]**/**[!UICONTROL Orders]**/**[!UICONTROL Create New Order]**）と顧客ページ（**[!UICONTROL Customers]**/**[!UICONTROL All Customers]**）の顧客グリッドに適用されます。
 
 - フィルターは、デフォルトで開きます。
 - 検索を実行するには、少なくとも 3 つのフィルターを適用する必要があります。
@@ -215,7 +217,7 @@ Adobe Commerceの HIPAA 顧客検索結果制限機能は、保護された医�
 検索結果の制限機能は、顧客検索の REST API （`/V1/customers/search`）にも適用されます。
 
 - フィルターが適用されていない場合、またはフィルターが不十分な場合、API は検索の実行に必要なフィルター数を示すエラーメッセージを返します。
-- 許可されたユーザーが十分なフィルターを適用すると、API は指定された制限内に結果を返します。
+- 十分なフィルターを適用する承認済みユーザーは、指定された制限内に API 結果を受け取ります。
 - 結果に制限がある場合、検出されたレコードの合計数と適用された現在の制限を示すメッセージが応答に追加されます。
 
 ### 機能の読み込みと書き出し
@@ -228,7 +230,7 @@ Adobe Commerceの HIPAA 顧客検索結果制限機能は、保護された医�
 
 #### 管理アクションログ
 
-読み込みおよび書き出し機能における主な改善点の 1 つは、管理アクションのログの機能強化です。 この機能強化により、データのインポートとエクスポートに関連するアクティビティをより深く掘り下げる機能が導入され、トラッキングと監査性の向上に貢献します。 以下のアクションがログに記録され、**[!UICONTROL System]/ _[!UICONTROL Action Logs]_/[!UICONTROL Report]**&#x200B;グリッドに反映されるようになりました。
+読み込みおよび書き出し機能における主な改善点の 1 つは、管理アクションのログの機能強化です。 この機能強化により、データのインポートとエクスポートに関連するアクティビティをより深く掘り下げる機能が導入され、トラッキングと監査性の向上に貢献します。 以下のアクションがログに記録され、**[!UICONTROL System]/ _[!UICONTROL Action Logs]_/[!UICONTROL Report]**グリッドに反映されるようになりました。
 
 | タイプ | アクション |
 | ---- | ------- |
@@ -277,15 +279,15 @@ Adobe Commerceの HIPAA 顧客検索結果制限機能は、保護された医�
 
 | サービス | 実稼動以外 | 実稼動 |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
-| [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | はい | はい |
+| [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | はい | はい |
 | [Adobe Developer App Builderの API メッシュ ](https://developer.adobe.com/graphql-mesh-gateway/) | はい | はい |
-| [SaaS データのエクスポート ](https://experienceleague.adobe.com/ja/docs/commerce/saas-data-export/overview) | はい | はい |
-| [Live Search](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview) | 不可 | 不可 |
-| [ 製品の推奨事項 ](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/overview) | 不可 | 不可 |
-| [ 資金決済 ](https://experienceleague.adobe.com/ja/docs/commerce/payment-services/guide-overview) | 不可 | 不可 |
-| [ データ接続バックオフィスイベント ](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events-backoffice) | はい | はい |
-| [ データ接続ストアフロントイベント ](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events#storefront-events) | 不可 | 不可 |
-| [Audience Activation](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/audience-activation) | 不可 | 不可 |
+| [SaaS データのエクスポート ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | はい | はい |
+| [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | 不可 | 不可 |
+| [ 製品の推奨事項 ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | 不可 | 不可 |
+| [ 資金決済 ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | 不可 | 不可 |
+| [ データ接続バックオフィスイベント ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | はい | はい |
+| [ データ接続ストアフロントイベント ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | 不可 | 不可 |
+| [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | 不可 | 不可 |
 
 ### ツール
 
@@ -297,7 +299,7 @@ Adobe Commerceの [ セキュリティスキャンツール ](../../systems/secu
 - インストールされているすべての拡張機能が、定義済みの許可リストに一致します。
 - サポートされていないAdobe サービスはインストールされていません
 
-[ ツールを設定 ](../../systems/security-scan.md#run-a-security-scan) して、スケジュールされたスキャンの詳細を含むメール通知を送信したり、[ レポートを手動で表示 ](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report) したりできます。
+[ ツールを設定 ](../../systems/security-scan.md#run-a-security-scan) して、スケジュールされたスキャンの詳細を含むメール通知を送信したり、[ レポートを手動で表示 ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview) したりできます。
 
 ## 無効にされた機能
 
@@ -305,7 +307,7 @@ HIPAA の要件に準拠するために、Adobe Commerceでサポートされて
 
 次の機能は、HIPAA 対応モジュールでデフォルトで無効になっています。 マーチャントは、独自の責任でこれらの機能のいずれかを有効にすることができます。
 
-- **[トランザクションメール ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html?lang=ja)** - サービスが HIPAA に対応していないので、SendGrid はデフォルトで無効になっています。 Adobe Commerceには、独自の [AWS Simple Email Service](https://docs.aws.amazon.com/ses/) アカウントで使用できる統合オプションが用意されています。 設定について詳しくは、カスタマーテクニカルアカウントマネージャーまたはAdobe Commerce サポートにお問い合わせください。
+- **[トランザクションメール ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/sendgrid)** - サービスが HIPAA に対応していないので、SendGrid はデフォルトで無効になっています。 Adobe Commerceには、独自の [AWS Simple Email Service](https://docs.aws.amazon.com/ses/) アカウントで使用できる統合オプションが用意されています。 設定について詳しくは、カスタマーテクニカルアカウントマネージャーまたはAdobe Commerce サポートにお問い合わせください。
 
 - **[ゲストのチェックアウト](../../stores-purchase/checkout-guest.md)** – この機能は、ログ、アクセス制御、PHI 衛生と系統など、HIPAA の様々な側面で発生する可能性のあるリスクであり、さらに多くの可能性があります。
 
