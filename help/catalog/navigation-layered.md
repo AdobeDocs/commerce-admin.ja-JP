@@ -42,7 +42,7 @@ _例：結果を持たないフィルタリング可能なスウォッチ値_
 
 ## 手順 1：属性プロパティの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. 参照するか、フィルター適用済み検索を使用してリスト内の属性を検索し、編集モードで開きます。
 
@@ -62,7 +62,7 @@ _例：結果を持たないフィルタリング可能なスウォッチ値_
 
 >[!NOTE]
 >
->- _[!UICONTROL Use in Search]_設定が `No` に設定されている場合、_[!UICONTROL Use in Search Results Layered Navigation]_ 設定は表示されません。この場合、[!UICONTROL Use in Layered Navigation] 設定にかかわらず、製品属性は検索で使用されません。
+>- _[!UICONTROL Use in Search]_&#x200B;設定が `No` に設定されている場合、_[!UICONTROL Use in Search Results Layered Navigation]_ 設定は表示されません。この場合、[!UICONTROL Use in Layered Navigation] 設定にかかわらず、製品属性は検索で使用されません。
 >
 >- デフォルトでは、[!UICONTROL Position] フィールドはグレー表示になっています。 この設定を変更するには、属性を保存する必要があります。
 
@@ -94,7 +94,7 @@ _例：結果を持たないフィルタリング可能なスウォッチ値_
 
 次の手順を使用して、レイヤー化されたナビゲーションから「製品」が 0 のフィルタリング可能な属性値を削除できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. 参照するか、フィルター適用済み検索を使用してリスト内の属性を検索し、編集モードで開きます。
 
@@ -149,9 +149,9 @@ _例：結果を持たないフィルタリング可能なスウォッチ値_
 
 >[!IMPORTANT]
 >
->製品とその価格を、階層化されたナビゲーションで _価格フィルター_ に従って正しく表示するには、[ 消費税の構成 ](../configuration-reference/sales/tax.md) に表示される価格の設定が、同じ値（`Excluding Tax` **または** `Including Tax`）であることを確認します。 _[!UICONTROL Calculation Settings]_の場合は、**[!UICONTROL Catalog Prices]**の値を確認します。 また、_[!UICONTROL Price Display Settings]_ の場合は、**[!UICONTROL Display Product Prices in Catalog]** の値を確認します。 これらの値が異なる場合、レイヤーナビゲーションの価格フィルターでは、製品を価格別に適切にフィルタリングして並べ替えることができない場合があります。
+>製品とその価格を、階層化されたナビゲーションで _価格フィルター_ に従って正しく表示するには、[ 消費税の構成 ](../configuration-reference/sales/tax.md) に表示される価格の設定が、同じ値（`Excluding Tax` **または** `Including Tax`）であることを確認します。 _[!UICONTROL Calculation Settings]_&#x200B;の場合は、**[!UICONTROL Catalog Prices]**&#x200B;の値を確認します。 また、_[!UICONTROL Price Display Settings]_ の場合は、**[!UICONTROL Display Product Prices in Catalog]** の値を確認します。 これらの値が異なる場合、レイヤーナビゲーションの価格フィルターでは、製品を価格別に適切にフィルタリングして並べ替えることができない場合があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
@@ -209,9 +209,9 @@ _例：結果を持たないフィルタリング可能なスウォッチ値_
 
 階層型ナビゲーション構成は、各属性の後の括弧内に製品数が表示されるかどうかを決定し、価格ナビゲーションで使用されるステップ計算のサイズを決定する。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. 左側のパネルで「_[!UICONTROL Catalog]_」セクションを展開し、その下&#x200B;**[!UICONTROL Catalog]**選択します。
+1. 左側のパネルで「_[!UICONTROL Catalog]_」セクションを展開し、その下&#x200B;**[!UICONTROL Catalog]**&#x200B;選択します。
 
 1. 「_[!UICONTROL Layered Navigation]_」セクションを展開します。
 
