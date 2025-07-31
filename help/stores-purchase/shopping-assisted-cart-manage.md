@@ -3,9 +3,9 @@ title: 買い物かごの管理
 description: 管理者から直接顧客の買い物かごを支援する方法について説明します。
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
+source-git-commit: 69cd571b66a81159c2c99e6652907f22142568cb
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 | ボタン | 説明 |
 |--- |--- |
-| [!UICONTROL Clear my shopping cart] | 現在の買い物かごをすべての商品からクリアします。 |
+| [!UICONTROL Clear my shopping cart] | 買い物かごからすべてのアイテムを削除します。 |
 | [!UICONTROL Update Items and Quantities|] 「**[!UICONTROL Qty]**」フィールドに必要数量を入力し、カート内の品目数を更新します。 |
 | [!UICONTROL Add selections to my cart] | すべてのセクションから買い物かごに商品を追加します。 |
 
@@ -55,7 +55,7 @@ ht-degree: 0%
    >
    >顧客レコードを急いで見つけるには、[ フィルター ](../getting-started/admin-grid-controls.md) コントロールを使用します。
 
-   _[!UICONTROL Personal Information]_&#x200B;の顧客プロファイルでは、_[!UICONTROL Last Logged In]_ の日時は顧客がオンラインであることを示します。
+   _[!UICONTROL Personal Information]_の顧客プロファイルでは、_[!UICONTROL Last Logged In]_ の日時は顧客がオンラインであることを示します。
 
    ![ オンライン顧客の顧客プロファイル ](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -175,10 +175,26 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Create Order]**」をクリックします。
 
-   _[!UICONTROL Create New Order]_&#x200B;のページには、カート内の商品が表示され、その後に発送情報と支払い情報が表示されます。
+   _[!UICONTROL Create New Order]_のページには、カート内の商品が表示され、その後に発送情報と支払い情報が表示されます。
 
 1. 配送および支払い情報を入力します。
 
 1. 「**[!UICONTROL Submit Order]**」をクリックします。
 
 詳しくは、[ 注文の作成 ](customer-account-create-order.md) を参照してください。
+
+## 買い物かごからすべてのアイテムを削除
+
+買い物アシストモードでの顧客の買い物かごからのすべての項目の削除は、顧客がやり直したい場合、間違った項目を追加した場合、または新しい注文を行う前に買い物かごをクリアする必要がある場合に役立ちます。 これにより、顧客が実際に購入したい製品のみが買い物かごに含まれるようになります。
+
+1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL All Customers]** に移動します。
+
+1. リストで、顧客レコードを編集モードで開きます。
+
+1. 上部のボタンバーの「**[!UICONTROL Manage Shopping Cart]**」をクリックします。
+
+1. 「**[!UICONTROL Clear my shopping cart]**」をクリックします。
+
+   ![ 買い物かごをクリアする ](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
+
+1. アクションを確認するプロンプトが表示されたら、「**[!UICONTROL OK]**」をクリックします。
