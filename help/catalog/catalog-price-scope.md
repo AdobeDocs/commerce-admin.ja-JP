@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 価格範囲の設定
 
-1. _管理者_ メニューで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ メニューで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 Commerceでは、各店舗の商品価格を設定することはできません。 ただし、web サイトごとに価格を変更できます。
 
-1. _管理者_ メニューで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ メニューで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
