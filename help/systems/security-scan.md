@@ -22,7 +22,7 @@ Adobe Commerce サイトとMagento Open Source サイトでセキュリティの
 - サイトの進行状況を追跡および監視する履歴セキュリティレポートにアクセスします。
 - 成功したチェックと失敗したチェックを表示するスキャン レポートにアクセスします。推奨されるアクションも表示されます。
 
-セキュリティスキャンツールは、[Commerce/Magento アカウント ](../getting-started/commerce-account-create.md) のダッシュボードから無料で利用できます。 Commerce技術情報については、[2&rbrace;Cloud Infrastructure ガイドのセキュリティスキャンツールの設定 ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) を参照してください __
+セキュリティスキャンツールは、[Commerce/Magento アカウント ](../getting-started/commerce-account-create.md) のダッシュボードから無料で利用できます。 Commerce技術情報については、[2&rbrace;Cloud Infrastructure ガイドのセキュリティスキャンツールの設定 ](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) を参照してください __
 
 ![ セキュリティスキャンツール ](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
