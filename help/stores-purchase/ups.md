@@ -3,7 +3,7 @@ title: UPS （統一宅配便）
 description: ストアの配送業者として UPS を設定する方法を説明します。
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
+source-git-commit: a925827f2d939eeb9e6b3e57c023792ae358cbfc
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 手順 3：ストアの UPS を有効にする
 
-1. _管理者サイドバー_ で、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者サイドバー_ で、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルの **[!UICONTROL Sales]** の下で、「**[!UICONTROL Delivery Methods]**」を選択します。
 
@@ -46,9 +46,9 @@ ht-degree: 0%
 
    - 安全な接続を介して UPS 出荷システムにデータを送信するには、**[!UICONTROL Mode]** を `Live` に設定します。 （開発モードでは、安全な接続を介してデータが送信されません）。
 
-   - リクエストの送信に必要な **[!UICONTROL Gateway URL]** を確認します。 テストモードにはサンドボックス URL （`https://wwwcie.ups.com/`）を使用し、ライブリクエスト（`https://onlinetools.ups.com`）には実稼動 URL を使用します。 指定したホストでの各リクエストに対して、それぞれのエンドポイントを使用するようにしてください。
+   - リクエストの送信に必要な **[!UICONTROL Gateway URL]** を確認します。 テストモードにはサンドボックス URL （`https://wwwcie.ups.com/api/rating/`）を使用し、ライブリクエスト（`https://onlinetools.ups.com/api/rating/`）には実稼動 URL を使用します。 指定したホストでの各リクエストに対して、それぞれのエンドポイントを使用するようにしてください。
 
-   - トラッキング情報の取得に必要な **[!UICONTROL Tracking URL]** を確認します。 テストモードにはサンドボックス URL （`https://wwwcie.ups.com/`）を使用し、ライブリクエスト（`https://onlinetools.ups.com`）には実稼動 URL を使用します。 指定したホストでの各リクエストに対して、それぞれのエンドポイントを使用するようにしてください。
+   - トラッキング情報の取得に必要な **[!UICONTROL Tracking URL]** を確認します。 テストモードにはサンドボックス URL （`https://wwwcie.ups.com/api/track/`）を使用し、ライブリクエスト（`https://onlinetools.ups.com/api/track/`）には実稼動 URL を使用します。 指定したホストでの各リクエストに対して、それぞれのエンドポイントを使用するようにしてください。
 
    - 出荷元の地域に **[!UICONTROL Origin of the Shipment]** を設定します。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >標準の United Parcel Service タイプは廃止される予定です。 新しい設定の場合は、デフォルトの `United Parcel Service REST` タイプを使用します。 REST タイプは、[ 配送ラベル ](shipping-labels.md).<br/> を生成する際にも必要です。
-   >2.4.7 リリースでは、`UPS` および `UPS XML` タイプが廃止予定で、デフォルトは `UPS REST` であるため、**[!UICONTROL UPS Type]** は削除されます。 ネイティブのAdobe Commerce統合で使用される United Parcel Service （UPS） API は、現在 OAuth 2.0 セキュリティモデルをサポートしていないので、一時的に廃止されます。
+   >2.4.7 リリースでは、**[!UICONTROL UPS Type]** および `UPS` タイプが廃止予定で、デフォルトは `UPS XML` であるため、`UPS REST` は削除されます。 ネイティブのAdobe Commerce統合で使用される United Parcel Service （UPS） API は、現在 OAuth 2.0 セキュリティモデルをサポートしていないので、一時的に廃止されます。
 
    >[!IMPORTANT]
    >
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 1. [ ストア情報 ](../getting-started/store-details.md#store-information) が完成していることを確認します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Shipping Settings]**」を選択します。
 
