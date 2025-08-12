@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 手順 3：ストアの UPS を有効にする
 
-1. _管理者サイドバー_ で、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者サイドバー_ で、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルの **[!UICONTROL Sales]** の下で、「**[!UICONTROL Delivery Methods]**」を選択します。
 
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 1. [ ストア情報 ](../getting-started/store-details.md#store-information) が完成していることを確認します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Shipping Settings]**」を選択します。
 
