@@ -2,9 +2,9 @@
 title: Commerce マーチャンダイジングとプロモーションの概要
 description: カスタマーエンゲージメントを目的としたプロモーションやオポチュニティを作成するための Commerce ツールについて説明します。
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 7774aa82149faff55591303c7ff2fe2c84797a4a
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1092'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 _マーチャンダイジング_ は、フロアプラン開発の技術や科学、商品のプレゼンテーションなどを表す小売りの用語です。 [ カテゴリベースのナビゲーション ](../catalog/navigation-top.md) は店舗のフロアプラン、製品の動的な表示は店舗の商品一覧に適用できる条件と考えることができます。 また、製品の売上を増やすプログラムを実装することもできます。
 
-- [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}[ ビジュアルマーチャンダイザー ](visual-merchandiser.md) – 製品の配置や、カテゴリリストに表示する製品を決定する条件の適用を行える一連の高度なツール。
+- [!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}[ ビジュアルマーチャンダイザー ](visual-merchandiser.md) – 製品の配置や、カテゴリリストに表示する製品を決定する条件の適用を行える一連の高度なツール。
 
 - [ ギフトレジストリ ](gift-registries.md) – 特別な機会のためのギフトレジストリを作成し、友人や家族がギフトレジストリからギフトを購入するように招待する機能を顧客に提供します。
 
@@ -27,7 +27,7 @@ _マーチャンダイジング_ は、フロアプラン開発の技術や科�
 
 >[!TIP]
 >
->Product Recommendations と、お客様に最適なエクスペリエンスを提供するために必要なinsightと制御を提供する方法について詳しくは、[Product Recommendations ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=ja) を参照してください。
+>Product Recommendations と、お客様に最適なエクスペリエンスを提供するために必要なinsightと制御を提供する方法について詳しくは、[Product Recommendations ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html) を参照してください。
 
 ## プロモーション
 
@@ -45,7 +45,7 @@ Adobe Commerceでは、プロモーション機能を使用して商品の関係
 
 >[!NOTE]
 >
->特定の製品属性に基づいて条件を定義する場合は、[ ストアフロントのプロパティ ](../catalog/attribute-product-create.md) の属性に対して、**[!UICONTROL Use for Promo Rule Conditions]** を `Yes` に設定する必要があります。
+>特定の製品属性に基づいて条件を定義する場合は、**[!UICONTROL Use for Promo Rule Conditions]** ストアフロントのプロパティ `Yes` の属性に対して、[ を ](../catalog/attribute-product-create.md) に設定する必要があります。
 
 
 ### 価格ルール
@@ -67,8 +67,8 @@ Adobe Commerceでは、プロモーション機能を使用して商品の関係
 >[!NOTE]
 >
 >Adobe CommerceおよびMagento Open Source リリース 2.4.0 から 2.4.3 には、dotdigital Engagement Cloud との統合に使用される、dotdigital ベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、この拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 また、Marketplace では、拡張機能開発者が提供する最新のドキュメントにもアクセスできます。
-><br><br>
->バンドルされた拡張機能を有効にして設定してある場合は、2.4.4 のアップグレードプロセスの一環として composer.json ファイルを更新し、今後、拡張機能の更新を管理する必要があります。 詳しくは、『 [ アップグレードガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ja) の _アップグレードモジュール_ を参照してください。
+>><br><br>
+>>バンドルされた拡張機能を有効にして設定してある場合は、2.4.4 のアップグレードプロセスの一環として composer.json ファイルを更新し、今後、拡張機能の更新を管理する必要があります。 詳しくは、『 [ アップグレードガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) の _アップグレードモジュール_ を参照してください。
 
 - [ ニュースレター ](newsletters.md) - ニュースレターの作成、購読者のリストの管理、コンテンツの開発、ストアへのトラフィックの促進などを行います。
 
@@ -85,8 +85,6 @@ Adobe Commerceでは、プロモーション機能を使用して商品の関係
 >2.4.5 リリース以降、Google サービスの統合が更新されて、GTag API の使用がサポートされるようになりました。 GTag は、Web ページのGoogle機能と統合するための統合メカニズムであり、Google サービスを通じてコンテンツをトラッキングおよび管理するための最新の機能と機会をサポートしています。 詳しくは、[Google Analytics開発者向けドキュメント ](https://developers.google.com/analytics/devguides/collection/gtagjs) を参照してください。
 
 - [Google Analytics](google-analytics.md) - Google Universal Analytics を使用すると、トラッキング用にさらにカスタムのディメンションと指標を定義でき、オフラインおよびモバイルアプリのインタラクションに対応し、継続的な更新にアクセスできます。
-
-- [Google コンテンツ実験 ](google-content-experiments.md) - Google Analytics コンテンツを使用して、製品、カテゴリまたはコンテンツページの A/B テストを設定します
 
 - [Google タグマネージャー ](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） Google タグマネージャーを使用して、マーケティングキャンペーンイベントに関連する多くのタグを管理します。
 

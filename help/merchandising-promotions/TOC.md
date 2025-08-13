@@ -4,9 +4,9 @@ user-guide-description: Adobe CommerceとMagento Open Sourceには、売り上�
 breadcrumb-title: マーチャンダイジングとプロモーション
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 1%
       - [お客様の製品レビュー](product-reviews.md)
       - [レビューをモデレート](product-reviews-moderate.md)
 - プロモーション {#promotions}
-   - 民間販売・イベント {#events}
+   - 個人の販売とイベント {#events}
       - [イベントの概要](events-private-sales.md)
       - [イベントの設定](event-configure.md)
       - [イベントの作成](event-create.md)
@@ -67,14 +67,14 @@ ht-degree: 1%
       - [ニュースレターの送信](newsletter-queue.md)
       - [購読者の管理](newsletter-subscribers.md)
    - [ソーシャルメディアと RSS フィード](social-rss.md)
-   - Email reminders {#email-reminders}
+   - メールのリマインダー {#email-reminders}
       - [メールのリマインダーを有効にする](email-reminder-rules.md)
       - [メールのリマインダーの作成](email-reminder-rules-create.md)
-- 検索エンジン最適化 {#seo}
+- 検索エンジンの最適化 {#seo}
    - [SEO の概要とベストプラクティス](seo-overview.md)
    - [メタデータ](meta-data.md)
    - [サイトマップ](sitemap-xml.md)
-   - URL rewrites {#url-rewrites}
+   - URL の書き換え {#url-rewrites}
       - [概要と設定](url-rewrite.md)
       - [カテゴリの書き換え](url-rewrite-category.md)
       - [製品の書き換え](url-rewrite-product.md)
@@ -86,6 +86,5 @@ ht-degree: 1%
    - [Google Analytics](google-analytics.md)
    - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
-   - [Google コンテンツ実験](google-content-experiments.md)
-- [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
+- [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

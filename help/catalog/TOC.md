@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce、Magento Open Sourceの管理者およ�
 breadcrumb-title: カタログ管理
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 5703ca88d085d39c36ab1edca70e4e802b625e7a
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 + [カタログ管理ガイド](guide-overview.md)
 + [カタログ管理の概要](introduction.md)
 + [カタログメニュー](catalog-menu.md)
-+ Catalog basics {#catalog}
++ カタログの基本 {#catalog}
    + [カタログおよび製品 URL](catalog-urls.md)
    + [フラット カタログ](catalog-flat.md)
    + カタログナビゲーション {#navigation}
@@ -31,18 +31,18 @@ ht-degree: 1%
       + [カタログ検索の設定](search-configuration.md)
       + [検索結果](search-results.md)
       + [検索語句の管理](search-terms.md)
-+ Categories {#categories}
++ カテゴリ {#categories}
    + [カテゴリの概要](categories.md)
    + [ルートのカテゴリと階層](category-root.md)
    + [非表示のカテゴリ](category-hidden.md)
-   + のカテゴリの作成 更新 {#create}
+   + カテゴリの作成と更新 {#create}
       + [カテゴリの作成](category-create.md)
       + [コンテンツ設定](categories-content-settings.md)
       + [ディスプレイ設定](categories-display-settings.md)
       + [検索エンジン最適化設定](categories-search-engine-optimization.md)
       + [デザイン設定](categories-custom-design.md)
       + [カテゴリの変更](category-modify.md)
-   + カテゴリ の製品 {#products-in-category}
+   + カテゴリ内の製品 {#products-in-category}
       + [製品の割り当て](categories-product-assignments.md)
       + [カテゴリ製品の並べ替え](category-products-sort.md)
       + [カテゴリ製品の追加と削除](category-products-add.md)
@@ -52,7 +52,7 @@ ht-degree: 1%
    + [商品リスト](products-list.md)
    + [製品ワークスペース](product-workspace.md)
    + [製品の作成](product-create.md)
-   + 商品タイプ {#types}
+   + 製品タイプ {#types}
       + [シンプル製品](product-create-simple.md)
       + [設定可能な製品](product-create-configurable.md)
       + [グループ化された製品](product-create-grouped.md)
@@ -68,7 +68,7 @@ ht-degree: 1%
       + 製品 3D モデルの管理 {#product-3d-model}
          + [AR ビューアの概要](ar-viewer-overview.md)
          + [AR ビューアの設定](ar-viewer-setup.md)
-   + 価格 の管理 {#pricing}
+   + 価格の管理 {#pricing}
       + [価格範囲](catalog-price-scope.md)
       + [高度な価格設定](pricing-advanced.md)
       + [グループの価格](product-price-group.md)
@@ -84,7 +84,6 @@ ht-degree: 1%
       + [画像とビデオ](product-images-and-video.md)
       + [検索エンジンの最適化](product-search-engine-optimization.md)
       + [関連製品、アップセルおよびクロスセル](related-products-up-sells-cross-sells.md)
-      + [製品表示の最適化](product-view-optimization.md)
       + [カスタマイズ可能なオプション](settings-advanced-custom-options.md)
       + [Web サイト内の製品](settings-basic-websites.md)
       + [デザイン](settings-advanced-design.md)
@@ -95,9 +94,9 @@ ht-degree: 1%
    + [属性入力タイプ](attributes-input-types.md)
    + [製品への属性の追加](product-attributes-add.md)
    + [製品スウォッチ](swatches.md)
-   + の属性の作成 更新 {#create}
+   + 属性の作成と更新 {#create}
       + [属性の作成および削除](attribute-product-create.md)
       + [一括更新](bulk-product-attribute-update.md)
       + [属性セット](attribute-sets.md)
-+ [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
++ [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

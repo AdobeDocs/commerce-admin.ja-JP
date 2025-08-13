@@ -3,9 +3,9 @@ title: Google サイトツール
 description: コンテンツを最適化し、トラフィックを分析し、カタログをショッピングアグリゲータおよびマーケットプレイスに接続するために使用できる、Google ツール統合について説明します。
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 ストア設定は、コンテンツを最適化し、トラフィックを分析し、カタログをショッピングアグリゲータおよびマーケットプレイスに接続するのに役立つ、次のGoogle ツールと統合されています。
 
-- [Google Analytics](google-analytics.md) - _Google Universal Analytics_ を使用すると、オフラインおよびモバイルアプリのインタラクションをサポートし、継続的な更新にアクセスできるので、トラッキング用にさらにカスタムのディメンションと指標を定義できます。
-
-- [Google コンテンツ実験 ](google-content-experiments.md) - Google Analyticsコンテンツ実験を使用して、商品、カテゴリまたはコンテンツページに対する A/B テストを設定します。
+- [Google Analytics](google-analytics.md) - _Google Universal Analytics_ を使用すると、オフラインおよびモバイルアプリのインタラクションをサポートし、継続的な更新にアクセスできるので、トラッキング用にさらにカスタムディメンションと指標を定義できます。
 
 - [Google タグマネージャー ](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） Google タグマネージャーを使用して、マーケティングキャンペーンイベントに関連する多くのタグを管理します。
 
@@ -30,7 +28,7 @@ ht-degree: 0%
 
 ### 手順 1:Google設定の更新
 
-1. 会社のGoogle Analytics アカウントに [ ログイン ][1]{: target=&quot;_blank&quot;}。
+1. 会社のGoogle Analytics アカウントに [ ログイン ][1]{: target="_blank"} します。
 
 1. 左側のサイドバーの下部で「**[!UICONTROL Admin]**」を選択し、編集するアカウントに移動します（該当する場合）。
 
@@ -47,7 +45,7 @@ ht-degree: 0%
 
 1. _データ処理の修正_ を受け入れます。
 
-   Google Ads データ処理条件では、Googleによるデータの処理方法と、GDPR の対象となるビジネスのデータセキュリティを確保するために必要な対策について説明します。 法人の記録と連絡先情報も修正で維持されます。 [ 詳細情報 ][2]{:target=&quot;_blank&quot;} するには、ページ上部のメッセージ内のリンクをクリックします。
+   Google Ads データ処理条件では、Googleによるデータの処理方法と、GDPR の対象となるビジネスのデータセキュリティを確保するために必要な対策について説明します。 法人の記録と連絡先情報も修正で維持されます。 [ 詳細情報 ][2]{: target="_blank"} するには、ページ上部のメッセージ内のリンクをクリックします。
 
    - **[!UICONTROL Data Processing Amendment]** までページを下にスクロールします。
    - **[!UICONTROL Review Amendment]** をクリックして、_Google Ads データ処理条件_ をお読みください。
@@ -82,7 +80,7 @@ analytics.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-詳しくは、Google ヘルプの [Analytics.js フィールドリファレンス ][3]{: target=&quot;_blank&quot;} を参照してください。
+詳しくは、Google ヘルプの [Analytics.js フィールドリファレンス ][3]{: target="_blank"} を参照してください。
 
 従来の `ga.js` ライブラリを使用する場合は、次のスニペットを追加します。
 
@@ -92,7 +90,7 @@ ga.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-**_Google Tag Manager_** で使用される IP アドレスを匿名化するには、Web サーバー上の `gtag.js` ライブラリで `anonymize_ip` パラメーターを `true` に設定します。
+**_Google Tag Manager_** で使用される IP アドレスを匿名化するには、Web サーバー上の `anonymize_ip` ライブラリで `true` パラメーターを `gtag.js` に設定します。
 
 gtag.js
 

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
 description: Commerce Admin の [!UICONTROL Sales] &gt; [!UICONTROL Google API] ページで設定を確認します。
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 5ee52e8d4f2ebb8fc28f13cca53e87c3529f76d3
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,14 @@ ht-degree: 0%
 
 ![Google Analytics](./assets/google-api-analytics-ee.png)<!-- zoom -->
 
-<!-- [Google Analytics](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 | ----- | ------------------------------------------ | ----------- |
 | [!UICONTROL Enable] | ストア表示 | ストアの [!DNL Google Analytics] を有効にします。 オプション：`Yes` / `No` |
-| [!UICONTROL Account Type] | ストア表示 | ![Adobe Commerce](../../assets/adobe-logo.svg) （Adobe Commerceのみ）Google Analytics アカウントの種類に応じて設定オプションを決定します。 オプション：ユニバーサルアナリティクス（デフォルト）/Google Tag Manager |
+| [!UICONTROL Account Type] | ストア表示 | ![Adobe Commerce](../../assets/adobe-logo.svg) （Adobe Commerceのみ）Google Analytics アカウントのタイプに応じて設定オプションを決定します。 オプション：ユニバーサルアナリティクス（デフォルト）/Google Tag Manager |
 | [!UICONTROL Account Number] | ストア表示 | [!DNL Google Analytics] アカウントの作成時に割り当てられたアカウント番号またはトラッキングコード。 |
 | [!UICONTROL Anonymize IP] | ストア表示 | 結果に表示される IP アドレスから識別情報を削除するかどうかを決定 [!DNL Google Analytics] ます。 |
-| [!UICONTROL Enable Content Experiments] | ストア表示 | [Google コンテンツ実験 ](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207) をアクティブ化します。この実験を使用して、同じページの異なるバージョン （最大 10 個）をテストできます。 オプション：`Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -34,7 +33,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![Google Analytics- Google Tag Manager アカウントタイプ ](./assets/google-api-analytics-tag-manager.png)<!-- zoom -->
+![Google Analytics - Google Tag Manager アカウントタイプ ](./assets/google-api-analytics-tag-manager.png)<!-- zoom -->
 
 **[!UICONTROL Account Type]** を `Google Tag Manager` に設定すると、追加のフィールドが表示されます。
 
@@ -54,7 +53,7 @@ ht-degree: 0%
 
 ![Google AdWords](./assets/google-api-google-adwords.png)<!-- zoom -->
 
-<!-- [Google AdWords](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- [Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 | ----- | ------------------------------------------ | ----------- |
@@ -65,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Conversion Color] | ストア表示 | 変換ラベルの色を決定します。 [ カラーピッカー ](https://www.w3schools.com/colors/colors_picker.asp) を使用して、16 進数値を選択します。 この 16 進数値は、AdWords スクリプトの `google_conversion_color` 変数に割り当てられます。 例：ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | ストア表示 | [!DNL Google Site Stats] 通知と共に表示されるテキストラベル。 このテキスト文字列は、AdWords スクリプトの `~` 変数に割り当てられます。 例：「お買い物ありがとうございます。」 |
 | [!UICONTROL Conversion Value Type] | ストア表示 | 変換を行うタイミングを決定するために使用する値のタイプを指定します。 オプション：<br/>**`Dynamic`**– 動的な注文金額に基づいてコンバージョンが発生したことを判断します。<br/>**`Constant`** – 入力された値に基づいて、コンバージョンが発生したことを判別します。 |
-| [!UICONTROL Conversion Value] | ストア表示 | コンバージョン値の _[!UICONTROL Constant]_&#x200B;イプに使用する値を指定します。 |
+| [!UICONTROL Conversion Value] | ストア表示 | コンバージョン値の _[!UICONTROL Constant]_イプに使用する値を指定します。 |
 | [!UICONTROL Send Order Currency] | ストア表示 | （基本通貨の異なる Web サイト用に） AdWords でトランザクション固有の通貨換算値を有効にします。 |
 
 {style="table-layout:auto"}
@@ -78,15 +77,14 @@ ht-degree: 0%
 
 ![Google Analytics4](./assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
 
-<!-- [Google Analytics4](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics4](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 | ----- | ------------------------------------------ | ----------- |
-| [!UICONTROL Enable] | ストア表示 | ストアのGoogle Analytics 4 を有効にします。 オプション：`Yes` / `No` |
-| [!UICONTROL Account Type] | ストア表示 | ![Adobe Commerce](../../assets/adobe-logo.svg) （Adobe Commerceのみ）Google Analytics アカウントの種類に応じて設定オプションを決定します。 オプション：`Google Analytics4` （デフォルト）/`Google Tag Manager` |
+| [!UICONTROL Enable] | ストア表示 | ストアに対してGoogle Analytics 4 を有効にします。 オプション：`Yes` / `No` |
+| [!UICONTROL Account Type] | ストア表示 | ![Adobe Commerce](../../assets/adobe-logo.svg) （Adobe Commerceのみ）Google Analytics アカウントのタイプに応じて設定オプションを決定します。 オプション：`Google Analytics4` （デフォルト）/`Google Tag Manager` |
 | [!UICONTROL Measurement ID] | ストア表示 | Google Analytics アカウントの作成時に割り当てられたアカウント番号またはトラッキングコード。 |
 | [!UICONTROL Anonymize IP] | ストア表示 | Google Analyticsの結果に表示される IP アドレスから識別情報を削除するかどうかを指定します。 |
-| [!UICONTROL Enable Content Experiments] | ストア表示 | [Google コンテンツ実験 ](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207) をアクティブ化します。この実験を使用して、同じページの異なるバージョン （最大 10 個）をテストできます。 オプション：`Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -114,7 +112,7 @@ ht-degree: 0%
 
 ![Google AdWords](./assets/google-api-gtag-google-adwords.png)<!-- zoom -->
 
-<!-- -- Google AdWords](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- -- Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 | ----- | ------------------------------------------ | ----------- |
@@ -125,7 +123,7 @@ ht-degree: 0%
 | [!UICONTROL Conversion Color] | ストア表示 | 変換ラベルの色を決定します。 [ カラーピッカー ](https://www.w3schools.com/colors/colors_picker.asp) を使用して、16 進数値を選択します。 この 16 進数値は、AdWords スクリプトの `google_conversion_color` 変数に割り当てられます。 例：ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | ストア表示 | Google サイト統計の通知と共に表示されるテキストラベルです。 このテキスト文字列は、AdWords スクリプトの `~` 変数に割り当てられます。 例：「お買い物ありがとうございます。」 |
 | [!UICONTROL Conversion Value Type] | ストア表示 | 変換を行うタイミングを決定するために使用する値のタイプを指定します。 オプション：<br/>**`Dynamic`**– 動的な注文金額に基づいてコンバージョンが発生したことを判断します。<br/>**`Constant`** – 入力された値に基づいて、コンバージョンが発生したことを判別します。 |
-| [!UICONTROL Conversion Value] | ストア表示 | コンバージョン値の _[!UICONTROL Constant]_&#x200B;イプに使用する値を指定します。 |
+| [!UICONTROL Conversion Value] | ストア表示 | コンバージョン値の _[!UICONTROL Constant]_イプに使用する値を指定します。 |
 | [!UICONTROL Send Order Currency] | ストア表示 | （基本通貨の異なる Web サイト用に） AdWords でトランザクション固有の通貨換算値を有効にします。 |
 
 {style="table-layout:auto"}
