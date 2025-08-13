@@ -98,5 +98,5 @@ ht-degree: 1%
       + [属性の作成および削除](attribute-product-create.md)
       + [一括更新](bulk-product-attribute-update.md)
       + [属性セット](attribute-sets.md)
-+ [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
 
