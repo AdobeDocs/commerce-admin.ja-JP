@@ -3,9 +3,9 @@ title: クーポンコード
 description: 買い物かごの価格ルールでクーポンコードを使用して、一連の条件を満たした場合に割引を適用する方法を説明します。
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+source-git-commit: 9ba2b4f7847559e2c59c7bec3b87781c12270712
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,20 @@ Commerce 2.4.7 以降では、買い物客は 1 つの買い物かごに複数�
 
 ## クーポンコードの設定
 
+>[!BEGINSHADEBOX]
+
+デフォルトでは、Commerceはクーポンコードを作成するために 2 つの方法をサポートしています。
+
+1. 単一の特定クーポンコードの作成
+1. 複数の _ランダム_ クーポンコードの生成
+
+読み込んで買い物かごの価格ルールに関連付けるクーポンコードのリストが既にある場合は、[Commerce Marketplace](https://marketplace.magento.com/) の拡張機能の使用を検討する必要があります。
+
+>[!ENDSHADEBOX]
+
 自動生成されたクーポンコードの長さと形式は、この構成によって制御されます。 文字は、すべての数字、すべての文字、またはそれらの組み合わせに設定できます。 設定した間隔でダッシュを挿入して読みやすくしたり、プレフィックスとサフィックスを追加してコードを特定のキャンペーンやイニシアチブに関連付けたりできます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Promotions]**」を選択します。
 
@@ -62,7 +73,7 @@ Commerce 2.4.7 以降では、買い物客は 1 つの買い物かごに複数�
 
 >[!NOTE]
 >
->[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} クーポンを作成する前に、`bin/magento cron:run` コマンドを使用して cron が実行されていることを確認します。 詳しくは、『 _設定ガイド_ の [ コマンドラインからの cron の実行 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ja#run-cron-from-the-command-line) を参照してください。
+>[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} クーポンを作成する前に、`bin/magento cron:run` コマンドを使用して cron が実行されていることを確認します。 詳しくは、『 [ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) の _コマンドラインからの cron の実行_ を参照してください。
 
 ### 方法 1：特定のクーポンの作成
 
@@ -131,7 +142,7 @@ Commerce 2.4.7 以降では、買い物客は 1 つの買い物かごに複数�
    >
    >複数の顧客が同時に同じクーポンを使用している場合、クーポン処理の遅延により、設定されている使用制限を超える可能性があります。
 
-1. 下にスクロールして、「**[!UICONTROL Manage Coupon Codes]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、次の操作を行います。
+1. 下にスクロールして、「![」セクションの ](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Manage Coupon Codes]** を展開し、次の操作を行います。
 
    ![ 買い物かご価格ルール – クーポンコードの管理 ](./assets/manage-coupon-codes.png){width="600" zoomable="yes"}
 
@@ -168,11 +179,7 @@ Commerce 2.4.7 以降では、買い物客は 1 つの買い物かごに複数�
 
 ファイル形式を選択して **[!UICONTROL Export]** をクリックすると、クーポンコードを CSV または Excel XML ファイルに書き出すことができます。
 
-クーポンコードを削除するには、リストから 1 つ以上のコードを選択します。 **[!UICONTROL Actions]** セレクターから「`Delete`」を選択し、「**[!UICONTROL Submit]**」をクリックします。
-
->[!NOTE]
->
->Commerceでは複数のクーポンコードを設定できますが、買い物かごで使用できるクーポンコードは 1 つだけです。 買い物かごに複数のクーポンコードを同時に使用できるようにするには、[Commerce Marketplace](https://marketplace.magento.com/) から対応する拡張機能を使用することを検討してください。
+クーポンコードを削除するには、リストから 1 つ以上のコードを選択します。 `Delete` セレクターから「**[!UICONTROL Actions]**」を選択し、「**[!UICONTROL Submit]**」をクリックします。
 
 ## クーポンレポート
 
@@ -184,7 +191,7 @@ _クーポン_ レポートは、特定の日付範囲内で使用される各�
 
 ### レポートの実行
 
-1. _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Sales]_/**[!UICONTROL Coupons]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Sales]_/**[!UICONTROL Coupons]**に移動します。
 
 1. 複数のストア表示がある場合は、左上隅の **[!DNL Store View]** を設定して、レポートの範囲を確定します。
 
