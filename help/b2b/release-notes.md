@@ -28,7 +28,7 @@ B2B 拡張機能のこれらのリリースノートでは、リリースサイ�
 
 Adobe Commerce バージョン 2.4.9-alpha2 との互換性
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
+![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-71](https://helpx.adobe.com/jp/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.5.2-p2
 
@@ -37,7 +37,7 @@ Adobe Commerce バージョン 2.4.9-alpha2 との互換性
 [!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"} Adobe Commerce バージョン 2.4.8-p2、2.4.7-p7、および 2.4.6-p12 セキュリティパッチリリース。
 Adobe Commerce バージョン 2.4.7 ～ 2.4.7-p6、2.4.6 ～ 2.4.6-p11 と互換性があります。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
+![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-71](https://helpx.adobe.com/jp/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.5.2-p1
 
@@ -206,7 +206,7 @@ B2B v1.5.0 リリースには、新機能、品質の改善、バグ修正が含
 
 [!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.7-p7 以降および 2.4.6-p12 以降のセキュリティパッチリリース。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
+![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-71](https://helpx.adobe.com/jp/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
 
 {{b2b-compatibility}}
 
@@ -358,7 +358,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"} Adobe Commerce 2.4.6-p12 以降のセキュリティパッチリリース。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
+![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-71](https://helpx.adobe.com/jp/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.3.5-p10
 
@@ -440,7 +440,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
+![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-71](https://helpx.adobe.com/jp/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.3.4-p13
 
@@ -522,7 +522,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
+![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-71](https://helpx.adobe.com/jp/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.3.3-p14
 
