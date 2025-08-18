@@ -3,9 +3,9 @@ title: アカウントの作成とア  [!DNL Commerce]  セス
 description: 購入した製品  [!DNL Commerce]  サービスを管理するアカウントについて説明します。
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: d5f5405c9470e77327f2978f503cec800a440b5d
+source-git-commit: d036962b767be0817dbd14d679e89ab4d4f03455
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -13,17 +13,13 @@ ht-degree: 0%
 
 # [!DNL Commerce] アカウントへのアクセス
 
-[!DNL Commerce] の web サイトからアカウントにアクセスできます。 [!DNL Commerce] アカウントのダッシュボードから、購入した製品やサービスに関連する情報、連絡先や請求情報を見つけることができます。 一部の情報は、ライセンス所有者にのみ表示されます。
-
-[!DNL Commerce] の web サイトからアカウントにアクセスできます。 アカウントダッシュボードには、購入した製品、サービス、連絡先または請求の詳細が表示されます。 一部の情報は、ライセンス所有者にのみ表示されます。
+[!DNL Commerce] の web サイトから [!DNL Commerce] アカウントにアクセスできます。 [!DNL Commerce] アカウントのダッシュボードから、購入した製品やサービスに関連する情報、連絡先や請求情報を見つけることができます。 一部の情報は、ライセンス所有者にのみ表示されます。
 
 ![[!DNL Commerce] アカウント ](./assets/home-acct.png){width="700"}
 
 [!DNL Commerce] アカウントのログインは、ストアの管理者ログインとは別のものです。 通常は、それぞれに異なる資格情報を使用し、各システムへのアクセスは個別に管理されます。
 
-ただし、Adobe CommerceおよびAdobe Business 製品へのログインを効率化したい場合は、Adobe IDでストア管理者にログインすることができます。[Adobe IDとのCommerce Admin Integration の設定 ](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/admin/ims/adobe-ims-config)
-
-Commerceとストアの管理者ログインは別々であり、異なる資格情報と独立して管理されるアクセス権を持ちます。 ただし、Adobe IDをストア管理者にログインするように設定することで、アクセスを効率化できます。 *Commerce[IMS 統合ガイド ] のCommerce Admin Integration のAdobe IDへの設定* を参照してください。
+ただし、Adobe CommerceおよびAdobe Business 製品へのログインを効率化したい場合は、[Commerceの IMS 統合ガイド ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) のストア管理者（*CommerceとのAdobe ID管理者統合の設定* にログインするようにAdobe IDを設定できます。
 
 >[!NOTE]
 >
@@ -31,7 +27,7 @@ Commerceとストアの管理者ログインは別々であり、異なる資格
 
 ## [!DNL Commerce] アカウントにログインします
 
-Commerce アカウントにアクセスするには、Adobe IDが必要です。 既にCommerce アカウントを持っているがAdobe IDがない場合は、ログインプロセス中に作成できます。
+Commerce アカウントにアクセスするには、Adobe IDが必要です。 既に [!DNL Commerce] アカウントを持っているが、2022 年 8 月以降そのアカウントにログインしていない場合、ログインプロセス中にAdobe IDを作成する必要があります。
 
 >[!WARNING]
 >
