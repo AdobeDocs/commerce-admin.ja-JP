@@ -54,7 +54,7 @@ Adobeを通じて [!DNL Commerce Intelligence] アカウントをアクティブ
 
 [!DNL Commerce] の設定では、[[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md) はデフォルトで有効になっており、cron が [ 設定 ](../configuration-reference/advanced/system.md) および実行されている場合に自動的に起動します。 サブスクリプションを確立する試みは、成功するまで、次の 24 時間にわたって各時間の初めに開始されます。 購読のステータスは、購読が正常に確立されるまで「保留中」です。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. **[!UICONTROL General]** が展開されている左側のナビゲーションパネルで「**[!UICONTROL Advanced Reporting]**」を選択し、以下の手順を実行します。
 
@@ -77,7 +77,7 @@ Adobeを通じて [!DNL Commerce Intelligence] アカウントをアクティブ
 1. 次のいずれかの操作を行います。
 
    * _管理者_ サイドバーで「**[!UICONTROL Dashboard]**」を選択します。 次に、「**[!UICONTROL Go to Advanced Reporting]**」をクリックします。
-   * _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Business Intelligence]_/**[!UICONTROL Advanced Reporting]**に移動します。
+   * _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Business Intelligence]_/**[!UICONTROL Advanced Reporting]**&#x200B;に移動します。
 
    [!DNL Advanced Reporting] ダッシュボードには、注文、顧客、製品の概要が表示されます。 ダッシュボード全体を表示するには、必ず下にスクロールします。
 
@@ -100,7 +100,7 @@ Adobeを通じて [!DNL Commerce Intelligence] アカウントをアクティブ
 
 ### 統合がアクティブであることを確認
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Extensions]_/**[!UICONTROL Integration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Extensions]_/**[!UICONTROL Integration]**&#x200B;に移動します。
 
 1. **[!UICONTROL Magento Analytics user]** 統合がリストに表示され、**[!UICONTROL Status]** が `Active` しいことを確認します。
 

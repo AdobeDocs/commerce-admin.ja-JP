@@ -19,7 +19,7 @@ ht-degree: 1%
 
 [!UICONTROL Order Total Report] は、指定した時間間隔または日付範囲での顧客の注文を表示します。 レポートには、顧客あたりの注文数、平均注文額、合計金額が含まれます。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers]_/**[!UICONTROL Order Total]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers]_/**[!UICONTROL Order Total]**&#x200B;に移動します。
 
 ![ 注文合計レポート ](./assets/customers-order-total.png){width="600"}
 
@@ -51,7 +51,7 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers
 
 [!UICONTROL Order Count Report] は、指定した時間間隔または日付範囲での、顧客ごとの注文数を示します。 レポートには、顧客あたりの注文数、平均注文額、合計金額が含まれます。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers]_/**[!UICONTROL Order Count]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers]_/**[!UICONTROL Order Count]**&#x200B;に移動します。
 
 ![ 注文数レポート ](./assets/customer-order-count.png){width="600"}
 
@@ -83,7 +83,7 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers
 
 [!UICONTROL New Accounts Report] は、指定した時間間隔または日付範囲で開設された新規の顧客アカウント数を示します。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers]_/**[!UICONTROL New]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers]_/**[!UICONTROL New]**&#x200B;に移動します。
 
 ![ 新規口座報告書 ](./assets/customers-new-accounts.png){width="600"}
 
@@ -114,7 +114,7 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers
 
 [!UICONTROL Customer Wish List Report] は、お客様のウィッシュリストに関する情報を提供します。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers]_/**[!UICONTROL Wish Lists]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers]_/**[!UICONTROL Wish Lists]**&#x200B;に移動します。
 
 ![ ウィッシュリストレポート ](./assets/customer-wish-list.png){width="600"}
 
@@ -154,7 +154,7 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers
 
 [!UICONTROL Customer Segment Report] は、各セグメントの顧客数に関する情報を提供します。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers]_/**[!UICONTROL Segments]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers]_/**[!UICONTROL Segments]**&#x200B;に移動します。
 
 ![ セグメントレポート ](./assets/customers-segments.png){width="600"}
 
