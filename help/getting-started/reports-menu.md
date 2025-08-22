@@ -1,11 +1,12 @@
 ---
 title: '[!UICONTROL Reports] メニュー'
-description: Adobe CommerceとMagento Open Sourceでは、マーケティング活動、販売商品、顧客活動に関する情報を常に把握できるように、様々なレポートを提供しています。
+description: Adobe CommerceとMagento Open Sourceには、マーケティング活動、営業商品、顧客活動についての情報を提供するための様々なレポートが用意されています。
 feature: Admin Workspace, Reporting
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
-source-git-commit: 35025c69bf9ba3902693cb9694bcf2b4e7882c7f
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -32,11 +33,11 @@ _管理者_ サイドバーで「**[!UICONTROL Reports]**」を選択します�
 
 ### [!UICONTROL Sales]
 
-[ 売上レポート ](sales-reports.md) には、PayPal およびBraintreeの注文、税、請求、送料、返金、クーポン、決済レポートが含まれます。
+[ 売上レポート ](sales-reports.md) には、PayPal およびBraintreeの注文、税金、請求済み、出荷、払い戻し、クーポン、および決済レポートが含まれます。
 
 ### [!UICONTROL System Insights]
 
-（Adobe Commerceのみ）この [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=ja) は、24 時間年中無休のリアルタイムパフォーマンスモニタリング、レポートおよび推奨事項を使用して、クラウドインフラストラクチャ上のAdobe Commerceをインストールするためのシステムインサイトを提供します。
+（Adobe Commerceのみ）この [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) は、24 時間年中無休のリアルタイムパフォーマンスモニタリング、レポートおよび推奨事項を使用して、クラウドインフラストラクチャ上のAdobe Commerceをインストールするためのシステムインサイトを提供します。
 
 ### [!UICONTROL Customers]
 
@@ -56,4 +57,4 @@ _管理者_ サイドバーで「**[!UICONTROL Reports]**」を選択します�
 
 ### [!DNL Commerce Intelligence]
 
-統合された [[!DNL Commerce Intelligence]](business-intelligence.md) ツールは、戦略的なビジネス上の意思決定を行うために必要なインサイトを提供します。
+統合された [[!DNL Commerce Intelligence]](business-intelligence.md) ツールは、戦略的なビジネス上の意思決定を行うために必要なinsightを提供します。

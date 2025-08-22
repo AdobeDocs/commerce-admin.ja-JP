@@ -4,16 +4,17 @@ description: New Relic APM サ  [!DNL New Relic]  ビスのソフトウェアを
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
-source-git-commit: 0651a2489a396ab142b60a8678d6c7590fd5f9ee
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
 
 # [!DNL New Relic] レポート
 
-[New Relic][1] は、アプリケーションのインタラクションを分析および改善するのに役立つソフトウェア分析サービスです。 クラウドインフラストラクチャー上のAdobe Commerceのアカウントには、[!DNL New Relic APM] サービス用のソフトウェアが含まれます。 詳しくは、_New Relic インフラストラクチャー上のCommerce ガイドの &rbrack;[4]0&rbrace; クラウドサービス &rbrace; を参照してください_&lbrack;
+[New Relic][1] は、アプリケーションのインタラクションを分析および改善するのに役立つソフトウェア分析サービスです。 クラウドインフラストラクチャー上のAdobe Commerceのアカウントには、[!DNL New Relic APM] サービス用のソフトウェアが含まれます。 詳しくは、[New Relic インフラストラクチャー上のCommerce ガイドの ][4]0} クラウドサービス } を参照してください __
 
 ## 手順 1:[!DNL New Relic] アカウントに新規登録する
 
@@ -23,13 +24,13 @@ ht-degree: 0%
 
 1. サイトの指示に従ってください。 プロンプトが表示されたら、最初にインストールする製品を選択します。
 
-1. アカウントにいる間に、Commerce の構成を完了するために必要な次の資格情報を見つけます。
+1. アカウントの使用中に、Commerce設定を完了するために必要な次の資格情報を探します。
 
    | オプション | 説明 |
    | ------ | ----------- |
    | アカウント ID | [!DNL New Relic] アカウントダッシュボードでは、アカウント ID は URL 内の `/accounts` 以降の番号です。 |
-   | アプリケーション ID | [!DNL New Relic] アカウントダッシュボードで、「**[!UICONTROL New Relic APM]**」をクリックします。 メニューで、「**[!UICONTROL Applications]**」を選択します。 次に、アプリケーションを選択します。 アプリケーション ID は、URL次の後の番号です。 `/applications/` |
-   | 新規 Relic API キー | [!DNL New Relic] アカウントダッシュボードで、「**[!UICONTROL Account Settings]**」をクリックします。 左側の「統合」の下のメニューで、「**[!UICONTROL Data Sharing]**」を選択します。 このページから API キーを作成、再生成または削除できます。 |
+   | アプリケーション ID | [!DNL New Relic] アカウントダッシュボードで、「**[!UICONTROL New Relic APM]**」をクリックします。 メニューで、「**[!UICONTROL Applications]**」を選択します。 次に、アプリケーションを選択します。 アプリケーション ID は、URL の `/applications/` の後の数字です。 |
+   | New Relic API キー | [!DNL New Relic] アカウントダッシュボードで、「**[!UICONTROL Account Settings]**」をクリックします。 左側の「統合」の下のメニューで、「**[!UICONTROL Data Sharing]**」を選択します。 このページから API キーを作成、再生成または削除できます。 |
    | Insights API キー | [!DNL New Relic] アカウントダッシュボードで、「**[!UICONTROL Insights]**」をクリックします。 左側の管理の下のメニューで、「**[!UICONTROL API Keys]**」を選択します。 Insights API キーがこのページに表示されます。 必要に応じて、[ キーを挿入 ] の横のプラス記号（**+**）をクリックしてキーを生成します。 |
 
    {style="table-layout:auto"}
@@ -53,9 +54,9 @@ ht-degree: 0%
 >[!NOTE]
 >これらの設定オプションは、クラウドインフラストラクチャー上のAdobe Commerceには適用されません。
 >
->Pro プランを使用している場合、New Relicは既に [ デフォルトで事前設定され、有効 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=ja) になっています。 スタータープランを利用している場合は、設定プロセスの一部である [&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html?lang=ja#configure-new-relic-for-starter-environment)0&rbrace;New Relic設定手順を完了する必要があります。
+>Pro プランを使用している場合、New Relicは既に [ デフォルトで事前設定され、有効 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html) になっています。 スタータープランを利用している場合は、設定プロセスの一部である [0}New Relic設定手順を完了する必要があります。](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment)
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. **[!UICONTROL General]** が展開されている左側のナビゲーションパネルで「**[!UICONTROL New Relic Reporting]**」を選択し、以下の手順を実行します。
 
@@ -97,7 +98,7 @@ ht-degree: 0%
 
 ## [!DNL New Relic] クエリ
 
-[!DNL New Relic Insights] データは、[!DNL New Relic Query Language] （NRQL）で記述されたステートメントと、含める可能性のあるカスタムパラメーターに基づいています。 データは、アドホッククエリから、またはダッシュボードに保存されたクエリから返すことができます。 詳しくは、[!DNL New Relic] ドキュメントの [NRQL リファレンス ][6] を参照してください。
+[!DNL New Relic Insights] データは、[!DNL New Relic Query Language] （NRQL）で記述されたステートメントと、含める可能性のあるカスタムパラメーターに基づいています。 データは、アドホッククエリから、またはダッシュボードに保存されたクエリから返すことができます。 詳しくは、[ ドキュメントの ][6]NRQL リファレンス [!DNL New Relic] を参照してください。
 
 ### 管理イベント
 
@@ -127,18 +128,18 @@ ht-degree: 0%
 
 #### 最新の管理者アクティビティ
 
-管理者ユーザー名、期間、アプリケーション名など、最近の管理者アクションに関する詳細情報を返します。
+管理者のユーザー名、期間、アプリケーション名など、最近の管理者アクションに関する詳細情報を返します。
 
-    SELECT AdminName, duration, name
+    AdminName、duration、name
     FROM Transaction
     WHERE appName=&#39;&lt;your_app_name>&#39; AND AdminName IS NOT NULL
-    AND AdminName !&lt;/your_app_name>= &#39;該当なし&#39; 制限 50
+    AND AdminName != &#39;該当なし&#39;制限 50
 
 ### Cron イベント
 
-#### カテゴリー数
+#### カテゴリ数
 
-指定した期間におけるカテゴリイベントのアプリケーション数を返します。
+指定された期間におけるカテゴリ別のアプリケーション・イベント数が戻されます。
 
     SELECT average （CatalogCategoryCount） 
     FROM Cron
@@ -149,14 +150,13 @@ ht-degree: 0%
 
 指定した期間におけるカテゴリ別のカタログ内のアプリケーション イベントの平均数を返します。
 
-    SELECT average(CatalogCategoryCount)
+    SELECT average （CatalogCategoryCount） 
     FROM Cron
     WHERE CatalogCategoryCount IS NOT NULL
     AND CatalogCategoryCount > 0
-    AND appName = &#39;&lt;your_app_name>&#39; SINCE 2 分前 LIMIT 1
-&lt;/your_app_name>
+    AND appName = &#39;&lt;your_app_name>&#39; SINCE 2 minutes ago LIMIT 1
 
-#### アクティブ製品
+#### アクティブな製品
 
 指定された期間における製品別のアプリケーション イベントの数を返します。
 
@@ -257,7 +257,7 @@ ht-degree: 0%
 
     SELECT average （StoreViewCount）, average （WebsiteCount） 
     FROM Cron
-    WHERE appName = &#39;&lt;your_app_name&gt;&#39; TIMESERIES 2 分 
+    WHERE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; TIMESERIES 2 分 
 
 #### 現在の web サイトとストアの数
 
@@ -305,31 +305,31 @@ ht-degree: 0%
 
 顧客名や訪問期間など、最近のアクティビティの定義済みレコード数を返します。
 
-    SELECT CustomerName, duration, name
+    Select CustomerName, duration, name
     FROM Transaction
     WHERE appName=&#39;&lt;your_app_name>&#39;
     AND CustomerName IS NOT NULL
-    AND CustomerName!&lt;/your_app_name>= &#39;該当なし&#39; 制限 50
+     および CustomerName != &#39;該当なし&#39;制限 50
 
-### 詻
+### 注文件数
 
-#### 注文数字
+#### 発注された回数
 
-指定した期間における注文数を返します。
+指定された期間に行われた注文の数を返します。
 
-    SELECT count(Order)
-    FROM トランザクション 1 日前以降
+    SELECT count （Order） 
+    FROM Transaction SINCE 1 day ago
 
 #### 合計注文金額
 
 指定した期間に受注された明細品目の合計数を戻します。
 
-    SELECT sum(orderValue)
-    FROM トランザクション 1 日前以降
+    SELECT sum （orderValue） 
+    FROM Transaction SINCE 1 日前 
 
-#### オーダーされた合計行項目
+#### 注文された明細行品目の合計
 
-指定した期間の中で注文された行項目の合計数を返します。
+指定した期間に受注された明細品目の合計数を戻します。
 
     SELECT sum （lineItemCount） 
     FROM Transaction SINCE 1 day ago
@@ -337,6 +337,6 @@ ht-degree: 0%
 
 [1]: https://newrelic.com/
 [3]: https://docs.newrelic.com/docs/agents/php-agent/getting-started/new-relic-php
-[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=ja
-[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ja
+[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html
+[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html
 [6]: https://docs.newrelic.com/docs/insights/new-relic-insights/using-new-relic-query-language/nrql-reference
