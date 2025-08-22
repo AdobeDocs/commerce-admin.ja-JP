@@ -3,7 +3,7 @@ title: レポートを確認
 description: サイトで組み込みのレビュー機能を使用している場合、レビューレポートには、製品レビューに関する情報が顧客別および製品別に表示されます。
 exl-id: f337c0fc-a8fd-43ef-82db-f11741e6dc76
 feature: Reporting, Customers, Products
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
 source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
 source-wordcount: '147'
