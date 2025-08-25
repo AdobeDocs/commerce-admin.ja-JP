@@ -5,7 +5,7 @@ breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 63585845dc51a0be31102dfe3e4b9074225c490d
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 6%
@@ -37,7 +37,7 @@ ht-degree: 6%
 + 会社管理 {#company-management}
    + [概要](manage-companies.md)
    + [会社階層の管理](manage-company-hierarchy.md)
-+ Shared catalogs {#shared-catalogs}
++ 共有カタログ {#shared-catalogs}
    + [概要](catalog-shared.md)
    + 共有カタログの定義 {#define}
       + [共有カタログの作成](catalog-shared-create.md)
@@ -46,11 +46,11 @@ ht-degree: 6%
       + [カタログへの会社の割り当て](catalog-shared-assign-companies.md)
    + [共有カタログの管理](catalog-shared-manage.md)
 + [クイックオーダー](quick-order.md)
-+ 発注 {#purchase-orders}
++ 発注書 {#purchase-orders}
    + [会社の発注書](purchase-order-flow.md)
    + [承認ルール](account-dashboard-approval-rules.md)
    + [[!UICONTROL My Purchase Orders]](account-dashboard-my-purchase-orders.md)
-+ の引用{#quotes}
++ 見積もり {#quotes}
    + [概要](quotes.md)
    + [見積の設定](configure-quotes.md)
    + [見積依頼](quote-request.md)
@@ -58,7 +58,7 @@ ht-degree: 6%
    + [見積の交渉](quote-price-negotiation.md)
    + [見積もりテンプレートの作成](quote-templates.md)
    + [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)
-+ Quote Templates {#templates}
++ 見積もりテンプレート {#templates}
    + [ユースケースとワークフロー](quote-templates-overview.md)
    + [[!UICONTROL My Quote Templates]](account-dashboard-my-quote-templates.md)
 + 購買依頼リスト {#requisition-lists}
@@ -68,4 +68,4 @@ ht-degree: 6%
 + 参照 {#reference}
    + [後方互換性のない変更](backward-incompatible-changes.md)
    + [パッケージ](packages.md)
-+ [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
++ [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
