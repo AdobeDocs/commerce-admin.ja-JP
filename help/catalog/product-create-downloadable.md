@@ -201,7 +201,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >外部リソースへのリンクは、ダウンロード可能な製品として使用することはできません。 有効なリンクドメインは、`env.php` ファイル内でプログラムによって事前に定義されています（「設定ガイド [ の ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html)env.php リファレンス _を参照_）。
+   >外部リソースへのリンクは、ダウンロード可能な製品として使用することはできません。 有効なリンクドメインは、`env.php` ファイル内でプログラムによって事前に定義されています（「設定ガイド [ の ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=ja)env.php リファレンス _を参照_）。
 
    - **[!UICONTROL Shareable]** を次のいずれかに設定します。
 
