@@ -53,7 +53,7 @@ _製品_ コンテンツタイプを使用して、グリッドまたはカル�
 
 ## 商品リストブロックの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add New Block]**」をクリックします。
 

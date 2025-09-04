@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. ソースを追加するには、「**[!UICONTROL Assign Sources]**」をクリックします。
 
-1. _[!UICONTROL Assign Sources]_ページで、製品に割り当てる各ソースの横にあるチェックボックスをオンにします。
+1. _[!UICONTROL Assign Sources]_&#x200B;ページで、製品に割り当てる各ソースの横にあるチェックボックスをオンにします。
 
    ![Product - ソースの割り当て ](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
 

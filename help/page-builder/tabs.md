@@ -56,7 +56,7 @@ _Tabs_ コンテンツタイプを使用する場合、個々のタブおよび 
 
 ## 個々のタブの追加
 
-1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_の下で、**[!UICONTROL Tabs]**プレースホルダーを直接ステージにドラッグするか、ステージの行または列にドラッグします。
+1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_&#x200B;の下で、**[!UICONTROL Tabs]**&#x200B;プレースホルダーを直接ステージにドラッグするか、ステージの行または列にドラッグします。
 
    ![ タブを行にドラッグ ](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 

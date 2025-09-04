@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## アセットのアップロード
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Upload Image]**」をクリックします。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## アセットの詳細の表示
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
 
 1. アセットの下にある 3 ドットアイコン（![ 詳細アイコン ](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}）をクリックし、「**[!UICONTROL View Details]**」をクリックします。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## アセットの編集
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
 
 1. アセットの下にある 3 ドットアイコン（![ アセットメニューアイコン ](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}）をクリックし、「**[!UICONTROL Edit]**」をクリックします。
 
@@ -78,7 +78,7 @@ Assetsは、管理全体を通して幅広く使用できます。例えば、[ 
 
 ## アセットの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Delete Images...]**」をクリックし、削除する各アセットのチェックボックスを選択します。
 
@@ -88,7 +88,7 @@ Assetsは、管理全体を通して幅広く使用できます。例えば、[ 
 
 ## アセットの検索
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
 
 1. キーワード/タグによる画像検索を実行するには、**[!UICONTROL Search by keywords]** 入力を使用します。
 
@@ -106,7 +106,7 @@ Assetsは、管理全体を通して幅広く使用できます。例えば、[ 
 >
 >_使用されている場所_ 機能を使用するには、[!UICONTROL Media Gallery Image Optimization] 設定 [ で ](media-gallery-image-optimization.md) が有効になっている必要があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Media]_/**[!UICONTROL Media Gallery]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Filters]**」タブをクリックします。
 

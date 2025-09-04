@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ダウンロード可能な構成設定は、ダウンロード可能な製品のデフォルト値と配信オプションを決定し、ゲストがダウンロードを購入できるかどうかを指定します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 1. [ 新製品のリスト ](../content-design/widget-new-products-list.md) に製品を特集するには、「**[!UICONTROL Set Product as New]**」チェックボックスを選択します。
 
-1. 製品に _[!UICONTROL Categories]_を割り当てるには、**[!UICONTROL Select…]**のボックスをクリックし、次のいずれかの操作を行います。
+1. 製品に _[!UICONTROL Categories]_&#x200B;を割り当てるには、**[!UICONTROL Select…]**&#x200B;のボックスをクリックし、次のいずれかの操作を行います。
 
    **既存のカテゴリを選択**:
 
@@ -178,15 +178,15 @@ ht-degree: 0%
 
 ### 手順 5：ダウンロード可能な情報の入力
 
-下にスクロールして、「展開セレクター ![ 「](../assets/icon-display-expand.png)」セクション _[!UICONTROL Downloadable Information]_展開し、「**[!UICONTROL Is this downloadable product?]**」チェックボックスを選択します。
+下にスクロールして、「展開セレクター ![ 「](../assets/icon-display-expand.png)」セクション _[!UICONTROL Downloadable Information]_&#x200B;展開し、「**[!UICONTROL Is this downloadable product?]**」チェックボックスを選択します。
 
-有効にすると、_[!UICONTROL Downloadable Information]_セクションは 2 つの部分で構成されます。 最初のパートでは各ダウンロードリンクについて説明し、2 番目のパートでは各サンプルファイルについて説明します。 これらのオプションの多くは、デフォルト値を [configuration](#configure-the-download-options) で設定できます。
+有効にすると、_[!UICONTROL Downloadable Information]_&#x200B;セクションは 2 つの部分で構成されます。 最初のパートでは各ダウンロードリンクについて説明し、2 番目のパートでは各サンプルファイルについて説明します。 これらのオプションの多くは、デフォルト値を [configuration](#configure-the-download-options) で設定できます。
 
 ![ ダウンロード情報 ](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### リンクを完成させる
 
-1. 「_[!UICONTROL Links]_」セクションで、ダウンロードリンクの見出しとして使用する&#x200B;**[!UICONTROL Title]**を入力します。
+1. 「_[!UICONTROL Links]_」セクションで、ダウンロードリンクの見出しとして使用する&#x200B;**[!UICONTROL Title]**&#x200B;を入力します。
 
 1. 該当する場合は、「**[!UICONTROL Links can be purchased separately]**」チェックボックスを選択します。
 
@@ -222,7 +222,7 @@ ht-degree: 0%
 
 #### サンプルを完成させる
 
-1. 「_[!UICONTROL Samples]_」セクションで、サンプルの見出しとして使用する&#x200B;**[!UICONTROL Title]**を入力します。
+1. 「_[!UICONTROL Samples]_」セクションで、サンプルの見出しとして使用する&#x200B;**[!UICONTROL Title]**&#x200B;を入力します。
 
 1. 各サンプルの情報を入力するには、「**[!UICONTROL Add Link]**」をクリックします。
 
@@ -274,7 +274,7 @@ _[!UICONTROL Save]_（メニュー矢印 ![ メニューで ](../assets/icon-men
 
 ## ストアフロントの経験
 
-顧客アカウントダッシュボードでは、_[!UICONTROL My Downloadable Products]_ページはダウンロード可能な製品の各注文にリンクされています。 ダウンロードは、注文が完了すると、顧客のアカウントから利用できるようになります。
+顧客アカウントダッシュボードでは、_[!UICONTROL My Downloadable Products]_&#x200B;ページはダウンロード可能な製品の各注文にリンクされています。 ダウンロードは、注文が完了すると、顧客のアカウントから利用できるようになります。
 
 ![ ダウンロード可能な製品 ](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
@@ -288,7 +288,7 @@ _[!UICONTROL Save]_（メニュー矢印 ![ メニューで ](../assets/icon-men
 | [!UICONTROL Status] | 注文処理ステータス。 |
 | [!UICONTROL Remaining Downloads] | ダウンロードされた製品の使用可能なダウンロードの数。 |
 
-_**アカウントダッシュボードから製品ファイルをダウンロードするには**_
+_&#x200B;**アカウントダッシュボードから製品ファイルをダウンロードするには**&#x200B;_
 
 1. アカウントダッシュボードで、顧客は **[!UICONTROL My Downloadable Products]** を選択します。
 

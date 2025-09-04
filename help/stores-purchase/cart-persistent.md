@@ -28,13 +28,13 @@ ht-degree: 0%
 
 永続的な買い物かごが [ 有効 ](#configure-a-persistent-cart) になっている場合、ワークフローは次のものに依存します。
 
-- _[!UICONTROL Enable Remember Me]_と_[!UICONTROL Clear Persistence on Log Out]_ の設定の値
+- _[!UICONTROL Enable Remember Me]_&#x200B;と_[!UICONTROL Clear Persistence on Log Out]_ の設定の値
 - 顧客による「_[!UICONTROL Remember Me]_」チェックボックスのオン/オフの決定
 - 永続的な Cookie がクリアされた場合
 
 顧客セッションの有効期限が切れると、次の条件下でページヘッダーに `Not Jane Smith?` リンクが表示されます。
-- ログインしたユーザーが _[!UICONTROL Remember Me]_オプションを選択し、永続的な cookie が適用されている
-- _[!UICONTROL Clear Persistence on Sign Out]_を `No` に設定してシステムを設定すると、お客様はログアウトします。
+- ログインしたユーザーが _[!UICONTROL Remember Me]_&#x200B;オプションを選択し、永続的な cookie が適用されている
+- _[!UICONTROL Clear Persistence on Sign Out]_&#x200B;を `No` に設定してシステムを設定すると、お客様はログアウトします。
 
 システムは、ログインセッションの有効期限が切れても、買い物かごの内容の記録を現在のデバイスに保持します。 `Not Jane Smith?` のリンクを使用すると、お客様は永続的なセッションを終了してゲストとして作業を開始したり、別のお客様または同じユーザーとしてログインしたりできます。
 

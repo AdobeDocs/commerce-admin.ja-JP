@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Page Builder] Workspace
 
-[[!DNL Page Builder]  有効 ](setup.md) にすると、CMS _[!UICONTROL Content]_ページ [!DNL Page Builder]、[product](../content-design/page-add.md) および [ カテゴリ ](../catalog/product-content.md) ページ、[ ブロック ](../catalog/categories-content-settings.md) および [ 動的ブロック ](../content-design/block-add.md) 用の高度な [ ツールを利用するように ](../content-design/dynamic-blocks.md) セクションとコンテンツの作成プロセスが変更されます。 このセクションには、_ コンテンツ見出し _フィールド、コンテンツのプレビュー、フルスクリーン [!DNL Page Builder] ワークスペースへの簡単なアクセスが含まれます。
+[[!DNL Page Builder]  有効 ](setup.md) にすると、CMS _[!UICONTROL Content]_&#x200B;ページ [!DNL Page Builder]、[product](../content-design/page-add.md) および [ カテゴリ ](../catalog/product-content.md) ページ、[ ブロック ](../catalog/categories-content-settings.md) および [ 動的ブロック ](../content-design/block-add.md) 用の高度な [ ツールを利用するように ](../content-design/dynamic-blocks.md) セクションとコンテンツの作成プロセスが変更されます。 このセクションには、_ コンテンツ見出し _フィールド、コンテンツのプレビュー、フルスクリーン [!DNL Page Builder] ワークスペースへの簡単なアクセスが含まれます。
 
 ![ コンテンツプレビュー付き [!DNL Page Builder] ンテンツセクション ](./assets/pb-content-preview.png){width="700" zoomable="yes"}
 
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ページの上部に表示される _[!UICONTROL Content Heading]_フィールドは、以前の [!DNL Commerce] リリースで作成されたコンテンツをサポートするレガシーフィールドです。 しかし、それは [!DNL Page Builder] の一部ではありません。 [!UICONTROL Content Heading] は、現在のテーマに関連付けられているスタイルシートに従って、H1 見出しとして書式設定されます。 [!DNL Page Builder] のステージで定義されたアクティブなコンテンツ領域のすぐ上に配置されます。
+>ページの上部に表示される _[!UICONTROL Content Heading]_&#x200B;フィールドは、以前の [!DNL Commerce] リリースで作成されたコンテンツをサポートするレガシーフィールドです。 しかし、それは [!DNL Page Builder] の一部ではありません。 [!UICONTROL Content Heading] は、現在のテーマに関連付けられているスタイルシートに従って、H1 見出しとして書式設定されます。 [!DNL Page Builder] のステージで定義されたアクティブなコンテンツ領域のすぐ上に配置されます。
 
-すべてのレベルの見出しの位置と形式を最適に制御するには、_[!UICONTROL Content Heading]_フィールドを空のままにし、[!DNL Page Builder] [ 見出し ](heading.md) コンテンツタイプを使用することをお勧めします。
+すべてのレベルの見出しの位置と形式を最適に制御するには、_[!UICONTROL Content Heading]_&#x200B;フィールドを空のままにし、[!DNL Page Builder] [ 見出し ](heading.md) コンテンツタイプを使用することをお勧めします。
 
 ![ コンテンツの見出しおよびその他の見出し ](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
 ## プレビュー
 
-「_[!UICONTROL Content]_」セクションを展開すると、[!DNL Page Builder] で作成された既存のコンテンツがあり、ページに表示されるとおりにコンテンツのプレビューが表示されます。 コンテンツプレビュー領域の&#x200B;**[!UICONTROL Edit with Page Builder]**または内部をクリックして [!DNL Page Builder] ワークスペースを開き、必要な更新を行うことができます。
+「_[!UICONTROL Content]_」セクションを展開すると、[!DNL Page Builder] で作成された既存のコンテンツがあり、ページに表示されるとおりにコンテンツのプレビューが表示されます。 コンテンツプレビュー領域の&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;または内部をクリックして [!DNL Page Builder] ワークスペースを開き、必要な更新を行うことができます。
 
 ![ 製品説明のプレビュー ](./assets/pb-product-category-content-preview.png){width="500" zoomable="yes"}
 
@@ -77,7 +77,7 @@ _ビューポート_ は、ユーザーに表示される web ページの表示
 
 ### ブレークポイントの設定
 
-また、ビューポート ボタンには、選択したビューポートに基づいて、コンテンツ タイプに異なるブレークポイント スタイルを適用するオプションもあります。 デフォルトでは、[!DNL Page Builder] は行、列、タブ、タブ項目、バナー、スライダー、スライドの _[!UICONTROL Minimum Height]_のフィールドのブレークポイント設定を提供します。 モバイルビューポートを選択し、これらのコンテンツタイプの 1 つに対してエディターを開くと、モバイルビューポートのブレークポイントに固有のフィールド値を入力できます。 特定のブレークポイント設定を許可するコンテンツタイプフィールドでは、フィールドの右側に、次の行の例のようにアイコンが表示されます。
+また、ビューポート ボタンには、選択したビューポートに基づいて、コンテンツ タイプに異なるブレークポイント スタイルを適用するオプションもあります。 デフォルトでは、[!DNL Page Builder] は行、列、タブ、タブ項目、バナー、スライダー、スライドの _[!UICONTROL Minimum Height]_&#x200B;のフィールドのブレークポイント設定を提供します。 モバイルビューポートを選択し、これらのコンテンツタイプの 1 つに対してエディターを開くと、モバイルビューポートのブレークポイントに固有のフィールド値を入力できます。 特定のブレークポイント設定を許可するコンテンツタイプフィールドでは、フィールドの右側に、次の行の例のようにアイコンが表示されます。
 
 ![ ブレークポイント設定用のアイコンインジケーター ](./assets/pb-workspace-viewport-field-breakpoint.png){width="400"}
 
@@ -87,7 +87,7 @@ _ビューポート_ は、ユーザーに表示される web ページの表示
 
 ### レイアウト
 
-_[!UICONTROL Layout]_パネルの [!DNL Page Builder] セクションは、行、列、タブをステージに追加するために使用します。 コンテンツタイプをパネルからステージにドラッグすると、コンテナが表示され、コンテンツタイプに固有のオプションのツールボックスが表示されます。
+_[!UICONTROL Layout]_&#x200B;パネルの [!DNL Page Builder] セクションは、行、列、タブをステージに追加するために使用します。 コンテンツタイプをパネルからステージにドラッグすると、コンテナが表示され、コンテンツタイプに固有のオプションのツールボックスが表示されます。
 
 デフォルトでは、[!DNL Page Builder] のステージは空です。 レイアウトコンテンツタイプをパネルからステージにドラッグする際に、ページ上の他のレイアウトコンテナの上、下または内側に配置できます。 行は、ステージに直接追加する場合にのみ選択できます。
 
@@ -103,7 +103,7 @@ _[!UICONTROL Layout]_パネルの [!DNL Page Builder] セクションは、行�
 
 ### 要素
 
-_[!UICONTROL Elements]_パネルの「[!DNL Page Builder]」セクションを使用すると、[[!DNL Page Builder]  ステージ ](workspace.md#stage) 上の任意のレイアウトコンテナにテキスト、見出し、ボタン、区切り線、HTML コードを追加できます。 パネルから行または列にコンテンツタイプをドラッグするか、ステージ上のタブセットにコンテンツタイプをドラッグすると、コンテナが表示されます。 コンテンツ タイプのツールボックスを使用して、そのタイプに固有の設定にアクセスします。
+_[!UICONTROL Elements]_&#x200B;パネルの「[!DNL Page Builder]」セクションを使用すると、[[!DNL Page Builder]  ステージ ](workspace.md#stage) 上の任意のレイアウトコンテナにテキスト、見出し、ボタン、区切り線、HTML コードを追加できます。 パネルから行または列にコンテンツタイプをドラッグするか、ステージ上のタブセットにコンテンツタイプをドラッグすると、コンテナが表示されます。 コンテンツ タイプのツールボックスを使用して、そのタイプに固有の設定にアクセスします。
 
 要素コンテンツタイプを含む ![[!DNL Page Builder] パネル ](./assets/pb-elements.png){width="600" zoomable="yes"}
 
@@ -119,7 +119,7 @@ _[!UICONTROL Elements]_パネルの「[!DNL Page Builder]」セクションを�
 
 ### メディア
 
-_[!UICONTROL Media]_パネルの [!DNL Page Builder] セクションを使用して、画像、ビデオ、バナー、スライダー、[!DNL Google Maps] を [[!DNL Page Builder] stage](workspace.md#stage) 上のレイアウトコンテナに追加します。 メディアコンテンツタイプがパネルからステージにドラッグされると、コンテナが表示され、コンテンツタイプに固有のオプションのツールボックスが表示されます。
+_[!UICONTROL Media]_&#x200B;パネルの [!DNL Page Builder] セクションを使用して、画像、ビデオ、バナー、スライダー、[!DNL Google Maps] を [[!DNL Page Builder] stage](workspace.md#stage) 上のレイアウトコンテナに追加します。 メディアコンテンツタイプがパネルからステージにドラッグされると、コンテナが表示され、コンテンツタイプに固有のオプションのツールボックスが表示されます。
 
 メディアコンテンツタイプを含む ![[!DNL Page Builder] パネル ](./assets/pb-media-content-types.png){width="600" zoomable="yes"}
 
@@ -135,7 +135,7 @@ _[!UICONTROL Media]_パネルの [!DNL Page Builder] セクションを使用し
 
 ### コンテンツを追加
 
-_[!UICONTROL Add Content]_パネルの「[!DNL Page Builder]」セクションを使用して、既存のコンテンツを [[!DNL Page Builder] stage](workspace.md#stage) に追加します。 メディアコンテンツタイプをパネルからステージにドラッグすると、コンテナが表示されます。 コンテンツ タイプのツールボックスを使用して、そのタイプに固有の_ 設定 _にアクセスします。
+_[!UICONTROL Add Content]_&#x200B;パネルの「[!DNL Page Builder]」セクションを使用して、既存のコンテンツを [[!DNL Page Builder] stage](workspace.md#stage) に追加します。 メディアコンテンツタイプをパネルからステージにドラッグすると、コンテナが表示されます。 コンテンツ タイプのツールボックスを使用して、そのタイプに固有の_ 設定 _にアクセスします。
 
 「コンテンツタイプを追加」を含む ![[!DNL Page Builder] パネル ](./assets/pb-add-content.png){width="600" zoomable="yes"}
 

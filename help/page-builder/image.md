@@ -16,7 +16,7 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
 >[!TIP]
 >
->[Adobe Stock Integration](../content-design/adobe-stock.md) を使用して、[Adobe Stock} から提供される数百万のアセットの中から適切なアセットを見つけて保存でき ](https://stock.adobe.com) す。 Adobe Stock アセットを検索、調整、ギャラリーに保存する方法について詳しくは、[Adobe Stock画像の使用 ](../content-design/adobe-stock-manage.md) を参照してください。
+>[Adobe Stock Integration](../content-design/adobe-stock.md) を使用して、[Adobe Stock&rbrace; から提供される数百万のアセットの中から適切なアセットを見つけて保存でき ](https://stock.adobe.com) す。 Adobe Stock アセットを検索、調整、ギャラリーに保存する方法について詳しくは、[Adobe Stock画像の使用 ](../content-design/adobe-stock-manage.md) を参照してください。
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -58,7 +58,7 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
    >
    >最大ファイルサイズは 4 MB です。 サポートされているファイルタイプは、JPG、GIF、PNG です。
 
-   - _**新しい画像をアップロード**_：この方法を使用して、システムから新しい画像ファイルをアップロードします。
+   - _&#x200B;**新しい画像をアップロード**&#x200B;_：この方法を使用して、システムから新しい画像ファイルをアップロードします。
 
       - 「**[!UICONTROL Upload Image]**」をクリックします。
 
@@ -66,7 +66,7 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
      別の方法として、システムから画像ファイルをドラッグして、_カメラ_ （![ カメラアイコン ](./assets/pb-icon-camera.png){width="20"}）アイコンの上にドロップすることもできます。
 
-   - _**既存のアセットを選択**_：メディアストレージ/ギャラリーから既存の画像アセットを選択する場合は、この方法を使用します。
+   - _&#x200B;**既存のアセットを選択**&#x200B;_：メディアストレージ/ギャラリーから既存の画像アセットを選択する場合は、この方法を使用します。
 
       - 「**[!UICONTROL Select from Gallery]**」をクリックします。
 
@@ -76,11 +76,11 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
         ![ 選択した画像の追加 ](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _**Adobe Stock画像を検索して選択**_:Adobe Stock内から画像を検索する場合に使用します。
+   - _&#x200B;**Adobe Stock画像を検索して選択**&#x200B;_:Adobe Stock内から画像を検索する場合に使用します。
 
      >[!NOTE]
      >
-     >この方法を使用するには、管理者向けに設定された [0}Adobe Stock統合 } が必要です。](../content-design/adobe-stock.md)
+     >この方法を使用するには、管理者向けに設定された [0&rbrace;Adobe Stock統合 &rbrace; が必要です。](../content-design/adobe-stock.md)
 
       - 「**[!UICONTROL Search Adobe Stock]**」をクリックして画像を検索します。
 
@@ -107,13 +107,13 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
 1. 現在の **[!UICONTROL Image]** を変更するには、次のいずれかの操作を行います。
 
-   - _**新しい画像をアップロード**_：この方法を使用して、システムから新しい画像ファイルをアップロードします。
+   - _&#x200B;**新しい画像をアップロード**&#x200B;_：この方法を使用して、システムから新しい画像ファイルをアップロードします。
 
       - 「**[!UICONTROL Upload Image]**」をクリックします。
 
       - 画像を見つけて選択し、ギャラリーとターゲットコンテナに追加します。
 
-   - _**既存のアセットを選択**_：メディアストレージ/ギャラリーから既存の画像アセットを選択する場合は、この方法を使用します。
+   - _&#x200B;**既存のアセットを選択**&#x200B;_：メディアストレージ/ギャラリーから既存の画像アセットを選択する場合は、この方法を使用します。
 
       - 「**[!UICONTROL Select from Gallery]**」をクリックします。
 
@@ -127,7 +127,7 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
      >[!NOTE]
      >
-     >この方法を使用するには、管理者向けに設定された [0}Adobe Stock統合 } が必要です。](../content-design/adobe-stock.md)
+     >この方法を使用するには、管理者向けに設定された [0&rbrace;Adobe Stock統合 &rbrace; が必要です。](../content-design/adobe-stock.md)
 
       - 「**[!UICONTROL Search Adobe Stock]**」をクリックして画像を検索します。
 

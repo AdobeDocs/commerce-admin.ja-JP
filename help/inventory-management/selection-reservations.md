@@ -82,7 +82,7 @@ SSA は、サードパーティのサポートと、費用対効果の高い出�
 
 >[!NOTE]
 >
->[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} 予約機能を使用するには、`inventory.reservations.updateSalabilityStatus` メッセージキューコンシューマーを継続的に実行する必要があります。 実行中かどうかを確認するには、`bin/magento queue:consumers:list` コマンドを使用します。 メッセージキューコンシューマーがリストにない場合は、開始します（`bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`）。
+>[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} 予約機能を使用するには、`inventory.reservations.updateSalabilityStatus` メッセージキューコンシューマーを継続的に実行する必要があります。 実行中かどうかを確認するには、`bin/magento queue:consumers:list` コマンドを使用します。 メッセージキューコンシューマーがリストにない場合は、開始します（`bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`）。
 
 ### 予約の注文
 

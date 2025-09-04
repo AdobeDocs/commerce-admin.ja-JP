@@ -56,7 +56,7 @@ _HTML コード_ コンテンツタイプを使用して、[[!DNL Page Builder] 
 
 ### 手順 2：ページへのコードの追加
 
-1. ストアの _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**に移動します。
+1. ストアの _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
 
 1. フォントを使用できるページを探し、編集モードで開きます。
 
@@ -84,13 +84,13 @@ _HTML コード_ コンテンツタイプを使用して、[[!DNL Page Builder] 
 
 ### 手順 3：ページのプレビュー
 
-1. _[!UICONTROL Currently Active]_セクションで、**[!UICONTROL Enable Page]**を `Yes` に設定します。
+1. _[!UICONTROL Currently Active]_&#x200B;セクションで、**[!UICONTROL Enable Page]**&#x200B;を `Yes` に設定します。
 
    ![ ページの有効化 ](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
 1. 右上隅の **[!UICONTROL Save]** 矢印をクリックし、「**[!UICONTROL Save & Close]**」を選択します。
 
-1. グリッドでページを見つけ、**[!UICONTROL View]** 列で _[!UICONTROL Actions]_を選択します。
+1. グリッドでページを見つけ、**[!UICONTROL View]** 列で _[!UICONTROL Actions]_&#x200B;を選択します。
 
    ![ 新しいフォントファミリーでページの見出しをプレビューする ](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
@@ -110,7 +110,7 @@ _HTML コード_ コンテンツタイプを使用して、[[!DNL Page Builder] 
    | イメージの挿入… | アップロードした画像または Gallery の画像をHTML テキストボックスのカーソル位置に挿入するときにクリックします。 |
    | 変数の挿入… | クリックすると、「HTML」テキストボックス内のカーソル位置に変数が挿入されます。 |
 
-1. 必要に応じて、_[!UICONTROL Advanced]_設定を更新します。
+1. 必要に応じて、_[!UICONTROL Advanced]_&#x200B;設定を更新します。
 
    - 親コンテナ内のコードの位置を制御するには、**[!UICONTROL Alignment]** のいずれかを選択します。
 

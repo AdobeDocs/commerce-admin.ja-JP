@@ -114,7 +114,7 @@ _テキスト_ コンテンツタイプを使用して、WYSIWYG（「What You S
 
 1. 必要に応じてコンテンツを更新します。
 
-1. 必要に応じて、_[!UICONTROL Advanced]_設定を更新します。
+1. 必要に応じて、_[!UICONTROL Advanced]_&#x200B;設定を更新します。
 
    - 親コンテナ内のテキストの位置を制御するには、**[!UICONTROL Alignment]** のいずれかを選択します。
 
