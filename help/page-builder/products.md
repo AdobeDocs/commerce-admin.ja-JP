@@ -3,7 +3,7 @@ title: コンテンツを追加 – 製品
 description: 製品のリストをステージに追加するために使用される、製品コンテンツタ  [!DNL Page Builder]  プについて説明します。
 exl-id: 8ef38669-a6f6-493b-b963-b0fc4e3bbff4
 feature: Page Builder, Page Content, Products
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1913'
 ht-degree: 0%
@@ -53,7 +53,7 @@ _製品_ コンテンツタイプを使用して、グリッドまたはカル�
 
 ## 商品リストブロックの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**に移動します。
 
 1. 「**[!UICONTROL Add New Block]**」をクリックします。
 
@@ -116,7 +116,7 @@ _製品_ コンテンツタイプを使用して、グリッドまたはカル�
 
      >[!NOTE]
      >
-     >「カテゴリ」または「SKU」オプションを選択すると、`Position` の **[!UICONTROL Sort By]** のオプションが表示されます。 この並べ替えオプションを使用すると、製品はカタログに表示されるのと同じ順序で表示されます。</br>
+     >「カテゴリ」または「SKU」オプションを選択すると、**[!UICONTROL Sort By]** の `Position` のオプションが表示されます。 この並べ替えオプションを使用すると、製品はカタログに表示されるのと同じ順序で表示されます。</br>
      >
      >「カテゴリ」オプションの場合、位置で並べ替えると、カタログに表示されるのと同じ順序で製品が表示されます。 SKU オプションの場合、位置で並べ替えると、「**[!UICONTROL Product SKUs]**」テキストボックスに入力した順序で製品が表示されます。
 
@@ -252,3 +252,5 @@ _製品_ コンテンツタイプを使用して、グリッドまたはカル�
 ![ ステージ上の製品カルーセル ](./assets/pb-products-admin-carousel.png){width="600"}
 
 [ ウィジェット ](../content-design/widgets.md) を使用して、このブロックをストア内の表示する場所に配置できるようになりました。 または、[ コンテンツを追加 – ブロック ](block.md) を使用して、既存のページ、タブ、ブロックにブロックを追加できます。
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

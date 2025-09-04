@@ -3,8 +3,8 @@ title: Media Gallery 画像の最適化
 description: メディアアセットに画像の最適化を使用する方法  [!DNL Commerce]  説明します。
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 画像の最適化の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
@@ -32,6 +32,8 @@ Media Gallery の画像最適化機能が有効になっている場合、画像
 
 設定で _最大幅_ と _最大高さ_ の値を変更すると、以前に挿入された既存の最適化画像がすべて更新されます。
 
-Media Gallery の画像の最適化を使用するには、構成が変更されたときに最適化された画像を再生成するために、`media.gallery.renditions.update` キューコンシューマーが実行されている必要があります。 詳しくは [ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ja) の _メッセージキューの管理_ を参照してください。
+Media Gallery の画像の最適化を使用するには、構成が変更されたときに最適化された画像を再生成するために、`media.gallery.renditions.update` キューコンシューマーが実行されている必要があります。 詳しくは [ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) の _メッセージキューの管理_ を参照してください。
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}
+
+<!-- Last updated from includes: 2024-01-30 15:43:39 -->

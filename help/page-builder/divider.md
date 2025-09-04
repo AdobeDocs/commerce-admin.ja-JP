@@ -3,7 +3,7 @@ title: 要素 – 区切り線
 description: ステージ内のコンテンツのセクション間の視覚的な区切りとしてルールを追加するために使用される、ディバイダー  [!DNL Page Builder]  コンテンツタイプについて説明します。
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
@@ -60,7 +60,7 @@ _ディバイダー_ コンテンツタイプを使用して、[[!DNL Page Build
 
 1. 次のいずれかの方法を使用して、ディバイダー **[!UICONTROL Line Color]** を変更します。
 
-   - 有効な [HTMLカラー名 ][1] を入力してください。 例：`Teal`。
+   - 有効な [HTML カラー名 ][1] を入力してください。 例：`Teal`。
    - 16 進数のカラー値を入力します。 例：`#008080`。
 
    完了したら、「**[!UICONTROL Apply]**」をクリックします。
@@ -73,7 +73,7 @@ _ディバイダー_ コンテンツタイプを使用して、[[!DNL Page Build
 
    ![ 線の色、太さ、幅の設定 ](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. 必要に応じて、_[!UICONTROL Advanced]_&#x200B;設定を更新します。
+1. 必要に応じて、_[!UICONTROL Advanced]_設定を更新します。
 
    - 親コンテナ内のディバイダーの位置を制御するには、**[!UICONTROL Alignment]** のオプションを選択します。
 
@@ -157,3 +157,5 @@ _ディバイダー_ コンテンツタイプを使用して、[[!DNL Page Build
    ![ 複製したデバイダーの位置への移動 ](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
 
 [1]: https://en.wikipedia.org/wiki/Web_colors
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

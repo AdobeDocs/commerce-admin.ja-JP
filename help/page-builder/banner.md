@@ -3,7 +3,7 @@ title: メディア – バナー
 description: ステージにイラストで表示されたインタラクティブコンポーネントを追加する際に使用するバナーコンテンツタ  [!DNL Page Builder]  プについて説明します。
 exl-id: 287d866c-8a63-4531-8c1b-40d560a07947
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '2302'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # メディア – バナー
 
-_バナー_ コンテンツタイプを使用して、[[!DNL Page Builder]  ステージ ](workspace.md#stage) でコールトゥアクションとボタンでユーザーを引きつけるイラスト付きのインタラクティブコンポーネントを追加します。
+_バナー_ コンテンツタイプを使用して、[[!DNL Page Builder]  ステージ ](workspace.md#stage) のcall to actionとボタンでユーザーを引きつけるイラスト付きのインタラクティブコンポーネントを追加します。
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ _バナー_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
 
    ![ バナーコンテンツタイプのステージへのドラッグ ](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   _[!UICONTROL Upload Image]_&#x200B;ボタンと&#x200B;_[!UICONTROL Select from Gallery]_ ボタンが含まれているので、ステージから直接バナーコンテンツをすばやく変更できます。 _[!UICONTROL Edit Banner]_&#x200B;ページのコンテンツを変更することもできます。
+   _[!UICONTROL Upload Image]_ボタンと_[!UICONTROL Select from Gallery]_ ボタンが含まれているので、ステージから直接バナーコンテンツをすばやく変更できます。 _[!UICONTROL Edit Banner]_ページのコンテンツを変更することもできます。
 
 1. バナープレースホルダー内をクリックして [ テキストエディター ](../content-design/editor.md) を表示し、バナーのコンテンツを入力します。
 
@@ -67,7 +67,7 @@ _バナー_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
    - [[!UICONTROL Background]](#background)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. 完了したら、右上隅の「**[!UICONTROL Save]**」をクリックして、_[!UICONTROL Edit Banner]_&#x200B;ページを閉じます。
+1. 完了したら、右上隅の「**[!UICONTROL Save]**」をクリックして、_[!UICONTROL Edit Banner]_ページを閉じます。
 
 1. 右上隅にある「**[!UICONTROL Save]**」をクリックして設定を適用し、[!DNL Page Builder] ワークスペースに戻ります。
 
@@ -183,7 +183,7 @@ _背景の種類_ を `Image` に設定する場合、次の設定を使用し�
 
 ### ビデオタイプの設定
 
-_[!UICONTROL Background Type]_&#x200B;を `Video` に設定した場合は、次の設定を使用して背景画像の表示を定義します。
+_[!UICONTROL Background Type]_を `Video` に設定した場合は、次の設定を使用して背景画像の表示を定義します。
 
 - **[!UICONTROL Video URL]** – 有効なビデオ URL を入力します。 有効なビデオ URL は、次へのリンクです。
 
@@ -223,7 +223,7 @@ _[!UICONTROL Background Type]_&#x200B;を `Video` に設定した場合は、次
 
 1. バナーコンテナの上にマウスポインターを置くと、ツールボックスが表示されます。次に、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"}）アイコンを選択します。
 
-1. 「_[!UICONTROL Content]_」セクションまでスクロールし、**[!UICONTROL Message Text]**&#x200B;エディターを使用してバナーテキストを入力および書式設定します。
+1. 「_[!UICONTROL Content]_」セクションまでスクロールし、**[!UICONTROL Message Text]**エディターを使用してバナーテキストを入力および書式設定します。
 
    テキストリンク、画像、ウィジェットなどの要素を挿入することもできます。
 
@@ -240,7 +240,7 @@ _[!UICONTROL Background Type]_&#x200B;を `Video` に設定した場合は、次
 
    >[!NOTE]
    >
-   >2.4.1 リリース以降、ストアフロントの表示に関する問題により、[!DNL Page Builder] はバナーとネストされたテキスト内のリンクのリンクをサポートしなくなりました。 _[!UICONTROL Message Text]_&#x200B;でリンクを使用している場合、「_[!UICONTROL Link]_」オプションを設定することはできません。 バナー全体に 1 つのリンクを使用する場合は、テキストからすべてのリンクを削除できます。<br/>
+   >2.4.1 リリース以降、ストアフロントの表示に関する問題により、[!DNL Page Builder] はバナーとネストされたテキスト内のリンクのリンクをサポートしなくなりました。 _[!UICONTROL Message Text]_でリンクを使用している場合、「_[!UICONTROL Link]_」オプションを設定することはできません。 バナー全体に 1 つのリンクを使用する場合は、テキストからすべてのリンクを削除できます。<br/>
    >
    >![ リンク設定がブロックされています ](./assets/pb-nested-link-blocked.png){width="200"}
 
@@ -309,11 +309,11 @@ _[!UICONTROL Background Type]_&#x200B;を `Video` に設定した場合は、次
 
 - **[!UICONTROL Alternative Text]** しくは、表示するデジタルアクセシビリティツールの _alt_ テキストの説明を入力します。
 
-  代替テキストの使用は、アクセシビリティのベストプラクティスであり、一部のロケールでは法律で義務付けられています。 HTMLすると、`alt` 属性は `image` タグのサブセットです。`<image title="tooltip" alt="description" src="image.jpg">`
+  代替テキストの使用は、アクセシビリティのベストプラクティスであり、一部のロケールでは法律で義務付けられています。 HTMLでは、`alt` 属性は `image` タグのサブセットです（`<image title="tooltip" alt="description" src="image.jpg">`）。
 
 - **[!UICONTROL Title Attribute]**：マウスオーバーしたときにツールヒントとして表示するテキストを入力します。
 
-  ベストプラクティスとして、説明的でキーワードの多いタイトルを選択すると、検索エンジンによる画像のインデックス作成方法が改善されます。 HTMLすると、`title` 属性は `image` タグのサブセットです。`<image title="tooltip" alt="description" src="image.jpg">`
+  ベストプラクティスとして、説明的でキーワードの多いタイトルを選択すると、検索エンジンによる画像のインデックス作成方法が改善されます。 HTMLでは、`title` 属性は `image` タグのサブセットです（`<image title="tooltip" alt="description" src="image.jpg">`）。
 
 ## [!UICONTROL Advanced]
 
@@ -369,3 +369,5 @@ _[!UICONTROL Background Type]_&#x200B;を `Video` に設定した場合は、次
    | [!UICONTROL Padding] | コンテナのすべての側面の内側の端に適用される空白のスペースの量です。 |
 
    {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

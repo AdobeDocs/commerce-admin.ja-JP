@@ -3,7 +3,7 @@ title: 在庫ソースの一括割り当ておよび割り当て解除
 description: ソースを割り当てツールを使用して、製品のソース割り当てを管理する方法について説明します。
 exl-id: 1f1e81a5-fb06-46b7-84ca-7feea4942093
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
@@ -65,3 +65,5 @@ _ソースを割り当て_ ツールを使用して、1 つ以上のソースを
 1. 「**[!UICONTROL Unassign Sources]**」をクリックします。
 
    ![ 選択した製品からソースを削除 ](assets/inventory-bulk-unassign-sources-summary.png){width="600" zoomable="yes"}
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

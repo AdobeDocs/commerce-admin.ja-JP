@@ -3,7 +3,7 @@ title: ダウンロード可能な製品
 description: デジタルファイルとして配信できるダウンロード可能な製品の作成方法を説明します。
 exl-id: c3dd4c5f-adc1-4a8f-a9da-7f0dedd1ee34
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ダウンロード可能な構成設定は、ダウンロード可能な製品のデフォルト値と配信オプションを決定し、ゲストがダウンロードを購入できるかどうかを指定します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ### 手順 2：属性セットの選択
 
-サンプルデータには、ダウンロード可能な製品の特別なフィールドを持つ _ダウンロード可能_ と呼ばれる [ 属性セット ](attribute-sets.md) が含まれています。 製品を保存する前に、既存のテンプレートを使用することも、別のテンプレートを作成することもできます。
+サンプルデータには、ダウンロード可能な製品の特別なフィールドを持つ [ ダウンロード可能 ](attribute-sets.md) と呼ばれる _属性セット_ が含まれています。 製品を保存する前に、既存のテンプレートを使用することも、別のテンプレートを作成することもできます。
 
 製品のテンプレートとして使用する属性セットを選択するには、次のいずれかの操作を行います。
 
@@ -143,11 +143,11 @@ ht-degree: 0%
    >
    >[Inventory management](../inventory-management/introduction.md) を有効にした場合、単一のSource マーチャントがこのセクションで数量を設定します。 マルチSourceのマーチャントは、「ソース」セクションでソースと数量を追加します。 次の _ソースと数量の割り当て（Inventory management）_ 節を参照してください。
 
-1. `Catalog, Search` のデフォルトの **[!UICONTROL Visibility]** 設定を受け入れます。
+1. **[!UICONTROL Visibility]** のデフォルトの `Catalog, Search` 設定を受け入れます。
 
 1. [ 新製品のリスト ](../content-design/widget-new-products-list.md) に製品を特集するには、「**[!UICONTROL Set Product as New]**」チェックボックスを選択します。
 
-1. 製品に _[!UICONTROL Categories]_&#x200B;を割り当てるには、**[!UICONTROL Select…]**&#x200B;のボックスをクリックし、次のいずれかの操作を行います。
+1. 製品に _[!UICONTROL Categories]_を割り当てるには、**[!UICONTROL Select…]**のボックスをクリックし、次のいずれかの操作を行います。
 
    **既存のカテゴリを選択**:
 
@@ -178,15 +178,15 @@ ht-degree: 0%
 
 ### 手順 5：ダウンロード可能な情報の入力
 
-下にスクロールして、「展開セレクター ![ 「_[!UICONTROL Downloadable Information]_」セクション ](../assets/icon-display-expand.png) 展開し、「**[!UICONTROL Is this downloadable product?]**」チェックボックスを選択します。
+下にスクロールして、「展開セレクター ![ 「](../assets/icon-display-expand.png)」セクション _[!UICONTROL Downloadable Information]_展開し、「**[!UICONTROL Is this downloadable product?]**」チェックボックスを選択します。
 
-有効にすると、_[!UICONTROL Downloadable Information]_&#x200B;セクションは 2 つの部分で構成されます。 最初のパートでは各ダウンロードリンクについて説明し、2 番目のパートでは各サンプルファイルについて説明します。 これらのオプションの多くは、デフォルト値を [configuration](#configure-the-download-options) で設定できます。
+有効にすると、_[!UICONTROL Downloadable Information]_セクションは 2 つの部分で構成されます。 最初のパートでは各ダウンロードリンクについて説明し、2 番目のパートでは各サンプルファイルについて説明します。 これらのオプションの多くは、デフォルト値を [configuration](#configure-the-download-options) で設定できます。
 
 ![ ダウンロード情報 ](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### リンクを完成させる
 
-1. 「_[!UICONTROL Links]_」セクションで、ダウンロードリンクの見出しとして使用する&#x200B;**[!UICONTROL Title]**&#x200B;を入力します。
+1. 「_[!UICONTROL Links]_」セクションで、ダウンロードリンクの見出しとして使用する&#x200B;**[!UICONTROL Title]**を入力します。
 
 1. 該当する場合は、「**[!UICONTROL Links can be purchased separately]**」チェックボックスを選択します。
 
@@ -201,7 +201,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >外部リソースへのリンクは、ダウンロード可能な製品として使用することはできません。 有効なリンクドメインは、`env.php` ファイル内でプログラムによって事前に定義されています（「設定ガイド [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=ja) の env.php リファレンス _を参照_）。
+   >外部リソースへのリンクは、ダウンロード可能な製品として使用することはできません。 有効なリンクドメインは、`env.php` ファイル内でプログラムによって事前に定義されています（「設定ガイド [ の ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html)env.php リファレンス _を参照_）。
 
    - **[!UICONTROL Shareable]** を次のいずれかに設定します。
 
@@ -222,7 +222,7 @@ ht-degree: 0%
 
 #### サンプルを完成させる
 
-1. 「_[!UICONTROL Samples]_」セクションで、サンプルの見出しとして使用する&#x200B;**[!UICONTROL Title]**&#x200B;を入力します。
+1. 「_[!UICONTROL Samples]_」セクションで、サンプルの見出しとして使用する&#x200B;**[!UICONTROL Title]**を入力します。
 
 1. 各サンプルの情報を入力するには、「**[!UICONTROL Add Link]**」をクリックします。
 
@@ -254,7 +254,7 @@ ht-degree: 0%
 - [デザイン](settings-advanced-design.md)
 - [ギフトオプション](product-gift-options.md)
 
-### 手順 7：商品のPublish
+### 手順 7：製品を公開する
 
 カタログに製品を公開する準備が整ったら、**[!UICONTROL Enable Product]** を `Yes` に設定し、次のいずれかの操作を行います。
 
@@ -262,7 +262,7 @@ ht-degree: 0%
 
 - 右上隅の「**[!UICONTROL Save]**」をクリックします。
 
-- ストアで製品を表示するには、_管理者_ （![ メニュー矢印 ](../assets/icon-menu-down-arrow-black.png)） メニューの **[!UICONTROL Customer View]** を選択します。
+- ストアで製品を表示するには、**[!UICONTROL Customer View]** 管理者 _（_ メニュー矢印 ![） メニューの ](../assets/icon-menu-down-arrow-black.png) を選択します。
 
   ストアが新しいブラウザータブで開きます。
 
@@ -274,7 +274,7 @@ _[!UICONTROL Save]_（メニュー矢印 ![ メニューで ](../assets/icon-men
 
 ## ストアフロントの経験
 
-顧客アカウントダッシュボードでは、_[!UICONTROL My Downloadable Products]_&#x200B;ページはダウンロード可能な製品の各注文にリンクされています。 ダウンロードは、注文が完了すると、顧客のアカウントから利用できるようになります。
+顧客アカウントダッシュボードでは、_[!UICONTROL My Downloadable Products]_ページはダウンロード可能な製品の各注文にリンクされています。 ダウンロードは、注文が完了すると、顧客のアカウントから利用できるようになります。
 
 ![ ダウンロード可能な製品 ](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
@@ -288,7 +288,7 @@ _[!UICONTROL Save]_（メニュー矢印 ![ メニューで ](../assets/icon-men
 | [!UICONTROL Status] | 注文処理ステータス。 |
 | [!UICONTROL Remaining Downloads] | ダウンロードされた製品の使用可能なダウンロードの数。 |
 
-_&#x200B;**アカウントダッシュボードから製品ファイルをダウンロードするには**&#x200B;_
+_**アカウントダッシュボードから製品ファイルをダウンロードするには**_
 
 1. アカウントダッシュボードで、顧客は **[!UICONTROL My Downloadable Products]** を選択します。
 
@@ -297,3 +297,5 @@ _&#x200B;**アカウントダッシュボードから製品ファイルをダウ
 1. ダウンロードウィンドウの右下隅にある「_ダウンロード_」アイコンをクリックします。
 
 1. ダウンロードした場所でファイルを検索し、目的の場所にファイルを保存します。
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

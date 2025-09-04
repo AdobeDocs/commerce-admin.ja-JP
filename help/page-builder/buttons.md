@@ -3,7 +3,7 @@ title: 要素 – ボタン
 description: ステージ内の個々のボタンまたは一連のボタンを追加するために使用される、ボタンコンテンツタイプについて説明  [!DNL Page Builder]  ます。
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -103,9 +103,9 @@ _ボタン_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
 
      ![ ボタンリンクのカテゴリの選択 ](./assets/pb-elements-button-settings-button-link-category-search.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Page]** - CMS ページの名前（一部または全部）を入力するか、空白フィールドをクリックして完全なリストを表示します。 次に、検索結果リストでページの名前を選択します。
+   - **[!UICONTROL Page]** - CMSページの名前（一部または全部）を入力するか、空白フィールドをクリックして一覧を表示します。 次に、検索結果リストでページの名前を選択します。
 
-     ![ ボタンリンクの CMS ページを選択 ](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
+     ![ ボタンリンク用のCMSページを選択 ](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
 1. 必要に応じて [ 詳細設定 ][advanced-settings] を完了します。
 
@@ -210,7 +210,7 @@ _ボタン_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
      | `URL` | 宛先ページの識別に相対 URL または完全修飾 URL を使用します。 |
      | `Product` | 製品名または SKU に基づいて宛先ページを識別します。 製品名は、部分的または完全な名前に基づいて検索できます。 検索結果のリストから製品が選択されます。 |
      | `Category` | 宛先ページをカテゴリツリー内の特定のカテゴリまたはサブカテゴリとして識別します。 |
-     | `Page` | 宛先ページを特定の CMS ページとして識別します。 |
+     | `Page` | リンク先ページを特定のCMSページとして識別します。 |
 
      {style="table-layout:auto"}
 
@@ -243,7 +243,7 @@ _ボタン_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
 
 ## 詳細設定の変更
 
-個々のボタンおよびボタンコンテナの _[!UICONTROL Advanced]_&#x200B;設定を変更できます。
+個々のボタンおよびボタンコンテナの _[!UICONTROL Advanced]_設定を変更できます。
 
 1. 親コンテナ内の位置を制御するには、**[!UICONTROL Alignment]** のオプションを選択します。
 
@@ -300,3 +300,5 @@ _ボタン_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
 
 [advanced-settings]: #change-advanced-settings
 [button-container]: #change-settings-for-a-button-container
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

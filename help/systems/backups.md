@@ -3,8 +3,8 @@ title: システムバックアップ
 description: ファイルシステム、データベース、メディアファイルを含む、システムバックアップを作成およびスケジュールする方法を説明します。
 exl-id: 3a9655c1-c124-42be-a487-b31404dada90
 feature: System, Configuration
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -23,11 +23,11 @@ Adobe CommerceとMagento Open Sourceを使用すると、ファイルシステ�
 
 ## バックアップの有効化とスケジュール設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
-1. **[!UICONTROL Backup Settings]** の ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. ![ の ](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Backup Settings]** を展開します。
 
 1. **[!UICONTROL Enabled Schedule Backup]** を `Yes` に設定します。
 
@@ -45,7 +45,7 @@ Adobe CommerceとMagento Open Sourceを使用すると、ファイルシステ�
 
 ## バックアップの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Backups]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Backups]**に移動します。
 
 1. 右上隅で、作成するバックアップの種類をクリックします。
 
@@ -66,3 +66,5 @@ Adobe CommerceとMagento Open Sourceを使用すると、ファイルシステ�
 1. プロンプトが表示されたら、アクションを確認します。
 
 
+
+<!-- Last updated from includes: 2023-02-22 09:59:54 -->

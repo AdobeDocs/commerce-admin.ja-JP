@@ -3,7 +3,7 @@ title: シンプル製品
 description: 個別に、またはグループ化された製品、設定可能な製品、バンドル製品の一部として販売できる、シンプルな製品を作成する方法について説明します。
 exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
-1. 右上の _[!UICONTROL Add Product]_（メニュー矢印 ![ メニューで ](../assets/icon-menu-down-arrow-red.png){width="25"} 「」を選択&#x200B;**[!UICONTROL Simple Product]**&#x200B;ます。
+1. 右上の _[!UICONTROL Add Product]_（メニュー矢印 ![ メニューで ](../assets/icon-menu-down-arrow-red.png){width="25"} 「」を選択&#x200B;**[!UICONTROL Simple Product]**ます。
 
    ![ シンプルな製品を追加 ](./assets/product-add-simple.png){width="700" zoomable="yes"}
 
@@ -81,9 +81,9 @@ ht-degree: 0%
 
 1. 商品の **[!UICONTROL Weight]** を入力します。
 
-1. `Catalog, Search` のデフォルトの **[!UICONTROL Visibility]** 設定を受け入れます。
+1. **[!UICONTROL Visibility]** のデフォルトの `Catalog, Search` 設定を受け入れます。
 
-1. 製品に _[!UICONTROL Categories]_&#x200B;を割り当てるには、**[!UICONTROL Select…]**&#x200B;のボックスをクリックし、次のいずれかの操作を行います。
+1. 製品に _[!UICONTROL Categories]_を割り当てるには、**[!UICONTROL Select…]**のボックスをクリックし、次のいずれかの操作を行います。
 
    **既存のカテゴリを選択**:
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 - [デザイン](settings-advanced-design.md)
 - [ギフトオプション](product-gift-options.md)
 
-## 手順 6：商品のPublish
+## 手順 6：製品を公開する
 
 1. カタログに製品を公開する準備が整ったら、「**[!UICONTROL Enable Product]**」スイッチを `Yes` に設定します。
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
       - 右上隅の「**[!UICONTROL Save]**」をクリックします。
 
-      - ストアで製品を表示するには、_管理者_ （![ メニュー矢印 ](../assets/icon-menu-down-arrow-black.png)）メニューで **[!UICONTROL Customer View]** を選択します。
+      - ストアで製品を表示するには、**[!UICONTROL Customer View]** 管理者 _（_ メニュー矢印 ![）メニューで ](../assets/icon-menu-down-arrow-black.png) を選択します。
 
      ストアが新しいブラウザータブで開きます。
 
@@ -149,3 +149,5 @@ ht-degree: 0%
 - シンプルな製品設定は、特定の製品の設定可能な製品設定を上書きします。
 
 - シンプルな製品には、様々なタイプの入力を含むカスタムオプションを含めることができ、単一の SKU から多くの製品バリエーションを販売できます。
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

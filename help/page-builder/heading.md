@@ -3,7 +3,7 @@ title: 要素 – 見出し
 description: 見出しレベルが H1 から H6 のテキストコンテナをステージに追加するために使用する「見出し」コンテンツタ  [!DNL Page Builder]  プについて説明します。
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # 要素 – 見出し
 
-見出しレベルは、コンテンツを整理し、検索エンジンが各ページのインデックスを作成するのに役立つ階層を確立します。 [[!DNL Page Builder]  ステージ ](workspace.md#stage) で _見出し_ コンテンツタイプを使用して、見出しレベルが H1～H6 のテキストコンテナをステージに追加します。 見出しは、現在のテーマに関連付けられているスタイルシートに従って書式設定されます。
+見出しレベルは、コンテンツを整理し、検索エンジンが各ページのインデックスを作成するのに役立つ階層を確立します。 _ステージ_ で [[!DNL Page Builder]  見出し ](workspace.md#stage) コンテンツタイプを使用して、見出しレベルが H1～H6 のテキストコンテナをステージに追加します。 見出しは、現在のテーマに関連付けられているスタイルシートに従って書式設定されます。
 
-_[!UICONTROL Content]_&#x200B;セクションの [ コンテンツ見出し ](workspace.md) フィールドを使用して、ページの上部に H1 見出しを追加できます。 ただし、このフィールドは以前の [!DNL Commerce] バージョンのレガシーで、古いコンテンツをサポートするために提供されています。 このフィールドでは、[!DNL Page Builder] の高度な機能を利用できません。 「コンテンツ見出し」フィールドを空白のままにし、[!DNL Page Builder] 見出しコンテンツタイプを使用して、任意のレベルの見出しをページに追加することをお勧めします。
+[ セクションの ](workspace.md) コンテンツ見出し _[!UICONTROL Content]_フィールドを使用して、ページの上部に H1 見出しを追加できます。 ただし、このフィールドは以前の [!DNL Commerce] バージョンのレガシーで、古いコンテンツをサポートするために提供されています。 このフィールドでは、[!DNL Page Builder] の高度な機能を利用できません。 「コンテンツ見出し」フィールドを空白のままにし、[!DNL Page Builder] 見出しコンテンツタイプを使用して、任意のレベルの見出しをページに追加することをお勧めします。
 
 次の例では、Luma テーマでフォーマットされている場合に、コンテンツの見出しと見出しのコンテンツタイプがどのように表示されるかを示しています。
 
 ![ ストアフロントのコンテンツの見出しと見出しレベル ](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
-見出しは、[!DNL Page Builder] パネルの _要素_ セクションから、ステージの行、列、タブセットにドラッグできます。 見出しのレベルと配置は、ステージ上のエディターツールバーから、または _設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}） コントロールを使用して制御できます。
+見出しは、_パネルの_ 要素 [!DNL Page Builder] セクションから、ステージの行、列、タブセットにドラッグできます。 見出しのレベルと配置は、ステージ上のエディターツールバーから、または _設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}） コントロールを使用して制御できます。
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -74,7 +74,7 @@ _[!UICONTROL Content]_&#x200B;セクションの [ コンテンツ見出し ](wo
 
    このコンテンツは、見出しエディターで更新することもできます。
 
-1. 必要に応じて、_[!UICONTROL Advanced]_&#x200B;設定を更新します。
+1. 必要に応じて、_[!UICONTROL Advanced]_設定を更新します。
 
    - 親コンテナ内の見出しの位置を制御するには、**[!UICONTROL Alignment]** のいずれかを選択します。
 
@@ -154,3 +154,5 @@ _[!UICONTROL Content]_&#x200B;セクションの [ コンテンツ見出し ](wo
 1. 見出しレベルを変更する場合は、見出しテキストをクリックし、エディターツールバーで新しいレベルを選択します。
 
    ![ 新しい見出しレベルの選択 ](./assets/pb-elements-heading-change-heading-level.png){width="500" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -3,7 +3,7 @@ title: メディア – スライダー
 description: ステージに画像のスライドショーを追加するために使用される、Slider コンテンツタイプについて説明  [!DNL Page Builder]  ます。
 exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '3810'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Slider コンテンツ タイプを使用する場合は、個々のスライド
 |--- |--- |--- |
 | 移動 | ![ 移動アイコン ](./assets/pb-icon-move.png){width="25"} | スライドをスライド上の別の位置に移動します。 |
 | （ラベル） | スライド番号 | 現在のスライドの番号を識別します。 |
-| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | _[!UICONTROL Edit Slide]_&#x200B;ページを開きます。このページで、現在のスライドのプロパティを変更できます。 |
+| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | _[!UICONTROL Edit Slide]_ページを開きます。このページで、現在のスライドのプロパティを変更できます。 |
 | 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | 現在のスライドをコピーします。 |
 | 削除 | ![ 削除アイコン ](./assets/pb-icon-remove.png){width="25"} | スライダーから現在のスライドを削除します。 |
 
@@ -42,7 +42,7 @@ Slider コンテンツ タイプを使用する場合は、個々のスライド
 |--- |--- |--- |
 | 移動 | ![ 移動アイコン ](./assets/pb-icon-move.png){width="25"} | スライダをステージ上の別の位置に移動します。 |
 | （ラベル） | [!UICONTROL Slider] | スライダーコンテナを識別します。 |
-| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | _[!UICONTROL Edit Slider]_&#x200B;ページが開き、ビデオとコンテナのプロパティを変更できます。 |
+| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | _[!UICONTROL Edit Slider]_ページが開き、ビデオとコンテナのプロパティを変更できます。 |
 | Hide | ![ アイコンを非表示 ](./assets/pb-icon-hide.png){width="25"} | 現在のスライダを非表示にします。 |
 | 表示 | ![ アイコンを表示 ](./assets/pb-icon-show.png){width="25"} | 非表示のスライダーを表示します。 |
 | 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | スライダのコピーを作成します。 |
@@ -126,11 +126,11 @@ Slider コンテンツ タイプを使用する場合は、個々のスライド
    - [[!UICONTROL Content]](#content)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. 完了したら、右上隅の「**[!UICONTROL Save]**」をクリックして、_[!UICONTROL Edit Slide]_&#x200B;ページを閉じます。
+1. 完了したら、右上隅の「**[!UICONTROL Save]**」をクリックして、_[!UICONTROL Edit Slide]_ページを閉じます。
 
 ### スライドにウィジェットを追加
 
-次の手順を使用して、[!DNL Page Builder] のステージのスライドに任意の [ ウィジェットタイプ ](../content-design/widgets.md#widget-types) を追加できます。
+次の手順を使用して、[ のステージのスライドに任意の ](../content-design/widgets.md#widget-types) ウィジェットタイプ [!DNL Page Builder] を追加できます。
 
 1. スライドに表示する [ ウィジェットを作成 ](../content-design/widget-create.md) します。
 
@@ -256,7 +256,7 @@ Slider コンテンツ タイプを使用する場合は、個々のスライド
 
 ### 画像タイプの設定
 
-_[!UICONTROL Background Type]_&#x200B;を `Image` に設定した場合は、次の設定を使用して背景画像の表示を定義します。
+_[!UICONTROL Background Type]_を `Image` に設定した場合は、次の設定を使用して背景画像の表示を定義します。
 
 ![ 背景画像付きバナー ](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -338,9 +338,9 @@ _背景の種類_ を `Video` に設定する場合、次の設定を使用し�
 
 1. スライダーの下部にあるナビゲーションドットをクリックして、個々のスライドのツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-1. _[!UICONTROL Content]_&#x200B;セクションで、スライドに表示する&#x200B;**[!UICONTROL Message Text]**&#x200B;を入力します。
+1. _[!UICONTROL Content]_セクションで、スライドに表示する&#x200B;**[!UICONTROL Message Text]**を入力します。
 
-1. 「_[!UICONTROL Content]_」セクションまでスクロールし、**[!UICONTROL Message Text]**&#x200B;エディターを使用してバナーテキストを入力および書式設定します。
+1. 「_[!UICONTROL Content]_」セクションまでスクロールし、**[!UICONTROL Message Text]**エディターを使用してバナーテキストを入力および書式設定します。
 
    テキストリンク、画像、ウィジェットなどの要素を挿入することもできます。
 
@@ -367,7 +367,7 @@ _背景の種類_ を `Video` に設定する場合、次の設定を使用し�
      ![ リンクするページの選択 ](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
 
    <div class="bs-callout-info" markdown="1">
-   2.4.1 リリース以降、ストアフロントの表示に関する問題により、[!DNL Page Builder] はスライドとネストされたテキスト内のリンクのリンクをサポートしなくなりました。 _[!UICONTROL Message Text]_&#x200B;内のリンクを使用している場合は、_[!UICONTROL Link]_ オプションを設定できません。 スライド全体に 1 つのリンクを使用する場合は、テキストからすべてのリンクを削除できます。
+   2.4.1 リリース以降、ストアフロントの表示に関する問題により、[!DNL Page Builder] はスライドとネストされたテキスト内のリンクのリンクをサポートしなくなりました。 _[!UICONTROL Message Text]_内のリンクを使用している場合は、_[!UICONTROL Link]_ オプションを設定できません。 スライド全体に 1 つのリンクを使用する場合は、テキストからすべてのリンクを削除できます。
 
    ![ リンク設定がブロックされています ](./assets/pb-nested-link-blocked.png){width="300"}
    </div>
@@ -436,11 +436,11 @@ _背景の種類_ を `Video` に設定する場合、次の設定を使用し�
 
 - **[!UICONTROL Alternative Text]** しくは、表示するデジタルアクセシビリティツールの _alt_ テキストの説明を入力します。
 
-  代替テキストの使用は、アクセシビリティのベストプラクティスであり、一部のロケールでは法律で義務付けられています。 HTMLすると、`alt` 属性は `image` タグのサブセットです。`<image title="tooltip" alt="description" src="image.jpg">`
+  代替テキストの使用は、アクセシビリティのベストプラクティスであり、一部のロケールでは法律で義務付けられています。 HTMLでは、`alt` 属性は `image` タグのサブセットです（`<image title="tooltip" alt="description" src="image.jpg">`）。
 
 - **[!UICONTROL Title Attribute]**：マウスオーバーしたときにツールヒントとして表示するテキストを入力します。
 
-  ベストプラクティスとして、説明的でキーワードの多いタイトルを選択すると、検索エンジンによる画像のインデックス作成方法が改善されます。 HTMLすると、`title` 属性は `image` タグのサブセットです。`<image title="tooltip" alt="description" src="image.jpg">`
+  ベストプラクティスとして、説明的でキーワードの多いタイトルを選択すると、検索エンジンによる画像のインデックス作成方法が改善されます。 HTMLでは、`title` 属性は `image` タグのサブセットです（`<image title="tooltip" alt="description" src="image.jpg">`）。
 
 ## [!UICONTROL Advanced]
 
@@ -614,10 +614,12 @@ _背景の種類_ を `Video` に設定する場合、次の設定を使用し�
 
 1. 右上隅の **[!UICONTROL Save]** 矢印をクリックし、「**[!UICONTROL Save & Close]**」を選択します。
 
-1. _ページ_ グリッドでページを見つけ、_[!UICONTROL Action]_&#x200B;列で&#x200B;**[!UICONTROL View]**&#x200B;を選択します。
+1. _ページ_ グリッドでページを見つけ、**[!UICONTROL View]** 列で _[!UICONTROL Action]_を選択します。
 
    ![ スライダーのプレビュー – 標準ビュー ](./assets/pb-media-slider-desktop-view.png){width="600" zoomable="yes"}
 
    スライダーをプレビューする場合は、モバイルデバイスでの表示を確認できるように、ウィンドウのサイズを変更します。
 
    ![ スライダーのプレビュー – モバイル表示 ](./assets/pb-media-slider-mobile-view.png){width="400" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

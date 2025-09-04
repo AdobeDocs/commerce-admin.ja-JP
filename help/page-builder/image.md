@@ -1,9 +1,9 @@
 ---
 title: メディア – 画像
-description: JPG、GIF、PNG 画像をステージに追加するために使用される、画像コンテンツタ  [!DNL Page Builder]  プについて説明します。
+description: JPG、GIFまたは PNG 画像をステージに追加するために使用される、画像コンテンツタイプについて説明  [!DNL Page Builder]  ます。
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 0%
@@ -16,7 +16,7 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
 >[!TIP]
 >
->[Adobe Stock Integration](../content-design/adobe-stock.md) を使用して、[Adobe Stock&rbrace; から提供される数百万のアセットの中から適切なアセットを見つけて保存でき ](https://stock.adobe.com) す。 Adobe Stock アセットを検索、調整、ギャラリーに保存する方法について詳しくは、[Adobe Stock画像の使用 ](../content-design/adobe-stock-manage.md) を参照してください。
+>[Adobe Stock Integration](../content-design/adobe-stock.md) を使用して、[Adobe Stock} から提供される数百万のアセットの中から適切なアセットを見つけて保存でき ](https://stock.adobe.com) す。 Adobe Stock アセットを検索、調整、ギャラリーに保存する方法について詳しくは、[Adobe Stock画像の使用 ](../content-design/adobe-stock-manage.md) を参照してください。
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -58,7 +58,7 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
    >
    >最大ファイルサイズは 4 MB です。 サポートされているファイルタイプは、JPG、GIF、PNG です。
 
-   - _&#x200B;**新しい画像をアップロード**&#x200B;_：この方法を使用して、システムから新しい画像ファイルをアップロードします。
+   - _**新しい画像をアップロード**_：この方法を使用して、システムから新しい画像ファイルをアップロードします。
 
       - 「**[!UICONTROL Upload Image]**」をクリックします。
 
@@ -66,7 +66,7 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
      別の方法として、システムから画像ファイルをドラッグして、_カメラ_ （![ カメラアイコン ](./assets/pb-icon-camera.png){width="20"}）アイコンの上にドロップすることもできます。
 
-   - _&#x200B;**既存のアセットを選択**&#x200B;_：メディアストレージ/ギャラリーから既存の画像アセットを選択する場合は、この方法を使用します。
+   - _**既存のアセットを選択**_：メディアストレージ/ギャラリーから既存の画像アセットを選択する場合は、この方法を使用します。
 
       - 「**[!UICONTROL Select from Gallery]**」をクリックします。
 
@@ -76,11 +76,11 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
         ![ 選択した画像の追加 ](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _&#x200B;**Adobe Stock画像を検索して選択**&#x200B;_:Adobe Stock内から画像を検索する場合に使用します。
+   - _**Adobe Stock画像を検索して選択**_:Adobe Stock内から画像を検索する場合に使用します。
 
      >[!NOTE]
      >
-     >この方法を使用するには、管理者向けに設定された [&#128279;](../content-design/adobe-stock.md)0&rbrace;Adobe Stock統合 &rbrace; が必要です。
+     >この方法を使用するには、管理者向けに設定された [0}Adobe Stock統合 } が必要です。](../content-design/adobe-stock.md)
 
       - 「**[!UICONTROL Search Adobe Stock]**」をクリックして画像を検索します。
 
@@ -107,13 +107,13 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
 1. 現在の **[!UICONTROL Image]** を変更するには、次のいずれかの操作を行います。
 
-   - _&#x200B;**新しい画像をアップロード**&#x200B;_：この方法を使用して、システムから新しい画像ファイルをアップロードします。
+   - _**新しい画像をアップロード**_：この方法を使用して、システムから新しい画像ファイルをアップロードします。
 
       - 「**[!UICONTROL Upload Image]**」をクリックします。
 
       - 画像を見つけて選択し、ギャラリーとターゲットコンテナに追加します。
 
-   - _&#x200B;**既存のアセットを選択**&#x200B;_：メディアストレージ/ギャラリーから既存の画像アセットを選択する場合は、この方法を使用します。
+   - _**既存のアセットを選択**_：メディアストレージ/ギャラリーから既存の画像アセットを選択する場合は、この方法を使用します。
 
       - 「**[!UICONTROL Select from Gallery]**」をクリックします。
 
@@ -127,7 +127,7 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
      >[!NOTE]
      >
-     >この方法を使用するには、管理者向けに設定された [&#128279;](../content-design/adobe-stock.md)0&rbrace;Adobe Stock統合 &rbrace; が必要です。
+     >この方法を使用するには、管理者向けに設定された [0}Adobe Stock統合 } が必要です。](../content-design/adobe-stock.md)
 
       - 「**[!UICONTROL Search Adobe Stock]**」をクリックして画像を検索します。
 
@@ -165,7 +165,7 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
    キャプションの形式は、現在のテーマに関連付けられているスタイルシートによって決まります。
 
-   通常、キャプションは画像の下に表示され、訪問者や検索エンジンに画像に関する情報を提供します。 サイトが複数の言語で使用可能な場合は、同じ画像を使用しても、キャプションは翻訳できます。 HTMLすると、`<figcaption>` タグは `<figure>` タグのサブセットです。`<figcaption>This is the image caption</figcaption>`
+   通常、キャプションは画像の下に表示され、訪問者や検索エンジンに画像に関する情報を提供します。 サイトが複数の言語で使用可能な場合は、同じ画像を使用しても、キャプションは翻訳できます。 HTMLでは、`<figcaption>` タグは `<figure>` タグのサブセットです。`<figcaption>This is the image caption</figcaption>`
 
 1. 必要に応じて、その他の設定を更新します。
 
@@ -196,11 +196,11 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
 - **[!UICONTROL Alternative Text]** しくは、表示するデジタルアクセシビリティツールの _alt_ テキストの説明を入力します。
 
-  代替テキストの使用は、アクセシビリティのベストプラクティスであり、一部のロケールでは法律で義務付けられています。 HTMLすると、`alt` 属性は `image` タグのサブセットです。`<image title="tooltip" alt="description" src="image.jpg">`
+  代替テキストの使用は、アクセシビリティのベストプラクティスであり、一部のロケールでは法律で義務付けられています。 HTMLでは、`alt` 属性は `image` タグのサブセットです（`<image title="tooltip" alt="description" src="image.jpg">`）。
 
 - **[!UICONTROL Title Attribute]**：マウスオーバーしたときにツールヒントとして表示するテキストを入力します。
 
-  ベストプラクティスとして、説明的でキーワードの多いタイトルを選択すると、検索エンジンによる画像のインデックス作成方法が改善されます。 HTMLすると、`title` 属性は `image` タグのサブセットです。`<image title="tooltip" alt="description" src="image.jpg">`
+  ベストプラクティスとして、説明的でキーワードの多いタイトルを選択すると、検索エンジンによる画像のインデックス作成方法が改善されます。 HTMLでは、`title` 属性は `image` タグのサブセットです（`<image title="tooltip" alt="description" src="image.jpg">`）。
 
 ## [!UICONTROL Advanced]
 
@@ -258,3 +258,5 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
   | [!UICONTROL Padding] | コンテナのすべての側面の内側の端に適用される空白のスペースの量です。 |
 
   {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -3,7 +3,7 @@ title: コンテンツを追加 – 製品レコメンデーション
 description: レコメンデーションのリストをステージに追加するために使用される、Product Recommendations コンテンツタイプについて説明  [!DNL Page Builder]  ます。
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # コンテンツを追加 – 製品レコメンデーション
 
-_Product Recommendations_ コンテンツタイプを使用して、CMS ページ、ブロック、動的ブロックの [[!DNL Page Builder]  ステージ ](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/admin/create) にアクティブな既存の [ レコメンデーションユニット ](workspace.md#stage) を追加します。
+_Product Recommendations_ コンテンツタイプを使用して、CMS ページ、ブロック、動的ブロックの [ ステージ ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) にアクティブな既存の [[!DNL Page Builder]  レコメンデーションユニット ](workspace.md#stage) を追加します。
 
 >[!NOTE]
 >
->[!DNL Page Builder]_Product Recommendations_ コンテンツタイプは、Adobe Commerce 2.4.4 以降でサポートされ、[Product Recommendations metapackage バージョン 3.0.x 以降 ](https://commercemarketplace.adobe.com/magento-product-recommendations.html) で利用できます。 Product Recommendations のサポートを追加する [!DNL Page Builder] は、[ インストール情報を参照 ](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/getting-started/install-configure) してください。 **このコンテンツタイプは、Magento Open Sourceでは使用できません。**
+>[!DNL Page Builder]_Product Recommendations_ コンテンツタイプは、Adobe Commerce 2.4.4 以降でサポートされ、[Product Recommendations metapackage バージョン 3.0.x 以降 ](https://commercemarketplace.adobe.com/magento-product-recommendations.html) で利用できます。 Product Recommendations のサポートを追加する [!DNL Page Builder] は、[ インストール情報を参照 ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure) してください。 **このコンテンツタイプは、Magento Open Sourceでは使用できません。**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ _Product Recommendations_ コンテンツタイプを使用して、CMS ペー�
 
 ## 既存のレコメンデーションユニットの追加
 
-1. [!DNL Page Builder] ページタイプの [ レコメンデーションユニットの作成 ](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/admin/create) が完了していることを確認します。
+1. [ ページタイプの ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) レコメンデーションユニットの作成 [!DNL Page Builder] が完了していることを確認します。
 
 >[!NOTE]
 >
@@ -45,11 +45,11 @@ _Product Recommendations_ コンテンツタイプを使用して、CMS ペー�
 
 1. ページ、ブロック、またはダイナミックブロックを編集モードで開きます。
 
-1. 「_[!UICONTROL Content]_」セクションを展開し、コンテンツプレビュー領域の&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;または内部をクリックして、[!DNL Page Builder] ワークスペースを開きます。
+1. 「_[!UICONTROL Content]_」セクションを展開し、コンテンツプレビュー領域の&#x200B;**[!UICONTROL Edit with Page Builder]**または内部をクリックして、[!DNL Page Builder] ワークスペースを開きます。
 
-1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_&#x200B;の下にある&#x200B;**[!UICONTROL Row]**&#x200B;プレースホルダーをステージにドラッグします。
+1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_の下にある&#x200B;**[!UICONTROL Row]**プレースホルダーをステージにドラッグします。
 
-1. [!DNL Page Builder] パネルの _[!UICONTROL Add Content]_&#x200B;の下で、**[!UICONTROL Product Recommendation]**&#x200B;プレースホルダーを行にドラッグします。
+1. [!DNL Page Builder] パネルの _[!UICONTROL Add Content]_の下で、**[!UICONTROL Product Recommendation]**プレースホルダーを行にドラッグします。
 
    ![ 製品レコメンデーションコンテンツタイプの追加 ](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -68,7 +68,7 @@ _Product Recommendations_ コンテンツタイプを使用して、CMS ペー�
 
 1. 右上隅の「**[!UICONTROL Add Selected]**」をクリックします。
 
-   選択した製品レコメンデーションの名前が、_[!UICONTROL Edit Product Recommendation]_&#x200B;のページの「_[!UICONTROL Selection]_」セクションに表示されます。
+   選択した製品レコメンデーションの名前が、_[!UICONTROL Selection]_のページの「_[!UICONTROL Edit Product Recommendation]_」セクションに表示されます。
 
 1. [ 詳細設定 ](#advanced-settings) に必要な変更を加えます。
 
@@ -164,3 +164,5 @@ _Product Recommendations_ コンテンツタイプを使用して、CMS ペー�
    | [!UICONTROL Padding] | ユニットのすべての側面の内側の端に適用される空白スペースの量。 オプション：`Top`/`Right`/`Bottom`/`Left` |
 
    {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

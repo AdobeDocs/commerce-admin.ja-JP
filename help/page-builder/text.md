@@ -3,7 +3,7 @@ title: 要素 – テキスト
 description: ステージでテキストコンテナを追加するために使用される、テキストコンテンツタイプについて説明  [!DNL Page Builder]  ます。
 exl-id: 3f14af35-9c04-4f4b-b3dd-d3406d56a9c0
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 要素 – テキスト
 
-_テキスト_ コンテンツタイプを使用すると、[[!DNL Page Builder]  ステージ ](workspace.md#stage) に WYSIWYG （「What You See Is What You Get」）エディターを含むテキストコンテナを追加できます。 また、エディターツールバーからテキストにリンク、画像、[ 変数 ](../systems/variables-predefined.md) およびウィジェットを追加できます。
+_テキスト_ コンテンツタイプを使用して、WYSIWYG（「What You See Is What You Get」）エディターを含むテキストコンテナを [[!DNL Page Builder]  ステージ ](workspace.md#stage) に追加します。 また、エディターツールバーからテキストにリンク、画像、[ 変数 ](../systems/variables-predefined.md) およびウィジェットを追加できます。
 
 ![ バナー上の書式付きテキスト ](./assets/pb-storefont-banner-with-button.png){width="700"}
 
@@ -114,7 +114,7 @@ _テキスト_ コンテンツタイプを使用すると、[[!DNL Page Builder]
 
 1. 必要に応じてコンテンツを更新します。
 
-1. 必要に応じて、_[!UICONTROL Advanced]_&#x200B;設定を更新します。
+1. 必要に応じて、_[!UICONTROL Advanced]_設定を更新します。
 
    - 親コンテナ内のテキストの位置を制御するには、**[!UICONTROL Alignment]** のいずれかを選択します。
 
@@ -170,3 +170,5 @@ _テキスト_ コンテンツタイプを使用すると、[[!DNL Page Builder]
      {style="table-layout:auto"}
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックして設定を適用し、[!DNL Page Builder] ワークスペースに戻ります。
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

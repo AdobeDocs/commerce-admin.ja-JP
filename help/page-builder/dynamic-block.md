@@ -3,7 +3,7 @@ title: コンテンツを追加 – 動的ブロック
 description: 再利用可能な動的ブロックをステージに追加するために使用される、動的ブロックコンテンツタイプについて説明  [!DNL Page Builder]  ます。
 exl-id: 04c90f47-9e32-4d34-ac0d-a2f2cec95ffc
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 0%
@@ -164,3 +164,5 @@ ht-degree: 0%
 1. 動的ブロックコンテナにカーソルを合わせてツールボックスを表示し、_削除_ （![ 削除アイコン ](./assets/pb-icon-remove.png){width="20"}）アイコンを選択します。
 
 1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL OK]**」をクリックします。
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

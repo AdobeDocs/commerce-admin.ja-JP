@@ -2,8 +2,8 @@
 title: エディターでのウィジェットの挿入
 description: WYSIWYG エディターのウィジェットツールを使用して、ページに様々なコンテンツ要素を追加します。
 exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -59,3 +59,5 @@ ht-degree: 0%
    HTML コードを操作している場合は、ページ上部にリンクの [ マークアップタグ ](../systems/markup-tags.md) が表示され、二重中括弧で囲まれます。 必要に応じて、_切り取りと貼り付け_ を使用して、コード内でリンクを表示する位置にマークアップタグを配置します。
 
 1. コンテンツの編集が完了したら、「**[!UICONTROL Save]**」をクリックします。
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

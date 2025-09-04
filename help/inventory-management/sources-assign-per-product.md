@@ -3,7 +3,7 @@ title: 製品ごとの在庫ソースの割り当て
 description: 在庫ソースを製品に割り当てる方法を説明します。
 exl-id: 7e47be25-633e-4f5d-bb61-0d9e79b6dbad
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. ソースを追加するには、「**[!UICONTROL Assign Sources]**」をクリックします。
 
-1. _[!UICONTROL Assign Sources]_&#x200B;ページで、製品に割り当てる各ソースの横にあるチェックボックスをオンにします。
+1. _[!UICONTROL Assign Sources]_ページで、製品に割り当てる各ソースの横にあるチェックボックスをオンにします。
 
    ![Product - ソースの割り当て ](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
 
@@ -46,3 +46,5 @@ ht-degree: 0%
    - _[!UICONTROL Save]_（メニュー矢印 ![ メニュー ](../assets/icon-menu-down-arrow-red.png) で、「**[!UICONTROL Save & Close]**」を選択します。
 
 ソースを割り当てた後、各製品ソースの [ 在庫数量 ](quantities-assign-per-product.md) を更新します。
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

@@ -3,7 +3,7 @@ title: 仮想製品
 description: メンバーシップ、サービス、保証、サブスクリプションなど、実体以外の項目を表す仮想製品を作成する方法について説明します。
 exl-id: 8788ba04-e911-429e-9e48-ce589f0c9fa1
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 仮想製品（デジタル商品）は、メンバーシップ、サービス、保証、購読、書籍、音楽、ビデオ、その他の製品のデジタルダウンロードなど、非有形の項目を表します。 バーチャル製品は、個別に販売することも、[ グループ化された製品 ](product-create-grouped.md)、[ 設定可能な製品 ](product-create-configurable.md)、または [ バンドル製品 ](product-create-bundle.md) 製品タイプの一部として含めることもできます。
 
-_[!UICONTROL Weight]_&#x200B;の分野がないことはさておき、仮想製品と単純な製品を作成するプロセスは同じです。 以下の手順では、[ 製品テンプレート ](attribute-sets.md)、必須フィールド、基本設定を使用して仮想製品を作成するプロセスを示します。 基本を完了したら、必要に応じて他の製品設定を完了できます。
+_[!UICONTROL Weight]_の分野がないことはさておき、仮想製品と単純な製品を作成するプロセスは同じです。 以下の手順では、[ 製品テンプレート ](attribute-sets.md)、必須フィールド、基本設定を使用して仮想製品を作成するプロセスを示します。 基本を完了したら、必要に応じて他の製品設定を完了できます。
 
 >[!NOTE]
 >
@@ -69,11 +69,11 @@ _[!UICONTROL Weight]_&#x200B;の分野がないことはさておき、仮想製
 
 1. 在庫がある商品の **[!UICONTROL Quantity]** を入力し、次の操作を行います。
 
-   - `In Stock` のデフォルトの **[!UICONTROL Stock Status]** 設定を受け入れます。
+   - **[!UICONTROL Stock Status]** のデフォルトの `In Stock` 設定を受け入れます。
 
      仮想製品は出荷されないので、**[!UICONTROL Weight]** フィールドは使用されません。
 
-   - `Catalog, Search` のデフォルトの **[!UICONTROL Visibility]** 設定を受け入れます。
+   - **[!UICONTROL Visibility]** のデフォルトの `Catalog, Search` 設定を受け入れます。
 
    >[!NOTE]
    >
@@ -118,7 +118,7 @@ _[!UICONTROL Weight]_&#x200B;の分野がないことはさておき、仮想製
 >
 >「_[!UICONTROL Is this downloadable product?]_」オプションは、デフォルトで無効になっています。 仮想製品に対してこの機能を有効にすると、製品が [ ダウンロード可能 ](product-create-downloadable.md#downloadable-product) になります。
 
-## 手順 6：商品のPublish
+## 手順 6：製品を公開する
 
 1. カタログに製品を公開する準備が整ったら、**[!UICONTROL Enable Product]** を `Yes` に設定します。
 
@@ -128,7 +128,7 @@ _[!UICONTROL Weight]_&#x200B;の分野がないことはさておき、仮想製
 
       - 右上隅にある「**[!UICONTROL Save]**」をクリックします。
 
-      - ストアで製品を表示するには、_管理者_ （![ メニュー矢印 ](../assets/icon-menu-down-arrow-black.png)） メニューの **[!UICONTROL Customer View]** を選択します。
+      - ストアで製品を表示するには、**[!UICONTROL Customer View]** 管理者 _（_ メニュー矢印 ![） メニューの ](../assets/icon-menu-down-arrow-black.png) を選択します。
 
      ストアが新しいブラウザータブで開きます。
 
@@ -145,3 +145,5 @@ _[!UICONTROL Weight]_&#x200B;の分野がないことはさておき、仮想製
 - 仮想製品は単純な製品のようなものですが、重量はありません。
 
 - 買い物かごに実物の製品がない限り、チェックアウト時に配送オプションは表示されません。
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

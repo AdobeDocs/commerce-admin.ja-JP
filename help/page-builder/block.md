@@ -3,7 +3,7 @@ title: コンテンツを追加 – ブロック
 description: 再利用可能なブロックをステージに追加するために使用されるブロックコンテンツタイプについて説明  [!DNL Page Builder]  ます。
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -146,3 +146,5 @@ _ブロック_ コンテンツタイプを使用して、アクティブな既�
 1. ブロックコンテナにカーソルを合わせてツールボックスを表示し、_削除_ （![ 削除アイコン ](./assets/pb-icon-remove.png)）アイコンを選択します。
 
 1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL OK]**」をクリックします。
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

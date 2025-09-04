@@ -4,7 +4,7 @@ description: Commerce Admin の [!UICONTROL Advanced] &gt; [!UICONTROL System] �
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 1%
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 ![ 詳細設定 – メール送信設定 ](./assets/system-mail-sending-settings.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、『 [ 管理システムガイド _の ](../../systems/email-communications.md) メール通信の設定_ を参照してください。
+これらの設定の変更について詳しくは、『 [ 管理システムガイド ](../../systems/email-communications.md) の _メール通信の設定_ を参照してください。
 
 >[!IMPORTANT]
 >
@@ -119,7 +119,7 @@ ht-degree: 1%
 
 ![ 詳細設定 – セキュリティ ](./assets/system-security.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、『 [ 管理システムガイド _の ](../../systems/security-session-management.md) セッション管理_ を参照してください。
+これらの設定の変更について詳しくは、『 [ 管理システムガイド ](../../systems/security-session-management.md) の _セッション管理_ を参照してください。
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -132,7 +132,7 @@ ht-degree: 1%
 
 ![ 詳細設定 – 通知 ](./assets/system-notifications.png)<!-- zoom -->
 
-これらの設定の変更方法については、『 [ 管理システムガイド _の ](../../systems/notifications.md) システム通知_ を参照してください。
+これらの設定の変更方法については、『 [ 管理システムガイド ](../../systems/notifications.md) の _システム通知_ を参照してください。
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -148,16 +148,16 @@ ht-degree: 1%
 
 {{$include /help/_includes/backups-note.md}}
 
-これらの設定の変更の詳細については、『 [ 管理システム ガイド _の ](../../systems/backups.md) システム バックアップ_ を参照してください。
+これらの設定の変更の詳細については、『 [ 管理システム ガイド ](../../systems/backups.md) の _システム バックアップ_ を参照してください。
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | グローバル | Commerce インスタンスでバックアップを許可するかどうかを指定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | グローバル | （「_[!UICONTROL Enable Backup]_」を「`Yes`」に設定すると表示されます）。 Commerce インスタンスが通常のスケジュールで自動的にバックアップされるかどうかを指定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | グローバル | （「_[!UICONTROL Enable Scheduled Backup]_」を「`Yes`」に設定すると表示されます）。 バックアップに含まれるCommerce インスタンスの要素を指定します。 オプション：`Database`/`Database and Media`/`System`/`System (excluding Media)` |
-| [!UICONTROL Start Time] | グローバル | （「[!UICONTROL Enable Scheduled Backup]」を「`Yes`」に設定すると表示されます）。 スケジュールされたバックアップを開始する時間、分、および秒を指定します。 |
-| [!UICONTROL Frequency] | グローバル | （「[!UICONTROL Enable Scheduled Backup]」を「`Yes`」に設定すると表示されます）。 スケジュールされたバックアップの実行頻度を決定します。 オプション：`Daily`/`Weekly`/`Monthly` |
-| [!UICONTROL Maintenance Mode] | グローバル | （「[!UICONTROL Enable Scheduled Backup]」を「`Yes`」に設定すると表示されます）。 スケジュールされたバックアップ中にストアがメンテナンスモードにされるかどうかを決定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | グローバル | （_[!UICONTROL Enable Backup]_を `Yes` に設定した場合に表示されます） Commerce インスタンスが通常のスケジュールで自動的にバックアップされるかどうかを指定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | グローバル | （_[!UICONTROL Enable Scheduled Backup]_が `Yes` に設定されている場合に表示されます）。バックアップに含まれるCommerce インスタンスの要素を指定します。 オプション：`Database`/`Database and Media`/`System`/`System (excluding Media)` |
+| [!UICONTROL Start Time] | グローバル | （[!UICONTROL Enable Scheduled Backup] が `Yes` に設定されている場合に表示されます）。スケジュールされたバックアップを開始する時間、分、および秒を指定します。 |
+| [!UICONTROL Frequency] | グローバル | （[!UICONTROL Enable Scheduled Backup] が `Yes` に設定されている場合に表示されます）。スケジュールされたバックアップの実行頻度を指定します。 オプション：`Daily`/`Weekly`/`Monthly` |
+| [!UICONTROL Maintenance Mode] | グローバル | （[!UICONTROL Enable Scheduled Backup] が `Yes` に設定されている場合に表示されます）。スケジュールされたバックアップ中にストアがメンテナンスモードにされるかどうかを指定します。 オプション：`Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -167,7 +167,7 @@ ht-degree: 1%
 
 ![ 詳細設定 – 管理アクションログのアーカイブ ](./assets/system-admin-actions-log-archiving.png)<!-- zoom -->
 
-これらの設定の変更の詳細については、『 [ 管理システムガイド _の ](../../systems/action-log-archive.md) アクションログアーカイブ_ を参照してください。
+これらの設定の変更の詳細については、『 [ 管理システムガイド ](../../systems/action-log-archive.md) の _アクションログアーカイブ_ を参照してください。
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -180,7 +180,7 @@ ht-degree: 1%
 
 ![ 詳細設定 – フルページキャッシュ ](./assets/system-full-page-cache.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、『 [ 管理システムガイド _の ](../../systems/cache-management.md#full-page-caching) フルページキャッシュ_ を参照してください。
+これらの設定の変更について詳しくは、『 [ 管理システムガイド ](../../systems/cache-management.md#full-page-caching) の _フルページキャッシュ_ を参照してください。
 
 ![ 詳細設定 – ワニス設定 ](./assets/system-full-page-cache-varnish.png)<!-- zoom -->
 
@@ -188,7 +188,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | グローバル | フルページキャッシュの管理に使用するアプリケーションを決定します。 オプション：<br/>**`Built-in Application`**– 実稼動環境には推奨されません。<br/>**`Varnish Caching`** – 実稼動環境に推奨されます。 |
 | [!UICONTROL TTL for public content] | グローバル | 公開コンテンツキャッシュの有効期間を秒単位で指定します。 デフォルト値：`120` |
-| [!UICONTROL Handles param size] | global | [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=ja) HTTP エンドポイントで処理する [ レイアウト ハンドル ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) の最大数を指定します。 サイズを制限すると、セキュリティとパフォーマンスが向上する可能性があります。 デフォルト値：`100` |
+| [!UICONTROL Handles param size] | global | [](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) HTTP エンドポイントで処理する [`{BASE-URL}/page_cache/block/esi` レイアウト ハンドル ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) の最大数を指定します。 サイズを制限すると、セキュリティとパフォーマンスが向上する可能性があります。 デフォルト値：`100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | グローバル | Varnish 設定をパージして設定ファイルを生成できる IP アドレスを指定します。 複数のエントリはコンマで区切ります。 デフォルト値：`localhost` |
 | [!UICONTROL Backend host] | グローバル | 設定ファイルを生成するバックエンドホストを指定します。 デフォルト値：`localhost` |
@@ -205,7 +205,7 @@ ht-degree: 1%
 
 ![ 詳細設定 – メディアのストレージ設定 – ファイルシステム ](./assets/system-storage-config-media.png)<!-- zoom -->
 
-これらの設定の変更の詳細については、『 [ コンテンツおよびデザイン ガイド _の ](../../content-design/media-storage-database.md) メディア データベースの使用_ を参照してください。
+これらの設定の変更の詳細については、『 [ コンテンツおよびデザイン ガイド ](../../content-design/media-storage-database.md) の _メディア データベースの使用_ を参照してください。
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -235,7 +235,7 @@ ht-degree: 1%
 
 ![ 詳細設定 – 一括アクション ](./assets/system-bulk-actions.png)<!-- zoom -->
 
-これらの設定の変更方法については、『 [ 管理システムガイド _の ](../../systems/action-log-bulk-actions.md) 一括アクション_ を参照してください。
+これらの設定の変更方法については、『 [ 管理システムガイド ](../../systems/action-log-bulk-actions.md) の _一括アクション_ を参照してください。
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -268,11 +268,11 @@ ht-degree: 1%
 
 ![ 詳細設定 – 画像のアップロード設定 ](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Quality] | グローバル | サイズ変更された画像のJPG画質を指定します。 画質が低いとファイルサイズは小さくなります。 80～90% を使用して、高品質でファイルサイズを縮小します。 デフォルト：`80` |
+| [!UICONTROL Quality] | グローバル | サイズ変更された画像のJPGの画質を指定します。 画質が低いとファイルサイズは小さくなります。 80～90% を使用して、高品質でファイルサイズを縮小します。 デフォルト：`80` |
 | [!UICONTROL Enable Frontend Resize] | グローバル | この設定を有効にすると、Commerceが _商品の詳細_ ページにアップロードできる大きいサイズを超える画像のサイズを変更できます。 Commerceは、ファイルをアップロードする前に、JavaScriptを使用して画像ファイルのサイズを変更します。 画像のサイズを変更すると、正確な比率が維持され、「最大幅」または「最大高さ」の最大サイズを超えることはありません。 デフォルト：`Yes` |
 | [!UICONTROL Maximum Width] | グローバル | 画像の最大ピクセル幅を決定します。 画像のサイズを変更しても、この幅を超えることはありません。 デフォルト：`1920` |
 | [!UICONTROL Maximum Height] | グローバル | 画像の最大ピクセル高さを決定します。 画像のサイズを変更しても、この高さを超えることはありません。 デフォルト：`1200` |
@@ -305,7 +305,7 @@ ht-degree: 1%
 
 ![ 詳細設定 – Adobe Stockの統合 ](./assets/system-adobe-stock-integration.png)<!-- zoom -->
 
-これらの設定について詳しくは、『 _コンテンツとデザインガイド_ の [Adobe Stockの統合 ](../../content-design/adobe-stock.md) を参照してください。
+これらの設定について詳しくは、『 [ コンテンツとデザインガイド ](../../content-design/adobe-stock.md) の _Adobe Stockの統合_ を参照してください。
 
 | フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -315,3 +315,5 @@ ht-degree: 1%
 | [!UICONTROL Test Connection] |  | API キーがAdobe Stock サービスで使用できることを確認するためのテストを実行します。 |
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-02-22 09:59:54 -->

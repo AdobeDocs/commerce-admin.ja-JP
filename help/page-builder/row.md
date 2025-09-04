@@ -3,7 +3,7 @@ title: レイアウト – 行
 description: ステージで行を追加するために使用される、行コンテンツタイプについて説明  [!DNL Page Builder]  ます。
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 0%
@@ -38,7 +38,7 @@ _行_ コンテンツタイプを使用して、[[!DNL Page Builder]  ステー�
 
 ## 行を追加
 
-1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_&#x200B;の下で、新しい&#x200B;**[!UICONTROL Row]**&#x200B;をステージの最初の行のすぐ下にドラッグします。
+1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_の下で、新しい&#x200B;**[!UICONTROL Row]**をステージの最初の行のすぐ下にドラッグします。
 
 1. 行を書式設定するには、行コンテナの上にマウスポインターを置いてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
@@ -114,7 +114,7 @@ _外観_ 設定を使用して、行にコンテンツを表示する方法を�
 
 ### 画像タイプの設定
 
-_[!UICONTROL Background Type]_&#x200B;を `Image` に設定した場合は、次の設定を使用して背景画像の表示を定義します。
+_[!UICONTROL Background Type]_を `Image` に設定した場合は、次の設定を使用して背景画像の表示を定義します。
 
 ![ 背景画像 ](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
@@ -258,3 +258,5 @@ _背景の種類_ を `Video` に設定する場合、次の設定を使用し�
   {style="table-layout:auto"}
 
   ![ 余白とパディング ](./assets/pb-layout-row-settings-margin-padding-default.png){width="600" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

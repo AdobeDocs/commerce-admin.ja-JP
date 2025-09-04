@@ -3,7 +3,7 @@ title: メディア – マップ
 description: ' [!DNL Google Maps] Platform からステージにマップを追加するために使用される、マップコンテンツタイプについて説明  [!DNL Page Builder]  ます。'
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
@@ -50,7 +50,7 @@ _Map_ コンテンツタイプを使用して、[[!DNL Google Maps] Platform][1]
 
 ## 管理者の [!DNL Google Maps] の設定
 
-マップを追加する前に、まず [!DNL Google Maps] Platform の無料体験版 [ アカウント ][3] を開く必要があります。 無料トライアルは 12 ヶ月間続き、300 ドルのクレジットが含まれています。 クレジットを使い果たした場合、Googleはユーザーの許可なくアカウントに請求することはありません。
+マップを追加する前に、まず [ Platform の無料体験版 ][3] アカウント [!DNL Google Maps] を開く必要があります。 無料トライアルは 12 ヶ月間続き、300 ドルのクレジットが含まれています。 クレジットを使い果たした場合、Googleはユーザーの許可なくアカウントに請求することはありません。
 
 ### 手順 1:[!DNL Google Maps] API キーの取得
 
@@ -60,15 +60,15 @@ _Map_ コンテンツタイプを使用して、[[!DNL Google Maps] Platform][1]
 
 1. 「プロジェクト」ドロップダウンをクリックし、API キーを追加するプロジェクトを選択または作成します。
 
-1. API 資格情報を設定するには、[!DNL Google Maps] のドキュメントの [ 手順 ][4] に従ってください。
+1. API 資格情報を設定するには、[ のドキュメントの ][4] 手順 [!DNL Google Maps] に従ってください。
 
 1. API キーをクリップボードにコピーします。
 
-### 手順 2:[!DNL Commerce] で [!DNL Google Maps] を設定する
+### 手順 2:[!DNL Google Maps] で [!DNL Commerce] を設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
+1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
 
 1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** を展開します。
 
@@ -104,7 +104,7 @@ _Map_ コンテンツタイプを使用して、[[!DNL Google Maps] Platform][1]
 
 1. マップコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-1. _[!UICONTROL Edit Map]_&#x200B;ページの右上隅にある「**[!UICONTROL Add Location]**」をクリックします。
+1. _[!UICONTROL Edit Map]_ページの右上隅にある「**[!UICONTROL Add Location]**」をクリックします。
 
 1. マップ上のピンに関連付ける **[!UICONTROL Location Name]** を入力します。
 
@@ -148,7 +148,7 @@ _Map_ コンテンツタイプを使用して、[[!DNL Google Maps] Platform][1]
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
-   新しい位置がマップおよび _[!UICONTROL Edit Map]_&#x200B;ページのマップ位置グリッドに表示されます。
+   新しい位置がマップおよび _[!UICONTROL Edit Map]_ページのマップ位置グリッドに表示されます。
 
    ![[!DNL Page Builder] - マップ位置グリッド ](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
 
@@ -158,9 +158,9 @@ _Map_ コンテンツタイプを使用して、[[!DNL Google Maps] Platform][1]
 
 ### マップ スタイルを変更する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
+1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
 
 1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** を展開します。
 
@@ -197,7 +197,7 @@ _Map_ コンテンツタイプを使用して、[[!DNL Google Maps] Platform][1]
 
    {style="table-layout:auto"}
 
-1. 必要に応じて、_[!UICONTROL Advanced]_&#x200B;の設定を変更します。
+1. 必要に応じて、_[!UICONTROL Advanced]_の設定を変更します。
 
    - コンテナに追加されるマップコンテンツの水平方向の位置を制御するには、**[!UICONTROL Alignment]** のいずれかを選択します。
 
@@ -262,11 +262,11 @@ _Map_ コンテンツタイプを使用して、[[!DNL Google Maps] Platform][1]
 
 ### グリッドのサイズの変更
 
-グリッドサイズは、[!DNL Page Builder] のステージの [ 列 ](column.md) に関連するマップのサイズを決定します。 デフォルトでは、マップの幅は 12 列、最大 16 列です。
+グリッドサイズは、[ のステージの ](column.md) 列 [!DNL Page Builder] に関連するマップのサイズを決定します。 デフォルトでは、マップの幅は 12 列、最大 16 列です。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
-1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
+1. _[!UICONTROL General]_の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
 
 1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** を展開します。
 
@@ -290,3 +290,5 @@ _Map_ コンテンツタイプを使用して、[[!DNL Google Maps] Platform][1]
 [4]: https://developers.google.com/maps/documentation/javascript/get-api-key
 [5]: https://www.google.com/maps
 [6]: https://mapstyle.withgoogle.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

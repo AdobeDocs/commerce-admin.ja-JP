@@ -3,7 +3,7 @@ title: 買い物かごの永続性
 description: 永続ショッピングカートが買い物かごの未購入アイテムを追跡し、顧客の次回の訪問に備えて情報を保存する方法を説明します。
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: a6cfcbb5774c0bafc3b7e7c96881329bde837837
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1038'
 ht-degree: 0%
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 永続的な買い物かごが [ 有効 ](#configure-a-persistent-cart) になっている場合、ワークフローは次のものに依存します。
 
-- _[!UICONTROL Enable Remember Me]_&#x200B;と_[!UICONTROL Clear Persistence on Log Out]_ の設定の値
+- _[!UICONTROL Enable Remember Me]_と_[!UICONTROL Clear Persistence on Log Out]_ の設定の値
 - 顧客による「_[!UICONTROL Remember Me]_」チェックボックスのオン/オフの決定
 - 永続的な Cookie がクリアされた場合
 
 顧客セッションの有効期限が切れると、次の条件下でページヘッダーに `Not Jane Smith?` リンクが表示されます。
-- ログインしたユーザーが _[!UICONTROL Remember Me]_&#x200B;オプションを選択し、永続的な cookie が適用されている
-- _[!UICONTROL Clear Persistence on Sign Out]_&#x200B;を `No` に設定してシステムを設定すると、お客様はログアウトします。
+- ログインしたユーザーが _[!UICONTROL Remember Me]_オプションを選択し、永続的な cookie が適用されている
+- _[!UICONTROL Clear Persistence on Sign Out]_を `No` に設定してシステムを設定すると、お客様はログアウトします。
 
 システムは、ログインセッションの有効期限が切れても、買い物かごの内容の記録を現在のデバイスに保持します。 `Not Jane Smith?` のリンクを使用すると、お客様は永続的なセッションを終了してゲストとして作業を開始したり、別のお客様または同じユーザーとしてログインしたりできます。
 
@@ -89,3 +89,5 @@ ht-degree: 0%
 これらの設定が顧客ワークフローに与える影響について詳しくは、[ 永続的な買い物かごワークフロー ](#persistent-cart-workflow) を参照してください。
 
 {{$include /help/_includes/persistent-cart-configuration.md}}
+
+<!-- Last updated from includes: 2024-10-31 10:02:14 -->

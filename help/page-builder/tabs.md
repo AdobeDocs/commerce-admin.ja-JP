@@ -3,7 +3,7 @@ title: レイアウト – タブ
 description: ステージ内の一連のタブを追加するために使用される、タブコンテンツタイプについて説明  [!DNL Page Builder]  ます。
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
-source-git-commit: 67bf39e8c09d6169ec5ec5e2f396e973476af56a
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 0%
@@ -56,7 +56,7 @@ _Tabs_ コンテンツタイプを使用する場合、個々のタブおよび 
 
 ## 個々のタブの追加
 
-1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_&#x200B;の下で、**[!UICONTROL Tabs]**&#x200B;プレースホルダーを直接ステージにドラッグするか、ステージの行または列にドラッグします。
+1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_の下で、**[!UICONTROL Tabs]**プレースホルダーを直接ステージにドラッグするか、ステージの行または列にドラッグします。
 
    ![ タブを行にドラッグ ](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
@@ -326,3 +326,5 @@ _Tabs_ コンテンツタイプを使用する場合、個々のタブおよび 
 
 [background]: #background
 [advanced]: #advanced
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

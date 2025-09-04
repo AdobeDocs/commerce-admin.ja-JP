@@ -3,7 +3,7 @@ title: メディア – ビデオ
 description: YouTubeまたは Vimeo でホストされているビデオをステージに追加するために使用される、ビデオコンテンツタイプについて説明  [!DNL Page Builder]  ます。
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 0%
@@ -26,7 +26,7 @@ _ビデオ_ コンテンツタイプを使用して、[YouTube][1] または [Vi
 |--- |--- |--- |
 | 移動 | ![ 移動アイコン ](./assets/pb-icon-move.png){width="25"} | ビデオをステージ上の別の位置に移動します。 |
 | （ラベル） | [!UICONTROL Video] | 現在のコンテンツコンテナをビデオとして識別します。 画像コンテナにカーソルを合わせると、ツールボックスが表示されます。 |
-| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | _[!UICONTROL Edit Video]_&#x200B;ページが開き、ビデオとコンテナのプロパティを変更できます。 |
+| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | _[!UICONTROL Edit Video]_ページが開き、ビデオとコンテナのプロパティを変更できます。 |
 | Hide | ![ アイコンを非表示 ](./assets/pb-icon-hide.png){width="25"} | 現在のビデオを非表示にします。 |
 | 表示 | ![ アイコンを表示 ](./assets/pb-icon-show.png){width="25"} | 非表示のビデオを表示します。 |
 | 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | ビデオをコピーします。 |
@@ -170,3 +170,5 @@ _ビデオ_ コンテンツタイプを使用して、[YouTube][1] または [Vi
 
 [1]: https://www.youtube.com/
 [2]: https://vimeo.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -3,7 +3,7 @@ title: ソースに在庫を転送
 description: マルチソースのマーチャントが製品在庫をソースの場所から別の場所に転送する方法を説明します。
 exl-id: 30438412-bc93-4e65-8b6a-5ddb50afa7ff
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -53,3 +53,5 @@ ht-degree: 0%
 1. 「**[!UICONTROL Transfer Inventory]**」をクリックします。
 
    すべての製品数量が搬送元ソースから差し引かれ、搬送先ソースに追加されます。 「数量」と「販売可能数量」が自動的に更新されます。
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

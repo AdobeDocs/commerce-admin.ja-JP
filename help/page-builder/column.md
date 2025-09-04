@@ -3,7 +3,7 @@ title: レイアウト – 列
 description: ステージ内でページを複数の列に分割するために使用される、列コンテンツタ  [!DNL Page Builder]  プについて説明します。
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 0%
@@ -20,7 +20,7 @@ _ステージ_ でページを複数の列に分割するには、[[!DNL Page Bu
 
 ## 2.4.5 リリースのアップデート
 
-ページビルダーの機能が 2.4.5 リリースで更新され、ユーザーが個々の列の親コンテナとして _[!DNL Columns]_&#x200B;を使用できるようになりました。 この新しいコンテナでは、背景のプロパティもサポートされるようになり、列を一列に折り返す必要がなくなります。 これにより、不要なマークアップを減らし、ストアフロントの表示とエクスペリエンスをより詳細に制御できます。
+ページビルダーの機能が 2.4.5 リリースで更新され、ユーザーが個々の列の親コンテナとして _[!DNL Columns]_を使用できるようになりました。 この新しいコンテナでは、背景のプロパティもサポートされるようになり、列を一列に折り返す必要がなくなります。 これにより、不要なマークアップを減らし、ストアフロントの表示とエクスペリエンスをより詳細に制御できます。
 
 グループ内の他の列の上または下に列をドラッグして積み重ねることで、[!DNL Columns] コンテナのレイアウトを変更できます。 これにより、開発者がカスタマイズする必要なしに達成できる、新しいさまざまなレイアウトの組み合わせが可能になります。
 
@@ -44,7 +44,7 @@ _ステージ_ でページを複数の列に分割するには、[[!DNL Page Bu
 
 ## 柱通芯
 
-[ グリッド ](workspace.md) を使用すると、コンテンツが一貫して列に配置され、デスクトップとモバイルデバイスの両方でページが正しくレンダリングされるようになります。 詳しくは、[!DNL Page Builder] 設定の [ 詳細なコンテンツツール ](setup.md) の節を参照してください。
+[ グリッド ](workspace.md) を使用すると、コンテンツが一貫して列に配置され、デスクトップとモバイルデバイスの両方でページが正しくレンダリングされるようになります。 詳しくは、[ 設定の ](setup.md) 詳細なコンテンツツール [!DNL Page Builder] の節を参照してください。
 
 ![1 つの列を持つ行のグリッド分割 ](./assets/pb-layout-column-one-grid.png){width="500" zoomable="yes"}
 
@@ -54,7 +54,7 @@ _ステージ_ でページを複数の列に分割するには、[[!DNL Page Bu
 
 ## 列を追加
 
-1. _[!UICONTROL Layout]_&#x200B;の下の [!DNL Page Builder] パネルで、**[!UICONTROL Column]**&#x200B;をステージにドラッグします。
+1. [!DNL Page Builder] の下の _[!UICONTROL Layout]_パネルで、**[!UICONTROL Column]**をステージにドラッグします。
 
    ![ 列のステージへのドラッグ ](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -64,7 +64,7 @@ _ステージ_ でページを複数の列に分割するには、[[!DNL Page Bu
 
 1. 列グループの左上隅にある _グリッド_ ツール（![Grid control](./assets/pb-icon-grid-control.png)）をクリックして、必要に応じてグリッドのサイズを調整します。
 
-   コンテンツをグリッドに配置すると、コンテンツを一貫して配置でき、デスクトップとモバイルデバイスの両方でページを正しくレンダリングできます。 詳しくは、[!DNL Page Builder] 設定の [ 詳細なコンテンツツール ](../configuration-reference/general/content-management.md) の節を参照してください。
+   コンテンツをグリッドに配置すると、コンテンツを一貫して配置でき、デスクトップとモバイルデバイスの両方でページを正しくレンダリングできます。 詳しくは、[ 設定の ](../configuration-reference/general/content-management.md) 詳細なコンテンツツール [!DNL Page Builder] の節を参照してください。
 
    ![2 列のグリッド分割 ](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
 
@@ -100,11 +100,11 @@ _ステージ_ でページを複数の列に分割するには、[[!DNL Page Bu
 
    - 列の上にマウスポインターを置いてツールボックスを表示し、「_設定_」（![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-   - 「_[!UICONTROL Advanced]_」セクションまでスクロールし、4 つの&#x200B;**[!UICONTROL Padding]**&#x200B;値をすべて `0` に設定します。
+   - 「_[!UICONTROL Advanced]_」セクションまでスクロールし、4 つの&#x200B;**[!UICONTROL Padding]**値をすべて `0` に設定します。
 
      ![ ゼロのパディングを使用 ](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-   - 右上隅の「**[!UICONTROL Save]**」をクリックして、_[!UICONTROL Edit Column]_&#x200B;ページを閉じます。
+   - 右上隅の「**[!UICONTROL Save]**」をクリックして、_[!UICONTROL Edit Column]_ページを閉じます。
 
 1. ワークスペースの右上隅にある _フルスクリーンを閉じる_ アイコン ![ フルスクリーンアイコンを閉じる ](./assets/pb-icon-reduce.png){width="20"} アイコンをクリックし、右上隅の「**[!UICONTROL Save]**」をクリックします。
 
@@ -170,7 +170,7 @@ _ステージ_ でページを複数の列に分割するには、[[!DNL Page Bu
 
    - **[!UICONTROL Background Repeat]** – 背景画像を繰り返してスペースを埋める場合は、この設定 `Yes` を変更します。
 
-1. 必要に応じて、_[!UICONTROL Advanced]_&#x200B;設定を更新します。
+1. 必要に応じて、_[!UICONTROL Advanced]_設定を更新します。
 
    - 列に追加されるコンテンツコンテナの水平方向の位置を制御するには、**[!UICONTROL Alignment]** のいずれかを選択します。
 
@@ -226,3 +226,5 @@ _ステージ_ でページを複数の列に分割するには、[[!DNL Page Bu
      {style="table-layout:auto"}
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックして設定を適用し、[!DNL Page Builder] ワークスペースに戻ります。
+
+<!-- Last updated from includes: 2023-01-19 14:32:13 -->
