@@ -3,9 +3,9 @@ title: ストアフロントエクスペリエンスの強化
 description: 顧客エンゲージメント、リテンション、ロイヤルティを最大化するのに役立つ、様々なツールについて説明します。
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=ja)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
@@ -32,7 +32,7 @@ Adobe CommerceとMagento Open Sourceには、_検索エンジンに対応した_
 
 - **サイトマップ** - ストアのフッターから [ サイトマップ ](../merchandising-promotions/sitemap-xml.md) にリンクし、顧客にカタログ構造の概要と、ストア内のすべてのカテゴリおよび製品へのリンクを提供します。 Google サイトマップとの統合が容易です。
 
-- **Analytics** – 管理ダッシュボードからサイトを監視する以外に、[Google Analytics](../merchandising-promotions/google-analytics.md) や [New Relic レポート ](new-relic-reporting.md) などのサードパーティの分析ツールを統合して、トラフィックおよび売上に関する詳細な統計情報を取得できます。
+- **Analytics** – 管理ダッシュボードからサイトを監視する以外に、[Google Analytics](../merchandising-promotions/google-analytics.md) などのサードパーティの分析ツールを統合して、トラフィックおよび売上高に関する詳細な統計情報を取得できます。
 
 ## 顧客との関わり
 
@@ -52,7 +52,7 @@ Adobe CommerceとMagento Open Sourceを使用すると、カスタマイズさ�
 
 ## 差別化とパーソナライズ
 
-Adobe CommerceとMagento Open Sourceは、顧客のアクティビティとプロファイルに基づいて、複数のデジタルタッチポイントをまたいでパーソナライズされたエクスペリエンスを作成するための豊富なツールセットを提供します。
+Adobe CommerceとMagento Open Sourceには、顧客のアクティビティとプロファイルに基づいて、複数のデジタルタッチポイントをまたいでパーソナライズされたエクスペリエンスを作成するための豊富なツールセットが用意されています。
 
 - **カスタムカタログおよび価格表** - カスタム [ 特定の会社の価格 ](../b2b/catalog-shared-pricing-structure.md) のキュレートされた製品選択を提供すると同時に、一般顧客には引き続き標準カタログを通常の価格で提供します。
 
@@ -84,11 +84,11 @@ Adobe CommerceとMagento Open Sourceは、ショッピングエクスペリエ�
 
 ## ビジネス・プロセスと収益性の最適化
 
-- **[!DNL Advanced Reporting]** - [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=ja) を活用して、製品、注文、顧客の動的なレポートから貴重なインサイトを一目で得ることができます。
+- **[!DNL Advanced Reporting]** - [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en) を活用した動的な商品、注文、顧客レポートを使用して、価値のあるインサイトを一目で得ることができます。
 
 - **ダッシュボードスナップショット** - マーケティング予算を最大限に活用するには、サイト上で関心が何であるかを把握することが重要です。 この [ ダッシュボードに関する情報 ](admin-dashboard.md) を使用して、常連客に対してクロスセルとアップセルを行う必要のあるもの、または販売する製品を決定します。
 
-- **税金** - ネイティブツールを使用して [ 税金 ](../stores-purchase/taxes.md) を管理するか、[[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target=&quot;_blank&quot;} からサードパーティの拡張機能を追加します。
+- **税金** - ネイティブツールを使用して [ 税金 ](../stores-purchase/taxes.md) を管理するか、[[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target="_blank"} からサードパーティの拡張機能を追加します。
 
 - **自動ビジネス・ルール**：製品の関連を定義し、様々な条件に基づいて値引きをトリガー付けする価格ルールを使用する [ 自動ビジネス・ルール ](../merchandising-promotions/price-rules-cart.md) を設定します。
 
@@ -114,7 +114,7 @@ Adobe CommerceとMagento Open Sourceは、ショッピングエクスペリエ�
 
 ## 顧客の保持
 
-Adobe CommerceとMagento Open Sourceを使用すると、リピート客の獲得やブランドロイヤルティの構築が簡単になります。 報酬プログラム、カスタムクーポン、自動メールなどのグッズの作成と修正を完全に制御し、柔軟性を発揮して、顧客が何度も繰り返し戻ってくるようにすることができます。
+Adobe CommerceとMagento Open Sourceを使用すると、リピート取引を簡単に行い、ブランドロイヤルティを構築できます。 報酬プログラム、カスタムクーポン、自動メールなどのグッズの作成と修正を完全に制御し、柔軟性を発揮して、顧客が何度も繰り返し戻ってくるようにすることができます。
 
 **商品返品** - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）お客様は、店舗から [ 商品返品承認 ](../stores-purchase/returns.md) のリクエストを送信できます。 配送業者システムで出荷注文を作成し、RMA 番号で出荷ラベルを印刷できます。
 

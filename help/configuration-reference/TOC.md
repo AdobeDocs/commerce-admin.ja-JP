@@ -5,9 +5,9 @@ breadcrumb-title: 設定リファレンス
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,8 @@ ht-degree: 1%
    - [連絡先](./general/contacts.md)
    - [レポート](./general/reports.md)
    - [コンテンツ管理](./general/content-management.md)
-   - [New Relic レポート](./general/new-relic-reporting.md)
    - [高度なレポート](./general/advanced-reporting.md)
-- Catalog {#catalog}
+- カタログ {#catalog}
    - [カタログ](./catalog/catalog.md)
    - [ビジュアルマーチャンダイザー](./catalog/visual-merchandiser.md)
    - [在庫](./catalog/inventory.md)
@@ -52,7 +51,7 @@ ht-degree: 1%
    - [プロモーション](./customers/promotions.md)
    - [ギフト レジストリ](./customers/gift-registry.md)
    - [永続ショッピングカート](./customers/persistent-shopping-cart.md)
-- 営業 {#sales}
+- 売上 {#sales}
    - [売上](./sales/sales.md)
    - [販売メール](./sales/sales-emails.md)
    - [見積もり](./sales/quotes.md)
@@ -84,5 +83,5 @@ ht-degree: 1%
    - [Admin](./advanced/admin.md)
    - [システム](./advanced/system.md)
    - [開発者](./advanced/developer.md)
-- [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
+- [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
