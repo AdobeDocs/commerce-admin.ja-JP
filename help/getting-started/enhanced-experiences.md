@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=ja)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
@@ -84,7 +84,7 @@ Adobe CommerceとMagento Open Sourceは、ショッピングエクスペリエ�
 
 ## ビジネス・プロセスと収益性の最適化
 
-- **[!DNL Advanced Reporting]** - [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en) を活用した動的な商品、注文、顧客レポートを使用して、価値のあるインサイトを一目で得ることができます。
+- **[!DNL Advanced Reporting]** - [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=ja) を活用した動的な商品、注文、顧客レポートを使用して、価値のあるインサイトを一目で得ることができます。
 
 - **ダッシュボードスナップショット** - マーケティング予算を最大限に活用するには、サイト上で関心が何であるかを把握することが重要です。 この [ ダッシュボードに関する情報 ](admin-dashboard.md) を使用して、常連客に対してクロスセルとアップセルを行う必要のあるもの、または販売する製品を決定します。
 
