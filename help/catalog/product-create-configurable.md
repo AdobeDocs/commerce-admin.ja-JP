@@ -3,7 +3,7 @@ title: 設定可能な製品
 description: 選択用のバリエーションを買い物客に提供する、設定可能な製品の作成方法を説明します。
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 0cb594144a03eda985be3a86e45c93452281e9d5
+source-git-commit: ee7928b50ddd07e757c71ce5bed84619f1437410
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 0%
@@ -33,7 +33,6 @@ ht-degree: 0%
 | [!UICONTROL Scope] | `Global` |
 | [!UICONTROL Catalog Input Type for Store Owner] | 製品バリエーションに使用される属性の入力タイプは、`Dropdown`、`Visual Swatch`、`Text Swatch` のいずれかである必要があります。 |
 | [!UICONTROL Values Required] | `Yes` |
-| [!UICONTROL Use for Promo Rule Conditions] | `Yes` |
 
 {style="table-layout:auto"}
 
@@ -101,7 +100,7 @@ ht-degree: 0%
 >
 >設定可能な製品には、常に重み付けが必要です。 ドロップダウンリストから「**[!UICONTROL This item has no weight]**」を選択すると、製品を保存した後に自動的に「**[!UICONTROL This item has weight]**」に変更されます。
 
-1. `Catalog, Search` のデフォルトの **[!UICONTROL Visibility]** 設定を受け入れます。
+1. **[!UICONTROL Visibility]** のデフォルトの `Catalog, Search` 設定を受け入れます。
 
 1. [ 新製品 ](../content-design/widget-new-products-list.md) のリストに製品を特集するには、「**[!UICONTROL Set Product as New]**」チェックボックスを選択します。
 
@@ -279,7 +278,7 @@ _[Inventory managementを使用するマルチSourceマーチャント](../inven
 
 ### 手順 5：製品画像の追加
 
-1. 下にスクロールして、「_[!UICONTROL Images and Videos]_」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. 下にスクロールして、「![」セクションの ](../assets/icon-display-expand.png) 展開セレクター _[!UICONTROL Images and Videos]_を展開します。
 
 1. _カメラ_ タイルをクリックし、設定可能な製品に使用するメイン画像を参照します。
 
@@ -311,7 +310,7 @@ _[Inventory managementを使用するマルチSourceマーチャント](../inven
 
       - 右上隅の「**[!UICONTROL Save]**」をクリックします。
 
-      - ストアで製品を表示するには、_管理者_ （![ メニュー矢印 ](../assets/icon-menu-down-arrow-black.png)） メニューの **[!UICONTROL Customer View]** を選択します。
+      - ストアで製品を表示するには、**[!UICONTROL Customer View]** 管理者 _（_ メニュー矢印 ![） メニューの ](../assets/icon-menu-down-arrow-black.png) を選択します。
 
      ストアが新しいブラウザータブで開きます。
 
@@ -325,7 +324,7 @@ _[Inventory managementを使用するマルチSourceマーチャント](../inven
 
 バリエーションごとに異なる画像がある場合、買い物かごのサムネールに正しい画像を使用するように設定できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、その下の「**[!UICONTROL Checkout]**」を選択します。
 
@@ -355,7 +354,7 @@ _[Inventory managementを使用するマルチSourceマーチャント](../inven
 
 #### デフォルトのソース/在庫のみ：
 
-- 設定可能な製品の在庫ステータスが **_手動_** 管理者ユーザー、ファイルの読み込み、または API 呼び出しによって `Out of Stock` に設定されている場合、管理者ユーザー、ファイルの読み込み、または API 呼び出しによって _&#x200B;**手動**&#x200B;_ に変更されるまで _&#x200B;**`In stock` 管理者_** と **_ストアフロント `Out of Stock` の両方で**&#x200B;_ に設定されたままになります。 子製品の在庫状況で制御することはできません。
+- 設定可能な製品の在庫ステータスが **_手動_** 管理者ユーザー、ファイルの読み込み、または API 呼び出しによって `Out of Stock` に設定されている場合、管理者ユーザー、ファイルの読み込み、または API 呼び出しによって `Out of Stock` 手動 **_に変更されるまで_****_管理者_** と **_ストアフロント_** の両方で `In stock` に設定されたままになります。 子製品の在庫状況で制御することはできません。
 
 - 管理者ユーザー、ファイルの読み込み、API 呼び出しによって設定可能な製品の在庫ステータスが **_手動で_**`In Stock` に設定されている場合、その在庫ステータスは、**_管理者_** と **_ストアフロント_** の両方で、子製品の在庫ステータスによって **_自動的に_** 制御されます。
 
@@ -365,11 +364,11 @@ _[Inventory managementを使用するマルチSourceマーチャント](../inven
 
 #### 1 つ以上のカスタムソース/在庫を使用：
 
-- 設定可能な製品の在庫ステータスの値が **_手動_** 管理者ユーザー、ファイルの読み込み、または API 呼び出しによって `Out of Stock` に設定されている場合、管理者ユーザー、ファイルの読み込み、または API 呼び出しによって _&#x200B;**手動**&#x200B;_ に変更されるまで _&#x200B;**管理者_** と **_ストアフロント**&#x200B;_ の両方で `In Stock` に `Out of Stock` 定されたままになります。 子製品の在庫状態によって制御される **_することはできません_**。
+- 設定可能な製品の在庫ステータスの値が **_手動_** 管理者ユーザー、ファイルの読み込み、または API 呼び出しによって `Out of Stock` に設定されている場合、管理者ユーザー、ファイルの読み込み、または API 呼び出しによって `Out of Stock` 手動 **_に変更されるまで_** 管理者 **_と_** ストアフロント **_の両方で_** に `In Stock` 定されたままになります。 子製品の在庫状態によって制御される **_することはできません_**。
 
 - 設定可能な製品の在庫ステータスの値が **_手動で_**`In Stock` に設定されている場合、管理者ユーザー、ファイルの読み込み、または API 呼び出しによって、その在庫ステータスは **_自動的に_**、**_ストアフロント_** 上の子製品の在庫ステータスによってのみ制御されます。
 
-- 設定可能な製品の在庫ステータスの値が **_手動_** 管理者ユーザー、ファイルの読み込みまたは API 呼び出しによって `In Stock` に設定されている場合、管理者ユーザー、ファイルの読み込みまたは API 呼び出しによって _&#x200B;**手動**&#x200B;_`Out of Stock` に変更されるまで、**_管理者_** で `In Stock` のまま保持されます。 子製品の在庫状態によって制御される **_することはできません_**。
+- 設定可能な製品の在庫ステータスの値が **_手動_** 管理者ユーザー、ファイルの読み込みまたは API 呼び出しによって `In Stock` に設定されている場合、管理者ユーザー、ファイルの読み込みまたは API 呼び出しによって `In Stock` 手動 **__** に変更されるまで、**_管理者_** で `Out of Stock` のまま保持されます。 子製品の在庫状態によって制御される **_することはできません_**。
 
 ## 注意事項
 
@@ -377,7 +376,7 @@ _[Inventory managementを使用するマルチSourceマーチャント](../inven
 
 - 設定可能な商品の [ 在庫ステータス ](../inventory-management/sources-stocks.md) は、半手動で制御される設定です。 これは、単純な製品の在庫ステータスとは異なります。単純な製品の在庫ステータスは、製品の可用性を直接表します。 設定可能なプロダクトの場合、ストックステータスは複数基準のストックステータス計算の一部になります。
 
-- 設定可能な子製品は、単純な製品でも仮想製品でも構いません **カスタムオプションはありません**。 カスタムの子製品をバーチャルにするには、それぞれの **[!UICONTROL Weight]** 設定に `Тhis item has no weight` を選択する必要があります。
+- 設定可能な子製品は、単純な製品でも仮想製品でも構いません **カスタムオプションはありません**。 カスタムの子製品をバーチャルにするには、それぞれの `Тhis item has no weight` 設定に **[!UICONTROL Weight]** を選択する必要があります。
 
 - すべての子製品は、すべての web サイト、ストア、ストア表示に対して、設定可能な製品から **_グローバルに_** 割り当ておよび割り当て解除されます。
 
