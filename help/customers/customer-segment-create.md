@@ -3,9 +3,9 @@ title: 顧客セグメントの作成および削除
 description: お客様は、注文に関連する払い戻し情報を顧客アカウントダッシュボードで確認できます。
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 079aef1f4d90ecba649ac43e7cbab812da79871a
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '974'
 ht-degree: 0%
 
 ---
@@ -18,20 +18,20 @@ ht-degree: 0%
 
 ![ 顧客セグメントリスト ](assets/customer-segments.png){width="700" zoomable="yes"}
 
-_&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
+_**[!UICONTROL Customer Segments]グリッド&#x200B;**_
 
 | 列 | 説明 |
 |--- |--- |
 | **[!UICONTROL ID]** | 顧客セグメントの一意の ID。 |
 | **[!UICONTROL Segment]** | 顧客セグメントの名前。 |
-| **[!UICONTROL Status]** | 顧客セグメントが _[!UICONTROL Active]_&#x200B;か_[!UICONTROL Inactive]_ かを示します。 |
+| **[!UICONTROL Status]** | 顧客セグメントが _[!UICONTROL Active]_か_[!UICONTROL Inactive]_ かを示します。 |
 | **[!UICONTROL Website]** | 顧客セグメントが属する web サイトを示します。 |
 
 {style="table-layout:auto"}
 
 ## 前提条件：顧客セグメントを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Customer Configuration]**」を選択します。
 
@@ -82,7 +82,7 @@ _&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 
 1. 「**[!UICONTROL Save and Continue Edit]**」をクリックします。
 
-   セグメント _[!UICONTROL General Properties]_&#x200B;を保存すると、左パネルで追加のオプションが使用できるようになります。
+   セグメント _[!UICONTROL General Properties]_を保存すると、左パネルで追加のオプションが使用できるようになります。
 
    ![ セグメントのプロパティ ](assets/customer-segment-saved.png){width="600" zoomable="yes"}
 
@@ -104,10 +104,18 @@ _&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 >
 > 訪問者の場合は、次の条件のみを適用できます：買い物かごの条件（買い物かごの小計額、買い物かごの行項目、買い物かごの製品数）、製品ルール（買い物かごや製品履歴で見つかった製品）、およびこれらの項目の組み合わせ。 あるセグメントが訪問者と登録済み顧客の両方に適用される必要がある場合、訪問者はリストに表示された条件にのみ基づいて追跡されます。
 
+可能な条件は、次のグループに整理されています。
+
+| グループ | 説明 |
+|--- |--- |
+| **[!UICONTROL Customer]** | 顧客アカウント属性に基づく条件。 セグメントが登録済み顧客に適用される場合にのみ使用できます。 |
+| **[!UICONTROL Shopping Cart]** | 買い物かごの内容に基づく条件。 これらの条件は、すべてのセグメントタイプで使用できます。 |
+| **[!UICONTROL Products]** | 買い物かご内の製品または製品閲覧履歴に基づく条件。 これらの条件は、すべてのセグメントタイプで使用できます。 |
+| **[!UICONTROL **Sales]** | 完了済み注文に基づく条件。 セグメントが登録済み顧客に適用される場合にのみ使用できます。 |
 
 1. 左側のウィンドウで、[**[!UICONTROL Conditions]**] をクリックします。
 
-   デフォルトの条件はページの _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;で始まります。
+   デフォルトの条件はページの _[!UICONTROL If ALL of these conditions are TRUE:]_で始まります。
 
    ![ 条件 ](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -153,7 +161,7 @@ _&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 
 1. 顧客セグメントを使用して、プロモーション、コンテンツ、メールのターゲティングを行えるようになりました。
 
-_&#x200B;**[!UICONTROL Matched Customers]グリッド&#x200B;**&#x200B;_
+_**[!UICONTROL Matched Customers]グリッド&#x200B;**_
 
 | 列 | 説明 |
 |--- |--- |
@@ -183,7 +191,7 @@ _&#x200B;**[!UICONTROL Matched Customers]グリッド&#x200B;**&#x200B;_
 
 | ボタン | 説明 |
 |--- |--- |
-| **[!UICONTROL Back]** | 変更を保存せずに _[!UICONTROL Customer Segments]_&#x200B;ページに戻ります。 |
+| **[!UICONTROL Back]** | 変更を保存せずに _[!UICONTROL Customer Segments]_ページに戻ります。 |
 | **[!UICONTROL Delete]** | 現在の顧客セグメントを削除します。 セグメント内の顧客に関連付けられている顧客または完了済み注文は削除されません。 |
 | **[!UICONTROL Reset]** | 顧客セグメントフォーム内の未保存の変更を以前の値にリセットします。 |
 | **[!UICONTROL Refresh Segment Data]** | セグメントデータを最近保存した値に更新します。 使用できないセグメントデータや古いセグメントデータがある場合に関連します。 |
@@ -196,4 +204,4 @@ _&#x200B;**[!UICONTROL Matched Customers]グリッド&#x200B;**&#x200B;_
 
 顧客セグメントの作成に関するデモについては、このビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410191/?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)
