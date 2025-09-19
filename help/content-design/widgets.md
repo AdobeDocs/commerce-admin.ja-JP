@@ -2,10 +2,10 @@
 title: ウィジェット
 description: 様々なコンテンツを表示し、ストア内の特定のブロック参照に配置できるコードのスニペットを提供するウィジェットについて説明します。
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: a5e42a412d09a8e6306ef6eb72e65675fc244091
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL Order by SKU] | SKU による注文は、すべての買い物客の利便性としてストアに表示することも、特定の顧客グループのみが使用することもできます。 買い物客は、SKU および数量情報を Order by SKU ブロックに直接入力するか、顧客アカウントから CSV ファイルをアップロードできます。 |
 | [!UICONTROL Orders and Returns] | このオプションを使用すると、ゲストは注文のステータスを確認し、商品を返品するリクエストを送信できます。 このウィジェットは、アカウントにログインしていないゲストおよび顧客にのみ表示されます。 |
 | [!UICONTROL Recently Compared Products] | 最近比較した製品のブロックを表示します。 含める製品の数を指定し、リストまたは製品グリッドとして書式設定できます。 |
-| [!UICONTROL Recently Viewed Products] | 最近表示した製品のブロックを表示するには、このオプションを使用します。 含める製品の数を指定し、リストまたは製品グリッドとして書式設定できます。 |
+| [!UICONTROL Recently Viewed Products] | 最近表示した製品のブロックを表示するには、このオプションを使用します。 含める製品の数を指定し、リストまたは製品グリッドとして書式設定できます。 ウィジェットは、リアルタイムの価格アップデートを表示しない場合があります。 買い物客が商品をクリックすると、その商品のページに現在の価格が表示されます。 |
 | [!UICONTROL Wish List Search] | このオプションを使用すると、お客様はウィッシュリストの所有者の名前またはメールアドレスで、公開されているウィッシュリストを検索できます。 ストア顧客は、他の顧客に属するウィッシュリストを検索したり、それらを表示して製品を注文したり、独自のウィッシュリストに製品を追加したりできます。 |
 
 {style="table-layout:auto"}
