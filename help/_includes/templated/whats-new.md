@@ -1,7 +1,7 @@
 ---
-source-git-commit: edd93b54c6e76ef879688292006ead069ab37e39
+source-git-commit: 9b879d7c6984f8740d1be15cccb9de3c7c551733
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '189'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,15 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>各タイプの <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/segments/customer-segment-create"> 顧客セグメント </a> 条件の説明を追加しました。</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements"> 設定可能な製品 </a> トピックの「製品バリエーション属性要件」テーブルから、「プロモーションルール条件に使用」属性を削除しました。</p>
+</td>
+      <td>
+        技術
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/7035acbe2b974ab8bdb4904e769856f0646211ea">コミット</a></td>
+    </tr>
+    <tr>
+      <td><p>各タイプの <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segment-create"> 顧客セグメント </a> 条件の説明を追加しました。</p>
 </td>
       <td>
         技術
@@ -45,7 +53,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>非推奨（廃止予定）のNew Relic<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/start/reporting/new-relic-reporting"> レポート </a> 機能ドキュメントを削除しました。</p>
+      <td><p>非推奨（廃止予定）のNew Relic<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting"> レポート </a> 機能ドキュメントを削除しました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -67,7 +75,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon"> クーポンコードの作成 </a> に関するデフォルトの方法を明確にし、カスタムクーポンコードのリストを拡張機能を使用して読み込むためのガイダンスを提供しました。</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon"> クーポンコードの作成 </a> に関するデフォルトの方法を明確にし、カスタムクーポンコードのリストを拡張機能を使用して読み込むためのガイダンスを提供しました。</p>
 </td>
       <td>
         技術
@@ -89,7 +97,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>2025 年 8 月の B2B セキュリティパッチ <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/release-notes"> リリースノート </a> を追加しました。</p>
+      <td><p>2025 年 8 月の B2B セキュリティパッチ <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes"> リリースノート </a> を追加しました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -111,7 +119,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>レイヤーナビゲーションにおける設定可能な製品の <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation"> 価格フィルタリング </a> の期待される動作を明確にしました。</p>
+      <td><p>レイヤーナビゲーションにおける設定可能な製品の <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation"> 価格フィルタリング </a> の期待される動作を明確にしました。</p>
 </td>
       <td>
         技術
@@ -119,7 +127,7 @@ ht-degree: 3%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3227227b6cf4f159b40fda8a5a165a7097f8a0bd">コミット</a></td>
     </tr>
     <tr>
-      <td><p>アシストショッピングモードで顧客の買い物かごから <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage"> すべての項目を削除 </a> する方法を明確にしました。</p>
+      <td><p>アシストショッピングモードで顧客の買い物かごから <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage"> すべての項目を削除 </a> する方法を明確にしました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -141,7 +149,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">HIPAA 拡張機能 </a> の必要システム構成を更新しました。</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">HIPAA 拡張機能 </a> の必要システム構成を更新しました。</p>
 </td>
       <td>
         技術
