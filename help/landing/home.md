@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# <!-- use banner as heading -->![ 管理ドキュメント ](./assets/banner-user-home.png) {#documentation}
+# &#x200B;<!-- use banner as heading -->![ 管理ドキュメント ](./assets/banner-user-home.png) {#documentation}
 
 次世代の世界最先端のデジタルコマースプラットフォームへようこそ。 Adobe Commerceは、オンラインストアの外観、コンテンツ、機能をこれまでになく柔軟に制御できるようにします。 管理者は、強力なマーケティング、検索エンジンの最適化、製品管理ツールを備えており、独自のビジネスニーズに合わせてカスタマイズされたサイトを作成できます。
 
