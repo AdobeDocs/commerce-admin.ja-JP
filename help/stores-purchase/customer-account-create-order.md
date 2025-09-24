@@ -3,16 +3,16 @@ title: オーダーの作成
 description: Commerce Admin で顧客の注文を作成する方法を説明します。
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 0e2d79f6b716f5d59aa9cd60b096608a6b2dbb98
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # オーダーの作成
 
-サポートが必要な登録ユーザーの場合は、管理者から直接注文全体を作成できます。 _[!UICONTROL Create New Order]_&#x200B;フォームには、通常のチェックアウトプロセスに必要なすべての情報と、顧客のアカウントダッシュボードからのアクティビティ概要が含まれます。
+サポートが必要な登録ユーザーの場合は、管理者から直接注文全体を作成できます。 _[!UICONTROL Create New Order]_フォームには、通常のチェックアウトプロセスに必要なすべての情報と、顧客のアカウントダッシュボードからのアクティビティ概要が含まれます。
 
 ![ 顧客の注文の作成 ](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -95,10 +95,11 @@ ht-degree: 0%
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
+   - [!UICONTROL [ カスタム順序属性 ]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >
->Payment Services 拡張機能がインストールおよび設定されている場合に、この機能をサポートする支払方法の詳細については、[Payment Services Guide](https://experienceleague.adobe.com/ja/docs/commerce/payment-services/guide-overview) を参照してください。
+>Payment Services 拡張機能がインストールおよび設定されている場合に、この機能をサポートする支払方法の詳細については、[Payment Services Guide](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) を参照してください。
 
 ## 手順 3：注文を送信する
 

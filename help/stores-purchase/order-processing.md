@@ -3,9 +3,9 @@ title: 注文のワークフローと処理
 description: 注文ワークフロー、各ステップに適用されるステータス、このプロセスを通じて注文を移動する方法について説明します。
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 2c12405bbe965883179bb103bc9d746ad02cc615
+source-git-commit: 82f040fa34cf96af6f1e9752f8d9f1ddeab9f84c
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1822'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 **ステップ 3：支払いを受け取る** – 支払いが受領または承認されると、注文ステータスは `Processing` に変更されます。 支払い方法によっては、トランザクションが承認または処理されたときに通知が届く場合があります。 この状態は、支払方法がキャプチャまたはインテント販売モードに設定されている場合に自動的に発生します。
 
-**ステップ4:請求書注文** - 注文は通常、支払いの受領後に請求されます。 支払方法によって、注文に必要な請求オプションが決定されます。 請求書が生成されて送信されると、コピーが顧客に送信されます。 支払方法が `capture` または `intent sale` 支払アクションで構成されている場合、支払が承認およびキャプチャされると、請求書が自動的に生成されます。
+**ステップ 4：注文の請求** – 注文は通常、支払いを受け取った後に請求されます。 支払い方法によって、注文に必要な請求オプションが決まります。 請求書が生成されて送信されると、コピーが顧客に送信されます。 支払方法が `capture` または `intent sale` 支払アクションで設定されている場合、支払が承認および取得されると、請求書が自動的に生成されます。
 
 >[!NOTE]
 >
->請求書は、 `Gift Card`、 `Store Credit`、 `Reward Points`、またはその他のオフライン支払方法を使用して行われた注文に対して自動的には作成されません。
+>`Gift Card`、`Store Credit`、`Reward Points` またはその他のオフライン支払い方法を使用して注文された場合、請求書は自動的には作成されません。
 
-**ステップ5:単一の出荷ブック** - 出荷の詳細が完了し、出荷が予約され、出荷が設定されると、注文ステータスは `Complete` に変わります。 出荷要件は、印刷された梱包明細と出荷ラベルで満たされているか、 _集荷準備完了を通知_ が選択されています (ストア配信方法)。 顧客は通知を受け取り、パッケージが発送されます。 トラッキング番号を使用すると、顧客のアカウントから貨物を追跡できます。
+**ステップ 5：単一出荷の記帳** – 出荷詳細が完了し、出荷が記帳され、出荷が設定されると、受注ステータスは `Complete` に変更されます。 出荷要件が印刷された梱包明細と出荷ラベルで満たされるか、_集荷準備完了の通知_ が選択されます（店舗での配送方法）。 お客様に通知が届き、パッケージが出荷されます。 追跡番号を使用している場合、出荷は顧客のアカウントから追跡できます。
 
 >[!NOTE]
 >
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 ## オーダーを表示
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**に移動します。
 
-1. グリッド内の順序検索文字列。
+1. グリッド内の順序を検索します。
 
-1. _[!UICONTROL Action]_&#x200B;列で、「**[!UICONTROL View]**」をクリックします。
+1. 「_[!UICONTROL Action]_」列で「**[!UICONTROL View]**」をクリックします。
 
 1. 注文ステータスの確認：
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->管理者ユーザーが [ 請求書 ](../systems/permissions-user-roles.md)、「クレジットメモ _および_ 出荷 _の注文タブを表示するには、役割の範囲に対する&#x200B;**[!UICONTROL Sales / Archive]**&#x200B;の__権限_ が必要です。
+>管理者ユーザーが **[!UICONTROL Sales / Archive]** 請求書 [、「クレジットメモ ](../systems/permissions-user-roles.md) および _出荷_ の注文タブを表示するには、役割の範囲に対する _の__権限_ が必要です。
 
 ### ボタンバー
 
@@ -122,21 +122,21 @@ ht-degree: 0%
 
 ![ 注文及び口座情報 ](./assets/order-account-information.png){width="600" zoomable="yes"}
 
-#### 注文情報
+#### オーダー情報
 
-| 畑 | 説明 |
+| フィールド | 説明 |
 |--- |--- |
 | [!UICONTROL Order Number] | 注文番号が販売注文の上部に表示され、その後に確認メールが送信されたかどうかを示すメモが表示されます。 |
 | [!UICONTROL Order Date] | 注文が行われた日時。 |
 | [!UICONTROL Purchased From] | 注文が行われた web サイト、ストア、ストア表示を示します。 |
 | [!UICONTROL Placed from IP] | 注文元のコンピューターの IP アドレスを示します。 |
-| [!UICONTROL Order Placed from Quote] | ![Adobe Systems Commerce B2B](../assets/b2b.svg) (Adobe Systems Commerce B2Bで使用可能) 注文の生成元の [見積もり](../b2b/quotes.md) を示します (該当する場合)。 見積書名は見積書にリンクされています。 |
+| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能）注文が生成された [ 見積もり ](../b2b/quotes.md) を示します（該当する場合）。 見積書名は見積書にリンクされています。 |
 
 {style="table-layout:auto"}
 
 #### アカウント情報
 
-| 畑 | 説明 |
+| フィールド | 説明 |
 |--- |--- |
 | [!UICONTROL Customer Name] | 注文を行った顧客または購入者の名前。 顧客名が顧客プロファイルにリンクされています。 |
 | [!UICONTROL Email] | 顧客または購入者の電子メールアドレス。 このメールアドレスに、新しいメールメッセージを開くリンクが付いています。 |
@@ -166,6 +166,26 @@ ht-degree: 0%
 | [!UICONTROL Shipping & Handling Information] | 使用する発送方法と、該当する手数料。 |
 
 {style="table-layout:auto"}
+
+### カスタム注文属性
+
+[!BADGE SaaS のみ ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+
+カスタムの注文属性を使用すると、ビジネスニーズに固有の追加情報を注文に関連付けることができます。
+
+![ カスタム注文の属性 ](./assets/custom-order-attributes.png){width="600" zoomable="yes"}
+
+**[!UICONTROL Custom Order Attributes]** セクションでは、すべてのカスタム注文属性とその現在の値が表示されます。
+
+新しいカスタム注文属性を作成するには、**[!UICONTROL Attribute Code]** と **[!UICONTROL Value]** を入力します
+
+追加のカスタム注文属性を作成するには、「**[!UICONTROL Add Attribute]**」をクリックします。
+
+カスタム順序属性を削除するには、「**[!UICONTROL X]**」アイコンをクリックします。
+
+>[!NOTE]
+>
+>カスタム注文の属性は、注文が `Pending` ステータスの場合にのみ編集できます。 他のステータスの注文の場合、属性値は表示できますが、変更はできません。
 
 ### 並べ替えられた項目を確認
 
@@ -216,18 +236,18 @@ ht-degree: 0%
 | [!UICONTROL Shipping & Handling] | 配送料および手数料に対して請求される金額。 |
 | [!UICONTROL Tax] | 注文に適用される税額（該当する場合）。 |
 | [!UICONTROL Grand Total] | 注文の合計。 |
-| [!UICONTROL Total Paid] | 該当する場合、注文に対して支払われた合計金額。 |
-| [!UICONTROL Total Refunded] | 注文から返金された合計金額(該当する場合)。 |
-| [!UICONTROL Total Due] | 支払期日の合計金額。 |
-| [!UICONTROL Store Credit] | ![Adobe Systems コマース](../assets/adobe-logo.svg) (Adobe Systems コマースのみ) 注文に適用される利用可能なストアクレジットの量 (該当する場合)。 |
-| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能）見積もりの基礎として使用される共通カタログまたは標準カタログの価格に従った、見積もりの合計価格（税抜き）。 ストアフロント表示通貨が基本通貨と異なる場合、値は両方の通貨で表示され、ストアフロント表示は角括弧で囲まれます。 |
+| [!UICONTROL Total Paid] | 注文に対して支払われた合計金額（該当する場合）。 |
+| [!UICONTROL Total Refunded] | 注文から返金された合計金額（該当する場合）。 |
+| [!UICONTROL Total Due] | 期限の合計金額。 |
+| [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）注文に適用される利用可能なストアクレジットの量（該当する場合）。 |
+| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能）見積もりの基礎として使用される共通カタログまたは標準カタログの価格に従った、見積もりの合計価格（税抜き）。 ストアフロントの表示通貨が基本通貨と異なる場合、値は両方の通貨で表示され、ストアフロントは角括弧で囲まれて表示されます。 |
 | [!UICONTROL Negotiated Discount] | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で利用可能）買い手と売り手の間で交渉された見積もりの結果である割引。 ストアフロントの表示通貨が基本通貨と異なる場合、値は両方の通貨で表示され、ストアフロントは角括弧で囲まれて表示されます。 |
-| [!UICONTROL Subtotal] | ![Adobe Systems Commerce B2B](../assets/b2b.svg) (Adobe Systems Commerce B2B で使用可能) カタログ 合計 交渉済み割引を引いた価格。 |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能） カタログの合計価格から交渉済みの割引を差し引いた値。 |
 
 {style="table-layout:auto"}
 
-## 注文処理のデモ
+## 注文処理デモ
 
-このビデオを見て、注文処理とステータスの詳細をご覧ください。
+このビデオでは、注文の処理とステータスについて詳しく説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410799/?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)
