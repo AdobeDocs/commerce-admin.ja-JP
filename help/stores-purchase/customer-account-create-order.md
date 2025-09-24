@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # オーダーの作成
 
-サポートが必要な登録ユーザーの場合は、管理者から直接注文全体を作成できます。 _[!UICONTROL Create New Order]_フォームには、通常のチェックアウトプロセスに必要なすべての情報と、顧客のアカウントダッシュボードからのアクティビティ概要が含まれます。
+サポートが必要な登録ユーザーの場合は、管理者から直接注文全体を作成できます。 _[!UICONTROL Create New Order]_&#x200B;フォームには、通常のチェックアウトプロセスに必要なすべての情報と、顧客のアカウントダッシュボードからのアクティビティ概要が含まれます。
 
 ![ 顧客の注文の作成 ](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -95,7 +95,7 @@ ht-degree: 0%
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
-   - [!UICONTROL [ カスタム順序属性 ]](../stores-purchase/order-processing.md#custom-order-attributes)
+   - [[!UICONTROL [ カスタム順序属性 ]]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >

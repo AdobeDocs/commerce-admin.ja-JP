@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## オーダーを表示
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**&#x200B;に移動します。
 
 1. グリッド内の順序を検索します。
 
@@ -169,7 +169,7 @@ ht-degree: 0%
 
 ### カスタム注文属性
 
-[!BADGE SaaS のみ ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
 
 カスタムの注文属性を使用すると、ビジネスニーズに固有の追加情報を注文に関連付けることができます。
 
