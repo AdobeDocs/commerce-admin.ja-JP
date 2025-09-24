@@ -99,7 +99,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Payment Services 拡張機能がインストールおよび設定されている場合に、この機能をサポートする支払方法の詳細については、[Payment Services Guide](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) を参照してください。
+>Payment Services 拡張機能がインストールおよび設定されている場合に、この機能をサポートする支払方法の詳細については、[Payment Services Guide](https://experienceleague.adobe.com/ja/docs/commerce/payment-services/guide-overview) を参照してください。
 
 ## 手順 3：注文を送信する
 
