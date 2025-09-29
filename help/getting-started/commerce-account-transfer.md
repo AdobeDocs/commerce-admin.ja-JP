@@ -3,9 +3,9 @@ title: Commerce アカウントの転送
 description: Commerce アカウントを別の所有者またはメールアドレスに転送する方法について説明します。
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 674d918dee9fa0a001bf7910ab2531df8dc353af
+source-git-commit: b66fd3fad065f78726eb368b5ba06f0f61174356
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ビジネス上の責任が変わると、Commerce アカウントを新しい所有者または別のメールアドレスに転送する必要が生じる場合があります。 この転送では、アカウントに関連付けられたプライマリユーザーのメールを変更する必要があります。
 
-次に、Commerce（MAGEID）アカウントを転送するプロセスについて説明します。 クラウドアカウント（クラウドプロジェクトまたはNew Relic）の所有権の変更は含まれません。 Commerce クラウドプロジェクトのアクセスについて詳しくは、[Cloud Infrastructure ガイドの ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=ja) ユーザーアクセスの管理 _を参照してください_
+次に、Commerce（MAGEID）アカウントを転送するプロセスについて説明します。 クラウドアカウント（クラウドプロジェクトまたはNew Relic）の所有権の変更は含まれません。 Commerce クラウドプロジェクトのアクセスについて詳しくは、[Cloud Infrastructure ガイドの ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) ユーザーアクセスの管理 _を参照してください_
 
 >[!IMPORTANT]
 >
->新しいアカウント所有者が共有アクセスを使用して拡張機能を購入した場合、アカウント転送プロセスが開始されるとすぐに、それらの拡張機能へのアクセス権が失われます。 アカウントの移行をリクエストする前に、新しい所有者が [ マーケットプレイスのアカウント ](https://commercemarketplace.adobe.com/sales/order/history/) から購入の注文 ID を取得し、[ マーケットプレイスのチーム ](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) からそれらの拡張機能の払い戻しをリクエストしていることを確認してください。 拡張機能の購入を別のアカウントに転送することはできません。
+>新しいアカウント所有者が共有アクセスを使用して拡張機能を購入した場合、アカウント転送プロセスが開始されるとすぐに、それらの拡張機能へのアクセス権が失われます。 アカウントの移行をリクエストする前に、新しい所有者が [ マーケットプレイスのアカウント ](https://commercemarketplace.adobe.com/sales/order/history/) から購入の注文 ID を取得し、[ マーケットプレイスのチーム ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) からそれらの拡張機能の払い戻しをリクエストしていることを確認してください。 拡張機能の購入を別のアカウントに転送することはできません。
 
 ## 転送タイプの識別
 
@@ -54,13 +54,15 @@ Commerce アカウントの転送の種類は、現在のオーナーと新し�
 
 1. 「**[!UICONTROL Continue]**」をクリックします。
 
-   この手順では、Adobe IDを作成し、現在のCommerce アカウント（MAGEID）にリンクします。 このアカウントリンクを使用すると、_[!UICONTROL Email]_&#x200B;フィールドはすべての変更からブロックされます。 関連するメールアドレスの設定は、Adobe ID アカウントから管理されます。
+   この手順では、Adobe IDを作成し、現在のCommerce アカウント（MAGEID）にリンクします。 このアカウントリンクを使用すると、_[!UICONTROL Email]_フィールドはすべての変更からブロックされます。 関連するメールアドレスの設定は、Adobe ID アカウントから管理されます。
 
 1. [account.adobe.com](https://account.adobe.com/) に移動します。
 
 1. 「**[!UICONTROL Change Email]**」をクリックします。
 
 1. 新しい所有者のメールアドレスを入力します。
+
+   新しいメールアドレスが既にシステム内の別のアカウントにリンクされている場合は、転送に直接使用することはできません。 代わりに、プロセスでは、変更を容易にするために [ 一時的なメールアドレス ](#change-to-a-temporary-account) を使用する必要があります。
 
 1. 「**[!UICONTROL Change]**」をクリックします。
 
@@ -70,7 +72,7 @@ Commerce アカウントの転送の種類は、現在のオーナーと新し�
 
 1. 「**[!UICONTROL Verify]**」をクリックします。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447660/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
 
 ## メールの変更
 
@@ -83,6 +85,8 @@ Commerce アカウントの転送の種類は、現在のオーナーと新し�
 1. アカウント名とアバターの下で、「**[!UICONTROL Change Email]**」をクリックします。
 
 1. ダイアログで、新しい所有者のメールアドレスを入力します。
+
+   新しいメールアドレスが既にシステム内の別のアカウントにリンクされている場合は、転送に直接使用することはできません。 代わりに、プロセスでは、変更を容易にするために [ 一時的なメールアドレス ](#change-to-a-temporary-account) を使用する必要があります。
 
 1. 「**[!UICONTROL Change]**」をクリックします。
 
