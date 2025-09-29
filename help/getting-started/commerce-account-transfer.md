@@ -54,7 +54,7 @@ Commerce アカウントの転送の種類は、現在のオーナーと新し�
 
 1. 「**[!UICONTROL Continue]**」をクリックします。
 
-   この手順では、Adobe IDを作成し、現在のCommerce アカウント（MAGEID）にリンクします。 このアカウントリンクを使用すると、_[!UICONTROL Email]_フィールドはすべての変更からブロックされます。 関連するメールアドレスの設定は、Adobe ID アカウントから管理されます。
+   この手順では、Adobe IDを作成し、現在のCommerce アカウント（MAGEID）にリンクします。 このアカウントリンクを使用すると、_[!UICONTROL Email]_&#x200B;フィールドはすべての変更からブロックされます。 関連するメールアドレスの設定は、Adobe ID アカウントから管理されます。
 
 1. [account.adobe.com](https://account.adobe.com/) に移動します。
 
