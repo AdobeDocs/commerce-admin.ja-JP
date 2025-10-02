@@ -3,9 +3,9 @@ title: Cookie 法への準拠
 description: Cookie の使用に関する多くの国の法律に対応するために、Adobe CommerceとMagento Open Sourceでは、マーチャントに対して、お客様の同意を得るための選択肢を提供しています。
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: abdd70f63ce9ce49ea7e6552951c644480f6024f
+source-git-commit: 3276729b2da1068e7c3d236d568ac745a97d71be
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Cookie は、サイトへの各訪問者のコンピューターに保存され�
 
 >[!NOTE]
 >
->[EU 一般データ保護規則 ](compliance-gdpr.md) に準拠するためにデフォルトの [&#128279;](../merchandising-promotions/google-tools.md#google-privacy-settings)0&rbrace;Google プライバシー設定 &rbrace; を変更する場合、Google Analytics Cookie の使用に関するユーザーの同意を得る必要はありません。
+>[EU 一般データ保護規則 ](../merchandising-promotions/google-tools.md#google-privacy-settings) に準拠するためにデフォルトの [0}Google プライバシー設定 } を変更する場合、Google Analytics Cookie の使用に関するユーザーの同意を得る必要はありません。](compliance-gdpr.md)
 
 ## cookie 制限モード
 
@@ -32,7 +32,7 @@ cookie 制限モードが有効になっている場合、ストアを訪問し�
 
 ### 手順 1:cookie 制限モードを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルの **[!UICONTROL General]** の下で、「**[!UICONTROL Web]**」を選択します。
 
@@ -206,15 +206,15 @@ Admin Analytics モジュールによって間接的に設定されます。 Cli
 
 ページビルダーモジュールで設定されます。 管理者が以前に明示的に却下した場合に、特定のアクションを開かないように管理者に確認するプロンプトを以降から表示しないようにするフラグが含まれます。 店舗の管理区域内でのみ使用すること。 買い物客には適用されません。
 
-#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
+#### `accordion-{VARIABLE}-{VARIABLE}`
 
 タブ機能の実装の一部として使用されるのは、ストアの管理領域のみです。 買い物客には適用されません。
 
 ## Product Recommendations の cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）次の Cookie がAdobe Commerceのお客様向けの Product Recommendations で使用されます。 これらの Cookie は [DataServices モジュール ](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/getting-started/install-configure) と共にインストールされます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）次の Cookie がAdobe Commerceのお客様向けの Product Recommendations で使用されます。 これらの Cookie は [DataServices モジュール ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure) と共にインストールされます。
 
-- `mg_dnt`：サイトで cookie の同意を管理するカスタムコードがある場合は、[&#128279;](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/developer/setting-cookie)Adobe Commerce データ収集を制限  できます。
+- `mg_dnt`：サイトで cookie の同意を管理するカスタムコードがある場合は、[Adobe Commerce データ収集を制限 ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) できます。
 - `user_allowed_save_cookie`: [cookie 制限モード ](#cookie-restriction-mode) に使用されます。
 - `authentication_flag`：買い物客がサインインまたはログアウトしたかどうかを示します。 この cookie は、`dataservices_customer_id` cookie と同時に更新されます。
 - `dataservices_customer_id`：買い物客がサインインまたはログアウトしたかどうかを示します。 この cookie には、システム内の顧客の一意の ID が含まれます。
@@ -222,9 +222,19 @@ Admin Analytics モジュールによって間接的に設定されます。 Cli
 - `dataservices_cart_id`：買い物客の買い物かごアクションを識別します。 この cookie には、システム内のお客様の一意の買い物かご ID が含まれています。
 - `dataservices_product_context`：買い物客の製品インタラクションを識別します。 この Cookie には、システム内の顧客の一意の見積もり ID が含まれています。
 
+### Product Recommendations ローカルストレージデータ
+
+Live Search または Product Recommendations がインストールされている場合、Luma テーマを使用して、次のデータがストアのローカルストレージに保存されます。
+
+- `ds-cart`:Luma 固有の機能の買い物かご情報を保存します
+- `ds-cart-order`：買い物かご機能の注文情報を保存します
+- `ds-purchase-history`：顧客の購入履歴をトラッキングします
+- `ds-view-history-time-decay`：製品の表示履歴を時間ベースの減衰と共に保存します
+- `ds-logged-in`：顧客のログインステータスを示します。 このデータは、顧客がログイン時にのみ存在し、cookie 制限モードが有効になっている場合でも保存されます。 これは、ユーザーの同意ステータスに関係なく、cookie 制限モードが有効になっている場合にCommerceによってローカルストレージに保存される唯一のデータです。
+
 ## その他の cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） Adobe Commerceのお客様向けに設定されている Cookie は次のとおりです。 これらの Cookie は [DataServices モジュール ](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/getting-started/install-configure) と共にインストールされます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） Adobe Commerceのお客様向けに設定されている Cookie は次のとおりです。 これらの Cookie は [DataServices モジュール ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure) と共にインストールされます。
 
 - `mg`: Snowplow JavaScript トラッカーによって設定されます。 詳しくは、[Snowplow ドキュメント ](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/) を参照してください。
 - `com.adobe.alloy.getTld`：現在の web ページのホスト名では、https://publicsuffix.orgで説明されているように、「パブリックサフィックス」ではない最上位のドメインになります。 基本的に、これは Cookie を受け入れられる最上位のドメインです。 この Cookie は [Alloy Web SDK](https://github.com/adobe/alloy) の一部です。
