@@ -20,9 +20,9 @@ Adobe CommerceとMagento Open Sourceを使用すると、お客様の銀行口�
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Payment Methods]**」を選択します。
 
-1. _その他の支払い方法_ の下で、![ 拡張セレクター ](../assets/icon-display-expand.png) の「**[!UICONTROL Bank Transfer Payment]**」セクションを展開します。
+1. _その他の支払い方法_ の下で、![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) の「**[!UICONTROL Bank Transfer Payment]**」セクションを展開します。
 
-   ![ 振替支払 ](../configuration-reference/sales/assets/payment-methods-bank-transfer-payment.png){width="600" zoomable="yes"}
+   ![&#x200B; 振替支払 &#x200B;](../configuration-reference/sales/assets/payment-methods-bank-transfer-payment.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -36,7 +36,7 @@ Adobe CommerceとMagento Open Sourceを使用すると、お客様の銀行口�
 
 1. **[!UICONTROL Payment from Applicable Countries]** を次のいずれかに設定します。
 
-   - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
+   - `All Allowed Countries` - ストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
 
    - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、それぞれのオプションをクリックします。
 

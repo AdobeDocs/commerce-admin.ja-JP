@@ -26,7 +26,7 @@ AEM Assets プロジェクトを特定した後、Adobe CommerceとAEM Assetsの
 
 - [AEM Assets パッケージのインストール](aem-assets-configure-aem.md)
 
-- [Adobe Commerce パッケージをインストール ](aem-assets-configure-commerce.md) して、拡張機能を追加し、拡張機能を使用するために必要な資格情報と接続を生成します。
+- [Adobe Commerce パッケージをインストール &#x200B;](aem-assets-configure-commerce.md) して、拡張機能を追加し、拡張機能を使用するために必要な資格情報と接続を生成します。
 
 - AEM Assets for Commerce統合の有効化をリクエストするサポートチケットを作成します。 チケットに、Commerceに接続するAEM Assets オーサリング環境用の **[!UICONTROL Program ID]**、**[!UICONTROL Environment ID]** および **[!UICONTROL IMS Org ID]** を含めます。
 
@@ -34,7 +34,7 @@ AEM Assets プロジェクトを特定した後、Adobe CommerceとAEM Assetsの
 
 ## 接続の設定
 
-1. [AEM Assets オーサリング環境 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) プロジェクトおよび環境 ID を取得します。
+1. [AEM Assets オーサリング環境 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) プロジェクトおよび環境 ID を取得します。
 
    1. AEM Sites コンソールを開き、「**[!UICONTROL Assets]**」を選択します。
 
@@ -43,7 +43,7 @@ AEM Assets プロジェクトを特定した後、Adobe CommerceとAEM Assetsの
 
    1. **[!UICONTROL Store]**/設定/**[!UICONTROL ADOBE SERVICES]**/**[!UICONTROL AEM Assets Integration]** に移動します。
 
-      ![AEM Assets統合：統合の有効化 ](assets/aem-assets-integration-enable-config.png){width="600" zoomable="yes"}
+      ![AEM Assets統合：統合の有効化 &#x200B;](assets/aem-assets-integration-enable-config.png){width="600" zoomable="yes"}
 
 1. AEM Assets環境 **[!UICONTROL Program ID]** と **[!UICONTROL Environment ID]** を入力します。
 
@@ -51,7 +51,7 @@ AEM Assets プロジェクトを特定した後、Adobe CommerceとAEM Assetsの
 
 1. **[!UICONTROL Asset Selector IMS Client ID]** を入力します。
 
-   [ アセットセレクター IMS クライアント ID](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props) は、[!UICONTROL Assets Selector] に必要です。これは、ユーザーがCommerce製品ページに直接ビジュアルアセットを埋め込むことができるAEM Assets機能です。
+   [&#x200B; アセットセレクター IMS クライアント ID](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props) は、[!UICONTROL Assets Selector] に必要です。これは、ユーザーがCommerce製品ページに直接ビジュアルアセットを埋め込むことができるAEM Assets機能です。
 
 1. Commerceとアセット照合サービスの間でリクエストを認証する [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment) を選択します。
 
@@ -71,11 +71,11 @@ AEM Assets プロジェクトを特定した後、Adobe CommerceとAEM Assetsの
 
 ### カスタムドメイン URL の設定
 
-マーチャントがAEM ダッシュボードで [ カスタムドメイン名 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank} を設定した場合、AEM Assets統合で使用できるように、この **カスタムドメイン URL** をCommerceに追加する必要があります。
+マーチャントがAEM ダッシュボードで [&#x200B; カスタムドメイン名 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank} を設定した場合、AEM Assets統合で使用できるように、この **カスタムドメイン URL** をCommerceに追加する必要があります。
 
 1. **[!UICONTROL Store]**/設定/**[!UICONTROL ADOBE SERVICES]**/**[!UICONTROL AEM Assets Integration]** に移動します。
 
-   ![AEM Assets統合：統合の有効化 ](assets/aem-assets-view.png){width="600" zoomable="yes"}
+   ![AEM Assets統合：統合の有効化 &#x200B;](assets/aem-assets-view.png){width="600" zoomable="yes"}
 
 1. **カスタムドメイン URL** を **[!UICONTROL Asset Custom Domain]** フィールドに追加します。
 

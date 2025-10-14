@@ -12,20 +12,20 @@ ht-degree: 0%
 
 # 要素 – HTML コード
 
-_HTML コード_ コンテンツタイプを使用して、[[!DNL Page Builder]  ステージ ](workspace.md#stage) にHTML、CSS、JavaScript コードのスニペットを追加します。 例えば、カスタム HTMLを追加し、ページ上の要素に適用できる CSS クラスを宣言する場合があります。 また、サードパーティのプロバイダーから受け取ったロゴ、ボタン、バナーのコードのスニペットを追加する場合もあります。
+_HTML コード_ コンテンツタイプを使用して、[[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage) にHTML、CSS、JavaScript コードのスニペットを追加します。 例えば、カスタム HTMLを追加し、ページ上の要素に適用できる CSS クラスを宣言する場合があります。 また、サードパーティのプロバイダーから受け取ったロゴ、ボタン、バナーのコードのスニペットを追加する場合もあります。
 
 ## HTML コードツールボックス
 
-![HTML コード ツールボックス ](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
+![HTML コード ツールボックス &#x200B;](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
 
 | ツール | アイコン | 説明 |
 | --------- | ---------- | ----------------- |
-| 移動 | ![ 移動アイコン ](./assets/pb-icon-move.png){width="25"} | HTML コードコンテナをページ上の別の有効な場所に移動します。 |
-| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | 「HTML コードを編集」ページが開きます。このページで、コンテナのプロパティを変更できます。 |
-| Hide | ![ アイコンを非表示 ](./assets/pb-icon-hide.png){width="25"} | HTML コードコンテナを非表示にします。 |
-| 表示 | ![ アイコンを表示 ](./assets/pb-icon-show.png){width="25"} | 非表示のHTML コードコンテナを表示します。 |
-| 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | HTML コードコンテナをコピーします。 |
-| 削除 | ![ 削除アイコン ](./assets/pb-icon-remove.png){width="25"} | HTML コードコンテナとそのコンテンツをステージから削除します。 |
+| 移動 | ![&#x200B; 移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | HTML コードコンテナをページ上の別の有効な場所に移動します。 |
+| 設定 | ![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | 「HTML コードを編集」ページが開きます。このページで、コンテナのプロパティを変更できます。 |
+| Hide | ![&#x200B; アイコンを非表示 &#x200B;](./assets/pb-icon-hide.png){width="25"} | HTML コードコンテナを非表示にします。 |
+| 表示 | ![&#x200B; アイコンを表示 &#x200B;](./assets/pb-icon-show.png){width="25"} | 非表示のHTML コードコンテナを表示します。 |
+| 複製 | ![&#x200B; 複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | HTML コードコンテナをコピーします。 |
+| 削除 | ![&#x200B; 削除アイコン &#x200B;](./assets/pb-icon-remove.png){width="25"} | HTML コードコンテナとそのコンテンツをステージから削除します。 |
 
 {{$include /help/_includes/page-builder-hidden-element-note.md}}
 
@@ -66,17 +66,17 @@ _HTML コード_ コンテンツタイプを使用して、[[!DNL Page Builder] 
 
    赤いガイドラインを使用して、行、列、タブセット内の別のコンテンツコンテナの前または後にディバイダーを配置します。
 
-   ![HTML コードのプレースホルダーのステージへのドラッグ ](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
+   ![HTML コードのプレースホルダーのステージへのドラッグ &#x200B;](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. HTML コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）, アイコンを選びます。
+1. HTML コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）, アイコンを選びます。
 
 1. テキストボックスに、準備した埋め込みGoogle フォントコードおよびスタイル宣言を貼り付けます。
 
    読みやすくするために、スペースを 2、3 個入力してコードをインデントできます。
 
-   ![HTMLのコードとスタイル ](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
+   ![HTMLのコードとスタイル &#x200B;](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. 必要に応じて残りの設定を更新します（詳しくは [HTML コード設定の変更 ](#html-settings) を参照）。
+1. 必要に応じて残りの設定を更新します（詳しくは [HTML コード設定の変更 &#x200B;](#html-settings) を参照）。
 
 1. 右上隅にある「**[!UICONTROL Save]**」をクリックして設定を適用し、[!DNL Page Builder] ワークスペースに戻ります。
 
@@ -86,17 +86,17 @@ _HTML コード_ コンテンツタイプを使用して、[[!DNL Page Builder] 
 
 1. _[!UICONTROL Currently Active]_&#x200B;セクションで、**[!UICONTROL Enable Page]**&#x200B;を `Yes` に設定します。
 
-   ![ ページの有効化 ](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
+   ![&#x200B; ページの有効化 &#x200B;](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
 1. 右上隅の **[!UICONTROL Save]** 矢印をクリックし、「**[!UICONTROL Save & Close]**」を選択します。
 
 1. グリッドでページを見つけ、**[!UICONTROL View]** 列で _[!UICONTROL Actions]_&#x200B;を選択します。
 
-   ![ 新しいフォントファミリーでページの見出しをプレビューする ](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
+   ![&#x200B; 新しいフォントファミリーでページの見出しをプレビューする &#x200B;](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
 ## HTML コードの設定の変更 {#html-settings}
 
-1. HTML コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. HTML コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
 1. テキストボックスで、必要に応じてコードを編集します。
 
@@ -123,7 +123,7 @@ _HTML コード_ コンテンツタイプを使用して、[[!DNL Page Builder] 
 
      次の例では、オプションを設定して、レンダリングされたコードブロックに中央揃えを使用します。
 
-     ![ 中央揃えのデバイダー ](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
+     ![&#x200B; 中央揃えのデバイダー &#x200B;](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
 
    - コードコンテナの 4 つの辺すべてに適用する **[!UICONTROL Border]** スタイルを設定します。
 

@@ -16,11 +16,11 @@ ht-degree: 2%
 
 ## [!UICONTROL Categories Options]
 
-![ カテゴリオプション ](./assets/xml-sitemap-categories-options.png)<!-- zoom -->
+![&#x200B; カテゴリオプション &#x200B;](./assets/xml-sitemap-categories-options.png)<!-- zoom -->
 
 <!-- [Categories Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | ストア表示 | サイトマップカテゴリの更新頻度を決定します。 オプション：`Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | ストア表示 | カテゴリサイトマップの更新の優先度を他のコンテンツとの関連で決定する `0.0` ～ `1.0` の値です。 優先順位が最も低いのはゼロ（`0.0`）です。 |
@@ -29,11 +29,11 @@ ht-degree: 2%
 
 ## [!UICONTROL Products Options]
 
-![ 製品オプション ](./assets/xml-sitemap-products-options.png)<!-- zoom -->
+![&#x200B; 製品オプション &#x200B;](./assets/xml-sitemap-products-options.png)<!-- zoom -->
 
 <!-- [Products Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | ストア表示 | サイトマップ製品の更新頻度を決定します。 オプション：`Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | ストア表示 | 他のコンテンツと関連して製品サイトマップの更新の優先度を決定する `0.0` ～ `1.0` の値です。 優先順位が最も低いのはゼロ（`0.0`）です。 |
@@ -43,11 +43,11 @@ ht-degree: 2%
 
 ## [!UICONTROL CMS Pages Options]
 
-![CMSページオプション ](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
+![CMSページオプション &#x200B;](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
 
 <!-- [CMS Pages Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | ストア表示 | サイトマップのCMSページを更新する頻度を指定します。 オプション：`Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | ストア表示 | CMS ページサイトマップの更新の優先度を他のコンテンツと関連付けて決定する、`0.0` ～ `1.0` の値です。 優先順位が最も低いのはゼロ（`0.0`）です。 |
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 ## [!UICONTROL Store Url Options]
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | ストア表示 | ストア URL の更新頻度を決定します。 オプション：`Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | ストア表示 | ストア URL の更新の優先度を他のコンテンツとの関連で決定する `0.0` ～ `1.0` の値です。 優先順位が最も低いのはゼロ（`0.0`）です。 |
@@ -65,11 +65,11 @@ ht-degree: 2%
 
 ## [!UICONTROL Generation Settings]
 
-![ 生成設定 ](./assets/xml-sitemap-generation-settings.png)<!-- zoom -->
+![&#x200B; 生成設定 &#x200B;](./assets/xml-sitemap-generation-settings.png)<!-- zoom -->
 
 <!-- [Generation Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | ストア表示 | ストアで XML サイトマップを使用できるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Start Time] | ストア表示 | サイトマップを更新する時刻（時、分、秒）を指定します。 |
@@ -82,11 +82,11 @@ ht-degree: 2%
 
 ## [!UICONTROL Sitemap File Limits]
 
-![ サイトマップファイルの制限 ](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
+![&#x200B; サイトマップファイルの制限 &#x200B;](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
 
 <!-- [Sitemap File Limits](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Maximum No of URLs Per File] | ストア表示 | 単一のサイトマップに含めることができる URL の最大数を決定します。 |
 | [!UICONTROL Maximum File Size] | ストア表示 | 生成されたサイトマップの最大サイズをバイト単位で決定します。 |
@@ -95,11 +95,11 @@ ht-degree: 2%
 
 ## [!UICONTROL Search Engine Submission Settings]
 
-![ 検索エンジン送信設定 ](./assets/xml-sitemap-search-engine-submission-settings.png)<!-- zoom -->
+![&#x200B; 検索エンジン送信設定 &#x200B;](./assets/xml-sitemap-search-engine-submission-settings.png)<!-- zoom -->
 
 <!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Submission to Robots.txt] | ストア表示 | robots.txt ファイルに対してディレクティブを送信できるようにします。 オプション：`Yes` / `No` |
 

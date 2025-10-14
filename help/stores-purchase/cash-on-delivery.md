@@ -22,11 +22,11 @@ Adobe CommerceとMagento Open Sourceでは、購入に対する _代金引換_ �
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Payment Methods]**」を選択します。
 
-1. _その他の支払い方法_ の下で、![ 拡張セレクター ](../assets/icon-display-expand.png) の「**[!UICONTROL Cash On Delivery Payment]**」セクションを展開します。
+1. _その他の支払い方法_ の下で、![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) の「**[!UICONTROL Cash On Delivery Payment]**」セクションを展開します。
 
-   ![ 代金交付金 ](../configuration-reference/sales/assets/payment-methods-cash-on-delivery-payment.png){width="600" zoomable="yes"}
+   ![&#x200B; 代金交付金 &#x200B;](../configuration-reference/sales/assets/payment-methods-cash-on-delivery-payment.png){width="600" zoomable="yes"}
 
-   これらの各構成設定の詳細は、『 [ 構成リファレンス ガイド _の「代金引換払い ](../configuration-reference/sales/payment-methods.md#cash-on-delivery-payment) を参照してください_。
+   これらの各構成設定の詳細は、『 [&#x200B; 構成リファレンス ガイド _の「代金引換払い &#x200B;](../configuration-reference/sales/payment-methods.md#cash-on-delivery-payment) を参照してください_。
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ Adobe CommerceとMagento Open Sourceでは、購入に対する _代金引換_ �
 
 1. **[!UICONTROL Payment from Applicable Countries]** を次のいずれかに設定します。
 
-   - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
+   - `All Allowed Countries` - ストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
    - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、それぞれのオプションをクリックします。
 
 1. 代金引換払い注文の配送を受け付けるための **[!UICONTROL Instructions]** を入力します。

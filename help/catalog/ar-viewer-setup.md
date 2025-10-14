@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 下にスクロールして、「_[!UICONTROL Product 3D Model]_」セクションを展開します。
 
-   ![ メニューポップアップ ](assets/ar-viewer-product-options.png){width="700" zoomable="yes"}
+   ![&#x200B; メニューポップアップ &#x200B;](assets/ar-viewer-product-options.png){width="700" zoomable="yes"}
 
 1. 製品の 3D モデル（`.USDZ` ファイル）を追加します。
 
@@ -61,4 +61,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 製品に 3d モデルを追加するユーザーの一連のデモビデオについては、_CommerceのビデオとTutorials[ の ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html?lang=ja)Adobe Commerceの AR ビューア_ を参照してください。
+> 製品に 3d モデルを追加するユーザーの一連のデモビデオについては、_CommerceのビデオとTutorials[&#x200B; の &#x200B;](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html?lang=ja)Adobe Commerceの AR ビューア_ を参照してください。

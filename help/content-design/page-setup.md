@@ -18,7 +18,7 @@ ht-degree: 0%
 - [ヘッダー](#header)
 - [フッター](#footer)
 
-![HTMLページセクション ](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
+![HTMLページセクション &#x200B;](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
 
 ## HTMLヘッド
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 1. 設定するストア表示を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. _その他の設定_ の下で、「**[!UICONTROL HTML Head]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. _その他の設定_ の下で、「**[!UICONTROL HTML Head]**」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
-   ![HTML Head の設定 ](./assets/configuration-html-head.png){width="500" zoomable="yes"}
+   ![HTML Head の設定 &#x200B;](./assets/configuration-html-head.png){width="500" zoomable="yes"}
 
 1. 必要に応じて [favicon](../getting-started/storefront-branding.md#add-a-favicon) を更新します。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >「[!UICONTROL Scripts and Style Sheets]」フィールドに入力するJavaScriptは、コンテンツセキュリティポリシー（CSP）設定で許可リストに登録する必要があります。登録しない場合、チェックアウトページでは実行されません。 詳しくは、[ コンテンツセキュリティポリシー ](https://developer.adobe.com/commerce/php/development/security/content-security-policies) を参照してください。
+   >「[!UICONTROL Scripts and Style Sheets]」フィールドに入力するJavaScriptは、コンテンツセキュリティポリシー（CSP）設定で許可リストに登録する必要があります。登録しない場合、チェックアウトページでは実行されません。 詳しくは、[&#x200B; コンテンツセキュリティポリシー &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies) を参照してください。
 
 
 1. 必要に応じて、[demo store notice](../getting-started/storefront-branding.md#set-the-store-demo-notice) を有効または無効にします。
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 ヘッダー設定は、ストアのロゴのパスを識別し、ロゴの代替テキストとようこそメッセージを指定します。
 
-![ ヘッダー設定 ](./assets/configuration-header.png){width="400" zoomable="yes"}
+![&#x200B; ヘッダー設定 &#x200B;](./assets/configuration-header.png){width="400" zoomable="yes"}
 
 ### ヘッダーの設定
 
@@ -87,12 +87,12 @@ ht-degree: 0%
 
 1. 設定するストア表示を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. _その他の設定_ の下で、「**[!UICONTROL Header]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. _その他の設定_ の下で、「**[!UICONTROL Header]**」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
 1. ストア表示に必要な変更を加えます。
 
-   - [ ロゴ ](../getting-started/storefront-branding.md#upload-your-logo) 設定
-   - [ ようこそメッセージ ](../getting-started/storefront-branding.md#change-the-welcome-message) 設定
+   - [&#x200B; ロゴ &#x200B;](../getting-started/storefront-branding.md#upload-your-logo) 設定
+   - [&#x200B; ようこそメッセージ &#x200B;](../getting-started/storefront-branding.md#change-the-welcome-message) 設定
 
 1. 完了したら、「**[!UICONTROL Save Configuration]**」をクリックします。
 
@@ -111,9 +111,9 @@ ht-degree: 0%
 
 ## フッター
 
-フッター設定セクションでは、ページの下部に表示される [ 著作権表示 ](../getting-started/storefront-branding.md#change-the-copyright-notice) を更新したり、終了 `<body>` タグの前に配置しなければならないその他のスクリプトを入力したりできます。
+フッター設定セクションでは、ページの下部に表示される [&#x200B; 著作権表示 &#x200B;](../getting-started/storefront-branding.md#change-the-copyright-notice) を更新したり、終了 `<body>` タグの前に配置しなければならないその他のスクリプトを入力したりできます。
 
-![ フッター設定 ](./assets/configuration-footer.png){width="400" zoomable="yes"}
+![&#x200B; フッター設定 &#x200B;](./assets/configuration-footer.png){width="400" zoomable="yes"}
 
 ### フッターの設定
 
@@ -121,13 +121,13 @@ ht-degree: 0%
 
 1. 設定するストア表示を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. _その他の設定_ の下で、「**[!UICONTROL Footer]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. _その他の設定_ の下で、「**[!UICONTROL Footer]**」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
 1. **[!UICONTROL Copyright]** と **[!UICONTROL Miscellaneous HTML]** の設定に対して必要な変更を加えます。
 
    >[!NOTE]
    >
-   >「[!UICONTROL Miscellaneous HTML]」フィールドに入力するJavaScriptは、コンテンツセキュリティポリシー（CSP）設定で許可リストに登録する必要があります。登録しない場合、チェックアウトページでは実行されません。 詳しくは、[ コンテンツセキュリティポリシー ](https://developer.adobe.com/commerce/php/development/security/content-security-policies) を参照してください。
+   >「[!UICONTROL Miscellaneous HTML]」フィールドに入力するJavaScriptは、コンテンツセキュリティポリシー（CSP）設定で許可リストに登録する必要があります。登録しない場合、チェックアウトページでは実行されません。 詳しくは、[&#x200B; コンテンツセキュリティポリシー &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies) を参照してください。
 
 1. 完了したら、「**[!UICONTROL Save Configuration]**」をクリックします。
 

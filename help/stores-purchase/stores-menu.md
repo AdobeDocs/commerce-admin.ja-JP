@@ -19,13 +19,13 @@ _[!UICONTROL Stores]_&#x200B;メニューを使用すると、使用頻度は低
 
 [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
-![ 管理者 – ストアメニュー ](./assets/stores-menu.png){width="500" zoomable="yes"}
+![&#x200B; 管理者 – ストアメニュー &#x200B;](./assets/stores-menu.png){width="500" zoomable="yes"}
 
 >[!TAB Adobe Commerceas a Cloud Service]
 
 [!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
 
-![ 管理者 – ストアメニュー ](./assets/stores-menu-accs.png){width="500" zoomable="yes"}
+![&#x200B; 管理者 – ストアメニュー &#x200B;](./assets/stores-menu-accs.png){width="500" zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -37,24 +37,24 @@ _管理者_ サイドバーで、「**[!UICONTROL Stores]**」をクリックし
 
 ### [!UICONTROL Settings]
 
-Adobe CommerceまたはMagento Open Sourceのインストール環境での [web サイト、ストア、ストアビュー ](stores.md#store-and-site-structure) およびすべての [ 設定 ](../configuration-reference/guide-overview.md) の階層を管理します。 さらに、販売の [ 利用条件 ](terms-and-conditions.md) を設定し、[ 注文ステータス設定 ](order-status.md#custom-order-status) を管理できます。
+Adobe CommerceまたはMagento Open Sourceのインストール環境での [web サイト、ストア、ストアビュー &#x200B;](stores.md#store-and-site-structure) およびすべての [&#x200B; 設定 &#x200B;](../configuration-reference/guide-overview.md) の階層を管理します。 さらに、販売の [&#x200B; 利用条件 &#x200B;](terms-and-conditions.md) を設定し、[&#x200B; 注文ステータス設定 &#x200B;](order-status.md#custom-order-status) を管理できます。
 
 ### [!UICONTROL Inventory]
 
-[ 在庫を管理および作成 ](../inventory-management/introduction.md) して、販売チャネルまたは web サイトを [ ソース ](../inventory-management/sources-manage.md) にリンクします。 在庫は、集計した販売可能数量の製品を提供します。 単一のSource マーチャントはデフォルトの在庫を使用するのに対して、マルチ Source マーチャントは追加のカスタム在庫を使用します。
+[&#x200B; 在庫を管理および作成 &#x200B;](../inventory-management/introduction.md) して、販売チャネルまたは web サイトを [&#x200B; ソース &#x200B;](../inventory-management/sources-manage.md) にリンクします。 在庫は、集計した販売可能数量の製品を提供します。 単一のSource マーチャントはデフォルトの在庫を使用するのに対して、マルチ Source マーチャントは追加のカスタム在庫を使用します。
 
 ### [!UICONTROL Taxes]
 
-店舗全体のあらゆるタイプの [ 税金機能 ](taxes.md) を管理し、店舗の税金ルールを設定し、顧客および製品の税金クラスを定義し、税金ゾーンおよび税率を管理します。 ストアに税率データをインポートすることもできます。
+店舗全体のあらゆるタイプの [&#x200B; 税金機能 &#x200B;](taxes.md) を管理し、店舗の税金ルールを設定し、顧客および製品の税金クラスを定義し、税金ゾーンおよび税率を管理します。 ストアに税率データをインポートすることもできます。
 
 ### [!UICONTROL Currency]
 
-ストアで支払として受け入れられる [ 通貨 ](currency.md) のレートを管理し、製品価格および販売ドキュメントに表示される通貨記号をカスタマイズします。
+ストアで支払として受け入れられる [&#x200B; 通貨 &#x200B;](currency.md) のレートを管理し、製品価格および販売ドキュメントに表示される通貨記号をカスタマイズします。
 
 ### [!UICONTROL Attributes]
 
-[ 顧客 ](../customers/attribute-properties.md) または [ 製品情報 ](../catalog/attribute-product-create.md)、返品、製品の評価に使用される属性を管理します。 属性の作成、既存の属性の編集、[ 属性セット ](../catalog/attribute-sets.md) の管理を行うことができます。
+[&#x200B; 顧客 &#x200B;](../customers/attribute-properties.md) または [&#x200B; 製品情報 &#x200B;](../catalog/attribute-product-create.md)、返品、製品の評価に使用される属性を管理します。 属性の作成、既存の属性の編集、[&#x200B; 属性セット &#x200B;](../catalog/attribute-sets.md) の管理を行うことができます。
 
 ### [!UICONTROL Other Settings]
 
-[ 報酬為替レート ](../merchandising-promotions/reward-exchange-rates.md)、[ ギフトラッピング ](cart-configuration.md#gift-wrap)、および [ ギフトレジストリ ](../merchandising-promotions/gift-registries.md) の追加設定を管理します。
+[&#x200B; 報酬為替レート &#x200B;](../merchandising-promotions/reward-exchange-rates.md)、[&#x200B; ギフトラッピング &#x200B;](cart-configuration.md#gift-wrap)、および [&#x200B; ギフトレジストリ &#x200B;](../merchandising-promotions/gift-registries.md) の追加設定を管理します。

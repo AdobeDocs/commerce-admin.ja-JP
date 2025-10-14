@@ -22,9 +22,9 @@ ht-degree: 1%
 
 ## [!UICONTROL B2B Features]
 
-![B2B の機能 ](./assets/b2b-features.png)<!-- zoom -->
+![B2B の機能 &#x200B;](./assets/b2b-features.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Company]](../../b2b/account-companies.md) | Web サイト | 有効にすると、顧客はアカウントダッシュボードから会社の割り当てを管理でき、デフォルトでカタログ共有機能と B2B 見積機能も有効になります。 オプション：`Yes` / `No` |
 | [[!UICONTROL Enable Quick Order]](../../b2b/quick-order.md) | Web サイト | 有効にすると、顧客およびゲストは SKU または製品名に基づいてすばやく注文できるようになります。 オプション：`Yes` / `No` |
@@ -32,11 +32,11 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-会社と共有カタログを有効にした ![B2B 機能 ](./assets/b2b-features-company-enabled.png)<!-- zoom -->
+会社と共有カタログを有効にした ![B2B 機能 &#x200B;](./assets/b2b-features-company-enabled.png)<!-- zoom -->
 
 会社機能が有効になっている場合、追加のフィールドを共有カタログと B2B 見積もりに使用できます。
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md) | Web サイト | 有効にすると、グローバルに利用できる、または特定の会社に限定して利用できるカスタム価格のキュレートされたカタログを作成できます。 オプション：`Yes` / `No` |
 | [!UICONTROL Enable Shared Catalog direct products price assigning] | Web サイト | _[!UICONTROL Enable Shared Catalog]_&#x200B;フィールドが `Yes` に設定されている場合は、このオプションを使用できます。 有効にすると、共有カタログに割り当てられた製品のみが価格インデックスに保存されます。 共有カタログに割り当てられていない製品は、ストアフロントに表示されません。 オプション：`Yes` / `No` |
@@ -46,9 +46,9 @@ ht-degree: 1%
 
 ### [!UICONTROL Default B2B Payment Methods]
 
-![B2B 設定 – デフォルトの支払方法設定 ](./assets/b2b-features-default-payment-methods.png)<!-- zoom -->
+![B2B 設定 – デフォルトの支払方法設定 &#x200B;](./assets/b2b-features-default-payment-methods.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |------- |----------------------------------------------------------------------- |------------ |
 | [!UICONTROL Applicable Payment Methods] | グローバル | B2B 購入者が使用できる支払い方法の選択を決定します。 オプション：`All Payment Methods` / `Specific Payment Methods` |
 | [!UICONTROL Payment Methods] | グローバル | B2B 購入者が使用できる各支払方法を指定します。 |
@@ -57,20 +57,20 @@ ht-degree: 1%
 
 ### [!UICONTROL Default B2B Shipping Methods]
 
-![B2B 設定 – デフォルトの発送方法 ](./assets/b2b-features-shipping-methods.png)<!-- zoom -->
+![B2B 設定 – デフォルトの発送方法 &#x200B;](./assets/b2b-features-shipping-methods.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |------- |----------------------------------------------------------------------- |------------ |
 | [!UICONTROL Applicable Shipping Methods] | グローバル | B2B 購入者がデフォルトで使用できる発送方法の選択を決定します。 オプション：`All Shipping Methods` / `Specific Shipping Methods` |
-| [!UICONTROL Shipping Methods] | グローバル | B2B 購入者がデフォルトで使用できる各発送方法を指定します。 <br/>**_注意：_**&#x200B;特定の [ 会社アカウント ](../../b2b/account-companies.md) の発送方法を制限することもできます。 |
+| [!UICONTROL Shipping Methods] | グローバル | B2B 購入者がデフォルトで使用できる各発送方法を指定します。 <br/>**_注意：_**&#x200B;特定の [&#x200B; 会社アカウント &#x200B;](../../b2b/account-companies.md) の発送方法を制限することもできます。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order Approval Configuration]
 
-![B2B の機能 – 注文の承認設定 ](./assets/b2b-features-order-approval.png)<!-- zoom -->
+![B2B の機能 – 注文の承認設定 &#x200B;](./assets/b2b-features-order-approval.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Purchase Orders]](../../stores-purchase/purchase-order.md) | Web サイト | 有効化すると、企業は発注書を作成できるようになります。 オプション：`Yes` / `No` |
 

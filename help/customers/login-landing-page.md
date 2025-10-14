@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Login Options]**」セクションを展開します。
 
-   ![ ログインオプション ](assets/customer-configuration-login-options.png){width="600" zoomable="yes"}
+   ![&#x200B; ログインオプション &#x200B;](assets/customer-configuration-login-options.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]** を次のいずれかに設定します。
 

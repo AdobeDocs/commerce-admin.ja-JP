@@ -19,13 +19,13 @@ ht-degree: 0%
 
 [!DNL Commerce] のテーマには、レイアウトファイル、テンプレートファイル、翻訳ファイル、スキンなどがあります。 スキンは、サポートされる CSS、画像、JavaScript ファイルの集まりです。これらのファイルを組み合わせることで、店舗を訪れた顧客が体験する視覚的なプレゼンテーションとインタラクションを実現します。 テーマとスキンの変更やカスタマイズを行うことができるのは、Commerceのテーマデザインを理解し、サーバーにアクセスできる開発者やデザイン担当者です。 詳しくは、[_フロントエンド開発者ガイド_](https://developer.adobe.com/commerce/frontend-core/guide/themes/) を参照してください。
 
-![Luma テーマ ](./assets/design-responsive.png){width="600" zoomable="yes"}
+![Luma テーマ &#x200B;](./assets/design-responsive.png){width="600" zoomable="yes"}
 
 ## デフォルトのテーマ
 
 `Magento Blank` レスポンシブテーマは、様々なデバイスでストアフロントの表示をレンダリングし、デスクトップ、テーブル、モバイルデバイス向けのベストプラクティスを組み込みます。 一部のテーマは、特定のデバイスでのみ使用できるように設計されています。 特定のブラウザー ID[!DNL Commerce] たはユーザーエージェントを検出すると、その特定のブラウザー用に設定されているテーマが使用されます。 検索文字列には、Perl 互換の正規表現（PCRE）を含めることもできます。
 
-![ テーマ ](./assets/themes.png){width="700" zoomable="yes"}
+![&#x200B; テーマ &#x200B;](./assets/themes.png){width="700" zoomable="yes"}
 
 ### テーマグリッドのフィルタリング
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. サンプルページを表示するには、**[!UICONTROL Theme Preview Image]** をクリックします。
 
-![ テーマをプレビュー ](./assets/theme-settings.png){width="600" zoomable="yes"}
+![&#x200B; テーマをプレビュー &#x200B;](./assets/theme-settings.png){width="600" zoomable="yes"}
 
 ## デフォルトのテーマの適用
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. _[!UICONTROL Default Theme]_&#x200B;の下で、現在のビューに使用するビューに&#x200B;**[!UICONTROL Applied Theme]**&#x200B;を設定します。
 
-   ![ 適用されたテーマ ](./assets/theme-default-apply.png){width="600" zoomable="yes"}
+   ![&#x200B; 適用されたテーマ &#x200B;](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Configuration]**」をクリックします。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 1. [_[!UICONTROL Design Rule]_] で、[**[!UICONTROL Add New User Agent Rule]**] をクリックします。
 
-   ![ 設計規程 ](./assets/theme-design-rule.png){width="600" zoomable="yes"}
+   ![&#x200B; 設計規程 &#x200B;](./assets/theme-design-rule.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Search String]**：特定のデバイスのブラウザー ID を入力します。
 

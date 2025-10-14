@@ -15,7 +15,7 @@ ht-degree: 0%
 
 カタログからカテゴリが削除された場合、カテゴリの書き換えを使用して、ストア内の別のカテゴリの URL へのリンクをリダイレクトできます。 _ターゲット_/_元のリクエスト_ または _リダイレクト_/_リダイレクト元_ を考慮します。 検索エンジンや古いリンクから以前のページに移動する場合もありますが、リダイレクトによってストアが新しいターゲットに切り替わります。
 
-ストアで [ 自動リダイレクト ](url-redirect-product-automatic.md) が有効になっている場合、カテゴリ [URL キー ](../catalog/catalog-urls.md) が変更されたときに書き換えを作成する必要はありません。
+ストアで [&#x200B; 自動リダイレクト &#x200B;](url-redirect-product-automatic.md) が有効になっている場合、カテゴリ [URL キー &#x200B;](../catalog/catalog-urls.md) が変更されたときに書き換えを作成する必要はありません。
 
 {{url-rewrite-skip}}
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create URL Rewrite]** を `For category` に設定して、リダイレクトの宛先となるツリー内のターゲットカテゴリを選択します。
 
-   ![URL 書き換え – カテゴリの選択 ](./assets/url-rewrite-category-choose.png){width="700" zoomable="yes"}
+   ![URL 書き換え – カテゴリの選択 &#x200B;](./assets/url-rewrite-category-choose.png){width="700" zoomable="yes"}
 
 1. _URL 書き換え_ セクションで、次の操作を行います。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    - 参照用に、書き換えの簡単な説明を入力します。
 
-   ![ カテゴリの URL 書き換えを追加 ](./assets/url-rewrite-for-category.png){width="700" zoomable="yes"}
+   ![&#x200B; カテゴリの URL 書き換えを追加 &#x200B;](./assets/url-rewrite-for-category.png){width="700" zoomable="yes"}
 
 1. リダイレクトを保存する前に、以下を確認してください。
 

@@ -23,13 +23,13 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL Companies]** に移動します。
 
-   ![ 会社 ](./assets/companies-grid.png){width="700" zoomable="yes"}
+   ![&#x200B; 会社 &#x200B;](./assets/companies-grid.png){width="700" zoomable="yes"}
 
 1. リストで会社を見つけて、[**[!UICONTROL Edit]**] をクリックします。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Company Admin]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Company Admin]**」セクションを展開します。
 
-   ![ 会社管理者 ](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
+   ![&#x200B; 会社管理者 &#x200B;](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
 1. 新しい会社管理者の **[!UICONTROL Job Title]** を入力します。
 

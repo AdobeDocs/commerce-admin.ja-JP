@@ -15,7 +15,7 @@ ht-degree: 0%
 
 顧客セグメントレポートは、各セグメントの顧客数に関する情報を提供します。
 
-![ 顧客セグメントレポート ](assets/customer-segments-reports.png){width="700" zoomable="yes"}
+![&#x200B; 顧客セグメントレポート &#x200B;](assets/customer-segments-reports.png){width="700" zoomable="yes"}
 
 | 列 | 説明 |
 |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 セグメント内の顧客のリストにドリルダウンし、データを書き出すことができます。
 
-![ 顧客データへのドリルダウン ](assets/customer-segment-drilldown.png){width="600" zoomable="yes"}
+![&#x200B; 顧客データへのドリルダウン &#x200B;](assets/customer-segment-drilldown.png){width="600" zoomable="yes"}
 
 最新のデータを確実に入手するには、セグメントデータを更新する必要があります。 セグメントデータが使用できない場合や古い場合は、ボタンバーの **[!UICONTROL Refresh Segment Data]** をクリックして更新します。
 

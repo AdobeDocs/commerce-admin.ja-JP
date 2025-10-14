@@ -17,7 +17,7 @@ ht-degree: 0%
 
 保存期限が長いコンテンツは、_エバーグリーンコンテンツ_ と呼ばれることもあります。 エバーグリーンコンテンツの例としては、カスタマーサクセスストーリー、_ハウツー_ 説明、よくある質問（FAQ）などがあります。 これに対し、生鮮食品のコンテンツには、イベント、業界ニュース、プレスリリースなどが含まれます。
 
-![ サンプル Luma ストアに含まれている会社概要ページ ](./assets/storefront-about-us.png){width="700" zoomable="yes"}
+![&#x200B; サンプル Luma ストアに含まれている会社概要ページ &#x200B;](./assets/storefront-about-us.png){width="700" zoomable="yes"}
 
 ## コアコンテンツページ
 
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 ### ホーム
 
-デモ [ ホーム ](../getting-started/storefront.md#home-page) ページには、バナー、画像カルーセル、リンク付きの静的ブロック、新製品のリストが含まれています。
+デモ [&#x200B; ホーム &#x200B;](../getting-started/storefront.md#home-page) ページには、バナー、画像カルーセル、リンク付きの静的ブロック、新製品のリストが含まれています。
 
 ### プライバシーポリシー
 
-ストア [ プライバシーポリシー ](../getting-started/privacy-policy.md) ページは、独自の情報で更新する必要があります。 ベストプラクティスとして、プライバシーポリシーは、会社が収集する情報の種類とその使用方法を顧客に説明する必要があります。
+ストア [&#x200B; プライバシーポリシー &#x200B;](../getting-started/privacy-policy.md) ページは、独自の情報で更新する必要があります。 ベストプラクティスとして、プライバシーポリシーは、会社が収集する情報の種類とその使用方法を顧客に説明する必要があります。
 
 ### 404 が見つかりません
 
@@ -39,11 +39,11 @@ ht-degree: 0%
 
 {{b2b-feature}}
 
-[ アクセス拒否 ](../b2b/account-company-roles-permissions.md) ページは、会社のユーザーに割り当てられた権限でページへのアクセスが許可されていない場合に表示されます。
+[&#x200B; アクセス拒否 &#x200B;](../b2b/account-company-roles-permissions.md) ページは、会社のユーザーに割り当てられた権限でページへのアクセスが許可されていない場合に表示されます。
 
 ### Cookie を有効にする
 
-[Cookie を有効にする ](../getting-started/compliance-cookie-law.md) ページは、サイトの訪問者がブラウザーで cookie を有効にしていない場合に表示されます。 このページでは、最も一般的なブラウザーで cookie を有効にする手順を、イラストを使って順を追って説明します。
+[Cookie を有効にする &#x200B;](../getting-started/compliance-cookie-law.md) ページは、サイトの訪問者がブラウザーで cookie を有効にしていない場合に表示されます。 このページでは、最も一般的なブラウザーで cookie を有効にする手順を、イラストを使って順を追って説明します。
 
 ### サービスを利用できません
 
@@ -57,21 +57,21 @@ ht-degree: 0%
 
 Customer Service ページは、ページ階層内の別のノードです。 ページ上の 2 つのヘッダーには、顧客がヘッダーをクリックした場合にのみ表示されるコンテンツがあります。
 
-![ ストアフロントのカスタマーサービスページ ](./assets/storefront-customer-service.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントのカスタマーサービスページ &#x200B;](./assets/storefront-customer-service.png){width="700" zoomable="yes"}
 
 ## デフォルトページの設定
 
-_デフォルトページ_ の設定によって、[ ベース URL](../stores-purchase/store-urls.md) および対応するホームページに関連付けられるランディングページが決まります。 また、_ページが見つかりません_ エラーが発生した場合や、各ページの上部に [ パンくずリスト ](../catalog/navigation-breadcrumb-trail.md) が表示された場合に表示されるページも決定します。
+_デフォルトページ_ の設定によって、[&#x200B; ベース URL](../stores-purchase/store-urls.md) および対応するホームページに関連付けられるランディングページが決まります。 また、_ページが見つかりません_ エラーが発生した場合や、各ページの上部に [&#x200B; パンくずリスト &#x200B;](../catalog/navigation-breadcrumb-trail.md) が表示された場合に表示されるページも決定します。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Default Pages]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Default Pages]**」セクションを展開します。
 
-   ![ デフォルトページ ](./assets/web-default-pages.png){width="500" zoomable="yes"}
+   ![&#x200B; デフォルトページ &#x200B;](./assets/web-default-pages.png){width="500" zoomable="yes"}
 
-   | フィールド | [ 範囲 ](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+   | フィールド | [&#x200B; 範囲 &#x200B;](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
    |--- |--- |--- |
    | [!UICONTROL Default Web URL] | ストア表示 | ベース URL に関連付けられているランディングページを示します。 デフォルトでは、このフィールドは `cms` に設定されており、[!DNL Commerce] コンテンツ管理システムからのページを示します。 また、ブログなど、別のタイプのランディングページを使用することもできます。 例えば、`magento/blog` にサーバーにブログがインストールされている場合、選択したページへの相対パスとして `blog` というフォルダー名を入力できます。 |
    | [!UICONTROL CMS Home Page] | ストア表示 | ストアのホームページを選択するには、リストからCMSページを選択します。 デフォルトでは、CMSのホームページには、ストアで使用可能なCMSのページの選択全体が一覧表示されます。 |

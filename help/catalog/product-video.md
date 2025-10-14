@@ -44,9 +44,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「_[!UICONTROL Product Video]_」セクションを展開して、**[!UICONTROL YouTube API key]**&#x200B;を貼り付けます。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「_[!UICONTROL Product Video]_」セクションを展開して、**[!UICONTROL YouTube API key]**&#x200B;を貼り付けます。
 
-   ![ 製品ビデオ設定 ](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品ビデオ設定 &#x200B;](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. スクロールして「_[!UICONTROL Images and Videos]_」セクションを展開します。
 
-   ![ 画像とビデオ ](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
+   ![&#x200B; 画像とビデオ &#x200B;](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Add Video]**」をクリックします。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Url]** しくは、YouTubeまたは Vimeo ビデオの URL を入力します。
 
-   ![ 製品の新しいビデオ ](./assets/product-video-add.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品の新しいビデオ &#x200B;](./assets/product-video-add.png){width="600" zoomable="yes"}
 
 1. フィールドの外側をクリックして、API キーまたはビデオのフィードバックを待ちます。
 

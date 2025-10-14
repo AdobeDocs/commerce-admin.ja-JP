@@ -12,24 +12,24 @@ ht-degree: 0%
 
 # ユーザーによるログイン
 
-顧客は、ストア内のすべてのページから自分のアカウントに簡単にアクセスできます。 [ 設定 ](../customers/account-options-new.md) に応じて、顧客はアカウントダッシュボードにリダイレクトしたり、アカウントにログインした後で買い物を続行したりできます。
+顧客は、ストア内のすべてのページから自分のアカウントに簡単にアクセスできます。 [&#x200B; 設定 &#x200B;](../customers/account-options-new.md) に応じて、顧客はアカウントダッシュボードにリダイレクトしたり、アカウントにログインした後で買い物を続行したりできます。
 
 設定で [CAPTCHA](../systems/security-captcha.md) が有効になっている場合、アカウントにアクセスする前に、人間であることを確認するテストを正しく完了する必要があります。
 
-顧客がパスワードを忘れると、リセットリンクがそのアカウントに関連付けられているメールアドレスに送信されます。 [ パスワードオプション ](../customers/password-options.md) 設定は、ログイン試行のカスタマーエクスペリエンスを制御します。
+顧客がパスワードを忘れると、リセットリンクがそのアカウントに関連付けられているメールアドレスに送信されます。 [&#x200B; パスワードオプション &#x200B;](../customers/password-options.md) 設定は、ログイン試行のカスタマーエクスペリエンスを制御します。
 
 - 顧客がパスワードの入力を試みる回数
 - 試行間隔（分）
 - アカウントがロックされるまでの合計試行回数
 - ロックアウトの長さ
 
-![ ストアフロントヘッダーのサインインリンク ](assets/storefront-sign-in-create-account.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントヘッダーのサインインリンク &#x200B;](assets/storefront-sign-in-create-account.png){width="700" zoomable="yes"}
 
 ## 顧客アカウントにサインイン
 
 1. ストアのヘッダーで、顧客は「**[!UICONTROL Sign in]**」をクリックします。
 
-   ![ カスタマーログイン ](assets/login.png){width="700" zoomable="yes"}
+   ![&#x200B; カスタマーログイン &#x200B;](assets/login.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL Email]** アドレスと **[!UICONTROL Password]** を入力します。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >パスワードを思い出せない場合は、お客様は **[!UICONTROL Forgot Your Password?]** をクリックし、[ 手順 ](../customers/password-reset.md) に従ってパスワードをリセットできます。
+   >パスワードを思い出せない場合は、お客様は **[!UICONTROL Forgot Your Password?]** をクリックし、[&#x200B; 手順 &#x200B;](../customers/password-reset.md) に従ってパスワードをリセットできます。
 
 ## カスタマーログイン後のアカウントダッシュボードへのリダイレクトの設定
 
@@ -64,11 +64,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Login with Amazon]** をクリックします。
 
-   ![Amazonでログイン ](assets/amazon-pay.png){width="700" zoomable="yes"}
+   ![Amazonでログイン &#x200B;](assets/amazon-pay.png){width="700" zoomable="yes"}
 
 1. ログインを求めるメッセージが表示されたら、お客様は **[!UICONTROL email address]** を入力し、Amazon Buyer アカウントを **[!UICONTROL password]** します。
 
-   ![Amazon資格情報の入力 ](assets/amazon-popup1.png){width="700" zoomable="yes"}
+   ![Amazon資格情報の入力 &#x200B;](assets/amazon-popup1.png){width="700" zoomable="yes"}
 
 1. 購入処理時にAmazonに以下の情報をストアと共有する権限を付与するには、「**OK**」をクリックします。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
    - メールアドレス
    - 発送先住所
 
-   ![ データの共有の許可 ](assets/amazon-popup2.png){width="700" zoomable="yes"}
+   ![&#x200B; データの共有の許可 &#x200B;](assets/amazon-popup2.png){width="700" zoomable="yes"}
 
 ## 顧客アカウントからのログアウト
 

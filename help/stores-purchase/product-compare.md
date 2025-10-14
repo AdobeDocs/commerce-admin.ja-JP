@@ -14,9 +14,9 @@ ht-degree: 0%
 
 製品を比較を使用すると、2 つ以上の製品を並べて詳細に比較できます。 テーマによっては、「比較に追加」リンクがアイコンまたはテキストで表示されることがあります。 _製品を比較_ ブロックは、通常、カタログページの左または右のサイドバーに表示されます。
 
-![ ストアフロントの例 – 比較リスト ](./assets/storefront-comparison-list.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの例 – 比較リスト &#x200B;](./assets/storefront-comparison-list.png){width="700" zoomable="yes"}
 
-[ 最近表示/比較された製品 ](products-viewed-compared.md) ブロックとは異なり、管理者には比較製品の追加の設定は含まれていません。
+[&#x200B; 最近表示/比較された製品 &#x200B;](products-viewed-compared.md) ブロックとは異なり、管理者には比較製品の追加の設定は含まれていません。
 
 ## ストアフロントでの製品の比較
 
@@ -30,13 +30,13 @@ ht-degree: 0%
 
    テーマとページのレイアウトによっては、サイドバーに _製品を比較_ ブロックが表示されることがあります。 その場合、比較対象としてマークされたカテゴリ内の項目が一覧表示されます。
 
-   お客様は、任意の製品の _削除_ （![ 削除アイコン ](../assets/icon-delete-x.png)）をクリックして比較レポートから削除するか、**[!UICONTROL Clear All]** をクリックしてすべての項目を削除し、比較の選択からやり直すことができます。
+   お客様は、任意の製品の _削除_ （![&#x200B; 削除アイコン &#x200B;](../assets/icon-delete-x.png)）をクリックして比較レポートから削除するか、**[!UICONTROL Clear All]** をクリックしてすべての項目を削除し、比較の選択からやり直すことができます。
 
 1. **[!UICONTROL Compare]** をクリックします。
 
 1. 比較情報を印刷するには、**[!UICONTROL Print This Page]** をクリックします。
 
-1. 比較ページから 1 つの製品を削除するには、_削除_ （![ 削除アイコン ](../assets/icon-delete-x.png)）をクリックします。
+1. 比較ページから 1 つの製品を削除するには、_削除_ （![&#x200B; 削除アイコン &#x200B;](../assets/icon-delete-x.png)）をクリックします。
 
 ### 通知メッセージから
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 1. 表示されたトップメッセージ通知で、「_比較リスト_」リンクをクリックします。
 
-   ![ 製品の比較通知 ](./assets/notification-comparison-list.png){width="700" zoomable="yes"}
+   ![&#x200B; 製品の比較通知 &#x200B;](./assets/notification-comparison-list.png){width="700" zoomable="yes"}
 
 このアクションにより、顧客は比較リストにリダイレクトされ、追加のアクションにアクセスできます。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. 検索フィールドの近くのヘッダーで、「製品を比較 _リンクをクリック_ ます。
 
-   ![ 製品の比較ヘッダー ](./assets/compare-products-header.png){width="700" zoomable="yes"}
+   ![&#x200B; 製品の比較ヘッダー &#x200B;](./assets/compare-products-header.png){width="700" zoomable="yes"}
 
 ### マイアカウント ダッシュボードから
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 
 1. _製品を比較_ ブロックで、**[!UICONTROL Compare]** をクリックします。
 
-   ![ 顧客アカウントダッシュボードの製品の比較ブロック ](./assets/my-account-compare-block.png){width="700" zoomable="yes"}
+   ![&#x200B; 顧客アカウントダッシュボードの製品の比較ブロック &#x200B;](./assets/my-account-compare-block.png){width="700" zoomable="yes"}
 
 ## 追加の比較リストアクション
 
 | [!UICONTROL Action] | 説明 |
 |------|-----------|
-| ![ 削除アイコン ](../assets/icon-delete-x.png) | 比較リストから 1 つの項目を削除します。 |
+| ![&#x200B; 削除アイコン &#x200B;](../assets/icon-delete-x.png) | 比較リストから 1 つの項目を削除します。 |
 | **[!UICONTROL Add to Cart]** | 商品を買い物かごに追加します。 製品に設定がある場合、ページは顧客を製品ページにリダイレクトします。製品ページで設定可能なオプションを選択して、「**[!UICONTROL Add to Cart]**」をクリックします。 |
 | _ウィッシュリストアイコン_ | 商品をウィッシュリストに追加します（ストア設定でウィッシュリスト機能が有効になっている必要があります）。 |
 | _このページを印刷_ | 比較リストページを印刷します。 |

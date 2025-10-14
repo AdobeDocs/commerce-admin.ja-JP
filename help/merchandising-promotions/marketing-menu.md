@@ -19,13 +19,13 @@ ht-degree: 0%
 
 [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
-![Commerce管理者 – マーケティングメニュー ](./assets/admin-menu-marketing-ee.png){width="600" zoomable="yes"}
+![Commerce管理者 – マーケティングメニュー &#x200B;](./assets/admin-menu-marketing-ee.png){width="600" zoomable="yes"}
 
 >[!TAB Adobe Commerceas a Cloud Service]
 
 [!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
 
-![Commerce管理者 – マーケティングメニュー ](./assets/admin-menu-marketing-ee-accs.png){width="600" zoomable="yes"}
+![Commerce管理者 – マーケティングメニュー &#x200B;](./assets/admin-menu-marketing-ee-accs.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -37,9 +37,9 @@ _管理者_ サイドバーで、「**[!UICONTROL Marketing]**」をクリック
 
 ### [!UICONTROL Promotions]
 
-様々な条件に基づいて割引をトリガーする [ カタログ ](price-rules-catalog.md) および [ 買い物かご ](price-rules-cart.md) 価格ルールを作成します。 必要な条件が満たされた場合に実行にスプリングする [ プロモーション ](introduction.md#promotions) を設定します。
+様々な条件に基づいて割引をトリガーする [&#x200B; カタログ &#x200B;](price-rules-catalog.md) および [&#x200B; 買い物かご &#x200B;](price-rules-cart.md) 価格ルールを作成します。 必要な条件が満たされた場合に実行にスプリングする [&#x200B; プロモーション &#x200B;](introduction.md#promotions) を設定します。
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [ 関連する商品ルール ](product-related-rules.md) を作成し、[ ギフトカードアカウント ](../stores-purchase/product-gift-card-accounts.md) を管理します。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [&#x200B; 関連する商品ルール &#x200B;](product-related-rules.md) を作成し、[&#x200B; ギフトカードアカウント &#x200B;](../stores-purchase/product-gift-card-accounts.md) を管理します。
 
 ### [!UICONTROL Private Sales]
 
@@ -51,16 +51,16 @@ _管理者_ サイドバーで、「**[!UICONTROL Marketing]**」をクリック
 
 ### [!UICONTROL Communications]
 
-ストアから送信されるすべての通知をカスタマイズします。 [ ニュースレター ](newsletters.md) および [RSS](social-rss.md#rss-feeds) フィードを作成して公開します。
+ストアから送信されるすべての通知をカスタマイズします。 [&#x200B; ニュースレター &#x200B;](newsletters.md) および [RSS](social-rss.md#rss-feeds) フィードを作成して公開します。
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）条件が満たされた場合に常にお客様に [ メールのリマインダー ](email-reminder-rules.md) を送信するルールを設定します。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）条件が満たされた場合に常にお客様に [&#x200B; メールのリマインダー &#x200B;](email-reminder-rules.md) を送信するルールを設定します。
 
 ### [!UICONTROL SEO & Search]
 
-[ 検索用語 ](../catalog/search-terms.md) および [ 同義語 ](../catalog/search-terms.md#search-synonyms) を分析して、顧客がストア内の製品を見つけたり、[ メタデータ ](meta-data.md) を管理したり、[ サイトマップ ](sitemap-xml.md) を作成したりできるようにします。 [ リダイレクト ](url-rewrite.md) を使用して URL の変更を管理し、リンクが壊れないようにします。
+[&#x200B; 検索用語 &#x200B;](../catalog/search-terms.md) および [&#x200B; 同義語 &#x200B;](../catalog/search-terms.md#search-synonyms) を分析して、顧客がストア内の製品を見つけたり、[&#x200B; メタデータ &#x200B;](meta-data.md) を管理したり、[&#x200B; サイトマップ &#x200B;](sitemap-xml.md) を作成したりできるようにします。 [&#x200B; リダイレクト &#x200B;](url-rewrite.md) を使用して URL の変更を管理し、リンクが壊れないようにします。
 
 ### [!UICONTROL User Content]
 
 [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
-ユーザー作成の [ 製品レビュー ](product-reviews.md) を取り入れて、コミュニティ感を生み出し、売上高を増やします。
+ユーザー作成の [&#x200B; 製品レビュー &#x200B;](product-reviews.md) を取り入れて、コミュニティ感を生み出し、売上高を増やします。

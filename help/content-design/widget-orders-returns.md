@@ -15,7 +15,7 @@ ht-degree: 0%
 
 _注文と返品_ ウィジェットを使用すると、ゲストは注文のステータスを確認したり、請求書を印刷したり、出荷を追跡したりできます。 ウィジェットがストアフロントに追加されると、ゲストと、アカウントにログインしていない顧客に対してのみ表示されます。 ゲストは、注文 ID、請求先の姓、およびメールアドレスまたは郵便番号を指定することで、注文を検索できます。
 
-![ ストアフロントのサイドバーにある「注文と返品」ウィジェット ](./assets/storefront-widget-orders-returns-sidebar.png){width="600" zoomable="yes"}
+![&#x200B; ストアフロントのサイドバーにある「注文と返品」ウィジェット &#x200B;](./assets/storefront-widget-orders-returns-sidebar.png){width="600" zoomable="yes"}
 
 ## ストアフロントの注文と返品ウィジェット
 
@@ -30,7 +30,7 @@ _注文と返品_ ウィジェットを使用すると、ゲストは注文の�
 
 1. **[!UICONTROL Search]** をクリックして注文を取得します。
 
-   ![ ストアフロントに表示する注文情報 ](./assets/storefront-widget-orders-returns-view.png){width="700" zoomable="yes"}
+   ![&#x200B; ストアフロントに表示する注文情報 &#x200B;](./assets/storefront-widget-orders-returns-view.png){width="700" zoomable="yes"}
 
 ## 注文と返品ウィジェットの設定
 

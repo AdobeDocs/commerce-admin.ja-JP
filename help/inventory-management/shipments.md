@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [!DNL Inventory Management] には、出荷プロセスを通じて在庫数量を管理するための追加機能とオプションが含まれています。 出荷の検討と履行、受注の取消およびクレジット・メモの発行を行うと、製品の販売可能数量と手持数量が自動的に更新されます。
 
-この情報には、[!DNL Inventory Management] の詳細が含まれます。 詳細については、「[ セールスおよび購買体験ガイド ](../stores-purchase/orders.md){target="_blank"}」の _注文_ に関するトピックを参照してください。
+この情報には、[!DNL Inventory Management] の詳細が含まれます。 詳細については、「[&#x200B; セールスおよび購買体験ガイド &#x200B;](../stores-purchase/orders.md){target="_blank"}」の _注文_ に関するトピックを参照してください。
 
 ## 注文件数
 
@@ -26,13 +26,13 @@ ht-degree: 0%
 
 [!DNL Commerce] は、複数アドレスの注文の在庫を、単一の注文と同様に管理します。 これにより、出荷時、一部出荷時、注文のキャンセル時、在庫更新時の払い戻し時に、Sourceセレクションアルゴリズムによるレコメンデーションや上書きが可能になります。
 
-![ チェックアウト時のマルチアドレス ](assets/inventory-multi-ship.png){width="350" zoomable="yes"}
+![&#x200B; チェックアウト時のマルチアドレス &#x200B;](assets/inventory-multi-ship.png){width="350" zoomable="yes"}
 
 ### 払戻
 
-払い戻しを発行するために [ クレジットメモ ](../stores-purchase/credit-memo-create.md){target="_blank"} を入力する際に、製品数量を控除元に戻すことができます。 注文情報には、製品を出荷した在庫ソースが含まれます。 返品された製品を受け取ったら、クレジット・メモを使用して返品された製品数量を審査することをお勧めします。
+払い戻しを発行するために [&#x200B; クレジットメモ &#x200B;](../stores-purchase/credit-memo-create.md){target="_blank"} を入力する際に、製品数量を控除元に戻すことができます。 注文情報には、製品を出荷した在庫ソースが含まれます。 返品された製品を受け取ったら、クレジット・メモを使用して返品された製品数量を審査することをお勧めします。
 
-![ 返品選択時の返金項目 ](assets/credit-memo-items-to-refund.png)
+![&#x200B; 返品選択時の返金項目 &#x200B;](assets/credit-memo-items-to-refund.png)
 {width="350" zoomable="yes"}
 
 ### 未出荷の注文のキャンセル

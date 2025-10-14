@@ -15,15 +15,15 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-民間販売レポートは、[ イベントおよび民間販売 ](../merchandising-promotions/events-private-sales.md) に関する情報を提供します。
+民間販売レポートは、[&#x200B; イベントおよび民間販売 &#x200B;](../merchandising-promotions/events-private-sales.md) に関する情報を提供します。
 
 ## [!UICONTROL Invitations Report]
 
-[!UICONTROL Invitations Report] は、指定された期間中に送信された [ 招待 ](../merchandising-promotions/invitations.md) の数、および承認された数と破棄された数を示します。
+[!UICONTROL Invitations Report] は、指定された期間中に送信された [&#x200B; 招待 &#x200B;](../merchandising-promotions/invitations.md) の数、および承認された数と破棄された数を示します。
 
 _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invitations]**&#x200B;に移動します。
 
-![ 招待状の報告 ](./assets/private-sales-invitations.png){width="600"}
+![&#x200B; 招待状の報告 &#x200B;](./assets/private-sales-invitations.png){width="600"}
 
 ## [!UICONTROL Invited Customers Report]
 
@@ -31,7 +31,7 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Private S
 
 _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invited Customers]**&#x200B;に移動します。
 
-![ 招待顧客レポート ](./assets/private-sales-invited-customers.png){width="600"}
+![&#x200B; 招待顧客レポート &#x200B;](./assets/private-sales-invited-customers.png){width="600"}
 
 ## [!UICONTROL Conversion Rate Report]
 
@@ -39,4 +39,4 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Private S
 
 _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Conversions]**&#x200B;に移動します。
 
-![ コンバージョン率レポート ](./assets/private-sales-conversions.png){width="600"}
+![&#x200B; コンバージョン率レポート &#x200B;](./assets/private-sales-conversions.png){width="600"}

@@ -26,7 +26,7 @@ _テーブル率_ 配送方法は、データのテーブルを参照して、�
 >
 >一度にアクティブにできるテーブル・レート・データのセットは 1 つだけです。
 
-![ 表買い物かご注文の概要の料金配送オプション ](./assets/storefront-cart-table-rate.png){width="700" zoomable="yes"}
+![&#x200B; 表買い物かご注文の概要の料金配送オプション &#x200B;](./assets/storefront-cart-table-rate.png){width="700" zoomable="yes"}
 
 ## 手順 1：デフォルト設定の完了
 
@@ -36,13 +36,13 @@ _テーブル率_ 配送方法は、データのテーブルを参照して、�
 
 1. 左パネルの「_[!UICONTROL Sales]_」セクションで、「**[!UICONTROL Delivery Methods]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Table Rates]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Table Rates]**」セクションを展開します。
 
    >[!NOTE]
    >
    >必要に応じて、最初に「**[!UICONTROL Use system value]**」チェックボックスをオフにして、説明に従って次の設定を変更します。
 
-   ![ テーブル料率 ](../configuration-reference/sales/assets/delivery-methods-table-rates.png){width="600" zoomable="yes"}
+   ![&#x200B; テーブル料率 &#x200B;](../configuration-reference/sales/assets/delivery-methods-table-rates.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Enabled]** を `Yes` に設定します。
 
@@ -83,7 +83,7 @@ _テーブル率_ 配送方法は、データのテーブルを参照して、�
 
 1. Set **[!UICONTROL Ship to Applicable Countries]**:
 
-   - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) の顧客がこの配信方法を使用できます。
+   - `All Allowed Countries` - ストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../getting-started/store-details.md#country-options) の顧客がこの配信方法を使用できます。
    - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Ship to Specific Countries]_&#x200B;リストが表示されます。 リストで、この配信方法を使用できる国を選択します。
 
 1. テーブルの料金を常に表示する場合は、**[!UICONTROL Show Method if Not Applicable]** を `Yes` に設定します
@@ -106,7 +106,7 @@ _テーブル率_ 配送方法は、データのテーブルを参照して、�
 
 1. 「**[!UICONTROL Export CSV]**」をクリックします。
 
-   ![CSV を書き出し ](./assets/shipping-table-rates-export.png){width="700" zoomable="yes"}
+   ![CSV を書き出し &#x200B;](./assets/shipping-table-rates-export.png){width="700" zoomable="yes"}
 
 1. `tablerates.csv` ファイルをシステムに保存します。
 
@@ -120,7 +120,7 @@ _テーブル率_ 配送方法は、データのテーブルを参照して、�
    - 郵便番号の範囲はサポートされていません。 アスタリスク（*）を使用すると、リージョン/ステート内のすべてのコードが許可されます。また、_[!UICONTROL Zip/Postal Code]_&#x200B;列で特定の場所に対して 1 つのコードを指定することもできます。
    - _[!UICONTROL Weight (and above)]_&#x200B;列の値には、小数点以下 4 桁まで（`2.5075` など）を指定できます。 データで小数点以下の桁数を増やすと、読み込みが失敗します。
 
-   ![ 重み付け対宛先（オーストラリア） ](./assets/table-rates-weight-destination-csv.png){width="500"}
+   ![&#x200B; 重み付け対宛先（オーストラリア） &#x200B;](./assets/table-rates-weight-destination-csv.png){width="500"}
 
 1. `tablerates.csv` ファイルを保存します。
 
@@ -132,7 +132,7 @@ _テーブル率_ 配送方法は、データのテーブルを参照して、�
 
 1. **[!UICONTROL Import]** の場合は、「**[!UICONTROL Choose File]**」をクリックし、完成した `tablerates.csv` ファイルを選択してレートをインポートします。
 
-   ![ インポートテーブルのレート ](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
+   ![&#x200B; インポートテーブルのレート &#x200B;](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save Config]**」をクリックします。
 

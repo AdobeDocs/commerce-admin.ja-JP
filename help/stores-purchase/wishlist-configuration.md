@@ -20,9 +20,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Wish List]**」を選択します。
 
-1. **[!UICONTROL General Options]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL General Options]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![ 顧客設定 – ウィッシュリストの一般設定 ](../configuration-reference/customers/assets/wishlist-general-options.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客設定 – ウィッシュリストの一般設定 &#x200B;](../configuration-reference/customers/assets/wishlist-general-options.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Enabled]** を `Yes` に切り替えます。これにより、ストアのウィッシュリストモジュールがアクティブになります。
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
    - **[!UICONTROL Show in Sidebar]** を `Yes` に切り替えて、サイドバーにウィッシュリストを表示します。
 
-1. **[!UICONTROL Share Options]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Share Options]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![ 顧客設定 – ウィッシュリスト共有オプション ](../configuration-reference/customers/assets/wishlist-share-options.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客設定 – ウィッシュリスト共有オプション &#x200B;](../configuration-reference/customers/assets/wishlist-share-options.png){width="600" zoomable="yes"}
 
    - メッセージの送信者として表示されるストアの連絡先の **[!UICONTROL Email Sender]** を設定します。 オプション：一般連絡先、営業担当、カスタマーサポート、カスタムメール
 
@@ -44,12 +44,12 @@ ht-degree: 0%
 
    - メッセージのサイズを制限するには、**[!UICONTROL Email Text Length Limit]** の値を入力します。 デフォルトは 255 です。
 
-1. **[!UICONTROL My Wish List Link]** のセクションの ![ 拡張セレクター ](../assets/icon-display-expand.png) を展開し、**[!UICONTROL Display Wish List Summary]** を次のいずれかに設定します。
+1. **[!UICONTROL My Wish List Link]** のセクションの ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、**[!UICONTROL Display Wish List Summary]** を次のいずれかに設定します。
 
    - `Display number of items in wish list`
    - `Display item quantities`
 
-   ![ 顧客設定 – ウィッシュリストの表示 ](../configuration-reference/customers/assets/wishlist-my-wishlist-link.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客設定 – ウィッシュリストの表示 &#x200B;](../configuration-reference/customers/assets/wishlist-my-wishlist-link.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 公開されているウィッシュリストは、ウィッシュリスト検索 [widget](../content-design/widgets.md) を使用して検索できます。 このウィジェットにより、顧客はウィッシュリストの所有者の名前またはメールアドレスで検索できます。 ストア顧客は、他の顧客に属するウィッシュリストを検索したり、それらを表示して製品を注文したり、独自のウィッシュリストに製品を追加したりできます。 他の顧客が公開ウィッシュリストから購入したアイテムは、元のウィッシュリストからは削除されません。 _ウィッシュリスト検索_ ウィジェットは、ストアの任意のページに追加でき、顧客が友人や家族のウィッシュリストを簡単に見つけることができます。
 
-![ ストアフロントの例 – ウィッシュリスト検索 ](./assets/storefront-wishlist-search.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの例 – ウィッシュリスト検索 &#x200B;](./assets/storefront-wishlist-search.png){width="700" zoomable="yes"}
 
 1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**&#x200B;に移動します。
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Container]** リストで、ページレイアウトを配置する領域を選択します。
 
-   ![ ウィッシュリスト検索ウィジェット – レイアウト ](./assets/widget-wishlist-search-storefront.png){width="700" zoomable="yes"}
+   ![&#x200B; ウィッシュリスト検索ウィジェット – レイアウト &#x200B;](./assets/widget-wishlist-search-storefront.png){width="700" zoomable="yes"}
 
 1. 左側のパネルで「**[!UICONTROL Widget Options]**」を選択します。
 
@@ -123,7 +123,7 @@ ht-degree: 0%
    >
    >配送先住所はウィッシュリストには含まれません。
 
-1. 必要に応じて、標準 [ 手順 ](../content-design/widget-create.md) に従って、残りのウィジェットプロパティを設定します。
+1. 必要に応じて、標準 [&#x200B; 手順 &#x200B;](../content-design/widget-create.md) に従って、残りのウィジェットプロパティを設定します。
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 

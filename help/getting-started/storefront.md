@@ -32,7 +32,7 @@ Edge Delivery Services **を活用した** Commerce ストアフロントの登�
 
 Edge Delivery Servicesを活用したCommerce ストアフロントには、マーチャントと開発者の両方に利益をもたらす主な機能がいくつか用意されています。 これらの機能により、企業は、ニーズに応じてストアフロントをカスタマイズおよび拡張する柔軟性を維持しながら、魅力的なショッピング体験を作成できます。
 
-Commerce ストアフロントの設定と最適化について詳しくは、[Adobe Commerce ストアフロントのドキュメント ](https://experienceleague.adobe.com/ja/docs/commerce) を参照してください。
+Commerce ストアフロントの設定と最適化について詳しくは、[Adobe Commerce ストアフロントのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce) を参照してください。
 
 >[!BEGINTABS]
 
@@ -65,7 +65,7 @@ Edge Delivery Servicesを活用したCommerce ストアフロントは、直観�
 
 ほとんどの人は、滞在や他の場所への移動を決定する前に、ページに数秒しか費やさないことを知っていましたか？ 印象を与えるのはそんなに長くない。 研究は、人々が特に他の人々の写真も愛することを示しています。 どのデザインを選択しても、ホームページ上のすべての情報は、訪問者を販売プロセスの次のステップに向けて移動させる必要があります。 このアイデアは、関心のあるポイントから次のポイントへとまとまりのあるフローで彼らの注意を導くことです。
 
-![ ストアフロントのホームページの例 ](./assets/storefront-homepage-full.png){width="700"}
+![&#x200B; ストアフロントのホームページの例 &#x200B;](./assets/storefront-homepage-full.png){width="700"}
 
 ## カタログページ
 
@@ -73,7 +73,7 @@ Edge Delivery Servicesを活用したCommerce ストアフロントは、直観�
 
 最初の製品説明では、通常、買い物客が詳しく見るのに十分な情報を提供します。 自分が何を求めているかを知っているユーザーは、製品を買い物かごに追加して出発できます。 アカウントにログインして買い物をされるお客様は、パーソナライズされたショッピングエクスペリエンスをお楽しみいただけます。
 
-![ 店頭コレクションページ ](./assets/storefront-collection-page.png){width="700"}
+![&#x200B; 店頭コレクションページ &#x200B;](./assets/storefront-collection-page.png){width="700"}
 
 ## 検索結果
 
@@ -83,25 +83,25 @@ Edge Delivery Servicesを活用したCommerce ストアフロントは、直観�
 
 [[!DNL Live Search]](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview) for Adobe Commerceを使用すると、ストアは迅速で非常に関連性が高く直感的な検索エクスペリエンスを提供し、Adobe Commerceでも追加料金なしで利用できます。
 
-![Live Search の例 – 入力中に検索する ](./assets/storefront-search-as-you-type.png){width="700"}
+![Live Search の例 – 入力中に検索する &#x200B;](./assets/storefront-search-as-you-type.png){width="700"}
 
 ### 標準カタログ検索
 
-[ 標準のカタログ検索 ](../catalog/search.md) を使用すると、ストアの右上隅に検索ボックスが表示され、フッターに詳細検索へのリンクが表示されます。 買い物客が送信したすべての検索用語が保存されるので、買い物客が探しているものを正確に確認できます。 候補を提示したり、同義語やよくあるスペルミスを入力したりできます。 検索語句を入力すると、特定のページが表示されます。
+[&#x200B; 標準のカタログ検索 &#x200B;](../catalog/search.md) を使用すると、ストアの右上隅に検索ボックスが表示され、フッターに詳細検索へのリンクが表示されます。 買い物客が送信したすべての検索用語が保存されるので、買い物客が探しているものを正確に確認できます。 候補を提示したり、同義語やよくあるスペルミスを入力したりできます。 検索語句を入力すると、特定のページが表示されます。
 
-![ 標準カタログ検索結果 ](./assets/storefront-search-results-page-full.png){width="700"} 例
+![&#x200B; 標準カタログ検索結果 &#x200B;](./assets/storefront-search-results-page-full.png){width="700"} 例
 
 ## 製品ページ
 
 商品ページは盛りだくさんです！ 商品ページでまず目をひくのが、高解像度のズームとサムネールギャラリーを備えたメイン画像です。 価格と在庫に加えて、詳細情報と関連製品のリストを含むタブ付きセクションがあります。
 
-![ ストアフロント製品ページの例 ](./assets/storefront-product-page-full-m.png){width="700"}
+![&#x200B; ストアフロント製品ページの例 &#x200B;](./assets/storefront-product-page-full-m.png){width="700"}
 
 ## ショッピングカート
 
 買い物かごには、割引クーポン、推定配送、税金を含む注文の合計が表示されます。 これらの機能により、トラストバッジやシールを表示するのに最適な場所になります。 買い物かごページを、1 つの最終的なオファーの機会として使用することもできます。 例えば、特定の製品が買い物かごに入っている際にインパルス購入オプションとして表示されるクロスセル品目を設定できます。
 
-![ ストアフロントのショッピングカートページの例 ](./assets/storefront-cart-full.png){width="700"}
+![&#x200B; ストアフロントのショッピングカートページの例 &#x200B;](./assets/storefront-cart-full.png){width="700"}
 
 ## チェックアウトページ
 
@@ -112,7 +112,7 @@ Edge Delivery Servicesを活用したCommerce ストアフロントは、直観�
    チェックアウトプロセスの最初の手順は、顧客が配送先住所情報を入力し、配送方法を選択することです。 顧客がアカウントを持っている場合、配送先住所は自動的に入力されますが、必要に応じて変更できます。
 ゲストのお客様が登録済みと認識されるメールアドレスを入力した場合、ストア設定の「[!UICONTROL Enable Guest Checkout Login]」フィールドが `Yes` に設定されていると、ログインプロンプトが表示されます（_設定リファレンスガイド_ の [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) を参照）。 ただし、この設定では、顧客情報が未認証のユーザーに公開される可能性があります。
 
-   ![ ストアフロントのチェックアウトページの例 ](./assets/storefront-checkout-shipping-full.png){width="700"}
+   ![&#x200B; ストアフロントのチェックアウトページの例 &#x200B;](./assets/storefront-checkout-shipping-full.png){width="700"}
 
 1. レビューおよび支払い情報
 
@@ -120,9 +120,9 @@ Edge Delivery Servicesを活用したCommerce ストアフロントは、直観�
 
    >[!NOTE]
    >
-   >複数 [!DNL Commerce] クーポンコードを設定できますが、お客様は買い物かごに 1 つのクーポンコードのみを適用できます。 （詳しくは、[ クーポンコード ](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes) を参照してください。）
+   >複数 [!DNL Commerce] クーポンコードを設定できますが、お客様は買い物かごに 1 つのクーポンコードのみを適用できます。 （詳しくは、[&#x200B; クーポンコード &#x200B;](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes) を参照してください。）
 
-   ![ ストアフロントのチェックアウトページの例 ](./assets/storefront-checkout-payment-full.png){width="700"}
+   ![&#x200B; ストアフロントのチェックアウトページの例 &#x200B;](./assets/storefront-checkout-payment-full.png){width="700"}
 
 ページの上部にあるプログレスバーはチェックアウトプロセスの各ステップに従い、_注文の概要_ には、ここまでに入力された情報が表示されます。
 

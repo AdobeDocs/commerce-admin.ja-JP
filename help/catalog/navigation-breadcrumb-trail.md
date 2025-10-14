@@ -16,7 +16,7 @@ _パンくずリスト_ は、ストア内の他のページとの関連を顧�
 
 パンくずリストは、コンテンツページとカタログページに表示するように設定できます。 パンくずリストの形式と位置はテーマによって異なりますが、通常はヘッダーのすぐ下にあります。 デフォルトでは、パンくずリストは CMS ページに表示されます。
 
-![ ストアフロントに表示されるパンくずリスト ](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントに表示されるパンくずリスト &#x200B;](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
 
 ## パン粉の一般的な種類
 
@@ -50,7 +50,7 @@ _パンくずリスト_ は、ストア内の他のページとの関連を顧�
 
 1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
 
-   ![CMS ページのパンくずリストを表示 ](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
+   ![CMS ページのパンくずリストを表示 &#x200B;](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
 1. 「_[!UICONTROL Default Pages]_」セクションを展開します。
 
@@ -62,4 +62,4 @@ _パンくずリスト_ は、ストア内の他のページとの関連を顧�
 
 >[!NOTE]
 >
->`Browsing Category`= `Deny` [ カテゴリ権限 ](category-permissions.md) 設定がある場合、子カテゴリページのパンくずリストに親カテゴリが表示されません。
+>`Browsing Category`= `Deny` [&#x200B; カテゴリ権限 &#x200B;](category-permissions.md) 設定がある場合、子カテゴリページのパンくずリストに親カテゴリが表示されません。

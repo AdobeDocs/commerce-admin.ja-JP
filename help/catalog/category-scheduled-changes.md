@@ -14,15 +14,15 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-カテゴリの更新はスケジュールに従って適用でき、他のコンテンツの変更と共にグループ化できます。 カテゴリに対してスケジュールされた変更に基づいてキャンペーンを作成したり、既存のキャンペーンに変更を適用したりできます。 詳しくは、[ コンテンツのステージング ](../content-design/content-staging.md) を参照してください。
+カテゴリの更新はスケジュールに従って適用でき、他のコンテンツの変更と共にグループ化できます。 カテゴリに対してスケジュールされた変更に基づいてキャンペーンを作成したり、既存のキャンペーンに変更を適用したりできます。 詳しくは、[&#x200B; コンテンツのステージング &#x200B;](../content-design/content-staging.md) を参照してください。
 
 カテゴリの変更をスケジュールする場合は、次の点に注意してください。
 
 - スケジュールされた更新はすべて連続して適用されます。つまり、どのエンティティも一度に 1 つのスケジュールされた更新しか持つことができません。 スケジュールされた更新は、その期間内のすべてのストアビューに適用されます。 その結果、1 つのエンティティに対して、異なるストア表示の複数のスケジュールされた更新を同時に行うことはできません。 現在スケジュールされている更新の影響を受けないすべてのストアビュー内のすべてのエンティティ属性値は、前回スケジュールされた更新ではなく、デフォルト値から取得されます。
 
-- キャンペーンが複数のカテゴリにリンクされている場合、キャンペーンは、[ コンテンツのステージングダッシュボード ](../content-design/content-staging-dashboard.md) からのみ編集できます。
+- キャンペーンが複数のカテゴリにリンクされている場合、キャンペーンは、[&#x200B; コンテンツのステージングダッシュボード &#x200B;](../content-design/content-staging-dashboard.md) からのみ編集できます。
 
-- キャンペーンが複数のカテゴリにリンクされている場合、キャンペーンは、[ コンテンツのステージングダッシュボード ](../content-design/content-staging-dashboard.md) からのみ編集できます。
+- キャンペーンが複数のカテゴリにリンクされている場合、キャンペーンは、[&#x200B; コンテンツのステージングダッシュボード &#x200B;](../content-design/content-staging-dashboard.md) からのみ編集できます。
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. ページ上部の _スケジュールされた変更_ ボックスで、「**[!UICONTROL Schedule New Update]** 更」をクリックします。
 
-   ![ スケジュールされた変更 ](./assets/category-scheduled-changes.png){width="600" zoomable="yes"}
+   ![&#x200B; スケジュールされた変更 &#x200B;](./assets/category-scheduled-changes.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save as a New Update]** オプションを選択した状態で、更新の基本パラメーターを設定します。
 
@@ -44,13 +44,13 @@ ht-degree: 0%
 
    - 更新の簡単な **[!UICONTROL Description]** と使用方法を入力します。
 
-   - カレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）ツールを使用して、キャンペーンの **[!UICONTROL Start Date]** と **[!UICONTROL End Date]** を選択します。
+   - カレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）ツールを使用して、キャンペーンの **[!UICONTROL Start Date]** と **[!UICONTROL End Date]** を選択します。
 
    >[!IMPORTANT]
    >
    >Campaign **[!UICONTROL Start Date]** と **[!UICONTROL End Date]** は、各 web サイトのローカルタイムゾーンから変換される **_デフォルト_** の管理タイムゾーンを使用して定義する必要があります。 例えば、米国のタイムゾーンをベースにキャンペーンを開始する、異なるタイムゾーンの複数の web サイトでは、ローカルタイムゾーンごとに個別の更新をスケジュールする必要があります。 それぞれの **[!UICONTROL Start Date]** と **[!UICONTROL End Date]** を設定します。これらは、ローカル Web サイトのタイムゾーンからデフォルトの管理者のタイムゾーンに変換されます。
 
-   ![ スケジュールされた変更 ](./assets/category-scheduled-changes-new-update.png){width="600" zoomable="yes"}
+   ![&#x200B; スケジュールされた変更 &#x200B;](./assets/category-scheduled-changes-new-update.png){width="600" zoomable="yes"}
 
 1. スケジュールされている更新に必要な変更を加えます。
 

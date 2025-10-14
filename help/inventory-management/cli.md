@@ -170,7 +170,7 @@ bin/magento inventory:reservation:list-inconsistencies -r -c | bin/magento inven
 
 ## ジオコードの読み込み
 
-[!DNL Inventory Management] には、注文の全品または一部を配送するための最適なオプションを決定するのに役立つ [ 距離優先アルゴリズム ](distance-priority-algorithm.md) が用意されています。 アルゴリズムは、GPS 情報またはジオコードを使用して、注文の各品目のソース（倉庫または他の物理的な場所）と配送先住所との間の距離を計算します。 これらの結果に基づいて、アルゴリズムは、各項目を順番に出荷するためにどのソースを使用するかを推奨します。
+[!DNL Inventory Management] には、注文の全品または一部を配送するための最適なオプションを決定するのに役立つ [&#x200B; 距離優先アルゴリズム &#x200B;](distance-priority-algorithm.md) が用意されています。 アルゴリズムは、GPS 情報またはジオコードを使用して、注文の各品目のソース（倉庫または他の物理的な場所）と配送先住所との間の距離を計算します。 これらの結果に基づいて、アルゴリズムは、各項目を順番に出荷するためにどのソースを使用するかを推奨します。
 
 マーチャントは、距離の計算に必要な GPS またはジオコードデータのプロバイダーを選択します。
 
@@ -180,7 +180,7 @@ bin/magento inventory:reservation:list-inconsistencies -r -c | bin/magento inven
 
 ジオコードをオフライン計算用にインポートするには：
 
-次のコマンドを、スペースで区切られた [ISO-3166 alpha2 国コード ](https://www.geonames.org/countries/) のリストを使用して入力します。
+次のコマンドを、スペースで区切られた [ISO-3166 alpha2 国コード &#x200B;](https://www.geonames.org/countries/) のリストを使用して入力します。
 
 ```bash
 bin/magento inventory-geonames:import <country code> <country code> ...

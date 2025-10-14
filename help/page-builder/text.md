@@ -12,31 +12,31 @@ ht-degree: 0%
 
 # 要素 – テキスト
 
-_テキスト_ コンテンツタイプを使用して、WYSIWYG（「What You See Is What You Get」）エディターを含むテキストコンテナを [[!DNL Page Builder]  ステージ ](workspace.md#stage) に追加します。 また、エディターツールバーからテキストにリンク、画像、[ 変数 ](../systems/variables-predefined.md) およびウィジェットを追加できます。
+_テキスト_ コンテンツタイプを使用して、WYSIWYG（「What You See Is What You Get」）エディターを含むテキストコンテナを [[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage) に追加します。 また、エディターツールバーからテキストにリンク、画像、[&#x200B; 変数 &#x200B;](../systems/variables-predefined.md) およびウィジェットを追加できます。
 
-![ バナー上の書式付きテキスト ](./assets/pb-storefont-banner-with-button.png){width="700"}
+![&#x200B; バナー上の書式付きテキスト &#x200B;](./assets/pb-storefont-banner-with-button.png){width="700"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## テキストエディターツール
 
-テキストエディターには、ステージから直接アクセスすることも、設定ページからアクセスすることもできます。 ステージに直接加えられた変更は、自動的に保存されます。 詳しくは、[ エディターの使用 ](../content-design/editor.md) を参照してください。
+テキストエディターには、ステージから直接アクセスすることも、設定ページからアクセスすることもできます。 ステージに直接加えられた変更は、自動的に保存されます。 詳しくは、[&#x200B; エディターの使用 &#x200B;](../content-design/editor.md) を参照してください。
 
-![ テキストエディターツール - TinyMCE](./assets/pb-elements-text-editor-tools.png){width="600"}
+![&#x200B; テキストエディターツール - TinyMCE](./assets/pb-elements-text-editor-tools.png){width="600"}
 
 ## テキストコンテナツールボックス
 
-![ テキストコンテナツールボックス ](./assets/pb-elements-text-toolbox.png){width="600"}
+![&#x200B; テキストコンテナツールボックス &#x200B;](./assets/pb-elements-text-toolbox.png){width="600"}
 
 | ツール | アイコン | 説明 |
 | --------- | --------------------- | -------------- |
-| 移動 | ![ 移動アイコン ](./assets/pb-icon-move.png){width="25"} | テキスト コンテナをページ上の別の有効な場所に移動します。 |
+| 移動 | ![&#x200B; 移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | テキスト コンテナをページ上の別の有効な場所に移動します。 |
 | （ラベル） | テキスト | 現在のコンテナをテキスト要素として識別します。 |
-| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | テキストコンテナのプロパティを編集モードで開きます。 |
-| Hide | ![ アイコンを非表示 ](./assets/pb-icon-hide.png){width="25"} | テキストコンテナを非表示にします。 |
-| 表示 | ![ アイコンを表示 ](./assets/pb-icon-show.png){width="25"} | 非表示のテキストコンテナを表示します。 |
-| 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | テキストコンテナをコピーします。 |
-| 削除 | ![ 削除アイコン ](./assets/pb-icon-remove.png){width="25"} | テキストコンテナとそのコンテンツをステージから削除します。 |
+| 設定 | ![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | テキストコンテナのプロパティを編集モードで開きます。 |
+| Hide | ![&#x200B; アイコンを非表示 &#x200B;](./assets/pb-icon-hide.png){width="25"} | テキストコンテナを非表示にします。 |
+| 表示 | ![&#x200B; アイコンを表示 &#x200B;](./assets/pb-icon-show.png){width="25"} | 非表示のテキストコンテナを表示します。 |
+| 複製 | ![&#x200B; 複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | テキストコンテナをコピーします。 |
+| 削除 | ![&#x200B; 削除アイコン &#x200B;](./assets/pb-icon-remove.png){width="25"} | テキストコンテナとそのコンテンツをステージから削除します。 |
 
 {style="table-layout:auto"}
 
@@ -46,19 +46,19 @@ _テキスト_ コンテンツタイプを使用して、WYSIWYG（「What You S
 
 1. [!DNL Page Builder] パネルで **[!UICONTROL Elements]** を展開し、**[!UICONTROL Text]** プレースホルダーをステージ上の行、列またはタブセットにドラッグします。
 
-   ![ テキストプレースホルダーのステージへのドラッグ ](./assets/pb-elements-text-drag.png){width="600" zoomable="yes"}
+   ![&#x200B; テキストプレースホルダーのステージへのドラッグ &#x200B;](./assets/pb-elements-text-drag.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、エディターを使用してテキストの入力や書式設定を行います。
 
-   詳しくは、[ エディターの使用 ](../content-design/editor.md) を参照してください。
+   詳しくは、[&#x200B; エディターの使用 &#x200B;](../content-design/editor.md) を参照してください。
 
-   ![ コンテンツを含むテキストエディター ](./assets/pb-elements-text-editor.png){width="600"}
+   ![&#x200B; コンテンツを含むテキストエディター &#x200B;](./assets/pb-elements-text-editor.png){width="600"}
 
 ## リンクの作成
 
 エディターの「リンクを挿入」ボタンを使用すると、ギャラリー内の画像にハイパーリンクを簡単に追加できます。 ただし、事前に URL があれば、テキスト内にインラインリンクを作成する場合にも使用できます。 ウィジェットボタンとは異なり、「リンクを挿入/編集」ボタンは、ストアのページ、製品、カテゴリには統合されません。
 
-電話番号またはメールのリンクを作成するには、[ カスタム変数の追加 ](../systems/variables-custom.md) を参照してください。
+電話番号またはメールのリンクを作成するには、[&#x200B; カスタム変数の追加 &#x200B;](../systems/variables-custom.md) を参照してください。
 
 1. ストアフロントで、リンクのターゲットにするページに移動し、リンク情報をコピーします。
 
@@ -68,9 +68,9 @@ _テキスト_ コンテンツタイプを使用して、WYSIWYG（「What You S
 
    相対 URL - `../women/tops-women/tees-women.html`
 
-1. エディタースペースでテキストを選択し、エディターツールバーの _リンクを挿入/編集_ （![ リンクを挿入/編集ボタン ](./assets/pb-icon-add-link.png){width="20"}）をクリックします。
+1. エディタースペースでテキストを選択し、エディターツールバーの _リンクを挿入/編集_ （![&#x200B; リンクを挿入/編集ボタン &#x200B;](./assets/pb-icon-add-link.png){width="20"}）をクリックします。
 
-   ![ 書式設定されたテキストへのリンクの追加 ](./assets/pb-tutorial2-column-text-editor-link-insert.png){width="500" zoomable="yes"}
+   ![&#x200B; 書式設定されたテキストへのリンクの追加 &#x200B;](./assets/pb-tutorial2-column-text-editor-link-insert.png){width="500" zoomable="yes"}
 
 1. **[!UICONTROL URL]**：準備した相対リンクを入力します。
 
@@ -84,13 +84,13 @@ _テキスト_ コンテンツタイプを使用して、WYSIWYG（「What You S
 
 1. リンクを保存して [!DNL Page Builder] ワークスペースに戻るには、「**[!UICONTROL OK]**」をクリックします。
 
-   ![ リンクの詳細 ](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png){width="500" zoomable="yes"}
+   ![&#x200B; リンクの詳細 &#x200B;](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png){width="500" zoomable="yes"}
 
 ## 画像の挿入
 
 1. 画像を挿入するテキスト内の位置にカーソルを置きます。
 
-1. エディターツールバーの _画像を挿入/編集_ （![ 画像を挿入/編集ボタン ](./assets/icon-pb-add-image.png){width="20"}）をクリックします。
+1. エディターツールバーの _画像を挿入/編集_ （![&#x200B; 画像を挿入/編集ボタン &#x200B;](./assets/icon-pb-add-image.png){width="20"}）をクリックします。
 
 1. **[!UICONTROL Source]**：検索アイコンをクリックし、メディア ストレージを使用して画像を検索および選択します。
 
@@ -106,7 +106,7 @@ _テキスト_ コンテンツタイプを使用して、WYSIWYG（「What You S
 
 ## テキスト設定の変更
 
-1. テキストコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. テキストコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
    >[!NOTE]
    >

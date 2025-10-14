@@ -18,15 +18,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[ 報酬為替レート ](../../merchandising-promotions/reward-exchange-rates.md) チェックアウト時に顧客と管理者が報酬ポイントを引き換えるには、設定が必要です。
+>[&#x200B; 報酬為替レート &#x200B;](../../merchandising-promotions/reward-exchange-rates.md) チェックアウト時に顧客と管理者が報酬ポイントを引き換えるには、設定が必要です。
 
 ## [!UICONTROL Reward Points]
 
-![ 報酬ポイント ](./assets/reward-points-reward-points.png)<!-- zoom -->
+![&#x200B; 報酬ポイント &#x200B;](./assets/reward-points-reward-points.png)<!-- zoom -->
 
 <!-- [Reward Points](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Reward Points Functionality] | グローバル | 報酬ポイントをアクティブまたは非アクティブにします。 オプション：`Yes`/`No`。 |
 | [!UICONTROL Enable Reward Points Functionality on Storefront] | Web サイト | 有効にすると、顧客はアクティビティを通じてポイントを獲得し、チェックアウト時に引き換えることができます。 無効にした場合、管理者ユーザーのみが顧客の代わりにポイントを割り当てて引き換えることができます。 オプション：`Yes`/`No`。 |
@@ -43,13 +43,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
-![ 顧客の報酬ポイント獲得の訴え ](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
+![&#x200B; 顧客の報酬ポイント獲得の訴え &#x200B;](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
 
 <!-- [Actions for Acquiring Reward Points by Customers](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Purchase] | Web サイト | 設定された [ 報酬為替レート ](../../merchandising-promotions/reward-exchange-rates.md) に基づいて、購入に対して報酬ポイントを獲得するかどうかを決定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Purchase] | Web サイト | 設定された [&#x200B; 報酬為替レート &#x200B;](../../merchandising-promotions/reward-exchange-rates.md) に基づいて、購入に対して報酬ポイントを獲得するかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Registration] | Web サイト | 顧客アカウントを開設するために獲得したポイント数を指定します。 |
 | [!UICONTROL Newsletter Signup] | Web サイト | ニュースレターを購読する登録済みのお客様が獲得したポイント数を指定します。 （ご宿泊のお客様はポイントをご利用いただけません。 顧客が購読解除してから再度購読した場合、2 回目の購読ではポイントは獲得されません。 |
 | [!UICONTROL Converting Invitation to Customer] | Web サイト | 招待状を送信した顧客が顧客アカウントを開設したときに獲得したポイント数を指定します。 |
@@ -64,11 +64,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Email Notification Settings]
 
-![ メール通知設定 ](./assets/reward-points-email-notification-settings.png)<!-- zoom -->
+![&#x200B; メール通知設定 &#x200B;](./assets/reward-points-email-notification-settings.png)<!-- zoom -->
 
 <!-- [Email Notification Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Email Sender] | ストア表示 | 残高更新および有効期限通知メールの送信者として表示される店舗連絡先を決定します。 |
 | [!UICONTROL Subscribe Customers by Default] | グローバル | 残高更新と有効期限通知の両方の電子メールに対する顧客の既定のサブスクリプション ステータスを決定します。 |

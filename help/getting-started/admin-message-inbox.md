@@ -13,7 +13,7 @@ ht-degree: 0%
 
 あなたの店はAdobeから定期的にメッセージを受け取ります。 メッセージは重要度で評価され、システムのアップデート、パッチ、新しいリリース、予定されているメンテナンス、今後のイベントなどを参照します。 ヘッダーのベルアイコンは、インボックス内の未読メッセージの数を示します。
 
-![ 管理者 – 受信メッセージ ](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
+![&#x200B; 管理者 – 受信メッセージ &#x200B;](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
 _[!UICONTROL Notifications]_&#x200B;のページには、日付別にランク付けされたすべてのメッセージがリストされます。_[!UICONTROL Action]_ のコマンドを使用して、個々のメッセージを読み取り済みとしてマークしたり、詳細情報を表示したり、インボックスからメッセージを削除したりできます。
 
@@ -50,7 +50,7 @@ _[!UICONTROL Notifications]_&#x200B;のページには、日付別にランク�
 
    - 受信トレイにメッセージを保持するには、[**[!UICONTROL Mark As Read]**] をクリックします。
 
-     ![ 管理者 – 選択した通知を既読としてマーク ](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
+     ![&#x200B; 管理者 – 選択した通知を既読としてマーク &#x200B;](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
 
    - メッセージを削除するには、「削 **[!UICONTROL Remove]**」をクリックします。
 
@@ -72,11 +72,11 @@ _[!UICONTROL Notifications]_&#x200B;のページには、日付別にランク�
 
 1. 左側のナビゲーションパネルで **[!UICONTROL Advanced]** を展開し、「**[!UICONTROL System]**」を選択します。
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png)**[!UICONTROL Notifications]** のセクションを展開します。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)**[!UICONTROL Notifications]** のセクションを展開します。
 
-   ![ 通知の設定 ](./assets/system-notifications.png){width="600"}
+   ![&#x200B; 通知の設定 &#x200B;](./assets/system-notifications.png){width="600"}
 
-1. ストア管理者が [ セキュア URL](../stores-purchase/store-urls.md) 上で実行する場合は、**[!UICONTROL Use HTTPS to Get Feed]** を `Yes` に設定します。
+1. ストア管理者が [&#x200B; セキュア URL](../stores-purchase/store-urls.md) 上で実行する場合は、**[!UICONTROL Use HTTPS to Get Feed]** を `Yes` に設定します。
 
 1. **[!UICONTROL Update Frequency]** を設定して、インボックスの更新頻度を決定します。
 

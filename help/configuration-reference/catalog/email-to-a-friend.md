@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Email Templates]
 
-![ メールテンプレート ](./assets/email-to-a-friend-email-templates.png)<!-- zoom -->
+![&#x200B; メールテンプレート &#x200B;](./assets/email-to-a-friend-email-templates.png)<!-- zoom -->
 
 <!-- [Email Templates](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/communications/email-templates#configure-email-templates) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | ストア表示 | ストア内の商品に関する電子メールを顧客が友人に送信できるようにするプロセスをアクティブ化します。 オプション：`Yes` / `No` |
 | [!UICONTROL Select Email Template] | ストア表示 | _友達にメールを送信_ 機能で生成されるメッセージに使用されるメールテンプレートを識別します。 既定のテンプレート：`Send Product to Friend` |

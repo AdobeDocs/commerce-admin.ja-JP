@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 税の構成設定
 
-以下の手順に従うことで、Commerce インスタンスの基本的な税金設定を行うことができます。 税金を設定する前に、[ ロケール ](store-localize.md#step-3-change-the-locale-of-the-store-view) の税金要件を熟知していることを確認してください。 次に、要件に従って税金設定を完了します。
+以下の手順に従うことで、Commerce インスタンスの基本的な税金設定を行うことができます。 税金を設定する前に、[&#x200B; ロケール &#x200B;](store-localize.md#step-3-change-the-locale-of-the-store-view) の税金要件を熟知していることを確認してください。 次に、要件に従って税金設定を完了します。
 
-管理者 [ 権限 ](../systems/permissions.md) は、ビジネス [&#128279;](../systems/permissions-user-roles.md) 必要な情報 _に基づいて、税金リソースに  アクセス_ を制限するように設定できます。 税金設定へのアクセス権を持つ管理者ロールを作成するには、「売上/税金」および「システム/税金」リソースの両方を選択します。 デフォルトの出荷元と異なる地域に web サイトを設定する場合は、その役割のシステム/出荷資源へのアクセスも許可する必要があります。 配送設定によって、カタログ価格に使用する店舗の税率が決まります。
+管理者 [&#x200B; 権限 &#x200B;](../systems/permissions.md) は、ビジネス [&#128279;](../systems/permissions-user-roles.md) 必要な情報 _に基づいて、税金リソースに  アクセス_ を制限するように設定できます。 税金設定へのアクセス権を持つ管理者ロールを作成するには、「売上/税金」および「システム/税金」リソースの両方を選択します。 デフォルトの出荷元と異なる地域に web サイトを設定する場合は、その役割のシステム/出荷資源へのアクセスも許可する必要があります。 配送設定によって、カタログ価格に使用する店舗の税率が決まります。
 
 ## 一般税金設定の構成
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Tax Classes]
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Tax Classes]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Tax Classes]**」セクションを展開します。
 
-   ![ 税の区分 ](../configuration-reference/sales/assets/tax-tax-classes.png){width="600" zoomable="yes"}
+   ![&#x200B; 税の区分 &#x200B;](../configuration-reference/sales/assets/tax-tax-classes.png){width="600" zoomable="yes"}
 
    - **出荷用の税金区分**：適切な区分に設定します。 デフォルトのクラスは `None` と `Taxable Goods` です。
    - **ギフトオプションの税クラス** — ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）適切なクラスに設定します。 デフォルトのクラスは `None` と `Taxable Goods` です。
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Calculation Settings]**」セクションを展開します。
 
-   ![ 算定の設定 ](../configuration-reference/sales/assets/tax-calculation-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 算定の設定 &#x200B;](../configuration-reference/sales/assets/tax-calculation-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Tax Calculation Method Based On]** を次のいずれかに設定します。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
    - `Shipping Address` – 注文を発送する住所
    - `Billing Address` – 顧客または会社の請求先住所
-   - `Shipping Origin` - ストアの [ 接触チャネル ](shipping-settings.md#point-of-origin) として指定されるアドレス
+   - `Shipping Origin` - ストアの [&#x200B; 接触チャネル &#x200B;](shipping-settings.md#point-of-origin) として指定されるアドレス
 
 1. **[!UICONTROL Catalog Prices]** を `Excluding Tax` または `Including Tax` に設定します。
 
@@ -76,13 +76,13 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >[ クロスボーダー取引 ](#cross-border-price-consistency) が有効化されている場合、税率別に利益率が変化します。 利益は式（`Revenue - CustomerVAT - CostOfGoodsSold`）によって決定されます。 国境を越えた貿易を可能にするには、価格を税込みに設定しなければなりません。
+   >[&#x200B; クロスボーダー取引 &#x200B;](#cross-border-price-consistency) が有効化されている場合、税率別に利益率が変化します。 利益は式（`Revenue - CustomerVAT - CostOfGoodsSold`）によって決定されます。 国境を越えた貿易を可能にするには、価格を税込みに設定しなければなりません。
 
 ### [!UICONTROL Default Tax Destination Calculation]
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Default Tax Destination Calculation]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Default Tax Destination Calculation]**」セクションを展開します。
 
-   ![ デフォルト税金搬送先計算 ](../configuration-reference/sales/assets/tax-default-tax-destination-calculation.png){width="600" zoomable="yes"}
+   ![&#x200B; デフォルト税金搬送先計算 &#x200B;](../configuration-reference/sales/assets/tax-default-tax-destination-calculation.png){width="600" zoomable="yes"}
 
 1. 税金計算の **[!UICONTROL Default Country]** を指定します。
 
@@ -96,11 +96,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->税金を含む場合と税金を含まない場合の両方の価格表示に関連する設定の組み合わせが、お客様にとって混乱を招く可能性があります。 警告メッセージがトリガーされないようにするには、[ 推奨設定 ](taxes.md#warning-messages) を参照してください。
+>税金を含む場合と税金を含まない場合の両方の価格表示に関連する設定の組み合わせが、お客様にとって混乱を招く可能性があります。 警告メッセージがトリガーされないようにするには、[&#x200B; 推奨設定 &#x200B;](taxes.md#warning-messages) を参照してください。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Price Display Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Price Display Settings]**」セクションを展開します。
 
-   ![ 価格表示設定 ](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 価格表示設定 &#x200B;](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Display Product Prices in Catalog]** を次のいずれかに設定します。
 
@@ -114,9 +114,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Shopping Cart Display Settings]
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Shopping Cart Display Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Shopping Cart Display Settings]**」セクションを展開します。
 
-   ![ 買い物かごの表示設定 ](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かごの表示設定 &#x200B;](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
 
 1. 次の各設定について、店舗と地域の要件に応じて、買い物かごに税金と価格を表示する方法を選択します。
 
@@ -140,9 +140,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Orders, Invoices, Credit Memos Display Settings]
 
-1. **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** のセクションの ![ 展開 ](../assets/icon-display-expand.png) を展開します。
+1. **[!UICONTROL Orders, Invoices, Credit Memos Display Settings]** のセクションの ![&#x200B; 展開 &#x200B;](../assets/icon-display-expand.png) を展開します。
 
-   ![ 注文、請求書、クレジット メモの表示設定 ](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 注文、請求書、クレジット メモの表示設定 &#x200B;](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
 
 1. 注文、請求書、およびクレジット メモでの価格と税金の表示方法を指定します。
 
@@ -166,9 +166,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Fixed Product Taxes]
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Fixed Product Taxes]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Fixed Product Taxes]**」セクションを展開します。
 
-   ![ 固定製品税 ](../configuration-reference/sales/assets/tax-fixed-product-taxes.png){width="600" zoomable="yes"}
+   ![&#x200B; 固定製品税 &#x200B;](../configuration-reference/sales/assets/tax-fixed-product-taxes.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、**[!UICONTROL Enable FPT]** を `Yes` または `No` に設定します。
 
@@ -215,12 +215,12 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Tax]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Calculation Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Calculation Settings]**」セクションを展開します。
 
 1. **[!UICONTROL Catalog Prices]** を `Including Tax` に設定します。
 
 1. クロスボーダーの価格の一貫性を有効にするには、**[!UICONTROL Enable Cross Border Trade]** を `Yes` に設定します。
 
-   ![ 国境を越えた貿易設定を有効にする ](./assets/cross-border-calculations-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 国境を越えた貿易設定を有効にする &#x200B;](./assets/cross-border-calculations-settings.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

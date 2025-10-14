@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create URL Rewrite]** を `Custom` に設定します。
 
-   ![URL の書き換え – カスタム ](./assets/url-rewrite-custom.png){width="600" zoomable="yes"}
+   ![URL の書き換え – カスタム &#x200B;](./assets/url-rewrite-custom.png){width="600" zoomable="yes"}
 
 1. [ URL 書き換え情報 ] で、次の操作を行います。
 

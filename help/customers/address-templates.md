@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-顧客アカウントのアドレス帳だけでなく、印刷された請求書、出荷、払い戻しに表示される、顧客の請求先および出荷先の形式を制御するテンプレートを変更できます。 追加情報を含める場合は、顧客アカウントおよび [ 住所 ](attribute-properties.md) に関連付けられた [ カスタム属性 ](address-attributes.md) を作成してテンプレートに組み込むことができます。
+顧客アカウントのアドレス帳だけでなく、印刷された請求書、出荷、払い戻しに表示される、顧客の請求先および出荷先の形式を制御するテンプレートを変更できます。 追加情報を含める場合は、顧客アカウントおよび [&#x200B; 住所 &#x200B;](attribute-properties.md) に関連付けられた [&#x200B; カスタム属性 &#x200B;](address-attributes.md) を作成してテンプレートに組み込むことができます。
 
 ## 例 1：ショートフォーマット
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 {{depend prefix}}{{var prefix}} {{/depend}}{{var firstname}} {{depend middlename}}{{var middlename}} {{/depend}}{{var lastname}}{{depend suffix}} {{var suffix}}{{/depend}}{{depend company}}{{var company}}{{/depend}}{{if street1}}{{var street1}}{{/if}}{{depend street2}}{{var street2}}{{/depend}}{{depend street3}}{{var street3}}{{/depend}}{{depend street4}}{{var street4}}{{/depend}}{{if city}}{{var city}},  {{/if}}{{if region}}{{var region}}, {{/if}}{{if postcode}}{{var postcode}}{{/if}}{{var country}}{{depend telephone}}T: {{var telephone}}{{/depend}}{{depend fax}}F: {{var fax}}{{/depend}}{{depend vat_id}}VAT: {{var vat_id}}{{/depend}}
 ```
 
-![ 顧客の住所テンプレート ](../configuration-reference/customers/assets/customer-configuration-address-templates.png){width="600" zoomable="yes"}
+![&#x200B; 顧客の住所テンプレート &#x200B;](../configuration-reference/customers/assets/customer-configuration-address-templates.png){width="600" zoomable="yes"}
 
 ## アドレスフィールドの順序の変更
 

@@ -14,32 +14,32 @@ ht-degree: 0%
 
 _クレジット・メモ_ は、全額払い戻しまたは一部払い戻しのために顧客に支払われる金額を示す文書です。 金額は、購入に対して適用することも、顧客に払い戻すこともできます。 1 つの受注または複数の受注のクレジット・メモをバッチとして印刷できます。 クレジット メモを印刷する前に、まず注文に対して生成する必要があります。 「_クレジット・メモ_」ページには、顧客に発行されたクレジット・メモがリストされます。
 
-![ クレジットメモ ](./assets/credit-memos.png){width="700" zoomable="yes"}
+![&#x200B; クレジットメモ &#x200B;](./assets/credit-memos.png){width="700" zoomable="yes"}
 
 ## 払い戻し方法
 
-注文の [ 支払い方法 ](payments.md) は、ある程度、注文の払い戻し方法を決定します。
+注文の [&#x200B; 支払い方法 &#x200B;](payments.md) は、ある程度、注文の払い戻し方法を決定します。
 
 注文の払い戻しは、次の 3 つの方法で行うことができます。
 
 - アカウント・クレジット – クレジット・アカウントを使用して支払われた注文は、アカウント・クレジットとして払い戻すことができます。
-   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [ ストアクレジット ](../customers/store-credit-using.md)
-   - ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能） [ 分割払い ](../b2b/enable-basic-features.md#configure-payment-on-account) （オフライン方式）
-   - ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で利用可能） [ 会社クレジット ](../b2b/credit-company.md)
-- [ オンライン払い戻し ](payments.md#online-payment-methods) - PayPal やBraintreeなどの支払い方法を通じてクレジットカードで支払われた注文は、支払い処理業者を通じてオンラインで払い戻されます。
-- [ オフライン払い戻し ](payments.md#offline-payment-methods) - キャッシュオンデリバリー（[COD](cash-on-delivery.md)）または [ 小切手またはマネーオーダー ](check-money-order.md) で支払われた注文は、オフラインで払い戻されます。
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [&#x200B; ストアクレジット &#x200B;](../customers/store-credit-using.md)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能） [&#x200B; 分割払い &#x200B;](../b2b/enable-basic-features.md#configure-payment-on-account) （オフライン方式）
+   - ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で利用可能） [&#x200B; 会社クレジット &#x200B;](../b2b/credit-company.md)
+- [&#x200B; オンライン払い戻し &#x200B;](payments.md#online-payment-methods) - PayPal やBraintreeなどの支払い方法を通じてクレジットカードで支払われた注文は、支払い処理業者を通じてオンラインで払い戻されます。
+- [&#x200B; オフライン払い戻し &#x200B;](payments.md#offline-payment-methods) - キャッシュオンデリバリー（[COD](cash-on-delivery.md)）または [&#x200B; 小切手またはマネーオーダー &#x200B;](check-money-order.md) で支払われた注文は、オフラインで払い戻されます。
 
 任意の支払い方法について、オフラインでの払い戻しまたはアカウントのクレジット（有効な場合）を発行できます。
 
-代金引換払い（[COD](cash-on-delivery.md)）または [ 小切手またはマネーオーダー ](check-money-order.md) で支払われた注文は、オフラインで返金されます。
+代金引換払い（[COD](cash-on-delivery.md)）または [&#x200B; 小切手またはマネーオーダー &#x200B;](check-money-order.md) で支払われた注文は、オフラインで返金されます。
 
 ## 返金ワークフロー
 
-1. **支払処理** - [ 支払処理 ](credit-memo-create.md#payment-action-setting) 構成が「`Authorize`」に設定されている場合、クレジット・メモを作成する前に請求書を生成する必要があります。手順 2 に進みます。 `Authorize and Capture` に設定した場合、請求書は既に生成されています。手順 3 に進みます。
+1. **支払処理** - [&#x200B; 支払処理 &#x200B;](credit-memo-create.md#payment-action-setting) 構成が「`Authorize`」に設定されている場合、クレジット・メモを作成する前に請求書を生成する必要があります。手順 2 に進みます。 `Authorize and Capture` に設定した場合、請求書は既に生成されています。手順 3 に進みます。
 
-1. **請求書の生成** - [ 請求書の作成 ](invoices.md#create-an-invoice) 注文について、クレジット・メモを使用して顧客に払戻を送信できるようにします。
+1. **請求書の生成** - [&#x200B; 請求書の作成 &#x200B;](invoices.md#create-an-invoice) 注文について、クレジット・メモを使用して顧客に払戻を送信できるようにします。
 
-1. **クレジットメモの作成** - [ クレジット購入 ](credit-memo-create.md) または [ 小切手またはマネーオーダー ](credit-memo-create.md#issue-a-refund-for-a-credit-purchase) の場合は、管理者で [ クレジットメモを発行 ](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order) します。
+1. **クレジットメモの作成** - [&#x200B; クレジット購入 &#x200B;](credit-memo-create.md) または [&#x200B; 小切手またはマネーオーダー &#x200B;](credit-memo-create.md#issue-a-refund-for-a-credit-purchase) の場合は、管理者で [&#x200B; クレジットメモを発行 &#x200B;](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order) します。
 
 ## 列の説明
 

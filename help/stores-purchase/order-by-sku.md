@@ -21,9 +21,9 @@ ht-degree: 0%
 
 通常、SKU には製品の際立った特徴を示す略語のセットが含まれます。 SKU の長さは最大 64 文字です。 SKU は在庫を効果的に追跡および管理するために重要なので、SKU を正しく設定することは、e コマースにとって重要です。
 
-_SKU で並べ替え_ は、[ ウィジェット ](../content-design/widgets.md) であり、すべての買い物客の利便性としてストアに表示したり、特定の顧客グループの買い物客にのみ使用したりできます。 買い物客は、SKU および数量情報を Order by SKU ブロックに直接入力するか、顧客アカウントから CSV ファイルをアップロードできます。 設定に関係なく、ストア管理者は常に SKU で注文できます。
+_SKU で並べ替え_ は、[&#x200B; ウィジェット &#x200B;](../content-design/widgets.md) であり、すべての買い物客の利便性としてストアに表示したり、特定の顧客グループの買い物客にのみ使用したりできます。 買い物客は、SKU および数量情報を Order by SKU ブロックに直接入力するか、顧客アカウントから CSV ファイルをアップロードできます。 設定に関係なく、ストア管理者は常に SKU で注文できます。
 
-![ ストアフロントでの SKU による並べ替え ](./assets/storefront-order-by-sku.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントでの SKU による並べ替え &#x200B;](./assets/storefront-order-by-sku.png){width="700" zoomable="yes"}
 
 ## SKU による順序の設定
 
@@ -31,7 +31,7 @@ _SKU で並べ替え_ は、[ ウィジェット ](../content-design/widgets.md)
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」セクションを展開し、その下 **[!UICONTROL Sales]** 選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Order by SKU Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Order by SKU Settings]**」セクションを展開します。
 
 1. **[!UICONTROL Enable Order by SKU on my Account in Storefront]** を次のいずれかに設定します。
 
@@ -39,7 +39,7 @@ _SKU で並べ替え_ は、[ ウィジェット ](../content-design/widgets.md)
    - `Yes, for Specified Customer Groups` - 「SKU で並べ替え」は、`Wholesale` など、特定の顧客グループのメンバーのみが使用できます。
    - `No` - ストアフロントに「SKU で注文」ブロックが表示されず、お客様のアカウントでは「SKU で注文」ページを使用できません。
 
-   ![SKU 設定で並べ替え ](../configuration-reference/sales/assets/sales-order-by-sku-settings.png){width="600" zoomable="yes"}
+   ![SKU 設定で並べ替え &#x200B;](../configuration-reference/sales/assets/sales-order-by-sku-settings.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save Config]**」をクリックします。
 
@@ -49,11 +49,11 @@ _SKU で並べ替え_ は、[ ウィジェット ](../content-design/widgets.md)
 
 1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL B2B Features]**」を選択します
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL B2B Features]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL B2B Features]**」セクションを展開します。
 
 1. **[!UICONTROL Enable Quick Order]** を `No` に設定します。
 
-   [ クイックオーダー機能 ](../b2b/quick-order.md) を使用すると、顧客とゲストは SKU または製品名に基づいてすばやく注文できます。
+   [&#x200B; クイックオーダー機能 &#x200B;](../b2b/quick-order.md) を使用すると、顧客とゲストは SKU または製品名に基づいてすばやく注文できます。
 
 ## ストアフロントの経験
 
@@ -79,15 +79,15 @@ _SKU で並べ替え_ は、[ ウィジェット ](../content-design/widgets.md)
 
    - 注文する品目の **[!UICONTROL SKU]** と **[!UICONTROL Qty]** を入力します。
 
-   - 必要に応じて項目を追加するには、「_行を追加_![ プラス記号のボタン ](../assets/button-add-item.png) をクリックし、必要な数の項目に対して繰り返します。
+   - 必要に応じて項目を追加するには、「_行を追加_![&#x200B; プラス記号のボタン &#x200B;](../assets/button-add-item.png) をクリックし、必要な数の項目に対して繰り返します。
 
    - **[!UICONTROL Add to Cart]** をクリックします。
 
    _&#x200B;**複数の項目の CSV ファイルをアップロードします。**&#x200B;_
 
-   - `SKU` と `Qty` の列を含む [ データを読み込む ](../systems/data-csv.md)CSV （コンマ区切り値）ファイルを準備します。
+   - `SKU` と `Qty` の列を含む [&#x200B; データを読み込む &#x200B;](../systems/data-csv.md)CSV （コンマ区切り値）ファイルを準備します。
 
-   ![ 読み込む SKU](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"}
+   ![&#x200B; 読み込む SKU](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"}
 
    - CSV ファイルをアップロードするには、「**[!UICONTROL Choose File]**」をクリックし、アップロードするファイルを選択します。
 
@@ -95,7 +95,7 @@ _SKU で並べ替え_ は、[ ウィジェット ](../content-design/widgets.md)
 
    いずれかの製品に追加のオプションがある場合、買い物かごから、製品に注意が必要であることを尋ねられます。
 
-   ![ 要注意製品 ](./assets/account-dashboard-order-by-sku-cart-product-requires-attention.png){width="600" zoomable="yes"}
+   ![&#x200B; 要注意製品 &#x200B;](./assets/account-dashboard-order-by-sku-cart-product-requires-attention.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >

@@ -24,16 +24,16 @@ ht-degree: 0%
 
 | 件名 | 説明 |
 | ------- | ----------- |
-| [ はじめに ](introduction.md) | Commerce ストアが実地棚卸を正確に反映するように、複数の場所で在庫を管理するために使用できる [!DNL Inventory Management] の機能の概要です。 |
-| [ リリースノート ](release-notes.md) | すべてのリリースについて詳しくは、リリースノート [!DNL Inventory Management] 参照してください。 |
-| 在庫の基本 | 在庫の管理に関する基本を説明します：[ 在庫とソース ](sources-stocks.md)、[ ソースの選択と予約 ](selection-reservations.md)、[ 注文と予約のステータス ](order-status.md)、および [ 製品タイプ ](product-types.md) |
-| 基本を学ぶ | [!DNL Inventory Management] モジュールの概要、およびそれがCommerce インスタンスとストアオペレーションにどのように適合するかについて説明します：[Commerceのアップグレード ](migrate.md)、[ モジュールのインストールと更新 ](install-update.md)、[ マーチャントソーシングタイプ ](merchant-sourcing.md)、[ ソーシング構造の変更 ](expand-restructure.md) |
-| [ 設定 ](configuration.md) | ソースの可用性、ストアフロント製品および注文出荷を決定する [!DNL Inventory Management] オプションの設定について説明します。 |
-| [ ソースの管理 ](sources-manage.md) | ソースと、製品在庫が受注履行のために管理および出荷される物理的な場所、またはサービスが使用可能な場所を定義する方法について説明します。 |
-| [ 在庫の管理 ](stocks-manage.md) | Stock を使用して、販売チャネルのソースとなる製品の仮想的な集計在庫を表す方法について説明します。 |
-| [ 数量の管理 ](quantities-manage.md) | 新しい製品のソースと数量を割り当てる方法や、既存の製品を変更する方法について説明します。 |
-| [ 注文と出荷の管理 ](shipments.md) | 出荷プロセスを通じて在庫数量を管理するためのその他の [!DNL Inventory Management] 機能およびオプションについて説明します。 |
-| [CLI リファレンス ](cli.md) | インベントリデータと設定を管理するために [!DNL Inventory Management] モジュールが提供するコマンドについて説明します。 |
+| [&#x200B; はじめに &#x200B;](introduction.md) | Commerce ストアが実地棚卸を正確に反映するように、複数の場所で在庫を管理するために使用できる [!DNL Inventory Management] の機能の概要です。 |
+| [&#x200B; リリースノート &#x200B;](release-notes.md) | すべてのリリースについて詳しくは、リリースノート [!DNL Inventory Management] 参照してください。 |
+| 在庫の基本 | 在庫の管理に関する基本を説明します：[&#x200B; 在庫とソース &#x200B;](sources-stocks.md)、[&#x200B; ソースの選択と予約 &#x200B;](selection-reservations.md)、[&#x200B; 注文と予約のステータス &#x200B;](order-status.md)、および [&#x200B; 製品タイプ &#x200B;](product-types.md) |
+| 基本を学ぶ | [!DNL Inventory Management] モジュールの概要、およびそれがCommerce インスタンスとストアオペレーションにどのように適合するかについて説明します：[Commerceのアップグレード &#x200B;](migrate.md)、[&#x200B; モジュールのインストールと更新 &#x200B;](install-update.md)、[&#x200B; マーチャントソーシングタイプ &#x200B;](merchant-sourcing.md)、[&#x200B; ソーシング構造の変更 &#x200B;](expand-restructure.md) |
+| [&#x200B; 設定 &#x200B;](configuration.md) | ソースの可用性、ストアフロント製品および注文出荷を決定する [!DNL Inventory Management] オプションの設定について説明します。 |
+| [&#x200B; ソースの管理 &#x200B;](sources-manage.md) | ソースと、製品在庫が受注履行のために管理および出荷される物理的な場所、またはサービスが使用可能な場所を定義する方法について説明します。 |
+| [&#x200B; 在庫の管理 &#x200B;](stocks-manage.md) | Stock を使用して、販売チャネルのソースとなる製品の仮想的な集計在庫を表す方法について説明します。 |
+| [&#x200B; 数量の管理 &#x200B;](quantities-manage.md) | 新しい製品のソースと数量を割り当てる方法や、既存の製品を変更する方法について説明します。 |
+| [&#x200B; 注文と出荷の管理 &#x200B;](shipments.md) | 出荷プロセスを通じて在庫数量を管理するためのその他の [!DNL Inventory Management] 機能およびオプションについて説明します。 |
+| [CLI リファレンス &#x200B;](cli.md) | インベントリデータと設定を管理するために [!DNL Inventory Management] モジュールが提供するコマンドについて説明します。 |
 
 {style="table-layout:auto"}
 
@@ -49,5 +49,5 @@ ht-degree: 0%
 
 情報が必要な場合や、このガイドで扱われていない質問がある場合は、次のリソースを使用してください。
 
-- [ 在庫インストール後の在庫ステータスが正しくない ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html?lang=ja)
-- [ サポートチケット ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ja#submit-ticket) - チケットを送信すると、追加のヘルプを受けることができます。
+- [&#x200B; 在庫インストール後の在庫ステータスが正しくない &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html?lang=ja)
+- [&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ja#submit-ticket) - チケットを送信すると、追加のヘルプを受けることができます。

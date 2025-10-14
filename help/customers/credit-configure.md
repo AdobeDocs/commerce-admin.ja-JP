@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Store Credit Options]**」セクションを展開します。
 
-   ![ 店舗クレジット オプション ](../configuration-reference/customers/assets/customer-configuration-store-credit-options.png){width="600" zoomable="yes"}
+   ![&#x200B; 店舗クレジット オプション &#x200B;](../configuration-reference/customers/assets/customer-configuration-store-credit-options.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Enable Store Credit Functionality]** を `Yes` に設定します。
 

@@ -19,13 +19,13 @@ ht-degree: 0%
 
 ## 手順 1：レコードの選択
 
-リストの最初の列のチェックボックスは、アクションのターゲットである各レコードを識別します。 [ フィルターコントロール ](admin-grid-controls.md) を使用して、アクションのターゲットにするレコードのリストを絞り込むことができます。
+リストの最初の列のチェックボックスは、アクションのターゲットである各レコードを識別します。 [&#x200B; フィルターコントロール &#x200B;](admin-grid-controls.md) を使用して、アクションのターゲットにするレコードのリストを絞り込むことができます。
 
 1. 必要に応じて、各列の上部にあるフィルターを設定して、含めるレコードのみを表示します。
 
 1. アクションのターゲットである各レコードのチェックボックスを選択するか、列セレクターを使用して一括選択を選択します。
 
-![ ページ上のすべてまたはすべてを選択または選択解除 ](./assets/action-change-selection.png){width="500"}
+![&#x200B; ページ上のすべてまたはすべてを選択または選択解除 &#x200B;](./assets/action-change-selection.png){width="500"}
 
 ## 手順 2：選択したレコードへのアクションの適用
 
@@ -37,13 +37,13 @@ ht-degree: 0%
 
    - **[!UICONTROL Actions]** コントロールを `Update Attributes` に設定します。
 
-     ![ 「属性を更新」アクションを選択 ](./assets/action-select.png){width="450"}
+     ![&#x200B; 「属性を更新」アクションを選択 &#x200B;](./assets/action-select.png){width="450"}
 
    - 「**[!UICONTROL Submit]**」をクリックします。
 
      属性を更新ページには、使用可能なすべての属性がグループ別に左側のパネルに一覧表示されます。
 
-     ![ 属性を更新ページ ](./assets/action-update-attributes.png){width="700" zoomable="yes"}
+     ![&#x200B; 属性を更新ページ &#x200B;](./assets/action-update-attributes.png){width="700" zoomable="yes"}
 
    - 各属性の横にある「**[!UICONTROL Change]**」チェックボックスをオンにして、必要な変更を行います。
 

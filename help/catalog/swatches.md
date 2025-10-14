@@ -14,9 +14,9 @@ ht-degree: 0%
 
 顧客は色の選択に大きな期待を抱いており、製品の説明で、使用可能な各色、パターンまたはテクスチャを正確に表すことが重要です。 たとえば、次の例のズボンは、赤、緑、および青では使用できません。 むしろ、赤、緑、青の特定の色合いでのみ利用可能です。これはおそらくこの製品に固有のものです。
 
-![ 製品ページのスウォッチ ](./assets/storefront-color-swatches.png){width="700" zoomable="yes"}
+![&#x200B; 製品ページのスウォッチ &#x200B;](./assets/storefront-color-swatches.png){width="700" zoomable="yes"}
 
-[ 設定可能な製品 ](product-create-configurable.md) の場合、カラーは、視覚的なスウォッチ、テキストスウォッチ、入力コントロールで示すことができます。 スウォッチは、製品ページ、製品リスト、[ レイヤーナビゲーション ](navigation-layered.md) で使用できます。 製品ページでは、スウォッチが同期され、スウォッチが選択されると、対応する製品画像が表示されます。 ユーザーがスウォッチを選択すると、対応する値が入力フィールドに表示され、スウォッチの概要が現在の選択内容に設定されます。
+[&#x200B; 設定可能な製品 &#x200B;](product-create-configurable.md) の場合、カラーは、視覚的なスウォッチ、テキストスウォッチ、入力コントロールで示すことができます。 スウォッチは、製品ページ、製品リスト、[&#x200B; レイヤーナビゲーション &#x200B;](navigation-layered.md) で使用できます。 製品ページでは、スウォッチが同期され、スウォッチが選択されると、対応する製品画像が表示されます。 ユーザーがスウォッチを選択すると、対応する値が入力フィールドに表示され、スウォッチの概要が現在の選択内容に設定されます。
 
 >[!NOTE]
 >
@@ -26,17 +26,17 @@ ht-degree: 0%
 
 画像がスウォッチで使用できない場合、属性値はテキストで表示されます。 テキストベースのスウォッチは、テキストラベルを付けたボタンのようなもので、画像を付けたスウォッチと同じように動作します。 テキストベースのスウォッチを使用して使用可能なサイズを表示すると、使用できないサイズは消去されます。
 
-![ テキストベースのスウォッチ選択で在庫切れのサイズが表示される ](./assets/storefront-swatch-size-out-of-stock.png){width="700" zoomable="yes"}
+![&#x200B; テキストベースのスウォッチ選択で在庫切れのサイズが表示される &#x200B;](./assets/storefront-swatch-size-out-of-stock.png){width="700" zoomable="yes"}
 
 ## レイヤー化されたナビゲーションでのスウォッチ
 
 スウォッチは、color 属性の _[!UICONTROL Use in Layered Navigation]_&#x200B;プロパティが `Yes` に設定されている場合に、レイヤー化されたナビゲーションでも使用できます。 次の例では、レイヤーナビゲーションで、テキストベースのスウォッチとカラー画像スウォッチの両方を表示しています。
 
-![ スウォッチをレイヤー化されたナビゲーションで表示 ](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
+![&#x200B; スウォッチをレイヤー化されたナビゲーションで表示 &#x200B;](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
 ## 製品のスウォッチの作成
 
-スウォッチは、`color` 属性のコンポーネントとして定義することも、特定の製品用にローカルに設定して [ 製品画像 ](product-image.md#upload-an-image) としてアップロードすることもできます。
+スウォッチは、`color` 属性のコンポーネントとして定義することも、特定の製品用にローカルに設定して [&#x200B; 製品画像 &#x200B;](product-image.md#upload-an-image) としてアップロードすることもできます。
 
 前述の例では、「シルヴィアカプリ」パンツは、`red`、`green`、`blue` の特定の値で利用できます。 スウォッチは製品画像から取得されたものなので、それぞれが実際の色を表現したものです。 `color` 属性は、すべての製品カラーおよびスウォッチの情報を管理するために使用されます。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. 製品の実際の色を取得するには、画像をフォトエディターで開き、スポイトツールを使用して正確な色を特定し、16 進数値に相当するものをメモします。
 
-   ![16 進数カラー値 ](./assets/swatch-hex-values.png){width="400"}
+   ![16 進数カラー値 &#x200B;](./assets/swatch-hex-values.png){width="400"}
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**&#x200B;に移動します。
 
@@ -60,17 +60,17 @@ ht-degree: 0%
 
 1. [_[!UICONTROL Manage Swatch (Values of Your Attribute)]_] で [**[!UICONTROL Add Swatch]**] をクリックし、次の操作を行います。
 
-   ![ スウォッチ値の管理 ](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
+   ![&#x200B; スウォッチ値の管理 &#x200B;](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
    - _スウォッチ_ 列で、新しいスウォッチをクリックし、メニューから **[!UICONTROL Choose a color]** を選択します。
 
-     ![ スウォッチカラーの選択 ](./assets/attribute-color-swatch-menu.png){width="500" zoomable="yes"}
+     ![&#x200B; スウォッチカラーの選択 &#x200B;](./assets/attribute-color-swatch-menu.png){width="500" zoomable="yes"}
 
    - カラーピッカーで、「**#**」フィールドにカーソルを置き、現在の値を削除して、新しいカラーの 6 文字の 16 進数値を入力します。
 
-     ![16 進数の値を入力 ](./assets/attribute-swatch-color-picker-hex-value.png){width="500" zoomable="yes"}
+     ![16 進数の値を入力 &#x200B;](./assets/attribute-swatch-color-picker-hex-value.png){width="500" zoomable="yes"}
 
-   - スウォッチを保存するには、カラーピッカーの右下隅にある _カラーホイール_ （![ カラーアイコン ](../assets/icon-color-wheel.png)）アイコンをクリックします。
+   - スウォッチを保存するには、カラーピッカーの右下隅にある _カラーホイール_ （![&#x200B; カラーアイコン &#x200B;](../assets/icon-color-wheel.png)）アイコンをクリックします。
 
    - _管理者_ 列に、カラーをストア管理者に説明するラベルを入力します。
 
@@ -78,9 +78,9 @@ ht-degree: 0%
 
    - _デフォルト_ 列で、デフォルトオプションにするスウォッチを選択します。
 
-   - カラースウォッチの順序を変更するには、_[!UICONTROL Order]_&#x200B;の ![ 並べ替え順序アイコン ](../assets/icon-sort-order.png) アイコンをクリックし、項目をリストの新しい位置にドラッグします。
+   - カラースウォッチの順序を変更するには、_[!UICONTROL Order]_&#x200B;の ![&#x200B; 並べ替え順序アイコン &#x200B;](../assets/icon-sort-order.png) アイコンをクリックし、項目をリストの新しい位置にドラッグします。
 
-     ![ スウォッチラベル ](./assets/attribute-swatch-labels.png){width="400"}
+     ![&#x200B; スウォッチラベル &#x200B;](./assets/attribute-swatch-labels.png){width="400"}
 
 1. 完了したら、「**[!UICONTROL Save Attribute]**」をクリックし、プロンプトが表示されたらキャッシュを更新します。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
    スウォッチのサイズとサイズは、テーマによって決まります。 通常、画像を正方形として保存すると、パターンの縦横比を維持するのに役立ちます。
 
-   ![ スウォッチ画像 ](./assets/swatch-samples.png){width="400"}
+   ![&#x200B; スウォッチ画像 &#x200B;](./assets/swatch-samples.png){width="400"}
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**&#x200B;に移動します。
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
      この例では、SKU が管理者のラベルに参照用に含まれています。これらの色は特定の製品にのみ使用されるからです。 ラベルにスペースやアンダースコアを含めることはできますが、ハイフンを含めることはできません。
 
-     ![ ラベルを入力 ](./assets/swatch-upload.png){width="500" zoomable="yes"}
+     ![&#x200B; ラベルを入力 &#x200B;](./assets/swatch-upload.png){width="500" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Attribute]**」をクリックし、プロンプトが表示されたらキャッシュを更新します。
 
@@ -138,17 +138,17 @@ ht-degree: 0%
 
    この例では、ズボンのすべての青い設定が選択されています。
 
-   ![ 製品スウォッチ属性の更新 ](./assets/swatch-apply-update-attributes.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品スウォッチ属性の更新 &#x200B;](./assets/swatch-apply-update-attributes.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Color]** 属性までスクロールダウンし、「**[!UICONTROL Change]**」チェックボックスを選択します。
 
-   ![ チェックボックスを変更 ](./assets/swatch-update-attributes-choose-color.png){width="400"}
+   ![&#x200B; チェックボックスを変更 &#x200B;](./assets/swatch-update-attributes-choose-color.png){width="400"}
 
 1. 選択した商品に適用されるスウォッチを選択し、「**[!UICONTROL Save]**」をクリックします。
 
 1. プロンプトが表示されたら、キャッシュを更新します。
 
-   ![ ストアフロントに表示されるのスウォッチ ](./assets/swatch-blue-schmear.png){width="200"}
+   ![&#x200B; ストアフロントに表示されるのスウォッチ &#x200B;](./assets/swatch-blue-schmear.png){width="200"}
 
 ## シンプルな製品へのスウォッチの追加
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
 1. プログレスバーで、「**[!UICONTROL Next]**」をクリックします。
 
-1. [ 画像、価格、数量を設定 ](product-create-configurable.md#step-3-configure-the-images-price-and-quantity)。
+1. [&#x200B; 画像、価格、数量を設定 &#x200B;](product-create-configurable.md#step-3-configure-the-images-price-and-quantity)。
 
    このステップでは、各設定の画像、価格、数量を設定します。 使用可能なオプションはそれぞれに対して同じで、1 つのみ選択できます。 すべての SKU に同じ設定を適用することも、各 SKU に一意の設定を適用することも、今は設定をスキップすることもできます。
 

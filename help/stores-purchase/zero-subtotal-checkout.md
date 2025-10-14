@@ -16,11 +16,11 @@ _小計ゼロのチェックアウト_ は、割引が適用された後に課�
 
 - 割引は購入価格の全額をカバーし、送料は無料です。
 
-- 顧客が買い物かごに [ ダウンロード可能 ](../catalog/product-create-downloadable.md) または [ 仮想 ](../catalog/product-create-virtual.md) 製品を追加し、価格がゼロに等しい。
+- 顧客が買い物かごに [&#x200B; ダウンロード可能 &#x200B;](../catalog/product-create-downloadable.md) または [&#x200B; 仮想 &#x200B;](../catalog/product-create-virtual.md) 製品を追加し、価格がゼロに等しい。
 
-- [ シンプル ](../catalog/product-create-simple.md) 商品の価格はゼロで、[ 送料無料 ](shipping-free.md) の方法が利用可能です。
+- [&#x200B; シンプル &#x200B;](../catalog/product-create-simple.md) 商品の価格はゼロで、[&#x200B; 送料無料 &#x200B;](shipping-free.md) の方法が利用可能です。
 
-- [ クーポンコード ](../merchandising-promotions/price-rules-cart-coupon.md) は、製品と送料の全額をカバーしています。
+- [&#x200B; クーポンコード &#x200B;](../merchandising-promotions/price-rules-cart-coupon.md) は、製品と送料の全額をカバーしています。
 
 時間を節約するために、小計ゼロの注文を自動請求に設定できます。
 
@@ -30,9 +30,9 @@ _小計ゼロのチェックアウト_ は、割引が適用された後に課�
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Payment Methods]**」を選択します。
 
-1. 「_[!UICONTROL Other Payment Methods]_」の下の「展開セレクター ![ 「**[!UICONTROL Zero Subtotal Checkout]**」セクション ](../assets/icon-display-expand.png) を展開します。
+1. 「_[!UICONTROL Other Payment Methods]_」の下の「展開セレクター ![&#x200B; 「**[!UICONTROL Zero Subtotal Checkout]**」セクション &#x200B;](../assets/icon-display-expand.png) を展開します。
 
-   ![ 小計ゼロのチェックアウト ](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png){width="600" zoomable="yes"}
+   ![&#x200B; 小計ゼロのチェックアウト &#x200B;](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -52,11 +52,11 @@ _小計ゼロのチェックアウト_ は、割引が適用された後に課�
 
    >[!NOTE]
    >
-   >_[!UICONTROL New Order Status]_&#x200B;が `Processing` に設定され、_[!UICONTROL Automatically Invoice All Items]_ が `No` に設定されている場合、「[ 注文ステータス ](order-status.md#custom-order-status)」ページで **[!UICONTROL Order State]** = `Pending` および **[!UICONTROL Default Status]** = `No` マッピングに **[!UICONTROL Order Status]** = `Processing` を割り当てる必要もあります。
+   >_[!UICONTROL New Order Status]_&#x200B;が `Processing` に設定され、_[!UICONTROL Automatically Invoice All Items]_ が `No` に設定されている場合、「[&#x200B; 注文ステータス &#x200B;](order-status.md#custom-order-status)」ページで **[!UICONTROL Order State]** = `Pending` および **[!UICONTROL Default Status]** = `No` マッピングに **[!UICONTROL Order Status]** = `Processing` を割り当てる必要もあります。
 
 1. **[!UICONTROL Payment from Applicable Countries]** を次のいずれかに設定します。
 
-   - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
+   - `All Allowed Countries` - ストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
    - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、それぞれのオプションをクリックします。
 
 1. **[!UICONTROL Sort Order]** の場合は、チェックアウト時に表示される支払い方法の一覧で、この項目の位置を決定する数値を入力します。

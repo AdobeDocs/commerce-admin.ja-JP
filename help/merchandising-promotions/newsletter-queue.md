@@ -18,9 +18,9 @@ ht-degree: 0%
 
 1. _管理者_ メニューで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Newsletter Template]**&#x200B;に移動します。
 
-1. グリッドで、送信する [ ニュースレターテンプレート ](newsletter-template.md) を見つけ、「**[!UICONTROL Action]**」列を `Queue Newsletter` に設定します。
+1. グリッドで、送信する [&#x200B; ニュースレターテンプレート &#x200B;](newsletter-template.md) を見つけ、「**[!UICONTROL Action]**」列を `Queue Newsletter` に設定します。
 
-1. **[!UICONTROL Queue Date Start]**：送信を開始する日付をカレンダーから選択します（![ カレンダーアイコン ](../assets/icon-calendar.png)）。
+1. **[!UICONTROL Queue Date Start]**：送信を開始する日付をカレンダーから選択します（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）。
 
 1. **[!UICONTROL Subscribers From]** しくは、メール送信に含める各ストア表示を選択します。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
      設定では、送信者のデフォルトの名前とメールアドレスが指定されます。
 
-     ![ ニュースレターキュー情報 ](./assets/newsletter-queue-information1.png){width="600" zoomable="yes"}
+     ![&#x200B; ニュースレターキュー情報 &#x200B;](./assets/newsletter-queue-information1.png){width="600" zoomable="yes"}
 
 1. 該当する場合は、購読解除する手順の上にある **[!UICONTROL Message]** ボックスにメモを入力します。
 

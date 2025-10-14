@@ -21,7 +21,7 @@ ht-degree: 1%
 
 _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers]_/**[!UICONTROL Order Total]**&#x200B;に移動します。
 
-![ 注文合計レポート ](./assets/customers-order-total.png){width="600"}
+![&#x200B; 注文合計レポート &#x200B;](./assets/customers-order-total.png){width="600"}
 
 ### Workspaceの制御
 
@@ -53,7 +53,7 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers
 
 _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers]_/**[!UICONTROL Order Count]**&#x200B;に移動します。
 
-![ 注文数レポート ](./assets/customer-order-count.png){width="600"}
+![&#x200B; 注文数レポート &#x200B;](./assets/customer-order-count.png){width="600"}
 
 ### Workspaceの制御
 
@@ -85,7 +85,7 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers
 
 _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers]_/**[!UICONTROL New]**&#x200B;に移動します。
 
-![ 新規口座報告書 ](./assets/customers-new-accounts.png){width="600"}
+![&#x200B; 新規口座報告書 &#x200B;](./assets/customers-new-accounts.png){width="600"}
 
 ### Workspaceの制御
 
@@ -116,7 +116,7 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers
 
 _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers]_/**[!UICONTROL Wish Lists]**&#x200B;に移動します。
 
-![ ウィッシュリストレポート ](./assets/customer-wish-list.png){width="600"}
+![&#x200B; ウィッシュリストレポート &#x200B;](./assets/customer-wish-list.png){width="600"}
 
 ### Workspaceの制御
 
@@ -156,7 +156,7 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers
 
 _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Customers]_/**[!UICONTROL Segments]**&#x200B;に移動します。
 
-![ セグメントレポート ](./assets/customers-segments.png){width="600"}
+![&#x200B; セグメントレポート &#x200B;](./assets/customers-segments.png){width="600"}
 
 ### Workspaceの制御
 

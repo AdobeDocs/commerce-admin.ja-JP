@@ -14,9 +14,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-一括アクション ログは、インポート/エクスポートや、（カスタム価格 [&#128279;](../b2b/catalog-shared.md) を [ 共有カタログ ](../b2b/catalog-shared-manage.md#update-custom-pricing) 内の複数の製品に割り当てるなど、バックグラウンドで実行される非同期の一括操作の詳細を記録  ます。
+一括アクション ログは、インポート/エクスポートや、（カスタム価格 [&#128279;](../b2b/catalog-shared.md) を [&#x200B; 共有カタログ &#x200B;](../b2b/catalog-shared-manage.md#update-custom-pricing) 内の複数の製品に割り当てるなど、バックグラウンドで実行される非同期の一括操作の詳細を記録  ます。
 
-![ 一括アクションログ ](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
+![&#x200B; 一括アクションログ &#x200B;](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
 
 ## 一括アクションの設定
 
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Bulk Actions]**」セクションを展開し、「ログの保存」オプションを設定します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL Bulk Actions]**」セクションを展開し、「ログの保存」オプションを設定します。
 
    「**[!UICONTROL Days Saved in Log]**」 – 一括アクションがログに保存される日数を入力します。
 
-   ![ 詳細設定 – 一括アクション ](../configuration-reference/advanced/assets/system-bulk-actions.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – 一括アクション &#x200B;](../configuration-reference/advanced/assets/system-bulk-actions.png){width="600" zoomable="yes"}
 
    設定の詳細なリストについては、『設定リファレンス _の[_ 一括アクション _](../configuration-reference/advanced/system.md)を参照してください_。
 

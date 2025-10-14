@@ -56,7 +56,7 @@ _キャンペーン_ という用語は、スケジュールされた変更の�
 
    >[!NOTE]
    >
-   >キャンペーンが複数のエンティティにリンクされている場合、キャンペーンは、「コンテンツのステージングダッシュボード [ からのみ編集でき ](content-staging-dashboard.md) す。
+   >キャンペーンが複数のエンティティにリンクされている場合、キャンペーンは、「コンテンツのステージングダッシュボード [&#x200B; からのみ編集でき &#x200B;](content-staging-dashboard.md) す。
 
 1. **ベースラインコンテンツの復元**
 
@@ -72,9 +72,9 @@ _キャンペーン_ という用語は、スケジュールされた変更の�
 
 ## [!UICONTROL Content Staging] ダッシュボード
 
-[!UICONTROL Content Staging] [ ダッシュボード ](content-staging-dashboard.md) は、計画されたすべてのサイトの変更と更新を表示します。 キャンペーンの任意の日、日付範囲または期間をプレビューし、他のユーザーと共有できます。
+[!UICONTROL Content Staging] [&#x200B; ダッシュボード &#x200B;](content-staging-dashboard.md) は、計画されたすべてのサイトの変更と更新を表示します。 キャンペーンの任意の日、日付範囲または期間をプレビューし、他のユーザーと共有できます。
 
-![ ステージングダッシュボード ](./assets/content-staging-dashboard-grid.png){width="600" zoomable="yes"}
+![&#x200B; ステージングダッシュボード &#x200B;](./assets/content-staging-dashboard-grid.png){width="600" zoomable="yes"}
 
 ## コンテンツのステージングデモ
 
@@ -86,6 +86,6 @@ _キャンペーン_ という用語は、スケジュールされた変更の�
 
 コンテンツのステージングに関する問題のトラブルシューティングについて詳しくは、[!DNL Commerce] サポートナレッジベースの次の記事を参照してください。
 
-- [ コンテンツのステージングに関する問題が原因で、すべてのページでエラー 404](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=ja)
-- [ スケジュールされたコンテンツステージングの更新が、古い Fastly キャッシュで表示されない ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=ja)
-- [ 共有カタログの価格でコンテンツのステージングの更新をスケジュールすることはできますか？](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=ja)
+- [&#x200B; コンテンツのステージングに関する問題が原因で、すべてのページでエラー 404](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=ja)
+- [&#x200B; スケジュールされたコンテンツステージングの更新が、古い Fastly キャッシュで表示されない &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=ja)
+- [&#x200B; 共有カタログの価格でコンテンツのステージングの更新をスケジュールすることはできますか？](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=ja)

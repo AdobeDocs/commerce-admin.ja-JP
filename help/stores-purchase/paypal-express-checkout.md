@@ -24,7 +24,7 @@ PayPal Express Checkout は、顧客がクレジットカードまたは個人�
 
 >[!NOTE]
 >
->PayPal は、PayPal Express Checkout を通じたデジタル商品の販売に対するサポートを廃止しており、[PayPal Payments Standard](paypal-payments-standard.md) または別の PayPal 支払いゲートウェイを使用して、[ 仮想製品 ](../catalog/product-create-virtual.md) を含む注文を処理することをお勧めします。
+>PayPal は、PayPal Express Checkout を通じたデジタル商品の販売に対するサポートを廃止しており、[PayPal Payments Standard](paypal-payments-standard.md) または別の PayPal 支払いゲートウェイを使用して、[&#x200B; 仮想製品 &#x200B;](../catalog/product-create-virtual.md) を含む注文を処理することをお勧めします。
 
 ## 要件
 
@@ -50,7 +50,7 @@ PayPal Express Checkout は、顧客がクレジットカードまたは個人�
 
 PayPal の _コンテキスト内チェックアウト_ を使用すると、オンラインでの支払いがこれまで以上に簡単になります。 お客様は、このシンプルな 1 回または 2 回のクリックでシームレスなチェックアウト中にストアを見失うことはありません。 コンテキスト内チェックアウトは Mac と PC でも同様に機能し、デスクトップコンピューター、タブレット、モバイルデバイスで一貫したエクスペリエンスを提供します。 詳しくは、[ 高速チェックアウトでのコンテキスト内チェックアウト ][5] を参照してください。
 
-![PayPal コンテキスト内チェックアウトデモ ](./assets/storefront-paypal-in-context.png){width="700" zoomable="yes"}
+![PayPal コンテキスト内チェックアウトデモ &#x200B;](./assets/storefront-paypal-in-context.png){width="700" zoomable="yes"}
 
 [_PayPal コンテキスト内チェックアウトデモ_][6]
 
@@ -98,17 +98,17 @@ PayPal Express Checkout とオールインワンソリューションの 2 つ�
 
    この設定により、設定に表示される PayPal ソリューションの選択が決まります。
 
-   ![ 商国 ](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
+   ![&#x200B; 商国 &#x200B;](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
 1. [_[!UICONTROL Recommended Solutions]_] で、[**[!UICONTROL PayPal Express Checkout]**] の [**[!UICONTROL Configure]**] をクリックします。
 
-   ![PayPal Express チェックアウトの設定 ](./assets/paypal-express-checkout.png){width="600"}
+   ![PayPal Express チェックアウトの設定 &#x200B;](./assets/paypal-express-checkout.png){width="600"}
 
 ### 手順 2:PayPal アカウントを有効にして接続する
 
-1. 必要に応じて、「拡張セレクター ![ の「**[!UICONTROL Required PayPal Settings]**」セクション ](../assets/icon-display-expand.png) 展開します。
+1. 必要に応じて、「拡張セレクター ![&#x200B; の「**[!UICONTROL Required PayPal Settings]**」セクション &#x200B;](../assets/icon-display-expand.png) 展開します。
 
-   ![PayPal アカウントを接続 ](./assets/paypal-express-required.png){width="600" zoomable="yes"}
+   ![PayPal アカウントを接続 &#x200B;](./assets/paypal-express-required.png){width="600" zoomable="yes"}
 
 1. テストまたは実稼動用にアカウントを接続：
 
@@ -119,7 +119,7 @@ PayPal Express Checkout とオールインワンソリューションの 2 つ�
 
 1. **[!UICONTROL Enable this Solution]** を `Yes` に設定します。
 
-1. [PayPal コンテキスト内チェックアウト ](#in-context-checkout) を有効にするには：
+1. [PayPal コンテキスト内チェックアウト &#x200B;](#in-context-checkout) を有効にするには：
 
    - **[!UICONTROL Enable In-Context Checkout Experience]** を `Yes` に設定します。
 
@@ -129,13 +129,13 @@ PayPal Express Checkout とオールインワンソリューションの 2 つ�
 
 >[!NOTE]
 >
->[PayPal クレジット ](paypal.md#paypal-credit-and-pay-later) は、この支払いオプションに対してデフォルトで有効になっています。
+>[PayPal クレジット &#x200B;](paypal.md#paypal-credit-and-pay-later) は、この支払いオプションに対してデフォルトで有効になっています。
 
 ### 手順 3：必要な PayPal 設定を完了する
 
-1. 必要に応じて、「拡張セレクター ![ の「**[!UICONTROL Express Checkout]**」セクション ](../assets/icon-display-expand.png) 展開します。
+1. 必要に応じて、「拡張セレクター ![&#x200B; の「**[!UICONTROL Express Checkout]**」セクション &#x200B;](../assets/icon-display-expand.png) 展開します。
 
-   ![PayPal Express チェックアウトの必須設定 ](./assets/paypal-express-settings.png){width="600" zoomable="yes"}
+   ![PayPal Express チェックアウトの必須設定 &#x200B;](./assets/paypal-express-settings.png){width="600" zoomable="yes"}
 
 1. （任意） **[!UICONTROL Email Associated with PayPal Merchant Account]** を入力します。
 
@@ -182,15 +182,15 @@ PayPal Express Checkout とオールインワンソリューションの 2 つ�
 
 #### PayPal クレジットのアドバタイズ
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advertise PayPal Credit]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advertise PayPal Credit]**」セクションを展開します。
 
 1. アカウント情報を取得するには、**[!UICONTROL Get Publisher ID from PayPal]** をクリックし、指示に従ってください。
 
 1. **[!UICONTROL Publisher ID]** を入力します。
 
-   ![PayPal クレジットの広告 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
+   ![PayPal クレジットの広告 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Home Page]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Home Page]**」セクションを展開します。
 
 1. ページにバナーを配置するには、「**[!UICONTROL Display]**」を「`Yes`」に設定します。
 
@@ -208,9 +208,9 @@ PayPal Express Checkout とオールインワンソリューションの 2 つ�
    - `728 x 90`
    - `800 x 66`
 
-   ![PayPal クレジット ホーム ページ設定のアドバタイズ ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
+   ![PayPal クレジット ホーム ページ設定のアドバタイズ &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png) 残りのセクションを展開し、前の手順を繰り返します。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 残りのセクションを展開し、前の手順を繰り返します。
 
    - [!UICONTROL Catalog Category Page]
    - [!UICONTROL Catalog Product Page]
@@ -218,11 +218,11 @@ PayPal Express Checkout とオールインワンソリューションの 2 つ�
 
 #### PayPal PayLater のアドバタイズ
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advertise PayPal PayLater]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advertise PayPal PayLater]**」セクションを展開します。
 
 1. **[!UICONTROL Enable PayPal PayLater]** を `Yes` に設定します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Home Page]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Home Page]**」セクションを展開します。
 
 1. ページにバナーを配置するには、「**[!UICONTROL Display]**」を「`Yes`」に設定します。
 
@@ -283,9 +283,9 @@ PayPal Express Checkout とオールインワンソリューションの 2 つ�
    - `Monochrome`
    - `Grayscale`
 
-   ![PayPal クレジット ホーム ページ設定のアドバタイズ ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
+   ![PayPal クレジット ホーム ページ設定のアドバタイズ &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png) 残りのセクションを展開し、前の手順を繰り返します。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 残りのセクションを展開し、前の手順を繰り返します。
 
    - [!UICONTROL Catalog Product Page]
    - [!UICONTROL Checkout Cart Page]
@@ -294,9 +294,9 @@ PayPal Express Checkout とオールインワンソリューションの 2 つ�
 
 ### 手順 5：基本設定を完了する
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Basic Settings - PayPal Express Checkout]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Basic Settings - PayPal Express Checkout]**」セクションを展開します。
 
-   ![ 基本設定 ](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-basic-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 基本設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-basic-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Title]** の場合は、チェックアウト時にこの支払い方法を識別するタイトルを入力します。
 
@@ -324,9 +324,9 @@ PayPal Express Checkout とオールインワンソリューションの 2 つ�
 
 ### 手順 6：詳細設定の完了
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advanced Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advanced Settings]**」セクションを展開します。
 
-   ![ 詳細設定 – PayPal Express チェックアウト ](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – PayPal Express チェックアウト &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Display on Shopping Cart]** を `Yes` に設定します。
 
@@ -366,7 +366,7 @@ PayPal Express Checkout とオールインワンソリューションの 2 つ�
    >
    >この機能は、PayPal テクニカルサポートを通じてマーチャントアカウントで有効にする必要があります。
 
-1. （オプション）カスタマーアカウントに有効な請求契約がない場合、顧客が PayPal 支払いシステムのストアと [ 請求契約 ](paypal-billing-agreements.md) に署名できるように、**[!UICONTROL Billing Agreement Signup]** を設定します。
+1. （オプション）カスタマーアカウントに有効な請求契約がない場合、顧客が PayPal 支払いシステムのストアと [&#x200B; 請求契約 &#x200B;](paypal-billing-agreements.md) に署名できるように、**[!UICONTROL Billing Agreement Signup]** を設定します。
 
    - `Auto` – お客様は、エクスプレスチェックアウトフロー中に請求契約に署名するか、別の支払い方法を使用できます。
    - `Ask Customer` – お客様は、エクスプレスチェックアウトフロー中に請求契約に署名するかどうかを決定できます。
@@ -374,7 +374,7 @@ PayPal Express Checkout とオールインワンソリューションの 2 つ�
 
    >[!NOTE]
    >
-   >マーチャントは、アカウントで請求契約を有効にするには、[PayPal マーチャントテクニカルサポート ](https://developer.paypal.com/support/) に依頼する必要があります。 _請求契約のサインアップ_ パラメーターは、お客様のマーチャントアカウントで請求契約が有効になっていることを PayPal が確認した後でのみ有効になります。
+   >マーチャントは、アカウントで請求契約を有効にするには、[PayPal マーチャントテクニカルサポート &#x200B;](https://developer.paypal.com/support/) に依頼する必要があります。 _請求契約のサインアップ_ パラメーターは、お客様のマーチャントアカウントで請求契約が有効になっていることを PayPal が確認した後でのみ有効になります。
 
 1. お客様が注文レビューのためにストアに戻ることなく、PayPal サイトからトランザクションを完了できるようにするには、**[!UICONTROL Skip Order Review Step]** を `Yes` に設定します。
 
@@ -390,11 +390,11 @@ PayPal Express Checkout とオールインワンソリューションの 2 つ�
 
 #### PayPal 請求契約設定
 
-[ 請求契約 ](paypal-billing-agreements.md) は、複数の注文での使用が PayPal によって許可されている、マーチャントと顧客の間の販売契約です。 チェックアウトプロセス中に、請求契約の支払いオプションは、会社と請求契約を既に入力している顧客にのみ表示されます。 PayPal が契約を承認すると、支払いシステムは、契約に関連付けられている各注文を識別するための一意の参照 ID を発行します。 発注書と同様に、顧客が会社で設定できる請求契約の数に制限はありません。
+[&#x200B; 請求契約 &#x200B;](paypal-billing-agreements.md) は、複数の注文での使用が PayPal によって許可されている、マーチャントと顧客の間の販売契約です。 チェックアウトプロセス中に、請求契約の支払いオプションは、会社と請求契約を既に入力している顧客にのみ表示されます。 PayPal が契約を承認すると、支払いシステムは、契約に関連付けられている各注文を識別するための一意の参照 ID を発行します。 発注書と同様に、顧客が会社で設定できる請求契約の数に制限はありません。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL PayPal Billing Agreement Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL PayPal Billing Agreement Settings]**」セクションを展開します。
 
-   ![ 請求契約の設定 ](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 請求契約の設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Enabled]** を `Yes` に設定します。
 
@@ -426,9 +426,9 @@ PayPal Express Checkout とオールインワンソリューションの 2 つ�
 
 #### 決済報告書の設定
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Settlement Report Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Settlement Report Settings]**」セクションを展開します。
 
-   ![ 決算報告書の作成等 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 決算報告書の作成等 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL SFTP Credentials]** の場合は、次の手順を実行します。
 
@@ -469,9 +469,9 @@ PayPal Express Checkout とオールインワンソリューションの 2 つ�
 
 フロントエンドエクスペリエンス設定を使用すると、サイトに表示する PayPal ロゴを選択したり、PayPal マーチャントページの外観をカスタマイズしたりできます。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Frontend Experience Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Frontend Experience Settings]**」セクションを展開します。
 
-   ![ フロントエンドエクスペリエンス設定 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
+   ![&#x200B; フロントエンドエクスペリエンス設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
 1. ストアの PayPal ブロックに表示する **[!UICONTROL PayPal Product Logo]** を選択します。
 
@@ -511,18 +511,18 @@ _スマート支払いボタン_ 機能を使用すると、PayPal ボタンを�
 - PayPal ボタンに表示するテキスト
 - 複数のボタンが表示されている場合のレイアウト（水平または垂直）
 
-ボタンをカスタマイズするには、![ 拡張セレクター ](../assets/icon-display-expand.png) 以下の各セクションを展開し、設定を調整します。
+ボタンをカスタマイズするには、![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) 以下の各セクションを展開し、設定を調整します。
 
 - **[!UICONTROL Checkout Page]**
 - **[!UICONTROL Product Pages]**
 - **[!UICONTROL Cart Page]**
 - **[!UICONTROL Mini Cart]**
 
-![ チェックアウトページの設定 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings2.png){width="600" zoomable="yes"}
+![&#x200B; チェックアウトページの設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings2.png){width="600" zoomable="yes"}
 
 **_各ページタイプのボタンの表示を設定するには：_**
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」セクションを展開します。
 
 1. **[!UICONTROL Customize Button]** を `Yes` に設定します。
 
@@ -562,9 +562,9 @@ _スマート支払いボタン_ 機能を使用すると、PayPal ボタンを�
 
 機能設定を使用すると、この PayPal ソリューションに関連する特定の機能を無効にすることができます。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Features]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Features]**」セクションを展開します。
 
-   ![ チェックアウトページの設定 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings3.png){width="600" zoomable="yes"}
+   ![&#x200B; チェックアウトページの設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings3.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Disable Funding Options]** を設定して、_チェックアウト_ ページに表示される他の PayPal 資金調達オプションを決定します。
 
@@ -580,5 +580,5 @@ _スマート支払いボタン_ 機能を使用すると、PayPal ボタンを�
 [3]: https://manager.paypal.com/
 [4]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
 [5]: https://www.paypal.com/rs/webapps/mpp/express-checkout
-[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout
+[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&page=incontextProductCheckout
 [7]: https://developer.paypal.com/docs/api-basics/sandbox/

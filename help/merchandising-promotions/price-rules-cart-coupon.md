@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # クーポンコード
 
-クーポンコードは、[ 買い物かご価格ルール ](price-rules-cart.md) で使用され、一連の条件を満たした場合に割引を適用します。 例えば、特定の顧客グループ向けに、または特定の金額を超えて購入するユーザー向けに、クーポンコードを作成できます。 クーポンを購入に適用するには、お客様はカートにクーポンコードを入力するか、場合によっては _brick and mortal_ 店舗のレジに入力できます。 ストアでクーポンを使用する方法はいくつかあります。
+クーポンコードは、[&#x200B; 買い物かご価格ルール &#x200B;](price-rules-cart.md) で使用され、一連の条件を満たした場合に割引を適用します。 例えば、特定の顧客グループ向けに、または特定の金額を超えて購入するユーザー向けに、クーポンコードを作成できます。 クーポンを購入に適用するには、お客様はカートにクーポンコードを入力するか、場合によっては _brick and mortal_ 店舗のレジに入力できます。 ストアでクーポンを使用する方法はいくつかあります。
 
 - 顧客へのメールクーポン
 - 印刷されたクーポンを作成する
@@ -45,11 +45,11 @@ Commerce 2.4.7 以降では、買い物客は 1 つの買い物かごに複数�
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Promotions]**」を選択します。
 
-   ![ 顧客設定 – 自動生成された特定のクーポンコード ](../configuration-reference/customers/assets/promotions-auto-generated-specific-coupon-codes.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客設定 – 自動生成された特定のクーポンコード &#x200B;](../configuration-reference/customers/assets/promotions-auto-generated-specific-coupon-codes.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Auto Generated Specific Coupon Codes]**」セクションを展開します。
 
-   ![ 顧客設定 – 自動生成された特定のクーポンコード ](../configuration-reference/customers/assets/promotions-auto-generated-specific-coupon-codes.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客設定 – 自動生成された特定のクーポンコード &#x200B;](../configuration-reference/customers/assets/promotions-auto-generated-specific-coupon-codes.png){width="600" zoomable="yes"}
 
 1. 接頭辞、接尾辞、区切り文字を含む **[!UICONTROL Code Length]** を入力します。
 
@@ -73,17 +73,17 @@ Commerce 2.4.7 以降では、買い物客は 1 つの買い物かごに複数�
 
 >[!NOTE]
 >
->[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} クーポンを作成する前に、`bin/magento cron:run` コマンドを使用して cron が実行されていることを確認します。 詳しくは、『 [ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ja#run-cron-from-the-command-line) の _コマンドラインからの cron の実行_ を参照してください。
+>[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} クーポンを作成する前に、`bin/magento cron:run` コマンドを使用して cron が実行されていることを確認します。 詳しくは、『 [&#x200B; 設定ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ja#run-cron-from-the-command-line) の _コマンドラインからの cron の実行_ を参照してください。
 
 ### 方法 1：特定のクーポンの作成
 
-1. 指示に従って、[ 買い物かご価格ルール ](price-rules-cart.md) を作成します。
+1. 指示に従って、[&#x200B; 買い物かご価格ルール &#x200B;](price-rules-cart.md) を作成します。
 
 1. **[!UICONTROL Rule Information]** セクションで、**[!UICONTROL Coupon]** を `Specific Coupon` に設定します。
 
 1. プロモーションで使用する **[!UICONTROL Coupon Code]** を入力します。
 
-   コードの形式（数値、英数字、アルファベット）は、[ 設定 ](#configure-coupon-codes) によって決まります。
+   コードの形式（数値、英数字、アルファベット）は、[&#x200B; 設定 &#x200B;](#configure-coupon-codes) によって決まります。
 
 1. クーポンの使用回数を制限するには、次の操作を行います。
 
@@ -92,7 +92,7 @@ Commerce 2.4.7 以降では、買い物客は 1 つの買い物かごに複数�
 
    無制限に使用するには、これらのフィールドを空白のままにします。
 
-   ![ 買い物かご価格ルール – クーポン情報 ](./assets/coupon-info.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かご価格ルール – クーポン情報 &#x200B;](./assets/coupon-info.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -100,7 +100,7 @@ Commerce 2.4.7 以降では、買い物客は 1 つの買い物かごに複数�
 
 1. クーポンを一定期間有効にするには、次の操作を行います。
 
-   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） **開始日** および **終了日** を入力します。 日付を選択するには、各フィールドの横にある **カレンダー** （![ カレンダーアイコン ](../assets/icon-calendar.png)）アイコンをクリックします。 日付範囲を空のままにすると、ルールは期限切れになりません。
+   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） **開始日** および **終了日** を入力します。 日付を選択するには、各フィールドの横にある **カレンダー** （![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）アイコンをクリックします。 日付範囲を空のままにすると、ルールは期限切れになりません。
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）次のいずれかの操作をおこないます。
 
@@ -108,15 +108,15 @@ Commerce 2.4.7 以降では、買い物客は 1 つの買い物かごに複数�
 
       - ページの右上隅にある「**[!UICONTROL Schedule New Update]**」をクリックします。
 
-        ![ 更新のスケジュール設定 ](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
+        ![&#x200B; 更新のスケジュール設定 &#x200B;](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
 
       - **[!UICONTROL Update Name]** と **[!UICONTROL Description]** を入力します。
 
-      - **開始日** と **[!UICONTROL End Date]** をカレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）から選択します。 日付範囲を空のままにすると、ルールは期限切れになりません。
+      - **開始日** と **[!UICONTROL End Date]** をカレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）から選択します。 日付範囲を空のままにすると、ルールは期限切れになりません。
 
       - 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
-        ![ 買い物かご価格ルール – 予定された変更 ](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
+        ![&#x200B; 買い物かご価格ルール – 予定された変更 &#x200B;](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
 
      **オプション 2:** 既存の更新に割り当て：
 
@@ -124,27 +124,27 @@ Commerce 2.4.7 以降では、買い物客は 1 つの買い物かごに複数�
 
       - リストで更新を探し、「**[!UICONTROL Select]**」をクリックします。
 
-1. 必要に応じて [ 買い物かご価格ルール ](price-rules-cart.md) を入力します。
+1. 必要に応じて [&#x200B; 買い物かご価格ルール &#x200B;](price-rules-cart.md) を入力します。
 
 ### 方法 2：クーポンのバッチを生成する
 
 割引クーポンの生成は非同期操作であり、バックグラウンドで実行されるので、操作が完了するのを待たずに管理者で作業を続行できます。 タスクが完了すると、メッセージが表示されます。
 
-1. 指示に従って、[ 買い物かご価格ルール ](price-rules-cart.md) を作成します。
+1. 指示に従って、[&#x200B; 買い物かご価格ルール &#x200B;](price-rules-cart.md) を作成します。
 
 1. 「**[!UICONTROL Coupon Code]**」で、「**[!UICONTROL Use Auto Generation]**」チェックボックスをオンにします。
 
 1. 各顧客がクーポンを使用できる回数を制限するには、**[!UICONTROL Uses per Customer]** 数を入力します。
 
-   ![ 買い物かご価格ルール – 自動番号クーポンを生成 ](./assets/coupon-auto.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かご価格ルール – 自動番号クーポンを生成 &#x200B;](./assets/coupon-auto.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
    >複数の顧客が同時に同じクーポンを使用している場合、クーポン処理の遅延により、設定されている使用制限を超える可能性があります。
 
-1. 下にスクロールして、「![」セクションの ](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Manage Coupon Codes]** を展開し、次の操作を行います。
+1. 下にスクロールして、「![」セクションの &#x200B;](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Manage Coupon Codes]** を展開し、次の操作を行います。
 
-   ![ 買い物かご価格ルール – クーポンコードの管理 ](./assets/manage-coupon-codes.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かご価格ルール – クーポンコードの管理 &#x200B;](./assets/manage-coupon-codes.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Coupons Qty]**：生成するクーポンの数を入力します。
 
@@ -183,11 +183,11 @@ Commerce 2.4.7 以降では、買い物客は 1 つの買い物かごに複数�
 
 ## クーポンレポート
 
-_クーポン_ レポートは、特定の日付範囲内で使用される各クーポンからデータを集計します。 クーポンは買い物かごから適用されるので、レポートには [ 注文ステータス ](../stores-purchase/order-status.md) に関係なく、すべての引き換え済みクーポンのデータが含まれます。 その結果、レポートには見込み合計と実際の合計の両方が含まれる場合があります。 レポートは、特定のストア表示、期間、注文ステータス、買い物かご価格ルールに合わせてフィルタリングできます。
+_クーポン_ レポートは、特定の日付範囲内で使用される各クーポンからデータを集計します。 クーポンは買い物かごから適用されるので、レポートには [&#x200B; 注文ステータス &#x200B;](../stores-purchase/order-status.md) に関係なく、すべての引き換え済みクーポンのデータが含まれます。 その結果、レポートには見込み合計と実際の合計の両方が含まれる場合があります。 レポートは、特定のストア表示、期間、注文ステータス、買い物かご価格ルールに合わせてフィルタリングできます。
 
 次の例では、クーポンコード「H20」を 2 人の顧客が使用しています。 注文の 1 つが請求されていますが、もう 1 つはまだ _保留中_ です。 見込み売上小計、売上割引、および売上合計の列には、両方の注文の集計金額が表示されますが、小計、割引、および合計の列には、実際の請求済み注文のみが表示されます。 レポートの各行は、1 つのクーポンプロモーションを表します。
 
-![ クーポンレポート ](./assets/reports-coupons.png){width="600" zoomable="yes"}
+![&#x200B; クーポンレポート &#x200B;](./assets/reports-coupons.png){width="600" zoomable="yes"}
 
 ### レポートの実行
 
@@ -195,15 +195,15 @@ _クーポン_ レポートは、特定の日付範囲内で使用される各�
 
 1. 複数のストア表示がある場合は、左上隅の **[!DNL Store View]** を設定して、レポートの範囲を確定します。
 
-1. その日の売上 [ 統計 ](../getting-started/sales-reports.md#refresh-statistics) を更新するには、ワークスペースの上部にある _最終更新日_ メッセージをクリックします。
+1. その日の売上 [&#x200B; 統計 &#x200B;](../getting-started/sales-reports.md#refresh-statistics) を更新するには、ワークスペースの上部にある _最終更新日_ メッセージをクリックします。
 
    次に、「**[!UICONTROL Coupons]**」チェックボックスをクリックして選択し、「**[!UICONTROL Refresh]**」をクリックします。
 
-   ![ クーポンレポート – 統計の更新 ](./assets/reports-coupons-refresh-statistics.png){width="600" zoomable="yes"}
+   ![&#x200B; クーポンレポート – 統計の更新 &#x200B;](./assets/reports-coupons-refresh-statistics.png){width="600" zoomable="yes"}
 
 1. データをフィルターするには、次の手順を実行します。
 
-   ![ クーポンレポート – フィルター ](./assets/reports-coupons-filters.png){width="600" zoomable="yes"}
+   ![&#x200B; クーポンレポート – フィルター &#x200B;](./assets/reports-coupons-filters.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Date Used]** を次のいずれかに設定します。
 
@@ -220,7 +220,7 @@ _クーポン_ レポートは、特定の日付範囲内で使用される各�
 
    - レポートの日付範囲を定義するには、**開始日** および **終了日** を M/D/YY 形式で入力します。
 
-   - 特定の [ 注文ステータス ](../stores-purchase/order-status.md) のレポートを印刷するには、**[!UICONTROL Order Status]** を `Specified` に設定し、リストから注文ステータスを選択します。
+   - 特定の [&#x200B; 注文ステータス &#x200B;](../stores-purchase/order-status.md) のレポートを印刷するには、**[!UICONTROL Order Status]** を `Specified` に設定し、リストから注文ステータスを選択します。
 
    - レポートからデータのない行を削除するには、**[!UICONTROL Empty Rows]** を `No` に設定します。
 

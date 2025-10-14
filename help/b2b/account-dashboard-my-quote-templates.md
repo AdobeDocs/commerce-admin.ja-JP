@@ -14,7 +14,7 @@ ht-degree: 0%
 
 見積が有効になっている場合、顧客アカウント・ダッシュボードの「_[!UICONTROL My Quotes Template]_」セクションには、顧客アカウントに関連付けられているすべての見積テンプレートがリストされます。 権限に応じて、会社の代わりに購入を行う購入者のみが見積もりテンプレートをリクエストし、繰り返し注文の見積もり価格と条件を交渉できます。
 
-![ 自分の見積もりテンプレート ](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
+![&#x200B; 自分の見積もりテンプレート &#x200B;](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
 見積テンプレートのリストには、ステータス別にテンプレートが表示されます。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 次の例は、購入者によって更新され、レビューのために販売者に送り返された見積もりテンプレートを示しています。
 
-![ 見積テンプレートの購買担当ビュー ](./assets/account-dashboard-my-quote-template-detailed.png){width="700" zoomable="yes"}
+![&#x200B; 見積テンプレートの購買担当ビュー &#x200B;](./assets/account-dashboard-my-quote-template-detailed.png){width="700" zoomable="yes"}
 
 `Submitted` ステータスのテンプレートは、販売者がテンプレートをレビューおよび更新し、購入者に返すまでロックされます。
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 リンクされた見積もりには、承認され、チェックアウトの準備が整ったことを示す通知が含まれています。 また、ヘッダー情報に見積もりテンプレートへのリンクも表示されます。
 
-![ 引用テンプレートから生成されたリンク済み引用 ](./assets/quote-templates-linked-quote.png){width="700" zoomable="yes"}
+![&#x200B; 引用テンプレートから生成されたリンク済み引用 &#x200B;](./assets/quote-templates-linked-quote.png){width="700" zoomable="yes"}
 
 見積テンプレートが注文しきい値で設定されている場合、リンクされた見積が生成されるとカウントが増分されます。
 

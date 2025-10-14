@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ウィジェットは再利用可能なコンポーネントです。 ウィジェットを簡単に作成し、既存のウィジェットを変更して、ストア全体のコンテンツを自動的に更新できます。 使用されなくなったウィジェットを削除することもできます。
 
-![ ウィジェット ](./assets/widgets.png){width="700" zoomable="yes"}
+![&#x200B; ウィジェット &#x200B;](./assets/widgets.png){width="700" zoomable="yes"}
 
 ## ウィジェットを作成
 
-ウィジェットの作成プロセスは、[ ウィジェットタイプ ](widgets.md#widget-types) ごとに同じです。 手順の最初の部分に従ってから、必要な特定のタイプのウィジェットの最後の部分を完了できます。
+ウィジェットの作成プロセスは、[&#x200B; ウィジェットタイプ &#x200B;](widgets.md#widget-types) ごとに同じです。 手順の最初の部分に従ってから、必要な特定のタイプのウィジェットの最後の部分を完了できます。
 
 ### 手順 1：タイプの選択
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Design Theme]** が現在のテーマに設定されていることを確認します。
 
-     ![ ウィジェット設定 ](./assets/widget-settings.png){width="600" zoomable="yes"}
+     ![&#x200B; ウィジェット設定 &#x200B;](./assets/widget-settings.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Continue]**」をクリックします。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    - （オプション） **[!UICONTROL Sort Order]** の場合は、数字を入力して、この項目がページの同じ部分に他の項目と共に表示される順序を決定します。 （`0` = 1 番目、`1` = 2 番目、`3` = 3 番目など）。
 
-     ![ ストアフロントのプロパティ ](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
+     ![&#x200B; ストアフロントのプロパティ &#x200B;](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
 1. 「_[!UICONTROL Layout Updates]_」セクションで、「**[!UICONTROL Add Layout Update]**」をクリックします。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Container]** リストで、ページレイアウトを配置する領域を選択します。
 
-   ![ レイアウトの更新 ](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
+   ![&#x200B; レイアウトの更新 &#x200B;](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
 1. ウィジェットがリンクの場合は、**[!UICONTROL Template]** を次のいずれかに設定します。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Condition]** を、取り上げる製品のカテゴリに設定します。
 
-     プロセスは、[ 価格ルール ](../merchandising-promotions/price-rules-catalog.md) の条件を設定する場合と同じです。
+     プロセスは、[&#x200B; 価格ルール &#x200B;](../merchandising-promotions/price-rules-catalog.md) の条件を設定する場合と同じです。
 
 ### 手順 4：結果を保存して確認
 

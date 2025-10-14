@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # 事前定義済みの変数の使用
 
-[ 定義済み ](variables-predefined.md) 変数を使用すると、[ メール ](email-templates.md) および [ ニュースレター ](../merchandising-promotions/newsletters.md) テンプレート、その他のタイプのコンテンツを簡単にパーソナライズできます。 「変数を挿入 [ ボタンをクリックすると、許可されている ](variables-predefined.md) 事前定義済みの）変数のリストが表示されます。 次の画像に示すように、特定のメールテンプレートで使用可能な変数のリストは、テンプレートに関連付けられているデータによって決定されます。 よく使用されるメールテンプレートとそれに関連する変数のリストについては、[ 変数リファレンス ](variables-reference.md) を参照してください。
+[&#x200B; 定義済み &#x200B;](variables-predefined.md) 変数を使用すると、[&#x200B; メール &#x200B;](email-templates.md) および [&#x200B; ニュースレター &#x200B;](../merchandising-promotions/newsletters.md) テンプレート、その他のタイプのコンテンツを簡単にパーソナライズできます。 「変数を挿入 [&#x200B; ボタンをクリックすると、許可されている &#x200B;](variables-predefined.md) 事前定義済みの）変数のリストが表示されます。 次の画像に示すように、特定のメールテンプレートで使用可能な変数のリストは、テンプレートに関連付けられているデータによって決定されます。 よく使用されるメールテンプレートとそれに関連する変数のリストについては、[&#x200B; 変数リファレンス &#x200B;](variables-reference.md) を参照してください。
 
-![ メールテンプレートの事前定義済み変数 ](./assets/email-template-new-pickup-order-predefined-variables.png){width="700" zoomable="yes"}
+![&#x200B; メールテンプレートの事前定義済み変数 &#x200B;](./assets/email-template-new-pickup-order-predefined-variables.png){width="700" zoomable="yes"}
 
 ## メールテンプレートへの変数の追加
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
    - 既存のテンプレートに変数を追加するには、リストでテンプレートをクリックして、編集モードで開きます。
 
-   - 新しいテンプレートで変数を使用するには、「**[!UICONTROL Add New Template]**」をクリックしてデフォルトのテンプレートコードをカスタマイズします。 [ メッセージテンプレート ](email-template-custom.md#message-templates) を参照してください。
+   - 新しいテンプレートで変数を使用するには、「**[!UICONTROL Add New Template]**」をクリックしてデフォルトのテンプレートコードをカスタマイズします。 [&#x200B; メッセージテンプレート &#x200B;](email-template-custom.md#message-templates) を参照してください。
 
 1. [_[!UICONTROL Load default template]_] で、カスタマイズする&#x200B;**[!UICONTROL Template]**&#x200B;を選択します。
 
@@ -37,11 +37,11 @@ ht-degree: 0%
 
    - **[!UICONTROL Template Content]** – このテキストは、送信されたメールの完全なコンテンツで表示されます。
 
-   ![ メールテンプレートコンテンツ ](./assets/email-template-content.png){width="600" zoomable="yes"}
+   ![&#x200B; メールテンプレートコンテンツ &#x200B;](./assets/email-template-content.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Template Name]** を入力します。
 
-1. このメールテンプレートで使用できる [ 事前定義済み ](variables-predefined.md) 変数のリストについては、「**[!UICONTROL Insert Variable]**」をクリックします。
+1. このメールテンプレートで使用できる [&#x200B; 事前定義済み &#x200B;](variables-predefined.md) 変数のリストについては、「**[!UICONTROL Insert Variable]**」をクリックします。
 
    テンプレートに挿入する変数を決定します。 次に、右上隅にある「_閉じる_ （X）」をクリックします。 （後でこれに戻ります）。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    新しいタブでプレビューが開いたら、他のコンテンツを基準として変数を配置する場所を指定します。 その後、元のタブに戻って続行します。
 
-   ![ テンプレートのプレビュー ](./assets/email-template-new-pickup-order-preview.png){width="600" zoomable="yes"}
+   ![&#x200B; テンプレートのプレビュー &#x200B;](./assets/email-template-new-pickup-order-preview.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Template Content]** ボックスで、変数を表示する位置に挿入ポイントを置き、[**[!UICONTROL Insert Variable...]**] をクリックします。
 

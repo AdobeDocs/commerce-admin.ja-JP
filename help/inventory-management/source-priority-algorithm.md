@@ -24,7 +24,7 @@ ht-degree: 0%
 
 - リスト内に無効なソースが見つかった場合はスキップします
 
-設定するには、注文をフルフィルメントするために、それらのソースを上から下に優先して並べ替えます。 Source Selection Algorithm （SSA）は、出荷および在庫控除を決定する際に、この順序を使用してアルゴリズム Priority を提供します。 [ 在庫のソースの優先順位付け ](stocks-prioritize-sources.md) を参照してください。
+設定するには、注文をフルフィルメントするために、それらのソースを上から下に優先して並べ替えます。 Source Selection Algorithm （SSA）は、出荷および在庫控除を決定する際に、この順序を使用してアルゴリズム Priority を提供します。 [&#x200B; 在庫のソースの優先順位付け &#x200B;](stocks-prioritize-sources.md) を参照してください。
 
 ## ソースの優先度の設定
 
@@ -40,9 +40,9 @@ ht-degree: 0%
 >
 >配送に [Distance Priority](distance-priority-algorithm.md) アルゴリズムを使用する際に、配送に対して選択した [Computation mode](distance-priority-algorithm.md) （運転、自転車、歩行）でルートとデータが返されない場合、SSA はデフォルトでSource Priority を使用します。
 
-![ 優先順位付け後のSourceの順序 ](assets/inventory-stock-priority-after.png)
+![&#x200B; 優先順位付け後のSourceの順序 &#x200B;](assets/inventory-stock-priority-after.png)
 
 | アイコン | 説明 |
 |----------------------------------------------|----------------------------------------------------------------|
-| ![ アイコンをドラッグ&amp;ドロップして優先度を設定 ](assets/icon-drag-and-drop-action.png) | を使用して、優先度に従ってソースをドラッグ&amp;ドロップします。 |
-| ![ ソースの割り当てを解除する場合はアイコンをクリック ](assets/icon-delete-action.png) | 在庫へのソースの割り当てを解除する。 |
+| ![&#x200B; アイコンをドラッグ&amp;ドロップして優先度を設定 &#x200B;](assets/icon-drag-and-drop-action.png) | を使用して、優先度に従ってソースをドラッグ&amp;ドロップします。 |
+| ![&#x200B; ソースの割り当てを解除する場合はアイコンをクリック &#x200B;](assets/icon-delete-action.png) | 在庫へのソースの割り当てを解除する。 |

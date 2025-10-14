@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # [!UICONTROL General Options]
 
-![ 一般オプション ](/help/configuration-reference/customers/assets/persistent-shopping-cart-general.png)<!-- zoom -->
+![&#x200B; 一般オプション &#x200B;](/help/configuration-reference/customers/assets/persistent-shopping-cart-general.png)<!-- zoom -->
 
 <!-- [General Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-persistent#configure-a-persistent-cart) -->
 
-| フィールド | [ 範囲 ](/help/getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](/help/getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |------------------------------------------------------------------------|--- |
 | [!UICONTROL Enable Persistence] | Web サイト | 永続性機能を有効にするかどうかを決定します。 |
 | [!UICONTROL Persistence Lifetime (seconds)] | Web サイト | 永続 cookie の有効期間を秒単位で定義します。 許可される最大値は 34560000 秒（400 日）です。 これは、推奨される Cookie の最大有効期間の制限です。 |

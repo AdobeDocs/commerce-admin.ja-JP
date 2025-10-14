@@ -14,7 +14,7 @@ ht-degree: 0%
 
 _クイックオーダー_ 機能を使用すると、注文する製品の製品名または SKU がわかっているお客様は、注文プロセスを数回クリックするだけで済みます。 複数の SKU を持つ注文は、手動で入力することも、クイックオーダーフォームにインポートすることもできます。 クイックオーダーは、アカウントにログインしている顧客と、ゲストが使用できます。 有効化すると、ページ上部の顧客名の横に「_クイックオーダー_」リンクが表示されます。
 
-![ クイック注文リンク ](./assets/quick-order-link.png){width="700" zoomable="yes"}
+![&#x200B; クイック注文リンク &#x200B;](./assets/quick-order-link.png){width="700" zoomable="yes"}
 
 ## ストアのクイックオーダーを有効にする
 
@@ -24,11 +24,11 @@ _クイックオーダー_ 機能を使用すると、注文する製品の製�
 
 1. **[!UICONTROL Enable Quick Order]** を `Yes` に設定します。
 
-   ![ クイック注文を有効にする ](./assets/quick-orders-config.png){width="600" zoomable="yes"}
+   ![&#x200B; クイック注文を有効にする &#x200B;](./assets/quick-orders-config.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save Config]**」をクリックします。
 
-1. プロンプトが表示されたら、「[ キャッシュ管理 ](../systems/cache-management.md)」をクリックし、無効なキャッシュを更新します。
+1. プロンプトが表示されたら、「[&#x200B; キャッシュ管理 &#x200B;](../systems/cache-management.md)」をクリックし、無効なキャッシュを更新します。
 
 ## クイックオーダーのワークフロー
 
@@ -48,7 +48,7 @@ _クイックオーダー_ 機能を使用すると、注文する製品の製�
 
      SKU が入力ラインに表示され、製品の詳細が下に表示されます。
 
-     ![ クイックオーダー詳細 ](./assets/quick-order-product-detail.png){width="600" zoomable="yes"}
+     ![&#x200B; クイックオーダー詳細 &#x200B;](./assets/quick-order-product-detail.png){width="600" zoomable="yes"}
 
    **製品名でクイックオーダー** を行うには、顧客は次の操作を実行します。
 
@@ -60,7 +60,7 @@ _クイックオーダー_ 機能を使用すると、注文する製品の製�
 
    - 一致する可能性のある製品のリストが表示されたら、顧客は注文する製品をクリックします。
 
-     ![ クリックして製品名を選択 ](./assets/quick-order-product-name.png){width="700" zoomable="yes"}
+     ![&#x200B; クリックして製品名を選択 &#x200B;](./assets/quick-order-product-name.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL Qty]** を入力します。
 
@@ -76,25 +76,25 @@ _クイックオーダー_ 機能を使用すると、注文する製品の製�
 
    - 同じ行にあるすべての SKU をコンマで区切り、スペースは入れずに入力します。
 
-     ![ 複数の SKU を入力 ](./assets/quick-order-skus.png){width="600" zoomable="yes"}
+     ![&#x200B; 複数の SKU を入力 &#x200B;](./assets/quick-order-skus.png){width="600" zoomable="yes"}
 
 1. 製品をリストに追加するには、「**[!UICONTROL Add to List]**」をクリックします。
 
 1. リスト内の各品目の注文 **[!UICONTROL Qty]** を入力します。
 
-   ![ クイック注文リスト ](./assets/quick-order-skus-detail.png){width="600" zoomable="yes"}
+   ![&#x200B; クイック注文リスト &#x200B;](./assets/quick-order-skus-detail.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
    >製品に必要なオプションがある場合は、オプションを選択するように求められます。 買い物かごに到着して製品オプションを追加するまで待つことができます。
 
-   ![ オプションの選択 ](./assets/quick-order-skus-product-options.png){width="600" zoomable="yes"}
+   ![&#x200B; オプションの選択 &#x200B;](./assets/quick-order-skus-product-options.png){width="600" zoomable="yes"}
 
 ### 方法 3：製品のリストをアップロードする
 
 1. 「_[!UICONTROL Add from File]_」セクションで、「**[!UICONTROL Download Sample]**」をクリックして注文テンプレートをダウンロードします。
 
-   ![ ファイルから追加 ](./assets/quick-order-skus-add-from-file.png){width="600" zoomable="yes"}
+   ![&#x200B; ファイルから追加 &#x200B;](./assets/quick-order-skus-add-from-file.png){width="600" zoomable="yes"}
 
 1. ダウンロードしたファイルを開きます。
 
@@ -102,7 +102,7 @@ _クイックオーダー_ 機能を使用すると、注文する製品の製�
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
-   ![ アップロードする SKU](./assets/quick-order-skus-add-from-file-sample.png){width="400" zoomable="yes"}
+   ![&#x200B; アップロードする SKU](./assets/quick-order-skus-add-from-file-sample.png){width="400" zoomable="yes"}
 
 1. ファイルをアップロードするには、**[!UICONTROL Choose]** をクリックし、システムからファイルを選択します。
 
@@ -112,4 +112,4 @@ _クイックオーダー_ 機能を使用すると、注文する製品の製�
 
 お客様は、クイック注文を作成した後、通常どおりチェックアウトを進めることができます。
 
-![ クイックオーダー ](./assets/quick-order-add-to-cart.png){width="700" zoomable="yes"}
+![&#x200B; クイックオーダー &#x200B;](./assets/quick-order-add-to-cart.png){width="700" zoomable="yes"}

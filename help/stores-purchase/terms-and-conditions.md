@@ -14,7 +14,7 @@ ht-degree: 0%
 
 手動 _利用規約_ 機能が有効になっている場合、お客様は購入が確定する前に販売条件に同意する必要があります。 販売条件には、通常、B2C または B2B サイトに関して法律で要求される可能性のある開示情報が含まれており、購入者および販売者の権利の概要が説明されています。 利用規約メッセージは、支払い情報の後、「注文する _ボタンの直前に表示さ_ ます。
 
-![ チェックアウト時の利用条件 ](./assets/storefront-checkout-step2-terms-conditions.png){width="700" zoomable="yes"}
+![&#x200B; チェックアウト時の利用条件 &#x200B;](./assets/storefront-checkout-step2-terms-conditions.png){width="700" zoomable="yes"}
 
 ## 手順 1：チェックアウトに関する利用条件を有効にする
 
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Checkout Options]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Checkout Options]**」セクションを展開します。
 
-   ![ チェックアウトオプション ](../configuration-reference/sales/assets/checkout-checkout-options.png){width="600" zoomable="yes"}
+   ![&#x200B; チェックアウトオプション &#x200B;](../configuration-reference/sales/assets/checkout-checkout-options.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Enable Onepage Checkout]** が `Yes` に設定されていることを確認します。
 
@@ -36,13 +36,13 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Terms and Conditions]**&#x200B;に移動します。
 
-   ![ 利用条件グリッド ](./assets/terms-conditions.png){width="600" zoomable="yes"}
+   ![&#x200B; 利用条件グリッド &#x200B;](./assets/terms-conditions.png){width="600" zoomable="yes"}
 
 1. 右上隅の「**[!UICONTROL Add New Condition]**」をクリックします。
 
 1. 内部参照の **[!UICONTROL Condition Name]** を入力します。
 
-   ![ 新規条件 ](./assets/terms-conditions-new.png){width="600" zoomable="yes"}
+   ![&#x200B; 新規条件 &#x200B;](./assets/terms-conditions-new.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Status]** を `Enabled` に設定します。
 

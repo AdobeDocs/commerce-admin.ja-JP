@@ -17,7 +17,7 @@ AR （Augmented Reality）とは、デバイスのカメラからライブビュ
 
 このガイドでは、Adobe Commerceでの [!DNL AR Viewer] ーザーのオンボーディングエクスペリエンスの概要と [!DNL AR Viewer] のメリットのほか、このジャーニーに従うためのベストプラクティスについて説明します。
 
-Pixar が開発した [Universal Scene Description （USD） ](https://openusd.org/release/index.html){target=_blank} は、非常に共同作業の多いワークフローを促進しながら、多くの異なるアセット、ソース、アニメーションで構成される 3D シーンを確実かつスケーラブルに交換できる最初のオープンソースソフトウェアです。 この USD は `.USDZ` ファイル内で使用されます。 この `.USDZ` ファイルは、ユーザーのデバイスに AR および 3D コンテンツを配信します。
+Pixar が開発した [Universal Scene Description （USD） &#x200B;](https://openusd.org/release/index.html){target=_blank} は、非常に共同作業の多いワークフローを促進しながら、多くの異なるアセット、ソース、アニメーションで構成される 3D シーンを確実かつスケーラブルに交換できる最初のオープンソースソフトウェアです。 この USD は `.USDZ` ファイル内で使用されます。 この `.USDZ` ファイルは、ユーザーのデバイスに AR および 3D コンテンツを配信します。
 
 >[!NOTE]
 >
@@ -25,9 +25,9 @@ Pixar が開発した [Universal Scene Description （USD） ](https://openusd.o
 
 ## [!DNL AR Viewer] 要件
 
-[!DNL AR Viewer] は、[!DNL Magento Open Source] とAdobe Commerceの両方と互換性があります。 サポートされるバージョンの詳細については、[ ライフサイクル ポリシー ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html?lang=ja){target=_blank} を参照してください。
+[!DNL AR Viewer] は、[!DNL Magento Open Source] とAdobe Commerceの両方と互換性があります。 サポートされるバージョンの詳細については、[&#x200B; ライフサイクル ポリシー &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html?lang=ja){target=_blank} を参照してください。
 
-詳しくは、[ 拡張機能のインスト  [!DNL AR Viewer]  ル ](../catalog/ar-viewer-setup.md) を参照してください。
+詳しくは、[&#x200B; 拡張機能のインスト  [!DNL AR Viewer]  ル &#x200B;](../catalog/ar-viewer-setup.md) を参照してください。
 
 [!DNL AR Viewer] を使用するには、お使いのインスタンスで以下が可能である必要があります。
 

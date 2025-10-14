@@ -18,11 +18,11 @@ _商品の X 個を購入し、Y 個を無料で取得_
 
 ## 手順 1. 買い物かご価格ルールの作成
 
-買い物かご価格ルールの手順の [ 手順 1](price-rules-cart.md) を完了して、ルール情報を完了します。
+買い物かご価格ルールの手順の [&#x200B; 手順 1](price-rules-cart.md) を完了して、ルール情報を完了します。
 
 ## 手順 2. 条件の定義
 
-買い物かご手順の [ 手順 2](price-rules-cart.md) を完了して、価格ルールの条件を定義します。 これは、ルールに追加できる 2 つの条件の最初の条件であり、ルールがいつトリガーされるかを決定します。 これは、以下の組み合わせに基づくことができます。
+買い物かご手順の [&#x200B; 手順 2](price-rules-cart.md) を完了して、価格ルールの条件を定義します。 これは、ルールに追加できる 2 つの条件の最初の条件であり、ルールがいつトリガーされるかを決定します。 これは、以下の組み合わせに基づくことができます。
 
 - 製品属性
 - 製品
@@ -31,29 +31,29 @@ _商品の X 個を購入し、Y 個を無料で取得_
 
 空白にした場合、ルールはすべての買い物かごに対してトリガーされます。
 
-![ 買い物かご価格ルール – 条件 ](./assets/buy-x-get-y-condition-default.png){width="600" zoomable="yes"}
+![&#x200B; 買い物かご価格ルール – 条件 &#x200B;](./assets/buy-x-get-y-condition-default.png){width="600" zoomable="yes"}
 
 ## 手順 3. アクションの定義
 
-1. **[!UICONTROL Actions]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Actions]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
    - **[!UICONTROL Apply]** を `Buy X get Y free (_[!UICONTROL _[!UICONTROL Discount Amount]_]_ is Y)` に設定します。
 
    - **[!UICONTROL Discount Amount]** を `1` に設定します。 これは、顧客が無料で受け取る数量です。
 
-   - 条件が満たされたときに適用できる割引の数を制限するには、「**[!UICONTROL Maximum Qty Discount is Applied To]**」フィールドに数を入力します。 これは、次の [ 式 ](#maximum-quantity-discount) を使用して計算されます。
+   - 条件が満たされたときに適用できる割引の数を制限するには、「**[!UICONTROL Maximum Qty Discount is Applied To]**」フィールドに数を入力します。 これは、次の [&#x200B; 式 &#x200B;](#maximum-quantity-discount) を使用して計算されます。
 
    - **[!UICONTROL Discount Qty Step (Buy X)]**：割引を受けるために顧客が購入する必要がある数量を入力します。 この例では、顧客は 3 つを購入する必要があります。
 
    - 他の割引が購入に適用されないようにするには、**[!UICONTROL Discard subsequent rules]** を `Yes` に設定します。
 
-   ![ 買い物かご価格ルール - 3 つ購入すると 1 つ無料 ](./assets/buy-3-get-1-actions.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かご価格ルール - 3 つ購入すると 1 つ無料 &#x200B;](./assets/buy-3-get-1-actions.png){width="600" zoomable="yes"}
 
 1. ルールを買い物かごの特定の品目にのみ適用するには、条件を完了して、プロモーションに必要な買い物かごの品目や製品属性を記述します。
 
    次の例では、SKU を使用して、設定可能な製品の関連するすべてのバリエーションにルールを適用します。
 
-   ![ 買い物かご価格ルール – 買い物かご品目の条件 ](./assets/buy-3-get-1-actions-condition.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かご価格ルール – 買い物かご品目の条件 &#x200B;](./assets/buy-3-get-1-actions-condition.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Free Shipping]** を含めるには、「`For matching items only`」を選択します。
 
@@ -61,7 +61,7 @@ _商品の X 個を購入し、Y 個を無料で取得_
 
 ## 手順 4. ラベルを完成させる
 
-買い物かご価格ルールの手順の [ 手順 4](price-rules-cart.md) を完了して、チェックアウト時に表示されるラベルを入力します。
+買い物かご価格ルールの手順の [&#x200B; 手順 4](price-rules-cart.md) を完了して、チェックアウト時に表示されるラベルを入力します。
 
 ## 手順 5：ルールを保存してテストする
 

@@ -34,7 +34,7 @@ ht-degree: 0%
 
       - **[!UICONTROL Carrier]** を `Custom Value` に設定し、カスタム通信事業者の **[!UICONTROL Title]** を入力して、トラッキング **[!UICONTROL Number]** を入力します。
 
-      - [ トラッキング情報を表示 ](#track-the-shipment).
+      - [&#x200B; トラッキング情報を表示 &#x200B;](#track-the-shipment).
 
 1. 一部出荷を行うには、「出荷品目」セクションまでスクロールし、各品目の **[!UICONTROL Qty to Ship]** を入力します。
 

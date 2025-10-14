@@ -15,21 +15,21 @@ ht-degree: 0%
 
 会社アカウントを設定して、ビジネスの構造を反映させることができます。 最初は、会社の構造には会社の管理者のみが含まれていますが、ユーザーのチームを含めるように拡張できます。 ユーザーは、チームに関連付けたり、会社内の部門や下位部門の階層内で整理したりできます。
 
-![ 部門を有する企業体質 ](./assets/company-structure-diagram.svg){width="500"}
+![&#x200B; 部門を有する企業体質 &#x200B;](./assets/company-structure-diagram.svg){width="500"}
 
 ストアフロント上の会社管理者のアカウントダッシュボードでは、会社構造はツリーで表され、最初は会社管理者のみで構成されています。
 
-![ 会社管理者を置く会社組織 ](./assets/company-structure-tree-admin.png){width="700" zoomable="yes"}
+![&#x200B; 会社管理者を置く会社組織 &#x200B;](./assets/company-structure-tree-admin.png){width="700" zoomable="yes"}
 
 マーチャントの場合、会社全体の構造が管理画面の _会社_ グリッドと _顧客_ グリッドに反映されます。 会社グリッドには、ステータスに関係なくすべての会社が一覧表示されます。
 
-![ 会社グリッド ](./assets/companies-grid.png){width="700" zoomable="yes"}
+![&#x200B; 会社グリッド &#x200B;](./assets/companies-grid.png){width="700" zoomable="yes"}
 
 次の例は、各会社の最初の会社管理者アカウントを含む [!UICONTROL Customers] グリッドを示しています。
 
-![ 会社管理者アカウントを持つ顧客グリッド ](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![&#x200B; 会社管理者アカウントを持つ顧客グリッド &#x200B;](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-アカウントを作成した後、会社の管理者は、会社の構造を [ チーム ](account-company-structure.md) で定義し、それぞれに [ 会社ユーザー ](account-company-users.md) を設定して [ 役割と権限 ](account-company-roles-permissions.md) を設定できます。
+アカウントを作成した後、会社の管理者は、会社の構造を [&#x200B; チーム &#x200B;](account-company-structure.md) で定義し、それぞれに [&#x200B; 会社ユーザー &#x200B;](account-company-users.md) を設定して [&#x200B; 役割と権限 &#x200B;](account-company-roles-permissions.md) を設定できます。
 
 >[!NOTE]
 >
@@ -39,12 +39,12 @@ ht-degree: 0%
 
 | アイコン | 説明 |
 | ---- | ----------------- |
-| ![ 会社管理者アイコン ](./assets/company-icon-admin.png) | 会社構造内の会社管理者を表します。 |
-| ![ チームアイコン ](./assets/company-icon-team.png) | 会社構造内のチームを表します。 |
-| ![ ユーザーアイコン ](./assets/company-icon-user.png) | 会社構造内のユーザーを表します。 |
-| ![ 移動アイコン ](./assets/company-icon-move.png) | チームを会社構造内の別の位置に移動します。 |
-| ![ 拡張アイコン ](./assets/company-icon-expand.png) | 会社構造でチームを展開します。 |
-| ![ 折りたたみアイコン ](./assets/company-icon-collapse.png) | 会社構造内のチームを折りたたみます。 |
+| ![&#x200B; 会社管理者アイコン &#x200B;](./assets/company-icon-admin.png) | 会社構造内の会社管理者を表します。 |
+| ![&#x200B; チームアイコン &#x200B;](./assets/company-icon-team.png) | 会社構造内のチームを表します。 |
+| ![&#x200B; ユーザーアイコン &#x200B;](./assets/company-icon-user.png) | 会社構造内のユーザーを表します。 |
+| ![&#x200B; 移動アイコン &#x200B;](./assets/company-icon-move.png) | チームを会社構造内の別の位置に移動します。 |
+| ![&#x200B; 拡張アイコン &#x200B;](./assets/company-icon-expand.png) | 会社構造でチームを展開します。 |
+| ![&#x200B; 折りたたみアイコン &#x200B;](./assets/company-icon-collapse.png) | 会社構造内のチームを折りたたみます。 |
 
 {style="table-layout:auto"}
 
@@ -52,9 +52,9 @@ ht-degree: 0%
 
 会社のアカウントの構造は、シンプルでフラットな組織か、会社の下位区分や部署ごとに異なるチームを持つ複雑な組織かに関わらず、購買組織を反映する必要があります。
 
-会社が独自のアカウントを管理できるようにストアが [ 設定 ](enable-basic-features.md) されている場合、アカウントの承認後、会社の管理者が最初に完了するタスクの 1 つは、会社構造の設定です。 会社アカウントでは、会社の構造はツリーとして表され、会社の管理者が最上位に表示されます。
+会社が独自のアカウントを管理できるようにストアが [&#x200B; 設定 &#x200B;](enable-basic-features.md) されている場合、アカウントの承認後、会社の管理者が最初に完了するタスクの 1 つは、会社構造の設定です。 会社アカウントでは、会社の構造はツリーとして表され、会社の管理者が最上位に表示されます。
 
-![ チームを持つ会社体制 ](./assets/company-structure-teams-diagram.svg){width="450"}
+![&#x200B; チームを持つ会社体制 &#x200B;](./assets/company-structure-teams-diagram.svg){width="450"}
 
 1. 会社の管理者が自分のアカウントにログインします。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
      チームのタイトルには、チーム、オフィス、会社内の部署など、会社の構造を表すものを使用できます
 
-     ![ チームを追加 ](./assets/company-structure-add-team.png){width="700" zoomable="yes"}
+     ![&#x200B; チームを追加 &#x200B;](./assets/company-structure-add-team.png){width="700" zoomable="yes"}
 
    - 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
    - 親チームを選択し、[**[!UICONTROL Add Team]**] をクリックします。
 
-     ![ 部門を有する企業体質 ](./assets/company-structure-northwest-division.png){width="600" zoomable="yes"}
+     ![&#x200B; 部門を有する企業体質 &#x200B;](./assets/company-structure-northwest-division.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Team Title]** および **[!UICONTROL Description]** を入力します。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 1. これらの手順を繰り返して、必要な数のチーム、または必要な数の分割と分割を作成します。
 
-   ![ 組織と事業部を有する企業体質 ](./assets/company-structure-divisions.png){width="600" zoomable="yes"}
+   ![&#x200B; 組織と事業部を有する企業体質 &#x200B;](./assets/company-structure-divisions.png){width="600" zoomable="yes"}
 
 ## チームの移動
 
@@ -112,25 +112,25 @@ ht-degree: 0%
 
 - **[!UICONTROL Collapse All]** または **[!UICONTROL Expand All]** をクリックします。
 
-- チームを折りたたむには ![ 展開されたアイコン ](../assets/icon-display-collapse.png) をクリックし、チームを展開するには ![ 折りたたまれたアイコン ](../assets/icon-display-expand.png) をクリックします。
+- チームを折りたたむには ![&#x200B; 展開されたアイコン &#x200B;](../assets/icon-display-collapse.png) をクリックし、チームを展開するには ![&#x200B; 折りたたまれたアイコン &#x200B;](../assets/icon-display-expand.png) をクリックします。
 
 ## チームへのユーザーの割り当て
 
-チームとユーザーが最初に [ 会社構造 ](account-company-structure.md) に追加されると、それらは会社管理者の下の同じレベルに配置されます。
+チームとユーザーが最初に [&#x200B; 会社構造 &#x200B;](account-company-structure.md) に追加されると、それらは会社管理者の下の同じレベルに配置されます。
 
-![ ユーザーとチームを使用した会社構造 ](./assets/company-users-added.png){width="700" zoomable="yes"}
+![&#x200B; ユーザーとチームを使用した会社構造 &#x200B;](./assets/company-users-added.png){width="700" zoomable="yes"}
 
 | 制御 | 説明 |
 |--- |--- |
 | [!UICONTROL Collapse All / Expand All] | ビジネス構造ツリーを折りたたむか展開します |
 | [!UICONTROL Add User] | 現在のチームの下にユーザーを作成します |
 | [!UICONTROL Add Team] | チームを作成します |
-| [!UICONTROL Edit Selected / Remove from Structure] | ユーザー情報を編集するか、ビジネス ツリーからユーザーを削除します。 詳しくは、[ 会社ユーザーアカウントの管理 ](account-company-users.md) を参照してください。 |
+| [!UICONTROL Edit Selected / Remove from Structure] | ユーザー情報を編集するか、ビジネス ツリーからユーザーを削除します。 詳しくは、[&#x200B; 会社ユーザーアカウントの管理 &#x200B;](account-company-users.md) を参照してください。 |
 
 {style="table-layout:auto"}
 
 1. 左側のパネルでは、会社の管理者が **[!UICONTROL Company Structure]** を選択します。
 
-1. 既存のチームにユーザーを割り当てるには、ユーザーを適切なチームの下にドラッグ（![ 移動アイコン ](../assets/icon-move.png)）します。
+1. 既存のチームにユーザーを割り当てるには、ユーザーを適切なチームの下にドラッグ（![&#x200B; 移動アイコン &#x200B;](../assets/icon-move.png)）します。
 
-   ![ チームの割り当て ](./assets/company-structure-teams-users-assigned.png){width="700" zoomable="yes"}
+   ![&#x200B; チームの割り当て &#x200B;](./assets/company-structure-teams-users-assigned.png){width="700" zoomable="yes"}

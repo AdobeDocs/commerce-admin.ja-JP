@@ -19,13 +19,13 @@ ht-degree: 0%
 
 ## ソース別の製品オプション
 
-製品の [ 追加ソース ](sources-add.md) ごとに数量と追加設定を指定します。
+製品の [&#x200B; 追加ソース &#x200B;](sources-add.md) ごとに数量と追加設定を指定します。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
 1. 製品を編集モードで開きます。
 
-1. **[!UICONTROL Sources]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、各ソースの製品設定を指定します。
+1. **[!UICONTROL Sources]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、各ソースの製品設定を指定します。
 
    - **[!UICONTROL Qty]** （数量）金額を入力します。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
      `Select to use Default` - [!DNL Commerce] は、設定について製品の詳細在庫オプションを確認します。
      `Clear to Modify` - 「Advanced Inventory and Store」構成設定を上書きして、「Notify Quantity」に値を入力します。
 
-   ![ 製品の「ソース」セクション ](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
+   ![&#x200B; 製品の「ソース」セクション &#x200B;](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Done]**」をクリックし、「**[!UICONTROL Save]**」をクリックします。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 | フィールド | 範囲 | 説明 |
 |--|--|--|
-| [!UICONTROL Source Code] | グローバル | [ ソース ](sources-manage.md) の一意のコード。 |
+| [!UICONTROL Source Code] | グローバル | [&#x200B; ソース &#x200B;](sources-manage.md) の一意のコード。 |
 | [!UICONTROL Name] | グローバル | ソースの一意の名前。 |
 | [!UICONTROL Status] | グローバル | 製品がカタログで有効または無効になっている。 |
 | [!UICONTROL Source Item Status] | グローバル | 商品の現在の可用性を決定します。 オプション：<br />`In Stock` – 製品を購入できるようにします。<br />`Out of Stock` - バックオーダーが有効化されていない限り、は商品を購入できないようにし、カタログからリストを削除します。 |
@@ -60,15 +60,15 @@ ht-degree: 0%
 
 1. 製品を編集モードで開きます。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Sources]**」セクションを展開し、「**[!UICONTROL Advanced Inventory]**」をクリックします。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL Sources]**」セクションを展開し、「**[!UICONTROL Advanced Inventory]**」をクリックします。
 
-1. カタログの [ 在庫管理 ](enable.md) を有効にするには、「**[!UICONTROL Manage Stock]**」を「`Yes`」に設定します。
+1. カタログの [&#x200B; 在庫管理 &#x200B;](enable.md) を有効にするには、「**[!UICONTROL Manage Stock]**」を「`Yes`」に設定します。
 
    >[!NOTE]
    >
    >子製品の設定 [!UICONTROL Manage Stock]、設定可能な製品を上書きします。
 
-   ![ 製品の詳細在庫 ](assets/inventory-backorders-product-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品の詳細在庫 &#x200B;](assets/inventory-backorders-product-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Out-of-Stock Threshold]** の金額を入力してください：
 
@@ -94,7 +94,7 @@ ht-degree: 0%
    | `Allow Qty Below 0` | 数量がゼロを下回った場合にバックオーダーを受け入れること。 |
    | `Allow Qty Below 0 and Notify Customer` | 数量がゼロを下回った場合にバックオーダーを受け入れ、顧客に対してオーダーを発注できることを通知します。 |
 
-   詳しくは、「バックオーダーの設定 [ を参照してください ](backorders.md)。
+   詳しくは、「バックオーダーの設定 [&#x200B; を参照してください &#x200B;](backorders.md)。
 
 1. 製品の数量増分を有効化するには、**[!UICONTROL Enable Qty Increments]** を `Yes` に設定し、**[!UICONTROL Qty Increments]** のフィールドに要件を満たすために購入する必要がある品目の数を入力します。
 

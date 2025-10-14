@@ -15,23 +15,23 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce as a Cloud Serviceについては、Commerce ストアフロントドキュメントの [SEO ガイドライン ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=ja) を参照してください
+>Adobe Commerce as a Cloud Serviceについては、Commerce ストアフロントドキュメントの [SEO ガイドライン &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=ja) を参照してください
 
 URL 書き換えツールを使用すると、商品、カテゴリまたはCMSページに関連付けられている URL を変更できます。 書き換えが有効になると、前の URL を指すリンクは新しいアドレスにリダイレクトされます。
 
 >[!NOTE]
 >
->複数またはすべての製品の URL リライトを同時に更新するには、[ 複数の URL リライト ](url-rewrite-product.md#multiple-url-rewrites) を参照してください。
+>複数またはすべての製品の URL リライトを同時に更新するには、[&#x200B; 複数の URL リライト &#x200B;](url-rewrite-product.md#multiple-url-rewrites) を参照してください。
 
 _rewrite_ および _redirect_ という用語は同じ意味で使用されることが多いですが、意味するプロセスが多少異なります。 URL の書き換えにより、ブラウザーでの URL の表示方法が変更されます。 URL リダイレクトは、サーバーに保存された URL を更新します。 URL リダイレクトは、一時的または永続的に設定できます。 製品、カテゴリまたはページの URL キーを簡単に変更し、既存のリンクを保持できるように、ストアでは URL の書き換えとリダイレクトを使用しています。
 
-デフォルトでは [ 自動 URL リダイレクト ](url-redirect-product-automatic.md) がストアに対して有効になっており、各製品の「URL キー」フィールドで **古い URL の永続的なリダイレクトを作成** チェックボックスが選択されています。
+デフォルトでは [&#x200B; 自動 URL リダイレクト &#x200B;](url-redirect-product-automatic.md) がストアに対して有効になっており、各製品の「URL キー」フィールドで **古い URL の永続的なリダイレクトを作成** チェックボックスが選択されています。
 
 {{url-rewrite-skip}}
 
 {{url-rewrite-params}}
 
-![ 検索エンジンの最適化 – 永続的な URL リダイレクトの作成 ](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
+![&#x200B; 検索エンジンの最適化 – 永続的な URL リダイレクトの作成 &#x200B;](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 
 ## 正規 URL
 
@@ -49,7 +49,7 @@ Web サイトの設定方法によっては、インデックスにサイトの�
     https://example.com
     https://www.example.com/index.html
 
-正規ページを指定するには、[Google Search Central ドキュメント ](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls) を参照してください。
+正規ページを指定するには、[Google Search Central ドキュメント &#x200B;](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls) を参照してください。
 
 ## URL の書き換えの設定
 
@@ -67,9 +67,9 @@ Web サーバーの書き換え後の URL
 
 1. **[!UICONTROL General]** が展開されている左パネルで、「**[!UICONTROL Web]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Search Engine Optimization]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Search Engine Optimization]**」セクションを展開します。
 
-   ![ 一般設定 – Web 検索エンジンの最適化 ](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![&#x200B; 一般設定 – Web 検索エンジンの最適化 &#x200B;](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Use Web Server Rewrites]** を好みに合わせて設定します。
 
@@ -98,7 +98,7 @@ URL の書き換えを使用すると、値の高いキーワードを追加し�
     http://www.example.com/all-on-sale.html
     http://www.example.com/save-now/spring-sale
 
-![URL 書き換えグリッド ](./assets/url-rewrites.png){width="700" zoomable="yes"}
+![URL 書き換えグリッド &#x200B;](./assets/url-rewrites.png){width="700" zoomable="yes"}
 
 Commerceには、次の URL 書き換えタイプがあります。
 

@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # 顧客リスト
 
-管理者では、[!UICONTROL Customers] グリッドに、ストアにアカウントを登録したすべての顧客と、管理者によって追加されたすべての顧客が一覧表示されます。 標準の [ グリッドコントロール ](../getting-started/admin-grid-controls.md) を使用して、リストをフィルタリングし、列のレイアウトを調整します。 詳しくは、[ 顧客アカウントの管理 ](../customers/manage-account.md) を参照してください。
+管理者では、[!UICONTROL Customers] グリッドに、ストアにアカウントを登録したすべての顧客と、管理者によって追加されたすべての顧客が一覧表示されます。 標準の [&#x200B; グリッドコントロール &#x200B;](../getting-started/admin-grid-controls.md) を使用して、リストをフィルタリングし、列のレイアウトを調整します。 詳しくは、[&#x200B; 顧客アカウントの管理 &#x200B;](../customers/manage-account.md) を参照してください。
 
-![ 顧客リスト ](assets/customer-accounts-all-grid.png){width="700" zoomable="yes"}
+![&#x200B; 顧客リスト &#x200B;](assets/customer-accounts-all-grid.png){width="700" zoomable="yes"}
 
 ## 顧客情報の更新
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >詳しくは、[ 顧客アカウントの更新 ](../customers/update-account.md) を参照してください。
+   >詳しくは、[&#x200B; 顧客アカウントの更新 &#x200B;](../customers/update-account.md) を参照してください。
 
 1. 完了したら、「**[!UICONTROL Save Customer]**」をクリックします。
 
@@ -35,9 +35,9 @@ ht-degree: 0%
 | --- | --- |
 | **[!UICONTROL Add New Customer]** | 顧客アカウントを作成します。 |
 | **[!UICONTROL Search]** | 現在のフィルターに基づいて顧客の検索を開始します。 |
-| **[!UICONTROL Filters]** | [ グリッド ](../getting-started/admin-grid-controls.md) に表示されるレコードのフィルターに使用する検索パラメーターのセットを定義します。 |
-| **[!UICONTROL Default View]** | グリッドの既定の列 [ レイアウト ](../getting-started/admin-grid-controls.md) を決定します。 |
-| **[!UICONTROL Columns]** | グリッド内の [ 列 ](../getting-started/admin-grid-controls.md) とそのアカウントの選択を決定します。 列のレイアウトは、変更して _ビュー_ として保存できます。 デフォルトでは、一部の列のみがグリッドに含まれます。 |
+| **[!UICONTROL Filters]** | [&#x200B; グリッド &#x200B;](../getting-started/admin-grid-controls.md) に表示されるレコードのフィルターに使用する検索パラメーターのセットを定義します。 |
+| **[!UICONTROL Default View]** | グリッドの既定の列 [&#x200B; レイアウト &#x200B;](../getting-started/admin-grid-controls.md) を決定します。 |
+| **[!UICONTROL Columns]** | グリッド内の [&#x200B; 列 &#x200B;](../getting-started/admin-grid-controls.md) とそのアカウントの選択を決定します。 列のレイアウトは、変更して _ビュー_ として保存できます。 デフォルトでは、一部の列のみがグリッドに含まれます。 |
 | **[!UICONTROL Export]** | 選択したレコードを CSV または Excel XML ファイルとしてエクスポートします。 |
 
 {style="table-layout:auto"}
@@ -60,7 +60,7 @@ ht-degree: 0%
 | **[!UICONTROL Confirmed Email]** | 確認メールが必要かどうかを示します。 |
 | **[!UICONTROL Account Created In]** | 顧客アカウントが作成されたストア表示を示します。 |
 | **[!UICONTROL Date of Birth]** | 顧客の生年月日。 <br><br>**_重要：_**&#x200B;現在のセキュリティおよびプライバシーのベストプラクティスに従い、顧客の完全な生年月日（月、日、年）を他の個人識別子と保存することに関連して、潜在的な法的およびセキュリティリスクがあることを認識しておいてください。 顧客の完全な生年月日の保存を制限し、代わりに顧客の生年月日を使用することをお勧めします。 |
-| **[!UICONTROL Tax / VAT Number]** | 該当する場合、顧客に割り当てられた税金番号または [ 付加価値税 ](../stores-purchase/vat.md) 番号。 <br/><br/> このフィールドは VAT 番号とは異なります。 |
+| **[!UICONTROL Tax / VAT Number]** | 該当する場合、顧客に割り当てられた税金番号または [&#x200B; 付加価値税 &#x200B;](../stores-purchase/vat.md) 番号。 <br/><br/> このフィールドは VAT 番号とは異なります。 |
 | **[!UICONTROL Gender]** | 顧客の性別。 |
 | **[!UICONTROL Action]** | 編集 – 会社アカウントを編集モードで開きます。 |
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ### 追加の列
 
-これらの列は、グリッドの [ 列のレイアウト ](../getting-started/admin-grid-controls.md) を変更することで使用できます。
+これらの列は、グリッドの [&#x200B; 列のレイアウト &#x200B;](../getting-started/admin-grid-controls.md) を変更することで使用できます。
 
 | 列 | 説明 |
 | --- | --- |
@@ -80,7 +80,7 @@ ht-degree: 0%
 | **[!UICONTROL Billing Lastname]** | 顧客の請求先住所の姓。 |
 | **[!UICONTROL Billing Address]** | 請求情報が送信される住所。 |
 | **[!UICONTROL Shipping Address]** | 注文を発送する住所。 |
-| **[!UICONTROL VAT Number]** | 顧客の住所に関連付けられている付加価値税番号。 EU で販売されている [ デジタル商品 ](../stores-purchase/taxes.md) の場合、VAT は顧客の請求先住所に基づきます。 <br/><br/> このフィールドは税金/VAT 番号と同じではありません。 |
-| **[!UICONTROL Account Lock]** | アカウントのステータスを示します。 セキュリティ対策として、ログインの試行が多すぎると、カスタマーアカウントを [ ロック ](../customers/password-options.md) することができます。 値：`Locked`/`Unlocked` |
+| **[!UICONTROL VAT Number]** | 顧客の住所に関連付けられている付加価値税番号。 EU で販売されている [&#x200B; デジタル商品 &#x200B;](../stores-purchase/taxes.md) の場合、VAT は顧客の請求先住所に基づきます。 <br/><br/> このフィールドは税金/VAT 番号と同じではありません。 |
+| **[!UICONTROL Account Lock]** | アカウントのステータスを示します。 セキュリティ対策として、ログインの試行が多すぎると、カスタマーアカウントを [&#x200B; ロック &#x200B;](../customers/password-options.md) することができます。 値：`Locked`/`Unlocked` |
 
 {style="table-layout:auto"}

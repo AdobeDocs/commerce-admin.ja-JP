@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-メールでリマインダーを送信する目的は、ストアを訪問したユーザーに対して、プロモーションを利用して購入を促すことです。 特定の条件セットを満たした場合に、メールでリマインダーを顧客に自動的に送信できます。 例えば、買い物かごやウィッシュリストに何かを追加したが、まだ購入していない顧客にリマインダーを送信できます。 メールのリマインダーを使用して、顧客がストアに戻るように促し、インセンティブとして [ クーポンコード ](price-rules-cart-coupon.md) を含めることができます。 クーポンコードは、メールのリマインダーのバッチごとに自動的に生成でき、各バッチに関連付けられているオファーを制御できます。
+メールでリマインダーを送信する目的は、ストアを訪問したユーザーに対して、プロモーションを利用して購入を促すことです。 特定の条件セットを満たした場合に、メールでリマインダーを顧客に自動的に送信できます。 例えば、買い物かごやウィッシュリストに何かを追加したが、まだ購入していない顧客にリマインダーを送信できます。 メールのリマインダーを使用して、顧客がストアに戻るように促し、インセンティブとして [&#x200B; クーポンコード &#x200B;](price-rules-cart-coupon.md) を含めることができます。 クーポンコードは、メールのリマインダーのバッチごとに自動的に生成でき、各バッチに関連付けられているオファーを制御できます。
 
 メールのリマインダーは、買い物かごが放棄されてから特定の日数が経過した後や、定義したい他の条件に対してトリガーできます。 一般的な条件には、買い物かごの合計値、数量、買い物かごの中の商品などがあります。
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >顧客に、一致する放棄された買い物かご、ウィッシュリストまたはその両方の組み合わせが複数ある場合、メールのリマインダーはその顧客に対して 1 回だけトリガーされます。 同じメールのリマインダーを再度トリガーするには、「_[!UICONTROL Repeat Schedule]_」フィールドを使用して、メール間の日数を設定します。
 
-![ メールのリマインダー ](./assets/email-reminders.png){width="700" zoomable="yes"}
+![&#x200B; メールのリマインダー &#x200B;](./assets/email-reminders.png){width="700" zoomable="yes"}
 
 ## メールのリマインダーの設定
 
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Promotions]**」を選択します。
 
-1. **[!UICONTROL Automated Email Reminder Rules]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Automated Email Reminder Rules]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![ 顧客設定 – 自動メールリマインダールール ](../configuration-reference/customers/assets/promotions-automated-email-reminder-rules.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客設定 – 自動メールリマインダールール &#x200B;](../configuration-reference/customers/assets/promotions-automated-email-reminder-rules.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Enable Reminder Emails]** を `Yes` に設定します。
 
@@ -53,17 +53,17 @@ ht-degree: 0%
 
    - 失敗したメールの送信を繰り返し試みないようにするには、最大試行回数を **[!UICONTROL Email Send Failure Threshold]** フィールドに入力します。
 
-   - リマインダーメールの送信者として表示される [ 店舗連絡先 ](../getting-started/store-details.md#store-email-addresses) に **[!UICONTROL Reminder Email Sender]** を設定します。
+   - リマインダーメールの送信者として表示される [&#x200B; 店舗連絡先 &#x200B;](../getting-started/store-details.md#store-email-addresses) に **[!UICONTROL Reminder Email Sender]** を設定します。
 
-   これらのオプションの詳細なリストについては、[ 設定リファレンス ](../configuration-reference/customers/promotions.md#automated-email-reminder-rules) の _自動メールリマインダールール_ を参照してください。
+   これらのオプションの詳細なリストについては、[&#x200B; 設定リファレンス &#x200B;](../configuration-reference/customers/promotions.md#automated-email-reminder-rules) の _自動メールリマインダールール_ を参照してください。
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ## メールリマインダーテンプレート
 
-デフォルトのメールリマインダーテンプレートはカスタマイズでき、様々なプロモーション用に追加のテンプレートを作成できます。 メールのリマインダーには、メッセージに組み込むことができる特定の変数の選択があります。 これらの変数の情報は、設定したメールリマインダールールと、クーポンに関連付けられた買い物かご価格ルールによって決定されます。 「変数の挿入」ボタンを使用すると、変数を含むマークアップタグをテンプレートに挿入できます。 詳しくは、[ メール ](../systems/email-templates.md) を参照してください。
+デフォルトのメールリマインダーテンプレートはカスタマイズでき、様々なプロモーション用に追加のテンプレートを作成できます。 メールのリマインダーには、メッセージに組み込むことができる特定の変数の選択があります。 これらの変数の情報は、設定したメールリマインダールールと、クーポンに関連付けられた買い物かご価格ルールによって決定されます。 「変数の挿入」ボタンを使用すると、変数を含むマークアップタグをテンプレートに挿入できます。 詳しくは、[&#x200B; メール &#x200B;](../systems/email-templates.md) を参照してください。
 
-![ メールリマインダーのプレビュー ](./assets/email-reminder-preview-promotion-template.png){width="600" zoomable="yes"}
+![&#x200B; メールリマインダーのプレビュー &#x200B;](./assets/email-reminder-preview-promotion-template.png){width="600" zoomable="yes"}
 
 ### メールリマインダーテンプレートのカスタマイズ
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Load Template]**」をクリックします。
 
-標準 [ 手順 ](../systems/email-template-custom.md) に従って、テンプレートをカスタマイズします。
+標準 [&#x200B; 手順 &#x200B;](../systems/email-template-custom.md) に従って、テンプレートをカスタマイズします。
 
 ### メールリマインダー変数
 

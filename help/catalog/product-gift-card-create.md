@@ -14,9 +14,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-各ギフトカードには一意のコードがあり、チェックアウト時に 1 人のお客様のみが利用できます。 ギフト カードを販売するには、[ コード プール ](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) を確立する必要があります。 買い物かご内でのギフトカードの引き換え方法については、[ ギフトカードワークフロー ](../stores-purchase/product-gift-card-workflow.md) を参照してください。
+各ギフトカードには一意のコードがあり、チェックアウト時に 1 人のお客様のみが利用できます。 ギフト カードを販売するには、[&#x200B; コード プール &#x200B;](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) を確立する必要があります。 買い物かご内でのギフトカードの引き換え方法については、[&#x200B; ギフトカードワークフロー &#x200B;](../stores-purchase/product-gift-card-workflow.md) を参照してください。
 
-![ ギフトカード製品ページ ](./assets/storefront-giftcard-product-page.png){width="700" zoomable="yes"}
+![&#x200B; ギフトカード製品ページ &#x200B;](./assets/storefront-giftcard-product-page.png){width="700" zoomable="yes"}
 
 ギフトカード製品には次の 3 種類があります。
 
@@ -28,15 +28,15 @@ ht-degree: 0%
 
 ## ギフトカード製品の作成
 
-次の手順は、[ 製品テンプレート ](attribute-sets.md)、必須フィールド、基本設定を使用してギフトカードを作成するプロセスを示しています。 各必須フィールドには、赤いアスタリスク（`*`）が付いています。 基本を完了したら、必要に応じて他の製品設定を完了できます。
+次の手順は、[&#x200B; 製品テンプレート &#x200B;](attribute-sets.md)、必須フィールド、基本設定を使用してギフトカードを作成するプロセスを示しています。 各必須フィールドには、赤いアスタリスク（`*`）が付いています。 基本を完了したら、必要に応じて他の製品設定を完了できます。
 
 ### 手順 1：製品タイプの選択
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
-1. _[!UICONTROL Add Product]_&#x200B;ージの右上隅（![ メニュー矢印 ](../assets/icon-menu-down-arrow-red.png){width="25"}  ） メニューから、「**[!UICONTROL Gift Card]**」を選択します。
+1. _[!UICONTROL Add Product]_&#x200B;ージの右上隅（![&#x200B; メニュー矢印 &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"}  ） メニューから、「**[!UICONTROL Gift Card]**」を選択します。
 
-   ![ ギフト カードの追加 ](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
+   ![&#x200B; ギフト カードの追加 &#x200B;](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
 
 ### 手順 2：属性セットの選択
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 - 表示されたリストで、使用する属性セットを選択します。
 
-![ 属性セットを選択 ](./assets/product-create-choose-attribute-set-gift-card.png){width="600" zoomable="yes"}
+![&#x200B; 属性セットを選択 &#x200B;](./assets/product-create-choose-attribute-set-gift-card.png){width="600" zoomable="yes"}
 
 ### 手順 3：必要な設定を完了する
 
@@ -64,7 +64,7 @@ ht-degree: 0%
    - `Physical` – 物理的なギフトカードは事前に大量生産され、一意のコードでエンボス加工することができます。
    - `Combined` – 組み合わせギフトカードは、仮想と物理の両方のギフトカードの特性を持っています。
 
-   ![ ギフト カードの種類 ](./assets/product-create-gift-card-type.png){width="600" zoomable="yes"}
+   ![&#x200B; ギフト カードの種類 &#x200B;](./assets/product-create-gift-card-type.png){width="600" zoomable="yes"}
 
 1. 顧客に固定金額の選択を提供するには、「**[!UICONTROL Add Amount]**」をクリックし、カードの最初の固定値を小数として入力します。
 
@@ -82,7 +82,7 @@ ht-degree: 0%
    >
    >ギフトカード製品は、カタログに独自の価格がありません。 ギフトカード価格は、購入中に選択されたギフトカード金額から導出される。
 
-   ![ ギフトカードの金額 ](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
+   ![&#x200B; ギフトカードの金額 &#x200B;](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
 ### 手順 4：基本設定を完了する
 
@@ -96,13 +96,13 @@ ht-degree: 0%
 
 ### 手順 5: ギフト カード情報を入力する
 
-製品設定の _[!UICONTROL Gift Card Information]_&#x200B;セクションは、カードの管理方法を決定する [ ギフトカード設定 ](../configuration-reference/sales/gift-cards.md) 設定を上書きするために使用できます。
+製品設定の _[!UICONTROL Gift Card Information]_&#x200B;セクションは、カードの管理方法を決定する [&#x200B; ギフトカード設定 &#x200B;](../configuration-reference/sales/gift-cards.md) 設定を上書きするために使用できます。
 
 1. _[!UICONTROL Gift Card Information]_&#x200B;セクションまで下にスクロールします。
 
    このセクションのデフォルト設定は、システム設定によって決まります。
 
-   ![ ギフトカード情報 ](./assets/product-gift-card-information.png){width="600" zoomable="yes"}
+   ![&#x200B; ギフトカード情報 &#x200B;](./assets/product-gift-card-information.png){width="600" zoomable="yes"}
 
 1. ギフトカードの機能に応じて、追加のフィールドを変更します。
 
@@ -137,13 +137,13 @@ ht-degree: 0%
 
    - 右上隅の「**[!UICONTROL Save]**」をクリックします。
 
-   - ストアで製品を表示するには、_管理者_ （![ メニュー矢印 ](../assets/icon-menu-down-arrow-black.png)） メニューの **[!UICONTROL Customer View]** を選択します。
+   - ストアで製品を表示するには、_管理者_ （![&#x200B; メニュー矢印 &#x200B;](../assets/icon-menu-down-arrow-black.png)） メニューの **[!UICONTROL Customer View]** を選択します。
 
-   ![ 顧客ビュー ](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客ビュー &#x200B;](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
    **方法 2:** 保存して閉じる
 
-   _[!UICONTROL Save]_（メニュー矢印 ![ メニューで ](../assets/icon-menu-down-arrow-red.png){width="25"} 「**[!UICONTROL Save & Close]**」を選択します。
+   _[!UICONTROL Save]_（メニュー矢印 ![&#x200B; メニューで &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"} 「**[!UICONTROL Save & Close]**」を選択します。
 
 ## 注意事項
 

@@ -15,11 +15,11 @@ ht-degree: 0%
 
 ストアを初めてインストールすると、完全な管理アクセス権を付与するログイン資格情報を使用して、デフォルトの管理者アカウントが作成されます。 ベストプラクティスとして、完全な管理者アクセス権を持つ別のユーザーアカウントを作成してください。 これにより、1 つのアカウントを日常の管理活動に使用し、もう 1 つを「スーパー管理者」アカウントとして予約できます。 これは、通常の資格情報を忘れた場合や、何らかの理由で使用できなくなった場合に役立ちます。
 
-他のチームメンバーやサービスプロバイダーがアクセスを必要とする場合は、それらのメンバーに対して個別のユーザーアカウントを作成し、特定のビジネスニーズに基づいて制限付きアクセスを割り当てることができます。 管理者でユーザーがアクセスできる web サイトやストアを制限するには、まず [ 役割を作成 ](permissions-user-roles.md) する必要があります。範囲は限られており、必要なリソースのみが選択されています。 次に、その役割を特定のユーザーアカウントに割り当てることができます。 制限付き役割に割り当てられた管理者ユーザーは、その役割に関連付けられた Web サイトまたはストアのデータのみを表示および変更できますが、グローバル設定やデータは変更できません。
+他のチームメンバーやサービスプロバイダーがアクセスを必要とする場合は、それらのメンバーに対して個別のユーザーアカウントを作成し、特定のビジネスニーズに基づいて制限付きアクセスを割り当てることができます。 管理者でユーザーがアクセスできる web サイトやストアを制限するには、まず [&#x200B; 役割を作成 &#x200B;](permissions-user-roles.md) する必要があります。範囲は限られており、必要なリソースのみが選択されています。 次に、その役割を特定のユーザーアカウントに割り当てることができます。 制限付き役割に割り当てられた管理者ユーザーは、その役割に関連付けられた Web サイトまたはストアのデータのみを表示および変更できますが、グローバル設定やデータは変更できません。
 
 >[!NOTE]
 >
->Adobe IDを持ち、Adobe CommerceおよびAdobe Business Products への効率的なログインを必要とするAdobe Commerce マーチャントは、Commerce認証をAdobe IMS認証ワークフローと統合できます。 この統合がCommerce ストアに対して有効になると、各管理者ユーザーは、Commerce資格情報ではなく、Adobe資格情報を使用してログインする必要があります。 [Adobe Identity Management Service （IMS）統合の概要 ](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=ja) を参照してください。
+>Adobe IDを持ち、Adobe CommerceおよびAdobe Business Products への効率的なログインを必要とするAdobe Commerce マーチャントは、Commerce認証をAdobe IMS認証ワークフローと統合できます。 この統合がCommerce ストアに対して有効になると、各管理者ユーザーは、Commerce資格情報ではなく、Adobe資格情報を使用してログインする必要があります。 [Adobe Identity Management Service （IMS）統合の概要 &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=ja) を参照してください。
 
 一時的なユーザーまたは役割の場合は、ユーザーアカウントの有効期限を設定することもできます。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. _[!UICONTROL Account Information]_&#x200B;セクションで、次の操作を行います。
 
-   ![ ユーザーアカウント情報 ](./assets/permissions-user-new.png){width="600" zoomable="yes"}
+   ![&#x200B; ユーザーアカウント情報 &#x200B;](./assets/permissions-user-new.png){width="600" zoomable="yes"}
 
    - アカウントの **[!UICONTROL User Name]** を入力します。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >管理者パスワードは 7 文字以上で、文字と数字の両方を含める必要があります。 その他のパスワードオプションについては、[Admin Security の設定 ](security-admin.md) を参照してください。
+     >管理者パスワードは 7 文字以上で、文字と数字の両方を含める必要があります。 その他のパスワードオプションについては、[Admin Security の設定 &#x200B;](security-admin.md) を参照してください。
 
    - **[!UICONTROL Password Confirmation]**: パスワードを再入力して、正しく入力されていることを確認します。
 
@@ -77,11 +77,11 @@ ht-degree: 0%
 
    グリッドには、既存のすべてのユーザーの役割が一覧表示されます。 新しいストアの場合、_[!UICONTROL Administrators]_&#x200B;が使用可能な唯一の役割です。
 
-   ![ 管理者 – 新しいユーザーロールを追加 ](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
+   ![&#x200B; 管理者 – 新しいユーザーロールを追加 &#x200B;](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
 1. _[!UICONTROL Assigned]_&#x200B;列で、ユーザーの役割を選択します。
 
-   [ 既存の役割を表示するか、追加のユーザー役割を定義する ](permissions-user-roles.md) ことができます。 役割を定義したら、ユーザーアカウントを編集して新しい役割を割り当てる必要があります。
+   [&#x200B; 既存の役割を表示するか、追加のユーザー役割を定義する &#x200B;](permissions-user-roles.md) ことができます。 役割を定義したら、ユーザーアカウントを編集して新しい役割を割り当てる必要があります。
 
 ## 2FA プロバイダの検証またはリセット
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL 2FA]**」をクリックします。
 
-   ![ 管理者 – 新しいユーザーロールを追加 ](./assets/permissions-user-2fa.png){width="600" zoomable="yes"}
+   ![&#x200B; 管理者 – 新しいユーザーロールを追加 &#x200B;](./assets/permissions-user-2fa.png){width="600" zoomable="yes"}
 
 1. _管理者_ ユーザーが使用できる 2FA ソリューションを確認し、ログイン前に、使用するソリューションをインストールするように各ユーザーにアドバイスします。
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
    この場合、ユーザーは再度ログインする前に、設定プロセスを繰り返す必要があります。 例えば、新しいスマートフォンがあり、Google Authenticator を再インストールする必要がある場合です。 ユーザーの現在の 2FA 設定をクリアするには、クリアするソリューションごとに **[!UICONTROL Reset (Provider)]** をクリックします。 プロンプトが表示されたら、「**[!UICONTROL OK]**」をクリックして確認します。
 
-   [2FA の設定 ](security-two-factor-authentication.md) へのリンクが記載されたメールがユーザーに届きます。 リンクは 1 回だけ使用できます。 ユーザーが複数回ログインしようとすると、試行のたびに新しいリンクが送信されます。
+   [2FA の設定 &#x200B;](security-two-factor-authentication.md) へのリンクが記載されたメールがユーザーに届きます。 リンクは 1 回だけ使用できます。 ユーザーが複数回ログインしようとすると、試行のたびに新しいリンクが送信されます。
 
 1. 「**[!UICONTROL Save User]**」をクリックします。
 
@@ -129,9 +129,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Admin]**」を選択します。
 
-1. 「**[!UICONTROL Admin User Emails]**」セクションの ![ 展開トグラー ](../assets/icon-display-expand.png) を展開します。
+1. 「**[!UICONTROL Admin User Emails]**」セクションの ![&#x200B; 展開トグラー &#x200B;](../assets/icon-display-expand.png) を展開します。
 
-   ![ 詳細設定 – 管理者のメールテンプレートの設定 ](../configuration-reference/advanced/assets/admin-admin-user-emails.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – 管理者のメールテンプレートの設定 &#x200B;](../configuration-reference/advanced/assets/admin-admin-user-emails.png){width="600" zoomable="yes"}
 
 1. 管理者ユーザーがパスワードを忘れた場合に送信されるテンプレートに **[!UICONTROL Forgot Password Email Template]** を設定します。
 
@@ -143,11 +143,11 @@ ht-degree: 0%
 
 ## ロックされたユーザー
 
-ビジネスのセキュリティを確保するために、管理者に [ ログイン ](../getting-started/admin-signin.md) することに 6 回失敗すると、デフォルトでユーザーアカウントがロックされます。 現在ロックされているユーザーアカウントは、すべてロックされたユーザーグリッドに表示されます。 完全な管理者権限を持つ他のユーザーがアカウントをロック解除できます。
+ビジネスのセキュリティを確保するために、管理者に [&#x200B; ログイン &#x200B;](../getting-started/admin-signin.md) することに 6 回失敗すると、デフォルトでユーザーアカウントがロックされます。 現在ロックされているユーザーアカウントは、すべてロックされたユーザーグリッドに表示されます。 完全な管理者権限を持つ他のユーザーがアカウントをロック解除できます。
 
-追加のパスワードセキュリティ対策を [ 詳細管理者 ](../configuration-reference/advanced/admin.md#security) 設定で実装できます。 [Admin Security](security-admin.md) を参照してください。
+追加のパスワードセキュリティ対策を [&#x200B; 詳細管理者 &#x200B;](../configuration-reference/advanced/admin.md#security) 設定で実装できます。 [Admin Security](security-admin.md) を参照してください。
 
-![ ログイン画面アラート – アカウントが一時的に無効になっている ](./assets/admin-login-locked-out-message.png){width="300"}
+![&#x200B; ログイン画面アラート – アカウントが一時的に無効になっている &#x200B;](./assets/admin-login-locked-out-message.png){width="300"}
 
 **_管理者アカウントのロックを解除するには：_**
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 1. グリッドで、ロックされたアカウントのチェックボックスを選択します。
 
-   ![ 権限 – ロックされたユーザーアカウント ](./assets/permissions-locked-users-grid.png){width="600" zoomable="yes"}
+   ![&#x200B; 権限 – ロックされたユーザーアカウント &#x200B;](./assets/permissions-locked-users-grid.png){width="600" zoomable="yes"}
 
 1. 左上隅の **[!UICONTROL Actions]** を `Unlock` に設定します。
 

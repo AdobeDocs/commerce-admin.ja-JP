@@ -22,13 +22,13 @@ ht-degree: 0%
 
 [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
-![ 管理者に表示される [!UICONTROL Content] メニュー ](./assets/admin-menu-content.png){width="400" zoomable="yes"}
+![&#x200B; 管理者に表示される [!UICONTROL Content] メニュー &#x200B;](./assets/admin-menu-content.png){width="400" zoomable="yes"}
 
 >[!TAB Adobe Commerceas a Cloud Service]
 
 [!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
 
-![ 管理者に表示される [!UICONTROL Content] メニュー ](./assets/admin-menu-content-accs.png){width="400" zoomable="yes"}
+![&#x200B; 管理者に表示される [!UICONTROL Content] メニュー &#x200B;](./assets/admin-menu-content-accs.png){width="400" zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -38,12 +38,12 @@ _管理者_ サイドバーで「**[!UICONTROL Content]**」を選択します�
 
 ## [!UICONTROL Elements]
 
-- テキスト、画像、ブロック、変数およびウィジェットを使用して [ ページ ](pages.md) を作成します。 ページは、ストアのナビゲーションに組み込んだり、他のページにリンクしたりできます。
-- ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）ナビゲーションを使用して、ページを [ 階層 ](page-hierarchy.md) に整理します。
-- コードを記述せずにコンテンツの [ ブロック ](blocks.md) を作成します。 ブロックには、テキスト、画像、さらにはビデオを含めることができ、ページレイアウトの任意の部分に割り当てることができます。
-- ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [ 動的ブロック ](dynamic-blocks.md) を作成して、[ 価格ルール ](../merchandising-promotions/introduction.md#promotions) および [ 顧客セグメント ](../customers/customer-segments.md) のロジックによって駆動されるリッチでインタラクティブなコンテンツを組み込みます。
-- 動的データを表示し、ストア内のどこにでもブロック、リンク、インタラクティブ要素を追加できる [ ウィジェット ](widgets.md) を作成します。
-- ページビルダーコンテンツから [ テンプレート ](../page-builder/templates.md) を作成し、新しいコンテンツを追加（または古いコンテンツを置き換え）する際の時間と労力を節約します。
+- テキスト、画像、ブロック、変数およびウィジェットを使用して [&#x200B; ページ &#x200B;](pages.md) を作成します。 ページは、ストアのナビゲーションに組み込んだり、他のページにリンクしたりできます。
+- ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）ナビゲーションを使用して、ページを [&#x200B; 階層 &#x200B;](page-hierarchy.md) に整理します。
+- コードを記述せずにコンテンツの [&#x200B; ブロック &#x200B;](blocks.md) を作成します。 ブロックには、テキスト、画像、さらにはビデオを含めることができ、ページレイアウトの任意の部分に割り当てることができます。
+- ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [&#x200B; 動的ブロック &#x200B;](dynamic-blocks.md) を作成して、[&#x200B; 価格ルール &#x200B;](../merchandising-promotions/introduction.md#promotions) および [&#x200B; 顧客セグメント &#x200B;](../customers/customer-segments.md) のロジックによって駆動されるリッチでインタラクティブなコンテンツを組み込みます。
+- 動的データを表示し、ストア内のどこにでもブロック、リンク、インタラクティブ要素を追加できる [&#x200B; ウィジェット &#x200B;](widgets.md) を作成します。
+- ページビルダーコンテンツから [&#x200B; テンプレート &#x200B;](../page-builder/templates.md) を作成し、新しいコンテンツを追加（または古いコンテンツを置き換え）する際の時間と労力を節約します。
 
 >[!NOTE]
 >
@@ -53,14 +53,14 @@ _管理者_ サイドバーで「**[!UICONTROL Content]**」を選択します�
 
 ストアの視覚的な表示を管理します。
 
-- [ デザイン設定 ](configuration.md) を設定して、[!DNL Commerce] インストールで web サイト、ストア、表示ごとに異なる設定を維持します。
+- [&#x200B; デザイン設定 &#x200B;](configuration.md) を設定して、[!DNL Commerce] インストールで web サイト、ストア、表示ごとに異なる設定を維持します。
 
-- レイアウトファイル、テンプレートファイル、翻訳ファイル、スキンの集まりである [ テーマ ](themes.md) を使用して、ストアの視覚的な表示を決定します。
+- レイアウトファイル、テンプレートファイル、翻訳ファイル、スキンの集まりである [&#x200B; テーマ &#x200B;](themes.md) を使用して、ストアの視覚的な表示を決定します。
 
-- [ スケジュール ](schedule.md) を使用して、シーズンやプロモーションに合わせてテーマの変更を事前に計画します。
+- [&#x200B; スケジュール &#x200B;](schedule.md) を使用して、シーズンやプロモーションに合わせてテーマの変更を事前に計画します。
 
 ## [!UICONTROL Content Staging]
 
 {{ee-feature}}
 
-[ コンテンツのステージング ](content-staging.md) を使用すると、ビジネスチームは、ストアの管理者から直接様々なコンテンツの更新を簡単に作成、プレビュー、スケジュールできます。
+[&#x200B; コンテンツのステージング &#x200B;](content-staging.md) を使用すると、ビジネスチームは、ストアの管理者から直接様々なコンテンツの更新を簡単に作成、プレビュー、スケジュールできます。

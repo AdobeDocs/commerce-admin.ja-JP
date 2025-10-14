@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-製品のアップデートはスケジュールに従って適用でき、他のコンテンツの変更とグループ化できます。 [ コンテンツのステージング ](../content-design/content-staging.md) を使用して、製品に対してスケジュールされた変更に基づいてキャンペーンを作成したり、既存のキャンペーンに変更を適用したりできます。
+製品のアップデートはスケジュールに従って適用でき、他のコンテンツの変更とグループ化できます。 [&#x200B; コンテンツのステージング &#x200B;](../content-design/content-staging.md) を使用して、製品に対してスケジュールされた変更に基づいてキャンペーンを作成したり、既存のキャンペーンに変更を適用したりできます。
 
 製品のアップデートのスケジュールを設定し、キャンペーンを編集する場合は、次の点に注意してください。
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 - スケジュールされた更新のステージングプレビューは、常に **デフォルト** のストア表示から開始されます。この表示は、ステージング更新キャンペーンをナビゲートする顧客のエクスペリエンスをエミュレートします。
 
-- キャンペーンが複数の製品にリンクされている場合、キャンペーンは、[ コンテンツのステージングダッシュボード ](../content-design/content-staging-dashboard.md) からのみ編集できます。
+- キャンペーンが複数の製品にリンクされている場合、キャンペーンは、[&#x200B; コンテンツのステージングダッシュボード &#x200B;](../content-design/content-staging-dashboard.md) からのみ編集できます。
 
 - アクティブなキャンペーンが最初に終了日なしで作成された場合、後でキャンペーンを編集して終了日を含めることはできません。 この場合、重複するキャンペーンを作成し、必要な終了日を入力する必要があります。
 
@@ -45,13 +45,13 @@ ht-degree: 0%
 
 1. 更新の簡単な **[!UICONTROL Description]** と使用方法を入力します。
 
-1. カレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）ツールを使用して、キャンペーンの **[!UICONTROL Start Date]** と **[!UICONTROL End Date]** を選択します。
+1. カレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）ツールを使用して、キャンペーンの **[!UICONTROL Start Date]** と **[!UICONTROL End Date]** を選択します。
 
    >[!NOTE]
    >
    >Campaign **[!UICONTROL Start Date]** と **[!UICONTROL End Date]** は、各 web サイトのローカルタイムゾーンから変換される **_デフォルト_** の管理タイムゾーンを使用して定義する必要があります。 例えば、米国のタイムゾーンをベースにキャンペーンを開始する、異なるタイムゾーンの複数の web サイトでは、ローカルタイムゾーンごとに個別の更新をスケジュールする必要があります。 それぞれに **[!UICONTROL Start Date]** と **[!UICONTROL End Date]** を設定し、ローカル Web サイトのタイムゾーンからデフォルトの管理者のタイムゾーンに変換されます。
 
-   ![ 新しい更新としてスケジュール ](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
+   ![&#x200B; 新しい更新としてスケジュール &#x200B;](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
 1. _[!UICONTROL Price]_&#x200B;まで下にスクロールし、「**[!UICONTROL Advanced Pricing]**」をクリックします。
 
@@ -71,9 +71,9 @@ ht-degree: 0%
 
 1. リストで、変更するキャンペーンを選択します。
 
-   ![ 既存のキャンペーンへの割り当て ](./assets/scheduled-changes-assign-to-existing-campaign.png){width="600" zoomable="yes"}
+   ![&#x200B; 既存のキャンペーンへの割り当て &#x200B;](./assets/scheduled-changes-assign-to-existing-campaign.png){width="600" zoomable="yes"}
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Content]** を展開します。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Content]** を展開します。
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 スケジュールされた変更が、キャンペーンの開始日と終了日と共に、製品ページの上部に表示されます。
 
-![ スケジュールされた変更 ](./assets/view-product-scheduled-changes.png){width="600" zoomable="yes"}
+![&#x200B; スケジュールされた変更 &#x200B;](./assets/view-product-scheduled-changes.png){width="600" zoomable="yes"}
 
 ## スケジュールされた変更の編集
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 1. 上部のバーで「**[!UICONTROL Remove from Update]**」をクリックします。
 
-   ![ スケジュールされた変更を削除 ](./assets/remove-product-scheduled-changes.png){width="600" zoomable="yes"}
+   ![&#x200B; スケジュールされた変更を削除 &#x200B;](./assets/remove-product-scheduled-changes.png){width="600" zoomable="yes"}
 
 1. ダイアログで、「**[!UICONTROL Delete the Update]**」を選択し、「**[!UICONTROL Done]**」をクリックします。
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 _[!UICONTROL Schedule Design Update]_&#x200B;のセクションでは、製品ページの外観を一時的に変更できます。 デザインの変更は、シーズンやプロモーションに合わせてスケジュールを設定することも、新鮮なものにするためだけにスケジュールを設定することもできます。 デザインの変更は事前にスケジュールできるので、定義したスケジュールに従って有効または_ ドリップ _されます。
 
-![ スケジュールされたデザインの更新 ](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
+![&#x200B; スケジュールされたデザインの更新 &#x200B;](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
 
 
 | フィールド | 説明 |

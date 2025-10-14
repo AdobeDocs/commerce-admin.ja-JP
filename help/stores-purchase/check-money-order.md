@@ -20,11 +20,11 @@ Adobe CommerceとMagento Open Sourceでは、小切手またはマネーオー�
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Payment Methods]**」を選択します。
 
-1. 「_[!UICONTROL Other Payment Methods]_」の下の「展開セレクター ![ 「**[!UICONTROL Check / Money Order]**」セクション ](../assets/icon-display-expand.png) を展開します。
+1. 「_[!UICONTROL Other Payment Methods]_」の下の「展開セレクター ![&#x200B; 「**[!UICONTROL Check / Money Order]**」セクション &#x200B;](../assets/icon-display-expand.png) を展開します。
 
-   ![ 小切手/送金 ](../configuration-reference/sales/assets/payment-methods-check-money-order.png){width="600" zoomable="yes"}
+   ![&#x200B; 小切手/送金 &#x200B;](../configuration-reference/sales/assets/payment-methods-check-money-order.png){width="600" zoomable="yes"}
 
-   各設定の詳細については、『設定リファレンスガイド _の [ 小切手/マネーオーダー ](../configuration-reference/sales/payment-methods.md#check--money-order) を参照してくだ_ い。
+   各設定の詳細については、『設定リファレンスガイド _の [&#x200B; 小切手/マネーオーダー &#x200B;](../configuration-reference/sales/payment-methods.md#check--money-order) を参照してくだ_ い。
 
    >[!NOTE]
    >
@@ -40,7 +40,7 @@ Adobe CommerceとMagento Open Sourceでは、小切手またはマネーオー�
 
 1. **[!UICONTROL Payment from Applicable Countries]** を次のいずれかに設定します。
 
-   - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
+   - `All Allowed Countries` - ストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
    - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、それぞれのオプションをクリックします。
 
 1. **[!UICONTROL Make Check Payable To]**：小切手を支払う必要があるパーティの名称を入力します。

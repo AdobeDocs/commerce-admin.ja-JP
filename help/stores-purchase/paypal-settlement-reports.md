@@ -25,7 +25,7 @@ PayPal マーチャントアカウントで決済レポートを設定して有�
 
 1. _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Sales]_/**[!UICONTROL PayPal Settlement]**&#x200B;に移動します。
 
-   ![PayPal 決済レポート ](../getting-started/assets/reports-sales-paypal-settlement.png){width="600" zoomable="yes"}
+   ![PayPal 決済レポート &#x200B;](../getting-started/assets/reports-sales-paypal-settlement.png){width="600" zoomable="yes"}
 
 1. 最新の更新については、右上隅の「**[!UICONTROL Fetch Updates]**」をクリックします。
 

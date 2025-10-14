@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PayPal 支払い詳細
 
-[PayPal Payments Advanced][4] は、[PCI 準拠 ](../getting-started/compliance-pci.md) のソリューションで、サイトを離れることなくデビットまたはクレジットカードで支払うことができます。 これには、シームレスで安全なチェックアウトエクスペリエンスを作成するためにカスタマイズできる埋め込みチェックアウトページが含まれています。
+[PayPal Payments Advanced][4] は、[PCI 準拠 &#x200B;](../getting-started/compliance-pci.md) のソリューションで、サイトを離れることなくデビットまたはクレジットカードで支払うことができます。 これには、シームレスで安全なチェックアウトエクスペリエンスを作成するためにカスタマイズできる埋め込みチェックアウトページが含まれています。
 
 PayPal アカウントを持たないお客様でも、PayPal セキュア支払いゲートウェイを通じて購入することができます。 Visa、MasterCard、Switch/Maestro、Solo のクレジットカードはアメリカ合衆国とイギリスで利用可能です。 さらなる利便性のために、PayPal Express Checkout は PayPal Payments Advanced に含まれています。
 
@@ -54,7 +54,7 @@ PayPal Payments Advanced を使用した注文の処理は、通常の PayPal �
    - **処理中** - トランザクションが成功しました。
    - **支払い保留中** - システムは PayPal から応答を受け取りませんでした。
    - **キャンセル** - トランザクションが何らかの理由で成功しませんでした
-   - **不正の疑い** - トランザクションが一部の [PayPal 不正フィルター ](paypal.md#paypal-fraud-management-filters) を渡しませんでした。 システムは、PayPal から取引が不正サービスによって審査中であるという応答を受け取ります。
+   - **不正の疑い** - トランザクションが一部の [PayPal 不正フィルター &#x200B;](paypal.md#paypal-fraud-management-filters) を渡しませんでした。 システムは、PayPal から取引が不正サービスによって審査中であるという応答を受け取ります。
 
 1. **マーチャントが注文を履行** - マーチャントは注文の請求書を送信し、注文を出荷します。
 
@@ -114,17 +114,17 @@ Commerceで PayPal Payments Advanced を設定する前に、PayPal Web サイ�
 
    この設定により、設定に表示される PayPal ソリューションの選択が決まります。
 
-   ![ 商国 ](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
+   ![&#x200B; 商国 &#x200B;](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL PayPal All-in-One Payment Solution]**」を展開し、「**[!UICONTROL Configure]**」をクリックして「**[!UICONTROL Payments Advanced]**」を選択します。
 
-   ![PayPal 支払いの前払い ](./assets/paypal-payments-advanced.png){width="600" zoomable="yes"}
+   ![PayPal 支払いの前払い &#x200B;](./assets/paypal-payments-advanced.png){width="600" zoomable="yes"}
 
 ### 手順 2：必要な設定を完了する
 
 1. 必要に応じて ![&#128279;](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Required PayPal Settings]** セクション）を展開します。
 
-   ![ 高度な必須設定 – PayPal 支払いの高度な設定 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-required.png){width="600" zoomable="yes"}
+   ![&#x200B; 高度な必須設定 – PayPal 支払いの高度な設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-required.png){width="600" zoomable="yes"}
 
 1. （任意） **[!UICONTROL Email Associated with your PayPal Merchant Account]** を入力します。
 
@@ -156,7 +156,7 @@ Commerceで PayPal Payments Advanced を設定する前に、PayPal Web サイ�
 
 1. **[!UICONTROL Enable this Solution]** を `Yes` に設定します。
 
-1. 顧客に [PayPal クレジット ](paypal.md#paypal-credit-and-pay-later) を提供する場合は、**[!UICONTROL Enable PayPal Credit]** を `Yes` に設定します。
+1. 顧客に [PayPal クレジット &#x200B;](paypal.md#paypal-credit-and-pay-later) を提供する場合は、**[!UICONTROL Enable PayPal Credit]** を `Yes` に設定します。
 
 ### 手順 3：広告 PayPal クレジット/広告 PayPal PayLater の設定（オプション）
 
@@ -169,15 +169,15 @@ Commerceで PayPal Payments Advanced を設定する前に、PayPal Web サイ�
 
 #### PayPal クレジットのアドバタイズ
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advertise PayPal Credit]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advertise PayPal Credit]**」セクションを展開します。
 
-   ![PayPal クレジットの広告 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
+   ![PayPal クレジットの広告 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
 1. アカウント情報を取得するには、**[!UICONTROL Get Publisher ID from PayPal]** をクリックし、指示に従ってください。
 
 1. **[!UICONTROL Publisher ID]** を入力します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Home Page]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Home Page]**」セクションを展開します。
 
 1. ページにバナーを配置するには、「**[!UICONTROL Display]**」を「`Yes`」に設定します。
 
@@ -195,9 +195,9 @@ Commerceで PayPal Payments Advanced を設定する前に、PayPal Web サイ�
    - `728 x 90`
    - `800 x 66`
 
-   ![PayPal クレジット ホーム ページ設定のアドバタイズ ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
+   ![PayPal クレジット ホーム ページ設定のアドバタイズ &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png) 残りのセクションを展開し、前の手順を繰り返します。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 残りのセクションを展開し、前の手順を繰り返します。
 
    - **[!UICONTROL Catalog Category Page]**
    - **[!UICONTROL Catalog Product Page]**
@@ -205,11 +205,11 @@ Commerceで PayPal Payments Advanced を設定する前に、PayPal Web サイ�
 
 #### PayPal PayLater のアドバタイズ
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advertise PayPal PayLater]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advertise PayPal PayLater]**」セクションを展開します。
 
 1. **[!UICONTROL Enable PayPal PayLater]** を `Yes` に設定します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Home Page]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Home Page]**」セクションを展開します。
 
 1. ページにバナーを配置するには、「**[!UICONTROL Display]**」を「`Yes`」に設定します。
 
@@ -270,9 +270,9 @@ Commerceで PayPal Payments Advanced を設定する前に、PayPal Web サイ�
    - `Monochrome`
    - `Grayscale`
 
-   ![PayPal クレジット ホーム ページ設定のアドバタイズ ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
+   ![PayPal クレジット ホーム ページ設定のアドバタイズ &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png) 残りのセクションを展開し、前の手順を繰り返します。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 残りのセクションを展開し、前の手順を繰り返します。
 
    - **[!UICONTROL Catalog Product Page]**
    - **[!UICONTROL Checkout Cart Page]**
@@ -283,7 +283,7 @@ Commerceで PayPal Payments Advanced を設定する前に、PayPal Web サイ�
 
 1. 必要に応じて ![&#128279;](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Basic Settings - PayPal Payments Advanced]** セクション）を展開します。
 
-   ![PayPal 支払いの高度な基本設定 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-basic-settings.png){width="600" zoomable="yes"}
+   ![PayPal 支払いの高度な基本設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-basic-settings.png){width="600" zoomable="yes"}
 
 1. チェックアウト時に PayPal の支払い詳細を識別するには、**[!UICONTROL Title]** を入力します。
 
@@ -300,13 +300,13 @@ Commerceで PayPal Payments Advanced を設定する前に、PayPal Web サイ�
 
 ### 手順 5：詳細設定の完了
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advanced Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advanced Settings]**」セクションを展開します。
 
-   ![ 詳細設定 – PayPal 支払いの詳細設定 ](./assets/paypal-payments-advanced2.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – PayPal 支払いの詳細設定 &#x200B;](./assets/paypal-payments-advanced2.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Payment Applicable From]** を次のいずれかに設定します。
 
-   - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
+   - `All Allowed Countries` - ストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
    - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
 
 1. 支払いシステムとの通信をログファイルに書き込むには、**[!UICONTROL Debug Mode]** を `Yes` に設定します。
@@ -339,9 +339,9 @@ Commerceで PayPal Payments Advanced を設定する前に、PayPal Web サイ�
 
 #### 決済報告書の設定
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Settlement Report Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Settlement Report Settings]**」セクションを展開します。
 
-   ![PayPal 決済レポートの設定 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
+   ![PayPal 決済レポートの設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL SFTP Credentials]** の場合は、次の手順を実行します。
 
@@ -382,9 +382,9 @@ Commerceで PayPal Payments Advanced を設定する前に、PayPal Web サイ�
 
 _[!UICONTROL Frontend Experience Settings]_&#x200B;を使用して、サイトに表示する PayPal ロゴを選択したり、PayPal マーチャントページの外観をカスタマイズしたりします。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Frontend Experience Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Frontend Experience Settings]**」セクションを展開します。
 
-   ![PayPal フロントエンドエクスペリエンス設定 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings.png){width="600" zoomable="yes"}
+   ![PayPal フロントエンドエクスペリエンス設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings.png){width="600" zoomable="yes"}
 
 1. ストアの PayPal ブロックに表示する **[!UICONTROL PayPal Product Logo]** を選択します。
 
@@ -418,9 +418,9 @@ _[!UICONTROL Frontend Experience Settings]_&#x200B;を使用して、サイト�
 
 ### 手順 6:PayPal Express チェックアウトの基本設定を完了する
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Basic Settings - PayPal Express Checkout]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Basic Settings - PayPal Express Checkout]**」セクションを展開します。
 
-   ![PayPal Express チェックアウトの基本設定 ](../configuration-reference/sales/assets/payment-methods-paypal-advanced-express-checkout-basic-settings.png){width="600" zoomable="yes"}
+   ![PayPal Express チェックアウトの基本設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-advanced-express-checkout-basic-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Title]** の場合は、チェックアウト時にこの支払い方法を識別するタイトルを入力します。
 
@@ -439,15 +439,15 @@ _[!UICONTROL Frontend Experience Settings]_&#x200B;を使用して、サイト�
 
 ### ステップ 7：詳細設定の完了 – PayPal Express チェックアウト
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advanced Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advanced Settings]**」セクションを展開します。
 
-   ![PayPal Express チェックアウトの詳細設定 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-express-checkout-advanced.png){width="600" zoomable="yes"}
+   ![PayPal Express チェックアウトの詳細設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-express-checkout-advanced.png){width="600" zoomable="yes"}
 
 1. PayPal Express Checkout をショッピングカートとミニカートの両方から利用できるようにするには、**[!UICONTROL Display on Shopping Cart]** を `Yes` に設定します。
 
 1. **[!UICONTROL Payment Applicable From]** を次のいずれかに設定します。
 
-   - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
+   - `All Allowed Countries` - ストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
    - `Specific Countries` |このオプションを選択すると、_特定の国からのお支払い_ が表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内の各国をクリックして、お客様がストアから購入できるようにします。
 
 1. 支払いシステムとの通信をログファイルに書き込むには、**[!UICONTROL Debug Mode]** を `Yes` に設定します。

@@ -18,13 +18,13 @@ CAPTCHA は、コンピューター（または「ボット」）ではなく人
 
 画像の右上隅にある「再読み込み」アイコンをクリックして、CAPTCHA を必要な回数だけ再読み込みできます。 CAPTCHA は完全に設定可能で、毎回または定義した回数のログイン試行に失敗した後にのみ表示されるように設定できます。
 
-![CAPTCHA を使用したログイン ](./assets/customer-account-login-captcha.png){width="700" zoomable="yes"}
+![CAPTCHA を使用したログイン &#x200B;](./assets/customer-account-login-captcha.png){width="700" zoomable="yes"}
 
 ## 管理者用の CAPTCHA の設定
 
-セキュリティのレベルを高めるために、管理者のログインとパスワードを忘れた場合のページに CAPTCHA を追加できます。 管理者ユーザーは、画像の右上隅にある _再読み込み_![ 再読み込みアイコン ](./assets/CAPTCHA-icon-reload.png) アイコンをクリックして、表示された CAPTCHA を再読み込みできます。 リロードの回数に制限はありません。
+セキュリティのレベルを高めるために、管理者のログインとパスワードを忘れた場合のページに CAPTCHA を追加できます。 管理者ユーザーは、画像の右上隅にある _再読み込み_![&#x200B; 再読み込みアイコン &#x200B;](./assets/CAPTCHA-icon-reload.png) アイコンをクリックして、表示された CAPTCHA を再読み込みできます。 リロードの回数に制限はありません。
 
-![ 管理者 – CAPTCHA でログイン ](./assets/security-captcha-admin.png){width="300"}
+![&#x200B; 管理者 – CAPTCHA でログイン &#x200B;](./assets/security-captcha-admin.png){width="300"}
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
@@ -32,13 +32,13 @@ CAPTCHA は、コンピューター（または「ボット」）ではなく人
 
 1. 右上隅の **[!UICONTROL Store View]** を `Default` に設定します。
 
-   Commerce インストールの [ 範囲 ](../getting-started/websites-stores-views.md#scope-settings) に複数の web サイトが含まれている場合は、CAPTCHA 設定を適用する web サイトを選択します。
+   Commerce インストールの [&#x200B; 範囲 &#x200B;](../getting-started/websites-stores-views.md#scope-settings) に複数の web サイトが含まれている場合は、CAPTCHA 設定を適用する web サイトを選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL CAPTCHA]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL CAPTCHA]**」セクションを展開します。
 
 1. **[!UICONTROL Enable CAPTCHA in Admin]** を `Yes` に設定します。 その後、残りのオプションを次のように設定します。
 
-   ![Admin - CAPTCHA 設定 ](../configuration-reference/advanced/assets/admin-captcha.png){width="600" zoomable="yes"}
+   ![Admin - CAPTCHA 設定 &#x200B;](../configuration-reference/advanced/assets/admin-captcha.png){width="600" zoomable="yes"}
 
    - CAPTCHA シンボルに使用する **[!UICONTROL Font]** の名前を入力します（デフォルト：`LinLibertine`）。
 
@@ -72,15 +72,15 @@ CAPTCHA は、コンピューター（または「ボット」）ではなく人
 
 顧客は、アカウントにログインするたびに、またはログインに何度か失敗した後に、CAPTCHA を入力する必要が生じる場合があります。 さらに、ストアフロント全体で使用される多数のフォームを、CAPTCHA による検証を必要とするように設定できます。
 
-![ チェックアウト中の CAPTCHA](./assets/storefront-checkout-payment-captcha.png){width="700" zoomable="yes"}
+![&#x200B; チェックアウト中の CAPTCHA](./assets/storefront-checkout-payment-captcha.png){width="700" zoomable="yes"}
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Customer Configuration]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL CAPTCHA]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL CAPTCHA]**」セクションを展開します。
 
-![ 顧客の CAPTCHA 設定 ](../configuration-reference/customers/assets/customer-configuration-captcha.png){width="600" zoomable="yes"}
+![&#x200B; 顧客の CAPTCHA 設定 &#x200B;](../configuration-reference/customers/assets/customer-configuration-captcha.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Enable CAPTCHA on Storefront]** を `Yes` に設定します。 その後、残りのオプションを次のように設定します。
 
@@ -98,7 +98,7 @@ CAPTCHA は、コンピューター（または「ボット」）ではなく人
       - `Contact Us`
       - `Change password`
       - `Share Wishlist Form`
-      - `Payflow Pro` （[ セキュリティパッチ ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=ja)_ナレッジベース_ 記事を参照）
+      - `Payflow Pro` （[&#x200B; セキュリティパッチ &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=ja)_ナレッジベース_ 記事を参照）
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）
       - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B でのみ使用可能）

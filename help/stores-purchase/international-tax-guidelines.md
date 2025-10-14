@@ -356,13 +356,13 @@ ht-degree: 0%
 
    - 左上隅の **[!UICONTROL Default Config]** をフランスの店に設定します。
 
-   - 「一般」ページで、「![ 拡張セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Countries Options]**」セクションを展開し、デフォルトの国を `France` に設定します。
+   - 「一般」ページで、「![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL Countries Options]**」セクションを展開し、デフォルトの国を `France` に設定します。
 
    - 必要に応じてロケールオプションを入力します。
 
 1. 左上隅の「ドイツ語」 **[!UICONTROL Store View]** プションを選択します。
 
-1. _一般_ ページで、「![ 拡張セレクター ](../assets/icon-display-expand.png)**[!UICONTROL Countries Options]** を展開し、デフォルトの国を `Germany` に設定します。
+1. _一般_ ページで、「![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png)**[!UICONTROL Countries Options]** を展開し、デフォルトの国を `Germany` に設定します。
 
 1. 必要に応じてロケールオプションを入力します。
 
@@ -407,7 +407,7 @@ ht-degree: 0%
 
    - 各フィールドの後の「**[!UICONTROL Use Website]**」チェックボックスをオフにします。
 
-   - サイトの発送設定 [ 接触チャネル ](shipping-settings.md#point-of-origin) に一致させるには、次の値を更新します。
+   - サイトの発送設定 [&#x200B; 接触チャネル &#x200B;](shipping-settings.md#point-of-origin) に一致させるには、次の値を更新します。
 
       - デフォルトの国
       - デフォルトの状態
@@ -415,6 +415,6 @@ ht-degree: 0%
 
      この設定により、製品価格に税金が含まれる場合に税金が正しく計算されます。
 
-     ![ デフォルト税金搬送先計算 ](./assets/destination-calc-french.png){width="600" zoomable="yes"}
+     ![&#x200B; デフォルト税金搬送先計算 &#x200B;](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

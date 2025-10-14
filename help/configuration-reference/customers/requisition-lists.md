@@ -22,15 +22,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->B2B 機能に対するこれらの設定オプションへのアクセスは、[ 役割リソース ](../../systems/permissions-user-roles.md#role-resources) によって制御されます。 これらのロールリソースは、管理者ユーザーに割り当てられたユーザーロール用に設定される必要があります。
+>B2B 機能に対するこれらの設定オプションへのアクセスは、[&#x200B; 役割リソース &#x200B;](../../systems/permissions-user-roles.md#role-resources) によって制御されます。 これらのロールリソースは、管理者ユーザーに割り当てられたユーザーロール用に設定される必要があります。
 
 ## [!UICONTROL General]
 
-![ 一般 ](./assets/requisition-lists-general.png)<!-- zoom -->
+![&#x200B; 一般 &#x200B;](./assets/requisition-lists-general.png)<!-- zoom -->
 
 <!-- [General](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/requisition-lists/configure-requisition-lists) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Number of Requisition Lists] | ストア表示 | 顧客 ID ごとに維持可能な購買依頼リストの最大数を決定します。 最小値は `2`、最大値は `999` です。 |
 

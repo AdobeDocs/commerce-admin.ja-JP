@@ -14,15 +14,15 @@ ht-degree: 1%
 
 {{config}}
 
-ストアに対するこれらの複数配送設定の設定について詳しくは、[ 複数のアドレス ](../../stores-purchase/shipping-settings.md#multiple-addresses) を参照してください。
+ストアに対するこれらの複数配送設定の設定について詳しくは、[&#x200B; 複数のアドレス &#x200B;](../../stores-purchase/shipping-settings.md#multiple-addresses) を参照してください。
 
 ## [!UICONTROL Options]
 
-![ オプション ](./assets/multishipping-settings-options.png)<!-- zoom -->
+![&#x200B; オプション &#x200B;](./assets/multishipping-settings-options.png)<!-- zoom -->
 
 <!-- [Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Allow Shipping to Multiple Addresses] | Web サイト | 1 つの注文を複数のアドレスに発送できるようにするかどうかを指定します（登録ユーザのみ）。 オプション：`Yes` / `No` |
 | [!UICONTROL Maximum Qty Allowed for Shipping to Multiple Addresses] | Web サイト | 複数のアドレスに配送可能な商品の単位数の制限を設定します。 |
@@ -31,4 +31,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->![Adobe Commerce B2B](../../assets/b2b.svg) （Adobe Commerce B2B でのみ利用可能）複数の配送先住所からのご注文の場合、お支払い方法 [ アカウントでのお支払い ](../../b2b/enable-basic-features.md#configure-payment-on-account) は、有効になっている場合でも、チェックアウト時には利用できません。
+>![Adobe Commerce B2B](../../assets/b2b.svg) （Adobe Commerce B2B でのみ利用可能）複数の配送先住所からのご注文の場合、お支払い方法 [&#x200B; アカウントでのお支払い &#x200B;](../../b2b/enable-basic-features.md#configure-payment-on-account) は、有効になっている場合でも、チェックアウト時には利用できません。

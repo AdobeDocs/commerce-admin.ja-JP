@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Adobe CommerceとMagento Open Sourceを使用すると、ファイルシステム、データベース、メディアファイルなど、システムの様々な部分をバックアップしたり、自動的にロールバックしたりできます。 各バックアップのレコードは、グリッドの [_バックアップ_] ページに表示されます。 リストからレコードを削除すると、アーカイブされたファイルも削除されます。 データベース バックアップ ファイルは、GZ 形式で圧縮されます。 システムバックアップとデータベースおよびメディアバックアップには、TGZ 形式が使用されます。 ベストプラクティスとして、拡張機能と更新をインストールする前に、バックアップツールへのアクセスを制限し、バックアップする必要があります。
 
-- **バックアップツールへのアクセスを制限します。** バックアップおよびロールバック管理ツールへのアクセスは、バックアップおよびロールバックリソース用に [ ユーザーの役割 ](permissions-user-roles.md) を設定することで制限できます。 アクセスを制限するには、対応するチェックボックスをオフのままにします。 リソースのロールバックへのアクセス権を付与するには、バックアップ リソースへのアクセス権も付与する必要があります。
+- **バックアップツールへのアクセスを制限します。** バックアップおよびロールバック管理ツールへのアクセスは、バックアップおよびロールバックリソース用に [&#x200B; ユーザーの役割 &#x200B;](permissions-user-roles.md) を設定することで制限できます。 アクセスを制限するには、対応するチェックボックスをオフのままにします。 リソースのロールバックへのアクセス権を付与するには、バックアップ リソースへのアクセス権も付与する必要があります。
 
 - **拡張機能とアップデートをインストールする前にバックアップしてください。** 拡張機能またはアップデートをインストールする前に、必ずバックアップを実行してください。
 
@@ -27,7 +27,7 @@ Adobe CommerceとMagento Open Sourceを使用すると、ファイルシステ�
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
-1. ![ の ](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Backup Settings]** を展開します。
+1. ![&#x200B; の &#x200B;](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Backup Settings]** を展開します。
 
 1. **[!UICONTROL Enabled Schedule Backup]** を `Yes` に設定します。
 
@@ -39,7 +39,7 @@ Adobe CommerceとMagento Open Sourceを使用すると、ファイルシステ�
    - **[!UICONTROL Frequency]** を `Daily`、`Weekly` または `Monthly` に設定します。
    - **[!UICONTROL Maintenance Mode]** を `Yes` に設定します。
 
-   ![ 詳細設定 – バックアップ ](../configuration-reference/advanced/assets/system-scheduled-backup-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – バックアップ &#x200B;](../configuration-reference/advanced/assets/system-scheduled-backup-settings.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
@@ -55,7 +55,7 @@ Adobe CommerceとMagento Open Sourceを使用すると、ファイルシステ�
 
    - **[!UICONTROL Database Backup]** - データベースのバックアップを作成します。
 
-   ![ システムツール – バックアップ ](./assets/tools-backups.png){width="600" zoomable="yes"}
+   ![&#x200B; システムツール – バックアップ &#x200B;](./assets/tools-backups.png){width="600" zoomable="yes"}
 
 1. バックアップ中にストアをメンテナンスモードにするには、このチェックボックスを選択します。
 

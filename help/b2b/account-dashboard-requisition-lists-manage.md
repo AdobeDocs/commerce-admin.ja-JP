@@ -14,7 +14,7 @@ ht-degree: 0%
 
 購買依頼リストを維持する主な理由は、製品の再発注を容易にすることです。 認証済みの顧客は、品目を買い物かごに追加することで購買依頼リストから品目を簡単に並べ替え、リスト間で品目を移動またはコピーできます。
 
-![ 自分の購買依頼リスト ](./assets/account-dashboard-my-requisition-lists.png){width="700" zoomable="yes"}
+![&#x200B; 自分の購買依頼リスト &#x200B;](./assets/account-dashboard-my-requisition-lists.png){width="700" zoomable="yes"}
 
 ## 購買依頼リストをオープンします。
 
@@ -33,13 +33,13 @@ ht-degree: 0%
 
 1. 製品オプションを変更するには、次の操作を行います。
 
-   - 行項目で、_編集_ （![ 鉛筆アイコン ](../assets/icon-edit-pencil.png)） アイコンをクリックします。
+   - 行項目で、_編集_ （![&#x200B; 鉛筆アイコン &#x200B;](../assets/icon-edit-pencil.png)） アイコンをクリックします。
    - 必要なオプションを変更します。
    - **[!UICONTROL Update Requisition List]** をクリックします。
 
 1. **[!UICONTROL Add to Cart]** をクリックします。
 
-   ![ 購買依頼リスト詳細 ](./assets/requisition-list-view.png){width="700" zoomable="yes"}
+   ![&#x200B; 購買依頼リスト詳細 &#x200B;](./assets/requisition-list-view.png){width="700" zoomable="yes"}
 
 ### 別のリストに項目をコピー
 
@@ -73,27 +73,27 @@ Adobe Commerceは、`sku` 値と `qty` 値を含む CSV リストを生成して
 
 1. 出力デバイスを検証し、**[!UICONTROL Print]** をクリックします。
 
-   ![ 購買依頼表の印刷 ](./assets/requisition-list-print.png){width="500" zoomable="yes"}
+   ![&#x200B; 購買依頼表の印刷 &#x200B;](./assets/requisition-list-print.png){width="500" zoomable="yes"}
 
 ### 製品オプションを編集
 
 リストの製品オプションを編集するには、顧客が次の操作を行います。
 
-1. _鉛筆_ （![ 鉛筆アイコン ](../assets/icon-edit-pencil.png)）アイコンをクリックして、製品ページを開きます。
+1. _鉛筆_ （![&#x200B; 鉛筆アイコン &#x200B;](../assets/icon-edit-pencil.png)）アイコンをクリックして、製品ページを開きます。
 
 1. 必要なオプションを変更します。
 
 1. **[!UICONTROL Update Requisition List]** をクリックします。
 
-   ![ 購買依頼一覧の更新 ](./assets/requisition-list-update.png){width="700" zoomable="yes"}
+   ![&#x200B; 購買依頼一覧の更新 &#x200B;](./assets/requisition-list-update.png){width="700" zoomable="yes"}
 
 購買依頼リスト内の製品は、次の場合に編集できます。
 
-- 商品に **[!UICONTROL all options set]** が設定されている（購入リストの [ 設定済み商品 ](../catalog/product-create-configurable.md) の場合）。
+- 商品に **[!UICONTROL all options set]** が設定されている（購入リストの [&#x200B; 設定済み商品 &#x200B;](../catalog/product-create-configurable.md) の場合）。
 
   製品は **[!UICONTROL added to this Requisition List]** です。
 
-- 製品は [ オプション付きのシンプルな製品 ](../catalog/settings-advanced-custom-options.md) です
+- 製品は [&#x200B; オプション付きのシンプルな製品 &#x200B;](../catalog/settings-advanced-custom-options.md) です
 
 - 商品タイプは編集が許可されています。
 
@@ -113,7 +113,7 @@ Adobe Commerceは、`sku` 値と `qty` 値を含む CSV リストを生成して
 
 1. **[!UICONTROL Save]** をクリックします。
 
-   ![ 購買依頼リストの名前変更 ](./assets/requisition-list-rename.png){width="300"}
+   ![&#x200B; 購買依頼リストの名前変更 &#x200B;](./assets/requisition-list-rename.png){width="300"}
 
 
 ### 購買依頼リストの削除

@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. 顧客が Enter キーを押すか、一致する製品のリスト内の結果をクリックします。
 
-   ![ 検索 ](./assets/storefront-search-box.png){width="700" zoomable="yes"}
+   ![&#x200B; 検索 &#x200B;](./assets/storefront-search-box.png){width="700" zoomable="yes"}
 
 ## 詳細検索
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 詳細検索を使用すると、買い物客はフォームに入力された値に基づいてカタログを検索できます。 フォームには複数のフィールドが含まれているので、1 回の検索で複数のパラメーターを指定できます。 結果として、条件に一致するカタログ内のすべての製品のリストが表示されます。 詳細検索へのリンクは、ストアのフッターにあります。
 
-![ 詳細検索 ](./assets/storefront-search-advanced.png){width="700" zoomable="yes"}
+![&#x200B; 詳細検索 &#x200B;](./assets/storefront-search-advanced.png){width="700" zoomable="yes"}
 
 フォーム内の各フィールドは、製品カタログの属性に対応しています。 フィールドを追加するには、属性のフロントエンドのプロパティを `Include in Advanced Search` に設定します。 ベストプラクティスとして、顧客が製品を見つけるために使用する可能性が最も高いフィールドのみを含めます。多すぎると検索が遅くなるからです。
 
@@ -62,6 +62,6 @@ ht-degree: 0%
 
 1. **[!UICONTROL Search]** をクリックして結果を表示します。
 
-   ![ 検索結果 ](./assets/storefront-search-advanced-results-modify.png){width="700" zoomable="yes"}
+   ![&#x200B; 検索結果 &#x200B;](./assets/storefront-search-advanced-results-modify.png){width="700" zoomable="yes"}
 
 1. 検索結果に探しているものが表示されない場合、顧客は **[!UICONTROL Modify your search]** をクリックして、別の条件の組み合わせを試みます。

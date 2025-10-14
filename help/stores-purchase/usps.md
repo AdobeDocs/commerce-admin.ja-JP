@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Delivery Methods]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL USPS]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL USPS]**」セクションを展開します。
 
    >[!NOTE]
    >
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 1. 通信事業者の要件に従って **[!UICONTROL Maximum Package Weight]** を入力します。
 
-   ![USPS パッケージ設定 ](../configuration-reference/sales/assets/delivery-methods-usps-packaging.png){width="600" zoomable="yes"}
+   ![USPS パッケージ設定 &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-packaging.png){width="600" zoomable="yes"}
 
 ## 手順 4：手数料の設定
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
    パーセンテージを入力するには、小数点形式を使用します。 例えば、25% の場合は `0.25` と入力します。
 
-   ![USPS 手数料 ](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
+   ![USPS 手数料 &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
 
 ## 手順 5：許可される方法と適用可能な国を指定
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
    メソッドは、チェックアウト時に USPS の下に表示されます。 複数の方法を選択するには、Ctrl キー（PC）または Command キー（Mac）を押したまま、各オプションをクリックします。
 
-1. USPS 経由で [ 送料無料 ](shipping-free.md) オプションを提供する場合は、送料無料オプションを設定します。
+1. USPS 経由で [&#x200B; 送料無料 &#x200B;](shipping-free.md) オプションを提供する場合は、送料無料オプションを設定します。
 
    - 送料無料に使用する方法に **[!UICONTROL Free Method]** を設定します。 USPS 経由で送料無料を提供したくない場合は、`None` を選択します。
 
@@ -107,14 +107,14 @@ ht-degree: 0%
 
    このテキスト ボックスには既定のメッセージがあらかじめ設定されていますが、USPS が使用できなくなったときに表示する別のメッセージを入力できます。
 
-   ![USPS 許可メソッド ](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
+   ![USPS 許可メソッド &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Ship to Applicable Countries]** を次のいずれかに設定します。
 
-   - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) の顧客がこの配信方法を使用できます。
+   - `All Allowed Countries` - ストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../getting-started/store-details.md#country-options) の顧客がこの配信方法を使用できます。
    - `Specific Countries` – このオプションを選択すると、「_特定の国に発送_ リストが表示されます。 リストで、この配信方法を使用できる国を選択します。
 
-   ![USPS 対象国 ](../configuration-reference/sales/assets/delivery-methods-usps-countries.png){width="600" zoomable="yes"}
+   ![USPS 対象国 &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-countries.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Show Method if Not Applicable]** を次のいずれかに設定します。
 

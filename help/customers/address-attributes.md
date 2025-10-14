@@ -14,9 +14,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-顧客住所属性セットは、顧客のアカウントまたは [ チェックアウト ](../stores-purchase/checkout-process.md) 中に [ アドレス帳 ](account-dashboard-address-book.md) に入力された住所のプロパティを決定します。
+顧客住所属性セットは、顧客のアカウントまたは [&#x200B; チェックアウト &#x200B;](../stores-purchase/checkout-process.md) 中に [&#x200B; アドレス帳 &#x200B;](account-dashboard-address-book.md) に入力された住所のプロパティを決定します。
 
-カスタム アドレス属性は、オプションの E メール アドレス、Skype アカウント、代替電話番号、建物、郡などの追加情報を提供するように設定できます。 カスタム属性は、販売ドキュメントの作成に使用される [ アドレステンプレート ](address-templates.md) に組み込むことができます。 カスタムアドレス属性を作成するプロセスは、[ 顧客属性 ](attribute-properties.md) を作成するプロセスとほとんど同じです。
+カスタム アドレス属性は、オプションの E メール アドレス、Skype アカウント、代替電話番号、建物、郡などの追加情報を提供するように設定できます。 カスタム属性は、販売ドキュメントの作成に使用される [&#x200B; アドレステンプレート &#x200B;](address-templates.md) に組み込むことができます。 カスタムアドレス属性を作成するプロセスは、[&#x200B; 顧客属性 &#x200B;](attribute-properties.md) を作成するプロセスとほとんど同じです。
 
 顧客の住所属性は、次の形式で使用されます。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 右上隅の「**[!UICONTROL Add New Attribute]**」をクリックします。
 
-   ![ 顧客属性のプロパティ ](./assets/attribute-customer-address-new.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客属性のプロパティ &#x200B;](./assets/attribute-customer-address-new.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Attribute Properties]** セクションで、次の操作を行います。
 
@@ -88,13 +88,13 @@ ht-degree: 0%
 
    - この属性で顧客グリッドを検索するには、**[!UICONTROL Use in Search Options]** を `Yes` に設定します。
 
-   - この属性を [ 顧客セグメント ](customer-segments.md) で使用できるようにするには、**[!UICONTROL Use in Customer Segment]** を `Yes` に設定します。
+   - この属性を [&#x200B; 顧客セグメント &#x200B;](customer-segments.md) で使用できるようにするには、**[!UICONTROL Use in Customer Segment]** を `Yes` に設定します。
 
 ## 手順 2：ストアフロントのプロパティを完了する
 
 1. **[!UICONTROL Storefront Properties]** セクションまで下にスクロールします。
 
-   ![ 顧客アドレス属性 – Storefront プロパティ ](./assets/attribute-customer-address-storefront-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客アドレス属性 – Storefront プロパティ &#x200B;](./assets/attribute-customer-address-storefront-properties.png){width="600" zoomable="yes"}
 
 1. 顧客に属性を表示するには、**[!UICONTROL Show on Storefront]** を `Yes` に設定します。
 
@@ -111,11 +111,11 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Manage Labels/Options]**」を選択します。
 
-1. **[!UICONTROL Manage Titles]** の下に、各 [ ストア表示 ](../getting-started/websites-stores-views.md) の属性を識別するラベルを入力します。
+1. **[!UICONTROL Manage Titles]** の下に、各 [&#x200B; ストア表示 &#x200B;](../getting-started/websites-stores-views.md) の属性を識別するラベルを入力します。
 
 1. 完了したら、「**[!UICONTROL Save Attribute]**」をクリックします。
 
-   ![ 顧客住所属性 – ラベル/オプション ](./assets/attribute-customer-address-new-manage-label-options.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客住所属性 – ラベル/オプション &#x200B;](./assets/attribute-customer-address-new-manage-label-options.png){width="600" zoomable="yes"}
 
 ## フィールドの説明
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Default Label] | 管理者およびストアフロントで属性を識別するデフォルトのラベル。 |
 | [!UICONTROL Attribute Code] | システム内の属性を識別する一意のコード。 コードの長さは最大 21 文字で、スペースや特殊文字を含めることはできません。 アンダースコア記号はスペースの代わりに使用できます。 |
-| [!UICONTROL Input Type] | データ入力に使用する [ 入力コントロール ](../catalog/attributes-input-types.md) を決定します。 オプション：<br/>**`Text Field`**- 1 行のテキストフィールド。<br/>**`Text Area`** – 複数行のテキスト領域。 <br/>**`Multiple Line`**– 複数行の住所のように、属性に対して複数のテキスト行を作成します。 個別のデータ入力行の数は、2 ～ 20 の範囲で指定できます。<br/>**`Date`** – 日付フィールドとポップアップカレンダーを表示します。<br/>**`Dropdown`**– 値の選択を 1 つだけ受け入れるドロップダウンリスト。<br/>**`Multiple Select`** – 複数の値の選択を受け入れるドロップダウンリスト。 <br/>**`Yes/No`**- `Yes` 値または `No` 値の選択のみを提供するフィールド。<br/>**`File (attachment)`** - ファイルをアップロードし、顧客属性に添付ファイルとして関連付けることができるフィールド。 <br/>**`Image File`**– 画像をギャラリーにアップロードし、顧客属性に関連付けることができるフィールド。 |
+| [!UICONTROL Input Type] | データ入力に使用する [&#x200B; 入力コントロール &#x200B;](../catalog/attributes-input-types.md) を決定します。 オプション：<br/>**`Text Field`**- 1 行のテキストフィールド。<br/>**`Text Area`** – 複数行のテキスト領域。 <br/>**`Multiple Line`**– 複数行の住所のように、属性に対して複数のテキスト行を作成します。 個別のデータ入力行の数は、2 ～ 20 の範囲で指定できます。<br/>**`Date`** – 日付フィールドとポップアップカレンダーを表示します。<br/>**`Dropdown`**– 値の選択を 1 つだけ受け入れるドロップダウンリスト。<br/>**`Multiple Select`** – 複数の値の選択を受け入れるドロップダウンリスト。 <br/>**`Yes/No`**- `Yes` 値または `No` 値の選択のみを提供するフィールド。<br/>**`File (attachment)`** - ファイルをアップロードし、顧客属性に添付ファイルとして関連付けることができるフィールド。 <br/>**`Image File`**– 画像をギャラリーにアップロードし、顧客属性に関連付けることができるフィールド。 |
 | [!UICONTROL Values Required] | フィールドに値を入力する必要があるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Default Value] | 属性の初期値を指定します。 |
 | [!UICONTROL Input Validation] | オプションの選択は、入力タイプによって決まります。 オプション：<br/>**`None`**- フィールドには、データ入力時に入力検証はありません。<br/>**`Alphanumeric`** - データ入力時に数字（0 ～ 9）と英字（a ～ z、A ～ Z）の任意の組み合わせを使用できます。 <br/>**`Alphanumeric with Space`**– 配送業者の最大長の要件に準拠するために、番地内のスペースを許可します。 チェックアウト時に、お客様は数字（0 ～ 9）、英字（a ～ z、A ～ Z）、および受信者と送信者の住所のスペースを任意に組み合わせて入力できます。 アドレスを保存する際、余分なスペースは削除されます。<br/>**`Numeric Only`** - データ入力中は数字（0 ～ 9）のみを使用できます。 <br/>**`Alpha Only`**- データ入力時に使用できる文字は、英字（a ～ z、A ～ Z）のみです。<br/>**&#x200B; URL &#x200B;**- データ入力時に URL のみを受け入れます。<br/>**`Email`** - データ入力時にメールアドレスのみを受け入れます。 <br/>**`Length Only`**- フィールドに入力されたデータの長さに基づいて入力を検証します。 |
@@ -134,7 +134,7 @@ ht-degree: 0%
 | フィルターオプションで使用 | 属性をグリッドからの検索操作のフィルターとして使用できるかどうかを指定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Grid Filter Condition Type] | グリッドからの検索操作で、属性のフィルター一致条件を指定します。 グリッドの _[!UICONTROL Search by keyword]_&#x200B;フィールドには影響しません。 オプション：`Partial Match`/`Prefix Match`/`Full Match` |
 | [!UICONTROL Use in Search Options] | 属性値を検索操作でキーワードとして使用できるかどうかを指定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Use in Customer Segment] | 属性が [ 顧客セグメント ](./customer-segments.md) 条件に含まれるかどうかを決定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Use in Customer Segment] | 属性が [&#x200B; 顧客セグメント &#x200B;](./customer-segments.md) 条件に含まれるかどうかを決定します。 オプション：`Yes` / `No` |
 
 ### [!UICONTROL Storefront Properties]
 

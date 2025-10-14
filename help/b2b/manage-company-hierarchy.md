@@ -39,19 +39,19 @@ ht-degree: 0%
 
 管理者から、`[!UICONTROL Company Type] = Company` 設定で個々の会社（[!UICONTROL Company Hierarchy]）を編集して関連会社を割り当てることにより、親会社を作成します。
 
-![ 会社階層グリッド ](./assets/company-hierarchy-grid.png){width="700"}
+![&#x200B; 会社階層グリッド &#x200B;](./assets/company-hierarchy-grid.png){width="700"}
 
 >[!NOTE]
 >
->[!UICONTROL Company Hierarchy] グリッドについて詳しくは、「[ 会社階層 ](account-company-create.md#company-hierarchy) フィールドの説明を参照してください。
+>[!UICONTROL Company Hierarchy] グリッドについて詳しくは、「[&#x200B; 会社階層 &#x200B;](account-company-create.md#company-hierarchy) フィールドの説明を参照してください。
 
-親会社を編集し、*[!UICONTROL Company Hierarchy]* グリッドを使用して会社を追加または削除することで、会社の割り当てを管理します。 *[!UICONTROL Actions]* コントロールを使用して、組織内の会社の [ 詳細設定の構成 ](#change-company-settings) を管理します。
+親会社を編集し、*[!UICONTROL Company Hierarchy]* グリッドを使用して会社を追加または削除することで、会社の割り当てを管理します。 *[!UICONTROL Actions]* コントロールを使用して、組織内の会社の [&#x200B; 詳細設定の構成 &#x200B;](#change-company-settings) を管理します。
 
 ## 親会社への会社の割り当て
 
 1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL Companies]** に移動します。
 
-   ![ 会社グリッド ](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+   ![&#x200B; 会社グリッド &#x200B;](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 1. [!UICONTROL Companies] グリッドから、会社の詳細ページを開いて割り当てを作成します。
 
@@ -62,11 +62,11 @@ ht-degree: 0%
 
 1. 会社の詳細ページで、「**[!UICONTROL Company Hierarchy]**」を展開し、「**[!UICONTROL Assign Companies]**」を選択します。
 
-   ![ 親会社を作成 ](./assets/company-hierarchy-grid.png){width="675" zoomable="yes"}
+   ![&#x200B; 親会社を作成 &#x200B;](./assets/company-hierarchy-grid.png){width="675" zoomable="yes"}
 
 1. 使用可能な会社のリストから、割り当てる会社を選択し、「**[!UICONTROL Assign Selected Companies]**」を選択します。
 
-   ![ 割り当てる会社を選択 ](./assets/company-hierarchy-select-companies-assign.png){width="675" zoomable="yes"}
+   ![&#x200B; 割り当てる会社を選択 &#x200B;](./assets/company-hierarchy-select-companies-assign.png){width="675" zoomable="yes"}
 
 1. プロンプトが表示されたら、「**[!UICONTROL Assign]**」を選択して会社の割り当てを完了します。
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 1. 会社ページで、**[!UICONTROL Edit]** のアクションを選択して、親会社の会社の詳細ページを開きます。
 
-   ![ 親会社の詳細ページ ](./assets/company-update.png){width="700" zoomable="yes"}
+   ![&#x200B; 親会社の詳細ページ &#x200B;](./assets/company-update.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL Company Hierarchy]** を展開すると、割り当てられている会社のリストを表示できます。
 
@@ -82,13 +82,13 @@ ht-degree: 0%
 
    * 削除する会社の [!UICONTROL Action] 列で、**[!UICONTROL Select]**/**[!UICONTROL Unassign from parent]** を選択します。
 
-     ![ 組織からの会社の削除 ](./assets/company-hierarchy-grid-unassign.png){width="640" zoomable="yes"}
+     ![&#x200B; 組織からの会社の削除 &#x200B;](./assets/company-hierarchy-grid-unassign.png){width="640" zoomable="yes"}
 
    * プロンプトが表示されたら、「**[!UICONTROL Unassign]**」を選択して、割り当てられた会社を階層から削除します。
 
 ## 組織の会社設定の管理
 
-組織の [ 詳細設定 ](account-company-create.md#advanced-settings) 設定を更新します。 次の操作を実行できます。
+組織の [&#x200B; 詳細設定 &#x200B;](account-company-create.md#advanced-settings) 設定を更新します。 次の操作を実行できます。
 
 * すべての子会社に親構成設定を適用
 * 組織内の選択した会社に同じ設定を適用します
@@ -126,11 +126,11 @@ ht-degree: 0%
 
 1. 設定する会社を選択します。
 
-   ![ 会社階層から会社を選択 ](assets/company-hierarchy-select-companies.png){width="675" zoomable="yes"}
+   ![&#x200B; 会社階層から会社を選択 &#x200B;](assets/company-hierarchy-select-companies.png){width="675" zoomable="yes"}
 
 1. グリッドの上にある **[!UICONTROL Actions]** コントロールから、[**[!UICONTROL Change company settings]**] を選択します。
 
-   ![ 会社階層の会社設定の変更 ](assets/company-hierarchy-change-company-settings-action.png){width="675" zoomable="yes"}
+   ![&#x200B; 会社階層の会社設定の変更 &#x200B;](assets/company-hierarchy-change-company-settings-action.png){width="675" zoomable="yes"}
 
 1. 設定の構成を変更します。
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
    * 必要に応じて、値を更新します。
 
-     ![ 複数の会社の会社設定の変更 ](assets/company-hierarchy-change-settings-config.png){width="575" zoomable="yes"}
+     ![&#x200B; 複数の会社の会社設定の変更 &#x200B;](assets/company-hierarchy-change-settings-config.png){width="575" zoomable="yes"}
 
 1. 設定を更新したら、「**[!UICONTROL Apply Changes]**」を選択します。
 
@@ -148,8 +148,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ 会社アカウントの作成 ](account-company-create.md) – 階層を構築する前に、個々の会社を作成する方法を説明します
->* [ 会社の役割と権限 ](account-company-roles-permissions.md) – 会社構造内のユーザーアクセスについて
->* [ 会社の与信管理 ](credit-company.md) – 会社の与信限度額と支払条件を設定します
->* [ 会社の管理 ](manage-companies.md) – 会社管理機能の概要
->* [B2B 機能の有効化 ](enable-basic-features.md) - B2B 機能を有効にして設定します
+>* [&#x200B; 会社アカウントの作成 &#x200B;](account-company-create.md) – 階層を構築する前に、個々の会社を作成する方法を説明します
+>* [&#x200B; 会社の役割と権限 &#x200B;](account-company-roles-permissions.md) – 会社構造内のユーザーアクセスについて
+>* [&#x200B; 会社の与信管理 &#x200B;](credit-company.md) – 会社の与信限度額と支払条件を設定します
+>* [&#x200B; 会社の管理 &#x200B;](manage-companies.md) – 会社管理機能の概要
+>* [B2B 機能の有効化 &#x200B;](enable-basic-features.md) - B2B 機能を有効にして設定します

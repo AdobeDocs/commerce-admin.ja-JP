@@ -22,13 +22,13 @@ ht-degree: 0%
 
 書き出しフィルターは、属性値に基づいて、書き出しファイルに含めるデータを指定するために使用します。 さらに、書き出しに含める、または書き出しから除外する属性データを指定できます。
 
-![ データの書き出し条件 ](./assets/data-export-entity-attributes-exclude.png){width="600" zoomable="yes"}
+![&#x200B; データの書き出し条件 &#x200B;](./assets/data-export-entity-attributes-exclude.png){width="600" zoomable="yes"}
 
 ### フィルターを書き出し
 
 フィルターを使用して、書き出しファイルに含める SKU を指定できます。 例えば、「製造国」フィルターに値を入力した場合、書き出された CSV ファイルには、その国で製造された製品のみが含まれます。
 
-フィルターのタイプは、データタイプに対応します。 日付フィールドでは、カレンダー ![ カレンダーアイコン ](../assets/icon-calendar.png) から日付を選択できます。 詳しくは、[ 属性入力タイプ ](../catalog/attributes-input-types.md) を参照してください。
+フィルターのタイプは、データタイプに対応します。 日付フィールドでは、カレンダー ![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png) から日付を選択できます。 詳しくは、[&#x200B; 属性入力タイプ &#x200B;](../catalog/attributes-input-types.md) を参照してください。
 
 日付の形式は [locale](../getting-started/store-details.md#locale-options) によって決まります。
 
@@ -40,10 +40,10 @@ SKU など特定の値を持つレコードのみを含めるには、その値�
 
 | 除外 | フィルター | 結果 |
 |--- |--- |--- |
-| ![ オフのチェックボックス ](../assets/checkbox-clear.png) | 不可 | 書き出されるファイルには、既存のすべてのレコードの各属性が含まれます。 |
-| ![ オフのチェックボックス ](../assets/checkbox-clear.png) | はい | エクスポートファイルには、フィルターで許可されたレコードのみを含んだ各属性が含まれています。 |
-| ![ 選択されたチェックボックス ](../assets/checkbox-selected.png) | 不可 | エクスポートファイルには、除外属性の列は含まれず、既存のすべてのレコードが含まれます。 |
-| ![ 選択されたチェックボックス ](../assets/checkbox-selected.png) | はい | エクスポートファイルには、除外属性の列は含まれておらず、フィルターで許可されたレコードのみが含まれています。 |
+| ![&#x200B; オフのチェックボックス &#x200B;](../assets/checkbox-clear.png) | 不可 | 書き出されるファイルには、既存のすべてのレコードの各属性が含まれます。 |
+| ![&#x200B; オフのチェックボックス &#x200B;](../assets/checkbox-clear.png) | はい | エクスポートファイルには、フィルターで許可されたレコードのみを含んだ各属性が含まれています。 |
+| ![&#x200B; 選択されたチェックボックス &#x200B;](../assets/checkbox-selected.png) | 不可 | エクスポートファイルには、除外属性の列は含まれず、既存のすべてのレコードが含まれます。 |
+| ![&#x200B; 選択されたチェックボックス &#x200B;](../assets/checkbox-selected.png) | はい | エクスポートファイルには、除外属性の列は含まれておらず、フィルターで許可されたレコードのみが含まれています。 |
 
 {style="table-layout:auto"}
 
@@ -60,7 +60,7 @@ SKU など特定の値を持つレコードのみを含めるには、その値�
    - `Customer Addresses`
    - `Stock Sources`
 
-   ![ データ書き出し設定 ](./assets/data-export-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; データ書き出し設定 &#x200B;](./assets/data-export-settings.png){width="600" zoomable="yes"}
 
 1. CSV のデフォルト **[!UICONTROL Export File Format]** をそのまま使用します。
 
@@ -68,9 +68,9 @@ SKU など特定の値を持つレコードのみを含めるには、その値�
 
 1. 必要に応じて、エンティティ属性の表示を変更します。
 
-   デフォルトでは、「エンティティ属性」セクションには、使用可能なすべての属性がアルファベット順に表示されます。 標準の [ リストコントロール ](../getting-started/admin-grid-controls.md) を使用して、特定の属性を検索したり、リストを並べ替えたりできます。 [ 検索 ] および [ フィルタのリセット ] コントロールは、リストの表示をコントロールしますが、書き出しファイルに含める属性の選択には影響しません。
+   デフォルトでは、「エンティティ属性」セクションには、使用可能なすべての属性がアルファベット順に表示されます。 標準の [&#x200B; リストコントロール &#x200B;](../getting-started/admin-grid-controls.md) を使用して、特定の属性を検索したり、リストを並べ替えたりできます。 [ 検索 ] および [ フィルタのリセット ] コントロールは、リストの表示をコントロールしますが、書き出しファイルに含める属性の選択には影響しません。
 
-   ![ フィルターされたエンティティ属性のデータ書き出し ](./assets/data-export-filter-entity-attributes.png){width="600" zoomable="yes"}
+   ![&#x200B; フィルターされたエンティティ属性のデータ書き出し &#x200B;](./assets/data-export-filter-entity-attributes.png){width="600" zoomable="yes"}
 
 1. 属性値に基づいて書き出したデータをフィルタリングするには、次の手順を実行します。
 
@@ -80,7 +80,7 @@ SKU など特定の値を持つレコードのみを含めるには、その値�
 
 1. 下にスクロールして、ページの右下隅にある「**[!UICONTROL Continue]**」をクリックします。
 
-   タスクが完了すると、ファイルはメッセージキューを介して処理されます（cron ジョブが実行中であることを確認してください）。 書き出されたファイルは `var/export/ folder` に保存されます。 メッセージキューの詳細については、[ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ja) の _メッセージキューの管理_ を参照してください。
+   タスクが完了すると、ファイルはメッセージキューを介して処理されます（cron ジョブが実行中であることを確認してください）。 書き出されたファイルは `var/export/ folder` に保存されます。 メッセージキューの詳細については、[&#x200B; 設定ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ja) の _メッセージキューの管理_ を参照してください。
 
    書き出された CSV ファイルをスプレッドシートとして保存または開き、データを編集してストアに読み込むことができます。
 
@@ -92,4 +92,4 @@ SKU など特定の値を持つレコードのみを含めるには、その値�
 
 データの書き出しに関する問題のトラブルシューティングについて詳しくは、Commerce サポートナレッジベースの次の記事を参照してください。
 
-- [ 書き出された製品の.csv ファイルが表示されない ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=ja)
+- [&#x200B; 書き出された製品の.csv ファイルが表示されない &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=ja)

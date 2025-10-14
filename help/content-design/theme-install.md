@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-開始する前に、有効な [[!DNL Commerce]  アクセスキー ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=ja) セットがあることを確認します。
+開始する前に、有効な [[!DNL Commerce]  アクセスキー &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=ja) セットがあることを確認します。
 
 [!DNL Commerce] ストアにテーマを追加するには、[!DNL Commerce Marketplace] の手順に従ってください。
 
@@ -27,4 +27,4 @@ ht-degree: 0%
 1. パッケージをダウンロードします
 1. テーマのインストール
 
-テーマをストアに適用するには、[ テーマ ](themes.md) を参照してください。
+テーマをストアに適用するには、[&#x200B; テーマ &#x200B;](themes.md) を参照してください。

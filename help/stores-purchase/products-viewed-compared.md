@@ -20,11 +20,11 @@ _最近表示された項目と最近比較された項目_ ブロックは、�
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Recently Viewed/Compared Products]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Recently Viewed/Compared Products]**」セクションを展開します。
 
-   ![ カタログの設定 – 最近表示または比較した製品 ](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログの設定 – 最近表示または比較した製品 &#x200B;](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
 
-   これらの各設定について詳しくは、『設定リファレンスガイド _の [ 最近閲覧/比較された製品 ](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products) を参照してください_。
+   これらの各設定について詳しくは、『設定リファレンスガイド _の [&#x200B; 最近閲覧/比較された製品 &#x200B;](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products) を参照してください_。
 
 1. 製品 ID などの製品ウィジェット情報を、データベース内の現在の製品ストレージの可用性と同期し、この情報を別のデバイスで再利用するには、**[!UICONTROL Synchronize widget products with backend storage]** を設定します。
 

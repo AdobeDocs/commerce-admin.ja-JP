@@ -16,11 +16,11 @@ ht-degree: 2%
 
 ## [!UICONTROL Contact Us]
 
-![ お問い合わせ ](./assets/contacts-contact-us.png)<!-- zoom -->
+![&#x200B; お問い合わせ &#x200B;](./assets/contacts-contact-us.png)<!-- zoom -->
 
 <!-- [Contact Us](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Contact Us] | ストア表示 | [_お問い合わせ_](../../getting-started/store-details.md#contact-us-form) ページを有効にし、フッターにリンクを配置します。 |
 
@@ -28,11 +28,11 @@ ht-degree: 2%
 
 ## [!UICONTROL Email Options]
 
-![ メールオプション ](./assets/contacts-email-options.png)<!-- zoom -->
+![&#x200B; メールオプション &#x200B;](./assets/contacts-email-options.png)<!-- zoom -->
 
 <!-- [Email Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Send Emails To] | ストア表示 | _お問い合わせ_ ページからすべての応答を受信するメールアドレスを識別します |
 | [!UICONTROL Email Sender] | ストア表示 | _お問い合わせ_ ページからの電子メール照会に対するすべての応答に使用する店舗連絡先を識別します。 既定の送信者：`Custom Email 2` |

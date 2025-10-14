@@ -39,20 +39,20 @@ Adobe Commerce B2B 拡張機能は、サポートされてい `magento/extension
 
 **前提条件**
 
-- [repo.magento.com](https://repo.magento.com/) にアクセスして、拡張機能をダウンロードします。 キーの生成と必要な権限の取得については、[ 認証キーの取得 ](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) を参照してください。
+- [repo.magento.com](https://repo.magento.com/) にアクセスして、拡張機能をダウンロードします。 キーの生成と必要な権限の取得については、[&#x200B; 認証キーの取得 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) を参照してください。
 
   [COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home) ディレクトリでグローバルに定義することにより、インストール用に認証キーを保存します。 または、Adobe Commerce アプリケーションのルートディレクトリにある [auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/#authentication-file) ファイルに保存します。
 
-- [B2B 拡張機能のサポート対象バージョン ](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/product-availability)- デプロイ済みのAdobe Commerce バージョンでサポートされている B2B 拡張機能の最新バージョンを特定します。
+- [B2B 拡張機能のサポート対象バージョン &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/product-availability)- デプロイ済みのAdobe Commerce バージョンでサポートされている B2B 拡張機能の最新バージョンを特定します。
 
 - インストールまたはアップグレードの要件に影響を与える可能性のある、バージョンの互換性、アップデート、変更に関する最新の情報については、リリースノートを参照してください。
 
    - [B2B リリースノート](release-notes.md)
-   - [Adobe Commerce リリースノート ](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/versions)
+   - [Adobe Commerce リリースノート &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/versions)
 
 >[!ENDSHADEBOX]
 
-Composer を使用して B2B 拡張機能（`magento/b2b-extension`）をインストールします。 拡張機能は、Adobe Commerce インスタンスの B2B 機能を有効にするモジュールのコレクションを含む composer メタパッケージです。 含まれているモジュールのリストについては、[B2B パッケージ ](packages.md) を参照してください。
+Composer を使用して B2B 拡張機能（`magento/b2b-extension`）をインストールします。 拡張機能は、Adobe Commerce インスタンスの B2B 機能を有効にするモジュールのコレクションを含む composer メタパッケージです。 含まれているモジュールのリストについては、[B2B パッケージ &#x200B;](packages.md) を参照してください。
 
 >[!BEGINTABS]
 
@@ -62,7 +62,7 @@ Composer を使用して B2B 拡張機能（`magento/b2b-extension`）をイン�
 >
 >Adobeでは、クラウドインフラストラクチャにAdobe Commerce B2B をインストールする場合、開始前にAdobe Commerce アプリケーションを統合環境またはステージング環境にデプロイすることをお勧めします。
 
-Adobeでは、B2B 拡張機能をプロジェクトに追加する際に、開発ブランチで作業することをお勧めします。 ブランチがない場合は、[ 開発用のブランチの作成 ](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/develop/cli-branches) を参照してください。 B2B 拡張機能をインストールする場合、`Magento_B2b` 拡張機能名が `app/etc/config.php` ファイルに自動的に挿入されます。 ファイルを直接編集する必要はありません。
+Adobeでは、B2B 拡張機能をプロジェクトに追加する際に、開発ブランチで作業することをお勧めします。 ブランチがない場合は、[&#x200B; 開発用のブランチの作成 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/develop/cli-branches) を参照してください。 B2B 拡張機能をインストールする場合、`Magento_B2b` 拡張機能名が `app/etc/config.php` ファイルに自動的に挿入されます。 ファイルを直接編集する必要はありません。
 
 **B2B 拡張機能をインストールするには**:
 
@@ -98,7 +98,7 @@ Adobeでは、B2B 拡張機能をプロジェクトに追加する際に、開�
 
    >[!NOTE]
    >
-   >更新をクラウド環境にプッシュすると、Commerce クラウドのデプロイメントプロセスが開始されて、変更が適用されます。 [ デプロイメントログ ](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/develop/deploy/process) からデプロイメントステータスを確認します。 デプロイメントエラーが発生した場合は、[ コンポーネントの障害からの回復 ](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment) を参照してください。
+   >更新をクラウド環境にプッシュすると、Commerce クラウドのデプロイメントプロセスが開始されて、変更が適用されます。 [&#x200B; デプロイメントログ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/develop/deploy/process) からデプロイメントステータスを確認します。 デプロイメントエラーが発生した場合は、[&#x200B; コンポーネントの障害からの回復 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment) を参照してください。
 
 1. ビルドおよびデプロイが完了したら、SSH を使用してリモート環境にログインし、B2B 拡張機能がインストールされ、有効になっていることを確認します。
 
@@ -130,7 +130,7 @@ Adobeでは、B2B 拡張機能をプロジェクトに追加する際に、開�
 
    パッケージのスペル、バージョンの制約、パッケージが使用可能で、最小安定性（安定）の要件に一致していることを確認します。
 
-1. プロンプトが表示されたら、[ 認証キー ](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) を入力します。
+1. プロンプトが表示されたら、[&#x200B; 認証キー &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) を入力します。
 
    _公開鍵_ はユーザー名で、_秘密鍵_ はパスワードです。 公開鍵と秘密鍵を `auth.json` に保存している場合は、認証を求められません。
 
@@ -171,26 +171,26 @@ Adobe Commerce B2B 拡張機能は、メッセージキューの管理に MySQL 
 | `negotiableQuotePriceUpdate` | 交渉可能な見積の価格を更新します。 管理システムの設定で「[**[!UICONTROL Quotes]**](quotes.md)」オプションが有効になっている場合は必須です。 |
 | `purchaseorder.toorder` | 発注書を注文に変換します。 管理システムの設定で「[**[!UICONTROL Purchase Orders]**](purchase-order-flow.md)」オプションが有効になっている場合は必須です。 |
 | `purchaseorder.transactional.email` | 発注書 E メールを送信します。 管理システムの設定で「[**[!UICONTROL Purchase Orders]**](purchase-order-flow.md)」オプションが有効になっている場合は必須です。 |
-| `purchaseorder.validation` | 関連する [ 承認ルール ](account-dashboard-approval-rules.md) に対して発注書を検証します。 管理システムの設定で「[**[!UICONTROL Purchase Orders]**](purchase-order-flow.md)」オプションが有効になっている場合は必須です。 |
+| `purchaseorder.validation` | 関連する [&#x200B; 承認ルール &#x200B;](account-dashboard-approval-rules.md) に対して発注書を検証します。 管理システムの設定で「[**[!UICONTROL Purchase Orders]**](purchase-order-flow.md)」オプションが有効になっている場合は必須です。 |
 | `quoteItemCleaner` | 商品がカタログから削除された場合、または買い物かごから削除された場合に、無効または非アクティブな価格見積を削除します。 管理システムの設定で「[**[!UICONTROL Quotes]**](quotes.md)」オプションが有効になっている場合は必須です。 |
-| `inventoryQtyCounter` | 注文または製品の削除後に、在庫インデックスを非同期で修正します。 Admin 設定でInventory managementに対して「[**[!UICONTROL Use deferred stock update]**](../configuration-reference/catalog/inventory.md#product-stock-options)」オプションが有効になっている場合は必須です。 [ パフォーマンスのベストプラクティス ](https://experienceleague.adobe.com/ja/docs/commerce-operations/performance-best-practices/configuration#deferred-stock-update) を参照してください。 |
+| `inventoryQtyCounter` | 注文または製品の削除後に、在庫インデックスを非同期で修正します。 Admin 設定でInventory managementに対して「[**[!UICONTROL Use deferred stock update]**](../configuration-reference/catalog/inventory.md#product-stock-options)」オプションが有効になっている場合は必須です。 [&#x200B; パフォーマンスのベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/performance-best-practices/configuration#deferred-stock-update) を参照してください。 |
 | `async.operations.all` | 品目のインポートまたはエクスポート、一括スケールでの価格の変更、倉庫への製品の割り当てなど [&#128279;](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/) 一括操作  の個々のタスクごとにメッセージを作成します。 [!DNL Inventory Management] の [**管理者の一括操作**](../configuration-reference/catalog/inventory.md#admin-bulk-operations) オプションが管理システムの設定で **非同期で実行** に設定されている場合に必要です。 |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->すべてのAdobe Commerce メッセージコンシューマーのリストについては、『 [ 設定ガイド ](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/message-queues/consumers) の _メッセージキューコンシューマー_ を参照してください。
+>すべてのAdobe Commerce メッセージコンシューマーのリストについては、『 [&#x200B; 設定ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/message-queues/consumers) の _メッセージキューコンシューマー_ を参照してください。
 
 ### メッセージコンシューマーの設定
 
-B2B 機能について [ メッセージコンシューマーを開始 ](#start-message-consumers) する際に、次のパラメーターを追加して、処理の問題や遅延の可能性を防ぎます。
+B2B 機能について [&#x200B; メッセージコンシューマーを開始 &#x200B;](#start-message-consumers) する際に、次のパラメーターを追加して、処理の問題や遅延の可能性を防ぎます。
 
 - `--max-messages <value>` – 各消費者が終了するまでに処理する必要があるメッセージの最大数を指定します（デフォルトは 10000）。 Adobeでは推奨しませんが、0 を使用して、コンシューマーが終了しないようにできます。 PHP アプリケーションのベストプラクティスは、長時間実行されているプロセスを再起動して、メモリリークの可能性を防ぐことです。
 
 - `--batch-size <value>` - コンシューマーが使用するシステムリソースを制限できます（CPU、メモリ）。 より小さなバッチを使用すると、リソースの使用量が減少します。その結果、処理が遅くなります。  指定した場合、キュー内のメッセージが各 `<value>` のバッチで消費されます。 このオプションは、バッチコンシューマーにのみ適用できます。 `--batch-size` が定義されていない場合、バッチコンシューマーはキュー内の使用可能なすべてのメッセージを受け取ります。
 
-その他の設定オプションについて詳しくは、[ 特定の設定 ](https://experienceleague.adobe.com//en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues?lang=ja#specific-configuration) を参照してください。
+その他の設定オプションについて詳しくは、[&#x200B; 特定の設定 &#x200B;](https://experienceleague.adobe.com//en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues?lang=ja#specific-configuration) を参照してください。
 
 ### メッセージコンシューマーの開始
 
@@ -202,7 +202,7 @@ B2B 機能の非同期操作を有効にするには、複数のメッセージ�
    bin/magento queue:consumers:list
    ```
 
-   このコマンドは、すべての [B2B メッセージコンシューマー ](#message-consumers) を含む、使用可能なメッセージコンシューマーを返します。
+   このコマンドは、すべての [B2B メッセージコンシューマー &#x200B;](#message-consumers) を含む、使用可能なメッセージコンシューマーを返します。
 
 1. 各消費者を個別に起動します。
 
@@ -220,7 +220,7 @@ B2B 機能の非同期操作を有効にするには、複数のメッセージ�
 >
 >バックグラウンドで実行するには、コマンドに `&` を追加し、プロンプトに戻ってコマンドを実行し続けます。 例：`bin/magento queue:consumers:start sharedCatalogUpdatePrice &`。
 
-詳しくは、『 _設定ガイド_ の [ メッセージキューの管理 ](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) を参照してください。
+詳しくは、『 _設定ガイド_ の [&#x200B; メッセージキューの管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) を参照してください。
 
 ### Cron へのメッセージコンシューマーの追加
 
@@ -231,9 +231,9 @@ cron 設定ファイル [/app/code/Magento/MessageQueue/etc/crontab.xml](https:/
 * * * * * ps ax | grep [s]haredCatalogUpdatePrice >>/dev/null 2>&1 || nohup php /var/www/html/magento2/bin/magento queue:consumers:start sharedCatalogUpdatePrice &
 ```
 
-また、管理者の [ ストア設定 ](../systems/cron.md) から、メッセージコンシューマーのスケジュールを設定することもできます。
+また、管理者の [&#x200B; ストア設定 &#x200B;](../systems/cron.md) から、メッセージコンシューマーのスケジュールを設定することもできます。
 
 ## 管理者で B2B 機能を有効にする
 
-Adobe Commerce B2B 拡張機能をインストールしてメッセージコンシューマーを開始した後、[ 管理者で B2B 機能を有効にする ](enable-basic-features.md) 必要もあります。
+Adobe Commerce B2B 拡張機能をインストールしてメッセージコンシューマーを開始した後、[&#x200B; 管理者で B2B 機能を有効にする &#x200B;](enable-basic-features.md) 必要もあります。
 

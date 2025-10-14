@@ -14,9 +14,9 @@ ht-degree: 0%
 
 階層価格を使用すると、ストアフロントの商品リストまたは商品ページから数量割引を提供できます。 割引は、特定のストア表示、顧客グループ、共有カタログに適用できます。
 
-更新する製品が多数ある場合は、階層価格の変更を個別に入力するのではなく、インポートするのが最も効率的です。 詳しくは、[ 階層価格のインポート ](../systems/data-import-price-tier.md) を参照してください。
+更新する製品が多数ある場合は、階層価格の変更を個別に入力するのではなく、インポートするのが最も効率的です。 詳しくは、[&#x200B; 階層価格のインポート &#x200B;](../systems/data-import-price-tier.md) を参照してください。
 
-![ ストアフロント製品ページの階層価格 ](./assets/product-price-tier-storefront.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロント製品ページの階層価格 &#x200B;](./assets/product-price-tier-storefront.png){width="700" zoomable="yes"}
 
 製品ページで数量割引が計算され、次のようなメッセージが表示されます。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
      **[!UICONTROL Price]** を `Fixed` に設定し、その階層の 1 単位の調整済み価格を入力します。
 
-     ![ 固定金額としての階層価格 ](./assets/product-price-tier-fixed.png){width="600" zoomable="yes"}
+     ![&#x200B; 固定金額としての階層価格 &#x200B;](./assets/product-price-tier-fixed.png){width="600" zoomable="yes"}
 
    - **方法 2:** 価格をパーセンテージで入力します。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
      >
      >割引価格を取得するには、定義済みの割合を、_[!UICONTROL Special Price]_&#x200B;フィールドではなく、_[!UICONTROL Price]_ フィールドで定義された値に対して計算します。
 
-     ![ 階層価格（割合） ](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
+     ![&#x200B; 階層価格（割合） &#x200B;](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
 ## 価格設定の完了
 

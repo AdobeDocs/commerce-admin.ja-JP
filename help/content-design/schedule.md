@@ -14,7 +14,7 @@ ht-degree: 0%
 
 テーマのデザインの変更を事前にスケジュールして、ビジネスサイクルとイベントに応じて有効にします。 季節的な変化やプロモーションのためにスケジュールされたデザインの変更を使用することも、バリエーションを追加するためだけに使用することもできます。
 
-![ スケジュールされた設計の変更 ](./assets/design-schedule.png){width="700" zoomable="yes"}
+![&#x200B; スケジュールされた設計の変更 &#x200B;](./assets/design-schedule.png){width="700" zoomable="yes"}
 
 ## スケジュールされたデザインの変更を追加
 
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Add Design Change]**」をクリックします。
 
-   ![ 新しいストア デザイン変更の設定 ](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
+   ![&#x200B; 新しいストア デザイン変更の設定 &#x200B;](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
 
 1. 変更を適用するストア表示に **[!UICONTROL Store]** を設定します。
 
 1. 使用するテーマまたはテーマのバリエーションに **[!UICONTROL Custom Design]** を設定します。
 
-1. **[!UICONTROL Date From]** と **[!UICONTROL Date To]** については、_カレンダー_ （![ カレンダーアイコン ](../assets/icon-calendar.png)）アイコンをクリックして、変更が有効になっている期間の開始値と終了値を選択します。
+1. **[!UICONTROL Date From]** と **[!UICONTROL Date To]** については、_カレンダー_ （![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）アイコンをクリックして、変更が有効になっている期間の開始値と終了値を選択します。
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 

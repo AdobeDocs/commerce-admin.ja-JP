@@ -25,7 +25,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Display Settings]** セクションで、**[!UICONTROL Anchor]** を `No` に設定します。
 
-   ![ 非表示のカテゴリ ](./assets/hidden-categories.png){width="600" zoomable="yes"}
+   ![&#x200B; 非表示のカテゴリ &#x200B;](./assets/hidden-categories.png){width="600" zoomable="yes"}
 
    非表示のカテゴリはアクティブですが、トップメニューや階層的なナビゲーションには表示されません。
 

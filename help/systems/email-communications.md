@@ -26,9 +26,9 @@ _メール送信設定_ を使用すると、返されたメールや返信を�
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
-1. **[!UICONTROL Mail Sending Settings]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Mail Sending Settings]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![ 詳細設定 – メール送信設定 ](../configuration-reference/advanced/assets/system-mail-sending-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – メール送信設定 &#x200B;](../configuration-reference/advanced/assets/system-mail-sending-settings.png){width="600" zoomable="yes"}
 
    - 必要に応じて、**[!UICONTROL Disable Email Communications]** を `No` に設定します。
 
@@ -53,15 +53,15 @@ _メール送信設定_ を使用すると、返されたメールや返信を�
       - **[!UICONTROL Auth]** - SMTP サーバー接続の認証タイプを `NONE`、`PLAIN`、`LOGIN` から選択します
       - **[!UICONTROL SSL]** - サーバーセキュリティ証明書の検証の種類を選択します：`SSL` または `TLS`
 
-     ![ 詳細設定 – メール送信設定 ](../configuration-reference/advanced/assets/system-mail-sending-settings-smtp.png){width="600" zoomable="yes"}
+     ![&#x200B; 詳細設定 – メール送信設定 &#x200B;](../configuration-reference/advanced/assets/system-mail-sending-settings-smtp.png){width="600" zoomable="yes"}
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Sales Emails]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL General Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL General Settings]**」セクションを展開します。
 
 1. **[!UICONTROL Asynchronous sending]** を `Enable` に設定します。
 
-   ![ 販売設定 – メールの一般設定 ](../configuration-reference/sales/assets/sales-emails-general-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 販売設定 – メールの一般設定 &#x200B;](../configuration-reference/sales/assets/sales-emails-general-settings.png){width="600" zoomable="yes"}
 
    設定の詳細な一覧については、『設定リファレンス _の[_ 一般設定 _](../configuration-reference/sales/sales-emails.md)を参照してください_。
 

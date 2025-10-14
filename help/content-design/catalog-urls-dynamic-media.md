@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Dynamic Media の URL
 
-Dynamic Media URL は、画像またはその他のメディアアセットへの相対参照です。 有効にすると、Dynamic Media URL を使用して、サーバー上のアセットや、（コンテンツ配信ネットワーク [ に保存されたファイルに直接リンクでき ](media-storage-content-delivery-network.md) す。 Dynamic Media URL を使用すると、カタログのパフォーマンスに影響を与える可能性があり、静的 URL または Dynamic Media URL を使用するように [ エディター ](editor.md#configure-the-editor) を設定できます。
+Dynamic Media URL は、画像またはその他のメディアアセットへの相対参照です。 有効にすると、Dynamic Media URL を使用して、サーバー上のアセットや、（コンテンツ配信ネットワーク [&#x200B; に保存されたファイルに直接リンクでき &#x200B;](media-storage-content-delivery-network.md) す。 Dynamic Media URL を使用すると、カタログのパフォーマンスに影響を与える可能性があり、静的 URL または Dynamic Media URL を使用するように [&#x200B; エディター &#x200B;](editor.md#configure-the-editor) を設定できます。
 
-すべての [ マークアップタグ ](../systems/markup-tags.md) と同様に、ディレクティブは二重の中括弧で囲まれています。 Dynamic Media URL の形式は次のようになります。
+すべての [&#x200B; マークアップタグ &#x200B;](../systems/markup-tags.md) と同様に、ディレクティブは二重の中括弧で囲まれています。 Dynamic Media URL の形式は次のようになります。
 
 `\{\{media url="path/to/image.jpg"}}`
 
@@ -31,13 +31,13 @@ Dynamic Media URL は、画像またはその他のメディアアセットへ�
 
 1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL WYSIWYG Options]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL WYSIWYG Options]**」セクションを展開します。
 
-   ![WYSIWYG オプション ](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+   ![WYSIWYG オプション &#x200B;](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Use Static URLs for Media Content in WYSIWYG]** を次のいずれかに設定します。
 
-   - `Yes` - WYSIWYG エディターで挿入されるメディアコンテンツに静的 URL を使用します。 静的 URL は絶対 URL で、ストアの [ ベース URL](../stores-purchase/store-urls.md) が変更された場合は壊れます。
+   - `Yes` - WYSIWYG エディターで挿入されるメディアコンテンツに静的 URL を使用します。 静的 URL は絶対 URL で、ストアの [&#x200B; ベース URL](../stores-purchase/store-urls.md) が変更された場合は壊れます。
 
    - `No` – （デフォルト） `\{\{media url="..."}}` ディレクティブに基づいて、WYSIWYG エディターで挿入されるメディアコンテンツに動的 URL を使用します。 動的 URL は相対 URL で、ストアのベース URL が変更された場合でも破損しません。
 

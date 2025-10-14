@@ -20,11 +20,11 @@ ht-degree: 1%
 
 ## [!UICONTROL General Options]
 
-![ 一般オプション ](./assets/wishlist-general-options.png)<!-- zoom -->
+![&#x200B; 一般オプション &#x200B;](./assets/wishlist-general-options.png)<!-- zoom -->
 
 <!--[General Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | ストア表示 | ストアのウィッシュリストモジュールを有効化します。 オプション：`Yes` / `No` |
 | [!UICONTROL Show in Sidebar] | ストア表示 | サイドバーでのウィッシュリストの表示を指定します。 <br/> オプション：`Yes` / `No` |
@@ -35,11 +35,11 @@ ht-degree: 1%
 
 ## [!UICONTROL Share Options]
 
-![ 新株予約権 ](./assets/wishlist-share-options.png)<!-- zoom -->
+![&#x200B; 新株予約権 &#x200B;](./assets/wishlist-share-options.png)<!-- zoom -->
 
 <!-- [Share Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Email Sender] | ストア表示 | ウィッシュリストが共有されたときに送信されるメッセージの送信者として表示される店舗連絡先を決定します。 既定の連絡先：`General Contact` |
 | [!UICONTROL Email Template] | ストア表示 | ウィッシュリストが共有されたときに送信されるメッセージに使用するメールテンプレートを決定します。 既定のテンプレート：`Share Wishlist` |
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 <!--[My Wish List Link](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Display Wish List Summary] | Web サイト | 顧客アカウントダッシュボードでのウィッシュリスト概要の表示を設定します。 オプション：`Display number of items in wish list` / `Display item quantities` |
 

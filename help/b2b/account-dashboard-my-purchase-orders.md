@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # [!UICONTROL My Purchase Orders]
 
-発注書が [ 会社に対して有効 ](purchase-order-flow.md) になっている場合、会社のユーザーアカウントにサインインした顧客の注文はすべて発注書（PO）として自動的に作成されます。 必要な権限を持つ会社ユーザーは、下位ユーザーが作成した PO と共に、自分が作成した PO を作成、編集および削除できます。
+発注書が [&#x200B; 会社に対して有効 &#x200B;](purchase-order-flow.md) になっている場合、会社のユーザーアカウントにサインインした顧客の注文はすべて発注書（PO）として自動的に作成されます。 必要な権限を持つ会社ユーザーは、下位ユーザーが作成した PO と共に、自分が作成した PO を作成、編集および削除できます。
 
-![ 自分の発注書 ](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
+![&#x200B; 自分の発注書 &#x200B;](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 発注書の管理
 
-顧客は _役割の権限_ に応じて、「発注の表示 [ ページから発注を管理でき ](account-company-roles-permissions.md) す。
+顧客は _役割の権限_ に応じて、「発注の表示 [&#x200B; ページから発注を管理でき &#x200B;](account-company-roles-permissions.md) す。
 
 - 発注を表示するには、「**[!UICONTROL View]**」をクリックします。
 - 発注に関するコメントを表示するには、「**[!UICONTROL Comments]**」タブをクリックします。

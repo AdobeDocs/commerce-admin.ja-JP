@@ -20,11 +20,11 @@ _定率_ は、品目または出荷ごとに適用できる、固定の事前�
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Delivery Methods]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「**フラットレート**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**フラットレート**」セクションを展開します。
 
-   ![ 定額料金 ](../configuration-reference/sales/assets/delivery-methods-flat-rate.png){width="600" zoomable="yes"}
+   ![&#x200B; 定額料金 &#x200B;](../configuration-reference/sales/assets/delivery-methods-flat-rate.png){width="600" zoomable="yes"}
 
-   これらの各構成設定の詳細は、『 [ コンフィギュレーション リファレンス ガイド _の ](../configuration-reference/sales/delivery-methods.md#flat-rate) フラット レート_ を参照してください。
+   これらの各構成設定の詳細は、『 [&#x200B; コンフィギュレーション リファレンス ガイド _の &#x200B;](../configuration-reference/sales/delivery-methods.md#flat-rate) フラット レート_ を参照してください。
 
 1. **[!UICONTROL Enabled]** を `Yes` に設定します。
 
@@ -63,7 +63,7 @@ _定率_ は、品目または出荷ごとに適用できる、固定の事前�
 
 1. 「**該当する国に出荷**」を設定します。
 
-   - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) の顧客がこの配信方法を使用できます。
+   - `All Allowed Countries` - ストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../getting-started/store-details.md#country-options) の顧客がこの配信方法を使用できます。
    - `Specific Countries` – このオプションを選択すると、「_特定の国に発送_ リストが表示されます。 リストで、この配信方法を使用できる国を選択します。
 
 1. **該当しない場合はメソッドを表示** を設定します。

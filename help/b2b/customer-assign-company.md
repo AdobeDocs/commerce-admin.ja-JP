@@ -17,7 +17,7 @@ ht-degree: 0%
 
 必要に応じて、1 人のユーザーを複数の会社に割り当てることができます。 例えば、B2B 購入者が複数の会社をサポートしている場合、取引するすべての会社にユーザーアカウントを追加できます。 ストアフロントでは、複数の会社に割り当てられているバイヤーは、*[!UICONTROL Company]* のメニューで利用可能な会社から選択して、会社アカウントを切り替えることができます。
 
-![ 会社への関連付け ](./assets/company-assign-multi-switcher.png){width="700"}
+![&#x200B; 会社への関連付け &#x200B;](./assets/company-assign-multi-switcher.png){width="700"}
 
 >[!NOTE]
 >
@@ -41,13 +41,13 @@ ht-degree: 0%
 
    1. **[!UICONTROL Associate to Company]** をクリックして、利用可能な会社を表示します。
 
-      ![ 会社への関連付け ](./assets/company-assign-customer-account.png){width="675"}
+      ![&#x200B; 会社への関連付け &#x200B;](./assets/company-assign-customer-account.png){width="675"}
 
       必要に応じて、会社名の最初の数文字を入力ボックスに入力して、リストをフィルタリングします。
 
    1. リストで、顧客を割り当てる 1 つ以上の会社を選択し、「**[!UICONTROL Done]**」をクリックします。
 
-      会社ユーザーは、アカウントに関連付けられている会社ごとに、自動的に顧客グループ（または [ 共有カタログ ](catalog-shared.md)）に追加されます。
+      会社ユーザーは、アカウントに関連付けられている会社ごとに、自動的に顧客グループ（または [&#x200B; 共有カタログ &#x200B;](catalog-shared.md)）に追加されます。
 
    1. 必要なユーザーアカウント情報 **[!UICONTROL First Name]**、**[!UICONTROL Last Name]**、および **[!UICONTROL Email]** を入力します。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
    1. 「」をクリックして変更を適用 **[!UICONTROL Save Customer]** ます。
 
-      ![ 会社割り当てを使用した顧客グリッド ](./assets/company-assign-user-assignments.png){width="675"}
+      ![&#x200B; 会社割り当てを使用した顧客グリッド &#x200B;](./assets/company-assign-user-assignments.png){width="675"}
 
 [!UICONTROL Customers grid] の図は、ユーザーが割り当てられている会社ごとに別々の行を示しています。 次の列が更新されます。
 

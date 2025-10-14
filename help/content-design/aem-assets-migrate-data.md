@@ -39,7 +39,7 @@ Follow the migration workflow to export media files from Adobe Commerce or anoth
 
 Adobe Commerceのマーチャントにとっては、リモートストレージモジュールは、CommerceからメディアファイルをエクスポートしてAEM Assetsにインポートするための合理化された方法を提供します。 AWS S3 などのリモートストレージサービスでメディアファイルを保存および管理できるため、移行プロセスの効率が向上します。 Commerce インスタンスにリモートストレージを設定するには、*Commerce設定ガイド [&#128279;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage-aws-s3) の  リモートストレージの設定* を参照してください。
 
-メディアファイルがAdobe Commerce以外に保存されている場合は、AEM as a Cloud Serviceでサポートされている [ データソース ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/assets-view/bulk-import-assets-view#prerequisites) の 1 つに直接アップロードします。
+メディアファイルがAdobe Commerce以外に保存されている場合は、AEM as a Cloud Serviceでサポートされている [&#x200B; データソース &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/assets-view/bulk-import-assets-view#prerequisites) の 1 つに直接アップロードします。
 
 ### Step 2: Build a CSV file for metadata mapping
 
@@ -49,7 +49,7 @@ CSV 形式のメタデータマッピングファイルを作成し、メディ�
 - Adobe CommerceとAEM Assets間の適切な同期の有効化
 - 移行後にアセットと製品間の関係を維持
 
-次の表に示すように、Commerce アセットの [AEM Assets メタデータプロファイルに含まれるメタデータフィールドの値を ](aem-assets-configure-aem.md) 移行するメディアファイルごとに指定します。
+次の表に示すように、Commerce アセットの [AEM Assets メタデータプロファイルに含まれるメタデータフィールドの値を &#x200B;](aem-assets-configure-aem.md) 移行するメディアファイルごとに指定します。
 
 | メタデータ | 説明 | 値 |
 |-------|-------------|--------|
@@ -84,11 +84,11 @@ assetPath,dc:title{{String}},dam:status{{String}},commerce:positions{{String: mu
 
 1. Experience Managerのツール ビューで、**[!UICONTROL Assets]** / **[!UICONTROL Bulk Import]** を選択します。
 
-   ![AEM Assetsの作成 ](./assets/aem-assets-bulk-import-selection.png){width="600" zoomable="yes"}
+   ![AEM Assetsの作成 &#x200B;](./assets/aem-assets-bulk-import-selection.png){width="600" zoomable="yes"}
 
 1. 一括読み込み設定で「**[!UICONTROL Create]**」を選択して、設定フォームを開きます。
 
-   ![AEM Assetsの作成 ](./assets/aem-assets-bulk-import-configuration.png){width="600" zoomable="yes"}
+   ![AEM Assetsの作成 &#x200B;](./assets/aem-assets-bulk-import-configuration.png){width="600" zoomable="yes"}
 
 1. 設定を行い、設定を保存します。
 
@@ -105,7 +105,7 @@ assetPath,dc:title{{String}},dam:status{{String}},commerce:positions{{String: mu
 
 >[!MORELIKETHIS]
 >
->[ 一括読み込みツールのビデオデモ ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
->[ヒント、ベストプラクティス、制限事項 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
->[API を使用したアセットのアップロードまたは取り込み ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)
+>[&#x200B; 一括読み込みツールのビデオデモ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
+>[ヒント、ベストプラクティス、制限事項 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
+>[API を使用したアセットのアップロードまたは取り込み &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)
 

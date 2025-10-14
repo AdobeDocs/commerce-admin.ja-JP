@@ -31,7 +31,7 @@ Adobe CommerceとMagento Open Sourceは、スクリプトを定期的に実行�
 - システム グリッドの更新とインデックス再作成の注文
 - 保留中の支払いの有効期間
 
-Cron 操作中に生成される URL が正しくなるように、ストアの [ ベース URL](../stores-purchase/store-urls.md) が正しく設定されていることを確認します。 [ クラウドインフラストラクチャー上のAdobe Commerceについては、_クラウドインフラストラクチャー上のCommerce ガイド ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=ja)cron ジョブの設定_ を参照してください。 オンプレミスの場合は、[ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ja) の _設定と実行コン_ を参照してください。
+Cron 操作中に生成される URL が正しくなるように、ストアの [&#x200B; ベース URL](../stores-purchase/store-urls.md) が正しく設定されていることを確認します。 [&#x200B; クラウドインフラストラクチャー上のAdobe Commerceについては、_クラウドインフラストラクチャー上のCommerce ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=ja)cron ジョブの設定_ を参照してください。 オンプレミスの場合は、[&#x200B; 設定ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ja) の _設定と実行コン_ を参照してください。
 
 ## Cron の設定
 
@@ -39,9 +39,9 @@ Cron 操作中に生成される URL が正しくなるように、ストアの 
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Cron]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Cron]**」セクションを展開します。
 
-   ![ 詳細設定 – cron タスク ](../configuration-reference/advanced/assets/system-cron.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – cron タスク &#x200B;](../configuration-reference/advanced/assets/system-cron.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Index]** グループと **[!UICONTROL Default]** グループに対して、次の設定を行います。
 
@@ -55,6 +55,6 @@ Cron 操作中に生成される URL が正しくなるように、ストアの 
    - **[!UICONTROL Failure History Lifetime]** - `Error` ステータスの cron ジョブの履歴がデータベースに残る時間（分単位）を定義します。
    - **[!UICONTROL Use Separate Process]** - グループのすべての cron ジョブを別のシステムプロセスで実行するかどうかを定義します。 オプション：`Yes` / `No`
 
-   ![ 詳細設定 – cron グループインデックス ](../configuration-reference/advanced/assets/system-cron-group-index.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – cron グループインデックス &#x200B;](../configuration-reference/advanced/assets/system-cron-group-index.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

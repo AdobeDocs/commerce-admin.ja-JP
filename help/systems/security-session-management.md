@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # セッション管理
 
-[ セッション管理 ](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html) は、API セキュリティのサービス拒否（DoS）に対するベストプラクティスです。 セッションは、訪問者がサイトに滞在した時間を表し、管理者ユーザーまたは顧客がアカウントにログインしている時間とは関係ありません。
+[&#x200B; セッション管理 &#x200B;](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html) は、API セキュリティのサービス拒否（DoS）に対するベストプラクティスです。 セッションは、訪問者がサイトに滞在した時間を表し、管理者ユーザーまたは顧客がアカウントにログインしている時間とは関係ありません。
 
 セッションは、同じユーザーに関連付けられたネットワーク HTTP 要求および応答トランザクションのシーケンスです。 これは、クライアント（管理者）がサーバーにアクセスする際に、そのクライアントのデータに関連付けるための方法です。 セッションは、アクセス権やローカライゼーション設定などの変数を確立するために使用されます。これらの変数は、セッション中にユーザーが web アプリケーションを使用して行うすべてのインタラクションに適用されます。
 
@@ -35,9 +35,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」 **[!UICONTROL Security]** クションを展開して、セッション設定にアクセスします。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」 **[!UICONTROL Security]** クションを展開して、セッション設定にアクセスします。
 
-   ![ セッション設定 ](../configuration-reference/advanced/assets/system-security.png){width="600" zoomable="yes"}
+   ![&#x200B; セッション設定 &#x200B;](../configuration-reference/advanced/assets/system-security.png){width="600" zoomable="yes"}
 
 1. 新しいセッションのサイズをバイト単位で入力します。
 
@@ -65,9 +65,9 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 Adobe CommerceとMagento Open Sourceでは、セッション固定攻撃の可能性や、ユーザーセッションに対する毒物の使用またはハイジャックの試みに対する防御手段として、セッション変数を検証できます。 セッション検証設定は、各ストア訪問の間にセッション変数を検証する方法、およびセッション ID がストアの URL に含まれるかどうかを決定します。
 
-技術情報については、_設定ガイド_ の [ セッションストレージに Redis を使用する ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=ja) を参照してください。
+技術情報については、_設定ガイド_ の [&#x200B; セッションストレージに Redis を使用する &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=ja) を参照してください。
 
-![ 一般設定 – Web セッションの検証 ](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
+![&#x200B; 一般設定 – Web セッションの検証 &#x200B;](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 
 検証では、検証変数の値とユーザーのデータに保存されているセッションデータを比較することで、訪問者が言った通りの `$_SESSION` であるかを確認します。 情報が期待どおりに送信されず、対応する変数が空の場合、検証は失敗します。 セッション検証設定に応じて、セッション変数が検証プロセスに失敗した場合、クライアントセッションは直ちに終了します。
 
@@ -79,7 +79,7 @@ Adobe CommerceとMagento Open Sourceでは、セッション固定攻撃の可�
 
 1. 左側のパネルで「_[!UICONTROL General]_」を展開し、「**[!UICONTROL Web]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Session Validation Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Session Validation Settings]**」セクションを展開します。
 
 1. 各設定オプションを設定します。
 
@@ -105,10 +105,10 @@ Adobe CommerceとMagento Open Sourceでは、セッション固定攻撃の可�
 
 1. 「**[!UICONTROL Admin]**」をクリックします。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Security]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Security]**」セクションを展開します。
 
 1. **[!UICONTROL Admin Session Lifetime (seconds)]** に、セッションがタイムアウトするまでアクティブなままである秒数を入力します。
 
-   ![ 詳細設定 – Admin security settings](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – Admin security settings](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

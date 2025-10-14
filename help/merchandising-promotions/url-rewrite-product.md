@@ -15,7 +15,7 @@ ht-degree: 0%
 
 開始する前に、リダイレクトの目的を正確に理解する必要があります。 _ターゲット_/_元のリクエスト_ または _リダイレクト_/_リダイレクト元_ を考慮します。 検索エンジンや古いリンクから以前のページに移動する場合もありますが、リダイレクトによってストアが新しいターゲットに切り替わります。
 
-ストアで [ 自動リダイレクト ](url-redirect-product-automatic.md) が有効になっている場合、製品 [URL キー ](../catalog/catalog-urls.md) が変更されたときに書き換えを作成する必要はありません。
+ストアで [&#x200B; 自動リダイレクト &#x200B;](url-redirect-product-automatic.md) が有効になっている場合、製品 [URL キー &#x200B;](../catalog/catalog-urls.md) が変更されたときに書き換えを作成する必要はありません。
 
 {{url-rewrite-skip}}
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ミスを避けるために、_リダイレクト先_ パスと _リダイレクト元_ パスを書き留め、URL キーとサフィックス（該当する場合）を含めます。
 
-不明な場合は、ストアで各製品ページを開き、ブラウザーのアドレスバーからパスをコピーします。 製品リダイレクトを作成する際に、[ カテゴリパス ](../catalog/catalog-urls.md) を含めるか除外するかを指定できます。 この例では、カテゴリパスのない製品リダイレクトを作成します。
+不明な場合は、ストアで各製品ページを開き、ブラウザーのアドレスバーからパスをコピーします。 製品リダイレクトを作成する際に、[&#x200B; カテゴリパス &#x200B;](../catalog/catalog-urls.md) を含めるか除外するかを指定できます。 この例では、カテゴリパスのない製品リダイレクトを作成します。
 
 ### カテゴリパスを含む製品
 
@@ -57,13 +57,13 @@ ht-degree: 0%
 
 1. グリッドで、リダイレクトのターゲット（宛先）となる製品を見つけて、行をクリックします。
 
-   ![URL の書き換え – 製品 ](./assets/url-rewrite-product.png){width="700" zoomable="yes"}
+   ![URL の書き換え – 製品 &#x200B;](./assets/url-rewrite-product.png){width="700" zoomable="yes"}
 
 1. カテゴリツリーの下の「**[!UICONTROL Skip Category Selection]**」をクリックします。
 
    この例では、リダイレクトにカテゴリは含まれません。
 
-   ![ 製品 URL の書き換え – カテゴリ選択をスキップ ](./assets/url-rewrite-skip-category-selection.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品 URL の書き換え – カテゴリ選択をスキップ &#x200B;](./assets/url-rewrite-skip-category-selection.png){width="600" zoomable="yes"}
 
    製品ページの URL 書き換えを追加では、左上隅にターゲットへのリンクが表示され、ターゲットパス フィールドにはパスのシステムバージョンが表示されますが、このバージョンは変更できません。 最初は、「リダイレクトパス」フィールドにもターゲットパスが表示されます。
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
    - 参考までに、書き換えの簡単な **[!UICONTROL Description]** を入力します。
 
-   ![ 製品 URL の書き換え – 情報 ](./assets/url-rewrite-product-permanent-301.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品 URL の書き換え – 情報 &#x200B;](./assets/url-rewrite-product-permanent-301.png){width="600" zoomable="yes"}
 
 1. リダイレクトを保存する前に、以下を確認してください。
 
@@ -136,4 +136,4 @@ ht-degree: 0%
 >
 >選択したすべての製品が選択した web サイトに追加され、URL の書き換えが再生成されます。
 
-![ 属性を更新 – 複数の URL 書き換えを更新します ](./assets/url-rewrites-update.png){width="600" zoomable="yes"}
+![&#x200B; 属性を更新 – 複数の URL 書き換えを更新します &#x200B;](./assets/url-rewrites-update.png){width="600" zoomable="yes"}

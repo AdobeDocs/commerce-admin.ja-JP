@@ -44,9 +44,9 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
 
    CSV ファイルには、`sku` の列と関連する画像列のみを含める必要があります。
 
-   ![ 例 – CSV 画像データのインポート ](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
+   ![&#x200B; 例 – CSV 画像データのインポート &#x200B;](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
 
-1. 指示に従って、データを [ インポート ](data-import.md) します。
+1. 指示に従って、データを [&#x200B; インポート &#x200B;](data-import.md) します。
 
 1. 読み込むファイルを選択したら、**[!UICONTROL Images File Directory]** の後に相対パスを入力します。
 
@@ -54,7 +54,7 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
    var/import/images
    ```
 
-   ![ データインポート画像ファイルディレクトリ ](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
+   ![&#x200B; データインポート画像ファイルディレクトリ &#x200B;](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
    >[!TIP]
    >
@@ -72,7 +72,7 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
    https://example.com/images/image.jpg
    ```
 
-1. 指示に従って、データを [ インポート ](data-import.md) します。
+1. 指示に従って、データを [&#x200B; インポート &#x200B;](data-import.md) します。
 
 ## 方法 3：リモートストレージを使用した画像のインポート
 
@@ -94,9 +94,9 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
 
    CSV ファイルには、`sku` の列と関連する画像列のみを含める必要があります。
 
-   ![ 例 – CSV 画像データのインポート ](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
+   ![&#x200B; 例 – CSV 画像データのインポート &#x200B;](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
 
-1. 指示に従って、データを [ インポート ](data-import.md) します。
+1. 指示に従って、データを [&#x200B; インポート &#x200B;](data-import.md) します。
 
 1. 読み込むファイルを選択したら、**[!UICONTROL Images File Directory]** の後に相対パスを入力します。
 
@@ -110,7 +110,7 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
 
    1 つの `sku` に対して複数の画像を読み込む場合、コンマで区切って、`additional_images` という名前の列に画像を挿入します（まだ追加されていない場合は列を追加します）。`image02.jpg,image03.jpg`
 
-リモート記憶域モジュールの有効化と管理の詳細については、[ 構成ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=ja) の _リモート記憶域の構成_ を参照してください。
+リモート記憶域モジュールの有効化と管理の詳細については、[&#x200B; 構成ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=ja) の _リモート記憶域の構成_ を参照してください。
 
 >[!NOTE]
 >

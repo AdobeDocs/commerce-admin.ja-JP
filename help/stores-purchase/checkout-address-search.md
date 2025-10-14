@@ -22,11 +22,11 @@ ht-degree: 0%
 
 この機能が有効になっていて、顧客の保存済みアドレスの数が設定された制限を満たしているか超えている場合、_配送_ および _確認と支払い_ ステップには 1 つのアドレスのみが表示されます（デフォルト）。 お客様は、「住所を変更 **をクリックし、市区町村、都道府県、番地または郵便番号で正しい住所を検索することで** 選択した住所を変更できます。 この機能は、ギフトレジストリチェックアウトのアドレス選択もサポートします。
 
-![ 保存された配送先住所を使用したチェックアウトが表示される ](./assets/storefront-checkout-address-search.png){width="700" zoomable="yes"}
+![&#x200B; 保存された配送先住所を使用したチェックアウトが表示される &#x200B;](./assets/storefront-checkout-address-search.png){width="700" zoomable="yes"}
 
 顧客にデフォルトの配送先住所がない場合、「_配送先_」ページに _住所が選択されていません_ と表示されます。 この場合、顧客は、チェックアウトに進む前に、**住所の変更** をクリックして保存済みの住所を選択するか、**新しい住所** をクリックして住所を追加して選択する必要があります。 顧客にデフォルトの請求先住所がない場合、_確認および支払い_ ページには、出荷用に選択された住所と _住所の変更_ オプションが表示されます。
 
-![ アドレスが選択されていないチェックアウトのメッセージ ](./assets/storefront-checkout-address-search-no-default.png){width="600" zoomable="yes"}
+![&#x200B; アドレスが選択されていないチェックアウトのメッセージ &#x200B;](./assets/storefront-checkout-address-search-no-default.png){width="600" zoomable="yes"}
 
 ## 引用符で囲まれたアドレス検索
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 また、住所検索を有効にすると、顧客の保存済み住所の数が設定された制限を満たしているか、超えている見積もりから作成された注文のチェックアウトにも影響します。 見積もりが完了し、顧客がチェックアウトに進むと、選択した配送先住所のみが表示されます。 ページには、配送先住所がロックされていて、見積書でのみ変更できるというメッセージも表示されます。
 
-![ 見積書に対してロックされた配送先住所 ](./assets/quote-checkout-shipping-address-locked.png){width="600" zoomable="yes"}
+![&#x200B; 見積書に対してロックされた配送先住所 &#x200B;](./assets/quote-checkout-shipping-address-locked.png){width="600" zoomable="yes"}
 
 ## アドレス検索を有効にする
 
@@ -42,11 +42,11 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Checkout Options]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Checkout Options]**」セクションを展開します。
 
-   ![ 設定 – チェックアウトオプション ](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
+   ![&#x200B; 設定 – チェックアウトオプション &#x200B;](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-   これらの各設定について詳しくは、『設定リファレンスガイド _の [ チェックアウトオプション ](../configuration-reference/sales/checkout.md#checkout-options) を参照してください_。
+   これらの各設定について詳しくは、『設定リファレンスガイド _の [&#x200B; チェックアウトオプション &#x200B;](../configuration-reference/sales/checkout.md#checkout-options) を参照してください_。
 
 1. **[!UICONTROL Enable Address Search]** を `Yes` に設定します。
 

@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # 会社の役割と権限
 
-会社ユーザーの役割は、販売情報およびリソースにアクセスするための様々なレベルの権限で設定されます。 デフォルトでは、会社の管理者は、すべての権限を持つ _スーパーユーザー_ です。 ユーザーがそのページへのアクセス権を持っていない場合は、「[ アクセスが拒否されました ](../content-design/pages.md#access-denied)」ページが表示されます。
+会社ユーザーの役割は、販売情報およびリソースにアクセスするための様々なレベルの権限で設定されます。 デフォルトでは、会社の管理者は、すべての権限を持つ _スーパーユーザー_ です。 ユーザーがそのページへのアクセス権を持っていない場合は、「[&#x200B; アクセスが拒否されました &#x200B;](../content-design/pages.md#access-denied)」ページが表示されます。
 
-![ デフォルトの役割を持つ役割および権限ページ ](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
+![&#x200B; デフォルトの役割を持つ役割および権限ページ &#x200B;](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
 
 システムには、デフォルトのユーザーの役割が 1 つ事前定義されており、必要に応じて _そのまま_ 使用したり、変更したりできます。 次のような会社の構造と組織の責任に合わせて、必要な数の役割を作成できます。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Add New Role]** をクリックします。
 
-   ![ 新しい役割の追加 ](./assets/company-roles-permissions-add-storefront.png){width="600" zoomable="yes"}
+   ![&#x200B; 新しい役割の追加 &#x200B;](./assets/company-roles-permissions-add-storefront.png){width="600" zoomable="yes"}
 
 1. 説明 **[!UICONTROL Role Name]** を入力します。
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 会社管理者は、役割を選択し、「役割の権限 **リストで権限を選択または削除することで、役 [!UICONTROL Edit action] の権限設定を更新** きます。
 
-![ 役割と権限のリスト ](./assets/role-permissions-list.png){width="700" zoomable="yes"}
+![&#x200B; 役割と権限のリスト &#x200B;](./assets/role-permissions-list.png){width="700" zoomable="yes"}
 
 ## 会社ユーザーへの役割の割り当て
 
@@ -101,12 +101,12 @@ ht-degree: 0%
 
 1. 左側のパネルで、「**[!UICONTROL Company Users]**」を選択します。
 
-   ![ 会社ユーザー ](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
+   ![&#x200B; 会社ユーザー &#x200B;](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
 1. リスト内のユーザーを検索してクリック **[!UICONTROL Edit]** ます。
 
 1. ユーザーに適した **[!UICONTROL User Role]** を選択します。
 
-   ![ ユーザーを編集 – ユーザーロールを選択します ](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
+   ![&#x200B; ユーザーを編集 – ユーザーロールを選択します &#x200B;](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL Save]** をクリックします。

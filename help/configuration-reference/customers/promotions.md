@@ -18,11 +18,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![ 自動メールリマインダールール ](./assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
+![&#x200B; 自動メールリマインダールール &#x200B;](./assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
 
 <!-- [Automated Email Reminder Rules](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules#configure-email-reminders) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Reminder Emails] | グローバル | 自動メール リマインダーを有効にします。 「いいえ」を選択すると、残りの設定は無視されます。 オプション：`Yes` / `No` |
 | [!UICONTROL Frequency] | グローバル | 自動メールリマインダーの対象となる新規のお客様をCommerceが確認する頻度を示します。 オプション：<br/>**`Minute Intervals`**– 選択した間隔に従ってメールを送信します。 （5 分、10 分、15 分、20 分または 30 分）<br/>**`Hourly`** – 指定した時刻の次の分に、1 時間ごとにメールを送信します。 0 ～ 59 の範囲で値を入力してください。 <br/>**`Daily`**– 開始時刻から毎日メールを送信します。 |
@@ -36,11 +36,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Auto Generated Specific Coupon Codes]
 
-![ 自動生成された特定のクーポンコード ](./assets/promotions-auto-generated-specific-coupon-codes.png)<!-- zoom -->
+![&#x200B; 自動生成された特定のクーポンコード &#x200B;](./assets/promotions-auto-generated-specific-coupon-codes.png)<!-- zoom -->
 
 <!-- [Auto Generated Specific Coupon Codes](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#configure-coupon-codes)  -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Code Length] | グローバル | 接頭辞、接尾辞および区切り記号を除く、クーポンコードの長さを定義します。 |
 | [!UICONTROL Code Format] | グローバル | クーポンコードの形式を定義します。 <br/>**`Alphanumeric`**– 文字と数字の任意の組み合わせ。<br/>**`Alphabetical`** - レターのみ。 <br/>**`Numeric`**– 数値のみ。 |

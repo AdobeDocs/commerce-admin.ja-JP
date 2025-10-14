@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # コンテンツを追加 – 製品レコメンデーション
 
-_Product Recommendations_ コンテンツタイプを使用して、CMS ページ、ブロック、動的ブロックの [ ステージ ](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/admin/create) にアクティブな既存の [[!DNL Page Builder]  レコメンデーションユニット ](workspace.md#stage) を追加します。
+_Product Recommendations_ コンテンツタイプを使用して、CMS ページ、ブロック、動的ブロックの [&#x200B; ステージ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/admin/create) にアクティブな既存の [[!DNL Page Builder]  レコメンデーションユニット &#x200B;](workspace.md#stage) を追加します。
 
 >[!NOTE]
 >
->[!DNL Page Builder]_Product Recommendations_ コンテンツタイプは、Adobe Commerce 2.4.4 以降でサポートされ、[Product Recommendations metapackage バージョン 3.0.x 以降 ](https://commercemarketplace.adobe.com/magento-product-recommendations.html) で利用できます。 Product Recommendations のサポートを追加する [!DNL Page Builder] は、[ インストール情報を参照 ](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/getting-started/install-configure) してください。 **このコンテンツタイプは、Magento Open Sourceでは使用できません。**
+>[!DNL Page Builder]_Product Recommendations_ コンテンツタイプは、Adobe Commerce 2.4.4 以降でサポートされ、[Product Recommendations metapackage バージョン 3.0.x 以降 &#x200B;](https://commercemarketplace.adobe.com/magento-product-recommendations.html) で利用できます。 Product Recommendations のサポートを追加する [!DNL Page Builder] は、[&#x200B; インストール情報を参照 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/getting-started/install-configure) してください。 **このコンテンツタイプは、Magento Open Sourceでは使用できません。**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -24,12 +24,12 @@ _Product Recommendations_ コンテンツタイプを使用して、CMS ペー�
 
 | ツール | アイコン | 説明 |
 | --- | --| --- |
-| 移動 | ![ 移動アイコン ](./assets/pb-icon-move.png){width="25"} | 製品レコメンデーションコンテナとそのコンテンツをステージ上の別の位置に移動します。 |
-| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | 製品レコメンデーションを編集ページを開きます。このページで、レコメンデーションユニットを選択し、コンテナのプロパティを変更できます。 |
-| Hide | ![ アイコンを非表示 ](./assets/pb-icon-hide.png){width="25"} | 現在の製品レコメンデーションコンテナとそのコンテンツを非表示にします。 |
-| 表示 | ![ アイコンを表示 ](./assets/pb-icon-show.png){width="25"} | 非表示の製品レコメンデーションコンテナとそのコンテンツを表示します。 |
-| 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | 製品レコメンデーションコンテナとそのコンテンツの複製を作成します。 |
-| 削除 | ![ 削除アイコン ](./assets/pb-icon-remove.png){width="25"} | 製品レコメンデーションコンテナとそのコンテンツをステージから削除します。 |
+| 移動 | ![&#x200B; 移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | 製品レコメンデーションコンテナとそのコンテンツをステージ上の別の位置に移動します。 |
+| 設定 | ![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | 製品レコメンデーションを編集ページを開きます。このページで、レコメンデーションユニットを選択し、コンテナのプロパティを変更できます。 |
+| Hide | ![&#x200B; アイコンを非表示 &#x200B;](./assets/pb-icon-hide.png){width="25"} | 現在の製品レコメンデーションコンテナとそのコンテンツを非表示にします。 |
+| 表示 | ![&#x200B; アイコンを表示 &#x200B;](./assets/pb-icon-show.png){width="25"} | 非表示の製品レコメンデーションコンテナとそのコンテンツを表示します。 |
+| 複製 | ![&#x200B; 複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | 製品レコメンデーションコンテナとそのコンテンツの複製を作成します。 |
+| 削除 | ![&#x200B; 削除アイコン &#x200B;](./assets/pb-icon-remove.png){width="25"} | 製品レコメンデーションコンテナとそのコンテンツをステージから削除します。 |
 
 {style="table-layout:auto"}
 
@@ -37,7 +37,7 @@ _Product Recommendations_ コンテンツタイプを使用して、CMS ペー�
 
 ## 既存のレコメンデーションユニットの追加
 
-1. [ ページタイプの ](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/admin/create) レコメンデーションユニットの作成 [!DNL Page Builder] が完了していることを確認します。
+1. [&#x200B; ページタイプの &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/admin/create) レコメンデーションユニットの作成 [!DNL Page Builder] が完了していることを確認します。
 
 >[!NOTE]
 >
@@ -51,32 +51,32 @@ _Product Recommendations_ コンテンツタイプを使用して、CMS ペー�
 
 1. [!DNL Page Builder] パネルの _[!UICONTROL Add Content]_&#x200B;の下で、**[!UICONTROL Product Recommendation]**&#x200B;プレースホルダーを行にドラッグします。
 
-   ![ 製品レコメンデーションコンテンツタイプの追加 ](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品レコメンデーションコンテンツタイプの追加 &#x200B;](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
 1. 次のいずれかの操作を行います。
 
    - 「**[!UICONTROL Edit Product Recommendation]**」をクリックします。
-   - 空のコンテナの上にマウスポインターを置いてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png)）アイコンをクリックします。
+   - 空のコンテナの上にマウスポインターを置いてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png)）アイコンをクリックします。
 
-   ![ 製品レコメンデーションを編集 ](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品レコメンデーションを編集 &#x200B;](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
 1. 「_[!UICONTROL Selection]_」セクションで、「**[!UICONTROL Select]**」をクリックします。
 
 1. アクティブな商品レコメンデーションのリストで、追加するレコメンデーションユニットを含む行を見つけ、最後の列の **[!UICONTROL Select]** をクリックします。
 
-   ![ 選択した製品のレコメンデーション ](./assets/pb-prex-select.png){width="600" zoomable="yes"}
+   ![&#x200B; 選択した製品のレコメンデーション &#x200B;](./assets/pb-prex-select.png){width="600" zoomable="yes"}
 
 1. 右上隅の「**[!UICONTROL Add Selected]**」をクリックします。
 
    選択した製品レコメンデーションの名前が、_[!UICONTROL Selection]_&#x200B;のページの「_[!UICONTROL Edit Product Recommendation]_」セクションに表示されます。
 
-1. [ 詳細設定 ](#advanced-settings) に必要な変更を加えます。
+1. [&#x200B; 詳細設定 &#x200B;](#advanced-settings) に必要な変更を加えます。
 
-   ![ 製品レコメンデーションを編集 ](./assets/pb-prex-edit.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品レコメンデーションを編集 &#x200B;](./assets/pb-prex-edit.png){width="600" zoomable="yes"}
 
 1. 完了したら、次の手順を実行します。
 
-   - 最大化されたブラウザーウィンドウで作業する場合は、ワークスペースの右上隅にある _全画面表示を閉じる_ （![ 全画面表示を閉じるアイコン ](./assets/pb-icon-reduce.png)）アイコンをクリックします。
+   - 最大化されたブラウザーウィンドウで作業する場合は、ワークスペースの右上隅にある _全画面表示を閉じる_ （![&#x200B; 全画面表示を閉じるアイコン &#x200B;](./assets/pb-icon-reduce.png)）アイコンをクリックします。
 
    - 「**[!UICONTROL Save]**」をクリックして設定を適用し、[!DNL Page Builder] ワークスペースに戻ります。
 
@@ -84,21 +84,21 @@ _Product Recommendations_ コンテンツタイプを使用して、CMS ペー�
 
 ## レコメンデーションユニット設定の編集
 
-1. レコメンデーションユニットコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png)）アイコンをクリックします。
+1. レコメンデーションユニットコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png)）アイコンをクリックします。
 
-   ![ レコメンデーションツールボックス ](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
+   ![&#x200B; レコメンデーションツールボックス &#x200B;](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 
-1. [ 詳細設定 ](#advanced-settings) に必要な変更を加えます。
+1. [&#x200B; 詳細設定 &#x200B;](#advanced-settings) に必要な変更を加えます。
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックして設定を適用し、[!DNL Page Builder] ワークスペースに戻ります。
 
 ## レコメンデーションユニットの複製
 
-1. レコメンデーションユニットコンテナにカーソルを合わせてツールボックスを表示し、ツールボックスの _複製_ （![ 複製アイコン ](./assets/pb-icon-duplicate.png)）アイコンをクリックします。
+1. レコメンデーションユニットコンテナにカーソルを合わせてツールボックスを表示し、ツールボックスの _複製_ （![&#x200B; 複製アイコン &#x200B;](./assets/pb-icon-duplicate.png)）アイコンをクリックします。
 
    複製は、元の画像のすぐ下に表示されます。
 
-1. 複製されたお勧めユニットを新しい位置に移動するには、コンテナの上にマウスポインターを置いて、ツールボックスの _移動_ （![ 移動アイコン ](./assets/pb-icon-move.png)）アイコンをクリックします。
+1. 複製されたお勧めユニットを新しい位置に移動するには、コンテナの上にマウスポインターを置いて、ツールボックスの _移動_ （![&#x200B; 移動アイコン &#x200B;](./assets/pb-icon-move.png)）アイコンをクリックします。
 
 1. 推奨単位を選択して、新しい位置に赤いガイドラインが表示されるまでドラッグします。
 
@@ -106,7 +106,7 @@ _Product Recommendations_ コンテンツタイプを使用して、CMS ペー�
 
 ## レコメンデーションユニットをステージから削除
 
-1. レコメンデーションユニットコンテナにマウスポインターを置き、ツールボックスの _削除_ （![ 削除アイコン ](./assets/pb-icon-remove.png)）アイコンをクリックします。
+1. レコメンデーションユニットコンテナにマウスポインターを置き、ツールボックスの _削除_ （![&#x200B; 削除アイコン &#x200B;](./assets/pb-icon-remove.png)）アイコンをクリックします。
 
 1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL OK]**」をクリックします。
 

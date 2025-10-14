@@ -37,7 +37,7 @@ ht-degree: 0%
 
 1. 左上隅の _アクション_ メニューをクリックして、「**[!UICONTROL Disable]**」を選択します。
 
-   ![[!DNL Inventory Management] ソース – アクションメニュー ](assets/inventory-source-disable.png){width="600" zoomable="yes"}
+   ![[!DNL Inventory Management] ソース – アクションメニュー &#x200B;](assets/inventory-source-disable.png){width="600" zoomable="yes"}
 
 1. 確認ダイアログで、「**[!UICONTROL OK]**」をクリックします。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 1. カスタムソースを見つけて、「**[!UICONTROL Edit]**」をクリックします。
 
-1. 「![ 拡張セレクター ](../assets/icon-display-expand.png) 「_一般_」セクションを展開し、**[!UICONTROL Is Enabled]** を変更します。
+1. 「![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) 「_一般_」セクションを展開し、**[!UICONTROL Is Enabled]** を変更します。
 
    | オプション | 説明 |
    | ----- | ----- |

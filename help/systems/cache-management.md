@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Adobe CommerceおよびMagento Open Sourceのキャッシュ管理システムを使用すると、サイトのパフォーマンスを簡単に向上させることができます。 キャッシュの更新が必要な場合は常に、更新を完了するための [!UICONTROL Cache Management] ページへのリンクを含む通知が表示されます。
 
-![ 製品属性の保存 – キャッシュメッセージの更新 ](./assets/product-attribute-save-msg-update-cache.png){width="500"}
+![&#x200B; 製品属性の保存 – キャッシュメッセージの更新 &#x200B;](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
 _[!UICONTROL Cache Management]_&#x200B;のページには、各プライマリ・キャッシュのステータスと関連するタグが表示されます。 右上隅の大きなボタンを使用して、キャッシュまたは包括的なキャッシュストレージをフラッシュできます。 ページの下部には、カタログ商品画像のキャッシュとJavaScript/CSS のキャッシュをフラッシュするためのボタンが用意されています。
 
@@ -32,25 +32,25 @@ Adobe Commerceのキャッシュに関するその他の技術情報について
 - ワークスペースの上にあるメッセージ内の「**[!UICONTROL Cache Management]**」リンクをクリックします。
 - _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**&#x200B;に移動します。
 
-![ キャッシュ管理 ](./assets/cache-management-invalid.png){width="700" zoomable="yes"}
+![&#x200B; キャッシュ管理 &#x200B;](./assets/cache-management-invalid.png){width="700" zoomable="yes"}
 
 ## キャッシュのベストプラクティス
 
-Commerceでのインデックス再作成とキャッシュの目的は異なります。 [ インデックス ](index-management.md) データベース情報を追跡して、検索パフォーマンスの向上、ストアフロントのデータ取得の高速化などを実現します。 キャッシュは、読み込んだデータ、画像、形式などを保存して、ストアフロントへの読み込みとアクセスのパフォーマンスを向上させます。
+Commerceでのインデックス再作成とキャッシュの目的は異なります。 [&#x200B; インデックス &#x200B;](index-management.md) データベース情報を追跡して、検索パフォーマンスの向上、ストアフロントのデータ取得の高速化などを実現します。 キャッシュは、読み込んだデータ、画像、形式などを保存して、ストアフロントへの読み込みとアクセスのパフォーマンスを向上させます。
 
 - 拡張機能やモジュールをインストールした後は、必ずキャッシュをフラッシュしてください。 1 つ以上の拡張機能をインストールしてから、キャッシュをフラッシュできます。
 - Commerceをインストールした後、キャッシュをフラッシュします。 新規インストールの場合は、のインデックスも再作成する必要があります。
 - Open SourceまたはCommerceを別のバージョンにアップグレードした後で、キャッシュをフラッシュします。
 - キャッシュをフラッシュする場合は、キャッシュのタイプと、ピーク時以外の時間にフラッシュをスケジュールすることを考慮してください。 例えば、深夜や早朝など、サイトを使用する顧客が少ない時間を選択します。 ピーク時の要求時にキャッシュ タイプをクリアすると、管理者の負荷が増え、操作が完了するまでサイトが停止する場合があります。
-- [ インデックス再作成 ](index-management.md) を行う際に、キャッシュをフラッシュする必要はありません。
+- [&#x200B; インデックス再作成 &#x200B;](index-management.md) を行う際に、キャッシュをフラッシュする必要はありません。
 
 ## キャッシュ管理ロール リソース
 
 キャッシュの表示、切り替え、フラッシュのオプションなど、特定のキャッシュメンテナンスアクションへのアクセスを役割ごとにユーザーに割り当てることができます。 Adobeでは、管理者レベルのユーザーに対してのみフラッシュアクションを有効にすることをお勧めします。 すべてのキャッシュ管理機能にアクセスできるようにすると、ストアフロントのパフォーマンスに影響を与える可能性があります。
 
-![ 役割リソース – キャッシュ管理 ](./assets/permissions-role-resources-cache-management.png){width="600" zoomable="yes"}
+![&#x200B; 役割リソース – キャッシュ管理 &#x200B;](./assets/permissions-role-resources-cache-management.png){width="600" zoomable="yes"}
 
-管理者ユーザーアカウントに対するアクセスを許可するためのリソースの割り当てについては、[ 役割リソース ](permissions-user-roles.md#role-resources) を参照してください。 次のリソースは、キャッシュ管理ツールへのアクセスを制御します。
+管理者ユーザーアカウントに対するアクセスを許可するためのリソースの割り当てについては、[&#x200B; 役割リソース &#x200B;](permissions-user-roles.md#role-resources) を参照してください。 次のリソースは、キャッシュ管理ツールへのアクセスを制御します。
 
 - [!UICONTROL Clean Cache Actions]
 
@@ -156,13 +156,13 @@ Commerce アプリケーションサーバーへのアクセス権を持つシ�
 | [!UICONTROL Reflections] | 通常は実行時に生成される API インターフェイスのリフレクションデータをクリアします。 | `REFLECTION` | `reflection` |
 | `Database DDL operations` | データベーススキーマ。 必要に応じて、Commerceはこのキャッシュを自動的にクリーンアップしますが、サードパーティのデベロッパーは任意のデータをキャッシュの任意のセグメントに配置できます。 データベーススキーマにカスタムの変更を加えた後、このキャッシュタイプをクリーンアップまたはフラッシュします。 （つまり、これらはCommerce自体が行わない更新です）。 データベーススキーマを自動的に更新する方法の 1 つは、magento setup:db-schema:upgrade コマンドを使用することです。 | `DB_DDL` | `db_ddl` |
 | [!UICONTROL Compiled Config] | コードのコンパイルの結果。 | `COMPILED_CONFIG` | `compiled_config` |
-| [!UICONTROL Webhooks Response Cache] | Webhook リクエストに対する応答をキャッシュします。 詳しくは、Commerce開発者向けドキュメントの [Webhook ガイド ](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) を参照してください。 | `WEBHOOKS_RESPONSE` | `webhooks_response` |
+| [!UICONTROL Webhooks Response Cache] | Webhook リクエストに対する応答をキャッシュします。 詳しくは、Commerce開発者向けドキュメントの [Webhook ガイド &#x200B;](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) を参照してください。 | `WEBHOOKS_RESPONSE` | `webhooks_response` |
 | [!UICONTROL EAV types and attributes] | エンティティ属性値（EAV）属性に関連するメタデータのエンティティ・タイプ宣言をキャッシュします。 属性には、ストアラベル、関連する PHP コードへのリンク、属性レンダリング、検索設定などが含まれます。 通常、このキャッシュタイプをクリーンアップまたはフラッシュする必要はありません。 | `EAV` | `eav` |
 | [!UICONTROL Customer Notification] | ユーザーインターフェイスに表示される一時通知。 | `CUSTOMER_NOTIFICATION` | `customer_notification` |
 | [!UICONTROL GraphQL Query Resolver Results] | 顧客、CMS ページ、CMS ブロック、製品メディアギャラリーエンティティのGraphQL クエリリゾルバーの結果をキャッシュします。 GraphQLのパフォーマンスを向上させるために、このキャッシュを有効のままにします。 | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
 | [!UICONTROL Integrations Configuration] | 統合設定ファイル。 統合を変更または追加した後で、このキャッシュをクリーンアップまたはフラッシュしてください。 | `INTEGRATION` | `config_integration` |
 | [!UICONTROL Integrations API Configuration] | ストア統合用にコンパイル済みの統合 API 設定。 | `INTEGRATION_API_CONFIG` | `config_integration_api` |
-| [!UICONTROL Admin UI SDK Cache] | カスタマイズを管理者にキャッシュします。 [ 管理 UI SDK ガイド ](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration/) の _管理者による設定とテスト_ を参照してください。 | `ADMIN_UI_SDK` | `admin_ui_sdk` |
+| [!UICONTROL Admin UI SDK Cache] | カスタマイズを管理者にキャッシュします。 [&#x200B; 管理 UI SDK ガイド &#x200B;](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration/) の _管理者による設定とテスト_ を参照してください。 | `ADMIN_UI_SDK` | `admin_ui_sdk` |
 | [!UICONTROL Page Cache] | 完全なページキャッシュ。 | `FPC` | `full_page` |
 | [!UICONTROL Target Rule] | ターゲットルールインデックス | `TARGET_RULE` | `target_rule` |
 | [!UICONTROL Web Services Configuration] | Web API 構造をキャッシュしています。 | `WEBSERVICE` | `config_webservice` |
@@ -184,7 +184,7 @@ Adobe CommerceとMagento Open Sourceでは、サーバー上のフルページ�
 - `Sessioned` - セッション型の訪問中、ストアとやり取りする買い物客には、セッション ID が割り当てられます。 インタラクションには、製品の比較や買い物かごへの製品の追加などのアクティビティが含まれます。 セッション中に生成されたキャッシュ済みページは、セッション中にその買い物客のみが使用します。
 - `Customer` - ログインして登録済みアカウントを使用して買い物をした顧客に対して、顧客セッションが作成されます。 セッションの間、お客様には、割り当てられた顧客グループに基づいて、特別なオファー、プロモーション、価格が提示されます。
 
-技術情報については、[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=ja) 設定ガイド _の [Varnish の設定と使用 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=ja){:target="_blank"} および_ Commerceページとデフォルトキャッシュに Redis を使用 {:target="_blank"} を参照してください。
+技術情報については、[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=ja) 設定ガイド _の [Varnish の設定と使用 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=ja){:target="_blank"} および_ Commerceページとデフォルトキャッシュに Redis を使用 {:target="_blank"} を参照してください。
 
 **_フルページキャッシュを設定するには：_**
 
@@ -192,9 +192,9 @@ Adobe CommerceとMagento Open Sourceでは、サーバー上のフルページ�
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Full Page Cache]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Full Page Cache]**」セクションを展開します。
 
-   ![ 詳細設定 – フルページキャッシュ ](../configuration-reference/advanced/assets/system-full-page-cache.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – フルページキャッシュ &#x200B;](../configuration-reference/advanced/assets/system-full-page-cache.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Caching Application]** を次のいずれかに設定します。
 
@@ -203,7 +203,7 @@ Adobe CommerceとMagento Open Sourceでは、サーバー上のフルページ�
 
 1. ページキャッシュのタイムアウトを設定するには、**[!UICONTROL TTL for public content]** を入力します。 （デフォルト値は `86400`）
 
-1. [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=ja) HTTP エンドポイントで処理する [ レイアウトハンドル ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) の最大数を指定するには、**[!UICONTROL Handles param size]** を入力します。 サイズを制限すると、セキュリティとパフォーマンスが向上する可能性があります。 （デフォルト値は `100`）
+1. [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=ja) HTTP エンドポイントで処理する [&#x200B; レイアウトハンドル &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) の最大数を指定するには、**[!UICONTROL Handles param size]** を入力します。 サイズを制限すると、セキュリティとパフォーマンスが向上する可能性があります。 （デフォルト値は `100`）
 
 1. Varnish を使用する場合は、**[!UICONTROL Varnish Configuration]** のセクションを次のように完成させます。
 
@@ -213,10 +213,10 @@ Adobe CommerceとMagento Open Sourceでは、サーバー上のフルページ�
 
    - **[!UICONTROL Backend port]** – 設定ファイルの生成に使用するバックエンドポートを識別します。 デフォルト値は `8080` です。
 
-   - **[!UICONTROL Grace period]** – 設定ファイルを生成するための猶予期間として使用する秒数を指定します。 [ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html?lang=ja) の _高度なワニス設定_ を参照してください。
+   - **[!UICONTROL Grace period]** – 設定ファイルを生成するための猶予期間として使用する秒数を指定します。 [&#x200B; 設定ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html?lang=ja) の _高度なワニス設定_ を参照してください。
 
    - 設定を `varnish.vcl` ファイルとして書き出すには、使用する Varnish のバージョンのボタンをクリックします。
 
-   ![ 事前設定 – 全ページのキャッシュワニス ](../configuration-reference/advanced/assets/system-full-page-cache-varnish.png){width="600" zoomable="yes"}
+   ![&#x200B; 事前設定 – 全ページのキャッシュワニス &#x200B;](../configuration-reference/advanced/assets/system-full-page-cache-varnish.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

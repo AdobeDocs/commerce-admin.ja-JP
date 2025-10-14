@@ -21,7 +21,7 @@ ht-degree: 0%
 
 _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Reviews]_/**[!UICONTROL By Customers]**&#x200B;に移動します。
 
-![ 顧客別レビュー報告書 ](./assets/customer-reviews.png){width="600"}
+![&#x200B; 顧客別レビュー報告書 &#x200B;](./assets/customer-reviews.png){width="600"}
 
 ## [!UICONTROL Product Reviews Report]
 
@@ -29,4 +29,4 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Reviews]_
 
 _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Reviews]_/**[!UICONTROL By Products]**&#x200B;に移動します。
 
-![ 製品別レビュー報告書 ](./assets/product-reviews.png){width="600"}
+![&#x200B; 製品別レビュー報告書 &#x200B;](./assets/product-reviews.png){width="600"}

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 手順 1：メールテンプレートの更新
 
-ブランドを反映させるために、必要なメールテンプレートを更新したことを確認します。 テンプレートの完全なリストについては、[ メールテンプレートリスト ](../systems/email-templates.md#email-template-list) を参照してください。
+ブランドを反映させるために、必要なメールテンプレートを更新したことを確認します。 テンプレートの完全なリストについては、[&#x200B; メールテンプレートリスト &#x200B;](../systems/email-templates.md#email-template-list) を参照してください。
 
 ## 手順 2：支払いに失敗したメールの設定
 
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Payment Failed Emails]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Payment Failed Emails]**」セクションを展開します。
 
-   ![ 支払いに失敗したメール ](../configuration-reference/sales/assets/checkout-payment-failed-emails.png){width="600" zoomable="yes"}
+   ![&#x200B; 支払いに失敗したメール &#x200B;](../configuration-reference/sales/assets/checkout-payment-failed-emails.png){width="600" zoomable="yes"}
 
 1. 支払失敗 E メールのオプションを設定します：
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 注文ステータス
 
-すべての注文には、注文処理 [ ワークフロー ](order-processing.md) のステージに関連付けられた注文ステータスがあります。\
+すべての注文には、注文処理 [&#x200B; ワークフロー &#x200B;](order-processing.md) のステージに関連付けられた注文ステータスがあります。\
 注文ステータスと注文ステータスの違いは、**[!UICONTROL order states]** がプログラムで使用される点です。 次ではありません
 顧客または管理者ユーザーに表示されます。 注文のフローと、注文に対して実行できる操作を決定します。
 特定の状態で注文してください。\
@@ -23,11 +23,11 @@ Adobe Commerce以外の進行状況（注文ピッキングや配送の進行状
 各注文ステータスは、注文ステータスに関連付けられています。 ストアには、事前に定義された一連の注文ステータスがあり、
 オーダー状態の設定。
 
-![ 注文のステータスとステータス ](./assets/order-states-and-statuses.png){width="700" zoomable="yes"}
+![&#x200B; 注文のステータスとステータス &#x200B;](./assets/order-states-and-statuses.png){width="700" zoomable="yes"}
 
 各注文のステータスは、_注文_ グリッドの _ステータス_ 列に表示されます。
 
-![ 注文ステータス ](./assets/stores-order-status-column.png){width="700" zoomable="yes"}
+![&#x200B; 注文ステータス &#x200B;](./assets/stores-order-status-column.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
@@ -35,7 +35,7 @@ Adobe Commerce以外の進行状況（注文ピッキングや配送の進行状
 
 ## 注文の状態ワークフロー
 
-![ 注文状態ワークフロー ](./assets/order-state-workflow.png)
+![&#x200B; 注文状態ワークフロー &#x200B;](./assets/order-state-workflow.png)
 
 ## 事前定義済みステータス
 
@@ -66,7 +66,7 @@ Adobe Commerce以外の進行状況（注文ピッキングや配送の進行状
 >
 >注文ワークフローでは、デフォルトのカスタム注文ステータス値のみが使用されます。 デフォルトとして設定されていないカスタムステータス値は、注文のコメントセクションでのみ使用できます。
 
-![ 注文ステータスの設定 ](./assets/order-status.png){width="700" zoomable="yes"}
+![&#x200B; 注文ステータスの設定 &#x200B;](./assets/order-status.png){width="700" zoomable="yes"}
 
 ### カスタム注文ステータスの作成
 
@@ -74,7 +74,7 @@ Adobe Commerce以外の進行状況（注文ピッキングや配送の進行状
 
 1. 右上隅の「**[!UICONTROL Create New Status]**」をクリックします。
 
-   ![ 新しい注文ステータスの作成 ](./assets/order-status-new.png){width="600" zoomable="yes"}
+   ![&#x200B; 新しい注文ステータスの作成 &#x200B;](./assets/order-status-new.png){width="600" zoomable="yes"}
 
 1. _[!UICONTROL Order Status Information]_&#x200B;のセクションを更新します。
 
@@ -90,7 +90,7 @@ Adobe Commerce以外の進行状況（注文ピッキングや配送の進行状
 
 1. _注文ステータス_ ページで、「**[!UICONTROL Assign Status to State]**」をクリックします。
 
-   ![ 割り当てステータス ](./assets/store-status-assign-status.png){width="600" zoomable="yes"}
+   ![&#x200B; 割り当てステータス &#x200B;](./assets/store-status-assign-status.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Assignment Information]** セクションを更新し、次の操作を実行します。
 
@@ -110,7 +110,7 @@ Adobe Commerce以外の進行状況（注文ピッキングや配送の進行状
 
    - このステータスをストアフロントから表示するには、「**[!UICONTROL Visible On Storefront]**」チェックボックスをオンにします。
 
-   ![ 状態を状態に割り当て ](./assets/order-status-assign-state.png){width="600" zoomable="yes"}
+   ![&#x200B; 状態を状態に割り当て &#x200B;](./assets/order-status-assign-state.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save Status Assignment]**」をクリックします。
 
@@ -140,7 +140,7 @@ Adobe Commerce以外の進行状況（注文ピッキングや配送の進行状
 
 ## 通知
 
-設定で「注文 RSS フィード」が有効になっている場合、顧客は [RSS フィード ](../merchandising-promotions/social-rss.md) によって注文のステータスを追跡できます。 有効化すると、各注文に RSS フィードへのリンクが表示されます。
+設定で「注文 RSS フィード」が有効になっている場合、顧客は [RSS フィード &#x200B;](../merchandising-promotions/social-rss.md) によって注文のステータスを追跡できます。 有効化すると、各注文に RSS フィードへのリンクが表示されます。
 
 ### 注文ステータス通知を有効にする
 
@@ -148,11 +148,11 @@ Adobe Commerce以外の進行状況（注文ピッキングや配送の進行状
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL RSS Feeds]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Order]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Order]**」セクションを展開します。
 
 1. **[!UICONTROL Customer Order Status Notification]** を `Enable` に設定します。
 
-   ![ 顧客注文ステータスの通知 ](../configuration-reference/catalog/assets/rss-feeds-order.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客注文ステータスの通知 &#x200B;](../configuration-reference/catalog/assets/rss-feeds-order.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
@@ -162,9 +162,9 @@ Adobe Commerce以外の進行状況（注文ピッキングや配送の進行状
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、その下の「**[!UICONTROL Sales Emails]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Order]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Order]**」セクションを展開します。
 
-   ![ 設定 – 注文オプション ](../configuration-reference/sales/assets/sales-emails-order.png){width="600" zoomable="yes"}
+   ![&#x200B; 設定 – 注文オプション &#x200B;](../configuration-reference/sales/assets/sales-emails-order.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL New Order Confirmation Email Sender]** を次のいずれかに設定します。
 

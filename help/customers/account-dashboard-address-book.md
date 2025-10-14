@@ -14,7 +14,7 @@ ht-degree: 0%
 
 アドレス帳を最新の状態に保つお客様は、チェックアウトプロセスを迅速に進めることができます。 アドレス帳には、顧客の既定の請求先住所と配送先住所、および顧客が頻繁に使用する追加の住所が記載されています。 追加のアドレス・エントリーは、グリッドから容易にアクセスおよび管理できます。 各顧客のアドレス帳は、パフォーマンスに影響を与えることなく、3,000 件を超えるアドレス帳エントリを管理できます。
 
-![ アドレス帳 ](assets/customer-account-dashboard-address-book.png){width="700" zoomable="yes"}
+![&#x200B; アドレス帳 &#x200B;](assets/customer-account-dashboard-address-book.png){width="700" zoomable="yes"}
 
 ## アドレスを追加
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. _[!UICONTROL Address Book]_&#x200B;ページの_ その他のアドレス エントリ _で、**[!UICONTROL Add New Address]**&#x200B;をクリックします。
 
-   ![ 新しいアドレスを追加 ](assets/add-new-address.png){width="600" zoomable="yes"}
+   ![&#x200B; 新しいアドレスを追加 &#x200B;](assets/add-new-address.png){width="600" zoomable="yes"}
 
 1. 新しいアドレス項目を定義します。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
    >
    >新しいアドレスは「[!UICONTROL Additional Address Entries]」の下に表示されます。
 
-   ![ 追加アドレス項目 ](assets/customer-account-dashboard-address-saved.png){width="700" zoomable="yes"}
+   ![&#x200B; 追加アドレス項目 &#x200B;](assets/customer-account-dashboard-address-saved.png){width="700" zoomable="yes"}
 
 ## アドレスを編集
 

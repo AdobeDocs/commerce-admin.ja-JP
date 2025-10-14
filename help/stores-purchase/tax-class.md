@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 税クラス
 
-税金クラスは、顧客、製品および出荷に割り当てることができます。 Commerceは、各顧客の買い物かごを分析し、顧客のクラス、買い物かごの商品のクラスおよびリージョンに従って適切な税金を計算します。 地域は、顧客の発送先住所、請求先住所、または発送元によって決定されます。 [ 税務処理基準 ](tax-rules.md) を定義する際に、新しい税クラスを作成できます。
+税金クラスは、顧客、製品および出荷に割り当てることができます。 Commerceは、各顧客の買い物かごを分析し、顧客のクラス、買い物かごの商品のクラスおよびリージョンに従って適切な税金を計算します。 地域は、顧客の発送先住所、請求先住所、または発送元によって決定されます。 [&#x200B; 税務処理基準 &#x200B;](tax-rules.md) を定義する際に、新しい税クラスを作成できます。
 
-- **顧客** – 必要な数の顧客税金クラスを作成して、[ 顧客グループ ](../customers/customer-groups.md) に割り当てることができます。 例えば、一部の管轄区域では、卸売取引は課税されませんが、小売取引は課税されます。 Wholesale Customer グループのメンバーを Wholesale tax クラスに関連付けることができます。
+- **顧客** – 必要な数の顧客税金クラスを作成して、[&#x200B; 顧客グループ &#x200B;](../customers/customer-groups.md) に割り当てることができます。 例えば、一部の管轄区域では、卸売取引は課税されませんが、小売取引は課税されます。 Wholesale Customer グループのメンバーを Wholesale tax クラスに関連付けることができます。
 
 - **商品** – 商品クラスは、計算で使用され、買い物かごに正しい税率が適用されるかどうかを決定します。 製品を作成すると、その製品は特定の税区分に割り当てられます。 例えば、食品に対する課税が行われない場合や、異なる税率で課税される場合があります。
 
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 ## 税クラスの構成
 
-出荷に使用される税クラスと、[ 製品および顧客 ](#add-a-product-tax-class) のデフォルトの税クラスは、_[!UICONTROL Sales]_&#x200B;設定で設定されます。
+出荷に使用される税クラスと、[&#x200B; 製品および顧客 &#x200B;](#add-a-product-tax-class) のデフォルトの税クラスは、_[!UICONTROL Sales]_&#x200B;設定で設定されます。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Tax]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Tax Classes]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Tax Classes]**」セクションを展開します。
 
-   ![ 構成 – 税クラス ](../configuration-reference/sales/assets/tax-tax-classes.png){width="600" zoomable="yes"}
+   ![&#x200B; 構成 – 税クラス &#x200B;](../configuration-reference/sales/assets/tax-tax-classes.png){width="600" zoomable="yes"}
 
 1. 次の各税金区分を選択します。
 
@@ -49,19 +49,19 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Add New Tax Rule]**」をクリックします。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Additional Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Additional Settings]**」セクションを展開します。
 
-   ![ 新しい税クラスの追加 ](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 新しい税クラスの追加 &#x200B;](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
 
 1. _顧客税区分_ の下で、「**[!UICONTROL Add New Tax Class]**」をクリックします。
 
 1. 新しい税区分の **[!UICONTROL Name]** をテキスト・ボックスに入力します。
 
-   ![ 新しい税クラスの追加 ](./assets/tax-class-customer-add-new.png){width="600" zoomable="yes"}
+   ![&#x200B; 新しい税クラスの追加 &#x200B;](./assets/tax-class-customer-add-new.png){width="600" zoomable="yes"}
 
 1. 使用可能な顧客税区分のリストに新規区分を追加するには、チェックマークをクリックします。
 
-   ![ 新しい税クラス ](./assets/tax-classes-updated.png){width="600" zoomable="yes"}
+   ![&#x200B; 新しい税クラス &#x200B;](./assets/tax-classes-updated.png){width="600" zoomable="yes"}
 
 ## 製品税クラスの追加
 
@@ -83,9 +83,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Tax]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Default Tax Destination Calculation]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Default Tax Destination Calculation]**」セクションを展開します。
 
-   ![ デフォルト税金搬送先計算 ](../configuration-reference/sales/assets/tax-default-tax-destination-calculation.png){width="600" zoomable="yes"}
+   ![&#x200B; デフォルト税金搬送先計算 &#x200B;](../configuration-reference/sales/assets/tax-default-tax-destination-calculation.png){width="600" zoomable="yes"}
 
 1. 税金計算のベースとなる国の **[!UICONTROL Default Country]** を設定します。
 

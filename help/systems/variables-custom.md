@@ -13,9 +13,9 @@ ht-degree: 1%
 
 # カスタム変数の追加
 
-ビジネスの特定のニーズを満たすために、カスタム変数を作成して、[ ページ ](../content-design/pages.md)、[ ブロック ](../content-design/blocks.md) および [ メールテンプレート ](email-templates.md) に挿入できます。 「_変数を挿入_」ボタンをクリックすると表示される、許可された変数のリストには、[ 事前定義済み ](variables-predefined.md) 変数とカスタム変数の両方が含まれています。 特定のメールテンプレートで使用できる変数のリストは、テンプレートに関連付けられているデータによって決まります。 よく使用されるメールテンプレートとそれに関連する変数のリストについては、[ 変数リファレンス ](variables-reference.md) を参照してください。
+ビジネスの特定のニーズを満たすために、カスタム変数を作成して、[&#x200B; ページ &#x200B;](../content-design/pages.md)、[&#x200B; ブロック &#x200B;](../content-design/blocks.md) および [&#x200B; メールテンプレート &#x200B;](email-templates.md) に挿入できます。 「_変数を挿入_」ボタンをクリックすると表示される、許可された変数のリストには、[&#x200B; 事前定義済み &#x200B;](variables-predefined.md) 変数とカスタム変数の両方が含まれています。 特定のメールテンプレートで使用できる変数のリストは、テンプレートに関連付けられているデータによって決まります。 よく使用されるメールテンプレートとそれに関連する変数のリストについては、[&#x200B; 変数リファレンス &#x200B;](variables-reference.md) を参照してください。
 
-![ カスタム変数 ](./assets/variables-custom.png){width="600" zoomable="yes"}
+![&#x200B; カスタム変数 &#x200B;](./assets/variables-custom.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ ht-degree: 1%
    >
    >スペースを広げる必要がある場合は、テキストボックスの右下隅をドラッグします。
 
-   ![ 新しいカスタム変数 ](./assets/variable-custom-add.png){width="600" zoomable="yes"}
+   ![&#x200B; 新しいカスタム変数 &#x200B;](./assets/variable-custom-add.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
@@ -57,7 +57,7 @@ ht-degree: 1%
 
 1. 変数をコンテンツに追加するページ、ブロック、カテゴリまたは製品を開きます。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Content]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Content]**」セクションを展開します。
 
 1. 「**[!UICONTROL Edit with Page Builder]**」をクリックします。
 
@@ -67,16 +67,16 @@ ht-degree: 1%
 
    - 新しい **[!UICONTROL Text]** オブジェクトをステージにドラッグします。
 
-1. エディターツールバーの右端にある（![ 変数を挿入 ](./assets/editor-btn-insert-variable.png)）をクリックして、変数を挿入します。
+1. エディターツールバーの右端にある（![&#x200B; 変数を挿入 &#x200B;](./assets/editor-btn-insert-variable.png)）をクリックして、変数を挿入します。
 
-   ステ ![[!DNL Page Builder] ジとパネル ](./assets/variable-custom-pagebuilder-stage.png){width="600" zoomable="yes"}
+   ステ ![[!DNL Page Builder] ジとパネル &#x200B;](./assets/variable-custom-pagebuilder-stage.png){width="600" zoomable="yes"}
 
 1. リストで、挿入するカスタム変数を選択し、「**[!UICONTROL Insert Variable]**」をクリックします。
 
-   ![ 新しいカスタム変数 ](./assets/variable-custom-insert-select.png){width="600" zoomable="yes"}
+   ![&#x200B; 新しいカスタム変数 &#x200B;](./assets/variable-custom-insert-select.png){width="600" zoomable="yes"}
 
    変数識別子は、エディターでプレースホルダーとして表示されます。
 
-   ![[!DNL Page Builder] ステージ – 変数プレースホルダー ](./assets/pagebuilder-variable-inserted.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] ステージ – 変数プレースホルダー &#x200B;](./assets/pagebuilder-variable-inserted.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。

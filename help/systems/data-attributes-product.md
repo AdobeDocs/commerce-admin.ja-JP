@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 製品データ属性リファレンス
 
-次の表に、一般的な製品の書き出しからの属性を、デフォルトで表示される順序で示します。 CSV ファイルでは、各属性が列として表され、製品レコードは行で表されます。 アンダースコアで始まる列には、複雑なデータのプロパティやオプション値などのサービスデータが含まれます。 カタログから製品を [ 書き出し ](data-export.md) して、データでの各属性の表現を確認できます。
+次の表に、一般的な製品の書き出しからの属性を、デフォルトで表示される順序で示します。 CSV ファイルでは、各属性が列として表され、製品レコードは行で表されます。 アンダースコアで始まる列には、複雑なデータのプロパティやオプション値などのサービスデータが含まれます。 カタログから製品を [&#x200B; 書き出し &#x200B;](data-export.md) して、データでの各属性の表現を確認できます。
 
 このデータを書き出すために使用されるインストールには、サンプルデータがインストールされており、2 つの web サイトといくつかのストアビューがあります。 通常は書き出されるすべての列が含まれていますが、必要な値は `sku` のみです。 データを読み込むには、変更を加えた列のみを含めます。 `sku` は最初の列にする必要がありますが、残りの属性の順序は関係ありません。
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 設定可能な製品を書き出すと、単純な製品を構成する標準属性に加えて、複雑なデータの管理に必要な追加の属性が見つかります。
 
-![ 設定可能な製品 – 書き出されたデータ ](./assets/data-exported-configurable-product.png){width="600" zoomable="yes"}
+![&#x200B; 設定可能な製品 – 書き出されたデータ &#x200B;](./assets/data-exported-configurable-product.png){width="600" zoomable="yes"}
 
 ### 設定可能な製品
 
@@ -155,20 +155,20 @@ ht-degree: 0%
 
 ## 詳細な価格設定属性
 
-高度な価格インポート/エクスポートを使用すると、製品グループと階層価格の価格情報をすばやく更新できます。 高度な価格データを [ インポート ](data-import.md) および [ エクスポート ](data-export.md) するプロセスは、他のエンティティタイプと同じです。 サンプルの CSV ファイルには、高度な価格設定をサポートする各製品タイプの階層とグループの価格が含まれています。 詳細価格の変更は、製品レコードの残りの部分には影響しません。
+高度な価格インポート/エクスポートを使用すると、製品グループと階層価格の価格情報をすばやく更新できます。 高度な価格データを [&#x200B; インポート &#x200B;](data-import.md) および [&#x200B; エクスポート &#x200B;](data-export.md) するプロセスは、他のエンティティタイプと同じです。 サンプルの CSV ファイルには、高度な価格設定をサポートする各製品タイプの階層とグループの価格が含まれています。 詳細価格の変更は、製品レコードの残りの部分には影響しません。
 
-![ エクスポートデータの例 – 詳細価格 ](./assets/data-advanced-pricing-export-sample.png){width="600" zoomable="yes"}
+![&#x200B; エクスポートデータの例 – 詳細価格 &#x200B;](./assets/data-advanced-pricing-export-sample.png){width="600" zoomable="yes"}
 
 | 属性 | 説明 |
 |--- |--- |
 | `sku` | （必須）在庫管理単位は、在庫の追跡に使用される一意の英数字の識別子です。 SKU の長さは最大 64 文字です。 例：`sku123`<br/>**_メモ：_**&#x200B;SKU が 64 文字を超えると、読み込みが失敗します。 |
-| `tier_price_website` | [Web サイトコード ](../stores-purchase/stores.md#add-websites) は、階層別の料金が利用可能な各 Web サイトを識別します。 例：`-  website1 -  All Websites [USD]` |
-| `tier_price_customer` | 階層別の価格設定が使用可能な [ 顧客のグループ ](../customers/customer-groups.md) を識別します。 例：`-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
+| `tier_price_website` | [Web サイトコード &#x200B;](../stores-purchase/stores.md#add-websites) は、階層別の料金が利用可能な各 Web サイトを識別します。 例：`-  website1 -  All Websites [USD]` |
+| `tier_price_customer` | 階層別の価格設定が使用可能な [&#x200B; 顧客のグループ &#x200B;](../customers/customer-groups.md) を識別します。 例：`-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_customer_group` | 階層別の価格設定が使用可能な顧客グループを識別します。 例：`-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_qty` | 階層価格割引を受けるために注文する必要がある商品の数量。 |
-| `tier_price` | 商品の割引階層価格。 [ バンドル製品 ](../catalog/product-create-bundle.md) の場合、階層価格はパーセンテージで計算されます。 |
-| `group_price_website` | グループ価格を利用できる各 Web サイトの [Web サイトコード ](../stores-purchase/stores.md#add-websites)。 複数の web サイトを指定する場合は、コンマで区切り、スペースは使用しません。 例：`-  website1 -  All Websites [USD]` |
+| `tier_price` | 商品の割引階層価格。 [&#x200B; バンドル製品 &#x200B;](../catalog/product-create-bundle.md) の場合、階層価格はパーセンテージで計算されます。 |
+| `group_price_website` | グループ価格を利用できる各 Web サイトの [Web サイトコード &#x200B;](../stores-purchase/stores.md#add-websites)。 複数の web サイトを指定する場合は、コンマで区切り、スペースは使用しません。 例：`-  website1 -  All Websites [USD]` |
 | `group_price_customer_group` | グループ価格を利用できる顧客のグループを識別します。 例：`-  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
-| `group_price` | 商品の割引されたグループ価格。 [ バンドル製品 ](../catalog/product-create-bundle.md) の場合、グループ価格はパーセンテージで計算されます。 |
+| `group_price` | 商品の割引されたグループ価格。 [&#x200B; バンドル製品 &#x200B;](../catalog/product-create-bundle.md) の場合、グループ価格はパーセンテージで計算されます。 |
 
 {style="table-layout:auto"}

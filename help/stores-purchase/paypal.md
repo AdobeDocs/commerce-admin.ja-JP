@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PayPal 支払いソリューション
 
-PayPal は、オンライン決済のグローバルリーダーであり、顧客がオンラインで支払う迅速かつ安全な方法です。 利用可能な PayPal ソリューションの選択は、マーチャントの場所によって異なります。 PayPal Express Checkout と PayPal Payments Standard は、世界中のすべての地域で使用できます。 詳しくは、[ 国別 PayPal ソリューション ](#paypal-solutions-by-country) を参照してください。
+PayPal は、オンライン決済のグローバルリーダーであり、顧客がオンラインで支払う迅速かつ安全な方法です。 利用可能な PayPal ソリューションの選択は、マーチャントの場所によって異なります。 PayPal Express Checkout と PayPal Payments Standard は、世界中のすべての地域で使用できます。 詳しくは、[&#x200B; 国別 PayPal ソリューション &#x200B;](#paypal-solutions-by-country) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ PayPal は、オンライン決済のグローバルリーダーであり、顧�
 
 ## PayPal ビジネスアカウント
 
-PayPal をストアの支払い方法として提供するには、PayPal[ ビジネスアカウント ][1] および/または [PayPal Payflow アカウント ][2] が必要です。 アカウント要件は、各 PayPal ソリューションの説明で指定されています。 PayPal のマーチャントアカウントは、ストアからの購入に適用される [ 不正フィルター ](#paypal-fraud-management-filters) の管理にも使用されます。
+PayPal をストアの支払い方法として提供するには、PayPal[ ビジネスアカウント ][1] および/または [PayPal Payflow アカウント ][2] が必要です。 アカウント要件は、各 PayPal ソリューションの説明で指定されています。 PayPal のマーチャントアカウントは、ストアからの購入に適用される [&#x200B; 不正フィルター &#x200B;](#paypal-fraud-management-filters) の管理にも使用されます。
 
 PayPal Express Checkout または Payflow Pro の Express Checkout を使用するお客様は、PayPal のバイヤーアカウントを持っている必要があります。 PayPal Payments Standard （一部の国では Website Payments Standard）は、マーチャントが有効にしている場合、直接または購入者アカウントを通じて使用できます _PayPal アカウント オプション_。 デフォルトでは、このパラメータは有効になっており、顧客はクレジットカード情報を入力するか、PayPal でバイヤーアカウントを作成するかを選択できます。 無効にした場合、お客様は購入を行う前に、まず PayPal バイヤーアカウントを作成する必要があります。
 
@@ -40,7 +40,7 @@ PayPal PayLater は、顧客が資金調達にすばやくアクセスできる�
 >
 >2.4.3 リリース以降、PayPal PayLater は PayPal を含むデプロイメントでサポートされます。 この機能により、買い物客は購入時に全額を支払うのではなく、隔週の分割払いで注文の支払いを行うことができます。 PayPal クレジットエクスペリエンスは非推奨（廃止予定）となりました。
 
-米国のマーチャントの場合、[PayPal Express Checkout](paypal-express-checkout.md) 支払いオプションでは PayPal クレジットがデフォルトで有効になっています。 この支払い方法を無効にするには、_PayPal Express Checkout 設定 [ の_ 機能 ](paypal-express-checkout.md#features) の節を参照してください。
+米国のマーチャントの場合、[PayPal Express Checkout](paypal-express-checkout.md) 支払いオプションでは PayPal クレジットがデフォルトで有効になっています。 この支払い方法を無効にするには、_PayPal Express Checkout 設定 [&#x200B; の_ 機能 &#x200B;](paypal-express-checkout.md#features) の節を参照してください。
 
 PayPal クレジットは、他の PayPal 支払いソリューションではデフォルトで無効になっていますが、サポートソリューションの支払い方法の設定では有効にすることができます。
 
@@ -74,7 +74,7 @@ PayPal とAdobe Commerceを使用すると、すべての主要なデビット�
 - [PayPal ペイメントプロ](paypal-payments-pro.md)
 - [PayPal 支払い標準](paypal-payments-standard.md)
 
-![PayPal オールインワン支払いソリューション ](./assets/paypal-all-in-one.png){width="600" zoomable="yes"}
+![PayPal オールインワン支払いソリューション &#x200B;](./assets/paypal-all-in-one.png){width="600" zoomable="yes"}
 
 ### PayPal 支払いゲートウェイ
 
@@ -94,11 +94,11 @@ PayPal は、お客様のビジネスに合わせて 2 つの支払いゲート�
 - [PayPal Payflow Pro](paypal-payflow-pro.md)
 - [PayPal ペイフローリンク](paypal-payflow-link.md)
 
-![PayPal 支払いゲートウェイの設定 ](./assets/paypal-payment-gateway.png){width="600" zoomable="yes"}
+![PayPal 支払いゲートウェイの設定 &#x200B;](./assets/paypal-payment-gateway.png){width="600" zoomable="yes"}
 
 ## PayPal 不正管理フィルター
 
-PayPal の不正管理フィルターを使用すると、不正な取引を検出して対応しやすくなり、フラグを立てる、確認のために保留する、またはリスクの高い支払いを拒否するように設定できます。 不正フィルターの設定に従って変更された、Commerce[ 注文ステータス ](order-status.md) 値に関連するアクション：
+PayPal の不正管理フィルターを使用すると、不正な取引を検出して対応しやすくなり、フラグを立てる、確認のために保留する、またはリスクの高い支払いを拒否するように設定できます。 不正フィルターの設定に従って変更された、Commerce[&#x200B; 注文ステータス &#x200B;](order-status.md) 値に関連するアクション：
 
 | アクション | 結果 |
 | --- | --- |

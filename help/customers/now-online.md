@@ -13,13 +13,13 @@ ht-degree: 0%
 
 [!DNL Customers] メニューの「**[!UICONTROL Now Online]**」オプションには、ストアで現在オンラインになっているすべての顧客と訪問者が一覧表示されます。 設定で、顧客が現在オンラインとして表示される時間間隔が設定され、[!DNL Customer's] のアクティビティが管理者から表示される期間が決定されます。 デフォルトでは、間隔は 15 分です。 この間キーボードを使用しないと、セッションは終了します。顧客が買い物を続行するには、もう一度アカウントにログインする必要があります。 後でアクセスできるようにカートの内容は保存されることに注意してください。
 
-![ オンライン顧客 ](assets/customers-now-online.png){width="700" zoomable="yes"}
+![&#x200B; オンライン顧客 &#x200B;](assets/customers-now-online.png){width="700" zoomable="yes"}
 
 顧客のオンラインステータスは、顧客のログイン、登録、またはその他の状態変化イベントがあった場合にのみ更新されます。 製品の追加、削除、変更など、買い物かご関連のイベントが含まれます。
 
 >[!NOTE]
 >
->ページ訪問だけでは、顧客のオンラインステータスは更新されません。 このような情報を収集するには、[Google Analyticsを設定 ](../merchandising-promotions/google-analytics.md) （単独または [Google Tag Manager](../merchandising-promotions/google-tag-manager.md) を使用）するか、他の分析ソフトウェアをAdobe Commerceと共に使用することをお勧めします。
+>ページ訪問だけでは、顧客のオンラインステータスは更新されません。 このような情報を収集するには、[Google Analyticsを設定 &#x200B;](../merchandising-promotions/google-analytics.md) （単独または [Google Tag Manager](../merchandising-promotions/google-tag-manager.md) を使用）するか、他の分析ソフトウェアをAdobe Commerceと共に使用することをお勧めします。
 
 ## 現在オンライン状態のすべての顧客を表示
 
@@ -27,7 +27,7 @@ _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL Online
 
 >[!TIP]
 >
->オンライン顧客の購入の支援について詳しくは、[ 買い物サポート ](../stores-purchase/introduction.md#shopping-assistance) を参照してください。
+>オンライン顧客の購入の支援について詳しくは、[&#x200B; 買い物サポート &#x200B;](../stores-purchase/introduction.md#shopping-assistance) を参照してください。
 
 ## 時間間隔の設定
 
@@ -37,7 +37,7 @@ _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL Online
 
 1. 「**[!UICONTROL Online Customers Options]**」セクションを展開し、次の操作を実行します。
 
-   ![ オンライン顧客オプション ](../configuration-reference/customers/assets/customer-configuration-online-customers-options.png){width="600" zoomable="yes"}
+   ![&#x200B; オンライン顧客オプション &#x200B;](../configuration-reference/customers/assets/customer-configuration-online-customers-options.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Online Minutes Interval]**：管理者が顧客セッションを表示する時間（分）を入力します。 デフォルトの 15 分の間隔を使用するには、フィールドを空のままにします。
 

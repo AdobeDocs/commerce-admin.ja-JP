@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # メディア – バナー
 
-_バナー_ コンテンツタイプを使用して、[[!DNL Page Builder]  ステージ ](workspace.md#stage) のcall to actionとボタンでユーザーを引きつけるイラスト付きのインタラクティブコンポーネントを追加します。
+_バナー_ コンテンツタイプを使用して、[[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage) のcall to actionとボタンでユーザーを引きつけるイラスト付きのインタラクティブコンポーネントを追加します。
 
 >[!NOTE]
 >
->以前はコンテンツメニューの _バナー_ オプションでしたが、現在は [ 動的ブロック ](../content-design/dynamic-blocks.md) になっています。
+>以前はコンテンツメニューの _バナー_ オプションでしたが、現在は [&#x200B; 動的ブロック &#x200B;](../content-design/dynamic-blocks.md) になっています。
 
-![ ストアフロントのホームページのバナー ](./assets/pb-banner-homepage.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントのホームページのバナー &#x200B;](./assets/pb-banner-homepage.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -26,17 +26,17 @@ _バナー_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
 
 バナーツールボックスは、バナーコンテナにカーソルを合わせると表示されます。
 
-![ バナーツールボックス ](./assets/pb-tutorial1-banner-toolbox.png){width="600" zoomable="yes"}
+![&#x200B; バナーツールボックス &#x200B;](./assets/pb-tutorial1-banner-toolbox.png){width="600" zoomable="yes"}
 
 | ツール | アイコン | 説明 |
 |--- |--- |--- |
-| 移動 | ![ 移動アイコン ](./assets/pb-icon-move.png){width="25"} | バナーをステージ上の別の位置に移動します。 |
+| 移動 | ![&#x200B; 移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | バナーをステージ上の別の位置に移動します。 |
 | （ラベル） | バナー | 現在のコンテンツコンテナをバナーとして識別します。 コンテナの上にマウスポインターを置くと、ツールボックスが表示されます。 |
-| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | バナーを編集ページを開きます。このページで、バナーとコンテナのプロパティを変更できます。 |
-| Hide | ![ アイコンを非表示 ](./assets/pb-icon-hide.png){width="25"} | 現在のバナーを非表示にします。 |
-| 表示 | ![ アイコンを表示 ](./assets/pb-icon-show.png){width="25"} | 非表示のバナーを表示します。 |
-| 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | バナーをコピーします。 |
-| 削除 | ![ 削除アイコン ](./assets/pb-icon-remove.png){width="25"} | ステージからバナーを削除します。 |
+| 設定 | ![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | バナーを編集ページを開きます。このページで、バナーとコンテナのプロパティを変更できます。 |
+| Hide | ![&#x200B; アイコンを非表示 &#x200B;](./assets/pb-icon-hide.png){width="25"} | 現在のバナーを非表示にします。 |
+| 表示 | ![&#x200B; アイコンを表示 &#x200B;](./assets/pb-icon-show.png){width="25"} | 非表示のバナーを表示します。 |
+| 複製 | ![&#x200B; 複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | バナーをコピーします。 |
+| 削除 | ![&#x200B; 削除アイコン &#x200B;](./assets/pb-icon-remove.png){width="25"} | ステージからバナーを削除します。 |
 | [!UICONTROL Upload New Image] |  | バナーの背景用に、ローカルファイルシステムからギャラリーに画像をアップロードします。 |
 | [!UICONTROL Select from Gallery] |  | バナーの背景にギャラリーの既存の画像を使用します。 |
 
@@ -48,17 +48,17 @@ _バナー_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
 
 1. [!DNL Page Builder] パネルで **[!UICONTROL Media]** を展開し、**[!UICONTROL Banner]** プレースホルダーをステージにドラッグします。
 
-   ![ バナーコンテンツタイプのステージへのドラッグ ](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
+   ![&#x200B; バナーコンテンツタイプのステージへのドラッグ &#x200B;](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
    _[!UICONTROL Upload Image]_&#x200B;ボタンと&#x200B;_[!UICONTROL Select from Gallery]_ ボタンが含まれているので、ステージから直接バナーコンテンツをすばやく変更できます。 _[!UICONTROL Edit Banner]_&#x200B;ページのコンテンツを変更することもできます。
 
-1. バナープレースホルダー内をクリックして [ テキストエディター ](../content-design/editor.md) を表示し、バナーのコンテンツを入力します。
+1. バナープレースホルダー内をクリックして [&#x200B; テキストエディター &#x200B;](../content-design/editor.md) を表示し、バナーのコンテンツを入力します。
 
-   [ コンテンツ ](#content) 設定を使用して、より複雑なバナーコンテンツを含めることもできます。
+   [&#x200B; コンテンツ &#x200B;](#content) 設定を使用して、より複雑なバナーコンテンツを含めることもできます。
 
 ## バナー設定の変更
 
-1. バナーコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png)）アイコンを選択します。
+1. バナーコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png)）アイコンを選択します。
 
 1. 使用可能な設定の更新について詳しくは、次の節を参照してください。
 
@@ -86,7 +86,7 @@ _バナー_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
 
   {style="table-layout:auto"}
 
-  ![ 外観 – 右のコラージュ ](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
+  ![&#x200B; 外観 – 右のコラージュ &#x200B;](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
 - （オプション）行の **[!UICONTROL Minimum Height]** を入力します。
 
@@ -102,7 +102,7 @@ _バナー_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
 
 スウォッチを選択するか、カラーピッカーをクリックするか、有効なカラー名または同等の 16 進数値を入力して、背景色を指定します。 この設定により、行の背景色が決まります。 また、カラーの不透明度を調整することもできます。
 
-![ 色なし（デフォルト） ](./assets/pb-settings-background-color-no-color.png){width="200"}
+![&#x200B; 色なし（デフォルト） &#x200B;](./assets/pb-settings-background-color-no-color.png){width="200"}
 
 次の 3 つの方法のいずれかで値を設定できます。
 
@@ -112,11 +112,11 @@ _バナー_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
 
 カラーを選択する場合は、「カラーなし _ボックスの左側にあるスウォッチをクリックし_ す。
 
-![ カラースウォッチの選択 ](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
+![&#x200B; カラースウォッチの選択 &#x200B;](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
 カラーボックスをクリックして再度カラーピッカーを開くと、スライダの下のボックスに現在の赤、緑、青、アルファ値（rgba）が表示されます。 最後の数値は、現在の不透明度の割合を小数で示します。 スライダを使用して、不透明度を調整したり、必要な小数値を入力したりできます。
 
-![ 不透明度の設定 ](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
+![&#x200B; 不透明度の設定 &#x200B;](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -126,13 +126,13 @@ _バナー_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
 
 背景の種類は、画像またはビデオです。 デフォルト [!DNL Page Builder]`Image` で、様々な画像設定が表示されます。 `Video` を選択すると、[!DNL Page Builder] は画像設定をビデオ設定にスワップします。 両方の背景タイプの設定について、次の節で説明します。
 
-![ 背景の種類 ](./assets/pb-background-type.png){width="200"}
+![&#x200B; 背景の種類 &#x200B;](./assets/pb-background-type.png){width="200"}
 
 ### 画像タイプの設定
 
 _背景の種類_ を `Image` に設定する場合、次の設定を使用して背景画像の表示を定義します。
 
-![ 背景画像付きバナー ](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
+![&#x200B; 背景画像付きバナー &#x200B;](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
 - **[!UICONTROL Background Image]** – 必要に応じて、用意されているツールを使用してバナーに適用する背景画像を選択します。
 
@@ -140,7 +140,7 @@ _背景の種類_ を `Image` に設定する場合、次の設定を使用し�
   | ---- | ----------- |
   | [!UICONTROL Upload] | ローカルコンピューターからギャラリーに画像ファイルをアップロードし、それをバナーの背景画像として適用します。 |
   | [!UICONTROL Select from Gallery] | バナーの背景画像として、ギャラリーから既存の画像を選択するように求めるプロンプトを表示します。 |
-  | ![ カメラアイコン ](./assets/pb-icon-camera.png){width="25"} | 画像をカメラタイルにドラッグするか、ローカルファイルシステム内の画像を参照できます。 |
+  | ![&#x200B; カメラアイコン &#x200B;](./assets/pb-icon-camera.png){width="25"} | 画像をカメラタイルにドラッグするか、ローカルファイルシステム内の画像を参照できます。 |
 
   {style="table-layout:auto"}
 
@@ -156,7 +156,7 @@ _背景の種類_ を `Image` に設定する場合、次の設定を使用し�
 
   {style="table-layout:auto"}
 
-  ![ 背景サイズ ](./assets/pb-layout-row-settings-background-size-cover.png){width="200"}
+  ![&#x200B; 背景サイズ &#x200B;](./assets/pb-layout-row-settings-background-size-cover.png){width="200"}
 
 - **[!UICONTROL Background Position]** – このオプションを設定して、背景画像をバナーに対してどのように固定するかを指定します。
 
@@ -191,7 +191,7 @@ _[!UICONTROL Background Type]_&#x200B;を `Video` に設定した場合は、次
    - Vimeo ビデオ：`https://vimeo.com/190156113`
    - 有効なビデオ ファイル （`.mp4` を推奨）: `https://myvideos.com/spiral.mp4`
 
-  ![ 背景ビデオの URL](./assets/pb-video-url.png){width="200"}
+  ![&#x200B; 背景ビデオの URL](./assets/pb-video-url.png){width="200"}
 
 - **[!UICONTROL Overlay Color]** - ビデオに透明の濃淡を適用するカラーを選択します。
 
@@ -205,7 +205,7 @@ _[!UICONTROL Background Type]_&#x200B;を `Video` に設定した場合は、次
 
 ## [!UICONTROL Content]
 
-バナーコンテンツは、ステージ上で直接変更することも、設定を変更する場合に変更することもできます。 設定では、バナーリンク、ボタン、オーバーレイなど、より複雑なコンテンツ機能が提供されます。 コンテンツの位置は、[ アピアランス ](#appearance) の配置設定を反映します。
+バナーコンテンツは、ステージ上で直接変更することも、設定を変更する場合に変更することもできます。 設定では、バナーリンク、ボタン、オーバーレイなど、より複雑なコンテンツ機能が提供されます。 コンテンツの位置は、[&#x200B; アピアランス &#x200B;](#appearance) の配置設定を反映します。
 
 ### ステージ上のシンプルなコンテンツ
 
@@ -213,21 +213,21 @@ _[!UICONTROL Background Type]_&#x200B;を `Video` に設定した場合は、次
 
    テキストボックスの上にエディターツールバーが表示されます。
 
-   ![ ステージ上でのコンテンツの編集 ](./assets/pb-tutorial1-banner-stage-text.png){width="600" zoomable="yes"}
+   ![&#x200B; ステージ上でのコンテンツの編集 &#x200B;](./assets/pb-tutorial1-banner-stage-text.png){width="600" zoomable="yes"}
 
 1. エディターツールバーを使用して、テキストの入力や書式設定のほか、リンク、画像、ウィジェットなどの要素を挿入します。
 
-   ![ 書式設定されたテキストを使用したステージ ](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
+   ![&#x200B; 書式設定されたテキストを使用したステージ &#x200B;](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
 
 ### 設定の複雑なコンテンツ
 
-1. バナーコンテナの上にマウスポインターを置くと、ツールボックスが表示されます。次に、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"}）アイコンを選択します。
+1. バナーコンテナの上にマウスポインターを置くと、ツールボックスが表示されます。次に、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"}）アイコンを選択します。
 
 1. 「_[!UICONTROL Content]_」セクションまでスクロールし、**[!UICONTROL Message Text]**&#x200B;エディターを使用してバナーテキストを入力および書式設定します。
 
    テキストリンク、画像、ウィジェットなどの要素を挿入することもできます。
 
-   ![ メッセージテキストエディター ](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
+   ![&#x200B; メッセージテキストエディター &#x200B;](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、バナー **[!UICONTROL Link]** を指定します。
 
@@ -242,18 +242,18 @@ _[!UICONTROL Background Type]_&#x200B;を `Video` に設定した場合は、次
    >
    >2.4.1 リリース以降、ストアフロントの表示に関する問題により、[!DNL Page Builder] はバナーとネストされたテキスト内のリンクのリンクをサポートしなくなりました。 _[!UICONTROL Message Text]_&#x200B;でリンクを使用している場合、「_[!UICONTROL Link]_」オプションを設定することはできません。 バナー全体に 1 つのリンクを使用する場合は、テキストからすべてのリンクを削除できます。<br/>
    >
-   >![ リンク設定がブロックされています ](./assets/pb-nested-link-blocked.png){width="200"}
+   >![&#x200B; リンク設定がブロックされています &#x200B;](./assets/pb-nested-link-blocked.png){width="200"}
 
 
 1. 必要に応じて、リンクをたどるように顧客に促すボタンを追加します。
 
    バナーの外観を設定すると、テキストの下に 1 つのリンクまたはボタンが配置されます。 追加するリンクまたはボタンのプロパティを入力します。
 
-   ![ テキストおよびボタン（またはリンク）を使用した外観 ](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
+   ![&#x200B; テキストおよびボタン（またはリンク）を使用した外観 &#x200B;](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >バナーに [ ブロック ](block.md) を追加して、複数のボタンやリンクを使用することもできます。 競合を避けるために、すべてのリンクまたはボタンを個別のブロックに保持し、リンクまたはボタンをバナーに直接追加しないでください。
+   >バナーに [&#x200B; ブロック &#x200B;](block.md) を追加して、複数のボタンやリンクを使用することもできます。 競合を避けるために、すべてのリンクまたはボタンを個別のブロックに保持し、リンクまたはボタンをバナーに直接追加しないでください。
 
    - **[!UICONTROL Show Button]** を次のいずれかに設定します。
 
@@ -296,11 +296,11 @@ _[!UICONTROL Background Type]_&#x200B;を `Video` に設定した場合は、次
    - **カラーなし** スウォッチをクリックし、スウォッチを選択します。
    - **カラーなし** フィールドに、有効なカラー名または 16 進数値を入力します。
 
-   ![ オーバーレイカラー ](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
+   ![&#x200B; オーバーレイカラー &#x200B;](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
 
 1. 右上隅にある「**[!UICONTROL Save]**」をクリックして設定を適用し、[!DNL Page Builder] ワークスペースに戻ります。
 
-   ![ テキストメッセージとボタンを含むバナー ](./assets/pb-tutorial1-banner-stage-background-color.png){width="600" zoomable="yes"}
+   ![&#x200B; テキストメッセージとボタンを含むバナー &#x200B;](./assets/pb-tutorial1-banner-stage-background-color.png){width="600" zoomable="yes"}
 
 
 ## [!UICONTROL Search Engine Optimization] {#seo}
@@ -349,7 +349,7 @@ _[!UICONTROL Background Type]_&#x200B;を `Video` に設定した場合は、次
 
    - **[!UICONTROL Border Color]** - カラーを指定するには、見本を選択するか、カラーピッカーをクリックするか、有効なカラー名または同等の 16 進数値を入力します。
 
-     ![ 境界線のカラー ](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
+     ![&#x200B; 境界線のカラー &#x200B;](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Border Width]** – 境界線の幅のピクセル数を入力します。
 

@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >これらの機能は、コミュニティエンジニアリングプログラムを通じて [Inventory management](https://github.com/magento/inventory) （旧称 MSI）プロジェクトの一部として開発されました。<br/>
 >
->[!DNL Inventory Management] モジュールは、Magento Open SourceおよびAdobe Commerceと共にインストールされ、すべての機能がデフォルトで有効になります。 モジュールリリースに含まれる変更点について詳しくは、[ リリースノート ](release-notes.md) を参照してください。
+>[!DNL Inventory Management] モジュールは、Magento Open SourceおよびAdobe Commerceと共にインストールされ、すべての機能がデフォルトで有効になります。 モジュールリリースに含まれる変更点について詳しくは、[&#x200B; リリースノート &#x200B;](release-notes.md) を参照してください。
 
 ## 基本用語
 

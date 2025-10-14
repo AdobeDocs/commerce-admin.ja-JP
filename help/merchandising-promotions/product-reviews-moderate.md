@@ -23,7 +23,7 @@ Commerceの商品レビューの場合、送信された商品レビューを表
 
 1. 表示する製品を見つけて、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. 製品ページで、下にスクロールして、「**[!UICONTROL Product Reviews]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. 製品ページで、下にスクロールして、「**[!UICONTROL Product Reviews]**」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
    このグリッドでは、_[!UICONTROL Action]_&#x200B;の列の&#x200B;**[!UICONTROL Edit]**&#x200B;リンクをクリックして特定のレビューを変更することもできます。
 
@@ -49,7 +49,7 @@ Commerceの商品レビューの場合、送信された商品レビューを表
 
    レビューが使用可能なストア表示を変更するには、必要なストア表示を _[!UICONTROL Visibility]_&#x200B;列で選択します。
 
-   ![ レビューページを編集 ](./assets/edit-review-page.png){width="600" zoomable="yes"}
+   ![&#x200B; レビューページを編集 &#x200B;](./assets/edit-review-page.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Review]**」をクリックします。
 

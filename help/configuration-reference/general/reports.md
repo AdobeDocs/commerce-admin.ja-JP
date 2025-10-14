@@ -16,11 +16,11 @@ ht-degree: 1%
 
 ## [!UICONTROL Dashboard]
 
-![ ダッシュボード ](./assets/reports-dashboard.png)<!-- zoom -->
+![&#x200B; ダッシュボード &#x200B;](./assets/reports-dashboard.png)<!-- zoom -->
 
 <!-- [Dashboard](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Year-to-Date Starts] | グローバル | 年累計計算の基になる月と日を指定します。 |
 | [!UICONTROL Current Month Starts] | グローバル | 今月の初めを示すために計算で使用される日付を指定します。 |
@@ -29,13 +29,13 @@ ht-degree: 1%
 
 ## [!UICONTROL General Options]
 
-![ 一般オプション ](./assets/reports-general-options.png)<!-- zoom -->
+![&#x200B; 一般オプション &#x200B;](./assets/reports-general-options.png)<!-- zoom -->
 
 >[!NOTE]
 >
 >ビジネス機能でレポートが必要ない場合は、レポート機能を無効にして、ストアのパフォーマンスを強化することをお勧めします。 ただし、動的な顧客セグメントなど、一部の機能が正しく機能するためにレポートデータに依存している場合があります。
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Reports] | グローバル | レポートイベントを有効または無効にします。 |
 | [!UICONTROL Enable "Product View" Report] | グローバル | 閲覧された製品ページの統計情報の収集を有効または無効にします。 |

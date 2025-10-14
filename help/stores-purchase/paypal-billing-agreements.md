@@ -35,7 +35,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;のページには、ストアと顧客
 
 1. リストで請求契約を見つけ、クリックして開きます。
 
-各請求契約ページは、_[!UICONTROL General Information]_&#x200B;と_[!UICONTROL Related Orders]_ の 2 つのタブで構成されています。
+各請求契約ページは、_[!UICONTROL General Information]_&#x200B;と&#x200B;_[!UICONTROL Related Orders]_ の 2 つのタブで構成されています。
 
 #### 一般情報
 
@@ -47,13 +47,13 @@ _[!UICONTROL Billing Agreements]_&#x200B;のページには、ストアと顧客
 - [!UICONTROL Created At]：作成日。
 - [!UICONTROL Updated At]：更新日。
 
-![ 請求契約ビュー ](./assets/billing-agreement-view.png){width="600" zoomable="yes"}
+![&#x200B; 請求契約ビュー &#x200B;](./assets/billing-agreement-view.png){width="600" zoomable="yes"}
 
 #### 関連するオーダー
 
 このタブには、現在の請求契約を使用して行われた注文のリストが表示されます。
 
-![ 請求契約ビュー ](./assets/billing-agreement-related-orders.png){width="600" zoomable="yes"}
+![&#x200B; 請求契約ビュー &#x200B;](./assets/billing-agreement-related-orders.png){width="600" zoomable="yes"}
 
 ### 請求契約のキャンセル
 
@@ -94,7 +94,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;のページには、ストアと顧客
 
 契約によると、支払いプロバイダーと請求契約を締結したお客様は、今すぐ購入して、後で支払うことができます。 この
 
-![ お客様のダッシュボードに表示される請求契約リスト ](./assets/billing-agreements-dashboard.png){width="700" zoomable="yes"}
+![&#x200B; お客様のダッシュボードに表示される請求契約リスト &#x200B;](./assets/billing-agreements-dashboard.png){width="700" zoomable="yes"}
 
 | 列 | 説明 |
 |--- |--- |
@@ -117,7 +117,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;のページには、ストアと顧客
 
 このアクションにより、お客様は支払いシステムの web サイトにリダイレクトされます。
 
-![ 顧客アカウントダッシュボードの新しい請求契約 ](./assets/create-billing-agreement-dashboard.png){width="700" zoomable="yes"}
+![&#x200B; 顧客アカウントダッシュボードの新しい請求契約 &#x200B;](./assets/create-billing-agreement-dashboard.png){width="700" zoomable="yes"}
 
 ### 請求契約の表示
 
@@ -125,7 +125,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;のページには、ストアと顧客
 
 1. 請求契約書を選択し、**[!UICONTROL View]** をクリックします。
 
-![ 顧客ダッシュボードでの請求契約書の表示 ](./assets/view-billing-agreement.png){width="700" zoomable="yes"}
+![&#x200B; 顧客ダッシュボードでの請求契約書の表示 &#x200B;](./assets/view-billing-agreement.png){width="700" zoomable="yes"}
 
 ### 請求契約のキャンセル
 

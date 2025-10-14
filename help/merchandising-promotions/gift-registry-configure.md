@@ -28,9 +28,9 @@ Adobe Commerceには、これらの各メールメッセージ用のテンプレ
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Gift Registry]**」を選択します。
 
-1. **[!UICONTROL General Options]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL General Options]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![ 顧客の設定 – ギフトレジストリの一般 ](../configuration-reference/customers/assets/gift-registry-general-options.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客の設定 – ギフトレジストリの一般 &#x200B;](../configuration-reference/customers/assets/gift-registry-general-options.png){width="600" zoomable="yes"}
 
    - ギフト レジストリは既定で有効になっています。 必要に応じて、**[!UICONTROL Enable Gift Registry]** を `Yes` に設定します。
 
@@ -38,17 +38,17 @@ Adobe Commerceには、これらの各メールメッセージ用のテンプレ
 
 ## 手順 2. メール通知を設定する
 
-1. **[!UICONTROL Owner Notification]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Owner Notification]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![ 顧客の構成 – ギフト レジストリ所有者の通知 ](../configuration-reference/customers/assets/gift-registry-owner-notification.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客の構成 – ギフト レジストリ所有者の通知 &#x200B;](../configuration-reference/customers/assets/gift-registry-owner-notification.png){width="600" zoomable="yes"}
 
    - ギフト レジストリの作成時に所有者に通知する **[!UICONTROL Email Template]** を選択してください。
 
-   - メッセージの **[!UICONTROL Email Sender]** として表示される [ ストアの連絡先 ](../getting-started/store-details.md#store-email-addresses) を選択します。
+   - メッセージの **[!UICONTROL Email Sender]** として表示される [&#x200B; ストアの連絡先 &#x200B;](../getting-started/store-details.md#store-email-addresses) を選択します。
 
-1. **[!UICONTROL Gift Registry Sharing]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Gift Registry Sharing]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![ 顧客の設定 – ギフトレジストリの共有 ](../configuration-reference/customers/assets/gift-registry-gift-registry-sharing.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客の設定 – ギフトレジストリの共有 &#x200B;](../configuration-reference/customers/assets/gift-registry-gift-registry-sharing.png){width="600" zoomable="yes"}
 
    - レジストリが共有されたときにギフト レジストリの受信者に通知する **[!UICONTROL Email Template]** を選択してください。
 
@@ -56,9 +56,9 @@ Adobe Commerceには、これらの各メールメッセージ用のテンプレ
 
    - **[!UICONTROL Maximum Sent Emails Threshold]**：一度に送信できるメールの最大数を入力します。
 
-1. **[!UICONTROL Gift Registry Update]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Gift Registry Update]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![ 顧客の設定 – ギフトレジストリの更新 ](../configuration-reference/customers/assets/gift-registry-gift-registry-update.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客の設定 – ギフトレジストリの更新 &#x200B;](../configuration-reference/customers/assets/gift-registry-gift-registry-update.png){width="600" zoomable="yes"}
 
    - レジストリに対する変更をギフト レジストリ所有者に通知する **[!UICONTROL Email Template]** を選択してください。
 

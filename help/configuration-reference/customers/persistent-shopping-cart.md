@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[ 永続的な買い物かご ](../../stores-purchase/cart-persistent.md) を使用すると、買い物かごに残っている未購入の商品を保持し、_永続性の有効期間_ で設定された期間保存できます。 永続的な買い物かごを使用するには、カスタマーブラウザーで cookie を許可する必要があります。
+>[&#x200B; 永続的な買い物かご &#x200B;](../../stores-purchase/cart-persistent.md) を使用すると、買い物かごに残っている未購入の商品を保持し、_永続性の有効期間_ で設定された期間保存できます。 永続的な買い物かごを使用するには、カスタマーブラウザーで cookie を許可する必要があります。
 
 
 {{$include /help/_includes/persistent-cart-configuration.md}}

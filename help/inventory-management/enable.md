@@ -32,9 +32,9 @@ ht-degree: 0%
 
 [!DNL Inventory Management] を有効にした場合、すべての設定を指定するには以下の説明を参照してください。
 
-- [ グローバルオプションの設定 ](global-options.md) - カタログ全体に影響する設定は、システムのデフォルト設定と見なされます。
+- [&#x200B; グローバルオプションの設定 &#x200B;](global-options.md) - カタログ全体に影響する設定は、システムのデフォルト設定と見なされます。
 
-- [ 製品オプションの設定 ](product-options.md) - グローバルオプションを上書きする特定の製品の設定。
+- [&#x200B; 製品オプションの設定 &#x200B;](product-options.md) - グローバルオプションを上書きする特定の製品の設定。
 
 ## [!DNL Inventory Management] の有効化または無効化
 
@@ -42,9 +42,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、「**[!UICONTROL Inventory]**」を選択します。
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png)_製品ストックオプション_ を展開し、以下を設定します。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)_製品ストックオプション_ を展開し、以下を設定します。
 
-   ![ 商品ストックオプション ](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
+   ![&#x200B; 商品ストックオプション &#x200B;](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
 
    - 在庫を管理し、すべての [!DNL Commerce] 機能を使用するには、**[!UICONTROL Manage Stock]** を `Yes` （デフォルト）に設定します。
 
@@ -54,8 +54,8 @@ ht-degree: 0%
 
 ## 店舗の在庫の管理
 
-[ グローバルオプションの設定 ](global-options.md) を参照してください。
+[&#x200B; グローバルオプションの設定 &#x200B;](global-options.md) を参照してください。
 
 ## 製品の在庫の管理
 
-[ 製品オプションの設定 ](product-options.md) を参照してください。
+[&#x200B; 製品オプションの設定 &#x200B;](product-options.md) を参照してください。

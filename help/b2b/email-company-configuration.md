@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # 会社のメールオプションを設定
 
-会社の主要連絡先として割り当てられた [ 営業担当者 ](account-company-manage.md) は、デフォルトで、会社に送信される多くの自動メールメッセージの送信者として設定されます。
+会社の主要連絡先として割り当てられた [&#x200B; 営業担当者 &#x200B;](account-company-manage.md) は、デフォルトで、会社に送信される多くの自動メールメッセージの送信者として設定されます。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Company Configuration]**」を選択します。
 
-1. 必要に応じて、**[!UICONTROL Store View]** をストア表示に設定して、設定の [ スコープ ](../getting-started/websites-stores-views.md#scope-settings) を定義します。
+1. 必要に応じて、**[!UICONTROL Store View]** をストア表示に設定して、設定の [&#x200B; スコープ &#x200B;](../getting-started/websites-stores-views.md#scope-settings) を定義します。
 
 1. **[!UICONTROL Company Registration]** のセクションを完了します。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
    >
    >フィールドを編集可能にするには、「**[!UICONTROL Use system value]**」チェックボックスをオフにします。
 
-   - **[!UICONTROL Company Registration Email Recipient]** を、新しい会社登録要求を受信したときに通知される [ ストアの連絡先 ](../getting-started/store-details.md#store-email-addresses) に設定します。
+   - **[!UICONTROL Company Registration Email Recipient]** を、新しい会社登録要求を受信したときに通知される [&#x200B; ストアの連絡先 &#x200B;](../getting-started/store-details.md#store-email-addresses) に設定します。
 
    - **[!UICONTROL Send Company Registration Email Copy To]** フィールドに、登録通知のコピーを受信する各個人のメールアドレスを入力します。 複数のメールアドレスを指定する場合はコンマで区切ります。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    - デフォルトの代わりに使用するメールテンプレートを準備した場合は、**[!UICONTROL Default Company Registration Email]** をテンプレートの名前に設定します。 デフォルトでは、`Company Registration Request` テンプレートが使用されます。
 
-     ![ 顧客設定 – 会社登録 ](./assets/company-email-options-company-registration.png){width="600" zoomable="yes"}
+     ![&#x200B; 顧客設定 – 会社登録 &#x200B;](./assets/company-email-options-company-registration.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Customer-Related Emails]** のセクションを完了します。
 
@@ -52,11 +52,11 @@ ht-degree: 0%
    - **[!UICONTROL Default 'Customer Status Active' Email]**
    - **[!UICONTROL Default 'Customer Status Inactive' Email]**
 
-   ![ 顧客設定 – 顧客関連のメール ](./assets/company-email-options-customer-related-emails.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客設定 – 顧客関連のメール &#x200B;](./assets/company-email-options-customer-related-emails.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Company Status Change]** のセクションを完了します。
 
-   - **[!UICONTROL Company Status Change for Email Recipient]** を、会社のステータスが変更されたときに通知される [ ストアの連絡先 ](../getting-started/store-details.md#store-email-addresses) に設定します。
+   - **[!UICONTROL Company Status Change for Email Recipient]** を、会社のステータスが変更されたときに通知される [&#x200B; ストアの連絡先 &#x200B;](../getting-started/store-details.md#store-email-addresses) に設定します。
 
    - 「**[!UICONTROL Send Company Status Change Email Copy To]**」フィールドに、ステータス変更通知のコピーを受信する各個人のメールアドレスを入力します。 複数のメールアドレスを指定する場合はコンマで区切ります。
 
@@ -75,11 +75,11 @@ ht-degree: 0%
 
    - 会社のステータスが「`Pending Approval`」に変わったときに、デフォルトの代わりに使用する準備済みのメールテンプレートがある場合は、**[!UICONTROL Default 'Company Status Change to Pending Approval' Email]** をそのテンプレートに設定します。 デフォルトでは、`Company Status Pending Approval` テンプレートが使用されます。
 
-     ![ 顧客の設定 – 会社ステータスの変更 ](./assets/company-email-options-company-status-change.png){width="600" zoomable="yes"}
+     ![&#x200B; 顧客の設定 – 会社ステータスの変更 &#x200B;](./assets/company-email-options-company-status-change.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Company Credit Emails]** のセクションを完了します。
 
-   - 会社に割り当てられているクレジット限度額に変更があったときに通知される [ ストア連絡先 ](../getting-started/store-details.md#store-email-addresses) に **[!UICONTROL Company Credit Change Email Sender]** を設定します。 デフォルトでは、通知は _営業担当者_ に送信されます。
+   - 会社に割り当てられているクレジット限度額に変更があったときに通知される [&#x200B; ストア連絡先 &#x200B;](../getting-started/store-details.md#store-email-addresses) に **[!UICONTROL Company Credit Change Email Sender]** を設定します。 デフォルトでは、通知は _営業担当者_ に送信されます。
 
    - 「**[!UICONTROL Send Company Credit Change Email Copy To]**」フィールドに、与信変更通知のコピーを受信する各担当者の電子メール・アドレスを入力します。 複数のメールアドレスを指定する場合はコンマで区切ります。
 
@@ -96,6 +96,6 @@ ht-degree: 0%
       - **[!UICONTROL Refunded Email Template]**
       - **[!UICONTROL Reverted Email Template]**
 
-   ![ 顧客設定 – 会社クレジットメール ](./assets/company-email-options-company-credit.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客設定 – 会社クレジットメール &#x200B;](./assets/company-email-options-company-credit.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

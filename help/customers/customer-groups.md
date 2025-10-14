@@ -14,7 +14,7 @@ ht-degree: 0%
 
 顧客グループによって、使用可能な割引と、そのグループに関連付けられている税区分が決定されます。 デフォルトの顧客グループは、`General`、`Not Logged In`、`Wholesale` です。
 
-![ 顧客グループ ](assets/customer-groups.png){width="700" zoomable="yes"}
+![&#x200B; 顧客グループ &#x200B;](assets/customer-groups.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Customer Groups] リストのフィルタリング
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. ID、グループ、税区分の範囲など、グループを検索する基準を入力します。
 
-   ![ フィルターオプション ](assets/groups-filters.png){width="600" zoomable="yes"}
+   ![&#x200B; フィルターオプション &#x200B;](assets/groups-filters.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Apply Filters]**」をクリックします。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. グループに適用する **[!UICONTROL Tax Class]** を選択します。
 
-   ![ グループ情報 ](assets/group-information.png){width="600" zoomable="yes"}
+   ![&#x200B; グループ情報 &#x200B;](assets/group-information.png){width="600" zoomable="yes"}
 
 1. グループから除外する **[!UICONTROL Excluded Website(s)]** を選択します。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 1. **アクション** コントロールを `Assign a Customer Group` に設定し、メニューからグループを選択します。
 
-   ![ 顧客グループの割当て ](assets/group-assign.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客グループの割当て &#x200B;](assets/group-assign.png){width="600" zoomable="yes"}
 
 1. 確認を求めるメッセージが表示されたら、「**OK**」をクリックします。
 
@@ -84,17 +84,17 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_プロモーション_/**[!UICONTROL Cart Price Rules]** に移動します。
 
-1. 適用された割引のグループを関連付ける買い物かご価格ルールを選択するか、[ 価格ルールを作成 ](../merchandising-promotions/price-rules-catalog.md) します。
+1. 適用された割引のグループを関連付ける買い物かご価格ルールを選択するか、[&#x200B; 価格ルールを作成 &#x200B;](../merchandising-promotions/price-rules-catalog.md) します。
 
 1. ルールを適用する顧客グループを選択します。
 
-   ![ 特定値引に対する顧客グループ ](assets/group-discount.png){width="600" zoomable="yes"}
+   ![&#x200B; 特定値引に対する顧客グループ &#x200B;](assets/group-discount.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
 >[!NOTE]
 >
-> また、Advance pricing を使用して、顧客グループに製品割引を適用することもできます。 [ 詳細価格 ](../catalog/product-price-group.md) を参照してください。
+> また、Advance pricing を使用して、顧客グループに製品割引を適用することもできます。 [&#x200B; 詳細価格 &#x200B;](../catalog/product-price-group.md) を参照してください。
 
 ## 顧客グループの削除
 

@@ -14,22 +14,22 @@ ht-degree: 0%
 
 _検索エンジン最適化_ （SEO）は、サイトのコンテンツと表示を微調整して、検索エンジンによるページのインデックス作成方法を改善する手法です。
 
-製品の _[!UICONTROL Search Engine Optimization]_&#x200B;設定では、検索エンジンが製品のインデックスを作成するために使用する [URL キー ](catalog-urls.md) および [ メタデータ ](../merchandising-promotions/meta-data.md) フィールドを指定します。 メタキーワードを無視する検索エンジンもありますが、メタキーワードを使用し続ける検索エンジンもあります。 現在の [SEO のベストプラクティス ](../merchandising-promotions/seo-overview.md) は、価値の高いキーワードをメタタイトルとメタ説明の両方に組み込むことです。
+製品の _[!UICONTROL Search Engine Optimization]_&#x200B;設定では、検索エンジンが製品のインデックスを作成するために使用する [URL キー &#x200B;](catalog-urls.md) および [&#x200B; メタデータ &#x200B;](../merchandising-promotions/meta-data.md) フィールドを指定します。 メタキーワードを無視する検索エンジンもありますが、メタキーワードを使用し続ける検索エンジンもあります。 現在の [SEO のベストプラクティス &#x200B;](../merchandising-promotions/seo-overview.md) は、価値の高いキーワードをメタタイトルとメタ説明の両方に組み込むことです。
 
-各メタデータフィールドのデフォルト値は、設定で指定された値に基づいて自動生成できます。 各フィールドには、実際の値に置き換えられるプレースホルダーが含まれます。 詳しくは、[ 製品フィールドの自動生成 ](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation) を参照してください。
+各メタデータフィールドのデフォルト値は、設定で指定された値に基づいて自動生成できます。 各フィールドには、実際の値に置き換えられるプレースホルダーが含まれます。 詳しくは、[&#x200B; 製品フィールドの自動生成 &#x200B;](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation) を参照してください。
 
 ## SEO フィールドに入力します
 
 1. 製品を編集モードで開きます。
 
-1. 下にスクロールして、「_[!UICONTROL Search Engine Optimization]_」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. 下にスクロールして、「_[!UICONTROL Search Engine Optimization]_」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
-![ 検索エンジンの最適化 ](./assets/product-search-engine-optimization.png){width="600" zoomable="yes"}
+![&#x200B; 検索エンジンの最適化 &#x200B;](./assets/product-search-engine-optimization.png){width="600" zoomable="yes"}
 
 
 1. **[!UICONTROL URL Key]** を入力します（オプション）。
 
-   デフォルトの URL キーは製品名に基づいています。 デフォルト値を使用することも、必要に応じて変更することもできます。 詳しくは、「[ カタログ URL](catalog-urls.md)」を参照してください。
+   デフォルトの URL キーは製品名に基づいています。 デフォルト値を使用することも、必要に応じて変更することもできます。 詳しくは、「[&#x200B; カタログ URL](catalog-urls.md)」を参照してください。
 
 1. **[!UICONTROL Meta Title]** を入力します（オプション）。
 
@@ -45,7 +45,7 @@ _検索エンジン最適化_ （SEO）は、サイトのコンテンツと表�
 
 ## フィールド参照
 
-| フィールド | [ 範囲 ](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |------------------|
 | [!UICONTROL URL Key] | ストア表示 | 商品のオンラインアドレスを決定します。 URL キーがストアのベース URL に追加され、ブラウザーのアドレスバーに表示されます。 Commerceは最初に、製品名に基づいた _検索エンジンに適した_ URL を作成します。 URL キーは、すべて小文字で、スペースではなく、これらの文字の間にハイフンを含める必要があります。 URL キーには `.html` などのサフィックスを含めないでください。サフィックスは設定内で管理されます。 |
 | [!UICONTROL Meta Title] | ストア表示 | タイトルは、ブラウザーのタイトルバーとタブに表示され、検索エンジンの結果ページ（SERP）のタイトルとしても使用されます。 メタタイトルは、ページに固有で、長さが 70 文字未満である必要があります。 自動生成された値：`{{name}}` |

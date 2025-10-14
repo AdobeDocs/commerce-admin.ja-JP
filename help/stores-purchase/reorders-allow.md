@@ -14,7 +14,7 @@ ht-degree: 0%
 
 有効にすると、顧客アカウントから直接注文することも、_管理者_ 内の元の注文から注文することもできます。 並べ替えは、デフォルトで有効になっています。
 
-![ 管理者の顧客並べ替えリンク ](./assets/customer-reorder.png){width="700" zoomable="yes"}
+![&#x200B; 管理者の顧客並べ替えリンク &#x200B;](./assets/customer-reorder.png){width="700" zoomable="yes"}
 
 ## 注文で並べ替えを有効にする基準
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、その下の「**[!UICONTROL Sales]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Reorder]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Reorder]**」セクションを展開します。
 
-   ![ オプションの並べ替え ](../configuration-reference/sales/assets/sales-reorder.png){width="600" zoomable="yes"}
+   ![&#x200B; オプションの並べ替え &#x200B;](../configuration-reference/sales/assets/sales-reorder.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Allow Reorder]** を `Yes` に設定します。
 
@@ -54,13 +54,13 @@ ht-degree: 0%
 
 _並べ替え_ ボタンは、（注文のすべての製品を並べ替えに使用できない場合でも）常に注文件数でリストに表示されます。
 
-![ 例 storefront - My Orders ページ ](./assets/my-order-page-view.png){width="700" zoomable="yes"}
+![&#x200B; 例 storefront - My Orders ページ &#x200B;](./assets/my-order-page-view.png){width="700" zoomable="yes"}
 
 **ケース 1。** 注文のすべての製品は再注文に対して **利用可能** です
 
 ユーザーは買い物かごにリダイレクトされ、すべての製品が買い物かごに追加されます
 
-![ 買い物かご ](./assets/shopping-cart-page.png){width="700" zoomable="yes"}
+![&#x200B; 買い物かご &#x200B;](./assets/shopping-cart-page.png){width="700" zoomable="yes"}
 
 **ケース 2。** 注文の一部/すべての製品が再注文で **利用できません**
 
@@ -70,7 +70,7 @@ _並べ替え_ ボタンは、（注文のすべての製品を並べ替えに�
 
 _並べ替え_ ボタンが _マイ注文_ ページと _表示注文_ ページに表示されません。
 
-![ マイ注文ページ 1](./assets/my-orders-view-page1.png){width="700" zoomable="yes"}
+![&#x200B; マイ注文ページ 1](./assets/my-orders-view-page1.png){width="700" zoomable="yes"}
 
 ### 注文ビューページ
 
@@ -86,13 +86,13 @@ _並べ替え_ ボタンが _マイ注文_ ページと _表示注文_ ページ
 
 _並べ替え_ ボタンが _マイ注文_ ページと _表示注文_ ページに表示されません。
 
-![ 注文の詳細ページ ](./assets/order-view-page.png){width="700" zoomable="yes"}
+![&#x200B; 注文の詳細ページ &#x200B;](./assets/order-view-page.png){width="700" zoomable="yes"}
 
 ### 買い物かごが空ではありません
 
 買い物かごが空でなく、ユーザーが（_マイ注文_ または _注文表示_ ページから） **[!UICONTROL Reorder]** をクリックした場合、既存の製品は、追加された並べ替え製品で買い物かごに残ります。
 
-![ 項目の並べ替え ](./assets/shopping-cart-view1.png){width="700" zoomable="yes"}
+![&#x200B; 項目の並べ替え &#x200B;](./assets/shopping-cart-view1.png){width="700" zoomable="yes"}
 
 ## 管理者から並べ替え
 
@@ -102,11 +102,11 @@ _並べ替え_ ボタンが _マイ注文_ ページと _表示注文_ ページ
 
 1. 上部 **[!UICONTROL Reorder]** ボタンバーに表示されているボタンをクリックします。
 
-   ![ 注文の詳細は管理者で ](./assets/order-view-admin.png){width="600" zoomable="yes"}
+   ![&#x200B; 注文の詳細は管理者で &#x200B;](./assets/order-view-admin.png){width="600" zoomable="yes"}
 
    **[!UICONTROL Reorder]** をクリックすると、_新しい注文を作成_ ページが開き、商品が並べ替えられます。
 
-   ![ 並べ替えを作成 ](./assets/create-reorder-page.png){width="600" zoomable="yes"}
+   ![&#x200B; 並べ替えを作成 &#x200B;](./assets/create-reorder-page.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、すべての必須フィールドに入力します。
 

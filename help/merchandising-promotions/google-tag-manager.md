@@ -22,11 +22,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[EU 一般データ保護規則 ](../getting-started/compliance-gdpr.md) や [ カリフォルニア州消費者プライバシー法 ](../getting-started/compliance-ccpa.md) などのプライバシー規制の対象となるビジネスの場合は、[Googleのプライバシー設定 ](google-tools.md#google-privacy-settings) を参照してください。
+>[EU 一般データ保護規則 &#x200B;](../getting-started/compliance-gdpr.md) や [&#x200B; カリフォルニア州消費者プライバシー法 &#x200B;](../getting-started/compliance-ccpa.md) などのプライバシー規制の対象となるビジネスの場合は、[Googleのプライバシー設定 &#x200B;](google-tools.md#google-privacy-settings) を参照してください。
 
 ## 手順 1. [!DNL Google Analytics] アカウントの設定
 
-開始するために必要な基本については、Google ヘルプの [ サイト検索の設定 ](https://support.google.com/analytics/answer/1012264) を参照してください。 [Google Analytics](https://support.google.com/analytics/answer/9304153) および [Google Tag Manager&rbrace; のGoogle ガイドも参照してくだ ](https://support.google.com/tagmanager/answer/6102821) い。
+開始するために必要な基本については、Google ヘルプの [&#x200B; サイト検索の設定 &#x200B;](https://support.google.com/analytics/answer/1012264) を参照してください。 [Google Analytics](https://support.google.com/analytics/answer/9304153) および [Google Tag Manager&rbrace; のGoogle ガイドも参照してくだ &#x200B;](https://support.google.com/tagmanager/answer/6102821) い。
 
 1. [!DNL Google Analytics] アカウントにログインします。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->詳しくは、Googleの [ コンテナのエクスポートとインポート ](https://support.google.com/tagmanager/answer/6106997) を参照してください。 これらの手順では、サンプル JSON を新しいコンテナに読み込む手順を説明します。
+>詳しくは、Googleの [&#x200B; コンテナのエクスポートとインポート &#x200B;](https://support.google.com/tagmanager/answer/6106997) を参照してください。 これらの手順では、サンプル JSON を新しいコンテナに読み込む手順を説明します。
 
 1. リンクされたファイル [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt) をダウンロードし、エディターでファイルを開いて、`GTM_M2_Config.json` として保存します。
 
@@ -116,9 +116,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Google API]**」を選択します。
 
-1. ![ のセクションの ](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Google Analytics]** を展開し、以下を設定します。
+1. ![&#x200B; のセクションの &#x200B;](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Google Analytics]** を展開し、以下を設定します。
 
-   ![ セールス構成：Google Analytics](../configuration-reference/sales/assets/google-api-analytics-tag-manager.png){width="600" zoomable="yes"}
+   ![&#x200B; セールス構成：Google Analytics](../configuration-reference/sales/assets/google-api-analytics-tag-manager.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Enable]** を `Yes` に設定します。
 
@@ -170,7 +170,7 @@ Google AdWords アカウントをお持ちの場合は、コンバージョン�
    - コンバージョン ID
    - コンバージョンラベル
 
-   サポートが必要な場合は、Google[ サポートサイト ](https://support.google.com/tagmanager/answer/6105160) を参照してください。
+   サポートが必要な場合は、Google[&#x200B; サポートサイト &#x200B;](https://support.google.com/tagmanager/answer/6105160) を参照してください。
 
 1. [!DNL Google Tag Manager] ダッシュボードで「**[!UICONTROL Google AdWords]**」をクリックし、次の手順を実行します。
 
@@ -196,7 +196,7 @@ Google AdWords アカウントをお持ちの場合は、コンバージョン�
 
    - **操作** - `matches RegEx`
 
-     詳しくは、Google Tag Manager ヘルプの [ 正規表現と CSS セレクターの演算子 ](https://support.google.com/tagmanager/answer/7679109) を参照してください。
+     詳しくは、Google Tag Manager ヘルプの [&#x200B; 正規表現と CSS セレクターの演算子 &#x200B;](https://support.google.com/tagmanager/answer/7679109) を参照してください。
 
    - **[!UICONTROL Value]** - `checkout/success.*`
 
@@ -212,7 +212,7 @@ Google AdWords アカウントをお持ちの場合は、コンバージョン�
 
 ## JavaScriptを使用したカスタム HTML タグ
 
-この節では、コンテンツセキュリティポリシー（CSP）の要件に準拠するために、チェックアウトページで実行するためにカスタム HTML タグJavaScriptに CSP Nonce を追加する方法について説明します。 この追加により、許可されていないスクリプトの実行が防がれ、サイトのセキュリティが強化されます。 詳しくは、[ コンテンツセキュリティポリシー ](https://developer.adobe.com/commerce/php/development/security/content-security-policies) ドキュメントを参照してください。
+この節では、コンテンツセキュリティポリシー（CSP）の要件に準拠するために、チェックアウトページで実行するためにカスタム HTML タグJavaScriptに CSP Nonce を追加する方法について説明します。 この追加により、許可されていないスクリプトの実行が防がれ、サイトのセキュリティが強化されます。 詳しくは、[&#x200B; コンテンツセキュリティポリシー &#x200B;](https://developer.adobe.com/commerce/php/development/security/content-security-policies) ドキュメントを参照してください。
 
 >[!NOTE]
 >
@@ -242,7 +242,7 @@ CSP Nonce 変数は、サンプルコンテナ [GTM_M2_Config_json.txt](./assets
 1. 「**グローバル変数名**」フィールドに「`window.cspNonce`」と入力します。
 1. 変数を保存します。
 
-[Google Tag Manager 変数について詳しくは ](https://support.google.com/tagmanager/answer/7683056?hl=en)Google ドキュメントの [Web 用のユーザー定義変数タイプ ](https://support.google.com/tagmanager/answer/7683362?hl=en) を参照してください。 このドキュメントでは、特定のマーケティングおよび分析のニーズに合わせてタグ管理をカスタマイズするカスタム変数の作成と管理に関する詳細なガイダンスを提供します。
+[Google Tag Manager 変数について詳しくは &#x200B;](https://support.google.com/tagmanager/answer/7683056?hl=en)Google ドキュメントの [Web 用のユーザー定義変数タイプ &#x200B;](https://support.google.com/tagmanager/answer/7683362?hl=en) を参照してください。 このドキュメントでは、特定のマーケティングおよび分析のニーズに合わせてタグ管理をカスタマイズするカスタム変数の作成と管理に関する詳細なガイダンスを提供します。
 
 ### 手順 2. カスタム HTML タグの作成
 
@@ -260,4 +260,4 @@ CSP Nonce 変数は、サンプルコンテナ [GTM_M2_Config_json.txt](./assets
 1. **Support document.write** を選択します。
 1. 「**トリガー**」セクションで、目的のトリガーを選択します。 例えば、**同意の初期化 – すべてのページ** などです。
 
-Google Tag Manager の [ タグ ](https://support.google.com/tagmanager/answer/3281060) について詳しくは、Google ドキュメントの [ カスタムタグ ](https://support.google.com/tagmanager/answer/6107167) を参照してください。
+Google Tag Manager の [&#x200B; タグ &#x200B;](https://support.google.com/tagmanager/answer/3281060) について詳しくは、Google ドキュメントの [&#x200B; カスタムタグ &#x200B;](https://support.google.com/tagmanager/answer/6107167) を参照してください。

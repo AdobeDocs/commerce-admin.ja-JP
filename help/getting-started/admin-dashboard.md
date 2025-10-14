@@ -15,11 +15,11 @@ ht-degree: 0%
 
 処理するデータが大量にある場合は、パフォーマンスを向上させるためにグラフをオフにできます。 次の例のダッシュボードは、リアルタイムデータを使用するように設定されており、過去 24 時間の完了済み注文を時間別に表示します。 グラフは、完了した注文ごとに更新されます。
 
-![ ダッシュボード ](./assets/dashboard-full.png){zoomable="yes"}
+![&#x200B; ダッシュボード &#x200B;](./assets/dashboard-full.png){zoomable="yes"}
 
-[ 詳細レポート ](business-intelligence.md#advanced-reporting) 製品、注文、顧客のデータに基づいてパーソナライズされたダッシュボードを表示します。
+[&#x200B; 詳細レポート &#x200B;](business-intelligence.md#advanced-reporting) 製品、注文、顧客のデータに基づいてパーソナライズされたダッシュボードを表示します。
 
-![ 高度なレポート ](./assets/dashboard-advanced-reporting.png){zoomable="yes"}
+![&#x200B; 高度なレポート &#x200B;](./assets/dashboard-advanced-reporting.png){zoomable="yes"}
 
 ## ダッシュボードの設定
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 1. 必要に応じて、「**[!UICONTROL Dashboard]**」セクションを展開します。
 
-   ![ 詳細設定 – グラフを有効にする ](./assets/admin-dashboard-config.png){width="600"}
+   ![&#x200B; 詳細設定 – グラフを有効にする &#x200B;](./assets/admin-dashboard-config.png){width="600"}
 
 1. デフォルト値を変更するには、「**[!UICONTROL Use system value]**」チェックボックスをオフにします。
 
@@ -47,13 +47,13 @@ Admin Configuration オプションについては、[Configuration Reference Gu
 
 ### スタートアップページの変更
 
-ダッシュボードは管理者のデフォルトの [ 起動ページ ](../configuration-reference/advanced/admin.md) ですが、別の起動ページを設定することもできます。
+ダッシュボードは管理者のデフォルトの [&#x200B; 起動ページ &#x200B;](../configuration-reference/advanced/admin.md) ですが、別の起動ページを設定することもできます。
 
 1. 管理設定オプションを開いていない場合は、左側のナビゲーションパネルの _[!UICONTROL Advanced]_&#x200B;の下にある&#x200B;**[!UICONTROL Admin]**&#x200B;を選択します。
 
 1. **スタートアップページ** セクションをクリックして展開します。
 
-   ![ 管理者ダッシュボード – スタートアップページの設定 ](./assets/admin-startup-page.png){width="600"}
+   ![&#x200B; 管理者ダッシュボード – スタートアップページの設定 &#x200B;](./assets/admin-startup-page.png){width="600"}
 
 1. **[!UICONTROL Use system value]** チェックボックスをオフにして、管理者にログインしたときに表示される **スタートアップページ** を選択します。
 
@@ -69,7 +69,7 @@ Admin Configuration オプションについては、[Configuration Reference Gu
 
    - **今月の開始日** を **日** に設定します。
 
-   ![ 管理ダッシュボード – 日付設定 ](./assets/reports-dashboard.png){width="600"}
+   ![&#x200B; 管理ダッシュボード – 日付設定 &#x200B;](./assets/reports-dashboard.png){width="600"}
 
 [!UICONTROL Reports] 設定オプションについて詳しくは、[_設定リファレンスガイド_](../configuration-reference/general/reports.md) を参照してください。
 
@@ -81,7 +81,7 @@ Admin Configuration オプションについては、[Configuration Reference Gu
 
 1. ページで、「**[!UICONTROL Dashboard]**」セクションを展開します。
 
-   ![ 管理ダッシュボード – データソース設定 ](./assets/config-sales-dashboard.png){width="600"}
+   ![&#x200B; 管理ダッシュボード – データソース設定 &#x200B;](./assets/config-sales-dashboard.png){width="600"}
 
 1. 「**[!UICONTROL Use system value]**」チェックボックスをオフにして、**[!UICONTROL Use Aggregated Data]** を次のいずれかに設定します。
 
@@ -127,6 +127,6 @@ Admin Configuration オプションについては、[Configuration Reference Gu
 | ボタン | 説明 |
 |--- |--- |
 | [!UICONTROL Reload Data] | ダッシュボードデータを更新します。 |
-| [!UICONTROL Go to Advanced Reporting] | 製品、注文および顧客データに基づいて、動的グラフおよびレポートのパーソナライズされたダッシュボードを表示します。 詳細な分析については、[ 詳細レポート ](business-intelligence.md#advanced-reporting) を参照してください。 |
+| [!UICONTROL Go to Advanced Reporting] | 製品、注文および顧客データに基づいて、動的グラフおよびレポートのパーソナライズされたダッシュボードを表示します。 詳細な分析については、[&#x200B; 詳細レポート &#x200B;](business-intelligence.md#advanced-reporting) を参照してください。 |
 
 {style="table-layout:auto"}

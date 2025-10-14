@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Add New Attribute]**」をクリックします。
 
-   ![ 新しい属性プロパティ ](./assets/attribute-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; 新しい属性プロパティ &#x200B;](./assets/attribute-properties.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Default Label]**：属性を識別するラベルを入力します。
 
@@ -31,16 +31,16 @@ ht-degree: 0%
    | `Text Field` | テキストの 1 行入力フィールド。 |
    | `Text Area` | 製品の説明など、テキストの段落を入力するための複数行の入力フィールド。 WYSIWYG エディターを使用して、テキストをHTML タグで書式設定したり、テキストにタグを直接入力したりできます。 |
    | `Text Editor` | 属性の場所に完全に機能するテキストエディター。 |
-   | 日付 | 日付値を [ 優先形式 ](attributes-input-types.md#date-and-time-options) および [ タイムゾーン ](../getting-started/store-details.md#locale-options) で表示します。 日付値は、リストまたはカレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）から選択できます。 <br/><br/>**_メモ：_**&#x200B;システムの設定に応じて、_ 管理者 _ユーザーはフィールドに日付を直接入力したり、カレンダーやリストから日付を選択したりできます。 日付と時刻の値を指定する方法については、[ 日付と時刻のオプション ](attributes-input-types.md#date-and-time-options) を参照してください。 |
+   | 日付 | 日付値を [&#x200B; 優先形式 &#x200B;](attributes-input-types.md#date-and-time-options) および [&#x200B; タイムゾーン &#x200B;](../getting-started/store-details.md#locale-options) で表示します。 日付値は、リストまたはカレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）から選択できます。 <br/><br/>**_メモ：_**&#x200B;システムの設定に応じて、_ 管理者 _ユーザーはフィールドに日付を直接入力したり、カレンダーやリストから日付を選択したりできます。 日付と時刻の値を指定する方法については、[&#x200B; 日付と時刻のオプション &#x200B;](attributes-input-types.md#date-and-time-options) を参照してください。 |
    | `Yes/No` | `Yes` と `No` の定義済みオプションを含むドロップダウン リストを表示します。 |
-   | `Dropdown` | 1 つの選択のみを受け入れる値のドロップダウン リストを表示します。 ドロップダウン入力タイプは、[ 設定可能な製品 ](product-create-configurable.md) の主要コンポーネントです。 |
+   | `Dropdown` | 1 つの選択のみを受け入れる値のドロップダウン リストを表示します。 ドロップダウン入力タイプは、[&#x200B; 設定可能な製品 &#x200B;](product-create-configurable.md) の主要コンポーネントです。 |
    | `Multiple Select` | 複数の値を選択できるドロップダウン リストを表示します。 |
    | `Price` | この入力タイプは、事前定義済みの属性（価格、特別価格、階層価格およびコスト）に加えて価格フィールドを作成するために使用されます。 使用する通貨は、システム設定によって決まります。 |
-   | `Media Image` | 製品ロゴ、ケアの説明、食品ラベルの材料など、製品に追加の画像を関連付けます。 メディア画像属性を製品の属性セットに追加すると、ベース、小、サムネールと共に、追加の画像タイプになります。 メディア画像属性は、[ ストアフロントメディアブラウザー ](catalog-images-video.md#storefront-media-browser) から除外できます。 |
-   | `Fixed Product Tax` | ロケールの要件に基づいて [FPT 率 ](../stores-purchase/fixed-product-tax.md) を定義できます。 |
-   | `Visual Swatch` | 設定可能な商品のカラー、テクスチャ、パターンを示すスウォッチが表示されます。 [ 視覚的なスウォッチ ](swatches.md) には、16 進数カラー値を入力するか、オプションのカラー、マテリアル、テクスチャまたはパターンを表すアップロード済み画像を表示できます。 |
-   | `Text Swatch` | サイズ調整によく使用される、設定可能な商品オプションのテキストベースの表現です。 [ テキストスウォッチ ](swatches.md#text-based-swatches) には、16 進数のカラー値を含めることもできます。 |
-   | `Page Builder` | 属性の場所にあるの完全に機能する [ ページビルダー ](../page-builder/introduction.md) ワークスペースで、魅力的なコンテンツを製品ページに簡単に追加できます。 |
+   | `Media Image` | 製品ロゴ、ケアの説明、食品ラベルの材料など、製品に追加の画像を関連付けます。 メディア画像属性を製品の属性セットに追加すると、ベース、小、サムネールと共に、追加の画像タイプになります。 メディア画像属性は、[&#x200B; ストアフロントメディアブラウザー &#x200B;](catalog-images-video.md#storefront-media-browser) から除外できます。 |
+   | `Fixed Product Tax` | ロケールの要件に基づいて [FPT 率 &#x200B;](../stores-purchase/fixed-product-tax.md) を定義できます。 |
+   | `Visual Swatch` | 設定可能な商品のカラー、テクスチャ、パターンを示すスウォッチが表示されます。 [&#x200B; 視覚的なスウォッチ &#x200B;](swatches.md) には、16 進数カラー値を入力するか、オプションのカラー、マテリアル、テクスチャまたはパターンを表すアップロード済み画像を表示できます。 |
+   | `Text Swatch` | サイズ調整によく使用される、設定可能な商品オプションのテキストベースの表現です。 [&#x200B; テキストスウォッチ &#x200B;](swatches.md#text-based-swatches) には、16 進数のカラー値を含めることもできます。 |
+   | `Page Builder` | 属性の場所にあるの完全に機能する [&#x200B; ページビルダー &#x200B;](../page-builder/introduction.md) ワークスペースで、魅力的なコンテンツを製品ページに簡単に追加できます。 |
 
    {style="table-layout:auto"}
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
    - 「**[!UICONTROL Is Default]**」を選択すると、オプションがデフォルト値として使用されます。
 
-   ![ 製品属性 – オプションを管理 ](./assets/product-attribute-add-values-colors.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品属性 – オプションを管理 &#x200B;](./assets/product-attribute-add-values-colors.png){width="600" zoomable="yes"}
 
 ## 手順 2：詳細プロパティを記述する（必要な場合）
 
@@ -68,11 +68,11 @@ ht-degree: 0%
    >
    >[!UICONTROL Attribute Code] フィールドに `type` の値を使用することはお勧めしません。 `type` の値はシステムでの使用のために予約されているので、これが原因でエラーが発生する可能性があります。
 
-   ![ 製品属性 – 詳細プロパティ ](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品属性 – 詳細プロパティ &#x200B;](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
    使用できるオプションは、_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;の設定によって異なります。
 
-1. 属性を使用できる [ ストア階層 ](../getting-started/websites-stores-views.md) の場所を示すために、**[!UICONTROL Scope]** を設定します。
+1. 属性を使用できる [&#x200B; ストア階層 &#x200B;](../getting-started/websites-stores-views.md) の場所を示すために、**[!UICONTROL Scope]** を設定します。
 
 1. 値の重複を防ぐには、**[!UICONTROL Unique Value]** を `Yes` に設定します。
 
@@ -87,9 +87,9 @@ ht-degree: 0%
    - `Letters`
    - `Letters (a-z, A-Z) or Numbers (0-9)`
 
-   ![ 入力検証 ](./assets/product-attribute-input-validation.png){width="400"}
+   ![&#x200B; 入力検証 &#x200B;](./assets/product-attribute-input-validation.png){width="400"}
 
-1. この属性を [ 製品リスト ](products-list.md) に追加するには、次のオプションを `Yes` に設定します。
+1. この属性を [&#x200B; 製品リスト &#x200B;](products-list.md) に追加するには、次のオプションを `Yes` に設定します。
 
    - **列オプションに追加** – 属性を列として _[!UICONTROL Products]_&#x200B;リストに含めます。
    - **フィルターオプションで使用** - フィルターリストの列ヘッダーに _[!UICONTROL Products]_&#x200B;ィルターコントロールを追加します。
@@ -102,13 +102,13 @@ ht-degree: 0%
 
    ストアが異なる言語で使用可能な場合は、各表示に翻訳されたタイトルを入力できます。
 
-   ![ 製品属性 – タイトルの管理 ](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品属性 – タイトルの管理 &#x200B;](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
 
 ## 手順 4：ストアフロントプロパティの説明
 
 1. 左側のナビゲーションで「**[!UICONTROL Storefront Properties]**」を選択します。
 
-   ![ 製品属性 – ストアフロントのプロパティ ](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品属性 – ストアフロントのプロパティ &#x200B;](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
    使用できるオプションは、_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;の設定によって異なります。
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
    - 検索結果での項目の表示位置を制御する **[!UICONTROL Search Weight]** 値を設定します：1 （最小の重み付け） ～ 10 （最大の重み付け）。
 
-   - 必要に応じて **[!UICONTROL Visible in Advanced Search]** を設定します。 詳しくは、[ 詳細検索 ](search.md#advanced-search) を参照してください。
+   - 必要に応じて **[!UICONTROL Visible in Advanced Search]** を設定します。 詳しくは、[&#x200B; 詳細検索 &#x200B;](search.md#advanced-search) を参照してください。
 
 1. 製品の比較に属性を含めるには、**[!UICONTROL Comparable on Storefront]** を `Yes` に設定します。
 
@@ -158,7 +158,7 @@ ht-degree: 0%
 
 ## 設定可能な製品の属性
 
-[ 設定可能な製品 ](product-create-configurable.md) のオプションのドロップダウンリストとして使用する属性には、次のプロパティが必要です。
+[&#x200B; 設定可能な製品 &#x200B;](product-create-configurable.md) のオプションのドロップダウンリストとして使用する属性には、次のプロパティが必要です。
 
 | プロパティ | 値 |
 |----------|------ |
@@ -171,7 +171,7 @@ ht-degree: 0%
 
 属性を削除すると、関連する製品および属性セットから削除されます。 システム属性はストアのコア機能の一部であり、削除できません。
 
-属性を削除する前に、その属性がカタログ内のどの製品でも現在使用されていないことを確認してください。 属性が使用中かどうかを簡単に判断するには、[ 書き出し ](../systems/data-export.md) ツールを使用して、製品エンティティ属性のリストを確認します。 属性がリストに含まれていない場合、カタログ内のどの製品でも使用されません。
+属性を削除する前に、その属性がカタログ内のどの製品でも現在使用されていないことを確認してください。 属性が使用中かどうかを簡単に判断するには、[&#x200B; 書き出し &#x200B;](../systems/data-export.md) ツールを使用して、製品エンティティ属性のリストを確認します。 属性がリストに含まれていない場合、カタログ内のどの製品でも使用されません。
 
 **_属性を削除するには：_**
 
@@ -181,6 +181,6 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Delete Attribute]**」をクリックします。
 
-   ![ 属性を削除 ](./assets/attribute-delete.png){width="600" zoomable="yes"}
+   ![&#x200B; 属性を削除 &#x200B;](./assets/attribute-delete.png){width="600" zoomable="yes"}
 
 1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL OK]**」をクリックします。

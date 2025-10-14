@@ -14,15 +14,15 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-顧客アカウントの [ ギフト登録 ](gift-registries.md) セクションには、顧客の現在のギフト登録と関連するイベントが一覧表示されます。 顧客は現在のレジストリを管理し、新しいレジストリを追加できます。
+顧客アカウントの [&#x200B; ギフト登録 &#x200B;](gift-registries.md) セクションには、顧客の現在のギフト登録と関連するイベントが一覧表示されます。 顧客は現在のレジストリを管理し、新しいレジストリを追加できます。
 
-![ 贈与原簿 ](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
+![&#x200B; 贈与原簿 &#x200B;](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
 
 ## ギフト レジストリ情報
 
 顧客は、自分のアカウントからギフトレジストリを作成および管理できます。 各タイプのレジストリに関連付けられているすべての情報は、顧客のアカウントから入手できます。
 
-![ ストアフロントの例 – ギフトレジストリ情報 ](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの例 – ギフトレジストリ情報 &#x200B;](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
 
 | セクション | 説明 |
 |--- |--- |
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 1. 顧客は、アカウントダッシュボードから **[!UICONTROL Gift Registry]** に移動します。
 
-   ![ 商品登録品目の管理 ](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
+   ![&#x200B; 商品登録品目の管理 &#x200B;](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
 
 1. レジストリ イベントを検索し、管理する項目を選択して、**[!DNL Manage Items]** をクリックします。
 

@@ -29,7 +29,7 @@ Adobe Commerceの会社管理では、管理者が B2B ビジネス上の関係�
 
 *[!UICONTROL Companies]* ビューから会社管理タスクを開始します。 管理者で、**[!UICONTROL Customers]**/**[!UICONTROL Companies]** に移動します。
 
-![B2B 会社グリッドの管理 ](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+![B2B 会社グリッドの管理 &#x200B;](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 ## 前提条件
 
@@ -83,9 +83,9 @@ Adobe Commerceの会社管理では、管理者が B2B ビジネス上の関係�
 
 階層内の会社を編集する場合は、*[!UICONTROL Company Hierarchy]* を展開すると、関連するすべての会社が表示されます。 `Current` のフラグは、編集中の会社を示します。
 
-![B2B 会社階層グリッド ](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
+![B2B 会社階層グリッド &#x200B;](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
-詳細な手順については、「[ 会社階層の管理 ](manage-company-hierarchy.md)」を参照してください。
+詳細な手順については、「[&#x200B; 会社階層の管理 &#x200B;](manage-company-hierarchy.md)」を参照してください。
 
 ## 会社管理タスク
 
@@ -123,8 +123,8 @@ Adobe Commerceの会社管理では、管理者が B2B ビジネス上の関係�
 
 >[!MORELIKETHIS]
 >
->* [ 会社アカウントの作成 ](account-company-create.md)
->* [ 会社階層の管理 ](manage-company-hierarchy.md)
->* [ 会社の役割と権限 ](account-company-roles-permissions.md)
->* [ 企業の与信管理 ](credit-company.md)
->* [B2B 機能の有効化 ](enable-basic-features.md)
+>* [&#x200B; 会社アカウントの作成 &#x200B;](account-company-create.md)
+>* [&#x200B; 会社階層の管理 &#x200B;](manage-company-hierarchy.md)
+>* [&#x200B; 会社の役割と権限 &#x200B;](account-company-roles-permissions.md)
+>* [&#x200B; 企業の与信管理 &#x200B;](credit-company.md)
+>* [B2B 機能の有効化 &#x200B;](enable-basic-features.md)

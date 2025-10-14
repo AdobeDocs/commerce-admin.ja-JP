@@ -16,7 +16,7 @@ ht-degree: 0%
 
 コンバージョントラッキングは、販売またはその他の価値のあるアクションにつながる広告クリック数を表示します。 注文送信後に顧客に表示される _成功_ ページは、販売後にのみ表示されるので、コンバージョンを追跡するために使用されます。 Commerceには既に必要な情報があるので、ストアのGoogle AdWords 設定が完了したら、コンバージョントラッキングスクリプトを成功ページにコピーする必要はありません。 詳しくは、[Google AdWords ヘルプ ][2] を参照してください。
 
-![Google検索結果のAdobe広告 ](./assets/google-adwords-adobe-ad.png){width="500"}
+![Google検索結果のAdobe広告 &#x200B;](./assets/google-adwords-adobe-ad.png){width="500"}
 
 ## 手順 1. Google AdWords キャンペーンの作成
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Google API]**」を選択します。
 
-1. **[!UICONTROL Google AdWords]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Google AdWords]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
    - **[!UICONTROL Enable]** を `Yes` に設定します。
 

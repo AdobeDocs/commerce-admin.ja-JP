@@ -16,7 +16,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
->Adobe Commerce B2B をインストールして有効化すると、会社固有の機能を使用して購入体験をパーソナライズできます。 Adobe Commerce B2B は、B2B モデルと B2C モデルの両方をサポートする統合ソリューションです。 B2B 機能について詳しくは、[Adobe Commerce B2B ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ja) を参照してください。
+>Adobe Commerce B2B をインストールして有効化すると、会社固有の機能を使用して購入体験をパーソナライズできます。 Adobe Commerce B2B は、B2B モデルと B2C モデルの両方をサポートする統合ソリューションです。 B2B 機能について詳しくは、[Adobe Commerce B2B ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ja) を参照してください。
 
 {{config}}
 
@@ -24,9 +24,9 @@ ht-degree: 1%
 
 ## [!UICONTROL General]
 
-![ 一般 ](./assets/quotes-general.png)<!-- zoom -->
+![&#x200B; 一般 &#x200B;](./assets/quotes-general.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Minimum Amount] | Web サイト | 顧客が見積依頼を送信する前に必要となる、割引の後の買い物かごの小計の最小金額。 デフォルト値：`0` |
 | [!UICONTROL Minimum Amount Message] | ストア表示 | 顧客が見積依頼を送信しようとしたが、最低限必要な金額を満たしていない場合に、買い物かごに表示されるメッセージ。 |
@@ -36,9 +36,9 @@ ht-degree: 1%
 
 ## [!UICONTROL Attached Files]
 
-![ 添付ファイル ](./assets/quotes-attached-files.png)<!-- zoom -->
+![&#x200B; 添付ファイル &#x200B;](./assets/quotes-attached-files.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL File formats for upload] | グローバル | 見積もりに添付できるファイル形式を決定します。 サポートされているデフォルト値：`doc`、`docx`、`xls`、`xlsx`、`pdf`、`txt`、`jpg`、`png` および `jpeg` |
 | [!UICONTROL Maximum file size] | グローバル | 見積もりに添付するファイルの最大サイズを決定します。 この設定は、サーバー設定で上書きできます。 |

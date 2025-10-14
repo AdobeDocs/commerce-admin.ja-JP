@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 会社の発注書
 
-発注書（PO）は、企業が支出を追跡および制御するための一般的な方法です。 [ 発注書 ](../stores-purchase/purchase-order.md) は、Adobe CommerceおよびMagento Open Sourceでサポートされている標準のオフライン支払い方法の 1 つです。 Adobe Commerceの B2B がインストールされ、会社アカウントに対して [_発注書を有効にする_](account-company-manage.md#advanced-settings) がアクティブ化されると、すべての注文が発注書（PO）として自動的に作成されます。 必要な [ 権限 ](account-company-roles-permissions.md) を持つ会社ユーザーは、自分が作成した PO および下位ユーザーが作成した PO を作成、編集および削除できます。
+発注書（PO）は、企業が支出を追跡および制御するための一般的な方法です。 [&#x200B; 発注書 &#x200B;](../stores-purchase/purchase-order.md) は、Adobe CommerceおよびMagento Open Sourceでサポートされている標準のオフライン支払い方法の 1 つです。 Adobe Commerceの B2B がインストールされ、会社アカウントに対して [_発注書を有効にする_](account-company-manage.md#advanced-settings) がアクティブ化されると、すべての注文が発注書（PO）として自動的に作成されます。 必要な [&#x200B; 権限 &#x200B;](account-company-roles-permissions.md) を持つ会社ユーザーは、自分が作成した PO および下位ユーザーが作成した PO を作成、編集および削除できます。
 
 ## 発注書フロー
 
 ユーザーの役割と順序に応じて、会社ユーザーは複数の承認ルールの対象となる場合があります。 また、オンラインとオフラインのどちらの支払い方法を使用するかによって、フローが若干異なります。 会社管理者は、承認ルールをバイパスして、注文を自動的に作成できます。 承認プロセス中にオンライン支払の詳細を保存することはセキュリティ上のリスクがあるため、これらの詳細は承認後に追加され、その後で発注書が実際の注文に変換されます。
 
-![ 発注書のフロー ](./assets/purchase-order-flow.png){width="600" zoomable="yes"}
+![&#x200B; 発注書のフロー &#x200B;](./assets/purchase-order-flow.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ ht-degree: 0%
 - 1000 ドルを超える注文については、マネージャーと会社の管理者の承認が必要です。
 - 一意の SKU が 30 を超える注文については、会社管理者の承認が必要です。
 
-会社に対してこれらのルールが設定されていると、会社のユーザーは、注文が 100 ドル未満の場合に即座に注文を完了できます。 承認ルールの定義については、[ 承認ルール ](account-dashboard-approval-rules.md) を参照してください。
+会社に対してこれらのルールが設定されていると、会社のユーザーは、注文が 100 ドル未満の場合に即座に注文を完了できます。 承認ルールの定義については、[&#x200B; 承認ルール &#x200B;](account-dashboard-approval-rules.md) を参照してください。
 
 ### ストアユーザーのタイプ
 
@@ -78,13 +78,13 @@ ht-degree: 0%
 - **[!UICONTROL Company Purchase Orders]**：会社内の下位ユーザーが作成した PO （会社の構造および役割によって異なります）。
 - **[!UICONTROL Requires My Approval]**: （指定承認者に対して表示）顧客の承認待ちの発注。 カウンターには、承認待ちの注文の数が表示されます。
 
-![ 自分の発注書 ](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
+![&#x200B; 自分の発注書 &#x200B;](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 
-ストアフロントで会社ユーザーが使用できる、サポート対象の発注機能について詳しくは、「[ 自分の発注 ](account-dashboard-my-purchase-orders.md)」を参照してください。
+ストアフロントで会社ユーザーが使用できる、サポート対象の発注機能について詳しくは、「[&#x200B; 自分の発注 &#x200B;](account-dashboard-my-purchase-orders.md)」を参照してください。
 
 ## オフラインとオンラインの支払い方法
 
-ワークフローは、支払い方法によって異なる場合があります。 Adobe Commerceの支払い方法について詳しくは、『 [ セールスおよび購入エクスペリエンスガイド _の ](../stores-purchase/payments.md) 支払い方法_ を参照してください。
+ワークフローは、支払い方法によって異なる場合があります。 Adobe Commerceの支払い方法について詳しくは、『 [&#x200B; セールスおよび購入エクスペリエンスガイド _の &#x200B;](../stores-purchase/payments.md) 支払い方法_ を参照してください。
 
 >[!IMPORTANT]
 >

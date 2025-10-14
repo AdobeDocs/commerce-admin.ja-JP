@@ -21,11 +21,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Required PayPal Settings]
 
-![PayPal Express チェックアウトが必要な設定 ](./assets/paypal-express-required-settings.png)<!-- zoom -->
+![PayPal Express チェックアウトが必要な設定 &#x200B;](./assets/paypal-express-required-settings.png)<!-- zoom -->
 
 <!-- [PayPal Express Checkout Required Settings](../../stores-purchase/paypal-express-checkout.html) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable this Solution] | Web サイト | 顧客が利用できる支払方法として [!DNL PayPal Express Checkout] を有効化します。 オプション：`Yes` / `No` |
 | [!UICONTROL Enable In-Context Checkout Experience] | Web サイト | 顧客が利用できる支払い方法として、合理化された PayPal コンテキスト内チェックアウトをアクティブ化します。 オプション：`Yes` / `No` |
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Express Checkout]
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | Web サイト | PayPal マーチャントアカウントが確立されたときに指定したメールアドレスを指定します。 メールアドレスは大文字と小文字が区別され、PayPal システムのメールアドレスと完全に一致する必要があります。 |
 | [!UICONTROL API Authentication Methods] | Web サイト | API 認証に使用する方法を決定します。 オプション：<br/>**`API Signature`**- フォームに _[!UICONTROL API Signature]_&#x200B;フィールドを表示します。<br/>**`API Certificate`**- フォームに「_[!UICONTROL API Certificate]_」フィールドを表示します。 |
@@ -54,9 +54,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Advertise PayPal Credit]
 
-![PayPal クレジットの広告 ](./assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
+![PayPal クレジットの広告 &#x200B;](./assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Publisher ID] | Web サイト | PayPal クレジットアカウントに関連付けられたパブリッシャー ID。 |
 | [!UICONTROL Get Publisher ID from PayPal] |  | PayPal からパブリッシャー ID を取得します。 |
@@ -69,9 +69,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Basic Settings]
 
-![ 基本設定 ](./assets/payment-methods-paypal-express-checkout-basic-settings.png)<!-- zoom -->
+![&#x200B; 基本設定 &#x200B;](./assets/payment-methods-paypal-express-checkout-basic-settings.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時の PayPal Express チェックアウト支払い方法を識別する名前。 |
 | [!UICONTROL Sort Order] | ストア表示 | チェックアウト時に他のお支払い方法と一緒に表示される場合に、PayPal Express チェックアウトの順序を決定する数字を指定します。 リストの上部に `0` と入力します。 |
@@ -82,9 +82,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced Settings]
 
-![ 詳細設定 ](./assets/payment-methods-paypal-express-checkout-advanced-settings.png)<!-- zoom -->
+![&#x200B; 詳細設定 &#x200B;](./assets/payment-methods-paypal-express-checkout-advanced-settings.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Display on Shopping Cart] | ストア表示 | PayPal Express チェックアウトが買い物かごに支払いオプションとして表示されるかどうかを決定します。 オプション：`Yes` （PayPal 推奨）/`No` |
 | [!UICONTROL Payment Action Applicable From] | Web サイト | 適用可能な国選択の範囲を決定します。 オプション：`All Allowed Countries` / `Specific Countries` |
@@ -96,16 +96,16 @@ ht-degree: 0%
 | [!UICONTROL Shortcut Buttons Flavor] | ストア表示 | PayPal 受け入れボタンに使用する画像のタイプを決定します。 オプション：<br/>**`Dynamic`**- （推奨） PayPal サーバーから動的に変更できる画像を表示します。<br/>**`Static`** – 動的に変更できない静的画像を表示します。 |
 | [!UICONTROL Enable PayPal Guest Checkout] | Web サイト | PayPal アカウントをお持ちでないお客様は、PayPal Express Checkout で購入できます。 オプション：`Yes` / `No` |
 | [!UICONTROL Require Customer's Billing Address] | Web サイト | 顧客の請求先住所が必須かどうかを決定します。 オプション：`Yes`/`No`/`For Virtual Quotes Only` |
-| [!UICONTROL Billing Agreement Signup] | Web サイト | 顧客がストアと [ 請求契約 ](../../stores-purchase/paypal-billing-agreements.md) を締結できるかどうかを決定します。 オプション：<br/>**`Auto`**– お客様は、エクスプレスチェックアウト中に請求契約にサインアップできます。<br/>**`Ask Customer`** – お客様は請求契約に新規登録するかどうかを尋ねられます。 <br/>**`Never`**– お客様は請求契約に新規登録するオプションを提供されません。 |
+| [!UICONTROL Billing Agreement Signup] | Web サイト | 顧客がストアと [&#x200B; 請求契約 &#x200B;](../../stores-purchase/paypal-billing-agreements.md) を締結できるかどうかを決定します。 オプション：<br/>**`Auto`**– お客様は、エクスプレスチェックアウト中に請求契約にサインアップできます。<br/>**`Ask Customer`** – お客様は請求契約に新規登録するかどうかを尋ねられます。 <br/>**`Never`**– お客様は請求契約に新規登録するオプションを提供されません。 |
 | [!UICONTROL Skip Order Review Step] | Web サイト | 顧客が PayPal サイトからトランザクションを完了できるか、またはストアに戻って注文を送信する前に注文レビュー手順を完了する必要があるかを決定します。 オプション：`Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Billing Agreement Settings]
 
-![ 請求契約の設定 ](./assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png)<!-- zoom -->
+![&#x200B; 請求契約の設定 &#x200B;](./assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Web サイト | 有効化すると、請求契約書がチェックアウト時に支払いオプションとして顧客に表示されます。 オプション：`Yes` / `No` |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時に支払いオプションとして表示される PayPal 請求契約オプションのラベル。 |
@@ -122,9 +122,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Settlement Report Settings]
 
-![ 決算報告書の作成等 ](./assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png)<!-- zoom -->
+![&#x200B; 決算報告書の作成等 &#x200B;](./assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | **[!UICONTROL SFTP Credentials]** |  |  |
 | [!UICONTROL Login] | Web サイト | PayPal のセキュア FTP サーバーにログインするために必要なユーザー名。 |
@@ -141,25 +141,25 @@ ht-degree: 0%
 
 ### [!UICONTROL Frontend Experience Settings]
 
-![ フロントエンドエクスペリエンスの設定 – PayPal マーチャントページのスタイル ](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png)<!-- zoom -->
+![&#x200B; フロントエンドエクスペリエンスの設定 – PayPal マーチャントページのスタイル &#x200B;](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL PayPal Product Logo] | ストア表示 | ストアに表示される PayPal ロゴを決定します。 2 つのサイズには 4 つの基本スタイルがあります。 オプション：`No Logo` / `We prefer PayPal (150 x 60)` / `We prefer PayPal (150 x 40)` / `Now accepting PayPal (150 x 60)` / `Now accepting PayPal (150 x 40)` / `Payments by PayPal (150 x 60)` / `Payments by PayPal (150 x 40)` / `Shop now using (150 x 60)` / `Shop now using (150 x 40)` |
 | **[!UICONTROL PayPal Merchant Pages Style]** |  |  |
 | [!UICONTROL Page Style] | ストア表示 | PayPal マーチャントページの外観を決定します。 許可されている値：**`paypal`** - PayPal ページスタイルを使用します。 <br/>**`primary`**- アカウントプロファイルで「プライマリ」スタイルとして識別したページスタイルを使用します。<br/>**`your_custom_value`** - アカウントプロファイルで指定されているカスタム支払いページスタイルを使用します。 |
 | [!UICONTROL Header Image URL] | ストア表示 | チェックアウトページの左上隅に表示される画像の URL。 最大サイズは 750 x 90 ピクセルです。 <br/><br/>**_注意：_**&#x200B;PayPal では、画像を安全な（https）サーバーに保存することをお勧めします。 そうしないと、顧客のブラウザーで「ページにセキュアな項目とセキュアでない項目の両方が含まれています」と警告される場合があります。 |
-| [!UICONTROL Header Image Background Color] | ストア表示 | チェックアウトページのヘッダーの背景色を 6 文字 [16 進数カラー ](https://en.wikipedia.org/wiki/Web_colors) のコードで表します。 コードは、大文字でも小文字でも入力できます。 |
-| [!UICONTROL Header Image Border Color] | ストア表示 | ヘッダーの周囲の 2 ピクセルの境界線の 6 文字 [16 進色 ](https://en.wikipedia.org/wiki/Web_colors) コード。 |
-| [!UICONTROL Page Background Color] | ストア表示 | ヘッダーと支払いフォームの後ろに表示される、チェックアウトページの背景色の 6 文字 [16 進数カラー ](https://en.wikipedia.org/wiki/Web_colors) コード。 |
+| [!UICONTROL Header Image Background Color] | ストア表示 | チェックアウトページのヘッダーの背景色を 6 文字 [16 進数カラー &#x200B;](https://en.wikipedia.org/wiki/Web_colors) のコードで表します。 コードは、大文字でも小文字でも入力できます。 |
+| [!UICONTROL Header Image Border Color] | ストア表示 | ヘッダーの周囲の 2 ピクセルの境界線の 6 文字 [16 進色 &#x200B;](https://en.wikipedia.org/wiki/Web_colors) コード。 |
+| [!UICONTROL Page Background Color] | ストア表示 | ヘッダーと支払いフォームの後ろに表示される、チェックアウトページの背景色の 6 文字 [16 進数カラー &#x200B;](https://en.wikipedia.org/wiki/Web_colors) コード。 |
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Customize Smart Buttons (Basic)]
 
-![ フロントエンドエクスペリエンス設定 – スマートボタンのカスタマイズ ](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings2.png)<!-- zoom -->
+![&#x200B; フロントエンドエクスペリエンス設定 – スマートボタンのカスタマイズ &#x200B;](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings2.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Customize Button] | ストア表示 | ストアのレイアウトとテーマに合わせて PayPal スマート ボタンをカスタマイズできるかどうかを決定します。 これらの変更は、チェックアウトページ、製品ページ、買い物かごページ、ミニ買い物かごに個別に適用できます。 |
 | [!UICONTROL Label] | ストア表示 | PayPal がスマート支払いボタンに表示するテキスト。 オプション：<br/>**`Checkout`**（「PayPal チェックアウト」として表示）<br/>**`Pay`** （「PayPal で支払う」として表示） <br/>**`Buy Now`**（「PayPal で今すぐ購入」として表示）<br/>**`PayPal`** （「PayPal」として表示） <br/>**`Installment`**（「PayPal」として表示）<br/>**`Credit`** （「PayPal クレジット」として表示） |
@@ -172,9 +172,9 @@ ht-degree: 0%
 
 #### [!UICONTROL Customize Smart Buttons (Features)]
 
-![ フロントエンドエクスペリエンスの設定 – スマートボタンのカスタマイズ（機能） ](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings3.png)<!-- zoom -->
+![&#x200B; フロントエンドエクスペリエンスの設定 – スマートボタンのカスタマイズ（機能） &#x200B;](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings3.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Disable Funding Options] | ストア表示 | チェックアウトページに表示される他の PayPal 資金調達オプションを決定します。 選択したオプションは、チェックアウトページには表示されません。 選択されていないオプションは、PayPal がストアの通貨と購入者の場所をサポートしている場合にのみ表示されます。 オプション：`PayPal Credit` / `PayPal Guest Checkout` `Credit Card Icons` / `Elektronisches Lastschriftverfahren - German ELV` |
 

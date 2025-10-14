@@ -31,13 +31,13 @@ ht-degree: 0%
 
 ## 手順 2：各通信事業者の設定の更新
 
-1. [ ストア情報 ](../getting-started/store-details.md#store-information) が完成していることを確認します。
+1. [&#x200B; ストア情報 &#x200B;](../getting-started/store-details.md#store-information) が完成していることを確認します。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Shipping Settings]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」 **[!UICONTROL Origin]** クションを展開し、**[!UICONTROL Shipping Origin Address]** を設定します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」 **[!UICONTROL Origin]** クションを展開し、**[!UICONTROL Shipping Origin Address]** を設定します。
 
 1. ラベル印刷用に有効にする通信事業者アカウントごとに、以下の手順に従います。
 
@@ -47,7 +47,7 @@ United Parcel Service は、国内および海外の両方で出荷されます�
 
 1. 左パネルの「_[!UICONTROL Sales]_」セクションで、「**[!UICONTROL Delivery Methods]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL UPS]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL UPS]**」セクションを展開します。
 
 1. UPS **[!UICONTROL Shipper Number]** が正しいことを確認します。
 
@@ -59,7 +59,7 @@ United Parcel Service は、国内および海外の両方で出荷されます�
 
 [!DNL United States Postal Service] 船は国内外を問わず運航しています。
 
-1. **[!UICONTROL Delivery Methods]** 設定で続行して、「**[!UICONTROL USPS]**」セクションの ![ 拡張セレクター ](../assets/icon-display-expand.png) を展開します。
+1. **[!UICONTROL Delivery Methods]** 設定で続行して、「**[!UICONTROL USPS]**」セクションの ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
 1. **[!UICONTROL Secure Gateway URL]** が正しいことを確認します。
 
@@ -78,7 +78,7 @@ United Parcel Service は、国内および海外の両方で出荷されます�
 
 国内外の FedEx 船。 米国以外の店舗では、国際配送にのみ FedEx ラベルを作成できます。
 
-1. **[!UICONTROL Delivery Methods]** 設定で続行して、「**[!UICONTROL FedEx]**」セクションの ![ 拡張セレクター ](../assets/icon-display-expand.png) を展開します。
+1. **[!UICONTROL Delivery Methods]** 設定で続行して、「**[!UICONTROL FedEx]**」セクションの ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
 1. 次の FedEx 認証情報が正しいことを確認します。
 
@@ -92,7 +92,7 @@ United Parcel Service は、国内および海外の両方で出荷されます�
 
 DHL は国際配送サービスを提供しています。
 
-1. **[!UICONTROL Delivery Methods]** 設定で続行して、「**[!UICONTROL DHL]**」セクションの ![ 拡張セレクター ](../assets/icon-display-expand.png) を展開します。
+1. **[!UICONTROL Delivery Methods]** 設定で続行して、「**[!UICONTROL DHL]**」セクションの ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
 1. **[!UICONTROL Gateway URL]** が正しいことを確認します。
 

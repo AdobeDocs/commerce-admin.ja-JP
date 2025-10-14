@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## ソーシャルネットワーク
 
-ストアは、[Marketplace 拡張機能 ](../getting-started/commerce-marketplace.md) をインストールすることで、ソーシャルネットワークに接続できます。 さらに、ストア全体のページに組み込むことができる CMS ブロックに _類似_ ボタンなどのソーシャルプラグインを簡単に追加できます。
+ストアは、[Marketplace 拡張機能 &#x200B;](../getting-started/commerce-marketplace.md) をインストールすることで、ソーシャルネットワークに接続できます。 さらに、ストア全体のページに組み込むことができる CMS ブロックに _類似_ ボタンなどのソーシャルプラグインを簡単に追加できます。
 
 ソーシャルネットワーキングサイトには、ストアに簡単に追加できる多数のプラグインがあります。 また、Commerce Marketplace上には、ストアとソーシャルメディアを統合するために使用できる多くの拡張機能があります。 次の例では、「Facebook _いいね_」ボタンをストアに追加する方法を示しています。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 1. コンテンツツールに応じて、コードスニペットをブロックコンテンツに追加します。
 
-   - [!DNL Page Builder] を使用する場合は、[HTMLコード ](../page-builder/html-code.md) ブロックをステージに追加し、Facebook サイトからコピーしたコードのスニペットを貼り付けます。 それ以外の場合は、コードのスニペットを **[!UICONTROL Content]** ボックスに貼り付けます。
+   - [!DNL Page Builder] を使用する場合は、[HTMLコード &#x200B;](../page-builder/html-code.md) ブロックをステージに追加し、Facebook サイトからコピーしたコードのスニペットを貼り付けます。 それ以外の場合は、コードのスニペットを **[!UICONTROL Content]** ボックスに貼り付けます。
 
    - エディターを使用して、Facebook サイトからコピーしたコードのスニペットを「**[!UICONTROL Content]**」ボックスに貼り付けます。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. コンテンツツールに応じて、ブロックを追加します。
 
-   - [!UICONTROL Page Builder] を使用する場合は、手順に従ってステージに [ ブロックを追加 ](../page-builder/block.md) します。
+   - [!UICONTROL Page Builder] を使用する場合は、手順に従ってステージに [&#x200B; ブロックを追加 &#x200B;](../page-builder/block.md) します。
 
    - _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**&#x200B;に移動します。
 
@@ -129,11 +129,11 @@ RSS （Really Simple Syndication）は、オンラインでの情報配信に使
 
 RSS フィードを有効にすると、製品、スペシャル、カテゴリ、およびクーポンへの追加が各フィードの購読者に自動的に送信されます。 公開するすべての RSS フィードへのリンクが、ストアのフッターに表示されます。
 
-![RSS フィードアイコン ](./assets/icon-rss.png){width="100"}<br/>
+![RSS フィードアイコン &#x200B;](./assets/icon-rss.png){width="100"}<br/>
 
 RSS フィードを読み取るために必要なソフトウェアはフィード リーダーと呼ばれ、人々はヘッドライン、ブログ、ポッドキャストなどを購読できます。 Google Readerは、オンラインで無料で利用できる多くのフィードリーダーの 1 つです。
 
-![ ストアフロントの例 – RSS フィード ](./assets/storefront-rss-feeds.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの例 – RSS フィード &#x200B;](./assets/storefront-rss-feeds.png){width="700" zoomable="yes"}
 
 ### RSS フィードを設定する利点
 
@@ -166,24 +166,24 @@ RSS フィードを読み取るために必要なソフトウェアはフィー�
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、「**[!UICONTROL RSS Feeds]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Rss Config]**」セクションを展開し、「**[!UICONTROL Enable RSS]**」を「`Enable`」に設定します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL Rss Config]**」セクションを展開し、「**[!UICONTROL Enable RSS]**」を「`Enable`」に設定します。
 
-   ![ カタログ設定 – RSS フィード ](../configuration-reference/catalog/assets/rss-feeds-rss-config.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ設定 – RSS フィード &#x200B;](../configuration-reference/catalog/assets/rss-feeds-rss-config.png){width="600" zoomable="yes"}
 
    必要に応じて、「**[!UICONTROL Use Default]**」チェックボックスをオフにして、デフォルト値を変更します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Wish List]**」セクションを展開し、「**[!UICONTROL Enable RSS]**」を「`Enable`」に設定します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL Wish List]**」セクションを展開し、「**[!UICONTROL Enable RSS]**」を「`Enable`」に設定します。
 
-1. 必要に応じて、「![ 展開セレクター ](../assets/icon-display-expand.png)」セクションを展開し、他のフィードを `Enable` に設定し **[!UICONTROL Catalog]** す。
+1. 必要に応じて、「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」セクションを展開し、他のフィードを `Enable` に設定し **[!UICONTROL Catalog]** す。
 
    - **[!UICONTROL New Products]**
    - **[!UICONTROL Special Products]**
    - **[!UICONTROL Coupons/Discounts]**
    - **[!UICONTROL Top Level Category]**
 
-   ![ カタログ - RSS フィードの設定 ](../configuration-reference/catalog/assets/rss-feeds-catalog.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ - RSS フィードの設定 &#x200B;](../configuration-reference/catalog/assets/rss-feeds-catalog.png){width="600" zoomable="yes"}
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Order]**」セクションを展開し、「**[!UICONTROL Customer Order Status Notification]**」を「`Enable`」に設定します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL Order]**」セクションを展開し、「**[!UICONTROL Customer Order Status Notification]**」を「`Enable`」に設定します。
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 

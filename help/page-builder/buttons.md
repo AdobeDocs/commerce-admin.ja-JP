@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 要素 – ボタン
 
-_ボタン_ コンテンツタイプを使用して、[[!DNL Page Builder]  ステージ ](workspace.md#stage) に個々のボタンまたは一連のボタンを追加します。 ボタンは水平方向または垂直方向に配置でき、ステージの行、列、タブ、バナーに直接追加できます。
+_ボタン_ コンテンツタイプを使用して、[[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage) に個々のボタンまたは一連のボタンを追加します。 ボタンは水平方向または垂直方向に配置でき、ステージの行、列、タブ、バナーに直接追加できます。
 
-![ 店頭にボタンが設置されているバナー ](./assets/pb-storefont-banner-with-button.png){width="600" zoomable="yes"}
+![&#x200B; 店頭にボタンが設置されているバナー &#x200B;](./assets/pb-storefont-banner-with-button.png){width="600" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -24,30 +24,30 @@ _ボタン_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
 
 ### 個々のボタンのツールボックス
 
-![ ボタンツールボックス ](./assets/pb-elements-button-settings.png){width="500" zoomable="yes"}
+![&#x200B; ボタンツールボックス &#x200B;](./assets/pb-elements-button-settings.png){width="500" zoomable="yes"}
 
 | ツール | アイコン | 説明 |
 | --------- | -------- | -------------- |
-| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | 「編集ボタン」ページが開きます。このページで、ボタンのプロパティを変更できます。 |
-| 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | ボタンをコピーします。 |
-| 削除 | ![ 削除アイコン ](./assets/pb-icon-remove.png){width="25"} | ステージからボタンを削除します。 |
+| 設定 | ![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | 「編集ボタン」ページが開きます。このページで、ボタンのプロパティを変更できます。 |
+| 複製 | ![&#x200B; 複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | ボタンをコピーします。 |
+| 削除 | ![&#x200B; 削除アイコン &#x200B;](./assets/pb-icon-remove.png){width="25"} | ステージからボタンを削除します。 |
 
 {style="table-layout:auto"}
 
 ### ボタンコンテナツールボックス
 
-![ ボタンコンテナツールボックス ](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
+![&#x200B; ボタンコンテナツールボックス &#x200B;](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
 | ツール | アイコン | 説明 |
 | --------- | ----------------- | ----------- |
-| 移動 | ![ 移動アイコン ](./assets/pb-icon-move.png){width="25"} | ボタンコンテナをページ上の別の有効な場所に移動します。 |
-| 追加 | ![ 追加アイコン ](./assets/pb-icon-add-button.png){width="25"} | コンテナにボタンを追加します。 |
+| 移動 | ![&#x200B; 移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | ボタンコンテナをページ上の別の有効な場所に移動します。 |
+| 追加 | ![&#x200B; 追加アイコン &#x200B;](./assets/pb-icon-add-button.png){width="25"} | コンテナにボタンを追加します。 |
 | （ラベル） | ボタン | 現在のコンテナをボタン要素として識別します。 |
-| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | 編集ボタン ページを開きます。このページで、コンテナのプロパティを変更できます。 |
-| Hide | ![ アイコンを非表示 ](./assets/pb-icon-hide.png){width="25"} | ボタンコンテナを非表示にします。 |
-| 表示 | ![ アイコンを表示 ](./assets/pb-icon-show.png){width="25"} | 非表示のボタンコンテナを表示します。 |
-| 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | ボタンコンテナをコピーします。 |
-| 削除 | ![ 削除アイコン ](./assets/pb-icon-remove.png){width="25"} | ボタンコンテナとそのコンテンツをステージから削除します。 |
+| 設定 | ![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | 編集ボタン ページを開きます。このページで、コンテナのプロパティを変更できます。 |
+| Hide | ![&#x200B; アイコンを非表示 &#x200B;](./assets/pb-icon-hide.png){width="25"} | ボタンコンテナを非表示にします。 |
+| 表示 | ![&#x200B; アイコンを表示 &#x200B;](./assets/pb-icon-show.png){width="25"} | 非表示のボタンコンテナを表示します。 |
+| 複製 | ![&#x200B; 複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | ボタンコンテナをコピーします。 |
+| 削除 | ![&#x200B; 削除アイコン &#x200B;](./assets/pb-icon-remove.png){width="25"} | ボタンコンテナとそのコンテンツをステージから削除します。 |
 
 {style="table-layout:auto"}
 
@@ -57,13 +57,13 @@ _ボタン_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
 
 1. [!DNL Page Builder] パネルで **[!UICONTROL Elements]** を展開し、**[!UICONTROL Buttons]** プレースホルダーをステージ上の行、列またはタブセットにドラッグします。
 
-   ![ ボタンのステージへのドラッグ ](./assets/pb-elements-button-drag.png){width="500" zoomable="yes"}
+   ![&#x200B; ボタンのステージへのドラッグ &#x200B;](./assets/pb-elements-button-drag.png){width="500" zoomable="yes"}
 
-1. ボタンにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png)）アイコンを選択します。
+1. ボタンにカーソルを合わせてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png)）アイコンを選択します。
 
 1. ボタンに表示する **[!UICONTROL Button Text]** を入力します。
 
-   ![ 基本ボタンの設定 ](./assets/pb-elements-button-settings-button-text.png){width="600" zoomable="yes"}
+   ![&#x200B; 基本ボタンの設定 &#x200B;](./assets/pb-elements-button-settings-button-text.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Button Type]** を次のいずれかに設定します。
 
@@ -75,7 +75,7 @@ _ボタン_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
 
    {style="table-layout:auto"}
 
-   ![プライマリおよびセカンダリボタンの例 ](./assets/pb-elements-button-settings-button-primary-secondary.png){width="500" zoomable="yes"}
+   ![プライマリおよびセカンダリボタンの例 &#x200B;](./assets/pb-elements-button-settings-button-primary-secondary.png){width="500" zoomable="yes"}
 
 1. 次のいずれかのタイプを使用して **[!UICONTROL Button Link]** を設定します。
 
@@ -97,15 +97,15 @@ _ボタン_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
      >
      >製品は、「在庫切れの製品を表示 _設定に従ってリストに表示さ_ ます。 [Inventory management](../inventory-management/introduction.md) を使用しているマルチ Source マーチャントの場合、商品リストは、デフォルト web サイトにのみ割り当てられたソースによって制限されます。
 
-     ![ ボタンリンクの製品の選択 ](./assets/pb-elements-button-settings-button-link-product-search.png){width="600" zoomable="yes"}
+     ![&#x200B; ボタンリンクの製品の選択 &#x200B;](./assets/pb-elements-button-settings-button-link-product-search.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Category]** - カテゴリ名（一部または全部）を入力するか、空白フィールドをクリックしてカテゴリツリーを表示します。 次に、ツリーでカテゴリ名を選択します。
 
-     ![ ボタンリンクのカテゴリの選択 ](./assets/pb-elements-button-settings-button-link-category-search.png){width="600" zoomable="yes"}
+     ![&#x200B; ボタンリンクのカテゴリの選択 &#x200B;](./assets/pb-elements-button-settings-button-link-category-search.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Page]** - CMSページの名前（一部または全部）を入力するか、空白フィールドをクリックして一覧を表示します。 次に、検索結果リストでページの名前を選択します。
 
-     ![ ボタンリンク用のCMSページを選択 ](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
+     ![&#x200B; ボタンリンク用のCMSページを選択 &#x200B;](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
 1. 必要に応じて [ 詳細設定 ][advanced-settings] を完了します。
 
@@ -117,23 +117,23 @@ _ボタン_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
 
 ### 手順 1:2 番目のボタンの作成
 
-1. ボタンコンテナにカーソルを合わせてツールボックスを表示し、「_追加_ （![ 追加アイコン ](./assets/pb-icon-add-button.png){width="20"}）」アイコンを選択します。
+1. ボタンコンテナにカーソルを合わせてツールボックスを表示し、「_追加_ （![&#x200B; 追加アイコン &#x200B;](./assets/pb-icon-add-button.png){width="20"}）」アイコンを選択します。
 
-   ![ 別のボタンの追加 ](./assets/pb-elements-buttons-toolbox-add.png){width="500" zoomable="yes"}
+   ![&#x200B; 別のボタンの追加 &#x200B;](./assets/pb-elements-buttons-toolbox-add.png){width="500" zoomable="yes"}
 
 1. 2 番目のボタンに表示するテキストを入力します。
 
-1. 新規ボタンをクリックしてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. 新規ボタンをクリックしてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-   ![ ボタンの編集 ](./assets/pb-elements-button-set-edit-button2-toolbox.png){width="500" zoomable="yes"}
+   ![&#x200B; ボタンの編集 &#x200B;](./assets/pb-elements-button-set-edit-button2-toolbox.png){width="500" zoomable="yes"}
 
 1. **[!UICONTROL Button Type]** を `Secondary` に設定します。
 
 1. 必要に応じて **[!UICONTROL Button Link]** を設定します。
 
-   次の例では、リンクは、「お問い合わせ [ ページに移動する相対 URL で ](../getting-started/store-details.md#contact-us-form)。
+   次の例では、リンクは、「お問い合わせ [&#x200B; ページに移動する相対 URL で &#x200B;](../getting-started/store-details.md#contact-us-form)。
 
-   ![ お問い合わせボタンの設定 ](./assets/pb-elements-button-set-edit-button2-toolbox-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; お問い合わせボタンの設定 &#x200B;](./assets/pb-elements-button-set-edit-button2-toolbox-settings.png){width="600" zoomable="yes"}
 
 1. 必要に応じて [ 詳細設定 ][advanced-settings] を完了します。
 
@@ -141,15 +141,15 @@ _ボタン_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
 
 ### 手順 2:3 番目のボタンの作成
 
-1. ステージの 2 番目のボタンを再度クリックし、「_複製_」（![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="20"}）アイコンを選択します。
+1. ステージの 2 番目のボタンを再度クリックし、「_複製_」（![&#x200B; 複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="20"}）アイコンを選択します。
 
-   ![ ボタンの複製 ](./assets/pb-elements-button-set-contact-us-toolbox-duplicate.png){width="500" zoomable="yes"}
+   ![&#x200B; ボタンの複製 &#x200B;](./assets/pb-elements-button-set-contact-us-toolbox-duplicate.png){width="500" zoomable="yes"}
 
 1. 3 番目のボタンに表示するテキストを入力します。
 
-1. 3 番目のボタンをクリックしてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. 3 番目のボタンをクリックしてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-   ![3 番目のボタンのツールボックス ](./assets/pb-elements-button-set-find-us-toolbox-settings.png){width="500" zoomable="yes"}
+   ![3 番目のボタンのツールボックス &#x200B;](./assets/pb-elements-button-set-find-us-toolbox-settings.png){width="500" zoomable="yes"}
 
 1. 必要に応じて **[!UICONTROL Button Link]** を更新します。
 
@@ -157,15 +157,15 @@ _ボタン_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
 
 ### 手順 3：ボタンコンテナの更新
 
-1. ボタンコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. ボタンコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-   ![ ボタンコンテナツールボックス ](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
+   ![&#x200B; ボタンコンテナツールボックス &#x200B;](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
 1. 「_[!UICONTROL Appearance]_」で、「**[!UICONTROL Stacked]**」を選択します。
 
 1. **[!UICONTROL All Buttons are same size]** を `Yes` に設定します。
 
-   ![ 同じサイズの積み重ねボタン ](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
+   ![&#x200B; 同じサイズの積み重ねボタン &#x200B;](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
 
 1. 必要に応じて、「ボタンコンテナの設定の変更 [ の説明を使用して残りの設定を更新し ][button-container] す。
 
@@ -173,21 +173,21 @@ _ボタン_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
 
    完全な積み重ねボタンセットがステージに表示され、1 つのプライマリボタンと 2 つのセカンダリボタンが表示されます。
 
-   ![ ステージ上の積み重ねボタン ](./assets/pb-elements-buttons-stacked.png){width="500" zoomable="yes"}
+   ![&#x200B; ステージ上の積み重ねボタン &#x200B;](./assets/pb-elements-buttons-stacked.png){width="500" zoomable="yes"}
 
 ## ボタンの移動
 
 1. 移動するボタンをクリックします。
 
-1. ボタンテキストの直前に表示される「移動」（![ 移動アイコン ](./assets/pb-icon-move.png){width="20"}）アイコンを選択して、ボタンコンテナ内のボタンの新しい位置にドラッグします。
+1. ボタンテキストの直前に表示される「移動」（![&#x200B; 移動アイコン &#x200B;](./assets/pb-icon-move.png){width="20"}）アイコンを選択して、ボタンコンテナ内のボタンの新しい位置にドラッグします。
 
-   ![ ボタンの移動 ](./assets/pb-elements-button-set-move-button.png){width="500" zoomable="yes"}
+   ![&#x200B; ボタンの移動 &#x200B;](./assets/pb-elements-button-set-move-button.png){width="500" zoomable="yes"}
 
 ## ボタンの設定の変更
 
-1. ステージ上のボタンをクリックしてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. ステージ上のボタンをクリックしてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-   ![ ボタンツールボックス ](./assets/pb-elements-button-toolboxes.png){width="500" zoomable="yes"}
+   ![&#x200B; ボタンツールボックス &#x200B;](./assets/pb-elements-button-toolboxes.png){width="500" zoomable="yes"}
 
 1. 必要に応じて標準設定を更新します。
 
@@ -220,7 +220,7 @@ _ボタン_ コンテンツタイプを使用して、[[!DNL Page Builder]  ス�
 
 ## ボタンコンテナの設定の変更
 
-1. ボタンコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. ボタンコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
 1. 必要に応じて、**[!UICONTROL Appearance]** 設定を更新します。
 

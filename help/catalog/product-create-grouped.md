@@ -18,37 +18,37 @@ ht-degree: 0%
 
 グループとして表示されますが、グループ内の各製品は個別のアイテムとして購入されます。 買い物かごでは、各品目と購入数量が別々の明細品目として表示されます。
 
-[ 製品テンプレート ](attribute-sets.md)、必須フィールドおよび基本設定を使用してグループ化された製品を作成するプロセスを以下の手順に示します。 各必須フィールドには、赤いアスタリスク（`*`）が付いています。 基本を完了したら、必要に応じて他の製品設定を完了できます。
+[&#x200B; 製品テンプレート &#x200B;](attribute-sets.md)、必須フィールドおよび基本設定を使用してグループ化された製品を作成するプロセスを以下の手順に示します。 各必須フィールドには、赤いアスタリスク（`*`）が付いています。 基本を完了したら、必要に応じて他の製品設定を完了できます。
 
-![ グループ化された製品 ](./assets/product-grouped.png){width="700" zoomable="yes"}
+![&#x200B; グループ化された製品 &#x200B;](./assets/product-grouped.png){width="700" zoomable="yes"}
 
 ## 手順 1：製品タイプの選択
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
-1. 右上隅の _[!UICONTROL Add Product]_（メニュー矢印 ![ メニューで ](../assets/icon-menu-down-arrow-red.png){width="25"} 「**[!UICONTROL Grouped Product]**」を選択します。
+1. 右上隅の _[!UICONTROL Add Product]_（メニュー矢印 ![&#x200B; メニューで &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"} 「**[!UICONTROL Grouped Product]**」を選択します。
 
-   ![ グループ化された製品を追加 ](./assets/product-add-grouped.png){width="700" zoomable="yes"}
+   ![&#x200B; グループ化された製品を追加 &#x200B;](./assets/product-add-grouped.png){width="700" zoomable="yes"}
 
 ## 手順 2：属性セットの選択
 
-製品のテンプレートとして使用される [ 属性セット ](attribute-sets.md) を選択するには、次のいずれかの操作を行います。
+製品のテンプレートとして使用される [&#x200B; 属性セット &#x200B;](attribute-sets.md) を選択するには、次のいずれかの操作を行います。
 
 - 検索するには、**[!UICONTROL Attribute Set]** の名前を入力します。
 - リストで、使用する属性セットを選択します。
 
 フォームが更新され、変更が反映されます。
 
-![ テンプレートを選択 ](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
+![&#x200B; テンプレートを選択 &#x200B;](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
 
 必要な属性が存在しない場合は、製品の作成時に新しい属性を追加できます。
 
 - 右上隅の「**[!UICONTROL Add Attribute]**」をクリックします。
-- 新しい属性を定義します（[ 製品への属性の追加 ](product-attributes-add.md) を参照）。
+- 新しい属性を定義します（[&#x200B; 製品への属性の追加 &#x200B;](product-attributes-add.md) を参照）。
 
-  ![ 新しい属性 ](./assets/product-attribute-add-select.png){width="600" zoomable="yes"}
+  ![&#x200B; 新しい属性 &#x200B;](./assets/product-attribute-add-select.png){width="600" zoomable="yes"}
 
-製品に既存の属性を追加するには、[ フィルターコントロール ](../getting-started/admin-grid-controls.md) を使用してグリッド内の属性を検索し、次の手順を実行します。
+製品に既存の属性を追加するには、[&#x200B; フィルターコントロール &#x200B;](../getting-started/admin-grid-controls.md) を使用してグリッド内の属性を検索し、次の手順を実行します。
 
 - 追加する各属性の最初の列のチェックボックスを選択します。
 - 「**[!UICONTROL Add Selected]**」をクリックします。
@@ -63,15 +63,15 @@ ht-degree: 0%
 
    グループ化された製品には、カタログ内に独自の価格はありません。 グループ化された製品価格は、グループに含まれる個々の製品の価格から派生します。
 
-1. 製品はまだ公開する準備が整っていないので、**[!UICONTROL Enable Product]** を `No` に設定します（![ 切り替え no](../assets/toggle-no.png)）。
+1. 製品はまだ公開する準備が整っていないので、**[!UICONTROL Enable Product]** を `No` に設定します（![&#x200B; 切り替え no](../assets/toggle-no.png)）。
 
 1. 「**[!UICONTROL Save]**」をクリックして続行します。
 
-   製品を保存すると、製品名がページの上部に表示され、「[ ストア表示 ](introduction.md#product-scope)」選択が左上隅に表示されます。
+   製品を保存すると、製品名がページの上部に表示され、「[&#x200B; ストア表示 &#x200B;](introduction.md#product-scope)」選択が左上隅に表示されます。
 
 1. 製品を使用できる **[!UICONTROL Store View]** を選択します。
 
-   ![ ストア表示の選択 ](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![&#x200B; ストア表示の選択 &#x200B;](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## 手順 4：基本設定を完了する
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 1. `Catalog, Search` の **[!UICONTROL Visibility]** 設定を受け入れます。
 
-1. [ 新製品のリスト ](../content-design/widget-new-products-list.md) に製品を表示するには、カレンダーで **[!UICONTROL Set Product as New]** の **[!UICONTROL from]** と **[!UICONTROL to]** の日付を選択します。
+1. [&#x200B; 新製品のリスト &#x200B;](../content-design/widget-new-products-list.md) に製品を表示するには、カレンダーで **[!UICONTROL Set Product as New]** の **[!UICONTROL from]** と **[!UICONTROL to]** の日付を選択します。
 
 1. **[!UICONTROL Country of Manufacture]** を選択します。
 
@@ -105,9 +105,9 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Grouped Products]**」セクションまでスクロールし、「**[!UICONTROL Add Products to Group]**」をクリックします。
 
-   ![ グループ化された製品 ](./assets/product-grouped-products.png){width="600" zoomable="yes"}
+   ![&#x200B; グループ化された製品 &#x200B;](./assets/product-grouped-products.png){width="600" zoomable="yes"}
 
-1. 必要に応じて、[ フィルター ](../getting-started/admin-grid-controls.md) を使用して、グループに含める製品を見つけます。
+1. 必要に応じて、[&#x200B; フィルター &#x200B;](../getting-started/admin-grid-controls.md) を使用して、グループに含める製品を見つけます。
 
 1. リストで、グループに含める各項目のチェックボックスを選択します。
 
@@ -115,7 +115,7 @@ ht-degree: 0%
    >
    >設定可能なオプションのないシンプル、ダウンロード可能および仮想製品のみを、子製品としてグループ化できます。 その他の製品タイプは、選択リストには表示されません。
 
-   ![ 選択した製品を追加 ](./assets/product-grouped-add-products.png){width="600" zoomable="yes"}
+   ![&#x200B; 選択した製品を追加 &#x200B;](./assets/product-grouped-add-products.png){width="600" zoomable="yes"}
 
 1. 製品グループに追加するには、「**[!UICONTROL Add Selected Products]**」をクリックします。
 
@@ -123,11 +123,11 @@ ht-degree: 0%
 
    [Inventory management](../inventory-management/sources-stocks.md) を使用するマルチSourceマーチャントの場合、グリッドには、ソースと在庫の量が割り当てられたそれぞれの **[!UICONTROL Quantity per Source]** 列が含まれます。
 
-   ![ グループ内製品 ](./assets/product-grouped-grouped-products-section.png){width="600" zoomable="yes"}
+   ![&#x200B; グループ内製品 &#x200B;](./assets/product-grouped-grouped-products-section.png){width="600" zoomable="yes"}
 
 1. 任意の項目の **[!UICONTROL Default Quantity]** を入力します。
 
-1. 商品の順序を変更するには、最初の列の _順序を変更_ アイコン（![ 位置コントローラー ](../assets/icon-sort-order.png)）を選択し、商品をリストの新しい位置にドラッグします。
+1. 商品の順序を変更するには、最初の列の _順序を変更_ アイコン（![&#x200B; 位置コントローラー &#x200B;](../assets/icon-sort-order.png)）を選択し、商品をリストの新しい位置にドラッグします。
 
 1. グループから製品を削除するには、「削 **[!UICONTROL Remove]**」をクリックします。
 
@@ -154,15 +154,15 @@ ht-degree: 0%
 
    - 右上隅の「**[!UICONTROL Save]**」をクリックします。
 
-   - ストアで製品を表示するには、_管理者_ （![ メニュー矢印 ](../assets/icon-menu-down-arrow-black.png)） メニューの **[!UICONTROL Customer View]** を選択します。
+   - ストアで製品を表示するには、_管理者_ （![&#x200B; メニュー矢印 &#x200B;](../assets/icon-menu-down-arrow-black.png)） メニューの **[!UICONTROL Customer View]** を選択します。
 
      ストアが新しいブラウザータブで開きます。
 
-     ![ 顧客ビュー ](./assets/product-admin-customer-view.png){width="700" zoomable="yes"}
+     ![&#x200B; 顧客ビュー &#x200B;](./assets/product-admin-customer-view.png){width="700" zoomable="yes"}
 
    **方法 2:** 保存して閉じる
 
-   - _[!UICONTROL Save]_（メニュー矢印 ![ メニューで ](../assets/icon-menu-down-arrow-red.png){width="25"} 「**[!UICONTROL Save & Close]**」を選択します。
+   - _[!UICONTROL Save]_（メニュー矢印 ![&#x200B; メニューで &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"} 「**[!UICONTROL Save & Close]**」を選択します。
 
 ## 手順 7：買い物かごのサムネールの設定（オプション）
 
@@ -172,13 +172,13 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
-1. **[!UICONTROL Shopping Cart]** の ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. **[!UICONTROL Shopping Cart]** の ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
-   これらの設定オプションの詳細なリストについては、[ 設定リファレンス ](../configuration-reference/sales/checkout.md#shopping-cart) の _買い物かご_ を参照してください。
+   これらの設定オプションの詳細なリストについては、[&#x200B; 設定リファレンス &#x200B;](../configuration-reference/sales/checkout.md#shopping-cart) の _買い物かご_ を参照してください。
 
 1. **[!UICONTROL Grouped Product Image]** を `Product Thumbnail Itself` に設定します。
 
-   ![ 買い物かご ](./assets/config-sales-cart-grouped-product.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かご &#x200B;](./assets/config-sales-cart-grouped-product.png){width="600" zoomable="yes"}
 
    必要に応じて、「**[!UICONTROL Use system value]**」チェックボックスの選択を解除し、このオプションを設定します。
 

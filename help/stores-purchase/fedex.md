@@ -14,11 +14,11 @@ ht-degree: 0%
 
 FedEx 社は、航空便、貨物、陸上輸送サービスを複数の優先課題で提供する世界最大級の輸送サービス企業です。
 
-![ チェックアウト時の FedEx 配送オプション ](./assets/storefront-checkout-shipping-fedex.png){width="700" zoomable="yes"}
+![&#x200B; チェックアウト時の FedEx 配送オプション &#x200B;](./assets/storefront-checkout-shipping-fedex.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->FedEx は [ ディメンション重量 ](carriers.md#dimensional-weight) を使用して、配送料を決定できます。 ただし、Adobe CommerceとMagento Open Sourceでは、重量ベースの送料の計算のみをサポートしています。
+>FedEx は [&#x200B; ディメンション重量 &#x200B;](carriers.md#dimensional-weight) を使用して、配送料を決定できます。 ただし、Adobe CommerceとMagento Open Sourceでは、重量ベースの送料の計算のみをサポートしています。
 
 ## 手順 1:FedEx Web サービスの本番環境への登録
 
@@ -34,7 +34,7 @@ FedEx の販売者アカウントと、FedEx Web サービスの生産アクセ�
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Delivery Methods]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL FedEx]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL FedEx]**」セクションを展開します。
 
 1. **[!UICONTROL Enabled for Checkout]** を `Yes` に設定します。
 
@@ -61,7 +61,7 @@ FedEx の販売者アカウントと、FedEx Web サービスの生産アクセ�
    >
    >顧客に配送方法として FedEx を提供する準備ができたら、サンドボックスモードを `No` に設定することを忘れないでください。
 
-   ![FedEx アカウント設定 ](../configuration-reference/sales/assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
+   ![FedEx アカウント設定 &#x200B;](../configuration-reference/sales/assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
 
 ## 手順 3：パッケージの説明と手数料
 
@@ -89,9 +89,9 @@ FedEx の販売者アカウントと、FedEx Web サービスの生産アクセ�
 
 1. FedEx 出荷に対して許可される **[!UICONTROL Maximum Package Weight]** を入力します。
 
-   デフォルトの FedEx の最大重量は 150 ポンドです。 詳しくは、配送業者にお問い合わせください。 FedEx で特別な取り決めを行っていない限り、デフォルト値をお勧めします。 詳しくは、[ ディメンションの重み付け ](carriers.md#dimensional-weight) を参照してください。
+   デフォルトの FedEx の最大重量は 150 ポンドです。 詳しくは、配送業者にお問い合わせください。 FedEx で特別な取り決めを行っていない限り、デフォルト値をお勧めします。 詳しくは、[&#x200B; ディメンションの重み付け &#x200B;](carriers.md#dimensional-weight) を参照してください。
 
-   ![FedEx パッケージ設定 ](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
+   ![FedEx パッケージ設定 &#x200B;](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 
 1. 要件に応じて手数料オプションを設定します。
 
@@ -114,7 +114,7 @@ FedEx の販売者アカウントと、FedEx Web サービスの生産アクセ�
    - `Yes` - B2C レジデンシャル配信用。
    - `No` - B2B レジデンシャル配信用。
 
-   ![FedEx 処理料金設定 ](../configuration-reference/sales/assets/delivery-methods-fedex-handling-fee.png){width="600" zoomable="yes"}
+   ![FedEx 処理料金設定 &#x200B;](../configuration-reference/sales/assets/delivery-methods-fedex-handling-fee.png){width="600" zoomable="yes"}
 
 ## 手順 4：許可される方法と適用国
 
@@ -130,7 +130,7 @@ FedEx の販売者アカウントと、FedEx Web サービスの生産アクセ�
    - スマートポストメソッドを提供するスマートポスト If （**ハブ ID** を入力）
    - 運送費 – 運送費、全国運送費
 
-1. FedEx を通じて [ 送料無料 ](shipping-free.md) オプションを提供したい場合は、送料無料オプションを設定します。
+1. FedEx を通じて [&#x200B; 送料無料 &#x200B;](shipping-free.md) オプションを提供したい場合は、送料無料オプションを設定します。
 
    - 送料無料に使用する方法に **[!UICONTROL Free Method]** を設定します。 FedEx を通じて送料無料を提供したくない場合は、`None` を選択します。
 
@@ -142,11 +142,11 @@ FedEx の販売者アカウントと、FedEx Web サービスの生産アクセ�
 
    このテキスト ボックスには既定のメッセージがあらかじめ設定されていますが、FedEx が使用できなくなったときに表示する別のメッセージを入力できます。
 
-   ![FedEx で許可される配信方法 ](../configuration-reference/sales/assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
+   ![FedEx で許可される配信方法 &#x200B;](../configuration-reference/sales/assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
 
 1. Set **[!UICONTROL Ship to Applicable Countries]**:
 
-   - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) の顧客がこの配信方法を使用できます。
+   - `All Allowed Countries` - ストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../getting-started/store-details.md#country-options) の顧客がこの配信方法を使用できます。
 
    - `Specific Countries` – このオプションを選択すると、「_特定の国に発送_ リストが表示されます。 リストで、この配信方法を使用できる国を選択します。
 
@@ -163,7 +163,7 @@ FedEx の販売者アカウントと、FedEx Web サービスの生産アクセ�
 
 1. 「**[!UICONTROL Save Config]**」をクリックします。
 
-   ![FedEx 適用国 ](../configuration-reference/sales/assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
+   ![FedEx 適用国 &#x200B;](../configuration-reference/sales/assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >

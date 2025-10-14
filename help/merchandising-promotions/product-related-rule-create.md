@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 右上隅の「**[!UICONTROL Add Rule]**」をクリックします。
 
-   ![ 関連製品ルール – 情報 ](./assets/catalog-related-products-rule-information.png){width="600" zoomable="yes"}
+   ![&#x200B; 関連製品ルール – 情報 &#x200B;](./assets/catalog-related-products-rule-information.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Rule Information]** を次のように入力します。
 
@@ -50,19 +50,19 @@ ht-degree: 0%
 
    - **[!UICONTROL Result Limit]**：結果リストに表示するレコード数を入力します。 最大数は 20 です。
 
-   - ルールが特定の [ 顧客セグメント ](../customers/customer-segments.md) に適用される場合は、**[!UICONTROL Customer Segments]** を `Specified` に設定し、リストから顧客セグメントを選択します。
+   - ルールが特定の [&#x200B; 顧客セグメント &#x200B;](../customers/customer-segments.md) に適用される場合は、**[!UICONTROL Customer Segments]** を `Specified` に設定し、リストから顧客セグメントを選択します。
 
-   - ルールが特定の [Real-Time CDP オーディエンス ](../customers/audience-activation.md) に適用される場合は、**[!UICONTROL Real-Time CDP Audience]** を `Specified` に設定し、リストからReal-Time CDP オーディエンスを選択します。 この機能はベータ版です。 ベータ版プログラムへの参加を希望される場合は、[dataconnection@adobe.com](mailto:dataconnection@adobe.com) にリクエストを送信してください。
+   - ルールが特定の [Real-Time CDP オーディエンス &#x200B;](../customers/audience-activation.md) に適用される場合は、**[!UICONTROL Real-Time CDP Audience]** を `Specified` に設定し、リストからReal-Time CDP オーディエンスを選択します。 この機能はベータ版です。 ベータ版プログラムへの参加を希望される場合は、[dataconnection@adobe.com](mailto:dataconnection@adobe.com) にリクエストを送信してください。
 
-     ![ 関連製品ルール - Real-Time CDP オーディエンス ](./assets/rtcdp-related-products.png){width="500"}
+     ![&#x200B; 関連製品ルール - Real-Time CDP オーディエンス &#x200B;](./assets/rtcdp-related-products.png){width="500"}
 
-1. 左側のパネルで「**[!UICONTROL Products to Match]**」を選択し、[ カタログ価格ルール ](price-rules-catalog.md) の場合と同様に条件を作成します。
+1. 左側のパネルで「**[!UICONTROL Products to Match]**」を選択し、[&#x200B; カタログ価格ルール &#x200B;](price-rules-catalog.md) の場合と同様に条件を作成します。
 
-   ![ 関連製品ルール – 一致する製品 ](./assets/catalog-related-products-match.png){width="500"}
+   ![&#x200B; 関連製品ルール – 一致する製品 &#x200B;](./assets/catalog-related-products-match.png){width="500"}
 
-1. 左側のパネルで「**[!UICONTROL Products to Display]**」を選択し、[ カタログ価格ルール ](price-rules-catalog.md) の場合と同様に結果条件を作成します。
+1. 左側のパネルで「**[!UICONTROL Products to Display]**」を選択し、[&#x200B; カタログ価格ルール &#x200B;](price-rules-catalog.md) の場合と同様に結果条件を作成します。
 
-   ![ 関連製品ルール – 表示する製品 ](./assets/catalog-related-products-to-display.png){width="500"}
+   ![&#x200B; 関連製品ルール – 表示する製品 &#x200B;](./assets/catalog-related-products-to-display.png){width="500"}
 
    表示された結果に含める製品を説明する条件を入力します。
 

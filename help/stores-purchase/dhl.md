@@ -20,7 +20,7 @@ DHL は、手紙、商品、情報を管理および輸送するための統合�
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Delivery Methods]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL DHL]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL DHL]**」セクションを展開します。
 
    >[!NOTE]
    >
@@ -38,7 +38,7 @@ DHL は、手紙、商品、情報を管理および輸送するための統合�
    - **[!UICONTROL Password]**
    - **[!UICONTROL Account Number]**
 
-![DHL アカウント設定 ](../configuration-reference/sales/assets/delivery-methods-dhl-account-settings.png){width="600" zoomable="yes"}
+![DHL アカウント設定 &#x200B;](../configuration-reference/sales/assets/delivery-methods-dhl-account-settings.png){width="600" zoomable="yes"}
 
 ## 手順 2：パッケージの説明と手数料を入力します
 
@@ -79,7 +79,7 @@ DHL は、手紙、商品、情報を管理および輸送するための統合�
 
      `Specific` を選択した場合は、パッケージの **[!UICONTROL Height]**、**[!UICONTROL Depth]**、**[!UICONTROL Width]** をセンチメートル単位で入力します。
 
-   ![DHL パッケージ設定 ](../configuration-reference/sales/assets/delivery-methods-dhl-package-settings.png){width="600" zoomable="yes"}
+   ![DHL パッケージ設定 &#x200B;](../configuration-reference/sales/assets/delivery-methods-dhl-package-settings.png){width="600" zoomable="yes"}
 
 ## 手順 3：許可される配信方法の指定
 
@@ -87,7 +87,7 @@ DHL は、手紙、商品、情報を管理および輸送するための統合�
 
    複数の方法を選択するには、Ctrl キー（PC）または Command キー（Mac）を押したまま、各オプションをクリックします。
 
-   配信方法の正しいリストを表示するには、まず [ 原産国 ](../configuration-reference/sales/shipping-settings.md) を指定する必要があります。
+   配信方法の正しいリストを表示するには、まず [&#x200B; 原産国 &#x200B;](../configuration-reference/sales/shipping-settings.md) を指定する必要があります。
 
 1. **[!UICONTROL Ready Time]**：注文が送信されてからパッケージの出荷準備が整うまでの時間数を入力します。
 
@@ -95,7 +95,7 @@ DHL は、手紙、商品、情報を管理および輸送するための統合�
 
    このメッセージは、選択したメソッドが使用できない場合に表示されます。
 
-1. DHL を通じて [ 送料無料 ](shipping-free.md) オプションを提供したい場合は、送料無料オプションを設定します。
+1. DHL を通じて [&#x200B; 送料無料 &#x200B;](shipping-free.md) オプションを提供したい場合は、送料無料オプションを設定します。
 
    - **[!UICONTROL Free Method]** しくは、送料無料で使用する方法を選択します。
 
@@ -109,7 +109,7 @@ DHL は、手紙、商品、情報を管理および輸送するための統合�
 
    - **[!UICONTROL Free Shipping Amount Threshold]**：送料無料の対象となる注文の最小金額を入力します。
 
-     ![DHL 許可メソッド ](../configuration-reference/sales/assets/delivery-methods-dhl-allowed-methods.png){width="600" zoomable="yes"}
+     ![DHL 許可メソッド &#x200B;](../configuration-reference/sales/assets/delivery-methods-dhl-allowed-methods.png){width="600" zoomable="yes"}
 
 ## 手順 4：適用国を指定する
 
@@ -134,4 +134,4 @@ DHL は、手紙、商品、情報を管理および輸送するための統合�
 
 1. 「**[!UICONTROL Save Config]**」をクリックします。
 
-   ![DHL 対象国 ](../configuration-reference/sales/assets/delivery-methods-dhl-applicable-countries.png){width="600" zoomable="yes"}
+   ![DHL 対象国 &#x200B;](../configuration-reference/sales/assets/delivery-methods-dhl-applicable-countries.png){width="600" zoomable="yes"}

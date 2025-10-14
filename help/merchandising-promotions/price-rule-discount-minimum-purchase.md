@@ -18,45 +18,45 @@ ht-degree: 0%
 
 ## 手順 1. 買い物かごルールの作成
 
-基本的な [ 手順 ](price-rules-cart.md) に従って、買い物かごルールを作成します。
+基本的な [&#x200B; 手順 &#x200B;](price-rules-cart.md) に従って、買い物かごルールを作成します。
 
 ## 手順 2. 条件の定義
 
-1. 下にスクロールして、「**[!UICONTROL Conditions]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. 下にスクロールして、「**[!UICONTROL Conditions]**」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
-1. _追加_ （![ 追加アイコン ](../assets/icon-add-green-circle.png)）をクリックし、**[!UICONTROL Product Attribute Combination]** を選択します。
+1. _追加_ （![&#x200B; 追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックし、**[!UICONTROL Product Attribute Combination]** を選択します。
 
-   ![ 買い物かご価格ルール条件 – 製品属性の組み合わせ ](./assets/condition1.png){width="500" zoomable="yes"}
+   ![&#x200B; 買い物かご価格ルール条件 – 製品属性の組み合わせ &#x200B;](./assets/condition1.png){width="500" zoomable="yes"}
 
-1. 次の行の先頭にある _追加_ （![ 追加アイコン ](../assets/icon-add-green-circle.png)）をクリックし、「**[!UICONTROL Product Attribute]**」の下のリストで「**[!UICONTROL Category]**」を選択します。
+1. 次の行の先頭にある _追加_ （![&#x200B; 追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックし、「**[!UICONTROL Product Attribute]**」の下のリストで「**[!UICONTROL Category]**」を選択します。
 
    - （**...**） _その他_ リンクをクリックすると、その他のオプションが表示されます。
 
-     ![ 買い物かご価格ルールの条件 – カテゴリオプション ](./assets/condition3.png){width="600" zoomable="yes"}
+     ![&#x200B; 買い物かご価格ルールの条件 – カテゴリオプション &#x200B;](./assets/condition3.png){width="600" zoomable="yes"}
 
-   - _選択_ （![ リストアイコン ](../assets/icon-list-chooser.png)）アイコンをクリックして、使用可能なカテゴリを表示します。 カテゴリツリーで、含める各カテゴリのチェックボックスを選択します。 チェックアイコンをクリックして、カテゴリの選択を確定します。
+   - _選択_ （![&#x200B; リストアイコン &#x200B;](../assets/icon-list-chooser.png)）アイコンをクリックして、使用可能なカテゴリを表示します。 カテゴリツリーで、含める各カテゴリのチェックボックスを選択します。 チェックアイコンをクリックして、カテゴリの選択を確定します。
 
-     ![ 買い物かご価格ルール条件 – カテゴリ ](./assets/condition4.png){width="600" zoomable="yes"}
+     ![&#x200B; 買い物かご価格ルール条件 – カテゴリ &#x200B;](./assets/condition4.png){width="600" zoomable="yes"}
 
-1. 次の行の先頭にある _追加_ （![ 追加アイコン ](../assets/icon-add-green-circle.png)）をクリックし、次の手順を実行します。
+1. 次の行の先頭にある _追加_ （![&#x200B; 追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックし、次の手順を実行します。
 
    - **[!UICONTROL Cart Item Attribute]** の下のリストで、「**[!UICONTROL Price in cart]**」を選択します。
 
-     ![ 買い物かご価格ルール条件 – 買い物かご品目属性 ](./assets/condition5.png){width="500"}
+     ![&#x200B; 買い物かご価格ルール条件 – 買い物かご品目属性 &#x200B;](./assets/condition5.png){width="500"}
 
    - 「**is**」をクリックし、「`equals or greater than`」を選択します。
 
    - 「**...**」をクリックし、「買い物かごの価格」が条件を満たす必要がある金額を入力します。 例えば、「`30`」と入力します。
 
-     ![ 買い物かご価格ルールの条件 – 買い物かごの価格 ](./assets/condition6.png){width="500"}
+     ![&#x200B; 買い物かご価格ルールの条件 – 買い物かごの価格 &#x200B;](./assets/condition6.png){width="500"}
 
 1. 「**[!UICONTROL Save and Continue Edit]**」をクリックします。
 
 ## 手順 3. アクションの定義
 
-1. **[!UICONTROL Actions]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Actions]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![ 買い物かご価格ルールアクション ](./assets/minimum-discount-actions.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かご価格ルールアクション &#x200B;](./assets/minimum-discount-actions.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Apply]** を `Percent of product price discount` に設定します。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ## 手順 4. ラベルを完成させる
 
-買い物かご価格ルールの手順の [ 手順 4](price-rules-cart.md) を完了して、チェックアウト時に表示されるラベルを入力します。
+買い物かご価格ルールの手順の [&#x200B; 手順 4](price-rules-cart.md) を完了して、チェックアウト時に表示されるラベルを入力します。
 
 ## 手順 5：ルールを保存してテストする
 

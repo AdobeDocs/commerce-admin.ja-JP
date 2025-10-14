@@ -37,7 +37,7 @@ ht-degree: 0%
 
 1. 特定の日時をプレビューする：
 
-   - **[!UICONTROL Date & Time]** カレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png){width="10" zoomable="no"}）をクリックします。
+   - **[!UICONTROL Date & Time]** カレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png){width="10" zoomable="no"}）をクリックします。
 
    - 別の日付や時刻を選択してください。
 
@@ -61,6 +61,6 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >共有プレビューを表示するには、管理者ユーザーアカウントが必要です。 [ 管理者ユーザーアカウントの作成 ](../systems/permissions-users-all.md#create-a-user) 権限がある場合、共有する前に、新しいユーザーのアカウントを作成する必要があります。
+     >共有プレビューを表示するには、管理者ユーザーアカウントが必要です。 [&#x200B; 管理者ユーザーアカウントの作成 &#x200B;](../systems/permissions-users-all.md#create-a-user) 権限がある場合、共有する前に、新しいユーザーのアカウントを作成する必要があります。
 
 1. キャンペーンカレンダーに戻るには、プレビューページのヘッダーにある「**[!UICONTROL Calendar]**」をクリックします。

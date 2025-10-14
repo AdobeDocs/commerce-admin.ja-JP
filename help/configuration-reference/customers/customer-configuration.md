@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Account Sharing Options]
 
-![ アカウント共有オプション ](./assets/customer-configuration-account-sharing-options.png)<!-- zoom -->
+![&#x200B; アカウント共有オプション &#x200B;](./assets/customer-configuration-account-sharing-options.png)<!-- zoom -->
 
 <!-- [Account Sharing Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Share Customer Accounts] | グローバル | ストア階層内の顧客アカウントの範囲を決定します。 オプション：<br/>**`Global`**- カスタマーアカウント情報は、Commerce インストール内のすべての web サイトおよびストアで共有されます。<br/>**`Per Website`** – 顧客アカウント情報は、アカウントが作成された web サイトに限定されます。 |
 
@@ -28,11 +28,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Online Customers Options]
 
-![ オンライン顧客オプション ](./assets/customer-configuration-online-customers-options.png)<!-- zoom -->
+![&#x200B; オンライン顧客オプション &#x200B;](./assets/customer-configuration-online-customers-options.png)<!-- zoom -->
 
 <!-- [Online Customers Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customers-menu/now-online) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Online Minutes Interval] | グローバル | 顧客のオンラインアクティビティに管理者からアクセスできる期間を決定します。 デフォルトの 15 分間隔の場合は、空のままにします。 |
 | [!UICONTROL Customer Data Lifetime] | グローバル | 顧客が入力した未保存のデータが期限切れになるまでの時間（分）を指定します。 デフォルトでは、未保存のデータの有効期限は 60 分後に切れます。 |
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Create New Account Options]
 
-![ 新規アカウントオプションの作成 ](./assets/customer-configuration-create-new-account-options.png)<!-- zoom -->
+![&#x200B; 新規アカウントオプションの作成 &#x200B;](./assets/customer-configuration-create-new-account-options.png)<!-- zoom -->
 
-![ 新規口座オプションの作成（VAT フィールド） ](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
+![&#x200B; 新規口座オプションの作成（VAT フィールド） &#x200B;](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
 
 <!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Automatic Assignment to Customer Group] | ストア表示 | 顧客をデフォルトの顧客グループに自動的に割り当てるかどうかを決定します。 店舗に VAT 番号を表示するには、ストアフロントで [VAT 番号を表示 ] を設定し、[`Yes`] を選択します。 オプション：<br/>**`Yes`**– 顧客 VAT ID は自動的には検証されず、顧客グループも変更されません。<br/>**`No`** - システムの動作は通常どおりであり、デフォルトの顧客グループは「デフォルトグループ」フィールドで設定できます。 |
 | [!UICONTROL Default Group] | ストア表示 | アカウントの作成時に割り当てられる最初の顧客グループを識別します。 |
@@ -66,11 +66,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Password Options]
 
-![ パスワードオプション ](./assets/customer-configuration-password-options.png)<!-- zoom -->
+![&#x200B; パスワードオプション &#x200B;](./assets/customer-configuration-password-options.png)<!-- zoom -->
 
 <!-- [Password Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Password Reset Protection Type] | ストア表示 | 顧客アカウントのパスワードをリセットするために使用する方法を決定します。 オプション：<br/>**`By IP and Email`**- パスワードは、管理者アカウントに関連付けられたメールアドレスに送信されるリセット通知から応答を受信した後に、オンラインでリセットできます。<br/>**`By IP`** - パスワードはオンラインでリセットできます。 <br/>**`By Email`**- パスワードは、管理者アカウントに関連付けられたメールアドレスに送信されるメール通知に応答することでリセットできます。<br/>**`None`** - パスワードは、ストア管理者のみがリセットできます。 |
 | [!UICONTROL Max Number of Password Reset Requests] | ストア表示 | 1 時間あたりのパスワードリセット要求の数を制限します。 無制限の要求の場合は、ゼロ（0）を入力します。 |
@@ -90,9 +90,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Account Information Options]
 
-![ アカウント情報オプション ](./assets/customer-configuration-account-info-options.png)<!-- zoom -->
+![&#x200B; アカウント情報オプション &#x200B;](./assets/customer-configuration-account-info-options.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Change Email Template] | ストア表示 | 顧客が電子メール アドレスを変更するときに使用される既定の電子メール テンプレートを識別します。 |
 | [!UICONTROL Change Email and Password Template] | ストア表示 | 顧客が電子メール アドレスおよびパスワードを変更するときに使用される既定の電子メール テンプレートを識別します。 |
@@ -105,11 +105,11 @@ ht-degree: 0%
 
 {{ce-feature}}
 
-![ 名前と住所のオプション - Sourceを開きます ](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
+![&#x200B; 名前と住所のオプション - Sourceを開きます &#x200B;](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
 
 <!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Number of Lines in a Street Address] | Web サイト | 番地の行数を指定します。 住所は `1` から `4` 行で構成されています。 フィールドが空白の場合、デフォルトの住所である 3 行（`3`）が使用されます。 |
 | [!UICONTROL Show Prefix] | Web サイト | お客様の名前の先頭にプレフィックスが含まれているかどうかを決定します（例：Mr.および Ms. オプション : `No` / `Optional` / `Required`） |
@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Show Suffix] | Web サイト | 顧客名の末尾にサフィックスが含まれるかどうかを決定します（Jr.、Sr.、III など）。 オプション：`No`/`Optional`/`Required` |
 | [!UICONTROL Suffix Dropdown Options] | Web サイト | サフィックスオプションのリストを定義します。 値はセミコロンで区切ります。 最初の値の前にセミコロンを入れると、リストの先頭に空の値が表示されます。 |
 | [!UICONTROL Show Date of Birth] | Web サイト | 顧客の生年月日が氏名および住所フォームに含まれるかどうかを決定します。 オプション：`No` / `Optional` / `Required` <br><br>**_重要：_**&#x200B;現在のセキュリティとプライバシーのベストプラクティスに従って、顧客の完全な生年月日（月、日、年）を他の個人識別子と一緒に保存することに関連する潜在的な法的およびセキュリティリスクに注意してください。 顧客の完全な生年月日の保存を制限し、代替として顧客の生年月日の使用を提案することをお勧めします。 |
-| [!UICONTROL Show Tax/VAT Number] | Web サイト | 名前と住所のフォームに税または [VAT 番号 ](../../stores-purchase/vat.md) が含まれるかどうかを決定します。 オプション：`No`/`Optional`/`Required` |
+| [!UICONTROL Show Tax/VAT Number] | Web サイト | 名前と住所のフォームに税または [VAT 番号 &#x200B;](../../stores-purchase/vat.md) が含まれるかどうかを決定します。 オプション：`No`/`Optional`/`Required` |
 | [!UICONTROL Show Gender] | Web サイト | 名前と住所のフォームに性別が含まれているかどうかを決定します。 オプション：`No`/`Optional`/`Required` |
 | [!UICONTROL Show Telephone] | Web サイト | 顧客の電話番号が名前と住所のフォームに含まれているかどうかを決定します。 オプション：`No`/`Optional`/`Required` |
 | [!UICONTROL Show Company] | Web サイト | 顧客の会社が名前と住所のフォームに含まれているかどうかを判断します。 オプション：`No`/`Optional`/`Required` |
@@ -130,11 +130,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![ 名前と住所のオプション - Commerce](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
+![&#x200B; 名前と住所のオプション - Commerce](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
 
 <!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Prefix Dropdown Options] | Web サイト | プリフィックスオプションのリストを定義します。 値はセミコロンで区切ります。 最初の値の前にセミコロンを入れると、リストの先頭に空の値が表示されます。 |
 | [!UICONTROL Suffix Dropdown Options] | Web サイト | サフィックスオプションのリストを定義します。 値はセミコロンで区切ります。 最初の値の前にセミコロンを入れると、リストの先頭に空の値が表示されます。 |
@@ -148,11 +148,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![ 店舗クレジット オプション ](./assets/customer-configuration-store-credit-options.png)<!-- zoom -->
+![&#x200B; 店舗クレジット オプション &#x200B;](./assets/customer-configuration-store-credit-options.png)<!-- zoom -->
 
 <!-- [Store Credit Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Store Credit Functionality] | グローバル | ストアクレジットが有効かどうかを判断します。 無効にすると、顧客アカウントおよび管理者の顧客の管理ページからストアクレジットが削除されます。 オプション：`Yes`/`No`。 |
 | [!UICONTROL Show Store Credit History to Customers] | Web サイト | 残高履歴を顧客勘定に表示するかどうかを決定します。 オプション：`Yes`/`No`。 |
@@ -164,11 +164,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Login Options]
 
-![ ログインオプション ](./assets/customer-configuration-login-options.png)<!-- zoom -->
+![&#x200B; ログインオプション &#x200B;](./assets/customer-configuration-login-options.png)<!-- zoom -->
 
 <!-- [Login Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Redirect Customer to Account Dashboard after Logging in] | Web サイト | 顧客がアカウントにログインした後の処理を指定します。 顧客を自分のアカウントダッシュボードにリダイレクトするには、「`Yes`」を選択します。 オプション：<br/>**`Yes`**– 顧客が自分のアカウントにログインすると、アカウントダッシュボードが表示されます。<br/>**`No`** – 顧客はアカウントにログインした後も買い物を続けることができます。 |
 
@@ -176,11 +176,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Address Templates]
 
-![ アドレステンプレート ](./assets/customer-configuration-address-templates.png)<!-- zoom -->
+![&#x200B; アドレステンプレート &#x200B;](./assets/customer-configuration-address-templates.png)<!-- zoom -->
 
 <!-- [Address Templates](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
 
-| Template | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| Template | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Text] | ストア表示 | テンプレートは、印刷されるすべてのアドレスに使用されます。 |
 | [!UICONTROL Text One Line] | ストア表示 | このテンプレートは、顧客の買い物かごアドレス帳リスト内の住所エンティティの順序を定義します。 チェックアウト中の進行状況。 |
@@ -193,11 +193,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![ 顧客セグメント ](./assets/customer-configuration-customer-segments.png)<!-- zoom -->
+![&#x200B; 顧客セグメント &#x200B;](./assets/customer-configuration-customer-segments.png)<!-- zoom -->
 
 <!-- [Customer Segments](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/segments/customer-segments) -->
 
-| Template | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| Template | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Customer Segment Functionality] | グローバル | 顧客セグメントを使用してターゲットを絞ったプロモーションを作成できるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Real-time Check if Customer is Matched by Segment] | グローバル | 顧客セグメントをリアルタイムで検証するかどうかを決定します。 オプション：<br/>**[!UICONTROL Yes]**– 顧客セグメントはリアルタイムで検証されます（デフォルト値）。<br/>**[!UICONTROL No]** – 顧客セグメントは、単一の結合条件 SQL クエリによって検証されます。 これにより、システム内に多数の顧客セグメントがある場合の、セグメント検証のパフォーマンスが向上します。 ただし、分割データベースを使用している場合や、登録済みの顧客が存在しない場合は、検証は機能しません。 |
@@ -210,11 +210,11 @@ ht-degree: 0%
 
 <!-- [CAPTCHA](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/security/captcha/security-captcha) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | Web サイト | Commerce web サイトに関連付けられているストアで CAPTCHA を有効にします。 オプション：`Yes` / `No` |
 | [!UICONTROL Font] | Web サイト | CAPTCHA を表示するために使用するフォントを決定します。 独自のフォントを追加するには、フォントファイルをCommerceのインストール先と同じディレクトリに置き、宣言を `config.xml` ファイルの `app/code/Magento/Captcha/etc` に追加します。 |
-| [!UICONTROL Forms] | Web サイト | CAPTCHA が使用されるフォームを決定します。 オプション：<br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （[ セキュリティパッチ ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=ja) を参照） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**注意：**&#x200B;_ ユーザー作成、パスワードを忘れた場合、Payflow Pro フォームは、選択した場合は常に有効になります。 |
+| [!UICONTROL Forms] | Web サイト | CAPTCHA が使用されるフォームを決定します。 オプション：<br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （[&#x200B; セキュリティパッチ &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=ja) を参照） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**注意：**&#x200B;_ ユーザー作成、パスワードを忘れた場合、Payflow Pro フォームは、選択した場合は常に有効になります。 |
 | [!UICONTROL Displaying Mode] | Web サイト | CAPTCHA が表示されるタイミングを決定します。 オプション：<br/>**`Always`**- ログインには常に CAPTCHA が必要です。<br/>**`After number of attempts to login`** – このオプションは、管理者のログインフォームにのみ適用されます。 選択すると、_[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;フィールドが表示されます。 許可するログイン試行回数を入力します。 値 `0` （ゼロ）は、[!UICONTROL Displaying Mode] を `Always` に設定する場合と似ています。<br/>_&#x200B;**注意：**&#x200B;_失敗したログインの試行回数を追跡するために、1 つのメールアドレスおよび 1 つの IP アドレスからのログインがカウントされます。 同じ IP アドレスから許可されるログイン試行回数の上限は 1,000 です。 この制限は、CAPTCHA が有効な場合にのみ適用されます。 |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | Web サイト | アカウントがロックされるまで顧客がログインできる回数を指定します。 |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | Web サイト | 現在の CAPTCHA の有効期間を決定します。 CAPTCHA の有効期限が切れたら、ユーザーはページをリロードする必要があります。 |

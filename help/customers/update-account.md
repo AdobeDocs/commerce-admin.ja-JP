@@ -13,7 +13,7 @@ ht-degree: 0%
 
 _[!UICONTROL Customer Information]_&#x200B;ページの左側のパネルには、顧客のアクティビティ、住所、注文統計、最近の注文、買い物かごの内容、製品のレビュー、ニュースレターの購読に関する情報が含まれています。
 
-![ 顧客プロファイル ](assets/cust-profile.png){width="700" zoomable="yes"}
+![&#x200B; 顧客プロファイル &#x200B;](assets/cust-profile.png){width="700" zoomable="yes"}
 
 ## 顧客アカウントの編集
 
@@ -27,7 +27,7 @@ _[!UICONTROL Customer Information]_&#x200B;ページの左側のパネルには�
    >
    >更新できる各値の値がテキストボックスに表示されます。 選択した顧客レコードの一部の値のみをグリッドから編集できます。
 
-   ![ クイック編集 ](assets/customers-grid-quick-edit.png){width="700" zoomable="yes"}
+   ![&#x200B; クイック編集 &#x200B;](assets/customers-grid-quick-edit.png){width="700" zoomable="yes"}
 
 1. 必要に応じて、次のいずれかの値を更新します。
 
@@ -48,7 +48,7 @@ _[!UICONTROL Customer Information]_&#x200B;ページの左側のパネルには�
 
    >[!INFO]
    >
-   >詳しくは、[ 顧客プロファイルの更新 ](../customers/update-account.md) を参照してください。
+   >詳しくは、[&#x200B; 顧客プロファイルの更新 &#x200B;](../customers/update-account.md) を参照してください。
 
 1. 完了したら、「**[!UICONTROL Save Customer]**」をクリックします。
 
@@ -64,15 +64,15 @@ _顧客表示_ タブには、**[!UICONTROL Personal Information]**、**[!UICONT
 
 ### [!UICONTROL Account Information]
 
-「[ アカウント情報 ](../customers/account-dashboard-account-information.md)」タブには、管理者ユーザーが個人情報、メール、リモートショッピングアシスタンス、生年月日を編集したり、web サイトや会社に顧客を添付したりできる、顧客に関する詳細情報が表示されます。
+「[&#x200B; アカウント情報 &#x200B;](../customers/account-dashboard-account-information.md)」タブには、管理者ユーザーが個人情報、メール、リモートショッピングアシスタンス、生年月日を編集したり、web サイトや会社に顧客を添付したりできる、顧客に関する詳細情報が表示されます。
 
 ### [!UICONTROL Addresses]
 
-[ アドレス ](../customers/account-dashboard-address-book.md) タブには、顧客のデフォルトの請求先住所と配送先住所、およびそれらが頻繁に使用する追加の住所が含まれています。
+[&#x200B; アドレス &#x200B;](../customers/account-dashboard-address-book.md) タブには、顧客のデフォルトの請求先住所と配送先住所、およびそれらが頻繁に使用する追加の住所が含まれています。
 
 ### [!UICONTROL Orders]
 
-[ 注文 ](../stores-purchase/orders.md) グリッドには、現在のすべての顧客の注文のリストが含まれており、管理者は注文の進行状況を追跡できます。
+[&#x200B; 注文 &#x200B;](../stores-purchase/orders.md) グリッドには、現在のすべての顧客の注文のリストが含まれており、管理者は注文の進行状況を追跡できます。
 
 ### [!UICONTROL Returns]
 
@@ -82,42 +82,42 @@ _顧客表示_ タブには、**[!UICONTROL Personal Information]**、**[!UICONT
 
 ### [!UICONTROL Shopping cart]
 
-「[ 買い物かご ](../stores-purchase/cart.md)」タブには、現在カートに入っているが何らかの理由で購入が完了しなかった製品が表示されます。
+「[&#x200B; 買い物かご &#x200B;](../stores-purchase/cart.md)」タブには、現在カートに入っているが何らかの理由で購入が完了しなかった製品が表示されます。
 
 ### [!UICONTROL Wish List]
 
-[ ウィッシュリスト ](../stores-purchase/wishlists.md) には、顧客が後で買い物かごに転送できる製品のリストが表示されます。
+[&#x200B; ウィッシュリスト &#x200B;](../stores-purchase/wishlists.md) には、顧客が後で買い物かごに転送できる製品のリストが表示されます。
 
 ### [!UICONTROL Gift Registry]
 
 {{ee-feature}}
 
-[ ギフトレジストリ ](../merchandising-promotions/gift-registry-storefront.md) セクションには、顧客の現在のギフトレジストリと関連するイベントが一覧表示されます。
+[&#x200B; ギフトレジストリ &#x200B;](../merchandising-promotions/gift-registry-storefront.md) セクションには、顧客の現在のギフトレジストリと関連するイベントが一覧表示されます。
 
 
 ### [!UICONTROL Store Credit]
 
 {{ee-feature}}
 
-[ ストアクレジット ](../customers/store-credit.md) タブには、顧客アカウントに復元された金額が表示されます。管理者はこの値を管理できます。
+[&#x200B; ストアクレジット &#x200B;](../customers/store-credit.md) タブには、顧客アカウントに復元された金額が表示されます。管理者はこの値を管理できます。
 
 ### [!UICONTROL Newsletter]
 
-「[ ニュースレター ](../merchandising-promotions/newsletters.md)」タブには、現在の顧客に送信されたすべてのメールが表示されます。
+「[&#x200B; ニュースレター &#x200B;](../merchandising-promotions/newsletters.md)」タブには、現在の顧客に送信されたすべてのメールが表示されます。
 
 ### [!UICONTROL Billing Agreements]
 
-[ 請求契約 ](../stores-purchase/paypal-billing-agreements.md) タブには、ストアとお客様の間のすべての PayPal 請求契約が一覧表示されます。
+[&#x200B; 請求契約 &#x200B;](../stores-purchase/paypal-billing-agreements.md) タブには、ストアとお客様の間のすべての PayPal 請求契約が一覧表示されます。
 
 ### [!UICONTROL Product Reviews]
 
-[ 製品レビュー ](../catalog/settings-advanced-product-reviews.md) タブには、この顧客が送信したすべてのレビューが表示されます。
+[&#x200B; 製品レビュー &#x200B;](../catalog/settings-advanced-product-reviews.md) タブには、この顧客が送信したすべてのレビューが表示されます。
 
 ### [!UICONTROL Reward Points]
 
 {{ee-feature}}
 
-[ 報酬ポイント ](../merchandising-promotions/rewards-loyalty.md) セクションには、顧客の現在の報酬ポイント残高が表示されます。 管理者ユーザーはこの値を管理できます。
+[&#x200B; 報酬ポイント &#x200B;](../merchandising-promotions/rewards-loyalty.md) セクションには、顧客の現在の報酬ポイント残高が表示されます。 管理者ユーザーはこの値を管理できます。
 
 ## ボタンバー
 
@@ -127,7 +127,7 @@ _顧客表示_ タブには、**[!UICONTROL Personal Information]**、**[!UICONT
 | **[!UICONTROL Login as Customer]** | マーチャントが顧客としてログインする機能を許可します。 |
 | **[!UICONTROL Delete Customer]** | 顧客アカウントを削除します。 |
 | **[!UICONTROL Reset]** | 顧客フォーム内の未保存の変更をすべて以前の値にリセットします。 |
-| **[!UICONTROL Create Order]** | 顧客 ID に関連付けられた [ 注文を作成します ](../stores-purchase/customer-account-create-order.md)。 |
+| **[!UICONTROL Create Order]** | 顧客 ID に関連付けられた [&#x200B; 注文を作成します &#x200B;](../stores-purchase/customer-account-create-order.md)。 |
 | **[!UICONTROL Reset Password]** | 顧客のパスワードをリセットします。 |
 | **[!UICONTROL Force Sign-In]** | 顧客のパスワードに関連付けられたトークンをクリアし、管理者にアカウントへのアクセスを提供します。 |
 | **[!UICONTROL Manage Shopping Cart]** | 顧客の買い物かごへのアクセスを提供します。 |

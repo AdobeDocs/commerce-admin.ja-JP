@@ -15,23 +15,23 @@ ht-degree: 0%
 
 メディアストレージを使用すると、サーバーに保存されているメディアファイルを整理し、アクセスできます。 ファイルの場所へのパスは、[base URL](../stores-purchase/store-urls.md) 設定によって決定されます。 メディアストレージ内のファイルは、ページや静的ブロックの作業中にエディターからアクセスできます。 通常、メディアストレージは、[!DNL Commerce] プログラムファイルと同じサーバー上のファイルシステムに存在します。
 
-また、メディアファイルは、[ データベース ](media-storage-database.md) で管理することも、別のサーバーまたは [ コンテンツ配信ネットワーク ](media-storage-content-delivery-network.md) で管理することもできます。 代替ストレージを使用する利点は、メディアの同期に必要な労力を最小限に抑えることです。 同じ画像、CSS ファイル、その他のメディアファイルへのアクセスが必要な異なるサーバーにシステムの複数のインスタンスがデプロイされている場合、同期のパフォーマンスは特に影響を受けます。
+また、メディアファイルは、[&#x200B; データベース &#x200B;](media-storage-database.md) で管理することも、別のサーバーまたは [&#x200B; コンテンツ配信ネットワーク &#x200B;](media-storage-content-delivery-network.md) で管理することもできます。 代替ストレージを使用する利点は、メディアの同期に必要な労力を最小限に抑えることです。 同じ画像、CSS ファイル、その他のメディアファイルへのアクセスが必要な異なるサーバーにシステムの複数のインスタンスがデプロイされている場合、同期のパフォーマンスは特に影響を受けます。
 
 カテゴリまたは製品の説明のカタログコンテンツに、静的 URL または [Dynamic Media URL](../catalog/catalog-urls.md#configure-catalog-media-url-format) を使用するようにエディターを設定できます。
 
-![[!DNL Commerce] Media ストレージ ](./assets/media-storage.png){width="650" zoomable="yes"}
+![[!DNL Commerce] Media ストレージ &#x200B;](./assets/media-storage.png){width="650" zoomable="yes"}
 
 ## メディアストレージへのファイルの追加
 
 最初の 2 つの手順は、画像を挿入する場合と同じです。
 
-1. [ エディター ](editor.md) ツールバーで _画像を挿入_ アイコンをクリックします。
+1. [&#x200B; エディター &#x200B;](editor.md) ツールバーで _画像を挿入_ アイコンをクリックします。
 
-   ![ 画像を挿入アイコン ](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
+   ![&#x200B; 画像を挿入アイコン &#x200B;](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
    この操作を実行すると、_[!UICONTROL Insert/edit image]_&#x200B;ダイアログが開きます。
 
-1. _[!UICONTROL Source]_&#x200B;の後、_ 検索 _アイコン（![ 検索アイコン ](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）をクリックします。
+1. _[!UICONTROL Source]_&#x200B;の後、_ 検索 _アイコン（![&#x200B; 検索アイコン &#x200B;](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）をクリックします。
 
 1. 左側のディレクトリツリーで、次のいずれかの操作を行います。
 
@@ -55,11 +55,11 @@ ht-degree: 0%
 
    - 「**[!UICONTROL Search Adobe Stock]**」をクリックします。
 
-   - Adobe Stockからプレビュー画像またはライセンス済み画像を追加します（[Adobe Stock画像の使用 ](adobe-stock-manage.md) を参照）。
+   - Adobe Stockからプレビュー画像またはライセンス済み画像を追加します（[Adobe Stock画像の使用 &#x200B;](adobe-stock-manage.md) を参照）。
 
 画像は、サーバー上の現在のメディアストレージフォルダーにアップロードされます。
 
-![[!DNL Commerce] Media ストレージ ](./assets/media-storage.png){width="650" zoomable="yes"}
+![[!DNL Commerce] Media ストレージ &#x200B;](./assets/media-storage.png){width="650" zoomable="yes"}
 
 ## メディアストレージからの画像の挿入
 
@@ -67,11 +67,11 @@ ht-degree: 0%
 
 ### 方法 1:WYSIWYG モード
 
-1. [ エディター ](editor.md) ツールバーで _画像を挿入_ アイコンをクリックします。
+1. [&#x200B; エディター &#x200B;](editor.md) ツールバーで _画像を挿入_ アイコンをクリックします。
 
-1. _[!UICONTROL Source]_&#x200B;の後、_ 検索 _アイコン（![ 検索アイコン ](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）をクリックします。
+1. _[!UICONTROL Source]_&#x200B;の後、_ 検索 _アイコン（![&#x200B; 検索アイコン &#x200B;](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）をクリックします。
 
-   ![ 検索アイコンの選択 ](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
+   ![&#x200B; 検索アイコンの選択 &#x200B;](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 
 1. 左側のディレクトリツリーで、画像が格納されているフォルダーに移動します。
 
@@ -83,4 +83,4 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Insert Image]**」をクリックします。
 
-   ![ 画像を挿入（HTMLモード） ](./assets/editor-html-mode-insert-image.png){width="600" zoomable="yes"}
+   ![&#x200B; 画像を挿入（HTMLモード） &#x200B;](./assets/editor-html-mode-insert-image.png){width="600" zoomable="yes"}

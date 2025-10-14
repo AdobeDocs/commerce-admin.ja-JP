@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->「_[!UICONTROL Archive]_」オプションは [&#128279;](sales-menu.md) アーカイブが [ 有効 ](../configuration-reference/sales/sales.md) の場合にのみ [!UICONTROL Sales] メニューに表示されます。
+>「_[!UICONTROL Archive]_」オプションは [&#128279;](sales-menu.md) アーカイブが [&#x200B; 有効 &#x200B;](../configuration-reference/sales/sales.md) の場合にのみ [!UICONTROL Sales] メニューに表示されます。
 
 ## 注文アーカイブの設定
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」セクションを展開し、その下 **[!UICONTROL Sales]** 選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Orders, Invoices, Shipments, Credit Memos Archiving]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Orders, Invoices, Shipments, Credit Memos Archiving]**」セクションを展開します。
 
-   ![ 受注、請求書、出荷、クレジット・メモ・アーカイブの構成設定 ](../configuration-reference/sales/assets/sales-orders-invoices-shipments-credit-memos-archiving.png){width="600" zoomable="yes"}
+   ![&#x200B; 受注、請求書、出荷、クレジット・メモ・アーカイブの構成設定 &#x200B;](../configuration-reference/sales/assets/sales-orders-invoices-shipments-credit-memos-archiving.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Enable Archiving]** を `Yes` に設定します。
 
@@ -121,11 +121,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Actions]** コントロールを `Move to Archive` に設定して、注文がアーカイブされたメッセージを探します。
 
-   ![ 選択したオーダーのアーカイブ ](./assets/order-move-to-archive.png){width="700" zoomable="yes"} への移動
+   ![&#x200B; 選択したオーダーのアーカイブ &#x200B;](./assets/order-move-to-archive.png){width="700" zoomable="yes"} への移動
 
 >[!TIP]
 >
->アーカイブ可能な注文ステータスのリストを指定するには、[ 注文アーカイブの設定 ](#configure-the-order-archive) を参照してください。
+>アーカイブ可能な注文ステータスのリストを指定するには、[&#x200B; 注文アーカイブの設定 &#x200B;](#configure-the-order-archive) を参照してください。
 
 ## アーカイブした注文の表示
 
@@ -141,13 +141,13 @@ ht-degree: 0%
 
 1. _アクション_ 列の「**[!UICONTROL View]**」をクリックします。
 
-   ![ アーカイブ済み注文の表示 ](./assets/order-archived-view.png){width="600" zoomable="yes"}
+   ![&#x200B; アーカイブ済み注文の表示 &#x200B;](./assets/order-archived-view.png){width="600" zoomable="yes"}
 
 ## アーカイブした注文の復元
 
 >[!NOTE]
 >
->アーカイブされた注文から復元された注文は、注文設定で設定された日数に従って再びアーカイブされます（[ 注文のアーカイブの設定 ](#configure-the-order-archive) を参 [!UICONTROL Archive Orders Purchased]）。 日数は、オーダーの [!UICONTROL Updated At] 定日に対して計算されます。この日付は、オーダーがアーカイブから移動される際に変更されます。
+>アーカイブされた注文から復元された注文は、注文設定で設定された日数に従って再びアーカイブされます（[&#x200B; 注文のアーカイブの設定 &#x200B;](#configure-the-order-archive) を参 [!UICONTROL Archive Orders Purchased]）。 日数は、オーダーの [!UICONTROL Updated At] 定日に対して計算されます。この日付は、オーダーがアーカイブから移動される際に変更されます。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**&#x200B;に移動します。
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 1. 復元するレコードを見つけ、チェックボックスをクリックして選択します。
 
-   ![ 復元する順序を選択 ](./assets/order-archived-select-to-restore.png){width="600" zoomable="yes"}
+   ![&#x200B; 復元する順序を選択 &#x200B;](./assets/order-archived-select-to-restore.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Actions]** コントロールの値を `Move to Order Management` に設定します。
 

@@ -25,11 +25,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ルールで使用する各属性を、必ず [_スマート_ 属性 ](smart-attributes-configure.md) として設定してください。
+>ルールで使用する各属性を、必ず [_スマート_ 属性 &#x200B;](smart-attributes-configure.md) として設定してください。
 
-![ カテゴリ製品ルール ](../catalog/assets/category-product-rule-with-stock.png){width="600" zoomable="yes"}
+![&#x200B; カテゴリ製品ルール &#x200B;](../catalog/assets/category-product-rule-with-stock.png){width="600" zoomable="yes"}
 
-カテゴリ製品ルールを使用すると、カテゴリに表示される製品を決定する条件に基づいて、特定の製品をカテゴリに割り当てるプロセスを高速化できます。 カテゴリ製品ルールで使用できる「スマート」属性は、[ ビジュアルマーチャンダイザー ](visual-merchandiser.md) 設定で指定します。
+カテゴリ製品ルールを使用すると、カテゴリに表示される製品を決定する条件に基づいて、特定の製品をカテゴリに割り当てるプロセスを高速化できます。 カテゴリ製品ルールで使用できる「スマート」属性は、[&#x200B; ビジュアルマーチャンダイザー &#x200B;](visual-merchandiser.md) 設定で指定します。
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 1. 照合する **[!UICONTROL Value]** を入力します。
 
-   ![ カテゴリルールへの条件の追加 ](../catalog/assets/category-rule-create.png){width="500"}
+   ![&#x200B; カテゴリルールへの条件の追加 &#x200B;](../catalog/assets/category-rule-create.png){width="500"}
 
 1. 満たす条件を記述するために必要な各属性に対して、このプロセスを繰り返します。
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 1. 動的に生成される製品リストに並べ替え順を自動的に適用するには、**[!UICONTROL Automatic Sorting]** を設定します。
 
-   ![ 自動並べ替え ](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
+   ![&#x200B; 自動並べ替え &#x200B;](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
 
    並べ替え順のオプションはグローバルに定義され、現在の条件に基づいて適用されます。 Web サイト、ストア、またはストア表示レベルに異なる並べ替え順を設定することはできません。
 
@@ -144,4 +144,4 @@ ht-degree: 0%
 
 - **[!UICONTROL Value]** – 属性が条件を満たす必要がある値を指定します。
 
-- **[!UICONTROL Logic]** - ロジック列は、複数の条件の定義に使用され、別の条件が追加された場合にのみ表示されます。 演算子は、MySQL の優先順位のルールに従います [ ブール演算子 ](https://dev.mysql.com/doc/refman/8.0/en/operator-precedence.html)。 オプション：`AND` / `OR`
+- **[!UICONTROL Logic]** - ロジック列は、複数の条件の定義に使用され、別の条件が追加された場合にのみ表示されます。 演算子は、MySQL の優先順位のルールに従います [&#x200B; ブール演算子 &#x200B;](https://dev.mysql.com/doc/refman/8.0/en/operator-precedence.html)。 オプション：`AND` / `OR`

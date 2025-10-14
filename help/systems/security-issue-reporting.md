@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. _[!UICONTROL General]_&#x200B;セクションで、**[!UICONTROL Enable]**&#x200B;を `Yes` に設定します。
 
-   ![ 一般的なセキュリティ設定 ](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
+   ![&#x200B; 一般的なセキュリティ設定 &#x200B;](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 
 1. _[!UICONTROL Contact Information]_&#x200B;の下に、次の情報を入力します。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    - ストアの **[!UICONTROL Contact Page]** の URL。 このページは、店舗のセキュリティ担当者のリストまたは _お問い合わせ_ ページのいずれかです。
 
-   ![ 連絡先情報の設定 ](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
+   ![&#x200B; 連絡先情報の設定 &#x200B;](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
 
 1. _[!UICONTROL Other Information]_&#x200B;の下に、次の情報を入力します。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    - ストアに代わってセキュリティ研究者の活動が認められる **[!UICONTROL Acknowledgments]** ページの URL。
 
-   - セキュリティ関連の通信に対する **[!UICONTROL Preferred Languages]** ール。 サポートされている各言語に対して、標準の 2 文字 [ 言語コード ](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) をコンマで区切って入力します。 例えば、英語、スペイン語、フランス語を指定するには、「`en, es, fr`」と入力します。 指定した言語は、表示順序に関係なく、すべて同じ優先度になります。
+   - セキュリティ関連の通信に対する **[!UICONTROL Preferred Languages]** ール。 サポートされている各言語に対して、標準の 2 文字 [&#x200B; 言語コード &#x200B;](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) をコンマで区切って入力します。 例えば、英語、スペイン語、フランス語を指定するには、「`en, es, fr`」と入力します。 指定した言語は、表示順序に関係なく、すべて同じ優先度になります。
 
    - ストアでのセキュリティ関連の雇用機会を一覧表示する **[!UICONTROL Hiring]** ページの URL。
 
@@ -50,6 +50,6 @@ ht-degree: 0%
 
    デジタル署名は、サーバの CLI （コマンドライン インターフェイス）から設定する必要があります。 詳しくは、GitHub の [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) を参照してください。
 
-   ![ その他の情報 ](../configuration-reference/security/assets/txt-other-info.png){width="600" zoomable="yes"}
+   ![&#x200B; その他の情報 &#x200B;](../configuration-reference/security/assets/txt-other-info.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

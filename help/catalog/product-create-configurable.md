@@ -14,15 +14,15 @@ ht-degree: 0%
 
 設定可能な製品は、各バリエーションのドロップダウンリストを持つ単一の製品のように見えます。 リストの各項目は、実際には一意の SKU を持つ個別のシンプルな製品なので、製品バリエーションごとに在庫を追跡できます。 カスタムオプションを備えた単純な製品を使用すれば、同様の効果を得ることができますが、各バリエーションの在庫を追跡する機能はありません。
 
-以下の手順では、[ 製品テンプレート ](attribute-sets.md)、必須フィールド、基本設定を使用して設定可能な製品を作成するプロセスを示します。 各必須フィールドには、赤いアスタリスク（`*`）が付いています。 基本を完了したら、必要に応じて他の製品設定を完了できます。
+以下の手順では、[&#x200B; 製品テンプレート &#x200B;](attribute-sets.md)、必須フィールド、基本設定を使用して設定可能な製品を作成するプロセスを示します。 各必須フィールドには、赤いアスタリスク（`*`）が付いています。 基本を完了したら、必要に応じて他の製品設定を完了できます。
 
-![ 設定可能な製品 ](./assets/product-configurable.png){width="700" zoomable="yes"}
+![&#x200B; 設定可能な製品 &#x200B;](./assets/product-configurable.png){width="700" zoomable="yes"}
 
 ## パート 1：設定可能なプロダクトの作成
 
 設定可能な製品では、より多くの SKU を使用し、最初は設定に少し時間がかかる場合がありますが、最終的には時間を節約できます。 ビジネスの成長を計画している場合、複数のオプションを持つ製品には、設定可能な製品タイプが適しています。
 
-開始する前に、各製品バリエーションで許可される入力タイプの 1 つに設定される属性を含む [ 属性セット ](attribute-sets.md) を準備します。 例えば、属性セットには、カラーとサイズのドロップダウン属性が含まれる場合があります。
+開始する前に、各製品バリエーションで許可される入力タイプの 1 つに設定される属性を含む [&#x200B; 属性セット &#x200B;](attribute-sets.md) を準備します。 例えば、属性セットには、カラーとサイズのドロップダウン属性が含まれる場合があります。
 
 設定可能な製品バリエーションに使用される各属性のプロパティには、次の設定が必要です。
 
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
-1. 右上隅の _[!UICONTROL Add Product]_（メニュー矢印 ![ メニューで ](../assets/icon-menu-down-arrow-red.png){width="25"} 「**[!UICONTROL Configurable Product]**」を選択します。
+1. 右上隅の _[!UICONTROL Add Product]_（メニュー矢印 ![&#x200B; メニューで &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"} 「**[!UICONTROL Configurable Product]**」を選択します。
 
-   ![ 設定可能な製品を追加 ](./assets/product-add-configurable.png){width="700" zoomable="yes"}
+   ![&#x200B; 設定可能な製品を追加 &#x200B;](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
 ### 手順 2：属性セットの選択
 
-[ 属性セット ](attribute-sets.md) は、製品で使用されるフィールドの選択を決定します。 次の例で使用する属性セットには、カラーとサイズの属性があります。 属性セットの名前はページの上部に示され、最初は `Default` に設定されます。
+[&#x200B; 属性セット &#x200B;](attribute-sets.md) は、製品で使用されるフィールドの選択を決定します。 次の例で使用する属性セットには、カラーとサイズの属性があります。 属性セットの名前はページの上部に示され、最初は `Default` に設定されます。
 
 1. 製品の属性セットを選択するには、ページ上部のフィールドをクリックし、次のいずれかの操作を行います。
 
@@ -55,9 +55,9 @@ ht-degree: 0%
 
    フォームが更新され、変更が反映されます。
 
-1. 属性セットに別の属性を追加する場合は、「**[!UICONTROL Add Attribute]**」をクリックし、[ 属性の追加 ](product-attributes-add.md) の指示に従います。
+1. 属性セットに別の属性を追加する場合は、「**[!UICONTROL Add Attribute]**」をクリックし、[&#x200B; 属性の追加 &#x200B;](product-attributes-add.md) の指示に従います。
 
-   ![ テンプレートを選択 ](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
+   ![&#x200B; テンプレートを選択 &#x200B;](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
 
 ### 手順 3：必要な設定を完了する
 
@@ -71,11 +71,11 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Save]**」をクリックして続行します。
 
-   商品を保存すると、左上隅に [ ストア表示 ](introduction.md#product-scope) 選択が表示されます。
+   商品を保存すると、左上隅に [&#x200B; ストア表示 &#x200B;](introduction.md#product-scope) 選択が表示されます。
 
 1. 製品を使用できる **[!UICONTROL Store View]** を選択します。
 
-   ![ ストア表示の選択 ](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![&#x200B; ストア表示の選択 &#x200B;](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ### 手順 4：基本設定を完了する
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >設定可能な商品の **在庫ステータス** は、**_半手動_** で制御される設定です。 子製品の在庫状況によって部分的に制御されています。 これは、**_在庫ステータスの設定_** の節で説明されている [ 複数条件 ](#configure-the-stock-status) 在庫ステータスの計算の一部です。
+   >設定可能な商品の **在庫ステータス** は、**_半手動_** で制御される設定です。 子製品の在庫状況によって部分的に制御されています。 これは、**_在庫ステータスの設定_** の節で説明されている [&#x200B; 複数条件 &#x200B;](#configure-the-stock-status) 在庫ステータスの計算の一部です。
 
 1. 製品 **[!UICONTROL Weight]** を入力します。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Visibility]** のデフォルトの `Catalog, Search` 設定を受け入れます。
 
-1. [ 新製品 ](../content-design/widget-new-products-list.md) のリストに製品を特集するには、「**[!UICONTROL Set Product as New]**」チェックボックスを選択します。
+1. [&#x200B; 新製品 &#x200B;](../content-design/widget-new-products-list.md) のリストに製品を特集するには、「**[!UICONTROL Set Product as New]**」チェックボックスを選択します。
 
 1. 製品にカテゴリを割り当てるには、**[!UICONTROL Select…]** のボックスをクリックし、次のいずれかの操作を行います。
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
    - 割り当てるカテゴリのチェックボックスを選択します。
 
-   ![ バンドル製品のカテゴリを 1 つ以上選択します ](./assets/product-create-categories.png){width="600" zoomable="yes"}
+   ![&#x200B; バンドル製品のカテゴリを 1 つ以上選択します &#x200B;](./assets/product-create-categories.png){width="600" zoomable="yes"}
 
    **カテゴリを作成する**:
 
@@ -140,13 +140,13 @@ ht-degree: 0%
 
 1. 上から続けて、「_[!UICONTROL Configurations]_」セクションまで下にスクロールし、「**[!UICONTROL Create Configurations]**」をクリックします。
 
-   ![ 設定 ](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
+   ![&#x200B; 設定 &#x200B;](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
 1. 設定として含める各属性のチェックボックスをオンにします。
 
    この例では、`color` と `size` が選択されています。
 
-   ![ 属性を選択 ](./assets/product-create-configurable-step1.png){width="600" zoomable="yes"}
+   ![&#x200B; 属性を選択 &#x200B;](./assets/product-create-configurable-step1.png){width="600" zoomable="yes"}
 
    リストには、設定可能な製品で使用できる、属性セットのすべての属性が含まれています。
 
@@ -164,9 +164,9 @@ ht-degree: 0%
 
 1. 属性ごとに、製品に適用する値のチェックボックスをオンにします。
 
-   ![ 属性値 ](./assets/product-create-configurable-step2.png){width="600" zoomable="yes"}
+   ![&#x200B; 属性値 &#x200B;](./assets/product-create-configurable-step2.png){width="600" zoomable="yes"}
 
-1. 属性を並べ替えるには、_並べ替え_ （![ 並べ替え順序アイコン ](../assets/icon-sort-order.png)） アイコンを選択して、セクションを新しい位置に移動します。
+1. 属性を並べ替えるには、_並べ替え_ （![&#x200B; 並べ替え順序アイコン &#x200B;](../assets/icon-sort-order.png)） アイコンを選択して、セクションを新しい位置に移動します。
 
    この順序によって、製品ページ上のドロップダウンリストの位置が決まります。
 
@@ -186,7 +186,7 @@ ht-degree: 0%
 
 1. 商品ギャラリーに含める各画像を参照するか、ボックスにドラッグします。
 
-![ すべての SKU に同じ画像を使用 ](./assets/product-configurations-images-apply-single-set.png){width="600" zoomable="yes"}
+![&#x200B; すべての SKU に同じ画像を使用 &#x200B;](./assets/product-configurations-images-apply-single-set.png){width="600" zoomable="yes"}
 
 **方法 2:** 各 SKU に一意の画像を適用する
 
@@ -198,9 +198,9 @@ ht-degree: 0%
 
 1. 各属性値について、その設定に使用する画像を参照するか、ボックスにドラッグします。
 
-   画像を値ボックスにドラッグすると、他の値のセクションにも表示されます。 画像を削除する場合は、_ごみ箱_ （![ ごみ箱アイコン ](../assets/icon-delete-trashcan-solid.png)） アイコンをクリックします。
+   画像を値ボックスにドラッグすると、他の値のセクションにも表示されます。 画像を削除する場合は、_ごみ箱_ （![&#x200B; ごみ箱アイコン &#x200B;](../assets/icon-delete-trashcan-solid.png)） アイコンをクリックします。
 
-   ![SKU ごとの一意の画像 ](./assets/product-configurable-create-configurations-add-images-unique.png){width="600" zoomable="yes"}
+   ![SKU ごとの一意の画像 &#x200B;](./assets/product-configurable-create-configurations-add-images-unique.png){width="600" zoomable="yes"}
 
 次のいずれかの方法を使用して **[!UICONTROL prices]** を設定します。
 
@@ -214,7 +214,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Price]** を入力します。
 
-   ![SKU あたりの同一価格 ](./assets/product-configurable-create-configurations-price-all-skus.png){width="600" zoomable="yes"}
+   ![SKU あたりの同一価格 &#x200B;](./assets/product-configurable-create-configurations-price-all-skus.png){width="600" zoomable="yes"}
 
 **方法 2:** SKU ごとに異なる価格を適用する
 
@@ -226,7 +226,7 @@ ht-degree: 0%
 
    この例では、XL サイズの方がコストがかかります。
 
-   ![SKU ごとのユニーク価格 ](./assets/product-configurable-create-configurations-price-unique.png){width="600" zoomable="yes"}
+   ![SKU ごとのユニーク価格 &#x200B;](./assets/product-configurable-create-configurations-price-unique.png){width="600" zoomable="yes"}
 
 次のいずれかの方法を使用して **[!UICONTROL Quantity]** を設定します。
 
@@ -246,7 +246,7 @@ _[Inventory managementを使用するマルチSourceマーチャント](../inven
 
 1. ソースごとの手持在庫金額を入力します。
 
-   ![ すべての SKU に対して単一数量、ソースを割り当て ](./assets/inventory-configure-product-quantity.png){width="600" zoomable="yes"}
+   ![&#x200B; すべての SKU に対して単一数量、ソースを割り当て &#x200B;](./assets/inventory-configure-product-quantity.png){width="600" zoomable="yes"}
 
 **方法 2:** 属性別に異なる数量を適用
 
@@ -258,7 +258,7 @@ _[Inventory managementを使用するマルチSourceマーチャント](../inven
 
 1. それぞれの **[!UICONTROL Quantity]** を入力します。
 
-   ![ 属性ごとに異なる数量 ](./assets/product-configurations-quantity-different.png){width="600" zoomable="yes"}
+   ![&#x200B; 属性ごとに異なる数量 &#x200B;](./assets/product-configurations-quantity-different.png){width="600" zoomable="yes"}
 
 画像、価格、数量の設定が完了したら、右上隅の「**[!UICONTROL Next]**」をクリックします。
 
@@ -270,19 +270,19 @@ _[Inventory managementを使用するマルチSourceマーチャント](../inven
 
 - 修正を行うには、「**[!UICONTROL Back]**」をクリックします。
 
-![ 製品バリエーションを生成する前に概要を確認 ](./assets/product-create-configurable-summary.png){width="600" zoomable="yes"}
+![&#x200B; 製品バリエーションを生成する前に概要を確認 &#x200B;](./assets/product-create-configurable-summary.png){width="600" zoomable="yes"}
 
 現在の製品バリエーションは、「_設定_ セクションの下部に表示されます。
 
-![ 現在の設定 ](./assets/product-create-configurable-generated.png){width="600" zoomable="yes"}
+![&#x200B; 現在の設定 &#x200B;](./assets/product-create-configurable-generated.png){width="600" zoomable="yes"}
 
 ### 手順 5：製品画像の追加
 
-1. 下にスクロールして、「![」セクションの ](../assets/icon-display-expand.png) 展開セレクター _[!UICONTROL Images and Videos]_&#x200B;を展開します。
+1. 下にスクロールして、「![」セクションの &#x200B;](../assets/icon-display-expand.png) 展開セレクター _[!UICONTROL Images and Videos]_&#x200B;を展開します。
 
 1. _カメラ_ タイルをクリックし、設定可能な製品に使用するメイン画像を参照します。
 
-詳しくは、[ 画像とビデオ ](product-images-and-video.md) を参照してください。
+詳しくは、[&#x200B; 画像とビデオ &#x200B;](product-images-and-video.md) を参照してください。
 
 ### 手順 6：製品情報の入力
 
@@ -310,15 +310,15 @@ _[Inventory managementを使用するマルチSourceマーチャント](../inven
 
       - 右上隅の「**[!UICONTROL Save]**」をクリックします。
 
-      - ストアで製品を表示するには、**[!UICONTROL Customer View]** 管理者 _（_ メニュー矢印 ![） メニューの ](../assets/icon-menu-down-arrow-black.png) を選択します。
+      - ストアで製品を表示するには、**[!UICONTROL Customer View]** 管理者 _（_ メニュー矢印 ![） メニューの &#x200B;](../assets/icon-menu-down-arrow-black.png) を選択します。
 
      ストアが新しいブラウザータブで開きます。
 
-     ![ 顧客ビュー ](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
+     ![&#x200B; 顧客ビュー &#x200B;](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
    - **メソッド 2:** 保存して閉じる
 
-     _[!UICONTROL Save]_（メニュー矢印 ![ メニューで ](../assets/icon-menu-down-arrow-red.png){width="25"} 「**[!UICONTROL Save & Close]**」を選択します。
+     _[!UICONTROL Save]_（メニュー矢印 ![&#x200B; メニューで &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"} 「**[!UICONTROL Save & Close]**」を選択します。
 
 ### 手順 8：買い物かごのサムネールの設定
 
@@ -328,13 +328,13 @@ _[Inventory managementを使用するマルチSourceマーチャント](../inven
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、その下の「**[!UICONTROL Checkout]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「_[!UICONTROL Shopping Cart]_」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「_[!UICONTROL Shopping Cart]_」セクションを展開します。
 
 1. **[!UICONTROL Configurable Product Image]** を `Product Thumbnail Itself` に設定します。
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
-   ![ 買い物かご – 設定可能な製品画像 ](./assets/config-checkout-configurable-product.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かご – 設定可能な製品画像 &#x200B;](./assets/config-checkout-configurable-product.png){width="600" zoomable="yes"}
 
 ## 在庫ステータスの設定
 
@@ -374,7 +374,7 @@ _[Inventory managementを使用するマルチSourceマーチャント](../inven
 
 - 設定可能な製品を使用すると、買い物客は、ドロップダウン、複数選択、ビジュアルスウォッチ、テキストスウォッチの入力タイプからオプションを選択できます。 各オプションは個別のシンプルな製品です。
 
-- 設定可能な商品の [ 在庫ステータス ](../inventory-management/sources-stocks.md) は、半手動で制御される設定です。 これは、単純な製品の在庫ステータスとは異なります。単純な製品の在庫ステータスは、製品の可用性を直接表します。 設定可能なプロダクトの場合、ストックステータスは複数基準のストックステータス計算の一部になります。
+- 設定可能な商品の [&#x200B; 在庫ステータス &#x200B;](../inventory-management/sources-stocks.md) は、半手動で制御される設定です。 これは、単純な製品の在庫ステータスとは異なります。単純な製品の在庫ステータスは、製品の可用性を直接表します。 設定可能なプロダクトの場合、ストックステータスは複数基準のストックステータス計算の一部になります。
 
 - 設定可能な子製品は、単純な製品でも仮想製品でも構いません **カスタムオプションはありません**。 カスタムの子製品をバーチャルにするには、それぞれの `Тhis item has no weight` 設定に **[!UICONTROL Weight]** を選択する必要があります。
 
@@ -388,6 +388,6 @@ _[Inventory managementを使用するマルチSourceマーチャント](../inven
 
 - 買い物かご内のサムネール画像は、設定可能な商品レコードまたは商品バリエーションから画像を表示するように設定できます。
 
-- [ スウォッチ属性 ](swatches.md#create-swatches-for-products) は、管理者の属性編集ページで **[!UICONTROL Update Product Preview Image]** オプションの値を `No` に設定することで、スウォッチが選択されたときに対応するシンプルな製品画像を表示しないように設定できます。
+- [&#x200B; スウォッチ属性 &#x200B;](swatches.md#create-swatches-for-products) は、管理者の属性編集ページで **[!UICONTROL Update Product Preview Image]** オプションの値を `No` に設定することで、スウォッチが選択されたときに対応するシンプルな製品画像を表示しないように設定できます。
 
 - テーマは、ユーザーが製品設定を切り替える際の画像ギャラリーの動作を制御します。 _空白_ テーマのデフォルト動作は、設定可能な親の製品画像を、選択した製品バリエーションで上書きすることです。 Luma テーマの場合、デフォルトの動作では、選択した製品バリエーション画像を親の設定可能な製品画像の前に追加します。

@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # 共有カタログの作成
 
-[ 共有カタログ ](catalog-shared.md) を作成すると、同じ名前の [ 顧客グループ ](account-company-customer-group.md) が自動的に作成されます。 たとえば、「_ABC カタログ_」という共有カタログを作成すると、対応する _ABC カタログ_ 顧客グループも作成されます。 共有カスタムカタログに会社を割り当てる手順は、基本的に顧客グループに会社を割り当てる手順と同じです。
+[&#x200B; 共有カタログ &#x200B;](catalog-shared.md) を作成すると、同じ名前の [&#x200B; 顧客グループ &#x200B;](account-company-customer-group.md) が自動的に作成されます。 たとえば、「_ABC カタログ_」という共有カタログを作成すると、対応する _ABC カタログ_ 顧客グループも作成されます。 共有カスタムカタログに会社を割り当てる手順は、基本的に顧客グループに会社を割り当てる手順と同じです。
 
 新しい共有カタログには、製品、カスタム価格、会社の関連付けは含まれません。 公開カタログは、共有カタログが有効な場合に作成されるデフォルトの共有カタログであり、自動的にゲストと、会社に関連付けられていない顧客に割り当てられます。
 
-![ 共有カタログ ](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
+![&#x200B; 共有カタログ &#x200B;](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
 
 共有カタログを使用するには、次の点を設定する必要があります。
 
@@ -28,19 +28,19 @@ ht-degree: 0%
 
 ## 価格範囲
 
-マルチサイトをインストールしている場合は、共有カタログを作成する前に必ず価格範囲を設定してください。 [ 価格範囲 ](../catalog/catalog-price-scope.md) は、`Global` または `Website` に設定できます。 ただし、設定プロセスの最初にのみ設定できます。 Web サイト選択は、[ 共有カタログの設定 ](catalog-shared-pricing-structure.md) の手順 2 で表示されます。
+マルチサイトをインストールしている場合は、共有カタログを作成する前に必ず価格範囲を設定してください。 [&#x200B; 価格範囲 &#x200B;](../catalog/catalog-price-scope.md) は、`Global` または `Website` に設定できます。 ただし、設定プロセスの最初にのみ設定できます。 Web サイト選択は、[&#x200B; 共有カタログの設定 &#x200B;](catalog-shared-pricing-structure.md) の手順 2 で表示されます。
 
-![Web サイト選択 ](./assets/shared-catalog-scope-pricing.png){width="600" zoomable="yes"}
+![Web サイト選択 &#x200B;](./assets/shared-catalog-scope-pricing.png){width="600" zoomable="yes"}
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**カタログ**」を展開し、その下にある「**カタログ**」を選択します。
 
-1. ![ 拡張セレクター ](../assets/icon-display-expand.png) 「**価格**」セクションを展開します。
+1. ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) 「**価格**」セクションを展開します。
 
 1. **カタログの価格範囲** を `Website` に設定します。
 
-   ![ カタログ価格の範囲 ](../configuration-reference/catalog/assets/catalog-price.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ価格の範囲 &#x200B;](../configuration-reference/catalog/assets/catalog-price.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save Config]**」をクリックします。
 
@@ -62,11 +62,11 @@ ht-degree: 0%
 
    - 共有カタログから行われた購入に適用される適切な **[!UICONTROL Customer Tax Class]** を選択します。
 
-     税金区分の設定と定義の詳細は、「[ 税金区分 ](../stores-purchase/tax-class.md)」を参照してください。
+     税金区分の設定と定義の詳細は、「[&#x200B; 税金区分 &#x200B;](../stores-purchase/tax-class.md)」を参照してください。
 
      次の例は、特定の卸売顧客の新しいカスタムカタログを示しています。
 
-     ![ 新規共有カタログ ](./assets/shared-catalog-new.png){width="600" zoomable="yes"}
+     ![&#x200B; 新規共有カタログ &#x200B;](./assets/shared-catalog-new.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Description]** を入力
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 1. ページ上部のオプションで、「**[!UICONTROL Duplicate]**」をクリックします。
 
-   ![ 共有カタログを複製 ](./assets/shared-catalog-duplicate.png){width="600" zoomable="yes"}
+   ![&#x200B; 共有カタログを複製 &#x200B;](./assets/shared-catalog-duplicate.png){width="600" zoomable="yes"}
 
 1. 新しいカタログに対して次のフィールドを更新します。
 
@@ -101,11 +101,11 @@ ht-degree: 0%
 
 ## 手順 2：設定の完了
 
-新しい共有カタログを作成したら、適切な製品選択、[ 会社の割り当て ](catalog-shared-assign-companies.md) および [ カテゴリ権限 ](../catalog/category-permissions.md) を設定する必要があります。 続行するには、[ 価格と構造の設定 ](catalog-shared-pricing-structure.md) を参照してください。
+新しい共有カタログを作成したら、適切な製品選択、[&#x200B; 会社の割り当て &#x200B;](catalog-shared-assign-companies.md) および [&#x200B; カテゴリ権限 &#x200B;](../catalog/category-permissions.md) を設定する必要があります。 続行するには、[&#x200B; 価格と構造の設定 &#x200B;](catalog-shared-pricing-structure.md) を参照してください。
 
 >[!NOTE]
 >
->**[B2B リリース 1.3.0](release-notes.md#b2b-v130) 以降** – 共有カタログを作成すると、カタログの各 [ カテゴリ権限 ](../catalog/category-permissions.md) は _[!UICONTROL Allow for the Display Product Prices]_&#x200B;に設定され、カタログ権限設定でこのアクセス権が割り当てられた顧客グループの&#x200B;_[!UICONTROL Add to Cart]_ に設定されます。 以前は、カタログ権限が `Deny` に設定されている場合でも、これらの設定は自動的に `Allow` に設定されていました。
+>**[B2B リリース 1.3.0](release-notes.md#b2b-v130) 以降** – 共有カタログを作成すると、カタログの各 [&#x200B; カテゴリ権限 &#x200B;](../catalog/category-permissions.md) は _[!UICONTROL Allow for the Display Product Prices]_&#x200B;に設定され、カタログ権限設定でこのアクセス権が割り当てられた顧客グループの&#x200B;_[!UICONTROL Add to Cart]_ に設定されます。 以前は、カタログ権限が `Deny` に設定されている場合でも、これらの設定は自動的に `Allow` に設定されていました。
 
 ## 共有カタログのデモ
 

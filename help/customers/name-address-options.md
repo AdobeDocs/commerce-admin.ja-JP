@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 顧客名および住所のオプション
 
-_名前と住所のオプション_ は、顧客がストアで [ アカウント ](../customers/account-create.md) を作成する際に、名前と住所のフォームに含まれるフィールドを決定します。
+_名前と住所のオプション_ は、顧客がストアで [&#x200B; アカウント &#x200B;](../customers/account-create.md) を作成する際に、名前と住所のフォームに含まれるフィールドを決定します。
 
-![ 顧客アカウントの新規登録フォーム ](assets/storefront-customer-account-address-book.png){width="500" zoomable="yes"}
+![&#x200B; 顧客アカウントの新規登録フォーム &#x200B;](assets/storefront-customer-account-address-book.png){width="500" zoomable="yes"}
 
 名前とアドレスのオプションを設定する手順は、Adobe CommerceとMagento Open Sourceでは異なります。
 
@@ -43,7 +43,7 @@ _名前と住所のオプション_ は、顧客がストアで [ アカウン�
    >
    >範囲が `Default Store View` に設定されている場合、_[!UICONTROL Name and Address Options]_&#x200B;セクションは表示されません。
 
-   ![ 構成スコープ ](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
+   ![&#x200B; 構成スコープ &#x200B;](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 
 ### 手順 2：名前とアドレスのオプションを設定する
 
@@ -53,7 +53,7 @@ _名前と住所のオプション_ は、顧客がストアで [ アカウン�
    >
    > `Default config` 範囲設定を使用しない場合は、値を変更する前に、各フィールドの「`Use Default`」チェックボックスをオフにする必要があります。
 
-   ![ 名前と住所のオプション ](../configuration-reference/customers/assets/customer-configuration-name-address-options-ee.png){width="600" zoomable="yes"}
+   ![&#x200B; 名前と住所のオプション &#x200B;](../configuration-reference/customers/assets/customer-configuration-name-address-options-ee.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Prefix Dropdown Options]**: リストに表示するプレフィックスをセミコロンで区切って入力します。
 
@@ -73,13 +73,13 @@ _名前と住所のオプション_ は、顧客がストアで [ アカウン�
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
-1. ページ上部のメッセージで、「**[!UICONTROL Cache Management]**」をクリックし、無効な各キャッシュを [ 更新 ](../systems/cache-management.md) します。
+1. ページ上部のメッセージで、「**[!UICONTROL Cache Management]**」をクリックし、無効な各キャッシュを [&#x200B; 更新 &#x200B;](../systems/cache-management.md) します。
 
 ## Magento Open Sourceの名前とアドレスのオプションを設定
 
 アカウントの作成時にストアフロントで顧客に提示する名前および住所のオプションを設定します。
 
-![ 顧客アカウントの新規登録フォーム ](assets/storefront-customer-account-signup.png){width="500" zoomable="yes"}
+![&#x200B; 顧客アカウントの新規登録フォーム &#x200B;](assets/storefront-customer-account-signup.png){width="500" zoomable="yes"}
 
 ### 手順 1：設定の範囲を設定する
 
@@ -93,7 +93,7 @@ _名前と住所のオプション_ は、顧客がストアで [ アカウン�
    >
    > name オプションと address オプションの範囲は、`website` レベルで適用されることに注意してください。
 
-   ![ 名前と住所のオプション ](../configuration-reference/customers/assets/customer-configuration-name-address-options-ce.png){width="600" zoomable="yes"}
+   ![&#x200B; 名前と住所のオプション &#x200B;](../configuration-reference/customers/assets/customer-configuration-name-address-options-ce.png){width="600" zoomable="yes"}
 
 1. ページの上部までスクロールして戻り、設定の範囲を次のいずれかに設定します。
 
@@ -104,7 +104,7 @@ _名前と住所のオプション_ は、顧客がストアで [ アカウン�
    >
    >範囲が `Default Store View` に設定されている場合、[_名前とアドレスのオプション_] セクションは表示されません。
 
-   ![ 構成スコープ ](assets/configuration-scope.png){width="600" zoomable="yes"}
+   ![&#x200B; 構成スコープ &#x200B;](assets/configuration-scope.png){width="600" zoomable="yes"}
 
 ### 手順 2：名前とアドレスのオプションを設定する
 
@@ -122,7 +122,7 @@ _名前と住所のオプション_ は、顧客がストアで [ アカウン�
 
 1. 名前の一部にプレフィックス（Mr や Ms など）を含めるには、**プレフィックスを表示** を `Yes` に設定します。
 
-   ![ 顧客登録フォームのプレフィックス ](assets/storefront-customer-account-prefix.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客登録フォームのプレフィックス &#x200B;](assets/storefront-customer-account-prefix.png){width="600" zoomable="yes"}
 
    >[!INFO]
    >
@@ -150,7 +150,7 @@ _名前と住所のオプション_ は、顧客がストアで [ アカウン�
 
    顧客はフィールドの後にカレンダーアイコンを使用して、ポップアップカレンダーから生年月日を選択できます。
 
-   ![ お客様のサインアップ フォームの生年月日 ](assets/storefront-customer-account-date-of-birth.png){width="600" zoomable="yes"}
+   ![&#x200B; お客様のサインアップ フォームの生年月日 &#x200B;](assets/storefront-customer-account-date-of-birth.png){width="600" zoomable="yes"}
 
 1. 顧客が税金または [VAT](../stores-purchase/vat.md) 番号を入力できるようにするには、**[!UICONTROL Show Tax/VAT Number]** を次のいずれかに設定します。
 
@@ -162,7 +162,7 @@ _名前と住所のオプション_ は、顧客がストアで [ アカウン�
    - `Optional`
    - `Required`
 
-   ![ カスタマー登録フォームの性別オプション ](assets/storefront-customer-account-gender.png){width="600" zoomable="yes"}
+   ![&#x200B; カスタマー登録フォームの性別オプション &#x200B;](assets/storefront-customer-account-gender.png){width="600" zoomable="yes"}
 
 1. カスタマーフォームで以下のフィールドを含めるには、それぞれの値を、必要に応じて `Optional` または `Required` に設定します。
 
@@ -174,4 +174,4 @@ _名前と住所のオプション_ は、顧客がストアで [ アカウン�
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
-1. ページ上部のメッセージで、「**[!UICONTROL Cache Management]**」をクリックし、無効な各キャッシュを [ 更新 ](../systems/cache-management.md) します。
+1. ページ上部のメッセージで、「**[!UICONTROL Cache Management]**」をクリックし、無効な各キャッシュを [&#x200B; 更新 &#x200B;](../systems/cache-management.md) します。

@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # ページの追加と削除
 
-コンテンツページをストアに追加するプロセスは、作成する可能性のあるすべてのタイプのページで基本的に同じです。 テキスト、画像、コンテンツブロック、変数およびウィジェットを含めることができます。 ほとんどのコンテンツページは、最初は検索エンジンで、2 番目は人物で読むように設計されています。 ページタイトルや URL を選択する際と、メタデータやコンテンツを構成する際は、これら 2 つの異なるオーディエンスのニーズを念頭に置いてください。 ページが完成したら、ページをストアナビゲーションに追加したり、他のページにリンクしたり、ストアのフッターからリンクしたり、新しい [ ホームページ ](page-home-new.md) として使用したりできます。
+コンテンツページをストアに追加するプロセスは、作成する可能性のあるすべてのタイプのページで基本的に同じです。 テキスト、画像、コンテンツブロック、変数およびウィジェットを含めることができます。 ほとんどのコンテンツページは、最初は検索エンジンで、2 番目は人物で読むように設計されています。 ページタイトルや URL を選択する際と、メタデータやコンテンツを構成する際は、これら 2 つの異なるオーディエンスのニーズを念頭に置いてください。 ページが完成したら、ページをストアナビゲーションに追加したり、他のページにリンクしたり、ストアのフッターからリンクしたり、新しい [&#x200B; ホームページ &#x200B;](page-home-new.md) として使用したりできます。
 
-![ ページグリッド ](./assets/pages-grid.png){width="700" zoomable="yes"}
+![&#x200B; ページグリッド &#x200B;](./assets/pages-grid.png){width="700" zoomable="yes"}
 
 ## ページを追加
 
@@ -26,47 +26,47 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Add New Page]**」をクリックします。
 
-   ![ 新規ページ ](./assets/pages-new-page.png){width="600" zoomable="yes"}
+   ![&#x200B; 新規ページ &#x200B;](./assets/pages-new-page.png){width="600" zoomable="yes"}
 
 1. ページをすぐに公開しない場合は、**[!UICONTROL Enable Page]** を `No` に設定します。
 
 1. **[!UICONTROL Page Title]** を入力します。
 
-   ページタイトルは [ パンくず ](../catalog/navigation-breadcrumb-trail.md) ナビゲーションに表示されます。
+   ページタイトルは [&#x200B; パンくず &#x200B;](../catalog/navigation-breadcrumb-trail.md) ナビゲーションに表示されます。
 
 ### 手順 2：コンテンツを完了する
 
-[ 詳細なコンテンツツールの設定 ](../configuration-reference/general/content-management.md) に応じて、ページコンテンツを追加します。
+[&#x200B; 詳細なコンテンツツールの設定 &#x200B;](../configuration-reference/general/content-management.md) に応じて、ページコンテンツを追加します。
 
 #### ページビルダーのコンテンツツールの使用
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Content]** を展開します。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Content]** を展開します。
 
-   ![ ページビルダーを使用したコンテンツ ](../page-builder/assets/pb-page-content.png){width="600" zoomable="yes"}
+   ![&#x200B; ページビルダーを使用したコンテンツ &#x200B;](../page-builder/assets/pb-page-content.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Content Heading]** ボックスに、ページの先頭に表示する見出しを入力します。
 
-   有効にすると、[ ページビルダー ](../page-builder/introduction.md) ステージとパネルがコンテンツ見出しの下に表示されます。 詳しくは、[Workspace](../page-builder/workspace.md) を参照してください。 _ページビルダー_ が有効になっていない場合、エディターはWYSIWYG モードで開き、上部にツールバーが表示されます。
+   有効にすると、[&#x200B; ページビルダー &#x200B;](../page-builder/introduction.md) ステージとパネルがコンテンツ見出しの下に表示されます。 詳しくは、[Workspace](../page-builder/workspace.md) を参照してください。 _ページビルダー_ が有効になっていない場合、エディターはWYSIWYG モードで開き、上部にツールバーが表示されます。
 
 1. コンテンツを完成させ、必要に応じてテキストを書式設定します。
 
 #### エディターツールバーの使用
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Content]** を展開します。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Content]** を展開します。
 
-   ![ コンテンツ ](./assets/page-content-editor.png){width="600" zoomable="yes"}
+   ![&#x200B; コンテンツ &#x200B;](./assets/page-content-editor.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Content Heading]** ボックスに、ページの先頭に表示する見出しを入力します。
 
 1. コンテンツを完成させ、必要に応じてテキストを書式設定します。
 
-   必要に応じて、[images](media-storage.md)、[variables](../systems/variables-predefined.md) および [widgets](widgets.md) を追加できます。 詳しくは、[ エディターの使用 ](editor.md) を参照してください。
+   必要に応じて、[images](media-storage.md)、[variables](../systems/variables-predefined.md) および [widgets](widgets.md) を追加できます。 詳しくは、[&#x200B; エディターの使用 &#x200B;](editor.md) を参照してください。
 
 ### 手順 3:SEO 情報の完了
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization]** を展開します。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization]** を展開します。
 
-   ![ 検索エンジンの最適化 ](./assets/page-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![&#x200B; 検索エンジンの最適化 &#x200B;](./assets/page-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. デフォルトをそのまま使用するか、またはスペースではなくハイフンを使用して、すべての小文字で構成される別の **[!UICONTROL URL Key]** を入力します。
 
@@ -88,9 +88,9 @@ ht-degree: 0%
 
 ### 手順 4：ページの範囲を指定
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Page in Websites]** を展開します。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Page in Websites]** を展開します。
 
-   ![Web サイトのページ ](./assets/page-in-websites.png){width="600" zoomable="yes"}
+   ![Web サイトのページ &#x200B;](./assets/page-in-websites.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Store View]** リストで、ページを使用できる各ビューを選択します。
 
@@ -100,17 +100,17 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Hierarchy]** を展開します。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Hierarchy]** を展開します。
 
-   ![ 階層 ](./assets/page-hierarchy.png){width="600" zoomable="yes"}
+   ![&#x200B; 階層 &#x200B;](./assets/page-hierarchy.png){width="600" zoomable="yes"}
 
 1. このページが別のページの子である場合は、**[!UICONTROL Parent page]** のチェックボックスをオンにします。
 
 ### 手順 6：デザインの変更を入力（オプション）
 
-1. ページのレイアウトを変更するには、「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開 **[!UICONTROL Design]** ます。
+1. ページのレイアウトを変更するには、「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開 **[!UICONTROL Design]** ます。
 
-   ![ デザイン ](./assets/page-design.png){width="600" zoomable="yes"}
+   ![&#x200B; デザイン &#x200B;](./assets/page-design.png){width="600" zoomable="yes"}
 
 1. ページの列のレイアウトを変更するには、**[!UICONTROL Layout]** を次のいずれかに設定します。
 
@@ -119,24 +119,24 @@ ht-degree: 0%
    - `2 columns with left bar`
    - `2 columns with right bar`
    - `3 columns`
-   - `Page -- Full Width` （[ ページビルダー ](../page-builder/introduction.md) が必要）
+   - `Page -- Full Width` （[&#x200B; ページビルダー &#x200B;](../page-builder/introduction.md) が必要）
    - `Category -- Full Width` （ページビルダーが必要）
    - `Product -- Full Width` （ページビルダーが必要）
 
 1. **[!UICONTROL Custom Layout Update]** を適用するには、リストからファイルの名前を選択します。
 
-   詳しくは、[ レイアウトの更新 ](layout-updates.md) を参照してください。
+   詳しくは、[&#x200B; レイアウトの更新 &#x200B;](layout-updates.md) を参照してください。
 
 1. ページのテーマを変更するには、**[!UICONTROL New Theme]** を次のいずれかに設定します。
 
    - `Magento Black`
    - `Magento Luma`
 
-1. ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）デザインの変更をスケジュールするには、![ 拡張セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]** を展開し、次の手順を実行します。
+1. ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）デザインの変更をスケジュールするには、![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]** を展開し、次の手順を実行します。
 
-   ![ カスタムデザインの更新 ](./assets/page-custom-design-update.png){width="600" zoomable="yes"}
+   ![&#x200B; カスタムデザインの更新 &#x200B;](./assets/page-custom-design-update.png){width="600" zoomable="yes"}
 
-   - カレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）を使用して、変更を有効にする **[!UICONTROL From]** 日と **[!UICONTROL To]** 日を選択します。
+   - カレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）を使用して、変更を有効にする **[!UICONTROL From]** 日と **[!UICONTROL To]** 日を選択します。
 
    - ページに別のテーマを適用するには、テー **[!UICONTROL New Theme]** の名前を選択します。
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 
 任意のコンテンツページをテンプレートとして使用し、複製として保存できます。 この時間を節約する手法を使用して、サイト全体のコンテンツページに対して一貫したデザインを作成できます。 複製ページには、元のページのページタイトルが保持されますが、URL キーフィールドとステータスフィールドは更新する必要があります。
 
-![ 保存して複製 ](./assets/page-duplicate-save-menu.png){width="600" zoomable="yes"}
+![&#x200B; 保存して複製 &#x200B;](./assets/page-duplicate-save-menu.png){width="600" zoomable="yes"}
 
 1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
 
@@ -184,9 +184,9 @@ ht-degree: 0%
 
    - 必要に応じて **[!UICONTROL Page Title]** を更新します。
 
-   - ![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Search Engine Optimization]**」セクションを展開し、重複ページに使用する一意の **[!UICONTROL URL Key]** を入力します。
+   - ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL Search Engine Optimization]**」セクションを展開し、重複ページに使用する一意の **[!UICONTROL URL Key]** を入力します。
 
-     ![ 一時 URL キー ](./assets/page-search-engine-optimization-url-key-duplicate.png){width="600" zoomable="yes"}
+     ![&#x200B; 一時 URL キー &#x200B;](./assets/page-search-engine-optimization-url-key-duplicate.png){width="600" zoomable="yes"}
 
    - 必要に応じて、残りのページコンテンツを更新します。
 

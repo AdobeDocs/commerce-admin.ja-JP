@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 注文を更新
 
-注文を行ったお客様を支援する場合、注文のステータスを決定する必要があります。 `Pending` しい注文に使用できるオプションは、`Processing` しい注文のオプションとは異なります。 詳しくは、「[ 注文の処理 ](order-processing.md)」を参照してください。
+注文を行ったお客様を支援する場合、注文のステータスを決定する必要があります。 `Pending` しい注文に使用できるオプションは、`Processing` しい注文のオプションとは異なります。 詳しくは、「[&#x200B; 注文の処理 &#x200B;](order-processing.md)」を参照してください。
 
 ## 保留中の注文
 
 顧客が注文した後、支払いを受け取る前に、注文は `Pending` ステータスになります。 注文を編集したり、保留にしたり、完全にキャンセルしたりできます。 保留中の注文のボタンバーには、注文に使用できるアクションのリストが表示されます。
 
-![ 保留中の注文オプション ](./assets/order-button-bar-pending.png){width="600" zoomable="yes"}
+![&#x200B; 保留中の注文オプション &#x200B;](./assets/order-button-bar-pending.png){width="600" zoomable="yes"}
 
 オーダーの大部分を変更すると、元のオーダーがキャンセルされ、新しいオーダーが生成されます。 ただし、新しい注文を生成せずに請求先または配送先住所を変更することはできます。
 
@@ -29,10 +29,10 @@ ht-degree: 0%
 | **[!UICONTROL Cancel]** | 保留中の注文をキャンセルします。 |
 | **[!UICONTROL Send Email]** | 保留中の注文に関するメールを顧客に送信します。 |
 | **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | 保留中の注文の状態を `On Hold` に変更します。 保留を解除するには、「_[!UICONTROL Unhold]_」を選択します。 |
-| **[!UICONTROL Invoice]** | 受注を請求書に変換して、保留中受注から [ 請求書 ](invoices.md#create-an-invoice) を作成し、受注ステータスを `processing` に変更します。 |
-| **[!UICONTROL Ship]** | 注文の [ 出荷 ](shipments.md#create-a-shipment) レコードを作成します。 |
+| **[!UICONTROL Invoice]** | 受注を請求書に変換して、保留中受注から [&#x200B; 請求書 &#x200B;](invoices.md#create-an-invoice) を作成し、受注ステータスを `processing` に変更します。 |
+| **[!UICONTROL Ship]** | 注文の [&#x200B; 出荷 &#x200B;](shipments.md#create-a-shipment) レコードを作成します。 |
 | **[!UICONTROL Reorder]** | 現在の保留中の注文と重複する新しい保留中の注文を作成します。 |
-| **[!UICONTROL Edit]** | 保留中の注文を編集モードで開きます。 「編集」ボタンは、保留中の受注、または交渉済 [ 見積 ](../b2b/quotes.md) に基づく受注に対してのみ使用できます。 |
+| **[!UICONTROL Edit]** | 保留中の注文を編集モードで開きます。 「編集」ボタンは、保留中の受注、または交渉済 [&#x200B; 見積 &#x200B;](../b2b/quotes.md) に基づく受注に対してのみ使用できます。 |
 
 {style="table-layout:auto"}
 
@@ -43,35 +43,35 @@ ht-degree: 0%
 * 注文の支払いが受領/キャプチャされ、支払いアクションが `Authorize and Capture` に設定されている場合に請求書が生成されます。
 * 注文トランザクションは許可されますが、支払いアクションが `Authorize` に設定されている場合、支払いはまだキャプチャされません。
 
-[ 支払いアクションの設定 ](../configuration-reference/sales/payment-methods.md#payment-actions) により、注文の作成後に使用できる注文アクションが決定されます。
+[&#x200B; 支払いアクションの設定 &#x200B;](../configuration-reference/sales/payment-methods.md#payment-actions) により、注文の作成後に使用できる注文アクションが決定されます。
 
 注 `Processing` を大幅に変更することはできませんが、請求先と配送先住所は編集できます。
 
-![ 処理順序オプション ](./assets/order-button-bar-processing.png){width="600" zoomable="yes"}
+![&#x200B; 処理順序オプション &#x200B;](./assets/order-button-bar-processing.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->支払方法の支払処理が `Authorize and Capture` に設定されている場合、顧客が注文すると請求書が自動的に作成されます。 この場合、資金の払戻には [ クレジット・メモ ](credit-memo-create.md) を使用できますが、受注を [ 取消 ](#cancel-a-pending-order) または [ 無効 ](#void-a-processing-order) することはできません。
+>支払方法の支払処理が `Authorize and Capture` に設定されている場合、顧客が注文すると請求書が自動的に作成されます。 この場合、資金の払戻には [&#x200B; クレジット・メモ &#x200B;](credit-memo-create.md) を使用できますが、受注を [&#x200B; 取消 &#x200B;](#cancel-a-pending-order) または [&#x200B; 無効 &#x200B;](#void-a-processing-order) することはできません。
 
 | ボタン | 説明 |
 |--- |--- |
 | **[!UICONTROL Back]** | 変更を保存せずに [ 受注 ] ページに戻ります。 |
 | **[!UICONTROL Send Email]** | 注文に関するメールを顧客に送信します。 |
-| **[!UICONTROL Void]** | [ ボイド ](#void-a-processing-order) 受注取引または一部受注取引。 |
-| **[!UICONTROL Credit Memo]** | [ クレジット メモ ](credit-memo-create.md) を作成する処理を開始します。 |
+| **[!UICONTROL Void]** | [&#x200B; ボイド &#x200B;](#void-a-processing-order) 受注取引または一部受注取引。 |
+| **[!UICONTROL Credit Memo]** | [&#x200B; クレジット メモ &#x200B;](credit-memo-create.md) を作成する処理を開始します。 |
 | **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | 販売注文の状態を `On Hold` に変更します。 受注の保留を解除するには、「_[!UICONTROL Unhold]_」を選択します。 |
 | **[!UICONTROL Reorder]** | 現在の注文に基づいて新しい保留中注文を作成します。 |
-| **[!UICONTROL Create Returns]** | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）注文から 1 つ以上の商品を [ 返品 ](returns.md) するプロセスを開始します。 |
+| **[!UICONTROL Create Returns]** | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）注文から 1 つ以上の商品を [&#x200B; 返品 &#x200B;](returns.md) するプロセスを開始します。 |
 
 {style="table-layout:auto"}
 
 ## 処理順序の無効化
 
-注文がまだ `Processing` ステータスで、支払いの統合が `Authorize` （`Authorize and Capture` ではなく）に設定されている場合、トランザクションを無効にするか、注文をキャンセルすることしかできません。 [ 注文をキャンセル ](#cancel-a-pending-order) すると、認証も無効になります。
+注文がまだ `Processing` ステータスで、支払いの統合が `Authorize` （`Authorize and Capture` ではなく）に設定されている場合、トランザクションを無効にするか、注文をキャンセルすることしかできません。 [&#x200B; 注文をキャンセル &#x200B;](#cancel-a-pending-order) すると、認証も無効になります。
 
 支払処理が「`Authorize and Capture`」に設定されている支払方法を使用して注文を行った場合、クレジット・メモによる資金の払戻は可能ですが、請求され、支払が取り込まれるため、取消はできません。
 
-お支払い方法によって、利用可能な支払いアクションが決まります。 詳しくは、[ 支払いアクション ](../configuration-reference/sales/payment-methods.md#payment-actions) を参照してください。
+お支払い方法によって、利用可能な支払いアクションが決まります。 詳しくは、[&#x200B; 支払いアクション &#x200B;](../configuration-reference/sales/payment-methods.md#payment-actions) を参照してください。
 
 **_オーダーを無効にするには：_**
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 1. プロンプトで、「**[!UICONTROL OK]**」をクリックして順序を無効にします。
 
-資金を取得した後、必要な払戻を [ クレジット・メモ ](credit-memo-create.md) を使用して発行できます。 また、商品の返品に対して発行される [ 返品承認（RMA） ](returns.md) を作成することもできます。 詳しくは、[ 注文の処理 ](order-processing.md) を参照してください。
+資金を取得した後、必要な払戻を [&#x200B; クレジット・メモ &#x200B;](credit-memo-create.md) を使用して発行できます。 また、商品の返品に対して発行される [&#x200B; 返品承認（RMA） &#x200B;](returns.md) を作成することもできます。 詳しくは、[&#x200B; 注文の処理 &#x200B;](order-processing.md) を参照してください。
 
 ## 保留中の注文を編集
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Edit]**」をクリックします。
 
-   ![ 注文を編集 ](./assets/order-edit.png){width="600" zoomable="yes"}
+   ![&#x200B; 注文を編集 &#x200B;](./assets/order-edit.png){width="600" zoomable="yes"}
 
 1. プロンプトで「**[!UICONTROL OK]**」をクリックして編集を続行します。
 

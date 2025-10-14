@@ -21,9 +21,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Required Settings]
 
-![ 必要な設定 ](./assets/paypal-payflow-pro-settings.png)<!-- zoom -->
+![&#x200B; 必要な設定 &#x200B;](./assets/paypal-payflow-pro-settings.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | Web サイト | （任意） PayPal マーチャントアカウントに関連付けられているメールアドレス。 メールアドレスは大文字と小文字が区別され、アカウントのアドレスと完全に一致する必要があります。 |
 | [!UICONTROL Partner] | Web サイト | PayPal パートナー ID （該当する場合）。 |
@@ -39,9 +39,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Advertise PayPal Credit]
 
-![PayPal クレジットの広告 ](./assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
+![PayPal クレジットの広告 &#x200B;](./assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Publisher ID] | Web サイト | PayPal クレジットアカウントに関連付けられたパブリッシャー ID。 |
 | [!UICONTROL Get Publisher ID from PayPal] |  | PayPal からパブリッシャー ID を取得します。 |
@@ -54,9 +54,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Basic Settings - PayPal Payflow Pro]
 
-![ 基本設定 ](./assets/payment-methods-paypal-payflow-pro-basic-settings.png)<!-- zoom -->
+![&#x200B; 基本設定 &#x200B;](./assets/payment-methods-paypal-payflow-pro-basic-settings.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時の支払い方法として PayPal Payflow Pro を識別する名前。 |
 | [!UICONTROL Sort Order] | ストア表示 | チェックアウト時に他の支払い方法と一緒にリストされたときに PayPal Payflow Pro が表示される順序を決定する数値です。 |
@@ -68,9 +68,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced Settings]
 
-![ 詳細設定 ](./assets/payment-methods-paypal-payflow-pro-advanced-settings.png)<!-- zoom -->
+![&#x200B; 詳細設定 &#x200B;](./assets/payment-methods-paypal-payflow-pro-advanced-settings.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | 買い物かごに表示 | ストア表示 | PayPal Express チェックアウトが買い物かごに支払いオプションとして表示されるかどうかを決定します。 オプション：はい（推奨）/いいえ |
 | [!UICONTROL Payment Action Applicable From] | Web サイト | 適用可能な国選択の範囲を決定します。 オプション：許可されているすべての国/特定の国 |

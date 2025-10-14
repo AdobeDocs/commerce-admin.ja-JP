@@ -17,7 +17,7 @@ ht-degree: 0%
 
 [!UICONTROL Content Staging] ダッシュボードには、アクティブなキャンペーンと今後のすべてのキャンペーンの概要が表示されます。 ダッシュボードの形式は、グリッドからタイムラインに変更できます。 また、フィルターを使用して、キャンペーンの検索、列のレイアウトのカスタマイズ、グリッドの様々なビューの保存を行うこともできます。 ワークスペースコントロールについて詳しくは、「[Admin Workspace](../getting-started/admin-workspace.md)」を参照してください。
 
-![ グリッド表示のステージングダッシュボード ](./assets/content-staging-grid-view.png){width="600" zoomable="yes"}
+![&#x200B; グリッド表示のステージングダッシュボード &#x200B;](./assets/content-staging-grid-view.png){width="600" zoomable="yes"}
 
 ## ステージングダッシュボードの表示
 
@@ -25,13 +25,13 @@ ht-degree: 0%
 
 1. ダッシュボードの形式を変更するには、**[!UICONTROL View As]** コントロールを `list`、`Grid`、または `Timeline` に設定します。
 
-   ![ タイムライン表示 ](./assets/content-staging-dashboard-timeline.png){width="600" zoomable="yes"}
+   ![&#x200B; タイムライン表示 &#x200B;](./assets/content-staging-dashboard-timeline.png){width="600" zoomable="yes"}
 
    タイムラインを表示するときに、右下隅のスライダーを使用して、1～4 週間のビューを調整できます。 各列は 1 日を表します。
 
 1. タイムラインが表示されている場合は、スライダーを右端の `4w` の位置にドラッグすると、より長い時間を表示できます。
 
-   ![4 週間ビュー ](./assets/content-staging-timeline-4-week-view.png){width="600" zoomable="yes"}
+   ![4 週間ビュー &#x200B;](./assets/content-staging-timeline-4-week-view.png){width="600" zoomable="yes"}
 
 1. キャンペーンに関する一般的な情報を表示するには、ページの任意の項目をクリックします。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
    - その日にストア内の顧客に対してキャンペーンがどのように表示されるかを確認するには、[**[!UICONTROL Preview]**] をクリックします。
 
-   ![ キャンペーン情報 ](./assets/content-staging-campaign-info.png){width="600" zoomable="yes"}
+   ![&#x200B; キャンペーン情報 &#x200B;](./assets/content-staging-campaign-info.png){width="600" zoomable="yes"}
 
 ## ステージングダッシュボードの列の説明
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 >
 >アクティブなキャンペーンが最初に終了日なしで作成された場合、後でキャンペーンを編集して終了日を含めることはできません。 この場合、重複するキャンペーンを作成し、必要な終了日を入力する必要があります。
 
-![ キャンペーンの詳細 ](./assets/content-staging-dashboard-view-edit.png){width="600" zoomable="yes"}
+![&#x200B; キャンペーンの詳細 &#x200B;](./assets/content-staging-dashboard-view-edit.png){width="600" zoomable="yes"}
 
 この例のキャンペーンには、2 つのカテゴリと 3 つの個別の製品が含まれています。
 
@@ -78,8 +78,8 @@ ht-degree: 0%
 
 1. 必要に応じて、「_[!UICONTROL General]_」セクションの設定を更新します。
 
-1. 編集する項目を含んだセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. 編集する項目を含んだセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
-   ![ キャンペーン品目に割り当てられた製品の更新 ](./assets/content-staging-campaign-edit-products.png){width="600" zoomable="yes"}
+   ![&#x200B; キャンペーン品目に割り当てられた製品の更新 &#x200B;](./assets/content-staging-campaign-edit-products.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save]**」をクリックします。

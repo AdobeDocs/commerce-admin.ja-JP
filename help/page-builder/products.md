@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # コンテンツを追加 – 製品
 
-_製品_ コンテンツタイプを使用して、グリッドまたはカルーセルレイアウトを使用して、製品のリストを [[!DNL Page Builder]  ステージ ](workspace.md#stage) に追加します。 [ コンテンツを追加 – ブロック ](block.md) ツールを使用して、[!DNL Page Builder] のステージにブロックを配置してから、ブロック内に製品リストを配置します。 または、製品リストをページの行に直接追加できます。
+_製品_ コンテンツタイプを使用して、グリッドまたはカルーセルレイアウトを使用して、製品のリストを [[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage) に追加します。 [&#x200B; コンテンツを追加 – ブロック &#x200B;](block.md) ツールを使用して、[!DNL Page Builder] のステージにブロックを配置してから、ブロック内に製品リストを配置します。 または、製品リストをページの行に直接追加できます。
 
 ## 製品カルーセル使用のガイドライン
 
@@ -26,13 +26,13 @@ _製品_ コンテンツタイプを使用して、グリッドまたはカル�
 
 - カルーセル内で一度に 1 つの製品をハイライト、中央揃え、スクロールするには、**[!UICONTROL Carousel Mode]** を `Continuous` に設定します。 その他の製品は、リストに表示されますが、中央にある製品をハイライト表示するために透明になります。
 
-  ![ 連続カルーセルモードの製品リスト ](./assets/pb-products-settings-carousel-continuous.png){width="600"}
+  ![&#x200B; 連続カルーセルモードの製品リスト &#x200B;](./assets/pb-products-settings-carousel-continuous.png){width="600"}
 
 - カルーセル内で一度に最大 5 つの製品を表示およびスクロールするには、**[!UICONTROL Carousel Mode]** を `Default` に設定します。
 
-  ![ デフォルトカルーセルモードの製品リスト ](./assets/pb-products-settings-carousel-default.png){width="600"}
+  ![&#x200B; デフォルトカルーセルモードの製品リスト &#x200B;](./assets/pb-products-settings-carousel-default.png){width="600"}
 
-次の手順は、製品リストをブロックに追加する方法を示しています。 その後、[ ウィジェット ](../content-design/widgets.md) を使用して、ストアの任意のページの特定の場所にブロックを配置できます。
+次の手順は、製品リストをブロックに追加する方法を示しています。 その後、[&#x200B; ウィジェット &#x200B;](../content-design/widgets.md) を使用して、ストアの任意のページの特定の場所にブロックを配置できます。
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -40,12 +40,12 @@ _製品_ コンテンツタイプを使用して、グリッドまたはカル�
 
 | ツール | アイコン | 説明 |
 | --------- | ------------- | ----------------- |
-| 移動 | ![ 移動アイコン ](./assets/pb-icon-move.png){width="25"} | products コンテナとそのコンテンツをステージ上の別の位置に移動します。 |
-| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | _商品を編集_ ページを開きます。このページで、商品リストを選択し、コンテナのプロパティを変更できます。 |
-| Hide | ![ アイコンを非表示 ](./assets/pb-icon-hide.png){width="25"} | 現在の製品コンテナとそのコンテンツを非表示にします。 |
-| 表示 | ![ アイコンを表示 ](./assets/pb-icon-show.png){width="25"} | 非表示の製品コンテナとその内容を表示します。 |
-| 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | products コンテナとそのコンテンツのコピーを作成します。 |
-| 削除 | ![ 削除アイコン ](./assets/pb-icon-remove.png){width="25"} | product コンテナとそのコンテンツをステージから削除します。 |
+| 移動 | ![&#x200B; 移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | products コンテナとそのコンテンツをステージ上の別の位置に移動します。 |
+| 設定 | ![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | _商品を編集_ ページを開きます。このページで、商品リストを選択し、コンテナのプロパティを変更できます。 |
+| Hide | ![&#x200B; アイコンを非表示 &#x200B;](./assets/pb-icon-hide.png){width="25"} | 現在の製品コンテナとそのコンテンツを非表示にします。 |
+| 表示 | ![&#x200B; アイコンを表示 &#x200B;](./assets/pb-icon-show.png){width="25"} | 非表示の製品コンテナとその内容を表示します。 |
+| 複製 | ![&#x200B; 複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | products コンテナとそのコンテンツのコピーを作成します。 |
+| 削除 | ![&#x200B; 削除アイコン &#x200B;](./assets/pb-icon-remove.png){width="25"} | product コンテナとそのコンテンツをステージから削除します。 |
 
 {style="table-layout:auto"}
 
@@ -65,13 +65,13 @@ _製品_ コンテンツタイプを使用して、グリッドまたはカル�
 
 1. [!DNL Page Builder] パネルで **[!UICONTROL Add Content]** を展開し、**[!UICONTROL Products]** プレースホルダーをステージにドラッグします。
 
-   ![ 製品コンテンツタイプを追加 ](./assets/pb-add-content-products-drag.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品コンテンツタイプを追加 &#x200B;](./assets/pb-add-content-products-drag.png){width="600" zoomable="yes"}
 
 ## 製品リストコンテナの設定
 
-空の _Products_ コンテナにポインタを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}） アイコンをクリックします。
+空の _Products_ コンテナにポインタを合わせてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}） アイコンをクリックします。
 
-![ 製品ツールボックス ](./assets/pb-add-content-products-toolbox.png){width="500" zoomable="yes"}
+![&#x200B; 製品ツールボックス &#x200B;](./assets/pb-add-content-products-toolbox.png){width="500" zoomable="yes"}
 
 次の節に従って _設定_ を完了します。
 
@@ -86,9 +86,9 @@ _製品_ コンテンツタイプを使用して、グリッドまたはカル�
 
    {style="table-layout:auto"}
 
-   ![ 製品外観 ](./assets/pb-products-appearances.png){width="300"}
+   ![&#x200B; 製品外観 &#x200B;](./assets/pb-products-appearances.png){width="300"}
 
-   製品カルーセルを選択する場合は、[ カルーセル設定 ](#carousel-settings) も設定する必要があります。
+   製品カルーセルを選択する場合は、[&#x200B; カルーセル設定 &#x200B;](#carousel-settings) も設定する必要があります。
 
 1. **[!UICONTROL Select Products By]** しくは、製品の選択方法を選択します。
 
@@ -96,23 +96,23 @@ _製品_ コンテンツタイプを使用して、グリッドまたはカル�
 
    - **[!UICONTROL Category]** – 選択したカテゴリを使用する製品を表示するには、このオプションを選択します。
 
-     ![ カテゴリー別製品選択 ](./assets/pb-products-settings_category.png){width="500"}
+     ![&#x200B; カテゴリー別製品選択 &#x200B;](./assets/pb-products-settings_category.png){width="500"}
 
      このオプションを選択すると、**[!UICONTROL Category]** セレクターが表示されます。 矢印をクリックしてドリルダウンし、表示する製品のカテゴリを選択します。 例えば、[!DNL Commerce] のサンプルデータでドリルインし、_Women/Tops/Tees_ を選択すると、そのカテゴリのすべての製品が表示されます。
 
-     ![ カタログカテゴリの選択 ](./assets/pb-select-products-by-category.png){width="500"}
+     ![&#x200B; カタログカテゴリの選択 &#x200B;](./assets/pb-select-products-by-category.png){width="500"}
 
    - **[!UICONTROL SKU]** - 1 つ以上の SKU を使用して製品を表示する場合は、このオプションを選択します
 
      このオプションを選択すると、表示する SKU のコンマ区切りのリストを入力する必要がある、**[!UICONTROL Product SKUs]** のテキストボックスが表示されます。
 
-     ![SKU による製品選択 ](./assets/pb-products-settings_sku.png){width="500"}
+     ![SKU による製品選択 &#x200B;](./assets/pb-products-settings_sku.png){width="500"}
 
    - **[!UICONTROL Condition]** – 定義した 1 つ以上の条件に従って製品を表示する場合は、このオプションを選択します。
 
      選択した場合、製品の選択に条件を追加するためのツールを使用できます。 例えば、性別が「Unisex」に設定されている製品のみを選択できます。
 
-     ![ 条件別製品選択 ](./assets/pb-products-settings_condition.png){width="500"}
+     ![&#x200B; 条件別製品選択 &#x200B;](./assets/pb-products-settings_condition.png){width="500"}
 
      >[!NOTE]
      >
@@ -138,7 +138,7 @@ _製品_ コンテンツタイプを使用して、グリッドまたはカル�
 
    {style="table-layout:auto"}
 
-   ![ 製品の並べ替えオプション ](./assets/pb-products-sortby.png){width="300"}
+   ![&#x200B; 製品の並べ替えオプション &#x200B;](./assets/pb-products-sortby.png){width="300"}
 
 1. カルーセルまたはグリッドに **[!UICONTROL Number of Products to Display]** を入力します。
 
@@ -165,7 +165,7 @@ _製品_ コンテンツタイプを使用して、グリッドまたはカル�
 
    これら 2 つのモードを切り替えても、**[!UICONTROL Infinite Loop]** 設定は常に連続モードで `Yes` に設定され、フィールドが無効になっている場合を除き、その他のカルーセル設定は保持されます。
 
-   ![ カルーセル設定 ](./assets/pb-products-carousel-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; カルーセル設定 &#x200B;](./assets/pb-products-carousel-settings.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、**[!UICONTROL Autoplay]** オプションを `Yes` に設定します。
 
@@ -249,8 +249,8 @@ _製品_ コンテンツタイプを使用して、グリッドまたはカル�
 
 製品カルーセルを設定した場合は、次の例のようになります。
 
-![ ステージ上の製品カルーセル ](./assets/pb-products-admin-carousel.png){width="600"}
+![&#x200B; ステージ上の製品カルーセル &#x200B;](./assets/pb-products-admin-carousel.png){width="600"}
 
-[ ウィジェット ](../content-design/widgets.md) を使用して、このブロックをストア内の表示する場所に配置できるようになりました。 または、[ コンテンツを追加 – ブロック ](block.md) を使用して、既存のページ、タブ、ブロックにブロックを追加できます。
+[&#x200B; ウィジェット &#x200B;](../content-design/widgets.md) を使用して、このブロックをストア内の表示する場所に配置できるようになりました。 または、[&#x200B; コンテンツを追加 – ブロック &#x200B;](block.md) を使用して、既存のページ、タブ、ブロックにブロックを追加できます。
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

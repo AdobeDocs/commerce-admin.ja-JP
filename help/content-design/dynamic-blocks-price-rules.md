@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-作成した任意の [ 動的ブロック ](dynamic-blocks.md) をプロモーションに関連付けることができます。 関連付けを行うには、まず動的ブロックと [ カタログ価格ルール ](../merchandising-promotions/price-rules-catalog.md) または [ 買い物かご価格ルール ](../merchandising-promotions/price-rules-cart.md) の両方を作成する必要があります。 関連付けは、価格ルールの作業中や、動的ブロックの作業中に行うことができます。
+作成した任意の [&#x200B; 動的ブロック &#x200B;](dynamic-blocks.md) をプロモーションに関連付けることができます。 関連付けを行うには、まず動的ブロックと [&#x200B; カタログ価格ルール &#x200B;](../merchandising-promotions/price-rules-catalog.md) または [&#x200B; 買い物かご価格ルール &#x200B;](../merchandising-promotions/price-rules-cart.md) の両方を作成する必要があります。 関連付けは、価格ルールの作業中や、動的ブロックの作業中に行うことができます。
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. グリッドで、ダイナミック ブロックに関連付けるルールを見つけ、編集モードで開きます。
 
-1. 下にスクロールして、![ 展開セレクター ](../assets/icon-display-expand.png)**[!UICONTROL Related Dynamic Blocks]** を展開します。
+1. 下にスクロールして、![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)**[!UICONTROL Related Dynamic Blocks]** を展開します。
 
 1. 最初の列で、フィルターを `Any` に設定し、「**[!UICONTROL Reset Filter]**」をクリックします。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. ルールに関連付ける各ダイナミック ブロックのチェックボックスをオンにします。
 
-   ![ 選択したダイナミック ブロックを追加する ](./assets/price-rule-cart-related-dynamic-blocks-any.png){width="600" zoomable="yes"}
+   ![&#x200B; 選択したダイナミック ブロックを追加する &#x200B;](./assets/price-rule-cart-related-dynamic-blocks-any.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
@@ -62,6 +62,6 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Add Selected]**」をクリックします。
 
-   ![ 選択した価格ルールの動的ブロックへの追加 ](./assets/pb-dynamic-block-add-related-cart-price-rules.png){width="600" zoomable="yes"}
+   ![&#x200B; 選択した価格ルールの動的ブロックへの追加 &#x200B;](./assets/pb-dynamic-block-add-related-cart-price-rules.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。

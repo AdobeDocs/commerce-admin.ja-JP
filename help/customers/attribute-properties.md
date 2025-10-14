@@ -14,9 +14,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-顧客属性は、注文、受け渡し、顧客管理の各プロセスをサポートするために必要な情報を提供します。 ビジネスは一意なので、システムから提供されるデフォルトの項目に加えて、フィールドが必要になる場合があります。 顧客のアカウントの「アカウント情報」、「アドレス帳」、「請求情報」の各セクションにカスタム属性を追加できます。 顧客 [ 住所の属性 ](address-attributes.md) は、チェックアウト時、またはゲストがアカウントに登録したときに _請求情報_ セクションでも使用できます。
+顧客属性は、注文、受け渡し、顧客管理の各プロセスをサポートするために必要な情報を提供します。 ビジネスは一意なので、システムから提供されるデフォルトの項目に加えて、フィールドが必要になる場合があります。 顧客のアカウントの「アカウント情報」、「アドレス帳」、「請求情報」の各セクションにカスタム属性を追加できます。 顧客 [&#x200B; 住所の属性 &#x200B;](address-attributes.md) は、チェックアウト時、またはゲストがアカウントに登録したときに _請求情報_ セクションでも使用できます。
 
-![ 顧客属性 ](./assets/attributes-customer.png){width="700" zoomable="yes"}
+![&#x200B; 顧客属性 &#x200B;](./assets/attributes-customer.png){width="700" zoomable="yes"}
 
 ## 手順 1：属性プロパティの入力
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 右上隅の「**[!UICONTROL Add New Attribute]**」をクリックします。
 
-   ![ 顧客属性のプロパティ ](./assets/attribute-customer-new.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客属性のプロパティ &#x200B;](./assets/attribute-customer-new.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Attribute Properties]** セクションで、次の操作を行います。
 
@@ -47,9 +47,9 @@ ht-degree: 0%
      | `Text Field` | 1 行のテキストフィールド。 |
      | `Text Area` | 製品の説明など、テキストの段落を入力するための複数行の入力フィールド。 WYSIWYG エディターを使用して、HTMLタグでテキストの書式を設定したり、テキストにタグを直接入力したりできます。 |
      | `Multiple Line` | 複数行の番地と同様に、属性に複数行のテキスト行を作成します。 個別のデータ入力行の数は、2 ～ 20 の範囲で指定できます。 フィールドの初期値を指定するには、`Default Value` を使用します。 |
-     | `Date` | 日付の値を優先日付形式およびタイムゾーンで表示します。 日付値は、リストまたはカレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）から選択できます。 <br/><br/>**_メモ：_**&#x200B;システムの設定に応じて、_ 管理者 _ユーザーはフィールドに日付を直接入力したり、カレンダーやリストから日付を選択したりできます。 日付と時刻の値を指定する方法については、[ 日付と時刻のオプション ](../catalog/attributes-input-types.md#date-and-time-options) を参照してください。 |
+     | `Date` | 日付の値を優先日付形式およびタイムゾーンで表示します。 日付値は、リストまたはカレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）から選択できます。 <br/><br/>**_メモ：_**&#x200B;システムの設定に応じて、_ 管理者 _ユーザーはフィールドに日付を直接入力したり、カレンダーやリストから日付を選択したりできます。 日付と時刻の値を指定する方法については、[&#x200B; 日付と時刻のオプション &#x200B;](../catalog/attributes-input-types.md#date-and-time-options) を参照してください。 |
      | `Yes/No` | `Yes` と `No` の定義済みオプションを含むドロップダウン リストを表示します。 |
-     | `Dropdown` | 1 つの選択のみを受け入れる値のドロップダウン リストを表示します。 ドロップダウン入力タイプは、[ 設定可能な製品 ](../catalog/product-create-configurable.md) の主要コンポーネントです。 |
+     | `Dropdown` | 1 つの選択のみを受け入れる値のドロップダウン リストを表示します。 ドロップダウン入力タイプは、[&#x200B; 設定可能な製品 &#x200B;](../catalog/product-create-configurable.md) の主要コンポーネントです。 |
      | `Multiple Select` | 複数の値の選択を受け入れるドロップダウンリスト。 |
      | `File (attachment)` | ファイルをアップロードし、顧客属性に添付ファイルとして関連付けることができるフィールド。 |
      | `Image File` | 画像をギャラリーにアップロードし、顧客属性に関連付けることができるフィールド。 |
@@ -91,13 +91,13 @@ ht-degree: 0%
 
    - この属性で顧客グリッドを検索するには、**[!UICONTROL Use in Search Options]** を `Yes` に設定します。
 
-   - この属性を [ 顧客セグメント ](customer-segments.md) で使用できるようにするには、**[!UICONTROL Use in Customer Segment]** を `Yes` に設定します。
+   - この属性を [&#x200B; 顧客セグメント &#x200B;](customer-segments.md) で使用できるようにするには、**[!UICONTROL Use in Customer Segment]** を `Yes` に設定します。
 
 ## 手順 2：ストアフロントのプロパティを完了する
 
 1. **[!UICONTROL Storefront Properties]** セクションまで下にスクロールします。
 
-   ![ 顧客属性 – ストアフロントのプロパティ ](./assets/attribute-customer-storefront-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客属性 – ストアフロントのプロパティ &#x200B;](./assets/attribute-customer-storefront-properties.png){width="600" zoomable="yes"}
 
 1. 顧客に属性を表示するには、**[!UICONTROL Show on Storefront]** を `Yes` に設定します。
 
@@ -113,11 +113,11 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Manage Labels/Options]**」を選択します。
 
-1. **[!UICONTROL Manage Titles]** の下に、各 [ ストア表示 ](../getting-started/websites-stores-views.md) の属性を識別するラベルを入力します。
+1. **[!UICONTROL Manage Titles]** の下に、各 [&#x200B; ストア表示 &#x200B;](../getting-started/websites-stores-views.md) の属性を識別するラベルを入力します。
 
 1. 完了したら、「**[!UICONTROL Save Attribute]**」をクリックします。
 
-   ![ 顧客属性 – ラベル/オプション ](./assets/attribute-customer-manage-label-options.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客属性 – ラベル/オプション &#x200B;](./assets/attribute-customer-manage-label-options.png){width="600" zoomable="yes"}
 
 ## フィールドの説明
 
@@ -136,7 +136,7 @@ ht-degree: 0%
 | [!UICONTROL Use in Filter Options] | 属性をグリッドからの検索操作のフィルターとして使用できるかどうかを指定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Grid Filter Condition Type] | グリッドからの検索操作の属性のフィルター一致条件を指定します。 グリッドの _キーワードで検索_ フィールドには影響しません。 オプション：`Partial Match`/`Prefix Match`/`Full Match` |
 | [!UICONTROL Use in Search Options] | 属性値を検索操作でキーワードとして使用できるかどうかを指定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Use in Customer Segment] | 属性が [ 顧客セグメント ](customer-segments.md) 条件に含まれるかどうかを決定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Use in Customer Segment] | 属性が [&#x200B; 顧客セグメント &#x200B;](customer-segments.md) 条件に含まれるかどうかを決定します。 オプション：`Yes` / `No` |
 
 ### [!UICONTROL Storefront Properties]
 
@@ -156,7 +156,7 @@ ht-degree: 0%
 | `store_id` | 顧客アカウントが作成されたサイトのストア ID。 |
 | `created_in` | アカウントが作成されたストア表示。 |
 | `group_id` | 顧客が割り当てられている顧客グループの ID。 |
-| `disable_auto_group_change` | [VAT ID 検証 ](../stores-purchase/vat.md#configure-vat-id-validation) 中に顧客グループを動的に割り当てることができるかどうかを決定します。 |
+| `disable_auto_group_change` | [VAT ID 検証 &#x200B;](../stores-purchase/vat.md#configure-vat-id-validation) 中に顧客グループを動的に割り当てることができるかどうかを決定します。 |
 | `prefix` | お客様の名前に使用されるプレフィックス（Mr.、Ms.、Dr.など）。 |
 | `firstname` | 顧客の名。 |
 | `middlename` | 顧客のミドルネームまたはミドルイニシャル。 |

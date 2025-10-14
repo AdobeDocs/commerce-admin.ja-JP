@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # ストアフロントのブランディング
 
-最初にやりたいことの 1 つは、ヘッダーの [ ロゴを変更 ](#upload-your-logo) し、ブラウザーの [ お気に入りをアップロード ](#add-a-favicon) することです。 次に、フッターで [ ようこそメッセージを追加 ](#change-the-welcome-message) および [ 著作権表示を更新 ](#change-the-copyright-notice) する必要があります。 これらのタスクは、すぐに対処できるシンプルなデザイン要素です。 ストアが開発中に、[ ストアのデモ通知をオンにする ](#set-the-store-demo-notice) と、ローンチの準備が整ったら削除できます。
+最初にやりたいことの 1 つは、ヘッダーの [&#x200B; ロゴを変更 &#x200B;](#upload-your-logo) し、ブラウザーの [&#x200B; お気に入りをアップロード &#x200B;](#add-a-favicon) することです。 次に、フッターで [&#x200B; ようこそメッセージを追加 &#x200B;](#change-the-welcome-message) および [&#x200B; 著作権表示を更新 &#x200B;](#change-the-copyright-notice) する必要があります。 これらのタスクは、すぐに対処できるシンプルなデザイン要素です。 ストアが開発中に、[&#x200B; ストアのデモ通知をオンにする &#x200B;](#set-the-store-demo-notice) と、ローンチの準備が整ったら削除できます。
 
-![ ストアフロントのブランディング要素 ](./assets/storefront-home-page-branding.png){width="600" zoomable="yes"}
+![&#x200B; ストアフロントのブランディング要素 &#x200B;](./assets/storefront-home-page-branding.png){width="600" zoomable="yes"}
 
 ## ロゴをアップロード
 
 ヘッダー内のロゴのサイズと場所は、ストアテーマによって決まります。 ロゴは、GIF、PNG、JPG（JPEG）のいずれかのファイルタイプとして保存し、ストアの管理者からアップロードできます。
 
-![ ヘッダー内のロゴ ](./assets/storefront-header-logo.png){width="600"}
+![&#x200B; ヘッダー内のロゴ &#x200B;](./assets/storefront-header-logo.png){width="600"}
 
 ロゴ画像はサーバー上の次の場所にあります。 `logo.svg` という名前の画像ファイルはすべて、デフォルトのテーマロゴとして使用されます。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ヘッダーのロゴに加えて、ロゴが [E メール テンプレート ](../systems/email-templates.md#prepare-your-email-logo)、[PDFの請求書 ](../stores-purchase/sales-documents.md) およびその他の営業文書にも表示されます。 メールテンプレートと請求書に使用されるロゴは、サイズの要件が異なり、別々にアップロードする必要があります。
+>ヘッダーのロゴに加えて、ロゴが [E メール テンプレート &#x200B;](../systems/email-templates.md#prepare-your-email-logo)、[PDFの請求書 &#x200B;](../stores-purchase/sales-documents.md) およびその他の営業文書にも表示されます。 メールテンプレートと請求書に使用されるロゴは、サイズの要件が異なり、別々にアップロードする必要があります。
 
 サポートされるロゴファイル形式：
 
@@ -46,13 +46,13 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-   ![ デザイン設定ページ ](./assets/design-configuration.png){width="700"}
+   ![&#x200B; デザイン設定ページ &#x200B;](./assets/design-configuration.png){width="700"}
 
 1. 設定するストア表示を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Header]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Header]**」セクションを展開します。
 
-   ![ ヘッダー設定 ](./assets/configuration-header.png){width="600"}
+   ![&#x200B; ヘッダー設定 &#x200B;](./assets/configuration-header.png){width="600"}
 
 1. 新しいロゴをアップロードするには、「**[!UICONTROL Upload]**」をクリックし、システムからファイルを選択します。
 
@@ -68,7 +68,7 @@ _favicon_ は、_お気に入りアイコン_ の略で、各ブラウザーペ�
 
 favicon は通常、16 x 16 ピクセルまたは 32 x 32 ピクセルのサイズです。 [!DNL Commerce] では ICO、PNG、APNG、GIF、JPG（JPEG）の各ファイルタイプを使用できますが、これらのフォーマットをサポートしていないブラウザーもあります。 favicon で最も広くサポートされているファイル形式は ICO です。 他の画像ファイルタイプを使用することもできますが、一部のブラウザーではその形式がサポートされていない場合があります。 ICO 画像を生成したり、画像をその形式に変換したりできる無料のツールがオンラインで多数用意されています。
 
-![ ブラウザータブの Favicon](./assets/storefront-favicon.png){width="600"}
+![&#x200B; ブラウザータブの Favicon](./assets/storefront-favicon.png){width="600"}
 
 [!DNL Commerce] は、favicon として次のファイル形式をサポートしています。
 
@@ -94,15 +94,15 @@ favicon は通常、16 x 16 ピクセルまたは 32 x 32 ピクセルのサイ�
 
 1. グリッドで、設定するストア表示を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. 「_[!UICONTROL Other Settings]_」の下の「展開セレクター ![ 「**[!UICONTROL HTML Head]**」セクション ](../assets/icon-display-expand.png) を展開します。
+1. 「_[!UICONTROL Other Settings]_」の下の「展開セレクター ![&#x200B; 「**[!UICONTROL HTML Head]**」セクション &#x200B;](../assets/icon-display-expand.png) を展開します。
 
-   ![HTML ヘッドの設定 ](./assets/configuration-html-head.png){width="600"}
+   ![HTML ヘッドの設定 &#x200B;](./assets/configuration-html-head.png){width="600"}
 
-1. 現在の favicon を削除する場合は、画像の左下隅にある _削除_ （![ ごみ箱アイコン ](../assets/icon-delete-trashcan.png)）アイコンをクリックします。
+1. 現在の favicon を削除する場合は、画像の左下隅にある _削除_ （![&#x200B; ごみ箱アイコン &#x200B;](../assets/icon-delete-trashcan.png)）アイコンをクリックします。
 
 1. 「**[!UICONTROL Upload]**」をクリックし、準備した favicon ファイルを開きます。
 
-   ![ アップロード済み favicon](./assets/favicon-upload.png){width="400"}
+   ![&#x200B; アップロード済み favicon](./assets/favicon-upload.png){width="400"}
 
 1. 完了したら、「**[!UICONTROL Save Configuration]**」をクリックします。
 
@@ -120,17 +120,17 @@ favicon は通常、16 x 16 ピクセルまたは 32 x 32 ピクセルのサイ�
 
 ヘッダーのウェルカムメッセージが展開され、ログインした顧客の名前が表示されます。 ストアを起動する前に、各ストア表示のデフォルトの _ようこそ_ テキストを必ず変更してください。
 
-![ ようこそメッセージ ](./assets/storefront-welcome-message.png){width="600"}
+![&#x200B; ようこそメッセージ &#x200B;](./assets/storefront-welcome-message.png){width="600"}
 
 1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. グリッドで、設定するストア表示を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. 「_[!UICONTROL Other Settings]_」の下の「展開セレクター ![ 「**[!UICONTROL Header]**」セクション ](../assets/icon-display-expand.png) を展開します。
+1. 「_[!UICONTROL Other Settings]_」の下の「展開セレクター ![&#x200B; 「**[!UICONTROL Header]**」セクション &#x200B;](../assets/icon-display-expand.png) を展開します。
 
 1. **[!UICONTROL Welcome Text]**：ストアのヘッダーに表示するようこそメッセージのテキストを入力します。
 
-   ![ ヘッダー設定 ](./assets/configuration-header.png){width="600"}
+   ![&#x200B; ヘッダー設定 &#x200B;](./assets/configuration-header.png){width="600"}
 
 1. 完了したら、「**[!UICONTROL Save Configuration]**」をクリックします。
 
@@ -140,7 +140,7 @@ favicon は通常、16 x 16 ピクセルまたは 32 x 32 ピクセルのサイ�
 
 ストアの各ページのフッターには著作権表示が表示されます。 ベストプラクティスとして、著作権表示には現在の年を含め、自社をサイト上のコンテンツの法的所有者として識別する必要があります。
 
-![ 著作権表示の例 ](./assets/storefront-footer-copyright.png){width="600"}
+![&#x200B; 著作権表示の例 &#x200B;](./assets/storefront-footer-copyright.png){width="600"}
 
 次の例に示すように、`&copy;` 文字コードを使用して著作権記号を挿入します。
 
@@ -158,9 +158,9 @@ favicon は通常、16 x 16 ピクセルまたは 32 x 32 ピクセルのサイ�
 
 1. グリッドで、設定するストア表示を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. _その他の設定_ の下で、「拡張セレクター ![ を展開します ](../assets/icon-display-expand.png)**[!UICONTROL Footer]** セクション。
+1. _その他の設定_ の下で、「拡張セレクター ![&#x200B; を展開します &#x200B;](../assets/icon-display-expand.png)**[!UICONTROL Footer]** セクション。
 
-   ![ フッターデザイン設定 ](./assets/configuration-footer.png){width="600"}
+   ![&#x200B; フッターデザイン設定 &#x200B;](./assets/configuration-footer.png){width="600"}
 
 1. **[!UICONTROL Copyright]**：各ページのフッターに表示する著作権表示を入力します。
 
@@ -172,15 +172,15 @@ favicon は通常、16 x 16 ピクセルまたは 32 x 32 ピクセルのサイ�
 
 店舗がオンラインでも建設中の場合は、ページの上部に店舗デモ通知を表示して、店舗がまだ営業していないことを知らせることができます。 運用開始 _の準備が整ったら_ メッセージを削除するだけです。 これは、ウィンドウにぶら下がっている記号を _閉じる_ から _開く_ に反転させることに似ています。 デモ通知の形式は、ストアのテーマによって決まります。
 
-![ ストアフロントデモのお知らせ ](./assets/storefront-demo-notice.png){width="600"}
+![&#x200B; ストアフロントデモのお知らせ &#x200B;](./assets/storefront-demo-notice.png){width="600"}
 
 1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. グリッドで、設定するストア表示を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. 「_[!UICONTROL Other Settings]_」の下の「展開セレクター ![ 「**[!UICONTROL HTML Head]**」セクション ](../assets/icon-display-expand.png) を展開します。
+1. 「_[!UICONTROL Other Settings]_」の下の「展開セレクター ![&#x200B; 「**[!UICONTROL HTML Head]**」セクション &#x200B;](../assets/icon-display-expand.png) を展開します。
 
-   ![HTMLヘッド ](./assets/configuration-html-head.png){width="600"}
+   ![HTMLヘッド &#x200B;](./assets/configuration-html-head.png){width="600"}
 
 1. 下までスクロールし、**[!UICONTROL Display Demo Store Notice]** を好みに設定します。
 

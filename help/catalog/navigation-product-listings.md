@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >カテゴリを製品属性で並べ替える場合、同じ属性値を持つ製品も _[!UICONTROL Product ID]_&#x200B;の昇順で並べ替えられます。
 
-![ グリッドとして表示される製品 ](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
+![&#x200B; グリッドとして表示される製品 &#x200B;](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
 ## 製品リストの設定
 
@@ -26,15 +26,15 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Storefront]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Storefront]**」セクションを展開します。
 
-   ![ ストアフロント設定オプション ](../configuration-reference/catalog/assets/catalog-storefront.png){width="600" zoomable="yes"}
+   ![&#x200B; ストアフロント設定オプション &#x200B;](../configuration-reference/catalog/assets/catalog-storefront.png){width="600" zoomable="yes"}
 
    これらのオプションの詳細なリストについては、「設定リファレンス [&#128279;](../configuration-reference/catalog/catalog.md#storefront) の  ストアフロント _を参照してください_。
 
    >[!NOTE]
    >
-   >_製品を価格で並べ替える_ に従って製品とその価格を正しく表示するには、[ 消費税の構成 ](../configuration-reference/sales/tax.md) に表示される価格の設定が同じ値であることを確認してください（`Excluding Tax` **または** `Including Tax`）。 _[!UICONTROL Calculation Settings]_&#x200B;の場合は、**[!UICONTROL Catalog Prices]**&#x200B;の値を確認します。 また、_[!UICONTROL Price Display Settings]_ の場合は、**[!UICONTROL Display Product Prices in Catalog]** の値を確認します。 これらの値が異なる場合、レイヤーナビゲーションの価格フィルターでは、製品を価格別に適切にフィルタリングして並べ替えることができない場合があります。
+   >_製品を価格で並べ替える_ に従って製品とその価格を正しく表示するには、[&#x200B; 消費税の構成 &#x200B;](../configuration-reference/sales/tax.md) に表示される価格の設定が同じ値であることを確認してください（`Excluding Tax` **または** `Including Tax`）。 _[!UICONTROL Calculation Settings]_&#x200B;の場合は、**[!UICONTROL Catalog Prices]**&#x200B;の値を確認します。 また、_[!UICONTROL Price Display Settings]_ の場合は、**[!UICONTROL Display Product Prices in Catalog]** の値を確認します。 これらの値が異なる場合、レイヤーナビゲーションの価格フィルターでは、製品を価格別に適切にフィルタリングして並べ替えることができない場合があります。
 
 1. デフォルトの **[!UICONTROL List Mode]** を次のいずれかに設定します。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    この設定を有効にすると、買い物客がカテゴリ間を参照しても、リストまたはグリッドに表示される製品数が保持されます。 デフォルトでは、このフィールドは `No` に設定されています。これは、より多くのキャッシュストレージを使用し、検索エンジンによるページのインデックス作成方法に影響を与える可能性があるためです。
 
-1. [ フラットカタログ ](catalog-flat.md) を使用する場合（**推奨しません**）、次の操作を行います。
+1. [&#x200B; フラットカタログ &#x200B;](catalog-flat.md) を使用する場合（**推奨しません**）、次の操作を行います。
 
    - 製品のフラット・カテゴリ・リストを表示するには、**[!UICONTROL Use Flat Catalog Category]** を `Yes` に設定します。
 
@@ -88,16 +88,16 @@ ht-degree: 0%
 
 ページネーション設定は、リストの上部および下部に表示され、製品リストのページネーションリンクの形式を制御します。 コントロールに表示されるリンクの数を設定し、[ 次へ ] リンクと [ 前へ ] リンクを構成できます。 ページネーションリンクを表示するには、製品リスト設定で 1 ページに許可されている数よりも多くの製品がリストに含まれている必要があります。
 
-![ ページネーションコントロール ](./assets/storefront-pagination-controls.png){width="700" zoomable="yes"}
+![&#x200B; ページネーションコントロール &#x200B;](./assets/storefront-pagination-controls.png){width="700" zoomable="yes"}
 
 ### ストアフロントのページネーションコントロール
 
 | 制御 | 説明 |
 |--- |--- |
-| ![ グリッドを表示 ](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - リストをグリッド形式またはリスト形式で表示します。 |
-| ![ 並べ替え ](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - リストの並べ替え順を変更します。 _[!UICONTROL Used for Sorting in Product Listing]_&#x200B;storefront プロパティは、リストの並べ替えに使用できる [ 製品属性 ](../catalog/product-attributes.md) を決定します。 |
-| ![ ページごとに表示 ](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - ページごとに表示される製品の数を決定します。 |
-| ![ ページネーションリンク ](./assets/control-pagination.png) | ページネーションリンク – 他のページへのナビゲーションリンク。 |
+| ![&#x200B; グリッドを表示 &#x200B;](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - リストをグリッド形式またはリスト形式で表示します。 |
+| ![&#x200B; 並べ替え &#x200B;](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - リストの並べ替え順を変更します。 _[!UICONTROL Used for Sorting in Product Listing]_&#x200B;storefront プロパティは、リストの並べ替えに使用できる [&#x200B; 製品属性 &#x200B;](../catalog/product-attributes.md) を決定します。 |
+| ![&#x200B; ページごとに表示 &#x200B;](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - ページごとに表示される製品の数を決定します。 |
+| ![&#x200B; ページネーションリンク &#x200B;](./assets/control-pagination.png) | ページネーションリンク – 他のページへのナビゲーションリンク。 |
 
 {style="table-layout:auto"}
 
@@ -107,11 +107,11 @@ ht-degree: 0%
 
 1. 設定するストア表示を見つけ、「**[!UICONTROL Action]**」列の「**[!UICONTROL Edit]**」をクリックします。
 
-1. 「**[!UICONTROL Other Settings]**」の下の「展開セレクター ![ 「**[!UICONTROL Pagination]**」セクション ](../assets/icon-display-expand.png) を展開します。
+1. 「**[!UICONTROL Other Settings]**」の下の「展開セレクター ![&#x200B; 「**[!UICONTROL Pagination]**」セクション &#x200B;](../assets/icon-display-expand.png) を展開します。
 
-   ![ ページネーション ](./assets/config-design-pagination.png){width="600" zoomable="yes"}
+   ![&#x200B; ページネーション &#x200B;](./assets/config-design-pagination.png){width="600" zoomable="yes"}
 
-   これらの設定について詳しくは、「[ デザイン設定 ](../content-design/configuration.md)」を参照してください。
+   これらの設定について詳しくは、「[&#x200B; デザイン設定 &#x200B;](../content-design/configuration.md)」を参照してください。
 
 1. **[!UICONTROL Pagination Frame]**：ページネーションコントロールに表示するリンク数を入力します。
 

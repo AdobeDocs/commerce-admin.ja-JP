@@ -32,18 +32,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->チェックアウトプロセスの設定について詳しくは、「[ チェックアウトオプション ](checkout-process.md)」を参照してください。
+>チェックアウトプロセスの設定について詳しくは、「[&#x200B; チェックアウトオプション &#x200B;](checkout-process.md)」を参照してください。
 
 ## ミニカート
 
 _ミニカート_ には、カート内の項目の概要が表示されます。 この機能はデフォルトで有効になっており、ページ上部の「買い物かご」リンクをクリックすると表示されます。
 このリンクは、カート内の異なる製品（または SKU）の数や、すべての項目の合計数を表示するように設定できます。
 
-![ 買い物客は、製品ページの買い物かごサイドバーを表示します ](./assets/storefront-mini-cart-watch.png){width="700" zoomable="yes"}
+![&#x200B; 買い物客は、製品ページの買い物かごサイドバーを表示します &#x200B;](./assets/storefront-mini-cart-watch.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->_登録済み_ のお客様の場合、複数のデバイスやブラウザー間でミニカートが自動的に同期されない場合があります。 このような場合にミニカートを同期するには、お客様はデバイスまたはブラウザーで [ 買い物かご ](cart.md) ページを開くだけです。
+>_登録済み_ のお客様の場合、複数のデバイスやブラウザー間でミニカートが自動的に同期されない場合があります。 このような場合にミニカートを同期するには、お客様はデバイスまたはブラウザーで [&#x200B; 買い物かご &#x200B;](cart.md) ページを開くだけです。
 
 ### ミニ買い物かごの設定
 
@@ -51,11 +51,11 @@ _ミニカート_ には、カート内の項目の概要が表示されます�
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「_[!UICONTROL Mini Cart]_」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「_[!UICONTROL Mini Cart]_」セクションを展開します。
 
-   ![ ミニカートの設定 ](../configuration-reference/sales/assets/checkout-mini-cart.png){width="600" zoomable="yes"}
+   ![&#x200B; ミニカートの設定 &#x200B;](../configuration-reference/sales/assets/checkout-mini-cart.png){width="600" zoomable="yes"}
 
-1. 設定が特定のストア表示の場合は、[ ストア表示を選択 ](../configuration-reference/scope-change.md#set-the-scope) して設定が適用されます。
+1. 設定が特定のストア表示の場合は、[&#x200B; ストア表示を選択 &#x200B;](../configuration-reference/scope-change.md#set-the-scope) して設定が適用されます。
 
    プロンプトが表示されたら、「**[!UICONTROL OK]**」をクリックして続行します。
 
@@ -77,20 +77,20 @@ _ミニカート_ には、カート内の項目の概要が表示されます�
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL My Cart Link]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL My Cart Link]**」セクションを展開します。
 
 1. **[!UICONTROL Display Cart Summary]** を次のいずれかの設定に設定します。
 
    - `Display item quantities` – この設定では、買い物かごにある製品の合計数が表示され、各製品の数量が追加されます。
    - `Display number of items in cart` – この設定では、数量に関係なく、買い物かごの製品項目数が表示されます。
 
-   ![ 買い物かごリンクの設定オプション ](../configuration-reference/sales/assets/checkout-my-cart-link.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かごリンクの設定オプション &#x200B;](../configuration-reference/sales/assets/checkout-my-cart-link.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save Config]**」をクリックします。
 
 ## 買い物かごにリダイレクト
 
-買い物かごページは、商品が買い物かごに追加されたときまたは顧客がページに移動を選択したときにのみ表示されるように設定できます。 現在カートに入っている商品に関する基本情報は、常に [ ミニカート ](#mini-cart) で利用できます。 この決定は、顧客が買い物を続けることの利点と、チェックアウトに進むことを促すことの利点とのバランスを取ることです。 それは個人的な好みの単純な問題かもしれません。 ただし、数値でバックアップする場合は、A/B テストを実行して、どのアプローチがより高いコンバージョン率を生み出すかを確認できます。
+買い物かごページは、商品が買い物かごに追加されたときまたは顧客がページに移動を選択したときにのみ表示されるように設定できます。 現在カートに入っている商品に関する基本情報は、常に [&#x200B; ミニカート &#x200B;](#mini-cart) で利用できます。 この決定は、顧客が買い物を続けることの利点と、チェックアウトに進むことを促すことの利点とのバランスを取ることです。 それは個人的な好みの単純な問題かもしれません。 ただし、数値でバックアップする場合は、A/B テストを実行して、どのアプローチがより高いコンバージョン率を生み出すかを確認できます。
 
 **_買い物かごが表示されるタイミングを設定するには：_**
 
@@ -98,11 +98,11 @@ _ミニカート_ には、カート内の項目の概要が表示されます�
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Shopping Cart]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Shopping Cart]**」セクションを展開します。
 
-   ![ ページで展開された買い物かご設定 ](../configuration-reference/sales/assets/checkout-shopping-cart.png){width="600" zoomable="yes"}
+   ![&#x200B; ページで展開された買い物かご設定 &#x200B;](../configuration-reference/sales/assets/checkout-shopping-cart.png){width="600" zoomable="yes"}
 
-1. 設定が特定のストア表示の場合は、[ ストア表示を選択 ](../configuration-reference/scope-change.md#set-the-scope) して設定が適用されます。
+1. 設定が特定のストア表示の場合は、[&#x200B; ストア表示を選択 &#x200B;](../configuration-reference/scope-change.md#set-the-scope) して設定が適用されます。
 
    プロンプトが表示されたら、「**[!UICONTROL OK]**」をクリックして続行します。
 
@@ -125,11 +125,11 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Shopping Cart]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Shopping Cart]**」セクションを展開します。
 
-   ![ ページで展開された買い物かご設定 ](../configuration-reference/sales/assets/checkout-shopping-cart.png){width="600" zoomable="yes"}
+   ![&#x200B; ページで展開された買い物かご設定 &#x200B;](../configuration-reference/sales/assets/checkout-shopping-cart.png){width="600" zoomable="yes"}
 
-1. 設定が特定のストア表示の場合は、[ ストア表示を選択 ](../configuration-reference/scope-change.md#set-the-scope) して設定が適用されます。
+1. 設定が特定のストア表示の場合は、[&#x200B; ストア表示を選択 &#x200B;](../configuration-reference/scope-change.md#set-the-scope) して設定が適用されます。
 
    プロンプトが表示されたら、「**[!UICONTROL OK]**」をクリックして続行します。
 
@@ -141,7 +141,7 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
 
 この設定を使用すると、割引が適用された後に、注文の小計が満たされる必要がある最小金額を指定できます。 複数の住所に発送された注文は、住所ごとの最小注文金額を満たすために必要になる場合があります。 「チェックアウト」ボタンは、最小注文金額に達した後にのみ使用できるようになります。
 
-![ ショッピングカートに最小注文メッセージが表示されます ](./assets/storefront-cart-minimum-order-amount.png){width="700" zoomable="yes"}
+![&#x200B; ショッピングカートに最小注文メッセージが表示されます &#x200B;](./assets/storefront-cart-minimum-order-amount.png){width="700" zoomable="yes"}
 
 **_最小注文金額を設定するには：_**
 
@@ -149,9 +149,9 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、その下の「**[!UICONTROL Sales]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Minimum Order Amount]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Minimum Order Amount]**」セクションを展開します。
 
-   ![ ページで展開された最小注文設定オプション ](../configuration-reference/sales/assets/sales-minimum-order-amount.png){width="600" zoomable="yes"}
+   ![&#x200B; ページで展開された最小注文設定オプション &#x200B;](../configuration-reference/sales/assets/sales-minimum-order-amount.png){width="600" zoomable="yes"}
 
 1. 最小注文額を要求するには、**[!UICONTROL Enable]** を `Yes` に設定します。
 
@@ -199,9 +199,9 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、「**[!UICONTROL Inventory]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Product Stock Options]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Product Stock Options]**」セクションを展開します。
 
-   ![ 商品ストックオプション ](../configuration-reference/catalog/assets/catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
+   ![&#x200B; 商品ストックオプション &#x200B;](../configuration-reference/catalog/assets/catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Minimum Qty Allowed in Shopping Cart]**：注文の商品の最小数量を設定します。
 
@@ -213,7 +213,7 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
 
 1. 「**[!UICONTROL Save Config]**」をクリックします。
 
-   ![ 買い物かごでの最小数量要件 ](./assets/minimum-qty-allowed-in-shopping-cart.png){width="700" zoomable="yes"}
+   ![&#x200B; 買い物かごでの最小数量要件 &#x200B;](./assets/minimum-qty-allowed-in-shopping-cart.png){width="700" zoomable="yes"}
 
 ## 買い物かごのサムネイル
 
@@ -223,7 +223,7 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
 
 グループ化された製品と設定可能な製品の両方のサムネール画像を、「親」製品または製品バリエーションのいずれかから画像を表示するように設定できます。
 
-![ 買い物かごには、各製品のサムネール画像が表示されます ](./assets/storefront-cart.png){width="700" zoomable="yes"}
+![&#x200B; 買い物かごには、各製品のサムネール画像が表示されます &#x200B;](./assets/storefront-cart.png){width="700" zoomable="yes"}
 
 **_買い物かごのサムネールを設定するには：_**
 
@@ -231,16 +231,16 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Shopping Cart]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Shopping Cart]**」セクションを展開します。
 
-   ![ ページで展開された買い物かご設定 ](../configuration-reference/sales/assets/checkout-shopping-cart.png){width="600" zoomable="yes"}
+   ![&#x200B; ページで展開された買い物かご設定 &#x200B;](../configuration-reference/sales/assets/checkout-shopping-cart.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Grouped Product Image]** を設定して、買い物かごで [ グループ化された製品 ](../catalog/product-create-grouped.md) に使用するサムネールを決定します。
+1. **[!UICONTROL Grouped Product Image]** を設定して、買い物かごで [&#x200B; グループ化された製品 &#x200B;](../catalog/product-create-grouped.md) に使用するサムネールを決定します。
 
    - `Product Thumbnail Itself` – 買い物かごに追加された製品バリエーションに割り当てられたサムネールを使用します。
    - `Parent Product Thumbnail` – 親製品に割り当てられたサムネールを使用します。
 
-1. **[!UICONTROL Configurable Product Image]** を設定して、買い物かごで [ 設定可能な製品 ](../catalog/product-create-configurable.md) に使用するサムネールを決定します。
+1. **[!UICONTROL Configurable Product Image]** を設定して、買い物かごで [&#x200B; 設定可能な製品 &#x200B;](../catalog/product-create-configurable.md) に使用するサムネールを決定します。
 
    - `Product Thumbnail Itself` – 買い物かごに追加された製品バリエーションに割り当てられたサムネールを使用します。
    - `Parent Product Thumbnail` – 親製品に割り当てられたサムネールを使用します。
@@ -251,7 +251,7 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
 
 チェックアウト処理が開始される前に、使用可能なギフトオプションの選択がカートに表示されます。 ギフトオプションの設定によって、顧客がギフトメッセージまたはグリーティングカードを追加できるかどうか、およびギフトラッピングのオプションが利用できるかどうかが決まります。 注文の各項目には、個別のメッセージとギフト包装を含めることができます。 注文全体に適用すると、お客様はギフトレシートとグリーティングカードを追加することもできます。
 
-![ ストアフロントの例 – ショッピングカートのギフトオプション ](./assets/storefront-cart-gift-options-for-products-or-order.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの例 – ショッピングカートのギフトオプション &#x200B;](./assets/storefront-cart-gift-options-for-products-or-order.png){width="700" zoomable="yes"}
 
 ギフトオプションの設定は web サイト全体に適用されますが、製品レベルで上書きできます。
 
@@ -261,9 +261,9 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、その下の「**[!UICONTROL Sales]**」を選択します。
 
-1. ページの ![ 拡張セレクター ](../assets/icon-display-expand.png)**[!UICONTROL Gift Options]** を展開します。
+1. ページの ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png)**[!UICONTROL Gift Options]** を展開します。
 
-   ![ 販売設定 – ギフトオプション設定 ](../configuration-reference/sales/assets/sales-gift-options.png){width="600" zoomable="yes"}
+   ![&#x200B; 販売設定 – ギフトオプション設定 &#x200B;](../configuration-reference/sales/assets/sales-gift-options.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、ギフトメッセージのオプションを設定します。
 
@@ -275,7 +275,7 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
    - **[!UICONTROL Allow Gift Wrapping on Order Level]** の場合、`Yes` を選択すると、注文全体に対して単一のギフトラッピングが有効になります。
    - **[!UICONTROL Allow Gift Wrapping for Order Items]** しくは、「`Yes`」を選択すると、顧客の買い物かごにある各項目に個別にギフトラッピングを追加できます。
 
-   また、様々な [ ギフト包装デザイン ](#gift-wrap) を定義して、顧客が包装を選択できるようにすることもできます。
+   また、様々な [&#x200B; ギフト包装デザイン &#x200B;](#gift-wrap) を定義して、顧客が包装を選択できるようにすることもできます。
 
 1. ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）お客様にギフト用レシートを含めるオプションを提供するには、**[!UICONTROL Allow Gift Receipt]** を `Yes` に設定します。
 
@@ -289,17 +289,17 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
 
 ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）
 
-ギフトラッピングは、出荷可能な任意の製品で利用でき、個々のアイテムまたは全体の注文に対して提供できます。 ギフトラップデザインごとに別々の価格を請求し、買い物かごに商品のオプションとして表示されるデザインごとにサムネール画像をアップロードできます。 顧客がギフトラップのサムネールをクリックすると、フルサイズの画像が表示されます。 チェックアウトレビュー中、ギフト折り返し料金は、他の [ チェックアウトの合計 ](checkout-totals-sort-order.md) と共に _注文概要_ セクションに表示されます。
+ギフトラッピングは、出荷可能な任意の製品で利用でき、個々のアイテムまたは全体の注文に対して提供できます。 ギフトラップデザインごとに別々の価格を請求し、買い物かごに商品のオプションとして表示されるデザインごとにサムネール画像をアップロードできます。 顧客がギフトラップのサムネールをクリックすると、フルサイズの画像が表示されます。 チェックアウトレビュー中、ギフト折り返し料金は、他の [&#x200B; チェックアウトの合計 &#x200B;](checkout-totals-sort-order.md) と共に _注文概要_ セクションに表示されます。
 
 ギフト ラップ画像は、繰り返しパターンを示す見本である必要があり、使用するリボンのサンプルを含めることもできます。 紙をスキャンするか、包装されたパッケージの写真を撮ることができます。 アップロードできる画像はGIF、JPG、PNG 画像で、正方形にする必要があります。 次の例では、アップロードされたギフトラップ画像が 230 x 230 ピクセルです。
 
-![ 買い物かご内のギフトオプション ](./assets/storefront-cart-gift-options-gift-wrap.png){width="700" zoomable="yes"}
+![&#x200B; 買い物かご内のギフトオプション &#x200B;](./assets/storefront-cart-gift-options-gift-wrap.png){width="700" zoomable="yes"}
 
 #### ギフトラップデザインの追加
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Gift Wrapping]**&#x200B;に移動します。
 
-   ![ ギフト包装グリッド ](./assets/gift-wrapping.png){width="700" zoomable="yes"}
+   ![&#x200B; ギフト包装グリッド &#x200B;](./assets/gift-wrapping.png){width="700" zoomable="yes"}
 
 1. 右上隅の「**[!UICONTROL Add Gift Wrapping]**」をクリックします。
 
@@ -317,7 +317,7 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
 
    この設定は、製品レベルで設定されたギフトラップ価格で上書きできます。
 
-   ![ 新しいギフトラッピング ](./assets/gift-wrapping-new.png){width="600" zoomable="yes"}
+   ![&#x200B; 新しいギフトラッピング &#x200B;](./assets/gift-wrapping-new.png){width="600" zoomable="yes"}
 
 1. ギフトラッピングのサムネール **[!UICONTROL Image]** をアップロードするには、「**[!UICONTROL Choose File]**」をクリックし、アップロードするファイルをディレクトリから選択します。
 
@@ -333,7 +333,7 @@ Adobe Commerce B2B をインストールして有効化すると、_Quotes_ 機�
 
 1. _アクション_ 列の「**[!UICONTROL Edit]**」をクリックします。
 
-   ![ ギフト包装情報の編集 ](./assets/gift-wrapping-edit.png){width="600" zoomable="yes"}
+   ![&#x200B; ギフト包装情報の編集 &#x200B;](./assets/gift-wrapping-edit.png){width="600" zoomable="yes"}
 
 1. 必要な変更を加えます。
 
@@ -371,15 +371,15 @@ _ギフトラッピング_ グリッドを開いた状態で、これらの方�
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Tax]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Tax Classes]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Tax Classes]**」セクションを展開します。
 
-   ![ 税クラスのコンフィギュレーション ](../configuration-reference/sales/assets/tax-tax-classes.png){width="600" zoomable="yes"}
+   ![&#x200B; 税クラスのコンフィギュレーション &#x200B;](../configuration-reference/sales/assets/tax-tax-classes.png){width="600" zoomable="yes"}
 
 1. 該当する税区分に **[!UICONTROL Tax Class for Gift Options]** を設定します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Orders, Invoices, Credit Memos Display Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Orders, Invoices, Credit Memos Display Settings]**」セクションを展開します。
 
-   ![ 注文、請求書、クレジットメモの表示設定 ](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 注文、請求書、クレジットメモの表示設定 &#x200B;](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Display Gift Wrapping Prices]** を次のいずれかに設定します。
 

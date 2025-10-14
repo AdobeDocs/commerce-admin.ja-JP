@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # カテゴリ製品の追加と削除
 
-「[ カテゴリの製品 ](categories-product-assignments.md)」セクションでは、店舗管理者が商品をカテゴリに追加できます。 このセクションには、カテゴリに割り当てられているすべての製品が一覧表示され、「**[!UICONTROL Match products by rule]**」が「`No`」に設定されている場合にの **[!UICONTROL Add Product]** 表示されます。
+「[&#x200B; カテゴリの製品 &#x200B;](categories-product-assignments.md)」セクションでは、店舗管理者が商品をカテゴリに追加できます。 このセクションには、カテゴリに割り当てられているすべての製品が一覧表示され、「**[!UICONTROL Match products by rule]**」が「`No`」に設定されている場合にの **[!UICONTROL Add Product]** 表示されます。
 
-![ 製品カテゴリー ](./assets/category-products-in-category.png){width="600" zoomable="yes"}
+![&#x200B; 製品カテゴリー &#x200B;](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
 ## 追加する製品を検索
 
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 1. 左側のカテゴリツリーで、製品を追加するカテゴリを選択します。
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png) 「カテゴリ内の商品 _セクション_ を展開します。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「カテゴリ内の商品 _セクション_ を展開します。
 
 1. 「**[!UICONTROL Add Products]**」をクリックします。
 
 1. _キーワードで検索_ またはフィルターを使用して、追加する製品を見つけます。
 
-   ![ 「すべての製品を検索」タブ ](./assets/search-all-product.png){width="700" zoomable="yes"}
+   ![&#x200B; 「すべての製品を検索」タブ &#x200B;](./assets/search-all-product.png){width="700" zoomable="yes"}
 
 1. _[!UICONTROL Assign]_&#x200B;列で、追加する各製品のオプションを `Yes` に切り替えます。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
    変更を破棄するには、[**[!UICONTROL Remove]**] をクリックします。
 
-   ![ 「SKU による製品の追加」タブ ](./assets/add-product-by-sku.png){width="700" zoomable="yes"}
+   ![&#x200B; 「SKU による製品の追加」タブ &#x200B;](./assets/add-product-by-sku.png){width="700" zoomable="yes"}
 
 1. 変更を適用するには、[**[!UICONTROL Save and Close]**] をクリックします。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 1. 左側のカテゴリ ツリーで、編集するカテゴリを選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「_[!UICONTROL Products in Category]_」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「_[!UICONTROL Products in Category]_」セクションを展開します。
 
 1. 削除する製品を検索します。
 

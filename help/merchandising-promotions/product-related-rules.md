@@ -14,13 +14,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-関連製品ルールを使用すると、関連製品、アップセルおよびクロスセルとして顧客に表示される製品の選択をターゲットにすることができます。 各製品ルールを [ 顧客セグメント ](../customers/customer-segments.md) に関連付けて、ターゲットマーチャンダイジングの動的表示を作成できます。
+関連製品ルールを使用すると、関連製品、アップセルおよびクロスセルとして顧客に表示される製品の選択をターゲットにすることができます。 各製品ルールを [&#x200B; 顧客セグメント &#x200B;](../customers/customer-segments.md) に関連付けて、ターゲットマーチャンダイジングの動的表示を作成できます。
 
 同時に複数のアクティブなルールをトリガーできるので、ルールごとに優先度を設定できます。 ルールが適用される順序と、ページ上での製品の表示順序を定義します。
 
 関連する製品ルールにアクセスするには、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Related Product Rules]**&#x200B;に移動します。
 
-![ 関連製品ルールリスト ](./assets/related-products-rules.png){width="700" zoomable="yes"}
+![&#x200B; 関連製品ルールリスト &#x200B;](./assets/related-products-rules.png){width="700" zoomable="yes"}
 
 ## 列の説明
 
@@ -71,9 +71,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下にある「**[!UICONTROL Catalog]**」を選択します。
 
-1. **[!UICONTROL Rules-Based Product Relations]** のセクションの ![ 展開 ](../assets/icon-display-expand.png) を展開します。
+1. **[!UICONTROL Rules-Based Product Relations]** のセクションの ![&#x200B; 展開 &#x200B;](../assets/icon-display-expand.png) を展開します。
 
-   ![ カタログの設定 – ルールベースの製品関係 ](../configuration-reference/catalog/assets/catalog-rule-based-product-relations.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログの設定 – ルールベースの製品関係 &#x200B;](../configuration-reference/catalog/assets/catalog-rule-based-product-relations.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Maximum Number of Products in the Related Products List]** を入力します。
 
@@ -140,4 +140,4 @@ ht-degree: 0%
 >この機能はベータ版です。 ベータ版プログラムへの参加を希望される場合は、[dataconnection@adobe.com](mailto:dataconnection@adobe.com) にリクエストを送信してください。
 
 
-Real-Time CDP オーディエンスをAdobe Commerce インスタンスに [ アクティブ化 ](../customers/audience-activation.md) して、関連する商品ルールを通知する方法を説明します。
+Real-Time CDP オーディエンスをAdobe Commerce インスタンスに [&#x200B; アクティブ化 &#x200B;](../customers/audience-activation.md) して、関連する商品ルールを通知する方法を説明します。

@@ -20,17 +20,17 @@ Data Management Dashboard は、アクティブなライセンスを持つ [[!DN
 
 データ管理ダッシュボードは、*システム*/データ転送/*データ管理ダッシュボード* にあります。
 
-![ データ管理ダッシュボード ](assets/data-management-dashboard.png)
+![&#x200B; データ管理ダッシュボード &#x200B;](assets/data-management-dashboard.png)
 
 ダッシュボードには、次のフィールドが含まれています。
 
 | フィールド | 説明 |
 |--- |--- |
 | 対象範囲 | 同期されたデータの特定の web サイト。 |
-| [!DNL Product Recommendations] | 同期ステータス、同期された製品の数、同期された製品の [ 表示可能 ](https://experienceleague.adobe.com/ja/docs/commerce-admin/config/catalog/inventory#stock-options) テーブルを表示します [!DNL Product Recommendations] |
-| [!DNL Live Search] | 同期ステータス、同期された製品の数、同期された製品の [ 表示可能 ](https://experienceleague.adobe.com/ja/docs/commerce-admin/config/catalog/inventory#stock-options) テーブルを表示します [!DNL Live Search] |
+| [!DNL Product Recommendations] | 同期ステータス、同期された製品の数、同期された製品の [&#x200B; 表示可能 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/config/catalog/inventory#stock-options) テーブルを表示します [!DNL Product Recommendations] |
+| [!DNL Live Search] | 同期ステータス、同期された製品の数、同期された製品の [&#x200B; 表示可能 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/config/catalog/inventory#stock-options) テーブルを表示します [!DNL Live Search] |
 | [!DNL Catalog Service] | 同期ステータス、同期された製品の数、同期された製品のテーブルを表示して [!DNL Catalog Service] ます。 |
-| 設定 | ダイアログが開きます。このダイアログで [ カタログ データを手動で再同期 ](#resync-catalog-data) できます。 |
+| 設定 | ダイアログが開きます。このダイアログで [&#x200B; カタログ データを手動で再同期 &#x200B;](#resync-catalog-data) できます。 |
 | 同期ステータス | 過去 3 時間以内にCommerce データベースからいずれかの SaaS サービスに転送された商品の数を表示します。 カタログを更新する頻度が低い場合、この値は頻繁にゼロになります。 同期が進行中の場合は、「**[!UICONTROL Refresh]**」をクリックすると、更新されたカウントを取得できます。 |
 | 製品数 | サービスで利用できるカタログ製品の合計数を反映します。 [!DNL Product Recommendations] ダッシュボードと [!DNL Live Search] ダッシュボードには、_表示可能_ 製品の合計数が表示されます。 [!DNL Catalog Service] では、表示可能な項目で製品がフィルタリングされないので、[!DNL Catalog Service] と [!DNL Live Search] の両方がインストールされている場合、または [!DNL Product Recommendations] がインストールされている場合、2 つのダッシュボードの製品数に 2 つの異なる値が表示される可能性があります。 |
 | 同期された製品 | コア Commerce インデックスに含まれる製品に関する詳細を提供します。 デフォルトでは、このテーブルは「最終更新日」で並べ替えられます。 特定の製品を検索するには、「**[!UICONTROL Search by SKU]**」フィールドを使用します。 表示する列を制御するには、テーブルの右側の **[!UICONTROL Customize Table]** をクリックします。 |
@@ -47,19 +47,19 @@ Commerce データベース内の商品を更新すると、商品データは�
 
 >[!NOTE]
 >
->また、Adobeは、開発者やシステムインテグレーターがCommerce SaaS サービスの同期処理の管理とトラッキング、エラーのトラブルシューティングに使用できるコマンドラインインターフェイスとシステムログも提供します。 詳細については、「[SaaS データ書き出しガイド ](https://experienceleague.adobe.com/ja/docs/commerce/saas-data-export/overview)」を参照してください。
+>また、Adobeは、開発者やシステムインテグレーターがCommerce SaaS サービスの同期処理の管理とトラッキング、エラーのトラブルシューティングに使用できるコマンドラインインターフェイスとシステムログも提供します。 詳細については、「[SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/saas-data-export/overview)」を参照してください。
 
 ### 同期された製品のリスト
 
 同期された製品の詳細を表示するには、テーブルの製品をクリックします。
 
-![Syncd 製品詳細 ](assets/sync-product-detail.png)
+![Syncd 製品詳細 &#x200B;](assets/sync-product-detail.png)
 
 ### カタログデータを再同期
 
-Commerce SaaS サービスを常に最新の商品情報で更新するには、カタログデータを同期する [ スケジュールを設定する ](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) 必要があります。
+Commerce SaaS サービスを常に最新の商品情報で更新するには、カタログデータを同期する [&#x200B; スケジュールを設定する &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) 必要があります。
 
-カタログデータをCommerce データベースから SaaS サービスに [ 手動で同期 ](#manually-resync-catalog) することもできますが、ハードウェアリソースの負荷が増える可能性があるので、この方法はお勧めしません。 ただし、次のような場合は、カタログを手動で再同期する必要があります。
+カタログデータをCommerce データベースから SaaS サービスに [&#x200B; 手動で同期 &#x200B;](#manually-resync-catalog) することもできますが、ハードウェアリソースの負荷が増える可能性があるので、この方法はお勧めしません。 ただし、次のような場合は、カタログを手動で再同期する必要があります。
 
 - 新製品の追加、製品の詳細の更新、カテゴリの変更など、製品カタログに大きな変更が加えられた場合
 
@@ -75,4 +75,4 @@ Commerce SaaS サービスを常に最新の商品情報で更新するには、
 
 カタログデータを再同期する必要がある場合は、ページの右側の **[!UICONTROL Settings]** をクリックすると、再同期を開始できるダイアログが表示されます。 カタログデータを再同期すると、サービスはCommerce データベースから SaaS サービスにデータを再取得する必要があります。
 
-![ 製品を手動で同期 ](assets/resync-data.png)
+![&#x200B; 製品を手動で同期 &#x200B;](assets/resync-data.png)

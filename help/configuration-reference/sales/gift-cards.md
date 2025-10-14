@@ -18,24 +18,24 @@ ht-degree: 1%
 
 ## [!UICONTROL Gift Card Email Settings]
 
-![ ギフト カード E メールの設定 ](./assets/gift-cards-gift-card-email-settings.png)<!-- zoom -->
+![&#x200B; ギフト カード E メールの設定 &#x200B;](./assets/gift-cards-gift-card-email-settings.png)<!-- zoom -->
 
 <!-- [Gift Card Email Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Gift Card Notification Email Sender] | ストア表示 | ギフト カード通知 E メールの送信者として表示される [ 店舗連絡先 ](../../getting-started/store-details.md#store-email-addresses) を識別します。 デフォルト値：`General Contact` |
-| [!UICONTROL Gift Card Notification Email Template] | ストア表示 | ギフト カード通知 E メールに使用する [ テンプレート ](../../systems/email-templates.md) を決定します。 |
+| [!UICONTROL Gift Card Notification Email Sender] | ストア表示 | ギフト カード通知 E メールの送信者として表示される [&#x200B; 店舗連絡先 &#x200B;](../../getting-started/store-details.md#store-email-addresses) を識別します。 デフォルト値：`General Contact` |
+| [!UICONTROL Gift Card Notification Email Template] | ストア表示 | ギフト カード通知 E メールに使用する [&#x200B; テンプレート &#x200B;](../../systems/email-templates.md) を決定します。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card General Settings]
 
-![ ギフト カードの一般設定 ](./assets/gift-cards-gift-card-general-settings.png)<!-- zoom -->
+![&#x200B; ギフト カードの一般設定 &#x200B;](./assets/gift-cards-gift-card-general-settings.png)<!-- zoom -->
 
 <!-- [Gift Card General Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Redeemable] | グローバル | ギフトカードの所有者が現金に対する価値を引き換えることができるかどうかを決定します。 オプション：`Yes`/`No`。 |
 | [!UICONTROL Lifetime (days)] | グローバル | カードが有効な日数を決定します。 空白のままにすると、カードの有効期限は切れません。 <br/><br/>**_重要：_**&#x200B;一部の場所では、ギフトカードに有効期限データを設定することは違法です。 ギフトカードの有効期間を設定する前に、地域の法律を確認してください。 |
@@ -47,24 +47,24 @@ ht-degree: 1%
 
 ## [!UICONTROL Email Sent from Gift Card Account Management]
 
-![ ギフト カード アカウント管理から送信された電子メール ](./assets/gift-cards-email-sent-from-account.png)<!-- zoom -->
+![&#x200B; ギフト カード アカウント管理から送信された電子メール &#x200B;](./assets/gift-cards-email-sent-from-account.png)<!-- zoom -->
 
 <!-- [Email Sent from Gift Card Account Management](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Gift Card Email Sender] | ストア表示 | ギフト カード E メールの送信者として表示される [ 店舗連絡先 ](../../getting-started/store-details.md#store-email-addresses) を識別します。 デフォルト値：`General Contact` |
-| [!UICONTROL Gift Card Template] | ストア表示 | ギフト カードの電子メールに使用する [ テンプレート ](../../systems/email-templates.md) を決定します。 |
+| [!UICONTROL Gift Card Email Sender] | ストア表示 | ギフト カード E メールの送信者として表示される [&#x200B; 店舗連絡先 &#x200B;](../../getting-started/store-details.md#store-email-addresses) を識別します。 デフォルト値：`General Contact` |
+| [!UICONTROL Gift Card Template] | ストア表示 | ギフト カードの電子メールに使用する [&#x200B; テンプレート &#x200B;](../../systems/email-templates.md) を決定します。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card Account General Settings]
 
-![ ギフト カード アカウントの一般設定 ](./assets/gift-cards-gift-card-account-general-settings.png)<!-- zoom -->
+![&#x200B; ギフト カード アカウントの一般設定 &#x200B;](./assets/gift-cards-gift-card-account-general-settings.png)<!-- zoom -->
 
 <!-- [Gift Card Account General Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Code Length] | グローバル | ギフト カード コードの長さを決定します。 |
 | [!UICONTROL Code Format] | グローバル | ギフト カード コードの形式を決定します。 オプション：`Alphanumeric` / `Numeric` |

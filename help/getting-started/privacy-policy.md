@@ -26,7 +26,7 @@ ht-degree: 0%
 
 情報が適用される個人の身元を許可する情報の表現は、直接的または間接的な手段のいずれかによって合理的に推測されます。 PII は、個人を直接識別する情報（名前、住所、社会保障番号、その他の識別番号など）として定義されます。 また、他のデータ要素を用いて特定の個人を識別しようとする情報（間接識別）でもあります。 これらのデータ要素には、性別、人種、生年月日、地理的指標、その他の記述子の組み合わせが含まれる場合があります。 また、特定の個人の物理的またはオンラインでの接触を許可する情報は、個人を特定できる情報と同じであることが含まれます。 この情報は、紙、電子、またはその他のメディアで維持管理できます。
 
-![ ストアフロントの例 – プライバシーポリシー ](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
+![&#x200B; ストアフロントの例 – プライバシーポリシー &#x200B;](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
 
 ## プライバシーポリシーを編集
 
@@ -40,12 +40,12 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >プライバシーポリシーページの URL キーを変更する場合は、新しい URL キーにトラフィックをリダイレクトする [ カスタム URL 書き換え ](../merchandising-promotions/url-rewrite-custom.md) を作成する必要もあります。 それ以外の場合、フッター内のリンクは `404 Page Not Found` を返します。
+   >プライバシーポリシーページの URL キーを変更する場合は、新しい URL キーにトラフィックをリダイレクトする [&#x200B; カスタム URL 書き換え &#x200B;](../merchandising-promotions/url-rewrite-custom.md) を作成する必要もあります。 それ以外の場合、フッター内のリンクは `404 Page Not Found` を返します。
 
 1. 「**[!UICONTROL Content]**」セクションを展開し、コンテンツに必要な変更を加えます。
 
-   ページコンテンツツールの使用について詳しくは、『 [ コンテンツおよびデザインガイド _の ](../content-design/page-add.md#step-2-complete-the-content) コンテンツを完了_ を参照してください。
+   ページコンテンツツールの使用について詳しくは、『 [&#x200B; コンテンツおよびデザインガイド _の &#x200B;](../content-design/page-add.md#step-2-complete-the-content) コンテンツを完了_ を参照してください。
 
-   ![ プライバシーポリシーページ – コンテンツを編集 ](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
+   ![&#x200B; プライバシーポリシーページ – コンテンツを編集 &#x200B;](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Page]**」をクリックします。

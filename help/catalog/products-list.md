@@ -14,11 +14,11 @@ ht-degree: 0%
 
 カタログ内のすべての製品には、管理者の _[!UICONTROL Products]_&#x200B;ページからアクセスできます。このページで、製品を作成したり、既存の製品を編集したりできます。 マルチサイトインストールの場合、同じカタログから販売される異なる製品を各 web サイトで選択できます。
 
-_[!UICONTROL Products]_&#x200B;リストには、カタログ内のすべての製品が含まれ、製品が使用可能な web サイトと、現在販売が有効な web サイトが示されます。 [ 共有カタログ ](../b2b/catalog-shared.md) が有効になっているAdobe Commerce B2B インストールの場合、グリッドには、共有カタログで代替割引価格が設定されている商品を示す列が含まれます。
+_[!UICONTROL Products]_&#x200B;リストには、カタログ内のすべての製品が含まれ、製品が使用可能な web サイトと、現在販売が有効な web サイトが示されます。 [&#x200B; 共有カタログ &#x200B;](../b2b/catalog-shared.md) が有効になっているAdobe Commerce B2B インストールの場合、グリッドには、共有カタログで代替割引価格が設定されている商品を示す列が含まれます。
 
-ページごとにリストページを参照するか、特定の製品を検索できます。 標準の [ コントロール ](../getting-started/admin-grid-controls.md) を使用してリストの並べ替えとフィルタリングを行い、選択した製品に [ アクション ](../getting-started/admin-actions-control.md) を適用します。
+ページごとにリストページを参照するか、特定の製品を検索できます。 標準の [&#x200B; コントロール &#x200B;](../getting-started/admin-grid-controls.md) を使用してリストの並べ替えとフィルタリングを行い、選択した製品に [&#x200B; アクション &#x200B;](../getting-started/admin-actions-control.md) を適用します。
 
-![ 製品グリッド ](./assets/products-grid.png){width="700" zoomable="yes"}
+![&#x200B; 製品グリッド &#x200B;](./assets/products-grid.png){width="700" zoomable="yes"}
 
 ## 製品表示を制限
 
@@ -42,13 +42,13 @@ _[!UICONTROL Products]_&#x200B;リストには、カタログ内のすべての�
 
 1. 「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Admin]**」を選択します。
 
-1. **[!UICONTROL Admin Grids]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Admin Grids]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
    - **[!UICONTROL Limit Number of Products in Grid]** を `Yes` に設定します。
 
    - （オプション）「**[!UICONTROL Records Limit]**」フィールドに値を入力して、グリッド内の製品数を特定の値に制限します。 デフォルトの最小値は `20000` です。
 
-   ![ 管理グリッドの設定 ](../configuration-reference/advanced/assets/admin-admin-grids.png){width="600" zoomable="yes"}
+   ![&#x200B; 管理グリッドの設定 &#x200B;](../configuration-reference/advanced/assets/admin-admin-grids.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 

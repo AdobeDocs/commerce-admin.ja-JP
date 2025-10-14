@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Scheduled Imports/Exports]**&#x200B;に移動します。
 
-   ![ スケジュールされたデータのインポート/エクスポート ](./assets/data-scheduled-import-export.png){width="700" zoomable="yes"}
+   ![&#x200B; スケジュールされたデータのインポート/エクスポート &#x200B;](./assets/data-scheduled-import-export.png){width="700" zoomable="yes"}
 
 1. 新しいスケジュール済みインポートまたはエクスポートジョブを作成するには、該当するボタンをクリックし、スケジュール済みジョブのタイプの指示に従います。
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
    - 「**[!UICONTROL Multiple Value Separator]**」 – フィールド内で複数の値を区切るために使用する文字を入力します。
 
-   ![ データのインポート – スケジュールされたインポート設定 ](./assets/data-transfer-scheduled-import-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; データのインポート – スケジュールされたインポート設定 &#x200B;](./assets/data-transfer-scheduled-import-settings.png){width="600" zoomable="yes"}
 
 ### 手順 2：インポートファイル情報の完了
 
@@ -106,7 +106,7 @@ ht-degree: 0%
    - `Local Server` - Adobe Commerceがインストールされているのと同じサーバーからデータをインポートします。
    - `Remote FTP` - リモートサーバーからデータをインポートします。
 
-   ![ データのインポート – スケジュールされたインポート ファイル情報 ](./assets/data-transfer-scheduled-import-file-information.png){width="600" zoomable="yes"}
+   ![&#x200B; データのインポート – スケジュールされたインポート ファイル情報 &#x200B;](./assets/data-transfer-scheduled-import-file-information.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 ### 手順 3：読み込みに失敗したメールの設定
 
-![ データの読み込み – 読み込みに失敗したため、メールが失敗しました ](./assets/data-transfer-scheduled-import-email-fail.png){width="600" zoomable="yes"}
+![&#x200B; データの読み込み – 読み込みに失敗したため、メールが失敗しました &#x200B;](./assets/data-transfer-scheduled-import-email-fail.png){width="600" zoomable="yes"}
 
 1. 読み込み中にエラーが発生した場合に通知を受け取るストアの連絡先に **[!UICONTROL Failed Email Receiver]** を設定します。
 
@@ -194,7 +194,7 @@ ht-degree: 0%
 
 ## 書き出しのスケジュール
 
-スケジュールされた書き出しは、使用可能な書き出しファイル形式や書き出し可能なエンティティのタイプにおいて、手動の [ 書き出し ](data-export.md) に似ています。
+スケジュールされた書き出しは、使用可能な書き出しファイル形式や書き出し可能なエンティティのタイプにおいて、手動の [&#x200B; 書き出し &#x200B;](data-export.md) に似ています。
 
 - CSV 形式に書き出すことができます
 - 製品および顧客データをエクスポートできます
@@ -238,7 +238,7 @@ ht-degree: 0%
 
 1. `CSV` をデフォルトの **[!UICONTROL File Format]** として使用します。
 
-   ![ スケジュールされた書き出し設定 ](./assets/data-transfer-scheduled-export-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; スケジュールされた書き出し設定 &#x200B;](./assets/data-transfer-scheduled-export-settings.png){width="600" zoomable="yes"}
 
 ### 手順 2：書き出しファイル情報の完了
 
@@ -247,7 +247,7 @@ ht-degree: 0%
    - `Local Server` - Commerceがインストールされているサーバーにエクスポートファイルを保存する
    - `Remote FTP` — エクスポート・ファイルをリモート・サーバに保存します。
 
-   ![ スケジュールされた書き出しファイル情報 ](./assets/data-transfer-scheduled-export-file-information.png){width="600" zoomable="yes"}
+   ![&#x200B; スケジュールされた書き出しファイル情報 &#x200B;](./assets/data-transfer-scheduled-export-file-information.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 顧客セッションの有効期間
 
-顧客ショッピング セッションの有効期間は、サーバーセッションの長さ、[ 永続的な買い物かごの使用 ](../stores-purchase/cart-persistent.md)、ブラウザーに保存されている情報の有効期間など、いくつかの要因によって決定されます。 これらは同じ顧客体験に関連していますが、有効期限イベントと有効期間が異なる別個のプロセスです。
+顧客ショッピング セッションの有効期間は、サーバーセッションの長さ、[&#x200B; 永続的な買い物かごの使用 &#x200B;](../stores-purchase/cart-persistent.md)、ブラウザーに保存されている情報の有効期間など、いくつかの要因によって決定されます。 これらは同じ顧客体験に関連していますが、有効期限イベントと有効期間が異なる別個のプロセスです。
 
 | プロセス | 説明 |
 | --- | --- |
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-[ 永続的な買い物かご ](../stores-purchase/cart-persistent.md) が有効になっている場合、顧客が次回アカウントにログインする際に備えて、買い物かごの内容が保存されます。 永続的な買い物かごを使用する場合、サーバーセッションとセッション cookie の有効期間を長い期間に設定することをお勧めします。
+[&#x200B; 永続的な買い物かご &#x200B;](../stores-purchase/cart-persistent.md) が有効になっている場合、顧客が次回アカウントにログインする際に備えて、買い物かごの内容が保存されます。 永続的な買い物かごを使用する場合、サーバーセッションとセッション cookie の有効期間を長い期間に設定することをお勧めします。
 
 サーバーでは、セッションの長さは `php.ini` ファイルといくつかの変数によって制御されます。 現在、Adobe Commerceには、サーバーセッションの長さを制御する管理者設定がありません。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Default Cookie Settings]**」セクションを展開します。
 
-   ![ デフォルトの Cookie 設定 ](../configuration-reference/general/assets/web-default-cookie-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; デフォルトの Cookie 設定 &#x200B;](../configuration-reference/general/assets/web-default-cookie-settings.png){width="600" zoomable="yes"}
 
 1. デフォルト値を変更するには、「**[!UICONTROL Use system value]**」チェックボックスをオフにして、新しい値（秒単位）を入力します。
 

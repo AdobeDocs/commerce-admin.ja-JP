@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->税金を含む/除外する価格を示すと、お客様にとって混乱を招く可能性があります。 警告メッセージが表示されないようにするには、お住まいの国の [ ガイドライン ](international-tax-guidelines.md) および [ 推奨設定 ](taxes.md#warning-messages) を参照して、警告メッセージが表示されないようにします。
+>税金を含む/除外する価格を示すと、お客様にとって混乱を招く可能性があります。 警告メッセージが表示されないようにするには、お住まいの国の [&#x200B; ガイドライン &#x200B;](international-tax-guidelines.md) および [&#x200B; 推奨設定 &#x200B;](taxes.md#warning-messages) を参照して、警告メッセージが表示されないようにします。
 
-![ 価格表示設定 ](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
+![&#x200B; 価格表示設定 &#x200B;](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
 
-これらの各設定の詳細については、『 [ 設定リファレンスガイド _の ](../configuration-reference/sales/tax.md#price-display-settings) 価格表示設定_ を参照してください。
+これらの各設定の詳細については、『 [&#x200B; 設定リファレンスガイド _の &#x200B;](../configuration-reference/sales/tax.md#price-display-settings) 価格表示設定_ を参照してください。
 
 ## 価格表示設定の指定
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Tax]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Price Display Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Price Display Settings]**」セクションを展開します。
 
 1. **[!UICONTROL Display Product Prices in Catalog]** の場合は、次のいずれかを選択します。
 
@@ -56,13 +56,13 @@ ht-degree: 0%
 
 両方の価格（税込および非税込）を表示することを選択した場合、ストアフロントは次のようになります。
 
-![ 店舗店舗等における税込み価格表示例 ](./assets/catalog-prices-tax.png){width="700" zoomable="yes"}
+![&#x200B; 店舗店舗等における税込み価格表示例 &#x200B;](./assets/catalog-prices-tax.png){width="700" zoomable="yes"}
 
 ### 手順 2：買い物かごの表示設定
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Shopping Cart Display Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Shopping Cart Display Settings]**」セクションを展開します。
 
-   ![ 買い物かごの表示設定 ](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かごの表示設定 &#x200B;](../configuration-reference/sales/assets/tax-shopping-cart-display-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Display Prices]** の場合は、次のいずれかを選択します。
 
@@ -102,9 +102,9 @@ ht-degree: 0%
 
 ### 手順 3：受注、請求書およびクレジット・メモの表示設定の構成
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Orders, Invoices, Credit Memos Display Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Orders, Invoices, Credit Memos Display Settings]**」セクションを展開します。
 
-   ![ 注文、請求書、クレジット メモの表示設定 ](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 注文、請求書、クレジット メモの表示設定 &#x200B;](../configuration-reference/sales/assets/tax-orders-invoices-credit-memos-display-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Display Prices]** の場合は、次のいずれかを選択します。
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 適用されたギフトカードコードは、_Admin_ で注文を開くことで表示できます。これにより、必要に応じて、コードを取得して物理的なギフトカードに配置できます。 ギフトカードの注文がキャンセルまたは返金された場合、関連するギフトカードのアカウントを手動でキャンセルする必要があります。 アカウントを完全に削除するか、無効にすることができます。
 
-![ ギフトカードの詳細（カート内） ](./assets/storefront-gift-card-order-customer-account.png){width="700" zoomable="yes"}
+![&#x200B; ギフトカードの詳細（カート内） &#x200B;](./assets/storefront-gift-card-order-customer-account.png){width="700" zoomable="yes"}
 
 例えば、デモ Luma ストアで買い物をした顧客は、仮想ギフトカードまたは物理ギフトカードを購入できます。
 
@@ -66,9 +66,9 @@ ht-degree: 0%
 
 - ギフトコードのアカウントは、特定の割引券の残高を追跡するために作成されます。 店舗管理者は手動で残高を調整できます。
 
-受信側の顧客は、アカウントダッシュボードの _[!UICONTROL Gift Card]_&#x200B;セクションを使用して、[ ギフトカード口座 ](product-gift-card-accounts.md) の残高を確認し、[ ストアクレジット ](../customers/store-credit-using.md) にギフトカードを引き換えることができます。
+受信側の顧客は、アカウントダッシュボードの _[!UICONTROL Gift Card]_&#x200B;セクションを使用して、[&#x200B; ギフトカード口座 &#x200B;](product-gift-card-accounts.md) の残高を確認し、[&#x200B; ストアクレジット &#x200B;](../customers/store-credit-using.md) にギフトカードを引き換えることができます。
 
-![ ギフト カード ](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
+![&#x200B; ギフト カード &#x200B;](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
 
 ### ギフト カードの状態と残高を確認します
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 1. 顧客は「**[!UICONTROL Check status and balance]**」をクリックします。
 
-![ ギフトカード残高 ](./assets/gift-balance.png){width="700" zoomable="yes"}
+![&#x200B; ギフトカード残高 &#x200B;](./assets/gift-balance.png){width="700" zoomable="yes"}
 
 ギフトカードの残高が表示されます。
 
@@ -88,11 +88,11 @@ ht-degree: 0%
 
 1. 顧客は「**[!UICONTROL Redeem Gift Card]**」をクリックします。
 
-![ ギフトカードのアクティベーションの成功に関するメッセージ ](./assets/gift-redeemed-balance.png){width="700" zoomable="yes"}
+![&#x200B; ギフトカードのアクティベーションの成功に関するメッセージ &#x200B;](./assets/gift-redeemed-balance.png){width="700" zoomable="yes"}
 
 ギフトカードの金額が有効化され、店舗の合計クレジット残高に追加されます。
 
-![ 店舗の貸方残高 ](./assets/store-credit.png){width="700" zoomable="yes"}
+![&#x200B; 店舗の貸方残高 &#x200B;](./assets/store-credit.png){width="700" zoomable="yes"}
 
 ギフトカード残高のすべての操作は、_[!UICONTROL Store Credit]_&#x200B;のページで利用できます。
 

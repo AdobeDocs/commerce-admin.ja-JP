@@ -32,11 +32,11 @@ _[!UICONTROL Product Details]_&#x200B;ページに表示する大きな画像を
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png) 「画像アップロード設定 _セクション_ を展開します。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「画像アップロード設定 _セクション_ を展開します。
 
    デフォルトの設定を変更するには、必要に応じて「**[!UICONTROL Use system value]**」チェックボックスの選択を解除します。
 
-   ![ 画像のアップロード設定 ](../configuration-reference/advanced/assets/system-image-upload-configuration.png){width="600" zoomable="yes"}
+   ![&#x200B; 画像のアップロード設定 &#x200B;](../configuration-reference/advanced/assets/system-image-upload-configuration.png){width="600" zoomable="yes"}
 
    これらの設定の詳細なリストについては、[_設定リファレンス_](../configuration-reference/advanced/system.md#image-upload-configuration) の _画像のアップロード設定_ を参照してください。
 
@@ -58,7 +58,7 @@ _[!UICONTROL Product Details]_&#x200B;ページに表示する大きな画像を
 
 ### フィールドの説明
 
-| フィールド | [ 範囲 ](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Quality] | グローバル | サイズ変更された画像のJPG画質を指定します。 画質が低いとファイルサイズは小さくなります。 高品質でファイルサイズを減らすには、80～90% をお勧めします。 デフォルト：80 |
 | [!UICONTROL Enable Frontend Resize] | グローバル | を使用すると、_[!UICONTROL Product Details]_&#x200B;ページにアップロードできる大きい画像やサイズを超過した画像のサイズを、Commerceで変更できます。 Commerceは、ファイルのアップロード時にJavaScriptを使用して画像ファイルのサイズを変更します。 画像のサイズを変更すると、最大幅または最大高さの最大サイズに合わせて、正確な比率が維持されます。 デフォルト：`Yes` |
@@ -71,7 +71,7 @@ _[!UICONTROL Product Details]_&#x200B;ページに表示する大きな画像を
 
 Adobe CommerceとMagento Open Sourceでは、永続的な商品画像が使用可能になるまで、一時的な画像をプレースホルダーとして使用します。 役割ごとに異なるプレースホルダーをアップロードできます。 最初のプレースホルダー画像はサンプルロゴで、選択した画像に置き換えることができます。
 
-![ 画像のプレースホルダー ](./assets/storefront-image-placeholder.png){width="600" zoomable="yes"}
+![&#x200B; 画像のプレースホルダー &#x200B;](./assets/storefront-image-placeholder.png){width="600" zoomable="yes"}
 
 **_プレースホルダー画像をアップロードするには：_**
 
@@ -79,9 +79,9 @@ Adobe CommerceとMagento Open Sourceでは、永続的な商品画像が使用�
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. 「**[!UICONTROL Product Image Placeholders]**」セクションの ![ 展開アイコン ](../assets/icon-display-expand.png) 展開します。
+1. 「**[!UICONTROL Product Image Placeholders]**」セクションの ![&#x200B; 展開アイコン &#x200B;](../assets/icon-display-expand.png) 展開します。
 
-   ![ 製品画像のプレースホルダー ](../configuration-reference/catalog/assets/catalog-product-image-placeholders.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品画像のプレースホルダー &#x200B;](../configuration-reference/catalog/assets/catalog-product-image-placeholders.png){width="600" zoomable="yes"}
 
    これらの設定の詳細なリストについては、[_設定リファレンス_](../configuration-reference/catalog/catalog.md#product-image-placeholders) の _製品画像プレースホルダー_ を参照してください。
 
@@ -91,4 +91,4 @@ Adobe CommerceとMagento Open Sourceでは、永続的な商品画像が使用�
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
-画像の役割と推奨サイズについて詳しくは、[ 画像のアップロード ](product-image.md#upload-an-image) を参照してください。
+画像の役割と推奨サイズについて詳しくは、[&#x200B; 画像のアップロード &#x200B;](product-image.md#upload-an-image) を参照してください。

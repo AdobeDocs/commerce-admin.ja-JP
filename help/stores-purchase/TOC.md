@@ -131,5 +131,5 @@ ht-degree: 3%
       + [出荷ラベルの概要](shipping-labels.md)
       + [配送ラベルの設定](shipping-label-configure.md)
       + [配送ラベルの作成](shipping-label-create.md)
-+ [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
++ [&#x200B; 管理者ユーザーガイドに戻る &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
 

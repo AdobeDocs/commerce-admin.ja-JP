@@ -22,13 +22,13 @@ Adobe Commerce サイトとMagento Open Source サイトでセキュリティの
 - サイトの進行状況を追跡および監視する履歴セキュリティレポートにアクセスします。
 - 成功したチェックと失敗したチェックを表示するスキャン レポートにアクセスします。推奨されるアクションも表示されます。
 
-セキュリティスキャンツールは、[Commerce/Magento アカウント ](../getting-started/commerce-account-create.md) のダッシュボードから無料で利用できます。 Commerce技術情報については、[2&rbrace;Cloud Infrastructure ガイドのセキュリティスキャンツールの設定 ](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) を参照してください __
+セキュリティスキャンツールは、[Commerce/Magento アカウント &#x200B;](../getting-started/commerce-account-create.md) のダッシュボードから無料で利用できます。 Commerce技術情報については、[2&rbrace;Cloud Infrastructure ガイドのセキュリティスキャンツールの設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) を参照してください __
 
-![ セキュリティスキャンツール ](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+![&#x200B; セキュリティスキャンツール &#x200B;](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## セキュリティスキャンを実行
 
-1. Commerceのホームページから、[Commerce/Magento アカウント ](../getting-started/commerce-account-create.md) にログインします。
+1. Commerceのホームページから、[Commerce/Magento アカウント &#x200B;](../getting-started/commerce-account-create.md) にログインします。
 
 1. セキュリティ スキャン ツールの使用条件を確認し、同意します。
 
@@ -41,7 +41,7 @@ Adobe Commerce サイトとMagento Open Source サイトでセキュリティの
 
    異なるドメインを持つ複数のサイトがある場合は、ドメインごとに個別のスキャンを設定します。
 
-   ![ 監視対象サイト ](./assets/monitored-website.png){width="600" zoomable="yes"}
+   ![&#x200B; 監視対象サイト &#x200B;](./assets/monitored-website.png){width="600" zoomable="yes"}
 
 1. 確認コードを追加してサイト ドメインの所有権を確認するには、次のいずれかの操作を行います。
 
@@ -51,16 +51,16 @@ Adobe Commerce サイトとMagento Open Source サイトでセキュリティの
    1. 「**[!UICONTROL Generate Confirmation Code]**」をクリックします。
    1. 「**コピー**」をクリックして、確認コードをクリップボードにコピーします。
 
-      ![ 確認コードを生成 ](./assets/scan-site1.png){width="400" zoomable="yes"}
+      ![&#x200B; 確認コードを生成 &#x200B;](./assets/scan-site1.png){width="400" zoomable="yes"}
 
    1. 完全な管理者権限を持つユーザーとしてストアの管理者にログインし、次の手順を実行します。
 
       1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
       1. リストでサイトを見つけて、「**[!UICONTROL Edit]**」をクリックします。
-      1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL HTML Head]**」セクションを展開します。
+      1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL HTML Head]**」セクションを展開します。
       1. **[!UICONTROL Scripts and Style Sheets]** までスクロールし、既存のコードの末尾にあるテキストボックスをクリックします。 確認コードをテキストボックスに貼り付けます。
 
-         ![ スクリプトとスタイルシート ](./assets/scan-paste-code.png){width="600" zoomable="yes"}
+         ![&#x200B; スクリプトとスタイルシート &#x200B;](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
       1. 完了したら、「**[!UICONTROL Save Configuration]**」をクリックします。
 
@@ -72,14 +72,14 @@ Adobe Commerce サイトとMagento Open Source サイトでセキュリティの
 
    1. 「**[!UICONTROL Copy]**」をクリックして、生成された確認コードの META タグをクリップボードにコピーします。
 
-      ![ 確認コードを生成 ](./assets/scan-site2.png){width="400" zoomable="yes"}
+      ![&#x200B; 確認コードを生成 &#x200B;](./assets/scan-site2.png){width="400" zoomable="yes"}
 
    1. PWA Studio ストアフロントのプロジェクトディレクトリに移動して、次の手順を実行します。
 
       1. PWA Studio プロジェクトディレクトリの下で、`packages > venia-concept > template.html` に移動します。
       1. コピーした確認コード（生成された META タグ）をHTMLの先頭に追加し、変更内容を保存します。
 
-         ![ 確認コードをコピー ](./assets/code-pwa.png){width="600" zoomable="yes"}
+         ![&#x200B; 確認コードをコピー &#x200B;](./assets/code-pwa.png){width="600" zoomable="yes"}
 
       1. PWA Studio CLI に戻り、yarn を使用してプロジェクトの依存関係をインストールし、project build コマンドを実行します。
 
@@ -114,7 +114,7 @@ Adobe Commerce サイトとMagento Open Source サイトでセキュリティの
 
    デフォルトでは、スキャンは毎週午前 0 時（土曜日、UTC）に開始され、毎週早朝（日曜日）まで継続するようにスケジュールされています。
 
-   ![ 毎週スキャン ](./assets/scan-weekly.png){width="500" zoomable="yes"}
+   ![&#x200B; 毎週スキャン &#x200B;](./assets/scan-weekly.png){width="500" zoomable="yes"}
 
    **毎日スキャン**:
 
@@ -122,11 +122,11 @@ Adobe Commerce サイトとMagento Open Source サイトでセキュリティの
 
    デフォルトでは、スキャンは毎日、午前 0 時（UTC）に開始するようにスケジュールされています。
 
-   ![ 毎日スキャン ](./assets/scan-daily.png){width="500" zoomable="yes"}
+   ![&#x200B; 毎日スキャン &#x200B;](./assets/scan-daily.png){width="500" zoomable="yes"}
 
 1. 完了したスキャンとセキュリティ更新の通知を受信する **[!UICONTROL Email Address]** を入力します。
 
-   ![ メールアドレス ](./assets/scan-notification-email.png){width="400" zoomable="yes"}
+   ![&#x200B; メールアドレス &#x200B;](./assets/scan-notification-email.png){width="400" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Submit]**」をクリックします。
 
@@ -165,7 +165,7 @@ Adobe Commerce サイトとMagento Open Source サイトでセキュリティの
 
 1. 特定のスキャン エラーの **[!UICONTROL Ignore]** をクリックします。
 
-   ![ スキャン エラーを無視する ](assets/security-scan-ignore-failure.png){width="600" zoomable="yes"}
+   ![&#x200B; スキャン エラーを無視する &#x200B;](assets/security-scan-ignore-failure.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Apply Changes]**」をクリックして選択内容を保存します。
 
@@ -179,7 +179,7 @@ Adobe Commerce サイトとMagento Open Source サイトでセキュリティの
 
 1. 復元するスキャン エラーの **[!UICONTROL Stop Ignoring]** をクリックします。
 
-   ![ スキャン エラーの無視の解除 ](assets/security-scan-stop-ignoring-failure.png){width="600" zoomable="yes"}
+   ![&#x200B; スキャン エラーの無視の解除 &#x200B;](assets/security-scan-stop-ignoring-failure.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Apply Changes]**」をクリックして選択内容を保存します。
 
@@ -189,4 +189,4 @@ Adobe Commerce サイトとMagento Open Source サイトでセキュリティの
 
 無視された結果は、レポートの別のセクションに表示され、リスクスコアはアクティブなスキャンエラーのみを反映するように自動的に更新されます。 変更を適用する前に複数の項目を選択することで、複数のスキャン失敗を一度に管理できます。
 
-![ 無視されたスキャン エラーの表示 ](assets/security-scan-view-ignored-failures.png){width="600" zoomable="yes"}
+![&#x200B; 無視されたスキャン エラーの表示 &#x200B;](assets/security-scan-view-ignored-failures.png){width="600" zoomable="yes"}

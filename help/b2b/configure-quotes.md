@@ -13,21 +13,21 @@ ht-degree: 0%
 
 # 見積の設定
 
-一般的な [B2B 機能 ](enable-basic-features.md) で引用符が有効になっている場合は、管理者で引用符のサポートを設定できます。 見積もり設定では、見積もりリクエストに必要な最小注文額、見積もりの有効期間、添付ファイルでサポートされるファイル形式を決定します。
+一般的な [B2B 機能 &#x200B;](enable-basic-features.md) で引用符が有効になっている場合は、管理者で引用符のサポートを設定できます。 見積もり設定では、見積もりリクエストに必要な最小注文額、見積もりの有効期間、添付ファイルでサポートされるファイル形式を決定します。
 
 >[!NOTE]
 >
->見積の構成オプションおよび見積ネゴシエーション機能の使用機能は、[ ロール・リソース ](../systems/permissions-user-roles.md#role-resources) を使用して制御されます。 これらのロール リソースは、管理者ユーザーアカウントに割り当てられている管理者ユーザーロールに対して選択する必要があります。 管理者で引用機能へのアクセス権を付与するには、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL User Roles]**&#x200B;に移動し、役割を選択して、_ 役割リソース _ツリーの [!UICONTROL Sales]/[!UICONTROL Operations]/[!UICONTROL Quotes] に移動します。
+>見積の構成オプションおよび見積ネゴシエーション機能の使用機能は、[&#x200B; ロール・リソース &#x200B;](../systems/permissions-user-roles.md#role-resources) を使用して制御されます。 これらのロール リソースは、管理者ユーザーアカウントに割り当てられている管理者ユーザーロールに対して選択する必要があります。 管理者で引用機能へのアクセス権を付与するには、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL User Roles]**&#x200B;に移動し、役割を選択して、_ 役割リソース _ツリーの [!UICONTROL Sales]/[!UICONTROL Operations]/[!UICONTROL Quotes] に移動します。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Quotes]**」を選択します。
 
-1. **[!UICONTROL General]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL General]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![ 販売見積の構成 – 一般 ](./assets/quotes-general.png){width="700" zoomable="yes"}
+   ![&#x200B; 販売見積の構成 – 一般 &#x200B;](./assets/quotes-general.png){width="700" zoomable="yes"}
 
-   [ 設定リファレンス ](../configuration-reference/sales/quotes.md) の _Quotes_ を参照して、Quotes 機能のオプションとその機能の完全なリストを確認してください。
+   [&#x200B; 設定リファレンス &#x200B;](../configuration-reference/sales/quotes.md) の _Quotes_ を参照して、Quotes 機能のオプションとその機能の完全なリストを確認してください。
 
    - 見積依頼を送信する前に満たす必要がある **[!UICONTROL Minimum Amount]** を買い物かごに入力します。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Default Expiration Period]** の場合は、引用符を有効にしておく必要がある **[!UICONTROL days]**、**[!UICONTROL weeks]**、**[!UICONTROL months]** の数を入力します。
 
-1. **[!UICONTROL Attached files]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Attached files]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
    - **[!UICONTROL File formats for upload]**：引用符に添付するファイルのサポート対象となる各ファイル タイプのサフィックスを入力します。
 
@@ -47,6 +47,6 @@ ht-degree: 0%
 
      入力した値は、サーバー設定によって上書きされる場合があります。
 
-     ![ 販売見積の構成 – 添付ファイル ](./assets/quotes-attached-files.png){width="600" zoomable="yes"}
+     ![&#x200B; 販売見積の構成 – 添付ファイル &#x200B;](./assets/quotes-attached-files.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 店舗内配送方式では、お客様はチェックアウト時に集荷場所として使用するソースを選択できます。
 
-![ チェックアウト時の店舗内配送方法 ](./assets/luma-in-store-example.png){width="700" zoomable="yes"}
+![&#x200B; チェックアウト時の店舗内配送方法 &#x200B;](./assets/luma-in-store-example.png){width="700" zoomable="yes"}
 
 ストアフロントのチェックアウト中：
 
@@ -37,16 +37,16 @@ ht-degree: 0%
 
 ## セットアップの前に
 
-- デフォルト以外の在庫とソースがあることを確認します。 ソースをピックアップ場所として構成する方法の詳細については、「[ ソースを追加 ](../inventory-management/sources-add.md)」を参照してください。
-- Distance Priority Algorithm が設定されていることを確認します。 詳細については、「[ 距離優先アルゴリズムの設定 ](../inventory-management/distance-priority-algorithm.md)」を参照してください。
-- オフライン計算に必要なすべてのジオコードが [ ダウンロードおよび読み込み ](../inventory-management/cli.md#import-geocodes) されていることを確認します。
-- [ デフォルトの税金宛先計算 ](../configuration-reference/sales/tax.md#default-tax-destination-calculation) 設定が完了していることを確認します。
+- デフォルト以外の在庫とソースがあることを確認します。 ソースをピックアップ場所として構成する方法の詳細については、「[&#x200B; ソースを追加 &#x200B;](../inventory-management/sources-add.md)」を参照してください。
+- Distance Priority Algorithm が設定されていることを確認します。 詳細については、「[&#x200B; 距離優先アルゴリズムの設定 &#x200B;](../inventory-management/distance-priority-algorithm.md)」を参照してください。
+- オフライン計算に必要なすべてのジオコードが [&#x200B; ダウンロードおよび読み込み &#x200B;](../inventory-management/cli.md#import-geocodes) されていることを確認します。
+- [&#x200B; デフォルトの税金宛先計算 &#x200B;](../configuration-reference/sales/tax.md#default-tax-destination-calculation) 設定が完了していることを確認します。
 
 >[!IMPORTANT]
 >
 >**ストアフロントでは、検索結果が距離（半径）でフィルタリングされ、関連する結果が表示されます。**<br><br>
 >顧客が配送先住所を持っている場合、距離（半径）を計算するベースとなる場所は配送先住所から取得されます。<br><br>
->顧客に配送先住所がない場合、距離を計算するためのベース位置は、「[ デフォルトの納税先の計算 ](../configuration-reference/sales/tax.md#default-tax-destination-calculation)」設定から取得されます。 これらの設定はストア表示ごとに設定されます。受け取りストア検索が正しく機能するように、デフォルトの税宛先計算設定を設定する必要があります。
+>顧客に配送先住所がない場合、距離を計算するためのベース位置は、「[&#x200B; デフォルトの納税先の計算 &#x200B;](../configuration-reference/sales/tax.md#default-tax-destination-calculation)」設定から取得されます。 これらの設定はストア表示ごとに設定されます。受け取りストア検索が正しく機能するように、デフォルトの税宛先計算設定を設定する必要があります。
 
 ## 店舗での配信を設定
 
@@ -56,9 +56,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Delivery Methods]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL In-Store Delivery]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL In-Store Delivery]**」セクションを展開します。
 
-   ![ 店舗での配信 ](../configuration-reference/sales/assets/delivery-methods-in-store-delivery.png){width="600" zoomable="yes"}
+   ![&#x200B; 店舗での配信 &#x200B;](../configuration-reference/sales/assets/delivery-methods-in-store-delivery.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Enabled]** を `Yes` に設定します。
 

@@ -12,36 +12,36 @@ ht-degree: 0%
 
 # 注文件数
 
-_注文_ グリッドは、現在のすべての注文を一覧表示し、[ ワークフロー ](order-processing.md) を通じてその進行状況と [ 注文ステータス ](order-status.md) を追跡します。 基本的なプロセスを簡単に理解するには、注文が [ 請求書 ](invoices.md) になり、請求書が [ 出荷 ](shipments.md) になるようにします。 グリッドは処理の最初のステージを表し、ここで既存の注文を [ 更新 ](order-update.md) したり、注文を作成したりできます。
+_注文_ グリッドは、現在のすべての注文を一覧表示し、[&#x200B; ワークフロー &#x200B;](order-processing.md) を通じてその進行状況と [&#x200B; 注文ステータス &#x200B;](order-status.md) を追跡します。 基本的なプロセスを簡単に理解するには、注文が [&#x200B; 請求書 &#x200B;](invoices.md) になり、請求書が [&#x200B; 出荷 &#x200B;](shipments.md) になるようにします。 グリッドは処理の最初のステージを表し、ここで既存の注文を [&#x200B; 更新 &#x200B;](order-update.md) したり、注文を作成したりできます。
 
-通常、注文は顧客がストアフロントからチェックアウトプロセスを完了したときに作成されます。 ただし、顧客がサポートを必要とする場合は、[ 注文 ](shopping-assisted-cart-manage.md) グリッドから、または顧客アカウントから直接、顧客の _買い物かご [&#128279;](customer-account-create-order.md) または  注文の作成_ にアクセスすることもできます。
+通常、注文は顧客がストアフロントからチェックアウトプロセスを完了したときに作成されます。 ただし、顧客がサポートを必要とする場合は、[&#x200B; 注文 &#x200B;](shopping-assisted-cart-manage.md) グリッドから、または顧客アカウントから直接、顧客の _買い物かご [&#128279;](customer-account-create-order.md) または  注文の作成_ にアクセスすることもできます。
 
 ## 注文ワークスペース
 
-注文ワークスペースには、現在のすべての注文が一覧表示され、既存の注文と [ 作成 ](customer-account-create-order.md) 注文を編集できます。 グリッドの各行は顧客の注文を表し、各列は属性（データフィールド）を表します。 標準の [ コントロール ](../getting-started/admin-grid-controls.md) を使用して、リストの並べ替えとフィルタリング、注文の検索、選択した注文への [ アクション ](../getting-started/admin-actions-control.md) の適用を行います。 ページネーションコントロールの上にあるタブを使用すると、リストのフィルタリング、デフォルトの表示の変更、列の変更と並べ替え、データの書き出しを行うことができます。
+注文ワークスペースには、現在のすべての注文が一覧表示され、既存の注文と [&#x200B; 作成 &#x200B;](customer-account-create-order.md) 注文を編集できます。 グリッドの各行は顧客の注文を表し、各列は属性（データフィールド）を表します。 標準の [&#x200B; コントロール &#x200B;](../getting-started/admin-grid-controls.md) を使用して、リストの並べ替えとフィルタリング、注文の検索、選択した注文への [&#x200B; アクション &#x200B;](../getting-started/admin-actions-control.md) の適用を行います。 ページネーションコントロールの上にあるタブを使用すると、リストのフィルタリング、デフォルトの表示の変更、列の変更と並べ替え、データの書き出しを行うことができます。
 
-![ 注文グリッド ](./assets/orders-grid.png){width="700" zoomable="yes"}
+![&#x200B; 注文グリッド &#x200B;](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 ### グリッドレイアウト
 
 列の選択とグリッド内の順序は、必要に応じて変更できます。 新しいレイアウトは、グリッド _ビュー_ として保存できます。 デフォルトでは、使用可能な 20 列のうち、9 列のみがグリッドに含まれます。
 
-![ グリッド列の順序 ](./assets/order-grid-columns.png){width="600" zoomable="yes"}
+![&#x200B; グリッド列の順序 &#x200B;](./assets/order-grid-columns.png){width="600" zoomable="yes"}
 
 #### 列の選択の変更
 
-右上隅にある _列_ （![ 列設定 ](../assets/icon-columns.png)） コントロールをクリックし、次の操作を行います。
+右上隅にある _列_ （![&#x200B; 列設定 &#x200B;](../assets/icon-columns.png)） コントロールをクリックし、次の操作を行います。
 
 - グリッドに追加する任意の列のチェックボックスをオンにします。
 - グリッドから削除する列のチェックボックスをオフにします。
 
 #### 列の選択をリセット
 
-1. _列_ （![ 列設定 ](../assets/icon-columns.png)） コントロールをクリックします。
+1. _列_ （![&#x200B; 列設定 &#x200B;](../assets/icon-columns.png)） コントロールをクリックします。
 
 1. グリッドの列をリセットするには、「**[!UICONTROL Reset]**」をクリックします。
 
-   グリッドのレイアウトが表示のみに変更されます [ デフォルトの列 ](#column-descriptions)。
+   グリッドのレイアウトが表示のみに変更されます [&#x200B; デフォルトの列 &#x200B;](#column-descriptions)。
 
 #### 列の移動
 
@@ -51,29 +51,29 @@ _注文_ グリッドは、現在のすべての注文を一覧表示し、[ ワ
 
 #### グリッド表示の保存
 
-1. **[!UICONTROL View]** （目のアイコン ![ コントロール ](../assets/icon-view-eye.png) クリックします。
+1. **[!UICONTROL View]** （目のアイコン ![&#x200B; コントロール &#x200B;](../assets/icon-view-eye.png) クリックします。
 
 1. 「**[!UICONTROL Save Current View]**」をクリックします。
 
 1. ビューの **[!UICONTROL name]** を入力します。
 
-1. すべての変更を保存するには、矢印（![ 矢印アイコン ](../assets/icon-arrow-save.png)）をクリックします。
+1. すべての変更を保存するには、矢印（![&#x200B; 矢印アイコン &#x200B;](../assets/icon-arrow-save.png)）をクリックします。
 
    ビューの名前が現在のビューとして表示されます。
 
 #### ビューの変更
 
-**[!UICONTROL View]** （目のアイコン ![ コントロール ](../assets/icon-view-eye.png) クリックします。 次に、次のいずれかの操作を行います。
+**[!UICONTROL View]** （目のアイコン ![&#x200B; コントロール &#x200B;](../assets/icon-view-eye.png) クリックします。 次に、次のいずれかの操作を行います。
 
 - 別のビューを使用するには、ビューの名前をクリックします。
 
-- ビューの名前を変更するには、_編集_ （![ 鉛筆アイコン ](../assets/icon-edit-pencil.png)）アイコンをクリックして名前を更新します。
+- ビューの名前を変更するには、_編集_ （![&#x200B; 鉛筆アイコン &#x200B;](../assets/icon-edit-pencil.png)）アイコンをクリックして名前を更新します。
 
 ### Workspaceの制御
 
 | 制御 | 説明 |
 |--- |--- |
-| [!UICONTROL Create New Order] | オーダーを作成します。 詳しくは、[ オーダーの作成 ](customer-account-create-order.md) を参照してください。 |
+| [!UICONTROL Create New Order] | オーダーを作成します。 詳しくは、[&#x200B; オーダーの作成 &#x200B;](customer-account-create-order.md) を参照してください。 |
 | [!UICONTROL Go to Archive] | アーカイブ済オーダーのリストを表示します。 |
 | [!UICONTROL Search] | 現在のフィルターに基づいて注文検索を開始します。 |
 | [!UICONTROL Filters] | グリッドに表示されるレコードのフィルターに使用する検索パラメーターのセットを定義します。 |
@@ -87,7 +87,7 @@ _注文_ グリッドは、現在のすべての注文を一覧表示し、[ ワ
 
 特定の注文にアクションを適用するには、各注文の最初の列にあるチェックボックスを選択します。 すべての注文を選択または選択解除するには、列の上部にあるコントロールを使用します。
 
-![ 注文操作 ](./assets/orders-action.png){width="600" zoomable="yes"}
+![&#x200B; 注文操作 &#x200B;](./assets/orders-action.png){width="600" zoomable="yes"}
 
 | 制御 | 説明 |
 |--- |--- |
@@ -131,7 +131,7 @@ _注文_ グリッドは、現在のすべての注文を一覧表示し、[ ワ
 | [!UICONTROL Payment Method] | 注文に使用される支払い方法。 |
 | [!UICONTROL Total Refunded] | 注文から顧客に払い戻される金額。 |
 | [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）注文から顧客の店舗クレジットに払い戻される金額。 |
-| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能）注文した [ 会社 ](../b2b/account-companies.md) の名前。 |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で使用可能）注文した [&#x200B; 会社 &#x200B;](../b2b/account-companies.md) の名前。 |
 
 {style="table-layout:auto"}
 
@@ -139,19 +139,19 @@ _注文_ グリッドは、現在のすべての注文を一覧表示し、[ ワ
 
 [ 受注 ] グリッドの左上にある [ 検索 ] ボックスを使用すると、キーワードで特定の受注を検索したり、グリッド内の受注レコードをフィルタ処理することができます。
 
-![ 検索結果 ](./assets/order-search.png){width="600" zoomable="yes"}
+![&#x200B; 検索結果 &#x200B;](./assets/order-search.png){width="600" zoomable="yes"}
 
 ### 一致を検索
 
 1. ページ検索ボックスに検索語句を入力します。
 
-1. 結果を表示するには、_検索_ （![ 虫眼鏡アイコン ](../assets/icon-magnify-search.png)）をクリックします。
+1. 結果を表示するには、_検索_ （![&#x200B; 虫眼鏡アイコン &#x200B;](../assets/icon-magnify-search.png)）をクリックします。
 
 ### 検索のフィルタリング
 
-1. 選択した検索フィルターを表示するには、「_フィルター_ （![ ファネルアイコン ](../assets/icon-filter-search.png)）」タブをクリックします。
+1. 選択した検索フィルターを表示するには、「_フィルター_ （![&#x200B; ファネルアイコン &#x200B;](../assets/icon-filter-search.png)）」タブをクリックします。
 
-   ![ 順序フィルター ](./assets/order-search-filter.png){width="600" zoomable="yes"}
+   ![&#x200B; 順序フィルター &#x200B;](./assets/order-search-filter.png){width="600" zoomable="yes"}
 
 1. 検索する注文を説明するフィルターをいくつでも入力します。
 
@@ -187,5 +187,5 @@ _注文_ グリッドは、現在のすべての注文を一覧表示し、[ ワ
 
 注文に関する問題のトラブルシューティングについて詳しくは、Commerce サポートナレッジベースの次の記事を参照してください。
 
-- [ 注文表示エラー ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=ja)
-- [ 管理の注文グリッドに表示されない注文 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)
+- [&#x200B; 注文表示エラー &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=ja)
+- [&#x200B; 管理の注文グリッドに表示されない注文 &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)

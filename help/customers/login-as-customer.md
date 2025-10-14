@@ -24,7 +24,7 @@ _管理者_ ユーザーに対して有効になっている場合は、_[!UICON
 * [「出荷ビュー」ページ](../stores-purchase/shipments.md)
 * [「クレジット・メモ表示」ページ](../stores-purchase/credit-memo-create.md)
 
-![ 顧客としてログイン ](assets/login-as-customer.png){width="600" zoomable="yes"}
+![&#x200B; 顧客としてログイン &#x200B;](assets/login-as-customer.png){width="600" zoomable="yes"}
 
 ## 顧客としてログインを有効にする
 
@@ -36,7 +36,7 @@ _顧客としてログイン_ を有効にするには、Commerce インスタ�
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Login as Customer]**」を選択します。
 
-   ![ 設定オプション – 顧客としてログイン ](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
+   ![&#x200B; 設定オプション – 顧客としてログイン &#x200B;](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Enable Login as Customer]** を `Yes` に設定します。
 
@@ -69,7 +69,7 @@ _顧客としてログイン_ を有効にするには、Commerce インスタ�
    * **[!UICONTROL Allow Login as Customer]** – 管理者ユーザーが _顧客としてログイン_ 機能を使用できるようにします。
    * **[!UICONTROL View Login as Customer Log]** – 管理者ユーザーに _顧客としてログイン_ ログを表示することを許可します。
 
-   ![ 役割のリソース – 顧客としてログイン ](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
+   ![&#x200B; 役割のリソース – 顧客としてログイン &#x200B;](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
 
 1. 「**[!UICONTROL Save Role]**」をクリックします。
 
@@ -97,7 +97,7 @@ _顧客としてログイン_ を有効にするには、Commerce インスタ�
 
 1. 顧客は「**[!UICONTROL Save]**」をクリックします。
 
-![ アカウント情報ページ ](assets/permission.png){width="700" zoomable="yes"}
+![&#x200B; アカウント情報ページ &#x200B;](assets/permission.png){width="700" zoomable="yes"}
 
 >[!WARNING]
 >
@@ -122,8 +122,8 @@ _顧客としてログイン_ すると、顧客と同じようにサイトを�
 
 {{ee-feature}}
 
-Adobe Commerceには、「顧客としてログイン _アクションのログが用意されて_ ます。 管理者ユーザーが機能にアクセスするすべてのセッションが一覧表示されます。 ログに記録されたアクションにアクセスするには、[ 管理者アクションレポート ](../systems/action-log-report.md) に移動します。
+Adobe Commerceには、「顧客としてログイン _アクションのログが用意されて_ ます。 管理者ユーザーが機能にアクセスするすべてのセッションが一覧表示されます。 ログに記録されたアクションにアクセスするには、[&#x200B; 管理者アクションレポート &#x200B;](../systems/action-log-report.md) に移動します。
 
 レポート設定 **[!UICONTROL Action Group]** をフィルタリングして、ページの上部にある `Login As Customer` をクリック **[!UICONTROL Search]** きます。
 
-![ アクションレポートのフィルタリング ](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}
+![&#x200B; アクションレポートのフィルタリング &#x200B;](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}

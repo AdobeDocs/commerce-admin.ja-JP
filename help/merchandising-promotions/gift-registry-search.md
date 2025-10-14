@@ -14,9 +14,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-[ ウィジェット ](../content-design/widgets.md) ツールを使用すると、ストア内の最も多くの場所にギフトレジストリ検索ボックスを配置できます。 名前、メールアドレス、ギフトレジストリ ID など、顧客が使用できる検索オプションを指定できます。 顧客が「検索」ボタンをクリックすると、結果が「ギフトレジストリの検索」ページに表示されます。 検索で結果が返されない場合は、他のパラメーターを使用して再試行できます。
+[&#x200B; ウィジェット &#x200B;](../content-design/widgets.md) ツールを使用すると、ストア内の最も多くの場所にギフトレジストリ検索ボックスを配置できます。 名前、メールアドレス、ギフトレジストリ ID など、顧客が使用できる検索オプションを指定できます。 顧客が「検索」ボタンをクリックすると、結果が「ギフトレジストリの検索」ページに表示されます。 検索で結果が返されない場合は、他のパラメーターを使用して再試行できます。
 
-![ ストアフロントの例 – ギフトレジストリ検索 ](./assets/storefront-gift-registry-search.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの例 – ギフトレジストリ検索 &#x200B;](./assets/storefront-gift-registry-search.png){width="700" zoomable="yes"}
 
 ## ギフト レジストリ検索の構成
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    - 「**[!UICONTROL Continue]**」をクリックします。
 
-   ![ ギフトレジストリ – 検索設定 ](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
+   ![&#x200B; ギフトレジストリ – 検索設定 &#x200B;](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
 
 1. _[!UICONTROL Storefront Properties]_&#x200B;セクションで、次の操作を行います。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    - ページ上の同じ場所に割り当てられている他のブロックがある場合に、ギフトレジストリ検索ブロックが表示される順序を決定するには、**[!UICONTROL Sort Order]** を設定します。
 
-   ![ ギフトレジストリ – ストアフロントのプロパティ ](./assets/widget-gift-registry-search-storefront-properties.png){width="700" zoomable="yes"}
+   ![&#x200B; ギフトレジストリ – ストアフロントのプロパティ &#x200B;](./assets/widget-gift-registry-search-storefront-properties.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL Layout Updates]**」セクションで、「**[!UICONTROL Add Layout Update]**」をクリックします。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
    - ページ上の場所に **[!UICONTROL Container]** を設定して、ギフトレジストリ検索ブロックを配置します。
 
-   ![ ギフトレジストリ – レイアウトの更新 ](./assets/widget-gift-registry-search-layout-updates.png){width="500" zoomable="yes"}
+   ![&#x200B; ギフトレジストリ – レイアウトの更新 &#x200B;](./assets/widget-gift-registry-search-layout-updates.png){width="500" zoomable="yes"}
 
 1. 左側のパネルで「**[!UICONTROL Widget Options]**」を選択します。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
    - [!UICONTROL Registrant Email Search]
    - [!UICONTROL Gift Registry ID Search]
 
-   ![ ギフトレジストリ – ウィジェットオプション ](./assets/widget-gift-registry-search-widget-options.png){width="700" zoomable="yes"}
+   ![&#x200B; ギフトレジストリ – ウィジェットオプション &#x200B;](./assets/widget-gift-registry-search-widget-options.png){width="700" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 

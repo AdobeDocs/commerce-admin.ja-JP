@@ -26,7 +26,7 @@ ht-degree: 0%
 
 _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL System Report]**&#x200B;に移動します。
 
-![ 管理者 – システムレポート ](./assets/reports.png){width="600" zoomable="yes"}
+![&#x200B; 管理者 – システムレポート &#x200B;](./assets/reports.png){width="600" zoomable="yes"}
 
 ### レポートの生成
 
@@ -34,7 +34,7 @@ _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/
 
 1. **[!UICONTROL Groups]** リストで、レポートに含める情報のセットを選択します。 デフォルトでは、すべてのグループが選択されます。
 
-   ![ システムレポート – グループを選択 ](./assets/report-create.png){width="600" zoomable="yes"}
+   ![&#x200B; システムレポート – グループを選択 &#x200B;](./assets/report-create.png){width="600" zoomable="yes"}
 
 1. 右上隅の「**[!UICONTROL Create]**」をクリックします。
 
@@ -65,9 +65,9 @@ _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/
 
 1. 必要なレポートの _[!UICONTROL Actions]_&#x200B;列で「**[!UICONTROL View]**」を選択します。
 
-1. 左側のパネルで ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、レポートの各セクションで詳細を表示します。
+1. 左側のパネルで ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、レポートの各セクションで詳細を表示します。
 
-   ![ システムレポートの一般情報 ](./assets/report-information.png){width="600" zoomable="yes"}
+   ![&#x200B; システムレポートの一般情報 &#x200B;](./assets/report-information.png){width="600" zoomable="yes"}
 
 ### 使用可能なシステムレポート
 

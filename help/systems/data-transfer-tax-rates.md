@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 税率データの更新
 
-複数の州でビジネスを行い、大量の製品を出荷する場合、手動で税率を入力すると非常に時間がかかる場合があります。 税率を郵便番号でダウンロードしてCommerceに読み込む方が、より速くて効率的です。 次の例は、信頼できるソースからダウンロードした州固有の税率のセットをインポートする方法を示しています。 Avalara は、米国のすべての郵便番号に対して無料でダウンロードできる [ 税率表 ](https://www.avalara.com/taxrates/en/download-tax-tables.html) を提供しています。
+複数の州でビジネスを行い、大量の製品を出荷する場合、手動で税率を入力すると非常に時間がかかる場合があります。 税率を郵便番号でダウンロードしてCommerceに読み込む方が、より速くて効率的です。 次の例は、信頼できるソースからダウンロードした州固有の税率のセットをインポートする方法を示しています。 Avalara は、米国のすべての郵便番号に対して無料でダウンロードできる [&#x200B; 税率表 &#x200B;](https://www.avalara.com/taxrates/en/download-tax-tables.html) を提供しています。
 
 >[!NOTE]
 >
->売上の自動化、税務コンプライアンスおよびレポートの使用に関心がある場合は、[Commerce パートナー ](https://solutionpartners.adobe.com/s/directory/?solution=commerce) サイトでCommerceの信頼できるオプションを検索できます。
+>売上の自動化、税務コンプライアンスおよびレポートの使用に関心がある場合は、[Commerce パートナー &#x200B;](https://solutionpartners.adobe.com/s/directory/?solution=commerce) サイトでCommerceの信頼できるオプションを検索できます。
 
 ## 手順 1:Commerceの税率データのエクスポート
 
@@ -40,7 +40,7 @@ ht-degree: 0%
    - 範囲から
    - 各ストア表示の列
 
-   ![ 書き出されたデータ – 税率 ](./assets/data-exported-tax-rates.png){width="500" zoomable="yes"}
+   ![&#x200B; 書き出されたデータ – 税率 &#x200B;](./assets/data-exported-tax-rates.png){width="500" zoomable="yes"}
 
 1. 新しい税率データをスプレッドシートの 2 番目のインスタンスで開くと、横に並べて表示できます。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
    - `CityRate`
    - `SpecialRate`
 
-   追加の [ 税ゾーンと税率 ](../stores-purchase/tax-zones-rates.md) をインポートする必要がある場合は、まずストアの管理者から定義し、必要に応じて [ 税規則 ](../stores-purchase/tax-rules.md) を更新する必要があります。 次に、データを書き出し、ファイルをテキストエディターで開いて、参照に使用できるようにします。 ただし、この例では単純にするために、標準の税率列のみをインポートします。
+   追加の [&#x200B; 税ゾーンと税率 &#x200B;](../stores-purchase/tax-zones-rates.md) をインポートする必要がある場合は、まずストアの管理者から定義し、必要に応じて [&#x200B; 税規則 &#x200B;](../stores-purchase/tax-rules.md) を更新する必要があります。 次に、データを書き出し、ファイルをテキストエディターで開いて、参照に使用できるようにします。 ただし、この例では単純にするために、標準の税率列のみをインポートします。
 
 ## 手順 2：インポートデータの準備
 
@@ -93,6 +93,6 @@ ht-degree: 0%
 
 1. 新しい税率を表示するには、ページ管理を使用します。
 
-   ![ データ輸入税率 ](../stores-purchase/assets/tax-zones-rates.png){width="600" zoomable="yes"}
+   ![&#x200B; データ輸入税率 &#x200B;](../stores-purchase/assets/tax-zones-rates.png){width="600" zoomable="yes"}
 
 1. 異なる郵便番号の顧客とストアで一部のテストトランザクションを実行して、新しい税率が正しく機能することを確認します。

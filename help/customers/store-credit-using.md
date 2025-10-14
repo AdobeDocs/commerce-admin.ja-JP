@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ストア管理者は、顧客アカウントからクレジット残高と履歴を表示でき、購入にストアクレジットを適用することもできます。
 
-![ 顧客の与信残高と履歴 ](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
+![&#x200B; 顧客の与信残高と履歴 &#x200B;](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
 
 ## 貸方残高の表示
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. ページ _[!UICONTROL Customer View]_&#x200B;スクロールし、下部の&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;を表示します。
 
-![ 店舗の貸方残高 ](assets/store-credit-balance.png){width="600" zoomable="yes"}
+![&#x200B; 店舗の貸方残高 &#x200B;](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
 ## 店舗クレジット残高の更新
 
@@ -54,9 +54,9 @@ ht-degree: 0%
 
 ## 店舗管理者として注文にクレジット残高を適用する
 
-ストア管理者は、顧客に代わって注文の送信など、様々な操作を実行できます。 [ 注文の作成 ](../stores-purchase/customer-account-create-order.md) 時に、顧客が支払うストアクレジット残高を適用できます。 使用可能な残高は、「支払および配送情報 _セクションに表示さ_ ます。 「**[!UICONTROL Use Store Credit]**」チェックボックスを選択して残高を適用するか、受注合計が少ない場合は残高の一部を適用します。
+ストア管理者は、顧客に代わって注文の送信など、様々な操作を実行できます。 [&#x200B; 注文の作成 &#x200B;](../stores-purchase/customer-account-create-order.md) 時に、顧客が支払うストアクレジット残高を適用できます。 使用可能な残高は、「支払および配送情報 _セクションに表示さ_ ます。 「**[!UICONTROL Use Store Credit]**」チェックボックスを選択して残高を適用するか、受注合計が少ない場合は残高の一部を適用します。
 
-![ 注文への店舗クレジット残高の適用 ](assets/store-credit-apply.png){width="500" zoomable="yes"}
+![&#x200B; 注文への店舗クレジット残高の適用 &#x200B;](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
 ## チェックアウト時の店舗クレジットの適用
 
@@ -72,6 +72,6 @@ ht-degree: 0%
    >
    >注文合計が再計算され、適用されたストアクレジットの額が _[!UICONTROL Order Summary]_&#x200B;に表示されます。
 
-   ![ 注文に適用された店舗のクレジット残高 ](assets/store-credit-checkout.png){width="700" zoomable="yes"}
+   ![&#x200B; 注文に適用された店舗のクレジット残高 &#x200B;](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 
 1. 準備ができたら、「**[!UICONTROL Place Order]**」をクリックします。

@@ -22,11 +22,11 @@ ht-degree: 0%
 
 [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
-![ 販売者の所在地 ](./assets/payment-methods-merchant-location.png)<!-- zoom -->
+![&#x200B; 販売者の所在地 &#x200B;](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
 <!-- [Merchant Location](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Merchant Country] | Web サイト | 営業を行うために商人が登録されている国を識別します。 |
 
@@ -46,7 +46,7 @@ PayPal アカウントまたはクレジットカードによるオンライン�
 ><br/>
 >**Amazon Pay** および **Klarna**:Adobe CommerceおよびMagento Open Source リリース 2.4.0 から 2.4.3 には、これらのベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、これらの拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 また、Marketplace では、拡張機能開発者が提供する最新のドキュメントにもアクセスできます。
 ><br/>
->これらのバンドルされた拡張機能のいずれかが有効になって設定済みの場合は、2.4.4 アップグレードプロセスの一環として `composer.json` ファイルを更新し、今後、拡張機能の更新を管理する必要があります。 詳しくは、『 [ アップグレードガイド _の ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ja) アップグレードモジュール_ を参照してください。<br/>
+>これらのバンドルされた拡張機能のいずれかが有効になって設定済みの場合は、2.4.4 アップグレードプロセスの一環として `composer.json` ファイルを更新し、今後、拡張機能の更新を管理する必要があります。 詳しくは、『 [&#x200B; アップグレードガイド _の &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ja) アップグレードモジュール_ を参照してください。<br/>
 ><br/>
 >**Worldpay**、**Eway**、**CyberSource**、および **Authorize.Net**：これらの支払い統合から安全に移行する方法については、[DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"} を参照してください。
 
@@ -69,7 +69,7 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md) （高速チェックアウトを含む）
-- [PayPal ペイフローリンク ](paypal-payflow-link.md) （高速チェックアウトを含む）
+- [PayPal ペイフローリンク &#x200B;](paypal-payflow-link.md) （高速チェックアウトを含む）
 
 ## 基本的な支払い方法
 
@@ -77,15 +77,15 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 
 ### [!UICONTROL Check / Money Order]
 
-![ 小切手/送金 ](./assets/payment-methods-check-money-order.png)<!-- zoom -->
+![&#x200B; 小切手/送金 &#x200B;](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
 <!-- [Check / Money Order](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Web サイト | 顧客が小切手または送金で支払うことができるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時に顧客に表示されるこの支払い方法の名前。 |
-| [!UICONTROL New Order Status] | Web サイト | 小切手またはマネーオーダーによって支払われた注文に割り当てられる最初の [ 注文ステータス ](../../stores-purchase/order-status.md) を決定します。 デフォルト値：`Pending` |
+| [!UICONTROL New Order Status] | Web サイト | 小切手またはマネーオーダーによって支払われた注文に割り当てられる最初の [&#x200B; 注文ステータス &#x200B;](../../stores-purchase/order-status.md) を決定します。 デフォルト値：`Pending` |
 | [!UICONTROL Payment from Applicable Countries] | Web サイト | 小切手またはマネーオーダーによる支払いを受け入れる国を決定します。 オプション：`All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Web サイト | 小切手またはマネーオーダーによる支払いを受け入れる特定の国を識別します。 |
 | [!UICONTROL Make Check Payable to] | ストア表示 | 小切手および為替を支払う必要があるエンティティの名前。 |
@@ -98,11 +98,11 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 
 ### [!UICONTROL Bank Transfer Payment]
 
-![ 振替支払 ](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
+![&#x200B; 振替支払 &#x200B;](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
 <!-- [Bank Transfer Payment](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Web サイト | 顧客が支払いを銀行から販売者の口座に直接送金して支払うことができるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時に顧客に表示されるこの支払い方法の名前。 |
@@ -119,11 +119,11 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 
 {{b2b-feature}}
 
-![ 分割払 ](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
+![&#x200B; 分割払 &#x200B;](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
 <!-- [Payment on Account](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Web サイト | 会社が会社クレジットを使用して購入できるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時に顧客に表示されるこの支払い方法の名前。 |
@@ -138,15 +138,15 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 
 >[!NOTE]
 >
->[ 複数の配送先住所 ](../../stores-purchase/shipping-settings.md#multiple-addresses) を含む注文については、アカウントでのお支払いはサポートされておらず、お支払いオプションには表示されません。
+>[&#x200B; 複数の配送先住所 &#x200B;](../../stores-purchase/shipping-settings.md#multiple-addresses) を含む注文については、アカウントでのお支払いはサポートされておらず、お支払いオプションには表示されません。
 
 ### [!UICONTROL Cash On Delivery Payment]
 
-![ 代金交付金 ](./assets/payment-methods-cash-on-delivery-payment.png)<!-- zoom -->
+![&#x200B; 代金交付金 &#x200B;](./assets/payment-methods-cash-on-delivery-payment.png)<!-- zoom -->
 
 <!-- [Cash On Delivery Payment](../../stores-purchase/cash-on-delivery.html) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Web サイト | 顧客が支払いを銀行から販売者の口座に直接送金して支払うことができるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時に顧客に表示されるこの支払い方法の名前。 |
@@ -161,11 +161,11 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 
 ### [!UICONTROL Zero Subtotal Checkout]
 
-![ 小計ゼロのチェックアウト ](./assets/payment-methods-zero-subtotal-checkout.png)<!-- zoom -->
+![&#x200B; 小計ゼロのチェックアウト &#x200B;](./assets/payment-methods-zero-subtotal-checkout.png)<!-- zoom -->
 
 <!-- [Zero Subtotal Checkout](../../stores-purchase/zero-subtotal-checkout.html) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時にこの支払い方法に使用される名前。 デフォルト値：支払情報は不要 |
 | [!UICONTROL Enabled] | Web サイト | 小計ゼロの小計チェックアウトを店舗管理者が使用できるかどうかを決定します。小計ゼロの注文（課税済みの注文など）を管理できますが、割引によって金額がゼロに減らされています。 オプション：`Yes` / `No` |
@@ -203,15 +203,15 @@ PayPal は、あらゆる規模の企業のニーズに対応し、世界中で�
 
 ## [!UICONTROL Purchase Order]
 
-![ 注文書 ](./assets/payment-methods-purchase-order.png)<!-- zoom -->
+![&#x200B; 注文書 &#x200B;](./assets/payment-methods-purchase-order.png)<!-- zoom -->
 
 <!-- [Purchase Order](../../stores-purchase/purchase-order.html) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Web サイト | 顧客が発注書（PO）で支払うことができるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時に顧客に表示されるこの支払い方法の名前。 |
-| [!UICONTROL New Order Status] | Web サイト | PO によって支払われた注文に割り当てられる最初の [ 注文ステータス ](../../stores-purchase/order-status.md) を決定します。 デフォルト値：保留中 |
+| [!UICONTROL New Order Status] | Web サイト | PO によって支払われた注文に割り当てられる最初の [&#x200B; 注文ステータス &#x200B;](../../stores-purchase/order-status.md) を決定します。 デフォルト値：保留中 |
 | [!UICONTROL Payment from Applicable Countries] | Web サイト | 発注による支払を受け入れる国を決定します。 オプション：`All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Web サイト | 発注による支払を受け入れる特定の国を識別します。 |
 | [!UICONTROL Minimum Order Total] | Web サイト | PO で支払うことができる最小の注文金額。 |

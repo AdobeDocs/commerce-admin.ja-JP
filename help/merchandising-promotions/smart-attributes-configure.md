@@ -21,9 +21,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Visual Merchandiser]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL General Options]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL General Options]**」セクションを展開します。
 
-   ![ カタログ設定 – 視覚的なマーチャンダイザー ](../configuration-reference/catalog/assets/catalog-visual-merchandiser-general-options.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ設定 – 視覚的なマーチャンダイザー &#x200B;](../configuration-reference/catalog/assets/catalog-visual-merchandiser-general-options.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Attributes for Category Rules]** リストで、ビジュアルマーチャンダイジングで使用できるようにする各属性を選択します。
 

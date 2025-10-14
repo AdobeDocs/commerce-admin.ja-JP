@@ -15,7 +15,7 @@ ht-degree: 0%
 
 会社を共有カタログに割り当てる方法は 2 つあります。 _[!UICONTROL Shared Catalogs]_&#x200B;グリッドから割り当てを行うか、顧客グループを選択する場合と同様に会社を編集して共有カタログを割り当てることができます。
 
-![ 会社の割当て ](./assets/shared-catalog-assign-companies.png){width="700" zoomable="yes"}
+![&#x200B; 会社の割当て &#x200B;](./assets/shared-catalog-assign-companies.png){width="700" zoomable="yes"}
 
 ## 方法 1：共有カタログから会社を割り当てる
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 共有カタログに割り当てる会社を選択し、[**[!UICONTROL Actions]**] メニューをクリックして [**[!UICONTROL Assign Catalog]**] を選択します。
 
-   ![ 利用可能な会社 ](./assets/shared-catalog-assign-companies-grid-view.png){width="700" zoomable="yes"}
+   ![&#x200B; 利用可能な会社 &#x200B;](./assets/shared-catalog-assign-companies-grid-view.png){width="700" zoomable="yes"}
 
    または、カタログに割り当てられていない会社の「**[!UICONTROL Action]**」列の **[!UICONTROL Assign]** をクリックすることもできます。
 
@@ -43,14 +43,14 @@ ht-degree: 0%
 
 1. グリッドに表示される会社について、「**[!UICONTROL Action]**」列に移動し、「**[!UICONTROL Edit]**」をクリックします。
 
-   ![ 会社の編集 ](./assets/companies-grid-edit.png){width="700" zoomable="yes"}
+   ![&#x200B; 会社の編集 &#x200B;](./assets/companies-grid-edit.png){width="700" zoomable="yes"}
 
-1. 会社ページで、下にスクロールして「**[!UICONTROL Advanced Settings]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. 会社ページで、下にスクロールして「**[!UICONTROL Advanced Settings]**」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
 1. **[!UICONTROL Customer Group]** を適切な共有カタログに設定します。
 
    共有カタログの割り当てを変更すると、すべての会社メンバーの顧客グループの割り当ても変更されます。
 
-   ![ 顧客グループ/共有カタログ ](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
+   ![&#x200B; 顧客グループ/共有カタログ &#x200B;](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
 1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL Proceed]**」をクリックし、**[!UICONTROL Save]** をクリックします。

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 管理者へのアクセスを制限されたユーザーを許可するには、まず、適切なレベルの権限を持つ役割を作成します。 役割を保存したら、新しいユーザーを追加し、制限付きの役割を割り当てて、管理者への制限付きアクセスを許可できます。
 
-![ 管理者 – ユーザーの役割 ](./assets/permissions-role-grid.png){width="600" zoomable="yes"}
+![&#x200B; 管理者 – ユーザーの役割 &#x200B;](./assets/permissions-role-grid.png){width="600" zoomable="yes"}
 
 ## 役割の定義
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. _[!UICONTROL Current User Identity Verification]_&#x200B;の下に、パスワードを入力します。
 
-   ![ システム権限 – 役割情報 ](./assets/permissions-role-info.png){width="600" zoomable="yes"}
+   ![&#x200B; システム権限 – 役割情報 &#x200B;](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
 ### 手順 2：リソースを割り当てる
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
    マルチサイトインストールで `Custom` に設定した場合は、web サイトのチェックボックスをオンにして、役割を使用するストアを選択します。
 
-   ![ ユーザーの役割リソース – カスタム スコープ ](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
+   ![&#x200B; ユーザーの役割リソース – カスタム スコープ &#x200B;](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -55,15 +55,15 @@ ht-degree: 0%
 
 1. **[!UICONTROL Resource]** ツリー構造で、役割がアクセスできる各管理機能のチェックボックスをオンにします。
 
-   税金設定へのアクセス権を持つ管理者ロールを作成するには、「売上/税金」および「システム/税金」リソースの両方を選択します。 デフォルトの [ 出荷元 ](../stores-purchase/shipping-settings.md#point-of-origin) とは異なる地域の Web サイトを設定する場合は、その役割のシステム/出荷リソースへのアクセスを許可する必要があります。 配送設定によって、カタログ価格に使用する店舗の税率が決まります。
+   税金設定へのアクセス権を持つ管理者ロールを作成するには、「売上/税金」および「システム/税金」リソースの両方を選択します。 デフォルトの [&#x200B; 出荷元 &#x200B;](../stores-purchase/shipping-settings.md#point-of-origin) とは異なる地域の Web サイトを設定する場合は、その役割のシステム/出荷リソースへのアクセスを許可する必要があります。 配送設定によって、カタログ価格に使用する店舗の税率が決まります。
 
-   ![ 割り当てられたユーザーの役割リソース ](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
+   ![&#x200B; 割り当てられたユーザーの役割リソース &#x200B;](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
 
    使用可能な権限のリストには、バンドルされた拡張機能やインストールされた拡張機能に対する追加のオプションが含まれる場合があります。 各機能の最上位の権限を選択すると、ユーザーに使用可能なすべての権限を割り当てることができます。
 
    >[!NOTE]
    >
-   >管理者ユーザーが _[!UICONTROL Invoices]_、_[!UICONTROL Credit Memos]_、_[!UICONTROL Shipments]_&#x200B;の順序 [ タブ ](../stores-purchase/order-processing.md) を表示するには、役割の範囲に対する&#x200B;**[!UICONTROL Sales / Archive]**&#x200B;権限が必要です。
+   >管理者ユーザーが _[!UICONTROL Invoices]_、_[!UICONTROL Credit Memos]_、_[!UICONTROL Shipments]_&#x200B;の順序 [&#x200B; タブ &#x200B;](../stores-purchase/order-processing.md) を表示するには、役割の範囲に対する&#x200B;**[!UICONTROL Sales / Archive]**&#x200B;権限が必要です。
 
 1. 完了したら、「**[!UICONTROL Save Role]**」をクリックします。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    _[!UICONTROL Role Users]_&#x200B;オプションは、新しい役割が保存された後にのみ表示されます。
 
-   ![ 役割に割り当てられたユーザーアカウント ](./assets/permissions-role-users.png){width="600" zoomable="yes"}
+   ![&#x200B; 役割に割り当てられたユーザーアカウント &#x200B;](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
 1. 特定のユーザーレコードを検索するには、次の手順を実行します。
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 |  | [`User Content`](../merchandising-promotions/product-reviews-moderate.md) | [`All Reviews`](../merchandising-promotions/product-reviews.md) <br/>[`Pending Reviews`](../merchandising-promotions/product-reviews-moderate.md) <br/> |  |
 | [`Content`](../content-design/content-menu.md) | [`Elements`](../content-design/content-menu.md#uicontrol-elements)） | [`Pages`](../content-design/pages.md)<br/>[`Hierarchy`](../content-design/page-hierarchy.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Blocks`](../content-design/blocks.md)<br/>[`Dynamic Blocks`](../content-design/dynamic-blocks.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Widgets`](../content-design/widgets.md)<br/>[`Media Gallery`](../content-design/media-gallery.md) |  |
 |  | [`Design`](../content-design/introduction.md#design) | [`Themes`](../content-design/themes.md)<br/>[`Schedule`](../content-design/schedule.md) |  |
-|  | [ コンテンツのステージング ](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
+|  | [&#x200B; コンテンツのステージング &#x200B;](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
 | [`Reports`](../getting-started/reports-menu.md) | [`Marketing`](../getting-started/marketing-reports.md) | `Shopping Cart`<br />[`Search Terms`](../catalog/search-terms.md#search-terms-report)<br />`Newsletter Problem Reports` |  |
 |  | [`Reviews`](../getting-started/review-reports.md)<br /> |  |
 |  | [`Sales`](../getting-started/sales-reports.md) |  |

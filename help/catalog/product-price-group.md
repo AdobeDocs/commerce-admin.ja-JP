@@ -16,9 +16,9 @@ ht-degree: 0%
 
 買い物客がアカウントにログインしたときに、特定の顧客グループのメンバーに製品の割引価格を提供できます。 顧客グループ価格は、通常の価格と共に製品ページに表示されるため、買い物客は価格を簡単に比較し、それに応じて行動することができます。 買い物かごに製品を追加した後、通常の価格は、顧客グループに基づくグループ価格に置き換えられます。
 
-顧客グループ向けの価格は、[ 階層化された価格 ](product-price-tier.md) のコンポーネントであり、同様の方法で設定されます。 唯一の違いは、顧客グループ価格の数量が 1 であることです。
+顧客グループ向けの価格は、[&#x200B; 階層化された価格 &#x200B;](product-price-tier.md) のコンポーネントであり、同様の方法で設定されます。 唯一の違いは、顧客グループ価格の数量が 1 であることです。
 
-![ 顧客グループ割引 ](./assets/storefront-price-group.png){width="600" zoomable="yes"}
+![&#x200B; 顧客グループ割引 &#x200B;](./assets/storefront-price-group.png){width="600" zoomable="yes"}
 
 ## グループ価格を使用するメリット
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
       - `Discount` – 製品価格に対するパーセンテージとして割引価格を入力します。
 
-     ![ 顧客グループ価格 ](./assets/product-price-group-discount.png){width="600" zoomable="yes"}
+     ![&#x200B; 顧客グループ価格 &#x200B;](./assets/product-price-group-discount.png){width="600" zoomable="yes"}
 
 1. 別のグループ価格を追加するには、「**[!UICONTROL Add]**」をクリックして前の手順を繰り返します。
 

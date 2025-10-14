@@ -16,11 +16,11 @@ ht-degree: 0%
 
 顧客がカスタマイズ可能なオプションを使用して製品を購入すると、選択した各オプションの説明が製品の説明の下に表示され、関連するマークアップ（マークダウン）が項目の価格に自動的に適用されます。
 
-![ 製品の詳細とカスタマイズ可能なオプション ](./assets/storefront-customizable-option-product-detail.png){width="700" zoomable="yes"}
+![&#x200B; 製品の詳細とカスタマイズ可能なオプション &#x200B;](./assets/storefront-customizable-option-product-detail.png){width="700" zoomable="yes"}
 
 買い物かごの価格ルールが購入によってトリガーされた場合、最初の計算は製品価格に最初に適用され、2 番目は品目価格に適用され、適用可能なカスタマイズ可能なオプションの調整が行われます。 次の例では、顧客はダッフルバッグを 74.00 ドルで購入し、さらにモノグラム用のカスタマイズ可能なオプションを購入します。 ベースの製品価格に$14.80 のマークアップが適用され、調整済みの価格は$88.80 と表示されます。この場合、ダッフルバッグの購入は、商品 SKU に基づいて買い物かご価格ルールをトリガーし、購入に割引を適用し、送料無料を適用します。 買い物かごの価格ルールは、カスタマイズ可能なオプションによってトリガーされませんが、カスタマイズ可能なオプションのマークアップを含む割引を買い物かごのコンテンツに適用します。
 
-![ カスタマイズ可能なオプションと価格ルールを備えた買い物かご ](./assets/storefront-customizable-option-cart-price-rule.png){width="700" zoomable="yes"}
+![&#x200B; カスタマイズ可能なオプションと価格ルールを備えた買い物かご &#x200B;](./assets/storefront-customizable-option-cart-price-rule.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 1. 製品を編集モードで開きます。
 
-1. 下にスクロールして、「_[!UICONTROL Customizable Options]_」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. 下にスクロールして、「_[!UICONTROL Customizable Options]_」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
 1. 「**[!UICONTROL Add Option]**」をクリックします。
 
-   ![ カスタマイズ可能なオプション ](./assets/product-customizable-options.png){width="600" zoomable="yes"}
+   ![&#x200B; カスタマイズ可能なオプション &#x200B;](./assets/product-customizable-options.png){width="600" zoomable="yes"}
 
 1. 新しいオプション設定を完了します。
 
@@ -59,13 +59,13 @@ ht-degree: 0%
 
    - _[!UICONTROL Option Type]_&#x200B;が `File` の場合は、ファイルのパラメーターを設定します。**[!UICONTROL Compatible File Extensions]**&#x200B;の場合は、有効な拡張子をコンマ区切り値（`png, jpg, gif` など）で入力します。**[!UICONTROL Maximum Image Size]**&#x200B;しくは、画像の最大サイズをピクセル単位で入力します。 テキスト入力の場合は、**[!UICONTROL Maximum Characters]**&#x200B;の最大値を入力します。
 
-   ![ カスタマイズの値を追加オプション ](./assets/product-customizable-options-add-values.png){width="600" zoomable="yes"}
+   ![&#x200B; カスタマイズの値を追加オプション &#x200B;](./assets/product-customizable-options-add-values.png){width="600" zoomable="yes"}
 
 1. （オプション）別のカスタマイズ可能なオプションを追加する場合は、「**[!UICONTROL Add Option]**」をクリックします。
 
    - 前と同じように設定を完了します。
 
-   - オプションの順序を変更するには、「並べ替え _[!UICONTROL Order]_&#x200B;順アイコン ![ アイコンをクリックし ](../assets/icon-sort-order.png) リストの新しい位置にオプションをドラッグします。
+   - オプションの順序を変更するには、「並べ替え _[!UICONTROL Order]_&#x200B;順アイコン ![&#x200B; アイコンをクリックし &#x200B;](../assets/icon-sort-order.png) リストの新しい位置にオプションをドラッグします。
 
    追加する各オプションに対して、この手順を繰り返します。
 
@@ -91,6 +91,6 @@ ht-degree: 0%
 | [!UICONTROL Text] | 顧客が必要な情報を入力できる入力行またはテキストボックス。 Options:<br />**[!UICONTROL Field]**- テキストの 1 行入力フィールド。<br />**[!UICONTROL Area]** – 複数行の入力フィールド。 このタイプでは、HTMLなどの高度な書式設定はサポートされていません。 最大文字数を使用すると、入力できるテキストの長さを制限でき、管理者で入力したテキストが正しく表示されるようにします。 |
 | [!UICONTROL File] | 顧客がファイルをアップロードできるようにします。 |
 | [!UICONTROL Select] | 使用する入力タイプに応じて、1 つまたは複数のオプションを選択できるようにします。 Options:<br />**[!UICONTROL Drop-down]**- 1 つの選択のみを許可するオプションのドロップダウンリスト。<br />**[!UICONTROL Radio Buttons]** - 1 つしか選択できない一連のオプション。<br />**[!UICONTROL Checkbox]**- チェックボックスは、yes/no オプションのバリエーションです。 製品に複数のチェックボックスがある場合は、複数の選択を行うことができます。<br />**[!UICONTROL Multiple Select]** – 複数の選択を受け入れるオプションのドロップダウンリストボックス。 複数のオプションを選択するには、Ctrl （PC）キーまたは Command （Mac）キーを押しながら、各オプションをクリックします。 |
-| [!UICONTROL Date] | 顧客が日付や時刻を入力したり、カレンダーから値を選択したりできます。 オプション：<br />**[!UICONTROL Date]**– 日付値の入力フィールド。 日付は、フィールドに直接入力することも、リストやカレンダーから選択することもできます。 入力の方法と形式は、「日付と時刻のオプション [ の設定によって決 ](attributes-input-types.md#date-and-time-options) ります。<br />**[!UICONTROL Date & Time]** – 日時の値の入力フィールド。<br />**[!UICONTROL Time]**– 時間値の入力フィールド。 |
+| [!UICONTROL Date] | 顧客が日付や時刻を入力したり、カレンダーから値を選択したりできます。 オプション：<br />**[!UICONTROL Date]**– 日付値の入力フィールド。 日付は、フィールドに直接入力することも、リストやカレンダーから選択することもできます。 入力の方法と形式は、「日付と時刻のオプション [&#x200B; の設定によって決 &#x200B;](attributes-input-types.md#date-and-time-options) ります。<br />**[!UICONTROL Date & Time]** – 日時の値の入力フィールド。<br />**[!UICONTROL Time]**– 時間値の入力フィールド。 |
 
 {style="table-layout:auto"}

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # ニュースレターと購読
 
-通常のニュースレターを公開することは、利用可能な最も強力で手頃な価格のマーケティングツールの 1 つと考えられています。 Commerceには、購読している顧客にニュースレターを公開および配布する機能に加え、ニュースレターを作成し、購読者のリストを作成および管理し、コンテンツを開発し、ストアへのトラフィックを促進するツールが用意されています。 [ ページ階層 ](../content-design/page-hierarchy.md) を使用して、過去のイシューのアーカイブを作成することもできます。
+通常のニュースレターを公開することは、利用可能な最も強力で手頃な価格のマーケティングツールの 1 つと考えられています。 Commerceには、購読している顧客にニュースレターを公開および配布する機能に加え、ニュースレターを作成し、購読者のリストを作成および管理し、コンテンツを開発し、ストアへのトラフィックを促進するツールが用意されています。 [&#x200B; ページ階層 &#x200B;](../content-design/page-hierarchy.md) を使用して、過去のイシューのアーカイブを作成することもできます。
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Newsletter]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL General Options]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL General Options]**」セクションを展開します。
 
 1. ストア表示範囲のニュースレターを有効にするには、**[!UICONTROL Enabled]** を `Yes` に設定します。
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Newsletter]**」を選択します。
 
-1. 必要に応じて [ 設定範囲を変更 ](../getting-started/websites-stores-views.md#scope-settings) し、ニュースレターの設定変更を特定のサイト/ストア表示に適用します。
+1. 必要に応じて [&#x200B; 設定範囲を変更 &#x200B;](../getting-started/websites-stores-views.md#scope-settings) し、ニュースレターの設定変更を特定のサイト/ストア表示に適用します。
 
-1. **[!UICONTROL Subscription Options]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Subscription Options]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![ 顧客設定 – ニュースレターの購読 ](../configuration-reference/customers/assets/newsletter-subscription-options.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客設定 – ニュースレターの購読 &#x200B;](../configuration-reference/customers/assets/newsletter-subscription-options.png){width="600" zoomable="yes"}
 
    - 購読者に送信される次の各メールメッセージのメールテンプレートと送信者を確認します。
 

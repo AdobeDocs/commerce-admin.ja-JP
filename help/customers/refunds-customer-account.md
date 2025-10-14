@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-注文の払い戻しが発行されている場合、お客様はアカウントダッシュボードで注文に関連する払い戻し情報を表示できます。 [ ストアクレジット設定 ](../customers/credit-configure.md) に対して「[!UICONTROL _顧客にストアクレジット履歴を表示_]」オプションを有効にしている場合、顧客は [ ストアクレジット ](../customers/store-credit.md) 履歴にもアクセスできます。
+注文の払い戻しが発行されている場合、お客様はアカウントダッシュボードで注文に関連する払い戻し情報を表示できます。 [&#x200B; ストアクレジット設定 &#x200B;](../customers/credit-configure.md) に対して「[!UICONTROL _顧客にストアクレジット履歴を表示_]」オプションを有効にしている場合、顧客は [&#x200B; ストアクレジット &#x200B;](../customers/store-credit.md) 履歴にもアクセスできます。
 
 ## ストアフロントの払い戻しの表示
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. お客様は「**[!UICONTROL Refunds]**」タブをクリックして、返金の詳細を表示します。
 
-   ![ 店頭での払い戻し明細 ](assets/customer-account-order-refunds.png){width="700" zoomable="yes"}
+   ![&#x200B; 店頭での払い戻し明細 &#x200B;](assets/customer-account-order-refunds.png){width="700" zoomable="yes"}
 
 ## ストアフロントでの店舗クレジット残高と履歴の表示
 
@@ -39,11 +39,11 @@ ht-degree: 0%
 
 1. ストアクレジットに払い戻された金額は、アクションの日時と共にリストに表示されます。
 
-   ![ 店舗信用供与等払戻額 ](assets/customer-account-store-credit.png){width="700" zoomable="yes"}
+   ![&#x200B; 店舗信用供与等払戻額 &#x200B;](assets/customer-account-store-credit.png){width="700" zoomable="yes"}
 
    >[!INFO]
    >
-   >「ストアクレジット」ページには、顧客が [ ギフトカード ](../stores-purchase/product-gift-card-workflow.md#check-status-and-balance-of-the-gift-card) を引き換えるためのリンクも表示されます。
+   >「ストアクレジット」ページには、顧客が [&#x200B; ギフトカード &#x200B;](../stores-purchase/product-gift-card-workflow.md#check-status-and-balance-of-the-gift-card) を引き換えるためのリンクも表示されます。
 
 方法 2:**レビューと支払 _ページから_**
 
@@ -55,13 +55,13 @@ ht-degree: 0%
 
 4. ストアクレジットを利用できる場合は、顧客は「**[!UICONTROL Use Store Credit]**」をクリックします。
 
-   ![ レビューと支払ページのストアクレジット ](assets/customer-account-order-refund-from-checkout.png){width="700" zoomable="yes"}
+   ![&#x200B; レビューと支払ページのストアクレジット &#x200B;](assets/customer-account-order-refund-from-checkout.png){width="700" zoomable="yes"}
 
 5. 顧客が店舗クレジットの使用に関する考えを変えた場合は、「注文概要 _セクションの&#x200B;**[!UICONTROL Remove]**&#x200B;をクリック_ ます。
 
 ## 管理者の支払いアクション
 
-特定の [ 支払い方法 ](../configuration-reference/sales/payment-methods.md) に対して支払いアクションを設定できます。 各支払い方法には、異なる支払いアクションのセットがあります。
+特定の [&#x200B; 支払い方法 &#x200B;](../configuration-reference/sales/payment-methods.md) に対して支払いアクションを設定できます。 各支払い方法には、異なる支払いアクションのセットがあります。
 
 | 支払いアクション | 説明 |
 |--- |---|

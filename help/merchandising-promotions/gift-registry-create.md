@@ -22,9 +22,9 @@ ht-degree: 0%
 
 レジストリを作成すると、顧客のアカウントにあるギフト レジストリの種類の一覧のオプションになります。
 
-3 つのギフト レジストリのいずれかを使用するか、独自のカスタム レジストリを作成できます。 各ギフトレジストリタイプには、複数の属性が含まれます。これらは、顧客がギフトレジストリを作成するために入力するデータ入力フィールドです。 属性は、イベント、時間、場所に関する追加情報、または必要なその他の情報を提供します。 入力タイプに応じて、一部の属性には複数のオプションがあります。 例えば、`Wedding` のギフトレジストリタイプには、属性 `Role` があり、`Bride`、`Groom`、`Partner` のオプションがあります。 属性と入力タイプについて詳しくは、[ 属性 ](../customers/attribute-properties.md) を参照してください。
+3 つのギフト レジストリのいずれかを使用するか、独自のカスタム レジストリを作成できます。 各ギフトレジストリタイプには、複数の属性が含まれます。これらは、顧客がギフトレジストリを作成するために入力するデータ入力フィールドです。 属性は、イベント、時間、場所に関する追加情報、または必要なその他の情報を提供します。 入力タイプに応じて、一部の属性には複数のオプションがあります。 例えば、`Wedding` のギフトレジストリタイプには、属性 `Role` があり、`Bride`、`Groom`、`Partner` のオプションがあります。 属性と入力タイプについて詳しくは、[&#x200B; 属性 &#x200B;](../customers/attribute-properties.md) を参照してください。
 
-![ ギフト レジストリの種類 ](./assets/gift-registry-types.png){width="700" zoomable="yes"}
+![&#x200B; ギフト レジストリの種類 &#x200B;](./assets/gift-registry-types.png){width="700" zoomable="yes"}
 
 ## 準備済みギフト レジストリの使用
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    誕生日、結婚式、赤ちゃんのレジストリは、顧客が自分のアカウントから使用する準備ができています。
 
-1. [ メールテンプレートの設定 ](../systems/email-templates.md#configure-email-templates) が完了し、ブランドが反映されていることを確認します。
+1. [&#x200B; メールテンプレートの設定 &#x200B;](../systems/email-templates.md#configure-email-templates) が完了し、ブランドが反映されていることを確認します。
 
 ## カスタムギフトレジストリの作成
 
@@ -54,13 +54,13 @@ ht-degree: 0%
 
    - ギフト レジストリをアクティブにするには、**[!UICONTROL Is Listed]** を `Yes` に設定します。
 
-     ![ ギフト レジストリ – 一般情報 ](./assets/gift-registry-new-general-information.png){width="600" zoomable="yes"}
+     ![&#x200B; ギフト レジストリ – 一般情報 &#x200B;](./assets/gift-registry-new-general-information.png){width="600" zoomable="yes"}
 
 1. ギフト レジストリの各セクションを調べて、含める情報の種類を決定します。
 
 1. 左パネルで「**[!UICONTROL Attributes]**」を選択し、「**[!UICONTROL Add Attribute]**」をクリックします。
 
-   ![ ギフトレジストリ – 新しい属性 ](./assets/gift-registry-type-new-attribute.png){width="600" zoomable="yes"}
+   ![&#x200B; ギフトレジストリ – 新しい属性 &#x200B;](./assets/gift-registry-type-new-attribute.png){width="600" zoomable="yes"}
 
 1. 各属性に対して、次の操作を行います。
 

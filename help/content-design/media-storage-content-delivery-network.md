@@ -36,9 +36,9 @@ CDN を設定したら、管理者から設定を完了する必要がありま�
 
 1. 左上隅で、必要に応じて **[!UICONTROL Store View]** を設定します。
 
-1. **[!UICONTROL Base URLs]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Base URLs]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![ 一般設定 – web ベース URL](./assets/web-base-urls.png){width="600" zoomable="yes"}
+   ![&#x200B; 一般設定 – web ベース URL](./assets/web-base-urls.png){width="600" zoomable="yes"}
 
    - 静的ビューファイルが格納されている CDN 上の場所の URL で **[!UICONTROL Base URL for Static View Files]** を更新します。
 
@@ -46,9 +46,9 @@ CDN を設定したら、管理者から設定を完了する必要がありま�
 
      これらのフィールドは両方とも空白のままでも、プレースホルダーで始めることもできます（例：`{% raw %}{{unsecure_base_url}}{% endraw %}`）。
 
-1. **[!UICONTROL Base URLs (Secure)]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Base URLs (Secure)]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![ 一般設定 – web ベース URL （セキュア） ](./assets/web-base-urls-secure.png){width="600" zoomable="yes"}
+   ![&#x200B; 一般設定 – web ベース URL （セキュア） &#x200B;](./assets/web-base-urls-secure.png){width="600" zoomable="yes"}
 
    - 静的ビューファイルが格納されている CDN 上の場所の URL で **[!UICONTROL Secure Base URL for Static View Files]** を更新します。
 

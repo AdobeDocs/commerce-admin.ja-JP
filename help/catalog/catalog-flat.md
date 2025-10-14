@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->フラット カタログを使用することは、現在ではベスト プラクティスとして推奨されていません。 この機能を継続的に使用すると、パフォーマンスの低下やその他のインデックス作成の問題が発生することが知られています。 詳細な説明と解決策については、[ ヘルプセンター ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=ja) を参照してください。<br/><br/> 影響を受けるバージョンは次のとおりです。<br/>- クラウドインフラストラクチャー上のAdobe Commerce、2.3.x 以降 <br/>- Adobe Commerce（オンプレミス）、2.3.x 以降 <br/>- Magento Open Source、2.3.x 以降 <br/><br/> どのリリースバージョンでも、一部の拡張機能はフラットテーブルでのみ機能するので、フラットテーブルを無効にした場合にリスクが生じます。 フラットカタログインデクサーを使用する拡張機能があることがわかっている場合は、それらの値を `No` に設定する際に、このリスクに注意する必要があります。
+>フラット カタログを使用することは、現在ではベスト プラクティスとして推奨されていません。 この機能を継続的に使用すると、パフォーマンスの低下やその他のインデックス作成の問題が発生することが知られています。 詳細な説明と解決策については、[&#x200B; ヘルプセンター &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=ja) を参照してください。<br/><br/> 影響を受けるバージョンは次のとおりです。<br/>- クラウドインフラストラクチャー上のAdobe Commerce、2.3.x 以降 <br/>- Adobe Commerce（オンプレミス）、2.3.x 以降 <br/>- Magento Open Source、2.3.x 以降 <br/><br/> どのリリースバージョンでも、一部の拡張機能はフラットテーブルでのみ機能するので、フラットテーブルを無効にした場合にリスクが生じます。 フラットカタログインデクサーを使用する拡張機能があることがわかっている場合は、それらの値を `No` に設定する際に、このリスクに注意する必要があります。
 
 Commerceは通常、Entity-Attribute-Value （EAV）モデルに基づいて、カタログデータを複数のテーブルに格納します。 製品属性は多くのテーブルに格納されるので、SQL クエリは長くて複雑な場合があります。
 
@@ -35,7 +35,7 @@ Commerceは通常、Entity-Attribute-Value （EAV）モデルに基づいて、�
 
    - **[!UICONTROL Use Flat Catalog Product]** を `Yes` に設定します。
 
-   ![ フラットなカタログ設定 ](./assets/use-flat-catalog.png){width="700" zoomable="yes"}
+   ![&#x200B; フラットなカタログ設定 &#x200B;](./assets/use-flat-catalog.png){width="700" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
@@ -63,7 +63,7 @@ Commerceは通常、Entity-Attribute-Value （EAV）モデルに基づいて、�
 
      必要に応じて、ページを更新して結果を確認します。 変更は 1 分以内に、または [Cron](../systems/cron.md) スケジュールに従って表示されます。
 
-   ![ フラットカタログ付きストアフロント ](./assets/storefront-flat-catalog-enabled.png){width="700" zoomable="yes"}
+   ![&#x200B; フラットカタログ付きストアフロント &#x200B;](./assets/storefront-flat-catalog-enabled.png){width="700" zoomable="yes"}
 
 ### 方法 2：カテゴリの結果の確認
 
@@ -79,15 +79,15 @@ Commerceは通常、Entity-Attribute-Value （EAV）モデルに基づいて、�
 
    - 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
-     ![ サブカテゴリのテスト ](./assets/catalog-flat-test-category.png){width="600" zoomable="yes"}
+     ![&#x200B; サブカテゴリのテスト &#x200B;](./assets/catalog-flat-test-category.png){width="600" zoomable="yes"}
 
-   - 「展開セレクター ![ 展開セクション ](../assets/icon-display-expand.png) を展開し、**[!UICONTROL Products in Category]** をクリックして、すべての商品 **[!UICONTROL Reset Filter]** 表示します。
+   - 「展開セレクター ![&#x200B; 展開セクション &#x200B;](../assets/icon-display-expand.png) を展開し、**[!UICONTROL Products in Category]** をクリックして、すべての商品 **[!UICONTROL Reset Filter]** 表示します。
 
    - 新しいカテゴリに追加する複数の製品のチェックボックスをオンにします。
 
    - 「**[!UICONTROL Save]**」をクリックします。
 
-   ![ テストカテゴリの製品 ](./assets/catalog-flat-test-category-products.png){width="600" zoomable="yes"}
+   ![&#x200B; テストカテゴリの製品 &#x200B;](./assets/catalog-flat-test-category-products.png){width="600" zoomable="yes"}
 
 1. 新しいブラウザータブでストアのホームページに移動し、ストアナビゲーションを使用して、作成したカテゴリを参照します。
 

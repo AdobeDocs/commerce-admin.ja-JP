@@ -32,11 +32,11 @@ MAP 機能は、通常の製品価格ではなく、専用の _クリックし�
 
 | 製品タイプ | 説明 |
 |--- |--- |
-| [ シンプル ](product-create-simple.md)、[ 仮想 ](product-create-virtual.md) | 実際の価格は、カタログリストや製品ページに自動的に表示されるのではなく、[!UICONTROL Display Actual Price] の設定に従ってのみ含まれます。 カスタムオプションの価格は通常どおり表示されます。 |
-| [ グループ化 ](product-create-grouped.md) | 関連付けられているシンプルな製品の価格は、カタログリストや製品ページに自動的には表示されませんが、[!UICONTROL Display Actual Price] の設定によってのみ含まれます。 |
-| [ 設定可能 ](product-create-configurable.md) | 実際の価格は、カタログリストや製品ページに自動的に表示されるのではなく、[!UICONTROL Display Actual Price] の設定に従ってのみ含まれます。 オプション価格は通常どおりに表示されます。 |
-| [ バンドル ](product-create-bundle.md) （固定価格） | 実際の価格は、カタログページに自動的には表示されませんが、[!UICONTROL Display Actual Price] の設定にのみ含まれます。 バンドル品目の価格は通常どおり表示されます。 動的価格設定のバンドル製品には、MAP は使用できません。 |
-| [ ダウンロード可能 ](product-create-downloadable.md) | 実際の価格は、カタログリストや製品ページに自動的に表示されるのではなく、[!UICONTROL Display Actual Price] の設定に従ってのみ含まれます。 各ダウンロードリンクに関連付けられている価格は、通常どおりに表示されます。 |
+| [&#x200B; シンプル &#x200B;](product-create-simple.md)、[&#x200B; 仮想 &#x200B;](product-create-virtual.md) | 実際の価格は、カタログリストや製品ページに自動的に表示されるのではなく、[!UICONTROL Display Actual Price] の設定に従ってのみ含まれます。 カスタムオプションの価格は通常どおり表示されます。 |
+| [&#x200B; グループ化 &#x200B;](product-create-grouped.md) | 関連付けられているシンプルな製品の価格は、カタログリストや製品ページに自動的には表示されませんが、[!UICONTROL Display Actual Price] の設定によってのみ含まれます。 |
+| [&#x200B; 設定可能 &#x200B;](product-create-configurable.md) | 実際の価格は、カタログリストや製品ページに自動的に表示されるのではなく、[!UICONTROL Display Actual Price] の設定に従ってのみ含まれます。 オプション価格は通常どおりに表示されます。 |
+| [&#x200B; バンドル &#x200B;](product-create-bundle.md) （固定価格） | 実際の価格は、カタログページに自動的には表示されませんが、[!UICONTROL Display Actual Price] の設定にのみ含まれます。 バンドル品目の価格は通常どおり表示されます。 動的価格設定のバンドル製品には、MAP は使用できません。 |
+| [&#x200B; ダウンロード可能 &#x200B;](product-create-downloadable.md) | 実際の価格は、カタログリストや製品ページに自動的に表示されるのではなく、[!UICONTROL Display Actual Price] の設定に従ってのみ含まれます。 各ダウンロードリンクに関連付けられている価格は、通常どおりに表示されます。 |
 
 {style="table-layout:auto"}
 
@@ -47,20 +47,20 @@ MAP 機能は、通常の製品価格ではなく、専用の _クリックし�
 | 主要価格 | MAP をメイン価格に適用すると、オプション、バンドル品目、および関連製品（メイン価格に加算または減算）の価格が通常どおり表示されます。 |
 | 関連する製品価格 | 製品に主要価格がなく、その価格が関連する製品価格（グループ化された製品など）から派生している場合、関連する製品の MAP 設定が適用されます。 |
 | [MSRP](product-price-minimum-advertised.md) | カート内の商品にメーカーの推奨小売価格（MSRP）が指定されている場合、その価格はクロスアウトされません。 |
-| [ 階層価格 ](product-price-tier.md) | 階層価格が設定されている場合、階層価格メッセージはカタログに表示されません。 商品ページには、特定の数量を超える注文の場合は価格が低くなる可能性があることを示す通知が表示されますが、割引はパーセンテージでのみ表示されます。 グループ化された製品の関連製品の場合、割引は製品ページに表示されません。 階層価格は、「実際の価格を表示」設定に従って表示されます。 |
-| [ 特別価格 ](product-price-special.md) | 特別価格が指定されている場合、特別価格は「実際の価格を表示」の設定に従って表示されます。 |
+| [&#x200B; 階層価格 &#x200B;](product-price-tier.md) | 階層価格が設定されている場合、階層価格メッセージはカタログに表示されません。 商品ページには、特定の数量を超える注文の場合は価格が低くなる可能性があることを示す通知が表示されますが、割引はパーセンテージでのみ表示されます。 グループ化された製品の関連製品の場合、割引は製品ページに表示されません。 階層価格は、「実際の価格を表示」設定に従って表示されます。 |
+| [&#x200B; 特別価格 &#x200B;](product-price-special.md) | 特別価格が指定されている場合、特別価格は「実際の価格を表示」の設定に従って表示されます。 |
 
 ## マップ設定
 
 Minimum Advertised Price （MAP）機能は、デフォルトでは有効になっていません。 この機能をストアに追加する場合は、この機能を有効にして、製品のマップ設定を指定する必要があります。 マップ設定は、カタログ内のすべての製品に適用することも、特定の製品用に設定することもできます。 MAP がグローバルに有効化されている場合、ストアフロントのすべての製品価格は非表示になります。 メーカーとの契約の条件を遵守しながら、お客様により良い価格を提供するために使用できる設定オプションは様々です。
 
-![ 実際の価格は「ジェスチャー時」に表示される ](./assets/storefront-msrp-on-gesture.png){width="700" zoomable="yes"}
+![&#x200B; 実際の価格は「ジェスチャー時」に表示される &#x200B;](./assets/storefront-msrp-on-gesture.png){width="700" zoomable="yes"}
 
 グローバルレベルでは、MAP を有効または無効にしたり、すべての製品に適用したり、実際の価格の表示方法を定義したりできます。 ストアに表示される関連メッセージおよび情報ヒントのテキストを編集することもできます。
 
 MAP が有効な場合、製品レベルの MAP 設定が使用可能になります。 MSRP を入力し、実際の価格を店舗に表示する方法を選択することで、個々の製品に MAP を適用できます。 製品レベルの MAP 設定は、グローバル MAP 設定よりも優先されます。
 
-![ クリックで価格を表示 ](./assets/storefront-price-map.png){width="700" zoomable="yes"}
+![&#x200B; クリックで価格を表示 &#x200B;](./assets/storefront-price-map.png){width="700" zoomable="yes"}
 
 ### 手順 1：ストアビューのマップを有効にする
 
@@ -70,11 +70,11 @@ MAP が有効な場合、製品レベルの MAP 設定が使用可能になり�
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、その下の「**[!UICONTROL Sales]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「_[!UICONTROL Minimum Advertised Price]_」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「_[!UICONTROL Minimum Advertised Price]_」セクションを展開します。
 
 1. 必要に応じて、**Enable MAP** を `Yes` に設定します。
 
-   ![MAP 設定 ](./assets/sales-minimum-advertised-price.png){width="600" zoomable="yes"}
+   ![MAP 設定 &#x200B;](./assets/sales-minimum-advertised-price.png){width="600" zoomable="yes"}
 
    これらの設定オプションの詳細なリストについては、[_設定リファレンス_](../configuration-reference/sales/sales.md#minimum-advertised-price) の _Minimum Advertised Price_ を参照してください。
 
@@ -115,11 +115,11 @@ MAP が有効な場合、製品レベルの MAP 設定が使用可能になり�
 
    この例では、製品価格は$54.00 で、MSRP は 59.95 です。
 
-   ![ 製造事業者の希望小売価格 ](./assets/product-price-msrp.png){width="600" zoomable="yes"}
+   ![&#x200B; 製造事業者の希望小売価格 &#x200B;](./assets/product-price-msrp.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Display Actual Price]** を次のいずれかに設定します。
 
-   - `Use config` - （デフォルト）ストアに対して表示設定を [ 設定 ](../configuration-reference/sales/sales.md#minimum-advertised-price) として適用します。 |
+   - `Use config` - （デフォルト）ストアに対して表示設定を [&#x200B; 設定 &#x200B;](../configuration-reference/sales/sales.md#minimum-advertised-price) として適用します。 |
    - `On Gesture` – 顧客が _価格のクリック_ または _これは何ですか？_ リンク。
    - `In Cart` - ショッピングカートの実際の製品価格を表示します。
    - `Before Order Confirmation` – 注文が確認される直前の、チェックアウトプロセスの最後に実際の製品価格を表示します。

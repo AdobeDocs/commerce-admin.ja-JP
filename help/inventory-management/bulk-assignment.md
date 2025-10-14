@@ -14,9 +14,9 @@ ht-degree: 0%
 
 _ソースを割り当て_ ツールを使用して、1 つ以上のソースを製品に追加します。 このツールは、カスタムソースを作成してデフォルト在庫またはカスタム在庫に割り当て、新しい場所と在庫を準備する際に役立ちます。
 
-新しいカスタムソースを追加した後、管理者を通じて、または [ 読み込み機能 ](quantities-assign-per-product.md) を使用して、[ 製品あたりの在庫数量 ](inventory-import-export.md) または複数の製品の数量を追加できます。
+新しいカスタムソースを追加した後、管理者を通じて、または [&#x200B; 読み込み機能 &#x200B;](quantities-assign-per-product.md) を使用して、[&#x200B; 製品あたりの在庫数量 &#x200B;](inventory-import-export.md) または複数の製品の数量を追加できます。
 
-![ 選択した製品の在庫ソースを追加 ](assets/inventory-bulk-assign-sources.gif)
+![&#x200B; 選択した製品の在庫ソースを追加 &#x200B;](assets/inventory-bulk-assign-sources.gif)
 
 ## ソースと数量の割り当て
 
@@ -34,9 +34,9 @@ _ソースを割り当て_ ツールを使用して、1 つ以上のソースを
 
 1. 「**[!UICONTROL Assign Sources]**」をクリックします。
 
-   ![ ソースを追加する製品を選択 ](assets/inventory-bulk-assign-sources-summary.png){width="600" zoomable="yes"}
+   ![&#x200B; ソースを追加する製品を選択 &#x200B;](assets/inventory-bulk-assign-sources-summary.png){width="600" zoomable="yes"}
 
-ソースは、在庫数量が 0 の製品に追加されます。 ソースごとに [ 在庫数量 ](quantities-assign-per-product.md) を追加できます。
+ソースは、在庫数量が 0 の製品に追加されます。 ソースごとに [&#x200B; 在庫数量 &#x200B;](quantities-assign-per-product.md) を追加できます。
 
 ## ソースと数量の割り当て解除
 
@@ -46,7 +46,7 @@ _ソースを割り当て_ ツールを使用して、1 つ以上のソースを
 
 ソースを削除する前に、これらの製品のすべての注文と出荷を完了することを強くお勧めします。
 
-![ 選択した製品のソースの割り当て解除 ](assets/inventory-bulk-unassign-sources.gif)
+![&#x200B; 選択した製品のソースの割り当て解除 &#x200B;](assets/inventory-bulk-unassign-sources.gif)
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
@@ -64,6 +64,6 @@ _ソースを割り当て_ ツールを使用して、1 つ以上のソースを
 
 1. 「**[!UICONTROL Unassign Sources]**」をクリックします。
 
-   ![ 選択した製品からソースを削除 ](assets/inventory-bulk-unassign-sources-summary.png){width="600" zoomable="yes"}
+   ![&#x200B; 選択した製品からソースを削除 &#x200B;](assets/inventory-bulk-unassign-sources-summary.png){width="600" zoomable="yes"}
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->

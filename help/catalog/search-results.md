@@ -14,11 +14,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このページでは、[ ライブサーチ ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ja) とは異なる可能性のある標準の検索機能について説明します。
+>このページでは、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ja) とは異なる可能性のある標準の検索機能について説明します。
 
-_検索結果_ リストには、「クイック検索」ボックスまたは「詳細検索」フォームに入力した検索条件に一致するすべての製品が表示されます。 カタログ内のすべての製品リストには、基本的に同じコントロールがあります。 唯一の違いは、1 つは検索クエリの結果であり、もう 1 つは [ ナビゲーション ](navigation.md) の結果であることです。
+_検索結果_ リストには、「クイック検索」ボックスまたは「詳細検索」フォームに入力した検索条件に一致するすべての製品が表示されます。 カタログ内のすべての製品リストには、基本的に同じコントロールがあります。 唯一の違いは、1 つは検索クエリの結果であり、もう 1 つは [&#x200B; ナビゲーション &#x200B;](navigation.md) の結果であることです。
 
-結果は、グリッドまたはリストとして書式設定でき、属性の選択で並べ替えることができます。 ページに収まらない商品がある場合は、ページネーションコントロールが表示されます。 これらのコントロールを使用して、ページ間を移動します。 ページあたりのレコード数は、カタログフロントエンド設定によって決定されます。 詳しくは、[ 製品リスト ](navigation-product-listings.md) を参照してください。
+結果は、グリッドまたはリストとして書式設定でき、属性の選択で並べ替えることができます。 ページに収まらない商品がある場合は、ページネーションコントロールが表示されます。 これらのコントロールを使用して、ページ間を移動します。 ページあたりのレコード数は、カタログフロントエンド設定によって決定されます。 詳しくは、[&#x200B; 製品リスト &#x200B;](navigation-product-listings.md) を参照してください。
 
 **Elasticsearch** を使用：
 
@@ -26,17 +26,17 @@ _検索結果_ リストには、「クイック検索」ボックスまたは�
 - `name` と `sku` の製品属性のみをプレフィックスで検索（部分キーワード検索）する機能は、すぐにサポートされています。 その他のすべての製品属性は、キーワード全体で検索され、完全に一致します。
 - `name` と `sku` の製品属性の検索結果は、完全一致ではなく関連度に基づいています。 最も関連性の高い一致（完全に一致した _製品名_ や _SKU_ など）が最初に表示されます。 完全一致を検索するには、検索クエリで二重引用符を使用します。 例えば、`WSH12-32-Red` 検索クエリは、関連度で並べ替えられた、複数の製品を返す場合があります。 ただし、`"WSH12-32-Red"` 検索クエリは、「完全に **_一致する `sku` を持つ製品を 1 つだけ返_** ます。
 
-![ ページネーションコントロールを使用した検索結果 ](./assets/storefront-search-results-shorts.png){width="700" zoomable="yes"}
+![&#x200B; ページネーションコントロールを使用した検索結果 &#x200B;](./assets/storefront-search-results-shorts.png){width="700" zoomable="yes"}
 
 >[!IMPORTANT]
 >
->2023 年 8 月のElasticsearch 7 のサポート終了のお知らせに伴い、Adobe Commerceをご利用のすべてのお客様に OpenSearch 2.x 検索エンジンを利用することをお勧めします。 製品のアップグレード中に検索エンジンを移行する方法については、[ アップグレード ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=ja) の _OpenSearch への移行_ を参照してください。
+>2023 年 8 月のElasticsearch 7 のサポート終了のお知らせに伴い、Adobe Commerceをご利用のすべてのお客様に OpenSearch 2.x 検索エンジンを利用することをお勧めします。 製品のアップグレード中に検索エンジンを移行する方法については、[&#x200B; アップグレード ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=ja) の _OpenSearch への移行_ を参照してください。
 
 ## 検索結果を拡張するキーワードマッピング
 
 この手法では、属性を使用して 2 つの製品間にキーワードベースの関連付けを作成し、どちらかの製品を検索すると両方の製品の結果が返されるようにします。 キーワードマッピングを使用すると、検索結果で表示されない製品を昇格させることができます。
 
-![ キーワードマッピングを使用した検索結果 ](./assets/storefront-search-results-extended.png){width="700" zoomable="yes"}
+![&#x200B; キーワードマッピングを使用した検索結果 &#x200B;](./assets/storefront-search-results-extended.png){width="700" zoomable="yes"}
 
 次の例では、SKU に基づくキーワードマッピングを使用しています。 検索ボックスにいずれかの SKU を入力すると、両方の製品が結果に表示されます。 次の設定可能な製品の SKU が、製品バリエーションの SKU ではなく、マッピングされます。
 
@@ -77,7 +77,7 @@ _検索結果_ リストには、「クイック検索」ボックスまたは�
 
    「検索キーワード」フィールドでは、複数の SKU をスペースで区切って入力できます。 この例では、1 つのみ入力されます。
 
-   ![ 検索キーワードを含む属性セクション ](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
+   ![&#x200B; 検索キーワードを含む属性セクション &#x200B;](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 1. **[!UICONTROL System]**/_[!UICONTROL Tools]_/**[!UICONTROL Cache Management]**&#x200B;に移動し、**[!UICONTROL Page Cache]**&#x200B;を更新します。

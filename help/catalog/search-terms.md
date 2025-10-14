@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 検索語句の管理
 
-検索語句の [ ランディングページ ](../content-design/pages.md) は、コンテンツページ、カテゴリページ、製品詳細ページのほか、別のサイトのページにすることもできます。
+検索語句の [&#x200B; ランディングページ &#x200B;](../content-design/pages.md) は、コンテンツページ、カテゴリページ、製品詳細ページのほか、別のサイトのページにすることもできます。
 
 検索用語を使用すると、一般的なスペルミスを取り込み、適切なページにリダイレクトすることができます。 例えば、鍛造の鉄のパティオ家具を販売する場合、多くの人が用語を _ロッド鉄_、さらには _腐った鉄_ と誤字することがわかります。 スペルミスした各単語を検索語句として入力し、「鍛造鉄 _の同義語にするこ_ ができます。 その単語のスペルが間違っているにもかかわらず、検索は鍛造された鉄のページに向けられます。
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ストアでユーザーが検索に使用する新しい単語を学習したら、その単語を検索用語リストに追加して、カタログ内で最も一致する製品をユーザーに示すことができます。
 
-![ 検索用語グリッド ](./assets/search-terms.png){width="700" zoomable="yes"}
+![&#x200B; 検索用語グリッド &#x200B;](./assets/search-terms.png){width="700" zoomable="yes"}
 
 | 列 | 説明 |
 |--- |--- |
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Add New Search Term]**」をクリックします。
 
-   ![ 検索語句の一般情報 ](./assets/search-terms-information.png){width="600" zoomable="yes"}
+   ![&#x200B; 検索語句の一般情報 &#x200B;](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
 1. [_[!UICONTROL General Information]_] の [**[!UICONTROL Search Query]**] ボックスに、新しい検索語として追加する単語または語句を入力します。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 デフォルトでは、人気検索用語は検索エンジン最適化ツールとして有効になっていますが、カタログ検索プロセスに直接接続されていません。 検索用語ページは検索エンジンによってインデックス化されるので、ページ上の用語はすべて検索エンジンのランキングとストアの表示を向上させるのに役立ちます。 一般的な検索用語ページの URL は `mystore.com/search/term/popular/` です。
 
-![ ストアフロントの例 – よく使用される検索用語 ](./assets/store-front-search-terms-yoga-pants.png){width="600" zoomable="yes"}
+![&#x200B; ストアフロントの例 – よく使用される検索用語 &#x200B;](./assets/store-front-search-terms-yoga-pants.png){width="600" zoomable="yes"}
 
 **_一般的な検索用語を設定するには：_**
 
@@ -102,11 +102,11 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Search Engine Optimization]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Search Engine Optimization]**」セクションを展開します。
 
-   ![ カタログ設定 – 検索エンジンの最適化 ](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ設定 – 検索エンジンの最適化 &#x200B;](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
-   これらのオプションの詳細なリストについては、[ 設定リファレンス ](../configuration-reference/catalog/catalog.md#search-engine-optimization) の _検索エンジンの最適化_ を参照してください。
+   これらのオプションの詳細なリストについては、[&#x200B; 設定リファレンス &#x200B;](../configuration-reference/catalog/catalog.md#search-engine-optimization) の _検索エンジンの最適化_ を参照してください。
 
 1. 必要に応じて **[!UICONTROL Popular Search Terms]** を設定します。
 
@@ -116,15 +116,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->一般的な [ カタログ検索 ](search-configuration.md) のキャッシュをさらに設定できます。
+>一般的な [&#x200B; カタログ検索 &#x200B;](search-configuration.md) のキャッシュをさらに設定できます。
 
 ## シノニムの検索
 
-[ カタログ検索 ](search-configuration.md) の効果を高める 1 つの方法は、同じ項目を説明するために使用できる別の用語を含めることです。 誰かが _ソファ_ を探していて、あなたの製品が _ソファ_ としてリストされているという理由だけで販売を失いたくない。 _ソファ_、_ダベンポート_ および _ロベサート_ を _ソファ_ の同義語として入力することで、より幅広い検索用語を取り込み、それらを同じランディングページに誘導できます。
+[&#x200B; カタログ検索 &#x200B;](search-configuration.md) の効果を高める 1 つの方法は、同じ項目を説明するために使用できる別の用語を含めることです。 誰かが _ソファ_ を探していて、あなたの製品が _ソファ_ としてリストされているという理由だけで販売を失いたくない。 _ソファ_、_ダベンポート_ および _ロベサート_ を _ソファ_ の同義語として入力することで、より幅広い検索用語を取り込み、それらを同じランディングページに誘導できます。
 
 Adobe Commerceでは、次の 2 つの異なるシノニム管理ソリューションをサポートしています。
 
-- Live Search[ 同義語 ](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html?lang=ja) 機能は、Live Search がインストールされているAdobe Commerceのインストールで使用できます。
+- Live Search[&#x200B; 同義語 &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html?lang=ja) 機能は、Live Search がインストールされているAdobe Commerceのインストールで使用できます。
 - 標準のシノニム検索機能（このページで説明）は、すべてのAdobe Commerce インストールでそのまま使用できます。
 
 >[!NOTE]
@@ -135,7 +135,7 @@ Adobe Commerceでは、次の 2 つの異なるシノニム管理ソリューシ
 >
 >同義語検索機能では、全文一致の検索方法のみが使用されます。
 
-![ ストアフロントの例 – 同義語を使用した検索結果 ](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの例 – 同義語を使用した検索結果 &#x200B;](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
 
 ### シノニム・グループの作成
 
@@ -143,11 +143,11 @@ Adobe Commerceでは、次の 2 つの異なるシノニム管理ソリューシ
 
    _[!UICONTROL Search Synonyms]_&#x200B;グリッドが表示されます。 同義語の検索を初めて使用した場合、グリッドは空になります。
 
-   ![ シノニム グリッドの検索 ](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
+   ![&#x200B; シノニム グリッドの検索 &#x200B;](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL New Synonym Group]**」をクリックします。
 
-   ![ 新しい検索同義語グループ ](./assets/search-synonym-group-new.png){width="700" zoomable="yes"}
+   ![&#x200B; 新しい検索同義語グループ &#x200B;](./assets/search-synonym-group-new.png){width="700" zoomable="yes"}
 
 1. シノニムが適用されるストア表示に **[!UICONTROL Scope]** を設定します。
 
@@ -200,7 +200,7 @@ Adobe Commerceでは、次の 2 つの異なるシノニム管理ソリューシ
 
 1. 必要に応じてコントロールを使用してレポートをフィルタリングします。
 
-   ![ 検索語句レポート ](./assets/search-terms-report.png){width="700" zoomable="yes"}
+   ![&#x200B; 検索語句レポート &#x200B;](./assets/search-terms-report.png){width="700" zoomable="yes"}
 
 ## レポートのエクスポート
 

@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # 統合
 
-Commerce管理者で統合を定義すると、サードパーティ統合用の OAuth 資格情報とリダイレクト URL の場所が設定され、統合に必要な使用可能な API リソースが特定されます。 統合登録プロセスについて詳しくは、Commerce開発者向けドキュメントの [OAuth ベースの認証 ](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) を参照してください。
+Commerce管理者で統合を定義すると、サードパーティ統合用の OAuth 資格情報とリダイレクト URL の場所が設定され、統合に必要な使用可能な API リソースが特定されます。 統合登録プロセスについて詳しくは、Commerce開発者向けドキュメントの [OAuth ベースの認証 &#x200B;](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) を参照してください。
 
-![ 統合 ](./assets/integrations.png){width="700" zoomable="yes"}
+![&#x200B; 統合 &#x200B;](./assets/integrations.png){width="700" zoomable="yes"}
 
 ## オンボーディングワークフロー
 
@@ -28,7 +28,7 @@ Commerce管理者で統合を定義すると、サードパーティ統合用の
 
 1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Extensions]_/**[!UICONTROL Integrations]**&#x200B;に移動します。
 
-   ![ 新しい統合 ](./assets/integration-new.png){width="600" zoomable="yes"}
+   ![&#x200B; 新しい統合 &#x200B;](./assets/integration-new.png){width="600" zoomable="yes"}
 
 1. 次の統合情報を入力します。
 
@@ -53,7 +53,7 @@ Commerce管理者で統合を定義すると、サードパーティ統合用の
 
    - カスタムアクセスの場合は、必要な各リソースのチェックボックスをオンにします。
 
-     ![ 統合 – 利用可能な API](./assets/integrations-available-api.png){width="600" zoomable="yes"}
+     ![&#x200B; 統合 – 利用可能な API](./assets/integrations-available-api.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
@@ -69,7 +69,7 @@ Commerce管理者で統合を定義すると、サードパーティ統合用の
 
    拡張機能の統合トークンを表示します。 この情報を暗号化された安全な場所にコピーして、統合で使用できるようにします。
 
-   ![ 拡張機能の統合トークン ](./assets/integration-tokens-for-extensions.png){width="600" zoomable="yes"}
+   ![&#x200B; 拡張機能の統合トークン &#x200B;](./assets/integration-tokens-for-extensions.png){width="600" zoomable="yes"}
 
 1. 右上隅の「**[!UICONTROL Done]**」をクリックします。
 
@@ -95,20 +95,20 @@ Commerce管理者で統合を定義すると、サードパーティ統合用の
 
 1. 左側のパネルで「**[!UICONTROL Services]**」を展開し、「**[!UICONTROL Magento Web API]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Web API Security Setting]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Web API Security Setting]**」セクションを展開します。
 
-   ![ サービス設定 – web API セキュリティ設定 ](../configuration-reference/services/assets/web-api-security.png){width="600" zoomable="yes"}
+   ![&#x200B; サービス設定 – web API セキュリティ設定 &#x200B;](../configuration-reference/services/assets/web-api-security.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Allow Anonymous Guest Access]** を `Yes` に設定します。
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
-詳しくは、Commerce開発者向けドキュメントの [ 匿名 web API へのアクセスの制限 ](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security/) を参照してください。
+詳しくは、Commerce開発者向けドキュメントの [&#x200B; 匿名 web API へのアクセスの制限 &#x200B;](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security/) を参照してください。
 
 ## 統合の削除
 
 1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Extensions]_/**[!UICONTROL Integrations]**&#x200B;に移動します。
 
-1. 既存の統合を見つけて、「**[!UICONTROL Delete]**」列のアイコン（![ ごみ箱アイコン ](../assets/icon-delete-trashcan-solid.png)）をクリックします。
+1. 既存の統合を見つけて、「**[!UICONTROL Delete]**」列のアイコン（![&#x200B; ごみ箱アイコン &#x200B;](../assets/icon-delete-trashcan-solid.png)）をクリックします。
 
 1. アクションを確定するには、「**[!UICONTROL OK]**」をクリックします。

@@ -66,7 +66,7 @@ Adobe Commerceのインポートプロセスでは、UTF-8 でエンコードさ
 
 製品データをインポートすると、新しい製品データがデータベース内の既存の製品データエントリに追加されます。 SKU を除くすべてのフィールドは、読み込みを通じて更新できます。 既存の製品データはすべて、読み込んだ新しいデータに置き換えられます。 データを置き換える際は注意が必要です。 既存の製品データがすべて消去され、システム内のすべての参照が失われます。
 
-![ データのインポート ](./assets/import-options.png){width="600" zoomable="yes"}
+![&#x200B; データのインポート &#x200B;](./assets/import-options.png){width="600" zoomable="yes"}
 
 ### 手順 1：データを準備
 
@@ -88,13 +88,13 @@ Adobe Commerceのインポートプロセスでは、UTF-8 でエンコードさ
 
    サンプルファイルには、製品タイプのプレースホルダーデータを含んだ列見出しが含まれています。
 
-   ![ データの読み込みサンプルファイル ](./assets/data-export-sample-data.png){width="600" zoomable="yes"}
+   ![&#x200B; データの読み込みサンプルファイル &#x200B;](./assets/data-export-sample-data.png){width="600" zoomable="yes"}
 
 1. サンプルファイルの構造を調べ、それを使用して CSV インポートファイルを準備します。列見出しが正しく入力されていることを確認します。
 
 1. インポートファイルのサイズが、メッセージに表示される制限を超えていないことを確認します。
 
-   ![ データインポートサイズ通知 ](./assets/data-import-size-notification.png){width="600"}
+   ![&#x200B; データインポートサイズ通知 &#x200B;](./assets/data-import-size-notification.png){width="600"}
 
 1. 読み込みデータに製品画像へのパスが含まれている場合は、画像ファイルが適切な場所にアップロードされていることを確認してください。
 
@@ -104,7 +104,7 @@ Adobe Commerceのインポートプロセスでは、UTF-8 でエンコードさ
 
 ### 手順 2：読み込み動作の選択
 
-![ データの読み込み動作 ](./assets/data-import-import-behavior.png){width="600" zoomable="yes"}
+![&#x200B; データの読み込み動作 &#x200B;](./assets/data-import-import-behavior.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Import Behavior]** を次のいずれかに設定します。
 
@@ -133,7 +133,7 @@ Adobe Commerceのインポートプロセスでは、UTF-8 でエンコードさ
 
 ### 手順 3：インポートファイルの特定
 
-![ データインポートファイル ](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
+![&#x200B; データインポートファイル &#x200B;](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Choose File]**」をクリックして、インポートするファイルを選択します。
 
@@ -147,7 +147,7 @@ Adobe Commerceのインポートプロセスでは、UTF-8 でエンコードさ
    >
    >Adobe CommerceおよびMagento Open Source `2.3.2` リリース以降、_[!UICONTROL Images File Directory]_&#x200B;で指定されたパスは、images ベースディレクトリ `<Magento-root-folder>/var/import/images` へのインポートを連結します。 例えば、`product_images` ファイルを `<Magento-root-directory>/var/import/images/product_images` フォルダーに配置します。 インポートイメージのベースディレクトリは、`\Magento\ImportExport\etc\config.xml` ファイルで設定できます。 リモート記憶域モジュールが有効な場合は、ファイルを `<remote-storage-root-directory>/var/import/images/product_images` フォルダーにインポートします。
 
-   製品画像の読み込みについて詳しくは、[ 製品画像の読み込み ](data-import-product-images.md) を参照してください。
+   製品画像の読み込みについて詳しくは、[&#x200B; 製品画像の読み込み &#x200B;](data-import-product-images.md) を参照してください。
 
 ### 手順 4：インポートデータの確認
 
@@ -157,7 +157,7 @@ Adobe Commerceのインポートプロセスでは、UTF-8 でエンコードさ
 
    インポートデータが有効な場合は、次のメッセージが表示されます。
 
-   ![ 成功メッセージ – ファイルは有効です ](./assets/data-import-validation-message.png){width="600"}
+   ![&#x200B; 成功メッセージ – ファイルは有効です &#x200B;](./assets/data-import-validation-message.png){width="600"}
 
 1. ファイルが有効な場合は、[**[!UICONTROL Import]**] をクリックします。
 
@@ -167,7 +167,7 @@ Adobe Commerceのインポートプロセスでは、UTF-8 でエンコードさ
 
    検証結果にエラーメッセージが表示された場合は、データの問題を修正し、ファイルを再度読み込みます。
 
-   ![ エラーメッセージ - URL キーは既に存在します ](./assets/data-import-validation-error-url-key-exists.png){width="600"}
+   ![&#x200B; エラーメッセージ - URL キーは既に存在します &#x200B;](./assets/data-import-validation-error-url-key-exists.png){width="600"}
 
    読み込みが完了すると、メッセージが表示されます。
 
@@ -179,7 +179,7 @@ Commerceには、ストアに読み込まれたデータ（開始日時、ユー
 
 _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Data Transfer]_/**[!UICONTROL Import History]**&#x200B;に移動します。
 
-![ データの読み込み履歴 ](./assets/data-import-history.png){width="600" zoomable="yes"}
+![&#x200B; データの読み込み履歴 &#x200B;](./assets/data-import-history.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >

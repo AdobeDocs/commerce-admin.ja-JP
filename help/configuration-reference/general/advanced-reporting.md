@@ -19,11 +19,11 @@ ht-degree: 0%
 
 _[!DNL Advanced Reporting]_&#x200B;は、[Adobe Commerce Intelligence][1]{:target="_blank"} を利用したクラウドベースのサービスです。 詳細については、「[ はじめる前に ][2]{:target="_blank"}」の_ 詳細レポート _を参照してください。
 
-![ 高度なレポート ](./assets/advanced-reporting.png)<!-- zoom -->
+![&#x200B; 高度なレポート &#x200B;](./assets/advanced-reporting.png)<!-- zoom -->
 
 <!-- [Advanced Reporting](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Advanced Reporting Service] | グローバル | Commerceのインストールに対して [!DNL Advanced Reporting] の統合を有効にします。 |
 | [!UICONTROL Industry] | Web サイト | [!DNL Advanced Reporting] ーザーをパーソナライズするビジネス業界を特定します。 |

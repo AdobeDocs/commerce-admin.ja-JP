@@ -16,7 +16,7 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
 >[!TIP]
 >
->[Adobe Stock Integration](../content-design/adobe-stock.md) を使用して、[Adobe Stock&rbrace; から提供される数百万のアセットの中から適切なアセットを見つけて保存でき ](https://stock.adobe.com) す。 Adobe Stock アセットを検索、調整、ギャラリーに保存する方法について詳しくは、[Adobe Stock画像の使用 ](../content-design/adobe-stock-manage.md) を参照してください。
+>[Adobe Stock Integration](../content-design/adobe-stock.md) を使用して、[Adobe Stock&rbrace; から提供される数百万のアセットの中から適切なアセットを見つけて保存でき &#x200B;](https://stock.adobe.com) す。 Adobe Stock アセットを検索、調整、ギャラリーに保存する方法について詳しくは、[Adobe Stock画像の使用 &#x200B;](../content-design/adobe-stock-manage.md) を参照してください。
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -24,17 +24,17 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
 画像コンテナにカーソルを合わせると、画像ツールボックスが表示されます。
 
-![ 画像ツールボックス ](./assets/pb-media-image-giftcard-column-toolbox.png){width="500" zoomable="yes"}
+![&#x200B; 画像ツールボックス &#x200B;](./assets/pb-media-image-giftcard-column-toolbox.png){width="500" zoomable="yes"}
 
 | ツール | アイコン | 説明 |
 |--- |--- |--- |
-| 移動 | ![ 移動アイコン ](./assets/pb-icon-move.png){width="25"} | 画像をステージ上の別の位置に移動します。 |
+| 移動 | ![&#x200B; 移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | 画像をステージ上の別の位置に移動します。 |
 | （ラベル） | 画像 | 現在のコンテンツコンテナを画像として識別します。 画像コンテナにカーソルを合わせると、ツールボックスが表示されます。 |
-| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | _画像を編集_ ページが開きます。このページで、画像とコンテナのプロパティを変更できます。 |
-| Hide | ![ アイコンを非表示 ](./assets/pb-icon-hide.png){width="25"} | 現在の画像を非表示にします。 |
-| 表示 | ![ アイコンを表示 ](./assets/pb-icon-show.png){width="25"} | 非表示の画像を表示します。 |
-| 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | 画像のコピーを作成します。 |
-| 削除 | ![ 削除アイコン ](./assets/pb-icon-remove.png){width="25"} | ステージから画像を削除します。 |
+| 設定 | ![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | _画像を編集_ ページが開きます。このページで、画像とコンテナのプロパティを変更できます。 |
+| Hide | ![&#x200B; アイコンを非表示 &#x200B;](./assets/pb-icon-hide.png){width="25"} | 現在の画像を非表示にします。 |
+| 表示 | ![&#x200B; アイコンを表示 &#x200B;](./assets/pb-icon-show.png){width="25"} | 非表示の画像を表示します。 |
+| 複製 | ![&#x200B; 複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | 画像のコピーを作成します。 |
+| 削除 | ![&#x200B; 削除アイコン &#x200B;](./assets/pb-icon-remove.png){width="25"} | ステージから画像を削除します。 |
 | 新しい画像をアップロード |  | ローカルファイルシステムからギャラリーに画像をアップロードします。 |
 | ギャラリーから選択 |  | ギャラリーから既存の画像を選択します。 |
 
@@ -48,11 +48,11 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
    行、列、タブに画像を追加できます。 次の例では、画像を空の列にドラッグします。
 
-   ![ 画像コンテンツタイプのステージへのドラッグ ](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
+   ![&#x200B; 画像コンテンツタイプのステージへのドラッグ &#x200B;](./assets/pb-media-image-drag.png){width="600" zoomable="yes"}
 
 1. 次のいずれかの方法を使用して画像アセットを追加します。
 
-   ![ ステージ上の画像をアップロードするかギャラリーツールから選択 ](./assets/pb-media-image-upload-select.png){width="500" zoomable="yes"}
+   ![&#x200B; ステージ上の画像をアップロードするかギャラリーツールから選択 &#x200B;](./assets/pb-media-image-upload-select.png){width="500" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
       - 画像を見つけて選択し、ギャラリーとターゲットコンテナに追加します。
 
-     別の方法として、システムから画像ファイルをドラッグして、_カメラ_ （![ カメラアイコン ](./assets/pb-icon-camera.png){width="20"}）アイコンの上にドロップすることもできます。
+     別の方法として、システムから画像ファイルをドラッグして、_カメラ_ （![&#x200B; カメラアイコン &#x200B;](./assets/pb-icon-camera.png){width="20"}）アイコンの上にドロップすることもできます。
 
    - _&#x200B;**既存のアセットを選択**&#x200B;_：メディアストレージ/ギャラリーから既存の画像アセットを選択する場合は、この方法を使用します。
 
@@ -74,7 +74,7 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
       - サムネールをクリックし、「**[!UICONTROL Add Selected]**」をクリックします。
 
-        ![ 選択した画像の追加 ](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+        ![&#x200B; 選択した画像の追加 &#x200B;](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - _&#x200B;**Adobe Stock画像を検索して選択**&#x200B;_:Adobe Stock内から画像を検索する場合に使用します。
 
@@ -86,7 +86,7 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
       - プレビューまたはライセンス済み画像をギャラリーに保存します。
 
-        Adobe Stock Assets の操作について詳しくは、[Adobe Stock画像の使用 ](../content-design/adobe-stock-manage.md) を参照してください。
+        Adobe Stock Assets の操作について詳しくは、[Adobe Stock画像の使用 &#x200B;](../content-design/adobe-stock-manage.md) を参照してください。
 
       - ギャラリーでアセットのサムネールを選択し、「**[!UICONTROL Add Selected]**」をクリックします。
 
@@ -94,16 +94,16 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
    >[!NOTE]
    >
-   >[ バナー ](banner.md) および [ スライダー ](slider.md) コンテンツタイプには、画像を追加するための _画像のアップロード_ および _ギャラリーから選択_ オプションも含まれています。
+   >[&#x200B; バナー &#x200B;](banner.md) および [&#x200B; スライダー &#x200B;](slider.md) コンテンツタイプには、画像を追加するための _画像のアップロード_ および _ギャラリーから選択_ オプションも含まれています。
 
-   ![ 列内の画像 ](./assets/pb-media-image-column1-giftcard.png){width="500" zoomable="yes"}
+   ![&#x200B; 列内の画像 &#x200B;](./assets/pb-media-image-column1-giftcard.png){width="500" zoomable="yes"}
 
 ## 画像設定の変更
 
-1. 画像コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. 画像コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 ファイル名、サイズ、およびファイルサイズが現在の画像の下に表示されます。
 
-   ![ 現在の画像 ](./assets/pb-media-image-settings-image.png){width="600" zoomable="yes"}
+   ![&#x200B; 現在の画像 &#x200B;](./assets/pb-media-image-settings-image.png){width="600" zoomable="yes"}
 
 1. 現在の **[!UICONTROL Image]** を変更するには、次のいずれかの操作を行います。
 
@@ -121,7 +121,7 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
       - サムネールをクリックし、「**[!UICONTROL Add Selected]**」をクリックします。
 
-        ![ 選択した画像の追加 ](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+        ![&#x200B; 選択した画像の追加 &#x200B;](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - **Adobe Stock画像を検索して選択**:Adobe Stock内から画像を検索する場合に使用します。
 
@@ -133,13 +133,13 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
       - プレビューまたはライセンス済み画像をギャラリーに保存します。
 
-        Adobe Stock Assets の操作について詳しくは、[Adobe Stock画像の使用 ](../content-design/adobe-stock-manage.md) を参照してください。
+        Adobe Stock Assets の操作について詳しくは、[Adobe Stock画像の使用 &#x200B;](../content-design/adobe-stock-manage.md) を参照してください。
 
       - ギャラリーでアセットのサムネールを選択し、「**[!UICONTROL Add Selected]**」をクリックします。
 
 1. **[!UICONTROL Mobile Image]** を追加するには、前の手順で説明したのと同じ方法を使用して、モバイルデバイスでの表示に使用する画像を選択します。
 
-   ![ モバイル画像 ](./assets/pb-media-image-settings-mobile-image.png){width="600" zoomable="yes"}
+   ![&#x200B; モバイル画像 &#x200B;](./assets/pb-media-image-settings-mobile-image.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、画像の **[!UICONTROL Link]** を指定します。
 
@@ -149,15 +149,15 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
    - **[!UICONTROL Product]** – 製品名または SKU に基づいて宛先ページを識別します。 部分的または完全な名前に基づいて、名前で製品を検索します。 検索結果リストから製品を選択します。
 
-     ![ リンクする製品の選択 ](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"}
+     ![&#x200B; リンクする製品の選択 &#x200B;](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Category]** - カテゴリツリー内の特定のカテゴリまたはサブカテゴリとして宛先ページを識別します。 名前の一部または全部に基づいてカテゴリを検索します。 表示されたツリーの展開セクションからカテゴリを選択します。
 
-     ![ リンクするカテゴリの選択 ](./assets/pb-media-image-settings-image-link-category-tree.png){width="600" zoomable="yes"}
+     ![&#x200B; リンクするカテゴリの選択 &#x200B;](./assets/pb-media-image-settings-image-link-category-tree.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Page]** – 宛先ページを特定のコンテンツページとして識別します。 名前の一部または全部に基づいてページを検索します。 検索結果リストからページを選択します。
 
-     ![ リンクするページの選択 ](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
+     ![&#x200B; リンクするページの選択 &#x200B;](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
 
    訪問者がストアから移動できないようにするには、「**[!UICONTROL Open in new tab]**」チェックボックスを選択します。 このチェックボックスをオフにすると、リンクされた宛先は同じブラウザータブで開くので、訪問者をストアから効果的に移動できます。
 
@@ -176,17 +176,17 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
 ## 画像の移動
 
-1. 画像コンテナにカーソルを合わせてツールボックスを表示し、_移動_ （![ 移動アイコン ](./assets/pb-icon-move.png){width="20"}）アイコンを選択します。
+1. 画像コンテナにカーソルを合わせてツールボックスを表示し、_移動_ （![&#x200B; 移動アイコン &#x200B;](./assets/pb-icon-move.png){width="20"}）アイコンを選択します。
 
-   ![ 画像の移動 ](./assets/pb-media-image-column1-move-giftcard.png){width="500" zoomable="yes"}
+   ![&#x200B; 画像の移動 &#x200B;](./assets/pb-media-image-column1-move-giftcard.png){width="500" zoomable="yes"}
 
 1. 画像を選択して、赤いガイドラインのすぐ下の新しい位置にドラッグします。
 
-   ![ 赤いガイドラインを使用した画像の配置 ](./assets/pb-media-image-column2-move-giftcard-red-guideline.png){width="500" zoomable="yes"}
+   ![&#x200B; 赤いガイドラインを使用した画像の配置 &#x200B;](./assets/pb-media-image-column2-move-giftcard-red-guideline.png){width="500" zoomable="yes"}
 
 ## 画像を削除
 
-1. 画像コンテナにカーソルを合わせてツールボックスを表示し、「_削除_」（![ 削除アイコン ](./assets/pb-icon-remove.png){width="20"}）アイコンを選択します。
+1. 画像コンテナにカーソルを合わせてツールボックスを表示し、「_削除_」（![&#x200B; 削除アイコン &#x200B;](./assets/pb-icon-remove.png){width="20"}）アイコンを選択します。
 
 1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL OK]**」をクリックします。
 
@@ -234,7 +234,7 @@ _Image_ コンテンツタイプを使用して、JPG、GIFまたは PNG 画像�
 
 - `None` 以外の境界線のスタイルを設定する場合は、境界線の表示オプションを完了します。
 
-  ![ 境界線のカラー ](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
+  ![&#x200B; 境界線のカラー &#x200B;](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
   | オプション | 説明 |
   | ------ |------------ |

@@ -18,7 +18,7 @@ _トランザクション_ ページには、ストアと支払いシステム�
 
 _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Transactions]**&#x200B;に移動します。
 
-![ 取引グリッド ](./assets/transactions.png){width="600" zoomable="yes"}
+![&#x200B; 取引グリッド &#x200B;](./assets/transactions.png){width="600" zoomable="yes"}
 
 | 列 | 説明 |
 |--- |--- |
@@ -55,7 +55,7 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]
 
 ### 子トランザクション
 
-[ 注文 ](orders.md) の請求書を作成すると、子トランザクションがグリッドに表示されます。 この形式を使用すると、トランザクション階層に従ってトランザクション履歴を追跡できます。
+[&#x200B; 注文 &#x200B;](orders.md) の請求書を作成すると、子トランザクションがグリッドに表示されます。 この形式を使用すると、トランザクション階層に従ってトランザクション履歴を追跡できます。
 
 ### [!UICONTROL Transaction Details]
 

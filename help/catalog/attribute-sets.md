@@ -16,7 +16,7 @@ ht-degree: 0%
 
 属性は、製品レコード内の表示場所を決定するグループに整理されます。 ストアには、一般的に使用される一連の属性を含む初期属性セット（_デフォルト_）が用意されています。 少数の属性のみを追加する場合は、それらの属性をこのデフォルトの属性セットに追加します。 特定の種類の情報が必要な製品を販売する場合は、製品に必要な特定の属性を含む専用の属性セットを作成する方が良い場合があります。
 
-![ 属性セット ](./assets/attribute-sets.png){width="700" zoomable="yes"}
+![&#x200B; 属性セット &#x200B;](./assets/attribute-sets.png){width="700" zoomable="yes"}
 
 ## 属性セットの作成
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Add New Set]**」をクリックします。
 
-   ![ 属性セット – 名前を編集 ](./assets/attribute-set-new.png){width="600" zoomable="yes"}
+   ![&#x200B; 属性セット – 名前を編集 &#x200B;](./assets/attribute-set-new.png){width="600" zoomable="yes"}
 
 1. 属性セットの **[!UICONTROL Name]** を入力します。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
-![ 属性セット – 編集 ](./assets/attribute-set-edit.png){width="600" zoomable="yes"}
+![&#x200B; 属性セット – 編集 &#x200B;](./assets/attribute-set-edit.png){width="600" zoomable="yes"}
 
 ## 属性グループの作成
 

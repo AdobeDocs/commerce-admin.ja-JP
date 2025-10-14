@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # エディターへの変数の挿入
 
-ストアには、ページコンテンツやその他の通信に組み込むことができる事前定義済みの [ 変数 ](../systems/variables-predefined.md) が多数含まれています。 さらに、ニーズに合わせて独自の [ カスタム変数 ](../systems/variables-custom.md) を含めることもできます。
+ストアには、ページコンテンツやその他の通信に組み込むことができる事前定義済みの [&#x200B; 変数 &#x200B;](../systems/variables-predefined.md) が多数含まれています。 さらに、ニーズに合わせて独自の [&#x200B; カスタム変数 &#x200B;](../systems/variables-custom.md) を含めることもできます。
 
 1. ページ、ブロック、またはダイナミックブロックを編集モードで開きます。
 
@@ -21,12 +21,12 @@ ht-degree: 0%
 
 1. 変数を表示する位置にカーソルを置き、「_変数を挿入_」アイコンをクリックします。
 
-   ![ エディターツールバー – 変数を挿入 ](./assets/editor-toolbar-variable-button.png){width="700" zoomable="yes"}
+   ![&#x200B; エディターツールバー – 変数を挿入 &#x200B;](./assets/editor-toolbar-variable-button.png){width="700" zoomable="yes"}
 
    [!UICONTROL Page Builder] を有効にしていない場合に、HTML コードを使用するには、「**[!UICONTROL Show / Hide Editor]**」をクリックします。 変数を表示するテキスト内の位置にカーソルを置きます。 次に、「**[!UICONTROL Insert Variable]**」をクリックします。
 
 1. 使用可能な変数のリストで、必要な変数を選択し、「**[!UICONTROL Insert Variable]**」をクリックします。
 
-   ![ 変数を挿入ページ ](./assets/content-insert-variable.png){width="600" zoomable="yes"}
+   ![&#x200B; 変数を挿入ページ &#x200B;](./assets/content-insert-variable.png){width="600" zoomable="yes"}
 
 1. コンテンツの編集が完了したら、「**[!UICONTROL Save]**」をクリックします。

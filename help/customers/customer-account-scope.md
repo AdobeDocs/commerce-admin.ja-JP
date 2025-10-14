@@ -21,7 +21,7 @@ ht-degree: 0%
 
 顧客は、ストアのヘッダーにある **[!UICONTROL My Account]** リンクをクリックしてアカウントにアクセスできます。 顧客は自分のアカウントから、過去や現在の住所、請求や配送の環境設定、ニュースレターの購読、ウィッシュリストなどの情報を表示および変更できます。
 
-![ マイアカウント ](assets/account-dashboard-my-account.png){width="600" zoomable="yes"}
+![&#x200B; マイアカウント &#x200B;](assets/account-dashboard-my-account.png){width="600" zoomable="yes"}
 
 ## 顧客アカウントの範囲の設定
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Web サイトを顧客グループから除外した場合、顧客アカウントの範囲を Web サイトに限定したり、すべての Web サイトと共有したりすると、顧客は Web サイトにログインできなくなります。 Web サイトをグループから除外する方法について詳しくは、[ 顧客グループの作成 ](customer-groups.md#create-a-customer-group) を参照してください。
+>Web サイトを顧客グループから除外した場合、顧客アカウントの範囲を Web サイトに限定したり、すべての Web サイトと共有したりすると、顧客は Web サイトにログインできなくなります。 Web サイトをグループから除外する方法について詳しくは、[&#x200B; 顧客グループの作成 &#x200B;](customer-groups.md#create-a-customer-group) を参照してください。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/[!UICONTROL _[!UICONTROL Settings]_]/**[!UICONTROL Configuration]** に移動します。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Account Sharing Options]**」セクションを展開します。
 
-   ![ アカウント共有オプション ](assets/customer-configuration-account-sharing-options.png){width="600" zoomable="yes"}
+   ![&#x200B; アカウント共有オプション &#x200B;](assets/customer-configuration-account-sharing-options.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Share Customer Accounts]** を次のいずれかに設定します。
 

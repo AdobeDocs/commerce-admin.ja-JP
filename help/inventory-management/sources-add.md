@@ -22,9 +22,9 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Add New Source]**」をクリックします。
 
-   ![ ソースの管理 ](assets/inventory-sources.png)
+   ![&#x200B; ソースの管理 &#x200B;](assets/inventory-sources.png)
 
-1. **[!UICONTROL General]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL General]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
    - 在庫ソースを識別するには、一意の **[!UICONTROL Name]** を入力します。
 
@@ -40,13 +40,13 @@ ht-degree: 0%
 
      [Google マップ ][1] で GPS 座標を検索するには、検索ボックスに住所を入力します。 マップ上のマーカーを右クリックし、[**[!UICONTROL What's here?]**] を選択します。 GPS 座標が、住所の下の詳細ボックスに表示されます。
 
-     ![ 一般的なソースオプション ](assets/inventory-source-general.png)
+     ![&#x200B; 一般的なソースオプション &#x200B;](assets/inventory-source-general.png)
 
    - この在庫ソースが集荷場所の場合は、**[!UICONTROL Use as Pickup Location]** を `Yes` に設定します。
 
      既定のSourceは、店舗の集荷注文の集荷場所として使用できません。
 
-1. **[!UICONTROL Contact Info]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Contact Info]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
    - **[!UICONTROL Contact Name]**：その場所のプライマリ連絡先の氏名を入力します。
 
@@ -56,9 +56,9 @@ ht-degree: 0%
 
    - **[!UICONTROL Fax]**: FAX の市外局番と電話番号（使用可能な場合）を入力します。
 
-     ![ 連絡先情報 ](assets/inventory-source-contact-info.png)
+     ![&#x200B; 連絡先情報 &#x200B;](assets/inventory-source-contact-info.png)
 
-1. **[!UICONTROL Address Data]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Address Data]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
    - **[!UICONTROL Country]** を選択します。
 
@@ -70,23 +70,23 @@ ht-degree: 0%
 
    - **[!UICONTROL Postcode]**：郵便番号を入力します。
 
-     ![ アドレスデータ ](assets/inventory-source-address.png)
+     ![&#x200B; アドレスデータ &#x200B;](assets/inventory-source-address.png)
 
-1. 前の手順でソースをピックアップ場所として設定した場合は、![ 拡張セレクター ](../assets/icon-display-expand.png) の **[!UICONTROL Pickup Location]** のセクションを展開し、その場所に関する説明情報を指定します。
+1. 前の手順でソースをピックアップ場所として設定した場合は、![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) の **[!UICONTROL Pickup Location]** のセクションを展開し、その場所に関する説明情報を指定します。
 
    - 集荷場所の **[!UICONTROL Frontend Name]** を入力します。
 
    - 集荷場所の **[!UICONTROL Frontend Description]** を入力します。 このテキスト ボックスを使用して、店舗の営業時間、他のランドマークに対する相対的な場所、または顧客が正しい集荷場所を選択するのに役立つその他の役に立つ情報を表示します。
 
-     ![ 受け取り場所 ](assets/inventory-pickup-location.png)
+     ![&#x200B; 受け取り場所 &#x200B;](assets/inventory-pickup-location.png)
 
-   ソースを集荷場所として使用する際のメール通知の設定方法について詳しくは、[ 設定リファレンスガイド _の ](../configuration-reference/sales/sales-emails.md) 販売メール_ を参照してください。
+   ソースを集荷場所として使用する際のメール通知の設定方法について詳しくは、[&#x200B; 設定リファレンスガイド _の &#x200B;](../configuration-reference/sales/sales-emails.md) 販売メール_ を参照してください。
 
 1. 作業内容を保存するには、次のいずれかの操作を行います。
 
    - 作業内容を保存して編集を続行するには、「**[!UICONTROL Save & Continue]**」をクリックします。
 
-   - 作業内容を保存して「ソースの管理」ページに戻るには、下向き矢印（![ メニュー矢印 ](../assets/icon-menu-down-arrow-red.png)）をクリックして「**[!UICONTROL Save & Close]**」を選択します。
+   - 作業内容を保存して「ソースの管理」ページに戻るには、下向き矢印（![&#x200B; メニュー矢印 &#x200B;](../assets/icon-menu-down-arrow-red.png)）をクリックして「**[!UICONTROL Save & Close]**」を選択します。
 
    - 現在のソース レコードに対する作業内容を保存し、新しいソースを入力するには、[**[!UICONTROL Save & New]**] を選択します。
 

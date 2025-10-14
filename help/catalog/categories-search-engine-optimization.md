@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # カテゴリ – 検索エンジンの最適化設定
 
-_[!UICONTROL Search Engine Optimization]_&#x200B;のセクションでは、検索エンジンでカテゴリのインデックスを作成するために使用する [URL キー ](catalog-urls.md) および [ メタデータ ](../merchandising-promotions/meta-data.md) フィールドを指定します。 メタキーワードを無視する検索エンジンもあれば、メタキーワードを使用し続ける検索エンジンもあります。 現在の SEO のベストプラクティスは、価値の高いキーワードをメタタイトルとメタ説明の両方に組み込むことです。
+_[!UICONTROL Search Engine Optimization]_&#x200B;のセクションでは、検索エンジンでカテゴリのインデックスを作成するために使用する [URL キー &#x200B;](catalog-urls.md) および [&#x200B; メタデータ &#x200B;](../merchandising-promotions/meta-data.md) フィールドを指定します。 メタキーワードを無視する検索エンジンもあれば、メタキーワードを使用し続ける検索エンジンもあります。 現在の SEO のベストプラクティスは、価値の高いキーワードをメタタイトルとメタ説明の両方に組み込むことです。
 
-![ 検索エンジンの最適化 ](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
+![&#x200B; 検索エンジンの最適化 &#x200B;](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 
-| フィールド | [ 範囲 ](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |----------------------------------------------------|
 | [!UICONTROL URL Key] | ストア表示 | カテゴリページのオンラインアドレスを決定します。 URL キーはストアのベース URL に追加され、ブラウザーのアドレスバーに表示されます。 設定で、商品 URL にカテゴリ URL キーを含めるか除外することができます。 URL キーは、すべて小文字で、スペースではなく、これらの文字の間にハイフンを含める必要があります。 .html などのサフィックスは構成内で管理されるので、含めないでください。 |
 | [!UICONTROL Meta Title] | ストア表示 | タイトルは、ブラウザーのタイトルバーとタブに表示され、検索エンジンの結果ページ（SERP）のタイトルでもあります。 メタタイトルは、ページに固有で、長さが。である必要があります。 |

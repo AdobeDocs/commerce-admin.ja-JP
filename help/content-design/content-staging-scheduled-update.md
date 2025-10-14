@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. ページ上部の _[!UICONTROL Scheduled Changes]_&#x200B;ボックスで、[**[!UICONTROL Schedule New Update]**] をクリックします。
 
-   ![ 新しい更新をスケジュール ](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
+   ![&#x200B; 新しい更新をスケジュール &#x200B;](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save as a New Update]** オプションを選択した状態で、更新の基本パラメーターを設定します。
 
@@ -36,14 +36,14 @@ ht-degree: 0%
 
    - 更新の簡単な **[!UICONTROL Description]** と使用方法を入力します。
 
-   - カレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）ツールを使用して、キャンペーンの **開始日** と **終了日** を選択します。
+   - カレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）ツールを使用して、キャンペーンの **開始日** と **終了日** を選択します。
 
      無期限のキャンペーンを作成するには、終了日を指定しません（空白のままにします）。 この例では、キャンペーンは、2021 年 1 月 1 日の午前 0 時（PT）の午前 12:00 （PST）に開始されるようにスケジュールされています。
 
 
      終了日なしで作成された価格ルールキャンペーンの場合、終了日を後で追加することはできません。 このような場合は、キャンペーンを作成し、開始日を、古いキャンペーンを終了する日付と新しいキャンペーンを開始する日付に設定する必要があります。 その開始日に、古いキャンペーンが終了し、新しいキャンペーンは定義どおりに開始されます。
 
-     ![ 製品アップデートのスケジュール設定 ](./assets/content-staging-campaign-schedule-update.png){width="600" zoomable="yes"}
+     ![&#x200B; 製品アップデートのスケジュール設定 &#x200B;](./assets/content-staging-campaign-schedule-update.png){width="600" zoomable="yes"}
 
      >[!NOTE]
      >
@@ -57,7 +57,7 @@ ht-degree: 0%
 
    スケジュールされた変更が、キャンペーンの開始日と終了日と共に、製品ページの上部に表示されます。
 
-   ![ スケジュールされた変更 ](./assets/content-staging-product-scheduled-update-preview-rope.png){width="600" zoomable="yes"}
+   ![&#x200B; スケジュールされた変更 &#x200B;](./assets/content-staging-product-scheduled-update-preview-rope.png){width="600" zoomable="yes"}
 
 ## スケジュールされた変更の編集
 
@@ -77,4 +77,4 @@ ht-degree: 0%
 >
 >スケジュールされた更新のステージングプレビューは、常に **デフォルト** のストア表示から開始されます。この表示は、ステージング更新キャンペーンをナビゲートする顧客のエクスペリエンスをエミュレートします。
 
-プレビューコンテンツツールを使用してプレビューの日付と範囲を変更する方法について詳しくは、「[ キャンペーンのプレビュー ](content-staging-preview.md)」を参照してください。 ストアのプレビューへのリンクを同僚と共有することもできます。
+プレビューコンテンツツールを使用してプレビューの日付と範囲を変更する方法について詳しくは、「[&#x200B; キャンペーンのプレビュー &#x200B;](content-staging-preview.md)」を参照してください。 ストアのプレビューへのリンクを同僚と共有することもできます。

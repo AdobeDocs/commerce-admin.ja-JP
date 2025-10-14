@@ -16,11 +16,11 @@ ht-degree: 1%
 
 ## 一般オプション
 
-![ 顧客としてログイン – 一般オプション ](./assets/login-as-customer.png)<!-- zoom -->
+![&#x200B; 顧客としてログイン – 一般オプション &#x200B;](./assets/login-as-customer.png)<!-- zoom -->
 
 <!-- [Login As Customer - General Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer) -->
 
-| オプション | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| オプション | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |-- | -- | -- |
 | [!UICONTROL Enable Login as Customer] | グローバル | グローバル スコープで _顧客としてログイン_ が有効かどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Disable Page Cache for Admin User] | グローバル | グローバル スコープで管理者ユーザーのページ キャッシュを無効にするかどうかを決定します。 オプション：`Yes` / `No` |

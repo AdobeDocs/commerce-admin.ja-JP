@@ -20,7 +20,7 @@ ht-degree: 0%
 
 最初の _[!UICONTROL My Orders]_&#x200B;結果には、コマースインスタンス内のすべての web サイトの下位ユーザーからの一致する注文も含まれます。 会社アカウントに関連付けられている顧客は、注文リストをフィルタリングして、結果に含まれるレコードをすばやく見つけることができます。 フィルターオプションを表示するには、顧客が&#x200B;**[!UICONTROL Filter]**&#x200B;をクリックし、**[!UICONTROL Close]**&#x200B;をクリックしてフィルターを非表示にします。
 
-![ 注文件数 ](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
+![&#x200B; 注文件数 &#x200B;](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
 | フィルター | 説明 |
 | ------ | ----------- |
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 顧客はリスト内の順序を見つけ、**[!UICONTROL View Order]** をクリックします。 オープン受注から、次の処理を実行できます。
 
-![ 表示順序 ](./assets/customer-account-order-items-ordered.png){width="700" zoomable="yes"}
+![&#x200B; 表示順序 &#x200B;](./assets/customer-account-order-items-ordered.png){width="700" zoomable="yes"}
 
 ### 最近注文した製品の表示
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Print Invoice]**
 
-   ![ 請求書 ](./assets/customer-account-order-invoices.png){width="700" zoomable="yes"}
+   ![&#x200B; 請求書 &#x200B;](./assets/customer-account-order-invoices.png){width="700" zoomable="yes"}
 
 1. 印刷ダイアログを使用して印刷を完了します。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Print Shipment]**
 
-   ![ すべての出荷の印刷 ](./assets/customer-account-order-shipments.png){width="700" zoomable="yes"}
+   ![&#x200B; すべての出荷の印刷 &#x200B;](./assets/customer-account-order-shipments.png){width="700" zoomable="yes"}
 
 1. 印刷ダイアログを使用して印刷を完了します。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
    - **払戻の印刷**
 
-   ![ 払戻し ](./assets/customer-account-order-refunds.png){width="700" zoomable="yes"}
+   ![&#x200B; 払戻し &#x200B;](./assets/customer-account-order-refunds.png){width="700" zoomable="yes"}
 
 1. 印刷ダイアログを使用して印刷を完了します。
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 _[!UICONTROL Reorder]_&#x200B;リンクは、_[!UICONTROL View]_ リンクの近くにある注文と共にリストに表示されます。
 
-![ マイ注文ページでのリンクの並べ替え ](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
+![&#x200B; マイ注文ページでのリンクの並べ替え &#x200B;](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
 **ケース 1。** 注文のすべての製品は再注文できます
 
@@ -119,7 +119,7 @@ _[!UICONTROL Reorder]_&#x200B;リンクは、_[!UICONTROL View]_ リンクの近
 
 _[!UICONTROL My Orders]_&#x200B;ページと&#x200B;_[!UICONTROL View Order]_ ページに _[!UICONTROL Reorder]_&#x200B;リンクが表示されません。
 
-![ マイオーダーページ ](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
+![&#x200B; マイオーダーページ &#x200B;](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
@@ -137,7 +137,7 @@ _[!UICONTROL My Orders]_&#x200B;ページと&#x200B;_[!UICONTROL View Order]_ �
 
 _[!UICONTROL Cancel Order]_&#x200B;リンクは&#x200B;_[!UICONTROL Reorder]_ リンクの近くに表示されます。 注文をキャンセルできない場合、リンクは表示されません。
 
-![ 注文ページのキャンセルリンク ](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
+![&#x200B; 注文ページのキャンセルリンク &#x200B;](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
 キャンセルを実行するには、お客様は次の手順に従います。
 
@@ -145,30 +145,30 @@ _[!UICONTROL Cancel Order]_&#x200B;リンクは&#x200B;_[!UICONTROL Reorder]_ �
 
 1. キャンセルの理由を提供
 
-   ![ 注文のキャンセル理由 ](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
+   ![&#x200B; 注文のキャンセル理由 &#x200B;](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
 
    キャンセル理由は「キャンセルを許可 [_ページでカスタマイズ_](cancel-allow.md) きます。
 
 1. クリック数 **[!UICONTROL Confirm]**
 
-   ![ 注文ページでのキャンセル ](./assets/cancel-order.png){width="700" zoomable="yes"}
+   ![&#x200B; 注文ページでのキャンセル &#x200B;](./assets/cancel-order.png){width="700" zoomable="yes"}
 
    キャンセル後、_[!UICONTROL Pending]_&#x200B;ステータスの注文、_[!UICONTROL Canceled]_ ステータスの注文、_[!UICONTROL Processing]_&#x200B;ステータスの注文、_[!UICONTROL Closed]_ ステータスの変更、払い戻しが処理されます。
 
    キャンセルが完了すると、顧客にメールが送信されます。
 
-   ![ 注文 E メールのキャンセル ](./assets/cancel-order-email.png){width="700" zoomable="yes"}
+   ![&#x200B; 注文 E メールのキャンセル &#x200B;](./assets/cancel-order-email.png){width="700" zoomable="yes"}
 
    キャンセル情報は、顧客の注文履歴に追加されます。 注文のメモ内および「コメント履歴」タブに表示されます。
 
-   ![ 注文メモのキャンセル ](./assets/cancel-order-notes.png){width="700" zoomable="yes"}
+   ![&#x200B; 注文メモのキャンセル &#x200B;](./assets/cancel-order-notes.png){width="700" zoomable="yes"}
 
-   ![ コメント履歴のキャンセル ](./assets/cancel-order-comments.png){width="700" zoomable="yes"}
+   ![&#x200B; コメント履歴のキャンセル &#x200B;](./assets/cancel-order-comments.png){width="700" zoomable="yes"}
 
    何らかの理由で注文がキャンセルできないステータスに変更され、顧客がページを更新しなかった場合でも、注文をキャンセルするためのリンクが表示されます。 ただし、キャンセルしようとすると、エラーメッセージが表示されます。
 
-   ![ 注文をキャンセルのエラーメッセージ ](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
+   ![&#x200B; 注文をキャンセルのエラーメッセージ &#x200B;](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
 
    ページを更新すると、注文が既に完了したことが表示されます。そのため、キャンセルは機能しませんでした。
 
-   ![ 更新後の注文のキャンセル ](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}
+   ![&#x200B; 更新後の注文のキャンセル &#x200B;](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}

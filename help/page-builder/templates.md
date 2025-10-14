@@ -18,21 +18,21 @@ ht-degree: 0%
 
 _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Templates]**&#x200B;に移動します。
 
-![ サムネールのプレビューを含むテンプレートグリッド ](./assets/templates-list.png){width="700" zoomable="yes"}
+![&#x200B; サムネールのプレビューを含むテンプレートグリッド &#x200B;](./assets/templates-list.png){width="700" zoomable="yes"}
 
 ## コンテンツ [!DNL Page Builder] テンプレートとして保存
 
-1. [[!DNL Page Builder]  ステージ ](workspace.md#stage) に移動し、テンプレートとして保存するコンテンツにアクセスします。
+1. [[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage) に移動し、テンプレートとして保存するコンテンツにアクセスします。
 
    ページ、ブロック、動的ブロック、製品属性、カテゴリの説明を指定できます。
 
 1. ステージの上で、右上の **[!UICONTROL Save as Template]** をクリックします。
 
-   「テンプレートとして保存」ボタンを使用してステージを ![[!DNL Page Builder] 成する ](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
+   「テンプレートとして保存」ボタンを使用してステージを ![[!DNL Page Builder] 成する &#x200B;](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
 
    _[!UICONTROL Save Content as Template]_&#x200B;ダイアログが表示されます。
 
-   ![[!DNL Page Builder] テンプレートとして保存」ダイアログ ](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
+   ![[!DNL Page Builder] テンプレートとして保存」ダイアログ &#x200B;](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
 
 1. **[!UICONTROL Template Name]**：テンプレートの一意の名前を入力します。
 
@@ -54,13 +54,13 @@ _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]
 
 1. コンテンツ領域で、右上の「**[!UICONTROL Apply Template]**」をクリックします。
 
-   ![[!DNL Page Builder] テンプレートを適用」ボタン ](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] テンプレートを適用」ボタン &#x200B;](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
 1. _[!UICONTROL Apply Template]_&#x200B;のグリッドからテンプレートを選択し、行の最後にある&#x200B;**[!UICONTROL Apply]**&#x200B;をクリックします。
 
    テンプレート全体を表示するには、テンプレートのサムネール画像をクリックします。 この操作により画像が展開され、必要に応じてテンプレート全体を表示できます。
 
-   テンプレ ![[!DNL Page Builder] ト グリッドの適用 ](./assets/pb-templates-apply-slideout-nofilters.png){width="600" zoomable="yes"}
+   テンプレ ![[!DNL Page Builder] ト グリッドの適用 &#x200B;](./assets/pb-templates-apply-slideout-nofilters.png){width="600" zoomable="yes"}
 
 ## テンプレートの削除
 
@@ -85,7 +85,7 @@ _テンプレートを適用_ グリッドと _テンプレート_ ページグ�
    - テンプレート名（**[!UICONTROL Template Name]**）
    - 指定されたコンテンツ領域（**[!UICONTROL Created For]**）
 
-テンプレ ![[!DNL Page Builder] ト グリッドの適用 ](./assets/pb-templates-apply-slideout-withfilters.png){width="600" zoomable="yes"}
+テンプレ ![[!DNL Page Builder] ト グリッドの適用 &#x200B;](./assets/pb-templates-apply-slideout-withfilters.png){width="600" zoomable="yes"}
 
 ## コンテンツテンプレートのデモ
 

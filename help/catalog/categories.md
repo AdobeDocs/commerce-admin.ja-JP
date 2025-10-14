@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # カテゴリの概要
 
-カタログに製品を追加する前に、カタログの基本的なカテゴリ構造を確立する必要があります。 製品は、0 個以上のカテゴリに割り当てることができます。 通常、製品をカタログに追加する前に、カテゴリが事前に作成されます。 ただし、製品の作成時に _その場で_ カテゴリを追加することもできます。 カタログのカテゴリ構造は、ストアのメインメニュー（または [ トップナビゲーション ](navigation-top.md) に反映されます。
+カタログに製品を追加する前に、カタログの基本的なカテゴリ構造を確立する必要があります。 製品は、0 個以上のカテゴリに割り当てることができます。 通常、製品をカタログに追加する前に、カテゴリが事前に作成されます。 ただし、製品の作成時に _その場で_ カテゴリを追加することもできます。 カタログのカテゴリ構造は、ストアのメインメニュー（または [&#x200B; トップナビゲーション &#x200B;](navigation-top.md) に反映されます。
 
-![ カテゴリツリー ](./assets/category-selected.png){width="700" zoomable="yes"}
+![&#x200B; カテゴリツリー &#x200B;](./assets/category-selected.png){width="700" zoomable="yes"}
 
 | 制御 | 説明 |
 |--- |--- |
@@ -34,5 +34,5 @@ ht-degree: 0%
 
 カテゴリの問題のトラブルシューティングについて詳しくは、Commerce サポートナレッジベースの次の記事を参照してください。
 
-- [ カテゴリに対する変更が保存されない ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html?lang=ja)
-- [Fastly が有効になっているサブページにメインメニュー（カテゴリ）が表示されない ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html?lang=ja)
+- [&#x200B; カテゴリに対する変更が保存されない &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html?lang=ja)
+- [Fastly が有効になっているサブページにメインメニュー（カテゴリ）が表示されない &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html?lang=ja)

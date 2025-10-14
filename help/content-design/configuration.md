@@ -14,7 +14,7 @@ ht-degree: 0%
 
 デザイン設定を使用すると、デザイン関連のルールや設定を 1 ページに表示して簡単に編集できます。
 
-![ デザイン設定ページ ](./assets/configuration.png){width="700" zoomable="yes"}
+![&#x200B; デザイン設定ページ &#x200B;](./assets/configuration.png){width="700" zoomable="yes"}
 
 ## デザイン設定の変更
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} テーマを特定のデバイスにのみ使用する場合は、**[!UICONTROL User Agent Rules]** を設定します。
 
-   ![ ユーザーエージェントルール ](./assets/configuration-user-agent-rules.png){width="400" zoomable="yes"}
+   ![&#x200B; ユーザーエージェントルール &#x200B;](./assets/configuration-user-agent-rules.png){width="400" zoomable="yes"}
 
    テーマを指定する各デバイスタイプに対して、次の手順を実行します。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Search String]**：特定のデバイスのブラウザー ID を入力します。
 
-     検索文字列には、正規表現または Perl 互換正規表現（PCRE）を使用できます（詳しくは [ ユーザーエージェント ](https://en.wikipedia.org/wiki/User_agent) を参照してください）。 次の検索文字列は Firefox を示しています。
+     検索文字列には、正規表現または Perl 互換正規表現（PCRE）を使用できます（詳しくは [&#x200B; ユーザーエージェント &#x200B;](https://en.wikipedia.org/wiki/User_agent) を参照してください）。 次の検索文字列は Firefox を示しています。
 
          /^mozilla/i
      
@@ -58,6 +58,6 @@ ht-degree: 0%
    - [[!UICONTROL Product Image Watermarks]](../catalog/product-image.md#watermarks)
    - [[!UICONTROL Transactional Emails]](../systems/email-templates.md#configure-email-templates)
 
-   ![ デザインに影響するその他の設定 ](./assets/configuration-other-settings.png){width="500" zoomable="yes"}
+   ![&#x200B; デザインに影響するその他の設定 &#x200B;](./assets/configuration-other-settings.png){width="500" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Configuration]**」をクリックします。

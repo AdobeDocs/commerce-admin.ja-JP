@@ -16,18 +16,18 @@ ht-degree: 0%
 
 お客様は、次のいずれかを使用して、ストアフロントから RMA をリクエストできます。
 
-- [ 注文と返品ウィジェット ](../content-design/widget-orders-returns.md) サイドバー内
+- [&#x200B; 注文と返品ウィジェット &#x200B;](../content-design/widget-orders-returns.md) サイドバー内
 - フッターの _注文と返品_ リンク
 
 ベストプラクティスとして、RMA 要件とプロセスの説明を必ずカスタマーサービスポリシーに含めてください。
 
 >[!NOTE]
 >
->返品に関連する追加情報を収集する場合は、独自のカスタム [ 返品属性 ](attributes-returns.md) を追加できます。
+>返品に関連する追加情報を収集する場合は、独自のカスタム [&#x200B; 返品属性 &#x200B;](attributes-returns.md) を追加できます。
 
 すべての顧客 RMA 情報は、顧客アカウントダッシュボードの **[!UICONTROL My Returns]** ページに表示されます。
 
-![ 返品数 ](./assets/my-returns-page.png){width="700" zoomable="yes"}
+![&#x200B; 返品数 &#x200B;](./assets/my-returns-page.png){width="700" zoomable="yes"}
 
 ## RMA をリクエスト
 
@@ -43,11 +43,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Continue]** をクリックします。
 
-   ![ 受注と返品 ](./assets/storefront-orders-and-returns.png){width="700" zoomable="yes"}
+   ![&#x200B; 受注と返品 &#x200B;](./assets/storefront-orders-and-returns.png){width="700" zoomable="yes"}
 
 1. 注文日の下で、「**[!UICONTROL Return]**」をクリックします。
 
-   ![ 注文詳細 ](./assets/storefront-orders-and-returns-order-information.png){width="700" zoomable="yes"}
+   ![&#x200B; 注文詳細 &#x200B;](./assets/storefront-orders-and-returns-order-information.png){width="700" zoomable="yes"}
 
 1. 返す項目を選択し、**[!UICONTROL Quantity to Return]** を入力します。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
    - `Out of Service`
    - `Other`
 
-   ![ 新しい返品の作成 ](./assets/storefront-orders-and-returns-create-new-return.png){width="700" zoomable="yes"}
+   ![&#x200B; 新しい返品の作成 &#x200B;](./assets/storefront-orders-and-returns-create-new-return.png){width="700" zoomable="yes"}
 
 1. 必要に応じて、**[!UICONTROL Contact Email Address]** と **[!UICONTROL Comments]** を設定します。
 

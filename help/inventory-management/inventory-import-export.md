@@ -33,7 +33,7 @@ ht-degree: 0%
 
 CSV ファイルを使用して、複数の製品と割り当てられたソースをすばやく更新し、アプリケーションインターフェイスから 1 つずつインベントリ記録に不正確な情報を更新して修正します。 基本ファイルの場合は、最初にエクスポートし、必要に応じて更新します。
 
-![ 読み込み用の CSV ファイルの例 – 在庫データの書き出し ](assets/inventory-import-export-data.png){width="600" zoomable="yes"}
+![&#x200B; 読み込み用の CSV ファイルの例 – 在庫データの書き出し &#x200B;](assets/inventory-import-export-data.png){width="600" zoomable="yes"}
 
 ## すべてのソースの製品データのエクスポート
 
@@ -49,7 +49,7 @@ CSV ファイルを使用して、複数の製品と割り当てられたソー�
 
 在庫金額と製品データを更新した後、ファイルを [!DNL Commerce] にインポートします。
 
-![ 製品データおよびソース用のストックソースのエクスポート ](assets/inventory-export-stock-sources.png){width="350" zoomable="yes"}
+![&#x200B; 製品データおよびソース用のストックソースのエクスポート &#x200B;](assets/inventory-export-stock-sources.png){width="350" zoomable="yes"}
 
 ## 特定のソースの製品データのエクスポート
 
@@ -83,4 +83,4 @@ CSV ファイルを使用して、複数の製品と割り当てられたソー�
 
 1. 「**[!UICONTROL Check Data]**」をクリックして、読み込みを完了します。
 
-![ 製品データおよびソースのインポート ](assets/inventory-import-sources.png){width="600" zoomable="yes"}
+![&#x200B; 製品データおよびソースのインポート &#x200B;](assets/inventory-import-sources.png){width="600" zoomable="yes"}

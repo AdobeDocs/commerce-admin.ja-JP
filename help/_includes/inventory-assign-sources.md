@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. ソースを参照または検索し、製品に追加するソースの横にあるチェックボックスを選択します。
 
-   ![ 製品へのソースの割り当て ](../catalog/assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品へのソースの割り当て &#x200B;](../catalog/assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Done]**」をクリックしてソースを追加します。
 
@@ -32,4 +32,4 @@ ht-degree: 0%
 
    - _デフォルトの通知数量_ - 「**[!UICONTROL Notify Quantity Use Default]**」チェックボックスを選択します。 Commerceは、[!UICONTROL Advanced Inventory] またはグローバルストアの設定を確認し、使用します。
 
-   ![Sourceごとの製品数量の更新 ](../catalog/assets/inventory-product-quantity.png){width="600" zoomable="yes"}
+   ![Sourceごとの製品数量の更新 &#x200B;](../catalog/assets/inventory-product-quantity.png){width="600" zoomable="yes"}

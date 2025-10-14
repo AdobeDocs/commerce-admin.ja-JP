@@ -14,7 +14,7 @@ ht-degree: 0%
 
 製品ワークスペースは、すべての製品タイプで基本的に同じですが、フィールドの選択は、使用する属性セットによって変わります。 製品属性はフォームの上部に表示され、その後に商品情報の展開可能なセクションが続きます。 新しい製品を初めて保存すると、フォームの左上に _[!UICONTROL Store View]_&#x200B;選択が表示されます。
 
-![ 製品ワークスペース ](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
+![&#x200B; 製品ワークスペース &#x200B;](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Enable Product] 設定
 
@@ -22,26 +22,26 @@ ht-degree: 0%
 
 | 制御 | 説明 |
 |-------- | ----------- |
-| ![ はい切り替え ](../assets/toggle-yes.png) | 製品がオンラインであることを示します。 |
-| ![ 切り替え番号 ](../assets/toggle-no.png) | 製品がオフラインであることを示します。 |
+| ![&#x200B; はい切り替え &#x200B;](../assets/toggle-yes.png) | 製品がオンラインであることを示します。 |
+| ![&#x200B; 切り替え番号 &#x200B;](../assets/toggle-no.png) | 製品がオフラインであることを示します。 |
 
 {style="table-layout:auto"}
 
 ## 属性セット
 
-[ 属性セット ](attribute-sets.md) の名前が左上隅に表示され、製品レコードに表示されるフィールドを決定します。 別の属性セットを選択するには、デフォルトの属性セット名の横にある下向き矢印をクリックします。
+[&#x200B; 属性セット &#x200B;](attribute-sets.md) の名前が左上隅に表示され、製品レコードに表示されるフィールドを決定します。 別の属性セットを選択するには、デフォルトの属性セット名の横にある下向き矢印をクリックします。
 
-![ 属性セット ](./assets/product-attribute-set.png){width="600" zoomable="yes"}
+![&#x200B; 属性セット &#x200B;](./assets/product-attribute-set.png){width="600" zoomable="yes"}
 
 ## 展開/折りたたむ
 
-セクションを展開または折りたたむには、展開 ![ 展開セレクター ](../assets/icon-display-expand.png) または折りたたむ ![ 折りたたみセレクター ](../assets/icon-display-collapse.png) アイコンをクリックします。
+セクションを展開または折りたたむには、展開 ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) または折りたたむ ![&#x200B; 折りたたみセレクター &#x200B;](../assets/icon-display-collapse.png) アイコンをクリックします。
 
 ## [!UICONTROL Save] メニュー
 
 _[!UICONTROL Save]_&#x200B;のメニューには、保存して続行、保存して作成、保存して複製、保存して閉じるなどのいくつかのオプションが含まれています。
 
-![ 保存メニュー ](./assets/product-save-menu.png){width="600" zoomable="yes"}
+![&#x200B; 保存メニュー &#x200B;](./assets/product-save-menu.png){width="600" zoomable="yes"}
 
 | コマンド | 説明 |
 |--- |--- |
@@ -65,11 +65,11 @@ _[!UICONTROL Save]_&#x200B;のメニューには、保存して続行、保存�
 
 {style="table-layout:auto"}
 
-別のフィールドの値を表すプレースホルダーは、二重中括弧で囲まれています。 製品 [ 属性セット ](attribute-sets.md) に含まれる属性コードは、プレースホルダーとして使用できます。
+別のフィールドの値を表すプレースホルダーは、二重中括弧で囲まれています。 製品 [&#x200B; 属性セット &#x200B;](attribute-sets.md) に含まれる属性コードは、プレースホルダーとして使用できます。
 
-![ 製品フィールドの自動生成 ](../configuration-reference/catalog/assets/catalog-product-fields-auto-generation.png){width="600" zoomable="yes"}
+![&#x200B; 製品フィールドの自動生成 &#x200B;](../configuration-reference/catalog/assets/catalog-product-fields-auto-generation.png){width="600" zoomable="yes"}
 
-これらの設定の詳細なリストについては、[ 設定リファレンス ](../configuration-reference/catalog/catalog.md#product-fields-auto-generation) の _製品フィールドの自動生成_ を参照してください。
+これらの設定の詳細なリストについては、[&#x200B; 設定リファレンス &#x200B;](../configuration-reference/catalog/catalog.md#product-fields-auto-generation) の _製品フィールドの自動生成_ を参照してください。
 
 ### プレースホルダー値の編集
 
@@ -77,7 +77,7 @@ _[!UICONTROL Save]_&#x200B;のメニューには、保存して続行、保存�
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Product Fields Auto-Generation]**」セクションを展開し、プレースホルダーの値に必要な変更を加えます。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL Product Fields Auto-Generation]**」セクションを展開し、プレースホルダーの値に必要な変更を加えます。
 
    例えば、すべてのメタ説明に含めるすべての製品またはフレーズに含める特定のキーワードがある場合は、適切なフィールドに直接値を入力します。
 

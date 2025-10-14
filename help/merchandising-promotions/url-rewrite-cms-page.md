@@ -15,7 +15,7 @@ ht-degree: 0%
 
 開始する前に、リダイレクトの目的を正確に理解しておく必要があります。 _ターゲット_/_ソース_ または _リダイレクト先_/_リダイレクト元_ を考慮します。 検索エンジンや古いリンクから以前のページに移動する場合もありますが、リダイレクトによってストアが新しいターゲットに切り替わります。
 
-![URL の書き換え – CMSページ ](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
+![URL の書き換え – CMSページ &#x200B;](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
 
 ## 手順 1. 書き換えの計画
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. グリッドで新しいターゲットページを見つけ、編集モードで開きます。
 
-   ![URL 書き換えの追加 – CMS ページの場合 ](./assets/url-rewrite-cms-page-add.png){width="700" zoomable="yes"}
+   ![URL 書き換えの追加 – CMS ページの場合 &#x200B;](./assets/url-rewrite-cms-page-add.png){width="700" zoomable="yes"}
 
 1. [ URL 書き換え情報 ] で、次の操作を行います。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    - 参照用に、書き換えの簡単な説明を入力します。
 
-   ![URL 書き換え情報 ](./assets/url-rewrite-cms-page-information.png){width="600" zoomable="yes"}
+   ![URL 書き換え情報 &#x200B;](./assets/url-rewrite-cms-page-information.png){width="600" zoomable="yes"}
 
 1. リダイレクトを保存する前に、以下を確認してください。
 

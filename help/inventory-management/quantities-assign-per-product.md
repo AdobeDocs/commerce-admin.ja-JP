@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 製品ごとの数量の割り当て
 
-[ ソース ](sources-assign-per-product.md) を追加した後、商品の在庫数量を更新します。 これらの値は、手持在庫の有効在庫数をトラッキングします。
+[&#x200B; ソース &#x200B;](sources-assign-per-product.md) を追加した後、商品の在庫数量を更新します。 これらの値は、手持在庫の有効在庫数をトラッキングします。
 
 ソースを削除せずにソースの在庫を出荷から非表示にするには、「_[!UICONTROL Source Item Status]_」を「`Out of Stock`」に設定します。 SSA および出荷オプションは、使用可能な在庫数量を持つ `In Stock` としてリストされたソースにのみアクセスします。
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 製品を探して、編集モードで開きます。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Sources]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Sources]**」セクションを展開します。
 
 1. **[!UICONTROL Source Item Status]** を `In Stock` に設定します。
 
@@ -35,15 +35,15 @@ ht-degree: 0%
    - カスタム通知数量：「**[!UICONTROL Use Default]**」チェックボックスの選択を解除して、**[!UICONTROL Notify Qty]** に金額を入力します。
    - デフォルトの通知数量：「**[!UICONTROL Use Default]**」チェックボックスを選択します。 [!DNL Commerce] は、_[!UICONTROL Advanced Inventory]_&#x200B;またはグローバルストア設定の設定を確認し、使用します。
 
-   ![Sourceごとの製品数量の更新 ](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
+   ![Sourceごとの製品数量の更新 &#x200B;](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
 
 1. 次のいずれかの操作を行って保存します。
 
    - 「**[!UICONTROL Save]**」をクリックします。
 
-   - **[!UICONTROL Save]** （メニュー矢印 ![ メニュー ](../assets/icon-menu-down-arrow-red.png) で、「**[!UICONTROL Save & Close]**」を選択します。
+   - **[!UICONTROL Save]** （メニュー矢印 ![&#x200B; メニュー &#x200B;](../assets/icon-menu-down-arrow-red.png) で、「**[!UICONTROL Save & Close]**」を選択します。
 
 
 製品グリッドが更新され、すべてのソースと関連数量のリストが表示されます。 ソースが 6 つ以上ある製品の場合は、_[!UICONTROL Quantity per Source]_&#x200B;の列にカーソルを合わせると、完全なリストが表示されます。
 
-![ ソースごとの製品数量 ](assets/inventory-product-quantity.png){width="600" zoomable="yes"}
+![&#x200B; ソースごとの製品数量 &#x200B;](assets/inventory-product-quantity.png){width="600" zoomable="yes"}

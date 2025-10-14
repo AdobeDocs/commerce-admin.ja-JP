@@ -15,7 +15,7 @@ ht-degree: 0%
 
 高度な開発者ツールを使用して、フロントエンド開発時のコンパイルモードの決定、IP アドレスの許可リストの作成、テンプレートパスヒントの表示を行います。 また、ストアフロントと管理者のインターフェイスで、テキストを簡単にスポット変更するためのツールもあります。
 
-- [ アクションログ ](action-log.md) ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）
+- [&#x200B; アクションログ &#x200B;](action-log.md) ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）
 - [フロントエンド開発ワークフロー](#frontend-development-workflow)
 - [静的ファイル署名の使用](#static-file-signatures)
 - [リソースファイルの最適化](#optimizing-resource-files)
@@ -27,26 +27,26 @@ ht-degree: 0%
 
 Adobe CommerceまたはMagento Open Source インスタンスは、_実稼働モード_ または _開発者モード_ のいずれかで実行するようにデプロイできます。 開発者向けに特別に設計されたツールと設定は、ストアが _開発者モード_ で動作している場合にのみアクセスできます。
 
-操作モードは、適切な権限を持つユーザーがサーバーのコマンドラインからのみ変更できます。 詳しくは、『 _設定ガイド_ の [ 操作モードの設定 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=ja) を参照してください。
+操作モードは、適切な権限を持つユーザーがサーバーのコマンドラインからのみ変更できます。 詳しくは、『 _設定ガイド_ の [&#x200B; 操作モードの設定 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=ja) を参照してください。
 
 マーチャントドキュメントのほとんどのトピックは、実稼動モードで実行されているCommerce インスタンスに適用されます。 ただし、次の設定とツールは、インストールが開発者モードで実行されている場合にのみ使用できます。
 
 ## フロントエンド開発ワークフロー
 
 フロントエンド開発ワークフローのタイプは、開発中にクライアントサイドまたはサーバーサイドで少ないコンパイルが行われるかどうかを決定します。 Less は、追加の機能と規則を持ち、合理化されたコードを生成する CSS の拡張機能です。 テーマの開発には、クライアントサイドの LESS コンパイルをお勧めします。 サーバーサイドのコンパイルはデフォルトのモードです。 開発ワークフローオプションは、実稼動モードのストアでは使用できません。
-Commerce開発者向けドキュメントの [ クライアントサイド LESS コンパイルとサーバーサイドの比較 ](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode/){:target="_blank"} を参照してください。
+Commerce開発者向けドキュメントの [&#x200B; クライアントサイド LESS コンパイルとサーバーサイドの比較 &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode/){:target="_blank"} を参照してください。
 
 >[!NOTE]
 >
->フロントエンド開発ワークフローの設定は、[ 開発者モード ](../systems/developer-tools.md#operation-modes) でのみ使用できます。
+>フロントエンド開発ワークフローの設定は、[&#x200B; 開発者モード &#x200B;](../systems/developer-tools.md#operation-modes) でのみ使用できます。
 
-![ 詳細設定 – フロントエンド開発ワークフロー ](../configuration-reference/advanced/assets/developer-frontend-development-workflow.png){width="600" zoomable="yes"}
+![&#x200B; 詳細設定 – フロントエンド開発ワークフロー &#x200B;](../configuration-reference/advanced/assets/developer-frontend-development-workflow.png){width="600" zoomable="yes"}
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Developer]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Front-end Development Workflow]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Front-end Development Workflow]**」セクションを展開します。
 
 1. **[!UICONTROL Workflow Type]** を次のいずれかに設定します。
 
@@ -59,13 +59,13 @@ Commerce開発者向けドキュメントの [ クライアントサイド LESS 
 
 静的ファイルの URL にデジタル署名を追加すると、ブラウザーはファイルの新しいバージョンが使用可能かどうかを検出できます。 デジタル署名で追跡できる静的ファイルには、JavaScript、CSS、画像、フォントなどがあります。 署名は、ベース URL の直後のパスに追加されます。 ファイルの署名がブラウザーのキャッシュに格納されている署名と異なる場合は、ファイルの新しいバージョンが使用されます。
 
-Commerce開発者向けドキュメントの [ 静的コンテンツ署名 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=ja){:target="_blank"} を参照してください。
+Commerce開発者向けドキュメントの [&#x200B; 静的コンテンツ署名 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=ja){:target="_blank"} を参照してください。
 
 >[!NOTE]
 >
->静的ファイル設定の設定は、[ 開発者モード ](../systems/developer-tools.md#operation-modes) で作業している場合にのみ使用できます。
+>静的ファイル設定の設定は、[&#x200B; 開発者モード &#x200B;](../systems/developer-tools.md#operation-modes) で作業している場合にのみ使用できます。
 
-![ 詳細設定 – 静的ファイルの設定 ](../configuration-reference/advanced/assets/developer-static-files-settings.png){width="600" zoomable="yes"}
+![&#x200B; 詳細設定 – 静的ファイルの設定 &#x200B;](../configuration-reference/advanced/assets/developer-static-files-settings.png){width="600" zoomable="yes"}
 
 構成設定の詳細なリストについては、『構成リファレンス _の[_ 静的ファイル設定 _](../configuration-reference/advanced/developer.md)を参照してください_。
 
@@ -75,7 +75,7 @@ Commerce開発者向けドキュメントの [ 静的コンテンツ署名 ](htt
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Developer]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Static Files Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Static Files Settings]**」セクションを展開します。
 
 1. **[!UICONTROL Sign Static Files]** を `Yes` に設定します。
 
@@ -91,11 +91,11 @@ Commerce開発者向けドキュメントの [ 静的コンテンツ署名 ](htt
 
 デフォルトでは、Adobe CommerceとMagento Open Sourceはファイルの結合、バンドル、最小化を行わないので、プロジェクト開発者はどのファイル最適化方法を使用するかを決定する必要があります。
 
-詳しくは、[ パフォーマンスのベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=ja) を参照してください。
+詳しくは、[&#x200B; パフォーマンスのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=ja) を参照してください。
 
 >[!NOTE]
 >
->CSS ファイルとJavaScript ファイルは、[ 開発者モード ](../systems/developer-tools.md#operation-modes) でのみ最適化できます。
+>CSS ファイルとJavaScript ファイルは、[&#x200B; 開発者モード &#x200B;](../systems/developer-tools.md#operation-modes) でのみ最適化できます。
 
 | ファイルタイプ | サポートされる操作 |
 | --------------- | -------------------- |
@@ -111,25 +111,25 @@ Commerce開発者向けドキュメントの [ 静的コンテンツ署名 ](htt
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Developer]**」を選択します。
 
-1. CSS ファイルを最適化するには、「**[!UICONTROL CSS Settings]**」セクションの ![ 拡張セレクター ](../assets/icon-display-expand.png) を展開し、次の手順を実行します。
+1. CSS ファイルを最適化するには、「**[!UICONTROL CSS Settings]**」セクションの ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、次の手順を実行します。
 
    - **[!UICONTROL Merge CSS Files]** を `Yes` に設定します。
    - **[!UICONTROL Minify CSS Files]** を `Yes` に設定します。
 
-   ![ 詳細設定 – CSS 設定 ](../configuration-reference/advanced/assets/developer-css-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – CSS 設定 &#x200B;](../configuration-reference/advanced/assets/developer-css-settings.png){width="600" zoomable="yes"}
 
 [_CSS 設定_](../configuration-reference/advanced/developer.md)
 
-1. JavaScript ファイルを最適化するには、「**[!UICONTROL JavaScript Settings]**」セクションの ![ 拡張セレクター ](../assets/icon-display-expand.png) を展開し、次の手順を実行します。
+1. JavaScript ファイルを最適化するには、「**[!UICONTROL JavaScript Settings]**」セクションの ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、次の手順を実行します。
 
    - **[!UICONTROL Merge JavaScript Files]** を `Yes` に設定します。
    - **[!UICONTROL Minify JavaScript Files]** を `Yes` に設定します。
 
-   ![ 詳細設定 – JavaScriptの設定 ](../configuration-reference/advanced/assets/developer-javascript-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – JavaScriptの設定 &#x200B;](../configuration-reference/advanced/assets/developer-javascript-settings.png){width="600" zoomable="yes"}
 
-1. PHTML テンプレートファイルを縮小するには、![ 拡張セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Template Settings]**」セクションを展開し、**[!UICONTROL Minify Html]** を `Yes` に設定します。
+1. PHTML テンプレートファイルを縮小するには、![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL Template Settings]**」セクションを展開し、**[!UICONTROL Minify Html]** を `Yes` に設定します。
 
-   ![ 詳細設定 – テンプレート設定 ](../configuration-reference/advanced/assets/developer-template-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – テンプレート設定 &#x200B;](../configuration-reference/advanced/assets/developer-template-settings.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
@@ -139,9 +139,9 @@ Commerce開発者向けドキュメントの [ 静的コンテンツ署名 ](htt
 
 >[!NOTE]
 >
->開発者クライアント制限は、[ 開発者モード ](../systems/developer-tools.md#operation-modes) でのみ設定できます。
+>開発者クライアント制限は、[&#x200B; 開発者モード &#x200B;](../systems/developer-tools.md#operation-modes) でのみ設定できます。
 
-Commerce技術情報については、_Cloud Infrastructure ガイドの [ リクエストを許可するためのカスタム VCL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=ja) を参照してください_。
+Commerce技術情報については、_Cloud Infrastructure ガイドの [&#x200B; リクエストを許可するためのカスタム VCL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=ja) を参照してください_。
 
 **_IP アドレスを許可リストに追加するには_**
 
@@ -149,9 +149,9 @@ Commerce技術情報については、_Cloud Infrastructure ガイドの [ リ�
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Developer]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Developer Client Restrictions]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Developer Client Restrictions]**」セクションを展開します。
 
-   ![ 詳細設定 – デベロッパークライアントの制限 ](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – デベロッパークライアントの制限 &#x200B;](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Allow IPs]**:IP アドレスを入力します。
 
@@ -167,17 +167,17 @@ Commerce技術情報については、_Cloud Infrastructure ガイドの [ リ�
 
 >[!NOTE]
 >
->テンプレートパスヒントは、[ 開発者モード ](../systems/developer-tools.md#operation-modes) でのみ編集できます。
+>テンプレートパスヒントは、[&#x200B; 開発者モード &#x200B;](../systems/developer-tools.md#operation-modes) でのみ編集できます。
 
-Commerce開発者向けドキュメントの [ テンプレート、レイアウト、スタイルの検索 ](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug/){:target="_blank"} を参照してください。
+Commerce開発者向けドキュメントの [&#x200B; テンプレート、レイアウト、スタイルの検索 &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug/){:target="_blank"} を参照してください。
 
-![storefront の例 – テンプレートパスのヒント ](./assets/storefront-template-path-hints.png){width="700" zoomable="yes"}
+![storefront の例 – テンプレートパスのヒント &#x200B;](./assets/storefront-template-path-hints.png){width="700" zoomable="yes"}
 
 ### 許可リストに加える手順 1：に IP アドレスを追加する
 
 許可リストに加える テンプレートパスヒントを使用する前に、IP アドレスを [&#128279;](#client-restrictions) に追加して、ストアで買い物をしている顧客への干渉を避けます。 完了したら、必ずCommerceのキャッシュをクリアして、ストアからすべてのヒントを削除します。
 
-![ 詳細設定 – デベロッパークライアントの制限 ](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png){width="600" zoomable="yes"}
+![&#x200B; 詳細設定 – デベロッパークライアントの制限 &#x200B;](../configuration-reference/advanced/assets/developer-developer-client-restrictions.png){width="600" zoomable="yes"}
 
 ### 手順 2：テンプレートパスヒントを有効にする
 
@@ -185,9 +185,9 @@ Commerce開発者向けドキュメントの [ テンプレート、レイアウ
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Developer]**」を選択します。
 
-1. **[!UICONTROL Debug]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Debug]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![ 詳細設定 – デバッグ ](../configuration-reference/advanced/assets/developer-debug.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – デバッグ &#x200B;](../configuration-reference/advanced/assets/developer-debug.png){width="600" zoomable="yes"}
 
    - ストアに対してテンプレートパスヒントをアクティブにするには、**[!UICONTROL Enabled Template Path Hints for Storefront]** を `Yes` に設定します。
 
@@ -207,15 +207,15 @@ Commerce開発者向けドキュメントの [ テンプレート、レイアウ
 
 ## インラインで翻訳
 
-[ 開発者モード ](../systems/developer-tools.md#operation-modes) のインライン翻訳ツールを使用して、インターフェイスのテキストにタッチして、音声とブランドを反映させることができます。 インライン翻訳モードをアクティブにすると、ページ上の編集可能なテキストがすべて赤で描画されます。 フィールドラベル、メッセージなど、ストアフロントおよび管理者全体に表示されるテキストを簡単に編集できます。 例えば、多くのテーマでは、顧客がスムーズに作業できるように、_マイアカウント_、_マイウィッシュリスト_、_マイダッシュボード_ などの用語を使用しています。 ただし、単に _Account_、_Wishlist_、および _Dashboard_ という単語を使用することをお勧めします。
+[&#x200B; 開発者モード &#x200B;](../systems/developer-tools.md#operation-modes) のインライン翻訳ツールを使用して、インターフェイスのテキストにタッチして、音声とブランドを反映させることができます。 インライン翻訳モードをアクティブにすると、ページ上の編集可能なテキストがすべて赤で描画されます。 フィールドラベル、メッセージなど、ストアフロントおよび管理者全体に表示されるテキストを簡単に編集できます。 例えば、多くのテーマでは、顧客がスムーズに作業できるように、_マイアカウント_、_マイウィッシュリスト_、_マイダッシュボード_ などの用語を使用しています。 ただし、単に _Account_、_Wishlist_、および _Dashboard_ という単語を使用することをお勧めします。
 
 >[!NOTE]
 >
->インライン翻訳ツールは、[ 開発者モード ](../systems/developer-tools.md#operation-modes) で作業している場合にのみ使用できます。
+>インライン翻訳ツールは、[&#x200B; 開発者モード &#x200B;](../systems/developer-tools.md#operation-modes) で作業している場合にのみ使用できます。
 
-Commerce開発者向けドキュメントの [ 翻訳の概要 ](https://developer.adobe.com/commerce/frontend-core/guide/translations/) を参照してください。
+Commerce開発者向けドキュメントの [&#x200B; 翻訳の概要 &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/translations/) を参照してください。
 
-![ ストアフロントの例 – 翻訳可能なテキスト ](./assets/storefront-translate-inline.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの例 – 翻訳可能なテキスト &#x200B;](./assets/storefront-translate-inline.png){width="700" zoomable="yes"}
 
 ストアが複数の言語で使用できる場合は、ロケールの翻訳済みテキストを微調整できます。 サーバー上では、インターフェイステキストは、出力ブロックごとに個別の CSV ファイルに保持され、ロケール別に整理されます。 別の方法として、_インライン翻訳_ ツールを使用する代わりに、CSV ファイルをサーバー上で直接編集することもできます。 翻訳ファイルは `app/code/Magento/<module_name>/i18n/<language_locale>.csv` に保存されます。
 
@@ -243,13 +243,13 @@ Commerce開発者向けドキュメントの [ 翻訳の概要 ](https://develop
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Developer]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Translate Inline]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Translate Inline]**」セクションを展開します。
 
    必要に応じて「**[!UICONTROL Use Website]**」チェックボックスをオフにして、これらの設定を変更します。
 
    特定のストア表示を編集する場合、_[!UICONTROL Enabled for Admin]_&#x200B;オプションは使用できません。
 
-   ![ 詳細設定 – インライン翻訳 ](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – インライン翻訳 &#x200B;](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Enabled for Storefront]** を `Yes` に設定します。
 
@@ -261,7 +261,7 @@ Commerce開発者向けドキュメントの [ 翻訳の概要 ](https://develop
 
 1. ブラウザーでストアフロントを開き、編集するページに移動します。
 
-   必要に応じて、言語選択を使用してストア表示を変更します。 翻訳可能なテキストの各文字列は、赤で囲まれます。 任意のテキストボックスにポインタを合わせると、ブックアイコン（![ ブックアイコン ](../assets/icon-book.png)）が表示されます。
+   必要に応じて、言語選択を使用してストア表示を変更します。 翻訳可能なテキストの各文字列は、赤で囲まれます。 任意のテキストボックスにポインタを合わせると、ブックアイコン（![&#x200B; ブックアイコン &#x200B;](../assets/icon-book.png)）が表示されます。
 
 1. ブックアイコンをクリックして _翻訳_ ウィンドウを開き、次の操作を行います。
 
@@ -271,7 +271,7 @@ Commerce開発者向けドキュメントの [ 翻訳の概要 ](https://develop
 
 1. 完了したら、「**[!UICONTROL Submit]**」をクリックします。
 
-   ![ カスタムテキストを入力 ](./assets/storefront-translate-inline-detail.png){width="700" zoomable="yes"}
+   ![&#x200B; カスタムテキストを入力 &#x200B;](./assets/storefront-translate-inline-detail.png){width="700" zoomable="yes"}
 
 1. ストアで変更を確認するには、ブラウザーを更新します。
 
@@ -287,7 +287,7 @@ Commerce開発者向けドキュメントの [ 翻訳の概要 ](https://develop
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Developer]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Translate Inline]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Translate Inline]**」セクションを展開します。
 
 1. **[!UICONTROL Enabled for Frontend]** を `No` に設定します。
 
@@ -309,4 +309,4 @@ Commerce開発者向けドキュメントの [ 翻訳の概要 ](https://develop
 
 ストアフロントに移動し、更新された各ページを調べて、変更が正しいことを確認します。 この例では、`Customer Login` が `Customer Sign In` に変更されました。 特定のビューを変更した場合は、言語選択を使用して正しいビューに切り替えます。
 
-![ ストアフロントの例 – 翻訳済み顧客のログイン ](./assets/storefront-translate-inline-customer-sign-in.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの例 – 翻訳済み顧客のログイン &#x200B;](./assets/storefront-translate-inline-customer-sign-in.png){width="700" zoomable="yes"}

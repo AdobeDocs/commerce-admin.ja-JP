@@ -14,13 +14,13 @@ ht-degree: 2%
 
 {{config}}
 
-これらの設定の変更について詳しくは、[ ストアと購入エクスペリエンスガイド ](../../stores-purchase/shipping-settings.md) の _発送設定_ を参照してください。
+これらの設定の変更について詳しくは、[&#x200B; ストアと購入エクスペリエンスガイド &#x200B;](../../stores-purchase/shipping-settings.md) の _発送設定_ を参照してください。
 
 ## [!UICONTROL Origin]
 
-![ 接触チャネル ](./assets/shipping-settings-origin.png)<!-- zoom -->
+![&#x200B; 接触チャネル &#x200B;](./assets/shipping-settings-origin.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Country] | Web サイト | 元の国。 |
 | [!UICONTROL Region/State] | Web サイト | 原点の領域または状態。 |
@@ -33,9 +33,9 @@ ht-degree: 2%
 
 ## [!UICONTROL Shipping Policy Parameters]
 
-![ 配送ポリシーのパラメーター ](./assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
+![&#x200B; 配送ポリシーのパラメーター &#x200B;](./assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Apply Custom Shipping Policy] | Web サイト | チェックアウト時に配送ポリシーが表示されるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Shipping Policy] | ストア表示 | 配送ポリシーをテキストとして含みます。 |

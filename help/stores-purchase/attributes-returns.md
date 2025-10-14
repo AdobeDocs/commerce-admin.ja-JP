@@ -14,9 +14,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-returns 属性は、製品の返品プロセス中に必要な情報を保存するために使用されます。 デフォルトの属性には、返される製品の条件、返される理由、返される結果の解決方法を示すフィールドが含まれます。 戻り値属性を作成するプロセスは、[ 顧客属性 ](../customers/attribute-properties.md) の作成に似ています。
+returns 属性は、製品の返品プロセス中に必要な情報を保存するために使用されます。 デフォルトの属性には、返される製品の条件、返される理由、返される結果の解決方法を示すフィールドが含まれます。 戻り値属性を作成するプロセスは、[&#x200B; 顧客属性 &#x200B;](../customers/attribute-properties.md) の作成に似ています。
 
-![Admin – 属性を返します ](./assets/attribute-returns.png){width="700" zoomable="yes"}
+![Admin – 属性を返します &#x200B;](./assets/attribute-returns.png){width="700" zoomable="yes"}
 
 ## 戻り値の属性の作成
 
@@ -24,7 +24,7 @@ returns 属性は、製品の返品プロセス中に必要な情報を保存す
 
 1. 右上隅の「**[!UICONTROL Add New Attribute]**」をクリックします。
 
-   ![ 新しい戻り値 – 属性プロパティ ](./assets/attribute-returns-new-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; 新しい戻り値 – 属性プロパティ &#x200B;](./assets/attribute-returns-new-properties.png){width="600" zoomable="yes"}
 
 ### プロパティの定義
 
@@ -73,7 +73,7 @@ returns 属性は、製品の返品プロセス中に必要な情報を保存す
 
 1. 「**[!UICONTROL Manage Titles (Size, Color, etc.)]**」セクションで、各ストアビューのラベルを入力します。
 
-   ![ ラベルの管理 ](./assets/return-attributes.png){width="600" zoomable="yes"}
+   ![&#x200B; ラベルの管理 &#x200B;](./assets/return-attributes.png){width="600" zoomable="yes"}
 
 1. 属性の **[!UICONTROL Input Type]** が `Dropdown` の場合は、「**[!UICONTROL Manage Options (Values of Your Attribute)]**」セクションでオプションを管理します。
 

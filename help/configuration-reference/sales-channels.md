@@ -16,9 +16,9 @@ ht-degree: 0%
 
 これらの設定は、のインストール時 [[!DNL Amazon Sales Channel]](https://experienceleague.adobe.com/docs/commerce-channels/amazon/getting-started/install.html?lang=ja) 使用できます。
 
-![Sales Channelの設定 ](./assets/config-sales-channel-global-settings.png)<!-- zoom -->
+![Sales Channelの設定 &#x200B;](./assets/config-sales-channel-global-settings.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |-----|---------|------|
 | [!UICONTROL Clear Log History] | グローバル | オプション：<br/><br/>**`Once Daily`**：ストアのアクティビティ履歴を 1 日に 1 回クリアするには、このオプションを選択します。<br/><br/>**`Once Weekly`**：このオプションを選択すると、ストアのアクティビティ履歴が毎週 1 回消去されます。<br/><br/>**`Once Monthly`**: （デフォルト）このオプションを選択すると、ストアのアクティビティ履歴が毎月 1 回クリアされます。 |
 | [!UICONTROL Background Tasks (CRON) Source] | グローバル | 「`Magento CRON`」を選択すると、[!DNL Amazon Sales Channel] がCommerce cron 設定を使用してAmazon Seller Central との通信およびデータ同期間隔を決定します。 |

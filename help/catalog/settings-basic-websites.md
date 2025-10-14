@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # 製品設定 – [!UICONTROL Product in Websites]
 
-_[!UICONTROL Product in Websites]_&#x200B;のセクションは、「ストア階層 [ に基づいて、製品が使用可能な各 web サイトを識別 ](../stores-purchase/stores.md) ます。
+_[!UICONTROL Product in Websites]_&#x200B;のセクションは、「ストア階層 [&#x200B; に基づいて、製品が使用可能な各 web サイトを識別 &#x200B;](../stores-purchase/stores.md) ます。
 
-![ 製品 Web サイトのスコープ図 ](./assets/scope-product-website.svg){width="550"}
+![&#x200B; 製品 Web サイトのスコープ図 &#x200B;](./assets/scope-product-website.svg){width="550"}
 
 **_製品を別の web サイトにコピーするには：_**
 
 1. 製品を編集モードで開きます。
 
-1. 下にスクロールして、「_[!UICONTROL Product in Websites]_」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. 下にスクロールして、「_[!UICONTROL Product in Websites]_」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
-   ![Web サイト内の製品 ](./assets/catalog-product-in-websites-multisite-main-french.png){width="600" zoomable="yes"}
+   ![Web サイト内の製品 &#x200B;](./assets/catalog-product-in-websites-multisite-main-french.png){width="600" zoomable="yes"}
 
 1. コピーした商品を配置する web サイトのチェックボックスをオンにします。
 

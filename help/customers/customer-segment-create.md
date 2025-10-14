@@ -14,9 +14,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-顧客セグメントの作成は、オプションに [ 顧客セグメント固有の属性 ](../merchandising-promotions/price-rules-cart.md) が含まれることを除けば、[ 買い物かご価格ルール ](../customers/customer-segments.md) の作成に似ています。
+顧客セグメントの作成は、オプションに [&#x200B; 顧客セグメント固有の属性 &#x200B;](../merchandising-promotions/price-rules-cart.md) が含まれることを除けば、[&#x200B; 買い物かご価格ルール &#x200B;](../customers/customer-segments.md) の作成に似ています。
 
-![ 顧客セグメントリスト ](assets/customer-segments.png){width="700" zoomable="yes"}
+![&#x200B; 顧客セグメントリスト &#x200B;](assets/customer-segments.png){width="700" zoomable="yes"}
 
 _&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 
@@ -24,7 +24,7 @@ _&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 |--- |--- |
 | **[!UICONTROL ID]** | 顧客セグメントの一意の ID。 |
 | **[!UICONTROL Segment]** | 顧客セグメントの名前。 |
-| **[!UICONTROL Status]** | 顧客セグメントが _[!UICONTROL Active]_&#x200B;か_[!UICONTROL Inactive]_ かを示します。 |
+| **[!UICONTROL Status]** | 顧客セグメントが _[!UICONTROL Active]_&#x200B;か&#x200B;_[!UICONTROL Inactive]_ かを示します。 |
 | **[!UICONTROL Website]** | 顧客セグメントが属する web サイトを示します。 |
 
 {style="table-layout:auto"}
@@ -39,7 +39,7 @@ _&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 
 1. **[!UICONTROL Enable Customer Segment Functionality]** が `Yes` に設定されていることを確認します。
 
-   ![ 顧客設定 – 顧客セグメント ](../configuration-reference/customers/assets/customer-configuration-customer-segments.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客設定 – 顧客セグメント &#x200B;](../configuration-reference/customers/assets/customer-configuration-customer-segments.png){width="600" zoomable="yes"}
 
 1. （任意）顧客セグメントのリアルタイム検証を無効にするには、**[!UICONTROL Real-time Check if Customer is Matched by Segment]** を `No` に設定します。
 
@@ -84,7 +84,7 @@ _&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 
    セグメント _[!UICONTROL General Properties]_&#x200B;を保存すると、左パネルで追加のオプションが使用できるようになります。
 
-   ![ セグメントのプロパティ ](assets/customer-segment-saved.png){width="600" zoomable="yes"}
+   ![&#x200B; セグメントのプロパティ &#x200B;](assets/customer-segment-saved.png){width="600" zoomable="yes"}
 
 **_[!UICONTROL General Properties]_**
 
@@ -117,7 +117,7 @@ _&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 
    デフォルトの条件はページの _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;で始まります。
 
-   ![ 条件 ](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
+   ![&#x200B; 条件 &#x200B;](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
 1. 女性の顧客をターゲットにする条件を作成します。
 
@@ -127,7 +127,7 @@ _&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 
    - 「**...**」をクリックし、「`female`」を選択します。
 
-   ![ 条件 1 行目 ](assets/customer-segment-condition-line1.png){width="600" zoomable="yes"}
+   ![&#x200B; 条件 1 行目 &#x200B;](assets/customer-segment-condition-line1.png){width="600" zoomable="yes"}
 
 1. ロサンゼルスの住民をターゲットにするもう 1 つの条件を作成します。
 
@@ -147,7 +147,7 @@ _&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 
    - 「**...**」をクリックし、「`United States > California`」を選択します。
 
-   ![ カリフォルニア州ロサンゼルスの女性の条件 ](assets/customer-segment-conditions-la-ladies.png){width="600" zoomable="yes"}
+   ![&#x200B; カリフォルニア州ロサンゼルスの女性の条件 &#x200B;](assets/customer-segment-conditions-la-ladies.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save and Continue Edit]**」をクリックします。
 
@@ -155,7 +155,7 @@ _&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 
 1. 左側のウィンドウで、[**[!UICONTROL Matched Customers]**] をクリックすると、条件に一致するすべての顧客が表示されます。
 
-   ![ マッチした顧客 ](assets/customer-segment-matched-customers.png){width="600" zoomable="yes"}
+   ![&#x200B; マッチした顧客 &#x200B;](assets/customer-segment-matched-customers.png){width="600" zoomable="yes"}
 
 1. 顧客のリストが目標を満たしている場合は、「**[!UICONTROL Save]**」をクリックして顧客セグメントを完了します。
 

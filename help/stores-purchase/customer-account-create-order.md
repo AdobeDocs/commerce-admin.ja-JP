@@ -14,7 +14,7 @@ ht-degree: 0%
 
 サポートが必要な登録ユーザーの場合は、管理者から直接注文全体を作成できます。 _[!UICONTROL Create New Order]_&#x200B;フォームには、通常のチェックアウトプロセスに必要なすべての情報と、顧客のアカウントダッシュボードからのアクティビティ概要が含まれます。
 
-![ 顧客の注文の作成 ](./assets/create-new-order.png){width="700" zoomable="yes"}
+![&#x200B; 顧客の注文の作成 &#x200B;](./assets/create-new-order.png){width="700" zoomable="yes"}
 
 ## 手順 1：オーダーの作成
 
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 1. ワークスペースヘッダーで、「**[!UICONTROL Create Order]**」をクリックします。
 
-   ![Workspace ヘッダー ](./assets/order-create-buttons.png){width="700" zoomable="yes"}
+   ![Workspace ヘッダー &#x200B;](./assets/order-create-buttons.png){width="700" zoomable="yes"}
 
-   [ 注文ワークスペース ](orders.md#orders-workspace) で **[!UICONTROL Create New Order]** をクリックして注文を作成することもできます。
+   [&#x200B; 注文ワークスペース &#x200B;](orders.md#orders-workspace) で **[!UICONTROL Create New Order]** をクリックして注文を作成することもできます。
 
 ## 手順 2：製品を追加
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 顧客のウィッシュリストから買い物かごに項目を転送したり、最近表示した項目、比較した項目または注文した項目を転送したりできます。
 
-1. 次のいずれかのセクションで ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. 次のいずれかのセクションで ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
    - **[!UICONTROL Wish List]**
    - **[!UICONTROL Last Ordered Items]**
@@ -52,17 +52,17 @@ ht-degree: 0%
 
    項目が注文フォームに表示されます。
 
-   ![ 買い物かごに追加 ](./assets/create-order-add-wishlist.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かごに追加 &#x200B;](./assets/create-order-add-wishlist.png){width="600" zoomable="yes"}
 
 ### カタログから製品を追加
 
 1. 「**[!UICONTROL Add Products]**」をクリックします。
 
-   ![ 製品を追加 ](./assets/account-add-wishlist-product.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品を追加 &#x200B;](./assets/account-add-wishlist-product.png){width="600" zoomable="yes"}
 
 1. グリッドで、買い物かごに追加する各製品のチェックボックスを選択し、購入する **[!UICONTROL Qty]** を入力します。
 
-   ![ 製品の選択 ](./assets/create-order-from-catalog.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品の選択 &#x200B;](./assets/create-order-from-catalog.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -78,7 +78,7 @@ ht-degree: 0%
 
    - 「**[!UICONTROL Add Selected Product(s) to Order]**」をクリックすると、買い物かごが更新されます。
 
-1. 製品が [ ギフトオプション ](../catalog/product-gift-options.md) に設定されている場合は、必要に応じてオプションを設定します。
+1. 製品が [&#x200B; ギフトオプション &#x200B;](../catalog/product-gift-options.md) に設定されている場合は、必要に応じてオプションを設定します。
 
 1. 必要に応じて品目の価格を上書きします。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
    - 買い物かごの合計を更新するには、「**[!UICONTROL Update Items and Quantities]**」をクリックします。
 
-   ![ カスタム価格 ](./assets/create-order-custom-price.png){width="600" zoomable="yes"}
+   ![&#x200B; カスタム価格 &#x200B;](./assets/create-order-custom-price.png){width="600" zoomable="yes"}
 
 1. 注文の際に必要に応じて、以下の節を完了してください。
 

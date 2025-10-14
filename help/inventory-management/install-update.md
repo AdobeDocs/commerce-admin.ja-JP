@@ -16,11 +16,11 @@ ht-degree: 0%
 
 [!DNL Inventory Management] モジュールは、単一および複数のソースのマーチャントに対して、販売チャネルの製品数量と在庫を管理するためのすべての在庫機能とオプションを提供します。 これらの機能は、Adobe CommerceおよびMagento Open Sourceの 2.4.x リリースで使用できます。
 
-これらの機能と拡張機能は、Magento Open Source コミュニティエンジニアリングプログラムを通じて [ 在庫プロジェクト ](https://github.com/magento/inventory) の一部として開発されました。
+これらの機能と拡張機能は、Magento Open Source コミュニティエンジニアリングプログラムを通じて [&#x200B; 在庫プロジェクト &#x200B;](https://github.com/magento/inventory) の一部として開発されました。
 
-[!DNL Inventory Management] は、Adobe CommerceおよびMagento Open Sourceの 2.3.x および 2.4.x リリースにインストールされ、すべての機能がデフォルトで有効になっています。 これらのインベントリ機能を有効にするために必要な追加手順はありません。 v2.1.x または 2.2.x からのアップグレードでは、追加の手順が必要になる場合があります。 [Inventory managementのアップグレード ](#upgrade-inventory-management) を参照してください。
+[!DNL Inventory Management] は、Adobe CommerceおよびMagento Open Sourceの 2.3.x および 2.4.x リリースにインストールされ、すべての機能がデフォルトで有効になっています。 これらのインベントリ機能を有効にするために必要な追加手順はありません。 v2.1.x または 2.2.x からのアップグレードでは、追加の手順が必要になる場合があります。 [Inventory managementのアップグレード &#x200B;](#upgrade-inventory-management) を参照してください。
 
-[ オンプレミスでのクイックスタートインストール ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=ja){target="_blank"} に従ったインストールをお勧めします。 すべての [!DNL Inventory Management] モジュールを受け取るためにメタパッケージと一緒にインストールします。
+[&#x200B; オンプレミスでのクイックスタートインストール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=ja){target="_blank"} に従ったインストールをお勧めします。 すべての [!DNL Inventory Management] モジュールを受け取るためにメタパッケージと一緒にインストールします。
 
 `composer.json` メタパッケージの次の行は [!DNL Inventory Management] をインストールします。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
         magento/inventory-composer-metapackage = 1.1.3
 ```
 
-メタパッケージのバージョンの一覧 [!DNL Inventory Management] ついては、[ リリースノート ](release-notes.md) を参照してください。
+メタパッケージのバージョンの一覧 [!DNL Inventory Management] ついては、[&#x200B; リリースノート &#x200B;](release-notes.md) を参照してください。
 
 [!DNL Inventory Management] インストールプロセスにより、すべてのモジュールが `<Magento_installation_directory>/app/etc/config.php` ファイルに追加されます。 `1` 値は、対応するモジュールが有効であることを示します。 次のモジュールのリストが追加されました。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 インストール、アップグレードまたは更新すると、管理者の _[!UICONTROL Manage Stock]_&#x200B;オプションがデフォルトで有効になります。 このオプションを使用すると、在庫の追跡と管理が可能になりますが、モジュールのステータスには影響しません。 モジュールを無効にするには、次の節を参照してください。
 
-設定について詳しくは、[Inventory managementの設定 ](configuration.md) を参照してください。
+設定について詳しくは、[Inventory managementの設定 &#x200B;](configuration.md) を参照してください。
 
 ## Inventory managementを無効にする
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 * 2.0.x、2.1.x、2.2.x、または 2.3.x から 2.4.x に移行するマーチャントのアップグレードプロセスを迅速化します。
 * カスタムまたはサードパーティの在庫および受注管理システム・モジュールを使用します。
 
-該当するモジュールを無効にする方法については、_インストール ガイド_ の [ モジュールの有効化または無効化 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=ja) ページを参照してください。
+該当するモジュールを無効にする方法については、_インストール ガイド_ の [&#x200B; モジュールの有効化または無効化 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=ja) ページを参照してください。
 
 完了すると、次で始まるモジュールと値のリストが `<Magento_installation_directory>/app/etc/config.php` 示されます。
 
@@ -227,7 +227,7 @@ Adobe CommerceまたはMagento Open Source 2.4.x への既存の 2.1.x、2.2.x �
    bin/magento cache:clean
    ```
 
-アップグレード後は、[reservation inconsistencies コマンド ](cli.md) を使用することをお勧めします。 アップグレードすると、すべての製品がデフォルトの在庫に追加されます。 保留中の受注がある場合、受注および受注の履行に対する販売可能数量および予約が正しく更新されます。
+アップグレード後は、[reservation inconsistencies コマンド &#x200B;](cli.md) を使用することをお勧めします。 アップグレードすると、すべての製品がデフォルトの在庫に追加されます。 保留中の受注がある場合、受注および受注の履行に対する販売可能数量および予約が正しく更新されます。
 
 ### 以前の [!DNL Inventory Management] バージョン
 
@@ -241,5 +241,5 @@ Adobe CommerceまたはMagento Open Source 2.4.x への既存の 2.1.x、2.2.x �
 
 Commerceのアップグレードについて詳しくは、次のガイドを参照してください。
 
-* [Commerce アップデートガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=ja){target="_blank"}
-* [ モジュールの有効化または無効化 ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=ja){target="_blank"}
+* [Commerce アップデートガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=ja){target="_blank"}
+* [&#x200B; モジュールの有効化または無効化 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=ja){target="_blank"}

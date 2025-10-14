@@ -17,7 +17,7 @@ ht-degree: 0%
 | 関数 | 説明 |
 | --- | --- |
 | パスワードをリセット | パスワードリセットメールが、顧客のメールアカウントに直接送信されます。 ストア管理者は、顧客のパスワードにアクセスできません。 |
-| サインインを強制 | 顧客アカウントに関連付けられている OAuth アクセストークンを失効させます。 これは、Web API[ 統合 ](../systems/integrations.md) の一部として OAuth トークンが割り当てられているカスタマーアカウントでのみ使用できます。 詳しくは、開発者ドキュメントの [OAuth ベースの認証 ](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) を参照してください。 <br/><br/> ストアフロントまたは管理者から作成された標準の顧客アカウントには、OAuth トークンがありません。 |
+| サインインを強制 | 顧客アカウントに関連付けられている OAuth アクセストークンを失効させます。 これは、Web API[&#x200B; 統合 &#x200B;](../systems/integrations.md) の一部として OAuth トークンが割り当てられているカスタマーアカウントでのみ使用できます。 詳しくは、開発者ドキュメントの [OAuth ベースの認証 &#x200B;](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) を参照してください。 <br/><br/> ストアフロントまたは管理者から作成された標準の顧客アカウントには、OAuth トークンがありません。 |
 
 {style="table-layout:auto"}
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. プロンプトが表示されたら、は自分のアカウントに関連付けられている **[!UICONTROL Email Address]** を入力し、**[!UICONTROL Reset My Password]** をクリックします。
 
-   ![ パスワードを忘れた場合 ](assets/forgot-password.png){width="600" zoomable="yes"}
+   ![&#x200B; パスワードを忘れた場合 &#x200B;](assets/forgot-password.png){width="600" zoomable="yes"}
 
    >[!INFO]
    >

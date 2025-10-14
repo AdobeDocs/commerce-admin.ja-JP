@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Country Options]
 
-これらの設定フィールドとオプションについて詳しくは、[ 国オプション ](../../getting-started/store-details.md#country-options) を参照してください。
+これらの設定フィールドとオプションについて詳しくは、[&#x200B; 国オプション &#x200B;](../../getting-started/store-details.md#country-options) を参照してください。
 
-![ 一般 > 国オプション ](./assets/general-country-options.png)<!-- zoom -->
+![&#x200B; 一般 > 国オプション &#x200B;](./assets/general-country-options.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Default Country] | ストア表示 | ストアが所在する国。 |
 | [!UICONTROL Allow Countries] | Web サイト | 注文を受け付ける国。 |
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 ## [!UICONTROL State Options]
 
-これらの設定フィールドとオプションについて詳しくは、[ 状態オプション ](../../getting-started/store-details.md#state-options) を参照してください。
+これらの設定フィールドとオプションについて詳しくは、[&#x200B; 状態オプション &#x200B;](../../getting-started/store-details.md#state-options) を参照してください。
 
-![ 一般/状態オプション ](./assets/general-state-options.png)<!-- zoom -->
+![&#x200B; 一般/状態オプション &#x200B;](./assets/general-state-options.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL State is required for] | グローバル | 住所に地域または都道府県を含める必要がある国（ビジネスを行う国）。 |
 | [!UICONTROL Allow to Choose State if It is Optional for Country] | グローバル | 国を指定する必要がない場合は、は「_地域/都道府県_ フィールドを顧客の郵送先住所に含めるかどうかを決定します。<br /> <br />**`Yes`**– 国によって要求されていない場合でも、顧客の住所に _地域/都道府県_ フィールドを含めます。<br />**`No`** – 国で必要ない場合、お客様の住所から「地域/都道府県」フィールドを省略します。 |
@@ -45,11 +45,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Locale Options]
 
-これらの設定フィールドとオプションについて詳しくは、[ ロケールオプション ](../../getting-started/store-details.md#locale-options) を参照してください。
+これらの設定フィールドとオプションについて詳しくは、[&#x200B; ロケールオプション &#x200B;](../../getting-started/store-details.md#locale-options) を参照してください。
 
-![ 一般/ロケールオプション ](./assets/general-locale-options.png)<!-- zoom -->
+![&#x200B; 一般/ロケールオプション &#x200B;](./assets/general-locale-options.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Timezone] | Web サイト | Web サイトが提供する主要市場のタイムゾーン。 通常、タイムゾーンはビジネスの物理的な場所で使用されているものと同じです。 |
 | [!UICONTROL Locale] | ストア表示 | ストアビューが提供する、市場で使用される言語、通貨、測定システム。 |
@@ -63,11 +63,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![ 一般 > Web サイトの制限 ](./assets/general-website-restrictions.png)<!-- zoom -->
+![&#x200B; 一般 > Web サイトの制限 &#x200B;](./assets/general-website-restrictions.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、『 [ マーチャンダイジングおよびプロモーションガイド _の ](../../merchandising-promotions/event-configure.md#access-restrictions) アクセス制限_ を参照してください。
+これらの設定の変更について詳しくは、『 [&#x200B; マーチャンダイジングおよびプロモーションガイド _の &#x200B;](../../merchandising-promotions/event-configure.md#access-restrictions) アクセス制限_ を参照してください。
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Access Restriction] | Web サイト | Web サイトが制限モードで動作しているかどうかを判断します。<br /> <br />**`Yes`**- Web サイトへのアクセスは、以下のフィールドに設定されている方法で制限されます。<br />**`No`** – 制限は無効で、次の設定は無効です。 |
 | [!UICONTROL Restriction Mode] | Web サイト | Web サイトに適用されるアクセス制限の種類を決定します。<br /> <br />**`Website Closed`**- ストアフロントへのすべてのアクセスが制限され、ストアフロント URL は一時的にランディングページにリダイレクトされます。 この設定は、サイトのメンテナンス時や起動前に役立ちます。<br />**`Private Sales: Login Only`** – 登録されたお客様のみがログインしてストアフロントにアクセスできます。 すべてのストアフロント URL は、指定したランディングページまたはログインフォームに一時的にリダイレクトされます。 ユーザーはこのモードでアカウントを作成できません。<br />**`Private Sales: Login and Register`**- ユーザーがストアフロントにアクセスするにはログインする必要があります。 すべてのストアフロント URL は、ユーザーがログインするまで、一時的にログインフォームにリダイレクトされます。 ユーザーは、サイトがこのモードの間にアカウントを登録できます。 |
@@ -80,11 +80,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Store Information]
 
-![ 一般/ストア情報 ](./assets/general-store-information.png)<!-- zoom -->
+![&#x200B; 一般/ストア情報 &#x200B;](./assets/general-store-information.png)<!-- zoom -->
 
-これらの設定の変更の詳細については、「[ はじめる前に _」の_ ストア情報 ](../../getting-started/store-details.md) を参照してください。
+これらの設定の変更の詳細については、「[&#x200B; はじめる前に _」の_ ストア情報 &#x200B;](../../getting-started/store-details.md) を参照してください。
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Store Name] | ストア表示 | ストア表示に関連付けられているストアの名前。 |
 | [!UICONTROL Store Phone Number] | ストア表示 | （ストア表示に関連付けられた）ストアのプライマリ電話番号がビジネス用に開かれています。 例：月～金、9～5、土 9～正午（PST） |
@@ -101,11 +101,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Single-Store Mode]
 
-![ 一般/シングルストアモード ](./assets/general-single-store-mode.png)<!-- zoom -->
+![&#x200B; 一般/シングルストアモード &#x200B;](./assets/general-single-store-mode.png)<!-- zoom -->
 
-これらの設定の変更方法の詳細については、「[ はじめる前に _の ](../../getting-started/websites-stores-views.md#single-store-mode) シングル ストア モード_ を参照してください。
+これらの設定の変更方法の詳細については、「[&#x200B; はじめる前に _の &#x200B;](../../getting-started/websites-stores-views.md#single-store-mode) シングル ストア モード_ を参照してください。
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | グローバル | シングルストアインストールで有効にすると、設定の範囲ボックスと関連するフィールドラベルが非表示になります。オプション : `Yes` / `No` <br/>**_注意：_**&#x200B;複数の表示を持つストアの場合、シングルストアモードは無視されます。<br/> 単一ストアモードを有効にすると、すべてのカタログおよび製品ストア固有のデータが、デフォルトのストア表示からすべてのストア表示範囲にコピーされます。 ストアに storereview が 1 つしかない場合にのみ、カタログおよび製品データがコピーされます。 ストアに、無効な storereview と有効な storereview が 1 つある場合、カタログと製品のデータはコピーされません。<br/> シングルストアモードを有効にすると、コンテンツ固有のデータに対する storreview 固有の設定が無視されます。 代わりに、グローバルレベルの範囲で定義された構成設定を使用して、管理 UI とストアフロントの間の一貫性を確保します。 |
 
@@ -113,10 +113,10 @@ ht-degree: 0%
 
 ## [!UICONTROL Data Services]
 
-![ 一般/データサービス ](./assets/general-data-services.png)<!-- zoom -->
+![&#x200B; 一般/データサービス &#x200B;](./assets/general-data-services.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Commerce Events Enabled] | グローバル | 医療関係のお客様が [ データサービス HIPAA](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/hipaa-readiness) 拡張機能をインストールしている場合、この設定はデフォルトでオフになっています。 その結果、ライブ検索および製品レコメンデーションで使用されるストアフロントイベントデータが取得されなくなりました。 これは、ストアフロントのイベントデータがクライアントサイドで生成されるからです。 [ ライブ検索 ](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview) および [Product Recommendations](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/guide-overview) サービスで使用するストアフロントイベントデータを引き続きキャプチャして送信するには、**Commerce イベント有効** を `Yes` に設定します。 |
+| [!UICONTROL Commerce Events Enabled] | グローバル | 医療関係のお客様が [&#x200B; データサービス HIPAA](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/hipaa-readiness) 拡張機能をインストールしている場合、この設定はデフォルトでオフになっています。 その結果、ライブ検索および製品レコメンデーションで使用されるストアフロントイベントデータが取得されなくなりました。 これは、ストアフロントのイベントデータがクライアントサイドで生成されるからです。 [&#x200B; ライブ検索 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview) および [Product Recommendations](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/guide-overview) サービスで使用するストアフロントイベントデータを引き続きキャプチャして送信するには、**Commerce イベント有効** を `Yes` に設定します。 |
 
 {style="table-layout:auto"}

@@ -29,7 +29,7 @@ CommerceのAdobe Experience Manager Assets統合を設定するには、管理�
 
 - Adobe Experience Managerは [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/overview) でプロビジョニングされます
 
-- 統合を設定するAdobe Commerce ユーザーには、AEM Assets プロジェクトがプロビジョニングされている [IMS 組織 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255) へのアクセス権が必要です。
+- 統合を設定するAdobe Commerce ユーザーには、AEM Assets プロジェクトがプロビジョニングされている [IMS 組織 &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255) へのアクセス権が必要です。
 
 ## 主なメリット
 
@@ -43,8 +43,8 @@ CommerceのAdobe Experience Manager Assets統合を設定するには、管理�
 
 CommerceとExperience Manager Assetsの統合を有効にするには、次の 3 つの手順を実行します。
 
-1. [AEM Assets パッケージをインストールします ](aem-assets-configure-aem.md)。
+1. [AEM Assets パッケージをインストールします &#x200B;](aem-assets-configure-aem.md)。
 
-1. [Adobe Commerce パッケージをインストールします ](aem-assets-configure-aem.md)。
+1. [Adobe Commerce パッケージをインストールします &#x200B;](aem-assets-configure-aem.md)。
 
-1. [ 統合アセットを設定します ](aem-assets-setup-synchronization.md)。
+1. [&#x200B; 統合アセットを設定します &#x200B;](aem-assets-setup-synchronization.md)。

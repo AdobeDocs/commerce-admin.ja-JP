@@ -15,23 +15,23 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce as a Cloud Serviceについては、Commerce ストアフロントドキュメントの [ メタデータガイドライン ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=ja) を参照してください
+>Adobe Commerce as a Cloud Serviceについては、Commerce ストアフロントドキュメントの [&#x200B; メタデータガイドライン &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=ja) を参照してください
 
 ストアには、検索エンジンによるサイトのインデックス作成方法を改善するために、キーワードが豊富なメタデータを入力できる場所が多数用意されています。 ストアを設定する際に、後で終了する目的で、予備のメタデータを入力する場合があります。 時間の経過と共に、メタデータを微調整して、顧客の購入パターンや好みをターゲットに設定できます。
 
-![ 製品設定 – 検索エンジンの最適化 ](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png){width="700" zoomable="yes"}
+![&#x200B; 製品設定 – 検索エンジンの最適化 &#x200B;](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png){width="700" zoomable="yes"}
 
 ## メタタイトル
 
 メタタイトルは、ブラウザーと検索結果のリストのタイトルバーとタブに表示されます。 メタタイトルは、ページに固有で、長さが 70 文字未満である必要があります。
 
-![ ストアフロントの例 – メタタイトル ](./assets/storefront-home-page-meta-title.png){width="600"}
+![&#x200B; ストアフロントの例 – メタタイトル &#x200B;](./assets/storefront-home-page-meta-title.png){width="600"}
 
 ## メタキーワード
 
 メタキーワードを無視する検索エンジンもあれば、メタキーワードを使用し続ける検索エンジンもあります。 現在のベストプラクティスは、価値の高いキーワードをメタタイトルおよびメタ説明に組み込むことです。
 
-![Web ブラウザー検索 – メタキーワード ](./assets/storefront-meta-description.png){width="500"}
+![Web ブラウザー検索 – メタキーワード &#x200B;](./assets/storefront-meta-description.png){width="500"}
 
 ## メタ説明
 
@@ -74,11 +74,11 @@ URL からカテゴリを省略するか、正規のメタタグを使用して�
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. ![ 拡張セレクター ](../assets/icon-display-expand.png) 「**検索エンジンの最適化**」セクションを展開します。
+1. ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) 「**検索エンジンの最適化**」セクションを展開します。
 
    フィールド値を変更するには、まず各フィールドの後にある **システム値を使用** チェックボックスをオフにする必要があります。
 
-   ![ カタログ設定 – 検索エンジンの最適化 ](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ設定 – 検索エンジンの最適化 &#x200B;](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. 検索エンジンで、完全なカテゴリパスを使用してカテゴリページのみのインデックスを作成する場合は、次の操作を行います。
 

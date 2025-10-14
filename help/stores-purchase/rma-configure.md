@@ -22,9 +22,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、その下の「**[!UICONTROL Sales]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL RMA Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL RMA Settings]**」セクションを展開します。
 
-   ![RMA 設定 ](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
+   ![RMA 設定 &#x200B;](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Enable RMA on Storefront]** を `Yes` に設定します。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
    - `Yes` – 返品された商品をストアアドレスに送信します。
    - `No` – 製品の返品用の代替所在地を入力します。
 
-   ![ 代替アドレスを使用した RMA 設定 ](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 代替アドレスを使用した RMA 設定 &#x200B;](../configuration-reference/sales/assets/sales-rma-settings.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save Config]**」をクリックします。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. 再来訪サービスに使用する通信事業者のセクション（例：**[!UICONTROL UPS]**）を展開します。
 
-   ![ 通信事業者の RMA サービスを有効にする ](./assets/rma-delivery-method.png){width="600" zoomable="yes"}
+   ![&#x200B; 通信事業者の RMA サービスを有効にする &#x200B;](./assets/rma-delivery-method.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Enabled for RMA]** を `Yes` に設定します。
 
@@ -66,12 +66,12 @@ ht-degree: 0%
 
 1. 製品を編集モードで開きます。
 
-1. 下にスクロールして、「**[!UICONTROL Autosettings]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. 下にスクロールして、「**[!UICONTROL Autosettings]**」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
 1. 必要に応じて、「**[!UICONTROL Use Config Setting]**」チェックボックスをオフにします。
 
 1. **[!UICONTROL Enable RMA]** 設定を `No` に切り替えます。
 
-   ![ 製品の RMA の無効化 ](./assets/product-advanced-autosettings-enable-rma.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品の RMA の無効化 &#x200B;](./assets/product-advanced-autosettings-enable-rma.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save]**」をクリックします。

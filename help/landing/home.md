@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# &#x200B;<!-- use banner as heading -->![ 管理ドキュメント ](./assets/banner-user-home.png) {#documentation}
+# &#x200B;<!-- use banner as heading -->![&#x200B; 管理ドキュメント &#x200B;](./assets/banner-user-home.png) {#documentation}
 
 次世代の世界最先端のデジタルコマースプラットフォームへようこそ。 Adobe Commerceは、オンラインストアの外観、コンテンツ、機能をこれまでになく柔軟に制御できるようにします。 管理者は、強力なマーケティング、検索エンジンの最適化、製品管理ツールを備えており、独自のビジネスニーズに合わせてカスタマイズされたサイトを作成できます。
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Adobe Commerceは、アジャイルな B2B および B2C コマースプラットフォームであり、オンラインおよび物理スペースをまたいで顧客中心のデジタルコマースエクスペリエンスを通じて、マーチャントおよびブランドの収益を促進できます。 オンプレミスからマネージドクラウドまで、SLA が保証された最も柔軟性の高いデプロイメントモデルを提供するため、中規模およびエンタープライズ組織にとって業界をリードする選択肢です。 Adobe Commerceを使用すると、API ファースト統合と完全にカスタマイズ可能な拡張機能を利用できるほか、マーケティングからマーチャンダイジング、フルフィルメントに至るまで、エンタープライズクラスの豊富なコマースエクスペリエンス機能を利用できます。 Adobe Commerceは、他のコマースプラットフォームとは異なり、柔軟性と拡張性を提供するために、オープンソースコードベースに基づいて構築されています。
 
-Adobe Commerceに含まれている高度な機能のリストについては、[ リリース情報 ](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=ja) の _Commerce機能_ を参照してください。
+Adobe Commerceに含まれている高度な機能のリストについては、[&#x200B; リリース情報 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=ja) の _Commerce機能_ を参照してください。
 
 ## Magento Open Source コードベース
 

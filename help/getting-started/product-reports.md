@@ -21,7 +21,7 @@ ht-degree: 0%
 
 _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Products]_/**[!UICONTROL Views]**&#x200B;に移動します。
 
-![ 製品表示レポート ](./assets/product-views.png){width="600"}
+![&#x200B; 製品表示レポート &#x200B;](./assets/product-views.png){width="600"}
 
 ## [!UICONTROL Bestsellers Report]
 
@@ -29,7 +29,7 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Products]
 
 _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Products]_/**[!UICONTROL Bestsellers]**&#x200B;に移動します。
 
-![ ベストセラーのレポート ](./assets/bestsellers.png){width="600"}
+![&#x200B; ベストセラーのレポート &#x200B;](./assets/bestsellers.png){width="600"}
 
 ## [!UICONTROL Low Stock Report]
 
@@ -37,7 +37,7 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Products]
 
 _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Products]_/**[!UICONTROL Low Stock]**&#x200B;に移動します。
 
-![ 低在庫報告書 ](./assets/low-stock.png){width="600"}
+![&#x200B; 低在庫報告書 &#x200B;](./assets/low-stock.png){width="600"}
 
 ## [!UICONTROL Ordered Products Report]
 
@@ -45,7 +45,7 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Products]
 
 _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Products]_/**[!UICONTROL Ordered]**&#x200B;に移動します。
 
-![ 注文商品レポート ](./assets/products-ordered.png){width="600"}
+![&#x200B; 注文商品レポート &#x200B;](./assets/products-ordered.png){width="600"}
 
 ## [!UICONTROL Downloads Report]
 
@@ -53,4 +53,4 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Products]
 
 _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Products]_/**[!UICONTROL Downloaded]**&#x200B;に移動します。
 
-![ ダウンロードレポート ](./assets/downloads.png){width="600"}
+![&#x200B; ダウンロードレポート &#x200B;](./assets/downloads.png){width="600"}

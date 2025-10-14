@@ -18,7 +18,7 @@ ht-degree: 0%
 
 永続的な買い物かごを使用すると、放棄された買い物かごの数を減らし、売上高を増やすことができます。 永続的な買い物かご **アカウントの機密情報が公開される** はありません）。
 
-サイトまたは特定のストア表示内での買い物かごの永続性の使用を管理するには、[ 永続的な買い物かごの設定 ](#configure-a-persistent-cart) を指定できます。 これらの設定がストアフロントの買い物客エクスペリエンスに与える影響について詳しくは、[ 永続的な買い物かごワークフロー ](#persistent-cart-workflow) を参照してください。
+サイトまたは特定のストア表示内での買い物かごの永続性の使用を管理するには、[&#x200B; 永続的な買い物かごの設定 &#x200B;](#configure-a-persistent-cart) を指定できます。 これらの設定がストアフロントの買い物客エクスペリエンスに与える影響について詳しくは、[&#x200B; 永続的な買い物かごワークフロー &#x200B;](#persistent-cart-workflow) を参照してください。
 
 >[!NOTE]
 >
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 ## 永続的な買い物かごワークフロー
 
-永続的な買い物かごが [ 有効 ](#configure-a-persistent-cart) になっている場合、ワークフローは次のものに依存します。
+永続的な買い物かごが [&#x200B; 有効 &#x200B;](#configure-a-persistent-cart) になっている場合、ワークフローは次のものに依存します。
 
-- _[!UICONTROL Enable Remember Me]_&#x200B;と_[!UICONTROL Clear Persistence on Log Out]_ の設定の値
+- _[!UICONTROL Enable Remember Me]_&#x200B;と&#x200B;_[!UICONTROL Clear Persistence on Log Out]_ の設定の値
 - 顧客による「_[!UICONTROL Remember Me]_」チェックボックスのオン/オフの決定
 - 永続的な Cookie がクリアされた場合
 
@@ -57,9 +57,9 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![ ログイン情報を記憶する ](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
-![ 自分を記憶する認証ポップアップ ](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
-![ チェックアウト時のログイン ](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
+![&#x200B; ログイン情報を記憶する &#x200B;](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
+![&#x200B; 自分を記憶する認証ポップアップ &#x200B;](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
+![&#x200B; チェックアウト時のログイン &#x200B;](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
 
 ### ログアウト時の動作の永続性のクリア
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 - **永続的な Cookie** - ログインしたセッションが終了した後も、永続的な永続的な Cookie が引き続き存在します。 この cookie により、顧客がログアウトした場合やセッションの有効期限が切れた場合でも、顧客の買い物かごのコンテンツに引き続きアクセスできるようになります。
 
-これらの設定が顧客ワークフローに与える影響について詳しくは、[ 永続的な買い物かごワークフロー ](#persistent-cart-workflow) を参照してください。
+これらの設定が顧客ワークフローに与える影響について詳しくは、[&#x200B; 永続的な買い物かごワークフロー &#x200B;](#persistent-cart-workflow) を参照してください。
 
 {{$include /help/_includes/persistent-cart-configuration.md}}
 

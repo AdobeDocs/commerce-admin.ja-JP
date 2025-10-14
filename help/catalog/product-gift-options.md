@@ -14,13 +14,13 @@ ht-degree: 0%
 
 _[!UICONTROL Gift Options]_&#x200B;のセクションでは、商品レベルのチェックアウト時にギフトメッセージとギフト包装オプションを設定できます。 デフォルトの設定をオーバーライドするには、「**[!UICONTROL Use Config Settings]**」チェックボックスの選択を解除します。
 
-![ ギフト オプション ](./assets/product-gift-options-ee.png){width="600" zoomable="yes"}
+![&#x200B; ギフト オプション &#x200B;](./assets/product-gift-options-ee.png){width="600" zoomable="yes"}
 
 ## 1 つの商品に対するギフトオプションの設定
 
 1. 製品を編集モードで開きます。
 
-1. 下にスクロールして、「_[!UICONTROL Gift Options]_」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、次の操作を行います。
+1. 下にスクロールして、「_[!UICONTROL Gift Options]_」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、次の操作を行います。
 
    - デフォルト設定を上書きするには、「**[!UICONTROL Use Config Settings]**」チェックボックスの選択を解除します。
 
@@ -42,7 +42,7 @@ _[!UICONTROL Gift Options]_&#x200B;のセクションでは、商品レベルの
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、その下の「**[!UICONTROL Sales]**」を選択します。
 
-1. ページの ![ 拡張セレクター ](../assets/icon-display-expand.png)**[!UICONTROL Gift Options]** を展開します。
+1. ページの ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png)**[!UICONTROL Gift Options]** を展開します。
 
 1. **[!UICONTROL Allow Gift Messages on Order Level]** の場合、`Yes` を選択すると、注文全体に対して単一のギフトメッセージが有効になります。
 
@@ -52,4 +52,4 @@ _[!UICONTROL Gift Options]_&#x200B;のセクションでは、商品レベルの
 
 この設定を使用すると、次の例に示すように、顧客はストアフロントから買い物かごページにギフトメッセージを追加できます。
 
-![ ギフト メッセージ ](./assets/gift-message.png){width="600" zoomable="yes"}
+![&#x200B; ギフト メッセージ &#x200B;](./assets/gift-message.png){width="600" zoomable="yes"}

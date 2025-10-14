@@ -30,7 +30,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/unassign-source.md}}
 
-![ 在庫を別のソースに転送 ](assets/inventory-bulk-transfer-source.gif)
+![&#x200B; 在庫を別のソースに転送 &#x200B;](assets/inventory-bulk-transfer-source.gif)
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. 製品からソースを削除するには、**[!UICONTROL Unassign from origin source after transfer]** のオプションのチェックボックスを選択します。
 
-   ![ 転送元と転送先を選択 ](assets/inventory-bulk-transfer-summary.png){width="600" zoomable="yes"}
+   ![&#x200B; 転送元と転送先を選択 &#x200B;](assets/inventory-bulk-transfer-summary.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Transfer Inventory]**」をクリックします。
 

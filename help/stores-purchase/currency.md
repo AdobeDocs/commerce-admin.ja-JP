@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 通貨
 
-Adobe Commerceは、200 カ国以上の通貨を受け入れる機能を提供します。 ストアが複数の通貨をサポートしている場合、通貨レートが _更新_ された後、ヘッダーに [ 通貨選択 ](currency-update.md) が表示されます。
+Adobe Commerceは、200 カ国以上の通貨を受け入れる機能を提供します。 ストアが複数の通貨をサポートしている場合、通貨レートが _更新_ された後、ヘッダーに [&#x200B; 通貨選択 &#x200B;](currency-update.md) が表示されます。
 
 >[!NOTE]
 >
@@ -20,4 +20,4 @@ Adobe Commerceは、200 カ国以上の通貨を受け入れる機能を提供�
 
 通貨記号は、製品価格および販売文書（注文や請求書など）に表示されます。 必要に応じて通貨記号をカスタマイズしたり、店舗やビューごとに個別に価格の表示を設定したりできます。
 
-![ ストアフロントの例 – 通貨選択 ](./assets/storefront-currency-chooser.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの例 – 通貨選択 &#x200B;](./assets/storefront-currency-chooser.png){width="700" zoomable="yes"}

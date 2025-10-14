@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 出荷
 
-_[!UICONTROL Shipments]_&#x200B;グリッドには、出荷用に準備されたすべての請求書の出荷記録が表示されます。 出荷レコードは、注文が [ 請求 ](invoices.md) 以降の場合に生成できます。
+_[!UICONTROL Shipments]_&#x200B;グリッドには、出荷用に準備されたすべての請求書の出荷記録が表示されます。 出荷レコードは、注文が [&#x200B; 請求 &#x200B;](invoices.md) 以降の場合に生成できます。
 
 Adobe CommerceとMagento Open Sourceでは、[Inventory management](../inventory-management/introduction.md) およびサードパーティの拡張機能から利用できるその他のオプションを使用して、部分的な注文と完全な注文の出荷をサポートしています。
 
-![ 出荷グリッド ](./assets/shipments.png){width="600" zoomable="yes"}
+![&#x200B; 出荷グリッド &#x200B;](./assets/shipments.png){width="600" zoomable="yes"}
 
 ## 列の説明
 
@@ -51,7 +51,7 @@ Adobe CommerceとMagento Open Sourceでは、[Inventory management](../inventory
 
 ## 出荷の作成
 
-以下の手順に従って、Adobe CommerceまたはMagento Open Sourceで商品を作成します。 Inventory managementを使用可能にしている場合は、[ 複数Source納入の作成 ](../inventory-management/shipments-create.md) を検討し、明細品目ごとに送付するソース（または事業所）と数量を選択できます。
+以下の手順に従って、Adobe CommerceまたはMagento Open Sourceで商品を作成します。 Inventory managementを使用可能にしている場合は、[&#x200B; 複数Source納入の作成 &#x200B;](../inventory-management/shipments-create.md) を検討し、明細品目ごとに送付するソース（または事業所）と数量を選択できます。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/**[!UICONTROL Orders]** に移動します。
 
@@ -112,7 +112,7 @@ Adobe CommerceとMagento Open Sourceでは、[Inventory management](../inventory
 
    出荷の場所を追跡するには、必要な出荷を編集モードで開き、「**[!UICONTROL Track this shipment]**」をクリックします。
 
-   ![ 配送情報および追跡情報 ](./assets/tracking-information.png){width="600" zoomable="yes"}
+   ![&#x200B; 配送情報および追跡情報 &#x200B;](./assets/tracking-information.png){width="600" zoomable="yes"}
 
 ### ボタン
 
@@ -138,7 +138,7 @@ Adobe CommerceとMagento Open Sourceでは、[Inventory management](../inventory
 
 1. 「**出荷コメント**」セクションを展開し、必要に応じて設定を変更します。
 
-   ![ 出荷コメントの構成 ](../configuration-reference/sales/assets/sales-emails-shipment-comments.png){width="600" zoomable="yes"}
+   ![&#x200B; 出荷コメントの構成 &#x200B;](../configuration-reference/sales/assets/sales-emails-shipment-comments.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Enabled]** オプションはデフォルトで `Yes` に設定されています。つまり、出荷コメントが入力されると、メールが顧客に送信されます。
 
@@ -183,7 +183,7 @@ Adobe CommerceとMagento Open Sourceでは、[Inventory management](../inventory
 | [!UICONTROL Carrier] | 選択した通信事業者の名前 |
 | [!UICONTROL Title] | 配送業者によってパッケージに割り当てられた説明的な名前。 |
 | [!UICONTROL Number] | パッケージに割り当てられるリンクされたトラッキング番号。 |
-| [!UICONTROL Action] | ![ ごみ箱アイコン ](../assets/icon-delete-trashcan-solid.png) – 出荷レコードからパッケージ情報を削除します。 |
+| [!UICONTROL Action] | ![&#x200B; ごみ箱アイコン &#x200B;](../assets/icon-delete-trashcan-solid.png) – 出荷レコードからパッケージ情報を削除します。 |
 | [!UICONTROL Add] | 別のパッケージを出荷に追加します。 |
 
 {style="table-layout:auto"}

@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # バンドル製品の読み込み
 
-バンドル製品には様々な商品が表示され、顧客は購入する商品を選択できます。 バンドルを構成するすべての項目は、カタログ内に [ シンプル製品 ](../catalog/product-create-simple.md) または [ 仮想製品 ](../catalog/product-create-virtual.md) として存在します。 通常、バンドル製品は管理者が作成および更新します。 ただし、データを読み込んでバンドル製品を作成したり、既存のバンドル製品を書き出してデータを編集し、カタログに読み込むこともできます。 Sprite Yoga Companion Kit は、次の例で使用されるサンプルデータのバンドル製品です。
+バンドル製品には様々な商品が表示され、顧客は購入する商品を選択できます。 バンドルを構成するすべての項目は、カタログ内に [&#x200B; シンプル製品 &#x200B;](../catalog/product-create-simple.md) または [&#x200B; 仮想製品 &#x200B;](../catalog/product-create-virtual.md) として存在します。 通常、バンドル製品は管理者が作成および更新します。 ただし、データを読み込んでバンドル製品を作成したり、既存のバンドル製品を書き出してデータを編集し、カタログに読み込むこともできます。 Sprite Yoga Companion Kit は、次の例で使用されるサンプルデータのバンドル製品です。
 
-![ バンドル製品 ](../catalog/assets/product-bundle.png){width="700" zoomable="yes"}
+![&#x200B; バンドル製品 &#x200B;](../catalog/assets/product-bundle.png){width="700" zoomable="yes"}
 
 ## バンドル項目の順序の変更
 
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 ### 方法 1：ドラッグ&amp;ドロップ
 
-管理者から [ バンドル ](../catalog/product-create-bundle.md) 製品を操作する際に、項目とセクションを任意の位置にドラッグ&amp;ドロップできます。
+管理者から [&#x200B; バンドル &#x200B;](../catalog/product-create-bundle.md) 製品を操作する際に、項目とセクションを任意の位置にドラッグ&amp;ドロップできます。
 
-![ バンドル項目 ](../catalog/assets/product-bundle-items-move.png){width="600" zoomable="yes"}
+![&#x200B; バンドル項目 &#x200B;](../catalog/assets/product-bundle-items-move.png){width="600" zoomable="yes"}
 
 ### 方法 2：製品データを編集する
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    `bundle_values` データでは、各要素はコンマで区切られ、各バンドル項目は次の項目から縦棒で区切られています。 （最後の項目が縦棒で終わらない。） 書き出されたバンドルデータは、次の例のようになります。
 
-   ![ バンドル値 ](./assets/product-bundle-values-export-data.png){width="600" zoomable="yes"}
+   ![&#x200B; バンドル値 &#x200B;](./assets/product-bundle-values-export-data.png){width="600" zoomable="yes"}
 
 1. 編集を簡単にするために、`bundle_values` のデータをコピーしてテキストエディターに貼り付け、各項目の後ろに改行を追加して、各項目が別々の行に表示されるようにすることができます。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    次の図では、ストアリスト内の項目の順序を変更するために、各ヨガストラップに `position=[number]` パラメーターを追加しています。
 
-   ![ 位置パラメータ ](./assets/product-bundle-values-position-parameter.png){width="500" zoomable="yes"}
+   ![&#x200B; 位置パラメータ &#x200B;](./assets/product-bundle-values-position-parameter.png){width="500" zoomable="yes"}
 
 1. データを編集した後、CSV ファイルを **[!UICONTROL Save]** きます。
 

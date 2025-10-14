@@ -23,7 +23,7 @@ Sales Channelは、在庫を販売するエンティティを表します。 デ
 
 次の図は、自転車店マーチャントのソースとSales Channelに関して在庫がどのように機能するかを示すのに役立ちます。
 
-![ 店舗の在庫の例を示す図 ](assets/diagram-stock.png){width="600" zoomable="yes"}
+![&#x200B; 店舗の在庫の例を示す図 &#x200B;](assets/diagram-stock.png){width="600" zoomable="yes"}
 
 ## マウンテンバイクの在庫とストアの例
 
@@ -35,9 +35,9 @@ Sales Channelは、在庫を販売するエンティティを表します。 デ
 
 マルチソースのマーチャントの場合、ストアと注文のフルフィルメントに最適な在庫を作成および設定します。 新しい在庫を販売チャネルに割り当てると、その販売チャネル内の既存の在庫が未割り当てになります。
 
-マルチストアインストールの場合、デフォルトの Stock は最初 [ メイン Web サイト ](../stores-purchase/stores.md#add-websites){target="_blank"} とデフォルトのストアに割り当てられます。 有効な製品と無効な製品の正しい在庫と数量が **[!UICONTROL Products]** のグリッドビューに表示されます。
+マルチストアインストールの場合、デフォルトの Stock は最初 [&#x200B; メイン Web サイト &#x200B;](../stores-purchase/stores.md#add-websites){target="_blank"} とデフォルトのストアに割り当てられます。 有効な製品と無効な製品の正しい在庫と数量が **[!UICONTROL Products]** のグリッドビューに表示されます。
 
-![ 在庫の管理 ](assets/inventory-stock.png){width="600" zoomable="yes"}
+![&#x200B; 在庫の管理 &#x200B;](assets/inventory-stock.png){width="600" zoomable="yes"}
 
 ## ボタンバー
 

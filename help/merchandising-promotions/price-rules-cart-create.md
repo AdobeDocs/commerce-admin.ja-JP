@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 買い物かご価格ルールの作成
 
-ルールの追加、条件の説明、アクションの定義を行うには、次の手順を実行します。 また、ラベルを完成させ、ルールをテストします。 価格ルールの条件は、買い物かごや [ 製品属性 ](../catalog/product-attributes.md)、[Real-Time CDP オーディエンス ](#use-real-time-cdp-audiences-to-set-a-condition) に基づくことはできますが、[ カスタマイズ可能なオプション ](../catalog/settings-advanced-custom-options.md) に基づくことはできません。
+ルールの追加、条件の説明、アクションの定義を行うには、次の手順を実行します。 また、ラベルを完成させ、ルールをテストします。 価格ルールの条件は、買い物かごや [&#x200B; 製品属性 &#x200B;](../catalog/product-attributes.md)、[Real-Time CDP オーディエンス &#x200B;](#use-real-time-cdp-audiences-to-set-a-condition) に基づくことはできますが、[&#x200B; カスタマイズ可能なオプション &#x200B;](../catalog/settings-advanced-custom-options.md) に基づくことはできません。
 
 ## 手順 1：ルールを追加
 
@@ -24,9 +24,9 @@ ht-degree: 0%
 
    - ルールをすぐに有効にしない場合は、**[!UICONTROL Active]** を `No` に設定します。
 
-   ![ 買い物かご価格ルール – ルール情報 ](./assets/price-rule-cart-new.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かご価格ルール – ルール情報 &#x200B;](./assets/price-rule-cart-new.png){width="600" zoomable="yes"}
 
-1. ルールの [ 範囲 ](../getting-started/websites-stores-views.md#scope-settings) を確立するには、次の手順を実行します。
+1. ルールの [&#x200B; 範囲 &#x200B;](../getting-started/websites-stores-views.md#scope-settings) を確立するには、次の手順を実行します。
 
    - プロモーションを使用できる **[!UICONTROL Websites]** を選択します。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
      登録した顧客のみがプロモーションを利用できるようにする場合は、**_使用しない_**、「`NOT LOGGED IN`」オプションを選択します。
 
-1. [ クーポン ](price-rules-cart-coupon.md) の有無に適用するルールを次のように設定します。
+1. [&#x200B; クーポン &#x200B;](price-rules-cart-coupon.md) の有無に適用するルールを次のように設定します。
 
    - クーポンコードを使用せずに買い物かごルールを適用するには、**[!UICONTROL Coupon]** を `No Coupon` に設定して、手順 5 にスキップします。
 
@@ -51,31 +51,31 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-     詳しくは、[ クーポンコード ](price-rules-cart-coupon.md) を参照してください。
+     詳しくは、[&#x200B; クーポンコード &#x200B;](price-rules-cart-coupon.md) を参照してください。
 
-     ![ 買い物かご価格ルール – クーポン設定 ](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
+     ![&#x200B; 買い物かご価格ルール – クーポン設定 &#x200B;](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
 
-   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） _カレンダー_ （![ カレンダーアイコン ](../assets/icon-calendar.png)）を使用して、プロモーションの **[!UICONTROL From]** と **[!UICONTROL To]** の日付範囲を選択します。
+   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） _カレンダー_ （![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）を使用して、プロモーションの **[!UICONTROL From]** と **[!UICONTROL To]** の日付範囲を選択します。
 
 1. 同時にアクティブな他の価格ルールのアクション設定に関連するこの価格ルールの **[!UICONTROL Priority]** を定義する数値を入力します。
 
-   同じ製品に複数の買い物かごルールまたはクーポンが適用される場合、優先度が最も高い（最も低い数値）ルールが最初に適用されます。 優先度が同じルールは結合されず、ルール ID に基づいて別々に適用されます。 割引が適用される順序を制御するには、一意の優先度を割り当て、「アクション」ステップの [ 後続の価格ルールを破棄 ](#step-3-define-the-actions) の使用を検討して、割引の積み重ねを防ぎます。
+   同じ製品に複数の買い物かごルールまたはクーポンが適用される場合、優先度が最も高い（最も低い数値）ルールが最初に適用されます。 優先度が同じルールは結合されず、ルール ID に基づいて別々に適用されます。 割引が適用される順序を制御するには、一意の優先度を割り当て、「アクション」ステップの [&#x200B; 後続の価格ルールを破棄 &#x200B;](#step-3-define-the-actions) の使用を検討して、割引の積み重ねを防ぎます。
 
-1. 公開された [RSS フィード ](social-rss.md#rss-feeds) にルールを適用するには、**RSS フィードで公開** を `Yes` に設定します。
+1. 公開された [RSS フィード &#x200B;](social-rss.md#rss-feeds) にルールを適用するには、**RSS フィードで公開** を `Yes` に設定します。
 
 1. 「**[!UICONTROL Save and Continue Edit]**」をクリックします。
 
    - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）ルールが保存されると、買い物かごの価格ルールの名前がページの上部に表示されます。
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）ルールが保存されると、買い物かごの価格ルールの名前と [ スケジュールされた変更 ](price-rule-cart-scheduled-changes.md) ボックスがページの上部に表示されます。
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）ルールが保存されると、買い物かごの価格ルールの名前と [&#x200B; スケジュールされた変更 &#x200B;](price-rule-cart-scheduled-changes.md) ボックスがページの上部に表示されます。
 
-     ![ 買い物かご価格ルール – 予定された変更 ](./assets/price-rule-cart-scheduled-changes.png){width="600" zoomable="yes"}
+     ![&#x200B; 買い物かご価格ルール – 予定された変更 &#x200B;](./assets/price-rule-cart-scheduled-changes.png){width="600" zoomable="yes"}
 
 ## 手順 2：条件の説明
 
 >[!NOTE]
 >
->Real-Time CDPのオーディエンスを使用している場合は、[ この節 ](#use-real-time-cdp-audiences-to-set-a-condition) にスキップしてください。
+>Real-Time CDPのオーディエンスを使用している場合は、[&#x200B; この節 &#x200B;](#use-real-time-cdp-audiences-to-set-a-condition) にスキップしてください。
 
 このステップでは、プロモーションの対象となる注文が満たされる必要がある条件を説明します。 条件は、次のような方法で買い物かごの価格ルールに影響を与えます。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Conditions]**」を選択します。
 
-   ![ 買い物かご価格ルール – 条件 ](./assets/conditions.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かご価格ルール – 条件 &#x200B;](./assets/conditions.png){width="600" zoomable="yes"}
 
    デフォルトでは、最初の条件が表示され、次の状態になります。
 
@@ -97,13 +97,13 @@ ht-degree: 0%
    - 「**[!UICONTROL TRUE]**」をクリックし、「`TRUE`」または「`FALSE`」を選択します。
    - すべての製品にルールを適用する場合は、条件を変更しません。
 
-1. 次の行の先頭にある「_追加_」（![ 追加アイコン ](../assets/icon-add-green-circle.png)）をクリックし、条件のオプション（買い物かご属性、製品の副選択、組み合わせなど）を選択します。
+1. 次の行の先頭にある「_追加_」（![&#x200B; 追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックし、条件のオプション（買い物かご属性、製品の副選択、組み合わせなど）を選択します。
 
    この例では、条件の次の部分を次のように完了します。
 
    - **[!UICONTROL Choose the condition to add]** を要求するプロンプトが表示されたら、`Products Subselection` を選択します。
 
-     ![ 買い物かご価格ルール条件 – 製品のサブ選択 ](./assets/price-rule-cart-condition-products-subselection.png){width="600" zoomable="yes"}
+     ![&#x200B; 買い物かご価格ルール条件 – 製品のサブ選択 &#x200B;](./assets/price-rule-cart-condition-products-subselection.png){width="600" zoomable="yes"}
 
    - 条件ステートメントで、「**[!UICONTROL total quantity]**」をクリックし、「`total quantity`」または「`total amount`」を選択します。
 
@@ -119,21 +119,21 @@ ht-degree: 0%
 
    この条件では、買い物かごの合計数量を `101` 以上にする必要があります。
 
-   ![ 買い物かご価格ルールの条件 – 合計数量の値 ](./assets/condition-products-subselection3.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かご価格ルールの条件 – 合計数量の値 &#x200B;](./assets/condition-products-subselection3.png){width="600" zoomable="yes"}
 
-1. 次の行の先頭にある **追加** （![ 追加アイコン ](../assets/icon-add-green-circle.png)）をクリックし、**カテゴリ** に基づく条件を追加します。
+1. 次の行の先頭にある **追加** （![&#x200B; 追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックし、**カテゴリ** に基づく条件を追加します。
 
-   ![ 買い物かご価格ルール条件 – 製品属性カテゴリ ](./assets/condition-products-subselection4.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かご価格ルール条件 – 製品属性カテゴリ &#x200B;](./assets/condition-products-subselection4.png){width="600" zoomable="yes"}
 
-1. 条件の次の部分で、_その他_ （**...**） リンクをクリックして入力フィールドを表示し、_選択_ （![ リストアイコン ](../assets/icon-list-chooser.png)）を開いてカテゴリツリーを表示します。
+1. 条件の次の部分で、_その他_ （**...**） リンクをクリックして入力フィールドを表示し、_選択_ （![&#x200B; リストアイコン &#x200B;](../assets/icon-list-chooser.png)）を開いてカテゴリツリーを表示します。
 
-1. 価格ルールの条件として使用するカテゴリのチェックボックスをオンにし、「![ アイコンを追加 ](../assets/icon-checkmark-green-circle.png)」アイコンをクリックして、カテゴリの選択を受け入れます。
+1. 価格ルールの条件として使用するカテゴリのチェックボックスをオンにし、「![&#x200B; アイコンを追加 &#x200B;](../assets/icon-checkmark-green-circle.png)」アイコンをクリックして、カテゴリの選択を受け入れます。
 
-   条件は、ストアの [ ルートカテゴリ ](../catalog/category-root.md) の子である任意のカテゴリに基づくことができます。
+   条件は、ストアの [&#x200B; ルートカテゴリ &#x200B;](../catalog/category-root.md) の子である任意のカテゴリに基づくことができます。
 
-   ![ 買い物かご価格ルール条件 – 製品カテゴリ ](./assets/subselection-category.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かご価格ルール条件 – 製品カテゴリ &#x200B;](./assets/subselection-category.png){width="600" zoomable="yes"}
 
-1. 条件を追加するには、「_追加_ （![ 追加アイコン ](../assets/icon-add-green-circle.png)）をクリックして、別の条件を定義します。
+1. 条件を追加するには、「_追加_ （![&#x200B; 追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックして、別の条件を定義します。
 
    このプロセスを必要な回数だけ繰り返して、価格ルールで満たす必要がある条件を記述できます。 次に例を示します。
 
@@ -174,7 +174,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Marketing]**/**[!UICONTROL Cart Price Rules]** に移動し、必要な買い物かご価格ルールを開きます。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Condition]**」セクションを展開し、「**[!UICONTROL Product attribute combination]**」を選択します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL Condition]**」セクションを展開し、「**[!UICONTROL Product attribute combination]**」を選択します。
 
 1. この条件を次のいずれかの値に設定します。
 
@@ -182,7 +182,7 @@ ht-degree: 0%
 
    - 「**[!UICONTROL ALL]**」をクリックし、「`ALL`」または「`ANY`」を選択します。
 
-1. _追加_ （![ 追加アイコン ](../assets/icon-add-green-circle.png)）アイコンをクリックし、プロモーションルールの条件に設定した **[!UICONTROL Product Attribute]** を選択します。
+1. _追加_ （![&#x200B; 追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）アイコンをクリックし、プロモーションルールの条件に設定した **[!UICONTROL Product Attribute]** を選択します。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -192,15 +192,15 @@ ht-degree: 0%
 
 ### Real-Time CDP オーディエンスを使用した条件の設定
 
-Real-Time CDP[ オーディエンス ](../customers/audience-activation.md) に基づいて、買い物かごの価格ルールの条件を設定できます。
+Real-Time CDP[&#x200B; オーディエンス &#x200B;](../customers/audience-activation.md) に基づいて、買い物かごの価格ルールの条件を設定できます。
 
 1. 「**[!UICONTROL Conditions]**」を展開し、「+」アイコンをクリックし、リストから「**[!UICONTROL Real-Time CDP Audience]**」を選択します。
 
-   ![Real-Time CDP オーディエンス条件の選択 ](./assets/rtcdp-conditions.png){width="300"}
+   ![Real-Time CDP オーディエンス条件の選択 &#x200B;](./assets/rtcdp-conditions.png){width="300"}
 
 1. _詳細_ （**...**）アイコンを選択して「**[!UICONTROL Open Chooser]**」をクリックし、使用可能なすべてのReal-Time CDP オーディエンスを表示します。
 
-   ![Real-Time CDP オーディエンスの表示 ](./assets/rtcdp-conditions-chooser.png){width="600" zoomable="yes"}
+   ![Real-Time CDP オーディエンスの表示 &#x200B;](./assets/rtcdp-conditions-chooser.png){width="600" zoomable="yes"}
 
 1. 買い物かごの価格ルールに使用するReal-Time CDP オーディエンスを選択します。
 
@@ -221,9 +221,9 @@ Real-Time CDP[ オーディエンス ](../customers/audience-activation.md) に�
 
 買い物かご価格ルールのアクションは、条件が満たされたときに価格がどのように更新されるかを説明します。
 
-1. **[!UICONTROL Actions]** までスクロールし、「」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. **[!UICONTROL Actions]** までスクロールし、「」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
-   ![ 買い物かご価格ルール – アクション ](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かご価格ルール – アクション &#x200B;](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Apply]** を次のいずれかの割引オプションに設定します。
 
@@ -244,7 +244,7 @@ Real-Time CDP[ オーディエンス ](../customers/audience-activation.md) に�
 
    - 「**[!UICONTROL Maximum Qty Discount is Applied To]**」フィールドに、同じ購入で割引の対象となる同じ製品の最大数量を入力します。
 
-   - **[!UICONTROL Apply to Shipping Amount]** （![ オプション切り替え ](../assets/toggle-yes.png)）を次のように設定します。
+   - **[!UICONTROL Apply to Shipping Amount]** （![&#x200B; オプション切り替え &#x200B;](../assets/toggle-yes.png)）を次のように設定します。
 
      | オプション | 説明 |
      |------|-----------|
@@ -253,7 +253,7 @@ Real-Time CDP[ オーディエンス ](../customers/audience-activation.md) に�
 
      {style="table-layout:auto"}
 
-   - このルールが適用された後に他のルールの処理を停止するには、**[!UICONTROL Discard Subsequent Rules]** （![ オプショントグル ](../assets/toggle-yes.png)）を `Yes` に設定します。 この設定により、同じ製品に複数の割引が適用されるのを防ぎます。
+   - このルールが適用された後に他のルールの処理を停止するには、**[!UICONTROL Discard Subsequent Rules]** （![&#x200B; オプショントグル &#x200B;](../assets/toggle-yes.png)）を `Yes` に設定します。 この設定により、同じ製品に複数の割引が適用されるのを防ぎます。
 
      | オプション | 説明 |
      |------|-----------|
@@ -274,7 +274,7 @@ Real-Time CDP[ オーディエンス ](../customers/audience-activation.md) に�
    |------|-----------|
    | `No` | 送料無料ではご利用いただけません。 |
    | `For matching items only` | 送料無料は、ルールの条件に一致する項目に対してのみ利用可能です。 |
-   | `For shipment with matching items` | 一致するアイテムを含むすべての出荷に対して送料無料が利用できます。 このオプションを使用するには、[ 送料無料 ](../stores-purchase/shipping-free.md) 配信方法を有効にする必要があります。 |
+   | `For shipment with matching items` | 一致するアイテムを含むすべての出荷に対して送料無料が利用できます。 このオプションを使用するには、[&#x200B; 送料無料 &#x200B;](../stores-purchase/shipping-free.md) 配信方法を有効にする必要があります。 |
 
    {style="table-layout:auto"}
 
@@ -288,33 +288,33 @@ Real-Time CDP[ オーディエンス ](../customers/audience-activation.md) に�
 
 ラベルは、注文の合計セクションに表示され、割引を識別します。 ラベル テキストは、`Discount` という単語の後に括弧で囲まれています。 すべてのストアビューにデフォルトのラベルを入力することも、ビューごとに異なるラベルを入力することもできます。
 
-![ ストアフロントの買い物かご – 割引ラベル ](./assets/order-totals-section-discount-special.png){width="600"}
+![&#x200B; ストアフロントの買い物かご – 割引ラベル &#x200B;](./assets/order-totals-section-discount-special.png){width="600"}
 
-1. **[!UICONTROL Labels]** までスクロールダウンし、「拡張セレクター ![ セクション ](../assets/icon-display-expand.png) を展開します。
+1. **[!UICONTROL Labels]** までスクロールダウンし、「拡張セレクター ![&#x200B; セクション &#x200B;](../assets/icon-display-expand.png) を展開します。
 
 1. **[!UICONTROL Default Rule Label for All Store Views]** として使用するテキストを入力します。
 
-   ![ 買い物かご価格ルール – デフォルトラベル ](./assets/label-default.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かご価格ルール – デフォルトラベル &#x200B;](./assets/label-default.png){width="600" zoomable="yes"}
 
 1. ストアに複数のビューがある場合、または複数のビューを持つ複数の web サイトがある場合は、それぞれに適切なラベルテキストを入力します。
 
    例えば、各店舗表示が異なる言語の場合は、各表示のラベルの翻訳を入力します。
 
-   ![ ストア固有のラベル ](./assets/label-store-specific.png){width="600" zoomable="yes"}
+   ![&#x200B; ストア固有のラベル &#x200B;](./assets/label-store-specific.png){width="600" zoomable="yes"}
 
 ## 手順 5：関連するダイナミックブロックの追加（オプション）
 
 {{ee-feature}}
 
-条件が満たされた場合は常に、ルールに関連付けられた [ 動的ブロック ](../content-design/dynamic-blocks.md) がストアフロントに表示されます。
+条件が満たされた場合は常に、ルールに関連付けられた [&#x200B; 動的ブロック &#x200B;](../content-design/dynamic-blocks.md) がストアフロントに表示されます。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Related Dynamic Blocks]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Related Dynamic Blocks]**」セクションを展開します。
 
-1. [ 検索フィルター ](../getting-started/admin-workspace.md) を使用して、ルールに関連付けるブロックを見つけます。
+1. [&#x200B; 検索フィルター &#x200B;](../getting-started/admin-workspace.md) を使用して、ルールに関連付けるブロックを見つけます。
 
 1. 最初の列のチェックボックスを選択して、ブロックをルールに関連付けます。
 
-   詳しくは、[ 価格ルールのダイナミックブロック ](../content-design/dynamic-blocks-price-rules.md) を参照してください。
+   詳しくは、[&#x200B; 価格ルールのダイナミックブロック &#x200B;](../content-design/dynamic-blocks-price-rules.md) を参照してください。
 
 ## 手順 6：ルールを保存してテストする
 
@@ -353,7 +353,7 @@ Real-Time CDP[ オーディエンス ](../customers/audience-activation.md) に�
 
 ### [!UICONTROL Conditions]
 
-買い物かごの価格ルールが実行される前に満たす必要がある条件を指定します。 空白にした場合、ルールは買い物かごに入っているすべての製品に適用されます。 条件は、買い物かごと製品属性の任意の組み合わせに基づくことができます。 ただし、買い物かごの価格ルール条件では [ カスタマイズ可能なオプション ](../catalog/settings-advanced-custom-options.md) を参照できません。
+買い物かごの価格ルールが実行される前に満たす必要がある条件を指定します。 空白にした場合、ルールは買い物かごに入っているすべての製品に適用されます。 条件は、買い物かごと製品属性の任意の組み合わせに基づくことができます。 ただし、買い物かごの価格ルール条件では [&#x200B; カスタマイズ可能なオプション &#x200B;](../catalog/settings-advanced-custom-options.md) を参照できません。
 
 | フィールド | 説明 |
 |--- |--- |
@@ -390,8 +390,8 @@ Real-Time CDP[ オーディエンス ](../customers/audience-activation.md) に�
 | [!UICONTROL Discount Qty Step (Buy X)] | `Buy X Get Y Free` しいプロモーションで `X` によって表される製品の数を設定します。 また、は、`Fixed amount discount` ールと `Percent of product price discount` のプロモーションを適用するために、一括で買い物かごに追加する必要がある製品の数を定義します。 |
 | [!UICONTROL Apply to Shipping Amount] | 小計と出荷金額に割引が個別に適用されるかどうかを決定します。 それ以外の場合は、小計にのみ適用されます。 オプション：`Yes` / `No` |
 | [!UICONTROL Discard Subsequent Rules] | この買い物かご価格ルールが一致する場合に、優先度の低いルール （1 が最も優先度が高い）を製品に適用できるかどうかを決定します。 このオプションを有効にすると、同じ製品に複数の割引が適用されなくなります。 オプション：`Yes` / `No` |
-| [!UICONTROL Free Shipping] | プロモーションに送料無料が含まれているかどうか、含まれている場合はどのアイテムに使用するかを決定します。 オプション：<br/>**[!UICONTROL No]**– 現在のルールでは送料無料は利用できません。<br/>**[!UICONTROL For matching items only]** – 送料無料は、ルールに一致するカート内の特定の項目に対してのみ使用できます。 <br/>**[!UICONTROL For shipment with matching items]**- カート内のすべての商品は送料無料です。 このオプションを使用するには、[ 送料無料 ](../stores-purchase/shipping-free.md) 配信方法を有効にする必要があります。 |
-| [!UICONTROL Add Reward Points] | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）価格ルールが適用されるたびに、お客様が獲得した [ 報酬ポイント ](rewards-loyalty.md) の数を指定します。 |
+| [!UICONTROL Free Shipping] | プロモーションに送料無料が含まれているかどうか、含まれている場合はどのアイテムに使用するかを決定します。 オプション：<br/>**[!UICONTROL No]**– 現在のルールでは送料無料は利用できません。<br/>**[!UICONTROL For matching items only]** – 送料無料は、ルールに一致するカート内の特定の項目に対してのみ使用できます。 <br/>**[!UICONTROL For shipment with matching items]**- カート内のすべての商品は送料無料です。 このオプションを使用するには、[&#x200B; 送料無料 &#x200B;](../stores-purchase/shipping-free.md) 配信方法を有効にする必要があります。 |
+| [!UICONTROL Add Reward Points] | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）価格ルールが適用されるたびに、お客様が獲得した [&#x200B; 報酬ポイント &#x200B;](rewards-loyalty.md) の数を指定します。 |
 
 {style="table-layout:auto"}
 
@@ -408,4 +408,4 @@ Real-Time CDP[ オーディエンス ](../customers/audience-activation.md) に�
 
 {{ee-feature}}
 
-ルールに関連付けられているすべての [ ダイナミック ブロック ](../content-design/dynamic-blocks.md) を識別します。
+ルールに関連付けられているすべての [&#x200B; ダイナミック ブロック &#x200B;](../content-design/dynamic-blocks.md) を識別します。

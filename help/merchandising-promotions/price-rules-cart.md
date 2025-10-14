@@ -18,13 +18,13 @@ ht-degree: 0%
 >
 >クーポン買い物かごルールに、特定の配送方法や支払い方法など、チェックアウトオプションを指定する条件がある場合、条件は、特定の配送方法または支払い方法が選択された後のチェックアウトでのみ満たされます。 この場合、クーポンは最後の手順のチェックアウト時に適用できます。
 
-![ ストアフロントの例 – カートにクーポンを適用 ](./assets/storefront-cart-apply-coupon.png){width="600" zoomable="yes"}
+![&#x200B; ストアフロントの例 – カートにクーポンを適用 &#x200B;](./assets/storefront-cart-apply-coupon.png){width="600" zoomable="yes"}
 
 ## 買い物かご価格ルールへのアクセス
 
 1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Cart Price Rules]**&#x200B;に移動します。
 
-   ![ 買い物かご価格ルール ](./assets/price-rule-cart.png){width="700" zoomable="yes"}
+   ![&#x200B; 買い物かご価格ルール &#x200B;](./assets/price-rule-cart.png){width="700" zoomable="yes"}
 
 1. ルールの数が多い場合は、各列の上部にあるフィルターオプションを使用してリストを効率化し、**[!UICONTROL Search]** をクリックしてフィルターを適用します。
 
@@ -56,4 +56,4 @@ ht-degree: 0%
 
 ## Real-Time CDP オーディエンスを使用した買い物かごの価格ルールの通知
 
-Real-Time CDP オーディエンスをAdobe Commerce インスタンスに [ アクティブ化 ](../customers/audience-activation.md) して、買い物かごの価格ルールを通知する方法を説明します。
+Real-Time CDP オーディエンスをAdobe Commerce インスタンスに [&#x200B; アクティブ化 &#x200B;](../customers/audience-activation.md) して、買い物かごの価格ルールを通知する方法を説明します。

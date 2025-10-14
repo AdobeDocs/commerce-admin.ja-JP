@@ -15,13 +15,13 @@ ht-degree: 0%
 
 新製品のリストは動的コンテンツの例であり、製品カタログから取得したライブデータで構成されています。 デフォルトでは、_新製品_ リストには、最近追加された製品の最初の 8 つが含まれています。 ただし、指定した日付範囲内の製品のみを含めるように設定することもできます。
 
-![ 新商品リストはストアフロントのホームページに掲載 ](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
+![&#x200B; 新商品リストはストアフロントのホームページに掲載 &#x200B;](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
 
 ## 手順 1：各製品を新規製品として設定
 
 ![Magento Open Source](../assets/open-source.svg) この手順はMagento Open Sourceにのみ適用されます。
 
-![Adobe Commerce](../assets/adobe-logo.svg)Adobe Commerce ストアの場合は、[ 更新のスケジュール ](content-staging-scheduled-update.md) を参照し、このページの手順 2 に進みます。
+![Adobe Commerce](../assets/adobe-logo.svg)Adobe Commerce ストアの場合は、[&#x200B; 更新のスケジュール &#x200B;](content-staging-scheduled-update.md) を参照し、このページの手順 2 に進みます。
 
 日付範囲 _[!UICONTROL Set Product as New]_、スケジュールされた更新でのみ設定できます。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Set Product as New]** しくは、製品を新製品として設定するかどうかをオプションで切り替えます。
 
-   ![ 製品の新規設定 ](./assets/product-set-as-new.png){width="400" zoomable="yes"}
+   ![&#x200B; 製品の新規設定 &#x200B;](./assets/product-set-as-new.png){width="400" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Continue]**」をクリックします。
 
-   ![ 新しい製品リストウィジェットの設定 ](./assets/widget-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 新しい製品リストウィジェットの設定 &#x200B;](./assets/widget-settings.png){width="600" zoomable="yes"}
 
 1. _[!UICONTROL Storefront Properties]_&#x200B;セクションで、次の操作を行います。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    - （オプション） **[!UICONTROL Sort Order]** の場合は、数字を入力して、この項目がページの同じ部分に他の項目と共に表示される順序を決定します。 （`0` = 1 番目、`1` = 2 番目、`3` = 3 番目など）。
 
-   ![ レイアウトの更新 ](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
+   ![&#x200B; レイアウトの更新 &#x200B;](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
 ## 手順 3：場所の選択
 
@@ -84,7 +84,7 @@ ht-degree: 0%
    - `New Product List Template`
    - `New Products Grid Template`
 
-     ![ レイアウトの更新 ](./assets/widget-layout-update-new-products-list.png){width="600" zoomable="yes"}
+     ![&#x200B; レイアウトの更新 &#x200B;](./assets/widget-layout-update-new-products-list.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save and Continue Edit]**」をクリックします。
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
    デフォルトでは、キャッシュは 86,400 秒（24 時間）に設定されています。
 
-   ![ ウィジェットオプション ](./assets/widget-options-new-product-list.png){width="600" zoomable="yes"}
+   ![&#x200B; ウィジェットオプション &#x200B;](./assets/widget-options-new-product-list.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 

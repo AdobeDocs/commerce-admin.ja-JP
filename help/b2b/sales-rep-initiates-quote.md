@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # 購買担当に対する見積の開始
 
-[ 営業機能の構成 ](configure-quotes.md) で見積が使用可能になっている場合、営業担当者は管理者から見積を作成することで、会社の購買担当とのネゴシエーション・プロセスを開始できます。
+[&#x200B; 営業機能の構成 &#x200B;](configure-quotes.md) で見積が使用可能になっている場合、営業担当者は管理者から見積を作成することで、会社の購買担当とのネゴシエーション・プロセスを開始できます。
 
 - ドラフトの引用符は売り手にのみ表示されます。
 - 見積の下書きは、販売担当者が品目、関連する割引、メモを追加して購入者に最初のオファーを作成するまで送信できません。
 - 販売者は、Quote または Customer Grid から見積を作成できます。
 
-営業担当が見積を購買担当に送付して、ネゴシエーション・プロセスを開始します。 [ 見積の交渉 ](quote-price-negotiation.md) を参照してください。
+営業担当が見積を購買担当に送付して、ネゴシエーション・プロセスを開始します。 [&#x200B; 見積の交渉 &#x200B;](quote-price-negotiation.md) を参照してください。
 
 ## 営業担当者の見積もりの作成エクスペリエンス
 
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->購入者の見積もりを作成する販売者のビデオデモについては、_CommerceのビデオとTutorials[ の ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=ja) 営業担当者が見積もりを開始_ を参照してください。
+>購入者の見積もりを作成する販売者のビデオデモについては、_CommerceのビデオとTutorials[&#x200B; の &#x200B;](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=ja) 営業担当者が見積もりを開始_ を参照してください。
 
 ### 見積もりグリッドからの見積もりの作成
 
-1. 営業担当者は、見積りを管理するために [ 営業操作権限 ](../systems/permissions.md) を持つ管理者として管理者にログインします。
+1. 営業担当者は、見積りを管理するために [&#x200B; 営業操作権限 &#x200B;](../systems/permissions.md) を持つ管理者として管理者にログインします。
 
 1. 管理者で、「**[!UICONTROL Sales]**」を選択して [!UICONTROL Quotes] グリッドに移動し、「**[!UICONTROL Quotes]**」を選択します。
 
@@ -39,15 +39,15 @@ ht-degree: 0%
 
    - 「引用符」グリッドから「**[!UICONTROL Create New Quote]**」を選択します。
 
-     ![ 販売者が管理者から購入者の見積りを開始する ](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
+     ![&#x200B; 販売者が管理者から購入者の見積りを開始する &#x200B;](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
 
    - [!UICONTROL Create New Quote] ページで、見積を作成する顧客（会社の購買担当）を選択します。
 
-     ![ 新しい見積もりのお客様を選択 ](./assets/quote-draft-from-admin-select-buyer.png){width="700" zoomable="yes"}
+     ![&#x200B; 新しい見積もりのお客様を選択 &#x200B;](./assets/quote-draft-from-admin-select-buyer.png){width="700" zoomable="yes"}
 
      新しい見積もりが `Draft` のステータスで表示されます。
 
-     ![ 販売者によって作成された新しい下書き見積 ](./assets/quote-create-by-seller.png){width="700" zoomable="yes"}
+     ![&#x200B; 販売者によって作成された新しい下書き見積 &#x200B;](./assets/quote-create-by-seller.png){width="700" zoomable="yes"}
 
    - 必要に応じて、見積書名を更新し、有効期限を変更します。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Add Product By SKU]**」を選択して、見積に品目を追加します。 SKU 番号と数量を入力し、「**[!UICONTROL Add Product]**」を選択します。
 
-   ![ 売主による買主の見積書への記入事項の追加 ](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
+   ![&#x200B; 売主による買主の見積書への記入事項の追加 &#x200B;](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
 
 1. 必要に応じて、品目の値引きを製品に適用します。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    - [!UICONTROL Discount Line item] フォームで、**[!UICONTROL Discount Type]** を選択します。
 
-     ![ 見積書への品目割引の適用 ](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
+     ![&#x200B; 見積書への品目割引の適用 &#x200B;](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
    - 「[!UICONTROL Discount]」フィールドに、値引タイプの値を入力します。 たとえば、パーセンテージ割引を選択した場合、10 と入力して、明細品目に 10% 割引を適用します。
 
@@ -79,13 +79,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >行項目の値引きの仕組みを示すビデオのデモについては、_CommerceのビデオとTutorials[ の「営業担当が見積依頼行項目に値引きを適用する ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=ja) を参照してください_。
+   >行項目の値引きの仕組みを示すビデオのデモについては、_CommerceのビデオとTutorials[&#x200B; の「営業担当が見積依頼行項目に値引きを適用する &#x200B;](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=ja) を参照してください_。
 
 1. 必要に応じて、見積レベルの値引きを適用します。
 
    - [[!UICONTROL Quote Totals - Negotiated Price]] セクションで、割引の種類を選択し、適用する値を入力します。
 
-     ![ 販売者が見積もりレベルの割引を追加 ](./assets/quote-draft-total-discount.png){width="700" zoomable="yes"}
+     ![&#x200B; 販売者が見積もりレベルの割引を追加 &#x200B;](./assets/quote-draft-total-discount.png){width="700" zoomable="yes"}
 
    商品グリッドが更新され、割引が表示されます。
 
@@ -93,9 +93,9 @@ ht-degree: 0%
 
    「**[!UICONTROL Negotiation - Comments]**」タブで、メモを追加し、バイヤーに必要なサポート・ファイルを添付します。
 
-   ![ 売主が買主に対し情報を追加 ](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
+   ![&#x200B; 売主が買主に対し情報を追加 &#x200B;](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
-   デフォルトでは、[ 添付ファイル ](configure-quotes.md) は最大 2 MB で、次のファイル形式のいずれかで使用できます：DOC、DOCX、XLS、XLSX、PDF、TXT、JPGまたはJPEG、PNG。
+   デフォルトでは、[&#x200B; 添付ファイル &#x200B;](configure-quotes.md) は最大 2 MB で、次のファイル形式のいずれかで使用できます：DOC、DOCX、XLS、XLSX、PDF、TXT、JPGまたはJPEG、PNG。
 
 1. ネゴシエーション中に配送先住所を追加します。
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 1. 会社バイヤーの顧客 ID を選択します。
 
-   ![ 購買担当に提出された見積草案の確認 ](./assets/quote-view-customer-quotes.png){width="700" zoomable="yes"}
+   ![&#x200B; 購買担当に提出された見積草案の確認 &#x200B;](./assets/quote-view-customer-quotes.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL Edit]**」を選択すると、顧客情報が表示されます。
 
@@ -127,8 +127,8 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Quotes]**」を選択して、顧客の既存の見積を表示します。
 
-   ![ 購買担当に提出された見積草案の確認 ](./assets/quote-list-from-customer-information.png){width="700" zoomable="yes"}
+   ![&#x200B; 購買担当に提出された見積草案の確認 &#x200B;](./assets/quote-list-from-customer-information.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL View]** を選択して見積を開きます。
 
-見積ネゴシエーション・プロセスの管理の詳細は、「[ 見積の交渉 ](quote-price-negotiation.md)」を参照してください。
+見積ネゴシエーション・プロセスの管理の詳細は、「[&#x200B; 見積の交渉 &#x200B;](quote-price-negotiation.md)」を参照してください。

@@ -21,7 +21,7 @@ Adobe Commerce向けの HIPAA 対応製品への移行と、トラブルシュ�
 HIPAA 非対応のCommerce製品から HIPAA 対応の製品に移行する場合は、次のガイドラインに従う必要があります。
 
 1. **既存のデータセットを削除**:Adobe Commerce SaaS レイヤーで機密データと非機密データが混在しないように、移行前に既存のデータセットをすべて削除する必要があります。 サポートチケットを作成して、データセットを削除します。
-1. **新しい環境の設定**：新しい HIPAA Commerce インスタンスでの [Commerce サービスコネクタ ](https://experienceleague.adobe.com/ja/docs/commerce/user-guides/integration-services/saas) の設定は、データセットが削除された後にのみ設定する必要があります。 新しい HIPAA SaaS 環境は、古いデータセットが削除された後にのみ使用する必要があります。 Commerce サービスコネクタの設定により、新しい SaaS データセットの作成が自動的にトリガーされます。
+1. **新しい環境の設定**：新しい HIPAA Commerce インスタンスでの [Commerce サービスコネクタ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/user-guides/integration-services/saas) の設定は、データセットが削除された後にのみ設定する必要があります。 新しい HIPAA SaaS 環境は、古いデータセットが削除された後にのみ使用する必要があります。 Commerce サービスコネクタの設定により、新しい SaaS データセットの作成が自動的にトリガーされます。
 1. **移行戦略**:SaaS データセットの削除は元に戻せないプロセスであり、カタログデータと関連する設定がすべて削除されます。 古いデータや設定を引き継ぐ場合は、移行戦略を導入する必要があります。 この戦略は、商人の責任である。 既存のデータセットを削除するためのサポートチケットは、移行データのバックアップ（該当する場合）が完了した後でのみ作成してください。
 
 >[!NOTE]
@@ -40,10 +40,10 @@ Adobe Commerce HIPAA 対応のサービスには、Adobe Commerce サポート�
 
 ## Commerce サービス
 
-- **HIPAA 非対応のCommerce サービス** - Adobe Commerce サービスは HIPAA に対応していないので、ライブサーチ、商品レコメンデーション、支払いサービス、セールスチャネル、Commerce Intelligenceなどの HIPAA サービスを使用しないでください。 [HIPAA 対応サービス ](overview.md) のみを使用する必要があります。
+- **HIPAA 非対応のCommerce サービス** - Adobe Commerce サービスは HIPAA に対応していないので、ライブサーチ、商品レコメンデーション、支払いサービス、セールスチャネル、Commerce Intelligenceなどの HIPAA サービスを使用しないでください。 [HIPAA 対応サービス &#x200B;](overview.md) のみを使用する必要があります。
 
-- **データ接続** - [ データ接続 ](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/overview) 拡張機能内のバックオフィスコレクターのみが HIPAA に対応しています。 HIPAA に対応していないデータ接続サービス（ストアフロントイベントやAudience Activationなど）に PHI を送信しないでください。 ストアフロントのデータ収集が無効になっていることを確認する必要があります。
+- **データ接続** - [&#x200B; データ接続 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/overview) 拡張機能内のバックオフィスコレクターのみが HIPAA に対応しています。 HIPAA に対応していないデータ接続サービス（ストアフロントイベントやAudience Activationなど）に PHI を送信しないでください。 ストアフロントのデータ収集が無効になっていることを確認する必要があります。
 
-- **カタログサービス** – 設計上、[ カタログサービス ](https://experienceleague.adobe.com/ja/docs/commerce/catalog-service/overview) は PHI を処理しないので、HIPAA 対応監査およびコンプライアンスの範囲外です。 お客様は、ご自身のユースケースの評価に基づき、弁護士と相談の上、本サービスを確実に利用する責任を負います。 また、HIPAA に対応していないサービスに PHI が渡されるリスクを回避するため、連合サービスを通じてカタログサービスを使用しないでください。
+- **カタログサービス** – 設計上、[&#x200B; カタログサービス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/catalog-service/overview) は PHI を処理しないので、HIPAA 対応監査およびコンプライアンスの範囲外です。 お客様は、ご自身のユースケースの評価に基づき、弁護士と相談の上、本サービスを確実に利用する責任を負います。 また、HIPAA に対応していないサービスに PHI が渡されるリスクを回避するため、連合サービスを通じてカタログサービスを使用しないでください。
 
 - **SaaS Data Export**:[SaaS Data Export](https://experienceleague.adobe.com/ja/docs/commerce/saas-data-export/overview) サービスは、Adobe Commerceの HIPAA 対応コンポーネントのデータのみを送信するように設定する必要があります。

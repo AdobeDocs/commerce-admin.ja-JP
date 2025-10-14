@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ストア表示は、通常、様々なロケールでストアを使用できるようにするために使用されます。 買い物客は、ストアのヘッダーにある言語選択を使用して、ストア表示を変更できます。
 
-![ 範囲 – 複数のストア表示 ](./assets/scope-multiview.svg){width="550"}
+![&#x200B; 範囲 – 複数のストア表示 &#x200B;](./assets/scope-multiview.svg){width="550"}
 
 ## ストア表示の追加
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL All Stores]**&#x200B;に移動します。
 
-   ![ すべてのストア ](./assets/stores-all.png){width="700" zoomable="yes"}
+   ![&#x200B; すべてのストア &#x200B;](./assets/stores-all.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL Create Store View]**」をクリックします。
 
-   ![ ストア表示を作成 ](./assets/create-store-view.png){width="600" zoomable="yes"}
+   ![&#x200B; ストア表示を作成 &#x200B;](./assets/create-store-view.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Store]** をこのビューの親ストアに設定します。
 
@@ -61,7 +61,7 @@ Adobe CommerceまたはMagento Open Sourceのインストールでマルチサ�
 
    デフォルトのビューを編集する場合、「_[!UICONTROL Store]_」フィールドと「_[!UICONTROL Status]_」フィールドは使用できません。
 
-   ![ ストア表示 – デフォルト表示の編集 ](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
+   ![&#x200B; ストア表示 – デフォルト表示の編集 &#x200B;](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、次のフィールドを更新します。
 

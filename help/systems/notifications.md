@@ -26,7 +26,7 @@ _通知_ ページには、重要度でランク付けされたすべてのメ�
 
    - 受信トレイにメッセージを保持するには、[**[!UICONTROL Mark As Read]**] をクリックします。
 
-     ![ 管理者 – 通知 ](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
+     ![&#x200B; 管理者 – 通知 &#x200B;](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
 
    - メッセージを削除するには、「削 **[!UICONTROL Remove]**」をクリックします。
 

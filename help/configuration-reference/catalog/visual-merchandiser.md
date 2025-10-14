@@ -18,11 +18,11 @@ ht-degree: 1%
 
 ## [!UICONTROL General Options]
 
-![ 一般オプション ](./assets/catalog-visual-merchandiser-general-options.png)<!-- zoom -->
+![&#x200B; 一般オプション &#x200B;](./assets/catalog-visual-merchandiser-general-options.png)<!-- zoom -->
 
 <!-- [General Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/merchandising/visual-merch/smart-attributes-configure) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Visible Attributes for Category Rules] | グローバル | カテゴリルールで使用できる追加の属性を識別します。 複数選択（Ctrl または Command キー）を使用して、使用可能にする属性をすべて選択します。 |
 | [!UICONTROL Minimum Stock Threshold] | グローバル | 商品を在庫レベルで並べ替えるための最小在庫しきい値を決定します。 デフォルト値：`1` |

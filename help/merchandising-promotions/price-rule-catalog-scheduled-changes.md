@@ -24,13 +24,13 @@ ht-degree: 0%
 >
 >スケジュールされたすべての更新は、連続して適用されます。 つまり、どのエンティティも、1 つの時点でスケジュールされた更新を 1 つのみ持つことができます。 スケジュールされた更新は、その期間内のすべてのストアビューに適用されます。 その結果、1 つのエンティティに対して、異なるストア表示の異なるスケジュールされた更新を同時に行うことはできません。 現在スケジュールされている更新の影響を受けないすべてのストアビュー内のすべてのエンティティ属性値は、前回スケジュールされた更新ではなく、デフォルト値から取得されます。
 
-同じキャンペーンで複数の価格ルールが実行されている場合は、価格ルールの「優先度」設定によって、優先されるルールが決まります。 詳しくは、[ コンテンツのステージング ](../content-design/content-staging.md) を参照してください。
+同じキャンペーンで複数の価格ルールが実行されている場合は、価格ルールの「優先度」設定によって、優先されるルールが決まります。 詳しくは、[&#x200B; コンテンツのステージング &#x200B;](../content-design/content-staging.md) を参照してください。
 
 >[!IMPORTANT]
 >
 >アクティブなキャンペーンが最初に終了日なしで作成された場合、後でキャンペーンを編集して終了日を含めることはできません。 この場合、重複するキャンペーンを作成し、必要な終了日を入力する必要があります。
 
-![ カタログ価格ルール – 予定された変更 ](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
+![&#x200B; カタログ価格ルール – 予定された変更 &#x200B;](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
 
 ## カタログ価格ルールの更新をスケジュール
 
@@ -46,9 +46,9 @@ ht-degree: 0%
 
    - 適用方法や理由など、更新の簡単な **[!UICONTROL Description]** を入力します。
 
-   - _カレンダー_ （![ カレンダーアイコン ](../assets/icon-calendar.png)）を使用して、スケジュールされた変更を有効にする **[!DNL Start Date]** と **[!UICONTROL End Date]** を選択します。 無期限の変更を作成するには、終了日を空白のままにします。
+   - _カレンダー_ （![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）を使用して、スケジュールされた変更を有効にする **[!DNL Start Date]** と **[!UICONTROL End Date]** を選択します。 無期限の変更を作成するには、終了日を空白のままにします。
 
-   ![ カタログ価格ルール – 新しくスケジュールされた変更 ](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ価格ルール – 新しくスケジュールされた変更 &#x200B;](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Rule Information]** セクションまでスクロールし、必要に応じてルールを変更します。
 
-   ルールの web サイト（範囲）/顧客グループ、ルールの条件、ルールで適用されるアクションなど、任意のルールパラメーターの変更をスケジュールできます。 詳細は、「[ カタログ価格ルールの作成 ](price-rules-catalog-create.md)」を参照してください。
+   ルールの web サイト（範囲）/顧客グループ、ルールの条件、ルールで適用されるアクションなど、任意のルールパラメーターの変更をスケジュールできます。 詳細は、「[&#x200B; カタログ価格ルールの作成 &#x200B;](price-rules-catalog-create.md)」を参照してください。
 
    >[!NOTE]
    >
@@ -74,7 +74,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >キャンペーンが複数のカタログ価格ルールにリンクされている場合、キャンペーンは、「コンテンツのステージングダッシュボード [ からのみ編集でき ](../content-design/content-staging-dashboard.md) す。
+   >キャンペーンが複数のカタログ価格ルールにリンクされている場合、キャンペーンは、「コンテンツのステージングダッシュボード [&#x200B; からのみ編集でき &#x200B;](../content-design/content-staging-dashboard.md) す。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -84,15 +84,15 @@ ht-degree: 0%
 
    プレビューをクリックすると、新しいブラウザータブが開き、適用されたスケジュール済みの変更がストアフロントに読み込まれます。 変更の影響を受ける製品に移動します。
 
-   ![ スケジュールされた変更のプレビュー ](./assets/price-rule-catalog-scheduled-update-preview.png){width="600" zoomable="yes"}
+   ![&#x200B; スケジュールされた変更のプレビュー &#x200B;](./assets/price-rule-catalog-scheduled-update-preview.png){width="600" zoomable="yes"}
 
 1. プレビューウィンドウの左上隅にある [**[!UICONTROL Calendar]**] をクリックします。
 
    カレンダーの詳細には、同じ日にスケジュールされた他のキャンペーンが表示されます。 リスト内の各レコードは、個別のルールの更新です。
 
-   ![ 特定の日付にスケジュールされた更新のリスト ](./assets/price-rule-catalog-scheduled-preview-calendar.png){width="600" zoomable="yes"}
+   ![&#x200B; 特定の日付にスケジュールされた更新のリスト &#x200B;](./assets/price-rule-catalog-scheduled-preview-calendar.png){width="600" zoomable="yes"}
 
-1. 別の日時をプレビューするには、**[!UICONTROL Date & Time]** のカレンダー ![ カレンダーアイコン ](../assets/icon-calendar.png) をクリックし、次の手順を実行します。
+1. 別の日時をプレビューするには、**[!UICONTROL Date & Time]** のカレンダー ![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png) をクリックし、次の手順を実行します。
 
    - 別の日付や時刻を選択してください。
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >共有プレビューを表示するには、管理者ユーザーアカウントが必要です。 [ 役割にアクセス ](../systems/permissions-user-roles.md) できる場合、管理者ユーザーアカウントを作成するには、共有する前に新しいユーザーのアカウントを作成する必要があります。
+   >共有プレビューを表示するには、管理者ユーザーアカウントが必要です。 [&#x200B; 役割にアクセス &#x200B;](../systems/permissions-user-roles.md) できる場合、管理者ユーザーアカウントを作成するには、共有する前に新しいユーザーのアカウントを作成する必要があります。
 
    **プレビューの範囲の変更**
 

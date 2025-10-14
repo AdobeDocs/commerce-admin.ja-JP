@@ -18,9 +18,9 @@ ht-degree: 4%
 
 ## [!UICONTROL Invoice]
 
-![ 請求書 ](./assets/pdf-print-invoice.png)<!-- zoom -->
+![&#x200B; 請求書 &#x200B;](./assets/pdf-print-invoice.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | ストア表示 | 参照用に請求書のヘッダーに注文 ID を含めます。 オプション：`Yes` / `No` |
 
@@ -28,9 +28,9 @@ ht-degree: 4%
 
 ## [!UICONTROL Shipment]
 
-![ 運搬 ](./assets/pdf-print-shipment.png)<!-- zoom -->
+![&#x200B; 運搬 &#x200B;](./assets/pdf-print-shipment.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | ストア表示 | 参照のために、出荷梱包明細のヘッダーに注文 ID を含めます。 オプション：`Yes` / `No` |
 
@@ -38,9 +38,9 @@ ht-degree: 4%
 
 ## [!UICONTROL Credit Memo]
 
-![ クレジットメモ ](./assets/pdf-print-credit-memo.png)<!-- zoom -->
+![&#x200B; クレジットメモ &#x200B;](./assets/pdf-print-credit-memo.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | ストア表示 | 参照用に、クレジットメモのヘッダーに注文 ID を含めます。 オプション：`Yes` / `No` |
 

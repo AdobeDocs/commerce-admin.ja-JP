@@ -21,7 +21,7 @@ Adobe CommerceまたはMagento Open Source インストール内の各 web サ�
 
 >[!IMPORTANT]
 >
->デフォルトのベース URL 設定から管理者 URL を変更しないでください。 管理 URL またはパスを変更するには、[ カスタム管理 URL の使用 ](#use-a-custom-admin-url) を参照してください。
+>デフォルトのベース URL 設定から管理者 URL を変更しないでください。 管理 URL またはパスを変更するには、[&#x200B; カスタム管理 URL の使用 &#x200B;](#use-a-custom-admin-url) を参照してください。
 
 ## セキュアなプロトコルを使用
 
@@ -41,7 +41,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトですべてのペー�
 
 1. 左パネルの _一般_ の下で、「**[!UICONTROL Web]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Base URL]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Base URL]**」セクションを展開します。
 
    - 「**[!UICONTROL Base URL]**」 – ストアの完全修飾ベース URL を入力します。 ストアから追加の URL キーで拡張できるように、URL の末尾には必ずスラッシュを付けてください。 例：`http://yourdomain.com/`
 
@@ -59,7 +59,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトですべてのペー�
 
      通常のインストールでは、静的ビューファイルやメディアファイルのパスはベース URL に対する相対パスなので、更新する必要はありません。
 
-   ![ 一般設定 – web ベース URL](../configuration-reference/general/assets/web-base-urls.png){width="600" zoomable="yes"}
+   ![&#x200B; 一般設定 – web ベース URL](../configuration-reference/general/assets/web-base-urls.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -71,9 +71,9 @@ Adobe CommerceとMagento Open Sourceは、デフォルトですべてのペー�
 
 ドメインに有効なセキュリティ証明書がある場合、ストアフロントと管理者の両方の URL を設定して、安全な（https）チャネルでデータを送信できます。 有効なセキュリティ証明書がないと、ストアはセキュアな（SSL/TLS）プロトコルで動作できません。
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png)_[!UICONTROL Base URLs (Secure]）_ セクションを展開し、次の操作を行います。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)_[!UICONTROL Base URLs (Secure]）_ セクションを展開し、次の操作を行います。
 
-   ![ 一般設定 – セキュアなベース URL](../configuration-reference/general/assets/web-base-urls-secure.png){width="600" zoomable="yes"}
+   ![&#x200B; 一般設定 – セキュアなベース URL](../configuration-reference/general/assets/web-base-urls-secure.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Secure Base URL]**：完全なセキュア・ベース URL を入力し、その後にスラッシュを入力します。 例：`https://yourdomain.com/`
 
@@ -114,20 +114,20 @@ Adobe CommerceとMagento Open Sourceは、デフォルトですべてのペー�
 
 1. 左パネルの「_[!UICONTROL General]_」で、「**[!UICONTROL Web]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL URL Options]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL URL Options]**」セクションを展開します。
 
 1. **[!UICONTROL Add Store Code]** を環境設定に合わせて設定します。
 
    - **[!UICONTROL URL with Store Code]**: `http://www.yourdomain.com/magento/[store-code]/index.php/url-identifier`
    - **[!UICONTROL URL without Store Code]**: `http://www.yourdomain.com/magento/index.php/url-identifier`
 
-   ![ 一般設定 – web URL オプション ](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
+   ![&#x200B; 一般設定 – web URL オプション &#x200B;](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 1. ワークスペースの上部にあるメッセージの「**[!UICONTROL Cache Management]**」リンクをクリックします。 次に、指示に従ってキャッシュを更新します。
 
-   ![ キャッシュ管理メッセージ ](./assets/msg-cache-management.png)
+   ![&#x200B; キャッシュ管理メッセージ &#x200B;](./assets/msg-cache-management.png)
 
 ## URL のトラブルシューティング
 
@@ -138,7 +138,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトですべてのペー�
 
 ## カスタム管理 URL を使用
 
-[ セキュリティのベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=ja) として、Adobeでは、デフォルトの _管理者_ や一般的な用語（_バックエンド_ ではなく、一意の管理者 URL を使用することをお勧めします。 判定された不正アクターからサイトを直接保護することはありませんが、不正アクセスを試みるスクリプトへの露出を減らすことができます。
+[&#x200B; セキュリティのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=ja) として、Adobeでは、デフォルトの _管理者_ や一般的な用語（_バックエンド_ ではなく、一意の管理者 URL を使用することをお勧めします。 判定された不正アクターからサイトを直接保護することはありませんが、不正アクセスを試みるスクリプトへの露出を減らすことができます。
 
 >[!NOTE]
 >
@@ -162,11 +162,11 @@ Adobe CommerceとMagento Open Sourceは、デフォルトですべてのペー�
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Admin]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Admin Base URL]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Admin Base URL]**」セクションを展開します。
 
 1. カスタム URL の設定オプションを設定します。
 
-   ![ 詳細設定 – 管理ベース URL](../configuration-reference/advanced/assets/admin-admin-base-url.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – 管理ベース URL](../configuration-reference/advanced/assets/admin-admin-base-url.png){width="600" zoomable="yes"}
 
    必要に応じて、「**[!UICONTROL Use system value]**」チェックボックスをオフにして、設定を変更します。
 

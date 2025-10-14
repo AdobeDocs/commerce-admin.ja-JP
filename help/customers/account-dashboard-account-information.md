@@ -14,7 +14,7 @@ ht-degree: 0%
 
 基本的な顧客アカウント情報には、名前、メールアドレス、パスワードが含まれ、ストアフロントの顧客アカウントダッシュボードから管理できます。
 
-![ 店舗店舗等の口座情報 ](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
+![&#x200B; 店舗店舗等の口座情報 &#x200B;](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
 
 アカウントのサイドバーで、顧客は **[!UICONTROL Account Information]** を選択し、次のいずれかの操作を行ってアカウント情報を更新できます。
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->[ 顧客設定 ](../configuration-reference/customers/customer-configuration.md) にプレフィックス、ミドルネームのイニシャル、サフィックスが含まれている場合、追加のフィールドが名前の一部として表示されます。
+>[&#x200B; 顧客設定 &#x200B;](../configuration-reference/customers/customer-configuration.md) にプレフィックス、ミドルネームのイニシャル、サフィックスが含まれている場合、追加のフィールドが名前の一部として表示されます。
 
 ## メールアドレスを変更
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Current Password]** を入力します。
 
-   ![ メールアドレスの変更 ](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
+   ![&#x200B; メールアドレスの変更 &#x200B;](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL Save]** をクリックします。
 
@@ -50,6 +50,6 @@ ht-degree: 0%
    >
    >パスワードは 8 文字以上で、大文字、小文字、数字、記号を組み合わせることができます。 パスワード強度インジケータは、お客様が最適なパスワードを選択するのに役立ちます。
 
-   ![ パスワードの変更 ](assets/account-dashboard-account-information-change-password.png){width="700" zoomable="yes"}
+   ![&#x200B; パスワードの変更 &#x200B;](assets/account-dashboard-account-information-change-password.png){width="700" zoomable="yes"}
 
 1. 確認のため再度入力します。

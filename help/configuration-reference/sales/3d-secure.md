@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ![CardinalCommerce](./assets/3d-secure-cardinalcommerce.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Environment] | Web サイト | [!DNL CardinalCommerce] アカウントの動作モードを示します。 テスト環境で実行している場合は、「サンドボックス」を選択します。 オプション：サンドボックス /実稼動（デフォルト） |
 | [!UICONTROL Org Unit ID] | Web サイト | [!DNL CardinalCommerce] マーチャントアカウントからの組織単位 ID。 |

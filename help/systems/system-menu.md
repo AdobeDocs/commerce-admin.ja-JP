@@ -19,13 +19,13 @@ ht-degree: 0%
 
 [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
-![ システムメニュー ](./assets/system-menu.png){width="600" zoomable="yes"}
+![&#x200B; システムメニュー &#x200B;](./assets/system-menu.png){width="600" zoomable="yes"}
 
 >[!TAB Adobe Commerceas a Cloud Service]
 
 [!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
 
-![ システムメニュー ](./assets/system-menu-accs.png){width="600" zoomable="yes"}
+![&#x200B; システムメニュー &#x200B;](./assets/system-menu-accs.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -35,19 +35,19 @@ _管理者_ サイドバーで、「**[!UICONTROL System]**」をクリックし
 
 ## [!UICONTROL Data Transfer]
 
-これらの [ ツール ](data-transfer.md) を使用すると、1 回の操作で複数のレコードを管理できます。 新しい品目をインポートしたり、既存の製品および税率を更新、置換および削除できます。
+これらの [&#x200B; ツール &#x200B;](data-transfer.md) を使用すると、1 回の操作で複数のレコードを管理できます。 新しい品目をインポートしたり、既存の製品および税率を更新、置換および削除できます。
 
 ## [!UICONTROL Extensions]
 
 [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
-ストアの [ サードパーティの統合 ](integrations.md) および拡張機能を管理します。
+ストアの [&#x200B; サードパーティの統合 &#x200B;](integrations.md) および拡張機能を管理します。
 
 ## [!UICONTROL Tools]
 
 [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
-このツールのコレクションを使用して、[ キャッシュ ](cache-management.md) および [ インデックス ](index-management.md) 管理、[ バックアップ ](backups.md)、インストール設定などのシステムリソースを管理します。
+このツールのコレクションを使用して、[&#x200B; キャッシュ &#x200B;](cache-management.md) および [&#x200B; インデックス &#x200B;](index-management.md) 管理、[&#x200B; バックアップ &#x200B;](backups.md)、インストール設定などのシステムリソースを管理します。
 
 ## [!UICONTROL Support]
 
@@ -55,18 +55,18 @@ _管理者_ サイドバーで、「**[!UICONTROL System]**」をクリックし
 
 ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）
 
-[ サポートツール ](support.md) は、開発および最適化プロセス中のリソースとして、また、アドビのサポートチームがシステムの問題を特定し解決するのに役立つ診断ツールとして使用できます。
+[&#x200B; サポートツール &#x200B;](support.md) は、開発および最適化プロセス中のリソースとして、また、アドビのサポートチームがシステムの問題を特定し解決するのに役立つ診断ツールとして使用できます。
 
 ## [!UICONTROL Permissions]
 
-Adobe CommerceとMagento Open Sourceでは [ 役割と権限 ](permissions.md) を使用して、管理者ユーザーに対して異なるレベルのアクセスを作成します。 これらのツールを使用すると、管理者は、サイトで作業するユーザーに対して _知っておく必要がある_ 権限を付与できます。
+Adobe CommerceとMagento Open Sourceでは [&#x200B; 役割と権限 &#x200B;](permissions.md) を使用して、管理者ユーザーに対して異なるレベルのアクセスを作成します。 これらのツールを使用すると、管理者は、サイトで作業するユーザーに対して _知っておく必要がある_ 権限を付与できます。
 
 ## [!UICONTROL Action Log]
 
 ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）
 
-[ アクションログ ](action-log.md) は、ストアで作業する管理者のアクティビティを追跡します。 ほとんどのイベントで使用できる情報には、アクション、ユーザーの名前、成功か失敗か、アクションのターゲットとなったオブジェクトの ID などがあります。 管理アクションアーカイブには、サーバーに保存されている CSV ログファイルが一覧表示されます。
+[&#x200B; アクションログ &#x200B;](action-log.md) は、ストアで作業する管理者のアクティビティを追跡します。 ほとんどのイベントで使用できる情報には、アクション、ユーザーの名前、成功か失敗か、アクションのターゲットとなったオブジェクトの ID などがあります。 管理アクションアーカイブには、サーバーに保存されている CSV ログファイルが一覧表示されます。
 
 ## [!UICONTROL Other Settings]
 
-インボックスで [ 通知 ](notifications.md) を管理し、[ カスタム変数 ](variables-custom.md) を作成して、新しい [ 暗号化キー ](encryption-key.md) を生成します。
+インボックスで [&#x200B; 通知 &#x200B;](notifications.md) を管理し、[&#x200B; カスタム変数 &#x200B;](variables-custom.md) を作成して、新しい [&#x200B; 暗号化キー &#x200B;](encryption-key.md) を生成します。

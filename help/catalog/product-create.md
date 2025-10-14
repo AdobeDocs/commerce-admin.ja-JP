@@ -16,9 +16,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->詳しくは、カタログ [ ナビゲーション ](navigation.md)、使用可能な [ カテゴリ ](categories.md) および [ 属性 ](product-attributes.md) の設定方法、およびカタログ [URL オプション ](catalog-urls.md) を参照してください。 これらの概念を理解した後、カタログに多くの製品を追加する最も効率的な方法は、CSV ファイルから製品を [ 読み込み ](../systems/data-import.md) することです。
+>詳しくは、カタログ [&#x200B; ナビゲーション &#x200B;](navigation.md)、使用可能な [&#x200B; カテゴリ &#x200B;](categories.md) および [&#x200B; 属性 &#x200B;](product-attributes.md) の設定方法、およびカタログ [URL オプション &#x200B;](catalog-urls.md) を参照してください。 これらの概念を理解した後、カタログに多くの製品を追加する最も効率的な方法は、CSV ファイルから製品を [&#x200B; 読み込み &#x200B;](../systems/data-import.md) することです。
 
-![ ストアフロントの商品ページ ](./assets/storefront-product-page.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの商品ページ &#x200B;](./assets/storefront-product-page.png){width="700" zoomable="yes"}
 
 ## 製品タイプ
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 最も頻繁に使用される製品設定および属性がページ上部に表示され、その後にカスタム属性が表示されます。 その他の製品設定は、ページ下部の展開可能なセクションにあります。
 
-![ 製品設定 ](./assets/product-settings.png){width="600" zoomable="yes"}
+![&#x200B; 製品設定 &#x200B;](./assets/product-settings.png){width="600" zoomable="yes"}
 
 | 設定 | 説明 |
 |--- |--- |
@@ -61,4 +61,4 @@ ht-degree: 0%
 
 ## 高度な価格設定と在庫
 
-詳細な価格と在庫の設定にアクセスするには、下のリンクをクリックしてください **[!UICONTROL Price]** と **[!UICONTROL Quantity]**。 詳しくは、[ 価格の管理 ](pricing-advanced.md) および [Inventory management](../inventory-management/introduction.md) を参照してください。
+詳細な価格と在庫の設定にアクセスするには、下のリンクをクリックしてください **[!UICONTROL Price]** と **[!UICONTROL Quantity]**。 詳しくは、[&#x200B; 価格の管理 &#x200B;](pricing-advanced.md) および [Inventory management](../inventory-management/introduction.md) を参照してください。

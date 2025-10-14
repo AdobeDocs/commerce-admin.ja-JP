@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # メディア – スライダー
 
-_Slider_ コンテンツタイプを使用して、[[!DNL Page Builder] stage](workspace.md#stage) に画像のスライドショーを追加します。 新しい画像をアップロードしたり、ギャラリーや製品カタログから既存の画像を選択したりできます。 スライダーは、自動的に再生するように設定することも、ナビゲーションボタンを使用して手動で制御することもできます。 スライダーを特定のプロモーションに関連付けるには、[ ダイナミックブロック ](dynamic-block.md) を参照してください。
+_Slider_ コンテンツタイプを使用して、[[!DNL Page Builder] stage](workspace.md#stage) に画像のスライドショーを追加します。 新しい画像をアップロードしたり、ギャラリーや製品カタログから既存の画像を選択したりできます。 スライダーは、自動的に再生するように設定することも、ナビゲーションボタンを使用して手動で制御することもできます。 スライダーを特定のプロモーションに関連付けるには、[&#x200B; ダイナミックブロック &#x200B;](dynamic-block.md) を参照してください。
 
-![ ストアフロントのメディアスライダー ](./assets/pb-media-slider-buy3-get1free-storefront.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントのメディアスライダー &#x200B;](./assets/pb-media-slider-buy3-get1free-storefront.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -24,15 +24,15 @@ Slider コンテンツ タイプを使用する場合は、個々のスライド
 
 ## 個別のスライド ツールボックス
 
-![ 個別スライド ツールボックス ](./assets/pb-media-slider-toolbox-slide-row.png){width="500" zoomable="yes"}
+![&#x200B; 個別スライド ツールボックス &#x200B;](./assets/pb-media-slider-toolbox-slide-row.png){width="500" zoomable="yes"}
 
 | ツール | アイコン | 説明 |
 |--- |--- |--- |
-| 移動 | ![ 移動アイコン ](./assets/pb-icon-move.png){width="25"} | スライドをスライド上の別の位置に移動します。 |
+| 移動 | ![&#x200B; 移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | スライドをスライド上の別の位置に移動します。 |
 | （ラベル） | スライド番号 | 現在のスライドの番号を識別します。 |
-| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | _[!UICONTROL Edit Slide]_&#x200B;ページを開きます。このページで、現在のスライドのプロパティを変更できます。 |
-| 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | 現在のスライドをコピーします。 |
-| 削除 | ![ 削除アイコン ](./assets/pb-icon-remove.png){width="25"} | スライダーから現在のスライドを削除します。 |
+| 設定 | ![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | _[!UICONTROL Edit Slide]_&#x200B;ページを開きます。このページで、現在のスライドのプロパティを変更できます。 |
+| 複製 | ![&#x200B; 複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | 現在のスライドをコピーします。 |
+| 削除 | ![&#x200B; 削除アイコン &#x200B;](./assets/pb-icon-remove.png){width="25"} | スライダーから現在のスライドを削除します。 |
 
 {style="table-layout:auto"}
 
@@ -40,13 +40,13 @@ Slider コンテンツ タイプを使用する場合は、個々のスライド
 
 | ツール | アイコン | 説明 |
 |--- |--- |--- |
-| 移動 | ![ 移動アイコン ](./assets/pb-icon-move.png){width="25"} | スライダをステージ上の別の位置に移動します。 |
+| 移動 | ![&#x200B; 移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | スライダをステージ上の別の位置に移動します。 |
 | （ラベル） | [!UICONTROL Slider] | スライダーコンテナを識別します。 |
-| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | _[!UICONTROL Edit Slider]_&#x200B;ページが開き、ビデオとコンテナのプロパティを変更できます。 |
-| Hide | ![ アイコンを非表示 ](./assets/pb-icon-hide.png){width="25"} | 現在のスライダを非表示にします。 |
-| 表示 | ![ アイコンを表示 ](./assets/pb-icon-show.png){width="25"} | 非表示のスライダーを表示します。 |
-| 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | スライダのコピーを作成します。 |
-| 削除 | ![ 削除アイコン ](./assets/pb-icon-remove.png){width="25"} | ステージからスライダーを削除します。 |
+| 設定 | ![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | _[!UICONTROL Edit Slider]_&#x200B;ページが開き、ビデオとコンテナのプロパティを変更できます。 |
+| Hide | ![&#x200B; アイコンを非表示 &#x200B;](./assets/pb-icon-hide.png){width="25"} | 現在のスライダを非表示にします。 |
+| 表示 | ![&#x200B; アイコンを表示 &#x200B;](./assets/pb-icon-show.png){width="25"} | 非表示のスライダーを表示します。 |
+| 複製 | ![&#x200B; 複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | スライダのコピーを作成します。 |
+| 削除 | ![&#x200B; 削除アイコン &#x200B;](./assets/pb-icon-remove.png){width="25"} | ステージからスライダーを削除します。 |
 
 {style="table-layout:auto"}
 
@@ -60,15 +60,15 @@ Slider コンテンツ タイプを使用する場合は、個々のスライド
 
    次の例では、行の背景色は黄色（`#fffd16`）です。
 
-   ![ スライダーをステージにドラッグ ](./assets/pb-media-slider-drag-row.png){width="600" zoomable="yes"}
+   ![&#x200B; スライダーをステージにドラッグ &#x200B;](./assets/pb-media-slider-drag-row.png){width="600" zoomable="yes"}
 
    スライダーコンテナは、空のスライドが 1 つ表示されたステージに表示されます。
 
-1. スライダーコンテナ内をクリックして [ テキストエディター ](../content-design/editor.md) を表示し、最初のスライドのコンテンツを入力します。
+1. スライダーコンテナ内をクリックして [&#x200B; テキストエディター &#x200B;](../content-design/editor.md) を表示し、最初のスライドのコンテンツを入力します。
 
-   [ コンテンツ ](#content) 設定を使用して、より複雑なバナーコンテンツを含めることもできます。
+   [&#x200B; コンテンツ &#x200B;](#content) 設定を使用して、より複雑なバナーコンテンツを含めることもできます。
 
-1. スライダーの下部にあるナビゲーションドットをクリックして、個々のスライドのツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. スライダーの下部にあるナビゲーションドットをクリックして、個々のスライドのツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
    スライダには 2 つのツールボックスがあります。 下部のスライドツールボックスを使用していることを確認します。
 
@@ -92,11 +92,11 @@ Slider コンテンツ タイプを使用する場合は、個々のスライド
 
 既に設定されているスライドを必要な設定で複製することで、時間を節約できます。
 
-1. スライドの下にあるナビゲーションドットをクリックしてツールボックスを表示し、_複製_ （![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="20"}）アイコンを選択します。
+1. スライドの下にあるナビゲーションドットをクリックしてツールボックスを表示し、_複製_ （![&#x200B; 複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="20"}）アイコンを選択します。
 
-   ![ スライドの複製 ](./assets/pb-media-slider-duplicate-slide.png){width="500" zoomable="yes"}
+   ![&#x200B; スライドの複製 &#x200B;](./assets/pb-media-slider-duplicate-slide.png){width="500" zoomable="yes"}
 
-1. 新しいスライドのナビゲーションドットをクリックしてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. 新しいスライドのナビゲーションドットをクリックしてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
 1. 必要に応じて、次の節に従って設定を変更します。
 
@@ -109,15 +109,15 @@ Slider コンテンツ タイプを使用する場合は、個々のスライド
 
 ### 方法 2：新しい空のスライドを追加する
 
-1. 上部のスライダーコンテナにマウスポインターを置いてツールボックスを表示し、「_追加_」（![ 追加アイコン ](./assets/pb-icon-add.png){width="20"}）アイコンを選択します。
+1. 上部のスライダーコンテナにマウスポインターを置いてツールボックスを表示し、「_追加_」（![&#x200B; 追加アイコン &#x200B;](./assets/pb-icon-add.png){width="20"}）アイコンを選択します。
 
-   ![ 空のスライドの追加 ](./assets/pb-media-slider-toolbox-add.png){width="500" zoomable="yes"}
+   ![&#x200B; 空のスライドの追加 &#x200B;](./assets/pb-media-slider-toolbox-add.png){width="500" zoomable="yes"}
 
    新しい空白のスライドがスライダーに追加され、独自のナビゲーション ドットとツールボックスがステージに表示されます。
 
-   ![ ツールボックスを使用した新しいスライド ](./assets/pb-media-slider-slide2-toolbox.png){width="500" zoomable="yes"}
+   ![&#x200B; ツールボックスを使用した新しいスライド &#x200B;](./assets/pb-media-slider-slide2-toolbox.png){width="500" zoomable="yes"}
 
-1. 新しいスライドのナビゲーションドットをクリックしてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. 新しいスライドのナビゲーションドットをクリックしてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
 1. 必要に応じて、次の節に従って設定を変更します。
 
@@ -130,21 +130,21 @@ Slider コンテンツ タイプを使用する場合は、個々のスライド
 
 ### スライドにウィジェットを追加
 
-次の手順を使用して、[ のステージのスライドに任意の ](../content-design/widgets.md#widget-types) ウィジェットタイプ [!DNL Page Builder] を追加できます。
+次の手順を使用して、[&#x200B; のステージのスライドに任意の &#x200B;](../content-design/widgets.md#widget-types) ウィジェットタイプ [!DNL Page Builder] を追加できます。
 
-1. スライドに表示する [ ウィジェットを作成 ](../content-design/widget-create.md) します。
+1. スライドに表示する [&#x200B; ウィジェットを作成 &#x200B;](../content-design/widget-create.md) します。
 
 1. スライダーを配置するページ、ブロック、またはダイナミック ブロックを開き、[**[!UICONTROL Content]**] セクションを展開します。
 
 1. [!DNL Page Builder] パネルで **[!UICONTROL Media]** を展開し、**[!UICONTROL Slider]** プレースホルダーをステージの行、列、タブにドラッグします。
 
-1. スライダーコンテナ内をクリックして [ テキストエディター ](../content-design/editor.md) ツールバーを表示し、_ウィジェットを挿入_ （![ ウィジェットを挿入アイコン ](./assets/editor-btn-insert-widget.png){width="20"}）アイコンをクリックします。
+1. スライダーコンテナ内をクリックして [&#x200B; テキストエディター &#x200B;](../content-design/editor.md) ツールバーを表示し、_ウィジェットを挿入_ （![&#x200B; ウィジェットを挿入アイコン &#x200B;](./assets/editor-btn-insert-widget.png){width="20"}）アイコンをクリックします。
 
 1. 必要な **[!UICONTROL Widget Type]** を選択します。
 
 1. ウィジェットのタイプによって異なる設定を指定します
 
-   ![ スライドにウィジェットを挿入した例 ](./assets/insert-widget-to-slide-page.png){width="600" zoomable="yes"}
+   ![&#x200B; スライドにウィジェットを挿入した例 &#x200B;](./assets/insert-widget-to-slide-page.png){width="600" zoomable="yes"}
 
 1. 完了したら、右上隅の「**[!UICONTROL Insert Widget]**」をクリックします。
 
@@ -152,13 +152,13 @@ Slider コンテンツ タイプを使用する場合は、個々のスライド
 
 1. 完了したら、右上隅の「**[!UICONTROL Save]**」をクリックします。
 
-   ![ スライドに挿入したウィジェットの例 ](./assets/inserting-widget-on-slide.png){width="600" zoomable="yes"}
+   ![&#x200B; スライドに挿入したウィジェットの例 &#x200B;](./assets/inserting-widget-on-slide.png){width="600" zoomable="yes"}
 
 ### 各スライドを表示
 
 ステージ上に各スライドを表示するには、現在表示されているスライドの下にある次の点をクリックします。
 
-![ 完了スライダー ](./assets/pb-media-slider-slide2.png){width="500" zoomable="yes"}
+![&#x200B; 完了スライダー &#x200B;](./assets/pb-media-slider-slide2.png){width="500" zoomable="yes"}
 
 前の例のスライドには、背景画像、透明なモバイル画像、テキストエディターから追加されたインライン画像があります。 この手法は、モバイルデバイスで背景画像をオフにし、小さいインライン画像のみを表示する方法でよく機能します。 この例の製品スライドには、次の追加設定があります。
 
@@ -185,7 +185,7 @@ Slider コンテンツ タイプを使用する場合は、個々のスライド
 
 1. ステージ上のスライダー表示を変更し、変更するスライドを表示します。
 
-1. 個々のスライドツールボックスで、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択し、必要に応じて、次の節に従って設定を完了します。
+1. 個々のスライドツールボックスで、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択し、必要に応じて、次の節に従って設定を完了します。
 
 1. 右上隅にある「**[!UICONTROL Save]**」をクリックして設定を適用し、[!DNL Page Builder] ワークスペースに戻ります。
 
@@ -202,13 +202,13 @@ Slider コンテンツ タイプを使用する場合は、個々のスライド
 
    {style="table-layout:auto"}
 
-   ![ スライドの位置決め ](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
+   ![&#x200B; スライドの位置決め &#x200B;](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Slide Name]** を入力します。
 
    編集モードで作業しているときは、ナビゲーションドットの上にスライド名がツールヒントとして表示されます。 スライド名は、ストアフロントからは表示されません。
 
-   ![ ナビゲーション内のスライド名 ](./assets/pb-media-slider-name-buy3-get1free.png){width="500" zoomable="yes"}
+   ![&#x200B; ナビゲーション内のスライド名 &#x200B;](./assets/pb-media-slider-name-buy3-get1free.png){width="500" zoomable="yes"}
 
 1. スライドの **[!UICONTROL Minimum Height]** を入力します。
 
@@ -228,7 +228,7 @@ Slider コンテンツ タイプを使用する場合は、個々のスライド
 
 スウォッチを選択するか、カラーピッカーをクリックするか、有効なカラー名または同等の 16 進数値を入力して、背景色を指定します。 この設定により、行の背景色が決まります。 また、カラーの不透明度を調整することもできます。
 
-![ 色なし（デフォルト） ](./assets/pb-settings-background-color-no-color.png){width="200"}
+![&#x200B; 色なし（デフォルト） &#x200B;](./assets/pb-settings-background-color-no-color.png){width="200"}
 
 次の 3 つの方法のいずれかで値を設定できます。
 
@@ -238,11 +238,11 @@ Slider コンテンツ タイプを使用する場合は、個々のスライド
 
 カラーを選択する場合は、「カラーなし _ボックスの左側にあるスウォッチをクリックし_ す。
 
-![ カラースウォッチの選択 ](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
+![&#x200B; カラースウォッチの選択 &#x200B;](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
 カラーボックスをクリックして再度カラーピッカーを開くと、スライダの下のボックスに現在の赤、緑、青、アルファ値（rgba）が表示されます。 最後の数値は、現在の不透明度の割合を小数で示します。 スライダを使用して、不透明度を調整したり、必要な小数値を入力したりできます。
 
-![ 背景色の不透明度の設定 ](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
+![&#x200B; 背景色の不透明度の設定 &#x200B;](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -252,13 +252,13 @@ Slider コンテンツ タイプを使用する場合は、個々のスライド
 
 背景の種類は、画像またはビデオです。 デフォルト [!DNL Page Builder]`Image` で、様々な画像設定が表示されます。 `Video` を選択すると、[!DNL Page Builder] は画像設定をビデオ設定にスワップします。 両方の背景タイプの設定について、次の節で説明します。
 
-![ 背景の種類 ](./assets/pb-background-type.png){width="400"}
+![&#x200B; 背景の種類 &#x200B;](./assets/pb-background-type.png){width="400"}
 
 ### 画像タイプの設定
 
 _[!UICONTROL Background Type]_&#x200B;を `Image` に設定した場合は、次の設定を使用して背景画像の表示を定義します。
 
-![ 背景画像付きバナー ](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
+![&#x200B; 背景画像付きバナー &#x200B;](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
 - **[!UICONTROL Background Image]** – 必要に応じて、用意されているツールを使用してバナーに適用する背景画像を選択します。
 
@@ -266,7 +266,7 @@ _[!UICONTROL Background Type]_&#x200B;を `Image` に設定した場合は、次
   | ---- | ----------- |
   | [!UICONTROL Upload] | ローカルコンピューターからギャラリーに画像ファイルをアップロードし、それをバナーの背景画像として適用します。 |
   | [!UICONTROL Select from Gallery] | バナーの背景画像として、ギャラリーから既存の画像を選択するように求めるプロンプトを表示します。 |
-  | ![ カメラアイコン ](./assets/pb-icon-camera.png){width="25"} | 画像をカメラタイルにドラッグするか、ローカルファイルシステム内の画像を参照できます。 |
+  | ![&#x200B; カメラアイコン &#x200B;](./assets/pb-icon-camera.png){width="25"} | 画像をカメラタイルにドラッグするか、ローカルファイルシステム内の画像を参照できます。 |
 
   {style="table-layout:auto"}
 
@@ -282,7 +282,7 @@ _[!UICONTROL Background Type]_&#x200B;を `Image` に設定した場合は、次
 
   {style="table-layout:auto"}
 
-  ![ 背景サイズ ](./assets/pb-layout-row-settings-background-size-cover.png){width="400"}
+  ![&#x200B; 背景サイズ &#x200B;](./assets/pb-layout-row-settings-background-size-cover.png){width="400"}
 
 - **[!UICONTROL Background Position]** - バナーに対する背景画像のアンカー方法を選択します。
 
@@ -308,7 +308,7 @@ _背景の種類_ を `Video` に設定する場合、次の設定を使用し�
    - Vimeo ビデオ：`https://vimeo.com/190156113`
    - 有効なビデオ ファイル （`.mp4` を推奨）: `https://myvideos.com/spiral.mp4`
 
-  ![ 背景ビデオの URL](./assets/pb-video-url.png){width="500"}
+  ![&#x200B; 背景ビデオの URL](./assets/pb-video-url.png){width="500"}
 
 - **[!UICONTROL Overlay Color]** - ビデオに透明の濃淡を適用するカラーを選択します。
 
@@ -322,7 +322,7 @@ _背景の種類_ を `Video` に設定する場合、次の設定を使用し�
 
 ## [!UICONTROL Content]
 
-スライドコンテンツは、ステージ上で直接変更することも、設定を変更する場合に変更することもできます。 設定では、スライドリンク、ボタン、オーバーレイなど、より複雑なコンテンツ機能が提供されます。 コンテンツの位置は、[ アピアランス ](#appearance) の配置設定を反映します。
+スライドコンテンツは、ステージ上で直接変更することも、設定を変更する場合に変更することもできます。 設定では、スライドリンク、ボタン、オーバーレイなど、より複雑なコンテンツ機能が提供されます。 コンテンツの位置は、[&#x200B; アピアランス &#x200B;](#appearance) の配置設定を反映します。
 
 ### ステージ上のシンプルなコンテンツ
 
@@ -332,11 +332,11 @@ _背景の種類_ を `Video` に設定する場合、次の設定を使用し�
 
 1. エディターツールバーを使用して、テキストの入力や書式設定のほか、リンク、画像、ウィジェットなどの要素を挿入します。
 
-   ![ 書式設定されたテキストを使用したステージ ](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="500" zoomable="yes"}
+   ![&#x200B; 書式設定されたテキストを使用したステージ &#x200B;](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="500" zoomable="yes"}
 
 ### 設定の複雑なコンテンツ
 
-1. スライダーの下部にあるナビゲーションドットをクリックして、個々のスライドのツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. スライダーの下部にあるナビゲーションドットをクリックして、個々のスライドのツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
 1. _[!UICONTROL Content]_&#x200B;セクションで、スライドに表示する&#x200B;**[!UICONTROL Message Text]**&#x200B;を入力します。
 
@@ -356,20 +356,20 @@ _背景の種類_ を `Video` に設定する場合、次の設定を使用し�
 
    - **[!UICONTROL Product]** – 製品名または SKU に基づいて宛先ページを識別します。 部分的または完全な名前に基づいて、名前で製品を検索します。 検索結果リストから製品を選択します。
 
-     ![ リンクする製品の選択 ](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"}
+     ![&#x200B; リンクする製品の選択 &#x200B;](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Category]** - カテゴリツリー内の特定のカテゴリまたはサブカテゴリとして宛先ページを識別します。 名前の一部または全部に基づいてカテゴリを検索します。 表示されたツリーの展開セクションからカテゴリを選択します。
 
-     ![ リンクするカテゴリの選択 ](./assets/pb-settings-link-category-womens-tees.png){width="600" zoomable="yes"}
+     ![&#x200B; リンクするカテゴリの選択 &#x200B;](./assets/pb-settings-link-category-womens-tees.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Page]** – 宛先ページを特定のコンテンツページとして識別します。 名前の一部または全部に基づいてページを検索します。 検索結果リストからページを選択します。
 
-     ![ リンクするページの選択 ](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
+     ![&#x200B; リンクするページの選択 &#x200B;](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
 
    <div class="bs-callout-info" markdown="1">
    2.4.1 リリース以降、ストアフロントの表示に関する問題により、[!DNL Page Builder] はスライドとネストされたテキスト内のリンクのリンクをサポートしなくなりました。 _[!UICONTROL Message Text]_&#x200B;内のリンクを使用している場合は、_[!UICONTROL Link]_ オプションを設定できません。 スライド全体に 1 つのリンクを使用する場合は、テキストからすべてのリンクを削除できます。
 
-   ![ リンク設定がブロックされています ](./assets/pb-nested-link-blocked.png){width="300"}
+   ![&#x200B; リンク設定がブロックされています &#x200B;](./assets/pb-nested-link-blocked.png){width="300"}
    </div>
 
    訪問者がストアから移動できないようにするには、「**[!UICONTROL Open in new tab]**」チェックボックスを選択します。 このチェックボックスをオフにすると、リンクされた宛先は同じブラウザータブで開くので、訪問者をストアから効果的に移動できます。
@@ -378,11 +378,11 @@ _背景の種類_ を `Video` に設定する場合、次の設定を使用し�
 
    スライド _外観_ を配置すると、テキストの下に 1 つのリンクまたはボタンが配置されます。 追加するリンクまたはボタンのプロパティを入力します。
 
-   ![ スライドの外観 – 右のコラージュ ](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
+   ![&#x200B; スライドの外観 – 右のコラージュ &#x200B;](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >バナーに [ ブロック ](block.md) を追加して、複数のボタンやリンクを使用することもできます。 競合を避けるために、すべてのリンクまたはボタンを個別のブロックに保持し、リンクまたはボタンをバナーに直接追加しないでください。
+   >バナーに [&#x200B; ブロック &#x200B;](block.md) を追加して、複数のボタンやリンクを使用することもできます。 競合を避けるために、すべてのリンクまたはボタンを個別のブロックに保持し、リンクまたはボタンをバナーに直接追加しないでください。
 
    - **[!UICONTROL Show Button]** を次のいずれかに設定します。
 
@@ -420,14 +420,14 @@ _背景の種類_ を `Video` に設定する場合、次の設定を使用し�
 
    オーバーレイを使用して、アピアランス設定で定義されたアクティブなコンテンツ領域に背景色を適用できます。 スライドの背景画像は、スライドの幅全体に対して表示されたままになります。
 
-   ![ スライドオーバーレイの設定 ](./assets/pb-media-slider-overlay-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; スライドオーバーレイの設定 &#x200B;](./assets/pb-media-slider-overlay-settings.png){width="600" zoomable="yes"}
 
    オーバーレイの表示を選択した場合は、**[!UICONTROL Overlay Color]** を設定します。
 
    - _カラーなし_ スウォッチをクリックし、スウォッチを選択します。
    - **[!UICONTROL Color]** フィールドに、有効なカラー名または 16 進数値を入力します。
 
-   ![ スライドオーバーレイのカラー ](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
+   ![&#x200B; スライドオーバーレイのカラー &#x200B;](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
 
 
 ## [!UICONTROL Search Engine Optimization] {#seo}
@@ -474,7 +474,7 @@ _背景の種類_ を `Video` に設定する場合、次の設定を使用し�
 
 1. `None` 以外の境界線のスタイルを設定する場合は、境界線の表示オプションを完了します。
 
-   ![ 境界線のカラー ](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
+   ![&#x200B; 境界線のカラー &#x200B;](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
    | オプション | 説明 |
    | ------ |------------ |
@@ -507,17 +507,17 @@ _背景の種類_ を `Video` に設定する場合、次の設定を使用し�
 
    ドラッグすると、スライダーの上の挿入点に赤いガイドラインが表示されます。
 
-   ![ スライダーの上にテキストプレースホルダーをドラッグする ](./assets/pb-media-slider-elements-text-drag.png){width="600" zoomable="yes"}
+   ![&#x200B; スライダーの上にテキストプレースホルダーをドラッグする &#x200B;](./assets/pb-media-slider-elements-text-drag.png){width="600" zoomable="yes"}
 
 1. エディターを使用して、必要に応じてテキストを書式設定します。
 
-   ![ スライダータイトルテキストの編集 ](./assets/pb-media-slider-elements-text-editor.png){width="500" zoomable="yes"}
+   ![&#x200B; スライダータイトルテキストの編集 &#x200B;](./assets/pb-media-slider-elements-text-editor.png){width="500" zoomable="yes"}
 
 ## スライダー設定の変更
 
-1. スライダーコンテナにカーソルを合わせて主なツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. スライダーコンテナにカーソルを合わせて主なツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-   ![ スライダーツールボックス ](./assets/pb-media-slider-tee-shirts-main-toolbox.png){width="500" zoomable="yes"}
+   ![&#x200B; スライダーツールボックス &#x200B;](./assets/pb-media-slider-tee-shirts-main-toolbox.png){width="500" zoomable="yes"}
 
 1. スライドの **[!UICONTROL Minimum Height]** を入力します。
 
@@ -525,19 +525,19 @@ _背景の種類_ を `Video` に設定する場合、次の設定を使用し�
 
    例えば、スライダーの最小の高さを設定して、ページの完全な高さを伸ばすことができ、完全なページの背景画像やビデオに魅力的なオプションを提供できます。
 
-   ![ スライダーの最小の高さ ](./assets/pb-media-slider-settings-minimum-height.png){width="400"}
+   ![&#x200B; スライダーの最小の高さ &#x200B;](./assets/pb-media-slider-settings-minimum-height.png){width="400"}
 
 1. ページの読み込み時にスライダーを開始する場合は、**[!UICONTROL Autoplay]** を `Yes` に設定し、**[!UICONTROL Autoplay Speed]** をスライド間の遅延のミリ秒数に設定します。
 
    デフォルトでは、速度は 4,000 ミリ秒に設定されています。これは 4 秒です。 自動再生を `No` に設定した場合は、デフォルトで最初のスライドが表示され、ユーザーはスライドナビゲーション（ドットまたは矢印）をクリックして次のスライドを順番に表示する必要があります。
 
-   ![ スライダーの自動再生設定 ](./assets/pb-media-slider-settings-autoplay.png){width="600" zoomable="yes"}
+   ![&#x200B; スライダーの自動再生設定 &#x200B;](./assets/pb-media-slider-settings-autoplay.png){width="600" zoomable="yes"}
 
 1. スライド間の切り替えをスムーズにするには、**[!UICONTROL Fade]** を `Yes` に設定します。
 
    フェードを適用すると、スライドは元の位置に表示されますが、コンテンツはスムーズに切り替わります。 フェードを使用しない場合は、スライド間の水平方向の移動が表示されます。
 
-   ![ スライダのフェードと無限ループの設定 ](./assets/pb-media-slider-settings-fade-infinite-loop.png){width="600" zoomable="yes"}
+   ![&#x200B; スライダのフェードと無限ループの設定 &#x200B;](./assets/pb-media-slider-settings-fade-infinite-loop.png){width="600" zoomable="yes"}
 
 1. ページが開いている間にスライドショーを無限に繰り返すには、**[!UICONTROL Infinite Loop]** を `Yes` に設定します。
 
@@ -547,9 +547,9 @@ _背景の種類_ を `Video` に設定する場合、次の設定を使用し�
 
    - スライダーの下に一連のナビゲーションドットを含めるには、「**[!UICONTROL Show Dots]**」を「`Yes`」に設定します。
 
-   ![ スライダーに矢印とドットを表示 ](./assets/pb-media-slider-settings-show-arrows-dots.png){width="600" zoomable="yes"}
+   ![&#x200B; スライダーに矢印とドットを表示 &#x200B;](./assets/pb-media-slider-settings-show-arrows-dots.png){width="600" zoomable="yes"}
 
-1. 必要に応じて [ 詳細 ](#slider-advanced) スライダー設定を行います。
+1. 必要に応じて [&#x200B; 詳細 &#x200B;](#slider-advanced) スライダー設定を行います。
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックして設定を適用し、[!DNL Page Builder] ワークスペースに戻ります。
 
@@ -616,10 +616,10 @@ _背景の種類_ を `Video` に設定する場合、次の設定を使用し�
 
 1. _ページ_ グリッドでページを見つけ、**[!UICONTROL View]** 列で _[!UICONTROL Action]_&#x200B;を選択します。
 
-   ![ スライダーのプレビュー – 標準ビュー ](./assets/pb-media-slider-desktop-view.png){width="600" zoomable="yes"}
+   ![&#x200B; スライダーのプレビュー – 標準ビュー &#x200B;](./assets/pb-media-slider-desktop-view.png){width="600" zoomable="yes"}
 
    スライダーをプレビューする場合は、モバイルデバイスでの表示を確認できるように、ウィンドウのサイズを変更します。
 
-   ![ スライダーのプレビュー – モバイル表示 ](./assets/pb-media-slider-mobile-view.png){width="400" zoomable="yes"}
+   ![&#x200B; スライダーのプレビュー – モバイル表示 &#x200B;](./assets/pb-media-slider-mobile-view.png){width="400" zoomable="yes"}
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

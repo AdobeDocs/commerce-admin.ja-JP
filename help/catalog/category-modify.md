@@ -32,4 +32,4 @@ ht-degree: 0%
 
 1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL OK]**」をクリックします。
 
-カテゴリに関連付けられた [ イベントを更新 ](../merchandising-promotions/event-create.md#create-and-update-events) するには、**[!UICONTROL Events]** のページまたは **[!UICONTROL Category]** のページからも行えます。
+カテゴリに関連付けられた [&#x200B; イベントを更新 &#x200B;](../merchandising-promotions/event-create.md#create-and-update-events) するには、**[!UICONTROL Events]** のページまたは **[!UICONTROL Category]** のページからも行えます。

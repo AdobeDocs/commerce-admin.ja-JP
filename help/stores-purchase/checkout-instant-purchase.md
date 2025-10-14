@@ -14,21 +14,21 @@ ht-degree: 0%
 
 _即時購入_ を使用すると、お客様は、アカウントに保存された情報を使用して、チェックアウトプロセスを迅速に実行できます。 有効にすると、要件を満たすお客様に対して、製品ページの _買い物かごに追加_ ボタンの下に _即時購入_ ボタンが表示されます。
 
-![ 「インスタント購入」オプションが表示された製品ページ ](./assets/storefront-checkout-instant-purchase.png){width="700" zoomable="yes"}
+![&#x200B; 「インスタント購入」オプションが表示された製品ページ &#x200B;](./assets/storefront-checkout-instant-purchase.png){width="700" zoomable="yes"}
 
 ## 顧客要件
 
-- 顧客が自分のアカウントに [ ログイン ](../customers/customer-sign-in.md) している。
+- 顧客が自分のアカウントに [&#x200B; ログイン &#x200B;](../customers/customer-sign-in.md) している。
 
-- 顧客アカウントには [ デフォルトの請求および配送先住所 ](../customers/account-dashboard-address-book.md) があります。
+- 顧客アカウントには [&#x200B; デフォルトの請求および配送先住所 &#x200B;](../customers/account-dashboard-address-book.md) があります。
 
-- デフォルトの配送先住所で指定された国で、少なくとも 1 つの [ 配送方法 ](delivery.md) を使用できます。
+- デフォルトの配送先住所で指定された国で、少なくとも 1 つの [&#x200B; 配送方法 &#x200B;](delivery.md) を使用できます。
 
-- 顧客アカウントには、Vault が有効になっている [ 保存された支払い ](../stores-purchase/stored-payment-methods.md) 方法があります。
+- 顧客アカウントには、Vault が有効になっている [&#x200B; 保存された支払い &#x200B;](../stores-purchase/stored-payment-methods.md) 方法があります。
 
   保存されたクレジットカード情報への安全なアクセスを提供するには、次の支払い方法を使用できます。
 
-   - [Braintree クレジット カード ](braintree.md) （3D セキュアが有効な場合、インスタント購入はBraintree クレジット カードで使用できません。）
+   - [Braintree クレジット カード &#x200B;](braintree.md) （3D セキュアが有効な場合、インスタント購入はBraintree クレジット カードで使用できません。）
    - [PayPal が有効なBraintree](braintree.md)
    - [PayPal Payflow Pro](paypal-payflow-pro.md)
 
@@ -38,7 +38,7 @@ _即時購入_ を使用すると、お客様は、アカウントに保存さ�
 
 1. 必要なオプションを選択し、**[!UICONTROL Instant Purchase]** をクリックします。
 
-   ![ インスタント購入を確認するための確認ダイアログ ](./assets/storefront-checkout-instant-purchase-confirmation.png){width="500" zoomable="yes"}
+   ![&#x200B; インスタント購入を確認するための確認ダイアログ &#x200B;](./assets/storefront-checkout-instant-purchase-confirmation.png){width="500" zoomable="yes"}
 
 1. **[!UICONTROL Instant Purchase Confirmation]** の情報を確認し、**[!UICONTROL OK]** をクリックしてトランザクションを完了します。
 
@@ -57,15 +57,15 @@ Braintreeで即時購入を使用するか、Adobe CommerceとMagento Open Sourc
 支払方法を設定し、Braintreeまたは支払いサービスの保管を有効にする方法を説明します。
 
 - [Braintree](braintree.md)
-- [ 支払いサービスのドキュメント ](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=ja)
+- [&#x200B; 支払いサービスのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=ja)
 
 ### 手順 3：即時購入を有効にする
 
 1. 「_[!UICONTROL Sales]_」セクションの下にある左パネルで、「**[!UICONTROL Sales]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Instant Purchase]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Instant Purchase]**」セクションを展開します。
 
-1. この変更が特定のストア表示に対するものである場合は、設定が適用される [ ストア表示を選択 ](../configuration-reference/scope-change.md#set-the-scope) します。
+1. この変更が特定のストア表示に対するものである場合は、設定が適用される [&#x200B; ストア表示を選択 &#x200B;](../configuration-reference/scope-change.md#set-the-scope) します。
 
    プロンプトが表示されたら、「**[!UICONTROL OK]**」をクリックして続行します。
 
@@ -75,9 +75,9 @@ Braintreeで即時購入を使用するか、Adobe CommerceとMagento Open Sourc
 
    ボタンのテキストは、ストア表示または言語ごとに変更できます。 デフォルトでは、ボタンのテキストは `Instant Purchase` です。
 
-   ![ 設定 – 即時購入オプション ](../configuration-reference/sales/assets/sales-instant-purchase.png){width="600" zoomable="yes"}
+   ![&#x200B; 設定 – 即時購入オプション &#x200B;](../configuration-reference/sales/assets/sales-instant-purchase.png){width="600" zoomable="yes"}
 
-   これらの各設定について詳しくは、『 [ 設定リファレンスガイド _の ](../configuration-reference/sales/sales.md#instant-purchase) 即時購入_ を参照してください。
+   これらの各設定について詳しくは、『 [&#x200B; 設定リファレンスガイド _の &#x200B;](../configuration-reference/sales/sales.md#instant-purchase) 即時購入_ を参照してください。
 
 1. 「**[!UICONTROL Save Config]**」をクリックします。
 

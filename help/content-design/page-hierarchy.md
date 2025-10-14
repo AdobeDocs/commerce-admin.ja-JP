@@ -18,19 +18,19 @@ ht-degree: 0%
 
 ページ階層システムは、ノードを使用して、関連するコンテンツ部分を識別し、コンテンツページを親子関係に整理します。 親ノードは、子ノードおよびページを含む可能性のあるフォルダーに似ています。 階層内の各ノードとページの相対位置は、_tree_ 構造として表示されます。 ノードには、他のノードやコンテンツページが含まれ、1 つのコンテンツページが、親/子または近隣の関係の複数のノードや他のコンテンツページに関連付けられる場合があります。
 
-![ 左側にナビゲーションがあるページ ](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
+![&#x200B; 左側にナビゲーションがあるページ &#x200B;](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
 
 ## ページ階層の設定
 
 構成設定により、ページ階層システムおよびメタデータがアクティブ化され、デフォルトのメニューレイアウトが決定されます。
 
-![CMS ページ階層 ](./assets/content-management-cms-page-hierarchy.png){width="600" zoomable="yes"}
+![CMS ページ階層 &#x200B;](./assets/content-management-cms-page-hierarchy.png){width="600" zoomable="yes"}
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]** を展開し、必要な変更を加えます。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]** を展開し、必要な変更を加えます。
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
@@ -50,13 +50,13 @@ ht-degree: 0%
 
 ノードにリンクするには、[Widget](widgets.md) ツールを使用してCMS階層ノードリンクを作成し、ウィジェットをコンテンツブロックまたはページに配置します。
 
-![ 会社概要ページのナビゲーションメニューの例 ](./assets/page-navigation-storefront.png){width="600" zoomable="yes"}
+![&#x200B; 会社概要ページのナビゲーションメニューの例 &#x200B;](./assets/page-navigation-storefront.png){width="600" zoomable="yes"}
 
 ### 手順 1：ノードを作成する
 
 1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Hierarchy]**&#x200B;に移動します。
 
-   ![CMSページグリッド ](./assets/page-hierarchy-cms-pages.png){width="600" zoomable="yes"}
+   ![CMSページグリッド &#x200B;](./assets/page-hierarchy-cms-pages.png){width="600" zoomable="yes"}
 
 1. グリッドの上にある「**[!UICONTROL Add Node...]**」をクリックします。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
    URL キーは、ノードの一意の web アドレスを提供します。 スペースではなくハイフンを使用して単語を区切り、すべて小文字にする必要があります。
 
-   ![ ページプロパティ ](./assets/page-hierarchy-add-node-page-properties.png){width="500" zoomable="yes"}
+   ![&#x200B; ページプロパティ &#x200B;](./assets/page-hierarchy-add-node-page-properties.png){width="500" zoomable="yes"}
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 1. 必要に応じて、ページをメニューに表示する順序を反映する位置にドラッグします。
 
-   ![ ページを適切な位置にドラッグ ](./assets/page-hierarchy-drag-to-position.png){width="500" zoomable="yes"}
+   ![&#x200B; ページを適切な位置にドラッグ &#x200B;](./assets/page-hierarchy-drag-to-position.png){width="500" zoomable="yes"}
 
 1. 階層の最上位にあるノードをクリックします。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 1. [**[!UICONTROL Render Metadata in HTML Head]**] で、次の操作を行います。
 
-   ![ メタデータ設定のレンダリング ](./assets/page-hierarchy-render-metadata.png){width="400" zoomable="yes"}
+   ![&#x200B; メタデータ設定のレンダリング &#x200B;](./assets/page-hierarchy-render-metadata.png){width="400" zoomable="yes"}
 
    - ノードを階層の最上位として識別するには、「**[!UICONTROL First]**」を「`Yes`」に設定します。
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
    この設定により、ページ階層にナビゲーションメニューを生成するかどうかが決まります。
 
-   ![ ページナビゲーションメニューオプション ](./assets/page-hierarchy-page-navigation-menu-options.png){width="300" zoomable="yes"}
+   ![&#x200B; ページナビゲーションメニューオプション &#x200B;](./assets/page-hierarchy-page-navigation-menu-options.png){width="300" zoomable="yes"}
 
 1. コンテンツに関連するメニューの場所を指定するには、**[!UICONTROL Menu Layout]** のように設定します。
 
@@ -154,6 +154,6 @@ ht-degree: 0%
 
 1. ノードをナビゲーションメニューにも表示する場合は、スクロールして _メインナビゲーションメニューオプション_ を表示し、**[!UICONTROL Show in Navigation menu]** を `Yes` に設定します。
 
-   ![ メインナビゲーションメニューオプション ](./assets/page-hierarchy-main-navigation-menu-options.png){width="250" zoomable="yes"}
+   ![&#x200B; メインナビゲーションメニューオプション &#x200B;](./assets/page-hierarchy-main-navigation-menu-options.png){width="250" zoomable="yes"}
 
 1. 「**[!UICONTROL Save]**」をクリックします。

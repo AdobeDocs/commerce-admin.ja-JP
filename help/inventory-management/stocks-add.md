@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ソースを追加した後、ソースの順序を上（最初）から下（最後）に優先順位付けする必要があります。 この注文は、注文出荷中の推奨事項に影響を与えます。
 
-![ 新株 ](assets/inventory-stock-new.png){width="600" zoomable="yes"}
+![&#x200B; 新株 &#x200B;](assets/inventory-stock-new.png){width="600" zoomable="yes"}
 
 ## 在庫在庫の追加
 
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Add New Stock]**」をクリックします。
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL General]**」セクションを展開し、新しい在庫を識別する一意の **[!UICONTROL Name]** を入力します。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL General]**」セクションを展開し、新しい在庫を識別する一意の **[!UICONTROL Name]** を入力します。
 
-   ![ 一般ストックオプション ](assets/inventory-stock-general.png){width="350" zoomable="yes"}
+   ![&#x200B; 一般ストックオプション &#x200B;](assets/inventory-stock-general.png){width="350" zoomable="yes"}
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Sales Channels]**」セクションを展開し、この在庫が使用可能な **[!UICONTROL Websites]** を選択します。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL Sales Channels]**」セクションを展開し、この在庫が使用可能な **[!UICONTROL Websites]** を選択します。
 
    マルチサイトインストールの場合は、Ctrl キー（PC）または Command キー（Mac）を押しながら、各 Web サイトをクリックします。
 
@@ -37,13 +37,13 @@ ht-degree: 0%
    >
    >別の在庫に割り当てられている web サイトまたは販売チャネルを選択した場合、その在庫から割り当てられません。 カスタム在庫に割り当てられていないSales Channelは、デフォルト在庫に割り当てられます。
 
-   ![ 在庫のSales Channelオプション ](assets/inventory-sales-channel.png){width="350" zoomable="yes"}
+   ![&#x200B; 在庫のSales Channelオプション &#x200B;](assets/inventory-sales-channel.png){width="350" zoomable="yes"}
 
-1. **[!UICONTROL Sources]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、デフォルト以外のストックに対して次の操作を行います。
+1. **[!UICONTROL Sources]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、デフォルト以外のストックに対して次の操作を行います。
 
    - 「**[!UICONTROL Assign Sources]**」をクリックします。
 
-   ![ 割り当てられたソース ](assets/inventory-stock-sources.png){width="350" zoomable="yes"}
+   ![&#x200B; 割り当てられたソース &#x200B;](assets/inventory-stock-sources.png){width="350" zoomable="yes"}
 
    - 在庫に割り当てるすべてのソースのチェックボックスをオンにします。
 
@@ -55,15 +55,15 @@ ht-degree: 0%
 
      追加されたソースが「割り当てられたソース」に表示されます。
 
-     ![Stock へのソースの割り当て ](assets/inventory-assign-sources.png){width="600" zoomable="yes"}
+     ![Stock へのソースの割り当て &#x200B;](assets/inventory-assign-sources.png){width="600" zoomable="yes"}
 
-1. ![ 並べ替えアイコン ](assets/icon-sort.png) を使用して、ソースを上（最初）から下（最後）の優先度にドラッグ&amp;ドロップします。
+1. ![&#x200B; 並べ替えアイコン &#x200B;](assets/icon-sort.png) を使用して、ソースを上（最初）から下（最後）の優先度にドラッグ&amp;ドロップします。
 
    注文を出荷する際には、ソース注文が重要です。
 
-   ![ 割り当てられたソースの例 ](assets/inventory-stock-priority-after.png){width="600" zoomable="yes"}
+   ![&#x200B; 割り当てられたソースの例 &#x200B;](assets/inventory-stock-priority-after.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Save]_（メニュー矢印 ![ メニュー ](../assets/icon-menu-down-arrow-red.png) で、「**[!UICONTROL Save & Close]**」を選択します。
+1. _[!UICONTROL Save]_（メニュー矢印 ![&#x200B; メニュー &#x200B;](../assets/icon-menu-down-arrow-red.png) で、「**[!UICONTROL Save & Close]**」を選択します。
 
 ## フィールドの説明
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 | **[!UICONTROL General]** | |
 | [!UICONTROL Name] | 在庫名。 例：`UK Stock`、`US Stock` |
 | **[!UICONTROL Sales Channels]** | |
-| [!UICONTROL Websites] | 在庫を [ 販売チャネル ](../getting-started/websites-stores-views.md#scope-settings) として特定の web サイトに割り当てることにより、在庫の _範囲_ を定義します。 在庫ごとに 1 つ以上の web サイトを選択します。 各 web サイトは、1 つの在庫にのみ割り当てることができます。 |
+| [!UICONTROL Websites] | 在庫を [&#x200B; 販売チャネル &#x200B;](../getting-started/websites-stores-views.md#scope-settings) として特定の web サイトに割り当てることにより、在庫の _範囲_ を定義します。 在庫ごとに 1 つ以上の web サイトを選択します。 各 web サイトは、1 つの在庫にのみ割り当てることができます。 |
 | **[!UICONTROL Sources]** | |
 | [!UICONTROL Assign Sources] | この在庫に在庫ソースを割り当てます。 カスタムソースをデフォルトの在庫に割り当てることはできません。 |
-| [!UICONTROL Assigned Sources] | 割り当てられたソースのリスト。 ![ 並べ替えアイコン ](assets/icon-sort.png) を使用して、ソースを優先順位付けされた順序にドラッグ&amp;ドロップし、注文のフルフィルメントと出荷を行います。<br/><br/>**[!UICONTROL Code]**- ソースの一意のコード ID。<br/>**[!UICONTROL Name]** - ソースの名前説明。<br/>**[!UICONTROL Unassign]**- ![ ごみ箱アイコン ](../assets/icon-delete-trashcan-solid.png) を使用して、割り当てられたソースを在庫から削除します。 |
+| [!UICONTROL Assigned Sources] | 割り当てられたソースのリスト。 ![&#x200B; 並べ替えアイコン &#x200B;](assets/icon-sort.png) を使用して、ソースを優先順位付けされた順序にドラッグ&amp;ドロップし、注文のフルフィルメントと出荷を行います。<br/><br/>**[!UICONTROL Code]**- ソースの一意のコード ID。<br/>**[!UICONTROL Name]** - ソースの名前説明。<br/>**[!UICONTROL Unassign]**- ![&#x200B; ごみ箱アイコン &#x200B;](../assets/icon-delete-trashcan-solid.png) を使用して、割り当てられたソースを在庫から削除します。 |

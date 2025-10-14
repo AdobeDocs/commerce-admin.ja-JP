@@ -22,10 +22,10 @@ _[!UICONTROL Update Attributes]_&#x200B;ツールを使用して、商品の 1 �
 
 1. 上部の「**[!UICONTROL Actions]**」メニューをクリックし、「**[!UICONTROL Update Attributes]**」を選択します。
 
-   ![ 更新する製品を選択 ](./assets/bulk-product-updating-action.png){width="600" zoomable="yes"}
+   ![&#x200B; 更新する製品を選択 &#x200B;](./assets/bulk-product-updating-action.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、選択した製品の属性、高度な在庫または web サイトのデータを更新します。
 
-   ![ 属性の一括更新 ](./assets/bulk-product-attribute-update.png){width="600" zoomable="yes"}
+   ![&#x200B; 属性の一括更新 &#x200B;](./assets/bulk-product-attribute-update.png){width="600" zoomable="yes"}
 
 1. 終了したら、「**[!UICONTROL Save]**」をクリックします。

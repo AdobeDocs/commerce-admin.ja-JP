@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ### 静的 URL
 
-静的 URL は、特定のページの固定アドレスです。 静的 URL は、検索エンジンに適した形式、または製品やカテゴリを ID で参照する形式で表示できます。 これらの URL には、製品の検索に使用される単語が含まれており、web サーバーの書き換えを有効にする必要があります。 静的 URL を持つファイルは、製品ページとカテゴリページ、コンテンツページおよび [ テーマアセット ](../content-design/theme-assets.md) で一般的に使用されます。
+静的 URL は、特定のページの固定アドレスです。 静的 URL は、検索エンジンに適した形式、または製品やカテゴリを ID で参照する形式で表示できます。 これらの URL には、製品の検索に使用される単語が含まれており、web サーバーの書き換えを有効にする必要があります。 静的 URL を持つファイルは、製品ページとカテゴリページ、コンテンツページおよび [&#x200B; テーマアセット &#x200B;](../content-design/theme-assets.md) で一般的に使用されます。
 
 - `http://mystore.com/antonia-racer-tank.html`
 
@@ -33,17 +33,17 @@ ht-degree: 0%
 
 ### URL キー
 
-URL キーは、製品またはカテゴリを説明する静的 URL の一部です。 製品またはカテゴリを作成すると、名前に基づいて初期 URL キーが自動的に生成されます。 URL キーを変更するには、製品情報の [ 検索エンジンの最適化 ](product-search-engine-optimization.md) の節を参照してください。
+URL キーは、製品またはカテゴリを説明する静的 URL の一部です。 製品またはカテゴリを作成すると、名前に基づいて初期 URL キーが自動的に生成されます。 URL キーを変更するには、製品情報の [&#x200B; 検索エンジンの最適化 &#x200B;](product-search-engine-optimization.md) の節を参照してください。
 
 >[!NOTE]
 >
->デフォルトでは、アクセント付きの特殊文字は、URL キー内の通常のアクセント付きでないバージョンに自動的に置き換えられます。 例えば、`ñ` は自動的に `n` に置き換えられます。 この動作は、_[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;設定オプションを `No` に設定することで無効にできます。 [ カタログ URL の設定 ](#configure-catalog-urls) を参照してください。
+>デフォルトでは、アクセント付きの特殊文字は、URL キー内の通常のアクセント付きでないバージョンに自動的に置き換えられます。 例えば、`ñ` は自動的に `n` に置き換えられます。 この動作は、_[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;設定オプションを `No` に設定することで無効にできます。 [&#x200B; カタログ URL の設定 &#x200B;](#configure-catalog-urls) を参照してください。
 
 URL キーは、単語を区切るために、これらの文字の間に末尾でないハイフンを含む小文字で構成する必要があります。 URL キーの先頭または末尾にはハイフンを使用できません。 適切にデザインされた「検索エンジンに適した」 URL キーには、検索エンジンによるインデックス作成方法を向上させるために、製品名とキーワードが含まれている場合があります。 URL キーは、URL キーが変更された場合に自動リダイレクトを作成するように設定できます。
 
 >[!NOTE]
 >
->ローカライズされた URL など、URL のカスタマイズを拡張する方法については、[URL の書き換え ](../merchandising-promotions/url-rewrite.md) を参照してください。
+>ローカライズされた URL など、URL のカスタマイズを拡張する方法については、[URL の書き換え &#x200B;](../merchandising-promotions/url-rewrite.md) を参照してください。
 
 ### HTML サフィックス
 
@@ -80,7 +80,7 @@ URL キーは、単語を区切るために、これらの文字の間に末尾�
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. **[!UICONTROL Search Engine Optimizations]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、オプションを設定します。
+1. **[!UICONTROL Search Engine Optimizations]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、オプションを設定します。
 
    - **[!UICONTROL Product URL Suffix]** を `html` または `htm` に設定します。 サフィックスは自動的に適用されるので、ピリオドを付けずに入力します。
 
@@ -88,17 +88,17 @@ URL キーは、単語を区切るために、これらの文字の間に末尾�
 
    - **[!UICONTROL Use Categories Path for Product URLs]** を好みに合わせて設定します。
 
-   ![ 検索エンジンの最適化 ](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![&#x200B; 検索エンジンの最適化 &#x200B;](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
-   これらのオプションの詳細なリストについては、[ 設定リファレンス ](../configuration-reference/catalog/catalog.md#search-engine-optimization) の _検索エンジンの最適化_ を参照してください。
+   これらのオプションの詳細なリストについては、[&#x200B; 設定リファレンス &#x200B;](../configuration-reference/catalog/catalog.md#search-engine-optimization) の _検索エンジンの最適化_ を参照してください。
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 1. プロンプトが表示されたら、システムメッセージの **[!UICONTROL Cache Management]** リンクをクリックし、無効なキャッシュを更新します。
 
-   ![ キャッシュの更新 ](./assets/msg-cache-management.png){width="450" zoomable="yes"}
+   ![&#x200B; キャッシュの更新 &#x200B;](./assets/msg-cache-management.png){width="450" zoomable="yes"}
 
-   これらのオプションについて詳しくは、[ キャッシュの更新 ](../systems/cache-management.md#refresh-specific-caches) を参照してください。
+   これらのオプションについて詳しくは、[&#x200B; キャッシュの更新 &#x200B;](../systems/cache-management.md#refresh-specific-caches) を参照してください。
 
 ## カタログメディアの URL 形式の設定
 
@@ -106,11 +106,11 @@ URL キーは、単語を区切るために、これらの文字の間に末尾�
 
 1. 左側のパネルで「**[!UICONTROL General]**」を展開し、「**[!UICONTROL Web]**」を選択します。
 
-1. **[!UICONTROL Url Options]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、オプションを設定します。
+1. **[!UICONTROL Url Options]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、オプションを設定します。
 
-![Web > 一般オプション ](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
+![Web > 一般オプション &#x200B;](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
 
-| フィールド | [ 範囲 ](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | グローバル | Web サーバーの書き換えが有効な場合、この設定を有効にすると、現在のビューのストア コードが URL に挿入されます。 オプション：`Yes` / `No` |
 | [!UICONTROL Auto-redirect to Base URL] | グローバル | （シングルストア設定の場合）サイトに壊れたリンクがある場合、「404 Page Not Found」というメッセージが表示されたページではなく、ベース URL にトラフィックがリダイレクトされます。 オプション：`No`/`Yes (302 Found)`/`Yes (301 Moved Permanently)`<br /><br />**_重要！_**&#x200B;マルチストア設定の場合は、ベース URL への自動リダイレクトを使用しないでください。 |

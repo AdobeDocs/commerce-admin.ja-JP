@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ストアフロントでは、会社ユーザーは会社の管理者によって割り当てられ、_[!UICONTROL Company Users]_&#x200B;ページに表示されます。 これらの個人は、通常、ストアのサービスやリソースにアクセスする権限のレベルが異なる買い手です。
 
-会社の管理者は、まず [ 会社の構造 ](account-company-structure.md) を設定し、必要に応じて次のタスクを実行します。
+会社の管理者は、まず [&#x200B; 会社の構造 &#x200B;](account-company-structure.md) を設定し、必要に応じて次のタスクを実行します。
 
 - 会社ユーザーの作成とチームへのユーザーの割り当て
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. 左側のパネルで、「**[!UICONTROL Company Users]**」を選択します。
 
-   ![ 会社ユーザー ](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
+   ![&#x200B; 会社ユーザー &#x200B;](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL Add New User]** をクリックして、次の操作を実行します。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    - 役割と権限が定義されている場合は、適切な **[!UICONTROL User Role]** を選択します。 そうしないと、後で戻って役割を割り当てることができます。
 
-     ![ 新しいユーザーを追加 ](./assets/company-structure-users-add.png){width="700" zoomable="yes"}
+     ![&#x200B; 新しいユーザーを追加 &#x200B;](./assets/company-structure-users-add.png){width="700" zoomable="yes"}
 
    - 残りのフィールドにユーザー情報を追加します。
       - **[!UICONTROL First Name]** と **[!UICONTROL Last Name]**
@@ -56,7 +56,7 @@ ht-degree: 0%
 
    新しいユーザーが、会社管理者と共に会社ユーザーリストに表示されます。
 
-初回注文時の時間を節約するために、会社の管理者は、各会社のユーザーに、デフォルトの会社の請求と配送先住所を [ アドレス帳 ](../customers/account-dashboard-address-book.md) に追加するようリマインダーできます。
+初回注文時の時間を節約するために、会社の管理者は、各会社のユーザーに、デフォルトの会社の請求と配送先住所を [&#x200B; アドレス帳 &#x200B;](../customers/account-dashboard-address-book.md) に追加するようリマインダーできます。
 
 ## [!UICONTROL Company structure] からのユーザーの削除
 
@@ -73,17 +73,17 @@ ht-degree: 0%
 
 1. **[!UICONTROL Remove from Structure]** をクリックします。
 
-   ![ ユーザーの削除 ](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
+   ![&#x200B; ユーザーの削除 &#x200B;](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
 
 1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL Remove]**」をクリックします。
 
-   管理者では、会社ユーザーは [ 顧客 ](../customers/customers-all.md) グリッドに引き続き表示されますが、ステータスは `Inactive` です。
+   管理者では、会社ユーザーは [&#x200B; 顧客 &#x200B;](../customers/customers-all.md) グリッドに引き続き表示されますが、ステータスは `Inactive` です。
 
 ## 会社ユーザーアカウントの表示と管理
 
 会社管理者は、[!UICONTROL Company Users] のページのフィルターの表示を使用して、会社のユーザーアカウントを表示および管理できます。
 
-![ 会社ユーザー ](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
+![&#x200B; 会社ユーザー &#x200B;](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
 - **[!UICONTROL Show Inactive Users]** を選択して、非アクティブなユーザーのみを表示します。
 - **[!UICONTROL Show Active Users]** を選択して、アクティブなユーザーのみを表示します。
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 1. [!UICONTROL Company Users] ページで、更新するユーザーアカウントを見つけます。 「**[!UICONTROL Manage]**」をクリックします。
 
-   ![ 会社ユーザーページからのユーザーの管理 ](./assets/company-users-manage-storefront.png){width="600" zoomable="yes"}
+   ![&#x200B; 会社ユーザーページからのユーザーの管理 &#x200B;](./assets/company-users-manage-storefront.png){width="600" zoomable="yes"}
 
 1. プロンプトが表示されたら、必要に応じてユーザーアカウントを無効にするか削除します。
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 | フィールド | 説明 |
 |--------------------------------|---------------|
 | [!UICONTROL Job Title] | 会社ユーザーの役職。 |
-| [!UICONTROL User Role] | 会社ユーザーに割り当てられた [ 役割 ](account-company-roles-permissions.md)。 オプション：`Default User` / （その他の役割） |
+| [!UICONTROL User Role] | 会社ユーザーに割り当てられた [&#x200B; 役割 &#x200B;](account-company-roles-permissions.md)。 オプション：`Default User` / （その他の役割） |
 | [!UICONTROL First Name] | 会社ユーザーの名。 |
 | [!UICONTROL Last Name] | 会社ユーザーの姓。 |
 | [!UICONTROL Email] | 会社ユーザーの電子メールアドレス。 |

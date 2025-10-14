@@ -39,9 +39,9 @@ ht-degree: 0%
 
 この商品の販売可能数量は `75 (25 - (-50))` です。
 
-![ バックオーダーが有効化される前の販売可能数量の例 ](assets/inventory-backorders-before.png){width="600" zoomable="yes"}
+![&#x200B; バックオーダーが有効化される前の販売可能数量の例 &#x200B;](assets/inventory-backorders-before.png){width="600" zoomable="yes"}
 
-![ バックオーダーが有効化された後の販売可能数量の例 ](assets/inventory-backorders-after.png){width="600" zoomable="yes"}
+![&#x200B; バックオーダーが有効化された後の販売可能数量の例 &#x200B;](assets/inventory-backorders-after.png){width="600" zoomable="yes"}
 
 顧客が使用可能な 25 個の製品を購入すると、新規オーダーはバックオーダーとして入力されます。 製品の販売可能数量が 5 に減ると（70 個の品目が販売されました）、「_製品_」ページにストアフロントにメッセージ `Only 5 left` が表示されます。 販売可能数量が `0` に達すると、製品はストアフロントに `Out of Stock` として表示されます。
 
@@ -67,7 +67,7 @@ The _Notify for Quantity Below_ configuration option is configurable at the glob
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、「**[!UICONTROL Inventory]**」を選択します。
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png) **[!UICONTROL Product Stock Options]** を展開します。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Product Stock Options]** を展開します。
 
 1. **[!UICONTROL Backorders]** の場合は、「**[!UICONTROL Use system value]**」チェックボックスの選択を解除し、オプションを選択します。
 
@@ -117,6 +117,6 @@ The _Notify for Quantity Below_ configuration option is configurable at the glob
    | ゼロ | 「バックオーダー」が使用可能になっている場合は、`0` と入力すると無限バックオーダーが可能になります。 |
    | マイナスの金額 | 「バックオーダー」を使用可能にする場合は、マイナスの値を入力することをお薦めします。 金額は販売可能数量に追加されます。 例えば、`-50` と入力すると、その金額を上限とする注文が許可されます。 |
 
-   ![ バックオーダー用に構成された事前在庫 ](assets/inventory-backorders-product-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; バックオーダー用に構成された事前在庫 &#x200B;](assets/inventory-backorders-product-settings.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Done]**」をクリックし、「**[!UICONTROL Save]**」をクリックします。

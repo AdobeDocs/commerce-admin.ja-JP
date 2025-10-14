@@ -20,9 +20,9 @@ ht-degree: 0%
 - [!UICONTROL Rejected]
 - [!UICONTROL Blocked]
 
-[ アクションコントロール ](account-company-manage.md) を使用して、複数の会社リクエストを承認することもできます。
+[&#x200B; アクションコントロール &#x200B;](account-company-manage.md) を使用して、複数の会社リクエストを承認することもできます。
 
-![ 承認保留中 ](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
+![&#x200B; 承認保留中 &#x200B;](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
 
 ## 保留中の会社アカウントを承認
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Company Status]** を `Active` に設定します。
 
-   ![ 会社ステータスの設定 ](./assets/company-status-active.png){width="700" zoomable="yes"}
+   ![&#x200B; 会社ステータスの設定 &#x200B;](./assets/company-status-active.png){width="700" zoomable="yes"}
 
 1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL Change status]**」をクリックします。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. 該当する場合、**[!UICONTROL Sales Representative]** を特定の管理者ユーザーアカウントに設定します。
 
-1. 「**[!UICONTROL Account Information]**![ 展開セレクター ](../assets/icon-display-expand.png)」セクションを展開し、「**[!UICONTROL Comment]**」フィールドを使用して、アカウントに関するメモを入力します。
+1. 「**[!UICONTROL Account Information]**![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」セクションを展開し、「**[!UICONTROL Comment]**」フィールドを使用して、アカウントに関するメモを入力します。
 
    コメントはストアフロントからは表示されません。
 

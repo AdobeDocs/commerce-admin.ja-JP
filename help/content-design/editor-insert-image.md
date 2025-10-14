@@ -14,11 +14,11 @@ ht-degree: 0%
 
 エディターから、次の 3 つのソースタイプを使用して画像を挿入できます。
 
-- [ メディアストレージ ](media-storage.md) にアップロードされた画像を追加
+- [&#x200B; メディアストレージ &#x200B;](media-storage.md) にアップロードされた画像を追加
 - 別のサーバーにある画像へのリンク
 - Adobe Stock統合を使用したAdobe Stock アセットの検索と使用
 
-![ メディアストレージ ](./assets/media-storage.png){width="650" zoomable="yes"}
+![&#x200B; メディアストレージ &#x200B;](./assets/media-storage.png){width="650" zoomable="yes"}
 
 1. ページ、ブロック、またはダイナミックブロックを編集モードで開きます。
 
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 1. エディターツールバーで、「_画像を挿入_ アイコンをクリックします。
 
-   ![ 画像を挿入アイコン ](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
+   ![&#x200B; 画像を挿入アイコン &#x200B;](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
    この操作を実行すると、_[!UICONTROL Insert/edit image]_&#x200B;ダイアログが開きます。
 
 1. **Source** の場合は、「_検索_ アイコンをクリックし、使用する画像アセットの場所に一致するメソッドを使用します。
 
-   ![ 検索アイコンの選択 ](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
+   ![&#x200B; 検索アイコンの選択 &#x200B;](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 
    - **新しい画像をアップロード**：新しい画像ファイルをアップロードするには、この方法を使用します。
 

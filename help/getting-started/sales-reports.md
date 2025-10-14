@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Web サイト全体または 1 つのストアに関する販売レポートを生成できます。 売上レポートは、時間間隔、日付、ステータスでフィルタリングできます。
 
-![ 販売レポートフィルター ](./assets/tax-report.png){width="600"}
+![&#x200B; 販売レポートフィルター &#x200B;](./assets/tax-report.png){width="600"}
 
 売上レポートをフィルタするには、次のオプションを設定します。
 
@@ -41,7 +41,7 @@ Web サイト全体または 1 つのストアに関する販売レポートを�
 
 1. 「**[!UICONTROL Show Report]**」をクリックします。
 
-![ 注文件数レポートの記録 ](./assets/order-report-records.png){width="600"}
+![&#x200B; 注文件数レポートの記録 &#x200B;](./assets/order-report-records.png){width="600"}
 
 ## [!UICONTROL Tax Report]
 
@@ -54,7 +54,7 @@ Web サイト全体または 1 つのストアに関する販売レポートを�
 
 1. 「**[!UICONTROL Show Report]**」をクリックします。
 
-![ 税に関する調書 ](./assets/tax-report-records.png){width="600"}
+![&#x200B; 税に関する調書 &#x200B;](./assets/tax-report-records.png){width="600"}
 
 ## [!UICONTROL Invoice Report]
 
@@ -66,7 +66,7 @@ Web サイト全体または 1 つのストアに関する販売レポートを�
 
 1. 「**[!UICONTROL Show Report]**」をクリックします。
 
-![ 請求書レポート ](./assets/sales-invoiced.png){width="600"}
+![&#x200B; 請求書レポート &#x200B;](./assets/sales-invoiced.png){width="600"}
 
 ## [!UICONTROL Shipping Report]
 
@@ -78,7 +78,7 @@ Web サイト全体または 1 つのストアに関する販売レポートを�
 
 1. 「**[!UICONTROL Show Report]**」をクリックします。
 
-![ 送料の明細 ](./assets/shipping.png){width="600"}
+![&#x200B; 送料の明細 &#x200B;](./assets/shipping.png){width="600"}
 
 ## [!UICONTROL Refunds Report]
 
@@ -90,7 +90,7 @@ Web サイト全体または 1 つのストアに関する販売レポートを�
 
 1. 「**[!UICONTROL Show Report]**」をクリックします。
 
-![ 返戻金報告書 ](./assets/sales-refunds.png){width="600"}
+![&#x200B; 返戻金報告書 &#x200B;](./assets/sales-refunds.png){width="600"}
 
 ## [!UICONTROL Coupons Report]
 
@@ -102,7 +102,7 @@ Web サイト全体または 1 つのストアに関する販売レポートを�
 
 1. 「**[!UICONTROL Show Report]**」をクリックします。
 
-[!UICONTROL Coupons Report] を使用したプロモーションキャンペーンのデータ収集について詳しくは、『 [ マーチャンダイジングおよびプロモーションガイド ](../merchandising-promotions/price-rules-cart-coupon.md#coupons-report) の _クーポンレポート_ を参照してください。
+[!UICONTROL Coupons Report] を使用したプロモーションキャンペーンのデータ収集について詳しくは、『 [&#x200B; マーチャンダイジングおよびプロモーションガイド &#x200B;](../merchandising-promotions/price-rules-cart-coupon.md#coupons-report) の _クーポンレポート_ を参照してください。
 
 <!--- ![Coupons Report](./assets/sales-coupons.png) need coupon data  -->
 
@@ -112,9 +112,9 @@ Web サイト全体または 1 つのストアに関する販売レポートを�
 
 _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Sales]_/**[!UICONTROL PayPal Settlement]**&#x200B;に移動します。
 
-![PayPal 決済レポート ](./assets/reports-sales-paypal-settlement.png){width="600"}
+![PayPal 決済レポート &#x200B;](./assets/reports-sales-paypal-settlement.png){width="600"}
 
-[!UICONTROL PayPal Settlement Reports] を使用して、資金決済に影響を与える各 PayPal 取引に関する情報を取得する方法については、『 [ ストアと購入エクスペリエンスガイド ](../stores-purchase/paypal-settlement-reports.md) 』の _PayPal 決済レポート_ を参照してください。
+[!UICONTROL PayPal Settlement Reports] を使用して、資金決済に影響を与える各 PayPal 取引に関する情報を取得する方法については、『 [&#x200B; ストアと購入エクスペリエンスガイド &#x200B;](../stores-purchase/paypal-settlement-reports.md) 』の _PayPal 決済レポート_ を参照してください。
 
 ## [!UICONTROL Braintree Settlement Report]
 
@@ -134,7 +134,7 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Sales]_/*
 
 販売レポートの生成によるパフォーマンスへの影響を軽減するため、[!DNL Commerce] では、各レポートに必要な統計を計算して保存します。 統計を更新しない限り、レポートが生成されるたびに統計を再計算するのではなく、保存された統計が使用されます。 最新のデータを含めるには、販売レポートを生成する前に、レポート統計を更新する必要があります。
 
-![ 統計の更新 ](./assets/refresh-stats.png){width="700"}
+![&#x200B; 統計の更新 &#x200B;](./assets/refresh-stats.png){width="700"}
 
 1. _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Statistics]_/**[!UICONTROL Refresh Statistics]**&#x200B;に移動します。
 

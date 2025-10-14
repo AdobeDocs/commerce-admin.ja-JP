@@ -21,4 +21,4 @@ ht-degree: 0%
 * [**[!UICONTROL My Recent Reviews]**](../merchandising-promotions/product-reviews.md#product-reviews-on-the-storefront)
 * [**[!UICONTROL Recent Orders]**](../stores-purchase/orders-storefront.md#view-recently-ordered-products)
 
-![ ストアフロントのマイアカウントページ ](assets/account-dashboard-my-account.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントのマイアカウントページ &#x200B;](assets/account-dashboard-my-account.png){width="700" zoomable="yes"}

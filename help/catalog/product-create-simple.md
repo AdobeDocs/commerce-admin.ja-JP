@@ -14,21 +14,21 @@ ht-degree: 0%
 
 製品タイプの力を活用するための鍵の 1 つは、シンプルなスタンドアロン製品を使用するタイミングを学ぶことです。 シンプルな製品は、個別に販売することも、グループ化された製品、設定可能な製品、バンドル製品の一部として販売することもできます。 カスタムオプションを持つ単純な製品は、_複合製品_ と呼ばれることもあります。
 
-次の手順では、[ 製品テンプレート ](attribute-sets.md)、必須フィールド、基本設定を使用してシンプルな製品を作成するプロセスを示しています。 各必須フィールドには、赤いアスタリスク（`*`）が付いています。 基本を完了したら、必要に応じて他の製品設定を完了できます。
+次の手順では、[&#x200B; 製品テンプレート &#x200B;](attribute-sets.md)、必須フィールド、基本設定を使用してシンプルな製品を作成するプロセスを示しています。 各必須フィールドには、赤いアスタリスク（`*`）が付いています。 基本を完了したら、必要に応じて他の製品設定を完了できます。
 
-![ シンプルな製品 ](./assets/product-simple.png){width="700" zoomable="yes"}
+![&#x200B; シンプルな製品 &#x200B;](./assets/product-simple.png){width="700" zoomable="yes"}
 
 ## 手順 1：製品タイプの選択
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
-1. 右上の _[!UICONTROL Add Product]_（メニュー矢印 ![ メニューで ](../assets/icon-menu-down-arrow-red.png){width="25"} 「」を選択&#x200B;**[!UICONTROL Simple Product]**&#x200B;ます。
+1. 右上の _[!UICONTROL Add Product]_（メニュー矢印 ![&#x200B; メニューで &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"} 「」を選択&#x200B;**[!UICONTROL Simple Product]**&#x200B;ます。
 
-   ![ シンプルな製品を追加 ](./assets/product-add-simple.png){width="700" zoomable="yes"}
+   ![&#x200B; シンプルな製品を追加 &#x200B;](./assets/product-add-simple.png){width="700" zoomable="yes"}
 
 ## 手順 2：属性セットの選択
 
-製品のテンプレートとして使用する [ 属性セット ](attribute-sets.md) を選択するには：
+製品のテンプレートとして使用する [&#x200B; 属性セット &#x200B;](attribute-sets.md) を選択するには：
 
 - 「**[!UICONTROL Attribute Set]**」フィールドをクリックし、属性セット名の全部または一部を入力します。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 フォームが更新され、変更が反映されます。
 
-![ 属性セットを選択 ](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
+![&#x200B; 属性セットを選択 &#x200B;](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
 
 ## 手順 3：必要な設定を完了する
 
@@ -50,11 +50,11 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Save]**」をクリックして続行します。
 
-   商品を保存すると、左上隅に [ ストア表示 ](introduction.md#product-scope) 選択が表示されます。
+   商品を保存すると、左上隅に [&#x200B; ストア表示 &#x200B;](introduction.md#product-scope) 選択が表示されます。
 
 1. 製品を使用できる **[!UICONTROL Store View]** を選択します。
 
-   ![ ストア表示の選択 ](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![&#x200B; ストア表示の選択 &#x200B;](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## 手順 4：基本設定を完了する
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
    - 「**[!UICONTROL Create Category]**」をクリックします。
 
-1. [ 新製品 ](../content-design/widget-new-products-list.md) のリストに製品を特集するには、「**[!UICONTROL Set Product as New]**」チェックボックスを選択します。
+1. [&#x200B; 新製品 &#x200B;](../content-design/widget-new-products-list.md) のリストに製品を特集するには、「**[!UICONTROL Set Product as New]**」チェックボックスを選択します。
 
 1. **[!UICONTROL Country of Manufacture]** を選択します。
 
@@ -132,15 +132,15 @@ ht-degree: 0%
 
       - 右上隅の「**[!UICONTROL Save]**」をクリックします。
 
-      - ストアで製品を表示するには、**[!UICONTROL Customer View]** 管理者 _（_ メニュー矢印 ![）メニューで ](../assets/icon-menu-down-arrow-black.png) を選択します。
+      - ストアで製品を表示するには、**[!UICONTROL Customer View]** 管理者 _（_ メニュー矢印 ![）メニューで &#x200B;](../assets/icon-menu-down-arrow-black.png) を選択します。
 
      ストアが新しいブラウザータブで開きます。
 
-     ![ 顧客ビュー ](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
+     ![&#x200B; 顧客ビュー &#x200B;](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
    - **方法 2:** 保存して閉じる
 
-     _[!UICONTROL Save]_（メニュー矢印 ![ メニューで ](../assets/icon-menu-down-arrow-red.png){width="25"} 「**[!UICONTROL Save & Close]**」を選択します。
+     _[!UICONTROL Save]_（メニュー矢印 ![&#x200B; メニューで &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"} 「**[!UICONTROL Save & Close]**」を選択します。
 
 ## 注意事項
 

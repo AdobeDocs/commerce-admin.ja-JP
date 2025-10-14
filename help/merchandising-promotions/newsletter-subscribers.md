@@ -18,7 +18,7 @@ ht-degree: 0%
 
 複数のストア表示を使用した単一サイトの設定では、顧客アカウントの購読を特定のストア表示に関連付けることができます。
 
-グローバルな [ 顧客アカウント範囲 ](../customers/customer-account-scope.md) を使用したマルチストアおよびマルチサイト設定では、顧客アカウントは複数のサイト/ストアのニュースレターを購読できます。 この場合、顧客アカウントを編集して購読のグループを管理したり、特定のサイト/ストアの購読をキャンセルしてリクエストに応じることができます。
+グローバルな [&#x200B; 顧客アカウント範囲 &#x200B;](../customers/customer-account-scope.md) を使用したマルチストアおよびマルチサイト設定では、顧客アカウントは複数のサイト/ストアのニュースレターを購読できます。 この場合、顧客アカウントを編集して購読のグループを管理したり、特定のサイト/ストアの購読をキャンセルしてリクエストに応じることができます。
 
 サードパーティのサービスを使用してニュースレターを送信する場合は、購読リストを CSV または XML ファイルとして書き出すことができます。
 
@@ -34,15 +34,15 @@ ht-degree: 0%
 
    単一サイト/単一ストアを設定する場合は、「**[!UICONTROL Subscribed to Newsletter]**」チェックボックスをオンまたはオフにするだけです。
 
-   ![ シングルストア顧客ニュースレター購読チェックボックス ](./assets/newsletter-customer-single-store.png){width="500" zoomable="yes"}
+   ![&#x200B; シングルストア顧客ニュースレター購読チェックボックス &#x200B;](./assets/newsletter-customer-single-store.png){width="500" zoomable="yes"}
 
    単一サイト/マルチストアを設定する場合は、「**[!UICONTROL Subscribed to Newsletter]**」チェックボックスをオンまたはオフにして、サブスクリプションに対して適切 **[!UICONTROL Subscribed on Store View]** ストア表示に設定します。
 
-   ![ マルチストア顧客ニュースレター購読チェックボックスとストア表示セレクター ](./assets/newsletter-customer-multi-store.png){width="500" zoomable="yes"}
+   ![&#x200B; マルチストア顧客ニュースレター購読チェックボックスとストア表示セレクター &#x200B;](./assets/newsletter-customer-multi-store.png){width="500" zoomable="yes"}
 
    グローバル顧客アカウント範囲を使用したマルチサイト/マルチストア設定の場合、ページには、すべてのサイトの購読ステータスが表示されます。 「**[!UICONTROL Subscribed]**」チェックボックスをオンまたはオフにしたり、購読の **[!UICONTROL Store View]** を変更したりできます。
 
-   ![ マルチサイト顧客ニュースレター購読チェックボックスとストア表示セレクター ](./assets/newsletter-customer-multi-site.png){width="500" zoomable="yes"}
+   ![&#x200B; マルチサイト顧客ニュースレター購読チェックボックスとストア表示セレクター &#x200B;](./assets/newsletter-customer-multi-site.png){width="500" zoomable="yes"}
 
 1. 「**[!UICONTROL Save Customer]**」をクリックします。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. _[!UICONTROL Action]_&#x200B;コントロールを&#x200B;**[!UICONTROL Unsubscribe]**&#x200B;に設定し、**[!UICONTROL Submit]**&#x200B;をクリックします。
 
-   ![ ニュースレターの登録解除 ](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
+   ![&#x200B; ニュースレターの登録解除 &#x200B;](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
    レコードのステータスが「`Unsubscribed`」に変わります。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Export]**」をクリックして画面の下部に表示されるプロンプトを探し、ファイルを保存します。
 
-   ![ ニュースレター購読者のエクスポート ](./assets/newsletter-subscribers-export.png){width="600" zoomable="yes"}
+   ![&#x200B; ニュースレター購読者のエクスポート &#x200B;](./assets/newsletter-subscribers-export.png){width="600" zoomable="yes"}
 
 ## サブスクライバーリストからサブスクライバーを削除します
 

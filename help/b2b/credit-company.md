@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # 会社クレジットの管理
 
-B2B 企業は、即時の支払いを要求するのではなく、事前に承認されたクレジットラインに対して購入を行うことができます。 [ アカウントでの支払い ](../b2b/enable-basic-features.md#configure-payment-on-account) が有効になっている場合、企業は与信限度額まで購入でき、アカウントダッシュボードから与信状況を表示できます。
+B2B 企業は、即時の支払いを要求するのではなく、事前に承認されたクレジットラインに対して購入を行うことができます。 [&#x200B; アカウントでの支払い &#x200B;](../b2b/enable-basic-features.md#configure-payment-on-account) が有効になっている場合、企業は与信限度額まで購入でき、アカウントダッシュボードから与信状況を表示できます。
 
-![ 企業信用 ](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
+![&#x200B; 企業信用 &#x200B;](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
 会社クレジットを使用すると、次のことが可能です。
 
@@ -30,7 +30,7 @@ B2B 企業は、即時の支払いを要求するのではなく、事前に承�
 会社クレジットを設定する前に、次のことを確認します。
 
 * B2B 機能は、Adobe Commerceのインストールで有効になっています
-* [ 分割払い ](../b2b/enable-basic-features.md#configure-payment-on-account) が構成され、有効になっています
+* [&#x200B; 分割払い &#x200B;](../b2b/enable-basic-features.md#configure-payment-on-account) が構成され、有効になっています
 * 会社アカウントは、必要なビジネス情報で適切に設定されています
 * 会社の与信設定を管理する管理者権限があります
 * 複数通貨で動作する場合は、通貨設定が構成されます
@@ -54,7 +54,7 @@ B2B 企業は、即時の支払いを要求するのではなく、事前に承�
 * **与信限度額を超える許可** – 企業が使用可能な与信限度額を超えて注文を行えるかどうか
 * **変更の理由** - クレジット設定の変更を記録するためのドキュメント・フィールド
 
-これらの設定と会社プロファイルの設定について詳しくは、[ 会社アカウントの作成 ](account-company-create.md) を参照してください。
+これらの設定と会社プロファイルの設定について詳しくは、[&#x200B; 会社アカウントの作成 &#x200B;](account-company-create.md) を参照してください。
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ B2B 企業は、即時の支払いを要求するのではなく、事前に承�
 
 会社プロファイルの「[!UICONTROL Company Credit]」セクションには、すべてのクレジット取引、残高変更および支払アクティビティの完全な履歴がグリッド形式で表示されます。
 
-![ 企業信用活動 ](./assets/company-credit-reimbursements-grid.png){width="700" zoomable="yes"}
+![&#x200B; 企業信用活動 &#x200B;](./assets/company-credit-reimbursements-grid.png){width="700" zoomable="yes"}
 
 グリッドには、各トランザクションに関する次の情報が表示されます。
 
@@ -74,7 +74,7 @@ B2B 企業は、即時の支払いを要求するのではなく、事前に承�
 | [!UICONTROL Operation] | トランザクションに関連付けられている活動のタイプ。 値：<br/>**[!UICONTROL Allocated]**– 会社に割り当てられたクレジット。<br/>**[!UICONTROL Updated]** – 次のいずれかのフィールドに変更が適用されました：[!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**– 注文が行われました。<br/>**[!UICONTROL Reimbursed]** – 未払残高が返済されました。 <br/>**[!UICONTROL Refunded]**- クレジット・メモ金額が払戻された場合。<br/>**[!UICONTROL Reverted]** – 注文がキャンセルされ、クレジット残高に返された金額。 |
 | [!UICONTROL Amount] | 次の取引タイプに関連付けられている取引の金額：`Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/> 購買金額の場合、金額は店舗の表示通貨およびクレジット通貨設定の形式で表示され、その後に現在の換算レート（該当する場合）が続きます。 例：<br/>EUR 20,000.00 （$22,400.00） <br/>USD/EUR 0.8928 |
 | [!UICONTROL Outstanding Balance] | 払い戻された金額から、分割払い方法を使用して行われたすべての注文の合計金額を差し引いた金額。 金額は、正または負の値として表示される場合があります。 <br/>**[!UICONTROL Positive value]**– 前払いは正の値で表されます。<br/>**[!UICONTROL Negative value]** – 未払額は負の値で表されます。 |
-| [!UICONTROL Available Credit] | _[!UICONTROL Credit Limit]_&#x200B;と_[!UICONTROL Outstanding Balance]_ の合計。 会社が与信限度額を超えた場合、金額は負の値として表示されます。 |
+| [!UICONTROL Available Credit] | _[!UICONTROL Credit Limit]_&#x200B;と&#x200B;_[!UICONTROL Outstanding Balance]_ の合計。 会社が与信限度額を超えた場合、金額は負の値として表示されます。 |
 | [!UICONTROL Credit Limit] | 会社に対して延長されるクレジットの金額。 |
 | [!UICONTROL Updated By] | 操作を開始したユーザーの名前。 |
 | [!UICONTROL Custom Reference Number] | トランザクションに関連付けられているカスタム参照番号。 |
@@ -113,7 +113,7 @@ B2B 企業は、即時の支払いを要求するのではなく、事前に承�
 
 1. ダイアログで、支払い情報を追加します。
 
-   ![ 差引残高 ](./assets/company-reimburse-balance.png){width="500"}
+   ![&#x200B; 差引残高 &#x200B;](./assets/company-reimburse-balance.png){width="500"}
 
    * 支払の **金額** を入力します。
 
@@ -133,7 +133,7 @@ B2B 企業は、即時の支払いを要求するのではなく、事前に承�
 
 1. **[!UICONTROL Edit]** モードで会社プロファイルを開きます。
 
-1. ![ 拡張セレクター ](../assets/icon-display-expand.png) 「**会社クレジット**」セクションを展開します。
+1. ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) 「**会社クレジット**」セクションを展開します。
 
 1. グリッドで償還トランザクションを検索し、「**[!UICONTROL Edit]**」をクリックします。
 
@@ -147,7 +147,7 @@ B2B 企業は、即時の支払いを要求するのではなく、事前に承�
 
 会社管理者は、未回収残高、使用可能クレジット、与信限度額および未回収請求書などのクレジット情報をアカウント・ダッシュボードに表示できます。 注文がキャンセルされると、金額は会社の残高に戻り、「クレジット配分履歴」フィールドに表示されます。
 
-![ 企業信用 ](./assets/company-credit.png){width="700" zoomable="yes"}
+![&#x200B; 企業信用 &#x200B;](./assets/company-credit.png){width="700" zoomable="yes"}
 
 ## 会社クレジットデモ
 
@@ -176,9 +176,9 @@ B2B 企業は、即時の支払いを要求するのではなく、事前に承�
 
 >[!MORELIKETHIS]
 >
->* [B2B 機能を有効にする ](enable-basic-features.md) * アカウントの支払いおよびその他の B2B 機能の設定
->* [ 会社アカウントの作成 ](account-company-create.md) * クレジット機能を持つ会社アカウントを設定します
->* [ 会社の管理 ](manage-companies.md) *会社管理機能の概要
->* [ 会社の役割と権限 ](account-company-roles-permissions.md) * クレジット管理のためのユーザーアクセスの設定
->* [ 発注書ワークフロー ](purchase-order-flow.md) * クレジットが発注書とどのように統合されるかを理解します
->* [B2B 設定リファレンス ](../configuration-reference/general/b2b-features.md) - B2B 機能の詳細な設定
+>* [B2B 機能を有効にする &#x200B;](enable-basic-features.md) * アカウントの支払いおよびその他の B2B 機能の設定
+>* [&#x200B; 会社アカウントの作成 &#x200B;](account-company-create.md) * クレジット機能を持つ会社アカウントを設定します
+>* [&#x200B; 会社の管理 &#x200B;](manage-companies.md) *会社管理機能の概要
+>* [&#x200B; 会社の役割と権限 &#x200B;](account-company-roles-permissions.md) * クレジット管理のためのユーザーアクセスの設定
+>* [&#x200B; 発注書ワークフロー &#x200B;](purchase-order-flow.md) * クレジットが発注書とどのように統合されるかを理解します
+>* [B2B 設定リファレンス &#x200B;](../configuration-reference/general/b2b-features.md) - B2B 機能の詳細な設定

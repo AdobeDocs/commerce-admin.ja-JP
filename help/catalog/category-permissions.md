@@ -22,7 +22,7 @@ ht-degree: 0%
 
 例えば、卸売の顧客にのみ販売する場合、誰でもカタログを参照できるように設定し、_卸売_ 顧客グループの買い物客にのみ価格を表示して購入を許可することができます。 次の例では、ログインユーザーのみが「コレクション」カテゴリにアクセスできます。 ゲストの場合、「コレクション」オプションはメインメニューに表示されません。
 
-![ ログインユーザーに、「コレクション」カテゴリが表示される ](./assets/storefront-category-permissions-logged-in.png){width="600" zoomable="yes"}
+![&#x200B; ログインユーザーに、「コレクション」カテゴリが表示される &#x200B;](./assets/storefront-category-permissions-logged-in.png){width="600" zoomable="yes"}
 
 有効にすると、新しい「_[!UICONTROL Category Permissions]_」セクションがカテゴリ ページに表示され、各カテゴリに必要なアクセスを適用できます。 様々な web サイトや顧客グループのカテゴリごとに、複数の権限ルールを追加できます。
 
@@ -30,17 +30,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**_[!UICONTROL Shared Catalog]_** 機能が有効な場合、既存のすべての [ グループ権限設定 ](../configuration-reference/catalog/catalog.md#category-permissions) は、カタログ内の **_すべて_** カテゴリで無視されます。 カタログ [!UICONTROL Shared Catalog] 有効にすると、カタログのすべてのカテゴリ権限が完全に制御されます。
+>**_[!UICONTROL Shared Catalog]_** 機能が有効な場合、既存のすべての [&#x200B; グループ権限設定 &#x200B;](../configuration-reference/catalog/catalog.md#category-permissions) は、カタログ内の **_すべて_** カテゴリで無視されます。 カタログ [!UICONTROL Shared Catalog] 有効にすると、カタログのすべてのカテゴリ権限が完全に制御されます。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Category Permissions]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Category Permissions]**」セクションを展開します。
 
-   ![ カテゴリの権限 ](../configuration-reference/catalog/assets/catalog-category-permissions.png){width="600" zoomable="yes"}
+   ![&#x200B; カテゴリの権限 &#x200B;](../configuration-reference/catalog/assets/catalog-category-permissions.png){width="600" zoomable="yes"}
 
-   これらのオプションの詳細なリストについては、[ 設定リファレンス ](../configuration-reference/catalog/catalog.md#category-permissions) の _カテゴリ権限_ を参照してください。
+   これらのオプションの詳細なリストについては、[&#x200B; 設定リファレンス &#x200B;](../configuration-reference/catalog/catalog.md#category-permissions) の _カテゴリ権限_ を参照してください。
 
 1. **[!UICONTROL Enable]** を `Yes` に設定します。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Allow Browsing Category]
 
-このオプションは、[web サイト ](../getting-started/websites-stores-views.md) のすべてのカテゴリに適用されます。
+このオプションは、[web サイト &#x200B;](../getting-started/websites-stores-views.md) のすべてのカテゴリに適用されます。
 
 **_特定の顧客グループ_** のメンバーがカテゴリ製品を参照できるようにするには、次の手順を実行します。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
    複数のグループを選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら各グループをクリックします。
 
-   ![ 卸売顧客グループによる閲覧を許可 ](./assets/category-permissions-allow-browsing-customer-groups.png){width="600" zoomable="yes"}
+   ![&#x200B; 卸売顧客グループによる閲覧を許可 &#x200B;](./assets/category-permissions-allow-browsing-customer-groups.png){width="600" zoomable="yes"}
 
 **_ランディングページへのアクセスを制限してリダイレクトする_** には、次の手順を実行します。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 訪問者のリダイレクト先 **[!UICONTROL Landing Page]** を選択する。
 
-   ![ ホームページにリダイレクト ](./assets/category-permissions-browse-category-landing-page.png){width="600" zoomable="yes"}
+   ![&#x200B; ホームページにリダイレクト &#x200B;](./assets/category-permissions-browse-category-landing-page.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Display Product Prices]
 
-このオプションは、[web サイト ](../getting-started/websites-stores-views.md) のすべてのカテゴリに適用されます。
+このオプションは、[web サイト &#x200B;](../getting-started/websites-stores-views.md) のすべてのカテゴリに適用されます。
 
 **_特定の顧客グループ_** のメンバーのみがカテゴリ内の製品の価格を閲覧できるようにするには、次の操作を行います。
 
@@ -88,11 +88,11 @@ ht-degree: 0%
 
    複数のグループを選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら各グループをクリックします）。
 
-   ![ 卸売顧客グループのみが価格を表示できます ](./assets/category-permissions-price-customer-groups.png){width="600" zoomable="yes"}
+   ![&#x200B; 卸売顧客グループのみが価格を表示できます &#x200B;](./assets/category-permissions-price-customer-groups.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Allow Adding to Cart]
 
-このオプションは、[web サイト ](../getting-started/websites-stores-views.md) のすべてのカテゴリに適用されます。
+このオプションは、[web サイト &#x200B;](../getting-started/websites-stores-views.md) のすべてのカテゴリに適用されます。
 
 **_特定の顧客グループ_** のメンバーのみがカテゴリ製品を買い物かごに入れるようにするには、次の操作を行います。
 
@@ -102,11 +102,11 @@ ht-degree: 0%
 
    複数のグループを選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら各グループをクリックします。
 
-   ![ 商品をカートに入れることができるのは、卸売顧客グループのみです ](./assets/category-permissions-cart-customer-groups.png){width="600" zoomable="yes"}
+   ![&#x200B; 商品をカートに入れることができるのは、卸売顧客グループのみです &#x200B;](./assets/category-permissions-cart-customer-groups.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Disallow Catalog Search]
 
-特定の顧客グループのメンバーがカタログ検索を使用できないようにするには、このオプションを設定します。 これは [web サイト ](../getting-started/websites-stores-views.md) のすべてのカテゴリに適用されます。
+特定の顧客グループのメンバーがカタログ検索を使用できないようにするには、このオプションを設定します。 これは [web サイト &#x200B;](../getting-started/websites-stores-views.md) のすべてのカテゴリに適用されます。
 
 - **_ログインした顧客のみ_** カタログ検索の使用を許可するには、「`NOT LOGGED IN`」を選択します。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
   複数のグループを選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら各グループをクリックします。
 
-  ![ 一般顧客グループではカタログ検索は許可されていません ](./assets/category-permissions-disallow-category-search.png){width="600" zoomable="yes"}
+  ![&#x200B; 一般顧客グループではカタログ検索は許可されていません &#x200B;](./assets/category-permissions-disallow-category-search.png){width="600" zoomable="yes"}
 
 ## 手順 2：カテゴリ権限の適用
 
@@ -122,11 +122,11 @@ ht-degree: 0%
 
 1. カテゴリ ツリーで、ターゲット カテゴリを選択します。
 
-1. ページの ![ 拡張セレクター ](../assets/icon-display-expand.png)**[!UICONTROL Category Permissions]** を展開して、次の操作を行います。
+1. ページの ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png)**[!UICONTROL Category Permissions]** を展開して、次の操作を行います。
 
    - 権限ルールを作成するには、「**[!UICONTROL New Permission]**」をクリックします。
 
-     ![ カテゴリ権限セクション ](./assets/category-permissions-section-admin.png){width="600" zoomable="yes"}
+     ![&#x200B; カテゴリ権限セクション &#x200B;](./assets/category-permissions-section-admin.png){width="600" zoomable="yes"}
 
    - 該当する **[!UICONTROL Website]** と **[!UICONTROL Customer Group]** を選択します。
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >`Browsing Category` = `Deny` 権限が親カテゴリに設定されている場合、子カテゴリページの [ パンくずリスト ](navigation-breadcrumb-trail.md) に表示されません。
+   >`Browsing Category` = `Deny` 権限が親カテゴリに設定されている場合、子カテゴリページの [&#x200B; パンくずリスト &#x200B;](navigation-breadcrumb-trail.md) に表示されません。
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 

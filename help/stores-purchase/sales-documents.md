@@ -18,7 +18,7 @@ ht-degree: 0%
 
 店頭ページで使用されるロゴ画像とは異なり、PDF請求書やその他の営業資料のロゴは、高解像度の 300 dpi 画像にすることができます。 ロゴのサイズを変更する際は、縦横比を維持するように注意します。 ロゴのサイズを高さに合わせて変更し、右側の未使用のスペースを気にしないようにします。
 
-![ サンプルロゴ ](./assets/logo-pdf.png){width="200"}
+![&#x200B; サンプルロゴ &#x200B;](./assets/logo-pdf.png){width="200"}
 
 必要なサイズに合わせてロゴのサイズを変更する 1 つの方法は、正しいサイズで新しい空白の画像を作成することです。 次に、ロゴ画像を貼り付け、高さに合わせてサイズを変更します。 ほとんどの画像編集プログラムでは、縦横比を維持するために倍率をパーセント単位で変更するか、Shift キーを押しながら手動で画像のサイズを変更できます。
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、その下の「**[!UICONTROL Sales]**」を選択します。
 
-1. **[!UICONTROL Invoice and Packing Slip Design]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Invoice and Packing Slip Design]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![ 販売構成 – 販売請求書および梱包明細設計 ](../configuration-reference/sales/assets/sales-invoice-packing-slip-design.png){width="600" zoomable="yes"}
+   ![&#x200B; 販売構成 – 販売請求書および梱包明細設計 &#x200B;](../configuration-reference/sales/assets/sales-invoice-packing-slip-design.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Logo for PDF Print-outs]** をアップロードするには、「**[!UICONTROL Choose File]**」をクリックし、用意したロゴを見つけて「**[!UICONTROL Open]**」をクリックします。
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 注文 ID と顧客 IP アドレスは、注文に伴う販売文書のヘッダーに含めることができます。 デフォルトでは、請求書、出荷梱包明細およびクレジット・メモのヘッダーに受注 ID と顧客 IP アドレスの両方が表示されます。
 
-![ セールス構成：PDFの印刷出力 ](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
+![&#x200B; セールス構成：PDFの印刷出力 &#x200B;](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
 
 **_注文 ID の設定を変更するには：_**
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL PDF Print-outs]**」を選択します。
 
-1. ![ 展開セレクター ](../assets/icon-display-expand.png) 「**請求書**」セクションを展開します。
+1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**請求書**」セクションを展開します。
 
 1. 必要に応じて **[!UICONTROL Display Order ID in Header]** を設定します。
 
@@ -91,9 +91,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、その下の「**[!UICONTROL Sales]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL General]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL General]**」セクションを展開します。
 
-   ![ 販売設定 – 一般的な販売設定 ](../configuration-reference/sales/assets/sales-general.png){width="600" zoomable="yes"}
+   ![&#x200B; 販売設定 – 一般的な販売設定 &#x200B;](../configuration-reference/sales/assets/sales-general.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Hide Customer IP]** を好みに合わせて設定します。
 

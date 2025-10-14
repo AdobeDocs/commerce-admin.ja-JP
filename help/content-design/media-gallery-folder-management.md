@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Media Gallery フォルダー管理
 
-フォルダーを使用して、新しい [ メディアギャラリー ](media-gallery.md) の画像を整理します。 メディアアセットの数が増えると、フォルダーを使用してメディアギャラリー内の既存のアセットを簡単に見つけて管理できます。
+フォルダーを使用して、新しい [&#x200B; メディアギャラリー &#x200B;](media-gallery.md) の画像を整理します。 メディアアセットの数が増えると、フォルダーを使用してメディアギャラリー内の既存のアセットを簡単に見つけて管理できます。
 
 ## フォルダーの作成
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. 新しいフォルダー名を入力し、「**[!UICONTROL Confirm]**」をクリックします。
 
-   ![ 新規フォルダー名 ](./assets/media-gallery-folder-name.png){width="600" zoomable="yes"}
+   ![&#x200B; 新規フォルダー名 &#x200B;](./assets/media-gallery-folder-name.png){width="600" zoomable="yes"}
 
 ## フォルダーの削除
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 1. 削除するフォルダーを選択します。
 
-   ![ フォルダーを選択 ](./assets/media-gallery-selected-folder.png){width="600" zoomable="yes"}
+   ![&#x200B; フォルダーを選択 &#x200B;](./assets/media-gallery-selected-folder.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Delete Folder]**」をクリックします。
 

@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ニュースレターは、顧客にニュース、割引、その他のマーケティング電子メールを送信できるマーケティング手段の一部です。 登録済みのお客様は、[ アカウントダッシュボード ](../../customers/account-dashboard-my-account.md) からサブスクリプションを管理できます。
+>ニュースレターは、顧客にニュース、割引、その他のマーケティング電子メールを送信できるマーケティング手段の一部です。 登録済みのお客様は、[&#x200B; アカウントダッシュボード &#x200B;](../../customers/account-dashboard-my-account.md) からサブスクリプションを管理できます。
 
 ## [!UICONTROL General Options]
 
-![ 一般オプション ](./assets/newsletter-general-options.png)<!-- zoom -->
+![&#x200B; 一般オプション &#x200B;](./assets/newsletter-general-options.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | ストア表示 | ストア表示範囲に対してニュースレターを有効にするかどうかを決定します。 オプション：`Yes` / `No` |
 
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Subscription Options]
 
-![ サブスクリプションオプション ](./assets/newsletter-subscription-options.png)<!-- zoom -->
+![&#x200B; サブスクリプションオプション &#x200B;](./assets/newsletter-subscription-options.png)<!-- zoom -->
 
 <!-- [Subscription Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/communications/newsletters/newsletters) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Allow Guest Subscription] | ストア表示 | 未登録のゲストがニュースレターを購読できるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Need to Confirm] | ストア表示 | 購読リクエストを確認する必要があるかどうかを決定します。 このダブルオプトイン方法は、ユーザーが同意なしに購読できないようにする検証手段です。 オプション：`Yes` / `No` |

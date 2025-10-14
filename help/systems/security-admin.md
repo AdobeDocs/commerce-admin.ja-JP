@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Admin Security の設定
 
-店舗のセキュリティを保護するために、多面的なアプローチを取ることをお勧めします。 推測が容易ではない、明らかな「管理者」や「バックエンド [&#128279;](../stores-purchase/store-urls.md#use-a-custom-admin-url) ではなく、 カスタム管理 URL」を使用して開始することができます。 デフォルトでは、管理者への [ ログイン ](../getting-started/admin-signin.md) に使用するパスワードは 7 文字以上で、文字と数字の両方を含める必要があります。 [ ベストプラクティス ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=ja) として、文字、数字、記号の組み合わせを含む強力な管理者パスワードのみを使用します。 Adobe CommerceおよびMagento Open Sourceでは、アカウントに割り当てられた最後の 4 つのパスワードを再利用することはできません。
+店舗のセキュリティを保護するために、多面的なアプローチを取ることをお勧めします。 推測が容易ではない、明らかな「管理者」や「バックエンド [&#128279;](../stores-purchase/store-urls.md#use-a-custom-admin-url) ではなく、 カスタム管理 URL」を使用して開始することができます。 デフォルトでは、管理者への [&#x200B; ログイン &#x200B;](../getting-started/admin-signin.md) に使用するパスワードは 7 文字以上で、文字と数字の両方を含める必要があります。 [&#x200B; ベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=ja) として、文字、数字、記号の組み合わせを含む強力な管理者パスワードのみを使用します。 Adobe CommerceおよびMagento Open Sourceでは、アカウントに割り当てられた最後の 4 つのパスワードを再利用することはできません。
 
 Admin セキュリティ設定を使用すると、次の操作を行うことができます。
 
@@ -22,19 +22,19 @@ Admin セキュリティ設定を使用すると、次の操作を行うこと�
 - パスワードでは大文字と小文字を区別する必要があります
 - 管理セッションの長さの制限
 - パスワードの有効期間を制限する
-- 管理者ユーザーアカウントが [ ロック ](permissions-users-all.md#locked-users) されるまで実行できるログイン試行回数を制限します。
+- 管理者ユーザーアカウントが [&#x200B; ロック &#x200B;](permissions-users-all.md#locked-users) されるまで実行できるログイン試行回数を制限します。
 
 セキュリティを強化するために、現在のセッションの有効期限が切れる前にキーボードが非アクティブになる期間を設定し、ユーザー名とパスワードで大文字と小文字を区別するように要求することができます。
 
-この節のセキュリティ設定に加えて、アプリまたはデバイスで生成された 1 回限りのパスワードでユーザーの ID を検証するには、[2 要素認証 ](security-two-factor-authentication.md) （2FA）が必要です。 管理者に初めてログインすると、2FA を設定するよう求められます。 セキュリティを強化するために、[CAPTCHA](security-captcha.md) を必要とするように Admin ログインを設定することもできます。
+この節のセキュリティ設定に加えて、アプリまたはデバイスで生成された 1 回限りのパスワードでユーザーの ID を検証するには、[2 要素認証 &#x200B;](security-two-factor-authentication.md) （2FA）が必要です。 管理者に初めてログインすると、2FA を設定するよう求められます。 セキュリティを強化するために、[CAPTCHA](security-captcha.md) を必要とするように Admin ログインを設定することもできます。
 
 >[!NOTE]
 >
->[!DNL Adobe Identity Management Services] （IMS）認証を有効にしているストアでは、ネイティブのAdobe CommerceおよびMagento Open Source 2FA が無効になっています。 Adobe資格情報を使用してCommerce インスタンスにログインしている管理者ユーザーは、多くの管理タスクで再認証する必要はありません。 Adobe IMSは、管理者ユーザーが現在のセッションにログインする際に認証を処理します。 [[!DNL Adobe Identity Management Service]  （IMS）統合の概要を参照してください ](../getting-started/adobe-ims-integration-overview.md)。
+>[!DNL Adobe Identity Management Services] （IMS）認証を有効にしているストアでは、ネイティブのAdobe CommerceおよびMagento Open Source 2FA が無効になっています。 Adobe資格情報を使用してCommerce インスタンスにログインしている管理者ユーザーは、多くの管理タスクで再認証する必要はありません。 Adobe IMSは、管理者ユーザーが現在のセッションにログインする際に認証を処理します。 [[!DNL Adobe Identity Management Service]  （IMS）統合の概要を参照してください &#x200B;](../getting-started/adobe-ims-integration-overview.md)。
 
-技術情報については、開発者向けドキュメントの [ セキュリティの概要 ](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} を参照してください。
+技術情報については、開発者向けドキュメントの [&#x200B; セキュリティの概要 &#x200B;](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} を参照してください。
 
-![ 管理者セキュリティ ](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
+![&#x200B; 管理者セキュリティ &#x200B;](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
 ## Admin Security の設定
 
@@ -42,7 +42,7 @@ Admin セキュリティ設定を使用すると、次の操作を行うこと�
 
 1. _[!UICONTROL Advanced]_&#x200B;の下の左パネルで、「**[!UICONTROL Admin]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Security]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Security]**」セクションを展開します。
 
 1. 管理者ユーザーが異なるデバイスの同じアカウントにログインできないようにするには、**[!UICONTROL Admin Account Sharing]** を `No` に設定します。
 

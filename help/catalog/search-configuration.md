@@ -24,9 +24,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Catalog Search]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Catalog Search]**」セクションを展開します。
 
-   ![Live Search のカタログ検索 ](../configuration-reference/catalog/assets/catalog-search-live-search.png){width="600" zoomable="yes"}
+   ![Live Search のカタログ検索 &#x200B;](../configuration-reference/catalog/assets/catalog-search-live-search.png){width="600" zoomable="yes"}
 
    これらのオプションの詳細なリストについては、_Configuration Reference_ の [Live Search のAdobe Commerce](../configuration-reference/catalog/catalog.md#adobe-commerce-with-live-search) を参照してください。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    デフォルト値は `100` です。 `0` の値を入力すると、2 回目の入力時にすべての検索語句と結果がキャッシュされます。
 
-1. [ ストアフロントポップオーバー ](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html?lang=ja) で返される結果に使用できる最大行数を変更するには、別の **[!UICONTROL Autocomplete Limit]** 値を入力します。
+1. [&#x200B; ストアフロントポップオーバー &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html?lang=ja) で返される結果に使用できる最大行数を変更するには、別の **[!UICONTROL Autocomplete Limit]** 値を入力します。
 
    行数を制限すると、検索のパフォーマンスが向上し、返されるリストのサイズが小さくなります。 デフォルト値は `8` 行です。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->- 2023 年 8 月のサポート終了のお知らせが [!DNL Elasticsearch 7] 件になったため、Adobe Commerceのお客様はすべて OpenSearch 2.x 検索エンジンに移行することをお勧めします。 製品のアップグレード中に検索エンジンを移行する方法については、[ アップグレード ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=ja) の _OpenSearch への移行_ を参照してください。
+>- 2023 年 8 月のサポート終了のお知らせが [!DNL Elasticsearch 7] 件になったため、Adobe Commerceのお客様はすべて OpenSearch 2.x 検索エンジンに移行することをお勧めします。 製品のアップグレード中に検索エンジンを移行する方法については、[&#x200B; アップグレード ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=ja) の _OpenSearch への移行_ を参照してください。
 >- バージョン 2.4.4 および 2.4.3-p2 では、Elasticsearchのラベルが付いているすべてのフィールドも OpenSearch に適用されます。 バージョン 2.4.6 でElasticsearch 8.x がサポートされたとき、Elasticsearch設定と OpenSearch 設定を区別する新しいラベルが作成されました。 ただし、両方の設定オプションは同じです。
 
 ### 手順 1：一般的な検索オプションを設定する
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Catalog Search]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Catalog Search]**」セクションを展開します。
 
-   ![ 検索エンジンの設定 ](../configuration-reference/catalog/assets/catalog-search-opensearch.png){zoomable="yes"}
+   ![&#x200B; 検索エンジンの設定 &#x200B;](../configuration-reference/catalog/assets/catalog-search-opensearch.png){zoomable="yes"}
 
-   これらのオプションについて詳しくは、&lbrace;Configuration Reference _の [ ネイティブ検索のAdobe Commerce](../configuration-reference/catalog/catalog.md#adobe-commerce-with-native-search) を参照し_ ください。
+   これらのオプションについて詳しくは、&lbrace;Configuration Reference _の [&#x200B; ネイティブ検索のAdobe Commerce](../configuration-reference/catalog/catalog.md#adobe-commerce-with-native-search) を参照し_ ください。
 
 1. 検索クエリテキストの長さと単語数を制限するには、**[!UICONTROL Minimal Query Length]** と **[!UICONTROL Maximum Query Length]** の値を設定します。
 
@@ -127,6 +127,6 @@ ht-degree: 0%
 
 ### 手順 4：一致する最小用語を設定する
 
-検索結果が返されるために一致する必要があるクエリの用語の最小数を制御するには、**[!UICONTROL Minimum Terms to Match]** の値を指定します。 この値を指定すると、買い物客に最適な結果の関連性が保証されます。 使用できる値のリストについては、OpenSearch ドキュメントの [minimum_should_match パラメーター ](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/) を参照してください。
+検索結果が返されるために一致する必要があるクエリの用語の最小数を制御するには、**[!UICONTROL Minimum Terms to Match]** の値を指定します。 この値を指定すると、買い物客に最適な結果の関連性が保証されます。 使用できる値のリストについては、OpenSearch ドキュメントの [minimum_should_match パラメーター &#x200B;](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/) を参照してください。
 
 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

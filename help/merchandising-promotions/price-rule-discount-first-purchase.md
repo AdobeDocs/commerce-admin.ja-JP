@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->顧客セグメント機能が有効になっていることを確認します。 [ 顧客セグメントの作成 ](../customers/customer-segment-create.md) を参照してください。
+>顧客セグメント機能が有効になっていることを確認します。 [&#x200B; 顧客セグメントの作成 &#x200B;](../customers/customer-segment-create.md) を参照してください。
 
 ## 手順 1. 顧客セグメントの作成
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
      左側のパネルで、追加のオプションを使用できるようになります。
 
-   ![ 顧客セグメントのプロパティ ](./assets/customer-segment-first-time.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客セグメントのプロパティ &#x200B;](./assets/customer-segment-first-time.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Conditions]** を定義します。
 
@@ -55,15 +55,15 @@ ht-degree: 0%
 
      デフォルトの条件は、「これらの条件がすべて TRUE の場合」から始まります。
 
-   - _追加_ （![ 追加アイコン ](../assets/icon-add-green-circle.png)）をクリックし、`Number of Orders` を選択します。
+   - _追加_ （![&#x200B; 追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックし、`Number of Orders` を選択します。
 
    - 「**[!UICONTROL is]**」をクリックし、「`less than`」を選択します。
 
    - 「**...**」をクリックし、フィールドに `1` と入力します。
 
-   - 緑のチェックマーク（![ 緑のチェックマーク ](../assets/icon-checkmark-green-circle.png)）をクリックして、条件設定を保存します。
+   - 緑のチェックマーク（![&#x200B; 緑のチェックマーク &#x200B;](../assets/icon-checkmark-green-circle.png)）をクリックして、条件設定を保存します。
 
-   ![ 顧客セグメントの状況 ](./assets/customer-segment-first-time-condition.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客セグメントの状況 &#x200B;](./assets/customer-segment-first-time-condition.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -109,15 +109,15 @@ ht-degree: 0%
 
      左側のパネルで、追加のオプションを使用できるようになります。
 
-   ![ 買い物かご価格ルール情報 ](./assets/rule-information-first-time.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かご価格ルール情報 &#x200B;](./assets/rule-information-first-time.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Conditions]** を定義します。
 
-   - 下にスクロールして、「**[!UICONTROL Conditions]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+   - 下にスクロールして、「**[!UICONTROL Conditions]**」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
      デフォルトのルールは、「これらの条件がすべて TRUE の場合：」から始まります。
 
-   - _追加_ （![ 追加アイコン ](../assets/icon-add-green-circle.png)）をクリックし、`Customer Segment` を選択します。
+   - _追加_ （![&#x200B; 追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックし、`Customer Segment` を選択します。
 
      「修飾子」フィールドのデフォルトは `matches` です。
 
@@ -127,19 +127,19 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >セグメント ID が不明な場合は、選択アイコン（![ リストアイコン ](../assets/icon-list-chooser.png)）をクリックして、顧客セグメントリストを表示します。 フィールドに ID を手動で入力するか、目的のセグメントのチェックボックスを選択して、フィールドに自動入力できます。
+     >セグメント ID が不明な場合は、選択アイコン（![&#x200B; リストアイコン &#x200B;](../assets/icon-list-chooser.png)）をクリックして、顧客セグメントリストを表示します。 フィールドに ID を手動で入力するか、目的のセグメントのチェックボックスを選択して、フィールドに自動入力できます。
 
-   - 緑のチェックマーク（![ 緑のチェックマーク ](../assets/icon-checkmark-green-circle.png)）をクリックして、条件設定を保存します。
+   - 緑のチェックマーク（![&#x200B; 緑のチェックマーク &#x200B;](../assets/icon-checkmark-green-circle.png)）をクリックして、条件設定を保存します。
 
    - 完了したら、「**[!UICONTROL Save and Continue Edit]**」をクリックします。
 
      このルールの行は、顧客セグメント ID 2 に一致するすべての顧客に適用されます。
 
-   ![ 顧客セグメントの状況 ](./assets/customer-segment-matches.png){width="400"}
+   ![&#x200B; 顧客セグメントの状況 &#x200B;](./assets/customer-segment-matches.png){width="400"}
 
-1. 下にスクロールして、「![ 展開セレクター ](../assets/icon-display-expand.png)」 **[!UICONTROL Conditions]** クションを展開し、ルールのアクションを定義します。
+1. 下にスクロールして、「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」 **[!UICONTROL Conditions]** クションを展開し、ルールのアクションを定義します。
 
-   このセクションでは、初回顧客に適用する割引のタイプと値/金額を定義します。 この例では、定義された条件を満たすすべての顧客に対して 10% の割引を定義します。 その他の使用可能なオプションについては、[ 買い物かご価格ルールの作成 ](price-rules-cart-create.md) を参照してください。
+   このセクションでは、初回顧客に適用する割引のタイプと値/金額を定義します。 この例では、定義された条件を満たすすべての顧客に対して 10% の割引を定義します。 その他の使用可能なオプションについては、[&#x200B; 買い物かご価格ルールの作成 &#x200B;](price-rules-cart-create.md) を参照してください。
 
    - **[!UICONTROL Apply]** しくは、「製品価格割引率」を選択します。
 
@@ -151,7 +151,7 @@ ht-degree: 0%
 
    - 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
-   ![ 買い物かご価格ルールアクション ](./assets/actions-first-time.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かご価格ルールアクション &#x200B;](./assets/actions-first-time.png){width="600" zoomable="yes"}
 
 新しいルールは通常、1 時間以内に利用可能になります。 ルールをテストし、定義したとおりに機能することを確認します。
 

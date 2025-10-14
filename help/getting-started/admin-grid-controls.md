@@ -13,7 +13,7 @@ ht-degree: 0%
 
 データを管理する管理ページには、レコードのコレクションがグリッドに表示されます。 各列の上部にあるコントロールを使用して、データを並べ替えることができます。 現在の並べ替え順序は、列ヘッダーの昇順または降順の矢印で示されます。 グリッドに表示する列を指定し、それらを別の位置にドラッグできます。 また、異なる列の配置をビューとして保存し、後で使用することもできます。 **[!UICONTROL Action]** の列には、個々のレコードに適用できる操作が一覧表示されます。 さらに、ほとんどのグリッドの現在のビューの日付を [CSV](../systems/data-csv.md) または XML ファイルに書き出すことができます。
 
-![ 注文ページ – グリッド表示 ](./assets/admin-workspace-grid.png){width="700" zoomable="yes"}
+![&#x200B; 注文ページ – グリッド表示 &#x200B;](./assets/admin-workspace-grid.png){width="700" zoomable="yes"}
 
 ## リストを並べ替え
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 1. コレクションに追加のページを表示するには、ページネーションコントロールを使用します。
 
-   ![ グリッド表示 – ページコントロール ](./assets/pagination-controls.png){width="300"}
+   ![&#x200B; グリッド表示 – ページコントロール &#x200B;](./assets/pagination-controls.png){width="300"}
 
 ## リストにページ番号を付ける
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Apply Filters]**」をクリックします。
 
-   ![ 注文リスト – フィルターコントロール ](./assets/admin-workspace-filters.png){width="700" zoomable="yes"}
+   ![&#x200B; 注文リスト – フィルターコントロール &#x200B;](./assets/admin-workspace-filters.png){width="700" zoomable="yes"}
 
 ## データを書き出し
 
@@ -47,14 +47,14 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >製品データをグリッドから書き出すことはできません。 詳しくは、[ 書き出し ](../systems/data-export.md) を参照してください。
+   >製品データをグリッドから書き出すことはできません。 詳しくは、[&#x200B; 書き出し &#x200B;](../systems/data-export.md) を参照してください。
 
-1. 右上隅の _エクスポート_ （![ メニューセレクター ](../assets/icon-export.png)）メニューで、次のいずれかのファイル形式を選択します。
+1. 右上隅の _エクスポート_ （![&#x200B; メニューセレクター &#x200B;](../assets/icon-export.png)）メニューで、次のいずれかのファイル形式を選択します。
 
    - `CSV`
    - `Excel XML`
 
-   ![ 注文リスト – 書き出しオプション ](./assets/customers-grid-export.png){width="700" zoomable="yes"}
+   ![&#x200B; 注文リスト – 書き出しオプション &#x200B;](./assets/customers-grid-export.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL Export]**」をクリックします。
 
@@ -64,11 +64,11 @@ ht-degree: 0%
 
 列の選択とグリッド内の順序は、必要に応じて変更し、_ビュー_ として保存できます。 個々の属性設定の下のグリッドに表示する属性を制御できます。 製品グリッドに表示される属性の数が多いと、管理者の読み込み時間とパフォーマンスに影響を与える可能性があります。
 
-![ グリッド列の順序 ](./assets/admin-grid-columns.png){width="700" zoomable="yes"}
+![&#x200B; グリッド列の順序 &#x200B;](./assets/admin-grid-columns.png){width="700" zoomable="yes"}
 
 ### 列の選択の変更
 
-1. 右上隅にある _列_ （![ 列コントロール ](../assets/icon-columns.png)）コントロールをクリックします。
+1. 右上隅にある _列_ （![&#x200B; 列コントロール &#x200B;](../assets/icon-columns.png)）コントロールをクリックします。
 
 1. 列の選択を変更する：
 
@@ -86,22 +86,22 @@ ht-degree: 0%
 
 ### グリッド表示の保存
 
-1. _ビュー_ （![ ビューコントロール ](../assets/icon-view-eye.png)）コントロールをクリックします。
+1. _ビュー_ （![&#x200B; ビューコントロール &#x200B;](../assets/icon-view-eye.png)）コントロールをクリックします。
 
 1. 「**[!UICONTROL Save Current View]**」をクリックします。
 
 1. ビューの **[!UICONTROL name]** を入力します。
 
-1. すべての変更を保存するには、_矢印_ （![ すべての変更を保存 ](../assets/icon-arrow-save.png)）をクリックします。
+1. すべての変更を保存するには、_矢印_ （![&#x200B; すべての変更を保存 &#x200B;](../assets/icon-arrow-save.png)）をクリックします。
 
    ビューの名前が現在のビューとして表示されます。
 
 ### グリッド表示の変更
 
-1. _表示_ （![ 表示アイコン ](../assets/icon-view-eye.png)）コントロールをクリックします。
+1. _表示_ （![&#x200B; 表示アイコン &#x200B;](../assets/icon-view-eye.png)）コントロールをクリックします。
 
 1. 次のいずれかの操作を行います。
 
    - 別のビューを使用するには、ビューの名前をクリックします。
-   - ビューの名前を変更するには、_編集_ （![ 編集アイコン ](../assets/icon-edit-pencil.png)） アイコンをクリックして名前を更新します。
-   - ビューを削除するには、_編集_ （![ 編集アイコン ](../assets/icon-edit-pencil.png)）アイコンをクリックしてから、_削除_ （![ 削除アイコン ](../assets/icon-delete-trashcan-solid.png)）アイコンをクリックします。
+   - ビューの名前を変更するには、_編集_ （![&#x200B; 編集アイコン &#x200B;](../assets/icon-edit-pencil.png)） アイコンをクリックして名前を更新します。
+   - ビューを削除するには、_編集_ （![&#x200B; 編集アイコン &#x200B;](../assets/icon-edit-pencil.png)）アイコンをクリックしてから、_削除_ （![&#x200B; 削除アイコン &#x200B;](../assets/icon-delete-trashcan-solid.png)）アイコンをクリックします。

@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 新しい顧客アカウントのオプション
 
-設定の _[!UICONTROL Create New Account Options]_&#x200B;のセクションでは、基本的なアカウントオプションと、VAT ID 検証およびカスタム統合に関連するより高度なオプションが組み合わされています。 以下の説明は、最も頻繁に使用されるオプションに関するものです。 顧客グループの自動割当の詳細は、[VAT 検証 ](../stores-purchase/vat.md) を参照してください。
+設定の _[!UICONTROL Create New Account Options]_&#x200B;のセクションでは、基本的なアカウントオプションと、VAT ID 検証およびカスタム統合に関連するより高度なオプションが組み合わされています。 以下の説明は、最も頻繁に使用されるオプションに関するものです。 顧客グループの自動割当の詳細は、[VAT 検証 &#x200B;](../stores-purchase/vat.md) を参照してください。
 
-![ 新規アカウントオプションの作成 ](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
+![&#x200B; 新規アカウントオプションの作成 &#x200B;](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
 ## 基本的な顧客アカウントオプションの設定
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create New Account Options]** セクションを展開します。
 
-   ![ 新規アカウントオプションのデフォルト設定の作成 ](../configuration-reference/customers/assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
+   ![&#x200B; 新規アカウントオプションのデフォルト設定の作成 &#x200B;](../configuration-reference/customers/assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
 1. ストアフロントでサポートする必要がある顧客体験に応じて、各オプションを設定します。
 
@@ -52,8 +52,8 @@ ht-degree: 0%
 
    - ストアでアカウントを開くリクエストを顧客に確認させるには、**[!UICONTROL Require Emails Confirmation]** を `Yes` に設定します。 次に、確認メールに使用するテンプレートに **[!UICONTROL Confirmation Link Email]** を設定します。
 
-   ![VAT が有効な新規口座オプションの作成 ](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
+   ![VAT が有効な新規口座オプションの作成 &#x200B;](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
 
-   この設定オプションセットで使用できる各オプションについて詳しくは、_新しいアカウントオプションの作成_ 設定リファレンス [ を参照してください ](../configuration-reference/customers/customer-configuration.md)。
+   この設定オプションセットで使用できる各オプションについて詳しくは、_新しいアカウントオプションの作成_ 設定リファレンス [&#x200B; を参照してください &#x200B;](../configuration-reference/customers/customer-configuration.md)。
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。

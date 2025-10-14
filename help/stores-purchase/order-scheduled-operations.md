@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [Cron](../systems/cron.md) ジョブを使用して、次の注文処理タスクをスケジュールします。
 
-![ 注文グリッド ](./assets/orders-grid.png){width="700" zoomable="yes"}
+![&#x200B; 注文グリッド &#x200B;](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 ## 保留中の支払注文の有効期間を設定します
 
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」セクションを展開し、その下 **[!UICONTROL Sales]** 選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Orders Cron Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Orders Cron Settings]**」セクションを展開します。
 
-   ![ 注文 Cron 設定 ](../configuration-reference/sales/assets/sales-orders-cron-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 注文 Cron 設定 &#x200B;](../configuration-reference/sales/assets/sales-orders-cron-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Pending Payment Order Lifetime (minutes)]**：保留中の支払いが期限切れになるまでの分数を入力します。
 
@@ -45,20 +45,20 @@ ht-degree: 0%
 
 **_更新とインデックス再作成を有効にするには：_**
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}[ 実稼動モード ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=ja#production-mode) （クラウドインフラストラクチャ上のAdobe Commerceで使用されるデフォルトモード）が有効な場合、次のコマンドを実行します。
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}[&#x200B; 実稼動モード &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=ja#production-mode) （クラウドインフラストラクチャ上のAdobe Commerceで使用されるデフォルトモード）が有効な場合、次のコマンドを実行します。
 
 `bin/magento config:set dev/grid/async_indexing 1`
 
-[ デフォルトモード ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=ja#default-mode) が有効な場合、次の手順を実行します。
+[&#x200B; デフォルトモード &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=ja#default-mode) が有効な場合、次の手順を実行します。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」セクションを展開し、「**[!UICONTROL Developer]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Grid Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Grid Settings]**」セクションを展開します。
 
 1. **[!UICONTROL Asynchronous Indexing]** を `Enable` に設定します。
 
-   ![ グリッド設定 ](../configuration-reference/advanced/assets/developer-grid-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; グリッド設定 &#x200B;](../configuration-reference/advanced/assets/developer-grid-settings.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save Config]**」をクリックします。

@@ -41,9 +41,9 @@ ht-degree: 0%
 
 1. 左上隅の **[!UICONTROL Store View]** を `Default Config` に設定して、グローバルレベルで設定を適用します。
 
-1. **[!UICONTROL Storage Configuration for Media]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Storage Configuration for Media]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![ 詳細設定 – メディアのストレージ設定 ](./assets/database-storage-deprecated.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – メディアのストレージ設定 &#x200B;](./assets/database-storage-deprecated.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Media Storage]** を `Database` に設定します。
 

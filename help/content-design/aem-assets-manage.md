@@ -20,9 +20,9 @@ AEM Assetsでアセットを編集した後、アセットを承認して再処�
 
 詳しくは、次のAEM Assets ドキュメントを参照してください。
 
-- [ デジタルアセットの再処理 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+- [&#x200B; デジタルアセットの再処理 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-- [ アセットの承認 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+- [&#x200B; アセットの承認 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 
 ## カテゴリコンテンツへのアセットの追加
 
@@ -30,12 +30,12 @@ AEM Assets統合を有効にして設定したら、次の手順でカタログ�
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Categories]** に移動します。
 
-1. 「**[!UICONTROL Content]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. 「**[!UICONTROL Content]**」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
-   ![ カテゴリコンテンツ ](./assets/aem-assets-manage-categories.png){width="600" zoomable="yes"}
+   ![&#x200B; カテゴリコンテンツ &#x200B;](./assets/aem-assets-manage-categories.png){width="600" zoomable="yes"}
 
 1. ページの上部に **[!UICONTROL Category Image]** を表示するには、「**[!UICONTROL Select from Assets]**」をクリックしてAEM Assets フォルダーの画像を使用します。
 
 1. 「**[!UICONTROL Save]**」をクリックして続行します。
 
-   カテゴリの作成について詳しくは、[ カテゴリコンテンツの入力 ](../catalog/category-create.md#step-3-complete-the-category-content) を参照してください。
+   カテゴリの作成について詳しくは、[&#x200B; カテゴリコンテンツの入力 &#x200B;](../catalog/category-create.md#step-3-complete-the-category-content) を参照してください。

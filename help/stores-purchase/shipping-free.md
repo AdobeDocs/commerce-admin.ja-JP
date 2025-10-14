@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 送料無料
 
-_送料無料_ は、あなたが提供できる最も効果的なプロモーションの 1 つです。 これは、最小購入に基づくことも、一連の条件を満たした場合に適用される [ 買い物かご価格ルール ](../merchandising-promotions/price-rules-cart.md) として設定することもできます。 両方が同じ注文に適用される場合、設定は買い物かごルールよりも優先されます。
+_送料無料_ は、あなたが提供できる最も効果的なプロモーションの 1 つです。 これは、最小購入に基づくことも、一連の条件を満たした場合に適用される [&#x200B; 買い物かご価格ルール &#x200B;](../merchandising-promotions/price-rules-cart.md) として設定することもできます。 両方が同じ注文に適用される場合、設定は買い物かごルールよりも優先されます。
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ _送料無料_ は、あなたが提供できる最も効果的なプロモー�
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Delivery Methods]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Free Shipping]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Free Shipping]**」セクションを展開します。
 
    >[!NOTE]
    >
@@ -38,20 +38,20 @@ _送料無料_ は、あなたが提供できる最も効果的なプロモー�
 
    >[!TIP]
    >
-   >[ テーブル料金 ](shipping-table-rate.md) で送料無料を使用するには、_[!UICONTROL Minimum Order Amount]_&#x200B;が満たされないほど高くします。 この高い値を使用すると、価格ルールによってトリガーされない限り、送料無料が有効になりません。
+   >[&#x200B; テーブル料金 &#x200B;](shipping-table-rate.md) で送料無料を使用するには、_[!UICONTROL Minimum Order Amount]_&#x200B;が満たされないほど高くします。 この高い値を使用すると、価格ルールによってトリガーされない限り、送料無料が有効になりません。
 
 1. Set **[!UICONTROL Include Tax to Amount]**:
 
    - `Yes` – 最小注文金額を計算する際に税金を含みます（小計+税金 – 割引）。
    - `No` – 最小注文金額（小計 – 割引）の計算時に税金を含まない。
 
-   ![ 送料無料 ](../configuration-reference/sales/assets/delivery-methods-free-shipping.png){width="600" zoomable="yes"}
+   ![&#x200B; 送料無料 &#x200B;](../configuration-reference/sales/assets/delivery-methods-free-shipping.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Displayed Error Message]**：送料無料が利用できなくなった場合に表示するメッセージを入力します。
 
 1. Set **[!UICONTROL Ship to Applicable Countries]**:
 
-   - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様は送料無料を使用できます。
+   - `All Allowed Countries` - ストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../getting-started/store-details.md#country-options) のお客様は送料無料を使用できます。
 
    - `Specific Countries` – この値を選択すると、_[!UICONTROL Ship to Specific Countries]_&#x200B;リストが表示されます。 リストから、送料無料を使用できる国を 1 つずつ選択します。
 
@@ -68,9 +68,9 @@ _送料無料_ は、あなたが提供できる最も効果的なプロモー�
 
 ## 手順 2：通信事業者設定で送料無料を有効にする
 
-送料無料のために使用する予定の各通信事業者に必要な設定を完了してください。 例えば、[UPS 設定 ](ups.md) が完了していない場合は、次の設定を更新して送料無料を有効にし、設定します。
+送料無料のために使用する予定の各通信事業者に必要な設定を完了してください。 例えば、[UPS 設定 &#x200B;](ups.md) が完了していない場合は、次の設定を更新して送料無料を有効にし、設定します。
 
-1. _[!UICONTROL Delivery Methods]_&#x200B;設定で、「拡張セレクター ![ の「**[!UICONTROL UPS]**」セクション ](../assets/icon-display-expand.png) 展開します。
+1. _[!UICONTROL Delivery Methods]_&#x200B;設定で、「拡張セレクター ![&#x200B; の「**[!UICONTROL UPS]**」セクション &#x200B;](../assets/icon-display-expand.png) 展開します。
 
 1. **[!UICONTROL Free Method]** を `UPS Ground` または送料無料に指定する別のタイプに設定します。
 

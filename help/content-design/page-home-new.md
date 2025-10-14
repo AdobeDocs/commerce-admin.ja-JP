@@ -14,15 +14,15 @@ ht-degree: 0%
 
 異なるホーム ページを選択して維持し、既定のホーム ページとして使用するページをアクティブにすることができます。
 
-1. [ ページの追加 ](page-add.md) 手順を完了します。
+1. [&#x200B; ページの追加 &#x200B;](page-add.md) 手順を完了します。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Default Pages]**」セクションを展開し、**[!UICONTROL CMS Home Page]** を新しいページに設定します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL Default Pages]**」セクションを展開し、**[!UICONTROL CMS Home Page]** を新しいページに設定します。
 
-   ![Web のデフォルトページの設定 ](./assets/web-default-pages.png){width="600" zoomable="yes"}
+   ![Web のデフォルトページの設定 &#x200B;](./assets/web-default-pages.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save Config]**」をクリックします。
 

@@ -14,13 +14,13 @@ ht-degree: 0%
 
 カスタムレイアウトの更新に取り組む前に、ストアのページの作成方法と、*レイアウト* および *レイアウトの更新* という用語の違いを理解しておくことが重要です。 レイアウトとは、ページの視覚的かつ構造的な構成を指します。 レイアウトの更新とは、ページの作成方法を上書きまたはカスタマイズできる、特定の XML 命令のセットを指します。
 
-[!DNL Commerce] ストアの XML レイアウトは、コンテナとブロックの階層構造です。 すべてのページに表示される要素もあれば、特定のページにのみ表示される要素もあります。 レイアウト、コンテナ、ブロックについて詳しくは、[ フロントエンド開発者ガイド ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/) の _レイアウトの概要_ を参照してください。
+[!DNL Commerce] ストアの XML レイアウトは、コンテナとブロックの階層構造です。 すべてのページに表示される要素もあれば、特定のページにのみ表示される要素もあります。 レイアウト、コンテナ、ブロックについて詳しくは、[&#x200B; フロントエンド開発者ガイド &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/) の _レイアウトの概要_ を参照してください。
 
-[ ウィジェット ](widgets.md) ツールを使用すると、既存の [ コンテンツブロック ](blocks.md) をページのデフォルトレイアウトに簡単に追加できます。 より高度な更新を行うには、XML レイアウトの更新コードをサーバーに保存し、そのファイルを管理者からカスタムレイアウトの更新として参照する必要があります。 プロセスの概要については、[ レイアウト更新を使用 ](layout-updates.md#place-a-block-using-layout-updates) を参照してください。
+[&#x200B; ウィジェット &#x200B;](widgets.md) ツールを使用すると、既存の [&#x200B; コンテンツブロック &#x200B;](blocks.md) をページのデフォルトレイアウトに簡単に追加できます。 より高度な更新を行うには、XML レイアウトの更新コードをサーバーに保存し、そのファイルを管理者からカスタムレイアウトの更新として参照する必要があります。 プロセスの概要については、[&#x200B; レイアウト更新を使用 &#x200B;](layout-updates.md#place-a-block-using-layout-updates) を参照してください。
 
 次の図では、コンテナを参照する名前は黒で、ブロックの種類（ブロック クラス パス）は青です。
 
-![ 標準ブロックレイアウト図 ](./assets/page-layout-default.png){width="500" zoomable="yes"}
+![&#x200B; 標準ブロックレイアウト図 &#x200B;](./assets/page-layout-default.png){width="500" zoomable="yes"}
 
 | ブロックタイプ | 説明 |
 |--- |--- |
@@ -41,21 +41,21 @@ ht-degree: 0%
 
 ## レイアウトの更新を使用してブロックを配置する
 
-[ レイアウトの更新 ](layout-updates.md) ページのレイアウトをカスタマイズできるようにします。 レイアウトの更新は [ ウィジェット ](widgets.md) よりも柔軟性がありますが、サーバーへのアクセスと XML の基本知識が必要です。
+[&#x200B; レイアウトの更新 &#x200B;](layout-updates.md) ページのレイアウトをカスタマイズできるようにします。 レイアウトの更新は [&#x200B; ウィジェット &#x200B;](widgets.md) よりも柔軟性がありますが、サーバーへのアクセスと XML の基本知識が必要です。
 
-次の手順は、レイアウトの更新を使用してページにブロックを配置する方法を示しています。 具体的な例と構文のヘルプについては、『 [ フロントエンド開発者ガイド _の ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/) 一般的なレイアウトのカスタマイズタスク_ を参照してください。
+次の手順は、レイアウトの更新を使用してページにブロックを配置する方法を示しています。 具体的な例と構文のヘルプについては、『 [&#x200B; フロントエンド開発者ガイド _の &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/) 一般的なレイアウトのカスタマイズタスク_ を参照してください。
 
 ### 手順 1：ブロックの作成
 
-1. 配置する [ ブロック ](block-add.md) を作成します。
+1. 配置する [&#x200B; ブロック &#x200B;](block-add.md) を作成します。
 
 1. `block_id` は、レイアウトの更新手順で使用されるので、メモに注意してください。
 
 ### 手順 2:XML でレイアウトの更新を作成する
 
-1. レイアウト手順を XML で作成して、[CMS ブロックを参照 ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/) します。
+1. レイアウト手順を XML で作成して、[CMS ブロックを参照 &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/) します。
 
-1. テーマの XML ファイルが保存されるレイアウトフォルダーのサーバーに [ レイアウトの手順 ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions/) を保存します。
+1. テーマの XML ファイルが保存されるレイアウトフォルダーのサーバーに [&#x200B; レイアウトの手順 &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions/) を保存します。
 
    例：
 
@@ -78,11 +78,11 @@ ht-degree: 0%
 
 1. ブロックを配置するページを見つけて、編集モードで開きます。
 
-1. 下にスクロールして、「**[!UICONTROL Design]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. 下にスクロールして、「**[!UICONTROL Design]**」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
 1. ページに関連付けられている使用可能なすべてのレイアウト更新を表示するには、「**[!UICONTROL Custom Layout Update]**」メニューをクリックします。
 
-   ![ カスタムレイアウトの更新リスト ](./assets/page-design-custom-layout-update.png){width="400" zoomable="yes"}
+   ![&#x200B; カスタムレイアウトの更新リスト &#x200B;](./assets/page-design-custom-layout-update.png){width="400" zoomable="yes"}
 
 1. ページに適用するレイアウトの更新を選択します。
 

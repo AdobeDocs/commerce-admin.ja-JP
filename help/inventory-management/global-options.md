@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Inventory Management] グローバルオプションの設定
 
-Web サイトの製品と Stock に対するデフォルトの設定オプションを設定します。 これらの設定の一部は、[ 製品オプションの設定 ](product-options.md) で製品ごとに上書きできます。 距離優先アルゴリズムの設定については、[ 距離優先アルゴリズムの設定 ](distance-priority-algorithm.md) を参照してください。
+Web サイトの製品と Stock に対するデフォルトの設定オプションを設定します。 これらの設定の一部は、[&#x200B; 製品オプションの設定 &#x200B;](product-options.md) で製品ごとに上書きできます。 距離優先アルゴリズムの設定については、[&#x200B; 距離優先アルゴリズムの設定 &#x200B;](distance-priority-algorithm.md) を参照してください。
 
 ## 製品および在庫オプションのグローバルな設定
 
@@ -20,9 +20,9 @@ Web サイトの製品と Stock に対するデフォルトの設定オプショ
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、「**[!UICONTROL Inventory]**」を選択します。
 
-1. **[!UICONTROL Stock Options]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、オプションを設定します。
+1. **[!UICONTROL Stock Options]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、オプションを設定します。
 
-   ![ ストック・オプション ](assets/config-catalog-inventory-stock-options.png){width="600" zoomable="yes"}
+   ![&#x200B; ストック・オプション &#x200B;](assets/config-catalog-inventory-stock-options.png){width="600" zoomable="yes"}
 
    - 注文時に手持数量を調整するには、**[!UICONTROL Decrease Stock When Order is Placed]** を `Yes` に設定します。
 
@@ -30,7 +30,7 @@ Web サイトの製品と Stock に対するデフォルトの設定オプショ
 
    - 在庫切れの製品をカタログに引き続き表示するには、**[!UICONTROL Display Out of Stock Products]** を `Yes` に設定します。
 
-   - [ 価格アラート ](alert-setup.md) が有効になっている場合、お客様は登録して、製品が再入荷したときに通知を受け取ることができます。
+   - [&#x200B; 価格アラート &#x200B;](alert-setup.md) が有効になっている場合、お客様は登録して、製品が再入荷したときに通知を受け取ることができます。
 
    - 商品ページに最後の在庫残高を表示するための開始を設定するには、**[!UICONTROL Only X left Threshold]** の金額を入力します。
 
@@ -42,17 +42,17 @@ Web サイトの製品と Stock に対するデフォルトの設定オプショ
 
    - 在庫とカタログの一貫性を維持するには、**[!UICONTROL Synchronize with Catalog]** を `Yes` に設定します。 このオプションを有効にすると、カタログの変更（製品が削除された、製品 SKU が変更された、製品タイプが変更されたなど）に応じて在庫データが調整されます。
 
-1. **[!UICONTROL Product Stock Options]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、オプションを設定します。
+1. **[!UICONTROL Product Stock Options]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、オプションを設定します。
 
-   - カタログの [ 在庫管理 ](enable.md) を有効化するには、「**[!UICONTROL Manage Stock]**」を「`Yes`」に設定します。
+   - カタログの [&#x200B; 在庫管理 &#x200B;](enable.md) を有効化するには、「**[!UICONTROL Manage Stock]**」を「`Yes`」に設定します。
 
-     ![ 商品ストックオプション ](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
+     ![&#x200B; 商品ストックオプション &#x200B;](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Backorders]** を次のいずれかに設定します。
 
      | オプション | 説明 |
      | ----- | ----- |
-     | `No Backorders` | 在庫切れの場合は [ 受注残 ](backorders.md) は受け付けておりません。 |
+     | `No Backorders` | 在庫切れの場合は [&#x200B; 受注残 &#x200B;](backorders.md) は受け付けておりません。 |
      | `Allow Qty Below 0` | バックオーダーは、数量がゼロを下回った場合に受け入れられます。 |
      | `Allow Qty Below 0 and Notify Customer` | バックオーダーは、数量がゼロを下回ると受け入れられ、オーダーを発注できる旨が顧客に通知されます。 |
 
@@ -76,17 +76,17 @@ Web サイトの製品と Stock に対するデフォルトの設定オプショ
 
    - [!DNL Inventory Management] の場合、**[!UICONTROL Automatically Return Credit Memo Item to Stock]** は `No` に設定されます。 クレジット・メモを発行する場合は、入力および選択して在庫をソースに戻します。
 
-1. **[!UICONTROL Admin bulk operations]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、オプションを設定します。
+1. **[!UICONTROL Admin bulk operations]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、オプションを設定します。
 
-   ![ 管理の一括操作 ](assets/config-catalog-inventory-admin-bulk-operations.png){width="600" zoomable="yes"}
+   ![&#x200B; 管理の一括操作 &#x200B;](assets/config-catalog-inventory-admin-bulk-operations.png){width="600" zoomable="yes"}
 
    - 一括製品アクションに対して一括操作を非同期で実行するように **[!UICONTROL Run asynchronously]** を設定
 
-     これらの操作には、一括 [ ソースの割り当てと割り当て解除 ](bulk-assignment.md) および [ ソースへの在庫の転送 ](inventory-transfer.md) が含まれます。 非同期バッチサイズまでの一括アクションを収集してから、それらのアクションを実行します。 このオプションは、デフォルトでは無効になっています。 有効にする前に、一括アクションでパフォーマンスを確認することをお勧めします。
+     これらの操作には、一括 [&#x200B; ソースの割り当てと割り当て解除 &#x200B;](bulk-assignment.md) および [&#x200B; ソースへの在庫の転送 &#x200B;](inventory-transfer.md) が含まれます。 非同期バッチサイズまでの一括アクションを収集してから、それらのアクションを実行します。 このオプションは、デフォルトでは無効になっています。 有効にする前に、一括アクションでパフォーマンスを確認することをお勧めします。
 
      >[!NOTE]
      >
-     >_非同期キューマネージャー_ を設定およびサポートするには、コマンドラインを使用してコマンドを発行する必要があります。 この手順には、開発者の支援が必要な場合があります。 _設定ガイド_ の [ メッセージキューコンシューマーの開始 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=ja) を参照してください。
+     >_非同期キューマネージャー_ を設定およびサポートするには、コマンドラインを使用してコマンドを発行する必要があります。 この手順には、開発者の支援が必要な場合があります。 _設定ガイド_ の [&#x200B; メッセージキューコンシューマーの開始 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=ja) を参照してください。
 
    - 有効な場合、**[!UICONTROL Asynchronous batch size]** を設定します。 デフォルトバッチサイズは 100 です。 バルクプロセスがこの量に達すると、システムはトリガーします。
 

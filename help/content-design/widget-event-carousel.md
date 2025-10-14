@@ -17,13 +17,13 @@ ht-degree: 0%
 
 カタログイベントカルーセルウィジェットには、今後のイベントのスライダーと各イベントのカウントダウンティッカーが表示されます。 カルーセルを表示するページとページレイアウトの領域を選択し、一度に表示するイベントの幅と数を制御することができます。 取得する結果は、テーマ、ページ上での表示位置、選択したオプションによって異なります。
 
-![ 左側のサイドバーのイベントカルーセル ](./assets/storefront-event-carousel-sidebar-gear.png){width="700" zoomable="yes"}
+![&#x200B; 左側のサイドバーのイベントカルーセル &#x200B;](./assets/storefront-event-carousel-sidebar-gear.png){width="700" zoomable="yes"}
 
 ## 手順 1：カタログカルーセルウィジェットを有効にする
 
-開始する前に、[ 手順 ](../merchandising-promotions/event-configure.md) に従って _カタログイベント_ ウィジェットを設定し、ストアフロントに対して有効にします。
+開始する前に、[&#x200B; 手順 &#x200B;](../merchandising-promotions/event-configure.md) に従って _カタログイベント_ ウィジェットを設定し、ストアフロントに対して有効にします。
 
-![ カタログイベントの設定 ](./assets/config-catalog-catalog-events-1.png){width="500" zoomable="yes"}
+![&#x200B; カタログイベントの設定 &#x200B;](./assets/config-catalog-catalog-events-1.png){width="500" zoomable="yes"}
 
 ## 手順 2：ウィジェットの作成
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Continue]**」をクリックします。
 
-   ![ イベントカルーセルのウィジェット設定 ](./assets/widget-event-carousel-settings.png){width="500" zoomable="yes"}
+   ![&#x200B; イベントカルーセルのウィジェット設定 &#x200B;](./assets/widget-event-carousel-settings.png){width="500" zoomable="yes"}
 
 1. _[!UICONTROL Storefront Properties]_&#x200B;セクションで、次の操作を行います。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    - （オプション） **[!UICONTROL Sort Order]** の場合は、数字を入力して、この項目がページの同じ部分に他の項目と共に表示される順序を決定します。 （`0` = 1 番目、`1` = 2 番目、`3` = 3 番目など）。
 
-     ![ ウィジェットのストアフロントのプロパティ ](./assets/widget-event-carousel-storefront-properties.png){width="600" zoomable="yes"}
+     ![&#x200B; ウィジェットのストアフロントのプロパティ &#x200B;](./assets/widget-event-carousel-storefront-properties.png){width="600" zoomable="yes"}
 
 ## 手順 3：場所の選択
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. イベントカルーセルをストアフロントの別の場所に表示する場合は、「**[!UICONTROL Add Layout Update]**」をクリックし、その場所に対してこれらの手順を繰り返します。
 
-   ![ レイアウトの更新 ](./assets/widget-event-carousel-layout-updates-catalog-category-sidebar.png){width="600" zoomable="yes"}
+   ![&#x200B; レイアウトの更新 &#x200B;](./assets/widget-event-carousel-layout-updates-catalog-category-sidebar.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save and Continue Edit]**」をクリックします。
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
    次のサンプルページでは、カスタムの幅を 250 ピクセルに設定しています。
 
-   ![ カスタム幅ウィジェットオプション ](./assets/widget-options-custom-width.png){width="400" zoomable="yes"}
+   ![&#x200B; カスタム幅ウィジェットオプション &#x200B;](./assets/widget-options-custom-width.png){width="400" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 

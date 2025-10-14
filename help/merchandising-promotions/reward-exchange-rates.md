@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 為替レートの設定
 
-![ 報酬為替レート ](./assets/reward-exchange-rates.png){width="700" zoomable="yes"}
+![&#x200B; 報酬為替レート &#x200B;](./assets/reward-exchange-rates.png){width="700" zoomable="yes"}
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Other Settings]_/**[!UICONTROL Reward Exchange Rates]**&#x200B;に移動します。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Reward Exchange Rate Information]** セクションで、次の操作を行います。
 
-   ![ 報酬為替レート – 情報 ](./assets/reward-exchange-rate-new.png){width="600" zoomable="yes"}
+   ![&#x200B; 報酬為替レート – 情報 &#x200B;](./assets/reward-exchange-rate-new.png){width="600" zoomable="yes"}
 
    - 報酬為替レートが適用されるサイトに **[!UICONTROL Website]** を設定します。
 

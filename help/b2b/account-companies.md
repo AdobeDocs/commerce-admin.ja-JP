@@ -16,49 +16,49 @@ B2B 会社アカウントをストアに組み込む場合、企業は、組織�
 
 店舗の管理者は、会社に応じてプロモーションや価格をニーズに合わせて調整し、買い物客の需要に応じて高度にカスタマイズされたオファーを作成し、注文を増やすことができます。
 
-会社アカウントの関連付けを標準 [ 個人 ](../customers/account-create.md) に追加すると、顧客は、会社に定義された特定の購入ワークフローを使用できます。
+会社アカウントの関連付けを標準 [&#x200B; 個人 &#x200B;](../customers/account-create.md) に追加すると、顧客は、会社に定義された特定の購入ワークフローを使用できます。
 
 会社アカウントの利点：
 
-- 無制限の [ 会社ユーザー ](account-company-users.md) と追加のアカウントの作成を提供し、企業の購入を簡素化します。
+- 無制限の [&#x200B; 会社ユーザー &#x200B;](account-company-users.md) と追加のアカウントの作成を提供し、企業の購入を簡素化します。
 
-- 注文を行うための様々な _役割と権限_ を持つ [ スマート ](account-company-roles-permissions.md) 会社アカウント階層のサポートが含まれます。
+- 注文を行うための様々な _役割と権限_ を持つ [&#x200B; スマート &#x200B;](account-company-roles-permissions.md) 会社アカウント階層のサポートが含まれます。
 
-- 支払い方法として [ 会社のストアクレジット ](credit-company.md) を提供することで、マーチャントが収入を増やすメカニズムを提供します。
+- 支払い方法として [&#x200B; 会社のストアクレジット &#x200B;](credit-company.md) を提供することで、マーチャントが収入を増やすメカニズムを提供します。
 
-- 管理者からのすべての会社アカウントの [ 管理 ](account-company-manage.md) をサポートします。
+- 管理者からのすべての会社アカウントの [&#x200B; 管理 &#x200B;](account-company-manage.md) をサポートします。
 
 ## 会社コードの表示
 
-_会社_ グリッドには、ステータスの設定に関係なく、アクティブなすべての会社アカウントと保留中のリクエストが一覧表示されます。 また、会社アカウントを [ 作成 ](account-company-create.md) および [ 管理 ](account-company-manage.md) するためのツールも提供します。 標準のグリッドコントロールを使用してリストをフィルタリングし、列のレイアウトを調整します。 列の説明のリストについては、_会社アカウントの管理_ の [ 列の説明 ](account-company-manage.md) の節を参照してください。
+_会社_ グリッドには、ステータスの設定に関係なく、アクティブなすべての会社アカウントと保留中のリクエストが一覧表示されます。 また、会社アカウントを [&#x200B; 作成 &#x200B;](account-company-create.md) および [&#x200B; 管理 &#x200B;](account-company-manage.md) するためのツールも提供します。 標準のグリッドコントロールを使用してリストをフィルタリングし、列のレイアウトを調整します。 列の説明のリストについては、_会社アカウントの管理_ の [&#x200B; 列の説明 &#x200B;](account-company-manage.md) の節を参照してください。
 
 顧客はストアフロントから会社アカウントを作成できます。または、マーチャントは管理者から会社アカウントを作成できます。 デフォルトでは、ストアフロントから会社アカウントを作成する機能が有効になっています。 設定で許可されている場合、ストアへの訪問者は、会社アカウントを開くことをリクエストできます。 会社のアカウントが承認されると、会社の管理者は、会社の構造や様々なレベルの権限を持つユーザーを設定できます。
 
 _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL Companies]** に移動します。
 
-![ 会社グリッド ](./assets/companies-grid.png){width="700" zoomable="yes"}
+![&#x200B; 会社グリッド &#x200B;](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-[!UICONTROL Companies] グリッドには、ステータスに関係なくすべての会社が一覧表示されます。 会社リストは、会社が [ 会社階層 ](manage-company-hierarchy.md) に関連付けられているかどうかを示し、会社、会社の管理者、その他の情報に関する [ 詳細情報 ](/help/b2b/account-company-manage.md#company-options-and-columns) を提供します。 [ 管理グリッドコントロール ](../getting-started/admin-grid-controls.md) を使用して、フィルター、列表示オプションなどを設定し、ビューをカスタマイズします。
+[!UICONTROL Companies] グリッドには、ステータスに関係なくすべての会社が一覧表示されます。 会社リストは、会社が [&#x200B; 会社階層 &#x200B;](manage-company-hierarchy.md) に関連付けられているかどうかを示し、会社、会社の管理者、その他の情報に関する [&#x200B; 詳細情報 &#x200B;](/help/b2b/account-company-manage.md#company-options-and-columns) を提供します。 [&#x200B; 管理グリッドコントロール &#x200B;](../getting-started/admin-grid-controls.md) を使用して、フィルター、列表示オプションなどを設定し、ビューをカスタマイズします。
 
 ## 会社管理者
 
 次の例は、最初の会社管理者アカウントを持つ _顧客_ グリッドを示しています。
 
-![ 会社管理者アカウントを使用した顧客グリッド ](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![&#x200B; 会社管理者アカウントを使用した顧客グリッド &#x200B;](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
 各会社には、アカウントのメールアドレスと管理者の姓と名で識別される単一の会社管理者がいます。 管理者は、ユーザーとして他の会社に割り当てることができますが、1 つの会社の管理者になることはできません。
 
-アカウントを作成した後、会社の管理者が [teams](account-company-structure.md) の会社構造を定義し、[ 会社ユーザー ](account-company-users.md) を設定して、それぞれに [ 役割と権限 ](account-company-roles-permissions.md) を設定します。
+アカウントを作成した後、会社の管理者が [teams](account-company-structure.md) の会社構造を定義し、[&#x200B; 会社ユーザー &#x200B;](account-company-users.md) を設定して、それぞれに [&#x200B; 役割と権限 &#x200B;](account-company-roles-permissions.md) を設定します。
 
 ### 最初のサインイン前に会社の管理者パスワードを設定する
 
 1. 会社の管理者が、ストアからようこそメールを受信します。
 
-   ![ ウェルカムメールの例 ](./assets/company-admin-welcome-email.png){width="500"}
+   ![&#x200B; ウェルカムメールの例 &#x200B;](./assets/company-admin-welcome-email.png){width="500"}
 
    >[!NOTE]
    >
-   >メールのメールアドレスターゲットとコンテンツは、[ 会社のメールオプション ](email-company-configuration.md) 設定で指定したオプションによって決まります。
+   >メールのメールアドレスターゲットとコンテンツは、[&#x200B; 会社のメールオプション &#x200B;](email-company-configuration.md) 設定で指定したオプションによって決まります。
 
 1. 指示に従い、パスワードを設定するために [!UICONTROL **リンク**] をクリックします。
 
@@ -73,26 +73,26 @@ _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL Compan
 
 1. [!UICONTROL **新しいパスワードの設定**] をクリックします。
 
-   ![ 顧客ログイン – 会社管理者 ](./assets/company-admin-account-login.png){width="700" zoomable="yes"}
+   ![&#x200B; 顧客ログイン – 会社管理者 &#x200B;](./assets/company-admin-account-login.png){width="700" zoomable="yes"}
 
 1. [!UICONTROL Customer Login] ページが表示されたら、顧客が [!UICONTROL **メール**] と [!UICONTROL **パスワード**] を入力します。
 
 1. [!UICONTROL **ログイン**] をクリックして、アカウントダッシュボードにアクセスします。
 
-   ![ アカウントダッシュボード – 会社 ](./assets/account-dashboard-company.png){width="700" zoomable="yes"}
+   ![&#x200B; アカウントダッシュボード – 会社 &#x200B;](./assets/account-dashboard-company.png){width="700" zoomable="yes"}
 
 ## 会社構造
 
-会社アカウントを設定して、ビジネスの構造を反映させることができます。 最初は、会社の構造には会社の管理者のみが含まれていますが、ユーザーのチームを含めるように拡張できます。 ユーザーは、チームに関連付けたり、会社内の部門や下位部門の階層内で整理したりできます。 この構造は、会社アカウントに関連付けられた [ 発注書 ](account-dashboard-approval-rules.md) [PO）に対する ](purchase-order-flow.md) 承認ルール）の使用をサポートするように設計されています。
+会社アカウントを設定して、ビジネスの構造を反映させることができます。 最初は、会社の構造には会社の管理者のみが含まれていますが、ユーザーのチームを含めるように拡張できます。 ユーザーは、チームに関連付けたり、会社内の部門や下位部門の階層内で整理したりできます。 この構造は、会社アカウントに関連付けられた [&#x200B; 発注書 &#x200B;](account-dashboard-approval-rules.md) [PO）に対する &#x200B;](purchase-order-flow.md) 承認ルール）の使用をサポートするように設計されています。
 
-![ 部門を有する企業体質 ](./assets/company-structure-diagram.svg){width="450"}
+![&#x200B; 部門を有する企業体質 &#x200B;](./assets/company-structure-diagram.svg){width="450"}
 
 会社管理者のアカウントダッシュボードでは、会社構造はツリーで表され、最初は会社管理者のみで構成されます。
 
-![ 会社管理者を置く会社組織 ](./assets/company-structure-tree-admin.png){width="600"}
+![&#x200B; 会社管理者を置く会社組織 &#x200B;](./assets/company-structure-tree-admin.png){width="600"}
 
 アカウントを作成すると、会社の管理者は、会社のメールアドレスを使用したり、別のメールアドレスを割り当てたりできます。
 
 次の例では、最初の会社構造に、会社管理者と、会社管理者の名前に個々のユーザーアカウントが含まれています。 ただし、会社管理者機能（会社の構造や承認ルールなど）は、会社管理者として指定されたユーザーアカウントにログインしている場合にのみ使用できます。
 
-![ 管理者とユーザーアカウントを使用した会社構造 ](./assets/company-structure-tree-admin-user.png){width="600"}
+![&#x200B; 管理者とユーザーアカウントを使用した会社構造 &#x200B;](./assets/company-structure-tree-admin-user.png){width="600"}

@@ -17,15 +17,15 @@ ht-degree: 1%
 
 ## [!UICONTROL Cron (Scheduled Tasks)]
 
-![ 詳細設定 – Cron （スケジュールされたタスク） ](./assets/system-cron.png)<!-- zoom -->
+![&#x200B; 詳細設定 – Cron （スケジュールされたタスク） &#x200B;](./assets/system-cron.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、[Cron （スケジュールされたタスク） ](../../systems/cron.md)」を参照してください。
+これらの設定の変更について詳しくは、[Cron （スケジュールされたタスク） &#x200B;](../../systems/cron.md)」を参照してください。
 
 ### [!UICONTROL index]
 
-![ 詳細設定 – Cron グループ：インデックス ](./assets/system-cron-group-index.png)<!-- zoom -->
+![&#x200B; 詳細設定 – Cron グループ：インデックス &#x200B;](./assets/system-cron-group-index.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Generate Schedules Every] | グローバル | スケジュールが生成される頻度を分単位で指定します。 |
 | [!UICONTROL Schedule Ahead for] | グローバル | スケジュールが生成される前の分数を決定します。 |
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 ![Cron Group: Default](./assets/system-cron-group-default.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Generate Schedules Every] | グローバル | スケジュールが生成される頻度を分単位で指定します。 |
 | [!UICONTROL Schedule Ahead for] | グローバル | スケジュールが生成される前の分数を決定します。 |
@@ -57,9 +57,9 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![ 詳細設定 – MySQL メッセージキューのクリーンアップ ](./assets/system-mysql-message-queue-cleanup.png)<!-- zoom -->
+![&#x200B; 詳細設定 – MySQL メッセージキューのクリーンアップ &#x200B;](./assets/system-mysql-message-queue-cleanup.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Successful Messages Lifetime] | グローバル | 成功したメッセージの有効期間を分単位で決定します。 クリーンアップをスキップするには、ゼロを入力します。 デフォルト：`10080` （7 日） |
 | [!UICONTROL New Messages Lifetime] | グローバル | 新しいメッセージの有効期間を分単位で指定します。 クリーンアップをスキップするには、ゼロを入力します。 デフォルト：`10080` （7 日） |
@@ -70,15 +70,15 @@ ht-degree: 1%
 
 ## [!UICONTROL Mail Sending Settings]
 
-![ 詳細設定 – メール送信設定 ](./assets/system-mail-sending-settings.png)<!-- zoom -->
+![&#x200B; 詳細設定 – メール送信設定 &#x200B;](./assets/system-mail-sending-settings.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、『 [ 管理システムガイド ](../../systems/email-communications.md) の _メール通信の設定_ を参照してください。
+これらの設定の変更について詳しくは、『 [&#x200B; 管理システムガイド &#x200B;](../../systems/email-communications.md) の _メール通信の設定_ を参照してください。
 
 >[!IMPORTANT]
 >
 >**セキュリティに関する通知** すべてのマーチャントは、最近特定された潜在的なリモートコード実行の不正利用から保護するために、直ちにメール送信設定を設定することをお勧めします。 この問題が解決されるまで、メール通信に [!DNL Sendmail] を使用しないことを強くお勧めします。 [!UICONTROL Mail Sending Settings] で、[!UICONTROL Set Return Path] が `No` に設定されていることを確認します。
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Disable Email Communications] | ストア表示 | ストアに対して電子メール通信をアクティブ化するかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Transport] | ストア表示 | ストアからの電子メール通信のトランスポートの種類を決定します。 オプション：`Sendmail` / `SMTP` |
@@ -92,9 +92,9 @@ ht-degree: 1%
 
 トランスポートタイプで SMTP を選択した場合は、SMTP サーバー接続を設定するための追加オプションを使用できます。
 
-![ 詳細設定 – SMTP を使用したメール送信設定 ](./assets/system-mail-sending-settings-smtp.png)<!-- zoom -->
+![&#x200B; 詳細設定 – SMTP を使用したメール送信設定 &#x200B;](./assets/system-mail-sending-settings-smtp.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Username] | ストア表示 | SMTP サーバーのログインユーザー名。 |
 | [!UICONTROL Password] | ストア表示 | SMTP サーバーログインのパスワード。 |
@@ -105,11 +105,11 @@ ht-degree: 1%
 
 ## [!UICONTROL Currency]
 
-![ 詳細設定 – 通貨 ](./assets/system-currency.png)<!-- zoom -->
+![&#x200B; 詳細設定 – 通貨 &#x200B;](./assets/system-currency.png)<!-- zoom -->
 
-この設定の変更について詳しくは、[ ストアと購入エクスペリエンスガイド ](../../stores-purchase/currency-configuration.md) の _通貨の設定_ を参照してください。
+この設定の変更について詳しくは、[&#x200B; ストアと購入エクスペリエンスガイド &#x200B;](../../stores-purchase/currency-configuration.md) の _通貨の設定_ を参照してください。
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Installed Currencies] | グローバル | Commerceのインストールで現在使用可能な通貨を示します。 オプションには、インストールされている通貨が選択された、使用可能なすべての通貨が含まれます。 |
 
@@ -117,11 +117,11 @@ ht-degree: 1%
 
 ## [!UICONTROL Security]
 
-![ 詳細設定 – セキュリティ ](./assets/system-security.png)<!-- zoom -->
+![&#x200B; 詳細設定 – セキュリティ &#x200B;](./assets/system-security.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、『 [ 管理システムガイド ](../../systems/security-session-management.md) の _セッション管理_ を参照してください。
+これらの設定の変更について詳しくは、『 [&#x200B; 管理システムガイド &#x200B;](../../systems/security-session-management.md) の _セッション管理_ を参照してください。
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Max Session Size in Admin] | グローバル | セッションの最大サイズをバイト単位で制限します。 `0` を使用して無効にします。 |
 | [!UICONTROL Max Session Size in Storefront] | グローバル | セッションの最大サイズをバイト単位で制限します。 `0` を使用して無効にします。 |
@@ -130,11 +130,11 @@ ht-degree: 1%
 
 ## [!UICONTROL Notifications]
 
-![ 詳細設定 – 通知 ](./assets/system-notifications.png)<!-- zoom -->
+![&#x200B; 詳細設定 – 通知 &#x200B;](./assets/system-notifications.png)<!-- zoom -->
 
-これらの設定の変更方法については、『 [ 管理システムガイド ](../../systems/notifications.md) の _システム通知_ を参照してください。
+これらの設定の変更方法については、『 [&#x200B; 管理システムガイド &#x200B;](../../systems/notifications.md) の _システム通知_ を参照してください。
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Use HTTPS to Get Feed] | グローバル | 管理者通知をセキュリティで保護されたチャネルで配信するかどうかを決定します。 オプション：`Yes` / `No` |
 | 更新頻度 | グローバル | 管理者メッセージの更新頻度を決定します。 オプション：`1 Hour` / `2 Hours` / `6 Hours` / `12 Hours` / `24 Hours` |
@@ -144,13 +144,13 @@ ht-degree: 1%
 
 ## [!UICONTROL Backup Settings]
 
-![ 詳細設定 – バックアップ設定 ](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
+![&#x200B; 詳細設定 – バックアップ設定 &#x200B;](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
 
 {{$include /help/_includes/backups-note.md}}
 
-これらの設定の変更の詳細については、『 [ 管理システム ガイド ](../../systems/backups.md) の _システム バックアップ_ を参照してください。
+これらの設定の変更の詳細については、『 [&#x200B; 管理システム ガイド &#x200B;](../../systems/backups.md) の _システム バックアップ_ を参照してください。
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | グローバル | Commerce インスタンスでバックアップを許可するかどうかを指定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Enable Scheduled Backup] | グローバル | （_[!UICONTROL Enable Backup]_&#x200B;を `Yes` に設定した場合に表示されます） Commerce インスタンスが通常のスケジュールで自動的にバックアップされるかどうかを指定します。 オプション：`Yes` / `No` |
@@ -165,11 +165,11 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![ 詳細設定 – 管理アクションログのアーカイブ ](./assets/system-admin-actions-log-archiving.png)<!-- zoom -->
+![&#x200B; 詳細設定 – 管理アクションログのアーカイブ &#x200B;](./assets/system-admin-actions-log-archiving.png)<!-- zoom -->
 
-これらの設定の変更の詳細については、『 [ 管理システムガイド ](../../systems/action-log-archive.md) の _アクションログアーカイブ_ を参照してください。
+これらの設定の変更の詳細については、『 [&#x200B; 管理システムガイド &#x200B;](../../systems/action-log-archive.md) の _アクションログアーカイブ_ を参照してください。
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Log Entry Lifetime, Days] | ストア表示 | 管理者アクションが管理アクション アーカイブに保持される日数を決定します。 デフォルト：`60` |
 | [!UICONTROL Log Archiving Frequency] | ストア表示 | 管理アクション ログがアーカイブされる頻度を決定します。 オプション：`Daily`/`Weekly`/`Monthly` |
@@ -178,17 +178,17 @@ ht-degree: 1%
 
 ## [!UICONTROL Full Page Cache]
 
-![ 詳細設定 – フルページキャッシュ ](./assets/system-full-page-cache.png)<!-- zoom -->
+![&#x200B; 詳細設定 – フルページキャッシュ &#x200B;](./assets/system-full-page-cache.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、『 [ 管理システムガイド ](../../systems/cache-management.md#full-page-caching) の _フルページキャッシュ_ を参照してください。
+これらの設定の変更について詳しくは、『 [&#x200B; 管理システムガイド &#x200B;](../../systems/cache-management.md#full-page-caching) の _フルページキャッシュ_ を参照してください。
 
-![ 詳細設定 – ワニス設定 ](./assets/system-full-page-cache-varnish.png)<!-- zoom -->
+![&#x200B; 詳細設定 – ワニス設定 &#x200B;](./assets/system-full-page-cache-varnish.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | グローバル | フルページキャッシュの管理に使用するアプリケーションを決定します。 オプション：<br/>**`Built-in Application`**– 実稼動環境には推奨されません。<br/>**`Varnish Caching`** – 実稼動環境に推奨されます。 |
 | [!UICONTROL TTL for public content] | グローバル | 公開コンテンツキャッシュの有効期間を秒単位で指定します。 デフォルト値：`120` |
-| [!UICONTROL Handles param size] | global | [&#128279;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) HTTP エンドポイントで処理する [`{BASE-URL}/page_cache/block/esi` レイアウト ハンドル ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=ja) の最大数を指定します。 サイズを制限すると、セキュリティとパフォーマンスが向上する可能性があります。 デフォルト値：`100` |
+| [!UICONTROL Handles param size] | global | [&#128279;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) HTTP エンドポイントで処理する [`{BASE-URL}/page_cache/block/esi` レイアウト ハンドル &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=ja) の最大数を指定します。 サイズを制限すると、セキュリティとパフォーマンスが向上する可能性があります。 デフォルト値：`100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | グローバル | Varnish 設定をパージして設定ファイルを生成できる IP アドレスを指定します。 複数のエントリはコンマで区切ります。 デフォルト値：`localhost` |
 | [!UICONTROL Backend host] | グローバル | 設定ファイルを生成するバックエンドホストを指定します。 デフォルト値：`localhost` |
@@ -203,24 +203,24 @@ ht-degree: 1%
 
 ## [!UICONTROL Storage Configuration for Media]
 
-![ 詳細設定 – メディアのストレージ設定 – ファイルシステム ](./assets/system-storage-config-media.png)<!-- zoom -->
+![&#x200B; 詳細設定 – メディアのストレージ設定 – ファイルシステム &#x200B;](./assets/system-storage-config-media.png)<!-- zoom -->
 
-これらの設定の変更の詳細については、『 [ コンテンツおよびデザイン ガイド ](../../content-design/media-storage-database.md) の _メディア データベースの使用_ を参照してください。
+これらの設定の変更の詳細については、『 [&#x200B; コンテンツおよびデザイン ガイド &#x200B;](../../content-design/media-storage-database.md) の _メディア データベースの使用_ を参照してください。
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Media Storage] | グローバル | メディアファイルの保存に使用する方法を決定します。 デフォルト設定：`File System` |
 | [!UICONTROL Environment Update Time] | グローバル | メディアファイル環境の更新頻度を秒単位で指定します。 デフォルト値：`3600` |
 
 {style="table-layout:auto"}
 
-![ 詳細設定 – メディアのストレージ設定 – データベース ](./assets/database-storage-deprecated.png)<!-- zoom -->
+![&#x200B; 詳細設定 – メディアのストレージ設定 – データベース &#x200B;](./assets/database-storage-deprecated.png)<!-- zoom -->
 
 >[!IMPORTANT]
 >
 >データベースメディアのストレージ方式は、Adobe CommerceおよびMagento Open Source 2.4.3 で非推奨（廃止予定）となりました。
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Media Storage] | グローバル | メディア ファイルの保存方法としてデータベースを指定します。 |
 | [!UICONTROL Select Media Database] | グローバル | メディアストレージに使用されるデータベースの名前を識別します。 デフォルト設定：`default_setup` |
@@ -233,11 +233,11 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![ 詳細設定 – 一括アクション ](./assets/system-bulk-actions.png)<!-- zoom -->
+![&#x200B; 詳細設定 – 一括アクション &#x200B;](./assets/system-bulk-actions.png)<!-- zoom -->
 
-これらの設定の変更方法については、『 [ 管理システムガイド ](../../systems/action-log-bulk-actions.md) の _一括アクション_ を参照してください。
+これらの設定の変更方法については、『 [&#x200B; 管理システムガイド &#x200B;](../../systems/action-log-bulk-actions.md) の _一括アクション_ を参照してください。
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Days Saved in Log] | グローバル | 一括アクションを _一括アクションログ_ アーカイブに保持する日数を指定します。 デフォルト：`60` |
 
@@ -247,11 +247,11 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![ 詳細設定 – スケジュールされたインポート/エクスポートファイル履歴のクリーニング ](./assets/system-schedule-history-cleaning.png)<!-- zoom -->
+![&#x200B; 詳細設定 – スケジュールされたインポート/エクスポートファイル履歴のクリーニング &#x200B;](./assets/system-schedule-history-cleaning.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、『 [ 管理システムガイド ](../../systems/data-scheduled-import-export.md) の _スケジュールされた読み込みと書き出し_ を参照してください。
+これらの設定の変更について詳しくは、『 [&#x200B; 管理システムガイド &#x200B;](../../systems/data-scheduled-import-export.md) の _スケジュールされた読み込みと書き出し_ を参照してください。
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Save File, Days] | グローバル | インポート/エクスポートの履歴ファイルを保存する日数を決定します。 |
 | [!UICONTROL Enable Scheduled File History Cleaning] | グローバル | インポート/エクスポート ファイルのスケジュールされたファイル クリーンアップを有効にします。 オプション：`Yes` / `No` |
@@ -266,11 +266,11 @@ ht-degree: 1%
 
 ## [!UICONTROL Image Upload Configuration]
 
-![ 詳細設定 – 画像のアップロード設定 ](./assets/system-image-upload-configuration.png)<!-- zoom -->
+![&#x200B; 詳細設定 – 画像のアップロード設定 &#x200B;](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
 <!-- [Image Upload Configuration](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Quality] | グローバル | サイズ変更された画像のJPGの画質を指定します。 画質が低いとファイルサイズは小さくなります。 80～90% を使用して、高品質でファイルサイズを縮小します。 デフォルト：`80` |
 | [!UICONTROL Enable Frontend Resize] | グローバル | この設定を有効にすると、Commerceが _商品の詳細_ ページにアップロードできる大きいサイズを超える画像のサイズを変更できます。 Commerceは、ファイルをアップロードする前に、JavaScriptを使用して画像ファイルのサイズを変更します。 画像のサイズを変更すると、正確な比率が維持され、「最大幅」または「最大高さ」の最大サイズを超えることはありません。 デフォルト：`Yes` |
@@ -281,9 +281,9 @@ ht-degree: 1%
 
 ## [!UICONTROL Media Gallery]
 
-![ 詳細設定 – メディアギャラリー ](./assets/system-media-gallery.png)<!-- zoom -->
+![&#x200B; 詳細設定 – メディアギャラリー &#x200B;](./assets/system-media-gallery.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Old Media Gallery] | グローバル | 古いメディアギャラリーを有効または無効にします。 |
 
@@ -291,9 +291,9 @@ ht-degree: 1%
 
 ## [!UICONTROL Media Gallery Image Optimization]
 
-![ 詳細設定 – Media Gallery 画像の最適化 ](./assets/system-media-image-optimization.png)<!-- zoom -->
+![&#x200B; 詳細設定 – Media Gallery 画像の最適化 &#x200B;](./assets/system-media-image-optimization.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Image Optimization] | グローバル | コンテンツに挿入された画像のファイルサイズを減らすために画像のサイズを変更するかどうかを決定します。 元の画像はメディアギャラリーに保存されます。 |
 | [!UICONTROL Maximum Width] | グローバル | Media Gallery からコンテンツに挿入する画像の最大幅（ピクセル単位）。 |
@@ -303,11 +303,11 @@ ht-degree: 1%
 
 ## [!UICONTROL Adobe Stock Integration]
 
-![ 詳細設定 – Adobe Stockの統合 ](./assets/system-adobe-stock-integration.png)<!-- zoom -->
+![&#x200B; 詳細設定 – Adobe Stockの統合 &#x200B;](./assets/system-adobe-stock-integration.png)<!-- zoom -->
 
-これらの設定について詳しくは、『 [ コンテンツとデザインガイド ](../../content-design/adobe-stock.md) の _Adobe Stockの統合_ を参照してください。
+これらの設定について詳しくは、『 [&#x200B; コンテンツとデザインガイド &#x200B;](../../content-design/adobe-stock.md) の _Adobe Stockの統合_ を参照してください。
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled Adobe Stock] | グローバル | Adobe Stock統合を有効または無効にします。 |
 | [!UICONTROL API Key (Client ID)] | グローバル | ストアをAdobe Stock サービスに接続するには、API キーが必要です。 |

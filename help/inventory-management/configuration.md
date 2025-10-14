@@ -24,7 +24,7 @@ ht-degree: 0%
 
 在庫可用性のしきい値を使用するもう 1 つの方法は、需要の高い製品を管理することです。 大量の購入者に販売するのではなく、新しい顧客を獲得したい場合は、最大数量を設定して、1 人の購入者が在庫全体を取り出さないようにすることができます。
 
-![ 在庫があり、残りはたった 1 件の例 ](assets/storefront-stock-options-1-left.png)
+![&#x200B; 在庫があり、残りはたった 1 件の例 &#x200B;](assets/storefront-stock-options-1-left.png)
 
 ## 設定オプション
 
@@ -39,10 +39,10 @@ ht-degree: 0%
 | [!UICONTROL Maximum Qty Allowed in Shopping Cart] | 1 回の注文で購入できる商品の最大数量を設定します。 |
 | [!UICONTROL Qty Uses Decimals] | 製品の数量に対して、整数ではなく小数の金額を許可します。 この設定は、重量、体積、長さで販売される製品に役立ちます。 Sourceのレベルで指定され、割り当てられたソースに基づいて在庫レベルで計算されます。 |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | 製品の一部を個別に出荷できるかどうかを決定します。 このオプションは、**[!UICONTROL Qty Uses Decimals]** = `Yes` の場合に表示されます。 |
-| [!UICONTROL Backorders] | バックオーダーが許可されているかどうかを示します。 Sourceのレベルで指定され、割り当てられたソースに基づいて在庫レベルで計算されます。 バックオーダーを許可する場合は、在庫切れのしきい値に負の値を設定することをお勧めします（[ バックオーダーの設定 ](backorders.md) を参照）。 オプション：<br />**[!UICONTROL No Backorders]**：商品が在庫切れの場合にバックオーダーを受け付けません。<br />**[!UICONTROL Allow Qty Below 0]**：数量がゼロを下回った場合にバックオーダーを受け入れます。<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**：数量がゼロを下回った場合はバックオーダーを受け入れますが、オーダーは引き続き発注可能であることを顧客に通知します。 |
+| [!UICONTROL Backorders] | バックオーダーが許可されているかどうかを示します。 Sourceのレベルで指定され、割り当てられたソースに基づいて在庫レベルで計算されます。 バックオーダーを許可する場合は、在庫切れのしきい値に負の値を設定することをお勧めします（[&#x200B; バックオーダーの設定 &#x200B;](backorders.md) を参照）。 オプション：<br />**[!UICONTROL No Backorders]**：商品が在庫切れの場合にバックオーダーを受け付けません。<br />**[!UICONTROL Allow Qty Below 0]**：数量がゼロを下回った場合にバックオーダーを受け入れます。<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**：数量がゼロを下回った場合はバックオーダーを受け入れますが、オーダーは引き続き発注可能であることを顧客に通知します。 |
 | [!UICONTROL Notify for Quantity Below] | 低在庫を警告する「数量未満」のトリガーを示す数量を設定します。 この金額は、在庫数量からではなく、販売可能数量から差し引かれます。 |
 | [!UICONTROL Enable Qty Increments] | 製品を数量単位で販売できるかどうかを決定します。 有効化されている場合は、増分手順で購入する必要がある製品の数量を入力します。 増分は、1 つの製品として、また設定可能な製品、グループ化された製品およびバンドル製品の子として購入する必要がある製品項目の数を設定します。 |
-| [!UICONTROL Automatically Return Credit Memo Item to Stock] | [!DNL Inventory Management] はこの値を使用しません。 返品またはクレジット・メモを完了すると、製品数量は影響を受けるソース数量に自動的に返品されます。 [ 製品オプションの設定 ](product-options.md) を参照してください。 |
+| [!UICONTROL Automatically Return Credit Memo Item to Stock] | [!DNL Inventory Management] はこの値を使用しません。 返品またはクレジット・メモを完了すると、製品数量は影響を受けるソース数量に自動的に返品されます。 [&#x200B; 製品オプションの設定 &#x200B;](product-options.md) を参照してください。 |
 
 ## 設定のフォールバックと継承
 

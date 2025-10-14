@@ -16,11 +16,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[EU 一般データ保護規則 ](../getting-started/compliance-gdpr.md) や [ カリフォルニア州消費者プライバシー法 ](../getting-started/compliance-ccpa.md) などのプライバシー規制の対象となるビジネスの場合は、[Googleのプライバシー設定 ](google-tools.md#google-privacy-settings) を参照してください。
+>[EU 一般データ保護規則 &#x200B;](../getting-started/compliance-gdpr.md) や [&#x200B; カリフォルニア州消費者プライバシー法 &#x200B;](../getting-started/compliance-ccpa.md) などのプライバシー規制の対象となるビジネスの場合は、[Googleのプライバシー設定 &#x200B;](google-tools.md#google-privacy-settings) を参照してください。
 
 >[!IMPORTANT]
 >
->[Cookie 制限モード ](../getting-started/compliance-cookie-law.md) を有効にすると、訪問者が Cookie を受け入 [!DNL Google Analytics] ていない限り、訪問者に関するデータは収集されません。
+>[Cookie 制限モード &#x200B;](../getting-started/compliance-cookie-law.md) を有効にすると、訪問者が Cookie を受け入 [!DNL Google Analytics] ていない限り、訪問者に関するデータは収集されません。
 
 ## [!DNL Google Analytics] 4
 
@@ -30,8 +30,8 @@ ht-degree: 0%
 
 サイトの [!DNL Google Analytics] 4 設定がまだない場合は、次のいずれかの方法に従います。
 
-- [ 初めて Analytics データ収集を設定する ](https://support.google.com/analytics/answer/9304153)
-- [ サイトへのGoogle Analytics 4 の追加  [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)
+- [&#x200B; 初めて Analytics データ収集を設定する &#x200B;](https://support.google.com/analytics/answer/9304153)
+- [&#x200B; サイトへのGoogle Analytics 4 の追加  [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)
 
 ### 手順 2:Commerceの設定を完了する
 
@@ -41,15 +41,15 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Google API]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Google GTag]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Google GTag]**」セクションを展開します。
 
-1. **[!UICONTROL Google Analytics4]** のサブセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、次の操作を実行します。
+1. **[!UICONTROL Google Analytics4]** のサブセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、次の操作を実行します。
 
    - **[!UICONTROL Enable]** を `Yes` に設定します。
 
    - **[!UICONTROL Account type]** は `Google Analytics4` のままにしておきます。
 
-   - **[!UICONTROL Measurement ID]** を入力します。 詳しくは、[Google Analyticsのヘルプ ](https://support.google.com/analytics/answer/9539598) を参照してください。
+   - **[!UICONTROL Measurement ID]** を入力します。 詳しくは、[Google Analyticsのヘルプ &#x200B;](https://support.google.com/analytics/answer/9539598) を参照してください。
 
    - A/B テストやその他のパフォーマンステストをコンテンツに対して実行する場合は、「**コンテンツ実験**」を `Yes` に設定します。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->2023 年 7 月 1 日（PT）をもって、標準のユニバーサルアナリティクス プロパティはデータを処理しなくなります。 それでも [!DNL Universal Analytics] に依存している場合は、今後 [Google Analytics 4 の使用準備 ](https://support.google.com/analytics/answer/10759417) をすることをお勧めします。
+>2023 年 7 月 1 日（PT）をもって、標準のユニバーサルアナリティクス プロパティはデータを処理しなくなります。 それでも [!DNL Universal Analytics] に依存している場合は、今後 [Google Analytics 4 の使用準備 &#x200B;](https://support.google.com/analytics/answer/10759417) をすることをお勧めします。
 
 ### 手順 1:Google Universal Analytics の設定
 
@@ -75,7 +75,7 @@ Googleの Web サイトにアクセスして、[Google Universal Analytics][1] �
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Google API]**」を選択します。
 
-1. **[!UICONTROL Google Analytics]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Google Analytics]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
    - **[!UICONTROL Enable]** を `Yes` に設定します。
 
@@ -95,7 +95,7 @@ Enhanced Ecommerce は、顧客の買い物や購入行動に関するインサ�
 
 ### 手順 1. Google アカウントへの新規登録
 
-1. [Google タグマネージャー ](google-tag-manager.md) アカウントに新規登録し、Commerceの設定を完了します。
+1. [Google タグマネージャー &#x200B;](google-tag-manager.md) アカウントに新規登録し、Commerceの設定を完了します。
 
 1. 新しい [Google Universal Analytics][1] アカウントに新規登録します。
 

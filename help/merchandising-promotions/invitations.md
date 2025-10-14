@@ -21,7 +21,7 @@ ht-degree: 0%
 
 顧客アカウントの「_[!UICONTROL My Invitations]_」セクションには、顧客から送信されたすべての招待状が一覧表示されます。 お客様は、店舗のイベント、ギフト登録、ウィッシュリストなどに関する招待状を友人や家族に送信できます。
 
-![ 招待状 ](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
+![&#x200B; 招待状 &#x200B;](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 
 ### 招待ワークフロー
 
@@ -62,9 +62,9 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Invitations]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL General]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL General]**」セクションを展開します。
 
-   ![ 顧客の設定 – 招待状の一般オプション ](../configuration-reference/customers/assets/invitations-general.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客の設定 – 招待状の一般オプション &#x200B;](../configuration-reference/customers/assets/invitations-general.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Enable Invitations Functionality]** を `Yes` に設定します。
 
@@ -84,9 +84,9 @@ ht-degree: 0%
 
 1. 一度に送信できる招待の数を制限するには、「**[!UICONTROL Max Invitations Allowed to be Sent at One Time]**」フィールドに数を入力します。
 
-1. **[!UICONTROL Email]** のセクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Email]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
 
-   ![ 顧客の設定 – 招待メールのオプション ](../configuration-reference/customers/assets/invitations-email.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客の設定 – 招待メールのオプション &#x200B;](../configuration-reference/customers/assets/invitations-email.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Customer Invitation Email Sender]** として使用するストア ID を選択します。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 ## 管理画面での招待状の送信と管理
 
-[[ プライベート販売レポート ](../getting-started/private-sales-reports.md)] セクションでは、指定した期間に送信された招待状の数、または招待状を送信した顧客を確認できます。
+[[&#x200B; プライベート販売レポート &#x200B;](../getting-started/private-sales-reports.md)] セクションでは、指定した期間に送信された招待状の数、または招待状を送信した顧客を確認できます。
 
 ### 管理者での招待状の作成
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
    複数のストア表示がある場合は、**[!UICONTROL Send From]** オプションを使用して、招待状の送信元のストア表示を指定します。
 
-   ![ 招待事項 ](./assets/create-invitation-page.png){width="700" zoomable="yes"}
+   ![&#x200B; 招待事項 &#x200B;](./assets/create-invitation-page.png){width="700" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 

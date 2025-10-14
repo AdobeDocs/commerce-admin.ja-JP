@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
-1. ![ 拡張セレクター ](../assets/icon-display-expand.png) を展開し **[!UICONTROL Media Gallery Image Optimization]** 以下を実行します。
+1. ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) を展開し **[!UICONTROL Media Gallery Image Optimization]** 以下を実行します。
 
    - **[!UICONTROL Enable Image Optimization]** を `Yes` に設定します。
    - 必要に応じて **[!UICONTROL Maximum Width]** と **[!UICONTROL Maximum Height]** の値（ピクセル単位）を入力します。
@@ -32,7 +32,7 @@ Media Gallery の画像最適化機能が有効になっている場合、画像
 
 設定で _最大幅_ と _最大高さ_ の値を変更すると、以前に挿入された既存の最適化画像がすべて更新されます。
 
-Media Gallery の画像の最適化を使用するには、構成が変更されたときに最適化された画像を再生成するために、`media.gallery.renditions.update` キューコンシューマーが実行されている必要があります。 詳しくは [ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ja) の _メッセージキューの管理_ を参照してください。
+Media Gallery の画像の最適化を使用するには、構成が変更されたときに最適化された画像を再生成するために、`media.gallery.renditions.update` キューコンシューマーが実行されている必要があります。 詳しくは [&#x200B; 設定ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ja) の _メッセージキューの管理_ を参照してください。
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}
 

@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->承認ルールの設定には、購買顧客のマネージャによる承認を指定するために、定義された [ 会社構造 ](account-company-structure.md) が必要です。
+>承認ルールの設定には、購買顧客のマネージャによる承認を指定するために、定義された [&#x200B; 会社構造 &#x200B;](account-company-structure.md) が必要です。
 
 ## 支払い方法
 
@@ -36,9 +36,9 @@ ht-degree: 0%
 
 ## 承認ルールの設定
 
-B2B の顧客は、必要な [ 自分の役割の権限 ](account-company-roles-permissions.md) を使用して、顧客アカウントの左側のパネルの **[!UICONTROL Approval Rules]** をクリックすると、会社ポリシーを適用する承認ルールを設定できます。
+B2B の顧客は、必要な [&#x200B; 自分の役割の権限 &#x200B;](account-company-roles-permissions.md) を使用して、顧客アカウントの左側のパネルの **[!UICONTROL Approval Rules]** をクリックすると、会社ポリシーを適用する承認ルールを設定できます。
 
-![ 会社承認規程 ](./assets/approval-rules.png){width="700" zoomable="yes"}
+![&#x200B; 会社承認規程 &#x200B;](./assets/approval-rules.png){width="700" zoomable="yes"}
 
 顧客が承認ルールを作成するには、次の手順を実行します。
 
@@ -60,14 +60,14 @@ B2B の顧客は、必要な [ 自分の役割の権限 ](account-company-roles-
 
    次のセクションでは、各ルールタイプについて詳細に説明し、例を示します。
 
-   ![ 新しい承認ルールの作成 ](./assets/approval-rules-create.png){width="700" zoomable="yes"}
+   ![&#x200B; 新しい承認ルールの作成 &#x200B;](./assets/approval-rules-create.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL Requires approval from]** の場合、は承認のタイプに応じて 1 人以上の必要な承認者を選択します。
 
    >[!NOTE]
    >
    >* 承認者として役割を割り当てる場合は、その役割に少なくとも 1 人のユーザーが存在することを確認します。
-   >* 同じ承認者の役割を持つユーザーが 2 人以上いる場合、発注書の作成者はその発注書を承認できません。 この場合、この承認者の役割を持つその他のユーザーには、手動による承認が必要です。 ただし、`Auto-approve POs created within this role` のオプションが [ 役割の権限 ](account-company-roles-permissions.md) で設定されている場合、発注書は自動的に承認されます。
+   >* 同じ承認者の役割を持つユーザーが 2 人以上いる場合、発注書の作成者はその発注書を承認できません。 この場合、この承認者の役割を持つその他のユーザーには、手動による承認が必要です。 ただし、`Auto-approve POs created within this role` のオプションが [&#x200B; 役割の権限 &#x200B;](account-company-roles-permissions.md) で設定されている場合、発注書は自動的に承認されます。
    >* 承認者の役割を持つユーザーが 1 人だけで、そのユーザーが作成者の場合、発注書は常に自動的に承認されます。`Auto-approve POs created within this role` の権限設定は無視されます。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
@@ -85,7 +85,7 @@ B2B の顧客は、必要な [ 自分の役割の権限 ](account-company-roles-
 
 1. 通貨タイプを選択し、金額を入力します。
 
-![ 受注合計承認ルール ](./assets/approval-rules-order-total.png){width="600" zoomable="yes"}
+![&#x200B; 受注合計承認ルール &#x200B;](./assets/approval-rules-order-total.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Shipping Cost]
 
@@ -100,7 +100,7 @@ B2B の顧客は、必要な [ 自分の役割の権限 ](account-company-roles-
 
 1. 希望する配送料を設定します。
 
-![ 出荷原価承認ルール ](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
+![&#x200B; 出荷原価承認ルール &#x200B;](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Number of SKUs]
 
@@ -120,7 +120,7 @@ B2B の顧客は、必要な [ 自分の役割の権限 ](account-company-roles-
 
 1. SKU の数を設定します。
 
-![SKU 数承認ルール ](./assets/approval-rules-number-skus.png){width="600" zoomable="yes"}
+![SKU 数承認ルール &#x200B;](./assets/approval-rules-number-skus.png){width="600" zoomable="yes"}
 
 ## 承認ルールの編集
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 会社への顧客グループの割り当て
 
-顧客グループを会社に割り当てる方法は、基本的に共有カタログを割り当てる方法と同じです。 共有カタログが [ 設定で有効 ](enable-basic-features.md) になっていない場合は、共有カタログではなく顧客グループが会社に割り当てられます。
+顧客グループを会社に割り当てる方法は、基本的に共有カタログを割り当てる方法と同じです。 共有カタログが [&#x200B; 設定で有効 &#x200B;](enable-basic-features.md) になっていない場合は、共有カタログではなく顧客グループが会社に割り当てられます。
 
 - 会社に割り当てることができる顧客グループまたは共有カタログは一度に 1 つだけです。 共有カタログに関連付けられている顧客グループは削除できません。
 - 会社に割り当てられている顧客グループを変更すると、すべての会社メンバーのプロファイルが更新されます。
@@ -26,15 +26,15 @@ ht-degree: 0%
 
 1. グリッドで会社を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-   ![ 会社の編集 ](./assets/companies-grid-edit.png){width="700" zoomable="yes"}
+   ![&#x200B; 会社の編集 &#x200B;](./assets/companies-grid-edit.png){width="700" zoomable="yes"}
 
-1. 会社ページで、下にスクロールして「**[!UICONTROL Advanced Settings]**」セクションの ![ 展開セレクター ](../assets/icon-display-expand.png) を展開します。
+1. 会社ページで、下にスクロールして「**[!UICONTROL Advanced Settings]**」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
 
 1. 適切な **[!UICONTROL Customer Group]** を設定します。
 
    設定で共有カタログが無効になっている場合でも、[!UICONTROL Customer Group] リストには既存のすべての共有カタログが表示されます。
 
-   ![ 顧客グループまたは共有カタログの変更 ](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
+   ![&#x200B; 顧客グループまたは共有カタログの変更 &#x200B;](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
 1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL Proceed]**」をクリックします。
 

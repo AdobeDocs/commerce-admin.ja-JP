@@ -19,6 +19,6 @@ Adobe CommerceとMagento Open Sourceは、役割と権限を使用して、管�
 
 管理者ユーザーのアクセスが特定の web サイトまたはストアに制限されている場合、権限のないユーザーは表示されないか、灰色で表示されます。 許可された Web サイトや店舗の売上高やその他のデータのみがユーザーに表示されます。
 
-- ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） デフォルトでは、ストアに変更を加えた際にユーザーが実行したすべてのアクションが自動的にログ （記録）に記録されます。 管理者アクションは、[ アクションログレポート ](action-log-report.md) で確認できます。 ストアの高度な管理設定で [ 管理アクションログ ](action-log.md) のログを設定します。
+- ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） デフォルトでは、ストアに変更を加えた際にユーザーが実行したすべてのアクションが自動的にログ （記録）に記録されます。 管理者アクションは、[&#x200B; アクションログレポート &#x200B;](action-log-report.md) で確認できます。 ストアの高度な管理設定で [&#x200B; 管理アクションログ &#x200B;](action-log.md) のログを設定します。
 
-![ 管理者 – すべてのユーザーアカウント ](./assets/users-all.png){width="700" zoomable="yes"}
+![&#x200B; 管理者 – すべてのユーザーアカウント &#x200B;](./assets/users-all.png){width="700" zoomable="yes"}
