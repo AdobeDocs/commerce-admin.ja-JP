@@ -14,13 +14,13 @@ ht-degree: 0%
 
 B2B 拡張機能のこれらのリリースノートでは、リリースサイクルでAdobeによって追加された追加と修正が取り込まれています。これには、以下が含まれます。
 
-![ 新機能 ](../assets/new.svg) 新機能
-![ 修正された問題 ](../assets/fix.svg) 修正および改善
-![ 既知の問題 ](../assets/bug.svg)
+![&#x200B; 新機能 &#x200B;](../assets/new.svg) 新機能
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 修正および改善
+![&#x200B; 既知の問題 &#x200B;](../assets/bug.svg)
 
 >[!NOTE]
 >
->使用可能なAdobe Commerce リリースでサポートされている B2B Commerce拡張機能のバージョンについて詳しくは、[ 製品の可用性 ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) を参照してください。
+>使用可能なAdobe Commerce リリースでサポートされている B2B Commerce拡張機能のバージョンについて詳しくは、[&#x200B; 製品の可用性 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) を参照してください。
 
 ## B2B v1.5.3-alpha3
 
@@ -28,7 +28,7 @@ B2B 拡張機能のこれらのリリースノートでは、リリースサイ�
 
 Adobe Commerce バージョン 2.4.9-alpha3 との互換性
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.5.3-alpha2
 
@@ -36,47 +36,47 @@ Adobe Commerce バージョン 2.4.9-alpha3 との互換性
 
 Adobe Commerce バージョン 2.4.9-alpha2 との互換性
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.5.2-p3
 
 *2025 年 10 月 14 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"} Adobe Commerce バージョン 2.4.8-p3、2.4.7-p8、および 2.4.6-p13 セキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"} Adobe Commerce バージョン 2.4.8-p3、2.4.7-p8、および 2.4.6-p13 セキュリティパッチリリース。
 Adobe Commerce バージョン 2.4.7 ～ 2.4.7-p7、2.4.6 ～ 2.4.6-p12 と互換性があります。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.5.2-p2
 
 *2025 年 8 月 12 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"} Adobe Commerce バージョン 2.4.8-p2、2.4.7-p7、および 2.4.6-p12 セキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"} Adobe Commerce バージョン 2.4.8-p2、2.4.7-p7、および 2.4.6-p12 セキュリティパッチリリース。
 Adobe Commerce バージョン 2.4.7 ～ 2.4.7-p6、2.4.6 ～ 2.4.6-p11 と互換性があります。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.5.2-p1
 
 *2025 年 6 月 10 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"} Adobe Commerce バージョン 2.4.8-p1、2.4.7-p6、および 2.4.6-p11 セキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"} Adobe Commerce バージョン 2.4.8-p1、2.4.7-p6、および 2.4.6-p11 セキュリティパッチリリース。
 Adobe Commerce バージョン 2.4.7 ～ 2.4.7-p5、2.4.6 ～ 2.4.6-p10 と互換性あり
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B 1.5.2
 
 *2025 年 4 月 8 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"} Adobe Commerce バージョン 2.4.8、2.4.7-p5 および 2.4.6-p10 セキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"} Adobe Commerce バージョン 2.4.8、2.4.7-p5 および 2.4.6-p10 セキュリティパッチリリース。
 Adobe Commerce バージョン 2.4.7 ～ 2.4.7-p4、2.4.6 ～ 2.4.6-p9 と互換性あり
 
 B2B v1.5.2 リリースには、品質の改善とバグ修正が含まれています。
 
 ### 会社管理
 
-![ 新規 ](../assets/new.svg)<!-- B2B-4123 --> 管理者は、ストアフロントの会社スイッチャーを使用して、1 つのアカウントから複数の会社を管理できるようになりました。 主なメリットは次のとおりです。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)<!-- B2B-4123 --> 管理者は、ストアフロントの会社スイッチャーを使用して、1 つのアカウントから複数の会社を管理できるようになりました。 主なメリットは次のとおりです。
 
 - **シンプルな複数企業管理**：管理者は、1 つのユーザー・アカウントで複数の企業を監視できるため、企業ごとに個別のログインを作成して管理する必要がなくなります。
 - **効率的な企業切り替え** – 直感的なインターフェイスにより、管理者は企業間を迅速に切り替えて更新を行うことができ、複数のエンティティを管理する際の生産性が向上します。
@@ -86,19 +86,19 @@ B2B v1.5.2 リリースには、品質の改善とバグ修正が含まれてい
 
 ### 会社
 
-![ 修正された問題 ](../assets/fix.svg)<!-- B2B-4480 --> 買い物かごに商品を入れたまま会社ユーザーとしてログインすると、ゲスト顧客に `No such entity with cartId = ?` しいエラーメッセージが表示される問題を修正しました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!-- B2B-4480 --> 買い物かごに商品を入れたまま会社ユーザーとしてログインすると、ゲスト顧客に `No such entity with cartId = ?` しいエラーメッセージが表示される問題を修正しました。
 
 ### 譲渡可能見積
 
-![ 修正された問題 ](../assets/fix.svg) B2B v1.5.2 リリースには、交渉可能な引用符に関する次の修正が含まれています。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) B2B v1.5.2 リリースには、交渉可能な引用符に関する次の修正が含まれています。
 
-- <!-- B2B-3252 -->[!UICONTROL Line Item Discount Amount] フィールドで入力が検証され、負の割引値の入力が防止されるようになりました。
-- <!-- B2B-3224 -->長い行項目のメモが切り詰められ、B2B のお客様には読みにくいユーザーエクスペリエンスの問題を修正しました。
-- <!-- B2B-2865 -->B2B のお客様は、見積りを作成する際に、小数値（1.5 や 2.75 など）を使用して製品数量を指定できるようになりました。
+- &#x200B;<!-- B2B-3252 -->[!UICONTROL Line Item Discount Amount] フィールドで入力が検証され、負の割引値の入力が防止されるようになりました。
+- &#x200B;<!-- B2B-3224 -->長い行項目のメモが切り詰められ、B2B のお客様には読みにくいユーザーエクスペリエンスの問題を修正しました。
+- &#x200B;<!-- B2B-2865 -->B2B のお客様は、見積りを作成する際に、小数値（1.5 や 2.75 など）を使用して製品数量を指定できるようになりました。
 
 ### 見積もりテンプレート
 
-![ 新規 ](../assets/new.svg)<!-- B2B-4104 --> B2B 購入者と販売者が、見積もりテンプレートに外部ドキュメントリンクを添付する新しい機能。 この機能を使用すると、DocuSign や Adobe Sign などのサービスでホストされているドキュメントに引用符で直接リンクでき、既存のファイル添付機能を補完できます。 主なメリットは次のとおりです。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)<!-- B2B-4104 --> B2B 購入者と販売者が、見積もりテンプレートに外部ドキュメントリンクを添付する新しい機能。 この機能を使用すると、DocuSign や Adobe Sign などのサービスでホストされているドキュメントに引用符で直接リンクでき、既存のファイル添付機能を補完できます。 主なメリットは次のとおりです。
 
 - 重要な契約書や契約書に直接アクセスできるため、共同作業を効率化
 - 最新のドキュメントに瞬時にアクセスでき、透明性が向上
@@ -109,26 +109,26 @@ B2B v1.5.2 リリースには、品質の改善とバグ修正が含まれてい
 
 *2025 年 2 月 11 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"} Adobe Commerce バージョン 2.4.7-p4 以降および 2.4.6-p9 以降のセキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"} Adobe Commerce バージョン 2.4.7-p4 以降および 2.4.6-p9 以降のセキュリティパッチリリース。
 Adobe Commerce バージョン 2.4.8-beta1 から 2.4.8-beta2、2.4.7 から 2.4.7-p3、2.4.6 から 2.4.6-p8 との互換性
 
 B2B v1.5.1 リリースには、品質の改善とバグ修正が含まれています。
 
 ### 会社
 
-![ 修正された問題 ](../assets/fix.svg)<!-- B2B-4422 --> 顧客が見積もりの詳細ページで会社を切り替えようとした場合、ある会社のために作成された見積もりを別の会社の価格で注文するために使用できないように、システムは顧客を *アクセス拒否* ページにリダイレクトするようになりました。 以前は、ユーザーは、ある会社の価格で見積もりを作成してから、別の会社に切り替えて、異なる価格で注文することができました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!-- B2B-4422 --> 顧客が見積もりの詳細ページで会社を切り替えようとした場合、ある会社のために作成された見積もりを別の会社の価格で注文するために使用できないように、システムは顧客を *アクセス拒否* ページにリダイレクトするようになりました。 以前は、ユーザーは、ある会社の価格で見積もりを作成してから、別の会社に切り替えて、異なる価格で注文することができました。
 
 ### 品目割引
 
-![ 修正された問題 ](../assets/fix.svg)<!-- B2B-2938 --> 見積もりの再計算シナリオで発生するパフォーマンスの低下に対処することで、システム効率を向上しました。 以前は、買い物かごの行項目ごとに 2 つの新しいエンティティが追加され、データベースリクエストが顕著に増加し、パフォーマンスが低下する原因となっていました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!-- B2B-2938 --> 見積もりの再計算シナリオで発生するパフォーマンスの低下に対処することで、システム効率を向上しました。 以前は、買い物かごの行項目ごとに 2 つの新しいエンティティが追加され、データベースリクエストが顕著に増加し、パフォーマンスが低下する原因となっていました。
 
 ### 譲渡可能見積
 
-![ 問題を修正しました ](../assets/fix.svg)<!-- B2B-3820 -->Luma ストアフロントの引用テンプレートページの *[!UICONTROL min/max qty]* フィールドにJavaScriptの検証が適用された場合、UI 要素の位置が維持されるようになりました。 以前は、これらのフィールドにJavaScriptの検証を適用すると、ページ上の他の UI 要素がシフトしていました。
+![&#x200B; 問題を修正しました &#x200B;](../assets/fix.svg)<!-- B2B-3820 -->Luma ストアフロントの引用テンプレートページの *[!UICONTROL min/max qty]* フィールドにJavaScriptの検証が適用された場合、UI 要素の位置が維持されるようになりました。 以前は、これらのフィールドにJavaScriptの検証を適用すると、ページ上の他の UI 要素がシフトしていました。
 
 ### ショッピングカート
 
-![ 問題を修正 ](../assets/fix.svg)<!-- B2B-4222 --> 複数の会社アカウントを管理するユーザーのショッピングエクスペリエンスを効率化するように設計された、新しい買い物かご管理システムを導入しました。 この新しいシステムは、買い物かごを顧客アカウントではなく個々の会社に関連付けて、次の機能をサポートすることで、買い物体験を合理化し、ワークフローを改善します。
+![&#x200B; 問題を修正 &#x200B;](../assets/fix.svg)<!-- B2B-4222 --> 複数の会社アカウントを管理するユーザーのショッピングエクスペリエンスを効率化するように設計された、新しい買い物かご管理システムを導入しました。 この新しいシステムは、買い物かごを顧客アカウントではなく個々の会社に関連付けて、次の機能をサポートすることで、買い物体験を合理化し、ワークフローを改善します。
 
 - **企業固有の買い物かご：** – 企業固有の価格と製品オプションをサポートするために、買い物かごが個々の企業にリンクされるようになりました。
 - **シームレスな切り替え**：ユーザーは、各企業の買い物かごの内容に影響を与えることなく、異なる企業アカウントを容易に切り替えることができます。
@@ -138,7 +138,7 @@ B2B v1.5.1 リリースには、品質の改善とバグ修正が含まれてい
 
 *2024 年 10 月 30 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"} Adobe Commerce バージョン 2.4.7-p3 以降および 2.4.6-p8 以降のセキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"} Adobe Commerce バージョン 2.4.7-p3 以降および 2.4.6-p8 以降のセキュリティパッチリリース。
 Adobe Commerce バージョン 2.4.8-beta1、2.4.7 ～ 2.4.7-p2、2.4.6 ～ 2.4.6-p7 と互換性があります。
 
 Adobe Commerce B2B バージョン 1.5.0 は、PHP 8.3 とも互換性があり、[GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server) をサポートしています。
@@ -147,63 +147,63 @@ B2B v1.5.0 リリースには、新機能、品質の改善、バグ修正が含
 
 >[!NOTE]
 >
-> 「[ 後方互換性のない変更 ](backward-incompatible-changes.md)」トピックのハイライトと参照情報を確認して、B2B 1.5.0 リリースで導入された後方互換性のない変更（BIC）について説明します。
+> 「[&#x200B; 後方互換性のない変更 &#x200B;](backward-incompatible-changes.md)」トピックのハイライトと参照情報を確認して、B2B 1.5.0 リリースで導入された後方互換性のない変更（BIC）について説明します。
 
 ### 会社管理
 
-![ 新規 ](../assets/new.svg)**会社管理**<!--B2B-2901--> – マーチャントは、指定された親会社に会社を割り当てることで、Adobe Commerceの会社を階層的な組織として表示および管理できるようになりました。 会社を親に割り当てると、親の会社管理者が会社アカウントを管理できるようになります。 許可された管理者ユーザーのみが、会社の割り当てを追加および管理できます。 詳しくは、[ 会社階層の管理 ](manage-company-hierarchy.md) を参照してください。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)**会社管理**<!--B2B-2901--> – マーチャントは、指定された親会社に会社を割り当てることで、Adobe Commerceの会社を階層的な組織として表示および管理できるようになりました。 会社を親に割り当てると、親の会社管理者が会社アカウントを管理できるようになります。 許可された管理者ユーザーのみが、会社の割り当てを追加および管理できます。 詳しくは、[&#x200B; 会社階層の管理 &#x200B;](manage-company-hierarchy.md) を参照してください。
 
 - 管理者の *[!UICONTROL Company Hierarchy]* ページの新しい「*[!UICONTROL Company Account]*」セクションで、会社の割り当てを追加および管理します。
 
 - 新しい *[!UICONTROL Company Type]* 設定で会社を並べ替え、フィルタリングします。 会社グリッドの「*[!UICONTROL Company Type]*」列は、会社が個々の会社であるか、組織階層の一部（親または子）であるかを示します。
 
-![ 新規 ](../assets/new.svg)**大規模な会社設定の管理**<!--B2B-2849--> - *[!UICONTROL Change company setting]* または *[!UICONTROL Companies]* グリッドから会社を管理する際に使用できる *[!UICONTROL Company Hierarchy]* の一括アクションを使用して、選択した会社の会社設定をすばやく変更します。 例えば、会社のグループに対して新しい共有カタログを作成した場合、各会社を個別に編集する代わりに、1 回の操作で共有カタログの設定を変更できます。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)**大規模な会社設定の管理**<!--B2B-2849--> - *[!UICONTROL Change company setting]* または *[!UICONTROL Companies]* グリッドから会社を管理する際に使用できる *[!UICONTROL Company Hierarchy]* の一括アクションを使用して、選択した会社の会社設定をすばやく変更します。 例えば、会社のグループに対して新しい共有カタログを作成した場合、各会社を個別に編集する代わりに、1 回の操作で共有カタログの設定を変更できます。
 
-![ 新規 ](../assets/new.svg) API デベロッパーは、新しい会社関係 REST API エンドポイント `/V1/company/{parentId}/relations` を使用して、会社の割り当てを作成、表示、削除できます。 [Web API 開発者ガイド ](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) の *会社オブジェクトの管理* を参照してください。
+![&#x200B; 新規 &#x200B;](../assets/new.svg) API デベロッパーは、新しい会社関係 REST API エンドポイント `/V1/company/{parentId}/relations` を使用して、会社の割り当てを作成、表示、削除できます。 [Web API 開発者ガイド &#x200B;](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) の *会社オブジェクトの管理* を参照してください。
 
 ### 会社アカウント
 
-![ 新規 ](../assets/new.svg)<!--B2B-2828--> **複数会社の割り当て** - ユーザーを複数の会社に割り当てることで、会社ユーザーの会社アカウントへのアクセスを簡素化します。 例えば、複数の会社のサイトから注文する買い手がある場合、1 つのアカウントを作成し、買い手が連携するすべての会社をそのアカウントに割り当てます。 その後、買い手は 1 回ログインし、ストアフロントから会社を選択して会社アカウントを切り替えることができます。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)<!--B2B-2828--> **複数会社の割り当て** - ユーザーを複数の会社に割り当てることで、会社ユーザーの会社アカウントへのアクセスを簡素化します。 例えば、複数の会社のサイトから注文する買い手がある場合、1 つのアカウントを作成し、買い手が連携するすべての会社をそのアカウントに割り当てます。 その後、買い手は 1 回ログインし、ストアフロントから会社を選択して会社アカウントを切り替えることができます。
 
 >[!NOTE]
 >
 >会社ユーザーは複数の会社に割り当てることができますが、1 つの会社の会社管理者になることはできません。
 
-![ 新規 ](../assets/new.svg) <!--B2B-2747--> **会社範囲セレクター** – 複数の会社に割り当てられている会社ユーザーがストアフロントで会社を変更できる機能を提供します。 範囲が切り替わると、データが更新され、新しい会社のコンテキストに基づいて情報が表示されます。 例えば、新しい会社が別の共有カタログを使用している場合、会社のユーザーには、新しい共有カタログに基づいて製品、価格、その他の情報が表示されます。 注文、見積もり、見積もりテンプレートに関連するコンテンツも、選択した会社のコンテキストに基づいて更新されます。
+![&#x200B; 新規 &#x200B;](../assets/new.svg) <!--B2B-2747--> **会社範囲セレクター** – 複数の会社に割り当てられている会社ユーザーがストアフロントで会社を変更できる機能を提供します。 範囲が切り替わると、データが更新され、新しい会社のコンテキストに基づいて情報が表示されます。 例えば、新しい会社が別の共有カタログを使用している場合、会社のユーザーには、新しい共有カタログに基づいて製品、価格、その他の情報が表示されます。 注文、見積もり、見積もりテンプレートに関連するコンテンツも、選択した会社のコンテキストに基づいて更新されます。
 
 >[!NOTE]
 >買い物かごの内容には、現在の顧客が選択した項目が反映されます。 アクティブな買い物かごがあり、別の会社を選択している顧客は、新しい会社のコンテキストに基づいて製品の品揃え、価格、プロモーションの割引を反映するように買い物かごを更新するよう促されます。 新しい会社に関連付けられているカタログで利用できない製品は、買い物かごから削除されます。 製品の価格や在庫が異なる場合、買い物かごは更新され、選択した会社のコンテキストで利用可能なデータが反映されます。<!--B2B-4222-->
 
-![ 修正された問題 ](../assets/fix.svg)<!--ACP2E-1933--> 会社管理者は、ストアフロントから会社ユーザーを追加できるようになりました。 以前は、管理者ユーザーが新しいユーザーを追加しようとすると、Commerceでエラーがログに記録されていました。ユーザー名：`CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!--ACP2E-1933--> 会社管理者は、ストアフロントから会社ユーザーを追加できるようになりました。 以前は、管理者ユーザーが新しいユーザーを追加しようとすると、Commerceでエラーがログに記録されていました。ユーザー名：`CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`。
 
 ### 見積もりテンプレートと見積もりテンプレート
 
 見積機能の改善により、バイヤーとセラーは見積もりと見積ネゴシエーションをより効果的に管理できます。
 
-![ 新規 ](../assets/new.svg) 見積もりテンプレート ****—<!--B2B-3367--> 購入者と販売者は、再利用可能でカスタマイズ可能な見積もりテンプレートを作成することで、見積もりプロセスを合理化できるようになりました。 見積テンプレートを使用すると、見積ネゴシエーション・プロセスを 1 回完了できます。バイヤーは、各受注に対して見積ネゴシエーション・プロセスを実行するのではなく、定型受注に対して事前承認済のリンクされた見積を生成できます。 Quote テンプレートは、次の高度な機能を追加することにより、既存の Quote 機能を拡張します。
+![&#x200B; 新規 &#x200B;](../assets/new.svg) 見積もりテンプレート **&#x200B;**—<!--B2B-3367--> 購入者と販売者は、再利用可能でカスタマイズ可能な見積もりテンプレートを作成することで、見積もりプロセスを合理化できるようになりました。 見積テンプレートを使用すると、見積ネゴシエーション・プロセスを 1 回完了できます。バイヤーは、各受注に対して見積ネゴシエーション・プロセスを実行するのではなく、定型受注に対して事前承認済のリンクされた見積を生成できます。 Quote テンプレートは、次の高度な機能を追加することにより、既存の Quote 機能を拡張します。
 
 - **注文しきい値** 売り手は最小注文と最大注文のコミットメントを設定し、買い手が合意された購入量に従うことを確認できます。
 - **最小品目オーダー数量と最大品目オーダー数量の設定** を使用すると、バイヤーは、新規テンプレートや他のネゴシエーションを必要とせずに、リンクされた見積のオーダー数量を柔軟に調整できます。
 - **生成され、正常に完了した注文のリンクされた見積もりの数を追跡** して、交渉済の契約の履行に関するインサイトを得ます。
 - **リンクされた見積** は、見積テンプレートで交渉された条件に基づいて定型受注を発行するためにバイヤーが有効な見積テンプレートから生成する事前承認済の見積です。
 
-![ 既存 ](../assets/new.svg) 見積もり機能に関する新 **な機能強化**
+![&#x200B; 既存 &#x200B;](../assets/new.svg) 見積もり機能に関する新 **な機能強化**
 
 - **更新されたCommerce アクセス制御リスト（ACL）ルールにより** B2B マネージャーおよびスーパーバイザーは、下位ユーザーの見積もりと見積もりテンプレートを管理できます。 表示、編集および削除アクセスの詳細な設定は、別々のルールでサポートされています。
 
-- **見積をドラフトとして保存**<!--B2B-2566--> - ショッピング・カートから [ 見積リクエスト ](quote-request.md) を作成する際に、バイヤーは見積をドラフトとして保存できるようになりました。これにより、セラーとの見積ネゴシエーション・プロセスを開始する前に、レビューおよび更新できます。 下書きの見積もりに有効期限がありません。 購入者は、アカウントダッシュボードの「[!UICONTROL My Quotes]」セクションで、下書きの見積もりを確認および更新できます。
+- **見積をドラフトとして保存**<!--B2B-2566--> - ショッピング・カートから [&#x200B; 見積リクエスト &#x200B;](quote-request.md) を作成する際に、バイヤーは見積をドラフトとして保存できるようになりました。これにより、セラーとの見積ネゴシエーション・プロセスを開始する前に、レビューおよび更新できます。 下書きの見積もりに有効期限がありません。 購入者は、アカウントダッシュボードの「[!UICONTROL My Quotes]」セクションで、下書きの見積もりを確認および更新できます。
 
 - **Quote の名前を変更**<!--B2B-2596--> - 「[」オプションを選択して、](account-dashboard-my-quotes.md#quote-actions)Quote detail **[!UICONTROL Rename]** ページから Quote 名を変更できるようになりました。 このオプションは、権限を持つ購入者が見積もりを編集する際に使用できます。 名前の変更イベントは Quote History Log に記録されます。
 
-- **見積書の複製**<!--B2B-2701--> - バイヤーとセラーは、既存の見積書をコピーして新しい見積書を作成できるようになりました。 Quote の詳細ビューからコピーを作成するには、管理 **[!UICONTROL Create Copy]** たは [ ストアフロント ](quote-price-negotiation.md#button-bar) の [Quote の詳細ビュー ](account-dashboard-my-quotes.md#quote-actions) を選択します。
+- **見積書の複製**<!--B2B-2701--> - バイヤーとセラーは、既存の見積書をコピーして新しい見積書を作成できるようになりました。 Quote の詳細ビューからコピーを作成するには、管理 **[!UICONTROL Create Copy]** たは [&#x200B; ストアフロント &#x200B;](quote-price-negotiation.md#button-bar) の [Quote の詳細ビュー &#x200B;](account-dashboard-my-quotes.md#quote-actions) を選択します。
 
 - **見積品目を購買依頼リストに移動**<!--B2B-2755-->：購買担当は、見積ネゴシエーション・プロセスに製品を含めないことにした場合、見積から製品を削除して購買依頼リストに保存できるようになりました。
 
 - **見積りから複数の製品を削除**<!--B2B-2881--> – 多数の製品がある見積もりについて、バイヤーは複数の製品を選択し、見積りの詳細ページの *[!UICONTROL Remove]* コントロールにある「*[!UICONTROL Actions]*」オプションを使用して、見積りから複数の製品を削除できるようになりました。 以前のリリースでは、買い手は製品を 1 つずつ削除する必要がありました。
 
-- **明細品目値引ロック**<!--B2B-2597--> – 見積ネゴシエーション中に、セラーは明細品目値引ロックを使用して、見積ネゴシエーション・プロセス中に値引を適用する際の柔軟性を高めることができます。 例えば、販売者は、品目に特別品目割引を適用し、品目をロックして、それ以上の割引を防ぐことができます。 品目がロックされている場合、見積レベルの値引が適用される際に品目価格を更新することはできません。 [ 購買担当の見積の開始 ](sales-rep-initiates-quote.md) を参照してください。
+- **明細品目値引ロック**<!--B2B-2597--> – 見積ネゴシエーション中に、セラーは明細品目値引ロックを使用して、見積ネゴシエーション・プロセス中に値引を適用する際の柔軟性を高めることができます。 例えば、販売者は、品目に特別品目割引を適用し、品目をロックして、それ以上の割引を防ぐことができます。 品目がロックされている場合、見積レベルの値引が適用される際に品目価格を更新することはできません。 [&#x200B; 購買担当の見積の開始 &#x200B;](sales-rep-initiates-quote.md) を参照してください。
 
-![ 修正された問題 ](../assets/fix.svg)**既存の引用機能の修正**
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)**既存の引用機能の修正**
 
 - 管理者が Quote の詳細表示で「*[!UICONTROL Print]*」ボタンをクリックすると、Quote をPDFとして保存するよう促すメッセージが表示されるようになりました。 以前は、マーチャントは見積りの詳細を含むページにリダイレクトされていました。<!--ACP2E-1984-->
 
@@ -215,15 +215,15 @@ B2B v1.5.0 リリースには、新機能、品質の改善、バグ修正が含
 
 ### 発注書
 
-![ 修正された問題 ](../assets/fix.svg)<!--ACP2E-1825--> 会社がブロックされると、会社に関連付けられているユーザーは発注書を送信できなくなります。 以前は、会社がブロックされている場合、会社に関連付けられているユーザーが発注書を送信することができました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!--ACP2E-1825--> 会社がブロックされると、会社に関連付けられているユーザーは発注書を送信できなくなります。 以前は、会社がブロックされている場合、会社に関連付けられているユーザーが発注書を送信することができました。
 
 ## B2B v1.4.2-p8
 
 *2025 年 10 月 14 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.7-p8 以降および 2.4.6-p13 以降のセキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.7-p8 以降および 2.4.6-p13 以降のセキュリティパッチリリース。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html) に記載されているセキュリティ修正が含まれます。
 
 {{b2b-compatibility}}
 
@@ -231,9 +231,9 @@ B2B v1.5.0 リリースには、新機能、品質の改善、バグ修正が含
 
 *2025 年 8 月 12 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.7-p7 以降および 2.4.6-p12 以降のセキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.7-p7 以降および 2.4.6-p12 以降のセキュリティパッチリリース。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
 
 {{b2b-compatibility}}
 
@@ -241,9 +241,9 @@ B2B v1.5.0 リリースには、新機能、品質の改善、バグ修正が含
 
 *2025 年 6 月 10 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.7-p6 以降および 2.4.6-p11 以降のセキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.7-p6 以降および 2.4.6-p11 以降のセキュリティパッチリリース。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html) に記載されているセキュリティ修正が含まれます。
 
 {{b2b-compatibility}}
 
@@ -251,11 +251,11 @@ B2B v1.5.0 リリースには、新機能、品質の改善、バグ修正が含
 
 *2025 年 4 月 8 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.7-p5 以降および 2.4.6-p10 以降のセキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.7-p5 以降および 2.4.6-p10 以降のセキュリティパッチリリース。
 
-![ 新規 ](../assets/new.svg) Adobe Commerce 2.4.7-p5 以降および 2.4.6-p10 以降のセキュリティパッチリリースとの互換性が追加されました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg) Adobe Commerce 2.4.7-p5 以降および 2.4.6-p10 以降のセキュリティパッチリリースとの互換性が追加されました。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html) に記載されているセキュリティ修正が含まれます。
 
 {{b2b-compatibility}}
 
@@ -263,11 +263,11 @@ B2B v1.5.0 リリースには、新機能、品質の改善、バグ修正が含
 
 *2025 年 2 月 11 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"} Adobe Commerce 2.4.7-p4 以降および 2.4.6-p9 以降セキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"} Adobe Commerce 2.4.7-p4 以降および 2.4.6-p9 以降セキュリティパッチリリース。
 
-![ 新規 ](../assets/new.svg) Adobe Commerce 2.4.7-p4 以降および 2.4.6-p9 以降のセキュリティパッチリリースとの互換性が追加されました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg) Adobe Commerce 2.4.7-p4 以降および 2.4.6-p9 以降のセキュリティパッチリリースとの互換性が追加されました。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html) に記載されているセキュリティ修正が含まれます。
 
 {{b2b-compatibility}}
 
@@ -275,21 +275,21 @@ B2B v1.5.0 リリースには、新機能、品質の改善、バグ修正が含
 
 *2024 年 10 月 8 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.7-p3 以降および 2.4.6-p8 以降のセキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.7-p3 以降および 2.4.6-p8 以降のセキュリティパッチリリース。
 
-![ 新規 ](../assets/new.svg) Adobe Commerce 2.4.7-p3 以降および 2.4.6-p8 以降のセキュリティパッチリリースとの互換性が追加されました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg) Adobe Commerce 2.4.7-p3 以降および 2.4.6-p8 以降のセキュリティパッチリリースとの互換性が追加されました。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html) に記載されているセキュリティ修正が含まれます。
 
 {{b2b-compatibility}}
 
 ## B2B v1.4.2-p2
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.7-p2 以降および 2.4.6-p7 以降のセキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.7-p2 以降および 2.4.6-p7 以降のセキュリティパッチリリース。
 
-![ 新規 ](../assets/new.svg) Adobe Commerce 2.4.7-p2 以降および 2.4.6-p7 以降のセキュリティパッチリリースとの互換性が追加されました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg) Adobe Commerce 2.4.7-p2 以降および 2.4.6-p7 以降のセキュリティパッチリリースとの互換性が追加されました。
 
-![ 修正された問題 ](../assets/fix.svg) セキュリティ速報 xxxx に記載されているセキュリティ修正が含まれています。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) セキュリティ速報 xxxx に記載されているセキュリティ修正が含まれています。
 
 {{b2b-compatibility}}
 
@@ -297,9 +297,9 @@ B2B v1.5.0 リリースには、新機能、品質の改善、バグ修正が含
 
 *2024 年 8 月 9 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.7-p1 以降および 2.4.6-p6 以降のセキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.7-p1 以降および 2.4.6-p6 以降のセキュリティパッチリリース。
 
-![ 新規 ](../assets/new.svg) Adobe Commerce 2.4.7-p1 以降および 2.4.6-p6 以降のセキュリティパッチリリースとの互換性が追加されました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg) Adobe Commerce 2.4.7-p1 以降および 2.4.6-p6 以降のセキュリティパッチリリースとの互換性が追加されました。
 
 {{b2b-compatibility}}
 
@@ -307,11 +307,11 @@ B2B v1.5.0 リリースには、新機能、品質の改善、バグ修正が含
 
 *2023 年 10 月 10 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"} Adobe Commerce バージョン 2.4.7 および 2.4.6 から 2.4.6-p5 へのバージョン。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"} Adobe Commerce バージョン 2.4.7 および 2.4.6 から 2.4.6-p5 へのバージョン。
 
 B2B v1.4.2 リリースには、品質の改善とバグ修正が含まれています。
 
-![ 修正された問題 ](../assets/fix.svg)<!--B2B-2897--> 販売者が購入者の会社に関連付けられた共有カタログで使用できない製品 SKU を含む購入者見積を作成すると、エラーメッセージ `The SKU you entered is not available in the shared catalog. Please check the SKU and try again` が表示されます。  販売者は、利用できない製品を削除するまで見積もりを保存できません。 以前は、使用できない SKU を含んだ見積もりが保存され、ストアフロントに見積もりが読み込まれませんでした。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!--B2B-2897--> 販売者が購入者の会社に関連付けられた共有カタログで使用できない製品 SKU を含む購入者見積を作成すると、エラーメッセージ `The SKU you entered is not available in the shared catalog. Please check the SKU and try again` が表示されます。  販売者は、利用できない製品を削除するまで見積もりを保存できません。 以前は、使用できない SKU を含んだ見積もりが保存され、ストアフロントに見積もりが読み込まれませんでした。
 
 >[!IMPORTANT]
 >
@@ -321,47 +321,47 @@ B2B v1.4.2 リリースには、品質の改善とバグ修正が含まれてい
 
 *2023 年 8 月 7 日*
 
-[!BADGE  サポート ]{type=Informative tooltip="サポート"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html)。 Adobe Commerce 2.4.7-beta1 と互換性あり。
+[!BADGE &#x200B; サポート &#x200B;]{type=Informative tooltip="サポート"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html)。 Adobe Commerce 2.4.7-beta1 と互換性あり。
 
 B2B v1.4.1 リリースには、品質の改善とバグ修正が含まれています。
 
-![ 修正された問題 ](../assets/fix.svg)<!--ACP2E-1825--> 会社がブロックされると、会社に関連付けられているユーザーは発注書を送信できなくなります。 以前は、会社がブロックされている場合、会社に関連付けられているユーザーが発注書を送信することができました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!--ACP2E-1825--> 会社がブロックされると、会社に関連付けられているユーザーは発注書を送信できなくなります。 以前は、会社がブロックされている場合、会社に関連付けられているユーザーが発注書を送信することができました。
 
-![ 修正された問題 ](../assets/fix.svg)<!--ACP2E-1943--> 製品のバックオーダーのステータスがストアフロントに正しく表示されるようになりました。 以前は、出荷可能な製品が誤ってバックオーダーと識別されていました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!--ACP2E-1943--> 製品のバックオーダーのステータスがストアフロントに正しく表示されるようになりました。 以前は、出荷可能な製品が誤ってバックオーダーと識別されていました。
 
-![ 問題を修正 ](../assets/fix.svg)<!--ACP2E-1862--> 会社登録フォームに顧客ファイルタイプ属性が含まれている場合、登録プロセス中にアップロードされたファイルは、会社を作成した後、会社管理者のアカウント情報に含まれるようになりました。 以前は、添付ファイルが見つかりませんでした。
+![&#x200B; 問題を修正 &#x200B;](../assets/fix.svg)<!--ACP2E-1862--> 会社登録フォームに顧客ファイルタイプ属性が含まれている場合、登録プロセス中にアップロードされたファイルは、会社を作成した後、会社管理者のアカウント情報に含まれるようになりました。 以前は、添付ファイルが見つかりませんでした。
 
-![ 修正された問題 ](../assets/fix.svg)<!--ACP2E-1793--> 設定可能な製品のスウォッチセレクターが、購買依頼リスト品目の設定ページに期待どおりに表示されるようになりました。 以前は、スウォッチセレクターは購買依頼リスト項目設定ページのドロップダウンフィールドとして表示されていました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!--ACP2E-1793--> 設定可能な製品のスウォッチセレクターが、購買依頼リスト品目の設定ページに期待どおりに表示されるようになりました。 以前は、スウォッチセレクターは購買依頼リスト項目設定ページのドロップダウンフィールドとして表示されていました。
 
-![ 修正された問題 ](../assets/fix.svg)<!--ACP2E-1968-->[ 会社GraphQLクエリ ](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure) を使用して会社の詳細を返す場合、結果がエラーなく正常に返されるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!--ACP2E-1968-->[&#x200B; 会社GraphQLクエリ &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure) を使用して会社の詳細を返す場合、結果がエラーなく正常に返されるようになりました。
 
 ## B2B v1.4.0
 
 *2023 年 6 月 13 日*
 
-[!BADGE  サポート ]{type=Informative tooltip="サポート"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html)。 Adobe Commerce 2.4.7-beta1 との互換性
+[!BADGE &#x200B; サポート &#x200B;]{type=Informative tooltip="サポート"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html)。 Adobe Commerce 2.4.7-beta1 との互換性
 
 このリリースには、B2B の交渉可能な引用符と複数のバグ修正に関する新機能と機能強化が含まれています。
 
-![ 新規 ](../assets/new.svg)Adobe Commerce 2.4.7-beta1 との互換性が追加されました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)Adobe Commerce 2.4.7-beta1 との互換性が追加されました。
 
-![ 新規 ](../assets/new.svg)**売り手が見積もりを開始** – 売り手は、管理の見積もりグリッドおよび顧客グリッドから直接買い手の見積もりを開始できるようになりました。 この機能により、見積もりプロセスが合理化され、お客様の複雑さが軽減されます。 顧客が注文を開始していない場合、販売者は顧客に代わってすばやく見積もりを作成し、交渉プロセスを開始できます。 以前は、見積もりは、購入者、または顧客としてログインした販売者のみがストアフロントから作成できました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)**売り手が見積もりを開始** – 売り手は、管理の見積もりグリッドおよび顧客グリッドから直接買い手の見積もりを開始できるようになりました。 この機能により、見積もりプロセスが合理化され、お客様の複雑さが軽減されます。 顧客が注文を開始していない場合、販売者は顧客に代わってすばやく見積もりを作成し、交渉プロセスを開始できます。 以前は、見積もりは、購入者、または顧客としてログインした販売者のみがストアフロントから作成できました。
 
-![ 新規 ](../assets/new.svg)**明細品目値引およびネゴシエーション**—<!--B2B-2440--> 見積内で、B2B バイヤーおよびセラーは、明細品目レベルで値引および手形の交換を交渉して、基本契約に達するまで交渉できるようになりました。 メモの作成と更新は、明細品目と見積履歴に含まれ、通信を追跡します。 以前は、購入者と販売者は、メモを交換したり、見積もりレベルで割引を適用したりすることしかできませんでした。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)**明細品目値引およびネゴシエーション**—<!--B2B-2440--> 見積内で、B2B バイヤーおよびセラーは、明細品目レベルで値引および手形の交換を交渉して、基本契約に達するまで交渉できるようになりました。 メモの作成と更新は、明細品目と見積履歴に含まれ、通信を追跡します。 以前は、購入者と販売者は、メモを交換したり、見積もりレベルで割引を適用したりすることしかできませんでした。
 
-![ 修正された問題 ](../assets/fix.svg)Adobe Commerceでは、「発注書」オプションが有効になっており、PayPal 支払いオプションを使用して作成されたバーチャル見積もりが選択されている場合、支払い中に正しい詳細が表示されるようになりました。 以前は、これらの条件の下で合計はゼロとして表示されていました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)Adobe Commerceでは、「発注書」オプションが有効になっており、PayPal 支払いオプションを使用して作成されたバーチャル見積もりが選択されている場合、支払い中に正しい詳細が表示されるようになりました。 以前は、これらの条件の下で合計はゼロとして表示されていました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--ACP2E-1504--> クレジット制限が 999 を超える会社を保存しようとすると、検証エラーが発生しなくなりました。 以前は、会社のクレジット制限が 999 を超える場合、Adobe commerce でコンマ区切り記号が挿入され、検証エラーが発生して更新を保存できませんでした。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--ACP2E-1504--> クレジット制限が 999 を超える会社を保存しようとすると、検証エラーが発生しなくなりました。 以前は、会社のクレジット制限が 999 を超える場合、Adobe commerce でコンマ区切り記号が挿入され、検証エラーが発生して更新を保存できませんでした。
 
-![ 修正された問題 ](../assets/fix.svg) <!--ACP2E-1474--> 交渉可能な見積もりで注文を行っても、選択した配送先住所は変更されません。 以前は、注文すると、選択した配送先住所がデフォルトの配送先住所に変更されていました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--ACP2E-1474--> 交渉可能な見積もりで注文を行っても、選択した配送先住所は変更されません。 以前は、注文すると、選択した配送先住所がデフォルトの配送先住所に変更されていました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--ACP2E-1429--> B2B 機能のストア設定で、「**[!UICONTROL Enable Shared Catalog direct products price assigning]**」フィールドが自動的に無効になりました。 ストアフロントでは、**[!UICONTROL Enable Company]** 設定または **[!UICONTROL Enable Shared Catalog]** 設定が **[!UICONTROL No]** に設定されている場合、非表示になります。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--ACP2E-1429--> B2B 機能のストア設定で、「**[!UICONTROL Enable Shared Catalog direct products price assigning]**」フィールドが自動的に無効になりました。 ストアフロントでは、**[!UICONTROL Enable Company]** 設定または **[!UICONTROL Enable Shared Catalog]** 設定が **[!UICONTROL No]** に設定されている場合、非表示になります。
 
-![ 修正された問題 ](../assets/fix.svg) <!--ACP2E-1683--> ストアフロントから会社アカウントを作成する際に、Commerceは、会社登録を処理する前にメールアドレスを検証するようになりました。 メールアドレスが無効な場合、操作は失敗し、アカウントの更新は処理されません。 以前は、メールアドレスが無効なために会社アカウントの作成要求が失敗した場合でも、顧客アカウントが作成されていました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--ACP2E-1683--> ストアフロントから会社アカウントを作成する際に、Commerceは、会社登録を処理する前にメールアドレスを検証するようになりました。 メールアドレスが無効な場合、操作は失敗し、アカウントの更新は処理されません。 以前は、メールアドレスが無効なために会社アカウントの作成要求が失敗した場合でも、顧客アカウントが作成されていました。
 
-![ 修正された問題 ](../assets/fix.svg)<!--ACP2E-1664--> 共有カタログと価格構造に二重引用符を含む製品 SKU で、管理者でエラーが発生しなくなりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!--ACP2E-1664--> 共有カタログと価格構造に二重引用符を含む製品 SKU で、管理者でエラーが発生しなくなりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--ACP2E-1498--> Commerce アプリケーションの Varnish 設定を更新して、ゲストユーザーが他のお客様グループからのデータを表示できないようにしました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--ACP2E-1498--> Commerce アプリケーションの Varnish 設定を更新して、ゲストユーザーが他のお客様グループからのデータを表示できないようにしました。
 
 ### 既知の問題
 
@@ -377,417 +377,417 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-この問題を修正するには、[stability tag](https://getcomposer.org/doc/04-schema.md#package-links) を使用して、B2B セキュリティパッケージの手動依存関係を追加することにより、B2B セキュリティパッケージの手動依存関係を追加します。 手順については、[Adobe Commerce ナレッジベース ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html) を参照してください。
+この問題を修正するには、[stability tag](https://getcomposer.org/doc/04-schema.md#package-links) を使用して、B2B セキュリティパッケージの手動依存関係を追加することにより、B2B セキュリティパッケージの手動依存関係を追加します。 手順については、[Adobe Commerce ナレッジベース &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html) を参照してください。
 
 ## B2B v1.3.5-p13
 
 *2025 年 10 月 14 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"} Adobe Commerce 2.4.6-p13 以降のセキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"} Adobe Commerce 2.4.6-p13 以降のセキュリティパッチリリース。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.3.5-p12
 
 *2025 年 8 月 12 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"} Adobe Commerce 2.4.6-p12 以降のセキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"} Adobe Commerce 2.4.6-p12 以降のセキュリティパッチリリース。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.3.5-p10
 
 *2025 年 4 月 8 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"} Adobe Commerce 2.4.6-p10 以降のセキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"} Adobe Commerce 2.4.6-p10 以降のセキュリティパッチリリース。
 
-![ 新規 ](../assets/new.svg)Adobe Commerce 2.4.6-p10 セキュリティパッチリリースとの互換性が追加されました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)Adobe Commerce 2.4.6-p10 セキュリティパッチリリースとの互換性が追加されました。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.3.5-p9
 
 *2025 年 2 月 11 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"} Adobe Commerce 2.4.6-p9+ セキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"} Adobe Commerce 2.4.6-p9+ セキュリティパッチリリース。
 
-![ 新規 ](../assets/new.svg)Adobe Commerce 2.4.6-p9 セキュリティパッチリリースとの互換性が追加されました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)Adobe Commerce 2.4.6-p9 セキュリティパッチリリースとの互換性が追加されました。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.3.5-p8
 
 *2024 年 10 月 8 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"} Adobe Commerce 2.4.6-p8 以降のセキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"} Adobe Commerce 2.4.6-p8 以降のセキュリティパッチリリース。
 
-![ 新規 ](../assets/new.svg)Adobe Commerce 2.4.6-p8 セキュリティパッチリリースとの互換性が追加されました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)Adobe Commerce 2.4.6-p8 セキュリティパッチリリースとの互換性が追加されました。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.3.5-p7
 
 *2024 年 8 月 9 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"} Adobe Commerce 2.4.6-p7 以降のセキュリティパッチリリース。
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"} Adobe Commerce 2.4.6-p7 以降のセキュリティパッチリリース。
 
-![ 新規 ](../assets/new.svg) Adobe Commerce 2.4.6-p7 セキュリティパッチリリースとの互換性が追加されました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg) Adobe Commerce 2.4.6-p7 セキュリティパッチリリースとの互換性が追加されました。
 
 ## B2B v1.3.5
 
 *2023 年 3 月 14 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"} Adobe Commerce 2.4.0 ～ 2.4.6 以降
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"} Adobe Commerce 2.4.0 ～ 2.4.6 以降
 
-![ 新規 ](../assets/new.svg) Adobe Commerce 2.4.6-p2 との互換性をサポートするために、B2B バージョン 1.3.5-p2 をリリースしました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg) Adobe Commerce 2.4.6-p2 との互換性をサポートするために、B2B バージョン 1.3.5-p2 をリリースしました。
 
-![ 新規 ](../assets/new.svg) Adobe Commerce 2.4.6-p1 との互換性をサポートするために、B2B バージョン 1.3.5-p1 をリリースしました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg) Adobe Commerce 2.4.6-p1 との互換性をサポートするために、B2B バージョン 1.3.5-p1 をリリースしました。
 
 >[!NOTE]
 >
->Commerceを 2.4.6 から [ 最新リリース ](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6) にアップグレードした後、必ずサポートされている B2B 1.3.5 パッチリリースに更新してください。 または、B2B 拡張機能をバージョン 1.3.5 からバージョン 1.4.0 以降にアップグレードして、最新機能を取得します。
+>Commerceを 2.4.6 から [&#x200B; 最新リリース &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6) にアップグレードした後、必ずサポートされている B2B 1.3.5 パッチリリースに更新してください。 または、B2B 拡張機能をバージョン 1.3.5 からバージョン 1.4.0 以降にアップグレードして、最新機能を取得します。
 
-![ 新規 ](../assets/new.svg)Adobe Commerce 2.4.6 がサポートされるようになりました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)Adobe Commerce 2.4.6 がサポートされるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-689--> Adobe Commerceでは、「発注書」オプションが有効になっており、PayPal 支払いオプションを使用して作成されたバーチャル見積もりが選択されている場合、支払い中に正しい詳細が表示されるようになりました。 以前は、これらの条件の下で合計はゼロとして表示されていました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- ACP2E-689--> Adobe Commerceでは、「発注書」オプションが有効になっており、PayPal 支払いオプションを使用して作成されたバーチャル見積もりが選択されている場合、支払い中に正しい詳細が表示されるようになりました。 以前は、これらの条件の下で合計はゼロとして表示されていました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-609--> **閲覧を許可カテゴリ** 設定の顧客グループのリストに、共有カタログに関連する顧客グループが含まれなくなりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- ACP2E-609--> **閲覧を許可カテゴリ** 設定の顧客グループのリストに、共有カタログに関連する顧客グループが含まれなくなりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-1244--> 税金/VAT 番号の顧客属性が、管理者とストアフロントの両方の会社管理者アカウントで期待どおりに機能するようになりました。 会社アカウントを作成する際に、カスタムの税金/VAT 属性は不要になりました。 以前は、マーチャントがカスタムの税金/VAT 属性を持つ会社アカウントを作成すると、Adobe Commerceがストアフロントと管理者の両方で検証エラーをスローしていました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- ACP2E-1244--> 税金/VAT 番号の顧客属性が、管理者とストアフロントの両方の会社管理者アカウントで期待どおりに機能するようになりました。 会社アカウントを作成する際に、カスタムの税金/VAT 属性は不要になりました。 以前は、マーチャントがカスタムの税金/VAT 属性を持つ会社アカウントを作成すると、Adobe Commerceがストアフロントと管理者の両方で検証エラーをスローしていました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-1236--> 特定の範囲で共有カタログ機能を無効にすると正しく機能するようになりました。 以前は、マーチャントが共有カタログ設定を保存すると、Adobe Commerceが無効なスコープを設定していました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- ACP2E-1236--> 特定の範囲で共有カタログ機能を無効にすると正しく機能するようになりました。 以前は、マーチャントが共有カタログ設定を保存すると、Adobe Commerceが無効なスコープを設定していました。
 
-![ 修正された問題 ](../assets/fix.svg) 管理者ユーザー <!--- ACP2E-1203-->、会社ユーザーの顧客カスタム属性値を保存できるようになりました。 以前は、会社ユーザーの顧客カスタム属性を保存できませんでした。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 管理者ユーザー <!--- ACP2E-1203-->、会社ユーザーの顧客カスタム属性値を保存できるようになりました。 以前は、会社ユーザーの顧客カスタム属性を保存できませんでした。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-1221--> パフォーマンスの問題は、多くの会社の権限が既に割り当てられている場合に、GraphQLを通じて提供される会社の権限の検証で解決されます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- ACP2E-1221--> パフォーマンスの問題は、多くの会社の権限が既に割り当てられている場合に、GraphQLを通じて提供される会社の権限の検証で解決されます。
 
-![ 修正された問題 ](../assets/fix.svg)<!--- ACP2E-1242--> クイックオーダーを使用して利用可能な在庫を超える量の商品を追加すると、Adobe Commerceが買い物かごページでエラーをスローしなくなりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!--- ACP2E-1242--> クイックオーダーを使用して利用可能な在庫を超える量の商品を追加すると、Adobe Commerceが買い物かごページでエラーをスローしなくなりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-1090--> 会社の権限操作 `SELECT` パフォーマンスが向上しました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- ACP2E-1090--> 会社の権限操作 `SELECT` パフォーマンスが向上しました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-2456--> カテゴリクエリで、クエリ対象のカテゴリに対してカテゴリ権限が明示的に設定されていない場合、ストア設定に従って製品価格を返すようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- ACP2E-2456--> カテゴリクエリで、クエリ対象のカテゴリに対してカテゴリ権限が明示的に設定されていない場合、ストア設定に従って製品価格を返すようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-6829--> 承認済みの見積もりリクエストを使用して購入を完了する際に、「**[!UICONTROL Place Order]**」ボタンが期待どおりに機能するようになりました。 交渉可能な見積もり `negotiableQuoteCheckoutSessionPlugin` プラグインに関する問題が解決されました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- ACP2E-6829--> 承認済みの見積もりリクエストを使用して購入を完了する際に、「**[!UICONTROL Place Order]**」ボタンが期待どおりに機能するようになりました。 交渉可能な見積もり `negotiableQuoteCheckoutSessionPlugin` プラグインに関する問題が解決されました。
 
 ## B2B v1.3.4-p15
 
 *2025 年 10 月 14 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.3.4-p14
 
 *2025 年 8 月 12 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.3.4-p13
 
 *2025 年 6 月 10 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
 
-![ 新規 ](../assets/new.svg)Adobe Commerce 2.4.5-p12 がサポートされるようになりました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)Adobe Commerce 2.4.5-p12 がサポートされるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.3.4-p12
 
 *2025 年 4 月 8 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
 
-![ 新規 ](../assets/new.svg)Adobe Commerce 2.4.5-p12 がサポートされるようになりました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)Adobe Commerce 2.4.5-p12 がサポートされるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.3.4-p11
 
 *2025 年 2 月 11 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
 
-![ 新規 ](../assets/new.svg)Adobe Commerce 2.4.5-p11 がサポートされるようになりました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)Adobe Commerce 2.4.5-p11 がサポートされるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.3.4-p10
 
 *2024 年 10 月 9 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
 
-![ 新規 ](../assets/new.svg)Adobe Commerce 2.4.5-p10 がサポートされるようになりました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)Adobe Commerce 2.4.5-p10 がサポートされるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.3.4
 
 *2022 年 8 月 9 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
 
-![ 新規 ](../assets/new.svg)Adobe Commerce 2.4.5 がサポートされるようになりました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)Adobe Commerce 2.4.5 がサポートされるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-453--> 既存の会社が API 呼び出しによって更新されるたびに、Adobe Commerceがメール通知を送信しなくなりました。 会社を作成した場合にのみメールが送信されるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- ACP2E-453--> 既存の会社が API 呼び出しによって更新されるたびに、Adobe Commerceがメール通知を送信しなくなりました。 会社を作成した場合にのみメールが送信されるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-406-->Adobe Commerceでは、**[!UICONTROL Enable Cross Border Trade]** 税の計算設定が有効な場合、交渉可能な見積もりの総計を正しく計算するようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- ACP2E-406-->Adobe Commerceでは、**[!UICONTROL Enable Cross Border Trade]** 税の計算設定が有効な場合、交渉可能な見積もりの総計を正しく計算するようになりました。
 
-![ 修正された問題 ](../assets/fix.svg)<!--- ACP2E-322--> 設定 **[!UICONTROL Move out of stock to the bottom]** 定が有効な場合、在庫が更新された後、設定可能な製品が製品リストの最後の位置に移動されるようになりました。 新しいカスタムデータベースクエリが実装され、Elasticsearch インデックスの並べ替え順が管理者向けの並べ替え順に従うようになりました。 以前は、この設定が有効な場合、設定可能な製品とその子製品は、リストの下部に移動されませんでした。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!--- ACP2E-322--> 設定 **[!UICONTROL Move out of stock to the bottom]** 定が有効な場合、在庫が更新された後、設定可能な製品が製品リストの最後の位置に移動されるようになりました。 新しいカスタムデータベースクエリが実装され、Elasticsearch インデックスの並べ替え順が管理者向けの並べ替え順に従うようになりました。 以前は、この設定が有効な場合、設定可能な製品とその子製品は、リストの下部に移動されませんでした。
 
-![ 問題の修正 ](../assets/fix.svg)<!--- ACP2E-308--> 発注書のメールが、マルチサイトデプロイメントの各 web サイトのメール送信設定に従うようになりました。 メールキューのカスタムロジックに **[!UICONTROL Disable Email Communications]** 設定のチェックが追加されます。 以前は、Adobe Commerceは、セカンダリ web サイトのメール送信設定を受け入れませんでした。
+![&#x200B; 問題の修正 &#x200B;](../assets/fix.svg)<!--- ACP2E-308--> 発注書のメールが、マルチサイトデプロイメントの各 web サイトのメール送信設定に従うようになりました。 メールキューのカスタムロジックに **[!UICONTROL Disable Email Communications]** 設定のチェックが追加されます。 以前は、Adobe Commerceは、セカンダリ web サイトのメール送信設定を受け入れませんでした。
 
-![ 修正された問題 ](../assets/fix.svg)<!--- ACP2E-302--> クイックオーダーページの SKU フィールドのタイトルが、わかりやすくするために変更されました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!--- ACP2E-302--> クイックオーダーページの SKU フィールドのタイトルが、わかりやすくするために変更されました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-543--> 買い物客が「SKU または商品名を入力 **フィールドに無効な SKU を入力すると、Adobe Commerceにエラーメッセージが表示され** ようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- ACP2E-543--> 買い物客が「SKU または商品名を入力 **フィールドに無効な SKU を入力すると、Adobe Commerceにエラーメッセージが表示され** ようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-1753--> 会社管理者の **[!UICONTROL Account Created in]** フィールドに、会社を保存した後も期待どおりの値が保持されるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- ACP2E-1753--> 会社管理者の **[!UICONTROL Account Created in]** フィールドに、会社を保存した後も期待どおりの値が保持されるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-722 -->`customer` でフィルタリングされた購買依頼リストを取得する際に、`uid` クエリが空の結果を返さなくなりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- ACP2E-722 -->`customer` でフィルタリングされた購買依頼リストを取得する際に、`uid` クエリが空の結果を返さなくなりました。
 
-![ 問題を修正 ](../assets/fix.svg)<!--- ACP2E-210 --> ストアクレジットが 1 回だけ適用されるように、`collectQuoteTotals` 呼び出しの前にプラグインを追加しました。
+![&#x200B; 問題を修正 &#x200B;](../assets/fix.svg)<!--- ACP2E-210 --> ストアクレジットが 1 回だけ適用されるように、`collectQuoteTotals` 呼び出しの前にプラグインを追加しました。
 
-![ 修正された問題 ](../assets/fix.svg)<!--- ACP2E-665 --> 管理者が管理者からアカウントを削除すると、ユーザーはログインページにリダイレクトされるようになりました。 以前は、Adobe Commerceがエラーをスローしていました。 プラグイン（`SessionPlugin`）のコードブロックは、`try…catch` ブロック内に配置されています。 以前は、このコードは、汎用の例外処理ブロック内にラップされていませんでした。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!--- ACP2E-665 --> 管理者が管理者からアカウントを削除すると、ユーザーはログインページにリダイレクトされるようになりました。 以前は、Adobe Commerceがエラーをスローしていました。 プラグイン（`SessionPlugin`）のコードブロックは、`try…catch` ブロック内に配置されています。 以前は、このコードは、汎用の例外処理ブロック内にラップされていませんでした。
 
-![ 問題を修正 ](../assets/fix.svg) <!--- ACP2E-661 --> モバイルモードのクイックオーダーのページで、有効な製品名または SKU を入力した後に **Enter** を押すと、買い物客が期待どおりに次のフィールドに移動するようになりました。
+![&#x200B; 問題を修正 &#x200B;](../assets/fix.svg) <!--- ACP2E-661 --> モバイルモードのクイックオーダーのページで、有効な製品名または SKU を入力した後に **Enter** を押すと、買い物客が期待どおりに次のフィールドに移動するようになりました。
 
-![ 問題の修正 ](../assets/fix.svg)<!--- ACP2E-607 --> チェックアウトワークフローの請求と配送先住所のセクションに、会社名が期待どおりに表示されるようになりました。
+![&#x200B; 問題の修正 &#x200B;](../assets/fix.svg)<!--- ACP2E-607 --> チェックアウトワークフローの請求と配送先住所のセクションに、会社名が期待どおりに表示されるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg)<!--- ACP2E-375 --> ストアの支払い方法が無効になっている場合、スト **[!UICONTROL Zero Subtotal Checkout]** クレジットを使用できなくなりました。 以前は、管理者からの発注時に「クレジットを保存」チェックボックスが機能していませんでした。 店舗クレジットで注文が行われず、次のエラーが表示されました：`The requested Payment Method is not available`。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!--- ACP2E-375 --> ストアの支払い方法が無効になっている場合、スト **[!UICONTROL Zero Subtotal Checkout]** クレジットを使用できなくなりました。 以前は、管理者からの発注時に「クレジットを保存」チェックボックスが機能していませんでした。 店舗クレジットで注文が行われず、次のエラーが表示されました：`The requested Payment Method is not available`。
 
 ## B2B v1.3.3-p16
 
 *2025 年 10 月 14 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html) に記載されているセキュリティ修正が含まれます
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html) に記載されているセキュリティ修正が含まれます
 
 ## B2B v1.3.3-p15
 
 *2025 年 8 月 12 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.3.3-p14
 
 *2025 年 6 月 10 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
 
-![ 新規 ](../assets/new.svg)Adobe Commerce 2.4.5-p12 がサポートされるようになりました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)Adobe Commerce 2.4.5-p12 がサポートされるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) [ セキュリティ速報 APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html) に記載されているセキュリティ修正が含まれます。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [&#x200B; セキュリティ速報 APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html) に記載されているセキュリティ修正が含まれます。
 
 ## B2B v1.3.3
 
 *2022 年 8 月 9 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
 
-![ 新規 ](../assets/new.svg)Adobe Commerce 2.4.4 がサポートされるようになりました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)Adobe Commerce 2.4.4 がサポートされるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-41985--> 会社の役割が 10 万件を超えるデプロイメントでAdobe Commerce 2.3.x からAdobe Commerce 2.4.x にアップグレードするのに必要な時間が大幅に短縮されました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-41985--> 会社の役割が 10 万件を超えるデプロイメントでAdobe Commerce 2.3.x からAdobe Commerce 2.4.x にアップグレードするのに必要な時間が大幅に短縮されました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-42153--> POST `V1/order/:orderId/invoice` リクエストで、**[!UICONTROL Payment on Account]** 支払い方法が有効な場合に部分請求書の作成がサポートされるようになりました。 以前は、Adobe Commerceは次のエラーをスローしていました：`An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`。 [GitHub-32428](https://github.com/magento/magento2/issues/32428)
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-42153--> POST `V1/order/:orderId/invoice` リクエストで、**[!UICONTROL Payment on Account]** 支払い方法が有効な場合に部分請求書の作成がサポートされるようになりました。 以前は、Adobe Commerceは次のエラーをスローしていました：`An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`。 [GitHub-32428](https://github.com/magento/magento2/issues/32428)
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-41975--> 顧客の買い物かごに他の製品が含まれている場合、PayPal Payflow Pro は B2B 譲渡可能な見積もりで期待どおりに機能するようになりました。 Adobe Commerceが注文を正常に処理し、期待どおりにメールを顧客に送信するようになりました。 以前は、Adobe Commerceが致命的なエラーをスローし、値が 0 の確認メールをお客様に送信していました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-41975--> 顧客の買い物かごに他の製品が含まれている場合、PayPal Payflow Pro は B2B 譲渡可能な見積もりで期待どおりに機能するようになりました。 Adobe Commerceが注文を正常に処理し、期待どおりにメールを顧客に送信するようになりました。 以前は、Adobe Commerceが致命的なエラーをスローし、値が 0 の確認メールをお客様に送信していました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-41819--> 共有カタログ内の一部の製品を除外した後、カタログ検索結果ページにページネーションが正しく表示されるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-41819--> 共有カタログ内の一部の製品を除外した後、カタログ検索結果ページにページネーションが正しく表示されるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-42886--> 管理者で会社ユーザーを作成または保存する際に、顧客のカスタム属性が期待どおりに保存されるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-42886--> 管理者で会社ユーザーを作成または保存する際に、顧客のカスタム属性が期待どおりに保存されるようになりました。
 
-![ 問題を修正しました ](../assets/fix.svg) <!--- MC-42927--> 「新しい会社を作成」フォームを一度クリックすると、フォームが複数の送信されないように、「**[!UICONTROL Submit]**」ボタンが無効になりました。 以前は、このボタンを繰り返しクリックすると、このフォームを複数回送信してエラーが発生する可能性がありました。
+![&#x200B; 問題を修正しました &#x200B;](../assets/fix.svg) <!--- MC-42927--> 「新しい会社を作成」フォームを一度クリックすると、フォームが複数の送信されないように、「**[!UICONTROL Submit]**」ボタンが無効になりました。 以前は、このボタンを繰り返しクリックすると、このフォームを複数回送信してエラーが発生する可能性がありました。
 
-![ 修正された問題 ](../assets/fix.svg) 買い物客 <!--- MC-42787--> 並べ替えが無効になっているストアにログインした際に、Adobe Commerceでストアフロントに並べ替えリンクが表示されなくなりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 買い物客 <!--- MC-42787--> 並べ替えが無効になっているストアにログインした際に、Adobe Commerceでストアフロントに並べ替えリンクが表示されなくなりました。
 
-![ 修正された問題 ](../assets/fix.svg) 共有カタログ <!--- MC-43115--> 有効な場合、SKU によるクイックオーダー検索で大文字と小文字が区別されなくなりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 共有カタログ <!--- MC-43115--> 有効な場合、SKU によるクイックオーダー検索で大文字と小文字が区別されなくなりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-42203--> 会社を作成する際に、顧客属性のファイルを更新できるようになりました。 以前は、添付ファイルのタイプが `File` の会社を作成しようとすると、Adobe Commerceは会社を作成せず、例外ログ `Something went wrong while saving file` に次のエラーを記録していました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-42203--> 会社を作成する際に、顧客属性のファイルを更新できるようになりました。 以前は、添付ファイルのタイプが `File` の会社を作成しようとすると、Adobe Commerceは会社を作成せず、例外ログ `Something went wrong while saving file` に次のエラーを記録していました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-42242--> （`File`）または（`Image`）タイプのカスタム属性を持つ顧客アカウントを持つ会社を作成できるようになりました。 以前は、アカウントにこれらのカスタマイズ可能なオプションのいずれかが含まれている場合、会社編集ページローダーが解決されず、会社の詳細を編集できませんでした。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-42242--> （`File`）または（`Image`）タイプのカスタム属性を持つ顧客アカウントを持つ会社を作成できるようになりました。 以前は、アカウントにこれらのカスタマイズ可能なオプションのいずれかが含まれている場合、会社編集ページローダーが解決されず、会社の詳細を編集できませんでした。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-42268--> 共有カタログが有効な場合、`products` クエリが正確な `total_count` フィールドを返すようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-42268--> 共有カタログが有効な場合、`products` クエリが正確な `total_count` フィールドを返すようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-42203--> 会社を作成する際に、顧客属性のファイルを更新できるようになりました。 以前は、添付ファイルのタイプが `File` の会社を作成しようとすると、Adobe Commerceは会社を作成せず、例外ログ `Something went wrong while saving file` に次のエラーを記録していました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-42203--> 会社を作成する際に、顧客属性のファイルを更新できるようになりました。 以前は、添付ファイルのタイプが `File` の会社を作成しようとすると、Adobe Commerceは会社を作成せず、例外ログ `Something went wrong while saving file` に次のエラーを記録していました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-43178--> オンライン配送方法を無効にした後、_会社設定_ ページと _会社を作成_ ページが期待どおりに動作するようになりました。 検証が追加され、無効になった出荷モジュールの処理が試行できなくなりました。 以前は、Adobe Commerceには「`Type Error occurred when creating object: Magento\CompanyShipping\Model\Source\ShippingMethod, Too few arguments to function Magento\CompanyShipping\Model\Source\ShippingMethod::__construct(), 1 passed in /var/www/html/elmtup/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 2 expected`」というエラーが表示されていました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-43178--> オンライン配送方法を無効にした後、_会社設定_ ページと _会社を作成_ ページが期待どおりに動作するようになりました。 検証が追加され、無効になった出荷モジュールの処理が試行できなくなりました。 以前は、Adobe Commerceには「`Type Error occurred when creating object: Magento\CompanyShipping\Model\Source\ShippingMethod, Too few arguments to function Magento\CompanyShipping\Model\Source\ShippingMethod::__construct(), 1 passed in /var/www/html/elmtup/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 2 expected`」というエラーが表示されていました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-42214--> _カテゴリ_ ページに、部分的なインデックス作成中に権限が生成されている間、一貫した製品データが表示されるようになりました。 ディレクトリ権限の新しい部分インデクサーがこのプロセスに追加されました。 以前は、インデクサーの実行中に表示されるデータが正しくありませんでした。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-42214--> _カテゴリ_ ページに、部分的なインデックス作成中に権限が生成されている間、一貫した製品データが表示されるようになりました。 ディレクトリ権限の新しい部分インデクサーがこのプロセスに追加されました。 以前は、インデクサーの実行中に表示されるデータが正しくありませんでした。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-42567--> カタログの権限が使用され、製品が共有カタログに割り当てられている場合、`categoryList` クエリが正しい製品数を返すようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-42567--> カタログの権限が使用され、製品が共有カタログに割り当てられている場合、`categoryList` クエリが正しい製品数を返すようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-42528--> `categoryList` クエリは、カテゴリ権限に従い、許可されたカテゴリのみを返すようになりました。 以前は、割り当て済みカテゴリと未割り当てのカテゴリをすべて返していました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-42528--> `categoryList` クエリは、カテゴリ権限に従い、許可されたカテゴリのみを返すようになりました。 以前は、割り当て済みカテゴリと未割り当てのカテゴリをすべて返していました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-42399--> `rest/V1/company/{id}` リクエストが、期待どおりに `is_purchase_order_enabled` 属性値を返すようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-42399--> `rest/V1/company/{id}` リクエストが、期待どおりに `is_purchase_order_enabled` 属性値を返すようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-128--> カスタム顧客属性が「_会社管理者_」タブに期待どおりに表示されるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- ACP2E-128--> カスタム顧客属性が「_会社管理者_」タブに期待どおりに表示されるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-130--> マイアカウント ページのマイウィッシュリスト ブロックが、会社管理者および会社ユーザーに対して期待どおりに表示されるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- ACP2E-130--> マイアカウント ページのマイウィッシュリスト ブロックが、会社管理者および会社ユーザーに対して期待どおりに表示されるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-133--> クイックオーダーエラーが買い物かごに表示されなくなりました。 以前は、カタログに SKU が見つからなかった場合、Adobe Commerceによって買い物かごにこのエラーが表示されていました：`The SKU was not found in the catalog`。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- ACP2E-133--> クイックオーダーエラーが買い物かごに表示されなくなりました。 以前は、カタログに SKU が見つからなかった場合、Adobe Commerceによって買い物かごにこのエラーが表示されていました：`The SKU was not found in the catalog`。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- ACP2E-194--> 共有カタログの保存操作が、より高速に実行されるように最適化されました。 これまで、共有カタログを多数の顧客グループと共に保存するには、数分かかる場合がありました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- ACP2E-194--> 共有カタログの保存操作が、より高速に実行されるように最適化されました。 これまで、共有カタログを多数の顧客グループと共に保存するには、数分かかる場合がありました。
 
-![ 修正された問題 ](../assets/fix.svg)Adobe Commerce<!--- MC-42240-->、親カテゴリが削除されると、`sharedcatalog_category_permissions` テーブルからすべてのサブカテゴリ権限を削除するようになりました。 以前は、親カテゴリデータのみが削除されていました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)Adobe Commerce<!--- MC-42240-->、親カテゴリが削除されると、`sharedcatalog_category_permissions` テーブルからすべてのサブカテゴリ権限を削除するようになりました。 以前は、親カテゴリデータのみが削除されていました。
 
 ## B2B v1.3.2
 
 *2022 年 8 月 29 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
 
-![ 新規 ](../assets/new.svg)Adobe Commerce 2.4.3 がサポートされるようになりました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)Adobe Commerce 2.4.3 がサポートされるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg)Adobe Commerce<!--- MC-39862-->、期限切れの譲渡性見積に関する更新メールを正常に送信するようになりました。 以前は、交渉可能な見積もりの有効期限が切れた場合、Adobe Commerceは更新メールを送信しませんでした。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)Adobe Commerce<!--- MC-39862-->、期限切れの譲渡性見積に関する更新メールを正常に送信するようになりました。 以前は、交渉可能な見積もりの有効期限が切れた場合、Adobe Commerceは更新メールを送信しませんでした。
 
-![ 修正された問題 ](../assets/fix.svg)Adobe Commerce<!--- MC-40682-->、`cron` ジョブがない場合、まもなく期限切れになる更新メールと、期限切れの交渉可能な引用符を正常に送信するようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)Adobe Commerce<!--- MC-40682-->、`cron` ジョブがない場合、まもなく期限切れになる更新メールと、期限切れの交渉可能な引用符を正常に送信するようになりました。
 
 ### 会社
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-41542--> 「新しい会社アカウントを作成」ページの国ドロップダウンフィールドに空のオプション値が表示されなくなりました。 以前は、最初の 2 つのオプション値と国コード `AN` は空でした。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-41542--> 「新しい会社アカウントを作成」ページの国ドロップダウンフィールドに空のオプション値が表示されなくなりました。 以前は、最初の 2 つのオプション値と国コード `AN` は空でした。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-41260--> 会社のユーザーが作成した注文の「**[!UICONTROL Return]**」ボタンをクリックすると、管理者ユーザーが期待どおりに返品の作成ページにリダイレクトされるようになりました。 以前は、管理者は注文履歴ページにリダイレクトされていました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-41260--> 会社のユーザーが作成した注文の「**[!UICONTROL Return]**」ボタンをクリックすると、管理者ユーザーが期待どおりに返品の作成ページにリダイレクトされるようになりました。 以前は、管理者は注文履歴ページにリダイレクトされていました。
 
-![ 修正された問題 ](../assets/fix.svg)[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}<!--- MC-40798--> 行中 `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply``bin/magento setup:upgrade` メソッドを実行すると、Adobe Commerceがメモリ不足エラーで失敗しなくなりました。 以前は、Adobe Commerceは、権限の初期化時にバッチサイズをコレクションに使用せず、代わりにすべての会社の役割のコレクションを読み込んでいました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}<!--- MC-40798--> 行中 `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` `bin/magento setup:upgrade` メソッドを実行すると、Adobe Commerceがメモリ不足エラーで失敗しなくなりました。 以前は、Adobe Commerceは、権限の初期化時にバッチサイズをコレクションに使用せず、代わりにすべての会社の役割のコレクションを読み込んでいました。
 
-![ 修正された問題 ](../assets/fix.svg) 会社ユーザー <!--- MC-40551-->、顧客のカスタム属性値を編集および更新できるようになりました。 以前は、これらの属性は、ユーザーの作成および編集フォームに正しくバインドされていませんでした。 会社ユーザーは異なる属性値を入力できましたが、Adobe Commerceはこれらの値を正しく保存しませんでした。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 会社ユーザー <!--- MC-40551-->、顧客のカスタム属性値を編集および更新できるようになりました。 以前は、これらの属性は、ユーザーの作成および編集フォームに正しくバインドされていませんでした。 会社ユーザーは異なる属性値を入力できましたが、Adobe Commerceはこれらの値を正しく保存しませんでした。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-32653--> 会社の役割の権限のリソースツリーを、期待どおりに翻訳できるようになりました。 以前は、有効な翻訳ファイルが存在しても、権限ツリーは翻訳されませんでした。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-32653--> 会社の役割の権限のリソースツリーを、期待どおりに翻訳できるようになりました。 以前は、有効な翻訳ファイルが存在しても、権限ツリーは翻訳されませんでした。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-40358--> Adobe Commerceで、B2B ユーザーのカスタムカスタマー属性値が期待どおりに保存されるようになりました。 以前は、カスタムの顧客属性を含む会社アカウントを作成するとテンプレートエラーがトリガーされ、Adobe Commerceがフォームを正常に読み込めませんでした。 `company_create_account` のレイアウトに引数を追加することで、この問題が解決しました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-40358--> Adobe Commerceで、B2B ユーザーのカスタムカスタマー属性値が期待どおりに保存されるようになりました。 以前は、カスタムの顧客属性を含む会社アカウントを作成するとテンプレートエラーがトリガーされ、Adobe Commerceがフォームを正常に読み込めませんでした。 `company_create_account` のレイアウトに引数を追加することで、この問題が解決しました。
 
-![ 修正された問題 ](../assets/fix.svg) すべてのユーザー <!--- MC-41721--> 表示、アクティブユーザーを表示、非アクティブユーザーを表示などの会社ユーザーフィルターが期待どおりに動作するようになりました。 以前は、会社ユーザーページのフィルタリングアクションがJavaScript エラーの原因となっていました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) すべてのユーザー <!--- MC-41721--> 表示、アクティブユーザーを表示、非アクティブユーザーを表示などの会社ユーザーフィルターが期待どおりに動作するようになりました。 以前は、会社ユーザーページのフィルタリングアクションがJavaScript エラーの原因となっていました。
 
 ### 会社クレジット
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-41551--> web サイトレベルの権限のみを含む制限付きアカウントを持つ管理者が、web サイトとは異なる通貨を使用する会社を作成できるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-41551--> web サイトレベルの権限のみを含む制限付きアカウントを持つ管理者が、web サイトとは異なる通貨を使用する会社を作成できるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) Adobe Commerce<!--- MC-41523-->、正しい `from` メールアドレスと範囲から会社のメールを送信するようになりました。 以前は、Adobe Commerceは、会社のクレジット割り当てや更新メールを送信する際に、web サイトの範囲を考慮していませんでした。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) Adobe Commerce<!--- MC-41523-->、正しい `from` メールアドレスと範囲から会社のメールを送信するようになりました。 以前は、Adobe Commerceは、会社のクレジット割り当てや更新メールを送信する際に、web サイトの範囲を考慮していませんでした。
 
 ### クイック注文
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-42104--> CSV ファイルからのクイックオーダーを使用して注文を作成すると、存在しない SKU で期待どおりに動作するようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-42104--> CSV ファイルからのクイックオーダーを使用して注文を作成すると、存在しない SKU で期待どおりに動作するようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-40268--> クイックオーダーを使用して複数の SKU で検索を実行すると、期待どおりに動作するようになりました。 以前は、結果に重複エントリが含まれていました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-40268--> クイックオーダーを使用して複数の SKU で検索を実行すると、期待どおりに動作するようになりました。 以前は、結果に重複エントリが含まれていました。
 
-![ 問題を修正 ](../assets/fix.svg) <!--- MC-40261--> クイックオーダー中に SKU を使用して複数の製品を選択した場合に、追加製品リストの表示で SKU が小文字と大文字で同じように処理されるようになりました。
+![&#x200B; 問題を修正 &#x200B;](../assets/fix.svg) <!--- MC-40261--> クイックオーダー中に SKU を使用して複数の製品を選択した場合に、追加製品リストの表示で SKU が小文字と大文字で同じように処理されるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-40225--> クイックオーダーを使用すると、買い物客が指定した数量で製品が追加されるようになりました。 以前は、Adobe Commerceは、買い物客が指定した数量が 1 を超える場合でも、1 つの商品のみを追加していました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-40225--> クイックオーダーを使用すると、買い物客が指定した数量で製品が追加されるようになりました。 以前は、Adobe Commerceは、買い物客が指定した数量が 1 を超える場合でも、1 つの商品のみを追加していました。
 
-![ 問題を修正 ](../assets/fix.svg) <!--- MC-41283--> クイック注文のオートコンプリート機能が、一部の SKU で機能するようになりました。
+![&#x200B; 問題を修正 &#x200B;](../assets/fix.svg) <!--- MC-41283--> クイック注文のオートコンプリート機能が、一部の SKU で機能するようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-41299--> Adobe Commerceでは、**個別に表示されない** として設定されている商品が、クイックオーダーページの自動候補リストと検索結果に表示されるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-41299--> Adobe Commerceでは、**個別に表示されない** として設定されている商品が、クイックオーダーページの自動候補リストと検索結果に表示されるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-42402--> 買い物客がクイックオーダーフォームを使用して、大文字を含む SKU で複数の製品を追加できるようになりました。 以前は、最初の製品のみが追加されていました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-42402--> 買い物客がクイックオーダーフォームを使用して、大文字を含む SKU で複数の製品を追加できるようになりました。 以前は、最初の製品のみが追加されていました。
 
 ### 譲渡可能見積
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-41232--> 買い物客は、「URL」フィールドにネゴシエート可能な見積もりにリンクを貼り付けて正常にログインした後、ネゴシエート可能な見積もりページにリダイレクトされるようになりました。 以前は、買い物客はマイアカウントページにリダイレクトされていました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-41232--> 買い物客は、「URL」フィールドにネゴシエート可能な見積もりにリンクを貼り付けて正常にログインした後、ネゴシエート可能な見積もりページにリダイレクトされるようになりました。 以前は、買い物客はマイアカウントページにリダイレクトされていました。
 
-![ 問題を修正 ](../assets/fix.svg) <!--- MC-39317--> チェックアウト時に作成された顧客アカウント用に、日付がカスタマイズ可能なオプションを含む製品を含む注文で、並べ替えが期待どおりに機能するようになりました。 以前は、Adobe Commerceは並べ替えを処理せず、次のエラーを表示していました：`The product has required options. Enter the options and try again`。
+![&#x200B; 問題を修正 &#x200B;](../assets/fix.svg) <!--- MC-39317--> チェックアウト時に作成された顧客アカウント用に、日付がカスタマイズ可能なオプションを含む製品を含む注文で、並べ替えが期待どおりに機能するようになりました。 以前は、Adobe Commerceは並べ替えを処理せず、次のエラーを表示していました：`The product has required options. Enter the options and try again`。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-39063--> 発注書モジュールが無効になっている場合、交渉可能な見積もりの配送先住所はチェックアウト中に編集できなくなります。 この動作は、以前の修正でネゴシエーション可能な見積もりチェックアウトレンダラーから `isQuoteAddressLocked` が削除されたことによって発生しています。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-39063--> 発注書モジュールが無効になっている場合、交渉可能な見積もりの配送先住所はチェックアウト中に編集できなくなります。 この動作は、以前の修正でネゴシエーション可能な見積もりチェックアウトレンダラーから `isQuoteAddressLocked` が削除されたことによって発生しています。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-38967--> マーチャントは、管理者から交渉可能な見積もりに製品を追加できるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-38967--> マーチャントは、管理者から交渉可能な見積もりに製品を追加できるようになりました。
 
 ### 発注書
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-39983--> Adobe Commerceでは、**[!UICONTROL Name Prefix]** 属性が `required` に設定されている場合、PayPal Express チェックアウトを使用して注文を行うと、期待どおりに情報エラーメッセージが表示されるようになりました。 以前は、Adobe Commerceによる注文やエラーメッセージの表示はありませんでした。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-39983--> Adobe Commerceでは、**[!UICONTROL Name Prefix]** 属性が `required` に設定されている場合、PayPal Express チェックアウトを使用して注文を行うと、期待どおりに情報エラーメッセージが表示されるようになりました。 以前は、Adobe Commerceによる注文やエラーメッセージの表示はありませんでした。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-39620--> Google タグマネージャーが有効な場合、発注書モジュールの請求先住所の UI コンポーネントで見積先住所が正しく使用されるようになりました。 以前は、支払いページでJavaScript エラーが発生していました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-39620--> Google タグマネージャーが有効な場合、発注書モジュールの請求先住所の UI コンポーネントで見積先住所が正しく使用されるようになりました。 以前は、支払いページでJavaScript エラーが発生していました。
 
 ### 購買依頼リスト
 
-![ 修正された問題 ](../assets/fix.svg)<!--- MC-40426--> マーチャントは、POST `rest/all/V1/requisition_lists` エンドポイントを使用して、顧客用の購買依頼リストを作成できるようになりました。 以前は、Adobe Commerceが購買依頼リストを作成しようとした際に、次の 400 エラーがスローされていました。`Could not save Requisition List`
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!--- MC-40426--> マーチャントは、POST `rest/all/V1/requisition_lists` エンドポイントを使用して、顧客用の購買依頼リストを作成できるようになりました。 以前は、Adobe Commerceが購買依頼リストを作成しようとした際に、次の 400 エラーがスローされていました。`Could not save Requisition List`
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-41123--> 買い物かごに在庫切れの商品も含まれている場合、買い物かごの在庫商品に「**[!UICONTROL Add to Requisition List]**」ボタンが表示されるようになりました。 以前は、1 つの買い物かごに 2 つの製品が含まれ、そのうち 1 つが在庫切れの場合、どちらの製品にも「_[!UICONTROL Add to Requisition List]_」ボタンが表示されませんでした。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-41123--> 買い物かごに在庫切れの商品も含まれている場合、買い物かごの在庫商品に「**[!UICONTROL Add to Requisition List]**」ボタンが表示されるようになりました。 以前は、1 つの買い物かごに 2 つの製品が含まれ、そのうち 1 つが在庫切れの場合、どちらの製品にも「_[!UICONTROL Add to Requisition List]_」ボタンが表示されませんでした。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-40877--> REST API を使用して、製品を購買依頼リストに追加できるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-40877--> REST API を使用して、製品を購買依頼リストに追加できるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) 購買依頼リスト <!--- MC-40155--> 値 **[!UICONTROL Latest Activity Date]** ロケール形式に準拠するようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 購買依頼リスト <!--- MC-40155--> 値 **[!UICONTROL Latest Activity Date]** ロケール形式に準拠するようになりました。
 
-![ 修正された問題 ](../assets/fix.svg)<!--- MC-39580-->Adobe Commerceで、購買依頼リストからバンドル商品を編集する際に致命的なエラーがスローされなくなりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!--- MC-39580-->Adobe Commerceで、購買依頼リストからバンドル商品を編集する際に致命的なエラーがスローされなくなりました。
 
-![ 修正された問題 ](../assets/fix.svg)Adobe Commerce<!--- MC-40454-->、カスタマイズ可能なオプションを `(File)` つ商品を購買依頼リストからウィッシュリストに追加すると、正しい商品価格が表示されるようになりました。 アップロードしたファイルへのリンクも、期待どおりに表示されます。 以前は、Adobe Commerceで誤った製品価格が表示され、ファイルへのリンクが表示されていませんでした。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)Adobe Commerce<!--- MC-40454-->、カスタマイズ可能なオプションを `(File)` つ商品を購買依頼リストからウィッシュリストに追加すると、正しい商品価格が表示されるようになりました。 アップロードしたファイルへのリンクも、期待どおりに表示されます。 以前は、Adobe Commerceで誤った製品価格が表示され、ファイルへのリンクが表示されていませんでした。
 
-![ 問題を修正 ](../assets/fix.svg) <!--- MC-36383--> カスタマイズ可能なオプションを備え `(File)` 製品を、購買依頼リストから買い物かごに追加できるようになりました。
+![&#x200B; 問題を修正 &#x200B;](../assets/fix.svg) <!--- MC-36383--> カスタマイズ可能なオプションを備え `(File)` 製品を、購買依頼リストから買い物かごに追加できるようになりました。
 
 ### 共有カタログ
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-40497--> 特定の web サイトに限定された役割を持つ管理者が、共有カタログの作成、表示、編集ができるようになりました。 以前は、限られたロールを持つ管理者が共有カタログを作成しようとすると、Adobe Commerceが致命的なエラーをスローしていました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-40497--> 特定の web サイトに限定された役割を持つ管理者が、共有カタログの作成、表示、編集ができるようになりました。 以前は、限られたロールを持つ管理者が共有カタログを作成しようとすると、Adobe Commerceが致命的なエラーをスローしていました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-41337--> レイヤードナビゲーションの結果に、フィルタリングされた属性を持つ製品の正確な数が含まれるようになり、買い物客は複数のフィルターを適用できるようになりました。 以前は、1 つのフィルターのみを適用できましたが、Adobe Commerceのレイヤーナビゲーションで、不正確な製品数が表示されていました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-41337--> レイヤードナビゲーションの結果に、フィルタリングされた属性を持つ製品の正確な数が含まれるようになり、買い物客は複数のフィルターを適用できるようになりました。 以前は、1 つのフィルターのみを適用できましたが、Adobe Commerceのレイヤーナビゲーションで、不正確な製品数が表示されていました。
 
-![ 修正された問題 ](../assets/fix.svg) Adobe Commerce<!--- MC-40779-->、検索結果のレイヤー化されたナビゲーションフィルターに製品数を正しく表示するようになりました。 以前は、検索結果ページのプラグインはElasticsearchを使用せずに、データベースに新しいクエリを発行していました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) Adobe Commerce<!--- MC-40779-->、検索結果のレイヤー化されたナビゲーションフィルターに製品数を正しく表示するようになりました。 以前は、検索結果ページのプラグインはElasticsearchを使用せずに、データベースに新しいクエリを発行していました。
 
-![ 修正された問題 ](../assets/fix.svg)<!--- MC-39978--> マーチャントがデフォルトの共有カタログからすべての商品を削除した場合に、Adobe Commerceで階層価格が削除されなくなりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)<!--- MC-39978--> マーチャントがデフォルトの共有カタログからすべての商品を削除した場合に、Adobe Commerceで階層価格が削除されなくなりました。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-39802--> 共有カタログが有効な場合、フィルターが現在のカテゴリでフィルタリングされ、すべてのページに正しく表示されるようになりました。 以前は、フィルターは現在のページに対してのみ誤って計算され、現在のカテゴリではフィルタリングされていませんでした。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-39802--> 共有カタログが有効な場合、フィルターが現在のカテゴリでフィルタリングされ、すべてのページに正しく表示されるようになりました。 以前は、フィルターは現在のページに対してのみ誤って計算され、現在のカテゴリではフィルタリングされていませんでした。
 
-![ 修正された問題 ](../assets/fix.svg) <!--- MC-39522--> 共有カタログが有効な場合に、共有カタログに割り当てられていない商品の場合、GraphQL `products` クエリが商品の価格範囲とカテゴリを返さなくなりました。 以前は、製品自体が `items` 配列で返されなかった場合でも、クエリは製品の集計を返していました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) <!--- MC-39522--> 共有カタログが有効な場合に、共有カタログに割り当てられていない商品の場合、GraphQL `products` クエリが商品の価格範囲とカテゴリを返さなくなりました。 以前は、製品自体が `items` 配列で返されなかった場合でも、クエリは製品の集計を返していました。
 
 ## B2B v1.3.1
 
 *2021 年 2 月 9 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
 
-![ 新規 ](../assets/new.svg)Adobe Commerce 2.4.2 がサポートされるようになりました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)Adobe Commerce 2.4.2 がサポートされるようになりました。
 
-![ 新規 ](../assets/new.svg) 発注書でオンライン支払い方法がサポートされるようになりました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg) 発注書でオンライン支払い方法がサポートされるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) この製品を以前の注文で使用した際に、購買依頼リストから直接買い物かごに設定可能な製品を追加しても、システムエラーが返されなくなりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) この製品を以前の注文で使用した際に、購買依頼リストから直接買い物かごに設定可能な製品を追加しても、システムエラーが返されなくなりました。
 
-![ 修正された問題 ](../assets/fix.svg)Adobe Commerceでは、分割データベース設定がデプロイされた際に、発注書に対して「自分の承認が必要」タブが正しく表示されるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)Adobe Commerceでは、分割データベース設定がデプロイされた際に、発注書に対して「自分の承認が必要」タブが正しく表示されるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg)Adobe Commerceでは、発注書を表示する際に、バンドル商品とギフトカードに関する詳細が表示されるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)Adobe Commerceでは、発注書を表示する際に、バンドル商品とギフトカードに関する詳細が表示されるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) 買い物客は、**[!UICONTROL Website Restriction]** が有効で、**[!UICONTROL Restriction Mode]** が `Private Sales: Login Only` に設定されているストアで閲覧している間、自分のアカウントにログインした後、期待どおりにリダイレクトされるようになりました。 以前は、買い物客はストアのホームページにリダイレクトされていました。<!--- MC-38934-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 買い物客は、**[!UICONTROL Website Restriction]** が有効で、**[!UICONTROL Restriction Mode]** が `Private Sales: Login Only` に設定されているストアで閲覧している間、自分のアカウントにログインした後、期待どおりにリダイレクトされるようになりました。 以前は、買い物客はストアのホームページにリダイレクトされていました。<!--- MC-38934-->
 
-![ 修正された問題 ](../assets/fix.svg) 多数の顧客（13000 を超える）を含む B2B の会社階層を使用したデプロイメントで、会社管理者のアカウントダッシュボードページで、注文履歴が期待どおりに読み込まれるようになりました。 以前は、注文履歴の読み込みに時間がかかったり、まったく時間がかからなかったりして、Adobe Commerceに 503 エラーが表示されていました。<!--- MC-38830-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 多数の顧客（13000 を超える）を含む B2B の会社階層を使用したデプロイメントで、会社管理者のアカウントダッシュボードページで、注文履歴が期待どおりに読み込まれるようになりました。 以前は、注文履歴の読み込みに時間がかかったり、まったく時間がかからなかったりして、Adobe Commerceに 503 エラーが表示されていました。<!--- MC-38830-->
 
-![ 修正された問題 ](../assets/fix.svg) カテゴリ ページから購買依頼リストにカスタマイズ可能なオプションを含む未設定製品を追加すると、Adobe Commerceで複数の同一の警告メッセージが表示されなくなりました。<!--- MC-38342-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) カテゴリ ページから購買依頼リストにカスタマイズ可能なオプションを含む未設定製品を追加すると、Adobe Commerceで複数の同一の警告メッセージが表示されなくなりました。<!--- MC-38342-->
 
-![ 修正された問題 ](../assets/fix.svg) B2B の共有カタログが有効な場合、新しい製品や重複した製品がカテゴリページで期待どおりに表示されるようになりました。<!--- MC-38307-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) B2B の共有カタログが有効な場合、新しい製品や重複した製品がカテゴリページで期待どおりに表示されるようになりました。<!--- MC-38307-->
 
-![ 修正された問題 ](../assets/fix.svg)Adobe Commerceでは、会社の顧客グループが更新された際に、会社管理者に関連付けられた正しい `store_id` を保持するようになりました。 以前は、グループが更新されると、`store_id` がデフォルトのストアに変更されていました。<!--- MC-38196-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)Adobe Commerceでは、会社の顧客グループが更新された際に、会社管理者に関連付けられた正しい `store_id` を保持するようになりました。 以前は、グループが更新されると、`store_id` がデフォルトのストアに変更されていました。<!--- MC-38196-->
 
-![ 修正された問題 ](../assets/fix.svg)Adobe Commerceは、グループ化された商品を買い物かごに追加する場合と同じ方法で、グループ化された商品をシンプルな商品のリストとして購買依頼リストに保存するようになりました。 以前は、Adobe Commerceによるグループ化された商品の保存方法により、購買依頼リストからのグループ化された商品のリンクは、グループ化された商品ではなく、常にシンプルな商品にリダイレクトされていました。<!--- MC-38049-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)Adobe Commerceは、グループ化された商品を買い物かごに追加する場合と同じ方法で、グループ化された商品をシンプルな商品のリストとして購買依頼リストに保存するようになりました。 以前は、Adobe Commerceによるグループ化された商品の保存方法により、購買依頼リストからのグループ化された商品のリンクは、グループ化された商品ではなく、常にシンプルな商品にリダイレクトされていました。<!--- MC-38049-->
 
-![ 修正された問題 ](../assets/fix.svg) 注文情報を CSV 形式で書き出す際に、**[!UICONTROL Company Name]** フィールドで注文をフィルタリングできるようになりました。 以前は、Adobe Commerceは `var/export/{file-id}` にエラーを記録していました。<!--- MC-37785-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 注文情報を CSV 形式で書き出す際に、**[!UICONTROL Company Name]** フィールドで注文をフィルタリングできるようになりました。 以前は、Adobe Commerceは `var/export/{file-id}` にエラーを記録していました。<!--- MC-37785-->
 
-![ 修正された問題 ](../assets/fix.svg)Adobe Commerceでは、ストアフロントで「新規購買依頼リストの作成」タブを選択すると、「購買依頼リストの作成」ポップアップが期待どおりに表示されるようになりました。<!--- MC-37915-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)Adobe Commerceでは、ストアフロントで「新規購買依頼リストの作成」タブを選択すると、「購買依頼リストの作成」ポップアップが期待どおりに表示されるようになりました。<!--- MC-37915-->
 
-![ 修正された問題 ](../assets/fix.svg) 購買依頼リストに、リストに追加されたすべてのグループ化製品と数量が含まれるようになりました。 以前は、販売員が商品詳細ページから商品を追加した後に購買依頼リストに移動すると、Adobe Commerceに「`1 product(s) require your attention - Options were updated. Please review available configurations`」というエラーが表示されていました。<!--- MC-37621-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 購買依頼リストに、リストに追加されたすべてのグループ化製品と数量が含まれるようになりました。 以前は、販売員が商品詳細ページから商品を追加した後に購買依頼リストに移動すると、Adobe Commerceに「`1 product(s) require your attention - Options were updated. Please review available configurations`」というエラーが表示されていました。<!--- MC-37621-->
 
-![ 修正された問題 ](../assets/fix.svg) マルチサイトデプロイメントで会社を作成する際に、正しいストア表示が関連する web サイトに関連付けられるようになりました。 以前は会社を作成できませんでしたが、Adobe Commerceに「`The store view is not in the associated website`」というエラーが表示されていました。<!--- MC-37488-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) マルチサイトデプロイメントで会社を作成する際に、正しいストア表示が関連する web サイトに関連付けられるようになりました。 以前は会社を作成できませんでしたが、Adobe Commerceに「`The store view is not in the associated website`」というエラーが表示されていました。<!--- MC-37488-->
 
-![ 修正された問題 ](../assets/fix.svg) クイックオーダーを使用して SKU 別に製品を並べ替えても、CSV ファイルで製品数量が重複しなくなりました。<!--- MC-37427-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) クイックオーダーを使用して SKU 別に製品を並べ替えても、CSV ファイルで製品数量が重複しなくなりました。<!--- MC-37427-->
 
-![ 修正された問題 ](../assets/fix.svg) クイックオーダーページの **[!UICONTROL Add to Cart]** セクションに空の値が含まれている場合、「_[!UICONTROL Enter Multiple SKUs]_」ボタンがブロックされなくなりました。 代わりに、Adobe Commerceに有効な SKU を入力するように求めるメッセージが表示されるようになりました。<!--- MC-37387-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) クイックオーダーページの **[!UICONTROL Add to Cart]** セクションに空の値が含まれている場合、「_[!UICONTROL Enter Multiple SKUs]_」ボタンがブロックされなくなりました。 代わりに、Adobe Commerceに有効な SKU を入力するように求めるメッセージが表示されるようになりました。<!--- MC-37387-->
 
-![ 修正された問題 ](../assets/fix.svg)Adobe Commerceは、購買依頼リストから商品レビューを発行すると、商品ページに次のメッセージを表示するようになりました。`You submitted your review for moderation` レビューは、保留中のレビューのページ（Admin **[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**）にも表示されます。 以前は、Adobe Commerceは保留中のレビューのリストにレビューを追加しましたが、商品ページで 404 エラーが発生しました。<!--- MC-37119-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)Adobe Commerceは、購買依頼リストから商品レビューを発行すると、商品ページに次のメッセージを表示するようになりました。`You submitted your review for moderation` レビューは、保留中のレビューのページ（Admin **[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**）にも表示されます。 以前は、Adobe Commerceは保留中のレビューのリストにレビューを追加しましたが、商品ページで 404 エラーが発生しました。<!--- MC-37119-->
 
-![ 修正された問題 ](../assets/fix.svg) `sharedCatalogUpdateCategoryPermissions` コンシューマーのパフォーマンスが向上しました。 共有カタログを作成した後、カタログ権限インデクサーは、すべての顧客グループではなく、共有カタログの顧客グループ ID のみを使用するようになりました。<!--- MC-36770-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) `sharedCatalogUpdateCategoryPermissions` コンシューマーのパフォーマンスが向上しました。 共有カタログを作成した後、カタログ権限インデクサーは、すべての顧客グループではなく、共有カタログの顧客グループ ID のみを使用するようになりました。<!--- MC-36770-->
 
-![ 修正された問題 ](../assets/fix.svg) 買い物客のデフォルト以外の住所に関連付けられたカスタム顧客住所属性フィールドが、ストアフロントのチェックアウトワークフローで期待どおりに保存されるようになりました。<!--- MC-36630-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 買い物客のデフォルト以外の住所に関連付けられたカスタム顧客住所属性フィールドが、ストアフロントのチェックアウトワークフローで期待どおりに保存されるようになりました。<!--- MC-36630-->
 
-![ 問題を修正しました ](../assets/fix.svg) ストアのデフォルトの共有カタログに属する製品の注文を、期待どおりに管理 REST API （`rest/V1/carts/{<CART_ID>/items`）を使用して、買い物客に対して配置できるようになりました。 Adobe Commerceは、`\Magento\SharedCatalog\Plugin\Quote\Api\ValidateAddProductToCartPlugin::beforeSave` でカタログ権限の検証を共有する前に、商品が公開カタログに割り当てられたかどうかを確認するようになりました。 以前は、Adobe Commerceは商品を買い物客の買い物かごに追加せず、次のエラーをスローしていました。`No such shared catalog entity`。<!--- MC-36535-->
+![&#x200B; 問題を修正しました &#x200B;](../assets/fix.svg) ストアのデフォルトの共有カタログに属する製品の注文を、期待どおりに管理 REST API （`rest/V1/carts/{<CART_ID>/items`）を使用して、買い物客に対して配置できるようになりました。 Adobe Commerceは、`\Magento\SharedCatalog\Plugin\Quote\Api\ValidateAddProductToCartPlugin::beforeSave` でカタログ権限の検証を共有する前に、商品が公開カタログに割り当てられたかどうかを確認するようになりました。 以前は、Adobe Commerceは商品を買い物客の買い物かごに追加せず、次のエラーをスローしていました。`No such shared catalog entity`。<!--- MC-36535-->
 
-![ 修正された問題 ](../assets/fix.svg)Adobe Commerceが、Adobe Commerce ストアのアドレスから新しい会社ユーザー登録メールを送信するようになりました。 以前は、このメールは会社の管理者のアドレスから送信されていました。<!--- MC-36480-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)Adobe Commerceが、Adobe Commerce ストアのアドレスから新しい会社ユーザー登録メールを送信するようになりました。 以前は、このメールは会社の管理者のアドレスから送信されていました。<!--- MC-36480-->
 
-![ 修正された問題 ](../assets/fix.svg)Adobe Commerceは、マーチャントに新しい属性の保存を許可する前に、予約済みの会社属性名の重複についてカスタム属性を確認するようになりました。<!--- MC-36282-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)Adobe Commerceは、マーチャントに新しい属性の保存を許可する前に、予約済みの会社属性名の重複についてカスタム属性を確認するようになりました。<!--- MC-36282-->
 
-![ 修正された問題 ](../assets/fix.svg)`credit_history` クエリでは、最初に割り当てられた金額と購入された金額の両方について、指定された会社のクレジット履歴を返すようになりました。 以前は、このクエリはエラーを返していました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)`credit_history` クエリでは、最初に割り当てられた金額と購入された金額の両方について、指定された会社のクレジット履歴を返すようになりました。 以前は、このクエリはエラーを返していました。
 
-![ 修正された問題 ](../assets/fix.svg) アカウント情報を編集ページの「**[!UICONTROL Company]**」フィールドと「**[!UICONTROL Job Title]**」フィールドが編集できなくなりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) アカウント情報を編集ページの「**[!UICONTROL Company]**」フィールドと「**[!UICONTROL Job Title]**」フィールドが編集できなくなりました。
 
 ### 既知の問題
 
@@ -797,7 +797,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 購入者が発注書を作成した後、チェックアウトページに移動すると、Adobe Commerceで 404 エラーが表示される場合があります。 このエラーは、購入者が、以前の購入を完了せずにチェックアウトページに移動する前に、オンラインの支払い方法を使用して別の発注書を以前に作成した場合に発生します。 買い手はまだ発注書を配置することができます。 **_回避策_**：なし。<!--- B2B-1605-->
 
-- 特定の支払い方法に対する割引は、購入者が最終チェックアウト中に支払い方法を変更した場合でも、発注書のチェックアウト中に保持されます。 その結果、お客様は権利のない割引を受けることができます。 この問題は、支払方法が変更されても、元の支払方法の買い物かごルールが引き続き適用されるために発生します。 **_回避策_**：なし。 詳しくは、[Adobe Commerce 2.4.2 B2B の既知の問題：お支払い方法が変更された後、オンライン発注書に対する割引が残ります ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html)_ナレッジベース_ に関する記事を参照してください。<!-- B2B-1012 -->
+- 特定の支払い方法に対する割引は、購入者が最終チェックアウト中に支払い方法を変更した場合でも、発注書のチェックアウト中に保持されます。 その結果、お客様は権利のない割引を受けることができます。 この問題は、支払方法が変更されても、元の支払方法の買い物かごルールが引き続き適用されるために発生します。 **_回避策_**：なし。 詳しくは、[Adobe Commerce 2.4.2 B2B の既知の問題：お支払い方法が変更された後、オンライン発注書に対する割引が残ります &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html)_ナレッジベース_ に関する記事を参照してください。<!-- B2B-1012 -->
 
 - `deleteRequisitionListOutput` の問合せでは、残りの購買依頼リストではなく、削除された購買依頼リストに関する詳細が戻されます。<!--- MC-39894-->
 
@@ -805,147 +805,147 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 *2020 年 10 月 15 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
 
 このリリースには、注文承認、発送方法、買い物かご、管理者アクションのログ記録などの改善が含まれています。
 
-![ 新規 ](../assets/new.svg)Adobe Commerce 2.4.1 がサポートされるようになりました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)Adobe Commerce 2.4.1 がサポートされるようになりました。
 
-![ 新規 ](../assets/new.svg)B2B 注文の承認が強化され、使いやすさが向上し、発注書に対する一括アクションが可能になりました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)B2B 注文の承認が強化され、使いやすさが向上し、発注書に対する一括アクションが可能になりました。
 
-![ 新規 ](../assets/new.svg) B2B のマーチャントは、各会社に提供される発送方法を制御できるようになりました。<!--- BUNDLE-160 161 162 -->
+![&#x200B; 新規 &#x200B;](../assets/new.svg) B2B のマーチャントは、各会社に提供される発送方法を制御できるようになりました。<!--- BUNDLE-160 161 162 -->
 
-![ 新規 ](../assets/new.svg) マーチャントは、ユーザーが 1 回のアクションで買い物かごの内容をクリアでき、この機能を web サイトの <!--- BUNDLE-108 --> ージごとに独立して設定できるようになりました
+![&#x200B; 新規 &#x200B;](../assets/new.svg) マーチャントは、ユーザーが 1 回のアクションで買い物かごの内容をクリアでき、この機能を web サイトの <!--- BUNDLE-108 --> ージごとに独立して設定できるようになりました
 
-![ 新規 ](../assets/new.svg) B2B 購入者は、個々の商品または買い物かごの内容全体を購買依頼リストに直接追加できるようになりました。<!--- BUNDLE-145 144-->
+![&#x200B; 新規 &#x200B;](../assets/new.svg) B2B 購入者は、個々の商品または買い物かごの内容全体を購買依頼リストに直接追加できるようになりました。<!--- BUNDLE-145 144-->
 
-![ 新規 ](../assets/new.svg) B2B マーチャントは、支払い方法として「アカウント内支払い」を使用することにより、顧客に代わって管理者から注文を作成できます。<!--- BUNDLE-166 178-->
+![&#x200B; 新規 &#x200B;](../assets/new.svg) B2B マーチャントは、支払い方法として「アカウント内支払い」を使用することにより、顧客に代わって管理者から注文を作成できます。<!--- BUNDLE-166 178-->
 
-![ 新規 ](../assets/new.svg) マーチャントは、ユーザーに関連付けられたすべての見積もりを顧客の詳細ページから直接表示できるようになりました。<!--- BUNDLE-139 -->
+![&#x200B; 新規 &#x200B;](../assets/new.svg) マーチャントは、ユーザーに関連付けられたすべての見積もりを顧客の詳細ページから直接表示できるようになりました。<!--- BUNDLE-139 -->
 
-![ 新規 ](../assets/new.svg) マーチャントは、オンラインで顧客を会社別にフィルタリングできるようになりました。<!--- BUNDLE-137 -->
+![&#x200B; 新規 &#x200B;](../assets/new.svg) マーチャントは、オンラインで顧客を会社別にフィルタリングできるようになりました。<!--- BUNDLE-137 -->
 
-![ 新規 ](../assets/new.svg) 管理者は、管理者の顧客を営業担当者でフィルタリングできるようになりました。<!--- BUNDLE-110 -->
+![&#x200B; 新規 &#x200B;](../assets/new.svg) 管理者は、管理者の顧客を営業担当者でフィルタリングできるようになりました。<!--- BUNDLE-110 -->
 
-![ 新規 ](../assets/new.svg) 不正なアカウントやスパムアカウントの作成を減らすために、マーチャントは、ストアフロントの新規会社リクエストフォームでGoogle reCAPTCHA を有効にできるようになりました。<!--- BUNDLE-154 -->
+![&#x200B; 新規 &#x200B;](../assets/new.svg) 不正なアカウントやスパムアカウントの作成を減らすために、マーチャントは、ストアフロントの新規会社リクエストフォームでGoogle reCAPTCHA を有効にできるようになりました。<!--- BUNDLE-154 -->
 
-![ 新規 ](../assets/new.svg) 会社モジュールで実行された管理者アクションは、管理アクションログに記録されるようになりました。 アクションは、すべての関連する会社モジュール（`Company`、`NegotiableQuote`、`CompanyCredit`、`SharedCatalog`）から記録されます。<!--- BUNDLE-180 181 182 183 -->
+![&#x200B; 新規 &#x200B;](../assets/new.svg) 会社モジュールで実行された管理者アクションは、管理アクションログに記録されるようになりました。 アクションは、すべての関連する会社モジュール（`Company`、`NegotiableQuote`、`CompanyCredit`、`SharedCatalog`）から記録されます。<!--- BUNDLE-180 181 182 183 -->
 
-![ 修正された問題 ](../assets/fix.svg)B2B がインストールされているデプロイメントで、ログイン管理者がお客様を削除する権限を持っていない場合、Adobe Commerceで **[!UICONTROL Delete customer]** お客様 **ページに「**」ボタンが表示されなくなりました。<!--- MC-35655-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)B2B がインストールされているデプロイメントで、ログイン管理者がお客様を削除する権限を持っていない場合、Adobe Commerceで **[!UICONTROL Delete customer]** お客様 **ページに「**」ボタンが表示されなくなりました。<!--- MC-35655-->
 
-![ 修正された問題 ](../assets/fix.svg) 顧客グリッドで顧客を編集するときに、会社に割り当てられている顧客の顧客グループが自動的に変更されなくなりました。<!--- MC-35254-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 顧客グリッドで顧客を編集するときに、会社に割り当てられている顧客の顧客グループが自動的に変更されなくなりました。<!--- MC-35254-->
 
-![ 修正された問題 ](../assets/fix.svg) マーチャントが共有カタログを作成すると、カタログ権限設定で顧客グループにこのアクセス権が割り当てられたときに、カテゴリの `Allow` 機能と **[!UICONTROL Display Product Prices]** 機能に対する権限が自動的に **[!UICONTROL Add to Cart]** に設定されるようになりました。 以前は、カタログ権限が `Deny`.`Allow` に設定されている場合でも、これらの設定は自動的に <!--- MC-34792--> に設定されていました
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) マーチャントが共有カタログを作成すると、カタログ権限設定で顧客グループにこのアクセス権が割り当てられたときに、カテゴリの `Allow` 機能と **[!UICONTROL Display Product Prices]** 機能に対する権限が自動的に **[!UICONTROL Add to Cart]** に設定されるようになりました。 以前は、カタログ権限が `Deny`.`Allow` に設定されている場合でも、これらの設定は自動的に <!--- MC-34792--> に設定されていました
 
-![ 修正された問題 ](../assets/fix.svg) 製品を製品編集ページから編集した際に、共有カタログカテゴリの権限が上書きされなくなりました。<!--- MC-34777-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 製品を製品編集ページから編集した際に、共有カタログカテゴリの権限が上書きされなくなりました。<!--- MC-34777-->
 
-![ 修正された問題 ](../assets/fix.svg) マーチャントが **[!UICONTROL Allow To Exceed Credit Limit]** 設定を有効にすると、お客様が指定されたクレジット制限を超える権限を持っていることを確認するメール通知をAdobe Commerceが送信するようになりました。 以前は、Adobe Commerceから送信される通知メールで、お客様が制限を超える権限を持っていないことを示していました。<!--- MC-34584-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) マーチャントが **[!UICONTROL Allow To Exceed Credit Limit]** 設定を有効にすると、お客様が指定されたクレジット制限を超える権限を持っていることを確認するメール通知をAdobe Commerceが送信するようになりました。 以前は、Adobe Commerceから送信される通知メールで、お客様が制限を超える権限を持っていないことを示していました。<!--- MC-34584-->
 
-![ 修正された問題 ](../assets/fix.svg) 購買依頼リストの商品価格を囲むHTML コンテナが、バンドルされた商品の子に対して正しくレンダリングされるようになりました。<!--- MC-36331-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 購買依頼リストの商品価格を囲むHTML コンテナが、バンドルされた商品の子に対して正しくレンダリングされるようになりました。<!--- MC-36331-->
 
-![ 修正された問題 ](../assets/fix.svg) 多言語デプロイメントで会社を作成する際に、マーチャントが会社のユーザーのメールの送信言語を指定できるようになりました。 以前は、のドロップダウンメニューを使用すると、マーチャントは適切なストア表示を選択できましたが、言語は表示されませんでした。 <!--- MC-35777-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 多言語デプロイメントで会社を作成する際に、マーチャントが会社のユーザーのメールの送信言語を指定できるようになりました。 以前は、のドロップダウンメニューを使用すると、マーチャントは適切なストア表示を選択できましたが、言語は表示されませんでした。 <!--- MC-35777-->
 
-![ 修正された問題 ](../assets/fix.svg) カスタムの顧客アドレス属性フィールドが、ストアフロントのチェックアウトワークフローで期待どおりに表示されるようになりました。<!--- MC-35607-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) カスタムの顧客アドレス属性フィールドが、ストアフロントのチェックアウトワークフローで期待どおりに表示されるようになりました。<!--- MC-35607-->
 
-![ 修正された問題 ](../assets/fix.svg) 「B2B 機能の設定」タブが正しく開くようになりました。 <!--- MC-35458--> ゲストは QuickOrder を使用して商品を買い物かごに追加し、商品を正常に削除できるようになりました。 以前は、買い物客が QuickOrder を使用して買い物かごに複数の製品を追加してから、製品を削除しても、製品が削除されませんでした。<!--- MC-35327-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 「B2B 機能の設定」タブが正しく開くようになりました。 <!--- MC-35458--> ゲストは QuickOrder を使用して商品を買い物かごに追加し、商品を正常に削除できるようになりました。 以前は、買い物客が QuickOrder を使用して買い物かごに複数の製品を追加してから、製品を削除しても、製品が削除されませんでした。<!--- MC-35327-->
 
-![ 修正された問題 ](../assets/fix.svg) 状態が `/V1/company/:companyId` 不要 `region_id` に設定されている場合、**を指定せずに、REST API PUT** リクエストを使用して会社を更新できるようになりました。 以前は、`region_id` が必須でなくても、指定されていない場合、Adobe Commerceがエラーをスローしていました。<!--- MC-35304-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 状態が `/V1/company/:companyId` 不要 `region_id` に設定されている場合、**を指定せずに、REST API PUT** リクエストを使用して会社を更新できるようになりました。 以前は、`region_id` が必須でなくても、指定されていない場合、Adobe Commerceがエラーをスローしていました。<!--- MC-35304-->
 
-![ 修正された問題 ](../assets/fix.svg)REST API （`http://magento.local/rest/V1/company/2`、`2` は会社 ID を表す）を使用して B2B 会社を作成または更新した場合、期待どおりに応答に `applicable_payment_method` または `available_payment_methods` の設定が含まれるようになりました。<!--- MC-35248-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)REST API （`http://magento.local/rest/V1/company/2`、`2` は会社 ID を表す）を使用して B2B 会社を作成または更新した場合、期待どおりに応答に `applicable_payment_method` または `available_payment_methods` の設定が含まれるようになりました。<!--- MC-35248-->
 
-![ 修正された問題 ](../assets/fix.svg) ストアフロントで購買依頼リストを作成する際に、マーチャントが **Enter****[!UICONTROL Save]** ボタンを使用すると、Adobe Commerceに 404 ページが表示されなくなりました。<!--- MC-35094-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) ストアフロントで購買依頼リストを作成する際に、マーチャントが **Enter**&#x200B;**[!UICONTROL Save]** ボタンを使用すると、Adobe Commerceに 404 ページが表示されなくなりました。<!--- MC-35094-->
 
-![ 修正された問題 ](../assets/fix.svg) 新しい製品が公開共有カタログに割り当てられると、カテゴリ権限が変更されなくなりました。 以前は、カテゴリ権限は複製されていました。<!--- MC-34386-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 新しい製品が公開共有カタログに割り当てられると、カテゴリ権限が変更されなくなりました。 以前は、カテゴリ権限は複製されていました。<!--- MC-34386-->
 
-![ 修正された問題 ](../assets/fix.svg) 会社のメールを更新するために使用される REST API エンドポイント PUT `rest/default/V1/company/{id}` で、大文字と小文字が区別されなくなりました。<!--- MC-34308-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 会社のメールを更新するために使用される REST API エンドポイント PUT `rest/default/V1/company/{id}` で、大文字と小文字が区別されなくなりました。<!--- MC-34308-->
 
-![ 修正された問題 ](../assets/fix.svg) 報酬モジュールを無効にすると、顧客アカウントの B2B 機能に影響しなくなりました。 以前は、報酬モジュールが無効の場合、会社プロファイル、会社ユーザー、役割と権限という B2B 関連のタブは表示されませんでした。<!--- MC-34191-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 報酬モジュールを無効にすると、顧客アカウントの B2B 機能に影響しなくなりました。 以前は、報酬モジュールが無効の場合、会社プロファイル、会社ユーザー、役割と権限という B2B 関連のタブは表示されませんでした。<!--- MC-34191-->
 
-![ 修正された問題 ](../assets/fix.svg) 会社アカウントに変更が加えられた場合、Adobe Commerceでメール通知に正しい送信者名が使用されるようになりました。 以前Adobe Commerceでは、すべてのメールに対して、デフォルトスコープで定義された一般的な連絡先の送信者名を使用していました。<!--- MC-33917-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 会社アカウントに変更が加えられた場合、Adobe Commerceでメール通知に正しい送信者名が使用されるようになりました。 以前Adobe Commerceでは、すべてのメールに対して、デフォルトスコープで定義された一般的な連絡先の送信者名を使用していました。<!--- MC-33917-->
 
-![ 修正された問題 ](../assets/fix.svg) 物理製品と仮想製品の両方を含む注文に対して、複数出荷を正常に実装できるようになりました。<!--- MC-33818-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 物理製品と仮想製品の両方を含む注文に対して、複数出荷を正常に実装できるようになりました。<!--- MC-33818-->
 
-![ 修正された問題 ](../assets/fix.svg)_[!UICONTROL Company Users]_が有効で、**[!UICONTROL Access Restriction]**が&#x200B;**[!UICONTROL Restriction Mode]**に設定されている場合、マーチャントは、マイアカウントおよび会社構造ページの `Sales: Login Only` セクションから会社ユーザーを作成できるようになりました。 以前は、マーチャントがユーザー `Can not register new customer due to restrictions are enabled` を作成しようとすると、Adobe Commerceがこのエラーをスローしていました。<!--- MC-33608-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)_[!UICONTROL Company Users]_&#x200B;が有効で、**[!UICONTROL Access Restriction]**&#x200B;が&#x200B;**[!UICONTROL Restriction Mode]**&#x200B;に設定されている場合、マーチャントは、マイアカウントおよび会社構造ページの `Sales: Login Only` セクションから会社ユーザーを作成できるようになりました。 以前は、マーチャントがユーザー `Can not register new customer due to restrictions are enabled` を作成しようとすると、Adobe Commerceがこのエラーをスローしていました。<!--- MC-33608-->
 
-![ 修正された問題 ](../assets/fix.svg) お客様がアカウント情報を保存した際に、Adobe Commerceがお客様のカスタマーグループをデフォルトにリセットしなくなりました。<!--- MC-33554-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) お客様がアカウント情報を保存した際に、Adobe Commerceがお客様のカスタマーグループをデフォルトにリセットしなくなりました。<!--- MC-33554-->
 
-![ 修正された問題 ](../assets/fix.svg) 管理者がアクティブな買い物かごを持つお客様を顧客グループに割り当てた際に、Adobe Commerceが致命的なエラーをスローしなくなりました。<!--- MC-33313-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 管理者がアクティブな買い物かごを持つお客様を顧客グループに割り当てた際に、Adobe Commerceが致命的なエラーをスローしなくなりました。<!--- MC-33313-->
 
-![ 修正された問題 ](../assets/fix.svg)Adobe Commerceでは、クイックオーダーおよび購買依頼リストページ用に `addToCart` DataLayer イベントが提供されるようになりました。 <!--- MC-33295-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)Adobe Commerceでは、クイックオーダーおよび購買依頼リストページ用に `addToCart` DataLayer イベントが提供されるようになりました。 <!--- MC-33295-->
 
-![ 修正された問題 ](../assets/fix.svg) 会社に割り当てられた営業担当者に送信される通知メールに、割り当てられた会社ロゴが含まれるようになりました。 以前は、通知メールには、アップロードされた企業ロゴではなく、デフォルトの LUMA ロゴが含まれていました。<!--- MC-33232-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 会社に割り当てられた営業担当者に送信される通知メールに、割り当てられた会社ロゴが含まれるようになりました。 以前は、通知メールには、アップロードされた企業ロゴではなく、デフォルトの LUMA ロゴが含まれていました。<!--- MC-33232-->
 
-![ 修正された問題 ](../assets/fix.svg) 購買依頼リストに、リストに追加されたすべてのグループ化製品と数量が含まれるようになりました。 以前は、販売員が商品詳細ページから商品を追加した後に購買依頼リストに移動すると、Adobe Commerceに「`1 product(s) require your attention - Options were updated. Please review available configurations`」というエラーが表示されていました。<!--- MC-32877-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 購買依頼リストに、リストに追加されたすべてのグループ化製品と数量が含まれるようになりました。 以前は、販売員が商品詳細ページから商品を追加した後に購買依頼リストに移動すると、Adobe Commerceに「`1 product(s) require your attention - Options were updated. Please review available configurations`」というエラーが表示されていました。<!--- MC-32877-->
 
-![ 修正された問題 ](../assets/fix.svg) 共有カタログが有効な場合、`products` クエリが正確な `total_count` フィールドを返すようになりました。<!--- MC-42268-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 共有カタログが有効な場合、`products` クエリが正確な `total_count` フィールドを返すようになりました。<!--- MC-42268-->
 
-![ 修正された問題 ](../assets/fix.svg) オンライン配送方法を無効にした後、会社の設定ページと会社の作成ページが期待どおりに動作するようになりました。 検証が追加され、無効になった出荷モジュールの処理が試行できなくなりました。 以前は、Adobe Commerceには「`Type Error occurred when creating object: Magento\CompanyShipping\Model\Source\ShippingMethod, Too few arguments to function Magento\CompanyShipping\Model\Source\ShippingMethod::__construct(), 1 passed in /var/www/html/elmtup/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 2 expected`」というエラーが表示されていました。<!--- MC-43178-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) オンライン配送方法を無効にした後、会社の設定ページと会社の作成ページが期待どおりに動作するようになりました。 検証が追加され、無効になった出荷モジュールの処理が試行できなくなりました。 以前は、Adobe Commerceには「`Type Error occurred when creating object: Magento\CompanyShipping\Model\Source\ShippingMethod, Too few arguments to function Magento\CompanyShipping\Model\Source\ShippingMethod::__construct(), 1 passed in /var/www/html/elmtup/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121 and exactly 2 expected`」というエラーが表示されていました。<!--- MC-43178-->
 
-![ 修正された問題 ](../assets/fix.svg) 統合テストのメモリ消費が削減されました。これにより、テストのパフォーマンスが向上し、テスト完了に要する時間が短縮されます。<!--- AC-266-->
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 統合テストのメモリ消費が削減されました。これにより、テストのパフォーマンスが向上し、テスト完了に要する時間が短縮されます。<!--- AC-266-->
 
 ## B2B v1.2.0
 
 *2020 年 7 月 28 日*
 
-[!BADGE  サポート対象 ]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
+[!BADGE &#x200B; サポート対象 &#x200B;]{type=Informative tooltip="サポート"}Adobe Commerce 2.4.0 以降のバージョン
 
-![ 新規 ](../assets/new.svg)Adobe Commerce 2.4.0 がサポートされるようになりました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg)Adobe Commerce 2.4.0 がサポートされるようになりました。
 
-![ 新規 ](../assets/new.svg) ストアフロントの注文検索。[Divante](https://www.divante.com/) の Marek Mularczyk 氏とコミュニティメンバーの協力により感謝が追加されました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg) ストアフロントの注文検索。[Divante](https://www.divante.com/) の Marek Mularczyk 氏とコミュニティメンバーの協力により感謝が追加されました。
 
-![ 新規 ](../assets/new.svg) 発注が強化され、書き換えられます。 これらは、Adobe Commerceにデフォルトで含まれるようになりました。
+![&#x200B; 新規 &#x200B;](../assets/new.svg) 発注が強化され、書き換えられます。 これらは、Adobe Commerceにデフォルトで含まれるようになりました。
 
-![ 新規 ](../assets/new.svg) 発注承認ルールが実装されました。 これらのルールを使用すると、ユーザーは注文の購入ルールを作成して、発注書ワークフローを制御できます。
+![&#x200B; 新規 &#x200B;](../assets/new.svg) 発注承認ルールが実装されました。 これらのルールを使用すると、ユーザーは注文の購入ルールを作成して、発注書ワークフローを制御できます。
 
-![ 新規 ](../assets/new.svg) お客様としてログインがAdobe Commerceにデフォルトで含まれるようになりました。 この機能を使用すると、サイト従業員は、顧客としてログインして表示内容を確認することで、顧客を支援できます。
+![&#x200B; 新規 &#x200B;](../assets/new.svg) お客様としてログインがAdobe Commerceにデフォルトで含まれるようになりました。 この機能を使用すると、サイト従業員は、顧客としてログインして表示内容を確認することで、顧客を支援できます。
 
-![ 修正された問題 ](../assets/fix.svg)Elasticsearchを使用したレイヤーナビゲーションで、属性集計が正しく機能するようになりました
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)Elasticsearchを使用したレイヤーナビゲーションで、属性集計が正しく機能するようになりました
 
-![ 問題を修正 ](../assets/fix.svg) 特殊文字による注文の検索が正常に機能するようになりました。
+![&#x200B; 問題を修正 &#x200B;](../assets/fix.svg) 特殊文字による注文の検索が正常に機能するようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) 「**[!UICONTROL Clear All]**」ボタンをクリックすると、フィルターを折りたたむのではなく、すべてのフィルターが展開されるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 「**[!UICONTROL Clear All]**」ボタンをクリックすると、フィルターを折りたたむのではなく、すべてのフィルターが展開されるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) 製品 SKU/名前が注文履歴の検索フィルターの概要に含まれるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 製品 SKU/名前が注文履歴の検索フィルターの概要に含まれるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) 並べ替えインジケーターがマイ発注書グリッドに正しく表示されるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 並べ替えインジケーターがマイ発注書グリッドに正しく表示されるようになりました。
 
-![ 問題が修正されました ](../assets/fix.svg) 承認、キャンセル、拒否および発注書の各ボタンは 1 回だけクリックできるようになりました。 以前は、このボタンを複数回クリックすることができました。
+![&#x200B; 問題が修正されました &#x200B;](../assets/fix.svg) 承認、キャンセル、拒否および発注書の各ボタンは 1 回だけクリックできるようになりました。 以前は、このボタンを複数回クリックすることができました。
 
-![ 修正された問題 ](../assets/fix.svg) モバイルデバイスで、発注書の「承認」、「却下」、「キャンセル」および「検証」ボタンが正しくレンダリングされるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) モバイルデバイスで、発注書の「承認」、「却下」、「キャンセル」および「検証」ボタンが正しくレンダリングされるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) 以前は、有効期限切れの割引が適用された発注を承認すると、注文が全額に配置され、発注合計が更新されませんでした。 発注書合計が更新され、正しい合計が表示されるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 以前は、有効期限切れの割引が適用された発注を承認すると、注文が全額に配置され、発注合計が更新されませんでした。 発注書合計が更新され、正しい合計が表示されるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg)2.3.4 で導入された問題では、カスタム拡張属性が顧客アドレスから見積もりアドレスにコピーされません。 この問題は修正されました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)2.3.4 で導入された問題では、カスタム拡張属性が顧客アドレスから見積もりアドレスにコピーされません。 この問題は修正されました。
 
-![ 修正された問題 ](../assets/fix.svg)B2B がインストールされている場合、共有カタログにカテゴリを割り当てると、SQL エラーが表示されます。 この問題は修正されました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg)B2B がインストールされている場合、共有カタログにカテゴリを割り当てると、SQL エラーが表示されます。 この問題は修正されました。
 
-![ 修正された問題 ](../assets/fix.svg) 変数タイプの値が正しくないため、管理者は注文に設定可能な製品を追加できませんでした。 オプションのドロップダウンは表示されません。 この機能は正常に動作するようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 変数タイプの値が正しくないため、管理者は注文に設定可能な製品を追加できませんでした。 オプションのドロップダウンは表示されません。 この機能は正常に動作するようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) 以前、ログインしていないグループのカテゴリ権限を編集する際に、変更を保存するとエラーが発生していました。 この問題は修正されました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 以前、ログインしていないグループのカテゴリ権限を編集する際に、変更を保存するとエラーが発生していました。 この問題は修正されました。
 
-![ 修正された問題 ](../assets/fix.svg) 修正が追加され、ストア管理者が共有カタログにない注文に製品を追加できるようになりました。 以前は、カタログにない項目を追加すると、エラーメッセージが表示されていました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 修正が追加され、ストア管理者が共有カタログにない注文に製品を追加できるようになりました。 以前は、カタログにない項目を追加すると、エラーメッセージが表示されていました。
 
-![ 修正された問題 ](../assets/fix.svg)[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} 以前は、コマンド `php bin/magento indexer:set-dimensions-mode catalog_product_price website` を実行してから共有カタログを作成しようとすると、エラーが発生していました。 この問題は修正されました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} 以前は、コマンド `php bin/magento indexer:set-dimensions-mode catalog_product_price website` を実行してから共有カタログを作成しようとすると、エラーが発生していました。 この問題は修正されました。
 
-![ 問題を修正 ](../assets/fix.svg) 会社を追加し、デフォルト以外の web サイトに会社管理者を割り当てると、誤ったサイト ID が送信されてエラーが発生していました。 この問題は修正されました。
+![&#x200B; 問題を修正 &#x200B;](../assets/fix.svg) 会社を追加し、デフォルト以外の web サイトに会社管理者を割り当てると、誤ったサイト ID が送信されてエラーが発生していました。 この問題は修正されました。
 
-![ 修正された問題 ](../assets/fix.svg) 以前は、顧客が別の顧客グループに移動された後、_クイックオーダー_ を使用して注文に製品を追加すると、エラーで失敗していました。 この問題は修正されました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 以前は、顧客が別の顧客グループに移動された後、_クイックオーダー_ を使用して注文に製品を追加すると、エラーで失敗していました。 この問題は修正されました。
 
-![ 修正された問題 ](../assets/fix.svg) 以前は、B2B の引用で WebAPI を使用してチェックアウトしようとすると、誤った値が API に送信され、エラーが発生していました。 この問題は修正されました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 以前は、B2B の引用で WebAPI を使用してチェックアウトしようとすると、誤った値が API に送信され、エラーが発生していました。 この問題は修正されました。
 
-![ 問題を修正 ](../assets/fix.svg) 以前、API で会社を「アクティブ」に設定すると、エラーが発生していました。 この問題は修正されました。
+![&#x200B; 問題を修正 &#x200B;](../assets/fix.svg) 以前、API で会社を「アクティブ」に設定すると、エラーが発生していました。 この問題は修正されました。
 
-![ 問題を修正 ](../assets/fix.svg) 不要な `form` タグにより、提案された発送料金を変更した後に Enter キーを押すと、注文ページが自動的に更新されます。 この問題は修正されました。
+![&#x200B; 問題を修正 &#x200B;](../assets/fix.svg) 不要な `form` タグにより、提案された発送料金を変更した後に Enter キーを押すと、注文ページが自動的に更新されます。 この問題は修正されました。
 
-![ 問題を修正 ](../assets/fix.svg) 以前、カタログページに製品の表示制限を設定し、その制限が製品の合計数より少なかった場合に、エラーが発生していました。 その機能は期待どおりに動作するようになりました。
+![&#x200B; 問題を修正 &#x200B;](../assets/fix.svg) 以前、カタログページに製品の表示制限を設定し、その制限が製品の合計数より少なかった場合に、エラーが発生していました。 その機能は期待どおりに動作するようになりました。
 
-![ 問題の修正 ](../assets/fix.svg) 以前は、会社の管理者を変更すると、元の管理者アドレスが新しい管理者にコピーされ、2 つのアドレスが付与されていました。 現在は、正しいアドレスのみが追加されています。
+![&#x200B; 問題の修正 &#x200B;](../assets/fix.svg) 以前は、会社の管理者を変更すると、元の管理者アドレスが新しい管理者にコピーされ、2 つのアドレスが付与されていました。 現在は、正しいアドレスのみが追加されています。
 
-![ 問題を修正 ](../assets/fix.svg) 以前は、Git が「許可され、顧客に通知」に設定されている場合に、API を使用して引用項目を保存すると失敗していました。 この API 呼び出しが期待どおりに動作するようになりました。
+![&#x200B; 問題を修正 &#x200B;](../assets/fix.svg) 以前は、Git が「許可され、顧客に通知」に設定されている場合に、API を使用して引用項目を保存すると失敗していました。 この API 呼び出しが期待どおりに動作するようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) 固定製品税が見積りの詳細ページに表示されるようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 固定製品税が見積りの詳細ページに表示されるようになりました。
 
-![ 修正された問題 ](../assets/fix.svg) 以前は、自分の見積もりページの「コメント」タブで添付ファイルをクリックしても、ファイルをダウンロードできませんでした。 この動作は期待どおりに動作するようになりました。
+![&#x200B; 修正された問題 &#x200B;](../assets/fix.svg) 以前は、自分の見積もりページの「コメント」タブで添付ファイルをクリックしても、ファイルをダウンロードできませんでした。 この動作は期待どおりに動作するようになりました。
 
 ### 既知の問題
 
