@@ -48,5 +48,5 @@ Payment Card Industry （PCI）は、インターネット上でクレジット�
 
 ビジネスの拡大に伴い、年 1 回のコンプライアンスレポートの提出が必要になる場合があります。 PCI のレポート要件は加盟店レベルに比例して増加しますが、クレジットカードの取引を年間 20,000 件未満で処理する企業では免除されます。 詳しくは、[PCI セキュリティ標準審議会 ][2] の web サイトを参照してください。
 
-[1]: https://business.adobe.com/products/magento/pci-compliance.html
+[1]: https://business.adobe.com/jp/products/magento/pci-compliance.html
 [2]: https://www.pcisecuritystandards.org/index.php

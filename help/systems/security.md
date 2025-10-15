@@ -40,4 +40,4 @@ Adobe CommerceまたはMagento Open Sourceサイトが侵害されていると�
 
 1. **レポート**:Commerceに特定の脆弱性が見つかったと思われる場合は、[Adobeに関する問題を開く &#x200B;](https://hackerone.com/adobe?type=team) と、技術的な詳細を含めます。
 
-1. **アップグレード**: 24 時間 365 日のサポートによるさらなる安心のために、今すぐクラウドアーキテクチャで [Adobe Commerce](https://business.adobe.com/products/magento/cloud-delivery.html) へのアップグレードを計画してください。
+1. **アップグレード**: 24 時間 365 日のサポートによるさらなる安心のために、今すぐクラウドアーキテクチャで [Adobe Commerce](https://business.adobe.com/jp/products/magento/cloud-delivery.html) へのアップグレードを計画してください。

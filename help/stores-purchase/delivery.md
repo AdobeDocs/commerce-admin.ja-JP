@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Temando のシャットダウンにより、[!DNL Magento Shipping] のサポートは 2.4.0 で削除されました。Commerceの新しい出荷実装に関するステータス情報および推奨事項について詳しくは、[product information](https://business.adobe.com/products/magento/shipping.html){:target="_blank"} ページを参照してください。
+>Temando のシャットダウンにより、[!DNL Magento Shipping] のサポートは 2.4.0 で削除されました。Commerceの新しい出荷実装に関するステータス情報および推奨事項について詳しくは、[product information](https://business.adobe.com/jp/products/magento/shipping.html){:target="_blank"} ページを参照してください。
 
 ## 基本的な配信方法
 

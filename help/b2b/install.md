@@ -20,7 +20,7 @@ Adobe Commerce B2B 拡張機能は、サポートされてい `magento/extension
 
 ## 要件
 
-- [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html)、サポートされているすべてのバージョン
+- [Adobe Commerce](https://business.adobe.com/jp/products/magento/magento-commerce.html)、サポートされているすべてのバージョン
 - PHP 8.1、8.2、8.3 （B2B 1.5.0 が必要）
 - [!DNL Composer]
 
