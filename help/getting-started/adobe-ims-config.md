@@ -3,7 +3,7 @@ title: ID を使用したCommerce Admin Integration の設定
 description: Adobe Commerce管理者のユーザーアカウントのログインをAdobe IDと統合するには、次のオプション手順に従います。
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
 source-git-commit: a71f3ba94229c402421ee476c37cfcbfd88a26c7
 workflow-type: tm+mt
 source-wordcount: '817'
@@ -28,8 +28,8 @@ ht-degree: 0%
 
 この統合を設定する管理者には、モジュールのイネーブルメント時に次の資格情報が必要です。
 
-* 組織 ID （[Adobe Admin Console](https://adminconsole.adobe.com/) から取得）。24 文字以上にする必要があります。 認証済みユーザーは、この IMS 組織に属している必要があります。 組織 ID の検索について詳しくは、[Experience Cloudの組織 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html) を参照してください。
-* モジュールを有効にするには、Adobe Admin Consoleの組織レベルで 2FA を適用する必要があります。 [&#x200B; 認証設定 &#x200B;](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification) をオンにします。
+* 組織 ID （[Adobe Admin Console](https://adminconsole.adobe.com/) から取得）。24 文字以上にする必要があります。 認証済みユーザーは、この IMS 組織に属している必要があります。 組織 ID の検索について詳しくは、[Experience Cloudの組織 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja) を参照してください。
+* モジュールを有効にするには、Adobe Admin Consoleの組織レベルで 2FA を適用する必要があります。 [&#x200B; 認証設定 &#x200B;](https://helpx.adobe.com/jp/enterprise/using/authentication-settings.html#two-step-verification) をオンにします。
 * クライアント ID
 * クライアント秘密鍵
 * クライアント ID およびクライアント秘密鍵は、[Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials/) から API キーを取得した後に利用できます。
@@ -76,7 +76,7 @@ Commerce管理者ユーザーがログインするには、Adobe IDのアカウ�
 
 >[!TIP]
 >
->CSV ファイルからユーザー情報をアップロードすることで、複数のユーザーアカウントを作成できます。 [&#x200B; 複数のユーザーの管理 &#x200B;](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) を参照してください。
+>CSV ファイルからユーザー情報をアップロードすることで、複数のユーザーアカウントを作成できます。 [&#x200B; 複数のユーザーの管理 &#x200B;](https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html) を参照してください。
 
 1. [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) で、**[!UICONTROL Users]**/**[!UICONTROL Users]** に移動します。
 
@@ -109,4 +109,4 @@ Adobe Commerceは、イネーブルメントが成功したか失敗したかを
 
 ## ID とシングルサインオン
 
-Adobe ID、Enterprise ID、Federated IDなどの ID 設定オプション、およびAdobe アプリに安全にアクセスするためのシングルサインオン（SSO）を設定する手順については、[Enterprise Admin Console](https://helpx.adobe.com/enterprise/using/set-up-identity.html) ドキュメントの *ID とシングルサインオンの設定* を参照してください。
+Adobe ID、Enterprise ID、Federated IDなどの ID 設定オプション、およびAdobe アプリに安全にアクセスするためのシングルサインオン（SSO）を設定する手順については、[Enterprise Admin Console](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html) ドキュメントの *ID とシングルサインオンの設定* を参照してください。
