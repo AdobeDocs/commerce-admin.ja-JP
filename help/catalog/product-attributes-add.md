@@ -99,7 +99,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > この属性をライブサーチのファセットとして使用する場合は、ストア固有のラベルを指定する必要があります。 これがないと、属性名がファセット設定ページに正しく表示されない場合があります。 設定を更新するには、[&#x200B; ライブ検索ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) の _ライブ検索のファセットリストの編集オプション_ を使用して、ラベルを手動で編集します。
+   > この属性をライブサーチのファセットとして使用する場合は、ストア固有のラベルを指定する必要があります。 これがないと、属性名がファセット設定ページに正しく表示されない場合があります。 設定を更新するには、[&#x200B; ライブ検索ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) の _ライブ検索のファセットリストの編集オプション_ を使用して、ラベルを手動で編集します。
 
 ## 手順 5：ストアフロントプロパティの説明
 
