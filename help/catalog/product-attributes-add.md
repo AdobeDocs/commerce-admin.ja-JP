@@ -3,16 +3,16 @@ title: 製品への属性の追加
 description: カタログ内の製品に属性を追加する方法を説明します。
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
+source-git-commit: 45d69ccc1a5a6a7b8d072465c19829a76dde826d
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
 
 # 製品への属性の追加
 
-属性は主に [&#x200B; ストア &#x200B;](../stores-purchase/stores-menu.md) メニューから管理されますが、製品を操作しながら _その場で_ 新しい属性を追加することもできます。 既存の属性のリストから選択するか、属性を作成できます。 新しい属性が、製品のベースとなる [&#x200B; 属性セット &#x200B;](../catalog/attribute-sets.md) に追加されます。
+属性は主に [ ストア ](../stores-purchase/stores-menu.md) メニューから管理されますが、製品を操作しながら _その場で_ 新しい属性を追加することもできます。 既存の属性のリストから選択するか、属性を作成できます。 新しい属性が、製品のベースとなる [ 属性セット ](../catalog/attribute-sets.md) に追加されます。
 
 ## 手順 1：属性の追加
 
@@ -20,27 +20,27 @@ ht-degree: 0%
 
 1. 右上隅の「**[!UICONTROL Add Attribute]**」をクリックします。
 
-   ![&#x200B; デフォルトの属性が設定された新しい製品 &#x200B;](./assets/product-attribute-add.png){width="600" zoomable="yes"}
+   ![ デフォルトの属性が設定された新しい製品 ](./assets/product-attribute-add.png){width="600" zoomable="yes"}
 
-1. 製品に既存の属性を追加するには、[&#x200B; フィルターコントロール &#x200B;](../getting-started/admin-grid-controls.md) を使用してグリッド内の属性を検索し、次の手順を実行します。
+1. 製品に既存の属性を追加するには、[ フィルターコントロール ](../getting-started/admin-grid-controls.md) を使用してグリッド内の属性を検索し、次の手順を実行します。
 
    - 追加する各属性の最初の列のチェックボックスを選択します。
 
    - 「**[!UICONTROL Add Selected]**」をクリックします。
 
-   ![&#x200B; 属性を選択 &#x200B;](./assets/product-attribute-add-select.png){width="600" zoomable="yes"}
+   ![ 属性を選択 ](./assets/product-attribute-add-select.png){width="600" zoomable="yes"}
 
 1. 新しい属性を定義するには、「**[!UICONTROL Create New Attribute]**」をクリックして手順 2 の項目を完了します。
 
 ## 手順 2：基本的な属性プロパティの説明
 
-![&#x200B; 属性プロパティ &#x200B;](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
+![ 属性プロパティ ](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. 「_[!UICONTROL Attribute Properties]_」に、属性を識別する&#x200B;**[!UICONTROL Attribute Label]**&#x200B;を入力します。
+1. 「_[!UICONTROL Attribute Properties]_」に、属性を識別する&#x200B;**[!UICONTROL Attribute Label]**を入力します。
 
-1. データ入力に使用する [&#x200B; 入力コントロール &#x200B;](attributes-input-types.md) のタイプに **[!UICONTROL Catalog Input Type for Store Owner]** を設定します。
+1. データ入力に使用する **[!UICONTROL Catalog Input Type for Store Owner]** 入力コントロール [ のタイプに ](attributes-input-types.md) を設定します。
 
-   属性が [&#x200B; 設定可能な製品 &#x200B;](product-create-configurable.md) に使用されている場合は、「`Dropdown`」を選択します。 次に、**[!UICONTROL Required]** を `Yes` に設定します。
+   属性が [ 設定可能な製品 ](product-create-configurable.md) に使用されている場合は、「`Dropdown`」を選択します。 次に、**[!UICONTROL Required]** を `Yes` に設定します。
 
 1. `Dropdown` および `Multiple Select` の入力タイプの場合、次の操作を行います。
 
@@ -54,19 +54,19 @@ ht-degree: 0%
 
    - 「**[!UICONTROL Is Default]**」を選択すると、オプションがデフォルト値として使用されます。
 
-   ![&#x200B; 値 &#x200B;](./assets/product-attribute-add-values-colors.png){width="600" zoomable="yes"}
+   ![ 値 ](./assets/product-attribute-add-values-colors.png){width="600" zoomable="yes"}
 
 1. 製品を購入する前に顧客にオプションの選択を求める場合は、**[!UICONTROL Required]** を `Yes` に設定します。
 
 ## 手順 3：詳細プロパティの説明（オプション）
 
-![&#x200B; 詳細属性プロパティ &#x200B;](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
+![ 詳細属性プロパティ ](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
 1. 一意の **[!UICONTROL Attribute Code]** をスペースを含めずに小文字で入力します。
 
 1. **[!UICONTROL Scope]** を設定して、ストア階層内で属性を使用できる場所を示します。
 
-   属性が [&#x200B; 設定可能な製品 &#x200B;](product-create-configurable.md) に使用されている場合は、「`Global`」を選択します。
+   属性が [ 設定可能な製品 ](product-create-configurable.md) に使用されている場合は、「`Global`」を選択します。
 
 1. この属性がこの製品にのみ適用される場合は、**[!UICONTROL Unique Value]** を `Yes` に設定します。
 
@@ -81,27 +81,31 @@ ht-degree: 0%
    - `Letters`
    - `Letters (a-z, A-Z) or Numbers (0-9)`
 
-   ![&#x200B; 入力検証 &#x200B;](./assets/product-attribute-input-validation.png){width="500"}
+   ![ 入力検証 ](./assets/product-attribute-input-validation.png){width="500"}
 
 1. 製品グリッドの列として属性を含めたい場合は、**[!UICONTROL Add to Column Options]** を `Yes` に設定します。
 
-1. この列で _[!UICONTROL Products]_&#x200B;グリッドをフィルタリングできるようにする場合は、**[!UICONTROL Use in Filter Options]**&#x200B;を `Yes` に設定します。
+1. この列で _[!UICONTROL Products]_グリッドをフィルタリングできるようにする場合は、**[!UICONTROL Use in Filter Options]**を `Yes` に設定します。
 
 ## 手順 4：フィールドラベルの入力
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Manage titles]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Manage titles]**」セクションを展開します。
 
 1. フィールドのラベルとして使用する **[!UICONTROL Title]** を入力します。
 
    ストアが異なる言語で使用可能な場合は、各表示に翻訳されたタイトルを入力できます。
 
-   ![&#x200B; タイトルの管理 &#x200B;](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
+   ![ タイトルの管理 ](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   > この属性をライブサーチのファセットとして使用する場合は、ストア固有のラベルを指定する必要があります。 これがないと、属性名がファセット設定ページに正しく表示されない場合があります。 設定を更新するには、[ ライブ検索ガイド ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) の _ライブ検索のファセットリストの編集オプション_ を使用して、ラベルを手動で編集します。
 
 ## 手順 5：ストアフロントプロパティの説明
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Storefront Properties]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Storefront Properties]**」セクションを展開します。
 
-   ![&#x200B; ストアフロントのプロパティ &#x200B;](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
+   ![ ストアフロントのプロパティ ](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
 1. 属性を検索に使用できるようにするには、**[!UICONTROL Use in Search]** を `Yes` に設定します。
 
@@ -115,7 +119,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Use in Search]_&#x200B;設定が `No` に設定されている場合、_[!UICONTROL Use in Search Results Layered Navigation]_ 設定は表示されず、製品属性は [!UICONTROL Use in Layered Navigation] の設定値を持つ検索で使用されません。
+   >_[!UICONTROL Use in Search]_設定が `No` に設定されている場合、_[!UICONTROL Use in Search Results Layered Navigation]_ 設定は表示されず、製品属性は [!UICONTROL Use in Layered Navigation] の設定値を持つ検索で使用されません。
 
 1. 検索結果ページの階層型ナビゲーションで属性を使用するには、「**[!UICONTROL Use in Search Results Layered Navigation]**」を「`Yes`」に設定し、「**[!UICONTROL Position]**」フィールドに数値を入力します。
 
@@ -123,13 +127,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Position]_&#x200B;フィールドはデフォルトで淡色表示され、この設定を変更する前に属性を保存する必要があります。
+   >_[!UICONTROL Position]_フィールドはデフォルトで淡色表示され、この設定を変更する前に属性を保存する必要があります。
 
 1. 価格ルールで属性を使用するには、**[!UICONTROL Use for Promo Rule Conditions]** を `Yes` に設定します。
 
 1. テキストをHTMLで書式設定するには、**[!UICONTROL Allow HTML Tags on Storefront]** を `Yes` に設定します。
 
-   この設定により、フィールドの編集時に WYSIWYG エディターを使用できるようになります。
+   この設定により、フィールドの編集時にWYSIWYG エディターを使用できるようになります。
 
 1. 製品ページに属性を含めるには、**[!UICONTROL Visible on Catalog Pages on Storefront]** を `Yes` に設定します。
 
