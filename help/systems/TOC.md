@@ -5,10 +5,10 @@ breadcrumb-title: 管理システムガイド
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 9c200a46a30d51b4844fff24d864b629b8400f33
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 3%
+source-wordcount: '188'
+ht-degree: 4%
 
 ---
 
@@ -35,26 +35,28 @@ ht-degree: 3%
 - データ転送 {#data-transfer}
    - [概要](data-transfer.md)
    - [CSV ファイル](data-csv.md)
-   - Import {#import}
+   - インポート {#import}
       - [読み込みプロセス](data-import.md)
       - [製品画像](data-import-product-images.md)
    - [Export](data-export.md)
    - [製品データ属性リファレンス](data-attributes-product.md)
    - [顧客データ属性リファレンス](data-attributes-customer.md)
    - [税率データの更新](data-transfer-tax-rates.md)
-   - の例{#examples}
+   - 例 {#examples}
       - [バンドル製品の読み込み](data-transfer-bundle-products.md)
       - [設定可能な製品のインポート](data-transfer-configurable-products.md)
       - [ダウンロード可能な製品のインポート](data-transfer-downloadable-products.md)
       - [階層価格データのインポート](data-import-price-tier.md)
    - [スケジュールされた読み込みと書き出し](data-scheduled-import-export.md)
-   - [データ管理ダッシュボード](data-dashboard.md)
+   - Commerce サービスのデータ同期 {#data-sync}
+      - [データ管理ダッシュボード](data-dashboard.md)
+      - [データフィード同期ステータス](data-feed-sync-status.md)
 - アクションログ {#action-logs}
    - [概要](action-log.md)
    - [アクションログレポート](action-log-report.md)
    - [ログアーカイブ](action-log-archive.md)
    - [一括アクション](action-log-bulk-actions.md)
-- システム ツールと設定 {#tools}
+- システムツールと設定 {#tools}
    - [キャッシュ管理](cache-management.md)
    - [インデックス管理](index-management.md)
    - [システムバックアップ](backups.md)
@@ -67,7 +69,7 @@ ht-degree: 3%
    - [暗号化キー](encryption-key.md)
    - [セキュリティスキャン](security-scan.md)
    - [Admin Security の設定](security-admin.md)
-   - CAPTCHA{#captcha}
+   - CAPTCHA {#captcha}
       - [標準 CAPTCHA](security-captcha.md)
       - [Google reCAPTCHA](security-google-recaptcha.md)
    - 2 要素認証（2FA） {#2fa}
@@ -77,6 +79,6 @@ ht-degree: 3%
    - [セッション管理](security-session-management.md)
    - [ブラウザー機能の検出](security-browser-capabilities-detection.md)
    - [セキュリティ問題のレポート](security-issue-reporting.md)
-- [&#x200B; 管理者ユーザーガイドに戻る &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
+- [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 
