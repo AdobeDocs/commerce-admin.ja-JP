@@ -23,7 +23,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>接続されたCommerce サービス（ライブサーチ、Product Recommendations、カタログサービス）に公開するために、Adobe CommerceからCommerce SaaS データベースへのデータエクスポートフィードの同期を監視する <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status"> データフィード同期ステータス拡張機能 </a> のドキュメントを追加しました。 データ同期ステータスページは、Commerce Admin のシステム メニューから使用できます。</p>
+      <td><p>接続されたCommerce サービス（ライブサーチ、Product Recommendations、カタログサービス）に公開するために、Adobe CommerceからCommerce SaaS データベースへのデータエクスポートフィードの同期を監視する <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status"> データフィード同期ステータス拡張機能 </a> のドキュメントを追加しました。 データ同期ステータスページは、Commerce Admin のシステム メニューから使用できます。</p>
 </td>
       <td>
         新しいトピック
@@ -45,7 +45,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>2025 年 10 月の B2B セキュリティパッチ <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes"> リリースノート </a> を追加しました。</p>
+      <td><p>2025 年 10 月の B2B セキュリティパッチ <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/release-notes"> リリースノート </a> を追加しました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -67,7 +67,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Serviceの管理で <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes"> カスタム注文属性 </a> の表示および編集方法に関する情報を追加しました。</p>
+      <td><p>Adobe Commerce as a Cloud Serviceの管理で <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes"> カスタム注文属性 </a> の表示および編集方法に関する情報を追加しました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -89,7 +89,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements"> 設定可能な製品 </a> トピックの「製品バリエーション属性要件」テーブルから、「プロモーションルール条件に使用」属性を削除しました。</p>
+      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements"> 設定可能な製品 </a> トピックの「製品バリエーション属性要件」テーブルから、「プロモーションルール条件に使用」属性を削除しました。</p>
 </td>
       <td>
         技術
@@ -97,7 +97,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/7035acbe2b974ab8bdb4904e769856f0646211ea">コミット</a></td>
     </tr>
     <tr>
-      <td><p>各タイプの <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segment-create"> 顧客セグメント </a> 条件の説明を追加しました。</p>
+      <td><p>各タイプの <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/segments/customer-segment-create"> 顧客セグメント </a> 条件の説明を追加しました。</p>
 </td>
       <td>
         技術
@@ -119,7 +119,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>非推奨（廃止予定）のNew Relic<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting"> レポート </a> 機能ドキュメントを削除しました。</p>
+      <td><p>非推奨（廃止予定）のNew Relic<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/start/reporting/new-relic-reporting"> レポート </a> 機能ドキュメントを削除しました。</p>
 </td>
       <td>
         メジャーアップデート
