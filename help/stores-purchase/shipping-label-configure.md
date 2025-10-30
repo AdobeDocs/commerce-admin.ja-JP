@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 手順 1：製造国を確認する
 
-USPS および FedEx により国際出荷されるすべての製品には製造国が必要です。 更新が必要な製品が多数ある場合は、更新を [ インポート ](../systems/data-import.md) するか、在庫グリッドを使用して複数のレコードを更新できます。
+USPS および FedEx により国際出荷されるすべての製品には製造国が必要です。 更新が必要な製品が多数ある場合は、更新を [&#x200B; インポート &#x200B;](../systems/data-import.md) するか、在庫グリッドを使用して複数のレコードを更新できます。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
@@ -39,7 +39,7 @@ USPS および FedEx により国際出荷されるすべての製品には製�
 
 1. 必要に応じて **製造国** を更新します。
 
-   ![ 製造国 ](./assets/product-country-of-manufacture.png){width="700" zoomable="yes"}
+   ![&#x200B; 製造国 &#x200B;](./assets/product-country-of-manufacture.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -59,20 +59,20 @@ USPS および FedEx により国際出荷されるすべての製品には製�
 
 ## 手順 2 ストア情報の確認
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Shipping Settings]**」を選択します。
 
-1. ![ のセクションの ](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Origin]** を展開し、次のフィールドが入力されていることを確認します。
+1. ![&#x200B; のセクションの &#x200B;](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Origin]** を展開し、次のフィールドが入力されていることを確認します。
 
    - **[!UICONTROL Street Address]** – 出荷元の住所。 例えば、会社や倉庫の場所などです。 このフィールドは出荷ラベルに必須です。
    - **[!UICONTROL Street Address Line 2]** – 床や入り口など、その他の住所情報。 このフィールドの使用をお勧めします。
 
-   ![ 接触チャネル ](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
+   ![&#x200B; 接触チャネル &#x200B;](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
 
 1. 左パネルの「_売上_」セクションで、「**[!UICONTROL Delivery Methods]**」を選択します。
 
-1. ![ のセクションの ](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL USPS]** を展開し、次のフィールドが入力されていることを確認します。
+1. ![&#x200B; のセクションの &#x200B;](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL USPS]** を展開し、次のフィールドが入力されていることを確認します。
 
    - **[!UICONTROL Secure Gateway URL]** - システムが自動的にゲートウェイ URL を入力します。
    - **[!UICONTROL Password]** - パスワードは USPS から提供され、Web サービスを通じてユーザーがシステムにアクセスできるようにします。
@@ -88,7 +88,7 @@ USPS および FedEx により国際出荷されるすべての製品には製�
 
 1. 左側のパネルで「**[!UICONTROL General]**」を展開し、その下の「**[!UICONTROL General]**」を選択します。
 
-1. 「![ 拡張セレクター ](../assets/icon-display-expand.png)」 **[!UICONTROL Store Information]** セクションを展開し、次のフィールドが入力されていることを確認します。
+1. 「![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png)」 **[!UICONTROL Store Information]** セクションを展開し、次のフィールドが入力されていることを確認します。
 
    - **[!UICONTROL Store Name]** - ストアまたはストア表示の名前。
    - **[!UICONTROL Store Contact Telephone]** – 店舗または店舗表示の主要連絡先の電話番号。
@@ -100,6 +100,6 @@ USPS および FedEx により国際出荷されるすべての製品には製�
 
    情報がない場合、ラベルを印刷しようとするとエラーが表示されます。
 
-   ![ 店舗情報 ](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
+   ![&#x200B; 店舗情報 &#x200B;](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save Config]**」をクリックします。
