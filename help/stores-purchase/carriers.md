@@ -3,9 +3,9 @@ title: 配送業者の設定
 description: ストアで利用可能な商用配送アカウントのサポートについて説明します。
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Commerceのインストールに関するその他の配送サービスについては [&#128279;](../getting-started/commerce-marketplace.md)0&rbrace;Commerce Marketplace&rbrace; を参照してください。
+>Commerceのインストールに関するその他の配送サービスについては、[Commerce Marketplace](../getting-started/commerce-marketplace.md) を参照してください。
 
 顧客に選択した配送業者を提供する前に、次の手順を完了する必要があります。
 
-- [&#x200B; 配送設定 &#x200B;](shipping-settings.md) を設定して、ストアの配送元を確立します。
+- [ 配送設定 ](shipping-settings.md) を設定して、ストアの配送元を確立します。
 
 - 提供する各通信事業者サービスの設定を構成します。
 
@@ -42,3 +42,20 @@ ht-degree: 0%
 1. 配送業者の配送先口座を開きます。
 
 1. アカウント番号またはユーザー ID と、システムへのゲートウェイ URL をストアの設定に入力します。
+
+### USPS Web Tools API の廃止
+
+Adobe Commerce バージョン 2.4.6、2.4.7、および 2.4.8 では、従来の Web ツール API を使用して、USPS との標準の出荷統合を行っています。 USPS は、従来の Web Tools API に代わる、REST ベースのプラットフォームである USPS API を導入しました。
+
+2026 年 1 月 25 日（PT）に、USPS は従来の Web Tools API を廃止します。 この日付を過ぎると、web ツール API へのすべてのリクエストが失敗します。
+
+USPS の配送サービスが中断されないようにするには、2026 年 1 月 25 日（PT）より前に次の操作を行ってください。
+
+- [USPS REST API 移行品質パッチ ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html) （AC-1520）を適用して、USPS REST API との統合のサポートを追加します。
+
+- REST API を使用するようにCommerce USPS 設定を更新します。
+
+   - [USPS 配送業者の設定](usps.md)
+
+   - [出荷ラベルの構成](shipping-label-create.md)
+

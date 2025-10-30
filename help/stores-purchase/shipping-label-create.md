@@ -3,9 +3,9 @@ title: 出荷ラベルおよびパッケージの作成
 description: 注文で品目をパッケージ化する方法と、出荷ラベルを作成する方法について説明します。
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: cf57e136c7c3b6e8ba83afbbd539f4037c0ca486
 workflow-type: tm+mt
-source-wordcount: '1889'
+source-wordcount: '1944'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 ## 手順 2：各通信事業者の設定の更新
 
-1. [&#x200B; ストア情報 &#x200B;](../getting-started/store-details.md#store-information) が完成していることを確認します。
+1. [ ストア情報 ](../getting-started/store-details.md#store-information) が完成していることを確認します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Shipping Settings]**」を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」 **[!UICONTROL Origin]** クションを展開し、**[!UICONTROL Shipping Origin Address]** を設定します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」 **[!UICONTROL Origin]** クションを展開し、**[!UICONTROL Shipping Origin Address]** を設定します。
 
 1. ラベル印刷用に有効にする通信事業者アカウントごとに、以下の手順に従います。
 
@@ -47,7 +47,7 @@ United Parcel Service は、国内および海外の両方で出荷されます�
 
 1. 左パネルの「_[!UICONTROL Sales]_」セクションで、「**[!UICONTROL Delivery Methods]**」を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL UPS]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL UPS]**」セクションを展開します。
 
 1. UPS **[!UICONTROL Shipper Number]** が正しいことを確認します。
 
@@ -59,11 +59,32 @@ United Parcel Service は、国内および海外の両方で出荷されます�
 
 [!DNL United States Postal Service] 船は国内外を問わず運航しています。
 
-1. **[!UICONTROL Delivery Methods]** 設定で続行して、「**[!UICONTROL USPS]**」セクションの ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
+{{$include /help/_includes/usps-api-type-configuration-note.md}}
+
+1. **[!UICONTROL Delivery Methods]** 設定で続行して、「![」セクションの ](../assets/icon-display-expand.png) 拡張セレクター **[!UICONTROL USPS]** を展開します。
+
+1. **[!UICONTROL USPS Type]** を `USPS Rest APIs` または `USPS Web Tools API` として選択します。
 
 1. **[!UICONTROL Secure Gateway URL]** が正しいことを確認します。
 
 1. USPS から提供された **[!UICONTROL Password]** を入力してください。
+
+1. 選択した **[!UICONTROL USPS Type]** に基づいて、次の設定が完了していることを確認します。
+
+   USPS Web Tools API を使用する場合：
+   - ユーザー Id
+   - パスワード
+
+   USPS REST API を使用している場合：
+   - 消費者キー
+   - 消費者秘密鍵
+   - 価格オプション
+   - アカウントタイプ
+   - アカウント番号
+   - 顧客登録 ID （CRID）
+   - メーラー識別子（MID）
+   - マニフェスト MID
+   - AES/ITN
 
 1. **[!UICONTROL Size]** を `Large` に設定し、次のディメンションの値を入力します。
 
@@ -78,7 +99,7 @@ United Parcel Service は、国内および海外の両方で出荷されます�
 
 国内外の FedEx 船。 米国以外の店舗では、国際配送にのみ FedEx ラベルを作成できます。
 
-1. **[!UICONTROL Delivery Methods]** 設定で続行して、「**[!UICONTROL FedEx]**」セクションの ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
+1. **[!UICONTROL Delivery Methods]** 設定で続行して、「![」セクションの ](../assets/icon-display-expand.png) 拡張セレクター **[!UICONTROL FedEx]** を展開します。
 
 1. 次の FedEx 認証情報が正しいことを確認します。
 
@@ -92,7 +113,7 @@ United Parcel Service は、国内および海外の両方で出荷されます�
 
 DHL は国際配送サービスを提供しています。
 
-1. **[!UICONTROL Delivery Methods]** 設定で続行して、「**[!UICONTROL DHL]**」セクションの ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
+1. **[!UICONTROL Delivery Methods]** 設定で続行して、「![」セクションの ](../assets/icon-display-expand.png) 拡張セレクター **[!UICONTROL DHL]** を展開します。
 
 1. **[!UICONTROL Gateway URL]** が正しいことを確認します。
 
@@ -124,7 +145,7 @@ DHL は国際配送サービスを提供しています。
 
 1. パッケージ内の製品を追加または更新：
 
-   - 受注からパッケージに製品を追加するには、「**[!UICONTROL Add Products]**」をクリックします。 _[!UICONTROL Quantity]_&#x200B;の列には、パッケージで使用できる製品の最大数が表示されます。
+   - 受注からパッケージに製品を追加するには、「**[!UICONTROL Add Products]**」をクリックします。 _[!UICONTROL Quantity]_の列には、パッケージで使用できる製品の最大数が表示されます。
 
    - パッケージに追加する各製品のチェックボックスを選択し、それぞれの **[!UICONTROL Quantity]** を入力します。 次に、「**[!UICONTROL Add Selected Product(s) to Package]**」をクリックします。
 
@@ -144,7 +165,7 @@ DHL は国際配送サービスを提供しています。
 
 ### 方法 2：既存の出荷のラベルの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**に移動します。
 
 1. グリッドで注文を見つけて、配送フォームを開きます。
 
@@ -156,7 +177,7 @@ DHL は国際配送サービスを提供しています。
 
 ## 手順 4：ラベルを印刷する
 
-配送ラベルはPDF形式で生成され、管理者が印刷できます。 各ラベルには、注文番号とパッケージ番号が含まれます。
+配送ラベルはPDF形式で生成され、管理者から印刷できます。 各ラベルには、注文番号とパッケージ番号が含まれます。
 
 >[!NOTE]
 >
@@ -170,9 +191,9 @@ DHL は国際配送サービスを提供しています。
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]** - グリッドで出荷を検索し、レコードを開きます。
 
-1. PDFファイルをダウンロードするには、フォームの「_[!UICONTROL Shipping and Tracking]_」セクションに移動し、「**[!UICONTROL Print Shipping Label]**」をクリックします。
+1. PDF ファイルをダウンロードするには、フォームの「_[!UICONTROL Shipping and Tracking]_」セクションに移動し、「**[!UICONTROL Print Shipping Label]**」をクリックします。
 
-   お使いのブラウザの設定に応じて、PDFファイルから直接ラベルを表示して印刷することができます。
+   お使いのブラウザーの設定に応じて、配送ラベルはPDF ファイルから直接表示および印刷できます。
 
    「_[!UICONTROL Print Shipping Label]_」ボタンは、運送業者が出荷のラベルを生成した後にのみ表示されます。 ボタンが見つからない場合は、「**[!UICONTROL Create Shipping Label]**」をクリックします。 このボタンは、Commerceが通信事業者からラベルを受け取った後に表示されます。
 
@@ -215,7 +236,7 @@ DHL は国際配送サービスを提供しています。
 
    - 製品と数量を指定します。
 
-     _[!UICONTROL Qty]_&#x200B;の列には、追加できる最大数量が表示されます。 1 つ目のパッケージの場合、この数値は出荷される製品の合計数量です。
+     _[!UICONTROL Qty]_の列には、追加できる最大数量が表示されます。 1 つ目のパッケージの場合、この数値は出荷される製品の合計数量です。
 
    - 製品をパッケージに追加するには、[**[!UICONTROL Add Selected Product(s) to Package]**] をクリックします。
 
@@ -255,7 +276,7 @@ DHL は国際配送サービスを提供しています。
 
 | フィールド | 説明 |
 |--- |--- |
-| [!UICONTROL Type] | パッケージのタイプを指定します。 定義済みの値の 1 つを選択します。 使用可能なパッケージタイプは、配送業者ごとに異なります。 パッケージを作成ポップアップウィンドウが開くと、配送業者のデフォルトのパッケージが「タイプ」フィールドに表示されます。 配送業者によって設計されていないパッケージを選択する場合は、パッケージのサイズを入力する必要があります。 DHL、FedEx および UPS 出荷用に作成された出荷ラベルの場合、「商品タイプ」フィールドは「`Merchandise`」に設定されます。 USPS の場合、このフィールドには、「_[!UICONTROL Create Packages]_」ウィンドウの「_ 目次 _」フィールドの値が反映されます。 |
+| [!UICONTROL Type] | パッケージのタイプを指定します。 定義済みの値の 1 つを選択します。 使用可能なパッケージタイプは、配送業者ごとに異なります。 パッケージを作成ポップアップウィンドウが開くと、配送業者のデフォルトのパッケージが「タイプ」フィールドに表示されます。 配送業者によって設計されていないパッケージを選択する場合は、パッケージのサイズを入力する必要があります。 DHL、FedEx および UPS 出荷用に作成された出荷ラベルの場合、「商品タイプ」フィールドは「`Merchandise`」に設定されます。 USPS の場合、このフィールドには、「_」ウィンドウの「_ 目次 _[!UICONTROL Create Packages]_」フィールドの値が反映されます。 |
 | [!UICONTROL Total Weight] | パッケージの合計重量。 このフィールドには、パッケージ内の製品の合計重量が事前に入力されています。 測定単位は、ポンドまたはキログラムに設定できます。 |
 | [!UICONTROL Length] | パッケージの長さ、整数および浮動小数点数。 カスタムパッケージタイプを使用すると、このフィールドが有効になります。 単位はインチまたはセンチメートルに設定できます。 |
 | [!UICONTROL Width] | パッケージの幅、整数、浮動小数点数。 カスタムパッケージタイプを使用すると、このフィールドが有効になります。 計測単位は、[ 高さ ] フィールドの隣にあるドロップダウン メニューを使用して指定できます。インチとセンチメートルの間で選択します。 |
