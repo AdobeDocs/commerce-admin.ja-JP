@@ -38,5 +38,5 @@ ht-degree: 0%
 
 画像とビデオの問題のトラブルシューティングについて詳しくは、Commerce サポートナレッジベースの次の記事を参照してください。
 
-- [&#x200B; 製品編集画像の役割にもかかわらず、製品画像が表示されない &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
-- [&#x200B; デプロイメント後に画像を保存が表示されない &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)
+- [&#x200B; 製品編集画像の役割にもかかわらず、製品画像が表示されない &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html?lang=ja)
+- [&#x200B; デプロイメント後に画像を保存が表示されない &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=ja)
