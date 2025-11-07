@@ -4,10 +4,10 @@ user-guide-description: ' [!DNL Inventory Management]  機能を使用して、�
 breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: b9a2bf31efd5ed04098a1e24ed4d779ba74cb1b9
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 5%
+source-wordcount: '132'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 5%
    - [Sourceの品揃えと予約](selection-reservations.md)
    - [注文と予約のステータス](order-status.md)
    - [製品タイプ](product-types.md)
-- の基本を学ぶ{#get-started}
+- 基本を学ぶ {#get-started}
    - [Commerce アップグレード](migrate.md)
    - [インストールとアップデート](install-update.md)
    - [マーチャントソーシング](merchant-sourcing.md)
@@ -42,12 +42,12 @@ ht-degree: 5%
    - [概要](sources-manage.md)
    - [ソースを追加](sources-add.md)
    - [ソースを無効にする](sources-disable.md)
-- 在庫 の管理 {#stocks}
+- 在庫の管理 {#stocks}
    - [概要](stocks-manage.md)
    - [在庫を追加](stocks-add.md)
    - [在庫のソースの優先順位付け](stocks-prioritize-sources.md)
    - [在庫の削除](stocks-delete.md)
-- 在庫数量 管理 {#quantities}
+- 在庫数量の管理 {#quantities}
    - [概要](quantities-manage.md)
    - [製品ごとのソースの割り当て](sources-assign-per-product.md)
    - [製品ごとの数量の割り当て](quantities-assign-per-product.md)
@@ -58,5 +58,3 @@ ht-degree: 5%
    - [概要](shipments.md)
    - [出荷の作成](shipments-create.md)
 - [CLI リファレンス](cli.md)
-- [&#x200B; 管理者ユーザーガイドに戻る &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
-

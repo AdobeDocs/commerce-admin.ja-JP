@@ -4,9 +4,9 @@ user-guide-description: Adobe CommerceとMagento Open Sourceには、売り上�
 breadcrumb-title: マーチャンダイジングとプロモーション
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
+source-git-commit: 93a564fd06089fbc6ca8b42a06718fed05655ef4
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '259'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 1%
       - [メールのリマインダーの作成](email-reminder-rules-create.md)
 - 検索エンジンの最適化 {#seo}
    - [SEO の概要とベストプラクティス](seo-overview.md)
-   - [メタデータ](meta-data.md)
+   - [Meta データ](meta-data.md)
    - [サイトマップ](sitemap-xml.md)
    - URL の書き換え {#url-rewrites}
       - [概要と設定](url-rewrite.md)
@@ -86,5 +86,3 @@ ht-degree: 1%
    - [Google Analytics](google-analytics.md)
    - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
-- [&#x200B; 管理者ユーザーガイドに戻る &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
-

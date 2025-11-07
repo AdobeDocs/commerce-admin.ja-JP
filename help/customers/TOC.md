@@ -2,10 +2,10 @@
 user-guide-title: 顧客管理ガイド
 breadcrumb-title: 顧客管理
 feature: Customers
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: b58e5e2dc660b58be694bd7896d8596e9ef48c04
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 2%
+source-wordcount: '122'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 2%
       + [ユーザーのサインイン](customer-sign-in.md)
       + [パスワードのリセット](password-reset.md)
    + [個人アカウントの作成](account-create.md)
-   + アカウント管理 {#manage}
+   + アカウントの管理 {#manage}
       + [顧客アカウント](manage-account.md)
       + [顧客プロファイルの更新](update-account.md)
       + [買い物客への支援の提供](login-as-customer.md)
@@ -37,7 +37,7 @@ ht-degree: 2%
       + [属性プロパティ](attribute-properties.md)
       + [アドレス属性](address-attributes.md)
       + [アドレステンプレート](address-templates.md)
-   + 店舗クレジット {#store-credit}
+   + ストアクレジット {#store-credit}
       + [ストアクレジットワークフロー](store-credit.md)
       + [ストアクレジットの設定](credit-configure.md)
       + [店舗クレジットの適用](store-credit-using.md)
@@ -55,5 +55,4 @@ ht-degree: 2%
    + [顧客セグメントの作成および削除](customer-segment-create.md)
    + [価格ルールの顧客セグメント](customer-segment-price-rule.md)
    + [顧客セグメントレポート](customer-segment-reports.md)
-+ [&#x200B; 管理者ユーザーガイドに戻る &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
 

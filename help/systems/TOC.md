@@ -5,9 +5,9 @@ breadcrumb-title: 管理システムガイド
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 9c200a46a30d51b4844fff24d864b629b8400f33
+source-git-commit: cfe92b643c0365256aa6077f3237b61e6aad9dd8
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '182'
 ht-degree: 4%
 
 ---
@@ -79,6 +79,6 @@ ht-degree: 4%
    - [セッション管理](security-session-management.md)
    - [ブラウザー機能の検出](security-browser-capabilities-detection.md)
    - [セキュリティ問題のレポート](security-issue-reporting.md)
-- [&#x200B; 管理者ユーザーガイドに戻る &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
+
 
 

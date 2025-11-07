@@ -5,9 +5,9 @@ breadcrumb-title: 設定リファレンス
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
+source-git-commit: 2e8662ac7bc0b372a74d071f68355efdad96006e
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '153'
 ht-degree: 1%
 
 ---
@@ -83,5 +83,4 @@ ht-degree: 1%
    - [Admin](./advanced/admin.md)
    - [システム](./advanced/system.md)
    - [開発者](./advanced/developer.md)
-- [&#x200B; 管理者ユーザーガイドに戻る &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
 

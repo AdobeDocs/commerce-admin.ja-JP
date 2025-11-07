@@ -1,14 +1,14 @@
 ---
 user-guide-title: '[!DNL Page Builder] ユーザーガイド'
-user-guide-description: ' [!DNL Page Builder]  機能を使用して、視覚的なストーリーテリングを強化するカスタムレイアウトでコンテンツに富んだページを作成し、顧客エンゲージメントとロイヤルティを高める方法を説明します。'
+user-guide-description: ' [!DNL Page Builder]  機能を使用して、ビジュアルstorytellingを強化するカスタムレイアウトでコンテンツに富んだページを作成し、顧客エンゲージメントとロイヤルティを高める方法を説明します。'
 breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: 516b605ba357f093bdd1cf1e92df18202d16a800
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: d36acfb2c87af08c3d4a711a161183d76fcba312
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '92'
 ht-degree: 6%
 
 ---
@@ -47,5 +47,3 @@ ht-degree: 6%
    - [製品](products.md)
    - [製品レコメンデーション](recommendations.md)
 - [テンプレート](templates.md)
-- [&#x200B; 管理者ユーザーガイドに戻る &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
-
