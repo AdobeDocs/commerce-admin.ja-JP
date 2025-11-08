@@ -112,7 +112,7 @@ ht-degree: 0%
    > **[!UICONTROL Delete]** が表示されない場合は、**[!UICONTROL Share Name]** に命名パターン `Cloud Shared Access from MAG0XYZ` が含まれているかどうかを確認します。 アカウントに [&#x200B; 命名パターンがあり、削除できない &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users) 場合、共有アクセスが [Commerce アカウントから直接作成されるのではなく、API によって作成されたた &#x200B;](https://account.magento.com/) です。
    > 
    > 削除できない場合は、アカウント所有者に共有アクセス・アカウントを変更してもらい、「Grant Account Permissions （アカウント権限の付与）」で各項目のチェックを外します。 その更新後、ユーザーはアカウントリソースにアクセスできなくなります。
-   > ![&#x200B; 画像 &#x200B;](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
+   > ![&#x200B; 画像 &#x200B;](https://git.corp.adobe.com/AdobeDocs/commerce-admin.ja-JP/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
    > さらに、メール通知を受信しないように、ユーザーがプロジェクトから削除されていることを確認してください。[&#x200B; 以前のチームメンバーには、Adobe Commerce Cloud Notification のメールが届きます &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
