@@ -49,7 +49,7 @@ Adobe Commerceでは、商品、カテゴリ、ページの URL キーを変更�
 
 URL の書き換えの管理については、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410126?captions=jpn&quality=12&learn=on)
 
 ## URL 書き換えの作成
 
