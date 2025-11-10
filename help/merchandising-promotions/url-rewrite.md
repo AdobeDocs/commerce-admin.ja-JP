@@ -3,10 +3,10 @@ title: URL の書き換え
 description: URL の書き換えと、Commerce URL 書き換えツールを使用した、商品、カテゴリまたはCMSページに関連付けられている URL の変更について説明します。
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 2f2db4926ff92adfa27692eeca872c1765fd31d6
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -15,90 +15,57 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce as a Cloud Serviceについては、Commerce ストアフロントドキュメントの [SEO ガイドライン &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=ja) を参照してください
+>Adobe Commerce as a Cloud Serviceについては、Commerce ストアフロントドキュメントの [SEO ガイドライン ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) を参照してください
 
-URL 書き換えツールを使用すると、商品、カテゴリまたはCMSページに関連付けられている URL を変更できます。 書き換えが有効になると、前の URL を指すリンクは新しいアドレスにリダイレクトされます。
+URL リライトツールを使用すると、商品、カテゴリまたはCMSページに関連付けられている URL を変更できます。 URL の書き換えを行うと、Commerceによって永続的なリダイレクト（301）が自動的に作成され、古い URL を指すすべてのリンクが新しいアドレスにリダイレクトされます。
 
 >[!NOTE]
 >
->複数またはすべての製品の URL リライトを同時に更新するには、[&#x200B; 複数の URL リライト &#x200B;](url-rewrite-product.md#multiple-url-rewrites) を参照してください。
+>複数またはすべての製品の URL リライトを同時に更新するには、[ 複数の URL リライト ](url-rewrite-product.md#multiple-url-rewrites) を参照してください。
 
-_rewrite_ および _redirect_ という用語は同じ意味で使用されることが多いですが、意味するプロセスが多少異なります。 URL の書き換えにより、ブラウザーでの URL の表示方法が変更されます。 URL リダイレクトは、サーバーに保存された URL を更新します。 URL リダイレクトは、一時的または永続的に設定できます。 製品、カテゴリまたはページの URL キーを簡単に変更し、既存のリンクを保持できるように、ストアでは URL の書き換えとリダイレクトを使用しています。
+>[!BEGINSHADEBOX  「書き換えとリダイレクトについて」 ]
 
-デフォルトでは [&#x200B; 自動 URL リダイレクト &#x200B;](url-redirect-product-automatic.md) がストアに対して有効になっており、各製品の「URL キー」フィールドで **古い URL の永続的なリダイレクトを作成** チェックボックスが選択されています。
+多くの場合、_rewrite_ および _redirect_ という用語は同じ意味で使用されますが、演算は異なります。
+
+* **URL 書き換え** - ブラウザーのアドレスバーに表示される内容を変更せずに、ある URL を別の URL に内部でマッピングするサーバーサイドプロセス。 訪問者が URL をリクエストすると、サーバーはバックグラウンドで別の URL として処理しますが、ブラウザーは元の URL を表示し続けます。
+
+* **URL リダイレクト** - ブラウザーに HTTP 応答を送信し、別の URL への移動を指示します。 ブラウザーのアドレスバーが更新され、新しい URL が表示されます。 リダイレクトは、一時的（302）または永続的（301）に設定できます。
+
+>[!ENDSHADEBOX]
+
+## 書き換えツールの仕組み
+
+Adobe Commerceでは、商品、カテゴリ、ページの URL キーを変更すると、SEO 値を保持するために、URL リライトツールによって永続的なリダイレクト（301）がデフォルトで作成されます。 この動作により、既存のリンクが引き続き機能し、検索エンジンのランキングが維持されます。
+
+デフォルトでは [ 自動 URL リダイレクト ](url-redirect-product-automatic.md) がストアに対して有効になっており、各製品の「URL キー」フィールドで **古い URL の永続的なリダイレクトを作成** チェックボックスが選択されています。
 
 {{url-rewrite-skip}}
 
+![ 検索エンジンの最適化 – 永続的な URL リダイレクトの作成 ](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
+
 {{url-rewrite-params}}
 
-![&#x200B; 検索エンジンの最適化 – 永続的な URL リダイレクトの作成 &#x200B;](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
+## URL 書き換えデモ
 
-## 正規 URL
+URL の書き換えの管理については、次のビデオをご覧ください。
 
-SEO の目的では、は各 web ページに個別の URL が 1 つだけあることをお勧めします。
-
-複数の URL でアクセス可能な単一のページがある場合、または異なるページに同様のコンテンツが含まれている場合、Googleでは、これらを同じページの重複バージョンと見なします。 Googleでは、1 つの URL を正規バージョンとして選択し、その URL をクロールします。他のすべての URL は重複 URL と見なされ、クロールの頻度が下がります。
-
-どの URL が正規かをGoogleに明示的に伝えない場合、選択が行われるか、または両方の URL が等しい重み付けと見なされる可能性があります。 これにより、望ましくない動作が発生する可能性があり、クロール予算が無効になったり、分散したバックリンクが低くなったりするリスクがあります。
-
-Web サイトの設定方法によっては、インデックスにサイトの複数のバージョンが含まれる場合があります。
-
-    https://www.example.com
-    https://www.example.com/
-    http://www.example.com
-    https://example.com
-    https://www.example.com/index.html
-
-正規ページを指定するには、[Google Search Central ドキュメント &#x200B;](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls) を参照してください。
-
-## URL の書き換えの設定
-
-Web サーバーの Apache 書き換えの有効化は、Commerceの初期設定の一部です。 Commerceでは、URL の書き換えを定期的に使用して、通常 URL のルートフォルダーの直後に表示されるファイル名 `index.php` を削除します。 Web サーバーの書き換えが有効な場合、システムは各 URL を書き換えて `index.php` を省略します。 書き換えは、検索エンジンや顧客に値を伝えない単語を削除し、パフォーマンスやサイトのランクには影響しません。
-
-Web サーバーの書き換えのない URL
-
-    http://www.yourdomain.com/magento/index.php/storeview/url-identifier
-
-Web サーバーの書き換え後の URL
-
-    http://www.yourdomain.com/magento/storeview/url-identifier
-
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
-
-1. **[!UICONTROL General]** が展開されている左パネルで、「**[!UICONTROL Web]**」を選択します。
-
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Search Engine Optimization]**」セクションを展開します。
-
-   ![&#x200B; 一般設定 – Web 検索エンジンの最適化 &#x200B;](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
-
-1. **[!UICONTROL Use Web Server Rewrites]** を好みに合わせて設定します。
-
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+>[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
 
 ## URL 書き換えの作成
 
-URL 書き換えツールを使用すると、ストア内の任意のページの製品およびカテゴリの書き換えやカスタムの書き換えを作成できます。 書き換えが有効になると、前の URL を指す既存のリンクは、新しいアドレスにシームレスにリダイレクトされます。
+URL リライトツールを使用して、商品およびカテゴリのリダイレクトや、ストア内の任意のページのカスタムリダイレクトを作成します。 URL 書き換え設定を適用すると、前の URL を指す既存のリンクは、新しいアドレスにシームレスにリダイレクトされます。
 
-URL の書き換えを使用すると、値の高いキーワードを追加して、検索エンジンによる製品のインデックス作成方法を改善できます。 書き換えを使用して、一時的な季節的な変更や永続的な変更のために追加の URL を作成することもできます。 書き換えは、CMS コンテンツページを含む、任意の有効なパスに対して作成できます。 内部的には、システムは常に製品とカテゴリを ID で参照します。 URL が頻繁に変更されても、ID は変わりません。 次に、URL 書き換えを使用する方法を示します。
+URL の書き換えは、次の場所に作成できます。
 
-システム URL
+* 値の大きいキーワードを追加すると、検索エンジンによる商品のインデックス作成方法が改善されます。
 
-    http://www.example.com/catalog/category/id/6
+* 季節的な一時的な変更や永続的な変更に URL を追加します。
 
-元の URL
+* CMS コンテンツページを含む、ページの有効なパスを追加します。 例えば、製品やカテゴリを常に内部 ID で参照するシステムで、よりユーザーや SEO に対応した URL を作成できます。
 
-    http://www.example.com/peripherals/keyboard.html
+作成した URL の書き換えは、サイト構造を変更せずに既存のカテゴリまたはカスタムページにリダイレクトできるため、マーケティングキャンペーンで覚えやすい URL を簡単に作成できます。
 
-リダイレクトされた製品の URL
-
-    http://www.example.com/ergonomic-keyboard.html
-
-追加のカテゴリ URL
-
-    http://www.example.com/all-on-sale.html
-    http://www.example.com/save-now/spring-sale
-
-![URL 書き換えグリッド &#x200B;](./assets/url-rewrites.png){width="700" zoomable="yes"}
+![URL 書き換えグリッド ](./assets/url-rewrites.png){width="700" zoomable="yes"}
 
 Commerceには、次の URL 書き換えタイプがあります。
 
@@ -107,8 +74,94 @@ Commerceには、次の URL 書き換えタイプがあります。
 * [CMSページの書き換え](url-rewrite-cms-page.md)
 * [カスタム書き換え](url-rewrite-custom.md)
 
-## URL 書き換えデモ
+### ユースケースと例
 
-URL の書き換えの管理については、次のビデオをご覧ください。
+URL の書き換えは、次のシナリオで一般的に使用されます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410126?quality=12&learn=on&captions=jpn)
+#### 内部システム URL を SEO に対応する URL に変更する
+
+Commerceでは内部で ID ベースの URL を使用しますが、顧客向けに SEO に対応した URL を作成できます。
+
+**システム URL （内部）:**
+
+    http://www.example.com/catalog/category/id/6
+
+**カスタマーフェイシング URL:**
+
+    http://www.example.com/peripherals/keyboard.html
+
+#### 製品のブランド変更または URL の最適化
+
+製品の名前を変更したり、SEO の URL を改善したりする場合、既存のリンクを保持するリダイレクトを作成します。
+
+**元の URL:**
+
+    http://www.example.com/peripherals/keyboard.html
+
+**最適化された新しい URL:**
+
+    http://www.example.com/ergonomic-keyboard.html
+
+書き換えツールは、古い URL から新しい URL に 301 リダイレクトを自動的に作成するので、顧客や検索エンジンはシームレスに正しいページに移動します。
+
+#### プロモーションランディングページ
+
+マーケティングキャンペーン用の一時的または永続的なカスタム URL を作成：
+
+**プロモーション URL:**
+
+    http://www.example.com/all-on-sale.html
+    http://www.example.com/save-now/spring-sale
+
+## 追加の URL 管理設定
+
+次の節では、Commerceで web サーバーの書き換えと正規 URL を設定する方法について説明します。
+
+### Web サーバーの書き換えの設定
+
+>[!NOTE]
+>
+>ここでは、URL 書き換えツール機能とは異なる、web サーバーレベルの URL 書き換えについて説明します。 Web サーバーの書き換えは、技術的な URL 形式（`index.php` の削除など）を処理し、URL 書き換えツールは、コンテンツの変更に対するリダイレクトを管理します。
+
+Web サーバーの書き換えを有効にする機能は、Commerceの初期設定の一部であり、通常はインストール時に設定されます。 有効にすると、web サーバー（Apache または Nginx）はファイル名 `index.php` を URL から自動的に削除し、よりクリーンで SEO に対応したアドレスを作成します。
+次の例は、web サーバーの書き換えが有効な場合と有効でない場合の URL の表示方法を示しています。
+
+**Web サーバーの書き換えのない URL**
+
+    http://www.yourdomain.com/magento/index.php/storeview/url-identifier
+
+**Web サーバーの書き換え後の URL**
+
+    http://www.yourdomain.com/magento/storeview/url-identifier
+
+#### Web サーバーの書き換えを有効または無効にする：
+
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+
+1. **[!UICONTROL General]** が展開されている左パネルで、「**[!UICONTROL Web]**」を選択します。
+
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Search Engine Optimization]**」セクションを展開します。
+
+   ![ 一般設定 – Web 検索エンジンの最適化 ](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
+
+1. **[!UICONTROL Use Web Server Rewrites]** を好みに合わせて設定します。
+
+1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+
+### 正規 URL の指定
+
+SEO の目的では、各 web ページに個別の URL を 1 つだけ含める必要があります。
+
+複数の URL でアクセス可能な単一のページがある場合、または異なるページに同様のコンテンツが含まれている場合、Googleでは、これらを同じページの重複バージョンと見なします。 Googleは 1 つの URL を正規バージョンとして選択し、その URL をクロールします。他のすべての URL は重複 URL と見なされ、クロールの頻度が低くなります。
+
+どの URL が正規かをGoogleに明示的に伝えない場合、選択が行われるか、または両方の URL が等しい重み付けと見なされる可能性があります。 これにより、望ましくない動作が発生する可能性があり、無効なクロール予算と低分散バックリンクのリスクがあります。
+
+Web サイトのセットアップ方法によっては、インデックスにサイトの複数のバージョンが含まれる場合があります。例：
+
+    https://www.example.com
+    https://www.example.com/
+    http://www.example.com
+    https://example.com
+    https://www.example.com/index.html
+
+正規ページを指定するには、[Google Search Central ドキュメント ](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls) を参照してください。

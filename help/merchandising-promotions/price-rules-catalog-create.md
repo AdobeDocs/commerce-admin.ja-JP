@@ -3,9 +3,9 @@ title: カタログ価格ルールの作成
 description: 一連の条件が満たされた場合に特定の製品に割引を適用するカタログ価格ルールを作成する方法を説明します。
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 3011d0287c74fd39b44e180733343c39d1cadea7
+source-git-commit: 5e21259c196419f9a337795f9bec29f0737e84ca
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1727'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ## 手順 1：ルールを追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Catalog Price Rule]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Catalog Price Rule]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Rule]**」をクリックします。
 
-   _[!UICONTROL Rule Information]_&#x200B;部は、**[!UICONTROL Conditions]**&#x200B;び&#x200B;**[!UICONTROL Actions]**&#x200B;き出し可能な伸縮部を含む。
+   _[!UICONTROL Rule Information]_部は、**[!UICONTROL Conditions]**び&#x200B;**[!UICONTROL Actions]**き出し可能な伸縮部を含む。
 
-   ![&#x200B; カタログ価格ルール – 情報 &#x200B;](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
+   ![ カタログ価格ルール – 情報 ](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL Rule Name]**」フィールドと「**[!UICONTROL Description]**」フィールドに入力します。
 
@@ -43,7 +43,11 @@ ht-degree: 0%
 
 1. ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） **[!UICONTROL From]** および **[!UICONTROL To]** の日付を入力して、価格ルールが有効になるタイミングを判断します。
 
-   日付を入力するか、**[!UICONTROL Calendar]** （カレンダーアイコン ![）を使用して日付を選択 &#x200B;](../assets/icon-calendar.png) きます。 日付を空白のままにすると、価格ルールが保存されたときにルールが有効になります。
+   日付を入力するか、**[!UICONTROL Calendar]** （カレンダーアイコン ![）を使用して日付を選択 ](../assets/icon-calendar.png) きます。 日付を空白のままにすると、価格ルールが保存されたときにルールが有効になります。
+
+   >[!NOTE]
+   >
+   >`From` および `To` フィールドは、Adobe Commerceのカタログ価格ルール設定ページから削除されており、カタログ価格ルールで直接変更することはできません。 価格ルールの有効化スケジュールを設定するには、スケジュールされた更新を作成する必要があります。
 
 1. このルールの **[!UICONTROL Priority]** を他のルールとの関連で確立する数値を入力します。
 
@@ -55,15 +59,15 @@ ht-degree: 0%
 
 - 少なくとも 1 つの条件付き製品属性の値が空の場合、カタログ価格ルールは製品に適用されません。
 
-- 製品属性条件 `[!UICONTROL Category]` バンドルまたはグループ化された製品に追加すると、すべての子項目が同じカテゴリを共有する場合にのみ、価格ルールが正しく適用されます。 子項目が同じカテゴリにない場合は、代わりに [&#x200B; 買い物かご価格ルール &#x200B;](price-rules-cart-create.md) プロモーションを使用します。
+- 製品属性条件 `[!UICONTROL Category]` バンドルまたはグループ化された製品に追加すると、すべての子項目が同じカテゴリを共有する場合にのみ、価格ルールが正しく適用されます。 子項目が同じカテゴリにない場合は、代わりに [ 買い物かご価格ルール ](price-rules-cart-create.md) プロモーションを使用します。
 
-1. 下にスクロールして、「**[!UICONTROL Conditions]**」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
+1. 下にスクロールして、「![」セクションの ](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Conditions]** を展開します。
 
    デフォルトでは、最初の条件が表示され、次の状態になります。
 
    `If **ALL** of these conditions are **TRUE**:`
 
-   ![&#x200B; カタログ価格ルール – 条件行 1](./assets/catalog-condition1.png){width="400"}
+   ![ カタログ価格ルール – 条件行 1](./assets/catalog-condition1.png){width="400"}
 
    ステートメントには 2 つの太字のリンクがあり、クリックすると、ステートメントのその部分のオプションの選択が表示されます。 これらの値の組み合わせを変更することで、様々な条件を作成できます。
 
@@ -75,21 +79,21 @@ ht-degree: 0%
 
    これらの値の組み合わせを変更することで、様々な条件を作成できます。 この例では、デフォルトの条件が使用されます。
 
-1. 次の行の先頭にある「_追加_ （![&#x200B; 追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）」アイコンをクリックし、製品属性や組み合わせなど、条件のオプションを選択します。
+1. 次の行の先頭にある「_追加_ （![ 追加アイコン ](../assets/icon-add-green-circle.png)）」アイコンをクリックし、製品属性や組み合わせなど、条件のオプションを選択します。
 
 1. **[!UICONTROL Product Attribute]** の下のリストで、条件の基礎として使用する属性を選択します。
 
    この例では、条件は `Attribute Set` です。
 
-   ![&#x200B; カタログ価格ルール – 条件 2](./assets/catalog-condition2.png){width="400"}
+   ![ カタログ価格ルール – 条件 2](./assets/catalog-condition2.png){width="400"}
 
    >[!NOTE]
    >
-   >属性をリストに表示するには、プロモーションルールの条件で使用するように設定する必要があります。 詳しくは、[&#x200B; 製品属性 &#x200B;](../catalog/product-attributes.md) を参照してください。
+   >属性をリストに表示するには、プロモーションルールの条件で使用するように設定する必要があります。 詳しくは、[ 製品属性 ](../catalog/product-attributes.md) を参照してください。
 
    >[!NOTE]
    >
-   >_SKU_ 製品属性と設定可能な製品で `is not one of` 条件を使用する場合は、親と子の両方の製品 SKU を選択する必要があります。 ルール内のすべての子 SKU がリストされないようにするには、設定可能な製品とその子製品の共通 SKU 部分で `does not contain` の条件を使用できます。
+   >`is not one of`SKU _製品属性と設定可能な製品で_ 条件を使用する場合は、親と子の両方の製品 SKU を選択する必要があります。 ルール内のすべての子 SKU がリストされないようにするには、設定可能な製品とその子製品の共通 SKU 部分で `does not contain` の条件を使用できます。
 
    選択した条件がステートメントに表示され、その後にさらに 2 つの太字リンクが表示されます。 オプションは、選択する条件属性によって異なります。 ステートメントには次の内容が含まれています。
 
@@ -103,26 +107,26 @@ ht-degree: 0%
 
    条件に応じて、グリッドまたはリストから製品を選択したり、数値を入力したりできます。
 
-   ![&#x200B; カタログ価格ルール – 条件 2](./assets/catalog-condition3.png){width="400"}
+   ![ カタログ価格ルール – 条件 2](./assets/catalog-condition3.png){width="400"}
 
    条件を完了するためのステートメントに、選択した項目が表示されます。
 
    `If **ALL** of these conditions are **TRUE**: <br/> Attribute Set **is Default**`
 
-1. ステートメントに別の条件行を追加するには、「_追加_ （![&#x200B; 追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）」アイコンをクリックし、次のいずれかを選択します。
+1. ステートメントに別の条件行を追加するには、「_追加_ （![ 追加アイコン ](../assets/icon-add-green-circle.png)）」アイコンをクリックし、次のいずれかを選択します。
 
    - `Conditions Combination`
    - `Product Attribute`
 
    必要な条件がすべて完了するまで手順を繰り返します。
 
-   条件ステートメントの一部を削除する場合は、行の最後にある **[!UICONTROL Delete]** （![&#x200B; 削除アイコン &#x200B;](../assets/icon-delete-red-circle.png) アイコンをクリックします。
+   条件ステートメントの一部を削除する場合は、行の最後にある **[!UICONTROL Delete]** （![ 削除アイコン ](../assets/icon-delete-red-circle.png) アイコンをクリックします。
 
 ## 手順 3：アクションの定義
 
-1. 「![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) の「**[!UICONTROL Actions]**」セクションを展開し、次の操作を行います。
+1. 「![ 拡張セレクター ](../assets/icon-display-expand.png) の「**[!UICONTROL Actions]**」セクションを展開し、次の操作を行います。
 
-   ![&#x200B; カタログ価格ルール – アクション &#x200B;](./assets/price-rule-catalog-actions.png){width="600" zoomable="yes"}
+   ![ カタログ価格ルール – アクション ](./assets/price-rule-catalog-actions.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Pricing Structure Rules]** で、**[!UICONTROL Apply]** を次のいずれかに設定します。
 
@@ -153,15 +157,15 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-カタログ価格ルールに関連付けられた [&#x200B; 動的ブロック &#x200B;](../content-design/dynamic-blocks.md) は、条件が満たされるたびにストアフロントに表示されます。 これはオプションの手順です。
+カタログ価格ルールに関連付けられた [ 動的ブロック ](../content-design/dynamic-blocks.md) は、条件が満たされるたびにストアフロントに表示されます。 これはオプションの手順です。
 
-1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)**[!UICONTROL Related Dynamic Blocks]** のセクションを展開します。
+1. ![ 展開セレクター ](../assets/icon-display-expand.png)**[!UICONTROL Related Dynamic Blocks]** のセクションを展開します。
 
-1. [&#x200B; 検索フィルタ &#x200B;](../getting-started/admin-workspace.md) を使用して、ルールに関連付けるダイナミック ブロックを検索します。
+1. [ 検索フィルタ ](../getting-started/admin-workspace.md) を使用して、ルールに関連付けるダイナミック ブロックを検索します。
 
 1. 最初の列のチェックボックスをオンにして、ダイナミックブロックをルールに関連付けます。
 
-   ![&#x200B; カタログ価格ルール – 関連する動的ブロック &#x200B;](./assets/price-rule-catalog-related-dynamic-blocks.png){width="600" zoomable="yes"}
+   ![ カタログ価格ルール – 関連する動的ブロック ](./assets/price-rule-catalog-related-dynamic-blocks.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save and Continue Edit]**」をクリックします。
 
@@ -171,7 +175,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ルールをアクティブに設定するには、スケジュールされた更新として追加する必要があります。 詳しくは、「[&#x200B; スケジュールされた変更 &#x200B;](price-rule-catalog-scheduled-changes.md)」を参照してください。
+>ルールをアクティブに設定するには、スケジュールされた更新として追加する必要があります。 詳しくは、「[ スケジュールされた変更 ](price-rule-catalog-scheduled-changes.md)」を参照してください。
 
 1. 「_スケジュール済み変更_」ボックスで、ボックスの上部にある「**[!UICONTROL Schedule New Update]**」をクリックします。
 
@@ -181,9 +185,9 @@ ht-degree: 0%
 
 1. ルールをスケジュールするには、**[!UICONTROL Start Date]** を入力し、価格ルールがアクティブになることを **[!UICONTROL End Date]** します。
 
-   日付を入力するか、_カレンダー_ （![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）から日付を選択できます。
+   日付を入力するか、_カレンダー_ （![ カレンダーアイコン ](../assets/icon-calendar.png)）から日付を選択できます。
 
-   ![&#x200B; カタログ価格ルール – スケジュールの更新 &#x200B;](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
+   ![ カタログ価格ルール – スケジュールの更新 ](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -199,13 +203,13 @@ ht-degree: 0%
 
      ルール情報ページのスケジュールされた変更には、更新されたタイムラインが表示されます。
 
-     ![&#x200B; カタログ価格ルール – 予定された変更 &#x200B;](./assets/price-rule-scheduled-changes-updated.png){width="600" zoomable="yes"}
+     ![ カタログ価格ルール – 予定された変更 ](./assets/price-rule-scheduled-changes-updated.png){width="600" zoomable="yes"}
 
 1. ルールのプロパティを更新します。
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） 「**[!UICONTROL Edit]**」をクリックすると、_[!UICONTROL Rule Information]_&#x200B;ページが表示されます。
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） 「**[!UICONTROL Edit]**」をクリックすると、_[!UICONTROL Rule Information]_ページが表示されます。
 
-   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）リスト内のルールをクリックして、_[!UICONTROL Rule Information]_&#x200B;ページを表示します。
+   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）リスト内のルールをクリックして、_[!UICONTROL Rule Information]_ページを表示します。
 
 1. ルールをテストして、正しく動作することを確認します。
 
@@ -215,7 +219,7 @@ ht-degree: 0%
 
 カタログ価格ルールの作成については、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410850?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## フィールドの説明
 
@@ -242,7 +246,7 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 |-----|-----------|
-| [!UICONTROL Apply] | 購入に適用される計算のタイプを決定します。 オプション：<br/>**[!UICONTROL Apply as percentage of original]**– 通常価格のパーセンテージを差し引いて品目を値引きします。<br/>**[!UICONTROL Apply as fixed amount]** – 定価から固定金額を引いて品目を値引きします。 <br/>**[!UICONTROL Adjust final price to this percentage]**– 最終価格を通常価格に対するパーセンテージで調整します。<br/>**[!UICONTROL Adjust final price to discount value]** – 最終価格を固定の割引額に設定します。 <br/><br/>**_注：_**&#x200B;通常価格とは、特別価格（特定/階層/グループ）またはプロモーション割引を含まない基本商品価格を指します。 最終価格とは、買い物かごに表示される割引価格を指します。 <br/>**_最終&#x200B;_**&#x200B;製品価格は、次の式を使用して&#x200B;**_最小&#x200B;_**&#x200B;関連価格として計算されます。<br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | 購入に適用される計算のタイプを決定します。 オプション：<br/>**[!UICONTROL Apply as percentage of original]**– 通常価格のパーセンテージを差し引いて品目を値引きします。<br/>**[!UICONTROL Apply as fixed amount]** – 定価から固定金額を引いて品目を値引きします。 <br/>**[!UICONTROL Adjust final price to this percentage]**– 最終価格を通常価格に対するパーセンテージで調整します。<br/>**[!UICONTROL Adjust final price to discount value]** – 最終価格を固定の割引額に設定します。 <br/><br/>**_Note:_** 通常価格は、高度な価格（特別/階層/グループ）またはプロモーション割引を含まない基本製品価格を指します。 最終価格とは、買い物かごに表示される割引価格を指します。 <br/>**_最終_** 製品価格は、次の式を使用して **_最小_** 関連価格として計算されます。<br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | （必須）提供される割引の金額。 |
 | [!UICONTROL Discard Subsequent Rules] | この購入に追加ルールを適用できるかどうかを決定します。 同じ購入に複数の割引が適用されないようにするには、「`Yes`」を選択します。 オプション：`Yes` / `No` |
 
@@ -252,4 +256,4 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-ルールに関連付けられているすべての [&#x200B; ダイナミック ブロック &#x200B;](../content-design/dynamic-blocks.md) を識別します。
+ルールに関連付けられているすべての [ ダイナミック ブロック ](../content-design/dynamic-blocks.md) を識別します。
