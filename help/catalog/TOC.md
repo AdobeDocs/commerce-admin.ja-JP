@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce、Magento Open Sourceの管理者およ�
 breadcrumb-title: カタログ管理
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: d3c26582e70f18612e9736df57e328f1c8686c57
+source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -98,3 +98,4 @@ ht-degree: 1%
       + [属性の作成および削除](attribute-product-create.md)
       + [一括更新](bulk-product-attribute-update.md)
       + [属性セット](attribute-sets.md)
++ [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

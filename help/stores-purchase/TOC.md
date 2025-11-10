@@ -5,9 +5,9 @@ breadcrumb-title: 店舗と購入エクスペリエンス
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 2e5d8c81cbf20612d1351da2f5474f13f353c34c
+source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '320'
 ht-degree: 3%
 
 ---
@@ -131,3 +131,4 @@ ht-degree: 3%
       + [出荷ラベルの概要](shipping-labels.md)
       + [配送ラベルの設定](shipping-label-configure.md)
       + [配送ラベルの作成](shipping-label-create.md)
++ [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
