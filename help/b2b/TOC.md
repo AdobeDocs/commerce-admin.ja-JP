@@ -68,4 +68,4 @@ ht-degree: 6%
 + 参照 {#reference}
    + [後方互換性のない変更](backward-incompatible-changes.md)
    + [パッケージ](packages.md)
-+ [&#x200B; 管理者ユーザーガイドに戻る &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [&#x200B; 管理者ユーザーガイドに戻る &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja)

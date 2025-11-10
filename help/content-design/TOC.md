@@ -91,4 +91,4 @@ ht-degree: 4%
    - [ステージングダッシュボード](content-staging-dashboard.md)
    - [キャンペーン項目の追加](content-staging-add-item.md)
    - [キャンペーンのプレビュー](content-staging-preview.md)
-- [&#x200B; 管理者ユーザーガイドに戻る &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [&#x200B; 管理者ユーザーガイドに戻る &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja)

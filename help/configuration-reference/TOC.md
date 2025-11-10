@@ -83,4 +83,4 @@ ht-degree: 1%
    - [Admin](./advanced/admin.md)
    - [システム](./advanced/system.md)
    - [開発者](./advanced/developer.md)
-- [&#x200B; 管理者ユーザーガイドに戻る &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [&#x200B; 管理者ユーザーガイドに戻る &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja)
