@@ -15,13 +15,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce as a Cloud Serviceについては、Commerce ストアフロントドキュメントの [SEO ガイドライン ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) を参照してください
+>Adobe Commerce as a Cloud Serviceについては、Commerce ストアフロントドキュメントの [SEO ガイドライン &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) を参照してください
 
 URL リライトツールを使用すると、商品、カテゴリまたはCMSページに関連付けられている URL を変更できます。 URL の書き換えを行うと、Commerceによって永続的なリダイレクト（301）が自動的に作成され、古い URL を指すすべてのリンクが新しいアドレスにリダイレクトされます。
 
 >[!NOTE]
 >
->複数またはすべての製品の URL リライトを同時に更新するには、[ 複数の URL リライト ](url-rewrite-product.md#multiple-url-rewrites) を参照してください。
+>複数またはすべての製品の URL リライトを同時に更新するには、[&#x200B; 複数の URL リライト &#x200B;](url-rewrite-product.md#multiple-url-rewrites) を参照してください。
 
 >[!BEGINSHADEBOX  「書き換えとリダイレクトについて」 ]
 
@@ -37,11 +37,11 @@ URL リライトツールを使用すると、商品、カテゴリまたはCMS�
 
 Adobe Commerceでは、商品、カテゴリ、ページの URL キーを変更すると、SEO 値を保持するために、URL リライトツールによって永続的なリダイレクト（301）がデフォルトで作成されます。 この動作により、既存のリンクが引き続き機能し、検索エンジンのランキングが維持されます。
 
-デフォルトでは [ 自動 URL リダイレクト ](url-redirect-product-automatic.md) がストアに対して有効になっており、各製品の「URL キー」フィールドで **古い URL の永続的なリダイレクトを作成** チェックボックスが選択されています。
+デフォルトでは [&#x200B; 自動 URL リダイレクト &#x200B;](url-redirect-product-automatic.md) がストアに対して有効になっており、各製品の「URL キー」フィールドで **古い URL の永続的なリダイレクトを作成** チェックボックスが選択されています。
 
 {{url-rewrite-skip}}
 
-![ 検索エンジンの最適化 – 永続的な URL リダイレクトの作成 ](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
+![&#x200B; 検索エンジンの最適化 – 永続的な URL リダイレクトの作成 &#x200B;](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 
 {{url-rewrite-params}}
 
@@ -65,7 +65,7 @@ URL の書き換えは、次の場所に作成できます。
 
 作成した URL の書き換えは、サイト構造を変更せずに既存のカテゴリまたはカスタムページにリダイレクトできるため、マーケティングキャンペーンで覚えやすい URL を簡単に作成できます。
 
-![URL 書き換えグリッド ](./assets/url-rewrites.png){width="700" zoomable="yes"}
+![URL 書き換えグリッド &#x200B;](./assets/url-rewrites.png){width="700" zoomable="yes"}
 
 Commerceには、次の URL 書き換えタイプがあります。
 
@@ -136,13 +136,13 @@ Web サーバーの書き換えを有効にする機能は、Commerceの初期�
 
 #### Web サーバーの書き換えを有効または無効にする：
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. **[!UICONTROL General]** が展開されている左パネルで、「**[!UICONTROL Web]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Search Engine Optimization]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Search Engine Optimization]**」セクションを展開します。
 
-   ![ 一般設定 – Web 検索エンジンの最適化 ](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![&#x200B; 一般設定 – Web 検索エンジンの最適化 &#x200B;](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Use Web Server Rewrites]** を好みに合わせて設定します。
 
@@ -164,4 +164,4 @@ Web サイトのセットアップ方法によっては、インデックスに�
     https://example.com
     https://www.example.com/index.html
 
-正規ページを指定するには、[Google Search Central ドキュメント ](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls) を参照してください。
+正規ページを指定するには、[Google Search Central ドキュメント &#x200B;](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls) を参照してください。
