@@ -23,7 +23,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>接続されたCommerce サービス（ライブサーチ、Product Recommendations、カタログサービス）に公開するために、Adobe CommerceからCommerce SaaS データベースへのデータエクスポートフィードの同期を監視する <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status"> データフィード同期ステータス拡張機能 </a> のドキュメントを追加しました。 データ同期ステータスページは、Commerce Admin のシステム メニューから使用できます。</p>
+      <td><p>接続されたCommerce サービス（ライブサーチ、Product Recommendations、カタログサービス）に公開するために、Adobe CommerceからCommerce SaaS データベースへのデータエクスポートフィードの同期を監視する <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status"> データフィード同期ステータス拡張機能 </a> のドキュメントを追加しました。 データ同期ステータスページは、Commerce Admin のシステム メニューから使用できます。</p>
 </td>
       <td>
         新しいトピック
@@ -45,7 +45,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>2025 年 10 月の B2B セキュリティパッチ <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes"> リリースノート </a> を追加しました。</p>
+      <td><p>2025 年 10 月の B2B セキュリティパッチ <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/release-notes"> リリースノート </a> を追加しました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -67,7 +67,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Serviceの管理で <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes"> カスタム注文属性 </a> の表示および編集方法に関する情報を追加しました。</p>
+      <td><p>Adobe Commerce as a Cloud Serviceの管理で <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes"> カスタム注文属性 </a> の表示および編集方法に関する情報を追加しました。</p>
 </td>
       <td>
         メジャーアップデート
