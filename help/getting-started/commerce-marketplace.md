@@ -77,7 +77,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe CommerceおよびMagento Open Source 2.4.0 以降では、web セットアップウィザードは削除されるので、コマンドラインを使用してインスタンスを [&#x200B; インストール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) または [&#x200B; アップグレード &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) する必要があります。 この要件には、[&#x200B; モジュール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) および [&#x200B; 拡張機能 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) も含まれます。
+>Adobe CommerceおよびMagento Open Source 2.4.0 以降では、web セットアップウィザードは削除されるので、コマンドラインを使用してインスタンスを [&#x200B; インストール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=ja) または [&#x200B; アップグレード &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=ja) する必要があります。 この要件には、[&#x200B; モジュール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ja) および [&#x200B; 拡張機能 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=ja) も含まれます。
 
 [!DNL Marketplace] の購入のインストールプロセスは、Adobeの _オンプレミス_ インストールと、Commerce クラウドアーキテクチャ [ でホストされるインストールでは異な ][4] ます。
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 ### オープンソースの質問
 
-Marketplace サポートチームは、[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) および [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) サイトに関連する問題のみを解決します。 Magento Open Sourceに関するご質問は、[&#x200B; コミュニティフォーラム &#x200B;](https://community.magento.com/) または [&#x200B; パートナーにお問い合わせください &#x200B;](https://business.adobe.com/products/magento/partners.html) パートナーはMagento Open Sourceを支援できます。
+Marketplace サポートチームは、[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) および [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) サイトに関連する問題のみを解決します。 Magento Open Sourceに関するご質問は、[&#x200B; コミュニティフォーラム &#x200B;](https://community.magento.com/) または [&#x200B; パートナーにお問い合わせください &#x200B;](https://business.adobe.com/jp/products/magento/partners.html) パートナーはMagento Open Sourceを支援できます。
 
 ### 払戻要求
 
@@ -143,4 +143,4 @@ Marketplace サポート チームには、購入を別のアカウントに転�
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/products/magento/magento-commerce.html
+[6]: https://business.adobe.com/jp/products/magento/magento-commerce.html
