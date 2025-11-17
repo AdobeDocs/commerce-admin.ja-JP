@@ -3,7 +3,7 @@ title: 出荷ラベルおよびパッケージの作成
 description: 注文で品目をパッケージ化する方法と、出荷ラベルを作成する方法について説明します。
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: cf57e136c7c3b6e8ba83afbbd539f4037c0ca486
+source-git-commit: be8a4e9d7cbcf34452724f8055980007794f525f
 workflow-type: tm+mt
 source-wordcount: '1944'
 ht-degree: 0%
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 ## 手順 2：各通信事業者の設定の更新
 
-1. [&#x200B; ストア情報 &#x200B;](../getting-started/store-details.md#store-information) が完成していることを確認します。
+1. [ ストア情報 ](../getting-started/store-details.md#store-information) が完成していることを確認します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Shipping Settings]**」を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」 **[!UICONTROL Origin]** クションを展開し、**[!UICONTROL Shipping Origin Address]** を設定します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」 **[!UICONTROL Origin]** クションを展開し、**[!UICONTROL Shipping Origin Address]** を設定します。
 
 1. ラベル印刷用に有効にする通信事業者アカウントごとに、以下の手順に従います。
 
@@ -47,7 +47,7 @@ United Parcel Service は、国内および海外の両方で出荷されます�
 
 1. 左パネルの「_[!UICONTROL Sales]_」セクションで、「**[!UICONTROL Delivery Methods]**」を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL UPS]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL UPS]**」セクションを展開します。
 
 1. UPS **[!UICONTROL Shipper Number]** が正しいことを確認します。
 
@@ -61,7 +61,7 @@ United Parcel Service は、国内および海外の両方で出荷されます�
 
 {{$include /help/_includes/usps-api-type-configuration-note.md}}
 
-1. **[!UICONTROL Delivery Methods]** 設定で続行して、「![」セクションの &#x200B;](../assets/icon-display-expand.png) 拡張セレクター **[!UICONTROL USPS]** を展開します。
+1. **[!UICONTROL Delivery Methods]** 設定で続行して、「![」セクションの ](../assets/icon-display-expand.png) 拡張セレクター **[!UICONTROL USPS]** を展開します。
 
 1. **[!UICONTROL USPS Type]** を `USPS Rest APIs` または `USPS Web Tools API` として選択します。
 
@@ -99,7 +99,7 @@ United Parcel Service は、国内および海外の両方で出荷されます�
 
 国内外の FedEx 船。 米国以外の店舗では、国際配送にのみ FedEx ラベルを作成できます。
 
-1. **[!UICONTROL Delivery Methods]** 設定で続行して、「![」セクションの &#x200B;](../assets/icon-display-expand.png) 拡張セレクター **[!UICONTROL FedEx]** を展開します。
+1. **[!UICONTROL Delivery Methods]** 設定で続行して、「![」セクションの ](../assets/icon-display-expand.png) 拡張セレクター **[!UICONTROL FedEx]** を展開します。
 
 1. 次の FedEx 認証情報が正しいことを確認します。
 
@@ -113,7 +113,7 @@ United Parcel Service は、国内および海外の両方で出荷されます�
 
 DHL は国際配送サービスを提供しています。
 
-1. **[!UICONTROL Delivery Methods]** 設定で続行して、「![」セクションの &#x200B;](../assets/icon-display-expand.png) 拡張セレクター **[!UICONTROL DHL]** を展開します。
+1. **[!UICONTROL Delivery Methods]** 設定で続行して、「![」セクションの ](../assets/icon-display-expand.png) 拡張セレクター **[!UICONTROL DHL]** を展開します。
 
 1. **[!UICONTROL Gateway URL]** が正しいことを確認します。
 
@@ -145,7 +145,7 @@ DHL は国際配送サービスを提供しています。
 
 1. パッケージ内の製品を追加または更新：
 
-   - 受注からパッケージに製品を追加するには、「**[!UICONTROL Add Products]**」をクリックします。 _[!UICONTROL Quantity]_&#x200B;の列には、パッケージで使用できる製品の最大数が表示されます。
+   - 受注からパッケージに製品を追加するには、「**[!UICONTROL Add Products]**」をクリックします。 _[!UICONTROL Quantity]_の列には、パッケージで使用できる製品の最大数が表示されます。
 
    - パッケージに追加する各製品のチェックボックスを選択し、それぞれの **[!UICONTROL Quantity]** を入力します。 次に、「**[!UICONTROL Add Selected Product(s) to Package]**」をクリックします。
 
@@ -165,7 +165,7 @@ DHL は国際配送サービスを提供しています。
 
 ### 方法 2：既存の出荷のラベルの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Orders]**に移動します。
 
 1. グリッドで注文を見つけて、配送フォームを開きます。
 
@@ -236,7 +236,7 @@ DHL は国際配送サービスを提供しています。
 
    - 製品と数量を指定します。
 
-     _[!UICONTROL Qty]_&#x200B;の列には、追加できる最大数量が表示されます。 1 つ目のパッケージの場合、この数値は出荷される製品の合計数量です。
+     _[!UICONTROL Qty]_の列には、追加できる最大数量が表示されます。 1 つ目のパッケージの場合、この数値は出荷される製品の合計数量です。
 
    - 製品をパッケージに追加するには、[**[!UICONTROL Add Selected Product(s) to Package]**] をクリックします。
 
@@ -291,3 +291,5 @@ DHL は国際配送サービスを提供しています。
 [2]: https://www.ups.com/us/en/support/contact-us.page
 [3]: https://www.dhl.com/us-en/home/our-divisions/ecommerce-solutions.html
 [4]: https://www.usps.com/business/web-tools-apis/#ssc
+
+<!-- Last updated from includes: 2025-10-29 05:34:15 -->
