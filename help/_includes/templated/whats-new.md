@@ -23,7 +23,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>CMSページのページビルダープレビューを使用できるかどうかについてのガイダンスを <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add"> ページの追加と削除 </a> および <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace"> ページビルダーのWorkspace</a> のトピックに追加しました。 プレビューは、デフォルトストア表示で入手できなければ、内容表示されません。</p>
+      <td><p>CMSページのページビルダープレビューを使用できるかどうかについてのガイダンスを <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/content-design/elements/pages/page-add"> ページの追加と削除 </a> および <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/page-builder/workspace"> ページビルダーのWorkspace</a> のトピックに追加しました。 プレビューは、デフォルトストア表示で入手できなければ、内容表示されません。</p>
 </td>
       <td>
         技術、フィードバック
@@ -45,7 +45,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan">セキュリティ スキャン ツール</a> は、Commerce ストアフロントがAdobe Experience Manager サイトとして展開されているマーチャントをサポートするように更新されました。</p>
+      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/security/security-scan">セキュリティ スキャン ツール</a> は、Commerce ストアフロントがAdobe Experience Manager サイトとして展開されているマーチャントをサポートするように更新されました。</p>
 </td>
       <td>
         テクニカル
@@ -67,7 +67,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes"> カタログ価格ルールの予定変更 </a> トピックで終了日が指定されていない特定の時刻にアクティブな価格ルール販売を終了する方法を明確にしました。<br />Web サーバーの書き換えと正規 URL に関する例、概念定義、グループ化の追加 URL 管理設定手順を改善するために、<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL の書き換え </a> トピックを再編成しました。</p>
+      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes"> カタログ価格ルールの予定変更 </a> トピックで終了日が指定されていない特定の時刻にアクティブな価格ルール販売を終了する方法を明確にしました。<br />Web サーバーの書き換えと正規 URL に関する例、概念定義、グループ化の追加 URL 管理設定手順を改善するために、<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL の書き換え </a> トピックを再編成しました。</p>
 </td>
       <td>
         テクニカル、フィードバック
@@ -89,7 +89,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers">出荷配送業者の設定</a>の手順を更新し、USPS Web ツール API から USPS REST API に移行する手順を追加しました。</p>
+      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers">出荷配送業者の設定</a>の手順を更新し、USPS Web ツール API から USPS REST API に移行する手順を追加しました。</p>
 </td>
       <td>
         技術、フィードバック
@@ -111,7 +111,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>接続されたコマース サービス (ライブ Search、商品Recommendations、カタログ サービス) に公開するために、Adobe Systems Commerce から Commerce SaaS データベースへのデータ エクスポートフィード同期監視<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status"></a>データ フィード同期 ステータス 拡張機能のドキュメントを追加しました。データ同期ステータスページは、Commerce Admin のシステム メニューから使用できます。</p>
+      <td><p>接続されたコマース サービス (ライブ Search、商品Recommendations、カタログ サービス) に公開するために、Adobe Systems Commerce から Commerce SaaS データベースへのデータ エクスポートフィード同期監視<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status"></a>データ フィード同期 ステータス 拡張機能のドキュメントを追加しました。データ同期ステータスページは、Commerce Admin のシステム メニューから使用できます。</p>
 </td>
       <td>
         新規トピック
@@ -133,7 +133,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Systemsアプリへの安全なアクセスのためにシングルサインオン(SSO)を構成する方法に関する情報を、コマースマーチャントドキュメントの <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config#identity-and-single-sign-on">コマース管理者とAdobe IDとの統合を構成する</a> トピックに追加しました。</p>
+      <td><p>Adobe Systemsアプリへの安全なアクセスのためにシングルサインオン(SSO)を構成する方法に関する情報を、コマースマーチャントドキュメントの <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/start/admin/ims/adobe-ims-config#identity-and-single-sign-on">コマース管理者とAdobe IDとの統合を構成する</a> トピックに追加しました。</p>
 </td>
       <td>
         技術、フィードバック
@@ -155,7 +155,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>2025 年 10 月の B2B セキュリティパッチ <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes"> リリースノート </a> を追加しました。</p>
+      <td><p>2025 年 10 月の B2B セキュリティパッチ <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/release-notes"> リリースノート </a> を追加しました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -177,7 +177,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Systems Commerce の管理者で <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">カスタム注文属性</a> をCloud Serviceとして表示および編集する方法に関する情報を追加しました。</p>
+      <td><p>Adobe Systems Commerce の管理者で <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">カスタム注文属性</a> をCloud Serviceとして表示および編集する方法に関する情報を追加しました。</p>
 </td>
       <td>
         メジャーアップデート
