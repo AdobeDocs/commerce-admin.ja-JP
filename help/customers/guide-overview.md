@@ -18,17 +18,17 @@ ht-degree: 6%
 
 | 件名 | 説明 |
 | ------- | ----------- |
-| [ はじめに ](customers-introduction.md) | Commerce Admin での顧客管理機能の使用の概要です。 |
-| 顧客管理ツール | ストアカスタマーの管理に使用できるCommerce Admin で [[!UICONTROL Customers]](customers-all.md) grid および [[!UICONTROL Now Online] 機能 ](now-online.md) 使用する方法について説明します。 |
-| 顧客アカウント | [ ログイン ](login-landing-page.md) から [ パスワードリスト ](password-reset.md) まで、ストアフロントで登録されたお客様に最適なエクスペリエンスを提供する方法と、[ 買い物客支援を提供 ](login-as-customer.md) する方法について説明します。 |
-| [Personalization（大規模） ](personalize-scale.md) | 即時のコンテキストと以前に確認した行動に基づいて、すべての顧客タッチポイントのショッピングエクスペリエンスをパーソナライズするために使用できる機能について説明します。 |
+| [&#x200B; はじめに &#x200B;](customers-introduction.md) | Commerce Admin での顧客管理機能の使用の概要です。 |
+| 顧客管理ツール | ストアカスタマーの管理に使用できるCommerce Admin で [[!UICONTROL Customers]](customers-all.md) grid および [[!UICONTROL Now Online] 機能 &#x200B;](now-online.md) 使用する方法について説明します。 |
+| 顧客アカウント | [&#x200B; ログイン &#x200B;](login-landing-page.md) から [&#x200B; パスワードリスト &#x200B;](password-reset.md) まで、ストアフロントで登録されたお客様に最適なエクスペリエンスを提供する方法と、[&#x200B; 買い物客支援を提供 &#x200B;](login-as-customer.md) する方法について説明します。 |
+| [Personalization（大規模） &#x200B;](personalize-scale.md) | 即時のコンテキストと以前に確認した行動に基づいて、すべての顧客タッチポイントのショッピングエクスペリエンスをパーソナライズするために使用できる機能について説明します。 |
 | [[!DNL Audience Activation]](audience-activation.md) | Adobe CommerceでReal-Time CDP オーディエンスをアクティブ化して、買い物かご内の個別のオファー、動的ブロックおよび関連商品を通知できる [!DNL Audience Activation] 拡張機能について説明します。 |
-| [ 顧客グループ ](customer-groups.md) | 顧客グループを使用して、グループに割り当てられた顧客が利用できる割引と、そのグループに関連付けられている税区分を決定する方法を説明します。 |
-| [ 顧客セグメント ](customer-segments.md) | 様々なプロパティに基づいて、特定の顧客に対するコンテンツとプロモーションを動的に表示するために使用できる顧客セグメントを定義します。 |
+| [&#x200B; 顧客グループ &#x200B;](customer-groups.md) | 顧客グループを使用して、グループに割り当てられた顧客が利用できる割引と、そのグループに関連付けられている税区分を決定する方法を説明します。 |
+| [&#x200B; 顧客セグメント &#x200B;](customer-segments.md) | 様々なプロパティに基づいて、特定の顧客に対するコンテンツとプロモーションを動的に表示するために使用できる顧客セグメントを定義します。 |
 
 >[!TIP]
 >
->Adobe Commerce B2B を使用すると、個々のストアフロントの顧客アカウントに関連付けられている会社アカウントを管理できます。 会社アカウント機能について詳しくは、[Adobe Commerce B2B ユーザーガイド ](../b2b/account-companies.md) を参照してください。
+>Adobe Commerce B2B を使用すると、個々のストアフロントの顧客アカウントに関連付けられている会社アカウントを管理できます。 会社アカウント機能について詳しくは、[Adobe Commerce B2B ユーザーガイド &#x200B;](../b2b/account-companies.md) を参照してください。
 
 ## 追加ドキュメント
 
