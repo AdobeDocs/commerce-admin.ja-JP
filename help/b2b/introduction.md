@@ -40,9 +40,9 @@ Commerceのサイト管理者は、管理者から、会社が web サイトで�
 
 Adobe Commerce用サービスは、Adobe CommerceとMagento Open Sourceの機能を拡張するホストサービスです。 B2B ワークフローをサポートするサービスは次のとおりです。
 
-* [&#x200B; カタログサービス &#x200B;](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)
-* [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html)
-* [&#x200B; 製品の推奨事項 &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)
+* [&#x200B; カタログサービス &#x200B;](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=ja)
+* [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html?lang=ja)
+* [&#x200B; 製品の推奨事項 &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=ja)
 
 ## 共有カタログ
 
