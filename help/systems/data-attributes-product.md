@@ -3,7 +3,7 @@ title: 製品データ属性リファレンス
 description: 製品データの読み込みと書き出しを操作する際には、製品データ属性のこの参照を使用します。
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 976efad9fb4bb53f6f102fde534001d254cd3b9c
+source-git-commit: 3d02b1f6b3051aab133a57497bd0c30ac60bffde
 workflow-type: tm+mt
 source-wordcount: '2496'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 製品データ属性リファレンス
 
-次の表に、一般的な製品の書き出しからの属性を、デフォルトで表示される順序で示します。 CSV ファイルでは、各属性が列として表され、製品レコードは行で表されます。 アンダースコアで始まる列には、複雑なデータのプロパティやオプション値などのサービスデータが含まれます。 カタログから製品を [&#x200B; 書き出し &#x200B;](data-export.md) して、データでの各属性の表現を確認できます。
+次の表に、一般的な製品の書き出しからの属性を、デフォルトで表示される順序で示します。 CSV ファイルでは、各属性が列として表され、製品レコードは行で表されます。 アンダースコアで始まる列には、複雑なデータのプロパティやオプション値などのサービスデータが含まれます。 カタログから製品を [ 書き出し ](data-export.md) して、データでの各属性の表現を確認できます。
 
 このデータを書き出すために使用されるインストールには、サンプルデータがインストールされており、2 つの web サイトといくつかのストアビューがあります。 通常は書き出されるすべての列が含まれていますが、必要な値は `sku` のみです。 データを読み込むには、変更を加えた列のみを含めます。 `sku` は最初の列にする必要がありますが、残りの属性の順序は関係ありません。
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 | 属性 | 説明 |
 |--- |--- |
-| `sku` | （必須）在庫管理単位は、在庫の追跡に使用される一意の英数字の識別子です。 SKU の長さは最大 64 文字です。 例：`sku123`<br/>**_メモ：_**&#x200B;SKU が 64 文字を超えると、読み込みが失敗します。 |
+| `sku` | （必須）在庫管理単位は、在庫の追跡に使用される一意の英数字の識別子です。 SKU の長さは最大 64 文字です。 例：`sku123`<br/>**_Note:_** SKU が 64 文字を超えると、読み込みが失敗します。 |
 | `store_view_code` | 商品が使用可能な特定のストア表示を識別します。 空白の場合、製品はデフォルトのストア表示で使用できます。 例：`storeview1`、`english`、`spanish` |
 | `attribute_set_code` | 製品タイプに従って、製品を特定の属性セットまたは製品テンプレートに割り当てます。 例：`default`<br><br> 製品を作成した後は、読み込み機能を使用して属性セットを変更することはできません。 ただし、管理者から属性セットを変更し、製品を再度書き出して CSV ファイルを更新できます。 |
 | `product_type` | 商品のタイプを示します。 値：<br/>`simple` – 通常、単数または固定数量で販売される有形資産。<br/>`grouped`：セットとして販売される個別の製品のグループ。<br/>`configurable` – 顧客が購入する前に選択する必要がある複数のオプションを持つ製品。 在庫はバリエーションのセットごとに管理できます。これは、異なる SKU を持つ個別の製品を表すからです。 例えば、設定可能な製品の色とサイズの組み合わせは、カタログの特定の SKU に関連付けられています。<br/>`virtual` – 出荷を必要とせず、在庫に保持されていない非有形製品。 例としては、サービス、メンバーシップ、サブスクリプションがあります。<br/>`bundle` – 一緒に販売されるシンプルな製品のカスタマイズ可能な製品セット。 |
@@ -38,10 +38,10 @@ ht-degree: 0%
 | `special_price_from_date` | 特別価格が有効になる期間の開始日。 |
 | `special_price_to_date` | 特別価格が有効になる期間の最終日。 |
 | `url_key` | 製品を識別する URL の部分。 デフォルト値は製品名に基づいています。 例：`product-name` |
-| save_rewrites_history | 新しい `url_key` で値 `1` を指定すると、新しい 301 URL 書き換えが生成され、古い URL が新しい URL にリダイレクトされます。 |
+| save_rewrites_history | 新しい `1` で値 `url_key` を指定すると、新しい 301 URL 書き換えが生成され、古い URL が新しい URL にリダイレクトされます。 |
 | `meta_title` | メタタイトルは、ブラウザーと検索結果のリストのタイトルバーとタブに表示されます。 メタタイトルは、製品に固有で、価値の高いキーワードを組み込み、70 文字未満にする必要があります。 |
-| `meta_keywords` | メタキーワードは検索エンジンにのみ表示され、一部の検索エンジンでは無視されます。 値が大きいキーワードをコンマで区切って選択します。 例：`keyword1`、`keyword2`、`keyword3` |
-| `meta_description` | メタ記述は、検索結果リストの製品の概要を提供します。 フィールドの受け入れ文字数は 255 文字ですが、メタ記述の長さは 150～160 文字が理想的です。 |
+| `meta_keywords` | Metaのキーワードは検索エンジンにのみ表示され、一部の検索エンジンでは無視されます。 値が大きいキーワードをコンマで区切って選択します。 例：`keyword1`、`keyword2`、`keyword3` |
+| `meta_description` | Metaの説明では、検索結果のリストに関する製品の概要を説明します。 フィールドの受け入れ文字数は 255 文字ですが、メタ記述の長さは 150～160 文字が理想的です。 |
 | `base_image` | 製品ページのメイン画像の相対パス。 Commerceでは、ファイルは内部的にアルファベット順のフォルダー構造に保存されます。 書き出されたデータの各画像の正確な場所を確認できます。 例：`/sample_data/m/b/mb01-blue-0.jpg`<br/> 新しい画像をアップロードしたり、既存の画像を上書きしたりするには、ファイル名を入力し、その後にスラッシュを付けます。 例：`/image.jpg` |
 | `base_image_label` | ベース画像に関連付けられているラベル。 |
 | `small_image` | カタログページで使用される小さな画像のファイル名。先頭にはスラッシュを付けます。 例：`/image.jpg` |
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 設定可能な製品を書き出すと、単純な製品を構成する標準属性に加えて、複雑なデータの管理に必要な追加の属性が見つかります。
 
-![&#x200B; 設定可能な製品 – 書き出されたデータ &#x200B;](./assets/data-exported-configurable-product.png){width="600" zoomable="yes"}
+![ 設定可能な製品 – 書き出されたデータ ](./assets/data-exported-configurable-product.png){width="600" zoomable="yes"}
 
 ### 設定可能な製品
 
@@ -155,20 +155,20 @@ ht-degree: 0%
 
 ## 詳細な価格設定属性
 
-高度な価格インポート/エクスポートを使用すると、製品グループと階層価格の価格情報をすばやく更新できます。 高度な価格データを [&#x200B; インポート &#x200B;](data-import.md) および [&#x200B; エクスポート &#x200B;](data-export.md) するプロセスは、他のエンティティタイプと同じです。 サンプルの CSV ファイルには、高度な価格設定をサポートする各製品タイプの階層とグループの価格が含まれています。 詳細価格の変更は、製品レコードの残りの部分には影響しません。
+高度な価格インポート/エクスポートを使用すると、製品グループと階層価格の価格情報をすばやく更新できます。 高度な価格データを [ インポート ](data-import.md) および [ エクスポート ](data-export.md) するプロセスは、他のエンティティタイプと同じです。 サンプルの CSV ファイルには、高度な価格設定をサポートする各製品タイプの階層とグループの価格が含まれています。 詳細価格の変更は、製品レコードの残りの部分には影響しません。
 
-![&#x200B; エクスポートデータの例 – 詳細価格 &#x200B;](./assets/data-advanced-pricing-export-sample.png){width="600" zoomable="yes"}
+![ エクスポートデータの例 – 詳細価格 ](./assets/data-advanced-pricing-export-sample.png){width="600" zoomable="yes"}
 
 | 属性 | 説明 |
 |--- |--- |
-| `sku` | （必須）在庫管理単位は、在庫の追跡に使用される一意の英数字の識別子です。 SKU の長さは最大 64 文字です。 例：`sku123`<br/>**_メモ：_**&#x200B;SKU が 64 文字を超えると、読み込みが失敗します。 |
-| `tier_price_website` | [Web サイトコード &#x200B;](../stores-purchase/stores.md#add-websites) は、階層別の料金が利用可能な各 Web サイトを識別します。 例：`-  website1 -  All Websites [USD]` |
-| `tier_price_customer` | 階層別の価格設定が使用可能な [&#x200B; 顧客のグループ &#x200B;](../customers/customer-groups.md) を識別します。 例：`-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
+| `sku` | （必須）在庫管理単位は、在庫の追跡に使用される一意の英数字の識別子です。 SKU の長さは最大 64 文字です。 例：`sku123`<br/>**_Note:_** SKU が 64 文字を超えると、読み込みが失敗します。 |
+| `tier_price_website` | [Web サイトコード ](../stores-purchase/stores.md#add-websites) は、階層別の料金が利用可能な各 Web サイトを識別します。 例：`-  website1 -  All Websites [USD]` |
+| `tier_price_customer` | 階層別の価格設定が使用可能な [ 顧客のグループ ](../customers/customer-groups.md) を識別します。 例：`-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_customer_group` | 階層別の価格設定が使用可能な顧客グループを識別します。 例：`-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_qty` | 階層価格割引を受けるために注文する必要がある商品の数量。 |
-| `tier_price` | 商品の割引階層価格。 [&#x200B; バンドル製品 &#x200B;](../catalog/product-create-bundle.md) の場合、階層価格はパーセンテージで計算されます。 |
-| `group_price_website` | グループ価格を利用できる各 Web サイトの [Web サイトコード &#x200B;](../stores-purchase/stores.md#add-websites)。 複数の web サイトを指定する場合は、コンマで区切り、スペースは使用しません。 例：`-  website1 -  All Websites [USD]` |
+| `tier_price` | 商品の割引階層価格。 [ バンドル製品 ](../catalog/product-create-bundle.md) の場合、階層価格はパーセンテージで計算されます。 |
+| `group_price_website` | グループ価格を利用できる各 Web サイトの [Web サイトコード ](../stores-purchase/stores.md#add-websites)。 複数の web サイトを指定する場合は、コンマで区切り、スペースは使用しません。 例：`-  website1 -  All Websites [USD]` |
 | `group_price_customer_group` | グループ価格を利用できる顧客のグループを識別します。 例：`-  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
-| `group_price` | 商品の割引されたグループ価格。 [&#x200B; バンドル製品 &#x200B;](../catalog/product-create-bundle.md) の場合、グループ価格はパーセンテージで計算されます。 |
+| `group_price` | 商品の割引されたグループ価格。 [ バンドル製品 ](../catalog/product-create-bundle.md) の場合、グループ価格はパーセンテージで計算されます。 |
 
 {style="table-layout:auto"}
