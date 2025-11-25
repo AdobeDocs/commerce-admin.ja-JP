@@ -3,8 +3,8 @@ title: Adobe Identity Management Service （IMS）統合の概要
 description: Adobe Commerce管理者ログインとAdobe IMSのオプション統合を導入します
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Adobe Commerce アカウントを持つAdobe管理者ユーザーは、Adobe ID�
 
 Commerce管理 IMS 統合に必要なモジュールは、Adobe Commerce コアリリースにバンドルされている `adobe-ims-metapackage` にパッケージ化されています。
 
-この統合を実装するには、[IMS を使用したCommerce管理者の統合の設定 &#x200B;](./adobe-ims-config.md) を参照してください。
+この統合を実装するには、[IMS を使用したCommerce管理者の統合の設定 ](./adobe-ims-config.md) を参照してください。
 
 ## IMS との統合後の管理ワークフローおよびインターフェイスの変更
 
@@ -40,9 +40,9 @@ Commerce アプリケーションのユーザーアカウントとロール権�
 
 Commerce インスタンスでAdobe IMSによる管理者認証が有効になっている場合、Commerce管理 API は影響を受けます。 管理者ユーザーは、Commerce インスタンスが発行した資格情報を使用できなくなります。 これらは、管理者にログインし、サービスが管理者の REST API およびSOAP API にリクエストを行うために使用できるアクセストークンを取得するために必要な資格情報です。
 
-Adobe IMS統合が有効になると、管理者ユーザーは、認証を必要とするAdobe Commerce API エンドポイントに対して [&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/OAuthIntegration/)0&rbrace;Adobe IMS OAuth トークン &rbrace; を使用する必要があります。 クライアントソリューションは、web API で使用するためにトークンを動的に取得します。 この認証メカニズムは、この統合の設定の一環として、REST およびSOAP Web API 領域に対して有効になっています。
+Adobe IMS統合が有効になると、管理者ユーザーは、認証を必要とするAdobe Commerce API エンドポイントに対して [0}Adobe IMS OAuth トークン } を使用する必要があります。](https://developer.adobe.com/developer-console/docs/guides/authentication/) クライアントソリューションは、web API で使用するためにトークンを動的に取得します。 この認証メカニズムは、この統合の設定の一環として、REST およびSOAP Web API 領域に対して有効になっています。
 
-Web API でのCommerce アクセストークンの使用方法（IMS アクセストークンを含む）の概要については、[&#x200B; トークンベースの認証 &#x200B;](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/) を参照してください。
+Web API でのCommerce アクセストークンの使用方法（IMS アクセストークンを含む）の概要については、[ トークンベースの認証 ](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/) を参照してください。
 
 ## Commerce セッション管理およびAdobe IMSアクセストークン
 
@@ -70,4 +70,4 @@ Web API でのCommerce アクセストークンの使用方法（IMS アクセ�
 
 Adobe IMSメタパッケージは、Adobe Commerce 2.4.5 以降でインストールされますが、使用するように設定する必要があります。 `AdobeIms` モジュールを拡張して、認証ロジック（`AdminAdobeIms`）を有効にするモジュールをサポートします。
 
-Adobe IMSの有効化について詳しくは、[&#x200B; 統合を使用したCommerce Admin 統合の設定 &#x200B;](./adobe-ims-config.md) を参照してください。
+Adobe IMSの有効化について詳しくは、[ 統合を使用したCommerce Admin 統合の設定 ](./adobe-ims-config.md) を参照してください。
