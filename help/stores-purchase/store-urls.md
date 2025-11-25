@@ -3,7 +3,7 @@ title: URL を格納
 description: ストア URL と、ベース URL およびストアコードの設定方法について説明します。
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
 source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '1529'
@@ -138,7 +138,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトですべてのペー�
 
 ## カスタム管理 URL を使用
 
-[&#x200B; セキュリティのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) として、Adobeでは、デフォルトの _管理者_ や一般的な用語（_バックエンド_ ではなく、一意の管理者 URL を使用することをお勧めします。 判定された不正アクターからサイトを直接保護することはありませんが、不正アクセスを試みるスクリプトへの露出を減らすことができます。
+[&#x200B; セキュリティのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=ja) として、Adobeでは、デフォルトの _管理者_ や一般的な用語（_バックエンド_ ではなく、一意の管理者 URL を使用することをお勧めします。 判定された不正アクターからサイトを直接保護することはありませんが、不正アクセスを試みるスクリプトへの露出を減らすことができます。
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトですべてのペー�
 
 >[!NOTE]
 >
->予防措置として、サーバー上の設定ファイルの編集方法がわからない場合は、管理者 URL を自分で変更しないでください。 クラウドインフラストラクチャー上にデプロイされたAdobe Commerce プロジェクトの場合は、[&#x200B; クラウドインフラストラクチャー上のAdobe Commerce ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html#admin-url) の *手順* に従って、管理者 URL を変更します。
+>予防措置として、サーバー上の設定ファイルの編集方法がわからない場合は、管理者 URL を自分で変更しないでください。 クラウドインフラストラクチャー上にデプロイされたAdobe Commerce プロジェクトの場合は、[&#x200B; クラウドインフラストラクチャー上のAdobe Commerce ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=ja#admin-url) の *手順* に従って、管理者 URL を変更します。
 
 ### 方法 1：管理者から変更する
 
@@ -200,7 +200,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトですべてのペー�
 
    >[!TIP]
    >
-   >クラウドインフラストラクチャー上のAdobe Commerceの場合、Cloud UI の `ADMIN_URL` 変数を使用してカスタム管理パスを設定できます。 [2&rbrace;Cloud Infrastructure ガイドのCommerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) 管理者変数に関するトピック _を参照してください。_
+   >クラウドインフラストラクチャー上のAdobe Commerceの場合、Cloud UI の `ADMIN_URL` 変数を使用してカスタム管理パスを設定できます。 [2&rbrace;Cloud Infrastructure ガイドのCommerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=ja) 管理者変数に関するトピック _を参照してください。_
 
    - **デフォルトの管理パス**
 

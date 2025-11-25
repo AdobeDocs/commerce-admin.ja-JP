@@ -51,7 +51,7 @@ Adobe Commerce バージョン 2.4.6、2.4.7、および 2.4.8 では、従来�
 
 USPS の配送サービスが中断されないようにするには、2026 年 1 月 25 日（PT）より前に次の操作を行ってください。
 
-- [USPS REST API 移行品質パッチ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) を適用して、USPS REST API との統合のサポートを追加します。
+- [USPS REST API 移行品質パッチ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) を適用して、USPS REST API との統合のサポートを追加します。
 
 - REST API を使用するようにCommerce USPS 設定を更新します。
 
