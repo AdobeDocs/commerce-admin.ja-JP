@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ### [!UICONTROL Flat Rate]
 
-![ 定額料金 ](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
+![&#x200B; 定額料金 &#x200B;](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
 <!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Web サイト | 有効にすると、買い物かごの _配送料と税金の見積もり_ セクションと、チェックアウト時の _配送_ セクションに定額レートがオプションとして表示されます。 オプション：`Yes` / `No` |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時にこの発送方法に使用される名前。 |
@@ -41,11 +41,11 @@ ht-degree: 0%
 
 ### [!UICONTROL Free Shipping]
 
-![ 送料無料 ](./assets/delivery-methods-free-shipping.png)<!-- zoom -->
+![&#x200B; 送料無料 &#x200B;](./assets/delivery-methods-free-shipping.png)<!-- zoom -->
 
 <!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Web サイト | 有効にすると、チェックアウト時に「送料」が「送料」セクションにオプションとして表示されます。 オプション：`Yes` / `No` |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時にこの発送方法に使用される名前。 |
@@ -62,11 +62,11 @@ ht-degree: 0%
 
 ### [!UICONTROL Table Rates]
 
-![ テーブル料率 ](./assets/delivery-methods-table-rates.png)<!-- zoom -->
+![&#x200B; テーブル料率 &#x200B;](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
 <!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Web サイト | 有効にすると、テーブル料金は、買い物かごの出荷と税金の見積もりセクション、およびチェックアウト時の出荷セクションにオプションとして表示されます。 オプション：`Yes` / `No` |
 | [!UICONTROL Title] | ストア表示 | チェックアウト時にこの発送方法に使用される名前。 |
@@ -85,11 +85,11 @@ ht-degree: 0%
 
 ### [!UICONTROL In-Store Delivery]
 
-![ 店舗での配信 ](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
+![&#x200B; 店舗での配信 &#x200B;](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
 <!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Web サイト | 有効にすると、店舗での配信が、買い物かごの _送料と税金の見積もり_ セクションおよびチェックアウト時の _送料_ セクションにオプションとして表示されます。 オプション：`Yes` / `No` |
 | [!UICONTROL Method Name] | ストア表示 | 店舗内集荷機能を出荷方法として識別する名前。 この値は、配送チェックアウトページの上部にあるタブのラベルとして、また同じページの下部にある利用可能な配送方法のテーブルとして表示されます。 デフォルト値は `In-store Delivery` です。 |
@@ -106,13 +106,13 @@ ht-degree: 0%
 
 {{ups-api}}
 
-![UPS REST アカウントの設定 ](./assets/delivery-methods-ups1.png)<!-- zoom -->
+![UPS REST アカウントの設定 &#x200B;](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-![UPS XML アカウントの設定 ](./assets/delivery-methods-ups1.png)<!-- zoom -->
+![UPS XML アカウントの設定 &#x200B;](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
 <!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled for Checkout] | Web サイト | チェックアウト時に配送方法として顧客が UPS を利用できるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Enabled for RMA] | Web サイト | RMA の出荷方法として顧客が UPS を利用できるかどうかを決定します。 オプション：`Yes` / `No` |
@@ -128,18 +128,18 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![UPS パッケージ情報 ](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
+![UPS パッケージ情報 &#x200B;](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
 <!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | _[!UICONTROL UPS Negotiated Rate Settings]_ |  |  |
 | [!UICONTROL Enable Negotiated Rates] | Web サイト | （UPS REST のみ） UPS との契約に従って、特別料金を有効または無効にします。 オプション：`Yes` / `No` |
 | [!UICONTROL Packages Request Type] | Web サイト | 複数のパッケージを含む出荷の重量の計算方法を決定します。 オプション：`Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
 | [!UICONTROL Shipper Number] | Web サイト | （UPS REST のみ）交渉レートを使用するための参照には、6 文字の UPS 荷主番号が必要です。 |
 | [!UICONTROL Container] | Web サイト | 出荷をパッケージ化するために使用するコンテナタイプを設定します。 オプション：`Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
-| [!UICONTROL Weight Unit] | Web サイト | ストアの商品の重量の既定の測定単位を設定します。 詳細は、[ 次元の重み付け ](../../stores-purchase/carriers.md#dimensional-weight) を参照してください。 |
+| [!UICONTROL Weight Unit] | Web サイト | ストアの商品の重量の既定の測定単位を設定します。 詳細は、[&#x200B; 次元の重み付け &#x200B;](../../stores-purchase/carriers.md#dimensional-weight) を参照してください。 |
 | [!UICONTROL Tracking URL] | Web サイト | （UPS REST のみ）パッケージの追跡に使用される UPS URL。 実稼動には `https://onlinetools.ups.com/api/track` を、サンドボックスセットアップには `https://wwwcie.ups.com/api/track` を使用します。 |
 | [!UICONTROL Destination Type] | Web サイト | 既定の出荷先タイプを設定します。 オプション：`Business` / `Residential` |
 | [!UICONTROL Maximum Package Weight] | Web サイト | UPS によって指定されているように、パッケージが指定できる最大重量を設定します。 注文した商品がパッケージの最大重量を超えている場合、この配送オプションは利用できません。 [UPS.com](https://www.ups.com/us/en/global.page) によると、パッケージは 150 ポンド（70 kg）を超えることはできません。最大重量を確認するには、配送業者に確認してください。 |
@@ -151,29 +151,29 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![UPS 許可メソッド ](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
+![UPS 許可メソッド &#x200B;](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
 <!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | _[!UICONTROL UPS allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Web サイト | 顧客に提供される UPS 配送の許可される方法を指定します。 配送料は、選択した配送方法に基づいて計算されます。 |
-| [!UICONTROL Free Method] | Web サイト | UPS を通じた送料無料の方法に使用される方法を識別します。 送料無料を無効にするには、「なし」を選択します。 <br/><br/>**_Note:_** この方法は基本的な [ 送料無料 ](../../stores-purchase/shipping-free.md) に似ていますが、チェックアウト時に UPS 配送オプションとして表示されます。 |
+| [!UICONTROL Free Method] | Web サイト | UPS を通じた送料無料の方法に使用される方法を識別します。 送料無料を無効にするには、「なし」を選択します。 <br/><br/>**_Note:_** この方法は基本的な [&#x200B; 送料無料 &#x200B;](../../stores-purchase/shipping-free.md) に似ていますが、チェックアウト時に UPS 配送オプションとして表示されます。 |
 | [!UICONTROL Free Shipping Amount Threshold] | Web サイト | 注文金額が送料無料しきい値を満たした場合に、送料無料を適用するかどうかを決定します。 オプション：`Enable` / `Disable` |
 | [!UICONTROL Free Shipping Amount Threshold] | Web サイト | 注文が送料無料の対象になるために到達する必要のある最小合計金額を設定します。 |
 | [!UICONTROL Displayed Error Message] | ストア表示 | この発送方法が何らかの理由で利用できない場合に表示されるエラーメッセージ。 |
 
 {style="table-layout:auto"}
 
-![UPS 対象国等 ](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
+![UPS 対象国等 &#x200B;](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
 <!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | _[!UICONTROL UPS Applicable countries and other Settings]_ |  |  |
-| [!UICONTROL Ship to Applicable Countries] | Web サイト | 顧客がこの配送方法を使用できる国を指定します。 オプション：<br/>**`All Allowed Countries`**– お客様のストア設定で指定されたすべての [ 国 ](../../getting-started/store-details.md#country-options) のお客様がこの配送方法を使用できます。<br/>**`Specific Countries`** – このオプションを選択すると、[!UICONTROL Ship to Specific Countries] のリストが表示されます。 この配送方法を使用できる国をリストから選択してください。 |
+| [!UICONTROL Ship to Applicable Countries] | Web サイト | 顧客がこの配送方法を使用できる国を指定します。 オプション：<br/>**`All Allowed Countries`**– お客様のストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../../getting-started/store-details.md#country-options) のお客様がこの配送方法を使用できます。<br/>**`Specific Countries`** – このオプションを選択すると、[!UICONTROL Ship to Specific Countries] のリストが表示されます。 この配送方法を使用できる国をリストから選択してください。 |
 | [!UICONTROL Show Method if Not Applicable] | Web サイト | チェックアウト時に UPS が常に配送オプションとして表示されるかどうかを指定します。 オプション：<br/>**`Yes`**- UPS は、注文に適用されない場合でも、チェックアウト時に常に配送オプションとして表示されます。<br/>**`No`** - UPS は、注文に該当する場合にのみ、チェックアウト時に出荷オプションとして表示されます。 （例えば、注文の重みが最大重み付け金額を超えている場合）。 |
 | [!UICONTROL Debug] | Web サイト | ストアと UPS 間のデータ転送がデバッグのためにシステムに記録されるかどうかを指定します。 追跡して記録する必要がある問題がない限り、このオプションは `No` に設定してください。 |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に UPS が他の配信方法と共に一覧表示される際に表示される順序を決定する数値です。 リストの上部に `0` と入力します。 |
@@ -182,7 +182,7 @@ ht-degree: 0%
 
 ### [!UICONTROL USPS]
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | チェックアウトを有効 | Web サイト | チェックアウト時に配送方法として顧客が USPS を利用できるかどうかを決定します。 オプション：`Yes` / `No` |
 | _[!UICONTROL USPS Account Settings]_ |  |  |
@@ -195,9 +195,9 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-次のフィールドは、[USPS REST API 移行品質パッチ ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) を適用した場合にのみ使用できます。 このパッチは、Web ツール API に代わる REST ベースのプラットフォームである USPS API のサポートを有効にします。 詳しくは、[USPS Web Tools API の廃止 ](../../stores-purchase/carriers.md) を参照してください。
+次のフィールドは、[USPS REST API 移行品質パッチ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) を適用した場合にのみ使用できます。 このパッチは、Web ツール API に代わる REST ベースのプラットフォームである USPS API のサポートを有効にします。 詳しくは、[USPS Web Tools API の廃止 &#x200B;](../../stores-purchase/carriers.md) を参照してください。
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL USPS Type] | Web サイト | 使用する API に応じて **USPS Rest API** または **USPS Web Tools API** を選択します。 |
 | [!UICONTROL Consumer Key] | Web サイト | REST API 用の USPS 荷主アカウントのクライアント ID。 |
@@ -212,11 +212,11 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![USPS パッケージ設定 ](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
+![USPS パッケージ設定 &#x200B;](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
 <!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | _[!UICONTROL USPS packaging Settings]_ |  |  |
 | [!UICONTROL Packages Request Type] | Web サイト | 複数のパッケージを含む出荷の重量の計算方法を決定します。 オプション：`Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
@@ -227,11 +227,11 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![USPS 手数料の設定 ](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
+![USPS 手数料の設定 &#x200B;](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
 <!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Web サイト | テーブル レート配送の処理料金計算方法を設定します。 オプション：<br/>**`Fixed`**– 手数料は固定レートです。<br/>**`Percent`** – 手数料は、注文額に対する割合として適用されます。 |
@@ -240,11 +240,11 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![USPS 許可メソッド ](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
+![USPS 許可メソッド &#x200B;](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
 <!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | _[!UICONTROL USPS Allowed Methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Web サイト | 顧客に提供される USPS 配送で許可される方法を指定します。 配送料は、選択した配送方法に基づいて計算されます。 |
@@ -254,14 +254,14 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![USPS 対象国 ](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
+![USPS 対象国 &#x200B;](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
 <!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | _[!UICONTROL USPS Applicable Countries]_ |  |  |
-| [!UICONTROL Ship to Applicable Countries] | Web サイト | 注文を発送できる国を指定します。 オプション：<br/>**`All Allowed Countries`**– お客様のストア設定で指定されたすべての [ 国 ](../../getting-started/store-details.md#country-options) のお客様がこの配送方法を使用できます。<br/>**`Specific Countries`** – このオプションを選択すると、[!UICONTROL Ship to Specific Countries] のリストが表示されます。 この配送方法を使用できる国をリストから選択してください。 |
+| [!UICONTROL Ship to Applicable Countries] | Web サイト | 注文を発送できる国を指定します。 オプション：<br/>**`All Allowed Countries`**– お客様のストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../../getting-started/store-details.md#country-options) のお客様がこの配送方法を使用できます。<br/>**`Specific Countries`** – このオプションを選択すると、[!UICONTROL Ship to Specific Countries] のリストが表示されます。 この配送方法を使用できる国をリストから選択してください。 |
 | [!UICONTROL Show Method if Not Applicable] | Web サイト | チェックアウト時の USPS 配送の表示を制御します。 オプション：<br/>**`Yes`**- USPS は、注文に適用されない場合でも、チェックアウト時に常に配送オプションとして表示されます。<br/>**`No`** - USPS は、注文に適用される場合（つまり、注文の重みが最大重み付け金額を超える場合）にのみ、チェックアウト時に出荷オプションとして表示されます。 |
 | [!UICONTROL Debug] | Web サイト | ストアと USPS 間のデータ転送のログが、デバッグ用にシステムによって維持されているかどうかを決定します。 追跡して記録する必要がある問題がない限り、このオプションは `No` に設定してください。 |
 | [!UICONTROL Sort Order] | Web サイト | チェックアウト時に USPS が他の配信方法と一緒にリストされたときに表示される順序を決定する数値です。 リストの上部に `0` と入力します。 |
@@ -274,9 +274,9 @@ ht-degree: 0%
 
 #### FedEx アカウントの設定
 
-![FedEx アカウント設定 ](./assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
+![FedEx アカウント設定 &#x200B;](./assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |-------|------ |-----------------------------------------------------------------------------|
 | [!UICONTROL Enabled for Checkout] | Web サイト | チェックアウト時に配送方法として顧客が FedEx を利用できるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Title] | ストア表示 | 買い物かごのチェックアウトに表示されるこの配送オプションのタイトル。 |
@@ -290,9 +290,9 @@ ht-degree: 0%
 
 #### FedEx パッケージ設定
 
-![FedEx パッケージ ](./assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
+![FedEx パッケージ &#x200B;](./assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Pickup Type] | Web サイト | リストから、受け取り方法を選択します。<br/>**`DropOff at Fedex Location`**- （デフォルト）現地の FedEx 駅で出荷をドロップ オフすることを示します。<br/>**`Contact Fedex to Schedule`** - FedEx に連絡して集荷を依頼することを示します。 <br/>**`Use Scheduled Pickup`**– 出荷が通常のスケジュール済の集荷の一部として集荷されることを示します。<br/>**`On Call`** - FedEx を呼び出してピックアップがスケジュールされていることを示します。 <br/>**`Package Return Program`**– 出荷が FedEx Ground Package Returns プログラムによって受け取られることを示します。<br/>**`Regular Stop`** – 出荷が通常の集荷スケジュールで集荷されることを示します。 <br/>**`Tag`**– 出荷集荷が Express タグまたは Ground コール タグの集荷要求に固有であることを示します。 これは、返品配送ラベルにのみ適用されます。 |
 | [!UICONTROL Packages Request Type] | Web サイト | 複数のパッケージを含む出荷の重量の計算方法を決定します。 オプション：`Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
@@ -304,9 +304,9 @@ ht-degree: 0%
 
 #### FedEx 処理料金設定
 
-![FedEx 手数料 ](./assets/delivery-methods-fedex-handling-fee.png){width="600" zoomable="yes"}
+![FedEx 手数料 &#x200B;](./assets/delivery-methods-fedex-handling-fee.png){width="600" zoomable="yes"}
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Calculate Handling Fee] | Web サイト | 手数料の計算に使用する方法を決定します。 オプション：`Fixed Fee` / `Percentage` <br/><br/>**_Note:_** 手数料は任意で、FedEx の送料に追加される追加料金として表示されます。 |
 | [!UICONTROL Handling Applied] | Web サイト | 手数料の適用方法を決定します。 オプション：`Per Order` / `Per Package` |
@@ -316,9 +316,9 @@ ht-degree: 0%
 
 #### FedEx 配信方法
 
-![FedEx 配信方法 ](./assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
+![FedEx 配信方法 &#x200B;](./assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Residential Delivery] | Web サイト | B2C 販売か B2B 販売かに応じて、次のいずれかに設定します。<br/>**`Yes`**- B2C 配信用<br/>**`No`** - B2B 配信用 |
 | [!UICONTROL Allowed Methods] | Web サイト | リストから、サポートする出荷方法を選択します。 方法は、FedEx アカウント、配送頻度とサイズ、国際配送を許可しているかどうかによって異なります。 商人として、あなたは地上輸送のみを提供することを決定するかもしれません。 |
@@ -332,11 +332,11 @@ ht-degree: 0%
 
 #### FedEx の適用可能な国設定
 
-![FedEx 適用国 ](./assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
+![FedEx 適用国 &#x200B;](./assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Ship to Applicable Countries] | Web サイト | 顧客が FedEx で出荷できる国を示します。 オプション：<br/>**`All Allowed Countries`**– お客様のストア設定で指定されたすべての [ 国 ](../../getting-started/store-details.md#country-options) のお客様がこの配送方法を使用できます。<br/>**`Specific Countries`** – このオプションを選択すると、[!UICONTROL Ship to Specific Countries] のリストが表示されます。 この配送方法を使用できる国をリストから選択してください。 |
+| [!UICONTROL Ship to Applicable Countries] | Web サイト | 顧客が FedEx で出荷できる国を示します。 オプション：<br/>**`All Allowed Countries`**– お客様のストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../../getting-started/store-details.md#country-options) のお客様がこの配送方法を使用できます。<br/>**`Specific Countries`** – このオプションを選択すると、[!UICONTROL Ship to Specific Countries] のリストが表示されます。 この配送方法を使用できる国をリストから選択してください。 |
 | [!UICONTROL Ship to Specific Countries] | Web サイト | 顧客が FedEx で出荷できる特定の国を示します。 |
 | [!UICONTROL Debug] | Web サイト | ストアと FedEx 間のデータ転送のログが、デバッグのためにシステムによって維持されているかどうかを決定します。 追跡して記録する必要がある問題がない限り、このオプションは `No` に設定してください。 |
 | [!UICONTROL Show Method if Not Applicable] | Web サイト | チェックアウト時に FedEx が配送方法として表示されるタイミングを指定します。 オプション：<br/>**`Yes`**- 「FedEx 出荷」オプションは、受注に使用の資格があるかどうかに関係なく、搬送方法リストに表示されます。<br/>**`No`** – 注文に適用できない場合（例えば、注文の重みが最大の重み付け量を超えている場合）、FedEx の配送オプションは配信方法リストに表示されません。 |
@@ -346,11 +346,11 @@ ht-degree: 0%
 
 ### [!UICONTROL DHL]
 
-![DHL アカウント設定 ](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
+![DHL アカウント設定 &#x200B;](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
 <!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | _[!UICONTROL DHL Account Settings]_ |  |  |
 | [!UICONTROL Enabled for Checkout] | Web サイト | チェックアウト時に配送方法として顧客が DHL を利用できるかどうかを決定します。 オプション：`Yes` / `No` |
@@ -362,11 +362,11 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![DHL パッケージ設定 ](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
+![DHL パッケージ設定 &#x200B;](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
 <!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | _[!UICONTROL DHL Package Settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Web サイト | 手数料は任意で、DHL の送料に追加される追加料金として表示されます。 リストから、手数料の計算に使用する方法を選択します。 オプション：固定料金/パーセンテージ。 |
@@ -378,11 +378,11 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![DHL 許可メソッド ](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
+![DHL 許可メソッド &#x200B;](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
 <!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | _[!UICONTROL DHL allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Web サイト | リストで、サポートする各出荷方法を選択します。 |
@@ -394,11 +394,11 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![DHL 対象国 ](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
+![DHL 対象国 &#x200B;](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
 <!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | _[!UICONTROL DHL applicable countries]_ |  |  |
 | [!UICONTROL Ship to Applicable Countries] | Web サイト | 顧客がこの配送方法を使用できる国を指定します。 オプション：<br/>**すべての許可された国** – すべての許可された国は、送料無料の方法を使用するために適用されます。 許可される国は、[!UICONTROL General] の設定ページで指定します。 <br/>**特定の国** – この配送オプションを「特定の国への配送」リストで指定された国に制限します。 |
