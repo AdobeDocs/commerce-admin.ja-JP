@@ -2,7 +2,7 @@
 title: データフィード同期ステータスの監視
 description: データ書き出しの同期を監視し、 [!DNL Catalog Service]、 [!DNL Live Search]、 [!DNL Product Recommendations] のフィード処理に関する問題や遅延を特定します。
 feature: Products, Customers, Data Import/Export
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
 source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '1458'
@@ -38,24 +38,24 @@ Adobe Commerce管理者は、Commerce Admin のデータフィード同期ステ
 
 >[!TIP]
 >
->データ同期プロセスの詳細については、『 [SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization) の *SaaS データ書き出しによるデータの同期* を参照してください。
+>データ同期プロセスの詳細については、『 [SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/saas-data-export/data-synchronization) の *SaaS データ書き出しによるデータの同期* を参照してください。
 
 ## 拡張機能のインストール
 
 データフィードステータス ページは、次のCommerce サービスのライセンスがアクティブなすべてのCommerce マーチャントが利用できます。
 
-* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
-* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)
-* アクティブなライセンスを持つ [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)。
+* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/guide-overview)
+* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/ja/docs/commerce/live-search/guide-overview)
+* アクティブなライセンスを持つ [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/ja/docs/commerce/catalog-service/guide-overview)。
 
 **要件**
 
 * PHP 8.1、8.2、8.3、または 8.4
 * Adobe Commerce 2.4.4 以降
-* [Adobe Commerce Data Export Extension](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/manage-extension)、バージョン 103.4.15 以降
+* [Adobe Commerce Data Export Extension](https://experienceleague.adobe.com/ja/docs/commerce/saas-data-export/manage-extension)、バージョン 103.4.15 以降
 * [repo.magento.com](https://repo.magento.com) へのアクセス
 
-  キーを生成し必要な権限を取得するには、[&#x200B; 認証キーの取得 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) を参照してください。 クラウドインストールについては、[Commerce on Cloud Infrastructure ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys) を参照してください。
+  キーを生成し必要な権限を取得するには、[&#x200B; 認証キーの取得 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) を参照してください。 クラウドインストールについては、[Commerce on Cloud Infrastructure ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/authentication-keys) を参照してください。
 
 * Adobe Commerce アプリケーションサーバーのコマンドラインにアクセスします。
 
@@ -69,9 +69,9 @@ composer require magento/module-data-exporter-status
 
 インストール手順について詳しくは、次のガイドを参照してください。
 
-* [&#x200B; クラウドインフラストラクチャー上のAdobe Commerceに拡張機能をインストール &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+* [&#x200B; クラウドインフラストラクチャー上のAdobe Commerceに拡張機能をインストール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/configure-store/extensions)
 
-* [&#x200B; 拡張機能Adobe Commerceをオンプレミスでインストール &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
+* [&#x200B; 拡張機能Adobe Commerceをオンプレミスでインストール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## データフィードのステータス ページにアクセスします
 
@@ -133,7 +133,7 @@ Commerce管理者で、Commerce管理者（**[!DNL System]** / データ転送/ 
 
 >[!TIP]
 >
->インデックス処理の詳細については、「[&#x200B; インデックス管理 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management)」を参照してください。
+>インデックス処理の詳細については、「[&#x200B; インデックス管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/tools/index-management)」を参照してください。
 
 #### 変更ログバックログ
 
@@ -165,7 +165,7 @@ Commerce データベース内の製品およびカテゴリ関連のエンテ�
 
 >[!NOTE]
 >
->Adobeには、開発者やシステムインテグレーターが同期処理の管理と追跡に使用できるコマンドラインインターフェイスツールとシステムログも用意されています。 詳細については、「[SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)」を参照してください。
+>Adobeには、開発者やシステムインテグレーターが同期処理の管理と追跡に使用できるコマンドラインインターフェイスツールとシステムログも用意されています。 詳細については、「[SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-merchant-services/saas-data-export/overview)」を参照してください。
 
 ### 失敗した書き出しの管理
 
@@ -265,5 +265,5 @@ Commerce データベース内の製品およびカテゴリ関連のエンテ�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; データ管理ダッシュボード &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)
->* [SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)
+>* [&#x200B; データ管理ダッシュボード &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)
+>* [SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-merchant-services/saas-data-export/overview)
