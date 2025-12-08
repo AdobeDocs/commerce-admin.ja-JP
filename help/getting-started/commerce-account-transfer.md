@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ビジネス上の責任が変わると、Commerce アカウントを新しい所有者または別のメールアドレスに転送する必要が生じる場合があります。 この転送では、アカウントに関連付けられたプライマリユーザーのメールを変更する必要があります。
 
-次に、Commerce（MAGEID）アカウントを転送するプロセスについて説明します。 クラウドアカウント（クラウドプロジェクトまたはNew Relic）の所有権の変更は含まれません。 Commerce クラウドプロジェクトのアクセスについて詳しくは、[Cloud Infrastructure ガイドの &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) ユーザーアクセスの管理 _を参照してください_
+次に、Commerce（MAGEID）アカウントを転送するプロセスについて説明します。 クラウドアカウント（クラウドプロジェクトまたはNew Relic）の所有権の変更は含まれません。 Commerce クラウドプロジェクトのアクセスについて詳しくは、[Cloud Infrastructure ガイドの &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=ja) ユーザーアクセスの管理 _を参照してください_
 
 >[!IMPORTANT]
 >
->新しいアカウント所有者が共有アクセスを使用して拡張機能を購入した場合、アカウント転送プロセスが開始されるとすぐに、それらの拡張機能へのアクセス権が失われます。 アカウントの移行をリクエストする前に、新しい所有者が [&#x200B; マーケットプレイスのアカウント &#x200B;](https://commercemarketplace.adobe.com/sales/order/history/) から購入の注文 ID を取得し、[&#x200B; マーケットプレイスのチーム &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) からそれらの拡張機能の払い戻しをリクエストしていることを確認してください。 拡張機能の購入を別のアカウントに転送することはできません。
+>新しいアカウント所有者が共有アクセスを使用して拡張機能を購入した場合、アカウント転送プロセスが開始されるとすぐに、それらの拡張機能へのアクセス権が失われます。 アカウントの移行をリクエストする前に、新しい所有者が [&#x200B; マーケットプレイスのアカウント &#x200B;](https://commercemarketplace.adobe.com/sales/order/history/) から購入の注文 ID を取得し、[&#x200B; マーケットプレイスのチーム &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) からそれらの拡張機能の払い戻しをリクエストしていることを確認してください。 拡張機能の購入を別のアカウントに転送することはできません。
 
 ## 転送タイプの識別
 
@@ -120,7 +120,7 @@ Commerce アカウントの転送の種類は、現在のオーナーと新し�
 >
 >確認コードが記載されたメールを取得できるように、メールアドレスにアクセスできる必要があります。
 >
->アカウントのメールにアクセスできない場合は、IT チームに依頼して、会社のメールシステムでアカウントのメールアドレスのメール転送を設定してください。 メール転送を設定できない場合は、新しいアカウントオーナーにAdobe IDがあることを確認し、アカウント転送に必要なすべての詳細と共に [&#x200B; サポートリクエストを送信 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) します。
+>アカウントのメールにアクセスできない場合は、IT チームに依頼して、会社のメールシステムでアカウントのメールアドレスのメール転送を設定してください。 メール転送を設定できない場合は、新しいアカウントオーナーにAdobe IDがあることを確認し、アカウント転送に必要なすべての詳細と共に [&#x200B; サポートリクエストを送信 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) します。
 
 1. 「**[!UICONTROL Change]**」をクリックします。
 
@@ -172,4 +172,4 @@ Commerce アカウントの転送の種類は、現在のオーナーと新し�
 
 ## 最終手順
 
-新しい所有者が 1 番目または 3 番目のユースケースの手順を完了したら、新しい所有者は [&#x200B; サポートリクエストを送信 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case) して、メールアドレスの更新をサポートチームに通知する必要があります。 その後、サポートチームは、[Commerce Marketplace](https://commercemarketplace.adobe.com/) プロファイルのメールアドレスの更新など、追加のタスクを完了します。 リクエストには、以前のアカウント所有者のメールアドレスを含めます。
+新しい所有者が 1 番目または 3 番目のユースケースの手順を完了したら、新しい所有者は [&#x200B; サポートリクエストを送信 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case) して、メールアドレスの更新をサポートチームに通知する必要があります。 その後、サポートチームは、[Commerce Marketplace](https://commercemarketplace.adobe.com/) プロファイルのメールアドレスの更新など、追加のタスクを完了します。 リクエストには、以前のアカウント所有者のメールアドレスを含めます。
