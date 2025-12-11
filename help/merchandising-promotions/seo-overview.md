@@ -16,25 +16,25 @@ _検索エンジン最適化_ （SEO）は、サイトのコンテンツと表�
 
 >[!TIP]
 >
->Adobe Commerce as a Cloud Serviceについては、Commerce ストアフロントドキュメントの [SEO ガイドライン ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) を参照してください
+>Adobe Commerce as a Cloud Serviceについては、Commerce ストアフロントドキュメントの [SEO ガイドライン &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) を参照してください
 
 ## メタデータ
 
-[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
-サイトやストアに対してキーワードの多い [ メタデータ ](meta-data.md) を追加および強化する方法の詳細を説明します。
+サイトやストアに対してキーワードの多い [&#x200B; メタデータ &#x200B;](meta-data.md) を追加および強化する方法の詳細を説明します。
 
 ## サイトマップの使用
 
-[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
-[ サイト マップ ](sitemap-xml.md) を使用すると、検索エンジンによるストアのインデックス作成方法が向上し、Web クローラーによって見落とされる可能性のあるページを検索できます。 サイトマップは、すべてのページと画像のインデックスを作成するように設定できます。
+[&#x200B; サイト マップ &#x200B;](sitemap-xml.md) を使用すると、検索エンジンによるストアのインデックス作成方法が向上し、Web クローラーによって見落とされる可能性のあるページを検索できます。 サイトマップは、すべてのページと画像のインデックスを作成するように設定できます。
 
 ## URL の書き換え
 
-[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
-[URL 書き換え ](url-rewrite.md) ツールを使用すると、商品、カテゴリまたはCMSページに関連付けられている URL を変更できます。
+[URL 書き換え &#x200B;](url-rewrite.md) ツールを使用すると、商品、カテゴリまたはCMSページに関連付けられている URL を変更できます。
 
 ## 検索エンジンロボット
 
@@ -74,15 +74,15 @@ Commerceで生成される robots.txt ファイルには、システムで内部
 
 ### `robots.txt` の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. グリッドの最初の行で **[!UICONTROL Global]** 設定を見つけ、「**[!UICONTROL Edit]**」をクリックします。
 
-   ![ グローバル設計設定 ](./assets/design-configuration-grid.png){width="700" zoomable="yes"}
+   ![&#x200B; グローバル設計設定 &#x200B;](./assets/design-configuration-grid.png){width="700" zoomable="yes"}
 
-1. 下にスクロールして、「![」セクションの ](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Search Engine Robots]** を展開し、次の操作を行います。
+1. 下にスクロールして、「![」セクションの &#x200B;](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Search Engine Robots]** を展開し、次の操作を行います。
 
-   ![ 設計構成 – 検索エンジンロボット ](./assets/design-configuration-search-engine-robots.png){width="600" zoomable="yes"}
+   ![&#x200B; 設計構成 – 検索エンジンロボット &#x200B;](./assets/design-configuration-search-engine-robots.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Default Robots]** を次のいずれかに設定します。
 
