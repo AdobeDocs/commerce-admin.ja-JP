@@ -16,7 +16,7 @@ ht-degree: 0%
 
 **最適な対象：** 複数のオプション（色、サイズ、素材など）を持つ製品で、各バリエーションの在庫を追跡する必要があるもの。 初期セットアップには時間がかかりますが、拡張性は向上しています。
 
-![ 設定可能な製品 ](./assets/product-configurable.png){width="700" zoomable="yes"}
+![&#x200B; 設定可能な製品 &#x200B;](./assets/product-configurable.png){width="700" zoomable="yes"}
 
 ## 始める前に
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-属性の作成手順については、[ 製品属性 ](product-attributes.md) を参照してください。
+属性の作成手順については、[&#x200B; 製品属性 &#x200B;](product-attributes.md) を参照してください。
 
 ## フェーズ 1：製品基盤の作成
 
@@ -48,13 +48,13 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Products]** に移動します。
 
-1. 右上隅の _[!UICONTROL Add Product]_（メニュー矢印 ![ メニューで ](../assets/icon-menu-down-arrow-red.png){width="25"} 「**[!UICONTROL Configurable Product]**」を選択します。
+1. 右上隅の _[!UICONTROL Add Product]_（メニュー矢印 ![&#x200B; メニューで &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"} 「**[!UICONTROL Configurable Product]**」を選択します。
 
-   ![ 設定可能な製品を追加 ](./assets/product-add-configurable.png){width="700" zoomable="yes"}
+   ![&#x200B; 設定可能な製品を追加 &#x200B;](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
 ### 手順 2：属性セットの選択
 
-[ 属性セット ](attribute-sets.md) は、製品フォームに表示されるフィールドと、バリエーションに使用できる属性を決定します。
+[&#x200B; 属性セット &#x200B;](attribute-sets.md) は、製品フォームに表示されるフィールドと、バリエーションに使用できる属性を決定します。
 
 1. ページの上部にある属性セットフィールドをクリックして、次のいずれかの操作を行います。
 
@@ -63,9 +63,9 @@ ht-degree: 0%
 
    フォームが更新され、選択した属性セットが反映されます。
 
-1. 属性セットに別の属性を追加する必要がある場合は、「**[!UICONTROL Add Attribute]**」をクリックし、[ 属性の追加 ](product-attributes-add.md) の手順に従います。
+1. 属性セットに別の属性を追加する必要がある場合は、「**[!UICONTROL Add Attribute]**」をクリックし、[&#x200B; 属性の追加 &#x200B;](product-attributes-add.md) の手順に従います。
 
-   ![ テンプレートを選択 ](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
+   ![&#x200B; テンプレートを選択 &#x200B;](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
 
 ### 手順 3：基本情報の入力
 
@@ -83,11 +83,11 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Save]**」をクリックして続行します。
 
-   商品を保存すると、左上隅に [ ストア表示 ](introduction.md#product-scope) 選択が表示されます。
+   商品を保存すると、左上隅に [&#x200B; ストア表示 &#x200B;](introduction.md#product-scope) 選択が表示されます。
 
 1. 製品を使用できる **[!UICONTROL Store View]** を選択します。
 
-   ![ ストア表示の選択 ](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![&#x200B; ストア表示の選択 &#x200B;](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ### 手順 4：基本設定の完了
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >設定可能な商品の **在庫ステータス** は、**_半手動_** で制御される設定であり、一部は子商品の在庫ステータスに基づいています。 これは、**_多基準_** 在庫ステータスの計算の一部です。 詳しくは [ 在庫ステータスの設定 ](#configure-stock-status) を参照してください。
+   >設定可能な商品の **在庫ステータス** は、**_半手動_** で制御される設定であり、一部は子商品の在庫ステータスに基づいています。 これは、**_多基準_** 在庫ステータスの計算の一部です。 詳しくは [&#x200B; 在庫ステータスの設定 &#x200B;](#configure-stock-status) を参照してください。
 
 1. 製品 **[!UICONTROL Weight]** を入力します。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Visibility]** のデフォルトの `Catalog, Search` 設定を受け入れます。
 
-1. [ 新製品 ](../content-design/widget-new-products-list.md) のリストに製品を特集するには、「**[!UICONTROL Set Product as New]**」チェックボックスを選択します。
+1. [&#x200B; 新製品 &#x200B;](../content-design/widget-new-products-list.md) のリストに製品を特集するには、「**[!UICONTROL Set Product as New]**」チェックボックスを選択します。
 
 1. 製品にカテゴリを割り当てるには、**[!UICONTROL Select…]** のボックスをクリックし、次のいずれかの操作を行います。
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
    - 割り当てる各カテゴリのチェックボックスを選択します。
 
-   ![ バンドル製品のカテゴリを 1 つ以上選択します ](./assets/product-create-categories.png){width="600" zoomable="yes"}
+   ![&#x200B; バンドル製品のカテゴリを 1 つ以上選択します &#x200B;](./assets/product-create-categories.png){width="600" zoomable="yes"}
 
    **新しいカテゴリを作成：**
 
@@ -152,13 +152,13 @@ ht-degree: 0%
 
 1. 「_[!UICONTROL Configurations]_」セクションまでスクロールし、「**[!UICONTROL Create Configurations]**」をクリックします。
 
-   ![ 設定 ](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
+   ![&#x200B; 設定 &#x200B;](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
 1. バリエーションとして含める各属性のチェックボックスをオンにします。
 
    この例では、`color` と `size` が選択されています。
 
-   ![ 属性を選択 ](./assets/product-create-configurable-step1.png){width="600" zoomable="yes"}
+   ![&#x200B; 属性を選択 &#x200B;](./assets/product-create-configurable-step1.png){width="600" zoomable="yes"}
 
    リストには、設定可能な製品で使用できる、属性セットのすべての属性が含まれています。
 
@@ -176,9 +176,9 @@ ht-degree: 0%
 
 1. 属性ごとに、製品に適用する値のチェックボックスをオンにします。
 
-   ![ 属性値 ](./assets/product-create-configurable-step2.png){width="600" zoomable="yes"}
+   ![&#x200B; 属性値 &#x200B;](./assets/product-create-configurable-step2.png){width="600" zoomable="yes"}
 
-1. 属性を並べ替えるには、_並べ替え_ （![ 並べ替え順序アイコン ](../assets/icon-sort-order.png)） アイコンを選択して、セクションを新しい位置に移動します。
+1. 属性を並べ替えるには、_並べ替え_ （![&#x200B; 並べ替え順序アイコン &#x200B;](../assets/icon-sort-order.png)） アイコンを選択して、セクションを新しい位置に移動します。
 
    この順序によって、製品ページ上のドロップダウンリストの位置が決まります。
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 
 1. 商品ギャラリーに含める各画像を参照するか、画像をボックスにドラッグします。
 
-![ すべての SKU に同じ画像を使用 ](./assets/product-configurations-images-apply-single-set.png){width="600" zoomable="yes"}
+![&#x200B; すべての SKU に同じ画像を使用 &#x200B;](./assets/product-configurations-images-apply-single-set.png){width="600" zoomable="yes"}
 
 **オプション 2:SKU ごとに一意の画像を適用**
 
@@ -210,9 +210,9 @@ ht-degree: 0%
 
 1. 各属性値について、その設定に使用する画像を参照するか、ボックスにドラッグします。
 
-   画像を値ボックスにドラッグすると、他の値のセクションにも表示されます。 画像を削除するには、_ごみ箱_ （![ ごみ箱アイコン ](../assets/icon-delete-trashcan-solid.png)） アイコンをクリックします。
+   画像を値ボックスにドラッグすると、他の値のセクションにも表示されます。 画像を削除するには、_ごみ箱_ （![&#x200B; ごみ箱アイコン &#x200B;](../assets/icon-delete-trashcan-solid.png)） アイコンをクリックします。
 
-   ![SKU ごとの一意の画像 ](./assets/product-configurable-create-configurations-add-images-unique.png){width="600" zoomable="yes"}
+   ![SKU ごとの一意の画像 &#x200B;](./assets/product-configurable-create-configurations-add-images-unique.png){width="600" zoomable="yes"}
 
 #### 価格の設定
 
@@ -228,7 +228,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Price]** を入力します。
 
-   ![SKU あたりの同一価格 ](./assets/product-configurable-create-configurations-price-all-skus.png){width="600" zoomable="yes"}
+   ![SKU あたりの同一価格 &#x200B;](./assets/product-configurable-create-configurations-price-all-skus.png){width="600" zoomable="yes"}
 
 **オプション 2:SKU ごとに異なる価格を適用**
 
@@ -240,7 +240,7 @@ ht-degree: 0%
 
    この例では、XL サイズの方がコストがかかります。
 
-   ![SKU ごとのユニーク価格 ](./assets/product-configurable-create-configurations-price-unique.png){width="600" zoomable="yes"}
+   ![SKU ごとのユニーク価格 &#x200B;](./assets/product-configurable-create-configurations-price-unique.png){width="600" zoomable="yes"}
 
 #### 在庫の設定
 
@@ -254,7 +254,7 @@ ht-degree: 0%
 
 **[!UICONTROL Quantity]** を入力します。
 
-[Inventory managementを使用するマルチ Source マーチャント（_M） ](../inventory-management/introduction.md):_
+[Inventory managementを使用するマルチ Source マーチャント（_M） &#x200B;](../inventory-management/introduction.md):_
 
 生成されたすべての製品バリアントのソースを割り当てて数量を追加します。
 
@@ -266,7 +266,7 @@ ht-degree: 0%
 
 1. ソースごとの手持在庫金額を入力します。
 
-   ![ すべての SKU に対して単一数量、ソースを割り当て ](./assets/inventory-configure-product-quantity.png){width="600" zoomable="yes"}
+   ![&#x200B; すべての SKU に対して単一数量、ソースを割り当て &#x200B;](./assets/inventory-configure-product-quantity.png){width="600" zoomable="yes"}
 
 **オプション 2：属性別に異なる数量を適用**
 
@@ -274,7 +274,7 @@ ht-degree: 0%
 
 各属性値の **[!UICONTROL Quantity]** を入力します。
 
-[Inventory managementを使用するマルチ Source マーチャント（_M） ](../inventory-management/introduction.md):_
+[Inventory managementを使用するマルチ Source マーチャント（_M） &#x200B;](../inventory-management/introduction.md):_
 
 生成されたすべての製品バリアントのソースを割り当てて数量を追加します。
 
@@ -282,7 +282,7 @@ ht-degree: 0%
 
 1. バリエーションごとに **[!UICONTROL Quantity]** を入力します。
 
-   ![ 属性ごとに異なる数量 ](./assets/product-configurations-quantity-different.png){width="600" zoomable="yes"}
+   ![&#x200B; 属性ごとに異なる数量 &#x200B;](./assets/product-configurations-quantity-different.png){width="600" zoomable="yes"}
 
 画像、価格、数量の設定が完了したら、右上隅の「**[!UICONTROL Next]**」をクリックします。
 
@@ -294,19 +294,19 @@ ht-degree: 0%
 
 - 修正を行うには、「**[!UICONTROL Back]**」をクリックします。
 
-![ 製品バリエーションを生成する前に概要を確認 ](./assets/product-create-configurable-summary.png){width="600" zoomable="yes"}
+![&#x200B; 製品バリエーションを生成する前に概要を確認 &#x200B;](./assets/product-create-configurable-summary.png){width="600" zoomable="yes"}
 
 現在の製品バリエーションは、「_設定_ セクションの下部に表示されます。
 
-![ 現在の設定 ](./assets/product-create-configurable-generated.png){width="600" zoomable="yes"}
+![&#x200B; 現在の設定 &#x200B;](./assets/product-create-configurable-generated.png){width="600" zoomable="yes"}
 
 ### 手順 10：製品画像の追加
 
-1. 下にスクロールして、「![」セクションの ](../assets/icon-display-expand.png) 展開セレクター _[!UICONTROL Images and Videos]_を展開します。
+1. 下にスクロールして、「![」セクションの &#x200B;](../assets/icon-display-expand.png) 展開セレクター _[!UICONTROL Images and Videos]_&#x200B;を展開します。
 
 1. _カメラ_ タイルをクリックし、設定可能な製品に使用するメイン画像を参照します。
 
-詳しくは、[ 画像とビデオ ](product-images-and-video.md) を参照してください。
+詳しくは、[&#x200B; 画像とビデオ &#x200B;](product-images-and-video.md) を参照してください。
 
 ### 手順 11：製品情報の完了
 
@@ -338,15 +338,15 @@ ht-degree: 0%
 
    - 右上隅の「**[!UICONTROL Save]**」をクリックします。
 
-   - ストアで製品を表示するには、**[!UICONTROL Customer View]** 管理者 _（_ メニュー矢印 ![） メニューの ](../assets/icon-menu-down-arrow-black.png) を選択します。
+   - ストアで製品を表示するには、**[!UICONTROL Customer View]** 管理者 _（_ メニュー矢印 ![） メニューの &#x200B;](../assets/icon-menu-down-arrow-black.png) を選択します。
 
    ストアが新しいブラウザータブで開きます。
 
-   ![ 顧客ビュー ](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客ビュー &#x200B;](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
    **方法 2：保存して閉じる**
 
-   _[!UICONTROL Save]_（メニュー矢印 ![ メニューで ](../assets/icon-menu-down-arrow-red.png){width="25"} 「**[!UICONTROL Save & Close]**」を選択します。
+   _[!UICONTROL Save]_（メニュー矢印 ![&#x200B; メニューで &#x200B;](../assets/icon-menu-down-arrow-red.png){width="25"} 「**[!UICONTROL Save & Close]**」を選択します。
 
 ## 在庫ステータスの設定
 
@@ -390,17 +390,17 @@ ht-degree: 0%
 
 バリエーションごとに異なる画像がある場合、買い物かごのサムネールに適した画像を表示するようにシステムを設定できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「_[!UICONTROL Shopping Cart]_」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「_[!UICONTROL Shopping Cart]_」セクションを展開します。
 
 1. **[!UICONTROL Configurable Product Image]** を `Product Thumbnail Itself` に設定します。
 
 1. 「**[!UICONTROL Save Config]**」をクリックします。
 
-   ![ 買い物かご – 設定可能な製品画像 ](./assets/config-checkout-configurable-product.png){width="600" zoomable="yes"}
+   ![&#x200B; 買い物かご – 設定可能な製品画像 &#x200B;](./assets/config-checkout-configurable-product.png){width="600" zoomable="yes"}
 
 ## 主な考慮事項
 
@@ -416,8 +416,8 @@ ht-degree: 0%
 
 - **属性：** バリエーション属性にはグローバルスコープが必要で、顧客は値を選択する必要があります。 設定可能な製品に使用される属性セットに属性を含める必要があります。
 
-- **買い物かごのサムネール：** 買い物かごのサムネールでは、設定可能な製品レコードまたは製品バリエーションのいずれかからの画像を表示できます。 上記の [ システム設定 ](#system-configuration-optional) を参照してください。
+- **買い物かごのサムネール：** 買い物かごのサムネールでは、設定可能な製品レコードまたは製品バリエーションのいずれかからの画像を表示できます。 上記の [&#x200B; システム設定 &#x200B;](#system-configuration-optional) を参照してください。
 
-- **スウォッチの動作：** [ スウォッチ属性 ](swatches.md#create-swatches-for-products) は、属性編集ページで **[!UICONTROL Update Product Preview Image]** を `No` に設定することで、スウォッチが選択されたときに対応するシンプルな製品画像を表示しないように設定できます。
+- **スウォッチの動作：** [&#x200B; スウォッチ属性 &#x200B;](swatches.md#create-swatches-for-products) は、属性編集ページで **[!UICONTROL Update Product Preview Image]** を `No` に設定することで、スウォッチが選択されたときに対応するシンプルな製品画像を表示しないように設定できます。
 
 - **画像ギャラリーの動作：** このテーマは、ユーザーが製品設定を切り替えたときの画像ギャラリーの動作を制御します。 _空白_ テーマのデフォルト動作は、選択したバリエーションで親の設定可能な製品画像を上書きします。 Luma テーマの場合、デフォルトの動作では、選択したバリエーション画像を親の設定可能な商品画像の前に追加します。
