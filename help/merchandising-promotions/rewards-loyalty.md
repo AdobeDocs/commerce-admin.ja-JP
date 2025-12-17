@@ -18,7 +18,7 @@ Adobe Commerceの _報酬ポイント_ システムを使用すると、顧客�
 
 ## 買い物かご価格ルール
 
-ポイントは、[ 買い物かごルール ](price-rules-cart.md) に基づいて、顧客に付与できます。 それらは、価格ルールの唯一のアクションとして、または割引と共に報われます。
+ポイントは、[&#x200B; 買い物かごルール &#x200B;](price-rules-cart.md) に基づいて、顧客に付与できます。 それらは、価格ルールの唯一のアクションとして、または割引と共に報われます。
 
 ## 顧客残高
 
@@ -28,7 +28,7 @@ Adobe Commerceの _報酬ポイント_ システムを使用すると、顧客�
 
 >[!NOTE]
 >
->[ 報酬為替レート ](reward-exchange-rates.md) チェックアウト中にお客様および管理者ユーザーが報酬ポイントを引き換えるには、設定が必要です。
+>[&#x200B; 報酬為替レート &#x200B;](reward-exchange-rates.md) チェックアウト中にお客様および管理者ユーザーが報酬ポイントを引き換えるには、設定が必要です。
 
 ポイントは、（有効になっている場合は）管理者ユーザーおよび顧客がチェックアウト時に交換できます。 「支払い方法」セクションで、有効な支払い方法の上に「報酬ポイントを使用」チェックボックスが表示されます。 利用可能なポイントと為替レートが含まれています。 請求可能残高が注文の総計よりも大きい場合は、追加の支払い方法は必要ありません。 注文に適用される報酬ポイントの数は、店舗のクレジットやギフトカードと同様に、注文合計と共に表示され、総計から差し引かれます。 報酬ポイントがストアクレジットまたはギフトカードと共に使用される場合、最初に報酬ポイントが差し引かれます。 注文の合計が交換できる報酬ポイント数を超える場合、ストアクレジットまたはギフトカードが差し引かれます。
 
@@ -42,21 +42,21 @@ Adobe Commerceの _報酬ポイント_ システムを使用すると、顧客�
 
 ## 報酬ポイントへの返金
 
-ご注文に報酬ポイントが付与された場合、ご注文の金額を上限として報酬ポイント残高に返金されます。 [_新規クレジットメモ_ ページ ](../stores-purchase/credit-memo-create.md) では、顧客の残高に適用するポイント数を入力できます。 デフォルトでは、フィールドには、その順序で使用されたポイントの完全な数が含まれます。
+ご注文に報酬ポイントが付与された場合、ご注文の金額を上限として報酬ポイント残高に返金されます。 [_新規クレジットメモ_ ページ &#x200B;](../stores-purchase/credit-memo-create.md) では、顧客の残高に適用するポイント数を入力できます。 デフォルトでは、フィールドには、その順序で使用されたポイントの完全な数が含まれます。
 
 ## ストアの報酬ポイント操作を有効にする
 
 報酬ポイントの設定は、ストアでの報酬ポイントの表示方法を決定し、基本的な操作パラメーターを定義します。
 
-![ 顧客の設定 – 報酬ポイント ](../configuration-reference/customers/assets/reward-points-reward-points.png){width="600" zoomable="yes"}
+![&#x200B; 顧客の設定 – 報酬ポイント &#x200B;](../configuration-reference/customers/assets/reward-points-reward-points.png){width="600" zoomable="yes"}
 
 ### 手順 1. 報酬ポイントの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Reward Points]**」を選択します。
 
-1. ![ のセクションの ](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Reward Points]** を展開し、以下を実行します。
+1. ![&#x200B; のセクションの &#x200B;](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Reward Points]** を展開し、以下を実行します。
 
    - 報酬ポイントをアクティブにするには、**[!UICONTROL Enable Reward Points Functionality]** を `Yes` に設定します。
 
@@ -94,11 +94,11 @@ Adobe Commerceの _報酬ポイント_ システムを使用すると、顧客�
 
 このステップでは、様々な顧客アクティビティに対して獲得できる報酬ポイントの数を指定します。 顧客がポイントが割り当てられたアクションを完了すると、獲得したポイント数を示すメッセージが顧客に表示されます。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Actions for Acquiring Reward Points by Customer]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Actions for Acquiring Reward Points by Customer]**」セクションを展開します。
 
-   ![ 顧客の設定 – 顧客が報酬ポイントを取得するためのアクション ](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客の設定 – 顧客が報酬ポイントを取得するためのアクション &#x200B;](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
-1. 設定された [ 報酬為替レート ](reward-exchange-rates.md) に基づいて購入に対して報酬ポイントを獲得できるようにするには、**[!UICONTROL Purchase]** を `Yes` に設定します。
+1. 設定された [&#x200B; 報酬為替レート &#x200B;](reward-exchange-rates.md) に基づいて購入に対して報酬ポイントを獲得できるようにするには、**[!UICONTROL Purchase]** を `Yes` に設定します。
 
    >[!NOTE]
    >
@@ -126,9 +126,9 @@ Adobe Commerceの _報酬ポイント_ システムを使用すると、顧客�
 
 ### 手順 3. メール通知設定の完了
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Email Notification Settings]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Email Notification Settings]**」セクションを展開します。
 
-   ![ 顧客設定 – 報酬ポイントのメール通知 ](../configuration-reference/customers/assets/reward-points-email-notification-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; 顧客設定 – 報酬ポイントのメール通知 &#x200B;](../configuration-reference/customers/assets/reward-points-email-notification-settings.png){width="600" zoomable="yes"}
 
 1. 残高の更新と有効期限の通知の送信者として表示される店舗連絡先に **[!UICONTROL Email Sender]** を設定します。
 
@@ -148,7 +148,7 @@ Adobe Commerceの _報酬ポイント_ システムを使用すると、顧客�
 
 1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL All Customers]** に移動します。
 
-1. グリッドで顧客を見つけ、**[!UICONTROL Edit]** 列の _[!UICONTROL Action]_をクリックします。
+1. グリッドで顧客を見つけ、**[!UICONTROL Edit]** 列の _[!UICONTROL Action]_&#x200B;をクリックします。
 
 1. _顧客情報_ の下で、「**[!UICONTROL Reward Points]**」セクションを選択します。
 
@@ -159,7 +159,7 @@ Adobe Commerceの _報酬ポイント_ システムを使用すると、顧客�
 
 1. 必要に応じて、報酬ポイントの調整に関連する **[!UICONTROL Comments]** を入力します。
 
-   ![ 報酬ポイント残高 ](./assets/reward-points-balance.png){width="700" zoomable="yes"}
+   ![&#x200B; 報酬ポイント残高 &#x200B;](./assets/reward-points-balance.png){width="700" zoomable="yes"}
 
 1. 必要に応じて、顧客を _報酬ポイント通知_ に登録します。
 
@@ -168,7 +168,7 @@ Adobe Commerceの _報酬ポイント_ システムを使用すると、顧客�
 
 1. 「**[!UICONTROL Save Customer]**」をクリックします。
 
-報酬ポイントに関連するすべてのアクションは、ストアフロントの顧客のアカウントの _[!UICONTROL Reward Points History]_ブロックに表示されます。
+報酬ポイントに関連するすべてのアクションは、ストアフロントの顧客のアカウントの _[!UICONTROL Reward Points History]_&#x200B;ブロックに表示されます。
 
 ## フィールドの説明
 
@@ -178,7 +178,7 @@ Adobe Commerceの _報酬ポイント_ システムを使用すると、顧客�
 | [!UICONTROL Amount Balance] | 現在の現金残高の金額 |
 | [!UICONTROL Points] | 加算または減算されたポイント数 |
 | [!UICONTROL Amount] | 加算または減算された金額 |
-| [!UICONTROL Rate] | [ 報酬為替レート ](reward-exchange-rates.md) |
+| [!UICONTROL Rate] | [&#x200B; 報酬為替レート &#x200B;](reward-exchange-rates.md) |
 | [!UICONTROL Website] | 報酬ポイントの履歴が割り当てられている Web サイト |
 | [!UICONTROL Reason] | ポイント付与の理由：<br>**[!UICONTROL Making purchases]**– 顧客が購入するたびにポイントを獲得できます。<br>**[!UICONTROL Registering on the site]** – 登録時に発生（1 回）。<br>**[!UICONTROL Subscribing to a newsletter]**– 初めてのサブスクリプションに対して見越計上されます（1 回）。<br>**[!UICONTROL Sending Invitations]** - サイトに参加するように友人を招待してポイントを獲得します。<br>**[!UICONTROL Converting Invitations to Customer]**- サイトに登録した友人をリードし、送信したすべての招待状に対してポイントを獲得します。<br>**[!UICONTROL Converting Invitations to Order]** – 送信された招待によって生じた各販売に対してポイントを獲得します。<br>**[!UICONTROL Review Submission]**– 製品レビューの送信でポイントを獲得できます。 |
 | [!UICONTROL Created] | 報酬ポイントの更新日時 |
