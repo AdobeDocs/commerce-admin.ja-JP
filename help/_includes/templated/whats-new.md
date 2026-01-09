@@ -1,7 +1,7 @@
 ---
-source-git-commit: 43d8f974211206e7a71ac2e5ad02fbaf03b06b01
+source-git-commit: 8181804df811dd0916cd3df423cc6f52d68d1326
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '182'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>顧客がチェックアウト時に報酬ポイントまたはストアクレジットを使用する際の税金の計算方法を明確にするために、<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty"> 報酬とロイヤルティ </a> のトピックを更新しました。</p>
+      <td><p>顧客がチェックアウト時に報酬ポイントまたはストアクレジットを使用する際の税金の計算方法を明確にするために、<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty"> 報酬とロイヤルティ </a> のトピックを更新しました。</p>
 </td>
       <td>
         Feedback
@@ -45,7 +45,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p><code class="language-plaintext highlighter-rouge">NOFOLLOW</code>SEO ドキュメント <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/seo/seo-overview"> の </a> ロボットメタディレクティブの説明を更新しました。<br /><em> 問題 <a href="https://github.com/AdobeDocs/commerce-admin.ja-JP/issues/82">#82</a>.</em> を修正</p>
+      <td><p><code class="language-plaintext highlighter-rouge">NOFOLLOW</code>SEO ドキュメント <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview"> の </a> ロボットメタディレクティブの説明を更新しました。<br /><em> 問題 <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82">#82</a>.</em> を修正</p>
 </td>
       <td>
         テクニカル、フィードバック
@@ -67,7 +67,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cookie 法への準拠 </a> で無効にすべきデフォルト Cookie に関する情報を追加しました。</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cookie 法への準拠 </a> で無効にすべきデフォルト Cookie に関する情報を追加しました。</p>
 </td>
       <td>
         技術
@@ -89,7 +89,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>CMSページのページビルダープレビューを使用できるかどうかについてのガイダンスを <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/content-design/elements/pages/page-add"> ページの追加と削除 </a> および <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/page-builder/workspace"> ページビルダーのWorkspace</a> のトピックに追加しました。 デフォルトストア表示で使用できない限り、プレビューにコンテンツは表示されません。</p>
+      <td><p>CMSページのページビルダープレビューを使用できるかどうかについてのガイダンスを <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add"> ページの追加と削除 </a> および <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace"> ページビルダーのWorkspace</a> のトピックに追加しました。 デフォルトストア表示で使用できない限り、プレビューにコンテンツは表示されません。</p>
 </td>
       <td>
         テクニカル、フィードバック
@@ -111,34 +111,12 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/security/security-scan"> セキュリティスキャンツール </a> が更新され、Adobe Experience Manager サイトとしてデプロイされたCommerceのストアフロントを持つマーチャントをサポートするようになりました。</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan"> セキュリティスキャンツール </a> が更新され、Adobe Experience Manager サイトとしてデプロイされたCommerceのストアフロントを持つマーチャントをサポートするようになりました。</p>
 </td>
       <td>
         技術
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/467decc88b33ada26ae7aa4afbf9b4a8e78f23cc">コミット</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2025 年 11 月 10 日（Pt）
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>説明</th>
-      <th>タイプ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes"> カタログ価格ルールの予定変更 </a> トピックで終了日が指定されていない特定の時刻にアクティブな価格ルール販売を終了する方法を明確にしました。<br />Web サーバーの書き換えと正規 URL に関する例、概念定義、グループ化の追加 URL 管理設定手順を改善するために、<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL の書き換え </a> トピックを再編成しました。</p>
-</td>
-      <td>
-        テクニカル、フィードバック
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/29acc84df8c5b2f6ea4d894f5ae022b62ad2cad2">コミット</a></td>
     </tr>
   </tbody>
 </table>
