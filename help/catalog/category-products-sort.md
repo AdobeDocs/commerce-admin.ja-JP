@@ -14,9 +14,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-カテゴリ内の商品の位置は、商品を位置にドラッグ&amp;ドロップするか、事前に定義された並べ替え順を適用することで、手動で指定できます。 デフォルトでは、商品は在庫レベル、年齢、カラー、名前、SKU、価格で並べ替えることができます。 自動ソートは、現在のソート順序を上書きし、手動で設定したドラッグ アンド ドロップ位置をリセットします。 色の並べ替え順序と、リストに含める製品に必要な最小在庫レベルは、[ ビジュアルマーチャンダイザー ](../configuration-reference/catalog/visual-merchandiser.md) 設定で設定します。
+カテゴリ内の商品の位置は、商品を位置にドラッグ&amp;ドロップするか、事前に定義された並べ替え順を適用することで、手動で指定できます。 デフォルトでは、商品は在庫レベル、年齢、カラー、名前、SKU、価格で並べ替えることができます。 自動ソートは、現在のソート順序を上書きし、手動で設定したドラッグ アンド ドロップ位置をリセットします。 色の並べ替え順序と、リストに含める製品に必要な最小在庫レベルは、[&#x200B; ビジュアルマーチャンダイザー &#x200B;](../configuration-reference/catalog/visual-merchandiser.md) 設定で設定します。
 
-カテゴリオプションを [ ストア表示 ](../stores-purchase/stores.md#add-stores) ごとに個別に設定して、商品の選択、リスト内の相対的な位置、カテゴリルールに使用できる属性を決定することができます。 ただし、カタログ内には単一の **_グローバル_** 並べ替え順と製品位置があり、これらは [ ストア表示 ](../stores-purchase/store-views.md)、ストア、web サイトすべてで共有されます。
+カテゴリオプションを [&#x200B; ストア表示 &#x200B;](../stores-purchase/stores.md#add-stores) ごとに個別に設定して、商品の選択、リスト内の相対的な位置、カテゴリルールに使用できる属性を決定することができます。 ただし、カタログ内には単一の **_グローバル_** 並べ替え順と製品位置があり、これらは [&#x200B; ストア表示 &#x200B;](../stores-purchase/store-views.md)、ストア、web サイトすべてで共有されます。
 
 ## 手順 1：設定の範囲を設定する
 
@@ -24,27 +24,27 @@ ht-degree: 0%
 
 1. 必要に応じて、設定が適用される **[!UICONTROL Store View]** を選択します。
 
-   マルチストアインストールの場合、_[!UICONTROL Store View]_設定は、ストア内の使用可能なすべてのビューに並べ替え順を適用します。
+   マルチストアインストールの場合、_[!UICONTROL Store View]_&#x200B;設定は、ストア内の使用可能なすべてのビューに並べ替え順を適用します。
 
 1. 左側のカテゴリ ツリーで、編集するカテゴリを選択します。
 
-   ![ カテゴリツリー ](./assets/category-selected.png){width="700" zoomable="yes"}
+   ![&#x200B; カテゴリツリー &#x200B;](./assets/category-selected.png){width="700" zoomable="yes"}
 
 ## 手順 2：製品の並べ替え
 
 >[!NOTE]
 >
->カテゴリを製品属性で並べ替える場合、同じ属性値を持つ製品も _[!UICONTROL Product ID]_の昇順で並べ替えられます。
+>カテゴリを製品属性で並べ替える場合、同じ属性値を持つ製品も _[!UICONTROL Product ID]_&#x200B;の昇順で並べ替えられます。
 
-「_[!UICONTROL Products in Category]_」セクションでタイル（![ タイルを表示 ](../assets/icon-view-tiles.png)）アイコンをクリックして、製品タイルをグリッドで表示します。 手動または自動のいずれかの方法を使用して、製品を並べ替えます。
+「_[!UICONTROL Products in Category]_」セクションでタイル（![&#x200B; タイルを表示 &#x200B;](../assets/icon-view-tiles.png)）アイコンをクリックして、製品タイルをグリッドで表示します。 手動または自動のいずれかの方法を使用して、製品を並べ替えます。
 
-![ 製品タイル ](./assets/category-products-tiles.png){width="600" zoomable="yes"}
+![&#x200B; 製品タイル &#x200B;](./assets/category-products-tiles.png){width="600" zoomable="yes"}
 
 ### 方法 1：手動ソート
 
 1. **[!UICONTROL Sort Order]** を好みに合わせて設定します。
 
-   ![ 並べ替え順 ](./assets/category-edit-sort-order.png){width="600" zoomable="yes"}
+   ![&#x200B; 並べ替え順 &#x200B;](./assets/category-edit-sort-order.png){width="600" zoomable="yes"}
 
 1. 新しい並べ替え順を適用するには、[**[!UICONTROL Sort]**] をクリックします。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ### 方法 2：自動ソート
 
-1. 「**[!UICONTROL Match products by rule]**」（![ 切り替え yes](../assets/toggle-yes.png)）を「`Yes`」に設定します。
+1. 「**[!UICONTROL Match products by rule]**」（![&#x200B; 切り替え yes](../assets/toggle-yes.png)）を「`Yes`」に設定します。
 
 
 1. **[!UICONTROL Automatic Sorting]** を好みに合わせて設定します。
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 ## 手順 3：カテゴリルールの作成
 
-1. 「**[!UICONTROL Match products by rule]**」（![ 切り替え yes](../assets/toggle-yes.png)）を「`Yes`」に設定します。
+1. 「**[!UICONTROL Match products by rule]**」（![&#x200B; 切り替え yes](../assets/toggle-yes.png)）を「`Yes`」に設定します。
 
 1. 「**[!UICONTROL Add Condition]**」をクリックします。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 適切な **[!UICONTROL Value]** を入力します。
 
-   ![ カテゴリ条件 ](./assets/category-rule-create.png){width="600" zoomable="yes"}
+   ![&#x200B; カテゴリ条件 &#x200B;](./assets/category-rule-create.png){width="600" zoomable="yes"}
 
 1. 別の条件を追加するには、「**[!UICONTROL Add Condition]**」をクリックして手順を繰り返します。
 
