@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >この機能は、管理者の reCAPTCHA サポートを提供するものではありません。
 
-Google reCAPTCHA の他のバージョンの設定について詳しくは、{0[Google reCAPTCHA V3 および V2 を参照してください。](security-google-recaptcha.md)
+Google reCAPTCHA の他のバージョンの設定について詳しくは、&lbrace;0[Google reCAPTCHA V3 および V2 を参照してください。](security-google-recaptcha.md)
 
 ## 機能
 
@@ -42,13 +42,13 @@ Adobe Commerce as a Cloud Service ストアフロントにGoogle reCAPTCHA Enter
 
 ## 手順 1:Google reCAPTCHA Enterprise の設定
 
-次の一般的な手順に従って、ストアフロントにGoogle reCAPTCHA Enterprise を設定します。 手順について詳しくは、[Google reCAPTCHA Enterprise ドキュメント ](https://docs.cloud.google.com/recaptcha/docs/overview) を参照してください。
+次の一般的な手順に従って、ストアフロントにGoogle reCAPTCHA Enterprise を設定します。 手順について詳しくは、[Google reCAPTCHA Enterprise ドキュメント &#x200B;](https://docs.cloud.google.com/recaptcha/docs/overview) を参照してください。
 
-1. reCAPTCHA Enterprise 実装用の [Google クラウドプロジェクトを作成 ](https://developers.google.com/workspace/guides/create-project) します。
+1. reCAPTCHA Enterprise 実装用の [Google クラウドプロジェクトを作成 &#x200B;](https://developers.google.com/workspace/guides/create-project) します。
 
 1. [reCAPTCHA Enterprise API](https://docs.cloud.google.com/recaptcha/docs/prepare-environment) を有効にします。
 
-1. スコアベースの reCAPTCHA Enterprise[ サイトキー ](https://docs.cloud.google.com/recaptcha/docs/choose-key-type) を作成します。
+1. スコアベースの reCAPTCHA Enterprise[&#x200B; サイトキー &#x200B;](https://docs.cloud.google.com/recaptcha/docs/choose-key-type) を作成します。
 
 1. `roles/recaptchaenterprise.admin` の IAM 役割を持つサービス アカウントを作成します。
 
@@ -56,7 +56,7 @@ Adobe Commerce as a Cloud Service ストアフロントにGoogle reCAPTCHA Enter
 
 ## 手順 2：ストアフロントのGoogle reCAPTCHA を設定する
 
-1. _[!UICONTROL Security]_の下の左パネルで、「**[!UICONTROL Google reCAPTCHA Storefront]**」を選択します。
+1. _[!UICONTROL Security]_&#x200B;の下の左パネルで、「**[!UICONTROL Google reCAPTCHA Storefront]**」を選択します。
 
 1. **[!UICONTROL reCAPTCHA Enterprise]** の節を次のように完了します。
 
@@ -64,7 +64,7 @@ Adobe Commerce as a Cloud Service ストアフロントにGoogle reCAPTCHA Enter
 
    - **[!UICONTROL Google Cloud Project ID]** しくは、プロジェクト ID をGoogle Cloud プロジェクトからコピー&amp;ペーストします。
 
-   - **[!UICONTROL Service Account JSON]** しくは、[ 手順 1:Google reCAPTCHA Enterprise の設定 ](#step-1-set-up-google-recaptcha-enterprise) でダウンロードしたサービスアカウント JSON キーファイルの内容をコピーします。
+   - **[!UICONTROL Service Account JSON]** しくは、[&#x200B; 手順 1:Google reCAPTCHA Enterprise の設定 &#x200B;](#step-1-set-up-google-recaptcha-enterprise) でダウンロードしたサービスアカウント JSON キーファイルの内容をコピーします。
 
    - **[!UICONTROL Minimum Score Threshold]**：最小スコア（0.0～1.0）を入力すると、ユーザーインタラクションが潜在的なリスクとしてフラグ付けされるタイミングを識別できます。ここで、1.0 は一般的なユーザーインタラクションで、0.0 はボットである可能性があります。
 
@@ -72,7 +72,7 @@ Adobe Commerce as a Cloud Service ストアフロントにGoogle reCAPTCHA Enter
 
    - **[!UICONTROL Theme]** しくは、`Light Theme` （デフォルト）または `Dark Theme` を選択して、Google reCAPTCHA ボックスのスタイルを決定します。
 
-   - **[!UICONTROL Language Code]** しくは、Google reCAPTCHA テキストおよびメッセージングで使用する言語を指定する [2 文字のコード ](https://developers.google.com/recaptcha/docs/language) を入力します。
+   - **[!UICONTROL Language Code]** しくは、Google reCAPTCHA テキストおよびメッセージングで使用する言語を指定する [2 文字のコード &#x200B;](https://developers.google.com/recaptcha/docs/language) を入力します。
 
    - **[!UICONTROL Validation Failure Message]**：検証に失敗した場合にストアフロントに表示されるメッセージをオプションで変更できます。
 
@@ -81,7 +81,7 @@ Adobe Commerce as a Cloud Service ストアフロントにGoogle reCAPTCHA Enter
 
    {{recaptcha-forms-list}}
 
-   ![ ストアフロントオプションの設定 ](../configuration-reference/security/assets/recaptcha-storefront.png){width="600" zoomable="yes"}
+   ![&#x200B; ストアフロントオプションの設定 &#x200B;](../configuration-reference/security/assets/recaptcha-storefront.png){width="600" zoomable="yes"}
 
 ## 手順 3：設定を保存する
 

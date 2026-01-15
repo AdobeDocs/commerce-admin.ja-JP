@@ -14,13 +14,13 @@ ht-degree: 1%
 
 {{config}}
 
-これらの設定の変更について詳しくは、[ ストアと購入エクスペリエンスガイド ](../../stores-purchase/shipping-settings.md) の _発送設定_ を参照してください。
+これらの設定の変更について詳しくは、[&#x200B; ストアと購入エクスペリエンスガイド &#x200B;](../../stores-purchase/shipping-settings.md) の _発送設定_ を参照してください。
 
 ## [!UICONTROL Origin]
 
-![ 接触チャネル ](./assets/shipping-settings-origin.png)<!-- zoom -->
+![&#x200B; 接触チャネル &#x200B;](./assets/shipping-settings-origin.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Country] | Web サイト | 元の国。 |
 | [!UICONTROL Region/State] | Web サイト | 原点の領域または状態。 |
@@ -33,9 +33,9 @@ ht-degree: 1%
 
 ## [!UICONTROL Shipping Policy Parameters]
 
-![ 配送ポリシーのパラメーター ](./assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
+![&#x200B; 配送ポリシーのパラメーター &#x200B;](./assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Apply Custom Shipping Policy] | Web サイト | チェックアウト時に配送ポリシーが表示されるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Shipping Policy] | ストア表示 | 配送ポリシーをテキストとして含みます。 |
@@ -44,13 +44,13 @@ ht-degree: 1%
 
 ## [!UICONTROL Shipment Tracking URLs]
 
-[!BADGE SaaS のみ ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
 
-[!BADGE  サンドボックス ]{type=Caution tooltip="リストされた項目は、現在、サンドボックス環境でのみ使用できます。 Adobeでは、最初にサンドボックス環境で新しいリリースを使用できるようにして、リリースが実稼動環境で使用できるようになる前に、今後の変更をテストするための時間を提供します。"}
+[!BADGE &#x200B; サンドボックス &#x200B;]{type=Caution tooltip="リストされた項目は、現在、サンドボックス環境でのみ使用できます。 Adobeでは、最初にサンドボックス環境で新しいリリースを使用できるようにして、リリースが実稼動環境で使用できるようになる前に、今後の変更をテストするための時間を提供します。"}
 
-![ 配送ポリシーのパラメーター ](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
+![&#x200B; 配送ポリシーのパラメーター &#x200B;](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Custom Tracking URLs] | ストア表示 | 買い物客の電子メールで送信された出荷トラッキング番号がリンクかプレーンテキストかを決定します。 デフォルト値 `No` は、数値がプレーンテキストであることを示します。 オプション：`Yes` / `No` |
 | [!UICONTROL USPS Tracking URL] | ストア表示 | 米国郵便サービスの出荷用の URL テンプレート。 |
