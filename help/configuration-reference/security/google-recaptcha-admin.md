@@ -3,7 +3,7 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel]'
 description: Commerce Admin の [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel] ページで設定を確認します。
 exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 feature: Configuration, Security
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
 source-git-commit: 6fe5ffb6f529f95e32bb12a55ae16100f4d1bbbb
 workflow-type: tm+mt
 source-wordcount: '559'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Google reCAPTCHA を設定する前に、`PHP.ini` ファイルに次の設定が含まれていることを確認する必要があります：`allow_url_fopen = 1`。 これには、開発者の支援が必要になる場合があります。 [&#x200B; インストールガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) の _必要な PHP 設定_ を参照してください。
+>Google reCAPTCHA を設定する前に、`PHP.ini` ファイルに次の設定が含まれていることを確認する必要があります：`allow_url_fopen = 1`。 これには、開発者の支援が必要になる場合があります。 [&#x200B; インストールガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=ja) の _必要な PHP 設定_ を参照してください。
 
 {{config}}
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 | フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--|--|--|
-| [!UICONTROL Enable for Login] | グローバル | [Admin ログイン &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html) に対して有効になっている reCAPTCHA のタイプを決定します。 オプション：<br/>**`No`**- （デフォルト）管理者ログインを検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - 「自分はロボットではない _チェックボックスをユーザーが選択する必要が_ ります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づいてインタラクションを必要とせずに、バックグラウンドでのユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザーの行動を検証します。 |
-| [!UICONTROL Enable for Forgot Password] | グローバル | [&#x200B; 管理者パスワードのリセット &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password) をリクエストするために有効にする reCAPTCHA のタイプを決定します。 オプション：<br/>**`No`**- （デフォルト）パスワードリセットリクエストを検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - 「自分はロボットではない _チェックボックスをユーザーが選択する必要が_ ります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づいてインタラクションを必要とせずに、バックグラウンドでのユーザーの行動を検証します。<br/>**`Invisible reCaptcha v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザーの行動を検証します。 |
+| [!UICONTROL Enable for Login] | グローバル | [Admin ログイン &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=ja) に対して有効になっている reCAPTCHA のタイプを決定します。 オプション：<br/>**`No`**- （デフォルト）管理者ログインを検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - 「自分はロボットではない _チェックボックスをユーザーが選択する必要が_ ります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づいてインタラクションを必要とせずに、バックグラウンドでのユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザーの行動を検証します。 |
+| [!UICONTROL Enable for Forgot Password] | グローバル | [&#x200B; 管理者パスワードのリセット &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=ja#reset-your-password) をリクエストするために有効にする reCAPTCHA のタイプを決定します。 オプション：<br/>**`No`**- （デフォルト）パスワードリセットリクエストを検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - 「自分はロボットではない _チェックボックスをユーザーが選択する必要が_ ります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づいてインタラクションを必要とせずに、バックグラウンドでのユーザーの行動を検証します。<br/>**`Invisible reCaptcha v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザーの行動を検証します。 |
 
 {style="table-layout:auto"}
