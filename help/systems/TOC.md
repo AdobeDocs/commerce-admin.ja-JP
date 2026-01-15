@@ -5,9 +5,9 @@ breadcrumb-title: 管理システムガイド
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: 6fe5ffb6f529f95e32bb12a55ae16100f4d1bbbb
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '194'
 ht-degree: 4%
 
 ---
@@ -71,12 +71,13 @@ ht-degree: 4%
    - [Admin Security の設定](security-admin.md)
    - CAPTCHA {#captcha}
       - [標準 CAPTCHA](security-captcha.md)
-      - [Google reCAPTCHA](security-google-recaptcha.md)
-   - 2 要素認証（2FA） {#2fa}
+      - [Google reCAPTCHA V3 および V2](security-google-recaptcha.md)
+      - [Google reCAPTCHA Enterprise](security-google-recaptcha-enterprise.md)
+   - 2 要素認証（2FA） {#tfa}
       - [概要](security-two-factor-authentication.md)
       - [2FA 用のユーザーアカウント設定](security-two-factor-authentication-use.md)
       - [2FA の管理](security-two-factor-authentication-manage.md)
    - [セッション管理](security-session-management.md)
    - [ブラウザー機能の検出](security-browser-capabilities-detection.md)
    - [セキュリティ問題のレポート](security-issue-reporting.md)
-- [&#x200B; 管理者ユーザーガイドに戻る &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja)
+- [ 管理者ユーザーガイドに戻る ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

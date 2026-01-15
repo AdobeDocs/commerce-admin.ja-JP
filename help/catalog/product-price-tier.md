@@ -3,9 +3,9 @@ title: 階層の価格
 description: 階層価格を使用して、製品リストまたは製品ページから数量割引を提供する方法を説明します。
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 階層価格を使用すると、ストアフロントの商品リストまたは商品ページから数量割引を提供できます。 割引は、特定のストア表示、顧客グループ、共有カタログに適用できます。
 
-更新する製品が多数ある場合は、階層価格の変更を個別に入力するのではなく、インポートするのが最も効率的です。 詳しくは、[&#x200B; 階層価格のインポート &#x200B;](../systems/data-import-price-tier.md) を参照してください。
+更新する製品が多数ある場合は、階層価格の変更を個別に入力するのではなく、インポートするのが最も効率的です。 詳しくは、[ 階層価格のインポート ](../systems/data-import-price-tier.md) を参照してください。
 
-![&#x200B; ストアフロント製品ページの階層価格 &#x200B;](./assets/product-price-tier-storefront.png){width="700" zoomable="yes"}
+![ ストアフロント製品ページの階層価格 ](./assets/product-price-tier-storefront.png){width="700" zoomable="yes"}
 
 製品ページで数量割引が計算され、次のようなメッセージが表示されます。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
      **[!UICONTROL Price]** を `Fixed` に設定し、その階層の 1 単位の調整済み価格を入力します。
 
-     ![&#x200B; 固定金額としての階層価格 &#x200B;](./assets/product-price-tier-fixed.png){width="600" zoomable="yes"}
+     ![ 固定金額としての階層価格 ](./assets/product-price-tier-fixed.png){width="600" zoomable="yes"}
 
    - **方法 2:** 価格をパーセンテージで入力します。
 
@@ -56,9 +56,9 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >割引価格を取得するには、定義済みの割合を、_[!UICONTROL Special Price]_&#x200B;フィールドではなく、_[!UICONTROL Price]_ フィールドで定義された値に対して計算します。
+     >割引価格を取得するには、定義済みの割合を、_[!UICONTROL Price]_フィールドではなく、_[!UICONTROL Special Price]_ フィールドで定義された値に対して計算します。
 
-     ![&#x200B; 階層価格（割合） &#x200B;](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
+     ![ 階層価格（割合） ](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
 ## 価格設定の完了
 
@@ -73,3 +73,46 @@ ht-degree: 0%
 >[!NOTE]
 >
 >**_固定価格_** 製品カスタマイズ可能なオプションは、グループ価格、階層価格、特別価格、カタログ価格ルールの影響を _受けません_。
+
+## カタログ価格ルールの階層価格を有効にする
+
+[!BADGE SaaS のみ ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+
+[!BADGE  サンドボックス ]{type=Caution tooltip="リストされた項目は、現在、サンドボックス環境でのみ使用できます。 Adobeでは、最初にサンドボックス環境で新しいリリースを使用できるようにして、リリースが実稼動環境で使用できるようになる前に、今後の変更をテストするための時間を提供します。"}
+
+以前のバージョンのCommerceでは、カタログ価格ルールと組み合わせて階層価格を使用することはできませんでした。 カタログルールでは、階層価格の設定が無視され、元の基本価格からのみ計算された割引が無視されました。 Adobe Commerce as a Cloud Serviceを使用して、カタログ価格ルールの計算に階層価格を含めることができるようになりました。
+
+この機能を有効にするには：
+
+1. **[!UICONTROL Stores]**/*[!UICONTROL Settings]*/**[!UICONTROL Configuration]**/**[!UICONTROL Sales]**/**[!UICONTROL Sales]**/**[!UICONTROL Promotions]** に移動し、「**[!UICONTROL Apply Catalog Price Rule on Grouped Price]**」フィールドを「**[!UICONTROL Yes]**」に設定します。
+
+   ![ カタログ価格ルールの階層価格を有効にする ](../configuration-reference/sales/assets/sales-promotions-settings.png){width="700" zoomable="yes"}
+
+1. カタログ価格ルールでターゲットにする特定の顧客グループまたは共有カタログ（`1`、`Wholesale`、またはマーチャント定義のグループなど）ごとに、`Retail` 数の階層価格を定義します。 この目的には、`ALL GROUPS` 顧客グループ `Default` 共有カタログは使用できません。 階層の価格は、`1` の数量で定義された階層価格を持たないグループでは有効になっていません。
+
+1. 必要に応じて、数量が `1` を超える追加の階層価格を定義します。 これらの追加階層価格は、顧客が商品の数量を買い物かごに追加した場合に、通常どおり適用されます。 カタログ価格ルールは、これらの追加の階層価格には適用されません。
+
+単一の製品を購入する際に階層価格がカタログ価格ルールとどのように連動するかを示すために、次の例を考えてみます。
+
+- 製品の標準基本価格は 100 USD です。
+- 階層価格は、数量が `Wholesale` で固定価格が 90 USD の `1` 顧客グループに対して定義されます。
+- カタログ価格ルールを使用すると、`Wholesale` 顧客グループに 10% の割引が適用されます。
+
+カタログ価格ルールに対して階層価格設定が使用可能な場合、システムでは次のフローを使用して最終価格を計算します。
+
+1. ユーザーがログインする前に、製品価格は 100 USD （標準の基本価格）と表示されます。
+
+1. 顧客が `Wholesale` グループのメンバーとしてログインした後、製品価格は 90 USD （`Wholesale` グループの階層価格）に調整されます。
+
+1. カタログ価格ルールが適用され、階層価格が 90 USD から 10% 割引になり、最終的に 81 USD になります。
+
+次の表に、カタログ価格ルールに対して階層価格設定が使用可能な場合に、すべての顧客グループに対して 10% の値引が提供される価格計算を要約します。
+
+商品：標準価格$100 （単品購入）
+
+| 顧客グループ | 階層価格（数量=1） | 新しい基本価格 | 最終価格 |
+|---|---|---|---|
+| すべてのグループ | 未設定 | 100 ドル | $100 - 10% = $90 |
+| 卸売 | 固定：$85 | $85 | $85 - 10% = 76.50 ドル |
+| Retailer | 20% 割引 | $80 | $80～10% = 72.00 ドル |
+| VIP | 15% 割引 | $85 | $85 - 10% = 76.50 ドル |
