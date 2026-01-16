@@ -3,7 +3,7 @@ title: Google reCAPTCHA Enterprise
 description: Google reCAPTCHA Enterprise を設定して、Adobe Commerce as a Cloud Service ストアフロントをボットや不正アクティビティから保護する方法を説明します。
 role: Admin
 feature: Configuration, Security
-badgeSaas: label="SaaS のみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"
+badgeSaas: label="SaaS のみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"
 source-git-commit: dde1d634a1c6c7435668a8ad6084b926cc0d6193
 workflow-type: tm+mt
 source-wordcount: '574'
