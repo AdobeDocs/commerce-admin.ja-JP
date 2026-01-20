@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8181804df811dd0916cd3df423cc6f52d68d1326
+source-git-commit: 50ee2dca64338225c0d024daff74e243c9268564
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '245'
 ht-degree: 3%
 
 ---
@@ -10,6 +10,72 @@ ht-degree: 3%
 ## 最新情報
 
 このセクションには、過去 60 日間に加えられた変更が含まれています。 コピー編集などのマイナーアップデートはすべて、このリストから除外します。
+
+### 2026 年 1 月 20 日（Pt）
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>説明</th>
+      <th>タイプ</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>製品リファレンスを「Adobe Sensei」から「Adobe AI」に変更し、Adobe ブランドのアップデートを反映させました。</p>
+</td>
+      <td>
+        Feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/4077b922dae0ed9a9050a5f6160143a636646daa">コミット</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026 年 1 月 16 日（Pt）
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>説明</th>
+      <th>タイプ</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store"> 店舗での受け取り準備完了の注文 </a> メールが使用可能な場合の説明を追加しました。</p>
+</td>
+      <td>
+        Feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/65fd67dcd3c14daddfc0f36493dc6da3630898a1">コミット</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026 年 1 月 15 日（Pt）
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>説明</th>
+      <th>タイプ</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce as a Cloud Serviceに次の機能が追加されました。<br />- アダプティブリスク分析と機械学習機能を備えた高度なボット保護を提供する <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise">Google reCAPTCHA Enterprise</a> をサポートするようになりました。<br /> – （カスタムトラッキング URL を有効にする <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls"> ことによって、買い物客のメールに含まれる出荷トラッキング番号をプレーンテキストからクリック可能なリンクに変換 </a> ます。 この機能は、USPS、UPS、FedEx、および DHL でサポートされています。<br />- <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules"> カタログ価格ルール </a> を使用して、階層別価格割引をカタログルール割引と組み合わせることができるようになりました。 この機能強化により、より動的で競争力のある価格戦略を作成できます。</p>
+</td>
+      <td>
+        メジャーアップデート、新しいトピック
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/70e73b47c4b0342ade3deab64dbe39f29b82191f">コミット</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2025 年 12 月 17 日（Pt）
 
@@ -23,7 +89,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>顧客がチェックアウト時に報酬ポイントまたはストアクレジットを使用する際の税金の計算方法を明確にするために、<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty"> 報酬とロイヤルティ </a> のトピックを更新しました。</p>
+      <td><p>顧客がチェックアウト時に報酬ポイントまたはストアクレジットを使用する際の税金の計算方法を明確にするために、<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty"> 報酬とロイヤルティ </a> のトピックを更新しました。</p>
 </td>
       <td>
         Feedback
@@ -45,7 +111,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p><code class="language-plaintext highlighter-rouge">NOFOLLOW</code>SEO ドキュメント <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/seo/seo-overview"> の </a> ロボットメタディレクティブの説明を更新しました。<br /><em> 問題 <a href="https://github.com/AdobeDocs/commerce-admin.ja-JP/issues/82">#82</a>.</em> を修正</p>
+      <td><p><code class="language-plaintext highlighter-rouge">NOFOLLOW</code>SEO ドキュメント <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview"> の </a> ロボットメタディレクティブの説明を更新しました。<br /><em> 問題 <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82">#82</a>.</em> を修正</p>
 </td>
       <td>
         テクニカル、フィードバック
@@ -67,56 +133,12 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cookie 法への準拠 </a> で無効にすべきデフォルト Cookie に関する情報を追加しました。</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cookie 法への準拠 </a> で無効にすべきデフォルト Cookie に関する情報を追加しました。</p>
 </td>
       <td>
         技術
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/dbc09915e0ce6f052fa797ddd103f051ea289625">コミット</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2025 年 11 月 15 日（Pt）
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>説明</th>
-      <th>タイプ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>CMSページのページビルダープレビューを使用できるかどうかについてのガイダンスを <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/content-design/elements/pages/page-add"> ページの追加と削除 </a> および <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/page-builder/workspace"> ページビルダーのWorkspace</a> のトピックに追加しました。 デフォルトストア表示で使用できない限り、プレビューにコンテンツは表示されません。</p>
-</td>
-      <td>
-        テクニカル、フィードバック
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/929fe633f473af030f44e9b0d6b0f9bf8b4c53d5">コミット</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2025 年 11 月 13 日（Pt）
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>説明</th>
-      <th>タイプ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/security/security-scan"> セキュリティスキャンツール </a> が更新され、Adobe Experience Manager サイトとしてデプロイされたCommerceのストアフロントを持つマーチャントをサポートするようになりました。</p>
-</td>
-      <td>
-        技術
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/467decc88b33ada26ae7aa4afbf9b4a8e78f23cc">コミット</a></td>
     </tr>
   </tbody>
 </table>
