@@ -16,23 +16,23 @@ ht-degree: 0%
 
 ## 製品設定で定義済み
 
-製品を作成または更新する際に、[ 製品設定 ](../catalog/product-create.md#product-settings) を使用すると、その製品に固有の製品関係を定義できます。
+製品を作成または更新する際に、[&#x200B; 製品設定 &#x200B;](../catalog/product-create.md#product-settings) を使用すると、その製品に固有の製品関係を定義できます。
 
 ### 関連製品
 
-[ 関連製品 ](../catalog/related-products-up-sells-cross-sells.md#related-products) は、お客様が閲覧している品目に加えて購入することを意図しています。 製品を補完、拡張または製品にオプションの機能を追加します。
+[&#x200B; 関連製品 &#x200B;](../catalog/related-products-up-sells-cross-sells.md#related-products) は、お客様が閲覧している品目に加えて購入することを意図しています。 製品を補完、拡張または製品にオプションの機能を追加します。
 
 ### アップセル
 
-[ アップセル商品 ](../catalog/related-products-up-sells-cross-sells.md#up-sells) とは、似ていますが、おそらく品質が高く、人気があり、顧客が検討している商品よりも利益率が高い商品です。
+[&#x200B; アップセル商品 &#x200B;](../catalog/related-products-up-sells-cross-sells.md#up-sells) とは、似ていますが、おそらく品質が高く、人気があり、顧客が検討している商品よりも利益率が高い商品です。
 
 ### クロスセル
 
-[ クロスセル製品 ](../catalog/related-products-up-sells-cross-sells.md#cross-sells) は、チェックアウトプロセスが開始される前の直前の購入として買い物かごページで提供されます。
+[&#x200B; クロスセル製品 &#x200B;](../catalog/related-products-up-sells-cross-sells.md#cross-sells) は、チェックアウトプロセスが開始される前の直前の購入として買い物かごページで提供されます。
 
 ## 関連する製品ルール
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [ 関連商品ルール ](product-related-rules.md) を使用すると、関連商品、アップセル、クロスセルとして顧客に表示する商品を選択できます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [&#x200B; 関連商品ルール &#x200B;](product-related-rules.md) を使用すると、関連商品、アップセル、クロスセルとして顧客に表示する商品を選択できます。
 
 ## Adobe AI を活用した Product Recommendations
 
