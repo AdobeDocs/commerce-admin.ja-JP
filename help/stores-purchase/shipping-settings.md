@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ## E メール出荷トラッキング URL
 
-[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
 
 デフォルトでは、買い物客のメールで送信される出荷トラッキング番号はプレーンテキストです。 カスタムトラッキング URL 機能を有効にすると、これらのトラッキング番号をクリック可能なリンクに変換できます。 この機能を使用すると、様々な配送業者の URL をトラッキングするためのテンプレートを定義できます。 各テンプレートには、トラッキング web サイトの完全な URL と、トラッキング番号のプレースホルダーが含まれます。 Commerceは、メールの実際のトラッキング番号でプレースホルダーを置き換えます。
 

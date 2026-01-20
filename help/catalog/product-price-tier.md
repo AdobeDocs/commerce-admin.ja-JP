@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ## カタログ価格ルールの階層価格を有効にする
 
-[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
 
 以前のバージョンのCommerceでは、カタログ価格ルールと組み合わせて階層価格を使用することはできませんでした。 カタログルールでは、階層価格の設定が無視され、元の基本価格からのみ計算された割引が無視されました。 Adobe Commerce as a Cloud Serviceを使用して、カタログ価格ルールの計算に階層価格を含めることができるようになりました。
 

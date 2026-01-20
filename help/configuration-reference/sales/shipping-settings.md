@@ -44,7 +44,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Shipment Tracking URLs]
 
-[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
 
 ![&#x200B; 配送ポリシーのパラメーター &#x200B;](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
 
