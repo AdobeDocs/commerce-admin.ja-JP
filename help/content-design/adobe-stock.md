@@ -15,9 +15,9 @@ ht-degree: 0%
 
 ストアで使用する無数のメディアアセットにアクセスするには、[Adobe Stock](https://stock.adobe.com) を [!UICONTROL Commerce] と統合します。
 
-![Adobe Stock検索結果 ](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
+![Adobe Stock検索結果 &#x200B;](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
-Adobe Stock サービスは、あらゆるクリエイティブプロジェクトに使用できる、何百万点もの質の高い選ばれたロイヤリティーフリーの写真、ベクター、イラスト、ビデオ、テンプレートおよび 3D アセットを提供します。 [!DNL Commerce] ユーザーは、Adobe Stock アセットをすばやく検索、プレビューおよびライセンス付与することができます。 また、ユーザーは、管理ワークスペースを離れることなく、すべてを [ メディアストレージ ](./media-storage.md) に保存できます。
+Adobe Stock サービスは、あらゆるクリエイティブプロジェクトに使用できる、何百万点もの質の高い選ばれたロイヤリティーフリーの写真、ベクター、イラスト、ビデオ、テンプレートおよび 3D アセットを提供します。 [!DNL Commerce] ユーザーは、Adobe Stock アセットをすばやく検索、プレビューおよびライセンス付与することができます。 また、ユーザーは、管理ワークスペースを離れることなく、すべてを [&#x200B; メディアストレージ &#x200B;](./media-storage.md) に保存できます。
 
 ## 前提条件
 
@@ -28,14 +28,14 @@ Adobe Stock サービスは、あらゆるクリエイティブプロジェク�
 
 Adobe Stock イメージのライセンスを取得するには、次の操作が必要です。
 
-- [Adobe アカウント ](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
+- [Adobe アカウント &#x200B;](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
 - アカウントに関連付けられた有料の [Adobe Stock](https://stock.adobe.com) プラン
 
 ## [!DNL Commerce] とAdobe Stockの統合
 
 Adobe Stock統合をAdobe Commerce用に設定するには、次の 2 つの手順があります。
 
-1. [adobe.developer 統合を作成 ](#create-an-adobe-developer-integration) して API キーを生成
+1. [adobe.developer 統合を作成 &#x200B;](#create-an-adobe-developer-integration) して API キーを生成
 1. [Commerce Admin でのAdobe Stock統合の設定](#configure-the-adobe-stock-integration)
 
 ### Adobe Developer統合の作成
@@ -44,7 +44,7 @@ Adobe Stock統合をAdobe Commerce用に設定するには、次の 2 つの手�
 
 1. [_[!UICONTROL Quick Start]_] で、[**[!UICONTROL Create new project]**] をクリックします。
 
-1. _[!UICONTROL Project overview]_ブロックで、「**[!UICONTROL Add API]**」をクリックします。
+1. _[!UICONTROL Project overview]_&#x200B;ブロックで、「**[!UICONTROL Add API]**」をクリックします。
 
 1. 統合リストから「**[!UICONTROL Adobe Stock]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 
@@ -74,13 +74,13 @@ Adobe Stock統合をAdobe Commerce用に設定するには、次の 2 つの手�
 
 ### Adobe Stock統合の設定
 
-[!DNL Commerce] Admin でシステム設定を設定するには、_前の節_ で生成した _API キー_ と [ クライアントシークレット ](#create-an-adobeio-integration) を使用します。
+[!DNL Commerce] Admin でシステム設定を設定するには、_前の節_ で生成した _API キー_ と [&#x200B; クライアントシークレット &#x200B;](#create-an-adobeio-integration) を使用します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL System]**」を選択します。
 
-1. ![ 拡張セレクター ](../assets/icon-display-expand.png) を展開し **[!UICONTROL Adobe Stock Integration]** 以下を実行します。
+1. ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) を展開し **[!UICONTROL Adobe Stock Integration]** 以下を実行します。
 
    - **[!UICONTROL Enabled Adobe Stock]** を `Yes` に設定します。
 
@@ -90,7 +90,7 @@ Adobe Stock統合をAdobe Commerce用に設定するには、次の 2 つの手�
 
    - 「**[!UICONTROL Test Connection]**」をクリックしてキーを検証します。
 
-   ![ 詳細設定 – Adobe Stockの統合 ](./assets/system-adobe-stock-integration.png){width="600" zoomable="yes"}
+   ![&#x200B; 詳細設定 – Adobe Stockの統合 &#x200B;](./assets/system-adobe-stock-integration.png){width="600" zoomable="yes"}
 
    検証を数秒間行います。 資格情報が有効な場合は、緑色の _接続に成功しました！_ メッセージ。
 
