@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # 税金
 
-お住まいの地域の要件に応じて税金を計算するようにストアを設定します。 製品および顧客グループに対して [ 税金クラス ](tax-class.md) を設定し、製品および顧客クラス、税金ゾーンおよび税率を組み合せた [ 税金ルール ](tax-rules.md) を作成できます。 Commerceは、固定商品税、複合税、国際間の価格の表示に関する設定も提供しています。 [ 付加価値税 ](vat.md) を徴収する必要がある場合は、検証を行って適切な金額を自動的に計算するようにストアを設定できます。
+お住まいの地域の要件に応じて税金を計算するようにストアを設定します。 製品および顧客グループに対して [&#x200B; 税金クラス &#x200B;](tax-class.md) を設定し、製品および顧客クラス、税金ゾーンおよび税率を組み合せた [&#x200B; 税金ルール &#x200B;](tax-rules.md) を作成できます。 Commerceは、固定商品税、複合税、国際間の価格の表示に関する設定も提供しています。 [&#x200B; 付加価値税 &#x200B;](vat.md) を徴収する必要がある場合は、検証を行って適切な金額を自動的に計算するようにストアを設定できます。
 
 >[!NOTE]
 >
->Adobe CommerceおよびMagento Open Source リリース 2.4.0 から 2.4.3 には、Vertex Cloud と統合して税務管理とアドレスクレンジングを提供するために使用される、Vertex ベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、この拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceまたはベンダーから直接インストールおよび更新する必要があります。 拡張機能とドキュメントについては、[Vertex にお問い合わせください ](https://marketplace.magento.com/partner/vertex_inc)。<br><br>
+>Adobe CommerceおよびMagento Open Source リリース 2.4.0 から 2.4.3 には、Vertex Cloud と統合して税務管理とアドレスクレンジングを提供するために使用される、Vertex ベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、この拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceまたはベンダーから直接インストールおよび更新する必要があります。 拡張機能とドキュメントについては、[Vertex にお問い合わせください &#x200B;](https://marketplace.magento.com/partner/vertex_inc)。<br><br>
 >
->バンドルされた拡張機能を有効にして設定してある場合は、2.4.4 のアップグレードプロセスの一環として composer.json ファイルを更新し、今後、拡張機能の更新を管理する必要があります。 [ アップグレードガイド ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) の _アップグレードモジュール_ を参照してください。
+>バンドルされた拡張機能を有効にして設定してある場合は、2.4.4 のアップグレードプロセスの一環として composer.json ファイルを更新し、今後、拡張機能の更新を管理する必要があります。 [&#x200B; アップグレードガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) の _アップグレードモジュール_ を参照してください。
 
 ## クイックリファレンス
 
-一部の税金設定では、税金の計算方法と顧客への表示方法を決定するオプションを選択できます。 詳しくは、[ 国際課税ガイドライン ](international-tax-guidelines.md) を参照してください。
+一部の税金設定では、税金の計算方法と顧客への表示方法を決定するオプションを選択できます。 詳しくは、[&#x200B; 国際課税ガイドライン &#x200B;](international-tax-guidelines.md) を参照してください。
 
 税金計算設定を構成する際の参考として、次の表を使用します。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ### カタログ価格（税あり/なし）
 
-表示できるフィールドは、計算方法や、カタログ価格に税金が含まれているか税金が含まれていないかによって異なります。 通常の計算では、表示フィールドの精度は小数点以下 2 桁です。 一部の価格設定の組み合わせでは、税を含む価格と税を除外する価格が表示されます。 両方が同じ行項目に表示されると、お客様にとって混乱を招き、トリガーに [ 警告 ](taxes.md#warning-messages) が表示される可能性があります。
+表示できるフィールドは、計算方法や、カタログ価格に税金が含まれているか税金が含まれていないかによって異なります。 通常の計算では、表示フィールドの精度は小数点以下 2 桁です。 一部の価格設定の組み合わせでは、税を含む価格と税を除外する価格が表示されます。 両方が同じ行項目に表示されると、お客様にとって混乱を招き、トリガーに [&#x200B; 警告 &#x200B;](taxes.md#warning-messages) が表示される可能性があります。
 
 | 設定 | 計算と表示 |
 |--- |--- |
@@ -72,9 +72,9 @@ ht-degree: 0%
 
 税金計算が問題のある構成に基づいている場合は、次の警告が表示されます。
 
-![ 感嘆符 ](../assets/icon-warning.png) **警告**. `Tax discount configuration might result in different discounts than a customer might expect for store(s); Europe Website (French), Europe Website (German). Please see source for more details.`
+![&#x200B; 感嘆符 &#x200B;](../assets/icon-warning.png) **警告**. `Tax discount configuration might result in different discounts than a customer might expect for store(s); Europe Website (French), Europe Website (German). Please see source for more details.`
 
-![ 感嘆符 ](../assets/icon-warning.png) **警告**. `Tax configuration can result in rounding errors for store(s): Europe Websites (French), Europe Websites (German).`
+![&#x200B; 感嘆符 &#x200B;](../assets/icon-warning.png) **警告**. `Tax configuration can result in rounding errors for store(s): Europe Websites (French), Europe Websites (German).`
 
 ## EU （デジタル物品の供給地）
 
@@ -89,7 +89,7 @@ VAT 番号が登録されている EU 諸国に販売された現物を報告し
 - 顧客の配送先住所と支払い処理が成功した記録を使用して、顧客の居住地を確立できます。 （お支払いは、配送先住所が決済会社情報と一致する場合のみ受け付けます。
 - また、Commerce データベーステーブルのデータストアから直接取得することもできます。
 
-_**デジタル物品税情報を収集するには：**_
+_&#x200B;**デジタル物品税情報を収集するには：**&#x200B;_
 
 1. すべての EU 加盟国の税率を読み込みます。
 
@@ -97,7 +97,7 @@ _**デジタル物品税情報を収集するには：**_
 
 1. すべてのデジタル商品をデジタル商品製品税区分に割り当てます。
 
-1. 物理的な製品税区分を使用して、物理的な商品の [ 税務処理基準 ](tax-rules.md) を作成し、適切な税率に関連付けます。
+1. 物理的な製品税区分を使用して、物理的な商品の [&#x200B; 税務処理基準 &#x200B;](tax-rules.md) を作成し、適切な税率に関連付けます。
 
 1. デジタル商品の製品税区分を使用してデジタル商品の税務処理基準を作成し、EU 加盟国の適切な税率に関連付けます。
 
@@ -107,5 +107,5 @@ _**デジタル物品税情報を収集するには：**_
 
 追加のリソース：
 
-- [ 欧州委員会の課税及び関税同盟 ](https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)
-- [EU1015 の「Place of Supply Changes （供給地変更）」 ](https://www2.deloitte.com/global/en/services/tax.html)
+- [&#x200B; 欧州委員会の課税及び関税同盟 &#x200B;](https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)
+- [EU1015 の「Place of Supply Changes （供給地変更）」 &#x200B;](https://www2.deloitte.com/global/en/services/tax.html)

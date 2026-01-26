@@ -16,7 +16,7 @@ ht-degree: 0%
 
 - [Google Analytics](google-analytics.md) - _Google Universal Analytics_ を使用すると、オフラインおよびモバイルアプリのインタラクションをサポートし、継続的な更新にアクセスできるので、トラッキング用にさらにカスタムディメンションと指標を定義できます。
 
-- [Google タグマネージャー ](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） Google タグマネージャーを使用して、マーケティングキャンペーンイベントに関連する多くのタグを管理します。
+- [Google タグマネージャー &#x200B;](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） Google タグマネージャーを使用して、マーケティングキャンペーンイベントに関連する多くのタグを管理します。
 
 - [Google AdWords](google-adwords.md) - Google AdWords キャンペーンを作成し、ストアのコンバージョンを追跡します。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### 手順 1:Google設定の更新
 
-1. 会社のGoogle Analytics アカウントに [ ログイン ](https://www.google.com/analytics/){: target="_blank"} します。
+1. 会社のGoogle Analytics アカウントに [&#x200B; ログイン &#x200B;](https://www.google.com/analytics/){: target="_blank"} します。
 
 1. 左側のサイドバーの下部で「**[!UICONTROL Admin]**」を選択し、編集するアカウントに移動します（該当する場合）。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. _データ処理の修正_ を受け入れます。
 
-   Google Ads データ処理条件では、Googleによるデータの処理方法と、GDPR の対象となるビジネスのデータセキュリティを確保するために必要な対策について説明します。 法人の記録と連絡先情報も修正で維持されます。 [ 詳細情報 ](https://support.google.com/analytics/answer/3379636){: target="_blank"} するには、ページ上部のメッセージ内のリンクをクリックします。
+   Google Ads データ処理条件では、Googleによるデータの処理方法と、GDPR の対象となるビジネスのデータセキュリティを確保するために必要な対策について説明します。 法人の記録と連絡先情報も修正で維持されます。 [&#x200B; 詳細情報 &#x200B;](https://support.google.com/analytics/answer/3379636){: target="_blank"} するには、ページ上部のメッセージ内のリンクをクリックします。
 
    - **[!UICONTROL Data Processing Amendment]** までページを下にスクロールします。
    - **[!UICONTROL Review Amendment]** をクリックして、_Google Ads データ処理条件_ をお読みください。
@@ -56,9 +56,9 @@ ht-degree: 0%
 
    - 「**[!UICONTROL Manage DPA Details]**」をクリックすると、DPA 管理ページが開き、担当者および組織の法的エンティティを編集できます。
 
-   - 「**[!UICONTROL Legal Entities]**」セクションで、「_編集_ （![Google編集アイコン ](./assets/google-icon-edit.png)）」アイコンをクリックし、組織の 1 つ以上の登録名を追加します。 完了したら、「**[!UICONTROL Save]**」をクリックします。
+   - 「**[!UICONTROL Legal Entities]**」セクションで、「_編集_ （![Google編集アイコン &#x200B;](./assets/google-icon-edit.png)）」アイコンをクリックし、組織の 1 つ以上の登録名を追加します。 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
-   - 「**連絡先**」セクションで、「_追加_ （![Google追加アイコン ](./assets/google-icon-add.png)）」アイコンをクリックして、最初の連絡先の情報を入力します。 次に、該当する各役割のチェックボックスをオンにして、「**[!UICONTROL Add]**」をクリックします。
+   - 「**連絡先**」セクションで、「_追加_ （![Google追加アイコン &#x200B;](./assets/google-icon-add.png)）」アイコンをクリックして、最初の連絡先の情報を入力します。 次に、該当する各役割のチェックボックスをオンにして、「**[!UICONTROL Add]**」をクリックします。
 
       - プライマリ連絡先 – （通知メールアドレス）通知の送信先の連絡先。
       - データ保護責任者 – （該当する場合）プライバシー規制のコンプライアンスを促進するために指定された人物。
@@ -80,7 +80,7 @@ analytics.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-詳しくは、Google ヘルプの [Analytics.js フィールドリファレンス ](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference){: target="_blank"} を参照してください。
+詳しくは、Google ヘルプの [Analytics.js フィールドリファレンス &#x200B;](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference){: target="_blank"} を参照してください。
 
 従来の `ga.js` ライブラリを使用する場合は、次のスニペットを追加します。
 
@@ -98,7 +98,7 @@ gtag.js
 : `gtag('event', 'your_event', { 'anonymize_ip': true })`
 ```
 
-詳しくは、Google ヘルプの [Analytics での IP 匿名化 ](https://support.google.com/analytics/answer/2763052) を参照してください。
+詳しくは、Google ヘルプの [Analytics での IP 匿名化 &#x200B;](https://support.google.com/analytics/answer/2763052) を参照してください。
 
 #### SSL を強制
 
@@ -112,7 +112,7 @@ analytics.js
 
 ### 手順 3：プライバシーポリシーを更新する
 
-[ プライバシーポリシー ](../getting-started/privacy-policy.md) を更新し、会社について説明します。
+[&#x200B; プライバシーポリシー &#x200B;](../getting-started/privacy-policy.md) を更新し、会社について説明します。
 
 - Google Analyticsの使用
 - IP アドレスをマスクして個人情報を非表示にする

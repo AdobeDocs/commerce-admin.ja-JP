@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # アクセシビリティ
 
-サイトの訪問者の中には、ナビゲーションにマウスではなくキーボードコントロールを使用する人もいれば、タッチコマンドや音声コマンドを使用する人もいます。 キーボードナビゲーションコントロールは、ブラウザーやプラットフォームによって異なりますが、Tab キーを使用すると一般的にページ上のフィールド、リンク、ボタンにフォーカスを移動できます。 詳しくは、[ キーボードショートカット ](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts){:target="_blank"} を参照してください。
+サイトの訪問者の中には、ナビゲーションにマウスではなくキーボードコントロールを使用する人もいれば、タッチコマンドや音声コマンドを使用する人もいます。 キーボードナビゲーションコントロールは、ブラウザーやプラットフォームによって異なりますが、Tab キーを使用すると一般的にページ上のフィールド、リンク、ボタンにフォーカスを移動できます。 詳しくは、[&#x200B; キーボードショートカット &#x200B;](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts){:target="_blank"} を参照してください。
 
-アクセシビリティについて詳しくは、開発者向けドキュメントの [ アクセシビリティガイドライン ](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines/){:target="_blank"} を参照してください。
+アクセシビリティについて詳しくは、開発者向けドキュメントの [&#x200B; アクセシビリティガイドライン &#x200B;](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines/){:target="_blank"} を参照してください。
 
 ## Windows
 

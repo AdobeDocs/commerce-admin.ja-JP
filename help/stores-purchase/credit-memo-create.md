@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # クレジットメモを発行する
 
-クレジット メモを印刷する前に、まず [ 請求済み注文 ](invoices.md#create-an-invoice) 用に生成する必要があります。 支払い方法に応じて、オープン・クレジット・メモからオンラインとオフラインの両方の払戻（一部または全部）を発行できます。
+クレジット メモを印刷する前に、まず [&#x200B; 請求済み注文 &#x200B;](invoices.md#create-an-invoice) 用に生成する必要があります。 支払い方法に応じて、オープン・クレジット・メモからオンラインとオフラインの両方の払戻（一部または全部）を発行できます。
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）店舗クレジットに払い戻しを適用できます。
 - ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で利用可能）返金は会社のクレジットに適用できます。
 - クレジットカードによる購入は、オンラインまたはオフラインで返金できます。
 - 小切手またはマネーオーダーによる購入は、オフラインで返金する必要があります。
 
-[ オープン・ステータス ](order-status.md) のクレジット・メモには、未払いの返済期限があります。
+[&#x200B; オープン・ステータス &#x200B;](order-status.md) のクレジット・メモには、未払いの返済期限があります。
 
 クレジット メモを使用すると、次のことができます。
 
@@ -29,13 +29,13 @@ ht-degree: 0%
 - 合計注文金額を超えないように、注文ごとに複数の請求書を払い戻します。
 - 注文した 5 枚のシャツのうち 3 枚など、1 つの品目の数量の一部を払い戻します。
 
-詳細は、「[ 請求書の作成 ](invoices.md#create-an-invoice)」を参照してください。
+詳細は、「[&#x200B; 請求書の作成 &#x200B;](invoices.md#create-an-invoice)」を参照してください。
 
 ## 支払アクションの設定
 
-クレジットカードで支払われた注文の返金ワークフローは、使用可能な各支払い方法の設定の [ 支払いアクション ](../configuration-reference/sales/payment-methods.md#payment-actions) 設定によって決定されます。 トランザクションが決済されるまで払い戻しを発行できません。
+クレジットカードで支払われた注文の返金ワークフローは、使用可能な各支払い方法の設定の [&#x200B; 支払いアクション &#x200B;](../configuration-reference/sales/payment-methods.md#payment-actions) 設定によって決定されます。 トランザクションが決済されるまで払い戻しを発行できません。
 
-![ 支払処理の設定 ](./assets/payment-action-setting.png){width="600" zoomable="yes"}
+![&#x200B; 支払処理の設定 &#x200B;](./assets/payment-action-setting.png){width="600" zoomable="yes"}
 
 - 設定した支払方法の「支払処理」が「`Authorize`」に設定されている場合、クレジット・メモを作成する前に、まず管理者から請求書を生成する必要があります。
 - 設定した支払方法の「支払処理」が「`Authorize and Capture`」に設定されている場合、請求書は支払処理者によって生成済ですが、取引が決済されるまで資金は使用できません。 この短い待ち時間は、セキュリティ対策として多くの支払い処理者によって推奨されており、通常は自動的に処理できます。 トランザクションは、支払い処理者のマーチャントアカウントから手動で決済することもできます。
@@ -43,13 +43,13 @@ ht-degree: 0%
 
 ## クレジットメモの作成
 
-発行する払戻のタイプ（[ クレジット購入の場合 ](#issue-a-refund-for-a-credit-purchase)、または [ 小切手またはマネーオーダーの場合 ](#issue-an-offline-refund-for-check-or-money-order) を決定し、クレジット・メモを生成して払戻を発行します。
+発行する払戻のタイプ（[&#x200B; クレジット購入の場合 &#x200B;](#issue-a-refund-for-a-credit-purchase)、または [&#x200B; 小切手またはマネーオーダーの場合 &#x200B;](#issue-an-offline-refund-for-check-or-money-order) を決定し、クレジット・メモを生成して払戻を発行します。
 
 ### クレジット購入の払い戻しを発行する
 
 1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/**[!UICONTROL Orders]** に移動します。
 
-   ![ 注文グリッド ](./assets/orders-grid.png){width="700" zoomable="yes"}
+   ![&#x200B; 注文グリッド &#x200B;](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 1. グリッド内の順序を見つけて、「**[!UICONTROL View]**」をクリックします。
 
@@ -58,17 +58,17 @@ ht-degree: 0%
    - `offline` 払い戻しを発行するには、手順#6 に進みます。
    - `online` 払い戻しを発行するには、手順#4 に進みます。
 
-   オフラインおよびオンラインでの払い戻しについて詳しくは、[ クレジットメモ ](credit-memos.md) を参照してください。
+   オフラインおよびオンラインでの払い戻しについて詳しくは、[&#x200B; クレジットメモ &#x200B;](credit-memos.md) を参照してください。
 
 1. 左側のパネルで「**[!UICONTROL Invoices]**」をクリックします。
 
 1. グリッドで請求書を見つけて、「**[!UICONTROL View]**」をクリックします。
 
-   ![ 請求書グリッド ](./assets/order-invoices-grid.png){width="700" zoomable="yes"}
+   ![&#x200B; 請求書グリッド &#x200B;](./assets/order-invoices-grid.png){width="700" zoomable="yes"}
 
 1. 請求書の **[!UICONTROL Invoice Totals]** セクションまでスクロールし、請求書が `Capture Online` に設定されていることを確認して、[**[!UICONTROL Submit Invoice]**] をクリックします。
 
-   ![ キャプチャ オンライン ](./assets/order-invoice-capture-online.png){width="600" zoomable="yes"}
+   ![&#x200B; キャプチャ オンライン &#x200B;](./assets/order-invoice-capture-online.png){width="600" zoomable="yes"}
 
    そのオプションが利用できない場合、請求書は既に作成されています。 次の手順に進みます。
 
@@ -78,11 +78,11 @@ ht-degree: 0%
 
    - 商品を在庫に戻すには、「**[!UICONTROL Return to Stock]**」チェックボックスを選択します。
 
-     _製品ストックオプション_ が `Automatically Return Credit Memo Item to Stock` に設定されている場合、製品は自動的に在庫に戻ります。 [Inventory managementを有効にすると ](../inventory-management/enable.md) 出荷元に商品が戻ります。
+     _製品ストックオプション_ が `Automatically Return Credit Memo Item to Stock` に設定されている場合、製品は自動的に在庫に戻ります。 [Inventory managementを有効にすると &#x200B;](../inventory-management/enable.md) 出荷元に商品が戻ります。
 
    - **[!UICONTROL Qty to Refund]** を更新し、「**[!UICONTROL Update Qty's]**」をクリックします。
 
-     ![ 還付対象物品 ](./assets/invoice-credit-memo-items-to-refund.png){width="600" zoomable="yes"}
+     ![&#x200B; 還付対象物品 &#x200B;](./assets/invoice-credit-memo-items-to-refund.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Refunds Totals]** の節を次のように更新します。
 
@@ -116,9 +116,9 @@ ht-degree: 0%
 
    - ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で利用可能）購入が企業クレジットで支払われた場合は、「**[!UICONTROL Refund to Company Credit]**」をクリックします。
 
-   オフラインおよびオンラインでの払い戻しについて詳しくは、[ クレジットメモ ](credit-memos.md) を参照してください。
+   オフラインおよびオンラインでの払い戻しについて詳しくは、[&#x200B; クレジットメモ &#x200B;](credit-memos.md) を参照してください。
 
-   ![ 注文合計払戻 ](./assets/credit-memo-order-total-refund.png){width="600" zoomable="yes"}
+   ![&#x200B; 注文合計払戻 &#x200B;](./assets/credit-memo-order-total-refund.png){width="600" zoomable="yes"}
 
 ### 小切手または送金用のオフライン払い戻しを発行する
 
@@ -132,15 +132,15 @@ ht-degree: 0%
 
 1. 請求書の上部にあるボタン バーで、[**[!UICONTROL Credit Memo]**] をクリックします。
 
-   ![ クレジット・メモの作成 ](./assets/order-invoice-info-company.png){width="600" zoomable="yes"}
+   ![&#x200B; クレジット・メモの作成 &#x200B;](./assets/order-invoice-info-company.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Items to Refund]** の節の情報を確認し、該当する場合は次の操作を行います。
 
-   ![ 還付対象物品 ](./assets/credit-memo-items-to-refund.png){width="600" zoomable="yes"}
+   ![&#x200B; 還付対象物品 &#x200B;](./assets/credit-memo-items-to-refund.png){width="600" zoomable="yes"}
 
    - 返された商品を在庫に戻す場合は、「**[!UICONTROL Return to Stock]**」チェックボックスをオンにします。
 
-     Inventory managementを有効にすると、在庫数量は出荷を送信したソースに戻ります。 [ 製品ストックオプション ](../inventory-management/enable.md) が `Automatically Return Credit Memo Item to Stock` に設定されている場合、製品は自動的に在庫に戻ります。
+     Inventory managementを有効にすると、在庫数量は出荷を送信したソースに戻ります。 [&#x200B; 製品ストックオプション &#x200B;](../inventory-management/enable.md) が `Automatically Return Credit Memo Item to Stock` に設定されている場合、製品は自動的に在庫に戻ります。
 
    - **[!UICONTROL Qty to Refund]** を更新し、「**[!UICONTROL Update Qty's]**」をクリックします。
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
      クレジット・メモ通知のステータスは、クレジット・メモ番号の横の完了したクレジット・メモに表示されます。
 
-     ![ 払戻合計 ](./assets/credit-memo-order-totals.png){width="600" zoomable="yes"}
+     ![&#x200B; 払戻合計 &#x200B;](./assets/credit-memo-order-totals.png){width="600" zoomable="yes"}
 
 1. プロセスを完了して払い戻しを発行するには、[**[!UICONTROL Refund Offline]**] をクリックします。
 
@@ -212,7 +212,7 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 |--- |--- |
-| [!UICONTROL Payment Information] | 注文に使用される支払い方法、発注書番号（該当する場合）、注文の際に使用された通貨が続きます。 注文が [ アカウントでの支払い ](../b2b/enable-basic-features.md#configure-payment-on-account) を使用して会社のクレジットに請求される場合、アカウントに請求される金額が示されます。 |
+| [!UICONTROL Payment Information] | 注文に使用される支払い方法、発注書番号（該当する場合）、注文の際に使用された通貨が続きます。 注文が [&#x200B; アカウントでの支払い &#x200B;](../b2b/enable-basic-features.md#configure-payment-on-account) を使用して会社のクレジットに請求される場合、アカウントに請求される金額が示されます。 |
 | [!UICONTROL Shipping & Handling Information] | 使用する発送方法と、該当する手数料。 |
 
 {style="table-layout:auto"}
@@ -253,7 +253,7 @@ ht-degree: 0%
 | [!UICONTROL Grand Total] | 払い戻される合計金額 |
 | [!UICONTROL Append Comments] | コメントをクレジット メモに含めるかどうかを決定するチェックボックスです。 |
 | [!UICONTROL Email Copy of Credit Memo] | クレジット メモのコピーを E メールで送信するかどうかを決定するチェックボックスです。 |
-| [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）合計を [ ストアクレジット ](../customers/store-credit-using.md) に払い戻すかどうかを決定するチェックボックス。 |
+| [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）合計を [&#x200B; ストアクレジット &#x200B;](../customers/store-credit-using.md) に払い戻すかどうかを決定するチェックボックス。 |
 | [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で利用可能）払い戻されるすべてのライン項目の合計。 |
 
 {style="table-layout:auto"}
@@ -266,7 +266,7 @@ ht-degree: 0%
 |--- |--- |
 | **[!UICONTROL Refund]** | 元の購入が支払いゲートウェイを通じてクレジットカードによって支払われた場合、払い戻し金額は支払い処理者によって管理されます。 払い戻しを管理するには、支払いプロバイダーが提供するドキュメントを参照してください。 |
 | **[!UICONTROL Refund Offline]** | 元の購入が小切手またはマネーオーダーによって支払われた場合、払い戻しは小切手、ギフトカード、または現金を発行することにより、顧客に直接支払われます。 クレジット・メモは、オフライン取引の記録として機能します。 |
-| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で利用可能）購入がクレジット会社に請求された場合、払い戻しは [ 会社アカウント ](../b2b/credit-company.md) に返されます。 |
+| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B で利用可能）購入がクレジット会社に請求された場合、払い戻しは [&#x200B; 会社アカウント &#x200B;](../b2b/credit-company.md) に返されます。 |
 
 {style="table-layout:auto"}
 
@@ -274,7 +274,7 @@ ht-degree: 0%
 
 完了したクレジットメモを印刷または表示するには、PDFリーダーをインストールする必要があります。 [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader を入手") は無料でダウンロードできます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Credit Memos]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]**/_[!UICONTROL Operations]_/**[!UICONTROL Credit Memos]**&#x200B;に移動します。
 
 1. クレジット・メモを印刷するには、次のいずれかの方法を使用します。
 
@@ -284,7 +284,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Print]**」をクリックします。
 
-   ![ クレジット メモの印刷 ](./assets/credit-memo-print.png){width="600" zoomable="yes"}
+   ![&#x200B; クレジット メモの印刷 &#x200B;](./assets/credit-memo-print.png){width="600" zoomable="yes"}
 
 ### 方法 2：複数のクレジット・メモの印刷
 
@@ -292,7 +292,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Actions]** コントロールを `PDF Credit Memos` に設定し、**[!UICONTROL Submit]** をクリックします。
 
-   ![ 選択したクレジット メモの印刷 ](./assets/credit-memos-print.png){width="600" zoomable="yes"}
+   ![&#x200B; 選択したクレジット メモの印刷 &#x200B;](./assets/credit-memos-print.png){width="600" zoomable="yes"}
 
 1. プロンプトが表示されたら、次のいずれかの操作を行います。
 

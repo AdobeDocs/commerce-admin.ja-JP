@@ -30,23 +30,23 @@ EU 一般データ保護規則（GDPR）は、欧州連合（EU）および欧�
 
 ## GDPR と CCPA
 
-ビジネスが GDPR および [ カリフォルニア州消費者プライバシー法（CCPA） ](../getting-started/compliance-ccpa.md) の両方に準拠する必要がある場合、CCPA の GDPR コンプライアンスプログラムの作業の一部を使用できます。 規則にはいくつかの類似点がありますが、次のようないくつかの違いがあります。
+ビジネスが GDPR および [&#x200B; カリフォルニア州消費者プライバシー法（CCPA） &#x200B;](../getting-started/compliance-ccpa.md) の両方に準拠する必要がある場合、CCPA の GDPR コンプライアンスプログラムの作業の一部を使用できます。 規則にはいくつかの類似点がありますが、次のようないくつかの違いがあります。
 
 - 個人情報の定義は規定により異なります。
 - GDPR では、特定の目的で個人データが使用される前に、消費者はオプトインする必要があります。CCPA は、消費者にオプトアウトの権利を提供します。
 - CCPA には、追加のデータインベントリおよびマッピング要件があります。
 - 規制によってプライバシーポリシーの要件が異なります。
 
-GDPR に準拠する企業には、CCPA に基づく追加の義務が課される場合があります。 詳細については、[CCPA ファクト・シート ](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"} を参照してください。
+GDPR に準拠する企業には、CCPA に基づく追加の義務が課される場合があります。 詳細については、[CCPA ファクト・シート &#x200B;](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"} を参照してください。
 
 ## ベストプラクティス
 
-- すべてのストアの現在の [ プライバシーポリシー ](../getting-started/privacy-policy.md) を調べて、適用される法的要件（GDPR や CCPA を含みますが、これらに限定されません）に準拠していることを確認します。
+- すべてのストアの現在の [&#x200B; プライバシーポリシー &#x200B;](../getting-started/privacy-policy.md) を調べて、適用される法的要件（GDPR や CCPA を含みますが、これらに限定されません）に準拠していることを確認します。
 
-- [Googleの設定を更新して ](../merchandising-promotions/google-tools.md#google-privacy-settings) 個人データの使用に関する法的義務に従っていることを確認してください。
+- [Googleの設定を更新して &#x200B;](../merchandising-promotions/google-tools.md#google-privacy-settings) 個人データの使用に関する法的義務に従っていることを確認してください。
 
 - 透明性を維持し、徹底したドキュメントを維持します。
 
-- マーチャントが適用される法的義務を遵守するうえでAdobeがどのように役立つかについては、[web サイト ](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"} を参照してください。
+- マーチャントが適用される法的義務を遵守するうえでAdobeがどのように役立つかについては、[web サイト &#x200B;](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"} を参照してください。
 
-- データフロー図とデータベースエンティティのマッピングについては、[ 個人情報リファレンス ](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"} を参照してください。
+- データフロー図とデータベースエンティティのマッピングについては、[&#x200B; 個人情報リファレンス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"} を参照してください。

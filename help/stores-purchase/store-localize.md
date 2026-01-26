@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # ストアのローカリゼーション
 
-ストア全体でページにハードコードされているように見えるテキストのほとんどは、表示のロケールを変更することで、すぐに別の言語に変更できます。 ロケールを変更しても、実際には一語一語が翻訳されるわけではなく、ストア全体で使用されるインターフェイステキストを提供する別の翻訳テーブルが参照されるだけです。 変更可能なテキストには、ナビゲーションタイトル、ラベル、ボタン、およびリンク（_買い物かご_ や _マイアカウント_ など）が含まれます。 [ インライン翻訳 ](../configuration-reference/advanced/developer.md) ツールを使用して、インターフェイス内のテキストにタッチ アップすることもできます。
+ストア全体でページにハードコードされているように見えるテキストのほとんどは、表示のロケールを変更することで、すぐに別の言語に変更できます。 ロケールを変更しても、実際には一語一語が翻訳されるわけではなく、ストア全体で使用されるインターフェイステキストを提供する別の翻訳テーブルが参照されるだけです。 変更可能なテキストには、ナビゲーションタイトル、ラベル、ボタン、およびリンク（_買い物かご_ や _マイアカウント_ など）が含まれます。 [&#x200B; インライン翻訳 &#x200B;](../configuration-reference/advanced/developer.md) ツールを使用して、インターフェイス内のテキストにタッチ アップすることもできます。
 
-言語パックは、Commerce Marketplaceの [ 翻訳とローカライゼーション ](https://marketplace.magento.com/extensions/content-customizations/translations-localization.html){:target="_blank"} にあります。 新しい拡張機能が Marketplace に継続的に追加されるので、頻繁に確認してください。
+言語パックは、Commerce Marketplaceの [&#x200B; 翻訳とローカライゼーション &#x200B;](https://marketplace.magento.com/extensions/content-customizations/translations-localization.html){:target="_blank"} にあります。 新しい拡張機能が Marketplace に継続的に追加されるので、頻繁に確認してください。
 
 ## 手順 1：言語パックをインストールする
 
-言語パック拡張機能をインストールするための標準的な手順に従います。 拡張機能のインストールについて詳しくは、『 [ 拡張機能ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) の _一般的な CLI のインストール_ を参照してください。
+言語パック拡張機能をインストールするための標準的な手順に従います。 拡張機能のインストールについて詳しくは、『 [&#x200B; 拡張機能ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) の _一般的な CLI のインストール_ を参照してください。
 
 ## 手順 2：言語のストア表示の作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL All Stores]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL All Stores]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Create Store View]**」をクリックします。
 
@@ -44,11 +44,11 @@ ht-degree: 0%
 
 ## 手順 3：ストア表示のロケールの変更
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. **[!UICONTROL Scope]** ドロップダウンで、設定するストア表示を選択し、プロンプトが表示されたら「**[!UICONTROL OK]**」をクリックします。
 
-1. *[!UICONTROL General]* 設定ページで、「拡張セレクター ![ の「](../assets/icon-display-expand.png)」セクション **[!UICONTROL Locale Options]** 展開します。
+1. *[!UICONTROL General]* 設定ページで、「拡張セレクター ![&#x200B; の「](../assets/icon-display-expand.png)」セクション **[!UICONTROL Locale Options]** 展開します。
 
 1. 「**[!UICONTROL Use Website]**」チェックボックスをオフにして、ビューに割り当てる言語に **[!UICONTROL Locale]** を設定します。
 
@@ -76,13 +76,13 @@ ht-degree: 0%
 
    - 翻訳したテキストをフィールドに貼り付けるか入力します。
 
-   [ 画像 ](../catalog/catalog-images-video.md) ラベルや代替テキスト、[ 検索エンジン最適化 ](../catalog/product-search-engine-optimization.md) フィールドや [ カスタムオプション ](../catalog/settings-advanced-custom-options.md) 情報など、すべてのテキストフィールドが必ず翻訳されるようにしてください。
+   [&#x200B; 画像 &#x200B;](../catalog/catalog-images-video.md) ラベルや代替テキスト、[&#x200B; 検索エンジン最適化 &#x200B;](../catalog/product-search-engine-optimization.md) フィールドや [&#x200B; カスタムオプション &#x200B;](../catalog/settings-advanced-custom-options.md) 情報など、すべてのテキストフィールドが必ず翻訳されるようにしてください。
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
 ### 手順 2：フィールドラベルを翻訳
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. リストで、翻訳する属性を見つけ、編集モードで開きます。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 1. 「_[!UICONTROL Manage Titles]_」セクションで、各ストアビューの翻訳済みラベルを入力します。
 
-   ![ 翻訳済みラベルを入力 ](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
+   ![&#x200B; 翻訳済みラベルを入力 &#x200B;](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Attribute]**」をクリックします。
 
@@ -104,15 +104,15 @@ ht-degree: 0%
 
 1. _基本情報_ については、**[!UICONTROL Category Name]** を翻訳してください。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「_[!UICONTROL Content]_」セクションを展開し、「**[!UICONTROL Description]**を翻訳」を選択します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「_[!UICONTROL Content]_」セクションを展開し、「**[!UICONTROL Description]**&#x200B;を翻訳」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Search Engine Optimization Settings]**」セクションを展開し、次のフィールドを翻訳します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL Search Engine Optimization Settings]**」セクションを展開し、次のフィールドを翻訳します。
 
    - **[!UICONTROL Meta Title]**
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. _[!UICONTROL Search Engine Optimization Settings]_セクションで、次の操作を行って&#x200B;**[!UICONTROL URL Key]**を翻訳します。
+1. _[!UICONTROL Search Engine Optimization Settings]_&#x200B;セクションで、次の操作を行って&#x200B;**[!UICONTROL URL Key]**&#x200B;を翻訳します。
 
    - フィールドの右側にある「**[!UICONTROL Use Default Value]**」チェックボックスをオフにします。
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
    - 「**[!UICONTROL Create Permanent Redirect for old URL]**」チェックボックスが選択されていることを確認します。
 
-   ![URL キーを翻訳 ](./assets/category-translate-url-key.png)
+   ![URL キーを翻訳 &#x200B;](./assets/category-translate-url-key.png)
 
 1. 完了したら、「**[!UICONTROL Save Category]**」をクリックします。
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 
 ### 手順 4：製品属性および属性オプションの翻訳
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Attributes]_/**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. 翻訳する属性を選択します。
 
@@ -136,6 +136,6 @@ ht-degree: 0%
 
 1. 左側の **[!UICONTROL Properties]** を選択し、「**[!UICONTROL Manage Options]**」セクションに翻訳済み属性のオプションを入力します。
 
-   ![ 管理オプション ](./assets/manage-option-tab.png){width="600" zoomable="yes"}
+   ![&#x200B; 管理オプション &#x200B;](./assets/manage-option-tab.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Attribute]**」をクリックします。

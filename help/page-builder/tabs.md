@@ -14,7 +14,7 @@ ht-degree: 0%
 
 _Tabs_ コンテンツタイプを使用して、[[!DNL Page Builder] stage](workspace.md#stage) に一連のタブを追加します。 パネルからステージにタブプレースホルダーをドラッグすると、最初にデフォルトのタブが 1 つ表示されます。 さらにタブを追加して、完全なセットを作成できます。 タブセットの幅は、その親コンテナの幅とパディングの設定によって決まります。
 
-![ タブのセット ](./assets/pb-layout-tab-example.png){width="500" zoomable="yes"}
+![&#x200B; タブのセット &#x200B;](./assets/pb-layout-tab-example.png){width="500" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -24,31 +24,31 @@ _Tabs_ コンテンツタイプを使用する場合、個々のタブおよび 
 
 ### 個々のタブのツールボックス
 
-![ タブツールボックス ](./assets/pb-layout-tab1-toolbox.png){width="500" zoomable="yes"}
+![&#x200B; タブツールボックス &#x200B;](./assets/pb-layout-tab1-toolbox.png){width="500" zoomable="yes"}
 
 | ツール | アイコン | 説明 |
 |--- |--- |--- |
-| 移動 | ![ 移動アイコン ](./assets/pb-icon-move.png){width="25"} | タブ ラベルの隣にあるこのコントロールは、個々のタブをタブ セット内の別の位置に移動するために使用されます。 |
-| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | タブの編集ページを開きます。このページで、個々のタブのプロパティを変更できます。 |
-| 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | タブをコピーします。 |
-| 削除 | ![ 削除アイコン ](./assets/pb-icon-remove.png){width="25"} | タブセットからタブを削除します。 |
+| 移動 | ![&#x200B; 移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | タブ ラベルの隣にあるこのコントロールは、個々のタブをタブ セット内の別の位置に移動するために使用されます。 |
+| 設定 | ![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | タブの編集ページを開きます。このページで、個々のタブのプロパティを変更できます。 |
+| 複製 | ![&#x200B; 複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | タブをコピーします。 |
+| 削除 | ![&#x200B; 削除アイコン &#x200B;](./assets/pb-icon-remove.png){width="25"} | タブセットからタブを削除します。 |
 
 {style="table-layout:auto"}
 
 ### タブコンテナツールボックス
 
-![ タブ コンテナ ツールボックス ](./assets/pb-tabs-toolbox-settings.png){width="500" zoomable="yes"}
+![&#x200B; タブ コンテナ ツールボックス &#x200B;](./assets/pb-tabs-toolbox-settings.png){width="500" zoomable="yes"}
 
 | ツール | アイコン | 説明 |
 |--- |--- |--- |
-| 移動 | ![ 移動アイコン ](./assets/pb-icon-move.png){width="25"} | タブのセットを、親コンテナのグリッド上の別の位置に移動します。 |
-| 追加 | ![ 追加アイコン ](./assets/pb-icon-add.png){width="25"} | タブセットにタブを追加します。 |
+| 移動 | ![&#x200B; 移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | タブのセットを、親コンテナのグリッド上の別の位置に移動します。 |
+| 追加 | ![&#x200B; 追加アイコン &#x200B;](./assets/pb-icon-add.png){width="25"} | タブセットにタブを追加します。 |
 | （ラベル） | [!UICONTROL Tabs] | 現在のコンテナをタブセットとして識別します。 コンテナの上部の境界線にポインタを合わせると、ツールボックスが表示されます。 |
-| 設定 | ![ 設定アイコン ](./assets/pb-icon-settings.png){width="25"} | 「編集タブ」ページが開きます。このページで、コンテナのプロパティを変更できます。 |
-| Hide | ![ アイコンを非表示 ](./assets/pb-icon-hide.png){width="25"} | タブコンテナを非表示にします。 |
-| 表示 | ![ アイコンを表示 ](./assets/pb-icon-show.png){width="25"} | 非表示のタブコンテナを表示します。 |
-| 複製 | ![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="25"} | 現在のタブをコピーします。 |
-| 削除 | ![ 削除アイコン ](./assets/pb-icon-remove.png){width="25"} | ステージから現在のタブセットを削除します。 |
+| 設定 | ![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | 「編集タブ」ページが開きます。このページで、コンテナのプロパティを変更できます。 |
+| Hide | ![&#x200B; アイコンを非表示 &#x200B;](./assets/pb-icon-hide.png){width="25"} | タブコンテナを非表示にします。 |
+| 表示 | ![&#x200B; アイコンを表示 &#x200B;](./assets/pb-icon-show.png){width="25"} | 非表示のタブコンテナを表示します。 |
+| 複製 | ![&#x200B; 複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | 現在のタブをコピーします。 |
+| 削除 | ![&#x200B; 削除アイコン &#x200B;](./assets/pb-icon-remove.png){width="25"} | ステージから現在のタブセットを削除します。 |
 
 {style="table-layout:auto"}
 
@@ -56,15 +56,15 @@ _Tabs_ コンテンツタイプを使用する場合、個々のタブおよび 
 
 ## 個々のタブの追加
 
-1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_の下で、**[!UICONTROL Tabs]**プレースホルダーを直接ステージにドラッグするか、ステージの行または列にドラッグします。
+1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_&#x200B;の下で、**[!UICONTROL Tabs]**&#x200B;プレースホルダーを直接ステージにドラッグするか、ステージの行または列にドラッグします。
 
-   ![ タブを行にドラッグ ](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
+   ![&#x200B; タブを行にドラッグ &#x200B;](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Tab 1]** ラベルをクリックして個々のタブツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}） アイコンを選択します。
+1. **[!UICONTROL Tab 1]** ラベルをクリックして個々のタブツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}） アイコンを選択します。
 
 1. ラベルとして使用する **[!UICONTROL Tab Name]** を入力します。
 
-   ![ タブ名の入力 ](./assets/pb-layout-tab1-toolbox-settings-general-tab-name.png){width="600" zoomable="yes"}
+   ![&#x200B; タブ名の入力 &#x200B;](./assets/pb-layout-tab1-toolbox-settings-general-tab-name.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、タブの **[!UICONTROL Minimum Height]** を入力します。
 
@@ -83,21 +83,21 @@ _Tabs_ コンテンツタイプを使用する場合、個々のタブおよび 
 
 次の手順は、個々のタブから開始して、タブコンテナ内に 3 つのタブのセットを作成します。 個々のタブをまだ持っていない場合は、前の手順に従って、ステージに 1 つのタブを追加します。
 
-1. タブコンテナにカーソルを合わせてツールボックスを表示し、_追加_ （![ 追加アイコン ](./assets/pb-icon-add.png){width="20"}）アイコンを選択します。
+1. タブコンテナにカーソルを合わせてツールボックスを表示し、_追加_ （![&#x200B; 追加アイコン &#x200B;](./assets/pb-icon-add.png){width="20"}）アイコンを選択します。
 
 1. **[!UICONTROL Tab 2]** ラベルをクリックしてカーソルを表示し、タブの独自のラベルを入力します。
 
-1. ステージの 2 番目のタブを再度クリックし、「_複製_」（![ 複製アイコン ](./assets/pb-icon-duplicate.png){width="20"}）アイコンを選択します。
+1. ステージの 2 番目のタブを再度クリックし、「_複製_」（![&#x200B; 複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="20"}）アイコンを選択します。
 
 1. YourName **[!UICONTROL Copy]** ラベルをクリックしてカーソルを表示し、3 番目のタブに自分のラベルを入力します。
 
-![ ツールボックスでタブのセットを一致させる ](./assets/pb-layout-tabs3-toolbox-main.png){width="600" zoomable="yes"}
+![&#x200B; ツールボックスでタブのセットを一致させる &#x200B;](./assets/pb-layout-tabs3-toolbox-main.png){width="600" zoomable="yes"}
 
 ## セット内でのタブの移動
 
 1. 移動するタブをクリックします。
 
-1. タブラベルテキストの直前に表示される _移動_ （![ 移動アイコン ](./assets/pb-icon-move.png){width="20"}）アイコンを選択して、タブセット内の新しい位置にドラッグします。
+1. タブラベルテキストの直前に表示される _移動_ （![&#x200B; 移動アイコン &#x200B;](./assets/pb-icon-move.png){width="20"}）アイコンを選択して、タブセット内の新しい位置にドラッグします。
 
 ## タブへのコンテンツの追加
 
@@ -109,15 +109,15 @@ _Tabs_ コンテンツタイプを使用する場合、個々のタブおよび 
 
 1. エディターにテキストを入力または貼り付け、エディターツールバーを使用して必要に応じて書式設定します。
 
-   テキストコンテンツタイプの操作について詳しくは、[ 要素 – テキスト ](text.md) を参照してください。
+   テキストコンテンツタイプの操作について詳しくは、[&#x200B; 要素 – テキスト &#x200B;](text.md) を参照してください。
 
-   ![ タブに追加されたテキストコンテンツの編集 ](./assets/pb-layout-tab-text.png){width="500" zoomable="yes"}
+   ![&#x200B; タブに追加されたテキストコンテンツの編集 &#x200B;](./assets/pb-layout-tab-text.png){width="500" zoomable="yes"}
 
 1. 右上隅の「**[!UICONTROL Save]**」をクリックします。
 
 ## 個々のタブ設定の変更
 
-1. 個々のタブの上にマウスポインターを置くと、ツールボックスが表示され、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. 個々のタブの上にマウスポインターを置くと、ツールボックスが表示され、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
 1. 必要に応じて、タブの基本設定を変更します。
 
@@ -135,7 +135,7 @@ _Tabs_ コンテンツタイプを使用する場合、個々のタブおよび 
 
 - **[!UICONTROL Background Color]** - スウォッチを選択するか、カラーピッカーをクリックするか、有効なカラー名または同等の 16 進数値を入力して、背景色を指定します。 この設定により、行の背景色が決まります。 また、カラーの不透明度を調整することもできます。
 
-  ![ 色なし（デフォルト） ](./assets/pb-settings-background-color-no-color.png){width="200"}
+  ![&#x200B; 色なし（デフォルト） &#x200B;](./assets/pb-settings-background-color-no-color.png){width="200"}
 
   次の 3 つの方法で値を入力できます。
 
@@ -147,11 +147,11 @@ _Tabs_ コンテンツタイプを使用する場合、個々のタブおよび 
 
   カラーを選択する場合は、「カラーなし _ボックスの左側にあるスウォッチをクリックし_ す。
 
-  ![ カラースウォッチの選択 ](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
+  ![&#x200B; カラースウォッチの選択 &#x200B;](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
   カラーボックスをクリックして再度カラーピッカーを開くと、スライダの下のボックスに現在の赤、緑、青、アルファ値（rgba）が表示されます。 最後の数値は、現在の不透明度の割合を小数で示します。 スライダを使用して、不透明度を調整したり、必要な小数値を入力したりできます。
 
-  ![ 不透明度の設定 ](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
+  ![&#x200B; 不透明度の設定 &#x200B;](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
   >[!NOTE]
   >
@@ -163,7 +163,7 @@ _Tabs_ コンテンツタイプを使用する場合、個々のタブおよび 
   |--- |--- |
   | [!UICONTROL Upload] | ローカルコンピューターからギャラリーに画像ファイルをアップロードし、タブの背景画像として適用します。 |
   | [!UICONTROL Select from Gallery] | タブの背景画像として、ギャラリーから既存の画像を選択するように求めるプロンプトを表示します。 |
-  | ![ カメラアイコン ](./assets/pb-icon-camera.png){width="25"} | 画像をカメラタイルにドラッグするか、ローカルファイルシステム内の画像を参照できます。 |
+  | ![&#x200B; カメラアイコン &#x200B;](./assets/pb-icon-camera.png){width="25"} | 画像をカメラタイルにドラッグするか、ローカルファイルシステム内の画像を参照できます。 |
 
   {style="table-layout:auto"}
 
@@ -224,7 +224,7 @@ _Tabs_ コンテンツタイプを使用する場合、個々のタブおよび 
 
 - `None` 以外の境界線のスタイルを設定する場合は、境界線の表示オプションを完了します。
 
-  ![ 境界線のカラー ](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
+  ![&#x200B; 境界線のカラー &#x200B;](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
   | オプション | 説明 |
   | ------ |------------ |
@@ -236,7 +236,7 @@ _Tabs_ コンテンツタイプを使用する場合、個々のタブおよび 
 
   次の例の行の境界線の半径は 15 です。
 
-  ![ 境界線の半径が 15 の行 ](./assets/pb-settings-border-radius-15.png){width="500"}
+  ![&#x200B; 境界線の半径が 15 の行 &#x200B;](./assets/pb-settings-border-radius-15.png){width="500"}
 
 - （オプション）列コンテナに適用する現在のスタイルシートの **[!UICONTROL CSS classes]** の名前を指定します。
 
@@ -255,7 +255,7 @@ _Tabs_ コンテンツタイプを使用する場合、個々のタブおよび 
 
 ## タブセットの設定を変更
 
-1. タブセットコンテナの上部のボーダーにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. タブセットコンテナの上部のボーダーにカーソルを合わせてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
 1. 必要に応じて、**[!UICONTROL Default Active Tab]** を変更します。
 
@@ -265,7 +265,7 @@ _Tabs_ コンテンツタイプを使用する場合、個々のタブおよび 
 
 1. ナビゲーションタブをタブセットの上部に沿って配置するには、**[!UICONTROL Tab Navigation Alignment]** （`Left`、`Center`、`Right`）を選択します。
 
-   ![ 右揃えのナビゲーションタブ ](./assets/pb-layout-tabs-navigation-alignment-right.png){width="500" zoomable="yes"}
+   ![&#x200B; 右揃えのナビゲーションタブ &#x200B;](./assets/pb-layout-tabs-navigation-alignment-right.png){width="500" zoomable="yes"}
 
 1. タブセットの詳細オプションを設定します。
 

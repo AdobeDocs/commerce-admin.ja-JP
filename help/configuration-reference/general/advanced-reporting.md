@@ -17,13 +17,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_は、[Adobe Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html){:target="_blank"} を利用したクラウドベースのサービスです。 詳細については、「[ はじめる前に ](https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting){:target="_blank"}」の_ 詳細レポート _を参照してください。
+_[!DNL Advanced Reporting]_&#x200B;は、[Adobe Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html){:target="_blank"} を利用したクラウドベースのサービスです。 詳細については、「[&#x200B; はじめる前に &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting){:target="_blank"}」の_ 詳細レポート _を参照してください。
 
-![ 高度なレポート ](./assets/advanced-reporting.png)<!-- zoom -->
+![&#x200B; 高度なレポート &#x200B;](./assets/advanced-reporting.png)<!-- zoom -->
 
 <!-- [Advanced Reporting](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
 
-| フィールド | [ 範囲 ](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Advanced Reporting Service] | グローバル | Commerceのインストールに対して [!DNL Advanced Reporting] の統合を有効にします。 |
 | [!UICONTROL Industry] | Web サイト | [!DNL Advanced Reporting] ーザーをパーソナライズするビジネス業界を特定します。 |

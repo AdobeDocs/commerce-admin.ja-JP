@@ -40,13 +40,13 @@ ht-degree: 0%
 
 ## 手順 2:Commerceでのキーの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「_[!UICONTROL Product Video]_」セクションを展開して、**[!UICONTROL YouTube API key]**を貼り付けます。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「_[!UICONTROL Product Video]_」セクションを展開して、**[!UICONTROL YouTube API key]**&#x200B;を貼り付けます。
 
-   ![ 製品ビデオ設定 ](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品ビデオ設定 &#x200B;](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. スクロールして「_[!UICONTROL Images and Videos]_」セクションを展開します。
 
-   ![ 画像とビデオ ](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
+   ![&#x200B; 画像とビデオ &#x200B;](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Add Video]**」をクリックします。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Url]** しくは、YouTubeまたは Vimeo ビデオの URL を入力します。
 
-   ![ 製品の新しいビデオ ](./assets/product-video-add.png){width="600" zoomable="yes"}
+   ![&#x200B; 製品の新しいビデオ &#x200B;](./assets/product-video-add.png){width="600" zoomable="yes"}
 
 1. フィールドの外側をクリックして、API キーまたはビデオのフィードバックを待ちます。
 
@@ -94,11 +94,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Autostart base video]_configuration option が `Yes` に設定されていて、ビデオの再生が自動的に開始されない場合は、ブラウザーによって適用され、Adobe Commerceで制御できない自動再生ポリシーが原因である可能性があります。 サポートされている各ブラウザーには、時間の経過と共に変化する可能性のある独自の自動再生ポリシーがあり、ビデオは今後自動再生されない可能性があります。 推奨されるベストプラクティスとして、ビジネス上の重要な機能で自動再生を使用しないでください。また、サポートされている各ブラウザーで、ストアでのビデオの自動再生動作をテストする必要があります。
+   >_[!UICONTROL Autostart base video]_&#x200B;configuration option が `Yes` に設定されていて、ビデオの再生が自動的に開始されない場合は、ブラウザーによって適用され、Adobe Commerceで制御できない自動再生ポリシーが原因である可能性があります。 サポートされている各ブラウザーには、時間の経過と共に変化する可能性のある独自の自動再生ポリシーがあり、ビデオは今後自動再生されない可能性があります。 推奨されるベストプラクティスとして、ビジネス上の重要な機能で自動再生を使用しないでください。また、サポートされている各ブラウザーで、ストアでのビデオの自動再生動作をテストする必要があります。
 
 ## API アクセスの管理
 
-Google開発者 [ 利用条件 ](https://developers.google.com/youtube/terms/developer-policies#d.-accessing-youtube-api-services) によると、YouTubeは、90 日以上非アクティブになっているアカウントの API アクセスを無効にする場合があります。 この問題が発生すると、ビデオが表示されない場合があります。 API アクセスを最新の状態に保つには、cron ジョブを使用して、一定の間隔で API に ping を実行します。
+Google開発者 [&#x200B; 利用条件 &#x200B;](https://developers.google.com/youtube/terms/developer-policies#d.-accessing-youtube-api-services) によると、YouTubeは、90 日以上非アクティブになっているアカウントの API アクセスを無効にする場合があります。 この問題が発生すると、ビデオが表示されない場合があります。 API アクセスを最新の状態に保つには、cron ジョブを使用して、一定の間隔で API に ping を実行します。
 
 ```code
 30 10 1 * * curl -i -G -e https://yourdomain.com/ -d "part=snippet&maxResults=1&q=test&key=YOUTUBEAPIKEY" https://www.googleapis.com/youtube/v3/search >/dev/null 2>&1

@@ -19,22 +19,22 @@ _コンテンツマーケティング_ という用語は、貴重な情報を�
 
 Adobe CommerceとMagento Open Sourceには、ストアに簡単な変更を加えるために使用できる、使いやすいデザインオプションが多数用意されています。 また、[Commerce Marketplace](../getting-started/commerce-marketplace.md) には、プロフェッショナルがデザインしたテーマも多数あります。 店のウィンドウドレッシングのように、シーズンやプロモーションのテーマを変更できます。
 
-[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} より高度なストアデザイナーは、個別のコンポーネントからページを組み立てるオブジェクト指向環境を扱う柔軟性を評価しています。 基本を理解したら、そのような柔軟で流動的な環境で働くことに感謝します。 詳しくは、[ フロントエンド開発者ガイド ](https://developer.adobe.com/commerce/frontend-core/guide/) を参照してください。
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} より高度なストアデザイナーは、個別のコンポーネントからページを組み立てるオブジェクト指向環境を扱う柔軟性を評価しています。 基本を理解したら、そのような柔軟で流動的な環境で働くことに感謝します。 詳しくは、[&#x200B; フロントエンド開発者ガイド &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/) を参照してください。
 
 ### 設定
 
-[ デザイン設定 ](configuration.md) を使用すると、[!DNL Commerce] インストールで web サイト、ストア、表示ごとに異なる設定を簡単に維持できます。
+[&#x200B; デザイン設定 &#x200B;](configuration.md) を使用すると、[!DNL Commerce] インストールで web サイト、ストア、表示ごとに異なる設定を簡単に維持できます。
 
 ### テーマ
 
-[ テーマ ](themes.md) は、ストアの視覚的表示を決定し、レイアウトファイル、テンプレートファイル、翻訳ファイル、スキンのコレクションで構成されます。
+[&#x200B; テーマ &#x200B;](themes.md) は、ストアの視覚的表示を決定し、レイアウトファイル、テンプレートファイル、翻訳ファイル、スキンのコレクションで構成されます。
 
 ### スケジュール
 
-[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
-テーマは、[ スケジュール ](schedule.md) に従って、特定の期間アクティブ化できます。 スケジュールを使用して、シーズンやプロモーションに合わせてテーマの変更を事前に計画します。
+テーマは、[&#x200B; スケジュール &#x200B;](schedule.md) に従って、特定の期間アクティブ化できます。 スケジュールを使用して、シーズンやプロモーションに合わせてテーマの変更を事前に計画します。
 
 ## コンテンツ
 
-コンテンツでは、[ ページ ](pages.md) と、顧客がストアにアクセスする際に表示される要素を定義します。 テキストや画像などのページの基本要素や、インタラクティブで動的なコンテンツを提供してショッピングエクスペリエンスを強化するためのより高度な要素を定義できます。
+コンテンツでは、[&#x200B; ページ &#x200B;](pages.md) と、顧客がストアにアクセスする際に表示される要素を定義します。 テキストや画像などのページの基本要素や、インタラクティブで動的なコンテンツを提供してショッピングエクスペリエンスを強化するためのより高度な要素を定義できます。
