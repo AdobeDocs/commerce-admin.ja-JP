@@ -111,8 +111,8 @@ GDPR に準拠する企業には、CCPA に基づく追加の義務が課され�
 
 1. 各バージョンに適用可能なデータフロー図とデータベースエンティティマッピングについては、次のトピックを参照してください。
 
-   - [&#x200B; 個人情報リファレンス（2.x） &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
-   - [&#x200B; 個人情報リファレンス（1.x） &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
+   - [&#x200B; 個人情報リファレンス（2.x） &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=ja)
+   - [&#x200B; 個人情報リファレンス（1.x） &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=ja)
 
    ![&#x200B; 図 &#x200B;](./assets/privacy-frontend-diagram.svg)
 

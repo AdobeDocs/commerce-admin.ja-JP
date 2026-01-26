@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 手順 1：言語パックをインストールする
 
-言語パック拡張機能をインストールするための標準的な手順に従います。 拡張機能のインストールについて詳しくは、『 [&#x200B; 拡張機能ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) の _一般的な CLI のインストール_ を参照してください。
+言語パック拡張機能をインストールするための標準的な手順に従います。 拡張機能のインストールについて詳しくは、『 [&#x200B; 拡張機能ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=ja) の _一般的な CLI のインストール_ を参照してください。
 
 ## 手順 2：言語のストア表示の作成
 

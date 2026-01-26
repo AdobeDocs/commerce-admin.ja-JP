@@ -47,6 +47,6 @@ GDPR に準拠する企業には、CCPA に基づく追加の義務が課され�
 
 - 透明性を維持し、徹底したドキュメントを維持します。
 
-- マーチャントが適用される法的義務を遵守するうえでAdobeがどのように役立つかについては、[web サイト &#x200B;](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"} を参照してください。
+- マーチャントが適用される法的義務を遵守するうえでAdobeがどのように役立つかについては、[web サイト &#x200B;](https://business.adobe.com/jp/privacy/general-data-protection-regulation.html){:target="_blank"} を参照してください。
 
-- データフロー図とデータベースエンティティのマッピングについては、[&#x200B; 個人情報リファレンス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"} を参照してください。
+- データフロー図とデータベースエンティティのマッピングについては、[&#x200B; 個人情報リファレンス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=ja){: target="_blank"} を参照してください。

@@ -3,7 +3,7 @@ title: Adobe Stock画像のライセンスを取得
 description: 法的なアクセス権を持ち、Adobe Stockの透かしを排除するには、Adobe Stock画像のライセンスを取得します。
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '389'
@@ -21,7 +21,7 @@ Adobe CommerceおよびMagento Open Sourceの実稼動用ストアに使用す�
 
 **前提条件**
 
-Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.md) がインストールおよび設定されている場合にのみ使用できます。 [Adobe Stock](https://stock.adobe.com) 画像のライセンスを取得するには、有料のAdobe Stock プランと [Adobe アカウント &#x200B;](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) が必要です。
+Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.md) がインストールおよび設定されている場合にのみ使用できます。 [Adobe Stock](https://stock.adobe.com) 画像のライセンスを取得するには、有料のAdobe Stock プランと [Adobe アカウント &#x200B;](https://helpx.adobe.com/jp/manage-account/using/access-adobe-id-account.html) が必要です。
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +47,7 @@ Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.m
 
    >[!NOTE]
    >
-   >画像のライセンスを取得するには、アカウントで利用可能な [0&rbrace;Adobe Stock クレジット &rbrace; が必要です。](https://helpx.adobe.com/stock/help/credit-packs.html)
+   >画像のライセンスを取得するには、アカウントで利用可能な [0&rbrace;Adobe Stock クレジット &rbrace; が必要です。](https://helpx.adobe.com/jp/stock/help/credit-packs.html)
 
 ## 標準メディアストレージからの画像のライセンス取得
 
@@ -63,7 +63,7 @@ Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.m
 
      >[!NOTE]
      >
-     >画像のライセンスを取得するには、アカウントで利用可能な [0&rbrace;Adobe Stock クレジット &rbrace; が必要です。](https://helpx.adobe.com/stock/help/credit-packs.html)
+     >画像のライセンスを取得するには、アカウントで利用可能な [0&rbrace;Adobe Stock クレジット &rbrace; が必要です。](https://helpx.adobe.com/jp/stock/help/credit-packs.html)
 
    この操作を実行すると、イメージを [&#x200B; メディア ストレージ &#x200B;](./media-storage.md) に保存するために使用するファイル名を指定するよう求めるメッセージが表示されます。 デフォルトのファイル名が提供されますが、この名前は好みに合わせてカスタマイズできます。
 

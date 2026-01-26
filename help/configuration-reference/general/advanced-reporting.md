@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Advanced Reporting]'
 description: Commerce Admin の [!UICONTROL General] &gt; [!UICONTROL Advanced Reporting] ページで設定を確認します。
 exl-id: 3f6311c8-3849-4608-8f2c-64359bd3edbc
 feature: Configuration, Commerce Intelligence
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '109'
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_&#x200B;は、[Adobe Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html){:target="_blank"} を利用したクラウドベースのサービスです。 詳細については、「[&#x200B; はじめる前に &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting){:target="_blank"}」の_ 詳細レポート _を参照してください。
+_[!DNL Advanced Reporting]_&#x200B;は、[Adobe Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=ja){:target="_blank"} を利用したクラウドベースのサービスです。 詳細については、「[&#x200B; はじめる前に &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html?lang=ja#advanced-reporting){:target="_blank"}」の_ 詳細レポート _を参照してください。
 
 ![&#x200B; 高度なレポート &#x200B;](./assets/advanced-reporting.png)<!-- zoom -->
 
-<!-- [Advanced Reporting](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
+<!-- [Advanced Reporting](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
 
 | フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

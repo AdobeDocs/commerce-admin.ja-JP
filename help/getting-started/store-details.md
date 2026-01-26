@@ -169,11 +169,11 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 国の設定に関する問題のトラブルシューティングについては、[!DNL Commerce] サポートナレッジベースの次の記事を参照してください。
 
-- [&#x200B; 国を追加する方法 &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [&#x200B; 国を追加する方法 &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=ja)
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
 「マーチャントの場所」設定は、[&#x200B; 支払い方法 &#x200B;](../stores-purchase/payments.md) の設定に使用します。 この設定に値がない場合は、[&#x200B; デフォルトの国 &#x200B;](#uicontrol-country-options) 設定が使用されます。
 
@@ -215,7 +215,7 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 ### 手順 2：生成されたリンクのベース URL の設定
 
-[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
 
 顧客に送信される一部のメールには、顧客がパスワードをリセットするのに役立つリンクなど、ストアへのリンクが含まれています。 ストアフロントへのリンクが機能するようにするには、ストアフロントへのベース URL を定義する必要があります。
 
@@ -229,7 +229,7 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 ### 手順 3：ストアのメールアドレスの設定
 
-[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"} インスタンスがプロビジョニングされる際に、送信者のメールアドレスが設定されます。 これらのアドレスを変更する必要がある場合は、サポートチケットを作成します。
+[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"} インスタンスがプロビジョニングされる際に、送信者のメールアドレスが設定されます。 これらのアドレスを変更する必要がある場合は、サポートチケットを作成します。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 

@@ -40,7 +40,7 @@ Payment Card Industry （PCI）は、インターネット上でクレジット�
 
 ![&#x200B; チェックボックス &#x200B;](../assets/checkbox.png) – 情報セキュリティに対処するポリシーを維持します。
 
-詳しくは、[Adobeの PCI コンプライアンスへのアプローチ &#x200B;](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"} を参照してください。
+詳しくは、[Adobeの PCI コンプライアンスへのアプローチ &#x200B;](https://business.adobe.com/jp/products/magento/pci-compliance.html){:target="_blank"} を参照してください。
 
 >[!NOTE]
 >
