@@ -3,8 +3,8 @@ title: PayPal ペイメントプロ
 description: ストアでオンライン支払いソリューションとして PayPal Payments Pro を設定する方法を説明します。
 exl-id: 9cc5c3a6-d471-4198-85a2-c4cf9dfd378b
 feature: Payments
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 0%
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # PayPal ペイメントプロ
 
-[PayPal Payments Pro][3] は、マーチャントアカウントと支払いゲートウェイのすべての利点に加えて、独自の完全にカスタマイズされたチェックアウトエクスペリエンスを作成する機能を 1 つにもたらします。 PayPal Express Checkout は PayPal Payments Pro で自動的に有効化されるため、1 億 1,000 万人以上のアクティブな PayPal ユーザーを利用できます。
+[PayPal Payments Pro](https://developer.paypal.com/docs/paypal-payments-pro/) は、マーチャントアカウントと支払いゲートウェイのすべての利点に加えて、独自の完全にカスタマイズされたチェックアウトエクスペリエンスを作成する機能を 1 つにもたらします。 PayPal Express Checkout は PayPal Payments Pro で自動的に有効化されるため、1 億 1,000 万人以上のアクティブな PayPal ユーザーを利用できます。
 
-![PayPal Payments Pro がミニカートに表示される &#x200B;](./assets/storefront-mini-cart-payments-pro-racer-tank.png){width="700" zoomable="yes"}
+![PayPal Payments Pro がミニカートに表示される ](./assets/storefront-mini-cart-payments-pro-racer-tank.png){width="700" zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 要件
 
-- [PayPal マーチャントアカウント ][1] （直接支払いが有効化されている場合）
+- [PayPal マーチャントアカウント ](https://www.paypal.com/webapps/mpp/how-to-sell-online) （直接支払いが有効化されている場合）
 
 ## チェックアウトワークフロー
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 Commerceで PayPal Payments Pro を設定する前に、PayPal Web サイトでマーチャントアカウントを設定する必要があります。
 
-1. [PayPal ビジネスアカウント &#x200B;](https://manager.paypal.com/) にログインします。
+1. [PayPal ビジネスアカウント ](https://manager.paypal.com/) にログインします。
 
 1. PayPal Manager メニューで、「**[!UICONTROL Service Settings]**」を選択します。
 
@@ -113,7 +113,7 @@ Commerceで PayPal Payments Pro を設定する前に、PayPal Web サイトで�
 
    - アカウントに別のユーザーを追加するには、「**[!UICONTROL Add User]**」をクリックします。 リンクは、ユーザーを管理タイトルのすぐ上にあります。
 
-   - _[!UICONTROL Add User]_&#x200B;フォームの次のセクションの必須フィールドに入力します。
+   - _[!UICONTROL Add User]_フォームの次のセクションの必須フィールドに入力します。
 
       - [!UICONTROL Admin Confirmation]
       - [!UICONTROL User Information]
@@ -128,7 +128,7 @@ Commerceで PayPal Payments Pro を設定する前に、PayPal Web サイトで�
 
 >[!NOTE]
 >
->同時に 2 つの PayPal ソリューションをアクティブにすることができます。[PayPal Express Checkout](paypal-express-checkout.md) に加えて、いずれかの [&#x200B; オールインワンソリューション &#x200B;](paypal.md#paypal-all-in-one-payment-solutions)。 支払いソリューションを変更すると、以前に使用したソリューションが自動的に無効になります。
+>同時に 2 つの PayPal ソリューションをアクティブにすることができます。[PayPal Express Checkout](paypal-express-checkout.md) に加えて、いずれかの [ オールインワンソリューション ](paypal.md#paypal-all-in-one-payment-solutions)。 支払いソリューションを変更すると、以前に使用したソリューションが自動的に無効になります。
 
 >[!TIP]
 >
@@ -136,27 +136,27 @@ Commerceで PayPal Payments Pro を設定する前に、PayPal Web サイトで�
 
 ### 手順 1：設定の開始
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Payment Methods]**」を選択します。
 
 1. Commerceのインストールに複数の web サイト、ストアまたはビューがある場合は、この設定を適用するストアビューに **[!UICONTROL Store View]** を設定します。
 
-1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが所在する&#x200B;**[!UICONTROL Merchant Country]**&#x200B;を選択します。
+1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが所在する&#x200B;**[!UICONTROL Merchant Country]**を選択します。
 
    この設定により、設定に表示される PayPal ソリューションの選択が決まります。
 
-   ![&#x200B; 商国 &#x200B;](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
+   ![ 商国 ](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL PayPal All-in-One Payment Solution]**」を展開し、「**[!UICONTROL Configure]**」をクリックして「**[!UICONTROL Payments Pro]**」を選択します。
 
-   ![PayPal ペイメントプロ &#x200B;](./assets/paypal-payments-pro.png){width="600" zoomable="yes"}
+   ![PayPal ペイメントプロ ](./assets/paypal-payments-pro.png){width="600" zoomable="yes"}
 
 ### 手順 2：必要な PayPal 設定を完了する
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Payments Pro and Express Checkout]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Payments Pro and Express Checkout]**」セクションを展開します。
 
-   ![PayPal Payments Pro の必須設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-required.png){width="600" zoomable="yes"}
+   ![PayPal Payments Pro の必須設定 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-required.png){width="600" zoomable="yes"}
 
 1. （任意） **[!UICONTROL Email Associated with your PayPal Merchant Account]** を入力します。
 
@@ -176,7 +176,7 @@ Commerceで PayPal Payments Pro を設定する前に、PayPal Web サイトで�
 
 1. テストトランザクションを実行するには、**[!UICONTROL Test Mode]** を `Yes` に設定します。
 
-   サンドボックスで設定をテストする場合は、PayPal が推奨する [ クレジットカード番号 ][2] のみを使用します。 実稼動に移行する準備が整ったら、設定に戻って「テストモード」を `No` に設定します。
+   サンドボックスで設定をテストする場合は、PayPal が推奨する [ クレジットカード番号 ](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) のみを使用します。 実稼動に移行する準備が整ったら、設定に戻って「テストモード」を `No` に設定します。
 
 1. システムがプロキシサーバーを使用して PayPal システムへの接続を確立する場合は、**[!UICONTROL Use Proxy]** を `Yes` に設定し、次の手順を実行します。
 
@@ -188,7 +188,7 @@ Commerceで PayPal Payments Pro を設定する前に、PayPal Web サイトで�
 
 1. **[!UICONTROL Enable this Solution]** を `Yes` に設定します。
 
-1. 顧客に [PayPal クレジット &#x200B;](paypal.md#paypal-credit-and-pay-later) を提供する場合は、**[!UICONTROL Enable PayPal Credit]** を `Yes` に設定します。
+1. 顧客に [PayPal クレジット ](paypal.md#paypal-credit-and-pay-later) を提供する場合は、**[!UICONTROL Enable PayPal Credit]** を `Yes` に設定します。
 
 1. 顧客の支払い/クレジットカードの詳細を安全に保存して、顧客が毎回の支払情報を再入力する必要がない場合は、**[!UICONTROL Vault Enabled]** を `Yes` に設定します。
 
@@ -203,17 +203,17 @@ Commerceで PayPal Payments Pro を設定する前に、PayPal Web サイトで�
 
 #### PayPal クレジットのアドバタイズ
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advertise PayPal Credit]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advertise PayPal Credit]**」セクションを展開します。
 
-   ![PayPal クレジットの広告 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
+   ![PayPal クレジットの広告 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
 1. アカウント情報を取得するには、**[!UICONTROL Get Publisher ID from PayPal]** をクリックし、指示に従ってください。
 
 1. **[!UICONTROL Publisher ID]** を入力します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Home Page]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Home Page]**」セクションを展開します。
 
-   ![PayPal クレジット ホーム ページ設定のアドバタイズ &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
+   ![PayPal クレジット ホーム ページ設定のアドバタイズ ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
 
 1. ページにバナーを配置するには、「**[!UICONTROL Display]**」を「`Yes`」に設定します。
 
@@ -231,7 +231,7 @@ Commerceで PayPal Payments Pro を設定する前に、PayPal Web サイトで�
    - `728 x 90`
    - `800 x 66`
 
-1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 残りのセクションを展開し、前の手順を繰り返します。
+1. ![ 展開セレクター ](../assets/icon-display-expand.png) 残りのセクションを展開し、前の手順を繰り返します。
 
    - **[!UICONTROL Catalog Category Page]**
    - **[!UICONTROL Catalog Product Page]**
@@ -239,13 +239,13 @@ Commerceで PayPal Payments Pro を設定する前に、PayPal Web サイトで�
 
 #### PayPal PayLater のアドバタイズ
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advertise PayPal PayLater]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advertise PayPal PayLater]**」セクションを展開します。
 
 1. **[!UICONTROL Enable PayPal PayLater]** を `Yes` に設定します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Home Page]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Home Page]**」セクションを展開します。
 
-   ![PayPal クレジット ホーム ページ設定のアドバタイズ &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
+   ![PayPal クレジット ホーム ページ設定のアドバタイズ ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
 
 1. ページにバナーを配置するには、「**[!UICONTROL Display]**」を「`Yes`」に設定します。
 
@@ -306,7 +306,7 @@ Commerceで PayPal Payments Pro を設定する前に、PayPal Web サイトで�
    - `Monochrome`
    - `Grayscale`
 
-1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 残りのセクションを展開し、前の手順を繰り返します。
+1. ![ 展開セレクター ](../assets/icon-display-expand.png) 残りのセクションを展開し、前の手順を繰り返します。
 
    - **[!UICONTROL Catalog Product Page]**
    - **[!UICONTROL Checkout Cart Page]**
@@ -315,9 +315,9 @@ Commerceで PayPal Payments Pro を設定する前に、PayPal Web サイトで�
 
 ### 手順 4：基本設定を完了する
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Basic Settings - PayPal Payments Pro]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Basic Settings - PayPal Payments Pro]**」セクションを展開します。
 
-   ![PayPal Payment Pro の基本設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-basic-settings.png){width="600" zoomable="yes"}
+   ![PayPal Payment Pro の基本設定 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-basic-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Title]** しくは、チェックアウト時に PayPal Payments Pro を識別するタイトルを入力します。
 
@@ -342,14 +342,14 @@ Commerceで PayPal Payments Pro を設定する前に、PayPal Web サイトで�
 
 ### 手順 5：詳細設定の完了
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advanced Settings]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advanced Settings]**」セクションを展開します。
 
-   ![PayPal Payments Pro の詳細設定 &#x200B;](./assets/paypal-payments-pro-advanced-settings.png){width="600" zoomable="yes"}
+   ![PayPal Payments Pro の詳細設定 ](./assets/paypal-payments-pro-advanced-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Payment Applicable From]** を次のいずれかに設定します。
 
-   - `All Allowed Countries` - ストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
+   - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
 
 1. 支払いシステムとの通信をログファイルに書き込むには、**[!UICONTROL Debug Mode]** を `Yes` に設定します。
 
@@ -361,7 +361,7 @@ Commerceで PayPal Payments Pro を設定する前に、PayPal Web サイトで�
 
 1. 顧客に CVV コードの入力を要求するには、**[!UICONTROL Require CVV Entry]** を `Yes` に設定します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL CVV and AVS Settings]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL CVV and AVS Settings]**」セクションを展開します。
 
 1. アドレス検証システムが不一致を識別したときにトランザクションを拒否するタイミングを決定するには、次の各シナリオの処理方法を指定します。
 
@@ -382,9 +382,9 @@ Commerceで PayPal Payments Pro を設定する前に、PayPal Web サイトで�
 
 #### 決済報告書の設定
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Settlement Report Settings]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Settlement Report Settings]**」セクションを展開します。
 
-   ![PayPal 決済レポートの設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
+   ![PayPal 決済レポートの設定 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL SFTP Credentials]** の場合は、次の手順を実行します。
 
@@ -423,11 +423,11 @@ Commerceで PayPal Payments Pro を設定する前に、PayPal Web サイトで�
 
 #### フロントエンドエクスペリエンス設定
 
-_[!UICONTROL Frontend Experience Settings]_&#x200B;を使用して、サイトに表示する PayPal ロゴを選択したり、PayPal マーチャントページの外観をカスタマイズしたりします。
+_[!UICONTROL Frontend Experience Settings]_を使用して、サイトに表示する PayPal ロゴを選択したり、PayPal マーチャントページの外観をカスタマイズしたりします。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Frontend Experience Settings]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Frontend Experience Settings]**」セクションを展開します。
 
-   ![&#x200B; フロントエンドエクスペリエンス設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
+   ![ フロントエンドエクスペリエンス設定 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
 1. ストアの PayPal ブロックに表示する **[!UICONTROL PayPal Product Logo]** を選択します。
 
@@ -461,9 +461,9 @@ _[!UICONTROL Frontend Experience Settings]_&#x200B;を使用して、サイト�
 
 ### 手順 6:PayPal Express チェックアウトの基本設定を完了する
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Basic Settings - PayPal Express Checkout]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Basic Settings - PayPal Express Checkout]**」セクションを展開します。
 
-   ![&#x200B; 高速チェックアウトの基本設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-express-checkout-basic-settings.png){width="600" zoomable="yes"}
+   ![ 高速チェックアウトの基本設定 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-express-checkout-basic-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Title]** の場合は、チェックアウト時にこの支払い方法を識別するタイトルを入力します。
 
@@ -482,16 +482,16 @@ _[!UICONTROL Frontend Experience Settings]_&#x200B;を使用して、サイト�
 
 ### 手順 7:PayPal Express チェックアウトの詳細設定を完了する
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advanced Settings]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advanced Settings]**」セクションを展開します。
 
-   ![&#x200B; 高速チェックアウトの詳細設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
+   ![ 高速チェックアウトの詳細設定 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Display on Shopping Cart]** を `Yes` に設定します。
 
 1. **[!UICONTROL Payment Applicable From]** を次のいずれかに設定します。
 
-   - `All Allowed Countries` - ストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;のリストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、各項目をクリックします。
+   - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_のリストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、各項目をクリックします。
 
 1. 支払いシステムとの通信をログファイルに書き込むには、**[!UICONTROL Debug Mode]** を `Yes` に設定します。
 
@@ -506,7 +506,3 @@ _[!UICONTROL Frontend Experience Settings]_&#x200B;を使用して、サイト�
 1. お客様が注文レビューのためにストアに戻ることなく、PayPal サイトからトランザクションを完了できるようにするには、**[!UICONTROL Skip Order Review Step]** を `Yes` に設定します。
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[3]: https://developer.paypal.com/docs/paypal-payments-pro/

@@ -3,18 +3,18 @@ title: アクセシビリティ
 description: 顧客がアクセス可能なサイトナビゲーションのための一般的なキーボードコントロールを確認します。
 exl-id: 7e3becf2-6c47-4993-8581-e253607ab381
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
 # アクセシビリティ
 
-サイトの訪問者の中には、ナビゲーションにマウスではなくキーボードコントロールを使用する人もいれば、タッチコマンドや音声コマンドを使用する人もいます。 キーボードナビゲーションコントロールは、ブラウザーやプラットフォームによって異なりますが、Tab キーを使用すると一般的にページ上のフィールド、リンク、ボタンにフォーカスを移動できます。 詳しくは、[ キーボードショートカット ][1]{:target=&quot;_blank&quot;} を参照してください。
+サイトの訪問者の中には、ナビゲーションにマウスではなくキーボードコントロールを使用する人もいれば、タッチコマンドや音声コマンドを使用する人もいます。 キーボードナビゲーションコントロールは、ブラウザーやプラットフォームによって異なりますが、Tab キーを使用すると一般的にページ上のフィールド、リンク、ボタンにフォーカスを移動できます。 詳しくは、[ キーボードショートカット ](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts){:target="_blank"} を参照してください。
 
-アクセシビリティについて詳しくは、開発者ドキュメントの [ アクセシビリティガイドライン ][2]{:target=&quot;_blank&quot;} を参照してください。
+アクセシビリティについて詳しくは、開発者向けドキュメントの [ アクセシビリティガイドライン ](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines/){:target="_blank"} を参照してください。
 
 ## Windows
 
@@ -52,6 +52,3 @@ ht-degree: 0%
 | 水平方向にスクロール | `Left`, `Right` |
 
 {style="table-layout:auto"}
-
-[1]: https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts
-[2]: https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines/

@@ -3,7 +3,7 @@ title: Sourceのアルゴリズムと予約
 description: 売り上げ可能な数量を最新の状態に保つためにバックグラウンドで実行されるSource Selection Algorithm および Reservations システムについて説明します。
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2196'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->プログラムによる [&#x200B; システムの操作について詳しくは、](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) 開発者向けドキュメント [!DNL Inventory Management] を参照してください。
+>プログラムによる [ システムの操作について詳しくは、](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) 開発者向けドキュメント [!DNL Inventory Management] を参照してください。
 
 ## Source選定アルゴリズム
 
@@ -54,11 +54,11 @@ SSA は、サードパーティのサポートと、費用対効果の高い出�
 - 注文出荷が入力されるまでリストの下の方に進みます
 - リスト内に無効なソースが見つかった場合はスキップします
 
-カスタム在庫のソースを設定、割り当て、注文します。 [&#x200B; 在庫のソースの優先順位付け &#x200B;](stocks-prioritize-sources.md) を参照してください。
+カスタム在庫のソースを設定、割り当て、注文します。 [ 在庫のソースの優先順位付け ](stocks-prioritize-sources.md) を参照してください。
 
 次の例では、マッピングされたソースの順序、有効数量、推奨ソースおよび控除および出荷金額を詳しく示します。 最上位のソースは、英国の直送の荷主で、使用可能な数量は 240 です。
 
-![&#x200B; マウンテンバイクの SSA 推奨事項の例 &#x200B;](assets/ssa-sources-example.png){width="600" zoomable="yes"}
+![ マウンテンバイクの SSA 推奨事項の例 ](assets/ssa-sources-example.png){width="600" zoomable="yes"}
 
 ### 距離優先アルゴリズム
 
@@ -66,11 +66,11 @@ SSA は、サードパーティのサポートと、費用対効果の高い出�
 
 出荷履行の最も近いソースを検索するための距離と時間を計算するには、次の 2 つの方法があります。
 
-- **Googleの地図** - [Googleの地図 Platform][1] サービスを使用して、発送先住所と発送元住所（住所および GPS 座標）の間の距離と時間を計算します。 このオプションでは、ソースの緯度と経度を使用します。 [Geocoding API][2] と [Distance Matrix API][3] を有効にしたGoogle API キーが必要です。 このオプションにはGoogle請求プランが必要で、Google経由で料金が発生する場合があります。
+- **Googleの地図** - [Googleの地図 Platform](https://cloud.google.com/maps-platform/) サービスを使用して、発送先住所と発送元住所（住所および GPS 座標）の間の距離と時間を計算します。 このオプションでは、ソースの緯度と経度を使用します。 [Geocoding API](https://developers.google.com/maps/documentation/geocoding/start) と [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start) を有効にしたGoogle API キーが必要です。 このオプションにはGoogle請求プランが必要で、Google経由で料金が発生する場合があります。
 
 - **オフライン計算** - ダウンロードおよびインポートされたジオコードデータを使用して距離を計算し、出荷先住所に最も近いソースを決定します。 このオプションでは、配送先住所と発送元の国コードを使用します。 このオプションを設定するには、コマンドラインを使用して最初にジオコードをダウンロードして読み込むために、開発者の支援が必要な場合があります。
 
-設定するには、設定を選択し、Google API キーや配送データのダウンロードなど、追加の手順を実行します。 [&#x200B; 距離優先アルゴリズムの設定 &#x200B;](distance-priority-algorithm.md) を参照してください。
+設定するには、設定を選択し、Google API キーや配送データのダウンロードなど、追加の手順を実行します。 [ 距離優先アルゴリズムの設定 ](distance-priority-algorithm.md) を参照してください。
 
 ### カスタムアルゴリズム
 
@@ -82,7 +82,7 @@ SSA は、サードパーティのサポートと、費用対効果の高い出�
 
 >[!NOTE]
 >
->[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} 予約機能を使用するには、`inventory.reservations.updateSalabilityStatus` メッセージキューコンシューマーを継続的に実行する必要があります。 実行中かどうかを確認するには、`bin/magento queue:consumers:list` コマンドを使用します。 メッセージキューコンシューマーがリストにない場合は、開始します（`bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`）。
+>[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} 予約機能を使用するには、`inventory.reservations.updateSalabilityStatus` メッセージキューコンシューマーを継続的に実行する必要があります。 実行中かどうかを確認するには、`bin/magento queue:consumers:list` コマンドを使用します。 メッセージキューコンシューマーがリストにない場合は、開始します（`bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`）。
 
 ### 予約の注文
 
@@ -90,11 +90,11 @@ SSA は、サードパーティのサポートと、費用対効果の高い出�
 
 次の図は、注文中および出荷までの予約プロセスを定義するのに役立ちます。
 
-![&#x200B; 受注から引渡しまでの引当 &#x200B;](assets/diagram-quantity.png){width="600" zoomable="yes"}
+![ 受注から引渡しまでの引当 ](assets/diagram-quantity.png){width="600" zoomable="yes"}
 
 顧客が注文を送信します。 [!DNL Commerce] 現在の在庫販売可能数量をチェックします。 在庫レベルで十分な在庫が利用可能な場合、予約は（その在庫の）製品 SKU を一時的に保持し、販売可能な数量を再計算します。
 
-受注の請求後、ソースから控除および出荷する製品金額を決定します。 出荷が処理され、選択した 1 つ以上のソースから顧客に送信されます。 数量はソース在庫数量から自動的に差し引かれ、予約決済されます。 詳細および例は、「受注ステータスおよび予約について [&#x200B; を参照してください &#x200B;](order-status.md)。
+受注の請求後、ソースから控除および出荷する製品金額を決定します。 出荷が処理され、選択した 1 つ以上のソースから顧客に送信されます。 数量はソース在庫数量から自動的に差し引かれ、予約決済されます。 詳細および例は、「受注ステータスおよび予約について [ を参照してください ](order-status.md)。
 
 ## 引当の計算
 
@@ -120,7 +120,7 @@ SSA は、サードパーティのサポートと、費用対効果の高い出�
 
 >[!NOTE]
 >
->在庫切れのしきい値を使用したバックオーダーおよびしきい値を下回る数量の通知の設定も、販売可能数量の計算に影響しますが、これらの設定はこのトピックの範囲外です。 これらの設定について詳しくは、[&#x200B; 設定  [!DNL Inventory Management]](./configuration.md) を参照してください。
+>在庫切れのしきい値を使用したバックオーダーおよびしきい値を下回る数量の通知の設定も、販売可能数量の計算に影響しますが、これらの設定はこのトピックの範囲外です。 これらの設定について詳しくは、[ 設定  [!DNL Inventory Management]](./configuration.md) を参照してください。
 
 ## 予約オブジェクト
 
@@ -188,13 +188,13 @@ SSA は、サードパーティのサポートと、費用対効果の高い出�
 
 `inventory_cleanup_reservations` cron ジョブは、SQL クエリを実行して予約データベーステーブルをクリアします。 デフォルトでは、毎日午前 0 時に実行されますが、時間と頻度は設定できます。 cron ジョブは、数量値の合計が 0 である完全な予約シーケンスを見つけるためにデータベースに問い合わせるスクリプトを実行します。 同じ日（または設定された他の時間）に発生した特定の製品のすべての予約が補正されると、cron ジョブは予約をすべて一度に削除します。
 
-`inventory_reservations_cleanup` cron ジョブは、`inventory.reservations.cleanup` メッセージキューコンシューマーとは異なります。 消費者は製品が削除された後、製品 SKU によって予約を非同期で削除しますが、cron ジョブは予約テーブル全体をクリアします。 ストアの設定で「[**カタログと同期**](../configuration-reference/catalog/inventory.md) Stock オプションを有効にする場合、コンシューマーは必要です。 [&#x200B; 設定ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ja) の _メッセージキューの管理_ を参照してください。
+`inventory_reservations_cleanup` cron ジョブは、`inventory.reservations.cleanup` メッセージキューコンシューマーとは異なります。 消費者は製品が削除された後、製品 SKU によって予約を非同期で削除しますが、cron ジョブは予約テーブル全体をクリアします。 ストアの設定で「[**カタログと同期**](../configuration-reference/catalog/inventory.md) Stock オプションを有効にする場合、コンシューマーは必要です。 [ 設定ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) の _メッセージキューの管理_ を参照してください。
 
 多くの場合、1 日に作成されたすべての初期予約は、その日に補償されません。 この状況は、顧客が cron ジョブが開始される直前に注文を行った場合や、銀行振込などのオフラインの支払い方法で購入した場合に発生する可能性があります。 補正された予約シーケンスは、すべて補正されるまでデータベースに残ります。 各予約の合計が 0 であるため、この方法では予約計算が妨げられることはありません。
 
 >[!NOTE]
 >
->予約の不整合を検出および管理するために使用できる CLI コマンドがあります（[[!DNL Inventory Management] CLI リファレンス &#x200B;](cli.md) を参照）。
+>予約の不整合を検出および管理するために使用できる CLI コマンドがあります（[[!DNL Inventory Management] CLI リファレンス ](cli.md) を参照）。
 
 ### 予約の更新
 
@@ -208,20 +208,17 @@ SSA は、サードパーティのサポートと、費用対効果の高い出�
 
 - **出荷済受注** – 受注の全部または一部が出荷されると、その金額を決済するために報酬予約が入力されます。 例えば、2 つのバックパックを出荷すると、その SKU と在庫の+2 予約が入力され、保留が解除されます。 製品数量は出荷に対して 2 分の 1 直接削減されます。 算出した販売可能数量は、減少した在庫金額に対しても更新されますが、予約の影響を受けなくなります。
 
-![&#x200B; 予約の更新 &#x200B;](assets/diagram-reservation.png){width="600" zoomable="yes"}
+![ 予約の更新 ](assets/diagram-reservation.png){width="600" zoomable="yes"}
 
 注文のフルフィルメント、商品のキャンセル、クレジットメモの発行などが完了した場合は、すべての予約を補償でクリアする必要があります。 補償が予約をクリアしない場合は、スタシスで保持された数量がある可能性があります（販売には利用できず、出荷されません）。
 
 >[!NOTE]
 >
->予約を確認する場合は、一連のコマンドラインオプションを使用できます。 確認できるのは、コマンドラインインターフェイスを介した場合のみです。 CLI コマンドを使用する場合、開発者向け支援が必要になることがあります。 [[!DNL Inventory Management] CLI リファレンス &#x200B;](cli.md) を参照してください。
+>予約を確認する場合は、一連のコマンドラインオプションを使用できます。 確認できるのは、コマンドラインインターフェイスを介した場合のみです。 CLI コマンドを使用する場合、開発者向け支援が必要になることがあります。 [[!DNL Inventory Management] CLI リファレンス ](cli.md) を参照してください。
 
 注文が保留されている在庫の製品からすべてのソースを削除すると、予約が保留になっている可能性があります。
 
 {{$include /help/_includes/unassign-source.md}}
 
-[1]: https://cloud.google.com/maps-platform/
-[2]: https://developers.google.com/maps/documentation/geocoding/start
-[3]: https://developers.google.com/maps/documentation/distance-matrix/start
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->

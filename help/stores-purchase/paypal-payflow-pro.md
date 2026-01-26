@@ -3,10 +3,10 @@ title: PayPal Payflow Pro
 description: ストアでオンライン支払いソリューションとして PayPal Payflow Pro を設定する方法を説明します。
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2211'
+source-wordcount: '2212'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カナダ、オーストラリア、ニュージーランドのお客様が利用できます。 他の PayPal の支払い方法とは異なり、加盟店は月額固定料金に加えて、数に関係なく、各取引に対して固定料金を請求されます。
 
-![PayPal でのチェックアウト &#x200B;](./assets/storefront-cart-paypal.png){width="700" zoomable="yes"}
+![PayPal でのチェックアウト ](./assets/storefront-cart-paypal.png){width="700" zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
 
 ## 要件
 
-- [PayPal ビジネスアカウント ][1] - PayPal Payflow Pro ゲートウェイは、PayPal のマーチャントアカウントをマーチャントウェブサイトとリンクし、ゲートウェイとマーチャントアカウントの両方として機能します。
+- [PayPal ビジネスアカウント ](https://www.paypal.com/webapps/mpp/how-to-sell-online) - PayPal Payflow Pro ゲートウェイは、PayPal のマーチャントアカウントをマーチャントウェブサイトとリンクし、ゲートウェイとマーチャントアカウントの両方として機能します。
 
 - 複数のAdobe Commerce web サイトとMagento Open Source web サイトを管理する場合は、web サイトごとに個別の PayPal マーチャントアカウントが必要です。
 
@@ -37,7 +37,7 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
 ## オンライン注文処理ワークフロー
 
 1. **管理者がオンライン請求書を送信** – 店舗管理者がオンライン請求書を送信し、その結果、対応するトランザクションと請求書が作成されます。
-1. **PayPal がトランザクションを受信** – 注文情報は PayPal に送信されます。 トランザクションのレコードと請求書が生成されます。 すべての Payflow Pro Gateway 取引は、[PayPal マーチャントアカウント ][2] で確認できます。
+1. **PayPal がトランザクションを受信** – 注文情報は PayPal に送信されます。 トランザクションのレコードと請求書が生成されます。 すべての Payflow Pro Gateway 取引は、[PayPal マーチャントアカウント ](https://manager.paypal.com/) で確認できます。
 
 >[!NOTE]
 >
@@ -45,9 +45,9 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
 
 ## PayPal アカウントの設定
 
-1. [PayPal ビジネスアカウント ][2] にログインします。
+1. [PayPal ビジネスアカウント ](https://manager.paypal.com/) にログインします。
 
-1. PayPal Manager を使用して [ ホストされたチェックアウトページ ][4] を次の設定で設定します。
+1. PayPal Manager を使用して [ ホストされたチェックアウトページ ](https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager) を次の設定で設定します。
 
    - **[!UICONTROL Choose your settings]** で、**[!UICONTROL Transaction Process Mode]** を `Live` に設定します。
 
@@ -87,7 +87,7 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
 
    - アカウントに別のユーザーを追加するには、「**[!UICONTROL Add User]**」をクリックします。 リンクは、ユーザーを管理タイトルのすぐ上にあります。
 
-   - _[!UICONTROL Add User]_&#x200B;フォームの次のセクションの必須フィールドに入力します。
+   - _[!UICONTROL Add User]_フォームの次のセクションの必須フィールドに入力します。
 
       - [!UICONTROL Admin Confirmation]
       - [!UICONTROL User Information]
@@ -108,25 +108,25 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
 
 この設定方法は、既存の PayPal アカウントがあることを前提としています。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Payment Methods]**」を選択します。
 
 1. Commerceのインストールに複数の web サイト、ストアまたはビューがある場合は、この設定を適用するストアビューに **[!UICONTROL Store View]** を設定します。
 
-1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが所在する&#x200B;**[!UICONTROL Merchant Country]**&#x200B;を選択します。
+1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが所在する&#x200B;**[!UICONTROL Merchant Country]**を選択します。
 
    この設定により、設定に表示される PayPal ソリューションの選択が決まります。
 
-   ![&#x200B; 商国 &#x200B;](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
+   ![ 商国 ](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
 1. 必要に応じて「**[!UICONTROL PayPal Payment Gateways]**」を展開し、「**[!UICONTROL Configure]**」をクリックして **[!UICONTROL Payflow Pro]** を表示します。
 
-   ![&#x200B; 設定 – Payflow Pro](./assets/payflow-pro.png){width="600" zoomable="yes"}
+   ![ 設定 – Payflow Pro](./assets/payflow-pro.png){width="600" zoomable="yes"}
 
 ### 手順 2：必要な PayPal 設定を完了する
 
-![&#x200B; 必須設定 – PayPal Payflow Pro](./assets/payflow-pro-required-a.png){width="600" zoomable="yes"}
+![ 必須設定 – PayPal Payflow Pro](./assets/payflow-pro-required-a.png){width="600" zoomable="yes"}
 
 1. （任意） **[!UICONTROL Email Associated with your PayPal Merchant Account]** を入力します。
 
@@ -144,7 +144,7 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
 
 1. テストトランザクションを実行するには、**[!UICONTROL Test Mode]** を `Yes` に設定します。
 
-   サンドボックスで設定をテストする場合は、PayPal が推奨する [ クレジットカード番号 ][3] のみを使用します。 実稼動に移行する準備が整ったら、設定に戻って「テストモード」を `No` に設定します。
+   サンドボックスで設定をテストする場合は、PayPal が推奨する [ クレジットカード番号 ](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm) のみを使用します。 実稼動に移行する準備が整ったら、設定に戻って「テストモード」を `No` に設定します。
 
 1. システムがプロキシサーバーを使用して PayPal システムへの接続を確立する場合は、**[!UICONTROL Use Proxy]** を `Yes` に設定し、次の手順を実行します。
 
@@ -156,7 +156,7 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
 
 1. **[!UICONTROL Enable this Solution]** を `Yes` に設定します。
 
-1. 顧客に [PayPal クレジット &#x200B;](paypal.md#paypal-credit-and-pay-later) を提供する場合は、**[!UICONTROL Enable PayPal Credit]** を `Yes` に設定します。
+1. 顧客に [PayPal クレジット ](paypal.md#paypal-credit-and-pay-later) を提供する場合は、**[!UICONTROL Enable PayPal Credit]** を `Yes` に設定します。
 
 1. 顧客の支払い/クレジットカードの詳細を安全に保存して、顧客が毎回の支払情報を再入力する必要がない場合は、**[!UICONTROL Vault Enabled]** を `Yes` に設定します。
 
@@ -171,17 +171,17 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
 
 #### PayPal クレジットのアドバタイズ
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advertise PayPal Credit]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advertise PayPal Credit]**」セクションを展開します。
 
-   ![PayPal クレジットの広告 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
+   ![PayPal クレジットの広告 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
 1. アカウント情報を取得するには、**[!UICONTROL Get Publisher ID from PayPal]** をクリックし、指示に従ってください。
 
 1. **[!UICONTROL Publisher ID]** を入力します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Home Page]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Home Page]**」セクションを展開します。
 
-   ![PayPal クレジット ホーム ページ設定のアドバタイズ &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
+   ![PayPal クレジット ホーム ページ設定のアドバタイズ ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
 
 1. ページにバナーを配置するには、「**[!UICONTROL Display]**」を「`Yes`」に設定します。
 
@@ -199,7 +199,7 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
    - `728 x 90`
    - `800 x 66`
 
-1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 残りのセクションを展開し、ホームページ設定について前の手順を繰り返します。
+1. ![ 展開セレクター ](../assets/icon-display-expand.png) 残りのセクションを展開し、ホームページ設定について前の手順を繰り返します。
 
    - **[!UICONTROL Catalog Category Page]**
    - **[!UICONTROL Catalog Product Page]**
@@ -207,13 +207,13 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
 
 #### PayPal PayLater のアドバタイズ
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advertise PayPal PayLater]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advertise PayPal PayLater]**」セクションを展開します。
 
 1. **[!UICONTROL Enable PayPal PayLater]** を `Yes` に設定します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Home Page]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Home Page]**」セクションを展開します。
 
-   ![PayPal クレジット ホーム ページ設定のアドバタイズ &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
+   ![PayPal クレジット ホーム ページ設定のアドバタイズ ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
 
 1. ページにバナーを配置するには、「**[!UICONTROL Display]**」を「`Yes`」に設定します。
 
@@ -274,7 +274,7 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
    - `Monochrome`
    - `Grayscale`
 
-1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 残りのセクションを展開し、前の手順を繰り返します。
+1. ![ 展開セレクター ](../assets/icon-display-expand.png) 残りのセクションを展開し、前の手順を繰り返します。
 
    - **[!UICONTROL Catalog Product Page]**
    - **[!UICONTROL Checkout Cart Page]**
@@ -283,9 +283,9 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
 
 ### 手順 4：基本設定を完了する
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Basic Settings - PayPal Payflow Pro]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Basic Settings - PayPal Payflow Pro]**」セクションを展開します。
 
-   ![&#x200B; 基本設定 – PayPal Payflow Pro_](../configuration-reference/sales/assets/payment-methods-paypal-payflow-pro-basic-settings.png){width="600" zoomable="yes"}
+   ![ 基本設定 – PayPal Payflow Pro_](../configuration-reference/sales/assets/payment-methods-paypal-payflow-pro-basic-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Title]** しくは、チェックアウト時に PayPal Payflow Pro を識別するタイトルを入力します。
 
@@ -310,14 +310,14 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
 
 ### 手順 5：詳細設定の完了
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advanced Settings]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advanced Settings]**」セクションを展開します。
 
-   ![&#x200B; 詳細設定 – PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payflow-pro-advanced-settings.png){width="600" zoomable="yes"}
+   ![ 詳細設定 – PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payflow-pro-advanced-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Payment Applicable From]** を次のいずれかに設定します。
 
-   - `All Allowed Countries` - ストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
+   - `All Allowed Countries` - ストア設定で指定されたすべての [ 国 ](../getting-started/store-details.md#country-options) のお客様がこの支払い方法を使用できます。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_のリストが表示されます。 Ctrl キー（PC）または Command キー（Mac）を押しながら、リスト内で、お客様がストアから購入できる国を選択します。
 
 1. 支払いシステムとの通信をログファイルに書き込むには、**[!UICONTROL Debug Mode]** を `Yes` に設定します。
 
@@ -339,7 +339,7 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
 
 アドレス検証システムが不一致を識別した場合にトランザクションを拒否するタイミングを決定するには、様々なシナリオの処理方法を指定します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL CVV and AVS Settings]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL CVV and AVS Settings]**」セクションを展開します。
 
    ![CVV と AVS の設定 – PayPal Payflow Pro](./assets/payflow-pro-cvv-avs.png){width="600" zoomable="yes"}
 
@@ -353,9 +353,9 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
 
 #### 決済報告書の設定
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Settlement Report Settings]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Settlement Report Settings]**」セクションを展開します。
 
-   ![&#x200B; 決済報告書の設定 – PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
+   ![ 決済報告書の設定 – PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL SFTP Credentials]** の場合は、次の手順を実行します。
 
@@ -396,9 +396,9 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
 
 フロントエンドエクスペリエンス設定を使用すると、サイトに表示する PayPal ロゴを選択したり、PayPal マーチャントページの外観をカスタマイズしたりできます。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Frontend Experience Settings]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Frontend Experience Settings]**」セクションを展開します。
 
-   ![&#x200B; フロントエンドエクスペリエンスの設定 – PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
+   ![ フロントエンドエクスペリエンスの設定 – PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
 1. ストアの PayPal ブロックに表示する **[!UICONTROL PayPal Product Logo]** を選択します。
 
@@ -432,9 +432,9 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
 
 ### 手順 6:PayPal Express チェックアウトの基本設定を完了する
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Basic Settings - PayPal Express Checkout]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Basic Settings - PayPal Express Checkout]**」セクションを展開します。
 
-   ![&#x200B; 高速チェックアウトの基本設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-express-checkout-basic-settings.png){width="600" zoomable="yes"}
+   ![ 高速チェックアウトの基本設定 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-express-checkout-basic-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Title]** の場合は、チェックアウト時にこの支払い方法を識別するタイトルを入力します。
 
@@ -453,16 +453,16 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
 
 ### 手順 7:PayPal Express チェックアウトの詳細設定を完了する
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advanced Settings]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Advanced Settings]**」セクションを展開します。
 
-   ![&#x200B; 高速チェックアウトの詳細設定 &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
+   ![ 高速チェックアウトの詳細設定 ](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Display on Shopping Cart]** を `Yes` に設定します。
 
 1. **[!UICONTROL Payment Applicable From]** を次のいずれかに設定します。
 
    - `All Allowed Countries` - ストア設定で指定されたすべての国の顧客は、この支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;のリストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、各項目をクリックします。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_のリストが表示されます。 複数の国を選択するには、Ctrl キー（PC）または Command キー（Mac）を押しながら、各項目をクリックします。
 
 1. 支払いシステムとの通信をログファイルに書き込むには、**[!UICONTROL Debug Mode]** を `Yes` に設定します。
 
@@ -481,8 +481,3 @@ PayPal Payflow Pro ゲートウェイ（旧称 _Verisign_）は、米国、カ�
 ### 手順 8:Google reCAPTCHA の追加
 
 PayPal Payflow Pro のチェックアウトをより適切に保護するには、Google reCAPTCHA を有効にします。 クリック可能なインターフェイスまたは非表示のチェックを使用して reCAPTCHA を実行して顧客を検証するオプションが含まれています。 目に見えないオプションは、販売コンバージョンを増やし、ストアを保護することをお勧めします。 詳しくは、[Google reCAPTCHA](../systems/security-google-recaptcha.md) を参照してください。
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://manager.paypal.com/
-[3]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[4]: https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager

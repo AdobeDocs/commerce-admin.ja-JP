@@ -3,8 +3,8 @@ title: '[!DNL Commerce Intelligence] ツール'
 description: Adobe CommerceとMagento Open SourceのマーチャントがCommerce Intelligence ツールを使用して、ビジネス上の健全な意思決定に使用されるinsightを取得する方法を説明します。
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: c406add80981387305755221f21624dad475e63f
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 0%
@@ -17,19 +17,19 @@ Commerce Intelligence ツールを使用して、ビジネス上の健全な意�
 
 ## [!DNL Commerce Intelligence] アカウント
 
-Adobeを通じて [!DNL Commerce Intelligence] アカウントをアクティブ化すると、5 つのダッシュボードに約 70 件のレポートでアクセスできます。 これらのレポートは、データに関するインサイトを提供し、「注文が前月比でどのように増加しているか」、「最も常連客は誰か」、「クーポン戦略は機能しているか」などの質問に回答するように設計されています。 このツールセットについて詳しくは、[Commerce Intelligenceユーザーガイド ][1] を参照してください。
+Adobeを通じて [!DNL Commerce Intelligence] アカウントをアクティブ化すると、5 つのダッシュボードに約 70 件のレポートでアクセスできます。 これらのレポートは、データに関するインサイトを提供し、「注文が前月比でどのように増加しているか」、「最も常連客は誰か」、「クーポン戦略は機能しているか」などの質問に回答するように設計されています。 このツールセットについて詳しくは、[Commerce Intelligenceユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html) を参照してください。
 
 ## [!DNL Advanced Reporting]
 
 [!DNL Advanced Reporting] はAdobe CommerceおよびMagento Open Sourceに含まれています。 この機能を使用すると、製品、注文、顧客データに基づく動的レポートスイートにアクセスでき、ビジネスニーズに合わせてパーソナライズされたダッシュボードが提供されます。 [!DNL Advanced Reporting] は Analytics に [!DNL Commerce Intelligence] を使用しますが、[!DNL Advanced Reporting] を使用するためにCommerce Intelligence アカウントを持っている必要はありません。
 
-技術情報については、開発者向けドキュメントの [[!DNL Advanced Reporting]][2]{:target="_blank"} のトピックを参照してください。
+技術情報については、開発者向けドキュメントの [[!DNL Advanced Reporting]](https://developer.adobe.com/commerce/php/development/advanced-reporting/){:target="_blank"} のトピックを参照してください。
 
 >[!NOTE]
 >
 >[!DNL Adobe Commerce Intelligence] との互換性の問題により、Commerceは一時的に、[!DNL Commerce Intelligence] のソースデータファイルのメディアとしてAWS S3 バケットを使用した高度なレポートをサポートできません。
 
-![&#x200B; 詳細レポートダッシュボード &#x200B;](./assets/reporting-advanced.png){width="700"}
+![ 詳細レポートダッシュボード ](./assets/reporting-advanced.png){width="700"}
 
 ### 要件
 
@@ -39,22 +39,22 @@ Adobeを通じて [!DNL Commerce Intelligence] アカウントをアクティブ
 
 * [!DNL Commerce] は、エラーなく正常にインストールまたはアップグレードされている必要があります。
 
-* [!DNL Commerce] ストア URL[&#x200B; の &#x200B;](../stores-purchase/store-urls.md) 設定では、ストア表示の **[!UICONTROL Base URL (Secure)]** 設定はセキュア URL を指している必要があります。 例：`https://yourdomain.com`。
+* [!DNL Commerce] ストア URL[ の ](../stores-purchase/store-urls.md) 設定では、ストア表示の **[!UICONTROL Base URL (Secure)]** 設定はセキュア URL を指している必要があります。 例：`https://yourdomain.com`。
 
 * ストア URL の [!DNL Commerce] 設定では、**[!UICONTROL Use Secure URLs on Storefront]** と **[!UICONTROL Use Secure URLs in Admin]** を `Yes` に設定する必要があります。
 
-* [[!DNL Commerce] crontab][3] が作成され、インストールされたサーバーで cron ジョブが実行されます。
+* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) が作成され、インストールされたサーバーで cron ジョブが実行されます。
 
 >[!NOTE]
 >
->[!DNL Advanced Reporting] は、単一の [!DNL Commerce] 基本通貨 [&#x200B; を継続的に使用している &#x200B;](../stores-purchase/currency-configuration.md) インストールでのみ使用できます。
+>[!DNL Advanced Reporting] は、単一の [!DNL Commerce] 基本通貨 [ を継続的に使用している ](../stores-purchase/currency-configuration.md) インストールでのみ使用できます。
 
 
 ### 手順 1:[!DNL Advanced Reporting] を有効にする
 
-[!DNL Commerce] の設定では、[[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md) はデフォルトで有効になっており、cron が [&#x200B; 設定 &#x200B;](../configuration-reference/advanced/system.md) および実行されている場合に自動的に起動します。 サブスクリプションを確立する試みは、成功するまで、次の 24 時間にわたって各時間の初めに開始されます。 購読のステータスは、購読が正常に確立されるまで「保留中」です。
+[!DNL Commerce] の設定では、[[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md) はデフォルトで有効になっており、cron が [ 設定 ](../configuration-reference/advanced/system.md) および実行されている場合に自動的に起動します。 サブスクリプションを確立する試みは、成功するまで、次の 24 時間にわたって各時間の初めに開始されます。 購読のステータスは、購読が正常に確立されるまで「保留中」です。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. **[!UICONTROL General]** が展開されている左側のナビゲーションパネルで「**[!UICONTROL Advanced Reporting]**」を選択し、以下の手順を実行します。
 
@@ -64,7 +64,7 @@ Adobeを通じて [!DNL Commerce Intelligence] アカウントをアクティブ
 
    * [**[!UICONTROL Industry Data]**] で、ビジネスに最も適した **[!UICONTROL Industry]** を選択します。
 
-   ![&#x200B; 高度なレポート設定 &#x200B;](./assets/advanced-reporting-config.png){width="400"}
+   ![ 高度なレポート設定 ](./assets/advanced-reporting-config.png){width="400"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
@@ -77,7 +77,7 @@ Adobeを通じて [!DNL Commerce Intelligence] アカウントをアクティブ
 1. 次のいずれかの操作を行います。
 
    * _管理者_ サイドバーで「**[!UICONTROL Dashboard]**」を選択します。 次に、「**[!UICONTROL Go to Advanced Reporting]**」をクリックします。
-   * _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Business Intelligence]_/**[!UICONTROL Advanced Reporting]**&#x200B;に移動します。
+   * _管理者_ サイドバーで、**[!UICONTROL Reports]**/_[!UICONTROL Business Intelligence]_/**[!UICONTROL Advanced Reporting]**に移動します。
 
    [!DNL Advanced Reporting] ダッシュボードには、注文、顧客、製品の概要が表示されます。 ダッシュボード全体を表示するには、必ず下にスクロールします。
 
@@ -86,13 +86,13 @@ Adobeを通じて [!DNL Commerce Intelligence] アカウントをアクティブ
    * 詳しくは、任意のデータポイントにポインタを合わせます。
    * すべてのダッシュボードレポートを表示するには、各タブをクリックします。
 
-   ![&#x200B; データ ポイント &#x200B;](./assets/reporting-advanced-data-point.png){width="600" zoomable="yes"}
+   ![ データ ポイント ](./assets/reporting-advanced-data-point.png){width="600" zoomable="yes"}
 
 ## [!DNL Advanced Reporting] データリソースへのアクセス
 
 詳細レポート ダッシュボードの右上隅にある [**[!UICONTROL Additional Resources]**] をクリックします。
 
-![&#x200B; 高度なレポートデータリソース &#x200B;](./assets/advanced-reporting-your-data-resources.png){width="600" zoomable="yes"}
+![ 高度なレポートデータリソース ](./assets/advanced-reporting-your-data-resources.png){width="600" zoomable="yes"}
 
 ## トラブルシューティング
 
@@ -100,21 +100,21 @@ Adobeを通じて [!DNL Commerce Intelligence] アカウントをアクティブ
 
 ### 統合がアクティブであることを確認
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Extensions]_/**[!UICONTROL Integration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Extensions]_/**[!UICONTROL Integration]**に移動します。
 
 1. **[!UICONTROL Magento Analytics user]** 統合がリストに表示され、**[!UICONTROL Status]** が `Active` しいことを確認します。
 
 1. ユーザーを再確立するには、「**[!UICONTROL Reauthorize]**」をクリックし、次の手順を実行します。
 
-   ![&#x200B; 再認証 &#x200B;](./assets/advanced-reporting-integration-reauthorize.png){width="600"}
+   ![ 再認証 ](./assets/advanced-reporting-integration-reauthorize.png){width="600"}
 
    * プロンプトが表示されたら、「**[!UICONTROL Reauthorize]**」をクリックして、API リソースへのアクセスを承認します。
 
-     ![API リソースへのアクセスの再認証 &#x200B;](./assets/advanced-reporting-integration-api.png){width="600"}
+     ![API リソースへのアクセスの再認証 ](./assets/advanced-reporting-integration-api.png){width="600"}
 
    * 拡張機能の統合トークンのリストが完了していることを確認します。 次に、「完了 **をクリックし** す。
 
-     ![&#x200B; 統合トークン &#x200B;](./assets/advanced-reporting-integration-tokens-for-extensions.png){width="600"}
+     ![ 統合トークン ](./assets/advanced-reporting-integration-tokens-for-extensions.png){width="600"}
 
 1. 統合 `Magento Analytics user` ーザーが再認証されていることを示すメッセージを探します。
 
@@ -122,7 +122,7 @@ Adobeを通じて [!DNL Commerce Intelligence] アカウントをアクティブ
 
 ### 単一の基本通貨を検証
 
-[!DNL Advanced Reporting] は、インストール時から単一の [!DNL Commerce] 基本通貨 [&#x200B; のみを使用していた &#x200B;](../stores-purchase/currency-configuration.md) インストールでのみ使用できます。 その結果、履歴では、すべての注文が同じ基本通貨を使用します。 [!DNL Advanced Reporting] の場合、基本通貨を変更し、履歴の中に異なる基本通貨で処理された注文がある場合は、機能しません。
+[!DNL Advanced Reporting] は、インストール時から単一の [!DNL Commerce] 基本通貨 [ のみを使用していた ](../stores-purchase/currency-configuration.md) インストールでのみ使用できます。 その結果、履歴では、すべての注文が同じ基本通貨を使用します。 [!DNL Advanced Reporting] の場合、基本通貨を変更し、履歴の中に異なる基本通貨で処理された注文がある場合は、機能しません。
 
 ストアに複数の基本通貨があるかどうかを判断するには、次の MySQL の例を使用して、コマンドラインから [!DNL Commerce] データベースにクエリを実行します。 場合によっては、データ構造に合わせてテーブル名を変更する必要があります。
 
@@ -176,8 +176,3 @@ select distinct base_currency_code from sales_order;
 | [!UICONTROL Best Selling Products by Revenue] | 定義された期間内にストア表示を介した商品の販売によって生成された、最も売れた商品と収益を一覧表示します。 |
 
 {style="table-layout:auto"}
-
-
-[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=ja
-[2]: https://developer.adobe.com/commerce/php/development/advanced-reporting/
-[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ja

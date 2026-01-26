@@ -3,7 +3,7 @@ title: ストアの詳細
 description: ストアの基本情報を更新する方法を説明します。
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: dc07b53c27fd99c2c0dc7ee4602640d551e509cf
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1936'
 ht-degree: 0%
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ストアの基本情報には、ストアの名前と住所、電話番号、メールアドレスが含まれます。メールアドレスは、メールメッセージ、請求書、その他の顧客に送信されるお知らせに表示されます。
 
-![&#x200B; 一般設定 – ストアの詳細 &#x200B;](./assets/config-general-store-details.png){width="900" zoomable="yes"}
+![ 一般設定 – ストアの詳細 ](./assets/config-general-store-details.png){width="900" zoomable="yes"}
 
 ## [!UICONTROL Store Information]
 
-_[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキュメントやその他のコミュニケーションに表示される基本情報を提供します。
+_[!UICONTROL Store Information]_のセクションでは、販売ドキュメントやその他のコミュニケーションに表示される基本情報を提供します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルの「**[!UICONTROL General]**」で、「**[!UICONTROL General]**」を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Store Information]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Store Information]**」セクションを展開します。
 
-   ![&#x200B; 一般設定 – ストア情報 &#x200B;](./assets/general-store-information.png){width="700"}
+   ![ 一般設定 – ストア情報 ](./assets/general-store-information.png){width="700"}
 
 1. ストアの詳細に従ってオプションを設定します。
 
@@ -44,7 +44,7 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
    - 該当する場合は、ストアの **[!UICONTROL VAT Number]** を入力します。
 
-     番号を確認するには、「**[!UICONTROL Validate VAT Number]**」ボタンをクリックします。 詳しくは、[VAT ID 検証 &#x200B;](../stores-purchase/vat.md#vat-id-validation) を参照してください。
+     番号を確認するには、「**[!UICONTROL Validate VAT Number]**」ボタンをクリックします。 詳しくは、[VAT ID 検証 ](../stores-purchase/vat.md#vat-id-validation) を参照してください。
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
@@ -63,13 +63,13 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 ロケール設定は、各ストアに使用されるタイムゾーンと言語を決定し、そのエリアの営業週の曜日を識別します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルの **[!UICONTROL General]** の下で、「**[!UICONTROL General]**」を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Locale Options]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Locale Options]**」セクションを展開します。
 
-   ![&#x200B; 一般設定 – ロケールオプション &#x200B;](./assets/general-locale-options.png){width="700"}
+   ![ 一般設定 – ロケールオプション ](./assets/general-locale-options.png){width="700"}
 
 1. リストから **[!UICONTROL Timezone]** を選択します。
 
@@ -85,7 +85,7 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
-ロケール設定オプションについて詳しくは、[&#x200B; 設定リファレンスガイド &#x200B;](../configuration-reference/general/general.md#locale-options) を参照してください。
+ロケール設定オプションについて詳しくは、[ 設定リファレンスガイド ](../configuration-reference/general/general.md#locale-options) を参照してください。
 
 ## [!UICONTROL State Options]
 
@@ -93,13 +93,13 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 標準の住所形式は国によって異なるので、請求書、梱包明細、出荷ラベルの住所の書式設定に使用するテンプレートを編集することもできます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルの「**[!UICONTROL General]**」で、「**[!UICONTROL General]**」を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL State Options]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL State Options]**」セクションを展開します。
 
-   ![&#x200B; 一般設定 – 状態オプション &#x200B;](./assets/general-state-options.png){width="700"}
+   ![ 一般設定 – 状態オプション ](./assets/general-state-options.png){width="700"}
 
 1. **[!UICONTROL State is required for]** リストを使用して、地域/都道府県が必須エントリである国を選択します。
 
@@ -111,7 +111,7 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
-ステート設定オプションについて詳しくは、[&#x200B; 設定リファレンスガイド &#x200B;](../configuration-reference/general/general.md#state-options) を参照してください。
+ステート設定オプションについて詳しくは、[ 設定リファレンスガイド ](../configuration-reference/general/general.md#state-options) を参照してください。
 
 ## [!UICONTROL Country Options]
 
@@ -119,17 +119,17 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 ### ストアの国オプションの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルの **[!UICONTROL General]** の下で、「**[!UICONTROL General]**」を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Country Options]**」セクションを展開します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Country Options]**」セクションを展開します。
 
    >[!NOTE]
    >
    >必要に応じて、変更する設定ごとに「**[!UICONTROL Use system value]**」チェックボックスをオフにします。
 
-   ![&#x200B; 一般設定 – 国設定 &#x200B;](./assets/general-country-options.png){width="700"}
+   ![ 一般設定 – 国設定 ](./assets/general-country-options.png){width="700"}
 
 1. ビジネスが所在する **[!UICONTROL Default Country]** を選択します。
 
@@ -149,9 +149,9 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 ### 特定の配信方法の国オプションの設定
 
-また、利用可能な [&#x200B; 配送方法 &#x200B;](../stores-purchase/delivery.md) （UPS、FedEx など）ごとに、特定の国への配送を設定することもできます。
+また、利用可能な [ 配送方法 ](../stores-purchase/delivery.md) （UPS、FedEx など）ごとに、特定の国への配送を設定することもできます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルで **[!UICONTROL Sales]** を展開し、「**[!UICONTROL Delivery Methods]**」を選択します。
 
@@ -161,7 +161,7 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 1. **[!UICONTROL Top Destinations]** リストで、配送のターゲットとする主要国を選択します。
 
-   ![DHL 配送方法の国別オプション設定例 &#x200B;](./assets/country-options-for-specific-delivery-method.png){width="700"}
+   ![DHL 配送方法の国別オプション設定例 ](./assets/country-options-for-specific-delivery-method.png){width="700"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
@@ -169,35 +169,35 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 国の設定に関する問題のトラブルシューティングについては、[!DNL Commerce] サポートナレッジベースの次の記事を参照してください。
 
-- [&#x200B; 国を追加する方法 &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=ja)
+- [ 国を追加する方法 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
-「マーチャントの場所」設定は、[&#x200B; 支払い方法 &#x200B;](../stores-purchase/payments.md) の設定に使用します。 この設定に値がない場合は、[&#x200B; デフォルトの国 &#x200B;](#uicontrol-country-options) 設定が使用されます。
+「マーチャントの場所」設定は、[ 支払い方法 ](../stores-purchase/payments.md) の設定に使用します。 この設定に値がない場合は、[ デフォルトの国 ](#uicontrol-country-options) 設定が使用されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルで **[!UICONTROL Sales]** を展開し、「**[!UICONTROL Payment Methods]**」を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**マーチャントの場所**」セクションを展開し、**[!UICONTROL Merchant Country]** を選択します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「**マーチャントの場所**」セクションを展開し、**[!UICONTROL Merchant Country]** を選択します。
 
-   ![&#x200B; 販売者の所在地の設定 &#x200B;](./assets/payment-methods-merchant-location.png){width="600"}
+   ![ 販売者の所在地の設定 ](./assets/payment-methods-merchant-location.png){width="600"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
-支払い方法の設定オプションについて詳しくは、[&#x200B; 設定リファレンスガイド &#x200B;](../configuration-reference/sales/payment-methods.md) を参照してください。
+支払い方法の設定オプションについて詳しくは、[ 設定リファレンスガイド ](../configuration-reference/sales/payment-methods.md) を参照してください。
 
 ## 通貨
 
-通貨設定 – 基本 [&#x200B; 通貨 &#x200B;](../stores-purchase/currency-configuration.md) および支払として許可される追加の通貨を定義します。 また、通貨レートを自動的に更新するために使用されるインポート接続とスケジュールを確立します。
+通貨設定 – 基本 [ 通貨 ](../stores-purchase/currency-configuration.md) および支払として許可される追加の通貨を定義します。 また、通貨レートを自動的に更新するために使用されるインポート接続とスケジュールを確立します。
 
-通貨記号 – 商品価格および販売文書（注文や請求書など）に表示される [&#x200B; 通貨記号 &#x200B;](../stores-purchase/currency-configuration.md#step-5-customize-currency-symbols-optional) を定義します。 [!DNL Commerce] は世界 200 カ国以上の通貨をサポートしています。
+通貨記号 – 商品価格および販売文書（注文や請求書など）に表示される [ 通貨記号 ](../stores-purchase/currency-configuration.md#step-5-customize-currency-symbols-optional) を定義します。 [!DNL Commerce] は世界 200 カ国以上の通貨をサポートしています。
 
-通貨レートの更新 – 通貨レートは、必要に応じて [&#x200B; 更新 &#x200B;](../stores-purchase/currency-update.md) 手動で、または事前に定義されたスケジュールに従ってストアに読み込むことができます。
+通貨レートの更新 – 通貨レートは、必要に応じて [ 更新 ](../stores-purchase/currency-update.md) 手動で、または事前に定義されたスケジュールに従ってストアに読み込むことができます。
 
-通貨選択 – 複数の通貨を使用できる場合は、ストアのヘッダーで [&#x200B; 通貨選択 &#x200B;](../stores-purchase/currency.md) を使用できます。
+通貨選択 – 複数の通貨を使用できる場合は、ストアのヘッダーで [ 通貨選択 ](../stores-purchase/currency.md) を使用できます。
 
 ## [!UICONTROL Store Email Addresses]
 
@@ -215,29 +215,29 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 ### 手順 2：生成されたリンクのベース URL の設定
 
-[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+[!BADGE SaaS のみ ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
 
 顧客に送信される一部のメールには、顧客がパスワードをリセットするのに役立つリンクなど、ストアへのリンクが含まれています。 ストアフロントへのリンクが機能するようにするには、ストアフロントへのベース URL を定義する必要があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルの「**[!UICONTROL General]**」で、「**[!UICONTROL Store Email Addresses]**」を選択します。
 
 1. 「**[!UICONTROL Storefront Base URL]**」フィールドの **[!UICONTROL General]** セクションに、ストアのルート URL （例：`https://www.example.com/`）を入力します。 URL の末尾はスラッシュにする必要があります。
 
-   ![&#x200B; 一般設定 – 一般 &#x200B;](../configuration-reference/general/assets/store-email-addresses-general-general.png){width="600"}
+   ![ 一般設定 – 一般 ](../configuration-reference/general/assets/store-email-addresses-general-general.png){width="600"}
 
 ### 手順 3：ストアのメールアドレスの設定
 
-[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"} インスタンスがプロビジョニングされる際に、送信者のメールアドレスが設定されます。 これらのアドレスを変更する必要がある場合は、サポートチケットを作成します。
+[!BADGE SaaS のみ ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"} インスタンスがプロビジョニングされる際に、送信者のメールアドレスが設定されます。 これらのアドレスを変更する必要がある場合は、サポートチケットを作成します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルの「**[!UICONTROL General]**」で、「**[!UICONTROL Store Email Addresses]**」を選択します。
 
-1. **[!UICONTROL General Contact]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. ![ のセクションの ](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL General Contact]** を展開し、以下を実行します。
 
-   ![&#x200B; 一般設定 – メールアドレスの保存 &#x200B;](./assets/store-email-addresses-general-contact.png){width="600"}
+   ![ 一般設定 – メールアドレスの保存 ](./assets/store-email-addresses-general-contact.png){width="600"}
 
    - **[!UICONTROL Sender Name]**：一般的な連絡先 ID に関連付けられている人物の名前を入力し、メールメッセージの送信者として表示します。
 
@@ -263,7 +263,7 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 1. **[!UICONTROL Order]** から始めて、各メッセージの「」セクションを展開し、正しい送信者が選択されていることを確認します。
 
-   ![&#x200B; 販売の構成 – 販売メール &#x200B;](./assets/sales-emails-order.png){width="600"}
+   ![ 販売の構成 – 販売メール ](./assets/sales-emails-order.png){width="600"}
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
@@ -275,11 +275,11 @@ _[!UICONTROL Store Information]_&#x200B;のセクションでは、販売ドキ�
 
 デフォルトのお問い合わせフォームは、CMS ページではなくコードから直接レンダリングされることを理解しておくことが重要です。
 
-![&#x200B; デフォルトのお問い合わせページ &#x200B;](./assets/page-contact-us-default.png){width="700"}
+![ デフォルトのお問い合わせページ ](./assets/page-contact-us-default.png){width="700"}
 
 ストアフッターには、ストア全体で利用できるお問い合わせページへのリンクが含まれています。
 
-![&#x200B; フッターの「お問い合わせ」リンク &#x200B;](./assets/storefront-footer-contact-us.png){width="700"}
+![ フッターの「お問い合わせ」リンク ](./assets/storefront-footer-contact-us.png){width="700"}
 
 Luma のサンプルデータには、ストアに合わせてページをカスタマイズする方法を示す、お問い合わせページに関する追加情報が含まれています。
 
@@ -287,17 +287,17 @@ Luma のサンプルデータには、ストアに合わせてページをカス
 
 ### お問い合わせフォームの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルの **[!UICONTROL General]** の下で、「**[!UICONTROL Contacts]**」を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL Contact Us]**」セクションを展開し、「**[!UICONTROL Enable Contact Us]**」を「`Yes`」に設定します。
+1. 「![ 展開セレクター ](../assets/icon-display-expand.png) 「**[!UICONTROL Contact Us]**」セクションを展開し、「**[!UICONTROL Enable Contact Us]**」を「`Yes`」に設定します。
 
-   ![&#x200B; 一般設定 – お問い合わせ &#x200B;](./assets/contacts-contact-us.png){width="600"}
+   ![ 一般設定 – お問い合わせ ](./assets/contacts-contact-us.png){width="600"}
 
-1. **[!UICONTROL Email Options]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、メール連絡先オプションを設定します。
+1. ![ のセクションの ](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Email Options]** を展開し、メール連絡先オプションを設定します。
 
-   ![&#x200B; 一般設定 – メールオプション &#x200B;](./assets/contacts-email-options.png){width="600"}
+   ![ 一般設定 – メールオプション ](./assets/contacts-email-options.png){width="600"}
 
    - **[!UICONTROL Send Emails to]**：お問い合わせフォームからのメッセージが送信されるメールアドレスを入力します。
 
@@ -313,27 +313,27 @@ Luma のサンプルデータには、ストアに合わせてページをカス
 
 ### 方法 1：サンプルデータの使用
 
-Luma サンプルデータには、ストア用にカスタマイズできる _お問い合わせ情報_ ブロックが含まれています。 `contact-us-info` [&#x200B; ブロック &#x200B;](../content-design/blocks.md) は簡単に変更でき、お問い合わせページに独自のコンテンツを追加できます。
+Luma サンプルデータには、ストア用にカスタマイズできる _お問い合わせ情報_ ブロックが含まれています。 `contact-us-info` [ ブロック ](../content-design/blocks.md) は簡単に変更でき、お問い合わせページに独自のコンテンツを追加できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**に移動します。
 
 1. リストで **[!UICONTROL Contact Us Info]** ブロックを見つけ、**[!UICONTROL Edit]** モードで開きます。
 
-   ![&#x200B; お問い合わせ情報ブロック &#x200B;](./assets/content-block-contact-us-info.png){width="700"}
+   ![ お問い合わせ情報ブロック ](./assets/content-block-contact-us-info.png){width="700"}
 
 1. ブロックページの下部にある「**[!UICONTROL Edit with Page Builder]**」をクリックします。
 
-   ![&#x200B; コンテンツブロック – お問い合わせ例 &#x200B;](./assets/content-block-contact-us-content.png){width="700"}
+   ![ コンテンツブロック – お問い合わせ例 ](./assets/content-block-contact-us-content.png){width="700"}
 
    >[!NOTE]
    >
-   >[[!DNL Page Builder]  無効 &#x200B;](../page-builder/setup.md#disable-dnl-page-builder) になっている場合は、エディター [&#x200B; ツールバー &#x200B;](../content-design/editor.md) を使用してテキストの書式を設定し、[&#x200B; 画像 &#x200B;](../content-design/editor-insert-image.md) および [&#x200B; リンク &#x200B;](../content-design/editor-insert-link.md) を追加できます。
+   >[[!DNL Page Builder]  無効 ](../page-builder/setup.md#disable-dnl-page-builder) になっている場合は、エディター [ ツールバー ](../content-design/editor.md) を使用してテキストの書式を設定し、[ 画像 ](../content-design/editor-insert-image.md) および [ リンク ](../content-design/editor-insert-link.md) を追加できます。
 
-1. HTML コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](../page-builder/assets/pb-icon-settings.png)）アイコンを選択します。
+1. HTML コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![ 設定アイコン ](../page-builder/assets/pb-icon-settings.png)）アイコンを選択します。
 
 1. ストアの連絡先情報を入力したに従ってHTML コードを編集し、「**[!UICONTROL Save]**」をクリックします。
 
-   ![&#x200B; コンテンツブロック - HTML コードの編集 &#x200B;](./assets/content-block-contact-us-html.png){width="700"}
+   ![ コンテンツブロック - HTML コードの編集 ](./assets/content-block-contact-us-html.png){width="700"}
 
 1. [!DNL Page Builder] ステージを終了し、「**[!UICONTROL Save Block]**」をクリックします。
 
@@ -343,6 +343,4 @@ Luma サンプルデータには、ストア用にカスタマイズできる _�
 >
 >2.4.0 リリース以降、CMS ブロックまたはCMS ページ内で連絡先フォームを呼び出すことができなくなりました。 お問い合わせフォームをカスタマイズする際は、レイアウト xml またはカスタムテーマテンプレートを使用してください。
 
-デフォルトでは、買い物客は、ストアフロントページのフッターにある _連絡先リンク_ を使用して、連絡先フォームにアクセスします。 連絡先ページのカスタマイズについて詳しくは、[ フロントエンド開発者ガイド ][theme-guide] を参照してください。
-
-[theme-guide]: https://developer.adobe.com/commerce/frontend-core/guide/themes/
+デフォルトでは、買い物客は、ストアフロントページのフッターにある _連絡先リンク_ を使用して、連絡先フォームにアクセスします。 連絡先ページのカスタマイズについて詳しくは、[ フロントエンド開発者ガイド ](https://developer.adobe.com/commerce/frontend-core/guide/themes/) を参照してください。

@@ -2,7 +2,7 @@
 title: コンテンツ  [!DNL Commerce]  デザインの概要
 description: コンテンツとサイトデザインの機能を使用して、ストアにブランディングとスタイルを反映する方法を説明します。
 exl-id: e13782e3-b53c-4f25-b2cc-8dacec57e451
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -19,24 +19,22 @@ _コンテンツマーケティング_ という用語は、貴重な情報を�
 
 Adobe CommerceとMagento Open Sourceには、ストアに簡単な変更を加えるために使用できる、使いやすいデザインオプションが多数用意されています。 また、[Commerce Marketplace](../getting-started/commerce-marketplace.md) には、プロフェッショナルがデザインしたテーマも多数あります。 店のウィンドウドレッシングのように、シーズンやプロモーションのテーマを変更できます。
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} より高度なストアデザイナーは、個別のコンポーネントからページを組み立てるオブジェクト指向環境を扱う柔軟性を評価しています。 基本を理解したら、そのような柔軟で流動的な環境で働くことに感謝します。 詳しくは、[ フロントエンド開発者ガイド ][1] を参照してください。
+[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} より高度なストアデザイナーは、個別のコンポーネントからページを組み立てるオブジェクト指向環境を扱う柔軟性を評価しています。 基本を理解したら、そのような柔軟で流動的な環境で働くことに感謝します。 詳しくは、[ フロントエンド開発者ガイド ](https://developer.adobe.com/commerce/frontend-core/guide/) を参照してください。
 
 ### 設定
 
-[&#x200B; デザイン設定 &#x200B;](configuration.md) を使用すると、[!DNL Commerce] インストールで web サイト、ストア、表示ごとに異なる設定を簡単に維持できます。
+[ デザイン設定 ](configuration.md) を使用すると、[!DNL Commerce] インストールで web サイト、ストア、表示ごとに異なる設定を簡単に維持できます。
 
 ### テーマ
 
-[&#x200B; テーマ &#x200B;](themes.md) は、ストアの視覚的表示を決定し、レイアウトファイル、テンプレートファイル、翻訳ファイル、スキンのコレクションで構成されます。
+[ テーマ ](themes.md) は、ストアの視覚的表示を決定し、レイアウトファイル、テンプレートファイル、翻訳ファイル、スキンのコレクションで構成されます。
 
 ### スケジュール
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaS のみ ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
 
-テーマは、[&#x200B; スケジュール &#x200B;](schedule.md) に従って、特定の期間アクティブ化できます。 スケジュールを使用して、シーズンやプロモーションに合わせてテーマの変更を事前に計画します。
+テーマは、[ スケジュール ](schedule.md) に従って、特定の期間アクティブ化できます。 スケジュールを使用して、シーズンやプロモーションに合わせてテーマの変更を事前に計画します。
 
 ## コンテンツ
 
-コンテンツでは、[&#x200B; ページ &#x200B;](pages.md) と、顧客がストアにアクセスする際に表示される要素を定義します。 テキストや画像などのページの基本要素や、インタラクティブで動的なコンテンツを提供してショッピングエクスペリエンスを強化するためのより高度な要素を定義できます。
-
-[1]: https://developer.adobe.com/commerce/frontend-core/guide/
+コンテンツでは、[ ページ ](pages.md) と、顧客がストアにアクセスする際に表示される要素を定義します。 テキストや画像などのページの基本要素や、インタラクティブで動的なコンテンツを提供してショッピングエクスペリエンスを強化するためのより高度な要素を定義できます。

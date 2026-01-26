@@ -3,24 +3,24 @@ title: Google AdWords
 description: Google AdWords コンバージョントラッキング用にCommerce ストアを設定して、セールやその他の価値あるアクションにつながる広告クリック数を測定する方法について説明します。
 exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
 # Google AdWords
 
-[Google AdWords][1] は、Googleの検索結果およびGoogle Display Network 内の企業のページに広告を掲載する際に使用できるサービスです。 AdWords ダッシュボードには、キャンペーンの管理、応答の追跡、結果の測定を行うためのツールが含まれています。
+[Google AdWords](https://www.google.com/adwords/) は、Googleの検索結果およびGoogle Display Network 内の企業のページに広告を掲載する際に使用できるサービスです。 AdWords ダッシュボードには、キャンペーンの管理、応答の追跡、結果の測定を行うためのツールが含まれています。
 
-コンバージョントラッキングは、販売またはその他の価値のあるアクションにつながる広告クリック数を表示します。 注文送信後に顧客に表示される _成功_ ページは、販売後にのみ表示されるので、コンバージョンを追跡するために使用されます。 Commerceには既に必要な情報があるので、ストアのGoogle AdWords 設定が完了したら、コンバージョントラッキングスクリプトを成功ページにコピーする必要はありません。 詳しくは、[Google AdWords ヘルプ ][2] を参照してください。
+コンバージョントラッキングは、販売またはその他の価値のあるアクションにつながる広告クリック数を表示します。 注文送信後に顧客に表示される _成功_ ページは、販売後にのみ表示されるので、コンバージョンを追跡するために使用されます。 Commerceには既に必要な情報があるので、ストアのGoogle AdWords 設定が完了したら、コンバージョントラッキングスクリプトを成功ページにコピーする必要はありません。 詳しくは、[Google AdWords ヘルプ ](https://support.google.com/adwords/answer/6095821) を参照してください。
 
-![Google検索結果のAdobe広告 &#x200B;](./assets/google-adwords-adobe-ad.png){width="500"}
+![Google検索結果のAdobe広告 ](./assets/google-adwords-adobe-ad.png){width="500"}
 
 ## 手順 1. Google AdWords キャンペーンの作成
 
-1. [Google AdWords][3] にアクセスして、アカウントに新規登録します。
+1. [Google AdWords](https://ads.google.com/) にアクセスして、アカウントに新規登録します。
 
 1. 手順に従ってキャンペーンを作成します。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 {{gtag-api-note}}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
 
 1. 特定のストア表示用にGoogle AdWords を設定する場合は、次の操作を行います。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Google API]**」を選択します。
 
-1. **[!UICONTROL Google AdWords]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. ![ のセクションの ](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Google AdWords]** を展開し、以下を実行します。
 
    - **[!UICONTROL Enable]** を `Yes` に設定します。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
       - `2` - Googleのトラッキングに関する詳細情報へのリンクを含む 2 行の通知が表示されます。
       - `3` – 顧客通知を表示しません。
 
-   - Google サイト統計の通知ラベルに使用する **[!UICONTROL Conversion Color]** の [16 進コード ][4]{:target=&quot;_blank&quot;} を入力します。
+   - Google Site Stats の通知ラベルに使用する [ の ](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"}16 進コード **[!UICONTROL Conversion Color]** を入力します。
 
    - Google サイトの状況通知に表示される **[!UICONTROL Conversion Label]** の暗号化テキストを入力します。
 
@@ -125,15 +125,10 @@ ht-degree: 0%
    - `Dynamic` – 動的な注文金額の値に基づいてコンバージョンが発生したことを判断します。
    - `Constant` – 入力された特定の値に基づいてコンバージョンが発生したことを判別します。
 
-   _定数_ のコンバージョン値の種類には、コンバージョンと見なされる _[!UICONTROL Order Amount]_&#x200B;の特定の&#x200B;**[!UICONTROL Value]**&#x200B;を入力します。
+   _定数_ のコンバージョン値の種類には、コンバージョンと見なされる **[!UICONTROL Value]** の特定の _[!UICONTROL Order Amount]_を入力します。
 
 1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
 
 ## 手順 4. 設定の確認
 
 数時間以内に、Google AdWords ダッシュボードのトラッキングステータスが `Unverified` から `No recent conversions` または `Recording conversions` に変わります。 誰かが広告をクリックして購入すると、そのコンバージョンがダッシュボードおよびキャンペーンレポートの「コンバージョンアクション」ページに表示されます。
-
-[1]: https://www.google.com/adwords/
-[2]: https://support.google.com/adwords/answer/6095821
-[3]: https://ads.google.com/
-[4]: https://www.w3schools.com/colors/colors_picker.asp

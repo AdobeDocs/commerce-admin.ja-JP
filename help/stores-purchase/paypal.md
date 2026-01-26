@@ -3,8 +3,8 @@ title: PayPal 支払いソリューション
 description: ストアで使用できる PayPal 支払いソリューションの統合について説明します。
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PayPal 支払いソリューション
 
-PayPal は、オンライン決済のグローバルリーダーであり、顧客がオンラインで支払う迅速かつ安全な方法です。 利用可能な PayPal ソリューションの選択は、マーチャントの場所によって異なります。 PayPal Express Checkout と PayPal Payments Standard は、世界中のすべての地域で使用できます。 詳しくは、[&#x200B; 国別 PayPal ソリューション &#x200B;](#paypal-solutions-by-country) を参照してください。
+PayPal は、オンライン決済のグローバルリーダーであり、顧客がオンラインで支払う迅速かつ安全な方法です。 利用可能な PayPal ソリューションの選択は、マーチャントの場所によって異なります。 PayPal Express Checkout と PayPal Payments Standard は、世界中のすべての地域で使用できます。 詳しくは、[ 国別 PayPal ソリューション ](#paypal-solutions-by-country) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ PayPal は、オンライン決済のグローバルリーダーであり、顧�
 
 ## PayPal ビジネスアカウント
 
-PayPal をストアの支払い方法として提供するには、PayPal[ ビジネスアカウント ][1] および/または [PayPal Payflow アカウント ][2] が必要です。 アカウント要件は、各 PayPal ソリューションの説明で指定されています。 PayPal のマーチャントアカウントは、ストアからの購入に適用される [&#x200B; 不正フィルター &#x200B;](#paypal-fraud-management-filters) の管理にも使用されます。
+PayPal をストアの支払い方法として提供するには、PayPal[ ビジネスアカウント ](https://manager.paypal.com/) および/または [PayPal Payflow アカウント ](https://developer.paypal.com/docs/payflow/payflow-gateway/) が必要です。 アカウント要件は、各 PayPal ソリューションの説明で指定されています。 PayPal のマーチャントアカウントは、ストアからの購入に適用される [ 不正フィルター ](#paypal-fraud-management-filters) の管理にも使用されます。
 
 PayPal Express Checkout または Payflow Pro の Express Checkout を使用するお客様は、PayPal のバイヤーアカウントを持っている必要があります。 PayPal Payments Standard （一部の国では Website Payments Standard）は、マーチャントが有効にしている場合、直接または購入者アカウントを通じて使用できます _PayPal アカウント オプション_。 デフォルトでは、このパラメータは有効になっており、顧客はクレジットカード情報を入力するか、PayPal でバイヤーアカウントを作成するかを選択できます。 無効にした場合、お客様は購入を行う前に、まず PayPal バイヤーアカウントを作成する必要があります。
 
@@ -30,7 +30,7 @@ Website Payments Pro、Website Payments Pro Payflow Edition、Payflow Pro Gatewa
 
 ## PayPal クレジットと PayLater
 
-PayPal PayLater は、顧客が資金調達にすばやくアクセスできるようにし、追加費用なしで今すぐ購入して時間の経過と共に支払うことができます。 お客様が PayPal Credit オプションを選択した場合は課金されず、通常の PayPal 取引手数料のみを支払います。 詳しくは、[PayPal web サイト ][3] を参照してください。
+PayPal PayLater は、顧客が資金調達にすばやくアクセスできるようにし、追加費用なしで今すぐ購入して時間の経過と共に支払うことができます。 お客様が PayPal Credit オプションを選択した場合は課金されず、通常の PayPal 取引手数料のみを支払います。 詳しくは、[PayPal web サイト ](https://www.paypal.com/us/business/buy-now-pay-later) を参照してください。
 
 資金調達を宣伝する際に、売り上げを伸ばしましょう。 PayPal は、PayPal PayLater を使用した資金調達でブラウザーをバイヤーに変えるのに役立ちます。 顧客は時間の経過と共に料金を支払うことができますが、追加費用なしで事前に支払いを受けられます。 お客様が PayPal でチェックアウトする際に、PayPal の無料バナー広告を使用して、支払いオプションとして PayPal の資金調達を宣伝します。 PayPal Advertisingプログラムは、追加購入を生み出し、平均購入サイズを 15% 以上増やすことが示されています。
 
@@ -40,7 +40,7 @@ PayPal PayLater は、顧客が資金調達にすばやくアクセスできる�
 >
 >2.4.3 リリース以降、PayPal PayLater は PayPal を含むデプロイメントでサポートされます。 この機能により、買い物客は購入時に全額を支払うのではなく、隔週の分割払いで注文の支払いを行うことができます。 PayPal クレジットエクスペリエンスは非推奨（廃止予定）となりました。
 
-米国のマーチャントの場合、[PayPal Express Checkout](paypal-express-checkout.md) 支払いオプションでは PayPal クレジットがデフォルトで有効になっています。 この支払い方法を無効にするには、_PayPal Express Checkout 設定 [&#x200B; の_ 機能 &#x200B;](paypal-express-checkout.md#features) の節を参照してください。
+米国のマーチャントの場合、[PayPal Express Checkout](paypal-express-checkout.md) 支払いオプションでは PayPal クレジットがデフォルトで有効になっています。 この支払い方法を無効にするには、_PayPal Express Checkout 設定_ の [ 機能 ](paypal-express-checkout.md#features) の節を参照してください。
 
 PayPal クレジットは、他の PayPal 支払いソリューションではデフォルトで無効になっていますが、サポートソリューションの支払い方法の設定では有効にすることができます。
 
@@ -74,7 +74,7 @@ PayPal とAdobe Commerceを使用すると、すべての主要なデビット�
 - [PayPal ペイメントプロ](paypal-payments-pro.md)
 - [PayPal 支払い標準](paypal-payments-standard.md)
 
-![PayPal オールインワン支払いソリューション &#x200B;](./assets/paypal-all-in-one.png){width="600" zoomable="yes"}
+![PayPal オールインワン支払いソリューション ](./assets/paypal-all-in-one.png){width="600" zoomable="yes"}
 
 ### PayPal 支払いゲートウェイ
 
@@ -94,16 +94,16 @@ PayPal は、お客様のビジネスに合わせて 2 つの支払いゲート�
 - [PayPal Payflow Pro](paypal-payflow-pro.md)
 - [PayPal ペイフローリンク](paypal-payflow-link.md)
 
-![PayPal 支払いゲートウェイの設定 &#x200B;](./assets/paypal-payment-gateway.png){width="600" zoomable="yes"}
+![PayPal 支払いゲートウェイの設定 ](./assets/paypal-payment-gateway.png){width="600" zoomable="yes"}
 
 ## PayPal 不正管理フィルター
 
-PayPal の不正管理フィルターを使用すると、不正な取引を検出して対応しやすくなり、フラグを立てる、確認のために保留する、またはリスクの高い支払いを拒否するように設定できます。 不正フィルターの設定に従って変更された、Commerce[&#x200B; 注文ステータス &#x200B;](order-status.md) 値に関連するアクション：
+PayPal の不正管理フィルターを使用すると、不正な取引を検出して対応しやすくなり、フラグを立てる、確認のために保留する、またはリスクの高い支払いを拒否するように設定できます。 不正フィルターの設定に従って変更された、Commerce[ 注文ステータス ](order-status.md) 値に関連するアクション：
 
 | アクション | 結果 |
 | --- | --- |
 | [!UICONTROL Review] | 疑わしい注文は、注文が行われると、ステータス _支払いレビュー_ を受け取ります。 注文を確認して承認するか、管理者または PayPal 側で支払いをキャンセルすることができます。 **[!UICONTROL Accept Payment]** または **[!UICONTROL Deny Payment]** をクリックすると、注文の新しいトランザクションは作成されません。 <br/><br/>PayPal サイトで取引のステータスを変更する場合は、管理者の注文ページの **[!UICONTROL Get Payment Update]** をクリックして変更を適用する必要があります。 **[!UICONTROL Accept Payment]** または **[!UICONTROL Deny Payment]** をクリックすると、PayPal サイトで行われた変更が適用されます。 |
-| [!UICONTROL Deny] | 対応する取引は PayPal によって拒否されるため、疑わしい注文を顧客が行うことはできません。 <br/><br/> 管理者から支払いを拒否するには、ページの右上隅にある「**[!UICONTROL Deny Payment]**」をクリックします。 注文ステータスが `Canceled` に変わり、トランザクションが取り消され、資金が顧客口座でリリースされます。 対応する情報が注文表示の _[!UICONTROL Comments History]_&#x200B;セクションに追加されます。 |
+| [!UICONTROL Deny] | 対応する取引は PayPal によって拒否されるため、疑わしい注文を顧客が行うことはできません。 <br/><br/> 管理者から支払いを拒否するには、ページの右上隅にある「**[!UICONTROL Deny Payment]**」をクリックします。 注文ステータスが `Canceled` に変わり、トランザクションが取り消され、資金が顧客口座でリリースされます。 対応する情報が注文表示の _[!UICONTROL Comments History]_セクションに追加されます。 |
 | [!UICONTROL Flag] | 注文が行われると、疑わしい注文がステータス `Processing` を取得します。 該当する取引は、商社勘定の取引のリスト内でフラグ付きでマークされます。 |
 
 {style="table-layout:auto"}
@@ -185,8 +185,3 @@ PayPal Express Checkout および PayPal Website Payments Standard は、次の�
 - ウルグアイ
 - ベネズエラ
 - ベトナム
-
-
-[1]: https://manager.paypal.com/
-[2]: https://developer.paypal.com/docs/payflow/payflow-gateway/
-[3]: https://www.paypal.com/us/business/buy-now-pay-later
