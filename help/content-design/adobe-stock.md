@@ -3,7 +3,7 @@ title: Adobe Stockの統合
 description: Adobe Stockをお使いのインスタンスと統合して  [!DNL Commerce]  ストアで使用するための無数のメディアアセットにアクセスできるようにします。
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
 source-git-commit: 9aec049cfaa12f342d66f45a75af0ce50a23c2c8
 workflow-type: tm+mt
 source-wordcount: '400'
@@ -28,7 +28,7 @@ Adobe Stock サービスは、あらゆるクリエイティブプロジェク�
 
 Adobe Stock イメージのライセンスを取得するには、次の操作が必要です。
 
-- [Adobe アカウント &#x200B;](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
+- [Adobe アカウント &#x200B;](https://helpx.adobe.com/jp/manage-account/using/access-adobe-id-account.html)
 - アカウントに関連付けられた有料の [Adobe Stock](https://stock.adobe.com) プラン
 
 ## [!DNL Commerce] とAdobe Stockの統合
