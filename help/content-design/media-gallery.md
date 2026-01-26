@@ -71,4 +71,4 @@ Adobe CommerceまたはMagento Open Source 2.4 では、マーチャントは新
 
 [!DNL Media Gallery] について詳しくは、次のビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411046?captions=jpn&quality=12&learn=on)
