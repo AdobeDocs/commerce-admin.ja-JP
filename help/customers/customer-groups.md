@@ -111,4 +111,4 @@ ht-degree: 0%
 
 このデモを見て、顧客グループを作成する方法を学びます。
 
->[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410171/?captions=jpn&quality=12&learn=on)
