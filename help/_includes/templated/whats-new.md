@@ -23,12 +23,12 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>顧客管理ガイドの <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-groups"> 顧客グループ </a> を更新し、顧客が会社に割り当てられた後は、管理者ユーザーが顧客の顧客グループを編集できないことを明確にしました。</p>
+      <td><p>顧客管理ガイドの <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-groups"> 顧客グループ </a> を更新し、顧客が会社に割り当てられた後は、管理者ユーザーが顧客の顧客グループを編集できないことを明確にしました。</p>
 </td>
       <td>
         技術
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/pull/81">プル要求</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.ja-JP/pull/81">プル要求</a></td>
     </tr>
   </tbody>
 </table>
@@ -67,7 +67,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store"> 店舗での受け取り準備完了の注文 </a> メールが使用可能な場合の説明を追加しました。</p>
+      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store"> 店舗での受け取り準備完了の注文 </a> メールが使用可能な場合の説明を追加しました。</p>
 </td>
       <td>
         Feedback
@@ -89,7 +89,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Serviceに次の機能が追加されました。<br />- アダプティブリスク分析と機械学習機能を備えた高度なボット保護を提供する <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise">Google reCAPTCHA Enterprise</a> をサポートするようになりました。<br /> – （カスタムトラッキング URL を有効にする <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls"> ことによって、買い物客のメールに含まれる出荷トラッキング番号をプレーンテキストからクリック可能なリンクに変換 </a> ます。 この機能は、USPS、UPS、FedEx、および DHL でサポートされています。<br />- <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules"> カタログ価格ルール </a> を使用して、階層別価格割引をカタログルール割引と組み合わせることができるようになりました。 この機能強化により、より動的で競争力のある価格戦略を作成できます。</p>
+      <td><p>Adobe Commerce as a Cloud Serviceに次の機能が追加されました。<br />- アダプティブリスク分析と機械学習機能を備えた高度なボット保護を提供する <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise">Google reCAPTCHA Enterprise</a> をサポートするようになりました。<br /> – （カスタムトラッキング URL を有効にする <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls"> ことによって、買い物客のメールに含まれる出荷トラッキング番号をプレーンテキストからクリック可能なリンクに変換 </a> ます。 この機能は、USPS、UPS、FedEx、および DHL でサポートされています。<br />- <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules"> カタログ価格ルール </a> を使用して、階層別価格割引をカタログルール割引と組み合わせることができるようになりました。 この機能強化により、より動的で競争力のある価格戦略を作成できます。</p>
 </td>
       <td>
         メジャーアップデート、新しいトピック
@@ -111,7 +111,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>顧客がチェックアウト時に報酬ポイントまたはストアクレジットを使用する際の税金の計算方法を明確にするために、<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty"> 報酬とロイヤルティ </a> のトピックを更新しました。</p>
+      <td><p>顧客がチェックアウト時に報酬ポイントまたはストアクレジットを使用する際の税金の計算方法を明確にするために、<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty"> 報酬とロイヤルティ </a> のトピックを更新しました。</p>
 </td>
       <td>
         Feedback
@@ -133,7 +133,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p><code class="language-plaintext highlighter-rouge">NOFOLLOW</code>SEO ドキュメント <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview"> の </a> ロボットメタディレクティブの説明を更新しました。<br /><em> 問題 <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82">#82</a>.</em> を修正</p>
+      <td><p><code class="language-plaintext highlighter-rouge">NOFOLLOW</code>SEO ドキュメント <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/seo/seo-overview"> の </a> ロボットメタディレクティブの説明を更新しました。<br /><em> 問題 <a href="https://github.com/AdobeDocs/commerce-admin.ja-JP/issues/82">#82</a>.</em> を修正</p>
 </td>
       <td>
         テクニカル、フィードバック
