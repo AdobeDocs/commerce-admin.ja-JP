@@ -3,7 +3,7 @@ title: 購買依頼リスト
 description: 購買依頼リストの使用方法と、頻繁に発注する製品を簡単にショッピング・カートに追加する方法を説明します。
 exl-id: a21909de-18e7-4aa6-b30d-5d4fb02060ec
 feature: B2B
-source-git-commit: 7e4eef8a6862667b9ab11cd07f85eb4b5ac9a6e4
+source-git-commit: 5f46c4b29c7ee08faf3785c767d3130a277767df
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -12,18 +12,18 @@ ht-degree: 0%
 
 # 購買依頼リスト
 
-購買依頼リストを使用すると、品目がリストから直接買い物かごに追加されるため、頻繁に発注される製品を購入する際の時間を節約できます。 購入者は、様々なベンダー、購入者、チーム、キャンペーンなど、ワークフローを効率化する要素からの製品に焦点を当てた複数のリストを維持できます。 ログインしているユーザーとゲストの両方が利用できます。
+購買依頼リストを使用すると、品目がリストから直接買い物かごに追加されるため、頻繁に発注される製品を購入する際の時間を節約できます。 購入者は、様々なベンダー、購入者、チーム、キャンペーンなど、ワークフローを効率化する要素からの製品に焦点を当てた複数のリストを維持できます。 購買依頼リスト機能は、ログイン・ユーザーが使用できます。
 
 >[!NOTE]
 >
->店舗の購買依頼リストを使用可能にするには、[B2B 機能の使用可能 &#x200B;](enable-basic-features.md) を参照してください。 [&#x200B; 構成 &#x200B;](configure-requisition-lists.md) に応じて、購買担当アカウントごとに最大 999 の購買依頼リストを保守できます。
+>店舗の購買依頼リストを使用可能にするには、[B2B 機能の使用可能 ](enable-basic-features.md) を参照してください。 [ 構成 ](configure-requisition-lists.md) に応じて、購買担当アカウントごとに最大 999 の購買依頼リストを保守できます。
 
 購買依頼リスト機能はウィッシュ・リストに似ていますが、次の違いがあります。
 
 - 品目を買い物かごに送信した後、要求リストがクリアされません。 複数回使用できます。
 - 購買依頼リストのユーザー・インタフェースでは、コンパクト・ビューを使用して多数の品目を表示します。
 
-![&#x200B; 店頭に掲示する購買依頼リスト &#x200B;](./assets/account-dashboard-my-requisition-lists.png){width="600" zoomable="yes"}
+![ 店頭に掲示する購買依頼リスト ](./assets/account-dashboard-my-requisition-lists.png){width="600" zoomable="yes"}
 
 ## アカウントダッシュボードからの購買依頼リストの作成
 
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 1. アカウントのサイドバーで、**[!UICONTROL My Requisition Lists]** を選択します。
 
-1. _[!UICONTROL Requisition Lists]_&#x200B;ページで、「**[!UICONTROL Create New Requisition List]**」をクリックします。
+1. _[!UICONTROL Requisition Lists]_ページで、「**[!UICONTROL Create New Requisition List]**」をクリックします。
 
 1. **[!UICONTROL Requisition List Name]** および **[!UICONTROL Description]** を入力します。
 
-   ![&#x200B; 購買依頼リストの作成 &#x200B;](./assets/requisition-list-create.png){width="300"}
+   ![ 購買依頼リストの作成 ](./assets/requisition-list-create.png){width="300"}
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
    - 既存の購買依頼リストを選択します。
    - 購買依頼リストを作成します。
 
-   ![&#x200B; 購買依頼リストへの追加 &#x200B;](./assets/requisition-list-product-detail.png){width="700" zoomable="yes"}
+   ![ 購買依頼リストへの追加 ](./assets/requisition-list-product-detail.png){width="700" zoomable="yes"}
 
 ### カタログページから
 
@@ -83,7 +83,7 @@ ht-degree: 0%
    - 既存の購買依頼リストを選択します。
    - 購買依頼リストを作成します。
 
-   ![&#x200B; 購買依頼リストへの追加 &#x200B;](./assets/requisition-list-add-product.png){width="700" zoomable="yes"}
+   ![ 購買依頼リストへの追加 ](./assets/requisition-list-add-product.png){width="700" zoomable="yes"}
 
 ### 既存の注文から
 
@@ -94,7 +94,7 @@ ht-degree: 0%
    - 既存の購買依頼リストを選択します。
    - 購買依頼リストを作成します。
 
-   ![&#x200B; 購買依頼リストへの追加 &#x200B;](./assets/requisition-list-add-from-order.png){width="700" zoomable="yes"}
+   ![ 購買依頼リストへの追加 ](./assets/requisition-list-add-from-order.png){width="700" zoomable="yes"}
 
 ### 既存の見積りから
 
@@ -106,13 +106,13 @@ ht-degree: 0%
 
 1. 「[!UICONTROL Items Quoted]」タブで、移動する商品を選択します。
 
-1. 製品行項目の [!UICONTROL Actions] 列の [!UICONTROL Select] ドロップダウンを使用して、「**[!UICONTROL Move to Requisition list]**」を選択します。
+1. 製品行項目の [!UICONTROL Select] 列の [!UICONTROL Actions] ドロップダウンを使用して、「**[!UICONTROL Move to Requisition list]**」を選択します。
 
 1. 選択した品目の購買依頼リストを選択します。
 
 1. 「**[!UICONTROL Move item to Requisition List]**」をクリックします。
 
-B2B の見積もりについて詳しくは、[&#x200B; マイ見積もり &#x200B;](account-dashboard-my-quotes.md) のトピックを参照してください。
+B2B の見積もりについて詳しくは、[ マイ見積もり ](account-dashboard-my-quotes.md) のトピックを参照してください。
 
 ### 買い物かごから
 
@@ -121,19 +121,19 @@ B2B の見積もりについて詳しくは、[&#x200B; マイ見積もり &#x20
    - 既存の購買依頼リストを選択します。
    - 購買依頼リストを作成します。
 
-   ![&#x200B; 買い物かごから追加 &#x200B;](./assets/requisition-list-add-from-cart.png){width="700" zoomable="yes"}
+   ![ 買い物かごから追加 ](./assets/requisition-list-add-from-cart.png){width="700" zoomable="yes"}
 
 ## 更新された購買依頼リストの表示
 
 購買担当は、アカウントにログインすると、次のいずれかの方法を使用して購買依頼リストを表示できます。
 
-![&#x200B; 自分の購買依頼リスト &#x200B;](./assets/requisition-lists-menu-select-storefront.png){width="700" zoomable="yes"}
+![ 自分の購買依頼リスト ](./assets/requisition-lists-menu-select-storefront.png){width="700" zoomable="yes"}
 
 ### アカウントダッシュボードから
 
 1. アカウントダッシュボードのサイドバーで、**[!UICONTROL My Requisition Lists]** を選択します。
 
-1. 購買依頼リストのリストで、「_処理_ 列の **[!UICONTROL View]** をクリックします。
+1. 購買依頼リストのリストで、「**[!UICONTROL View]** 処理 _列の_ をクリックします。
 
 ### どのストアフロントページからも
 
