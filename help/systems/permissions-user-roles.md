@@ -123,7 +123,7 @@ ht-degree: 0%
 
 ユーザーの役割の管理については、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443508?captions=jpn&quality=12&learn=on)
 
 ## 役割リソース
 
