@@ -151,7 +151,7 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]**/_運営_/**請求書** �
 
 ## カスタムキャプチャの金額
 
-[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
 
 マーチャントに対して、部分取得と特殊な支払いシナリオの柔軟性を高めるために、請求書 API では拡張属性を使用したカスタム取得金額をサポートしています。
 
