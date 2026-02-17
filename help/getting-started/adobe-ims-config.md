@@ -3,10 +3,10 @@ title: ID を使用したCommerce Admin Integration の設定
 description: Adobe Commerce管理者のユーザーアカウントのログインをAdobe IDと統合するには、次のオプション手順に従います。
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: c909d68cb2d99e9eb3d1e3adb8fc9b7c245812d2
+badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+source-git-commit: e1518775bf43f5493b61d21951a0b1126dfc49aa
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 この統合は、Adobe IDを持ち、Adobe CommerceおよびAdobe Business 製品へのログインを効率化したい管理者ユーザーを持つCommerce マーチャントをサポートします。 これはオプションであり、インスタンスごとに有効になります。 有効にすると、管理ユーザーワークフローのみが影響を受けます。 
 
 >[!IMPORTANT]
+>
+>AdobeIms 統合はグローバルに適用されます。 有効にすると、すべてのユーザーは AdobeIms 経由で認証する必要があります。 個々のユーザーはこの設定から除外できません。また、個々のユーザーのユーザー名とパスワードのログインは使用できなくなりました。
 >
 >管理者ユーザーは、この統合を有効にする前に、Commerce管理者資格情報（ユーザー名とパスワード）と 2FA 資格情報を保存する必要があります。 これらの資格情報は、IMS 統合が無効な場合に必要です。
 
@@ -32,8 +34,8 @@ ht-degree: 0%
 
 この統合を設定する管理者には、モジュールのイネーブルメント時に次の資格情報が必要です。
 
-* 組織 ID （[Adobe Admin Console](https://adminconsole.adobe.com/) から取得）。24 文字以上にする必要があります。 認証済みユーザーは、この IMS 組織に属している必要があります。 組織 ID の検索について詳しくは、[Experience Cloudの組織 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja) を参照してください。
-* モジュールを有効にするには、Adobe Admin Consoleの組織レベルで 2FA を適用する必要があります。 [&#x200B; 認証設定 &#x200B;](https://helpx.adobe.com/jp/enterprise/using/authentication-settings.html#two-step-verification) をオンにします。
+* 組織 ID （[Adobe Admin Console](https://adminconsole.adobe.com/) から取得）。24 文字以上にする必要があります。 認証済みユーザーは、この IMS 組織に属している必要があります。 組織 ID の検索について詳しくは、[Experience Cloudの組織 ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html) を参照してください。
+* モジュールを有効にするには、Adobe Admin Consoleの組織レベルで 2FA を適用する必要があります。 [ 認証設定 ](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification) をオンにします。
 * クライアント ID
 * クライアント秘密鍵
 * クライアント ID およびクライアント秘密鍵は、[Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials) から API キーを取得した後に利用できます。
@@ -47,7 +49,7 @@ Commerce管理者ユーザーがログインするには、Adobe IDのアカウ�
 * Adobe Admin ConsoleでのAdobe Commerce ユーザーの設定
 * `AdminAdobeIms` モジュールを有効にします。
 
-統合に成功するには、すべてのAdobe Commerce ユーザーが同じ名前とプライマリメールアドレスの管理者ユーザーアカウントを持っている必要があります。 一致する管理者ユーザーアカウントが存在しない場合、必要な権限を持つユーザー（通常は管理者の役割が割り当てられている）が、同じ名前とメールアドレスで手動で [&#x200B; 管理者ユーザーアカウントを作成 &#x200B;](../systems/permissions-users-all.md#create-a-user) する必要があります。
+統合に成功するには、すべてのAdobe Commerce ユーザーが同じ名前とプライマリメールアドレスの管理者ユーザーアカウントを持っている必要があります。 一致する管理者ユーザーアカウントが存在しない場合、必要な権限を持つユーザー（通常は管理者の役割が割り当てられている）が、同じ名前とメールアドレスで手動で [ 管理者ユーザーアカウントを作成 ](../systems/permissions-users-all.md#create-a-user) する必要があります。
 
 ## 統合の設定
 
@@ -59,7 +61,7 @@ Commerce管理者ユーザーがログインするには、Adobe IDのアカウ�
 
 ### 手順 2：新しいプロジェクト、IMS API キーおよび秘密鍵の生成
 
-組織用のプロジェクトを作成するには、その組織のAdobe管理者アカウントにシステム管理者または開発者のロールが必要です。 [Developer Console ガイド &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/) を参照してください。
+組織用のプロジェクトを作成するには、その組織のAdobe管理者アカウントにシステム管理者または開発者のロールが必要です。 [Developer Console ガイド ](https://developer.adobe.com/developer-console/docs/guides/projects/) を参照してください。
 
 1. [Adobe Developer Console](https://developer.adobe.com/) にログインします。
 1. 「**[!UICONTROL Projects]**」タブ（adobe.io/projects）に移動し、「**[!UICONTROL Create a new project]**」をクリックします。
@@ -80,7 +82,7 @@ Commerce管理者ユーザーがログインするには、Adobe IDのアカウ�
 
 >[!TIP]
 >
->CSV ファイルからユーザー情報をアップロードすることで、複数のユーザーアカウントを作成できます。 [&#x200B; 複数のユーザーの管理 &#x200B;](https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html) を参照してください。
+>CSV ファイルからユーザー情報をアップロードすることで、複数のユーザーアカウントを作成できます。 [ 複数のユーザーの管理 ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) を参照してください。
 
 1. [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) で、**[!UICONTROL Users]**/**[!UICONTROL Users]** に移動します。
 
@@ -113,4 +115,4 @@ Adobe Commerceは、イネーブルメントが成功したか失敗したかを
 
 ## ID とシングルサインオン
 
-Adobe ID、Enterprise ID、Federated IDなどの ID 設定オプション、およびAdobe アプリに安全にアクセスするためのシングルサインオン（SSO）を設定する手順については、[Enterprise Admin Console](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html) ドキュメントの *ID とシングルサインオンの設定* を参照してください。
+Adobe ID、Enterprise ID、Federated IDなどの ID 設定オプション、およびAdobe アプリに安全にアクセスするためのシングルサインオン（SSO）を設定する手順については、[Enterprise Admin Console](https://helpx.adobe.com/enterprise/using/set-up-identity.html) ドキュメントの *ID とシングルサインオンの設定* を参照してください。
