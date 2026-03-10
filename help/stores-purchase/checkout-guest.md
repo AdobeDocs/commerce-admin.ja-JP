@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 登録済みの E メールに対するゲスト注文へのアクセスを許可する
 
-[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
 
 オプションのストアレベル設定はデフォルトで無効になっており、ゲストの買い物客は、登録済みの顧客アカウントに一致するメールアドレスを使用して行われた注文を追跡できます。
 
