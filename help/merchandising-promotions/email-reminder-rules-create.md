@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # メールのリマインダーの作成
 
-メールリマインダールールを設定する前に、まず [ 買い物かごの価格ルールを設定 ](price-rules-cart-create.md) して、提供されるプロモーションを定義する必要があります。 メールのリマインダーをトリガーするルール条件を、買い物かごのプロパティ、ウィッシュリストのプロパティ、またはその両方に基づくことができます。
+メールリマインダールールを設定する前に、まず [&#x200B; 買い物かごの価格ルールを設定 &#x200B;](price-rules-cart-create.md) して、提供されるプロモーションを定義する必要があります。 メールのリマインダーをトリガーするルール条件を、買い物かごのプロパティ、ウィッシュリストのプロパティ、またはその両方に基づくことができます。
 
 >[!NOTE]
 >
 >メールのリマインダーでは、クーポンの有無に関わらず、買い物かごの価格ルールを促進する場合があります。 自動生成されたクーポンを定義する買い物かご価格ルールにより、各顧客にランダムクーポンコードが生成されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Email Reminder Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Communications]_/**[!UICONTROL Email Reminder Rules]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Rule]**」をクリックします。
 
-1. _[!UICONTROL Rule Information]_を次のように入力します。
+1. _[!UICONTROL Rule Information]_&#x200B;を次のように入力します。
 
-   ![ メールリマインダールール ](./assets/email-reminder-new.png){width="700" zoomable="yes"}
+   ![&#x200B; メールリマインダールール &#x200B;](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
    - ルールを内部的に識別する **[!UICONTROL Rule Name]** を入力します。
 
@@ -32,23 +32,23 @@ ht-degree: 0%
 
    - このリマインダーがアドバタイズする **[!UICONTROL Cart Price Rule]** プロモーションを選択するには、「**[!UICONTROL Select Rule…]**」をクリックし、ルールを選択します。
 
-     ![ 買い物かごルール – 選択 ](./assets/email-reminder-select-rule.png){width="600" zoomable="yes"}
+     ![&#x200B; 買い物かごルール – 選択 &#x200B;](./assets/email-reminder-select-rule.png){width="600" zoomable="yes"}
 
    - ルールをすぐに有効にする場合は、**[!UICONTROL Status]** を `Active` に設定します。
 
    - ルールをアクティブにする日付範囲を設定するには、**[!UICONTROL From]** と **[!UICONTROL To]** の日付を入力します。
 
-     カレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）から日付を選択することもできます。
+     カレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）から日付を選択することもできます。
 
    - リマインダーを 2 回以上送信するには、次のメールが送信されるまでの日数を **[!UICONTROL Repeat Schedule]** フィールドに入力します。
 
 1. 左側のパネルで「**[!UICONTROL Conditions]**」を選択します。
 
-   ルールに少なくとも 1 つの条件を定義する必要があります。 このプロセスは、[ カタログ価格ルール ](price-rules-catalog.md) の作成に似ています。
+   ルールに少なくとも 1 つの条件を定義する必要があります。 このプロセスは、[&#x200B; カタログ価格ルール &#x200B;](price-rules-catalog.md) の作成に似ています。
 
-   ![ メールリマインダー条件 ](./assets/email-reminder-conditions.png){width="600" zoomable="yes"}
+   ![&#x200B; メールリマインダー条件 &#x200B;](./assets/email-reminder-conditions.png){width="600" zoomable="yes"}
 
-   _追加_ （![ 追加アイコン ](../assets/icon-add-green-circle.png)）をクリックしてオプションのリストを表示し、次のいずれかの条件を選択します。
+   _追加_ （![&#x200B; 追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックしてオプションのリストを表示し、次のいずれかの条件を選択します。
 
    - ウィッシュリスト
    - ショッピングカート
@@ -57,17 +57,17 @@ ht-degree: 0%
    >
    >顧客に、一致する放棄された買い物かご、ウィッシュリストまたはその両方の組み合わせが複数ある場合、メールのリマインダーはその顧客に対して 1 回だけトリガーされます。 同じメールのリマインダーを再度トリガーするには、「_[!UICONTROL Repeat Schedule]_」フィールドを使用して、メール間の日数を設定します。<br/>
    >
-   >**_新規_** 放棄された買い物かごと **_後_** リストの同じ顧客に対して、同じメールのリマインダーは **_再トリガーされません_**_[!UICONTROL Repeat Schedule]_期間が終了します。
+   >**_新規_** 放棄された買い物かごと **_後_** リストの同じ顧客に対して、同じメールのリマインダーは **_再トリガーされません_**&#x200B;_[!UICONTROL Repeat Schedule]_&#x200B;期間が終了します。
 
    メールのリマインダーをトリガーするシナリオを示す条件を入力します。
 
-   ![ メールリマインダー条件の例 ](./assets/email-reminder-condition-example.png){width="600" zoomable="yes"}
+   ![&#x200B; メールリマインダー条件の例 &#x200B;](./assets/email-reminder-condition-example.png){width="600" zoomable="yes"}
 
 1. 左側のパネルで「**[!UICONTROL Emails and Labels]**」を選択します。
 
-   ![ メールリマインダールール – メールとラベルテンプレート ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![&#x200B; メールリマインダールール – メールとラベルテンプレート &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
-1. 「**[!UICONTROL Email Templates]**」セクションでは、各 web サイトと、[ ストア階層 ](../getting-started/websites-stores-views.md) 内のストア表示で使用するメールテンプレートを選択します。
+1. 「**[!UICONTROL Email Templates]**」セクションでは、各 web サイトと、[&#x200B; ストア階層 &#x200B;](../getting-started/websites-stores-views.md) 内のストア表示で使用するメールテンプレートを選択します。
 
    ストア表示の顧客にリマインダーメールを送信しない場合は、値を `Not Selected` のままにします。
 
@@ -81,15 +81,15 @@ ht-degree: 0%
 
    - **[!UICONTROL Rule Description for All Store Views]** を入力します。
 
-     ![ メールのリマインダー – タイトルと説明 ](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
+     ![&#x200B; メールのリマインダー – タイトルと説明 &#x200B;](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - 「_[!UICONTROL Titles and Descriptions Per Store View]_」セクションで、「**[!UICONTROL Rule Title]**デフォルトストア表示&#x200B;**[!UICONTROL Description]**」の_ と _を入力します。 複数のストア表示の場合は、それぞれに適切なタイトルと説明を入力します。
+   - 「_[!UICONTROL Titles and Descriptions Per Store View]_」セクションで、「**[!UICONTROL Rule Title]**&#x200B;デフォルトストア表示&#x200B;**[!UICONTROL Description]**」の_ と _を入力します。 複数のストア表示の場合は、それぞれに適切なタイトルと説明を入力します。
 
      >[!NOTE]
      >
      >promotion_description 変数を使用すると、説明をメールテンプレートに組み込むことができます。
 
-     ![ タイトルと説明 – ストア表示 ](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
+     ![&#x200B; タイトルと説明 – ストア表示 &#x200B;](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
 1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
 
