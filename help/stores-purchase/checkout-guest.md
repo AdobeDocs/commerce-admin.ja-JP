@@ -14,21 +14,21 @@ ht-degree: 0%
 
 購入を行う前に買い物客にアカウントの開設を要求するように、ストアを設定できます。 デフォルト設定では、ゲストは購入することができ、チェックアウトプロセスを完了した後にアカウントを登録するオプションがあります。
 
-![Luma ストアに「ゲストとしてチェックアウト」と表示される ](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
+![Luma ストアに「ゲストとしてチェックアウト」と表示される &#x200B;](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
 
 ゲストのチェックアウトを無効にする **_T:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
 
-1. 「![ 展開セレクター ](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Checkout Options]**」セクションを展開します。
+1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Checkout Options]**」セクションを展開します。
 
-   ![ 設定ページで展開されたチェックアウトオプション ](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
+   ![&#x200B; 設定ページで展開されたチェックアウトオプション &#x200B;](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-これらの各設定について詳しくは、『設定リファレンスガイド [ の ](../configuration-reference/sales/checkout.md#checkout-options) チェックアウトオプション _を参照してください_。
+これらの各設定について詳しくは、『設定リファレンスガイド [&#x200B; の &#x200B;](../configuration-reference/sales/checkout.md#checkout-options) チェックアウトオプション _を参照してください_。
 
-1. 設定が特定のストア表示の場合は、[ ストア表示を選択 ](../configuration-reference/scope-change.md#set-the-scope) して設定が適用されます。
+1. 設定が特定のストア表示の場合は、[&#x200B; ストア表示を選択 &#x200B;](../configuration-reference/scope-change.md#set-the-scope) して設定が適用されます。
 
    プロンプトが表示されたら、「**[!UICONTROL OK]**」をクリックして続行します。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 登録済みの E メールに対するゲスト注文へのアクセスを許可する
 
-[!BADGE SaaS のみ ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
 
 オプションのストアレベル設定はデフォルトで無効になっており、ゲストの買い物客は、登録済みの顧客アカウントに一致するメールアドレスを使用して行われた注文を追跡できます。
 
