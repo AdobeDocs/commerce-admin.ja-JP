@@ -1,7 +1,7 @@
 ---
-source-git-commit: 9a800bd94abbf6a8ce34816fdb0dbba4f44385b0
+source-git-commit: 4484906047bea6603d93dda8ed06c5897136bd7d
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '330'
 ht-degree: 2%
 
 ---
@@ -9,9 +9,9 @@ ht-degree: 2%
 
 ## 最新情報
 
-このセクションには、過去 60 日間に加えられた変更が含まれています。 コピー編集などのマイナーアップデートはすべて、このリストから除外します。
+このセクションには、過去60日間に行われた変更が含まれます。 コピー編集などのマイナーな更新は、このリストから除外されます。
 
-### 2026 年 3 月 10 日（Pt）
+### 2026年3月10日（PT）
 
 <table style="table-layout:auto;">
   <thead>
@@ -23,7 +23,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules"> メールのリマインダー </a> がAdobe Commerce as a Cloud Serviceで使用できるようになりました。</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules">電子メールリマインダー</a>がAdobe Commerce as a Cloud Serviceで利用できるようになりました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -31,7 +31,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/af1530af58cb73c49e3dcc0d82577bb97efbb50e">コミット</a></td>
     </tr>
     <tr>
-      <td><p>登録メールでのゲストによる注文へのアクセスを許可する設定が新しく追加され、マーチャントが登録メールで行われたゲストによる注文を追跡できるようになりました。</p>
+      <td><p>登録済みメールに対するゲスト注文アクセスを許可する新しい設定を追加しました。これにより、登録済みメールに含まれるゲスト注文を追跡できます。</p>
 </td>
       <td>
         メジャーアップデート
@@ -39,7 +39,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/891fd0f08a952cd38bc92b41a4d54197f58f8a4d">コミット</a></td>
     </tr>
     <tr>
-      <td><p>B2B v1.5.3-beta1 （2026 年 3 月）を更新した <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/release-notes"> リリースノート </a>：見積もり、購買依頼リスト、共有カタログ、チェックアウト、GraphQLおよび関連領域の品質向上とバグ修正、マイナーコピーと一貫性に関するマイナーな修正。</p>
+      <td><p>B2B v1.5.3-beta1 （2026年3月）で<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes"> リリースノート </a>を更新しました：見積、要件リスト、共有カタログ、チェックアウト、GraphQL、および関連領域の品質向上とバグ修正、およびマイナーなコピーと一貫性の修正。</p>
 </td>
       <td>
         メジャーアップデート
@@ -49,7 +49,7 @@ ht-degree: 2%
   </tbody>
 </table>
 
-### 2026 年 2 月 19 日（Pt）
+### 2026年2月19日（PT）
 
 <table style="table-layout:auto;">
   <thead>
@@ -61,17 +61,17 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/start/reporting/reports-menu"> レポートメニュー </a> ページの PaaS のバッジのみを更新しました。</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu"> レポートメニュー</a> ページのPaaSのみのバッジを更新しました。</p>
 </td>
       <td>
-        Feedback
+        フィードバック
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/e2a73e2a47d1e8befa43a6b0f942c4b440d296b7">コミット</a></td>
     </tr>
   </tbody>
 </table>
 
-### 2026 年 2 月 10 日（Pt）
+### 2026年2月10日（PT）
 
 <table style="table-layout:auto;">
   <thead>
@@ -83,7 +83,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service 2 月リリースの管理ドキュメントの更新：<br />- REST API で請求書を作成する際の <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts"> カスタムキャプチャ金額 </a> に関するドキュメントを追加しました。これにより、部分取得や特殊な支払いシナリオ用の請求書を作成する際に、マーチャントがカスタム金額を取得できるようになりました。<br />- <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/start/reporting/reports-menu"> レポートメニュー </a> のどのレポートが PaaS のみになったかを示します。</p>
+      <td><p>Adobe Commerce as a Cloud Service 2月リリースの管理者ドキュメントの更新：<br />- REST APIで請求書を作成する際に<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts"> カスタムキャプチャ金額</a>のドキュメントを追加しました。これにより、部分的なキャプチャや特殊な支払いシナリオの請求書を作成する際に、マーチャントがカスタム金額をキャプチャできるようにします。<br />- <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu"> レポートメニュー</a>のレポートがPaaSのみであることを示します。</p>
 </td>
       <td>
         メジャーアップデート
@@ -93,7 +93,7 @@ ht-degree: 2%
   </tbody>
 </table>
 
-### 2026 年 2 月 2 日（Pt）
+### 2026年2月2日（PT）
 
 <table style="table-layout:auto;">
   <thead>
@@ -105,25 +105,25 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cookie 法への準拠 </a> を更新して、欠落している <code class="language-plaintext highlighter-rouge">mage-cache-timeout</code> localStorage キーを追加し、除外 Cookie リストをテーブル形式に変換しました。</p>
+      <td><p>欠落している<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law"> localStorage キーを追加し、除外Cookie リストをテーブル形式に変換するように</a>Cookie法コンプライアンス <code class="language-plaintext highlighter-rouge">mage-cache-timeout</code>を更新しました。</p>
 </td>
       <td>
-        テクニカル、フィードバック
+        技術的、フィードバック
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/ebb6348c6b5a30f5de4025f39bae0061b397a4b9">コミット</a></td>
     </tr>
     <tr>
-      <td><p>[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}Adobe Admin Consoleへのアクセスのリクエストに関する情報を提供するために、Adobe Commerceの IMS 統合を設定するための前提条件を更新しました。</p>
+      <td><p>[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）およびオンプレミス プロジェクトにのみ適用されます。"} Adobe Admin Consoleへのアクセスのリクエストに関する情報を提供するために、Adobe CommerceのIMS統合を設定するための前提条件を更新しました。</p>
 </td>
       <td>
-        テクニカル、フィードバック
+        技術的、フィードバック
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/8ea546c5e1cc9296c8b056ea7e25984a66d43851">コミット</a></td>
     </tr>
   </tbody>
 </table>
 
-### 2026 年 1 月 31 日（Pt）
+### 2026年1月31日（PT）
 
 <table style="table-layout:auto;">
   <thead>
@@ -135,17 +135,17 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>顧客管理ガイドの <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-groups"> 顧客グループ </a> を更新し、顧客が会社に割り当てられた後は、管理者ユーザーが顧客の顧客グループを編集できないことを明確にしました。</p>
+      <td><p>顧客管理ガイドの<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-groups">顧客グループ </a>を更新して、顧客が会社に割り当てられた後、管理者ユーザーが顧客の顧客グループを編集できないことを確認しました。</p>
 </td>
       <td>
-        技術
+        テクニカル
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.ja-JP/pull/81">プル要求</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/pull/81">プルリクエスト</a></td>
     </tr>
   </tbody>
 </table>
 
-### 2026 年 1 月 20 日（Pt）
+### 2026年1月20日（PT）
 
 <table style="table-layout:auto;">
   <thead>
@@ -157,56 +157,12 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>製品リファレンスを「Adobe Sensei」から「Adobe AI」に変更し、Adobe ブランディングのアップデートを反映させました。</p>
+      <td><p>Adobeのブランド更新を反映するため、製品参照を「Adobe Sensei」から「Adobe AI」に変更しました。</p>
 </td>
       <td>
-        Feedback
+        フィードバック
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/4077b922dae0ed9a9050a5f6160143a636646daa">コミット</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026 年 1 月 16 日（Pt）
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>説明</th>
-      <th>タイプ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store"> 店舗での受け取り準備完了の注文 </a> メールが使用可能な場合の説明を追加しました。</p>
-</td>
-      <td>
-        Feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/65fd67dcd3c14daddfc0f36493dc6da3630898a1">コミット</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026 年 1 月 15 日（Pt）
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>説明</th>
-      <th>タイプ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Serviceに次の機能が追加されました。<br />- アダプティブリスク分析と機械学習機能を備えた高度なボット保護を提供する <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise">Google reCAPTCHA Enterprise</a> をサポートするようになりました。<br /> – （カスタムトラッキング URL を有効にする <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls"> ことによって、買い物客のメールに含まれる出荷トラッキング番号をプレーンテキストからクリック可能なリンクに変換 </a> ます。 この機能は、USPS、UPS、FedEx、および DHL でサポートされています。<br />- <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules"> カタログ価格ルール </a> を使用して、階層別価格割引をカタログルール割引と組み合わせることができるようになりました。 この機能強化により、より動的で競争力のある価格戦略を作成できます。</p>
-</td>
-      <td>
-        メジャーアップデート、新しいトピック
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/70e73b47c4b0342ade3deab64dbe39f29b82191f">コミット</a></td>
     </tr>
   </tbody>
 </table>
