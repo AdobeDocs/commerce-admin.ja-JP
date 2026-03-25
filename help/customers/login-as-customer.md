@@ -1,129 +1,212 @@
 ---
-title: 買い物客への支援の提供
-description: 「顧客としてログイン」機能を使用すると、顧客に表示される内容を確認し、顧客に代わって更新を行うことができます。
+title: 買い物客へのサポートの提供
+description: お客様としてログイン機能を使用すると、お客様に表示される内容を確認し、代わりに更新を行うことができます。
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
 feature: Customers, Customer Service
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 29f3a8bb019d464e6d7646e0ebc7a4fa2ed0dd74
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
 
-# 買い物客への支援の提供
+# 買い物客へのサポートの提供
 
-顧客は注文に関するヘルプが必要になる場合があります。 ストア管理者は _顧客としてログイン_ を使用できます。これにより、顧客に対して表示される内容を確認し、更新を行って支援することができます。
+時には、顧客は注文に対するサポートを必要としています。 ストア管理者は&#x200B;_お客様としてログイン_&#x200B;できます。これにより、お客様が見ているものを確認し、お客様を支援するために更新を行うことができます。
 
-ユーザーとしてログインした際に実行されたすべてのアクションは、実際のお客様のアカウントに適用されます。
+お客様としてログイン中に実行されたアクションは、実際のお客様のアカウントに適用されます。
 
-_管理者_ ユーザーに対して有効になっている場合は、_[!UICONTROL Login as Customer]_&#x200B;のボタンが複数のページに表示されます。
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+
+_管理者_ ユーザーに対して有効にすると、_[!UICONTROL Login as Customer]_ボタンが複数のページに表示されます。
 
 * [顧客編集ページ](../customers/update-account.md)
-* [注文ビューページ](../stores-purchase/order-processing.md)
-* [「請求書ビュー」ページ](../stores-purchase/invoices.md)
-* [「出荷ビュー」ページ](../stores-purchase/shipments.md)
-* [「クレジット・メモ表示」ページ](../stores-purchase/credit-memo-create.md)
+* [注文表示ページ](../stores-purchase/order-processing.md)
+* [請求書表示ページ](../stores-purchase/invoices.md)
+* [出荷表示ページ](../stores-purchase/shipments.md)
+* [クレジットメモ表示ページ](../stores-purchase/credit-memo-create.md)
 
-![&#x200B; 顧客としてログイン &#x200B;](assets/login-as-customer.png){width="600" zoomable="yes"}
+![お客様としてログイン ](assets/login-as-customer.png){width="600" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
+
+Adobe Commerce as a Cloud Serviceでは、お客様としてログイン機能で、ダイレクトログインの代わりに&#x200B;**ワンタイムコード（OTC）** ワークフローが使用されます。 管理者は、顧客に対して短時間のみ有効な単一の使用コードを生成します。 このコードは、GraphQLを通じて顧客アクセストークンと交換され、出品者が支援するショッピングシナリオの「顧客としてパスワードレスでログイン」できるようになります。
+
+この機能は、次のコンポーネントで構成されます。
+
+* **管理者UI** – 顧客の編集ページでは、管理者は顧客として直接ログインする代わりに、1回限りのコード （OTC）をリクエストできます。
+* **[REST API](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/login-as-customer/)** - OTC生成用のプログラマティック エンドポイントで、管理者スクリプトやサードパーティの統合に役立ちます。
+* **GraphQL API** - OTCをストアフロントまたはヘッドレスコマースフロー用の顧客アクセストークンと交換するミューテーション。
+
+>[!ENDTABS]
 
 ## 顧客としてログインを有効にする
 
-_顧客としてログイン_ を有効にするには、Commerce インスタンスでその機能を有効にし、ユーザーロール権限で管理者ユーザーのアクセスを有効にする必要があります。
+_お客様としてログイン_&#x200B;を有効にするには、Commerce インスタンスで機能を有効にしてから、ユーザーロールの権限で管理者ユーザーのアクセスを有効にする必要があります。
 
-### 機能の有効化
+### この機能を有効にする
 
-1. 管理者サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. 管理者サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Login as Customer]**」を選択します。
+1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Login as Customer]**&#x200B;を選択します。
 
-   ![&#x200B; 設定オプション – 顧客としてログイン &#x200B;](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
+   ![設定オプション – 顧客としてログイン ](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Enable Login as Customer]** を `Yes` に設定します。
+1. **[!UICONTROL Enable Login as Customer]**&#x200B;を`Yes`に設定します。
 
-1. _（オプション）_ 管理者ユーザーが顧客としてログインした際にページキャッシュを有効にするには、**[!UICONTROL Disable Page Cache for Admin User]** を `No` に設定します。
+1. _（オプション）_&#x200B;管理者ユーザーが顧客としてログインしたときにページキャッシュを有効にするには、**[!UICONTROL Disable Page Cache for Admin User]**&#x200B;を`No`に設定します。
 
    >[!WARNING]
    >
-   > ページキャッシュを無効にする（`Yes` - デフォルト）と、ユーザーとしてログインした際に、キャッシュされていない新しいデータが確実に取得されます。
+   > ページキャッシュ （`Yes` - デフォルト）を無効にすると、お客様としてログインしたユーザーは、キャッシュされていない最新のデータを取得できます。
 
-1. _（オプション）_ マルチサイトまたはマルチストアの設定があり、管理者ユーザーが顧客としてログインした際にストア表示を選択する場合は、**[!UICONTROL Store View to Log in]** を `Manual Selection` に設定します。
+1. _（オプション）_ マルチサイトまたはマルチストアの設定があり、管理者ユーザーが顧客としてログインする際にストアビューを選択する場合は、**[!UICONTROL Store View to Log in]**&#x200B;を`Manual Selection`に設定します。
 
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
 ### 管理者ユーザーのアクセスを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_権限_/**[!UICONTROL User Roles]** に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _権限_ > **[!UICONTROL User Roles]**&#x200B;に移動します。
 
-1. リストで役割をクリックします。
+1. リスト内の役割をクリックします。
 
-1. [!UICONTROL _役割情報_] 左側のパネルで、「**[!UICONTROL Role Resources]**」をクリックします。
+1. [!UICONTROL _役割情報_]&#x200B;の左側のパネルで、**[!UICONTROL Role Resources]**&#x200B;をクリックします。
 
-1. ページの **[!UICONTROL Role Resources]** を `Custom` に変更します。
+1. ページの&#x200B;**[!UICONTROL Role Resources]**&#x200B;を`Custom`に変更します。
 
    >[!INFO]
    >
    > このオプションを選択すると、リソース階層がページに表示されます。
 
-1. **[!UICONTROL Customers]** の親項目とその下の **[!UICONTROL Login as Customer]** の項目までスクロールします。 次に、役割に対して有効にするリソースを選択します。
+1. **[!UICONTROL Customers]**&#x200B;の親項目とその下の&#x200B;**[!UICONTROL Login as Customer]**&#x200B;項目までスクロールします。 次に、役割に対して有効にするリソースを選択します。
 
-   * **[!UICONTROL Allow Login as Customer]** – 管理者ユーザーが _顧客としてログイン_ 機能を使用できるようにします。
-   * **[!UICONTROL View Login as Customer Log]** – 管理者ユーザーに _顧客としてログイン_ ログを表示することを許可します。
+   * **[!UICONTROL Allow Login as Customer]** – 管理者ユーザーが&#x200B;_顧客としてログイン_&#x200B;機能を使用できるようにします。
+   * **[!UICONTROL View Login as Customer Log]** – 管理者ユーザーが&#x200B;_顧客としてログイン_ ログを表示できるようにします。
 
-   ![&#x200B; 役割のリソース – 顧客としてログイン &#x200B;](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
+   ![役割のリソース – 顧客としてログイン ](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
 
-1. 「**[!UICONTROL Save Role]**」をクリックします。
+1. **[!UICONTROL Save Role]**&#x200B;をクリックします。
 
-## 管理者から顧客としてログインします
+## リモートショッピング支援のための顧客アカウント権限
 
-1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/[!UICONTROL _すべての顧客_] に移動します。
+管理者からストアサポートスタッフのアカウントアクセスを有効にするには、お客様がアカウントの機能を有効にする必要があります。
 
-1. ユーザーを編集モードで開きます。
+>[!BEGINTABS]
 
-1. **[!UICONTROL Customer Information]** パネルで、「**[!UICONTROL Account Information]**」セクションを選択します。
+>[!TAB Adobe Commerce]
 
-1. **[!UICONTROL Allow remote shopping assistance]** を `Yes` に設定します。
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-   >[!INFO]
-   >
-   >管理者は、ストアフロントからの許可なしでユーザーとしてログインできるようになりました。
+1. お客様は&#x200B;**[!UICONTROL Account Information]** ページに移動します。
 
-## リモート ショッピング アシスタンスの顧客アカウント権限
+1. 「**[!UICONTROL Allow remote shopping assistance]**」チェックボックスを選択します。
 
-管理者がストアサポートスタッフのアカウントアクセスを有効にするには、お客様は自分のアカウントでこの機能を有効にする必要があります。
+1. お客様は&#x200B;**[!UICONTROL Save]**&#x200B;をクリックします。
 
-1. お客様は **[!UICONTROL Account Information]** のページに移動します。
+![ アカウント情報ページ ](assets/permission.png){width="700" zoomable="yes"}
 
-1. **[!UICONTROL Allow remote shopping assistance]** チェックボックスを選択します。
+>[!TAB Adobe Commerce as a Cloud Service]
 
-1. 顧客は「**[!UICONTROL Save]**」をクリックします。
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
 
-![&#x200B; アカウント情報ページ &#x200B;](assets/permission.png){width="700" zoomable="yes"}
+お客様は、`login_as_customer_assistance_allowed`拡張機能の属性を&#x200B;**2**&#x200B;に設定する必要があります。 これは、お客様を作成または編集する際に、管理者またはGraphQLの&#x200B;**お客様を編集** ページで設定できます。
 
 >[!WARNING]
 >
->この権限がない場合、管理者ユーザーはこの顧客としてログインできません。
+>この権限がないと、管理者ユーザーはこの顧客としてログインできません。
+
+![顧客の編集ページでの顧客の同意拡張機能の属性設定](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
+
+この権限を既存の顧客アカウントに対してGraphQLで設定するには、`allow_remote_shopping_assistance``true`または[`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/)個の変異を使用して[`createCustomerV2`入力を](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/)に設定します。
+
+>[!ENDTABS]
+
+## 管理者から顧客としてログイン
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+
+1. _管理者_ サイドバーで、**[!UICONTROL Customers]** > [!UICONTROL _すべての顧客_]&#x200B;に移動します。
+
+1. ユーザーを編集モードで開きます。
+
+1. **[!UICONTROL Customer Information]** パネルで、**[!UICONTROL Account Information]** セクションを選択します。
+
+1. **[!UICONTROL Allow remote shopping assistance]**&#x200B;を`Yes`に設定します。
+
+   >[!INFO]
+   >
+   >管理者は、ストアフロントの権限がなくてもユーザーとしてログインできるようになりました。
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
+
+>[!NOTE]
+>
+>RESTを使用してこの機能を実装する方法については、[お客様としてログイン ](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/login-as-customer/) REST API ドキュメントを参照してください。
+
+### 管理者からワンタイムコード（OTC）をリクエスト
+
+1. **[!UICONTROL Customers]**&#x200B;に移動し、顧客を選択して編集ページを開きます。
+
+1. お客様を編集ページで、「**[!UICONTROL Get Customer Login OTC]**」をクリックします。
+
+   ![お客様のページの「お客様ログイン OTCを取得」ボタン ](assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
+
+1. **[!UICONTROL Reason]** （必須）を入力し、**[!UICONTROL Request]**&#x200B;をクリックします。
+
+   理由フィールド ![を持つ](assets/otc-reason-modal.png){width="600" zoomable="yes"}OTC リクエストモーダル
+
+   >[!NOTE]
+   >
+   >**Reason** フィールドは必須です。 OTP生成フローに渡され、今後の監査およびイベントログ機能で使用するために予約されます。
+
+1. 生成されたOTCがモーダルに表示されます。 このコードを、お客様の認証に`generateCustomerToken`または`exchangeOtpForCustomerToken`個のGraphQL変異と共に使用します。
+
+   ![生成されたOTCがモーダルに表示されます](assets/otc-generated-code.png){width="300" zoomable="yes"}
+
+>[!IMPORTANT]
+>
+>生成されたワンタイムコード OTCは、デフォルトで30秒間有効で、1回使用すると無効になります。 TTLは、[ サポートチケット ](https://experienceleague.adobe.com/home?support-tab=home#support)を送信することで設定できます。
+
+ワンタイムコードが生成されたら、ストアフロントに移動し、次の資格情報を使用してログインすることで使用できます。
+
+* **電子メール**：顧客の電子メールアドレス
+* **パスワード**：生成されたワンタイムコード （OTC）
+
+>[!ENDTABS]
 
 ## 顧客としてログインを使用
 
 >[!INFO]
 >
->_顧客としてログイン_ を使用するには、管理者が前述のように設定されていることを確認してください。
+>_お客様としてログイン_&#x200B;するには、管理者が前述の手順に従って設定されていることを確認してください。
 
-_顧客としてログイン_ すると、顧客と同じようにサイトを表示でき、トラブルシューティングを行ったり、顧客に対して他のアクションを実行したりできます。 必要な権限を持つユーザーの役割が割り当てられている場合：
+_お客様としてログイン_&#x200B;すると、お客様と同じようにサイトを表示でき、お客様のトラブルシューティングやその他のアクションを実行できます。 必要な権限を持つユーザーの役割が割り当てられている場合：
 
-1. 前の節で一覧表示したページで「**[!UICONTROL Login as Customer]**」をクリックできます。
-1. 「顧客としてログイン」アクションは、「アクション」レポートで使用できます。
+1. 前のセクションに記載されているページで&#x200B;**[!UICONTROL Login as Customer]**&#x200B;をクリックできます。
+1. 「顧客としてログイン」アクションは、アクションレポートで使用できます。
 
 >[!WARNING]
 >
->[!UICONTROL _顧客として_] ログイン中に実行されたアクション（製品の追加/削除など）は、実際の顧客の注文に適用されます。 ストアフロントでは、特別な状態を `logged in as customer_name` 示するバナーが表示されます。
+>[!UICONTROL _お客様_]&#x200B;としてログイン中に行われたアクション（製品の追加/削除など）は、実際のお客様の注文に適用されます。 ストアフロントでは、特別な状態のリマインダーを提供するために`logged in as customer_name`になったときにバナーが表示されます。
 
-## カスタマーログとしてログイン
+## 顧客ログとしてログイン
 
 {{ee-feature}}
 
-Adobe Commerceには、「顧客としてログイン _アクションのログが用意されて_ ます。 管理者ユーザーが機能にアクセスするすべてのセッションが一覧表示されます。 ログに記録されたアクションにアクセスするには、[&#x200B; 管理者アクションレポート &#x200B;](../systems/action-log-report.md) に移動します。
+Adobe Commerceには、_お客様としてログイン_&#x200B;操作のログが記録されます。 管理者ユーザーが機能にアクセスするすべてのセッションが一覧表示されます。 ログに記録されたアクションにアクセスするには、[管理者アクションレポート ](../systems/action-log-report.md)に移動します。
 
-レポート設定 **[!UICONTROL Action Group]** をフィルタリングして、ページの上部にある `Login As Customer` をクリック **[!UICONTROL Search]** きます。
+レポート設定&#x200B;**[!UICONTROL Action Group]**&#x200B;を`Login As Customer`にフィルターして、ページの上部で&#x200B;**[!UICONTROL Search]**&#x200B;をクリックできます。
 
-![&#x200B; アクションレポートのフィルタリング &#x200B;](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}
+![ アクションレポートのフィルター](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}
