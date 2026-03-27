@@ -1,113 +1,126 @@
 ---
-title: アカウントの作成とア  [!DNL Commerce]  セス
-description: 購入した製品  [!DNL Commerce]  サービスを管理するアカウントについて説明します。
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+title: ' [!DNL Commerce]  アカウントを作成してアクセス'
+description: 購入した製品とサービスを管理する [!DNL Commerce]  アカウントについて説明します。
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: 518333eb4a5bcd2c4276ade008bb38552c7fd066
+source-git-commit: 96acaff3e614a5758fdc51bc5de70ce0507a970a
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
 
 
-# [!DNL Commerce] アカウントへのアクセス
+# [!DNL Commerce] アカウントにアクセス
 
-[!DNL Commerce] アカウントは、クラウドインフラストラクチャまたはオンプレミスにデプロイされたAdobe Commerce プロジェクト用のAdobe Commerce サービスを管理するための中央アクセスポイントです。 アカウントダッシュボードでは、サブスクリプションの表示、Commerce サービス API キーの管理、過去の請求情報の確認、組織内の他のユーザーとの共同作業を行うことができます。
+[!DNL Commerce] アカウントは、クラウドインフラストラクチャまたはオンプレミスにデプロイされたAdobe Commerce プロジェクトのAdobe Commerce サービスを管理するための中央アクセスポイントです。 アカウントダッシュボードから、サブスクリプションの表示、Commerce サービス API キーの管理、過去の請求情報の確認、組織内の他のユーザーとの共同作業を行うことができます。
 
-特定のストアフロント内で作業するのではなく [&#128279;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) 最初のチケットを送信する」か、Adobe Commerceの関係を管理する必要がある場合は、まず [!DNL Commerce] アカウントを作成するか、アクセスします。
+[最初のチケット ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)を送信する必要がある場合、またはAdobe Commerce リレーションシップを管理する必要がある場合は、[!DNL Commerce] アカウントを作成またはアクセスすることから始めます。
 
-[!DNL Commerce] の web サイトから [!DNL Commerce] アカウントにアクセスできます。 アカウントダッシュボードでは、購入した製品およびサービスに関連する情報を表示し、他のユーザーに [&#x200B; 共有アクセス &#x200B;](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access) を提供できます。 Commerce サービス API キーなどの一部の情報は、ライセンス所有者にのみ表示されます。
-
->[!NOTE]
->
->**[!UICONTROL Billing History]** アカウント ページの [[!DNL Commerce]] セクションには、請求システムの更新前に作成された請求書のみが表示されます。
->
->新しい請求書が一覧にない場合は、新しいシステムに移行されており、このページからアクセスできません。
-
-![[!DNL Commerce] アカウント &#x200B;](./assets/home-acct.png){width="700"}
-
-[!DNL Commerce] アカウントのログインは、ストアの管理者ログインとは別のものです。 通常は、それぞれに異なる資格情報を使用し、各システムへのアクセスは個別に管理されます。
-
-ただし、Adobe CommerceおよびAdobe Business 製品へのログインを効率化したい場合は、[Commerceの IMS 統合ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/admin/ims/adobe-ims-config) のストア管理者（*CommerceとのAdobe ID管理者統合の設定* にログインするようにAdobe IDを設定できます。
+[!DNL Commerce] web サイトから[!DNL Commerce] アカウントにアクセスできます。 アカウント ダッシュボードから、購入した製品とサービスに関連する情報を表示し、他のユーザーに[共有アクセス ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access)を提供できます。 Commerce サービス API キーなどの一部の情報は、ライセンス所有者にのみ表示されます。
 
 >[!NOTE]
 >
->アカウントを作成したら、二要素認証（TFA）を使用して [&#x200B; アカウントを保護 &#x200B;](commerce-account-secure.md) することをお勧めします。
+>**[!UICONTROL Billing History]** アカウントページの[!DNL Commerce] セクションには、請求システムの更新前に作成された請求書のみが表示されます。
+>
+>新しい請求書がリストに表示されない場合、新しいシステムに移行され、このページからアクセスできません。
 
-## [!DNL Commerce] アカウントにログインします
+![お客様の[!DNL Commerce] アカウント ](./assets/home-acct.png){width="700"}
 
-[!DNL Commerce] アカウントにアクセスするには、Adobe IDが必要です。 既存の [!DNL Commerce] アカウントを持っていて、2022 年 8 月以降ログインしていない場合、ログインプロセス中にAdobe IDを作成する必要があります。 アカウントにログインするには、この手順を完了する必要があります。
+[!DNL Commerce] アカウントのログインは、ストア管理者のログインとは別です。 通常、それぞれに異なる資格情報を使用し、各システムへのアクセスは個別に管理されます。
+
+ただし、Adobe CommerceおよびAdobe Business製品へのログインを効率化したい場合は、Adobe IDをストア管理者にログインするように設定できます。[Commerce向け](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)IMS統合ガイドの&#x200B;*Adobe IDとのCommerce管理者統合を設定*&#x200B;してください。
+
+>[!NOTE]
+>
+>アカウントを作成した後、2段階認証（TFA）を使用してアカウントを[保護することをお勧めします](commerce-account-secure.md)。
+
+## [!DNL Commerce] アカウントにログイン
+
+お客様の[!DNL Commerce] アカウントにアクセスするには、Adobe IDが必要です。 既存の[!DNL Commerce] アカウントをお持ちで、2022年8月以降ログインしていない場合は、サインインプロセス中にAdobe IDを作成する必要があります。 アカウントにログインするには、この手順を完了する必要があります。
 
 >[!WARNING]
 >
->Adobe Commerceの送信時にCommerce組織が見つからない場合 [&#x200B; サポートケース &#x200B;](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)、通常は、アカウントオーナーがAdobe IDを作成していない、またはAdobe IDが存在するがCommerce アカウントにリンクされていない、のいずれかを意味します。
+>Adobe Commerce [ サポートケース ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)の送信時にCommerce組織が見つからない場合は、通常、次のいずれかを意味します。アカウント所有者がAdobe IDを作成していないか、Adobe IDが存在するがCommerce アカウントにリンクされていない。
 
 1. [[!DNL Commerce]](https://account.magento.com/customer/account/login/) サイトに移動します。
 
-1. 「**[!UICONTROL Sign in with Adobe ID]**」をクリックします。
+1. **[!UICONTROL Sign in with Adobe ID]**&#x200B;をクリックします。
 
-   ![Adobeのログイン画面でログイン &#x200B;](./assets/sign-in-with-adobe.png){width="700"}
+   ![Adobe ログイン画面でログイン ](./assets/sign-in-with-adobe.png){width="700"}
 
-1. メールアドレスを入力し、「**[!UICONTROL Continue]**」をクリックします。
+1. メールアドレスを入力し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
    >[!TIP]
    >
-   >既存のCommerce アカウントの MAGEID に関連付けられているメールアドレスを使用した場合は、ログインプロセスによってメールアドレスがAdobe IDに自動的にリンクされます。
+   >既存のCommerce アカウント MAGEIDに関連付けられているメールアドレスを使用した場合、サインインプロセスによって自動的にAdobe IDにリンクされます。
 
-## [!DNL Commerce] アカウントの作成
+## [!DNL Commerce] アカウントを作成
 
-誰でも無料の [!DNL Commerce] アカウントを作成できます。 使用するメールアドレスは、1 つのCommerce アカウントにのみ関連付けることができます。
+誰でも無料の[!DNL Commerce] アカウントを作成できます。 使用するメールアドレスは、1つのCommerce アカウントにのみ関連付けることができます。
 
 >[!NOTE]
 >
 >Adobe IDを使用して、Commerce アカウントを作成し、アクセスします。
->- Commerce アカウントがない場合は、新規登録プロセス中に作成できます。
->- 既にCommerce アカウントを持っていてもAdobe IDがない場合は、[Commerce アカウントへのログイン &#x200B;](#log-in-to-your-dnl-commerce-account) を参照してください。
+>- Commerce アカウントをお持ちでない場合は、サインアッププロセスで作成できます。
+>- 既にCommerce アカウントをお持ちだが、Adobe IDをお持ちでない場合は、[Commerce アカウントにログイン ](#log-in-to-your-dnl-commerce-account)を参照してください。
 
-1. [[!DNL Commerce]  サイト &#x200B;](https://account.magento.com/customer/account/login/) に移動します。
+1. [[!DNL Commerce]  サイト ](https://account.magento.com/customer/account/login/)に移動します。
 
-1. 「**[!UICONTROL Sign in with Adobe ID]**」をクリックします。
+1. **[!UICONTROL Sign in with Adobe ID]**&#x200B;をクリックします。
 
-1. Adobe IDがない場合は、「**[!UICONTROL Create an account]**」をクリックします。 それ以外の場合は、手順 7 に進みます。
+1. Adobe IDをお持ちでない場合は、**[!UICONTROL Create an account]**&#x200B;をクリックしてください。 それ以外は、手順7に進みます。
 
-   ![&#x200B; アカウントリンクの作成 &#x200B;](./assets/account-create-link.png){width="700"}
+   ![ アカウントリンクを作成](./assets/account-create-link.png){width="700"}
 
-1. サインアップフォームに入力します。
+1. 登録フォームに記入してください。
 
-   ![&#x200B; アカウント情報 &#x200B;](./assets/account-create.png){width="700"}
+   ![ アカウント情報](./assets/account-create.png){width="700"}
 
-1. 「**[!UICONTROL Create account]**」をクリックします。
+1. **[!UICONTROL Create account]**&#x200B;をクリックします。
 
-1. メールアドレスに送信した確認コードを入力します。
+1. メールアドレスに送信された確認コードを入力してください。
 
-   ![&#x200B; 確認コードを入力 &#x200B;](./assets/verification-code.png){width="700"}
+   ![確認コードを入力](./assets/verification-code.png){width="700"}
 
-1. Adobe IDを作成および検証したら、https://account.magento.com/に戻ります。 画像 ID が生成され、Adobe IDに自動的にリンクされます。
+1. Adobe IDを作成して確認したら、https://account.magento.com/に戻ります。 MAGE IDが生成され、Adobe IDに自動的にリンクされます。
 
-## パスワードをリセット
+## パスワードのリセット
 
-1. [[!DNL Commerce]  サイト &#x200B;](https://account.magento.com/customer/account/login/) に移動します。
+1. [[!DNL Commerce]  サイト ](https://account.magento.com/customer/account/login/)に移動します。
 
-1. 「**[!UICONTROL Sign in with Adobe ID]**」をクリックします。
+1. **[!UICONTROL Sign in with Adobe ID]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL Get help signing in]**」をクリックします。
+1. **[!UICONTROL Get help signing in]**&#x200B;をクリックします。
 
-   ![&#x200B; サインインのヘルプを表示する &#x200B;](./assets/sign-in-get-help.png){width="700"}
+   ![ ログインに関するヘルプを受ける](./assets/sign-in-get-help.png){width="700"}
 
-1. 「**[!UICONTROL Reset your password]**」をクリックします。
+1. **[!UICONTROL Reset your password]**&#x200B;をクリックします。
 
-   ![&#x200B; パスワードを変更する &#x200B;](./assets/change-password.png){width="700"}
+   ![ パスワードを変更](./assets/change-password.png){width="700"}
 
-1. メールアドレスを入力します。
+1. メールアドレスを入力してください。
 
-1. 「**[!UICONTROL Continue]**」をクリックします。
+1. **[!UICONTROL Continue]**&#x200B;をクリックします。
 
 ## Commerce アカウントへの共有アクセスの提供
 
-共有アクセスを使用すると、同僚、パートナー、管理者などの信頼できるユーザーに、自分の個人用ログインを使用せずに、自分の代わりにAdobe Commerceの関係を管理する権限を付与できます。 これには、他のユーザーがサポートケースを開始および追跡することも含まれます。
+Shared Accessを使用すると、個人用ログインを使用せずに、Adobe Commerceのリレーションシップを管理するための権限を、同僚、パートナー、管理者などの信頼できるユーザーに付与できます。 これには、サポートケースを他の人が開いて追跡できるようにすることも含まれます。
 
-共有アカウントの設定手順について詳しくは、『Adobe Commerce入門ガイド』の [Commerce アカウントの共有 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en) の節を参照してください。
+共有アカウントの設定に関する詳細な手順については、Adobe Commerce入門ガイドの「[Commerce アカウントの共有](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en)」セクションを参照してください。
 
-Commerce サポートケースの送信方法について詳しくは、[Adobe Commerce ヘルプセンターユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) を参照してください。
+Commerce サポートケースの送信手順について詳しくは、[Adobe Commerce ヘルプセンターのユーザーガイド ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)を参照してください。
+
+## 概要
+
+| シナリオ | 何が起こっているのか | Adobe IDの用途 | MAGE ID / Commerce アカウントの場合の対処方法 | 成果 |
+| --- | --- | --- | --- | --- |
+| AdobeとCommerceの新機能 | Adobe IDなし、MAGE IDなし | https://account.magento.comへのログイン時にプロンプトが表示されたら、Adobe IDを作成します。 | Adobe IDの作成後、https://account.magento.comに再度ログインします。 | Commerce アカウントが作成され、MAGE IDが生成され、Adobe IDにリンクされます |
+| はAdobe IDですが、まだMAGE IDがありません | 他のAdobe製品のみを使用 | https://account.magento.comでAdobe IDでログイン | 最初に正常にログインすると、Commerce アカウントとMAGE IDが作成されます | MAGE IDは自動的に作成され、リンクされます |
+| 従来のMAGE IDを使用している従来のCommerceのお客様 | 過去のMAGE IDがあるが、Adobe IDがない | 既存のMAGE IDと同じメールを使用して、https://account.adobe.comでAdobe IDを作成します | 「Adobe IDでログイン」を使用してhttps://account.magento.comにログイン | 既存のMAGE IDは、新しいAdobe IDにリンクされています |
+| Adobe IDとMAGE IDは存在しますが、リンクされていません | Adobe IDとCommerceの電子メールの違い | Adobe IDの電子メールをCommerce アカウントの電子メールに合わせる（または所有権に応じて逆にする） | メールが一致したら、「Adobe IDでログイン」でhttps://account.magento.comにログインします。 | Adobe IDがログインになります。MAGE IDは使用権限IDのままです |
+| Adobe IDがありますが、「MAGE IDがありません」 | https://account.magento.comにログインしていない | 既存のAdobe IDの使用 | https://account.magento.comで初めてログインします | この最初のサインインは、MAGE IDを生成してリンクします |
+| クラウドプロジェクトログインのみを使用（accounts.magento.cloud） | クラウドプロジェクトにアクセスできますが、従来のCommerce アカウントにはアクセスできません | Adobe IDを引き続きクラウドプロジェクトに使用する | Marketplace/ライセンスが必要な場合は、https://account.magento.comで同じAdobe IDでログインします | 従来のCommerce アカウント（MAGE ID付き）が作成され、リンクされます |
+
+ユーザーがCommerceの使用権限を持つべきであると考えているが、MAGE IDが表示されない場合、デフォルトの次のステップは、Commerce アカウントとMAGE IDを作成または正しくリンクできるように、Adobe IDを使用してhttps://account.magento.comでログインすることです。
