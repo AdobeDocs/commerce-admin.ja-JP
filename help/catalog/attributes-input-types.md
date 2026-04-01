@@ -21,18 +21,18 @@ ht-degree: 0%
 | [!UICONTROL Text Field] | テキストの1行入力フィールド。 |
 | [!UICONTROL Text Area] | 製品説明などのテキストの段落を入力するための複数行入力フィールド。 WYSIWYG エディターを使用して、HTML タグを使用してテキストを書式設定したり、タグをテキストに直接入力したりできます。 |
 | [!UICONTROL Text Editor] | 属性の場所に完全に機能するテキストエディター。 |
-| [!UICONTROL Date] | [優先形式](#date-and-time-options)および[ タイムゾーン ](../getting-started/store-details.md#locale-options)に日付値を表示します。 日付値は、リストまたはカレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）から選択できます。 <br/><br/>**_Note:_** システム構成に応じて、_管理者_ ユーザーは日付をフィールドに直接入力するか、カレンダーまたはリストから日付を選択できます。 日付と時刻の値の指定について詳しくは、[日付と時刻のオプション ](#date-and-time-options)を参照してください。 |
-| [!UICONTROL Date and Time] | [優先形式](#date-and-time-options)および[ タイムゾーン ](../getting-started/store-details.md#locale-options)の日時の値を表示します。 日付と時刻は手動で入力することも、カレンダーから選択することもできます。 形式の例：MM/DD/YYYYY HH:MM |
+| [!UICONTROL Date] | [優先形式](#date-and-time-options)および[&#x200B; タイムゾーン &#x200B;](../getting-started/store-details.md#locale-options)に日付値を表示します。 日付値は、リストまたはカレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）から選択できます。 <br/><br/>**_Note:_** システム構成に応じて、_管理者_ ユーザーは日付をフィールドに直接入力するか、カレンダーまたはリストから日付を選択できます。 日付と時刻の値の指定について詳しくは、[日付と時刻のオプション &#x200B;](#date-and-time-options)を参照してください。 |
+| [!UICONTROL Date and Time] | [優先形式](#date-and-time-options)および[&#x200B; タイムゾーン &#x200B;](../getting-started/store-details.md#locale-options)の日時の値を表示します。 日付と時刻は手動で入力することも、カレンダーから選択することもできます。 形式の例：MM/DD/YYYYY HH:MM |
 | [!UICONTROL Yes/No] | `Yes`と`No`の事前定義済みオプションを含むドロップダウンリストを表示します。 |
 | ドロップダウン | 1つの選択のみを受け入れる値のドロップダウンリストを表示します。 ドロップダウン入力タイプは、[設定可能な製品](../catalog/product-create-configurable.md)の主要コンポーネントです。 |
 | [!UICONTROL Multiple Select] | 複数の選択を受け入れる値のドロップダウンリストを表示します。 |
 | [!UICONTROL Number] [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} | 10進数値を格納する数値入力フィールド。 **Price**&#x200B;入力タイプとは異なり、通貨の書式設定は適用されず、負の値を受け入れます。 この入力タイプは、測定、寸法、または温度範囲などの技術仕様に使用します。 |
 | [!UICONTROL Price] | この入力タイプは、定義済みの属性`Price`、`Special Price`、`Tier Price`、`Cost`に加えて、価格フィールドを作成するために使用されます。 使用される通貨は、システム設定によって決まります。 |
-| [!UICONTROL Media Image] | 商品ロゴ、ケア手順、食品ラベルの材料など、商品に追加の画像を関連付けます。 製品の属性セットにメディア画像属性を追加すると、追加の画像タイプとなり、ベース、スモール、サムネールが追加されます。 メディア画像の属性は、[ ストアフロントメディアブラウザー](catalog-images-video.md#storefront-media-browser)から除外できます。 |
+| [!UICONTROL Media Image] | 商品ロゴ、ケア手順、食品ラベルの材料など、商品に追加の画像を関連付けます。 製品の属性セットにメディア画像属性を追加すると、追加の画像タイプとなり、ベース、スモール、サムネールが追加されます。 メディア画像の属性は、[&#x200B; ストアフロントメディアブラウザー](catalog-images-video.md#storefront-media-browser)から除外できます。 |
 | [!UICONTROL File] [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} | ファイルをアップロードし、製品属性に関連付けることができます。 サポートされているファイルの種類と最大ファイルサイズは、[製品ファイル属性](../configuration-reference/catalog/product-file-attributes.md)で設定されています。 この入力タイプは、製品マニュアル、仕様書、証明書などの文書に使用します。 |
-| [!UICONTROL Fixed Product Tax] | ロケールの要件に基づいて[FPT レート ](../stores-purchase/fixed-product-tax.md)を定義できます。 |
-| [!UICONTROL Visual Swatch] | 設定可能な製品のカラー、テクスチャ、パターンを示すスウォッチを表示します。 [ ビジュアルスウォッチ ](swatches.md)には、16進数のカラー値を入力するか、オプションのカラー、マテリアル、テクスチャ、パターンを表すアップロードされた画像を表示できます。 |
-| [!UICONTROL Text Swatch] | サイズに頻繁に使用される、設定可能な製品オプションのテキストベースの表現。 [ テキストスウォッチ ](swatches.md)には、16進数のカラー値も含めることができます。 |
+| [!UICONTROL Fixed Product Tax] | ロケールの要件に基づいて[FPT レート &#x200B;](../stores-purchase/fixed-product-tax.md)を定義できます。 |
+| [!UICONTROL Visual Swatch] | 設定可能な製品のカラー、テクスチャ、パターンを示すスウォッチを表示します。 [&#x200B; ビジュアルスウォッチ &#x200B;](swatches.md)には、16進数のカラー値を入力するか、オプションのカラー、マテリアル、テクスチャ、パターンを表すアップロードされた画像を表示できます。 |
+| [!UICONTROL Text Swatch] | サイズに頻繁に使用される、設定可能な製品オプションのテキストベースの表現。 [&#x200B; テキストスウォッチ &#x200B;](swatches.md)には、16進数のカラー値も含めることができます。 |
 | [!UICONTROL Page Builder] | 属性の場所に[[!DNL Page Builder]](../page-builder/workspace.md) ワークスペースがあり、魅力的なコンテンツを製品ページに簡単に追加できます。 |
 
 {style="table-layout:auto"}
@@ -45,13 +45,13 @@ ht-degree: 0%
 
 **_日付/時刻フィールドを書式設定する:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Catalog]**&#x200B;を展開し、**[!UICONTROL Catalog]** サブアイテムをクリックします。
 
 1. **[!UICONTROL Date & Time Custom Options]** セクションを展開します。
 
-   ![ カタログ設定 – 日時オプション ](../configuration-reference/catalog/assets/catalog-date-time-custom-options.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ設定 – 日時オプション &#x200B;](../configuration-reference/catalog/assets/catalog-date-time-custom-options.png){width="600" zoomable="yes"}
 
    これらのオプションの詳細なリストについては、[_設定リファレンス_](../configuration-reference/catalog/catalog.md)&#x200B;の&#x200B;_日時カスタムオプション_&#x200B;を参照してください。
 
