@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 関連製品ルールの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Rule]**」をクリックします。
 
@@ -50,17 +50,17 @@ ht-degree: 0%
 
    - **[!UICONTROL Result Limit]**&#x200B;に、結果リストに表示するレコードの数を入力します。 最大数は20です。
 
-   - ルールが特定の[顧客セグメント ](../customers/customer-segments.md)に適用される場合、**[!UICONTROL Customer Segments]**&#x200B;を`Specified`に設定し、リストから顧客セグメントを選択します。
+   - ルールが特定の[顧客セグメント &#x200B;](../customers/customer-segments.md)に適用される場合、**[!UICONTROL Customer Segments]**&#x200B;を`Specified`に設定し、リストから顧客セグメントを選択します。
 
-   - ルールが特定の[Real-Time CDP オーディエンス ](../customers/audience-activation.md)に適用される場合、**[!UICONTROL Real-Time CDP Audience]**&#x200B;を`Specified`に設定し、リストからReal-Time CDP オーディエンスを選択します。
+   - ルールが特定の[Real-Time CDP オーディエンス &#x200B;](../customers/audience-activation.md)に適用される場合、**[!UICONTROL Real-Time CDP Audience]**&#x200B;を`Specified`に設定し、リストからReal-Time CDP オーディエンスを選択します。
 
-     ![関連製品ルール - Real-Time CDP オーディエンス ](./assets/rtcdp-related-products.png){width="500"}
+     ![関連製品ルール - Real-Time CDP オーディエンス &#x200B;](./assets/rtcdp-related-products.png){width="500"}
 
-1. 左側のパネルで、**[!UICONTROL Products to Match]**&#x200B;を選択し、[ カタログ価格ルール ](price-rules-catalog.md)の場合と同じように条件を作成します。
+1. 左側のパネルで、**[!UICONTROL Products to Match]**&#x200B;を選択し、[&#x200B; カタログ価格ルール &#x200B;](price-rules-catalog.md)の場合と同じように条件を作成します。
 
    ![関連製品ルール – 一致する製品](./assets/catalog-related-products-match.png){width="500"}
 
-1. 左側のパネルで、**[!UICONTROL Products to Display]**&#x200B;を選択し、[ カタログ価格ルール ](price-rules-catalog.md)の場合と同じように結果条件を作成します。
+1. 左側のパネルで、**[!UICONTROL Products to Display]**&#x200B;を選択し、[&#x200B; カタログ価格ルール &#x200B;](price-rules-catalog.md)の場合と同じように結果条件を作成します。
 
    ![関連製品ルール – 表示する製品](./assets/catalog-related-products-to-display.png){width="500"}
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ## 関連製品ルールの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**&#x200B;に移動します。
 
 1. 削除する関連製品ルールを見つけます。
 

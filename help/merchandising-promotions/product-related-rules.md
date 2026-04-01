@@ -14,13 +14,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-関連商品ルールは、関連商品、アップセル、クロスセルとして顧客に提示される商品の選択をターゲットにすることができます。 各製品ルールを[顧客セグメント ](../customers/customer-segments.md)に関連付けて、ターゲットマーチャンダイジングの動的な表示を生成できます。
+関連商品ルールは、関連商品、アップセル、クロスセルとして顧客に提示される商品の選択をターゲットにすることができます。 各製品ルールを[顧客セグメント &#x200B;](../customers/customer-segments.md)に関連付けて、ターゲットマーチャンダイジングの動的な表示を生成できます。
 
 複数のアクティブなルールを同時にトリガーできるので、各ルールに優先度を設定できます。 ルールを適用し、ページに商品を表示する順序を定義します。
 
-関連する製品ルールにアクセスするには、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**に移動します。
+関連する製品ルールにアクセスするには、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**&#x200B;に移動します。
 
-![関連製品ルール リスト ](./assets/related-products-rules.png){width="700" zoomable="yes"}
+![関連製品ルール リスト &#x200B;](./assets/related-products-rules.png){width="700" zoomable="yes"}
 
 ## 列の説明
 
@@ -28,8 +28,8 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL ID] | 関連する各製品ルールに割り当てられる一意の数値識別子 |
 | [!UICONTROL Rule] | 関連製品ルールの名前 |
-| [!UICONTROL Start] | 動的カレンダーフィールド （_[!UICONTROL To:]_および_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたとおりに、ルールの開始日に基づいてリストをフィルタリングします。 |
-| [!UICONTROL End] | 動的カレンダーフィールド （_[!UICONTROL To:]_および_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたとおりに、ルールの終了日に基づいてリストをフィルタリングします。 |
+| [!UICONTROL Start] | 動的カレンダーフィールド （_[!UICONTROL To:]_&#x200B;および&#x200B;_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたとおりに、ルールの開始日に基づいてリストをフィルタリングします。 |
+| [!UICONTROL End] | 動的カレンダーフィールド （_[!UICONTROL To:]_&#x200B;および&#x200B;_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたとおりに、ルールの終了日に基づいてリストをフィルタリングします。 |
 | [!UICONTROL Priority] | ルールに定義された優先度に基づいてリストをフィルタリングするには、このフィールドにテキストを入力します。 |
 | [!UICONTROL Applies To] | このオプションは、`Related Products`、`Up-sells`および`Cross-sells`に適用されるルールのリストをフィルタリングします。 |
 | [!UICONTROL Status] | このオプションを使用して、ルールの状態（`Active`または`Inactive`）に基づいてリストをフィルタリングします。 |
@@ -47,7 +47,7 @@ ht-degree: 0%
 例えば、優先度が`1`、`2`、`3`の3つのルールがあるとします。
 
 - _ルール 1_&#x200B;には2つの一致する製品が返され、_ルール 2_&#x200B;には6つの一致する製品が返され、_ルール 3_&#x200B;には20個の一致する製品が返されました。
-- 設定では、_[!UICONTROL Maximum Number of Products for Related Products List]_は`6`に設定されています。
+- 設定では、_[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;は`6`に設定されています。
 
   | ルール | 優先度 | 一致する製品 |
   |---|---|-----|
@@ -67,13 +67,13 @@ ht-degree: 0%
 
 製品関係ルールの動作と一致した製品の表示は、設定設定によって決定されます。 これらの設定は、ルールに一致する製品の数と、それらの製品が表示される順序を決定します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Catalog]**&#x200B;を展開し、下の&#x200B;**[!UICONTROL Catalog]**&#x200B;を選択します。
 
-1. ![ セクションの](../assets/icon-display-expand.png)拡張&#x200B;**[!UICONTROL Rules-Based Product Relations]**&#x200B;を展開します。
+1. ![&#x200B; セクションの](../assets/icon-display-expand.png)拡張&#x200B;**[!UICONTROL Rules-Based Product Relations]**&#x200B;を展開します。
 
-   ![ カタログ設定 – ルールベースの製品リレーション ](../configuration-reference/catalog/assets/catalog-rule-based-product-relations.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ設定 – ルールベースの製品リレーション &#x200B;](../configuration-reference/catalog/assets/catalog-rule-based-product-relations.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Maximum Number of Products in the Related Products List]**&#x200B;を入力します。
 
