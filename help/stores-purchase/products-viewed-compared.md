@@ -3,7 +3,7 @@ title: 最近閲覧した商品または比較した商品
 description: 最近閲覧した商品と比較済みの商品のストアフロントのコンテンツブロックを設定する方法を説明します。
 exl-id: a4580835-68c2-4eb0-825e-0939eeab921b
 feature: Products, Storefront
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 source-git-commit: 6848b28d05bc3da12d0ecdeb32d6515c7be7cdfb
 workflow-type: tm+mt
 source-wordcount: '244'
