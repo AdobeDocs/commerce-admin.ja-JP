@@ -23,7 +23,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p><code class="language-plaintext highlighter-rouge">numeric</code>および<code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types">属性入力タイプ </a>を追加し、構成参照に<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes">製品ファイル属性</a> ページを追加しました。</p>
+      <td><p><code class="language-plaintext highlighter-rouge">numeric</code>および<code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/product-attributes/attributes-input-types">属性入力タイプ </a>を追加し、構成参照に<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/config/catalog/product-file-attributes">製品ファイル属性</a> ページを追加しました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -45,7 +45,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Serviceの手順を<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">買い物客のサポートを提供</a>に追加しました。</p>
+      <td><p>Adobe Commerce as a Cloud Serviceの手順を<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">買い物客のサポートを提供</a>に追加しました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -67,7 +67,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules">電子メールリマインダー</a>がAdobe Commerce as a Cloud Serviceで利用できるようになりました。</p>
+      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules">電子メールリマインダー</a>がAdobe Commerce as a Cloud Serviceで利用できるようになりました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -83,7 +83,7 @@ ht-degree: 3%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/891fd0f08a952cd38bc92b41a4d54197f58f8a4d">コミット</a></td>
     </tr>
     <tr>
-      <td><p>B2B v1.5.3-beta1 （2026年3月）で<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes"> リリースノート </a>を更新しました：見積、要件リスト、共有カタログ、チェックアウト、GraphQL、および関連領域の品質向上とバグ修正、およびマイナーなコピーと一貫性の修正。</p>
+      <td><p>B2B v1.5.3-beta1 （2026年3月）で<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/release-notes"> リリースノート </a>を更新しました：見積、要件リスト、共有カタログ、チェックアウト、GraphQL、および関連領域の品質向上とバグ修正、およびマイナーなコピーと一貫性の修正。</p>
 </td>
       <td>
         メジャーアップデート
