@@ -1,122 +1,122 @@
 ---
-title: 魅力的でパーソナライズされたエクスペリエンスを大規模に作成
-description: Adobeの機能を使用して、買い物客  [!DNL Commerce]  パーソナライズされたエクスペリエンスを作成できる方法を説明します。
+title: 魅力的でパーソナライズされた体験を大規模に構築
+description: Adobe [!DNL Commerce] で、買い物客にパーソナライズされたエクスペリエンスを提供できる機能について説明します。
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '1808'
 ht-degree: 0%
 
 ---
 
-# 魅力的でパーソナライズされたエクスペリエンスを大規模に作成
+# 魅力的でパーソナライズされた体験を大規模に構築
 
-Adobe [!DNL Commerce] は、すべての顧客タッチポイントをパーソナライズし、買い物客のエンゲージメント、コンバージョン、売上高を向上させる強力なツールキットを提供します。
+Adobe [!DNL Commerce]は、あらゆる顧客接点をパーソナライズし、買い物客のエンゲージメント、コンバージョン、売上を向上させるための強力なツールキットを提供します。
 
-この記事では、次の内容について説明します。
+主な内容：
 
-- パーソナライゼーションとは
-- パーソナライゼーションを実現するには、どのようなデータが必要ですか？
-- Adobeを使用してパーソナライゼーションのロック [!DNL Commerce] 解除するにはどうすればよいですか？
+- パーソナライゼーションとは？
+- パーソナライゼーションを実現するためには、どのようなデータが必要ですか？
+- Adobe [!DNL Commerce]でパーソナライゼーションを活用するには、どうすればよいですか？
 - 利用可能なパーソナライゼーションのユースケース
 
-## パーソナライゼーションとは
+## パーソナライゼーションとは？
 
-Personalizationとは、顧客の固有のニーズ、コンテキスト、好みに合わせて各顧客の購入体験の側面をカスタマイズすることを意味します。 Personalizationは、サイト上のコンテンツや最適な商品の推奨に限定されず、カスタマージャーニー全体にわたるすべてのタッチポイントを包含します。これには以下が含まれます。
+Personalizationとは、それぞれの顧客のニーズ、状況、嗜好に合わせて、購買体験の側面をカスタマイズすることを意味します。 Personalizationのコンテンツは、サイト上のコンテンツや最適な商品をレコメンドするだけでなく、カスタマージャーニー全体のあらゆる顧客接点を網羅しています。
 
-- **キャンペーンと通信** - キャンペーンと通信を介して関連性の高い一貫したメッセージを配信します
-- **製品の検出** – 適切な製品を適切なタイミングで適切な顧客に表示する
-- **プロモーションとオファー** - ターゲティングのプロモーションとオファーで、各顧客のコンバージョンを促進
-- **コンテンツエクスペリエンス** – 各顧客とそのジャーニーへの関連性が高いと感じるようにサイトコンテンツをカスタマイズする
+- **キャンペーンとコミュニケーション** - キャンペーンとコミュニケーションを通じて、関連性の高い一貫したメッセージを配信
+- **製品の発見** – 適切な製品を適切な顧客にタイミングよく表示
+- **プロモーションとオファー** – 各顧客のコンバージョンを促進するためのプロモーションとオファーをターゲットにする
+- **コンテンツエクスペリエンス** – それぞれの顧客とそのジャーニーに対して非常に関連性があると感じられるよう、サイトコンテンツを調整します
 
-![Personalizationの種類 &#x200B;](assets/types-personalization.png){width="700" zoomable="yes"}
+![Personalizationの種類](assets/types-personalization.png){width="700" zoomable="yes"}
 
-このようなパーソナライズされたエクスペリエンスは、少数の顧客に対しては実現可能と思われますが、すべてのタッチポイントとチャネルで数千または数百万の顧客に対して大規模にパーソナライズすると、すべてリアルタイムで実現が不可能と感じることがあります。 以降の節では、Adobe [!DNL Commerce] とAdobe Experience Cloudの機能について説明します。
+顧客接点やチャネルをまたいで、数千人または数百万人の顧客を対象に大規模にパーソナライズできます。しかし、こうしたパーソナライズされた体験をリアルタイムで提供するのは、不可能に思えます。 次の節では、Adobe [!DNL Commerce]とAdobe Experience Cloudがどのように役立つかについて説明します。
 
-## パーソナライゼーションを実現するには、どのようなデータが必要ですか？
+## パーソナライゼーションを実現するためには、どのようなデータが必要ですか？
 
-効果的なパーソナライゼーションには、顧客に関する情報を提供するコンテキストまたはシグナルが必要で、それを使用してエクスペリエンスを変更できます。 次の表に、様々なデータタイプと、そのデータの収集とアクティブ化をサポートする際にAdobe [!DNL Commerce] が果たす役割を示します。
+効果的にパーソナライズするには、顧客に関する情報を提供し、顧客体験を調整するためのコンテキストやシグナルが必要です。 次の表は、様々なデータ型と、そのデータの収集とアクティブ化をサポートする際にAdobe [!DNL Commerce]が果たす役割を示しています。
 
-| データタイプ | ストアフロントデータ（行動イベント） | バックオフィスデータ（サーバーサイドイベント） | 顧客プロファイルとセグメントデータ |
+| データタイプ | ストアフロントデータ（行動イベント） | バックオフィスデータ（サーバーサイドイベント） | 顧客プロファイルデータとセグメントデータ |
 |---|---|---|---|
-| **定義** | サイトに対する顧客のクリックまたはアクション。 | 各注文のライフサイクルと詳細（過去および現在）に関する情報。 | 買い物客は誰で、どのようなセグメントに該当するか。 |
-| **Adobe Commerceのイベント** | [pageView](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events#pageview)<br>[productPageView](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events)<br>[searchRequestSent](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events#searchrequestsent)<br>[searchResponseReceived](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events#searchresponsereceived)<br>[addToCart](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events#addtocart)<br>[openCart](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events#opencart)<br>[signIn](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events#signin)<br>[signOut](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events#signout)<br>[startCheckout](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events#startcheckout)<br>[completeCheckout](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events#completecheckout)<br>[createRequisitionList](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events#createrequisitionlist)<br>[addToRequisitionList](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events#addtorequisitionlist)<br>[removeFromRequisitionList](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events#removefromrequisitionlist) | **注文ステータス**:<br>[orderPlaced](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events-backoffice#orderplaced)<br>[orderItemsReturnedInitiated](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events-backoffice#orderitemsreturnedinitiated)<br>[orderItemsShipped](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events-backoffice#orderitemsshipped)<br>[orderCancelled](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events-backoffice#ordercancelled)<br>[**注文履歴**](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/fundamentals/connect-data#send-historical-order-data):<br>- SKU、名前、価格数量、割引 <br> – 製品カテゴリ <br> – 支払い金額、タイプ、通貨 <br> – 発送方法と金額 <br> – 払い戻し ID、金額、通貨 <br> – 返品理由、条件、解決策 <br> – 住所 <br>- メール | [**プロファイルレコード**](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events-profilerecord):（名前、性別、住所、ロイヤルティステータス、電話番号、メールアドレス） <br>**アカウントステータス**:<br>[accountCreated](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events-backoffice#accountcreated)<br>[accountUpdated](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events-backoffice#accountupdated)<br>[accountDeleted](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events-backoffice#accountdeleted) |
+| **定義** | 顧客がサイトで実行するクリック数やアクション数。 | 各注文のライフサイクルと詳細に関する情報（過去と現在）。 | 顧客が誰であり、その適格性を判断するセグメントは何か。 |
+| **Adobe Commerceによってキャプチャされたイベント** | [pageView](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#pageview)<br>[productPageView](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events)<br>[searchRequestSent](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#searchrequestsent)<br>[searchResponseReceived](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#searchresponsereceived)<br>[addToCart](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#addtocart)<br>[openCart](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#opencart)<br>[signIn](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#signin)<br>[signOut](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#signout)<br>[startCheckout](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#startcheckout)<br>[completeCheckout](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#completecheckout)<br>[createRequisitionList](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#createrequisitionlist)To sitionList<br>[](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#addtorequisitionlist)removeFromRequisitionList<br>[](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#removefromrequisitionlist) | **注文ステータス**:<br>[orderPlaced](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice#orderplaced)<br>[orderItemsReturnedInitiated](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice#orderitemsreturnedinitiated)<br>[orderItemsShipped](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice#orderitemsshipped)<br>[orderCanceled](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice#ordercancelled)<br>[**注文履歴**](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data#send-historical-order-data):<br>- SKU、名前、価格数量、割引<br> – 製品カテゴリ <br> – 支払い金額、種類、通貨<br> – 配送方法および金額<br> – 払い戻しID、金額、<br> – 解決策<br>- アドレス <br>- メール | [**プロファイルレコード**](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-profilerecord): （名前、性別、住所、ロイヤルティステータス、電話番号、電子メールアドレス） <br>**アカウントステータス**:<br>[accountCreated](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice#accountcreated)<br>[accountUpdated](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice#accountupdated)<br>[accountDeleted](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice#accountdeleted) |
 
-これらの豊富なファーストパーティ [!DNL Commerce] データを使用すると、買い物客のエクスペリエンスをターゲットにしてパーソナライズする準備が整います。 次の節では、[!DNL Commerce] とAdobe Experience Cloudを使用して、パーソナライズされたエクスペリエンスと、アクティブ化できるユースケースを作成する方法を説明します。
+このように豊富な1st パーティ [!DNL Commerce]のデータを活用して、買い物客の体験をターゲットし、パーソナライズすることができます。 次の節では、[!DNL Commerce]とAdobe Experience Cloudがどのようにパーソナライズされたエクスペリエンスの作成に役立つのか、およびアクティベートできるユースケースについて説明します。
 
-## Adobe [!DNL Commerce] はパーソナライゼーションをどのように強化しますか？
+## Adobe [!DNL Commerce]は、パーソナライゼーションにどのように役立ちますか？
 
-Adobe [!DNL Commerce] Data Sharing を使用すると、前のテーブルのデータタイプを収集して他のAdobe Experience Cloud製品と共有し、統合された顧客プロファイルとオーディエンス、パーソナライズされたキャンペーン、豊富な分析とインサイトを強化できます。
+Adobe [!DNL Commerce] Data Sharingを使用すると、前の表のデータタイプを収集して他のAdobe Experience Cloud製品と共有し、統合された顧客プロファイルとオーディエンス、パーソナライズされたキャンペーン、および豊富な分析とインサイトを強化できます。
 
-![Experience Platform エッジへのデータのフロー &#x200B;](assets/commerce-edge.png){width="700" zoomable="yes"}
+![Experience Platform エッジへのデータの流れ](assets/commerce-edge.png){width="700" zoomable="yes"}
 
-Adobe [!DNL Commerce] Data Sharing には、次の 2 つの主要なコンポーネントが含まれます。
+Adobe [!DNL Commerce] Data Sharingには、次の2つの主要なコンポーネントが含まれています。
 
-1. [&#x200B; データ接続 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/overview)：次のようなAdobe Experience Cloud アプリケーションをまたいで使用するために、Adobe [!DNL Commerce] からAdobe Experience Platform Edge Network にストアフロント、バックオフィス、顧客プロファイルデータを共有します。
+1. [Data Connection](https://experienceleague.adobe.com/en/docs/commerce/data-connection/overview): Adobe [!DNL Commerce]のストアフロント、バックオフィス、顧客プロファイルデータをAdobe Experience Platform Edge Networkに共有し、Adobe Experience Cloud アプリケーション全体で使用します。次のデータを含みます。
 
-   - [Adobe [!DNL Real-Time CDP]](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview)：様々なソース（ERP、CRM、POS）からの顧客データを統合されたプロファイルに結び付け、ルールベースまたは AI ベースのセグメントを作成します。
-   - [Adobe [!DNL Journey Optimizer]](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/get-started): メールキャンペーン、SMS、プッシュ通知など、パーソナライズされたオムニチャネルジャーニーを開始します。
-   - [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview) および [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/ja/docs/analytics/analyze/admin-overview/analytics-overview)：お客様とビジネスに関するインサイトを得ます。
-   - [Adobe [!DNL Target]](https://experienceleague.adobe.com/ja/docs/target/using/introduction/intro): コンテンツ、おすすめの商品、オファー、ナビゲーションなどをテストして最適化します。
+   - [Adobe [!DNL Real-Time CDP]](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview)：複数のソース（ERP、CRM、POS）からの顧客データをつなぎ合わせて統合プロファイルを作成し、ルールベースまたはAI ベースのセグメントを作成します。
+   - [Adobe [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started)：電子メールキャンペーン、SMS、プッシュ通知など、パーソナライズされたオムニチャネルジャーニーを開始します。
+   - [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)および[Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview)：お客様とビジネスに関する洞察を得ます。
+   - [Adobe [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro): コンテンツ、おすすめの商品、オファー、ナビゲーションなどをテストして最適化します。
 
-1. [[!DNL Audience Activation]](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/audience-activation): [!DNL Real-Time CDP] オーディエンスを使用して、Adobe [!DNL Commerce] サイト上の動的コンテンツブロック、プロモーションおよび関連する製品ルールをパーソナライズします。
+1. [[!DNL Audience Activation]](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation): [!DNL Real-Time CDP]人のオーディエンスを使用して、Adobe [!DNL Commerce] サイトの動的コンテンツブロック、プロモーション、および関連商品ルールをパーソナライズします。
 
-### あらゆるチャネルにわたって規模に応じてパーソナライズされたストアフロントエクスペリエンス
+### あらゆるチャネルをまたいで、大規模にパーソナライズされたストアフロント体験
 
-Adobe [!DNL Commerce] は、[Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ja) と呼ばれる高性能なストアフロントを活用して、AI 機能をコアに、速度を基盤として、すべてのチャネルにわたってパーソナライズされたエクスペリエンスを提供できます。
+Adobe [!DNL Commerce]は、[Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/)と呼ばれる高性能なストアフロントを活用して、AI機能を中核に据え、基盤としてスピードを高めながら、あらゆるチャネルをまたいでパーソナライズされたエクスペリエンスを提供できます。
 
-Edge Delivery Servicesを使用すると、次のことができます。
+Edge Delivery Servicesでは、次のことが可能です。
 
-- **パーソナライズされたコンテンツを作成**：ドキュメントベースのオーサリング、生成 AI テキストと画像バリエーションのネイティブ実験を使用して、エクスペリエンスを大規模にパーソナライズします。 Assetsとジェネレーティブ AI のコンテンツ作成を使用して、商品およびマーケティング画像を大規模に生成します。
+- **パーソナライズされたコンテンツを作成**：ドキュメントベースのオーサリング、生成AIのテキストと画像のバリエーションによるネイティブの実験を利用して、エクスペリエンスを大規模にパーソナライズします。 Assetsと生成AI コンテンツ制作を活用して、商品とマーケティングの画像を大規模に制作します。
 
-- **バリエーションを生成**：コンテンツ作成者が生成 AI を使用して、パーソナライズされた AI 駆動型の大量の [&#x200B; テキストコンテンツと画像のバリエーション &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/sites/generative-ai/generate-variations) をAdobe Fireflyで作成できます。
+- **バリエーションの生成**: Adobe Fireflyを使用すると、コンテンツ作成者は生成AIを使用して、AIを活用してパーソナライズされた大量の[ テキストコンテンツと画像バリエーション ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/generative-ai/generate-variations)を作成できます。
 
-- **Edge Delivery Services ストアフロントを介したデプロイ**：ドロップインコンポーネントを活用したEdgeおよびCommerce機能のコンテンツをデプロイして、オーディエンスにカスタムのショッパブルエクスペリエンスを作成します。
+- **Edge Delivery Services Storefrontを介したデプロイ**: ドロップインコンポーネントを活用したEdgeおよびCommerce機能のコンテンツを使用して、オーディエンス向けにカスタマイズされたショッパブルなエクスペリエンスを作成します。
 
-- **CommerceとAdobe Experience Manager Assets**：大規模なジェネレーティブ AI 製品のアセット作成とバリエーション。 任意のチャネルをまたいだコンテンツ配信を作成、配信、監視します。
+- **CommerceとAdobe Experience Manager Assets**：生成AIによる商品アセットの大規模な制作とバリエーション。 あらゆるチャネルをまたいでコンテンツ配信を構築、配信、監視できます。
 
-![&#x200B; ドロップダウン：製品の詳細ページ &#x200B;](assets/drop-in.png){width="700" zoomable="yes"}
+![ ドロップイン：製品詳細ページ ](assets/drop-in.png){width="700" zoomable="yes"}
 
-### 標準のPersonalization: Adobe [!DNL Commerce] のネイティブ機能の概要
+### すぐに使えるPersonalization:Adobe [!DNL Commerce]のネイティブ機能を使い始めましょう
 
-Adobe [!DNL Commerce] は、すぐに使用できるネイティブの機能により、強力なパーソナライゼーションを提供します。 次の表に [!DNL Commerce] パーソナライゼーションジャーニーを開始するために直ちにアクティブ化できる機能を示します。
+Adobe [!DNL Commerce]は、ネイティブのすぐに使用できる機能を備えた強力なパーソナライズ機能を提供します。 次の表は、パーソナライゼーションジャーニーを開始するためにすぐにアクティブ化できる[!DNL Commerce]機能について説明します。
 
 | カテゴリ | 機能 |
 |---|---|
-| パーソナライズされた製品検出 | [[!DNL Live Search]](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview):AI を活用した検索で、買い物客のオンサイト行動アクションと親和性に基づいて検索結果をパーソナライズし最適化します。<br>[&#x200B; インテリジェントカテゴリマーチャンダイジング &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-admin/category-merch)：買い物客のオンサイトでの行動とアフィニティに基づく、カテゴリページに関する AI 主導の製品ランキング。<br>[&#x200B; 製品レコメンデーション &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/guide-overview)：買い物客の行動、トレンド、アフィニティに基づく、AI を活用した製品レコメンデーション。<br>[&#x200B; 関連製品ルール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules)：カスタムルールを定義して、カタログの製品を表示し、クロスセルとアップセルを促進します。 |
-| パーソナライズされたサイトコンテンツ | [&#x200B; 動的コンテンツブロック &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks):Adobe Commerceの顧客セグメントに基づいて、パーソナライズされたコンテンツブロック（バナーなど）を表示します。 |
-| パーソナライズされたオファーとプロモーション | [&#x200B; 買い物かご価格ルール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart):Adobe [!DNL Commerce] の顧客セグメントなど、一連の条件に基づいて、買い物かご内の商品に割引を適用します。 |
-| インサイトと測定 | [Adobe [!DNL Commerce]  インテリジェンス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-business-intelligence/mbi/getting-started)：パーソナライズ機能戦略の仕組みを把握し、時間の経過と共に効果を向上させます。 |
+| パーソナライズされた商品発見 | [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)：買い物客のサイト内の行動アクションと、AIを活用した検索との親和性にもとづいて、検索結果をパーソナライズおよび最適化します。<br>[ インテリジェントなカテゴリーマーチャンダイジング ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/category-merch)：買い物客のサイト内での行動アクションと親和性にもとづいて、カテゴリーページ上で、AIを活用した商品ランキングを実行します。<br>[商品レコメンデーション ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)：買い物客の行動、トレンド、好感度にもとづいて、AIを活用した商品レコメンデーションを提供します。<br>[関連製品ルール ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules): カタログの製品を表示するためのカスタムルールを定義して、クロスセルとアップセルを促進します。 |
+| パーソナライズされたサイトコンテンツ | [動的コンテンツブロック ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks): Adobe Commerceの顧客セグメントに基づいて、パーソナライズされたコンテンツブロック（バナーなど）を表示します。 |
+| パーソナライズされたオファーとプロモーション | [買い物かご価格規則](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart): Adobe [!DNL Commerce]のお客様セグメントを含む一連の条件に基づいて、買い物かご内の商品に割引を適用します。 |
+| インサイトと測定 | [Adobe [!DNL Commerce]  インテリジェンス ](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started): パーソナライゼーション戦略の効果を理解し、時間の経過とともに改善します。 |
 
-## 上位のパーソナライゼーションユースケース
+## 重要なパーソナライゼーションのユースケース
 
-Adobe [!DNL Commerce] のお客様は、標準搭載の機能を使用し、様々なユースケースでAdobe Experience Cloudにデータを共有しています。 以下の節では、上位のユースケースを重点的に取り上げ、Adobe [!DNL Commerce] Only または [!DNL Commerce] とExperience Cloud アプリを使用してどのように実装されるかを説明します。
+Adobe [!DNL Commerce]のお客様は、標準の機能を使用し、様々なユースケースのためにAdobe Experience Cloudにデータを共有しています。 次の節では、最も重要なユースケースを取り上げ、Adobe [!DNL Commerce]のみまたは[!DNL Commerce]とExperience Cloud アプリを組み合わせて使用する方法について説明します。
 
 ### パーソナライズされたキャンペーンとコミュニケーション
 
-| ユースケース | 解決策 |
+| ユースケース | Solution |
 |---|---|
-| **放棄された買い物かごと参照** – 高いエンゲージメントを示した後に顧客が買い物かごや閲覧セッションを放棄した場合に、パーソナライズされた再エンゲージメントメールまたは通知を配信します | **Adobe [!DNL Commerce] のみ**:<br>[&#x200B; メールのリマインダー &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules)<br>**Adobe Journey OptimizerとのAdobe [!DNL Commerce]**:<br>[!DNL Commerce] データは、オムニチャネル離脱ジャーニーのトリガーとして機能します。 顧客属性、破棄した内容、その他の買い物行動、過去の購入に基づいて、ジャーニーをパーソナライズします。<br>Adobe Journey OptimizerとReal-Time CDPのCommerce：放棄キャンペーンは、共通の顧客プロファイルと一元管理されたオーディエンスに基づいてカスタマイズできます。例えば、高い離脱率のオーディエンスを作成することができます。 |
-| **一元的なオーディエンスの作成** - オンサイト行動、過去の購入、プロファイル属性、カテゴリアフィニティ、ロイヤルティステータス、顧客価値などに基づいて、ルールベースまたは AI を利用したオーディエンスを作成します | **Adobe [!DNL Commerce] Only**:<br> 顧客がアカウントを作成する際に、顧客プロファイル情報 [!DNL Commerce] 収集します。 ルールベース [&#x200B; 顧客セグメント &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/segments/customer-segments) と顧客グループを作成して、コンテンツとプロモーションをパーソナライズします。<br>**Adobe [!DNL Commerce] とAdobe Real-Time CDP**:<br> データソースやチャネルをまたいだ [&#x200B; 統合プロファイル &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/home)。ルールベースまたは AI を活用したオーディエンス。 |
-| **買い物客の行動に基づくパーソナライズされたメール/SMS オファー** – 過去の購入および買い物客の行動に基づいて、ターゲットメールを使用して顧客にパーソナライズされたオファーを送信します。例えば、顧客が表示またはエンゲージメントした製品やカテゴリのオファーを送信します。 | **Adobe [!DNL Commerce] Only**:<br> マーケティング自動化ソリューションで使用するデータをエクスポートします。<br>**Adobe Journey OptimizerとReal-Time CDPのAdobe [!DNL Commerce]**:<br>[!DNL Commerce] データは、メールまたは SMS オファーのトリガーとして機能し、に基づいてパーソナライズするためのシグナル（買い物客の行動）を提供します。 Real-Time CDPは必須ではありませんが、通常、これらのオファーとキャンペーンは、Real-Time CDP内で作成および管理されるオーディエンスを中心に作成されます。 |
-| **クロスまたはアップセル互換の製品/ブランド** – 顧客が互換性のある製品やブランドを購入した場合、または別の製品やブランドに対する親和性が高いことを示した場合は、キャンペーン（メール/SMS）を送信してクロスセルコンバージョンを促進します。 | **Adobe [!DNL Commerce] のみ**:<br>Adobe [!DNL Commerce] [Product Recommendations](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/guide-overview) を使用して、サイト上の特定の商品をお勧めします。 [&#x200B; 関連製品ルール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) を使用して、他の製品を提案することもできます。<br>**[!DNL Commerce] と [!DNL Target]**:<br>Adobe [!DNL Target] には、カテゴリ親和性などの強力な機能を備えたビルトインの商品レコメンデーションエンジンもあります。 これは、クロスまたはアップセルに使用できます。Adobe Journey Optimizerとの <br>**[!DNL Commerce] 携**:<br>[!DNL Target] または [!DNL Commerce] を使用してレコメンデーションする商品を決定し、Adobe Journey Optimizerを通じて配信します。 |
+| **カート放棄と参照** – 顧客が高いエンゲージメントを示した後にカートまたは閲覧セッションを放棄した場合、パーソナライズされたリエンゲージメントメールまたは通知を配信します | **Adobe [!DNL Commerce] Only**:<br>[電子メールリマインダー](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules)<br>**Adobe [!DNL Commerce] with Adobe Journey Optimizer**:<br>[!DNL Commerce] dataは、オムニチャネルの放棄ジャーニーのトリガーとして機能します。 顧客の属性、放棄した商品、その他のショッピング行動、過去の購入履歴などにもとづいて、ジャーニーをパーソナライズします。<br>CommerceとAdobe Journey OptimizerおよびReal-Time CDP：統合された顧客プロファイルと一元管理されたオーディエンスに基づいて、放棄率の高いオーディエンスを作成するなど、放棄率の高い施策をカスタマイズします。 |
+| **一元的なオーディエンス作成** - サイト内の行動、過去の購入履歴、プロファイル属性、カテゴリーの親和性、ロイヤルティステータス、顧客価値などに基づいて、ルールベースまたはAIを活用したオーディエンスを作成します | **Adobe [!DNL Commerce]のみ**:<br>お客様がアカウントを作成する際に、お客様のプロファイル情報を収集します。 [!DNL Commerce]ルールベースの[顧客セグメント ](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segments)と顧客グループを作成して、コンテンツとプロモーションをパーソナライズします。<br>**Adobe [!DNL Commerce] （Adobe Real-Time CDP**:<br>） [ データソースとチャネル全体からの統合プロファイル ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)。ルールベースまたはAIを活用したオーディエンス。 |
+| **買い物客の行動に基づいてパーソナライズされた電子メール/SMS オファー** – 過去の購入履歴や買い物客の行動に基づいて、ターゲットを絞った電子メールを介して、顧客にパーソナライズされたオファーを送信します。例えば、顧客が閲覧またはエンゲージメントした商品やカテゴリーのオファーを送信します。 | **Adobe [!DNL Commerce]のみ**:<br>MA ソリューションで使用するデータを書き出します。<br>**Adobe [!DNL Commerce]とAdobe Journey OptimizerおよびReal-Time CDP**:<br>[!DNL Commerce] データは、メールまたはSMS オファーのトリガーとして機能し、基づいてパーソナライズするためのシグナル（買い物客の行動）を提供します。 Real-Time CDPは必須ではありませんが、一般的に、これらのオファーと施策はオーディエンスを中心に作成され、Real-Time CDPで作成、管理されます。 |
+| **クロスセルまたはアップセル互換性のある製品/ブランド** – 顧客が互換性のある製品またはブランドを購入するか、別の製品またはブランドに対する親和性が高い場合は、クロスセルのコンバージョンを促進するキャンペーン（メール/SMS）を送信します。 | **Adobe [!DNL Commerce] Only**:<br>Adobe [!DNL Commerce] [商品レコメンデーション ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)を使用して、サイト上の特定の商品をレコメンデーションします。 [関連製品ルール ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules)を使用して、他の製品を提案することもできます。<br>**[!DNL Commerce] [!DNL Target]**:<br>Adobe [!DNL Target]には、カテゴリーの親和性などの強力な機能を備えた商品レコメンデーションエンジンも組み込まれています。 これはクロスセルまたはアップセルに使用できます。<br>**[!DNL Commerce]とAdobe Journey Optimizer**:<br>[!DNL Target]または[!DNL Commerce]を使用して、お勧めの商品を決め、Adobe Journey Optimizer経由で配送します。 |
 
-### パーソナライズされたサイトエクスペリエンス
+### パーソナライズされたサイト体験
 
-| ユースケース | 解決策 |
+| ユースケース | Solution |
 |---|---|
-| **サイトコンテンツのパーソナライズ** – 製品の参照やカテゴリへの親和性など、買い物客のアクションに基づいて、サイトバナーやその他のページコンテンツをパーソナライズします。 A/B テストの結果やビジネス目標に基づいて、最適なコンテンツをデプロイします。 | **Adobe [!DNL Commerce] Only**:<br> セグメント固有の [&#x200B; 動的コンテンツブロック &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) をデプロイします。Real-Time CDPとの <br>**[!DNL Commerce] 携 &#x200B;**:<br>[Audience Activation](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/audience-activation) を使用して、Real-Time CDPでプロファイルとオーディエンスを一元的に管理しながら、リアルタイムのアクションと統合された顧客プロファイルデータに対応する、オーディエンス固有の動的コンテンツブロックをデプロイします。[!DNL Target]**:<br>Adobe [!DNL Target] のAdobe [!DNL Commerce] データを使用して、コンテンツ、ナビゲーション項目、フルページレイアウトなど、サイトエクスペリエンスのあらゆる部分をパーソナライ <br>**[!DNL Commerce] します。 コンテンツの A/B テストを行い、顧客ごとに勝者コンテンツを自動的に選択してデプロイします。AEM Assetsを <br>**[!DNL Commerce] 用する場合 &#x200B;**:<br> すべてのコンテンツをAdobe Experience Manager Assetsに保存します。 Adobe Commerce内からそのコンテンツにネイティブにアクセスします。 ジェネレーティブ AI を使用して、コンテンツのバリエーションを作成し、様々なセグメントやオーディエンスに合わせてパーソナライズします。 |
-| **行動に基づくパーソナライズされたオンサイトオファー** – 製品の閲覧やカテゴリへの親和性など、買い物客のアクションに基づいてプロモーションをパーソナライズします。 A/B テストの結果やビジネス目標に基づいて、次善のオファーをデプロイします。 | **Adobe [!DNL Commerce] Only**:<br> セグメント固有のカタログおよび [&#x200B; 買い物かご価格ルール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart) をデプロイします。<br>**Adobe [!DNL Commerce] とReal-Time CDP**:<br>[Audience Activation](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/audience-activation) を使用すると、Real-Time CDPでプロファイルやオーディエンスを一元的に管理しながら、オーディエンス固有のオファーをデプロイできます。<br>**[!DNL Target]** のCommerce: Offer Decisioning を使用して、Adobe Commerceにデプロイされたオファーをガイドするために、デプロイするオファー、A/B テストまたはビジネス目標を決定します。 |
+| **パーソナライズされたサイトコンテンツ** – 商品の閲覧やカテゴリーの親和性など、買い物客の行動に基づいて、サイトバナーやその他のページコンテンツをパーソナライズします。 A/B テストの結果やビジネス目標にもとづいて、最適なコンテンツを展開できます。 | **Adobe [!DNL Commerce]のみ**:<br> セグメント固有の[動的コンテンツブロック ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks)をデプロイします。<br>**[!DNL Commerce] with Real-Time CDP **:<br>Audience Activation[を使用して、Real-Time CDPでプロファイルとオーディエンスを一元管理しながら、リアルタイムのアクションと統合顧客プロファイルデータに対応する、オーディエンス固有の動的コンテンツブロックをデプロイします。](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)<br>**[!DNL Commerce] with[!DNL Target]**:<br>Adobe [!DNL Commerce]のAdobe [!DNL Target] データを使用して、コンテンツ、ナビゲーション項目、ページ全体のレイアウトなど、サイトエクスペリエンスのあらゆる部分をパーソナライズします。 A/B テストによるコンテンツ作成で、顧客ごとに最適なコンテンツを自動的に選択してデプロイできます。<br>**[!DNL Commerce]とAEM Assets **:<br>すべてのコンテンツをAdobe Experience Manager Assetsに保存します。 Adobe Commerceからネイティブにアクセスできます。 生成AIを利用して、様々なセグメントやオーディエンス向けにパーソナライズするコンテンツのバリエーションを作成できます。 |
+| **行動に基づいてパーソナライズされたオンサイトオファー** – 商品の閲覧やカテゴリーの親和性など、買い物客の行動に基づいてプロモーションをパーソナライズします。 A/B テストの結果やビジネス目標にもとづいて、次善のオファーを展開できます。 | **Adobe [!DNL Commerce]のみ**:<br> セグメント固有のカタログと[ カート価格ルール ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart)をデプロイします。<br>**Adobe [!DNL Commerce] with Real-Time CDP**:<br>Real-Time CDPでプロファイル/オーディエンスを一元管理しながら、[Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)を使用してオーディエンス固有のオファーをデプロイします。<br>**Commerceと[!DNL Target]**：オファー決定機能を使用して、デプロイするオファーを決定したり、A/B テストを実行したり、Adobe Commerceでデプロイするオファーを導くビジネス目標を設定したりします。 |
 
 ### 分析とインサイト
 
-| ユースケース | 解決策 |
+| ユースケース | Solution |
 |---|---|
-| **チャネル別の顧客行動** – 顧客が各チャネル（web、対面、アプリなど）にどのように関与して各チャネルのマーケティング戦略に影響を与えるかのニュアンスを理解します。買い物客ファネルとカスタマーエクスペリエンスの弱点を理解します。 | **Adobe [!DNL Commerce] Only**:<br>[Adobe [!DNL Commerce] Intelligence](https://experienceleague.adobe.com/ja/docs/commerce-business-intelligence/mbi/getting-started) は、デジタル [!DNL Commerce] チャネルに関する豊富な分析機能を提供しますが、チャネルやカスタマージャーニーのより広範な部分に関する分析は提供しません。<br>**Customer Journey AnalyticsのAdobe [!DNL Commerce]**:<br>[!DNL Commerce] データフィードのデータダッシュボードには、カスタマーエクスペリエンスのすべてのステージ（チャネルをまたぐ）における豊富な詳細情報が表示されます。 すべてのタッチポイントとより広範なファネルを理解して、顧客がフォールオフする可能性のあるカスタマージャーニーの弱点を特定します。 |
-| **購入の傾向** – 特定の時間枠における購入行動（買い物客バスケット分析、製品分析など）を把握して、過去の購入パターンに基づいてトレンド、季節性を特定し、マーケティングを最適化します。 | **Adobe [!DNL Commerce] Only**:<br>[Adobe [!DNL Commerce] Intelligence](https://experienceleague.adobe.com/ja/docs/commerce-business-intelligence/mbi/getting-started) は、デジタル [!DNL Commerce] チャネルに関する豊富な分析機能を提供しますが、チャネルやカスタマージャーニーのより広範な部分に関する分析は提供しません。<br>**Customer Journey AnalyticsのAdobe [!DNL Commerce]**:<br>[!DNL Commerce] データフィードのデータダッシュボードには、カスタマーエクスペリエンスのすべてのステージ（チャネルをまたぐ）における豊富な詳細情報が表示されます。 すべてのタッチポイントとより広範なファネルを理解して、顧客がフォールオフする可能性のあるカスタマージャーニーの弱点を特定します。 |
+| **チャネル別の顧客行動** – 各チャネル（web、対面、アプリなど）における顧客のエンゲージメントの詳細を把握して、各チャネルのマーケティング戦略に影響を与えます。また、買い物客のfunnelと顧客体験の改善点についても把握します。 | **Adobe [!DNL Commerce] Only**:<br>[Adobe [!DNL Commerce] Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started)は、デジタル [!DNL Commerce] チャネルで豊富な分析機能を提供しますが、チャネルやカスタマージャーニーのより広範な部分では提供しません。<br>**Adobe [!DNL Commerce] with Customer Journey Analytics**:<br>[!DNL Commerce] data feeds data dashboards：顧客体験のあらゆる段階（チャネル間）に関する詳細を詳細に表示します。 あらゆる顧客接点と大規模なfunnelを把握し、カスタマージャーニーにおいて顧客が離脱する可能性のある弱点を特定します。 |
+| **購入トレンド** – 特定の時間枠における購入行動を把握する（買い物客の買い物かご分析、商品分析など）。過去の購入パターンにもとづいてトレンドを特定し、季節性を把握し、マーケティングを最適化します。 | **Adobe [!DNL Commerce] Only**:<br>[Adobe [!DNL Commerce] Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started)は、デジタル [!DNL Commerce] チャネルで豊富な分析機能を提供しますが、チャネルやカスタマージャーニーのより広範な部分では提供しません。<br>**Adobe [!DNL Commerce] with Customer Journey Analytics**:<br>[!DNL Commerce] data feeds data dashboards：顧客体験のあらゆる段階（チャネル間）に関する詳細を詳細に表示します。 あらゆる顧客接点と大規模なfunnelを把握し、カスタマージャーニーにおいて顧客が離脱する可能性のある弱点を特定します。 |
 
 ## 使用例
 
-- Adobe Journey Optimizerを使用して [&#x200B; 放棄された買い物かごのメールを送信 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/use-cases/using-ajo) する方法を説明します。
-- Adobe [!DNL Commerce] で買い物かごの価格ルールを通知する [Real-Time CDPでオーディエンスを作成 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/use-cases/create-audience) する方法を説明します。
+- Adobe Journey Optimizerを使用して、[ カート放棄メールを送信](https://experienceleague.adobe.com/en/docs/commerce/data-connection/use-cases/using-ajo)する方法について説明します。
+- Adobe [で買い物かごの価格ルールを通知するために、](https://experienceleague.adobe.com/en/docs/commerce/data-connection/use-cases/create-audience)Real-Time CDP[!DNL Commerce]でオーディエンスを作成する方法について説明します。

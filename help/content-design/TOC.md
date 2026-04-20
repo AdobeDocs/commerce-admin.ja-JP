@@ -1,11 +1,11 @@
 ---
 user-guide-title: コンテンツおよびデザインガイド
-user-guide-description: Adobe Commerce、Magento Open Sourceの管理者、e コマースマーケター向けのコンテンツおよびデザイン機能に関する包括的な情報です。
+user-guide-description: Adobe CommerceおよびMagento Open Sourceの管理者とe コマースマーケター向けのコンテンツとデザイン機能に関する包括的な情報を提供します。
 breadcrumb-title: コンテンツとデザイン
 feature: CMS, Page Content
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '255'
 ht-degree: 4%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 4%
    - テーマ {#themes}
       - [概要](themes.md)
       - [新しいテーマのインストール](theme-install.md)
-      - [テーマのアセットの管理](theme-assets.md)
-      - [設計の更新をスケジュールする](schedule.md)
+      - [テーマアセットの管理](theme-assets.md)
+      - [デザインアップデートのスケジュール](schedule.md)
    - [ページセクションの設定](page-setup.md)
    - ページレイアウト {#layout}
       - [概要](page-layout.md)
@@ -31,51 +31,51 @@ ht-degree: 4%
 - コンテンツ要素 {#elements}
    - ページ {#pages}
       - [概要](pages.md)
-      - [ページワークスペースコントロール](pages-workspace.md)
+      - [ページワークスペースのコントロール](pages-workspace.md)
       - [ページの追加と削除](page-add.md)
-      - [ホームページを設定](page-home-new.md)
+      - [ホームページの設定](page-home-new.md)
       - [ページ階層](page-hierarchy.md)
       - [コンテンツページの翻訳](page-translate.md)
    - ブロック {#blocks}
       - [概要](blocks.md)
       - [ブロックを追加](block-add.md)
-      - [ブロックを配置](block-position.md)
-   - ダイナミック ブロック {#dynamic-blocks}
-      - [ダイナミック ブロックを作成する](dynamic-blocks.md)
-      - [回転するダイナミック ブロックを追加する](dynamic-blocks-rotate.md)
-      - [価格ルールの動的ブロック](dynamic-blocks-price-rules.md)
+      - [位置ブロック](block-position.md)
+   - 動的ブロック {#dynamic-blocks}
+      - [ダイナミックブロックの作成](dynamic-blocks.md)
+      - [回転ダイナミックブロックを追加](dynamic-blocks-rotate.md)
+      - [価格ルールのダイナミックブロック](dynamic-blocks-price-rules.md)
    - ウィジェット {#widgets}
       - [概要](widgets.md)
       - [ウィジェットの作成と管理](widget-create.md)
       - [ウィジェットを使用したブロックの配置](widget-static-block.md)
       - [新製品リストウィジェット](widget-new-products-list.md)
-      - [注文と返品ウィジェット](widget-orders-returns.md)
+      - [注文と返品のウィジェット](widget-orders-returns.md)
       - [カタログイベントカルーセルウィジェット](widget-event-carousel.md)
-- WYSIWYG Editor {#wysiwyg}
+- WYSIWYG エディター {#wysiwyg}
    - [概要](editor.md)
-   - [リンクの挿入](editor-insert-link.md)
+   - [リンクを挿入](editor-insert-link.md)
    - [画像の挿入](editor-insert-image.md)
    - [ウィジェットの挿入](editor-widget.md)
    - [変数の挿入](editor-insert-variable.md)
    - メディアストレージ {#storage}
       - [概要](media-storage.md)
       - [メディアデータベースの使用](media-storage-database.md)
-      - [コンテンツ配信ネットワークの使用](media-storage-content-delivery-network.md)
-      - [Dynamic Media の URL](catalog-urls-dynamic-media.md)
+      - [コンテンツ配信ネットワークの利用](media-storage-content-delivery-network.md)
+      - [ダイナミックメディア URL](catalog-urls-dynamic-media.md)
    - Adobe Stock {#adobe-stock}
-      - [Adobe Stockの統合](adobe-stock.md)
-      - [Adobe Stock画像の使用](adobe-stock-manage.md)
-      - [ストック画像のプレビューを保存](adobe-stock-save-preview.md)
-      - [ストック画像のライセンスを取得](adobe-stock-license-image.md)
+      - [Adobe Stockとの連携](adobe-stock.md)
+      - [Adobe Stockの画像を使用](adobe-stock-manage.md)
+      - [Stock画像のプレビューを保存](adobe-stock-save-preview.md)
+      - [Stock画像のライセンス](adobe-stock-license-image.md)
    - メディアギャラリー {#gallery}
       - [概要](media-gallery.md)
       - [アセット管理](media-gallery-asset-management.md)
       - [フォルダー管理](media-gallery-folder-management.md)
       - [画像の最適化](media-gallery-image-optimization.md)
-- CommerceのAEM Assets統合 {#aem-asset-management}
+- Commerce向けAEM Assets統合 {#aem-asset-management}
    - [統合の概要](aem-assets-integration.md)
    - [リリースノート](aem-assets-release-notes.md)
-   - はじめに {#getting-started}
+   - Adobe Experience Managerの導入方法 {#getting-started}
       - [環境の設定](aem-assets-getting-started.md)
       - [AEM Assets パッケージのインストール](aem-assets-configure-aem.md)
       - [Adobe Commerce パッケージのインストール](aem-assets-configure-commerce.md)
@@ -84,11 +84,15 @@ ht-degree: 4%
    - [AEM Assetsへのメディアファイルの移行](aem-assets-migrate-data.md)
    - アセットの管理 {#manage}
       - [CommerceでのAEM Assetsの使用](aem-assets-manage.md)
-- メディア {#media}
 - コンテンツのステージング {#staging}
    - [概要](content-staging.md)
-   - [更新のスケジュール設定](content-staging-scheduled-update.md)
+   - [更新のスケジュール](content-staging-scheduled-update.md)
    - [ステージングダッシュボード](content-staging-dashboard.md)
    - [キャンペーン項目の追加](content-staging-add-item.md)
    - [キャンペーンのプレビュー](content-staging-preview.md)
-- [&#x200B; 管理者ユーザーガイドに戻る &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja)
+- [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+
+<!--
+Add above "Content staging" when articles are available?
+- Media {#media}
+-->

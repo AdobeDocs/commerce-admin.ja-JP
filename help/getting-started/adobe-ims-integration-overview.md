@@ -1,79 +1,79 @@
 ---
-title: Adobe Identity Management Service （IMS）統合の概要
-description: Adobe Commerce管理者ログインとAdobe IMSのオプション統合を導入します
+title: Adobe Identity Management Service （IMS）の統合の概要
+description: Adobe Commerce管理者ログインとAdobe IMSのオプション統合について説明します
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: 484351d7db33139e3339ccea82e7a96f5ea7966e
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%
 
 ---
 
-# Adobe Identity Management Service （IMS）統合の概要
+# Adobe Identity Management Service （IMS）の統合の概要
 
 {{ee-feature}}
 
-Adobe Commerce アカウントを持つAdobe管理者ユーザーは、Adobe IDを使用してAdobe Commerceにログインできるようになりました。 Adobe Identity Management Service （IMS）は、認証をサポートする、Adobeの OAuth 2.0 ベースの ID 管理機能です。 Commerce Admin Authentication をAdobe Business Product の IMS 認証ワークフローに統合すると、他のAdobe製品を使用するユーザーの認証プロセスを合理化できます。 この統合はオプションで、インスタンスごとに有効になります。 この統合が有効な場合、管理ユーザーワークフローのみが影響を受けます。 
+Adobe アカウントを持つAdobe Commerce管理者ユーザーは、Adobe IDを使用してAdobe Commerceにログインできるようになりました。 Adobe Identity Management サービス（IMS）は、認証をサポートするAdobeのOAuth 2.0 ベースのID管理機能です。 Commerce管理者認証をAdobe Business製品のIMS認証ワークフローに統合すると、他のAdobe製品と連携するユーザーの認証プロセスを効率化できます。 この統合はオプションで、インスタンスごとに有効になります。 この統合が有効になっている場合は、管理者ユーザーワークフローのみが影響を受けます。 
 
-Commerce管理 IMS 統合に必要なモジュールは、Adobe Commerce コアリリースにバンドルされている `adobe-ims-metapackage` にパッケージ化されています。
+Commerce Admin IMS統合に必要なモジュールは`adobe-ims-metapackage`にパッケージ化されており、Adobe Commerce コアリリースにバンドルされています。
 
-この統合を実装するには、[IMS を使用したCommerce管理者の統合の設定 &#x200B;](./adobe-ims-config.md) を参照してください。
+この統合を実装するには、[Commerce Admin IntegrationとIMS](./adobe-ims-config.md)の設定を参照してください。
 
-## IMS との統合後の管理ワークフローおよびインターフェイスの変更
+## IMSとの統合後の管理者ワークフローとインターフェイスの変更
 
-この統合が有効になっていると、Commerce管理者ユーザーは、管理者ユーザーの作成など、再認証が必要なルーチンのタスクを管理者で実行する際に、デフォルトのCommerce Admin ログインおよび認証ワークフローに変更が生じます。 モジュールイネーブルメントには、Adobe組織レベルで二要素認証（2FA）が強化される必要があります。 デフォルトの管理者ログインと 2FA は無効になっており、デフォルトの管理者ログインフォームの代わりに「_[!UICONTROL Sign In with Adobe ID]_」ボタンが表示されます。 使用権限は引き続き管理者から管理されます。
+この統合が有効になっている場合、Commerce管理者ユーザーは、管理者ユーザーの作成など、再認証を必要とする日常的なタスクを管理者で実行する際に、デフォルトのCommerce管理者ログインと認証ワークフローに変更されます。 モジュールイネーブルメントには、Adobe組織レベルでの2要素認証（2FA）の実施が必要です。 デフォルトの管理者ログインと2FAは無効になっており、デフォルトの管理者ログインのフォームは&#x200B;_[!UICONTROL Sign In with Adobe ID]_ボタンに置き換えられます。 使用権限は、引き続き管理者から管理されます。
 
+>[!IMPORTANT]
 >
+>AdobeIms統合はグローバルに適用されています。 有効にすると、すべてのユーザーがAdobeImsを通じて認証する必要があります。個々のユーザーをこの設定から除外することはできません。
 >
->AdobeIms 統合はグローバルに適用されます。 有効にした場合、すべてのユーザーは AdobeIms 経由で認証する必要があります。個々のユーザーはこの設定から除外することはできません。
->
->**この統合は、その影響を完全に理解した後でのみ有効にします。**
+>**この統合を有効にするには、その影響を完全に理解する必要があります。**
 
-## 管理者と IMS の統合によるCommerceのパスワードへの影響
+## IMSとの管理者の統合がCommerce パスワードに与える影響
 
-Adobe IMSと統合されたCommerceのデプロイメントでは、IMS 有効化プロセス中にAdobe ID アプリケーション用に設定されたAdobe IMS組織にアクセスできるCommerce アカウントが必要です。  IMS 統合が有効な場合、管理者ユーザーは、Adobeのログインページを使用して、Adobe資格情報を使用して認証を行います。 Adobe IMS統合が有効になっている限り、管理者ユーザーのCommerce パスワードとユーザー名は認証に使用されなくなりました。
+Adobe IMSと統合されたCommerceのデプロイメントには、IMS有効化プロセス中にAdobe ID アプリケーション用に設定されたAdobe IMS組織へのアクセス権を持つCommerce アカウントが必要です。  IMS統合が有効になっている場合、管理者ユーザーは、Adobeの資格情報を使用してAdobe ログインページを通じて認証を行います。 管理者ユーザーのCommerce パスワードとユーザー名は、Adobe IMS統合が有効になっている限り、認証に使用されなくなります。
 
-IMS 統合が無効な場合、管理者ユーザーは、Commerceのユーザー名とパスワードを使用して、Adobe Commerceを通じて再認証する必要があります。 管理者ユーザーは、この統合を有効にする前に、Commerce管理者資格情報（ユーザー名とパスワード）と 2FA 資格情報を保存する必要があります。
+IMS統合が無効になっている場合、管理者ユーザーはCommerceのユーザー名とパスワードを使用して、Adobe Commerceを通じて再度認証する必要があります。 管理者ユーザーは、この統合を有効にする前に、Commerce管理者の資格情報（ユーザー名とパスワード）と2FAの資格情報を保存する必要があります。
 
-ユーザー認証に関与する特定のバックエンドコンポーネントには、引き続き null 以外のパスワードが必要です。 この要件を満たすために、Commerceは、新しく作成された管理者ユーザー用のランダムパスワードを `admin_user` テーブルに作成します。
+ユーザー認証に関連する一部のバックエンドコンポーネントでは、null以外のパスワードが引き続き必要です。 この要件を満たすために、Commerceは新しく作成された管理者ユーザーに対して、`admin_user` テーブルにランダムなパスワードを作成します。
 
 Commerce アプリケーションのユーザーアカウントとロール権限は、引き続きCommerce管理者から管理されます。
 
 
-## IMS 資格情報を使用した web API トークンの生成
+## IMS資格情報を使用したWeb API トークンの生成
 
-Commerce インスタンスでAdobe IMSによる管理者認証が有効になっている場合、Commerce管理 API は影響を受けます。 管理者ユーザーは、Commerce インスタンスが発行した資格情報を使用できなくなります。 これらは、管理者にログインし、サービスが管理者の REST API およびSOAP API にリクエストを行うために使用できるアクセストークンを取得するために必要な資格情報です。
+Commerce Admin APIは、Commerce インスタンスでAdobe IMSを使用した管理者認証が有効になっている場合に影響を受けます。 管理者ユーザーは、Commerce インスタンスによって発行された資格情報を使用できなくなりました。 これらは、管理者にログインし、サービスがAdmin REST APIとSOAP APIにリクエストを行うために使用できるアクセストークンを取得するために必要な資格情報です。
 
-Adobe IMS統合が有効になると、管理者ユーザーは、認証を必要とするAdobe Commerce API エンドポイントに対して [0&rbrace;Adobe IMS OAuth トークン &rbrace; を使用する必要があります。](https://developer.adobe.com/developer-console/docs/guides/authentication/) クライアントソリューションは、web API で使用するためにトークンを動的に取得します。 この認証メカニズムは、この統合の設定の一環として、REST およびSOAP Web API 領域に対して有効になっています。
+Adobe IMS統合が有効になったら、認証が必要なAdobe Commerce API エンドポイントに対して、管理者ユーザーは[Adobe IMS OAuth トークン ](https://developer.adobe.com/developer-console/docs/guides/authentication/)を使用する必要があります。 クライアントソリューションは、web API使用のためにトークンを動的に取得します。 この認証メカニズムは、この統合の設定の一環として、RESTおよびSOAP web API領域で有効になっています。
 
-Web API でのCommerce アクセストークンの使用方法（IMS アクセストークンを含む）の概要については、[&#x200B; トークンベースの認証 &#x200B;](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/) を参照してください。
+IMS アクセストークンを含むweb APIでのCommerce アクセストークンの使用方法の概要については、[ トークンベースの認証](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/)を参照してください。
 
-## Commerce セッション管理およびAdobe IMSアクセストークン
+## Commerceのセッション管理およびAdobe IMSアクセストークン
 
-アクセストークンには、ユーザー資格情報とログインセッション情報の両方が格納されます。 ユーザーが認証され、セッションが開始されると、次の 2 つの変数がユーザーのセッションに追加されます。
+アクセストークンには、ユーザーの資格情報とログインセッション情報の両方が保持されます。 ユーザーが認証され、セッションが開始されると、次の2つの変数がユーザーのセッションに追加されます。
 
-`token_last_check_time`。 現在の時刻を識別し、`\Magento\AdminAdobeIms\Plugin\BackendAuthSessionPlugin` プラグインで使用されます。
+`token_last_check_time`。 現在の時間を識別し、`\Magento\AdminAdobeIms\Plugin\BackendAuthSessionPlugin` プラグインで使用されます。
 
-`adobe_access_token` – 認証中に受け取った `ACCESS_TOKEN` 値を識別します。
+`adobe_access_token` – 承認中に受信した`ACCESS_TOKEN`値を識別します。
 
-`\Magento\AdminAdobeIms\Plugin\BackendAuthSessionPlugin` プラグインは、`token_last_check_time` が 10 分前に更新されたかどうかを確認します。 10 分前に `token_last_check_time` がチェックされた場合、認証ワークフローは IMS への API 呼び出しを行い、アクセストークンを検証して、セッションを続行します。 アクセストークンが有効な場合、`token_last_check_time` 値は現在の時刻に更新されます。 トークンが無効な場合、セッションは終了します。
+`\Magento\AdminAdobeIms\Plugin\BackendAuthSessionPlugin` プラグインは、`token_last_check_time`が10分前に更新されたかどうかを確認します。 `token_last_check_time`が10分前にチェックされた場合、認証ワークフローはIMSにAPI呼び出しを行ってアクセストークンを検証し、セッションを続行します。 アクセストークンが有効な場合、`token_last_check_time`値は現在の時刻に更新されます。 トークンが無効な場合、セッションは終了します。
 
 ## 重要なファイル
 
-`adminAdobeIms` - `AdobeImsApi` モジュールに基づく Admin ログインの実装を提供します。
+`adminAdobeIms` - `AdobeImsApi` モジュールに基づく管理者ログインの実装を提供します。
 
-`admin_adobe_ims_webapi` – 検証済みのすべてのアクセストークンの記録を保持します。 トークンが検証または無効化されると、そのステータスの記録がこの表に保持されます。
+`admin_adobe_ims_webapi` – 検証されたすべてのアクセストークンのレコードを保持します。 トークンが検証または無効化されると、そのステータスのレコードがこのテーブルに保存されます。
 
-`adobeIms` - Adobe IMSとの統合に関連するすべてのビジネスロジックを実装します（後方非互換性を防ぐために保持されます）。
+`adobeIms` - Adobe IMSとの統合に関連するすべてのビジネス ロジックを実装します（後方互換性を維持するために保持されます）。
 
 `adobeImsApi` - Adobe IMSとの統合をサポートするインターフェイスを宣言します。
 
 `adminadobe-ims.log` - エラーログファイル。
 
-## 統合の有効化
+## 統合を有効にする
 
-Adobe IMSメタパッケージは、Adobe Commerce 2.4.5 以降でインストールされますが、使用するように設定する必要があります。 `AdobeIms` モジュールを拡張して、認証ロジック（`AdminAdobeIms`）を有効にするモジュールをサポートします。
+Adobe IMSメタパッケージは、Adobe Commerce 2.4.5以降でインストールされますが、使用できるように設定する必要があります。 `AdobeIms` モジュールを拡張して、認証ロジック （`AdminAdobeIms`）を有効にするモジュールをサポートします。
 
-Adobe IMSの有効化について詳しくは、[&#x200B; 統合を使用したCommerce Admin 統合の設定 &#x200B;](./adobe-ims-config.md) を参照してください。
+統合を有効にする方法について詳しくは、[Adobe IMSとのCommerce管理者統合の設定](./adobe-ims-config.md)を参照してください。

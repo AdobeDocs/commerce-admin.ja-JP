@@ -1,9 +1,9 @@
 ---
 title: 製品設定 – [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
-description: 製品の場合、[!UICONTROL Related Products, Up-Sells, and Cross-Sells] の設定では、追加の製品の選択をハイライト表示する製品ページ上のシンプルなプロモーションブロックを定義します。
+description: 製品の場合、[!UICONTROL Related Products, Up-Sells, and Cross-Sells]設定は、製品ページ上の簡単なプロモーションブロックを定義し、その他の製品の選択を強調表示します。
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: 36c91007d21834b49351c8b53c617e442deebaa0
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -12,101 +12,101 @@ ht-degree: 0%
 
 # 製品設定 – [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-_[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;の節では、顧客が興味を持つ可能性のある追加製品のセレクションを提示する簡単なプロモーションブロックを設定します。 詳しくは、[&#x200B; 製品の関係 &#x200B;](../merchandising-promotions/product-relationships.md) を参照してください。
+「_[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_」セクションを使用して、顧客が関心を持つ可能性のある製品の選択肢を提示するシンプルなプロモーションブロックを設定します。 詳しくは、[製品の関係](../merchandising-promotions/product-relationships.md)を参照してください。
 
-![&#x200B; 関連商品、アップセル及びクロスセル &#x200B;](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
+![関連製品、アップセル、クロスセル ](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
 
 各ブロックは、特定のオプションに属する製品のリストで構成されます。
 
 | フィールド | 説明 |
 |--- |--- |
-| [!UICONTROL ID] | 製品エンティティに割り当てられる一意の数値 ID。 |
-| [!UICONTROL Thumbnail] | 製品のサムネール画像。 |
-| [!UICONTROL Name] | 商品の名前。 |
-| [!UICONTROL Status] | 製品のステータスを示します。 オプション：`Enabled`/`Disabled`。 無効になった製品は、フロントエンドのブロックには表示されません。 |
+| [!UICONTROL ID] | 製品エンティティに割り当てられる一意の数値識別子。 |
+| [!UICONTROL Thumbnail] | 製品サムネイル画像。 |
+| [!UICONTROL Name] | 製品の名前。 |
+| [!UICONTROL Status] | 製品ステータスを示します。 オプション：`Enabled` / `Disabled`。 無効な製品は、フロントエンドのブロックに表示されません。 |
 | [!UICONTROL Attribute Set] | 製品のテンプレートとして使用される属性セットの名前。 |
-| [!UICONTROL SKU] | 商品に割り当てられる一意の最小在庫管理単位。 |
-| [!UICONTROL Price] | 商品の単価。 |
-| [!UICONTROL Action] | オプション：`Remove`。 ブロックから商品を削除します。 |
+| [!UICONTROL SKU] | 製品に割り当てられている一意の在庫保管単位。 |
+| [!UICONTROL Price] | 製品の単価。 |
+| [!UICONTROL Action] | オプション：`Remove`。 ブロックから製品を削除します。 |
 
 {style="table-layout:auto"}
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **Adobe AI を活用した Product Recommendations** は、人工知能と機械学習アルゴリズムを使用して集計された訪問者データの詳細な分析を実行することで、商品関係を定義するプロセスを簡素化します。 このデータをAdobe Commerce カタログと組み合わせると、買い物客にとって非常に魅力的で関連性が高く、パーソナライズされたエクスペリエンスが得られます。
+>![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **Adobe AIを活用した商品レコメンデーション**は、人工知能とマシンラーニング アルゴリズムを使用して、集約された訪問者データを詳細に分析することで、商品の関係を定義するプロセスを簡素化します。 このデータをAdobe Commerceカタログと組み合わせることで、買い物客にとって魅力的で関連性の高い、パーソナライズされた体験を実現できます。
 ><br/>
->手動で設定した Product Recommendations やアップセルの代わりに、このAdobeが開発した拡張機能を使用する方法について詳しくは、『 _[Product Recommendations ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=ja)_ 』を参照してください。
+>このAdobeで開発した拡張機能を、手動で設定した商品レコメンデーションやアップセルの代わりに使用する方法について詳しくは、_[商品レコメンデーションガイド ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_&#x200B;を参照してください。
 
 ## 関連製品
 
-関連製品は、お客様が閲覧している品目に加えて購入する必要があります。 顧客はチェックボックスをクリックするだけで、買い物かごに項目を配置できます。 _関連製品_ ブロックの配置は、定義されたテーマとページレイアウトに応じて異なります。 次の例では、_製品表示_ ページの下部に _関連製品_ ブロックが表示されます。 2 列のレイアウトの場合、右側のサイドバーに _関連製品_ ブロックが表示されることがよくあります。
+関連商品は、お客様が閲覧している商品に加えて購入することを目的としています。 顧客はチェックボックスをクリックするだけで、ショッピングカートに商品を追加できます。 _関連製品_ ブロックの配置は、定義されたテーマとページレイアウトによって異なります。 以下の例では、_製品ビュー_ ページの下部に&#x200B;_関連製品_ ブロックが表示されています。 2列レイアウトでは、_関連製品_ ブロックが右側のサイドバーに表示されることがよくあります。
 
-![&#x200B; 関連製品 &#x200B;](./assets/storefront-product-related-products.png){width="600" zoomable="yes"}
+![関連製品](./assets/storefront-product-related-products.png){width="600" zoomable="yes"}
 
-関連製品を設定する手順は、次のとおりです。
+関連製品を設定するには：
 
 1. 製品を編集モードで開きます。
 
-1. 下にスクロールして、「![」セクションの &#x200B;](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** を展開します。
+1. 下にスクロールして、![ セクションの](../assets/icon-display-expand.png)拡張セレクター&#x200B;**[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**&#x200B;を展開します。
 
-1. 「**[!UICONTROL Add Related Products]**」をクリックします。
+1. **[!UICONTROL Add Related Products]**&#x200B;をクリックします。
 
-1. [&#x200B; フィルターコントロール &#x200B;](../getting-started/admin-grid-controls.md) を使用して、必要な商品を検索します。
+1. [ フィルターコントロール ](../getting-started/admin-grid-controls.md)を使用して、必要な製品を見つけます。
 
-1. リストで、関連製品として機能させる製品のチェックボックスをオンにします。
+1. リストで、関連製品としてフィーチャーする製品のチェックボックスを選択します。
 
-   ![&#x200B; 関連製品 &#x200B;](./assets/products-related-add.png){width="600" zoomable="yes"}
+   ![関連製品](./assets/products-related-add.png){width="600" zoomable="yes"}
 
-1. 完了したら、「**[!UICONTROL Add Selected Products]**」をクリックします。
+1. 完了したら、**[!UICONTROL Add Selected Products]**&#x200B;をクリックします。
 
 ## アップセル
 
-アップセル製品は、現在考慮されている製品ではなく、顧客が好む可能性のある項目です。 アップセルとして提供される商品は、より高品質の、より人気のある、またはより良い利益率を持つ可能性があります。 アップセルされた製品は、製品ページの見出し _次の製品にも興味がある場合があります_ の下に表示されます。
+アップセル商品とは、現在検討されている商品ではなく、顧客が好む可能性のある商品のことです。 アップセルとして提供される商品は、より高品質で、より人気のある商品であったり、より優れた利益率であったりします。 アップセル商品は、商品ページの&#x200B;_などの見出しの下に表示されます。次の商品にも興味を持っている可能性があります_。
 
-![&#x200B; アップセル &#x200B;](./assets/storefront-product-upsell.png){width="600" zoomable="yes"}
+![ アップセル ](./assets/storefront-product-upsell.png){width="600" zoomable="yes"}
 
-アップセル製品を選択する手順は、次のとおりです。
+アップセル商品を選択するには：
 
 1. 製品を編集モードで開きます。
 
-1. 下にスクロールして、「![」セクションの &#x200B;](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** を展開します。
+1. 下にスクロールして、![ セクションの](../assets/icon-display-expand.png)拡張セレクター&#x200B;**[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**&#x200B;を展開します。
 
-1. 「**[!UICONTROL Add Up-Sell Products]**」をクリックします。
+1. **[!UICONTROL Add Up-Sell Products]**&#x200B;をクリックします。
 
-1. [&#x200B; フィルターコントロール &#x200B;](../getting-started/admin-grid-controls.md) を使用して、必要な商品を検索します。
+1. [ フィルターコントロール ](../getting-started/admin-grid-controls.md)を使用して、必要な製品を見つけます。
 
-1. リストで、アップセル製品として機能させる製品のチェックボックスをオンにします。
+1. リストで、アップセル商品としてフィーチャーしたい商品のチェックボックスをオンにします。
 
-   ![&#x200B; アップセル商品 &#x200B;](./assets/product-up-sell-add.png){width="600" zoomable="yes"}
+   ![製品のアップセル ](./assets/product-up-sell-add.png){width="600" zoomable="yes"}
 
-1. 完了したら、「**[!UICONTROL Add Selected Products]**」をクリックします。
+1. 完了したら、**[!UICONTROL Add Selected Products]**&#x200B;をクリックします。
 
 >[!NOTE]
 >
->親バンドル製品は、そのすべての子製品のアップセル製品として常に自動的に表示されます。
+>親バンドル製品は、すべての子製品に対して常にアップセル製品として自動的に表示されます。
 
 ## クロスセル
 
-クロスセルアイテムは、チェックアウトラインのレジの隣に配置されたインパルス購入に似ています。 クロスセルとして提供された製品は、顧客がチェックアウトプロセスを開始する直前に、買い物かごページに表示されます。
+クロスセル商品は、レジのレジの隣にあるインパルス購入と似ています。 クロスセルとして提供される商品は、顧客が決済プロセスを開始する直前に、ショッピングカートページに表示されます。
 
 >[!NOTE]
 >
->店舗表示ごとにクロスセル項目を表示または非表示にするには、買い物かごで [&#x200B; チェックアウト/買い物かご &#x200B;](../configuration-reference/sales/checkout.md) オプションを _[!UICONTROL Show Cross-sell Items]_&#x200B;認します。 特定の販売中や、ストア表示での A/B テストのために、クロスセルを非表示にすることができます。
+>ストアビューごとにクロスセル項目を表示または非表示にするには、ショッピングカートの[という](../configuration-reference/sales/checkout.md) チェックアウト/ショッピングカート _[!UICONTROL Show Cross-sell Items]_オプションを参照してください。 特定のセールス中にクロスセルを非表示にしたり、ストアビューでA/B テストを行ったりすることもできます。
 
-![&#x200B; 買い物かごのクロスセル &#x200B;](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
+![ ショッピングカートでのクロスセル ](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 
-**_クロスセル製品を選択するには、:_** の手順に従います。
+**_クロスセル製品を選択するには:_**
 
 1. 製品を編集モードで開きます。
 
-1. 下にスクロールして、「![」セクションの &#x200B;](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** を展開します。
+1. 下にスクロールして、![ セクションの](../assets/icon-display-expand.png)拡張セレクター&#x200B;**[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**&#x200B;を展開します。
 
-1. 「**[!UICONTROL Add Cross-Sell Products]**」をクリックします。
+1. **[!UICONTROL Add Cross-Sell Products]**&#x200B;をクリックします。
 
-1. [&#x200B; フィルターコントロール &#x200B;](../getting-started/admin-grid-controls.md) を使用して、必要な商品を検索します。
+1. [ フィルターコントロール ](../getting-started/admin-grid-controls.md)を使用して、必要な製品を見つけます。
 
-1. リストで、クロスセル製品として機能させる製品のチェックボックスをオンにします。
+1. リストで、クロスセル商品としてフィーチャーしたい商品のチェックボックスをオンにします。
 
-   ![&#x200B; クロスセル商品 &#x200B;](./assets/product-cross-sell-add.png){width="600" zoomable="yes"}
+   ![製品のクロスセル ](./assets/product-cross-sell-add.png){width="600" zoomable="yes"}
 
-1. 完了したら、「**[!UICONTROL Add Selected Products]**」をクリックします。
+1. 完了したら、**[!UICONTROL Add Selected Products]**&#x200B;をクリックします。

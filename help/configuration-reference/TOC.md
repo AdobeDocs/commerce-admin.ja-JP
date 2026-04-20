@@ -2,10 +2,9 @@
 user-guide-title: 設定リファレンスガイド
 user-guide-description: このガイドでは、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**の_Admin_ サイドバーからアクセスされるすべてのストア構成設定に関する参照情報を提供します。
 breadcrumb-title: 設定リファレンス
-hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: ae472bb3be3b9095c4c8b5869c4a4d247cb2aef1
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 2%
@@ -84,4 +83,4 @@ ht-degree: 2%
    - [管理者](./advanced/admin.md)
    - [システム](./advanced/system.md)
    - [開発者](./advanced/developer.md)
-- [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja)
+- [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

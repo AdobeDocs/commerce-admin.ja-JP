@@ -1,9 +1,9 @@
 ---
 title: サポートツール
-description: システムの問題を特定するために使用できる、提供されているサポートツールについて説明します。
+description: システムの問題を特定するために使用できるサポートツールについて説明します。
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: addde8c3e41b641712f5b08107c1d68b40cd4159
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
@@ -14,76 +14,76 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-サポートツールは、システムの既知の問題を特定するように設計されています。 開発および最適化プロセス中のリソースとして、また、サポートチームが問題を特定して解決するのに役立つ診断ツールとして使用できます。
+サポートツールは、システム内の既知の問題を特定するために設計されています。 開発および最適化プロセスのリソースとして、またサポートチームが問題を特定して解決するための診断ツールとして使用できます。
 
 ## システムレポート
 
-システムレポートツールを使用すると、システムのスナップショットを定期的に完全または部分的に作成し、後で参照するために保存できます。 コード開発サイクルの前後のパフォーマンス設定や、サーバー設定に対する変更を比較できます。 システムレポートツールを使用すると、調査を開始するためにサポートが必要とする情報の準備と送信に費やす時間を大幅に短縮できます。
+システムレポートツールを使用すると、システムの定期的な完全または部分的なスナップショットを取得し、後で参照するために保存できます。 コード開発サイクルの前後のパフォーマンス設定、またはサーバー設定の変更を比較できます。 システムレポートツールは、調査を開始するためにサポートが必要とする情報の準備と提出にかかる時間を大幅に短縮することができます。
 
-システムレポートグリッドでは、既存のレポートの表示とダウンロード、レポートの削除、レポートの作成を行うことができます。
+「システムレポート」グリッドから、既存のレポートの表示とダウンロード、レポートの削除、レポートの作成を行うことができます。
 
 ### システムレポートへのアクセス
 
-_管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL System Report]**&#x200B;に移動します。
+_管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**に移動します。
 
-![&#x200B; 管理者 – システムレポート &#x200B;](./assets/reports.png){width="600" zoomable="yes"}
+![管理者 – システムレポート ](./assets/reports.png){width="600" zoomable="yes"}
 
 ### レポートの生成
 
-1. 「**[!UICONTROL New Report]**」をクリックします。
+1. **[!UICONTROL New Report]**&#x200B;をクリックします。
 
-1. **[!UICONTROL Groups]** リストで、レポートに含める情報のセットを選択します。 デフォルトでは、すべてのグループが選択されます。
+1. **[!UICONTROL Groups]** リストで、レポートに含める各情報セットを選択します。 デフォルトでは、すべてのグループが選択されています。
 
-   ![&#x200B; システムレポート – グループを選択 &#x200B;](./assets/report-create.png){width="600" zoomable="yes"}
+   ![ システムレポート – グループの選択](./assets/report-create.png){width="600" zoomable="yes"}
 
 1. 右上隅の「**[!UICONTROL Create]**」をクリックします。
 
-   選択したレポートタイプの数によっては、レポートの生成に数分かかることがあります。 レポートの準備が整うと、生成された日時と共にグリッドの上部に表示されます。
+   選択したレポートタイプの数によっては、レポートが生成されるまでに数分かかる場合があります。 レポートの準備が整うと、生成された日時とともにグリッドの上部に表示されます。
 
-### モジュール情報の表示
+### モジュール情報を表示
 
-インストールされているモジュールに関する有用な情報を確認できます。
+インストールされているモジュールに関する有用な情報を見つけることができます。
 
-**_インストールされている各モジュールのレポート情報を表示するには：_**
+**_インストールされている各モジュールのレポート情報を表示するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Support]_/**[!UICONTROL System Report]**&#x200B;に移動します。
-1. 「**[!UICONTROL New Report]**」をクリックします。
-1. リストから `Modules` を選 **[!UICONTROL Groups]** します。
-1. 「**[!UICONTROL Create]**」をクリックします。
-1. レポートが生成されたら、**[!UICONTROL Select]** をクリックし、**[!UICONTROL View]** をクリックして、すべてのモジュールバージョンを表示します。
-1. 「**[!UICONTROL Download]**」をクリックして、レポートをダウンロードします。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**に移動します。
+1. **[!UICONTROL New Report]**&#x200B;をクリックします。
+1. `Modules` リストから&#x200B;**[!UICONTROL Groups]**&#x200B;を選択します。
+1. **[!UICONTROL Create]**&#x200B;をクリックします。
+1. レポートが生成されたら、**[!UICONTROL Select]**&#x200B;をクリックし、**[!UICONTROL View]**&#x200B;をクリックしてすべてのモジュールバージョンを表示します。
+1. レポートをダウンロードするには、**[!UICONTROL Download]**&#x200B;をクリックします。
 
 ### システムレポートの管理
 
-グリッドの「**[!UICONTROL Action]**」列で、次のいずれかを選択します。
+グリッドの&#x200B;**[!UICONTROL Action]**&#x200B;列で、次のいずれかを選択します。
 
 - `View` – この関数を使用して、レポートの詳細を表示します。
-- `Delete` – この関数を使用して、生成されたレポートをリストから削除します。
+- `Delete` – 生成されたレポートをリストから削除するには、この関数を使用します。
 - `Download` – この関数を使用して、レポートをHTML ファイルとして保存します。
 
-### システムレポートの詳細の表示
+### システムレポートの詳細を表示
 
-1. 必要なレポートの _[!UICONTROL Actions]_&#x200B;列で「**[!UICONTROL View]**」を選択します。
+1. 必要なレポートについては、**[!UICONTROL View]**&#x200B;列の&#x200B;_[!UICONTROL Actions]_を選択してください。
 
-1. 左側のパネルで ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、レポートの各セクションで詳細を表示します。
+1. 左側のパネルで、レポートの各セクションを![拡張セレクター](../assets/icon-display-expand.png)展開して、詳細を表示します。
 
-   ![&#x200B; システムレポートの一般情報 &#x200B;](./assets/report-information.png){width="600" zoomable="yes"}
+   ![一般的なシステムレポート情報](./assets/report-information.png){width="600" zoomable="yes"}
 
-### 使用可能なシステムレポート
+### 利用可能なシステムレポート
 
 | レポートグループ | 含まれる情報 |
 | ------------ | -------------------- |
-| [!UICONTROL General] | Adobe Commerceのバージョン <br> データ数 <br> キャッシュステータス <br> インデックスステータス |
-| [!UICONTROL Environment] | 環境情報 <br>MySQL ステータス |
-| [!UICONTROL Data] | URL キーによる重複カテゴリ <br>URL キーによる重複製品 <br>SKU による重複製品 <br> 増分による重複注文 <br> メールによる重複ユーザー <br> 破損したカテゴリデータ |
-| [!UICONTROL Modules] | カスタムモジュール一覧 <br> 無効なモジュール一覧 <br> すべてのモジュール一覧 |
-| [!UICONTROL Configuration] | 構成 <br> 出荷方法 `app/etc/env.php`<br> 支払方法 <br> 支払機能マトリックスからのデータ <br> 支払機能 |
-| [!UICONTROL Logs] | ログファイル <br> 上位のシステムメッセージ <br> 今日の上位のシステムメッセージ <br> 上位のデバッグメッセージ <br> 今日の上位のデバッグメッセージ <br> 上位の例外メッセージ <br> 今日の上位の例外メッセージ |
-| [!UICONTROL Attributes] | ユーザー定義 EAV 属性 <br> 新規 EAV 属性 <br> エンティティ・タイプ <br> すべての EAV 属性 <br> カテゴリ EAV 属性 <br> 製品 EAV 属性 <br> 顧客 EAV 属性 <br> 顧客アドレス EAV 属性 <br>RMA 品目 EAV 属性 |
-| [!UICONTROL Events] | カスタムグローバルイベント <br> カスタム管理イベント <br> カスタムフロントエンドイベント <br> カスタムドキュメントイベント <br> カスタム Crontab イベント <br> カスタム REST イベント <br> カスタム SOAP イベント <br> コアグローバルイベント <br> コア管理イベント <br> コアフロントエンドイベント <br> コアドキュメントイベント <br> コア Crontab イベント <br> コア REST イベント <br> コア SOAP イベント <br> すべてのグローバルイベント <br> すべての管理者イベント <br> すべてのフロントエンドイベント <br> すべてのドキュメントイベント <br> すべての REST イベント <br> すべてのSOAP イベント <br> すべての Crontab イベント |
-| [!UICONTROL Cron] | ステータスコード別の Cron スケジュール <br> ジョブコード別の Cron スケジュール <br>Cron スケジュールキューのエラー <br>Cron スケジュールリスト <br> カスタムグローバル Cron ジョブ <br> カスタム設定可能な Cron ジョブ <br> コアグローバル Cron ジョブ <br> コア設定可能な Cron ジョブ <br> すべてのグローバル Cron ジョブ <br> すべての設定可能な Cron ジョブ |
-| [!UICONTROL Design] | Adminhtml テーマリスト <br> フロントエンドテーマリスト |
-| [!UICONTROL Stores] | Web サイトツリー <br>Web サイトのリスト <br> ストアのリスト <br> ストアの表示リスト |
-| OMS コネクタ <br>_（OMS 統合で表示）_ | コネクタのバージョン <br> コネクタの監視 <br> メッセージの処理結果 |
+| [!UICONTROL General] | Adobe Commerce Version<br>Data Count<br> キャッシュステータス <br>Index Status |
+| [!UICONTROL Environment] | 環境情報<br>MySQL ステータス |
+| [!UICONTROL Data] | URL キーでカテゴリを複製<br>URL キーで製品を複製<br>SKUで製品を複製<br> インクリメント Idで注文を複製<br> メールでユーザーを複製<br>壊れたカテゴリーデータ |
+| [!UICONTROL Modules] | カスタムモジュールリスト <br>無効なモジュールリスト <br>すべてのモジュールリスト |
+| [!UICONTROL Configuration] | <br>配送方法`app/etc/env.php`<br>支払い方法<br>支払い機能マトリックスからの設定<br> データ |
+| [!UICONTROL Logs] | ログファイル <br>上位のシステムメッセージ <br>今日の上位のシステムメッセージ <br>上位のデバッグメッセージ <br>今日の上位のデバッグメッセージ <br>上位の例外メッセージ <br>今日の上位の例外メッセージ |
+| [!UICONTROL Attributes] | ユーザー定義EAV属性<br>新しいEAV属性<br> エンティティタイプ <br>すべてのEAV属性<br> カテゴリーEAV属性<br>製品EAV属性<br>顧客EAV属性<br>顧客アドレス EAV属性<br>RMA項目EAV属性 |
+| [!UICONTROL Events] | カスタムグローバルイベント <br> カスタム管理イベント <br> カスタムフロントエンドイベント <br> カスタムドキュメントイベント <br> カスタム Crontab イベント <br> カスタム REST イベント <br> カスタム SOAP イベント <br> コア管理イベント <br> コア管理イベント <br> コア管理イベント <br> コア管理イベント <br> コア REST イベント <br> コア SOAP イベント <br>すべてのグローバルイベント <br>すべての管理イベント <br>すべてのフロントエンドイベント {All REST イベント <br>すべてのSOAP}すべてのREST イベント イベント <br>すべてのCrontab イベント<br><br><br> |
+| [!UICONTROL Cron] | ステータスコード別のCron スケジュール <br> ジョブコード別のCron スケジュール <br>Cron スケジュールキューのエラー<br>Cron スケジュールリスト <br> カスタムのグローバル Cron ジョブ <br> カスタム設定可能なCron ジョブ <br> コアのグローバル Cron ジョブ <br> コア設定可能なCron ジョブ <br>すべてのグローバル Cron ジョブ <br>すべての設定可能なCron ジョブ |
+| [!UICONTROL Design] | Adminhtml テーマ リスト <br> フロントエンド テーマ リスト |
+| [!UICONTROL Stores] | Web サイトツリー<br>Web サイトリスト <br> ストアリスト <br> ストアビューリスト |
+| OMS コネクタ <br>_（OMS統合で表示）_ | コネクタバージョン <br> コネクタ監視<br> メッセージ処理結果 |
 
 {style="table-layout:auto"}

@@ -1,9 +1,9 @@
 ---
 title: Commerce アカウントの転送
-description: Commerce アカウントを別の所有者またはメールアドレスに転送する方法について説明します。
+description: Commerce アカウントを別のオーナーまたは電子メールアドレスに転送する方法について説明します。
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: a7b23834b00b2ae0f5fd98de47fdc6f4aa00c010
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 0%
@@ -12,164 +12,164 @@ ht-degree: 0%
 
 # Commerce アカウントの転送
 
-ビジネス上の責任が変わると、Commerce アカウントを新しい所有者または別のメールアドレスに転送する必要が生じる場合があります。 この転送では、アカウントに関連付けられたプライマリユーザーのメールを変更する必要があります。
+ビジネスの責任が変更される場合、新しいオーナーまたは別のメールアドレスにCommerce アカウントを転送する必要が生じる場合があります。 この転送には、アカウントに関連付けられているプライマリユーザーメールに変更が必要です。
 
-次に、Commerce（MAGEID）アカウントを転送するプロセスについて説明します。 クラウドアカウント（クラウドプロジェクトまたはNew Relic）の所有権の変更は含まれません。 Commerce クラウドプロジェクトのアクセスについて詳しくは、[Cloud Infrastructure ガイドの &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=ja) ユーザーアクセスの管理 _を参照してください_
+以下では、Commerce（MAGEID）アカウントを転送する手順について説明します。 Cloud アカウント（Cloud プロジェクトまたはNew Relic）の所有権に関する変更は含まれていません。 クラウドプロジェクトへのアクセスについて詳しくは、「[Commerce on Cloud Infrastructure ガイド ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)」の「_ユーザーアクセスの管理_」を参照してください。
 
 >[!IMPORTANT]
 >
->新しいアカウント所有者が共有アクセスを使用して拡張機能を購入した場合、アカウント転送プロセスが開始されるとすぐに、それらの拡張機能へのアクセス権が失われます。 アカウントの移行をリクエストする前に、新しい所有者が [&#x200B; マーケットプレイスのアカウント &#x200B;](https://commercemarketplace.adobe.com/sales/order/history/) から購入の注文 ID を取得し、[&#x200B; マーケットプレイスのチーム &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) からそれらの拡張機能の払い戻しをリクエストしていることを確認してください。 拡張機能の購入を別のアカウントに転送することはできません。
+>新しいアカウント所有者が共有アクセスを使用して拡張機能を購入した場合、アカウント転送プロセスが開始されるとすぐに、これらの拡張機能へのアクセスが失われます。 アカウントの転送をリクエストする前に、新しい所有者が[ マーケットプレイスアカウント ](https://commercemarketplace.adobe.com/sales/order/history/)から購入の注文IDを取得し、[ マーケットプレイスチーム ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)からこれらの拡張機能の払い戻しをリクエストしていることを確認してください。 拡張機能の購入を別のアカウントに転送することはできません。
 
-## 転送タイプの識別
+## 転送タイプの特定
 
-Commerce アカウントの転送の種類は、現在のオーナーと新しいオーナーが使用できるCommerce アカウント資格情報によって異なります。 次のシナリオでは、これらの資格情報に基づく様々な転送タイプについて説明します。
+Commerce アカウントの転送の種類は、現在の所有者と新しい所有者が利用できるCommerce アカウントの資格情報によって異なります。 次のシナリオでは、これらの資格情報に基づいた様々な転送タイプについて説明します。
 
 | 転送タイプ | 現在の所有者 | 新しい所有者 |
 | ------------- | ------------- | --------- |
-| [&#x200B; 新しいAdobe IDとメールの変更 &#x200B;](#new-adobe-id-and-email-change) | Adobe ログインアカウントに **_接続されていない_** MAGEID がある | MAGEID を持たず、Adobe ログインアカウントに接続していない。 |
-| [&#x200B; メールの変更 &#x200B;](#email-change) | Adobeのログインアカウントで **_接続_** されている MAGEID を持っている。 | Adobeのログインアカウントを持っているが、Adobeのログインアカウントに接続されている **_MAGEID がない_**。 |
-| [Adobe ID アカウント切り替え &#x200B;](#adobe-id-account-switch) | Adobeのログインアカウントに **_接続_** されている MAGEID を持っている。 | MAGEID を持ち、Adobe ログインアカウントに接続されている。 |
+| [新しいAdobe IDとメールの変更](#new-adobe-id-and-email-change) | **_がAdobe ログインアカウントに接続されていない_** MAGEIDがあります | MAGEIDがなく、Adobe ログインアカウントに接続されていません。 |
+| [電子メールの変更](#email-change) | Adobe ログインアカウントで&#x200B;**_接続_**&#x200B;されたMAGEIDを持っています。 | Adobe ログインアカウントがありますが、**_にはAdobe ログインアカウントに接続されたMAGEID_**&#x200B;がありません。 |
+| [Adobe ID アカウントの切り替え](#adobe-id-account-switch) | Adobe ログインアカウントに&#x200B;**_接続_**&#x200B;されたMAGEIDを持っています。 | MAGEIDを持ち、Adobe ログインアカウントに接続されている。 |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Adobe Commerceは他のAdobe ソリューションとの統合を続けるため、Commerce アカウント（MAGEID）にはAdobe ログインとの関連付けが必要になりました。 このAdobe IDは、Commerce アカウントに接続されているのと同じメールアドレスを使用します。
+>Adobe Commerceが引き続き他のAdobe ソリューションとの統合を行う場合、Commerce アカウント（MAGEID）にはAdobe ログインとの関連付けが必要になります。 このAdobe IDでは、Commerce アカウントに接続された同じメールアドレスが使用されます。
 
 ## 新しいAdobe IDとメールの変更
 
 >[!IMPORTANT]
 >
->[&#x200B; 転送タイプ &#x200B;](#identify-your-transfer-type) をレビューし、この一連の手順の前提条件を満たしていることを確認します。
+>[転送タイプ ](#identify-your-transfer-type)を確認し、この一連の手順の前提条件を満たしていることを確認してください。
 
-この転送タイプでは、既存のCommerce アカウントにリンクされたAdobe IDを持ち、そのアカウントを新しいオーナーのメールアドレスに変更する必要があります。
+この種類の転送には、既存のCommerce アカウントにリンクされたAdobe IDを持ち、そのアカウントを新しい所有者のメールアドレスに変更する必要があります。
 
-1. [Commerce アカウントのログイン &#x200B;](https://account.magento.com/customer/account/login/) ページに移動します。
+1. [Commerce アカウントのログイン ](https://account.magento.com/customer/account/login/) ページに移動します。
 
-1. 「**[!UICONTROL Sign in with Adobe ID]**」をクリックします。
+1. **[!UICONTROL Sign in with Adobe ID]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL Create an account]**」をクリックします。
+1. **[!UICONTROL Create an account]**&#x200B;をクリックします。
 
-1. 現在の所有者のメールアドレスとパスワードを入力します。
+1. 現在の所有者の電子メールアドレスとパスワードを入力します。
 
-1. 「**[!UICONTROL Continue]**」をクリックします。
+1. **[!UICONTROL Continue]**&#x200B;をクリックします。
 
-   この手順では、Adobe IDを作成し、現在のCommerce アカウント（MAGEID）にリンクします。 このアカウントリンクを使用すると、_[!UICONTROL Email]_&#x200B;フィールドはすべての変更からブロックされます。 関連するメールアドレスの設定は、Adobe ID アカウントから管理されます。
+   この手順では、Adobe IDを作成し、現在のCommerce アカウント（MAGEID）にリンクします。 このアカウントリンクを使用すると、_[!UICONTROL Email]_フィールドは変更によってブロックされます。 関連付けられたメールアドレスの設定は、Adobe ID アカウントから管理されます。
 
-1. [account.adobe.com](https://account.adobe.com/) に移動します。
+1. [account.adobe.com](https://account.adobe.com/)に移動します。
 
-1. 「**[!UICONTROL Change Email]**」をクリックします。
+1. **[!UICONTROL Change Email]**&#x200B;をクリックします。
 
 1. 新しい所有者のメールアドレスを入力します。
 
-   新しいメールアドレスが既にシステム内の別のアカウントにリンクされている場合は、転送に直接使用することはできません。 代わりに、プロセスでは、変更を容易にするために [&#x200B; 一時的なメールアドレス &#x200B;](#change-to-a-temporary-account) を使用する必要があります。
+   新しいメールアドレスが既にシステム内の別のアカウントにリンクされている場合、転送に直接使用することはできません。 代わりに、[一時的な電子メールアドレス ](#change-to-a-temporary-account)を使用して変更を容易にする必要があります。
 
-1. 「**[!UICONTROL Change]**」をクリックします。
+1. **[!UICONTROL Change]**&#x200B;をクリックします。
 
-   この手順では、新しいメールアドレスに送信される確認メールを生成します。 メールには、メールアドレスの変更を完了するために必要な確認コードが含まれています。
+   この手順では、新しいメールアドレスに送信された確認メールを生成します。 このメールには、メールアドレスの変更を完了するために必要な確認コードが含まれています。
 
 1. 新しいメールアドレスに送信された確認コードを入力します。
 
-1. 「**[!UICONTROL Verify]**」をクリックします。
+1. **[!UICONTROL Verify]**&#x200B;をクリックします。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447660/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
 
-## メールの変更
+## 電子メールの変更
 
 >[!IMPORTANT]
 >
->[&#x200B; 転送タイプ &#x200B;](#identify-your-transfer-type) をレビューし、この一連の手順の前提条件を満たしていることを確認します。
+>[転送タイプ ](#identify-your-transfer-type)を確認し、この一連の手順の前提条件を満たしていることを確認してください。
 
-この転送タイプを使用すると、現在のアカウントオーナーは他のAdobe製品にアクセスできなくなります。
+この転送タイプでは、現在のアカウントオーナーは他のAdobe製品にアクセスできなくなります。
 
-1. [account.adobe.com](https://account.adobe.com/) に移動し、Adobeへのログインを完了します。
+1. [account.adobe.com](https://account.adobe.com/)に移動し、Adobe ログインを完了します。
 
-1. アカウント名とアバターの下で、「**[!UICONTROL Change Email]**」をクリックします。
+1. アカウント名とアバターの下で、**[!UICONTROL Change Email]**&#x200B;をクリックします。
 
 1. ダイアログで、新しい所有者のメールアドレスを入力します。
 
-   新しいメールアドレスが既にシステム内の別のアカウントにリンクされている場合は、転送に直接使用することはできません。 代わりに、プロセスでは、変更を容易にするために [&#x200B; 一時的なメールアドレス &#x200B;](#change-to-a-temporary-account) を使用する必要があります。
+   新しいメールアドレスが既にシステム内の別のアカウントにリンクされている場合、転送に直接使用することはできません。 代わりに、[一時的な電子メールアドレス ](#change-to-a-temporary-account)を使用して変更を容易にする必要があります。
 
-1. 「**[!UICONTROL Change]**」をクリックします。
+1. **[!UICONTROL Change]**&#x200B;をクリックします。
 
-   この手順では、新しいメールアドレスに送信される確認メールを生成します。 メールには、メールアドレスの変更を完了するために必要な確認コードが含まれています。
+   この手順では、新しいメールアドレスに送信された確認メールを生成します。 このメールには、メールアドレスの変更を完了するために必要な確認コードが含まれています。
 
 1. 新しいメールアドレスに送信された確認コードを入力します。
 
-1. 「**[!UICONTROL Verify]**」をクリックします。
+1. **[!UICONTROL Verify]**&#x200B;をクリックします。
 
-## Adobe ID アカウント切り替え
+## Adobe ID アカウントスイッチ
 
 >[!IMPORTANT]
 >
->[&#x200B; 転送タイプ &#x200B;](#identify-your-transfer-type) をレビューし、この一連の手順の前提条件を満たしていることを確認します。
+>[転送タイプ ](#identify-your-transfer-type)を確認し、この一連の手順の前提条件を満たしていることを確認してください。
 
-この転送タイプでは、現在のオーナーと新しいオーナーの両方が既存のAdobe ID を持ち、両方のアカウントを保持したい場合、一時的なメールアドレスを使用してアカウントの所有権を切り替えます。 所有権の転送を完了するには、Adobe IDに関連付けられていない一時的なメールアドレスを使用する必要があります。
+この転送タイプでは、現在の所有者と新しい所有者の両方が既存のAdobe IDを持っていて、両方のアカウントを保持したい場合に、一時的なメールアドレスを使用してアカウントの所有権を切り替えます。 所有権の移転を完了するには、Adobe IDに関連付けられていない一時的なメールアドレスを使用する必要があります。
 
-### 一時アカウントへの変更
+### 一時アカウントに変更
 
-現在のオーナーは、これらの手順を完了して、Adobe IDを別の一時的なメールアドレスに関連付けます。
+現在の所有者は、Adobe IDを別の一時的なメールアドレスに関連付けるために、これらの手順を完了します。
 
-1. [account.adobe.com](https://account.adobe.com/) に移動し、Adobeへのログインを完了します。
+1. [account.adobe.com](https://account.adobe.com/)に移動し、Adobe ログインを完了します。
 
-1. アカウント名とアバターの下で、「**[!UICONTROL Change Email]**」をクリックします。
+1. アカウント名とアバターの下で、**[!UICONTROL Change Email]**&#x200B;をクリックします。
 
-1. ダイアログで、Adobe IDで使用されない有効な一時メールアドレスを入力します。
+1. ダイアログで、Adobe IDで使用されていない有効な一時メールアドレスを入力します。
 
 >[!NOTE]
 >
->確認コードが記載されたメールを取得できるように、メールアドレスにアクセスできる必要があります。
+>確認コードでメールを取得するには、メールアドレスにアクセスできる必要があります。
 >
->アカウントのメールにアクセスできない場合は、IT チームに依頼して、会社のメールシステムでアカウントのメールアドレスのメール転送を設定してください。 メール転送を設定できない場合は、新しいアカウントオーナーにAdobe IDがあることを確認し、アカウント転送に必要なすべての詳細と共に [&#x200B; サポートリクエストを送信 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) します。
+>アカウントメールにアクセスできない場合は、IT部門に会社のメールシステムでアカウントメールアドレスのメール転送を設定するように依頼します。 メール転送を設定できない場合は、新しいアカウントオーナーにAdobe IDが設定されていることを確認し、アカウント転送を開始するために必要なすべての詳細を[ サポートリクエスト ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)送信します。
 
-1. 「**[!UICONTROL Change]**」をクリックします。
+1. **[!UICONTROL Change]**&#x200B;をクリックします。
 
-   この手順では、一時的なメールアドレスに送信される確認メールを生成します。 メールには、メールアドレスの変更を完了するために必要な確認コードが含まれています。
+   この手順では、一時的なメールアドレスに送信された確認メールを生成します。 このメールには、メールアドレスの変更を完了するために必要な確認コードが含まれています。
 
-1. 一時メールアドレスに送信される確認コードを入力します。
+1. 一時的なメールアドレスに送信された確認コードを入力します。
 
-1. 「**[!UICONTROL Verify]**」をクリックします。
+1. **[!UICONTROL Verify]**&#x200B;をクリックします。
 
 1. Adobe アカウントからログアウトします。
 
-### 新しい所有者手順
+### 新しい所有者ステップ
 
-現在の所有者が一時的なメールアドレスへの転送を完了した後、新しい所有者はこれらの手順を完了し、現在の所有者の元のメールアドレスを指すようにアカウント設定を変更する必要があります。
+現在の所有者が一時的なメールアドレスへの転送を完了した後、新しい所有者は、現在の所有者の元のメールアドレスを指すようにアカウント設定を変更するには、次の手順を完了する必要があります。
 
-1. [account.adobe.com](https://account.adobe.com/) に移動し、Adobeへのログインを完了します。
+1. [account.adobe.com](https://account.adobe.com/)に移動し、Adobe ログインを完了します。
 
-1. アカウント名とアバターの下で、「**[!UICONTROL Change Email]**」をクリックします。
+1. アカウント名とアバターの下で、**[!UICONTROL Change Email]**&#x200B;をクリックします。
 
 1. ダイアログで、現在の所有者の元のメールアドレスを入力します。
 
-1. 「**[!UICONTROL Change]**」をクリックします。
+1. **[!UICONTROL Change]**&#x200B;をクリックします。
 
-   この手順では、現在の所有者の元のメールアドレスに送信される確認メールを生成します。 メールには、メールアドレスの変更を完了するために必要な確認コードが含まれています。
+   この手順では、現在の所有者の元のメールアドレスに送信された確認メールを生成します。 このメールには、メールアドレスの変更を完了するために必要な確認コードが含まれています。
 
-1. 現在の所有者の元の電子メール アドレスに送信された確認コードを入力します。
+1. 現在の所有者の元のメールアドレスに送信された確認コードを入力します。
 
-1. 「**[!UICONTROL Verify]**」をクリックします。
+1. **[!UICONTROL Verify]**&#x200B;をクリックします。
 
 1. Adobe アカウントからログアウトします。
 
-### フォローアップ手順
+### フォローアップの手順
 
-新しい所有者が、現在の所有者の元のメールアドレスを使用してAdobe アカウントを正常に設定したら、次の手順を実行して所有権を転送します。
+新しい所有者が現在の所有者の元のメールアドレスでAdobe アカウントを正常に設定したら、次の手順を実行して所有権を転送します。
 
-1. [account.adobe.com](https://account.adobe.com/) に移動し、[&#x200B; 一時アカウント &#x200B;](#change-to-a-temporary-account) のメールアドレスを使用してAdobeへのログインを完了します。
+1. [account.adobe.com](https://account.adobe.com/)に移動し、[一時アカウント ](#change-to-a-temporary-account)の電子メールアドレスを使用してAdobe ログインを完了します。
 
-1. アカウント名とアバターの下で、「**[!UICONTROL Change Email]**」をクリックします。
+1. アカウント名とアバターの下で、**[!UICONTROL Change Email]**&#x200B;をクリックします。
 
 1. ダイアログで、新しい所有者のメールアドレスを入力します。
 
-1. 「**[!UICONTROL Change]**」をクリックします。
+1. **[!UICONTROL Change]**&#x200B;をクリックします。
 
-   この手順では、新しい所有者のメールアドレスに送信される確認メールを生成します。 メールには、メールアドレスの変更を完了するために必要な確認コードが含まれています。
+   この手順では、新しい所有者のメールアドレスに送信された確認メールを生成します。 このメールには、メールアドレスの変更を完了するために必要な確認コードが含まれています。
 
-1. 新しい所有者の E メール アドレスに送信される確認コードを入力します。
+1. 新しい所有者のメールアドレスに送信された確認コードを入力します。
 
-1. 「**[!UICONTROL Verify]**」をクリックします。
+1. **[!UICONTROL Verify]**&#x200B;をクリックします。
 
-## 最終手順
+## 最後のステップ
 
-新しい所有者が 1 番目または 3 番目のユースケースの手順を完了したら、新しい所有者は [&#x200B; サポートリクエストを送信 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case) して、メールアドレスの更新をサポートチームに通知する必要があります。 その後、サポートチームは、[Commerce Marketplace](https://commercemarketplace.adobe.com/) プロファイルのメールアドレスの更新など、追加のタスクを完了します。 リクエストには、以前のアカウント所有者のメールアドレスを含めます。
+新しい所有者が1番目または3番目のユースケースの手順を完了したら、新しい所有者は[ サポートリクエストを送信して](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case) メールアドレスの更新をサポートチームに通知する必要があります。 その後、サポートチームは、[Commerce Marketplace](https://commercemarketplace.adobe.com/) プロファイルの電子メールアドレスの更新など、追加の作業を完了します。 リクエストに以前のアカウント所有者のメールアドレスを含めます。
