@@ -28,7 +28,7 @@ Adobe Commerceの企業管理ツールには、B2B企業との関係を整理、
 
 *[!UICONTROL Companies]* ビューから会社管理タスクを開始します。 管理者から、**[!UICONTROL Customers]** > **[!UICONTROL Companies]**&#x200B;に移動します。
 
-![B2B企業管理グリッド ](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+![B2B企業管理グリッド &#x200B;](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 ## 前提条件
 
@@ -82,7 +82,7 @@ Adobe Commerceの企業管理ツールには、B2B企業との関係を整理、
 
 階層内の会社を編集する場合は、*[!UICONTROL Company Hierarchy]*&#x200B;を展開して、関連するすべての会社を表示します。 `Current` フラグは、会社が編集中であることを示します。
 
-![B2B企業階層グリッド ](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
+![B2B企業階層グリッド &#x200B;](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
 詳細な手順については、[会社階層の管理](manage-company-hierarchy.md)を参照してください。
 

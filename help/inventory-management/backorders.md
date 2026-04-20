@@ -39,15 +39,15 @@ ht-degree: 0%
 
 この製品の販売可能数量は`75 (25 - (-50))`です。
 
-![ バックオーダーが有効になる前の販売可能数量の例](assets/inventory-backorders-before.png){width="600" zoomable="yes"}
+![&#x200B; バックオーダーが有効になる前の販売可能数量の例](assets/inventory-backorders-before.png){width="600" zoomable="yes"}
 
-![ バックオーダーが有効になった後の販売可能数量の例](assets/inventory-backorders-after.png){width="600" zoomable="yes"}
+![&#x200B; バックオーダーが有効になった後の販売可能数量の例](assets/inventory-backorders-after.png){width="600" zoomable="yes"}
 
 顧客が25種類の商品を購入すると、新規注文が取り寄せ注文として入力されます。 製品の販売可能数量が5 （70個の商品が販売されました）に減少すると、_製品_ ページにストアフロントにメッセージ `Only 5 left`が表示されます。 販売可能数量が`0`に達すると、その商品はストアフロントに`Out of Stock`として表示されます。
 
 >[!NOTE]
 >
->顧客が&#x200B;_[!UICONTROL backorder qty]_を使用して注文すると、[!DNL Inventory Management]は販売可能な数量から数量を自動的に減算します。 注文が発送されず、キャンセルされた場合、その数量は集計されたバーチャル販売可能数量に戻ります。 キャンセルされた&#x200B;**_注文数量は、どのソース_**にも割り当てられませんが、販売可能な商品の合計数（_[!UICONTROL Salable Quantity]_&#x200B;列、商品グリッド）に返されます。
+>顧客が&#x200B;_[!UICONTROL backorder qty]_&#x200B;を使用して注文すると、[!DNL Inventory Management]は販売可能な数量から数量を自動的に減算します。 注文が発送されず、キャンセルされた場合、その数量は集計されたバーチャル販売可能数量に戻ります。 キャンセルされた&#x200B;**_注文数量は、どのソース_**&#x200B;にも割り当てられませんが、販売可能な商品の合計数（_[!UICONTROL Salable Quantity]_&#x200B;列、商品グリッド）に返されます。
 
 <!--
 ### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
@@ -63,7 +63,7 @@ The _Notify for Quantity Below_ configuration option is configurable at the glob
 
 これらのステップにより、サイトレベルでのあらゆる製品の取り寄せ注文が可能になります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. **[!UICONTROL Store View]**&#x200B;を`Default Config`に設定します。
 
@@ -95,9 +95,9 @@ The _Notify for Quantity Below_ configuration option is configurable at the glob
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]** > **[!UICONTROL Products]**&#x200B;に移動します。
 
-1. **[!UICONTROL Edit]** モードで製品を開き、ページを下にスクロールして&#x200B;_[!UICONTROL Sources]_領域に移動します。
+1. **[!UICONTROL Edit]** モードで製品を開き、ページを下にスクロールして&#x200B;_[!UICONTROL Sources]_&#x200B;領域に移動します。
 
-   [!DNL Inventory Management]なしで設定された製品の場合、タブは表示されません。 `Advanced Inventory` ボタンが&#x200B;_[!UICONTROL Quantity]_フィールドの下に表示されます。
+   [!DNL Inventory Management]なしで設定された製品の場合、タブは表示されません。 `Advanced Inventory` ボタンが&#x200B;_[!UICONTROL Quantity]_&#x200B;フィールドの下に表示されます。
 
 1. **[!UICONTROL Advanced Inventory]**&#x200B;をクリックします。
 
@@ -119,6 +119,6 @@ The _Notify for Quantity Below_ configuration option is configurable at the glob
    | ゼロ | バックオーダーが有効になっている場合、`0`と入力すると、バックオーダーを無限に設定できます。 |
    | マイナス金額 | Backordersを有効にすると、負の値を入力することをお勧めします。 金額が販売可能数量に追加されます。 例えば、`-50`と入力して、その金額までの注文を許可します。 |
 
-   ![ バックオーダー用に設定された詳細在庫](assets/inventory-backorders-product-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; バックオーダー用に設定された詳細在庫](assets/inventory-backorders-product-settings.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Done]**」をクリックし、「**[!UICONTROL Save]**」をクリックします。
