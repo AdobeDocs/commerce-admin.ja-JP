@@ -3,7 +3,7 @@ title: Adobe Stock画像のライセンス認証
 description: 法的なアクセス権を付与し、Adobe Stock透かしを除去するには、Adobe Stock画像のライセンスを取得します。
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '389'
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 **前提条件**
 
-Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.md)がインストールされ、設定されている場合にのみ使用できます。 [Adobe Stock](https://stock.adobe.com)の画像をライセンスするには、有料のAdobe Stock プランと[Adobe アカウント &#x200B;](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)が必要です。
+Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.md)がインストールされ、設定されている場合にのみ使用できます。 [Adobe Stock](https://stock.adobe.com)の画像をライセンスするには、有料のAdobe Stock プランと[Adobe アカウント &#x200B;](https://helpx.adobe.com/jp/manage-account/using/access-adobe-id-account.html)が必要です。
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +47,7 @@ Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.m
 
    >[!NOTE]
    >
-   >画像のライセンスを取得するには、アカウントに[Adobe Stock クレジット &#x200B;](https://helpx.adobe.com/stock/help/credit-packs.html)が必要です。
+   >画像のライセンスを取得するには、アカウントに[Adobe Stock クレジット &#x200B;](https://helpx.adobe.com/jp/stock/help/credit-packs.html)が必要です。
 
 ## 標準メディアストレージから画像のライセンスを取得する
 
@@ -63,7 +63,7 @@ Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.m
 
      >[!NOTE]
      >
-     >画像のライセンスを取得するには、アカウントに[Adobe Stock クレジット &#x200B;](https://helpx.adobe.com/stock/help/credit-packs.html)が必要です。
+     >画像のライセンスを取得するには、アカウントに[Adobe Stock クレジット &#x200B;](https://helpx.adobe.com/jp/stock/help/credit-packs.html)が必要です。
 
    このアクションは、画像を[&#x200B; メディアストレージ &#x200B;](./media-storage.md)に保存するために使用するファイル名を指定するためのプロンプトを表示します。 デフォルトのファイル名が指定されますが、好みに合わせて名前をカスタマイズできます。
 
