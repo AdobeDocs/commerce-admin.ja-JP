@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->自動リダイレクトが有効になっていてカテゴリを保存すると、すべての製品およびカテゴリの書き換えがリアルタイムで生成され、デフォルトで書き換えテーブルに保存されます。 このプロセスは、割り当てられた製品が多いカテゴリでパフォーマンスの問題が発生する可能性があります。 解決策は、このデフォルトを変更し、カテゴリの保存のために製品のカテゴリ/製品のURL書き換えの生成をスキップすることです。 この場合、製品の書き換えは、正規の製品URLに対してのみ生成されます。 詳しくは、[製品の自動リダイレクト ](/help/merchandising-promotions/url-redirect-product-automatic.md)を参照してください。
+>自動リダイレクトが有効になっていてカテゴリを保存すると、すべての製品およびカテゴリの書き換えがリアルタイムで生成され、デフォルトで書き換えテーブルに保存されます。 このプロセスは、割り当てられた製品が多いカテゴリでパフォーマンスの問題が発生する可能性があります。 解決策は、このデフォルトを変更し、カテゴリの保存のために製品のカテゴリ/製品のURL書き換えの生成をスキップすることです。 この場合、製品の書き換えは、正規の製品URLに対してのみ生成されます。 詳しくは、[製品の自動リダイレクト &#x200B;](/help/merchandising-promotions/url-redirect-product-automatic.md)を参照してください。
 
 ## URL書き換えパラメーターメモ {#url-rewrite-params}
 
@@ -60,26 +60,26 @@ ht-degree: 0%
 
 ## 設定 {#config}
 
-ストア設定にアクセスするには、_管理者_ サイドバーから&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**を選択します。
+ストア設定にアクセスするには、_管理者_ サイドバーから&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;を選択します。
 
 ## UPS APIの非推奨化 {#ups-api}
 
 >[!IMPORTANT]
 >
->2024年6月以降、Adobe Commerceのマーチャントは現在のUPSとの取引ができなくなります。 これは、ネイティブのAdobe Commerce統合で使用されるUnited Parcel Service （UPS） APIが、現在、必要なOAuth 2.0 セキュリティモデルをサポートしていないためです。 統合を有効にするには、[UPS開発者プラットフォーム ](https://developer.ups.com/get-started)でアプリケーションを作成して、OAuth 2.0に必要な資格情報を取得します。 Commerce UPS出荷設定の`username`および`password`として新しい資格情報を使用します。 セキュリティモデルの変更について詳しくは、[開発者ポータル アクセスキー移行ガイド_](https://developer.ups.com/oauth-developer-guide)を参照してください。<br/>
+>2024年6月以降、Adobe Commerceのマーチャントは現在のUPSとの取引ができなくなります。 これは、ネイティブのAdobe Commerce統合で使用されるUnited Parcel Service （UPS） APIが、現在、必要なOAuth 2.0 セキュリティモデルをサポートしていないためです。 統合を有効にするには、[UPS開発者プラットフォーム &#x200B;](https://developer.ups.com/get-started)でアプリケーションを作成して、OAuth 2.0に必要な資格情報を取得します。 Commerce UPS出荷設定の`username`および`password`として新しい資格情報を使用します。 セキュリティモデルの変更について詳しくは、[開発者ポータル アクセスキー移行ガイド_](https://developer.ups.com/oauth-developer-guide)を参照してください。<br/>
 >
->加盟店は、SOAP APIからOAuth 2.0認証プロトコルをサポートするRESTful APIに移行するために、[高品質のパッチアップデート ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html)をストアに適用する必要があります。
+>加盟店は、SOAP APIからOAuth 2.0認証プロトコルをサポートするRESTful APIに移行するために、[高品質のパッチアップデート &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html)をストアに適用する必要があります。
 
 
 ## 使用可能なドキュメント {#docs-links}
 
 | 関連文書 | 説明 |
 |----------------------- | ----------- |
-| [Adobe Commerce 2.4管理者ユーザーガイド ](../landing/home.md) | 管理画面で作業するマーチャント向けのドキュメントとリソース。 |
-| [Adobe Commerce ドキュメント向けサービス ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | マーチャンダイジングサービスのコレクションをサポートし、マーチャントがストアとビジネスの主要な要素を統合できるよう支援するドキュメント。 |
-| [Commerce on Cloud Infrastructure ガイド ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 管理された自動ホスティングクラウドプラットフォームにAdobe Commerceをデプロイするためのステップバイステップの手順。 |
-| [Adobe Commerce 2.4運用ガイド ](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Adobe Commerce オンクラウドおよびオンプレミスプロジェクトの開発、デプロイ、保守の概念、プロセス、ツール、ベストプラクティスに関するシステムドキュメントです。 |
-| [Adobe Commerce 2.4開発者向けドキュメント ](https://developer.adobe.com/commerce/docs) | Adobe Commerceをカスタマイズし、サードパーティのシステムと統合するために使用される、開発者向けのドキュメント。 |
+| [Adobe Commerce 2.4管理者ユーザーガイド &#x200B;](../landing/home.md) | 管理画面で作業するマーチャント向けのドキュメントとリソース。 |
+| [Adobe Commerce ドキュメント向けサービス &#x200B;](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | マーチャンダイジングサービスのコレクションをサポートし、マーチャントがストアとビジネスの主要な要素を統合できるよう支援するドキュメント。 |
+| [Commerce on Cloud Infrastructure ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 管理された自動ホスティングクラウドプラットフォームにAdobe Commerceをデプロイするためのステップバイステップの手順。 |
+| [Adobe Commerce 2.4運用ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Adobe Commerce オンクラウドおよびオンプレミスプロジェクトの開発、デプロイ、保守の概念、プロセス、ツール、ベストプラクティスに関するシステムドキュメントです。 |
+| [Adobe Commerce 2.4開発者向けドキュメント &#x200B;](https://developer.adobe.com/commerce/docs) | Adobe Commerceをカスタマイズし、サードパーティのシステムと統合するために使用される、開発者向けのドキュメント。 |
 
 {style="table-layout:auto"}
 
