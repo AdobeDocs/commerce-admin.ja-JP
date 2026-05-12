@@ -1,25 +1,25 @@
 ---
 title: 管理者ユーザーアカウントの管理
-description: 管理者ユーザーアカウントを作成し、役割を割り当てて、管理機能に権限を付与する方法について説明します。
+description: 管理者ユーザーアカウントを作成し、管理機能に権限を付与する役割を割り当てる方法について説明します。
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
-source-git-commit: ad75c77ada34c4d66b1a58a666edadd44d054e17
+source-git-commit: e2644f16f8e8adb77d070ddb66c724c00a15a525
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
 
 # 管理者ユーザーアカウントの管理
 
-ストアを初めてインストールすると、完全な管理アクセス権を付与するログイン資格情報を使用して、デフォルトの管理者アカウントが作成されます。 ベストプラクティスとして、完全な管理者アクセス権を持つ別のユーザーアカウントを作成してください。 これにより、1 つのアカウントを日常の管理活動に使用し、もう 1 つを「スーパー管理者」アカウントとして予約できます。 これは、通常の資格情報を忘れた場合や、何らかの理由で使用できなくなった場合に役立ちます。
+ストアを最初にインストールすると、デフォルトの管理者アカウントがログイン資格情報で作成され、完全な管理アクセスが可能になります。 ベストプラクティスとして、完全な管理者アクセス権を持つ別のユーザーアカウントを作成する必要があります。 これにより、日常的な管理業務に1つのアカウントを使用し、もう1つのアカウントを「スーパー管理者」アカウントとして予約できます。 これは、通常の資格情報を忘れた場合や、何らかの理由で使用できなくなる場合に役立ちます。
 
-他のチームメンバーやサービスプロバイダーがアクセスを必要とする場合は、それらのメンバーに対して個別のユーザーアカウントを作成し、特定のビジネスニーズに基づいて制限付きアクセスを割り当てることができます。 管理者でユーザーがアクセスできる web サイトやストアを制限するには、まず [&#x200B; 役割を作成 &#x200B;](permissions-user-roles.md) する必要があります。範囲は限られており、必要なリソースのみが選択されています。 次に、その役割を特定のユーザーアカウントに割り当てることができます。 制限付き役割に割り当てられた管理者ユーザーは、その役割に関連付けられた Web サイトまたはストアのデータのみを表示および変更できますが、グローバル設定やデータは変更できません。
+他のチームメンバーやサービスプロバイダーがアクセスを必要とする場合は、個々のユーザーアカウントを作成し、特定のビジネスニーズに基づいてアクセス制限を割り当てることができます。 管理者でユーザーがアクセスできるweb サイトまたはストアを制限するには、まず、範囲が制限され、必要なリソースのみが選択された役割](permissions-user-roles.md)を[作成する必要があります。 次に、役割を特定のユーザーアカウントに割り当てます。 制限付き役割に割り当てられている管理者ユーザーは、役割に関連付けられているweb サイトまたはストアのデータのみを表示および変更できますが、グローバル設定またはデータを変更することはできません。
 
 >[!NOTE]
 >
->Adobe IDを持ち、Adobe CommerceおよびAdobe Business Products への効率的なログインを必要とするAdobe Commerce マーチャントは、Commerce認証をAdobe IMS認証ワークフローと統合できます。 この統合がCommerce ストアに対して有効になると、各管理者ユーザーは、Commerce資格情報ではなく、Adobe資格情報を使用してログインする必要があります。 [Adobe Identity Management Service （IMS）統合の概要 &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=ja) を参照してください。
+>Adobe Commerceを使用しており、Adobe IDおよびAdobe Business製品への効率的なログインを希望するAdobe Commerce販売者は、Commerce認証とAdobe IMS認証ワークフローを統合できます。 この統合がCommerce ストアで有効になった後、各管理者ユーザーは、Commerceの資格情報ではなく、Adobeの資格情報を使用してログインする必要があります。 [Adobe Identity Management Service （IMS）統合の概要](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html)を参照してください。
 
 一時的なユーザーまたは役割の場合は、ユーザーアカウントの有効期限を設定することもできます。
 
@@ -27,19 +27,19 @@ ht-degree: 0%
 
 ## ユーザーの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL All Users]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New User]**」をクリックします。
 
-   既存のユーザーを編集するには、グリッド内のユーザー名をクリックします。 必要に応じて、「_[!UICONTROL User Info]_」セクションと「_[!UICONTROL User Role]_」セクションを変更できます。
+   既存のユーザーを編集するには、グリッドのユーザー名をクリックします。 必要に応じて、_[!UICONTROL User Info]_および_[!UICONTROL User Role]_ セクションを変更できます。
 
-1. _[!UICONTROL Account Information]_&#x200B;セクションで、次の操作を行います。
+1. _[!UICONTROL Account Information]_セクションで、次の操作を行います。
 
-   ![&#x200B; ユーザーアカウント情報 &#x200B;](./assets/permissions-user-new.png){width="600" zoomable="yes"}
+   ![ ユーザーアカウント情報](./assets/permissions-user-new.png){width="600" zoomable="yes"}
 
-   - アカウントの **[!UICONTROL User Name]** を入力します。
+   - アカウントの&#x200B;**[!UICONTROL User Name]**&#x200B;を入力してください。
 
-     ユーザー名は覚えやすいものにする必要があります。 大文字と小文字は区別されません。 例えば、ユーザー名が `John` の場合、`john` としてログインすることもできます。
+     ユーザー名は覚えやすくする必要があります。 大文字と小文字を区別しません。 例えば、ユーザー名が`John`の場合、`john`としてログインすることもできます。
 
    - 次の情報を入力します。
 
@@ -47,116 +47,116 @@ ht-degree: 0%
       - **[!UICONTROL Last Name]**
       - **[!UICONTROL Email address]**
 
-     各ユーザーアカウントには、一意のメールアドレスが必要です。
+     各ユーザーアカウントには一意のメールアドレスが必要です。
 
-   - アカウントの **[!UICONTROL Password]** を入力します。
+   - アカウントの&#x200B;**[!UICONTROL Password]**&#x200B;を入力してください。
 
      >[!NOTE]
      >
-     >管理者パスワードは 7 文字以上で、文字と数字の両方を含める必要があります。 その他のパスワードオプションについては、[Admin Security の設定 &#x200B;](security-admin.md) を参照してください。
+     >管理者パスワードは、7文字以上の長さ（デフォルト）で、文字と数字の両方を含める必要があります。 パスワードの最小長は、管理者セキュリティ設定で設定できます。 その他のパスワードオプションについては、[管理者セキュリティの設定](security-admin.md)を参照してください。
 
-   - **[!UICONTROL Password Confirmation]**: パスワードを再入力して、正しく入力されていることを確認します。
+   - **[!UICONTROL Password Confirmation]**&#x200B;の場合、パスワードを再入力して、正しく入力されていることを確認します。
 
-   - ストアに複数の言語がある場合は、**[!UICONTROL Interface Locale]** を管理インターフェイスに使用される言語に設定します。
+   - ストアに複数の言語がある場合は、管理者インターフェイスに使用する言語に&#x200B;**[!UICONTROL Interface Locale]**&#x200B;を設定します。
 
-1. **[!UICONTROL This Account is]** を `Active` に設定します。
+1. **[!UICONTROL This Account is]**&#x200B;を`Active`に設定します。
 
-1. カレンダーアイコンをクリックして、ユーザーアカウントの **[!UICONTROL Expiration Date]** を設定します。
+1. カレンダーアイコンをクリックして、ユーザーアカウントの&#x200B;**[!UICONTROL Expiration Date]**&#x200B;を設定します。
 
-   ユーザーまたは役割が一時的な場合は、有効期限を定義すると役立ちます。 有効期限が切れると、ユーザーアカウントのステータスが `Inactive` に変わり、必要に応じて更新することができます。
+   有効期限の定義は、ユーザーまたは役割が一時的な場合に役立ちます。 有効期限が切れると、ユーザーアカウントのステータスが`Inactive`に変わり、必要に応じて更新できます。
 
-1. _[!UICONTROL Current User Identity Verification]_&#x200B;の下に、ユーザーアカウントのパスワードを入力します。
+1. _[!UICONTROL Current User Identity Verification]_で、ユーザーアカウントのパスワードを入力します。
 
 >[!IMPORTANT]
 >
->_[!UICONTROL Account Information]_&#x200B;のセクションが完了したら、ユーザーを保存できます。 新しいユーザーが&#x200B;_[!UICONTROL Users]_ グリッドに表示されますが、役割が割り当てられるまで、ユーザー名はログインできません。
+>_[!UICONTROL Account Information]_セクションが完了したら、ユーザーを保存できます。 新しいユーザーは_[!UICONTROL Users]_ グリッドに表示されますが、ユーザー名は役割が割り当てられるまでログインできません。
 
 ## ユーザーの役割の割り当て
 
-1. 左側のパネルで「**[!UICONTROL User Role]**」をクリックします。
+1. 左側のパネルで、**[!UICONTROL User Role]**&#x200B;をクリックします。
 
-   グリッドには、既存のすべてのユーザーの役割が一覧表示されます。 新しいストアの場合、_[!UICONTROL Administrators]_&#x200B;が使用可能な唯一の役割です。
+   グリッドには、既存のすべてのユーザーロールが一覧表示されます。 新しいストアの場合、_[!UICONTROL Administrators]_は利用可能な唯一の役割です。
 
-   ![&#x200B; 管理者 – 新しいユーザーロールを追加 &#x200B;](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
+   ![管理者 – 新しいユーザーの役割を追加](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Assigned]_&#x200B;列で、ユーザーの役割を選択します。
+1. _[!UICONTROL Assigned]_列で、ユーザーの役割を選択します。
 
-   [&#x200B; 既存の役割を表示するか、追加のユーザー役割を定義する &#x200B;](permissions-user-roles.md) ことができます。 役割を定義したら、ユーザーアカウントを編集して新しい役割を割り当てる必要があります。
+   既存のユーザーを[表示したり、追加のユーザー役割を定義したりできます](permissions-user-roles.md)。 役割を定義したら、新しい役割を割り当てるためにユーザーアカウントを編集する必要があります。
 
-## 2FA プロバイダの検証またはリセット
+## 2FA プロバイダーの確認またはリセット
 
-1. 管理者ユーザーアカウントを開きます。
+1. Admin ユーザーアカウントを開きます。
 
-1. 左側のパネルで「**[!UICONTROL 2FA]**」をクリックします。
+1. 左側のパネルで、**[!UICONTROL 2FA]**&#x200B;をクリックします。
 
-   ![&#x200B; 管理者 – 新しいユーザーロールを追加 &#x200B;](./assets/permissions-user-2fa.png){width="600" zoomable="yes"}
+   ![管理者 – 新しいユーザーの役割を追加](./assets/permissions-user-2fa.png){width="600" zoomable="yes"}
 
-1. _管理者_ ユーザーが使用できる 2FA ソリューションを確認し、ログイン前に、使用するソリューションをインストールするように各ユーザーにアドバイスします。
+1. _管理者_&#x200B;のユーザーが利用できる2FA ソリューションを確認し、各ユーザーに対して、ログインする前に使用するソリューションをインストールするようにアドバイスします。
 
-   _Admin_ へのログインに必要な 2FA ソリューションは 1 つだけです。
+   _管理者_&#x200B;にログインするには、1つの2FA ソリューションによる認証が必要です。
 
-1. ユーザーが 2FA ソリューションを再インストールする必要がある場合は、現在の 2FA 設定をリセットできます。
+1. ユーザーが2FA ソリューションを再インストールする必要がある場合は、現在の2FA設定をリセットできます。
 
-   この場合、ユーザーは再度ログインする前に、設定プロセスを繰り返す必要があります。 例えば、新しいスマートフォンがあり、Google Authenticator を再インストールする必要がある場合です。 ユーザーの現在の 2FA 設定をクリアするには、クリアするソリューションごとに **[!UICONTROL Reset (Provider)]** をクリックします。 プロンプトが表示されたら、「**[!UICONTROL OK]**」をクリックして確認します。
+   これには、ユーザーが再度ログインする前に、設定プロセスを繰り返す必要があります。 例えば、新しいスマートフォンを使用している場合、Google Authenticatorを再インストールする必要があります。 ユーザーの現在の2FA設定を消去するには、消去するソリューションごとに&#x200B;**[!UICONTROL Reset (Provider)]**&#x200B;をクリックします。 プロンプトが表示されたら、**[!UICONTROL OK]**&#x200B;をクリックして確認します。
 
-   [2FA の設定 &#x200B;](security-two-factor-authentication.md) へのリンクが記載されたメールがユーザーに届きます。 リンクは 1 回だけ使用できます。 ユーザーが複数回ログインしようとすると、試行のたびに新しいリンクが送信されます。
+   ユーザーは、[configure 2FA](security-two-factor-authentication.md)へのリンクを含む電子メールを受信します。 リンクは1回のみ使用できます。 ユーザーが複数回ログインしようとすると、試行のたびに新しいリンクが送信されます。
 
-1. 「**[!UICONTROL Save User]**」をクリックします。
+1. **[!UICONTROL Save User]**&#x200B;をクリックします。
 
-1. プロンプトが表示されたら、パスワードを入力して ID を確認し、再度「**[!UICONTROL Save User]**」をクリックします。
+1. プロンプトが表示されたら、パスワードを入力してIDを確認し、**[!UICONTROL Save User]**&#x200B;を再度クリックします。
 
-   _[!UICONTROL Users]_&#x200B;グリッドが開き、すべてのユーザーが一覧表示されます。
+   _[!UICONTROL Users]_グリッドが開き、すべてのユーザーが一覧表示されます。
 
 ## 管理者ユーザーの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL All Users]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**に移動します。
 
 1. グリッドの上にあるフィルターを使用してユーザーアカウントを見つけ、ユーザー名をクリックします。
 
-1. プロンプトが表示されたら、パスワードを入力して ID を確認します。
+1. プロンプトが表示されたら、パスワードを入力してIDを確認します。
 
 1. 右上隅の「**[!UICONTROL Delete User]**」をクリックします。
 
-1. アクションを確定するには、「**[!UICONTROL OK]**」をクリックします。
+1. アクションを確認するには、**[!UICONTROL OK]**&#x200B;をクリックします。
 
-## パスワードを忘れた場合の E メールのリセット
+## パスワードを忘れた場合とメールアドレスをリセットした場合
 
-管理者のメールテンプレート設定は、ユーザーがパスワードを忘れたり、リセットしたりしたときに送信されるメールを決定します。 この構成では、メッセージの送信者として表示されるストアの連絡先と、パスワード回復リンクが有効なままである期間を指定します。
+管理者メールテンプレート設定は、ユーザーがパスワードを忘れてリセットしたときに送信されるメールを決定します。 この設定では、メッセージの送信者として表示されるストア連絡先と、パスワード回復リンクが有効な期間を指定します。
 
-**_管理者のメールテンプレートを設定するには：_**
+**_管理者メールテンプレートを設定するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Setting]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Setting]_>**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで「**[!UICONTROL Advanced]**」を展開し、「**[!UICONTROL Admin]**」を選択します。
+1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL Admin]**&#x200B;を選択します。
 
-1. 「**[!UICONTROL Admin User Emails]**」セクションの ![&#x200B; 展開トグラー &#x200B;](../assets/icon-display-expand.png) を展開します。
+1. **[!UICONTROL Admin User Emails]** セクションの![拡張トグル ](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; 詳細設定 – 管理者のメールテンプレートの設定 &#x200B;](../configuration-reference/advanced/assets/admin-admin-user-emails.png){width="600" zoomable="yes"}
+   ![詳細設定 – 管理者メールテンプレート設定](../configuration-reference/advanced/assets/admin-admin-user-emails.png){width="600" zoomable="yes"}
 
-1. 管理者ユーザーがパスワードを忘れた場合に送信されるテンプレートに **[!UICONTROL Forgot Password Email Template]** を設定します。
+1. 管理者ユーザーがパスワードを忘れたときに送信されるテンプレートに&#x200B;**[!UICONTROL Forgot Password Email Template]**&#x200B;を設定します。
 
-1. メッセージの送信者として表示されるストアの連絡先に **[!UICONTROL Forgot and Reset Email Sender]** を設定します。
+1. メッセージの送信者として表示されるストア連絡先に&#x200B;**[!UICONTROL Forgot and Reset Email Sender]**&#x200B;を設定します。
 
-1. 管理者通知のデフォルトとして使用されるメールテンプレートに **[!UICONTROL User Notification Template]** を設定します。
+1. 管理者通知のデフォルトとして使用される電子メールテンプレートに&#x200B;**[!UICONTROL User Notification Template]**&#x200B;を設定します。
 
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
 ## ロックされたユーザー
 
-ビジネスのセキュリティを確保するために、管理者に [&#x200B; ログイン &#x200B;](../getting-started/admin-signin.md) することに 6 回失敗すると、デフォルトでユーザーアカウントがロックされます。 現在ロックされているユーザーアカウントは、すべてロックされたユーザーグリッドに表示されます。 完全な管理者権限を持つ他のユーザーがアカウントをロック解除できます。
+ビジネスのセキュリティを確保するために、管理者に[ ログイン ](../getting-started/admin-signin.md)する際に6回失敗した後、ユーザーアカウントはデフォルトでロックされます。 現在ロックされているユーザーアカウントは、ロックされたユーザーグリッドに表示されます。 アカウントは、完全な管理者の権限を持つ他のユーザーがロックを解除できます。
 
-追加のパスワードセキュリティ対策を [&#x200B; 詳細管理者 &#x200B;](../configuration-reference/advanced/admin.md#security) 設定で実装できます。 [Admin Security](security-admin.md) を参照してください。
+追加のパスワードセキュリティ対策は、[詳細管理者](../configuration-reference/advanced/admin.md#security)設定で実装できます。 [管理者セキュリティ ](security-admin.md)を参照してください。
 
-![&#x200B; ログイン画面アラート – アカウントが一時的に無効になっている &#x200B;](./assets/admin-login-locked-out-message.png){width="300"}
+![ ログイン画面アラート – アカウントが一時的に無効になっています](./assets/admin-login-locked-out-message.png){width="300"}
 
-**_管理者アカウントのロックを解除するには：_**
+**_管理者アカウントのロックを解除するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]**/_[!UICONTROL Permissions]_/**[!UICONTROL Locked Users]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL Locked Users]**に移動します。
 
 1. グリッドで、ロックされたアカウントのチェックボックスを選択します。
 
-   ![&#x200B; 権限 – ロックされたユーザーアカウント &#x200B;](./assets/permissions-locked-users-grid.png){width="600" zoomable="yes"}
+   ![権限 – ロックされたユーザーアカウント ](./assets/permissions-locked-users-grid.png){width="600" zoomable="yes"}
 
-1. 左上隅の **[!UICONTROL Actions]** を `Unlock` に設定します。
+1. 左上隅で、**[!UICONTROL Actions]**&#x200B;を`Unlock`に設定します。
 
-1. **[!UICONTROL Submit]** をクリックして、アカウントのロックを解除します。
+1. 「**[!UICONTROL Submit]**」をクリックしてアカウントのロックを解除します。

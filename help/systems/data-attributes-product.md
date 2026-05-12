@@ -3,16 +3,16 @@ title: 製品データ属性リファレンス
 description: 商品データのインポートとエクスポートを操作する場合は、この商品データ属性の参照を使用します。
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 093c0841141f3e39afdabf25f7ce96c65db35291
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2540'
 ht-degree: 0%
 
 ---
 
 # 製品データ属性リファレンス
 
-次の表に、一般的な製品エクスポートの属性を、それらが表示されるデフォルトの順序で示します。 各属性はCSV ファイルで列として表され、製品レコードは行で表されます。 アンダースコアで始まる列には、複雑なデータのプロパティやオプション値などのサービスデータが含まれます。 カタログから商品を[&#x200B; エクスポート &#x200B;](data-export.md)して、各属性がデータにどのように表示されるかを確認できます。
+次の表に、一般的な製品エクスポートの属性を、それらが表示されるデフォルトの順序で示します。 各属性はCSV ファイルで列として表され、製品レコードは行で表されます。 アンダースコアで始まる列には、複雑なデータのプロパティやオプション値などのサービスデータが含まれます。 カタログから商品を[ エクスポート ](data-export.md)して、各属性がデータにどのように表示されるかを確認できます。
 
 このデータの書き出しに使用されるインストールには、サンプルデータがインストールされ、2つのweb サイトと複数のストアビューがあります。 このリストには、通常エクスポートされるすべての列が含まれていますが、`sku`のみが必須の値です。 データを読み込むには、変更がある列のみを含めることができます。 `sku`は最初の列である必要がありますが、残りの属性の順序は関係ありません。
 
@@ -23,16 +23,16 @@ ht-degree: 0%
 | `sku` | （必須）在庫保管単位は、在庫を追跡するために使用される一意の英数字の識別子です。 SKUの長さは最大64文字です。 例：`sku123`<br/>**_Note:_** SKUが64文字を超えると、読み込みが失敗します。 |
 | `store_view_code` | 商品が利用可能な特定のストアビューを特定します。 空白の場合、商品はデフォルトのストアビューで利用できます。 例：`storeview1`、`english`、`spanish` |
 | `attribute_set_code` | 製品タイプに応じて、特定の属性セットまたは製品テンプレートに製品を割り当てます。 例：`default`<br><br>製品を作成した後、読み込み機能を使用して属性セットを変更することはできません。 ただし、管理者から属性セットを変更し、製品を再エクスポートしてCSV ファイルを更新できます。 |
-| `product_type` | 製品のタイプを示します。 値：<br/>`simple` – 通常は単体または固定数量で販売される有形品目。<br/>`grouped` — セットとして販売される別の製品のグループ。<br/>`configurable` – 顧客が購入する前に選択する必要がある複数のオプションを持つ製品。 バリエーションのセットごとに在庫を管理できます。各バリエーションは、個別のSKUを持つ個別の製品を表しているからです。 例えば、設定可能な製品の色とサイズの組み合わせは、カタログ内の特定のSKUに関連付けられます。<br/>`virtual` – 配送を必要とせず、在庫に保管されていない無形製品。 例としては、サービス、メンバーシップ、サブスクリプションなどがあります。<br/>`bundle` – 一緒に販売されるシンプルな製品のカスタマイズ可能な製品セット。 |
+| `product_type` | 製品のタイプを示します。 値：<br/>`simple` – 通常は単体または固定数量で販売される有形品目。<br/>`grouped` — セットとして販売される別の製品のグループ。<br/>`configurable`  – 顧客が購入する前に選択しなければならない複数のオプションを持つ製品。 バリエーションのセットごとに在庫を管理できます。各バリエーションは、個別のSKUを持つ個別の製品を表しているからです。 例えば、設定可能な製品の色とサイズの組み合わせは、カタログ内の特定のSKUに関連付けられます。<br/>`virtual` （有形ではない商品で、出荷が必要なく、在庫には保管されていない）。 例として、サービス、メンバーシップ、サブスクリプションが挙げられます。<br/>`bundle` — カスタマイズ可能なシンプルな商品セットを一緒に販売。 |
 | `categories` | 製品に割り当てられている各カテゴリを示します。 スラッシュでカテゴリとサブカテゴリを区切ります。 複数のカテゴリ パスを示すには、各パスをパイプ記号\|で区切ります。 例：`Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | 製品が使用可能な各web サイトのweb サイトコード。 1つの製品を複数のweb サイトに割り当てることも、1つに制限することもできます。 複数のWeb サイトを指定する場合は、それぞれのWeb サイトをコンマで区切り、スペースなしで区切ります。 例：`base`または`base,website2` |
 | `name` | 製品名は、すべての製品リストに表示され、顧客が製品を識別するために使用する名前です。 |
 | `description` | 商品説明には、商品に関する詳細な情報が記載されており、単純なHTML タグが含まれている場合があります。 |
 | `short_description` | 短い製品説明の使用は、テーマによって異なります。 商品リストに表示される場合があり、ショッピングサイトに送信されるRSS フィードのリストで使用されることがあります。 |
 | `weight` | 個々の製品の重み。 実際の商品の重量は、出荷時に配送業者によって決定されます。 |
-| product_online | その商品が店舗で販売可能かどうかを判断します。 値：<br/>`1` — （はい）製品は有効になっており、販売可能です。<br/>`2` — （いいえ）製品は無効になっており、販売できません。 |
+| product_online | その商品が店舗で販売可能かどうかを判断します。 値：<br/>`1` — （はい）製品は有効になっており、販売可能です。<br/>`2` — （いいえ）製品は無効になっており、販売不可です。 |
 | `tax_class_name` | この製品に関連付けられている税区分の名前。 |
-| `visibility` | 商品がカタログに表示され、検索に利用できるかどうかを指定します。 値：<br/>`Not Visible Individually` – 製品は製品リストに含まれていませんが、別の製品のバリエーションとして利用できる場合があります。<br/>`Catalog` – 製品がすべてのカタログ リストに表示されます。<br/>`Search` – この製品は検索操作に使用できます。<br/>`Catalog, Search` – 商品はカタログリストに含まれており、検索にも利用できます。 |
+| `visibility` | 商品がカタログに表示され、検索に利用できるかどうかを指定します。 値：<br/>`Not Visible Individually` – 製品リストには製品が含まれていませんが、別の製品のバリエーションとして利用できる場合があります。<br/>`Catalog`  – 製品は、すべてのカタログ リストに表示されます。<br/>`Search`  – 製品は検索操作に使用できます。<br/>`Catalog, Search`  – 商品はカタログリストに含まれており、検索にも利用できます。 |
 | `price` | 商品が店舗で販売するために提供される価格。 |
 | `special_price` | 指定された日付範囲内の製品の割引価格。 |
 | `special_price_from_date` | 特別価格が有効な期間の開始日。 |
@@ -55,23 +55,23 @@ ht-degree: 0%
 | `display_product_options_in` | 製品に複数のオプションがある場合は、それらのオプションが製品ページのどこに表示されるかを指定します。 値：商品情報の列/情報列の後のブロック |
 | `map_price` | 製品の最低広告価格。 （MAPが有効になっている場合にのみ表示されます）。 |
 | `msrp_price` | 製造業者が提案する製品の小売価格。 （MAPが有効になっている場合にのみ表示されます）。 |
-| `map_enabled` | 設定で最小広告価格が有効になっているかどうかを指定します。 値：<br/>`1` — （はい） MAPが有効です。<br/>`0` （または空白） – （いいえ） MAPは有効ではありません。 |
-| `gift_message_available` | 商品の購入にギフトメッセージを含めることができるかどうかを判断します。 値：<br/>`1` — （はい） ギフトメッセージを含めるオプションは、お客様に提示されます。<br/>`0` （または空白） – （いいえ） ギフトメッセージを含めるオプションはお客様に表示されません。 |
+| `map_enabled` | 設定で最小広告価格が有効になっているかどうかを指定します。 値：<br/>`1` — （はい） MAPが有効です。<br/>`0` （または空白） – （いいえ） MAPは有効になっていません。 |
+| `gift_message_available` | 商品の購入にギフトメッセージを含めることができるかどうかを判断します。 値：<br/>`1` — （はい） ギフトメッセージを含めるオプションは、お客様に提示されます。<br/>`0` （または空白） – （いいえ） ギフトメッセージを含めるオプションは、お客様に表示されません。 |
 | `custom_design` | 製品ページに適用できるテーマの一覧が表示されます。 |
 | `custom_design_from` | 選択したテーマを製品ページに適用する開始日を指定します。 |
 | `custom_design_to` | 選択したテーマを製品ページに適用する終了日を指定します。 |
 | `custom_layout_update` | 製品ページにレイアウト更新として適用される追加のXML コード。 |
-| `page_layout` | 製品ページのページレイアウトを決定します。 値：<br/>`No layout updates` — ページレイアウトは変更されません。<br/>`1 column` – 製品ページに1列のレイアウトを適用します。<br/>`2 columns with left bar` – 左サイドバーを含む2列レイアウトを製品ページに適用します。<br/>`2 columns with right bar` – 右側のサイドバーを持つ2列レイアウトを製品ページに適用します。<br/>`3 columns` – 商品ページに3列レイアウトを適用します。<br/>`empty` – 商品ページに空白のレイアウトを適用します。 |
+| `page_layout` | 製品ページのページレイアウトを決定します。 値：<br/>`No layout updates` — ページレイアウトは変更されません。<br/>`1 column` — 1列のレイアウトを製品ページに適用します。<br/>`2 columns with left bar`  – 左サイドバーを含む2列レイアウトを製品ページに適用します。<br/>`2 columns with right bar`  – 右側のサイドバーを持つ2列レイアウトを製品ページに適用します。<br/>`3 columns` — 3列のレイアウトを製品ページに適用します。<br/>`empty`  – 商品ページに空白のレイアウトを適用します。 |
 | `product_options_container` | 製品に複数のオプションがある場合は、それらのオプションが製品ページのどこに表示されるかを指定します。 値：商品情報の列/情報列の後のブロック |
-| `msrp_display_actual_price_type` | 商品の実際の価格を顧客に表示する場所を指定します。 値：<br/>`In Cart` — ショッピングカート内の実際の商品価格を表示します。<br/>`Before Order Confirmation` – 注文が確認される直前のチェックアウトプロセスの最後に、実際の商品価格を表示します。<br/>`On Gesture` – 顧客が&#x200B;_価格をクリック_&#x200B;または&#x200B;_をクリックすると、実際の商品価格がポップアップに表示されます。_ リンク。 |
+| `msrp_display_actual_price_type` | 商品の実際の価格を顧客に表示する場所を指定します。 値：<br/>`In Cart` — ショッピングカート内の実際の商品価格を表示します。<br/>`Before Order Confirmation`  – 注文が確認される直前のチェックアウトプロセスの最後に、実際の商品価格を表示します。<br/>`On Gesture`  – 顧客が「_価格をクリックする_」または「_これは何ですか？_」をクリックすると、実際の商品価格がポップアップに表示されます。 リンク： |
 | `country_of_manufacture` | 製品が製造された国を示します。 |
 | `additional_attributes` | 製品に対して作成された追加属性。 例：<br/>`has_options=0,required_options=0color=Black,has_options=0,required_options=0,size_general=XS` |
 | `qty` | 現在在庫のある商品の数量。 |
 | `out_of_stock_qty` | 商品の在庫切れを決定する在庫レベル。 |
-| `use_config_min_qty` | 設定のデフォルト値を使用するかどうかを指定し、「設定設定を使用」チェックボックスに対応します。 値：<br/>`1` — （はい）この属性の値には、デフォルトの設定設定が使用されます。<br/>`0` （または空白） – （いいえ）この属性の値に対してデフォルト設定を上書きできます。 |
-| `is_qty_decimal` | qty属性に小数点以下桁の値があるかどうかを指定します。 値：<br/>`1` — （はい） qty属性の値は10進数値です。<br/>`0` （または空白） – （いいえ） qty属性の値は整数（整数）です。 |
+| `use_config_min_qty` | 設定のデフォルト値を使用するかどうかを指定し、「設定設定を使用」チェックボックスに対応します。 値：<br/>`1` — （はい）この属性の値には、デフォルトの構成設定が使用されます。<br/>`0` （または空白） – （いいえ）この属性の値に対してデフォルト設定を上書きできます。 |
+| `is_qty_decimal` | qty属性に小数点以下桁の値があるかどうかを指定します。 値：<br/>`1` — （はい） qty属性の値は10進数値です。<br/>`0` （or blank） – （No） qty属性の値は整数（整数）です。 |
 | `allow_backorders` | ストアで取り寄せ注文が許可されるかどうか、およびそれらの管理方法を決定します。 |
-| `use_config_backorders` | バックオーダーのデフォルトの構成設定が使用されるかどうかを指定し、「構成設定を使用」チェックボックスの状態に対応します。 値：<br/>`1` — （はい） qty属性の値は10進数値です。<br/>`0` （または空白） – （いいえ） qty属性の値は整数（整数）です。 |
+| `use_config_backorders` | バックオーダーのデフォルトの構成設定が使用されるかどうかを指定し、「構成設定を使用」チェックボックスの状態に対応します。 値：<br/>`1` — （はい） qty属性の値は10進数値です。<br/>`0` （or blank） – （No） qty属性の値は整数（整数）です。 |
 | `min_cart_qty` | 1回の注文で購入できる商品の最小数量を指定します。 |
 | `use_config_min_sale_qty` | 最小数量のデフォルトの構成設定を使用するかどうかを指定し、「構成設定を使用」チェックボックスの状態に対応します。 値：<br/>`1` — （はい） <br/>`0` （または空白） – （いいえ） |
 | `max_cart_qty` | 1回の注文で購入できる製品の最大数量を指定します。 |
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 設定可能な製品を書き出す場合、単純な製品を構成する標準属性に加えて、複雑なデータを管理するために必要な追加の属性が表示されます。
 
-![構成可能な製品 – エクスポートされたデータ &#x200B;](./assets/data-exported-configurable-product.png){width="600" zoomable="yes"}
+![構成可能な製品 – エクスポートされたデータ ](./assets/data-exported-configurable-product.png){width="600" zoomable="yes"}
 
 ### コンフィグ商品
 
@@ -149,7 +149,7 @@ ht-degree: 0%
 | `bundle_price_type` | バンドル商品の価格が固定か動的かを指定します。 |
 | `bundle_sku_type` | 各項目に変数が割り当てられるか、動的SKUが割り当てられるか、またはバンドルに固定SKUが使用されるかを指定します。 オプション：固定/動的 |
 | `bundle_weight_type` | バンドル項目の重みが可変か固定かを指定します。 |
-| `bundle_values` | バンドルオプションに関連付けられたティーチング値について説明します。 例：`name=Bundle Option One,type=dropdown; required=1, sku=sku-option2,price=10, price_type=fixed` |
+| `bundle_values` | バンドルオプションに関連付けられている各値について説明します。 例：`name=Bundle Option One,name_store_view_1=Group 1,type=dropdown; required=1,sku=sku-option2,price=10,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0,price_website_website_1=30.000000,price_type_website_website_1=fixed`<br/><br/> 「`name_[store-view-code]`」オプションでは、`[store-view-code]`はストアビューの名前です。<br/></br> オプション `price_website_[website-code]`と`price_type_website_[website-code]`は、web サイト `[website-code]`の製品価格を指定します。 [ カタログ価格範囲](../catalog/catalog-price-scope.md)が&#x200B;*グローバル*&#x200B;に設定されている場合、これらのオプションは使用できません。 |
 
 {style="table-layout:auto"}
 
@@ -162,13 +162,13 @@ ht-degree: 0%
 | 属性 | 説明 |
 |--- |--- |
 | `sku` | （必須）在庫保管単位は、在庫を追跡するために使用される一意の英数字の識別子です。 SKUの長さは最大64文字です。 例：`sku123`<br/>**_Note:_** SKUが64文字を超えると、読み込みが失敗します。 |
-| `tier_price_website` | [web サイト コード &#x200B;](../stores-purchase/stores.md#add-websites)は、階層の価格が利用可能な各web サイトを識別します。 例：`-  website1 -  All Websites [USD]` |
-| `tier_price_customer` | 階層価格が利用可能な[顧客グループ &#x200B;](../customers/customer-groups.md)を特定します。 例：`-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
+| `tier_price_website` | [web サイト コード ](../stores-purchase/stores.md#add-websites)は、階層の価格が利用可能な各web サイトを識別します。 例：`-  website1 -  All Websites [USD]` |
+| `tier_price_customer` | 階層価格が利用可能な[顧客グループ ](../customers/customer-groups.md)を特定します。 例：`-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_customer_group` | 階層価格が利用可能な顧客グループを特定します。 例：`-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_qty` | 階層価格割引を受け取るために注文する必要がある製品の数量。 |
-| `tier_price` | 製品の割引価格。 [&#x200B; バンドル製品](../catalog/product-create-bundle.md)の場合、階層の価格はパーセントとして計算されます。 |
-| `group_price_website` | グループ価格が利用可能な各web サイトの[web サイト コード &#x200B;](../stores-purchase/stores.md#add-websites)。 複数のWeb サイトを指定する場合は、それぞれのWeb サイトをコンマで区切り、スペースなしで区切ります。 例：`-  website1 -  All Websites [USD]` |
+| `tier_price` | 製品の割引価格。 [ バンドル製品](../catalog/product-create-bundle.md)の場合、階層の価格はパーセントとして計算されます。 |
+| `group_price_website` | グループ価格が利用可能な各web サイトの[web サイト コード ](../stores-purchase/stores.md#add-websites)。 複数のWeb サイトを指定する場合は、それぞれのWeb サイトをコンマで区切り、スペースなしで区切ります。 例：`-  website1 -  All Websites [USD]` |
 | `group_price_customer_group` | グループ価格が利用可能な顧客グループを特定します。 例：`-  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
-| `group_price` | 製品の割引グループ価格。 [&#x200B; バンドル製品](../catalog/product-create-bundle.md)の場合、グループ価格はパーセントとして計算されます。 |
+| `group_price` | 製品の割引グループ価格。 [ バンドル製品](../catalog/product-create-bundle.md)の場合、グループ価格はパーセントとして計算されます。 |
 
 {style="table-layout:auto"}

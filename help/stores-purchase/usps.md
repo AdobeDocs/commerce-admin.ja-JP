@@ -1,146 +1,153 @@
 ---
-title: 米国郵政公社（USPS）
-description: ストアの配送業者としての USPS の設定方法を説明します。
+title: 米国郵政公社
+description: ストアの配送業者としてUSPSを設定する方法を説明します。
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
 
-# 米国郵政公社（USPS）
+# 米国郵政公社
 
-米国郵便サービスは、陸路および空路による国内外の輸送サービスを提供する、米国政府の独立した郵便サービスです。
+アメリカ合衆国郵便局はアメリカ合衆国政府の独立した郵便サービスであり、陸路と空路による国内及び国際配送サービスを提供する。
 
-## 手順 1:USPS 出荷アカウントを開く
+## ステップ 1:USPSの送料アカウントを開く
 
-[USPS Web ツール &#x200B;](https://secure.shippingapis.com/registration/) アカウントを開きます。 登録プロセスが完了すると、ユーザー ID と USPS テスト・サーバへの URL が表示されます。
+[USPS Web Tools](https://secure.shippingapis.com/registration/) アカウントを開きます。 登録プロセスが完了すると、ユーザーIDとUSPS テストサーバーへのURLが届きます。
 
-[USPS Web Tools](https://secure.shippingapis.com/registration/) アカウントを開くこともできます。 登録プロセスが完了すると、ユーザー ID と USPS テスト・サーバへの URL が表示されます。 USPS Web Tools の詳細については、それぞれの [&#x200B; 技術ドキュメント &#x200B;](https://www.usps.com/business/web-tools-apis/welcome.htm) を参照してください。
+[USPS Web Tools](https://secure.shippingapis.com/registration/) アカウントを開くこともできます。 登録プロセスが完了すると、ユーザーIDとUSPS テストサーバーへのURLが届きます。 USPS Web ツールについて詳しくは、[技術ドキュメント ](https://www.usps.com/business/web-tools-apis/welcome.htm)を参照してください。
 
-## 手順 2：ストアの USP を有効にする
+## ステップ 2：ストアでUSPSを有効にする
 
 {{$include /help/_includes/usps-api-type-configuration-note.md}}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Delivery Methods]**」を選択します。
+1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Delivery Methods]**&#x200B;を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL USPS]**」セクションを展開します。
+1. **[!UICONTROL USPS]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
    >[!NOTE]
    >
-   >必要に応じて、まず「**[!UICONTROL Use system value]**」チェックボックスの選択を解除し、説明に従って次の設定を変更します。
+   >必要に応じて、最初に&#x200B;**[!UICONTROL Use system value]** チェックボックスの選択を解除し、説明に従って次の設定を変更します。
 
-1. **[!UICONTROL Enabled for Checkout]** を `Yes` に設定します。
+1. **[!UICONTROL Enabled for Checkout]**&#x200B;を`Yes`に設定します。
 
-1. USPS REST API を使用している場合は、**[!UICONTROL USPS Type]** を `USPS Rest APIs` に設定します。
+1. USPS API タイプを設定します。
 
-   USPS Web Tools API を使用している場合は、**[!UICONTROL USPS Type]** を `USPS Web Tools API` に設定します。
+   - USPS REST APIを使用している場合は、**[!UICONTROL USPS Type]**&#x200B;を`USPS REST API`に設定します。
 
-1. 必要に応じて、USPS の配送料にアクセスするための **[!UICONTROL Gateway URL]** を入力します。
+   - USPS Web Tools APIを使用している場合は、**[!UICONTROL USPS Type]**&#x200B;を`USPS Web Tools API`に設定します。
 
-   このフィールドはデフォルトでプリセットされており、通常は変更する必要はありません。
+   >[!NOTE]
+   >
+   >USPS Rest APIは、USPSとの統合に適した方法です。 USPS Web Tools APIは推奨されません。今後のリリースで削除される可能性があります。
 
-1. チェックアウト時に表示されるこの配送方法の **[!UICONTROL Title]** を入力します。
+1. 必要に応じて、**[!UICONTROL Gateway URL]**&#x200B;を入力してUSPSの送料にアクセスします。
 
-1. USPS から提供された資格情報を使用して、次のフィールドに入力します。
+   フィールドはデフォルトでプリセットされており、通常は変更する必要はありません。
 
-   USPS Rest API を使用している場合は、次の資格情報を指定する必要があります。
+1. チェックアウト時に表示されるこの配送方法の&#x200B;**[!UICONTROL Title]**&#x200B;を入力してください。
+
+1. USPSが提供する資格情報を使用して、次のフィールドに入力します。
+
+   USPS Rest APIを使用している場合は、次の資格情報を指定します。
 
    - **[!UICONTROL Consumer Key]**
    - **[!UICONTROL Consumer Secret]**
    - **[!UICONTROL Pricing Options]**
 
-   USPS Web Tools API を使用している場合は、次の資格情報を指定する必要があります。
+   USPS Web Tools APIを使用している場合は、次の資格情報を指定します。
 
    - **[!UICONTROL User ID]**
    - **[!UICONTROL Password]**
 
-1. **[!UICONTROL Mode]** を次のいずれかに設定します。
 
-   - `Development` - テスト環境で USPS を実行します。 開発環境で USPS を実行した後、必ず後で戻ってモードを `Live` に設定してください。
-   - `Live`：本番 USPS 環境で USPS を実行します。
+1. **[!UICONTROL Mode]**&#x200B;を次のいずれかに設定します：
 
-## 手順 3：パッケージの説明の入力
+   - `Development` - テスト環境でUSPSを実行します。 開発環境でUSPSを実行した後、必ず後で戻ってModeを`Live`に設定してください。
+   - `Live` - ライブ実稼動環境でUSPSを実行します。
 
-1. 複数のパッケージとして送信された場合の注文の管理方法を決定するには、**[!UICONTROL Packages Request Type]** を次のいずれかに設定します。
+## 手順3：パッケージの説明を完了する
 
-   - `Divide to Equal Weight` - （1 件のリクエスト）同じ重さでパッケージが分割されている場合、複数のパッケージの出荷を 1 件のリクエストとして送信できます。
-   - `Use Origin Weight` - （複数のリクエスト）配送元重量を配送料の計算の基礎として使用する場合は、複数のパッケージを別々のリクエストとして送信する必要があります。
+1. 複数のパッケージとして送信された場合の注文の管理方法を判断するには、**[!UICONTROL Packages Request Type]**&#x200B;を次のいずれかに設定します。
 
-1. 通常、店舗で注文した製品を出荷するために使用されるパッケージのタイプに **[!UICONTROL Container]** を設定します。
+   - `Divide to Equal Weight` - （1回のリクエスト）複数のパッケージを同じ重みで割った場合、1回のリクエストとして複数のパッケージの出荷を送信できます。
+   - `Use Origin Weight` - （複数のリクエスト）発送元の重量を出荷原価の計算の基礎として使用する場合、複数のパッケージを個別のリクエストとして送信する必要があります。
 
-1. ストアから出荷された一般的なパッケージの **[!UICONTROL Size]** を設定します。
+1. **[!UICONTROL Container]**&#x200B;を、お店で注文した商品の出荷に通常使用されるパッケージの種類に設定します。
 
-1. **[!UICONTROL Machinable]** を次のいずれかに設定します。
+1. ストアから出荷される一般的なパッケージの&#x200B;**[!UICONTROL Size]**&#x200B;を設定します。
 
-   - `Yes` – 典型的なパッケージを機械で処理できる場合。
+1. **[!UICONTROL Machinable]**&#x200B;を次のいずれかに設定します：
+
+   - `Yes` – 通常のパッケージをコンピューターで処理できる場合。
    - `No` – 一般的なパッケージを手動で処理する必要がある場合。
 
-1. 通信事業者の要件に従って **[!UICONTROL Maximum Package Weight]** を入力します。
+1. 通信事業者の要件に従って&#x200B;**[!UICONTROL Maximum Package Weight]**&#x200B;を入力します。
 
-   ![USPS パッケージ設定 &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-packaging.png){width="600" zoomable="yes"}
+   ![USPS パッケージ設定](../configuration-reference/sales/assets/delivery-methods-usps-packaging.png){width="600" zoomable="yes"}
 
-## 手順 4：手数料の設定
+## 手順4：処理手数料の設定
 
-手数料は任意で、DHL の送料に加算される追加料金として表示されます。 手数料を含める場合は、次の操作を行います。
+処理手数料はオプションで、DHLの送料に追加される追加料金として表示されます。 処理手数料を含める場合は、次の操作を行います。
 
-1. **[!UICONTROL Calculate Handling Fee]** を次のいずれかのメソッドに設定します。
+1. **[!UICONTROL Calculate Handling Fee]**&#x200B;を次のいずれかのメソッドに設定します。
 
    - `Fixed`
    - `Percent`
 
-1. 手数料の適用方法を決定するには、**[!UICONTROL Handling Applied]** を次のいずれかに設定します。
+1. 処理手数料の適用方法を決定するには、**[!UICONTROL Handling Applied]**&#x200B;を次のいずれかに設定します。
 
    - `Per Order`
    - `Per Package`
 
-1. 請求する **[!UICONTROL Handling Fee]** の金額を入力します。
+1. 請求する&#x200B;**[!UICONTROL Handling Fee]**&#x200B;の金額を入力してください。
 
-   パーセンテージを入力するには、小数点形式を使用します。 例えば、25% の場合は `0.25` と入力します。
+   割合を入力するには、小数点以下桁を使用します。 例えば、25%に「`25`」と入力します。
 
-   ![USPS 手数料 &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
+   ![USPS処理手数料](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
 
-## 手順 5：許可される方法と適用可能な国を指定
+## ステップ 5：許可された方法と適用国を指定する
 
-1. **[!UICONTROL Allowed Methods]** しくは、顧客が使用できる各 USPS 配送方法を選択します。
+1. **[!UICONTROL Allowed Methods]**&#x200B;の場合、顧客が利用できる各USPS配送方法を選択します。
 
-   メソッドは、チェックアウト時に USPS の下に表示されます。 複数の方法を選択するには、Ctrl キー（PC）または Command キー（Mac）を押したまま、各オプションをクリックします。
+   チェックアウト時にUSPSの下に表示されます。 複数の方法を選択するには、Ctrl キー（PC）またはCommand キー（Mac）を押しながら、各オプションをクリックします。
 
-1. USPS 経由で [&#x200B; 送料無料 &#x200B;](shipping-free.md) オプションを提供する場合は、送料無料オプションを設定します。
+1. USPSを通じて[送料無料](shipping-free.md) オプションを提供する場合は、送料無料オプションを設定します。
 
-   - 送料無料に使用する方法に **[!UICONTROL Free Method]** を設定します。 USPS 経由で送料無料を提供したくない場合は、`None` を選択します。
+   - **[!UICONTROL Free Method]**&#x200B;を送料無料に使用する方法に設定します。 USPSを通じて送料無料を提供しない場合は、`None`を選択します。
 
-   - USPS を使用した送料無料の注文に該当する最小注文額を要求するには、**[!UICONTROL Enable Free Shipping Threshold]** を `Enable` に設定します。 次に、**[!UICONTROL Free Shipping Amount Threshold]** に最小値を入力します。
+   - USPSでの送料無料の注文に該当する最低注文金額を要求するには、**[!UICONTROL Enable Free Shipping Threshold]**&#x200B;を`Enable`に設定します。 次に、最小値を&#x200B;**[!UICONTROL Free Shipping Amount Threshold]**&#x200B;に入力します。
 
-1. 必要に応じて、**[!UICONTROL Displayed Error Message]** を変更します。
+1. 必要に応じて、**[!UICONTROL Displayed Error Message]**&#x200B;を変更します。
 
-   このテキスト ボックスには既定のメッセージがあらかじめ設定されていますが、USPS が使用できなくなったときに表示する別のメッセージを入力できます。
+   このテキストボックスにはデフォルトのメッセージがプリセットされていますが、USPSが使用できなくなった場合に表示する別のメッセージを入力できます。
 
-   ![USPS 許可メソッド &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
+   ![USPS許可メソッド ](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Ship to Applicable Countries]** を次のいずれかに設定します。
+1. **[!UICONTROL Ship to Applicable Countries]**&#x200B;を次のいずれかに設定します：
 
-   - `All Allowed Countries` - ストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../getting-started/store-details.md#country-options) の顧客がこの配信方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、「_特定の国に発送_ リストが表示されます。 リストで、この配信方法を使用できる国を選択します。
+   - `All Allowed Countries` - ストア設定で指定されたすべての[国](../getting-started/store-details.md#country-options)のお客様は、この配信方法を使用できます。
+   - `Specific Countries` – このオプションを選択すると、_特定国への配送_ リストが表示されます。 この配信方法を使用できるリストの各国を選択します。
 
-   ![USPS 対象国 &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-countries.png){width="600" zoomable="yes"}
+   ![USPS適用国](../configuration-reference/sales/assets/delivery-methods-usps-countries.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Show Method if Not Applicable]** を次のいずれかに設定します。
+1. **[!UICONTROL Show Method if Not Applicable]**&#x200B;を次のいずれかに設定します：
 
-   - `Yes` - チェックアウト時に利用可能なすべての USPS 配送方法を一覧表示します（配送に適用されない方法を含む）。
-   - `No` – 出荷に適用可能な USPS 出荷方法のみをリストします。
+   - `Yes` - チェックアウト時に使用可能なすべてのUSPS配送方法を、配送に適用されない方法を含めて一覧表示します。
+   - `No` – 配送に適用されるUSPS配送方法のみを一覧表示します。
 
-1. ストアから作成された USPS 出荷の詳細を記録したログ ファイルを作成するには、**[!UICONTROL Debug]** を `Yes` に設定します。
+1. ストアから行われたUSPSの出荷の詳細を含むログファイルを作成するには、**[!UICONTROL Debug]**&#x200B;を`Yes`に設定します。
 
-1. **[!UICONTROL Sort Order]**：番号を入力して、チェックアウト時に他の配信方法と一緒に表示される USPS の表示順序を決定します。
+1. **[!UICONTROL Sort Order]**&#x200B;に番号を入力して、チェックアウト時に他の配信方法と共に表示されるときにUSPSが表示されるシーケンスを決定します。
 
-   `0` = 1 番目、`1` = 2 番目、`2` = 3 番目など。
+   `0` = first、`1` = second、`2` = thirdなど。
 
-1. 「**[!UICONTROL Save Config]**」をクリックします。
+1. **[!UICONTROL Save Config]**&#x200B;をクリックします。
 
 
 <!-- Last updated from includes: 2025-11-26 10:55:00 -->
