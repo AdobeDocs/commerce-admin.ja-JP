@@ -34,7 +34,7 @@ Google reCAPTCHAは、いくつかの方法で実装できます。
 
 >[!IMPORTANT]
 >
->Google reCAPTCHAを設定する前に、`PHP.ini` ファイルに次の設定が含まれていることを確認してください：`allow_url_fopen = 1`。 これには開発者のサポートが必要になる場合があります。 インストールガイドの「[必要なPHP設定](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html){:target="_blank"}」を参照してください。
+>Google reCAPTCHAを設定する前に、`PHP.ini` ファイルに次の設定が含まれていることを確認してください：`allow_url_fopen = 1`。 これには開発者のサポートが必要になる場合があります。 インストールガイドの「[必要なPHP設定](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=ja){:target="_blank"}」を参照してください。
 
 ## 手順1:Google reCAPTCHA キーの生成
 
@@ -73,7 +73,7 @@ Google reCAPTCHAを有効にするには、一対のAPI キーが必要です。
 
 ## 手順2：管理者用Google reCAPTCHAの設定
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 1. Admin アカウントにログインします。
 

@@ -23,7 +23,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p><code class="language-plaintext highlighter-rouge">numeric</code>および<code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types">属性入力タイプ </a>を追加し、構成参照に<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes">製品ファイル属性</a> ページを追加しました。</p>
+      <td><p><code class="language-plaintext highlighter-rouge">numeric</code>および<code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/product-attributes/attributes-input-types">属性入力タイプ </a>を追加し、構成参照に<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/config/catalog/product-file-attributes">製品ファイル属性</a> ページを追加しました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -45,7 +45,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Serviceの手順を<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">買い物客のサポートを提供</a>に追加しました。</p>
+      <td><p>Adobe Commerce as a Cloud Serviceの手順を<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">買い物客のサポートを提供</a>に追加しました。</p>
 </td>
       <td>
         メジャーアップデート
