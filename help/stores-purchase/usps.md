@@ -3,9 +3,9 @@ title: 米国郵政公社
 description: ストアの配送業者としてUSPSを設定する方法を説明します。
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
+source-git-commit: b0f3256e6e41ce3e605a9564ce0e412efcba9c98
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,13 @@ ht-degree: 0%
 
 ## ステップ 1:USPSの送料アカウントを開く
 
-[USPS Web Tools](https://secure.shippingapis.com/registration/) アカウントを開きます。 登録プロセスが完了すると、ユーザーIDとUSPS テストサーバーへのURLが届きます。
-
-[USPS Web Tools](https://secure.shippingapis.com/registration/) アカウントを開くこともできます。 登録プロセスが完了すると、ユーザーIDとUSPS テストサーバーへのURLが届きます。 USPS Web ツールについて詳しくは、[技術ドキュメント &#x200B;](https://www.usps.com/business/web-tools-apis/welcome.htm)を参照してください。
+[USPS Developer Portal](https://developers.usps.com/) アカウントを開きます。 登録プロセスが完了すると、ユーザーIDとUSPS テストサーバーへのURLが届きます。 USPS APIについて詳しくは、[技術ドキュメント ](https://developers.usps.com/getting-started)を参照してください。
 
 ## ステップ 2：ストアでUSPSを有効にする
 
 {{$include /help/_includes/usps-api-type-configuration-note.md}}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Delivery Methods]**&#x200B;を選択します。
 
@@ -36,15 +34,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Enabled for Checkout]**&#x200B;を`Yes`に設定します。
 
-1. USPS API タイプを設定します。
-
-   - USPS REST APIを使用している場合は、**[!UICONTROL USPS Type]**&#x200B;を`USPS REST API`に設定します。
-
-   - USPS Web Tools APIを使用している場合は、**[!UICONTROL USPS Type]**&#x200B;を`USPS Web Tools API`に設定します。
+1. **[!UICONTROL USPS Type]**&#x200B;を`USPS REST API`に設定します。
 
    >[!NOTE]
    >
-   >USPS Rest APIは、USPSとの統合に適した方法です。 USPS Web Tools APIは推奨されません。今後のリリースで削除される可能性があります。
+   >USPSでは、USPS Web Tools APIがサポートされなくなりました。
 
 1. 必要に応じて、**[!UICONTROL Gateway URL]**&#x200B;を入力してUSPSの送料にアクセスします。
 
@@ -64,7 +58,6 @@ ht-degree: 0%
 
    - **[!UICONTROL User ID]**
    - **[!UICONTROL Password]**
-
 
 1. **[!UICONTROL Mode]**&#x200B;を次のいずれかに設定します：
 
@@ -127,7 +120,7 @@ ht-degree: 0%
 
    このテキストボックスにはデフォルトのメッセージがプリセットされていますが、USPSが使用できなくなった場合に表示する別のメッセージを入力できます。
 
-   ![USPS許可メソッド &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
+   ![USPS許可メソッド ](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Ship to Applicable Countries]**&#x200B;を次のいずれかに設定します：
 
