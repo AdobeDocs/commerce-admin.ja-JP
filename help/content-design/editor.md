@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # WYSIWYG エディター
 
-エディターでは、コンテンツの&#x200B;_What You See Is What You Get_ （WYSIWYG）ビューで作業する際に入力および書式設定を行うことができます。 基盤となるHTMLのコードを直接操作したい場合は、簡単にモードを変更できます。 エディターを使用して、[ ページ ](pages.md)、[ ブロック ](blocks.md)、[商品説明](../catalog/product-content.md)のコンテンツを作成できます。 製品の詳細を操作する場合は、**[!UICONTROL Show / Hide Editor]**&#x200B;をクリックしてエディターにアクセスします。
+エディターでは、コンテンツの&#x200B;_What You See Is What You Get_ （WYSIWYG）ビューで作業する際に入力および書式設定を行うことができます。 基盤となるHTMLのコードを直接操作したい場合は、簡単にモードを変更できます。 エディターを使用して、[&#x200B; ページ &#x200B;](pages.md)、[&#x200B; ブロック &#x200B;](blocks.md)、[商品説明](../catalog/product-content.md)のコンテンツを作成できます。 製品の詳細を操作する場合は、**[!UICONTROL Show / Hide Editor]**&#x200B;をクリックしてエディターにアクセスします。
 
-![ エディターツールバー](./assets/editor-toolbar.png){width="700" zoomable="yes"}
+![&#x200B; エディターツールバー](./assets/editor-toolbar.png){width="700" zoomable="yes"}
 
 次のトピックでは、エディターの使用に関する詳細な情報を提供します。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 WYSIWYG エディターはデフォルトで有効になっており、CMSのページやブロック、および商品やカテゴリーでコンテンツを編集するために使用できます。 設定から、エディターをアクティブ化または非アクティブ化し、製品およびカテゴリの説明のメディアコンテンツに[dynamic](../catalog/catalog-urls.md#dynamic-url)ではなく静的URLを使用することを選択できます。
 
-![WYSIWYG オプション ](../configuration-reference/general/assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+![WYSIWYG オプション &#x200B;](../configuration-reference/general/assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -35,9 +35,9 @@ WYSIWYG エディターはデフォルトで有効になっており、CMSのペ
 
 すべてのWYSIWYG オプションについて詳しくは、_Configuration Reference_&#x200B;の[Content Management](../configuration-reference/general/content-management.md)を参照してください。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左側のパネルで、**[!UICONTROL Content Management]**を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左側のパネルで、**[!UICONTROL Content Management]**&#x200B;を選択します。
 
 1. ![拡張セレクター](../assets/icon-display-expand.png) **[!UICONTROL WYSIWYG Options]**&#x200B;を展開します。
 
@@ -45,6 +45,6 @@ WYSIWYG エディターはデフォルトで有効になっており、CMSのペ
 
    エディターはデフォルトで有効になっています。
 
-1. WYSIWYG エディターで入力されたすべての[ メディアコンテンツ ](../catalog/catalog-urls.md#static-url)に対して、**[!UICONTROL Static URLs for Media Content in WYSIWYG]**&#x200B;を環境設定に設定します。
+1. WYSIWYG エディターで入力されたすべての[&#x200B; メディアコンテンツ &#x200B;](../catalog/catalog-urls.md#static-url)に対して、**[!UICONTROL Static URLs for Media Content in WYSIWYG]**&#x200B;を環境設定に設定します。
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。

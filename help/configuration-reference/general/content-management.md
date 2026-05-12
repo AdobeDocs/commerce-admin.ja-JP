@@ -19,15 +19,15 @@ ht-degree: 0%
 
 ### [!UICONTROL TinyMCE 6]
 
-![WYSIWYG オプション ](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
+![WYSIWYG オプション &#x200B;](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
 
 <!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable WYSIWYG Editor] | ストアビュー | ストアでエディターが有効かどうかを指定します。 オプション：デフォルトで有効/デフォルトで無効/完全に無効 |
-| [!UICONTROL WYSIWYG Editor] | web サイト | WYSIWYG エディターに使用されるTinyMCE エディターのバージョンを指定します。 オプション：<br/>**`TinyMCE 6`**- （デフォルト） TinyMCE バージョン 6をデフォルトのWYSIWYG エディターとして使用します。<br><br>_**&#x200B;注意：**_Adobe CommerceおよびMagento Open Source 2.4.5のTinyMCE 5.10 ライブラリをアップデートすると、一部の種類のURLを使用して画像やリンクを更新する際に任意のJavaScriptが実行される脆弱性が解決されます。 TinyMCE 3は2.4.0 リリースで廃止され、2.4.3 リリースで削除されました。 TinyMCE 4は2.4.4 リリースで削除されました。 |
-| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | グローバル | WYSIWYG エディターから参照されるメディアコンテンツに[静的URL](../../content-design/catalog-urls-dynamic-media.md)を使用するかどうかを指定します。 この設定は、商品、カテゴリ、ページ、ブロックなど、WYSIWYG エディターが使用できるすべての場所に適用されます。 オプション：<br/>**`Yes`**- WYSIWYG エディターと共に挿入されるメディアコンテンツの静的URLを使用します。 静的URLは絶対であり、ストアの[ ベース URL](../../stores-purchase/store-urls.md)が変更された場合は壊れます。<br/>**`No`** （デフォルト） - `{{media url="..."}}` ディレクティブに基づいて、WYSIWYG エディターで挿入されるメディアコンテンツに動的URLを使用します。 動的URLは相対URLであり、ストアのベース URLが変更されても壊れません。 |
+| [!UICONTROL WYSIWYG Editor] | web サイト | WYSIWYG エディターに使用されるTinyMCE エディターのバージョンを指定します。 オプション：<br/>**`TinyMCE 6`**- （デフォルト） TinyMCE バージョン 6をデフォルトのWYSIWYG エディターとして使用します。<br><br>_&#x200B;**&#x200B;注意：**&#x200B;_Adobe CommerceおよびMagento Open Source 2.4.5のTinyMCE 5.10 ライブラリをアップデートすると、一部の種類のURLを使用して画像やリンクを更新する際に任意のJavaScriptが実行される脆弱性が解決されます。 TinyMCE 3は2.4.0 リリースで廃止され、2.4.3 リリースで削除されました。 TinyMCE 4は2.4.4 リリースで削除されました。 |
+| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | グローバル | WYSIWYG エディターから参照されるメディアコンテンツに[静的URL](../../content-design/catalog-urls-dynamic-media.md)を使用するかどうかを指定します。 この設定は、商品、カテゴリ、ページ、ブロックなど、WYSIWYG エディターが使用できるすべての場所に適用されます。 オプション：<br/>**`Yes`**- WYSIWYG エディターと共に挿入されるメディアコンテンツの静的URLを使用します。 静的URLは絶対であり、ストアの[&#x200B; ベース URL](../../stores-purchase/store-urls.md)が変更された場合は壊れます。<br/>**`No`** （デフォルト） - `{{media url="..."}}` ディレクティブに基づいて、WYSIWYG エディターで挿入されるメディアコンテンツに動的URLを使用します。 動的URLは相対URLであり、ストアのベース URLが変更されても壊れません。 |
 
 {style="table-layout:auto"}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ### [!UICONTROL HugeRTE]
 
-![WYSIWYG オプション ](./assets/content-management-wysiwyg-options-hugerte.png)<!-- zoom -->
+![WYSIWYG オプション &#x200B;](./assets/content-management-wysiwyg-options-hugerte.png)<!-- zoom -->
 
 <!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 |--- |--- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable WYSIWYG Editor] | ストアビュー | ストアでエディターが有効かどうかを指定します。 オプション：デフォルトで有効/デフォルトで無効/完全に無効 |
 | [!UICONTROL WYSIWYG Editor] | web サイト | WYSIWYG エディターに使用されるHugerte エディターのバージョンを指定します。 |
-| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | グローバル | WYSIWYG エディターから参照されるメディアコンテンツに[静的URL](../../content-design/catalog-urls-dynamic-media.md)を使用するかどうかを指定します。 この設定は、商品、カテゴリ、ページ、ブロックなど、WYSIWYG エディターが使用できるすべての場所に適用されます。 オプション：<br/>**`Yes`**- WYSIWYG エディターと共に挿入されるメディアコンテンツの静的URLを使用します。 静的URLは絶対であり、ストアの[ ベース URL](../../stores-purchase/store-urls.md)が変更された場合は壊れます。<br/>**`No`** （デフォルト） - `{{media url="..."}}` ディレクティブに基づいて、WYSIWYG エディターで挿入されるメディアコンテンツに動的URLを使用します。 動的URLは相対URLであり、ストアのベース URLが変更されても壊れません。 |
+| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | グローバル | WYSIWYG エディターから参照されるメディアコンテンツに[静的URL](../../content-design/catalog-urls-dynamic-media.md)を使用するかどうかを指定します。 この設定は、商品、カテゴリ、ページ、ブロックなど、WYSIWYG エディターが使用できるすべての場所に適用されます。 オプション：<br/>**`Yes`**- WYSIWYG エディターと共に挿入されるメディアコンテンツの静的URLを使用します。 静的URLは絶対であり、ストアの[&#x200B; ベース URL](../../stores-purchase/store-urls.md)が変更された場合は壊れます。<br/>**`No`** （デフォルト） - `{{media url="..."}}` ディレクティブに基づいて、WYSIWYG エディターで挿入されるメディアコンテンツに動的URLを使用します。 動的URLは相対URLであり、ストアのベース URLが変更されても壊れません。 |
 
 {style="table-layout:auto"}
 
@@ -67,13 +67,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced Content Tools]
 
-![高度なコンテンツ ツール ](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
+![高度なコンテンツ ツール &#x200B;](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
 
 <!-- [Advanced Content Tools](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable Page Builder] | グローバル | [!DNL Page Builder]個の高度なコンテンツ ツールが使用可能かどうかを決定します。 オプション：<br/>**`Yes`**- [!DNL Page Builder] ワークスペースは、ページ、ブロック、製品、カテゴリの「コンテンツ」セクションに表示されます。<br/>**`No`** – 標準のCMS編集ツールが、ページ、ブロック、製品、およびカテゴリの&#x200B;_[!UICONTROL Content]_セクションに表示されます。 |
+| [!UICONTROL Enable Page Builder] | グローバル | [!DNL Page Builder]個の高度なコンテンツ ツールが使用可能かどうかを決定します。 オプション：<br/>**`Yes`**- [!DNL Page Builder] ワークスペースは、ページ、ブロック、製品、カテゴリの「コンテンツ」セクションに表示されます。<br/>**`No`** – 標準のCMS編集ツールが、ページ、ブロック、製品、およびカテゴリの&#x200B;_[!UICONTROL Content]_&#x200B;セクションに表示されます。 |
 | [!UICONTROL Enable Page Builder Content Preview] | グローバル | 製品とカテゴリに対して[!DNL Page Builder] コンテンツのプレビューが有効かどうかを指定します。 オプション：`Yes` / `No` <br/>**_メモ:_**&#x200B;これはデフォルトで`Yes`に設定されていますが、プレビューをオフにすると、製品またはカテゴリーフォーム内にプレビューが読み込まれるときに発生するパフォーマンスの問題を回避できます。 |
 | [!UICONTROL Google Maps API Key] | グローバル | Google アカウントの[!DNL Google Maps] API キー。 |
 | [!UICONTROL Test Key] |  | [!DNL Google Maps] API キーを検証します。 |
