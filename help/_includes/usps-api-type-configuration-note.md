@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->これらの手順には、統合用にUSPS API タイプを選択する手順が含まれています。Web ツール APIまたはREST API。 USPSはWeb ツール APIをサポートしなくなったため、REST APIを設定する必要があります。 REST API オプションが表示されない場合は、[USPS REST API Migration quality patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) （AC-1520）をCommerce アプリケーションに適用する必要があります。
+>これらの手順には、統合用にUSPS API タイプを選択する手順が含まれています。Web ツール APIまたはREST API。 USPSはWeb ツール APIをサポートしなくなったため、REST APIを設定する必要があります。 REST API オプションが表示されない場合は、[USPS REST API Migration quality patch](https://experienceleague.adobe.com/ja/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) （AC-1520）をCommerce アプリケーションに適用する必要があります。
