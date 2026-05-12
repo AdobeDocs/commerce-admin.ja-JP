@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ## ステップ 1:USPSの送料アカウントを開く
 
-[USPS Developer Portal](https://developers.usps.com/) アカウントを開きます。 登録プロセスが完了すると、ユーザーIDとUSPS テストサーバーへのURLが届きます。 USPS APIについて詳しくは、[技術ドキュメント ](https://developers.usps.com/getting-started)を参照してください。
+[USPS Developer Portal](https://developers.usps.com/) アカウントを開きます。 登録プロセスが完了すると、ユーザーIDとUSPS テストサーバーへのURLが届きます。 USPS APIについて詳しくは、[技術ドキュメント &#x200B;](https://developers.usps.com/getting-started)を参照してください。
 
 ## ステップ 2：ストアでUSPSを有効にする
 
 {{$include /help/_includes/usps-api-type-configuration-note.md}}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Delivery Methods]**&#x200B;を選択します。
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
    このテキストボックスにはデフォルトのメッセージがプリセットされていますが、USPSが使用できなくなった場合に表示する別のメッセージを入力できます。
 
-   ![USPS許可メソッド ](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
+   ![USPS許可メソッド &#x200B;](../configuration-reference/sales/assets/delivery-methods-usps-allowed-methods.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Ship to Applicable Countries]**&#x200B;を次のいずれかに設定します：
 

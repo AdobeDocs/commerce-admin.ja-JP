@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Table Rates]
 
-![表レート ](./assets/delivery-methods-table-rates.png)<!-- zoom -->
+![表レート &#x200B;](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
 <!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 | [!UICONTROL Packages Request Type] | web サイト | 複数のパッケージを含む出荷の重量の計算方法を指定します。 オプション：`Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
 | [!UICONTROL Shipper Number] | web サイト | （UPS RESTのみ）交渉レートを使用するには、6文字のUPS荷送人番号が必要です。 |
 | [!UICONTROL Container] | web サイト | 出荷のパッケージ化に使用するコンテナタイプを設定します。 オプション：`Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
-| [!UICONTROL Weight Unit] | web サイト | ストア内の商品の重みについて、デフォルトの測定単位を設定します。 詳細については、[ ディメンションの重み](../../stores-purchase/carriers.md#dimensional-weight)を参照してください。 |
+| [!UICONTROL Weight Unit] | web サイト | ストア内の商品の重みについて、デフォルトの測定単位を設定します。 詳細については、[&#x200B; ディメンションの重み](../../stores-purchase/carriers.md#dimensional-weight)を参照してください。 |
 | [!UICONTROL Tracking URL] | web サイト | （UPS RESTのみ）パッケージの追跡に使用されるUPS URL。 実稼動用には`https://onlinetools.ups.com/api/track`を、サンドボックス設定には`https://wwwcie.ups.com/api/track`を使用します。 |
 | [!UICONTROL Destination Type] | web サイト | デフォルトの出荷先タイプを設定します。 オプション：`Business` / `Residential` |
 | [!UICONTROL Maximum Package Weight] | web サイト | パッケージがUPSで指定された最大重量を設定します。 注文した商品が最大パッケージ重量を超えた場合、この配送オプションは利用できません。 [UPS.com](https://www.ups.com/us/en/global.page)によると、荷物は150 ポンド （70 kg）を超えることはできません。配送業者に確認して、最大重量を確認してください。 |
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![UPS許可メソッド ](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
+![UPS許可メソッド &#x200B;](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
 <!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
@@ -207,7 +207,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-次のフィールドが表示されない場合は、[USPS REST API移行品質パッチ ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)を適用する必要があります。 このパッチは、Web ツール APIに代わるREST ベースのプラットフォームであるUSPS APIのサポートを有効にします。 詳しくは、[USPS Web Tools APIの非推奨化](../../stores-purchase/carriers.md)を参照してください。
+次のフィールドが表示されない場合は、[USPS REST API移行品質パッチ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)を適用する必要があります。 このパッチは、Web ツール APIに代わるREST ベースのプラットフォームであるUSPS APIのサポートを有効にします。 詳しくは、[USPS Web Tools APIの非推奨化](../../stores-purchase/carriers.md)を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -252,7 +252,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![USPS許可メソッド ](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
+![USPS許可メソッド &#x200B;](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
 <!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
@@ -302,7 +302,7 @@ ht-degree: 0%
 
 #### FedExのパッケージ設定
 
-![FedEx パッケージ ](./assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
+![FedEx パッケージ &#x200B;](./assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -392,7 +392,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![DHLが許可したメソッド ](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
+![DHLが許可したメソッド &#x200B;](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
 <!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
