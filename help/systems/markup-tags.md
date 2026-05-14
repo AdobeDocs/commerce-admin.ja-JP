@@ -16,7 +16,7 @@ ht-degree: 0%
 
 マークアップタグは二重中括弧で囲まれ、ウィジェットツールで生成するか、HTML コンテンツに直接入力できます。 例えば、ページへのフルパスをハードコーディングするのではなく、マークアップタグを使用してストア URLを表すことができます。 次の例では、マークアップタグを紹介します。
 
-{{$include /help/_includes/directives-caution.md}\}
+{{$include /help/_includes/directives-caution.md}}
 
 ## カスタム変数
 
