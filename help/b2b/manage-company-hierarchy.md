@@ -3,9 +3,8 @@ title: 会社の階層の管理
 description: 複雑な運用モデルを使用して、B2B組織をサポートするための企業階層を構築および管理します。
 feature: B2B, Companies
 role: Admin
-hidefromtoc: false
 exl-id: a277ed95-7935-4d27-adb2-35116972732b
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 970cc079f101011b5fd55b95715516342db4978e
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
@@ -38,7 +37,7 @@ ht-degree: 0%
 
 管理者から、個人会社（`[!UICONTROL Company Type] = Company`）を編集し、[!UICONTROL Company Hierarchy]設定で関連会社を割り当てることで、親会社を作成します。
 
-![会社階層グリッド &#x200B;](./assets/company-hierarchy-grid.png){width="700"}
+![会社階層グリッド ](./assets/company-hierarchy-grid.png){width="700"}
 
 >[!NOTE]
 >
@@ -50,7 +49,7 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL Companies]**&#x200B;に移動します。
 
-   ![会社グリッド &#x200B;](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+   ![会社グリッド ](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 1. [!UICONTROL Companies] グリッドから、会社詳細ページを開いて割り当てを作成します。
 
@@ -73,7 +72,7 @@ ht-degree: 0%
 
 1. 会社ページで、**[!UICONTROL Edit]** アクションを選択して、親会社の会社詳細ページを開きます。
 
-   ![親会社詳細ページ &#x200B;](./assets/company-update.png){width="700" zoomable="yes"}
+   ![親会社詳細ページ ](./assets/company-update.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL Company Hierarchy]**&#x200B;を展開して、割り当てられた会社のリストを表示します。
 
@@ -119,7 +118,7 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL Companies]**&#x200B;に移動します。
 
-1. [!UICONTROL Companies] グリッドから、**[!UICONTROL Edit]**&#x200B;列から&#x200B;**[!UICONTROL Action]**&#x200B;を選択して親の会社を編集します。
+1. [!UICONTROL Companies] グリッドから、**[!UICONTROL Action]**&#x200B;列から&#x200B;**[!UICONTROL Edit]**&#x200B;を選択して親の会社を編集します。
 
 1. 親会社詳細ページで、**[!UICONTROL Company Hierarchy]** セクションを展開して、組織に含まれる会社を表示します。
 
