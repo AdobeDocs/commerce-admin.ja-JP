@@ -23,7 +23,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>2026年1月25日にUSPS Web Tools APIが廃止され、サポートされている統合方法はUSPS REST APIのみになったことを反映して、<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps">USPS</a>および関連する配送会社ページを更新しました。</p>
+      <td><p>2026年1月25日にUSPS Web Tools APIが廃止され、サポートされている統合方法はUSPS REST APIのみになったことを反映して、<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps">USPS</a>および関連する配送会社ページを更新しました。</p>
 </td>
       <td>
         メジャーアップデート、フィードバック
@@ -31,7 +31,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/13155decdb96b62757e1044bb99dcddb1e1f8036">コミット</a></td>
     </tr>
     <tr>
-      <td><p>新しいB2B企業のお客様のインポートとエクスポート、交渉可能な見積もり、発注、要求リスト、共有カタログ、会社管理、カートとチェックアウト、フレームワーク、およびGraphQLに関する<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v153">Adobe Commerce B2B v1.5.3 リリースノート </a>を公開し、要件リストのエクスポートパスが<code class="language-plaintext highlighter-rouge">var/export/requisition_lists/</code>に変更されました。</p>
+      <td><p>新しいB2B企業のお客様のインポートとエクスポート、交渉可能な見積もり、発注、要求リスト、共有カタログ、会社管理、カートとチェックアウト、フレームワーク、およびGraphQLに関する<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/release-notes#b2b-v153">Adobe Commerce B2B v1.5.3 リリースノート </a>を公開し、要件リストのエクスポートパスが<code class="language-plaintext highlighter-rouge">var/export/requisition_lists/</code>に変更されました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -53,7 +53,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><code class="language-plaintext highlighter-rouge">numeric</code>および<code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types">属性入力タイプ </a>を追加し、構成参照に<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes">製品ファイル属性</a> ページを追加しました。</p>
+      <td><p><code class="language-plaintext highlighter-rouge">numeric</code>および<code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/product-attributes/attributes-input-types">属性入力タイプ </a>を追加し、構成参照に<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/config/catalog/product-file-attributes">製品ファイル属性</a> ページを追加しました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -75,7 +75,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Serviceの手順を<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">買い物客のサポートを提供</a>に追加しました。</p>
+      <td><p>Adobe Commerce as a Cloud Serviceの手順を<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">買い物客のサポートを提供</a>に追加しました。</p>
 </td>
       <td>
         メジャーアップデート
