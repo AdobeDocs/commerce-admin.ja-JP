@@ -1,8 +1,8 @@
 ---
-source-git-commit: 68e2fd44c757750ed688d12e0009e263b1160525
+source-git-commit: 03bb78d1f0c138687e377cc751b4ca62ac87013d
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 2%
+source-wordcount: '209'
+ht-degree: 1%
 
 ---
 # 新しいテンプレート
@@ -31,7 +31,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/13155decdb96b62757e1044bb99dcddb1e1f8036">コミット</a></td>
     </tr>
     <tr>
-      <td><p>新しいB2B企業のお客様のインポートとエクスポート、交渉可能な見積もり、発注、要求リスト、共有カタログ、会社管理、カートとチェックアウト、フレームワーク、およびGraphQLに関する<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/release-notes#b2b-v153">Adobe Commerce B2B v1.5.3 リリースノート </a>を公開し、要件リストのエクスポートパスが<code class="language-plaintext highlighter-rouge">var/export/requisition_lists/</code>に変更されました。</p>
+      <td><p>新しいB2B企業のお客様のインポートとエクスポート、交渉可能な見積もり、発注、要求リスト、共有カタログ、会社管理、カートとチェックアウト、フレームワーク、およびGraphQLに関する<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/release-notes#b2b-v153">Adobe Commerce B2B v1.5.3 リリースノート </a>を公開し、要件リストのエクスポートパスが<code>var/export/requisition_lists/</code>に変更されました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -53,34 +53,12 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><code class="language-plaintext highlighter-rouge">numeric</code>および<code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/product-attributes/attributes-input-types">属性入力タイプ </a>を追加し、構成参照に<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/config/catalog/product-file-attributes">製品ファイル属性</a> ページを追加しました。</p>
+      <td><p><code>numeric</code>および<code>file</code> <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/product-attributes/attributes-input-types">属性入力タイプ </a>を追加し、構成参照に<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/config/catalog/product-file-attributes">製品ファイル属性</a> ページを追加しました。</p>
 </td>
       <td>
         メジャーアップデート
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/907fc809707f64973e3dffe6f9089ca6bd358989">コミット</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026年3月25日（PT）
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>説明</th>
-      <th>タイプ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Serviceの手順を<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">買い物客のサポートを提供</a>に追加しました。</p>
-</td>
-      <td>
-        メジャーアップデート
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/159f4b95fa90908cc021e3b1d5faf594ec077aae">コミット</a></td>
     </tr>
   </tbody>
 </table>
