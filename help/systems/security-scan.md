@@ -22,7 +22,7 @@ ht-degree: 0%
 - サイトの進捗状況を追跡、監視する過去のセキュリティレポートにアクセスできます。
 - 成功したチェックと失敗したチェック、および推奨されるアクションを表示するスキャンレポートにアクセスします。
 
-セキュリティスキャンツールは、[Commerce/Magento アカウント &#x200B;](../getting-started/commerce-account-create.md)のダッシュボードから無料で利用できます。 技術情報については、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[&#x200B; セキュリティスキャンツールの設定](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)」を参照してください。
+セキュリティスキャンツールは、[Commerce/Magento アカウント &#x200B;](../getting-started/commerce-account-create.md)のダッシュボードから無料で利用できます。 技術情報については、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[&#x200B; セキュリティスキャンツールの設定](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)」を参照してください。
 
 ![&#x200B; セキュリティスキャンツール &#x200B;](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
