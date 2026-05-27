@@ -5,7 +5,7 @@ exl-id: a70f74d4-72b4-4639-a67d-9fc13df65924
 feature: Admin Workspace, Roles/Permissions, Security
 source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 役割の定義
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Role]**」をクリックします。
 
@@ -26,11 +26,11 @@ ht-degree: 0%
 
 ### 手順1：役割の名前を追加する
 
-1. _[!UICONTROL Role Information]_&#x200B;の下に、わかりやすい&#x200B;**[!UICONTROL Role Name]**&#x200B;を入力します。
+1. _[!UICONTROL Role Information]_の下に、わかりやすい&#x200B;**[!UICONTROL Role Name]**を入力します。
 
-1. _[!UICONTROL Current User Identity Verification]_&#x200B;で、パスワードを入力します。
+1. _[!UICONTROL Current User Identity Verification]_で、パスワードを入力します。
 
-   ![&#x200B; システム権限 – 役割情報](./assets/permissions-role-info.png){width="600" zoomable="yes"}
+   ![ システム権限 – 役割情報](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
 ### 手順2：リソースの割り当て
 
@@ -45,13 +45,13 @@ ht-degree: 0%
 
    マルチサイトインストールで`Custom`に設定されている場合は、web サイトとストアのチェックボックスを選択し、役割を使用する場所を指定します。
 
-   ![&#x200B; ユーザー役割のリソース – カスタムスコープ &#x200B;](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
+   ![ ユーザー役割のリソース – カスタムスコープ ](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >`Custom`の役割スコープを持つユーザーは、制限されたストアに割り当てられている場合、web サイトとカテゴリの作成、カテゴリへの製品の割り当て、または&#x200B;_[!UICONTROL All Store Views]_&#x200B;スコープでの製品の編集を行うことはできません。 これらのユーザーは、アクセス権を持たないスコープに影響を与える他の_ グローバル _アクションも実行できません。
+   >`Custom`の役割スコープを持つユーザーは、制限されたストアに割り当てられている場合、web サイトとカテゴリの作成、カテゴリへの製品の割り当て、または&#x200B;_[!UICONTROL All Store Views]_スコープでの製品の編集を行うことはできません。 これらのユーザーは、アクセス権を持たないスコープに影響を与える他の_ グローバル _アクションも実行できません。
 
-1. _[!UICONTROL Roles Resources]_&#x200B;で、**[!UICONTROL Resource Access]**&#x200B;を`Custom`に設定します。
+1. _[!UICONTROL Roles Resources]_で、**[!UICONTROL Resource Access]**を`Custom`に設定します。
 
    >[!NOTE]
    >
@@ -61,13 +61,13 @@ ht-degree: 0%
 
    税設定へのアクセス権を持つ管理者ロールを作成するには、Sales/TaxとSystem/Taxの両方のリソースを選択します。 既定の[出荷元の出荷場所](../stores-purchase/shipping-settings.md#point-of-origin)とは異なる地域のweb サイトを設定する場合は、その役割のシステム/出荷リソースへのアクセスを許可する必要があります。 出荷設定は、カタログの価格に使用されるストアの税率を決定します。
 
-   ![割り当てられたユーザー役割リソース &#x200B;](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
+   ![割り当てられたユーザー役割リソース ](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
 
    使用可能な権限のリストには、バンドルされた拡張機能とインストールされた拡張機能に関する追加オプションが含まれている場合があります。 各機能の最上位の権限を選択すると、ユーザーに対して使用可能なすべての権限が割り当てられます。
 
    >[!NOTE]
    >
-   >**[!UICONTROL Sales / Archive]**、_[!UICONTROL Invoices]_&#x200B;および&#x200B;_[!UICONTROL Credit Memos]_&#x200B;件の順序&#x200B;_[!UICONTROL Shipments]_&#x200B;タブ [を表示するには、管理者ユーザーが役割の範囲に対して](../stores-purchase/order-processing.md)権限を持っている必要があります。
+   >_[!UICONTROL Invoices]_、_[!UICONTROL Credit Memos]_&#x200B;および&#x200B;_[!UICONTROL Shipments]_件の順序[ タブ ](../stores-purchase/order-processing.md)を表示するには、管理者ユーザーが役割の範囲に対して&#x200B;**[!UICONTROL Sales / Archive]**権限を持っている必要があります。
 
 1. 完了したら、**[!UICONTROL Save Role]**&#x200B;をクリックします。
 
@@ -75,15 +75,15 @@ ht-degree: 0%
 
 ## ユーザーへの役割の割り当て
 
-1. _[!UICONTROL Roles]_&#x200B;グリッドから、レコードを編集モードで開きます。
+1. _[!UICONTROL Roles]_グリッドから、レコードを編集モードで開きます。
 
-1. _[!UICONTROL Current User Identity Verification]_&#x200B;で、ユーザーアカウントのパスワードを入力します。
+1. _[!UICONTROL Current User Identity Verification]_で、ユーザーアカウントのパスワードを入力します。
 
 1. 左側のパネルで、**[!UICONTROL Role Users]**&#x200B;を選択します。
 
-   _[!UICONTROL Role Users]_&#x200B;オプションは、新しい役割が保存された後にのみ表示されます。
+   _[!UICONTROL Role Users]_オプションは、新しい役割が保存された後にのみ表示されます。
 
-   ![役割に割り当てられたユーザーアカウント &#x200B;](./assets/permissions-role-users.png){width="600" zoomable="yes"}
+   ![役割に割り当てられたユーザーアカウント ](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
 1. 特定のユーザーレコードを検索するには、次の操作を行います。
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 ## 役割の編集
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**に移動します。
 
 1. グリッドの上にあるフィルターを使用して役割を見つけ、役割の名前をクリックします。
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 ## 役割の削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**に移動します。
 
 1. グリッドの上にあるフィルターを使用して役割を見つけ、編集モードで開きます。
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 このビデオでは、ユーザーの役割の管理について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443508?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
 
 ## 役割のリソース
 
@@ -151,16 +151,16 @@ ht-degree: 0%
 | [`Marketing`](../merchandising-promotions/marketing-menu.md) | [`Promotions`](../merchandising-promotions/marketing-menu.md#uicontrol-promotions) | [`Catalog Price Rule`](../merchandising-promotions/price-rules-catalog.md) <br/>[`Cart Price Rules`](../merchandising-promotions/price-rules-cart.md) <br/>[`Related Products Rules`](../merchandising-promotions/product-related-rules.md)![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Gift Card Accounts`](../stores-purchase/product-gift-card-accounts.md) ![Adobe Commerce](../assets/adobe-logo.svg) |
 |  | [`Private Sales`](../merchandising-promotions/events-private-sales.md) ![Adobe Commerce](../assets/adobe-logo.svg) | [`Events`](../merchandising-promotions/event-create.md) <br/>[`Invitations`](../merchandising-promotions/invitations.md) |
 |  | `Communications` | [`Email Templates`](email-templates.md) <br/>[`Newsletter Template`](../merchandising-promotions/newsletter-template.md) <br/>[`Newsletter Queue`](../merchandising-promotions/newsletter-queue.md) <br/>[`Newsletter Subscribers`](../merchandising-promotions/newsletter-subscribers.md) <br/>[`Email Reminders`](../merchandising-promotions/email-reminder-rules.md) |
-|  | `Sales Channel` | [`Amazon Sales Channel`](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html?lang=ja) |
+|  | `Sales Channel` | [`Amazon Sales Channel`](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html) |
 |  | [`SEO & Search`](../merchandising-promotions/marketing-menu.md#uicontrol-seo--search) | [`Search Terms`](../catalog/search-terms.md) <br/>[`Search Synonyms`](../catalog/search-terms.md#search-synonyms) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`URL Rewrites`](../merchandising-promotions/url-rewrite-custom.md) <br/>[`Site Map`](../merchandising-promotions/sitemap-xml.md) |
 |  | [`User Content`](../merchandising-promotions/product-reviews-moderate.md) | [`All Reviews`](../merchandising-promotions/product-reviews.md) <br/>[`Pending Reviews`](../merchandising-promotions/product-reviews-moderate.md) <br/> |
 | [`Content`](../content-design/content-menu.md) | [`Elements`](../content-design/content-menu.md#uicontrol-elements) | [`Pages`](../content-design/pages.md)<br/>[`Hierarchy`](../content-design/page-hierarchy.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Blocks`](../content-design/blocks.md)<br/>[`Dynamic Blocks`](../content-design/dynamic-blocks.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Widgets`](../content-design/widgets.md)<br/>[`Media Gallery`](../content-design/media-gallery.md) |
 |  | [`Design`](../content-design/introduction.md#design) | [`Themes`](../content-design/themes.md)<br/>[`Schedule`](../content-design/schedule.md) |
-|  | [&#x200B; コンテンツステージング &#x200B;](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
+|  | [ コンテンツステージング ](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
 | [`Reports`](../getting-started/reports-menu.md) | [`Marketing`](../getting-started/marketing-reports.md) | `Shopping Cart`<br />[`Search Terms`](../catalog/search-terms.md#search-terms-report)<br />`Newsletter Problem Reports` |
 |  | [`Reviews`](../getting-started/review-reports.md)<br /> |  |
 |  | [`Sales`](../getting-started/sales-reports.md) |  |
-|  | `System Insights` ![Adobe Commerce](../assets/adobe-logo.svg) | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=ja) |
+|  | `System Insights` ![Adobe Commerce](../assets/adobe-logo.svg) | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) |
 |  | [`Customers`](../getting-started/customer-reports.md)<br/>[`Products`](../getting-started/product-reports.md)<br/>[`Private Sales`](../getting-started/private-sales-reports.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br />[`Statistics`](../getting-started/reports-menu.md#uicontrol-statistics)<br />[`Business Intelligence`](../getting-started/business-intelligence.md) |  |
 | [`Stores`](../stores-purchase/stores.md) | [`Settings`](../stores-purchase/stores-menu.md) | [`All Stores`](../stores-purchase/stores.md)<br/>[`Configuration`](../configuration-reference/guide-overview.md)<br/>[`Terms and Conditions`](../stores-purchase/terms-and-conditions.md)<br/>[`Order Status`](../stores-purchase/order-status.md) |
 |  | [`Inventory`](../inventory-management/sources-stocks.md) | [`Sources`](../inventory-management/sources-manage.md)<br/>[`Stocks`](../inventory-management/stocks-manage.md) |

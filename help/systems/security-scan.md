@@ -1,113 +1,113 @@
 ---
 title: セキュリティスキャン
-description: 強化されたセキュリティスキャンを実行し、Adobe CommerceとMagento Open Sourceの各サイトを監視する方法について説明します。
+description: 強化されたセキュリティスキャンを実行し、Adobe Commerce サイトとMagento Open Source サイトを監視する方法について説明します。
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
 source-git-commit: 425004ece49f96fa102e9f46b9c5d15c89233334
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1203'
 ht-degree: 0%
 
 ---
 
 # セキュリティスキャン
 
-Adobe Commerce サイトとMagento Open Source サイトでセキュリティのリスクやマルウェアを監視し、セキュリティの更新や通知を受け取ります。
+セキュリティリスクやマルウェアがないかAdobe CommerceとMagento Open Sourceのサイトをモニタリングし、セキュリティアップデートや通知を受け取ります。
 
-- ストアのリアルタイムのセキュリティステータスに関するinsightを取得します。
-- 問題を解決するのに役立つ、ベストプラクティスに基づいた提案を受け取ります。
-- 毎週、毎日、またはオンデマンドで実行するようにセキュリティスキャンをスケジュールします。
-- 21,000 を超えるセキュリティテストを実行して、潜在的なマルウェアを特定します。
-- サイトの進行状況を追跡および監視する履歴セキュリティレポートにアクセスします。
-- 成功したチェックと失敗したチェックを表示するスキャン レポートにアクセスします。推奨されるアクションも表示されます。
+- Insightを利用して、ストアのリアルタイムのセキュリティステータスを把握できます。
+- ベストプラクティスにもとづいた提案を受け取り、問題解決に役立てることができます。
+- セキュリティスキャンを毎週、毎日、またはオンデマンドで実行するようにスケジュールします。
+- 潜在的なマルウェアを特定するために、21,000回以上のセキュリティテストを実施。
+- サイトの進捗状況を追跡、監視する過去のセキュリティレポートにアクセスできます。
+- 成功したチェックと失敗したチェック、および推奨されるアクションを表示するスキャンレポートにアクセスします。
 
-セキュリティスキャンツールは、[Commerce/Magento アカウント &#x200B;](../getting-started/commerce-account-create.md) のダッシュボードから無料で利用できます。 Commerce技術情報については、[2&rbrace;Cloud Infrastructure ガイドのセキュリティスキャンツールの設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) を参照してください __
+セキュリティスキャンツールは、[Commerce/Magento アカウント ](../getting-started/commerce-account-create.md)のダッシュボードから無料で利用できます。 技術情報については、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[ セキュリティスキャンツールの設定](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)」を参照してください。
 
-![&#x200B; セキュリティスキャンツール &#x200B;](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+![ セキュリティスキャンツール ](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## ワークフロー
 
-Adobe Commerce サイトまたはMagento Open Source サイトのセキュリティスキャンツールをセットアップおよび設定するには、次の 2 つの手順を実行します。
+Adobe CommerceまたはMagento Open Source サイトのセキュリティスキャンツールを設定するには、次の2つの手順を実行します。
 
-1. [セキュリティスキャン用のサイトの設定](#step-1-set-up-your-site-for-security-scanning)
-2. [自動セキュリティ スキャンを構成する](#step-2-configure-automatic-security-scans)
+1. [セキュリティスキャン用にサイトを設定する](#step-1-set-up-your-site-for-security-scanning)
+2. [自動セキュリティスキャンの設定](#step-2-configure-automatic-security-scans)
 
-### 手順 1：サイトのセキュリティスキャン用のセットアップ
+### ステップ 1：セキュリティスキャン用にサイトを設定する
 
-1. Commerceのホームページから、[Commerce/Magento アカウント &#x200B;](../getting-started/commerce-account-create.md) にログインします。
+1. Commerce ホームページから、[Commerce/Magento アカウント ](../getting-started/commerce-account-create.md)にログインします。
 
-2. セキュリティ スキャン ツールの使用条件を確認し、同意します。
+2. セキュリティスキャンツールの使用条件を確認し、同意します。
 
-   1. 左側のパネルで「**[!UICONTROL Security Scan]**」を選択します。
-   1. 「**[!UICONTROL Go to Security Scan]**」をクリックします。
-   1. **[!UICONTROL Terms and Conditions]** を読んでください。
-   1. 「**[!UICONTROL Agree]**」をクリックして続行します。
+   1. 左側のパネルで、**[!UICONTROL Security Scan]**&#x200B;を選択します。
+   1. **[!UICONTROL Go to Security Scan]**&#x200B;をクリックします。
+   1. **[!UICONTROL Terms and Conditions]**&#x200B;を読み取ります。
+   1. **[!UICONTROL Agree]**&#x200B;をクリックして続行します。
 
-3. _[!UICONTROL Monitored Websites]_&#x200B;ページで「**[!UICONTROL +Add Site]**」をクリックします。
+3. _[!UICONTROL Monitored Websites]_ページで、**[!UICONTROL +Add Site]**をクリックします。
 
-   異なるドメインを持つ複数のサイトがある場合は、ドメインごとに個別のスキャンを設定します。
+   ドメインが異なる複数のサイトがある場合は、ドメインごとに個別のスキャンを設定します。
 
-   ![&#x200B; 監視対象サイト &#x200B;](./assets/monitored-website.png){width="600" zoomable="yes"}
+   ![監視サイト ](./assets/monitored-website.png){width="600" zoomable="yes"}
 
-4. 確認コードを生成してセキュリティ スキャン ツールに追加することにより、サイト ドメインの所有権を確認します。
+4. セキュリティスキャンツールに確認コードを生成して追加し、サイトドメインの所有権を確認します。
 
-   確認コードを追加するプロセスは、使用しているストアフロントのタイプによって異なります。 ストアフロントタイプの手順に従います。
+   確認コードを追加するプロセスは、使用しているストアフロントの種類によって異なります。 ストアフロントタイプの手順に従います。
 
 >[!BEGINTABS]
 
 >[!TAB Commerce ストアフロント ]
 
-1. **[!UICONTROL Site URL]** と **[!UICONTROL Site Name]** を入力します。
-1. 「**[!UICONTROL Generate Confirmation Code]**」をクリックします。
+1. **[!UICONTROL Site URL]**&#x200B;と&#x200B;**[!UICONTROL Site Name]**&#x200B;を入力します。
+1. **[!UICONTROL Generate Confirmation Code]**&#x200B;をクリックします。
 1. 「**コピー**」をクリックして、確認コードをクリップボードにコピーします。
 
-   ![&#x200B; 確認コードを生成 &#x200B;](./assets/scan-site1.png){width="400" zoomable="yes"}
+   ![確認コードを生成](./assets/scan-site1.png){width="400" zoomable="yes"}
 
-1. 完全な管理者権限を持つユーザーとしてストアの管理者にログインし、次の手順を実行します。
+1. 完全な管理者権限を持つユーザーとしてストアの管理者にログインし、次の操作を行います。
 
-   1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
-   1. リストでサイトを見つけて、「**[!UICONTROL Edit]**」をクリックします。
-   1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL HTML Head]**」セクションを展開します。
-   1. **[!UICONTROL Scripts and Style Sheets]** までスクロールし、既存のコードの末尾にあるテキストボックスをクリックします。 確認コードをテキストボックスに貼り付けます。
+   1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**に移動します。
+   1. リストで自分のサイトを検索し、**[!UICONTROL Edit]**&#x200B;をクリックします。
+   1. **[!UICONTROL HTML Head]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
+   1. **[!UICONTROL Scripts and Style Sheets]**&#x200B;までスクロールし、既存のコードの最後にあるテキストボックスをクリックします。 確認コードをテキストボックスに貼り付けます。
 
-      ![&#x200B; スクリプトとスタイルシート &#x200B;](./assets/scan-paste-code.png){width="600" zoomable="yes"}
+      ![ スクリプトとスタイルシート ](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
-   1. 完了したら、「**[!UICONTROL Save Configuration]**」をクリックします。
+   1. 完了したら、**[!UICONTROL Save Configuration]**&#x200B;をクリックします。
 
-1. Commerce アカウントの _[!UICONTROL Security Scan]_&#x200B;ページに戻り、「**[!UICONTROL Verify Confirmation Code]**」をクリックしてドメインの所有権を確立します。
+1. Commerce アカウントの&#x200B;_[!UICONTROL Security Scan]_ページに戻り、**[!UICONTROL Verify Confirmation Code]**をクリックしてドメインの所有権を確立します。
 
 >[!TAB PWA ストアフロント ]
 
-1. **[!UICONTROL Site URL]** と **[!UICONTROL Site Name]** を入力します。
+1. **[!UICONTROL Site URL]**&#x200B;と&#x200B;**[!UICONTROL Site Name]**&#x200B;を入力します。
 
-1. **[!UICONTROL Confirmation Code]** の場合は、`META Tag` オプションを選択し、「**[!UICONTROL Generate Code]**」をクリックします。
+1. **[!UICONTROL Confirmation Code]**&#x200B;で、`META Tag` オプションを選択し、**[!UICONTROL Generate Code]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL Copy]**」をクリックして、生成された確認コードのMETAタグをクリップボードにコピーします。
+1. 生成された確認コード META タグをクリップボードにコピーするには、**[!UICONTROL Copy]**&#x200B;をクリックします。
 
-   ![&#x200B; 確認コードを生成 &#x200B;](./assets/scan-site2.png){width="400" zoomable="yes"}
+   ![確認コードを生成](./assets/scan-site2.png){width="400" zoomable="yes"}
 
-1. PWA Studio ストアフロントのプロジェクトディレクトリに移動して、次の手順を実行します。
+1. PWA Studio ストアフロントプロジェクトディレクトリに移動し、次の操作を行います。
 
-   1. PWA Studio プロジェクトディレクトリの下で、`packages > venia-concept > template.html` に移動します。
-   1. コピーした確認コード（生成されたMETA タグ）をHTMLのヘッドに追加し、変更内容を保存します。
+   1. PWA Studio プロジェクト ディレクトリで、`packages > venia-concept > template.html`に移動します。
+   1. コピーした確認コード（生成されたMETA タグ）をHTML ヘッドに追加し、変更内容を保存します。
 
-      ![&#x200B; 確認コードをコピー &#x200B;](./assets/code-pwa.png){width="600" zoomable="yes"}
+      ![確認コードをコピー](./assets/code-pwa.png){width="600" zoomable="yes"}
 
-   1. PWA Studio CLI に戻り、yarn を使用してプロジェクトの依存関係をインストールし、project build コマンドを実行します。
+   1. PWA Studio CLIに戻り、yarnを使用してプロジェクトの依存関係をインストールし、project build コマンドを実行します。
 
       ```sh
       yarn install &&
       yarn build
       ```
 
-   1. *クラウドプロジェクトで*、`pwa` フォルダーを作成し、ストアフロントプロジェクトの `dist` フォルダー内にコンテンツをコピーします。
+   1. *クラウドプロジェクト*&#x200B;で、`pwa` フォルダーを作成し、ストアフロントプロジェクトの`dist` フォルダー内にコンテンツをコピーします。
 
       ```sh
       mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
       ```
 
-   1. Git CLI ツールを使用して、これらの変更をステージング、コミットし、クラウドプロジェクトにプッシュします。
+   1. Git CLI ツールを使用して、これらの変更をステージング、コミット、Cloud プロジェクトにプッシュします。
 
       ```sh
       git add . &&
@@ -117,30 +117,30 @@ Adobe Commerce サイトまたはMagento Open Source サイトのセキュリテ
 
       ビルドプロセスが完了すると、変更内容がPWA ストアフロントにデプロイされます。
 
-1. Commerce アカウントの _[!UICONTROL Security Scan]_&#x200B;ページに戻り、「**[!UICONTROL Verify Confirmation Code]**」をクリックしてドメインの所有権を確立します。
+1. Commerce アカウントの&#x200B;_[!UICONTROL Security Scan]_ページに戻り、**[!UICONTROL Verify Confirmation Code]**をクリックしてドメインの所有権を確立します。
 
 >[!TAB AEM ストアフロント ]
 
-1. **[!UICONTROL Site URL]** と **[!UICONTROL Site Name]** を入力します。
+1. **[!UICONTROL Site URL]**&#x200B;と&#x200B;**[!UICONTROL Site Name]**&#x200B;を入力します。
 
-1. **[!UICONTROL Confirmation Code]** の場合は、「`HTML Content`」または「`META Tag`」オプションを選択し、「**[!UICONTROL Generate Code]**」をクリックします。
+1. **[!UICONTROL Confirmation Code]**&#x200B;で、`HTML Content`または`META Tag` オプションを選択し、**[!UICONTROL Generate Code]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL Copy]**」をクリックして、生成された確認コードをクリップボードにコピーします。
+1. **[!UICONTROL Copy]**&#x200B;をクリックして、生成された確認コードをクリップボードにコピーします。
 
-   ![&#x200B; 確認コードを生成 &#x200B;](./assets/scan-site3.png){width="400" zoomable="yes"}
+   ![確認コードを生成](./assets/scan-site3.png){width="400" zoomable="yes"}
 
-1. AEM ストアフロントのプロジェクトディレクトリに移動して、次の手順を実行します。
+1. AEM ストアフロントプロジェクトディレクトリに移動し、次の操作を行います。
 
-   1. AEM ストアフロントのプロジェクトディレクトリで、`head.html` に移動します。
-   1. コピーした確認コード（生成されたHTML コンテンツまたはMETA タグ） `head.html` ファイルに追加し、変更内容を保存します。
+   1. AEM ストアフロントプロジェクトディレクトリで、`head.html`に移動します。
+   1. コピーした確認コード（生成されたHTML コンテンツまたはMETA タグ）を`head.html` ファイルに追加し、変更内容を保存します。
 
    >[!NOTE]
    >
-   >サイト所有権の検証が機能するのは、AEM ストアフロントのプロジェクトディレクトリにある `head.html` ファイルに直接確認が追加された場合のみです。 ドキュメントのオーサリングやユニバーサルエディターなどの web ページ編集ツールを使用して追加することはできません。
+   >サイト所有権の検証は、確認がAEM ストアフロントプロジェクトディレクトリの`head.html` ファイルに直接追加された場合にのみ機能します。 ドキュメントオーサリングやユニバーサルエディターなどのweb ページ編集ツールでは追加できません。
 
-   ![&#x200B; 確認コードをコピー &#x200B;](./assets/code-aem.png){width="600" zoomable="yes"}
+   ![確認コードをコピー](./assets/code-aem.png){width="600" zoomable="yes"}
 
-1. Git CLI ツールを使用して、これらの変更をステージング、コミットし、プロジェクトリポジトリにプッシュします。
+1. Git CLI ツールを使用して、これらの変更をステージングし、コミットし、プロジェクトリポジトリにプッシュします。
 
    ```sh
    git add . &&
@@ -150,93 +150,93 @@ Adobe Commerce サイトまたはMagento Open Source サイトのセキュリテ
 
    ビルドプロセスが完了すると、変更内容がAEM ストアフロントにデプロイされます。
 
-1. Commerce アカウントの _[!UICONTROL Security Scan]_&#x200B;ページに戻り、「**[!UICONTROL Verify Confirmation Code]**」をクリックしてドメインの所有権を確立します。
+1. Commerce アカウントの&#x200B;_[!UICONTROL Security Scan]_ページに戻り、**[!UICONTROL Verify Confirmation Code]**をクリックしてドメインの所有権を確立します。
 
 >[!ENDTABS]
 
-### 手順 2：自動セキュリティ スキャンを構成する
+### 手順2：自動セキュリティスキャンの設定
 
-1. サイトの所有権を正常に確認した後、次のいずれかのタイプに対して **[!UICONTROL Set Automatic Security Scan]** のオプションを設定します。
+1. サイトの所有権を正常に検証したら、次のいずれかの種類の&#x200B;**[!UICONTROL Set Automatic Security Scan]** オプションを設定します。
 
    **毎週スキャン （推奨）**:
 
-   毎週スキャンを実行する **[!UICONTROL Week Day]**、**[!UICONTROL Time]**、**[!UICONTROL Time Zone]** を選択します。
+   スキャンが毎週行われる&#x200B;**[!UICONTROL Week Day]**、**[!UICONTROL Time]**&#x200B;および&#x200B;**[!UICONTROL Time Zone]**&#x200B;を選択します。
 
-   デフォルトでは、スキャンは毎週午前 0 時（土曜日、UTC）に開始され、毎週早朝（日曜日）まで継続するようにスケジュールされています。
+   デフォルトでは、スキャンは毎週真夜中の土曜日、UTCに開始され、日曜日の初めまで継続される予定です。
 
-   ![&#x200B; 毎週スキャン &#x200B;](./assets/scan-weekly.png){width="500" zoomable="yes"}
+   ![毎週スキャン ](./assets/scan-weekly.png){width="500" zoomable="yes"}
 
    **毎日スキャン**:
 
-   **[!UICONTROL Time]** を選択し、スキャンが毎日実行されることを **[!UICONTROL Time Zone]** 認します。
+   スキャンが毎日行われる&#x200B;**[!UICONTROL Time]**&#x200B;と&#x200B;**[!UICONTROL Time Zone]**&#x200B;を選択します。
 
-   デフォルトでは、スキャンは毎日、午前 0 時（UTC）に開始するようにスケジュールされています。
+   デフォルトでは、スキャンは毎日UTCの午前0時に開始するようにスケジュールされています。
 
-   ![&#x200B; 毎日スキャン &#x200B;](./assets/scan-daily.png){width="500" zoomable="yes"}
+   ![毎日スキャン ](./assets/scan-daily.png){width="500" zoomable="yes"}
 
-1. 完了したスキャンとセキュリティ更新の通知を受信する **[!UICONTROL Email Address]** を入力します。
+1. 完了したスキャンとセキュリティ更新の通知を受信する&#x200B;**[!UICONTROL Email Address]**&#x200B;を入力します。
 
-   ![&#x200B; メールアドレス &#x200B;](./assets/scan-notification-email.png){width="400" zoomable="yes"}
+   ![電子メールアドレス ](./assets/scan-notification-email.png){width="400" zoomable="yes"}
 
-1. 完了したら、「**[!UICONTROL Submit]**」をクリックします。
+1. 完了したら、**[!UICONTROL Submit]**&#x200B;をクリックします。
 
-   ドメインの所有権が確認されると、そのサイトはCommerce アカウントの監視対象 Web サイトリストに表示されます。
+   ドメインの所有権が確認されると、そのサイトはCommerce アカウントの監視対象Web サイト リストに表示されます。
 
-1. 異なるドメインを持つ複数の web サイトがある場合は、このプロセスを繰り返して、それぞれのセキュリティスキャンを設定します。
+1. ドメインが異なる複数のweb サイトがある場合は、このプロセスを繰り返して、それぞれにセキュリティスキャンを設定します。
 
-## スキャン エラーの管理
+## スキャン失敗の管理
 
-セキュリティスキャンツールを使用すると、レポート表示から直接スキャンの失敗を管理できます。 特定のスキャンの失敗を偽陽性としてマークし、リスクスコアから除外することができます。
+セキュリティスキャンツールを使用すると、レポートビューから直接スキャンエラーを管理できます。 特定のスキャン失敗を偽陽性としてマークし、リスクスコアから除外できます。
 
-### スキャン エラーを管理する利点
+### スキャン失敗の管理の利点
 
-スキャンの失敗を管理することで、次の方法でストアのセキュリティの概要をより正確に維持できます。
+スキャンエラーの管理は、次の方法でストアのセキュリティの概要をより正確に維持するのに役立ちます。
 
-- セキュリティレポートでの誤検出を減らす。
-- 注意が必要な関連するセキュリティ問題に焦点を当てます。
-- ストアの真のセキュリティ・ステータスをより明確に把握する。
-- 既知の偽陽性について、サポートへの連絡を不要にします。
-- 既に調査したスキャンの失敗を自己管理することで、時間を節約できます。
+- セキュリティレポートの誤検出を減らします。
+- 注意が必要な関連セキュリティの問題を重視する。
+- ストアの真のセキュリティステータスをより明確に把握する。
+- 既知の誤検出についてサポートに連絡する必要がなくなります。
+- すでに調査したスキャン失敗を自己管理することで、時間を節約できます。
 
-スキャンの失敗を偽陽性としてマークする一般的なシナリオを次に示します。
+スキャン失敗を偽陽性としてマークする一般的なシナリオには、次のようなものがあります。
 
-- 既にセキュリティパッチを適用していて、スキャンツールが検出されなかった場合。
-- 検出された問題が特定のストア設定に適用できない場合。
-- 問題に対処する別のセキュリティ対策を実装した場合。
-- スキャンエラーが、ビジネスニーズに合わせて意図的に設定した設定に基づいている場合。
+- スキャンツールが検出しなかったセキュリティパッチを既に適用している場合。
+- 検出された問題が特定のストア設定に適用されない場合。
+- 代替のセキュリティ対策を導入した場合。
+- スキャン失敗が、ビジネスニーズに合わせて意図的に設定した設定に基づいている場合。
 
-### スキャン エラーを無視する
+### スキャン失敗を無視
 
-誤検出と識別されたスキャンエラーを管理するには、次の手順に従います。
+偽陽性として識別したスキャン エラーを管理するには、次の手順に従います。
 
-1. _[!UICONTROL Monitored Websites]_&#x200B;ページで、管理するサイトの&#x200B;**[!UICONTROL View Report]**&#x200B;をクリックします。
+1. _[!UICONTROL Monitored Websites]_ページで、管理するサイトの&#x200B;**[!UICONTROL View Report]**をクリックします。
 
-1. レポート ビューで、誤検出としてマークする失敗したスキャンを見つけます。
+1. レポートビューで、偽陽性としてマークする失敗したスキャンを探します。
 
-1. 特定のスキャン エラーの **[!UICONTROL Ignore]** をクリックします。
+1. 特定のスキャン失敗については、**[!UICONTROL Ignore]**&#x200B;をクリックしてください。
 
-   ![&#x200B; スキャン エラーを無視する &#x200B;](assets/security-scan-ignore-failure.png){width="600" zoomable="yes"}
+   ![ スキャン失敗を無視](assets/security-scan-ignore-failure.png){width="600" zoomable="yes"}
 
-1. 「**[!UICONTROL Apply Changes]**」をクリックして選択内容を保存します。
+1. **[!UICONTROL Apply Changes]**&#x200B;をクリックして選択内容を保存します。
 
-無視されたスキャンエラーは _[!UICONTROL Ignored Results]_&#x200B;のセクションに移動し、リスクスコアから除外されます。
+無視されたスキャン失敗は&#x200B;_[!UICONTROL Ignored Results]_セクションに移動し、リスクスコアから除外されます。
 
-### スキャンの失敗を無視しない
+### スキャン失敗の無視を停止
 
-以前に無視したスキャンの失敗をアクティブなモニタリングに復元する必要がある場合は、次の手順に従います。
+以前に無視したスキャン失敗をアクティブなモニタリングに復元する必要がある場合は、次の手順に従います。
 
-1. レポート ビューで、[_[!UICONTROL Ignored Results]_] セクションまでスクロールします。
+1. レポートビューで、_[!UICONTROL Ignored Results]_セクションまでスクロールします。
 
-1. 復元するスキャン エラーの **[!UICONTROL Stop Ignoring]** をクリックします。
+1. 復元するスキャン失敗の場合は、**[!UICONTROL Stop Ignoring]**&#x200B;をクリックします。
 
-   ![&#x200B; スキャン エラーの無視の解除 &#x200B;](assets/security-scan-stop-ignoring-failure.png){width="600" zoomable="yes"}
+   ![ スキャン失敗を無視しない](assets/security-scan-stop-ignoring-failure.png){width="600" zoomable="yes"}
 
-1. 「**[!UICONTROL Apply Changes]**」をクリックして選択内容を保存します。
+1. **[!UICONTROL Apply Changes]**&#x200B;をクリックして選択内容を保存します。
 
-スキャンの失敗は _[!UICONTROL Failed Scans]_&#x200B;のセクションに戻り、リスクスコアに含まれます。
+スキャン失敗は&#x200B;_[!UICONTROL Failed Scans]_セクションに戻り、リスクスコアに含まれます。
 
-### 無視されたスキャン エラーの表示
+### 無視されたスキャンのエラーを表示
 
-無視された結果は、レポートの別のセクションに表示され、リスクスコアはアクティブなスキャンエラーのみを反映するように自動的に更新されます。 変更を適用する前に複数の項目を選択することで、複数のスキャン失敗を一度に管理できます。
+無視された結果はレポートの別のセクションに表示され、リスクスコアはアクティブなスキャンエラーのみを反映するように自動的に更新されます。 変更を適用する前に複数の項目を選択することで、一度に複数のスキャン失敗を管理できます。
 
-![&#x200B; 無視されたスキャン エラーの表示 &#x200B;](assets/security-scan-view-ignored-failures.png){width="600" zoomable="yes"}
+![ ビューが無視されたスキャン失敗](assets/security-scan-view-ignored-failures.png){width="600" zoomable="yes"}

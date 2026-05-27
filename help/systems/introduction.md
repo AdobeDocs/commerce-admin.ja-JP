@@ -1,35 +1,35 @@
 ---
-title: 管理システムの概要
-description: サイト、データ、統合および管理者ユーザーを効果的に管理するためにストアの管理者が使用できるシステムツールおよび機能について説明します。
+title: 管理者システムの概要
+description: ストアの管理者がサイト、データ、統合、および管理者ユーザーを効果的に管理するために使用できるシステムツールと機能について説明します。
 exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
 source-git-commit: 5517bb16a8f7c8aa2f9f057df773f142302a69c7
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
 
-# 管理システムの概要
+# 管理者システムの概要
 
-ストア管理は、マーチャントが製品やプロモーションの設定、注文の管理、その他の管理タスクを実行する安全なバックオフィスです。 基本的な設定タスクとストアの管理操作はすべて、管理者から実行します。 また、複数のストア機能をサポートする機能もあり、管理者が組織を管理できます。
+ストア管理者は、マーチャントが商品やプロモーションを設定したり、注文を管理したり、その他の管理タスクを実行したりする安全なバックオフィスです。 すべての基本的な設定タスクとストア管理操作は、管理者から実行されます。 また、管理者が組織で管理できる、複数のストア機能をまたいだサポートを提供する機能もあります。
 
 ## 変数と顧客コミュニケーション
 
-変数は、一度作成すると複数の場所で使用できる情報です。 ストアには、[&#x200B; メール &#x200B;](email-templates.md) および [&#x200B; ニュースレター &#x200B;](../merchandising-promotions/newsletter-template.md) テンプレート、その他のタイプの [&#x200B; コンテンツ &#x200B;](../content-design/introduction.md#content) のパーソナライズに簡単に使用できる、事前定義済みの変数が多数含まれています。 また、カスタム変数を作成して、ニーズに固有の情報を組み込むこともできます。
+変数とは、一度作成した情報を複数の場所で利用するための要素です。 ストアには、[電子メール ](email-templates.md)および[ ニュースレター](../merchandising-promotions/newsletter-template.md) テンプレートや、その他の種類の[ コンテンツ ](../content-design/introduction.md#content)のパーソナライズに容易に使用できる、多くの定義済み変数が含まれています。 カスタム変数を作成し、ニーズに特化した情報を組み込むこともできます。
 
-- [事前定義済みの変数](variables-predefined.md)
+- [定義済み変数](variables-predefined.md)
 - [カスタム変数](variables-custom.md)
 
-ストアを起動する前に完了する必要があるタスクの 1 つは、ストアから送信されるすべてのコミュニケーションに使用されるメールテンプレートを確認して、ブランドが反映されていることを確認することです。 これには、メールおよび [&#x200B; ニュースレターテンプレート &#x200B;](../merchandising-promotions/newsletter-template.md)、PDFの請求書および納品書のカスタマイズが含まれます。 また、変数と [&#x200B; マークアップタグ &#x200B;](markup-tags.md) を使用したコンテンツのパーソナライズも含まれます。
+ストアを立ち上げる前に完了すべきタスクの1つは、ストアから送信されるすべてのコミュニケーションに使用されるメールテンプレートを確認して、ブランドを反映していることを確認することです。 これには、電子メールや[ ニュースレターテンプレート ](../merchandising-promotions/newsletter-template.md)のカスタマイズ、PDFの請求書や梱包明細のカスタマイズが含まれます。 また、変数と[ マークアップタグ ](markup-tags.md)を使用したコンテンツのパーソナライズも含まれます。
 
-## 運用管理
+## 業務管理
 
-また、管理者は、システム管理者が組織内の管理者ユーザーを管理し、ストアを操作するための様々なタスクもサポートしています。 これには、次のツールが含まれます。
+管理者は、システム管理者が組織内の管理者ユーザーを管理し、ストアを操作するための様々なタスクもサポートしています。 ツールには次のようなものがあります。
 
-- **管理者ユーザーアカウントと権限** – 管理者 [&#x200B; ユーザーアカウント &#x200B;](permissions-users-all.md) と、管理者のサイトや機能領域へのアクセスを制御する関連 [&#x200B; 役割と権限 &#x200B;](permissions-user-roles.md) を管理します。
-- **管理セッションと web サイト制限** - [&#x200B; セキュリティ &#x200B;](security.md) ベストプラクティスを確認し、管理セッションと資格情報の管理方法、CAPTCHA の実装方法、web サイト制限の管理方法を説明します。
-- [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} **システムツール** - ルーチンの [&#x200B; インデックス &#x200B;](index-management.md) および [&#x200B; キャッシュ &#x200B;](cache-management.md) 管理操作の実行、[&#x200B; バックアップ &#x200B;](backups.md) システムの管理、[&#x200B; スケジュールされた操作 &#x200B;](data-scheduled-import-export.md) の管理、および [&#x200B; 開発者ツール &#x200B;](developer-tools.md) の品揃えの使用を行います。
-- **データ転送** - [&#x200B; データ転送 &#x200B;](data-transfer.md) ツールを使用して、データの読み込みと書き出しを行い、製品、価格、顧客、税率のデータを管理します。
-- **統合** - [&#x200B; サードパーティ統合 &#x200B;](integrations.md) 用の OAuth 認証情報とリダイレクト URL の場所を確立し、使用可能な API リソースを特定します。
-- **アクションログ** - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）ストアで作業している管理者ユーザーによる変更について、レコード（[&#x200B; アクションログ &#x200B;](action-log.md)）にアクセスします。
-- [!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"} **サポートツール** - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [&#x200B; システムレポート &#x200B;](support.md#access-system-reports)）は、システムの既知の問題を特定するように設計されています。 開発および最適化プロセス中のリソースとして、また、サポートチームが問題を特定して解決するのに役立つ診断ツールとして使用できます。
+- **管理者ユーザーアカウントと権限** – 管理者[ ユーザーアカウント ](permissions-users-all.md)と、管理者のサイトと機能領域へのアクセスを制御する関連[役割と権限](permissions-user-roles.md)を管理します。
+- **管理者セッションとweb サイトの制限** - [ セキュリティ ](security.md)のベストプラクティスを確認し、管理者セッションと資格情報の管理方法、CAPTCHAの実装およびweb サイトの制限の管理方法について説明します。
+- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} **システムツール** – 日常的な[ インデックス ](index-management.md)および[ キャッシュ ](cache-management.md)の管理操作を実行し、[ システムをバックアップ ](backups.md)し、[ スケジュールされた操作](data-scheduled-import-export.md)を管理し、[開発者ツールの選定](developer-tools.md)を使用します。
+- **データ転送** - [ データ転送](data-transfer.md) ツールを使用して、データのインポートとエクスポートを行うだけでなく、製品、価格、顧客、税率データの管理も行います。
+- **統合** - OAuth資格情報の場所を確立し、[ サードパーティ統合](integrations.md)のURLをリダイレクトして、使用可能なAPI リソースを特定します。
+- **アクションログ** - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）ストアで作業している管理者ユーザーが行った変更のレコード（[ アクションログ ](action-log.md)）にアクセスします。
+- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} **サポートツール** - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [ システムレポート ](support.md#access-system-reports)）は、システム内の既知の問題を特定するように設計されています。 開発および最適化プロセスのリソースとして、またサポートチームが問題を特定して解決するための診断ツールとして使用できます。
