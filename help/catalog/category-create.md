@@ -116,7 +116,7 @@ ht-degree: 0%
 
 1. カテゴリーページに&#x200B;_`Filter by Attribute`_セクションを含める場合は、**[!UICONTROL Anchor]**&#x200B;を`Yes`に設定します。
 
-1. **[!UICONTROL Available Product Listing Sort By]** オプションで、顧客がリストを並べ替えるために使用できる1つ以上の使用可能な値を選択します。 この設定は、[!DNL Live Search] [製品リストページ ウィジェット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)には適用されません。
+1. **[!UICONTROL Available Product Listing Sort By]** オプションで、顧客がリストを並べ替えるために使用できる1つ以上の使用可能な値を選択します。 この設定は、[!DNL Live Search] [製品リストページ ウィジェット &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-storefront/plp-styling)には適用されません。
 
    デフォルトでは、使用可能なすべての値が含まれます。 選択範囲を変更するには、**[!UICONTROL Use All]** チェックボックスの選択を解除します。 例えば、次の値を含めることができます。
 
@@ -124,7 +124,7 @@ ht-degree: 0%
    - `Product Name`
    - `Price`
 
-1. カテゴリのデフォルトの並べ替え順序を設定するには、**[!UICONTROL Default Product Listing Sort By]**&#x200B;値を選択します。 この設定は、[!DNL Live Search] [製品リストページ ウィジェット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)には適用されません。
+1. カテゴリのデフォルトの並べ替え順序を設定するには、**[!UICONTROL Default Product Listing Sort By]**&#x200B;値を選択します。 この設定は、[!DNL Live Search] [製品リストページ ウィジェット &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-storefront/plp-styling)には適用されません。
 
 1. 既定の階層化ナビゲーション [価格ステップ &#x200B;](navigation-layered.md#configure-price-navigation)設定を変更するには、次の操作を行います。
 
