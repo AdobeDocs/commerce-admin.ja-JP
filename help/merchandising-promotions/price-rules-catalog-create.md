@@ -219,7 +219,7 @@ ht-degree: 0%
 
 このビデオでは、カタログ価格ルールの作成について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410850?captions=jpn&quality=12&learn=on)
 
 ## フィールドの説明
 
