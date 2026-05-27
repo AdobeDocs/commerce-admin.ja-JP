@@ -24,9 +24,9 @@ ht-degree: 0%
 
 ### システムレポートへのアクセス
 
-_管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**&#x200B;に移動します。
 
-![管理者 – システムレポート ](./assets/reports.png){width="600" zoomable="yes"}
+![管理者 – システムレポート &#x200B;](./assets/reports.png){width="600" zoomable="yes"}
 
 ### レポートの生成
 
@@ -34,7 +34,7 @@ _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Support]
 
 1. **[!UICONTROL Groups]** リストで、レポートに含める各情報セットを選択します。 デフォルトでは、すべてのグループが選択されています。
 
-   ![ システムレポート – グループの選択](./assets/report-create.png){width="600" zoomable="yes"}
+   ![&#x200B; システムレポート – グループの選択](./assets/report-create.png){width="600" zoomable="yes"}
 
 1. 右上隅の「**[!UICONTROL Create]**」をクリックします。
 
@@ -46,7 +46,7 @@ _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Support]
 
 **_インストールされている各モジュールのレポート情報を表示するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**&#x200B;に移動します。
 1. **[!UICONTROL New Report]**&#x200B;をクリックします。
 1. **[!UICONTROL Groups]** リストから`Modules`を選択します。
 1. **[!UICONTROL Create]**&#x200B;をクリックします。
@@ -63,7 +63,7 @@ _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Support]
 
 ### システムレポートの詳細を表示
 
-1. 必要なレポートについては、_[!UICONTROL Actions]_列の&#x200B;**[!UICONTROL View]**を選択してください。
+1. 必要なレポートについては、_[!UICONTROL Actions]_&#x200B;列の&#x200B;**[!UICONTROL View]**&#x200B;を選択してください。
 
 1. 左側のパネルで、レポートの各セクションを![拡張セレクター](../assets/icon-display-expand.png)展開して、詳細を表示します。
 

@@ -18,15 +18,15 @@ ht-degree: 0%
 
 **_security.txt:_**&#x200B;を設定するには
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL Security]_の下の左側のパネルで、**[!UICONTROL Security.txt]**をクリックします。
+1. _[!UICONTROL Security]_&#x200B;の下の左側のパネルで、**[!UICONTROL Security.txt]**&#x200B;をクリックします。
 
-1. _[!UICONTROL General]_セクションで、**[!UICONTROL Enable]**を`Yes`に設定します。
+1. _[!UICONTROL General]_&#x200B;セクションで、**[!UICONTROL Enable]**&#x200B;を`Yes`に設定します。
 
    ![一般的なセキュリティ設定](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Contact Information]_で、次のように入力します。
+1. _[!UICONTROL Contact Information]_&#x200B;で、次のように入力します。
 
    - ストアのセキュリティ問題を管理するユーザーのメールアドレスと電話番号。
 
@@ -34,13 +34,13 @@ ht-degree: 0%
 
    ![連絡先情報の設定](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Other Information]_で、次のように入力します。
+1. _[!UICONTROL Other Information]_&#x200B;で、次のように入力します。
 
    - パブリック **[!UICONTROL Encryption]** キーのURL。 例：`https://example.com/pgp-key.txt`
 
    - セキュリティ研究者がストアの代理として取り組みを評価される&#x200B;**[!UICONTROL Acknowledgments]** ページのURL。
 
-   - セキュリティ関連の通信に使用する&#x200B;**[!UICONTROL Preferred Languages]**。 サポートされている各言語の標準の2文字[言語コード ](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)をコンマで区切って入力します。 例えば、英語、スペイン語、フランス語を指定するには、`en, es, fr`と入力します。 指定した言語はすべて、外観の順序に関係なく同じ優先順位を持ちます。
+   - セキュリティ関連の通信に使用する&#x200B;**[!UICONTROL Preferred Languages]**。 サポートされている各言語の標準の2文字[言語コード &#x200B;](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)をコンマで区切って入力します。 例えば、英語、スペイン語、フランス語を指定するには、`en, es, fr`と入力します。 指定した言語はすべて、外観の順序に関係なく同じ優先順位を持ちます。
 
    - ストアのセキュリティ関連の雇用機会を一覧表示する&#x200B;**[!UICONTROL Hiring]** ページのURL。
 

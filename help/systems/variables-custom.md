@@ -13,9 +13,9 @@ ht-degree: 1%
 
 # カスタム変数の追加
 
-ビジネスの特定のニーズに対応するために、カスタム変数を作成し、[ ページ ](../content-design/pages.md)、[ ブロック ](../content-design/blocks.md)、[ メールテンプレート ](email-templates.md)に挿入できます。 _変数を挿入_ ボタンをクリックすると表示される許可された変数のリストには、[定義済み](variables-predefined.md)とカスタム変数の両方が含まれます。 特定のメールテンプレートで使用可能な変数のリストは、テンプレートに関連付けられたデータによって決まります。 頻繁に使用されるメールテンプレートと関連する変数の一覧については、[変数リファレンス ](variables-reference.md)を参照してください。
+ビジネスの特定のニーズに対応するために、カスタム変数を作成し、[&#x200B; ページ &#x200B;](../content-design/pages.md)、[&#x200B; ブロック &#x200B;](../content-design/blocks.md)、[&#x200B; メールテンプレート &#x200B;](email-templates.md)に挿入できます。 _変数を挿入_ ボタンをクリックすると表示される許可された変数のリストには、[定義済み](variables-predefined.md)とカスタム変数の両方が含まれます。 特定のメールテンプレートで使用可能な変数のリストは、テンプレートに関連付けられたデータによって決まります。 頻繁に使用されるメールテンプレートと関連する変数の一覧については、[変数リファレンス &#x200B;](variables-reference.md)を参照してください。
 
-![ カスタム変数](./assets/variables-custom.png){width="600" zoomable="yes"}
+![&#x200B; カスタム変数](./assets/variables-custom.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ## 手順1：カスタム変数の作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Custom Variables]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Custom Variables]**&#x200B;に移動します。
 
 1. **[!UICONTROL Add New Variable]**&#x200B;をクリックします。
 
@@ -69,7 +69,7 @@ ht-degree: 1%
 
 1. エディターツールバーの右端にある（![変数を挿入](./assets/editor-btn-insert-variable.png)）をクリックして、変数を挿入します。
 
-   ![[!DNL Page Builder] ステージとパネル ](./assets/variable-custom-pagebuilder-stage.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] ステージとパネル &#x200B;](./assets/variable-custom-pagebuilder-stage.png){width="600" zoomable="yes"}
 
 1. リストで、挿入するカスタム変数を選択し、**[!UICONTROL Insert Variable]**&#x200B;をクリックします。
 
