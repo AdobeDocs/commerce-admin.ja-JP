@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # カテゴリを作成
 
-カタログのカテゴリ構造は、ルートが上部にある上下逆さまのツリーのようなものです。 ツリーの各セクションを展開したり折りたたんだりできます。 無効なカテゴリまたは非表示のカテゴリはグレー表示されます。 最初のレベル（[root](category-root.md)の下）のカテゴリは、通常、[ メインメニュー](navigation-top.md)にオプションとして表示されます。 設定で設定されているメニューの最大深度に応じて、必要な数の追加サブカテゴリを作成できます。 カテゴリは、ツリー内の他の場所にドラッグ&amp;ドロップできます。 カテゴリ ID番号は、ページの上部にあるカテゴリ名の後ろに括弧で囲まれて表示されます。
+カタログのカテゴリ構造は、ルートが上部にある上下逆さまのツリーのようなものです。 ツリーの各セクションを展開したり折りたたんだりできます。 無効なカテゴリまたは非表示のカテゴリはグレー表示されます。 最初のレベル（[root](category-root.md)の下）のカテゴリは、通常、[&#x200B; メインメニュー](navigation-top.md)にオプションとして表示されます。 設定で設定されているメニューの最大深度に応じて、必要な数の追加サブカテゴリを作成できます。 カテゴリは、ツリー内の他の場所にドラッグ&amp;ドロップできます。 カテゴリ ID番号は、ページの上部にあるカテゴリ名の後ろに括弧で囲まれて表示されます。
 
-複数の[ ストア ](../stores-purchase/stores.md#add-stores)を持つweb サイトの場合、各ストアに対して異なるルートカテゴリを作成し、[ トップナビゲーション ](navigation-top.md)に使用されるカテゴリのセットを定義できます。
+複数の[&#x200B; ストア &#x200B;](../stores-purchase/stores.md#add-stores)を持つweb サイトの場合、各ストアに対して異なるルートカテゴリを作成し、[&#x200B; トップナビゲーション &#x200B;](navigation-top.md)に使用されるカテゴリのセットを定義できます。
 
-![ カテゴリツリー](./assets/category-selected.png){width="700" zoomable="yes"}
+![&#x200B; カテゴリツリー](./assets/category-selected.png){width="700" zoomable="yes"}
 
 ## ベストプラクティス
 
@@ -66,11 +66,11 @@ ht-degree: 0%
 
 1. カテゴリをストアですぐに利用できるようにするには、**[!UICONTROL Enable Category]**&#x200B;を`Yes`に設定します。
 
-1. [ トップナビゲーション ](navigation-top.md)にカテゴリを含めるには、**[!UICONTROL Include in Menu]**&#x200B;を`Yes`に設定します。
+1. [&#x200B; トップナビゲーション &#x200B;](navigation-top.md)にカテゴリを含めるには、**[!UICONTROL Include in Menu]**&#x200B;を`Yes`に設定します。
 
 1. **[!UICONTROL Category Name]**&#x200B;を入力します。
 
-   ![ カテゴリの基本情報](./assets/catalog-categories-currently-active.png){width="500" zoomable="yes"}
+   ![&#x200B; カテゴリの基本情報](./assets/catalog-categories-currently-active.png){width="500" zoomable="yes"}
 
 1. **[!UICONTROL Save]**&#x200B;をクリックして続行します。
 
@@ -78,9 +78,9 @@ ht-degree: 0%
 
 1. **[!UICONTROL Content]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ カテゴリーコンテンツ ](./assets/category-content.png){width="600" zoomable="yes"}
+   ![&#x200B; カテゴリーコンテンツ &#x200B;](./assets/category-content.png){width="600" zoomable="yes"}
 
-1. ページの上部に&#x200B;**[!UICONTROL Category Image]**&#x200B;を表示するには、独自の画像をアップロードするか、[ メディアストレージ ](../content-design/media-storage.md)に存在する画像を使用します。
+1. ページの上部に&#x200B;**[!UICONTROL Category Image]**&#x200B;を表示するには、独自の画像をアップロードするか、[&#x200B; メディアストレージ &#x200B;](../content-design/media-storage.md)に存在する画像を使用します。
 
    - 独自の画像をアップロードするには、**[!UICONTROL Upload]**&#x200B;をクリックし、カテゴリを表す画像を選択します。
 
@@ -90,11 +90,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > AEM Assetsを有効にしている場合は、[ カテゴリの管理](../content-design/aem-assets-manage.md)を参照してください。
+   > AEM Assetsを有効にしている場合は、[&#x200B; カテゴリの管理](../content-design/aem-assets-manage.md)を参照してください。
 
 1. **[!UICONTROL Description]**&#x200B;の場合、カテゴリのランディングページに表示するテキストまたはその他のコンテンツを入力します。
 
-   詳しくは、[ カテゴリーコンテンツ ](categories-content-settings.md)を参照してください。
+   詳しくは、[&#x200B; カテゴリーコンテンツ &#x200B;](categories-content-settings.md)を参照してください。
 
 1. カテゴリのランディングページにコンテンツブロックを含めるには、表示する&#x200B;**[!UICONTROL CMS Block]**&#x200B;を選択します。
 
@@ -114,9 +114,9 @@ ht-degree: 0%
    - `Static Block Only`
    - `Static Block and Products`
 
-1. カテゴリーページに&#x200B;_`Filter by Attribute`_セクションを含める場合は、**[!UICONTROL Anchor]**を`Yes`に設定します。
+1. カテゴリーページに&#x200B;_`Filter by Attribute`_セクションを含める場合は、**[!UICONTROL Anchor]**&#x200B;を`Yes`に設定します。
 
-1. **[!UICONTROL Available Product Listing Sort By]** オプションで、顧客がリストを並べ替えるために使用できる1つ以上の使用可能な値を選択します。 この設定は、[!DNL Live Search] [製品リストページ ウィジェット ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)には適用されません。
+1. **[!UICONTROL Available Product Listing Sort By]** オプションで、顧客がリストを並べ替えるために使用できる1つ以上の使用可能な値を選択します。 この設定は、[!DNL Live Search] [製品リストページ ウィジェット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)には適用されません。
 
    デフォルトでは、使用可能なすべての値が含まれます。 選択範囲を変更するには、**[!UICONTROL Use All]** チェックボックスの選択を解除します。 例えば、次の値を含めることができます。
 
@@ -124,9 +124,9 @@ ht-degree: 0%
    - `Product Name`
    - `Price`
 
-1. カテゴリのデフォルトの並べ替え順序を設定するには、**[!UICONTROL Default Product Listing Sort By]**&#x200B;値を選択します。 この設定は、[!DNL Live Search] [製品リストページ ウィジェット ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)には適用されません。
+1. カテゴリのデフォルトの並べ替え順序を設定するには、**[!UICONTROL Default Product Listing Sort By]**&#x200B;値を選択します。 この設定は、[!DNL Live Search] [製品リストページ ウィジェット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)には適用されません。
 
-1. 既定の階層化ナビゲーション [価格ステップ ](navigation-layered.md#configure-price-navigation)設定を変更するには、次の操作を行います。
+1. 既定の階層化ナビゲーション [価格ステップ &#x200B;](navigation-layered.md#configure-price-navigation)設定を変更するには、次の操作を行います。
 
    - 「**[!UICONTROL Use Config Settings]**」チェックボックスの選択を解除します。
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
    これらのオプションについて詳しくは、[検索エンジン最適化](categories-search-engine-optimization.md)を参照してください。
 
-1. カテゴリの次の[ メタデータ ](../merchandising-promotions/meta-data.md)を完了します。
+1. カテゴリの次の[&#x200B; メタデータ &#x200B;](../merchandising-promotions/meta-data.md)を完了します。
 
    - [!UICONTROL Meta Title]
    - [!UICONTROL Meta Keywords]
@@ -154,11 +154,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Products in Category]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ カテゴリ内の製品](./assets/category-products-in-category.png){width="600" zoomable="yes"}
+   ![&#x200B; カテゴリ内の製品](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
-   これらのオプションについて詳しくは、[ カテゴリ内の製品](categories-product-assignments.md)を参照してください。
+   これらのオプションについて詳しくは、[&#x200B; カテゴリ内の製品](categories-product-assignments.md)を参照してください。
 
-1. 必要に応じて、[ フィルター](../getting-started/admin-grid-controls.md)を使用して製品を検索します。
+1. 必要に応じて、[&#x200B; フィルター](../getting-started/admin-grid-controls.md)を使用して製品を検索します。
 
    カテゴリに含まれていないすべてのレコードを表示するには、最初の列のレコード選択を`No`に設定し、**[!UICONTROL Search]**&#x200B;をクリックします。
 
@@ -186,7 +186,7 @@ ht-degree: 0%
 
 1. 別の権限ルールを追加するには、**[!UICONTROL New Permission]**&#x200B;をクリックして、プロセスを繰り返します。
 
-   ![ カテゴリの権限](./assets/category-create-permissions.png){width="600" zoomable="yes"}
+   ![&#x200B; カテゴリの権限](./assets/category-create-permissions.png){width="600" zoomable="yes"}
 
 ## 手順8：デザイン設定を完了する
 
@@ -204,14 +204,14 @@ ht-degree: 0%
 
    - 商品ページに同じデザインを使用するには、**[!UICONTROL Apply Design to Products]**&#x200B;を`Yes`に設定します。
 
-   ![ デザイン設定](./assets/category-design.png){width="600" zoomable="yes"}
+   ![&#x200B; デザイン設定](./assets/category-design.png){width="600" zoomable="yes"}
 
 1. ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）特定の期間のデザインアップデートをスケジュールするには、次の操作を行います。
 
-   - _[!UICONTROL Schedule Design Update]_セクションを展開します。
+   - _[!UICONTROL Schedule Design Update]_&#x200B;セクションを展開します。
 
-   - カレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）を使用して、スケジュール更新&#x200B;**[!UICONTROL from]**&#x200B;および&#x200B;**[!UICONTROL to]**&#x200B;の日付を選択します。
+   - カレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）を使用して、スケジュール更新&#x200B;**[!UICONTROL from]**&#x200B;および&#x200B;**[!UICONTROL to]**&#x200B;の日付を選択します。
 
-   ![ デザイン更新をスケジュールしました](./assets/category-scheduled-design-update.png){width="600" zoomable="yes"}
+   ![&#x200B; デザイン更新をスケジュールしました](./assets/category-scheduled-design-update.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。

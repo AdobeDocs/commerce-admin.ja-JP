@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >ルールで使用されている各属性を&#x200B;[_smart_&#x200B;属性](smart-attributes-configure.md)として設定してください。
 
-![ カテゴリ製品ルール ](../catalog/assets/category-product-rule-with-stock.png){width="600" zoomable="yes"}
+![&#x200B; カテゴリ製品ルール &#x200B;](../catalog/assets/category-product-rule-with-stock.png){width="600" zoomable="yes"}
 
 カテゴリ製品ルールは、カテゴリに表示される製品を決定する条件に基づいて、特定の製品をカテゴリに割り当てるプロセスを迅速化できます。 カテゴリ製品ルールで使用できる「スマート」属性は、[Visual Merchandiser](visual-merchandiser.md)設定で指定されます。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >選択する属性が複数選択&#x200B;_[!UICONTROL Input Type]_でないことを確認してください。
+   >選択する属性が複数選択&#x200B;_[!UICONTROL Input Type]_&#x200B;でないことを確認してください。
 
 1. Visual Merchandiserで使用する各&#x200B;_smart_&#x200B;属性を識別するには、[設定](smart-attributes-configure.md)を完了します。
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 1. 一致させる&#x200B;**[!UICONTROL Value]**&#x200B;を入力します。
 
-   ![ カテゴリルールに条件を追加](../catalog/assets/category-rule-create.png){width="500"}
+   ![&#x200B; カテゴリルールに条件を追加](../catalog/assets/category-rule-create.png){width="500"}
 
 1. 満たすべき条件を記述するために必要な各属性について、このプロセスを繰り返します。
 
@@ -144,4 +144,4 @@ ht-degree: 0%
 
 - **[!UICONTROL Value]** – 属性が条件を満たすために必要な値を指定します。
 
-- **[!UICONTROL Logic]** - ロジック列は複数の条件を定義するために使用され、別の条件が追加された場合にのみ表示されます。 演算子は、MySQL [ ブール演算子](https://dev.mysql.com/doc/refman/8.0/en/operator-precedence.html)の優先順位のルールに従います。 オプション：`AND` / `OR`
+- **[!UICONTROL Logic]** - ロジック列は複数の条件を定義するために使用され、別の条件が追加された場合にのみ表示されます。 演算子は、MySQL [&#x200B; ブール演算子](https://dev.mysql.com/doc/refman/8.0/en/operator-precedence.html)の優先順位のルールに従います。 オプション：`AND` / `OR`
