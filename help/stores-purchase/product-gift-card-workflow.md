@@ -18,7 +18,7 @@ ht-degree: 0%
 
 適用されたギフトカードコードは、_管理者_&#x200B;で注文を開くことで表示できます。これにより、必要に応じてコードを取得して物理的なギフトカードに配置することができます。 ギフトカードの注文がキャンセルまたは返金された場合、関連するギフトカードアカウントを手動でキャンセルする必要があります。 アカウントを完全に削除するか、非アクティブにすることができます。
 
-![ カートのギフトカードの詳細](./assets/storefront-gift-card-order-customer-account.png){width="700" zoomable="yes"}
+![&#x200B; カートのギフトカードの詳細](./assets/storefront-gift-card-order-customer-account.png){width="700" zoomable="yes"}
 
 例えば、デモ Luma ストアで買い物をする顧客は、バーチャルギフトカードまたは物理的なギフトカードのいずれかを購入できます。
 
@@ -66,9 +66,9 @@ ht-degree: 0%
 
 - ギフトコードのアカウントは、特定の割引券の残高を追跡するために作成されます。 ストア管理者は、残高を手動で調整できます。
 
-受け取り側のお客様は、アカウントダッシュボードの&#x200B;_[!UICONTROL Gift Card]_セクションを使用して、[ ギフトカードアカウント ](product-gift-card-accounts.md)の残高を確認し、[ ストアクレジット ](../customers/store-credit-using.md)にギフトカードを引き換えることができます。
+受け取り側のお客様は、アカウントダッシュボードの&#x200B;_[!UICONTROL Gift Card]_&#x200B;セクションを使用して、[&#x200B; ギフトカードアカウント &#x200B;](product-gift-card-accounts.md)の残高を確認し、[&#x200B; ストアクレジット &#x200B;](../customers/store-credit-using.md)にギフトカードを引き換えることができます。
 
-![ ギフトカード ](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
+![&#x200B; ギフトカード &#x200B;](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
 
 ### ギフトカードのステータスと残高を確認する
 
@@ -78,23 +78,23 @@ ht-degree: 0%
 
 1. お客様は&#x200B;**[!UICONTROL Check status and balance]**&#x200B;をクリックします。
 
-![ ギフトカード残高](./assets/gift-balance.png){width="700" zoomable="yes"}
+![&#x200B; ギフトカード残高](./assets/gift-balance.png){width="700" zoomable="yes"}
 
 ギフトカードの残高が表示されます。
 
 ### ギフトカードの有効化
 
-1. _[!UICONTROL Gift Card]_ページで、お客様はギフトカードコードを入力します。
+1. _[!UICONTROL Gift Card]_&#x200B;ページで、お客様はギフトカードコードを入力します。
 
 1. お客様は&#x200B;**[!UICONTROL Redeem Gift Card]**&#x200B;をクリックします。
 
-![ ギフトカードのアクティベーションに成功したことに関するメッセージ ](./assets/gift-redeemed-balance.png){width="700" zoomable="yes"}
+![&#x200B; ギフトカードのアクティベーションに成功したことに関するメッセージ &#x200B;](./assets/gift-redeemed-balance.png){width="700" zoomable="yes"}
 
 ギフトカードの金額が有効になり、店舗のクレジット残高に追加されます。
 
-![ ストアのクレジット残高](./assets/store-credit.png){width="700" zoomable="yes"}
+![&#x200B; ストアのクレジット残高](./assets/store-credit.png){width="700" zoomable="yes"}
 
-ギフトカード残高のすべての操作は、_[!UICONTROL Store Credit]_ページで利用できます。
+ギフトカード残高のすべての操作は、_[!UICONTROL Store Credit]_&#x200B;ページで利用できます。
 
 ### チェックアウト時にギフトカードを適用する
 
@@ -104,6 +104,6 @@ ht-degree: 0%
 
 1. ギフトカードコードを入力し、**[!UICONTROL Apply]**&#x200B;をクリックします。
 
-   割引は&#x200B;_[!UICONTROL Order Summary]_に反映する必要があります。
+   割引は&#x200B;_[!UICONTROL Order Summary]_&#x200B;に反映する必要があります。
 
 1. **[!UICONTROL Place Order]**&#x200B;をクリックして注文を確定します。

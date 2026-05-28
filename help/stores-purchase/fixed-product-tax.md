@@ -33,13 +33,13 @@ ht-degree: 0%
 
 ## FPTの設定
 
-固定製品税（FPT） [入力タイプ ](../catalog/attributes-input-types.md)は、各地域の税を管理するためのフィールドのセクションを作成します。
+固定製品税（FPT） [入力タイプ &#x200B;](../catalog/attributes-input-types.md)は、各地域の税を管理するためのフィールドのセクションを作成します。
 
 次の手順では、「エコタックス」を例に、ストアの固定商品税を設定する方法を示します。 税金の範囲と税金が適用される国と州を設定した後、選択したオプションに応じて、入力フィールドは現地の要件に応じて変更できます。 詳しくは、[製品属性の作成](../catalog/attribute-product-create.md)を参照してください。
 
 ### 手順1：固定製品税の有効化
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Tax]**&#x200B;を選択します。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ### 手順2:FPT属性の作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Attribute]**」をクリックし、次の操作を行います。
 
@@ -81,33 +81,33 @@ ht-degree: 0%
 
    - **[!UICONTROL Catalog Input for Store Owner]**&#x200B;を`Fixed Product Tax`に設定します。
 
-   ![属性プロパティ ](./assets/tax-fpt-attribute-properties.png){width="600" zoomable="yes"}
+   ![属性プロパティ &#x200B;](./assets/tax-fpt-attribute-properties.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Advanced Attribute Properties]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、プロパティオプションを設定します。
 
    - **[!UICONTROL Attribute Code]** - スペースや特殊文字を使用せずに、一意の識別子を小文字で入力します。 最大長は30文字です。 「デフォルトラベル」フィールドのテキストに対して、フィールドを空白のままにできます。
 
-   - **[!UICONTROL Add to Column Options]** - FPT フィールドを[製品リスト ](../catalog/products-list.md)に表示する場合は、`Yes`に設定します。
+   - **[!UICONTROL Add to Column Options]** - FPT フィールドを[製品リスト &#x200B;](../catalog/products-list.md)に表示する場合は、`Yes`に設定します。
 
-   - **[!UICONTROL Use in Filter Options]** - FPT フィールドの値に基づいてグリッド内の商品を[ フィルター](../getting-started/admin-workspace.md)できるようにする場合は、`Yes`に設定します。
+   - **[!UICONTROL Use in Filter Options]** - FPT フィールドの値に基づいてグリッド内の商品を[&#x200B; フィルター](../getting-started/admin-workspace.md)できるようにする場合は、`Yes`に設定します。
 
-   ![高度な属性プロパティ ](./assets/tax-fpt-advanced-attribute-properties.png){width="600" zoomable="yes"}
+   ![高度な属性プロパティ &#x200B;](./assets/tax-fpt-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
 1. （オプション）左側のパネルで「**[!UICONTROL Manage Labels]**」を選択し、各ストアビューのデフォルトラベルの代わりに使用するラベルを入力します。
 
-   ![ ラベルの管理](./assets/attribute-new-manage-labels.png){width="600" zoomable="yes"}
+   ![&#x200B; ラベルの管理](./assets/attribute-new-manage-labels.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save Attribute]**&#x200B;をクリックします。
 
-1. プロンプトが表示されたら、[ キャッシュ ](../systems/cache-management.md)を更新します。
+1. プロンプトが表示されたら、[&#x200B; キャッシュ &#x200B;](../systems/cache-management.md)を更新します。
 
 ### 手順3：属性セットにFPT属性を追加する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**&#x200B;に移動します。
 
 1. リストで、属性セットをクリックして、レコードを編集モードで開きます。
 
-   ![属性セット リスト ](./assets/attribute-sets-list.png){width="600" zoomable="yes"}
+   ![属性セット リスト &#x200B;](./assets/attribute-sets-list.png){width="600" zoomable="yes"}
 
 1. 右側の&#x200B;**[!UICONTROL Unassigned Attributes]**&#x200B;のリストからFPT属性を中央の列の&#x200B;**[!UICONTROL Groups]** リストにドラッグします。
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 1. 製品に適用される税金を指定します。
 
-   ![ カナダの固定製品税](./assets/tax-product-fpt-canada.png){width="600" zoomable="yes"}
+   ![&#x200B; カナダの固定製品税](./assets/tax-product-fpt-canada.png){width="600" zoomable="yes"}
 
    - Commerce インスタンスに複数のweb サイトがある場合は、適切な&#x200B;**[!UICONTROL Website]**&#x200B;と基本通貨を選択します。 この例では、フィールドはデフォルトで`All Websites [USD]`に設定されています。
 

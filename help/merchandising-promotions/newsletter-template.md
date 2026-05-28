@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ニュースレターテンプレートは、目的に応じて必要な数だけ作成できます。 製品の最新情報、月次ニュースレター、年次ホリデーニュースレターなどを毎週配信しましょう。 ニュースレターテンプレートは、HTML マークアップを使用して作成することも、プレーンテキストとして作成することもできます。 HTMLとは異なり、プレーンテキストニュースレターには、画像、リッチテキスト、または形式のリンクは含まれません。 グリッドのテンプレートタイプ列には、テンプレートがHTMLかテキストかを示します。
 
-![ ニュースレターテンプレート – ニュースレターキューに追加](./assets/newsletter-templates-grid.png){width="700" zoomable="yes"}
+![&#x200B; ニュースレターテンプレート – ニュースレターキューに追加](./assets/newsletter-templates-grid.png){width="700" zoomable="yes"}
 
 ## ニュースレターテンプレートの作成
 
-1. 管理者サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**に移動します。
+1. 管理者サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**&#x200B;に移動します。
 
 1. テンプレートを追加するには、**[!UICONTROL Add New Template]**&#x200B;をクリックします。
 
@@ -32,11 +32,11 @@ ht-degree: 0%
 
    - **[!UICONTROL Sender Email]**&#x200B;に、ニュースレターの送信者の電子メールアドレスを入力します。
 
-   ![ ニュースレターテンプレート情報](./assets/newsletter-template-information2.png){width="600" zoomable="yes"}
+   ![&#x200B; ニュースレターテンプレート情報](./assets/newsletter-template-information2.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Template Content]**&#x200B;の場合、**[!UICONTROL Show / Hide Editor]**&#x200B;をクリックしてWYSIWYG エディターを表示し、必要に応じてコンテンツを更新します。
 
-     詳しくは、「[ エディターの使用](../content-design/editor.md)」を参照してください。
+     詳しくは、「[&#x200B; エディターの使用](../content-design/editor.md)」を参照してください。
 
      >[!NOTE]
      >
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ## ニュースレターテンプレートの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**&#x200B;に移動します。
 
 1. 削除するニュースレターテンプレートを見つけ、編集モードで開きます。
 

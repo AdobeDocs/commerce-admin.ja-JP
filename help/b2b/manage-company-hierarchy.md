@@ -37,7 +37,7 @@ ht-degree: 0%
 
 管理者から、個人会社（`[!UICONTROL Company Type] = Company`）を編集し、[!UICONTROL Company Hierarchy]設定で関連会社を割り当てることで、親会社を作成します。
 
-![会社階層グリッド ](./assets/company-hierarchy-grid.png){width="700"}
+![会社階層グリッド &#x200B;](./assets/company-hierarchy-grid.png){width="700"}
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL Companies]**&#x200B;に移動します。
 
-   ![会社グリッド ](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+   ![会社グリッド &#x200B;](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 1. [!UICONTROL Companies] グリッドから、会社詳細ページを開いて割り当てを作成します。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 会社ページで、**[!UICONTROL Edit]** アクションを選択して、親会社の会社詳細ページを開きます。
 
-   ![親会社詳細ページ ](./assets/company-update.png){width="700" zoomable="yes"}
+   ![親会社詳細ページ &#x200B;](./assets/company-update.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL Company Hierarchy]**&#x200B;を展開して、割り当てられた会社のリストを表示します。
 

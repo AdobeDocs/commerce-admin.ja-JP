@@ -16,7 +16,7 @@ ht-degree: 0%
 
 _管理者_ サイドバーで、**[!UICONTROL Sales]** > _操作_ > **請求書**&#x200B;に移動して、_請求書_ グリッドを開き、作成した請求書にアクセスします。
 
-![請求書グリッド ](./assets/invoices.png){width="700" zoomable="yes"}
+![請求書グリッド &#x200B;](./assets/invoices.png){width="700" zoomable="yes"}
 
 ## 列の説明
 
@@ -49,9 +49,9 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]** > _操作_ > **請求書
 
 注文の請求書を作成すると、キャンセルまたは変更できない状態に移動します。 新しい請求書ページは、注文が完了した状態と似ていますが、追加フィールドもあります。 注文に関連するすべてのアクティビティは、請求書の「コメント」セクションに記載されます。
 
-通常、注文は請求され、出荷プロセスが開始されたときに取り込まれます。 支払い方法が発注である場合、または[支払いアクション ](../configuration-reference/sales/payment-methods.md#payment-actions)が`Authorize and Capture`に設定されている場合、注文は請求され、支払いはチェックアウト中に取り込まれます。 梱包伝票を含む請求書を生成し、配送業者アカウントから配送ラベルを印刷することもできます。 1回の注文で部分的な配送に分割し、必要に応じて個別に請求することもできます。
+通常、注文は請求され、出荷プロセスが開始されたときに取り込まれます。 支払い方法が発注である場合、または[支払いアクション &#x200B;](../configuration-reference/sales/payment-methods.md#payment-actions)が`Authorize and Capture`に設定されている場合、注文は請求され、支払いはチェックアウト中に取り込まれます。 梱包伝票を含む請求書を生成し、配送業者アカウントから配送ラベルを印刷することもできます。 1回の注文で部分的な配送に分割し、必要に応じて個別に請求することもできます。
 
-新しい注文の状態が`Processing`に設定されると、_すべてのアイテムを自動的に請求書_&#x200B;のオプションが設定で使用できるようになります。 一部のクレジットカードの支払い方法は、[支払いアクション ](../configuration-reference/sales/payment-methods.md#payment-actions)が`Authorize and Capture`に設定されている場合、プロセスの一環として請求手順を完了します。 このような場合、請求書ボタンは表示されず、注文は発送する準備ができています。
+新しい注文の状態が`Processing`に設定されると、_すべてのアイテムを自動的に請求書_&#x200B;のオプションが設定で使用できるようになります。 一部のクレジットカードの支払い方法は、[支払いアクション &#x200B;](../configuration-reference/sales/payment-methods.md#payment-actions)が`Authorize and Capture`に設定されている場合、プロセスの一環として請求手順を完了します。 このような場合、請求書ボタンは表示されず、注文は発送する準備ができています。
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]** > _操作_ > **請求書
 
 **_注文の請求書を作成するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**&#x200B;に移動します。
 
 1. グリッド内のステータスが`Processing`の販売注文を検索します。 次に、次の操作を行います。
 
@@ -71,7 +71,7 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]** > _操作_ > **請求書
 
    >[!NOTE]
    >
-   >特定の[支払い方法](../configuration-reference/sales/payment-methods.md)の[支払いアクション ](../configuration-reference/sales/payment-methods.md#payment-actions)が請求書を自動生成する`Authorize and Capture`に設定されている場合、_[!UICONTROL Invoice]_オプションは表示されません。 これは、注文が行われ、支払い方法の支払いアクションが`Authorize`に設定され、注文が請求される場合にも当てはまります。
+   >特定の[支払い方法](../configuration-reference/sales/payment-methods.md)の[支払いアクション &#x200B;](../configuration-reference/sales/payment-methods.md#payment-actions)が請求書を自動生成する`Authorize and Capture`に設定されている場合、_[!UICONTROL Invoice]_&#x200B;オプションは表示されません。 これは、注文が行われ、支払い方法の支払いアクションが`Authorize`に設定され、注文が請求される場合にも当てはまります。
 
    ![請求書の販売注文](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -113,7 +113,7 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]** > _操作_ > **請求書
 
    **_オフライン支払い方法:_**
 
-   ![請求書を送信 – オフラインの支払い方法） ](./assets/invoice-submit-invoice.png){width="600" zoomable="yes"}
+   ![請求書を送信 – オフラインの支払い方法） &#x200B;](./assets/invoice-submit-invoice.png){width="600" zoomable="yes"}
 
    注文のステータスが`Pending`から`Complete`に変更されます。
 
@@ -129,9 +129,9 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]** > _操作_ > **請求書
 
 ### 1つの請求書を印刷
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**&#x200B;に移動します。
 
-1. _[!UICONTROL Invoices]_グリッドで、請求書を探し、_ アクション _列の&#x200B;**[!UICONTROL View]**をクリックします。
+1. _[!UICONTROL Invoices]_&#x200B;グリッドで、請求書を探し、_ アクション _列の&#x200B;**[!UICONTROL View]**&#x200B;をクリックします。
 
 1. 請求書の上部にある「**[!UICONTROL Print]**」をクリックして、請求書のPDFを生成します。
 
@@ -139,9 +139,9 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]** > _操作_ > **請求書
 
 ### 複数の請求書の印刷
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**&#x200B;に移動します。
 
-1. _[!UICONTROL Invoices]_グリッドで、印刷する各請求書のチェックボックスを選択します。
+1. _[!UICONTROL Invoices]_&#x200B;グリッドで、印刷する各請求書のチェックボックスを選択します。
 
 1. **[!UICONTROL Actions]** コントロールを`PDF Invoices`に設定します。
 
