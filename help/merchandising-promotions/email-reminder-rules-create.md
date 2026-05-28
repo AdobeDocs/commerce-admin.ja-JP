@@ -5,26 +5,26 @@ exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
 source-git-commit: d605748f04f26952daa467a84431a17bf368dbad
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
 
 # メールリマインダーを作成
 
-メールリマインダールールを設定する前に、最初に[&#x200B; カート価格ルールを設定](price-rules-cart-create.md)して、提供するプロモーションを定義する必要があります。 カートのプロパティ、ウィッシュリストのプロパティ、またはその両方にもとづいて、メールリマインダーをトリガーできるルール条件を指定できます。
+メールリマインダールールを設定する前に、最初に[ カート価格ルールを設定](price-rules-cart-create.md)して、提供するプロモーションを定義する必要があります。 カートのプロパティ、ウィッシュリストのプロパティ、またはその両方にもとづいて、メールリマインダーをトリガーできるルール条件を指定できます。
 
 >[!NOTE]
 >
 >メールリマインダーは、クーポンの有無にかかわらず、カート価格ルールを宣伝する場合があります。 自動生成されたクーポンを定義するカート価格ルールは、顧客一人ひとりにランダムなクーポンコードを生成します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Reminder Rules]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Reminder Rules]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Rule]**」をクリックします。
 
-1. 次のように、_[!UICONTROL Rule Information]_&#x200B;を完了します。
+1. 次のように、_[!UICONTROL Rule Information]_を完了します。
 
-   ![電子メールリマインダールール &#x200B;](./assets/email-reminder-new.png){width="700" zoomable="yes"}
+   ![電子メールリマインダールール ](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
    - 内部でルールを識別するには、**[!UICONTROL Rule Name]**&#x200B;を入力します。
 
@@ -38,28 +38,28 @@ ht-degree: 0%
 
    - ルールをアクティブにする日付範囲を設定するには、**[!UICONTROL From]**&#x200B;と&#x200B;**[!UICONTROL To]**&#x200B;の日付を入力します。
 
-     カレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）から日付を選択することもできます。
+     カレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）から日付を選択することもできます。
 
    - リマインダーを複数回送信するには、**[!UICONTROL Repeat Schedule]** フィールドに次のメール送信までの日数を入力します。
 
 1. 左側のパネルで、**[!UICONTROL Conditions]**&#x200B;を選択します。
 
-   ルールに少なくとも1つの条件を定義する必要があります。 このプロセスは、[&#x200B; カタログ価格ルールの作成に似ています。](price-rules-catalog.md)
+   ルールに少なくとも1つの条件を定義する必要があります。 このプロセスは、[ カタログ価格ルールの作成に似ています。](price-rules-catalog.md)
 
    ![電子メールリマインダー条件](./assets/email-reminder-conditions.png){width="600" zoomable="yes"}
 
-   「_追加_」（![追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックしてオプションのリストを表示し、次のいずれかの条件を選択します。
+   「_追加_」（![追加アイコン ](../assets/icon-add-green-circle.png)）をクリックしてオプションのリストを表示し、次のいずれかの条件を選択します。
 
    - ウィッシュリスト
    - 買い物かご
 
    >[!NOTE]
    >
-   >顧客が複数のマッチングされたカート放棄、ウィッシュリスト、またはその両方の組み合わせを持っている場合、メールリマインダーはその顧客に対して1回だけトリガーされます。 同じメールリマインダーを再度トリガーするには、_[!UICONTROL Repeat Schedule]_&#x200B;フィールドを使用して、メール間の日数を設定します。<br/>
+   >顧客が複数のマッチングされたカート放棄、ウィッシュリスト、またはその両方の組み合わせを持っている場合、メールリマインダーはその顧客に対して1回だけトリガーされます。 同じメールリマインダーを再度トリガーするには、_[!UICONTROL Repeat Schedule]_フィールドを使用して、メール間の日数を設定します。<br/>
    >
-   >同じ顧客に対して、同じメールリマインダーが&#x200B;**_リトリガーされませんでした_** （**_new_**&#x200B;放棄されたカートとウィッシュリスト **_後_**）、_[!UICONTROL Repeat Schedule]_&#x200B;期間が終了しています）。
+   >同じ顧客に対して、同じメールリマインダーが&#x200B;**_リトリガーされませんでした_** （**_new_**&#x200B;放棄されたカートとウィッシュリスト **_後_**）、_[!UICONTROL Repeat Schedule]_期間が終了しています）。
    >
-   >Adobe Commerce as a Cloud Serviceには、1つのルールを複数回適用できる実験的な機能があります。詳しくは、[&#x200B; ルールの繰り返し可能性](#rule-repeatability)を参照してください。
+   >Adobe Commerce as a Cloud Serviceには、1つのルールを複数回適用できる実験的な機能があります。詳しくは、[ ルールの繰り返し可能性](#rule-repeatability)を参照してください。
 
    条件を完了して、電子メールリマインダーをトリガーするシナリオを記述します。
 
@@ -67,9 +67,9 @@ ht-degree: 0%
 
 1. 左側のパネルで、**[!UICONTROL Emails and Labels]**&#x200B;を選択します。
 
-   ![電子メールリマインダールール – 電子メールとラベルテンプレート &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![電子メールリマインダールール – 電子メールとラベルテンプレート ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Email Templates]** セクションで、[&#x200B; ストア階層](../getting-started/websites-stores-views.md)のweb サイトとストアビューごとに使用する電子メールテンプレートを選択します。
+1. **[!UICONTROL Email Templates]** セクションで、[ ストア階層](../getting-started/websites-stores-views.md)のweb サイトとストアビューごとに使用する電子メールテンプレートを選択します。
 
    ストアビューの顧客にリマインダーメールを送信しない場合は、値`Not Selected`を残します。
 
@@ -85,25 +85,25 @@ ht-degree: 0%
 
      ![電子メールリマインダー – タイトルと説明](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - _[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;セクションで、**[!UICONTROL Rule Title]**&#x200B;デフォルトのストアビュー&#x200B;**[!UICONTROL Description]**&#x200B;の_&#x200B;と&#x200B;_を入力します。 複数のストアビューの場合は、それぞれに適切なタイトルと説明を入力します。
+   - _[!UICONTROL Titles and Descriptions Per Store View]_セクションで、_ デフォルトのストアビュー&#x200B;_の&#x200B;**[!UICONTROL Rule Title]**と&#x200B;**[!UICONTROL Description]**を入力します。 複数のストアビューの場合は、それぞれに適切なタイトルと説明を入力します。
 
      >[!NOTE]
      >
      >promotion_description変数を使用すると、説明をメールテンプレートに組み込むことができます。
 
-     ![&#x200B; タイトルと説明 – ストアビュー](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
+     ![ タイトルと説明 – ストアビュー](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} [!DNL Adobe Commerce as a Cloud Service]を使用している場合、[&#x200B; チェックボックスを選択して](#rule-repeatability) ルールの繰り返し可能性[!UICONTROL Rule Repeatability]を有効にできます。
+1. [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} [!DNL Adobe Commerce as a Cloud Service]を使用している場合、[!UICONTROL Rule Repeatability] チェックボックスを選択して[ ルールの繰り返し可能性](#rule-repeatability)を有効にできます。
 
    >[!IMPORTANT]
    >
-   >ルールの繰り返し可能性オプションは、デフォルトで無効になっている実験的な機能です。  このオプションを有効にする方法について詳しくは、[&#x200B; ルールの繰り返し可能性](#rule-repeatabilty)を参照してください。
+   >ルールの繰り返し可能性オプションは、デフォルトで無効になっている実験的な機能です。  このオプションを有効にする方法について詳しくは、[ ルールの繰り返し可能性](#rule-repeatabilty)を参照してください。
 
 1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
 ## ルールの再現性
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
 
 >[!IMPORTANT]
 >
@@ -111,9 +111,9 @@ ht-degree: 0%
 
 ルールの繰り返し性により、複数のメールリマインダーに対して1つのルールを再利用できます。 これは、後で同じ顧客にルールを適用する場合に便利です。 ルールの繰り返し性がなければ、顧客がカートをクリアしたり、購入を完了したりすると、このルールは適用されなくなります。
 
-「**[!UICONTROL Rule Repeatability]**」タブの「**[!UICONTROL General Information]**」チェックボックスをオンにすると、元のルールトリガーが適用されなくなった後に、ルールをユーザーに再度適用できます。
+「**[!UICONTROL General Information]**」タブの「**[!UICONTROL Rule Repeatability]**」チェックボックスをオンにすると、元のルールトリガーが適用されなくなった後に、ルールをユーザーに再度適用できます。
 
-![&#x200B; ルールの繰り返し可能性](./assets/rule-repeatability.png){width="600" zoomable="yes"}
+![ ルールの繰り返し可能性](./assets/rule-repeatability.png){width="600" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 

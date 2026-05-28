@@ -1,11 +1,11 @@
 ---
 title: ページ階層
-description: ページ階層システムを使用して、コンテンツページを整理し、ページネーション、ナビゲーション、メニューを追加する機能を提供する方法を説明します。
+description: ページ階層システムでコンテンツページを整理し、ページネーション、ナビゲーション、メニューを追加する方法について説明します。
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -14,146 +14,146 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-ストアページ階層システムを使用すると、コンテンツページを整理し、ページネーション、ナビゲーションおよびメニューを追加できます。 サンプルデータのプライバシーポリシーページは、左側にメニューがあるページの例です。 大量のコンテンツを定期的に公開する場合は、ページ階層を使用してコンテンツを整理し、関心のある記事をユーザーが簡単に見つけられるようにすることができます。
+ストアページ階層システムは、コンテンツページを整理し、ページネーション、ナビゲーション、メニューを追加する機能を提供します。 サンプルデータのプライバシーポリシーのページは、左側にメニューが表示されているページの例です。 大量のコンテンツを定期的に公開する場合、ページ階層を利用してコンテンツを整理することで、誰かが興味のある記事を簡単に見つけることができます。
 
-ページ階層システムは、ノードを使用して、関連するコンテンツ部分を識別し、コンテンツページを親子関係に整理します。 親ノードは、子ノードおよびページを含む可能性のあるフォルダーに似ています。 階層内の各ノードとページの相対位置は、_tree_ 構造として表示されます。 ノードには、他のノードやコンテンツページが含まれ、1 つのコンテンツページが、親/子または近隣の関係の複数のノードや他のコンテンツページに関連付けられる場合があります。
+ページ階層システムは、ノードを使用して関連するコンテンツを識別し、コンテンツページを親子関係に整理します。 親ノードは、子ノードやページを含む可能性のあるフォルダーのようなものです。 階層内の各ノードとページの相対的な位置は、_ツリー_&#x200B;構造として表示されます。 ノードには他のノードやコンテンツページが含まれる場合があり、単一のコンテンツページは複数のノードや、親子関係や近隣関係にある他のコンテンツページに関連付けられる場合があります。
 
-![&#x200B; 左側にナビゲーションがあるページ &#x200B;](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
+![左ナビゲーション付きのページ ](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
 
 ## ページ階層の設定
 
-構成設定により、ページ階層システムおよびメタデータがアクティブ化され、デフォルトのメニューレイアウトが決定されます。
+設定は、ページ階層システムとメタデータをアクティブ化し、デフォルトのメニューレイアウトを決定します。
 
-![CMS ページ階層 &#x200B;](./assets/content-management-cms-page-hierarchy.png){width="600" zoomable="yes"}
+![CMS ページ階層](./assets/content-management-cms-page-hierarchy.png){width="600" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
+1. _[!UICONTROL General]_の下の左側のパネルで、**[!UICONTROL Content Management]**を選択します。
 
-1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]** を展開し、必要な変更を加えます。
+1. ![拡張セレクター](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]**&#x200B;を展開し、必要な変更を行います。
 
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
 | フィールド | 説明 |
 |--- |--- |
-| [!UICONTROL Enable Hierarchy Functionality] | コンテンツページに対してページ階層の使用をアクティベートします。 オプション：`Yes` / `No` |
+| [!UICONTROL Enable Hierarchy Functionality] | コンテンツページのページ階層の使用を有効にします。 オプション：`Yes` / `No` |
 | [!UICONTROL Enable Hierarchy Metadata] | このオプションを有効にすると、メタデータを階層内のページに関連付けることができます。 オプション：`Yes` / `No` |
-| [!UICONTROL Default Layout for Hierarchy Menu] | 既定のメニュースタイルを決定します。 オプション：`Content`/`Left Column`/`Right Column` |
+| [!UICONTROL Default Layout for Hierarchy Menu] | デフォルトのメニュースタイルを指定します。 オプション：`Content` / `Left Column` / `Right Column` |
 
 {style="table-layout:auto"}
 
 ## 階層ノードの追加
 
-次の例では、関連するコンテンツページへの簡単なナビゲーションを使用してノードを作成する方法を示しています。 ノードにはコンテンツページが関連付けられていませんが、サイトの他の場所で参照できる URL キーがあります。
+次の例は、関連するコンテンツページに簡単に移動できるノードを作成する方法を示しています。 ノードにはコンテンツページが関連付けられていませんが、サイトの他の場所で参照できるURL キーがあります。
 
-例えば、個々のプレスリリースに移動できる _プレスリリース_ というノードを作成できます。 次に、「会社情報 _ページのリンクをノードに含めるこ_ ができます。 または、ニュースレターのバックイシューのコレクション用のノードを作成することもできます。
+例えば、個々のプレスリリースへのナビゲーションを持つ&#x200B;_プレスリリース_&#x200B;というノードを作成できます。 次に、ノードへの&#x200B;_About Us_ ページにリンクを含めることができます。 また、ニュースレターのバックイシューのコレクション用のノードを作成することもできます。
 
-ノードにリンクするには、[Widget](widgets.md) ツールを使用してCMS階層ノードリンクを作成し、ウィジェットをコンテンツブロックまたはページに配置します。
+ノードにリンクするには、[Widget](widgets.md) ツールを使用してCMS Hierarchy Node リンクを作成し、ウィジェットをコンテンツブロックまたはページに配置します。
 
-![&#x200B; 会社概要ページのナビゲーションメニューの例 &#x200B;](./assets/page-navigation-storefront.png){width="600" zoomable="yes"}
+![会社概要ページのナビゲーション メニューの例](./assets/page-navigation-storefront.png){width="600" zoomable="yes"}
 
-### 手順 1：ノードを作成する
+### 手順1: ノードの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Hierarchy]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Hierarchy]**に移動します。
 
-   ![CMSページグリッド &#x200B;](./assets/page-hierarchy-cms-pages.png){width="600" zoomable="yes"}
+   ![CMS Pages grid](./assets/page-hierarchy-cms-pages.png){width="600" zoomable="yes"}
 
-1. グリッドの上にある「**[!UICONTROL Add Node...]**」をクリックします。
+1. グリッドの上で、**[!UICONTROL Add Node...]**&#x200B;をクリックします。
 
-1. 「_[!UICONTROL Page Properties]_」に、ノードの&#x200B;**[!UICONTROL Title]**&#x200B;と適切な&#x200B;**[!UICONTROL URL Key]**&#x200B;を入力します。
+1. _[!UICONTROL Page Properties]_の下に、ノードの&#x200B;**[!UICONTROL Title]**と適切な&#x200B;**[!UICONTROL URL Key]**を入力します。
 
-   URL キーは、ノードの一意の web アドレスを提供します。 スペースではなくハイフンを使用して単語を区切り、すべて小文字にする必要があります。
+   URL キーは、ノードの一意のWeb アドレスを提供します。 スペースではなく、ハイフンを使用して単語を区切り、すべて小文字にする必要があります。
 
-   ![&#x200B; ページプロパティ &#x200B;](./assets/page-hierarchy-add-node-page-properties.png){width="500" zoomable="yes"}
+   ![ ページプロパティ ](./assets/page-hierarchy-add-node-page-properties.png){width="500" zoomable="yes"}
 
-1. 「**[!UICONTROL Save]**」をクリックします。
+1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
    ノードは、ページの左側のツリーにフォルダーとして表示されます。
 
-### 手順 2：ノードへのページの追加
+### 手順2：ノードへのページの追加
 
-1. 階層ツリーで、ノードをクリックして選択します。
+1. 階層ツリーで、をクリックしてノードを選択します。
 
-1. 「**[!UICONTROL Add Selected Pages(s) to Tree]**」をクリックします。
+1. **[!UICONTROL Add Selected Pages(s) to Tree]**&#x200B;をクリックします。
 
    上にスクロールすると、選択した各ページがノードフォルダーの下のツリーに表示されます。
 
-### 手順 3：構造の定義
+### 手順3：構造の定義
 
-1. 必要に応じて、ページをメニューに表示する順序を反映する位置にドラッグします。
+1. 必要に応じて、ページを位置にドラッグして、メニューに表示される順序を反映します。
 
-   ![&#x200B; ページを適切な位置にドラッグ &#x200B;](./assets/page-hierarchy-drag-to-position.png){width="500" zoomable="yes"}
+   ![ ページを位置にドラッグ ](./assets/page-hierarchy-drag-to-position.png){width="500" zoomable="yes"}
 
-1. 階層の最上位にあるノードをクリックします。
+1. 階層の上部にあるノードをクリックします。
 
-   _[!UICONTROL Page Properties]_&#x200B;セクションには、ノードに関する情報が表示されるようになりました。
+   _[!UICONTROL Page Properties]_セクションに、ノードに関する情報が表示されるようになりました。
 
-1. [**[!UICONTROL Render Metadata in HTML Head]**] で、次の操作を行います。
+1. **[!UICONTROL Render Metadata in HTML Head]**&#x200B;で、次の操作を行います。
 
-   ![&#x200B; メタデータ設定のレンダリング &#x200B;](./assets/page-hierarchy-render-metadata.png){width="400" zoomable="yes"}
+   ![ メタデータ設定のレンダリング ](./assets/page-hierarchy-render-metadata.png){width="400" zoomable="yes"}
 
-   - ノードを階層の最上位として識別するには、「**[!UICONTROL First]**」を「`Yes`」に設定します。
+   - ノードを階層の最上位として識別するには、**[!UICONTROL First]**&#x200B;を`Yes`に設定します。
 
-   - ページネーションコントロールを表示するには、**[!UICONTROL Next/Previous]** を `Yes` に設定します。
+   - ページネーション コントロールを表示するには、**[!UICONTROL Next/Previous]**&#x200B;を`Yes`に設定します。
 
-   - 階層内のページをブックとして整理するには、「**[!UICONTROL Enable Chapter/Section]**」を「`Yes`」に設定します。
+   - 階層内のページをブックとして整理するには、**[!UICONTROL Enable Chapter/Section]**&#x200B;を`Yes`に設定します。
 
-     ノードをブックの一部として含めない場合は、デフォルトの `No` のままにします。
+     ブックの一部としてノードを含めたくない場合は、デフォルトの`No`のままにします。
 
-   - ノードをブックの特定の部分に割り当てるには、**[!UICONTROL Chapter/Section]** を次のいずれかに設定します。
+   - ブックの特定の部分にノードを割り当てるには、**[!UICONTROL Chapter/Section]**&#x200B;を次のいずれかに設定します。
 
-      - `No` - ノードをチャプター/セクションとして定義しません。
-      - `Chapter` – 現在のノードをチャプターとして割り当てます。
+      - `No` - ノードを章/セクションとして定義しません。
+      - `Chapter` – 現在のノードを章として割り当てます。
       - `Section` – 現在のノードをセクションとして割り当てます。
-      - `Both` – 現在のノードをチャプターとセクションの両方として割り当てます。
+      - `Both` – 現在のノードを章とセクションの両方として割り当てます。
 
-### 手順 4：ページネーションコントロールの追加
+### 手順4：ページネーション制御の追加
 
-1. 「_ネストされたページのページネーションオプション_」で、「**[!UICONTROL Enable Pagination]**」を「`Yes`」に設定します。
+1. ネストされたページ _の_ ページネーション オプションで、**[!UICONTROL Enable Pagination]**&#x200B;を`Yes`に設定します。
 
-1. **[!UICONTROL Frame]**：ページネーションコントロールに含めるページリンクの数を入力します。
+1. **[!UICONTROL Frame]**&#x200B;に、ページネーション コントロールに含めるページ リンクの数を入力します。
 
-   ページネーションコントロールに含めることができるページが階層内にまだある場合。
+   ページネーションコントロールに含めることができるページが階層内にさらに存在する場合。
 
-1. **[!UICONTROL Frame Skip]**：次のページネーションリンクのセットのために前にスキップ（または後ろにスキップ）するページ数を入力します。
+1. **[!UICONTROL Frame Skip]**&#x200B;の場合、次のページ分割リンクのセットをスキップする（または戻る）ページ数を入力します。
 
-### 手順 5：メニューレイアウトの選択
+### 手順5：メニューレイアウトの選択
 
-メニューにノードを表示する場合は、次の操作を行います。
+ノードをメニューに表示する場合は、次の操作を行います。
 
-1. _ページナビゲーションメニューオプション_ で、「**[!UICONTROL Show in navigation menu]**」を「`Yes`」に設定します。
+1. _ページナビゲーションメニューオプション_&#x200B;で、**[!UICONTROL Show in navigation menu]**&#x200B;を`Yes`に設定します。
 
-   この設定により、ページ階層にナビゲーションメニューを生成するかどうかが決まります。
+   この設定は、ページ階層に対してナビゲーションメニューを生成するかどうかを決定します。
 
-   ![&#x200B; ページナビゲーションメニューオプション &#x200B;](./assets/page-hierarchy-page-navigation-menu-options.png){width="300" zoomable="yes"}
+   ![ ページナビゲーションメニューオプション ](./assets/page-hierarchy-page-navigation-menu-options.png){width="300" zoomable="yes"}
 
-1. コンテンツに関連するメニューの場所を指定するには、**[!UICONTROL Menu Layout]** のように設定します。
+1. コンテンツに関連するメニューの場所を指定するには、**[!UICONTROL Menu Layout]**&#x200B;を設定します。
 
    - `Content` - メニューレイアウトがコンテンツ内にあります。
-   - `Use Default` - [configuration](../configuration-reference/general/content-management.md) で指定されたメニュースタイルを使用します。
+   - `Use Default` - [設定](../configuration-reference/general/content-management.md)で指定されたメニュースタイルを使用します。
    - `Left Column` - メニューがコンテンツの左側に表示されます。
    - `Right Column` - メニューがコンテンツの右側に表示されます。
 
-1. メニューに含める詳細の量を指定するには、**[!UICONTROL Menu Detalization]** を次のいずれかに設定します。
+1. メニューにどの程度の詳細を含めるかを指定するには、**[!UICONTROL Menu Detalization]**&#x200B;を次のいずれかに設定します。
 
    - `Only Children` - メニューにサブページのみを含めます。
-   - `Neighbours and Children` – 階層内の同じレベルにあるサブページとその他のページを含みます。
+   - `Neighbours and Children` – 階層の同じレベルにあるサブページと他のページが含まれます。
 
-1. メニューの深さを決定するには、含めるレベルの最大数の **[!UICONTROL Maximal Depth]** を入力します。
+1. メニューの深さを判断するには、含めるレベルの最大数に&#x200B;**[!UICONTROL Maximal Depth]**&#x200B;を入力します。
 
-1. メニューを書式設定するには、**[!UICONTROL List Type]** のいずれかを選択します。
+1. メニューを書式設定するには、**[!UICONTROL List Type]**&#x200B;を選択します。
 
-   - `Unordered` - メニューオプションには番号が付けられておらず、箇条書きまたは箇条書きなしで書式設定できます。 順不同リストタイプのオプション：デフォルト/円/ディスク/正方形
-   - `Ordered` - メニューオプションには番号が付けられ、大文字または小文字の数字、アルファベット、またはローマ数字の形式を設定できます。
+   - `Unordered` - メニューオプションには番号が付けられておらず、箇条書き記号の有無を問わず書式設定できます。 順序なしリストタイプのオプション：デフォルト/円/ディスク/正方形
+   - `Ordered` - メニューオプションには番号が付けられており、大文字または小文字のいずれかで数値、アルファベット、またはローマ数字として書式設定できます。
 
-1. **[!UICONTROL List Style]** を次のいずれかに設定します。
+1. **[!UICONTROL List Style]**&#x200B;を次のいずれかに設定します：
 
    - `Circle`
    - `Disc`
    - `Square`
 
-1. ノードをナビゲーションメニューにも表示する場合は、スクロールして _メインナビゲーションメニューオプション_ を表示し、**[!UICONTROL Show in Navigation menu]** を `Yes` に設定します。
+1. ナビゲーションメニューにもノードを表示する場合は、_メインナビゲーションメニューオプション_&#x200B;までスクロールし、**[!UICONTROL Show in Navigation menu]**&#x200B;を`Yes`に設定します。
 
-   ![&#x200B; メインナビゲーションメニューオプション &#x200B;](./assets/page-hierarchy-main-navigation-menu-options.png){width="250" zoomable="yes"}
+   ![ メイン ナビゲーション メニューのオプション ](./assets/page-hierarchy-main-navigation-menu-options.png){width="250" zoomable="yes"}
 
-1. 「**[!UICONTROL Save]**」をクリックします。
+1. **[!UICONTROL Save]**&#x200B;をクリックします。
