@@ -14,9 +14,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-各ギフトカードには一意のコードがあり、チェックアウト時に1人のお客様のみが利用できます。 ギフトカードを販売するには、[ コードプール ](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool)を設定する必要があります。 ショッピングカートでのギフトカードの利用方法について詳しくは、[ ギフトカードワークフロー](../stores-purchase/product-gift-card-workflow.md)を参照してください。
+各ギフトカードには一意のコードがあり、チェックアウト時に1人のお客様のみが利用できます。 ギフトカードを販売するには、[&#x200B; コードプール &#x200B;](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool)を設定する必要があります。 ショッピングカートでのギフトカードの利用方法について詳しくは、[&#x200B; ギフトカードワークフロー](../stores-purchase/product-gift-card-workflow.md)を参照してください。
 
-![ ギフトカード商品ページ ](./assets/storefront-giftcard-product-page.png){width="700" zoomable="yes"}
+![&#x200B; ギフトカード商品ページ &#x200B;](./assets/storefront-giftcard-product-page.png){width="700" zoomable="yes"}
 
 ギフトカード商品には3種類あります。
 
@@ -28,15 +28,15 @@ ht-degree: 0%
 
 ## ギフトカード商品の作成
 
-次の手順では、[製品テンプレート ](attribute-sets.md)、必須フィールド、および基本設定を使用してギフトカードを作成するプロセスを説明します。 各必須フィールドには、赤いアスタリスク （`*`）が付いています。 基本的な設定が完了したら、必要に応じて他の製品設定を完了できます。
+次の手順では、[製品テンプレート &#x200B;](attribute-sets.md)、必須フィールド、および基本設定を使用してギフトカードを作成するプロセスを説明します。 各必須フィールドには、赤いアスタリスク （`*`）が付いています。 基本的な設定が完了したら、必要に応じて他の製品設定を完了できます。
 
 ### 手順1：商品タイプの選択
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]** > **[!UICONTROL Products]**&#x200B;に移動します。
 
-1. _[!UICONTROL Add Product]_（![ メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューの右上隅にある「**[!UICONTROL Gift Card]**」を選択します。
+1. _[!UICONTROL Add Product]_（![&#x200B; メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューの右上隅にある「**[!UICONTROL Gift Card]**」を選択します。
 
-   ![ ギフトカードを追加](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
+   ![&#x200B; ギフトカードを追加](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
 
 ### 手順2：属性セットの選択
 
@@ -64,7 +64,7 @@ ht-degree: 0%
    - `Physical` – 物理的なギフトカードは、事前に大量生産し、独自のコードでエンボス加工することができます。
    - `Combined` – 組み合わせたギフトカードには、仮想ギフトカードと物理的なギフトカードの両方の特徴があります。
 
-   ![ ギフトカードの種類](./assets/product-create-gift-card-type.png){width="600" zoomable="yes"}
+   ![&#x200B; ギフトカードの種類](./assets/product-create-gift-card-type.png){width="600" zoomable="yes"}
 
 1. お客様に固定金額の選択肢を提供するには、**[!UICONTROL Add Amount]**&#x200B;をクリックし、カードの最初の固定値を10進数として入力します。
 
@@ -82,7 +82,7 @@ ht-degree: 0%
    >
    >ギフトカード商品は、カタログに独自の価格はありません。 ギフトカードの価格は、購入時に選択したギフトカードの金額から算出されます。
 
-   ![ ギフトカード金額](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
+   ![&#x200B; ギフトカード金額](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
 ### 手順4：基本設定を完了する
 
@@ -96,13 +96,13 @@ ht-degree: 0%
 
 ### ステップ 5：ギフトカード情報を完了する
 
-製品設定の&#x200B;_[!UICONTROL Gift Card Information]_セクションを使用して、カードの管理方法を決定する[ ギフトカード設定](../configuration-reference/sales/gift-cards.md)設定を上書きできます。
+製品設定の&#x200B;_[!UICONTROL Gift Card Information]_&#x200B;セクションを使用して、カードの管理方法を決定する[&#x200B; ギフトカード設定](../configuration-reference/sales/gift-cards.md)設定を上書きできます。
 
-1. _[!UICONTROL Gift Card Information]_セクションまでスクロールします。
+1. _[!UICONTROL Gift Card Information]_&#x200B;セクションまでスクロールします。
 
    このセクションのデフォルト設定は、システム設定によって決まります。
 
-   ![ ギフトカード情報](./assets/product-gift-card-information.png){width="600" zoomable="yes"}
+   ![&#x200B; ギフトカード情報](./assets/product-gift-card-information.png){width="600" zoomable="yes"}
 
 1. ギフトカードを機能させる方法に応じて、追加のフィールドを変更します。
 
@@ -137,13 +137,13 @@ ht-degree: 0%
 
    - 右上隅の「**[!UICONTROL Save]**」をクリックします。
 
-   - ストア内の商品を表示するには、_管理者_ （![ メニュー矢印](../assets/icon-menu-down-arrow-black.png)）メニューで&#x200B;**[!UICONTROL Customer View]**&#x200B;を選択します。
+   - ストア内の商品を表示するには、_管理者_ （![&#x200B; メニュー矢印](../assets/icon-menu-down-arrow-black.png)）メニューで&#x200B;**[!UICONTROL Customer View]**&#x200B;を選択します。
 
    ![顧客ビュー](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
    **方法2:**&#x200B;保存して閉じる
 
-   _[!UICONTROL Save]_（![ メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューで、**[!UICONTROL Save & Close]**を選択します。
+   _[!UICONTROL Save]_（![&#x200B; メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューで、**[!UICONTROL Save & Close]**&#x200B;を選択します。
 
 ## 覚えておくべきこと
 

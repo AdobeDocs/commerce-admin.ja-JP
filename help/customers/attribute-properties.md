@@ -14,17 +14,17 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-顧客属性は、注文、フルフィルメント、顧客管理のプロセスをサポートするために必要な情報を提供します。 ビジネスは一意であるため、システムが提供するデフォルトの項目に加えて、フィールドが必要になる場合があります。 カスタム属性は、お客様のアカウントの「アカウント情報」、「アドレス帳」、「請求情報」の各セクションに追加できます。 お客様[ アドレス属性](address-attributes.md)は、チェックアウト時、またはゲストがアカウントに登録する際に、_請求情報_ セクションでも使用できます。
+顧客属性は、注文、フルフィルメント、顧客管理のプロセスをサポートするために必要な情報を提供します。 ビジネスは一意であるため、システムが提供するデフォルトの項目に加えて、フィールドが必要になる場合があります。 カスタム属性は、お客様のアカウントの「アカウント情報」、「アドレス帳」、「請求情報」の各セクションに追加できます。 お客様[&#x200B; アドレス属性](address-attributes.md)は、チェックアウト時、またはゲストがアカウントに登録する際に、_請求情報_ セクションでも使用できます。
 
 ![顧客属性](./assets/attributes-customer.png){width="700" zoomable="yes"}
 
 ## 手順1：属性プロパティの完了
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Customer]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Customer]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Attribute]**」をクリックします。
 
-   ![顧客属性のプロパティ ](./assets/attribute-customer-new.png){width="600" zoomable="yes"}
+   ![顧客属性のプロパティ &#x200B;](./assets/attribute-customer-new.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Attribute Properties]** セクションで、次の操作を行います。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >**ショートカット：**&#x200B;必須フィールドのみを完了するには、_[!UICONTROL Storefront Properties]_までスクロールし、_[!UICONTROL Sort Order]_&#x200B;を入力して保存します。
+   >**ショートカット：**&#x200B;必須フィールドのみを完了するには、_[!UICONTROL Storefront Properties]_&#x200B;までスクロールし、_[!UICONTROL Sort Order]_&#x200B;を入力して保存します。
 
 1. データ入力プロパティを完了します。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
      | `Text Field` | 1行のテキストフィールド |
      | `Text Area` | 製品説明などのテキストの段落を入力するための複数行入力フィールド。 WYSIWYG エディターを使用して、HTML タグを使用してテキストを書式設定したり、タグをテキストに直接入力したりできます。 |
      | `Multiple Line` | 複数行の住所と同様に、属性に複数のテキスト行を作成します。 データ入力ラインの数は、2から20の範囲で指定できます。 `Default Value`を使用して、フィールドの初期値を指定します。 |
-     | `Date` | 日付の値を優先日付形式とタイムゾーンで表示します。 日付値は、リストまたはカレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）から選択できます。 <br/><br/>**_Note:_**システム構成に応じて、_&#x200B;管理者_ ユーザーは日付をフィールドに直接入力するか、カレンダーまたはリストから日付を選択できます。 日付と時刻の値の指定について詳しくは、[日付と時刻のオプション ](../catalog/attributes-input-types.md#date-and-time-options)を参照してください。 |
+     | `Date` | 日付の値を優先日付形式とタイムゾーンで表示します。 日付値は、リストまたはカレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）から選択できます。 <br/><br/>**_Note:_**&#x200B;システム構成に応じて、_&#x200B;管理者_ ユーザーは日付をフィールドに直接入力するか、カレンダーまたはリストから日付を選択できます。 日付と時刻の値の指定について詳しくは、[日付と時刻のオプション &#x200B;](../catalog/attributes-input-types.md#date-and-time-options)を参照してください。 |
      | `Yes/No` | `Yes`と`No`の事前定義済みオプションを含むドロップダウンリストを表示します。 |
      | `Dropdown` | 1つの選択のみを受け入れる値のドロップダウンリストを表示します。 ドロップダウン入力タイプは、[設定可能な製品](../catalog/product-create-configurable.md)の主要コンポーネントです。 |
      | `Multiple Select` | 複数の値を選択できるドロップダウンリスト。 |
@@ -91,13 +91,13 @@ ht-degree: 0%
 
    - この属性で顧客グリッドを検索するには、**[!UICONTROL Use in Search Options]**&#x200B;を`Yes`に設定します。
 
-   - この属性を[顧客セグメント ](customer-segments.md)で使用できるようにするには、**[!UICONTROL Use in Customer Segment]**&#x200B;を`Yes`に設定します。
+   - この属性を[顧客セグメント &#x200B;](customer-segments.md)で使用できるようにするには、**[!UICONTROL Use in Customer Segment]**&#x200B;を`Yes`に設定します。
 
 ## ステップ 2：ストアフロントのプロパティを完了する
 
 1. **[!UICONTROL Storefront Properties]** セクションまでスクロールします。
 
-   ![顧客属性 – ストアフロントのプロパティ ](./assets/attribute-customer-storefront-properties.png){width="600" zoomable="yes"}
+   ![顧客属性 – ストアフロントのプロパティ &#x200B;](./assets/attribute-customer-storefront-properties.png){width="600" zoomable="yes"}
 
 1. 属性を顧客に表示するには、**[!UICONTROL Show on Storefront]**&#x200B;を`Yes`に設定します。
 
@@ -113,11 +113,11 @@ ht-degree: 0%
 
 1. 左側のパネルで、**[!UICONTROL Manage Labels/Options]**&#x200B;を選択します。
 
-1. **[!UICONTROL Manage Titles]**&#x200B;の下にラベルを入力して、各[ ストアビュー](../getting-started/websites-stores-views.md)の属性を識別します。
+1. **[!UICONTROL Manage Titles]**&#x200B;の下にラベルを入力して、各[&#x200B; ストアビュー](../getting-started/websites-stores-views.md)の属性を識別します。
 
 1. 完了したら、**[!UICONTROL Save Attribute]**&#x200B;をクリックします。
 
-   ![顧客属性 – ラベル/オプション ](./assets/attribute-customer-manage-label-options.png){width="600" zoomable="yes"}
+   ![顧客属性 – ラベル/オプション &#x200B;](./assets/attribute-customer-manage-label-options.png){width="600" zoomable="yes"}
 
 ## フィールドの説明
 
@@ -136,7 +136,7 @@ ht-degree: 0%
 | [!UICONTROL Use in Filter Options] | 属性をグリッドからの検索操作のフィルターとして使用できるかどうかを指定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Grid Filter Condition Type] | グリッドからの検索操作の属性のフィルター一致条件を指定します。 グリッドの&#x200B;_キーワードによる検索_ フィールドには影響しません。 オプション：`Partial Match` / `Prefix Match` / `Full Match` |
 | [!UICONTROL Use in Search Options] | 属性値を検索操作でキーワードとして使用できるかどうかを指定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Use in Customer Segment] | 属性が[顧客セグメント ](customer-segments.md)条件に含まれているかどうかを判断します。 オプション：`Yes` / `No` |
+| [!UICONTROL Use in Customer Segment] | 属性が[顧客セグメント &#x200B;](customer-segments.md)条件に含まれているかどうかを判断します。 オプション：`Yes` / `No` |
 
 ### [!UICONTROL Storefront Properties]
 

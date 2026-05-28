@@ -16,9 +16,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->詳細については、カタログ [ ナビゲーション ](navigation.md)、設定方法[ カテゴリ ](categories.md)および[属性](product-attributes.md)、利用可能なカタログ [URL オプション ](catalog-urls.md)を参照してください。 これらの概念を理解すると、カタログに多くの商品を追加する最も効率的な方法は、CSV ファイルから[ インポート ](../systems/data-import.md)することです。
+>詳細については、カタログ [&#x200B; ナビゲーション &#x200B;](navigation.md)、設定方法[&#x200B; カテゴリ &#x200B;](categories.md)および[属性](product-attributes.md)、利用可能なカタログ [URL オプション &#x200B;](catalog-urls.md)を参照してください。 これらの概念を理解すると、カタログに多くの商品を追加する最も効率的な方法は、CSV ファイルから[&#x200B; インポート &#x200B;](../systems/data-import.md)することです。
 
-![ ストアフロントの製品ページ ](./assets/storefront-product-page.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの製品ページ &#x200B;](./assets/storefront-product-page.png){width="700" zoomable="yes"}
 
 ## 製品タイプ
 

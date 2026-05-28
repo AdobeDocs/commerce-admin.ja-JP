@@ -11,15 +11,15 @@ ht-degree: 0%
 
 # 顧客リスト
 
-管理画面では、[!UICONTROL Customers] グリッドには、ストアにアカウントを登録したか、管理者によって追加されたすべての顧客が一覧表示されます。 標準の[ グリッドコントロール ](../getting-started/admin-grid-controls.md)を使用して、リストをフィルタリングし、列レイアウトを調整します。 詳しくは、[顧客アカウントの管理](../customers/manage-account.md)を参照してください。
+管理画面では、[!UICONTROL Customers] グリッドには、ストアにアカウントを登録したか、管理者によって追加されたすべての顧客が一覧表示されます。 標準の[&#x200B; グリッドコントロール &#x200B;](../getting-started/admin-grid-controls.md)を使用して、リストをフィルタリングし、列レイアウトを調整します。 詳しくは、[顧客アカウントの管理](../customers/manage-account.md)を参照してください。
 
-![顧客リスト ](assets/customer-accounts-all-grid.png){width="700" zoomable="yes"}
+![顧客リスト &#x200B;](assets/customer-accounts-all-grid.png){width="700" zoomable="yes"}
 
 ## 顧客情報の更新
 
 1. _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**&#x200B;に移動します。
 
-1. 顧客レコードを検索し、_[!UICONTROL Action]_列の&#x200B;[!UICONTROL **編集**]をクリックします。
+1. 顧客レコードを検索し、_[!UICONTROL Action]_&#x200B;列の&#x200B;[!UICONTROL **編集**]をクリックします。
 
 1. 左側のパネルで、編集する情報を選択し、必要な変更を加えます。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 | --- | --- |
 | **[!UICONTROL Add New Customer]** | 顧客アカウントを作成します。 |
 | **[!UICONTROL Search]** | 現在のフィルターに基づいて顧客の検索を開始します。 |
-| **[!UICONTROL Filters]** | [ グリッド ](../getting-started/admin-grid-controls.md)に表示されるレコードをフィルタリングするために使用される検索パラメーターのセットを定義します。 |
+| **[!UICONTROL Filters]** | [&#x200B; グリッド &#x200B;](../getting-started/admin-grid-controls.md)に表示されるレコードをフィルタリングするために使用される検索パラメーターのセットを定義します。 |
 | **[!UICONTROL Default View]** | グリッドのデフォルト列[layout](../getting-started/admin-grid-controls.md)を決定します。 |
 | **[!UICONTROL Columns]** | グリッド内の[列](../getting-started/admin-grid-controls.md)とそのアカウントの選択範囲を決定します。 列レイアウトを変更し、_ビュー_&#x200B;として保存できます。 デフォルトでは、グリッドに含まれるのは一部の列のみです。 |
 | **[!UICONTROL Export]** | 選択したレコードをCSVまたはExcel XML ファイルとして書き出します。 |
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ### その他の列
 
-これらの列は、グリッドの[列レイアウト ](../getting-started/admin-grid-controls.md)を変更することで使用できます。
+これらの列は、グリッドの[列レイアウト &#x200B;](../getting-started/admin-grid-controls.md)を変更することで使用できます。
 
 | 列 | 説明 |
 | --- | --- |
@@ -80,7 +80,7 @@ ht-degree: 0%
 | **[!UICONTROL Billing Lastname]** | 顧客の請求先住所の姓。 |
 | **[!UICONTROL Billing Address]** | 請求情報を送信するアドレス。 |
 | **[!UICONTROL Shipping Address]** | 注文が発送される住所。 |
-| **[!UICONTROL VAT Number]** | 顧客アドレスに関連付けられている付加価値税番号。 EUで販売された[ デジタル商品](../stores-purchase/taxes.md)の場合、VATは顧客の請求先住所に基づきます。 <br/><br/>このフィールドは、税金/VAT番号と同じではありません。 |
-| **[!UICONTROL Account Lock]** | アカウントのステータスを示します。 セキュリティ対策として、ログインの試行回数が多すぎると、顧客アカウントが[ ロック ](../customers/password-options.md)される可能性があります。 値：`Locked` / `Unlocked` |
+| **[!UICONTROL VAT Number]** | 顧客アドレスに関連付けられている付加価値税番号。 EUで販売された[&#x200B; デジタル商品](../stores-purchase/taxes.md)の場合、VATは顧客の請求先住所に基づきます。 <br/><br/>このフィールドは、税金/VAT番号と同じではありません。 |
+| **[!UICONTROL Account Lock]** | アカウントのステータスを示します。 セキュリティ対策として、ログインの試行回数が多すぎると、顧客アカウントが[&#x200B; ロック &#x200B;](../customers/password-options.md)される可能性があります。 値：`Locked` / `Unlocked` |
 
 {style="table-layout:auto"}

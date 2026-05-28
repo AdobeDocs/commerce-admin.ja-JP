@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ## 在庫ソースの追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**&#x200B;に移動します。
 
 1. **[!UICONTROL Add New Source]**&#x200B;をクリックします。
 
-   ![ ソースの管理](assets/inventory-sources.png)
+   ![&#x200B; ソースの管理](assets/inventory-sources.png)
 
 1. **[!UICONTROL General]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
@@ -38,9 +38,9 @@ ht-degree: 0%
 
    - **[!UICONTROL Latitude]**&#x200B;と&#x200B;**[!UICONTROL Longitude]**&#x200B;に対して、施設の場所のグローバル ポジショニング システム （GPS）座標を入力します。
 
-     [Google マップ ](https://www.google.com/maps)のGPS座標を検索するには、検索ボックスにアドレスを入力します。 マップ上のマーカーを右クリックし、**[!UICONTROL What's here?]**&#x200B;を選択します。 GPS座標は、住所の下の詳細ボックスに表示されます。
+     [Google マップ &#x200B;](https://www.google.com/maps)のGPS座標を検索するには、検索ボックスにアドレスを入力します。 マップ上のマーカーを右クリックし、**[!UICONTROL What's here?]**&#x200B;を選択します。 GPS座標は、住所の下の詳細ボックスに表示されます。
 
-     ![一般的なソースオプション ](assets/inventory-source-general.png)
+     ![一般的なソースオプション &#x200B;](assets/inventory-source-general.png)
 
    - この在庫ソースが受け取り場所である場合は、**[!UICONTROL Use as Pickup Location]**&#x200B;を`Yes`に設定します。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Postcode]**&#x200B;に郵便番号または郵便番号を入力します。
 
-     ![ アドレスデータ ](assets/inventory-source-address.png)
+     ![&#x200B; アドレスデータ &#x200B;](assets/inventory-source-address.png)
 
 1. 前の手順でソースを受け取り場所として設定した場合は、![拡張セレクター](../assets/icon-display-expand.png)、**[!UICONTROL Pickup Location]** セクションを展開し、場所に関する説明情報を提供します。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
    - 作業を保存して編集を続行するには、**[!UICONTROL Save & Continue]**&#x200B;をクリックします。
 
-   - 作業を保存してソースの管理ページに戻るには、下向き矢印（![ メニュー矢印](../assets/icon-menu-down-arrow-red.png)）をクリックし、**[!UICONTROL Save & Close]**&#x200B;を選択します。
+   - 作業を保存してソースの管理ページに戻るには、下向き矢印（![&#x200B; メニュー矢印](../assets/icon-menu-down-arrow-red.png)）をクリックし、**[!UICONTROL Save & Close]**&#x200B;を選択します。
 
    - 現在のソースレコードの作業を保存して新しいソースを入力するには、**[!UICONTROL Save & New]**&#x200B;を選択します。
 
