@@ -23,7 +23,7 @@ ht-degree: 0%
 
 次の図は、在庫が利用可能で、出荷のためにSSAがアクセスできるマウンテンバイクを販売するBicycle Shopのマーチャントのソースを示しています。
 
-![ ソース図の例](assets/diagram-sources.png){width="600" zoomable="yes"}
+![&#x200B; ソース図の例](assets/diagram-sources.png){width="600" zoomable="yes"}
 
 すべてのストアは、有効のままにする必要があるデフォルトのSourceで始まります。
 
@@ -36,9 +36,9 @@ ht-degree: 0%
 
 デフォルトのSourceを編集する場合は、名前とコードを除くすべての設定を編集できます。 シングルソースのマーチャントは、場所に一致する情報を追加することをお勧めします。
 
-_[!UICONTROL Manage Sources]_ページには、利用可能なすべての在庫場所とフルフィルメント機能が一覧表示されます。 新しい在庫ソースを追加したり、既存の場所を編集したりすることができます。
+_[!UICONTROL Manage Sources]_&#x200B;ページには、利用可能なすべての在庫場所とフルフィルメント機能が一覧表示されます。 新しい在庫ソースを追加したり、既存の場所を編集したりすることができます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**&#x200B;に移動します。
 
 1. 在庫場所を追加するには、[新しいSourceの追加](sources-add.md)を参照してください。
 
@@ -46,7 +46,7 @@ _[!UICONTROL Manage Sources]_ページには、利用可能なすべての在庫
 
 1. 情報を更新し、変更を保存します。
 
-   ![ ソースの管理](assets/inventory-sources.png){width="600" zoomable="yes"}
+   ![&#x200B; ソースの管理](assets/inventory-sources.png){width="600" zoomable="yes"}
 
 ## ボタンバー
 

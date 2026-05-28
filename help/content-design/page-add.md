@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # ページの追加と削除
 
-コンテンツページをストアに追加するプロセスは、作成する可能性のあるあらゆるタイプのページで基本的に同じです。 テキスト、画像、コンテンツブロック、変数、ウィジェットを含めることができます。 多くのコンテンツページは、まず検索エンジンが読むように、そして次に人々が読むように設計されています。 ページタイトル、URLを選択する際、およびメタデータやコンテンツを作成する際には、このふたつの異なるオーディエンスのニーズを念頭に置いてください。 ページが完成したら、ストアナビゲーションに追加したり、他のページにリンクしたり、ストアのフッターからリンクしたり、新しい[ ホームページ ](page-home-new.md)として使用したりできます。
+コンテンツページをストアに追加するプロセスは、作成する可能性のあるあらゆるタイプのページで基本的に同じです。 テキスト、画像、コンテンツブロック、変数、ウィジェットを含めることができます。 多くのコンテンツページは、まず検索エンジンが読むように、そして次に人々が読むように設計されています。 ページタイトル、URLを選択する際、およびメタデータやコンテンツを作成する際には、このふたつの異なるオーディエンスのニーズを念頭に置いてください。 ページが完成したら、ストアナビゲーションに追加したり、他のページにリンクしたり、ストアのフッターからリンクしたり、新しい[&#x200B; ホームページ &#x200B;](page-home-new.md)として使用したりできます。
 
-![ ページグリッド ](./assets/pages-grid.png){width="700" zoomable="yes"}
+![&#x200B; ページグリッド &#x200B;](./assets/pages-grid.png){width="700" zoomable="yes"}
 
 ## ページを追加
 
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 ### 手順1：ページの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;に移動します。
 
 1. **[!UICONTROL Add New Page]**&#x200B;をクリックします。
 
-   ![新しいページ ](./assets/pages-new-page.png){width="600" zoomable="yes"}
+   ![新しいページ &#x200B;](./assets/pages-new-page.png){width="600" zoomable="yes"}
 
 1. ページをすぐに公開しない場合は、**[!UICONTROL Enable Page]**&#x200B;を`No`に設定します。
 
 1. **[!UICONTROL Page Title]**&#x200B;を入力します。
 
-   ページのタイトルが[ パンくずリスト ](../catalog/navigation-breadcrumb-trail.md) ナビゲーションに表示されます。
+   ページのタイトルが[&#x200B; パンくずリスト &#x200B;](../catalog/navigation-breadcrumb-trail.md) ナビゲーションに表示されます。
 
 ### ステップ 2：コンテンツを完了する
 
@@ -46,11 +46,11 @@ ht-degree: 0%
 
 1. ![拡張セレクター](../assets/icon-display-expand.png) **[!UICONTROL Content]**&#x200B;を展開します。
 
-   ![ ページビルダーを使用したコンテンツ ](../page-builder/assets/pb-page-content.png){width="600" zoomable="yes"}
+   ![&#x200B; ページビルダーを使用したコンテンツ &#x200B;](../page-builder/assets/pb-page-content.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Content Heading]**」ボックスに、ページの上部に表示する見出しを入力します。
 
-   有効にすると、[ ページビルダー](../page-builder/introduction.md)のステージとパネルがコンテンツ見出しの下に表示されます。 詳しくは、[Workspace](../page-builder/workspace.md)を参照してください。 _ページビルダー_&#x200B;が有効になっていない場合、エディターはWYSIWYG モードで開き、上部にツールバーが表示されます。
+   有効にすると、[&#x200B; ページビルダー](../page-builder/introduction.md)のステージとパネルがコンテンツ見出しの下に表示されます。 詳しくは、[Workspace](../page-builder/workspace.md)を参照してください。 _ページビルダー_&#x200B;が有効になっていない場合、エディターはWYSIWYG モードで開き、上部にツールバーが表示されます。
 
 1. コンテンツを完成させ、必要に応じてテキストを書式設定します。
 
@@ -58,13 +58,13 @@ ht-degree: 0%
 
 1. ![拡張セレクター](../assets/icon-display-expand.png) **[!UICONTROL Content]**&#x200B;を展開します。
 
-   ![ コンテンツ ](./assets/page-content-editor.png){width="600" zoomable="yes"}
+   ![&#x200B; コンテンツ &#x200B;](./assets/page-content-editor.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Content Heading]**」ボックスに、ページの上部に表示する見出しを入力します。
 
 1. 必要に応じて、コンテンツを入力し、テキストの書式を設定します。
 
-   必要に応じて、[画像](media-storage.md)、[変数](../systems/variables-predefined.md)、[ ウィジェット ](widgets.md)を追加できます。 詳しくは、[ エディターの使用](editor.md)を参照してください。
+   必要に応じて、[画像](media-storage.md)、[変数](../systems/variables-predefined.md)、[&#x200B; ウィジェット &#x200B;](widgets.md)を追加できます。 詳しくは、[&#x200B; エディターの使用](editor.md)を参照してください。
 
 ### ステップ 3:SEO情報を完了する
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 1. ![拡張セレクター](../assets/icon-display-expand.png) **[!UICONTROL Page in Websites]**&#x200B;を展開します。
 
-   Web サイトの![ ページ ](./assets/page-in-websites.png){width="600" zoomable="yes"}
+   Web サイトの![&#x200B; ページ &#x200B;](./assets/page-in-websites.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Store View]** リストで、ページを利用できる各ビューを選択します。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 1. ページのレイアウトを変更するには、![拡張セレクター](../assets/icon-display-expand.png) **[!UICONTROL Design]**&#x200B;を展開します。
 
-   ![ デザイン ](./assets/page-design.png){width="600" zoomable="yes"}
+   ![&#x200B; デザイン &#x200B;](./assets/page-design.png){width="600" zoomable="yes"}
 
 1. ページの列レイアウトを変更するには、**[!UICONTROL Layout]**&#x200B;を次のいずれかに設定します。
 
@@ -123,13 +123,13 @@ ht-degree: 0%
    - `2 columns with left bar`
    - `2 columns with right bar`
    - `3 columns`
-   - `Page -- Full Width` （[ ページビルダー](../page-builder/introduction.md)が必要）
+   - `Page -- Full Width` （[&#x200B; ページビルダー](../page-builder/introduction.md)が必要）
    - `Category -- Full Width` （ページビルダーが必要）
    - `Product -- Full Width` （ページビルダーが必要）
 
 1. **[!UICONTROL Custom Layout Update]**&#x200B;を適用するには、リストからファイル名を選択します。
 
-   詳しくは、[ レイアウトの更新](layout-updates.md)を参照してください。
+   詳しくは、[&#x200B; レイアウトの更新](layout-updates.md)を参照してください。
 
 1. ページのテーマを変更するには、**[!UICONTROL New Theme]**&#x200B;を次のいずれかに設定します。
 
@@ -138,9 +138,9 @@ ht-degree: 0%
 
 1. ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）デザインの変更をスケジュールするには、![拡張セレクター](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]**&#x200B;を展開し、次の操作を行います。
 
-   ![ カスタムデザインの更新](./assets/page-custom-design-update.png){width="600" zoomable="yes"}
+   ![&#x200B; カスタムデザインの更新](./assets/page-custom-design-update.png){width="600" zoomable="yes"}
 
-   - カレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）を使用して、変更を有効にする&#x200B;**[!UICONTROL From]**&#x200B;日と&#x200B;**[!UICONTROL To]**&#x200B;日を選択します。
+   - カレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）を使用して、変更を有効にする&#x200B;**[!UICONTROL From]**&#x200B;日と&#x200B;**[!UICONTROL To]**&#x200B;日を選択します。
 
    - 別のテーマをページに適用するには、**[!UICONTROL New Theme]**&#x200B;の名前を選択します。
 
@@ -150,13 +150,13 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;矢印をクリックし、**[!UICONTROL Save & Close]**&#x200B;を選択してページグリッドに戻ります。
 
-1. グリッドでページを検索し、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL View]**を選択します。
+1. グリッドでページを検索し、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL View]**&#x200B;を選択します。
 
 1. グリッドに戻るには、ブラウザーウィンドウの左上隅にある「**[!UICONTROL Back]**」をクリックします。
 
 ### 手順8：ページの公開
 
-1. グリッドの&#x200B;_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**を選択します。
+1. グリッドの&#x200B;_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;を選択します。
 
 1. **[!UICONTROL Enable Page]**&#x200B;を`Yes`に設定します。
 
@@ -168,9 +168,9 @@ ht-degree: 0%
 
 ![保存して複製](./assets/page-duplicate-save-menu.png){width="600" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;に移動します。
 
-1. グリッドで、複製するページを見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
+1. グリッドで、複製するページを見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. **[!UICONTROL Save]**&#x200B;矢印をクリックし、**[!UICONTROL Save & Duplicate]**&#x200B;を選択します。
 
@@ -211,11 +211,11 @@ ht-degree: 0%
 
 ## ページの削除
 
-作成したページを削除する方法は2つあります。 _[!UICONTROL Pages]_グリッドまたは_[!UICONTROL Edit]_ ページから削除できます。
+作成したページを削除する方法は2つあります。 _[!UICONTROL Pages]_&#x200B;グリッドまたは&#x200B;_[!UICONTROL Edit]_ ページから削除できます。
 
 ### 方法1: ページグリッドからページを削除する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;に移動します。
 
 1. グリッドの上にあるフィルターを使用してページを見つけ、削除する1つ以上のページのチェックボックスを選択します。
 
@@ -225,11 +225,11 @@ ht-degree: 0%
 
 ### 方法2：編集ページからページを削除する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;に移動します。
 
 1. 削除するページを検索します。
 
-1. ページエンティティの&#x200B;_[!UICONTROL Actions]_列で、**[!UICONTROL Select]**をクリックし、**[!UICONTROL Edit]**を選択します。
+1. ページエンティティの&#x200B;_[!UICONTROL Actions]_&#x200B;列で、**[!UICONTROL Select]**&#x200B;をクリックし、**[!UICONTROL Edit]**&#x200B;を選択します。
 
 1. ボタンバーで、**[!UICONTROL Delete Page]**&#x200B;をクリックします。
 

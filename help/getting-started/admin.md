@@ -16,9 +16,9 @@ ht-degree: 0%
 
 セキュリティを強化するため、_管理者_&#x200B;のログインは[二段階認証](../systems/security-two-factor-authentication.md)によって保護され、[CAPTCHA](../systems/security-captcha.md)を必要とするように設定できます。 詳しくは、[管理者セキュリティの設定](../systems/security-admin.md)にアクセスしてください。
 
-![管理者サイドバーとダッシュボード ](./assets/admin-dashboard.png){width="700" zoomable="yes"}
+![管理者サイドバーとダッシュボード &#x200B;](./assets/admin-dashboard.png){width="700" zoomable="yes"}
 
-最初の[ ログイン ](admin-signin.md)資格情報は、Adobe CommerceまたはMagento Open Sourceのインストール中に設定されました。 パスワードを忘れた場合は、アカウントに関連付けられているメールアドレスに一時的なパスワードを送信できます。 セキュリティを強化するには、大文字と小文字を区別するユーザー名と強力なパスワードを必要とするようにストアを設定します。
+最初の[&#x200B; ログイン &#x200B;](admin-signin.md)資格情報は、Adobe CommerceまたはMagento Open Sourceのインストール中に設定されました。 パスワードを忘れた場合は、アカウントに関連付けられているメールアドレスに一時的なパスワードを送信できます。 セキュリティを強化するには、大文字と小文字を区別するユーザー名と強力なパスワードを必要とするようにストアを設定します。
 
 デフォルトの管理者ユーザーアカウントに加えて、ストアの管理とカスタマーアカウントのサポートに必要な追加アカウントを[個](../systems/permissions-users-all.md)作成できます。 各アカウントは、ビジネス _の必要な知識_&#x200B;に基づいて、特定の[役割](../systems/permissions-user-roles.md)およびアクセスレベルに関連付けることができます。 各管理者ユーザーアカウントに関連付けられている電子メールアドレスは、一意である必要があります。
 
