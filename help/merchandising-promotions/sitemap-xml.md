@@ -3,7 +3,7 @@ title: サイトマップ
 description: Commerce サイトのすべてのページと画像にインデックスを付けるサイトマップの設定方法について説明します。
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 source-git-commit: 4d5699dc5c4dc4b2bcf208bb0e660ba61e28c507
 workflow-type: tm+mt
 source-wordcount: '1343'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce as a Cloud Serviceについては、Commerce Storefront ドキュメントの[SEO ガイドライン &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)を参照してください
+>Adobe Commerce as a Cloud Serviceについては、Commerce Storefront ドキュメントの[SEO ガイドライン &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=ja)を参照してください
 
 サイトマップは、検索エンジンによるストアのインデックス付け方法を改善し、webweb クローラーが見落とす可能性のあるページを見つけるように設計されています。 サイトマップでは、すべてのページと画像にインデックスを作成するように設定できます。
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 サイトの開発中は、サイトのインデックス作成を避けるために、web web クローラーの`robots.txt` ファイルに手順を含めることができます。 ローンチの前に、サイトのインデックス作成を許可するように手順を変更できます。
 
-技術情報については、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[&#x200B; サイトマップとrobots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html)を追加する」を参照してください。
+技術情報については、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[&#x200B; サイトマップとrobots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=ja)を追加する」を参照してください。
 
 ![&#x200B; サイトマップグリッド &#x200B;](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -102,7 +102,7 @@ Commerce インストールの`sitemap.xml` ファイルへのリンクを提供
    
 >[!NOTE]
 >
->サイトで[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) web サーバーエンジンを使用している場合は、Web サイトのルートにある[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) ファイルを更新して、他のサイトマップ要求を適切な場所に転送する必要があります。
+>サイトで[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=ja) web サーバーエンジンを使用している場合は、Web サイトのルートにある[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) ファイルを更新して、他のサイトマップ要求を適切な場所に転送する必要があります。
 
 ## 列の説明
 

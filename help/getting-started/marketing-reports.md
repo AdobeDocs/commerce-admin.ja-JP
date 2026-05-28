@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Search Terms Report]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 [検索語](../catalog/search-terms.md#search-terms-report) レポートには、各店舗の表示で顧客が求めているものが表示されます。 このレポートには、カタログ内で見つかった一致するアイテムの数と、検索語が使用された回数が含まれます。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Newsletter Problems Report]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 [!UICONTROL Newsletter Problems Report]には、正常に送信できなかったニュースレターキューに関する情報が含まれています。 レポートには、各購読者の名前、キューの日付と件名、エラーに関する情報が含まれます。
 

@@ -19,7 +19,7 @@ ht-degree: 0%
 | ------- | ----------- |
 | [はじめに](introduction.md) | Commerce インスタンスでのマーチャンダイジング機能とプロモーション機能の概要。 |
 | [&#x200B; マーケティングメニュー](marketing-menu.md) | [!UICONTROL Marketing] メニューを使用して、プロモーション、コミュニケーション、SEO、ユーザー生成コンテンツを管理するための複数の機能にアクセスします。 |
-| [&#x200B; ビジュアルマーチャンダイザー](visual-merchandiser.md) | [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}製品を配置し、カテゴリ リストに表示される製品を決定する条件を適用できる高度なツールのセットを探索します。 |
+| [&#x200B; ビジュアルマーチャンダイザー](visual-merchandiser.md) | [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}製品を配置し、カテゴリ リストに表示される製品を決定する条件を適用できる高度なツールのセットを探索します。 |
 | [&#x200B; ギフトレジストリ &#x200B;](gift-registries.md) | お客様に、特別な機会のギフト登録情報を作成したり、友人や家族を招待してギフト登録情報からギフトを購入したりする機能を提供します。 |
 | [特典およびロイヤルティプログラム &#x200B;](rewards-loyalty.md) | 顧客エンゲージメントを促進し、顧客ロイヤルティを向上するプログラムを実施できます。 |
 | [個人向け販売とイベント &#x200B;](events-private-sales.md) | 期間限定セールスの作成、特定のメンバーへのセールスの制限、スタンドアロンのプライベートセールページの作成。 |
