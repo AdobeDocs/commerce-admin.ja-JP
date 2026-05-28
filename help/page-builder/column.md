@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # レイアウト – 列
 
-_列_ コンテンツタイプを使用して、ページを[[!DNL Page Builder]  ステージ ](workspace.md#stage)の複数の列に分割します。 列を行またはタブに追加するか、ステージに直接追加すると、列グループは最初に同じ幅の2つの列に分割されます。 必要に応じて、列を追加または削除できます。 列の境界線を2つの列の間にドラッグすることで、列のサイズを変更できます。 次の列の幅は、行、タブ、またはステージ内の使用可能なスペースに合わせて調整されます。 1つの列は、ステージまたはそのコンテナの全幅を拡張します。
+_列_ コンテンツタイプを使用して、ページを[[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage)の複数の列に分割します。 列を行またはタブに追加するか、ステージに直接追加すると、列グループは最初に同じ幅の2つの列に分割されます。 必要に応じて、列を追加または削除できます。 列の境界線を2つの列の間にドラッグすることで、列のサイズを変更できます。 次の列の幅は、行、タブ、またはステージ内の使用可能なスペースに合わせて調整されます。 1つの列は、ステージまたはそのコンテナの全幅を拡張します。
 
 ![列の追加](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -20,7 +20,7 @@ _列_ コンテンツタイプを使用して、ページを[[!DNL Page Builder]
 
 ## 2.4.5 リリースのアップデート
 
-ページビルダー機能は2.4.5 リリースで更新され、ユーザーは個々の列の親コンテナとして&#x200B;_[!DNL Columns]_を使用できるようになりました。 この新しいコンテナは、背景のプロパティもサポートしており、列を行にラップする必要はありません。 不要なマークアップを減らし、ストアフロントの表示と体験をより細かく制御できます。
+ページビルダー機能は2.4.5 リリースで更新され、ユーザーは個々の列の親コンテナとして&#x200B;_[!DNL Columns]_&#x200B;を使用できるようになりました。 この新しいコンテナは、背景のプロパティもサポートしており、列を行にラップする必要はありません。 不要なマークアップを減らし、ストアフロントの表示と体験をより細かく制御できます。
 
 [!DNL Columns] コンテナのレイアウトを変更するには、グループ内の他の列の上または下に列をドラッグして、それらを積み重ねます。 これにより、開発者によるカスタマイズを必要とせずに実現できる、新しい様々なレイアウトの組み合わせが可能になります。
 
@@ -34,17 +34,17 @@ _列_ コンテンツタイプを使用して、ページを[[!DNL Page Builder]
 
 | ツール | アイコン | 説明 |
 |--- |--- |--- |
-| 移動 | ![移動アイコン ](./assets/pb-icon-move.png){width="25"} | 列とその内容を、他の列に関連する別の位置に移動します。 |
+| 移動 | ![移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | 列とその内容を、他の列に関連する別の位置に移動します。 |
 | （ラベル） | 列 | 現在のコンテナを列として識別します。 列コンテナにカーソルを合わせると、ツールボックスが表示されます。 |
-| 設定 | ![設定アイコン ](./assets/pb-icon-settings.png){width="25"} | 列を編集ページが開き、コンテナのプロパティを変更できます。 |
-| 重複 | ![ アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | 現在の列のコピーを作成します。 |
-| 削除 | ![ アイコンを削除](./assets/pb-icon-remove.png){width="25"} | 現在の列とその内容を削除します。 |
+| 設定 | ![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | 列を編集ページが開き、コンテナのプロパティを変更できます。 |
+| 重複 | ![&#x200B; アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | 現在の列のコピーを作成します。 |
+| 削除 | ![&#x200B; アイコンを削除](./assets/pb-icon-remove.png){width="25"} | 現在の列とその内容を削除します。 |
 
 {style="table-layout:auto"}
 
 ## 棒グリッド
 
-[grid](workspace.md)を使用すると、コンテンツが列で一貫して整列され、デスクトップとモバイルデバイスの両方でページが正しくレンダリングされるようになります。 詳しくは、[!DNL Page Builder]設定の「[高度なコンテンツツール ](setup.md)」セクションを参照してください。
+[grid](workspace.md)を使用すると、コンテンツが列で一貫して整列され、デスクトップとモバイルデバイスの両方でページが正しくレンダリングされるようになります。 詳しくは、[!DNL Page Builder]設定の「[高度なコンテンツツール &#x200B;](setup.md)」セクションを参照してください。
 
 ![1列の行のグリッド分割](./assets/pb-layout-column-one-grid.png){width="500" zoomable="yes"}
 
@@ -54,17 +54,17 @@ _列_ コンテンツタイプを使用して、ページを[[!DNL Page Builder]
 
 ## 列を追加
 
-1. _[!UICONTROL Layout]_の下の[!DNL Page Builder] パネルで、**[!UICONTROL Column]**をステージにドラッグします。
+1. _[!UICONTROL Layout]_&#x200B;の下の[!DNL Page Builder] パネルで、**[!UICONTROL Column]**&#x200B;をステージにドラッグします。
 
-   ![ ステージへの列のドラッグ ](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
+   ![&#x200B; ステージへの列のドラッグ &#x200B;](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
    列グループは、同じ幅の2つの列に分割されました。 各列はコンテンツ用の個別のコンテナであり、独自のツールボックスオプションのセットがあります。
 
    ![2つの等しい列](./assets/pb-layout-columns-two-empty.png){width="600" zoomable="yes"}
 
-1. 列グループの左上隅にある&#x200B;_グリッド_ ツール （![ グリッドコントロール ](./assets/pb-icon-grid-control.png)）をクリックし、必要に応じてグリッドサイズを調整します。
+1. 列グループの左上隅にある&#x200B;_グリッド_ ツール （![&#x200B; グリッドコントロール &#x200B;](./assets/pb-icon-grid-control.png)）をクリックし、必要に応じてグリッドサイズを調整します。
 
-   コンテンツをグリッドに配置することで、コンテンツを一貫して調整し、デスクトップとモバイルデバイスの両方でページを正しくレンダリングすることができます。 詳しくは、[!DNL Page Builder]設定の「[高度なコンテンツツール ](../configuration-reference/general/content-management.md)」セクションを参照してください。
+   コンテンツをグリッドに配置することで、コンテンツを一貫して調整し、デスクトップとモバイルデバイスの両方でページを正しくレンダリングすることができます。 詳しくは、[!DNL Page Builder]設定の「[高度なコンテンツツール &#x200B;](../configuration-reference/general/content-management.md)」セクションを参照してください。
 
    ![2列のグリッド分割](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
 
@@ -80,13 +80,13 @@ _列_ コンテンツタイプを使用して、ページを[[!DNL Page Builder]
 
    両方の列の幅は、変更を反映するように調整されます。 各列の新しい幅は、ラベルの後に表示されます。例えば、`4/12` （12人中4人）、`8/12` （12人中8人）などです。
 
-   ![ サイズ変更された列](./assets/pb-columns-resized-grid.png){width="600" zoomable="yes"}
+   ![&#x200B; サイズ変更された列](./assets/pb-columns-resized-grid.png){width="600" zoomable="yes"}
 
 ## 列の削除
 
-1. 削除する列にカーソルを合わせてツールボックスを表示し、_削除_ （![削除アイコン ](./assets/pb-icon-remove.png){width="20"}）アイコンを選択します。
+1. 削除する列にカーソルを合わせてツールボックスを表示し、_削除_ （![削除アイコン &#x200B;](./assets/pb-icon-remove.png){width="20"}）アイコンを選択します。
 
-   ![列ツールボックス ](./assets/pb-column-toolbox-remove.png){width="600" zoomable="yes"}
+   ![列ツールボックス &#x200B;](./assets/pb-column-toolbox-remove.png){width="600" zoomable="yes"}
 
 1. 列にコンテンツが含まれている場合は、**[!UICONTROL OK]**&#x200B;をクリックして確認します。
 
@@ -94,25 +94,25 @@ _列_ コンテンツタイプを使用して、ページを[[!DNL Page Builder]
 
    列グループに1つの列（12/12）とグリッドが追加されました。 グリッドは列でのみ使用できるため、この手法を使用してグリッドを表示できます。
 
-   ![ グリッド付き単一の列](./assets/pb-column-single-grid.png){width="600" zoomable="yes"}
+   ![&#x200B; グリッド付き単一の列](./assets/pb-column-single-grid.png){width="600" zoomable="yes"}
 
 1. 列グループで残りの列を行またはステージの全幅に拡張する場合は、次の手順を実行します。
 
-   - 列にカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+   - 列にカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-   - _[!UICONTROL Advanced]_セクションまでスクロールし、4つの&#x200B;**[!UICONTROL Padding]**値をすべて`0`に設定します。
+   - _[!UICONTROL Advanced]_&#x200B;セクションまでスクロールし、4つの&#x200B;**[!UICONTROL Padding]**&#x200B;値をすべて`0`に設定します。
 
-     ![ ゼロのパディングを使用](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
+     ![&#x200B; ゼロのパディングを使用](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-   - 右上隅の「**[!UICONTROL Save]**」をクリックして、_[!UICONTROL Edit Column]_ページを閉じます。
+   - 右上隅の「**[!UICONTROL Save]**」をクリックして、_[!UICONTROL Edit Column]_&#x200B;ページを閉じます。
 
-1. ワークスペースの右上隅にある&#x200B;_フルスクリーンを閉じる_ （![ フルスクリーンアイコンを閉じる](./assets/pb-icon-reduce.png){width="20"}）アイコンをクリックし、右上隅にある&#x200B;**[!UICONTROL Save]**&#x200B;をクリックします。
+1. ワークスペースの右上隅にある&#x200B;_フルスクリーンを閉じる_ （![&#x200B; フルスクリーンアイコンを閉じる](./assets/pb-icon-reduce.png){width="20"}）アイコンをクリックし、右上隅にある&#x200B;**[!UICONTROL Save]**&#x200B;をクリックします。
 
 ## 列設定の変更
 
-1. 列にカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. 列にカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-   ![列ツールボックス ](./assets/pb-column-toolbox-settings.png){width="600" zoomable="yes"}
+   ![列ツールボックス &#x200B;](./assets/pb-column-toolbox-settings.png){width="600" zoomable="yes"}
 
 1. 必要に応じて&#x200B;**[!UICONTROL Appearance]**&#x200B;設定を変更します。
 
@@ -141,7 +141,7 @@ _列_ コンテンツタイプを使用して、ページを[[!DNL Page Builder]
      | ------ | ----------- |
      | [!UICONTROL Upload] | ローカルコンピューターからギャラリーに画像ファイルをアップロードし、それを列の背景画像として適用します。 |
      | [!UICONTROL Select from Gallery] | ギャラリーの既存の画像を列の背景画像として選択するよう求めるプロンプトが表示されます。 |
-     | ![ カメラアイコン ](./assets/pb-icon-camera.png){width="25"} | 画像をカメラタイルにドラッグするか、ローカルファイルシステムで画像を参照できます。 |
+     | ![&#x200B; カメラアイコン &#x200B;](./assets/pb-icon-camera.png){width="25"} | 画像をカメラタイルにドラッグするか、ローカルファイルシステムで画像を参照できます。 |
 
      {style="table-layout:auto"}
 
@@ -170,7 +170,7 @@ _列_ コンテンツタイプを使用して、ページを[[!DNL Page Builder]
 
    - **[!UICONTROL Background Repeat]** – 背景画像を繰り返してスペースを塗りつぶす場合は、この設定`Yes`を変更します。
 
-1. 必要に応じて&#x200B;_[!UICONTROL Advanced]_設定を更新します。
+1. 必要に応じて&#x200B;_[!UICONTROL Advanced]_&#x200B;設定を更新します。
 
    - 列に追加されるコンテンツコンテナの水平方向の配置を制御するには、**[!UICONTROL Alignment]**&#x200B;を選択します。
 

@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ストアのメインメニューは、ストア内のさまざまな部門へのディレクトリのようなものです。 各オプションは、異なるカテゴリの製品を表します。 上部ナビゲーションの位置と表示方法はテーマによって異なりますが、基本的には同じです。
 
-![ トップナビゲーション ](./assets/storefront-top-navigation.png){width="700" zoomable="yes"}
+![&#x200B; トップナビゲーション &#x200B;](./assets/storefront-top-navigation.png){width="700" zoomable="yes"}
 
-カタログのカテゴリ構造は、検索エンジンによるサイトのインデックス作成方法に影響を与える可能性があります。 カテゴリを深くネストすればするほど、完全にインデックス化される可能性は低くなります。 一般的に、表示レベルを1から3つ使用するのが最も効果的です。 [ ルートカテゴリ ](category-root.md)は、最初のレベルとしてカウントされますが、メニューには表示されません。 上部ナビゲーションで使用できるレベルの最大数は、設定によって決まります。 さらに、ストアテーマでサポートされているメニューレベルの数に制限がある場合があります。 例えば、サンプル Luma テーマは、ルートを含む最大5つのレベルをサポートします。
+カタログのカテゴリ構造は、検索エンジンによるサイトのインデックス作成方法に影響を与える可能性があります。 カテゴリを深くネストすればするほど、完全にインデックス化される可能性は低くなります。 一般的に、表示レベルを1から3つ使用するのが最も効果的です。 [&#x200B; ルートカテゴリ &#x200B;](category-root.md)は、最初のレベルとしてカウントされますが、メニューには表示されません。 上部ナビゲーションで使用できるレベルの最大数は、設定によって決まります。 さらに、ストアテーマでサポートされているメニューレベルの数に制限がある場合があります。 例えば、サンプル Luma テーマは、ルートを含む最大5つのレベルをサポートします。
 
 ## メニューレベルのカウント
 
@@ -52,25 +52,25 @@ ht-degree: 0%
 
 1. 表示設定で、**[!UICONTROL Anchor]**&#x200B;を`Yes`に設定します。
 
-1. その他の必要な[ カテゴリ設定](category-create.md)をすべて完了します。
+1. その他の必要な[&#x200B; カテゴリ設定](category-create.md)をすべて完了します。
 
 1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-マルチストアのインストールの場合、各[ ストア ](../stores-purchase/stores.md#add-stores)ごとに、異なるメインメニューを[ ルートカテゴリ ](category-root.md)として割り当てることができます。
+マルチストアのインストールの場合、各[&#x200B; ストア &#x200B;](../stores-purchase/stores.md#add-stores)ごとに、異なるメインメニューを[&#x200B; ルートカテゴリ &#x200B;](category-root.md)として割り当てることができます。
 
 ### 手順2：上部ナビゲーションの深度を設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
 1. **[!UICONTROL Category Top Navigation]** セクションを展開します。
 
-   ![ カテゴリの上位ナビゲーション ](../configuration-reference/catalog/assets/catalog-category-top-navigation.png){width="600" zoomable="yes"}
+   ![&#x200B; カテゴリの上位ナビゲーション &#x200B;](../configuration-reference/catalog/assets/catalog-category-top-navigation.png){width="600" zoomable="yes"}
 
-   上部ナビゲーションの深さはグローバルな[設定スコープ ](../getting-started/websites-stores-views.md#scope-settings)を持つため、この設定はCommerce インストールのすべてのweb サイト、ストア、ストアビューに適用されます。 _[!UICONTROL Category Top Navigation]_設定セクションは、左上隅の_[!UICONTROL Store View]_&#x200B;が`Default Config`に設定されている場合にのみ使用できます。
+   上部ナビゲーションの深さはグローバルな[設定スコープ &#x200B;](../getting-started/websites-stores-views.md#scope-settings)を持つため、この設定はCommerce インストールのすべてのweb サイト、ストア、ストアビューに適用されます。 _[!UICONTROL Category Top Navigation]_&#x200B;設定セクションは、左上隅の&#x200B;_[!UICONTROL Store View]_&#x200B;が`Default Config`に設定されている場合にのみ使用できます。
 
-   これらのオプションの詳細なリストについては、_設定リファレンス_&#x200B;の[ カテゴリトップナビゲーション ](../configuration-reference/catalog/catalog.md#layered-navigation)を参照してください。
+   これらのオプションの詳細なリストについては、_設定リファレンス_&#x200B;の[&#x200B; カテゴリトップナビゲーション &#x200B;](../configuration-reference/catalog/catalog.md#layered-navigation)を参照してください。
 
 1. 上部ナビゲーションに表示されるサブカテゴリの数を制限するには、**[!UICONTROL Maximal Depth]**&#x200B;の数を入力します。
 

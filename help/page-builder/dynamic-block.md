@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # コンテンツを追加 – 動的ブロック
 
-動的ブロックのコンテンツタイプを使用して、既存の[動的ブロック ](../content-design/dynamic-blocks.md)を[[!DNL Page Builder]  ステージ ](workspace.md#stage)に追加します。
+動的ブロックのコンテンツタイプを使用して、既存の[動的ブロック &#x200B;](../content-design/dynamic-blocks.md)を[[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage)に追加します。
 
-![ ストアフロントの動的ブロック ](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの動的ブロック &#x200B;](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -22,12 +22,12 @@ ht-degree: 0%
 
 | ツール | アイコン | 説明 |
 | --------- | ------------- | ----------------- |
-| 移動 | ![移動アイコン ](./assets/pb-icon-move.png){width="25"} | ブロックコンテナとそのコンテンツをステージ上の別の位置に移動します。 |
-| 設定 | ![設定アイコン ](./assets/pb-icon-settings.png){width="25"} | _ブロックを編集_ ページを開きます。このページでは、ブロックを選択してコンテナのプロパティを変更できます。 |
-| 非表示 | ![ アイコンを非表示](./assets/pb-icon-hide.png){width="25"} | 現在のブロックコンテナとそのコンテンツを非表示にします。 |
-| 表示 | ![ アイコンを表示](./assets/pb-icon-show.png){width="25"} | 非表示のブロックコンテナとそのコンテンツを表示します。 |
-| 重複 | ![ アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | ブロックコンテナとそのコンテンツのコピーを作成します。 |
-| 削除 | ![ アイコンを削除](./assets/pb-icon-remove.png){width="25"} | ブロックコンテナとそのコンテンツをステージから削除します。 |
+| 移動 | ![移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | ブロックコンテナとそのコンテンツをステージ上の別の位置に移動します。 |
+| 設定 | ![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | _ブロックを編集_ ページを開きます。このページでは、ブロックを選択してコンテナのプロパティを変更できます。 |
+| 非表示 | ![&#x200B; アイコンを非表示](./assets/pb-icon-hide.png){width="25"} | 現在のブロックコンテナとそのコンテンツを非表示にします。 |
+| 表示 | ![&#x200B; アイコンを表示](./assets/pb-icon-show.png){width="25"} | 非表示のブロックコンテナとそのコンテンツを表示します。 |
+| 重複 | ![&#x200B; アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | ブロックコンテナとそのコンテンツのコピーを作成します。 |
+| 削除 | ![&#x200B; アイコンを削除](./assets/pb-icon-remove.png){width="25"} | ブロックコンテナとそのコンテンツをステージから削除します。 |
 
 {style="table-layout:auto"}
 
@@ -41,9 +41,9 @@ ht-degree: 0%
 
    ![動的ブロックプレースホルダーをステージにドラッグする](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
 
-1. 空の動的ブロックコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. 空の動的ブロックコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-   ![動的ブロックツールボックス ](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
+   ![動的ブロックツールボックス &#x200B;](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
 1. _動的ブロックを編集_ ページで、**[!UICONTROL Select Dynamic Block]**&#x200B;をクリックし、リストを使用してブロックを選択します。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
    リストで、挿入する動的ブロックを見つけて、**[!UICONTROL Select]**&#x200B;をクリックします。 次に、**[!UICONTROL Add Selected]**&#x200B;をクリックします。
 
-   ![ リスト内の動的ブロックの選択](./assets/pb-add-content-dynamic-block-select-list.png){width="600" zoomable="yes"}
+   ![&#x200B; リスト内の動的ブロックの選択](./assets/pb-add-content-dynamic-block-select-list.png){width="600" zoomable="yes"}
 
    ダイナミックブロック情報の概要を以下に示します。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-   ![動的ブロックテンプレート ](./assets/pb-add-content-dynamic-block-template.png){width="200"}
+   ![動的ブロックテンプレート &#x200B;](./assets/pb-add-content-dynamic-block-template.png){width="200"}
 
 1. 必要に応じて、詳細設定を行います。
 
@@ -129,9 +129,9 @@ ht-degree: 0%
 
 ## 動的ブロックコンテナ設定の編集
 
-1. 動的ブロックコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. 動的ブロックコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-   ![動的ブロックツールボックス ](./assets/pb-add-content-dynamic-block-toolbox.png){width="500" zoomable="yes"}
+   ![動的ブロックツールボックス &#x200B;](./assets/pb-add-content-dynamic-block-toolbox.png){width="500" zoomable="yes"}
 
 1. 必要に応じて、ダイナミックブロックを変更します。
 
@@ -147,13 +147,13 @@ ht-degree: 0%
 
 ## 動的ブロックの複製
 
-1. 動的ブロックコンテナにカーソルを合わせてツールボックスを表示し、_複製_ （![複製アイコン ](./assets/pb-icon-duplicate.png){width="20"}）アイコンを選択します。
+1. 動的ブロックコンテナにカーソルを合わせてツールボックスを表示し、_複製_ （![複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="20"}）アイコンを選択します。
 
    複製はオリジナルのすぐ下に表示されます。
 
    ![動的ブロックの複製](./assets/pb-add-content-dynamic-block-duplicate.png){width="500" zoomable="yes"}
 
-1. 新しいダイナミックブロックを別の位置に移動するには、そのコンテナにカーソルを合わせ、ツールボックスで&#x200B;_移動_ （![移動アイコン ](./assets/pb-icon-move.png){width="20"}）を選択します。
+1. 新しいダイナミックブロックを別の位置に移動するには、そのコンテナにカーソルを合わせ、ツールボックスで&#x200B;_移動_ （![移動アイコン &#x200B;](./assets/pb-icon-move.png){width="20"}）を選択します。
 
 1. 新しい位置に赤いガイドラインが表示されるまで、ダイナミックブロックを選択してドラッグします。
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 ## ステージからダイナミックブロックを削除
 
-1. 動的ブロックコンテナにカーソルを合わせてツールボックスを表示し、_削除_ （![削除アイコン ](./assets/pb-icon-remove.png){width="20"}）アイコンを選択します。
+1. 動的ブロックコンテナにカーソルを合わせてツールボックスを表示し、_削除_ （![削除アイコン &#x200B;](./assets/pb-icon-remove.png){width="20"}）アイコンを選択します。
 
 1. 確認を求められたら、**[!UICONTROL OK]**&#x200B;をクリックします。
 

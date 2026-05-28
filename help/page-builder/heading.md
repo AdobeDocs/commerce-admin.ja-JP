@@ -12,37 +12,37 @@ ht-degree: 0%
 
 # 要素 – 見出し
 
-見出しレベル：コンテンツを整理し、検索エンジンが各ページにインデックスを作成するのに役立つ階層を確立します。 [[!DNL Page Builder]  ステージ ](workspace.md#stage)の&#x200B;_見出し_ コンテンツタイプを使用して、見出しレベルがH1からH6のテキストコンテナをステージに追加します。 見出しは、現在のテーマに関連付けられているスタイルシートに従って書式設定されます。
+見出しレベル：コンテンツを整理し、検索エンジンが各ページにインデックスを作成するのに役立つ階層を確立します。 [[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage)の&#x200B;_見出し_ コンテンツタイプを使用して、見出しレベルがH1からH6のテキストコンテナをステージに追加します。 見出しは、現在のテーマに関連付けられているスタイルシートに従って書式設定されます。
 
-「_[!UICONTROL Content]_」セクションの「[ コンテンツ見出し](workspace.md)」フィールドを使用して、ページの上部にH1見出しを追加できます。 ただし、フィールドは以前の[!DNL Commerce] バージョンのレガシーであり、古いコンテンツをサポートするために提供されています。 このフィールドは[!DNL Page Builder]の高度な機能を利用していません。 「コンテンツの見出し」フィールドを空白のままにし、[!DNL Page Builder]見出しコンテンツタイプを使用して、任意のレベルの見出しをページに追加することをお勧めします。
+「_[!UICONTROL Content]_」セクションの「[&#x200B; コンテンツ見出し](workspace.md)」フィールドを使用して、ページの上部にH1見出しを追加できます。 ただし、フィールドは以前の[!DNL Commerce] バージョンのレガシーであり、古いコンテンツをサポートするために提供されています。 このフィールドは[!DNL Page Builder]の高度な機能を利用していません。 「コンテンツの見出し」フィールドを空白のままにし、[!DNL Page Builder]見出しコンテンツタイプを使用して、任意のレベルの見出しをページに追加することをお勧めします。
 
 次の例は、Luma テーマでフォーマットされたコンテンツ見出しと見出しコンテンツタイプがどのように表示されるかを示しています。
 
-![ ストアフロントのコンテンツの見出しと見出しのレベル ](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントのコンテンツの見出しと見出しのレベル &#x200B;](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
-見出しを[!DNL Page Builder] パネルの&#x200B;_要素_ セクションから、ステージ上の行、列、またはタブ セットにドラッグできます。 見出しレベルと整列は、ステージのエディターツールバーから、または&#x200B;_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="20"}）コントロールを使用して制御できます。
+見出しを[!DNL Page Builder] パネルの&#x200B;_要素_ セクションから、ステージ上の行、列、またはタブ セットにドラッグできます。 見出しレベルと整列は、ステージのエディターツールバーから、または&#x200B;_設定_ （![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）コントロールを使用して制御できます。
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## 見出しエディタ
 
-![ ツールバー付き見出しエディター](./assets/pb-elements-heading-toolbar.png){width="500" zoomable="yes"}
+![&#x200B; ツールバー付き見出しエディター](./assets/pb-elements-heading-toolbar.png){width="500" zoomable="yes"}
 
 ## 見出しコンテナツールボックス
 
 すべてのコンテンツコンテナと同様に、コンテナにカーソルを合わせると、ツールボックスが表示されます。
 
-![見出しコンテナツールボックス ](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
+![見出しコンテナツールボックス &#x200B;](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
 
 | ツール | アイコン | 説明 |
 | --------- | ----------------- | ---------------------- |
-| 移動 | ![移動アイコン ](./assets/pb-icon-move.png){width="25"} | 見出しコンテナをページ上の別の有効な場所に移動します。 |
+| 移動 | ![移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | 見出しコンテナをページ上の別の有効な場所に移動します。 |
 | （ラベル） | 見出し | 現在のコンテナを見出しとして識別します。 |
-| 設定 | ![設定アイコン ](./assets/pb-icon-settings.png){width="25"} | 「見出しを編集」ページが開き、コンテナのプロパティを変更できます。 |
-| 非表示 | ![ アイコンを非表示](./assets/pb-icon-hide.png){width="25"} | 見出しコンテナを非表示にします。 |
-| 表示 | ![ アイコンを表示](./assets/pb-icon-show.png){width="25"} | 非表示の見出しコンテナを表示します。 |
-| 重複 | ![ アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | 見出しコンテナのコピーを作成します。 |
-| 削除 | ![ アイコンを削除](./assets/pb-icon-remove.png){width="25"} | 見出しコンテナとそのコンテンツをステージから削除します。 |
+| 設定 | ![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | 「見出しを編集」ページが開き、コンテナのプロパティを変更できます。 |
+| 非表示 | ![&#x200B; アイコンを非表示](./assets/pb-icon-hide.png){width="25"} | 見出しコンテナを非表示にします。 |
+| 表示 | ![&#x200B; アイコンを表示](./assets/pb-icon-show.png){width="25"} | 非表示の見出しコンテナを表示します。 |
+| 重複 | ![&#x200B; アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | 見出しコンテナのコピーを作成します。 |
+| 削除 | ![&#x200B; アイコンを削除](./assets/pb-icon-remove.png){width="25"} | 見出しコンテナとそのコンテンツをステージから削除します。 |
 
 {style="table-layout:auto"}
 
@@ -52,13 +52,13 @@ ht-degree: 0%
 
 1. [!DNL Page Builder] パネルで、**[!UICONTROL Elements]**&#x200B;を展開し、**[!UICONTROL Heading]** プレースホルダーをステージ上の行、列、またはタブ セットにドラッグします。
 
-   ![見出しをステージにドラッグ ](./assets/pb-elements-heading-drag.png){width="600" zoomable="yes"}
+   ![見出しをステージにドラッグ &#x200B;](./assets/pb-elements-heading-drag.png){width="600" zoomable="yes"}
 
 1. エディターで、`Edit Heading Text` プレースホルダーに見出しテキストを入力します。
 
    デフォルトでは、見出しテキストにはレベル 2 （H2）の見出しタイプが割り当てられます。
 
-   見出しエディターの![ プレースホルダー](./assets/pb-elements-header-editor-placeholder.png){width="500" zoomable="yes"}
+   見出しエディターの![&#x200B; プレースホルダー](./assets/pb-elements-header-editor-placeholder.png){width="500" zoomable="yes"}
 
 1. ツールバーで、H1とH6の間の適切な見出しタイプを選択します。
 
@@ -66,15 +66,15 @@ ht-degree: 0%
 
 ## ヘッダー設定の編集
 
-1. 見出しコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. 見出しコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-   ![見出しツールボックス ](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
+   ![見出しツールボックス &#x200B;](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
 
 1. 必要に応じて、見出しコンテンツ （**[!UICONTROL Heading Type]**&#x200B;および&#x200B;**[!UICONTROL Heading Text]**）を更新します。
 
    見出しエディターでこのコンテンツを更新することもできます。
 
-1. 必要に応じて&#x200B;_[!UICONTROL Advanced]_設定を更新します。
+1. 必要に応じて&#x200B;_[!UICONTROL Advanced]_&#x200B;設定を更新します。
 
    - 親コンテナ内での見出しの位置を制御するには、**[!UICONTROL Alignment]**&#x200B;を選択します。
 
@@ -135,13 +135,13 @@ ht-degree: 0%
 
 特定の設定を持つ書式設定された見出しの場合は、新しいプレースホルダーで最初からやり直すよりも、見出しを複製する方が効率的です。
 
-1. 見出しコンテナにカーソルを合わせてツールボックスを表示し、_複製_ （![複製アイコン ](./assets/pb-icon-duplicate.png){width="20"}）アイコンを選択します。
+1. 見出しコンテナにカーソルを合わせてツールボックスを表示し、_複製_ （![複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="20"}）アイコンを選択します。
 
    複製はオリジナルのすぐ下に表示されます。
 
    ![見出しコンテナを複製しています](./assets/pb-elements-heading-duplicate.png){width="500" zoomable="yes"}
 
-1. 新しい見出しコンテナにカーソルを合わせてツールボックスを表示し、_移動_ （![移動アイコン ](./assets/pb-icon-move.png){width="20"}）アイコンを選択します。
+1. 新しい見出しコンテナにカーソルを合わせてツールボックスを表示し、_移動_ （![移動アイコン &#x200B;](./assets/pb-icon-move.png){width="20"}）アイコンを選択します。
 
    ![見出しの移動](./assets/pb-elements-heading-move.png){width="500" zoomable="yes"}
 
