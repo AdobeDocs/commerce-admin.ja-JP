@@ -28,7 +28,7 @@ ht-degree: 3%
 
 ## [!UICONTROL Email Options]
 
-![電子メールオプション ](./assets/contacts-email-options.png)<!-- zoom -->
+![電子メールオプション &#x200B;](./assets/contacts-email-options.png)<!-- zoom -->
 
 <!-- [Email Options](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
 

@@ -16,11 +16,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->ニュースレターは、顧客にニュース、割引、その他のマーケティングメールを送信できるマーケティング手段の一部です。 登録済みのお客様は、[ アカウントダッシュボード ](../../customers/account-dashboard-my-account.md)からサブスクリプションを管理できます。
+>ニュースレターは、顧客にニュース、割引、その他のマーケティングメールを送信できるマーケティング手段の一部です。 登録済みのお客様は、[&#x200B; アカウントダッシュボード &#x200B;](../../customers/account-dashboard-my-account.md)からサブスクリプションを管理できます。
 
 ## [!UICONTROL General Options]
 
-![一般オプション ](./assets/newsletter-general-options.png)<!-- zoom -->
+![一般オプション &#x200B;](./assets/newsletter-general-options.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Subscription Options]
 
-![ サブスクリプションオプション ](./assets/newsletter-subscription-options.png)<!-- zoom -->
+![&#x200B; サブスクリプションオプション &#x200B;](./assets/newsletter-subscription-options.png)<!-- zoom -->
 
 <!-- [Subscription Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/newsletters/newsletters) -->
 

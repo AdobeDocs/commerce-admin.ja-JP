@@ -21,11 +21,11 @@ ht-degree: 1%
 
 ## [!UICONTROL Currency Options]
 
-![通貨設定/通貨オプション ](./assets/currency-setup-currency-options.png)<!-- zoom -->
+![通貨設定/通貨オプション &#x200B;](./assets/currency-setup-currency-options.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Base Currency] | web サイト | すべてのオンライン決済トランザクションに使用される主要通貨。 複数のストアビューの場合、価格の範囲は[ カタログ ](../catalog/catalog.md)設定で設定する必要があります。 |
+| [!UICONTROL Base Currency] | web サイト | すべてのオンライン決済トランザクションに使用される主要通貨。 複数のストアビューの場合、価格の範囲は[&#x200B; カタログ &#x200B;](../catalog/catalog.md)設定で設定する必要があります。 |
 | [!UICONTROL Default Display Currency] | ストアビュー | 価格の表示に使用される主要通貨。 |
 | [!UICONTROL Allowed Currencies] | ストアビュー | 支払いのためにストアが受け入れた通貨。 |
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->2.4.6 リリース以降、[[!DNL Fixer.io]](https://fixer.io/) サービスは非推奨となり、[[!DNL Fixer API]  （APILayer） ](https://apilayer.com/marketplace/fixer-api) サービスに置き換えられます。 非推奨の[!DNL Fixer.io] アカウントの代わりにAPILayer アカウントを使用することを強くお勧めします。
+>2.4.6 リリース以降、[[!DNL Fixer.io]](https://fixer.io/) サービスは非推奨となり、[[!DNL Fixer API]  （APILayer） &#x200B;](https://apilayer.com/marketplace/fixer-api) サービスに置き換えられます。 非推奨の[!DNL Fixer.io] アカウントの代わりにAPILayer アカウントを使用することを強くお勧めします。
 
 ![通貨設定> Fixer.io](./assets/currency-setup-fixer.png)<!-- zoom -->
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Fixer Api (APILayer)]
 
-![通貨設定/Fixer Api （APILayer） ](./assets/currency-setup-fixer-api.png)<!-- zoom -->
+![通貨設定/Fixer Api （APILayer） &#x200B;](./assets/currency-setup-fixer-api.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

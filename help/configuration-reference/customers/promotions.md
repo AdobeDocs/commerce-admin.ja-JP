@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![自動メールリマインダールール ](./assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
+![自動メールリマインダールール &#x200B;](./assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
 
 <!-- [Automated Email Reminder Rules](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules#configure-email-reminders) -->
 
@@ -46,6 +46,6 @@ ht-degree: 0%
 | [!UICONTROL Code Format] | グローバル | クーポンコード形式を定義します。 オプションは次のとおりです。<br/>**`Alphanumeric`**– 文字と数字の任意の組み合わせ。<br/>**`Alphabetical`** – 文字のみ。<br/>**`Numeric`**– 数字のみ。 |
 | [!UICONTROL Code Prefix] | グローバル | すべてのクーポンコードの先頭に追加される値。 接頭辞を使用しない場合は、フィールドを空白のままにします。 |
 | [!UICONTROL Code Suffix] | グローバル | すべてのコードの末尾に追加される値。 接尾辞を使用しない場合は、フィールドを空白のままにします。 |
-| [!UICONTROL Dash Every X Characters] | グローバル | すべてのクーポンコードにダッシュ（ – ）を挿入する間隔。 ダッシュを使用しない場合は、フィールドを空白のままにします。 <br/>_**注意：**_ ダッシュのみで異なるクーポンコードは、異なるコードと見なされます。 |
+| [!UICONTROL Dash Every X Characters] | グローバル | すべてのクーポンコードにダッシュ（ – ）を挿入する間隔。 ダッシュを使用しない場合は、フィールドを空白のままにします。 <br/>_&#x200B;**注意：**&#x200B;_ ダッシュのみで異なるクーポンコードは、異なるコードと見なされます。 |
 
 {style="table-layout:auto"}

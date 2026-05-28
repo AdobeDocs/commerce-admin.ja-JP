@@ -95,7 +95,7 @@ ht-degree: 0%
 
    ![販売者が購入者の情報を追加します](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
-   デフォルトでは、[添付ファイル ](configure-quotes.md)は、DOC、DOCX、XLS、XLSX、PDF、TXT、JPGまたはJPEG、PNGのいずれかのファイル形式で、最大2 MBです。
+   デフォルトでは、[添付ファイル &#x200B;](configure-quotes.md)は、DOC、DOCX、XLS、XLSX、PDF、TXT、JPGまたはJPEG、PNGのいずれかのファイル形式で、最大2 MBです。
 
 1. 交渉中に配送先住所を追加します。
 

@@ -16,11 +16,11 @@ ht-degree: 1%
 
 {{config}}
 
-これらの設定を使用してストアのお客様にギフトレジストリを有効にする方法について詳しくは、[ ギフトレジストリの設定](../../merchandising-promotions/gift-registry-configure.md)を参照してください。 ストアフロントにギフトレジストリ検索を含める方法について詳しくは、[ ギフトレジストリ検索を追加](../../merchandising-promotions/gift-registry-search.md)を参照してください。
+これらの設定を使用してストアのお客様にギフトレジストリを有効にする方法について詳しくは、[&#x200B; ギフトレジストリの設定](../../merchandising-promotions/gift-registry-configure.md)を参照してください。 ストアフロントにギフトレジストリ検索を含める方法について詳しくは、[&#x200B; ギフトレジストリ検索を追加](../../merchandising-promotions/gift-registry-search.md)を参照してください。
 
 ## [!UICONTROL General Options]
 
-![一般オプション ](./assets/gift-registry-general-options.png)<!-- zoom -->
+![一般オプション &#x200B;](./assets/gift-registry-general-options.png)<!-- zoom -->
 
 <!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
@@ -40,33 +40,33 @@ ht-degree: 1%
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Email Template] | ストアビュー | ギフトレジストリの作成時に送信される所有者通知メールに使用されるテンプレートを指定します。 デフォルトテンプレート：ギフトレジストリオーナー通知 |
-| [!UICONTROL Email Sender] | ストアビュー | ギフトレジストリ所有者の通知メールの送信者として表示される[ ストア連絡先](../../getting-started/store-details.md#store-email-addresses)を識別します。 デフォルト値：`General Contact` |
+| [!UICONTROL Email Sender] | ストアビュー | ギフトレジストリ所有者の通知メールの送信者として表示される[&#x200B; ストア連絡先](../../getting-started/store-details.md#store-email-addresses)を識別します。 デフォルト値：`General Contact` |
 
 {style="table-layout:auto"}
 
 ## ギフトレジストリの共有
 
-![ ギフトレジストリの共有](./assets/gift-registry-gift-registry-sharing.png)<!-- zoom -->
+![&#x200B; ギフトレジストリの共有](./assets/gift-registry-gift-registry-sharing.png)<!-- zoom -->
 
 <!-- Gift Registry Sharing](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Email Template] | ストアビュー | ギフトレジストリの作成時に送信されるギフトレジストリ共有メールに使用されるテンプレートを指定します。 所有者が&#x200B;_Share Gift Registry_&#x200B;をクリックすると、メールは各受信者に送信されます。 既定のテンプレート：`Gift Registry Sharing` |
-| [!UICONTROL Email Sender] | ストアビュー | ギフトレジストリ共有メールの送信者として表示される[ ストア連絡先](../../getting-started/store-details.md#store-email-addresses)を識別します。 デフォルト値：`General Contact` |
+| [!UICONTROL Email Sender] | ストアビュー | ギフトレジストリ共有メールの送信者として表示される[&#x200B; ストア連絡先](../../getting-started/store-details.md#store-email-addresses)を識別します。 デフォルト値：`General Contact` |
 | [!UICONTROL Maximum Sent Emails Threshold] | ストアビュー | 一度に送信できるギフトレジストリ共有メール通知メッセージの最大数。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Gift Registry Update]
 
-![ ギフトレジストリの更新](./assets/gift-registry-gift-registry-update.png)<!-- zoom -->
+![&#x200B; ギフトレジストリの更新](./assets/gift-registry-gift-registry-update.png)<!-- zoom -->
 
 <!-- [Gift Registry Update](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Email Template] | ストアビュー | ギフトレジストリから購入されたときにギフトレジストリ所有者に送信されるギフトレジストリ更新メールに使用されるテンプレートを決定します。 この更新には、購入した品目と数量に関する情報が含まれますが、注文を行った人の名前は含まれません。 既定のテンプレート：`Gift Registry Update` |
-| [!UICONTROL Email Sender] | ストアビュー | ギフトレジストリ更新メールの送信者として表示される[ ストア連絡先](../../getting-started/store-details.md#store-email-addresses)を特定します。 デフォルト値：`General Contact` |
+| [!UICONTROL Email Sender] | ストアビュー | ギフトレジストリ更新メールの送信者として表示される[&#x200B; ストア連絡先](../../getting-started/store-details.md#store-email-addresses)を特定します。 デフォルト値：`General Contact` |
 
 {style="table-layout:auto"}

@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce B2Bのインストールと有効化により、企業固有の機能を使用して購買体験をパーソナライズできます。 Adobe Commerce B2Bは、B2BとB2Cの両方のモデルをサポートする統合ソリューションです。 B2B機能について詳しくは、[Adobe Commerce B2B ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)を参照してください。
+>Adobe Commerce B2Bのインストールと有効化により、企業固有の機能を使用して購買体験をパーソナライズできます。 Adobe Commerce B2Bは、B2BとB2Cの両方のモデルをサポートする統合ソリューションです。 B2B機能について詳しくは、[Adobe Commerce B2B ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)を参照してください。
 
 >[!NOTE]
 >
->B2B機能のこれらの設定オプションへのアクセスは、[役割リソース ](../../systems/permissions-user-roles.md#role-resources)によって制御されます。 これらの役割リソースは、管理者ユーザーに割り当てられたユーザー役割に設定する必要があります。
+>B2B機能のこれらの設定オプションへのアクセスは、[役割リソース &#x200B;](../../systems/permissions-user-roles.md#role-resources)によって制御されます。 これらの役割リソースは、管理者ユーザーに割り当てられたユーザー役割に設定する必要があります。
 
 これらの設定について詳しくは、_Adobe Commerce B2B ユーザーガイド_&#x200B;の「[基本的なB2B機能を有効にする](../../b2b/enable-basic-features.md)」を参照してください。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Customer-Related Emails]
 
-![顧客関連の電子メール ](./assets/company-email-options-customer-related-emails.png)<!-- zoom -->
+![顧客関連の電子メール &#x200B;](./assets/company-email-options-customer-related-emails.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Company Credit]
 
-![会社クレジット ](./assets/company-email-options-company-credit.png)<!-- zoom -->
+![会社クレジット &#x200B;](./assets/company-email-options-company-credit.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

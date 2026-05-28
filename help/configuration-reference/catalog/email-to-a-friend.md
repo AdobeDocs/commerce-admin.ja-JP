@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Email Templates]
 
-![ メールテンプレート ](./assets/email-to-a-friend-email-templates.png)<!-- zoom -->
+![&#x200B; メールテンプレート &#x200B;](./assets/email-to-a-friend-email-templates.png)<!-- zoom -->
 
 <!-- [Email Templates](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/communications/email-templates#configure-email-templates) -->
 

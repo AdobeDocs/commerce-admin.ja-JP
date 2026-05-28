@@ -20,7 +20,7 @@ ht-degree: 0%
 - [!UICONTROL Rejected]
 - [!UICONTROL Blocked]
 
-[ アクション コントロール ](account-company-manage.md)を使用して、複数の会社リクエストを承認することもできます。
+[&#x200B; アクション コントロール &#x200B;](account-company-manage.md)を使用して、複数の会社リクエストを承認することもできます。
 
 ![承認待ち](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL Companies]**&#x200B;に移動します。
 
-   グリッドの上にある&#x200B;_[!UICONTROL Columns]_セレクターを使用して、**[!UICONTROL Status]**列を表示できます。
+   グリッドの上にある&#x200B;_[!UICONTROL Columns]_&#x200B;セレクターを使用して、**[!UICONTROL Status]**&#x200B;列を表示できます。
 
-1. _[!UICONTROL Action]_列で、**[!UICONTROL Edit]**をクリックします。
+1. _[!UICONTROL Action]_&#x200B;列で、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. **[!UICONTROL Company Status]**&#x200B;を`Active`に設定します。
 

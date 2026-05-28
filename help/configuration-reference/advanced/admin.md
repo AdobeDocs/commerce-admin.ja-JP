@@ -17,9 +17,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Admin User Emails]
 
-![管理者ユーザーメール ](./assets/admin-admin-user-emails.png)<!-- zoom -->
+![管理者ユーザーメール &#x200B;](./assets/admin-admin-user-emails.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、[ パスワードを忘れた場合と電子メールをリセットする](../../systems/permissions-users-all.md#forgotten-password-and-reset-emails)を参照してください。
+これらの設定の変更について詳しくは、[&#x200B; パスワードを忘れた場合と電子メールをリセットする](../../systems/permissions-users-all.md#forgotten-password-and-reset-emails)を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |---------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -31,9 +31,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Startup Page]
 
-![ スタートアップページ ](./assets/admin-startup-page.png)<!-- zoom -->
+![&#x200B; スタートアップページ &#x200B;](./assets/admin-startup-page.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_スタートアップガイド_&#x200B;の「[ スタートアップページの変更](../../getting-started/admin-dashboard.md#change-the-startup-page)」を参照してください。
+これらの設定の変更について詳しくは、_スタートアップガイド_&#x200B;の「[&#x200B; スタートアップページの変更](../../getting-started/admin-dashboard.md#change-the-startup-page)」を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |---------------------------|------------------------------------------------------------------------|------------------------------------------------------------------|
@@ -56,7 +56,7 @@ ht-degree: 0%
 |                                                         | [`User Content`](../../catalog/settings-advanced-product-reviews.md) | [`All Reviews`](../../catalog/settings-advanced-product-reviews.md) <br/>[`Pending Reviews`](../../merchandising-promotions/product-reviews-moderate.md) <br/> |
 | `Content` | `Elements` | [`Pages`](../../content-design/pages.md)<br/>[`Hierarchy`](../../content-design/page-hierarchy.md) ![Adobe Commerce](../../assets/adobe-logo.svg)<br/>[`Blocks`](../../content-design/blocks.md)<br/>[`Dynamic Blocks`](../../content-design/dynamic-blocks.md) ![Adobe Commerce](../../assets/adobe-logo.svg)<br/>[`Widgets`](../../content-design/widgets.md)<br/>[`Media Gallery`](../../content-design/media-storage.md) |
 |                                                         | `Design` | [`Configuration`](../../content-design/configuration.md)<br/>[`Themes`](../../content-design/themes.md)<br/>[`Schedule`](../../content-design/schedule.md) |
-|                                                         | `Content Staging` ![Adobe Commerce](../../assets/adobe-logo.svg)<br /> | [ ダッシュボード ](../../content-design/content-staging.md) |
+|                                                         | `Content Staging` ![Adobe Commerce](../../assets/adobe-logo.svg)<br /> | [&#x200B; ダッシュボード &#x200B;](../../content-design/content-staging.md) |
 | `Reports` | [`Marketing`](../../getting-started/marketing-reports.md) | `Products in Cart`<br />`Search Terms`<br />`Abandoned Carts`<br />`Newsletter Problem Reports` |
 |                                                         | [`Reviews`](../../getting-started/review-reports.md) | `By Customer`<br/> `By Products`<br/> |
 |                                                         | [`Sales`](../../getting-started/sales-reports.md) | `Orders`<br/>`Tax`<br/>`Invoiced`<br/>`Shipping`<br/>`Refunds`<br/>`Coupons`<br/>`PayPal Settlement`<br/>`Braintree Settlement` |
@@ -105,7 +105,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![管理者ベース URL](./assets/admin-admin-base-url.png)<!-- zoom -->
 
-これらのオプションの設定について詳しくは、_ストアおよび購入エクスペリエンスガイド_&#x200B;の「[ ベース URL](../../stores-purchase/store-urls.md#configure-the-base-url)の設定」を参照してください。
+これらのオプションの設定について詳しくは、_ストアおよび購入エクスペリエンスガイド_&#x200B;の「[&#x200B; ベース URL](../../stores-purchase/store-urls.md#configure-the-base-url)の設定」を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -118,7 +118,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ## [!UICONTROL Security]
 
-![ セキュリティ ](./assets/admin-security.png)<!-- zoom -->
+![&#x200B; セキュリティ &#x200B;](./assets/admin-security.png)<!-- zoom -->
 
 これらのオプションの設定について詳しくは、_管理者システムガイド_&#x200B;の「[管理者セキュリティの設定](../../systems/security-admin.md)」を参照してください。
 
@@ -142,9 +142,9 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ## [!UICONTROL Dashboard]
 
-![ ダッシュボード ](./assets/admin-dashboard.png)<!-- zoom -->
+![&#x200B; ダッシュボード &#x200B;](./assets/admin-dashboard.png)<!-- zoom -->
 
-これらのオプションの設定について詳しくは、_はじめにガイド_&#x200B;の[管理者ダッシュボード ](../../getting-started/admin-dashboard.md)を参照してください。
+これらのオプションの設定について詳しくは、_はじめにガイド_&#x200B;の[管理者ダッシュボード &#x200B;](../../getting-started/admin-dashboard.md)を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |----------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
@@ -154,7 +154,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ## [!UICONTROL Admin Grids]
 
-![管理者グリッド ](./assets/admin-admin-grids.png)<!-- zoom -->
+![管理者グリッド &#x200B;](./assets/admin-admin-grids.png)<!-- zoom -->
 
 これらのオプションの設定について詳しくは、_カタログ管理ガイド_&#x200B;の「[製品表示の制限](../../catalog/products-list.md#limit-product-display)」を参照してください。
 
@@ -164,7 +164,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |-----------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Limit Number of Products in Grid] | グローバル | グリッドに表示される製品数が&#x200B;_[!UICONTROL Records Limit]_個の値に制限されているかどうかを指定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Limit Number of Products in Grid] | グローバル | グリッドに表示される製品数が&#x200B;_[!UICONTROL Records Limit]_&#x200B;個の値に制限されているかどうかを指定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Records Limit] | グローバル | 商品グリッド内の商品の数の制限を設定します。 デフォルトの最小値は`20000`です。 |
 
 ## [!UICONTROL CAPTCHA]
@@ -193,7 +193,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![管理者アクションのログ記録](./assets/admin-actions-logging.png)<!-- zoom -->
 
-これらのオプションの設定について詳しくは、_管理者システムガイド_&#x200B;の「[ アクションログアーカイブ ](../../systems/action-log-archive.md)」を参照してください。
+これらのオプションの設定について詳しくは、_管理者システムガイド_&#x200B;の「[&#x200B; アクションログアーカイブ &#x200B;](../../systems/action-log-archive.md)」を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |-----------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 会社ユーザーアカウントの管理
 
-ストアフロントでは、会社ユーザーは会社の管理者によって割り当てられ、_[!UICONTROL Company Users]_ページから表示されます。 これらの個人は通常、店舗のサービスやリソースにアクセスする権限のレベルにばらつきがある購入者です。
+ストアフロントでは、会社ユーザーは会社の管理者によって割り当てられ、_[!UICONTROL Company Users]_&#x200B;ページから表示されます。 これらの個人は通常、店舗のサービスやリソースにアクセスする権限のレベルにばらつきがある購入者です。
 
 会社管理者は、まず[会社構造](account-company-structure.md)を設定し、必要に応じて次のタスクを完了します。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
    新しいユーザーは、会社管理者と共に会社ユーザーリストに表示されます。
 
-最初の注文時の時間を節約するために、会社の管理者は、各会社のユーザーにデフォルトの会社の請求先住所と配送先住所を[ アドレス帳](../customers/account-dashboard-address-book.md)に追加するように促すことができます。
+最初の注文時の時間を節約するために、会社の管理者は、各会社のユーザーにデフォルトの会社の請求先住所と配送先住所を[&#x200B; アドレス帳](../customers/account-dashboard-address-book.md)に追加するように促すことができます。
 
 ## ユーザーを[!UICONTROL Company structure]から削除
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Remove from Structure]**&#x200B;をクリックします。
 
-   ![ ユーザーを削除](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
+   ![&#x200B; ユーザーを削除](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
 
 1. 確認を求められたら、**[!UICONTROL Remove]**&#x200B;をクリックします。
 
