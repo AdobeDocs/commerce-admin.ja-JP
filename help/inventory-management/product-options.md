@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # [!DNL Inventory Management]製品オプションの設定
 
-これらの設定は、編集した製品にのみ適用され、グローバル web サイト レベルですべての設定を上書きします。 _[!UICONTROL Sources]_&#x200B;セクションと&#x200B;_[!UICONTROL Advanced Inventory]_ ページを使用して、製品を編集する際にこれらの設定を変更します。
+これらの設定は、編集した製品にのみ適用され、グローバル web サイト レベルですべての設定を上書きします。 _[!UICONTROL Sources]_セクションと_[!UICONTROL Advanced Inventory]_ ページを使用して、製品を編集する際にこれらの設定を変更します。
 
 - ソース別の製品オプションの設定
 - 高度な在庫管理のための製品オプションの設定
 
 ## ソース別の製品オプション
 
-製品に対して[追加されたソース &#x200B;](sources-add.md)ごとの数量と追加設定を設定します。
+製品に対して[追加されたソース ](sources-add.md)ごとの数量と追加設定を設定します。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]** > **[!UICONTROL Products]**&#x200B;に移動します。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
      `Select to use Default` - [!DNL Commerce]は、製品の詳細在庫オプションで構成設定を確認します。
      `Clear to Modify` - 「数量を通知」の値を入力し、詳細在庫およびストアの設定設定を上書きします。
 
-   製品![&#128279;](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}の ソースセクション
+   製品](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}の![ ソースセクション
 
 1. 完了したら、**[!UICONTROL Done]**、**[!UICONTROL Save]**&#x200B;の順にクリックします。
 
@@ -46,13 +46,13 @@ ht-degree: 0%
 
 | フィールド | 範囲 | 説明 |
 |--|--|--|
-| [!UICONTROL Source Code] | グローバル | [&#x200B; ソース &#x200B;](sources-manage.md)の一意のコード。 |
+| [!UICONTROL Source Code] | グローバル | [ ソース ](sources-manage.md)の一意のコード。 |
 | [!UICONTROL Name] | グローバル | ソースの一意の名前。 |
 | [!UICONTROL Status] | グローバル | 製品はカタログで有効または無効になっています。 |
 | [!UICONTROL Source Item Status] | グローバル | 製品の現在の可用性を決定します。 オプション：<br />`In Stock` – 製品を購入可能にします。<br />`Out of Stock` - Backordersがアクティブ化されていない限り、製品は購入可能にならず、カタログからリストが削除されます。 |
 | [!UICONTROL Qty] | グローバル | 各ソースまたは各所在地の手持在庫量。 |
-| [!UICONTROL Notify Quantity] | グローバル | _[!UICONTROL Notify Quantity Use Default]_&#x200B;が選択されていない場合は、この特定のソースの&#x200B;_[!UICONTROL Notify for Quantity Below]_&#x200B;の金額。 |
-| [!UICONTROL Notify Quantity Use Default] | グローバル | 製品&#x200B;_[!UICONTROL Advanced Inventory]_&#x200B;の_[!UICONTROL Notify for Quantity Below]_&#x200B;のデフォルト設定またはストア設定のグローバル設定を使用することを示します。 |
+| [!UICONTROL Notify Quantity] | グローバル | _[!UICONTROL Notify Quantity Use Default]_が選択されていない場合は、この特定のソースの_[!UICONTROL Notify for Quantity Below]_&#x200B;の金額。 |
+| [!UICONTROL Notify Quantity Use Default] | グローバル | 製品&#x200B;_[!UICONTROL Advanced Inventory]_の_[!UICONTROL Notify for Quantity Below]_&#x200B;のデフォルト設定またはストア設定のグローバル設定を使用することを示します。 |
 
 ## 高度な製品オプション
 
@@ -74,9 +74,9 @@ ht-degree: 0%
 
    | 値 | 説明 |
    | ----- | ----- |
-   | 正の金額 | _[!UICONTROL Backorders]_&#x200B;が無効な場合は、正の値を入力します。 |
-   | ゼロ | _[!UICONTROL Backorders]_&#x200B;が有効になっている場合、`0`と入力すると、バックオーダーを無限に設定できます。 |
-   | マイナス金額 | _[!UICONTROL Backorders]_&#x200B;が有効になっている場合は、負の値を入力することをお勧めします。 金額が販売可能数量に追加されます。 例えば、`-50`と入力して、この金額までの注文を許可します。 |
+   | 正の金額 | _[!UICONTROL Backorders]_が無効な場合は、正の値を入力します。 |
+   | ゼロ | _[!UICONTROL Backorders]_が有効になっている場合、`0`と入力すると、バックオーダーを無限に設定できます。 |
+   | マイナス金額 | _[!UICONTROL Backorders]_が有効になっている場合は、負の値を入力することをお勧めします。 金額が販売可能数量に追加されます。 例えば、`-50`と入力して、この金額までの注文を許可します。 |
 
 1. **[!UICONTROL Minimum Qty Allowed in Shopping Cart]**&#x200B;を入力します。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
    | `Allow Qty Below 0` | 数量がゼロを下回ったときに取り寄せ注文を受け付ける。 |
    | `Allow Qty Below 0 and Notify Customer` | 数量がゼロを下回ったときに取り寄せ注文を受け付け、注文を引き続き行うことができることを顧客に通知します。 |
 
-   詳しくは、[&#x200B; バックオーダーの設定](backorders.md)を参照してください。
+   詳しくは、[ バックオーダーの設定](backorders.md)を参照してください。
 
 1. 製品の数量の増分をアクティブにするには、**[!UICONTROL Enable Qty Increments]**&#x200B;を`Yes`に設定し、**[!UICONTROL Qty Increments]** フィールドに、要件を満たすために購入する必要がある品目の数を入力します。
 

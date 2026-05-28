@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # 製品属性の作成と削除
 
-属性は、製品の作業中や&#x200B;_[!UICONTROL Product Attributes]_&#x200B;ページから作成できます。 次の手順では、_[!UICONTROL Stores]_ メニューから属性を作成する方法を示します。
+属性は、製品の作業中や&#x200B;_[!UICONTROL Product Attributes]_ページから作成できます。 次の手順では、_[!UICONTROL Stores]_ メニューから属性を作成する方法を示します。
 
 ## 手順1：基本属性プロパティの説明
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**に移動します。
 
 1. **[!UICONTROL Add New Attribute]**&#x200B;をクリックします。
 
-   ![新しい属性プロパティ &#x200B;](./assets/attribute-properties.png){width="600" zoomable="yes"}
+   ![新しい属性プロパティ ](./assets/attribute-properties.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Default Label]**&#x200B;に、属性を識別するラベルを入力します。
 
@@ -31,16 +31,16 @@ ht-degree: 0%
    | `Text Field` | テキストの1行入力フィールド。 |
    | `Text Area` | 製品説明などのテキストの段落を入力するための複数行入力フィールド。 WYSIWYG エディターを使用して、HTML タグを使用してテキストを書式設定したり、タグをテキストに直接入力したりできます。 |
    | `Text Editor` | 属性の場所に完全に機能するテキストエディター。 |
-   | 日付 | [優先形式](attributes-input-types.md#date-and-time-options)および[&#x200B; タイムゾーン &#x200B;](../getting-started/store-details.md#locale-options)に日付値を表示します。 日付値は、リストまたはカレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）から選択できます。 <br/><br/>**_Note:_**&#x200B;システム構成に応じて、_&#x200B;管理者_ ユーザーは日付をフィールドに直接入力するか、カレンダーまたはリストから日付を選択できます。 日付と時刻の値の指定について詳しくは、[日付と時刻のオプション &#x200B;](attributes-input-types.md#date-and-time-options)を参照してください。 |
+   | 日付 | [優先形式](attributes-input-types.md#date-and-time-options)および[ タイムゾーン ](../getting-started/store-details.md#locale-options)に日付値を表示します。 日付値は、リストまたはカレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）から選択できます。 <br/><br/>**_Note:_**システム構成に応じて、_&#x200B;管理者_ ユーザーは日付をフィールドに直接入力するか、カレンダーまたはリストから日付を選択できます。 日付と時刻の値の指定について詳しくは、[日付と時刻のオプション ](attributes-input-types.md#date-and-time-options)を参照してください。 |
    | `Yes/No` | `Yes`と`No`の事前定義済みオプションを含むドロップダウンリストを表示します。 |
    | `Dropdown` | 1つの選択のみを受け入れる値のドロップダウンリストを表示します。 ドロップダウン入力タイプは、[設定可能な製品](product-create-configurable.md)の主要コンポーネントです。 |
    | `Multiple Select` | 複数の選択を受け入れる値のドロップダウンリストを表示します。 |
    | `Price` | この入力タイプは、事前定義された属性に加えて、価格、特別価格、階層価格、およびコストの価格フィールドを作成するために使用されます。 使用される通貨は、システム設定によって決まります。 |
-   | `Media Image` | 商品ロゴ、ケア手順、食品ラベルの材料など、商品に追加の画像を関連付けます。 製品の属性セットにメディア画像属性を追加すると、追加の画像タイプとなり、ベース、スモール、サムネールが追加されます。 メディア画像の属性は、[&#x200B; ストアフロントメディアブラウザー](catalog-images-video.md#storefront-media-browser)から除外できます。 |
-   | `Fixed Product Tax` | ロケールの要件に基づいて[FPT レート &#x200B;](../stores-purchase/fixed-product-tax.md)を定義できます。 |
-   | `Visual Swatch` | 設定可能な製品のカラー、テクスチャ、パターンを示すスウォッチを表示します。 [&#x200B; ビジュアルスウォッチ &#x200B;](swatches.md)には、16進数のカラー値を入力するか、オプションのカラー、マテリアル、テクスチャ、パターンを表すアップロードされた画像を表示できます。 |
-   | `Text Swatch` | サイズに頻繁に使用される、設定可能な製品オプションのテキストベースの表現。 [&#x200B; テキストスウォッチ &#x200B;](swatches.md#text-based-swatches)には、16進数のカラー値も含めることができます。 |
-   | `Page Builder` | 属性の場所にある完全に機能する[&#x200B; ページビルダー](../page-builder/introduction.md) ワークスペースは、製品ページに魅力的なコンテンツを簡単に追加できます。 |
+   | `Media Image` | 商品ロゴ、ケア手順、食品ラベルの材料など、商品に追加の画像を関連付けます。 製品の属性セットにメディア画像属性を追加すると、追加の画像タイプとなり、ベース、スモール、サムネールが追加されます。 メディア画像の属性は、[ ストアフロントメディアブラウザー](catalog-images-video.md#storefront-media-browser)から除外できます。 |
+   | `Fixed Product Tax` | ロケールの要件に基づいて[FPT レート ](../stores-purchase/fixed-product-tax.md)を定義できます。 |
+   | `Visual Swatch` | 設定可能な製品のカラー、テクスチャ、パターンを示すスウォッチを表示します。 [ ビジュアルスウォッチ ](swatches.md)には、16進数のカラー値を入力するか、オプションのカラー、マテリアル、テクスチャ、パターンを表すアップロードされた画像を表示できます。 |
+   | `Text Swatch` | サイズに頻繁に使用される、設定可能な製品オプションのテキストベースの表現。 [ テキストスウォッチ ](swatches.md#text-based-swatches)には、16進数のカラー値も含めることができます。 |
+   | `Page Builder` | 属性の場所にある完全に機能する[ ページビルダー](../page-builder/introduction.md) ワークスペースは、製品ページに魅力的なコンテンツを簡単に追加できます。 |
 
    {style="table-layout:auto"}
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. [!UICONTROL Dropdown]と[!UICONTROL Multiple Select]の入力タイプの場合は、次の操作を行います。
 
-   - _[!UICONTROL Manage Options]_&#x200B;で、**[!UICONTROL Add Option]**&#x200B;をクリックします。
+   - _[!UICONTROL Manage Options]_で、**[!UICONTROL Add Option]**をクリックします。
 
    - リストに表示する最初の値を入力します。
 
@@ -68,11 +68,11 @@ ht-degree: 0%
    >
    >[!UICONTROL Attribute Code] フィールドで`type`値を使用することはお勧めしません。 `type`値はシステム使用のために予約されているため、エラーが発生する可能性があります。
 
-   ![製品属性 – 詳細プロパティ &#x200B;](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
+   ![製品属性 – 詳細プロパティ ](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
-   使用可能なオプションは、_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;設定によって異なります。
+   使用可能なオプションは、_[!UICONTROL Catalog Input Type for Store Owner]_設定によって異なります。
 
-1. **[!UICONTROL Scope]**&#x200B;を設定して、[&#x200B; ストア階層](../getting-started/websites-stores-views.md)のどこで属性を使用できるかを示します。
+1. **[!UICONTROL Scope]**&#x200B;を設定して、[ ストア階層](../getting-started/websites-stores-views.md)のどこで属性を使用できるかを示します。
 
 1. 値エントリの重複を防ぐ場合は、**[!UICONTROL Unique Value]**&#x200B;を`Yes`に設定します。
 
@@ -89,10 +89,10 @@ ht-degree: 0%
 
    ![入力検証](./assets/product-attribute-input-validation.png){width="400"}
 
-1. この属性を[製品リスト &#x200B;](products-list.md)に追加するには、次のオプションを`Yes`に設定します。
+1. この属性を[製品リスト ](products-list.md)に追加するには、次のオプションを`Yes`に設定します。
 
-   - **列オプションに追加** – 属性を列として&#x200B;_[!UICONTROL Products]_&#x200B;リストに含めます。
-   - **フィルターオプションで使用** - _[!UICONTROL Products]_&#x200B;リストの列ヘッダーにフィルターコントロールを追加します。
+   - **列オプションに追加** – 属性を列として&#x200B;_[!UICONTROL Products]_リストに含めます。
+   - **フィルターオプションで使用** - _[!UICONTROL Products]_リストの列ヘッダーにフィルターコントロールを追加します。
 
 ## 手順3：フィールドラベルを入力する
 
@@ -106,15 +106,15 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > この属性をライブサーチでファセットとして使用する場合は、ストア固有のラベルを指定する必要があります。 これを指定しないと、属性名がファセット設定ページに正しく表示されないことがあります。 設定を更新するには、_ライブ検索ガイド_&#x200B;のライブ検索ファセットリスト [&#128279;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)の編集オプションを使用して、手動でラベルを編集します。
+   > この属性をライブサーチでファセットとして使用する場合は、ストア固有のラベルを指定する必要があります。 これを指定しないと、属性名がファセット設定ページに正しく表示されないことがあります。 設定を更新するには、_ライブ検索ガイド_&#x200B;のライブ検索ファセットリスト ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)の[編集オプションを使用して、手動でラベルを編集します。
 
 ## ステップ 4：ストアフロントプロパティの記述
 
 1. 左側のナビゲーションで、**[!UICONTROL Storefront Properties]**&#x200B;を選択します。
 
-   ![製品属性 – ストアフロントのプロパティ &#x200B;](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
+   ![製品属性 – ストアフロントのプロパティ ](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
-   使用可能なオプションは、_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;設定によって異なります。
+   使用可能なオプションは、_[!UICONTROL Catalog Input Type for Store Owner]_設定によって異なります。
 
 1. 属性を検索に使用できる場合は、**[!UICONTROL Use in Search]**&#x200B;を`Yes`に設定します。
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 
 製品作成ページに属性を表示するには、その属性を特定の属性セットに追加します。
 
-1. 前の手順を完了したら、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**&#x200B;に移動します。
+1. 前の手順を完了したら、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**に移動します。
 
 1. リストで必要な属性セットを選択し、編集モードで開きます。
 
@@ -179,7 +179,7 @@ ht-degree: 0%
 
 **_属性を削除するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**に移動します。
 
 1. リストで属性を検索し、編集モードで開きます。
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 製品への属性の追加
 
-属性は主に[&#x200B; ストア &#x200B;](../stores-purchase/stores-menu.md) メニューから管理されますが、製品の作業中に新しい属性&#x200B;_を即座に_&#x200B;追加することもできます。 既存の属性のリストから選択するか、属性を作成できます。 新しい属性が、製品のベースとなる[属性セット &#x200B;](../catalog/attribute-sets.md)に追加されます。
+属性は主に[ ストア ](../stores-purchase/stores-menu.md) メニューから管理されますが、製品の作業中に新しい属性&#x200B;_を即座に_&#x200B;追加することもできます。 既存の属性のリストから選択するか、属性を作成できます。 新しい属性が、製品のベースとなる[属性セット ](../catalog/attribute-sets.md)に追加されます。
 
 ## 手順1：属性の追加
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    ![既定の属性が設定された新製品](./assets/product-attribute-add.png){width="600" zoomable="yes"}
 
-1. 既存の属性を製品に追加するには、[&#x200B; フィルターコントロール &#x200B;](../getting-started/admin-grid-controls.md)を使用してグリッド内の属性を検索し、次の操作を行います。
+1. 既存の属性を製品に追加するには、[ フィルターコントロール ](../getting-started/admin-grid-controls.md)を使用してグリッド内の属性を検索し、次の操作を行います。
 
    - 追加する各属性の最初の列のチェックボックスを選択します。
 
@@ -34,9 +34,9 @@ ht-degree: 0%
 
 ## 手順2：基本属性プロパティの説明
 
-![属性プロパティ &#x200B;](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
+![属性プロパティ ](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Attribute Properties]_&#x200B;の下に&#x200B;**[!UICONTROL Attribute Label]**&#x200B;を入力して、属性を識別します。
+1. _[!UICONTROL Attribute Properties]_の下に&#x200B;**[!UICONTROL Attribute Label]**を入力して、属性を識別します。
 
 1. データ入力に使用する&#x200B;**[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;を[入力制御](attributes-input-types.md)の型に設定します。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## 手順3：詳細プロパティの説明（オプション）
 
-![高度な属性プロパティ &#x200B;](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
+![高度な属性プロパティ ](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
 1. 小文字でスペースなしで一意の&#x200B;**[!UICONTROL Attribute Code]**&#x200B;を入力してください。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 1. 属性を製品グリッドの列として含める場合は、**[!UICONTROL Add to Column Options]**&#x200B;を`Yes`に設定します。
 
-1. この列で&#x200B;_[!UICONTROL Products]_&#x200B;グリッドをフィルタリングする場合は、**[!UICONTROL Use in Filter Options]**&#x200B;を`Yes`に設定します。
+1. この列で&#x200B;_[!UICONTROL Products]_グリッドをフィルタリングする場合は、**[!UICONTROL Use in Filter Options]**を`Yes`に設定します。
 
 ## 手順4：フィールドラベルを入力する
 
@@ -95,17 +95,17 @@ ht-degree: 0%
 
    ストアが異なる言語で利用可能な場合は、各ビューに翻訳されたタイトルを入力できます。
 
-   ![&#x200B; タイトルの管理](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
+   ![ タイトルの管理](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   > この属性をライブサーチでファセットとして使用する場合は、ストア固有のラベルを指定する必要があります。 これを指定しないと、属性名がファセット設定ページに正しく表示されないことがあります。 設定を更新するには、_ライブ検索ガイド_&#x200B;のライブ検索ファセットリスト [&#128279;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)の編集オプションを使用して、手動でラベルを編集します。
+   > この属性をライブサーチでファセットとして使用する場合は、ストア固有のラベルを指定する必要があります。 これを指定しないと、属性名がファセット設定ページに正しく表示されないことがあります。 設定を更新するには、_ライブ検索ガイド_&#x200B;のライブ検索ファセットリスト ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)の[編集オプションを使用して、手動でラベルを編集します。
 
 ## 手順5：ストアフロントのプロパティの記述
 
 1. **[!UICONTROL Storefront Properties]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; ストアフロントのプロパティ &#x200B;](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
+   ![ ストアフロントのプロパティ ](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
 1. 属性を検索で利用できるようにするには、**[!UICONTROL Use in Search]**&#x200B;を`Yes`に設定します。
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Use in Search]_&#x200B;設定が`No`に設定されている場合、_[!UICONTROL Use in Search Results Layered Navigation]_&#x200B;設定は表示されず、製品属性は[!UICONTROL Use in Layered Navigation]設定値を含む検索では使用されません。
+   >_[!UICONTROL Use in Search]_設定が`No`に設定されている場合、_[!UICONTROL Use in Search Results Layered Navigation]_&#x200B;設定は表示されず、製品属性は[!UICONTROL Use in Layered Navigation]設定値を含む検索では使用されません。
 
 1. 検索結果ページの階層化されたナビゲーションで属性を使用するには、**[!UICONTROL Use in Search Results Layered Navigation]**&#x200B;を`Yes`に設定し、**[!UICONTROL Position]** フィールドに数値を入力します。
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Position]_&#x200B;フィールドは既定でグレー表示になっており、この設定を変更する前に属性を保存する必要があります。
+   >_[!UICONTROL Position]_フィールドは既定でグレー表示になっており、この設定を変更する前に属性を保存する必要があります。
 
 1. 価格ルールで属性を使用するには、**[!UICONTROL Use for Promo Rule Conditions]**&#x200B;を`Yes`に設定します。
 

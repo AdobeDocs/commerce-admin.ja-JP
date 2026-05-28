@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 顧客アカウントの管理
 
-_[!UICONTROL Customers]_&#x200B;グリッドを使用して、任意の顧客アカウントを検索します。 標準の[職場向けコントロール &#x200B;](../getting-started/admin-workspace.md)を使用して、リストのフィルタリング、[列レイアウト &#x200B;](../getting-started/admin-grid-controls.md)の変更、ビューの保存、データの書き出しを行うことができます。 グリッドの上の[&#x200B; アクション コントロール &#x200B;](../getting-started/admin-actions-control.md)を使用して、操作を複数の顧客レコードに適用できます。
+_[!UICONTROL Customers]_グリッドを使用して、任意の顧客アカウントを検索します。 標準の[職場向けコントロール ](../getting-started/admin-workspace.md)を使用して、リストのフィルタリング、[列レイアウト ](../getting-started/admin-grid-controls.md)の変更、ビューの保存、データの書き出しを行うことができます。 グリッドの上の[ アクション コントロール ](../getting-started/admin-actions-control.md)を使用して、操作を複数の顧客レコードに適用できます。
 
 ![すべてのお客様](assets/customers-all-customers.png){width="700" zoomable="yes"}
 
@@ -33,7 +33,7 @@ _[!UICONTROL Customers]_&#x200B;グリッドを使用して、任意の顧客ア
 
 ### ニュースレターを購読
 
-グローバルな[顧客アカウントスコープ &#x200B;](../customers/customer-account-scope.md)を持つマルチストアおよびマルチサイトの設定では、顧客アカウントを複数のサイトまたはストアのニュースレターに購読できます。 _購読_ アクションを顧客アカウントに適用すると、デフォルトのサイト/ストアビューでのみニュースレターサブスクリプションがアクティブになります。
+グローバルな[顧客アカウントスコープ ](../customers/customer-account-scope.md)を持つマルチストアおよびマルチサイトの設定では、顧客アカウントを複数のサイトまたはストアのニュースレターに購読できます。 _購読_ アクションを顧客アカウントに適用すると、デフォルトのサイト/ストアビューでのみニュースレターサブスクリプションがアクティブになります。
 
 * **[!UICONTROL Actions]** コントロールを`Subscribe to newsletter`に設定します。
 
@@ -41,7 +41,7 @@ _[!UICONTROL Customers]_&#x200B;グリッドを使用して、任意の顧客ア
 
 ### ニュースレターの購読を解除
 
-グローバルな[顧客アカウントスコープ &#x200B;](customer-account-scope.md)を持つマルチストアおよびマルチサイト設定では、顧客アカウントを複数のサイト/ストアのニュースレターに購読できます。 顧客アカウントに&#x200B;_登録解除_ アクションを適用すると、アクティブなすべてのサブスクリプションが登録解除されます。
+グローバルな[顧客アカウントスコープ ](customer-account-scope.md)を持つマルチストアおよびマルチサイト設定では、顧客アカウントを複数のサイト/ストアのニュースレターに購読できます。 顧客アカウントに&#x200B;_登録解除_ アクションを適用すると、アクティブなすべてのサブスクリプションが登録解除されます。
 
 1. **[!UICONTROL Actions]** コントロールを`Unsubscribe to newsletter`に設定します。
 
@@ -116,7 +116,7 @@ _[!UICONTROL Customers]_&#x200B;グリッドを使用して、任意の顧客ア
 
 ### その他の列
 
-これらの列は、グリッドの[列レイアウト &#x200B;](../getting-started/admin-grid-controls.md)を変更することで使用できます。
+これらの列は、グリッドの[列レイアウト ](../getting-started/admin-grid-controls.md)を変更することで使用できます。
 
 | 列 | 説明 |
 |--- |--- |
@@ -128,8 +128,8 @@ _[!UICONTROL Customers]_&#x200B;グリッドを使用して、任意の顧客ア
 | **[!UICONTROL Billing Lastname]** | 顧客の請求先住所の姓。 |
 | **[!UICONTROL Billing Address]** | 請求情報を送信するアドレス。 |
 | **[!UICONTROL Shipping Address]** | 注文が発送される住所。 |
-| **[!UICONTROL VAT Number]** | 顧客アドレスに関連付けられている付加価値税番号。 EUで販売された[&#x200B; デジタル商品](../stores-purchase/taxes.md)の場合、VATは顧客の請求先住所に基づきます。<br/><br/> このフィールドは、税金/VAT番号と同じではありません。 |
-| **[!UICONTROL Account Lock]** | アカウントのステータスを示します。 セキュリティ対策として、ログインの試行回数が多すぎると、顧客アカウントが[&#x200B; ロック &#x200B;](../customers/password-options.md)される可能性があります。 値：`Locked` / `Unlocked` |
+| **[!UICONTROL VAT Number]** | 顧客アドレスに関連付けられている付加価値税番号。 EUで販売された[ デジタル商品](../stores-purchase/taxes.md)の場合、VATは顧客の請求先住所に基づきます。<br/><br/> このフィールドは、税金/VAT番号と同じではありません。 |
+| **[!UICONTROL Account Lock]** | アカウントのステータスを示します。 セキュリティ対策として、ログインの試行回数が多すぎると、顧客アカウントが[ ロック ](../customers/password-options.md)される可能性があります。 値：`Locked` / `Unlocked` |
 | **[!UICONTROL Status]** | 現在のユーザーステータス。 オプション：`Active` / `Inactive` |
 | **[!UICONTROL Customer Type]** | 顧客の分類： オプション：`Individual user` / `Company admin` / `Company user` |
 | **[!UICONTROL Sales Representative]** | 会社アカウントの連絡先として割り当てられ、会社に関連するすべての自動メールメッセージを受け取る営業担当者。 |

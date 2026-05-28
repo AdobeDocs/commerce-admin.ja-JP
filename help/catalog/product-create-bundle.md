@@ -17,7 +17,7 @@ ht-degree: 0%
 - [シンプルな製品](product-create-simple.md)
 - [バーチャル商品](product-create-virtual.md)
 
-![&#x200B; バンドル製品](./assets/product-bundle.png){width="700" zoomable="yes"}
+![ バンドル製品](./assets/product-bundle.png){width="700" zoomable="yes"}
 
 お客様が&#x200B;**[!UICONTROL Customize]**&#x200B;または&#x200B;**[!UICONTROL Add to Cart]**&#x200B;のいずれかをクリックすると、オプションが表示されます。 バンドルに含まれる製品は異なるため、SKU、価格、および重量は動的または固定値に設定できます。
 
@@ -31,28 +31,28 @@ ht-degree: 0%
 
 [即時購入](../stores-purchase/checkout-instant-purchase.md)が利用可能な場合、バンドル内の各商品の「_買い物かごに追加_」ボタンの下に「_即時購入_」ボタンが表示されます。
 
-![&#x200B; バンドルをカスタマイズ &#x200B;](./assets/product-bundle-customize.png){width="600" zoomable="yes"}
+![ バンドルをカスタマイズ ](./assets/product-bundle-customize.png){width="600" zoomable="yes"}
 
-次の手順では、[製品テンプレート &#x200B;](attribute-sets.md)、必須フィールド、および基本設定を使用してバンドル製品を作成する手順を説明します。 各必須フィールドには、赤いアスタリスク （`*`）が付いています。 基本的な設定が完了したら、必要に応じて他の製品設定を完了できます。
+次の手順では、[製品テンプレート ](attribute-sets.md)、必須フィールド、および基本設定を使用してバンドル製品を作成する手順を説明します。 各必須フィールドには、赤いアスタリスク （`*`）が付いています。 基本的な設定が完了したら、必要に応じて他の製品設定を完了できます。
 
 ## 手順1：商品タイプの選択
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]** > **[!UICONTROL Products]**&#x200B;に移動します。
 
-1. _[!UICONTROL Add Product]_（![&#x200B; メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューの右上隅にある「**[!UICONTROL Bundle Product]**」を選択します。
+1. _[!UICONTROL Add Product]_（![ メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューの右上隅にある「**[!UICONTROL Bundle Product]**」を選択します。
 
-   ![&#x200B; バンドル製品を追加](./assets/product-add-bundle.png){width="700" zoomable="yes"}
+   ![ バンドル製品を追加](./assets/product-add-bundle.png){width="700" zoomable="yes"}
 
 ## 手順2：属性セットの選択
 
-製品のテンプレートとして使用される[属性セット &#x200B;](attribute-sets.md)を選択するには、次のいずれかの操作を行います。
+製品のテンプレートとして使用される[属性セット ](attribute-sets.md)を選択するには、次のいずれかの操作を行います。
 
 - **[!UICONTROL Search]**&#x200B;に、属性セットの名前を入力します。
 - リストで、使用する属性セットを選択します。
 
 フォームが更新され、変更が反映されます。
 
-![&#x200B; テンプレートを選択](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
+![ テンプレートを選択](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
 
 ## 手順3：必要な設定を完了する
 
@@ -82,11 +82,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;をクリックして続行します。
 
-   商品を保存すると、左上隅に「[&#x200B; ストアビュー](introduction.md#product-scope)」の選択画面が表示されます。
+   商品を保存すると、左上隅に「[ ストアビュー](introduction.md#product-scope)」の選択画面が表示されます。
 
 1. 製品を利用できる&#x200B;**[!UICONTROL Store View]**&#x200B;を選択します。
 
-   ![&#x200B; ストアビューを選択](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![ ストアビューを選択](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## 手順4：基本設定を完了する
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 1. `Catalog, Search`の既定の&#x200B;**[!UICONTROL Visibility]**&#x200B;設定を受け入れます。
 
-1. _[!UICONTROL Categories]_&#x200B;を製品に割り当てるには、**[!UICONTROL Select…]**&#x200B;ボックスをクリックし、次のいずれかの操作を行います。
+1. _[!UICONTROL Categories]_を製品に割り当てるには、**[!UICONTROL Select…]**ボックスをクリックし、次のいずれかの操作を行います。
 
    **既存のカテゴリを選択：**
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
    - 割り当てる各カテゴリのチェックボックスをオンにします。
 
-   ![&#x200B; バンドル製品の1つ以上のカテゴリを選択](./assets/product-create-categories.png){width="600" zoomable="yes"}
+   ![ バンドル製品の1つ以上のカテゴリを選択](./assets/product-create-categories.png){width="600" zoomable="yes"}
 
    **カテゴリを作成：**
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 「_[!UICONTROL Bundle Items]_」セクションは、バンドル製品タイプに項目を追加し、現在の項目の選択を編集するために使用されます。
 
-![製品に定義されたバンドルアイテム &#x200B;](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
+![製品に定義されたバンドルアイテム ](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
 1. _バンドルアイテム_ セクションまでスクロールし、**[!UICONTROL Ship Bundle Items]**&#x200B;を次のいずれかに設定します。
 
@@ -180,25 +180,25 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >数量は、プリセットまたはユーザー定義の値にすることができます。 ただし、チェックボックスまたは複数選択の入力タイプに&#x200B;_[!UICONTROL User Defined]_&#x200B;プロパティを割り当てないでください。
+     >数量は、プリセットまたはユーザー定義の値にすることができます。 ただし、チェックボックスまたは複数選択の入力タイプに&#x200B;_[!UICONTROL User Defined]_プロパティを割り当てないでください。
 
      デフォルトでは、バンドル項目に含まれるデフォルトの数量は、お客様が変更することはできません。 ただし、お客様は、バンドルに含める品目の数量を入力できます。
 
      例えば、スプライトステータスボールのデフォルト数量が`2`に設定され、顧客がそのバンドルオプションの`4`を注文した場合、購入されたボールの合計数は`8`となります。
 
-     ![&#x200B; アイテムの詳細](./assets/product-bundle-item-detail.png){width="600" zoomable="yes"}
+     ![ アイテムの詳細](./assets/product-bundle-item-detail.png){width="600" zoomable="yes"}
 
 1. バンドルに追加するアイテムごとに、これらの手順を繰り返します。
 
-1. バンドルセクション内のアイテムの順序を変更するには、行の先頭にある&#x200B;_移動_ （![移動アイコン &#x200B;](../assets/icon-move.png)）アイコンをクリックし、アイテムを位置にドラッグします。
+1. バンドルセクション内のアイテムの順序を変更するには、行の先頭にある&#x200B;_移動_ （![移動アイコン ](../assets/icon-move.png)）アイコンをクリックし、アイテムを位置にドラッグします。
 
-   ![&#x200B; バンドルアイテムの順序を変更](./assets/product-bundle-items-move.png){width="600" zoomable="yes"}
+   ![ バンドルアイテムの順序を変更](./assets/product-bundle-items-move.png){width="600" zoomable="yes"}
 
-   アイテムの順序は、書き出されたバンドル製品のデータで変更してから、カタログに再インポートすることもできます。 詳しくは、[&#x200B; バンドル製品の読み込み](../systems/data-transfer-bundle-products.md)を参照してください。
+   アイテムの順序は、書き出されたバンドル製品のデータで変更してから、カタログに再インポートすることもできます。 詳しくは、[ バンドル製品の読み込み](../systems/data-transfer-bundle-products.md)を参照してください。
 
    ワークスペースをより詳細に表示するには、最初に各セクションを折りたたんでからドラッグします。
 
-1. バンドルからアイテムを削除するには、**[!UICONTROL Delete]** （![&#x200B; ゴミ箱アイコン &#x200B;](../assets/icon-delete-trashcan.png)）アイコンをクリックします。
+1. バンドルからアイテムを削除するには、**[!UICONTROL Delete]** （![ ゴミ箱アイコン ](../assets/icon-delete-trashcan.png)）アイコンをクリックします。
 
 1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -225,7 +225,7 @@ ht-degree: 0%
 
    - 右上隅の「**[!UICONTROL Save]**」をクリックします。
 
-   - ストア内の商品を表示するには、_管理者_ （![&#x200B; メニュー矢印](../assets/icon-menu-down-arrow-black.png)）メニューで&#x200B;**[!UICONTROL Customer View]**&#x200B;を選択します。
+   - ストア内の商品を表示するには、_管理者_ （![ メニュー矢印](../assets/icon-menu-down-arrow-black.png)）メニューで&#x200B;**[!UICONTROL Customer View]**&#x200B;を選択します。
 
      ストアが新しいブラウザータブで開きます。
 
@@ -233,15 +233,15 @@ ht-degree: 0%
 
    **方法2:**&#x200B;保存して閉じる
 
-   _[!UICONTROL Save]_（![&#x200B; メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューで、**[!UICONTROL Save & Close]**&#x200B;を選択します。
+   _[!UICONTROL Save]_（![ メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューで、**[!UICONTROL Save & Close]**を選択します。
 
 ## 入力コントロール
 
 | 制御 | 説明 | 例 |
 |--- |--- |--- |
-| [!UICONTROL Drop-down] | 商品名と価格を含むオプションのドロップダウンリストを表示します。 選択できる項目は1つだけです。 | ![&#x200B; ドロップダウン &#x200B;](./assets/product-bundle-input-type-drop-down.png){width="200"} |
-| [!UICONTROL Radio Buttons] | オプションごとにラジオボタンを表示し、その後に製品名と価格を表示します。 選択できる項目は1つだけです。 | ![&#x200B; ラジオボタン &#x200B;](./assets/product-bundle-input-type-radio-buttons.png){width="200"} |
-| [!UICONTROL Checkbox] | 各オプションのチェックボックスを表示し、その後に製品名と価格を表示します。 複数の項目を選択できます。 | ![&#x200B; チェックボックス &#x200B;](./assets/product-bundle-input-type-checkbox.png){width="200"} |
+| [!UICONTROL Drop-down] | 商品名と価格を含むオプションのドロップダウンリストを表示します。 選択できる項目は1つだけです。 | ![ ドロップダウン ](./assets/product-bundle-input-type-drop-down.png){width="200"} |
+| [!UICONTROL Radio Buttons] | オプションごとにラジオボタンを表示し、その後に製品名と価格を表示します。 選択できる項目は1つだけです。 | ![ ラジオボタン ](./assets/product-bundle-input-type-radio-buttons.png){width="200"} |
+| [!UICONTROL Checkbox] | 各オプションのチェックボックスを表示し、その後に製品名と価格を表示します。 複数の項目を選択できます。 | ![ チェックボックス ](./assets/product-bundle-input-type-checkbox.png){width="200"} |
 | [!UICONTROL Multiple Select] | 商品名と価格を含むオプションのリストを表示します。 複数の項目を選択するには、Ctrl キー（PC）またはCommand キー（Mac）を押しながら、各項目をクリックします。 | ![複数選択](./assets/product-bundle-input-type-multiple-select.png){width="200"} |
 
 {style="table-layout:auto"}
@@ -275,18 +275,18 @@ ht-degree: 0%
 
 ![Checkbox](../assets/checkbox.png)のお客様は、独自の&#x200B;_バンドル製品を_ ビルドできます。
 
-![&#x200B; チェックボックス &#x200B;](../assets/checkbox.png)すべての子製品は、すべてのweb サイト、ストア、およびストア ビューに対して、バンドル製品&#x200B;**_グローバル_**&#x200B;から同時に割り当ておよび割り当て解除されます。
+![ チェックボックス ](../assets/checkbox.png)すべての子製品は、すべてのweb サイト、ストア、およびストア ビューに対して、バンドル製品&#x200B;**_グローバル_**&#x200B;から同時に割り当ておよび割り当て解除されます。
 
-![&#x200B; チェックボックス &#x200B;](../assets/checkbox.png) バンドルアイテムは、カスタムオプションを持たないシンプルな製品または仮想製品にすることができます。
+![ チェックボックス ](../assets/checkbox.png) バンドルアイテムは、カスタムオプションを持たないシンプルな製品または仮想製品にすることができます。
 
-![&#x200B; チェックボックス &#x200B;](../assets/checkbox.png)価格表示は、`Price Range`または`As Low As`のいずれかに設定できます。
+![ チェックボックス ](../assets/checkbox.png)価格表示は、`Price Range`または`As Low As`のいずれかに設定できます。
 
-![&#x200B; チェックボックス &#x200B;](../assets/checkbox.png) SKUと重みは`Fixed`または`Dynamic`のいずれかです。
+![ チェックボックス ](../assets/checkbox.png) SKUと重みは`Fixed`または`Dynamic`のいずれかです。
 
-![&#x200B; チェックボックス &#x200B;](../assets/checkbox.png)数量は、プリセットまたはユーザー定義の値にすることができます。 ただし、チェックボックスまたは複数選択の入力タイプに&#x200B;_[!UICONTROL User Defined]_&#x200B;プロパティを割り当てないでください。
+![ チェックボックス ](../assets/checkbox.png)数量は、プリセットまたはユーザー定義の値にすることができます。 ただし、チェックボックスまたは複数選択の入力タイプに&#x200B;_[!UICONTROL User Defined]_プロパティを割り当てないでください。
 
-![&#x200B; チェックボックス &#x200B;](../assets/checkbox.png) バンドルアイテムは、一緒に配送することも、別々に配送することもできます。
+![ チェックボックス ](../assets/checkbox.png) バンドルアイテムは、一緒に配送することも、別々に配送することもできます。
 
-![&#x200B; チェックボックス &#x200B;](../assets/checkbox.png)親バンドル製品は、すべての子製品に対して常にアップセル製品として自動的に表示されます。
+![ チェックボックス ](../assets/checkbox.png)親バンドル製品は、すべての子製品に対して常にアップセル製品として自動的に表示されます。
 
-![&#x200B; チェックボックス &#x200B;](../assets/checkbox.png) [!UICONTROL Special Price]および[!UICONTROL Customer Group Price] （階層の価格）は、すべてのバンドル製品タイプの割引率として常に設定されます。
+![ チェックボックス ](../assets/checkbox.png) [!UICONTROL Special Price]および[!UICONTROL Customer Group Price] （階層の価格）は、すべてのバンドル製品タイプの割引率として常に設定されます。
