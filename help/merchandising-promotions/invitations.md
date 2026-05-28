@@ -1,149 +1,149 @@
 ---
-title: イベント招待状
-description: 顧客がイベントや個人販売への招待状を顧客アカウントのダッシュボードから送信および表示する方法について説明します。
+title: イベントへの招待
+description: 顧客アカウントのダッシュボードから、イベントやプライベートセールスへの招待状を送信および表示する方法について説明します。
 exl-id: 6a9123a0-bdb4-4cd6-99cd-658f728aa90c
 feature: Promotions/Events, Communications
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
 
-# イベント招待状
+# イベントへの招待
 
 {{ee-feature}}
 
-招待状を有効にすると、顧客は、顧客アカウントのダッシュボードから招待状を送信および表示できます。 招待メールには、ストアのカスタマーログインページへのリンクが含まれています。
+招待が有効になっている場合、顧客は顧客アカウントのダッシュボードから招待を送信および表示できます。 招待状のメールには、ストアの顧客ログインページへのリンクが含まれています。
 
-## マイ招待状
+## 自分の招待
 
-顧客アカウントの「_[!UICONTROL My Invitations]_」セクションには、顧客から送信されたすべての招待状が一覧表示されます。 お客様は、店舗のイベント、ギフト登録、ウィッシュリストなどに関する招待状を友人や家族に送信できます。
+顧客アカウントの&#x200B;_[!UICONTROL My Invitations]_セクションには、顧客から送信されたすべての招待が一覧表示されます。 顧客は、店舗イベント、ギフトレジストリ、ウィッシュリストなどの招待を友人や家族に送信できます。
 
-![&#x200B; 招待状 &#x200B;](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
+![自分の招待状](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 
 ### 招待ワークフロー
 
-1. **顧客が招待状を準備**: アカウントダッシュボードから、顧客が受信者のリストを準備して招待状を完了します。 設定に応じて、カスタムメッセージを含めることができます。
-1. **顧客が招待状を送信**：準備が整ったら、「_[!UICONTROL Send Invitations]_」ボタンをクリックします。
-1. **システムが送信を管理**：システムは、設定に設定された数に応じて、招待をバッチで送信します。
-1. **顧客モニター応答**：顧客は、アカウントダッシュボードから各招待のステータス（`Sent`、`Accepted`、`Canceled` など）をモニターします。
+1. **お客様が招待状を準備**: アカウントダッシュボードから、お客様が受信者のリストを準備し、招待を完了します。 設定に応じて、カスタムメッセージを含めることができます。
+1. **お客様が招待を送信する**：準備ができたら、お客様は&#x200B;_[!UICONTROL Send Invitations]_ボタンをクリックします。
+1. **システムは送信を管理します**: システムは、設定で設定された番号に従って、一括で招待を送信します。
+1. **お客様は応答を監視します**：お客様は、アカウントダッシュボードの各招待のステータスを`Sent`、`Accepted`、または`Canceled`として監視します。
 
 ### 招待状を送信
 
-1. ストアフロントのアカウントのサイドバーで、顧客は **[!UICONTROL My Invitations]** を選択します。
+1. ストアフロントのアカウントのサイドバーで、顧客は&#x200B;**[!UICONTROL My Invitations]**&#x200B;を選択します。
 
-1. _マイ招待_ ページで、[**[!UICONTROL Send Invitation]**] をクリックします。
+1. _自分の招待_ ページで、**[!UICONTROL Send Invitation]**&#x200B;をクリックします。
 
-1. 新しい招待状項目を定義します。
+1. 新しい招待アイテムを定義します。
 
-   - 電子メール情報を完了します。
+   - 電子メール情報を入力します。
 
-   - （任意） **+** をクリックして別のメールアドレスを追加することで、複数アドレスからの招待を作成します。
+   - （オプション）「**+**」をクリックし、別の電子メールアドレスを追加して、複数アドレスの招待を作成します。
 
-     1 人の招待メールには 5 つのメールアドレス制限があります。
+     1回の招待には、5つの電子メールアドレスの制限があります。
 
-   - （任意）付随するメッセージを入力します。
+   - （オプション）添付メッセージを入力します。
 
-1. 完了したら、「**[!UICONTROL Send Invitation]**」をクリックします。
+1. 完了したら、**[!UICONTROL Send Invitation]**&#x200B;をクリックします。
 
-招待されたユーザーのメールアドレスに、アカウントを設定するための指示リンクと共に招待通知が送信されます。
+招待の通知は、アカウントを設定するための手順リンクを含む招待ユーザーの電子メールアドレスに送信されます。
 
 >[!NOTE]
 >
->ユーザーは、特定のメールアドレスに 1 つの招待状のみを送信できます。 同じ E メール アドレスに招待状を再送信しようとすると、エラーメッセージが表示され、招待状は送信されません。
+>ユーザーは、特定の電子メールアドレスに1つの招待状のみを送信できます。 同じ電子メールアドレスに招待状を再送信しようとすると、エラーメッセージが表示され、招待状は送信されません。
 
-## ストアへの招待を有効にする
+## ストアの招待を有効にする
 
-招待状設定では、ストアの招待が有効になり、招待状の送信方法が決定されます。
+招待の設定により、ストアの招待が有効になり、その送信方法が決まります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Invitations]**」を選択します。
+1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Invitations]**&#x200B;を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL General]**」セクションを展開します。
+1. **[!UICONTROL General]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; 顧客の設定 – 招待状の一般オプション &#x200B;](../configuration-reference/customers/assets/invitations-general.png){width="600" zoomable="yes"}
+   ![お客様の設定 – 招待状の一般的なオプション ](../configuration-reference/customers/assets/invitations-general.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Enable Invitations Functionality]** を `Yes` に設定します。
+1. **[!UICONTROL Enable Invitations Functionality]**&#x200B;を`Yes`に設定します。
 
-1. 顧客がストアフロントからの招待を管理できるようにするには、**ストアフロントでの招待を有効にする** を `Yes` に設定します。
+1. お客様がストアフロントから招待を管理できるようにするには、**ストアフロントで招待を有効にする**&#x200B;から`Yes`に設定します。
 
-1. **[!UICONTROL Referred Customer Group]** を次のいずれかに設定します。
+1. **[!UICONTROL Referred Customer Group]**&#x200B;を次のいずれかに設定します：
 
    - `Same as Inviter`
    - `Default Customer Group from Configuration`
 
-1. **[!UICONTROL New Accounts Registration]** を次のいずれかに設定します。
+1. **[!UICONTROL New Accounts Registration]**&#x200B;を次のいずれかに設定します：
 
    - `By Invitation Only`
    - `Available to All`
 
-1. **[!UICONTROL Allow Customers to Add Custom Message to Invitation Email]** するには、「`Yes`」を選択します。
+1. **[!UICONTROL Allow Customers to Add Custom Message to Invitation Email]**&#x200B;に対して、`Yes`を選択します。
 
-1. 一度に送信できる招待の数を制限するには、「**[!UICONTROL Max Invitations Allowed to be Sent at One Time]**」フィールドに数を入力します。
+1. 一度に送信できる招待状の数を制限するには、**[!UICONTROL Max Invitations Allowed to be Sent at One Time]** フィールドに番号を入力します。
 
-1. **[!UICONTROL Email]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Email]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
-   ![&#x200B; 顧客の設定 – 招待メールのオプション &#x200B;](../configuration-reference/customers/assets/invitations-email.png){width="600" zoomable="yes"}
+   ![お客様の設定 – 招待メールのオプション ](../configuration-reference/customers/assets/invitations-email.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Customer Invitation Email Sender]** として使用するストア ID を選択します。
+   - **[!UICONTROL Customer Invitation Email Sender]**&#x200B;として使用するストア IDを選択してください。
 
-   - 送信する招待状に使用する **[!UICONTROL Customer Invitation Email Template]** を選択します。
+   - 招待の送信に使用する&#x200B;**[!UICONTROL Customer Invitation Email Template]**&#x200B;を選択します。
 
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-## 管理画面での招待状の送信と管理
+## 管理者での招待の送信と管理
 
-[[&#x200B; プライベート販売レポート &#x200B;](../getting-started/private-sales-reports.md)] セクションでは、指定した期間に送信された招待状の数、または招待状を送信した顧客を確認できます。
+[個人向けセールスレポート ](../getting-started/private-sales-reports.md) セクションでは、指定した期間に送信された招待状の数、または招待状を送信した顧客の数を確認できます。
 
-### 管理者での招待状の作成
+### 管理者に招待を作成する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invitations]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Invitations]**」をクリックします。
 
-1. 次の画面で、新規顧客の招待、カスタムメッセージの追加、送信者の選択、招待グループの選択を行うためのメールアドレスを入力します。
+1. 次の画面で、メールアドレスを入力して新規顧客を招待し、カスタムメッセージを追加して送信者を選択し、招待グループを選択します。
 
-   複数のストア表示がある場合は、**[!UICONTROL Send From]** オプションを使用して、招待状の送信元のストア表示を指定します。
+   複数のストアビューがある場合は、**[!UICONTROL Send From]** オプションを使用して、招待の送信元となるストアビューを指定します。
 
-   ![&#x200B; 招待事項 &#x200B;](./assets/create-invitation-page.png){width="700" zoomable="yes"}
+   ![招待状の情報](./assets/create-invitation-page.png){width="700" zoomable="yes"}
 
-1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-### 単一エンティティの招待を破棄
+### 単一エンティティの招待を破棄する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invitations]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**に移動します。
 
 1. フィルターを使用して必要な招待を見つけ、編集モードで開きます。
 
 1. 右上隅の「**[!UICONTROL Discard Invitation]**」をクリックします。
 
-1. アクションを確定するには、「**[!UICONTROL OK]**」をクリックします。
+1. アクションを確認するには、**[!UICONTROL OK]**&#x200B;をクリックします。
 
-### 複数のエンティティの招待を破棄
+### 複数のエンティティの招待を破棄する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Private Sales]_/**[!UICONTROL Invitations]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**に移動します。
 
 1. 破棄する招待を検索して選択します。
 
-1. 左上で、**[!UICONTROL Actions]** メニューを使用して **[!UICONTROL Discard Selected]** を選択し、「**[!UICONTROL Submit]**」をクリックします。
+1. 左上の&#x200B;**[!UICONTROL Actions]** メニューを使用して&#x200B;**[!UICONTROL Discard Selected]**&#x200B;を選択し、**[!UICONTROL Submit]**&#x200B;をクリックします。
 
-1. アクションを確定するには、「**[!UICONTROL OK]**」をクリックします。
+1. アクションを確認するには、**[!UICONTROL OK]**&#x200B;をクリックします。
 
 ### フィールドの説明
 
 | フィールド | 説明 |
 |--- |--- |
-| [!UICONTROL Select] | チェックボックスを選択してアクションの対象となる招待を選択するか、列ヘッダーの選択コントロールを使用します。 オプション：`Select All` /` Deselect All` / `Select Visible` / `Unselect Visible` |
-| [!UICONTROL ID] | 招待の内部 ID 番号 |
-| [!UICONTROL Email] | 対応する顧客の電子メールアドレス |
-| [!UICONTROL Invitee] | 招待ユーザーのメール |
+| [!UICONTROL Select] | チェックボックスを選択して、アクションの対象となる招待を選択するか、列ヘッダーの選択コントロールを使用します。 オプション：`Select All` /` Deselect All` / `Select Visible` / `Unselect Visible` |
+| [!UICONTROL ID] | 招待の内部ID番号 |
+| [!UICONTROL Email] | 対応する顧客のメールアドレス |
+| [!UICONTROL Invitee] | 招待されたユーザーのメール |
 | [!UICONTROL Sent] | 招待状が送信された日時 |
-| [!UICONTROL Registered] | 顧客が登録された時刻とデータ |
-| [!UICONTROL Status] | 招待状の状態。 オプション：`Sent`/`Not Sent`/`Accepted`/`Discarded` |
-| [!UICONTROL Valid Website] | 対応する web サイト |
+| [!UICONTROL Registered] | 顧客が登録された時間とデータ |
+| [!UICONTROL Status] | 招待ステータス： オプション：`Sent` / `Not Sent` / `Accepted` / `Discarded` |
+| [!UICONTROL Valid Website] | 対応サイト |
 | [!UICONTROL Invitee Group] | 招待者の顧客グループ |
 
 {style="table-layout:auto"}

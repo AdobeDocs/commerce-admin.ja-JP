@@ -1,208 +1,208 @@
 ---
-title: '[!DNL Page Builder] チュートリアル第 2 部：ブロック'
-description: ' [!DNL Page Builder] を使用する場合の、単純ブロックとダイナミック ブロックの違いについて説明します。'
+title: '[!DNL Page Builder] チュートリアル パート 2: ブロック'
+description: ' [!DNL Page Builder]を使用する場合の単純ブロックと動的ブロックの違いを説明します。'
 exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2085'
 ht-degree: 0%
 
 ---
 
-# [!DNL Page Builder] チュートリアル第 2 部：ブロック
+# [!DNL Page Builder] チュートリアル パート 2: ブロック
 
-次の演習では、[&#x200B; 単純ブロック &#x200B;](../content-design/blocks.md) と [&#x200B; ダイナミック ブロック &#x200B;](dynamic-block.md) の違いと、[!DNL Page Builder] を使用して各タイプのブロックを作成する方法について説明します。
-
->[!NOTE]
->
->[!DNL Page Builder] には、_バナー_ という名前の新しいコンテンツタイプがあります。このコンテンツタイプは、最初のチュートリアルの演習で取り上げられるものであり、以前のバナー機能とは無関係です。 以前は [&#x200B; コンテンツメニュー &#x200B;](../content-design/content-menu.md) の「バナー」オプションでしたが、現在は _動的ブロック_ になっています。
-
-![&#x200B; ストアフロントのダイナミックブロック &#x200B;](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
-
-この演習では、前提条件や [&#x200B; ダウンロードされたサンプルファイル &#x200B;](1-simple-page.md) を含め、[&#x200B; パート 1：簡単なページ &#x200B;](./assets/simple-page-assets.zip) が完了していることを前提としています。 このチュートリアル演習の各部分に順番に従います。
+次の演習では、[単純ブロック ](../content-design/blocks.md)と[動的ブロック ](dynamic-block.md)の違いと、[!DNL Page Builder]を使用して各タイプのブロックを作成する方法を示します。
 
 >[!NOTE]
 >
->これらのチュートリアルの演習は、2.4.1 リリースの [!DNL Page Builder] ワークスペースに対する最近の変更を反映して更新されました。
+>[!DNL Page Builder]には、_バナー_&#x200B;という新しいコンテンツタイプがあります。これは、最初のチュートリアル演習で取り上げられており、以前のバナー機能とは関係ありません。 [ コンテンツメニュー](../content-design/content-menu.md)の以前のバナーオプションは、_動的ブロック_&#x200B;になりました。
 
-## パート 1：シンプルなブロックの作成
+![ ストアフロントの動的ブロック ](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
 
-このチュートリアル演習では、[!DNL Google Maps] のコンテンツを含むシンプルなブロックを作成します。 単純なブロックは、コンテンツが変更されないので、_CMS ブロック_ または _静的ブロック_ と呼ばれることがあります。 再利用が必要なコンテンツには、シンプルなブロックが最適です。
+この演習では、前提条件と[ ダウンロード済みのサンプルファイル ](./assets/simple-page-assets.zip)を含む、[ パート 1：単純ページ ](1-simple-page.md)を完了したことを前提としています。 このチュートリアル演習の各部分を順番に実行します。
 
-### 手順 1：ブロックの作成
+>[!NOTE]
+>
+>これらのチュートリアル演習は、2.4.1 リリースの[!DNL Page Builder] ワークスペースに対する最近の変更を反映するように更新されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Blocks]**&#x200B;に移動します。
+## パート 1：シンプルなブロックを作成する
+
+このチュートリアルの演習では、[!DNL Google Maps]のコンテンツを含むシンプルなブロックを作成します。 コンテンツが変更されないため、単純ブロックは&#x200B;_CMS ブロック_&#x200B;または&#x200B;_静的ブロック_&#x200B;と呼ばれることもあります。 シンプルなブロックは、再利用したいコンテンツに最適です。
+
+### 手順1：ブロックの作成
+
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Block]**」をクリックします。
 
-1. **[!UICONTROL Block Title]** には、`Google Map` と入力します。
+1. **[!UICONTROL Block Title]**&#x200B;に対して、`Google Map`と入力します。
 
-1. **[!UICONTROL Identifier]** には、`google-map` と入力します。
+1. **[!UICONTROL Identifier]**&#x200B;に対して、`google-map`と入力します。
 
-1. ブロックを使用できる **[!UICONTROL Store View]** を選択します。
+1. ブロックを利用できる&#x200B;**[!UICONTROL Store View]**&#x200B;を選択します。
 
-   ![&#x200B; ブロック情報 &#x200B;](./assets/pb-tutorial2-block-new-google-map.png){width="600" zoomable="yes"}
+   ![ ブロック情報](./assets/pb-tutorial2-block-new-google-map.png){width="600" zoomable="yes"}
 
 1. 右上隅の「**[!UICONTROL Save]**」をクリックします。
 
-### 手順 2:[!DNL Google Map] を追加
+### 手順2: [!DNL Google Map]を追加
 
-1. 下にスクロールして [!DNL Page Builder] コンテンツプレビュー（現在空）を表示し、「**[!UICONTROL Edit with Page Builder]**」をクリックします。
+1. [!DNL Page Builder] コンテンツのプレビュー（現在空）まで下にスクロールして、**[!UICONTROL Edit with Page Builder]**&#x200B;をクリックします。
 
-1. [!DNL Page Builder] パネルで **[!UICONTROL Media]** を展開し、**[!UICONTROL Map]** プレースホルダーをステージにドラッグします。
+1. [!DNL Page Builder] パネルで、**[!UICONTROL Media]**&#x200B;を展開し、**[!UICONTROL Map]** プレースホルダーをステージにドラッグします。
 
-   ![&#x200B; マップをステージにドラッグ &#x200B;](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
+   ![ マップをステージにドラッグする](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
 
-   ストアに対してマッピングが設定されている場合 [!DNL Google Maps]、ストアの場所へのマッピングが表示されます。
+   [!DNL Google Maps]がストア用に設定されている場合、ストアの場所へのマップが表示されます。
 
-   ![&#x200B; お使いのストアに対して設定済みのGoogle マップ &#x200B;](./assets/pb-tutorial2-google-map.png){width="600" zoomable="yes"}
+   ![ ストア用に設定されたGoogle マップ ](./assets/pb-tutorial2-google-map.png){width="600" zoomable="yes"}
 
-   ストアに対して [!DNL Google Maps] が設定されていない場合は、プレースホルダーマップが表示されます。
+   [!DNL Google Maps]がまだストアに設定されていない場合は、プレースホルダーマップが表示されます。
 
-   ![[!DNL Google Maps] プレースホルダー &#x200B;](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
+   ![[!DNL Google Maps] プレースホルダー](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
 
-1. ステージの右上隅にある _フルスクリーンを閉じる_ （![&#x200B; フルスクリーンアイコンを閉じる &#x200B;](./assets/pb-icon-reduce.png)）アイコンをクリックします。
+1. ステージの右上隅で、_フルスクリーンを閉じる_ （![ フルスクリーンアイコンを閉じる](./assets/pb-icon-reduce.png)）アイコンをクリックします。
 
-   このアイコンをクリックすると、ブロックの _[!UICONTROL Content]_&#x200B;セクションに戻り、プレビューが表示されます。
+   このアイコンをクリックすると、プレビューが表示されたブロックの&#x200B;_[!UICONTROL Content]_セクションに戻ります。
 
-1. 右上隅の **[!UICONTROL Save]** 矢印をクリックし、「**[!UICONTROL Save & Close]**」を選択します。
+1. 右上隅の&#x200B;**[!UICONTROL Save]**&#x200B;矢印をクリックし、**[!UICONTROL Save & Close]**&#x200B;を選択します。
 
-### 手順 3:[!DNL Google Maps] の設定
+### 手順3: [!DNL Google Maps]の設定
 
-[!DNL Google Maps] がストア用に既に設定されている場合は、この手順をスキップして次に進むことができます。
+[!DNL Google Maps]がストア用に既に設定されている場合は、この手順をスキップして、次の手順に進むことができます。
 
-1. [Google Cloud Platform コンソール &#x200B;](https://console.cloud.google.com/google/maps-apis/overview) に移動します。
+1. [Google Cloud Platform Console](https://console.cloud.google.com/google/maps-apis/overview)に移動します。
 
-1. 「プロジェクト」ドロップダウンをクリックし、API キーを追加するプロジェクトを選択または作成します。
+1. プロジェクト ドロップダウンをクリックし、API キーを追加するプロジェクトを選択または作成します。
 
-1. API 資格情報を設定するには、[&#x200B; ドキュメントの &#x200B;](https://developers.google.com/maps/documentation/javascript/get-api-key) 手順 [!DNL Google Maps] に従ってください。
+1. API資格情報を設定するには、[!DNL Google Maps] ドキュメントの[手順](https://developers.google.com/maps/documentation/javascript/get-api-key)に従ってください。
 
 1. API キーをクリップボードにコピーします。
 
-1. [!DNL Commerce] Admin に戻り、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. [!DNL Commerce]管理者に戻り、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
+1. _[!UICONTROL General]_の下の左側のパネルで、**[!UICONTROL Content Management]**を選択します。
 
-1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** を展開します。
+1. ![拡張セレクター](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;を展開します。
 
-   ![&#x200B; 高度なコンテンツツール &#x200B;](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
+   ![高度なコンテンツ ツール ](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
-   [!UICONTROL Content Management Advanced Tools] 設定オプションについて詳しくは、[_設定リファレンスガイド_](../configuration-reference/general/content-management.md) を参照してください。
+   [!UICONTROL Content Management Advanced Tools]設定オプションについて詳しくは、[_設定リファレンスガイド_](../configuration-reference/general/content-management.md)&#x200B;を参照してください。
 
-1. **[!UICONTROL Google Maps API Key]**: コピーしたキーを貼り付けます。
+1. **[!UICONTROL Google Maps API Key]**&#x200B;の場合、コピーしたキーを貼り付けます。
 
-1. 「**[!UICONTROL Test Key]**」をクリックします。
+1. **[!UICONTROL Test Key]**&#x200B;をクリックします。
 
-   キーに問題がある場合は、[!DNL Google Maps] Platform サイトに戻って問題を解決してください。 その後、もう一度試してください。
+   キーに問題がある場合は、[!DNL Google Maps] Platform サイトに戻って問題を解決してください。 次に、もう一度試してください。
 
-1. キーが確認されたら、「**[!UICONTROL Save Config]**」をクリックします。
+1. キーを確認したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-### 手順 4：ページへのブロックの追加
+### 手順4：ブロックをページに追加する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**に移動します。
 
-1. グリッドで、最初のチュートリアルで作成した _[!UICONTROL Simple Page]_&#x200B;を見つけ、**[!UICONTROL Edit]**&#x200B;の列の&#x200B;_[!UICONTROL Action]_ を選択します。
+1. グリッドで、最初のチュートリアルで作成した&#x200B;_[!UICONTROL Simple Page]_を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;を選択します。
 
-1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL Content]**」セクションを展開し、コンテンツプレビュー領域 **[!UICONTROL Edit with Page Builder]** または内側をクリックします。
+1. **[!UICONTROL Content]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、**[!UICONTROL Edit with Page Builder]**&#x200B;またはコンテンツプレビュー領域内をクリックします。
 
-1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_&#x200B;の下で、**[!UICONTROL Row]**&#x200B;のプレースホルダーをステージの上部にドラッグします。
+1. _[!UICONTROL Layout]_の下の[!DNL Page Builder] パネルで、**[!UICONTROL Row]**プレースホルダーをステージの上部にドラッグします。
 
-   ![&#x200B; 行をステージの上部に追加 &#x200B;](./assets/pb-tutorial2-elements-row-drag-top.png){width="600" zoomable="yes"}
+   ![ ステージの一番上に行を追加する](./assets/pb-tutorial2-elements-row-drag-top.png){width="600" zoomable="yes"}
 
-1. [!DNL Page Builder] パネルで **[!UICONTROL Add Content]** を展開し、**[!UICONTROL Block]** プレースホルダーを新しい行にドラッグします。
+1. [!DNL Page Builder] パネルで、**[!UICONTROL Add Content]**&#x200B;を展開し、**[!UICONTROL Block]** プレースホルダーを新しい行にドラッグします。
 
-1. 空のブロックコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. 空のブロックコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-   ![&#x200B; ブロック ツールボックス &#x200B;](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
+   ![ ツールボックスをブロック ](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
 
-1. [ ブロックを編集 ] ページで、[**[!UICONTROL Select Block]**] をクリックします。
+1. ブロックを編集ページで、**[!UICONTROL Select Block]**&#x200B;をクリックします。
 
-   ![&#x200B; ブロックを選択 &#x200B;](./assets/pb-add-content-block-settings-block-select.png){width="600" zoomable="yes"}
+   ![ ブロックを選択](./assets/pb-add-content-block-settings-block-select.png){width="600" zoomable="yes"}
 
-1. 検索ボックスに `map` と入力し、Enter/Return キーを押して、作成したブロックを検索します。
+1. 検索ボックスに「`map`」と入力し、Enter/Return キーを押して、作成したブロックを検索します。
 
-   ![&#x200B; リスト内のブロックを検索 &#x200B;](./assets/pb-add-content-block-settings-block-find.png){width="600" zoomable="yes"}
+   ![ リスト内のブロックを検索](./assets/pb-add-content-block-settings-block-find.png){width="600" zoomable="yes"}
 
-1. グリッドで **[!UICONTROL Select]** をクリックして、[!DNL Google Maps] のブロックを選択します。
+1. グリッドで、**[!UICONTROL Select]**&#x200B;をクリックして[!DNL Google Maps] ブロックを選択します。
 
 1. 右上隅の「**[!UICONTROL Save]**」をクリックして設定を保存し、[!DNL Page Builder] ワークスペースに戻ります。
 
-1. ステージの右上隅にある _フルスクリーンを閉じる_ （![&#x200B; フルスクリーンアイコンを閉じる &#x200B;](./assets/pb-icon-reduce.png)）アイコンをクリックします。
+1. ステージの右上隅で、_フルスクリーンを閉じる_ （![ フルスクリーンアイコンを閉じる](./assets/pb-icon-reduce.png)）アイコンをクリックします。
 
-   このアイコンをクリックすると、ページの「_[!UICONTROL Content]_」セクションに戻り、プレビューが表示されます。
+   このアイコンをクリックすると、プレビューが表示されたページの&#x200B;_[!UICONTROL Content]_セクションに戻ります。
 
-1. 右上隅の **[!UICONTROL Save]** 矢印をクリックし、「**[!UICONTROL Save & Close]**」を選択します。
+1. 右上隅の&#x200B;**[!UICONTROL Save]**&#x200B;矢印をクリックし、**[!UICONTROL Save & Close]**&#x200B;を選択します。
 
-**これで完了です。** ブロックの演習の最初の部分を完了しました。 必ず作業内容を参照用に保持してください。
+**おめでとうございます！** ブロック演習の最初の部分が完了しました。 参考までに、必ず作品を保管してください。
 
-## パート 2：ダイナミック ブロックを作成する
+## パート 2：ダイナミックブロックの作成
 
-動的ブロックには、表示する場所、タイミング、および対象を決定するロジックが含まれています。 このチュートリアルの演習では、価格ルールの条件が満たされた場合にトリガーされ、特定の顧客セグメントにのみ表示されるプロモーションの動的ブロックを作成します。 この例の結果は、最初の演習で作成したバナーと似ていますが、ストアフロントに表示されるタイミングを制御するロジックを備えています。
+動的ブロックには、そのブロックが表示される場所、タイミング、対象を決定するロジックが含まれます。 このチュートリアルでは、価格ルールの条件が満たされたときにトリガーされ、特定の顧客セグメントにのみ表示されるプロモーションのダイナミックブロックを作成します。 この例の結果は、最初の演習で作成したバナーと似ていますが、ストアフロントに表示されるタイミングを制御するロジックを使用しています。
 
-![Luma Tee プロモーションのサンプル &#x200B;](./assets/pb-tutorial2-dynamic-block-row-page.png){width="600" zoomable="yes"}
+![ サンプル Luma tee プロモーション ](./assets/pb-tutorial2-dynamic-block-row-page.png){width="600" zoomable="yes"}
 
-### 手順 1：新しいダイナミック ブロックを作成する
+### 手順1：新しいダイナミックブロックの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Dynamic Blocks]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**に移動します。
 
-   ![&#x200B; ダイナミック ブロック リスト &#x200B;](./assets/pb-tutorial2-block-dynamic-add.png){width="700" zoomable="yes"}
+   ![動的ブロックのリスト ](./assets/pb-tutorial2-block-dynamic-add.png){width="700" zoomable="yes"}
 
 1. 右上隅の「**[!UICONTROL Add Dynamic Block]**」をクリックします。
 
-   ![&#x200B; 新規ダイナミックブロックページ &#x200B;](./assets/pb-tutorial2-block-dynamic-new.png){width="600" zoomable="yes"}
+   ![新しい動的ブロックページ ](./assets/pb-tutorial2-block-dynamic-new.png){width="600" zoomable="yes"}
 
-1. 新しいダイナミック ブロックの基本設定を行います。
+1. 新しいダイナミックブロックの基本設定を完了します。
 
-   - **[!UICONTROL Enable Dynamic Block]** を `Yes` に設定します。
+   - **[!UICONTROL Enable Dynamic Block]**&#x200B;を`Yes`に設定します。
 
-   - **[!UICONTROL Dynamic Block Name]** には、`Tee Shirt Promo` と入力します。
+   - **[!UICONTROL Dynamic Block Name]**&#x200B;に対して、`Tee Shirt Promo`と入力します。
 
-   - **[!UICONTROL Dynamic Block Type]** を `Content Area` に設定し、「**[!UICONTROL Done]**」をクリックします。
+   - **[!UICONTROL Dynamic Block Type]**&#x200B;を`Content Area`に設定し、**[!UICONTROL Done]**&#x200B;をクリックします。
 
-     動的ブロックタイプは、[&#x200B; ページレイアウト &#x200B;](../content-design/page-layout.md) 内でブロックを配置する場所を決定します。 ストアの動的ブロックを設定する際は、ページレイアウトと [&#x200B; テーマ &#x200B;](../content-design/themes.md) の両方を考慮すると、使用可能なスペースを有効活用できます。 アクティブなコンテンツ領域の幅が固定されているストアもあれば、画面の全幅を拡張しているストアもあります。
+     動的ブロックの種類によって、[ ページレイアウト ](../content-design/page-layout.md)内でブロックが配置される場所が決まります。 ストアのダイナミックブロックを設定する際には、使用可能なスペースを有効に活用できるように、ページレイアウトと[ テーマ ](../content-design/themes.md)の両方を考慮してください。 一部のストアでは、固定幅に制限されたアクティブなコンテンツ領域を持っていますが、他のストアでは画面の全幅を拡張しています。
 
-     ![&#x200B; ダイナミック ブロック タイプ設定 &#x200B;](./assets/pb-dynamic-block-type.png){width="600" zoomable="yes"}
+     ![動的ブロックタイプ設定](./assets/pb-dynamic-block-type.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Customer Segment]**：ダイナミックブロックに適用する各セグメントのチェックボックスをオンにして、「**完了**」をクリックしてセグメントのリストを保存します。
+   - **[!UICONTROL Customer Segment]**&#x200B;の場合、動的ブロックに適用する各セグメントのチェックボックスを選択し、**完了**&#x200B;をクリックしてセグメントのリストを保存します。
 
-     次の例では、登録顧客を性別で識別する [&#x200B; 顧客セグメント &#x200B;](../customers/customer-segments.md) が 2 つあります。 この動的ブロックは、ストアでのショッピング中にアカウントにログインした登録済みの女性のお客様にのみ表示されます。
+     次の例では、登録済み顧客を性別で識別する2つの[顧客セグメント ](../customers/customer-segments.md)があります。 このダイナミックブロックは、店舗での買い物中にアカウントにログインしている登録済みの女性顧客にのみ表示されます。
 
-     ![&#x200B; 顧客セグメントの選択 &#x200B;](./assets/pb-dynamic-block-customer-segment.png){width="600" zoomable="yes"}
+     ![顧客セグメントの選択](./assets/pb-dynamic-block-customer-segment.png){width="600" zoomable="yes"}
 
-### 手順 2：設定を完了する
+### 手順2：設定を完了する
 
-_[!UICONTROL Content]_&#x200B;セクションまでスクロールし、空の [!DNL Page Builder] コンテンツプレビューを表示して、「**[!UICONTROL Edit with Page Builder]**」をクリックします。 次に、以下のタスクを実行します。
+空の[!DNL Page Builder] コンテンツのプレビューが表示される&#x200B;_[!UICONTROL Content]_セクションまで下にスクロールして、**[!UICONTROL Edit with Page Builder]**をクリックします。 次に、次のタスクを実行します。
 
-**タスク 1:** 背景画像の追加
+**タスク 1:**&#x200B;背景画像を追加
 
-1. 行コンテナの上にマウスポインターを置いてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}） アイコンを選択します。
+1. 行コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-1. 「_[!UICONTROL Appearance]_」で、「**[!UICONTROL Full Bleed]**」を選択します。
+1. _[!UICONTROL Appearance]_で、**[!UICONTROL Full Bleed]**を選択します。
 
-1. **[!UICONTROL Minimum Height]** には、`400px` と入力します。
+1. **[!UICONTROL Minimum Height]**&#x200B;に対して、`400px`と入力します。
 
-1. 「_[!UICONTROL Background]_」セクションまでスクロールし、**[!UICONTROL Background Image]**&#x200B;をクリックして、最初のチュートリアルでアップロードした&#x200B;**[!UICONTROL Select from Gallery]**&#x200B;画像を選択することで、`wide-banner-background.png` を設定します。
+1. _[!UICONTROL Background]_セクションまでスクロールし、**[!UICONTROL Select from Gallery]**をクリックして、最初のチュートリアルにアップロードされた`wide-banner-background.png`画像を選択し、**[!UICONTROL Background Image]**を設定します。
 
-1. 右上隅にある「**[!UICONTROL Save]**」をクリックして設定を適用し、[!DNL Page Builder] ワークスペースに戻ります。
+1. 右上隅の「**[!UICONTROL Save]**」をクリックして設定を適用し、[!DNL Page Builder] ワークスペースに戻ります。
 
-   ![&#x200B; 画像を含む行 &#x200B;](./assets/pb-tutorial2-row-image.png){width="600" zoomable="yes"}
+   ![画像を含む行](./assets/pb-tutorial2-row-image.png){width="600" zoomable="yes"}
 
-**タスク 2:** 列の追加
+**タスク 2:**&#x200B;列を追加
 
-[!DNL Page Builder] パネルの _[!UICONTROL Layout]_&#x200B;の下で、**[!UICONTROL Column]**&#x200B;のプレースホルダーを行にドラッグします。
+_[!UICONTROL Layout]_の下の[!DNL Page Builder] パネルで、**[!UICONTROL Column]**プレースホルダーを行にドラッグします。
 
-![&#x200B; 列タイプを行にドラッグ &#x200B;](./assets/pb-tutorial2-column-drag.png){width="600" zoomable="yes"}
+![列タイプを行にドラッグする](./assets/pb-tutorial2-column-drag.png){width="600" zoomable="yes"}
 
-これで、行が同じ幅の 2 つの列に分割されました。
+行は同じ幅の2つの列に分けられます。
 
-**タスク 3:** テキストの追加
+**タスク 3:** テキストを追加
 
-1. [!DNL Page Builder] パネルで「**[!UICONTROL Elements]**」を展開し、「**テキスト**」プレースホルダーを 2 番目の列にドラッグします。
+1. [!DNL Page Builder] パネルで、**[!UICONTROL Elements]**&#x200B;を展開し、**テキスト** プレースホルダーを2番目の列にドラッグします。
 
-   ![&#x200B; テキストボックスを 2 番目の列にドラッグ &#x200B;](./assets/pb-tutorial2-column-text-drag.png){width="600" zoomable="yes"}
+   ![ テキストボックスを2番目の列にドラッグする](./assets/pb-tutorial2-column-text-drag.png){width="600" zoomable="yes"}
 
-1. エディターに次の 3 行のテキストを入力します。
+1. 次の3行のテキストをエディターに入力します。
 
    `Even more ways to mix and match.`
 
@@ -210,183 +210,183 @@ _[!UICONTROL Content]_&#x200B;セクションまでスクロールし、空の [
 
    `Shop Tees >`
 
-   ![&#x200B; 列のテキストの入力 &#x200B;](./assets/pb-tutorial2-column-text-editor.png){width="600" zoomable="yes"}
+   ![列のテキストを入力しています](./assets/pb-tutorial2-column-text-editor.png){width="600" zoomable="yes"}
 
-1. 3 行のテキストをすべて選択し、ツールバーを使用して **行の高さ** を `40px` に設定します。
+1. 3行のテキストをすべて選択し、ツールバーを使用して&#x200B;**行の高さ**&#x200B;を`40px`に設定します。
 
-   ![&#x200B; 行の高さの設定 &#x200B;](./assets/pb-tutorial2-column-text-editor-line-height.png){width="600" zoomable="yes"}
+   ![行の高さを設定しています](./assets/pb-tutorial2-column-text-editor-line-height.png){width="600" zoomable="yes"}
 
-1. 各行の **[!UICONTROL Font Size]** を次のように設定します。
+1. 各行の&#x200B;**[!UICONTROL Font Size]**&#x200B;を次のように設定します。
 
-   | ライン | フォントサイズ |
+   | 折れ線グラフ | フォントサイズ |
    |-----| ---------- |
-   | ライン 1: | `28px` |
-   | 2 行目： | `24px` |
-   | 行 3: | `18px` |
+   | 1行目： | `28px` |
+   | 2行目： | `24px` |
+   | 3行目： | `18px` |
 
-   このブロックはページ上のどこにでも配置できるので、見出しレベルではなくデフォルトの段落スタイルを使用します。 また、テキストが列でまだ正しく折り返されていないことを心配する必要はありません。  
+   このブロックはページ上の任意の場所に配置できるので、見出しレベルではなくデフォルトの段落スタイルを使用します。 また、テキストがまだ列で正しく折り返されないことを心配しないでください。  
 
-   ![&#x200B; 書式付きテキスト &#x200B;](./assets/pb-tutorial2-column-text-editor-text-formatted.png){width="600" zoomable="yes"}
+   ![書式設定されたテキスト ](./assets/pb-tutorial2-column-text-editor-text-formatted.png){width="600" zoomable="yes"}
 
-**タスク 4:** リンクの追加
+**タスク 4:** リンクを追加
 
-最初の演習では、[&#x200B; ボタン &#x200B;](buttons.md) コンテンツタイプを使用してリンクを作成する方法を学びました。 この例では、エディターツールバーからリンクを挿入する方法を示します。
+最初の演習では、[ ボタン ](buttons.md) コンテンツタイプを使用してリンクを作成する方法を学習しました。 次の例では、エディターツールバーからリンクを挿入する方法を示します。
 
-1. 別のブラウザータブで、ストアフロントを開き、リンクのターゲットにするページに移動します。
+1. 別のブラウザータブで、ストアフロントを開き、リンクのターゲット先となるページに移動します。
 
-   完全修飾 URL またはストアドメインへの参照を省略する相対 URL を使用できます。
+   完全修飾URLまたはストアドメインへの参照を省略する相対URLを使用できます。
 
-   完全な URL
-:`https://mystore.com/women/tops-women/tees-women.html`
+   完全URL
+: `https://mystore.com/women/tops-women/tees-women.html`
 
-   相対 URL
-:`../women/tops-women/tees-women.html`
+   相対URL
+: `../women/tops-women/tees-women.html`
 
-1. [!DNL Page Builder] Workspace タブとテキストエディターに戻り、3 行目で `Shop Tees >` テキストを選択して、エディターツールバーで **太字** （![&#x200B; 太字ボタン &#x200B;](./assets/editor-btn-bold.png)）を選択します。
+1. [!DNL Page Builder] ワークスペース タブとテキストエディターに戻り、3行目の`Shop Tees >` テキストを選択し、エディターツールバーで&#x200B;**太字** （![太字ボタン ](./assets/editor-btn-bold.png)）を選択します。
 
-1. 3 行目の `Shop Tees >` テキストが選択されたままの状態で、エディターツールバーの **リンクを挿入/編集** （![&#x200B; リンクを挿入/編集ボタン &#x200B;](./assets/pb-icon-add-link.png)）を選択します。
+1. 3行目の`Shop Tees >` テキストを選択したまま、エディターツールバーで&#x200B;**リンクの挿入/編集** （![ リンクの挿入/編集ボタン ](./assets/pb-icon-add-link.png)）を選択します。
 
-   ![&#x200B; リンクの挿入 &#x200B;](./assets/pb-tutorial2-column-text-editor-link-insert.png){width="600" zoomable="yes"}
+   ![ リンクの挿入](./assets/pb-tutorial2-column-text-editor-link-insert.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL URL]**：準備した相対リンクを入力します。
+1. **[!UICONTROL URL]**&#x200B;に、準備した相対リンクを入力します。
 
-1. **[!UICONTROL Target]** を `None` に設定します。
+1. **[!UICONTROL Target]**&#x200B;を`None`に設定します。
 
-   この設定の場合、ページは新しいタブを開かずに同じブラウザーウィンドウで開きます。
+   この設定では、新しいタブを開くのではなく、同じブラウザーウィンドウでページが開きます。
 
-1. **[!UICONTROL Title]** には、`Shop Tees` と入力します。
+1. **[!UICONTROL Title]**&#x200B;に対して、`Shop Tees`と入力します。
 
-   タイトルリンク属性は、一部のブラウザーでツールヒントとして使用されます。
+   タイトルリンク属性は、一部のブラウザーでツールチップとして使用されます。
 
-1. リンクを保存して [!DNL Page Builder] ワークスペースに戻るには、「**[!UICONTROL OK]**」をクリックします。
+1. リンクを保存して[!DNL Page Builder] ワークスペースに戻るには、**[!UICONTROL OK]**&#x200B;をクリックします。
 
-   ![&#x200B; リンクの詳細 &#x200B;](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png){width="600" zoomable="yes"}
+   ![ リンクの詳細](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png){width="600" zoomable="yes"}
 
-1. ステージの右上隅にある _フルスクリーンを閉じる_ （![&#x200B; フルスクリーンアイコンを閉じる &#x200B;](./assets/pb-icon-reduce.png)）アイコンをクリックします。
+1. ステージの右上隅で、_フルスクリーンを閉じる_ （![ フルスクリーンアイコンを閉じる](./assets/pb-icon-reduce.png)）アイコンをクリックします。
 
-   このアイコンをクリックすると、ダイナミック ブロックの _[!UICONTROL Content]_&#x200B;セクションに戻り、プレビューが表示されます。
-
-1. 右上隅の「**[!UICONTROL Save]**」をクリックします。
-
-### 手順 3：価格ルールの追加
-
-1. _Tee Shirt Promo_ ダイナミックブロックを再度編集モードで開きます。
-
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL Related Promotions]**」セクションを展開し、「**[!UICONTROL Add Cart Price Rules]**」をクリックします。
-
-   ![&#x200B; 関連するプロモーション &#x200B;](./assets/pb-dynamic-blocks-related-promotions.png){width="600" zoomable="yes"}
-
-1. _関連する買い物かご価格ルールを追加_ ページで、「_3 枚の T シャツを購入」のチェックボックスを選択し、4 番目の無料_ 価格ルールを取得して、「**[!UICONTROL Add Selected]**」をクリックします。
-
-   ![&#x200B; 関連する買い物かご価格ルールの追加 &#x200B;](./assets/pb-dynamic-block-add-related-cart-price-rules.png){width="600" zoomable="yes"}
-
-   価格ルールは、「関連する買い物かご価格ルール _の下の「関連するプロモーション_ セクションに表示されます _。_ 複数の価格ルールを動的ブロックに関連付けることができます。 ただし、この単純な例では、1 つだけを使用します。
-
-   ![&#x200B; 選択された買い物かご価格ルール &#x200B;](./assets/pb-dynamic-block-related-cart-price-rule-list.png){width="600" zoomable="yes"}
+   このアイコンをクリックすると、プレビューが表示されたダイナミックブロックの&#x200B;_[!UICONTROL Content]_セクションに戻ります。
 
 1. 右上隅の「**[!UICONTROL Save]**」をクリックします。
 
-### 手順 4：ページへの動的ブロックの追加
+### 手順3：価格ルールの追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Pages]**&#x200B;に移動します。
+1. _T シャツのプロモ_&#x200B;動的ブロックを編集モードで再度開きます。
 
-1. _最初のチュートリアルの演習_ で作成した [&#x200B; シンプルなページ &#x200B;](1-simple-page.md) を見つけて、編集モードで開きます。
+1. **[!UICONTROL Related Promotions]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、**[!UICONTROL Add Cart Price Rules]**&#x200B;をクリックします。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL Content]**」セクションを展開し、「**[!UICONTROL Edit with Page Builder]**」をクリックします。
+   ![関連プロモーション ](./assets/pb-dynamic-blocks-related-promotions.png){width="600" zoomable="yes"}
 
-1. ダイナミックブロックと同じ画像の一番上の行にカーソルを合わせると、ツールボックスと _削除_ （![&#x200B; 削除アイコン &#x200B;](./assets/pb-icon-remove.png){width="20"}）アイコンが表示されます。
+1. _関連するカート価格ルールを追加_ ページで、_購入3枚のT シャツのチェックボックスを選択し、4番目の無料_&#x200B;価格ルールを取得して、**[!UICONTROL Add Selected]**&#x200B;をクリックします。
 
-   ページからの行の削除を確認するには、「削 **[!UICONTROL OK]**」をクリックします。
+   ![関連するカート価格ルールの追加](./assets/pb-dynamic-block-add-related-cart-price-rules.png){width="600" zoomable="yes"}
 
-1. [!DNL Page Builder] パネルの _[!UICONTROL Layout]_&#x200B;の下で、新しい&#x200B;**[!UICONTROL Row]**&#x200B;プレースホルダーをステージの上部にドラッグします。
+   価格ルールは、_関連カート価格ルール_&#x200B;の下の&#x200B;_関連プロモーション_ セクションに表示されます。 複数の価格ルールを動的ブロックに関連付けることができます。 しかし、この単純な例では1つしか使用しません。
 
-1. [!DNL Page Builder] パネルで **[!UICONTROL Add Content]** を展開し、**[!UICONTROL Dynamic Block]** プレースホルダーを新しい行にドラッグします。
-
-   ![&#x200B; 動的ブロックを行にドラッグ &#x200B;](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
-
-1. 動的ブロックコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
-
-   ![&#x200B; ダイナミック ブロック ツールボックス &#x200B;](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
-
-1. _[!UICONTROL Edit Dynamic Block]_&#x200B;ページで「**[!UICONTROL Select Dynamic Block]**」をクリックします。
-
-   ![&#x200B; ダイナミック ブロックを選択 &#x200B;](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
-
-1. 作成した _[!DNL Tee Shirt Promo]_&#x200B;ダイナミック ブロックを見つけて、[**[!UICONTROL Select]**] をクリックします。
-
-   ダイナミック ブロック情報の概要が下に表示されます。
-
-   ![&#x200B; ダイナミック ブロック情報 &#x200B;](./assets/pb-tutorial2-dynamic-block-edit.png){width="600" zoomable="yes"}
-
-1. デフォルトの **[!UICONTROL Template]**、`Dynamic Block Block Template` を受け入れます。
-
-1. 完了したら、「**[!UICONTROL Save]**」をクリックして設定を保存し、[!DNL Page Builder] ワークスペースに戻ります。
-
-   ![&#x200B; ページプレビューのダイナミックブロック &#x200B;](./assets/pb-tutorial2-dynamic-block-on-page.png){width="600" zoomable="yes"}
-
-1. ステージの右上隅にある _フルスクリーンを閉じる_ （![&#x200B; フルスクリーンアイコンを閉じる &#x200B;](./assets/pb-icon-reduce.png)）アイコンをクリックします。
-
-   このアイコンをクリックすると、ページの「_[!UICONTROL Content]_」セクションに戻り、プレビューが表示されます。
-
-1. 右上隅の **[!UICONTROL Save]** 矢印をクリックし、「**[!UICONTROL Save & Close]**」を選択します。
-
-ブロックの演習の 2 番目のパートを完了しました。 必ず作業内容を参照用に保持してください。
-
-## パート 3：ダイナミックブロックの更新
-
-演習のこの最後のパートでは、ページがストアに格納されている間に動的ブロックを編集します。 次に、顧客セグメントのメンバーとしてストアにログインすると、ブロックが表示されます。
-
-![&#x200B; ストアフロントのダイナミックブロックのサンプル &#x200B;](./assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
-
-### 手順 1：ダイナミックブロックを編集する
-
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Dynamic Blocks]**&#x200B;に移動します。
-
-1. グリッドで _[!DNL Tee Shirt Promo]_&#x200B;のダイナミック ブロックを探し、編集モードで開きます。
-
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「**[!UICONTROL Content]**」セクションを展開し、「**[!UICONTROL Edit with Page Builder]**」をクリックします。
-
-1. 列の幅を変更します。
-
-   - 2 つの列の境界線にポインタを合わせます。
-
-   - マウス ボタンを押したまま、境界を 2 つの分割分だけ左にドラッグします。
-
-     ![&#x200B; グリッドの分割 &#x200B;](./assets/pb-tutorial2-dynamic-block-edit-column-width.png){width="600" zoomable="yes"}
-
-     最初の列は現在、幅 12 （4/12）のグリッド分割の 4 つになり、2 番目の列は幅 12 （8/12）のグリッド分割の 8 つになります。
-
-     ![2 つの不等しい列 &#x200B;](./assets/pb-tutorial2-dynamic-block-edit-column-width-changed.png){width="600" zoomable="yes"}
-
-1. テキストのカラーを変更します。
-
-   - テキストの最初の 2 行を選択します。
-
-   - エディターツールバーで **[!UICONTROL Text Color]** を選択し、**[!UICONTROL White]** のスウォッチをクリックします。
-
-   ![&#x200B; テキストカラー &#x200B;](./assets/pb-tutorial2-dynamic-block-edit-text-color.png){width="600" zoomable="yes"}
-
-1. ステージの右上隅にある _フルスクリーンを閉じる_ （![&#x200B; フルスクリーンアイコンを閉じる &#x200B;](./assets/pb-icon-reduce.png)）アイコンをクリックします。
-
-   このアイコンをクリックすると、ダイナミック ブロックの _[!UICONTROL Content]_&#x200B;セクションに戻り、プレビューが表示されます。
+   ![選択したカート価格ルール ](./assets/pb-dynamic-block-related-cart-price-rule-list.png){width="600" zoomable="yes"}
 
 1. 右上隅の「**[!UICONTROL Save]**」をクリックします。
 
-### 手順 2：動的ブロックの表示
+### 手順4：ページへのダイナミックブロックの追加
 
-この動的ブロックは、特定の顧客セグメントのメンバーにのみ表示されるので、プロモーションを確認するには、顧客セグメントのメンバーである顧客としてログインする必要があります。 この例では、ブロックは女性の顧客にのみ表示されます。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**に移動します
 
-1. ストアフロントにブラウザーウィンドウを開きます。
+1. [最初のチュートリアル演習](1-simple-page.md)で作成した&#x200B;_シンプル ページ_&#x200B;を見つけて、編集モードで開きます。
 
-1. サンプルページを表示するには、アドレスバーの URL を次のように変更します。
+1. **[!UICONTROL Content]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、**[!UICONTROL Edit with Page Builder]**&#x200B;をクリックします。
+
+1. ダイナミックブロックと同じ画像を持つ一番上の行にカーソルを合わせると、ツールボックスと&#x200B;_削除_ （![削除アイコン ](./assets/pb-icon-remove.png){width="20"}）アイコンが表示されます。
+
+   ページから行を削除することを確認するには、「**[!UICONTROL OK]**」をクリックします。
+
+1. _[!UICONTROL Layout]_の下の[!DNL Page Builder] パネルで、新しい&#x200B;**[!UICONTROL Row]**プレースホルダーをステージの上部にドラッグします。
+
+1. [!DNL Page Builder] パネルで、**[!UICONTROL Add Content]**&#x200B;を展開し、**[!UICONTROL Dynamic Block]** プレースホルダーを新しい行にドラッグします。
+
+   ![行に動的ブロックをドラッグする](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
+
+1. 動的ブロックコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+
+   ![動的ブロックツールボックス ](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
+
+1. _[!UICONTROL Edit Dynamic Block]_ページで、**[!UICONTROL Select Dynamic Block]**をクリックします。
+
+   ![動的ブロックを選択](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
+
+1. 作成した&#x200B;_[!DNL Tee Shirt Promo]_動的ブロックを見つけて、**[!UICONTROL Select]**をクリックします。
+
+   ダイナミックブロック情報の概要を以下に示します。
+
+   ![動的ブロック情報](./assets/pb-tutorial2-dynamic-block-edit.png){width="600" zoomable="yes"}
+
+1. 既定の&#x200B;**[!UICONTROL Template]**、`Dynamic Block Block Template`を受け入れます。
+
+1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックして設定を保存し、[!DNL Page Builder] ワークスペースに戻ります。
+
+   ![ ページプレビューの動的ブロック ](./assets/pb-tutorial2-dynamic-block-on-page.png){width="600" zoomable="yes"}
+
+1. ステージの右上隅で、_フルスクリーンを閉じる_ （![ フルスクリーンアイコンを閉じる](./assets/pb-icon-reduce.png)）アイコンをクリックします。
+
+   このアイコンをクリックすると、プレビューが表示されたページの&#x200B;_[!UICONTROL Content]_セクションに戻ります。
+
+1. 右上隅の&#x200B;**[!UICONTROL Save]**&#x200B;矢印をクリックし、**[!UICONTROL Save & Close]**&#x200B;を選択します。
+
+ブロック演習の2番目の部分を完了しました。 参考までに、必ず作品を保管してください。
+
+## パート 3：動的ブロックの更新
+
+この演習の最後の部分では、ページがストアに存在する間にダイナミックブロックを編集します。 次に、顧客セグメントのメンバーとしてストアにログインして、ブロックを表示します。
+
+![ ストアフロントの動的ブロックのサンプル ](./assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
+
+### 手順1：ダイナミックブロックの編集
+
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**に移動します。
+
+1. グリッドで&#x200B;_[!DNL Tee Shirt Promo]_動的ブロックを見つけ、編集モードで開きます。
+
+1. **[!UICONTROL Content]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、**[!UICONTROL Edit with Page Builder]**&#x200B;をクリックします。
+
+1. 列幅を変更します。
+
+   - 2つの列の境界線にカーソルを合わせます。
+
+   - マウスボタンを押しながら、境界線を2つの分割で左にドラッグします。
+
+     ![ グリッド分割](./assets/pb-tutorial2-dynamic-block-edit-column-width.png){width="600" zoomable="yes"}
+
+     最初の列は12のグリッド分割のうち4つ（4/12）幅になり、2番目の列は12のグリッド分割のうち8つ（8/12）幅になります。
+
+     ![2つの不均等な列](./assets/pb-tutorial2-dynamic-block-edit-column-width-changed.png){width="600" zoomable="yes"}
+
+1. テキストの色を変更します。
+
+   - 最初の2行のテキストを選択します。
+
+   - エディターツールバーで、**[!UICONTROL Text Color]**&#x200B;を選択し、**[!UICONTROL White]** スウォッチをクリックします。
+
+   ![ テキストの色](./assets/pb-tutorial2-dynamic-block-edit-text-color.png){width="600" zoomable="yes"}
+
+1. ステージの右上隅で、_フルスクリーンを閉じる_ （![ フルスクリーンアイコンを閉じる](./assets/pb-icon-reduce.png)）アイコンをクリックします。
+
+   このアイコンをクリックすると、プレビューが表示されたダイナミックブロックの&#x200B;_[!UICONTROL Content]_セクションに戻ります。
+
+1. 右上隅の「**[!UICONTROL Save]**」をクリックします。
+
+### 手順2：動的ブロックの表示
+
+このダイナミックブロックは特定の顧客セグメントのメンバーにのみ表示されるため、プロモーションを表示するには、顧客セグメントのメンバーである顧客としてログインする必要があります。 この例では、ブロックは女性顧客にのみ表示されます。
+
+1. ストアフロントのブラウザーウィンドウを開きます。
+
+1. サンプルページを表示するには、アドレスバーのURLを次のように変更します。
 
    mystore.com/sample-page
 
-   ストアが html サフィックスを含むように設定されている場合、次のようにサフィックスを含めます。
+   ストアがhtml サフィックスを含めるように設定されている場合は、次のようにサフィックスを含めます。
 
    mystore.com/sample-page.html
 
-1. 女性のユーザーとしてログインする：
+1. 女性顧客としてログイン：
 
    - ホームページの右上隅にある「**[!UICONTROL Sign In]**」をクリックします。
 
@@ -394,14 +394,14 @@ _[!UICONTROL Content]_&#x200B;セクションまでスクロールし、空の [
 
      **[!UICONTROL Email]** - `roni_cost@example.com`
 
-     **[!UICONTROL Password]** - `roni_cost3@example.com`
+     **[!UICONTROL Password]** -  `roni_cost3@example.com`
 
-   - 「**[!UICONTROL Sign In]**」をクリックします。
+   - **[!UICONTROL Sign In]**&#x200B;をクリックします。
 
-   - サンプルページに戻り、Tee Shirt プロモで作成した動的ブロックを確認します。
+   - サンプルページに戻り、ティーシャツプロモーションで作成したダイナミックブロックを確認します。
 
-   ![&#x200B; 顧客セグメント用に表示された動的ブロック &#x200B;](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
+   顧客セグメントに対して![動的ブロックが表示されました](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
 
-ブロックの演習が完了しました。 必ず作業内容を参照用に保持してください。
+ブロックの演習が完了しました。 参考までに、必ず作品を保管してください。
 
-準備が整ったら、[&#x200B; パート 3：カタログのコンテンツ &#x200B;](3-catalog-content.md) に進みます。
+準備ができたら、[ パート 3: カタログ コンテンツ ](3-catalog-content.md)に進みます
