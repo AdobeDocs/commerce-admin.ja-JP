@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ウィッシュリストは、顧客が気に入った商品を思い出すのに便利な方法ですが、購入する準備ができていません。 ウィッシュリストのアイテムは、他のユーザーと共有したり、ショッピングカートに追加したりできます。 お客様が複数のウィッシュリストを持っている場合、現在のウィッシュリストの名前がページの上部に表示されます。 顧客は、アカウントダッシュボードでウィッシュリストを管理できます。 ストア管理者は、お客様が管理者からウィッシュリストを管理するのにも役立ちます。
 
-![ ストアフロントの例 – マイウィッシュリスト ](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの例 – マイウィッシュリスト &#x200B;](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerceでは、お客様のアカウントごとに複数のウィッシュリストを使用できます。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-![ ショッピングカートページから新しいウィッシュリストを作成](./assets/account-dashboard-wishlist-create-from-cart.png){width="700" zoomable="yes"}
+![&#x200B; ショッピングカートページから新しいウィッシュリストを作成](./assets/account-dashboard-wishlist-create-from-cart.png){width="700" zoomable="yes"}
 
 ## 製品リストの更新
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 1. 商品に関する&#x200B;**[!UICONTROL Comment]**&#x200B;を追加するには、価格の下のボックスにテキストを入力します。
 
-   ![ オプションの編集](./assets/account-dashboard-wishlist-edit-options.png){width="700" zoomable="yes"}
+   ![&#x200B; オプションの編集](./assets/account-dashboard-wishlist-edit-options.png){width="700" zoomable="yes"}
 
 1. 製品オプションの選択を変更するには、**[!UICONTROL Edit]**&#x200B;をクリックし、次の操作を行います。
 
@@ -117,11 +117,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Share Wish List]**&#x200B;をクリックします。
 
-   ![ ウィッシュリストを共有](./assets/account-dashboard-wishlist-sharing.png){width="700" zoomable="yes"}
+   ![&#x200B; ウィッシュリストを共有](./assets/account-dashboard-wishlist-sharing.png){width="700" zoomable="yes"}
 
-   メッセージは、プライマリ [ ストアの連絡先](../getting-started/store-details.md#store-email-addresses)から送信され、各製品のサムネイル画像とストアへのリンクが含まれます。
+   メッセージは、プライマリ [&#x200B; ストアの連絡先](../getting-started/store-details.md#store-email-addresses)から送信され、各製品のサムネイル画像とストアへのリンクが含まれます。
 
-   ![共有ウィッシュリスト電子メール ](./assets/account-dashboard-wishlist-sharing-email.png){width="500" zoomable="yes"}
+   ![共有ウィッシュリスト電子メール &#x200B;](./assets/account-dashboard-wishlist-sharing-email.png){width="500" zoomable="yes"}
 
 ## ウィッシュリストを編集
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 
 ## 欲しいものリストを探す
 
-ストアページに[ ウィッシュリスト検索ウィジェット ](wishlist-configuration.md#add-wish-list-search)が含まれている場合、お客様はウィッシュリスト所有者の名前またはメールアドレスで検索できます。
+ストアページに[&#x200B; ウィッシュリスト検索ウィジェット &#x200B;](wishlist-configuration.md#add-wish-list-search)が含まれている場合、お客様はウィッシュリスト所有者の名前またはメールアドレスで検索できます。
 
 1. ウィッシュリスト検索ウィジェットから、顧客は検索オプションを選択します。
 

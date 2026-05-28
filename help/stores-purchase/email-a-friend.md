@@ -14,19 +14,19 @@ ht-degree: 0%
 
 メールリンクを使用すると、顧客は商品へのリンクを友人と簡単に共有できます。 デモ Luma ストアでは、メールのリンクがエンベロープのアイコンとして表示されます。 メッセージテンプレートは、声やブランドに合わせてカスタマイズできます。 迷惑メールを防ぐには、1通のメールの受信者数と、1時間の間に共有できる商品の数を制限することができます。
 
-![ ストアフロントの例 – 友達にメールを送信](./assets/storefront-email-a-friend.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの例 – 友達にメールを送信](./assets/storefront-email-a-friend.png){width="700" zoomable="yes"}
 
 ## email-a-friendの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Catalog]**&#x200B;を展開し、**[!UICONTROL Email to a Friend]**&#x200B;を選択します。
 
 1. **[!UICONTROL Email Templates]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、オプションを設定します。
 
-   ![ カタログ設定 – メールテンプレート ](../configuration-reference/catalog/assets/email-to-a-friend-email-templates.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ設定 – メールテンプレート &#x200B;](../configuration-reference/catalog/assets/email-to-a-friend-email-templates.png){width="600" zoomable="yes"}
 
-   これらの各設定設定の詳細については、_設定リファレンスガイド_&#x200B;の[電子メールテンプレート ](../configuration-reference/catalog/email-to-a-friend.md)を参照してください。
+   これらの各設定設定の詳細については、_設定リファレンスガイド_&#x200B;の[電子メールテンプレート &#x200B;](../configuration-reference/catalog/email-to-a-friend.md)を参照してください。
 
    任意のフィールドのデフォルト設定を変更するには、**[!UICONTROL Use system value]** チェックボックスをオフにして、フィールドを編集可能にします。
 
@@ -71,4 +71,4 @@ ht-degree: 0%
 
 1. メッセージを送信する準備ができたら、**[!UICONTROL Send Email]**&#x200B;をクリックします。
 
-   ![ ストアフロントの例 – 友達へのメール ](./assets/storefront-email-a-friend-form.png){width="700" zoomable="yes"}
+   ![&#x200B; ストアフロントの例 – 友達へのメール &#x200B;](./assets/storefront-email-a-friend-form.png){width="700" zoomable="yes"}

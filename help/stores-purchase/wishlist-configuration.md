@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## ウィッシュリスト機能を有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Wish List]**&#x200B;を選択します。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Share Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
-   ![お客様の設定 – ウィッシュリスト共有オプション ](../configuration-reference/customers/assets/wishlist-share-options.png){width="600" zoomable="yes"}
+   ![お客様の設定 – ウィッシュリスト共有オプション &#x200B;](../configuration-reference/customers/assets/wishlist-share-options.png){width="600" zoomable="yes"}
 
    - メッセージの送信者として表示されるストア連絡先に&#x200B;**[!UICONTROL Email Sender]**&#x200B;を設定します。 オプション：一般連絡先、営業担当者、カスタマーサポート、カスタムメール。
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）
 
-公開されているウィッシュリストは、ウィッシュリスト検索[ ウィジェット ](../content-design/widgets.md)を使用して検索できます。 ウィジェットを使用すると、お客様はウィッシュリスト所有者の名前またはメールアドレスで検索できます。 店舗のお客様は、他のお客様に属するウィッシュリストを検索したり、それらを表示して商品を注文したり、自分のウィッシュリストに商品を追加したりできます。 他のお客様が公開のウィッシュリストから購入したアイテムは、元のウィッシュリストから削除されません。 _ウィッシュリスト検索_ ウィジェットをストアの任意のページに追加すると、顧客が友人や家族のウィッシュリストを簡単に検索できるようになります。
+公開されているウィッシュリストは、ウィッシュリスト検索[&#x200B; ウィジェット &#x200B;](../content-design/widgets.md)を使用して検索できます。 ウィジェットを使用すると、お客様はウィッシュリスト所有者の名前またはメールアドレスで検索できます。 店舗のお客様は、他のお客様に属するウィッシュリストを検索したり、それらを表示して商品を注文したり、自分のウィッシュリストに商品を追加したりできます。 他のお客様が公開のウィッシュリストから購入したアイテムは、元のウィッシュリストから削除されません。 _ウィッシュリスト検索_ ウィジェットをストアの任意のページに追加すると、顧客が友人や家族のウィッシュリストを簡単に検索できるようになります。
 
-![ ストアフロントの例 – ウィッシュリスト検索](./assets/storefront-wishlist-search.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの例 – ウィッシュリスト検索](./assets/storefront-wishlist-search.png){width="700" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックします。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Continue]**&#x200B;をクリックします。
 
-1. _[!UICONTROL Storefront Properties]_を完了：
+1. _[!UICONTROL Storefront Properties]_&#x200B;を完了：
 
    - **[!UICONTROL Widget Title]**&#x200B;を入力します。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
      `0` = first （デフォルト）、`1` = second、`2` = thirdなど。
 
-1. _[!UICONTROL Layout Updates]_セクションで、**[!UICONTROL Add Layout Update]**をクリックし、**[!UICONTROL Display on]**を次のいずれかに設定します。
+1. _[!UICONTROL Layout Updates]_&#x200B;セクションで、**[!UICONTROL Add Layout Update]**&#x200B;をクリックし、**[!UICONTROL Display on]**&#x200B;を次のいずれかに設定します。
 
    - _[!UICONTROL Categories]_
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Container]** リストで、配置するページレイアウトの領域を選択します。
 
-   ![ ウィッシュリスト検索ウィジェット – レイアウト ](./assets/widget-wishlist-search-storefront.png){width="700" zoomable="yes"}
+   ![&#x200B; ウィッシュリスト検索ウィジェット – レイアウト &#x200B;](./assets/widget-wishlist-search-storefront.png){width="700" zoomable="yes"}
 
 1. 左側のパネルで、**[!UICONTROL Widget Options]**&#x200B;を選択します。
 

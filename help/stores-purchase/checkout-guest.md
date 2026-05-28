@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **_ゲストチェックアウトを無効にするには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Checkout]**&#x200B;を選択します。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    ![設定ページでチェックアウトオプションが拡張されました](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-これらの各構成設定の詳細については、_構成リファレンスガイド_&#x200B;の[ チェックアウトオプション ](../configuration-reference/sales/checkout.md#checkout-options)を参照してください。
+これらの各構成設定の詳細については、_構成リファレンスガイド_&#x200B;の[&#x200B; チェックアウトオプション &#x200B;](../configuration-reference/sales/checkout.md#checkout-options)を参照してください。
 
 1. 設定が特定のストアビューの場合、[設定が適用されるストアビュー](../configuration-reference/scope-change.md#set-the-scope)を選択します。
 

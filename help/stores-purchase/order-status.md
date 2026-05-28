@@ -12,18 +12,18 @@ ht-degree: 0%
 
 # 注文ステータス
 
-すべての注文には、注文処理[ ワークフロー](order-processing.md)のステージに関連付けられた注文ステータスがあります。\
-注文状態と注文ステータスの違いは、**[!UICONTROL order states]**がプログラムで使用されていることです。 彼らはそうではありません
+すべての注文には、注文処理[&#x200B; ワークフロー](order-processing.md)のステージに関連付けられた注文ステータスがあります。\
+注文状態と注文ステータスの違いは、**[!UICONTROL order states]**&#x200B;がプログラムで使用されていることです。 彼らはそうではありません
 顧客または管理者ユーザーに表示されます。 注文のフローを決定し、どの操作が可能かを決定します
 一定の状態での順序。\
-**[!UICONTROL Order statuses]**は、注文のステータスを顧客と管理者ユーザーに伝えるために使用されます。
+**[!UICONTROL Order statuses]**&#x200B;は、注文のステータスを顧客と管理者ユーザーに伝えるために使用されます。
 運用上のニーズに合わせて、追加の注文ステータスを作成できます。 注文状況の表示
 Adobe Commerce外での進捗（注文のピッキングや配送の進捗など）。 注文への影響はありません
 処理ワークフロー：\
 各注文ステータスは、注文ステータスに関連付けられます。 ストアには、あらかじめ定義された注文ステータスと
 注文状況の設定：
 
-![注文の状態とステータス ](./assets/order-states-and-statuses.png){width="700" zoomable="yes"}
+![注文の状態とステータス &#x200B;](./assets/order-states-and-statuses.png){width="700" zoomable="yes"}
 
 各注文のステータスは、_Orders_ グリッドの&#x200B;_Status_&#x200B;列に表示されます。
 
@@ -70,13 +70,13 @@ Adobe Commerce外での進捗（注文のピッキングや配送の進捗など
 
 ### カスタム注文ステータスの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Order Status]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Order Status]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Create New Status]**」をクリックします。
 
    ![新しい注文ステータスの作成](./assets/order-status-new.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Order Status Information]_セクションを更新します。
+1. _[!UICONTROL Order Status Information]_&#x200B;セクションを更新します。
 
    - 内部参照用に&#x200B;**[!UICONTROL Status Code]**&#x200B;を入力します。 最初の文字は文字（a ～ z）にする必要があり、残りは文字と数字の任意の組み合わせにすることができます（0 ～ 9）。 スペースの代わりにアンダースコア文字を使用します。
 
@@ -90,7 +90,7 @@ Adobe Commerce外での進捗（注文のピッキングや配送の進捗など
 
 1. _注文状況_ ページで、**[!UICONTROL Assign Status to State]**&#x200B;をクリックします。
 
-   ![ ステータスの割り当て](./assets/store-status-assign-status.png){width="600" zoomable="yes"}
+   ![&#x200B; ステータスの割り当て](./assets/store-status-assign-status.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Assignment Information]** セクションを更新し、次の操作を行います。
 
@@ -116,7 +116,7 @@ Adobe Commerce外での進捗（注文のピッキングや配送の進捗など
 
 ### 既存の注文ステータスの編集
 
-1. _[!UICONTROL Order Status]_グリッドで、ステータスレコードを編集モードで開きます。
+1. _[!UICONTROL Order Status]_&#x200B;グリッドで、ステータスレコードを編集モードで開きます。
 
 1. 必要に応じてステータス設定を更新します。
 
@@ -128,23 +128,23 @@ Adobe Commerce外での進捗（注文のピッキングや配送の進捗など
 >
 >ステータスが使用中の場合、ステータス設定をステータスから割り当て解除することはできません。
 
-1. _[!UICONTROL Order Status]_グリッドで、割り当て解除する注文ステータス レコードを見つけます。
+1. _[!UICONTROL Order Status]_&#x200B;グリッドで、割り当て解除する注文ステータス レコードを見つけます。
 
-1. 行の右端にある&#x200B;_[!UICONTROL Action]_列で、**[!UICONTROL Unassign]**リンクをクリックします。
+1. 行の右端にある&#x200B;_[!UICONTROL Action]_&#x200B;列で、**[!UICONTROL Unassign]**&#x200B;リンクをクリックします。
 
    注文ステータスが割り当て解除されたことを示すメッセージがワークスペースの上部に表示されます。 注文ステータスラベルは引き続きリストに表示されますが、ステータスに割り当てられなくなりました。 注文状況の設定は削除できません。
 
 >[!NOTE]
 >
->デフォルトの注文ステータスが注文状態から未割り当てである場合、_**another**_&#x200B;の注文ステータスは&#x200B;_**自動的に**_&#x200B;この注文状態のデフォルトとして設定されます。
+>デフォルトの注文ステータスが注文状態から未割り当てである場合、_&#x200B;**another**&#x200B;_&#x200B;の注文ステータスは&#x200B;_&#x200B;**自動的に**&#x200B;_&#x200B;この注文状態のデフォルトとして設定されます。
 
 ## 通知
 
-顧客は、設定で注文RSS フィードが有効になっている場合、[RSS フィード ](../merchandising-promotions/social-rss.md)によって注文のステータスを追跡できます。 有効にすると、各注文にRSS フィードへのリンクが表示されます。
+顧客は、設定で注文RSS フィードが有効になっている場合、[RSS フィード &#x200B;](../merchandising-promotions/social-rss.md)によって注文のステータスを追跡できます。 有効にすると、各注文にRSS フィードへのリンクが表示されます。
 
 ### 注文ステータス通知を有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL RSS Feeds]**」を選択します。
 
@@ -158,13 +158,13 @@ Adobe Commerce外での進捗（注文のピッキングや配送の進捗など
 
 ### 新しい注文メール通知の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、下の「**[!UICONTROL Sales Emails]**」を選択します。
 
 1. **[!UICONTROL Order]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![設定 – 注文オプション ](../configuration-reference/sales/assets/sales-emails-order.png){width="600" zoomable="yes"}
+   ![設定 – 注文オプション &#x200B;](../configuration-reference/sales/assets/sales-emails-order.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL New Order Confirmation Email Sender]**&#x200B;を次のいずれかに設定します：
 

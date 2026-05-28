@@ -16,7 +16,7 @@ ht-degree: 0%
 
 顧客は、次のいずれかを使用して、ストアフロントからRMAをリクエストできます。
 
-- サイドバーの[注文と返品ウィジェット ](../content-design/widget-orders-returns.md)
+- サイドバーの[注文と返品ウィジェット &#x200B;](../content-design/widget-orders-returns.md)
 - フッターの&#x200B;_注文と返品_ リンク
 
 ベストプラクティスとして、カスタマーサービスポリシーに、RMAの要件とプロセスの説明を必ず含めてください。

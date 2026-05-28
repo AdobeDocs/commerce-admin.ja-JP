@@ -20,11 +20,11 @@ ht-degree: 0%
 
 ## returns属性の作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Returns]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Returns]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Attribute]**」をクリックします。
 
-   ![新しい戻り値 – 属性プロパティ ](./assets/attribute-returns-new-properties.png){width="600" zoomable="yes"}
+   ![新しい戻り値 – 属性プロパティ &#x200B;](./assets/attribute-returns-new-properties.png){width="600" zoomable="yes"}
 
 ### プロパティの定義
 
@@ -63,7 +63,7 @@ ht-degree: 0%
    - `Strip HTML Tags`
    - `Escape  HTML Entities`
 
-1. 属性を顧客に表示するには、_[!UICONTROL Storefront Properties]_セクションで&#x200B;**[!UICONTROL Show on Storefront]**を`Yes`に設定します。
+1. 属性を顧客に表示するには、_[!UICONTROL Storefront Properties]_&#x200B;セクションで&#x200B;**[!UICONTROL Show on Storefront]**&#x200B;を`Yes`に設定します。
 
 1. （オプション） **[!UICONTROL Sort Order]**&#x200B;に対して、この属性がページの同じ部分の他の属性と相対的に表示される場所を決定する数値を入力します。 （`0` = first, `1` = second, `2` = thirdなど）
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Manage Titles (Size, Color, etc.)]**」セクションで、各ストアビューのラベルを入力します。
 
-   ![ ラベルの管理](./assets/return-attributes.png){width="600" zoomable="yes"}
+   ![&#x200B; ラベルの管理](./assets/return-attributes.png){width="600" zoomable="yes"}
 
 1. 属性の&#x200B;**[!UICONTROL Input Type]**&#x200B;が`Dropdown`の場合、**[!UICONTROL Manage Options (Values of Your Attribute)]** セクションのオプションを管理します。
 
