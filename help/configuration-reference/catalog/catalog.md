@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
-description: Commerce管理者の[!UICONTROL Catalog] &gt; [!UICONTROL Catalog] ページで設定を確認します。
+title: '[!UICONTROL Catalog] > [!UICONTROL Catalog]'
+description: Commerce管理者の[!UICONTROL Catalog] > [!UICONTROL Catalog] ページで設定を確認します。
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
 source-git-commit: f8849b9cf570b2bc3a9d141ddde320ae36a9294a
 workflow-type: tm+mt
-source-wordcount: '3278'
+source-wordcount: '3350'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![製品フィールドの自動生成](./assets/catalog-product-fields-auto-generation.png)<!-- zoom -->
 
-<!-- [Product Fields Auto-Generation](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/product-workspace#default-field-values) -->
+<!-- [Product Fields Auto-Generation](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/product-workspace#default-field-values) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ![製品レビュー](./assets/catalog-product-reviews.png)<!-- zoom -->
 
-<!-- [Product Reviews](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews) -->
+<!-- [Product Reviews](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -44,21 +44,21 @@ ht-degree: 0%
 
 ## [!UICONTROL Storefront]
 
-![&#x200B; ストアフロント &#x200B;](./assets/catalog-storefront.png)<!-- zoom -->
+![ ストアフロント ](./assets/catalog-storefront.png)<!-- zoom -->
 
-<!-- [Storefront](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog/navigation/navigation-product-listings) -->
+<!-- [Storefront](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-product-listings) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL List Mode] | ストアビュー | 検索結果リストの形式を指定します。 オプション：<br/>**`Grid Only`**- リストを行と列のグリッドとして書式設定します。 各商品は、グリッドの1つのセルに表示されます。<br/>**`List Only`** – 各製品を別の行に配置してリストを書式設定します。 <br/>**`Grid (default / List)`**- デフォルトでは、商品はグリッド表示に表示され、リスト表示に切り替えることができます。<br/>**`List (default / Grid)`** - デフォルトでは、商品はリスト表示に表示され、グリッド表示に切り替えることができます。 |
+| [!UICONTROL List Mode] | ストアビュー | 検索結果リストの形式を指定します。 オプション：<br/>**`Grid Only`**- リストを行と列のグリッドとして書式設定します。 各商品は、グリッドの1つのセルに表示されます。<br/>**`List Only`** – 各製品を別の行に配置してリストを書式設定します。<br/>**`Grid (default / List)`**- デフォルトでは、商品はグリッド表示に表示され、リスト表示に切り替えることができます。<br/>**`List (default / Grid)`** - デフォルトでは、商品はリスト表示に表示され、グリッド表示に切り替えることができます。 |
 | [!UICONTROL Products per Page on Grid Allowed Values] | ストアビュー | グリッドビューに表示される製品数を指定します。 オプションを選択するには、複数の値をコンマで区切って入力します。 |
 | [!UICONTROL Products per Page on Grid Default Value] | ストアビュー | グリッドビューで、ページごとに表示される製品数をデフォルトで指定します。 |
 | [!UICONTROL Products per Page on List Allowed Values] | ストアビュー | リスト表示に表示される製品数を指定します。 オプションを選択するには、複数の値をコンマで区切って入力します。 |
 | [!UICONTROL Products per Page on List Default Value] | ストアビュー | リストビューで、ページごとに表示される製品数をデフォルトで指定します。 |
-| 製品リストの並べ替え基準 | ストアビュー | 検索結果リストの並べ替え順序を指定します。 オプションの選択は、カテゴリの表示設定と`Used for Sorting in Product Listing`に設定されている使用可能な属性によって決まります。 デフォルトは`Use All Available Attributes`に設定され、通常はBest Value、Name、Priceが含まれます。 この設定は、[!DNL Live Search] [製品リストページ ウィジェット &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-storefront/plp-styling)には適用されません。 |
+| 製品リストの並べ替え基準 | ストアビュー | 検索結果リストの並べ替え順序を指定します。 オプションの選択は、カテゴリの表示設定と`Used for Sorting in Product Listing`に設定されている使用可能な属性によって決まります。 デフォルトは`Use All Available Attributes`に設定され、通常はBest Value、Name、Priceが含まれます。 この設定は、[!DNL Live Search] [製品リストページ ウィジェット ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)には適用されません。 |
 | [!UICONTROL Allow All Products per Page] | ストアビュー | `Yes`に設定すると、「ページごとに表示」コントロールに`ALL` オプションが含まれます。 |
-| [!UICONTROL Remember Category Pagination] | グローバル | `Yes`に設定すると、現在のカテゴリのページネーション値は、顧客が[製品リスト &#x200B;](../../catalog/navigation-product-listings.md)で1つのカテゴリから別のカテゴリを参照する際に保存されます。 値を保存すると、より多くのキャッシュストレージが使用され、検索エンジンによるページのインデックス作成方法に影響を与える可能性があります。 オプション：`Yes` / `No` （デフォルト） |
-| [!UICONTROL Use Flat Catalog Category] | グローバル | [&#x200B; フラットカテゴリ構造](../../catalog/catalog-flat.md)を有効にします（推奨されません）。 オプション：`Yes` / `No` |
+| [!UICONTROL Remember Category Pagination] | グローバル | `Yes`に設定すると、現在のカテゴリのページネーション値は、顧客が[製品リスト ](../../catalog/navigation-product-listings.md)で1つのカテゴリから別のカテゴリを参照する際に保存されます。 値を保存すると、より多くのキャッシュストレージが使用され、検索エンジンによるページのインデックス作成方法に影響を与える可能性があります。 オプション：`Yes` / `No` （デフォルト） |
+| [!UICONTROL Use Flat Catalog Category] | グローバル | [ フラットカテゴリ構造](../../catalog/catalog-flat.md)を有効にします（推奨されません）。 オプション：`Yes` / `No` |
 | [!UICONTROL Use Flat Catalog Product] | グローバル | フラットなプロダクト構造を有効にします。 （推奨されない）オプション：`Yes` / `No` |
 | [!UICONTROL Swatches per Product] | ストアビュー | 各製品で使用可能なスウォッチの数を指定します。 既定：`16` |
 | [!UICONTROL Show Swatches in Product List] | ストアビュー | スウォッチが製品リストに表示されるかどうかを指定します。 オプション：`Yes` / `No` |
@@ -68,9 +68,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Alerts]
 
-![製品アラート &#x200B;](./assets/catalog-product-alerts.png)<!-- zoom -->
+![製品アラート ](./assets/catalog-product-alerts.png)<!-- zoom -->
 
-<!-- [Product Alerts](https://experienceleague.adobe.com/ja/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
+<!-- [Product Alerts](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 ![製品アラート実行設定](./assets/catalog-product-alerts-run-settings.png)<!-- zoom -->
 
-<!-- [Product Alerts Run Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
+<!-- [Product Alerts Run Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 ![製品画像プレースホルダー](./assets/catalog-product-image-placeholders.png)<!-- zoom -->
 
-<!-- [Product Image Placeholders](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/digital-assets/product-image-config#image-placeholders) -->
+<!-- [Product Image Placeholders](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image-config#image-placeholders) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -116,11 +116,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Recently Viewed/Compared Products]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 ![最近閲覧/比較した商品](./assets/catalog-recently-viewed-and-compared-products.png)<!-- zoom -->
 
-<!-- Recently Viewed/Compared Products](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/shopper-tools/products-viewed-compared) -->
+<!-- Recently Viewed/Compared Products](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/products-viewed-compared) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -135,9 +135,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Video]
 
-![製品ビデオ &#x200B;](./assets/catalog-product-video.png)<!-- zoom -->
+![製品ビデオ ](./assets/catalog-product-video.png)<!-- zoom -->
 
-<!-- [Product Videos](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/digital-assets/product-video) -->
+<!-- [Product Videos](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-video) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -152,7 +152,7 @@ ht-degree: 0%
 
 ![価格](./assets/catalog-price.png)<!-- zoom -->
 
-<!--Price](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/pricing/catalog-price-scope) -->
+<!--Price](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/catalog-price-scope) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -165,20 +165,20 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この節で説明する標準的な検索設定は、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ja)で異なります。
+>この節で説明する標準的な検索設定は、[ ライブサーチ ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)で異なります。
 
-<!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
+<!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
-![階層型ナビゲーション – 自動（価格範囲を等しくする） &#x200B;](./assets/layered-navigation-equalize-price-range.png)<!-- zoom -->
+![階層型ナビゲーション – 自動（価格範囲を等しくする） ](./assets/layered-navigation-equalize-price-range.png)<!-- zoom -->
 
-![階層型ナビゲーション – 自動（製品数を等しくする） &#x200B;](./assets/layered-navigation-equalize-product-counts.png)<!-- zoom -->
+![階層型ナビゲーション – 自動（製品数を等しくする） ](./assets/layered-navigation-equalize-product-counts.png)<!-- zoom -->
 
 ![階層型ナビゲーション – 手動](./assets/layered-navigation-manual.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Display Product Count] | ストアビュー | 各属性、価格帯、およびカテゴリの後に製品数が表示されるかどうかを指定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Price Navigation Step Calculation] | ストアビュー | [価格ナビゲーション手順](../../catalog/navigation-layered.md#configure-price-navigation)）の決定に使用する方法を決定します。 オプション：<br/>`Automatic (equalize price ranges)` - グループ内の製品の価格帯に基づいて計算します。 <br/>`Automatic (equalize product counts)` - グループ内の製品数に基づいて計算します。 グループ内の最小製品数のしきい値を設定して、製品がより小さなグループに分割されるのを防ぎます。 <br/>`Manual` – 価格間隔に入力する除算制限を使用します。 |
+| [!UICONTROL Price Navigation Step Calculation] | ストアビュー | [価格ナビゲーション手順](../../catalog/navigation-layered.md#configure-price-navigation)）の決定に使用する方法を決定します。 オプション：<br/>`Automatic (equalize price ranges)` - グループ内の製品の価格帯に基づいて計算します。<br/>`Automatic (equalize product counts)` - グループ内の製品数に基づいて計算します。 グループ内の最小製品数のしきい値を設定して、製品がより小さなグループに分割されるのを防ぎます。<br/>`Manual` – 価格間隔に入力する除算制限を使用します。 |
 | [!UICONTROL Default Price Navigation Step] | ストアビュー | 各ステップに含まれる製品数を決定します。 |
 | [!UICONTROL Maximum Number of Price Intervals] | ストアビュー | 階層化されたナビゲーションに表示される価格間隔の数に制限を設定します。 |
 
@@ -188,16 +188,16 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![&#x200B; カテゴリ権限](./assets/catalog-category-permissions.png)<!-- zoom -->
+![ カテゴリ権限](./assets/catalog-category-permissions.png)<!-- zoom -->
 
-<!-- [Category Permissions](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/categories/category-permissions) -->
+<!-- [Category Permissions](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/category-permissions) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable] | グローバル | カテゴリ制限を有効にします。 デフォルトでは、この機能を使用すると、すべてのカテゴリが制限されます。 オプション：`Yes` / `No` |
-| [!UICONTROL Allow Browsing Category] | web サイト | カテゴリを参照できるユーザーを指定します。 オプション：<br/>`Yes, for Everyone` – すべての訪問者と顧客がカテゴリを参照できるようにします。 <br/>`Yes, for Specified Customer Groups` – 選択した顧客グループのメンバーのみがカテゴリを参照できます。 <br/>`No, Redirect to Landing Page` - カテゴリへのアクセスを拒否し、選択したページにリダイレクトします。 |
-| [!UICONTROL Display Product Prices] | web サイト | カテゴリの製品価格の表示を制御します。 オプション：<br/>`Yes, for Everyone` – すべてのユーザーがカテゴリ内の製品の価格を確認できます。 <br/>`Yes, for Specified Customer Groups` – 選択した顧客グループのメンバーのみが、カテゴリ内の製品の価格を表示できます。 <br/>`No` - カテゴリの製品価格の表示をオフにします。 |
-| [!UICONTROL Allow Adding to Cart] | web サイト | カテゴリから製品を購入できるユーザーを決定します。 オプション：<br/>`Yes, for Everyone` - カテゴリの商品を全員が買い物かごに入れることができます。 <br/>`Yes, for Specified Customer Groups` – 選択した顧客グループのメンバーのみが、カテゴリの商品をショッピングカートに入れることができます。 <br/>`No` - カテゴリの商品を買い物かごに入れることを許可していません。 |
+| [!UICONTROL Allow Browsing Category] | web サイト | カテゴリを参照できるユーザーを指定します。 オプション：<br/>`Yes, for Everyone` – すべての訪問者と顧客がカテゴリを参照できるようにします。<br/>`Yes, for Specified Customer Groups` – 選択した顧客グループのメンバーのみがカテゴリを参照できます。<br/>`No, Redirect to Landing Page` - カテゴリへのアクセスを拒否し、選択したページにリダイレクトします。 |
+| [!UICONTROL Display Product Prices] | web サイト | カテゴリの製品価格の表示を制御します。 オプション：<br/>`Yes, for Everyone` – すべてのユーザーがカテゴリ内の製品の価格を確認できます。<br/>`Yes, for Specified Customer Groups` – 選択した顧客グループのメンバーのみが、カテゴリ内の製品の価格を表示できます。<br/>`No` - カテゴリの製品価格の表示をオフにします。 |
+| [!UICONTROL Allow Adding to Cart] | web サイト | カテゴリから製品を購入できるユーザーを決定します。 オプション：<br/>`Yes, for Everyone` - カテゴリの商品を全員が買い物かごに入れることができます。<br/>`Yes, for Specified Customer Groups` – 選択した顧客グループのメンバーのみが、カテゴリの商品をショッピングカートに入れることができます。<br/>`No` - カテゴリ内の商品をショッピングカートに入れることを許可していません。 |
 | [!UICONTROL Disallow Catalog Search by] | web サイト | カテゴリ内の製品の検索が許可されていない顧客グループを識別します。 |
 
 {style="table-layout:auto"}
@@ -206,16 +206,16 @@ ht-degree: 0%
 
 ![検索エンジン最適化](./assets/catalog-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/settings/product-search-engine-optimization) -->
+<!-- [Search Engine Optimization](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/settings/product-search-engine-optimization) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | ストアビュー | _Popular Search Terms_&#x200B;がストアに実装されているかどうかを判断します。 この設定は、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ja)を使用するストアには適用されません。 オプション：`Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | ストアビュー | _Popular Search Terms_&#x200B;がストアに実装されているかどうかを判断します。 この設定は、[ ライブサーチ ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)を使用するストアには適用されません。 オプション：`Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | ストアビュー | htmlやhtmなどの接尾辞を製品URLに適用するかどうかを指定します。 使用する場合は、自動的に適用されるので、接尾辞の前に期間を含めないでください。 |
 | [!UICONTROL Category URL Suffix] | ストアビュー | htmlやhtmなどのサフィックスをカテゴリ URLに適用するかどうかを指定します。 使用する場合は、自動的に適用されるので、接尾辞の前に期間を含めないでください。 |
-| [!UICONTROL Use Categories Path for Product URLs] | ストアビュー | ストアフロントの製品URLにカテゴリーパスが含まれているかどうかを指定します。 これにより、複数のURLが同じページを指すようになり、検索順位に影響を与える可能性があります。 詳しくは、[正規メタタグ &#x200B;](../../merchandising-promotions/meta-data.md#canonical-meta-tag)を参照してください。 |
+| [!UICONTROL Use Categories Path for Product URLs] | ストアビュー | ストアフロントの製品URLにカテゴリーパスが含まれているかどうかを指定します。 これにより、複数のURLが同じページを指すようになり、検索順位に影響を与える可能性があります。 詳しくは、[正規メタタグ ](../../merchandising-promotions/meta-data.md#canonical-meta-tag)を参照してください。 |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | ストアビュー | URL キーが変更されるたびに、永続的なリダイレクトが自動的に作成されるかどうかを指定します。 実装すると、「製品URL キー」フィールドの下にある「古いURL用にカスタムリダイレクトを作成」チェックボックスがデフォルトで選択されます。 オプション：`Yes` / `No` |
-| [!UICONTROL Generate "category/product" URL Rewrites] | グローバル | 多くの割り当て済み商品を含むカテゴリをユーザーが保存したときに、Adobe Commerceがデータを生成し、それを書き換えテーブルに保存するかどうかを指定します。  <br/><br/>このオプションを変更しても、この設定に関係なく商品URLが自動的に解決されるため、Adobe Commerceでの商品URLの解決方法には影響しません。 <br/><br/> オプション：`Yes` / `No` <br/><br/>**_Important:_**&#x200B;生成されたデータをURL書き換えテーブルに保存すると、パフォーマンスが低下する可能性があります。 詳しくは、[製品の自動リダイレクト &#x200B;](../../merchandising-promotions/url-redirect-product-automatic.md)を参照してください。 |
+| [!UICONTROL Generate "category/product" URL Rewrites] | グローバル | 多くの割り当て済み商品を含むカテゴリをユーザーが保存したときに、Adobe Commerceがデータを生成し、それを書き換えテーブルに保存するかどうかを指定します。  <br/><br/>このオプションを変更しても、この設定に関係なく商品URLが自動的に解決されるため、Adobe Commerceでの商品URLの解決方法には影響しません。 <br/><br/> オプション：`Yes` / `No` <br/><br/>**_Important:_**&#x200B;生成されたデータをURL書き換えテーブルに保存すると、パフォーマンスが低下する可能性があります。 詳しくは、[製品の自動リダイレクト ](../../merchandising-promotions/url-redirect-product-automatic.md)を参照してください。 |
 | [!UICONTROL Apply transliteration for product URL] | ストアビュー | 製品URLを作成または更新する際に文字変換が適用されるかどうかを指定します。 オプション：`Yes` / `No`。 デフォルトは`Yes`に設定されています。 <br/><br/>特定の使用例では、文字変換を無効にする必要があります。 例えば、中国語でオンラインストアを運営する場合、SEOのベストプラクティスでは、商品URLが商品名と一致することが推奨されます。 このオプションを`No`に設定すると、ASCIIに相当する文字の代わりに、製品URLで中国語の文字を使用できるようになります。 |
 | [!UICONTROL Page Title Separator] | ストアビュー | ブラウザーのタイトルバーで、カテゴリ名とサブカテゴリを区切る文字を識別します。 |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | ストアビュー | 同じカテゴリーページを指すURLが複数ある場合、このオプションは正規メタタグを使用して、検索エンジンがインデックスを作成する必要があるカテゴリ URLを識別します。 URLには、メタタグを使用したカテゴリへのフルネームが含まれます。 これにより、重複コンテンツを減らし、SEOを向上させることができます。 オプション：`Yes` / `No` |
@@ -225,9 +225,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Category Top Navigation]
 
-![&#x200B; カテゴリの上位ナビゲーション &#x200B;](./assets/catalog-category-top-navigation.png)<!-- zoom -->
+![ カテゴリの上位ナビゲーション ](./assets/catalog-category-top-navigation.png)<!-- zoom -->
 
-<!-- Category Top Navigation](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog/navigation/navigation-top) -->
+<!-- Category Top Navigation](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-top) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -237,15 +237,15 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-カタログ検索は、[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ja)またはAdobe Commerceがサポートするサードパーティの検索エンジンサービスを使用して設定できます。 インストールの手順に従います。
+カタログ検索は、[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)またはAdobe Commerceがサポートするサードパーティの検索エンジンサービスを使用して設定できます。 インストールの手順に従います。
 
 ### Adobe Commerceと[!DNL Live Search]
 
 ライブサーチがインストールされている場合、カタログ検索には次の設定設定が含まれます。
 
-![&#x200B; ライブサーチのカタログ検索](./assets/catalog-search-live-search.png)<!-- zoom -->
+![ ライブサーチのカタログ検索](./assets/catalog-search-live-search.png)<!-- zoom -->
 
-<!-- [Catalog Search for Live Search](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog/search/search-configuration) -->
+<!-- [Catalog Search for Live Search](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-configuration) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -262,10 +262,10 @@ Adobe Commerceは、OpenSearchとElasticsearchをサポートしています。 
 
 >[!IMPORTANT]
 >
->- 2023年8月のElasticsearch 7のサポート終了のお知らせにより、Adobeでは、すべてのAdobe Commerceのお客様がOpenSearch 2.x検索エンジンに移行することをお勧めします。 アップグレード中に検索エンジンを移行する方法について詳しくは、[&#x200B; アップグレードガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=ja)の「_OpenSearchへの移行_」を参照してください。
+>- 2023年8月のElasticsearch 7のサポート終了のお知らせにより、Adobeでは、すべてのAdobe Commerceのお客様がOpenSearch 2.x検索エンジンに移行することをお勧めします。 アップグレード中に検索エンジンを移行する方法について詳しくは、_アップグレードガイド_&#x200B;の「[OpenSearchへの移行](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)」を参照してください。
 >- バージョン 2.4.4および2.4.3-p2では、「Elasticsearch」というラベルが付けられたすべてのフィールドがOpenSearchにも適用されます。 Elasticsearch 8.xのサポートがバージョン 2.4.6で導入されたときには、ElasticsearchとOpenSearchの設定を区別するために新しいラベルが作成されました。 ただし、両方の設定オプションは同じです。
 
-![&#x200B; カタログ検索設定オプション &#x200B;](./assets/catalog-search-opensearch.png){zoomable="yes"}
+![ カタログ検索設定オプション ](./assets/catalog-search-opensearch.png){zoomable="yes"}
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -283,19 +283,19 @@ Adobe Commerceは、OpenSearchとElasticsearchをサポートしています。 
 | [!UICONTROL OpenSearch HTTP Password] | グローバル | _Elasticsearch HTTP認証を有効にする_&#x200B;が`Yes`に設定されている場合、OpenSearchまたはElasticsearch HTTP認証のパスワードを指定します。 |
 | [!UICONTROL OpenSearch Server Timeout] | グローバル | OpenSearchまたはElasticsearch サーバーへのリクエストがタイムアウトするまでの秒数を指定します。 デフォルト値：`15` |
 | [!UICONTROL Test Connection] |  | OpenSearchまたはElasticsearch接続を検証します。 |
-| [!UICONTROL Enable Search Recommendations] | ストアビュー | 検索結果が返されず、検索結果ページの「`Related search terms`」セクションに表示されるときに検索レコメンデーションが提供されるかどうかを指定します。 オプション：`Yes` / `No` <br/>Yesに設定すると、_[!UICONTROL Search Recommendations Count]_&#x200B;と_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;の追加オプションが表示されます。 |
+| [!UICONTROL Enable Search Recommendations] | ストアビュー | 検索結果が返されず、検索結果ページの「`Related search terms`」セクションに表示されるときに検索レコメンデーションが提供されるかどうかを指定します。 オプション：`Yes` / `No` <br/>Yesに設定すると、_[!UICONTROL Search Recommendations Count]_と_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;の追加オプションが表示されます。 |
 | [!UICONTROL Search Recommendations Count] | ストアビュー | レコメンデーションとして提供される検索語句の数を指定します。 デフォルトでは、5つしか表示されません。 |
 | [!UICONTROL Show Results Count for Each Recommendation] | ストアビュー | `Yes`に設定すると、提案された検索レコメンデーションで見つかった製品数が角括弧で囲まれて表示されます。 オプション：`Yes` / `No` |
-| [!UICONTROL Enable Search Suggestions] | ストアビュー | 検索候補が一般的なスペル ミスに対して表示されるかどうかを指定します。 有効にすると、検索結果を返さず、`Did you mean`検索結果&#x200B;**ページの** セクションに表示されるリクエストに対して検索候補が表示されます。 検索候補は、検索のパフォーマンスに影響を与える可能性があります。 `Yes`に設定すると、「検索レコメンデーションと関連するフィールドを有効にする」の追加オプションが表示されます。 オプション：`Yes` / `No` |
+| [!UICONTROL Enable Search Suggestions] | ストアビュー | 検索候補が一般的なスペル ミスに対して表示されるかどうかを指定します。 有効にすると、検索結果を返さず、**検索結果** ページの`Did you mean` セクションに表示されるリクエストに対して検索候補が表示されます。 検索候補は、検索のパフォーマンスに影響を与える可能性があります。 `Yes`に設定すると、「検索レコメンデーションと関連するフィールドを有効にする」の追加オプションが表示されます。 オプション：`Yes` / `No` |
 | [!UICONTROL Search Suggestions Count] | ストアビュー | 提供される検索候補の数を指定します。 例：`2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | ストアビュー | 各候補に対して検索結果の数を表示するかどうかを指定します。 テーマに応じて、番号は通常、提案の後ろに括弧内に表示されます。 オプション：`Yes` / `No` |
 | [!UICONTROL Minimum Terms to Match] | ストアビュー | 検索結果が一致する必要があるクエリの語句の数に対応する値を指定して返します。 これにより、買い物客にとって最適な検索結果の関連性が確保されます。 パーセント値は数値に関連付けられ、必要に応じて切り捨てられ、クエリで一致する用語の最小数として使用されます。 値は、負または正の整数、負または正のパーセント、2つの組み合わせ、または複数の組み合わせにすることができます。 詳しくは、OpenSearch ドキュメントの[minimum_should_match パラメーター](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/)を参照してください。 |
 
 ## [!UICONTROL Downloadable Product Options]
 
-![&#x200B; ダウンロード可能な製品オプション &#x200B;](./assets/catalog-downloadable-product-options.png)<!-- zoom -->
+![ ダウンロード可能な製品オプション ](./assets/catalog-downloadable-product-options.png)<!-- zoom -->
 
-<!-- [Downloadable Product Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/types/product-create-downloadable#configure-the-download-options) -->
+<!-- [Downloadable Product Options](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-downloadable#configure-the-download-options) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -306,15 +306,15 @@ Adobe Commerceは、OpenSearchとElasticsearchをサポートしています。 
 | [!UICONTROL Default Link Title] | ストアビュー | ダウンロード可能なすべてのタイトルのデフォルトリンク。 |
 | [!UICONTROL Opens Links in New Window] | web サイト | ダウンロードリンクが新しいブラウザーウィンドウで開くかどうかを指定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Use Content Disposition] | ストアビュー | ダウンロード可能なコンテンツへのリンクを、電子メールの添付ファイルとして、またはブラウザーウィンドウのインラインリンクとして配信する方法を指定します。 オプション：<br/>**`Attachment`**- ダウンロードリンクは電子メールの添付ファイルとして配信されます。<br/>**`Inline`** - ダウンロードリンクは、web ページのインラインリンクとして配信されます。 |
-| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | web サイト | ダウンロード可能な製品を購入するゲストがアカウントに登録し、チェックアウトプロセスを完了するためにログインする必要があるかどうかを判断します。 オプション：<br/>**`Yes`**- カートにダウンロード可能な製品が含まれている場合、ゲストはアカウントに登録するか、既存のアカウントにログインして購入を完了する必要があります。<br/>**`No`** - ダウンロードリンクは、電子メールメッセージの本文にインラインリンクとして配信されます。 <br/> _&#x200B;**注：**&#x200B;_ ゲストチェックアウトは、共有可能が`Yes`に設定されている場合にのみ、ダウンロード製品で利用できます。 |
+| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | web サイト | ダウンロード可能な製品を購入するゲストがアカウントに登録し、チェックアウトプロセスを完了するためにログインする必要があるかどうかを判断します。 オプション：<br/>**`Yes`**- カートにダウンロード可能な製品が含まれている場合、ゲストはアカウントに登録するか、既存のアカウントにログインして購入を完了する必要があります。<br/>**`No`** - ダウンロードリンクは、電子メールメッセージの本文にインラインリンクとして配信されます。 <br/> _**注：**_ ゲストチェックアウトは、共有可能が`Yes`に設定されている場合にのみ、ダウンロード製品で利用できます。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Date & Time Custom Options]
 
-![日付と時刻のカスタムオプション &#x200B;](./assets/catalog-date-time-custom-options.png)<!-- zoom -->
+![日付と時刻のカスタムオプション ](./assets/catalog-date-time-custom-options.png)<!-- zoom -->
 
-<!-- Date & Time Custom Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/product-attributes/attributes-input-types#date-and-time-options) -->
+<!-- Date & Time Custom Options](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types#date-and-time-options) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -329,9 +329,9 @@ Adobe Commerceは、OpenSearchとElasticsearchをサポートしています。 
 
 {{ee-feature}}
 
-![&#x200B; カタログイベント &#x200B;](./assets/catalog-events.png)<!-- zoom -->
+![ カタログイベント ](./assets/catalog-events.png)<!-- zoom -->
 
-<!-- [Catalog Events](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/promotions/events/events-private-sales) -->
+<!-- [Catalog Events](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/events/events-private-sales) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -346,9 +346,9 @@ Adobe Commerceは、OpenSearchとElasticsearchをサポートしています。 
 
 {{ee-feature}}
 
-![&#x200B; ルールベースの製品リレーションシップ &#x200B;](./assets/catalog-rule-based-product-relations.png)<!-- zoom -->
+![ ルールベースの製品リレーションシップ ](./assets/catalog-rule-based-product-relations.png)<!-- zoom -->
 
-<!-- [Rule-Based Product Relations](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) -->
+<!-- [Rule-Based Product Relations](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

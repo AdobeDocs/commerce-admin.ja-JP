@@ -1,6 +1,6 @@
 ---
 title: 会社アカウントを承認
-description: 管理者で会社アカウントのリクエストを承認する方法を説明します。
+description: 管理者で会社アカウントリクエストを承認する方法について説明します。
 exl-id: c7123383-0e94-4d6c-be3c-b6ca84145a59
 feature: B2B, Companies, Configuration
 role: Admin, User
@@ -13,50 +13,50 @@ ht-degree: 0%
 
 # 会社アカウントを承認
 
-会社を作成するためにストアフロントから受け取ったリクエストのステータスは、ストア管理者がリクエストを確認し、承認または拒否するまで `Pending Approval` 定されます。 会社アカウントのステータスは、次のいずれかに設定される場合があります。
+会社を作成するためにストアフロントから受け取ったリクエストのステータスは、ストア管理者がリクエストを確認し、承認または拒否されるまで`Pending Approval`です。 会社アカウントのステータスは、次のいずれかに設定できます。
 
 - [!UICONTROL Active]
 - [!UICONTROL Pending Approval]
 - [!UICONTROL Rejected]
 - [!UICONTROL Blocked]
 
-[&#x200B; アクションコントロール &#x200B;](account-company-manage.md) を使用して、複数の会社リクエストを承認することもできます。
+[ アクション コントロール ](account-company-manage.md)を使用して、複数の会社リクエストを承認することもできます。
 
-![&#x200B; 承認保留中 &#x200B;](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
+![承認待ち](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
 
-## 保留中の会社アカウントを承認
+## 会社の保留中のアカウントを承認
 
-1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL Companies]** に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL Companies]**&#x200B;に移動します。
 
-   グリッドの上にある _[!UICONTROL Columns]_&#x200B;セレクターを使用して、**[!UICONTROL Status]**&#x200B;の列を表示できます。
+   グリッドの上にある&#x200B;_[!UICONTROL Columns]_セレクターを使用して、**[!UICONTROL Status]**列を表示できます。
 
-1. 「_[!UICONTROL Action]_」列で「**[!UICONTROL Edit]**」をクリックします。
+1. _[!UICONTROL Action]_列で、**[!UICONTROL Edit]**をクリックします。
 
-1. **[!UICONTROL Company Status]** を `Active` に設定します。
+1. **[!UICONTROL Company Status]**&#x200B;を`Active`に設定します。
 
-   ![&#x200B; 会社ステータスの設定 &#x200B;](./assets/company-status-active.png){width="700" zoomable="yes"}
+   ![会社のステータスを設定](./assets/company-status-active.png){width="700" zoomable="yes"}
 
-1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL Change status]**」をクリックします。
+1. 確認を求められたら、**[!UICONTROL Change status]**&#x200B;をクリックします。
 
-   会社の管理者に、会社がアクティブになったというメール通知が届きます。
+   会社の管理者は、会社がアクティブになったというメール通知を受け取ります。
 
-1. 該当する場合、**[!UICONTROL Sales Representative]** を特定の管理者ユーザーアカウントに設定します。
+1. 該当する場合は、**[!UICONTROL Sales Representative]**&#x200B;を特定の管理者ユーザーアカウントに設定します。
 
-1. 「**[!UICONTROL Account Information]**![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」セクションを展開し、「**[!UICONTROL Comment]**」フィールドを使用して、アカウントに関するメモを入力します。
+1. **[!UICONTROL Account Information]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、**[!UICONTROL Comment]** フィールドを使用してアカウントに関するメモを入力します。
 
    コメントはストアフロントからは表示されません。
 
-1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-   会社アカウントが承認されたことを示す確認メールが会社と会社の管理者に送信されます。
+   会社アカウントが承認されたことを確認するメールが、会社および会社の管理者に送信されます。
 
 ## 会社ステータス
 
 | ステータス | 説明 |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Active] | 会社は承認され、会社管理者がストアフロントから管理できます。 |
-| [!UICONTROL Pending Approval] | 会社アカウントを作成するリクエストがストアフロントから送信されましたが、まだレビューされていません。 |
+| [!UICONTROL Active] | 会社は承認され、会社の管理者がストアフロントから管理できます。 |
+| [!UICONTROL Pending Approval] | 会社アカウントの作成リクエストがストアフロントから送信されましたが、まだレビューされていません。 |
 | [!UICONTROL Rejected] | 会社アカウントを作成するリクエストは、ストア管理者によって拒否されました。 |
-| [!UICONTROL Blocked] | 会社の帳簿は調わなくなった。 顧客はストアフロントからアカウントにアクセスできますが、購入することはできません。 |
+| [!UICONTROL Blocked] | 会社のアカウントはもはや良い状態ではありません。 顧客はストアフロントからアカウントにアクセスできますが、購入はできません。 |
 
 {style="table-layout:auto"}
