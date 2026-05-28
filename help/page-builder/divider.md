@@ -1,160 +1,160 @@
 ---
-title: 要素 – 区切り線
-description: ステージ内のコンテンツのセクション間の視覚的な区切りとしてルールを追加するために使用される、ディバイダー  [!DNL Page Builder]  コンテンツタイプについて説明します。
+title: 要素 – ディバイダ
+description: ' [!DNL Page Builder] 段階のコンテンツのセクション間にルールを視覚的な区切りとして追加するために使用されるディバイダ コンテンツ タイプについて説明します。'
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
 
-# 要素 – 区切り線
+# 要素 – ディバイダ
 
-_ディバイダー_ コンテンツタイプを使用して、[[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage) 内のコンテンツのセクション間の視覚的な区切りとしてルールを追加します。 分割線の色、太さ、幅を指定できます。 また、整列の制御、余白とパディングの設定、コンテナの境界線の形式の設定を行うこともできます。 デフォルトでは、区切りはコンテナの全幅を拡張するヘアーラインルールで、パディングに余裕があります。
+_Divider_ コンテンツ タイプを使用して、[[!DNL Page Builder]  ステージ ](workspace.md#stage)のコンテンツのセクション間にルールを視覚的な区切りとして追加します。 境界線の色、太さ、幅を指定できます。 また、整列の制御、余白とパディングの設定、コンテナの境界線の形式を行うこともできます。 デフォルトでは、区切り記号は、コンテナの全幅を拡張するヘアライン規則で、パディングを許可します。
 
-![&#x200B; 境界線のないコンテナ内のデフォルトの区切り文字 &#x200B;](./assets/pb-elements-divider-default.png){width="500" zoomable="yes"}
+![境界線のないコンテナ内のデフォルトの区切り記号](./assets/pb-elements-divider-default.png){width="500" zoomable="yes"}
 
-ほとんどのディバイダーコンテナは非表示ですが、次の例では、コンテナを赤い破線で囲み、ディバイダー、パディング、コンテナの関係を確認できます。 区切り線の上下のパディングを調整して、要素間の間隔を制御できます。
+ほとんどの区切りコンテナは表示されませんが、次の例では、区切り記号、パディング、コンテナ間の関係を確認できるように、コンテナに赤い破線が表示されています。 区切り記号の上下のパディングを調整して、エレメント間の間隔を制御できます。
 
-![&#x200B; コンテナ内のパディングを破線の境界線で区切る &#x200B;](./assets/pb-elements-divider-default-border-dashed.png){width="500" zoomable="yes"}
+![境界線が点線のコンテナ内にパディングを持つディバイダー](./assets/pb-elements-divider-default-border-dashed.png){width="500" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
-## ディバイダーツールボックス
+## 区切りツール ボックス
 
 | ツール | アイコン | 説明 |
 | ---- | --------------------| ------------|
-| 移動 | ![&#x200B; 移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | ディバイダーコンテナをページ上の別の有効な場所に移動します。 |
-| （ラベル） | デバイダ | 現在のコンテナを分割要素として識別します。 |
-| 設定 | ![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | ディバイダーを編集ページが開きます。このページで、ディバイダーとそのコンテナのプロパティを変更できます。 |
-| Hide | ![&#x200B; アイコンを非表示 &#x200B;](./assets/pb-icon-hide.png){width="25"} | ディバイダーコンテナを非表示にします。 |
-| 表示 | ![&#x200B; アイコンを表示 &#x200B;](./assets/pb-icon-show.png){width="25"} | 非表示のディバイダーコンテナを表示します。 |
-| 複製 | ![&#x200B; 複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="25"} | ディバイダーコンテナをコピーします。 |
-| 削除 | ![&#x200B; 削除アイコン &#x200B;](./assets/pb-icon-remove.png){width="25"} | ディバイダーコンテナとそのコンテンツをステージから削除します。 |
+| 移動 | ![移動アイコン ](./assets/pb-icon-move.png){width="25"} | 区切りコンテナをページ上の別の有効な場所に移動します。 |
+| （ラベル） | 区切り記号 | 現在のコンテナをディバイダ要素として識別します。 |
+| 設定 | ![設定アイコン ](./assets/pb-icon-settings.png){width="25"} | ディバイダを編集ページが開き、ディバイダとそのコンテナのプロパティを変更できます。 |
+| 非表示 | ![ アイコンを非表示](./assets/pb-icon-hide.png){width="25"} | ディバイダーコンテナを非表示にします。 |
+| 表示 | ![ アイコンを表示](./assets/pb-icon-show.png){width="25"} | 非表示の仕切りコンテナを表示します。 |
+| 重複 | ![ アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | ディバイダーコンテナのコピーを作成します。 |
+| 削除 | ![ アイコンを削除](./assets/pb-icon-remove.png){width="25"} | 分割コンテナとそのコンテンツをステージから削除します。 |
 
 {style="table-layout:auto"}
 
 {{$include /help/_includes/page-builder-hidden-element-note.md}}
 
-## ディバイダーの追加
+## 区切り記号を追加
 
-1. [!DNL Page Builder] パネルで **[!UICONTROL Elements]** を展開し、**[!UICONTROL Divider]** プレースホルダーをステージ上の行、列またはタブセットにドラッグします。
+1. [!DNL Page Builder] パネルで、**[!UICONTROL Elements]**&#x200B;を展開し、**[!UICONTROL Divider]** プレースホルダーをステージ上の行、列、またはタブ セットにドラッグします。
 
-   赤いガイドラインを参考にして、ステージ上の別のコンテンツコンテナの前または後にディバイダーを配置します。
+   ステージ上の別のコンテンツコンテナの前または後に区切りを配置する場合は、赤いガイドラインを参照してください。
 
-   ![&#x200B; ディバイダーのステージへのドラッグ &#x200B;](./assets/pb-elements-divider-drag.png){width="600" zoomable="yes"}
+   ![区切りをステージにドラッグする](./assets/pb-elements-divider-drag.png){width="600" zoomable="yes"}
 
-   次の使用例では、区切り記号を使用して文字列の新しいセクションの先頭を指定します。
+   次の例では、区切り記号はテキストの新しいセクションの先頭をマークします。
 
-   ![&#x200B; テキストのセクションを区切る区切り記号 &#x200B;](./assets/pb-elements-dividers-multiple-text-row.png){width="500" zoomable="yes"}
+   ![ テキストのセクションを区切る](./assets/pb-elements-dividers-multiple-text-row.png){width="500" zoomable="yes"}
 
-1. 新しいディバイダーの設定を指定するには、次の手順に従います。
+1. 新しいディバイダの設定を指定するには、次の手順に従います。
 
-## ディバイダー設定の変更
+## 区切り記号の設定の変更
 
-1. ディバイダーコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![&#x200B; 設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. 分割コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-   ![&#x200B; ディバイダーツールボックス &#x200B;](./assets/pb-elements-divider-toolbox.png){width="500" zoomable="yes"}
+   ![ ディバイダーツールボックス ](./assets/pb-elements-divider-toolbox.png){width="500" zoomable="yes"}
 
-1. 次のいずれかの方法を使用して、ディバイダー **[!UICONTROL Line Color]** を変更します。
+1. 次のいずれかの方法を使用して区切り記号&#x200B;**[!UICONTROL Line Color]**&#x200B;を変更します。
 
-   - 有効な [HTML カラー名 &#x200B;](https://en.wikipedia.org/wiki/Web_colors) を入力してください。 例：`Teal`。
-   - 16 進数のカラー値を入力します。 例：`#008080`。
+   - 有効な[HTML カラー名](https://en.wikipedia.org/wiki/Web_colors)を入力してください。 例：`Teal`。
+   - 16進数カラー値を入力します。 例：`#008080`。
 
-   完了したら、「**[!UICONTROL Apply]**」をクリックします。
+   完了したら、**[!UICONTROL Apply]**&#x200B;をクリックします。
 
-   ![&#x200B; 線の色の設定 &#x200B;](./assets/pb-elements-divider-settings-line-color.png){width="600" zoomable="yes"}
+   ![線の色を設定しています](./assets/pb-elements-divider-settings-line-color.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Line Thickness]** をピクセル単位で入力します。
+1. **[!UICONTROL Line Thickness]**&#x200B;をピクセル単位で入力します。
 
-1. 測定単位を指定するには、**[!UICONTROL Line Width]** に続いて `px` または `%` を入力します。
+1. 測定単位を示すには、**[!UICONTROL Line Width]**&#x200B;の後に`px`または`%`を入力します。
 
-   ![&#x200B; 線の色、太さ、幅の設定 &#x200B;](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
+   ![線の色、太さ、幅の設定](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. 必要に応じて、_[!UICONTROL Advanced]_&#x200B;設定を更新します。
+1. 必要に応じて&#x200B;_[!UICONTROL Advanced]_設定を更新します。
 
-   - 親コンテナ内のディバイダーの位置を制御するには、**[!UICONTROL Alignment]** のオプションを選択します。
-
-     | オプション | 説明 |
-     | ------ | ----------- |
-     | `Default` | 現在のテーマのスタイル シートで指定されている線形の既定の設定を適用します。 |
-     | `Left` | 親コンテナの左罫線に沿ってリストを配置します。指定したパディングはすべて許可されます。 |
-     | `Center` | 親コンテナの中央にリストを揃えます。指定したパディングに対する許容値を使用します。 |
-     | `Right` | 親コンテナの右端に沿ってブロックを配置します。指定したパディングは許可されます。 |
-
-     {style="table-layout:auto"}
-
-     次の例では、ディバイダーに中央揃えを使用するようにオプションを設定しています。
-
-     ![&#x200B; 中央揃えのデバイダー &#x200B;](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
-
-   - ディバイダーコンテナの 4 つの辺すべてに適用する **[!UICONTROL Border]** スタイルを設定します。
+   - 親コンテナ内の区切り記号の位置を制御するには、**[!UICONTROL Alignment]**&#x200B;を選択します。
 
      | オプション | 説明 |
      | ------ | ----------- |
-     | `Default` | 関連付けられたスタイル シートで指定されている既定の罫線スタイルを適用します。 |
-     | `None` | コンテナの境界線の表示はしません。 |
-     | `Dotted` | コンテナの境界線は点線で表示されます。 |
-     | `Dashed` | コンテナの境界線は破線で表示されます。 |
-     | `Solid` | コンテナの境界線は実線で表示されます。 |
-     | `Double` | コンテナの境界線は二重線で表示されます。 |
-     | `Groove` | コンテナの境界線は溝付き線で表示されます。 |
-     | `Ridge` | コンテナの境界線は、境界線として表示されます。 |
-     | `Inset` | コンテナの境界線は、インセットされた線として表示されます。 |
-     | `Outset` | コンテナの境界線は、先頭行として表示されます。 |
+     | `Default` | 現在のテーマのスタイルシートで指定されている整列のデフォルト設定を適用します。 |
+     | `Left` | 親コンテナの左端に沿ってリストを整列させ、指定されたパディングを許可します。 |
+     | `Center` | 親コンテナの中央にリストを整列させ、指定された任意のパディングを許可します。 |
+     | `Right` | 親コンテナの右端に沿ってブロックを整列させ、指定されたパディングを許可します。 |
 
      {style="table-layout:auto"}
 
-   - `None` 以外の境界線のスタイルを設定する場合は、境界線の表示オプションを完了します。
+     次の例では、区切り記号に中央揃えを使用するようにオプションが設定されています。
+
+     ![中央揃えの分割線](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
+
+   - 分割コンテナのすべての4つの側面に適用される&#x200B;**[!UICONTROL Border]** スタイルを設定します。
+
+     | オプション | 説明 |
+     | ------ | ----------- |
+     | `Default` | 関連付けられたスタイルシートで指定されたデフォルトの境界線スタイルを適用します。 |
+     | `None` | コンテナの境界を表示しません。 |
+     | `Dotted` | コンテナの境界線が点線で表示されます。 |
+     | `Dashed` | コンテナの境界線が破線で表示されます。 |
+     | `Solid` | コンテナの境界線が実線として表示されます。 |
+     | `Double` | コンテナの境界線が2行で表示されます。 |
+     | `Groove` | コンテナの境界線は、溝付き線として表示されます。 |
+     | `Ridge` | コンテナの境界線は、うね付きの線として表示されます。 |
+     | `Inset` | コンテナの境界線がインセット線として表示されます。 |
+     | `Outset` | コンテナの境界線がアウトセット線として表示されます。 |
+
+     {style="table-layout:auto"}
+
+   - `None`以外の境界線スタイルを設定する場合は、境界線の表示オプションを完了します。
 
      | オプション | 説明 |
      | ------ |------------ |
-     | [!UICONTROL Border Color] | 見本を選択するか、カラーピッカーをクリックするか、有効なカラー名または同等の 16 進数値を入力して、カラーを指定します。 |
+     | [!UICONTROL Border Color] | 色見本を選択するか、カラーピッカーをクリックするか、有効なカラー名または同等の16進数値を入力して、カラーを指定します。 |
      | [!UICONTROL Border Width] | 境界線の幅のピクセル数を入力します。 |
-     | [!UICONTROL Border Radius] | ピクセル数を入力して、境界線の各コーナーを丸めるために使用する半径のサイズを定義します。 |
+     | [!UICONTROL Border Radius] | 境界線の各隅を丸めるために使用する半径のサイズを定義するピクセル数を入力します。 |
 
      {style="table-layout:auto"}
 
-   - （オプション）コンテナに適用する現在のスタイルシートの **[!UICONTROL CSS classes]** の名前を指定します。
+   - （オプション）現在のスタイルシートから&#x200B;**[!UICONTROL CSS classes]**&#x200B;の名前を指定して、コンテナに適用します。
 
      複数のクラス名はスペースで区切ります。
 
-   - ディバイダーコンテナの外側の余白と内側のパディングを決定する **[!UICONTROL Margins and Padding]** の値をピクセル単位で入力します。
+   - **[!UICONTROL Margins and Padding]**&#x200B;の値をピクセル単位で入力して、区切りコンテナの外側の余白と内側の余白を決定します。
 
-     対応する値を図に入力します。
+     対応する値をダイアグラムに入力します。
 
      | コンテナ領域 | 説明 |
      | -------------- | ----------- |
-     | [!UICONTROL Margins] | コンテナのすべての側面の外側の端に適用される空白スペースの量。 オプション：`Top`/`Right`/`Bottom`/`Left` |
-     | [!UICONTROL Padding] | コンテナのすべての側面の内側の端に適用される空白のスペースの量です。 オプション：`Top`/`Right`/`Bottom`/`Left` |
+     | [!UICONTROL Margins] | コンテナのすべての側面の外側のエッジに適用される空白スペースの量。 オプション：`Top` / `Right` / `Bottom` / `Left` |
+     | [!UICONTROL Padding] | コンテナのすべての側面の内側エッジに適用される空白スペースの量。 オプション：`Top` / `Right` / `Bottom` / `Left` |
 
      {style="table-layout:auto"}
 
-1. 完了したら、「**[!UICONTROL Save]**」をクリックして設定を適用し、[!DNL Page Builder] ワークスペースに戻ります。
+1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックして設定を適用し、[!DNL Page Builder] ワークスペースに戻ります。
 
-   ![&#x200B; 行内で中央に配置されるディバイダー &#x200B;](./assets/pb-elements-divider-settings-2px-centered.png){width="500" zoomable="yes"}
+   ![行の中央に区切り記号](./assets/pb-elements-divider-settings-2px-centered.png){width="500" zoomable="yes"}
 
-## ディバイダーの複製
+## 区切り記号の複製
 
-特定の設定を持つフォーマットされたディバイダーの場合は、新しいプレースホルダーでやり直すよりも、複製を作成する方が効率的です。
+特定の設定を持つ書式設定されたディバイダの場合は、新しいプレースホルダーで始めるのではなく、複製を作成する方が効率的です。
 
-1. ディバイダーコンテナにカーソルを合わせてツールボックスを表示し、「_複製_」（![&#x200B; 複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="20"}）アイコンを選択します。
+1. 分割コンテナにカーソルを合わせてツールボックスを表示し、_複製_ （![複製アイコン ](./assets/pb-icon-duplicate.png){width="20"}）アイコンを選択します。
 
-   重複したディバイダーコンテナは、オリジナルのすぐ下に表示されます。
+   重複するディバイダーコンテナが元のコンテナのすぐ下に表示されます。
 
-   ![&#x200B; 重複除算器 &#x200B;](./assets/pb-elements-divider-duplicate.png){width="500" zoomable="yes"}
+   ![重複分割](./assets/pb-elements-divider-duplicate.png){width="500" zoomable="yes"}
 
-1. 新しいディバイダーコンテナにカーソルを合わせてツールボックスを表示し、_移動_ （![&#x200B; 移動アイコン &#x200B;](./assets/pb-icon-move.png){width="20"}）アイコンを選択します。
+1. 新しいディバイダーコンテナにカーソルを合わせてツールボックスを表示し、_移動_ （![移動アイコン ](./assets/pb-icon-move.png){width="20"}）アイコンを選択します。
 
-   ![&#x200B; 分周器の移動 &#x200B;](./assets/pb-elements-divider-move.png){width="500" zoomable="yes"}
+   ![仕切りの移動](./assets/pb-elements-divider-move.png){width="500" zoomable="yes"}
 
-1. ディバイダーを選択してドラッグし、赤いガイドラインが新しい位置を示すようにします。
+1. 赤いガイドラインが新しい位置を示すまで、区切り記号を選択してドラッグします。
 
-   分割線を移動すると、各コンテナの上下の境界が破線で表示されます。
+   各コンテナの上下の境界線は、区切り線を移動すると破線として表示されます。
 
-   ![&#x200B; 複製したデバイダーの位置への移動 &#x200B;](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
+   ![複製された区切り記号を位置に移動](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
 
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->
