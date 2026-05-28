@@ -1,6 +1,6 @@
 ---
-title: 支払い失敗通知
-description: トランザクションを完了できない支払い方法に対してメール通信を設定する方法を説明します。
+title: 支払い失敗の通知
+description: トランザクションを完了できない支払い方法のメール通信を設定する方法を説明します。
 exl-id: c64a4463-64d5-4dad-a8ad-13bfb141b65f
 feature: Payments, Communications
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
@@ -10,37 +10,37 @@ ht-degree: 0%
 
 ---
 
-# 支払い失敗通知
+# 支払い失敗の通知
 
-チェックアウト時に選択した支払い方法でトランザクションを完了できない場合は、店舗担当者または指定した管理者ユーザーに通知が送信されます。
+チェックアウト時に選択した支払い方法でトランザクションが完了しなかった場合、ストアの連絡先または指定された管理者ユーザーに通知が送信されます。
 
-## 手順 1：メールテンプレートの更新
+## 手順1：電子メールテンプレートの更新
 
-ブランドを反映させるために、必要なメールテンプレートを更新したことを確認します。 テンプレートの完全なリストについては、[&#x200B; メールテンプレートリスト &#x200B;](../systems/email-templates.md#email-template-list) を参照してください。
+ブランドを反映させるために、必要なメールテンプレートを更新していることを確認してください。 テンプレートの完全なリストについては、[電子メールテンプレートリスト ](../systems/email-templates.md#email-template-list)を参照してください。
 
-## 手順 2：支払いに失敗したメールの設定
+## 手順2：支払いに失敗した電子メールの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
+1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Checkout]**&#x200B;を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Payment Failed Emails]**」セクションを展開します。
+1. **[!UICONTROL Payment Failed Emails]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; 支払いに失敗したメール &#x200B;](../configuration-reference/sales/assets/checkout-payment-failed-emails.png){width="600" zoomable="yes"}
+   ![支払いに失敗した電子メール ](../configuration-reference/sales/assets/checkout-payment-failed-emails.png){width="600" zoomable="yes"}
 
-1. 支払失敗 E メールのオプションを設定します：
+1. 支払いに失敗した電子メールのオプションを設定します。
 
-   - メッセージの送信者として表示されるストアの連絡先に **[!UICONTROL Payment Failed Email Sender]** を設定します。
-   - **[!UICONTROL Payment Failed Email Receiver]** を、メール送信の失敗の通知を受信するストア連絡先に設定します。
-   - チェックアウト中に支払い方法が失敗した場合に送信される E メールに使用されるテンプレートに **[!UICONTROL Payment Failed Template]** を設定します。
+   - メッセージの送信者として表示されるストア連絡先に&#x200B;**[!UICONTROL Payment Failed Email Sender]**&#x200B;を設定します。
+   - 失敗したメール送信の通知を受信するストア連絡先に&#x200B;**[!UICONTROL Payment Failed Email Receiver]**&#x200B;を設定します。
+   - チェックアウト時に支払い方法が失敗したときに送信される電子メールに使用されるテンプレートに&#x200B;**[!UICONTROL Payment Failed Template]**&#x200B;を設定します。
 
-1. **[!UICONTROL Send Payment Failed Email Copy To]**：支払失敗通知のコピーを受け取るユーザーの電子メール アドレスを入力します。
+1. **[!UICONTROL Send Payment Failed Email Copy To]**&#x200B;に、支払い失敗の通知のコピーを受け取るユーザーの電子メールアドレスを入力します。
 
    複数の受信者にコピーを送信する場合は、各アドレスをコンマで区切ります。
 
-1. **[!UICONTROL Payment Failed Copy Method]** を次のいずれかに設定します。
+1. **[!UICONTROL Payment Failed Copy Method]**&#x200B;を次のいずれかに設定します：
 
-   - `Bcc` – 顧客に送信されるのと同じメールのヘッダーに受信者を含めることで、_ブラインドの儀礼用コピー_ を送信します。 BCC 受信者が顧客に表示されない。
-   - `Separate Email` - コピーを個別のメールとして送信します。
+   - `Bcc` – お客様に送信するのと同じメールのヘッダーに受信者を含めることで、_ブラインドの表敬文_&#x200B;を送信します。 BCC受信者は、お客様には表示されません。
+   - `Separate Email` - コピーを別の電子メールとして送信します。
 
-1. 「**[!UICONTROL Save Config]**」をクリックします。
+1. **[!UICONTROL Save Config]**&#x200B;をクリックします。

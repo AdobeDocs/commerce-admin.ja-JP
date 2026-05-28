@@ -6,8 +6,8 @@ role: Admin, Leader
 feature: System
 source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 4%
+source-wordcount: '203'
+ht-degree: 3%
 
 ---
 
@@ -79,4 +79,4 @@ ht-degree: 4%
    - [セッション管理](security-session-management.md)
    - [ブラウザー機能の検出](security-browser-capabilities-detection.md)
    - [セキュリティ問題の報告](security-issue-reporting.md)
-- [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja)
+- [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
