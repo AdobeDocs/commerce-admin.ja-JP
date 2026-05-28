@@ -328,7 +328,7 @@ Real-Time CDP [&#x200B; オーディエンス &#x200B;](../customers/audience-ac
 
 この動画では、カートの価格ルールの作成について説明しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410806?captions=jpn&quality=12&learn=on)
 
 ## フィールドの説明
 
