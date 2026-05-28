@@ -211,7 +211,7 @@ Real-Time CDP [&#x200B; オーディエンス &#x200B;](../customers/audience-ac
    | `Name` | オーディエンスの名前（`Orders over $50`など） |
    | `Description` | オーディエンスの説明（`People who placed an order over $50 in the last month.`など）。 |
    | `Source` | オーディエンスがどこから来たのかを示します（`Experience Platform`）。 |
-   | `Website` | オーディエンスを含むデータストリームにリンクしているweb サイトを示します。 このリンクは、[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html)拡張機能を使用してCommerce インスタンスをExperience Platformに接続するときに作成します。 |
+   | `Website` | オーディエンスを含むデータストリームにリンクしているweb サイトを示します。 このリンクは、[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=ja)拡張機能を使用してCommerce インスタンスをExperience Platformに接続するときに作成します。 |
 
    {style="table-layout:auto"}
 

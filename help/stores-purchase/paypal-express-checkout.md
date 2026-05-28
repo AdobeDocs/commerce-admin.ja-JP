@@ -3,7 +3,7 @@ title: PayPal Express チェックアウト
 description: PayPal Express Checkoutをオンライン決済ソリューションとしてストアに設定する方法について説明します。
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '3183'

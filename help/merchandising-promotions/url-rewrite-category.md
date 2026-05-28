@@ -3,7 +3,7 @@ title: カテゴリ URLの書き換え
 description: カテゴリ URLの書き換えを使用して、Commerce ストア内の別のカテゴリのURLにリンクをリダイレクトする方法を説明します。
 exl-id: fc18f472-4aa8-4203-ade9-7ca576689d61
 feature: Categories, Configuration
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
 source-wordcount: '712'
