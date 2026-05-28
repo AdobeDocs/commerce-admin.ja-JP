@@ -26,13 +26,13 @@ ht-degree: 0%
 
 [検索語](../catalog/search-terms.md#search-terms-report) レポートには、各店舗の表示で顧客が求めているものが表示されます。 このレポートには、カタログ内で見つかった一致するアイテムの数と、検索語が使用された回数が含まれます。
 
-![検索語句レポート ](./assets/search-terms.png){width="600"}
+![検索語句レポート &#x200B;](./assets/search-terms.png){width="600"}
 
 ## [!UICONTROL Abandoned Carts]
 
 [!UICONTROL Abandoned Carts] レポートには、まだ期限切れになっていないカートを放棄したすべての登録済み顧客が一覧表示されます。 レポートには、顧客名と電子メールアドレス、カート内の商品数と小計、作成日、最終更新日が含まれます。
 
-![ カート放棄レポート ](./assets/abandoned-carts.png){width="600"}
+![&#x200B; カート放棄レポート &#x200B;](./assets/abandoned-carts.png){width="600"}
 
 ## [!UICONTROL Newsletter Problems Report]
 
@@ -40,4 +40,4 @@ ht-degree: 0%
 
 [!UICONTROL Newsletter Problems Report]には、正常に送信できなかったニュースレターキューに関する情報が含まれています。 レポートには、各購読者の名前、キューの日付と件名、エラーに関する情報が含まれます。
 
-![ ニュースレターの問題レポート ](./assets/newsletter-problems.png){width="600"}
+![&#x200B; ニュースレターの問題レポート &#x200B;](./assets/newsletter-problems.png){width="600"}

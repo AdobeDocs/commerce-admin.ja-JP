@@ -56,7 +56,7 @@ ht-degree: 0%
 
    - 「**[!UICONTROL Manage DPA Details]**」をクリックして、連絡先と組織の法人を編集できるDPA管理ページを開きます。
 
-   - **[!UICONTROL Legal Entities]** セクションで、_編集_ （![Google編集アイコン ](./assets/google-icon-edit.png)）アイコンをクリックし、登録されている名前を1つ以上追加します。 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
+   - **[!UICONTROL Legal Entities]** セクションで、_編集_ （![Google編集アイコン &#x200B;](./assets/google-icon-edit.png)）アイコンをクリックし、登録されている名前を1つ以上追加します。 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
    - **連絡先** セクションで、_Add_ （![Google add icon](./assets/google-icon-add.png)）アイコンをクリックし、最初の連絡先の情報を入力します。 次に、該当する各役割のチェックボックスを選択し、**[!UICONTROL Add]**&#x200B;をクリックします。
 
@@ -80,7 +80,7 @@ analytics.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-詳しくは、Google ヘルプの[Analytics.js フィールドリファレンス ](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference){: target="_blank"}を参照してください。
+詳しくは、Google ヘルプの[Analytics.js フィールドリファレンス &#x200B;](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference){: target="_blank"}を参照してください。
 
 従来の`ga.js` ライブラリを使用する場合は、次のスニペットを追加します。
 
@@ -112,7 +112,7 @@ analytics.js
 
 ### 手順3：プライバシーポリシーの更新
 
-[ プライバシーポリシー](../getting-started/privacy-policy.md)を更新して、会社を次のように記述します。
+[&#x200B; プライバシーポリシー](../getting-started/privacy-policy.md)を更新して、会社を次のように記述します。
 
 - Google Analyticsの使用
 - IP アドレスをマスクして個人情報を非表示にする

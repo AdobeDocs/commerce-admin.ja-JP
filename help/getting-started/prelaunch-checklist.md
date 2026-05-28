@@ -17,20 +17,20 @@ ht-degree: 0%
 
 ## 一般設定
 
-- [ ストア URL](../stores-purchase/store-urls.md) - ストアフロントと管理者のストア URLがライブ実稼働環境に適していることを確認します。
+- [&#x200B; ストア URL](../stores-purchase/store-urls.md) - ストアフロントと管理者のストア URLがライブ実稼働環境に適していることを確認します。
 - セキュリティ証明書 – ストアを起動する前に、ベース URLで指定されたドメインの100%署名済みセキュリティ証明書と信頼済みセキュリティ証明書をインストールします。
 - [電子メールアドレスを保存](../getting-started/store-details.md#store-email-addresses) – 新規注文、請求書、出荷、クレジットメモ、製品価格アラート、ニュースレターなど、電子メール通知の送受信に使用されるすべての電子メールアドレスを完了します。 各フィールドに有効なビジネス用メールアドレスが含まれていることを確認します。
 
 ## マーケティング設定
 
-- [電子メールテンプレート ](../systems/email-templates.md) - ブランドを反映させるために、デフォルトの電子メールテンプレートを更新します。 テンプレートを作成する場合は、必ず設定を更新してください。
-- [ セールスコミュニケーション ](../stores-purchase/introduction.md#order-management-and-operations) – 請求書と梱包明細に正しいビジネス情報が含まれていることを確認し、ブランドを反映してください。
-- [Google ツール ](../merchandising-promotions/google-tools.md) - [!DNL Commerce]は、Google APIとの統合を提供して、Google AnalyticsとGoogle AdWordsを利用できるようにします。
+- [電子メールテンプレート &#x200B;](../systems/email-templates.md) - ブランドを反映させるために、デフォルトの電子メールテンプレートを更新します。 テンプレートを作成する場合は、必ず設定を更新してください。
+- [&#x200B; セールスコミュニケーション &#x200B;](../stores-purchase/introduction.md#order-management-and-operations) – 請求書と梱包明細に正しいビジネス情報が含まれていることを確認し、ブランドを反映してください。
+- [Google ツール &#x200B;](../merchandising-promotions/google-tools.md) - [!DNL Commerce]は、Google APIとの統合を提供して、Google AnalyticsとGoogle AdWordsを利用できるようにします。
 
 ## 営業設定
 
-- [買い物かごオプション ](../stores-purchase/cart-configuration.md) - カートの設定設定を確認して、買い物かご内の最低注文金額や価格の有効期間の設定など、変更したい設定があるかどうかを確認します。
-- [ チェックアウトオプション ](../stores-purchase/checkout-process.md#checkout-options) - チェックアウトオプションを確認して、利用条件の設定やゲストチェックアウトの設定など、変更する必要があるかどうかを確認します。
+- [買い物かごオプション &#x200B;](../stores-purchase/cart-configuration.md) - カートの設定設定を確認して、買い物かご内の最低注文金額や価格の有効期間の設定など、変更したい設定があるかどうかを確認します。
+- [&#x200B; チェックアウトオプション &#x200B;](../stores-purchase/checkout-process.md#checkout-options) - チェックアウトオプションを確認して、利用条件の設定やゲストチェックアウトの設定など、変更する必要があるかどうかを確認します。
 - [税金](../stores-purchase/taxes.md) – 法人税のルールと地域の要件に従って、税金が適切に設定されていることを確認します。
 - [配送方法](../stores-purchase/delivery.md) – 会社が使用するすべての配送業者と配送方法を有効にします。
 - [PayPal](../stores-purchase/paypal.md) – お客様にPayPalでの支払いの利便性を提供する場合は、PayPal加盟店アカウントを開設し、支払い方法を設定します。 ストアが公開される前に、サンドボックスモードでいくつかのテストトランザクションを実行します。
@@ -38,4 +38,4 @@ ht-degree: 0%
 
 ## システム設定
 
-[Cron （スケジュールされたタスク） ](../systems/cron.md) - Cron ジョブは、電子メール、カタログ価格ルール、ニュースレター、お客様からの通知、Google サイトマップ、為替レートの更新などを処理するために使用されます。 Cron ジョブが適切な時間間隔（分単位）で実行されるように設定されていることを確認します。
+[Cron （スケジュールされたタスク） &#x200B;](../systems/cron.md) - Cron ジョブは、電子メール、カタログ価格ルール、ニュースレター、お客様からの通知、Google サイトマップ、為替レートの更新などを処理するために使用されます。 Cron ジョブが適切な時間間隔（分単位）で実行されるように設定されていることを確認します。

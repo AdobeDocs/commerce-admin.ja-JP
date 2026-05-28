@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # ニュースレターと購読
 
-定期的なニュースレターの公開は、利用可能な最も強力で手頃なマーケティングツールのひとつであると考えられています。 Commerceなら、購読している顧客にニュースレターを配信します。さらに、ニュースレターの作成、購読者リストの作成と管理、コンテンツの制作、ストアへのトラフィックの増加を実現するツールも利用できます。 また、[ ページ階層](../content-design/page-hierarchy.md)を使用して、過去の問題のアーカイブを作成することもできます。
+定期的なニュースレターの公開は、利用可能な最も強力で手頃なマーケティングツールのひとつであると考えられています。 Commerceなら、購読している顧客にニュースレターを配信します。さらに、ニュースレターの作成、購読者リストの作成と管理、コンテンツの制作、ストアへのトラフィックの増加を実現するツールも利用できます。 また、[&#x200B; ページ階層](../content-design/page-hierarchy.md)を使用して、過去の問題のアーカイブを作成することもできます。
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## ニュースレターの有効化
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Newsletter]**&#x200B;を選択します。
 
@@ -30,15 +30,15 @@ ht-degree: 0%
 
 1. ストアビューの範囲でニュースレターを有効にするには、**[!UICONTROL Enabled]**&#x200B;を`Yes`に設定します。
 
-ニュースレター機能を有効にすると、_[!UICONTROL Subscription Options]_セクションが表示されます。
+ニュースレター機能を有効にすると、_[!UICONTROL Subscription Options]_&#x200B;セクションが表示されます。
 
 ## サブスクリプションオプションの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Newsletter]**&#x200B;を選択します。
 
-1. 必要に応じて、[設定スコープ ](../getting-started/websites-stores-views.md#scope-settings)を変更して、特定のサイト/ストアビューにニュースレター設定の変更を適用します。
+1. 必要に応じて、[設定スコープ &#x200B;](../getting-started/websites-stores-views.md#scope-settings)を変更して、特定のサイト/ストアビューにニュースレター設定の変更を適用します。
 
 1. **[!UICONTROL Subscription Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 

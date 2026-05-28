@@ -21,22 +21,22 @@ ht-degree: 0%
 
 [!UICONTROL Invitations Report]には、指定された期間に送信された[招待状](../merchandising-promotions/invitations.md)の数、および許可され、破棄された数が表示されます。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**&#x200B;に移動します。
 
-![招待状レポート ](./assets/private-sales-invitations.png){width="600"}
+![招待状レポート &#x200B;](./assets/private-sales-invitations.png){width="600"}
 
 ## [!UICONTROL Invited Customers Report]
 
 [!UICONTROL Invited Customers Report]には、プライベート セールまたはイベントへの招待を送信されたすべての顧客が表示されます。 名前と電子メールアドレス、顧客グループ、送信済みの招待状の数と受け入れられた数が含まれます。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invited Customers]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invited Customers]**&#x200B;に移動します。
 
-![招待された顧客レポート ](./assets/private-sales-invited-customers.png){width="600"}
+![招待された顧客レポート &#x200B;](./assets/private-sales-invited-customers.png){width="600"}
 
 ## [!UICONTROL Conversion Rate Report]
 
 [!UICONTROL Conversion Rate Report]には、送信および承認された招待の数、購入に至った招待の数、コンバージョン率がパーセンテージで表示されます。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Conversions]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Conversions]**&#x200B;に移動します。
 
-![ コンバージョン率レポート ](./assets/private-sales-conversions.png){width="600"}
+![&#x200B; コンバージョン率レポート &#x200B;](./assets/private-sales-conversions.png){width="600"}

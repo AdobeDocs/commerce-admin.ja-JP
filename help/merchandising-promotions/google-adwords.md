@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [Google AdWords](https://www.google.com/adwords/)は、Googleの検索結果やGoogle ディスプレイ ネットワークの企業ページに広告を配置するために使用できるサービスです。 AdWords ダッシュボードには、キャンペーンの管理、レスポンスの追跡、結果の測定を行うためのツールが含まれています。
 
-コンバージョン追跡は、売上やその他の価値あるアクションにつながる広告のクリック数を示します。 注文が送信された後に顧客に表示される&#x200B;_成功_ ページは、販売後にのみ表示されるため、コンバージョンの追跡に使用されます。 ストアのGoogle AdWords設定を完了した後、Commerceには必要な情報が既に用意されているため、コンバージョントラッキングスクリプトをSuccess ページにコピーする必要はありません。 詳しくは、[Google AdWords ヘルプ ](https://support.google.com/adwords/answer/6095821)を参照してください。
+コンバージョン追跡は、売上やその他の価値あるアクションにつながる広告のクリック数を示します。 注文が送信された後に顧客に表示される&#x200B;_成功_ ページは、販売後にのみ表示されるため、コンバージョンの追跡に使用されます。 ストアのGoogle AdWords設定を完了した後、Commerceには必要な情報が既に用意されているため、コンバージョントラッキングスクリプトをSuccess ページにコピーする必要はありません。 詳しくは、[Google AdWords ヘルプ &#x200B;](https://support.google.com/adwords/answer/6095821)を参照してください。
 
 ![Googleの検索結果のAdobe広告](./assets/google-adwords-adobe-ad.png){width="500"}
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 {{gtag-api-note}}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. Google AdWordsを特定のストアビューに設定する場合は、次の操作を行います。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
       - `2` - Google トラッキングの詳細へのリンクを含む2行の通知を表示します。
       - `3` – 顧客の通知を表示しません。
 
-   - Google サイト統計の通知ラベルに使用する&#x200B;**[!UICONTROL Conversion Color]**&#x200B;の[16進数コード ](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"}を入力します。
+   - Google サイト統計の通知ラベルに使用する&#x200B;**[!UICONTROL Conversion Color]**&#x200B;の[16進数コード &#x200B;](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"}を入力します。
 
    - Google Sitesのステータス通知に表示される&#x200B;**[!UICONTROL Conversion Label]**&#x200B;の暗号化されたテキストを入力します。
 
@@ -125,7 +125,7 @@ ht-degree: 0%
    - `Dynamic` – 動的な注文金額の値に基づいてコンバージョンが発生したことを確認します。
    - `Constant` – 入力された特定の値に基づいてコンバージョンが発生したことを判別します。
 
-   _定数_&#x200B;のコンバージョン値タイプの場合は、_[!UICONTROL Order Amount]_の特定の&#x200B;**[!UICONTROL Value]**を入力して、コンバージョンとして認定します。
+   _定数_&#x200B;のコンバージョン値タイプの場合は、_[!UICONTROL Order Amount]_&#x200B;の特定の&#x200B;**[!UICONTROL Value]**&#x200B;を入力して、コンバージョンとして認定します。
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 

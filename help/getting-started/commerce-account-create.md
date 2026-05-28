@@ -16,9 +16,9 @@ ht-degree: 0%
 
 [!DNL Commerce] アカウントは、クラウドインフラストラクチャまたはオンプレミスにデプロイされたAdobe Commerce プロジェクトのAdobe Commerce サービスを管理するための中央アクセスポイントです。 アカウントダッシュボードから、サブスクリプションの表示、Commerce サービス API キーの管理、過去の請求情報の確認、組織内の他のユーザーとの共同作業を行うことができます。
 
-[最初のチケット ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)を送信する必要がある場合、またはAdobe Commerce リレーションシップを管理する必要がある場合は、[!DNL Commerce] アカウントを作成またはアクセスすることから始めます。
+[最初のチケット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)を送信する必要がある場合、またはAdobe Commerce リレーションシップを管理する必要がある場合は、[!DNL Commerce] アカウントを作成またはアクセスすることから始めます。
 
-[!DNL Commerce] web サイトから[!DNL Commerce] アカウントにアクセスできます。 アカウント ダッシュボードから、購入した製品とサービスに関連する情報を表示し、他のユーザーに[共有アクセス ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access)を提供できます。 Commerce サービス API キーなどの一部の情報は、ライセンス所有者にのみ表示されます。
+[!DNL Commerce] web サイトから[!DNL Commerce] アカウントにアクセスできます。 アカウント ダッシュボードから、購入した製品とサービスに関連する情報を表示し、他のユーザーに[共有アクセス &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access)を提供できます。 Commerce サービス API キーなどの一部の情報は、ライセンス所有者にのみ表示されます。
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >新しい請求書がリストに表示されない場合、新しいシステムに移行され、このページからアクセスできません。
 
-![お客様の[!DNL Commerce] アカウント ](./assets/home-acct.png){width="700"}
+![お客様の[!DNL Commerce] アカウント &#x200B;](./assets/home-acct.png){width="700"}
 
 [!DNL Commerce] アカウントのログインは、ストア管理者のログインとは別です。 通常、それぞれに異なる資格情報を使用し、各システムへのアクセスは個別に管理されます。
 
@@ -42,13 +42,13 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->Adobe Commerce [ サポートケース ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)の送信時にCommerce組織が見つからない場合は、通常、次のいずれかを意味します。アカウント所有者がAdobe IDを作成していないか、Adobe IDが存在するがCommerce アカウントにリンクされていない。
+>Adobe Commerce [&#x200B; サポートケース &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)の送信時にCommerce組織が見つからない場合は、通常、次のいずれかを意味します。アカウント所有者がAdobe IDを作成していないか、Adobe IDが存在するがCommerce アカウントにリンクされていない。
 
 1. [[!DNL Commerce]](https://account.magento.com/customer/account/login/) サイトに移動します。
 
 1. **[!UICONTROL Sign in with Adobe ID]**&#x200B;をクリックします。
 
-   ![Adobe ログイン画面でログイン ](./assets/sign-in-with-adobe.png){width="700"}
+   ![Adobe ログイン画面でログイン &#x200B;](./assets/sign-in-with-adobe.png){width="700"}
 
 1. メールアドレスを入力し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
@@ -64,19 +64,19 @@ ht-degree: 0%
 >
 >Adobe IDを使用して、Commerce アカウントを作成し、アクセスします。
 >- Commerce アカウントをお持ちでない場合は、サインアッププロセスで作成できます。
->- 既にCommerce アカウントをお持ちだが、Adobe IDをお持ちでない場合は、[Commerce アカウントにログイン ](#log-in-to-your-dnl-commerce-account)を参照してください。
+>- 既にCommerce アカウントをお持ちだが、Adobe IDをお持ちでない場合は、[Commerce アカウントにログイン &#x200B;](#log-in-to-your-dnl-commerce-account)を参照してください。
 
-1. [[!DNL Commerce]  サイト ](https://account.magento.com/customer/account/login/)に移動します。
+1. [[!DNL Commerce]  サイト &#x200B;](https://account.magento.com/customer/account/login/)に移動します。
 
 1. **[!UICONTROL Sign in with Adobe ID]**&#x200B;をクリックします。
 
 1. Adobe IDをお持ちでない場合は、**[!UICONTROL Create an account]**&#x200B;をクリックしてください。 それ以外は、手順7に進みます。
 
-   ![ アカウントリンクを作成](./assets/account-create-link.png){width="700"}
+   ![&#x200B; アカウントリンクを作成](./assets/account-create-link.png){width="700"}
 
 1. 登録フォームに記入してください。
 
-   ![ アカウント情報](./assets/account-create.png){width="700"}
+   ![&#x200B; アカウント情報](./assets/account-create.png){width="700"}
 
 1. **[!UICONTROL Create account]**&#x200B;をクリックします。
 
@@ -88,17 +88,17 @@ ht-degree: 0%
 
 ## パスワードのリセット
 
-1. [[!DNL Commerce]  サイト ](https://account.magento.com/customer/account/login/)に移動します。
+1. [[!DNL Commerce]  サイト &#x200B;](https://account.magento.com/customer/account/login/)に移動します。
 
 1. **[!UICONTROL Sign in with Adobe ID]**&#x200B;をクリックします。
 
 1. **[!UICONTROL Get help signing in]**&#x200B;をクリックします。
 
-   ![ ログインに関するヘルプを受ける](./assets/sign-in-get-help.png){width="700"}
+   ![&#x200B; ログインに関するヘルプを受ける](./assets/sign-in-get-help.png){width="700"}
 
 1. **[!UICONTROL Reset your password]**&#x200B;をクリックします。
 
-   ![ パスワードを変更](./assets/change-password.png){width="700"}
+   ![&#x200B; パスワードを変更](./assets/change-password.png){width="700"}
 
 1. メールアドレスを入力してください。
 
@@ -110,7 +110,7 @@ Shared Accessを使用すると、個人用ログインを使用せずに、Adob
 
 共有アカウントの設定に関する詳細な手順については、Adobe Commerce入門ガイドの「[Commerce アカウントの共有](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en)」セクションを参照してください。
 
-Commerce サポートケースの送信手順について詳しくは、[Adobe Commerce ヘルプセンターのユーザーガイド ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)を参照してください。
+Commerce サポートケースの送信手順について詳しくは、[Adobe Commerce ヘルプセンターのユーザーガイド &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)を参照してください。
 
 ## 概要
 

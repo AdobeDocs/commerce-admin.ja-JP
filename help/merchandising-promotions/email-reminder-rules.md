@@ -14,13 +14,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-メールリマインダーの目的は、店舗を訪問した人々にプロモーションを利用して購入するように促すことです。 特定の条件セットが満たされると、メールリマインダーを自動的に顧客に送信できます。 例えば、買い物かごやウィッシュリストに商品を追加したものの、まだ購入に至っていない顧客にリマインダーを送ることができます。 メールリマインダーを使用して、お客様が店舗に戻るように促し、インセンティブとして[ クーポンコード ](price-rules-cart-coupon.md)を含めることができます。 クーポンコードは、メールリマインダーのバッチごとに自動的に生成でき、各バッチに関連付けられたオファーを制御できます。
+メールリマインダーの目的は、店舗を訪問した人々にプロモーションを利用して購入するように促すことです。 特定の条件セットが満たされると、メールリマインダーを自動的に顧客に送信できます。 例えば、買い物かごやウィッシュリストに商品を追加したものの、まだ購入に至っていない顧客にリマインダーを送ることができます。 メールリマインダーを使用して、お客様が店舗に戻るように促し、インセンティブとして[&#x200B; クーポンコード &#x200B;](price-rules-cart-coupon.md)を含めることができます。 クーポンコードは、メールリマインダーのバッチごとに自動的に生成でき、各バッチに関連付けられたオファーを制御できます。
 
 カートが放棄されてから特定の日数が経過した後、または定義するその他の条件について、メールリマインダーをトリガーできます。 一般的な条件には、カートの合計数、数量、カート内の商品などが含まれます。
 
 >[!NOTE]
 >
->顧客が複数のマッチングされたカート放棄、ウィッシュリスト、またはその両方の組み合わせを持っている場合、メールリマインダーはその顧客に対して1回だけトリガーされます。 同じメールリマインダーを再度トリガーするには、_[!UICONTROL Repeat Schedule]_フィールドを使用して、メール間の日数を設定します。
+>顧客が複数のマッチングされたカート放棄、ウィッシュリスト、またはその両方の組み合わせを持っている場合、メールリマインダーはその顧客に対して1回だけトリガーされます。 同じメールリマインダーを再度トリガーするには、_[!UICONTROL Repeat Schedule]_&#x200B;フィールドを使用して、メール間の日数を設定します。
 
 ![電子メールリマインダー](./assets/email-reminders.png){width="700" zoomable="yes"}
 
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 メールリマインダールールは、分、時間、日ごとに定期的に送信できます。 この設定により、バッチで送信されるメールの数と、メッセージの送信者として表示されるストア IDが決まります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Promotions]**&#x200B;を選択します。
 
 1. **[!UICONTROL Automated Email Reminder Rules]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
-   ![顧客設定 – 自動メールリマインダールール ](../configuration-reference/customers/assets/promotions-automated-email-reminder-rules.png){width="600" zoomable="yes"}
+   ![顧客設定 – 自動メールリマインダールール &#x200B;](../configuration-reference/customers/assets/promotions-automated-email-reminder-rules.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Enable Reminder Emails]**&#x200B;を`Yes`に設定します。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
       - `Hourly`
       - `Daily`
 
-   - _[!UICONTROL Frequency]_設定に基づいて、適切な&#x200B;**[!UICONTROL Interval]**を設定します。
+   - _[!UICONTROL Frequency]_&#x200B;設定に基づいて、適切な&#x200B;**[!UICONTROL Interval]**&#x200B;を設定します。
 
    - **[!UICONTROL Start Time]**&#x200B;を、24時間の時刻に基づいて、電子メールが送信される時間、分、秒に設定します。
 
@@ -52,21 +52,21 @@ ht-degree: 0%
 
    - 失敗した電子メールの送信を繰り返し試行しないようにするには、**[!UICONTROL Email Send Failure Threshold]** フィールドに最大試行回数を入力します。
 
-   - **[!UICONTROL Reminder Email Sender]**&#x200B;を、リマインダー電子メールの送信者として表示される[ ストア連絡先](../getting-started/store-details.md#store-email-addresses)に設定します。
+   - **[!UICONTROL Reminder Email Sender]**&#x200B;を、リマインダー電子メールの送信者として表示される[&#x200B; ストア連絡先](../getting-started/store-details.md#store-email-addresses)に設定します。
 
-   これらのオプションの詳細なリストについては、_設定リファレンス_&#x200B;の[自動メールリマインダールール ](../configuration-reference/customers/promotions.md#automated-email-reminder-rules)を参照してください。
+   これらのオプションの詳細なリストについては、_設定リファレンス_&#x200B;の[自動メールリマインダールール &#x200B;](../configuration-reference/customers/promotions.md#automated-email-reminder-rules)を参照してください。
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
 ## メールリマインダーテンプレート
 
-デフォルトのメールリマインダーテンプレートはカスタマイズでき、別のプロモーション用に追加のテンプレートを作成することもできます。 メールリマインダーには、メッセージに組み込むことができる特定の変数の選択肢があります。 これらの変数の情報は、設定したメールリマインダールールと、クーポンに関連付けられたカート価格ルールによって決まります。 「変数を挿入」ボタンを使用すると、変数を含むマークアップタグをテンプレートに挿入できます。 詳しくは、[電子メール ](../systems/email-templates.md)を参照してください。
+デフォルトのメールリマインダーテンプレートはカスタマイズでき、別のプロモーション用に追加のテンプレートを作成することもできます。 メールリマインダーには、メッセージに組み込むことができる特定の変数の選択肢があります。 これらの変数の情報は、設定したメールリマインダールールと、クーポンに関連付けられたカート価格ルールによって決まります。 「変数を挿入」ボタンを使用すると、変数を含むマークアップタグをテンプレートに挿入できます。 詳しくは、[電子メール &#x200B;](../systems/email-templates.md)を参照してください。
 
 ![電子メールリマインダープレビュー](./assets/email-reminder-preview-promotion-template.png){width="600" zoomable="yes"}
 
 ### メールリマインダーテンプレートのカスタマイズ
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**&#x200B;に移動します。
 
 1. **[!UICONTROL Add New Template]**&#x200B;をクリックします。
 
