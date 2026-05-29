@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL General] &gt; [!UICONTROL Store Email Addresses]'
-description: Commerce Admin の [!UICONTROL General] &gt; [!UICONTROL Store Email Addresses] ページで設定を確認します。
+title: '[!UICONTROL General] > [!UICONTROL Store Email Addresses]'
+description: Commerce管理者の[!UICONTROL General] > [!UICONTROL Store Email Addresses] ページで設定を確認します。
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
 source-git-commit: 7cbb5b3af0803dd2ec4d47d372632756b5ebfffa
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 1%
+source-wordcount: '346'
+ht-degree: 2%
 
 ---
 
@@ -14,71 +14,71 @@ ht-degree: 1%
 
 {{config}}
 
-これらの設定フィールドとオプションについて詳しくは、[&#x200B; メールアドレスの保存 &#x200B;](../../getting-started/store-details.md#store-email-addresses) を参照してください。
+これらの設定フィールドとオプションについて詳しくは、[ メールアドレスを保存](../../getting-started/store-details.md#store-email-addresses)を参照してください。
 
 ## [!UICONTROL General]
 
-[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
 
-![&#x200B; メールアドレスを保存/一般連絡先 &#x200B;](./assets/store-email-addresses-general-general.png)<!-- zoom -->
+![ メールアドレスを保存>一般連絡先](./assets/store-email-addresses-general-general.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Storefront Base URL] | ストア表示 | 顧客向けのメールに含まれるリンクの構築に使用されるベース URL。 URL の末尾はスラッシュにする必要があります。 例：`https://www.example.com/`。 |
+| [!UICONTROL Storefront Base URL] | ストアビュー | 顧客向けメールに含まれるリンクの作成に使用されるベース URL。 URLはスラッシュで終わる必要があります。 例：`https://www.example.com/`。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL General Contact]
 
-![&#x200B; メールアドレスを保存/一般連絡先 &#x200B;](./assets/store-email-addresses-general-contact.png)<!-- zoom -->
+![ メールアドレスを保存>一般連絡先](./assets/store-email-addresses-general-contact.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | ストア表示 | `General Contact` ID から送信されたメールの送信者として表示される名前。 |
-| [!UICONTROL Sender Email] | ストア表示 | `General Contact` ID に関連付けられているメールアドレス。 Adobe Commerce as a Cloud Serviceで、サポートチケットを作成してメールアドレスを変更します。 |
+| [!UICONTROL Sender Name] | ストアビュー | `General Contact` IDによって送信されたメールの送信者として表示される名前。 |
+| [!UICONTROL Sender Email] | ストアビュー | `General Contact` IDに関連付けられている電子メールアドレス。 Adobe Commerce as a Cloud Serviceで、サポートチケットを作成してメールアドレスを変更します。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Sales Representative]
 
-![Store Email Addresses > Sales Representative](./assets/store-email-addresses-sales-rep.png)<!-- zoom -->
+![ メールアドレスの保存>営業担当者](./assets/store-email-addresses-sales-rep.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | ストア表示 | `Sales Representative` ID から送信されたメールの送信者として表示される名前。 |
-| [!UICONTROL Sender Email] | ストア表示 | `Sales Representative` ID に関連付けられているメールアドレス。  Adobe Commerce as a Cloud Serviceで、サポートチケットを作成してメールアドレスを変更します。 |
+| [!UICONTROL Sender Name] | ストアビュー | `Sales Representative` IDによって送信されたメールの送信者として表示される名前。 |
+| [!UICONTROL Sender Email] | ストアビュー | `Sales Representative` IDに関連付けられている電子メールアドレス。  Adobe Commerce as a Cloud Serviceで、サポートチケットを作成してメールアドレスを変更します。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Customer Support]
 
-![&#x200B; メールアドレスを保存/カスタマーサポート &#x200B;](./assets/store-email-addresses-customer-support.png)<!-- zoom -->
+![ メールアドレスの保存> カスタマーサポート ](./assets/store-email-addresses-customer-support.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | ストア表示 | `Customer Support` ID から送信されたメールの送信者として表示される名前。 |
-| [!UICONTROL Sender Email] | ストア表示 | `Customer Support` ID に関連付けられているメールアドレス。  Adobe Commerce as a Cloud Serviceで、サポートチケットを作成してメールアドレスを変更します。 |
+| [!UICONTROL Sender Name] | ストアビュー | `Customer Support` IDによって送信されたメールの送信者として表示される名前。 |
+| [!UICONTROL Sender Email] | ストアビュー | `Customer Support` IDに関連付けられている電子メールアドレス。  Adobe Commerce as a Cloud Serviceで、サポートチケットを作成してメールアドレスを変更します。 |
 
 {style="table-layout:auto"}
 
-## カスタム E メール 1
+## カスタムメール 1
 
-![&#x200B; メールアドレスを保存/カスタムメール 1](./assets/store-email-addresses-custom-email1.png)<!-- zoom -->
+![ メールアドレスを保存> カスタムメール 1](./assets/store-email-addresses-custom-email1.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | ストア表示 | `Custom 1` ID から送信されたメールの送信者として表示される名前。 |
-| [!UICONTROL Sender Email] | ストア表示 | `Custom 1` ID に関連付けられているメールアドレス。  Adobe Commerce as a Cloud Serviceで、サポートチケットを作成してメールアドレスを変更します。 |
+| [!UICONTROL Sender Name] | ストアビュー | `Custom 1` IDによって送信されたメールの送信者として表示される名前。 |
+| [!UICONTROL Sender Email] | ストアビュー | `Custom 1` IDに関連付けられている電子メールアドレス。  Adobe Commerce as a Cloud Serviceで、サポートチケットを作成してメールアドレスを変更します。 |
 
 {style="table-layout:auto"}
 
-## カスタム E メール 2
+## カスタムメール 2
 
-![&#x200B; メールアドレスを保存/カスタムメール 2](./assets/store-email-addresses-custom-email1.png)<!-- zoom -->
+![ メールアドレスを保存> カスタムメール 2](./assets/store-email-addresses-custom-email1.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Sender Name] | ストア表示 | `Custom 2` ID から送信されたメールの送信者として表示される名前。 |
-| [!UICONTROL Sender Email] | ストア表示 | `Custom 2` ID に関連付けられているメールアドレス。  Adobe Commerce as a Cloud Serviceで、サポートチケットを作成してメールアドレスを変更します。 |
+| [!UICONTROL Sender Name] | ストアビュー | `Custom 2` IDによって送信されたメールの送信者として表示される名前。 |
+| [!UICONTROL Sender Email] | ストアビュー | `Custom 2` IDに関連付けられている電子メールアドレス。  Adobe Commerce as a Cloud Serviceで、サポートチケットを作成してメールアドレスを変更します。 |
 
 {style="table-layout:auto"}
