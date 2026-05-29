@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/directives-caution.md}}
 
-![新製品リストウィジェット ](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
+![新製品リストウィジェット &#x200B;](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
 
 ## ウィジェットタイプ
 

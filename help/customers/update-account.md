@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # 顧客プロファイルの更新
 
-_[!UICONTROL Customer Information]_ページの左側のパネルには、顧客のアクティビティ、住所、注文統計、最近の注文、ショッピングカートの内容、製品レビュー、ニュースレターの購読に関する情報が含まれています。
+_[!UICONTROL Customer Information]_&#x200B;ページの左側のパネルには、顧客のアクティビティ、住所、注文統計、最近の注文、ショッピングカートの内容、製品レビュー、ニュースレターの購読に関する情報が含まれています。
 
-![顧客プロファイル ](assets/cust-profile.png){width="700" zoomable="yes"}
+![顧客プロファイル &#x200B;](assets/cust-profile.png){width="700" zoomable="yes"}
 
 ## 顧客アカウントの編集
 
@@ -27,7 +27,7 @@ _[!UICONTROL Customer Information]_ページの左側のパネルには、顧客
    >
    >更新できる各値の値は、テキストボックスに表示されます。 選択した顧客レコードの一部の値のみがグリッドから編集できます。
 
-   ![ クイック編集](assets/customers-grid-quick-edit.png){width="700" zoomable="yes"}
+   ![&#x200B; クイック編集](assets/customers-grid-quick-edit.png){width="700" zoomable="yes"}
 
 1. 必要に応じて、次のいずれかの値を更新します。
 
@@ -64,11 +64,11 @@ _[!UICONTROL Customer Information]_ページの左側のパネルには、顧客
 
 ### [!UICONTROL Account Information]
 
-「[ アカウント情報](../customers/account-dashboard-account-information.md)」タブには、お客様に関する詳細な情報が表示されます。管理者ユーザーは、個人情報、電子メール、リモートショッピング支援、生年月日、お客様をweb サイトまたは会社に添付できます。
+「[&#x200B; アカウント情報](../customers/account-dashboard-account-information.md)」タブには、お客様に関する詳細な情報が表示されます。管理者ユーザーは、個人情報、電子メール、リモートショッピング支援、生年月日、お客様をweb サイトまたは会社に添付できます。
 
 ### [!UICONTROL Addresses]
 
-「[ アドレス ](../customers/account-dashboard-address-book.md)」タブには、顧客のデフォルトの請求先住所と配送先住所、および顧客が頻繁に使用する追加の住所が含まれています。
+「[&#x200B; アドレス &#x200B;](../customers/account-dashboard-address-book.md)」タブには、顧客のデフォルトの請求先住所と配送先住所、および顧客が頻繁に使用する追加の住所が含まれています。
 
 ### [!UICONTROL Orders]
 
@@ -82,28 +82,28 @@ _[!UICONTROL Customer Information]_ページの左側のパネルには、顧客
 
 ### [!UICONTROL Shopping cart]
 
-「[ ショッピングカート ](../stores-purchase/cart.md)」タブには、現在カートに入っている商品が表示されますが、何らかの理由で購入が完了しませんでした。
+「[&#x200B; ショッピングカート &#x200B;](../stores-purchase/cart.md)」タブには、現在カートに入っている商品が表示されますが、何らかの理由で購入が完了しませんでした。
 
 ### [!UICONTROL Wish List]
 
-[欲しいものリスト ](../stores-purchase/wishlists.md)には、お客様が後でカートに転送できる商品のリストが表示されます。
+[欲しいものリスト &#x200B;](../stores-purchase/wishlists.md)には、お客様が後でカートに転送できる商品のリストが表示されます。
 
 ### [!UICONTROL Gift Registry]
 
 {{ee-feature}}
 
-「[ ギフトレジストリ ](../merchandising-promotions/gift-registry-storefront.md)」セクションには、お客様の現在のギフトレジストリと関連するイベントが一覧表示されます。
+「[&#x200B; ギフトレジストリ &#x200B;](../merchandising-promotions/gift-registry-storefront.md)」セクションには、お客様の現在のギフトレジストリと関連するイベントが一覧表示されます。
 
 
 ### [!UICONTROL Store Credit]
 
 {{ee-feature}}
 
-「[ ストアクレジット ](../customers/store-credit.md)」タブには、顧客アカウントに復元された金額が表示されます。管理者はこの値を管理できます。
+「[&#x200B; ストアクレジット &#x200B;](../customers/store-credit.md)」タブには、顧客アカウントに復元された金額が表示されます。管理者はこの値を管理できます。
 
 ### [!UICONTROL Newsletter]
 
-「[ ニュースレター](../merchandising-promotions/newsletters.md)」タブには、現在の顧客に送信されたすべてのメールが表示されます。
+「[&#x200B; ニュースレター](../merchandising-promotions/newsletters.md)」タブには、現在の顧客に送信されたすべてのメールが表示されます。
 
 ### [!UICONTROL Billing Agreements]
 
@@ -117,7 +117,7 @@ _[!UICONTROL Customer Information]_ページの左側のパネルには、顧客
 
 {{ee-feature}}
 
-[報酬ポイント ](../merchandising-promotions/rewards-loyalty.md) セクションには、顧客の現在の報酬ポイント残高が表示されます。 管理者ユーザーは、この値を管理できます。
+[報酬ポイント &#x200B;](../merchandising-promotions/rewards-loyalty.md) セクションには、顧客の現在の報酬ポイント残高が表示されます。 管理者ユーザーは、この値を管理できます。
 
 ## ボタンバー
 

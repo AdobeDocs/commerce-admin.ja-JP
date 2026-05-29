@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 顧客パスワードのリセット
 
-顧客は通常、_[!UICONTROL Forgot Your Password?]_をクリックして、ストアフロントからパスワードをリセットします。 ただし、ストア管理者は、管理者からパスワードリセットまたは強制ログインを開始できます。
+顧客は通常、_[!UICONTROL Forgot Your Password?]_&#x200B;をクリックして、ストアフロントからパスワードをリセットします。 ただし、ストア管理者は、管理者からパスワードリセットまたは強制ログインを開始できます。
 
 | 関数 | 説明 |
 | --- | --- |
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. プロンプトが表示されたら、アカウントに関連付けられている&#x200B;**[!UICONTROL Email Address]**&#x200B;を入力し、**[!UICONTROL Reset My Password]**&#x200B;をクリックします。
 
-   ![ パスワードを忘れた](assets/forgot-password.png){width="600" zoomable="yes"}
+   ![&#x200B; パスワードを忘れた](assets/forgot-password.png){width="600" zoomable="yes"}
 
    >[!INFO]
    >

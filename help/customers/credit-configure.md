@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ストアクレジット設定では、自動払い戻し、顧客アカウント内の利用可能なクレジットの表示、顧客に送信される通知に使用されるメールテンプレートが制御されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Customer Configuration]**&#x200B;を選択します。
 
 1. **[!UICONTROL Store Credit Options]** セクションを展開します。
 
-   ![ ストアクレジットオプション ](../configuration-reference/customers/assets/customer-configuration-store-credit-options.png){width="600" zoomable="yes"}
+   ![&#x200B; ストアクレジットオプション &#x200B;](../configuration-reference/customers/assets/customer-configuration-store-credit-options.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Enable Store Credit Functionality]**&#x200B;を`Yes`に設定します。
 

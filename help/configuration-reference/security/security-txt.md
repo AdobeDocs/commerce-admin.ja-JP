@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # [!UICONTROL Security] > [!UICONTROL Security.txt]
 
-これらの設定設定の変更について詳しくは、[ セキュリティ問題レポート ](../../systems/security-issue-reporting.md)を参照してください。
+これらの設定設定の変更について詳しくは、[&#x200B; セキュリティ問題レポート &#x200B;](../../systems/security-issue-reporting.md)を参照してください。
 
 {{config}}
 
@@ -44,9 +44,9 @@ ht-degree: 1%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Encryption] | web サイト | セキュリティ研究者が暗号化通信の送信に使用できる暗号化鍵の場所を示すURL。 _**このフィールドに暗号化キーを入力しないでください。**_ <br/><br/>そのキーが信頼できる情報源から取得されたものであることを確認するのは、研究者の責任です。 研究者は、鍵がデジタル署名を生成するために使用されるものと同じであると仮定してはなりません。 例：<br />Web サーバーからのOpenPGP キー – `https://mystore.com/pgp-key.txt` |
+| [!UICONTROL Encryption] | web サイト | セキュリティ研究者が暗号化通信の送信に使用できる暗号化鍵の場所を示すURL。 _&#x200B;**このフィールドに暗号化キーを入力しないでください。**&#x200B;_ <br/><br/>そのキーが信頼できる情報源から取得されたものであることを確認するのは、研究者の責任です。 研究者は、鍵がデジタル署名を生成するために使用されるものと同じであると仮定してはなりません。 例：<br />Web サーバーからのOpenPGP キー – `https://mystore.com/pgp-key.txt` |
 | [!UICONTROL Acknowledgments] | web サイト | セキュリティ研究者が確認されるストア内のページ（`https://mystore.com/hall-of-fame.html`など）を指すURL。 今後の攻撃を防ぐために、脆弱性の問題に関する具体的な情報を明らかにせずに、一般的な説明のみを含めてください。 例：<br />以下の研究者に感謝します：<br /> （yyyy/mm/dd） Justin Thyme - SQL インジェクション |
-| [!UICONTROL Preferred Languages] | web サイト | 1つ以上の優先セキュリティレポート言語を指定します。 複数の2文字[言語コード ](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)をコンマで区切ります。 指定した言語はすべて同じ優先度です。 例えば、英語、スペイン語、フランス語を指定するには、`en, es, fr`と入力します。 |
+| [!UICONTROL Preferred Languages] | web サイト | 1つ以上の優先セキュリティレポート言語を指定します。 複数の2文字[言語コード &#x200B;](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)をコンマで区切ります。 指定した言語はすべて同じ優先度です。 例えば、英語、スペイン語、フランス語を指定するには、`en, es, fr`と入力します。 |
 | [!UICONTROL Hiring] | web サイト | セキュリティ関連の職位を一覧表示するサイト上のページのURL。 例：`https://mystore.com/jobs.html` |
 | [!UICONTROL Policy] | web サイト | セキュリティポリシーと脆弱性レポートの慣行を説明するページのURL。 例：`https://mystore.com/security-reporting.html` デフォルト：`https://mystore.com/security` |
 | [!UICONTROL Signature] | web サイト | デジタル署名ファイルへのリンク。 デジタル署名はコマンドラインから生成する必要があり、サーバーの`.well-known` フォルダーに保存されます。 詳しくは、GitHubの[Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md)を参照してください。 例：`https://mystore.com/.well-known/security.txt.sig` |

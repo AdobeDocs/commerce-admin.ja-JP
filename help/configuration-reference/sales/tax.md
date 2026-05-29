@@ -15,7 +15,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Adobe CommerceおよびMagento Open Source リリース 2.4.0 ～ 2.4.3には、[!UICONTROL Vertex Cloud]との統合に使用するVertex ベンダー開発の拡張機能が含まれています。 2.4.4 リリース以降、この拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 Marketplaceでは、拡張機能の開発者が提供する最新のドキュメントにもアクセスできます。
-><br><br>>バンドル拡張機能を有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 詳しくは、_アップグレードガイド_&#x200B;の「[ モジュールと拡張機能のアップグレード ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)」を参照してください。
+><br><br>>バンドル拡張機能を有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 詳しくは、_アップグレードガイド_&#x200B;の「[&#x200B; モジュールと拡張機能のアップグレード &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)」を参照してください。
 
 {{config}}
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Tax Calculation Method Based On] | web サイト | 注文の税金の計算に使用する方法を指定します。 オプション：<br/>**`Unit Price`**– 各製品の単価に基づいて税計算を行います。<br/>**`Row Total`** – 税計算は、行項目の合計に基づいています。<br/>**`Total`**– 税金の計算は、注文合計に基づいています。<br/><br/>_**&#x200B;注意：**_税額計算の拡張機能（_Vertex Cloud_など）がMarketplaceからインストールされている場合、拡張機能サービスはオプションとして表示されます。 |
+| [!UICONTROL Tax Calculation Method Based On] | web サイト | 注文の税金の計算に使用する方法を指定します。 オプション：<br/>**`Unit Price`**– 各製品の単価に基づいて税計算を行います。<br/>**`Row Total`** – 税計算は、行項目の合計に基づいています。<br/>**`Total`**– 税金の計算は、注文合計に基づいています。<br/><br/>_&#x200B;**&#x200B;注意：**&#x200B;_税額計算の拡張機能（_Vertex Cloud_など）がMarketplaceからインストールされている場合、拡張機能サービスはオプションとして表示されます。 |
 | [!UICONTROL Tax Calculation Based On] | web サイト | 消費税の計算が配送先住所、請求先住所、または配送元に基づくかどうかを指定します。 オプション：`Shipping Address` / `Billing Address` / `Shipping Origin` |
 | [!UICONTROL Catalog Prices] | web サイト | カタログ価格に税金が含まれているか除外されているかを指定します。 オプション：`Excluding Tax` / `Including Tax` |
 | [!UICONTROL Shipping Prices] | web サイト | 配送価格の決定には税金が含まれるか除外されます。 オプション：`Excluding Tax` / `Including Tax` |
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 ![買い物かごの表示設定](./assets/tax-shopping-cart-display-settings.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_ストアと購入エクスペリエンスガイド_&#x200B;の「[ ショッピングカート表示設定の設定](../../stores-purchase/display-settings.md#step-2-configure-shopping-cart-display-settings)」を参照してください。
+これらの設定の変更について詳しくは、_ストアと購入エクスペリエンスガイド_&#x200B;の「[&#x200B; ショッピングカート表示設定の設定](../../stores-purchase/display-settings.md#step-2-configure-shopping-cart-display-settings)」を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ![固定製品税](./assets/tax-fixed-product-taxes.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_ストアおよび購入エクスペリエンスガイド_&#x200B;の[固定製品税（FPT） ](../../stores-purchase/fixed-product-tax.md)を参照してください。
+これらの設定の変更について詳しくは、_ストアおよび購入エクスペリエンスガイド_&#x200B;の[固定製品税（FPT） &#x200B;](../../stores-purchase/fixed-product-tax.md)を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -124,7 +124,7 @@ ht-degree: 0%
 | [!UICONTROL Display Prices in Product Lists] | web サイト | 製品リストでのFPTの表示を制御します。 オプション：<br/> **`Including FPT Only`** – 表示価格には固定商品税が含まれています。 FPT金額は個別に表示されません。<br/>**`Including FPT and FPT description`**– 表示価格には固定商品税が含まれています。 FPT金額は個別に表示されます。<br/>**`Excluding FPT. Including FPT description and final price`**  – 表示価格には固定商品税は含まれていません。 FPT金額は個別に表示されます。<br/>**`Excluding FPT`**– 表示価格には固定商品税は含まれていません。 FPTの金額は個別に表示されません。 |
 | [!UICONTROL Display Prices On Product View Page] | web サイト | 製品ページでのFPTの表示を制御します。 オプション：<br/> **`Including FPT Only`** – 表示価格には固定商品税が含まれています。 FPT金額は個別に表示されません。<br/>**`Including FPT and FPT description`**– 表示価格には固定商品税が含まれています。 FPT金額は個別に表示されます。<br/>**`Excluding FPT. Including FPT description and final price`**  – 表示価格には固定商品税は含まれていません。 FPT金額は個別に表示されます。<br/>**`Excluding FPT`**– 表示価格には固定商品税は含まれていません。 FPTの金額は個別に表示されません。 |
 | [!UICONTROL Display Prices in Sales Modules] | web サイト | ショッピングカート内およびチェックアウト中のFPTの表示を制御します。 オプション：<br/> **`Including FPT Only`** – 表示価格には固定商品税が含まれています。 FPT金額は個別に表示されません。<br/>**`Including FPT and FPT description`**– 表示価格には固定商品税が含まれています。 FPT金額は個別に表示されます。<br/>**`Excluding FPT. Including FPT description and final price`**  – 表示価格には固定商品税は含まれていません。 FPT金額は個別に表示されます。<br/>**`Excluding FPT`**– 表示価格には固定商品税は含まれていません。 FPTの金額は個別に表示されません。 |
-| [!UICONTROL Display Prices in Emails] | web サイト | メールのFPTの表示を制御します。 オプション：<br/> **`Including FPT Only`** – 表示価格には固定商品税が含まれています。 FPT金額は個別に表示されません。<br/>**`Including FPT and FPT description`**– 表示価格には固定商品税が含まれています。 FPTの金額は個別に表示されます。<br/>** FPTを除外しています。 FPTの説明と最終価格を含む&#x200B;**– 表示価格には固定製品税は含まれていません。 FPT金額は個別に表示されます。<br/>**`Excluding FPT`**  – 表示価格には固定商品税は含まれていません。 FPTの金額は個別に表示されません。 |
+| [!UICONTROL Display Prices in Emails] | web サイト | メールのFPTの表示を制御します。 オプション：<br/> **`Including FPT Only`** – 表示価格には固定商品税が含まれています。 FPT金額は個別に表示されません。<br/>**`Including FPT and FPT description`**– 表示価格には固定商品税が含まれています。 FPTの金額は個別に表示されます。<br/>**&#x200B; FPTを除外しています。 FPTの説明と最終価格を含む&#x200B;**– 表示価格には固定製品税は含まれていません。 FPT金額は個別に表示されます。<br/>**`Excluding FPT`**  – 表示価格には固定商品税は含まれていません。 FPTの金額は個別に表示されません。 |
 | [!UICONTROL Apply Tax to FPT] | web サイト | FPT金額に税金が適用されるかどうかを指定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Include FPT in Subtotal] | web サイト | FPTがショッピングカートの小計に含まれているかどうかを判断します。 オプション：<br/>**`Yes`**- ショッピングカートの小計にFPTが含まれます。<br/>**`No`** - FPTは小計に含まれず、ショッピングカートの小計の後に配置されます。 |
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 顧客アカウントの基本情報には、名前とメールアドレス、パスワードが含まれており、ストアフロントの顧客アカウントダッシュボードから管理できます。
 
-![ ストアフロントのアカウント情報](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントのアカウント情報](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
 
 アカウントのサイドバーで、お客様は&#x200B;**[!UICONTROL Account Information]**&#x200B;を選択し、次のいずれかの操作を行ってアカウント情報を更新できます。
 
@@ -50,6 +50,6 @@ ht-degree: 0%
    >
    >パスワードは少なくとも8文字である必要があり、大文字と小文字、数字、および記号の組み合わせを含めることができます。 パスワード強度インジケーターは、お客様が最適なパスワードを選択するのに役立ちます。
 
-   ![ パスワードの変更](assets/account-dashboard-account-information-change-password.png){width="700" zoomable="yes"}
+   ![&#x200B; パスワードの変更](assets/account-dashboard-account-information-change-password.png){width="700" zoomable="yes"}
 
 1. 確認するためにもう一度入力します。

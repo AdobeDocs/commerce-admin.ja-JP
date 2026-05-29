@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{config}}
 
-これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の[二段階認証（2FA） ](../../systems/security-two-factor-authentication.md)を参照してください。
+これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の[二段階認証（2FA） &#x200B;](../../systems/security-two-factor-authentication.md)を参照してください。
 
 ## [!UICONTROL General]
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Duo Security]
 
-![Duo セキュリティ ](./assets/2fa-duo-security.png)<!-- zoom -->
+![Duo セキュリティ &#x200B;](./assets/2fa-duo-security.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

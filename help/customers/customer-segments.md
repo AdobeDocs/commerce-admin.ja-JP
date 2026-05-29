@@ -13,7 +13,7 @@ ht-degree: 0%
 
 顧客セグメントを使用すると、様々なプロパティに基づいて、特定の顧客にコンテンツやプロモーションを動的に表示できます。 たとえば、顧客の住所、注文履歴、ショッピングカートの内容などがあります。 ショッピングカートの価格ルール機能を利用して、ターゲットを絞ったセグメントにもとづいて、マーケティング施策を最適化できます。 レポートを生成し、ターゲット顧客のリストを書き出すこともできます。 顧客セグメント情報は常に更新されるため、顧客がストアで買い物をするときに、セグメントに関連付けられたり、関連付けられなかったりする可能性があります。
 
-[顧客グループ ](../customers/customer-groups.md)と顧客セグメントの違いをより深く理解するには、それらが使用されている場所に注意してください。
+[顧客グループ &#x200B;](../customers/customer-groups.md)と顧客セグメントの違いをより深く理解するには、それらが使用されている場所に注意してください。
 
 |  | 顧客セグメント | 顧客グループ |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 顧客セグメント属性
 
-顧客セグメント属性は、ショッピングカートやカタログの価格ルールと同様に定義されます。 顧客セグメント条件で属性を使用するには、_[!UICONTROL Use in Customer Segment]_[ プロパティ ](attribute-properties.md#)を`Yes`に設定する必要があります。 顧客セグメント条件には、次のタイプの属性を組み込むことができます。
+顧客セグメント属性は、ショッピングカートやカタログの価格ルールと同様に定義されます。 顧客セグメント条件で属性を使用するには、_[!UICONTROL Use in Customer Segment]_[&#x200B; プロパティ &#x200B;](attribute-properties.md#)を`Yes`に設定する必要があります。 顧客セグメント条件には、次のタイプの属性を組み込むことができます。
 
 | 属性 | 説明 |
 |---|---|
@@ -46,5 +46,5 @@ ht-degree: 0%
 
 ## 電子ブック
 
-- **顧客セグメンテーション** — [電子ブック ](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html)を入手して、利益と全体的な顧客満足度を向上させる方法を学びましょう。
-- **セグメント化の戦術** — メッセージとプロモーションのターゲティングを改善して、顧客と有意義な会話を作成するための[電子ブック ](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html)を入手します。
+- **顧客セグメンテーション** — [電子ブック &#x200B;](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html)を入手して、利益と全体的な顧客満足度を向上させる方法を学びましょう。
+- **セグメント化の戦術** — メッセージとプロモーションのターゲティングを改善して、顧客と有意義な会話を作成するための[電子ブック &#x200B;](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html)を入手します。

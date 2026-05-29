@@ -21,12 +21,12 @@ ht-degree: 0%
 
    - _コンテンツステージングダッシュボードから_
 
-      - _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**に移動します。
+      - _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**&#x200B;に移動します。
       - ページ上の任意の項目をクリックし、キャンペーンの表示された概要情報の&#x200B;**[!UICONTROL Preview]**&#x200B;をクリックします。
 
    - _変更予定のある任意のページ_
 
-      - _[!UICONTROL Scheduled Changes]_ボックスが上部にあるページを開きます。
+      - _[!UICONTROL Scheduled Changes]_&#x200B;ボックスが上部にあるページを開きます。
       - **[!UICONTROL Preview]**&#x200B;をクリックします。
 
    プレビューが新しいブラウザータブで開き、スケジュールされたキャンペーン中に製品がどのように表示されるかを示します。
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 1. 特定の曜日または時刻のプレビュー：
 
-   - **[!UICONTROL Date & Time]** カレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png){width="10" zoomable="no"}）をクリックします。
+   - **[!UICONTROL Date & Time]** カレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png){width="10" zoomable="no"}）をクリックします。
 
    - 別の日付や時刻を選択してください。
 

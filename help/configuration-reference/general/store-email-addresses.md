@@ -14,13 +14,13 @@ ht-degree: 2%
 
 {{config}}
 
-これらの設定フィールドとオプションについて詳しくは、[ メールアドレスを保存](../../getting-started/store-details.md#store-email-addresses)を参照してください。
+これらの設定フィールドとオプションについて詳しくは、[&#x200B; メールアドレスを保存](../../getting-started/store-details.md#store-email-addresses)を参照してください。
 
 ## [!UICONTROL General]
 
 [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
 
-![ メールアドレスを保存>一般連絡先](./assets/store-email-addresses-general-general.png)<!-- zoom -->
+![&#x200B; メールアドレスを保存>一般連絡先](./assets/store-email-addresses-general-general.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 ## [!UICONTROL General Contact]
 
-![ メールアドレスを保存>一般連絡先](./assets/store-email-addresses-general-contact.png)<!-- zoom -->
+![&#x200B; メールアドレスを保存>一般連絡先](./assets/store-email-addresses-general-contact.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 ## [!UICONTROL Sales Representative]
 
-![ メールアドレスの保存>営業担当者](./assets/store-email-addresses-sales-rep.png)<!-- zoom -->
+![&#x200B; メールアドレスの保存>営業担当者](./assets/store-email-addresses-sales-rep.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -52,7 +52,7 @@ ht-degree: 2%
 
 ## [!UICONTROL Customer Support]
 
-![ メールアドレスの保存> カスタマーサポート ](./assets/store-email-addresses-customer-support.png)<!-- zoom -->
+![&#x200B; メールアドレスの保存> カスタマーサポート &#x200B;](./assets/store-email-addresses-customer-support.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -63,7 +63,7 @@ ht-degree: 2%
 
 ## カスタムメール 1
 
-![ メールアドレスを保存> カスタムメール 1](./assets/store-email-addresses-custom-email1.png)<!-- zoom -->
+![&#x200B; メールアドレスを保存> カスタムメール 1](./assets/store-email-addresses-custom-email1.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -74,7 +74,7 @@ ht-degree: 2%
 
 ## カスタムメール 2
 
-![ メールアドレスを保存> カスタムメール 2](./assets/store-email-addresses-custom-email1.png)<!-- zoom -->
+![&#x200B; メールアドレスを保存> カスタムメール 2](./assets/store-email-addresses-custom-email1.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

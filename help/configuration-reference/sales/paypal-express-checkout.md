@@ -38,7 +38,7 @@ ht-degree: 0%
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | web サイト | PayPal加盟店アカウントの確立時に指定した電子メールアドレスを指定します。 メールアドレスは大文字と小文字が区別され、PayPal システムのメールアドレスと完全に一致する必要があります。 |
-| [!UICONTROL API Authentication Methods] | web サイト | API認証に使用するメソッドを指定します。 オプション：<br/>**`API Signature`**- フォームに&#x200B;_[!UICONTROL API Signature]_フィールドを表示します。<br/>**`API Certificate`**- フォームに_[!UICONTROL API Certificate]_ フィールドを表示します。 |
+| [!UICONTROL API Authentication Methods] | web サイト | API認証に使用するメソッドを指定します。 オプション：<br/>**`API Signature`**- フォームに&#x200B;_[!UICONTROL API Signature]_&#x200B;フィールドを表示します。<br/>**`API Certificate`**- フォームに&#x200B;_[!UICONTROL API Certificate]_ フィールドを表示します。 |
 | [!UICONTROL API Username] | web サイト | PayPal加盟店アカウントに関連付けられているAPI ユーザー名。 |
 | [!UICONTROL API Password] | web サイト | PayPal加盟店アカウントに関連付けられているAPI パスワード。 |
 | [!UICONTROL API Signature] | web サイト | PayPal加盟店アカウントに関連付けられているAPI署名。 |
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Frontend Experience Settings]
 
-![ フロントエンドエクスペリエンス設定 – PayPal マーチャント ページ スタイル ](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png)<!-- zoom -->
+![&#x200B; フロントエンドエクスペリエンス設定 – PayPal マーチャント ページ スタイル &#x200B;](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -157,7 +157,7 @@ ht-degree: 0%
 
 #### [!UICONTROL Customize Smart Buttons (Basic)]
 
-![ フロントエンドエクスペリエンス設定 – スマートボタンのカスタマイズ ](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings2.png)<!-- zoom -->
+![&#x200B; フロントエンドエクスペリエンス設定 – スマートボタンのカスタマイズ &#x200B;](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings2.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -172,7 +172,7 @@ ht-degree: 0%
 
 #### [!UICONTROL Customize Smart Buttons (Features)]
 
-![ フロントエンドエクスペリエンス設定 – スマートボタンのカスタマイズ（機能） ](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings3.png)<!-- zoom -->
+![&#x200B; フロントエンドエクスペリエンス設定 – スマートボタンのカスタマイズ（機能） &#x200B;](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings3.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

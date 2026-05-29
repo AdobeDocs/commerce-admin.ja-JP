@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ## お客様のパスワードオプションの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Customer Configuration]**&#x200B;を選択します。
 
 1. **[!UICONTROL Password Options]** セクションを展開します。
 
-   ![ パスワードオプション ](../configuration-reference/customers/assets/customer-configuration-password-options.png){width="600" zoomable="yes"}
+   ![&#x200B; パスワードオプション &#x200B;](../configuration-reference/customers/assets/customer-configuration-password-options.png){width="600" zoomable="yes"}
 
 1. パスワード リセット リクエストのチェックに使用するメソッドに&#x200B;**[!UICONTROL Password Reset Protection Type]**&#x200B;を設定します。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
    - 顧客がパスワードを変更する際に使用されるテンプレートに&#x200B;**[!UICONTROL Reset Password Template]**&#x200B;を設定します。
 
-   - パスワード関連の通知の送信者として表示される[ ストア連絡先](../getting-started/store-details.md)に&#x200B;**[!UICONTROL Password Template Email Sender]**&#x200B;を設定します。
+   - パスワード関連の通知の送信者として表示される[&#x200B; ストア連絡先](../getting-started/store-details.md)に&#x200B;**[!UICONTROL Password Template Email Sender]**&#x200B;を設定します。
 
 1. 次のパスワードリセットセキュリティオプションを実行します。
 

@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 新規顧客アカウントオプション
 
-設定の&#x200B;_[!UICONTROL Create New Account Options]_セクションでは、基本的なアカウントオプションと、VAT ID検証とカスタム統合に関連する高度なオプションが組み合わされています。 次の手順では、最も頻繁に使用されるオプションのみを説明します。 顧客グループの自動割り当てについて詳しくは、[VAT検証](../stores-purchase/vat.md)を参照してください。
+設定の&#x200B;_[!UICONTROL Create New Account Options]_&#x200B;セクションでは、基本的なアカウントオプションと、VAT ID検証とカスタム統合に関連する高度なオプションが組み合わされています。 次の手順では、最も頻繁に使用されるオプションのみを説明します。 顧客グループの自動割り当てについて詳しくは、[VAT検証](../stores-purchase/vat.md)を参照してください。
 
 ![新しいアカウントオプションを作成](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
 ## 基本的な顧客アカウントオプションの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Customer Configuration]**&#x200B;を選択します。
 
@@ -54,6 +54,6 @@ ht-degree: 0%
 
    ![VATが有効になっている新しいアカウント オプションを作成](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
 
-   この設定オプションセットで使用できる各オプションについて詳しくは、_新しいアカウントオプションの作成_ [設定リファレンス ](../configuration-reference/customers/customer-configuration.md)を参照してください。
+   この設定オプションセットで使用できる各オプションについて詳しくは、_新しいアカウントオプションの作成_ [設定リファレンス &#x200B;](../configuration-reference/customers/customer-configuration.md)を参照してください。
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
