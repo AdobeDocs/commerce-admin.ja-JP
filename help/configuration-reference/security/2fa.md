@@ -14,7 +14,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Adobe Identity Management サービス（IMS）認証を有効にしているストアでは、ネイティブ Adobe CommerceとMagento Open Sourceの2要素認証（2FA）が無効になっています。 Adobeの資格情報を使用してAdobe Commerce インスタンスにログインしている管理者ユーザーは、多くの管理者タスクで再認証を行う必要はありません。 認証は、管理者ユーザーが現在のセッションにログインしたときにAdobe IMSによって処理されます。 [Adobe CommerceとAdobe IMSの統合の概要](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html)を参照してください。
+>Adobe Identity Management サービス（IMS）認証を有効にしているストアでは、ネイティブ Adobe CommerceとMagento Open Sourceの2要素認証（2FA）が無効になっています。 Adobeの資格情報を使用してAdobe Commerce インスタンスにログインしている管理者ユーザーは、多くの管理者タスクで再認証を行う必要はありません。 認証は、管理者ユーザーが現在のセッションにログインしたときにAdobe IMSによって処理されます。 [Adobe CommerceとAdobe IMSの統合の概要](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=ja)を参照してください。
 
 {{config}}
 
