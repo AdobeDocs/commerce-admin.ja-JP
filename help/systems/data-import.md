@@ -56,7 +56,7 @@ Adobe Commerceの読み込みプロセスで、バイト順序記号（BOM）を
 
 | 操作 | 説明 |
 | --------- | ----------- |
-| 追加/更新 | データベース内の既存のエントリの既存の製品データに、新しい製品データが追加されます。 `sku`以外のすべてのフィールドを更新できます。<br><br>読み込みデータで指定された新しい税区分が自動的に作成されます。<br><br>読み込みファイルで指定された新しい製品カテゴリが自動的に作成されます。<br><br>読み込みファイルで指定された新しいSKUが自動的に作成されます&#x200B;<br><br>**_メモ:_**製品の場合、読み込みを通じてSKUを除くすべてのフィールドを更新できます。<br><br>**_重要:_** web サイトやカテゴリなどの複数のフィールド値を、_追加/更新_の読み込み動作を使用して削除することはできません。 これらのフィールドがCSV ファイルにリストされていない場合、インポート後もデータベースに残ります。 |
+| 追加/更新 | データベース内の既存のエントリの既存の製品データに、新しい製品データが追加されます。 `sku`以外のすべてのフィールドを更新できます。<br><br>読み込みデータで指定された新しい税区分が自動的に作成されます。<br><br>読み込みファイルで指定された新しい製品カテゴリが自動的に作成されます。<br><br>読み込みファイルで指定された新しいSKUが自動的に作成されます&#x200B;<br><br>**_メモ:_**&#x200B;製品の場合、読み込みを通じてSKUを除くすべてのフィールドを更新できます。<br><br>**_重要:_** web サイトやカテゴリなどの複数のフィールド値を、_追加/更新_の読み込み動作を使用して削除することはできません。 これらのフィールドがCSV ファイルにリストされていない場合、インポート後もデータベースに残ります。 |
 | 置換 | 既存の製品データは新しいデータに置き換えられます。<br><br>**_Important:_**&#x200B;既存の製品データが消去され、システム内のすべての参照が失われるため、データを置き換える際には注意してください。<br><br>読み込みデータのSKUが既存のエンティティのSKUと一致する場合、SKUを含むすべてのフィールドが削除され、CSV データを使用して新しいレコードが作成されます。 CSV ファイルがデータベースに存在しないSKUを参照すると、エラーが発生します。 データを確認してエラーを表示できます。 |
 | 削除 | データベース内に存在するインポートデータ内のエンティティはすべて、データベースから削除されます。<br><br>Deleteは、SKUを除き、インポート データ内のすべての列を無視します。 データ内の他のすべての属性を無視できます。<br><br>CSV ファイルがデータベースに存在しないSKUを参照すると、エラーが発生します。 データを確認してエラーを表示できます。 |
 
@@ -70,11 +70,11 @@ Adobe Commerceの読み込みプロセスで、バイト順序記号（BOM）を
 
 製品データを読み込むと、データベース内の既存の製品データエントリに新しい製品データが追加されます。 SKUを除くすべてのフィールドは、読み込みを通じて更新できます。 既存のすべての製品データは、読み込んだ新しいデータに置き換えられます。 データを置き換える場合は注意してください。 既存の製品データはすべて消去され、システム内のすべての参照が失われます。
 
-![ データ読み込み](./assets/import-options.png){width="600" zoomable="yes"}
+![&#x200B; データ読み込み](./assets/import-options.png){width="600" zoomable="yes"}
 
 ### 手順1：データの準備
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**&#x200B;に移動します。
 
 1. _設定の読み込み_&#x200B;で、**[!UICONTROL Entity Type]**&#x200B;を次のいずれかに設定します。
 
@@ -92,13 +92,13 @@ Adobe Commerceの読み込みプロセスで、バイト順序記号（BOM）を
 
    サンプルファイルには、製品タイプのプレースホルダーデータを含む列見出しが含まれています。
 
-   ![ データサンプルファイルの読み込み](./assets/data-export-sample-data.png){width="600" zoomable="yes"}
+   ![&#x200B; データサンプルファイルの読み込み](./assets/data-export-sample-data.png){width="600" zoomable="yes"}
 
 1. サンプルファイルの構造を確認し、CSV インポートファイルを準備するために使用します。列見出しが正しくスペルされていることを確認します。
 
 1. インポートファイルのサイズが、メッセージに表示されている制限を超えていないことを確認します。
 
-   ![ データ読み込みサイズ通知](./assets/data-import-size-notification.png){width="600"}
+   ![&#x200B; データ読み込みサイズ通知](./assets/data-import-size-notification.png){width="600"}
 
 1. インポートデータに製品画像へのパスが含まれる場合は、画像ファイルが適切な場所にアップロードされていることを確認します。
 
@@ -108,7 +108,7 @@ Adobe Commerceの読み込みプロセスで、バイト順序記号（BOM）を
 
 ### 手順2：読み込み動作の選択
 
-![ データ読み込み動作](./assets/data-import-import-behavior.png){width="600" zoomable="yes"}
+![&#x200B; データ読み込み動作](./assets/data-import-import-behavior.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Import Behavior]**&#x200B;を次のいずれかに設定します：
 
@@ -137,7 +137,7 @@ Adobe Commerceの読み込みプロセスで、バイト順序記号（BOM）を
 
 ### 手順3：読み込みファイルの特定
 
-![ データ読み込みファイル ](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
+![&#x200B; データ読み込みファイル &#x200B;](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Choose File]**&#x200B;をクリックして、読み込むファイルを選択します。
 
@@ -149,9 +149,9 @@ Adobe Commerceの読み込みプロセスで、バイト順序記号（BOM）を
 
    >[!NOTE]
    >
-   >Adobe CommerceおよびMagento Open Source `2.3.2` リリース以降、_[!UICONTROL Images File Directory]_で指定されたパスは、画像のベースディレクトリ `<Magento-root-folder>/var/import/images`に読み込むために連結されます。 例えば、`product_images` ファイルを`<Magento-root-directory>/var/import/images/product_images` フォルダーに配置します。 画像の読み込みの基本ディレクトリは、`\Magento\ImportExport\etc\config.xml` ファイルで設定できます。 リモート ストレージ モジュールが有効になっている場合は、`<remote-storage-root-directory>/var/import/images/product_images` フォルダーにファイルを読み込みます。
+   >Adobe CommerceおよびMagento Open Source `2.3.2` リリース以降、_[!UICONTROL Images File Directory]_&#x200B;で指定されたパスは、画像のベースディレクトリ `<Magento-root-folder>/var/import/images`に読み込むために連結されます。 例えば、`product_images` ファイルを`<Magento-root-directory>/var/import/images/product_images` フォルダーに配置します。 画像の読み込みの基本ディレクトリは、`\Magento\ImportExport\etc\config.xml` ファイルで設定できます。 リモート ストレージ モジュールが有効になっている場合は、`<remote-storage-root-directory>/var/import/images/product_images` フォルダーにファイルを読み込みます。
 
-   製品画像のインポートについて詳しくは、[製品画像のインポート ](data-import-product-images.md)を参照してください。
+   製品画像のインポートについて詳しくは、[製品画像のインポート &#x200B;](data-import-product-images.md)を参照してください。
 
 ### 手順4：読み込みデータの確認
 
@@ -171,7 +171,7 @@ Adobe Commerceの読み込みプロセスで、バイト順序記号（BOM）を
 
    検証結果にエラーメッセージが表示された場合は、データの問題を修正し、ファイルを再度インポートします。
 
-   ![ エラーメッセージ - URL キーは既に存在します](./assets/data-import-validation-error-url-key-exists.png){width="600"}
+   ![&#x200B; エラーメッセージ - URL キーは既に存在します](./assets/data-import-validation-error-url-key-exists.png){width="600"}
 
    読み込みが完了すると、メッセージが表示されます。
 
@@ -181,9 +181,9 @@ Commerceには、開始日時、ユーザー、実行時間、インポートさ
 
 **_読み込み履歴を表示するには:_**
 
-_管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**&#x200B;に移動します。
 
-![ データ読み込み履歴](./assets/data-import-history.png){width="600" zoomable="yes"}
+![&#x200B; データ読み込み履歴](./assets/data-import-history.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
