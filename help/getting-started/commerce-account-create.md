@@ -6,7 +6,7 @@ exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
 source-git-commit: 96acaff3e614a5758fdc51bc5de70ce0507a970a
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**[!UICONTROL Billing History]** アカウントページの[!DNL Commerce] セクションには、請求システムの更新前に作成された請求書のみが表示されます。
+>[!DNL Commerce] アカウントページの&#x200B;**[!UICONTROL Billing History]** セクションには、請求システムの更新前に作成された請求書のみが表示されます。
 >
 >新しい請求書がリストに表示されない場合、新しいシステムに移行され、このページからアクセスできません。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 [!DNL Commerce] アカウントのログインは、ストア管理者のログインとは別です。 通常、それぞれに異なる資格情報を使用し、各システムへのアクセスは個別に管理されます。
 
-ただし、Adobe CommerceおよびAdobe Business製品へのログインを効率化したい場合は、Adobe IDをストア管理者にログインするように設定できます。[Commerce向け](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/admin/ims/adobe-ims-config)IMS統合ガイドの&#x200B;*Adobe IDとのCommerce管理者統合を設定*&#x200B;してください。
+ただし、Adobe CommerceおよびAdobe Business製品へのログインを効率化したい場合は、Adobe IDをストア管理者にログインするように設定できます。[Commerce向け&#x200B;*IMS統合ガイドの](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/admin/ims/adobe-ims-config)Adobe IDとのCommerce管理者統合を設定*&#x200B;してください。
 
 >[!NOTE]
 >

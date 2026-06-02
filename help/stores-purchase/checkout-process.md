@@ -1,154 +1,154 @@
 ---
 title: チェックアウトプロセスとオプション
-description: Adobe CommerceとMagento Open Sourceのチェックアウトプロセスが、トランザクションの完了に必要な情報を収集する方法と、「チェックアウト」ページがプロセスの各ステップを通じてお客様を導く方法について説明します。
+description: Adobe CommerceとMagento Open Sourceのチェックアウトプロセスが、取引を完了するために必要な情報を収集し、チェックアウトページがプロセスの各ステップを通じてお客様を導く方法について説明します。
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
 
 # チェックアウトプロセスとオプション
 
-チェックアウトプロセスが開始されると、トランザクションは、暗号化された安全なチャネルに移動します。 ブラウザーのアドレスバーに南京錠の記号が表示され、URL が `http` から `https` に変わります。
+チェックアウトプロセスが開始されると、トランザクションは安全で暗号化されたチャネルに移行します。 ブラウザーのアドレスバーに南京錠の記号が表示され、URLが`http`から`https`に変更されます。
 
 ## プロセス
 
-チェックアウトプロセスの目標は、トランザクションの完了に必要な情報を収集することです。 _チェックアウト_ ページでは、プロセスの各ステップを順を追って顧客をリードします。 アカウントにログインしている顧客は、情報の多くが既にアカウントに存在するので、すばやくチェックアウトを完了できます。 発注書を使用する会社アカウントに関連付けられている顧客のワークフローは若干異なります。
+決済プロセスの目的は、取引を完了するために必要な情報を収集することです。 _チェックアウト_ ページは、プロセスの各ステップを通じてお客様を導きます。 アカウントにログインしている顧客は、多くの情報が既にアカウント内にあるため、チェックアウトをすばやく完了できます。 発注を使用する会社アカウントに関連付けられている顧客のワークフローは、少し異なります。
 
-### 送料
+### 発送
 
-チェックアウトプロセスの最初の手順は、顧客が配送先住所情報を入力し、配送方法を選択することです。 顧客がアカウントを持っている場合、配送先住所は自動的に入力されますが、必要に応じて変更できます。
+チェックアウトプロセスの最初のステップは、お客様が配送先情報を完了し、配送方法を選択することです。 お客様がアカウントを持っている場合、配送先住所は自動的に入力されますが、必要に応じて変更できます。
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）受信者および送信者の住所の書式は、（customer address 属性 [&#x200B; のプロパティによって決まり &#x200B;](../customers/address-attributes.md) す。 入力検証設定は、配送先住所で使用できる有効な文字を決定します。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）受信者と送信者の住所の書式は、[顧客アドレス属性](../customers/address-attributes.md)のプロパティによって決まります。 入力検証設定によって、配送先住所で使用できる有効な文字が決まります。
 
-ページの上部にあるプログレスバーはチェックアウトプロセスの各ステップに従い、注文概要には入力した情報が表示されます。
+ページ上部のプログレスバーは、チェックアウトプロセスの各ステップに従い、注文概要には、これまでに入力された情報が表示されます。
 
-![&#x200B; チェックアウトプロセス中の配送ページ &#x200B;](./assets/storefront-checkout-step1-shipping.png){width="600" zoomable="yes"}
+![&#x200B; チェックアウトプロセス中の送料ページ &#x200B;](./assets/storefront-checkout-step1-shipping.png){width="600" zoomable="yes"}
 
-#### 別の住所に配送
+#### 別の住所への配送
 
-1. アドレス帳に追加のエントリがある場合、顧客は注文が出荷される住所を見つけます。
+1. アドレス帳に追加のエントリがある場合、顧客は注文が発送されるアドレスを見つけます。
 
-1. アドレスを選択するには、「**[!UICONTROL Ship Here]**」をクリックします。
+1. アドレスを選択するには、**[!UICONTROL Ship Here]**&#x200B;をクリックします。
 
 #### アドレスを追加
 
-1. 「_[!UICONTROL Shipping Address]_」セクションの下部で、顧客は「**[!UICONTROL + New Address]**」をクリックします。
+1. _[!UICONTROL Shipping Address]_&#x200B;セクションの下部で、お客様は&#x200B;**[!UICONTROL + New Address]**&#x200B;をクリックします。
 
-1. _[!UICONTROL Shipping Address]_&#x200B;フォームに入力します。
+1. _[!UICONTROL Shipping Address]_&#x200B;フォームを完了します。
 
-   デフォルトでは、顧客の姓と名が最初にフォームに表示されます。
+   デフォルトでは、顧客の姓と名は最初にフォームに表示されます。
 
-   ![&#x200B; 発送先住所フォームには、名前と住所の情報が含まれます &#x200B;](./assets/storefront-checkout-step1-shipping-add-new-address.png){width="600" zoomable="yes"}
+   ![配送先住所フォームに名前と住所の情報が含まれる](./assets/storefront-checkout-step1-shipping-add-new-address.png){width="600" zoomable="yes"}
 
-1. アドレス帳に新しい住所を保存するには、フォームの下部にあるチェックボックスを選択します。
+1. アドレス帳に新しいアドレスを保存するために、顧客はフォームの下部にあるチェックボックスを選択します。
 
-1. **[!UICONTROL Save Address]** をクリックします。
+1. **[!UICONTROL Save Address]**&#x200B;をクリックします。
 
-   新しい住所が配送先住所として選択されました。
+   新しい住所が配送先住所として選択されます。
 
-   ![&#x200B; 保存された住所は発送先ページで自動的に選択されます &#x200B;](./assets/storefront-checkout-step1-shipping-new-address-selected.png){width="600" zoomable="yes"}
+   ![保存されたアドレスは、配送ページで自動的に選択されます](./assets/storefront-checkout-step1-shipping-new-address-selected.png){width="600" zoomable="yes"}
 
-#### 配送方法を選択
+#### 配送方法の選択
 
-1. [&#x200B; 配送 &#x200B;](delivery.md) 方法のリストで、顧客が使用するオプションを選択します。
+1. [配送方法](delivery.md)のリストで、お客様は使用するオプションを選択します。
 
-   ![&#x200B; 「出荷」ページに出荷方法オプションが表示されます &#x200B;](./assets/storefront-checkout-step1-shipping-methods.png){width="600" zoomable="yes"}
+   ![配送ページに配送方法オプションが表示される](./assets/storefront-checkout-step1-shipping-methods.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Next]** をクリックして続行します。
+1. 続行するには、**[!UICONTROL Next]**&#x200B;をクリックします。
 
-### レビューと支払い – 通常の注文
+### レビューと支払い – 定期的な注文
 
-チェックアウトプロセスの 2 番目の手順で、顧客は [&#x200B; 支払い方法 &#x200B;](payments.md) を選択し、プロモーションコードを含むクーポンを購入に適用します。 すべての情報は、必要に応じて確認および編集できます。 有効にした場合、お客様は注文する前に販売条件に同意する必要があります。
+チェックアウトプロセスの2番目の手順で、顧客は[支払い方法](payments.md)を選択し、プロモーションコード付きのクーポンを購入に適用します。 必要に応じて、あらゆる情報を確認および編集できます。 有効になっている場合、お客様は注文する前に販売の契約条件に同意する必要があります。
 
 >[!NOTE]
 >
->Commerceでは複数のクーポンコードを設定できますが、お客様は 1 つのクーポンコードのみを買い物かごに適用できます。 （詳しくは、[&#x200B; クーポンコード &#x200B;](../merchandising-promotions/price-rules-cart-coupon.md) を参照してください。）
+>Commerceでは複数のクーポンコードを設定できますが、お客様がカートに適用できるクーポンコードは1つのみです。 （詳しくは、[&#x200B; クーポンコード &#x200B;](../merchandising-promotions/price-rules-cart-coupon.md)を参照してください）。
 
-![&#x200B; チェックアウト時の確認と支払いページ &#x200B;](./assets/storefront-checkout-step2-payment-review.png){width="700" zoomable="yes"}
+![&#x200B; チェックアウト時のレビューと支払いページ &#x200B;](./assets/storefront-checkout-step2-payment-review.png){width="700" zoomable="yes"}
 
-### レビューと支払 – 発注
+### レビューと支払い – 発注
 
-![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B でのみ使用可能）
+![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2Bでのみ利用可能）
 
-顧客が [&#x200B; 発注書 &#x200B;](../b2b/purchase-order-flow.md) を有効にしている会社に関連付けられている場合、すべての注文が発注書として処理されます。 利用可能な支払い方法は、会社アカウントの設定によって決まります。
+顧客が[発注書](../b2b/purchase-order-flow.md)を有効にしている会社に関連付けられている場合、すべての注文は発注書として処理されます。 利用できる支払い方法は、会社のアカウント設定によって決まります。
 
-1. 顧客が支払い方法を選択します。
+1. 顧客は支払い方法を選択します。
 
-   _分割払い_ 方式を使用する場合、[!UICONTROL Custom Reference Number] フィールドを使用して請求書番号を参照できます。
+   アカウント _での支払い方法を使用する場合、[!UICONTROL Custom Reference Number] フィールドを使用して請求書番号を参照できます。_
 
-1. 顧客は「**[!UICONTROL Place Purchase Order]**」をクリックします。
+1. お客様は&#x200B;**[!UICONTROL Place Purchase Order]**&#x200B;をクリックします。
 
    発注が行われます。
 
-会社が [&#x200B; 承認ルール &#x200B;](../b2b/account-dashboard-approval-rules.md) を設定している場合、発注書は承認プロセスを実行します。 それ以外の場合は、直ちに処理されます。
+会社が[承認ルール &#x200B;](../b2b/account-dashboard-approval-rules.md)を設定している場合、発注は承認プロセスを経ます。 それ以外の場合は、すぐに処理されます。
 
-![&#x200B; 発注の審査及び支払 &#x200B;](./assets/checkout-storefront-step2-b2b.png){width="700" zoomable="yes"}
+![発注書のレビューと支払い](./assets/checkout-storefront-step2-b2b.png){width="700" zoomable="yes"}
 
-### 注文概要に表示される項目数
+### 注文概要に表示されるアイテムの数
 
-管理者ユーザーは、チェックアウト時に注文概要に表示される最大項目数を変更して、より少ない製品で表示を効率化できます。 デフォルトでは、この値は 10 に設定されています。
+管理者ユーザーは、チェックアウト時に注文概要に表示される最大項目数を変更して、より少ない商品で表示を効率化できます。 デフォルトでは、この値は10に設定されています。
 
-![&#x200B; 注文概要に表示される項目の数 &#x200B;](./assets/order-summary.png){width="700" zoomable="yes"}
+![注文概要](./assets/order-summary.png){width="700" zoomable="yes"}に表示されるアイテムの数
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
+1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Checkout]**&#x200B;を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Checkout Options]**」セクションを展開します。
+1. **[!UICONTROL Checkout Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-1. **[!UICONTROL Maximum Number of Items to Display in Order Summary]**：表示する項目の最大数を入力します。
+1. **[!UICONTROL Maximum Number of Items to Display in Order Summary]**&#x200B;に、表示するアイテムの最大数を入力します。
 
-1. 「**[!UICONTROL Save Config]**」をクリックします。
+1. **[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-   この更新により、チェックアウト時に表示される注文概要は、指定した数量の項目に限定されます。
+   今回のアップデートでは、チェックアウト時に表示される注文概要は、指定された数量の商品に限定されます。
 
 ### 注文確認
 
-注文後、注文確認が表示されます。 登録済みのお客様の場合、ページには、注文番号と、お客様のアカウントへのリンク、およびレシートを生成するためのリンクが含まれます。 登録されたお客様は、メールで注文確認と追跡情報を期待するように言われます。 注文を追跡するためのアカウントを作成することをお勧めします。 登録済みのお客様は、リンクをクリックして領収書を生成できます。
+注文確認書は、注文後に表示されます。 登録済みのお客様の場合、ページには、お客様のアカウントへのリンクと領収書を生成するためのリンクを含む注文番号が含まれます。 登録済みの顧客には、注文確認と追跡情報を電子メールで送信するように指示します。 お客様は、注文を追跡するためのアカウントを作成することをお勧めします。 登録済みの顧客は、リンクをクリックして領収書を生成できます。
 
-注文確認ページは _成功_ ページとも呼ばれ、Analytics プログラムでコンバージョンを追跡するために使用されます。
+注文確認ページは&#x200B;_成功_ ページとも呼ばれ、分析プログラムでコンバージョンを追跡するために使用されます。
 
-![&#x200B; 注文確認ページに成功メッセージと注文番号が表示される &#x200B;](./assets/storefront-checkout-confirmation-customer.png){width="700" zoomable="yes"}
+![注文確認ページに成功メッセージと注文番号が表示される](./assets/storefront-checkout-confirmation-customer.png){width="700" zoomable="yes"}
 
 ## チェックアウトオプション
 
-チェックアウトオプションは、レイアウトなど、チェックアウトページの様々な属性を制御します。 ゲストのチェックアウトを許可したり、利用条件に関する契約を適用するなど、チェックアウトに制約を設定できるオプションがあります。 チェックアウトプロセス中の情報の表示を制御するオプションもあります。
+チェックアウトオプションは、レイアウトを含むチェックアウトページの様々な属性を制御します。 チェックアウト時に制約を設定できるオプションもあります。これには、ゲストチェックアウトの許可や利用条件に関する契約の履行などがあります。 チェックアウトプロセス中に情報の表示を制御するオプションもあります。
 
-![&#x200B; 設定 – チェックアウトオプション &#x200B;](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
+![設定 – チェックアウトオプション &#x200B;](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-これらの各設定について詳しくは、『設定リファレンスガイド _の [&#x200B; チェックアウトオプション &#x200B;](../configuration-reference/sales/checkout.md#checkout-options) を参照してください_。
+これらの各構成設定の詳細については、_構成リファレンスガイド_&#x200B;の[&#x200B; チェックアウトオプション &#x200B;](../configuration-reference/sales/checkout.md#checkout-options)を参照してください。
 
 ### チェックアウトオプションの変更
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
-1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
-1. 必要に応じて、次のいずれかのオプションを設定します。
-1. 「**[!UICONTROL Save Config]**」をクリックします。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Checkout]**&#x200B;を選択します。
+1. 必要な次のいずれかのオプションを設定します。
+1. **[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Checkout Options]**」セクションを展開します。
+1. **[!UICONTROL Checkout Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-1. 設定が特定のストア表示のためのものである場合は、[&#x200B; ストア表示を選択 &#x200B;](../configuration-reference/scope-change.md#set-the-scope) して、設定が適用されます。
+1. 設定が特定のストアビューの場合、[設定が適用されるストアビュー](../configuration-reference/scope-change.md#set-the-scope)を選択します。
 
-   プロンプトが表示されたら、「**[!UICONTROL OK]**」をクリックして続行します。
+   プロンプトが表示されたら、**[!UICONTROL OK]**&#x200B;をクリックして続行します。
 
-1. チェックアウトオプションを設定します。
+1. チェックアウトオプションの設定：
 
-1. 「**[!UICONTROL Save Config]**」をクリックします。
+1. **[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-### 使用可能なチェックアウトオプション
+### 利用可能なチェックアウトオプション
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable Onepage Checkout] | ストア表示 | [1 ページチェックアウト &#x200B;](checkout-one-page.md) がデフォルトのチェックアウト形式かどうかを決定します。 オプション：はい/いいえ |
-| [!UICONTROL Allow Guest Checkout] | ストア表示 | ストアのアカウントについて、ゲストが [&#x200B; 登録せずにチェックアウト &#x200B;](checkout-guest.md) を実行できるかどうかを決定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Enable Terms and Conditions] | ストア表示 | 購入を行う前に、顧客が販売の [&#x200B; 利用条件 &#x200B;](terms-and-conditions.md) に同意する必要があるかどうかを決定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Display Billing Address On] | ストア表示 | チェックアウト時の請求先住所の場所を決定します。 オプション：`Payment Method` / `Payment Page` |
-| [!UICONTROL Maximum Number of Items to Display in Order Summary] | ストア表示 | チェックアウト時に注文概要に表示できる項目の最大数を決定します。 デフォルトは `10` です。 |
-| [!UICONTROL Enable Address Search] | Web サイト | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）お客様が [&#x200B; 配送料 _および_ 確認と支払い _手順に &#x200B;](checkout-address-search.md) 住所の検索_ 機能を使用できるかどうかを判断します。 この機能が有効な場合は、_[!UICONTROL Number of Customer Addresses Limit]_&#x200B;を使用して、チェックアウト時にこの機能を有効化するために必要な保存済みアドレスの数を設定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Number of Customer Addresses Limit] | Web サイト | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） アドレス検索が **[!UICONTROL Enabled]** の場合、は、チェックアウト時にこの機能をアクティブにするために必要な保存済みアドレスの数を決定します。 顧客の保存済みアドレスの数がこの数を超える場合、_配送_ ステップおよび _確認と支払い_ ステップではデフォルトのアドレスのみがレンダリングされます。 お客様は、検索機能を使用して、選択したアドレスを変更できます。 デフォルトは 10 です。 |
+| [!UICONTROL Enable Onepage Checkout] | ストアビュー | [1 ページのチェックアウト &#x200B;](checkout-one-page.md)が既定のチェックアウト形式であるかどうかを判断します。 オプション：はい/いいえ |
+| [!UICONTROL Allow Guest Checkout] | ストアビュー | ゲストがストアにアカウントを登録せずに[&#x200B; チェックアウトを行えるかどうかを判断します。](checkout-guest.md) オプション：`Yes` / `No` |
+| [!UICONTROL Enable Terms and Conditions] | ストアビュー | 顧客が購入する前に、販売の[利用条件](terms-and-conditions.md)に同意する必要があるかどうかを判断します。 オプション：`Yes` / `No` |
+| [!UICONTROL Display Billing Address On] | ストアビュー | チェックアウト時の請求先住所の場所を指定します。 オプション：`Payment Method` / `Payment Page` |
+| [!UICONTROL Maximum Number of Items to Display in Order Summary] | ストアビュー | チェックアウト時に注文概要に表示できるアイテムの最大数を指定します。 デフォルトは`10`です。 |
+| [!UICONTROL Enable Address Search] | web サイト | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）お客様が&#x200B;_配送_&#x200B;と&#x200B;_レビューと支払い_&#x200B;の手順に[&#x200B; アドレス検索](checkout-address-search.md)機能を使用できるかどうかを判断します。 この機能が有効になっている場合は、_[!UICONTROL Number of Customer Addresses Limit]_&#x200B;を使用して、チェックアウト時にこの機能を有効にするために必要な保存済みアドレスの数を設定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Number of Customer Addresses Limit] | web サイト | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）アドレス検索が&#x200B;**[!UICONTROL Enabled]**&#x200B;の場合、チェックアウト時にこの機能を有効にするために必要な保存済みアドレスの数が決定されます。 お客様の保存済みアドレス数がこの数を満たすか超える場合、デフォルトのアドレスのみが&#x200B;_送料_&#x200B;および&#x200B;_レビューと支払い_&#x200B;の手順でレンダリングされます。 お客様は、検索機能を使用して、選択したアドレスを変更できます。 デフォルトは10です。 |
 
 {style="table-layout:auto"}

@@ -1,12 +1,12 @@
 ---
 title: キャンペーンのプレビュー
-description: キャンペーン中の任意の日または期間のプレビューを作成して、チームメンバーと共有します。
+description: キャンペーン期間中の任意の日または期間のプレビューを作成し、チームメンバーと共有できます。
 exl-id: f05589ae-9fc8-4e51-a504-ab90772b3c3d
 feature: Page Content, Staging
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -15,52 +15,52 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-キャンペーン中の任意の日や期間をプレビューして、他のユーザーと共有できます。
+キャンペーン中の任意の期間または曜日をプレビューし、他のユーザーと共有できます。
 
 1. プレビューウィンドウを開くには、次のいずれかの方法を使用します。
 
-   - _コンテンツのステージングダッシュボードから_
+   - _コンテンツステージングダッシュボードから_
 
-      - _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Content Staging]_/**[!UICONTROL Dashboard]**&#x200B;に移動します。
-      - ページ上の任意の項目をクリックし、キャンペーンに関して表示された概要情報の **[!UICONTROL Preview]** をクリックします。
+      - _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**&#x200B;に移動します。
+      - ページ上の任意の項目をクリックし、キャンペーンの表示された概要情報の&#x200B;**[!UICONTROL Preview]**&#x200B;をクリックします。
 
-   - _スケジュールされた変更がある任意のページから_
+   - _変更予定のある任意のページ_
 
-      - 上部に _[!UICONTROL Scheduled Changes]_&#x200B;ボックスがあるページを開きます。
-      - 「**[!UICONTROL Preview]**」をクリックします。
+      - _[!UICONTROL Scheduled Changes]_&#x200B;ボックスが上部にあるページを開きます。
+      - **[!UICONTROL Preview]**&#x200B;をクリックします。
 
    プレビューが新しいブラウザータブで開き、スケジュールされたキャンペーン中に製品がどのように表示されるかを示します。
 
-1. プレビューウィンドウの左上隅にある [**[!UICONTROL Calendar]**] をクリックします。
+1. プレビューウィンドウの左上隅にある「**[!UICONTROL Calendar]**」をクリックします。
 
-   カレンダーの詳細には、同じ日にスケジュールされた他のキャンペーンが表示されます。 リスト内の各レコードは個別のキャンペーンです。
+   カレンダーの詳細には、同じ日にスケジュールされているその他のキャンペーンが表示されます。 リストの各レコードは個別のキャンペーンです。
 
-1. 特定の日時をプレビューする：
+1. 特定の曜日または時刻のプレビュー：
 
    - **[!UICONTROL Date & Time]** カレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png){width="10" zoomable="no"}）をクリックします。
 
    - 別の日付や時刻を選択してください。
 
-   - 「**[!UICONTROL Preview]**」をクリックします。
+   - **[!UICONTROL Preview]**&#x200B;をクリックします。
 
-1. 別のストア表示のプレビューの範囲を変更する：
+1. 別のストアビューのプレビューの範囲を変更します。
 
-   - プレビューページのヘッダーで、「**[!UICONTROL Scope]**」をクリックします。
+   - プレビューページのヘッダーで、**[!UICONTROL Scope]**&#x200B;をクリックします。
 
-   - プレビューする web サイト、ストア、またはストア表示を選択します。
+   - プレビューするweb サイト、ストアビューまたはストアビューを選択します。
 
    >[!NOTE]
    >
-   >プレビューは常に、顧客がキャンペーン内を移動する際のエクスペリエンスをエミュレートする **デフォルト** ストア表示から開始します。 単一ステージキャンペーンには、複数のストアビューおよび web サイトに影響を与える変更が含まれる場合があります。 これらのビュー/web サイトでキャンペーンが正しく表示されていることを確認します。
+   >プレビューは常に&#x200B;**default** ストアビューから開始され、キャンペーン内を移動する顧客の体験をエミュレートします。 1段階の施策では、複数のストアビューやweb サイトに影響を与える変更が含まれる場合があります。 これらのビュー/web サイトでキャンペーンが適切に表示されていることを確認します。
 
-1. プレビューへのリンクを共有します。
+1. プレビューへのリンクを共有：
 
-   - **[!UICONTROL Share]** をクリックし、リンクをクリップボードにコピーします。
+   - **[!UICONTROL Share]**&#x200B;をクリックし、リンクをクリップボードにコピーします。
 
-   - メールメッセージの本文にリンクを貼り付けます。
+   - リンクをメールメッセージの本文に貼り付けます。
 
      >[!NOTE]
      >
-     >共有プレビューを表示するには、管理者ユーザーアカウントが必要です。 [&#x200B; 管理者ユーザーアカウントの作成 &#x200B;](../systems/permissions-users-all.md#create-a-user) 権限がある場合、共有する前に、新しいユーザーのアカウントを作成する必要があります。
+     >共有プレビューを表示するには、管理者ユーザーアカウントが必要です。 管理者ユーザーアカウントを[作成する権限がある場合](../systems/permissions-users-all.md#create-a-user)、共有する前に新しいユーザーのアカウントを作成する必要があります。
 
 1. キャンペーンカレンダーに戻るには、プレビューページのヘッダーにある「**[!UICONTROL Calendar]**」をクリックします。

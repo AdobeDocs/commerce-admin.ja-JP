@@ -1,6 +1,6 @@
 ---
-title: カテゴリ製品割り当て
-description: '[!UICONTROL Products in Category] 設定を使用して、現在カテゴリに割り当てられている製品を制御する方法について説明します。'
+title: カテゴリ製品の割り当て
+description: '[!UICONTROL Products in Category]設定を使用して、現在カテゴリに割り当てられている製品を制御する方法について説明します。'
 exl-id: e7ab11c0-2d55-4824-a397-a1c858344d4f
 feature: Catalog Management, Categories, Products
 source-git-commit: 5aea3aa13ab0eb74866fc0cbcbfe08b5099abe95
@@ -10,64 +10,64 @@ ht-degree: 0%
 
 ---
 
-# カテゴリ製品割り当て
+# カテゴリ製品の割り当て
 
-カテゴリの場合は、「_[!UICONTROL Products in Category]_」セクションを使用して、現在カテゴリに割り当てられている製品を確認します。 各列の上部にある検索フィルターは、商品の追加とカテゴリからの削除に使用されます。 [&#x200B; カテゴリルール &#x200B;](../merchandising-promotions/category-product-rules.md) （![Adobe Commerce](../assets/adobe-logo.svg)Adobe Commerceのみ）を使用して、一連の条件が満たされたときに商品の選択範囲を動的に変更することもできます。 詳しくは、[&#x200B; ビジュアルマーチャンダイザー &#x200B;](../merchandising-promotions/visual-merchandiser.md)）を参照してください。
+カテゴリの場合は、_[!UICONTROL Products in Category]_&#x200B;セクションを使用して、現在そのカテゴリに割り当てられている製品を確認します。 各列の上部にある検索フィルターを使用して、商品をカテゴリに追加したりカテゴリから削除したりします。 また、[&#x200B; カテゴリルール &#x200B;](../merchandising-promotions/category-product-rules.md) （![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerceのみ）を使用して、一連の条件が満たされたときに商品の選択を動的に変更することもできます。 詳しくは、[Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)）を参照してください。
 
 >[!TIP]
 >
->カテゴリルールの設定時、このカテゴリの保存時に、_並べ替え_、_一致_、_割り当て済み_、_未割り当て_ ルールに従って **_のみ_** 商品が保存されます。 カタログに新しい製品を追加したときにルールに従って新しい製品が確実に割り当てられるようにするには、ルールで製品と一致するように設定されている **各カテゴリを再保存する必要があります**。 また、商品の在庫ステータスが `In Stock` または `Out of Stock` に変更され、「自動並べ替え __ ルールに従ってカテゴリ内の商品が **並べ替え** れる場合は、「**[!UICONTROL Save Category]**」をクリックする必要があります。
+>カテゴリルールの設定中、このカテゴリを保存すると、そのルール **_のみ_**&#x200B;に従って、製品は&#x200B;_並べ替え_、_一致_、_割り当て_&#x200B;および&#x200B;_未割り当て_&#x200B;になります。 カタログに追加する際に、ルールに従って新しい製品が割り当てられていることを確認するには、ルールで製品に一致するように設定されている各カテゴリ **を**&#x200B;保存する必要があります。 また、商品の在庫状況が`In Stock`または`Out of Stock`に変更され、カテゴリ内の商品が&#x200B;**自動並べ替え** ルールに従って&#x200B;_並べ替え_&#x200B;される場合は、**[!UICONTROL Save Category]**&#x200B;をクリックする必要があります。
 
-![&#x200B; カテゴリ製品 &#x200B;](./assets/category-products-in-category.png){width="600" zoomable="yes"}
+![&#x200B; カテゴリ製品](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->_在庫_ 列には、_&#x200B;**選択したカテゴリ範囲**&#x200B;_ のみの使用可能な製品数量が表示されます。 製品に対して複数の在庫を管理する場合、対応する範囲を切り替えて、他の _在庫_ 列の値を _カテゴリ製品_ グリッドに表示する必要があります。
+>_Stock_&#x200B;列には、_&#x200B;**選択したカテゴリ スコープ**&#x200B;_&#x200B;に対してのみ使用可能な製品数量が表示されます。 商品に対して複数の在庫を管理する場合は、対応する範囲を切り替えて、_カテゴリー商品_ グリッドに他の&#x200B;_在庫_&#x200B;列の値を表示する必要があります。
 
 ## カテゴリルールの適用
 
 {{ee-feature}}
 
-1. **[!UICONTROL Match products by rule]** を `Yes` に設定します。
+1. **[!UICONTROL Match products by rule]**&#x200B;を`Yes`に設定します。
 
-   自動並べ替えと条件のオプションが表示されます。
+   自動並べ替えと条件オプションが表示されます。
 
-   ![&#x200B; ルールで製品を照合する場合 &#x200B;](./assets/category-match-products-by-rule.png){width="600" zoomable="yes"}
+   ![&#x200B; ルール &#x200B;](./assets/category-match-products-by-rule.png){width="600" zoomable="yes"}で製品を照合する
 
-1. **[!UICONTROL Automatic Sorting]** の順序を設定します。
+1. **[!UICONTROL Automatic Sorting]**&#x200B;注文を設定します。
 
-   この自動並べ替えは、現在の条件に基づいて行われます。
+   この自動並べ替えは、現在の状況に基づいています。
 
    - `Stock level` – 上または下に移動します。
    - `Special price` – 上または下に移動します。
-   - `New Products` – 新しい製品から順にリストします。
-   - `Color` – 色順に並べ替えます。
+   - `New Products` – 最新の製品を最初にリストします。
+   - `Color` - アルファベット順にカラーで並べ替えます。
    - `Name` – 名前で昇順または降順に並べ替えます。
-   - `SKU` - SKU で昇順または降順に並べ替えます
-   - `Price` – 価格で昇順または降順に並べ替えます。
+   - `SKU` - SKUで昇順または降順に並べ替え
+   - `Price` – 昇順または降順で価格で並べ替えます。
 
-1. 「**[!UICONTROL Add Condition]**」をクリックして、次の操作を実行します。
+1. **[!UICONTROL Add Condition]**&#x200B;をクリックし、次の操作を行います。
 
-   - 条件の基礎となる **[!UICONTROL Attribute]** を選択します。
-   - 式の作成に必要な **[!UICONTROL Operator]** を選択します。
-   - 照合する **[!UICONTROL Value]** を入力します。
+   - 条件の基となる&#x200B;**[!UICONTROL Attribute]**&#x200B;を選択します。
+   - 式の形成に必要な&#x200B;**[!UICONTROL Operator]**&#x200B;を選択します。
+   - 一致させる&#x200B;**[!UICONTROL Value]**&#x200B;を入力します。
 
-   ![&#x200B; カテゴリルールへの条件の追加 &#x200B;](./assets/category-rule-create.png){width="600" zoomable="yes"}
+   ![&#x200B; カテゴリルールに条件を追加](./assets/category-rule-create.png){width="600" zoomable="yes"}
 
-   満たす条件を記述するために使用する属性ごとに、このプロセスを繰り返します。 例えば、7～30 日前に作成された製品を照合するには、次の手順を実行します。
+   各属性に対してこのプロセスを繰り返して、満たすべき条件を記述します。 例えば、7 ～ 30日前に作成された製品を照合するには、次の操作を行います。
 
-   - **[!UICONTROL Date Created]** を `Less than 30` に設定します。
-   - **[!UICONTROL Logic]** を `AND` に設定します。
-   - **[!UICONTROL Date Modified]** を `Greater than 7` に設定します。
+   - **[!UICONTROL Date Created]**&#x200B;を`Less than 30`に設定します。
+   - **[!UICONTROL Logic]**&#x200B;を`AND`に設定します。
+   - **[!UICONTROL Date Modified]**&#x200B;を`Greater than 7`に設定します。
 
-1. 完了したら、「**[!UICONTROL Save Category]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Category]**&#x200B;をクリックします。
 
 ### ページオプション
 
 | オプション | 説明 |
 |--- |--- |
-| [!UICONTROL Match products by rule] | カテゴリ内の製品のリストがカテゴリルールによって動的に生成されるかどうかを決定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Automatic Sorting] | カテゴリ製品のリストに並べ替え順を自動的に適用します。 オプション：<br/>`None`<br/>`Move low stock to top`<br/>`Move low stock to bottom`<br/>`Special price to top`<br/>`Special price to bottom`<br/>`Newest products first`<br/>`Sort by color`<br/>`Name: A - Z`<br/>`Name: Z - A`<br/>`SKU: Ascending`<br/>`SKU: Descending`<br/>`Price: High to Low`<br/>`Price: Low to High` |
+| [!UICONTROL Match products by rule] | カテゴリ内の製品のリストがカテゴリルールによって動的に生成されるかどうかを指定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Automatic Sorting] | カテゴリ製品のリストに自動的に並べ替え順序を適用します。 オプション：<br/>`None`<br/>`Move low stock to top`<br/>`Move low stock to bottom`<br/>`Special price to top`<br/>`Special price to bottom`<br/>`Newest products first`<br/>`Sort by color`<br/>`Name: A - Z`<br/>`Name: Z - A`<br/>`SKU: Ascending`<br/>`SKU: Descending`<br/>`Price: High to Low`<br/>`Price: Low to High` |
 | [!UICONTROL Add Condition] | ルールに別の条件を追加します。 |
 
 {style="table-layout:auto"}
@@ -76,16 +76,16 @@ ht-degree: 0%
 
 | オプション | 説明 |
 |--- |--- |
-| [!UICONTROL Attribute] | 条件の基礎として使用する属性を指定します。 オプション：<br/>**[!UICONTROL Clone Category ID(s)]**- カテゴリ ID に基づいて、複数のカテゴリから、並べ替えや順序なしで動的に製品のクローンを作成します。<br/>**[!UICONTROL Color]** – 色に基づいて製品を含めます。 <br/>**[!UICONTROL Date Created (days ago)]**– 製品がカタログに追加されてからの経過日数に基づいて、製品を含めます。<br/>**[!UICONTROL Date Modified (days ago)]** – 製品が最後に変更されてからの経過日数に基づいて、製品を含めます。 <br/>**[!UICONTROL Name]**– 製品名に基づいて製品を含めます。<br/>**[!UICONTROL Price]** – 価格に基づいて製品を含めます。 <br/>**[!UICONTROL Quantity]**– 在庫数に基づいて製品を含めます。<br/>**&#x200B; SKU &#x200B;**- SKU に基づいた製品を含みます。 |
-| [!UICONTROL Operator] | 条件を満たすために属性値に適用する演算子を指定します。 演算子を指定しない限り、`Equal` がデフォルトとして使用されます。 オプション：`Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
+| [!UICONTROL Attribute] | 条件の基礎として使用される属性を指定します。 オプション：<br/>**[!UICONTROL Clone Category ID(s)]**- カテゴリ IDに基づいて複数のカテゴリから、並べ替えや順序を指定せずに製品を動的に複製します。<br/>**[!UICONTROL Color]** – 色に基づいて製品を含めます。<br/>**[!UICONTROL Date Created (days ago)]**– 商品がカタログに追加されてからの日数に基づいて商品が含まれます。<br/>**[!UICONTROL Date Modified (days ago)]** – 製品が最後に変更されてからの日数に基づいて製品が含まれます。<br/>**[!UICONTROL Name]**– 製品名に基づく製品が含まれます。<br/>**[!UICONTROL Price]** – 価格に基づく商品が含まれます。<br/>**[!UICONTROL Quantity]**– 在庫量に基づく商品が含まれます。<br/>**&#x200B; SKU &#x200B;**- SKUに基づく商品が含まれます。 |
+| [!UICONTROL Operator] | 条件を満たすために属性値に適用される演算子を指定します。 演算子を指定しない限り、`Equal`がデフォルトとして使用されます。 オプション：`Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
 | [!UICONTROL Value] | 属性が条件を満たす必要がある値を指定します。 |
-| [!UICONTROL Logic] | 複数の条件の定義に使用し、別の条件が追加された場合にのみ表示されます。 オプション：`OR` / `AND` |
+| [!UICONTROL Logic] | 複数の条件を定義するために使用され、別の条件が追加されたときにのみ表示されます。 オプション：`OR` / `AND` |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->子オプションを持つ設定可能なプロダクトの量は、すべての子プロダクトの量を組み合わせて計算されます。 紫色、赤色、黄色のカラーオプションとそれぞれの異なる量を使用した、設定可能な製品 _耐久性フィットネスタンク_ の例について考えてみます。 このシナリオでは、親製品の数量は、紫色、赤色、黄色の子製品を組み合わせた数量です。
+>子オプションを含む設定可能な製品の数量は、すべての子製品数量を組み合わせて計算されます。 紫色、赤色、黄色の色のオプションと、それぞれ異なる数量を持つ設定可能な製品&#x200B;_耐久フィットネスタンク_&#x200B;の例を考えてみましょう。 このシナリオでは、親製品数量は、紫色、赤色、黄色の子製品を組み合わせた数量です。
 
 ## コントロール
 
@@ -96,12 +96,12 @@ ht-degree: 0%
 
 | 制御 | 説明 |
 |----------|--------------|
-| ![&#x200B; リストとして表示 &#x200B;](../assets/icon-view-list.png) | リストとして表示 |
-| ![&#x200B; タイルとして表示 &#x200B;](../assets/icon-view-tiles.png) | タイルとして表示 |
-| ![&#x200B; 切り替え番号 &#x200B;](../assets/toggle-no.png) | ルールによる一致 – いいえ |
-| ![&#x200B; はい切り替え &#x200B;](../assets/toggle-yes.png) | ルールによる一致 – はい |
-| ![&#x200B; コントローラを移動 &#x200B;](../assets/icon-move.png) | ドラッグ&amp;ドロップコントロールを使用すると、製品を選択して、グリッドの現在のページ内の別の位置に移動できます。 詳しくは、[&#x200B; ビジュアルマーチャンダイザー &#x200B;](../merchandising-promotions/visual-merchandiser.md) を参照してください。 |
-| ![&#x200B; 位置コントローラ &#x200B;](../assets/control-position.png) | リスト内の商品の位置を決定します。 |
+| ![&#x200B; リストとして表示](../assets/icon-view-list.png) | リストとして表示 |
+| ![&#x200B; タイルとして表示](../assets/icon-view-tiles.png) | タイルとして表示 |
+| ![No](../assets/toggle-no.png)を切り替え | ルールによる一致 – いいえ |
+| ![はい](../assets/toggle-yes.png)に切り替え | ルールによる一致 – はい |
+| ![&#x200B; コントローラーを移動](../assets/icon-move.png) | ドラッグ&amp;ドロップコントロールを使用すると、商品を取得し、グリッドの現在のページ内の別の位置に移動できます。 詳しくは、[Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)を参照してください。 |
+| ![位置コントローラー](../assets/control-position.png) | リスト内の製品の位置を決定します。 |
 
 {style="table-layout:auto"}
 
@@ -111,9 +111,9 @@ ht-degree: 0%
 
 | 制御 | 説明 |
 |----------|--------------|
-| ![&#x200B; 選択されたチェックボックス &#x200B;](../assets/checkbox-selected.png) | 最初の列のヘッダーにあるチェックボックスを使用して、すべての製品を選択するか、すべての選択をクリアします。 最初の行のコントロールは検索の種類を決定し、任意のレコードを含むように設定することも、カテゴリに割り当てられているか割り当てられていないレコードのみを含むように設定することもできます。 各行の最初の列にあるチェックボックスで、カテゴリに追加する製品を指定します。 オプション：`Yes`/`No`/`Any` |
-| [!UICONTROL Search Filters] | 各列の上部にあるフィルターコントロールを使用して、「すべてを選択」の設定に応じて、リストに含める値またはリストから除外する値を入力することができます。 |
-| [!UICONTROL Reset Filter] | すべての検索フィルターをクリアします。 |
-| [!UICONTROL Search] | フィルタ条件に基づいてカタログを検索し、結果を表示します。 |
+| ![選択したチェックボックス &#x200B;](../assets/checkbox-selected.png) | 最初の列のヘッダーのチェックボックスを使用して、すべての製品を選択するか、すべての選択をクリアします。 最初の行のコントロールは検索のタイプを決定し、任意のレコードを含めるか、カテゴリに割り当てられているか割り当てられていないレコードのみを含めるように設定できます。 各行の最初の列のチェックボックスは、カテゴリに追加する製品を示します。 オプション：`Yes` / `No` / `Any` |
+| [!UICONTROL Search Filters] | 各列の上部にあるフィルターコントロールを使用して、「すべてを選択」設定に応じて、リストに含める特定の値を入力したり、リストから除外したりできます。 |
+| [!UICONTROL Reset Filter] | すべての検索フィルターを消去します。 |
+| [!UICONTROL Search] | フィルター条件に基づいてカタログを検索し、結果を表示します。 |
 
 {style="table-layout:auto"}

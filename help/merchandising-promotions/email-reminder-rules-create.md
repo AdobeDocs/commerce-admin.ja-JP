@@ -5,7 +5,7 @@ exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
 source-git-commit: d605748f04f26952daa467a84431a17bf368dbad
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 
      ![電子メールリマインダー – タイトルと説明](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - _[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;セクションで、**[!UICONTROL Rule Title]**&#x200B;デフォルトのストアビュー&#x200B;**[!UICONTROL Description]**&#x200B;の_&#x200B;と&#x200B;_を入力します。 複数のストアビューの場合は、それぞれに適切なタイトルと説明を入力します。
+   - _[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;セクションで、_ デフォルトのストアビュー&#x200B;_の&#x200B;**[!UICONTROL Rule Title]**&#x200B;と&#x200B;**[!UICONTROL Description]**&#x200B;を入力します。 複数のストアビューの場合は、それぞれに適切なタイトルと説明を入力します。
 
      >[!NOTE]
      >
@@ -93,7 +93,7 @@ ht-degree: 0%
 
      ![&#x200B; タイトルと説明 – ストアビュー](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} [!DNL Adobe Commerce as a Cloud Service]を使用している場合、[&#x200B; チェックボックスを選択して](#rule-repeatability) ルールの繰り返し可能性[!UICONTROL Rule Repeatability]を有効にできます。
+1. [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} [!DNL Adobe Commerce as a Cloud Service]を使用している場合、[!UICONTROL Rule Repeatability] チェックボックスを選択して[&#x200B; ルールの繰り返し可能性](#rule-repeatability)を有効にできます。
 
    >[!IMPORTANT]
    >
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 ルールの繰り返し性により、複数のメールリマインダーに対して1つのルールを再利用できます。 これは、後で同じ顧客にルールを適用する場合に便利です。 ルールの繰り返し性がなければ、顧客がカートをクリアしたり、購入を完了したりすると、このルールは適用されなくなります。
 
-「**[!UICONTROL Rule Repeatability]**」タブの「**[!UICONTROL General Information]**」チェックボックスをオンにすると、元のルールトリガーが適用されなくなった後に、ルールをユーザーに再度適用できます。
+「**[!UICONTROL General Information]**」タブの「**[!UICONTROL Rule Repeatability]**」チェックボックスをオンにすると、元のルールトリガーが適用されなくなった後に、ルールをユーザーに再度適用できます。
 
 ![&#x200B; ルールの繰り返し可能性](./assets/rule-repeatability.png){width="600" zoomable="yes"}
 

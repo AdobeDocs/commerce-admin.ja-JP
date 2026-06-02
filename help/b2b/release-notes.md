@@ -1018,7 +1018,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - お客様は、QuickOrderを使用して商品をカートに追加し、商品を正常に削除できるようになりました。 以前、買い物客がQuickOrderを使用して複数の商品をカートに追加し、その後商品を削除した場合、その商品は削除されませんでした。<!--- MC-35327-->
 
-- ステートが&#x200B;**必須ではない**&#x200B;として設定されている場合、`region_id`を指定せずに、REST API PUT `/V1/company/:companyId` リクエストを使用して会社を更新できるようになりました。 以前は、`region_id`は必須ではありませんでしたが、Adobe Commerceは指定されていない場合にエラーをスローしていました。<!--- MC-35304-->
+- 状態が&#x200B;**必須ではない**&#x200B;として設定されている場合、`region_id`を指定せずに、REST API PUT `/V1/company/:companyId`要求を使用して会社を更新できるようになりました。 以前は、`region_id`は必須ではありませんでしたが、Adobe Commerceは指定されていない場合にエラーをスローしていました。<!--- MC-35304-->
 
 - REST API （`2`は会社IDを表す）を使用してB2B会社を作成または更新すると、応答に`applicable_payment_method`または`available_payment_methods`の設定が期待どおりに含まれるようになりました。<!--- MC-35248-->`http://magento.local/rest/V1/company/2`
 
@@ -1026,7 +1026,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 新しい製品がパブリック共有カタログに割り当てられたときに、カテゴリ権限が変更されなくなりました。 以前は、カテゴリの権限が重複していました。<!--- MC-34386-->
 
-- 会社の電子メールの更新に使用されるREST API エンドポイント PUT `rest/default/V1/company/{id}`では、大文字と小文字が区別されなくなりました。<!--- MC-34308-->
+- 会社の電子メールの更新に使用されるREST API エンドポイント PUT `rest/default/V1/company/{id}`は、大文字と小文字を区別しなくなりました。<!--- MC-34308-->
 
 - 報酬モジュールを無効にしても、顧客アカウントのB2B機能には影響しません。 以前は、報酬モジュールが無効になっている場合、以下のB2B関連タブは表示されませんでした：会社プロファイル、会社ユーザー、役割と権限<!--- MC-34191-->。
 

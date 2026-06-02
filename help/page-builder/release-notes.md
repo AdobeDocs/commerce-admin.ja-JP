@@ -5,7 +5,7 @@ exl-id: 81abe2f9-ed48-49fe-bbf0-70699d7106b2
 feature: Page Builder, Release Notes
 source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '2813'
+source-wordcount: '2839'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 ![新規](../assets/new.svg) <!-- Issue 594 -->**列グループに新しい複数行の列サポートが追加されました** – この追加により、ユーザーは1つの[!DNL Columns] グループ内の複数行の列を操作して、列レイアウトをより柔軟にすることができます。
 <!--- PB-108-->
 
-新しい[&#x200B; グループの使用について詳しくは、](./column.md) レイアウト – 列[!DNL Columns]を参照してください。
+新しい[!DNL Columns] グループの使用について詳しくは、[&#x200B; レイアウト – 列](./column.md)を参照してください。
 
 ## 1.7.1 for Commerce 2.4.4
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ![修正済みの問題](../assets/fix.svg) ページビルダーで、フォントサイズのオプションメニューにすべてのオプションが期待どおりに表示されるようになりました。 以前は、すべてのオプションが表示されたわけではありません。<!--- AC-1056-->
 
-![修正された問題](../assets/fix.svg) `phpgt/dom`拡張機能の`magento/magento2-page-builder` Composer依存関係を最新バージョンにアップグレードしました。<!--- magento/magento2-page-builder/pull/779-->
+![修正された問題](../assets/fix.svg) `magento/magento2-page-builder`拡張機能の`phpgt/dom` Composer依存関係を最新バージョンにアップグレードしました。<!--- magento/magento2-page-builder/pull/779-->
 
 ![修正済みの問題](../assets/fix.svg) ページビルダーで、小さな列にスライダーを表示する際に、挿入リンクと画像の挿入ダイアログのサイズが変更されなくなりました。<!--- AC-973-->
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ![修正済みの問題](../assets/fix.svg)画像の挿入/編集およびリンクの挿入/編集ダイアログの配置に関する異常値を修正しました。<!--- AC-397-->
 
-バナーの![&#x200B; テキストエディター](../assets/fix.svg)をクリックすると、**問題** ページビルダーでエラーがスローされなくなりました。<!--- AC-398-->
+バナーの&#x200B;**テキストエディター**&#x200B;をクリックすると、![問題](../assets/fix.svg) ページビルダーでエラーがスローされなくなりました。<!--- AC-398-->
 
 ![修正済みの問題](../assets/fix.svg) ページビルダーは、アップグレード中にすべての動的ブロックを1つの言語に変換しなくなりました。<!--- MC-42265-->
 
@@ -181,9 +181,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[!DNL Page Builder] コンテンツを保存するための追加のデータベースエンティティを作成した場合、_は_&#x200B;それらのエンティティを`etc/di.xml`に追加する必要があります。 これを行わない場合、エンティティに保存されている[!DNL Page Builder] コンテンツは更新されないため、データ損失や表示の問題が発生する可能性があります。 例えば、[!DNL Page Builder] コンテンツを格納するブログエンティティを作成した場合、アップグレードライブラリがブログで使用する`etc/di.xml` コンテンツタイプを更新できるように、`UpgradableEntitiesPool` タイプとして[!DNL Page Builder] ファイルにブログエンティティを追加する必要があります。 アップグレードライブラリの使用について詳しくは、[&#x200B; ページビルダー開発者ガイド &#x200B;](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/)の「_コンテンツタイプをアップグレード_」を参照してください。
+>[!DNL Page Builder] コンテンツを保存するための追加のデータベースエンティティを作成した場合、_は_&#x200B;それらのエンティティを`etc/di.xml`に追加する必要があります。 これを行わない場合、エンティティに保存されている[!DNL Page Builder] コンテンツは更新されないため、データ損失や表示の問題が発生する可能性があります。 例えば、[!DNL Page Builder] コンテンツを格納するブログエンティティを作成した場合、アップグレードライブラリがブログで使用する[!DNL Page Builder] コンテンツタイプを更新できるように、`UpgradableEntitiesPool` タイプとして`etc/di.xml` ファイルにブログエンティティを追加する必要があります。 アップグレードライブラリの使用について詳しくは、_ページビルダー開発者ガイド_&#x200B;の「[&#x200B; コンテンツタイプをアップグレード &#x200B;](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/)」を参照してください。
 
-![新規](../assets/new.svg) **新しいアピアランスを追加するためのドキュメント** – 既存またはカスタムのコンテンツタイプに対するアピアランスの追加[に関する開発者情報が公開されました。](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances/)
+![新規](../assets/new.svg) **新しいアピアランスを追加するためのドキュメント** – 既存またはカスタムのコンテンツタイプに対するアピアランスの追加[&#128279;](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances/)に関する開発者情報が公開されました。
 
 ![修正された問題](../assets/fix.svg) **さまざまな修正**
 
@@ -208,7 +208,7 @@ ht-degree: 0%
 
 ## Adobe Commerce 2.3.4の場合は1.2.0
 
-![新規](../assets/new.svg) **[!DNL Page Builder]とPWA Studio**&#x200B;の統合 – PWA StudioのVenia アプリに[!DNL Page Builder] コンテンツレンダリングを追加しました。 PWA Studio Venia アプリで[!DNL Page Builder]件のコンテンツを表示できるようになりました。 この新機能について詳しくは、[!DNL Page Builder]PWA Studio[内の]のドキュメントを参照してください。
+![新規](../assets/new.svg) **[!DNL Page Builder]とPWA Studio**&#x200B;の統合 – PWA StudioのVenia アプリに[!DNL Page Builder] コンテンツレンダリングを追加しました。 PWA Studio Venia アプリで[!DNL Page Builder]件のコンテンツを表示できるようになりました。 この新機能について詳しくは、[PWA Studio]内の[!DNL Page Builder]のドキュメントを参照してください。
 
 ![新規](../assets/new.svg) **製品カルーセルを追加** - <!-- PB-77, PB-173, PB-175 -->製品コンテンツタイプに、カルーセル/スライダー形式で製品を表示するオプションが追加されました。これには、カルーセルをニーズに合わせてカスタマイズするためのオプションがいくつか含まれます。
 
@@ -243,7 +243,7 @@ ht-degree: 0%
 
 ![修正された問題](../assets/fix.svg) <!-- MC-1805 -->PHP バージョン 7.3をサポートするように[!DNL Page Builder]を更新しました。
 
-![修正された問題](../assets/fix.svg) <!-- MC-4137 -->TinyMCEをバージョン 4.9.5に更新しました。このアップデートは、追加の改善と共に、TinyMCE インラインエディターのいくつかの問題を修正しました。
+![修正された問題](../assets/fix.svg) <!-- MC-4137 -->TinyMCEをバージョン 4.9.5に更新しました。 このアップデートは、追加の改善と共に、TinyMCE インラインエディターのいくつかの問題を修正しました。
 
 - 変数、画像、および画像リンクは、カーソルが置かれている場所に追加されます。
 - 表と表のセルは中央揃えにできます。

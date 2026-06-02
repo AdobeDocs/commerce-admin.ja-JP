@@ -5,7 +5,7 @@ exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
 source-git-commit: 593bad9ca83e96a145beeceb0265e0080e5f7930
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 共有アカウントの設定
 
-1. 開始する前に、[!DNL Commerce]新しい共有アクセス権限者&#x200B;**の** アカウントから次の情報を取得します。
+1. 開始する前に、**新しい共有アクセス権限者**&#x200B;の[!DNL Commerce] アカウントから次の情報を取得します。
 
    - ユーザーは既にaccount.adobe.comでアカウントに登録しており、account.magento.comを通じてログインしている必要があります。 詳しくは、[Commerce アカウントの作成](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)を参照してください。
    - `MAGE ID/Account ID (MAG00XXXXXXX)`は、_[!UICONTROL Magento]_&#x200B;タブの左上隅、**ログアウト**&#x200B;リンクのすぐ上に表示されます。
@@ -45,8 +45,8 @@ ht-degree: 0%
 
 1. [!UICONTROL _New User Information]_で、次の操作を行います。
 
-   - 新規ユーザーの&#x200B;**[!UICONTROL Account ID]** アカウントから[!DNL Commerce]を入力します。
-   - 新しいユーザーの&#x200B;**[!UICONTROL Email]** アカウントに関連付けられている[!DNL Commerce] アドレスを入力します。
+   - 新規ユーザーの[!DNL Commerce] アカウントから&#x200B;**[!UICONTROL Account ID]**&#x200B;を入力します。
+   - 新しいユーザーの[!DNL Commerce] アカウントに関連付けられている&#x200B;**[!UICONTROL Email]** アドレスを入力します。
 
    ![新規ユーザー情報](./assets/shared-new-user.png){width="600"}
 
@@ -126,9 +126,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このインターフェイスでは、MAG _XYZ[から共有名]_ Cloud Shared Accessのユーザーを削除することはできません。 [&#x200B; クラウドプロジェクトを介して共有アクセスが許可されたユーザーを削除する方法を参照してください。](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)。
+>このインターフェイスでは、MAG[XYZ ]_から共有名_ Cloud Shared Accessのユーザーを削除することはできません。 [&#x200B; クラウドプロジェクトを介して共有アクセスが許可されたユーザーを削除する方法を参照してください。](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)。
 
 ## 関連トピックス
 
-[共有アクセスのトラブルシューティング &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
+[共有アクセスのトラブルシューティング](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
 

@@ -1,49 +1,49 @@
 ---
-title: ゲストのチェックアウト
-description: ストアでゲストチェックアウト機能を有効にする方法を説明します。
+title: ゲストチェックアウト
+description: ストアでゲストチェックアウト機能を有効にする方法について説明します。
 exl-id: ce25eba3-7503-46aa-a5cd-9b7d5662164b
 feature: Checkout
 source-git-commit: 347321ec5b0722f06240780136cb29816aab559f
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
 
-# ゲストのチェックアウト
+# ゲストチェックアウト
 
-購入を行う前に買い物客にアカウントの開設を要求するように、ストアを設定できます。 デフォルト設定では、ゲストは購入することができ、チェックアウトプロセスを完了した後にアカウントを登録するオプションがあります。
+ストアは、買い物客が購入する前にアカウントを開くように設定できます。 デフォルト設定では、チェックアウトプロセスを完了した後にアカウントに登録するオプションを使用して、ゲストが購入できます。
 
-![Luma ストアに「ゲストとしてチェックアウト」と表示される &#x200B;](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
+![Luma ストアに「ゲストとしてチェックアウト」と表示される](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
 
-ゲストのチェックアウトを無効にする **_T:_**
+**_ゲストチェックアウトを無効にするには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
+1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Checkout]**&#x200B;を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Checkout Options]**」セクションを展開します。
+1. **[!UICONTROL Checkout Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; 設定ページで展開されたチェックアウトオプション &#x200B;](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
+   ![設定ページでチェックアウトオプションが拡張されました](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-これらの各設定について詳しくは、『設定リファレンスガイド [&#x200B; の &#x200B;](../configuration-reference/sales/checkout.md#checkout-options) チェックアウトオプション _を参照してください_。
+これらの各構成設定の詳細については、_構成リファレンスガイド_&#x200B;の[&#x200B; チェックアウトオプション &#x200B;](../configuration-reference/sales/checkout.md#checkout-options)を参照してください。
 
-1. 設定が特定のストア表示の場合は、[&#x200B; ストア表示を選択 &#x200B;](../configuration-reference/scope-change.md#set-the-scope) して設定が適用されます。
+1. 設定が特定のストアビューの場合、[設定が適用されるストアビュー](../configuration-reference/scope-change.md#set-the-scope)を選択します。
 
-   プロンプトが表示されたら、「**[!UICONTROL OK]**」をクリックして続行します。
+   プロンプトが表示されたら、**[!UICONTROL OK]**&#x200B;をクリックして続行します。
 
-1. **[!UICONTROL Allow Guest Checkout]** を `No` に設定します。
+1. **[!UICONTROL Allow Guest Checkout]**&#x200B;を`No`に設定します。
 
-   必要に応じて、「**[!UICONTROL Use system value]**」チェックボックスをオフにして、この設定の変更を有効にします。
+   必要に応じて、**[!UICONTROL Use system value]** チェックボックスをオフにして、この設定の変更を有効にします。
 
-1. 「**[!UICONTROL Save Config]**」をクリックします。
+1. **[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-## 登録済みの E メールに対するゲスト注文へのアクセスを許可する
+## 登録済み電子メールに対するゲスト注文のアクセスを許可
 
-[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
 
-オプションのストアレベル設定はデフォルトで無効になっており、ゲストの買い物客は、登録済みの顧客アカウントに一致するメールアドレスを使用して行われた注文を追跡できます。
+オプションのストアレベル設定は、デフォルトで無効になっていますが、ゲストの買い物客は、登録済みの顧客アカウントに一致するメールアドレスを使用して、注文した注文を追跡できます。
 
-有効にすると、登録済みのメールで行われたゲストのチェックアウト注文に引き続きアクセスできるようになり、顧客の注文履歴にも表示されます。
+有効にすると、登録済みの電子メールで行われたゲストチェックアウトの注文にアクセスできるようになりますが、顧客の注文履歴にも表示されます。
 
-この機能を有効にするには、**ストア**/設定/**設定**/営業/**営業**/**ゲストのチェックアウト** に移動し、「**ゲストによる登録済みメールへの注文のアクセスを許可**」設定を `Yes` に設定します。
+この機能を有効にするには、**Stores** / 設定/**Configuration** / 営業/**Sales** / **ゲストチェックアウト**&#x200B;に移動し、**登録済み電子メールのゲストオーダーアクセスを許可**&#x200B;設定を`Yes`に設定します。

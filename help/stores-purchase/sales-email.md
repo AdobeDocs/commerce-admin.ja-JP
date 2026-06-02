@@ -1,75 +1,75 @@
 ---
-title: 販売メール
-description: 顧客の注文に関するコミュニケーションをサポートするための販売メールを設定する方法を説明します。
+title: セールスメール
+description: 顧客への注文に関するコミュニケーションをサポートするようにセールスメールを設定する方法を説明します。
 exl-id: b205dc61-08cc-4783-810c-686ccf2ba300
 feature: Communications, Orders
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
-# 販売メール
+# セールスメール
 
-1 つの注文に関連するイベントで複数のメールメッセージがトリガーされ、設定も同様です。 メッセージの送信者として表示されるストアの連絡先、使用するメールテンプレートおよびメッセージのコピーを受信する他のユーザーを必ず識別してください。 販売メールは、イベントによってトリガーされたとき、または事前に決められた間隔で送信することができます。
+複数のメールメッセージは、注文に関連するイベントによってトリガーされ、設定は類似しています。 メッセージの送信者、使用するメールテンプレート、およびメッセージのコピーを受け取る他のユーザーとして表示されるストア連絡先を特定してください。 セールスメールは、イベントによってトリガーされたときに、または事前に決められた間隔で送信することができます。
 
-![&#x200B; 販売の構成 – 販売メール &#x200B;](./assets/config-sales-sales-email-full.png){width="600" zoomable="yes"}
+![営業設定 – セールスメール &#x200B;](./assets/config-sales-sales-email-full.png){width="600" zoomable="yes"}
 
-## 手順 1. メールテンプレートの更新
+## 手順1: メールテンプレートの更新
 
-[&#x200B; メールヘッダー &#x200B;](../systems/email-template-custom.md#header-template) テンプレートを、ブランドや必要に応じて他のメールテンプレートが反映されるように、必ず更新してください。 テンプレートの完全なリストについては、「[&#x200B; メールテンプレート &#x200B;](../systems/email-templates.md)」を参照してください。
+[&#x200B; メールヘッダー](../systems/email-template-custom.md#header-template) テンプレートを更新して、ブランドと、必要に応じてその他のメールテンプレートを反映するようにしてください。 テンプレートの完全なリストについては、[&#x200B; メールテンプレート &#x200B;](../systems/email-templates.md)を参照してください。
 
-## 手順 2. 送信のタイプを選択
+## 手順2: 送信の種類を選択
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Sales Emails]**」を選択します。
+1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Sales Emails]**&#x200B;を選択します。
 
-1. 必要に応じて、「拡張セレクター ![&#x200B; の「**[!UICONTROL General Settings]**」セクション &#x200B;](../assets/icon-display-expand.png) 展開します。
+1. 必要に応じて、**[!UICONTROL General Settings]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; 販売の設定 – 販売メールの一般設定 &#x200B;](../configuration-reference/sales/assets/sales-emails-general-settings.png){width="600" zoomable="yes"}
+   ![営業設定 – 営業電子メールの一般設定](../configuration-reference/sales/assets/sales-emails-general-settings.png){width="600" zoomable="yes"}
 
-   デフォルトでは、非同期送信は `Disable` に設定されています。 システム設定を変更するには、「**[!UICONTROL Use system value]**」チェックボックスをオフにして、**[!UICONTROL Asynchronous sending]** を次のいずれかに設定します。
+   デフォルトでは、非同期送信は`Disable`に設定されています。 システム設定を変更するには、**[!UICONTROL Use system value]** チェックボックスをオフにし、**[!UICONTROL Asynchronous sending]**&#x200B;を次のいずれかに設定します。
 
-   - `Disable` - イベントによってトリガーされたときに販売メールを送信します。
-   - `Enable` – 事前に決められた一定の間隔で販売メールを送信します。
+   - `Disable` - イベントによってトリガーされたときにセールスメールを送信します。
+   - `Enable` – 所定の間隔で定期的にセールスメールを送信します。
 
-   Adobe Commerce サポートでは、注文パフォーマンスを向上させるために、非同期送信を有効にすることをお勧めします。 Adobe Commerce サポートナレッジベースの [&#x200B; 注文処理の設定のベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=ja) を参照してください。
+   Adobe Commerce サポートでは、非同期送信を有効にして、注文処理のパフォーマンスを向上させることをお勧めします。 Adobe Commerce サポート ナレッジベースの[注文処理に関する設定のベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=ja)を参照してください。
 
-## 手順 3. 各販売メールメッセージの詳細を入力します
+## 手順3: 各セールスメールメッセージの詳細を入力します
 
-1. 必要に応じて、「拡張セレクター ![&#x200B; の「**[!UICONTROL Order]**」セクション &#x200B;](../assets/icon-display-expand.png) 展開します。
+1. 必要に応じて、**[!UICONTROL Order]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; 販売設定 – 販売 E メールの注文 &#x200B;](../configuration-reference/sales/assets/sales-emails-order.png){width="600" zoomable="yes"}
+   ![販売設定 – セールスメール注文](../configuration-reference/sales/assets/sales-emails-order.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Enabled]** が `Yes` （デフォルト）に設定されていることを確認します。
+1. **[!UICONTROL Enabled]**&#x200B;が`Yes`に設定されていることを確認します（デフォルト）。
 
-1. メッセージの送信者として表示されるストアの連絡先に **[!UICONTROL New Order Confirmation Email]** を設定します。
+1. メッセージの送信者として表示されるストア連絡先に&#x200B;**[!UICONTROL New Order Confirmation Email]**&#x200B;を設定します。
 
-1. 登録済みの顧客に送信するメールに使用するテンプレートに **[!UICONTROL New Order Confirmation Template]** を設定します。
+1. 登録済みの顧客に送信される電子メールに使用されるテンプレートに&#x200B;**[!UICONTROL New Order Confirmation Template]**&#x200B;を設定します。
 
-1. ストアのアカウントを持っていないゲストに送信するメールに使用するテンプレートに **[!UICONTROL New Order Confirmation Template for Guest]** を設定します。
+1. ストアのアカウントを持たないゲストに送信されるメールに使用されるテンプレートに&#x200B;**[!UICONTROL New Order Confirmation Template for Guest]**&#x200B;を設定します。
 
-1. **[!UICONTROL Send Order Email Copy To]**：新しい注文メールのコピーを受信するユーザーのメールアドレスを入力します。
+1. **[!UICONTROL Send Order Email Copy To]**&#x200B;に、新しい注文の電子メールのコピーを受け取るユーザーの電子メールアドレスを入力します。
 
    複数の受信者にコピーを送信する場合は、各アドレスをコンマで区切ります。
 
-1. **[!UICONTROL Send Order Email Copy Method]** を次のいずれかに設定します。
+1. **[!UICONTROL Send Order Email Copy Method]**&#x200B;を次のいずれかに設定します：
 
-   - `Bcc` – 顧客に送信されるのと同じメールのヘッダーに受信者を含めることで、_ブラインドの儀礼用コピー_ を送信します。 BCC 受信者が顧客に表示されない。
-   - `Separate Email` - コピーを個別のメールとして送信します。
+   - `Bcc` – お客様に送信するのと同じメールのヘッダーに受信者を含めることで、_ブラインドの表敬文_&#x200B;を送信します。 BCC受信者は、お客様には表示されません。
+   - `Separate Email` - コピーを別の電子メールとして送信します。
 
-1. **[!UICONTROL Order Comments]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下の手順を繰り返します。
+1. **[!UICONTROL Order Comments]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、これらの手順を繰り返します。
 
-   ![&#x200B; 販売設定 – 販売 E メール注文コメント &#x200B;](../configuration-reference/sales/assets/sales-emails-order-comments.png){width="600" zoomable="yes"}
+   ![販売設定 – セールスメール注文のコメント &#x200B;](../configuration-reference/sales/assets/sales-emails-order-comments.png){width="600" zoomable="yes"}
 
-1. 残りの販売 E メール・タイプの構成を入力します。
+1. 残りのセールスメールタイプの設定を完了します。
 
    - **[!UICONTROL Invoice]** / **[!UICONTROL Invoice Comments]**
    - **[!UICONTROL Shipment]** / **[!UICONTROL Shipment Comments]**
    - **[!UICONTROL Credit Memo]** / **[!UICONTROL Credit Memo Comments]**
 
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-   プロンプトが表示されたら、ワークスペース上部のメッセージにある「[&#x200B; キャッシュ管理 &#x200B;](../systems/cache-management.md)」リンクをクリックし、無効なキャッシュをすべてクリアします。
+   プロンプトが表示されたら、ワークスペースの上部にあるメッセージの[Cache Management](../systems/cache-management.md) リンクをクリックし、無効なすべてのキャッシュをクリアします。

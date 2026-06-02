@@ -1,54 +1,54 @@
 ---
-title: '[!UICONTROL Security] &gt; [!UICONTROL Security.txt]'
-description: Commerce Admin の [!UICONTROL Security] &gt; [!UICONTROL Security.txt] ページで設定を確認します。
+title: '[!UICONTROL Security] > [!UICONTROL Security.txt]'
+description: Commerce管理者の[!UICONTROL Security] > [!UICONTROL Security.txt] ページで設定を確認します。
 exl-id: 26385864-cfd8-456b-91b2-bf5d019c09e1
 feature: Configuration, Security, Site Management
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 0%
+source-wordcount: '360'
+ht-degree: 1%
 
 ---
 
 # [!UICONTROL Security] > [!UICONTROL Security.txt]
 
-これらの設定の変更について詳しくは、[&#x200B; セキュリティ上の問題のレポート &#x200B;](../../systems/security-issue-reporting.md) を参照してください。
+これらの設定設定の変更について詳しくは、[&#x200B; セキュリティ問題レポート &#x200B;](../../systems/security-issue-reporting.md)を参照してください。
 
 {{config}}
 
 ## [!UICONTROL General]
 
-![&#x200B; 一般 &#x200B;](./assets/txt-general.png)<!-- zoom -->
+![一般](./assets/txt-general.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable] | Web サイト | 有効にすると、セキュリティ研究者が潜在的な脆弱性を報告するために必要な情報を含む `security.txt` ファイルが保存されます。 オプション：<br />**`Yes`**- _連絡先情報_ および _その他の情報_ セクションに入力された情報に基づいて `security.txt` ファイルを作成します。<br />**`No`** - （デフォルト） `security.txt` ファイルを作成しません。 |
+| [!UICONTROL Enable] | web サイト | 有効にすると、セキュリティ研究者が潜在的な脆弱性を報告するために必要な情報を含む`security.txt` ファイルが保存されます。 オプション：<br />**`Yes`**- _連絡先情報_および&#x200B;_その他の情報_ セクションで入力された情報に基づいて`security.txt` ファイルを作成します。<br />**`No`** - （デフォルト） `security.txt` ファイルを作成しません。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Contact information]
 
-![&#x200B; お問い合わせ先 &#x200B;](./assets/txt-contact-info.png)<!-- zoom -->
+![連絡先情報](./assets/txt-contact-info.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Email] | Web サイト | セキュリティレポートを送信できるメールアドレス。 |
-| [!UICONTROL Phone] | Web サイト | セキュリティ上の問題を報告するために使用できる電話番号。 |
-| [!UICONTROL Contact Page] | Web サイト | セキュリティ上の連絡先をリストするサイトのページ、または _お問い合わせ_ ページの URL。 例：<br/>`https://mystore.com/security-contact.html`<br/>`https://mystore.com/contact/` |
+| [!UICONTROL Email] | web サイト | セキュリティレポートを送信できるメールアドレス。 |
+| [!UICONTROL Phone] | web サイト | セキュリティ上の懸念を報告するために使用できる電話番号。 |
+| [!UICONTROL Contact Page] | web サイト | セキュリティ担当者をリストするサイト上のページ、または&#x200B;_お問い合わせ_ ページのURL。 例：<br/>`https://mystore.com/security-contact.html`<br/>`https://mystore.com/contact/` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Other information]
 
-![&#x200B; その他の情報 &#x200B;](./assets/txt-other-info.png)<!-- zoom -->
+![その他の情報](./assets/txt-other-info.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Encryption] | Web サイト | セキュリティの研究者が暗号化された通信の送信に使用できる暗号化キーの場所を指す URL。 _&#x200B;**このフィールドには暗号化キーを入力しないでください。**&#x200B;_ <br/><br/> 鍵が信頼できる情報源からのものであることを確認するのは、研究者の責任です。 研究者は、キーがデジタル署名の生成に使用されたものと同じであると想定してはなりません。 例：<br />OpenPGP キー（web サーバーから） - `https://mystore.com/pgp-key.txt` |
-| [!UICONTROL Acknowledgments] | Web サイト | セキュリティ調査者が確認されているストア内のページを指す URL。`https://mystore.com/hall-of-fame.html` など。 今後の攻撃を防ぐには、脆弱性の問題に関する具体的な情報を明らかにせずに、一般的な説明のみを含めます。 例：<br /> 次の研究者の皆様に感謝します。<br /> （yyyy/mm/dd） Justin Thyme - SQL injection |
-| [!UICONTROL Preferred Languages] | Web サイト | セキュリティ レポートの優先言語を少なくとも 1 つ指定します。 複数の 2 文字 [&#x200B; 言語コード &#x200B;](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) をコンマで区切ります。 指定した言語の優先度はすべて同じです。 例えば、英語、スペイン語、フランス語を指定するには、「`en, es, fr`」と入力します。 |
-| [!UICONTROL Hiring] | Web サイト | セキュリティ関連のジョブ ポジションを一覧表示するサイト上のページの URL。 例：`https://mystore.com/jobs.html` |
-| [!UICONTROL Policy] | Web サイト | セキュリティポリシーと脆弱性レポート手法を説明するページの URL。 例：`https://mystore.com/security-reporting.html` デフォルト：`https://mystore.com/security` |
-| [!UICONTROL Signature] | Web サイト | デジタル署名ファイルへのリンク。 デジタル署名はコマンドラインから生成する必要があり、サーバー上の `.well-known` フォルダーに保存されます。 詳しくは、GitHub の [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) を参照してください。 例：`https://mystore.com/.well-known/security.txt.sig` |
+| [!UICONTROL Encryption] | web サイト | セキュリティ研究者が暗号化通信の送信に使用できる暗号化鍵の場所を示すURL。 _&#x200B;**このフィールドに暗号化キーを入力しないでください。**&#x200B;_ <br/><br/>そのキーが信頼できる情報源から取得されたものであることを確認するのは、研究者の責任です。 研究者は、鍵がデジタル署名を生成するために使用されるものと同じであると仮定してはなりません。 例：<br />Web サーバーからのOpenPGP キー – `https://mystore.com/pgp-key.txt` |
+| [!UICONTROL Acknowledgments] | web サイト | セキュリティ研究者が確認されるストア内のページ（`https://mystore.com/hall-of-fame.html`など）を指すURL。 今後の攻撃を防ぐために、脆弱性の問題に関する具体的な情報を明らかにせずに、一般的な説明のみを含めてください。 例：<br />以下の研究者に感謝します：<br /> （yyyy/mm/dd） Justin Thyme - SQL インジェクション |
+| [!UICONTROL Preferred Languages] | web サイト | 1つ以上の優先セキュリティレポート言語を指定します。 複数の2文字[言語コード &#x200B;](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)をコンマで区切ります。 指定した言語はすべて同じ優先度です。 例えば、英語、スペイン語、フランス語を指定するには、`en, es, fr`と入力します。 |
+| [!UICONTROL Hiring] | web サイト | セキュリティ関連の職位を一覧表示するサイト上のページのURL。 例：`https://mystore.com/jobs.html` |
+| [!UICONTROL Policy] | web サイト | セキュリティポリシーと脆弱性レポートの慣行を説明するページのURL。 例：`https://mystore.com/security-reporting.html` デフォルト：`https://mystore.com/security` |
+| [!UICONTROL Signature] | web サイト | デジタル署名ファイルへのリンク。 デジタル署名はコマンドラインから生成する必要があり、サーバーの`.well-known` フォルダーに保存されます。 詳しくは、GitHubの[Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md)を参照してください。 例：`https://mystore.com/.well-known/security.txt.sig` |
 
 {style="table-layout:auto"}

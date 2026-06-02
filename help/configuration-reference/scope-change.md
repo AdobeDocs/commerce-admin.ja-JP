@@ -1,97 +1,97 @@
 ---
-title: 設定スコープ
-description: Commerce Admin での設定範囲の設定について説明します。
+title: 設定範囲
+description: Commerce Adminでの設定の範囲の設定について説明します。
 exl-id: b7b87ac5-dc7d-472f-af24-52b4d12e46c5
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
 
-# 設定スコープ
+# 設定範囲
 
-多くの設定ページの左上隅にあるストア表示の選択は、特定の範囲についてページの表示をフィルタリングし、Commerceで使用される一部のエンティティの値を設定します。 階層内の各レベルが名前で一覧表示され、スコープを別のレベルに変更するために使用されます。 現在のスコープを表す設定はすべてグレー表示されるため、現在のスコープ設定を表す設定のみが使用可能になります。 範囲は最初に _デフォルト設定_ に設定されます。 制限付きアクセスを使用する管理者ユーザーの場合、使用可能なストア表示のリストには、ユーザーがアクセスする [&#x200B; 権限 &#x200B;](../systems/permissions.md) を持っているストア表示のみが含まれます。
+多くのコンフィギュレーションページの左上隅にあるストアビュー選択ツールでは、特定の範囲のページのビューがフィルタリングされ、Commerceで使用される一部のエンティティの値が設定されます。 階層内の各レベルを名前でリスト化し、スコープを別のレベルに変更するために使用します。 現在のスコープを表す設定はすべてグレー表示されるので、現在のスコープ設定を表す設定のみが使用できます。 スコープは最初に&#x200B;_Default Config_&#x200B;に設定されます。 アクセスが制限された管理者ユーザーの場合、使用可能なストアビューのリストには、ユーザーがアクセス権[権限](../systems/permissions.md)を持つストアビューのみが含まれます。
 
 | レベル | 説明 |
 |--- |--- |
 | [!UICONTROL Default Config] | デフォルトのシステム設定。 |
-| [!UICONTROL Main Website] | 最上位の web サイトの名前。 |
-| [!UICONTROL Main Website Store] | 親 web サイトに関連付けられているデフォルトストアの名前。 |
-| [!UICONTROL Default Store View] | 親ストアに関連付けられているデフォルトのストア表示の名前。 |
-| [!UICONTROL Stores Configuration] | ストア グリッドにジャンプします。これは、管理サイドバーから [!UICONTROL Stores] > [!UICONTROL All Stores] を選択する場合と同じです。 |
+| [!UICONTROL Main Website] | 階層の上部にあるweb サイトの名前。 |
+| [!UICONTROL Main Website Store] | 親Web サイトに関連付けられているデフォルトストアの名前。 |
+| [!UICONTROL Default Store View] | 親ストアに関連付けられているデフォルトのストアビューの名前。 |
+| [!UICONTROL Stores Configuration] | ストアグリッドにジャンプし、管理者サイドバーから[!UICONTROL Stores] > [!UICONTROL All Stores]を選択するのと同じです。 |
 
 {style="table-layout:auto"}
 
-![&#x200B; 「システム値を使用」チェックボックスをオンにする &#x200B;](./assets/store-view-control.png){width="700" zoomable="yes"}
+![&#x200B; システム値のチェックボックスを選択](./assets/store-view-control.png){width="700" zoomable="yes"}使用
 
 ## [!UICONTROL Use system value]
 
-多くの設定の右側にある _[!UICONTROL Use System Value]_&#x200B;チェックボックスは、現在の設定範囲内のデフォルトフィールド値を適用または上書きするために使用されます。 チェックボックスが選択されている場合、デフォルトフィールド値は変更できません。 値を変更するには、このチェックボックスをオフにして新しい値を入力します。 システム値を変更するたびに確認を求められます。
+多くの設定設定の右側にある&#x200B;_[!UICONTROL Use System Value]_&#x200B;チェックボックスは、現在の設定スコープ内のデフォルトのフィールド値を適用または上書きするために使用されます。 チェックボックスを選択すると、デフォルトのフィールド値を変更できません。 値を変更するには、チェックボックスをオフにして新しい値を入力します。 システム値を変更するたびに確認を求められます。
 
-チェックボックスのラベルは、現在のスコープに応じて変わり、スコープ階層の 1 ステップ上の親レベルを常に参照します。 親レベルは、そのレベルの下にあるすべての項目のコンテナであるため、親レベルのスコープ設定は上書きされない限り継承されます。
+チェックボックスラベルは、現在のスコープに応じて変更され、常にスコープ階層の上位の親レベルを指します。 親レベルはそのレベルより下のすべての項目のコンテナであるため、親レベルのスコープ設定は上書きされない限り継承されます。
 
 ## デフォルト値オプション
 
-| Checkbox | 説明 |
+| チェックボックス | 説明 |
 |--- |--- |
-| [!UICONTROL Use system value] | このチェックボックスは、設定範囲が `Default Config` に設定されている場合に表示されます。 |
-| [!UICONTROL Use Default] | このチェックボックスは、設定範囲がメイン `Website` ージに設定されている場合に表示され、web サイトに割り当てられているデフォルトのストアを参照します。 |
-| [!UICONTROL Use Website] | このチェックボックスは、設定範囲が特定のストア表示に設定されている場合に表示されます。 選択した場合は、ストア表示に関連付けられている親 web サイトの設定が使用されます。 この場合、ストアレベルは、web サイトに関連付けられたデフォルトストアに適用されると理解されるので、スキップされます。 |
+| [!UICONTROL Use system value] | このチェックボックスは、設定範囲が`Default Config`に設定されている場合に表示されます。 |
+| [!UICONTROL Use Default] | このチェックボックスは、設定範囲がメイン `Website`に設定され、web サイトに割り当てられている既定のストアを参照する場合に表示されます。 |
+| [!UICONTROL Use Website] | このチェックボックスは、設定範囲が特定のストアビューに設定されている場合に表示されます。 選択すると、ストアビューに関連付けられている親web サイトの設定が使用されます。 この場合、ストアレベルはスキップされます。これは、web サイトに関連付けられているデフォルトストアに適用されると理解されているためです。 |
 
 {style="table-layout:auto"}
 
-## 範囲を設定
+## 範囲の設定
 
-特定の web サイト、ストア、ストア表示のみに適用する設定を行う前に、次の操作を行います。
+特定のweb サイト、ストア、またはストアビューにのみ適用される設定設定を行う前に、次の操作を行います。
 
 1. _管理者_ サイドバーで、次のいずれかの操作を行います。
 
-   - ほとんどの設定は、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+   - ほとんどの構成設定については、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動してください。
 
-   - [&#x200B; デザイン関連の設定 &#x200B;](../content-design/configuration.md) については、**[!UICONTROL Content]**/_[!UICONTROL Design]_/**[!UICONTROL Configuration]**&#x200B;に移動します。 次に、グリッドで、該当するストア表示を選択します。
+   - [&#x200B; デザイン関連の設定](../content-design/configuration.md)について、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;に移動します。 次に、グリッドで、該当するストアビューを選択します。
 
-1. 変更する設定に移動して、次の手順を実行します。
+1. 変更する設定に移動し、次の操作を行います。
 
-   - 左上隅で、設定が適用される特定のビューに **[!UICONTROL Store View]** を設定します。 範囲の切り替えを確認するプロンプトが表示されたら、「**[!UICONTROL OK]**」をクリックします。
+   - 左上隅で、設定が適用される特定のビューに&#x200B;**[!UICONTROL Store View]**&#x200B;を設定します。 範囲の切り替えを確認するメッセージが表示されたら、**[!UICONTROL OK]**&#x200B;をクリックします。
 
      各フィールドの後にチェックボックスが表示され、追加のフィールドが使用可能になる場合があります。
 
-   - 編集するフィールドの後の「**[!UICONTROL Use system value]**」チェックボックスをオフにします。 次に、ビューの値を更新します。
+   - 編集するフィールドの後にある&#x200B;**[!UICONTROL Use system value]** チェックボックスをオフにします。 次に、ビューの値を更新します。
 
    - ページ上で更新する必要があるすべてのフィールドに対して、このプロセスを繰り返します。
 
-   ![&#x200B; フランスのストア表示の国オプションの設定 &#x200B;](./assets/store-view-french.png){width="700" zoomable="yes"}
+   ![&#x200B; フランスのストアビューの国オプションの設定](./assets/store-view-french.png){width="700" zoomable="yes"}
 
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-## 範囲のクイックリファレンス
+## 範囲クイックリファレンス
 
 | 範囲 | 説明 |
 |--- |--- |
 | **[!UICONTROL Global]** |  |
-| Admin | インストール内のすべての web サイト、ストア、ストア表示は、同じ管理者から管理されます。 |
-| デフォルトの設定 | グローバル [&#x200B; デフォルト設定 &#x200B;](../getting-started/websites-stores-views.md#scope-settings) 設定は、下位レベルで上書きされない限り、ストア階層を通じて使用されます。 |
-| カタログ | _カタログ_ という用語は、製品データベース全体を指し、インストール全体で使用できます。 |
-| 製品価格 | 製品価格は、グローバルレベルまたは web サイトレベルでアプリケーションに対して設定できます。 |
-| 製品設定 | [&#x200B; 設定可能な製品 &#x200B;](../catalog/product-create-configurable.md) オプションとして使用する属性には、グローバルスコープが必要です。 |
-| 顧客 | 顧客アカウントは、グローバルレベルまたは web サイトレベルでアプリケーション用に設定できます。 各 web サイトには、個別の [&#x200B; 顧客アカウント &#x200B;](../customers/customer-account-scope.md) のセットを持たせたり、インストール内の他の web サイトと顧客アカウントを共有したりできます。 |
+| 管理者 | インストール内のすべてのweb サイト、ストア、ストアビューは、同じ管理者から管理されます。 |
+| デフォルト設定 | グローバル設定[&#x200B; デフォルト設定](../getting-started/websites-stores-views.md#scope-settings)は、下位レベルで上書きされない限り、ストア階層を通じて使用されます。 |
+| カタログ | _カタログ_&#x200B;という用語は、製品データベース全体を指し、インストール全体で使用できます。 |
+| 製品の価格 | 製品の価格は、グローバルレベルまたはweb サイトレベルで適用するように設定できます。 |
+| 製品設定 | [設定可能な製品](../catalog/product-create-configurable.md) オプションとして使用される属性には、グローバル スコープが必要です。 |
+| 顧客 | 顧客アカウントは、グローバルレベルまたはweb サイトレベルでアプリケーション用に設定できます。 各web サイトは、個別の[顧客アカウント &#x200B;](../customers/customer-account-scope.md)のセットを持つことも、インストール中の他のweb サイトと顧客アカウントを共有することもできます。 |
 | **[!UICONTROL Website]** |  |
-| ドメイン | 追加の [web サイト &#x200B;](../stores-purchase/introduction.md#store-structure) は、プライマリドメインのサブドメインとして設定することも、個別の IP アドレスと専用ドメインを持つこともできます。 |
-| 顧客 | 顧客アカウントは、グローバルレベルまたは web サイトレベルでアプリケーション用に設定できます。 各 web サイトには、個別の [&#x200B; 顧客アカウント &#x200B;](../customers/customer-account-scope.md) のセットを持たせたり、インストール内の他の web サイトと顧客アカウントを共有したりできます。 |
-| 通貨 | 各 web サイトには、異なる [&#x200B; 基本通貨 &#x200B;](../stores-purchase/currency-configuration.md) を割り当てることができます。 基本通貨は、すべてのトランザクションを処理するために使用されますが、ストア表示のロケールに応じて、異なる表示通貨が顧客に表示される場合があります。 |
-| 製品 | 個々の製品は、web サイトレベルで階層に割り当てられます。 製品グリッドには、カタログ内のすべての製品と、それらの製品が使用可能な Web サイトが一覧表示されます。 [Web サイト内の製品 &#x200B;](../catalog/settings-basic-websites.md) 設定は、製品が使用可能な各 web サイトを識別します。 |
-| 製品価格 | [&#x200B; 製品価格 &#x200B;](../catalog/catalog-price-scope.md) は、グローバルレベルまたは web サイトレベルでアプリケーションに対して設定できます。 |
-| 支払い方法 | [&#x200B; 支払い方法 &#x200B;](../stores-purchase/payments.md) は web サイトレベルで設定されますが、タイトルと手順はストア表示ごとに設定できます。 |
-| チェックアウト | [&#x200B; チェックアウトプロセス &#x200B;](../stores-purchase/checkout-process.md) は web サイトレベルで行われますが、ストア表示ごとに一部の表示オプションを設定できます。 Web サイトに関連付けられているすべてのストアは同じ [&#x200B; チェックアウト設定 &#x200B;](../stores-purchase/checkout-process.md#checkout-options) を持ちます。 |
-| 許可されている国 | 許可する国は、web サイトレベルで設定できます。 [&#x200B; 許可される国 &#x200B;](../getting-started/store-details.md#country-options) 設定は、顧客の出所を制限するためにチェックアウトで使用されます。 |
+| ドメイン | 追加の[web サイト &#x200B;](../stores-purchase/introduction.md#store-structure)は、プライマリドメインのサブドメインとして設定するか、個別のIP アドレスと専用ドメインを持つことができます。 |
+| 顧客 | 顧客アカウントは、グローバルレベルまたはweb サイトレベルでアプリケーション用に設定できます。 各web サイトは、個別の[顧客アカウント &#x200B;](../customers/customer-account-scope.md)のセットを持つことも、インストール中の他のweb サイトと顧客アカウントを共有することもできます。 |
+| 通貨 | 各web サイトに異なる[基本通貨](../stores-purchase/currency-configuration.md)を割り当てることができます。 ストアビューのロケールに従って、すべてのトランザクションを処理するために基本通貨が使用されますが、顧客には異なる表示通貨が表示される場合があります。 |
+| 特定可能 | 個々の製品は、web サイトレベルで階層に割り当てられます。 「製品」グリッドには、カタログ内のすべての製品と、その製品が使用可能なweb サイトが一覧表示されます。 Web サイトの[製品](../catalog/settings-basic-websites.md)設定は、製品が使用可能な各Web サイトを識別します。 |
+| 製品の価格 | [製品価格](../catalog/catalog-price-scope.md)は、グローバル レベルまたはweb サイト レベルでアプリケーション用に設定できます。 |
+| お支払い方法 | [支払い方法](../stores-purchase/payments.md)はweb サイト レベルで設定されますが、タイトルと手順はストアビューごとに設定できます。 |
+| チェックアウト | [&#x200B; チェックアウトプロセス &#x200B;](../stores-purchase/checkout-process.md)は、web サイト レベルで実行されますが、ストアビューごとに一部の表示オプションを設定できます。 Web サイトに関連付けられているすべてのストアには、同じ[&#x200B; チェックアウト設定](../stores-purchase/checkout-process.md#checkout-options)があります。 |
+| 許可されている国 | 許可される国は、web サイトレベルで設定できます。 チェックアウトでは、[許可された国](../getting-started/store-details.md#country-options)の設定を使用して、顧客の出身地を制限します。 |
 | **[!UICONTROL Store]** |  |
-| ドメイン | 複数のストアがある場合、各ストアは同じドメイン、サブドメインまたは明確に異なるドメインを持つことができます。 詳しくは、[&#x200B; ストアの追加 &#x200B;](../stores-purchase/stores.md#add-stores) を参照してください。 |
-| ルートカテゴリ | 各店舗には、「ルート」カテゴリとサブカテゴリに基づく製品とメインメニューの別々のセットを持つことができます。 各カタログには [&#x200B; ルートカテゴリ &#x200B;](../catalog/category-root.md) があり、ストアレベルで割り当てられます。 |
+| ドメイン | 複数のストアでは、各ストアに同じドメイン、サブドメイン、または異なるドメインを割り当てることができます。 詳しくは、[&#x200B; ストアの追加](../stores-purchase/stores.md#add-stores)を参照してください。 |
+| ルートカテゴリ | 各ストアには、「ルート」カテゴリとサブカテゴリに基づいた製品とメインメニューの個別のセットがあります。 各カタログには、ストアレベルで割り当てられた[&#x200B; ルートカテゴリ &#x200B;](../catalog/category-root.md)があります。 |
 | **[!UICONTROL Store View]** |  |
-| サブカテゴリ | メインメニュー [&#128279;](../catalog/category-create.md#category-structure) ルートの下）を構成する  サブカテゴリ）は、ストア表示レベルで割り当てられます。 |
-| Locale | 各ストア表示には、異なる [&#x200B; ロケール &#x200B;](../getting-started/store-details.md#locale-options) を割り当てることができます。 表示通貨、測定単位、管理インターフェイスはロケールに固有です。 |
-| 言語 | 複数の言語をサポートするには、製品の説明を含むすべてのコンテンツを、ストア表示ごとに [&#x200B; 翻訳 &#x200B;](../stores-purchase/store-localize.md#localize-products) する必要があります。 |
-| 通貨を表示 | ストア表示ごとに異なる [&#x200B; 表示通貨 &#x200B;](../stores-purchase/currency-configuration.md) を使用できますが、トランザクションはベース通貨を使用して web サイトレベルで処理されます。 |
+| サブカテゴリ | メインメニュー（ルートの下）を構成する[&#x200B; サブカテゴリ &#x200B;](../catalog/category-create.md#category-structure)は、ストアビューレベルで割り当てられます。 |
+| ロケール | 各ストアビューには、異なる[&#x200B; ロケール &#x200B;](../getting-started/store-details.md#locale-options)を割り当てることができます。 表示通貨、測定単位、管理者インターフェイスは、ロケールに固有です。 |
+| 言語 | 複数の言語をサポートするには、商品説明を含むすべてのコンテンツを、各ストアビューに対して[translated](../stores-purchase/store-localize.md#localize-products)にする必要があります。 |
+| 表示通貨 | ストアビューごとに異なる[表示通貨](../stores-purchase/currency-configuration.md)を使用できますが、トランザクションは基本通貨を使用してweb サイトレベルで処理されます。 |
 
 {style="table-layout:auto"}

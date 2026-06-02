@@ -5,7 +5,7 @@ exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
 source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,7 @@ ht-degree: 0%
 >[!TIP]
 >
 >![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **Adobe AIを活用した商品レコメンデーション**&#x200B;は、人工知能とマシンラーニング アルゴリズムを使用して、集約された訪問者データを詳細に分析することで、商品の関係を定義するプロセスを簡素化します。 このデータをAdobe Commerceカタログと組み合わせることで、買い物客にとって魅力的で関連性の高い、パーソナライズされた体験を実現できます。
-><br/>
->このAdobeで開発した拡張機能を、手動で設定した商品レコメンデーションやアップセルの代わりに使用する方法について詳しくは、_[商品レコメンデーションガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=ja)_&#x200B;を参照してください。
+><br/>>このAdobeで開発した拡張機能を、手動で設定した商品レコメンデーションやアップセルの代わりに使用する方法について詳しくは、_[商品レコメンデーションガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=ja)_&#x200B;を参照してください。
 
 ## 関連製品
 
@@ -47,7 +46,7 @@ ht-degree: 0%
 
 1. 製品を編集モードで開きます。
 
-1. 下にスクロールして、![&#x200B; セクションの](../assets/icon-display-expand.png)拡張セレクター&#x200B;**[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**&#x200B;を展開します。
+1. 下にスクロールして、**[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
 1. **[!UICONTROL Add Related Products]**&#x200B;をクリックします。
 
@@ -69,7 +68,7 @@ ht-degree: 0%
 
 1. 製品を編集モードで開きます。
 
-1. 下にスクロールして、![&#x200B; セクションの](../assets/icon-display-expand.png)拡張セレクター&#x200B;**[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**&#x200B;を展開します。
+1. 下にスクロールして、**[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
 1. **[!UICONTROL Add Up-Sell Products]**&#x200B;をクリックします。
 
@@ -91,7 +90,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ストアビューごとにクロスセル項目を表示または非表示にするには、ショッピングカートの[という](../configuration-reference/sales/checkout.md) チェックアウト/ショッピングカート _[!UICONTROL Show Cross-sell Items]_&#x200B;オプションを参照してください。 特定のセールス中にクロスセルを非表示にしたり、ストアビューでA/B テストを行ったりすることもできます。
+>ストアビューごとにクロスセル項目を表示または非表示にするには、ショッピングカートの&#x200B;_[!UICONTROL Show Cross-sell Items]_&#x200B;という[&#x200B; チェックアウト/ショッピングカート &#x200B;](../configuration-reference/sales/checkout.md) オプションを参照してください。 特定のセールス中にクロスセルを非表示にしたり、ストアビューでA/B テストを行ったりすることもできます。
 
 ![&#x200B; ショッピングカートでのクロスセル &#x200B;](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 
@@ -99,7 +98,7 @@ ht-degree: 0%
 
 1. 製品を編集モードで開きます。
 
-1. 下にスクロールして、![&#x200B; セクションの](../assets/icon-display-expand.png)拡張セレクター&#x200B;**[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**&#x200B;を展開します。
+1. 下にスクロールして、**[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
 1. **[!UICONTROL Add Cross-Sell Products]**&#x200B;をクリックします。
 

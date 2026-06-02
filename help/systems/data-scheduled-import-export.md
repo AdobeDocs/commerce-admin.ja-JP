@@ -5,7 +5,7 @@ exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
 source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2462'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ ht-degree: 0%
 | [!UICONTROL Name] | インポートの名前。 多数の異なるスケジュール済みインポートが作成された場合に区別するのに役立ちます。 |
 | [!UICONTROL Description] | （オプション）説明を入力できます。 |
 | [!UICONTROL Entity Type] | 読み込むデータを定義します。 |
-| [!UICONTROL Import Behavior] | インポートするエンティティがデータベースに存在する場合の複雑なデータの処理方法を定義します。 製品向けの複雑なデータには、カテゴリー、web サイト、カスタムオプション、価格帯、関連製品、アップセル、クロスセル、関連製品データなどが含まれます。 顧客の複雑なデータには住所が含まれます。 オプション：<br>**[!UICONTROL Add/Update Complex Data]**– 新しい複雑なデータが、データベース内の既存のエントリの既存の複雑なデータに追加または更新されます。 これがデフォルト値です。<br>**[!UICONTROL Add/Update]** – 新しいデータがデータベース内の既存のエントリに追加されます。 `sku`を除くすべてのフィールドを製品に対して更新できます。 カテゴリやweb サイトなど、CSV ファイルにリストされていない複数のフィールド値は、読み込み後もデータベースに残ります。<br>**[!UICONTROL Replace]**– 既存のエンティティの既存の複雑なデータが置き換えられます。<br>**[!UICONTROL Delete Entities]** - インポートされたエンティティがデータベースに存在する場合、それらはデータベースから削除されます。<br>**[!UICONTROL Custom Action]**– 既存の複雑なエンティティは、読み込みプロセス中にカスタマイズされます。 |
+| [!UICONTROL Import Behavior] | インポートするエンティティがデータベースに存在する場合の複雑なデータの処理方法を定義します。 製品向けの複雑なデータには、カテゴリー、web サイト、カスタムオプション、価格帯、関連製品、アップセル、クロスセル、関連製品データなどが含まれます。 顧客の複雑なデータには住所が含まれます。 オプション：<br>**[!UICONTROL Add/Update Complex Data]**– 新しい複雑なデータが、データベース内の既存のエントリの既存の複雑なデータに追加または更新されます。 これは既定値です。<br>**[!UICONTROL Add/Update]** - データベース内の既存のエントリに新しいデータが追加されます。 `sku`を除くすべてのフィールドを製品に対して更新できます。 カテゴリやweb サイトなど、CSV ファイルにリストされていない複数のフィールド値は、読み込み後もデータベースに残ります。<br>**[!UICONTROL Replace]**– 既存のエンティティの既存の複雑なデータが置き換えられます。<br>**[!UICONTROL Delete Entities]** - インポートされたエンティティがデータベースに存在する場合、それらはデータベースから削除されます。<br>**[!UICONTROL Custom Action]**– 既存の複雑なエンティティは、インポートプロセス中にカスタマイズされます。 |
 | [!UICONTROL Start Time] | 読み込みの開始時間、分、秒を設定します。 |
 | [!UICONTROL Frequency] | インポートを実行する頻度を定義します。 オプション：`Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL On Error] | ファイルの検証中にエラーが見つかった場合に備えて、システムの動作を定義します。 オプション：<br>**インポートの停止** – 検証中にエラーが見つかった場合、ファイルはインポートされません。 これがデフォルト値です。<br>**処理を続行** – 検証中にエラーが見つかりましたが、インポートが可能な場合は、ファイルがインポートされます。 |
@@ -318,7 +318,7 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 | ----- | ----------- |
-| [!UICONTROL Server Type] | 書き出しファイルの場所を指定します。 Options:<br>**Local Server** — Commerceがデプロイされているサーバーと同じサーバーに書き出しファイルを配置します。 リモートストレージモジュールが有効になっている場合、`Local Server`は`Remote Storage`に切り替えられます。<br>**リモート FTP** – 書き出しファイルをリモート サーバーに配置します。 資格情報とファイル転送設定の追加オプションが表示されます。 |
+| [!UICONTROL Server Type] | 書き出しファイルの場所を指定します。 Options:<br>**Local Server** — Commerceがデプロイされているサーバーと同じサーバーに書き出しファイルを配置します。 リモートストレージモジュールが有効になっている場合、`Local Server`は`Remote Storage`に切り替わります。<br>**リモート FTP** – 書き出しファイルをリモートサーバーに配置します。 資格情報とファイル転送設定の追加オプションが表示されます。 |
 | [!UICONTROL File Directory] | 書き出しファイルを配置するディレクトリを指定します。 _[!UICONTROL Server Type]_&#x200B;が`Local Server`に設定されている場合は、Commerceのインストールパスに対する相対パスを指定します。 例えば、リモートストレージの場合は`var/export`または`import_export/export`です。 |
 
 {style="table-layout:auto"}

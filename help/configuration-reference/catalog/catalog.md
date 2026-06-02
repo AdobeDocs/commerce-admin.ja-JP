@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
-description: Commerce管理者の[!UICONTROL Catalog] &gt; [!UICONTROL Catalog] ページで設定を確認します。
+title: '[!UICONTROL Catalog] > [!UICONTROL Catalog]'
+description: Commerce管理者の[!UICONTROL Catalog] > [!UICONTROL Catalog] ページで設定を確認します。
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
 source-git-commit: f8849b9cf570b2bc3a9d141ddde320ae36a9294a
 workflow-type: tm+mt
-source-wordcount: '3278'
+source-wordcount: '3350'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL List Mode] | ストアビュー | 検索結果リストの形式を指定します。 オプション：<br/>**`Grid Only`**- リストを行と列のグリッドとして書式設定します。 各商品は、グリッドの1つのセルに表示されます。<br/>**`List Only`** – 各製品を別の行に配置してリストを書式設定します。 <br/>**`Grid (default / List)`**- デフォルトでは、商品はグリッド表示に表示され、リスト表示に切り替えることができます。<br/>**`List (default / Grid)`** - デフォルトでは、商品はリスト表示に表示され、グリッド表示に切り替えることができます。 |
+| [!UICONTROL List Mode] | ストアビュー | 検索結果リストの形式を指定します。 オプション：<br/>**`Grid Only`**- リストを行と列のグリッドとして書式設定します。 各商品は、グリッドの1つのセルに表示されます。<br/>**`List Only`** – 各製品を別の行に配置してリストを書式設定します。<br/>**`Grid (default / List)`**- デフォルトでは、商品はグリッド表示に表示され、リスト表示に切り替えることができます。<br/>**`List (default / Grid)`** - デフォルトでは、商品はリスト表示に表示され、グリッド表示に切り替えることができます。 |
 | [!UICONTROL Products per Page on Grid Allowed Values] | ストアビュー | グリッドビューに表示される製品数を指定します。 オプションを選択するには、複数の値をコンマで区切って入力します。 |
 | [!UICONTROL Products per Page on Grid Default Value] | ストアビュー | グリッドビューで、ページごとに表示される製品数をデフォルトで指定します。 |
 | [!UICONTROL Products per Page on List Allowed Values] | ストアビュー | リスト表示に表示される製品数を指定します。 オプションを選択するには、複数の値をコンマで区切って入力します。 |
@@ -178,7 +178,7 @@ ht-degree: 0%
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Display Product Count] | ストアビュー | 各属性、価格帯、およびカテゴリの後に製品数が表示されるかどうかを指定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Price Navigation Step Calculation] | ストアビュー | [価格ナビゲーション手順](../../catalog/navigation-layered.md#configure-price-navigation)）の決定に使用する方法を決定します。 オプション：<br/>`Automatic (equalize price ranges)` - グループ内の製品の価格帯に基づいて計算します。 <br/>`Automatic (equalize product counts)` - グループ内の製品数に基づいて計算します。 グループ内の最小製品数のしきい値を設定して、製品がより小さなグループに分割されるのを防ぎます。 <br/>`Manual` – 価格間隔に入力する除算制限を使用します。 |
+| [!UICONTROL Price Navigation Step Calculation] | ストアビュー | [価格ナビゲーション手順](../../catalog/navigation-layered.md#configure-price-navigation)）の決定に使用する方法を決定します。 オプション：<br/>`Automatic (equalize price ranges)` - グループ内の製品の価格帯に基づいて計算します。<br/>`Automatic (equalize product counts)` - グループ内の製品数に基づいて計算します。 グループ内の最小製品数のしきい値を設定して、製品がより小さなグループに分割されるのを防ぎます。<br/>`Manual` – 価格間隔に入力する除算制限を使用します。 |
 | [!UICONTROL Default Price Navigation Step] | ストアビュー | 各ステップに含まれる製品数を決定します。 |
 | [!UICONTROL Maximum Number of Price Intervals] | ストアビュー | 階層化されたナビゲーションに表示される価格間隔の数に制限を設定します。 |
 
@@ -195,9 +195,9 @@ ht-degree: 0%
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable] | グローバル | カテゴリ制限を有効にします。 デフォルトでは、この機能を使用すると、すべてのカテゴリが制限されます。 オプション：`Yes` / `No` |
-| [!UICONTROL Allow Browsing Category] | web サイト | カテゴリを参照できるユーザーを指定します。 オプション：<br/>`Yes, for Everyone` – すべての訪問者と顧客がカテゴリを参照できるようにします。 <br/>`Yes, for Specified Customer Groups` – 選択した顧客グループのメンバーのみがカテゴリを参照できます。 <br/>`No, Redirect to Landing Page` - カテゴリへのアクセスを拒否し、選択したページにリダイレクトします。 |
-| [!UICONTROL Display Product Prices] | web サイト | カテゴリの製品価格の表示を制御します。 オプション：<br/>`Yes, for Everyone` – すべてのユーザーがカテゴリ内の製品の価格を確認できます。 <br/>`Yes, for Specified Customer Groups` – 選択した顧客グループのメンバーのみが、カテゴリ内の製品の価格を表示できます。 <br/>`No` - カテゴリの製品価格の表示をオフにします。 |
-| [!UICONTROL Allow Adding to Cart] | web サイト | カテゴリから製品を購入できるユーザーを決定します。 オプション：<br/>`Yes, for Everyone` - カテゴリの商品を全員が買い物かごに入れることができます。 <br/>`Yes, for Specified Customer Groups` – 選択した顧客グループのメンバーのみが、カテゴリの商品をショッピングカートに入れることができます。 <br/>`No` - カテゴリの商品を買い物かごに入れることを許可していません。 |
+| [!UICONTROL Allow Browsing Category] | web サイト | カテゴリを参照できるユーザーを指定します。 オプション：<br/>`Yes, for Everyone` – すべての訪問者と顧客がカテゴリを参照できるようにします。<br/>`Yes, for Specified Customer Groups` – 選択した顧客グループのメンバーのみがカテゴリを参照できます。<br/>`No, Redirect to Landing Page` - カテゴリへのアクセスを拒否し、選択したページにリダイレクトします。 |
+| [!UICONTROL Display Product Prices] | web サイト | カテゴリの製品価格の表示を制御します。 オプション：<br/>`Yes, for Everyone` – すべてのユーザーがカテゴリ内の製品の価格を確認できます。<br/>`Yes, for Specified Customer Groups` – 選択した顧客グループのメンバーのみが、カテゴリ内の製品の価格を表示できます。<br/>`No` - カテゴリの製品価格の表示をオフにします。 |
+| [!UICONTROL Allow Adding to Cart] | web サイト | カテゴリから製品を購入できるユーザーを決定します。 オプション：<br/>`Yes, for Everyone` - カテゴリの商品を全員が買い物かごに入れることができます。<br/>`Yes, for Specified Customer Groups` – 選択した顧客グループのメンバーのみが、カテゴリの商品をショッピングカートに入れることができます。<br/>`No` - カテゴリ内の商品をショッピングカートに入れることを許可していません。 |
 | [!UICONTROL Disallow Catalog Search by] | web サイト | カテゴリ内の製品の検索が許可されていない顧客グループを識別します。 |
 
 {style="table-layout:auto"}
@@ -262,7 +262,7 @@ Adobe Commerceは、OpenSearchとElasticsearchをサポートしています。 
 
 >[!IMPORTANT]
 >
->- 2023年8月のElasticsearch 7のサポート終了のお知らせにより、Adobeでは、すべてのAdobe Commerceのお客様がOpenSearch 2.x検索エンジンに移行することをお勧めします。 アップグレード中に検索エンジンを移行する方法について詳しくは、[&#x200B; アップグレードガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=ja)の「_OpenSearchへの移行_」を参照してください。
+>- 2023年8月のElasticsearch 7のサポート終了のお知らせにより、Adobeでは、すべてのAdobe Commerceのお客様がOpenSearch 2.x検索エンジンに移行することをお勧めします。 アップグレード中に検索エンジンを移行する方法について詳しくは、_アップグレードガイド_&#x200B;の「[OpenSearchへの移行](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=ja)」を参照してください。
 >- バージョン 2.4.4および2.4.3-p2では、「Elasticsearch」というラベルが付けられたすべてのフィールドがOpenSearchにも適用されます。 Elasticsearch 8.xのサポートがバージョン 2.4.6で導入されたときには、ElasticsearchとOpenSearchの設定を区別するために新しいラベルが作成されました。 ただし、両方の設定オプションは同じです。
 
 ![&#x200B; カタログ検索設定オプション &#x200B;](./assets/catalog-search-opensearch.png){zoomable="yes"}
@@ -286,7 +286,7 @@ Adobe Commerceは、OpenSearchとElasticsearchをサポートしています。 
 | [!UICONTROL Enable Search Recommendations] | ストアビュー | 検索結果が返されず、検索結果ページの「`Related search terms`」セクションに表示されるときに検索レコメンデーションが提供されるかどうかを指定します。 オプション：`Yes` / `No` <br/>Yesに設定すると、_[!UICONTROL Search Recommendations Count]_&#x200B;と_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;の追加オプションが表示されます。 |
 | [!UICONTROL Search Recommendations Count] | ストアビュー | レコメンデーションとして提供される検索語句の数を指定します。 デフォルトでは、5つしか表示されません。 |
 | [!UICONTROL Show Results Count for Each Recommendation] | ストアビュー | `Yes`に設定すると、提案された検索レコメンデーションで見つかった製品数が角括弧で囲まれて表示されます。 オプション：`Yes` / `No` |
-| [!UICONTROL Enable Search Suggestions] | ストアビュー | 検索候補が一般的なスペル ミスに対して表示されるかどうかを指定します。 有効にすると、検索結果を返さず、`Did you mean`検索結果&#x200B;**ページの** セクションに表示されるリクエストに対して検索候補が表示されます。 検索候補は、検索のパフォーマンスに影響を与える可能性があります。 `Yes`に設定すると、「検索レコメンデーションと関連するフィールドを有効にする」の追加オプションが表示されます。 オプション：`Yes` / `No` |
+| [!UICONTROL Enable Search Suggestions] | ストアビュー | 検索候補が一般的なスペル ミスに対して表示されるかどうかを指定します。 有効にすると、検索結果を返さず、**検索結果** ページの`Did you mean` セクションに表示されるリクエストに対して検索候補が表示されます。 検索候補は、検索のパフォーマンスに影響を与える可能性があります。 `Yes`に設定すると、「検索レコメンデーションと関連するフィールドを有効にする」の追加オプションが表示されます。 オプション：`Yes` / `No` |
 | [!UICONTROL Search Suggestions Count] | ストアビュー | 提供される検索候補の数を指定します。 例：`2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | ストアビュー | 各候補に対して検索結果の数を表示するかどうかを指定します。 テーマに応じて、番号は通常、提案の後ろに括弧内に表示されます。 オプション：`Yes` / `No` |
 | [!UICONTROL Minimum Terms to Match] | ストアビュー | 検索結果が一致する必要があるクエリの語句の数に対応する値を指定して返します。 これにより、買い物客にとって最適な検索結果の関連性が確保されます。 パーセント値は数値に関連付けられ、必要に応じて切り捨てられ、クエリで一致する用語の最小数として使用されます。 値は、負または正の整数、負または正のパーセント、2つの組み合わせ、または複数の組み合わせにすることができます。 詳しくは、OpenSearch ドキュメントの[minimum_should_match パラメーター](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/)を参照してください。 |

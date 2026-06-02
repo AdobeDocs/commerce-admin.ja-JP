@@ -1,16 +1,16 @@
 ---
-title: '[!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration]'
-description: Commerce Admin の [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] ページで設定を確認します。
+title: '[!UICONTROL Customers]  > [!UICONTROL Customer Configuration]'
+description: Commerce管理者の[!UICONTROL Customers] > [!UICONTROL Customer Configuration] ページで設定を確認します。
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
 source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1908'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Customers] > [!UICONTROL Customer Configuration]
+# [!UICONTROL Customers]  > [!UICONTROL Customer Configuration]
 
 {{config}}
 
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 <!-- [Account Sharing Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Share Customer Accounts] | グローバル | ストア階層内の顧客アカウントの範囲を決定します。 オプション：<br/>**`Global`**- カスタマーアカウント情報は、Commerce インストール内のすべての web サイトおよびストアで共有されます。<br/>**`Per Website`** – 顧客アカウント情報は、アカウントが作成された web サイトに限定されます。 |
+| [!UICONTROL Share Customer Accounts] | グローバル | ストア階層内の顧客アカウントの範囲を決定します。 オプション：<br/>**`Global`**– お客様のアカウント情報は、Commerce インストールのすべてのweb サイトおよびストアと共有されます。<br/>**`Per Website`** – 顧客アカウント情報は、アカウントが作成されたweb サイトに限定されます。 |
 
 {style="table-layout:auto"}
 
@@ -32,35 +32,35 @@ ht-degree: 0%
 
 <!-- [Online Customers Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customers-menu/now-online) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Online Minutes Interval] | グローバル | 顧客のオンラインアクティビティに管理者からアクセスできる期間を決定します。 デフォルトの 15 分間隔の場合は、空のままにします。 |
-| [!UICONTROL Customer Data Lifetime] | グローバル | 顧客が入力した未保存のデータが期限切れになるまでの時間（分）を指定します。 デフォルトでは、未保存のデータの有効期限は 60 分後に切れます。 |
+| [!UICONTROL Online Minutes Interval] | グローバル | 顧客のオンラインアクティビティが管理者からアクセスできる時間を指定します。 デフォルトの間隔（15分）は空のままにします。 |
+| [!UICONTROL Customer Data Lifetime] | グローバル | 顧客が入力した未保存データの有効期限が切れるまでの分数を指定します。 デフォルトでは、未保存のデータは60分後に期限切れになります。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Create New Account Options]
 
-![&#x200B; 新規アカウントオプションの作成 &#x200B;](./assets/customer-configuration-create-new-account-options.png)<!-- zoom -->
+![新しいアカウントオプションを作成](./assets/customer-configuration-create-new-account-options.png)<!-- zoom -->
 
-![&#x200B; 新規口座オプションの作成（VAT フィールド） &#x200B;](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
+![新しいアカウント オプション （VAT フィールド）を作成](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
 
 <!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable Automatic Assignment to Customer Group] | ストア表示 | 顧客をデフォルトの顧客グループに自動的に割り当てるかどうかを決定します。 店舗に VAT 番号を表示するには、ストアフロントで [VAT 番号を表示 ] を設定し、[`Yes`] を選択します。 オプション：<br/>**`Yes`**– 顧客 VAT ID は自動的には検証されず、顧客グループも変更されません。<br/>**`No`** - システムの動作は通常どおりであり、デフォルトの顧客グループは「デフォルトグループ」フィールドで設定できます。 |
-| [!UICONTROL Default Group] | ストア表示 | アカウントの作成時に割り当てられる最初の顧客グループを識別します。 |
-| [!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID] | グローバル | （現在の構成スコープが `Default Group` に設定されている場合にのみ使用できます。） VAT ID に基づく顧客グループの自動変更を既定で有効にするか無効にするかを選択します。 設定は、製品レベルで上書きできます。 この設定は、次の状況でのシステム動作に影響を与えます。<br/> – 顧客のデフォルト住所またはデフォルト住所全体の VAT ID が変更されます。 <br/> - チェックアウト中に、以前に住所を保存しなかった登録済みのお客様、またはチェックアウト中に登録したお客様のグループ変更がエミュレートされました。 <br/> グループの自動変更が有効になっている場合、最初のケースでは顧客グループが自動的に変更され、2 番目のケースでは一時的にエミュレートされた顧客グループが顧客に割り当てられます。 グループの自動変更が無効になっている場合、管理者が手動で変更しない限り、割り当てられている顧客グループは変更されません。 |
-| [!UICONTROL Show VAT Number on Storefront] | Web サイト | 店舗の顧客に VAT 番号を表示するかどうかを決定します。 オプション：`Yes` / `No` <br/> 通常の B2B 以外の顧客アカウントにのみ影響します。 会社アカウントには、個別の VAT 番号フィールドがあります。 |
-| [!UICONTROL Default Email Domain] | ストア表示 | ストアのデフォルトのメールドメインを識別します。 例：`mystore.com` |
-| [!UICONTROL Default Welcome Email] | ストア表示 | デフォルトの _ようこそ_ メールに使用するメールテンプレートを識別します。 |
-| [!UICONTROL Default Welcome Email Without Password] | ストア表示 | 管理者によって作成され、パスワードが割り当てられていない新しい顧客アカウントに使用される、代替のようこそ E メール テンプレート。 |
-| [!UICONTROL Email Sender] | ストア表示 | ようこそメールの送信者として表示される店舗連絡先を識別します。 |
-| [!UICONTROL Require Emails Confirmation] | Web サイト | アカウントの作成要求に顧客の確認が必要かどうかを判断します。 オプション：`Yes` / `No`. <br/><br/> _&#x200B;**注意：**&#x200B;_ バージョン 2.4.7 以降、ブラウザーに関係なく、メールによる確認後にアカウントにログインするには、メールとパスワードを再入力する必要があります。 |
-| [!UICONTROL Confirmation Link Email] | ストア表示 | 確認 E メールに使用する E メールテンプレートを識別します。 既定のテンプレート：`New account confirmation key` |
-| [!UICONTROL Welcome Email] | ストア表示 | アカウントの確認後に送信されるようこそメッセージに使用するメールテンプレートを識別します。 |
-| [!UICONTROL Generate Human-Friendly Customer ID] | グローバル | VAT ID 番号の入力と保存に使用されるフィールドがストアフロントから表示されるかどうかを決定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Enable Automatic Assignment to Customer Group] | ストアビュー | 顧客がデフォルトの顧客グループに自動的に割り当てられるかどうかを指定します。 ストアにVAT番号を表示するには、ストアフロントに「VAT番号を表示」を設定し、`Yes`を選択します。 オプション：<br/>**`Yes`**- システムは顧客VAT IDを自動的に検証せず、顧客グループも変更しません。<br/>**`No`** - システムの動作は通常どおり、デフォルトの顧客グループは「デフォルトのグループ」フィールドで設定できます。 |
+| [!UICONTROL Default Group] | ストアビュー | アカウントの作成時に割り当てられた最初の顧客グループを識別します。 |
+| [!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID] | グローバル | （現在の設定スコープが`Default Group`に設定されている場合にのみ使用できます）。 VAT IDに基づく顧客グループの自動変更をデフォルトで有効にするか無効にするかを選択します。 設定は製品レベルで上書きできます。 設定は、次の状況におけるシステムの動作に影響します。<br/> – 顧客のデフォルト アドレスまたはデフォルト アドレス全体のVAT IDが変更されます。<br/> – 以前にアドレスを保存していない登録済み顧客またはチェックアウト中に登録した顧客に対して、チェックアウト中に顧客グループの変更がエミュレートされました。 <br/>自動グループ変更が有効になっている場合、最初のケースでは顧客グループが自動的に変更され、2番目のケースでは一時的にエミュレートされた顧客グループが顧客に割り当てられます。 グループの自動変更が無効になっている場合、割り当てられた顧客グループは、管理者が手動で変更しない限り、変更されません。 |
+| [!UICONTROL Show VAT Number on Storefront] | web サイト | ストア内のお客様にVAT番号が表示されているかどうかを判断します。 オプション：`Yes` / `No` <br/>通常のB2B以外の顧客アカウントのみに影響します。 会社アカウントには、独自のVAT番号フィールドがあります。 |
+| [!UICONTROL Default Email Domain] | ストアビュー | ストアのデフォルトの電子メールドメインを識別します。 例：`mystore.com` |
+| [!UICONTROL Default Welcome Email] | ストアビュー | 既定の&#x200B;_ようこそ_&#x200B;電子メールに使用される電子メールテンプレートを識別します。 |
+| [!UICONTROL Default Welcome Email Without Password] | ストアビュー | パスワードがまだ割り当てられていない管理者が作成した新しい顧客アカウントに使用される代替ウェルカムメールテンプレート。 |
+| [!UICONTROL Email Sender] | ストアビュー | ウェルカムメールの送信者として表示されるストア連絡先を識別します。 |
+| [!UICONTROL Require Emails Confirmation] | web サイト | アカウントを作成するリクエストに顧客からの確認が必要かどうかを判断します。 オプション：`Yes` / `No`。<br/><br/> _&#x200B;**メモ：**&#x200B;_ バージョン 2.4.7以降、お客様は、ブラウザーに関係なく、メール確認後にアカウントにログインするために、メールとパスワードを再入力する必要があります。 |
+| [!UICONTROL Confirmation Link Email] | ストアビュー | 確認メールに使用される電子メールテンプレートを識別します。 既定のテンプレート：`New account confirmation key` |
+| [!UICONTROL Welcome Email] | ストアビュー | アカウントの確認後に送信されるようこそメッセージに使用される電子メールテンプレートを識別します。 |
+| [!UICONTROL Generate Human-Friendly Customer ID] | グローバル | VAT ID番号の入力と保存に使用されるフィールドがストアフロントから表示されるかどうかを指定します。 オプション：`Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -70,21 +70,21 @@ ht-degree: 0%
 
 <!-- [Password Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Password Reset Protection Type] | ストア表示 | 顧客アカウントのパスワードをリセットするために使用する方法を決定します。 オプション：<br/>**`By IP and Email`**- パスワードは、管理者アカウントに関連付けられたメールアドレスに送信されるリセット通知から応答を受信した後に、オンラインでリセットできます。<br/>**`By IP`** - パスワードはオンラインでリセットできます。 <br/>**`By Email`**- パスワードは、管理者アカウントに関連付けられたメールアドレスに送信されるメール通知に応答することでリセットできます。<br/>**`None`** - パスワードは、ストア管理者のみがリセットできます。 |
-| [!UICONTROL Max Number of Password Reset Requests] | ストア表示 | 1 時間あたりのパスワードリセット要求の数を制限します。 無制限の要求の場合は、ゼロ（0）を入力します。 |
-| [!UICONTROL Min Time Between Password Reset Requests] | ストア表示 | パスワードリセット要求の間隔を分単位で指定します。 リクエスト間に遅延を発生させない場合は、ゼロ（0）を入力します。 |
-| [!UICONTROL Forgot Email Template] | ストア表示 | 顧客がパスワードを忘れた場合に使用するメールテンプレートを識別します。 既定のテンプレート：`Forgot Password` |
-| [!UICONTROL Remind Email Template] | ストア表示 | 顧客がパスワードのリマインダーまたはヒントを受け取る際に使用するメールテンプレートを識別します。 既定のテンプレート：`Remind Password` |
-| [!UICONTROL Reset Password Template] | ストア表示 | 顧客がパスワードをリセットする際に使用する E メール テンプレートを決定します。 |
-| [!UICONTROL Password Template Email Sender] | ストア表示 | パスワード関連のメールの送信者として表示される店舗連絡先を決定します。 |
-| [!UICONTROL Recovery Link Expiration Period (hours)] | グローバル | パスワード回復リンクの有効期限が切れるまでの時間を指定します。 |
-| [!UICONTROL Enable Autocomplete on login/forgot password forms] | Web サイト | ログイン/パスワードを忘れた場合のフォームでオートコンプリートを有効にするかどうかを指定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Number of Required Character Classes] | グローバル | パスワードに含める必要がある様々な文字クラス（小文字、大文字、数字、特殊文字）の数を決定します。 |
-| [!UICONTROL Maximum Login Failures to Lockout Account] | グローバル | カスタマーアカウントがロックされるまでログインが失敗した回数を決定します。 試行回数に制限のない場合は、ゼロ（`0`）を入力します。 |
-| [!UICONTROL Minimum Password Length] | グローバル | パスワードで許可される最小文字数を決定します。 数値は 0 より大きい値（`0`）にする必要があります。 |
-| [!UICONTROL Lockout Time (minutes)] | グローバル | ログインの試行に失敗した回数が多すぎた場合に顧客アカウントがロックされる時間（分）を指定します。 |
+| [!UICONTROL Password Reset Protection Type] | ストアビュー | 顧客アカウントのパスワードをリセットする方法を指定します。 オプション：<br/>**`By IP and Email`**– 管理者アカウントに関連付けられた電子メールアドレスに送信されたリセット通知から応答を受信した後、パスワードをオンラインでリセットできます。<br/>**`By IP`** - パスワードはオンラインでリセットできます。<br/>**`By Email`**– 管理者アカウントに関連付けられている電子メールアドレスに送信される電子メール通知に応答して、パスワードをリセットできます。<br/>**`None`** - パスワードは、ストア管理者のみがリセットできます。 |
+| [!UICONTROL Max Number of Password Reset Requests] | ストアビュー | 1時間あたりのパスワードリセット要求の数を制限します。 無制限のリクエストの場合は、ゼロ（0）を入力します。 |
+| [!UICONTROL Min Time Between Password Reset Requests] | ストアビュー | パスワードのリセット要求の間隔（分）を指定します。 リクエスト間に遅延がない場合は、ゼロ（0）を入力します。 |
+| [!UICONTROL Forgot Email Template] | ストアビュー | 顧客がパスワードを忘れたときに使用されるメールテンプレートを識別します。 既定のテンプレート：`Forgot Password` |
+| [!UICONTROL Remind Email Template] | ストアビュー | 顧客がパスワードのリマインダーまたはヒントを受け取ったときに使用されるメールテンプレートを識別します。 既定のテンプレート：`Remind Password` |
+| [!UICONTROL Reset Password Template] | ストアビュー | 顧客がパスワードをリセットするときに使用する電子メールテンプレートを決定します。 |
+| [!UICONTROL Password Template Email Sender] | ストアビュー | パスワード関連の電子メールの送信者として表示されるストアの連絡先を指定します。 |
+| [!UICONTROL Recovery Link Expiration Period (hours)] | グローバル | パスワード回復リンクの有効期限が切れるまでの時間数を指定します。 |
+| [!UICONTROL Enable Autocomplete on login/forgot password forms] | web サイト | ログイン/パスワードを忘れたフォームでオートコンプリートが有効になっているかどうかを確認します。 オプション：`Yes` / `No` |
+| [!UICONTROL Number of Required Character Classes] | グローバル | パスワードに含める必要がある様々な文字クラス（小文字、大文字、数字、特殊文字）の数を指定します。 |
+| [!UICONTROL Maximum Login Failures to Lockout Account] | グローバル | 顧客アカウントがロックされるまで失敗したログイン試行回数を指定します。 無制限の試行の場合は、ゼロ （`0`）を入力します。 |
+| [!UICONTROL Minimum Password Length] | グローバル | パスワードで許可される最小文字数を指定します。 数値は0より大きくなければなりません（`0`）。 |
+| [!UICONTROL Lockout Time (minutes)] | グローバル | ログインに失敗した回数が多すぎる場合に顧客アカウントがロックされる分数を指定します。 |
 
 {style="table-layout:auto"}
 
@@ -92,10 +92,10 @@ ht-degree: 0%
 
 ![&#x200B; アカウント情報オプション &#x200B;](./assets/customer-configuration-account-info-options.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Change Email Template] | ストア表示 | 顧客が電子メール アドレスを変更するときに使用される既定の電子メール テンプレートを識別します。 |
-| [!UICONTROL Change Email and Password Template] | ストア表示 | 顧客が電子メール アドレスおよびパスワードを変更するときに使用される既定の電子メール テンプレートを識別します。 |
+| [!UICONTROL Change Email Template] | ストアビュー | 顧客が電子メールアドレスを変更したときに使用されるデフォルトの電子メールテンプレートを識別します。 |
+| [!UICONTROL Change Email and Password Template] | ストアビュー | 顧客が電子メールアドレスとパスワードを変更したときに使用されるデフォルトの電子メールテンプレートを識別します。 |
 
 {style="table-layout:auto"}
 
@@ -105,24 +105,24 @@ ht-degree: 0%
 
 {{ce-feature}}
 
-![&#x200B; 名前と住所のオプション - Sourceを開きます &#x200B;](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
+![名前と住所のオプション - Sourceを開く](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
 
 <!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Number of Lines in a Street Address] | Web サイト | 番地の行数を指定します。 住所は `1` から `4` 行で構成されています。 フィールドが空白の場合、デフォルトの住所である 3 行（`3`）が使用されます。 |
-| [!UICONTROL Show Prefix] | Web サイト | お客様の名前の先頭にプレフィックスが含まれているかどうかを決定します（例：Mr.および Ms. オプション : `No` / `Optional` / `Required`） |
-| [!UICONTROL Prefix Dropdown Options] | Web サイト | プリフィックスオプションのリストを定義します。 値はセミコロンで区切ります。 最初の値の前にセミコロンを入れると、リストの先頭に空の値が表示されます。 |
-| [!UICONTROL Show Middle Name (initial)] | Web サイト | ミドルネームのイニシャルを顧客名の一部として含めるかどうかを決定します。 使用する場合、中央の最初のフィールドはオプションです。 オプション：`Yes` / `No` |
-| [!UICONTROL Show Suffix] | Web サイト | 顧客名の末尾にサフィックスが含まれるかどうかを決定します（Jr.、Sr.、III など）。 オプション：`No`/`Optional`/`Required` |
-| [!UICONTROL Suffix Dropdown Options] | Web サイト | サフィックスオプションのリストを定義します。 値はセミコロンで区切ります。 最初の値の前にセミコロンを入れると、リストの先頭に空の値が表示されます。 |
-| [!UICONTROL Show Date of Birth] | Web サイト | 顧客の生年月日が氏名および住所フォームに含まれるかどうかを決定します。 オプション：`No` / `Optional` / `Required` <br><br>**_重要：_**&#x200B;現在のセキュリティとプライバシーのベストプラクティスに従って、顧客の完全な生年月日（月、日、年）を他の個人識別子と一緒に保存することに関連する潜在的な法的およびセキュリティリスクに注意してください。 顧客の完全な生年月日の保存を制限し、代替として顧客の生年月日の使用を提案することをお勧めします。 |
-| [!UICONTROL Show Tax/VAT Number] | Web サイト | 名前と住所のフォームに税または [VAT 番号 &#x200B;](../../stores-purchase/vat.md) が含まれるかどうかを決定します。 オプション：`No`/`Optional`/`Required` |
-| [!UICONTROL Show Gender] | Web サイト | 名前と住所のフォームに性別が含まれているかどうかを決定します。 オプション：`No`/`Optional`/`Required` |
-| [!UICONTROL Show Telephone] | Web サイト | 顧客の電話番号が名前と住所のフォームに含まれているかどうかを決定します。 オプション：`No`/`Optional`/`Required` |
-| [!UICONTROL Show Company] | Web サイト | 顧客の会社が名前と住所のフォームに含まれているかどうかを判断します。 オプション：`No`/`Optional`/`Required` |
-| [!UICONTROL Show Fax] | Web サイト | 顧客の FAX 番号を住所と名前のフォームに含めるかどうかを決定します。 オプション：`No`/`Optional`/`Required` |
+| [!UICONTROL Number of Lines in a Street Address] | web サイト | 住所の行数を指定します。 住所は`1`から`4`行までです。 フィールドが空白の場合、デフォルトの住所である3行（`3`）が使用されます。 |
+| [!UICONTROL Show Prefix] | web サイト | お客様の名前に最初にプレフィックスが含まれているかどうかを判断します。例えば、Mr. and Ms. オプション：`No` / `Optional` / `Required` |
+| [!UICONTROL Prefix Dropdown Options] | web サイト | 接頭辞オプションのリストを定義します。 値はセミコロンで区切ります。 最初の値の前にセミコロンを配置すると、空の値がリストの上部に表示されます。 |
+| [!UICONTROL Show Middle Name (initial)] | web サイト | 中間のイニシャルが顧客名の一部として含まれるかどうかを指定します。 使用する場合、中間の頭文字はオプションのフィールドです。 オプション：`Yes` / `No` |
+| [!UICONTROL Show Suffix] | web サイト | 顧客名の末尾に接尾辞（Jr.、Sr.、IIIなど）が含まれているかどうかを判断します。 オプション：`No` / `Optional` / `Required` |
+| [!UICONTROL Suffix Dropdown Options] | web サイト | 接尾辞オプションのリストを定義します。 値はセミコロンで区切ります。 最初の値の前にセミコロンを配置すると、空の値がリストの上部に表示されます。 |
+| [!UICONTROL Show Date of Birth] | web サイト | お客様の生年月日が名前と住所のフォームに含まれているかどうかを指定します。 オプション：`No` / `Optional` / `Required` <br><br>**_Important:_**&#x200B;現在のセキュリティおよびプライバシーのベストプラクティスに従って、お客様の生年月日（月、日、年）を他の個人IDと共に保存することに関連する潜在的な法的およびセキュリティ上のリスクを認識してください。 お客様の生年月日の保存を制限し、お客様の生年月日を代替手段として使用することをお勧めします。 |
+| [!UICONTROL Show Tax/VAT Number] | web サイト | 名前と住所のフォームに税金または[VAT番号](../../stores-purchase/vat.md)が含まれているかどうかを判断します。 オプション：`No` / `Optional` / `Required` |
+| [!UICONTROL Show Gender] | web サイト | 名前と住所フォームに性別が含まれているかどうかを指定します。 オプション：`No` / `Optional` / `Required` |
+| [!UICONTROL Show Telephone] | web サイト | お客様の電話番号が名前と住所のフォームに含まれているかどうかを判断します。 オプション：`No` / `Optional` / `Required` |
+| [!UICONTROL Show Company] | web サイト | お客様の会社が名前と住所のフォームに含まれているかどうかを判断します。 オプション：`No` / `Optional` / `Required` |
+| [!UICONTROL Show Fax] | web サイト | お客様のFAX番号が名前と住所のフォームに含まれているかどうかを確認します。 オプション：`No` / `Optional` / `Required` |
 
 {style="table-layout:auto"}
 
@@ -130,17 +130,17 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![&#x200B; 名前と住所のオプション - Commerce](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
+![名前と住所のオプション - Commerce](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
 
 <!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Prefix Dropdown Options] | Web サイト | プリフィックスオプションのリストを定義します。 値はセミコロンで区切ります。 最初の値の前にセミコロンを入れると、リストの先頭に空の値が表示されます。 |
-| [!UICONTROL Suffix Dropdown Options] | Web サイト | サフィックスオプションのリストを定義します。 値はセミコロンで区切ります。 最初の値の前にセミコロンを入れると、リストの先頭に空の値が表示されます。 |
-| [!UICONTROL Show Telephone] | Web サイト | 顧客の電話番号が名前と住所のフォームに含まれているかどうかを決定します。 オプション：`No`/`Optional`/`Required` |
-| [!UICONTROL Show Company] | Web サイト | 顧客の会社が名前と住所のフォームに含まれているかどうかを判断します。 オプション：`No`/`Optional`/`Required` |
-| [!UICONTROL Show Fax] | Web サイト | 顧客の FAX 番号を住所と名前のフォームに含めるかどうかを決定します。 オプション：`No`/`Optional`/`Required` |
+| [!UICONTROL Prefix Dropdown Options] | web サイト | 接頭辞オプションのリストを定義します。 値はセミコロンで区切ります。 最初の値の前にセミコロンを配置すると、空の値がリストの上部に表示されます。 |
+| [!UICONTROL Suffix Dropdown Options] | web サイト | 接尾辞オプションのリストを定義します。 値はセミコロンで区切ります。 最初の値の前にセミコロンを配置すると、空の値がリストの上部に表示されます。 |
+| [!UICONTROL Show Telephone] | web サイト | お客様の電話番号が名前と住所のフォームに含まれているかどうかを判断します。 オプション：`No` / `Optional` / `Required` |
+| [!UICONTROL Show Company] | web サイト | お客様の会社が名前と住所のフォームに含まれているかどうかを判断します。 オプション：`No` / `Optional` / `Required` |
+| [!UICONTROL Show Fax] | web サイト | お客様のFAX番号が名前と住所のフォームに含まれているかどうかを確認します。 オプション：`No` / `Optional` / `Required` |
 
 {style="table-layout:auto"}
 
@@ -148,17 +148,17 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![&#x200B; 店舗クレジット オプション &#x200B;](./assets/customer-configuration-store-credit-options.png)<!-- zoom -->
+![&#x200B; ストアクレジットオプション &#x200B;](./assets/customer-configuration-store-credit-options.png)<!-- zoom -->
 
 <!-- [Store Credit Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable Store Credit Functionality] | グローバル | ストアクレジットが有効かどうかを判断します。 無効にすると、顧客アカウントおよび管理者の顧客の管理ページからストアクレジットが削除されます。 オプション：`Yes`/`No`。 |
-| [!UICONTROL Show Store Credit History to Customers] | Web サイト | 残高履歴を顧客勘定に表示するかどうかを決定します。 オプション：`Yes`/`No`。 |
-| [!UICONTROL Refund Store Credit Automatically] | グローバル | 店舗払い戻しが自動的に発行されるかどうかを決定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Store Credit Update Email Sender] | ストア表示 | 顧客に送信されるクレジット更新通知の送信者として表示されるストア ID を決定します。 |
-| [!UICONTROL Store Credit Update Email Template] | ストア表示 | 与信更新に使用する E メール テンプレートを決定します。 |
+| [!UICONTROL Enable Store Credit Functionality] | グローバル | ストアクレジットが有効かどうかを指定します。 無効にすると、ストアクレジットは顧客アカウントおよび管理者管理の顧客ページから削除されます。 オプション：`Yes` / `No`。 |
+| [!UICONTROL Show Store Credit History to Customers] | web サイト | 残高履歴が顧客アカウントに表示されるかどうかを指定します。 オプション：`Yes` / `No`。 |
+| [!UICONTROL Refund Store Credit Automatically] | グローバル | ストアの払い戻しが自動的に発行されるかどうかを指定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Store Credit Update Email Sender] | ストアビュー | 顧客に送信されるクレジット更新通知の送信者として表示されるストア IDを決定します。 |
+| [!UICONTROL Store Credit Update Email Template] | ストアビュー | クレジットの更新に使用する電子メールテンプレートを決定します。 |
 
 {style="table-layout:auto"}
 
@@ -168,9 +168,9 @@ ht-degree: 0%
 
 <!-- [Login Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Redirect Customer to Account Dashboard after Logging in] | Web サイト | 顧客がアカウントにログインした後の処理を指定します。 顧客を自分のアカウントダッシュボードにリダイレクトするには、「`Yes`」を選択します。 オプション：<br/>**`Yes`**– 顧客が自分のアカウントにログインすると、アカウントダッシュボードが表示されます。<br/>**`No`** – 顧客はアカウントにログインした後も買い物を続けることができます。 |
+| [!UICONTROL Redirect Customer to Account Dashboard after Logging in] | web サイト | 顧客がアカウントにログインした後に何が起こるかを決定します。 顧客をアカウントダッシュボードにリダイレクトするには、`Yes`を選択します。 オプション：<br/>**`Yes`**– 顧客がアカウントにログインすると、アカウントダッシュボードが表示されます。<br/>**`No`** – 顧客は、アカウントにログインした後もショッピングを続けることができます。 |
 
 {style="table-layout:auto"}
 
@@ -180,12 +180,12 @@ ht-degree: 0%
 
 <!-- [Address Templates](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
 
-| Template | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| テンプレート | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Text] | ストア表示 | テンプレートは、印刷されるすべてのアドレスに使用されます。 |
-| [!UICONTROL Text One Line] | ストア表示 | このテンプレートは、顧客の買い物かごアドレス帳リスト内の住所エンティティの順序を定義します。 チェックアウト中の進行状況。 |
-| [!UICONTROL HTML] | ストア表示 | このテンプレートは、管理パネル（[!UICONTROL Customers]/[!UICONTROL Manage Customers]）の _顧客アドレス_ 領域にあるアドレスフィールドの順序を定義します。 これは、顧客がアカウントページで請求先または配送先住所を作成する際に _新しい住所を追加_ ページで行う操作にも影響します。 |
-| [!UICONTROL PDF] | ストア表示 | テンプレートは、印刷された請求書、出荷およびクレジット・メモの請求先住所および出荷先住所の表示を定義します。 |
+| [!UICONTROL Text] | ストアビュー | テンプレートは、印刷されるすべてのアドレスに使用されます。 |
+| [!UICONTROL Text One Line] | ストアビュー | このテンプレートは、顧客のショッピングカートのアドレス帳リスト内のアドレスエンティティの順序を定義します。 チェックアウト中に進行： |
+| [!UICONTROL HTML] | ストアビュー | このテンプレートは、管理パネルの&#x200B;_顧客アドレス_&#x200B;領域（[!UICONTROL Customers] > [!UICONTROL Manage Customers]）にあるアドレスフィールドの順序を定義します。 これは、お客様がアカウントページで請求先住所または配送先住所を作成する際に、_新しい住所を追加_ ページに表示されるユーザーにも影響します。 |
+| [!UICONTROL PDF] | ストアビュー | このテンプレートは、印刷された請求書、出荷、およびクレジットメモの請求先住所と配送先住所の表示を定義します。 |
 
 {style="table-layout:auto"}
 
@@ -193,14 +193,14 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![&#x200B; 顧客セグメント &#x200B;](./assets/customer-configuration-customer-segments.png)<!-- zoom -->
+![顧客セグメント &#x200B;](./assets/customer-configuration-customer-segments.png)<!-- zoom -->
 
 <!-- [Customer Segments](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/segments/customer-segments) -->
 
-| Template | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| テンプレート | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable Customer Segment Functionality] | グローバル | 顧客セグメントを使用してターゲットを絞ったプロモーションを作成できるかどうかを決定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Real-time Check if Customer is Matched by Segment] | グローバル | 顧客セグメントをリアルタイムで検証するかどうかを決定します。 オプション：<br/>**[!UICONTROL Yes]**– 顧客セグメントはリアルタイムで検証されます（デフォルト値）。<br/>**[!UICONTROL No]** – 顧客セグメントは、単一の結合条件 SQL クエリによって検証されます。 これにより、システム内に多数の顧客セグメントがある場合の、セグメント検証のパフォーマンスが向上します。 ただし、分割データベースを使用している場合や、登録済みの顧客が存在しない場合は、検証は機能しません。 |
+| [!UICONTROL Enable Customer Segment Functionality] | グローバル | 顧客セグメントを使用して、ターゲットを絞ったプロモーションを作成できるかどうかを決定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Real-time Check if Customer is Matched by Segment] | グローバル | 顧客セグメントがリアルタイムで検証されているかどうかを判断します。 オプション：<br/>**[!UICONTROL Yes]**– 顧客セグメントはリアルタイムで検証されます（デフォルト値）。<br/>**[!UICONTROL No]** – 顧客セグメントは、単一の複合条件SQL クエリによって検証されます。 これにより、システム内に顧客セグメントが多い場合に、セグメント検証のパフォーマンスが向上します。 ただし、検証は、分割データベースや登録済みの顧客がない場合には機能しません。 |
 
 {style="table-layout:auto"}
 
@@ -210,16 +210,16 @@ ht-degree: 0%
 
 <!-- [CAPTCHA](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/security/captcha/security-captcha) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable CAPTCHA on Storefront] | Web サイト | Commerce web サイトに関連付けられているストアで CAPTCHA を有効にします。 オプション：`Yes` / `No` |
-| [!UICONTROL Font] | Web サイト | CAPTCHA を表示するために使用するフォントを決定します。 独自のフォントを追加するには、フォントファイルをCommerceのインストール先と同じディレクトリに置き、宣言を `config.xml` ファイルの `app/code/Magento/Captcha/etc` に追加します。 |
-| [!UICONTROL Forms] | Web サイト | CAPTCHA が使用されるフォームを決定します。 オプション：<br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （[&#x200B; セキュリティパッチ &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=ja) を参照） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**注意：**&#x200B;_ ユーザー作成、パスワードを忘れた場合、Payflow Pro フォームは、選択した場合は常に有効になります。 |
-| [!UICONTROL Displaying Mode] | Web サイト | CAPTCHA が表示されるタイミングを決定します。 オプション：<br/>**`Always`**- ログインには常に CAPTCHA が必要です。<br/>**`After number of attempts to login`** – このオプションは、管理者のログインフォームにのみ適用されます。 選択すると、_[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;フィールドが表示されます。 許可するログイン試行回数を入力します。 値 `0` （ゼロ）は、[!UICONTROL Displaying Mode] を `Always` に設定する場合と似ています。<br/>_&#x200B;**注意：**&#x200B;_失敗したログインの試行回数を追跡するために、1 つのメールアドレスおよび 1 つの IP アドレスからのログインがカウントされます。 同じ IP アドレスから許可されるログイン試行回数の上限は 1,000 です。 この制限は、CAPTCHA が有効な場合にのみ適用されます。 |
-| [!UICONTROL Number of Unsuccessful Attempts to Login] | Web サイト | アカウントがロックされるまで顧客がログインできる回数を指定します。 |
-| [!UICONTROL CAPTCHA Timeout (minutes)] | Web サイト | 現在の CAPTCHA の有効期間を決定します。 CAPTCHA の有効期限が切れたら、ユーザーはページをリロードする必要があります。 |
-| [!UICONTROL Number of Symbols] | Web サイト | CAPTCHA に表示されるシンボルの数を指定します（最大 8 個）。 また、範囲を指定することもできます（例：5～8）。 |
-| [!UICONTROL Symbols Used in CAPTCHA] | Web サイト | CAPTCHA に表示される文字（a ～ z および A ～ Z）と数字（0 ～ 9）を決定します。 `i`、`l`、`1` などの他のシンボルと区別しにくいシンボルは、CAPTCHA シンボルのデフォルトセットには含まれません。 |
-| [!UICONTROL Case Sensitive] | Web サイト | CAPTCHA 文字で大文字と小文字を区別するかどうかを決定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Enable CAPTCHA on Storefront] | web サイト | Commerce web サイトに関連付けられているストアでCAPTCHAを有効にします。 オプション：`Yes` / `No` |
+| [!UICONTROL Font] | web サイト | CAPTCHAの表示に使用するフォントを指定します。 独自のフォントを追加するには、フォントファイルをCommerceのインストールと同じディレクトリに置き、宣言を`app/code/Magento/Captcha/etc`の`config.xml` ファイルに追加します。 |
+| [!UICONTROL Forms] | web サイト | CAPTCHAが使用されるフォームを指定します。 オプション：<br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （[&#x200B; セキュリティパッチ &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)を参照） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**注：**&#x200B;_ Create User、Forgot Password、Payflow Pro フォームは、選択時に常に有効になります。 |
+| [!UICONTROL Displaying Mode] | web サイト | CAPTCHAがいつ表示されるかを指定します。 オプション：<br/>**`Always`**- ログインするには常にCAPTCHAが必要です。<br/>**`After number of attempts to login`** – このオプションは、Admin Sign In フォームにのみ適用されます。 選択すると、_[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;フィールドが表示されます。 許可するログイン試行回数を入力します。 `0` （ゼロ）の値は、[!UICONTROL Displaying Mode]を`Always`に設定することと似ています。<br/>_&#x200B;**注意：**&#x200B;_ログインの失敗回数を追跡するには、1つの電子メールアドレスと1つのIP アドレスからログインするたびにカウントされます。 同じIP アドレスから許可されるログイン試行の最大数は1,000です。 この制限は、CAPTCHAが有効になっている場合にのみ適用されます。 |
+| [!UICONTROL Number of Unsuccessful Attempts to Login] | web サイト | 顧客がアカウントをロックする前にログインを試行できる回数を指定します。 |
+| [!UICONTROL CAPTCHA Timeout (minutes)] | web サイト | 現在のCAPTCHAの有効期間を決定します。 CAPTCHAの有効期限が切れると、ユーザーはページをリロードする必要があります。 |
+| [!UICONTROL Number of Symbols] | web サイト | CAPTCHAに表示されるシンボルの数を指定します（最大8）。 範囲（5 ～ 8など）を指定することもできます。 |
+| [!UICONTROL Symbols Used in CAPTCHA] | web サイト | CAPTCHAに表示される文字（a ～ zおよびA ～ Z）と数字（0 ～ 9）を指定します。 `i`、`l`、`1`など、他のシンボルと区別しにくいシンボルは、CAPTCHA シンボルのデフォルトセットには含まれません。 |
+| [!UICONTROL Case Sensitive] | web サイト | CAPTCHA文字が大文字と小文字を区別するかどうかを指定します。 オプション：`Yes` / `No` |
 
 {style="table-layout:auto"}

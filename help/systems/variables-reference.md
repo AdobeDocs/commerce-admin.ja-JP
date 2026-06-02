@@ -1,6 +1,6 @@
 ---
 title: 変数リファレンス
-description: 頻繁に使用するメールテンプレートとその関連変数の例を確認します。
+description: 頻繁に使用されるメールテンプレートの例と関連変数を確認しましょう。
 exl-id: b5e49a56-4b7c-431d-bd44-e8591106fa4e
 role: Admin, User
 feature: System, Variables, Communications
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 変数リファレンス
 
-ほとんどの [&#x200B; メールテンプレート &#x200B;](email-template-custom.md) には、テンプレートに固有の [&#x200B; 事前定義済みの変数 &#x200B;](variables-predefined.md) セクションがあります。 次のリストには、頻繁に使用されるメールテンプレートとそれらに関連する変数の例が含まれています。
+ほとんどの[電子メールテンプレート &#x200B;](email-template-custom.md)には、[定義済み変数](variables-predefined.md)のセクションがあり、テンプレートに固有です。 次のリストには、頻繁に使用されるメールテンプレートの例と関連する変数が含まれています。
 
 ## メールテンプレート変数
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-## 連絡先情報変数の保存
+## 連絡先情報の変数を保存する
 
 | 変数 | マークアップタグ |
 |--- |--- |

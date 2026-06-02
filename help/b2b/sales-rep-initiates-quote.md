@@ -1,134 +1,134 @@
 ---
-title: 購買担当の見積を開始します
-description: 販売者が特定の購入者に対して見積もりを作成してネゴシエーションプロセスを開始する方法を説明します。 売り手は、選択した Web サイトの会社アカウントに関連付けられている顧客に対してのみ見積もりを送信できます。
+title: 購入者の見積の開始
+description: 特定の購入者に対して見積もりを作成し、交渉プロセスを開始する方法について説明します。 販売者は、選択したweb サイトの会社アカウントに関連付けられている顧客に対してのみ見積もりを送信できます。
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
 source-git-commit: 69396421bae610ff02b12054bdea2278a8c0efe5
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
 
-# 購買担当に対する見積の開始
+# 購入者に対する見積の開始
 
-[&#x200B; 営業機能の構成 &#x200B;](configure-quotes.md) で見積が使用可能になっている場合、営業担当者は管理者から見積を作成することで、会社の購買担当とのネゴシエーション・プロセスを開始できます。
+[販売機能の設定](configure-quotes.md)で見積もりが有効になっている場合、営業担当者は、管理者から見積もりを作成して、会社の購入者との交渉プロセスを開始できます。
 
-- ドラフトの引用符は売り手にのみ表示されます。
-- 見積の下書きは、販売担当者が品目、関連する割引、メモを追加して購入者に最初のオファーを作成するまで送信できません。
-- 販売者は、Quote または Customer Grid から見積を作成できます。
+- ドラフト見積は、販売者にのみ表示されます。
+- 見積もりのドラフトは、営業担当者が購入者の最初のオファーを作成するために商品、関連する割引、メモを追加するまで送信できません。
+- 販売者は、見積もりまたは顧客グリッドから見積もりを作成できます。
 
-営業担当が見積を購買担当に送付して、ネゴシエーション・プロセスを開始します。 [&#x200B; 見積の交渉 &#x200B;](quote-price-negotiation.md) を参照してください。
+営業担当者は、見積を購入者に送信して、交渉プロセスを開始します。 [見積の交渉](quote-price-negotiation.md)を参照してください。
 
-## 営業担当者の見積もりの作成エクスペリエンス
+## 営業担当者の見積もり作成エクスペリエンス
 
-営業担当は、見積または顧客グリッドから見積を作成できます。
+営業担当者は、「見積」または「顧客グリッド」から見積を作成できます。
 
 >[!NOTE]
 >
->購入者の見積もりを作成する販売者のビデオデモについては、_CommerceのビデオとTutorials[&#x200B; の &#x200B;](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=ja) 営業担当者が見積もりを開始_ を参照してください。
+>購入者の見積もりを作成する販売者のデモ動画については、[営業担当者が&#x200B;_Commerceのビデオとチュートリアル_&#x200B;で見積もりを開始](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=ja)するを参照してください。
 
-### 見積もりグリッドからの見積もりの作成
+### 見積グリッドから見積を作成する
 
-1. 営業担当者は、見積りを管理するために [&#x200B; 営業操作権限 &#x200B;](../systems/permissions.md) を持つ管理者として管理者にログインします。
+1. 営業担当者は、[営業業務権限](../systems/permissions.md)を持つ管理者として管理者にログインして、見積もりを管理します。
 
-1. 管理者で、「**[!UICONTROL Sales]**」を選択して [!UICONTROL Quotes] グリッドに移動し、「**[!UICONTROL Quotes]**」を選択します。
+1. 管理者で、**[!UICONTROL Sales]**&#x200B;を選択して[!UICONTROL Quotes] グリッドに移動し、**[!UICONTROL Quotes]**&#x200B;を選択します。
 
-1. 購買担当の見積を作成します。
+1. 購入者の見積もりを作成。
 
-   - 「引用符」グリッドから「**[!UICONTROL Create New Quote]**」を選択します。
+   - 見積グリッドから、**[!UICONTROL Create New Quote]**&#x200B;を選択します。
 
-     ![&#x200B; 販売者が管理者から購入者の見積りを開始する &#x200B;](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
+     ![管理者から購入者の見積もりを開始する販売者](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
 
-   - [!UICONTROL Create New Quote] ページで、見積を作成する顧客（会社の購買担当）を選択します。
+   - [!UICONTROL Create New Quote] ページで、見積もりを作成する顧客（会社バイヤー）を選択します。
 
-     ![&#x200B; 新しい見積もりのお客様を選択 &#x200B;](./assets/quote-draft-from-admin-select-buyer.png){width="700" zoomable="yes"}
+     ![新規見積の顧客を選択](./assets/quote-draft-from-admin-select-buyer.png){width="700" zoomable="yes"}
 
-     新しい見積もりが `Draft` のステータスで表示されます。
+     新しい見積もりが`Draft` ステータスで表示されます。
 
-     ![&#x200B; 販売者によって作成された新しい下書き見積 &#x200B;](./assets/quote-create-by-seller.png){width="700" zoomable="yes"}
+     ![販売者によって作成された新しい下書き見積](./assets/quote-create-by-seller.png){width="700" zoomable="yes"}
 
    - 必要に応じて、見積書名を更新し、有効期限を変更します。
 
-   - 見積もりを下書きとして保存します。
+   - 見積もりをドラフトとして保存します。
 
-## 購買担当の見積を準備します
+## バイヤーの見積もりの準備
 
-下書き見積もりを作成した後、商品品目を追加し、割引を適用し、見積もりにコメントや関連ファイルを追加して購入者と連絡を取ります。 次に、見積もりをレビュー用に購入者に送信するか、下書きとして保存します。
+見積もりを作成したら、商品アイテムを追加し、割引を適用し、コメントや関連ファイルを見積もりに追加して、購入者とコミュニケーションを取ります。 見積もりをレビュー用にバイヤーに送信するか、ドラフトとして保存します。
 
-1. 「**[!UICONTROL Add Product By SKU]**」を選択して、見積に品目を追加します。 SKU 番号と数量を入力し、「**[!UICONTROL Add Product]**」を選択します。
+1. **[!UICONTROL Add Product By SKU]**&#x200B;を選択して、見積に項目を追加します。 SKU番号と数量を入力し、**[!UICONTROL Add Product]**&#x200B;を選択します。
 
-   ![&#x200B; 売主による買主の見積書への記入事項の追加 &#x200B;](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
+   ![購入者の見積もりに項目を追加する販売者](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
 
-1. 必要に応じて、品目の値引きを製品に適用します。
+1. 必要に応じて、商品に行項目の割引を適用します。
 
-   - [!UICONTROL Select] のアクションメニューから「**[!UICONTROL Discount Item]**」を選択します。
+   - [!UICONTROL Select] アクションメニューから、**[!UICONTROL Discount Item]**&#x200B;を選択します。
 
-   - [!UICONTROL Discount Line item] フォームで、**[!UICONTROL Discount Type]** を選択します。
+   - [!UICONTROL Discount Line item] フォームで、**[!UICONTROL Discount Type]**&#x200B;を選択します。
 
-     ![&#x200B; 見積書への品目割引の適用 &#x200B;](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
+     ![見積に行項目割引を適用](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
-   - 「[!UICONTROL Discount]」フィールドに、値引タイプの値を入力します。 たとえば、パーセンテージ割引を選択した場合、10 と入力して、明細品目に 10% 割引を適用します。
+   - [!UICONTROL Discount] フィールドに、割引タイプの値を入力します。 例えば、割引率を選択した場合は、「10」と入力して、行項目に10%の割引を適用します。
 
-   - 必要に応じて、見積レベルで適用される値引によって製品価格がさらに減少しないように、明細品目値引の値をロックします。
+   - オプションで、見積レベルで適用される割引によって製品価格がさらに引き下げられないように、行項目の割引値をロックします。
 
-     変更を確認すると、製品グリッドの行項目属性が更新され、適用された割引額が表示されます。 割引がロックされている場合は、ロックアイコンが表示されます。
+     変更を確認すると、製品グリッドの行項目属性が更新され、適用された割引金額が表示されます。 割引がロックされている場合は、ロックアイコンが表示されます。
 
-   営業担当は、見積内の特定の品目からの値引きを要求できます。
+   営業担当者は、見積の特定の品目から割引を要求できます。
 
    >[!NOTE]
    >
-   >行項目の値引きの仕組みを示すビデオのデモについては、_CommerceのビデオとTutorials[&#x200B; の「営業担当が見積依頼行項目に値引きを適用する &#x200B;](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=ja) を参照してください_。
+   >行項目での割引の仕組みに関するデモ動画については、_Commerceのビデオとチュートリアル_&#x200B;の[営業担当者が見積もり行項目](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=ja)に割引を適用するを参照してください。
 
-1. 必要に応じて、見積レベルの値引きを適用します。
+1. 必要に応じて見積もりレベルの割引を適用します。
 
-   - [[!UICONTROL Quote Totals - Negotiated Price]] セクションで、割引の種類を選択し、適用する値を入力します。
+   - [!UICONTROL Quote Totals - Negotiated Price] セクションで、割引タイプを選択し、適用する値を入力します。
 
-     ![&#x200B; 販売者が見積もりレベルの割引を追加 &#x200B;](./assets/quote-draft-total-discount.png){width="700" zoomable="yes"}
+     ![販売者が見積もりレベルの割引を追加](./assets/quote-draft-total-discount.png){width="700" zoomable="yes"}
 
    商品グリッドが更新され、割引が表示されます。
 
-1. 購買担当の追加情報を追加します。
+1. 購入者の追加情報を追加します。
 
-   「**[!UICONTROL Negotiation - Comments]**」タブで、メモを追加し、バイヤーに必要なサポート・ファイルを添付します。
+   「**[!UICONTROL Negotiation - Comments]**」タブで、メモを追加し、購入者に必要なサポートファイルを添付します。
 
-   ![&#x200B; 売主が買主に対し情報を追加 &#x200B;](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
+   ![販売者が購入者の情報を追加します](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
-   デフォルトでは、[&#x200B; 添付ファイル &#x200B;](configure-quotes.md) は最大 2 MB で、次のファイル形式のいずれかで使用できます：DOC、DOCX、XLS、XLSX、PDF、TXT、JPGまたはJPEG、PNG。
+   デフォルトでは、[添付ファイル &#x200B;](configure-quotes.md)は、DOC、DOCX、XLS、XLSX、PDF、TXT、JPGまたはJPEG、PNGのいずれかのファイル形式で、最大2 MBです。
 
-1. ネゴシエーション中に配送先住所を追加します。
+1. 交渉中に配送先住所を追加します。
 
-   バイヤーが見積書に配送先住所を追加した後は、営業担当が配送と配送を選択できます。
+   購入者が見積もりに配送先住所を追加すると、営業担当者は配送と配送を選択できます。
 
    配送オプションはチェックアウト時にロックされます。
 
-   詳しくは、[My quotes](account-dashboard-my-quotes.md#adding-a-shipping-address) を参照してください。
+   詳細については、[引用符](account-dashboard-my-quotes.md#adding-a-shipping-address)を参照してください。
 
-1. 見積もりを処理します。
+1. 見積もりを処理。
 
-   見積を下書きとして保存するか、購入者に送信します。
+   見積もりを下書きとして保存するか、購入者に送信します。
 
-   - 見積を下書きとして保存すると、ステータスが `Draft` に更新され、確認メッセージが表示されます。
+   - 見積を下書きとして保存すると、ステータスが`Draft`に更新され、確認メッセージが表示されます。
 
-   - 見積を購買担当に送付すると、ステータスが「`Submitted`」に変わります。 購入者は、見積を確認するためのメール通知を受け取ります。 見積は、バイヤーが以降の交渉のために戻すまでロックされます。 販売者は、Quote グリッドまたは Customer グリッドから見積を表示できます。
+   - 見積もりを購入者に送信すると、ステータスが`Submitted`に変わります。 バイヤーは、見積もりをレビューするための通知を電子メールで受信します。 見積もりは、購入者がそれ以上の交渉のために返品するまでロックされます。 販売者は、見積グリッドまたは顧客グリッドから見積を表示できます。
 
-## 顧客グリッドからの見積の表示および作成
+## 顧客グリッドからの見積の表示と作成
 
-1. 管理者で、「**[!UICONTROL Customers]**」を選択して [!UICONTROL Customer] グリッドに移動し、「**[!UICONTROL All Customers]**」を選択します。
+1. 管理者で、**[!UICONTROL Customers]**&#x200B;を選択して[!UICONTROL Customer] グリッドに移動し、**[!UICONTROL All Customers]**&#x200B;を選択します。
 
-1. 会社バイヤーの顧客 ID を選択します。
+1. 会社バイヤーの顧客IDを選択します。
 
-   ![&#x200B; 購買担当に提出された見積草案の確認 &#x200B;](./assets/quote-view-customer-quotes.png){width="700" zoomable="yes"}
+   ![購入者に確認の下書き見積を送信しました](./assets/quote-view-customer-quotes.png){width="700" zoomable="yes"}
 
-1. 「**[!UICONTROL Edit]**」を選択すると、顧客情報が表示されます。
+1. 顧客情報を表示するには、**[!UICONTROL Edit]**&#x200B;を選択します。
 
-1. 見積もり草案を更新するプロセスに従って、**[!UICONTROL Create Quote]** を選択して作成し、顧客に送信します。
+1. 「**[!UICONTROL Create Quote]**」を選択し、プロセスに従って顧客の見積もりを作成し、見積もりを更新して顧客に送信します。
 
-1. 「**[!UICONTROL Quotes]**」を選択して、顧客の既存の見積を表示します。
+1. **[!UICONTROL Quotes]**&#x200B;を選択して、既存の見積もりを顧客に表示します。
 
-   ![&#x200B; 購買担当に提出された見積草案の確認 &#x200B;](./assets/quote-list-from-customer-information.png){width="700" zoomable="yes"}
+   ![購入者に確認の下書き見積を送信しました](./assets/quote-list-from-customer-information.png){width="700" zoomable="yes"}
 
-1. **[!UICONTROL View]** を選択して見積を開きます。
+1. **[!UICONTROL View]**&#x200B;を選択して見積を開きます。
 
-見積ネゴシエーション・プロセスの管理の詳細は、「[&#x200B; 見積の交渉 &#x200B;](quote-price-negotiation.md)」を参照してください。
+見積もり交渉プロセスの管理について詳しくは、[見積の交渉](quote-price-negotiation.md)を参照してください

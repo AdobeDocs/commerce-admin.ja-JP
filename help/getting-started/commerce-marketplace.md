@@ -5,7 +5,7 @@ exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
 source-git-commit: 9441c181a4272607d91bbaf5d410d8e433cb144f
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -28,22 +28,22 @@ ht-degree: 0%
 
 - [Adobe CommerceのI/O イベントの設定](https://developer.adobe.com/commerce/extensibility/events/)
 - [Adobe Commerceのイベントの設定](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
-- [管理者UI SDKの設定](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
-- [拡張機能をアプリに変換](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
+- [Admin UI SDKの設定](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
+- [拡張機能のアプリへの変換](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
 ### App Builderの業界トレンド
 
 - [Commerce App Builderの概要](https://developer.adobe.com/commerce/extensibility/app-development/)
-- [Adobe Developer App Builder用API メッシュの設定](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
-- [App Builder アプリケーションのデプロイ &#x200B;](https://developer.adobe.com/app-builder/docs/guides/deployment/)
-- App Builder アプリケーションの[CI/CD](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
+- [Adobe Developer App Builder用API Meshの設定](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
+- [App Builder アプリのデプロイ](https://developer.adobe.com/app-builder/docs/guides/deployment/)
+- [APP BUILDER アプリケーション用のCI/CD](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
 - App Builder/Developer Consoleの概要
-   - [App Builderの概要](https://developer.adobe.com/app-builder/docs/getting_started/)
-   - [&#x200B; プロジェクトとワークスペースについて](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
+   - [App Builderの導入方法](https://developer.adobe.com/app-builder/docs/getting_started/)
+   - [プロジェクトとワークスペースについて](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
 
 ## [!DNL Marketplace]資格情報
 
-[!DNL Commerce Marketplace]から購入した拡張機能をインストールする前に、[!DNL Commerce] アカウントにサインインし、アクティブなアクセスキーがあることを確認してください。 [!DNL Commerce][[!DNL Marketplace]または](https://marketplace.magento.com/)Magento.com[のヘッダーから](https://business.adobe.com/jp/products/magento/magento-commerce.html) アカウントにログインできます。
+[!DNL Commerce Marketplace]から購入した拡張機能をインストールする前に、[!DNL Commerce] アカウントにサインインし、アクティブなアクセスキーがあることを確認してください。 [[!DNL Marketplace]](https://marketplace.magento.com/)または[Magento.com](https://business.adobe.com/jp/products/magento/magento-commerce.html)のヘッダーから[!DNL Commerce] アカウントにログインできます。
 
 アクセスキーは、[!DNL Commerce] インストールを[!DNL Commerce] アカウントと同期し、資格情報を確認するために使用される公開鍵と秘密鍵のセットです。 アカウントが同期されたら、Commerce Marketplaceから拡張機能またはモジュールをインストールするか、[!DNL Commerce] インストールをアップグレードするたびに秘密鍵を入力する必要があります。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    ![あなたの[!DNL Marketplace] プロファイル &#x200B;](./assets/marketplace-profile.png){width="600"}
 
-1. _[!UICONTROL Marketplace]_&#x200B;の「_[!UICONTROL My Products]_」タブで、「**[!UICONTROL Access Keys]**」をクリックし、次のいずれかの操作を行います。
+1. _[!UICONTROL My Products]_&#x200B;の「_[!UICONTROL Marketplace]_」タブで、「**[!UICONTROL Access Keys]**」をクリックし、次のいずれかの操作を行います。
 
    - Marketplaceで購入用のアクセスキーが既に用意されているかどうか確認してください。 異なる目的のために、複数のアクセスキーのセットを作成できます。
 

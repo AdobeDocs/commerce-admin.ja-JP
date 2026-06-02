@@ -1,88 +1,88 @@
 ---
-title: 顧客セグメントの作成および削除
-description: お客様は、注文に関連する払い戻し情報を顧客アカウントダッシュボードで確認できます。
+title: 顧客セグメントの作成と削除
+description: 顧客は、顧客アカウントダッシュボードで、注文に関連付けられた払い戻し情報を表示できます。
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
 source-git-commit: 079aef1f4d90ecba649ac43e7cbab812da79871a
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
 
-# 顧客セグメントの作成および削除
+# 顧客セグメントの作成と削除
 
 {{ee-feature}}
 
-顧客セグメントの作成は、オプションに [&#x200B; 顧客セグメント固有の属性 &#x200B;](../merchandising-promotions/price-rules-cart.md) が含まれることを除けば、[&#x200B; 買い物かご価格ルール &#x200B;](../customers/customer-segments.md) の作成に似ています。
+顧客セグメントの作成は、[買い物かご価格ルール &#x200B;](../merchandising-promotions/price-rules-cart.md)の作成に似ていますが、オプションには[顧客セグメント固有の属性](../customers/customer-segments.md)が含まれます。
 
-![&#x200B; 顧客セグメントリスト &#x200B;](assets/customer-segments.png){width="700" zoomable="yes"}
+![顧客セグメントリスト &#x200B;](assets/customer-segments.png){width="700" zoomable="yes"}
 
 _&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 
 | 列 | 説明 |
 |--- |--- |
-| **[!UICONTROL ID]** | 顧客セグメントの一意の ID。 |
-| **[!UICONTROL Segment]** | 顧客セグメントの名前。 |
-| **[!UICONTROL Status]** | 顧客セグメントが _[!UICONTROL Active]_&#x200B;か&#x200B;_[!UICONTROL Inactive]_ かを示します。 |
-| **[!UICONTROL Website]** | 顧客セグメントが属する web サイトを示します。 |
+| **[!UICONTROL ID]** | 顧客セグメントの一意のID |
+| **[!UICONTROL Segment]** | 顧客セグメント名。 |
+| **[!UICONTROL Status]** | 顧客セグメントが&#x200B;_[!UICONTROL Active]_&#x200B;か_[!UICONTROL Inactive]_&#x200B;かを示します。 |
+| **[!UICONTROL Website]** | 顧客セグメントが属するweb サイトを示します。 |
 
 {style="table-layout:auto"}
 
 ## 前提条件：顧客セグメントを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Customer Configuration]**」を選択します。
+1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Customer Configuration]**&#x200B;を選択します。
 
-1. 「**[!UICONTROL Customer Segments]**」セクションを展開します。
+1. **[!UICONTROL Customer Segments]** セクションを展開します。
 
-1. **[!UICONTROL Enable Customer Segment Functionality]** が `Yes` に設定されていることを確認します。
+1. **[!UICONTROL Enable Customer Segment Functionality]**&#x200B;が`Yes`に設定されていることを確認します。
 
-   ![&#x200B; 顧客設定 – 顧客セグメント &#x200B;](../configuration-reference/customers/assets/customer-configuration-customer-segments.png){width="600" zoomable="yes"}
+   ![顧客設定 – 顧客セグメント &#x200B;](../configuration-reference/customers/assets/customer-configuration-customer-segments.png){width="600" zoomable="yes"}
 
-1. （任意）顧客セグメントのリアルタイム検証を無効にするには、**[!UICONTROL Real-time Check if Customer is Matched by Segment]** を `No` に設定します。
+1. （オプション）顧客セグメントのリアルタイム検証を無効にするには、**[!UICONTROL Real-time Check if Customer is Matched by Segment]**&#x200B;を`No`に設定します。
 
-   リアルタイム検証を無効にすると、顧客セグメントは、単一の組み合わせ条件 SQL クエリによって検証されます。 この機能を無効にすると、システム内に多数の顧客セグメントがある場合に、セグメント検証のパフォーマンスが向上します。 ただし、分割データベースを使用している場合や、登録済みの顧客が存在しない場合は、検証は機能しません。
+   リアルタイム検証を無効にすると、顧客セグメントは、単一の複合条件SQL クエリによって検証されます。 この機能を無効にすると、システムに顧客セグメントが多い場合に、セグメント検証のパフォーマンスが向上します。 ただし、検証は、分割データベースや登録済みの顧客がない場合には機能しません。
 
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
 ## セグメントの作成
 
-以下の手順では、ロサンゼルスの女性の顧客をターゲットとする顧客セグメントを作成する例を使用します。
+次の手順では、ロサンゼルスの女性顧客をターゲットとする顧客セグメントを作成する例を示します。
 
-### 手順 1：顧客セグメントの追加
+### 手順1：顧客セグメントの追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL Segments]** に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL Segments]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Segment]**」をクリックします。
 
-1. 管理者で作業する際の顧客セグメントを識別する **[!UICONTROL Segment Name]** を入力します。
+1. 管理者で作業する際に顧客セグメントを識別する&#x200B;**[!UICONTROL Segment Name]**&#x200B;を入力します。
 
-1. セグメントの目的を説明する簡単な **[!UICONTROL Description]** を入力します。
+1. セグメントの目的を説明する概要&#x200B;**[!UICONTROL Description]**&#x200B;を入力します。
 
-1. 顧客セグメントを使用できる web サイトの **[!UICONTROL Assigned to Website]** を設定します。
+1. 顧客セグメントを使用できるWeb サイトに&#x200B;**[!UICONTROL Assigned to Website]**&#x200B;を設定します。
 
-1. **[!UICONTROL Status]** を _アクティブ_ または _非アクティブ_ に設定します。
+1. **[!UICONTROL Status]**&#x200B;を&#x200B;_アクティブ_&#x200B;または&#x200B;_非アクティブ_&#x200B;に設定します。
 
-1. セグメントの適用に使用する顧客タイプを識別するには、**[!UICONTROL Apply to]** を次のいずれかに設定します。
+1. セグメントの適用に使用する顧客タイプを特定するには、**[!UICONTROL Apply to]**&#x200B;を次のいずれかに設定します。
 
    - `Visitors and Registered Customers` - アカウントにログインしているかどうかに関係なく、すべての買い物客が含まれます。
-   - `Registered Customers` - アカウントにログインしている買い物客のみを含めます。
-   - `Visitors` - アカウントにログインしていない買い物客のみを含めます。
+   - `Registered Customers` - アカウントにログインしている買い物客のみが含まれます。
+   - `Visitors` - アカウントにログインしていない買い物客のみが含まれます。
 
    >[!TIP]
    >
-   >顧客アカウントに保存された顧客属性に基づいてセグメントを作成する場合は、登録済みの顧客にのみセグメントを適用することをお勧めします。
+   >顧客アカウントに保存されている顧客属性に基づいてセグメントを作成する場合は、登録された顧客にのみセグメントを適用することをお勧めします。
 
    >[!NOTE]
    >
-   > セグメントが `Visitors and Registered Customers` に適用される場合、[!UICONTROL Matched Customers] には `Registered Customers` のみが表示されます。 これは、訪問者に適用される条件に基づいて訪問者をターゲットにできる場合でも当てはまります。 セグメント `Visitors` みの場合、`Matched Customers` タブは表示されません。
+   > セグメントが`Visitors and Registered Customers`に適用される場合、[!UICONTROL Matched Customers]には`Registered Customers`のみが表示されます。 これは、訪問者に適用される条件に基づいて訪問者をターゲットにできる場合でも同様です。 `Visitors`個のセグメントの場合、「`Matched Customers`」タブは表示されません。
 
 
-1. 「**[!UICONTROL Save and Continue Edit]**」をクリックします。
+1. **[!UICONTROL Save and Continue Edit]**&#x200B;をクリックします。
 
-   セグメント _[!UICONTROL General Properties]_&#x200B;を保存すると、左パネルで追加のオプションが使用できるようになります。
+   セグメント _[!UICONTROL General Properties]_&#x200B;を保存すると、左側のパネルに追加のオプションが表示されます。
 
    ![&#x200B; セグメントのプロパティ &#x200B;](assets/customer-segment-saved.png){width="600" zoomable="yes"}
 
@@ -92,116 +92,116 @@ _&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 |--- |---|
 | **[!UICONTROL Segment Name]** | 内部参照用のセグメントを識別する名前。 |
 | **[!UICONTROL Description]** | 内部参照用のセグメントの目的を説明する簡単な説明。 |
-| **[!UICONTROL Assigned to Website]** | セグメントを使用できる単一の web サイト。 |
-| **[!UICONTROL Status]** | セグメントをアクティブ化または非アクティブ化します。 関連する価格ルールとバナーは、セグメントが無効になると非アクティブになります。 オプション：`Active` / `Inactive` |
-| **[!UICONTROL Apply to]** | セグメントを適用する顧客タイプを定義します。 選択は、セグメントの作成に使用できる一連の条件に影響を与えます。 セグメントを保存した後は、設定を変更できません。 |
+| **[!UICONTROL Assigned to Website]** | セグメントを使用できる単一のweb サイト。 |
+| **[!UICONTROL Status]** | セグメントをアクティブ化および非アクティブ化します。 セグメントが無効になっている場合、関連する価格ルールとバナーは無効になります。 オプション：`Active` / `Inactive` |
+| **[!UICONTROL Apply to]** | セグメントを適用する顧客タイプを定義します。 選択は、セグメントの作成に使用できる条件のセットに影響します。 セグメントを保存した後は、設定を変更できません。 |
 
 {style="table-layout:auto"}
 
-### 手順 2：条件の定義
+### 手順2：条件の定義
 
 >[!NOTE]
 >
-> 訪問者の場合は、次の条件のみを適用できます：買い物かごの条件（買い物かごの小計額、買い物かごの行項目、買い物かごの製品数）、製品ルール（買い物かごや製品履歴で見つかった製品）、およびこれらの項目の組み合わせ。 あるセグメントが訪問者と登録済み顧客の両方に適用される必要がある場合、訪問者はリストに表示された条件にのみ基づいて追跡されます。
+> 買い物かごの条件（買い物かご小計、買い物かご商品、買い物かご商品の数量）、商品ルール（買い物かご内の商品および商品履歴）、およびこれらの商品の組み合わせのみが適用されます。 訪問者と登録済み顧客の両方にセグメントを適用する必要がある場合、訪問者はリストされた条件のみに基づいて追跡されます。
 
 可能な条件は、次のグループに整理されています。
 
 | グループ | 説明 |
 |--- |--- |
-| **[!UICONTROL Customer]** | 顧客アカウント属性に基づく条件。 セグメントが登録済み顧客に適用される場合にのみ使用できます。 |
-| **[!UICONTROL Shopping Cart]** | 買い物かごの内容に基づく条件。 これらの条件は、すべてのセグメントタイプで使用できます。 |
-| **[!UICONTROL Products]** | 買い物かご内の製品または製品閲覧履歴に基づく条件。 これらの条件は、すべてのセグメントタイプで使用できます。 |
-| **[!UICONTROL **Sales]** | 完了済み注文に基づく条件。 セグメントが登録済み顧客に適用される場合にのみ使用できます。 |
+| **[!UICONTROL Customer]** | 顧客アカウントの属性にもとづく条件。 セグメントが登録済みの顧客に適用される場合にのみ使用できます。 |
+| **[!UICONTROL Shopping Cart]** | ショッピングカートの内容に基づく条件。 これらの条件はすべてのセグメントタイプで使用できます。 |
+| **[!UICONTROL Products]** | ショッピングカート内の商品や商品の閲覧履歴にもとづく条件。 これらの条件はすべてのセグメントタイプで使用できます。 |
+| **[!UICONTROL **Sales]** | 完了した注文に基づく条件。 セグメントが登録済みの顧客に適用される場合にのみ使用できます。 |
 
-1. 左側のウィンドウで、[**[!UICONTROL Conditions]**] をクリックします。
+1. 左側のウィンドウで、**[!UICONTROL Conditions]**&#x200B;をクリックします。
 
-   デフォルトの条件はページの _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;で始まります。
+   デフォルトの条件は、ページの&#x200B;_[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;から始まります。
 
-   ![&#x200B; 条件 &#x200B;](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
+   ![条件](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
-1. 女性の顧客をターゲットにする条件を作成します。
+1. 女性顧客をターゲットとする条件を作成します。
 
-   - **[!UICONTROL Add]** アイコンをクリックして条件のリストを表示し、「`Gender`」を選択します。
+   - **[!UICONTROL Add]** アイコンをクリックして条件のリストを表示し、`Gender`を選択します。
 
-   - デフォルトの **is** 条件制御オプションはそのままにしておきます。
+   - デフォルトの&#x200B;**is**&#x200B;条件制御オプションを残します。
 
-   - 「**...**」をクリックし、「`female`」を選択します。
+   - **...**&#x200B;をクリックし、`female`を選択します。
 
-   ![&#x200B; 条件 1 行目 &#x200B;](assets/customer-segment-condition-line1.png){width="600" zoomable="yes"}
+   ![条件行1](assets/customer-segment-condition-line1.png){width="600" zoomable="yes"}
 
-1. ロサンゼルスの住民をターゲットにするもう 1 つの条件を作成します。
+1. ロサンゼルス在住の方を対象とした条件を作成します。
 
-   - 次の行で、「**[!UICONTROL Add]**」アイコンをクリックし、「`Customer Address`」を選択します。
+   - 次の行で、**[!UICONTROL Add]** アイコンをクリックし、`Customer Address`を選択します。
 
-     このアクションにより、一致する 1 つ以上のアドレスフィールドを定義できる親条件が作成されます。
+     このアクションは、一致する1つ以上のアドレスフィールドを定義できる親条件を作成します。
 
-   - **[!UICONTROL Add]** アイコンをクリックしてアドレスフィールドのリストを表示し、「`City`」を選択します。
+   - **[!UICONTROL Add]** アイコンをクリックしてアドレス フィールドのリストを表示し、`City`を選択します。
 
-   - 「**is**」をクリックして条件制御オプションを表示し、`contains` を選択します。
+   - **is**&#x200B;をクリックして、条件制御オプションを表示し、`contains`を選択します。
 
-   - 「**...**」をクリックし、`Los Angeles` と入力します。
+   - 「**...**」をクリックし、`Los Angeles`と入力します。
 
-   - 次の行で、「**[!UICONTROL Add]**」アイコンをクリックし、「`State/Province`」を選択します。
+   - 次の行で、**[!UICONTROL Add]** アイコンをクリックし、`State/Province`を選択します。
 
-   - デフォルトの **is** 条件制御オプションはそのままにしておきます。
+   - デフォルトの&#x200B;**is**&#x200B;条件制御オプションを残します。
 
-   - 「**...**」をクリックし、「`United States > California`」を選択します。
+   - **...**&#x200B;をクリックし、`United States > California`を選択します。
 
-   ![&#x200B; カリフォルニア州ロサンゼルスの女性の条件 &#x200B;](assets/customer-segment-conditions-la-ladies.png){width="600" zoomable="yes"}
+   ![&#x200B; カリフォルニア州ロサンゼルスの女性の条件](assets/customer-segment-conditions-la-ladies.png){width="600" zoomable="yes"}
 
-1. 「**[!UICONTROL Save and Continue Edit]**」をクリックします。
+1. **[!UICONTROL Save and Continue Edit]**&#x200B;をクリックします。
 
-### 手順 3：一致した顧客のリストの確認
+### 手順3：一致した顧客のリストの確認
 
-1. 左側のウィンドウで、[**[!UICONTROL Matched Customers]**] をクリックすると、条件に一致するすべての顧客が表示されます。
+1. 左側のウィンドウで、**[!UICONTROL Matched Customers]**&#x200B;をクリックして、条件に一致するすべての顧客を表示します。
 
-   ![&#x200B; マッチした顧客 &#x200B;](assets/customer-segment-matched-customers.png){width="600" zoomable="yes"}
+   ![一致した顧客](assets/customer-segment-matched-customers.png){width="600" zoomable="yes"}
 
-1. 顧客のリストが目標を満たしている場合は、「**[!UICONTROL Save]**」をクリックして顧客セグメントを完了します。
+1. 顧客のリストが目標を達成した場合は、**[!UICONTROL Save]**&#x200B;をクリックして顧客セグメントを完了します。
 
-1. 顧客セグメントを使用して、プロモーション、コンテンツ、メールのターゲティングを行えるようになりました。
+1. 顧客セグメントを、ターゲティングプロモーション、コンテンツ、郵送に使用できるようになりました。
 
 _&#x200B;**[!UICONTROL Matched Customers]グリッド&#x200B;**&#x200B;_
 
 | 列 | 説明 |
 |--- |--- |
-| **[!UICONTROL ID]** | 登録済みの顧客の顧客 ID。 |
-| **[!UICONTROL Name]** | 登録された顧客の名前。 |
-| **[!UICONTROL Email]** | 登録された顧客の電子メールアドレス。 |
+| **[!UICONTROL ID]** | 登録済み顧客の顧客ID。 |
+| **[!UICONTROL Name]** | 登録済みの顧客の名前。 |
+| **[!UICONTROL Email]** | 登録済みのお客様の電子メールアドレス。 |
 | **[!UICONTROL Group]** | 顧客が割り当てられている顧客グループ。 |
 | **[!UICONTROL Phone]** | 顧客の電話番号。 |
-| **[!UICONTROL ZIP]** | 顧客の郵便番号。 |
+| **[!UICONTROL ZIP]** | お客様の郵便番号。 |
 | **[!UICONTROL Country]** | 顧客が所在する国。 |
-| **[!UICONTROL State / Province]** | 顧客が所在する都道府県。 |
+| **[!UICONTROL State / Province]** | 顧客が所在する州または都道府県。 |
 | **[!UICONTROL Customer Since]** | 顧客アカウントが作成された日時。 |
 
 {style="table-layout:auto"}
 
 ## 顧客セグメントの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL Segments]** に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL Segments]**&#x200B;に移動します。
 
 1. 削除するセグメントを見つけて選択します。
 
-1. メニューバーで、「」ボタン **[!UICONTROL Delete]** クリックします。
+1. メニューバーで、**[!UICONTROL Delete]** ボタンをクリックします。
 
-1. アクションを確定するには、「**[!UICONTROL OK]**」をクリックします。
+1. アクションを確認するには、**[!UICONTROL OK]**&#x200B;をクリックします。
 
 ## ボタンバー
 
 | ボタン | 説明 |
 |--- |--- |
-| **[!UICONTROL Back]** | 変更を保存せずに _[!UICONTROL Customer Segments]_&#x200B;ページに戻ります。 |
-| **[!UICONTROL Delete]** | 現在の顧客セグメントを削除します。 セグメント内の顧客に関連付けられている顧客または完了済み注文は削除されません。 |
-| **[!UICONTROL Reset]** | 顧客セグメントフォーム内の未保存の変更を以前の値にリセットします。 |
-| **[!UICONTROL Refresh Segment Data]** | セグメントデータを最近保存した値に更新します。 使用できないセグメントデータや古いセグメントデータがある場合に関連します。 |
-| **[!UICONTROL Save and Continue Edit]** | 変更を保存し、顧客セグメントを開いたままにします。 |
+| **[!UICONTROL Back]** | 変更を保存せずに&#x200B;_[!UICONTROL Customer Segments]_&#x200B;ページに戻ります。 |
+| **[!UICONTROL Delete]** | 現在の顧客セグメントを削除します。 セグメント内の顧客に関連付けられている顧客または完了した注文は削除されません。 |
+| **[!UICONTROL Reset]** | 顧客セグメントフォームの未保存の変更を以前の値にリセットします。 |
+| **[!UICONTROL Refresh Segment Data]** | セグメントデータを直近に保存された値に更新します。 セグメントデータが利用できないか、古い場合に関連します。 |
+| **[!UICONTROL Save and Continue Edit]** | 変更を保存し、顧客セグメントをオープンな状態に保ちます。 |
 | **[!UICONTROL Save]** | 変更を保存し、顧客セグメントを閉じます。 |
 
 {style="table-layout:auto"}
 
 ## 顧客セグメントのデモ
 
-顧客セグメントの作成に関するデモについては、このビデオをご覧ください。
+顧客セグメントの作成方法については、次の動画をご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410191/?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3410191/?captions=jpn&quality=12&learn=on)

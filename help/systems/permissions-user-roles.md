@@ -5,7 +5,7 @@ exl-id: a70f74d4-72b4-4639-a67d-9fc13df65924
 feature: Admin Workspace, Roles/Permissions, Security
 source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Sales / Archive]**、_[!UICONTROL Invoices]_&#x200B;および&#x200B;_[!UICONTROL Credit Memos]_&#x200B;件の順序&#x200B;_[!UICONTROL Shipments]_&#x200B;タブ [を表示するには、管理者ユーザーが役割の範囲に対して](../stores-purchase/order-processing.md)権限を持っている必要があります。
+   >_[!UICONTROL Invoices]_、_[!UICONTROL Credit Memos]_&#x200B;および&#x200B;_[!UICONTROL Shipments]_&#x200B;件の順序[&#x200B; タブ &#x200B;](../stores-purchase/order-processing.md)を表示するには、管理者ユーザーが役割の範囲に対して&#x200B;**[!UICONTROL Sales / Archive]**&#x200B;権限を持っている必要があります。
 
 1. 完了したら、**[!UICONTROL Save Role]**&#x200B;をクリックします。
 

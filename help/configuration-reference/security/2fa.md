@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
-description: Commerce Admin の [!UICONTROL Security] &gt; [!UICONTROL 2FA] ページで設定を確認します。
+title: '[!UICONTROL Security] > [!UICONTROL 2FA]'
+description: Commerce管理者の[!UICONTROL Security] > [!UICONTROL 2FA] ページで設定を確認します。
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
 source-git-commit: 22bfff98a9189f3020de21b31705351510dcf1be
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '338'
 ht-degree: 1%
 
 ---
@@ -14,22 +14,22 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Adobe Identity Management サービス（IMS）認証を有効にしているストアでは、ネイティブのAdobe CommerceおよびMagento Open Source二要素認証（2FA）が無効になっています。 Adobe資格情報を使用してAdobe Commerce インスタンスにログインしている管理者ユーザーは、多くの管理タスクで再認証する必要はありません。 Adobe IMSは、管理者ユーザーが現在のセッションにログインする際に認証を処理します。 [Adobe CommerceとAdobe IMSの統合：概要 &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=ja) を参照してください。
+>Adobe Identity Management サービス（IMS）認証を有効にしているストアでは、ネイティブ Adobe CommerceとMagento Open Sourceの2要素認証（2FA）が無効になっています。 Adobeの資格情報を使用してAdobe Commerce インスタンスにログインしている管理者ユーザーは、多くの管理者タスクで再認証を行う必要はありません。 認証は、管理者ユーザーが現在のセッションにログインしたときにAdobe IMSによって処理されます。 [Adobe CommerceとAdobe IMSの統合の概要](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=ja)を参照してください。
 
 {{config}}
 
-これらの設定の変更について詳しくは、『 [&#x200B; 管理システムガイド _の &#x200B;](../../systems/security-two-factor-authentication.md)2 要素認証（2FA）_ を参照してください。
+これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の[二段階認証（2FA） &#x200B;](../../systems/security-two-factor-authentication.md)を参照してください。
 
 ## [!UICONTROL General]
 
-![&#x200B; 一般 &#x200B;](./assets/2fa-general.png)<!-- zoom -->
+![一般](./assets/2fa-general.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Providers to use] | グローバル | 必要な 2 要素認証方式を示します。 複数のプロバイダを選択した場合、各ユーザーは次回ログイン時に各 2FA メソッドを構成する必要があります。 |
-| [!UICONTROL Configuration Email URL for Web API] | グローバル | カスタム実装の場合、最初のログイン時に _管理者_ ユーザーに送信される代替メール設定リンクの URL です。 メールテンプレートで、プレースホルダー `:tfat` を使用して、トークンの挿入場所を示します。 |
-| [!UICONTROL Retry attempt limit for Two-Factor Authentication] | グローバル | アカウントが一時的に無効になるまでに管理者が [!DNL one-time password (OTP)] を入力できる回数を決定します。 デフォルト：`10` |
-| [!UICONTROL Two-Factor Authentication lockout time (seconds)] | グローバル | アカウントが一時的に無効になるまでに、管理者が [!DNL one-time password (OTP)] ールを入力するのを待つ時間（秒）を決定します。 デフォルト：`300` |
+| [!UICONTROL Providers to use] | グローバル | 必要な2要素認証方法を示します。 複数のプロバイダーを選択した場合、各ユーザーは次回ログイン時に各2FA メソッドを設定する必要があります。 |
+| [!UICONTROL Configuration Email URL for Web API] | グローバル | カスタム実装の場合、最初のログイン時に&#x200B;_管理者_ ユーザーに送信される代替メール設定リンクのURL。 メールテンプレートで、プレースホルダー`:tfat`を使用して、トークンが挿入される場所を示します。 |
+| [!UICONTROL Retry attempt limit for Two-Factor Authentication] | グローバル | 管理者がアカウントを一時的に無効にする前に[!DNL one-time password (OTP)]を入力できる回数を指定します。 既定：`10` |
+| [!UICONTROL Two-Factor Authentication lockout time (seconds)] | グローバル | 管理者がアカウントを一時的に無効にするまで[!DNL one-time password (OTP)]の入力を待つことができる時間（秒単位）を指定します。 既定：`300` |
 
 {style="table-layout:auto"}
 
@@ -37,9 +37,9 @@ ht-degree: 1%
 
 ![Google](./assets/2fa-google.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL OTP Window] | グローバル | システムが管理者の [!DNL one-time-password (OTP)] ールの有効期限が切れてから受け入れる時間（秒）を決定します。 単一の OTP の有効期間（通常は 30 秒）よりも長くすることはできません。 デフォルト：`29` |
+| [!UICONTROL OTP Window] | グローバル | システムが管理者の[!DNL one-time-password (OTP)]の有効期限を過ぎてからシステムが受け入れる時間（秒単位）を決定します。 1つのOTPの有効期間（通常は30秒）より長くすることはできません。 既定：`29` |
 
 {style="table-layout:auto"}
 
@@ -47,13 +47,13 @@ ht-degree: 1%
 
 ![Duo セキュリティ &#x200B;](./assets/2fa-duo-security.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Client Id] | グローバル | [!DNL Duo Security] アカウントのクライアント ID。 |
 | [!UICONTROL Client Secret] | グローバル | [!DNL Duo Security] アカウントのクライアント秘密鍵。 |
-| [!UICONTROL Integration Key] | グローバル | [!DNL Duo Security] API アカウントからの統合キー。 |
+| [!UICONTROL Integration Key] | グローバル | [!DNL Duo Security] API アカウントの統合キー。 |
 | [!UICONTROL Secret Key] | グローバル | [!DNL Duo Security] API アカウントの秘密鍵。 |
-| [!UICONTROL API Hostname] | グローバル | [!DNL Duo Security] アカウントの API ホスト名。 |
+| [!UICONTROL API Hostname] | グローバル | [!DNL Duo Security] アカウントのAPI ホスト名。 |
 
 {style="table-layout:auto"}
 
@@ -61,19 +61,19 @@ ht-degree: 1%
 
 ![Authy](./assets/2fa-authy.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL API Key] | グローバル | [!DNL Authy] アカウントからの API キー。 |
-| [!UICONTROL OneTouch Message] | グローバル | ログイン時に [!DNL Authy] 認証システムに表示されるメッセージです。 デフォルト：`Login request to your Magento Admin` |
+| [!UICONTROL API Key] | グローバル | [!DNL Authy] アカウントのAPI キー。 |
+| [!UICONTROL OneTouch Message] | グローバル | ログイン時に[!DNL Authy]認証者に表示されるメッセージ。 既定：`Login request to your Magento Admin` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL U2F Key]
 
-![U2F キー &#x200B;](./assets/2fa-u2f-key.png)<!-- zoom -->
+![U2F キー](./assets/2fa-u2f-key.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL WebApi Challenge Domain] | グローバル | カスタム WebAPI 実装の課題の発行と処理 [!DNL WebAuthn] 使用されるドメイン。 |
+| [!UICONTROL WebApi Challenge Domain] | グローバル | カスタム WebAPI実装の[!DNL WebAuthn]の課題を発行および処理するために使用されるドメイン。 |
 
 {style="table-layout:auto"}
