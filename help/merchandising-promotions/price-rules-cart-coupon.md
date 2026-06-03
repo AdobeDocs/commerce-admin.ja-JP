@@ -73,7 +73,7 @@ Commerceでは、デフォルトで、クーポンコードを作成するため
 
 >[!NOTE]
 >
->[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} クーポンを作成する前に、`bin/magento cron:run` コマンドを使用して、cronが実行されていることを確認します。 詳しくは、_設定ガイド_&#x200B;の「[&#x200B; コマンドラインからcronを実行する](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)」を参照してください。
+>[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} クーポンを作成する前に、`bin/magento cron:run` コマンドを使用して、cronが実行されていることを確認します。 詳しくは、_設定ガイド_&#x200B;の「[&#x200B; コマンドラインからcronを実行する](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ja#run-cron-from-the-command-line)」を参照してください。
 
 ### 方法1：特定のクーポンを作成する
 
@@ -183,7 +183,7 @@ Commerceでは、デフォルトで、クーポンコードを作成するため
 
 ### 方法3：カスタムクーポンコード
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
 
 [&#x200B; カート価格ルール &#x200B;](price-rules-cart.md)を作成した後、ルールにカスタムクーポンコードを手動で追加できます。
 
