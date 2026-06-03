@@ -3,9 +3,9 @@ title: クーポンコード
 description: カートの価格ルールでクーポンコードを使用して、一連の条件が満たされたときに割引を適用する方法を説明します。
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 9ba2b4f7847559e2c59c7bec3b87781c12270712
+source-git-commit: 5aad8247242294c42c36378a743f747dcd73647c
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '2338'
 ht-degree: 0%
 
 ---
@@ -180,6 +180,69 @@ Commerceでは、デフォルトで、クーポンコードを作成するため
 ファイル形式を選択して&#x200B;**[!UICONTROL Export]**&#x200B;をクリックすると、クーポンコードをCSVまたはExcel XML ファイルに書き出すことができます。
 
 クーポンコードを削除するには、リストから1つ以上のコードを選択します。 **[!UICONTROL Actions]** セレクターから`Delete`を選択し、**[!UICONTROL Submit]**&#x200B;をクリックします。
+
+### 方法3：カスタムクーポンコード
+
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
+
+[&#x200B; カート価格ルール &#x200B;](price-rules-cart.md)を作成した後、ルールにカスタムクーポンコードを手動で追加できます。
+
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;に移動し、カスタムクーポンコードを追加するルールを選択します。
+
+1. **[!UICONTROL Manage Coupon Codes]** セクションを展開し、**[!UICONTROL Add Coupon Code]**&#x200B;をクリックします。
+
+   ![&#x200B; カスタムクーポンコード &#x200B;](./assets/custom-coupon-codes.png){width="600" zoomable="yes"}
+
+1. **[!UICONTROL Add Custom Coupon]** ダイアログで、カート価格ルールに使用するクーポンコードを入力し、**[!UICONTROL Save]**&#x200B;をクリックします。
+
+   ![&#x200B; クーポンコードを追加](./assets/add-custom-coupon.png){width="600" zoomable="yes"}
+
+1. **[!UICONTROL Save]**&#x200B;をクリックして、買い物かごの価格ルールを更新します。
+
+カスタムクーポンコードを削除するには、グリッドで削除するコードを選択し、**[!UICONTROL Actions]** セレクターから&#x200B;**[!UICONTROL Delete]**&#x200B;を選択します。
+
+カスタムクーポンコードを編集したり、使用状況の詳細を確認したりするには、**[!UICONTROL Actions]**&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
+
+&lt;InlineAlert variant="info" slots="text"/>
+
+カート価格ルールに属するメインのクーポンコードは、編集または削除できません。
+
+![&#x200B; クーポンコードを編集](./assets/edit-coupon-code.png){width="600" zoomable="yes"}
+
+#### カスタムクーポンコードの一括インポート
+
+あらかじめ定義されたクーポンコードのリストがある場合は、各コードを個別に追加するのではなく、CSV ファイルからカート価格ルールに添付することができます。 CSV ファイルは、クーポンコードを含む1つの列で構成する必要があります。
+
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;に移動し、カスタムクーポンコードを読み込むルールを選択します。
+
+1. **[!UICONTROL Manage Coupon Codes]** セクションを展開し、**[!UICONTROL Import]**&#x200B;をクリックします。
+
+   >[!NOTE]
+   >
+   >**[!UICONTROL Import]** ボタンは、**[!UICONTROL Coupon]**&#x200B;が`Specific Coupon`に設定され、**[!UICONTROL Use Auto Generation]**&#x200B;がオフになっている保存されたカート価格ルールで使用できます。
+
+1. **[!UICONTROL Import Coupons]** ダイアログで、**[!UICONTROL Choose File]**&#x200B;をクリックし、読み込むクーポンコードを含むCSV ファイルを選択します。
+
+   CSV ファイルは、次の要件を満たす必要があります。
+
+   | 要件 | 値 |
+   | ------------- | ------- |
+   | ファイルあたりの最大コード数 | 1,000 |
+   | 最大ファイルサイズ | 512 KB |
+   | コードの最大長 | 255文字/コード |
+   | 重複したコード | 同じファイル内では許可されていません |
+
+   {style="table-layout:auto"}
+
+   ファイルを選択すると、読み込む準備ができているコードの数と、ファイルの最初のコードのサンプルを示す&#x200B;**[!UICONTROL Preview]**&#x200B;がダイアログに表示されます。
+
+   ![&#x200B; クーポンのインポート ダイアログ &#x200B;](./assets/import-custom-coupons.png){width="600" zoomable="yes"}
+
+1. **[!UICONTROL Import]**&#x200B;をクリックします。 このダイアログには、インポート用にキューに入れられたコードの数と、スキップされた既存のコードのリストが表示されます。
+
+   ![&#x200B; クーポン結果の読み込み](./assets/import-coupons-result.png){width="600" zoomable="yes"}
+
+インポートの進行状況と詳細な結果を監視するには、**[!UICONTROL View progress in Bulk Actions Log]**&#x200B;をクリックするか、**[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**&#x200B;に移動します。 各インポートは、**[!UICONTROL Bulk Actions]**&#x200B;に1つのエントリとして表示され、エントリを選択します。
 
 ## クーポンレポート
 
