@@ -3,7 +3,7 @@ title: クーポンコード
 description: カートの価格ルールでクーポンコードを使用して、一連の条件が満たされたときに割引を適用する方法を説明します。
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 5aad8247242294c42c36378a743f747dcd73647c
+source-git-commit: d3f6c3468fa63068018e854820e932b897f925bd
 workflow-type: tm+mt
 source-wordcount: '2338'
 ht-degree: 0%
@@ -226,7 +226,7 @@ Commerceでは、デフォルトで、クーポンコードを作成するため
    CSV ファイルは、次の要件を満たす必要があります。
 
    | 要件 | 値 |
-   | ------------- | ------- |
+   |-------------|-------|
    | ファイルあたりの最大コード数 | 1,000 |
    | 最大ファイルサイズ | 512 KB |
    | コードの最大長 | 255文字/コード |
