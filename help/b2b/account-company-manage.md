@@ -230,7 +230,7 @@ _[!UICONTROL Companies]_&#x200B;ページには、ステータスに関係なく
 
 このビデオを見て、会社アカウントの管理について学ぶことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410773?captions=jpn&quality=12&learn=on)
 
 ## 企業管理
 

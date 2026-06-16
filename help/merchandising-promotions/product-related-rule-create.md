@@ -99,7 +99,7 @@ ht-degree: 0%
 
 関連製品のルール設定について詳しくは、次の動画をご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343837?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411064?captions=jpn&quality=12&learn=on)
 
 ## フィールドの説明
 

@@ -112,7 +112,7 @@ ht-degree: 0%
 
 ウィジェットの作成について詳しくは、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411058?captions=jpn&quality=12&learn=on)
 
 ## ウィジェットの編集
 

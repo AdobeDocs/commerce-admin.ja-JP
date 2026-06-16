@@ -189,4 +189,4 @@ ht-degree: 0%
 
 顧客属性の作成方法については、次の動画をご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410186?captions=jpn&quality=12&learn=on)

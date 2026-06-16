@@ -218,4 +218,4 @@ _&#x200B;**[!UICONTROL Matched Customers]グリッド&#x200B;**&#x200B;_
 
 顧客セグメントの作成方法については、次の動画をご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410191/?captions=jpn&quality=12&learn=on)

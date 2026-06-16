@@ -68,7 +68,7 @@ Adobe Commerceでは、URL書き換えツールは、デフォルトで永続的
 
 URL書き換えの管理について詳しくは、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410126?captions=jpn&quality=12&learn=on)
 
 ## URLの書き換えを作成
 

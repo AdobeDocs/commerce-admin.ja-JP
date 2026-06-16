@@ -80,4 +80,4 @@ ht-degree: 0%
 
 Inventory managementのソースとストックについて詳しくは、このビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410198?captions=jpn&quality=12&learn=on)

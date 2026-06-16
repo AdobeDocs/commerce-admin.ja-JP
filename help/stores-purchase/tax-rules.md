@@ -107,4 +107,4 @@ ht-degree: 0%
 
 次のビデオを見て、通貨と税ルールの管理について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410213/?captions=jpn&quality=12&learn=on)

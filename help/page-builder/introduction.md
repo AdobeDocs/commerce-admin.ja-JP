@@ -48,4 +48,4 @@ ht-degree: 0%
 
 ページビルダー機能について詳しくは、次の動画をご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343781?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447890?captions=jpn&quality=12&learn=on)

@@ -101,4 +101,4 @@ _テンプレートを適用_ グリッドと&#x200B;_テンプレート_ ペー
 
 このビデオでは、ページビルダーのコンテンツテンプレートについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410844?captions=jpn&quality=12&learn=on)

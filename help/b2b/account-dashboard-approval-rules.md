@@ -163,4 +163,4 @@ ht-degree: 0%
 
 このビデオでは、発注書の承認について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410767?captions=jpn&quality=12&learn=on)

@@ -128,7 +128,7 @@ ht-degree: 0%
 
 共有カタログ管理のデモについては、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/344446?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410755?captions=jpn&quality=12&learn=on)
 
 ## 共有カタログページ参照
 

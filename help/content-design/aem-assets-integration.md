@@ -57,7 +57,7 @@ Adobe Experience Manager（AEM）Assets Integration for Commerceは、AEM as a D
 
 Adobe CommerceとAEM Assetsが連携し、コンテンツワークフローを効率化する方法を動画でご確認ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447837)
+>[!VIDEO](https://video.tv.adobe.com/v/3447884?captions=jpn)
 
 ## 次のステップ
 
