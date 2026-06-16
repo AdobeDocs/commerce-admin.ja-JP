@@ -47,7 +47,7 @@ Admin User Guidesの情報は、Adobe Commerce AdminまたはMagento Open Source
 
 Adobe Commerceは、B2BとB2Cの両方に対応する俊敏性の高いコマース基盤です。オンラインとオフラインをまたいで、顧客中心のデジタルコマース体験を提供し、売上を向上できます。 オンプレミスからマネージドクラウドまで、最も柔軟性の高い導入モデルとSLAが保証されているため、中規模および大企業に最適です。 Adobe Commerceなら、API ファーストの統合、詳細にカスタマイズ可能な拡張機能、マーケティングからマーチャンダイジング、フルフィルメントに至るまで、大規模なコマース体験を実現できます。 Adobe Commerceは、他のコマース基盤とは異なり、柔軟性と拡張性を備えたオープンソースのコードベース上に構築されています。
 
-Adobe Commerceに含まれる高度な機能の一覧については、_リリース情報_&#x200B;の[Commerce機能](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html)を参照してください。
+Adobe Commerceに含まれる高度な機能の一覧については、_リリース情報_&#x200B;の[Commerce機能](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=ja)を参照してください。
 
 ## Magento Open Source コードベース
 

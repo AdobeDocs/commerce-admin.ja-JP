@@ -37,11 +37,11 @@ ht-degree: 0%
 
 [!DNL Inventory Management]は、Magento Open Source コミュニティ エンジニアリングの特別プロジェクトです。 参加して貢献するには、[GitHub プロジェクト &#x200B;](https://github.com/magento/inventory) リポジトリと[wiki](https://github.com/magento/inventory/wiki)を参照してください。 プロジェクトについて話し合うには、[Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) チャネル （[&#x200B; セルフサインアップ &#x200B;](https://opensource.magento.com/slack)）に参加してください。
 
-サポートされているリリースと互換性のあるリリースについては、[&#x200B; リリーススケジュール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"}を参照してください。
+サポートされているリリースと互換性のあるリリースについては、[&#x200B; リリーススケジュール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=ja){target="_blank"}を参照してください。
 
 ## v1.2.7
 
-[!DNL Inventory Management] 1.2.7 リリースノートは、[&#x200B; コア 2.4.7 リリースノート &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)に含まれています。
+[!DNL Inventory Management] 1.2.7 リリースノートは、[&#x200B; コア 2.4.7 リリースノート &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)に含まれています。
 
 ## v1.2.6
 
@@ -133,7 +133,7 @@ Inventory management 1.2.4 （モジュールバージョン：`magento/inventor
 
 ![修正済みの問題](../assets/fix.svg)多くの（約10,000）在庫ソースを使用したデプロイメントで、商品をカートに追加するなど、カートとチェックアウトのアクションのパフォーマンスが向上しました。<!--- MC-42570-->
 
-![修正済みの問題](../assets/fix.svg) [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} データベースから予約が取り消され、キャッシュがクリアされた場合でも、`bin/magento inventory:reservation:list-inconsistencies` コマンドが部分的な出荷を伴う注文を正しく処理するようになりました。 以前、このコマンドが事前にクリアされたキャッシュで実行された場合、Commerceに次のエラーが表示されました：`Area code is not set`。<!--- MC-42142-->
+![修正済みの問題](../assets/fix.svg) [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} データベースから予約が取り消され、キャッシュがクリアされた場合でも、`bin/magento inventory:reservation:list-inconsistencies` コマンドが部分的な出荷を伴う注文を正しく処理するようになりました。 以前、このコマンドが事前にクリアされたキャッシュで実行された場合、Commerceに次のエラーが表示されました：`Area code is not set`。<!--- MC-42142-->
 
 
 ![修正済みの問題](../assets/fix.svg) グループ化された製品の子製品の増分インデックス作成によって、子が共有されたときに他のグループ化された製品のインデックスが誤って作成されなくなりました。<!--- MC-41963-->
@@ -294,7 +294,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.0 （モジュールバージョン：`inventory-composer-metapackage = 1.1.0`）は、Adobe Commerce、Adobe Commerce on cloud infrastructure、Magento Open Source コードベースのバージョン 2.3.0とサポートされ、互換性があります。[!DNL Inventory Management] 1.1.1は、パッケージ名の更新プログラムとしてのみリリースされ、バージョン 2.3.1でサポートされ、Adobe Commerce、Adobe Commerce on cloud infrastructure、Magento Open Source コードベースのバージョン 2.3.0と互換性があります。
 
-![修正済みの問題](../assets/fix.svg) **シングルソースモードとマルチソースモードに対するElasticsearchのサポートが追加されました** — Elasticsearchをカスタム素材で設定して使用できるようになりました。 インストールについて詳しくは、[Elasticsearch サービスの設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"}を参照してください。<!-- PR https://github.com/magento/inventory/pull/1943 -->
+![修正済みの問題](../assets/fix.svg) **シングルソースモードとマルチソースモードに対するElasticsearchのサポートが追加されました** — Elasticsearchをカスタム素材で設定して使用できるようになりました。 インストールについて詳しくは、[Elasticsearch サービスの設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=ja){target="_blank"}を参照してください。<!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![修正済みの問題](../assets/fix.svg) Default Stockのパフォーマンスの問題を解決し、多数の操作でパフォーマンスを大幅に向上させました。 シングルソースモード、在庫のSourceへの転送、ストアフロントカテゴリページ、および販売可能数量の計算のパフォーマンスが向上しました。
 

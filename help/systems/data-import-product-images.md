@@ -125,7 +125,7 @@ Commerceでは、アルファベット順に配置された商品画像用の独
 
    1つの`sku`に複数の画像を読み込む場合は、`additional_images`という名前の列に画像を挿入します（まだ追加されていない場合は列を追加します）。コンマで区切ります：`image02.jpg,image03.jpg`
 
-リモートストレージモジュールの有効化と管理について詳しくは、_設定ガイド_&#x200B;の[&#x200B; リモートストレージの設定](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html)を参照してください。
+リモートストレージモジュールの有効化と管理について詳しくは、_設定ガイド_&#x200B;の[&#x200B; リモートストレージの設定](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=ja)を参照してください。
 
 >[!NOTE]
 >

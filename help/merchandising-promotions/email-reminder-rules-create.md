@@ -106,7 +106,7 @@ ht-degree: 0%
 
      ![&#x200B; タイトルと説明 – ストアビュー](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} [!DNL Adobe Commerce as a Cloud Service]を使用している場合、[!UICONTROL Rule Repeatability] チェックボックスを選択して[&#x200B; ルールの繰り返し可能性](#rule-repeatability)を有効にできます。
+1. [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} [!DNL Adobe Commerce as a Cloud Service]を使用している場合、[!UICONTROL Rule Repeatability] チェックボックスを選択して[&#x200B; ルールの繰り返し可能性](#rule-repeatability)を有効にできます。
 
    >[!IMPORTANT]
    >
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ## ルールの再現性
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
 
 >[!IMPORTANT]
 >

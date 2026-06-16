@@ -149,7 +149,7 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Sales]_
 
 ## 統計を更新
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 売上レポートの生成によるパフォーマンスへの影響を軽減するために、[!DNL Commerce]は各レポートに必要な統計情報を計算して保存します。 レポートが生成されるたびに統計を再計算するのではなく、統計を更新しない限り、保存された統計が使用されます。 最新のデータを含めるには、セールスレポートを生成する前に、レポート統計を更新する必要があります。
 

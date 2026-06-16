@@ -3,7 +3,7 @@ title: '[!UICONTROL Services] > [!UICONTROL Commerce Services Connector]'
 description: Commerce管理者の[!UICONTROL Services] > [!UICONTROL Commerce Services Connector] ページで設定を確認します。
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/50XCqY8JMjvf9G-wcHLxvlskSd5noIAB0LIX6xMarL0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-ストアをAdobe Commerce サービスに接続する方法については、[Commerce サービス &#x200B;](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html)を参照してください。
+ストアをAdobe Commerce サービスに接続する方法については、[Commerce サービス &#x200B;](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=ja)を参照してください。
 
 {{config}}
 
@@ -60,7 +60,7 @@ ht-degree: 2%
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Project] | グローバル | すべてのSaaS データスペースをグループ化するSaaS プロジェクトの名前。 SaaS プロジェクトが存在しない場合、「_プロジェクトを作成_」ボタンが表示されます。 |
-| [!UICONTROL Data Space] | グローバル | 指定したSaaS プロジェクト内のSaaS データスペースを一覧表示します。 SaaS データスペースの数は、[Commerce ライセンス &#x200B;](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html):<br />Adobe Commerce - 1つの実稼動データスペース、2つのテスト データスペース、<br />Magento Open Source - 1つの実稼動データスペース、テスト データスペースなしによって異なります |
+| [!UICONTROL Data Space] | グローバル | 指定したSaaS プロジェクト内のSaaS データスペースを一覧表示します。 SaaS データスペースの数は、[Commerce ライセンス &#x200B;](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=ja):<br />Adobe Commerce - 1つの実稼動データスペース、2つのテスト データスペース、<br />Magento Open Source - 1つの実稼動データスペース、テスト データスペースなしによって異なります |
 
 {style="table-layout:auto"}
 

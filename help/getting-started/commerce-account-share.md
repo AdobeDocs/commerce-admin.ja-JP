@@ -33,7 +33,7 @@ ht-degree: 0%
 
 プライマリ アカウント所有者には、他の[!DNL Commerce] アカウント所有者への制限付きアクセス権を付与する権限があります。 共有アクセスは取り消すことができますが、転送することはできません。 ``Cloud Shared Access from MAG[XYZ]``件のエントリの場合、ユーザーレコード **をここで削除することはできませんが**、アクセス **は引き続き失効させることができます**。
 
-適切な権限を持つプライマリアカウント所有者のみが、正式に共有アクセス権を付与できます。 プライマリの口座名義人がアクセスできなくなったか、会社を退社した場合、お客様は[Commerce アカウント転送プロセス &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-transfer)を使用して所有権を新しい連絡先に移行する必要があります。 Commerce サポートチームは、限られたシナリオにおいてお客様になりすますことができる場合がありますが、セキュリティと責任のリスクを軽減するために、お客様が共有アクセスを設定する必要があります。
+適切な権限を持つプライマリアカウント所有者のみが、正式に共有アクセス権を付与できます。 プライマリの口座名義人がアクセスできなくなったか、会社を退社した場合、お客様は[Commerce アカウント転送プロセス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/commerce-account/commerce-account-transfer)を使用して所有権を新しい連絡先に移行する必要があります。 Commerce サポートチームは、限られたシナリオにおいてお客様になりすますことができる場合がありますが、セキュリティと責任のリスクを軽減するために、お客様が共有アクセスを設定する必要があります。
 
 
 ![共有アクセス設定](./assets/shared-access.png){width="600" zoomable="yes"}
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. 開始する前に、**新しい共有アクセス権限者**&#x200B;の[!DNL Commerce] アカウントから次の情報を取得します。
 
-   - ユーザーは既にaccount.adobe.comでアカウントに登録しており、account.magento.comを通じてログインしている必要があります。 詳しくは、[Commerce アカウントの作成](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)を参照してください。
+   - ユーザーは既にaccount.adobe.comでアカウントに登録しており、account.magento.comを通じてログインしている必要があります。 詳しくは、[Commerce アカウントの作成](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)を参照してください。
    - `MAGE ID/Account ID (MAG00XXXXXXX)`は、_[!UICONTROL Magento]_&#x200B;タブの左上隅、**ログアウト**&#x200B;リンクのすぐ上に表示されます。
    - アカウントに関連付けられている`Email` アドレス。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->_[!UICONTROL Security Tool]_&#x200B;へのアクセスを共有する必要はありません。MAGE IDを持つすべてのユーザーは、自分のアカウントでセキュリティスキャンツールを設定できます。 サイトに変更を加え、[必要なメソッド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)）のいずれかを使用してドメインの所有権を検証するために必要な権限だけが必要です。
+>_[!UICONTROL Security Tool]_&#x200B;へのアクセスを共有する必要はありません。MAGE IDを持つすべてのユーザーは、自分のアカウントでセキュリティスキャンツールを設定できます。 サイトに変更を加え、[必要なメソッド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/security/security-scan)）のいずれかを使用してドメインの所有権を検証するために必要な権限だけが必要です。
 
 ## 共有アカウントへのアクセス
 
@@ -113,11 +113,11 @@ ht-degree: 0%
 
    ![&#x200B; サポート &#x200B;](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   共有アカウントの[Adobe Commerce ヘルプセンター](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)を使用して、記事とトラブルシューティング情報の検索、既知の問題に対するパッチの検索、サポートチケットの作成を行うことができます。
+   共有アカウントの[Adobe Commerce ヘルプセンター](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/overview)を使用して、記事とトラブルシューティング情報の検索、既知の問題に対するパッチの検索、サポートチケットの作成を行うことができます。
 
    >[!NOTE]
    >
-   >共有アクセスを受け取った後、Experience Leagueで[&#x200B; サポートケース &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)を送信するには、まず左側の列で「（[!DNL Commerce]）」で終わる組織名を選択してください。
+   >共有アクセスを受け取った後、Experience Leagueで[&#x200B; サポートケース &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)を送信するには、まず左側の列で「（[!DNL Commerce]）」で終わる組織名を選択してください。
 
 1. 自分のアカウントに戻るには、ブラウザーコントロールで&#x200B;**戻る**&#x200B;をクリックし、**[!UICONTROL Switch Accounts]**&#x200B;を`My Account`に設定します。
 
@@ -131,21 +131,21 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > **[!UICONTROL Delete]**&#x200B;が表示されない場合は、**[!UICONTROL Share Name]**&#x200B;に命名パターン `Cloud Shared Access from MAG0XYZ`が含まれているかどうかを確認してください。 アカウントに[名前付けパターンがあり、削除できない](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)場合、これは、Shared Accessが[Commerce アカウント &#x200B;](https://account.magento.com/)から直接ではなく、APIによって作成されたためです。
+   > **[!UICONTROL Delete]**&#x200B;が表示されない場合は、**[!UICONTROL Share Name]**&#x200B;に命名パターン `Cloud Shared Access from MAG0XYZ`が含まれているかどうかを確認してください。 アカウントに[名前付けパターンがあり、削除できない](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)場合、これは、Shared Accessが[Commerce アカウント &#x200B;](https://account.magento.com/)から直接ではなく、APIによって作成されたためです。
    > 
    > 削除できない場合は、アカウント所有者が共有アクセスアカウントを変更し、「アカウント権限を付与」で、すべての項目のチェックを外します。このアップデートの後、ユーザーはアカウントリソースにアクセスできなくなります。
    > ![画像](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
-   > また、ユーザーがメール通知を受け取らないように、ユーザーがプロジェクトから削除されていることを確認します。[以前のチームメンバーは、Adobe Commerce クラウド通知メールを受け取ります](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
+   > また、ユーザーがメール通知を受け取らないように、ユーザーがプロジェクトから削除されていることを確認します。[以前のチームメンバーは、Adobe Commerce クラウド通知メールを受け取ります](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. 確認を求められたら、**[!UICONTROL Delete User]**&#x200B;をクリックします。
 
 >[!NOTE]
 >
->このインターフェイスでは、MAG[XYZ ]_から共有名_ Cloud Shared Accessのユーザーを削除することはできません。 [&#x200B; クラウドプロジェクトを介して共有アクセスが許可されたユーザーを削除する方法を参照してください。](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)。
+>このインターフェイスでは、MAG[XYZ ]_から共有名_ Cloud Shared Accessのユーザーを削除することはできません。 [&#x200B; クラウドプロジェクトを介して共有アクセスが許可されたユーザーを削除する方法を参照してください。](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)。
 
 ## 関連トピックス
 
-[共有アクセスのトラブルシューティング](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
+[共有アクセスのトラブルシューティング](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
 

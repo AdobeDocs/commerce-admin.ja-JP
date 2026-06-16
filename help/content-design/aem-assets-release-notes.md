@@ -31,7 +31,7 @@ ht-degree: 0%
 
 通常の機能リリースバージョン以外でリリースされた機能の変更と修正については、_ホスト型サービスの更新_&#x200B;の節を参照してください。
 
-今後のリリース、製品サポート、およびAEM Assets Integration拡張機能をサポートするAdobe Commerce バージョンについて詳しくは、「Adobe Commerce [&#x200B; リリーススケジュール &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule)」および「[製品の可用性](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability)」のトピックを参照してください。
+今後のリリース、製品サポート、およびAEM Assets Integration拡張機能をサポートするAdobe Commerce バージョンについて詳しくは、「Adobe Commerce [&#x200B; リリーススケジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/planning/schedule)」および「[製品の可用性](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/product-availability)」のトピックを参照してください。
 
 ## ホスト型サービスの更新
 
@@ -51,7 +51,7 @@ _2025年4月23日_
 
 [!BADGE Adobe Commerce バージョン 2.4.5以降のリリースを]{type=Informative tooltip="サポート対象"} サポートしています。
 
-![新しい問題](../assets/new.svg)<!-- Issue ACAP-955 -->これで、[&#x200B; カスタムドメイン URL](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization#configure-the-custom-domain-url)をAEM配信URLの代わりに使用できます。 販売者がAEM ダッシュボードで&#x200B;**カスタムドメイン名**&#x200B;を設定した場合は、この&#x200B;**カスタムドメイン URL**&#x200B;をCommerceに追加する必要があります。
+![新しい問題](../assets/new.svg)<!-- Issue ACAP-955 -->これで、[&#x200B; カスタムドメイン URL](https://experienceleague.adobe.com/ja/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization#configure-the-custom-domain-url)をAEM配信URLの代わりに使用できます。 販売者がAEM ダッシュボードで&#x200B;**カスタムドメイン名**&#x200B;を設定した場合は、この&#x200B;**カスタムドメイン URL**&#x200B;をCommerceに追加する必要があります。
 
 ![修正済みの問題](../assets/fix.svg)<!-- Issue ACAP-987 --> AEM Assets同期プロセスの全体的なログを改善しました。
 
@@ -61,7 +61,7 @@ _2025年3月12日_
 
 [!BADGE Adobe Commerce バージョン 2.4.5以降のリリースを]{type=Informative tooltip="サポート対象"} サポートしています。
 
-![新しい問題](../assets/new.svg)<!-- Issue ACAP-xx -->現在、[Assets セレクタ IMS クライアント ID](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization)は、Assets セレクタで必要です。この機能を使用して、AEM Assets イメージと製品カテゴリおよびページビルダー生成コンテンツのマッピングを有効にします。
+![新しい問題](../assets/new.svg)<!-- Issue ACAP-xx -->現在、[Assets セレクタ IMS クライアント ID](https://experienceleague.adobe.com/ja/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization)は、Assets セレクタで必要です。この機能を使用して、AEM Assets イメージと製品カテゴリおよびページビルダー生成コンテンツのマッピングを有効にします。
 
 ## v1.0.20
 

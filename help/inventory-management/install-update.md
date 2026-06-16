@@ -4,7 +4,7 @@ description: ' [!DNL Inventory Management]  メタパッケージの管理方法
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/-koENBfshZ7WkXih0dee4geUb2Mnx-mtTxUxt-s6yUo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 [!DNL Inventory Management]は、Adobe CommerceおよびMagento Open Sourceの2.3.xおよび2.4.x リリースにインストールされ、すべての機能がデフォルトで有効になっています。 これらのインベントリ機能を有効にするための追加ステップは必要ありません。 v2.1.xまたは2.2.xからのアップグレードには、追加の手順が必要になる場合があります。 [Inventory managementのアップグレード &#x200B;](#upgrade-inventory-management)を参照してください。
 
-[&#x200B; クイックスタートオンプレミスのインストール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"}に従ったインストールをお勧めします。 すべての[!DNL Inventory Management] モジュールを受け取るには、メタパッケージをインストールしてください。
+[&#x200B; クイックスタートオンプレミスのインストール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=ja){target="_blank"}に従ったインストールをお勧めします。 すべての[!DNL Inventory Management] モジュールを受け取るには、メタパッケージをインストールしてください。
 
 `composer.json` メタパッケージの次の行は、[!DNL Inventory Management]をインストールします。
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 * 2.0.x、2.1.x、2.2.x、または2.3.xから2.4.xに移行するマーチャントのアップグレードプロセスを高速化します。
 * カスタムまたはサードパーティの在庫管理および注文管理システムモジュールを使用します。
 
-該当するモジュールを無効にする方法について詳しくは、_インストールガイド_&#x200B;の「[&#x200B; モジュールを有効または無効にする](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html)」ページを参照してください。
+該当するモジュールを無効にする方法について詳しくは、_インストールガイド_&#x200B;の「[&#x200B; モジュールを有効または無効にする](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=ja)」ページを参照してください。
 
 完了すると、次で始まる`<Magento_installation_directory>/app/etc/config.php`のモジュールと値のリストが表示されます。
 
@@ -253,5 +253,5 @@ ht-degree: 0%
 
 Commerceのアップグレードについて詳しくは、次のガイドを参照してください。
 
-* [Commerce アップデートガイド](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
-* [モジュールを有効または無効にする](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}
+* [Commerce アップデートガイド](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=ja){target="_blank"}
+* [モジュールを有効または無効にする](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=ja){target="_blank"}

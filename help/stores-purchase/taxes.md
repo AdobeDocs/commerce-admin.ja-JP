@@ -32,7 +32,7 @@ ht-degree: 0%
 >
 >Adobe CommerceおよびMagento Open Source リリース 2.4.0 ～ 2.4.3には、Vertex Cloudとの統合に使用するVertex ベンダーが開発した拡張機能が含まれており、税金管理とアドレスのクレンジングを提供します。 2.4.4 リリース以降、この拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceから、またはベンダーから直接インストールして更新する必要があります。 拡張機能とドキュメントについて詳しくは、[Vertex](https://marketplace.magento.com/partner/vertex_inc)にお問い合わせください。<br><br>
 >
->バンドル拡張機能を有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 _アップグレードガイド_&#x200B;の「[&#x200B; モジュールのアップグレード &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)」を参照してください。
+>バンドル拡張機能を有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 _アップグレードガイド_&#x200B;の「[&#x200B; モジュールのアップグレード &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ja)」を参照してください。
 
 ## クイックリファレンス
 

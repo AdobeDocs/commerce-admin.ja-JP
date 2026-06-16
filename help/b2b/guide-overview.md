@@ -42,7 +42,7 @@ ht-degree: 0%
 ストア管理者には、次の2つの領域があります。
 
 - 管理者：この領域を使用して、設定UIとレポートにアクセスします。
-- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} コマンドラインインターフェイス：このツールを使用して、インストールおよびバックエンド設定タスクを実行します。
+- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} コマンドラインインターフェイス：このツールを使用して、インストールおよびバックエンド設定タスクを実行します。
 
 主な内容：
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | ------- | ----------- |
 | [はじめに](introduction.md) | [!DNL Adobe Commerce B2B]にはどのような機能がありますか？ |
 | [&#x200B; リリースノート &#x200B;](release-notes.md) | 各[!DNL Adobe Commerce B2B] リリースで提供されている更新プログラムを確認します。 |
-| [&#x200B; インストール &#x200B;](install.md) | [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [!DNL Adobe Commerce B2B]拡張機能をインストールします。 |
+| [&#x200B; インストール &#x200B;](install.md) | [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [!DNL Adobe Commerce B2B]拡張機能をインストールします。 |
 | [基本的なB2B機能を有効にする](enable-basic-features.md) | [!DNL Adobe Commerce B2B]をインストールしたら、ストアに対してアクティブ化する機能を有効にする必要があります。 |
 | [会社アカウント &#x200B;](account-companies.md) | 企業アカウントについて学び、ストアでB2B バイヤーをサポートするための主要な構成要素を提供する方法について学びます。 |
 | [会社管理](manage-companies.md) | B2B Commerceのサイト管理者が企業階層を構築して、同じ企業に属する複数の企業の管理を効率化する方法について説明します。 |
@@ -74,5 +74,5 @@ ht-degree: 0%
 
 このガイドで説明されていない情報や質問が必要な場合は、次のリソースを使用してください。
 
-- [Adobe Commerce サポート情報](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html)
-- [&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)：チケットを送信して追加のヘルプを受け取ります。
+- [Adobe Commerce サポート情報](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=ja)
+- [&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ja#submit-ticket)：チケットを送信して追加のヘルプを受け取ります。

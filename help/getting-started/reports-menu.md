@@ -45,7 +45,7 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**&#x200B;を選択しま
 
 ### [!UICONTROL Reviews]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 製品[&#x200B; レビューレポート &#x200B;](review-reports.md)の選択範囲には、顧客別および製品別が含まれます。
 
@@ -55,9 +55,9 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**&#x200B;を選択しま
 
 ### [!UICONTROL System Insights]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-（Adobe Commerceのみ） [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html)は、クラウド インフラストラクチャ上のAdobe Commerceのインストールに関するシステム インサイトを、24時間年中無休のリアルタイム パフォーマンス監視、レポート、および推奨事項とともに提供します。
+（Adobe Commerceのみ） [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=ja)は、クラウド インフラストラクチャ上のAdobe Commerceのインストールに関するシステム インサイトを、24時間年中無休のリアルタイム パフォーマンス監視、レポート、および推奨事項とともに提供します。
 
 ### [!UICONTROL Customers]
 
@@ -69,18 +69,18 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**&#x200B;を選択しま
 
 ### [!UICONTROL Private Sales]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 （Adobe Commerceのみ） [個人向けセールスおよびイベント &#x200B;](private-sales-reports.md)のレポートの選択範囲には、招待、招待された顧客、コンバージョンが含まれます。
 
 ### [!UICONTROL Statistics]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 [統計](sales-reports.md#refresh-statistics)は、統計データを計算して保存することにより、レポートを生成する際のパフォーマンスへの影響を軽減するツールです。 レポートが生成されるたびに統計を再計算するのではなく、統計を更新するまで保存された統計が使用されます。
 
 ### [!DNL Commerce Intelligence]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 統合された[[!DNL Commerce Intelligence]](business-intelligence.md) ツールは、戦略的なビジネス上の意思決定に必要なinsightを提供します。

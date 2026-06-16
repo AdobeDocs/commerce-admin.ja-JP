@@ -65,4 +65,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->パフォーマンス用の製品属性設定の最適化について詳しくは、_実装プレイブック_&#x200B;の[&#x200B; カタログ管理のベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes)を参照してください。
+>パフォーマンス用の製品属性設定の最適化について詳しくは、_実装プレイブック_&#x200B;の[&#x200B; カタログ管理のベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes)を参照してください。

@@ -52,7 +52,7 @@ ht-degree: 0%
 
    デフォルト値は`100`です。 `0`の値を入力すると、2回目の入力時にすべての検索語と結果がキャッシュされます。
 
-1. 返される結果に使用できる最大行数を[&#x200B; ストアフロント ポップオーバー](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html)で変更するには、別の&#x200B;**[!UICONTROL Autocomplete Limit]**&#x200B;値を入力します。
+1. 返される結果に使用できる最大行数を[&#x200B; ストアフロント ポップオーバー](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html?lang=ja)で変更するには、別の&#x200B;**[!UICONTROL Autocomplete Limit]**&#x200B;値を入力します。
 
    行数を制限すると、検索のパフォーマンスが向上し、返されるリストのサイズが小さくなります。 デフォルト値は`8`行です。
 

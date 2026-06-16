@@ -3,7 +3,7 @@ title: メディアギャラリー画像の最適化
 description: ' [!DNL Commerce]  メディアアセットに画像の最適化を使用する方法について説明します。'
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/BTjXX6X70q2Mwm0xPNx-t429R5m93VprCHBDcYgQNpY
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 設定で&#x200B;_最大幅_&#x200B;と&#x200B;_最大高さ_&#x200B;の値が変更されると、以前に挿入された既存の最適化された画像がすべて更新されます。
 
-Media Gallery Image Optimizationでは、構成が変更されたときに最適化された画像を再生成するために、`media.gallery.renditions.update` キューのコンシューマーが実行されている必要があります。 詳しくは、_設定ガイド_&#x200B;の「[&#x200B; メッセージキューの管理](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)」を参照してください。
+Media Gallery Image Optimizationでは、構成が変更されたときに最適化された画像を再生成するために、`media.gallery.renditions.update` キューのコンシューマーが実行されている必要があります。 詳しくは、_設定ガイド_&#x200B;の「[&#x200B; メッセージキューの管理](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ja)」を参照してください。
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}
 

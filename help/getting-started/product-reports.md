@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Views Report]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 [!UICONTROL Product Views Report]には、時間間隔または日付の範囲で閲覧された製品が表示されます。 レポートには、商品名、価格、閲覧数が含まれています。
 
@@ -68,7 +68,7 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Product
 
 ## [!UICONTROL Downloads Report]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 [!UICONTROL Downloads Report]には、指定された時間間隔または日付範囲のすべてのダウンロードが一覧表示されます。 レポートには、製品名、ダウンロードリンク、SKU、購入回数とダウンロード数が含まれます。
 

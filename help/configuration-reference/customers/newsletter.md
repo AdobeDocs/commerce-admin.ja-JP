@@ -47,7 +47,7 @@ ht-degree: 1%
 
 ![&#x200B; サブスクリプションオプション &#x200B;](./assets/newsletter-subscription-options.png)<!-- zoom -->
 
-<!-- [Subscription Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/newsletters/newsletters) -->
+<!-- [Subscription Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/communications/newsletters/newsletters) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

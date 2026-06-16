@@ -41,7 +41,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->カードの予期しない請求に関するサポートが必要な場合は、[&#x200B; サブスクリプションの解約](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) ページにアクセスしてサポートを受けてください。
+>カードの予期しない請求に関するサポートが必要な場合は、[&#x200B; サブスクリプションの解約](https://helpx.adobe.com/jp/manage-account/using/cancel-subscription.html) ページにアクセスしてサポートを受けてください。
 
 ## [!UICONTROL Basic Braintree Settings]
 

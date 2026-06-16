@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->フラットカタログの使用は、ベストプラクティスとして推奨されなくなりました。 この機能を引き続き使用すると、パフォーマンスの低下やその他のインデックス作成の問題が発生することが知られています。 詳細な説明と解決策は、[&#x200B; ヘルプセンター](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html)で入手できます。<br/><br/>影響を受けるバージョンには、<br/>- Adobe Commerce on cloud infrastructure, 2.3.x and above<br/>- Adobe Commerce （オンプレミス）, 2.3.x and above<br/>- Magento Open Source, 2.3.x and above <br/><br/>任意のリリース版では、一部の拡張機能はフラットテーブルでのみ動作するため、フラットテーブルを無効にするとリスクが生じます。 フラットカタログインデクサーを使用する一部の拡張機能があることがわかっている場合は、これらの値を`No`に設定する際にこのリスクに注意する必要があります。
+>フラットカタログの使用は、ベストプラクティスとして推奨されなくなりました。 この機能を引き続き使用すると、パフォーマンスの低下やその他のインデックス作成の問題が発生することが知られています。 詳細な説明と解決策は、[&#x200B; ヘルプセンター](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=ja)で入手できます。<br/><br/>影響を受けるバージョンには、<br/>- Adobe Commerce on cloud infrastructure, 2.3.x and above<br/>- Adobe Commerce （オンプレミス）, 2.3.x and above<br/>- Magento Open Source, 2.3.x and above <br/><br/>任意のリリース版では、一部の拡張機能はフラットテーブルでのみ動作するため、フラットテーブルを無効にするとリスクが生じます。 フラットカタログインデクサーを使用する一部の拡張機能があることがわかっている場合は、これらの値を`No`に設定する際にこのリスクに注意する必要があります。
 
 Commerceでは通常、Entity-Attribute-Value （EAV）モデルに基づいて、カタログデータを複数のテーブルに格納します。 製品属性は多くのテーブルに保存されるため、SQL クエリは長くて複雑な場合があります。
 

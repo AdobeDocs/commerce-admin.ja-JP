@@ -2,7 +2,7 @@
 title: ウィジェットを使用したブロックの配置
 description: 静的ブロックウィジェットを使用して、ストア内のほぼあらゆる場所に既存のコンテンツを配置する方法を説明します。
 exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/LZt31t9uNhrCglxO5L8E0XfVsFrwEKcv2H-TcKF46Ng
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

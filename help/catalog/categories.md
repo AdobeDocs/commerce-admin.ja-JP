@@ -51,5 +51,5 @@ ht-degree: 0%
 
 カテゴリの問題をトラブルシューティングする方法については、次のCommerce サポート技術情報を参照してください。
 
-- [カテゴリへの変更は保存されません](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
-- [Fastlyが有効になっているサブページにメインメニュー（カテゴリー）が表示されない](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
+- [カテゴリへの変更は保存されません](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html?lang=ja)
+- [Fastlyが有効になっているサブページにメインメニュー（カテゴリー）が表示されない](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html?lang=ja)

@@ -31,7 +31,7 @@ ht-degree: 1%
 
 
 
-決済サービスでは、サンドボックステストやシンプルな設定など、すぐに使えるセルフサービスソリューションを提供し、堅牢で安全な決済処理を実現します。 詳しくは、[_決済サービスユーザーガイド_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)を参照してください。
+決済サービスでは、サンドボックステストやシンプルな設定など、すぐに使えるセルフサービスソリューションを提供し、堅牢で安全な決済処理を実現します。 詳しくは、[_決済サービスユーザーガイド_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=ja)を参照してください。
 
 決済サービスの設定設定にアクセスするには、_管理者_ サイドバーで&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**&#x200B;に移動し、**[!UICONTROL Settings]**&#x200B;をクリックします。
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->[設定](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html)の代わりにレガシー設定を使用するには、[&#x200B; レガシー設定](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html)を参照してください。
+>[設定](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html?lang=ja)の代わりにレガシー設定を使用するには、[&#x200B; レガシー設定](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html?lang=ja)を参照してください。
 
 ## [!UICONTROL General]
 
@@ -63,10 +63,10 @@ ht-degree: 1%
 |---|---|---|
 | [!UICONTROL Title] | ストアビュー | チェックアウト時に、支払い方法ビューでこの支払いオプションのタイトルとして表示するテキストを追加します。 |
 | [!UICONTROL Payment Action] | web サイト | 指定された支払い方法の[支払いアクション &#x200B;](payment-methods.md#payment-actions)。 オプション：[!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL 3DS Secure authentication] | web サイト | [3DS セキュア認証](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html#3ds)を有効または無効にします。 オプション：[!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
+| [!UICONTROL 3DS Secure authentication] | web サイト | [3DS セキュア認証](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html?lang=ja#3ds)を有効または無効にします。 オプション：[!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | web サイト | チェックアウトページに表示するクレジットカード情報フィールドを有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Vault enabled] | ストアビュー | [&#x200B; クレジットカードの資格情報の保管](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html)を有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | ストアビュー | 管理者[の顧客に対して、優先支払い方法](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html)を使用して注文を完了する機能を有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Vault enabled] | ストアビュー | [&#x200B; クレジットカードの資格情報の保管](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=ja)を有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | ストアビュー | 管理者[の顧客に対して、優先支払い方法](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=ja)を使用して注文を完了する機能を有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | web サイト | デバッグモードを有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
 
 {style="table-layout:auto"}

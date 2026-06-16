@@ -100,7 +100,7 @@ Edge Delivery Servicesを搭載したCommerce Storefrontは、直観的なドキ
 
 ### [!DNL Live Search]
 
-Adobe Commerce用の[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)を使用すると、お使いのストアは、高速で非常に関連性の高い直感的な検索体験を提供し、Adobe Commerceでも追加料金なしで利用できます。
+Adobe Commerce用の[[!DNL Live Search]](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)を使用すると、お使いのストアは、高速で非常に関連性の高い直感的な検索体験を提供し、Adobe Commerceでも追加料金なしで利用できます。
 
 ![&#x200B; ライブ検索の例 – 入力時に検索](./assets/storefront-search-as-you-type.png){width="700"}
 

@@ -3,7 +3,7 @@ title: ザ  [!DNL Media Gallery]
 description: メディアギャラリーを使用して、サーバー上のメディアファイルを整理および管理します。
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/PL80USg-GVh-vlWwoYCuWRzJdO-FzHDFmFSDjxhavo8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -54,7 +54,7 @@ Adobe CommerceまたはMagento Open Source 2.4では、新しい&#x200B;_enhance
 
 >[!NOTE]
 >
->新しい[!DNL Media Gallery]の完全な機能を使用するには、`media.gallery.synchronization`および`media.content.synchronization` キューのコンシューマーを最初の同期のために開始する必要があります。 詳しくは、_設定ガイド_&#x200B;の「[&#x200B; メッセージキューの管理](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)」を参照してください。
+>新しい[!DNL Media Gallery]の完全な機能を使用するには、`media.gallery.synchronization`および`media.content.synchronization` キューのコンシューマーを最初の同期のために開始する必要があります。 詳しくは、_設定ガイド_&#x200B;の「[&#x200B; メッセージキューの管理](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ja)」を参照してください。
 
 ## 新しい[!DNL Media Gallery]にアクセス
 

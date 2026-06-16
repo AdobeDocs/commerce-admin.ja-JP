@@ -25,19 +25,19 @@ ht-degree: 0%
 
 # [!UICONTROL Catalog] メニュー
 
-[!UICONTROL Catalog] メニューでは、製品作成、カテゴリ、在庫管理ツール、および[B2B ストア &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)のカスタム価格設定の共有カタログに簡単にアクセスできます。
+[!UICONTROL Catalog] メニューでは、製品作成、カテゴリ、在庫管理ツール、および[B2B ストア &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ja)のカスタム価格設定の共有カタログに簡単にアクセスできます。
 
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 ![&#x200B; カタログ メニュー](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
 
 ![&#x200B; カタログ メニュー](./assets/admin-menu-catalog-accs.png){width="300" zoomable="yes"}
 
@@ -59,6 +59,6 @@ _管理者_ サイドバーで、**[!UICONTROL Catalog]**&#x200B;をクリック
 
 ## [!UICONTROL Shared Catalogs]
 
-Adobe Commerce B2Bがインストールされ、有効になっているストアの場合、[共有カタログ &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html)を使用すると、異なる企業でカスタム価格を利用できるようになります。
+Adobe Commerce B2Bがインストールされ、有効になっているストアの場合、[共有カタログ &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=ja)を使用すると、異なる企業でカスタム価格を利用できるようになります。
 
 ![共有カタログ製品](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

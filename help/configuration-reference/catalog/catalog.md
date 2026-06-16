@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ![製品フィールドの自動生成](./assets/catalog-product-fields-auto-generation.png)<!-- zoom -->
 
-<!-- [Product Fields Auto-Generation](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/product-workspace#default-field-values) -->
+<!-- [Product Fields Auto-Generation](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/product-workspace#default-field-values) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -75,7 +75,7 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on Grid Default Value] | ストアビュー | グリッドビューで、ページごとに表示される製品数をデフォルトで指定します。 |
 | [!UICONTROL Products per Page on List Allowed Values] | ストアビュー | リスト表示に表示される製品数を指定します。 オプションを選択するには、複数の値をコンマで区切って入力します。 |
 | [!UICONTROL Products per Page on List Default Value] | ストアビュー | リストビューで、ページごとに表示される製品数をデフォルトで指定します。 |
-| 製品リストの並べ替え基準 | ストアビュー | 検索結果リストの並べ替え順序を指定します。 オプションの選択は、カテゴリの表示設定と`Used for Sorting in Product Listing`に設定されている使用可能な属性によって決まります。 デフォルトは`Use All Available Attributes`に設定され、通常はBest Value、Name、Priceが含まれます。 この設定は、[!DNL Live Search] [製品リストページ ウィジェット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)には適用されません。 |
+| 製品リストの並べ替え基準 | ストアビュー | 検索結果リストの並べ替え順序を指定します。 オプションの選択は、カテゴリの表示設定と`Used for Sorting in Product Listing`に設定されている使用可能な属性によって決まります。 デフォルトは`Use All Available Attributes`に設定され、通常はBest Value、Name、Priceが含まれます。 この設定は、[!DNL Live Search] [製品リストページ ウィジェット &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-storefront/plp-styling)には適用されません。 |
 | [!UICONTROL Allow All Products per Page] | ストアビュー | `Yes`に設定すると、「ページごとに表示」コントロールに`ALL` オプションが含まれます。 |
 | [!UICONTROL Remember Category Pagination] | グローバル | `Yes`に設定すると、現在のカテゴリのページネーション値は、顧客が[製品リスト &#x200B;](../../catalog/navigation-product-listings.md)で1つのカテゴリから別のカテゴリを参照する際に保存されます。 値を保存すると、より多くのキャッシュストレージが使用され、検索エンジンによるページのインデックス作成方法に影響を与える可能性があります。 オプション：`Yes` / `No` （デフォルト） |
 | [!UICONTROL Use Flat Catalog Category] | グローバル | [&#x200B; フラットカテゴリ構造](../../catalog/catalog-flat.md)を有効にします（推奨されません）。 オプション：`Yes` / `No` |
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 ![製品画像プレースホルダー](./assets/catalog-product-image-placeholders.png)<!-- zoom -->
 
-<!-- [Product Image Placeholders](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image-config#image-placeholders) -->
+<!-- [Product Image Placeholders](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/digital-assets/product-image-config#image-placeholders) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Recently Viewed/Compared Products]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 ![最近閲覧/比較した商品](./assets/catalog-recently-viewed-and-compared-products.png)<!-- zoom -->
 
@@ -187,7 +187,7 @@ ht-degree: 0%
 >
 >この節で説明する標準的な検索設定は、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)で異なります。
 
-<!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
+<!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
 ![階層型ナビゲーション – 自動（価格範囲を等しくする） &#x200B;](./assets/layered-navigation-equalize-price-range.png)<!-- zoom -->
 
@@ -265,7 +265,7 @@ ht-degree: 0%
 
 ![&#x200B; ライブサーチのカタログ検索](./assets/catalog-search-live-search.png)<!-- zoom -->
 
-<!-- [Catalog Search for Live Search](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-configuration) -->
+<!-- [Catalog Search for Live Search](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog/search/search-configuration) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

@@ -3,7 +3,7 @@ title: Adobe Stockの画像を使用
 description: Adobe Stockの画像でストアページを調整できます。
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/itiuGqPqSJAuYHf84wspWxkarrQ1npYIb-i20Xvkzh0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -131,13 +131,13 @@ Adobe Stock アセットを検索し、WYSIWYG エディターからストック
 
 ## Adobe アカウントにログインします
 
-画像への完全なアクセス権を取得し、Adobe Stockの透かしを削除するには、[Adobe アカウントでログイン &#x200B;](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)し、画像を使用するライセンス権を購入する必要があります。
+画像への完全なアクセス権を取得し、Adobe Stockの透かしを削除するには、[Adobe アカウントでログイン &#x200B;](https://helpx.adobe.com/jp/manage-account/using/access-adobe-id-account.html)し、画像を使用するライセンス権を購入する必要があります。
 
 1. [Adobe Stock検索グリッドにアクセス &#x200B;](#access-the-adobe-stock-search-grid)。
 
 1. 右上の「**[!UICONTROL Sign In]**」をクリックします。
 
-   新しいブラウザーウィンドウが[Adobe サインインプロセス &#x200B;](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)を案内します。
+   新しいブラウザーウィンドウが[Adobe サインインプロセス &#x200B;](https://helpx.adobe.com/jp/manage-account/using/access-adobe-id-account.html)を案内します。
 
    サインインプロセスが完了すると、画像のライセンス状態が検索結果にラベルとして表示されます。
 
@@ -191,7 +191,7 @@ Adobe Stock統合を使用して検索された画像は、[!DNL Commerce] [&#x2
 
      >[!NOTE]
      >
-     >画像のライセンスを取得するには、アカウントに[Adobe Stock クレジット &#x200B;](https://helpx.adobe.com/stock/help/credit-packs.html)が必要です。
+     >画像のライセンスを取得するには、アカウントに[Adobe Stock クレジット &#x200B;](https://helpx.adobe.com/jp/stock/help/credit-packs.html)が必要です。
 
    このアクションは、画像を[&#x200B; メディアストレージ &#x200B;](media-storage.md)に保存するために使用するファイル名を指定するためのプロンプトを表示します。 デフォルトのファイル名が指定されますが、好みに合わせて名前をカスタマイズできます。
 

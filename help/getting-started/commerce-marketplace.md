@@ -63,7 +63,7 @@ ht-degree: 0%
 
 ## [!DNL Marketplace]資格情報
 
-[!DNL Commerce Marketplace]から購入した拡張機能をインストールする前に、[!DNL Commerce] アカウントにサインインし、アクティブなアクセスキーがあることを確認してください。 [[!DNL Marketplace]](https://marketplace.magento.com/)または[Magento.com](https://business.adobe.com/products/magento/magento-commerce.html)のヘッダーから[!DNL Commerce] アカウントにログインできます。
+[!DNL Commerce Marketplace]から購入した拡張機能をインストールする前に、[!DNL Commerce] アカウントにサインインし、アクティブなアクセスキーがあることを確認してください。 [[!DNL Marketplace]](https://marketplace.magento.com/)または[Magento.com](https://business.adobe.com/jp/products/magento/magento-commerce.html)のヘッダーから[!DNL Commerce] アカウントにログインできます。
 
 アクセスキーは、[!DNL Commerce] インストールを[!DNL Commerce] アカウントと同期し、資格情報を確認するために使用される公開鍵と秘密鍵のセットです。 アカウントが同期されたら、Commerce Marketplaceから拡張機能またはモジュールをインストールするか、[!DNL Commerce] インストールをアップグレードするたびに秘密鍵を入力する必要があります。
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe CommerceとMagento Open Source 2.4.0以降、Web セットアップ ウィザードは削除され、コマンドラインを使用してインスタンスを[&#x200B; インストール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html)または[&#x200B; アップグレード &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)する必要があります。 この要件には、[&#x200B; モジュール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)と[拡張機能](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)も含まれます。
+>Adobe CommerceとMagento Open Source 2.4.0以降、Web セットアップ ウィザードは削除され、コマンドラインを使用してインスタンスを[&#x200B; インストール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=ja)または[&#x200B; アップグレード &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=ja)する必要があります。 この要件には、[&#x200B; モジュール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ja)と[拡張機能](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=ja)も含まれます。
 
 [!DNL Marketplace]購入のインストールプロセスは、Commerceの&#x200B;_オンプレミス_ インストールと、[Adobe Cloud Architecture](https://www.adobe.com/commerce/magento/enterprise.html)でホストされているインストールでは異なります。
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 ### オープンソースの質問
 
-Marketplace サポートチームは、[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)および[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) サイトのみに関する問題を解決します。 Magento Open Sourceに関するご質問は、[&#x200B; コミュニティフォーラム &#x200B;](https://community.magento.com/)または[Magento Open Sourceのサポートを受けられるパートナー](https://business.adobe.com/products/magento/partners.html)にお問い合わせください。
+Marketplace サポートチームは、[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)および[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) サイトのみに関する問題を解決します。 Magento Open Sourceに関するご質問は、[&#x200B; コミュニティフォーラム &#x200B;](https://community.magento.com/)または[Magento Open Sourceのサポートを受けられるパートナー](https://business.adobe.com/jp/products/magento/partners.html)にお問い合わせください。
 
 ### 返金リクエスト
 

@@ -2,7 +2,7 @@
 title: デザイン変更のスケジュール
 description: テーマデザインの変更を事前にスケジュールする方法について説明します
 exl-id: 0a214fd5-77a6-4ad4-9740-5138d40ad0a1
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/Pf9Yp54AoZbC86HdHlN76zrE6qzjV2R0hoJWs8u-BEA
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

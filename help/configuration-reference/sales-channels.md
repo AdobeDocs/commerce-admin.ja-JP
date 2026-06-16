@@ -29,7 +29,7 @@ ht-degree: 0%
 
 {{config}}
 
-これらの設定は、[[!DNL Amazon Sales Channel]](https://experienceleague.adobe.com/docs/commerce-channels/amazon/getting-started/install.html)がインストールされている場合に使用できます。
+これらの設定は、[[!DNL Amazon Sales Channel]](https://experienceleague.adobe.com/docs/commerce-channels/amazon/getting-started/install.html?lang=ja)がインストールされている場合に使用できます。
 
 ![Sales Channel設定](./assets/config-sales-channel-global-settings.png)<!-- zoom -->
 

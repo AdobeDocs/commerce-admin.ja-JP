@@ -2,7 +2,7 @@
 title: ウィジェットの作成と管理
 description: ストア全体でコンテンツを自動的に更新するウィジェットを作成および管理する方法について説明します。
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/f5cIxzZeOxfvqJbVLFPfCmB285I0ovGEbNqAWOFCw4s
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

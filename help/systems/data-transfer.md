@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerceでは、SaaS データの書き出しをサポートしており、CommerceサーバーからSaaS サービスに商品データを転送できます。 SaaS データ書き出しは、[商品レコメンデーション &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html)、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)、[&#x200B; カタログサービス &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)などのCommerce SaaS サービスと統合されています。 詳しくは、[SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)を参照してください。
+>Adobe Commerceでは、SaaS データの書き出しをサポートしており、CommerceサーバーからSaaS サービスに商品データを転送できます。 SaaS データ書き出しは、[商品レコメンデーション &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=ja)、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)、[&#x200B; カタログサービス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/catalog-service/guide-overview)などのCommerce SaaS サービスと統合されています。 詳しくは、[SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/saas-data-export/overview)を参照してください。
 
 ## データ検証
 
