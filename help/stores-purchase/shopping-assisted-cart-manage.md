@@ -1,29 +1,44 @@
 ---
-title: 買い物かごの管理
-description: 管理者から直接顧客の買い物かごを支援する方法について説明します。
+title: ショッピングカートの管理
+description: 管理者から直接ショッピングカートを使用して顧客を支援する方法を説明します。
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: 69cd571b66a81159c2c99e6652907f22142568cb
+TQID: https://experienceleague.adobe.com/6kRS38XXT2krhGWypaXChWpBdtvfLupBJX2k6cE4y6w
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: 746
 ht-degree: 0%
 
 ---
 
-# 買い物かごの管理
+# ショッピングカートの管理
 
 {{ee-feature}}
 
-アシストショッピングセッションを開始するには、顧客がストアフロントからアカウントにログインして、情報を利用できるようにする必要があります。 顧客がアカウントを持っていない場合は、[&#x200B; アカウントを作成 &#x200B;](../customers/account-create.md) できます。
+支援ショッピングセッションを開始するには、顧客がストアフロントからアカウントにログインして情報を利用可能にする必要があります。 お客様がアカウントを持っていない場合は、[&#x200B; アカウントを作成できます](../customers/account-create.md)。
 
-![&#x200B; 顧客アカウント内の買い物かご &#x200B;](./assets/customer-account-manage-cart-items.png){width="600" zoomable="yes"}
+![お客様アカウント内の買い物かご](./assets/customer-account-manage-cart-items.png){width="600" zoomable="yes"}
 
 ## アクション制御
 
 | オプション | 説明 |
 |--- |--- |
-| [!UICONTROL Remove] | 現在の買い物かごからアイテムを削除します |
-| [!UICONTROL Move to Wish List] | 選択された顧客ウィッシュリストに項目を移動 |
+| [!UICONTROL Remove] | 現在のショッピングカートからアイテムを削除します |
+| [!UICONTROL Move to Wish List] | 項目を選択した顧客ウィッシュリストに移動 |
 
 {style="table-layout:auto"}
 
@@ -31,121 +46,121 @@ ht-degree: 0%
 
 | ボタン | 説明 |
 |--- |--- |
-| [!UICONTROL Clear my shopping cart] | 買い物かごからすべてのアイテムを削除します。 |
-| [!UICONTROL Update Items and Quantities|] 「**[!UICONTROL Qty]**」フィールドに必要数量を入力し、カート内の品目数を更新します。 |
-| [!UICONTROL Add selections to my cart] | すべてのセクションから買い物かごに商品を追加します。 |
+| [!UICONTROL Clear my shopping cart] | 買い物かごからすべての項目を削除します。 |
+| [!UICONTROL Update Items and Quantities|]必要な数量を&#x200B;**[!UICONTROL Qty]** フィールドに入力し、カート内の項目数を更新します。 |
+| [!UICONTROL Add selections to my cart] | すべてのセクションの商品をカートに追加します。 |
 
 {style="table-layout:auto"}
 
-## ユーザーがログインしていることを確認
+## お客様がログインしていることを確認します
 
-1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL Now Online]** に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL Now Online]**&#x200B;に移動します。
 
-   ストアに訪問し、ログインした顧客のすべての訪問者がリストに表示されます。
+   ストアへの訪問者とログインした顧客はすべてリストに表示されます。
 
-   ![Customers Now Online](./assets/customers-now-online.png){width="700" zoomable="yes"}
+   ![&#x200B; オンラインのお客様](./assets/customers-now-online.png){width="700" zoomable="yes"}
 
-## オファー支援ショッピング
+## ショッピング支援
 
-1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL All Customers]** に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**&#x200B;に移動します。
 
 1. リストで、顧客レコードを編集モードで開きます。
 
    >[!TIP]
    >
-   >顧客レコードを急いで見つけるには、[&#x200B; フィルター &#x200B;](../getting-started/admin-grid-controls.md) コントロールを使用します。
+   >急いで顧客レコードを検索するには、[&#x200B; フィルター](../getting-started/admin-grid-controls.md) コントロールを使用します。
 
-   _[!UICONTROL Personal Information]_&#x200B;の顧客プロファイルでは、_[!UICONTROL Last Logged In]_ の日時は顧客がオンラインであることを示します。
+   _[!UICONTROL Personal Information]_&#x200B;の下の顧客プロファイルで、_[!UICONTROL Last Logged In]_&#x200B;の日時は、顧客がオンラインであることを示します。
 
    ![&#x200B; オンライン顧客の顧客プロファイル &#x200B;](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
-1. アシストショッピングモードに入るには、上部のボタンバーの **[!UICONTROL Manage Shopping Cart]** をクリックします。
+1. アシスト ショッピング モードに入るには、上部のボタン バーで&#x200B;**[!UICONTROL Manage Shopping Cart]**&#x200B;をクリックします。
 
-   ![&#x200B; アシストショッピングモード &#x200B;](./assets/customer-manage-shopping-cart.png){width="600" zoomable="yes"}
+   ![買い物モード支援](./assets/customer-manage-shopping-cart.png){width="600" zoomable="yes"}
 
-## 製品を属性別に買い物かごに追加
+## 商品を属性ごとにカートに追加
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Products]**」セクションを展開します。
+1. **[!UICONTROL Products]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-1. 各列の上部にあるフィルターのいずれかを使用して、製品を検索します。
+1. 各列の上部にあるフィルターを使用して、製品を検索します。
 
-1. 「**[!UICONTROL Search]**」をクリックします。
+1. **[!UICONTROL Search]**&#x200B;をクリックします。
 
-1. 製品タイプに応じて、次の一連の手順のいずれかを使用します。
+1. 製品タイプに応じて、次のいずれかの一連の手順を実行します。
 
-### シンプルな製品を追加
+### シンプルな商品を追加
 
-1. 注文する商品をクリックします。
+1. 注文したい商品をクリックします。
 
-   レコードを選択し、**[!UICONTROL Quantity]** を既定値の `1` に設定します。
+   このアクションは、レコードを選択し、**[!UICONTROL Quantity]**&#x200B;を既定値`1`に設定します。
 
 1. 必要に応じて、注文数量を更新します。
 
-1. グリッドの上の左側にある [**[!UICONTROL Add selections to my cart]**] をクリックします。
+1. グリッドの上の左側で、**[!UICONTROL Add selections to my cart]**&#x200B;をクリックします。
 
-   ![&#x200B; 買い物かごに製品を追加 &#x200B;](./assets/customer-account-manage-cart-order-products.png){width="600" zoomable="yes"}
+   ![商品を買い物かごに追加](./assets/customer-account-manage-cart-order-products.png){width="600" zoomable="yes"}
 
-   行項目がページ上部の買い物かごに追加されます。
+   ページの上部にあるショッピングカートに行項目が追加されます。
 
-   ![&#x200B; 買い物かごが更新されました &#x200B;](./assets/customer-account-manage-cart-update-cart.png){width="600" zoomable="yes"}
+   ![買い物かごが更新されました](./assets/customer-account-manage-cart-update-cart.png){width="600" zoomable="yes"}
 
 ### 設定を使用した製品の追加
 
-買い物かごに追加する前に設定する必要がある製品は、`Bundle Product`、`Configurable Product`、`Grouped Product` の 3 種類です。
+買い物かごに追加する前に設定する必要がある製品には、`Bundle Product`、`Configurable Product`、`Grouped Product`の3つのタイプがあります。
 
-1. グリッドで、製品名の横にある「**[!UICONTROL Configure]**」をクリックします。
+1. グリッドで、製品名の横にある&#x200B;**[!UICONTROL Configure]**&#x200B;をクリックします。
 
-   ![&#x200B; 製品の設定 &#x200B;](./assets/customer-account-manage-cart-order-configurable-product.png){width="600" zoomable="yes"}
+   ![製品の設定](./assets/customer-account-manage-cart-order-configurable-product.png){width="600" zoomable="yes"}
 
-1. _関連製品_ ダイアログで、注文する品目を説明する各製品オプションを選択し、**[!UICONTROL Quantity]** を入力して、「**[!UICONTROL OK]**」をクリックします。
+1. _関連製品_ ダイアログで、注文する品目を説明する各製品オプションを選択し、**[!UICONTROL Quantity]**&#x200B;を入力して、**[!UICONTROL OK]**&#x200B;をクリックします。
 
-   商品がチェックマークと共に選択され、注文数量がグリッドに表示されます。
+   商品がチェックマークで選択され、注文数量がグリッドに表示されます。
 
-1. 商品を買い物かごに追加するには、「**[!UICONTROL Add selections to my cart]**」をクリックします。
+1. 商品をカートに追加するには、**[!UICONTROL Add selections to my cart]**&#x200B;をクリックします。
 
-   ![&#x200B; カート内で設定可能な製品 &#x200B;](./assets/customer-account-manage-cart-order-configurable-product-cart.png){width="600" zoomable="yes"}
+   ![&#x200B; カート内の設定可能な製品](./assets/customer-account-manage-cart-order-configurable-product-cart.png){width="600" zoomable="yes"}
 
-1. 必要に応じて、買い物かごの製品オプションを更新します。
+1. 必要に応じて、カート内の商品オプションを更新します。
 
-   - 「**[!UICONTROL Configure]**」をクリックします。
+   - **[!UICONTROL Configure]**&#x200B;をクリックします。
 
-   - オプションを更新し、「**[!UICONTROL OK]**」をクリックします。
+   - オプションを更新し、**[!UICONTROL OK]**&#x200B;をクリックします。
 
-## SKU で製品を追加
+## SKUで製品を追加
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Add to Shopping Cart by SKU]**」セクションを展開します。
+1. **[!UICONTROL Add to Shopping Cart by SKU]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-1. **[!UICONTROL SKU]** で製品を個別に追加するか、CSV ファイルをアップロードして製品を追加します。
+1. **[!UICONTROL SKU]**&#x200B;ごとに製品を個別に追加するか、CSV ファイルをアップロードして製品を追加します。
 
-### SKU 別に個別に項目を追加
+### SKUごとに項目を個別に追加
 
-1. 注文する品目の **[!UICONTROL SKU]** と **[!UICONTROL Qty]** を入力します。
+1. 注文するアイテムの&#x200B;**[!UICONTROL SKU]**&#x200B;と&#x200B;**[!UICONTROL Qty]**&#x200B;を入力します。
 
-1. 別の製品を注文するには、[**[!UICONTROL Add another]**] をクリックします。
+1. 別の商品を注文するには、**[!UICONTROL Add another]**&#x200B;をクリックします。
 
-   ![SKU 別に製品を追加 &#x200B;](./assets/customer-account-manage-cart-order-product-by-sku.png){width="600" zoomable="yes"}
+   ![SKU](./assets/customer-account-manage-cart-order-product-by-sku.png){width="600" zoomable="yes"}による製品の追加
 
-1. 「**[!UICONTROL Add selections to my cart]**」をクリックします。
+1. **[!UICONTROL Add selections to my cart]**&#x200B;をクリックします。
 
-1. 設定可能な製品の場合は、プロンプトが表示されたら製品オプションを選択し、[**[!UICONTROL Add to Shopping Cart]**] をクリックします。
+1. 項目が設定可能な製品の場合は、プロンプトが表示されたら製品オプションを選択し、**[!UICONTROL Add to Shopping Cart]**&#x200B;をクリックします。
 
-### CSV ファイルをアップロードして製品を追加
+### CSV ファイルをアップロードして製品を追加する
 
-1. 買い物かごに追加する項目を含む [csv ファイル &#x200B;](../systems/data-csv.md) を準備します。
+1. [csv ファイル &#x200B;](../systems/data-csv.md)を、買い物かごに追加するアイテムと共に準備します。
 
-   ファイルには、ヘッダーに `sku` と `qty` を含む 2 列のみを含める必要があります。
+   ファイルには、ヘッダーに`sku`と`qty`を含む2つの列のみを含める必要があります。
 
 1. 準備したファイルをアップロードします。
 
-   - 「**[!UICONTROL Choose File]**」をクリックします。
+   - **[!UICONTROL Choose File]**&#x200B;をクリックします。
 
-   - アップロードするファイルをディレクトリから選択します。
+   - ディレクトリからアップロードするファイルを選択します。
 
-## 項目を転送
+## 項目の転送
 
-顧客のウィッシュリストから買い物かごに項目を転送したり、最近表示した項目や比較した項目、注文した項目を転送したりできます。 各セクション内の項目数は、セクション ヘッダーの後の括弧内に表示されます。
+顧客のウィッシュリストから商品をカートに転送し、最近閲覧した商品、比較した商品、注文した商品を関連付けることができます。 各セクションの項目数は、セクションのヘッダーの後ろに括弧内に表示されます。
 
-1. 次のいずれかのセクションで ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
+1. 次のいずれかのセクションで![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
    - [!UICONTROL Wish List]
    - [!UICONTROL Products in the Comparison List]
@@ -153,48 +168,48 @@ ht-degree: 0%
    - [!UICONTROL Recently Viewed Products]
    - [!UICONTROL Last Ordered Items]
 
-1. グリッドで、注文する各製品を選択し、**[!UICONTROL Quantity]** を入力します。
+1. グリッドで、注文する各商品を選択し、**[!UICONTROL Quantity]**&#x200B;を入力します。
 
-1. 設定可能な製品のオプションを入力するには、「**[!UICONTROL Configure]**」をクリックし、必要に応じて製品オプションを設定します。
+1. 設定可能な製品のオプションを入力するには、**[!UICONTROL Configure]**&#x200B;をクリックし、必要に応じて製品オプションを設定します。
 
-1. 「**[!UICONTROL Add selections to my cart]**」をクリックします。
+1. **[!UICONTROL Add selections to my cart]**&#x200B;をクリックします。
 
-1. 利用可能な場合は、1 つ以上のクーポンコードを適用します。
+1. 利用可能な場合は、1つ以上のクーポンコードを適用します。
 
-   - **[!UICONTROL Apply Coupon Code]** の場合は、有効なクーポンコードを入力します。
+   - **[!UICONTROL Apply Coupon Code]**&#x200B;の場合、有効なクーポンコードを入力してください。
 
-   - _適用_ （![&#x200B; 矢印アイコン &#x200B;](../assets/icon-apply-arrow.png)）矢印をクリックします。
+   - _適用_ （![矢印アイコン &#x200B;](../assets/icon-apply-arrow.png)）矢印をクリックします。
 
 1. 必要に応じて注文数量を調整します。
 
-   - 調整する製品の「**[!UICONTROL Qty]**」列に、正しい金額を入力します。
+   - 調整する製品の&#x200B;**[!UICONTROL Qty]**&#x200B;列に、正しい金額を入力します。
 
-   - 「**[!UICONTROL Update Items and Quantities]**」をクリックします。
+   - **[!UICONTROL Update Items and Quantities]**&#x200B;をクリックします。
 
-## オーダーの作成
+## 注文の作成
 
-1. 「**[!UICONTROL Create Order]**」をクリックします。
+1. **[!UICONTROL Create Order]**&#x200B;をクリックします。
 
-   _[!UICONTROL Create New Order]_&#x200B;のページには、カート内の商品が表示され、その後に発送情報と支払い情報が表示されます。
+   _[!UICONTROL Create New Order]_&#x200B;ページには、買い物かごの商品が表示され、その後に配送情報と支払い情報が表示されます。
 
-1. 配送および支払い情報を入力します。
+1. 発送と支払いに関する情報を入力します。
 
-1. 「**[!UICONTROL Submit Order]**」をクリックします。
+1. **[!UICONTROL Submit Order]**&#x200B;をクリックします。
 
-詳しくは、[&#x200B; 注文の作成 &#x200B;](customer-account-create-order.md) を参照してください。
+詳細については、[注文の作成](customer-account-create-order.md)を参照してください。
 
 ## 買い物かごからすべてのアイテムを削除
 
-買い物アシストモードでの顧客の買い物かごからのすべての項目の削除は、顧客がやり直したい場合、間違った項目を追加した場合、または新しい注文を行う前に買い物かごをクリアする必要がある場合に役立ちます。 これにより、顧客が実際に購入したい製品のみが買い物かごに含まれるようになります。
+顧客が買い物かごから商品をすべて削除する支援ショッピングモードは、顧客がやり直したい場合、誤った商品を追加した場合、または新しい注文を行う前にカートをクリアする必要がある場合に役立ちます。 これにより、顧客が実際に購入したい商品のみがカートに入るようにできます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Customers]**/**[!UICONTROL All Customers]** に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**&#x200B;に移動します。
 
 1. リストで、顧客レコードを編集モードで開きます。
 
-1. 上部のボタンバーの「**[!UICONTROL Manage Shopping Cart]**」をクリックします。
+1. 上部のボタンバーで「**[!UICONTROL Manage Shopping Cart]**」をクリックします。
 
-1. 「**[!UICONTROL Clear my shopping cart]**」をクリックします。
+1. **[!UICONTROL Clear my shopping cart]**&#x200B;をクリックします。
 
-   ![&#x200B; 買い物かごをクリアする &#x200B;](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
+   ![買い物かごをクリア &#x200B;](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
 
-1. アクションを確認するプロンプトが表示されたら、「**[!UICONTROL OK]**」をクリックします。
+1. アクションの確認を求めるメッセージが表示されたら、**[!UICONTROL OK]**&#x200B;をクリックします。

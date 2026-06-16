@@ -1,44 +1,61 @@
 ---
 title: 顧客管理の概要
-description: Commerceの顧客管理機能を使用して、ストアのカスタマーエクスペリエンス（顧客体験）を向上させる方法を説明します。
+description: Commerceの顧客管理機能を使用して、ストアの顧客体験を向上させる方法を説明します。
 exl-id: 1af76dd0-3f22-4ed1-b05c-75025b813e60
-source-git-commit: 20869a0fd5ef9be388a61b05265f6a05c48d60c2
+TQID: https://experienceleague.adobe.com/dZMTst5fXUHmrXr4DaxHzR46wDrTptlbBGsiN-lYKkk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+subfeature_v2:
+  - id: d9ced453-36f4-4eb5-b2f3-1d593e32476b
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: 224
 ht-degree: 0%
 
 ---
 
 # 顧客管理の概要
 
-_[!UICONTROL Customers]_&#x200B;メニューから顧客アカウント管理ツールにアクセスでき、ストア内でオンラインのユーザーを確認できます。
+_[!UICONTROL Customers]_&#x200B;メニューでは、顧客アカウント管理ツールにアクセスし、ストアのオンライン状態を確認できます。
 
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaS のみ &#x200B;]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-![&#x200B; 顧客メニュー &#x200B;](assets/admin-menu-customers.png){width="300" zoomable="yes"}
+![顧客メニュー](assets/admin-menu-customers.png){width="300" zoomable="yes"}
 
->[!TAB Adobe Commerceas a Cloud Service]
+>[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
 
-![&#x200B; 顧客メニュー &#x200B;](assets/admin-menu-customers-accs.png){width="300" zoomable="yes"}
+![顧客メニュー](assets/admin-menu-customers-accs.png){width="300" zoomable="yes"}
 
 >[!ENDTABS]
 
 ## [!UICONTROL Customers] メニューの表示
 
-_管理者_ サイドバーの「[!UICONTROL Customers]」をクリックして、メニューオプションを表示します。
+_管理者_ サイドバーで、[!UICONTROL Customers]をクリックしてメニューオプションを表示します。
 
 | フィールド | 説明 |
 |---|---|
-| [!UICONTROL All Customers] | ストアにアカウントを登録したか、管理者によって追加されたすべての [&#x200B; 顧客 &#x200B;](../customers/customers-all.md) を一覧表示します。 |
-| [!UICONTROL Now Online] | ストア内に現在 [&#x200B; オンライン &#x200B;](../customers/now-online.md) にあるすべての顧客と訪問者をリストします。 |
-| [!UICONTROL Segments] | 様々なプロパティに基づいて、特定の顧客に対するコンテンツとプロモーションを動的に表示するために使用される [&#x200B; 顧客セグメント &#x200B;](../customers/customer-segments.md) を一覧表示します。 |
-| [!UICONTROL Customer Groups] | [&#x200B; 顧客グループ &#x200B;](../customers/customer-groups.md) は、買い物客が利用できる割引と購入の税クラスを決定します。 |
-| [!UICONTROL Companies] | （Adobe Commerce B2B が必要）ステータス設定に関係なく、アクティブなすべての [&#x200B; 会社アカウント &#x200B;](../b2b/account-companies.md) および保留中のリクエストを一覧表示し、会社アカウントの作成と [&#x200B; 管理 &#x200B;](../b2b/account-company-manage.md) に使用するツールを提供します。 |
+| [!UICONTROL All Customers] | ストアのアカウントに登録しているか、管理者によって追加されたすべての[顧客](../customers/customers-all.md)を一覧表示します。 |
+| [!UICONTROL Now Online] | 現在[&#x200B; オンライン &#x200B;](../customers/now-online.md)であるすべての顧客と訪問者をストアに一覧表示します。 |
+| [!UICONTROL Segments] | 様々なプロパティに基づいて特定の顧客にコンテンツとプロモーションを動的に表示するために使用される[顧客セグメント &#x200B;](../customers/customer-segments.md)を一覧表示します。 |
+| [!UICONTROL Customer Groups] | [顧客グループ &#x200B;](../customers/customer-groups.md)は、買い物客が利用できる割引と購入時の税区分を決定します。 |
+| [!UICONTROL Companies] | （Adobe Commerce B2Bが必要）ステータス設定に関係なく、アクティブなすべての[会社アカウント &#x200B;](../b2b/account-companies.md)および保留中のリクエストを一覧表示し、[会社アカウントの作成および管理](../b2b/account-company-manage.md)に使用するツールを提供します。 |
 
 {style="table-layout:auto"}

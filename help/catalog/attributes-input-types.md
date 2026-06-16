@@ -3,9 +3,25 @@ title: 属性入力タイプ
 description: 製品属性で使用できる入力タイプについて説明します。入力できるデータのタイプと、フィールドまたは入力コントロールの形式を決定します。
 exl-id: c35b3b9d-57b0-4c33-abdb-662ac6d0260e
 feature: Catalog Management, Products
-source-git-commit: 5398555aa025db6ff0eafd758d8e930b81c5e771
+TQID: https://experienceleague.adobe.com/8WwqU3ZSqmORqSD2061Pa5MTRqYbH71dOxouz-nLwbo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: 780
 ht-degree: 0%
 
 ---
@@ -21,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Text Field] | テキストの1行入力フィールド。 |
 | [!UICONTROL Text Area] | 製品説明などのテキストの段落を入力するための複数行入力フィールド。 WYSIWYG エディターを使用して、HTML タグを使用してテキストを書式設定したり、タグをテキストに直接入力したりできます。 |
 | [!UICONTROL Text Editor] | 属性の場所に完全に機能するテキストエディター。 |
-| [!UICONTROL Date] | [優先形式](#date-and-time-options)および[&#x200B; タイムゾーン &#x200B;](../getting-started/store-details.md#locale-options)に日付値を表示します。 日付値は、リストまたはカレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）から選択できます。 <br/><br/>**_Note:_** システム構成に応じて、_管理者_ ユーザーは日付をフィールドに直接入力するか、カレンダーまたはリストから日付を選択できます。 日付と時刻の値の指定について詳しくは、[日付と時刻のオプション &#x200B;](#date-and-time-options)を参照してください。 |
+| [!UICONTROL Date] | [優先形式](#date-and-time-options)および[&#x200B; タイムゾーン &#x200B;](../getting-started/store-details.md#locale-options)に日付値を表示します。 日付値は、リストまたはカレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）から選択できます。 <br/><br/>**_Note:_**&#x200B;システム構成に応じて、_&#x200B;管理者_ ユーザーは日付をフィールドに直接入力するか、カレンダーまたはリストから日付を選択できます。 日付と時刻の値の指定について詳しくは、[日付と時刻のオプション &#x200B;](#date-and-time-options)を参照してください。 |
 | [!UICONTROL Date and Time] | [優先形式](#date-and-time-options)および[&#x200B; タイムゾーン &#x200B;](../getting-started/store-details.md#locale-options)の日時の値を表示します。 日付と時刻は手動で入力することも、カレンダーから選択することもできます。 形式の例：MM/DD/YYYYY HH:MM |
 | [!UICONTROL Yes/No] | `Yes`と`No`の事前定義済みオプションを含むドロップダウンリストを表示します。 |
 | ドロップダウン | 1つの選択のみを受け入れる値のドロップダウンリストを表示します。 ドロップダウン入力タイプは、[設定可能な製品](../catalog/product-create-configurable.md)の主要コンポーネントです。 |
@@ -53,7 +69,7 @@ ht-degree: 0%
 
    ![&#x200B; カタログ設定 – 日時オプション &#x200B;](../configuration-reference/catalog/assets/catalog-date-time-custom-options.png){width="600" zoomable="yes"}
 
-   これらのオプションの詳細なリストについては、[_設定リファレンス_](../configuration-reference/catalog/catalog.md)&#x200B;の&#x200B;_日時カスタムオプション_&#x200B;を参照してください。
+   これらのオプションの詳細なリストについては、_設定リファレンス_&#x200B;の&#x200B;[_日時カスタムオプション_](../configuration-reference/catalog/catalog.md)&#x200B;を参照してください。
 
 1. ポップアップカレンダーを日付フィールドの入力コントロールとして使用するには、**[!UICONTROL Use JavaScript Calendar]**&#x200B;を`Yes`に設定します。
 

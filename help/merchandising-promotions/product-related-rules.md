@@ -3,9 +3,24 @@ title: 関連する製品ルール
 description: 関連商品ルールについて学び、関連商品、アップセル、クロスセルを顧客に動的に提示するために、関連商品ルールがどのように使用されるかを学びます。
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-source-git-commit: 68178cb3ed493c35e92549e1ee084b1c0402264c
+TQID: https://experienceleague.adobe.com/-S2cHqetXQ0raH1d7LGRU1zW80jJ2vA9dmgSmvABNEI
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: 879
 ht-degree: 0%
 
 ---
@@ -40,7 +55,7 @@ ht-degree: 0%
 
 どの時点でも、関連商品、アップセル、クロスセルを表示するためにトリガーできるいくつかのアクティブなルールが存在する場合があります。 各ルールの優先順位によって、ページに表示される製品の順序が決まります。 値は任意の整数に設定でき、`1`が最も優先度が高くなります。
 
-製品関係ルールに含めることができる製品IDの数は、最大20の`Result Limit`値によって決まります。 特定のルールベースの製品プロモーションの`Result Limit`と組み合わされた`Configurable Maximum`値が`Real Limit`になり、リストに表示できる一致する製品の実際の数が決定されます。
+製品関係ルールに含めることができる製品IDの数は、最大20の`Result Limit`値によって決まります。 特定のルールベースの製品プロモーションの`Configurable Maximum`と組み合わされた`Result Limit`値が`Real Limit`になり、リストに表示できる一致する製品の実際の数が決定されます。
 
 [結果制限] + [設定可能な最大値] = [実際の制限]
 
@@ -71,7 +86,7 @@ ht-degree: 0%
 
 1. 左側のパネルで、**[!UICONTROL Catalog]**&#x200B;を展開し、下の&#x200B;**[!UICONTROL Catalog]**&#x200B;を選択します。
 
-1. ![&#x200B; セクションの](../assets/icon-display-expand.png)拡張&#x200B;**[!UICONTROL Rules-Based Product Relations]**&#x200B;を展開します。
+1. **[!UICONTROL Rules-Based Product Relations]** セクションの![拡張](../assets/icon-display-expand.png)を展開します。
 
    ![&#x200B; カタログ設定 – ルールベースの製品リレーション &#x200B;](../configuration-reference/catalog/assets/catalog-rule-based-product-relations.png){width="600" zoomable="yes"}
 

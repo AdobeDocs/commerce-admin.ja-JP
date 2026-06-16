@@ -2,40 +2,53 @@
 title: ストアフロントのレイアウト例
 description: ページレイアウトオプションの例を確認します。
 exl-id: 1cda1175-269b-42b9-bf4e-9bf14483da1d
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: https://experienceleague.adobe.com/rYnP28GqKMyPGcZSkCWAJAjlA6tNv2Rr-l4DDegU-UQ
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: 300
 ht-degree: 0%
 
 ---
 
 # ストアフロントのレイアウト例
 
-列の寸法は、テーマのスタイルシートによって決まります。 ページのレイアウトに固定のピクセル幅を適用するテーマもあれば、ウィンドウやデバイスの幅に合わせてページを表示するために割合を使用するテーマもあります。
+列の寸法は、テーマのスタイルシートによって決まります。 ページレイアウトに固定のピクセル幅を適用するテーマもあれば、ウィンドウやデバイスの幅に合わせてページを調整するためにパーセンテージを使用するテーマもあります。
 
-ほとんどのデスクトップテーマでは、メインの列の幅は固定されており、すべてのアクティビティはこの囲まれた領域内で行われます。 画面の解像度によっては、メインの列の両側に空のスペースがあります。
+ほとんどのデスクトップテーマは、メイン列の幅が固定されており、すべてのアクティビティはこの囲まれた領域内で行われます。 画面の解像度に応じて、メイン列の両側に空きスペースがあります。
 
-## 1 列
+## 1列
 
-1 列レイアウトのコンテンツ領域は、メイン列の全幅に広がります。 このレイアウトは、大きなバナーやスライダーを持つホームページや、ナビゲーションを必要としないページ（ログインページ、スプラッシュページ、ビデオ、フルページ広告など）でよく使用されます。
+1列のレイアウトのコンテンツ領域は、メイン列の全幅にまたがっています。 このレイアウトは、大きなバナーやスライダーを持つホームページや、ログインページ、スプラッシュページ、ビデオ、フルページ広告など、ナビゲーションを必要としないページによく使用されます。
 
-![1 列レイアウトの例 &#x200B;](./assets/page-layout-1-col.png){width="700" zoomable="yes"}
+![1列レイアウトの例](./assets/page-layout-1-col.png){width="700" zoomable="yes"}
 
-## 左側に棒が付いた 2 列
+## 左の棒グラフを持つ2つの列
 
-このレイアウトのコンテンツ領域は 2 つの列に分割されています。 メインコンテンツ列は右に、サイドバーは左にフローティングします。
+このレイアウトのコンテンツ領域は2つの列に分かれています。 メインコンテンツ列は右にフロートし、サイドバーは左にフロートします。
 
-![&#x200B; 左側に棒が付いた 2 つの列の例 &#x200B;](./assets/page-layout-2-col-left-bar.png){width="700" zoomable="yes"}
+![左の棒が付いた2つの列の例](./assets/page-layout-2-col-left-bar.png){width="700" zoomable="yes"}
 
-## 右側のバー付き 2 列
+## 右側のバーを持つ2つの列
 
-このレイアウトは、他の 2 列のレイアウトのミラーイメージです。 今度は、サイドバーが右側にフローティングし、メインコンテンツ列が左側にフローティングします。
+このレイアウトは、他の2列レイアウトのミラーイメージです。 今回は、サイドバーが右に浮かび、メインコンテンツ列が左に浮かびます。
 
-![&#x200B; 右バーのある 2 列の例 &#x200B;](./assets/page-layout-2-col-right-bar.png){width="700" zoomable="yes"}
+![右側の棒が付いた2つの列の例](./assets/page-layout-2-col-right-bar.png){width="700" zoomable="yes"}
 
-## 3 列
+## 三段組
 
-3 列のレイアウトには、2 つの側列を持つメインコンテンツ領域があります。 左側のサイドバーとメインコンテンツ列は一緒にラップされ、左側にユニットとしてフロートされます。 もう一方のサイドバーは右側に浮かんでいます。
+3列のレイアウトには、2つのサイドカラムを持つメインコンテンツ領域があります。 左側のサイドバーとメインコンテンツ列は一緒にラップされ、左側にユニットとして浮動します。 もう一方のサイドバーは右に浮かびます。
 
-![3 列の例 &#x200B;](./assets/page-layout-3-col.png){width="700" zoomable="yes"}
+![3列の例](./assets/page-layout-3-col.png){width="700" zoomable="yes"}

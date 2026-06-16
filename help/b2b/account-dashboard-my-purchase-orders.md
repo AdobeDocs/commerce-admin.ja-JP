@@ -1,71 +1,85 @@
 ---
-title: "[!UICONTROL My Purchase Orders]"
-description: 発注書と、それを使用して企業が購入を管理する方法について説明します。
+title: '[!UICONTROL My Purchase Orders]'
+description: 発注と、それを使用して購買を管理する方法について説明します。
 exl-id: b7348bc8-b874-4642-a372-530883d9d94c
 feature: B2B, Companies, Purchase Orders
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+TQID: https://experienceleague.adobe.com/3Vb9ux3eccHF7GUlNdiKIkc12vLFNJv9R3Rkz81ch4M
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: 474
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL My Purchase Orders]
 
-発注書が [&#x200B; 会社に対して有効 &#x200B;](purchase-order-flow.md) になっている場合、会社のユーザーアカウントにサインインした顧客の注文はすべて発注書（PO）として自動的に作成されます。 必要な権限を持つ会社ユーザーは、下位ユーザーが作成した PO と共に、自分が作成した PO を作成、編集および削除できます。
+会社[&#128279;](purchase-order-flow.md)に対して発注書が有効になっている場合、会社のユーザーアカウントにサインインしている顧客に対する注文は、発注書（PO）として自動的に作成されます。 必要な権限を持つ会社ユーザーは、自分が作成したPOと、下位ユーザーが作成したPOを作成、編集および削除できます。
 
-![&#x200B; 自分の発注書 &#x200B;](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
+![自分の発注書](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->発注：品目価格、値引および受注作成時の出荷価格の _スナップショット_ を作成します。 発注の作成後に品目の価格が変更された場合は、元の価格が使用されます。
+>注文作成時に、商品の価格、割引、配送価格の&#x200B;_スナップショット_&#x200B;が作成されます。 POの作成後に商品の価格が変更された場合は、元の価格が使用されます。
 
-## 発注書の管理
+## 発注の管理
 
-顧客は _役割の権限_ に応じて、「発注の表示 [&#x200B; ページから発注を管理でき &#x200B;](account-company-roles-permissions.md) す。
+_発注書を表示_ ページから、お客様は[役割の権限](account-company-roles-permissions.md)に応じてPOを管理できます。
 
-- 発注を表示するには、「**[!UICONTROL View]**」をクリックします。
-- 発注に関するコメントを表示するには、「**[!UICONTROL Comments]**」タブをクリックします。
-- すべての注文履歴を表示するには、「**[!UICONTROL History Log]**」タブをクリックします。
+- POを表示するには、**[!UICONTROL View]**&#x200B;をクリックします。
+- POに関するコメントを表示するには、「**[!UICONTROL Comments]**」タブをクリックします。
+- 完全な注文履歴を表示するには、「**[!UICONTROL History Log]**」タブをクリックします。
 
 >[!IMPORTANT]
 >
->発注書の品目が在庫切れか、または使用可能な数量が不十分な場合、発注書が実際の注文に変換されると、エラーが発生します。 バックオーダーが有効な場合、オーダーは通常どおり処理されます。
+>発注の品目が在庫切れであるか、数量が不足している場合、発注が実際の注文に変換されると、エラーが発生します。 バックオーダーが有効になっている場合、注文は正常に処理されます。
 
-## 既存の発注書からの新しい発注書
+## 既存の発注からの新規発注
 
-顧客が既存の発注を持っていて、新しい品目を追加する場合は、新しい発注に追加された新しい製品を使用して、重複する発注を生成できます。 お客様は次の手順を完了します。
+お客様が既存の発注書を持っていて、新しい品目を追加したい場合は、新しい製品を新しい発注書に追加した状態で、重複した発注書を生成できます。 お客様は次の手順を実行します。
 
-1. _自分の発注書_ ページで、顧客は発注書を見つけ、**[!UICONTROL View]** リンクをクリックします。
+1. _My Purchase Order_ ページで、お客様は発注書を見つけ、**[!UICONTROL View]** リンクをクリックします。
 
-1. 顧客は「**[!UICONTROL Add Items to Shopping Cart]**」をクリックします。
+1. お客様は&#x200B;**[!UICONTROL Add Items to Shopping Cart]**&#x200B;をクリックします。
 
-   買い物かごページが開き、すべての項目がリストされます。
+   ショッピングカートページが開き、すべてのアイテムが表示されます。
 
-1. 追加や変更を行います。
+1. 追加や変更を加えます。
 
-1. （任意） **[!UICONTROL Custom Reference Number]** を使用して、注文に内部請求書/発注書番号を追加します。
+1. （オプション） **[!UICONTROL Custom Reference Number]**&#x200B;を使用して、内部請求書/PO番号を注文に追加します。
 
-1. 通常のチェックアウトワークフローに従い、**[!UICONTROL Place Purchase Order]** をクリックします。
+1. 通常のチェックアウト ワークフローに従って、**[!UICONTROL Place Purchase Order]**&#x200B;をクリックします。
 
-買い物かごにアイテムがある状態でクリックすると、ダ _[!UICONTROL Add Items to Shopping Cart]_&#x200B;アログが表示されます。 このダイアログでは、買い物かごの項目を新しい項目と結合するか、買い物かごの項目を発注書内の項目に置き換えるかを選択できます。
+_[!UICONTROL Add Items to Shopping Cart]_&#x200B;をクリックしたときに買い物かごにアイテムがある場合は、ダイアログが表示されます。 このダイアログでは、買い物かごのアイテムを新しいアイテムに結合するか、買い物かごのアイテムをPOのアイテムに置き換えるかを選択できます。
 
-元の発注書は、不要になった場合はクローズできます。
+元の発注は、不要になった場合にクローズできます。
 
-## 発注書承認
+## 発注の承認
 
-会社の構造に基づいて承認者として指定された顧客、または会社の役割が割り当てられた顧客の場合、_[!UICONTROL My Purchase Orders]_&#x200B;ダッシュボードページには「**[!UICONTROL Requires My Approval]**」タブが表示されます。 顧客はこのタブをクリックして、承認待ちの PO を確認します。 カウンターには、承認待ちの注文の数が表示されます。
+会社構造または割り当てられた会社の役割に基づいて承認者として指定された顧客の場合、_[!UICONTROL My Purchase Orders]_&#x200B;ダッシュボードページには「**[!UICONTROL Requires My Approval]**」タブが表示されます。 お客様は、このタブをクリックして、承認を待っているPOを確認します。 カウンターには、承認待ちの注文数が表示されます。
 
-発注の「**[!UICONTROL View]**」をクリックし、詳細をレビューした後、承認者は「**[!UICONTROL Approve]**」または「**[!UICONTROL Reject]**」をクリックできます。
+発注書の&#x200B;**[!UICONTROL View]**&#x200B;をクリックし、詳細を確認した後、承認者は&#x200B;**[!UICONTROL Approve]**&#x200B;または&#x200B;**[!UICONTROL Reject]**&#x200B;をクリックできます。
 
 ### 一括承認/却下
 
-Adobe Commerce 2.4.1 以降では、承認者は一度に複数の発注書を承認または却下できます。
+Adobe Commerce 2.4.1以降、承認者は一度に複数の発注を承認または却下できます。
 
 1. _[!UICONTROL My Purchase Order]_&#x200B;ページで、「**[!UICONTROL Requires My Approval]**」タブをクリックします。
 
-1. 承認または拒否する各発注書のチェックボックスを選択します。
+1. 承認または却下する各発注のチェックボックスを選択します。
 
-1. **[!UICONTROL Approve Selected]** または **[!UICONTROL Reject Selected]** をクリックします。
+1. **[!UICONTROL Approve Selected]**&#x200B;または&#x200B;**[!UICONTROL Reject Selected]**&#x200B;をクリックします。
 
-顧客は、アクションが許可されているステータスの発注書のみを選択できます。 会社管理者は、会社内のアクティブな発注書に対して一括承認または却下を行うことができます。
+顧客は、アクションを許可するステータスを持つ発注のみを選択できます。 会社の管理者は、会社のアクティブな発注に対して一括承認または却下を行うことができます。

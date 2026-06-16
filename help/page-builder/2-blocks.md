@@ -3,9 +3,23 @@ title: '[!DNL Page Builder] チュートリアル パート 2: ブロック'
 description: ' [!DNL Page Builder]を使用する場合の単純ブロックと動的ブロックの違いを説明します。'
 exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/ZCD-tDNnFO-wtivK5wOjriexmRs8h10ZzvedjmqOIds
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: 2071
 ht-degree: 0%
 
 ---
@@ -224,7 +238,7 @@ _[!UICONTROL Layout]_&#x200B;の下の[!DNL Page Builder] パネルで、**[!UIC
    | 2行目： | `24px` |
    | 3行目： | `18px` |
 
-   このブロックはページ上の任意の場所に配置できるので、見出しレベルではなくデフォルトの段落スタイルを使用します。 また、テキストがまだ列で正しく折り返されないことを心配しないでください。  
+   このブロックはページ上の任意の場所に配置できるので、見出しレベルではなくデフォルトの段落スタイルを使用します。また、テキストがまだ列で正しく折り返されないことを心配しないでください。  
 
    ![書式設定されたテキスト &#x200B;](./assets/pb-tutorial2-column-text-editor-text-formatted.png){width="600" zoomable="yes"}
 

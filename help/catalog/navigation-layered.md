@@ -3,9 +3,27 @@ title: 階層化されたナビゲーション
 description: 階層化されたナビゲーションによって、カテゴリーや価格帯などの属性にもとづいて商品を簡単に見つける方法を解説します。
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 687169e4333d60eb1b876e24e6855fbb59fb598f
+TQID: https://experienceleague.adobe.com/6mwLiMtF8wB65C5ORHGLw4sZOuinIr91ChBul0Gfc-o
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: 1409
 ht-degree: 2%
 
 ---
@@ -26,7 +44,7 @@ ht-degree: 2%
 >
 >このトピックで説明するフィルター可能な属性要件は、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)で異なります。 詳しくは、[&#x200B; ファセット &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-admin/facets/facets)を参照してください。
 
-階層化されたナビゲーションを使用して、カテゴリ別または属性別に商品を検索できます。 例えば、買い物客が上部ナビゲーションから「メンズ/ショートパンツ」カテゴリを選択すると、最初の結果にはカテゴリ内のすべての商品が含まれます。 特定のスタイル、気候、色、素材、パターン、価格（または値の組み合わせ）を選択して、リストをさらにフィルタリングできます。 フィルター可能な属性は、各属性値を一覧表示する拡張セクションに表示されます。 オプションとして、一致する結果を持つ製品のリストを、一致する製品を含めるか、一致しない製品を含めるように設定できます。
+階層化されたナビゲーションを使用して、カテゴリ別または属性別に商品を検索できます。 例えば、買い物客が上部のナビゲーションから「メンズ/Shorts」カテゴリを選択すると、最初の結果にはカテゴリ内のすべての商品が含まれます。 特定のスタイル、気候、色、素材、パターン、価格（または値の組み合わせ）を選択して、リストをさらにフィルタリングできます。 フィルター可能な属性は、各属性値を一覧表示する拡張セクションに表示されます。 オプションとして、一致する結果を持つ製品のリストを、一致する製品を含めるか、一致しない製品を含めるように設定できます。
 
 属性プロパティと製品入力タイプを組み合わせることで、階層化されたナビゲーションに使用できる属性を決定します。 階層化されたナビゲーションは、[_アンカー_](categories-display-settings.md) カテゴリでのみ使用できますが、検索結果ページにも追加できます。 各属性のストア所有者&#x200B;**プロパティの** カタログ入力タイプは、`Yes/No`、`Dropdown`、`Multiple Select`または`Price`に設定する必要があります。 属性をフィルター可能にするには、それぞれの「**レイヤーナビゲーションで使用**」プロパティを`Filterable (with results)`または`Filterable (no results)`のいずれかに設定する必要があります。
 

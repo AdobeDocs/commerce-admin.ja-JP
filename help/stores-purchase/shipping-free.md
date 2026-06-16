@@ -1,81 +1,94 @@
 ---
 title: 送料無料
-description: ストアに送料無料オプションを設定する方法を説明します。
+description: ストアに送料無料オプションを設定する方法について説明します。
 exl-id: 3ce69583-0f7f-4c23-b3e3-7d2502bc1bca
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/bLvgCzOtiYjpSdTm7f0Te5fjWbiaL3mfC4DN8ONbOLs
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: 395
 ht-degree: 0%
 
 ---
 
 # 送料無料
 
-_送料無料_ は、あなたが提供できる最も効果的なプロモーションの 1 つです。 これは、最小購入に基づくことも、一連の条件を満たした場合に適用される [&#x200B; 買い物かご価格ルール &#x200B;](../merchandising-promotions/price-rules-cart.md) として設定することもできます。 両方が同じ注文に適用される場合、設定は買い物かごルールよりも優先されます。
+_送料無料_&#x200B;は、最も効果的なプロモーションの1つです。 最低購入額に基づいて設定することも、一連の条件が満たされたときに適用される[&#x200B; カート価格ルール &#x200B;](../merchandising-promotions/price-rules-cart.md)として設定することもできます。 両方が同じ注文に適用される場合、設定設定は買い物かごルールよりも優先されます。
 
 >[!NOTE]
 >
->無料配送に必要な追加の設定については、配送業者の設定を確認してください。
+>送料無料に必要な追加の設定については、配送業者の設定を確認してください。
 
-## 手順 1：送料無料の設定
+## ステップ 1：送料無料の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Delivery Methods]**」を選択します。
+1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Delivery Methods]**&#x200B;を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Free Shipping]**」セクションを展開します。
+1. **[!UICONTROL Free Shipping]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
    >[!NOTE]
    >
-   >必要に応じて、まず「**[!UICONTROL Use system value]**」チェックボックスの選択を解除し、説明に従って次の設定を変更します。
+   >必要に応じて、最初に&#x200B;**[!UICONTROL Use system value]** チェックボックスの選択を解除し、説明に従って次の設定を変更します。
 
-1. **[!UICONTROL Enabled]** を `Yes` に設定します。
+1. **[!UICONTROL Enabled]**&#x200B;を`Yes`に設定します。
 
-1. **[!UICONTROL Title]** しくは、チェックアウト時の送料無料方法を識別するタイトルと、その説明 **[!UICONTROL Method Name]** を入力します。
+1. **[!UICONTROL Title]**&#x200B;の場合、チェックアウト時に送料無料の方法を識別するタイトルと、それを説明する&#x200B;**[!UICONTROL Method Name]**&#x200B;を入力します。
 
-1. **[!UICONTROL Minimum Order Amount]** に、送料無料の対象となる最小合計値を入力します。
+1. **[!UICONTROL Minimum Order Amount]**&#x200B;の場合、送料無料に適格な最小合計値を入力します。
 
    >[!TIP]
    >
-   >[&#x200B; テーブル料金 &#x200B;](shipping-table-rate.md) で送料無料を使用するには、_[!UICONTROL Minimum Order Amount]_&#x200B;が満たされないほど高くします。 この高い値を使用すると、価格ルールによってトリガーされない限り、送料無料が有効になりません。
+   >[表の料金](shipping-table-rate.md)で送料無料を利用するには、_[!UICONTROL Minimum Order Amount]_&#x200B;を高くして、満たされないようにします。 この高い値を使用すると、価格規則によってトリガーされない限り、送料無料が有効になりません。
 
-1. Set **[!UICONTROL Include Tax to Amount]**:
+1. **[!UICONTROL Include Tax to Amount]**&#x200B;を設定：
 
-   - `Yes` – 最小注文金額を計算する際に税金を含みます（小計+税金 – 割引）。
-   - `No` – 最小注文金額（小計 – 割引）の計算時に税金を含まない。
+   - `Yes` – 最低注文金額（小計+税 – 割引）を計算する際に税金が含まれます。
+   - `No` – 最低注文金額（小計 – 割引）を計算する際に税金が含まれていません。
 
-   ![&#x200B; 送料無料 &#x200B;](../configuration-reference/sales/assets/delivery-methods-free-shipping.png){width="600" zoomable="yes"}
+   ![送料無料](../configuration-reference/sales/assets/delivery-methods-free-shipping.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Displayed Error Message]**：送料無料が利用できなくなった場合に表示するメッセージを入力します。
+1. **[!UICONTROL Displayed Error Message]**&#x200B;について、送料無料が利用できなくなった場合に表示されるメッセージを入力します。
 
-1. Set **[!UICONTROL Ship to Applicable Countries]**:
+1. **[!UICONTROL Ship to Applicable Countries]**&#x200B;を設定：
 
-   - `All Allowed Countries` - ストア設定で指定されたすべての [&#x200B; 国 &#x200B;](../getting-started/store-details.md#country-options) のお客様は送料無料を使用できます。
+   - `All Allowed Countries` - ストア設定で指定されたすべての[国](../getting-started/store-details.md#country-options)のお客様は、送料無料を利用できます。
 
-   - `Specific Countries` – この値を選択すると、_[!UICONTROL Ship to Specific Countries]_&#x200B;リストが表示されます。 リストから、送料無料を使用できる国を 1 つずつ選択します。
+   - `Specific Countries` – この値を選択すると、_[!UICONTROL Ship to Specific Countries]_&#x200B;リストが表示されます。 送料無料を利用できる国をリストから選択します。
 
-1. Set **[!UICONTROL Show Method if Not Applicable]**:
+1. **[!UICONTROL Show Method if Not Applicable]**&#x200B;を設定：
 
-   - `Yes` – 適用できない場合でも、常に送料無料の方法を表示します。
-   - `No` – 該当する場合にのみ送料無料の方法を表示します。
+   - `Yes` – 適用されない場合でも、常に送料無料の方法を表示します。
+   - `No` – 該当する場合にのみ、送料無料の方法を表示します。
 
-1. **[!UICONTROL Sort Order]**：送料無料の位置を決定する番号を、チェックアウト時に配送方法のリストに入力します。
+1. **[!UICONTROL Sort Order]**&#x200B;の場合、チェックアウト時の配送方法のリストに、送料無料の位置を決定する番号を入力します。
 
-   `0` = 1 番目、`1` = 2 番目、`2` = 3 番目など。
+   `0` = first、`1` = second、`2` = thirdなど。
 
-1. 「**[!UICONTROL Save Config]**」をクリックします。
+1. **[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-## 手順 2：通信事業者設定で送料無料を有効にする
+## 手順2: キャリア設定で送料無料を有効にする
 
-送料無料のために使用する予定の各通信事業者に必要な設定を完了してください。 例えば、[UPS 設定 &#x200B;](ups.md) が完了していない場合は、次の設定を更新して送料無料を有効にし、設定します。
+送料無料で使用する各キャリアに必要な設定を完了してください。 例えば、[UPS設定](ups.md)が完了した場合は、次の設定を更新して送料無料を有効にして設定します。
 
-1. _[!UICONTROL Delivery Methods]_&#x200B;設定で、「拡張セレクター ![&#x200B; の「**[!UICONTROL UPS]**」セクション &#x200B;](../assets/icon-display-expand.png) 展開します。
+1. _[!UICONTROL Delivery Methods]_&#x200B;設定で、**[!UICONTROL UPS]**&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-1. **[!UICONTROL Free Method]** を `UPS Ground` または送料無料に指定する別のタイプに設定します。
+1. **[!UICONTROL Free Method]**&#x200B;を`UPS Ground`または送料無料で指定する別の種類に設定します。
 
-1. 送料無料の最低注文を要求するには、**[!UICONTROL Enable Free Shipping Threshold]** を `Enable` に設定します。
+1. 送料無料の最低注文を必要とするには、**[!UICONTROL Enable Free Shipping Threshold]**&#x200B;を`Enable`に設定します。
 
-   最小注文を使用する場合は、**[!UICONTROL Free Shipping Amount Threshold]** に必要な金額を入力します。
+   最低注文を使用する場合は、**[!UICONTROL Free Shipping Amount Threshold]**&#x200B;に必要な金額を入力してください。
 
-1. 「**[!UICONTROL Save Config]**」をクリックします。
+1. **[!UICONTROL Save Config]**&#x200B;をクリックします。

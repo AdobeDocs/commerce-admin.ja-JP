@@ -3,9 +3,26 @@ title: ' [!DNL Commerce]  アカウントを共有'
 description: 他の [!DNL Commerce]  アカウント所有者に対して [!DNL Commerce]  アカウントへの制限付きアクセス権を付与する方法について説明します。
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 593bad9ca83e96a145beeceb0265e0080e5f7930
+TQID: https://experienceleague.adobe.com/A98obp-6T8JgE0yCm0TmxpRslEq2Cb-5m53rBfxzfhg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: 1078
 ht-degree: 0%
 
 ---
@@ -116,8 +133,8 @@ ht-degree: 0%
    >
    > **[!UICONTROL Delete]**&#x200B;が表示されない場合は、**[!UICONTROL Share Name]**&#x200B;に命名パターン `Cloud Shared Access from MAG0XYZ`が含まれているかどうかを確認してください。 アカウントに[名前付けパターンがあり、削除できない](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)場合、これは、Shared Accessが[Commerce アカウント &#x200B;](https://account.magento.com/)から直接ではなく、APIによって作成されたためです。
    > 
-   > 削除できない場合は、アカウント所有者が共有アクセスアカウントを変更し、「アカウント権限を付与」で、すべての項目のチェックを外します。 このアップデートの後、ユーザーはアカウントリソースにアクセスできなくなります。
-   > ![画像](https://git.corp.adobe.com/AdobeDocs/commerce-admin.ja-JP/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
+   > 削除できない場合は、アカウント所有者が共有アクセスアカウントを変更し、「アカウント権限を付与」で、すべての項目のチェックを外します。このアップデートの後、ユーザーはアカウントリソースにアクセスできなくなります。
+   > ![画像](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
    > また、ユーザーがメール通知を受け取らないように、ユーザーがプロジェクトから削除されていることを確認します。[以前のチームメンバーは、Adobe Commerce クラウド通知メールを受け取ります](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 

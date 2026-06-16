@@ -3,9 +3,24 @@ title: カート設定
 description: ストアでの購入体験をサポートするために設定できるショッピングカート機能について説明します。
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: 2417
 ht-degree: 0%
 
 ---
@@ -36,7 +51,7 @@ ht-degree: 0%
 
 ## ミニカート
 
-_ミニカート_には、カート内のアイテムの概要が表示されます。 デフォルトでは有効になっており、ページの上部にある「買い物かご」リンクをクリックすると表示されます。
+_ミニカート_には、カート内のアイテムの概要が表示されます。デフォルトでは有効になっており、ページの上部にある「買い物かご」リンクをクリックすると表示されます。
 このリンクは、カート内の異なる商品（またはSKU）の数、またはすべての商品の合計数量を表示するように設定できます。
 
 ![買い物客は、商品ページのショッピングカートのサイドバーを表示します](./assets/storefront-mini-cart-watch.png){width="700" zoomable="yes"}

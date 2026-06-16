@@ -2,9 +2,26 @@
 title: Commerce マーチャンダイジングとプロモーションの概要
 description: カスタマーエンゲージメントを目的としたプロモーションやオポチュニティを作成するための Commerce ツールについて説明します。
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
+TQID: https://experienceleague.adobe.com/2ZEsUmKW8TQM53KFXWxyQGb9h4yFXHsjnFu8q25PCT8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: 1049
 ht-degree: 1%
 
 ---
@@ -17,7 +34,7 @@ ht-degree: 1%
 
 _マーチャンダイジング_&#x200B;は、平面図の開発と製品のプレゼンテーションのアートと科学を説明するために小売で使用される用語です。 [&#x200B; カテゴリーベースのナビゲーション &#x200B;](../catalog/navigation-top.md)は、ストアのフロアプランと考えることができ、ストア内の商品のリストに適用できる条件として、商品の動的なプレゼンテーションを考えることができます。 また、商品の売上を増加させるためのプログラムを導入することもできます。
 
-- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [Visual Merchandiser](visual-merchandiser.md) – 製品を配置し、カテゴリ リストに表示される製品を決定する条件を適用できる高度なツールのセット。
+- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [Visual Merchandiser](visual-merchandiser.md) – 製品を配置し、カテゴリ リストに表示される製品を決定する条件を適用できる高度なツールのセット。
 
 - [&#x200B; ギフト レジストリ &#x200B;](gift-registries.md) – 特別な機会にギフト レジストリを作成し、友人や家族を招待してギフト レジストリからギフトを購入する機能をお客様に提供します。
 
@@ -66,8 +83,8 @@ Adobe Commerceでは、プロモーション機能を利用して商品との関
 
 >[!NOTE]
 >
->Adobe CommerceおよびMagento Open Source リリース 2.4.0 ～ 2.4.3には、dotdigital Engagement Cloudとの統合に使用するdotdigital ベンダー開発の拡張機能が含まれています。 2.4.4 リリース以降、この拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 Marketplaceでは、拡張機能の開発者が提供する最新のドキュメントにもアクセスできます。
-><br><br>>バンドル拡張機能を有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 詳しくは、_アップグレードガイド_&#x200B;の[&#x200B; アップグレードモジュール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ja)を参照してください。
+>Adobe CommerceおよびMagento Open Source リリース 2.4.0 ～ 2.4.3には、dotdigital Engagement Cloudとの統合に使用するdotdigital ベンダー開発の拡張機能が含まれています。2.4.4 リリース以降、この拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。Marketplaceでは、拡張機能の開発者が提供する最新のドキュメントにもアクセスできます。
+><br><br>> バンドル拡張機能を有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。詳しくは、_アップグレードガイド_&#x200B;の[&#x200B; アップグレードモジュール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ja)を参照してください。
 
 - [&#x200B; ニュースレター](newsletters.md) - ニュースレターを作成し、購読者リストを管理し、コンテンツを開発し、ストアへのトラフィックを促進します。
 

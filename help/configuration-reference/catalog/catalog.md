@@ -3,9 +3,29 @@ title: '[!UICONTROL Catalog] > [!UICONTROL Catalog]'
 description: Commerce管理者の[!UICONTROL Catalog] > [!UICONTROL Catalog] ページで設定を確認します。
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: f8849b9cf570b2bc3a9d141ddde320ae36a9294a
+TQID: https://experienceleague.adobe.com/YbozeuP9oPvSfHp1zSajemcBuqgkfrkxbfiJmuD625U
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '3350'
+source-wordcount: 3350
 ht-degree: 0%
 
 ---
@@ -33,7 +53,7 @@ ht-degree: 0%
 
 ![製品レビュー](./assets/catalog-product-reviews.png)<!-- zoom -->
 
-<!-- [Product Reviews](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews) -->
+<!-- [Product Reviews](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -46,7 +66,7 @@ ht-degree: 0%
 
 ![&#x200B; ストアフロント &#x200B;](./assets/catalog-storefront.png)<!-- zoom -->
 
-<!-- [Storefront](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog/navigation/navigation-product-listings) -->
+<!-- [Storefront](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-product-listings) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -70,7 +90,7 @@ ht-degree: 0%
 
 ![製品アラート &#x200B;](./assets/catalog-product-alerts.png)<!-- zoom -->
 
-<!-- [Product Alerts](https://experienceleague.adobe.com/ja/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
+<!-- [Product Alerts](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -86,7 +106,7 @@ ht-degree: 0%
 
 ![製品アラート実行設定](./assets/catalog-product-alerts-run-settings.png)<!-- zoom -->
 
-<!-- [Product Alerts Run Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
+<!-- [Product Alerts Run Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -120,7 +140,7 @@ ht-degree: 0%
 
 ![最近閲覧/比較した商品](./assets/catalog-recently-viewed-and-compared-products.png)<!-- zoom -->
 
-<!-- Recently Viewed/Compared Products](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/shopper-tools/products-viewed-compared) -->
+<!-- Recently Viewed/Compared Products](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/products-viewed-compared) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -137,7 +157,7 @@ ht-degree: 0%
 
 ![製品ビデオ &#x200B;](./assets/catalog-product-video.png)<!-- zoom -->
 
-<!-- [Product Videos](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/digital-assets/product-video) -->
+<!-- [Product Videos](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-video) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -152,7 +172,7 @@ ht-degree: 0%
 
 ![価格](./assets/catalog-price.png)<!-- zoom -->
 
-<!--Price](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/pricing/catalog-price-scope) -->
+<!--Price](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/catalog-price-scope) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -165,7 +185,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この節で説明する標準的な検索設定は、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ja)で異なります。
+>この節で説明する標準的な検索設定は、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)で異なります。
 
 <!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
@@ -190,7 +210,7 @@ ht-degree: 0%
 
 ![&#x200B; カテゴリ権限](./assets/catalog-category-permissions.png)<!-- zoom -->
 
-<!-- [Category Permissions](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/categories/category-permissions) -->
+<!-- [Category Permissions](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/category-permissions) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -206,11 +226,11 @@ ht-degree: 0%
 
 ![検索エンジン最適化](./assets/catalog-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/settings/product-search-engine-optimization) -->
+<!-- [Search Engine Optimization](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/settings/product-search-engine-optimization) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | ストアビュー | _Popular Search Terms_&#x200B;がストアに実装されているかどうかを判断します。 この設定は、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ja)を使用するストアには適用されません。 オプション：`Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | ストアビュー | _Popular Search Terms_&#x200B;がストアに実装されているかどうかを判断します。 この設定は、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)を使用するストアには適用されません。 オプション：`Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | ストアビュー | htmlやhtmなどの接尾辞を製品URLに適用するかどうかを指定します。 使用する場合は、自動的に適用されるので、接尾辞の前に期間を含めないでください。 |
 | [!UICONTROL Category URL Suffix] | ストアビュー | htmlやhtmなどのサフィックスをカテゴリ URLに適用するかどうかを指定します。 使用する場合は、自動的に適用されるので、接尾辞の前に期間を含めないでください。 |
 | [!UICONTROL Use Categories Path for Product URLs] | ストアビュー | ストアフロントの製品URLにカテゴリーパスが含まれているかどうかを指定します。 これにより、複数のURLが同じページを指すようになり、検索順位に影響を与える可能性があります。 詳しくは、[正規メタタグ &#x200B;](../../merchandising-promotions/meta-data.md#canonical-meta-tag)を参照してください。 |
@@ -227,7 +247,7 @@ ht-degree: 0%
 
 ![&#x200B; カテゴリの上位ナビゲーション &#x200B;](./assets/catalog-category-top-navigation.png)<!-- zoom -->
 
-<!-- Category Top Navigation](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog/navigation/navigation-top) -->
+<!-- Category Top Navigation](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-top) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -237,7 +257,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-カタログ検索は、[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ja)またはAdobe Commerceがサポートするサードパーティの検索エンジンサービスを使用して設定できます。 インストールの手順に従います。
+カタログ検索は、[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)またはAdobe Commerceがサポートするサードパーティの検索エンジンサービスを使用して設定できます。 インストールの手順に従います。
 
 ### Adobe Commerceと[!DNL Live Search]
 
@@ -262,7 +282,7 @@ Adobe Commerceは、OpenSearchとElasticsearchをサポートしています。 
 
 >[!IMPORTANT]
 >
->- 2023年8月のElasticsearch 7のサポート終了のお知らせにより、Adobeでは、すべてのAdobe Commerceのお客様がOpenSearch 2.x検索エンジンに移行することをお勧めします。 アップグレード中に検索エンジンを移行する方法について詳しくは、_アップグレードガイド_&#x200B;の「[OpenSearchへの移行](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=ja)」を参照してください。
+>- 2023年8月のElasticsearch 7のサポート終了のお知らせにより、Adobeでは、すべてのAdobe Commerceのお客様がOpenSearch 2.x検索エンジンに移行することをお勧めします。 アップグレード中に検索エンジンを移行する方法について詳しくは、_アップグレードガイド_&#x200B;の「[OpenSearchへの移行](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)」を参照してください。
 >- バージョン 2.4.4および2.4.3-p2では、「Elasticsearch」というラベルが付けられたすべてのフィールドがOpenSearchにも適用されます。 Elasticsearch 8.xのサポートがバージョン 2.4.6で導入されたときには、ElasticsearchとOpenSearchの設定を区別するために新しいラベルが作成されました。 ただし、両方の設定オプションは同じです。
 
 ![&#x200B; カタログ検索設定オプション &#x200B;](./assets/catalog-search-opensearch.png){zoomable="yes"}
@@ -295,7 +315,7 @@ Adobe Commerceは、OpenSearchとElasticsearchをサポートしています。 
 
 ![&#x200B; ダウンロード可能な製品オプション &#x200B;](./assets/catalog-downloadable-product-options.png)<!-- zoom -->
 
-<!-- [Downloadable Product Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/types/product-create-downloadable#configure-the-download-options) -->
+<!-- [Downloadable Product Options](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-downloadable#configure-the-download-options) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -314,7 +334,7 @@ Adobe Commerceは、OpenSearchとElasticsearchをサポートしています。 
 
 ![日付と時刻のカスタムオプション &#x200B;](./assets/catalog-date-time-custom-options.png)<!-- zoom -->
 
-<!-- Date & Time Custom Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/product-attributes/attributes-input-types#date-and-time-options) -->
+<!-- Date & Time Custom Options](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types#date-and-time-options) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -331,7 +351,7 @@ Adobe Commerceは、OpenSearchとElasticsearchをサポートしています。 
 
 ![&#x200B; カタログイベント &#x200B;](./assets/catalog-events.png)<!-- zoom -->
 
-<!-- [Catalog Events](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/promotions/events/events-private-sales) -->
+<!-- [Catalog Events](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/events/events-private-sales) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -348,7 +368,7 @@ Adobe Commerceは、OpenSearchとElasticsearchをサポートしています。 
 
 ![&#x200B; ルールベースの製品リレーションシップ &#x200B;](./assets/catalog-rule-based-product-relations.png)<!-- zoom -->
 
-<!-- [Rule-Based Product Relations](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) -->
+<!-- [Rule-Based Product Relations](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

@@ -1,82 +1,98 @@
 ---
-title: 買い物かご価格ルールの例 – 送料無料プロモーション
-description: 買い物かごの価格ルールを使用して送料無料を提供する例を確認します。
+title: カートの価格ルール例 – 送料無料プロモーション
+description: カート価格ルールを使用して送料無料を提供する例を確認してください。
 exl-id: f7652254-ff01-44ff-a207-2d7cf2017517
 feature: Merchandising, Price Rules, Shopping Cart, Shipping/Delivery
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/FR-q4Qj-ZDDzmfEKSvSj-BlwsM7ro-BqAE1yCppTaXE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: 407
 ht-degree: 0%
 
 ---
 
-# 買い物かご価格ルールの例 – 送料無料プロモーション
+# カートの価格ルール例 – 送料無料プロモーション
 
-送料無料は、プロモーションとして、[&#x200B; クーポン &#x200B;](price-rules-cart-coupon.md) の有無にかかわらず提供できます。 送料無料クーポンまたは割引券を顧客の受け取り注文に適用することもできます。これにより、注文を請求および出荷して [&#x200B; ワークフロー &#x200B;](../stores-purchase/order-processing.md#order-workflow-and-processing) を完了できます。
+送料無料は、[&#x200B; クーポン &#x200B;](price-rules-cart-coupon.md)の有無を問わず、プロモーションとして提供できます。 送料無料のクーポン、またはバウチャーを顧客の受け取り注文に適用することもできるので、注文を請求して出荷して、[&#x200B; ワークフロー](../stores-purchase/order-processing.md#order-workflow-and-processing)を完了できます。
 
-一部の配送業者の設定では、最小注文に基づいて送料無料を提供できます。 この基本機能をさらに拡張するには、買い物かごの価格ルールを使用して、複数の製品属性、買い物かごの内容、顧客グループに基づいて複雑な条件を作成します。
+配送業者の構成によっては、最低注文に基づいて送料無料を提供できるものもあります。 この基本的な機能をさらに拡張するには、ショッピングカートの価格ルールを使用して、複数の製品属性、カートの内容、顧客グループに基づいて複雑な条件を作成します。
 
-## 手順 1. 送料無料を有効にする
+## 手順1: 送料無料を有効にする
 
-1. ストアの設定で [&#x200B; 送料無料 &#x200B;](../stores-purchase/shipping-free.md) を有効にします。
+1. ストア設定で[送料無料](../stores-purchase/shipping-free.md)を有効にします。
 
-1. 送料無料に使用する [&#x200B; 配送業者サービス &#x200B;](../stores-purchase/carriers.md) の送料無料設定を完了します。
+1. 送料無料に使用する[&#x200B; キャリア サービス &#x200B;](../stores-purchase/carriers.md)の送料無料設定を完了します。
 
-## 手順 2. 買い物かご価格ルールの作成
+## 手順2: 買い物かごの価格ルールの作成
 
-_管理者_ サイドバーで、**[!UICONTROL Marketing]**/_[!UICONTROL Promotions]_/**[!UICONTROL Cart Price Rules]**&#x200B;に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;に移動します。
 
-次の手順に従って、提供する送料無料プロモーションのタイプを設定します。
+以下の手順に従って、提供する送料無料プロモーションの種類を設定します。
 
-### 例 1：あらゆる注文に対する送料無料
+### 例1：任意の注文に対する送料無料
 
-1. **[!UICONTROL Rule Information]** を次のように入力します。
+1. 次のように&#x200B;**[!UICONTROL Rule Information]**&#x200B;を入力します。
 
-   - 内部参照の **[!UICONTROL Rule Name]** を入力します。
-   - ルールの簡単な **[!UICONTROL Description]** を入力します。
-   - **[!UICONTROL Active]** を `Yes` に設定します。
+   - 内部参照用に&#x200B;**[!UICONTROL Rule Name]**&#x200B;を入力します。
+   - ルールを説明する概要&#x200B;**[!UICONTROL Description]**&#x200B;を入力してください。
+   - **[!UICONTROL Active]**&#x200B;を`Yes`に設定します。
    - **[!UICONTROL Websites]** ボックスで、送料無料クーポンを利用できる各サイトを選択します。
-   - ルールを適用する **[!UICONTROL Customer Groups]** を選択します。
-   - **[!UICONTROL Coupon]** を次のいずれかに設定します。
-      - クーポンなしで送料無料プロモーションを提供するには、デフォルト（`No Coupon`）設定を受け入れます。
-      - 価格ルールでクーポンを使用するには、[`Specific Coupon`] を選択します。 必要に応じて、手順を完了して [&#x200B; クーポン &#x200B;](price-rules-cart-coupon.md) を設定します。
+   - ルールが適用される&#x200B;**[!UICONTROL Customer Groups]**&#x200B;を選択します。
+   - **[!UICONTROL Coupon]**&#x200B;を次のいずれかに設定します：
+      - クーポンなしで送料無料プロモーションを提供するには、デフォルトの（`No Coupon`）設定に従います。
+      - 価格ルールでクーポンを使用するには、`Specific Coupon`を選択します。 必要に応じて、手順を完了して[&#x200B; クーポン &#x200B;](price-rules-cart-coupon.md)を設定します。
 
-1. 下にスクロールして、「**[!UICONTROL Actions]**」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、次の操作を行います。
+1. 下にスクロールして、**[!UICONTROL Actions]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
-   - **[!UICONTROL Apply]** を `Percent of product price discount` に設定します。
-   - **[!UICONTROL Apply to Shipping Amount]** を `Yes` に設定します。
-   - **[!UICONTROL Free Shipping]** を `For matching items only` に設定します。
+   - **[!UICONTROL Apply]**&#x200B;を`Percent of product price discount`に設定します。
+   - **[!UICONTROL Apply to Shipping Amount]**&#x200B;を`Yes`に設定します。
+   - **[!UICONTROL Free Shipping]**&#x200B;を`For matching items only`に設定します。
 
-   ![&#x200B; 買い物かご価格ルール – 送料無料アクション &#x200B;](./assets/free-shipping-actions.png){width="600" zoomable="yes"}
+   ![買い物かごの価格ルール – 送料無料](./assets/free-shipping-actions.png){width="600" zoomable="yes"}
 
-### 例 2:$金額を超える注文の送料無料
+### 例2:$金額を超える注文の送料無料
 
-1. 前の例で説明したように、**[!UICONTROL General Information]** の設定を完了します。
+1. 前の例で説明したように、**[!UICONTROL General Information]**&#x200B;設定を完了します。
 
-1. 下にスクロールして、「**[!UICONTROL Conditions]**」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
+1. 下にスクロールして、**[!UICONTROL Conditions]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-1. _追加_ （![&#x200B; 追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックして条件を挿入し、次の手順を実行します。
+1. _Add_ （![Add icon](../assets/icon-add-green-circle.png)）をクリックして条件を挿入し、次の操作を行います。
 
-   - **[!UICONTROL Cart Attribute]** の下のリストで、「`Subtotal`」を選択します。
-   - 「**[!UICONTROL is]**」をクリックし、「`equals or greater than`」を選択します。
-   - 「**...**」をクリックし、小計のしきい値（`100` など）を入力して条件を完了します。
+   - **[!UICONTROL Cart Attribute]**&#x200B;の下のリストで、`Subtotal`を選択します。
+   - **[!UICONTROL is]**&#x200B;をクリックし、`equals or greater than`を選択します。
+   - **...**&#x200B;をクリックし、`100`などの小計のしきい値を入力して、条件を完了します。
 
-   ![&#x200B; 買い物かご価格ルール – 条件 &#x200B;](./assets/free-shipping-condition1.png){width="600" zoomable="yes"}
+   ![買い物かごの価格ルール – 条件](./assets/free-shipping-condition1.png){width="600" zoomable="yes"}
 
-1. 必要に応じて、「**[!UICONTROL Actions]**」セクションの ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、次の操作を行います。
+1. 必要に応じて、**[!UICONTROL Actions]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
-   - **[!UICONTROL Apply]** を `Percent of product price discount` に設定します。
-   - **[!UICONTROL Apply to Shipping Amount]** を `Yes` に設定します。
-   - **[!UICONTROL Free Shipping]** を `For matching items only` に設定します。
+   - **[!UICONTROL Apply]**&#x200B;を`Percent of product price discount`に設定します。
+   - **[!UICONTROL Apply to Shipping Amount]**&#x200B;を`Yes`に設定します。
+   - **[!UICONTROL Free Shipping]**&#x200B;を`For matching items only`に設定します。
 
-## 手順 3. ラベルを完成させる
+## 手順3: ラベルを記入してください
 
-買い物かご価格ルールの手順の [&#x200B; 手順 4](price-rules-cart.md) を完了して、チェックアウト時に表示されるラベルを入力します。
+チェックアウト時に表示されるラベルを入力するには、カート価格ルール手順の[手順4](price-rules-cart.md)を完了します。
 
-## 手順 4. ルールを保存してテストする
+## 手順4: ルールを保存してテストする
 
 {{new-price-rule}}
 
-1. ルールが完成したら、「**[!UICONTROL Save Rule]**」をクリックします。
+1. ルールが完了したら、**[!UICONTROL Save Rule]**&#x200B;をクリックします。
 
 1. ルールをテストして、正しく動作することを確認します。

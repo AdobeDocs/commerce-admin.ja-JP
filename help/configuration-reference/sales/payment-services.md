@@ -1,12 +1,29 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Payment Services]'
-description: Commerce Admin の [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] ページの [!UICONTROL Payment Services] セクションで、設定を確認します。
+title: '[!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL Payment Services]'
+description: Commerce管理者の[!UICONTROL Sales] > [!UICONTROL Payment Methods] ページの[!UICONTROL Payment Services] セクションの設定を確認してください。
 exl-id: 255b7bd8-1d32-4393-9eba-43dc7754c752
 feature: Configuration, Payments
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/lTYf9W1u7bIxNzypWBj20Eo42VPShCmL-qLwSAmJ8a0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 0%
+source-wordcount: 575
+ht-degree: 1%
 
 ---
 
@@ -14,79 +31,79 @@ ht-degree: 0%
 
 
 
-支払いサービスは、堅牢で安全な支払い処理を提供するために、サンドボックステストやシンプルなセットアップを含む、ターンキーのセルフサービスソリューションを提供します。 詳しくは、[_支払いサービスユーザーガイド_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=ja) を参照してください。
+決済サービスでは、サンドボックステストやシンプルな設定など、すぐに使えるセルフサービスソリューションを提供し、堅牢で安全な決済処理を実現します。 詳しくは、[_決済サービスユーザーガイド_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=ja)を参照してください。
 
-支払いサービスの設定にアクセスするには、_管理者_ サイドバーで **[!UICONTROL Sales]**/**[!UICONTROL Payment Services]** に移動し、「**[!UICONTROL Settings]**」をクリックします。
+決済サービスの設定設定にアクセスするには、_管理者_ サイドバーで&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**&#x200B;に移動し、**[!UICONTROL Settings]**&#x200B;をクリックします。
 
-![&#x200B; 資金決済の設定 &#x200B;](assets/payment-services-menu-small.png){width="400"}
+![決済サービス設定](assets/payment-services-menu-small.png){width="400"}
 
 >[!NOTE]
 >
->[&#x200B; 設定 &#x200B;](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html?lang=ja) の代わりにレガシー設定を使用するには、[&#x200B; レガシー設定 &#x200B;](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html?lang=ja) を参照してください。
+>[設定](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html?lang=ja)の代わりにレガシー設定を使用するには、[&#x200B; レガシー設定](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html?lang=ja)を参照してください。
 
 ## [!UICONTROL General]
 
-![&#x200B; 一般設定 &#x200B;](assets/payments-general-settings.png){width="600" zoomable="yes"}
+![一般設定](assets/payments-general-settings.png){width="600" zoomable="yes"}
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |---|---|---|
-| [!UICONTROL Enable] | web サイト | Web サイトの [!DNL Payment Services] を有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Payment mode] | ストア表示 | ストアのメソッド（環境）を設定します。 オプション：[!UICONTROL Sandbox] / [!UICONTROL Production] |
-| [!UICONTROL Sandbox Merchant ID] | ストア表示 | サンドボックスオンボーディング中に自動生成されるサンドボックスマーチャント ID。 |
-| [!UICONTROL Production Merchant ID] | ストア表示 | サンドボックスのオンボーディング中に自動生成される実稼動マーチャント ID。 |
-| [!UICONTROL Soft Descriptor] | web サイトまたはストア表示 | 顧客トランザクションの情報を提供し、ブランド、ストアまたは製品ラインを記述するソフト記述子を web サイトおよびストアビューに追加します。 [!UICONTROL Use website] の切り替えにより、web サイトレベルで追加されたソフト記述子が適用されます。 [!UICONTROL Use default] 切替スイッチは、デフォルトとして追加された任意のソフト記述子を適用します。 |
+| [!UICONTROL Enable] | web サイト | Web サイトの[!DNL Payment Services]を有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Payment mode] | ストアビュー | ストアのメソッドまたは環境を設定します。 オプション：[!UICONTROL Sandbox] / [!UICONTROL Production] |
+| [!UICONTROL Sandbox Merchant ID] | ストアビュー | サンドボックスのオンボーディング中に自動生成されるサンドボックスマーチャント ID。 |
+| [!UICONTROL Production Merchant ID] | ストアビュー | 本番環境でのマーチャント ID。サンドボックスのオンボーディング中に自動生成されます |
+| [!UICONTROL Soft Descriptor] | web サイトまたはストアビュー | web サイトにソフト記述子を追加し、顧客トランザクションに関する情報を提供し、ブランド、店舗、商品ラインを描くストアビューを作成します。 [!UICONTROL Use website] トグルは、web サイト レベルで追加されたソフト記述子を適用します。 [!UICONTROL Use default] トグルは、デフォルトとして追加されたソフトディスクリプタを適用します。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Credit card fields]
 
-![&#x200B; クレジットカードのフィールド設定 &#x200B;](assets/payments-ccfields-settings.png){width="600" zoomable="yes"}
+![&#x200B; クレジットカードのフィールド設定](assets/payments-ccfields-settings.png){width="600" zoomable="yes"}
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |---|---|---|
-| [!UICONTROL Title] | ストア表示 | チェックアウト時に支払い方法ビューでこの支払いオプションのタイトルとして表示するテキストを追加します。 |
-| [!UICONTROL Payment Action] | web サイト | 指定した支払方法の [&#x200B; 支払アクション &#x200B;](payment-methods.md#payment-actions)。 オプション：[!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL 3DS Secure authentication] | web サイト | [3DS セキュア認証 &#x200B;](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html?lang=ja#3ds) を有効または無効にします。 オプション：[!UICONTROL Always]/[!UICONTROL When Required]/[!UICONTROL Off] |
-| [!UICONTROL Show on checkout page] | web サイト | チェックアウトページに表示するクレジットカードフィールドを有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Vault enabled] | ストア表示 | [&#x200B; クレジット カードの保管 &#x200B;](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=ja) を有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | ストア表示 | 管理者で、顧客の注文を完了する機能を有効または無効にします [&#x200B; ボールト支払方法を使用 &#x200B;](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=ja)。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Title] | ストアビュー | チェックアウト時に、支払い方法ビューでこの支払いオプションのタイトルとして表示するテキストを追加します。 |
+| [!UICONTROL Payment Action] | web サイト | 指定された支払い方法の[支払いアクション &#x200B;](payment-methods.md#payment-actions)。 オプション：[!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
+| [!UICONTROL 3DS Secure authentication] | web サイト | [3DS セキュア認証](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html?lang=ja#3ds)を有効または無効にします。 オプション：[!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
+| [!UICONTROL Show on checkout page] | web サイト | チェックアウトページに表示するクレジットカード情報フィールドを有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Vault enabled] | ストアビュー | [&#x200B; クレジットカードの資格情報の保管](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=ja)を有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | ストアビュー | 管理者[の顧客に対して、優先支払い方法](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=ja)を使用して注文を完了する機能を有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | web サイト | デバッグモードを有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Payment buttons]
 
-![Paypal 支払いボタンの設定 &#x200B;](assets/payments-ppbuttons-settings.png){width="600" zoomable="yes"}
+![Paypal支払いボタンの設定](assets/payments-ppbuttons-settings.png){width="600" zoomable="yes"}
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |---|---|---|
-| [!UICONTROL Title] | ストア表示 | チェックアウト時に支払い方法ビューでこの支払いオプションのタイトルとして表示するテキストを追加します。 |
-| [!UICONTROL Payment Action] | web サイト | 指定した支払方法の [&#x200B; 支払アクション &#x200B;](payment-methods.md#payment-actions){target="_blank"}。 オプション：[!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL Show PayPal buttons on checkout page] | ストア表示 | チェックアウトページで [!DNL PayPal Smart Buttons] を有効または無効にします。 オプション：[!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
-| [!UICONTROL Show PayPal buttons on product detail page] | ストア表示 | 製品の詳細ページで [!DNL PayPal Smart Buttons] を有効または無効にします。 オプション：[!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
-| [!UICONTROL Show PayPal buttons in mini-cart preview] | ストア表示 | ミニ買い物かごのプレビューで [!DNL PayPal Smart Buttons] を有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show PayPal buttons on cart page] | ストア表示 | 買い物かごページの [!DNL PayPal Smart Buttons] を有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show PayPal Pay Later button] | ストア表示 | 支払ボタンが表示される後で支払う支払いオプションの外観を有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show PayPal Pay Later Message] | web サイト | 買い物かご、製品ページ、ミニカート、およびチェックアウトフロー中の「後で支払う」メッセージを有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show Venmo button] | ストア表示 | 支払ボタンが表示される Venmo 支払オプションを有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show Apple Pay button] | ストア表示 | 支払いボタンが表示される「Apple Pay」支払いオプションを有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show PayPal Credit and Debit card button] | ストア表示 | 支払いボタンが表示されるクレジット カードおよびデビット カードの支払いオプションを有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Title] | ストアビュー | チェックアウト時に支払い方法ビューでこの支払いオプションのタイトルとして表示するテキストを追加します。 |
+| [!UICONTROL Payment Action] | web サイト | 指定された支払い方法の[支払いアクション &#x200B;](payment-methods.md#payment-actions){target="_blank"}。 オプション：[!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
+| [!UICONTROL Show PayPal buttons on checkout page] | ストアビュー | チェックアウトページで[!DNL PayPal Smart Buttons]を有効または無効にします。 オプション：[!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons on product detail page] | ストアビュー | 製品詳細ページで[!DNL PayPal Smart Buttons]を有効または無効にします。 オプション：[!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons in mini-cart preview] | ストアビュー | ミニカートのプレビューで[!DNL PayPal Smart Buttons]を有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons on cart page] | ストアビュー | 買い物かごページの[!DNL PayPal Smart Buttons]を有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal Pay Later button] | ストアビュー | 支払いボタンが表示される後払い支払いオプションの表示を有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal Pay Later Message] | web サイト | ショッピングカート、製品ページ、ミニカート、チェックアウトフロー中の後払いメッセージを有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show Venmo button] | ストアビュー | 支払いボタンが表示されるVenmo支払いオプションを有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show Apple Pay button] | ストアビュー | 支払いボタンが表示されるApple支払い支払いオプションを有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal Credit and Debit card button] | ストアビュー | 支払いボタンが表示されるクレジットカードとデビットカードの支払いオプションを有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | web サイト | デバッグモードを有効または無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL PayPal Smart Button Styling]
 
-![Paypal 支払いボタンのスタイル設定 &#x200B;](assets/payments-buttonstyle-settings.png){width="600" zoomable="yes"}
+![Paypal支払いボタンのスタイル設定](assets/payments-buttonstyle-settings.png){width="600" zoomable="yes"}
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Layout] | ストア表示 | 支払いボタンのレイアウトのスタイルを定義します。 オプション：[!UICONTROL Vertical] / [!UICONTROL Horizontal] |
-| [!UICONTROL Tagline] | ストア表示 | タグラインを有効/無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Color] | ストア表示 | 支払いボタンの色を定義します。 オプション：[!UICONTROL Blue] / [!UICONTROL Gold] / [!UICONTROL Silver] / [!UICONTROL White] / [!UICONTROL Black] |
-| [!UICONTROL Shape] | ストア表示 | 支払いボタンの形状を定義します。 オプション：[!UICONTROL Rectangular] / [!UICONTROL Pill] |
-| [!UICONTROL Responsive Button Height] | ストア表示 | 支払いボタンで既定の高さを使用するかどうかを定義します。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Height] | ストア表示 | 支払いボタンの高さを定義します。 デフォルト値：なし |
-| [!UICONTROL Label] | ストア表示 | 支払いボタンに表示されるラベルを定義します。 オプション：[!UICONTROL PayPal] / [!UICONTROL Checkout] / [!UICONTROL Buynow] / [!UICONTROL Pay] / [!UICONTROL Installment] |
+| [!UICONTROL Layout] | ストアビュー | 支払いボタンのレイアウトのスタイルを定義します。 オプション：[!UICONTROL Vertical] / [!UICONTROL Horizontal] |
+| [!UICONTROL Tagline] | ストアビュー | タグラインを有効/無効にします。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Color] | ストアビュー | 支払いボタンの色を定義します。 オプション：[!UICONTROL Blue] / [!UICONTROL Gold] / [!UICONTROL Silver] / [!UICONTROL White] / [!UICONTROL Black] |
+| [!UICONTROL Shape] | ストアビュー | 支払いボタンの形状を定義します。 オプション：[!UICONTROL Rectangular] / [!UICONTROL Pill] |
+| [!UICONTROL Responsive Button Height] | ストアビュー | 支払いボタンにデフォルトの高さを使用するかどうかを定義します。 オプション：[!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Height] | ストアビュー | 支払いボタンの高さを定義します。 デフォルト値：なし |
+| [!UICONTROL Label] | ストアビュー | 支払いボタンに表示されるラベルを定義します。 オプション：[!UICONTROL PayPal] / [!UICONTROL Checkout] / [!UICONTROL Buynow] / [!UICONTROL Pay] / [!UICONTROL Installment] |
 
 {style="table-layout:auto"}

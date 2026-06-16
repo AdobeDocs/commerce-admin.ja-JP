@@ -1,328 +1,346 @@
 ---
 title: 付加価値税（VAT）
-description: '&lt；ここに説明を追加&gt;'
+description: &lt；ここに説明を追加>
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/CEUmSPDUdWxMGWRC4bXjSsBfuYJqkPNYtVx-mqxt1-M
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: 2021
 ht-degree: 0%
 
 ---
 
 # 付加価値税（VAT）
 
-製品やサービスに付加価値税を課す国もあります。 お客様に販売する製造または流通プロセス、材料、またはサービスの段階に応じて、異なる VAT レートが存在する場合があります。 複数の VAT レートを適用して、期限の税金を正しく計算できます。
+物品やサービスに付加価値税（VAT）を課す国もあります。 VAT率は、製造や流通のプロセス、材料、サービスの段階によって異なります。 複数のVAT レートを適用して、支払い期限の税金を正しく計算できます。
 
-Commerceでは、同じ国に居住している場合に、マーチャントまたはカスタマーの住所のいずれかに基づいて付加価値税を請求するように設定できます。 VAT 計算は通常、出荷元ではなく、出荷先に基づいています。 ほとんどの場合、顧客の配送先住所に基づいて VAT を計算する設定で十分です。
+Commerceでは、加盟店またはお客様の住所（両方が同じ国の場合）に基づいて付加価値税を請求するように設定できます。 VATの計算は通常、発送先ではなく、発送先に基づいて行われます。 ほとんどの場合、顧客配送先住所に基づいてVATを計算する設定設定で十分です。
 
-## サンプルシナリオ
+## シナリオ例
 
-- ある EU 諸国の VAT 登録ビジネスで、別の EU 諸国の個人に商品を供給する場合、VAT はマーチャントの場所に基づいて「遠隔販売」として計算されます。
+- あるEU加盟国のVAT登録済みビジネスで、別のEU加盟国の個人に商品を供給する場合、VATは加盟店の所在地に基づいて「遠隔販売」として計算されます。
 
-- オランダで、英国の店舗から英国の住所に配送される商品を購入する企業は、英国の VAT 税率を支払う必要があります。
+- イギリスの住所に配送するイギリスの店舗から購入するオランダのビジネスは、イギリスのVAT料金を支払う必要があります。
 
-- [&#x200B; ダウンロード可能な商品 &#x200B;](../catalog/product-create-downloadable.md) または _デジタル商品_ の販売の場合、VAT 税率は販売者の場所ではなく出荷先に基づきます。 [&#x200B; デジタル商品の供給場所 &#x200B;](taxes.md#place-of-supply-for-digital-goods-eu) を参照。
+- [&#x200B; ダウンロード可能な商品](../catalog/product-create-downloadable.md)または&#x200B;_デジタル商品_&#x200B;の販売では、VAT率は加盟店の場所ではなく、配送先に基づいています。 [&#x200B; デジタル商品の供給場所](taxes.md#place-of-supply-for-digital-goods-eu)を参照してください。
 
 >[!TIP]
 >
->一部のクロスボーダーおよび B2B 配送では、より複雑な税金要件があります。 Commerce インストールのネイティブ機能を拡張するには、[Marketplace](https://marketplace.magento.com/extensions/accounting-finance/taxes.html) から税務管理ソリューションを追加することを検討してください。
+>一部の国境を越えたB2Bの配送では、より複雑な税制が適用されます。 Commerce インストールのネイティブ機能を拡張するには、[Marketplace](https://marketplace.magento.com/extensions/accounting-finance/taxes.html)から税管理ソリューションを追加することを検討してください。
 
-## VAT の構成
+## VATの設定
 
-以下の手順には、小売顧客への販売のために英国で 20% の VAT を設定するサンプル手順が含まれています。 その他の税率や国については、一般的な手順に従いますが、お住まいの国、VAT 率、お客様のタイプなどに対応する具体的な情報を入力してください。
+次の手順には、英国で小売顧客への販売のために20%のVATを設定する手順の例が含まれています。 その他の税率や国については、一般的な手順に従いますが、国、VAT率、顧客タイプなどに対応する特定の情報を入力してください。
 
 >[!NOTE]
 >
->続行する前に、お住まいの地域の VAT に適用される規則と規制を確認してください。
+>先に進む前に、お住まいの地域のVATに適用されるルールと規制を確認してください。
 
-B2B 取引の中には、VAT が評価されないものもあります。 Commerceでは、お客様の VAT ID を検証することにより、VAT が適切に評価されている（または評価されていない）ことを確認できます。 [VAT ID 検証 &#x200B;](#vat-id-validation) を参照してください。
+特定の企業間取引では、VATは評価されません。 Commerceでは、お客様のVAT IDを検証して、VATが適切に評価されている（または評価されていない）ことを確認できます。 [VAT ID検証](#vat-id-validation)を参照してください。
 
-### 手順 1：顧客税区分の設定
+### 手順1：顧客税区分の設定
 
-税務処理基準を作成するプロセスは、税率を追加することから始まります。
+税ルールを作成するプロセスは、税率を追加することから始まります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
 
-   ![&#x200B; 顧客税区分の設定 &#x200B;](./assets/vat-zones.png){width="600" zoomable="yes"}
+   ![顧客税区分の設定](./assets/vat-zones.png){width="600" zoomable="yes"}
 
-1. VAT で使用するのに適切な顧客税クラスがあることを確認してください。
+1. VATで使用するのに適した顧客税区分があることを確認します。
 
-   この例では、「Retail Customer _という名前の顧客税クラスがあることを確認し_ す。 この税金区分が存在しない場合は、「**[!UICONTROL Add New Tax Rate]**」をクリックします。
+   この例では、_Retail Customer_&#x200B;という名前の顧客税区分があることを確認します。 この税区分が存在しない場合は、**[!UICONTROL Add New Tax Rate]**&#x200B;をクリックします。
 
-1. 新しい税区分の **[!UICONTROL Tax Identifier]** を入力します。
+1. 新しい税区分の&#x200B;**[!UICONTROL Tax Identifier]**&#x200B;を入力します。
 
-   税務処理基準を作成すると、すべての税率が _税務処理基準情報_ の _税率_ フィールドに表示されます。
+   税ルールを作成すると、すべての税率が&#x200B;_税ルール情報_&#x200B;の&#x200B;_税率_ フィールドに表示されます。
 
-1. 郵便番号の範囲（範囲/範囲）を設定するには、「**[!UICONTROL Zip/Post is Range]**」チェックボックスを選択します。
+1. 郵便番号の範囲（/～）を設定するには、「**[!UICONTROL Zip/Post is Range]**」チェックボックスを選択します。
 
-1. 税率を適用する **[!UICONTROL Country]** を選択します。
+1. 税率が適用される&#x200B;**[!UICONTROL Country]**&#x200B;を選択します。
 
-1. 購入時の税率計算に使用される **[!UICONTROL Rate Percent]** を入力します。
+1. 購入時の税率の計算に使用する&#x200B;**[!UICONTROL Rate Percent]**&#x200B;を入力します。
 
-1. 完了したら、「**[!UICONTROL Save Rate]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Rate]**&#x200B;をクリックします。
 
-提出された税率に基づいて、後続の税務処理基準を作成できます。 税率がない場合、税務規則の作成は不可能になります。
+送信された税率に基づいて、その後の税ルールを作成できます。 税率がない場合、税ルールの作成は不可能になります。
 
-### 手順 2：製品税区分の設定
+### 手順2：製品税区分の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Rules]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**&#x200B;に移動します。
 
-1. 「**[!UICONTROL Add New Tax Rule]**」をクリックします。
+1. **[!UICONTROL Add New Tax Rule]**&#x200B;をクリックします。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Additional Settings]**」セクションを展開します。
+1. **[!UICONTROL Additional Settings]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; 製品税区分の設定 &#x200B;](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
+   ![製品税クラスを設定](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
 
-1. _製品税区分_ で、「**[!UICONTROL Add New Tax Class]**」をクリックします。
+1. _製品税区分_&#x200B;で、**[!UICONTROL Add New Tax Class]**&#x200B;をクリックします。
 
-1. 使用可能な製品税金区分のリストに新規区分を追加し、3 つの新規区分を作成するには、新規税金区分の **[!UICONTROL Name]** を入力してチェックマークをクリックします。
+1. 使用可能な製品税区分のリストに新しい区分を追加し、3つの新しい区分を作成するには、新しい税区分の&#x200B;**[!UICONTROL Name]**&#x200B;を入力し、チェックマークをクリックします。
 
    - `VAT Standard`
    - `VAT Reduced`
    - `VAT Zero`
 
-1. 追加する新しいクラスごとに **[!UICONTROL Save Class]** をクリックします。
+1. 追加した新しいクラスごとに&#x200B;**[!UICONTROL Save Class]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL Save Rule]**」をクリックします。
+1. **[!UICONTROL Save Rule]**&#x200B;をクリックします。
 
-### 手順 3：税金ゾーンおよび税率の設定
+### 手順3：税区間と税率の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
 
-   この例では、米国の税率を削除するか、そのままにしておくことができます。
+   この例では、米国の税率を削除するか、そのまま残します。
 
-1. 「**[!UICONTROL Add New Tax Rate]**」をクリックします。
+1. **[!UICONTROL Add New Tax Rate]**&#x200B;をクリックします。
 
-   ![&#x200B; 税ゾーンと税率の設定 &#x200B;](./assets/tax-rate-create-new.png){width="600" zoomable="yes"}
+   ![税ゾーンと税率の設定](./assets/tax-rate-create-new.png){width="600" zoomable="yes"}
 
-1. 次のように新規レートを定義します。
+1. 新しいレートを次のように定義します。
 
-   **VAT 基準**
+   **VAT標準**
 
-   - 税金識別子：`VAT Standard`
-   - 国と都道府県：`United Kingdom`
-   - 料率：`20.00`
+   - 税識別子：`VAT Standard`
+   - 国と州：`United Kingdom`
+   - 率の割合：`20.00`
 
-   **VAT 引き下げ**
+   **VAT減税**
 
-   - 税金識別子：`VAT Reduced`
-   - 国と都道府県：`United Kingdom`
-   - 料率：`5.00`
+   - 税識別子：`VAT Reduced`
+   - 国と州：`United Kingdom`
+   - 率の割合：`5.00`
 
-1. 各料金の **[!UICONTROL Save Rate]** をクリックします。
+1. 各レートの&#x200B;**[!UICONTROL Save Rate]**&#x200B;をクリックします。
 
-### 手順 4：税務処理基準の設定
+### 手順4：税ルールの設定
 
-税務処理基準は、顧客税金区分、製品税金区分および税率の組合せです。
+税ルールは、顧客税区分、製品税区分および税率の組み合わせです。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Taxes]_/**[!UICONTROL Tax Rules]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**&#x200B;に移動します。
 
-1. 次のように新規税務処理基準を追加します。
+1. 次のように新しい税ルールを追加します。
 
-   **VAT 基準**
+   **VAT標準**
 
    - 名前：`VAT Standard`
    - 顧客税区分：`Retail Customer`
-   - 製品税クラス：`VAT Standard`
+   - 製品税区分：`VAT Standard`
    - 税率：`VAT Standard Rate`
 
-   **Vat 減額**
+   **減税**
 
    - 名前：`VAT Reduced`
    - 顧客税区分：`Retail Customer`
-   - 製品税クラス：`VAT Reduced`
+   - 製品税区分：`VAT Reduced`
    - 税率：`VAT Reduced Rate`
 
-1. 各料金の **[!UICONTROL Save Rule]** をクリックします。
+1. 各レートの&#x200B;**[!UICONTROL Save Rule]**&#x200B;をクリックします。
 
-### 手順 5：製品への税金区分の適用
+### 手順5：製品への税区分の適用
 
-1. _管理者_ サイドバーで、**[!UICONTROL Catalog]**/**[!UICONTROL Manage Products]** に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**&#x200B;に移動します。
 
-1. カタログの製品を編集モードで開きます。
+1. カタログから商品を編集モードで開きます。
 
-1. _一般_ ページで、「**[!UICONTROL Tax Class]**」オプションを見つけて、製品に適用する **[!UICONTROL VAT Class]** を選択します。
+1. _一般_ ページで、**[!UICONTROL Tax Class]** オプションを見つけて、製品に適用される&#x200B;**[!UICONTROL VAT Class]**&#x200B;を選択します。
 
-1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-   ![&#x200B; 製品への税区分の適用 &#x200B;](./assets/vat-apply-classes.png){width="600" zoomable="yes"}
+   ![製品に税区分を適用](./assets/vat-apply-classes.png){width="600" zoomable="yes"}
 
 ## フィールドの説明
 
-### ストア情報
+### 店舗情報
 
-Commerceでは、次の [Store Information 設定 &#x200B;](../configuration-reference/general/general.md#store-information) を使用して、マーチャント情報に基づいて VAT を計算します。
+Commerceでは、次の[店舗情報の設定設定](../configuration-reference/general/general.md#store-information)を使用して、マーチャント情報に基づいてVATを計算します。
 
-**[!UICONTROL VAT Number]**：業者に割り当てられる付加価値税番号。
+**[!UICONTROL VAT Number]** - マーチャントに割り当てられている付加価値税番号。
 
-**[!UICONTROL Validate VAT Number]** - [VAT 検証 &#x200B;](#vat-id-validation) は、VAT 番号が [&#x200B; 欧州委員会 &#x200B;](https://ec.europa.eu/taxation_customs/vies/) データベース内の対応するレコードと一致することを確認します。
+**[!UICONTROL Validate VAT Number]** - [VAT検証](#vat-id-validation)は、VAT番号が[欧州委員会](https://ec.europa.eu/taxation_customs/vies/) データベースの対応するレコードと一致することを確認します。
 
-### 顧客情報
+### ユーザー情報
 
-Commerceでは、次のフィールドを使用して、（お客様情報 [&#x200B; に基づいて VAT](../customers/account-dashboard-account-information.md) 計算します。
+Commerceでは、次のフィールドを使用して、[お客様の情報](../customers/account-dashboard-account-information.md)）に基づいてVATを計算します。
 
 #### アカウント情報
 
-**[!UICONTROL Tax/VAT Number]** – 該当する場合、顧客に割り当てられた税金番号または付加価値税番号。
+**[!UICONTROL Tax/VAT Number]** – 該当する場合、お客様に割り当てられている税番号または付加価値税番号。
 
-#### アドレス
+#### 住所
 
-**[!UICONTROL VAT Number]** – 該当する場合、顧客の特定の請求先または配送先住所に関連付けられている付加価値税番号。 EU 域内での [&#x200B; デジタル商品 &#x200B;](taxes.md#place-of-supply-for-digital-goods-eu)）の販売に関しては、VAT の金額は出荷先に基づきます。
+**[!UICONTROL VAT Number]** – 該当する場合、お客様の特定の請求先住所または配送先住所に関連付けられている付加価値税番号。 EU内の[&#x200B; デジタル商品](taxes.md#place-of-supply-for-digital-goods-eu)）の販売の場合、VATの金額は配送先に基づきます。
 
 ### 顧客アカウント
 
-Commerceでは、次の [&#x200B; 顧客設定 &#x200B;](../customers/account-options-new.md) を使用して VAT が計算されます。
+Commerceでは、次の[お客様の設定](../customers/account-options-new.md)を使用してVATを計算します。
 
-**[!UICONTROL Show VAT Number on Storefront]** – 顧客アカウントで使用可能なアドレス帳に顧客の VAT 番号フィールドが含まれるかどうかを決定します。
+**[!UICONTROL Show VAT Number on Storefront]** – 顧客アカウントで利用可能なアドレス帳に顧客のVAT番号フィールドが含まれているかどうかを判断します。
 
-**[!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID]** - VAT ID は、VAT 検証で使用される顧客の VAT 番号の内部識別子です。 VAT 認証時に、Commerceは番号が [&#x200B; 欧州委員会 &#x200B;](https://ec.europa.eu/taxation_customs/vies/) のデータベースと一致することを確認します。 検証結果に基づいて、顧客を 4 つのデフォルト顧客グループのいずれかに自動的に割り当てることができます。
+**[!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID]** - VAT IDは、VAT検証で使用される場合の顧客のVAT番号の内部識別子です。 VAT検証中、Commerceは、その番号が[欧州委員会](https://ec.europa.eu/taxation_customs/vies/) データベースと一致することを確認します。 検証結果に基づいて、4つのデフォルトの顧客グループのいずれかに顧客を自動的に割り当てることができます。
 
-## VAT ID の検証
+## VAT登録番号の検証
 
-_VAT ID 検証_ は、マーチャントと顧客のロケールに基づいて、EU 内で発生する B2B 取引に必要な税金を自動的に計算します。 Commerceは、[&#x200B; 欧州委員会 &#x200B;](https://ec.europa.eu/taxation_customs/vies/) サーバーの web サービスを使用して VAT ID の検証を実行します。
+_VAT ID検証_&#x200B;は、加盟店と顧客のロケールに基づいて、欧州連合（EU）内で行われるB2B トランザクションに必要な税金を自動的に計算します。 Commerceは、[欧州委員会](https://ec.europa.eu/taxation_customs/vies/) サーバーのweb サービスを使用してVAT ID検証を実行します。
 
 >[!NOTE]
 >
->VAT に関連する税務規則は、他の税務規則に影響を与えず、他の税務規則の適用を妨げません。 一度に 1 つの税務処理基準のみを適用できます。
+>VAT関連の税制は他の税制に影響を与えず、他の税制の適用を妨げません。 一度に適用できる税ルールは1つだけです。
 
-- 加盟店とお客様が同じ EU 加盟国にいる場合は、VAT が請求されます。
-- 加盟店とお客様が異なる EU 諸国に居住し、両者が EU に登録された事業体である場合、VAT は請求されません。
+- 加盟店とお客様が同じEU加盟国にいる場合は、VATが請求されます。
+- 加盟店とお客様が異なるEU加盟国にあり、両当事者がEU登録の事業体である場合、VATは請求されません。
 
-店舗管理者は、アカウントの作成、住所の作成または更新、チェックアウトの際に自動的に顧客に割り当てることができる複数のデフォルトの顧客グループを作成します。 その結果、国内（国内）と EU 内の販売に異なる税務規則が使用されます。
+ストア管理者は、アカウントの作成、アドレスの作成または更新、チェックアウト時に顧客に自動的に割り当てることができる複数のデフォルト顧客グループを作成します。 その結果、異なる税制が国内（国内）およびEU内の販売に使用されます。
 
 >[!IMPORTANT]
 >
->配送を必要としないバーチャルまたはダウンロード可能な商品を販売する場合は、お客様の所在国の VAT レートを EU 内販売と国内販売の両方に使用する必要があります。 仮想製品に対応する製品税区分に対して、追加の個別税務処理基準を作成します。
+>送料が不要なバーチャルまたはダウンロード可能な製品を販売する場合は、お客様の居住国のVAT レートを国内販売と国内販売の両方に使用する必要があります。 バーチャル製品に対応する製品税区分に対して、追加の個人税ルールを作成します。
 
 ### 顧客登録ワークフロー
 
-VAT ID 検証が有効化されている場合、登録後に各顧客に VAT ID 番号の入力が提案されます。 ただし、このフィールドに入力する必要があるのは、VAT 登録を受けた買い物客のみです。
+VAT ID検証が有効になっている場合は、登録後、各顧客にVAT ID番号を入力するように提案されます。 ただし、このフィールドに入力できるのは、VATの顧客として登録されている買い物客のみです。
 
-顧客が VAT 番号およびその他の所在地フィールドを指定して保存を選択すると、システムは所在地を保存し、VAT ID 検証要求を欧州委員会サーバーに送信します。 検証の結果に応じて、デフォルトのグループの 1 つが顧客に割り当てられます。 このグループは、顧客または管理者が既定の住所の VAT ID を変更した場合、または既定の住所全体を変更した場合に変更できます。 1 ページのチェックアウト中に、グループを一時的に変更できる（グループの変更がエミュレートされる）場合があります。
+お客様がVAT番号およびその他のアドレスフィールドを指定し、保存を選択すると、システムはアドレスを保存し、VAT ID検証要求を欧州委員会サーバーに送信します。 検証の結果に従って、デフォルトのグループの1つが顧客に割り当てられます。 このグループは、顧客または管理者がデフォルトアドレスのVAT IDを変更するか、デフォルトアドレス全体を変更した場合に変更できます。 1 ページのチェックアウト中に、グループを一時的に変更できる（グループの変更がエミュレートされる）場合があります。
 
-有効化すると、_[!UICONTROL Customer Information]_&#x200B;のページのチェックボックスをオンにして、個々の顧客の VAT ID 検証を上書きできます。
+有効になっている場合は、_[!UICONTROL Customer Information]_&#x200B;ページのチェックボックスを選択して、個々の顧客のVAT ID検証を上書きできます。
 
 ### チェックアウトワークフロー
 
-チェックアウト中に顧客の VAT 検証が実行されると、VAT 要求識別子と VAT 要求日が注文の「コメント履歴」セクションに保存されます。
+チェックアウト時にお客様のVAT検証が実行された場合、VAT要求識別子とVAT要求日は、注文の「コメント履歴」セクションに保存されます。
 
-チェックアウト中の VAT ID 検証および顧客グループの変更に関するシステム動作は、「各取引で検証」および「自動グループ変更の無効化」の設定方法によって異なります。 ここでは、フロントエンドでのチェックアウトに対する VAT ID 検証機能の実装について説明します。
+チェックアウト時のVAT ID検証と顧客グループの変更に関するシステムの動作は、「各トランザクションの検証」および「自動グループ変更を無効にする」設定の設定方法によって異なります。 この節では、フロントエンドでのチェックアウトに対するVAT ID検証機能の実装について説明します。
 
-お客様がGoogle Express Checkout、PayPal Express Checkout、またはその他の外部チェックアウト方法を使用している場合、チェックアウトは外部の支払い方法の横で完全に実行されます。 このシナリオでは、「_各トランザクションで検証_ 設定は適用できず、チェックアウト中に顧客グループを変更することはできません。
+お客様がGoogle Express Checkout、PayPal Express Checkout、またはその他の外部チェックアウト方法を使用する場合、チェックアウトは外部支払いゲートウェイの側で完全に実行されます。 このシナリオでは、_各トランザクションで検証_&#x200B;設定を適用できず、チェックアウト中に顧客グループを変更できません。
 
-![VAT 検証チェックアウト ワークフロー &#x200B;](./assets/vat-id-validation2.png){width="550" zoomable="yes"}
+![VAT検証チェックアウトワークフロー](./assets/vat-id-validation2.png){width="550" zoomable="yes"}
 
-### VAT ID 検証の構成
+### VAT ID検証の設定
 
-VAT ID 検証を構成するには、まず必要な顧客グループを設定し、関連する税クラス、税率およびルールを作成する必要があります。 次に、ストアの VAT ID 検証を有効にし、設定を完了します。
+VAT ID検証を設定するには、まず必要な顧客グループを設定し、関連する税区分、レートおよびルールを作成する必要があります。 次に、ストアのVAT ID検証を有効にし、設定を完了します。
 
-次の例は、VAT ID の検証に税金区分と税率を使用する方法を示しています。 例を確認し、店舗に必要な税区分とルールを設定する手順に従います。
+次の例は、VAT ID検証に税区分と税率がどのように使用されるかを示しています。 例を確認し、ストアに必要な税区分とルールを設定する手順に従います。
 
-#### 例：VAT ID 検証に必要な最小税務処理基準
+#### 例：VAT IDの検証に必要な最小限の税金ルール
 
-| 税務処理基準#1 |  |
+| 税ルール #1 |  |
 |--- |--- |
-| 顧客税金クラス | 顧客税区分には、次を含める必要があります。<br /> 国内顧客の区分。 <br />VAT ID の形式が正しくない顧客用のクラス。<br />VAT ID の検証に失敗した顧客のクラス。 |
-| 製品税クラス | 製品税クラスには、バンドルとバーチャルを除くすべてのタイプの製品のクラスを含める必要があります。 |
-| 税率 | 税率には、商人の国の VAT 率を含める必要があります。 |
+| 顧客税区分 | 顧客税区分には、次のものが含まれている必要があります。<br />国内顧客向けの区分。 <br />VAT IDが正しくフォーマットされていない顧客向けのクラス。<br />VAT IDの検証に失敗した顧客向けのクラス。 |
+| 製品税区分 | 製品税クラスには、バンドルと仮想を除くすべてのタイプの製品に対するクラスを含める必要があります。 |
+| 税率 | 税率には、加盟店の国のVAT レートを含める必要があります。 |
 
 {style="table-layout:auto"}
 
-| 税務処理基準#2 |   |
+| 税ルール #2 |   |
 |--- |--- |
-| 顧客税金クラス | 組合内顧客のクラス。 |
-| 製品税クラス | 仮想を除くすべてのタイプの製品のクラス。 |
-| 税率 | 加盟国以外のすべての EU 諸国の VAT 税率。 現在このレートは 0% です。 |
+| 顧客税区分 | ユニオン内顧客向けのクラスです。 |
+| 製品税区分 | 仮想を除くすべてのタイプの製品のクラス。 |
+| 税率 | 加盟店の国を除くすべてのEU加盟国のVAT税率。 現在、この割合は0%です。 |
 
 {style="table-layout:auto"}
 
-| 税務処理基準#3 | （バーチャルおよびダウンロード可能な製品に必要） |
+| 税ルール #3 | （仮想およびダウンロード可能な製品の場合は必須） |
 |--- |--- |
-| 顧客税金クラス | 顧客税区分には次が含まれる必要があります。<br/> 国内顧客の区分 <br/> 無効な VAT ID を持つ顧客の区分 VAT ID 検証に失敗した顧客の区分 |
-| 製品税クラス | 仮想製品のクラス。 |
-| 税率 | 販売者の国の VAT 率です。 |
+| 顧客税区分 | 顧客税区分には、次のものが含まれている必要があります。<br/>国内顧客向けのクラス <br/>無効なVAT IDを持つお客様向けのクラス VAT IDの検証に失敗した顧客向けのクラス |
+| 製品税区分 | バーチャル商品のクラス。 |
+| 税率 | 加盟店の国のVAT レート。 |
 
 {style="table-layout:auto"}
 
-| 税務処理基準#4 | （バーチャルおよびダウンロード可能な製品に必要） |
+| 税ルール #4 | （仮想およびダウンロード可能な製品の場合は必須） |
 |--- |--- |
-| 顧客税金クラス | 組合内顧客のクラス。 |
-| 製品税クラス | 仮想製品のクラス。 |
-| 税率 | 加盟国以外のすべての EU 諸国の VAT 税率。 現在このレートは 0% です。 |
+| 顧客税区分 | ユニオン内顧客向けのクラスです。 |
+| 製品税区分 | バーチャル商品のクラス。 |
+| 税率 | 加盟店の国を除くすべてのEU加盟国のVAT税率。 現在、この割合は0%です。 |
 
 {style="table-layout:auto"}
 
-#### 手順 1:VAT 関連顧客グループの作成
+#### ステップ 1:VAT関連の顧客グループを作成する
 
-VAT ID 検証では、VAT ID 検証結果に従って、4 つのデフォルト顧客グループのいずれかが顧客に自動的に割り当てられます。
+VAT ID検証は、VAT ID検証結果に従って、4つのデフォルト顧客グループのうちの1つを顧客に自動的に割り当てます。
 
-- 国内
-- EU 内
-- VAT ID が無効です
+- 国内線
+- EU域内
+- 無効なVAT ID
 - 検証エラー
 
-ビジネス・ロジックに準拠している場合は、VAT ID 検証用の顧客グループを作成するか、既存のグループを使用できます。 VAT ID 検証を設定する場合、適切な VAT ID 検証結果を持つ顧客に対して、作成された各顧客グループをデフォルトとして割り当てる必要があります。
+VAT ID検証用の顧客グループを作成するか、ビジネスロジックに準拠している場合は既存のグループを使用できます。 VAT ID検証を設定する場合、作成した各顧客グループを、適切なVAT ID検証結果を持つ顧客のデフォルトとして割り当てる必要があります。
 
-#### 手順 2：付加価値税関連の区分、税率およびルールの作成
+#### ステップ 2:VAT関連のクラス、料金、ルールの作成
 
-各税務処理基準は、次の 3 つのエンティティで定義されます。
+各税ルールは、次の3つのエンティティで定義されます。
 
-- 顧客税金クラス
+- 顧客税区分
 - 製品税クラス
 - 税率
 
-VAT ID 検証を効果的に使用するための [&#x200B; 税ルール &#x200B;](tax-rules.md) を作成します。
+VAT ID検証を効果的に使用するための[税ルール &#x200B;](tax-rules.md)を作成します。
 
-- 税務処理基準には、税率と [&#x200B; 税区分 &#x200B;](tax-class.md) が含まれます。
-- 税金クラスは [&#x200B; 顧客グループ &#x200B;](../customers/customer-groups.md) に割り当てられます。
+- 税ルールには、税率と[税区分](tax-class.md)が含まれます。
+- 税区分は[顧客グループ &#x200B;](../customers/customer-groups.md)に割り当てられます。
 
-#### 手順 3:VAT ID 検証の有効化と設定
+#### 手順3:VAT ID検証の有効化と設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. 必要に応じて、設定の **[!UICONTROL Store View]** を設定します。
+1. 必要に応じて、設定の&#x200B;**[!UICONTROL Store View]**&#x200B;を設定します。
 
-1. 左側のパネルで「**[!UICONTROL Customers]**」を展開し、「**[!UICONTROL Customer Configuration]**」を選択します。
+1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Customer Configuration]**&#x200B;を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Create New Account Options]**」セクションを展開します。
+1. **[!UICONTROL Create New Account Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   次の例では、VAT 検証に関連しない一般的な顧客設定はグレー表示になっています。
+   次の例では、VAT検証に関連しない一般的なお客様の設定は薄暗くなっています。
 
-   ![&#x200B; 新規アカウントオプションの作成 &#x200B;](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
+   ![新しいアカウントオプションを作成](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Enable Automatic Assignment to Customer Group]** を `Yes` に設定し、必要に応じて次のフィールドに入力します。
+1. **[!UICONTROL Enable Automatic Assignment to Customer Group]**&#x200B;を`Yes`に設定し、必要に応じて次のフィールドに入力します。
 
    - **[!UICONTROL Default Group]**
    - **[!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID]**
    - **[!UICONTROL Show VAT Number on Storefront]**
 
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-#### 手順 4:VAT ID と所在国の設定
+#### ステップ 4:VAT IDと国を設定する
 
-1. 左側のパネルで「**[!UICONTROL General]**」を展開し、その下の「**[!UICONTROL General]**」を選択します。
+1. 左側のパネルで「**[!UICONTROL General]**」を展開し、下の「**[!UICONTROL General]**」を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Store Information]**」セクションを展開します。
+1. **[!UICONTROL Store Information]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; 店舗情報 &#x200B;](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
+   ![&#x200B; ストア情報](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Country]** を選択します。
+1. **[!UICONTROL Country]**&#x200B;を選択します。
 
-1. **[!UICONTROL VAT Number]** を入力し、「**[!UICONTROL Validate VAT Number]**」をクリックします。
+1. **[!UICONTROL VAT Number]**&#x200B;を入力し、**[!UICONTROL Validate VAT Number]**&#x200B;をクリックします。
 
-   結果がすぐに表示されます。
+   結果はすぐに表示されます。
 
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-#### ステップ 5:EU 加盟国リストの検証
+#### ステップ 5:EU加盟国のリストを確認する
 
-1. _一般_ 設定ページで続行して、「![」セクションの &#x200B;](../assets/icon-display-expand.png) 展開セレクター **[!UICONTROL Countries Options]** を展開します。
+1. _一般_&#x200B;設定ページに進み、**[!UICONTROL Countries Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; 国オプション &#x200B;](../configuration-reference/general/assets/general-country-options.png){width="600" zoomable="yes"}
+   ![国オプション &#x200B;](../configuration-reference/general/assets/general-country-options.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL European Union Countries]** リストで、EU の各メンバー国が選択されていることを確認します。
+1. **[!UICONTROL European Union Countries]** リストで、EUの各メンバー国が選択されていることを確認します。
 
-   デフォルト設定を変更するには、「**システム値を使用**」チェックボックスをオフにします。 Ctrl キー（PC）または Command キー（Mac）を押しながら、追加または削除する国をそれぞれクリックします。
+   デフォルト設定を変更するには、「**システム値を使用**」チェックボックスをオフにします。 Ctrl キー（PC）またはCommand キー（Mac）を押しながら、追加または削除する国をクリックします。
 
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。

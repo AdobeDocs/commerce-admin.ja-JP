@@ -1,108 +1,121 @@
 ---
-title: 回転するダイナミック ブロックを追加する
-description: 複数の動的ブロックをロテータに追加して、インタラクティブ コンテンツのスライド ショーをストアフロントに表示します。
+title: 回転ダイナミックブロックを追加
+description: 複数の動的ブロックを回転子に追加して、ストアフロントのインタラクティブコンテンツのスライドショーを表示します。
 exl-id: 3d338014-cf26-4171-b48b-d37b3d7b0e81
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: https://experienceleague.adobe.com/9fMqGoH1y1T0S9Njq9frKcspGhyTVZ-H2OzAJbWwhjU
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: 654
 ht-degree: 0%
 
 ---
 
-# 回転するダイナミック ブロックを追加する
+# 回転ダイナミックブロックを追加
 
 {{ee-feature}}
 
-インタラクティブコンテンツのスライドショーを表示するには、ロテーターに複数の [&#x200B; 動的ブロック &#x200B;](dynamic-blocks.md) を追加します。 [&#x200B; ウィジェット &#x200B;](widgets.md) ツールを使用すると、ローテーターを単一ページまたはストア全体の複数ページの特定の場所に配置できます。
+インタラクティブなコンテンツのスライドショーを表示するには、複数の[動的ブロック &#x200B;](dynamic-blocks.md)を回転子に追加できます。 [&#x200B; ウィジェット &#x200B;](widgets.md) ツールは、単一ページまたはストア全体の複数ページの特定の場所に回転子を配置するために使用されます。
 
-![&#x200B; ダイナミック ブロック ローテータ &#x200B;](./assets/widget-dynamic-block-rotator.png){width="700" zoomable="yes"}
+![動的ブロック回転子](./assets/widget-dynamic-block-rotator.png){width="700" zoomable="yes"}
 
-## 手順 1：個々のダイナミック ブロックを作成する
+## 手順1：個別の動的ブロックの作成
 
-ロテータに配置する [&#x200B; ダイナミック ブロックを作成する &#x200B;](dynamic-blocks.md) には、次の手順に従います。
+回転子に配置する動的ブロック [&#128279;](dynamic-blocks.md)を作成するには、次の手順に従います。
 
-## 手順 2：動的ブロックローテータウィジェットの追加
+## 手順2：動的ブロックローテーターウィジェットの追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]**/_[!UICONTROL Elements]_/**[!UICONTROL Widgets]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックします。
 
-1. _設定_ で、**[!UICONTROL Type]** を `Dynamic Blocks Rotator` に設定します。
+1. _設定_&#x200B;で、**[!UICONTROL Type]**&#x200B;を`Dynamic Blocks Rotator`に設定します。
 
-1. ストアの現在の **[!UICONTROL Design Theme]** を選択します。
+1. ストアの現在の&#x200B;**[!UICONTROL Design Theme]**&#x200B;を選択します。
 
-   この設定は、ストアのページレイアウトを決定する現在のパッケージまたは [&#x200B; テーマ &#x200B;](themes.md) を識別します。
+   この設定は、ストアのページレイアウトを決定する現在のパッケージまたは[&#x200B; テーマ &#x200B;](themes.md)を識別します。
 
-1. 「**[!UICONTROL Continue]**」をクリックします。
+1. **[!UICONTROL Continue]**&#x200B;をクリックします。
 
-   ![&#x200B; ダイナミック ブロック回転子設定 &#x200B;](./assets/widget-dynamic-block-rotator-settings.png){width="600" zoomable="yes"}
+   ![動的ブロック回転子設定](./assets/widget-dynamic-block-rotator-settings.png){width="600" zoomable="yes"}
 
-## 手順 3：オプションの完了
+## ステップ 3：オプションを完了する
 
-1. _ストアフロントのプロパティ_ で、次のオプションを設定します。
+1. _ストアフロントのプロパティ_&#x200B;で、オプションを設定します。
 
-   - ロテータの **[!UICONTROL Title]** を入力します。
+   - 回転子の&#x200B;**[!UICONTROL Title]**&#x200B;を入力します。
 
-   - **[!UICONTROL Assign to Store Views]** リストで、ロテータが使用可能な [&#x200B; ストア ビュー &#x200B;](../getting-started/websites-stores-views.md) を選択します。
+   - **[!UICONTROL Assign to Store Views]** リストで、回転子が使用可能な[&#x200B; ストアビュー](../getting-started/websites-stores-views.md)を選択します。
 
-   - （オプション）ターゲットコンテナ内のローテータの位置を決定する **[!UICONTROL Sort Order]** 数を入力します。 これは、同じコンテナに割り当てられる可能性のある他のウィジェットに対する相対パスです。
+   - （オプション） **[!UICONTROL Sort Order]**&#x200B;番号を入力して、ターゲットコンテナ内の回転子の位置を決定します。 これは、同じコンテナに割り当てられる他のウィジェットに対する相対パスです。
 
-   ![Rotator ストアフロントのプロパティ &#x200B;](./assets/widget-dynamic-block-rotator-storefront-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; ローテーターストアフロントのプロパティ &#x200B;](./assets/widget-dynamic-block-rotator-storefront-properties.png){width="600" zoomable="yes"}
 
-1. _レイアウトオプション_ の下の「**[!UICONTROL Add Layout Update]**」をクリックして、次の操作を実行します。
+1. _レイアウトオプション_&#x200B;で、**[!UICONTROL Add Layout Update]**&#x200B;をクリックし、次の操作を行います。
 
-   - ローテータを表示するページまたはページの種類に **[!UICONTROL Display on]** を設定します。
+   - **[!UICONTROL Display on]**&#x200B;を、回転子が表示されるページまたはページの種類に設定します。
 
-      - `Categories` - [&#x200B; アンカー &#x200B;](../catalog/navigation-layered.md) またはアンカー以外のカテゴリページにローテータを表示します。 オプション：アンカーカテゴリ/アンカー以外のカテゴリ
-      - `Products` – 特定のタイプの製品ページ、またはすべての製品ページにロテータを表示します。 オプション：すべての製品タイプ/[&#x200B; シンプル製品 &#x200B;](../catalog/product-create-simple.md)/[&#x200B; バーチャル製品 &#x200B;](../catalog/product-create-virtual.md)/[&#x200B; バンドル製品 &#x200B;](../catalog/product-create-bundle.md)/[&#x200B; ダウンロード可能製品 &#x200B;](../catalog/product-create-downloadable.md)/[&#x200B; ギフトカード &#x200B;](../catalog/product-gift-card-create.md)/[&#x200B; 設定可能な製品 &#x200B;](../catalog/product-create-configurable.md)/[&#x200B; グループ化された製品 &#x200B;](../catalog/product-create-grouped.md)
-      - `Generic Pages` – すべてのページ、特定のページ、または特定のレイアウトを持つページにのみローテーターを表示します。 オプション：`All Pages`/`Specified Page`/`Page Layouts`
+      - `Categories` - [&#x200B; アンカー](../catalog/navigation-layered.md)またはアンカー以外のカテゴリ ページに回転子を表示します。 オプション：アンカーカテゴリ/アンカー以外のカテゴリ
+      - `Products` – 特定の種類の製品ページまたはすべての製品ページに回転子を表示します。 オプション：すべての製品タイプ / [&#x200B; シンプル製品](../catalog/product-create-simple.md) / [&#x200B; バーチャル製品](../catalog/product-create-virtual.md) / [&#x200B; バンドル製品](../catalog/product-create-bundle.md) / [&#x200B; ダウンロード可能な製品](../catalog/product-create-downloadable.md) / [&#x200B; ギフトカード &#x200B;](../catalog/product-gift-card-create.md) / [設定可能な製品](../catalog/product-create-configurable.md) / [&#x200B; グループ化された製品](../catalog/product-create-grouped.md)
+      - `Generic Pages` – すべてのページ、特定のページ、または特定のレイアウトを持つページにのみ回転子を表示します。 オプション：`All Pages` / `Specified Page` / `Page Layouts`
 
-     この例では、ロテータを `Specified Page` に配置します。
+     この例では、回転子を`Specified Page`に配置します。
 
-   - ロテータを表示する特定の **[!UICONTROL Page]** を選択します。
+   - 回転子を表示する特定の&#x200B;**[!UICONTROL Page]**&#x200B;を選択します。
 
-   - ローテータを表示する [&#x200B; ページレイアウト &#x200B;](page-layout.md#standard-page-layouts) の部分に **[!UICONTROL Container]** を設定します。
+   - **[!UICONTROL Container]**&#x200B;を[&#x200B; ページレイアウト &#x200B;](page-layout.md#standard-page-layouts)の回転子が表示される部分に設定します。
 
-     他のウィジェットが同じコンテナに割り当てられている場合、並べ替え順に従って順番に表示されます。
+     他のウィジェットが同じコンテナに割り当てられている場合は、並べ替え順序に従って順番に表示されます。
 
-   - `Dynamic Block Template` をデフォルトの **[!UICONTROL Template]** として使用します。
+   - `Dynamic Block Template`を既定の&#x200B;**[!UICONTROL Template]**&#x200B;として受け入れます。
 
-     この設定により、回転子を単独で配置するか、既存のテキスト内に配置するかに基づいて、回転子の書式設定に使用するテンプレートが決定されます。
+     この設定は、回転子を単独で配置するか、既存のテキスト内に配置するかによって、回転子の書式設定に使用するテンプレートを決定します。
 
-     ![&#x200B; ローテーターレイアウトの更新 &#x200B;](./assets/widget-dynamic-block-rotator-layout-updates.png){width="600" zoomable="yes"}
+     ![&#x200B; ローテーターレイアウトの更新](./assets/widget-dynamic-block-rotator-layout-updates.png){width="600" zoomable="yes"}
 
-   - 「**[!UICONTROL Save and Continue Edit]**」をクリックします。
+   - **[!UICONTROL Save and Continue Edit]**&#x200B;をクリックします。
 
-1. 左側のパネルで「**[!UICONTROL Widget Options]**」を選択します。
+1. 左側のパネルで、**[!UICONTROL Widget Options]**&#x200B;を選択します。
 
-1. **[!UICONTROL Dynamic Blocks to Display]** の場合、`Specified Dynamic Blocks` を受け入れます。
+1. **[!UICONTROL Dynamic Blocks to Display]**&#x200B;の場合は、`Specified Dynamic Blocks`を受け入れます。
 
-   この設定により、ロテータに含まれるダイナミック ブロックのタイプが決まります。
+   この設定により、回転子に含まれるダイナミックブロックのタイプが決まります。
 
-   - `Specified Dynamic Blocks` – 特定のダイナミックブロックのみが含まれます。
-   - `Cart Price Rule Related` – 買い物かごの価格ルールに関連付けられた動的ブロックのみを含めます。
-   - `Catalog Price Rule Related` - カタログ価格ルールに関連付けられている動的ブロックのみが含まれます。
+   - `Specified Dynamic Blocks` – 特定の動的ブロックのみを含みます。
+   - `Cart Price Rule Related` - カート価格ルールに関連付けられている動的ブロックのみを含みます。
+   - `Catalog Price Rule Related` - カタログ価格ルールに関連付けられている動的ブロックのみを含みます。
 
-1. ウィジェットで使用できるを **[!UICONTROL Restrict the Dynamic Block Types]** すには、「`Content Area`」を選択します。
+1. ウィジェットで使用できる&#x200B;**[!UICONTROL Restrict the Dynamic Block Types]**&#x200B;に対して、`Content Area`を選択します。
 
-   この設定では、バナーをページレイアウトの特定の部分に制限します。
+   この設定により、バナーはページレイアウトの特定の部分に限定されます。
 
-   - `Content Area` - ページのメインコンテンツ領域に動的ブロックを配置します。
-   - `Footer` - ページフッターに動的ブロックを配置します。
-   - `Header` - ページヘッダーに動的ブロックを配置します。
-   - `Left Column` – 可能な場合は、動的ブロックをページレイアウトの左側の列に配置します。
-   - `Right Column` - ダイナミックブロックがページレイアウトの右側の列に配置されます（使用可能な場合）。
+   - `Content Area` - ダイナミックブロックをページのメインコンテンツ領域に配置します。
+   - `Footer` - ダイナミックブロックをページフッターに配置します。
+   - `Header` - ダイナミックブロックをページヘッダーに配置します。
+   - `Left Column` – 使用可能な場合、ダイナミックブロックをページレイアウトの左列に配置します。
+   - `Right Column` – 使用可能な場合、ダイナミックブロックをページレイアウトの右側の列に配置します。
 
-1. **[!UICONTROL Rotation Mode]** を次のいずれかに設定します。
+1. **[!UICONTROL Rotation Mode]**&#x200B;を次のいずれかに設定します：
 
-   - `Display all instead of rotating` - ダイナミック ブロックのスタックを表示します。ここで、すべてが表示されます。
-   - `One at a time, Random` – 指定したダイナミック ブロックをランダムに表示します。 ページを更新すると、別の（ランダムな）ダイナミックブロックが表示されます。
-   - `One at the time, Series` – 指定したダイナミック ブロックが追加された順序で表示されます。 ページが更新されると、シーケンス内の次の動的ブロックが表示されます。
-   - `One at the time, Shuffle` – 一度に 1 つのダイナミック ブロックを入れ替えて表示します。 このオプションは、同じダイナミック ブロックが繰り返されないことを除いて、`One at a time, Random` のオプションに似ています。
+   - `Display all instead of rotating` – 動的ブロックのスタックを表示します。すべてのブロックが表示されます。
+   - `One at a time, Random` – 指定された動的ブロックをランダムな順序で表示します。 ページが更新されると、別の（ランダムな）動的ブロックが表示されます。
+   - `One at the time, Series` – 指定された動的ブロックを、追加されたシーケンスに表示します。 ページが更新されると、シーケンス内の次の動的ブロックが表示されます。
+   - `One at the time, Shuffle` – 一度に1つの動的ブロックをシャッフルされた順序で表示します。 このオプションは、`One at a time, Random` オプションと似ていますが、同じ動的ブロックが繰り返されない点が異なります。
 
-     ![Rotator ウィジェットのオプション &#x200B;](./assets/widget-dynamic-block-rotator-widget-options.png){width="600" zoomable="yes"}
+     ![&#x200B; ローテーターウィジェットのオプション &#x200B;](./assets/widget-dynamic-block-rotator-widget-options.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Specify Dynamic Blocks]** グリッドで、ロテータに含める各ダイナミック ブロックのチェックボックスをオンにします。
+1. **[!UICONTROL Specify Dynamic Blocks]** グリッドで、回転子に含める各ダイナミック ブロックのチェックボックスを選択します。
 
-1. 完了したら、「**[!UICONTROL Save]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。

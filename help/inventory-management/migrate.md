@@ -1,73 +1,88 @@
 ---
-title: '[!DNL Commerce] アップグレード'
-description: Adobe CommerceとMagento Open Sourceのアップグレードがカタログと設定に与える影響  [!DNL Inventory Management]  ついて説明します。
+title: '[!DNL Commerce]件のアップグレード'
+description: Adobe CommerceとMagento Open Sourceのアップグレードがカタログと [!DNL Inventory Management] 設定にどのような影響を与えるかを説明します。
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/rAnH5pJjtg4ujbQdHow-B6urN090iTTt19mv4sadVnc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: 749
 ht-degree: 0%
 
 ---
 
-# [!DNL Commerce] アップグレード
+# [!DNL Commerce]件のアップグレード
 
-以前のリリースで単一ソースのインベントリを使用した場合、この情報には、新機能の詳細と既存のカタログおよびインベントリ設定の変更点が含まれます。
+以前のリリースでシングルソースインベントリを使用した場合、この情報では、既存のカタログとインベントリ設定の新機能と変更の詳細が提供されます。
 
-Adobe CommerceおよびMagento Open Sourceの [!DNL Inventory Management] には、すべての product stock management を強化および更新し、新機能を追加する機能、機能強化およびデベロッパーサポートが含まれています。 Sourceの選択アルゴリズムと同時チェックアウトを含むすべての機能が標準で利用でき、注文数量をソースと注文フルフィルメントに照合できます。 Web サイト、店舗、マーチャントタイプに応じて、追加の在庫およびソースを作成したり、在庫金額を割り当てたりできます。 詳しくは、[Inventory management](introduction.md) を参照してください。
+Adobe CommerceおよびMagento Open Sourceの[!DNL Inventory Management]には、すべての製品在庫管理を強化および更新し、新機能を追加する機能、機能強化、および開発者サポートが含まれています。 Source Selection AlgorithmやConcurrent Checkoutを含むあらゆる機能を、注文数をソースや注文フルフィルメントに一致させ、すぐに利用できます。 web サイト、実店舗、マーチャントのタイプに応じて、在庫とソースの追加、在庫量の割り当てなどを行うことができます。 詳細については、[Inventory management](introduction.md)を参照してください。
 
-Magento Open Source 2.4.x またはAdobe Commerce 2.4.x をインストールすると、次の最初の変更が行われます。
+Magento Open Source 2.4.xまたはAdobe Commerce 2.4.xをインストールすると、次の最初の変更が発生します。
 
-- [Inventory management](enable.md) は、グローバル ストアまたは商品レベルで有効になります。 「在庫の管理」オプションを使用すると、在庫数量の追跡、集計した販売可能数量の計算、および請求書と出荷への購買を追跡するための予約管理を有効または無効にできます。 このオプションを無効にすると、在庫、受注および出荷の管理に ERP およびその他のサード・パーティ・サービスを使用できます。 詳しくは、以下の [!DNL Inventory Management] モジュールを参照してください。
+- [Inventory management](enable.md)は、グローバルストアまたは商品レベルで有効になります。 「在庫の管理」オプションを使用すると、在庫数量の追跡、集計販売可能数量の計算、および購入の追跡から請求書および出荷に至るまでの予約管理を有効または無効にできます。 ERPやその他のサードパーティサービスを使用して、在庫、注文、配送を管理する場合は、このオプションを無効にすることができます。 詳細については、以下の「[!DNL Inventory Management] モジュール」を参照してください。
 
-- [&#x200B; デフォルトのSource](sources-manage.md) と [&#x200B; デフォルトの在庫 &#x200B;](stocks-manage.md) がシステムに追加されます。 これらのデフォルトを無効にしたり削除したりしないでください。 [!DNL Commerce] では、既存の製品と新しく読み込んだ製品をこれらのデフォルトに割り当てます。
+- [既定のSource](sources-manage.md)と[既定のStock](stocks-manage.md)がシステムに追加されます。 これらのデフォルトを無効にしたり削除したりしないでください。 [!DNL Commerce]は、既存の製品と新しくインポートした製品をこれらのデフォルトに割り当てます。
 
   >[!IMPORTANT]
   >
-  >デフォルトの在庫およびデフォルトのSourceは、現在非推奨となっている `CatalogInventory` モジュールの一部なので、使用することは強くお勧めしません。 カスタムの在庫とソースを作成して使用することをお勧めします。
+  >既定のStockと既定のSourceの使用は、現在は非推奨となっている`CatalogInventory` モジュールの一部であるため、強くお勧めしません。 代わりに、カスタム在庫とソースを作成して使用することをお勧めします。
 
-   - 在庫は、買い物かごと注文を追跡するための予約を含む、集計された仮想販売可能数量を提供し、同時チェックアウトを保証します。
+   - 在庫では、ショッピングカートや注文を追跡し、同時チェックアウトを保証するための予約とともに、集計されたバーチャル販売可能数量を提供します。
 
-   - カタログ内の既存の商品はすべて、デフォルトのSourceに割り当てられます。 新しいソースを追加するまで、製品インターフェイスは変更されません。 1 つの場所からのみ製品を出荷する場合、ソースに関するその他の違いはありません。 出荷事業所ごとにカスタム [&#x200B; ソース &#x200B;](sources-add.md) および [&#x200B; 数量の割当 &#x200B;](quantities-manage.md) を作成できます。
+   - カタログ内のすべての既存商品は、デフォルトのSourceに割り当てられます。 新しいソースを追加するまで、製品インターフェイスは変更されません。 1つの場所からのみ製品を出荷する場合、ソースに他の違いはありません。 出荷場所ごとにカスタム [&#x200B; ソース &#x200B;](sources-add.md)と[数量](quantities-manage.md)を割り当てることができます。
 
-   - ソースを集荷場所として設定し、そのソースに対して [&#x200B; 数量を割り当て &#x200B;](quantities-manage.md) ことができます。
+   - ソースをピックアップ場所として設定し、そのソースに[数量](quantities-manage.md)を割り当てることができます。
 
-   - Web サイトがデフォルトの在庫に割り当てられます。 カスタム [&#x200B; 在庫 &#x200B;](stocks-add.md) を作成して、販売チャネル（web サイト）とソース（場所）を接続できます。
+   - Web サイトでは、デフォルトのストックに割り当てられます。 カスタム [在庫](stocks-add.md)を作成して、販売チャネル（web サイト）とソース（場所）を接続できます。
 
-- 追加の [&#x200B; 設定オプション &#x200B;](configuration.md) を製品およびグローバルストアに追加します。 一部の既存の設定オプションには、更新されたオプションと動作が含まれています。
+- 追加の[設定オプション &#x200B;](configuration.md)が製品とグローバルストアに追加されます。 既存の設定オプションの中には、更新されたオプションや動作を受け取るものもあります。
 
-   - 数量の通知下記では、通知を送信し、販売可能数量から控除します。
+   - 「数量の通知」の下では、販売可能数量から通知と控除額が送信されます。
 
-   - 在庫切れのしきい値は、正の金額、ゼロおよび負の金額をサポートします。 「バックオーダー」を使用可能にすると、プラスの金額は無視され、ゼロ（または無限）とみなされます。
+   - 在庫切れしきい値は、正の量、ゼロ、負の量をサポートします。 Backordersを有効にすると、正の量は無視され、ゼロ（または無限）と見なされます。
 
-   - バックオーダーでは、ゼロ（無限）およびマイナスの金額がサポートされます。 有効になっている場合、下記の数量の通知は販売可能数量から差し引かれません。
+   - Backordersはゼロ（無限）とマイナスの量をサポートしています。 有効になっている場合、「次の数量に対する通知」は販売可能数量から差し引かれません。
 
-- 新規予約では、受注が出荷されたときに数量控除に変換され、潜在的な売上が追跡されます。 予約に直接アクセスしたり、予約を作成したりすることはできません。 [!DNL Commerce] は、注文、出荷、クレジット・メモを通じて予約を作成し、バックグラウンドで管理します。
+- 新しい予約注文が出荷されたときに数量の差し引きに変換し、潜在的な売上を追跡します。 予約に直接アクセスしたり、作成したりすることはありません。 [!DNL Commerce]は、注文、発送、クレジットメモを通じて、予約をバックグラウンドで作成および管理します。
 
-- [&#x200B; 注文と出荷 &#x200B;](shipments.md) には、Source選択アルゴリズムを使用して出荷を推奨する新機能が含まれており、複数のソースからの一部の出荷をサポートして注文を履行します。
+- [注文と配送](shipments.md)には、Source選択アルゴリズムを使用して配送を推奨し、複数のソースからの部分的な配送をサポートして注文を処理するための新機能が含まれています。
 
-- 新しい [&#x200B; 読み込み/書き出し機能 &#x200B;](inventory-import-export.md) を使用すると、カタログ内のすべての SKU について、ソースの一括追加、在庫数量の更新、在庫ステータスの設定（在庫の有無）を行うことができます。 これらの機能を使用すると、1 つのソース、選択したソース、またはすべてのソースを変更できます。
+- 新しい[読み込み/書き出し機能](inventory-import-export.md)を使用すると、カタログ内のすべてのSKUのソースの一括追加、在庫量の更新、在庫ステータス（在庫切れ）の設定を行うことができます。 これらの機能を使用すると、1つ、選択した、またはすべてのソースを変更できます。
 
-- 製品グリッドページを通じた新しい一括オプションは、一括 [&#x200B; ソースの割り当てと割り当て解除 &#x200B;](bulk-assignment.md) および [&#x200B; ソースへの在庫の転送 &#x200B;](inventory-transfer.md) をサポートしています。
+- 製品グリッドページを介した新しいバルクオプションでは、一括[&#x200B; ソースの割り当てと割り当て解除](bulk-assignment.md)および[&#x200B; ソースへの在庫の転送](inventory-transfer.md)がサポートされます。
 
-- [!DNL Inventory Management] は B2B カタログをサポートします。 現在、すべての B2B 製品をデフォルトのSourceとデフォルトの在庫に割り当てる必要があります。
+- [!DNL Inventory Management]はB2B カタログをサポートしています。 現在のところ、すべてのB2B商品をDefault SourceとDefault Stockに割り当てる必要があります。
 
-## [!DNL Commerce Order Management] と [!DNL Inventory Management]
+## [!DNL Commerce Order Management]と[!DNL Inventory Management]
 
-[Commerce Order Management （MCOM） &#x200B;](https://commerce-docs.github.io/oms-documentation-archive/) は [!DNL Inventory Management] と互換性がありません。 MCOM モジュールをインストールすると、シングルソースおよびマルチソースの管理、在庫、予約など、すべての在庫管理機能が [!DNL Commerce] に提供されます。 [!DNL Inventory Management] のモジュールは、デフォルトで無効になっています。
+[Commerce Order Management （MCOM） &#x200B;](https://commerce-docs.github.io/oms-documentation-archive/)は[!DNL Inventory Management]と互換性がありません。 MCOM モジュールをインストールすると、単一およびマルチソース管理、在庫、予約など、[!DNL Commerce]にすべての在庫管理機能が提供されます。 [!DNL Inventory Management] モジュールは既定では無効になっています。
 
-MCOM は、高度なオムニチャネル注文管理、グローバルな在庫およびマルチソーシング、倉庫への保管フルフィルメント、一元化されたカスタマーサービスのための豊富な機能とサービスを提供します。 機能の完全な一覧については、[MCOM 機能の一覧 &#x200B;](https://commerce-docs.github.io/oms-documentation-archive/getting-started/feature-list/) を参照してください。
+MCOMは、高度なオムニチャネルの注文管理、グローバルな在庫とマルチソーシング、実店舗から倉庫へのフルフィルメント、一元化された顧客サービスなど、幅広い機能とサービスを提供しています。 機能の完全なリストについては、[MCOM機能リスト &#x200B;](https://commerce-docs.github.io/oms-documentation-archive/getting-started/feature-list/)を参照してください。
 
-[!DNL Inventory Management] は、既存の [!DNL Commerce] 機能を拡張し、追加のオプションを使用して処理中の注文、手持在庫、在庫用の利用可能な在庫、拡張機能の開発のための API を追跡します。
+[!DNL Inventory Management]は、処理中の注文、手元の在庫、在庫の利用可能な在庫、拡張機能の開発のためのAPIを追跡するための追加オプションを含む、既存の[!DNL Commerce]機能を拡張します。
 
-## [!DNL Inventory Management] モジュール
+## [!DNL Inventory Management]個のモジュール
 
-[!DNL Inventory Management] のモジュールを無効にすると、次の操作を実行できます。
+[!DNL Inventory Management] モジュールを無効にして、次の操作を行うことができます。
 
-- 現在、Adobe CommerceまたはMagento Open Source 2.0/2.1/2.2/2.3 にあり、2.4.x に移行しているマーチャントのアップグレードを迅速化します。
+- 現在Adobe CommerceまたはMagento Open Source 2.0/2.1/2.2/2.3にあるマーチャントのアップグレードを高速化し、2.4.xに移行します。
 
-- カスタムまたはサードパーティの在庫および注文管理モジュールを使用します。
+- カスタムまたはサードパーティの在庫管理および注文管理モジュールを使用します。
 
-- 在庫管理に [!DNL Order Management System] を使用します。 現在のコネクタは、[!DNL Inventory Management] インターフェイスをサポートしていません。 Adobe Commerce 2.4.0 にアップグレードする OMS マーチャントの場合、これらのモジュールを無効にする必要があります。
+- 在庫管理に[!DNL Order Management System]を使用します。 現在のコネクタは[!DNL Inventory Management] インターフェイスをサポートしていません。 OMS マーチャントがAdobe Commerce 2.4.0にアップグレードする場合、これらのモジュールを無効にする必要があります。
 
-詳しくは、[&#x200B; インストールとアップデート &#x200B;](install-update.md) を参照してください。
+詳細については、[&#x200B; インストールと更新](install-update.md)を参照してください。
