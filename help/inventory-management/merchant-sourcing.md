@@ -4,11 +4,21 @@ description: ビジネス内の場所またはソースの数に基づいて、2
 exl-id: ec928929-5826-4504-9fd0-84256b37cb39
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/-ABDMLnAibksuQGkdEM683g8JwcUSt2DQERC0WJnQiM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 486
@@ -32,15 +42,15 @@ ht-degree: 0%
 
 最初のステップは以下のとおりです。
 
-- 必要に応じて、ストアのインベントリの[ グローバル設定と商品設定](configuration.md)を構成します。
+- 必要に応じて、ストアのインベントリの[&#x200B; グローバル設定と商品設定](configuration.md)を構成します。
 
-- 1つの在庫場所に関する情報を含む[ デフォルトのSource](sources-manage.md)を更新します。 追加のソースを作成する必要はありません。
+- 1つの在庫場所に関する情報を含む[&#x200B; デフォルトのSource](sources-manage.md)を更新します。 追加のソースを作成する必要はありません。
 
-- [ デフォルトのStock](stocks-manage.md)を更新します。 すべてのweb サイトがセールスチャネルとして選択されていることを確認します。 新しいWeb サイトを追加すると、[!DNL Commerce]は自動的に既定のStockに追加します。 追加のストックを作成する必要はありません。
+- [&#x200B; デフォルトのStock](stocks-manage.md)を更新します。 すべてのweb サイトがセールスチャネルとして選択されていることを確認します。 新しいWeb サイトを追加すると、[!DNL Commerce]は自動的に既定のStockに追加します。 追加のストックを作成する必要はありません。
 
 >[!NOTE]
 >
->ビジネスの拡大に伴い、ソースと在庫を追加し、[!DNL Inventory Management]設定を更新して、マルチソースマーチャントになります。 すべての詳細については、[ インベントリの展開と再構築](expand-restructure.md)を参照してください。
+>ビジネスの拡大に伴い、ソースと在庫を追加し、[!DNL Inventory Management]設定を更新して、マルチソースマーチャントになります。 すべての詳細については、[&#x200B; インベントリの展開と再構築](expand-restructure.md)を参照してください。
 
 ## マルチソースマーチャント
 
@@ -52,9 +62,9 @@ ht-degree: 0%
 
 - 必要に応じて、ストアのインベントリのグローバル設定を行います。
 
-- 倉庫、店舗、配送センター、ドロップシッパーなど、在庫場所に[ カスタムソース ](sources-add.md)を追加します。
+- 倉庫、店舗、配送センター、ドロップシッパーなど、在庫場所に[&#x200B; カスタムソース &#x200B;](sources-add.md)を追加します。
 
-- 複数のソースを使用してweb サイトをマッピングするには、各地域に[ カスタム ストック ](stocks-add.md)を追加します。 注文を処理する際に役立つ、各在庫のソースを場所の優先度で並べ替えます。
+- 複数のソースを使用してweb サイトをマッピングするには、各地域に[&#x200B; カスタム ストック &#x200B;](stocks-add.md)を追加します。 注文を処理する際に役立つ、各在庫のソースを場所の優先度で並べ替えます。
 
 - 商品にソースを割り当て、場所ごとに数量を追加します。
 

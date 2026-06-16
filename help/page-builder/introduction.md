@@ -3,10 +3,15 @@ title: ' [!DNL Page Builder]の概要'
 description: Adobe CommerceとMagento Open Sourceで簡単にコンテンツを作成できる [!DNL Page Builder]  ツールについて説明します。
 exl-id: 2f71f910-4141-4fe5-bc0f-b891daeb8334
 TQID: https://experienceleague.adobe.com/9TbyhDXBbSOfTp4umY9jDqMPo5-6RRFC1F7nywAzATo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 249
@@ -31,9 +36,9 @@ ht-degree: 0%
 
 [!DNL Commerce]を初めて使用する場合でも、経験豊富なユーザーの場合でも、次の[!DNL Page Builder]の演習を完了して、[!DNL Page Builder]を使用したコンテンツ作成について学習します。 これらの演習では、基本的な[!DNL Page Builder]機能の使用方法を示し、使い慣れたタスクを達成するための新しい方法を見つけるのに役立ちます。
 
-- チュートリアル第1部：[ シンプルなページ ](1-simple-page.md)
-- チュートリアル パート 2: [ ブロック ](2-blocks.md)
-- チュートリアル パート 3: [ カタログ コンテンツ ](3-catalog-content.md)
+- チュートリアル第1部：[&#x200B; シンプルなページ &#x200B;](1-simple-page.md)
+- チュートリアル パート 2: [&#x200B; ブロック &#x200B;](2-blocks.md)
+- チュートリアル パート 3: [&#x200B; カタログ コンテンツ &#x200B;](3-catalog-content.md)
 
 >[!NOTE]
 >

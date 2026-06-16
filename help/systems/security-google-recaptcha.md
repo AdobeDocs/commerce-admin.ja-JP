@@ -5,12 +5,23 @@ exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
 TQID: https://experienceleague.adobe.com/5gL6LIi-okCkQAu--QI4aLcyHlCiNZChc5KtA7t99pA
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1095
@@ -24,9 +35,9 @@ ht-degree: 0%
 
 Google reCAPTCHAは、管理者とストアフロント用に個別に設定されます。
 
-- 管理者の場合は、[ ログイン ](../getting-started/admin-signin.md) ページでGoogle reCAPTCHAを使用できます。また、ユーザーがパスワードのリセットをリクエストした場合にも使用できます。 標準のCommerce [CAPTCHA](security-captcha.md)も有効になっている場合、Google reCAPTCHAは問題なく同時に使用できます。
+- 管理者の場合は、[&#x200B; ログイン &#x200B;](../getting-started/admin-signin.md) ページでGoogle reCAPTCHAを使用できます。また、ユーザーがパスワードのリセットをリクエストした場合にも使用できます。 標準のCommerce [CAPTCHA](security-captcha.md)も有効になっている場合、Google reCAPTCHAは問題なく同時に使用できます。
 
-- ストアフロントの場合、Google reCAPTCHAを使用して[お客様アカウント ](../customers/customer-sign-in.md)にログインし、[お問い合わせ](../getting-started/store-details.md#contact-us-form) ページからメッセージを送信し、その他の多数のストアフロントの場所で使用できます。
+- ストアフロントの場合、Google reCAPTCHAを使用して[お客様アカウント &#x200B;](../customers/customer-sign-in.md)にログインし、[お問い合わせ](../getting-started/store-details.md#contact-us-form) ページからメッセージを送信し、その他の多数のストアフロントの場所で使用できます。
 
   ![Google reCAPTCHA - customer login](./assets/customer-account-login-recaptcha.png){width="700" zoomable="yes"}
 
@@ -83,7 +94,7 @@ Google reCAPTCHAを有効にするには、一対のAPI キーが必要です。
 
 1. Admin アカウントにログインします。
 
-1. 管理者サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. 管理者サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 右上隅で、**[!UICONTROL Store View]**&#x200B;を`Default Config`に設定します。
 
@@ -93,7 +104,7 @@ Google reCAPTCHAを有効にするには、一対のAPI キーが必要です。
    >
    >設定する各フィールドの&#x200B;**[!UICONTROL Use system value]** チェックボックスをオフにします。
 
-1. _[!DNL reCAPTCHA v2 ("I am not a robot")]_を使用するには、**[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**セクションを展開し、次の操作を行います。
+1. _[!DNL reCAPTCHA v2 ("I am not a robot")]_&#x200B;を使用するには、**[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**&#x200B;セクションを展開し、次の操作を行います。
 
    - **[!UICONTROL Google API Website Key]**&#x200B;に、Google reCAPTCHA アカウントを登録したときに、このreCAPTCHA タイプ用に作成されたweb サイト キーを入力します。
 
@@ -107,7 +118,7 @@ Google reCAPTCHAを有効にするには、一対のAPI キーが必要です。
 
    ![reCAPTCHA v2 - &quot;I am not a robot&quot;](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
-1. _[!DNL reCAPTCHA v2 Invisible]_を使用するには、**[!UICONTROL reCAPTCHA v2 Invisible]**セクションを展開し、次の操作を行います。
+1. _[!DNL reCAPTCHA v2 Invisible]_&#x200B;を使用するには、**[!UICONTROL reCAPTCHA v2 Invisible]**&#x200B;セクションを展開し、次の操作を行います。
 
    - **[!UICONTROL Google API Website Key]**&#x200B;に、Google reCAPTCHA アカウントを登録したときに、このreCAPTCHA タイプ用に作成されたweb サイト キーを入力します。
 
@@ -121,7 +132,7 @@ Google reCAPTCHAを有効にするには、一対のAPI キーが必要です。
 
    ![reCAPTCHA v2 Invisible](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
-1. _[!DNL reCAPTCHA v3 Invisible]_を使用するには、**[!UICONTROL reCAPTCHA v3 Invisible]**セクションを展開し、次の操作を行います。
+1. _[!DNL reCAPTCHA v3 Invisible]_&#x200B;を使用するには、**[!UICONTROL reCAPTCHA v3 Invisible]**&#x200B;セクションを展開し、次の操作を行います。
 
    - **[!UICONTROL Google API Website Key]**&#x200B;に、Google reCAPTCHA アカウントを登録したときに、このreCAPTCHA タイプ用に作成されたweb サイト キーを入力します。
 
@@ -139,7 +150,7 @@ Google reCAPTCHAを有効にするには、一対のAPI キーが必要です。
 
 1. **[!UICONTROL reCAPTCHA Validation Failure Messages]**&#x200B;を展開し、検証が失敗した場合や完了できなかった場合に管理者に表示されるメッセージを入力します。
 
-   ![reCAPTCHA失敗メッセージ ](../configuration-reference/security/assets/recaptcha-admin-failure-messages.png){width="600" zoomable="yes"}
+   ![reCAPTCHA失敗メッセージ &#x200B;](../configuration-reference/security/assets/recaptcha-admin-failure-messages.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Admin Panel]** セクションを展開し、必要に応じて次の設定を行います。
 
@@ -147,11 +158,11 @@ Google reCAPTCHAを有効にするには、一対のAPI キーが必要です。
 
    - パスワードのリセット要求に使用するreCAPTCHA タイプに&#x200B;**[!UICONTROL Enable for Forgot Password]**&#x200B;を設定します。
 
-   ![reCAPTCHA管理オプション ](../configuration-reference/security/assets/recaptcha-admin-panel.png){width="600" zoomable="yes"}
+   ![reCAPTCHA管理オプション &#x200B;](../configuration-reference/security/assets/recaptcha-admin-panel.png){width="600" zoomable="yes"}
 
 ## 手順3：ストアフロント用にGoogle reCAPTCHAを設定する
 
-1. _[!UICONTROL Security]_の下の左側のパネルで、**[!UICONTROL Google reCAPTCHA Storefront]**を選択します。
+1. _[!UICONTROL Security]_&#x200B;の下の左側のパネルで、**[!UICONTROL Google reCAPTCHA Storefront]**&#x200B;を選択します。
 
 1. ストアフロントで使用する各reCAPTCHA タイプのセクションを完了します。
 
@@ -169,7 +180,7 @@ Google reCAPTCHAを有効にするには、一対のAPI キーが必要です。
 
    {{recaptcha-forms-list}}
 
-   ![ ストアフロントオプション設定](../configuration-reference/security/assets/recaptcha-storefront.png){width="600" zoomable="yes"}
+   ![&#x200B; ストアフロントオプション設定](../configuration-reference/security/assets/recaptcha-storefront.png){width="600" zoomable="yes"}
 
 ## 手順4：設定の保存
 

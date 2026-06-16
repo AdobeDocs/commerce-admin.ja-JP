@@ -3,11 +3,19 @@ title: 顧客セグメント
 description: 顧客セグメントを使用すると、特定の顧客に対してコンテンツとプロモーションを動的に表示できます。
 exl-id: b254a6ac-cb0b-46c1-9ef7-ffc97360a98e
 TQID: https://experienceleague.adobe.com/K10qvsYlYebR6fJG8-QNI5qrqwjE-Sn-kSxzfiuoXdo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 492
@@ -19,7 +27,7 @@ ht-degree: 0%
 
 顧客セグメントを使用すると、様々なプロパティに基づいて、特定の顧客にコンテンツやプロモーションを動的に表示できます。 たとえば、顧客の住所、注文履歴、ショッピングカートの内容などがあります。 ショッピングカートの価格ルール機能を利用して、ターゲットを絞ったセグメントにもとづいて、マーケティング施策を最適化できます。 レポートを生成し、ターゲット顧客のリストを書き出すこともできます。 顧客セグメント情報は常に更新されるため、顧客がストアで買い物をするときに、セグメントに関連付けられたり、関連付けられなかったりする可能性があります。
 
-[顧客グループ ](../customers/customer-groups.md)と顧客セグメントの違いをより深く理解するには、それらが使用されている場所に注意してください。
+[顧客グループ &#x200B;](../customers/customer-groups.md)と顧客セグメントの違いをより深く理解するには、それらが使用されている場所に注意してください。
 
 |  | 顧客セグメント | 顧客グループ |
 |--- |--- |--- |
@@ -36,7 +44,7 @@ ht-degree: 0%
 
 ## 顧客セグメント属性
 
-顧客セグメント属性は、ショッピングカートやカタログの価格ルールと同様に定義されます。 顧客セグメント条件で属性を使用するには、_[!UICONTROL Use in Customer Segment]_[ プロパティ ](attribute-properties.md#)を`Yes`に設定する必要があります。 顧客セグメント条件には、次のタイプの属性を組み込むことができます。
+顧客セグメント属性は、ショッピングカートやカタログの価格ルールと同様に定義されます。 顧客セグメント条件で属性を使用するには、_[!UICONTROL Use in Customer Segment]_[&#x200B; プロパティ &#x200B;](attribute-properties.md#)を`Yes`に設定する必要があります。 顧客セグメント条件には、次のタイプの属性を組み込むことができます。
 
 | 属性 | 説明 |
 |---|---|
@@ -52,5 +60,5 @@ ht-degree: 0%
 
 ## 電子ブック
 
-- **顧客セグメンテーション** — [電子ブック ](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html)を入手して、利益と全体的な顧客満足度を向上させる方法を学びましょう。
-- **セグメント化の戦術** — メッセージとプロモーションのターゲティングを改善して、顧客と有意義な会話を作成するための[電子ブック ](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html)を入手します。
+- **顧客セグメンテーション** — [電子ブック &#x200B;](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html)を入手して、利益と全体的な顧客満足度を向上させる方法を学びましょう。
+- **セグメント化の戦術** — メッセージとプロモーションのターゲティングを改善して、顧客と有意義な会話を作成するための[電子ブック &#x200B;](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html)を入手します。

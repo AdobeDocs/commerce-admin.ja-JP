@@ -3,11 +3,22 @@ title: Commerce マーチャンダイジングとプロモーションの概要
 description: カスタマーエンゲージメントを目的としたプロモーションやオポチュニティを作成するための Commerce ツールについて説明します。
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
 TQID: https://experienceleague.adobe.com/2ZEsUmKW8TQM53KFXWxyQGb9h4yFXHsjnFu8q25PCT8
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1049
@@ -21,19 +32,19 @@ ht-degree: 1%
 
 ## マーチャンダイジング
 
-_マーチャンダイジング_&#x200B;は、平面図の開発と製品のプレゼンテーションのアートと科学を説明するために小売で使用される用語です。 [ カテゴリーベースのナビゲーション ](../catalog/navigation-top.md)は、ストアのフロアプランと考えることができ、ストア内の商品のリストに適用できる条件として、商品の動的なプレゼンテーションを考えることができます。 また、商品の売上を増加させるためのプログラムを導入することもできます。
+_マーチャンダイジング_&#x200B;は、平面図の開発と製品のプレゼンテーションのアートと科学を説明するために小売で使用される用語です。 [&#x200B; カテゴリーベースのナビゲーション &#x200B;](../catalog/navigation-top.md)は、ストアのフロアプランと考えることができ、ストア内の商品のリストに適用できる条件として、商品の動的なプレゼンテーションを考えることができます。 また、商品の売上を増加させるためのプログラムを導入することもできます。
 
 - [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [Visual Merchandiser](visual-merchandiser.md) – 製品を配置し、カテゴリ リストに表示される製品を決定する条件を適用できる高度なツールのセット。
 
-- [ ギフト レジストリ ](gift-registries.md) – 特別な機会にギフト レジストリを作成し、友人や家族を招待してギフト レジストリからギフトを購入する機能をお客様に提供します。
+- [&#x200B; ギフト レジストリ &#x200B;](gift-registries.md) – 特別な機会にギフト レジストリを作成し、友人や家族を招待してギフト レジストリからギフトを購入する機能をお客様に提供します。
 
-- [報酬とロイヤルティ ](rewards-loyalty.md) - ポイント システムを使用して、顧客エンゲージメントを促進し、顧客ロイヤルティを促進する独自のプログラムを実装します。 幅広い取引や顧客の行動に対してポイントを付与し、ポイントの割り当て、残高、有効期限を制御できます。
+- [報酬とロイヤルティ &#x200B;](rewards-loyalty.md) - ポイント システムを使用して、顧客エンゲージメントを促進し、顧客ロイヤルティを促進する独自のプログラムを実装します。 幅広い取引や顧客の行動に対してポイントを付与し、ポイントの割り当て、残高、有効期限を制御できます。
 
-- [ プライベートセールスとイベント ](events-private-sales.md) – 既存の顧客基盤を利用して、話題や新しいリードを生み出したり、プライベートセールスやその他のカタログイベントを通じて余剰在庫をオフロードしたりすることができます。
+- [&#x200B; プライベートセールスとイベント &#x200B;](events-private-sales.md) – 既存の顧客基盤を利用して、話題や新しいリードを生み出したり、プライベートセールスやその他のカタログイベントを通じて余剰在庫をオフロードしたりすることができます。
 
 >[!TIP]
 >
->商品レコメンデーションと、購入者に最適なエクスペリエンスを構築するために必要なinsightとコントロールを提供する方法について詳しくは、[商品レコメンデーションユーザーガイド ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)を参照してください。
+>商品レコメンデーションと、購入者に最適なエクスペリエンスを構築するために必要なinsightとコントロールを提供する方法について詳しくは、[商品レコメンデーションユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)を参照してください。
 
 ## プロモーション
 
@@ -51,35 +62,35 @@ Adobe Commerceでは、プロモーション機能を利用して商品との関
 
 >[!NOTE]
 >
->特定の製品属性に基づいて条件を定義する場合は、[ ストアフロントプロパティ ](../catalog/attribute-product-create.md)の属性に&#x200B;**[!UICONTROL Use for Promo Rule Conditions]**&#x200B;を`Yes`に設定する必要があります。
+>特定の製品属性に基づいて条件を定義する場合は、[&#x200B; ストアフロントプロパティ &#x200B;](../catalog/attribute-product-create.md)の属性に&#x200B;**[!UICONTROL Use for Promo Rule Conditions]**&#x200B;を`Yes`に設定する必要があります。
 
 
 ### 価格ルール
 
-[ カタログ価格ルール ](price-rules-catalog.md)の場合、カタログ、比較関数、選択した属性の[属性セット ](../catalog/attribute-sets.md)に基づいて条件を作成します。 文章などの条件を作成するには、いくつかステートメントを選択します。 例えば、子供服と紳士服/婦人服のカテゴリに基づいて割引を適用するために、2つの価格規則を作成できます。
+[&#x200B; カタログ価格ルール &#x200B;](price-rules-catalog.md)の場合、カタログ、比較関数、選択した属性の[属性セット &#x200B;](../catalog/attribute-sets.md)に基づいて条件を作成します。 文章などの条件を作成するには、いくつかステートメントを選択します。 例えば、子供服と紳士服/婦人服のカテゴリに基づいて割引を適用するために、2つの価格規則を作成できます。
 
 ![図 – カタログ価格ルールの例](./assets/diagram-catalog-price-rules.png){width="500"}
 
-[買い物かごの価格ルール ](price-rules-cart.md)条件は、ストア [ ルート ](../catalog/category-root.md)の子である任意のカテゴリに基づいて指定できます。 価格ルールは事前に設定されており、必要な条件が満たされるたびに行動に移ります。 これらのルールでは、商品属性を使用してカート内のSKUを照合するなど、商品属性の組み合わせを含む属性を使用します。 これらのルールでは、商品選択数量の条件、複雑なルールの条件の組み合わせ、小計などのカート属性も使用できます。
+[買い物かごの価格ルール &#x200B;](price-rules-cart.md)条件は、ストア [&#x200B; ルート &#x200B;](../catalog/category-root.md)の子である任意のカテゴリに基づいて指定できます。 価格ルールは事前に設定されており、必要な条件が満たされるたびに行動に移ります。 これらのルールでは、商品属性を使用してカート内のSKUを照合するなど、商品属性の組み合わせを含む属性を使用します。 これらのルールでは、商品選択数量の条件、複雑なルールの条件の組み合わせ、小計などのカート属性も使用できます。
 
 ![図 – カート価格ルールの例](./assets/diagram-cart-price-rules.png){width="500"}
 
 ## コミュニケーションとSEO
 
-潜在的な購入者を呼び込むには、[検索エンジン最適化（SEO） ](seo-overview.md)を習得することが非常に重要です。 検索エンジンの最適化と、サイトのコンテンツとプレゼンテーションの調整について説明し、検索エンジンによるページのインデックス作成方法を改善します。
+潜在的な購入者を呼び込むには、[検索エンジン最適化（SEO） &#x200B;](seo-overview.md)を習得することが非常に重要です。 検索エンジンの最適化と、サイトのコンテンツとプレゼンテーションの調整について説明し、検索エンジンによるページのインデックス作成方法を改善します。
 
 ストアを立ち上げる前に完了すべきタスクの1つは、ストアから送信されるすべてのコミュニケーションに使用されるメールテンプレートを確認して、ブランドを反映していることを確認することです。 しかし、さらに一歩進めて、自社と製品を既存顧客に宣伝するコミュニケーションを開発する必要があります。 変数やマークアップタグを使用して、コンテンツをパーソナライズできます。
 
 >[!NOTE]
 >
 >Adobe CommerceおよびMagento Open Source リリース 2.4.0 ～ 2.4.3には、dotdigital Engagement Cloudとの統合に使用するdotdigital ベンダー開発の拡張機能が含まれています。2.4.4 リリース以降、この拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。Marketplaceでは、拡張機能の開発者が提供する最新のドキュメントにもアクセスできます。
-><br><br>> バンドル拡張機能を有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。詳しくは、_アップグレードガイド_&#x200B;の[ アップグレードモジュール ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)を参照してください。
+><br><br>> バンドル拡張機能を有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。詳しくは、_アップグレードガイド_&#x200B;の[&#x200B; アップグレードモジュール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)を参照してください。
 
-- [ ニュースレター](newsletters.md) - ニュースレターを作成し、購読者リストを管理し、コンテンツを開発し、ストアへのトラフィックを促進します。
+- [&#x200B; ニュースレター](newsletters.md) - ニュースレターを作成し、購読者リストを管理し、コンテンツを開発し、ストアへのトラフィックを促進します。
 
-- [RSS フィード ](social-rss.md#rss-feeds) - RSS フィードを使用して、商品情報をショッピング集計サイトに公開したり、ニュースレターに掲載したりできます。 顧客はRSS フィードを購読して、新製品やプロモーションについて学習できます。
+- [RSS フィード &#x200B;](social-rss.md#rss-feeds) - RSS フィードを使用して、商品情報をショッピング集計サイトに公開したり、ニュースレターに掲載したりできます。 顧客はRSS フィードを購読して、新製品やプロモーションについて学習できます。
 
-- [ ソーシャルネットワーク ](social-rss.md#social-networks) - Marketplace拡張機能をインストールするか、コンテンツページにプラグインを追加して、ストアをソーシャルネットワークと統合します。
+- [&#x200B; ソーシャルネットワーク &#x200B;](social-rss.md#social-networks) - Marketplace拡張機能をインストールするか、コンテンツページにプラグインを追加して、ストアをソーシャルネットワークと統合します。
 
 ## Googleのマーケティングツール
 
@@ -87,7 +98,7 @@ Adobe Commerceでは、プロモーション機能を利用して商品との関
 
 >[!NOTE]
 >
->2.4.5 リリース以降、Google サービス統合が更新され、GTag APIの使用がサポートされるようになりました。 GTagは、web ページのGoogle機能と統合するための統合メカニズムであり、Google サービスを通じてコンテンツをトラッキングおよび管理する最新の機能と機会をサポートします。 詳しくは、[Google Analytics開発者向けドキュメント ](https://developers.google.com/analytics/devguides/collection/gtagjs)を参照してください。
+>2.4.5 リリース以降、Google サービス統合が更新され、GTag APIの使用がサポートされるようになりました。 GTagは、web ページのGoogle機能と統合するための統合メカニズムであり、Google サービスを通じてコンテンツをトラッキングおよび管理する最新の機能と機会をサポートします。 詳しくは、[Google Analytics開発者向けドキュメント &#x200B;](https://developers.google.com/analytics/devguides/collection/gtagjs)を参照してください。
 
 - [Google Analytics](google-analytics.md) - Google Universal Analyticsを使用して、オフラインおよびモバイルアプリのインタラクションのサポート、継続的な更新へのアクセスを含む、トラッキング用の追加のカスタムディメンションと指標を定義します。
 

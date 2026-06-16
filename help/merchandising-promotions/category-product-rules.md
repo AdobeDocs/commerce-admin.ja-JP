@@ -5,11 +5,21 @@ exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
 badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/Be3PacClITSThEtPIbG7NcxdrmZj7hoCTxTDAqRYN1E
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1115
@@ -33,7 +43,7 @@ ht-degree: 0%
 >
 >ルールで使用されている各属性を&#x200B;[_smart_&#x200B;属性](smart-attributes-configure.md)として設定してください。
 
-![ カテゴリ製品ルール ](../catalog/assets/category-product-rule-with-stock.png){width="600" zoomable="yes"}
+![&#x200B; カテゴリ製品ルール &#x200B;](../catalog/assets/category-product-rule-with-stock.png){width="600" zoomable="yes"}
 
 カテゴリ製品ルールは、カテゴリに表示される製品を決定する条件に基づいて、特定の製品をカテゴリに割り当てるプロセスを迅速化できます。 カテゴリ製品ルールで使用できる「スマート」属性は、[Visual Merchandiser](visual-merchandiser.md)設定で指定されます。
 
@@ -47,7 +57,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >選択する属性が複数選択&#x200B;_[!UICONTROL Input Type]_でないことを確認してください。
+   >選択する属性が複数選択&#x200B;_[!UICONTROL Input Type]_&#x200B;でないことを確認してください。
 
 1. Visual Merchandiserで使用する各&#x200B;_smart_&#x200B;属性を識別するには、[設定](smart-attributes-configure.md)を完了します。
 
@@ -75,7 +85,7 @@ ht-degree: 0%
 
 1. 一致させる&#x200B;**[!UICONTROL Value]**&#x200B;を入力します。
 
-   ![ カテゴリルールに条件を追加](../catalog/assets/category-rule-create.png){width="500"}
+   ![&#x200B; カテゴリルールに条件を追加](../catalog/assets/category-rule-create.png){width="500"}
 
 1. 満たすべき条件を記述するために必要な各属性について、このプロセスを繰り返します。
 
@@ -150,4 +160,4 @@ ht-degree: 0%
 
 - **[!UICONTROL Value]** – 属性が条件を満たすために必要な値を指定します。
 
-- **[!UICONTROL Logic]** - ロジック列は複数の条件を定義するために使用され、別の条件が追加された場合にのみ表示されます。 演算子は、MySQL [ ブール演算子](https://dev.mysql.com/doc/refman/8.0/en/operator-precedence.html)の優先順位のルールに従います。 オプション：`AND` / `OR`
+- **[!UICONTROL Logic]** - ロジック列は複数の条件を定義するために使用され、別の条件が追加された場合にのみ表示されます。 演算子は、MySQL [&#x200B; ブール演算子](https://dev.mysql.com/doc/refman/8.0/en/operator-precedence.html)の優先順位のルールに従います。 オプション：`AND` / `OR`

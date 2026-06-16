@@ -4,10 +4,15 @@ description: 既存の [!DNL Page Builder]  コンテンツをテンプレート
 exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/P61L0tgCPw78m-241VFZrlTugCZT3sRlHhHRyr-ARNs
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 477
@@ -21,23 +26,23 @@ ht-degree: 0%
 
 ## テンプレートへのアクセス
 
-_管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Templates]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Templates]**&#x200B;に移動します。
 
-![ サムネールプレビュー付きテンプレートグリッド ](./assets/templates-list.png){width="700" zoomable="yes"}
+![&#x200B; サムネールプレビュー付きテンプレートグリッド &#x200B;](./assets/templates-list.png){width="700" zoomable="yes"}
 
 ## [!DNL Page Builder] コンテンツをテンプレートとして保存
 
-1. [[!DNL Page Builder]  ステージ ](workspace.md#stage)に移動し、テンプレートとして保存するコンテンツにアクセスします。
+1. [[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage)に移動し、テンプレートとして保存するコンテンツにアクセスします。
 
    これには、ページ、ブロック、ダイナミックブロック、製品属性、カテゴリ説明を使用できます。
 
 1. ステージの上で、右上の「**[!UICONTROL Save as Template]**」をクリックします。
 
-   テンプレートとして保存ボタン ](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}を使用した![[!DNL Page Builder] ステージ
+   テンプレートとして保存ボタン ![&#128279;](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}を使用した[!DNL Page Builder] ステージ
 
-   このアクションは、_[!UICONTROL Save Content as Template]_ダイアログを表示します。
+   このアクションは、_[!UICONTROL Save Content as Template]_&#x200B;ダイアログを表示します。
 
-   ![[!DNL Page Builder] テンプレートとして保存ダイアログ ](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
+   ![[!DNL Page Builder] テンプレートとして保存ダイアログ &#x200B;](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
 
 1. **[!UICONTROL Template Name]**&#x200B;に、テンプレートの一意の名前を入力します。
 
@@ -59,9 +64,9 @@ _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Element
 
 1. コンテンツ領域で、右上の「**[!UICONTROL Apply Template]**」をクリックします。
 
-   ![[!DNL Page Builder] 「テンプレートを適用」ボタン ](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] 「テンプレートを適用」ボタン &#x200B;](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Apply Template]_グリッドからテンプレートを選択し、行の最後にある&#x200B;**[!UICONTROL Apply]**をクリックします。
+1. _[!UICONTROL Apply Template]_&#x200B;グリッドからテンプレートを選択し、行の最後にある&#x200B;**[!UICONTROL Apply]**&#x200B;をクリックします。
 
    テンプレート全体を表示するには、テンプレートのサムネール画像をクリックします。 このアクションは、画像を拡張して、必要に応じてテンプレート全体を表示できるようにします。
 

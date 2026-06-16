@@ -4,11 +4,20 @@ description: YouTubeまたはVimeoでホストされているビデオを [!DNL 
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/rgFMtNXv6jerPV7rthqTFteR8XlJ1bVc7ziBjwAlAMk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 947
@@ -18,25 +27,25 @@ ht-degree: 0%
 
 # メディア – ビデオ
 
-_Video_ コンテンツ タイプを使用して、[YouTube](https://www.youtube.com/)または[Vimeo](https://vimeo.com/)でホストされているビデオを[[!DNL Page Builder]  ステージ ](workspace.md#stage)に追加します。 ページやブロック、商品やカテゴリーの説明に動画を簡単に埋め込むことができます。
+_Video_ コンテンツ タイプを使用して、[YouTube](https://www.youtube.com/)または[Vimeo](https://vimeo.com/)でホストされているビデオを[[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage)に追加します。 ページやブロック、商品やカテゴリーの説明に動画を簡単に埋め込むことができます。
 
-![ ストアフロントのホームページの動画](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントのホームページの動画](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## ビデオツールボックス
 
-![ ビデオツールボックス ](./assets/pb-media-video-toolbox.png){width="600" zoomable="yes"}
+![&#x200B; ビデオツールボックス &#x200B;](./assets/pb-media-video-toolbox.png){width="600" zoomable="yes"}
 
 | ツール | アイコン | 説明 |
 |--- |--- |--- |
-| 移動 | ![移動アイコン ](./assets/pb-icon-move.png){width="25"} | ビデオをステージ上の別の位置に移動します。 |
+| 移動 | ![移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | ビデオをステージ上の別の位置に移動します。 |
 | （ラベル） | [!UICONTROL Video] | 現在のコンテンツコンテナをビデオとして識別します。 画像コンテナにカーソルを合わせると、ツールボックスが表示されます。 |
-| 設定 | ![設定アイコン ](./assets/pb-icon-settings.png){width="25"} | ビデオとコンテナのプロパティを変更できる&#x200B;_[!UICONTROL Edit Video]_ページを開きます。 |
-| 非表示 | ![ アイコンを非表示](./assets/pb-icon-hide.png){width="25"} | 現在のビデオを非表示にします。 |
-| 表示 | ![ アイコンを表示](./assets/pb-icon-show.png){width="25"} | 非表示のビデオを表示します。 |
-| 重複 | ![ アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | ビデオのコピーを作成します。 |
-| 削除 | ![ アイコンを削除](./assets/pb-icon-remove.png){width="25"} | ステージからビデオを削除します。 |
+| 設定 | ![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | ビデオとコンテナのプロパティを変更できる&#x200B;_[!UICONTROL Edit Video]_&#x200B;ページを開きます。 |
+| 非表示 | ![&#x200B; アイコンを非表示](./assets/pb-icon-hide.png){width="25"} | 現在のビデオを非表示にします。 |
+| 表示 | ![&#x200B; アイコンを表示](./assets/pb-icon-show.png){width="25"} | 非表示のビデオを表示します。 |
+| 重複 | ![&#x200B; アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | ビデオのコピーを作成します。 |
+| 削除 | ![&#x200B; アイコンを削除](./assets/pb-icon-remove.png){width="25"} | ステージからビデオを削除します。 |
 
 {style="table-layout:auto"}
 
@@ -52,9 +61,9 @@ _Video_ コンテンツ タイプを使用して、[YouTube](https://www.youtube
 
 1. [!DNL Page Builder] パネルで、**[!UICONTROL Media]**&#x200B;を展開し、**[!UICONTROL Video]** プレースホルダーをステージにドラッグします。
 
-   ![ ビデオプレースホルダーをステージにドラッグする](./assets/pb-media-video-drag.png){width="600" zoomable="yes"}
+   ![&#x200B; ビデオプレースホルダーをステージにドラッグする](./assets/pb-media-video-drag.png){width="600" zoomable="yes"}
 
-1. ビデオコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. ビデオコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
 1. **[!UICONTROL Video URL]**&#x200B;に、コピーしたビデオのURLを貼り付けます。
 
@@ -68,7 +77,7 @@ _Video_ コンテンツ タイプを使用して、[YouTube](https://www.youtube
 
 ## ビデオ設定の変更
 
-1. ビデオコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. ビデオコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
 1. 次のセクションに従って設定を変更します。
 
@@ -160,9 +169,9 @@ _Video_ コンテンツ タイプを使用して、[YouTube](https://www.youtube
 
 ## ビデオの移動
 
-1. ビデオコンテナにカーソルを合わせてツールボックスを表示し、_移動_ （![移動アイコン ](./assets/pb-icon-move.png){width="20"}）アイコンを選択します。
+1. ビデオコンテナにカーソルを合わせてツールボックスを表示し、_移動_ （![移動アイコン &#x200B;](./assets/pb-icon-move.png){width="20"}）アイコンを選択します。
 
-   ![ ビデオの移動](./assets/pb-media-video-toolbox-move-col1.png){width="500" zoomable="yes"}
+   ![&#x200B; ビデオの移動](./assets/pb-media-video-toolbox-move-col1.png){width="500" zoomable="yes"}
 
 1. 赤いガイドラインのすぐ下にある新しい位置にビデオを選択してドラッグします。
 
@@ -170,7 +179,7 @@ _Video_ コンテンツ タイプを使用して、[YouTube](https://www.youtube
 
 ## ステージからビデオを削除する
 
-1. ビデオコンテナにカーソルを合わせてツールボックスを表示し、_削除_ （![削除アイコン ](./assets/pb-icon-remove.png)）アイコンを選択します。
+1. ビデオコンテナにカーソルを合わせてツールボックスを表示し、_削除_ （![削除アイコン &#x200B;](./assets/pb-icon-remove.png)）アイコンを選択します。
 
 1. 確認を求められたら、**[!UICONTROL OK]**&#x200B;をクリックします。
 

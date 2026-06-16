@@ -6,10 +6,17 @@ level: Experienced
 feature: Inventory, Configuration
 badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/jdlLgwIe50ExZ2giXBiGf5cG8L4DQDZe4psbB16F5JE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 858
@@ -175,7 +182,7 @@ bin/magento inventory:reservation:list-inconsistencies -r -c | bin/magento inven
 
 ## ジオコードの読み込み
 
-[!DNL Inventory Management]には[距離優先アルゴリズム ](distance-priority-algorithm.md)が用意されており、完全または部分的な注文を出荷するための最適なオプションを決定するのに役立ちます。 このアルゴリズムは、GPS情報またはジオコードを使用して、注文の各商品のソース（倉庫またはその他の物理的な場所）と配送先住所との間の距離を計算します。 これらの結果にもとづいて、アルゴリズムは、各商品を発注するために使用するソースを推奨します。
+[!DNL Inventory Management]には[距離優先アルゴリズム &#x200B;](distance-priority-algorithm.md)が用意されており、完全または部分的な注文を出荷するための最適なオプションを決定するのに役立ちます。 このアルゴリズムは、GPS情報またはジオコードを使用して、注文の各商品のソース（倉庫またはその他の物理的な場所）と配送先住所との間の距離を計算します。 これらの結果にもとづいて、アルゴリズムは、各商品を発注するために使用するソースを推奨します。
 
 加盟店は、距離の計算に必要なGPSまたはジオコードデータのプロバイダーを選択します。
 

@@ -5,12 +5,28 @@ exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
 TQID: https://experienceleague.adobe.com/XJPHU9LGy6OSzy6D67S-2qF8Td4d6Wl3Y49LS1roCkw
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2455
@@ -71,9 +87,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >訪問者が登録済みのユーザーアカウントにログインしている場合は、_[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**に移動して、会社アカウントを作成できます。
+   >訪問者が登録済みのユーザーアカウントにログインしている場合は、_[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**&#x200B;に移動して、会社アカウントを作成できます。
 
-1. _[!UICONTROL Company Information]_セクションでは、お客様は次の操作を行います。
+1. _[!UICONTROL Company Information]_&#x200B;セクションでは、お客様は次の操作を行います。
 
    * 必須フィールドを入力します。
 
@@ -88,7 +104,7 @@ ht-degree: 0%
 
    ![会社情報](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Legal Address]_セクションの必須フィールドを入力します。
+1. _[!UICONTROL Legal Address]_&#x200B;セクションの必須フィールドを入力します。
 
    * **[!UICONTROL Street Address]**
    * **[!UICONTROL City]**
@@ -99,7 +115,7 @@ ht-degree: 0%
 
    ![法的な住所](./assets/company-legal-address-storefront.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Company Administrator]_セクションで、次の操作を行います。
+1. _[!UICONTROL Company Administrator]_&#x200B;セクションで、次の操作を行います。
 
    * 会社管理者の&#x200B;**[!UICONTROL Email address]**&#x200B;を入力します。
 
@@ -121,9 +137,9 @@ ht-degree: 0%
 
    加盟店が会社アカウントの作成リクエストを承認すると、システムは会社の管理者にメール通知を送信します。
 
-   ![ ウェルカムメールの例](./assets/company-admin-welcome-email.png){width="500"}
+   ![&#x200B; ウェルカムメールの例](./assets/company-admin-welcome-email.png){width="500"}
 
-   パスワードが設定されると、会社の管理者は[ アカウントに](../customers/customer-sign-in.md) ログインできます。
+   パスワードが設定されると、会社の管理者は[&#x200B; アカウントに](../customers/customer-sign-in.md) ログインできます。
 
 ## 方法2：管理者からアカウントを作成する
 
@@ -151,7 +167,7 @@ ht-degree: 0%
 
    * 該当する場合は、アカウントを管理する&#x200B;**[!UICONTROL Sales Representative]**&#x200B;の管理者アカウントを選択します。
 
-1. _[!UICONTROL Account Information]_セクションで、次の操作を行います。
+1. _[!UICONTROL Account Information]_&#x200B;セクションで、次の操作を行います。
 
    * 該当する場合は、次のフィールドに入力します。
 
@@ -163,9 +179,9 @@ ht-degree: 0%
 
      コメントは管理者からのみ表示されます。
 
-   ![ アカウント情報](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
+   ![&#x200B; アカウント情報](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. 最初に会社を作成すると、展開すると&#x200B;_[!UICONTROL Company Hierarchy]_グリッドが空になります。 会社を保存した後、会社の階層に含めることができます。 [会社管理](manage-companies.md)を参照してください。
+1. 最初に会社を作成すると、展開すると&#x200B;_[!UICONTROL Company Hierarchy]_&#x200B;グリッドが空になります。 会社を保存した後、会社の階層に含めることができます。 [会社管理](manage-companies.md)を参照してください。
 
 1. 「_[!UICONTROL Legal Address]_」セクションで、次の必須フィールドに入力します。
 
@@ -175,7 +191,7 @@ ht-degree: 0%
    * **[!UICONTROL ZIP/Postal Code]**
    * **[!UICONTROL Phone Number]**
 
-1. _[!UICONTROL Company Admin]_セクションで、次の操作を行います。
+1. _[!UICONTROL Company Admin]_&#x200B;セクションで、次の操作を行います。
 
    * 次の必須フィールドに入力します。
 
@@ -199,16 +215,16 @@ ht-degree: 0%
 
    ![会社管理者](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
-1. 顧客の信用活動の概要を表示する&#x200B;_[!UICONTROL Company Credit]_セクションでは、セクションの下部にあるフィールドの数だけ入力します。
+1. 顧客の信用活動の概要を表示する&#x200B;_[!UICONTROL Company Credit]_&#x200B;セクションでは、セクションの下部にあるフィールドの数だけ入力します。
 
    * **[!UICONTROL Credit Currency]**
    * **[!UICONTROL Credit Limit]**
    * **[!UICONTROL Allow to Exceed Credit Limit]**
    * **[!UICONTROL Reason for Change]**
 
-   ![会社クレジット ](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
+   ![会社クレジット &#x200B;](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Advanced Settings]_セクションで、次の操作を行います。
+1. _[!UICONTROL Advanced Settings]_&#x200B;セクションで、次の操作を行います。
 
    >[!NOTE]
    >
@@ -226,7 +242,7 @@ ht-degree: 0%
 
      | オプション | 説明 |
      |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-     | `B2B Payment Methods` | （デフォルト） B2B注文のデフォルト ](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods)として設定されているすべての[支払い方法を有効にします。 |
+     | `B2B Payment Methods` | （デフォルト） B2B注文のデフォルト [&#128279;](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods)として設定されているすべての支払い方法を有効にします。 |
      | `All Enabled Payment Methods` | 会社アカウントに関連付けられている顧客アカウントに対して、すべての[有効な支払い方法](../configuration-reference/sales/payment-methods.md)を使用できるようにします。 |
      | `Selected Payment Methods` | 会社アカウントに関連付けられている顧客アカウントで使用できる支払い方法を選択できます。 複数の支払い方法を選択するには、Ctrl キー（PC）またはCommand キー（Mac）を押しながら、各オプションを選択します。 |
 
@@ -236,7 +252,7 @@ ht-degree: 0%
 
      | オプション | 説明 |
      |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-     | `B2B Shipping Methods` | （デフォルト） B2B注文のデフォルト ](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods)として設定されているすべての[配送方法を有効にします。 |
+     | `B2B Shipping Methods` | （デフォルト） B2B注文のデフォルト [&#128279;](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods)として設定されているすべての配送方法を有効にします。 |
      | `All Enabled Shipping Methods` | 会社アカウントに関連付けられている顧客アカウントに対して有効なすべての[配送方法](../configuration-reference/sales/delivery-methods.md)を使用できるようにします。 |
      | `Selected Shipping Methods` | 会社アカウントに関連付けられている顧客アカウントで使用できる配送方法を選択できます。 複数の配送方法を選択するには、Ctrl キー（PC）またはCommand キー（Mac）を押しながら、各オプションを選択します。 |
 
@@ -246,7 +262,7 @@ ht-degree: 0%
 
    会社アカウントの作成リクエストが加盟店によって承認されると、会社の管理者のメールアドレスにメール通知が送信されます。
 
-   パスワードが設定されると、会社の管理者は[ アカウントに](../customers/customer-sign-in.md) ログインできます。
+   パスワードが設定されると、会社の管理者は[&#x200B; アカウントに](../customers/customer-sign-in.md) ログインできます。
 
 ## アカウント作成後
 
@@ -345,7 +361,7 @@ ht-degree: 0%
 | フィールド | 説明 |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | 会社名は、会社アカウントが最初に作成されたときに入力され、完全な法的名の短縮バージョンにすることができます。 |
-| [!UICONTROL Status] | （管理者のみ）会社アカウントの現在の状態を示します。 オプション：<br/>**[!UICONTROL Active]**– 会社アカウントはストア管理者によって承認されています。 会社の管理者と関連メンバーは、ストアフロントからアカウントにログインして購入することができます。<br/>**[!UICONTROL Pending Approval]** – 会社アカウントを開くリクエストが送信されましたが、ストア管理者によってまだ承認されていません。<br/>**[!UICONTROL Rejected]**– 会社アカウントを開くリクエストが送信されましたが、ストア管理者によって承認されませんでした。 リクエストの送信に使用された最初のログイン資格情報はブロックされます。<br/>** ブロック **– 会社のメンバーはログインしてカタログにアクセスできますが、購入はできません。 ストア管理者は、適切な状態にない会社アカウントをブロックする場合があります。 アカウントのブロックは、いつでもストア管理者が削除できます。 |
+| [!UICONTROL Status] | （管理者のみ）会社アカウントの現在の状態を示します。 オプション：<br/>**[!UICONTROL Active]**– 会社アカウントはストア管理者によって承認されています。 会社の管理者と関連メンバーは、ストアフロントからアカウントにログインして購入することができます。<br/>**[!UICONTROL Pending Approval]** – 会社アカウントを開くリクエストが送信されましたが、ストア管理者によってまだ承認されていません。<br/>**[!UICONTROL Rejected]**– 会社アカウントを開くリクエストが送信されましたが、ストア管理者によって承認されませんでした。 リクエストの送信に使用された最初のログイン資格情報はブロックされます。<br/>**&#x200B; ブロック &#x200B;**– 会社のメンバーはログインしてカタログにアクセスできますが、購入はできません。 ストア管理者は、適切な状態にない会社アカウントをブロックする場合があります。 アカウントのブロックは、いつでもストア管理者が削除できます。 |
 | [!UICONTROL Company Email] | 会社アカウントに関連付けられている電子メールアドレス。 |
 | [!UICONTROL Sales Representative] | （管理者のみ）会社アカウントのプライマリ連絡先である管理者ユーザー。 |
 
@@ -373,7 +389,7 @@ ht-degree: 0%
 | [!UICONTROL Country] | 会社が事業を行うために登録されている国。 |
 | [!UICONTROL State/Province] | 会社が事業を行うために登録されている州または州。 |
 | [!UICONTROL City] | 会社が事業を行うために登録されている都市。 |
-| [!UICONTROL Group/Shared Catalog] | （管理者のみ）会社に割り当てられた[顧客グループ ](../customers/customer-groups.md)または[共有カタログ ](catalog-shared.md)を表示します。 |
+| [!UICONTROL Group/Shared Catalog] | （管理者のみ）会社に割り当てられた[顧客グループ &#x200B;](../customers/customer-groups.md)または[共有カタログ &#x200B;](catalog-shared.md)を表示します。 |
 | [!UICONTROL Company Admin] | 会社管理者のフルネーム。 |
 | [!UICONTROL Action] | その会社ラインで考えられるアクションのリスト。 |
 
@@ -427,7 +443,7 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Customer Group] | （管理者のみ）会社に割り当てられた[顧客グループ ](../customers/customer-groups.md)または[共有カタログ ](catalog-shared.md)を表示します。 |
+| [!UICONTROL Customer Group] | （管理者のみ）会社に割り当てられた[顧客グループ &#x200B;](../customers/customer-groups.md)または[共有カタログ &#x200B;](catalog-shared.md)を表示します。 |
 | [!UICONTROL Allow Quotes] | （管理者のみ）会社のメンバーが会社に代わって交渉可能な見積もりを準備して提出できるかどうかを決定します。 |
 | [!UICONTROL Enable Purchase Orders] | （管理者のみ）会社のメンバーが会社の代理で[発注書](account-dashboard-my-purchase-orders.md)として注文を送信できるかどうかを決定します。 |
 | 適用される支払い方法 | （管理者のみ）会社の購入に使用できる支払い方法を示します。 オプション：`B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |

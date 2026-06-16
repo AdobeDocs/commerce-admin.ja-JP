@@ -4,11 +4,17 @@ description: HTML、CSS、JavaScript コードのスニペットを [!DNL Page B
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/ik99YngYtSz14nSTu5-aXkKyJlm20oixkNIVn-O1UyM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 985
@@ -18,7 +24,7 @@ ht-degree: 0%
 
 # Elements - HTML Code
 
-_HTML コード_ コンテンツ タイプを使用して、[[!DNL Page Builder]  ステージ ](workspace.md#stage)にHTML、CSS、JavaScript コードのスニペットを追加します。 例えば、カスタム HTMLを追加したり、ページ上の要素に適用できるCSS クラスを宣言したりできます。 また、サードパーティプロバイダーから受け取ったロゴ、ボタン、バナーのコードスニペットを追加することもできます。
+_HTML コード_ コンテンツ タイプを使用して、[[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage)にHTML、CSS、JavaScript コードのスニペットを追加します。 例えば、カスタム HTMLを追加したり、ページ上の要素に適用できるCSS クラスを宣言したりできます。 また、サードパーティプロバイダーから受け取ったロゴ、ボタン、バナーのコードスニペットを追加することもできます。
 
 ## HTML Code toolbox
 
@@ -26,12 +32,12 @@ _HTML コード_ コンテンツ タイプを使用して、[[!DNL Page Builder]
 
 | ツール | アイコン | 説明 |
 | --------- | ---------- | ----------------- |
-| 移動 | ![移動アイコン ](./assets/pb-icon-move.png){width="25"} | HTML コードコンテナをページ上の別の有効な場所に移動します。 |
-| 設定 | ![設定アイコン ](./assets/pb-icon-settings.png){width="25"} | HTML コードを編集ページが開き、コンテナのプロパティを変更できます。 |
-| 非表示 | ![ アイコンを非表示](./assets/pb-icon-hide.png){width="25"} | HTML Code コンテナを非表示にします。 |
-| 表示 | ![ アイコンを表示](./assets/pb-icon-show.png){width="25"} | 非表示のHTML Code コンテナを表示します。 |
-| 重複 | ![ アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | HTML Code コンテナのコピーを作成します。 |
-| 削除 | ![ アイコンを削除](./assets/pb-icon-remove.png){width="25"} | ステージからHTML Code コンテナとそのコンテンツを削除します。 |
+| 移動 | ![移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | HTML コードコンテナをページ上の別の有効な場所に移動します。 |
+| 設定 | ![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | HTML コードを編集ページが開き、コンテナのプロパティを変更できます。 |
+| 非表示 | ![&#x200B; アイコンを非表示](./assets/pb-icon-hide.png){width="25"} | HTML Code コンテナを非表示にします。 |
+| 表示 | ![&#x200B; アイコンを表示](./assets/pb-icon-show.png){width="25"} | 非表示のHTML Code コンテナを表示します。 |
+| 重複 | ![&#x200B; アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | HTML Code コンテナのコピーを作成します。 |
+| 削除 | ![&#x200B; アイコンを削除](./assets/pb-icon-remove.png){width="25"} | ステージからHTML Code コンテナとそのコンテンツを削除します。 |
 
 {{$include /help/_includes/page-builder-hidden-element-note.md}}
 
@@ -62,7 +68,7 @@ _HTML コード_ コンテンツ タイプを使用して、[[!DNL Page Builder]
 
 ### 手順2：ページにコードを追加する
 
-1. ストアの&#x200B;_管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**に移動します。
+1. ストアの&#x200B;_管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;に移動します。
 
 1. フォントを使用できるページを見つけ、編集モードで開きます。
 
@@ -74,13 +80,13 @@ _HTML コード_ コンテンツ タイプを使用して、[[!DNL Page Builder]
 
    ![HTML コードのプレースホルダーをステージにドラッグする](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. HTML コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. HTML コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
 1. テキストボックスに、用意した埋め込みGoogle Fonts コードとスタイル宣言を貼り付けます。
 
    読みやすくするために、いくつかのスペースを入力してコードをインデントできます。
 
-   ![HTML コードとスタイル ](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
+   ![HTML コードとスタイル &#x200B;](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
 1. 必要に応じて、残りの設定を更新します（詳細については、[HTML コード設定の変更](#html-settings)を参照）。
 
@@ -90,19 +96,19 @@ _HTML コード_ コンテンツ タイプを使用して、[[!DNL Page Builder]
 
 ### 手順3：ページのプレビュー
 
-1. _[!UICONTROL Currently Active]_セクションで、**[!UICONTROL Enable Page]**を`Yes`に設定します。
+1. _[!UICONTROL Currently Active]_&#x200B;セクションで、**[!UICONTROL Enable Page]**&#x200B;を`Yes`に設定します。
 
-   ![ ページを有効にしています](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
+   ![&#x200B; ページを有効にしています](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
 1. 右上隅の&#x200B;**[!UICONTROL Save]**&#x200B;矢印をクリックし、**[!UICONTROL Save & Close]**&#x200B;を選択します。
 
-1. グリッドでページを検索し、_[!UICONTROL Actions]_列の&#x200B;**[!UICONTROL View]**を選択します。
+1. グリッドでページを検索し、_[!UICONTROL Actions]_&#x200B;列の&#x200B;**[!UICONTROL View]**&#x200B;を選択します。
 
    ![新しいフォントファミリーでページ見出しをプレビュー](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
 ## HTML コード設定の変更 {#html-settings}
 
-1. HTML コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. HTML コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
 1. テキストボックスで、必要に応じてコードを編集します。
 
@@ -116,7 +122,7 @@ _HTML コード_ コンテンツ タイプを使用して、[[!DNL Page Builder]
    | 画像を挿入… | クリックすると、HTMLのテキストボックス内のカーソル位置に、アップロードした画像またはギャラリーの画像が挿入されます。 |
    | 変数を挿入… | クリックして、HTML テキストボックスのカーソル位置に変数を挿入します。 |
 
-1. 必要に応じて&#x200B;_[!UICONTROL Advanced]_設定を更新します。
+1. 必要に応じて&#x200B;_[!UICONTROL Advanced]_&#x200B;設定を更新します。
 
    - 親コンテナ内のコードの位置を制御するには、**[!UICONTROL Alignment]**&#x200B;を選択します。
 

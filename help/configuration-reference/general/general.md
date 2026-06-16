@@ -4,11 +4,22 @@ description: Commerce管理者の[!UICONTROL General] > [!UICONTROL General] ペ
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
 TQID: https://experienceleague.adobe.com/DD7DU4-tlIuIqWiGmRkKaRtAe-dglczocFvEaoIuxSc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1028
@@ -22,9 +33,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Country Options]
 
-これらの設定フィールドとオプションについて詳しくは、[国オプション ](../../getting-started/store-details.md#country-options)を参照してください。
+これらの設定フィールドとオプションについて詳しくは、[国オプション &#x200B;](../../getting-started/store-details.md#country-options)を参照してください。
 
-![一般>国オプション ](./assets/general-country-options.png)<!-- zoom -->
+![一般>国オプション &#x200B;](./assets/general-country-options.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -38,9 +49,9 @@ ht-degree: 0%
 
 ## [!UICONTROL State Options]
 
-これらの設定フィールドとオプションについて詳しくは、[状態オプション ](../../getting-started/store-details.md#state-options)を参照してください。
+これらの設定フィールドとオプションについて詳しくは、[状態オプション &#x200B;](../../getting-started/store-details.md#state-options)を参照してください。
 
-![全般>状態オプション ](./assets/general-state-options.png)<!-- zoom -->
+![全般>状態オプション &#x200B;](./assets/general-state-options.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -51,9 +62,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Locale Options]
 
-これらの設定フィールドとオプションについて詳しくは、[ ロケールオプション ](../../getting-started/store-details.md#locale-options)を参照してください。
+これらの設定フィールドとオプションについて詳しくは、[&#x200B; ロケールオプション &#x200B;](../../getting-started/store-details.md#locale-options)を参照してください。
 
-![一般/ ロケールオプション ](./assets/general-locale-options.png)<!-- zoom -->
+![一般/ ロケールオプション &#x200B;](./assets/general-locale-options.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -71,13 +82,13 @@ ht-degree: 0%
 
 ![一般> Web サイトの制限](./assets/general-website-restrictions.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_マーチャンダイジングとプロモーション ガイド_&#x200B;の[ アクセス制限](../../merchandising-promotions/event-configure.md#access-restrictions)を参照してください。
+これらの設定の変更について詳しくは、_マーチャンダイジングとプロモーション ガイド_&#x200B;の[&#x200B; アクセス制限](../../merchandising-promotions/event-configure.md#access-restrictions)を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Access Restriction] | web サイト | Web サイトが制限モードで動作しているかどうかを確認します。<br /> <br />**`Yes`**– 以下のフィールドに設定されている方法で、Web サイトへのアクセスが制限されています。<br />**`No`**  – 制限は無効になっており、次の設定は影響しません。 |
 | [!UICONTROL Restriction Mode] | web サイト | Web サイトに適用されるアクセス制限の種類を決定します。<br /> <br />**`Website Closed`**- ストアフロントへのすべてのアクセスが制限され、ストアフロント URLは一時的にランディングページにリダイレクトされます。 この設定は、サイトのメンテナンス中または起動前に便利です。<br />**`Private Sales: Login Only`** - ストアフロントにアクセスするには、登録されたお客様のみがログインできます。 ストアフロントのURLはすべて、指定したランディングページまたはログインフォームに一時的にリダイレクトされます。 ユーザーは、このモードでアカウントを作成できません。<br />**`Private Sales: Login and Register`**- ユーザーはストアフロントにアクセスするためにログインする必要があります。 ユーザーがログインするまで、すべてのストアフロント URLは一時的にログインフォームにリダイレクトされます。 ユーザーは、サイトがこのモードになっている間にアカウントを登録できます。 |
-| [!UICONTROL Startup Page] | ストアビュー | Web サイトがプライベートセールスモードの場合、この設定は、顧客がログインするまで表示されるページを決定します。<br />  <br />**`To login form`**- ユーザーは、ログインするまでログインフォームにリダイレクトされます。<br />**`To landing page`** - ユーザーは、ログインするまで、以下に指定された静的ページにリダイレクトされます。<br /> <br />**_重要！_**顧客がログインしてサイト全体にアクセスできるように、指定したランディングページからログインページへのリンクを必ず含めてください。 |
+| [!UICONTROL Startup Page] | ストアビュー | Web サイトがプライベートセールスモードの場合、この設定は、顧客がログインするまで表示されるページを決定します。<br />  <br />**`To login form`**- ユーザーは、ログインするまでログインフォームにリダイレクトされます。<br />**`To landing page`** - ユーザーは、ログインするまで、以下に指定された静的ページにリダイレクトされます。<br /> <br />**_重要！_**&#x200B;顧客がログインしてサイト全体にアクセスできるように、指定したランディングページからログインページへのリンクを必ず含めてください。 |
 | [!UICONTROL Landing Page] | ストアビュー | Web サイトがプライベートセールスモードの場合に表示される最初のページを指定します。 |
 | [!UICONTROL HTTP Response] | web サイト | Web サイトが閉じられ、ボット、web クローラー、またはスパイダーによって接続が試行されたときに送信されるHTTP レスポンスを指定します。<br /> <br />**`503 Service unavailable`**- ページは利用できませんが、スパイダーはインデックスを更新しないでください。<br />**`200 OK`** - ランディングページが正しく、スパイダーがサイト上の唯一のページとして扱う必要があります。 |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | web サイト | _ログイン_&#x200B;および&#x200B;_パスワードを忘れた_ フォームのフィールドが以前のエントリから自動的に入力されるかどうかを指定します。 オプション：`Yes` / `No` |
@@ -88,7 +99,7 @@ ht-degree: 0%
 
 ![一般>店舗情報](./assets/general-store-information.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_入門ガイド_&#x200B;の[ ストア情報](../../getting-started/store-details.md)を参照してください。
+これらの設定の変更について詳しくは、_入門ガイド_&#x200B;の[&#x200B; ストア情報](../../getting-started/store-details.md)を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -107,9 +118,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Single-Store Mode]
 
-![一般> シングルストアモード ](./assets/general-single-store-mode.png)<!-- zoom -->
+![一般> シングルストアモード &#x200B;](./assets/general-single-store-mode.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_入門ガイド_&#x200B;の[単一ストアモード ](../../getting-started/websites-stores-views.md#single-store-mode)を参照してください。
+これらの設定の変更について詳しくは、_入門ガイド_&#x200B;の[単一ストアモード &#x200B;](../../getting-started/websites-stores-views.md#single-store-mode)を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -119,10 +130,10 @@ ht-degree: 0%
 
 ## [!UICONTROL Data Services]
 
-![一般> データサービス ](./assets/general-data-services.png)<!-- zoom -->
+![一般> データサービス &#x200B;](./assets/general-data-services.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Commerce Events Enabled] | グローバル | ヘルスケアのお客様で、[Data Services HIPAA](https://experienceleague.adobe.com/en/docs/commerce/data-connection/hipaa-readiness)拡張機能をインストールしている場合、この設定はデフォルトでオフになっています。 これにより、ライブサーチや商品レコメンデーションで使用されるストアフロントイベントデータが取得されなくなります。 これは、ストアフロントのイベントデータがクライアントサイドで生成されるためです。 [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)および[商品レコメンデーション ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview) サービスで使用するためにストアフロントイベントデータを引き続き取得して送信するには、**Commerce Events Enabled**&#x200B;を`Yes`に設定します。 |
+| [!UICONTROL Commerce Events Enabled] | グローバル | ヘルスケアのお客様で、[Data Services HIPAA](https://experienceleague.adobe.com/en/docs/commerce/data-connection/hipaa-readiness)拡張機能をインストールしている場合、この設定はデフォルトでオフになっています。 これにより、ライブサーチや商品レコメンデーションで使用されるストアフロントイベントデータが取得されなくなります。 これは、ストアフロントのイベントデータがクライアントサイドで生成されるためです。 [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)および[商品レコメンデーション &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview) サービスで使用するためにストアフロントイベントデータを引き続き取得して送信するには、**Commerce Events Enabled**&#x200B;を`Yes`に設定します。 |
 
 {style="table-layout:auto"}

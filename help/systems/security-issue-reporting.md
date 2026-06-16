@@ -6,11 +6,21 @@ role: Admin
 feature: Configuration, Security
 badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/tXZFSpgx9r2t-tN2Oc7L2aiPDlL6hSZBRC9pHjzcjQk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 315
@@ -24,15 +34,15 @@ ht-degree: 0%
 
 **_security.txt:_**&#x200B;を設定するには
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL Security]_の下の左側のパネルで、**[!UICONTROL Security.txt]**をクリックします。
+1. _[!UICONTROL Security]_&#x200B;の下の左側のパネルで、**[!UICONTROL Security.txt]**&#x200B;をクリックします。
 
-1. _[!UICONTROL General]_セクションで、**[!UICONTROL Enable]**を`Yes`に設定します。
+1. _[!UICONTROL General]_&#x200B;セクションで、**[!UICONTROL Enable]**&#x200B;を`Yes`に設定します。
 
    ![一般的なセキュリティ設定](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Contact Information]_で、次のように入力します。
+1. _[!UICONTROL Contact Information]_&#x200B;で、次のように入力します。
 
    - ストアのセキュリティ問題を管理するユーザーのメールアドレスと電話番号。
 
@@ -40,13 +50,13 @@ ht-degree: 0%
 
    ![連絡先情報の設定](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Other Information]_で、次のように入力します。
+1. _[!UICONTROL Other Information]_&#x200B;で、次のように入力します。
 
    - パブリック **[!UICONTROL Encryption]** キーのURL。 例：`https://example.com/pgp-key.txt`
 
    - セキュリティ研究者がストアの代理として取り組みを評価される&#x200B;**[!UICONTROL Acknowledgments]** ページのURL。
 
-   - セキュリティ関連の通信に使用する&#x200B;**[!UICONTROL Preferred Languages]**。 サポートされている各言語の標準の2文字[言語コード ](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)をコンマで区切って入力します。 例えば、英語、スペイン語、フランス語を指定するには、`en, es, fr`と入力します。 指定した言語はすべて、外観の順序に関係なく同じ優先順位を持ちます。
+   - セキュリティ関連の通信に使用する&#x200B;**[!UICONTROL Preferred Languages]**。 サポートされている各言語の標準の2文字[言語コード &#x200B;](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)をコンマで区切って入力します。 例えば、英語、スペイン語、フランス語を指定するには、`en, es, fr`と入力します。 指定した言語はすべて、外観の順序に関係なく同じ優先順位を持ちます。
 
    - ストアのセキュリティ関連の雇用機会を一覧表示する&#x200B;**[!UICONTROL Hiring]** ページのURL。
 

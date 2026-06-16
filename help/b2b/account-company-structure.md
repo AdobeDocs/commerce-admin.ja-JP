@@ -5,12 +5,19 @@ exl-id: 4724b208-b6ac-4de5-9a4c-bc4d68402506
 feature: B2B, Companies
 role: Admin
 TQID: https://experienceleague.adobe.com/d4VWp0S-Z6BfOPBAI80LeB62GUXYax0obDztcm-VOYw
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 710
@@ -30,11 +37,11 @@ ht-degree: 0%
 
 マーチャントの場合、完全な会社構造は、管理者内の&#x200B;_会社_&#x200B;および&#x200B;_顧客_ グリッドに反映されます。 「会社」グリッドには、ステータスに関係なくすべての会社が一覧表示されます。
 
-![会社グリッド ](./assets/companies-grid.png){width="700" zoomable="yes"}
+![会社グリッド &#x200B;](./assets/companies-grid.png){width="700" zoomable="yes"}
 
 次の例は、各会社の初回会社管理者アカウントを含む[!UICONTROL Customers] グリッドを示しています。
 
-![会社管理者アカウントを持つ顧客グリッド ](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![会社管理者アカウントを持つ顧客グリッド &#x200B;](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
 アカウントを作成した後、会社管理者は[teams](account-company-structure.md)の会社構造を定義し、[会社ユーザー](account-company-users.md)を設定し、それぞれに[役割と権限](account-company-roles-permissions.md)を設定できます。
 
@@ -46,12 +53,12 @@ ht-degree: 0%
 
 | アイコン | 説明 |
 | ---- | ----------------- |
-| ![会社管理者アイコン ](./assets/company-icon-admin.png) | 会社構造の会社管理者を表します。 |
-| ![ チームアイコン ](./assets/company-icon-team.png) | 会社構造のチームを表します。 |
-| ![ ユーザーアイコン ](./assets/company-icon-user.png) | 会社構造内のユーザーを表します。 |
-| ![移動アイコン ](./assets/company-icon-move.png) | チームを組織内の別のポジションに移動します。 |
-| ![拡張アイコン ](./assets/company-icon-expand.png) | 社内のチームを拡大。 |
-| ![ アイコンを折りたたむ](./assets/company-icon-collapse.png) | 会社構造のチームを折りたたみます。 |
+| ![会社管理者アイコン &#x200B;](./assets/company-icon-admin.png) | 会社構造の会社管理者を表します。 |
+| ![&#x200B; チームアイコン &#x200B;](./assets/company-icon-team.png) | 会社構造のチームを表します。 |
+| ![&#x200B; ユーザーアイコン &#x200B;](./assets/company-icon-user.png) | 会社構造内のユーザーを表します。 |
+| ![移動アイコン &#x200B;](./assets/company-icon-move.png) | チームを組織内の別のポジションに移動します。 |
+| ![拡張アイコン &#x200B;](./assets/company-icon-expand.png) | 社内のチームを拡大。 |
+| ![&#x200B; アイコンを折りたたむ](./assets/company-icon-collapse.png) | 会社構造のチームを折りたたみます。 |
 
 {style="table-layout:auto"}
 
@@ -61,7 +68,7 @@ ht-degree: 0%
 
 会社が自分のアカウントを管理できるようにストアが[構成](enable-basic-features.md)されている場合、会社の構造の設定は、アカウントが承認された後に会社の管理者が最初に完了するタスクの1つです。 会社アカウントでは、会社の構造は会社の管理者が上部にあるツリーとして表されます。
 
-![ チームを含む会社構造](./assets/company-structure-teams-diagram.svg){width="450"}
+![&#x200B; チームを含む会社構造](./assets/company-structure-teams-diagram.svg){width="450"}
 
 1. 会社の管理者が自分のアカウントにログインします。
 
@@ -73,7 +80,7 @@ ht-degree: 0%
 
      チームタイトルは、社内のチーム、オフィス、部門など、社内の構造を表すあらゆる種類にすることができます
 
-     ![ チームを追加](./assets/company-structure-add-team.png){width="700" zoomable="yes"}
+     ![&#x200B; チームを追加](./assets/company-structure-add-team.png){width="700" zoomable="yes"}
 
    - 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -119,13 +126,13 @@ ht-degree: 0%
 
 - **[!UICONTROL Collapse All]**&#x200B;または&#x200B;**[!UICONTROL Expand All]**&#x200B;をクリックします。
 
-- ![展開アイコン ](../assets/icon-display-collapse.png)をクリックしてチームを折りたたむか、![折りたたまれたアイコン ](../assets/icon-display-expand.png)をクリックしてチームを展開します。
+- ![展開アイコン &#x200B;](../assets/icon-display-collapse.png)をクリックしてチームを折りたたむか、![折りたたまれたアイコン &#x200B;](../assets/icon-display-expand.png)をクリックしてチームを展開します。
 
 ## グループへのユーザーの割り当て
 
 チームとユーザーが最初に[会社構造](account-company-structure.md)に追加されると、会社の管理者下の同じレベルに配置されます。
 
-![ ユーザーとチームを含む会社構造](./assets/company-users-added.png){width="700" zoomable="yes"}
+![&#x200B; ユーザーとチームを含む会社構造](./assets/company-users-added.png){width="700" zoomable="yes"}
 
 | 制御 | 説明 |
 |--- |--- |
@@ -138,6 +145,6 @@ ht-degree: 0%
 
 1. 左側のパネルで、会社管理者が&#x200B;**[!UICONTROL Company Structure]**&#x200B;を選択します。
 
-1. ユーザーを既存のチームに割り当てるには、ユーザーを適切なチームの下にドラッグ（![移動アイコン ](../assets/icon-move.png)）します。
+1. ユーザーを既存のチームに割り当てるには、ユーザーを適切なチームの下にドラッグ（![移動アイコン &#x200B;](../assets/icon-move.png)）します。
 
-   ![ チーム割り当て](./assets/company-structure-teams-users-assigned.png){width="700" zoomable="yes"}
+   ![&#x200B; チーム割り当て](./assets/company-structure-teams-users-assigned.png){width="700" zoomable="yes"}

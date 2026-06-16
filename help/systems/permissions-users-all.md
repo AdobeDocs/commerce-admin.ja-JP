@@ -5,12 +5,22 @@ exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
 TQID: https://experienceleague.adobe.com/DLTxCkTvqUobFaP-0ccPFIrqbaObTto08EPLn1li3TA
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1041
@@ -22,7 +32,7 @@ ht-degree: 0%
 
 ストアを最初にインストールすると、デフォルトの管理者アカウントがログイン資格情報で作成され、完全な管理アクセスが可能になります。 ベストプラクティスとして、完全な管理者アクセス権を持つ別のユーザーアカウントを作成する必要があります。 これにより、日常的な管理業務に1つのアカウントを使用し、もう1つのアカウントを「スーパー管理者」アカウントとして予約できます。 これは、通常の資格情報を忘れた場合や、何らかの理由で使用できなくなる場合に役立ちます。
 
-他のチームメンバーやサービスプロバイダーがアクセスを必要とする場合は、個々のユーザーアカウントを作成し、特定のビジネスニーズに基づいてアクセス制限を割り当てることができます。 管理者でユーザーがアクセスできるweb サイトまたはストアを制限するには、まず、範囲が制限され、必要なリソースのみが選択された役割](permissions-user-roles.md)を[作成する必要があります。 次に、役割を特定のユーザーアカウントに割り当てます。 制限付き役割に割り当てられている管理者ユーザーは、役割に関連付けられているweb サイトまたはストアのデータのみを表示および変更できますが、グローバル設定またはデータを変更することはできません。
+他のチームメンバーやサービスプロバイダーがアクセスを必要とする場合は、個々のユーザーアカウントを作成し、特定のビジネスニーズに基づいてアクセス制限を割り当てることができます。 管理者でユーザーがアクセスできるweb サイトまたはストアを制限するには、まず、範囲が制限され、必要なリソースのみが選択された役割[&#128279;](permissions-user-roles.md)を作成する必要があります。 次に、役割を特定のユーザーアカウントに割り当てます。 制限付き役割に割り当てられている管理者ユーザーは、役割に関連付けられているweb サイトまたはストアのデータのみを表示および変更できますが、グローバル設定またはデータを変更することはできません。
 
 >[!NOTE]
 >
@@ -34,15 +44,15 @@ ht-degree: 0%
 
 ## ユーザーの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New User]**」をクリックします。
 
-   既存のユーザーを編集するには、グリッドのユーザー名をクリックします。 必要に応じて、_[!UICONTROL User Info]_および_[!UICONTROL User Role]_ セクションを変更できます。
+   既存のユーザーを編集するには、グリッドのユーザー名をクリックします。 必要に応じて、_[!UICONTROL User Info]_&#x200B;および&#x200B;_[!UICONTROL User Role]_ セクションを変更できます。
 
-1. _[!UICONTROL Account Information]_セクションで、次の操作を行います。
+1. _[!UICONTROL Account Information]_&#x200B;セクションで、次の操作を行います。
 
-   ![ ユーザーアカウント情報](./assets/permissions-user-new.png){width="600" zoomable="yes"}
+   ![&#x200B; ユーザーアカウント情報](./assets/permissions-user-new.png){width="600" zoomable="yes"}
 
    - アカウントの&#x200B;**[!UICONTROL User Name]**&#x200B;を入力してください。
 
@@ -72,21 +82,21 @@ ht-degree: 0%
 
    有効期限の定義は、ユーザーまたは役割が一時的な場合に役立ちます。 有効期限が切れると、ユーザーアカウントのステータスが`Inactive`に変わり、必要に応じて更新できます。
 
-1. _[!UICONTROL Current User Identity Verification]_で、ユーザーアカウントのパスワードを入力します。
+1. _[!UICONTROL Current User Identity Verification]_&#x200B;で、ユーザーアカウントのパスワードを入力します。
 
 >[!IMPORTANT]
 >
->_[!UICONTROL Account Information]_セクションが完了したら、ユーザーを保存できます。 新しいユーザーは_[!UICONTROL Users]_ グリッドに表示されますが、ユーザー名は役割が割り当てられるまでログインできません。
+>_[!UICONTROL Account Information]_&#x200B;セクションが完了したら、ユーザーを保存できます。 新しいユーザーは&#x200B;_[!UICONTROL Users]_ グリッドに表示されますが、ユーザー名は役割が割り当てられるまでログインできません。
 
 ## ユーザーの役割の割り当て
 
 1. 左側のパネルで、**[!UICONTROL User Role]**&#x200B;をクリックします。
 
-   グリッドには、既存のすべてのユーザーロールが一覧表示されます。 新しいストアの場合、_[!UICONTROL Administrators]_は利用可能な唯一の役割です。
+   グリッドには、既存のすべてのユーザーロールが一覧表示されます。 新しいストアの場合、_[!UICONTROL Administrators]_&#x200B;は利用可能な唯一の役割です。
 
    ![管理者 – 新しいユーザーの役割を追加](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Assigned]_列で、ユーザーの役割を選択します。
+1. _[!UICONTROL Assigned]_&#x200B;列で、ユーザーの役割を選択します。
 
    既存のユーザーを[表示したり、追加のユーザー役割を定義したりできます](permissions-user-roles.md)。 役割を定義したら、新しい役割を割り当てるためにユーザーアカウントを編集する必要があります。
 
@@ -112,11 +122,11 @@ ht-degree: 0%
 
 1. プロンプトが表示されたら、パスワードを入力してIDを確認し、**[!UICONTROL Save User]**&#x200B;を再度クリックします。
 
-   _[!UICONTROL Users]_グリッドが開き、すべてのユーザーが一覧表示されます。
+   _[!UICONTROL Users]_&#x200B;グリッドが開き、すべてのユーザーが一覧表示されます。
 
 ## 管理者ユーザーの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**&#x200B;に移動します。
 
 1. グリッドの上にあるフィルターを使用してユーザーアカウントを見つけ、ユーザー名をクリックします。
 
@@ -132,11 +142,11 @@ ht-degree: 0%
 
 **_管理者メールテンプレートを設定するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Setting]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Setting]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL Admin]**&#x200B;を選択します。
 
-1. **[!UICONTROL Admin User Emails]** セクションの![拡張トグル ](../assets/icon-display-expand.png)を展開します。
+1. **[!UICONTROL Admin User Emails]** セクションの![拡張トグル &#x200B;](../assets/icon-display-expand.png)を展開します。
 
    ![詳細設定 – 管理者メールテンプレート設定](../configuration-reference/advanced/assets/admin-admin-user-emails.png){width="600" zoomable="yes"}
 
@@ -150,19 +160,19 @@ ht-degree: 0%
 
 ## ロックされたユーザー
 
-ビジネスのセキュリティを確保するために、管理者に[ ログイン ](../getting-started/admin-signin.md)する際に6回失敗した後、ユーザーアカウントはデフォルトでロックされます。 現在ロックされているユーザーアカウントは、ロックされたユーザーグリッドに表示されます。 アカウントは、完全な管理者の権限を持つ他のユーザーがロックを解除できます。
+ビジネスのセキュリティを確保するために、管理者に[&#x200B; ログイン &#x200B;](../getting-started/admin-signin.md)する際に6回失敗した後、ユーザーアカウントはデフォルトでロックされます。 現在ロックされているユーザーアカウントは、ロックされたユーザーグリッドに表示されます。 アカウントは、完全な管理者の権限を持つ他のユーザーがロックを解除できます。
 
-追加のパスワードセキュリティ対策は、[詳細管理者](../configuration-reference/advanced/admin.md#security)設定で実装できます。 [管理者セキュリティ ](security-admin.md)を参照してください。
+追加のパスワードセキュリティ対策は、[詳細管理者](../configuration-reference/advanced/admin.md#security)設定で実装できます。 [管理者セキュリティ &#x200B;](security-admin.md)を参照してください。
 
-![ ログイン画面アラート – アカウントが一時的に無効になっています](./assets/admin-login-locked-out-message.png){width="300"}
+![&#x200B; ログイン画面アラート – アカウントが一時的に無効になっています](./assets/admin-login-locked-out-message.png){width="300"}
 
 **_管理者アカウントのロックを解除するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL Locked Users]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL Locked Users]**&#x200B;に移動します。
 
 1. グリッドで、ロックされたアカウントのチェックボックスを選択します。
 
-   ![権限 – ロックされたユーザーアカウント ](./assets/permissions-locked-users-grid.png){width="600" zoomable="yes"}
+   ![権限 – ロックされたユーザーアカウント &#x200B;](./assets/permissions-locked-users-grid.png){width="600" zoomable="yes"}
 
 1. 左上隅で、**[!UICONTROL Actions]**&#x200B;を`Unlock`に設定します。
 

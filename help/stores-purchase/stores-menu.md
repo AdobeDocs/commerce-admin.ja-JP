@@ -3,11 +3,20 @@ title: '[!UICONTROL Stores] メニュー'
 description: Commerce管理者は、[!UICONTROL Stores] メニューを使用して、ストア階層、構成、在庫、税金、属性を設定するためのツールにアクセスできます。
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
 TQID: https://experienceleague.adobe.com/LEoQUYqvin2UfF55kCMUiEUh8YungghN-VuEwUOu7gY
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 329
@@ -17,7 +26,7 @@ ht-degree: 0%
 
 # [!UICONTROL Stores] メニュー
 
-_[!UICONTROL Stores]_メニューでは、使用頻度は低いが、Adobe CommerceまたはMagento Open Sourceのインストール全体で参照される設定にアクセスできます。 これらの機能には、ストア階層、設定、売上および注文設定、税金および通貨、製品属性、製品レビュー評価、顧客グループの設定が含まれます。
+_[!UICONTROL Stores]_&#x200B;メニューでは、使用頻度は低いが、Adobe CommerceまたはMagento Open Sourceのインストール全体で参照される設定にアクセスできます。 これらの機能には、ストア階層、設定、売上および注文設定、税金および通貨、製品属性、製品レビュー評価、顧客グループの設定が含まれます。
 
 >[!BEGINTABS]
 
@@ -47,7 +56,7 @@ Adobe CommerceまたはMagento Open Sourceのインストール環境で[web サ
 
 ### [!UICONTROL Inventory]
 
-[在庫を管理および作成](../inventory-management/introduction.md)して、販売チャネルまたはweb サイトを[ ソース ](../inventory-management/sources-manage.md)にリンクします。 在庫は、販売可能な商品量を集計したものです。 シングルSourceのマーチャントはデフォルトストックを使用し、マルチSourceのマーチャントはそれ以外のカスタムストックを使用します。
+[在庫を管理および作成](../inventory-management/introduction.md)して、販売チャネルまたはweb サイトを[&#x200B; ソース &#x200B;](../inventory-management/sources-manage.md)にリンクします。 在庫は、販売可能な商品量を集計したものです。 シングルSourceのマーチャントはデフォルトストックを使用し、マルチSourceのマーチャントはそれ以外のカスタムストックを使用します。
 
 ### [!UICONTROL Taxes]
 
@@ -59,8 +68,8 @@ Adobe CommerceまたはMagento Open Sourceのインストール環境で[web サ
 
 ### [!UICONTROL Attributes]
 
-[顧客](../customers/attribute-properties.md)または[製品情報](../catalog/attribute-product-create.md)、返品、および製品評価に使用される属性を管理します。 属性を作成し、既存の属性を編集し、[属性セット ](../catalog/attribute-sets.md)を管理できます。
+[顧客](../customers/attribute-properties.md)または[製品情報](../catalog/attribute-product-create.md)、返品、および製品評価に使用される属性を管理します。 属性を作成し、既存の属性を編集し、[属性セット &#x200B;](../catalog/attribute-sets.md)を管理できます。
 
 ### [!UICONTROL Other Settings]
 
-[ ポイント換算レート ](../merchandising-promotions/reward-exchange-rates.md)、[ ギフトラッピング ](cart-configuration.md#gift-wrap)、[ ギフトレジストリ ](../merchandising-promotions/gift-registries.md)の追加設定を管理します。
+[&#x200B; ポイント換算レート &#x200B;](../merchandising-promotions/reward-exchange-rates.md)、[&#x200B; ギフトラッピング &#x200B;](cart-configuration.md#gift-wrap)、[&#x200B; ギフトレジストリ &#x200B;](../merchandising-promotions/gift-registries.md)の追加設定を管理します。

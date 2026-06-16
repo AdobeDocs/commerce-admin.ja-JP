@@ -6,10 +6,17 @@ level: Experienced
 feature: Inventory, Install
 badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/-koENBfshZ7WkXih0dee4geUb2Mnx-mtTxUxt-s6yUo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 683
@@ -21,11 +28,11 @@ ht-degree: 0%
 
 [!DNL Inventory Management]個のモジュールは、販売店の商品の数量と在庫を管理するために、単一およびマルチソースの販売店のすべての在庫機能とオプションを提供します。 これらの機能は、Adobe CommerceおよびMagento Open Sourceの2.4.x リリースで使用できます。
 
-これらの機能と拡張機能は、Magento Open Source コミュニティエンジニアリングプログラムを通じて[Inventory プロジェクト ](https://github.com/magento/inventory)の一部として開発されました。
+これらの機能と拡張機能は、Magento Open Source コミュニティエンジニアリングプログラムを通じて[Inventory プロジェクト &#x200B;](https://github.com/magento/inventory)の一部として開発されました。
 
-[!DNL Inventory Management]は、Adobe CommerceおよびMagento Open Sourceの2.3.xおよび2.4.x リリースにインストールされ、すべての機能がデフォルトで有効になっています。 これらのインベントリ機能を有効にするための追加ステップは必要ありません。 v2.1.xまたは2.2.xからのアップグレードには、追加の手順が必要になる場合があります。 [Inventory managementのアップグレード ](#upgrade-inventory-management)を参照してください。
+[!DNL Inventory Management]は、Adobe CommerceおよびMagento Open Sourceの2.3.xおよび2.4.x リリースにインストールされ、すべての機能がデフォルトで有効になっています。 これらのインベントリ機能を有効にするための追加ステップは必要ありません。 v2.1.xまたは2.2.xからのアップグレードには、追加の手順が必要になる場合があります。 [Inventory managementのアップグレード &#x200B;](#upgrade-inventory-management)を参照してください。
 
-[ クイックスタートオンプレミスのインストール ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"}に従ったインストールをお勧めします。 すべての[!DNL Inventory Management] モジュールを受け取るには、メタパッケージをインストールしてください。
+[&#x200B; クイックスタートオンプレミスのインストール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"}に従ったインストールをお勧めします。 すべての[!DNL Inventory Management] モジュールを受け取るには、メタパッケージをインストールしてください。
 
 `composer.json` メタパッケージの次の行は、[!DNL Inventory Management]をインストールします。
 
@@ -33,7 +40,7 @@ ht-degree: 0%
         magento/inventory-composer-metapackage = 1.1.3
 ```
 
-[!DNL Inventory Management]個のメタパッケージのバージョンの一覧については、[ リリースノート ](release-notes.md)を参照してください。
+[!DNL Inventory Management]個のメタパッケージのバージョンの一覧については、[&#x200B; リリースノート &#x200B;](release-notes.md)を参照してください。
 
 [!DNL Inventory Management]のインストール プロセスでは、すべてのモジュールが`<Magento_installation_directory>/app/etc/config.php` ファイルに追加されます。 `1`値は、対応するモジュールが有効であることを示します。 次のモジュールのリストが追加されます。
 
@@ -89,7 +96,7 @@ ht-degree: 0%
 
 ## [!DNL Inventory Management]機能を有効にする
 
-インストール、アップグレード、または更新すると、管理者の&#x200B;_[!UICONTROL Manage Stock]_オプションがデフォルトで有効になります。 このオプションは、在庫の追跡と管理を有効にしますが、モジュールのステータスには影響しません。 モジュールを無効にするには、次の節を参照してください。
+インストール、アップグレード、または更新すると、管理者の&#x200B;_[!UICONTROL Manage Stock]_&#x200B;オプションがデフォルトで有効になります。 このオプションは、在庫の追跡と管理を有効にしますが、モジュールのステータスには影響しません。 モジュールを無効にするには、次の節を参照してください。
 
 設定について詳しくは、[Inventory managementの設定](configuration.md)を参照してください。
 
@@ -104,7 +111,7 @@ ht-degree: 0%
 * 2.0.x、2.1.x、2.2.x、または2.3.xから2.4.xに移行するマーチャントのアップグレードプロセスを高速化します。
 * カスタムまたはサードパーティの在庫管理および注文管理システムモジュールを使用します。
 
-該当するモジュールを無効にする方法について詳しくは、_インストールガイド_&#x200B;の「[ モジュールを有効または無効にする](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html)」ページを参照してください。
+該当するモジュールを無効にする方法について詳しくは、_インストールガイド_&#x200B;の「[&#x200B; モジュールを有効または無効にする](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html)」ページを参照してください。
 
 完了すると、次で始まる`<Magento_installation_directory>/app/etc/config.php`のモジュールと値のリストが表示されます。
 
@@ -232,7 +239,7 @@ ht-degree: 0%
    bin/magento cache:clean
    ```
 
-アップグレード後は、[予約不整合コマンド ](cli.md)を使用することをお勧めします。 アップグレード時には、すべての製品がデフォルトのStockに追加されます。 保留中の注文がある場合、コマンドは販売可能な数量と販売注文と注文フルフィルメントの予約を正しく更新します。
+アップグレード後は、[予約不整合コマンド &#x200B;](cli.md)を使用することをお勧めします。 アップグレード時には、すべての製品がデフォルトのStockに追加されます。 保留中の注文がある場合、コマンドは販売可能な数量と販売注文と注文フルフィルメントの予約を正しく更新します。
 
 ### 以前の[!DNL Inventory Management] バージョン
 

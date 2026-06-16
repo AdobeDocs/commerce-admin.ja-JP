@@ -5,11 +5,21 @@ exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
 TQID: https://experienceleague.adobe.com/9QNzCxuwy1v5xR6YNE4On3woJ4mw-SnWB3m-me-nrb0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1682
@@ -23,13 +33,13 @@ ht-degree: 1%
 
 ## [!UICONTROL Cron (Scheduled Tasks)]
 
-![詳細設定 – Cron （スケジュール済みタスク） ](./assets/system-cron.png)<!-- zoom -->
+![詳細設定 – Cron （スケジュール済みタスク） &#x200B;](./assets/system-cron.png)<!-- zoom -->
 
-これらの設定設定の変更について詳しくは、[Cron （スケジュールされたタスク） ](../../systems/cron.md)を参照してください。
+これらの設定設定の変更について詳しくは、[Cron （スケジュールされたタスク） &#x200B;](../../systems/cron.md)を参照してください。
 
 ### [!UICONTROL index]
 
-![詳細設定 – Cron グループ：インデックス ](./assets/system-cron-group-index.png)<!-- zoom -->
+![詳細設定 – Cron グループ：インデックス &#x200B;](./assets/system-cron-group-index.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -45,7 +55,7 @@ ht-degree: 1%
 
 ### [!UICONTROL default]
 
-![Cron グループ：デフォルト ](./assets/system-cron-group-default.png)<!-- zoom -->
+![Cron グループ：デフォルト &#x200B;](./assets/system-cron-group-default.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -63,7 +73,7 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![詳細設定 – MySQL メッセージキューのクリーンアップ ](./assets/system-mysql-message-queue-cleanup.png)<!-- zoom -->
+![詳細設定 – MySQL メッセージキューのクリーンアップ &#x200B;](./assets/system-mysql-message-queue-cleanup.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -123,9 +133,9 @@ ht-degree: 1%
 
 ## [!UICONTROL Security]
 
-![詳細設定 – セキュリティ ](./assets/system-security.png)<!-- zoom -->
+![詳細設定 – セキュリティ &#x200B;](./assets/system-security.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[ セッション管理](../../systems/security-session-management.md)」を参照してください。
+これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[&#x200B; セッション管理](../../systems/security-session-management.md)」を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -138,7 +148,7 @@ ht-degree: 1%
 
 ![詳細設定 – 通知](./assets/system-notifications.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[ システム通知](../../systems/notifications.md)」を参照してください。
+これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[&#x200B; システム通知](../../systems/notifications.md)」を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -154,13 +164,13 @@ ht-degree: 1%
 
 {{$include /help/_includes/backups-note.md}}
 
-これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[ システムバックアップ ](../../systems/backups.md)」を参照してください。
+これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[&#x200B; システムバックアップ &#x200B;](../../systems/backups.md)」を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | グローバル | Commerce インスタンスでバックアップが許可されているかどうかを判断します。 オプション：`Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | グローバル | （_[!UICONTROL Enable Backup]_が`Yes`に設定されている場合に表示されます）。 Commerce インスタンスが定期的なスケジュールで自動的にバックアップされるかどうかを指定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | グローバル | （_[!UICONTROL Enable Scheduled Backup]_が`Yes`に設定されている場合に表示されます）。 バックアップに含まれるCommerce インスタンスのエレメントを指定します。 オプション：`Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Enable Scheduled Backup] | グローバル | （_[!UICONTROL Enable Backup]_&#x200B;が`Yes`に設定されている場合に表示されます）。 Commerce インスタンスが定期的なスケジュールで自動的にバックアップされるかどうかを指定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | グローバル | （_[!UICONTROL Enable Scheduled Backup]_&#x200B;が`Yes`に設定されている場合に表示されます）。 バックアップに含まれるCommerce インスタンスのエレメントを指定します。 オプション：`Database` / `Database and Media` / `System` / `System (excluding Media)` |
 | [!UICONTROL Start Time] | グローバル | （[!UICONTROL Enable Scheduled Backup]が`Yes`に設定されている場合に表示されます）。 スケジュールされたバックアップが開始される時間、分、秒を指定します。 |
 | [!UICONTROL Frequency] | グローバル | （[!UICONTROL Enable Scheduled Backup]が`Yes`に設定されている場合に表示されます）。 スケジュールされたバックアップを実行する頻度を指定します。 オプション：`Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Maintenance Mode] | グローバル | （[!UICONTROL Enable Scheduled Backup]が`Yes`に設定されている場合に表示されます）。 スケジュールされたバックアップ中にストアをメンテナンスモードにするかどうかを決定します。 オプション：`Yes` / `No` |
@@ -171,9 +181,9 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![詳細設定 – 管理者アクション ログのアーカイブ ](./assets/system-admin-actions-log-archiving.png)<!-- zoom -->
+![詳細設定 – 管理者アクション ログのアーカイブ &#x200B;](./assets/system-admin-actions-log-archiving.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[ アクションログアーカイブ ](../../systems/action-log-archive.md)」を参照してください。
+これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[&#x200B; アクションログアーカイブ &#x200B;](../../systems/action-log-archive.md)」を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -184,9 +194,9 @@ ht-degree: 1%
 
 ## [!UICONTROL Full Page Cache]
 
-![詳細設定 – フルページキャッシュ ](./assets/system-full-page-cache.png)<!-- zoom -->
+![詳細設定 – フルページキャッシュ &#x200B;](./assets/system-full-page-cache.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の[ フルページキャッシュ ](../../systems/cache-management.md#full-page-caching)を参照してください。
+これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の[&#x200B; フルページキャッシュ &#x200B;](../../systems/cache-management.md#full-page-caching)を参照してください。
 
 ![詳細設定 – Varnish設定](./assets/system-full-page-cache-varnish.png)<!-- zoom -->
 
@@ -194,7 +204,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | グローバル | ページ全体のキャッシュの管理に使用するアプリケーションを指定します。 オプション：<br/>**`Built-in Application`**– 実稼動環境では推奨されません。<br/>**`Varnish Caching`** – 実稼動環境で推奨されます。 |
 | [!UICONTROL TTL for public content] | グローバル | 公開コンテンツキャッシュの有効期間を秒単位で指定します。 デフォルト値：`120` |
-| [!UICONTROL Handles param size] | グローバル | [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP エンドポイントで処理する[ レイアウトハンドル ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)の最大数を指定します。 サイズを制限すると、セキュリティとパフォーマンスが向上します。 デフォルト値：`100` |
+| [!UICONTROL Handles param size] | グローバル | [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP エンドポイントで処理する[&#x200B; レイアウトハンドル &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)の最大数を指定します。 サイズを制限すると、セキュリティとパフォーマンスが向上します。 デフォルト値：`100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | グローバル | Varnish設定をパージして設定ファイルを生成できるIP アドレスを指定します。 複数のエントリをコンマで区切ります。 デフォルト値：`localhost` |
 | [!UICONTROL Backend host] | グローバル | 設定ファイルを生成するバックエンドホストを指定します。 デフォルト値：`localhost` |
@@ -209,9 +219,9 @@ ht-degree: 1%
 
 ## [!UICONTROL Storage Configuration for Media]
 
-![詳細設定 – メディアのストレージ設定 – ファイルシステム ](./assets/system-storage-config-media.png)<!-- zoom -->
+![詳細設定 – メディアのストレージ設定 – ファイルシステム &#x200B;](./assets/system-storage-config-media.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_コンテンツとデザインガイド_&#x200B;の「[ メディアデータベースの使用](../../content-design/media-storage-database.md)」を参照してください。
+これらの設定の変更について詳しくは、_コンテンツとデザインガイド_&#x200B;の「[&#x200B; メディアデータベースの使用](../../content-design/media-storage-database.md)」を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -220,7 +230,7 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-![詳細設定 – メディアのストレージ設定 – データベース ](./assets/database-storage-deprecated.png)<!-- zoom -->
+![詳細設定 – メディアのストレージ設定 – データベース &#x200B;](./assets/database-storage-deprecated.png)<!-- zoom -->
 
 >[!IMPORTANT]
 >
@@ -239,9 +249,9 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![詳細設定 – 一括アクション ](./assets/system-bulk-actions.png)<!-- zoom -->
+![詳細設定 – 一括アクション &#x200B;](./assets/system-bulk-actions.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の[一括アクション ](../../systems/action-log-bulk-actions.md)を参照してください。
+これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の[一括アクション &#x200B;](../../systems/action-log-bulk-actions.md)を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -253,9 +263,9 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![詳細設定 – ファイルの読み込み/書き出しのスケジュール履歴のクリーニング ](./assets/system-schedule-history-cleaning.png)<!-- zoom -->
+![詳細設定 – ファイルの読み込み/書き出しのスケジュール履歴のクリーニング &#x200B;](./assets/system-schedule-history-cleaning.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[ スケジュールされた読み込みと書き出し](../../systems/data-scheduled-import-export.md)」を参照してください。
+これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[&#x200B; スケジュールされた読み込みと書き出し](../../systems/data-scheduled-import-export.md)」を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

@@ -4,11 +4,23 @@ description: Commerce管理者の[!UICONTROL Sales] > [!UICONTROL Payment Method
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
 TQID: https://experienceleague.adobe.com/nYlyPsbZ5YhBI6C6pzOk9Ns-6pA6VME3uzKfRhJ5HLo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2710
@@ -29,7 +41,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->カードの予期しない請求に関するサポートが必要な場合は、[ サブスクリプションの解約](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) ページにアクセスしてサポートを受けてください。
+>カードの予期しない請求に関するサポートが必要な場合は、[&#x200B; サブスクリプションの解約](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) ページにアクセスしてサポートを受けてください。
 
 ## [!UICONTROL Basic Braintree Settings]
 
@@ -40,12 +52,12 @@ ht-degree: 0%
 | [!UICONTROL Title] | ストアビュー | デフォルト値：`Credit Card` （Braintree） |
 | [!UICONTROL Environment] | ストアビュー | オプション：`Sandbox` / `Production` |
 | [!UICONTROL Payment Action] | ストアビュー | 支払いが処理されたときにBraintreeが実行するアクションを指定します。 オプション：<br/>**`Authorize`**– お客様のクレジットカードの資金は承認されますが、アカウントからは転送されません。 ストア管理者で注文が作成されます。 後で売上を取得し、請求書を作成できます。<br/>**`Intent Sale`** （以前のリリースでは`Authorize and Capture`） – お客様のクレジットカードの資金はBraintreeによって承認および取得され、注文と請求書はストア管理者で作成されます。 |
-| [!UICONTROL Sandbox Merchant ID] | ストアビュー | これは、サンドボックスゲートウェイアカウント全体の一意のIDです。 _パブリック ID_&#x200B;または&#x200B;_プロダクション ID_&#x200B;とも呼ばれ、マーチャント IDはプロダクション ゲートウェイとサンドボックス ゲートウェイで異なります。 このフィールドは、_[!UICONTROL Environment]_フィールドが`Sandbox`に設定されている場合に表示されます。 |
-| [!UICONTROL Sandbox Public Key] | ストアビュー | これは、暗号化されたデータへのアクセスを制限する、ユーザー固有の公開IDです。 サンドボックス Braintree ゲートウェイに関連付けられている各ユーザーには、独自のサンドボックス公開鍵があります。 このフィールドは、_[!UICONTROL Environment]_フィールドが`Sandbox`に設定されている場合に表示されます。 |
-| [!UICONTROL Sandbox Private Key] | ストアビュー | これは、暗号化されたデータへのアクセスを制限する、ユーザー固有のプライベート IDです。 サンドボックス Braintree ゲートウェイに関連付けられている各ユーザーには、サンドボックス用の独自の秘密鍵があります。 このフィールドは、_[!UICONTROL Environment]_フィールドが`Sandbox`に設定されている場合に表示されます。 |
-| [!UICONTROL Merchant ID] | ストアビュー | これは、ゲートウェイに存在する可能性のある複数の加盟店アカウントを含め、ゲートウェイアカウント全体の一意のIDです。 _パブリック ID_&#x200B;または&#x200B;_プロダクション ID_&#x200B;とも呼ばれ、マーチャント IDはプロダクション ゲートウェイとサンドボックス ゲートウェイで異なります。 このフィールドは、_[!UICONTROL Environment]_フィールドが`Production`に設定されている場合に表示されます。 |
-| [!UICONTROL Public Key] | ストアビュー | これは、暗号化されたデータへのアクセスを制限する、ユーザー固有の公開IDです。 Braintree ゲートウェイに関連付けられた各ユーザーには、独自の公開鍵があります。 このフィールドは、_[!UICONTROL Environment]_フィールドが`Production`に設定されている場合に表示されます。 |
-| [!UICONTROL Private Key] | ストアビュー | これは、暗号化されたデータへのアクセスを制限する、ユーザー固有のプライベート IDです。 Braintree ゲートウェイに関連付けられた各ユーザーには、独自の秘密鍵があります。 このフィールドは、_[!UICONTROL Environment]_フィールドが`Production`に設定されている場合に表示されます。 |
+| [!UICONTROL Sandbox Merchant ID] | ストアビュー | これは、サンドボックスゲートウェイアカウント全体の一意のIDです。 _パブリック ID_&#x200B;または&#x200B;_プロダクション ID_&#x200B;とも呼ばれ、マーチャント IDはプロダクション ゲートウェイとサンドボックス ゲートウェイで異なります。 このフィールドは、_[!UICONTROL Environment]_&#x200B;フィールドが`Sandbox`に設定されている場合に表示されます。 |
+| [!UICONTROL Sandbox Public Key] | ストアビュー | これは、暗号化されたデータへのアクセスを制限する、ユーザー固有の公開IDです。 サンドボックス Braintree ゲートウェイに関連付けられている各ユーザーには、独自のサンドボックス公開鍵があります。 このフィールドは、_[!UICONTROL Environment]_&#x200B;フィールドが`Sandbox`に設定されている場合に表示されます。 |
+| [!UICONTROL Sandbox Private Key] | ストアビュー | これは、暗号化されたデータへのアクセスを制限する、ユーザー固有のプライベート IDです。 サンドボックス Braintree ゲートウェイに関連付けられている各ユーザーには、サンドボックス用の独自の秘密鍵があります。 このフィールドは、_[!UICONTROL Environment]_&#x200B;フィールドが`Sandbox`に設定されている場合に表示されます。 |
+| [!UICONTROL Merchant ID] | ストアビュー | これは、ゲートウェイに存在する可能性のある複数の加盟店アカウントを含め、ゲートウェイアカウント全体の一意のIDです。 _パブリック ID_&#x200B;または&#x200B;_プロダクション ID_&#x200B;とも呼ばれ、マーチャント IDはプロダクション ゲートウェイとサンドボックス ゲートウェイで異なります。 このフィールドは、_[!UICONTROL Environment]_&#x200B;フィールドが`Production`に設定されている場合に表示されます。 |
+| [!UICONTROL Public Key] | ストアビュー | これは、暗号化されたデータへのアクセスを制限する、ユーザー固有の公開IDです。 Braintree ゲートウェイに関連付けられた各ユーザーには、独自の公開鍵があります。 このフィールドは、_[!UICONTROL Environment]_&#x200B;フィールドが`Production`に設定されている場合に表示されます。 |
+| [!UICONTROL Private Key] | ストアビュー | これは、暗号化されたデータへのアクセスを制限する、ユーザー固有のプライベート IDです。 Braintree ゲートウェイに関連付けられた各ユーザーには、独自の秘密鍵があります。 このフィールドは、_[!UICONTROL Environment]_&#x200B;フィールドが`Production`に設定されている場合に表示されます。 |
 | [!UICONTROL Enable Card Payments] | web サイト | Braintreeのクレジットカードの支払い方法が支払い方法として利用できるかどうかを指定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Enable Vault for Card Payments] | web サイト | 有効にすると、は顧客の支払い情報を安全に保存できるので、顧客は購入するたびにクレジットカード情報を再入力する必要がありません。 オプション：`Yes` / `No` |
 | [!UICONTROL Enable Vault CVV Re-verification] | web サイト | 有効にすると、Braintree アカウントで設定されたCVV ルールの検証が行われます。 オプション：`Yes` / `No` |
@@ -137,7 +149,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->バンドルされたBraintree拡張機能は、[Braintree開発者ドキュメント ](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview)に記載されているすべてのローカル支払い方法をサポートしていません。 その他のローカル支払い方法は、今後のリリースでサポートされる予定です。
+>バンドルされたBraintree拡張機能は、[Braintree開発者ドキュメント &#x200B;](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview)に記載されているすべてのローカル支払い方法をサポートしていません。 その他のローカル支払い方法は、今後のリリースでサポートされる予定です。
 
 ## [!UICONTROL GooglePay through Braintree]
 
@@ -163,7 +175,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable Venmo through Braintree] | web サイト | [!DNL Venmo]がBraintreeを通じた支払い方法として含まれているかどうかを確認します。 オプション：`Yes` / `No` |
 | [!UICONTROL Enable Vault for Venmo] | web サイト | お客様は、将来の使用のためにVenmoの支払い方法を保管することができます。 支払い詳細が保管されると、顧客はデータを再入力したり、支払い情報を再認証したりすることなく、Venmoの支払い方法を使用できます。 オプション：`Yes` / `No` |
-| [!UICONTROL Payment Action] | web サイト | 支払いが処理されたときにBraintreeが実行するアクションを指定します。 オプション：<br/>**`Authorize`**– お客様のカードの資金は承認されますが、お客様のアカウントから転送されません。 ストア管理者で注文が作成されます。 後で売上を取得し、請求書を作成できます。<br/>**`Intent Sale`** – お客様のカードの資金は、Braintreeによって承認およびキャプチャされ、注文と請求書がストア管理者に作成されます。 **_Note:_**これは、2.3.x以前のリリースの_&#x200B;認証とキャプチャ _でした。 |
+| [!UICONTROL Payment Action] | web サイト | 支払いが処理されたときにBraintreeが実行するアクションを指定します。 オプション：<br/>**`Authorize`**– お客様のカードの資金は承認されますが、お客様のアカウントから転送されません。 ストア管理者で注文が作成されます。 後で売上を取得し、請求書を作成できます。<br/>**`Intent Sale`** – お客様のカードの資金は、Braintreeによって承認およびキャプチャされ、注文と請求書がストア管理者に作成されます。 **_Note:_**&#x200B;これは、2.3.x以前のリリースの_&#x200B;認証とキャプチャ _でした。 |
 | [!UICONTROL Sort Order] | web サイト | チェックアウト時にVenmoが他の支払い方法と共に表示される注文を決定します。 |
 
 {style="table-layout:auto"}
@@ -189,7 +201,7 @@ Braintree Config 1経由の![PayPal](./assets/payment-methods-braintree-paypal-c
 | [!UICONTROL Require Customer's Billing Address] | web サイト | お客様の請求先住所が注文の送信に必要かどうかを判断します。 オプション：`Yes` / `No` |
 | [!UICONTROL Skip Order Review Step] | web サイト | 支払いを完了する前に、お客様をレビューページにリダイレクトするかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Debug] | web サイト | Braintree システムを介したPayPalとストアとの通信がログファイルに記録されるかどうかを指定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Display on Shopping Cart] | web サイト | [ ミニカート ](../../stores-purchase/cart-configuration.md#mini-cart)と[ ショッピングカート ](../../stores-purchase/cart.md) ページにPayPal ボタンが表示されるかどうかを判断します。 オプション：`Yes` / `No` |
+| [!UICONTROL Display on Shopping Cart] | web サイト | [&#x200B; ミニカート &#x200B;](../../stores-purchase/cart-configuration.md#mini-cart)と[&#x200B; ショッピングカート &#x200B;](../../stores-purchase/cart.md) ページにPayPal ボタンが表示されるかどうかを判断します。 オプション：`Yes` / `No` |
 | [!UICONTROL Send Package Tracking] | web サイト | パッケージの追跡情報は、PayPalの取引/注文の場合にのみPayPalに送信されます。 [!UICONTROL Package Tracking]機能が正しく動作するには、[!UICONTROL Send Cart Line Items for PayPal]設定フィールドを有効にする必要があります。 オプション：`Yes` / `No` |
 | [!UICONTROL Use PayPal's "Notify Payer" functionality] | web サイト | 「はい」に設定すると、購入者または支払い者にパッケージのトラッキング更新に関する通知がPayPalから送信されます。 オプション：`Yes` / `No` |
 
@@ -201,7 +213,7 @@ Braintree Config 1経由の![PayPal](./assets/payment-methods-braintree-paypal-c
 
 ### [!UICONTROL Styling]
 
-![PayPal スタイル ](./assets/payment-methods-braintree-paypal-styling.png)<!-- zoom -->
+![PayPal スタイル &#x200B;](./assets/payment-methods-braintree-paypal-styling.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -211,7 +223,7 @@ Braintree Config 1経由の![PayPal](./assets/payment-methods-braintree-paypal-c
 
 **[!UICONTROL Mini-Cart and Cart Page]**
 
-このセクションのオプションと設定は、_[!UICONTROL Location]_フィールドの設定によって異なります。
+このセクションのオプションと設定は、_[!UICONTROL Location]_&#x200B;フィールドの設定によって異なります。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -219,7 +231,7 @@ Braintree Config 1経由の![PayPal](./assets/payment-methods-braintree-paypal-c
 
 **[!UICONTROL PayPal Button]**
 
-このセクションのオプションと設定は、_[!UICONTROL PayPal Button Type]_フィールドで選択したボタンの種類によって異なります。
+このセクションのオプションと設定は、_[!UICONTROL PayPal Button Type]_&#x200B;フィールドで選択したボタンの種類によって異なります。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -249,7 +261,7 @@ Braintree Config 1経由の![PayPal](./assets/payment-methods-braintree-paypal-c
 
 **[!UICONTROL Product Page]**
 
-![後払いメッセージ – 製品ページ ](./assets/payment-methods-braintree-paylater-messaging-product.png)<!-- zoom -->
+![後払いメッセージ – 製品ページ &#x200B;](./assets/payment-methods-braintree-paylater-messaging-product.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -263,7 +275,7 @@ Braintree Config 1経由の![PayPal](./assets/payment-methods-braintree-paypal-c
 
 **[!UICONTROL Cart]**
 
-![後払いメッセージ – カート ](./assets/payment-methods-braintree-paylater-messaging-cart.png)<!-- zoom -->
+![後払いメッセージ – カート &#x200B;](./assets/payment-methods-braintree-paylater-messaging-cart.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -277,7 +289,7 @@ Braintree Config 1経由の![PayPal](./assets/payment-methods-braintree-paypal-c
 
 **[!UICONTROL Checkout]**
 
-![後払いメッセージ – チェックアウト ](./assets/payment-methods-braintree-paylater-messaging-checkout.png)<!-- zoom -->
+![後払いメッセージ – チェックアウト &#x200B;](./assets/payment-methods-braintree-paylater-messaging-checkout.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--------------------------------------|--- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

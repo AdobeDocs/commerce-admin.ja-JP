@@ -3,11 +3,20 @@ title: 管理者グリッドコントロール
 description: データを管理する管理ページで、レコードのコレクションをグリッドに表示する方法を説明します。
 exl-id: a4a9531d-eb2f-41d6-bb36-dc6d8811ee95
 TQID: https://experienceleague.adobe.com/-BGRS0qjthE3-oWu1DbrxeEUVk1aXdgW-RPRO1dYND0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 519
@@ -29,7 +38,7 @@ ht-degree: 0%
 
 1. ページネーション コントロールを使用して、コレクション内の追加のページを表示します。
 
-   ![ グリッド表示 – ページコントロール ](./assets/pagination-controls.png){width="300"}
+   ![&#x200B; グリッド表示 – ページコントロール &#x200B;](./assets/pagination-controls.png){width="300"}
 
 ## リストのページネーション
 
@@ -55,12 +64,12 @@ ht-degree: 0%
    >
    >商品データをグリッドから書き出すことはできません。 詳しくは、[書き出し](../systems/data-export.md)を参照してください。
 
-1. 右上隅の&#x200B;_書き出し_ （![ メニューセレクター](../assets/icon-export.png)）メニューで、次のいずれかのファイル形式を選択します。
+1. 右上隅の&#x200B;_書き出し_ （![&#x200B; メニューセレクター](../assets/icon-export.png)）メニューで、次のいずれかのファイル形式を選択します。
 
    - `CSV`
    - `Excel XML`
 
-   ![注文一覧 – エクスポート オプション ](./assets/customers-grid-export.png){width="700" zoomable="yes"}
+   ![注文一覧 – エクスポート オプション &#x200B;](./assets/customers-grid-export.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL Export]**&#x200B;をクリックします。
 
@@ -74,7 +83,7 @@ ht-degree: 0%
 
 ### 列の選択範囲を変更する
 
-1. 右上隅で、_列_ （![列コントロール ](../assets/icon-columns.png)） コントロールをクリックします。
+1. 右上隅で、_列_ （![列コントロール &#x200B;](../assets/icon-columns.png)） コントロールをクリックします。
 
 1. 列の選択を変更します。
 
@@ -92,7 +101,7 @@ ht-degree: 0%
 
 ### グリッドビューを保存
 
-1. _表示_ （![表示コントロール ](../assets/icon-view-eye.png)） コントロールをクリックします。
+1. _表示_ （![表示コントロール &#x200B;](../assets/icon-view-eye.png)） コントロールをクリックします。
 
 1. **[!UICONTROL Save Current View]**&#x200B;をクリックします。
 
@@ -104,10 +113,10 @@ ht-degree: 0%
 
 ### グリッド表示の変更
 
-1. _表示_ （![表示アイコン ](../assets/icon-view-eye.png)） コントロールをクリックします。
+1. _表示_ （![表示アイコン &#x200B;](../assets/icon-view-eye.png)） コントロールをクリックします。
 
 1. 次のいずれかの操作を行います。
 
    - 別のビューを使用するには、ビューの名前をクリックします。
-   - ビューの名前を変更するには、_編集_ （![編集アイコン ](../assets/icon-edit-pencil.png)）アイコンをクリックし、名前を更新します。
-   - ビューを削除するには、_編集_ （![編集アイコン ](../assets/icon-edit-pencil.png)）アイコンをクリックし、_削除_ （![削除アイコン ](../assets/icon-delete-trashcan-solid.png)）アイコンをクリックします。
+   - ビューの名前を変更するには、_編集_ （![編集アイコン &#x200B;](../assets/icon-edit-pencil.png)）アイコンをクリックし、名前を更新します。
+   - ビューを削除するには、_編集_ （![編集アイコン &#x200B;](../assets/icon-edit-pencil.png)）アイコンをクリックし、_削除_ （![削除アイコン &#x200B;](../assets/icon-delete-trashcan-solid.png)）アイコンをクリックします。

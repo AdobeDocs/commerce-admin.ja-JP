@@ -4,12 +4,22 @@ description: Commerce管理者の[!UICONTROL Customers] > [!UICONTROL Company Co
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
 TQID: https://experienceleague.adobe.com/pfLr7IPJq34ChjpQYqJdmnl8oqUfpIsv8-nXKrWGsvI
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 843
@@ -25,11 +35,11 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce B2Bのインストールと有効化により、企業固有の機能を使用して購買体験をパーソナライズできます。 Adobe Commerce B2Bは、B2BとB2Cの両方のモデルをサポートする統合ソリューションです。 B2B機能について詳しくは、[Adobe Commerce B2B ユーザーガイド ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)を参照してください。
+>Adobe Commerce B2Bのインストールと有効化により、企業固有の機能を使用して購買体験をパーソナライズできます。 Adobe Commerce B2Bは、B2BとB2Cの両方のモデルをサポートする統合ソリューションです。 B2B機能について詳しくは、[Adobe Commerce B2B ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)を参照してください。
 
 >[!NOTE]
 >
->B2B機能のこれらの設定オプションへのアクセスは、[役割リソース ](../../systems/permissions-user-roles.md#role-resources)によって制御されます。 これらの役割リソースは、管理者ユーザーに割り当てられたユーザー役割に設定する必要があります。
+>B2B機能のこれらの設定オプションへのアクセスは、[役割リソース &#x200B;](../../systems/permissions-user-roles.md#role-resources)によって制御されます。 これらの役割リソースは、管理者ユーザーに割り当てられたユーザー役割に設定する必要があります。
 
 これらの設定について詳しくは、_Adobe Commerce B2B ユーザーガイド_&#x200B;の「[基本的なB2B機能を有効にする](../../b2b/enable-basic-features.md)」を参照してください。
 
@@ -58,7 +68,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Customer-Related Emails]
 
-![顧客関連の電子メール ](./assets/company-email-options-customer-related-emails.png)<!-- zoom -->
+![顧客関連の電子メール &#x200B;](./assets/company-email-options-customer-related-emails.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -91,7 +101,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Company Credit]
 
-![会社クレジット ](./assets/company-email-options-company-credit.png)<!-- zoom -->
+![会社クレジット &#x200B;](./assets/company-email-options-company-credit.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

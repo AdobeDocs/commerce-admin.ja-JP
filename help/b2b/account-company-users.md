@@ -5,12 +5,20 @@ exl-id: 36b55f61-e579-4eb8-8f67-0156221d378e
 feature: B2B, Companies, User Account, Storefront
 role: Admin, User
 TQID: https://experienceleague.adobe.com/uCjMHTsVLxAiWNqKxzN-ICfzcWrK9UgIWz-I1eggoHY
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 664
@@ -20,7 +28,7 @@ ht-degree: 0%
 
 # 会社ユーザーアカウントの管理
 
-ストアフロントでは、会社ユーザーは会社の管理者によって割り当てられ、_[!UICONTROL Company Users]_ページから表示されます。 これらの個人は通常、店舗のサービスやリソースにアクセスする権限のレベルにばらつきがある購入者です。
+ストアフロントでは、会社ユーザーは会社の管理者によって割り当てられ、_[!UICONTROL Company Users]_&#x200B;ページから表示されます。 これらの個人は通常、店舗のサービスやリソースにアクセスする権限のレベルにばらつきがある購入者です。
 
 会社管理者は、まず[会社構造](account-company-structure.md)を設定し、必要に応じて次のタスクを完了します。
 
@@ -63,7 +71,7 @@ ht-degree: 0%
 
    新しいユーザーは、会社管理者と共に会社ユーザーリストに表示されます。
 
-最初の注文時の時間を節約するために、会社の管理者は、各会社のユーザーにデフォルトの会社の請求先住所と配送先住所を[ アドレス帳](../customers/account-dashboard-address-book.md)に追加するように促すことができます。
+最初の注文時の時間を節約するために、会社の管理者は、各会社のユーザーにデフォルトの会社の請求先住所と配送先住所を[&#x200B; アドレス帳](../customers/account-dashboard-address-book.md)に追加するように促すことができます。
 
 ## ユーザーを[!UICONTROL Company structure]から削除
 
@@ -80,7 +88,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Remove from Structure]**&#x200B;をクリックします。
 
-   ![ ユーザーを削除](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
+   ![&#x200B; ユーザーを削除](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
 
 1. 確認を求められたら、**[!UICONTROL Remove]**&#x200B;をクリックします。
 
