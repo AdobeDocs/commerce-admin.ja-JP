@@ -3,9 +3,16 @@ title: '[!UICONTROL Customers]  > [!UICONTROL Customer Configuration]'
 description: Commerce管理者の[!UICONTROL Customers] > [!UICONTROL Customer Configuration] ページで設定を確認します。
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/eZF-dmYG4p8BwVNA5SWtj-3y2flfLP1H9CRcPsd1tFI
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1908'
+source-wordcount: 1908
 ht-degree: 0%
 
 ---
@@ -16,9 +23,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Account Sharing Options]
 
-![&#x200B; アカウント共有オプション &#x200B;](./assets/customer-configuration-account-sharing-options.png)<!-- zoom -->
+![ アカウント共有オプション ](./assets/customer-configuration-account-sharing-options.png)<!-- zoom -->
 
-<!-- [Account Sharing Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
+<!-- [Account Sharing Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -28,9 +35,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Online Customers Options]
 
-![&#x200B; オンライン顧客オプション &#x200B;](./assets/customer-configuration-online-customers-options.png)<!-- zoom -->
+![ オンライン顧客オプション ](./assets/customer-configuration-online-customers-options.png)<!-- zoom -->
 
-<!-- [Online Customers Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customers-menu/now-online) -->
+<!-- [Online Customers Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/now-online) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -45,7 +52,7 @@ ht-degree: 0%
 
 ![新しいアカウント オプション （VAT フィールド）を作成](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
 
-<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -57,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Default Welcome Email] | ストアビュー | 既定の&#x200B;_ようこそ_&#x200B;電子メールに使用される電子メールテンプレートを識別します。 |
 | [!UICONTROL Default Welcome Email Without Password] | ストアビュー | パスワードがまだ割り当てられていない管理者が作成した新しい顧客アカウントに使用される代替ウェルカムメールテンプレート。 |
 | [!UICONTROL Email Sender] | ストアビュー | ウェルカムメールの送信者として表示されるストア連絡先を識別します。 |
-| [!UICONTROL Require Emails Confirmation] | web サイト | アカウントを作成するリクエストに顧客からの確認が必要かどうかを判断します。 オプション：`Yes` / `No`。<br/><br/> _&#x200B;**メモ：**&#x200B;_ バージョン 2.4.7以降、お客様は、ブラウザーに関係なく、メール確認後にアカウントにログインするために、メールとパスワードを再入力する必要があります。 |
+| [!UICONTROL Require Emails Confirmation] | web サイト | アカウントを作成するリクエストに顧客からの確認が必要かどうかを判断します。 オプション：`Yes` / `No`。<br/><br/> _**メモ：**_ バージョン 2.4.7以降、お客様は、ブラウザーに関係なく、メール確認後にアカウントにログインするために、メールとパスワードを再入力する必要があります。 |
 | [!UICONTROL Confirmation Link Email] | ストアビュー | 確認メールに使用される電子メールテンプレートを識別します。 既定のテンプレート：`New account confirmation key` |
 | [!UICONTROL Welcome Email] | ストアビュー | アカウントの確認後に送信されるようこそメッセージに使用される電子メールテンプレートを識別します。 |
 | [!UICONTROL Generate Human-Friendly Customer ID] | グローバル | VAT ID番号の入力と保存に使用されるフィールドがストアフロントから表示されるかどうかを指定します。 オプション：`Yes` / `No` |
@@ -66,9 +73,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Password Options]
 
-![&#x200B; パスワードオプション &#x200B;](./assets/customer-configuration-password-options.png)<!-- zoom -->
+![ パスワードオプション ](./assets/customer-configuration-password-options.png)<!-- zoom -->
 
-<!-- [Password Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
+<!-- [Password Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -90,7 +97,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Account Information Options]
 
-![&#x200B; アカウント情報オプション &#x200B;](./assets/customer-configuration-account-info-options.png)<!-- zoom -->
+![ アカウント情報オプション ](./assets/customer-configuration-account-info-options.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -107,7 +114,7 @@ ht-degree: 0%
 
 ![名前と住所のオプション - Sourceを開く](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -132,7 +139,7 @@ ht-degree: 0%
 
 ![名前と住所のオプション - Commerce](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -148,9 +155,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![&#x200B; ストアクレジットオプション &#x200B;](./assets/customer-configuration-store-credit-options.png)<!-- zoom -->
+![ ストアクレジットオプション ](./assets/customer-configuration-store-credit-options.png)<!-- zoom -->
 
-<!-- [Store Credit Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
+<!-- [Store Credit Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -164,9 +171,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Login Options]
 
-![&#x200B; ログインオプション &#x200B;](./assets/customer-configuration-login-options.png)<!-- zoom -->
+![ ログインオプション ](./assets/customer-configuration-login-options.png)<!-- zoom -->
 
-<!-- [Login Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Login Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -176,9 +183,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Address Templates]
 
-![&#x200B; アドレステンプレート &#x200B;](./assets/customer-configuration-address-templates.png)<!-- zoom -->
+![ アドレステンプレート ](./assets/customer-configuration-address-templates.png)<!-- zoom -->
 
-<!-- [Address Templates](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
+<!-- [Address Templates](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
 
 | テンプレート | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -193,9 +200,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![顧客セグメント &#x200B;](./assets/customer-configuration-customer-segments.png)<!-- zoom -->
+![顧客セグメント ](./assets/customer-configuration-customer-segments.png)<!-- zoom -->
 
-<!-- [Customer Segments](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/segments/customer-segments) -->
+<!-- [Customer Segments](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segments) -->
 
 | テンプレート | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -208,14 +215,14 @@ ht-degree: 0%
 
 ![CAPTCHA](./assets/customer-configuration-captcha.png)<!-- zoom -->
 
-<!-- [CAPTCHA](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/security/captcha/security-captcha) -->
+<!-- [CAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | web サイト | Commerce web サイトに関連付けられているストアでCAPTCHAを有効にします。 オプション：`Yes` / `No` |
 | [!UICONTROL Font] | web サイト | CAPTCHAの表示に使用するフォントを指定します。 独自のフォントを追加するには、フォントファイルをCommerceのインストールと同じディレクトリに置き、宣言を`app/code/Magento/Captcha/etc`の`config.xml` ファイルに追加します。 |
-| [!UICONTROL Forms] | web サイト | CAPTCHAが使用されるフォームを指定します。 オプション：<br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （[&#x200B; セキュリティパッチ &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)を参照） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**注：**&#x200B;_ Create User、Forgot Password、Payflow Pro フォームは、選択時に常に有効になります。 |
-| [!UICONTROL Displaying Mode] | web サイト | CAPTCHAがいつ表示されるかを指定します。 オプション：<br/>**`Always`**- ログインするには常にCAPTCHAが必要です。<br/>**`After number of attempts to login`** – このオプションは、Admin Sign In フォームにのみ適用されます。 選択すると、_[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;フィールドが表示されます。 許可するログイン試行回数を入力します。 `0` （ゼロ）の値は、[!UICONTROL Displaying Mode]を`Always`に設定することと似ています。<br/>_&#x200B;**注意：**&#x200B;_ログインの失敗回数を追跡するには、1つの電子メールアドレスと1つのIP アドレスからログインするたびにカウントされます。 同じIP アドレスから許可されるログイン試行の最大数は1,000です。 この制限は、CAPTCHAが有効になっている場合にのみ適用されます。 |
+| [!UICONTROL Forms] | web サイト | CAPTCHAが使用されるフォームを指定します。 オプション：<br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （[ セキュリティパッチ ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)を参照） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_**注：**_ Create User、Forgot Password、Payflow Pro フォームは、選択時に常に有効になります。 |
+| [!UICONTROL Displaying Mode] | web サイト | CAPTCHAがいつ表示されるかを指定します。 オプション：<br/>**`Always`**- ログインするには常にCAPTCHAが必要です。<br/>**`After number of attempts to login`** – このオプションは、Admin Sign In フォームにのみ適用されます。 選択すると、_[!UICONTROL Number of Unsuccessful Attempts to Login]_フィールドが表示されます。 許可するログイン試行回数を入力します。 `0` （ゼロ）の値は、[!UICONTROL Displaying Mode]を`Always`に設定することと似ています。<br/>_**注意：**_ログインの失敗回数を追跡するには、1つの電子メールアドレスと1つのIP アドレスからログインするたびにカウントされます。 同じIP アドレスから許可されるログイン試行の最大数は1,000です。 この制限は、CAPTCHAが有効になっている場合にのみ適用されます。 |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | web サイト | 顧客がアカウントをロックする前にログインを試行できる回数を指定します。 |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | web サイト | 現在のCAPTCHAの有効期間を決定します。 CAPTCHAの有効期限が切れると、ユーザーはページをリロードする必要があります。 |
 | [!UICONTROL Number of Symbols] | web サイト | CAPTCHAに表示されるシンボルの数を指定します（最大8）。 範囲（5 ～ 8など）を指定することもできます。 |

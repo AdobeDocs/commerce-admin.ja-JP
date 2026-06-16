@@ -1,39 +1,45 @@
 ---
 title: 1 ページのチェックアウト
-description: 1 ページのチェックアウトで、ストアに効率的なチェックアウトプロセスを提供する方法について説明します。
+description: 1 ページ単位のチェックアウトを導入し、オンラインストアのチェックアウトプロセスを合理化する方法をご確認ください。
 exl-id: c91347b6-bb6f-44e7-b470-f237bf430d5f
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/rY0sw7iSq7-4Y5EPQ1cL8bJ7cuqdDfDqvjEQvH-jsvM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: 181
 ht-degree: 0%
 
 ---
 
 # 1 ページのチェックアウト
 
-1 ページのチェックアウトの目的は、必要な情報を収集し、買い物客がクリックする必要なく、できるだけ早く販売を完了することです。 1 ページのチェックアウトが有効な場合、チェックアウトプロセス全体が 1 ページで実行されます。 チェックアウト情報の各セクションは、必要に応じて展開されます。
+ワンページチェックアウトの目的は、買い物客に追加クリックを必要とせずに、必要な情報を収集し、可能な限り迅速に販売を完了することです。 1 ページのチェックアウトを有効にすると、チェックアウトプロセス全体が1 ページで実行されます。 チェックアウト情報の各セクションは、必要に応じて拡張されます。
 
-デフォルトでは、1 ページチェックアウトが有効になっています。 カスタム統合またはチェックアウト拡張機能を実装している場合、1 ページのチェックアウトを無効にする必要がある可能性があります。
+1 ページのチェックアウトはデフォルトで有効になっています。 カスタム統合またはチェックアウト拡張機能を実装する場合は、1 ページのチェックアウトを無効にする必要がある場合があります。
 
-**_1 ページのチェックアウトを無効にするには：_**
+**_1 ページのチェックアウトを無効にするには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、「**[!UICONTROL Checkout]**」を選択します。
+1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Checkout]**&#x200B;を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Checkout Options]**」セクションを展開します。
+1. **[!UICONTROL Checkout Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; 設定 – チェックアウトオプション &#x200B;](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
+   ![設定 – チェックアウトオプション ](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-   これらの各設定について詳しくは、『設定リファレンスガイド _の [&#x200B; チェックアウトオプション &#x200B;](../configuration-reference/sales/checkout.md#checkout-options) を参照してください_。
+   これらの各構成設定の詳細については、_構成リファレンスガイド_&#x200B;の[ チェックアウトオプション ](../configuration-reference/sales/checkout.md#checkout-options)を参照してください。
 
-1. 設定が特定のストア表示の場合は、[&#x200B; ストア表示を選択 &#x200B;](../configuration-reference/scope-change.md#set-the-scope) して設定が適用されます。
+1. 設定が特定のストアビューの場合、[設定が適用されるストアビュー](../configuration-reference/scope-change.md#set-the-scope)を選択します。
 
-   プロンプトが表示されたら、「**[!UICONTROL OK]**」をクリックして続行します。
+   プロンプトが表示されたら、**[!UICONTROL OK]**&#x200B;をクリックして続行します。
 
-1. **[!UICONTROL Enable Onepage Checkout]** を `No` に設定します。
+1. **[!UICONTROL Enable Onepage Checkout]**&#x200B;を`No`に設定します。
 
-   必要に応じて、「**[!UICONTROL Use system value]**」チェックボックスをオフにして、この設定を変更します。
+   必要に応じて、**[!UICONTROL Use system value]** チェックボックスをオフにして、この設定を変更します。
 
-1. 「**[!UICONTROL Save Config]**」をクリックします。
+1. **[!UICONTROL Save Config]**&#x200B;をクリックします。

@@ -1,78 +1,84 @@
 ---
-title: 買い物かご価格ルールの例 – 最小製品価格による割引
-description: 買い物かご価格ルールを使用して、最小製品価格による割引を提供する例を確認します。
+title: カートの価格ルールの例 – 最低商品価格での割引
+description: カート価格ルールを使用して、最低商品価格の割引を提供する例を紹介します。
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 1a784e894e02090cfa3bc9edc47149b35d935e8e
+TQID: https://experienceleague.adobe.com/IRVMCZ8C4uOJ4cBYLEv0YnOsehv0T9XWSIkyjBLhFw4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: 382
 ht-degree: 0%
 
 ---
 
-# 買い物かご価格ルールの例 – 最小製品価格による割引
+# カートの価格ルールの例 – 最低商品価格での割引
 
-買い物かご価格ルールを使用すると、買い物かご内の最小製品価格に基づいてパーセンテージの割引を提供できます。 次の例では、指定したカテゴリの価格が 30.00 ドルを超える商品が 1 つ以上カートに追加された場合に、カート全体のすべての商品に 10% の割引が適用されます。 割引の形式は次のとおりです。
+カートの価格ルールを利用して、カート内の最低商品価格に基づいて、パーセンテージ割引を提供することができます。 次の例では、指定したカテゴリの価格が30.00 ドルを超える少なくとも1つの商品がカートに追加された場合、カート全体のすべての商品に10%の割引が適用されます。 割引の形式は次のとおりです。
 
-少なくとも 1 つの商品が Y カテゴリのもので、その価格が$Z ドルを超える場合、買い物かご全体の X% がオフになります。
+少なくとも1つの商品がY カテゴリーのもので、価格がZ ドルを超える場合、買い物客全体のX%がオフになります。
 
-## 手順 1. 買い物かごルールの作成
+## 手順1: 買い物かごルールの作成
 
-基本的な [&#x200B; 手順 &#x200B;](price-rules-cart.md) に従って、買い物かごルールを作成します。
+基本的な[手順](price-rules-cart.md)に従って、買い物かごルールを作成します。
 
-## 手順 2. 条件の定義
+## 手順2: 条件の定義
 
-1. 下にスクロールして、「**[!UICONTROL Conditions]**」セクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開します。
+1. 下にスクロールして、**[!UICONTROL Conditions]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-1. _追加_ （![&#x200B; 追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックし、**[!UICONTROL Product Attribute Combination]** を選択します。
+1. _追加_ （![ アイコンを追加](../assets/icon-add-green-circle.png)）をクリックし、**[!UICONTROL Product Attribute Combination]**&#x200B;を選択します。
 
-   ![&#x200B; 買い物かご価格ルール条件 – 製品属性の組み合わせ &#x200B;](./assets/condition1.png){width="500" zoomable="yes"}
+   ![買い物かごの価格ルール条件 – 製品属性の組み合わせ](./assets/condition1.png){width="500" zoomable="yes"}
 
-1. 次の行の先頭にある _追加_ （![&#x200B; 追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックし、「**[!UICONTROL Product Attribute]**」の下のリストで「**[!UICONTROL Category]**」を選択します。
+1. 次の行の先頭にある&#x200B;_追加_ （![追加アイコン ](../assets/icon-add-green-circle.png)）をクリックし、**[!UICONTROL Product Attribute]**&#x200B;の下のリストで「**[!UICONTROL Category]**」を選択します。
 
-   - （**...**） _その他_ リンクをクリックすると、その他のオプションが表示されます。
+   - 「（**...**） _more_」リンクをクリックして、追加のオプションを表示します。
 
-     ![&#x200B; 買い物かご価格ルールの条件 – カテゴリオプション &#x200B;](./assets/condition3.png){width="600" zoomable="yes"}
+     ![買い物かごの価格ルール条件 – カテゴリ オプション ](./assets/condition3.png){width="600" zoomable="yes"}
 
-   - _選択_ （![&#x200B; リストアイコン &#x200B;](../assets/icon-list-chooser.png)）アイコンをクリックして、使用可能なカテゴリを表示します。 カテゴリツリーで、含める各カテゴリのチェックボックスを選択します。 チェックアイコンをクリックして、カテゴリの選択を確定します。
+   - _Chooser_ （![ リストアイコン ](../assets/icon-list-chooser.png)）アイコンをクリックすると、使用可能なカテゴリが表示されます。 カテゴリーツリーで、含める各カテゴリのチェックボックスを選択します。 チェックアイコンをクリックして、カテゴリの選択を確定します。
 
-     ![&#x200B; 買い物かご価格ルール条件 – カテゴリ &#x200B;](./assets/condition4.png){width="600" zoomable="yes"}
+     ![買い物かごの価格ルール条件 – カテゴリ ](./assets/condition4.png){width="600" zoomable="yes"}
 
-1. 次の行の先頭にある _追加_ （![&#x200B; 追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックし、次の手順を実行します。
+1. 次の行の先頭にある「_追加_」（![追加アイコン ](../assets/icon-add-green-circle.png)）をクリックし、次の操作を行います。
 
-   - **[!UICONTROL Cart Item Attribute]** の下のリストで、「**[!UICONTROL Price in cart]**」を選択します。
+   - **[!UICONTROL Cart Item Attribute]**&#x200B;の下のリストで、**[!UICONTROL Price in cart]**&#x200B;を選択します。
 
-     ![&#x200B; 買い物かご価格ルール条件 – 買い物かご品目属性 &#x200B;](./assets/condition5.png){width="500"}
+     ![買い物かごの価格ルール条件 – カート項目属性](./assets/condition5.png){width="500"}
 
-   - 「**is**」をクリックし、「`equals or greater than`」を選択します。
+   - **is**&#x200B;をクリックし、`equals or greater than`を選択します。
 
-   - 「**...**」をクリックし、「買い物かごの価格」が条件を満たす必要がある金額を入力します。 例えば、「`30`」と入力します。
+   - 「**...**」をクリックし、条件を満たすためにカート内の価格が必要な金額を入力します。 例えば、`30`と入力します。
 
-     ![&#x200B; 買い物かご価格ルールの条件 – 買い物かごの価格 &#x200B;](./assets/condition6.png){width="500"}
+     ![買い物かごの価格ルール条件 – カート内の価格](./assets/condition6.png){width="500"}
 
-1. 「**[!UICONTROL Save and Continue Edit]**」をクリックします。
+1. **[!UICONTROL Save and Continue Edit]**&#x200B;をクリックします。
 
-## 手順 3. アクションの定義
+## 手順3: アクションの定義
 
-1. **[!UICONTROL Actions]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Actions]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
-   ![&#x200B; 買い物かご価格ルールアクション &#x200B;](./assets/minimum-discount-actions.png){width="600" zoomable="yes"}
+   ![買い物かごの価格ルール アクション ](./assets/minimum-discount-actions.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Apply]** を `Percent of product price discount` に設定します。
+   - **[!UICONTROL Apply]**&#x200B;を`Percent of product price discount`に設定します。
 
-   - **[!UICONTROL Discount Amount]** を入力します。 例えば、10% の割引を受ける場合は `10` と入力します。
+   - **[!UICONTROL Discount Amount]**&#x200B;を入力します。 例えば、10%割引の場合は`10`と入力します。
 
-   - 追加のプロモーションが購入に適用されないようにするには、**[!UICONTROL Discard subsequent rules]** を `Yes` に設定します。
+   - 購入に追加のプロモーションが適用されないようにするには、**[!UICONTROL Discard subsequent rules]**&#x200B;を`Yes`に設定します。
 
-1. 「**[!UICONTROL Save and Continue Edit]**」をクリックし、必要に応じてルールを入力します。
+1. **[!UICONTROL Save and Continue Edit]**&#x200B;をクリックし、必要に応じてルールを完了します。
 
-## 手順 4. ラベルを完成させる
+## 手順4: ラベルを記入してください
 
-買い物かご価格ルールの手順の [&#x200B; 手順 4](price-rules-cart.md) を完了して、チェックアウト時に表示されるラベルを入力します。
+チェックアウト時に表示されるラベルを入力するには、カート価格ルール手順の[手順4](price-rules-cart.md)を完了します。
 
-## 手順 5：ルールを保存してテストする
+## 手順5：ルールの保存とテスト
 
 {{new-price-rule}}
 
-1. ルールが完成したら、「**[!UICONTROL Save Rule]**」をクリックします。
+1. ルールが完了したら、**[!UICONTROL Save Rule]**&#x200B;をクリックします。
 1. ルールをテストして、正しく動作することを確認します。

@@ -3,16 +3,22 @@ title: 製品データ属性リファレンス
 description: 商品データのインポートとエクスポートを操作する場合は、この商品データ属性の参照を使用します。
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 093c0841141f3e39afdabf25f7ce96c65db35291
+TQID: https://experienceleague.adobe.com/IRfev4xpSuxjNkdU3lOBNX4XDkvyYZq-UvhrXP0mtaQ
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2540'
+source-wordcount: 2540
 ht-degree: 0%
 
 ---
 
 # 製品データ属性リファレンス
 
-次の表に、一般的な製品エクスポートの属性を、それらが表示されるデフォルトの順序で示します。 各属性はCSV ファイルで列として表され、製品レコードは行で表されます。 アンダースコアで始まる列には、複雑なデータのプロパティやオプション値などのサービスデータが含まれます。 カタログから商品を[&#x200B; エクスポート &#x200B;](data-export.md)して、各属性がデータにどのように表示されるかを確認できます。
+次の表に、一般的な製品エクスポートの属性を、それらが表示されるデフォルトの順序で示します。 各属性はCSV ファイルで列として表され、製品レコードは行で表されます。 アンダースコアで始まる列には、複雑なデータのプロパティやオプション値などのサービスデータが含まれます。 カタログから商品を[ エクスポート ](data-export.md)して、各属性がデータにどのように表示されるかを確認できます。
 
 このデータの書き出しに使用されるインストールには、サンプルデータがインストールされ、2つのweb サイトと複数のストアビューがあります。 このリストには、通常エクスポートされるすべての列が含まれていますが、`sku`のみが必須の値です。 データを読み込むには、変更がある列のみを含めることができます。 `sku`は最初の列である必要がありますが、残りの属性の順序は関係ありません。
 
@@ -123,7 +129,7 @@ ht-degree: 0%
 
 設定可能な製品を書き出す場合、単純な製品を構成する標準属性に加えて、複雑なデータを管理するために必要な追加の属性が表示されます。
 
-![構成可能な製品 – エクスポートされたデータ &#x200B;](./assets/data-exported-configurable-product.png){width="600" zoomable="yes"}
+![構成可能な製品 – エクスポートされたデータ ](./assets/data-exported-configurable-product.png){width="600" zoomable="yes"}
 
 ### コンフィグ商品
 
@@ -149,7 +155,7 @@ ht-degree: 0%
 | `bundle_price_type` | バンドル商品の価格が固定か動的かを指定します。 |
 | `bundle_sku_type` | 各項目に変数が割り当てられるか、動的SKUが割り当てられるか、またはバンドルに固定SKUが使用されるかを指定します。 オプション：固定/動的 |
 | `bundle_weight_type` | バンドル項目の重みが可変か固定かを指定します。 |
-| `bundle_values` | バンドルオプションに関連付けられている各値について説明します。 例：`name=Bundle Option One,name_store_view_1=Group 1,type=dropdown; required=1,sku=sku-option2,price=10,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0,price_website_website_1=30.000000,price_type_website_website_1=fixed`<br/><br/> 「`name_[store-view-code]`」オプションでは、`[store-view-code]`はストアビューの名前です。<br/></br> オプション `price_website_[website-code]`と`price_type_website_[website-code]`は、web サイト `[website-code]`の製品価格を指定します。 [&#x200B; カタログ価格範囲](../catalog/catalog-price-scope.md)が&#x200B;*グローバル*&#x200B;に設定されている場合、これらのオプションは使用できません。 |
+| `bundle_values` | バンドルオプションに関連付けられている各値について説明します。 例：`name=Bundle Option One,name_store_view_1=Group 1,type=dropdown; required=1,sku=sku-option2,price=10,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0,price_website_website_1=30.000000,price_type_website_website_1=fixed`<br/><br/> 「`name_[store-view-code]`」オプションでは、`[store-view-code]`はストアビューの名前です。<br/></br> オプション `price_website_[website-code]`と`price_type_website_[website-code]`は、web サイト `[website-code]`の製品価格を指定します。 [ カタログ価格範囲](../catalog/catalog-price-scope.md)が&#x200B;*グローバル*&#x200B;に設定されている場合、これらのオプションは使用できません。 |
 
 {style="table-layout:auto"}
 
@@ -162,13 +168,13 @@ ht-degree: 0%
 | 属性 | 説明 |
 |--- |--- |
 | `sku` | （必須）在庫保管単位は、在庫を追跡するために使用される一意の英数字の識別子です。 SKUの長さは最大64文字です。 例：`sku123`<br/>**_Note:_** SKUが64文字を超えると、読み込みが失敗します。 |
-| `tier_price_website` | [web サイト コード &#x200B;](../stores-purchase/stores.md#add-websites)は、階層の価格が利用可能な各web サイトを識別します。 例：`-  website1 -  All Websites [USD]` |
-| `tier_price_customer` | 階層価格が利用可能な[顧客グループ &#x200B;](../customers/customer-groups.md)を特定します。 例：`-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
+| `tier_price_website` | [web サイト コード ](../stores-purchase/stores.md#add-websites)は、階層の価格が利用可能な各web サイトを識別します。 例：`-  website1 -  All Websites [USD]` |
+| `tier_price_customer` | 階層価格が利用可能な[顧客グループ ](../customers/customer-groups.md)を特定します。 例：`-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_customer_group` | 階層価格が利用可能な顧客グループを特定します。 例：`-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_qty` | 階層価格割引を受け取るために注文する必要がある製品の数量。 |
-| `tier_price` | 製品の割引価格。 [&#x200B; バンドル製品](../catalog/product-create-bundle.md)の場合、階層の価格はパーセントとして計算されます。 |
-| `group_price_website` | グループ価格が利用可能な各web サイトの[web サイト コード &#x200B;](../stores-purchase/stores.md#add-websites)。 複数のWeb サイトを指定する場合は、それぞれのWeb サイトをコンマで区切り、スペースなしで区切ります。 例：`-  website1 -  All Websites [USD]` |
+| `tier_price` | 製品の割引価格。 [ バンドル製品](../catalog/product-create-bundle.md)の場合、階層の価格はパーセントとして計算されます。 |
+| `group_price_website` | グループ価格が利用可能な各web サイトの[web サイト コード ](../stores-purchase/stores.md#add-websites)。 複数のWeb サイトを指定する場合は、それぞれのWeb サイトをコンマで区切り、スペースなしで区切ります。 例：`-  website1 -  All Websites [USD]` |
 | `group_price_customer_group` | グループ価格が利用可能な顧客グループを特定します。 例：`-  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
-| `group_price` | 製品の割引グループ価格。 [&#x200B; バンドル製品](../catalog/product-create-bundle.md)の場合、グループ価格はパーセントとして計算されます。 |
+| `group_price` | 製品の割引グループ価格。 [ バンドル製品](../catalog/product-create-bundle.md)の場合、グループ価格はパーセントとして計算されます。 |
 
 {style="table-layout:auto"}

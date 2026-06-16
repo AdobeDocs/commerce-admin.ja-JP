@@ -3,9 +3,15 @@ title: カタログ価格ルールの予定変更
 description: キャンペーンの一環としてカタログの価格ルールをスケジュール通りに適用し、他のコンテンツの変更とグループ化する方法について説明します。
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: e4c18621d0607446b48bf2447ac1a978d33ac24a
+TQID: https://experienceleague.adobe.com/OP-QPlP2xYEQYnxy9bWEiQJyCiMqFu-k2YblXvXSscw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: 836
 ht-degree: 0%
 
 ---
@@ -16,7 +22,7 @@ ht-degree: 0%
 
 新しい価格ルールを保存または更新すると、「予定変更」ボックスがページの上部に表示されます。 カタログの価格ルールは、施策の一環としてスケジュールどおりに適用し、他のコンテンツの変更とグループ化することができます。 価格ルールに対する予定された変更に基づいてキャンペーンを作成したり、既存のキャンペーンに変更を適用したりできます。
 
-![&#x200B; カタログ価格ルール – スケジュールされた変更](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
+![ カタログ価格ルール – スケジュールされた変更](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
 
 ## スケジュールされた価格ルールの更新方法
 
@@ -24,7 +30,7 @@ ht-degree: 0%
 
 - スケジュールされた更新は、その時間枠内のすべてのストアビューに適用されます。 その結果、エンティティは、異なるストアビューに対して異なるスケジュールされた更新を同時に行うことはできません。 現在のスケジュールされた更新の影響を受けない、すべてのストアビュー内のすべてのエンティティ属性値は、以前のスケジュールされた更新の値ではなく、デフォルト値から取得されます。
 
-- 同じキャンペーンで複数の価格ルールが実行されている場合、価格ルールの「優先度」設定によって、どのルールが優先されるかが決定されます。 詳しくは、[&#x200B; コンテンツのステージング &#x200B;](../content-design/content-staging.md)を参照してください。
+- 同じキャンペーンで複数の価格ルールが実行されている場合、価格ルールの「優先度」設定によって、どのルールが優先されるかが決定されます。 詳しくは、[ コンテンツのステージング ](../content-design/content-staging.md)を参照してください。
 
 ## 特定の時間での価格ルール販売の終了
 
@@ -32,7 +38,7 @@ ht-degree: 0%
 
 ## カタログ価格ルールの更新をスケジュール
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**カタログ価格ルール**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**カタログ価格ルール**に移動します。
 
 1. ルールを編集モードで開きます。
 
@@ -44,9 +50,9 @@ ht-degree: 0%
 
    - 更新内容の概要&#x200B;**[!UICONTROL Description]**&#x200B;を入力します。これには、更新方法や適用理由が含まれます。
 
-   - _カレンダー_ （![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）を使用して、スケジュールされた変更が有効になるように&#x200B;**[!DNL Start Date]**&#x200B;と&#x200B;**[!UICONTROL End Date]**&#x200B;を選択します。 オープンエンド変更を作成するには、終了日を空白のままにします。
+   - _カレンダー_ （![ カレンダーアイコン ](../assets/icon-calendar.png)）を使用して、スケジュールされた変更が有効になるように&#x200B;**[!DNL Start Date]**&#x200B;と&#x200B;**[!UICONTROL End Date]**&#x200B;を選択します。 オープンエンド変更を作成するには、終了日を空白のままにします。
 
-   ![&#x200B; カタログ価格ルール – 新しいスケジュール変更](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
+   ![ カタログ価格ルール – 新しいスケジュール変更](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -54,11 +60,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Rule Information]** セクションまでスクロールし、必要に応じてルールを変更します。
 
-   ルールのweb サイト（スコープ）/顧客グループ、ルールの条件、ルールによって適用されるアクションなど、任意のルールパラメーターの変更をスケジュールできます。 詳しくは、[&#x200B; カタログ価格ルールの作成](price-rules-catalog-create.md)を参照してください。
+   ルールのweb サイト（スコープ）/顧客グループ、ルールの条件、ルールによって適用されるアクションなど、任意のルールパラメーターの変更をスケジュールできます。 詳しくは、[ カタログ価格ルールの作成](price-rules-catalog-create.md)を参照してください。
 
    >[!NOTE]
    >
-   >ルール情報パラメーターを更新するたびに、_[!UICONTROL Status]_&#x200B;が正しく設定されていることを確認してください。 変更を実行してアクティブに適用されたルールにする場合は、ステータスを`Active`に設定します。
+   >ルール情報パラメーターを更新するたびに、_[!UICONTROL Status]_が正しく設定されていることを確認してください。 変更を実行してアクティブに適用されたルールにする場合は、ステータスを`Active`に設定します。
 
 1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -68,7 +74,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->キャンペーンが複数のカタログ価格ルールにリンクされている場合、[&#x200B; コンテンツステージングダッシュボード &#x200B;](../content-design/content-staging-dashboard.md)からのみキャンペーンを編集できます。
+>キャンペーンが複数のカタログ価格ルールにリンクされている場合、[ コンテンツステージングダッシュボード ](../content-design/content-staging-dashboard.md)からのみキャンペーンを編集できます。
 
 1. ページ上部の&#x200B;**[!UICONTROL Scheduled Changes]** ボックスで、**[!UICONTROL View/Edit]**&#x200B;をクリックします。
 
@@ -82,15 +88,15 @@ ht-degree: 0%
 
    「プレビュー」で新しいブラウザータブが開き、適用されたスケジュール変更がストアフロントに読み込まれます。 変更の影響を受ける製品に移動します。
 
-   ![&#x200B; スケジュールされた変更のプレビュー](./assets/price-rule-catalog-scheduled-update-preview.png){width="600" zoomable="yes"}
+   ![ スケジュールされた変更のプレビュー](./assets/price-rule-catalog-scheduled-update-preview.png){width="600" zoomable="yes"}
 
 1. プレビューウィンドウの左上隅にある「**[!UICONTROL Calendar]**」をクリックします。
 
    カレンダーの詳細には、同じ日にスケジュールされているその他のキャンペーンが表示されます。 リスト内の各レコードは、個別のルール更新です。
 
-   ![特定の日付に対するスケジュールされた更新のリスト &#x200B;](./assets/price-rule-catalog-scheduled-preview-calendar.png){width="600" zoomable="yes"}
+   ![特定の日付に対するスケジュールされた更新のリスト ](./assets/price-rule-catalog-scheduled-preview-calendar.png){width="600" zoomable="yes"}
 
-1. 別の曜日または時刻をプレビューするには、**[!UICONTROL Date & Time]** カレンダー![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)をクリックし、次の操作を行います。
+1. 別の曜日または時刻をプレビューするには、**[!UICONTROL Date & Time]** カレンダー![ カレンダーアイコン ](../assets/icon-calendar.png)をクリックし、次の操作を行います。
 
    - 別の日付や時刻を選択してください。
 
@@ -112,4 +118,4 @@ ht-degree: 0%
 
    異なるストアビューのスケジュールされた変更を表示するには、プレビューページのヘッダーの「**[!UICONTROL Scope]**」をクリックします。 プレビューするweb サイト、ストアビューまたはストアビューを選択します。
 
-1. 必要に応じて、カレンダーに戻り、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL View/Edit]**&#x200B;をクリックして、別のスケジュール済み更新プログラムを開きます。
+1. 必要に応じて、カレンダーに戻り、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL View/Edit]**をクリックして、別のスケジュール済み更新プログラムを開きます。

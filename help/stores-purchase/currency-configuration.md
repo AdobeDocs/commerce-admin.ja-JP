@@ -3,16 +3,22 @@ title: 通貨設定
 description: 基本通貨の範囲を設定する方法と、受け入れる通貨と価格表示に使用する通貨を指定する方法について説明します。
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
+TQID: https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: 826
 ht-degree: 0%
 
 ---
 
 # 通貨設定
 
-各通貨レートを設定する前に、まず[基本通貨](../configuration-reference/general/currency-setup.md)の範囲を設定する必要があります。 デフォルトではグローバルに設定されており、基本通貨設定が[&#x200B; ストア階層全体](../getting-started/websites-stores-views.md)に適用されます。 マルチサイト Adobe CommerceまたはMagento Open Sourceをインストールしている場合は、スコープをweb サイトレベルに設定することで、複数の基本通貨を管理できます。
+各通貨レートを設定する前に、まず[基本通貨](../configuration-reference/general/currency-setup.md)の範囲を設定する必要があります。 デフォルトではグローバルに設定されており、基本通貨設定が[ ストア階層全体](../getting-started/websites-stores-views.md)に適用されます。 マルチサイト Adobe CommerceまたはMagento Open Sourceをインストールしている場合は、スコープをweb サイトレベルに設定することで、複数の基本通貨を管理できます。
 
 また、受け入れる通貨と、ストアでの[価格](../catalog/catalog-price-scope.md)の表示に使用する通貨を指定します。 次の図では、基本通貨の範囲がweb サイトレベルで設定されているので、各web サイトで異なる基本通貨を持つことができます。
 
@@ -20,7 +26,7 @@ ht-degree: 0%
 
 ## ステップ 1：受け入れられる通貨を選択する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左上隅で、設定が適用されるストアビューに&#x200B;**[!UICONTROL Scope]**&#x200B;を設定します。
 
@@ -36,13 +42,13 @@ ht-degree: 0%
 
      複数の通貨の場合は、Ctrl キー（PC）またはCommand キー（Mac）を押しながら、各オプションをクリックします。
 
-   ![一般設定 – 通貨オプション &#x200B;](../configuration-reference/general/assets/currency-setup-currency-options.png){width="600" zoomable="yes"}
+   ![一般設定 – 通貨オプション ](../configuration-reference/general/assets/currency-setup-currency-options.png){width="600" zoomable="yes"}
 
-   これらの各設定設定の詳細については、_設定リファレンスガイド_&#x200B;の[通貨オプション &#x200B;](../configuration-reference/general/currency-setup.md)を参照してください。
+   これらの各設定設定の詳細については、_設定リファレンスガイド_&#x200B;の[通貨オプション ](../configuration-reference/general/currency-setup.md)を参照してください。
 
-1. キャッシュを更新するように求められたら、システムメッセージの右上隅にある&#x200B;_閉じる_ （![閉じるボックス &#x200B;](../assets/icon-close-x.png)）をクリックします。
+1. キャッシュを更新するように求められたら、システムメッセージの右上隅にある&#x200B;_閉じる_ （![閉じるボックス ](../assets/icon-close-x.png)）をクリックします。
 
-   後で[&#x200B; キャッシュを更新できます](../systems/cache-management.md)。
+   後で[ キャッシュを更新できます](../systems/cache-management.md)。
 
 1. 基本通貨の範囲を定義します。
 
@@ -52,7 +58,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Catalog Price Scope]**&#x200B;を`Global`または`Website`のいずれかに設定します。
 
-   ![&#x200B; カタログ設定 – 価格オプション &#x200B;](../configuration-reference/catalog/assets/catalog-price.png){width="600" zoomable="yes"}
+   ![ カタログ設定 – 価格オプション ](../configuration-reference/catalog/assets/catalog-price.png){width="600" zoomable="yes"}
 
 ## 手順2：読み込み接続の設定
 
@@ -66,9 +72,9 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >2.4.6 リリース以降、[[!DNL Fixer.io]](https://fixer.io/) サービスは非推奨となり、[[!DNL Fixer API]  （APILayer） &#x200B;](https://apilayer.com/marketplace/fixer-api) サービスに置き換えられます。 非推奨の[!DNL Fixer.io] アカウントの代わりにAPILayer アカウントを使用することを強くお勧めします。
+   >2.4.6 リリース以降、[[!DNL Fixer.io]](https://fixer.io/) サービスは非推奨となり、[[!DNL Fixer API]  （APILayer） ](https://apilayer.com/marketplace/fixer-api) サービスに置き換えられます。 非推奨の[!DNL Fixer.io] アカウントの代わりにAPILayer アカウントを使用することを強くお勧めします。
 
-   - [fixer.io サービス &#x200B;](https://fixer.io/):_に接続するには（_T）
+   - [fixer.io サービス ](https://fixer.io/):_に接続するには（_T）
 
       - **[!UICONTROL Fixer.io]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
@@ -76,9 +82,9 @@ ht-degree: 0%
 
       - **[!UICONTROL Connection Timeout in Seconds]**&#x200B;の場合、接続がタイムアウトするまでに許可する非アクティブな時間の秒数を入力します。
 
-     ![一般設定 – 通貨設定 – Fixer.io オプション &#x200B;](../configuration-reference/general/assets/currency-setup-fixer.png){width="600" zoomable="yes"}
+     ![一般設定 – 通貨設定 – Fixer.io オプション ](../configuration-reference/general/assets/currency-setup-fixer.png){width="600" zoomable="yes"}
 
-   - [[!DNL Fixer Api (APILayer)]  サービス &#x200B;](https://apilayer.com/):_に接続するには（_T）
+   - [[!DNL Fixer Api (APILayer)]  サービス ](https://apilayer.com/):_に接続するには（_T）
 
       - **[!UICONTROL Fixer Api (APILayer)]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
@@ -86,9 +92,9 @@ ht-degree: 0%
 
       - **[!UICONTROL Connection Timeout in Seconds]**&#x200B;の場合、接続がタイムアウトするまでに許可する非アクティブな時間の秒数を入力します。
 
-     ![一般設定 – 通貨設定 – Fixer API （APILayer）オプション &#x200B;](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
+     ![一般設定 – 通貨設定 – Fixer API （APILayer）オプション ](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
 
-   - [[!DNL Currency Convertor API]  サービス &#x200B;](https://free.currencyconverterapi.com/):_に接続するには（_T）
+   - [[!DNL Currency Convertor API]  サービス ](https://free.currencyconverterapi.com/):_に接続するには（_T）
 
       - **[!UICONTROL Currency Convertor API]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
@@ -96,7 +102,7 @@ ht-degree: 0%
 
       - **[!UICONTROL Connection Timeout in Seconds]**&#x200B;の場合、接続がタイムアウトするまでに許可する非アクティブな時間の秒数を入力します。
 
-     ![一般設定 – 通貨設定 – 通貨変換API オプション &#x200B;](../configuration-reference/general/assets/currency-setup-converter.png){width="600" zoomable="yes"}
+     ![一般設定 – 通貨設定 – 通貨変換API オプション ](../configuration-reference/general/assets/currency-setup-converter.png){width="600" zoomable="yes"}
 
 ## 手順3：スケジュールされたインポート設定の設定
 
@@ -122,7 +128,7 @@ ht-degree: 0%
 
      複数のメールアドレスを入力するには、それぞれにコンマで区切ります。
 
-   - **[!UICONTROL Error Email Sender]** — エラー通知の送信者として表示される[&#x200B; ストア連絡先](../getting-started/store-details.md#store-email-addresses)に設定します。
+   - **[!UICONTROL Error Email Sender]** — エラー通知の送信者として表示される[ ストア連絡先](../getting-started/store-details.md#store-email-addresses)に設定します。
 
    - **[!UICONTROL Error Email Template]** — エラー通知に使用する電子メールテンプレートに設定します。
 
@@ -130,7 +136,7 @@ ht-degree: 0%
 
 1. キャッシュの更新を求めるメッセージが表示されたら、**[!UICONTROL Cache Management]** リンクをクリックし、無効なキャッシュを更新します。
 
-   ![&#x200B; システムメッセージ – 無効なキャッシュを更新します](./assets/msg-cache-management.png){width="600" zoomable="yes"}
+   ![ システムメッセージ – 無効なキャッシュを更新します](./assets/msg-cache-management.png){width="600" zoomable="yes"}
 
 ## 手順4：通貨レートの更新
 
@@ -142,15 +148,15 @@ ht-degree: 0%
 
 ![通貨記号](./assets/stores-currency-symbols.png){width="600" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**に移動します。
 
-   ストアに対して有効になっている各通貨は、_[!UICONTROL Currency]_&#x200B;リストに表示されます。
+   ストアに対して有効になっている各通貨は、_[!UICONTROL Currency]_リストに表示されます。
 
 1. 必要に応じて、リストの設定を変更します。
 
    - 使用する各通貨のカスタム記号を入力するか、各通貨の&#x200B;**[!UICONTROL Use Standard]** チェックボックスを選択します。
 
-   - デフォルトのシンボルを上書きするには、_[!UICONTROL Use Standard]_&#x200B;チェックボックスをオフにして、使用するシンボルを入力します。
+   - デフォルトのシンボルを上書きするには、_[!UICONTROL Use Standard]_チェックボックスをオフにして、使用するシンボルを入力します。
 
    >[!NOTE]
    >

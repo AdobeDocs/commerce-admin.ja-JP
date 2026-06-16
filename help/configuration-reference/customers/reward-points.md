@@ -3,9 +3,15 @@ title: '[!UICONTROL Customers] > [!UICONTROL Reward Points]'
 description: Commerce管理者の[!UICONTROL Customers] > [!UICONTROL Reward Points] ページで設定を確認します。
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/jK-FLPd4mglaptKFOhoRsYtAdwRqStPRWM4zMc48qd4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: 779
 ht-degree: 0%
 
 ---
@@ -22,9 +28,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Reward Points]
 
-![&#x200B; ポイントの付与](./assets/reward-points-reward-points.png)<!-- zoom -->
+![ ポイントの付与](./assets/reward-points-reward-points.png)<!-- zoom -->
 
-<!-- [Reward Points](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
+<!-- [Reward Points](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -43,13 +49,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
-![お客様による報酬ポイント獲得のアクション &#x200B;](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
+![お客様による報酬ポイント獲得のアクション ](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
 
-<!-- [Actions for Acquiring Reward Points by Customers](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
+<!-- [Actions for Acquiring Reward Points by Customers](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Purchase] | web サイト | 設定された[&#x200B; ポイント換算レート &#x200B;](../../merchandising-promotions/reward-exchange-rates.md)に基づいて、購入に対するポイントを獲得するかどうかを決定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Purchase] | web サイト | 設定された[ ポイント換算レート ](../../merchandising-promotions/reward-exchange-rates.md)に基づいて、購入に対するポイントを獲得するかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Registration] | web サイト | 顧客アカウントを開設するために獲得したポイント数を指定します。 |
 | [!UICONTROL Newsletter Signup] | web サイト | ニュースレターを購読する登録済みの顧客が獲得したポイント数を指定します。 （ゲストのサブスクリプションではポイントは利用できません）。 顧客が購読を解除した後、再度購読した場合、2回目の購読ではポイントは獲得されません。 |
 | [!UICONTROL Converting Invitation to Customer] | web サイト | 招待状を送信した顧客が顧客アカウントを開いたときに獲得するポイント数を指定します。 |
@@ -64,9 +70,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Email Notification Settings]
 
-![&#x200B; メール通知設定](./assets/reward-points-email-notification-settings.png)<!-- zoom -->
+![ メール通知設定](./assets/reward-points-email-notification-settings.png)<!-- zoom -->
 
-<!-- [Email Notification Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
+<!-- [Email Notification Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

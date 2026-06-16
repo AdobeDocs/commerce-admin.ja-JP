@@ -3,22 +3,28 @@ title: 税金設定
 description: 税区分、計算、デフォルトの税金宛先など、基本的な税金設定の設定方法を説明します。
 exl-id: e32747f9-20d0-4717-9cee-aa1bcffebb65
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/qM41ryN8UDdW9ZlCF8YGrCRZ6hUiaw2OsSumslKnjI8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: 1053
 ht-degree: 0%
 
 ---
 
 # 税金設定
 
-次の手順では、Commerce インスタンスの基本的な税金設定について説明します。 税金を設定する前に、[&#x200B; ロケール &#x200B;](store-localize.md#step-3-change-the-locale-of-the-store-view)の税金要件を理解していることを確認してください。 次に、要件に応じて税金構成を完了します。
+次の手順では、Commerce インスタンスの基本的な税金設定について説明します。 税金を設定する前に、[ ロケール ](store-localize.md#step-3-change-the-locale-of-the-store-view)の税金要件を理解していることを確認してください。 次に、要件に応じて税金構成を完了します。
 
-管理者[権限](../systems/permissions.md)は、ビジネス _が知っておく必要があるビジネス_&#x200B;に基づいて、[&#x200B; アクセス &#x200B;](../systems/permissions-user-roles.md)を税リソースに制限するように設定できます。 税設定へのアクセス権を持つ管理者ロールを作成するには、Sales/TaxとSystem/Taxの両方のリソースを選択します。 デフォルトの発送元とは異なる地域のweb サイトを設定する場合は、その役割のシステム/配送リソースへのアクセスも許可する必要があります。 出荷設定は、カタログの価格に使用されるストアの税率を決定します。
+管理者[権限](../systems/permissions.md)は、ビジネス _が知っておく必要があるビジネス_&#x200B;に基づいて、[ アクセス ](../systems/permissions-user-roles.md)を税リソースに制限するように設定できます。 税設定へのアクセス権を持つ管理者ロールを作成するには、Sales/TaxとSystem/Taxの両方のリソースを選択します。 デフォルトの発送元とは異なる地域のweb サイトを設定する場合は、その役割のシステム/配送リソースへのアクセスも許可する必要があります。 出荷設定は、カタログの価格に使用されるストアの税率を決定します。
 
 ## 一般的な税金設定の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. マルチサイト設定の場合は、設定のターゲットとなるweb サイトとストアに&#x200B;**[!UICONTROL Store View]**&#x200B;を設定します。
 
@@ -76,7 +82,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >[&#x200B; クロスボーダー取引](#cross-border-price-consistency)が有効になっている場合、利益率は税率で変更されます。 利益は、数式（`Revenue - CustomerVAT - CostOfGoodsSold`）によって決まります。 国境を越えた貿易を可能にするには、価格を税込みに設定する必要があります。
+   >[ クロスボーダー取引](#cross-border-price-consistency)が有効になっている場合、利益率は税率で変更されます。 利益は、数式（`Revenue - CustomerVAT - CostOfGoodsSold`）によって決まります。 国境を越えた貿易を可能にするには、価格を税込みに設定する必要があります。
 
 ### [!UICONTROL Default Tax Destination Calculation]
 
@@ -204,12 +210,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->クロスボーダー取引が有効になっている場合、利益率は税率によって変化します。 利益は、次の式で計算されます。<br>
+>クロスボーダー取引が有効になっている場合、利益率は税率によって変化します。利益は、次の式で決まります：<br>
 >`Revenue - CustomerVAT - CostOfGoodsSold`
 
 **_クロスボーダー価格の一貫性を有効にするには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. マルチサイト設定の場合は、設定のターゲットとなるweb サイトとストアに&#x200B;**[!UICONTROL Store View]**&#x200B;を設定します。
 
@@ -221,6 +227,6 @@ ht-degree: 0%
 
 1. クロスボーダー価格の一貫性を有効にするには、**[!UICONTROL Enable Cross Border Trade]**&#x200B;を`Yes`に設定します。
 
-   ![&#x200B; クロスボーダー取引設定を有効にする](./assets/cross-border-calculations-settings.png){width="600" zoomable="yes"}
+   ![ クロスボーダー取引設定を有効にする](./assets/cross-border-calculations-settings.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。

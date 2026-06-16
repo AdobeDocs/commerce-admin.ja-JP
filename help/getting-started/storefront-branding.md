@@ -3,24 +3,30 @@ title: ストアフロントのブランディング
 description: ストアのブランドアイデンティティを定義する要素を変更する方法について説明します。
 exl-id: 91630717-9da7-4d2f-a0d8-adb794a30ee1
 feature: Storefront
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+TQID: https://experienceleague.adobe.com/2IjLVK33ITjn-eFJ0VpmDmlp8SNy-vZ0365An0lm1cA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: 1313
 ht-degree: 0%
 
 ---
 
 # ストアフロントのブランディング
 
-最初にやりたいことの1つは、ヘッダーのロゴ [&#128279;](#upload-your-logo)を変更し、ブラウザー用に[&#x200B; ファビコン &#x200B;](#add-a-favicon)をアップロードすることです。 次に、[ようこそメッセージ &#x200B;](#change-the-welcome-message)を追加し、[&#x200B; フッターで著作権通知](#change-the-copyright-notice)を更新する必要があります。 これらのタスクは、いくつかのシンプルなデザイン要素であり、すぐに対応できます。 ストアの開発中は、[&#x200B; ストアのデモ通知](#set-the-store-demo-notice)をオンにして、開始の準備ができたら削除できます。
+最初にやりたいことの1つは、ヘッダーのロゴ ](#upload-your-logo)を[変更し、ブラウザー用に[ ファビコン ](#add-a-favicon)をアップロードすることです。 次に、[ようこそメッセージ ](#change-the-welcome-message)を追加し、[ フッターで著作権通知](#change-the-copyright-notice)を更新する必要があります。 これらのタスクは、いくつかのシンプルなデザイン要素であり、すぐに対応できます。 ストアの開発中は、[ ストアのデモ通知](#set-the-store-demo-notice)をオンにして、開始の準備ができたら削除できます。
 
-![&#x200B; ストアフロントのブランド要素](./assets/storefront-home-page-branding.png){width="600" zoomable="yes"}
+![ ストアフロントのブランド要素](./assets/storefront-home-page-branding.png){width="600" zoomable="yes"}
 
 ## ロゴをアップロード
 
 ヘッダー内のロゴのサイズと場所は、ストアテーマによって決まります。 ロゴは、GIF、PNG、JPG（JPEG）のいずれかのファイル形式で保存し、ストアの管理者からアップロードできます。
 
-ヘッダー![&#128279;](./assets/storefront-header-logo.png){width="600"}の ロゴ
+ヘッダー](./assets/storefront-header-logo.png){width="600"}の![ ロゴ
 
 ロゴ画像は、サーバー上の次の場所にあります。 `logo.svg`という名前の画像ファイルは、デフォルトのテーマロゴとして使用されます。
 
@@ -32,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ヘッダーのロゴに加えて、ロゴは[&#x200B; メールテンプレート &#x200B;](../systems/email-templates.md#prepare-your-email-logo)および[PDF請求書](../stores-purchase/sales-documents.md)とその他の販売文書にも表示されます。 メールテンプレートや請求書に使用されるロゴのサイズ要件は異なるため、別途アップロードする必要があります。
+>ヘッダーのロゴに加えて、ロゴは[ メールテンプレート ](../systems/email-templates.md#prepare-your-email-logo)および[PDF請求書](../stores-purchase/sales-documents.md)とその他の販売文書にも表示されます。 メールテンプレートや請求書に使用されるロゴのサイズ要件は異なるため、別途アップロードする必要があります。
 
 サポートされているロゴファイル形式：
 
@@ -44,15 +50,15 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**に移動します。
 
-   ![&#x200B; デザイン設定ページ &#x200B;](./assets/design-configuration.png){width="700"}
+   ![ デザイン設定ページ ](./assets/design-configuration.png){width="700"}
 
-1. 設定するストアビューを見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
+1. 設定するストアビューを見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
 
 1. **[!UICONTROL Header]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; ヘッダー設定](./assets/configuration-header.png){width="600"}
+   ![ ヘッダー設定](./assets/configuration-header.png){width="600"}
 
 1. 新しいロゴをアップロードするには、**[!UICONTROL Upload]**&#x200B;をクリックし、システムからファイルを選択します。
 
@@ -90,19 +96,19 @@ _Favicon_&#x200B;は&#x200B;_お気に入りアイコン_&#x200B;の略で、各
 
 ### ステップ 2：お気に入りをストアにアップロードする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**に移動します。
 
-1. グリッドで、設定するストアビューを見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
+1. グリッドで、設定するストアビューを見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
 
-1. _[!UICONTROL Other Settings]_&#x200B;で、**[!UICONTROL HTML Head]**&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
+1. _[!UICONTROL Other Settings]_で、**[!UICONTROL HTML Head]**セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
    ![HTML ヘッドの設定](./assets/configuration-html-head.png){width="600"}
 
-1. 現在のファビコンを削除する場合は、画像の左下隅にある&#x200B;_削除_ （![ごみ箱アイコン &#x200B;](../assets/icon-delete-trashcan.png)）アイコンをクリックします。
+1. 現在のファビコンを削除する場合は、画像の左下隅にある&#x200B;_削除_ （![ごみ箱アイコン ](../assets/icon-delete-trashcan.png)）アイコンをクリックします。
 
 1. **[!UICONTROL Upload]**&#x200B;をクリックし、準備したfavicon ファイルを開きます。
 
-   ![&#x200B; ファビコンをアップロードしました](./assets/favicon-upload.png){width="400"}
+   ![ ファビコンをアップロードしました](./assets/favicon-upload.png){width="400"}
 
 1. 完了したら、**[!UICONTROL Save Configuration]**&#x200B;をクリックします。
 
@@ -120,17 +126,17 @@ _Favicon_&#x200B;は&#x200B;_お気に入りアイコン_&#x200B;の略で、各
 
 ヘッダーのウェルカムメッセージが展開され、ログインしている顧客の名前が含まれます。 ストアを起動する前に、各ストアビューのデフォルトの&#x200B;_ようこそ_ テキストを変更してください。
 
-![&#x200B; ウェルカムメッセージ &#x200B;](./assets/storefront-welcome-message.png){width="600"}
+![ ウェルカムメッセージ ](./assets/storefront-welcome-message.png){width="600"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**に移動します。
 
-1. グリッドで、設定するストアビューを見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
+1. グリッドで、設定するストアビューを見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
 
-1. _[!UICONTROL Other Settings]_&#x200B;で、**[!UICONTROL Header]**&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
+1. _[!UICONTROL Other Settings]_で、**[!UICONTROL Header]**セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
 1. **[!UICONTROL Welcome Text]**&#x200B;の場合、店舗のヘッダーに表示するウェルカムメッセージのテキストを入力します。
 
-   ![&#x200B; ヘッダー設定](./assets/configuration-header.png){width="600"}
+   ![ ヘッダー設定](./assets/configuration-header.png){width="600"}
 
 1. 完了したら、**[!UICONTROL Save Configuration]**&#x200B;をクリックします。
 
@@ -154,13 +160,13 @@ _Favicon_&#x200B;は&#x200B;_お気に入りアイコン_&#x200B;の略で、各
 
 **_著作権通知を更新するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**に移動します。
 
-1. グリッドで、設定するストアビューを見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
+1. グリッドで、設定するストアビューを見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
 
 1. _その他の設定_&#x200B;で、![拡張セレクター](../assets/icon-display-expand.png) 「**[!UICONTROL Footer]**」セクションを展開します。
 
-   ![&#x200B; フッターデザイン設定](./assets/configuration-footer.png){width="600"}
+   ![ フッターデザイン設定](./assets/configuration-footer.png){width="600"}
 
 1. **[!UICONTROL Copyright]**&#x200B;には、各ページのフッターに表示する著作権通知を入力します。
 
@@ -172,15 +178,15 @@ _Favicon_&#x200B;は&#x200B;_お気に入りアイコン_&#x200B;の略で、各
 
 オンラインストアがオンラインであっても、まだ建設中の場合は、ページの上部にストアデモ通知を表示して、そのストアがまだ営業していないことを知らせることができます。 _運用開始_&#x200B;の準備ができたら、メッセージを削除するだけです。 ウィンドウに表示されている記号を&#x200B;_閉じる_&#x200B;から&#x200B;_開く_&#x200B;に切り替えるのと同じです。 デモ通知の形式は、ストアのテーマによって決まります。
 
-![&#x200B; ストアフロントのデモ通知](./assets/storefront-demo-notice.png){width="600"}
+![ ストアフロントのデモ通知](./assets/storefront-demo-notice.png){width="600"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**に移動します。
 
-1. グリッドで、設定するストアビューを見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
+1. グリッドで、設定するストアビューを見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
 
-1. _[!UICONTROL Other Settings]_&#x200B;で、**[!UICONTROL HTML Head]**&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
+1. _[!UICONTROL Other Settings]_で、**[!UICONTROL HTML Head]**セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![HTML ヘッド &#x200B;](./assets/configuration-html-head.png){width="600"}
+   ![HTML ヘッド ](./assets/configuration-html-head.png){width="600"}
 
 1. 一番下までスクロールして、**[!UICONTROL Display Demo Store Notice]**&#x200B;を好みに合わせて設定します。
 

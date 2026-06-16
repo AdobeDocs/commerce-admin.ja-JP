@@ -1,40 +1,46 @@
 ---
 title: ブラウザー機能の検出
-description: ブラウザー機能の検出を設定し、顧客のブラウザー設定を変更する必要がある場合に通知を表示する方法を説明します。
+description: お客様のブラウザー設定を変更する必要がある場合に、ブラウザー機能の検出を設定し、通知を表示する方法について説明します。
 exl-id: 16caab8b-3ba5-43a1-a6f0-7c1e921be132
 role: Admin
 feature: Configuration, Security
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: https://experienceleague.adobe.com/zPxdplYIYblw6-tsDvxEmvKfAx-2M6opb6qjX7YL1I4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: 285
 ht-degree: 0%
 
 ---
 
 # ブラウザー機能の検出
 
-インターネット上のほとんどの web サイトやアプリケーションと同様に、Adobe CommerceおよびMagento Open Sourceでは、訪問者のブラウザーが完全な操作のために Cookie とJavaScriptの両方を許可する必要があります。 ただし、ユーザーのブラウザーが、Cookie とJavaScriptの両方を防ぐ最高のプライバシー設定に設定されている場合があります。 ストアを設定して、各訪問者のブラウザーの機能をテストし、設定の変更が必要な場合は通知を表示することができます。
+インターネット上のほとんどのweb サイトやアプリケーションと同様に、Adobe CommerceとMagento Open Sourceでは、訪問者のブラウザーでCookieとJavaScriptの両方が完全に動作することを許可する必要があります。 ただし、ユーザーのブラウザーがCookieとJavaScriptの両方を防ぐ最高のプライバシー設定に設定されることがあります。 ストアは、各訪問者のブラウザーの機能をテストするように設定でき、設定を変更する必要がある場合に通知を表示します。
 
-- ブラウザーのプライバシー設定で Cookie が許可されていない場合は、システムが自動的に [Cookie を有効にする &#x200B;](../content-design/pages.md#enable-cookies) ページにリダイレクトするように設定できます。このページでは、ほとんどのブラウザーで推奨設定を行う方法を説明します。
-- ブラウザーのプライバシー設定によってJavaScriptが許可されていない場合は、すべてのページのヘッダーの上に次のメッセージが表示されるようにシステムを設定できます。
+- ブラウザーのプライバシー設定でCookieを許可しない場合は、ほとんどのブラウザーで推奨される設定を行う方法を説明する「[Cookieを有効にする](../content-design/pages.md#enable-cookies)」ページに自動的にリダイレクトするようにシステムを設定できます。
+- ブラウザーのプライバシー設定でJavaScriptが許可されていない場合は、すべてのページのヘッダーの上に次のメッセージを表示するように設定できます。
 
-技術情報については、_インストールガイド_ の [&#x200B; サポートされているブラウザー &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=ja#supported-browsers) を参照してください。
+技術情報については、_インストールガイド_&#x200B;の[ サポートされているブラウザー](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers)を参照してください。
 
 ## ブラウザー機能の検出の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. _[!UICONTROL General]_&#x200B;の下にある左側のパネルで、「**[!UICONTROL Web]**」を選択します。
+1. _[!UICONTROL General]_の下の左側のパネルで、**[!UICONTROL Web]**を選択します。
 
-1. **[!UICONTROL Browser Capabilities Detection]** のセクションの ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) を展開し、以下を実行します。
+1. **[!UICONTROL Browser Capabilities Detection]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
-   - Cookie を許可するようにブラウザーを設定する方法を説明する手順を表示するには、**[!UICONTROL Redirect to CMS-page if Cookies are Disabled]** を `Yes` に設定します。
+   - Cookieを許可するようにブラウザーを設定する方法を説明する手順を表示するには、**[!UICONTROL Redirect to CMS-page if Cookies are Disabled]**&#x200B;を`Yes`に設定します。
 
-   - ユーザーのブラウザーでJavaScriptが無効になっているときにヘッダーの上にバナーを表示するには、**[!UICONTROL Show Notice if JavaScript is Disabled]** を `Yes` に設定します。
+   - ユーザーのブラウザーでJavaScriptが無効になっている場合に、ヘッダーの上にバナーを表示するには、**[!UICONTROL Show Notice if JavaScript is Disabled]**&#x200B;を`Yes`に設定します。
 
-   - ユーザーのブラウザーでローカルストレージが無効になっているときにヘッダーの上にバナーを表示するには、**[!UICONTROL Show Notice if Local Storage is Disabled]** を `Yes` に設定します。
+   - ユーザーのブラウザーでローカルストレージが無効になっている場合に、ヘッダーの上にバナーを表示するには、**[!UICONTROL Show Notice if Local Storage is Disabled]**&#x200B;を`Yes`に設定します。
 
-   ![&#x200B; 一般設定 – web ブラウザー機能の検出 &#x200B;](../configuration-reference/general/assets/web-browser-capabilities-detection.png){width="600" zoomable="yes"}
+   ![一般設定 – web ブラウザー機能の検出](../configuration-reference/general/assets/web-browser-capabilities-detection.png){width="600" zoomable="yes"}
 
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。

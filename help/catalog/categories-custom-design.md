@@ -3,22 +3,29 @@ title: カテゴリ – デザイン設定
 description: '[!UICONTROL Design]設定を使用して、カテゴリ、関連するすべての製品ページ、ページレイアウトの外観を定義する方法について説明します。'
 exl-id: 6dc216ac-1c52-4196-9c93-e5cad19901b5
 feature: Catalog Management, Categories, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/cRTRPl-UTfAKXY8rmtVKlnAZooVWpTCjSkVSdNHXp28
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: 379
 ht-degree: 0%
 
 ---
 
 # カテゴリ – デザイン設定
 
-_[!UICONTROL Design]_&#x200B;セクションでは、カテゴリの外観、関連するすべての製品ページ、ページレイアウトを制御できます。 カテゴリ ページとその関連製品をプロモーション用にカスタマイズしたり、カテゴリを区別したりできます。 たとえば、ブランドや特別な商品ラインのために独自のデザインを作成したり、特定の期間のためにアップデートを適用したりすることができます。
+_[!UICONTROL Design]_セクションでは、カテゴリの外観、関連するすべての製品ページ、ページレイアウトを制御できます。 カテゴリ ページとその関連製品をプロモーション用にカスタマイズしたり、カテゴリを区別したりできます。 たとえば、ブランドや特別な商品ラインのために独自のデザインを作成したり、特定の期間のためにアップデートを適用したりすることができます。
 
-![&#x200B; カテゴリの設定をデザイン &#x200B;](./assets/category-design.png){width="600" zoomable="yes"}
+![ カテゴリの設定をデザイン ](./assets/category-design.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->同じ製品が各カテゴリの異なるデザイン設定を持つ複数のカテゴリに割り当てられている場合は、[検索エンジン最適化の設定オプション &#x200B;](../configuration-reference/catalog/catalog.md#search-engine-optimization)で、**製品URLのカテゴリーパスを使用** = `Yes`を設定することをお勧めします。 この設定にアクセスするには、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動し、**[!UICONTROL Catalog]**&#x200B;を展開して、左側のパネルの下にある&#x200B;**カタログ**&#x200B;を選択し、ページの&#x200B;**検索エンジン最適化**&#x200B;セクションを展開します。
+>同じ製品が各カテゴリの異なるデザイン設定を持つ複数のカテゴリに割り当てられている場合は、[検索エンジン最適化の設定オプション ](../configuration-reference/catalog/catalog.md#search-engine-optimization)で、**製品URLのカテゴリーパスを使用** = `Yes`を設定することをお勧めします。 この設定にアクセスするには、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動し、**[!UICONTROL Catalog]**を展開して、左側のパネルの下にある&#x200B;**カタログ**を選択し、ページの&#x200B;**検索エンジン最適化**セクションを展開します。
 
 | フィールド | 説明 |
 |--- |--- |
@@ -34,10 +41,10 @@ _[!UICONTROL Design]_&#x200B;セクションでは、カテゴリの外観、関
 
 {{ce-feature}}
 
-_[!UICONTROL Scheduled Design Update]_&#x200B;セクションは、カスタムデザインがカテゴリーページに適用される日付の範囲を決定します。
+_[!UICONTROL Scheduled Design Update]_セクションは、カスタムデザインがカテゴリーページに適用される日付の範囲を決定します。
 
 | フィールド | 説明 |
 |--- |--- |
 | [!UICONTROL Schedule Update From/To] | カスタムレイアウトがカテゴリに適用される日付の範囲を指定します。 |
 
-![&#x200B; デザイン更新をスケジュールしました](./assets/category-scheduled-design-update.png){width="600" zoomable="yes"}
+![ デザイン更新をスケジュールしました](./assets/category-scheduled-design-update.png){width="600" zoomable="yes"}

@@ -3,9 +3,16 @@ title: ギフトカードアカウント
 description: ギフトカードアカウントと、コードプール管理のデフォルト設定の設定方法について説明します。
 exl-id: f8caff04-38fd-4195-ab11-77dae900976d
 feature: Products, Gift, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/Yc9uWjM1Je77Cw1BO5PJVjg05icRtI4Ehhytr5mTCBI
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: d9ced453-36f4-4eb5-b2f3-1d593e32476b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: 935
 ht-degree: 0%
 
 ---
@@ -14,7 +21,7 @@ ht-degree: 0%
 
 購入したギフトカードごとに、ギフトカードアカウントが自動的に作成されます。 ギフトカードの価値は、お店で商品を購入する際に適用できます。 また、管理者からギフトカードアカウントをプロモーションまたは顧客サービスとして作成することもできます。 ギフトカードの口座番号は、ギフトカードコードに対応しています。
 
-![&#x200B; ギフトカードアカウント &#x200B;](./assets/marketing-gift-card-accounts-grid.png){width="700" zoomable="yes"}
+![ ギフトカードアカウント ](./assets/marketing-gift-card-accounts-grid.png){width="700" zoomable="yes"}
 
 ## ギフトカードアカウントの設定
 
@@ -22,29 +29,29 @@ ht-degree: 0%
 
 ### 手順1：メール通知の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Gift Cards]**&#x200B;を選択します。
 
-1. _[!UICONTROL Gift Card Email Settings]_&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
+1. _[!UICONTROL Gift Card Email Settings]_セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
    - **[!UICONTROL Gift Card Notification Email Sender]**&#x200B;を、ギフトカード通知の送信者として表示されるストア IDに設定します。
 
    - 通知に使用するテンプレートに&#x200B;**[!UICONTROL Gift Card Notification Email Template]**&#x200B;を設定します。
 
-   ![&#x200B; ギフトカードのメール設定](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
+   ![ ギフトカードのメール設定](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Email Sent from Gift Card Account Management]_&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
+1. _[!UICONTROL Email Sent from Gift Card Account Management]_セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
    - **[!UICONTROL Gift Card Email Sender]**&#x200B;をストア IDに設定して、ギフトカードの送信者として表示します。
 
    - **[!UICONTROL Gift Card Template]**&#x200B;をギフトカードに使用するテンプレートに設定します。
 
-特定の設定フィールドとオプションについては、[&#x200B; メールアドレスの保存](../configuration-reference/general/store-email-addresses.md)を参照してください。
+特定の設定フィールドとオプションについては、[ メールアドレスの保存](../configuration-reference/general/store-email-addresses.md)を参照してください。
 
 ### 手順2：一般的な設定の完了
 
-1. _[!UICONTROL Gift Card General Settings]_&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
+1. _[!UICONTROL Gift Card General Settings]_セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
 1. お客様がカードの価値を現金と引き換えることができるようにするには、**[!UICONTROL Redeemable]**&#x200B;を`Yes`に設定します。
 
@@ -63,13 +70,13 @@ ht-degree: 0%
    - `Ordered` – 注文が行われたときにギフトカードアカウントが作成されます。
    - `Invoiced` – 支払いが取り込まれ、注文が請求された後、ギフトカードアカウントが作成されます。
 
-   ![&#x200B; ギフトカードの一般設定](../configuration-reference/sales/assets/gift-cards-gift-card-general-settings.png){width="600" zoomable="yes"}
+   ![ ギフトカードの一般設定](../configuration-reference/sales/assets/gift-cards-gift-card-general-settings.png){width="600" zoomable="yes"}
 
 ### ステップ 3：ギフトカードコードプールの設定
 
-1. _[!UICONTROL Gift Card Account General Settings]_&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
+1. _[!UICONTROL Gift Card Account General Settings]_セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
-   ![&#x200B; ギフトカードアカウントの一般設定](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
+   ![ ギフトカードアカウントの一般設定](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
 
    - コードをカスタマイズするには、好みに応じて次の操作を実行します。
 
@@ -93,29 +100,29 @@ ht-degree: 0%
 
 1. 現在の注文のギフトカードアカウントの番号を確認するには、次の操作を行います。
 
-   - _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**&#x200B;に移動します。
+   - _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**に移動します。
 
-   - リスト内の順序を検索し、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL View]**&#x200B;をクリックします。
+   - リスト内の順序を検索し、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL View]**をクリックします。
 
-   - _[!UICONTROL Items Ordered]_&#x200B;セクションまでスクロールします。
+   - _[!UICONTROL Items Ordered]_セクションまでスクロールします。
 
-   数字は&#x200B;**[!UICONTROL Gift Card Accounts]**&#x200B;の下の&#x200B;_[!UICONTROL Product]_&#x200B;列にあります。
+   数字は&#x200B;**[!UICONTROL Gift Card Accounts]**&#x200B;の下の&#x200B;_[!UICONTROL Product]_列にあります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**に移動します。
 
 1. グリッドでギフトカードアカウントを見つけて、編集モードで開きます。
 
    ギフトカードコードは、_情報_ セクションの上部に表示されます。
 
-   ![&#x200B; ギフトカードのアカウント情報](./assets/gift-card-account-information.png){width="600" zoomable="yes"}
+   ![ ギフトカードのアカウント情報](./assets/gift-card-account-information.png){width="600" zoomable="yes"}
 
 ## ギフトカードアカウントの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**に移動します。
 
 1. 右上隅にある「**[!UICONTROL Add Gift Card Account]**」をクリックします。
 
-1. _[!UICONTROL Information]_&#x200B;セクションで、**[!UICONTROL Active]**&#x200B;を`Yes`に設定し、次の操作を行います。
+1. _[!UICONTROL Information]_セクションで、**[!UICONTROL Active]**を`Yes`に設定し、次の操作を行います。
 
    - チェックアウト時にカード残高を引き換えたり、顧客の店舗のクレジットに転送したりするには、**[!UICONTROL Redeemable]**&#x200B;を`Yes`に設定します。
 
@@ -123,11 +130,11 @@ ht-degree: 0%
 
    - ギフトカードに最初の&#x200B;**[!UICONTROL Balance]**&#x200B;を入力します。
 
-   - _（オプション）_ ギフトカードの&#x200B;**[!UICONTROL Expiration Date]**&#x200B;を設定するには、カレンダー![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)から日付を選択します。
+   - _（オプション）_ ギフトカードの&#x200B;**[!UICONTROL Expiration Date]**&#x200B;を設定するには、カレンダー![ カレンダーアイコン ](../assets/icon-calendar.png)から日付を選択します。
 
      空白のままにすると、ギフトカードアカウントは期限切れになりません。
 
-     ![新規アカウント &#x200B;](./assets/gift-card-account-add-new.png){width="600" zoomable="yes"}
+     ![新規アカウント ](./assets/gift-card-account-add-new.png){width="600" zoomable="yes"}
 
 1. 左側のパネルで、**[!UICONTROL Send Gift Card]**&#x200B;を選択し、次の操作を行います。
 
@@ -137,7 +144,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Send Email from the Following Store View]**&#x200B;を、ギフトカード通知の送信者として表示されるストアビューに設定します。
 
-   ![&#x200B; ギフトカードの送信](./assets/marketing-gift-card-accounts-new-send.png){width="600" zoomable="yes"}
+   ![ ギフトカードの送信](./assets/marketing-gift-card-accounts-new-send.png){width="600" zoomable="yes"}
 
 1. 新しいアカウントを保存するには、次のいずれかの操作を行います。
 
@@ -147,13 +154,13 @@ ht-degree: 0%
 
 ## ギフトカードのアカウント履歴の表示
 
-1. **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**&#x200B;に移動します。
+1. **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**に移動します。
 
 1. ギフトカードを編集モードで開きます。
 
 1. ギフトカードの&#x200B;**[!UICONTROL History]**&#x200B;が表示されます。
 
-   ![&#x200B; ギフトカードの履歴](./assets/gift-card-history.png){width="600" zoomable="yes"}
+   ![ ギフトカードの履歴](./assets/gift-card-history.png){width="600" zoomable="yes"}
 
 | 列 | 説明 |
 |--- |--- |
@@ -168,7 +175,7 @@ ht-degree: 0%
 
 ## ギフトカードアカウントの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**に移動します。
 
 1. 削除するギフトカードアカウントを選択し、編集モードで開きます。
 

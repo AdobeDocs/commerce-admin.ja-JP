@@ -3,16 +3,23 @@ title: 製品属性の概要
 description: 製品属性と、製品の特定の特性を記述するために製品属性がどのように使用されるかについて説明します。
 exl-id: e15770ee-fb71-43f0-8c26-e8029935799a
 feature: Catalog Management, Products
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+TQID: https://experienceleague.adobe.com/reh5hq2WF3rmbKEKZiV8U18hfyLxXeUHHfJcUgWDcJ0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: 547
 ht-degree: 0%
 
 ---
 
 # 製品属性の概要
 
-属性は、商品カタログの構成要素であり、商品の特定の特徴を表します。 製品属性を[属性セット &#x200B;](attribute-sets.md)に整理して、製品を作成するためのテンプレートとして使用できます。
+属性は、商品カタログの構成要素であり、商品の特定の特徴を表します。 製品属性を[属性セット ](attribute-sets.md)に整理して、製品を作成するためのテンプレートとして使用できます。
 
 属性は、製品オプションに使用される入力コントロールのタイプを決定し、製品ページに追加情報を提供します。 また、階層化されたナビゲーション、製品比較レポート、プロモーションの検索パラメーターや基準としても使用されます。 カタログ内の商品を説明するために必要な数の属性と属性セットを作成できます。 作成できる属性に加えて、価格などのシステム属性はコア Commerce プラットフォームに組み込まれており、変更できません。
 
@@ -34,11 +41,11 @@ ht-degree: 0%
 
 ## バリエーション管理
 
-製品[設定オプション &#x200B;](product-configurations.md)と[設定可能な製品](product-create-configurable.md)を使用して、製品のバリエーションを管理します。 これらの機能により、商品の分類、カート価格ルールと動的カテゴリルールの作成、様々なテキスト、選択、日付入力タイプを持つオプションの選択の提供が容易になります。
+製品[設定オプション ](product-configurations.md)と[設定可能な製品](product-create-configurable.md)を使用して、製品のバリエーションを管理します。 これらの機能により、商品の分類、カート価格ルールと動的カテゴリルールの作成、様々なテキスト、選択、日付入力タイプを持つオプションの選択の提供が容易になります。
 
 ## 重み付け検索
 
-[&#x200B; カタログ検索](search.md)に対して有効になっている製品属性に重みを割り当てると、検索結果でより高い値を与えることができます。 重みが大きい属性は、重みが小さい属性よりも前に返されます。 例えば、検索の重みが3の&#x200B;_color_&#x200B;と検索の重みが1の&#x200B;_description_&#x200B;という、システム内の2つの属性を考えてみましょう。 _red_&#x200B;という単語を検索すると、カラー属性値が`red`の商品のリストが返されますが、_red_&#x200B;という単語を含む説明を含む商品は返されません。 この例では、`color`属性の重みが`description`属性よりも大きく定義されています。
+[ カタログ検索](search.md)に対して有効になっている製品属性に重みを割り当てると、検索結果でより高い値を与えることができます。 重みが大きい属性は、重みが小さい属性よりも前に返されます。 例えば、検索の重みが3の&#x200B;_color_&#x200B;と検索の重みが1の&#x200B;_description_&#x200B;という、システム内の2つの属性を考えてみましょう。 _red_&#x200B;という単語を検索すると、カラー属性値が`red`の商品のリストが返されますが、_red_&#x200B;という単語を含む説明を含む商品は返されません。 この例では、`color`属性の重みが`description`属性よりも大きく定義されています。
 
 ## 未使用のプロパティ
 
@@ -47,4 +54,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->パフォーマンス用の製品属性設定の最適化について詳しくは、[実装プレイブック &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes)の&#x200B;_カタログ管理のベストプラクティス_&#x200B;を参照してください。
+>パフォーマンス用の製品属性設定の最適化について詳しくは、_実装プレイブック_&#x200B;の[ カタログ管理のベストプラクティス ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes)を参照してください。

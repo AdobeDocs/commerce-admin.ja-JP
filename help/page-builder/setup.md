@@ -1,97 +1,102 @@
 ---
-title: '[!DNL Page Builder] 設定'
-description: Adobe Commerce [!DNL Page Builder]  よびMagento Open Sourceの管理での機能設定について説明します。
+title: '[!DNL Page Builder]設定'
+description: Adobe CommerceおよびMagento Open Sourceの管理画面で [!DNL Page Builder] 機能の設定について説明します。
 exl-id: 48396045-0fef-4f4f-8138-e6d969560e42
 feature: Page Builder, Configuration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/qXSCIQN-Tpo-n2CTrXy2xzDssA6xQfuWGAVxuRgI-5o
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: 403
 ht-degree: 0%
 
 ---
 
-# [!DNL Page Builder] 設定
+# [!DNL Page Builder]設定
 
-設定で有効にした場合、[!DNL Page Builder] れはCMSページ、ブロック、動的ブロック用のデフォルトのコンテンツ作成ツールになります。 さらに、「_[!UICONTROL Enable Advanced CMS]_」ボタンを使用すると、カテゴリと製品のオプションとして [!DNL Page Builder] を使用できます。 また、商品、カテゴリ、CMSの各ページで使用するデフォルトの [&#x200B; ページレイアウト &#x200B;](../content-design/page-layout.md) を選択することもできます。 WYSIWYG [!DNL Page Builder]editor[&#x200B; を使用するニュースレターコンテンツには、](../content-design/editor.md) れは使用できません。
-
->[!NOTE]
->
->インストール時に、[!DNL Page Builder] は [!UICONTROL Mask for Meta Description] 設定フィールドのデフォルト設定を上書きします。 値が `{{name}} {{description}}` から `{{name}}` に変更されます。
-><br>
->この設定にアクセスするには、[!UICONTROL Stores] / _[!UICONTROL Settings]_/ [!UICONTROL Configuration] に移動し、[!UICONTROL Catalog] を展開して、その下にある [!UICONTROL Catalog] を選択します。 [!UICONTROL Mask for Meta Description] フィールドは [!UICONTROL Product Fields Auto-generation] セクションにあります。
+設定で有効になっている場合、[!DNL Page Builder]は、CMS Pages、Blocks、およびDynamic Blocksのデフォルトのコンテンツ作成ツールです。 さらに、_[!UICONTROL Enable Advanced CMS]_ボタンは、カテゴリと製品のオプションとして[!DNL Page Builder]を提供します。 商品、カテゴリ、CMS ページに使用するデフォルトの[ ページレイアウト ](../content-design/page-layout.md)を選択することもできます。 WYSIWYG [editor](../content-design/editor.md)を使用するニュースレターコンテンツには[!DNL Page Builder]を使用できません。
 
 >[!NOTE]
 >
->管理者ユーザーが [!UICONTROL Content] のボタンを表示し、ページビルダーを使用するには、[&#x200B; 役割の範囲 &#x200B;](../systems/permissions-user-roles.md) に対する [!UICONTROL Edit with Page Builder] 権限が必要です。
+>インストールすると、[!DNL Page Builder]は[!UICONTROL Mask for Meta Description]設定フィールドのデフォルト設定を上書きします。値が`{{name}} {{description}}`から`{{name}}`に変更されました。
+><br>>この設定にアクセスするには、[!UICONTROL Stores] > _[!UICONTROL Settings]_> [!UICONTROL Configuration]に移動し、[!UICONTROL Catalog]を展開し、下に[!UICONTROL Catalog]を選択します。[!UICONTROL Mask for Meta Description] フィールドは[!UICONTROL Product Fields Auto-generation] セクションにあります。
 
-コンテンツ管理の詳細ツールの設定オプションについて詳しくは、[_設定リファレンスガイド_](../configuration-reference/general/content-management.md) を参照してください。
+>[!NOTE]
+>
+>[!UICONTROL Edit with Page Builder] ボタンを表示し、ページビルダーを使用するには、管理者ユーザーが[役割スコープ ](../systems/permissions-user-roles.md)に対して[!UICONTROL Content]権限を持っている必要があります。
 
-## [!DNL Page Builder] の設定
+コンテンツ管理の詳細ツール設定オプションについて詳しくは、[_設定リファレンスガイド_](../configuration-reference/general/content-management.md)&#x200B;を参照してください。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+## [!DNL Page Builder]の設定
 
-1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** を展開し、**[!UICONTROL Enable Page Builder]** が `Yes` に設定されていることを確認します。
+1. _[!UICONTROL General]_の下の左側のパネルで、**[!UICONTROL Content Management]**を選択します。
 
-   ![&#x200B; 高度なコンテンツツール &#x200B;](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
+1. ![拡張セレクター](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;を展開し、**[!UICONTROL Enable Page Builder]**&#x200B;が`Yes`に設定されていることを確認します。
 
-1. [!DNL Google Maps] をセットアップする準備ができている場合は、次の操作を行います。
+   ![高度なコンテンツ ツール ](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
-   - 必要に応じて、[API キーの取得 &#x200B;](https://developers.google.com/maps/documentation/javascript/get-api-key) の手順に従い、**[!UICONTROL Google Maps API Key]** をコピー&amp;ペーストします。
+1. [!DNL Google Maps]を設定する準備ができたら、次の操作を行います。
 
-   - **[!UICONTROL Google Maps Style]** を変更するには、[[!DNL Google Maps] API スタイル設定ウィザード &#x200B;](https://mapstyle.withgoogle.com/) で生成された JSON コードを貼り付けます。
+   - 必要に応じて、[API キーを取得](https://developers.google.com/maps/documentation/javascript/get-api-key)の手順に従い、**[!UICONTROL Google Maps API Key]**&#x200B;をコピー&amp;ペーストします。
+
+   - **[!UICONTROL Google Maps Style]**&#x200B;を変更するには、[[!DNL Google Maps] API スタイル ウィザード ](https://mapstyle.withgoogle.com/)によって生成されたJSON コードを貼り付けます。
 
    >[!NOTE]
    >
-   >[&#x200B; コンテンツでの &#x200B;](map.md) の使用について詳しくは、[!DNL Google Maps] メディア – マップ [!DNL Page Builder] を参照してください。
+   >[!DNL Page Builder] コンテンツで[!DNL Google Maps]を使用する方法について詳しくは、[ メディア – マップ ](map.md)を参照してください。
 
-1. [!DNL Page Builder] 列グリッドのガイドラインの数を設定するには、次の手順を実行します。
+1. [!DNL Page Builder]列グリッドのガイドラインの数を設定するには、次の操作を行います。
 
-   - **[!UICONTROL Default Column Grid Size]**：グリッドに表示するデフォルトの列数を入力します。
+   - **[!UICONTROL Default Column Grid Size]**&#x200B;に、グリッドに表示する列のデフォルト数を入力します。
 
-   - **[!UICONTROL Maximum Column Grid Size]**：グリッドで使用可能にする列の最大数を入力します。
+   - **[!UICONTROL Maximum Column Grid Size]**&#x200B;に、グリッドで使用できる最大列数を入力します。
 
    >[!NOTE]
    >
-   >[&#x200B; コンテンツを操作する際に列グリッドを使用する方法について詳しくは、](column.md) レイアウト – 列 [!DNL Page Builder] を参照してください。
+   >[!DNL Page Builder] コンテンツを操作する際に列グリッドを使用する方法について詳しくは、[ レイアウト – 列](column.md)を参照してください。
 
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-## デフォルトのレイアウトを設定
+## デフォルトレイアウトの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Web]**」を選択します。
+1. _[!UICONTROL General]_の下の左側のパネルで、**[!UICONTROL Web]**を選択します。
 
-1. ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) を展開し **[!UICONTROL Default Layouts]** 以下を実行します。
+1. ![拡張セレクター](../assets/icon-display-expand.png) **[!UICONTROL Default Layouts]**&#x200B;を展開し、次の操作を行います。
 
-   ![&#x200B; デフォルトのレイアウト &#x200B;](../configuration-reference/general/assets/web-default-layouts.png){width="600" zoomable="yes"}
+   ![ デフォルトレイアウト ](../configuration-reference/general/assets/web-default-layouts.png){width="600" zoomable="yes"}
 
-   Web 設定オプションについて詳しくは、[_設定リファレンスガイド_](../configuration-reference/general/web.md#default-layouts) を参照してください。
+   Web設定オプションについて詳しくは、[_設定リファレンスガイド_](../configuration-reference/general/web.md#default-layouts)&#x200B;を参照してください。
 
-   - 製品ページに使用する **[!UICONTROL Default Product Layout]** を選択します。
+   - 製品ページに使用する&#x200B;**[!UICONTROL Default Product Layout]**&#x200B;を選択します。
 
-   - カテゴリページに使用する **[!UICONTROL Default Category Layout]** を選択します。
+   - カテゴリーページに使用する&#x200B;**[!UICONTROL Default Category Layout]**&#x200B;を選択します。
 
-   - CMS ページに使用する **[!UICONTROL Default Page Layout]** を選択します。
+   - CMS ページに使用する&#x200B;**[!UICONTROL Default Page Layout]**&#x200B;を選択します。
 
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-## Disable [!DNL Page Builder]
+## [!DNL Page Builder]を無効にする
 
 >[!NOTE]
 >
->[!DNL Page Builder] を無効にすると、「詳細コンテンツツール」がWYSIWYG [editor](../content-design/editor.md) に置き換わり、ストアフロントに表示エラーが発生する可能性があります。 以前に [!DNL Page Builder] で作成したコンテンツは、管理者からは編集できない場合があります。
+>[!DNL Page Builder]を無効にすると、高度なコンテンツツールがWYSIWYG [editor](../content-design/editor.md)に置き換わり、ストアフロントで表示エラーが発生する可能性があります。 以前[!DNL Page Builder]で作成したコンテンツは、管理者から編集できない可能性があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. _[!UICONTROL General]_&#x200B;の下の左パネルで、「**[!UICONTROL Content Management]**」を選択します。
+1. _[!UICONTROL General]_の下の左側のパネルで、**[!UICONTROL Content Management]**を選択します。
 
-1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** を展開し、「**[!UICONTROL Enable Page Builder]**」を `No` に設定します。
+1. ![拡張セレクター](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;を展開し、**[!UICONTROL Enable Page Builder]**&#x200B;を`No`に設定します。
 
-1. 確認を求めるメッセージが表示されたら、「**[!UICONTROL Turn Off]**」をクリックします。
+1. 確認を求められたら、**[!UICONTROL Turn Off]**&#x200B;をクリックします。
 
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-1. プロンプトが表示されたら、無効なキャッシュを [&#x200B; 更新 &#x200B;](../systems/cache-management.md) します。
+1. プロンプトが表示されたら、[更新](../systems/cache-management.md)して無効なキャッシュを削除します。

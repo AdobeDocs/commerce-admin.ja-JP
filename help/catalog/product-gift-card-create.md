@@ -3,9 +3,15 @@ title: ギフトカード商品
 description: チェックアウト時に受信者のお客様が利用できる一意のコードを生成するギフトカード製品を作成する方法について説明します。
 exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 feature: Catalog Management, Products, Gift
-source-git-commit: e72977596c4479d2e94b1e066ee166d22cb12405
+TQID: https://experienceleague.adobe.com/NXGOm4ZRIEPM02IPR8yJ7Ai9s1G6IPOKh2ER8f4kJNY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: 966
 ht-degree: 0%
 
 ---
@@ -14,9 +20,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-各ギフトカードには一意のコードがあり、チェックアウト時に1人のお客様のみが利用できます。 ギフトカードを販売するには、[&#x200B; コードプール &#x200B;](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool)を設定する必要があります。 ショッピングカートでのギフトカードの利用方法について詳しくは、[&#x200B; ギフトカードワークフロー](../stores-purchase/product-gift-card-workflow.md)を参照してください。
+各ギフトカードには一意のコードがあり、チェックアウト時に1人のお客様のみが利用できます。 ギフトカードを販売するには、[ コードプール ](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool)を設定する必要があります。 ショッピングカートでのギフトカードの利用方法について詳しくは、[ ギフトカードワークフロー](../stores-purchase/product-gift-card-workflow.md)を参照してください。
 
-![&#x200B; ギフトカード商品ページ &#x200B;](./assets/storefront-giftcard-product-page.png){width="700" zoomable="yes"}
+![ ギフトカード商品ページ ](./assets/storefront-giftcard-product-page.png){width="700" zoomable="yes"}
 
 ギフトカード商品には3種類あります。
 
@@ -28,15 +34,15 @@ ht-degree: 0%
 
 ## ギフトカード商品の作成
 
-次の手順では、[製品テンプレート &#x200B;](attribute-sets.md)、必須フィールド、および基本設定を使用してギフトカードを作成するプロセスを説明します。 各必須フィールドには、赤いアスタリスク （`*`）が付いています。 基本的な設定が完了したら、必要に応じて他の製品設定を完了できます。
+次の手順では、[製品テンプレート ](attribute-sets.md)、必須フィールド、および基本設定を使用してギフトカードを作成するプロセスを説明します。 各必須フィールドには、赤いアスタリスク （`*`）が付いています。 基本的な設定が完了したら、必要に応じて他の製品設定を完了できます。
 
 ### 手順1：商品タイプの選択
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]** > **[!UICONTROL Products]**&#x200B;に移動します。
 
-1. _[!UICONTROL Add Product]_（![&#x200B; メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューの右上隅にある「**[!UICONTROL Gift Card]**」を選択します。
+1. _[!UICONTROL Add Product]_（![ メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューの右上隅にある「**[!UICONTROL Gift Card]**」を選択します。
 
-   ![&#x200B; ギフトカードを追加](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
+   ![ ギフトカードを追加](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
 
 ### 手順2：属性セットの選択
 
@@ -64,7 +70,7 @@ ht-degree: 0%
    - `Physical` – 物理的なギフトカードは、事前に大量生産し、独自のコードでエンボス加工することができます。
    - `Combined` – 組み合わせたギフトカードには、仮想ギフトカードと物理的なギフトカードの両方の特徴があります。
 
-   ![&#x200B; ギフトカードの種類](./assets/product-create-gift-card-type.png){width="600" zoomable="yes"}
+   ![ ギフトカードの種類](./assets/product-create-gift-card-type.png){width="600" zoomable="yes"}
 
 1. お客様に固定金額の選択肢を提供するには、**[!UICONTROL Add Amount]**&#x200B;をクリックし、カードの最初の固定値を10進数として入力します。
 
@@ -82,7 +88,7 @@ ht-degree: 0%
    >
    >ギフトカード商品は、カタログに独自の価格はありません。 ギフトカードの価格は、購入時に選択したギフトカードの金額から算出されます。
 
-   ![&#x200B; ギフトカード金額](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
+   ![ ギフトカード金額](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
 ### 手順4：基本設定を完了する
 
@@ -96,13 +102,13 @@ ht-degree: 0%
 
 ### ステップ 5：ギフトカード情報を完了する
 
-製品設定の&#x200B;_[!UICONTROL Gift Card Information]_&#x200B;セクションを使用して、カードの管理方法を決定する[&#x200B; ギフトカード設定](../configuration-reference/sales/gift-cards.md)設定を上書きできます。
+製品設定の&#x200B;_[!UICONTROL Gift Card Information]_セクションを使用して、カードの管理方法を決定する[ ギフトカード設定](../configuration-reference/sales/gift-cards.md)設定を上書きできます。
 
-1. _[!UICONTROL Gift Card Information]_&#x200B;セクションまでスクロールします。
+1. _[!UICONTROL Gift Card Information]_セクションまでスクロールします。
 
    このセクションのデフォルト設定は、システム設定によって決まります。
 
-   ![&#x200B; ギフトカード情報](./assets/product-gift-card-information.png){width="600" zoomable="yes"}
+   ![ ギフトカード情報](./assets/product-gift-card-information.png){width="600" zoomable="yes"}
 
 1. ギフトカードを機能させる方法に応じて、追加のフィールドを変更します。
 
@@ -137,13 +143,13 @@ ht-degree: 0%
 
    - 右上隅の「**[!UICONTROL Save]**」をクリックします。
 
-   - ストア内の商品を表示するには、_管理者_ （![&#x200B; メニュー矢印](../assets/icon-menu-down-arrow-black.png)）メニューで&#x200B;**[!UICONTROL Customer View]**&#x200B;を選択します。
+   - ストア内の商品を表示するには、_管理者_ （![ メニュー矢印](../assets/icon-menu-down-arrow-black.png)）メニューで&#x200B;**[!UICONTROL Customer View]**&#x200B;を選択します。
 
    ![顧客ビュー](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
    **方法2:**&#x200B;保存して閉じる
 
-   _[!UICONTROL Save]_（![&#x200B; メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューで、**[!UICONTROL Save & Close]**&#x200B;を選択します。
+   _[!UICONTROL Save]_（![ メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューで、**[!UICONTROL Save & Close]**を選択します。
 
 ## 覚えておくべきこと
 

@@ -1,32 +1,38 @@
 ---
-title: 在庫メッセージシナリオ
-description: 製品ページの在庫状況メッセージと、カタログページの製品リストを制御する設定の組み合わせについて説明します。
+title: ストックメッセージのシナリオ
+description: 商品ページの在庫状況メッセージと、カタログページの商品リストの在庫状況メッセージを制御する設定の組み合わせについて説明します。
 exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/9kPHtr75C7PkM9vD-2-AeG8JnAfKAao0GKEH9MhkBbU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: 353
 ht-degree: 1%
 
 ---
 
-# 在庫メッセージシナリオ
+# ストックメッセージのシナリオ
 
-設定を組み合わせて、製品ページおよびカタログページの製品リストで在庫状況メッセージを制御できます。
+構成設定を組み合わせて使用すると、商品ページおよびカタログページの商品リストの在庫状況メッセージを制御できます。
 
-![&#x200B; 「在庫切れ」のメッセージを含むグループ化された製品 &#x200B;](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
+![商品をグループ化し、「在庫切れ」メッセージを表示](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 
 ## 製品ページのストックメッセージ
 
-製品ページで使用できるメッセージには、「在庫を管理」設定と「在庫の可用性」設定の組み合わせに応じて、いくつかのバリエーションがあります。
+在庫の管理設定と在庫状況の設定の組み合わせに応じて、商品ページで利用できるメッセージにはいくつかのバリエーションがあります。
 
-### 例 1：可用性メッセージを表示する
+### 例1：可用性メッセージの表示
 
 #### シナリオ 1
 
-この設定の組み合わせにより、各製品の在庫の利用可能状況に応じて、製品ページに可用性メッセージが表示されます。
+この設定の組み合わせにより、各製品の在庫状況に応じて、在庫状況メッセージが製品ページに表示されます。
 
-| 在庫オプション | 設定 | メッセージ |
+| Stock オプション | 設定 | メッセージ |
 |--|--|--|
 | [!UICONTROL Display product availability in stock in the frontend] | `Yes` | |
 | [!UICONTROL Manage Stock] | `Yes` | |
@@ -35,20 +41,20 @@ ht-degree: 1%
 
 #### シナリオ 2
 
-製品の在庫を管理していない場合、この設定の組み合わせを使用して、製品ページに可用性メッセージを表示できます。
+商品の在庫が管理されていない場合、この設定の組み合わせを使用して、商品ページに在庫状況メッセージを表示できます。
 
-| 在庫オプション | 設定 | メッセージ |
+| Stock オプション | 設定 | メッセージ |
 |--|--|--|
 | [!UICONTROL Display product availability in stock in the frontend] | `Yes` |  |
 | [!UICONTROL Manage Stock] | `No` | _[!UICONTROL Availability: In Stock]_ |
 
-### 例 2：可用性メッセージを非表示にする
+### 例2：可用性メッセージの非表示
 
 #### シナリオ 1
 
-このように構成設定と製品設定を組み合わせることで、可用性メッセージが製品ページに表示されるのを防ぐことができます。
+この設定と製品設定の組み合わせにより、製品ページに可用性メッセージが表示されなくなります。
 
-| 在庫オプション | 設定 | メッセージ |
+| Stock オプション | 設定 | メッセージ |
 |--|--|--|
 | [!UICONTROL Display product availability in stock in the frontend] | `No` |  |
 | [!UICONTROL Manage Stock] | `Yes` |  |
@@ -57,43 +63,43 @@ ht-degree: 1%
 
 #### シナリオ 2
 
-製品の在庫を管理していない場合、この設定と製品設定の組み合わせにより、可用性メッセージが製品ページに表示されなくなります。
+製品の在庫が管理されていない場合、設定と製品設定を組み合わせることで、製品ページに可用性メッセージが表示されなくなります。
 
-| 在庫オプション | 設定 | メッセージ |
+| Stock オプション | 設定 | メッセージ |
 |--|--|--|
 | [!UICONTROL Display product availability in stock in the frontend] | `No` |  |
 | [!UICONTROL Manage Stock] | `No` | なし |
 
 ## カタログページのストックメッセージ
 
-カテゴリおよび検索結果のリストでは、製品の可用性や設定に応じて、次の表示オプションを使用できます。
+製品の可用性と設定に応じて、カテゴリと検索結果リストに対して次の表示オプションを使用できます。
 
-![&#x200B; カテゴリページの在庫切れメッセージ &#x200B;](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
+カテゴリーページの![在庫切れメッセージ ](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
 
-### 例 1:「在庫切れ」というメッセージを使用して製品を表示する
+### 例1:「在庫切れ」のメッセージを表示する
 
-この設定の組み合わせには、カテゴリと検索結果のリストに在庫切れの製品が含まれ、「在庫切れ」というメッセージが表示されます。
+この設定の組み合わせでは、カテゴリおよび検索結果リストに在庫切れ商品が含まれ、「在庫切れ」メッセージが表示されます。
 
-| 在庫オプション | 設定 | メッセージ |
+| Stock オプション | 設定 | メッセージ |
 |--|--|--|
 | [!UICONTROL Display Out of Stock Products] | `Yes` |  |
 | [!UICONTROL Display product availability in stock in the frontend] | `Yes` | _[!UICONTROL Out of stock]_ |
 | [!UICONTROL Display Out of Stock Products] | `Yes` |  |
 | [!UICONTROL Display product availability in stock in the frontend] | `No` | なし |
 
-### 例 2:「在庫切れ」メッセージを使用しない製品の表示
+### 例2:「在庫切れ」メッセージを含まない商品の表示
 
-この設定の組み合わせには、カテゴリリストと検索結果リストの在庫切れ製品が含まれますが、メッセージは表示されません。
+この設定の組み合わせでは、カテゴリおよび検索結果リストに在庫切れの商品が含まれますが、メッセージは表示されません。
 
-| 在庫オプション | 設定 | メッセージ |
+| Stock オプション | 設定 | メッセージ |
 |--|--|--|
 | [!UICONTROL Display Out of Stock Products] | `Yes` | なし |
 | [!UICONTROL Display product availability in stock in the frontend] | `No` |  |
 
-### 例 3：在庫に戻るまで製品を非表示
+### 例3：在庫が戻るまで商品を非表示にする
 
-この設定では、在庫切れの製品が再入荷するまで、カテゴリリストと検索結果リストから完全に除外されます。
+この設定では、在庫が戻るまで、カテゴリと検索結果リストから完全に在庫切れの商品が除外されます。
 
-| 在庫オプション | 設定 | メッセージ |
+| Stock オプション | 設定 | メッセージ |
 |--|--|--|
 | [!UICONTROL Display Out of Stock Products] | `No` | なし |

@@ -1,11 +1,17 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
-description: Commerce Admin の [!UICONTROL Sales] &gt; [!UICONTROL Sales] ページで設定を確認します。
+title: '[!UICONTROL Sales] > [!UICONTROL Sales]'
+description: Commerce管理者の[!UICONTROL Sales] > [!UICONTROL Sales] ページで設定を確認します。
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
+TQID: https://experienceleague.adobe.com/n6xnRBJsLGouJgUcsf3EPhj5B1ny8RK3mV0bRbJIr30
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: 1238
 ht-degree: 1%
 
 ---
@@ -16,152 +22,152 @@ ht-degree: 1%
 
 ## [!UICONTROL General]
 
-![&#x200B; 一般 &#x200B;](./assets/sales-general.png)<!-- zoom -->
+![一般](./assets/sales-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
+<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Hide Customer IP] | ストア表示 | 顧客 IP アドレスが注文、請求書、出荷、およびクレジット メモに表示されるかどうかを決定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Hide Customer IP] | ストアビュー | 顧客のIP アドレスが注文、請求書、出荷、およびクレジットメモに表示されるかどうかを指定します。 オプション：`Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Checkout Totals Sort Order]
 
-![&#x200B; チェックアウト合計の並べ替え順序 &#x200B;](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
+![ チェックアウト合計の並べ替え順序](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
 
-<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
+<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Subtotal] | Web サイト | 他のチェックアウトの合計との関連で小計を計算するタイミングを決定する数値です。 デフォルト値：`10` |
-| [!UICONTROL Discount] | Web サイト | その他のチェックアウト合計に関連して割引を計算するタイミングを決定する数値。 デフォルト値：`20` |
-| [!UICONTROL Shipping] | Web サイト | その他のチェックアウト合計に関して配送を計算するタイミングを決定する数値。 デフォルト値：`30` |
-| [!UICONTROL Tax] | Web サイト | その他のチェックアウト合計に関連して税金を計算するタイミングを決定する数値。 デフォルト値：`40` |
-| [!UICONTROL Fixed Product Tax] | Web サイト | その他のチェックアウト合計に関連して固定製品税を計算するタイミングを決定する数値です。 デフォルト値：`50` |
-| [!UICONTROL Grand Total] | Web サイト | 他のチェックアウトの合計に関連して総計を計算するタイミングを決定する数値です。 デフォルト値：`100` |
+| [!UICONTROL Subtotal] | web サイト | 小計が他のチェックアウト合計に関連して計算されるタイミングを決定する数値。 デフォルト値：`10` |
+| [!UICONTROL Discount] | web サイト | 他のチェックアウト合計に対して割引を計算するタイミングを決定する数値。 デフォルト値：`20` |
+| [!UICONTROL Shipping] | web サイト | 他のチェックアウト合計に関連して出荷が計算されるタイミングを決定する数値。 デフォルト値：`30` |
+| [!UICONTROL Tax] | web サイト | 他のチェックアウト合計に関連して税金が計算されるタイミングを決定する数値。 デフォルト値：`40` |
+| [!UICONTROL Fixed Product Tax] | web サイト | 他のチェックアウト合計に対して固定製品税を計算するタイミングを決定する数値。 デフォルト値：`50` |
+| [!UICONTROL Grand Total] | web サイト | 総計が他のチェックアウト合計に関連して計算されるタイミングを決定する数値。 デフォルト値：`100` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Reorder]
 
-![&#x200B; 並べ替え &#x200B;](./assets/sales-reorder.png)<!-- zoom -->
+![並べ替え](./assets/sales-reorder.png)<!-- zoom -->
 
-<!-- [Reorder](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
+<!-- [Reorder](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Allow Reorder] | ストア表示 | 顧客がアカウントから並べ替えることができるかどうかを決定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Allow Reorder] | ストアビュー | 顧客がアカウントから再注文できるかどうかを決定します。 オプション：`Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Allow Zero Grand Total]
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Allow Zero Grand Total for Credit Memo] | ストア表示 | 総計が 0 のクレジット メモを作成できるかどうかを指定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Allow Zero Grand Total for Credit Memo] | ストアビュー | 総計がゼロのクレジットメモを作成する可能性を決定します。 オプション：`Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Invoice and Packing Slip Design]
 
-![&#x200B; 請求書および梱包明細の設計 &#x200B;](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
+![請求書と梱包伝票のデザイン ](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
 
-<!-- [Invoice and Packing Slip Design](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
+<!-- [Invoice and Packing Slip Design](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Logo for PDF Print-outs] | ストア表示 | PDFの請求書および納品書のヘッダーに表示されるロゴファイルを特定します。 許可されるファイルタイプ : <br/>JPG/JPEG <br/>TIF/TIFF <br/>PNG |
-| [!UICONTROL Logo for HTML Print View] | ストア表示 | 請求書および梱包明細のHTML印刷ビューのヘッダーに表示されるロゴ ファイルを識別します。 許可されるファイルタイプ : <br/>JPG /JPEG <br/>GIF <br/>PNG |
-| [!UICONTROL Address] | ストア表示 | 請求書および梱包明細に表示する店舗の住所。 |
+| [!UICONTROL Logo for PDF Print-outs] | ストアビュー | PDFの請求書と梱包明細の見出しに表示されるロゴファイルを識別します。 使用可能なファイル形式：<br/>JPG/JPEG <br/>TIF/TIFF <br/>PNG |
+| [!UICONTROL Logo for HTML Print View] | ストアビュー | 請求書と梱包明細のHTML印刷ビューのヘッダーに表示されるロゴファイルを識別します。 使用可能なファイル形式：<br/>JPG /JPEG <br/>GIF <br/>PNG |
+| [!UICONTROL Address] | ストアビュー | 請求書および梱包明細に表示する店舗アドレス。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Order Amount]
 
-![&#x200B; 最小注文金額 &#x200B;](./assets/sales-minimum-order-amount.png)<!-- zoom -->
+![最低注文金額](./assets/sales-minimum-order-amount.png)<!-- zoom -->
 
-<!-- [Minimum Order Amount](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
+<!-- [Minimum Order Amount](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable] | Web サイト | サイトに対して最小注文金額が設定されているかどうかを判断します。 オプション：`Yes` / `No` |
-| [!UICONTROL Minimum Amount] | Web サイト | 割引が適用された後の小計の最小値と注文を指定します。 |
-| [!UICONTROL Include Discount Amount] | Web サイト | 最小注文金額に適用済みの割引が含まれるかどうかを決定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Include Tax to Amount] | Web サイト | 最小注文金額に税が含まれるかどうかを決定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Description Message] | ストア表示 | 買い物かごの合計が最小注文金額を下回っている場合に、買い物かごの上部に表示されるメッセージを決定します。 空白のままにすると、次のデフォルトのメッセージが表示されます。`Minimum order amount is $[minimum_amount]` |
-| [!UICONTROL Error to Show in Shopping Cart] | ストア表示 | 注文金額が必要な最小注文金額を下回っている場合に、ミニ カートまたはチェックアウト リンクから表示されるメッセージを決定します。 空白の場合は、デフォルトのメッセージが表示されます。 |
-| [!UICONTROL Validate Each Address Separately in Multi-address Checkout] | Web サイト | 複数品目の注文の場合、別々の住所に移動する注文品目が最小注文額を大幅に満たしているかどうかを決定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Multi-address Description Message] | ストア表示 | 複数アドレスからの注文の場合、あるアドレスに送信された商品が最小注文金額に満たない場合に、買い物かごに表示されるメッセージを決定します。 |
-| [!UICONTROL Multi-address Error to Show in Shopping Cart] | ストア表示 | 複数アドレスの注文の場合、は、注文金額が必要な最小注文金額よりも少ない場合に、ミニ買い物かごまたはチェックアウトリンクから表示されるメッセージを決定します。 空白の場合は、デフォルトのメッセージが表示されます。 |
+| [!UICONTROL Enable] | web サイト | サイトに最低注文金額が設定されているかどうかを判断します。 オプション：`Yes` / `No` |
+| [!UICONTROL Minimum Amount] | web サイト | 割引が適用された後の注文の最小小計を指定します。 |
+| [!UICONTROL Include Discount Amount] | web サイト | 最低注文金額に適用された割引が含まれているかどうかを判断します。 オプション：`Yes` / `No` |
+| [!UICONTROL Include Tax to Amount] | web サイト | 最低注文金額に税金が含まれているかどうかを判断します。 オプション：`Yes` / `No` |
+| [!UICONTROL Description Message] | ストアビュー | 買い物かごの合計が最低注文金額を下回ったときに、買い物かごの上部に表示されるメッセージを指定します。 空白のままにすると、次のデフォルトメッセージが表示されます：`Minimum order amount is $[minimum_amount]` |
+| [!UICONTROL Error to Show in Shopping Cart] | ストアビュー | 注文金額が必要な最低注文金額を下回った場合に、ミニカートまたはチェックアウトリンクから表示されるメッセージを決定します。 空白のままにすると、デフォルトのメッセージが表示されます。 |
+| [!UICONTROL Validate Each Address Separately in Multi-address Checkout] | web サイト | 複数品目の注文の場合、別の住所に配置される注文品目が最低注文金額を大幅に満たすかどうかを判断します。 オプション：`Yes` / `No` |
+| [!UICONTROL Multi-address Description Message] | ストアビュー | 複数アドレスの注文の場合、住所に送信されるアイテムが最低注文金額を下回っている場合に、ショッピングカートに表示されるメッセージを決定します。 |
+| [!UICONTROL Multi-address Error to Show in Shopping Cart] | ストアビュー | 複数アドレスの注文の場合、注文金額が必要な最低注文金額を下回った場合に、ミニカートまたはチェックアウトリンクから表示されるメッセージを決定します。 空白のままにすると、デフォルトのメッセージが表示されます。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Dashboard]
 
-![&#x200B; ダッシュボード &#x200B;](./assets/sales-dashboard.png)<!-- zoom -->
+![ ダッシュボード ](./assets/sales-dashboard.png)<!-- zoom -->
 
-<!-- [Dashboard](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
+<!-- [Dashboard](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Use Aggregated Data] | グローバル | リアルタイムで集計された売上データを使用してダッシュボードのスナップショット レポートを作成するかどうかを決定します。 処理するデータが大量にある場合は、リアルタイムデータの表示をオフにすることでパフォーマンスを向上させることができます。 オプション：`Yes` / `No` |
+| [!UICONTROL Use Aggregated Data] | グローバル | リアルタイムの集約された売上データを使用して、ダッシュボードのスナップショットレポートを作成するかどうかを決定します。 処理するデータ量が多い場合は、リアルタイムデータの表示をオフにすることで、パフォーマンスを向上させることができます。 オプション：`Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Orders Cron Settings]
 
-![&#x200B; 注文 Cron 設定 &#x200B;](./assets/sales-orders-cron-settings.png)<!-- zoom -->
+![Cron設定を注文](./assets/sales-orders-cron-settings.png)<!-- zoom -->
 
-<!-- [Orders Cron Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/tools/cron) -->
+<!-- [Orders Cron Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cron) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Pending Payment Order Lifetime] | Web サイト | 保留中の注文の有効期限を分単位で決定します。 デフォルト設定：`480` 分（8 時間） |
+| [!UICONTROL Pending Payment Order Lifetime] | web サイト | 保留中の注文の有効期間を分単位で決定します。 既定の設定：`480`分（8時間） |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Promotions]
 
-[!BADGE SaaS のみ &#x200B;]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクトにのみ適用されます（Adobeで管理される SaaS インフラストラクチャ）。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
 
-![&#x200B; プロモーションの設定 &#x200B;](./assets/sales-promotions-settings.png)<!-- zoom -->
+![ プロモーション設定](./assets/sales-promotions-settings.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Apply Catalog Price Rule on Grouped Price] | グローバル | 階層価格の数量が [&#x200B; に設定されている場合に &#x200B;](../../catalog/product-price-tier.md) カタログ価格ルールの階層価格を `1` 有効にします。  オプション：`Yes` / `No` |
+| [!UICONTROL Apply Catalog Price Rule on Grouped Price] | グローバル | 階層価格の数量が`1`に設定されている場合、カタログ価格ルール ](../../catalog/product-price-tier.md)の[階層価格を有効にします。  オプション：`Yes` / `No` |
 
 ## [!UICONTROL Gift Options]
 
-![&#x200B; ギフト オプション &#x200B;](./assets/sales-gift-options.png)<!-- zoom -->
+![ ギフトオプション ](./assets/sales-gift-options.png)<!-- zoom -->
 
-<!-- [Gift Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#gift-options) -->
+<!-- [Gift Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#gift-options) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Allow Gift Messages on Order Level] | Web サイト | 注文全体に対してギフト メッセージを追加できるかどうかを指定します。 |
-| [!UICONTROL Allow Gift Messages on Order Items] | Web サイト | 個別の注文品目に対してギフト メッセージを追加できるかどうかを指定します。 |
-| [!UICONTROL Allow Gift Wrapping on Order Level] | Web サイト | ![Adobe Commerce](../../assets/adobe-logo.svg) （Adobe Commerceのみ）注文全体に対してギフト包装を追加できるかどうかを指定します。 |
-| [!UICONTROL Allow Gift Wrapping for Order Items] | Web サイト | ![Adobe Commerce](../../assets/adobe-logo.svg) （Adobe Commerceのみ）個々の注文項目に対してギフト包装を追加できるかどうかを指定します。 |
-| [!UICONTROL Allow Gift Receipt] | Web サイト | ![Adobe Commerce](../../assets/adobe-logo.svg) （Adobe Commerceのみ）注文に対してギフト受領書を追加できるかどうかを指定します。 |
-| [!UICONTROL Allow Printed Card] | Web サイト | ![Adobe Commerce](../../assets/adobe-logo.svg) （Adobe Commerceのみ）印刷されたカードを注文に追加できるかどうかを指定します。 |
-| [!UICONTROL Default Price for Printed Card] | Web サイト | ![Adobe Commerce](../../assets/adobe-logo.svg) （Adobe Commerceのみ）印刷されるカードのデフォルトの価格を指定します。 |
+| [!UICONTROL Allow Gift Messages on Order Level] | web サイト | 注文全体にギフトメッセージを追加できるかどうかを指定します。 |
+| [!UICONTROL Allow Gift Messages on Order Items] | web サイト | 個々の注文項目にギフトメッセージを追加できるかどうかを指定します。 |
+| [!UICONTROL Allow Gift Wrapping on Order Level] | web サイト | ![Adobe Commerce](../../assets/adobe-logo.svg) （Adobe Commerceのみ）注文全体にギフトラッピングを追加できるかどうかを指定します。 |
+| [!UICONTROL Allow Gift Wrapping for Order Items] | web サイト | ![Adobe Commerce](../../assets/adobe-logo.svg) （Adobe Commerceのみ）個々の注文項目にギフト包装を追加できるかどうかを指定します。 |
+| [!UICONTROL Allow Gift Receipt] | web サイト | ![Adobe Commerce](../../assets/adobe-logo.svg) （Adobe Commerceのみ）注文にギフト領収書を追加できるかどうかを指定します。 |
+| [!UICONTROL Allow Printed Card] | web サイト | ![Adobe Commerce](../../assets/adobe-logo.svg) （Adobe Commerceのみ）印刷されたカードを注文に追加できるかどうかを指定します。 |
+| [!UICONTROL Default Price for Printed Card] | web サイト | ![Adobe Commerce](../../assets/adobe-logo.svg) （Adobe Commerceのみ）印刷されたカードのデフォルト価格を指定します。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Advertised Price]
 
-![&#x200B; 最低広告価格 &#x200B;](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
+![広告の最低価格](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
 
-<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
+<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable MAP] | Web サイト | ストアの最小広告価格を有効化します。 オプション：`Yes` / `No` |
-| [!UICONTROL Display Actual Price] | Web サイト | 製品の実際の価格が顧客に表示される場所を決定します。 オプション：<br/>**`In Cart`**- ショッピングカートの実際の製品価格を表示します。<br/>**`Before Order Confirmation`** – 注文が確認される直前の、チェックアウトプロセスの最後に実際の製品価格を表示します。 <br/>**`On Gesture`**– 「価格を表示」または「これについて」をクリックすると、実際の製品価格がポップアップに表示されます。 リンク。 |
-| [!UICONTROL Default Popup Text Message] | ストア表示 | 顧客がカテゴリリストまたは製品表示ページから「クリックして価格を選択」リンクを選択すると表示されるテキストメッセージ。 |
-| [!UICONTROL Default "What's This" Text Message] | ストア表示 | 顧客が「これはなんですか？」をクリックすると表示されるテキストメッセージ 製品表示ページからのリンク。 |
-| [!UICONTROL Manufacturer's Suggested Retail Price] | グローバル | 製造元（MSRP）によって提示された小売価格。 |
+| [!UICONTROL Enable MAP] | web サイト | ストアの最低広告価格を有効にします。 オプション：`Yes` / `No` |
+| [!UICONTROL Display Actual Price] | web サイト | 商品の実際の価格を顧客に表示する場所を指定します。 オプション：<br/>**`In Cart`**- ショッピングカートに実際の商品価格を表示します。<br/>**`Before Order Confirmation`** – 注文が確認される直前に、チェックアウトプロセスの最後に実際の商品価格を表示します。<br/>**`On Gesture`**– 顧客が「価格をクリック」または「これは何ですか？」をクリックすると、実際の製品価格がポップアップに表示されます。 リンク： |
+| [!UICONTROL Default Popup Text Message] | ストアビュー | 顧客がカテゴリ リストまたは製品ビューページから「価格をクリック」リンクを選択したときに表示されるテキスト メッセージ。 |
+| [!UICONTROL Default "What's This" Text Message] | ストアビュー | 顧客が「What&#39;s This?」をクリックすると表示されるテキストメッセージ 製品ビューページからのリンク。 |
+| [!UICONTROL Manufacturer's Suggested Retail Price] | グローバル | メーカー（MSRP）が提案した小売価格。 |
 
 {style="table-layout:auto"}
 
@@ -169,11 +175,11 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![&#x200B; 多角形の設定 &#x200B;](./assets/sales-multicoupon-settings.png)<!-- zoom -->
+![ マルチクーポン設定](./assets/sales-multicoupon-settings.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Maximum number of coupons per order] | Web サイト | 注文ごとに許可されるクーポンの最大数を決定します。 この機能は、管理者、GraphQLおよび REST API でのみ使用できます。 また、Storefront では **_使用できません_**。 |
+| [!UICONTROL Maximum number of coupons per order] | web サイト | 注文ごとに許可されるクーポンの最大数を指定します。 この機能は、Admin、GraphQLおよびREST APIでのみ使用できます。 そして、ストアフロントでは&#x200B;**_利用できません_**。 |
 
 {style="table-layout:auto"}
 
@@ -181,42 +187,42 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![SKU 設定で並べ替え &#x200B;](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
+![SKU設定による注文](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
-<!-- [Order by SKU Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
+<!-- [Order by SKU Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
 
-![&#x200B; 顧客グループの SKU 設定による注文 &#x200B;](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
+![顧客グループのSKU設定による注文](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable Order by SKU on My Account in Storefront] | Web サイト | Order by SKU が顧客アカウントダッシュボードで使用できるかどうかを決定します。 オプション：<br/>**`Yes, for Everyone`**- 「SKU で注文」タブは、すべての顧客のアカウントダッシュボードに表示されます。<br/>**`Yes, for Specified Customer Groups`** – 指定したグループまたは共有カタログのメンバーに対して、アカウントダッシュボードに「SKU で並べ替え」タブが表示されます。 <br/>**`No`**– 「SKU で注文」タブは、お客様のアカウントでは使用できません。 |
-| [!UICONTROL Customer Groups] | Web サイト | 顧客グループを決定します。 オプション：`General`/`Retailer`/`Wholesale` |
+| [!UICONTROL Enable Order by SKU on My Account in Storefront] | web サイト | 注文別SKUが顧客アカウントダッシュボードで使用可能かどうかを指定します。 オプション：<br/>**`Yes, for Everyone`**- 「SKUで注文」タブは、すべての顧客のアカウントダッシュボードに表示されます。<br/>**`Yes, for Specified Customer Groups`** - 「SKUで注文」タブは、指定したグループまたは共有カタログのメンバーのアカウントダッシュボードに表示されます。<br/>**`No`**- 「SKUで注文」タブは、お客様アカウントでは使用できません。 |
+| [!UICONTROL Customer Groups] | web サイト | 顧客グループの決定： オプション：`General` / `Retailer` / `Wholesale` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Instant Purchase]
 
-![&#x200B; 即時購入 &#x200B;](./assets/sales-instant-purchase.png)<!-- zoom -->
+![即時購入](./assets/sales-instant-purchase.png)<!-- zoom -->
 
-<!-- [Instant Purchase](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
+<!-- [Instant Purchase](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | ストア表示 | Braintreeなどの支払い方法で Vault が有効になっている場合に、店舗ビューの即時購入を有効にします。 オプション：`Yes` / `No` |
-| [!UICONTROL Button Text] | ストア表示 | [ インスタント購入 ] ボタンに表示するテキストを指定します。 デフォルトのテキストは `Instant Purchase` です。 |
+| [!UICONTROL Enabled] | ストアビュー | Braintreeなどの支払い方法でVaultが有効になっている場合は、ストアビューで即時購入を有効にします。 オプション：`Yes` / `No` |
+| [!UICONTROL Button Text] | ストアビュー | インスタント購入ボタンに表示されるテキストを指定します。 既定のテキストは`Instant Purchase`です。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Rate Limiting]
 
-![&#x200B; レート制限 &#x200B;](assets/sales-rate-limiting.png)<!-- zoom -->
+![ レート制限](assets/sales-rate-limiting.png)<!-- zoom -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--------------------------------------------------------|--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Enable rate limiting for placing orders] | ストア表示 | 店舗表示から注文を行う際にレート制限を使用するかどうかを決定します（デフォルトは `No`）。 オプション：`Yes`/`No`。 |
-| [!UICONTROL Requests limit per authenticated customer] | ストア表示 | 認証済みの顧客が期間中に行うことができる購入リクエストの数。 デフォルトの制限は `10` です。 |
-| [!UICONTROL Requests limit per guest] | ストア表示 | 認証されていない顧客が指定された期間中に行うことができる購入リクエストの数。 デフォルト値は `50` です。 |
-| [!UICONTROL Counter resets in a ...] | ストア表示 | 認証済みまたは未認証の顧客が一定数の購入リクエストを行うことができる期間（デフォルトは `Minute`）。 オプション：`Minute` / `Hour` /`Day` |
+| [!UICONTROL Enable rate limiting for placing orders] | ストアビュー | ストアビューからの注文の配置にレート制限を使用するかどうかを指定します（デフォルトは`No`）。 オプション：`Yes` / `No`。 |
+| [!UICONTROL Requests limit per authenticated customer] | ストアビュー | 認証済み顧客が期間中に実行できる購入リクエストの数。 既定の制限は`10`です。 |
+| [!UICONTROL Requests limit per guest] | ストアビュー | 未認証の顧客が指定された期間内に実行できる購入リクエストの数。 デフォルト値は`50`です。 |
+| [!UICONTROL Counter resets in a ...] | ストアビュー | 認証済み/未認証の顧客が一定数の購入リクエストを行うことができる期間（デフォルトは`Minute`）。 オプション：`Minute` / `Hour` /`Day` |
 
 {style="table-layout:auto"}
 
@@ -224,15 +230,15 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![&#x200B; 受注、請求書、出荷、クレジット・メモ・アーカイブ &#x200B;](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
+![注文、請求書、出荷、クレジットメモのアーカイブ ](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、[&#x200B; ストアと購入エクスペリエンスガイド &#x200B;](../../stores-purchase/order-archive.md#configure-the-order-archive) の _注文アーカイブの設定_ を参照してください。
+これらの設定の変更について詳しくは、_ストアと購入エクスペリエンスガイド_&#x200B;の[注文アーカイブの設定](../../stores-purchase/order-archive.md#configure-the-order-archive)を参照してください。
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable Archiving] | グローバル | アーカイブが有効かどうかを決定します。 オプション：`Yes` / `No` |
-| [!UICONTROL Archive Orders Purchased] | グローバル | 完了した注文がアーカイブされるまでの日数を決定します。 デフォルト値：`30` |
-| [!UICONTROL Order  Statuses to be Archived] | グローバル | アーカイブする注文の [&#x200B; ステータス &#x200B;](../../stores-purchase/order-status.md) を決定します。 デフォルトでは、ステータスが「完了」または「クローズ」の注文がアーカイブされます。 オプション：`Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
+| [!UICONTROL Enable Archiving] | グローバル | アーカイブが有効かどうかを指定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Archive Orders Purchased] | グローバル | 完了した注文がアーカイブされるまでの日数を指定します。 デフォルト値：`30` |
+| [!UICONTROL Order  Statuses to be Archived] | グローバル | アーカイブする注文の[ ステータス ](../../stores-purchase/order-status.md)を決定します。 デフォルトでは、ステータスが「完了」または「クローズ」の注文がアーカイブされます。 オプション：`Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
 
 {style="table-layout:auto"}
 
@@ -240,14 +246,14 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![RMA 設定 &#x200B;](./assets/sales-rma-settings.png)<!-- zoom -->
+![RMA設定](./assets/sales-rma-settings.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、[&#x200B; ストアと購入エクスペリエンスガイド &#x200B;](../../stores-purchase/rma-configure.md) の _返品の設定_ を参照してください。
+これらの設定の変更について詳しくは、_ストアおよび購入エクスペリエンスガイド_&#x200B;の「[返品を設定](../../stores-purchase/rma-configure.md)」を参照してください。
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable RMA on Storefront] | Web サイト | 顧客がストアフロントから RMA リクエストを作成および表示できるかどうかを決定します。 RMA は、新規注文と既存注文の両方に適用できます。 デフォルトでは、ストアフロントに対する RMA は有効になっていません。 オプション：`Yes` / `No` |
-| [!UICONTROL Enable RMA on Product Level] | Web サイト | 製品情報の [RMA を有効にする ] フィールドの既定値を決定します。 |
-| [!UICONTROL Use Store Address] | Web サイト | 返品された商品の出荷に使用される連絡先名および住所を決定します。 オプション：<br/>**`Yes`**– 出荷設定で指定した [&#x200B; 出荷元の場所 &#x200B;](../../stores-purchase/shipping-settings.md#point-of-origin) の住所を使用します。<br/>**`No`** – 住所フォームを開いて、別の住所を入力できます。 |
+| [!UICONTROL Enable RMA on Storefront] | web サイト | 顧客がストアフロントからRMA リクエストを作成および表示できるかどうかを決定します。 RMAは、新規注文と既存注文の両方に適用できます。 デフォルトでは、ストアフロントに対してRMAは有効になっていません。 オプション：`Yes` / `No` |
+| [!UICONTROL Enable RMA on Product Level] | web サイト | 製品情報の「RMAを有効にする」フィールドのデフォルト値を指定します。 |
+| [!UICONTROL Use Store Address] | web サイト | 返品商品の出荷に使用される連絡先名と住所を指定します。 オプション：<br/>**`Yes`**– 出荷設定から[原産地](../../stores-purchase/shipping-settings.md#point-of-origin)の住所を使用します。<br/>**`No`** – 別のアドレスを入力できるように、アドレス フォームを開きます。 |
 
 {style="table-layout:auto"}

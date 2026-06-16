@@ -3,9 +3,15 @@ title: '[!UICONTROL Sales] > [!UICONTROL Sales Emails]'
 description: Commerce管理者の[!UICONTROL Sales] > [!UICONTROL Sales Emails] ページで設定を確認します。
 exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 feature: Configuration, Communications
-source-git-commit: 1e19aaab43f389469d6bc44810c1819678ae3e4a
+TQID: https://experienceleague.adobe.com/6BUVNd3BxyFvzCvE-FCXwr0-f7AOQdwW5cB2QiUx-b4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2340'
+source-wordcount: 2340
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 0%
 
 ![一般設定](./assets/sales-emails-general-settings.png)<!-- zoom -->
 
-<!-- [General Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/communications/email-communications) -->
+<!-- [General Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/communications/email-communications) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -30,7 +36,7 @@ ht-degree: 0%
 
 ![注文](./assets/sales-emails-order.png)<!-- zoom -->
 
-<!-- [Order](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/order-management/orders/orders) -->
+<!-- [Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -47,7 +53,7 @@ ht-degree: 0%
 
 ![注釈](./assets/sales-emails-order-comments.png)<!-- zoom -->
 
-<!-- [Order Comments](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/order-management/orders/order-processing#process-an-order) -->
+<!-- [Order Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#process-an-order) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -64,7 +70,7 @@ ht-degree: 0%
 
 ![請求書](./assets/sales-emails-invoice.png)<!-- zoom -->
 
-<!-- [Invoice](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/order-management/invoices) -->
+<!-- [Invoice](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -79,9 +85,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Invoice Comments]
 
-![請求書コメント &#x200B;](./assets/sales-emails-invoice-comments.png)<!-- zoom -->
+![請求書コメント ](./assets/sales-emails-invoice-comments.png)<!-- zoom -->
 
-<!-- [Invoice Comments](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) -->
+<!-- [Invoice Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -98,7 +104,7 @@ ht-degree: 0%
 
 ![出荷](./assets/sales-emails-shipment.png)<!-- zoom -->
 
-<!-- [Shipment](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/order-management/shipments) -->
+<!-- [Shipment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/shipments) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -113,9 +119,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Shipment Comments]
 
-![送信コメント &#x200B;](./assets/sales-emails-shipment-comments.png)<!-- zoom -->
+![送信コメント ](./assets/sales-emails-shipment-comments.png)<!-- zoom -->
 
-<!-- [Shipment Comments](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/order-management/shipments) -->
+<!-- [Shipment Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/shipments) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -130,9 +136,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Credit Memo]
 
-![&#x200B; クレジットメモ &#x200B;](./assets/sales-emails-credit-memo.png)<!-- zoom -->
+![ クレジットメモ ](./assets/sales-emails-credit-memo.png)<!-- zoom -->
 
-<!-- [Credit Memo](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) -->
+<!-- [Credit Memo](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -147,9 +153,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Credit Memo Comments]
 
-![&#x200B; クレジットメモのコメント &#x200B;](./assets/sales-emails-credit-memo-comments.png)<!-- zoom -->
+![ クレジットメモのコメント ](./assets/sales-emails-credit-memo-comments.png)<!-- zoom -->
 
-<!-- [Credit Memo Comments](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memo-create) -->
+<!-- [Credit Memo Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memo-create) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -168,7 +174,7 @@ ht-degree: 0%
 
 ![店舗での受け取り準備完了](./assets/sales-emails-ready-pickup.png)<!-- zoom -->
 
-<!-- [Order Ready For Pickup in Store](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [Order Ready For Pickup in Store](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -206,7 +212,7 @@ ht-degree: 0%
 
 ![見積もり](./assets/sales-emails-quote.png)<!-- zoom -->
 
-<!-- [Quotes](https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/quotes/account-dashboard-my-quotes) -->
+<!-- [Quotes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/quotes/account-dashboard-my-quotes) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -229,13 +235,13 @@ ht-degree: 0%
 
 ![RMA](./assets/sales-emails-rma.png)<!-- zoom -->
 
-<!-- [RMA](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
+<!-- [RMA](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | ストアビュー | 生成されたRMAごとにメール通知をアクティブ化します。 オプション：`Yes` / `No` |
-| [!UICONTROL RMA Email Sender] | ストアビュー | メッセージの送信者として表示される[&#x200B; ストア連絡先](../../getting-started/store-details.md#store-email-addresses)を識別します。 デフォルト値：`Sales Representative` |
-| [!UICONTROL RMA Email Template] | ストアビュー | 顧客に対してRMAが生成されたときに送信される通知に使用される[電子メールテンプレート &#x200B;](../../systems/email-templates.md)を決定します。 既定のテンプレート：`New RMA` |
+| [!UICONTROL RMA Email Sender] | ストアビュー | メッセージの送信者として表示される[ ストア連絡先](../../getting-started/store-details.md#store-email-addresses)を識別します。 デフォルト値：`Sales Representative` |
+| [!UICONTROL RMA Email Template] | ストアビュー | 顧客に対してRMAが生成されたときに送信される通知に使用される[電子メールテンプレート ](../../systems/email-templates.md)を決定します。 既定のテンプレート：`New RMA` |
 | [!UICONTROL RMA Email Template for Guest] | ストアビュー | ゲストのRMAが生成されたときに送信されるテンプレートを指定します。 既定のテンプレート：`New RMA for Guest` |
 | [!UICONTROL Send RMA Email Copy To] | ストアビュー | RMAの電子メールのコピーを受け取る必要があるユーザーの電子メールアドレスを提供します。 複数のアドレスをコンマで区切ります。 |
 | [!UICONTROL Send RMA  Email Copy Method] | ストアビュー | コピーの送信に使用するメール方法を示します。 オプションには次のものが含まれます。<br/>**`Bcc`**– 顧客に送信されるのと同じメールのヘッダーに受信者を含めることで、盲目的の礼儀コピーを送信します。 BCC受信者は、お客様には表示されません。<br/>**`Separate Email`** - コピーを別の電子メールとして送信します。 |
@@ -248,13 +254,13 @@ ht-degree: 0%
 
 ![RMA認証](./assets/sales-emails-rma-auth.png)<!-- zoom -->
 
-<!-- [RMA Authorization](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/order-management/returns/rma-configure) -->
+<!-- [RMA Authorization](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/rma-configure) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | ストアビュー | 有効にすると、RMA認証ごとにメール通知が送信されます。 オプション：`Yes` / `No` |
-| [!UICONTROL RMA Authorization Email Sender] | ストアビュー | メッセージ送信者として表示される[&#x200B; ストア連絡先](../../getting-started/store-details.md#store-email-addresses)を識別します。 デフォルト値：`Sales Representative` |
-| [!UICONTROL RMA Authorization Email Template] | ストアビュー | RMA承認通知の送信時に使用される[電子メールテンプレート &#x200B;](../../systems/email-templates.md)を決定します。 既定のテンプレート：`RMA Authorization` |
+| [!UICONTROL RMA Authorization Email Sender] | ストアビュー | メッセージ送信者として表示される[ ストア連絡先](../../getting-started/store-details.md#store-email-addresses)を識別します。 デフォルト値：`Sales Representative` |
+| [!UICONTROL RMA Authorization Email Template] | ストアビュー | RMA承認通知の送信時に使用される[電子メールテンプレート ](../../systems/email-templates.md)を決定します。 既定のテンプレート：`RMA Authorization` |
 | [!UICONTROL RMA Authorization Email Template for Guest] | ストアビュー | RMA承認通知がゲストに送信されるときに使用されるテンプレートを決定します。 既定のテンプレート：`RMA Authorization for Guest` |
 | [!UICONTROL Send RMA Authorization Email Copy To] | ストアビュー | RMA認証メールのコピーを受け取るユーザーのメールアドレスを提供します。 複数のアドレスをコンマで区切ります。 |
 | [!UICONTROL Send RMA Authorization Email Copy Method] | ストアビュー | コピーの送信に使用するメール方法を示します。 オプションには次のものが含まれます。<br/>**`Bcc`**– 顧客に送信されるのと同じメールのヘッダーに受信者を含めることで、盲目的の礼儀コピーを送信します。 BCC受信者は、お客様には表示されません。<br/>**`Separate Email`** - コピーを別の電子メールとして送信します。 |
@@ -265,13 +271,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![RMA管理者のコメント &#x200B;](./assets/sales-emails-rma-admin-comments.png)<!-- zoom -->
+![RMA管理者のコメント ](./assets/sales-emails-rma-admin-comments.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | ストアビュー | 有効にすると、RMA管理者のコメントごとにメール通知が送信されます。 オプション：`Yes` / `No` |
-| [!UICONTROL RMA Comment Email Sender] | ストアビュー | メッセージ送信者として表示される[&#x200B; ストア連絡先](../../getting-started/store-details.md#store-email-addresses)を識別します。 デフォルト値：`Sales Representative` |
-| [!UICONTROL RMA Comment Email Template] | ストアビュー | 管理者が顧客のRMAにコメントを追加する際に使用する[電子メールテンプレート &#x200B;](../../systems/email-templates.md)を決定します。 既定のテンプレート：`RMA Admin Comments` |
+| [!UICONTROL RMA Comment Email Sender] | ストアビュー | メッセージ送信者として表示される[ ストア連絡先](../../getting-started/store-details.md#store-email-addresses)を識別します。 デフォルト値：`Sales Representative` |
+| [!UICONTROL RMA Comment Email Template] | ストアビュー | 管理者が顧客のRMAにコメントを追加する際に使用する[電子メールテンプレート ](../../systems/email-templates.md)を決定します。 既定のテンプレート：`RMA Admin Comments` |
 | [!UICONTROL RMA Comment Email Template for Guest] | ストアビュー | 管理者がゲストのRMAにコメントを追加するときに使用するテンプレートを決定します。 既定のテンプレート：`RMA Admin Comments for Guest` |
 | [!UICONTROL Send RMA Comment Email Copy To] | ストアビュー | 通知のコピーを受け取るユーザーの電子メールアドレスを指定します。 複数のアドレスをコンマで区切ります。 |
 | [!UICONTROL Send RMA Comments Email Copy Method] | ストアビュー | コピーの送信に使用するメール方法を示します。 オプションには次のものが含まれます。<br/>**`Bcc`**– 顧客に送信されるのと同じメールのヘッダーに受信者を含めることで、盲目的の礼儀コピーを送信します。 BCC受信者は、お客様には表示されません。<br/>**`Separate Email`** - コピーを別の電子メールとして送信します。 |
@@ -282,16 +288,16 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![RMAのお客様からのコメント &#x200B;](./assets/sales-emails-rma-customer-comments.png)<!-- zoom -->
+![RMAのお客様からのコメント ](./assets/sales-emails-rma-customer-comments.png)<!-- zoom -->
 
-<!-- [RMA Customer Comments](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
+<!-- [RMA Customer Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | ストアビュー | 有効にすると、RMA カスタマーコメントごとにメール通知が送信されます。 オプション：`Yes` / `No` |
-| [!UICONTROL RMA Comment Email Sender] | ストアビュー | メッセージ送信者として表示される[&#x200B; ストア連絡先](../../getting-started/store-details.md#store-email-addresses)を識別します。 デフォルト値：`Customer Support` |
+| [!UICONTROL RMA Comment Email Sender] | ストアビュー | メッセージ送信者として表示される[ ストア連絡先](../../getting-started/store-details.md#store-email-addresses)を識別します。 デフォルト値：`Customer Support` |
 | [!UICONTROL RMA Comment Email Recipient] | ストアビュー | 顧客コメントメールの受信者であるストア連絡先を識別します。 デフォルト値：`Sales Representative` |
-| [!UICONTROL RMA Comment Email Template] | ストアビュー | 顧客がRMAにコメントを追加する際に使用される[電子メールテンプレート &#x200B;](../../systems/email-templates.md)を決定します。 既定のテンプレート：`RMA Admin Comments` |
+| [!UICONTROL RMA Comment Email Template] | ストアビュー | 顧客がRMAにコメントを追加する際に使用される[電子メールテンプレート ](../../systems/email-templates.md)を決定します。 既定のテンプレート：`RMA Admin Comments` |
 | [!UICONTROL Send RMA Comment Email Copy To] | ストアビュー | 通知のコピーを受け取るユーザーの電子メールアドレスを指定します。 複数のアドレスをコンマで区切ります。 |
 | [!UICONTROL Send RMA Comments Email Copy Method] | ストアビュー | コピーの送信に使用するメール方法を示します。 オプションには次のものが含まれます。<br/>**`Bcc`**– 顧客に送信されるのと同じメールのヘッダーに受信者を含めることで、盲目的の礼儀コピーを送信します。 BCC受信者は、お客様には表示されません。<br/>**`Separate Email`** - コピーを別の電子メールとして送信します。 |
 

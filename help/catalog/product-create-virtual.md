@@ -3,36 +3,42 @@ title: バーチャル商品
 description: メンバーシップ、サービス、保証、サブスクリプションなど、無形商品を表すバーチャル製品を作成する方法を説明します。
 exl-id: 8788ba04-e911-429e-9e48-ce589f0c9fa1
 feature: Catalog Management, Products
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/L981f0c-abmRqbEf3A-8CxTgVyzAuN-u1WDuMZAKSP4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: 653
 ht-degree: 0%
 
 ---
 
 # バーチャル商品
 
-バーチャル商品（デジタル商品）とは、メンバーシップ、サービス、保証、サブスクリプション、書籍、音楽、動画、その他の商品のデジタルダウンロードなど、無形の商品を表します。 バーチャル製品は個別に販売することも、製品タイプ [&#x200B; グループ化された製品](product-create-grouped.md)、[構成可能な製品](product-create-configurable.md)、または[&#x200B; バンドル製品](product-create-bundle.md)の一部として含めることもできます。
+バーチャル商品（デジタル商品）とは、メンバーシップ、サービス、保証、サブスクリプション、書籍、音楽、動画、その他の商品のデジタルダウンロードなど、無形の商品を表します。 バーチャル製品は個別に販売することも、製品タイプ [ グループ化された製品](product-create-grouped.md)、[構成可能な製品](product-create-configurable.md)、または[ バンドル製品](product-create-bundle.md)の一部として含めることもできます。
 
-_[!UICONTROL Weight]_&#x200B;フィールドがない場合を除いて、仮想製品と単純な製品を作成するプロセスは同じです。 次の手順では、[製品テンプレート &#x200B;](attribute-sets.md)、必須フィールド、および基本設定を使用してバーチャル製品を作成するプロセスを示します。 基本的な設定が完了したら、必要に応じて他の製品設定を完了できます。
+_[!UICONTROL Weight]_フィールドがない場合を除いて、仮想製品と単純な製品を作成するプロセスは同じです。 次の手順では、[製品テンプレート ](attribute-sets.md)、必須フィールド、および基本設定を使用してバーチャル製品を作成するプロセスを示します。 基本的な設定が完了したら、必要に応じて他の製品設定を完了できます。
 
 >[!NOTE]
 >
 >PayPal Express Checkoutを通じたデジタル商品の販売に対するサポートを廃止しました。 [PayPal Payments Standard](../stores-purchase/paypal-payments-standard.md)またはその他のPayPal支払いゲートウェイを使用して、仮想商品を含む注文を処理することをお勧めします。
 
-![&#x200B; バーチャル製品](./assets/product-virtual-membership.png){width="700" zoomable="yes"}
+![ バーチャル製品](./assets/product-virtual-membership.png){width="700" zoomable="yes"}
 
 ## 手順1：商品タイプの選択
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]** > **[!UICONTROL Products]**&#x200B;に移動します。
 
-1. 右上隅の&#x200B;_[!UICONTROL Add Product]_（![&#x200B; メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューで、**[!UICONTROL Virtual Product]**&#x200B;を選択します。
+1. 右上隅の&#x200B;_[!UICONTROL Add Product]_（![ メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューで、**[!UICONTROL Virtual Product]**を選択します。
 
-   ![&#x200B; バーチャル製品を追加](./assets/product-add-virtual.png){width="700" zoomable="yes"}
+   ![ バーチャル製品を追加](./assets/product-add-virtual.png){width="700" zoomable="yes"}
 
 ## 手順2：属性セットの選択
 
-製品のテンプレートとして使用される[属性セット &#x200B;](attribute-sets.md)を選択するには、次のいずれかの操作を行います。
+製品のテンプレートとして使用される[属性セット ](attribute-sets.md)を選択するには、次のいずれかの操作を行います。
 
 - **[!UICONTROL Attribute Set]** フィールドをクリックし、属性セットの名前の全部または一部を入力します。
 
@@ -54,11 +60,11 @@ _[!UICONTROL Weight]_&#x200B;フィールドがない場合を除いて、仮想
 
 1. **[!UICONTROL Save]**&#x200B;をクリックして続行します。
 
-   商品を保存すると、左上隅に「[&#x200B; ストアビュー](introduction.md#product-scope)」の選択画面が表示されます。
+   商品を保存すると、左上隅に「[ ストアビュー](introduction.md#product-scope)」の選択画面が表示されます。
 
 1. 製品を利用できる&#x200B;**[!UICONTROL Store View]**&#x200B;を選択します。
 
-   ![&#x200B; ストアビューを選択](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![ ストアビューを選択](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## 手順4：基本設定を完了する
 
@@ -116,7 +122,7 @@ _[!UICONTROL Weight]_&#x200B;フィールドがない場合を除いて、仮想
 
 >[!NOTE]
 >
->_[!UICONTROL Is this downloadable product?]_&#x200B;オプションはデフォルトで無効になっています。 この機能を仮想製品に対して有効にすると、製品は[&#x200B; ダウンロード可能](product-create-downloadable.md#downloadable-product)になります。
+>_[!UICONTROL Is this downloadable product?]_オプションはデフォルトで無効になっています。 この機能を仮想製品に対して有効にすると、製品は[ ダウンロード可能](product-create-downloadable.md#downloadable-product)になります。
 
 ## 手順6：製品の公開
 
@@ -128,7 +134,7 @@ _[!UICONTROL Weight]_&#x200B;フィールドがない場合を除いて、仮想
 
       - 右上隅にある「**[!UICONTROL Save]**」をクリックします。
 
-      - ストア内の商品を表示するには、_管理者_ （![&#x200B; メニュー矢印](../assets/icon-menu-down-arrow-black.png)）メニューで&#x200B;**[!UICONTROL Customer View]**&#x200B;を選択します。
+      - ストア内の商品を表示するには、_管理者_ （![ メニュー矢印](../assets/icon-menu-down-arrow-black.png)）メニューで&#x200B;**[!UICONTROL Customer View]**&#x200B;を選択します。
 
      ストアが新しいブラウザータブで開きます。
 
@@ -136,7 +142,7 @@ _[!UICONTROL Weight]_&#x200B;フィールドがない場合を除いて、仮想
 
    - **方法2:**&#x200B;保存して閉じる
 
-     _[!UICONTROL Save]_（![&#x200B; メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューで、**[!UICONTROL Save & Close]**&#x200B;を選択します。
+     _[!UICONTROL Save]_（![ メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューで、**[!UICONTROL Save & Close]**を選択します。
 
 ## 覚えておくべきこと
 

@@ -3,9 +3,15 @@ title: '[!DNL Inventory Management] リリースノート'
 description: すべての [!DNL Inventory Management]  リリースについて詳しくは、リリースノートを参照してください。
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+TQID: https://experienceleague.adobe.com/UaHQorWcNwDPzAMuV-e27DDH-G5D0k5qENPTINNfiTk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '3533'
+source-wordcount: 3533
 ht-degree: 0%
 
 ---
@@ -18,13 +24,13 @@ ht-degree: 0%
 ![修正された問題](../assets/fix.svg)修正と改善
 ![既知の問題](../assets/bug.svg)既知の問題
 
-[!DNL Inventory Management]は、Magento Open Source コミュニティ エンジニアリングの特別プロジェクトです。 参加して貢献するには、[GitHub プロジェクト &#x200B;](https://github.com/magento/inventory) リポジトリと[wiki](https://github.com/magento/inventory/wiki)を参照してください。 プロジェクトについて話し合うには、[Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) チャネル （[&#x200B; セルフサインアップ &#x200B;](https://opensource.magento.com/slack)）に参加してください。
+[!DNL Inventory Management]は、Magento Open Source コミュニティ エンジニアリングの特別プロジェクトです。 参加して貢献するには、[GitHub プロジェクト ](https://github.com/magento/inventory) リポジトリと[wiki](https://github.com/magento/inventory/wiki)を参照してください。 プロジェクトについて話し合うには、[Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) チャネル （[ セルフサインアップ ](https://opensource.magento.com/slack)）に参加してください。
 
-サポートされているリリースと互換性のあるリリースについては、[&#x200B; リリーススケジュール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=ja){target="_blank"}を参照してください。
+サポートされているリリースと互換性のあるリリースについては、[ リリーススケジュール ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"}を参照してください。
 
 ## v1.2.7
 
-[!DNL Inventory Management] 1.2.7 リリースノートは、[&#x200B; コア 2.4.7 リリースノート &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)に含まれています。
+[!DNL Inventory Management] 1.2.7 リリースノートは、[ コア 2.4.7 リリースノート ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)に含まれています。
 
 ## v1.2.6
 
@@ -116,7 +122,7 @@ Inventory management 1.2.4 （モジュールバージョン：`magento/inventor
 
 ![修正済みの問題](../assets/fix.svg)多くの（約10,000）在庫ソースを使用したデプロイメントで、商品をカートに追加するなど、カートとチェックアウトのアクションのパフォーマンスが向上しました。<!--- MC-42570-->
 
-![修正済みの問題](../assets/fix.svg) [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} データベースから予約が取り消され、キャッシュがクリアされた場合でも、`bin/magento inventory:reservation:list-inconsistencies` コマンドが部分的な出荷を伴う注文を正しく処理するようになりました。 以前、このコマンドが事前にクリアされたキャッシュで実行された場合、Commerceに次のエラーが表示されました：`Area code is not set`。<!--- MC-42142-->
+![修正済みの問題](../assets/fix.svg) [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} データベースから予約が取り消され、キャッシュがクリアされた場合でも、`bin/magento inventory:reservation:list-inconsistencies` コマンドが部分的な出荷を伴う注文を正しく処理するようになりました。 以前、このコマンドが事前にクリアされたキャッシュで実行された場合、Commerceに次のエラーが表示されました：`Area code is not set`。<!--- MC-42142-->
 
 
 ![修正済みの問題](../assets/fix.svg) グループ化された製品の子製品の増分インデックス作成によって、子が共有されたときに他のグループ化された製品のインデックスが誤って作成されなくなりました。<!--- MC-41963-->
@@ -127,11 +133,11 @@ Inventory management 1.2.4 （モジュールバージョン：`magento/inventor
 
 ![修正済みの問題](../assets/fix.svg) 10,000件を超える在庫在庫の管理が改善されました。 以前は、パフォーマンスの問題により、マーチャントがweb サイトを起動する前に管理画面で在庫を編集できないことがありました。<!--- MC-42643-->
 
-![修正済みの問題](../assets/fix.svg)管理者の&#x200B;**[!UICONTROL User Roles]** ページが更新され、管理者に制限された権限を付与して、配信方法の設定にアクセスできるようになります。 _配送方法_ セクションの名前が&#x200B;_[!UICONTROL Delivery methods]_&#x200B;に変更され、_[!UICONTROL In-Store Pickup]_&#x200B;は&#x200B;_[!UICONTROL Delivery methods]_&#x200B;セクションの下に移動されました。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![修正済みの問題](../assets/fix.svg)管理者の&#x200B;**[!UICONTROL User Roles]** ページが更新され、管理者に制限された権限を付与して、配信方法の設定にアクセスできるようになります。 _配送方法_ セクションの名前が&#x200B;_[!UICONTROL Delivery methods]_に変更され、_[!UICONTROL In-Store Pickup]_&#x200B;は&#x200B;_[!UICONTROL Delivery methods]_セクションの下に移動されました。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![修正済みの問題](../assets/fix.svg) Adobe Commerceでは、クレジットメモがAPIによって更新された後、重複した商品予約が作成されなくなりました。<!--- MC-41757-->
 
-![修正された問題](../assets/fix.svg) チェックアウトワークフローの&#x200B;_[!UICONTROL Pick up in Store]_&#x200B;タブから&#x200B;_[!UICONTROL Shipping]_ タブに切り替えても、実店舗での受け取り配送のみが利用可能な場合に、JavaScript エラーがトリガーされなくなりました。<!--- MC-42808-->
+![修正された問題](../assets/fix.svg) チェックアウトワークフローの&#x200B;_[!UICONTROL Pick up in Store]_タブから_[!UICONTROL Shipping]_ タブに切り替えても、実店舗での受け取り配送のみが利用可能な場合に、JavaScript エラーがトリガーされなくなりました。<!--- MC-42808-->
 
 ![修正済みの問題](../assets/fix.svg)販売可能な製品数量と在庫のある製品数量が正しく同期されるようになりました。 以前は、キャンセルされた注文に対する在庫予約報酬は再作成されませんでした。<!--- MC-42485-->
 
@@ -261,9 +267,9 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
         'Magento_InventoryExportStockApi' => 0,
 ```
 
-![新規](../assets/new.svg) **一括部分株式転送エンドポイントを追加** – 現在の一括転送エンドポイントは、割り当てられたすべての数量をオリジンから宛先ソースに移動します。 新しい`/rest/V1/inventory/bulk-partial-source-transfer` エンドポイントを使用すると、販売者は一括操作としてソースからソースに部分的な在庫を転送できます。 特定の数量を転送するには、`sku`、`qty`、`origin_source_code`、`destination_source_code`のエンドポイントにリクエストを入力します。 転送では、ソースが`sku`に割り当てられていることや、転送に十分な量が存在することを確認します。 REST API ドキュメントの[&#x200B; インベントリの一括アクション &#x200B;](https://developer.adobe.com/commerce/webapi/rest/inventory/bulk-inventory/){target="_blank"}を参照してください。<!-- https://github.com/magento/inventory/pull/2117 -->
+![新規](../assets/new.svg) **一括部分株式転送エンドポイントを追加** – 現在の一括転送エンドポイントは、割り当てられたすべての数量をオリジンから宛先ソースに移動します。 新しい`/rest/V1/inventory/bulk-partial-source-transfer` エンドポイントを使用すると、販売者は一括操作としてソースからソースに部分的な在庫を転送できます。 特定の数量を転送するには、`sku`、`qty`、`origin_source_code`、`destination_source_code`のエンドポイントにリクエストを入力します。 転送では、ソースが`sku`に割り当てられていることや、転送に十分な量が存在することを確認します。 REST API ドキュメントの[ インベントリの一括アクション ](https://developer.adobe.com/commerce/webapi/rest/inventory/bulk-inventory/){target="_blank"}を参照してください。<!-- https://github.com/magento/inventory/pull/2117 -->
 
-![新規](../assets/new.svg) **予約CLI**&#x200B;が追加されました。新しいコマンドを使用すると、予約の不整合を検出して解決するオプションが表示されます。 注文が送信され、ステータスが変更されると、[!DNL Inventory Management]は報酬予約を通じて初期予約と更新を生成します。 これらのコマンドは、注文ID、SKU、Stock IDで検出された不整合のリストを返し、解決する予約を作成します。 詳しくは、[CLI リファレンス &#x200B;](cli.md)を参照してください。<!-- https://github.com/magento/inventory/pull/2199 https://github.com/magento/inventory/pull/2184 https://github.com/magento/inventory/pull/2171 https://github.com/magento/inventory/pull/2148  -->
+![新規](../assets/new.svg) **予約CLI**&#x200B;が追加されました。新しいコマンドを使用すると、予約の不整合を検出して解決するオプションが表示されます。 注文が送信され、ステータスが変更されると、[!DNL Inventory Management]は報酬予約を通じて初期予約と更新を生成します。 これらのコマンドは、注文ID、SKU、Stock IDで検出された不整合のリストを返し、解決する予約を作成します。 詳しくは、[CLI リファレンス ](cli.md)を参照してください。<!-- https://github.com/magento/inventory/pull/2199 https://github.com/magento/inventory/pull/2184 https://github.com/magento/inventory/pull/2171 https://github.com/magento/inventory/pull/2148  -->
 
 ![新規](../assets/new.svg) **ソースとSSA オプションのパフォーマンスが向上しました** – 出荷時にソースを並べ替えて選択すると、ソースの数が多い在庫のパフォーマンスが低下しました。 このリリースでは、出荷時にSSA オプションを確認および選択する際に、使用可能なソースのリストと並べ替えを行う際のパフォーマンスが大幅に改善されました。<!-- https://github.com/magento/inventory/pull/2056 https://github.com/magento/inventory/pull/2090 -->
 
@@ -277,7 +283,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.0 （モジュールバージョン：`inventory-composer-metapackage = 1.1.0`）は、Adobe Commerce、Adobe Commerce on cloud infrastructure、Magento Open Source コードベースのバージョン 2.3.0とサポートされ、互換性があります。[!DNL Inventory Management] 1.1.1は、パッケージ名の更新プログラムとしてのみリリースされ、バージョン 2.3.1でサポートされ、Adobe Commerce、Adobe Commerce on cloud infrastructure、Magento Open Source コードベースのバージョン 2.3.0と互換性があります。
 
-![修正済みの問題](../assets/fix.svg) **シングルソースモードとマルチソースモードに対するElasticsearchのサポートが追加されました** — Elasticsearchをカスタム素材で設定して使用できるようになりました。 インストールについて詳しくは、[Elasticsearch サービスの設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=ja){target="_blank"}を参照してください。<!-- PR https://github.com/magento/inventory/pull/1943 -->
+![修正済みの問題](../assets/fix.svg) **シングルソースモードとマルチソースモードに対するElasticsearchのサポートが追加されました** — Elasticsearchをカスタム素材で設定して使用できるようになりました。 インストールについて詳しくは、[Elasticsearch サービスの設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"}を参照してください。<!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![修正済みの問題](../assets/fix.svg) Default Stockのパフォーマンスの問題を解決し、多数の操作でパフォーマンスを大幅に向上させました。 シングルソースモード、在庫のSourceへの転送、ストアフロントカテゴリページ、および販売可能数量の計算のパフォーマンスが向上しました。
 

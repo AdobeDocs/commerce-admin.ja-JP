@@ -3,130 +3,136 @@ title: カタログ検索の設定
 description: ストアのカタログ検索を設定する方法について説明します。
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/8--7GCHftJl4i1oLVSQqII9Odv-mOXOqrdIyyXmGwrE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: 834
 ht-degree: 0%
 
 ---
 
 # カタログ検索の設定
 
-カタログ検索設定には 2 つのバリエーションがあります。 最初の方法では、[Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ja) のインストール時に使用できる設定を説明します。 2 つ目の方法は、[OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html?lang=ja){:target="_blank"} を使用したネイティブ Adobe Commerceの設定を示しています。
+カタログ検索設定には2つのバリエーションがあります。 最初の方法では、[ ライブサーチ ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)がインストールされたときに使用できる設定について説明します。 2つ目の方法は、[OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target="_blank"}を使用したネイティブ Adobe Commerceの設定について説明します。
 
 >[!NOTE]
 >
->クラウドインフラストラクチャプロジェクトの場合は、[_クラウドインフラストラクチャーのCommerceガイド_](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/configure/service/opensearch) の追加手順を参照してください。
+>クラウドインフラストラクチャプロジェクトについては、「[_Commerce on Cloud Infrastructure Guide_](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch)」の追加手順を参照してください。
 
-## 方法 1:[!DNL Live Search] を使用したAdobe Commerce
+## 方法1: [!DNL Live Search]のAdobe Commerce
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
+1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Catalog Search]**」セクションを展開します。
+1. **[!UICONTROL Catalog Search]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![Live Search のカタログ検索 &#x200B;](../configuration-reference/catalog/assets/catalog-search-live-search.png){width="600" zoomable="yes"}
+   ![ ライブサーチのカタログ検索](../configuration-reference/catalog/assets/catalog-search-live-search.png){width="600" zoomable="yes"}
 
-   これらのオプションの詳細なリストについては、_Configuration Reference_ の [Live Search のAdobe Commerce](../configuration-reference/catalog/catalog.md#adobe-commerce-with-live-search) を参照してください。
+   これらのオプションの詳細なリストについては、_設定リファレンス_&#x200B;の「[Adobe Commerce with Live Search](../configuration-reference/catalog/catalog.md#adobe-commerce-with-live-search)」を参照してください。
 
-1. 検索クエリテキストの長さと単語数を制限するには、**[!UICONTROL Minimal Query Length]** と **[!UICONTROL Maximum Query Length]** の値を設定します。
+1. 検索クエリテキストの長さと単語数を制限するには、**[!UICONTROL Minimal Query Length]**&#x200B;と&#x200B;**[!UICONTROL Maximum Query Length]**&#x200B;の値を設定します。
 
-1. よく使用される検索結果の量を制限して高速な応答をキャッシュするには、**[!UICONTROL Number of top search results to cache]** の量を設定します。
+1. 高速な応答のためにキャッシュする一般的な検索結果の量を制限するには、**[!UICONTROL Number of top search results to cache]**&#x200B;の量を設定します。
 
-   デフォルト値は `100` です。 `0` の値を入力すると、2 回目の入力時にすべての検索語句と結果がキャッシュされます。
+   デフォルト値は`100`です。 `0`の値を入力すると、2回目の入力時にすべての検索語と結果がキャッシュされます。
 
-1. [&#x200B; ストアフロントポップオーバー &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html?lang=ja) で返される結果に使用できる最大行数を変更するには、別の **[!UICONTROL Autocomplete Limit]** 値を入力します。
+1. 返される結果に使用できる最大行数を[ ストアフロント ポップオーバー](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html)で変更するには、別の&#x200B;**[!UICONTROL Autocomplete Limit]**&#x200B;値を入力します。
 
-   行数を制限すると、検索のパフォーマンスが向上し、返されるリストのサイズが小さくなります。 デフォルト値は `8` 行です。
+   行数を制限すると、検索のパフォーマンスが向上し、返されるリストのサイズが小さくなります。 デフォルト値は`8`行です。
 
-## 方法 2:OpenSearch を使用したCommerce
+## 方法2:OpenSearchを使用したCommerce
 
 >[!IMPORTANT]
 >
->- 2023 年 8 月のサポート終了のお知らせが [!DNL Elasticsearch 7] 件になったため、Adobe Commerceのお客様はすべて OpenSearch 2.x 検索エンジンに移行することをお勧めします。 製品のアップグレード中に検索エンジンを移行する方法については、[&#x200B; アップグレード ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=ja) の _OpenSearch への移行_ を参照してください。
->- バージョン 2.4.4 および 2.4.3-p2 では、Elasticsearchのラベルが付いているすべてのフィールドも OpenSearch に適用されます。 バージョン 2.4.6 でElasticsearch 8.x がサポートされたとき、Elasticsearch設定と OpenSearch 設定を区別する新しいラベルが作成されました。 ただし、両方の設定オプションは同じです。
+>- 2023年8月の[!DNL Elasticsearch 7]のサポート終了のお知らせにより、すべてのAdobe Commerceのお客様はOpenSearch 2.x検索エンジンに移行することをお勧めします。 製品のアップグレード中に検索エンジンを移行する方法について詳しくは、_アップグレードガイド_&#x200B;の「[OpenSearchへの移行](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)」を参照してください。
+>- バージョン 2.4.4および2.4.3-p2では、「Elasticsearch」というラベルが付けられたすべてのフィールドがOpenSearchにも適用されます。 Elasticsearch 8.xのサポートがバージョン 2.4.6で導入されたときには、ElasticsearchとOpenSearchの設定を区別するために新しいラベルが作成されました。 ただし、両方の設定オプションは同じです。
 
-### 手順 1：一般的な検索オプションを設定する
+### 手順1：一般的な検索オプションの設定
 
 >[!NOTE]
 >
->OpenSearch およびElasticsearchでは、サフィックスによる検索は標準ではサポートされていません。 例えば、キーワードに SKU の最後の部分のみが含まれている場合、SKU で検索しても期待した結果が返されない場合があります。
+>OpenSearchとElasticsearchでは、サフィックスによる検索を標準でサポートしていません。 例えば、キーワードにSKUの最後の部分のみが含まれている場合、SKUによる検索で期待される結果が返されない場合があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
+1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「**[!UICONTROL Catalog Search]**」セクションを展開します。
+1. **[!UICONTROL Catalog Search]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; 検索エンジンの設定 &#x200B;](../configuration-reference/catalog/assets/catalog-search-opensearch.png){zoomable="yes"}
+   ![検索エンジン設定](../configuration-reference/catalog/assets/catalog-search-opensearch.png){zoomable="yes"}
 
-   これらのオプションについて詳しくは、&lbrace;Configuration Reference _の [&#x200B; ネイティブ検索のAdobe Commerce](../configuration-reference/catalog/catalog.md#adobe-commerce-with-native-search) を参照し_ ください。
+   これらのオプションについて詳しくは、_設定リファレンス_&#x200B;の「[Adobe Commerce with native search](../configuration-reference/catalog/catalog.md#adobe-commerce-with-native-search)」を参照してください。
 
-1. 検索クエリテキストの長さと単語数を制限するには、**[!UICONTROL Minimal Query Length]** と **[!UICONTROL Maximum Query Length]** の値を設定します。
+1. 検索クエリテキストの長さと単語数を制限するには、**[!UICONTROL Minimal Query Length]**&#x200B;と&#x200B;**[!UICONTROL Maximum Query Length]**&#x200B;の値を設定します。
 
    >[!IMPORTANT]
    >
-   >この最小範囲と最大範囲に設定する値は、検索エンジン設定で設定した対応する範囲と互換性がある必要があります。 例えば、Commerceでこれらの値を `2` と `300` に設定した場合、検索エンジンの対応する値を更新します。
+   >この最小範囲と最大範囲に設定された値は、検索エンジン設定で設定された対応する範囲と互換性がある必要があります。 例えば、これらの値をCommerceの`2`と`300`に設定した場合、検索エンジンで対応する値を更新します。
 
-1. よく使用される検索結果の量を制限して高速な応答をキャッシュするには、**[!UICONTROL Number of top search results to cache]** の量を設定します。
+1. 高速な応答のためにキャッシュする一般的な検索結果の量を制限するには、**[!UICONTROL Number of top search results to cache]**&#x200B;の量を設定します。
 
-   デフォルト値は `100` です。 `0` の値を入力すると、2 回目の入力時にすべての検索語句と結果がキャッシュされます。
+   デフォルト値は`100`です。 `0`の値を入力すると、2回目の入力時にすべての検索語と結果がキャッシュされます。
 
-1. 製品 EAV インデクサーを有効または無効にする場合は、**[!UICONTROL Enable EAV Indexer]** を設定します。
+1. Product EAV インデクサーを有効または無効にする場合は、**[!UICONTROL Enable EAV Indexer]**&#x200B;を設定します。
 
-   この機能により、インデックス化速度が向上し、サードパーティの拡張機能によるインデクサーの使用が制限されます。
+   この機能により、インデックス作成の速度が向上し、サードパーティの拡張機能によるインデクサーの使用が制限されます。
 
-1. 検索オートコンプリートで表示する検索結果の最大数を制限するには、**[!UICONTROL Autocomplete Limit]** の値を設定します。
+1. 検索オートコンプリートで表示する検索結果の最大数を制限するには、**[!UICONTROL Autocomplete Limit]**&#x200B;の値を設定します。
 
-   この量を制限すると、検索のパフォーマンスが向上し、表示されるリストのサイズが小さくなります。 デフォルト値は `8` です。
+   この量を制限すると、検索のパフォーマンスが向上し、表示されるリストサイズが小さくなります。 デフォルト値は`8`です。
 
-### 手順 2:OpenSearch 接続の設定
+### 手順2:OpenSearch接続の設定
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Search Engine]**、**[!UICONTROL OpenSearch Server Hostname]**、**[!UICONTROL OpenSearch Server Port]**、**[!UICONTROL OpenSearch Index Prefix]**、**[!UICONTROL Enable OpenSearch HTTP Auth]**、**[!UICONTROL OpenSearch Server Timeout]** の各フィールドは、Commerceのインストールまたはアップグレード時に設定されました。 これらの値は、OpenSearch をアップグレードまたは変更する場合にのみ変更してください。
+>Commerceがインストールまたはアップグレードされたときに、**[!UICONTROL Search Engine]**、**[!UICONTROL OpenSearch Server Hostname]**、**[!UICONTROL OpenSearch Server Port]**、**[!UICONTROL OpenSearch Index Prefix]**、**[!UICONTROL Enable OpenSearch HTTP Auth]**&#x200B;および&#x200B;**[!UICONTROL OpenSearch Server Timeout]**&#x200B;のフィールドが設定されました。 これらの値は、OpenSearchをアップグレードまたは変更する場合にのみ変更する必要があります。
 
-1. **[!UICONTROL Search Engine]** の場合、「`OpenSearch`」を選択します。
+1. **[!UICONTROL Search Engine]**&#x200B;に対して、`OpenSearch`を選択します。
 
-1. **[!UICONTROL OpenSearch Server Hostname]**:Commerceのインストール時に設定されたデフォルト値を使用します。
+1. **[!UICONTROL OpenSearch Server Hostname]**&#x200B;の場合は、Commerceのインストール時に設定されたデフォルト値をそのまま使用します。
 
-1. **[!UICONTROL OpenSearch Server Port]**:Commerceのインストール時に設定されたデフォルト値を使用します。
+1. **[!UICONTROL OpenSearch Server Port]**&#x200B;の場合は、Commerceのインストール時に設定されたデフォルト値をそのまま使用します。
 
-   この例では、デフォルト値は `9200` です。
+   この例では、デフォルト値は`9200`です。
 
-1. **[!UICONTROL OpenSearch Index Prefix]**:Elasticsearchのインデックスを識別するプレフィックスを入力します。
+1. **[!UICONTROL OpenSearch Index Prefix]**&#x200B;の場合は、Elasticsearch インデックスを識別するためのプレフィックスを入力します。
 
-   デフォルト値は `magento2` です。
+   デフォルト値は`magento2`です。
 
-1. HTTP 認証を使用して OpenSearch サーバーにアクセスするためのユーザー名とパスワードの入力を求めるには、**[!UICONTROL Enable OpenSearch HTTP Auth]** を `Yes` に設定します。
+1. HTTP認証を使用してユーザー名とパスワードを求め、OpenSearch サーバーにアクセスするには、**[!UICONTROL Enable OpenSearch HTTP Auth]**&#x200B;を`Yes`に設定します。
 
-1. **[!UICONTROL OpenSearch Server Timeout]**：システムがタイムアウトするまでの秒数を入力します。
+1. **[!UICONTROL OpenSearch Server Timeout]**&#x200B;の場合、システムがタイムアウトするまでの秒数を入力します。
 
-   デフォルト値は `15` です。
+   デフォルト値は`15`です。
 
-1. 設定を確認するには、「**[!UICONTROL Test Connection]**」をクリックします。
+1. 設定を確認するには、**[!UICONTROL Test Connection]**&#x200B;をクリックします。
 
-### 手順 3：提案と推奨事項を設定する
+### 手順3：推奨事項と推奨事項の設定
 
 >[!NOTE]
 >
->検索の提案や推奨事項は、サーバーのパフォーマンスに影響を与える可能性があります。
+>検索候補とレコメンデーションは、サーバーのパフォーマンスに影響を与える可能性があります。
 
-1. お勧めを提供するには、**[!UICONTROL Enable Search Recommendations]** を `Yes` に設定して、次の手順を実行します。
+1. 推奨事項を提供するには、**[!UICONTROL Enable Search Recommendations]**&#x200B;を`Yes`に設定し、次の操作を行います。
 
-   - **[!UICONTROL Search Recommendation Count]** しくは、提供するレコメンデーションの数を入力します。
+   - **[!UICONTROL Search Recommendation Count]**&#x200B;に、オファーするレコメンデーションの数を入力します。
 
-   - 各レコメンデーションで見つかった結果の数を表示するには、**[!UICONTROL Show Results Count for Each Recommendation]** を `Yes` に設定します。
+   - レコメンデーションごとに見つかった結果の数を表示するには、**[!UICONTROL Show Results Count for Each Recommendation]**&#x200B;を`Yes`に設定します。
 
-1. **[!UICONTROL Enable Search Suggestions]** を `Yes` に設定して、以下を実行します。
+1. **[!UICONTROL Enable Search Suggestions]**&#x200B;を`Yes`に設定し、次の操作を行います。
 
-   - **[!UICONTROL Search Suggestions Count]**：提供する検索候補の数を入力します。
+   - **[!UICONTROL Search Suggestions Count]**&#x200B;に、提供する検索候補の数を入力します。
 
-   - 各提案で見つかった結果の数を表示するには、**[!UICONTROL Show Results for Each Suggestion]** を `Yes` に設定します。
+   - 各提案に対して見つかった結果の数を表示するには、**[!UICONTROL Show Results for Each Suggestion]**&#x200B;を`Yes`に設定します。
 
-### 手順 4：一致する最小用語を設定する
+### 手順4：一致する最小条件の設定
 
-検索結果が返されるために一致する必要があるクエリの用語の最小数を制御するには、**[!UICONTROL Minimum Terms to Match]** の値を指定します。 この値を指定すると、買い物客に最適な結果の関連性が保証されます。 使用できる値のリストについては、OpenSearch ドキュメントの [minimum_should_match パラメーター &#x200B;](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/) を参照してください。
+検索結果が返しに一致する必要があるクエリの最小項目数を制御するには、**[!UICONTROL Minimum Terms to Match]**&#x200B;の値を指定します。 この値を指定することで、買い物客にとって最適な検索結果の関連性が保証されます。 使用可能な値のリストについては、OpenSearch ドキュメントの[minimum_should_match パラメーター](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/)を参照してください。
 
-完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。

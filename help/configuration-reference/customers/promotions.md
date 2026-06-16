@@ -3,9 +3,15 @@ title: '[!UICONTROL Customers] > [!UICONTROL Promotions]'
 description: Commerce管理者の[!UICONTROL Customers] > [!UICONTROL Promotions] ページで設定を確認します。
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/Sc1-Wacd9emNUOl9GabUK-J3OLH-eNX2hvk6m8oyjYc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: 330
 ht-degree: 0%
 
 ---
@@ -18,9 +24,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![自動メールリマインダールール &#x200B;](./assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
+![自動メールリマインダールール ](./assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
 
-<!-- [Automated Email Reminder Rules](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules#configure-email-reminders) -->
+<!-- [Automated Email Reminder Rules](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules#configure-email-reminders) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -38,7 +44,7 @@ ht-degree: 0%
 
 ![特定のクーポンコードを自動生成](./assets/promotions-auto-generated-specific-coupon-codes.png)<!-- zoom -->
 
-<!-- [Auto Generated Specific Coupon Codes](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#configure-coupon-codes)  -->
+<!-- [Auto Generated Specific Coupon Codes](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#configure-coupon-codes)  -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -46,6 +52,6 @@ ht-degree: 0%
 | [!UICONTROL Code Format] | グローバル | クーポンコード形式を定義します。 オプションは次のとおりです。<br/>**`Alphanumeric`**– 文字と数字の任意の組み合わせ。<br/>**`Alphabetical`** – 文字のみ。<br/>**`Numeric`**– 数字のみ。 |
 | [!UICONTROL Code Prefix] | グローバル | すべてのクーポンコードの先頭に追加される値。 接頭辞を使用しない場合は、フィールドを空白のままにします。 |
 | [!UICONTROL Code Suffix] | グローバル | すべてのコードの末尾に追加される値。 接尾辞を使用しない場合は、フィールドを空白のままにします。 |
-| [!UICONTROL Dash Every X Characters] | グローバル | すべてのクーポンコードにダッシュ（ – ）を挿入する間隔。 ダッシュを使用しない場合は、フィールドを空白のままにします。 <br/>_&#x200B;**注意：**&#x200B;_ ダッシュのみで異なるクーポンコードは、異なるコードと見なされます。 |
+| [!UICONTROL Dash Every X Characters] | グローバル | すべてのクーポンコードにダッシュ（ – ）を挿入する間隔。 ダッシュを使用しない場合は、フィールドを空白のままにします。 <br/>_**注意：**_ ダッシュのみで異なるクーポンコードは、異なるコードと見なされます。 |
 
 {style="table-layout:auto"}

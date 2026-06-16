@@ -3,9 +3,15 @@ title: Google サイトツール
 description: コンテンツの最適化、トラフィックの分析、カタログのショッピングアグリゲーターやマーケットプレイスへの接続に使用できる、Google toolsの統合機能について説明します。
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/P-IniOyLDfDk8oe1v9ysmRV6yC7IWpxUBaFF--2YMCg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: 662
 ht-degree: 0%
 
 ---
@@ -56,7 +62,7 @@ ht-degree: 0%
 
    - 「**[!UICONTROL Manage DPA Details]**」をクリックして、連絡先と組織の法人を編集できるDPA管理ページを開きます。
 
-   - **[!UICONTROL Legal Entities]** セクションで、_編集_ （![Google編集アイコン &#x200B;](./assets/google-icon-edit.png)）アイコンをクリックし、登録されている名前を1つ以上追加します。 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
+   - **[!UICONTROL Legal Entities]** セクションで、_編集_ （![Google編集アイコン ](./assets/google-icon-edit.png)）アイコンをクリックし、登録されている名前を1つ以上追加します。 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
    - **連絡先** セクションで、_Add_ （![Google add icon](./assets/google-icon-add.png)）アイコンをクリックし、最初の連絡先の情報を入力します。 次に、該当する各役割のチェックボックスを選択し、**[!UICONTROL Add]**&#x200B;をクリックします。
 
@@ -80,7 +86,7 @@ analytics.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-詳しくは、Google ヘルプの[Analytics.js フィールドリファレンス &#x200B;](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference){: target="_blank"}を参照してください。
+詳しくは、Google ヘルプの[Analytics.js フィールドリファレンス ](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference){: target="_blank"}を参照してください。
 
 従来の`ga.js` ライブラリを使用する場合は、次のスニペットを追加します。
 
@@ -112,7 +118,7 @@ analytics.js
 
 ### 手順3：プライバシーポリシーの更新
 
-[&#x200B; プライバシーポリシー](../getting-started/privacy-policy.md)を更新して、会社を次のように記述します。
+[ プライバシーポリシー](../getting-started/privacy-policy.md)を更新して、会社を次のように記述します。
 
 - Google Analyticsの使用
 - IP アドレスをマスクして個人情報を非表示にする

@@ -3,9 +3,15 @@ title: ギフトレジストリの設定
 description: ストアのお客様にギフトレジストリタイプを設定する方法について説明します。
 exl-id: d618c769-10be-4881-a799-42484d35c57b
 feature: Gift, Storefront
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/LslheZ8xJdGz9NOe8Fkd6QK6uVN8Gz8M8pE-dPwC-5s
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: 1098
 ht-degree: 0%
 
 ---
@@ -24,19 +30,19 @@ ht-degree: 0%
 
 3つの準備されたギフトレジストリのいずれかを使用するか、独自のカスタムレジストリを作成できます。 各ギフトレジストリタイプには、顧客がギフトレジストリを作成するために入力するデータ入力フィールドである複数の属性が含まれています。 属性には、イベント、時間と場所、または必要なその他の情報に関する追加情報が含まれます。 入力タイプによっては、一部の属性に複数のオプションがあります。 例えば、`Wedding` ギフトレジストリタイプには属性`Role`があり、オプションは`Bride`、`Groom`、および`Partner`です。 属性と入力タイプについて詳しくは、[属性](../customers/attribute-properties.md)を参照してください。
 
-![&#x200B; ギフト レジストリの種類](./assets/gift-registry-types.png){width="700" zoomable="yes"}
+![ ギフト レジストリの種類](./assets/gift-registry-types.png){width="700" zoomable="yes"}
 
 ## 準備されたギフトレジストリを使用する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**に移動します。
 
    誕生日、結婚式、赤ちゃんの登録簿は、顧客がアカウントから使用できるようにする準備ができています。
 
-1. [&#x200B; メールテンプレート設定](../systems/email-templates.md#configure-email-templates)を完了して、ブランドを反映するようにしてください。
+1. [ メールテンプレート設定](../systems/email-templates.md#configure-email-templates)を完了して、ブランドを反映するようにしてください。
 
 ## カスタムギフトレジストリの作成
 
-1. 管理者サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**&#x200B;に移動します。
+1. 管理者サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Registry]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Gift Registry Type]**」をクリックします。
 
@@ -54,13 +60,13 @@ ht-degree: 0%
 
    - ギフトレジストリを有効にするには、**[!UICONTROL Is Listed]**&#x200B;を`Yes`に設定します。
 
-     ![&#x200B; ギフトレジストリ – 一般情報](./assets/gift-registry-new-general-information.png){width="600" zoomable="yes"}
+     ![ ギフトレジストリ – 一般情報](./assets/gift-registry-new-general-information.png){width="600" zoomable="yes"}
 
 1. ギフトレジストリの各セクションを確認して、含める情報の種類を決定します。
 
 1. 左側のパネルで、**[!UICONTROL Attributes]**&#x200B;を選択し、**[!UICONTROL Add Attribute]**&#x200B;をクリックします。
 
-   ![&#x200B; ギフトレジストリ – 新しい属性](./assets/gift-registry-type-new-attribute.png){width="600" zoomable="yes"}
+   ![ ギフトレジストリ – 新しい属性](./assets/gift-registry-type-new-attribute.png){width="600" zoomable="yes"}
 
 1. 各属性について、次の操作を行います。
 

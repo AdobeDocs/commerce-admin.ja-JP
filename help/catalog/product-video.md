@@ -3,9 +3,15 @@ title: 製品ビデオを追加
 description: Google アカウントからYouTube data API キーを必要とするストアの商品ビデオを設定し、商品のビデオリンクを追加する方法を説明します。
 exl-id: 0cfcee67-a2e2-41cb-ac70-304452f5db6d
 feature: Catalog Management, Products, Media
-source-git-commit: d9d964d36a7debebaed327111b5c4d76d0a1a005
+TQID: https://experienceleague.adobe.com/5OKezHnnZ3xhLOAEdxNZZXKn0wUuC37E0I5iHI-4N58
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: 716
 ht-degree: 0%
 
 ---
@@ -40,11 +46,11 @@ ht-degree: 0%
 
 ## 手順2:Commerceでキーを設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. _[!UICONTROL Product Video]_&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、**[!UICONTROL YouTube API key]**&#x200B;を貼り付けます。
+1. _[!UICONTROL Product Video]_セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、**[!UICONTROL YouTube API key]**を貼り付けます。
 
    ![製品ビデオ設定](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -56,9 +62,9 @@ ht-degree: 0%
 
 1. 商品を編集モードで開きます。
 
-1. にスクロールして、_[!UICONTROL Images and Videos]_&#x200B;セクションを展開します。
+1. にスクロールして、_[!UICONTROL Images and Videos]_セクションを展開します。
 
-   ![画像とビデオ &#x200B;](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
+   ![画像とビデオ ](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Add Video]**&#x200B;をクリックします。
 
@@ -94,7 +100,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Autostart base video]_&#x200B;コンフィギュレーションオプションが`Yes`に設定されていても、ビデオが自動的に再生されない場合は、自動再生ポリシーがブラウザーによって適用され、Adobe Commerceで制御できない可能性があります。 サポートされている各ブラウザーには独自の自動再生ポリシーがあり、時間の経過とともに変更される可能性があり、ビデオが今後自動再生されない可能性があります。 推奨されるベストプラクティスとして、ビジネスに不可欠な機能は自動再生に依存しないでください。また、サポートされている各ブラウザーで、ストア内のビデオ自動再生動作をテストする必要があります。
+   >_[!UICONTROL Autostart base video]_コンフィギュレーションオプションが`Yes`に設定されていても、ビデオが自動的に再生されない場合は、自動再生ポリシーがブラウザーによって適用され、Adobe Commerceで制御できない可能性があります。 サポートされている各ブラウザーには独自の自動再生ポリシーがあり、時間の経過とともに変更される可能性があり、ビデオが今後自動再生されない可能性があります。 推奨されるベストプラクティスとして、ビジネスに不可欠な機能は自動再生に依存しないでください。また、サポートされている各ブラウザーで、ストア内のビデオ自動再生動作をテストする必要があります。
 
 ## ストアビューレベルでの動画の役割の管理
 

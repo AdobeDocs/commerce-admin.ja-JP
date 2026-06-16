@@ -3,9 +3,16 @@ title: 注文ワークフローと処理
 description: 注文ワークフロー、各ステップで適用されるステータス、およびこのプロセスを通じて注文を移動する方法について説明します。
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 82f040fa34cf96af6f1e9752f8d9f1ddeab9f84c
+TQID: https://experienceleague.adobe.com/GSPZ5Z-3WpnZ-dPRnSqD4ud--cX78Q7lSHGQDuapg4U
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: 1834
 ht-degree: 0%
 
 ---
@@ -34,11 +41,11 @@ ht-degree: 0%
 
 ## 注文の表示
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**に移動します。
 
 1. グリッド内の順序を検索します。
 
-1. _[!UICONTROL Action]_&#x200B;列で、**[!UICONTROL View]**&#x200B;をクリックします。
+1. _[!UICONTROL Action]_列で、**[!UICONTROL View]**をクリックします。
 
 1. 注文ステータスの確認：
 
@@ -104,7 +111,7 @@ ht-degree: 0%
 
 ### 注文のキャンセル
 
-まだ請求されていない注文を[&#x200B; キャンセル &#x200B;](order-update.md)できます。 お客様が請求された後に注文をキャンセルしたい場合は、[&#x200B; クレジットメモ &#x200B;](credit-memos.md)を発行する必要があります（支払いが行われます）。
+まだ請求されていない注文を[ キャンセル ](order-update.md)できます。 お客様が請求された後に注文をキャンセルしたい場合は、[ クレジットメモ ](credit-memos.md)を発行する必要があります（支払いが行われます）。
 
 注文が`Pending`または`Processing`で、支払いがキャプチャされていないか、完全にキャプチャされていない場合は、注文をキャンセルする代わりに[注文をキャンセルできます](#void-an-order)。
 
@@ -141,13 +148,13 @@ ht-degree: 0%
 | [!UICONTROL Customer Name] | 注文した顧客または購入者の名前。 お客様の名前は、お客様のプロファイルにリンクされています。 |
 | [!UICONTROL Email] | 顧客または購入者のメールアドレス。 メールアドレスがリンクされ、新しいメールメッセージが開きます。 |
 | [!UICONTROL Customer Group] | 顧客が割り当てられている顧客グループまたは共有カタログの名前。 |
-| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2Bで利用可能）購入者が関連付けられ、注文が行われる会社の名前。 会社名は[会社プロファイル &#x200B;](../b2b/account-companies.md)にリンクされています。 |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2Bで利用可能）購入者が関連付けられ、注文が行われる会社の名前。 会社名は[会社プロファイル ](../b2b/account-companies.md)にリンクされています。 |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Address Information]
 
-![&#x200B; アドレス情報](./assets/order-address-information.png){width="600" zoomable="yes"}
+![ アドレス情報](./assets/order-address-information.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
 |--- |--- |
@@ -162,18 +169,18 @@ ht-degree: 0%
 
 | フィールド | 説明 |
 |--- |--- |
-| [!UICONTROL Payment Information] | 注文に使用する支払い方法、および注文番号（該当する場合）、その後に注文を行うために使用された通貨。 注文がアカウント [&#128279;](../b2b/enable-basic-features.md#configure-payment-on-account)の支払いを使用して会社のクレジットに請求された場合、アカウントに請求された金額が表示されます。 |
+| [!UICONTROL Payment Information] | 注文に使用する支払い方法、および注文番号（該当する場合）、その後に注文を行うために使用された通貨。 注文がアカウント ](../b2b/enable-basic-features.md#configure-payment-on-account)の[支払いを使用して会社のクレジットに請求された場合、アカウントに請求された金額が表示されます。 |
 | [!UICONTROL Shipping & Handling Information] | 使用する配送方法、および適用される処理手数料。 |
 
 {style="table-layout:auto"}
 
 ### カスタム注文属性
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
 
 カスタム注文属性を使用すると、ビジネスニーズに固有の追加情報を注文に関連付けることができます。
 
-![&#x200B; カスタム注文属性](./assets/custom-order-attributes.png){width="600" zoomable="yes"}
+![ カスタム注文属性](./assets/custom-order-attributes.png){width="600" zoomable="yes"}
 
 **[!UICONTROL Custom Order Attributes]** セクションには、すべてのカスタム注文属性とその現在の値が表示されます。
 
@@ -189,7 +196,7 @@ ht-degree: 0%
 
 ### 注文済み品目の確認
 
-![注文済みアイテム &#x200B;](./assets/order-items-ordered-tee.png){width="600" zoomable="yes"}
+![注文済みアイテム ](./assets/order-items-ordered-tee.png){width="600" zoomable="yes"}
 
 **[!UICONTROL Order Total]** セクションで、次の操作を行います。
 
@@ -250,4 +257,4 @@ ht-degree: 0%
 
 このビデオを見て、注文処理とステータスについて詳しく説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410799/?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)

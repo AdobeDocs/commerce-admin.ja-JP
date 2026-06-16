@@ -3,37 +3,44 @@ title: 会社アカウントの管理
 description: Adobe Commerce ストアの会社アカウントを、会社ページとグリッドで使用できるツールを使用して管理する方法について説明します。
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/a4IAHlQLzc9pX6V2z8V9nLUaWToWizjdOomV7TfS7to
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2728'
+source-wordcount: 2728
 ht-degree: 0%
 
 ---
 
 # 会社アカウントの管理
 
-_[!UICONTROL Companies]_&#x200B;ページには、ステータスに関係なく、現在のすべての会社アカウントが一覧表示されます。 承認待ちのリクエストは、リストの上部に表示されます。
+_[!UICONTROL Companies]_ページには、ステータスに関係なく、現在のすべての会社アカウントが一覧表示されます。 承認待ちのリクエストは、リストの上部に表示されます。
 
-![会社グリッド &#x200B;](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+![会社グリッド ](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 *[!UICONTROL Columns]* コントロールを使用して、グリッドに表示される列をカスタマイズします。 検索およびフィルター機能を使用して、ビューに表示される会社をカスタマイズします。
 
-- _[!UICONTROL Search]_&#x200B;を使用して、**Companies**&#x200B;グリッド内の会社を検索します。 検索では、**会社名**&#x200B;列と&#x200B;**親**&#x200B;列にインデックスが付けられます。
+- _[!UICONTROL Search]_を使用して、**Companies**グリッド内の会社を検索します。 検索では、**会社名**列と&#x200B;**親**列にインデックスが付けられます。
 
 - [!UICONTROL Filter]を使用して、特定の条件を満たすレコードを含めるようにビューをカスタマイズします。 例えば、B2B サイトが単一の会社アカウントと[会社階層](manage-companies.md)の両方を管理するように設定されている場合、1つの会社のみを表示するように`[!UICONTROL Company Type - Company]`でフィルタリングしたり、各階層の親会社のみを表示するように`[!UICONTROL Company Type - Parent]`でフィルタリングしたりできます。
 
-グリッドの上にある&#x200B;_[!UICONTROL Actions]_&#x200B;コントロールを使用して、複数の会社レコードにアクションを適用します。 例えば、企業の個別のリクエストを承認するのではなく、複数のリクエストを選択して、1回のアクションでアカウントをアクティベートできます。 使用可能なアクションは、管理者ユーザーアカウントに割り当てられた役割の[権限](../systems/permissions.md)によって異なります。
+グリッドの上にある&#x200B;_[!UICONTROL Actions]_コントロールを使用して、複数の会社レコードにアクションを適用します。 例えば、企業の個別のリクエストを承認するのではなく、複数のリクエストを選択して、1回のアクションでアカウントをアクティベートできます。 使用可能なアクションは、管理者ユーザーアカウントに割り当てられた役割の[権限](../systems/permissions.md)によって異なります。
 
 ## 企業の役割に関するリソース
 
-[役割リソース &#x200B;](../systems/permissions-user-roles.md#role-resources)の設定によって、次の機能が決定されます。
+[役割リソース ](../systems/permissions-user-roles.md#role-resources)の設定によって、次の機能が決定されます。
 
 - 会社を追加
 - 会社の削除
 - 残高払い戻しの適用
 - 企業を見る
 
-これらの役割リソースは、管理者ユーザーアカウントに割り当てられている[&#x200B; ユーザー役割](../systems/permissions-user-roles.md)に設定する必要があります。
+これらの役割リソースは、管理者ユーザーアカウントに割り当てられている[ ユーザー役割](../systems/permissions-user-roles.md)に設定する必要があります。
 
 ## 会社グリッドから会社アカウントを管理
 
@@ -166,7 +173,7 @@ _[!UICONTROL Companies]_&#x200B;ページには、ステータスに関係なく
 
 1. グリッドで、編集する会社レコードを見つけます。
 
-1. _[!UICONTROL Action]_&#x200B;列から&#x200B;**[!UICONTROL Edit]**&#x200B;を選択します。
+1. _[!UICONTROL Action]_列から&#x200B;**[!UICONTROL Edit]**を選択します。
 
 1. 会社情報に必要な変更を加えます。
 
@@ -176,7 +183,7 @@ _[!UICONTROL Companies]_&#x200B;ページには、ステータスに関係なく
 
 ## 営業担当者の割り当て
 
-営業担当者は[管理者ユーザー](../systems/permissions.md)で、会社アカウントの連絡先として割り当てられ、会社に関連するすべての自動[&#x200B; メールメッセージ &#x200B;](../b2b/enable-basic-features.md#configure-company-email-options)を受け取ります。 会社アカウントごとに1人の営業担当者のみを割り当てることができますが、1人の営業担当者が複数の会社アカウントを管理できます。 デフォルトの管理者ユーザーアカウントは、別の管理者ユーザーが割り当てられていない限り、営業担当者として割り当てられます。
+営業担当者は[管理者ユーザー](../systems/permissions.md)で、会社アカウントの連絡先として割り当てられ、会社に関連するすべての自動[ メールメッセージ ](../b2b/enable-basic-features.md#configure-company-email-options)を受け取ります。 会社アカウントごとに1人の営業担当者のみを割り当てることができますが、1人の営業担当者が複数の会社アカウントを管理できます。 デフォルトの管理者ユーザーアカウントは、別の管理者ユーザーが割り当てられていない限り、営業担当者として割り当てられます。
 
 割り当てられた営業担当者の名前とメールアドレスは、会社アカウントと見積もりページから会社メンバーに表示されます。
 
@@ -194,11 +201,11 @@ _[!UICONTROL Companies]_&#x200B;ページには、ステータスに関係なく
 
 会社プロファイルは、会社の管理者がストアフロントから、およびストアの管理者が管理者から管理できます。
 
-![会社プロファイル &#x200B;](./assets/company-update.png){width="700" zoomable="yes"}
+![会社プロファイル ](./assets/company-update.png){width="700" zoomable="yes"}
 
 1. _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL Companies]**&#x200B;に移動します。
 
-1. グリッドで会社を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
+1. グリッドで会社を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
 
 1. 参照するフィールドの説明を使用して、必要に応じて各セクションのフィールド値を更新します。
 
@@ -208,7 +215,7 @@ _[!UICONTROL Companies]_&#x200B;ページには、ステータスに関係なく
 
 このビデオを見て、会社アカウントの管理について学ぶことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410773?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## 企業管理
 
@@ -252,7 +259,7 @@ _[!UICONTROL Companies]_&#x200B;ページには、ステータスに関係なく
 | [!UICONTROL Country] | 会社が事業を行うために登録されている国。 |
 | [!UICONTROL State Province] | 会社が事業を行うために登録されている州または州。 |
 | [!UICONTROL City] | 会社が事業を行うために登録されている都市。 |
-| [!UICONTROL Group/Shared Catalog] | 列名は、設定で共有カタログを有効にするかどうかに応じて異なります。 オプション：<br/>**[!UICONTROL Customer Group]**– 共有カタログが設定で有効になっていない場合は、会社が属する[顧客グループ &#x200B;](../customers/customer-groups.md)の名前を指定します。<br/>**[!UICONTROL Shared Catalog]** – 設定で共有カタログが有効になっている場合は、顧客に割り当てられている共有カタログの名前を指定します。 |
+| [!UICONTROL Group/Shared Catalog] | 列名は、設定で共有カタログを有効にするかどうかに応じて異なります。 オプション：<br/>**[!UICONTROL Customer Group]**– 共有カタログが設定で有効になっていない場合は、会社が属する[顧客グループ ](../customers/customer-groups.md)の名前を指定します。<br/>**[!UICONTROL Shared Catalog]** – 設定で共有カタログが有効になっている場合は、顧客に割り当てられている共有カタログの名前を指定します。 |
 | [!UICONTROL Outstanding Balance] | 会社アカウントの未払い残高。 会社に信用履歴がなく、信用制限がゼロの場合、列は空白になります。 |
 | [!UICONTROL Company Admin] | 会社管理者の姓と名。 |
 | [!UICONTROL Job Title] | 会社管理者の役職名。 |
@@ -264,7 +271,7 @@ _[!UICONTROL Companies]_&#x200B;ページには、ステータスに関係なく
 
 #### その他の列
 
-グリッドの[列レイアウト &#x200B;](../getting-started/admin-grid-controls.md)を変更すると、次の列を使用できます。
+グリッドの[列レイアウト ](../getting-started/admin-grid-controls.md)を変更すると、次の列を使用できます。
 
 | 列 | 説明 |
 |---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -326,7 +333,7 @@ _[!UICONTROL Companies]_&#x200B;ページには、ステータスに関係なく
 | [!UICONTROL Phone Number] | 会社の主要な電話番号。 |
 | [!UICONTROL State/Province] | 会社が事業を行うために登録されている州または州。 |
 | [!UICONTROL City] | 会社が事業を行うために登録されている都市。 |
-| [!UICONTROL Customer Group] | （管理者のみ）会社に割り当てられている[顧客グループ &#x200B;](../customers/customer-groups.md)または[共有カタログ &#x200B;](catalog-shared.md)を示します。 |
+| [!UICONTROL Customer Group] | （管理者のみ）会社に割り当てられている[顧客グループ ](../customers/customer-groups.md)または[共有カタログ ](catalog-shared.md)を示します。 |
 | [!UICONTROL Company Admin] | 会社管理者のフルネーム。 |
 | [!UICONTROL Action] | その会社ラインで考えられるアクションのリスト。 |
 
@@ -349,7 +356,7 @@ _[!UICONTROL Companies]_&#x200B;ページには、ステータスに関係なく
 
 | フィールド | 説明 |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Website] | 会社アカウントの[web サイト スコープ &#x200B;](../getting-started/websites-stores-views.md)を設定します。 デフォルトは&#x200B;*[!UICONTROL Main Website]*&#x200B;です。 |
+| [!UICONTROL Website] | 会社アカウントの[web サイト スコープ ](../getting-started/websites-stores-views.md)を設定します。 デフォルトは&#x200B;*[!UICONTROL Main Website]*&#x200B;です。 |
 | [!UICONTROL Job Title] | 会社アカウントを管理する会社管理者の役職。 |
 | [!UICONTROL Work Phone Number] | 会社アカウントを管理する会社管理者の電話番号。 |
 | [!UICONTROL Email] | 会社の管理者のメールアドレスは、会社のメールアドレスと同じにすることができます。 別のメールアドレスを入力すると、会社アカウントに加えて、会社の管理者に対して個別のアカウントが作成されます。 |
@@ -378,7 +385,7 @@ _[!UICONTROL Companies]_&#x200B;ページには、ステータスに関係なく
 
 | フィールド | 説明 |
 |-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Customer Group] | 会社に割り当てられている[顧客グループ &#x200B;](../customers/customer-groups.md)または[共有カタログ &#x200B;](catalog-shared.md)を示します。 |
+| [!UICONTROL Customer Group] | 会社に割り当てられている[顧客グループ ](../customers/customer-groups.md)または[共有カタログ ](catalog-shared.md)を示します。 |
 | [!UICONTROL Allow Quotes] | 会社のメンバーが会社の代理として交渉可能な見積もりを準備して提出できるかどうかを指定します。 |
 | [!UICONTROL Enable Purchase Orders] | 発注書が会社に対して許可されているかどうかを判断します。 会社メンバーアカウントで発注書を機能させるには、会社の管理者がストアフロントでこの機能を有効にする必要があります。 |
 | [!UICONTROL Applicable Payment Methods] | 会社の購入に使用できる支払い方法を示します。 オプション：`B2B Payment Methods` / `All Enabled Payment Methods` / `Specific Payment Methods` |

@@ -3,9 +3,15 @@ title: 製品アラート
 description: 商品アラートについて学び、商品の在庫状況や価格変更を顧客に通知するために利用する方法を学びます。
 exl-id: c9f736c5-7bba-4e3e-804d-5b0fe52c8f9b
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/n1n2tqb97EiM-vXZqifVgMOdBqNRdwNM-pjDI-D-b8M
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: 653
 ht-degree: 0%
 
 ---
@@ -24,17 +30,17 @@ ht-degree: 0%
 
 在庫アラートは、在庫切れの商品ごとに&#x200B;_この商品の在庫状況を知らせる_&#x200B;というリンクを作成します。 顧客はリンクをクリックして、アラートを購読できます。 商品の在庫が戻ると、顧客には商品が入手可能であることを知らせるメール通知が送られます。 アラートを含む製品には、製品情報パネルに「_製品アラート_」タブがあり、アラートを購読した顧客が一覧表示されます。
 
-![商品と価格アラートのサブスクリプションのリスト &#x200B;](assets/inventory-product-alerts.png){width="600" zoomable="yes"}
+![商品と価格アラートのサブスクリプションのリスト ](assets/inventory-product-alerts.png){width="600" zoomable="yes"}
 
 ## 商品アラートの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. クリックして&#x200B;_[!UICONTROL Product Alerts]_&#x200B;セクションを展開し、次の操作を行います。
+1. クリックして&#x200B;_[!UICONTROL Product Alerts]_セクションを展開し、次の操作を行います。
 
-   ![製品アラート &#x200B;](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
+   ![製品アラート ](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
 
    - 価格変更アラートを顧客に提供するには、**[!UICONTROL Allow Alert When Product Price Changes]**&#x200B;を`Yes`に設定します。
 
@@ -48,7 +54,7 @@ ht-degree: 0%
 
    - 商品の在庫アラートに使用するテンプレートに&#x200B;**[!UICONTROL Stock Alert Email Template]**&#x200B;を設定します。
 
-   - **[!UICONTROL Alert Email Sender]**&#x200B;を、電子メールアラートの送信者として表示する[&#x200B; ストア連絡先](../getting-started/store-details.md#store-email-addresses){target="_blank"}に設定します。 [&#x200B; メールアドレスの保存](../configuration-reference/general/store-email-addresses.md){target="_blank"}について詳しくは、コアユーザーガイドを参照してください。
+   - **[!UICONTROL Alert Email Sender]**&#x200B;を、電子メールアラートの送信者として表示する[ ストア連絡先](../getting-started/store-details.md#store-email-addresses){target="_blank"}に設定します。 [ メールアドレスの保存](../configuration-reference/general/store-email-addresses.md){target="_blank"}について詳しくは、コアユーザーガイドを参照してください。
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
@@ -56,15 +62,15 @@ ht-degree: 0%
 
 次に、価格アラートのメールテンプレートを設定、追加、または変更します。 テンプレートを追加した後で、価格アラート設定を編集することができます。
 
-メールメッセージの使用について詳しくは、_管理者システムガイド_&#x200B;の「[&#x200B; メッセージテンプレート &#x200B;](../systems/email-template-custom.md#message-templates)」を参照してください。
+メールメッセージの使用について詳しくは、_管理者システムガイド_&#x200B;の「[ メッセージテンプレート ](../systems/email-template-custom.md#message-templates)」を参照してください。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**に移動します。
 
 1. **[!UICONTROL Add New Template]**&#x200B;をクリックします。
 
 1. _既定のテンプレートを読み込む_&#x200B;で、カスタマイズする&#x200B;**[!UICONTROL Template]**&#x200B;を選択します。
 
-   テーマに含まれるアラートテンプレートを選択できます。 または、_[!UICONTROL Magento_PriceAlert]_&#x200B;の下にある`Price Alert`または`Stock Alert`個のテンプレートを選択できます。
+   テーマに含まれるアラートテンプレートを選択できます。 または、_[!UICONTROL Magento_PriceAlert]_の下にある`Price Alert`または`Stock Alert`個のテンプレートを選択できます。
 
 1. **[!UICONTROL Load Template]**&#x200B;をクリックします。
 
@@ -89,7 +95,7 @@ ht-degree: 0%
 
 ![製品アラート実行設定](assets/config-catalog-product-alerts-run-settings.png){width="600" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 

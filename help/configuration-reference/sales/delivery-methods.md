@@ -3,9 +3,15 @@ title: '[!UICONTROL Sales] > [!UICONTROL Delivery Methods]'
 description: Commerce管理者の[!UICONTROL Sales] > [!UICONTROL Delivery Methods] ページで設定を確認します。
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 7897d06c5d01eae39612b5d8a4f25514b4901acf
+TQID: https://experienceleague.adobe.com/gCddmom8a8D2mcin8TPv-fmxbFjKyjIdiQVLzIaaECU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '4550'
+source-wordcount: 4550
 ht-degree: 0%
 
 ---
@@ -20,7 +26,7 @@ ht-degree: 0%
 
 ![定額料金](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-<!-- [Flat Rate](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
+<!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -43,7 +49,7 @@ ht-degree: 0%
 
 ![送料無料](./assets/delivery-methods-free-shipping.png)<!-- zoom -->
 
-<!-- [Free Shipping](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
+<!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -62,9 +68,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Table Rates]
 
-![表レート &#x200B;](./assets/delivery-methods-table-rates.png)<!-- zoom -->
+![表レート ](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-<!-- [Table Rates](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
+<!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -87,7 +93,7 @@ ht-degree: 0%
 
 ![実店舗配信](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
-<!-- [In-Store Delivery](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -110,7 +116,7 @@ ht-degree: 0%
 
 ![UPS XML アカウント設定](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -130,7 +136,7 @@ ht-degree: 0%
 
 ![UPS パッケージ情報](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
-<!-- [UPS Package Information]https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -139,7 +145,7 @@ ht-degree: 0%
 | [!UICONTROL Packages Request Type] | web サイト | 複数のパッケージを含む出荷の重量の計算方法を指定します。 オプション：`Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
 | [!UICONTROL Shipper Number] | web サイト | （UPS RESTのみ）交渉レートを使用するには、6文字のUPS荷送人番号が必要です。 |
 | [!UICONTROL Container] | web サイト | 出荷のパッケージ化に使用するコンテナタイプを設定します。 オプション：`Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
-| [!UICONTROL Weight Unit] | web サイト | ストア内の商品の重みについて、デフォルトの測定単位を設定します。 詳細については、[&#x200B; ディメンションの重み](../../stores-purchase/carriers.md#dimensional-weight)を参照してください。 |
+| [!UICONTROL Weight Unit] | web サイト | ストア内の商品の重みについて、デフォルトの測定単位を設定します。 詳細については、[ ディメンションの重み](../../stores-purchase/carriers.md#dimensional-weight)を参照してください。 |
 | [!UICONTROL Tracking URL] | web サイト | （UPS RESTのみ）パッケージの追跡に使用されるUPS URL。 実稼動用には`https://onlinetools.ups.com/api/track`を、サンドボックス設定には`https://wwwcie.ups.com/api/track`を使用します。 |
 | [!UICONTROL Destination Type] | web サイト | デフォルトの出荷先タイプを設定します。 オプション：`Business` / `Residential` |
 | [!UICONTROL Maximum Package Weight] | web サイト | パッケージがUPSで指定された最大重量を設定します。 注文した商品が最大パッケージ重量を超えた場合、この配送オプションは利用できません。 [UPS.com](https://www.ups.com/us/en/global.page)によると、荷物は150 ポンド （70 kg）を超えることはできません。配送業者に確認して、最大重量を確認してください。 |
@@ -151,9 +157,9 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![UPS許可メソッド &#x200B;](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
+![UPS許可メソッド ](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
-<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -168,7 +174,7 @@ ht-degree: 0%
 
 ![UPS適用国とその他の設定](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
-<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -207,7 +213,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-次のフィールドが表示されない場合は、[USPS REST API移行品質パッチ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)を適用する必要があります。 このパッチは、Web ツール APIに代わるREST ベースのプラットフォームであるUSPS APIのサポートを有効にします。 詳しくは、[USPS Web Tools APIの非推奨化](../../stores-purchase/carriers.md)を参照してください。
+次のフィールドが表示されない場合は、[USPS REST API移行品質パッチ ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)を適用する必要があります。 このパッチは、Web ツール APIに代わるREST ベースのプラットフォームであるUSPS APIのサポートを有効にします。 詳しくは、[USPS Web Tools APIの非推奨化](../../stores-purchase/carriers.md)を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -219,14 +225,14 @@ ht-degree: 0%
 | [!UICONTROL Account Number] | web サイト | お客様のUSPS **口座番号** （REST APIの支払いに使用）。<br/><br/>**_Note:_**&#x200B;このフィールドはオプションですが、配送ラベルの作成を有効にする必要があります。 |
 | [!UICONTROL Customer Registration Identifier(CRID)] | web サイト | 顧客登録識別番号（CRID）は、REST APIの場所にある企業を一意に識別するUSPSが生成した数値コードです。<br/><br/>**_Note:_**&#x200B;このフィールドはオプションですが、配送ラベルの作成を有効にする必要があります。 |
 | [!UICONTROL Mailer Identifier(MID)] | web サイト | メーラー識別子（MID）は、メーラーを識別するために使用されるインテリジェントメールバーコード内のフィールドです。 MIDは、USPSによって、REST APIを要求するメール所有者、郵送担当者、またはその他のサービスプロバイダーに割り当てられます。<br/><br/>**_Note:_**&#x200B;このフィールドはオプションですが、配送ラベルの作成を有効にする必要があります。 |
-| [!UICONTROL Manifest MID] | web サイト | REST APIのマニフェストに指定された一意のメーラー識別子。<br/><br/>**_Note:_**&#x200B;このフィールドはオプションですが、配送ラベルの作成を有効にする必要があります。 [AC-15210](https://experienceleague.adobe.com/ja/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) パッチが適用されたMagento 2.4.7-p8の場合、[!UICONTROL Manifest MID]は必須フィールドです。 |
+| [!UICONTROL Manifest MID] | web サイト | REST APIのマニフェストに指定された一意のメーラー識別子。<br/><br/>**_Note:_**&#x200B;このフィールドはオプションですが、配送ラベルの作成を有効にする必要があります。 [AC-15210](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) パッチが適用されたMagento 2.4.7-p8の場合、[!UICONTROL Manifest MID]は必須フィールドです。 |
 | [!UICONTROL AES/ITN] | web サイト | USPS AES - Automated Export System / ITN - REST APIの内部トランザクション番号。 <br/><br/>**_Note:_**&#x200B;このフィールドは通常オプションですが、次の場合に出荷ラベルの作成を有効にするために必要です。 <ul><li>（Schedule B Export Codes <a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>で定義されているように）貨物の種類は、2,500 ドル以下で評価され、輸出許可は必要ありません。</li><li>この貨物は、価値に関係なく、カナダに送られており、輸出許可は必要ありません。</li></ul> |
 
 {style="table-layout:auto"}
 
 ![USPS パッケージ設定](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
-<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -241,7 +247,7 @@ ht-degree: 0%
 
 ![USPS料金設定の処理](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
-<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -252,9 +258,9 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![USPS許可メソッド &#x200B;](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
+![USPS許可メソッド ](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
-<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -268,7 +274,7 @@ ht-degree: 0%
 
 ![USPS適用国](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
-<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -282,7 +288,7 @@ ht-degree: 0%
 
 ### [!UICONTROL FedEx]
 
-<!-- [FedEx Account Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
 #### FedEx アカウント設定
 
@@ -302,7 +308,7 @@ ht-degree: 0%
 
 #### FedExのパッケージ設定
 
-![FedEx パッケージ &#x200B;](./assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
+![FedEx パッケージ ](./assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -360,7 +366,7 @@ ht-degree: 0%
 
 ![DHL アカウント設定](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
-<!-- [DHL Account Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -378,7 +384,7 @@ ht-degree: 0%
 
 ![DHL パッケージ設定](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
-<!-- [DHL Package Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -392,9 +398,9 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![DHLが許可したメソッド &#x200B;](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
+![DHLが許可したメソッド ](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
-<!-- DHL Allowed Methods](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -410,7 +416,7 @@ ht-degree: 0%
 
 ![DHL適用国](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
-<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

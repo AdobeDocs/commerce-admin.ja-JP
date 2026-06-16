@@ -1,64 +1,70 @@
 ---
-title: 'Adobe Commerce設定の [!DNL AR Viewer]'
-description: 製品リストで拡張機能を使用して 3D モデルアセットを管理す  [!DNL AR Viewer]  方法について説明します。
+title: Adobe Commerce セットアップ用[!DNL AR Viewer]
+description: 製品リストに [!DNL AR Viewer] 拡張機能を使用した3D モデルアセットの管理について説明します。
 exl-id: e3f081ff-b994-4842-a1f3-613012d33a9c
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+TQID: https://experienceleague.adobe.com/6OlcZ4Psm3INgVm7f-Y9JvqfUdmR6Rg48tcigLAHiaE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: 313
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce [!DNL AR Viewer] を使用した製品 3D モデルの管理
+# Adobe Commerce用[!DNL AR Viewer]を使用した商品3D モデルの管理
 
-製品ごとに、AR および 3D モデルを製品リストで使用できるようにする `.USDZ` ファイルをアップロードできます。
+製品ごとに、AR モデルと3D モデルを製品リストで使用できるように`.USDZ` ファイルをアップロードできます。
 
-[!DNL AR Viewer] は `.USDZ` ファイルのみをサポートします。
+[!DNL AR Viewer]は`.USDZ`個のファイルのみをサポートしています。
 
 ## 拡張機能のインストール
 
-[!DNL AR Viewer] は、[Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/magento-module-arviewer.html){target=_blank} から拡張機能としてインストールされています。
+[!DNL AR Viewer]は、[Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/magento-module-arviewer.html){target=_blank}の拡張機能としてインストールされています。
 
-拡張機能のインストールプロセスについて詳しくは、[_インストールガイド_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=ja) を参照してください。
+拡張機能のインストールプロセスについて詳しくは、[_インストールガイド_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)を参照してください。
 
-[!DNL AR Viewer] 拡張機能をインストールして設定すると、管理者ユーザーは、製品リストを設定、カスタマイズ、管理して 3D モデルを含めることができます。
+[!DNL AR Viewer]拡張機能をインストールして設定した後、管理者ユーザーは3D モデルを含めるように製品リストを設定、カスタマイズ、管理できます。
 
-## 3D モデルの追加
+## 3D モデルを追加
 
 1. 製品を編集モードで開きます。
 
-1. 特定のストア表示を操作するには、**[!UICONTROL Store View]** 選択を該当する表示に設定します。
+1. 特定のストアビューで作業するには、**[!UICONTROL Store View]**&#x200B;選択範囲を該当するビューに設定します。
 
    >[!NOTE]
    >
-   >新しい製品 3D モデルは _常に_ アップロードされ、`All Store Views` スコープがアップロードに使用されない場合でも _すべて_ ストアビューに表示されます。 <br/><br/> 特定のストア表示で製品 3D モデルを非表示にするには、そのストア表示に切り替えて、3D モデルの「**[!UICONTROL Hide from Product Page]**」チェックボックスをオンにし、「**[!UICONTROL Save]**」をクリックする必要があります。
+   >新しい製品3D モデルは、`All Store Views` スコープがアップロードに使用されていない場合でも、_常に_ アップロードされ、_すべて_&#x200B;のストアビューに表示されます。 <br/><br/>特定のストアビューから商品3D モデルを非表示にするには、そのストアビューに切り替え、3D モデルの&#x200B;**[!UICONTROL Hide from Product Page]** チェックボックスを選択して、**[!UICONTROL Save]**&#x200B;をクリックする必要があります。
 
-1. 下にスクロールして、「_[!UICONTROL Product 3D Model]_」セクションを展開します。
+1. 下にスクロールして、_[!UICONTROL Product 3D Model]_セクションを展開します。
 
-   ![&#x200B; メニューポップアップ &#x200B;](assets/ar-viewer-product-options.png){width="700" zoomable="yes"}
+   ![ メニューポップアップ ](assets/ar-viewer-product-options.png){width="700" zoomable="yes"}
 
-1. 製品の 3D モデル（`.USDZ` ファイル）を追加します。
+1. 製品の3D モデル （`.USDZ` ファイル）を追加します。
 
-1. 「**[!UICONTROL Save]**」をクリックします。
+1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
-### 3D モデルの削除
+### 3D モデルを削除
 
-製品の詳細から 3D モデルを削除するには：
+製品の詳細から3D モデルを削除するには：
 
-1. 「**[!UICONTROL Delete]**」をクリックします。
+1. **[!UICONTROL Delete]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL Save]**」をクリックします。
+1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
-## 製品の 3D モデルを表示
+## 製品の3D モデルの表示
 
-製品の詳細が 3D モデルで更新された場合：
+製品の詳細が3D モデルで更新された場合：
 
-1. [!DNL AR Viewer] は、AR ファイルをエンコードする QR コードを製品説明内に生成します。
+1. [!DNL AR Viewer]は、AR ファイルをエンコードする製品説明にQR コードを生成します。
 
-1. お客様は、この QR コードを製品ページで確認できます。
+1. 顧客は商品ページでこのQR コードを見ることができます。
 
-1. 顧客がモバイルデバイスで QR コードをスキャンすると、モバイルデバイスで AR エクスペリエンスがレンダリングされます。
+1. 顧客がモバイルデバイスでQR コードをスキャンすると、AR体験がモバイルデバイスでレンダリングされます。
 
 >[!NOTE]
 >
-> 製品に 3d モデルを追加するユーザーの一連のデモビデオについては、_CommerceのビデオとTutorials[&#x200B; の &#x200B;](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html?lang=ja)Adobe Commerceの AR ビューア_ を参照してください。
+> 3d モデルを製品に追加するユーザーの一連のデモ動画については、_Commerce ビデオとチュートリアル_&#x200B;の[AR Viewer for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html) ページを参照してください。

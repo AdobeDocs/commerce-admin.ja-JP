@@ -1,61 +1,67 @@
 ---
-title: 「有効にする  [!DNL Inventory Management]」
-description: グローバルストアまたは製品レベルで有効にする方法を説明します  [!DNL Inventory Management]
+title: ' [!DNL Inventory Management]を有効にする'
+description: グローバルなストアまたは製品レベルで [!DNL Inventory Management] を有効にする方法について説明します。
 exl-id: 89bd2f8b-b9e4-4b9a-b729-f7bd71f764c9
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/evCX34nY-m7WQnZt3xw7ng6-It7Xlf5DTanjKbP1fCk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: 337
 ht-degree: 0%
 
 ---
 
-# Enable [!DNL Inventory Management]
+# [!DNL Inventory Management]を有効にする
 
-製品インベントリを管理するには、グローバルストアまたは製品レベルで [!DNL Inventory Management] を有効にします。 _在庫を管理_ オプションが有効になっている場合、[!DNL Inventory Management] は設定された在庫とソースを通じて、サイトで使用可能な製品数量を自動的に追跡します。 すべての機能とオプションは、有効になると、追加の設定なしでトラッキングとレポート作成を開始します。
+商品の在庫を管理するには、グローバル店舗または商品レベルで[!DNL Inventory Management]を有効にします。 _在庫の管理_ オプションが有効になっている場合、[!DNL Inventory Management]は、設定された在庫とソースを通じて、サイトで利用可能な製品数量を自動的に追跡します。 すべての機能とオプションは、追加の設定なしで、有効にすると追跡とレポートが開始されます。
 
-ビジネスの運営と在庫の更新をセールスのスピードに合わせて行います。 顧客が買い物をするとき、販売チャネルおよびソースごとに、利用可能な在庫の正確で更新された情報を受け取ります。 利用可能な販売可能数量は、顧客が買い物かごに商品を追加して購入を完了したとき、および注文を管理し、出荷を作成し、払い戻しを発行したときに、在庫ごとに更新されます。 新規または転送済みの在庫の到着は、ソースに更新され、オンライン販売ですぐに利用できます。 バックオーダーは、無制限オーダーまたは追加構成なしで、指定されたしきい値まで完了します。 また、1 つ以上のソースに対して一部または全出荷を入力し、提示を使用して完了することで、受注の履行および手持在庫を完全に管理できます。
+セールスのスピードに合わせてビジネスを展開し、在庫を更新できます。 顧客が商品を購入すると、販売チャネルとソースごとに、利用可能な在庫に関する最新の正確な情報が届きます。 使用可能な販売可能数量は、顧客が商品をカートに追加して購入を完了した場合、および注文を管理し、配送を作成し、返金を発行した場合に、在庫ごとに更新されます。 新しいまたは転送された在庫アップデートのソースへの到着、オンライン販売ですぐに利用できます。 バックオーダーは、無制限の注文や追加の設定なしに、指定されたしきい値まで完了します。 また、レコメンデーションを利用して、1つまたは複数のソースをまたいで部分的または全面的な出荷を入力および完了させることで、注文フルフィルメントと手元の在庫を完全に管理できます。
 
 >[!NOTE]
 >
->デフォルトでは、[!DNL Commerce] のインストール時またはアップグレード時に [!DNL Inventory Management] が有効になります。 ビジネスニーズに応じて、[!DNL Commerce] 内でトラッキングする [!DNL Inventory Management] を有効または無効にできます。
+>デフォルトでは、[!DNL Commerce]のインストールまたはアップグレード時に[!DNL Inventory Management]が有効になります。 ビジネスのニーズに応じて、[!DNL Commerce]内でトラッキング対象の[!DNL Inventory Management]を有効または無効にすることができます。
 
-この設定が単一および複数ソースのインベントリでどのように機能するか：
+この設定は、シングルソースおよびマルチソースのインベントリで機能します。
 
-- [!DNL Inventory Management] を使用するには、_[!UICONTROL Manage Stock]_&#x200B;を有効にします。
+- [!DNL Inventory Management]を使用するには、_[!UICONTROL Manage Stock]_を有効にします。
 
-- 製品レベル設定の [!UICONTROL Manage Stock] の設定は、ストア設定よりも優先されます。
+- 製品レベル設定の[!UICONTROL Manage Stock]設定は、ストア設定を上書きします。
 
-- Order Managementまたはサードパーティのサービス（ERP など）を使用するには、[!UICONTROL Manage Stock] を無効にします。
+- Order Managementまたはサードパーティのサービス （ERPなど）を使用するには、[!UICONTROL Manage Stock]を無効にします。
 
-- 製品レベルの設定でシステムのデフォルトが使用されている場合は、ストアの設定が上書きされます。
+- 製品レベルの設定でシステムのデフォルトが使用されている場合は、ストア設定が上書きされます。
 
-[!DNL Inventory Management] を有効にした場合、すべての設定を指定するには以下の説明を参照してください。
+[!DNL Inventory Management]が有効になっている場合は、すべての設定を構成するために次を参照してください。
 
-- [&#x200B; グローバルオプションの設定 &#x200B;](global-options.md) - カタログ全体に影響する設定は、システムのデフォルト設定と見なされます。
+- [ グローバル オプションの設定](global-options.md) - カタログ全体に影響する設定は、システムの既定の設定と見なされます。
 
-- [&#x200B; 製品オプションの設定 &#x200B;](product-options.md) - グローバルオプションを上書きする特定の製品の設定。
+- [製品オプションの設定](product-options.md) - グローバルオプションを上書きする特定の製品の設定。
 
-## [!DNL Inventory Management] の有効化または無効化
+## [!DNL Inventory Management]を有効または無効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、「**[!UICONTROL Inventory]**」を選択します。
+1. 左側のパネルで、**[!UICONTROL Catalog]**&#x200B;を展開し、**[!UICONTROL Inventory]**&#x200B;を選択します。
 
-1. ![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)_製品ストックオプション_ を展開し、以下を設定します。
+1. ![拡張セレクター](../assets/icon-display-expand.png) _製品ストックオプション_&#x200B;を展開して設定します。
 
-   ![&#x200B; 商品ストックオプション &#x200B;](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
+   ![商品ストックオプション ](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
 
-   - 在庫を管理し、すべての [!DNL Commerce] 機能を使用するには、**[!UICONTROL Manage Stock]** を `Yes` （デフォルト）に設定します。
+   - 在庫を管理し、すべての[!DNL Commerce]機能を使用するには、**[!UICONTROL Manage Stock]**&#x200B;を`Yes`に設定します（デフォルト）。
 
-   - [!DNL Inventory Management] を無効にするには、「**[!UICONTROL Use system value]**」チェックボックスの選択を解除し、「**[!UICONTROL Manage Stock]**」を「`No`」に設定します。
+   - [!DNL Inventory Management]を無効にするには、**[!UICONTROL Use system value]** チェックボックスの選択を解除し、**[!UICONTROL Manage Stock]**&#x200B;を`No`に設定します。
 
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
 ## 店舗の在庫の管理
 
-[&#x200B; グローバルオプションの設定 &#x200B;](global-options.md) を参照してください。
+[ グローバルオプションの設定](global-options.md)を参照してください。
 
-## 製品の在庫の管理
+## 商品の在庫の管理
 
-[&#x200B; 製品オプションの設定 &#x200B;](product-options.md) を参照してください。
+[製品オプションの設定](product-options.md)を参照してください。

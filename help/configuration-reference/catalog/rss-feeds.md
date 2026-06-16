@@ -1,11 +1,17 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
-description: Commerce Admin の [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] ページで設定を確認します。
+title: '[!UICONTROL Catalog] > [!UICONTROL RSS Feeds]'
+description: Commerce管理者の[!UICONTROL Catalog] > [!UICONTROL RSS Feeds] ページで設定を確認します。
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/vPgIo-h-9LkwMsk7enzY0rM5vMZlj78tT-jqumL5n60
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: 182
 ht-degree: 2%
 
 ---
@@ -16,53 +22,53 @@ ht-degree: 2%
 
 ## [!UICONTROL Rss Config]
 
-![Rss 設定 &#x200B;](./assets/rss-feeds-rss-config.png)<!-- zoom -->
+![Rss設定](./assets/rss-feeds-rss-config.png)<!-- zoom -->
 
-<!-- [Rss Config](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/communications/social-rss) -->
+<!-- [Rss Config](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/social-rss) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable RSS] | ストア表示 | 顧客がストアから RSS フィードを受信できるようにします。 |
+| [!UICONTROL Enable RSS] | ストアビュー | お客様がストアからRSS フィードを受信できるようにします。 |
 
 {style="table-layout:auto"}
 
-RSS フィードを有効にした後に使用する方法の詳細については、「[&#x200B; ソーシャルメディアと RSS フィード &#x200B;](../../merchandising-promotions/social-rss.md)」を参照してください。
+有効にした後にRSS フィードを使用する方法について詳しくは、[ ソーシャルメディアとRSS フィード ](../../merchandising-promotions/social-rss.md)を参照してください。
 
 ## [!UICONTROL Wish List]
 
-![&#x200B; ウィッシュリスト &#x200B;](./assets/rss-feeds-wishlist.png)<!-- zoom -->
+![ ウィッシュリスト ](./assets/rss-feeds-wishlist.png)<!-- zoom -->
 
-<!-- [Wish List](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
+<!-- [Wish List](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enable RSS] | ストア表示 | 有効化すると、ウィッシュリストページの上部に RSS フィードリンクが表示されます。 ウィッシュリスト共有ページには、共有ウィッシュリストからフィードにリンクするために顧客が選択できるチェックボックスが含まれています。 |
+| [!UICONTROL Enable RSS] | ストアビュー | 有効にすると、ウィッシュリストページの上部にRSS フィードのリンクが表示されます。 ウィッシュリスト共有ページには、顧客が共有ウィッシュリストからフィードにリンクするために選択できるチェックボックスが含まれています。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Catalog]
 
-![&#x200B; カタログ &#x200B;](./assets/rss-feeds-catalog.png)<!-- zoom -->
+![ カタログ ](./assets/rss-feeds-catalog.png)<!-- zoom -->
 
-<!-- [Catalog](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog-menu) -->
+<!-- [Catalog](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL New Products] | ストア表示 | 有効にすると、ストアカタログに追加された新製品の通知が公開されます。 |
-| [!UICONTROL Special Products] | ストア表示 | 有効にすると、特別価格が設定されている製品に関する通知が公開されます。 |
-| [!UICONTROL Coupons/Discounts] | ストア表示 | 有効にすると、クーポンまたは割引の通知が公開されます。 |
-| [!UICONTROL Top Level Category] | ストア表示 | カタログの最上位のカテゴリ構造に対する変更の通知を公開します。この通知は、メインメニューに反映されます。 |
+| [!UICONTROL New Products] | ストアビュー | 有効にすると、ストアカタログに追加された新製品の通知が公開されます。 |
+| [!UICONTROL Special Products] | ストアビュー | 有効にすると、特別価格の製品の通知を公開します。 |
+| [!UICONTROL Coupons/Discounts] | ストアビュー | 有効にすると、クーポンや割引の通知を公開します。 |
+| [!UICONTROL Top Level Category] | ストアビュー | 変更の通知をカタログの最上位カテゴリ構造に公開し、メインメニューに反映します。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
-![&#x200B; 順序 &#x200B;](./assets/rss-feeds-order.png)<!-- zoom -->
+![注文](./assets/rss-feeds-order.png)<!-- zoom -->
 
-<!-- [Order](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
+<!-- [Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-status#notification) -->
 
-| フィールド | [&#x200B; 範囲 &#x200B;](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Customer Order Status Notification] | ストア表示 | 顧客が RSS フィードで注文の状態を追跡できるようにします。 有効化すると、RSS フィードリンクがオーダーに表示されます |
+| [!UICONTROL Customer Order Status Notification] | ストアビュー | RSS フィードで注文状況を追跡できます。 有効にすると、注文にRSS フィード リンクが表示されます |
 
 {style="table-layout:auto"}

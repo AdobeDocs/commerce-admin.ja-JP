@@ -3,9 +3,15 @@ title: ストアクレジットを適用
 description: ストア管理者は、ストアクレジットを購入に適用できます。
 exl-id: 97b6b206-71db-435c-8736-a781437bb0b4
 feature: Customers, Storefront
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+TQID: https://experienceleague.adobe.com/O2EJMZscownPnhjPeFROdwikhYmHuDYdCx4N7NpXlho
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: 321
 ht-degree: 0%
 
 ---
@@ -26,7 +32,7 @@ ht-degree: 0%
 
 1. _アクション_&#x200B;列で、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. _[!UICONTROL Customer View]_&#x200B;ページをスクロールし、下部の&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;を表示します。
+1. _[!UICONTROL Customer View]_ページをスクロールし、下部の&#x200B;**[!UICONTROL Store Credit Balance]**を表示します。
 
 ![店舗クレジット残高](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
@@ -64,13 +70,13 @@ ht-degree: 0%
 
 1. 顧客は、利用可能なストアクレジットの金額を表示します。
 
-   _確認と支払い_&#x200B;の手順では、使用可能な金額は&#x200B;_[!UICONTROL Store Credit]_&#x200B;の下に表示されます。
+   _確認と支払い_&#x200B;の手順では、使用可能な金額は&#x200B;_[!UICONTROL Store Credit]_の下に表示されます。
 
 1. 金額を注文に適用するには、**[!UICONTROL Use Store Credit]**&#x200B;をクリックします。
 
    >[!INFO]
    >
-   >注文合計が再計算され、適用される店舗クレジットの金額が&#x200B;_[!UICONTROL Order Summary]_&#x200B;に表示されます。
+   >注文合計が再計算され、適用される店舗クレジットの金額が&#x200B;_[!UICONTROL Order Summary]_に表示されます。
 
    ![注文に適用されたストアのクレジット残高](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 

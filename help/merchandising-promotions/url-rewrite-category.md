@@ -3,10 +3,16 @@ title: カテゴリ URLの書き換え
 description: カテゴリ URLの書き換えを使用して、Commerce ストア内の別のカテゴリのURLにリンクをリダイレクトする方法を説明します。
 exl-id: fc18f472-4aa8-4203-ade9-7ca576689d61
 feature: Categories, Configuration
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: https://experienceleague.adobe.com/pIcBllfXpvaTiAJJFL8kpeU62krmeC1LJ4xKf-9Kr08
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: 712
 ht-degree: 0%
 
 ---
@@ -15,7 +21,7 @@ ht-degree: 0%
 
 カテゴリがカタログから削除された場合は、カテゴリの書き換えを使用して、ストア内の別のカテゴリのURLにリンクをリダイレクトできます。 _target_ / _元のリクエスト_&#x200B;または&#x200B;_リダイレクト先_ / _リダイレクト先_&#x200B;を考えてみましょう。 人々は、検索エンジンや古いリンクから以前のページに移動する可能性はありますが、このリダイレクトにより、ストアは新しいターゲットに切り替わります。
 
-ストアで[自動リダイレクト &#x200B;](url-redirect-product-automatic.md)が有効になっている場合、カテゴリ [URL キー](../catalog/catalog-urls.md)が変更されたときに書き換えを作成する必要はありません。
+ストアで[自動リダイレクト ](url-redirect-product-automatic.md)が有効になっている場合、カテゴリ [URL キー](../catalog/catalog-urls.md)が変更されたときに書き換えを作成する必要はありません。
 
 {{url-rewrite-skip}}
 
@@ -35,7 +41,7 @@ ht-degree: 0%
 
 {{url-rewrite-params}}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**に移動します。
 
 1. 続行する前に、次の手順を実行して、リクエストパスが使用可能であることを確認します。
 
@@ -45,7 +51,7 @@ ht-degree: 0%
 
    - 右上隅の「**[!UICONTROL Delete]**」をクリックします。 プロンプトが表示されたら、**[!UICONTROL OK]**&#x200B;をクリックして確認します。
 
-1. _[!UICONTROL URL Rewrites]_&#x200B;ページに戻ったら、**[!UICONTROL Add URL Rewrite]**&#x200B;をクリックします。
+1. _[!UICONTROL URL Rewrites]_ページに戻ったら、**[!UICONTROL Add URL Rewrite]**をクリックします。
 
 1. **[!UICONTROL Create URL Rewrite]**&#x200B;を`For category`に設定し、リダイレクトの宛先であるツリー内のターゲットカテゴリを選択します。
 
@@ -68,7 +74,7 @@ ht-degree: 0%
 
    - 参照用に、書き換えの簡単な説明を入力します。
 
-   ![&#x200B; カテゴリ &#x200B;](./assets/url-rewrite-for-category.png){width="700" zoomable="yes"}のURL書き換えを追加
+   ![ カテゴリ ](./assets/url-rewrite-for-category.png){width="700" zoomable="yes"}のURL書き換えを追加
 
 1. リダイレクトを保存する前に、次の点を確認してください。
 

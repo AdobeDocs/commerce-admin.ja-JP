@@ -3,10 +3,16 @@ title: PayPalの契約形態
 description: PayPalの請求契約書とストア内での支払い方法をサポートする方法について説明します。
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: https://experienceleague.adobe.com/Tg37Iu-rlC4Bp-PHbXig-QVzlbpRkaCLGHOQ3yrNY9M
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: 821
 ht-degree: 0%
 
 ---
@@ -27,15 +33,15 @@ ht-degree: 0%
 
 ## 請求契約書の管理
 
-_[!UICONTROL Billing Agreements]_&#x200B;ページには、ストアと顧客の間のすべての請求契約書が一覧表示されます。 加盟店は、請求契約書の参照ID、ステータス、作成日など、顧客または請求契約書情報によってレコードをフィルタリングできます。 各レコードには、請求契約書に関する一般的な情報と、それを支払い方法として使用したすべての販売注文が含まれます。 お客様の請求契約書を表示、キャンセル、または削除できます。 キャンセルされた請求契約書は、ストア管理者のみが削除できます。
+_[!UICONTROL Billing Agreements]_ページには、ストアと顧客の間のすべての請求契約書が一覧表示されます。 加盟店は、請求契約書の参照ID、ステータス、作成日など、顧客または請求契約書情報によってレコードをフィルタリングできます。 各レコードには、請求契約書に関する一般的な情報と、それを支払い方法として使用したすべての販売注文が含まれます。 お客様の請求契約書を表示、キャンセル、または削除できます。 キャンセルされた請求契約書は、ストア管理者のみが削除できます。
 
 ### 請求契約書の表示
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**に移動します。
 
 1. リストで請求契約書を見つけて、クリックして開きます。
 
-各請求契約書ページは、_[!UICONTROL General Information]_&#x200B;と_[!UICONTROL Related Orders]_&#x200B;の2つのタブで構成されています。
+各請求契約書ページは、_[!UICONTROL General Information]_と_[!UICONTROL Related Orders]_&#x200B;の2つのタブで構成されています。
 
 #### 一般情報
 
@@ -57,7 +63,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;ページには、ストアと顧客の
 
 ### 請求契約書のキャンセル
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**に移動します。
 
 1. リストで請求契約書を見つけて、クリックして開きます。
 
@@ -67,7 +73,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;ページには、ストアと顧客の
 
 ### 請求契約書の削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**に移動します。
 
 1. リストで請求契約書を見つけて、クリックして開きます。
 
@@ -94,7 +100,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;ページには、ストアと顧客の
 
 決済代行会社と請求契約を締結したお客様は、契約に従って、今すぐ購入し、後で支払いを行うことができます。 を
 
-![お客様のダッシュボードの請求契約書リスト &#x200B;](./assets/billing-agreements-dashboard.png){width="700" zoomable="yes"}
+![お客様のダッシュボードの請求契約書リスト ](./assets/billing-agreements-dashboard.png){width="700" zoomable="yes"}
 
 | 列 | 説明 |
 |--- |--- |

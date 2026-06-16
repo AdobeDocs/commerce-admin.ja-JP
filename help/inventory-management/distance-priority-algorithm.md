@@ -1,137 +1,143 @@
 ---
 title: 距離優先アルゴリズムの設定
-description: 出荷先所在地の事業所をソース事業所と比較して、出荷を履行する最も近いソースを決定するための構成を設定します。
+description: 出荷先住所の場所とソースの場所を比較するための設定を設定して、出荷を処理する最も近いソースを決定します。
 exl-id: 4dec179a-25ac-48db-a84b-4974798272b0
 feature: Inventory, Configuration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/hImn3RZ89qP2ysFEM8lx-plNpFzx9ogMuj92kKqC3Eg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: 832
 ht-degree: 0%
 
 ---
 
 # 距離優先アルゴリズムの設定
 
-距離優先アルゴリズムでは、出荷先所在地の事業所がソース事業所と比較され、出荷を履行する最も近いソースが決定されます。 距離は、データベースデータを用いてある場所から別の場所へ移動したり、車を運転したり、歩いたり、自転車で移動したりするのに費やした物理的な距離または時間によって決定される。 この [Source選択アルゴリズムを使用すると &#x200B;](selection-reservations.md) 出荷先アドレスに最も近い出荷元をお勧めします。
+距離優先アルゴリズムは、配送先住所の場所と発送元の場所を比較して、出荷を処理する最も近い発送元を決定します。 距離は、データベースデータを使用するか、運転、歩行、または自転車の方向を使用して、ある場所から別の場所へ移動するのに費やされた物理的な距離または時間によって決定され得る。 この[Source Selection Algorithm](selection-reservations.md)を使用して、配送先住所に最も近いソースをレコメンドします。
 
 >[!NOTE]
 >
->[ 距離優先アルゴリズム ] を使用している場合は、[&#x200B; ソース &#x200B;](sources-add.md) の完全な住所と GPS 座標を入力することをお勧めします。
+>距離優先アルゴリズムを使用している場合は、[ ソース ](sources-add.md)の完全な住所とGPS座標を入力することをお勧めします。
 
-出荷履行の最も近いソースを検索するための距離と時間を計算するには、次の 2 つの方法があります。
+距離と時間を計算して、出荷フルフィルメントに最も近いソースを見つけるには、次の2つのオプションがあります。
 
-- **Googleの地図** - [Googleの地図 Platform](https://cloud.google.com/maps-platform/) サービスを使用して、発送先住所と発送元住所の間の距離と時間を計算します。 このオプションは、ソースの緯度と経度（GPS 座標）を使用し、計算モードに応じて住所を使用する場合があります。 [Geocoding API](https://developers.google.com/maps/documentation/geocoding/start) および [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start) を有効にしている場合、Google API キーが必要であり、Googleを通じて料金が発生する場合があります。
+- **Google MAP** - [Google Maps Platform](https://cloud.google.com/maps-platform/) サービスを使用して、配送先住所と送信元の場所の間の距離と時間を計算します。 このオプションは、ソースの緯度と経度（GPS座標）を使用し、計算モードに応じてストリートアドレスを使用できます。 [ ジオコーディング API](https://developers.google.com/maps/documentation/geocoding/start)および[Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start)が有効になっている場合は、Google API キーが必要です。Googleを通じて料金が発生する場合があります。
 
-- **オフライン計算** - ダウンロードおよび読み込んだジオコードデータ（郵便番号および GPS 座標を使用）を使用して距離を計算し、発送先住所に最も近いソースを決定します。 このオプションを設定するには、開発者の支援が必要な場合があり、コマンドラインの手順を使用して最初にジオコードをダウンロードして読み込みます。
+- **オフライン計算** - zip/post コードとGPS座標を使用して、ダウンロードおよびインポートされたジオコードデータを使用して距離を計算し、配送先住所に最も近いソースを特定します。 このオプションを設定するには、最初にコマンドライン手順を使用してジオコードをダウンロードおよびインポートするために、開発者支援が必要になる場合があります。
 
 >[!NOTE]
 >
->複数の国を含むマルチストア web サイトの場合は、国ごとに [&#x200B; デフォルトの納税先 &#x200B;](../stores-purchase/tax-class.md#default-tax-destination){target="_blank"} を設定します。
+>複数の国を持つマルチストア web サイトの場合は、各国用に[ デフォルトの税宛先](../stores-purchase/tax-class.md#default-tax-destination){target="_blank"}を設定します。
 
 ## Google マップの使用
 
-開始するためにGoogle アカウントは必要ありません。 このプロセスには、Google アカウントと、必要に応じたプロジェクトの作成が含まれます。 このオプションでは、設定を行ってアルゴリズムを使用するために、Google アカウントに追加された請求アカウントおよびお支払い方法が必要です。
-ただし、オフライン計算よりも高度で正確なGoogleの MAP 距離ベースのアルゴリズムをお勧めします。
+Google アカウントは必要ありません。必要に応じて、このプロセスにはGoogle アカウントとプロジェクトの作成が含まれます。このオプションを使用するには、Google アカウントに請求先アカウントと支払い方法を追加して、設定を完了し、アルゴリズムを使用する必要があります。
+ただし、Google MAP距離ベースのアルゴリズムは、オフライン計算と比較してより高度で正確なものをお勧めします。
 
-### 手順 1:Google API キーの作成
+### 手順1:Google API キーの作成
 
-キーは [Google地図プラットフォームからのもので &#x200B;](https://cloud.google.com/maps-platform/) [Geocoding API](https://developers.google.com/maps/documentation/geocoding/start) および [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start) が有効になっている必要があります。 詳しくは、「距離優先アルゴリズムの設定 [&#x200B; を参照してください &#x200B;](distance-priority-algorithm.md)。
+キーは[Google Maps Platform](https://cloud.google.com/maps-platform/)からのもので、[ ジオコーディング API](https://developers.google.com/maps/documentation/geocoding/start)と[Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start)を有効にする必要があります。 詳しくは、[距離優先アルゴリズムの設定](distance-priority-algorithm.md)を参照してください。
 
-1. [Google Maps Platform にアクセスし &#x200B;](https://cloud.google.com/maps-platform/) 「**[!UICONTROL Get Started]**」をクリックします。
+1. [Google Maps Platform](https://cloud.google.com/maps-platform/)にアクセスし、**[!UICONTROL Get Started]**&#x200B;をクリックします。
 
-1. プラットフォームを有効にするには、「**[!UICONTROL Maps, Routes, and Places]**」を選択し、「**[!UICONTROL Continue]**」をクリックします。
+1. プラットフォームを有効にするには、**[!UICONTROL Maps, Routes, and Places]**&#x200B;を選択し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
-   ![Googleがキーの Platform をマップする &#x200B;](assets/inventory-google-key1.png){width="350" zoomable="yes"}
+   キー](assets/inventory-google-key1.png){width="350" zoomable="yes"}の![Google Maps Platform
 
-1. Google アカウントを使用してログインするか、アカウントを作成します。
+1. Google アカウントでログインするか、アカウントを作成します。
 
-1. プロジェクトを設定します。
+1. プロジェクトの設定：
 
    - プロジェクトを選択するか、新しいプロジェクト名を入力します。
 
-   - 条件に同意するには、「`Yes`」を選択します。
+   - 条件に同意するには、`Yes`を選択します。
 
-   - 「**[!UICONTROL Next]**」をクリックします。
+   - **[!UICONTROL Next]**&#x200B;をクリックします。
 
-1. 請求アカウントを入力するか、作成します。 請求アカウントは後でスキップして追加できます。
+1. 請求先アカウントを入力するか、請求先アカウントを作成します。 後で請求アカウントをスキップして追加できます。
 
-   このサービスを利用するには、課金アカウントが必要です。
+   このサービスを利用するには請求先アカウントが必要です。
 
-1. Google Cloud Platform オプションを開いて設定するには、「**[!UICONTROL Console]**」をクリックします。
+1. Google Cloud Platform オプションを開いて設定するには、**[!UICONTROL Console]**&#x200B;をクリックします。
 
    - プロジェクトを開きます。
 
-   - メニューを展開し、**[!UICONTROL APIs & Services]**/**[!UICONTROL Library]** をクリックします。
+   - メニューを展開し、**[!UICONTROL APIs & Services]** > **[!UICONTROL Library]**&#x200B;をクリックします。
 
-     ![Google API サービス &#x200B;](assets/inventory-google-key2.png){width="350" zoomable="yes"}
+     ![Google API サービス ](assets/inventory-google-key2.png){width="350" zoomable="yes"}
 
-   - [Geocoding API](https://developers.google.com/maps/documentation/geocoding/start) と [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start) を検索します。 各サービスを選択して有効にします。
+   - [ ジオコーディング API](https://developers.google.com/maps/documentation/geocoding/start)と[距離行列API](https://developers.google.com/maps/documentation/distance-matrix/start)を検索します。 各サービスを選択して有効にします。
 
-1. メニューを展開し、**[!UICONTROL APIs & Services]**/**[!UICONTROL Credentials]** をクリックして、Google API キーをコピーします。
+1. メニューを展開し、**[!UICONTROL APIs & Services]** > **[!UICONTROL Credentials]**&#x200B;をクリックして、Google API キーをコピーします。
 
-   ![Google API キーのコピー &#x200B;](assets/inventory-google-key3.png){width="350" zoomable="yes"}
+   ![Google API キーコピー](assets/inventory-google-key3.png){width="350" zoomable="yes"}
 
-### 手順 2:Google MAP プロバイダーの設定
+### 手順2:Google MAP プロバイダーの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、「**[!UICONTROL Inventory]**」を選択します。
+1. 左側のパネルで、**[!UICONTROL Catalog]**&#x200B;を展開し、**[!UICONTROL Inventory]**&#x200B;を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png) 「_[!UICONTROL Distance Provider for Distance Based SSA]_」セクションを展開し、「**[!UICONTROL Provider]**」を「`Google MAP`」に設定します。
+1. _[!UICONTROL Distance Provider for Distance Based SSA]_セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、**[!UICONTROL Provider]**を`Google MAP`に設定します。
 
-   ![&#x200B; 距離ベース SSA のプロバイダ &#x200B;](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
+   ![距離ベースのSSAのプロバイダー](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. ![&#x200B; のセクションの &#x200B;](../assets/icon-display-expand.png) 展開セレクター _[!UICONTROL Google Distance Provider]_&#x200B;を展開し、設定を指定します。
+1. _[!UICONTROL Google Distance Provider]_セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、設定を構成します。
 
-   - **[!UICONTROL Google API Key]**: Google アカウントからコピーしたキーを入力します。
+   - **[!UICONTROL Google API Key]**&#x200B;に、Google アカウントからコピーしたキーを入力します。
 
-   - **[!UICONTROL Computation mode]**：設定を選択します。
+   - **[!UICONTROL Computation mode]**&#x200B;で、設定を選択します。
 
      >[!NOTE]
      >
-     >配送にこのアルゴリズムを使用する際に、配送に対して選択された計算モード（運転、自転車、または歩行）でルートとデータが返されない場合、SSA はデフォルトでSource プライオリティを使用します。 [&#x200B; 在庫あたりのソースの優先度 &#x200B;](stocks-prioritize-sources.md) を設定することをお勧めします。
+     >このアルゴリズムを出荷用に使用する場合、出荷用に選択した計算モード（運転、自転車、またはウォーキング）にルートとデータが戻らない場合、SSAはデフォルトでSource優先度を使用します。 在庫ごとのソースの[優先度](stocks-prioritize-sources.md)を設定することをお勧めします。
 
      | オプション | 説明 |
      | ----- | ----- |
-     | `Driving` | （既定）道路ネットワークを使用して標準運転方向を要求します。 |
-     | `Walking` | 歩行者用道路および歩道（利用可能な場合）を使用して歩行方向を要求します。 |
-     | `Bicycling` | 自転車道および優先する道路（利用可能な場合）を使用して自転車道をリクエストします。 [Distance Matrix Service](https://developers.google.com/maps/documentation/javascript/distancematrix#travel_modes) は、米国および一部のカナダの都市でのみ利用できます。 |
+     | `Driving` | （デフォルト）道路ネットワークを使用して標準的な運転方向を要求します。 |
+     | `Walking` | 歩道や歩道を使用して歩く道案内をリクエストします（利用可能な場合）。 |
+     | `Bicycling` | 自転車道と好みの通りを使用して自転車道をリクエストします（利用可能な場合）。 [距離行列サービス ](https://developers.google.com/maps/documentation/javascript/distancematrix#travel_modes)は、米国および一部のカナダの都市でのみ利用できます。 |
 
-   - **[!UICONTROL Value]** の場合、値タイプを選択します。
+   - **[!UICONTROL Value]**&#x200B;に対して、値タイプを選択します：
 
      | オプション | 説明 |
      | ----- | ----- |
-     | `Distance` | （既定値）ポイント間の距離をメトリック（キロメートルとメートル）またはインペリアル（マイルとフィート）で返します。 |
-     | `Time to Destination` | 発送元の場所から配送先住所への移動に必要な時間を時間と分単位で返します。 |
+     | `Distance` | （デフォルト）指標（キロメートルとメートル）またはインペリアル（マイルとフィート）のポイント間の距離を返します。 |
+     | `Time to Destination` | ソースの場所から配送先住所への移動に必要な時間を時間および分で返します。 |
 
-   ![Google ディスタンス プロバイダー &#x200B;](assets/config-catalog-inventory-distance-provider-settings.png){width="350" zoomable="yes"}
+   ![Google ディスタンス プロバイダー](assets/config-catalog-inventory-distance-provider-settings.png){width="350" zoomable="yes"}
 
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-## オフライン計算を使用
+## オフライン計算の使用
 
-オフライン計算では、国コードを使用して、発送先と発送元アドレスの間の距離を決定します。 このオプションを設定するには、開発者の支援が必要になる場合があります。 [!DNL Inventory Management] CLI コマンドを使用して、[geonames.org](https://www.geonames.org/) からデータをダウンロードして読み込みます。
+オフライン計算では、国コードを使用して、配送先と発信元の住所の間の距離を決定します。 このオプションを設定するには、開発者支援が必要な場合があります。 [!DNL Inventory Management] CLI コマンドを使用して、[geonames.org](https://www.geonames.org/)からデータをダウンロードおよびインポートします。
 
 >[!NOTE]
 >
->[geonames.org](https://www.geonames.org/) から読み込まれたジオコードには、カナダやアイルランドなど、一部の国に対する制限があります。 詳しくは、[GeoNames 郵便番号ファイル &#x200B;](https://download.geonames.org/export/zip/readme.txt) を参照してください。
+>[geonames.org](https://www.geonames.org/)から読み込んだジオコードには、カナダやアイルランドなどの一部の国では制限があります。 詳しくは、[GeoNames郵便コードファイル ](https://download.geonames.org/export/zip/readme.txt)を参照してください。
 
-### 手順 1：ジオコードのダウンロードと読み込み
+### 手順1：ジオコードのダウンロードと読み込み
 
-完全なコマンドライン設定を使用して、出荷先のジオコード国をダウンロードおよび読み込み、ソース場所を含めることができます。 この手順では、コマンドラインタスクに関する開発者向け支援が必要になる場合があります。 [&#x200B; ジオコードの読み込み &#x200B;](cli.md#import-geocodes) を参照してください。
+コマンドライン設定を完了して、ジオコード国をダウンロードおよび読み込み、発送先および発信元の場所を指定します。 この手順では、コマンドラインタスクに関するヘルプを提供するために、開発者のサポートが必要になる場合があります。 [ ジオコードの読み込み](cli.md#import-geocodes)を参照してください。
 
-さらにジオコードを追加する場合は、常にこれらのコマンドを実行します。
+ジオコードを追加する場合は、いつでも次のコマンドを実行します。
 
-### 手順 2：計算を設定する
+### 手順2：計算の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、「**[!UICONTROL Inventory]**」を選択します。
+1. 左側のパネルで、**[!UICONTROL Catalog]**&#x200B;を展開し、**[!UICONTROL Inventory]**&#x200B;を選択します。
 
-1. 「![&#x200B; 展開セレクター &#x200B;](../assets/icon-display-expand.png)」を展開し、「_[!UICONTROL Distance Provider for Distance Based SSA]_」セクションを展開します。
+1. _[!UICONTROL Distance Provider for Distance Based SSA]_セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-1. 「**[!UICONTROL Use system value]**」チェックボックスの選択を解除し、「**[!UICONTROL Provider]**」を「`Offline Calculation`」に設定します。
+1. **[!UICONTROL Use system value]** チェックボックスの選択を解除し、**[!UICONTROL Provider]**&#x200B;を`Offline Calculation`に設定します。
 
-   ![&#x200B; 距離ベース SSA の距離プロバイダ &#x200B;](assets/inventory-distance-offline.png){width="350" zoomable="yes"}
+   ![距離ベースのSSAの距離プロバイダー](assets/inventory-distance-offline.png){width="350" zoomable="yes"}
 
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。

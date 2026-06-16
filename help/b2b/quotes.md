@@ -3,9 +3,16 @@ title: 交渉可能な見積
 description: 見積もりワークフローと、このサービスを会社アカウントに提供する方法について説明します。
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
+TQID: https://experienceleague.adobe.com/098ze8GgUWx4j1d96UGoEcLfAequOjAbadJHS5AvClU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: 1273
 ht-degree: 0%
 
 ---
@@ -14,11 +21,11 @@ ht-degree: 0%
 
 購入者や販売者は、見積もり機能を使用して、注文品の追加、数量の更新、割引の要求や適用などの交渉プロセスを、契約書に達するまで管理します。 見積もり交渉プロセスは、許可された企業バイヤーまたは企業の営業担当者によって開始できます。
 
-管理者![&#128279;](./assets/quotes-admin-list-view-intro.png){width="700" zoomable="yes"}の引用符リスト表示
+管理者](./assets/quotes-admin-list-view-intro.png){width="700" zoomable="yes"}の![引用符リスト表示
 
-見積もりが作成された後、交渉プロセスは、購入者または販売者が見積もりをレビュー用に送信するときに開始されます。 受信した各見積もりを一覧表示し、買い手と売り手のコミュニケーションの履歴を保持する&#x200B;_見積もり_ グリッド。 標準の[職場向けコントロール &#x200B;](../getting-started/admin-workspace.md)を使用して、リストのフィルター、列レイアウトの変更、ビューの保存、データの書き出しを行います。
+見積もりが作成された後、交渉プロセスは、購入者または販売者が見積もりをレビュー用に送信するときに開始されます。 受信した各見積もりを一覧表示し、買い手と売り手のコミュニケーションの履歴を保持する&#x200B;_見積もり_ グリッド。 標準の[職場向けコントロール ](../getting-started/admin-workspace.md)を使用して、リストのフィルター、列レイアウトの変更、ビューの保存、データの書き出しを行います。
 
-- ストアフロントでは、購入者は見積もりを[&#x200B; リクエストとして送信し、ショッピングカートからの価格を](quote-price-negotiation.md)交渉します。 見積もり依頼を作成する際、購入者は見積もりを下書きとして保存したり、売り手に直接送信したりできます。
+- ストアフロントでは、購入者は見積もりを[ リクエストとして送信し、ショッピングカートからの価格を](quote-price-negotiation.md)交渉します。 見積もり依頼を作成する際、購入者は見積もりを下書きとして保存したり、売り手に直接送信したりできます。
 
 - 管理画面では、営業担当者が会社のバイヤーの代理で見積もりを作成できます。 見積もりを作成する際、売り手は見積もりをドラフトとして保存したり、購入者に直接送信して交渉プロセスを開始したりできます。
 
@@ -97,9 +104,9 @@ ht-degree: 0%
 
 ## 店舗の見積もりに関するB2B ロールリソース
 
-引用符の設定オプションは、[役割リソース &#x200B;](../systems/permissions-user-roles.md#role-resources)を使用して制御されます。 これらの役割リソースは、ストア管理者に割り当てられた管理者ユーザーの役割に設定する必要があります。
+引用符の設定オプションは、[役割リソース ](../systems/permissions-user-roles.md#role-resources)を使用して制御されます。 これらの役割リソースは、ストア管理者に割り当てられた管理者ユーザーの役割に設定する必要があります。
 
-管理者の見積もり関数へのアクセス権を付与するには、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**&#x200B;に移動し、役割を選択して、_&#x200B;役割リソース _ツリーの[!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes]に移動します。
+管理者の見積もり関数へのアクセス権を付与するには、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**に移動し、役割を選択して、_&#x200B;役割リソース _ツリーの[!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes]に移動します。
 
 ![引用符の役割と権限](./assets/roles-permissions-quotes.png){width="700" zoomable="yes"}
 
@@ -142,7 +149,7 @@ ht-degree: 0%
 
 1. 辞退する各未処理の見積もり依頼を選択します。
 
-1. _[!UICONTROL Actions]_&#x200B;コントロールを`Declined`に設定します。
+1. _[!UICONTROL Actions]_コントロールを`Declined`に設定します。
 
 1. プロンプトが表示されたら、見積が辞退された理由を入力し、**[!UICONTROL Confirm]**&#x200B;をクリックします。
 

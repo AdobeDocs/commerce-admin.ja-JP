@@ -1,101 +1,107 @@
 ---
-title: Meta データ
-description: 検索エンジンによるCommerce サイトのインデックス作成方法を改善するために、キーワードの多いメタデータを入力する方法について説明します。
+title: Meta data
+description: キーワードが豊富なメタデータを入力して、検索エンジンがCommerce サイトをインデックス化する方法を改善する方法について説明します。
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="PaaS のみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeが管理する PaaS インフラストラクチャ）およびオンプレミスプロジェクトにのみ適用されます。"
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: https://experienceleague.adobe.com/hl0i6mlFJY5r5bIWNG6gQMGlWQMmaWOWBnt8pCpKT50
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: 747
 ht-degree: 0%
 
 ---
 
-# Meta データ
+# Meta data
 
 >[!TIP]
 >
->Adobe Commerce as a Cloud Serviceについては、Commerce ストアフロントドキュメントの [&#x200B; メタデータガイドライン &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=ja) を参照してください
+>Adobe Commerce as a Cloud Serviceについては、Commerce Storefront ドキュメントの[ メタデータガイドライン ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/)を参照してください
 
-ストアには、検索エンジンによるサイトのインデックス作成方法を改善するために、キーワードが豊富なメタデータを入力できる場所が多数用意されています。 ストアを設定する際に、後で終了する目的で、予備のメタデータを入力する場合があります。 時間の経過と共に、メタデータを微調整して、顧客の購入パターンや好みをターゲットに設定できます。
+ストアには、キーワードが豊富なメタデータを入力できる場所がロードされており、検索エンジンがサイトをインデックス作成する方法を改善できます。 ストアの設定中に、後で完了するために予備のメタデータを入力することもできます。 時間の経過とともにメタデータを微調整し、顧客の購入パターンや嗜好をターゲットにすることができます。
 
-![&#x200B; 製品設定 – 検索エンジンの最適化 &#x200B;](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png){width="700" zoomable="yes"}
+![製品設定 – 検索エンジン最適化](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png){width="700" zoomable="yes"}
 
-## Metaのタイトル
+## Meta タイトル
 
-メタタイトルは、ブラウザーと検索結果のリストのタイトルバーとタブに表示されます。 メタタイトルは、ページに固有で、長さが 70 文字未満である必要があります。
+メタタイトルは、ブラウザーと検索結果リストのタイトルバーとタブに表示されます。 メタタイトルは、ページに固有で、長さが70文字未満である必要があります。
 
-![&#x200B; ストアフロントの例 – メタタイトル &#x200B;](./assets/storefront-home-page-meta-title.png){width="600"}
+![ ストアフロントの例 – メタタイトル ](./assets/storefront-home-page-meta-title.png){width="600"}
 
 ## Meta キーワード
 
-メタキーワードを無視する検索エンジンもあれば、メタキーワードを使用し続ける検索エンジンもあります。 現在のベストプラクティスは、価値の高いキーワードをメタタイトルおよびメタ説明に組み込むことです。
+メタキーワードを無視する検索エンジンもありますが、そのまま使用している検索エンジンもあります。 現在のベストプラクティスは、メタタイトルとメタディスクリプションに価値の高いキーワードを組み込むことです。
 
-![Web ブラウザー検索 – メタキーワード &#x200B;](./assets/storefront-meta-description.png){width="500"}
+![Web ブラウザー検索 – メタキーワード ](./assets/storefront-meta-description.png){width="500"}
 
-## Meta説明
+## Metaの説明
 
-Metaの説明では、検索結果リストのページの概要を説明します。 フィールドの受け入れ文字数は 255 文字ですが、メタ記述の長さは 150～160 文字が理想的です。
+Metaの説明では、検索結果リストのページの概要を説明します。 メタ説明は150～160文字の長さが理想的ですが、フィールドには255文字まで入力できます。
 
-## 豊富なスニペット
+## リッチスニペット
 
-豊富なスニペットにより、検索結果のリストやその他のアプリケーションに関する詳細情報が提供されます。 デフォルトでは、[schema.org](https://schema.org/) 標準に基づく構造化データマークアップがストアの製品テンプレートに追加されます。 その結果、検索エンジンで製品リストに _リッチ スニペット_ として含める情報が増えます。
+リッチスニペットは、検索結果リストやその他のアプリケーションの詳細な情報を提供します。 デフォルトでは、[schema.org](https://schema.org/)標準に基づく構造化データマークアップが、ストアの製品テンプレートに追加されます。 その結果、検索エンジンが商品リストに&#x200B;_リッチスニペット_&#x200B;として含める場合は、より多くの情報を利用できます。
 
 ## 正規メタタグ
 
-一部の検索エンジンでは、同じコンテンツを指す複数の URL を持つ web サイトにペナルティを課します。 正規メタタグは、複数の URL のコンテンツが同一または類似している場合に、どのページをインデックス化するかを検索エンジンに指示します。 正規のメタタグを使用すると、サイトのランキングとページビューの集計を向上できます。 正規メタタグは、製品ページまたはカテゴリページの `<head>` ブロックに配置されます。 指定した URL へのリンクが提供されるので、検索エンジンを使用すると URL により大きな重み付けが与えられます。
+一部の検索エンジンは、同じコンテンツを指す複数のURLを持つweb サイトにペナルティを課します。 規範的なメタタグは、複数のURLに同一または類似のコンテンツがある場合に、インデックスを作成するページを検索エンジンに伝えます。 規範的なメタタグを使用することで、サイトのランキングを向上させ、ページビューを集約できます。 正規メタタグは、製品ページまたはカテゴリーページの`<head>` ブロックに配置されます。 好みのURLへのリンクが提供されるため、検索エンジンの重みが増します。
 
-### 例 1：カテゴリパスで重複した URL が作成される
+### 例1：カテゴリーパスで重複URLが作成される
 
-例えば、製品 URL にカテゴリパスを含めるようにカタログが設定されている場合、ストアは同じ製品ページを指す複数の URL を生成します。
+例えば、カタログが商品URLにカテゴリーパスを含めるように設定されている場合、ストアは同じ商品ページを指す複数のURLを生成します。
 
     http://mystore.com/gear/bags/driven-backpack.html
     http://mystore.com/driven-backpack.html
 
-### 例 2：カテゴリページの完全な URL
+### 例2：カテゴリーページの完全なURL
 
-カテゴリの正規メタタグが有効になっている場合、ストアのカテゴリページには、完全なカテゴリ URL への正規 URL が含まれます。
+カテゴリの正規メタタグが有効になっている場合、ストアのカテゴリーページには、カテゴリ全体のURLへの正規のURLが含まれます。
 
     http://mystore.com/gear/bags/
 
-### 例 3：製品ページの完全 URL
+### 例3：製品ページのフル URL
 
-製品の正規メタタグが有効になっている場合、製品 URL キーはグローバルに一意なので、製品ページには domain-name/product-url-key への正規 URL が含まれます。
+製品の正規メタタグが有効になっている場合、製品URL キーはグローバルに一意であるため、製品ページにはdomain-name/product-url-keyへの正規URLが含まれます。
 
     http://mystore.com/driven-backpack.html
 
-製品 URL にカテゴリパスも含める場合、正規 URL は domain-name/product-url-key のままになります。 ただし、カテゴリを含む完全な URL を使用して製品にアクセスすることもできます。 例えば、プロダクトの URL キーが `driven-backpack` で、ギア/バッグ カテゴリに割り当てられている場合、プロダクトはどちらの URL を使用してもアクセスできます。
+商品URLにカテゴリーパスも含める場合、正規URLはdomain-name/product-url-keyのままです。 ただし、製品には、カテゴリを含む完全なURLを使用してアクセスすることもできます。 例えば、製品のURL キーが`driven-backpack`で、ギア/バッグ カテゴリに割り当てられている場合、製品にはURLを使用してアクセスできます。
 
-URL からカテゴリを省略するか、正規のメタタグを使用して検索エンジンが製品またはカテゴリ別にインデックスを作成するように指示すれば、検索エンジンによってペナルティを科されることを回避できます。 ベストプラクティスとして、カテゴリと製品の両方で正規メタタグを有効にすることをお勧めします。
+URLからカテゴリを省略するか、正規のメタタグを使用して、検索エンジンが製品またはカテゴリでインデックスを作成するように誘導することで、検索エンジンによるペナルティを回避できます。 ベストプラクティスとして、カテゴリと製品の両方に正規メタタグを有効にすることをお勧めします。
 
-### 正規メタタグの有効化
+### 正規メタタグを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]**/_[!UICONTROL Settings]_/**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、その下の「**[!UICONTROL Catalog]**」を選択します。
+1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. ![&#x200B; 拡張セレクター &#x200B;](../assets/icon-display-expand.png) 「**検索エンジンの最適化**」セクションを展開します。
+1. **検索エンジン最適化** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   フィールド値を変更するには、まず各フィールドの後にある **システム値を使用** チェックボックスをオフにする必要があります。
+   フィールド値を変更するには、最初に各フィールドの後ろに「**システム値を使用**」チェックボックスをオフにする必要があります。
 
-   ![&#x200B; カタログ設定 – 検索エンジンの最適化 &#x200B;](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![ カタログ設定 – 検索エンジン最適化](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
-1. 検索エンジンで、完全なカテゴリパスを使用してカテゴリページのみのインデックスを作成する場合は、次の操作を行います。
+1. 完全なカテゴリパスを使用して、検索エンジンでカテゴリページのみをインデックス化する場合は、次の操作を行います。
 
-   - **カテゴリに正規リンク Meta タグを使用** を `Yes` に設定します。
+   - **カテゴリに正規リンクのMeta タグを使用**&#x200B;から`Yes`に設定します。
 
-   - **商品に正規リンクのMeta タグを使用** を `No` に設定します。
+   - **製品に正規リンクのMeta タグを使用**&#x200B;から`No`に設定します。
 
-1. 検索エンジンで、domain-name/product-url-key 形式のみを使用して製品ページのインデックスを作成する場合は、次の手順を実行します。
+1. 検索エンジンにdomain-name/product-url-key形式のみを使用して製品ページをインデックス化させる場合は、次の操作を行います。
 
-   - **商品に正規リンクのMeta タグを使用** を `Yes` に設定します。
+   - **製品に正規リンクのMeta タグを使用**&#x200B;から`Yes`に設定します。
 
-   - **カテゴリに正規リンク Meta タグを使用** を `No` に設定します。
+   - **カテゴリに正規リンクのMeta タグを使用**&#x200B;から`No`に設定します。
 
-1. 完了したら、「**[!UICONTROL Save Config]**」をクリックします。
+1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-## Meta データデモ
+## Meta data demo
 
-SEO メタデータの管理については、次のビデオをご覧ください。
+SEO メタデータの管理について詳しくは、次の動画をご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410176?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)

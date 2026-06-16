@@ -1,32 +1,38 @@
 ---
-title: 商品画像の読み込み
-description: 各画像のパスとファイル名を使用して、製品画像を読み込む方法を説明します。
+title: 製品画像の読み込み
+description: 各画像のパスとファイル名を使用して製品画像を読み込む方法について説明します。
 exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
 feature: Products, Data Import/Export, Media
-source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
+TQID: https://experienceleague.adobe.com/xqaM2qAUDV1yKXS5-90b7aQJUgEW-ZHg03UFo-dfKME
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: 845
 ht-degree: 0%
 
 ---
 
-# 商品画像の読み込み
+# 製品画像の読み込み
 
-各種類の複数の商品画像をAdobe CommerceとMagento Open Sourceに読み込み、特定の商品に関連付けることができます。 CSV ファイルに各商品画像のパスとファイル名を入力し、インポートする画像ファイルをCommerce サーバーまたは外部サーバーの対応するパスにアップロードします。
+Adobe CommerceやMagento Open Sourceに読み込んだり、特定の商品に関連付けたりして、各タイプの複数の商品画像を使用できます。 各商品画像のパスとファイル名をCSV ファイルに入力し、インポートする画像ファイルをCommerce サーバーまたは外部サーバーの対応するパスにアップロードします。
 
-Commerceでは、商品画像をアルファベット順に並べた独自のディレクトリ構造が作成されます。 既存の画像を含む製品データを CSV ファイルに書き出すと、各画像のファイル名の前にアルファベット順のパスが表示されます。 ただし、新しい画像を読み込む場合は、パスを指定する必要はありません。Commerceがディレクトリ構造を自動的に管理するからです。 ただし、インポートする各画像のファイル名の前に、インポートディレクトリへの相対パスを必ず入力してください。
+Commerceでは、アルファベット順に配置された商品画像用の独自のディレクトリ構造を作成します。 既存の画像を含む製品データをCSV ファイルに書き出すと、各画像のファイル名の前にアルファベット順のパスが表示されます。 ただし、新しい画像を読み込む場合は、Commerceがディレクトリ構造を自動的に管理するため、パスを指定する必要はありません。 ただし、読み込む各画像のファイル名の前に、読み込みディレクトリへの相対パスを必ず入力してください。
 
-画像をアップロードするには、ログイン資格情報と、サーバー上のCommerce フォルダーにアクセスするための適切な権限が必要です。 正しい資格情報があれば、任意の SFTP ユーティリティを使用して、デスクトップコンピューターからサーバーにファイルをアップロードできます。
+画像をアップロードするには、ログイン資格情報と、サーバー上のCommerce フォルダーにアクセスするための正しい権限が必要です。 正しい資格情報を使用すると、任意のSFTP ユーティリティを使用して、デスクトップコンピューターからサーバーにファイルをアップロードできます。
 
-多数の画像をインポートする前に、使用するインポート方法の手順を確認し、いくつかの製品を使用してプロセスを実行します。 その仕組みを理解したら、大量の画像を確実にインポートできるようになります。
+多くの画像を読み込む前に、使用する読み込み方法の手順を確認し、いくつかの製品を含むプロセスを実行します。 仕組みを理解すれば、大量の画像を自信を持ってインポートできるようになります。
 
 >[!IMPORTANT]
 >
->メモ帳++などの CSV ファイルを編集するには、UTF-8 エンコーディングをサポートするプログラムを使用することをお勧めします。 Microsoft® Excel では、CSV ファイルの列見出しに追加の文字が挿入されるので、データがCommerceにインポートされない可能性があります。
+>UTF-8 エンコーディングをサポートするプログラムを使用して、メモ帳++などのCSV ファイルを編集することをお勧めします。 Microsoft® Excelは、CSV ファイルの列ヘッダーに追加の文字を挿入します。これにより、データがCommerceにインポートされるのを防ぐことができます。
 
-## 方法 1：ローカルサーバーからの画像のインポート
+## 方法1：ローカルサーバーから画像を読み込む
 
-1. Commerce サーバー上で、画像ファイルを `var/import/images` フォルダーまたはサブフォルダー（`var/import/images/product_images` など）にアップロードします。 これは、商品画像を読み込むためのデフォルトのルートフォルダーです。
+1. Commerce サーバーで、画像ファイルを`var/import/images` フォルダーまたは`var/import/images/product_images`などのサブフォルダーにアップロードします。 これは、製品画像を読み込むためのデフォルトのルートフォルダーです。
 
    ```
    <Magento root folder>/var/import/images
@@ -34,49 +40,49 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
 
    >[!NOTE]
    >
-   >Adobe CommerceおよびMagento Open Source `2.3.2` リリース以降、**[!UICONTROL Images File Directory]** で指定されたパスは、images ベースディレクトリ `<Magento-root-folder>/var/import/images` へのインポートを連結します。 以前のAdobe CommerceおよびMagento Open Sourceのリリースでは、読み込み処理中にフォルダーへのパスが指定されている限り、Commerce サーバー上で別のフォルダーを使用できます。
+   >Adobe CommerceとMagento Open Source `2.3.2` リリース以降、**[!UICONTROL Images File Directory]**&#x200B;で指定されたパスは、images ベースディレクトリ `<Magento-root-folder>/var/import/images`へのインポート用に連結されます。 以前のAdobe CommerceおよびMagento Open Source リリースでは、インポートプロセス中にフォルダーへのパスが指定されている限り、Commerce サーバー上で別のフォルダーを使用できます。
 
-1. CSV データで、正しい行に読み込む各画像ファイルの名前を `sku` で入力し、画像タイプ（`base_image`、`small_image`、`thumbnail_image`、`additional_images`）に応じて正しい列に入力します。
+1. CSV データで、読み込む各画像ファイルの名前を、画像タイプ （`base_image`、`small_image`、`thumbnail_image`、または`additional_images`）に従って、正しい行（`sku`）に入力します。
 
    >[!NOTE]
    >
-   >デフォルトの読み込みフォルダー（`var/import/images`）内の画像の場合、CSV データのファイル名の前にパスを含めないでください。
+   >デフォルトの読み込みフォルダー（`var/import/images`）内の画像の場合、CSV データにファイル名の前のパスを含めないでください。
 
-   CSV ファイルには、`sku` の列と関連する画像列のみを含める必要があります。
+   CSV ファイルには、`sku`列と関連する画像列のみを含める必要があります。
 
-   ![&#x200B; 例 – CSV 画像データのインポート &#x200B;](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
+   ![例 – CSV画像データの読み込み](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
 
-1. 指示に従って、データを [&#x200B; インポート &#x200B;](data-import.md) します。
+1. データを[ インポート ](data-import.md)する手順に従います。
 
-1. 読み込むファイルを選択したら、**[!UICONTROL Images File Directory]** の後に相対パスを入力します。
+1. 読み込むファイルを選択したら、**[!UICONTROL Images File Directory]**&#x200B;の後に相対パスを入力します。
 
    ```
    var/import/images
    ```
 
-   ![&#x200B; データインポート画像ファイルディレクトリ &#x200B;](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
+   ![ データ読み込み画像ファイル ディレクトリ ](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
    >[!TIP]
    >
-   >`<Magento-root-folder>/var/import/images` ディレクトリを使用する場合は、_[!UICONTROL Images File Directory]_&#x200B;を空白のままにします。 Adobe CommerceおよびMagento Open Sourceバージョン 2.3.2 以降、これはデフォルトの import images ベースディレクトリです。
+   >`<Magento-root-folder>/var/import/images` ディレクトリを使用するには、_[!UICONTROL Images File Directory]_を空白のままにします。 Adobe CommerceおよびMagento Open Source バージョン 2.3.2以降では、これはデフォルトの読み込み画像ベースディレクトリです。
 
-   1 つの `sku` に対して複数の画像を読み込む場合、コンマで区切られた `additional_images` という名前の列に画像を挿入します（まだ追加されていない場合は列を追加します）。 例：`image02.jpg,image03.jpg`
+   1つの`sku`に複数の画像を読み込む場合は、画像を`additional_images`という名前の列に挿入します（まだ追加されていない場合は列を追加します）。コンマで区切ります。 例：`image02.jpg,image03.jpg`
 
-## 方法 2：外部サーバーからの画像のインポート
+## 方法2：外部サーバーから画像をインポートする
 
-1. インポートする画像を外部サーバー上の指定フォルダーにアップロードします。
+1. 読み込む画像を外部サーバーの指定フォルダーにアップロードします。
 
-1. CSV データで、画像タイプ（`base_image`、`small_image`、`thumbnail_image`、`additional_images`）に応じて、正しい列に各画像ファイルの完全な URL を入力します。
+1. CSV データで、各画像ファイルの完全なURLを、画像タイプ （`base_image`、`small_image`、`thumbnail_image`、または`additional_images`）別の適切な列に入力します。
 
    ```
    https://example.com/images/image.jpg
    ```
 
-1. 指示に従って、データを [&#x200B; インポート &#x200B;](data-import.md) します。
+1. データを[ インポート ](data-import.md)する手順に従います。
 
-## 方法 3：リモートストレージを使用した画像のインポート
+## 方法3：リモートストレージを使用して画像を読み込む
 
-1. リモートストレージモジュールで、画像ファイルを `var/import/images` フォルダーまたはサブフォルダー（`var/import/images/product_images` など）にアップロードします。 これは、商品画像を読み込むためのデフォルトのルートフォルダーです。
+1. リモート ストレージ モジュールで、画像ファイルを`var/import/images` フォルダーまたは`var/import/images/product_images`などのサブフォルダーにアップロードします。 これは、製品画像を読み込むためのデフォルトのルートフォルダーです。
 
    ```bash
    <remote-storage-root-folder>/var/import/images
@@ -84,21 +90,21 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
 
    >[!NOTE]
    >
-   >Adobe CommerceおよびMagento Open Source `2.3.2` リリース以降、_[!UICONTROL Images File Directory]_&#x200B;で指定されたパスは、images ベースディレクトリ `<remote-storage-root-folder>/var/import/images` へのインポートを連結します。 以前のAdobe CommerceおよびMagento Open Sourceのリリースでは、読み込み処理中にフォルダーへのパスが指定されている限り、Commerce サーバー上で別のフォルダーを使用できます。
+   >Adobe CommerceとMagento Open Source `2.3.2` リリース以降、_[!UICONTROL Images File Directory]_で指定されたパスは、画像の基本ディレクトリ `<remote-storage-root-folder>/var/import/images`に読み込むために連結されます。 以前のAdobe CommerceおよびMagento Open Source リリースでは、インポートプロセス中にフォルダーへのパスが指定されている限り、Commerce サーバー上で別のフォルダーを使用できます。
 
-1. CSV データで、正しい行に読み込む各画像ファイルの名前を `sku` で入力し、画像タイプ（`base_image`、`small_image`、`thumbnail_image`、`additional_images`）に応じて正しい列に入力します。
+1. CSV データで、読み込む各画像ファイルの名前を、画像タイプ （`base_image`、`small_image`、`thumbnail_image`、または`additional_images`）に従って、正しい行（`sku`）に入力します。
 
    >[!NOTE]
    >
-   >デフォルトの読み込みフォルダー（`var/import/images`）内の画像の場合、CSV データのファイル名の前にパスを含めないでください。
+   >デフォルトの読み込みフォルダー（`var/import/images`）内の画像の場合、CSV データにファイル名の前のパスを含めないでください。
 
-   CSV ファイルには、`sku` の列と関連する画像列のみを含める必要があります。
+   CSV ファイルには、`sku`列と関連する画像列のみを含める必要があります。
 
-   ![&#x200B; 例 – CSV 画像データのインポート &#x200B;](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
+   ![例 – CSV画像データの読み込み](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
 
-1. 指示に従って、データを [&#x200B; インポート &#x200B;](data-import.md) します。
+1. データを[ インポート ](data-import.md)する手順に従います。
 
-1. 読み込むファイルを選択したら、**[!UICONTROL Images File Directory]** の後に相対パスを入力します。
+1. 読み込むファイルを選択したら、**[!UICONTROL Images File Directory]**&#x200B;の後に相対パスを入力します。
 
    ```
    var/import/images/product_images
@@ -106,12 +112,12 @@ Commerceでは、商品画像をアルファベット順に並べた独自のデ
 
    >[!TIP]
    >
-   >`<Magento-root-folder>/var/import/images` ディレクトリを使用する場合は、_[!UICONTROL Images File Directory]_&#x200B;を空白のままにします。 Adobe CommerceおよびMagento Open Sourceバージョン 2.3.2 以降、これはデフォルトの import images ベースディレクトリです。
+   >`<Magento-root-folder>/var/import/images` ディレクトリを使用するには、_[!UICONTROL Images File Directory]_を空白のままにします。 Adobe CommerceおよびMagento Open Source バージョン 2.3.2以降では、これはデフォルトの読み込み画像ベースディレクトリです。
 
-   1 つの `sku` に対して複数の画像を読み込む場合、コンマで区切って、`additional_images` という名前の列に画像を挿入します（まだ追加されていない場合は列を追加します）。`image02.jpg,image03.jpg`
+   1つの`sku`に複数の画像を読み込む場合は、`additional_images`という名前の列に画像を挿入します（まだ追加されていない場合は列を追加します）。コンマで区切ります：`image02.jpg,image03.jpg`
 
-リモート記憶域モジュールの有効化と管理の詳細については、[&#x200B; 構成ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=ja) の _リモート記憶域の構成_ を参照してください。
+リモートストレージモジュールの有効化と管理について詳しくは、_設定ガイド_&#x200B;の[ リモートストレージの設定](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html)を参照してください。
 
 >[!NOTE]
 >
->製品画像を読み込んでも、画像のサイズ変更は開始されません。 製品画像は、フロントエンドで `pub/get.php` によってサイズ変更されます。 `pub/get.php` が正しく動作していることを確認してください。そうでない場合、画像のサイズが変更されない可能性があります。
+>製品画像を読み込むと、画像のサイズ変更が開始されません。 製品画像はフロントエンドで`pub/get.php`によってサイズ変更されます。 `pub/get.php`が正しく動作していることを確認してください。それ以外の場合は、画像のサイズが変更されない可能性があります。
