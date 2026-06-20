@@ -34,7 +34,7 @@ ht-degree: 1%
 
 _マーチャンダイジング_&#x200B;は、平面図の開発と製品のプレゼンテーションのアートと科学を説明するために小売で使用される用語です。 [&#x200B; カテゴリーベースのナビゲーション &#x200B;](../catalog/navigation-top.md)は、ストアのフロアプランと考えることができ、ストア内の商品のリストに適用できる条件として、商品の動的なプレゼンテーションを考えることができます。 また、商品の売上を増加させるためのプログラムを導入することもできます。
 
-- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [Visual Merchandiser](visual-merchandiser.md) – 製品を配置し、カテゴリ リストに表示される製品を決定する条件を適用できる高度なツールのセット。
+- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [Visual Merchandiser](visual-merchandiser.md) – 製品を配置し、カテゴリ リストに表示される製品を決定する条件を適用できる高度なツールのセット。
 
 - [&#x200B; ギフト レジストリ &#x200B;](gift-registries.md) – 特別な機会にギフト レジストリを作成し、友人や家族を招待してギフト レジストリからギフトを購入する機能をお客様に提供します。
 

@@ -52,4 +52,4 @@ ht-degree: 0%
 
 ## Adobe AIを活用した商品レコメンデーション
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [Adobe AIを活用した商品レコメンデーション &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html)は、人工知能とマシンラーニング（機械学習）のアルゴリズムを使用して、集約された訪問者データを詳細に分析することで、商品のリレーションシップを定義するプロセスを簡素化します。 このデータをAdobe Commerceカタログと組み合わせることで、買い物客にとって魅力的で関連性の高い、パーソナライズされた体験を実現できます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [Adobe AIを活用した商品レコメンデーション &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=ja)は、人工知能とマシンラーニング（機械学習）のアルゴリズムを使用して、集約された訪問者データを詳細に分析することで、商品のリレーションシップを定義するプロセスを簡素化します。 このデータをAdobe Commerceカタログと組み合わせることで、買い物客にとって魅力的で関連性の高い、パーソナライズされた体験を実現できます。

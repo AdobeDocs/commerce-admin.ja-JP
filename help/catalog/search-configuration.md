@@ -28,11 +28,11 @@ ht-degree: 0%
 
 # カタログ検索の設定
 
-カタログ検索設定には2つのバリエーションがあります。 最初の方法では、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)がインストールされたときに使用できる設定について説明します。 2つ目の方法は、[OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target="_blank"}を使用したネイティブ Adobe Commerceの設定について説明します。
+カタログ検索設定には2つのバリエーションがあります。 最初の方法では、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ja)がインストールされたときに使用できる設定について説明します。 2つ目の方法は、[OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html?lang=ja){:target="_blank"}を使用したネイティブ Adobe Commerceの設定について説明します。
 
 >[!NOTE]
 >
->クラウドインフラストラクチャプロジェクトについては、「[_Commerce on Cloud Infrastructure Guide_](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch)」の追加手順を参照してください。
+>クラウドインフラストラクチャプロジェクトについては、「[_Commerce on Cloud Infrastructure Guide_](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/configure/service/opensearch)」の追加手順を参照してください。
 
 ## 方法1: [!DNL Live Search]のAdobe Commerce
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->- 2023年8月の[!DNL Elasticsearch 7]のサポート終了のお知らせにより、すべてのAdobe Commerceのお客様はOpenSearch 2.x検索エンジンに移行することをお勧めします。 製品のアップグレード中に検索エンジンを移行する方法について詳しくは、_アップグレードガイド_&#x200B;の「[OpenSearchへの移行](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)」を参照してください。
+>- 2023年8月の[!DNL Elasticsearch 7]のサポート終了のお知らせにより、すべてのAdobe Commerceのお客様はOpenSearch 2.x検索エンジンに移行することをお勧めします。 製品のアップグレード中に検索エンジンを移行する方法について詳しくは、_アップグレードガイド_&#x200B;の「[OpenSearchへの移行](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=ja)」を参照してください。
 >- バージョン 2.4.4および2.4.3-p2では、「Elasticsearch」というラベルが付けられたすべてのフィールドがOpenSearchにも適用されます。 Elasticsearch 8.xのサポートがバージョン 2.4.6で導入されたときには、ElasticsearchとOpenSearchの設定を区別するために新しいラベルが作成されました。 ただし、両方の設定オプションは同じです。
 
 ### 手順1：一般的な検索オプションの設定
