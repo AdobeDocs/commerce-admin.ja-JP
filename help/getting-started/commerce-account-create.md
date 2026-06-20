@@ -123,7 +123,7 @@ ht-degree: 0%
 
 Shared Accessを使用すると、個人用ログインを使用せずに、Adobe Commerceのリレーションシップを管理するための権限を、同僚、パートナー、管理者などの信頼できるユーザーに付与できます。 これには、サポートケースを他の人が開いて追跡できるようにすることも含まれます。
 
-共有アカウントの設定に関する詳細な手順については、Adobe Commerce入門ガイドの「[Commerce アカウントの共有](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en)」セクションを参照してください。
+共有アカウントの設定に関する詳細な手順については、Adobe Commerce入門ガイドの「[Commerce アカウントの共有](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en)」セクションを参照してください。
 
 Commerce サポートケースの送信手順について詳しくは、[Adobe Commerce ヘルプセンターのユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)を参照してください。
 

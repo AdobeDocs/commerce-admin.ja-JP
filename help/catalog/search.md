@@ -48,7 +48,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)がインストールされ、[[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/storefront-popover) ウィジェットが有効になっている場合、検索ボックスに「入力時に検索」の結果がポップオーバーで表示されます。
+>[[!DNL Live Search]](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)がインストールされ、[[!DNL Storefront Popover]](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-storefront/storefront-popover) ウィジェットが有効になっている場合、検索ボックスに「入力時に検索」の結果がポップオーバーで表示されます。
 
 ストアのヘッダーにある検索ボックスは、訪問者がカタログ内の商品を見つけるのに役立ちます。 検索テキストには、製品名の全部または一部、または製品を説明するその他の単語またはフレーズを使用できます。 ユーザーが製品を検索するために使用する検索キーワードは、管理者から管理できます。
 

@@ -134,7 +134,7 @@ GDPRを遵守している企業は、CCPAにもとづいて追加の義務を負
 
 1. 各バージョンに適用できるデータフロー図とデータベースエンティティのマッピングについては、次のトピックを参照してください。
 
-   - [個人情報の参照（2.x）](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
+   - [個人情報の参照（2.x）](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=ja)
    - [個人情報の参照（1.x）](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=ja)
 
    ![&#x200B; ダイアグラム &#x200B;](./assets/privacy-frontend-diagram.svg)
