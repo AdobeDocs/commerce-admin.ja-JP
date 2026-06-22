@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)は、高速で非常に関連性の高い直感的な検索体験を提供し、Adobe Commerceで追加料金なしで利用できます。 この節では、[!DNL Live Search]とは異なる可能性のある標準検索機能について説明します。
+>[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ja)は、高速で非常に関連性の高い直感的な検索体験を提供し、Adobe Commerceで追加料金なしで利用できます。 この節では、[!DNL Live Search]とは異なる可能性のある標準検索機能について説明します。
 
 調査によると、検索機能を利用する人々は、ナビゲーションだけを利用する顧客よりも購入する可能性が高いことが明らかになっています。 実際、一部の調査によると、検索連動型広告を利用する人は、購入する可能性がほぼ2倍になります。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)がインストールされ、[[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/storefront-popover) ウィジェットが有効になっている場合、検索ボックスに「入力時に検索」の結果がポップオーバーで表示されます。
+>[[!DNL Live Search]](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)がインストールされ、[[!DNL Storefront Popover]](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-storefront/storefront-popover) ウィジェットが有効になっている場合、検索ボックスに「入力時に検索」の結果がポップオーバーで表示されます。
 
 ストアのヘッダーにある検索ボックスは、訪問者がカタログ内の商品を見つけるのに役立ちます。 検索テキストには、製品名の全部または一部、または製品を説明するその他の単語またはフレーズを使用できます。 ユーザーが製品を検索するために使用する検索キーワードは、管理者から管理できます。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ここで説明する高度なフォーム検索機能は、[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)には適用されません。
+>ここで説明する高度なフォーム検索機能は、[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ja)には適用されません。
 
 高度な検索により、買い物客はフォームに入力された値にもとづいてカタログを検索できます。 フォームには複数のフィールドが含まれているため、1回の検索で複数のパラメーターを含めることができます。 この結果は、カタログ内のすべての商品のリストで、条件に一致します。 ストアのフッターに、高度な検索へのリンクがあります。
 
