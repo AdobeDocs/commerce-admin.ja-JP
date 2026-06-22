@@ -4,12 +4,23 @@ description: 製品を作成し、既存の製品を編集できる管理者の_
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
 TQID: https://experienceleague.adobe.com/tCvjmMlTzn0ejytHyuLPIKKpHn7CGiVkrAwJWmvN-Ro
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 836
@@ -19,13 +30,13 @@ ht-degree: 0%
 
 # 製品リスト
 
-カタログ内のすべての製品は、管理者の&#x200B;_[!UICONTROL Products]_ページからアクセスできます。このページでは、製品を作成したり、既存の製品を編集したりできます。 マルチサイトインストールの場合、各web サイトで同じカタログから異なる製品を販売できます。
+カタログ内のすべての製品は、管理者の&#x200B;_[!UICONTROL Products]_&#x200B;ページからアクセスできます。このページでは、製品を作成したり、既存の製品を編集したりできます。 マルチサイトインストールの場合、各web サイトで同じカタログから異なる製品を販売できます。
 
-_[!UICONTROL Products]_リストには、カタログ内のすべての製品が含まれ、利用可能なweb サイトと、現在販売が有効なweb サイトが示されます。 [共有カタログ ](../b2b/catalog-shared.md)が有効になっているAdobe Commerce B2B インストールでは、グリッドには、共有カタログに代替割引価格が設定されている商品を示す列が含まれています。
+_[!UICONTROL Products]_&#x200B;リストには、カタログ内のすべての製品が含まれ、利用可能なweb サイトと、現在販売が有効なweb サイトが示されます。 [共有カタログ &#x200B;](../b2b/catalog-shared.md)が有効になっているAdobe Commerce B2B インストールでは、グリッドには、共有カタログに代替割引価格が設定されている商品を示す列が含まれています。
 
-リストページからページ別に閲覧したり、特定の商品を検索したりできます。 標準の[ コントロール ](../getting-started/admin-grid-controls.md)を使用してリストを並べ替えおよびフィルタリングし、選択した製品に[ アクション ](../getting-started/admin-actions-control.md)を適用します。
+リストページからページ別に閲覧したり、特定の商品を検索したりできます。 標準の[&#x200B; コントロール &#x200B;](../getting-started/admin-grid-controls.md)を使用してリストを並べ替えおよびフィルタリングし、選択した製品に[&#x200B; アクション &#x200B;](../getting-started/admin-actions-control.md)を適用します。
 
-![製品グリッド ](./assets/products-grid.png){width="700" zoomable="yes"}
+![製品グリッド &#x200B;](./assets/products-grid.png){width="700" zoomable="yes"}
 
 ## 商品表示を制限
 
@@ -41,11 +52,11 @@ _[!UICONTROL Products]_リストには、カタログ内のすべての製品が
 
 >[!NOTE]
 >
->商品グリッドを制限しない場合は、フィルターをより正確に使用して、_[!UICONTROL Records Limit]_フィールドで指定された数よりも少ない項目を持つコレクションを生成します。
+>商品グリッドを制限しない場合は、フィルターをより正確に使用して、_[!UICONTROL Records Limit]_&#x200B;フィールドで指定された数よりも少ない項目を持つコレクションを生成します。
 
 **_製品表示の制限を設定するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. **[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL Admin]**&#x200B;を選択します。
 
