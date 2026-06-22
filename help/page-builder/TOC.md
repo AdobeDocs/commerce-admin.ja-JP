@@ -18,7 +18,7 @@ ht-degree: 6%
 # [!DNL Page Builder] ユーザーガイド {#page-builder}
 
 - [[!DNL Page Builder] ユーザーガイド](guide-overview.md)
-- [ [!DNL Page Builder]の概要](introduction.md)
+- [&#x200B; [!DNL Page Builder]の概要](introduction.md)
 - [リリースノート](release-notes.md)
 - [設定と設定](setup.md)
 - チュートリアル {#walkthrough}
