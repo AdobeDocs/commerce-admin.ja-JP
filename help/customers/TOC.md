@@ -3,7 +3,8 @@ user-guide-title: 顧客管理ガイド
 user-guide-description: Adobe CommerceおよびMagento Open Sourceの管理者向けの顧客アカウント、グループ、セグメント管理機能に関する包括的な情報。
 breadcrumb-title: 顧客管理
 feature: Customers
-source-git-commit: da825af42f490845527d4298d1ae5191fe3b6a59
+nudge: true
+source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
