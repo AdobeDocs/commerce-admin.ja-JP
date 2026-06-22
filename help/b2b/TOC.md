@@ -5,7 +5,8 @@ breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+nudge: true
+source-git-commit: da318a9bf0a2be406aee9f539ca46b443f811188
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 5%
@@ -68,4 +69,4 @@ ht-degree: 5%
 + 参照 {#reference}
    + [後方互換性のない変更](backward-incompatible-changes.md)
    + [パッケージ](packages.md)
-+ [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja)
++ [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
