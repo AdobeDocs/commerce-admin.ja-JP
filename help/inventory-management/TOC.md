@@ -16,7 +16,7 @@ ht-degree: 6%
 # [!DNL Inventory Management] ユーザーガイド {#inventory}
 
 - [Inventory management ガイド](guide-overview.md)
-- [ [!DNL Inventory Management]の概要](introduction.md)
+- [&#x200B; [!DNL Inventory Management]の概要](introduction.md)
 - [リリースノート](release-notes.md)
 - 在庫の基本 {#basics}
    - [ソースとストック](sources-stocks.md)
@@ -30,7 +30,7 @@ ht-degree: 6%
    - [在庫の拡大と再構築](expand-restructure.md)
 - 設定 {#configuration}
    - [概要](configuration.md)
-   - [ [!DNL Inventory Management]を有効にする](enable.md)
+   - [&#x200B; [!DNL Inventory Management]を有効にする](enable.md)
    - [グローバルオプションの設定](global-options.md)
    - [製品オプションの設定](product-options.md)
    - [バックオーダーの設定](backorders.md)
