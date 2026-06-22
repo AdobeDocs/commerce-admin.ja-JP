@@ -71,4 +71,4 @@ ht-degree: 0%
    + [エコシステム](resources.md)
    + [拡張機能](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja)

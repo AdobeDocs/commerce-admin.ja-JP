@@ -57,4 +57,4 @@ ht-degree: 0%
    + [顧客セグメントの作成と削除](customer-segment-create.md)
    + [価格ルールの顧客セグメント](customer-segment-price-rule.md)
    + [顧客セグメントレポート](customer-segment-reports.md)
-+ [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja)
