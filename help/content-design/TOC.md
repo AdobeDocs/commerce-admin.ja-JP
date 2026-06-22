@@ -3,9 +3,10 @@ user-guide-title: コンテンツおよびデザインガイド
 user-guide-description: Adobe CommerceおよびMagento Open Sourceの管理者とe コマースマーケター向けのコンテンツとデザイン機能に関する包括的な情報を提供します。
 breadcrumb-title: コンテンツとデザイン
 feature: CMS, Page Content
-source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
+nudge: true
+source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '262'
 ht-degree: 4%
 
 ---
@@ -90,7 +91,7 @@ ht-degree: 4%
    - [ステージングダッシュボード](content-staging-dashboard.md)
    - [キャンペーン項目の追加](content-staging-add-item.md)
    - [キャンペーンのプレビュー](content-staging-preview.md)
-- [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja)
+- [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
 
 <!--
 Add above "Content staging" when articles are available?
