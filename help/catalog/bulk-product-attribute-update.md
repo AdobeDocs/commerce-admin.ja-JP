@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 109
 ht-degree: 0%
@@ -43,3 +43,4 @@ _[!UICONTROL Update Attributes]_&#x200B;ツールを使用して、製品内の1
    ![属性の一括更新](./assets/bulk-product-attribute-update.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
+

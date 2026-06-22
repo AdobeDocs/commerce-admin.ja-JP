@@ -19,7 +19,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 834
 ht-degree: 0%
@@ -146,3 +146,4 @@ ht-degree: 0%
 検索結果が返しに一致する必要があるクエリの最小項目数を制御するには、**[!UICONTROL Minimum Terms to Match]**&#x200B;の値を指定します。 この値を指定することで、買い物客にとって最適な検索結果の関連性が保証されます。 使用可能な値のリストについては、OpenSearch ドキュメントの[minimum_should_match パラメーター](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/)を参照してください。
 
 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
+

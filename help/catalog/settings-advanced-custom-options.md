@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 821
 ht-degree: 0%
@@ -109,3 +109,4 @@ ht-degree: 0%
 | [!UICONTROL Date] | お客様が日付または時刻を入力するか、カレンダーから値を選択できるようにします。 オプション：<br />**[!UICONTROL Date]**– 日付値の入力フィールド。 日付は、フィールドに直接入力するか、リストまたはカレンダーから選択できます。 入力メソッドと形式は、[日付と時刻のオプション &#x200B;](attributes-input-types.md#date-and-time-options)設定によって決まります。<br />**[!UICONTROL Date & Time]**  – 日付と時刻の値の入力フィールド。<br />**[!UICONTROL Time]**– 時間値の入力フィールド。 |
 
 {style="table-layout:auto"}
+

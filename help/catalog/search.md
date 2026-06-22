@@ -19,7 +19,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 541
 ht-degree: 0%
@@ -81,3 +81,4 @@ ht-degree: 0%
    ![検索結果](./assets/storefront-search-advanced-results-modify.png){width="700" zoomable="yes"}
 
 1. 顧客が検索結果で探しているものが表示されない場合、顧客は&#x200B;**[!UICONTROL Modify your search]**&#x200B;をクリックし、別の条件の組み合わせを試みます。
+

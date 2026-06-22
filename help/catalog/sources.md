@@ -19,7 +19,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 259
 ht-degree: 0%
@@ -57,3 +57,4 @@ ht-degree: 0%
 | [!UICONTROL Actions] | 割り当てられたソースの場合は、**[!UICONTROL Unassign]**&#x200B;をクリックして、製品でソースを使用できないようにします。 割り当てられていないソースの場合は、**[!UICONTROL Assign Sources]**&#x200B;をクリックして、製品でソースを利用できるようにします。 [!UICONTROL Assign Sources] オプションについて詳しくは、[製品ごとのソースの割り当て](../inventory-management/sources-assign-per-product.md)を参照してください。 |
 
 {style="table-layout:auto"}
+
