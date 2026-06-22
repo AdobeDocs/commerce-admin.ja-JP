@@ -1,26 +1,27 @@
 ---
-user-guide-title: Adobe Commerce管理ユーザーガイド
+user-guide-title: Adobe Commerce Admin User Guides
 user-guide-description: 管理で操作する Adobe Commerce および Magento Open Source マーチャント向けのドキュメントとリソースです。
-title: Adobe Commerce管理ユーザーガイド
+title: Adobe Commerce Admin User Guides
 feature: Admin Workspace
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+nudge: true
+source-git-commit: da318a9bf0a2be406aee9f539ca46b443f811188
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 27%
+source-wordcount: '149'
+ht-degree: 12%
 
 ---
 
-# Adobe Commerce管理ユーザーガイド {#user-guides}
+# Adobe Commerce Admin User Guides {#user-guides}
 
 - [Adobe Commerce マーチャントドキュメント](home.md)
-- [&#x200B; はじめに &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html?lang=ja)
-- [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html?lang=ja)
-- [&#x200B; カタログの管理 &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html?lang=ja)
-- [[!DNL Inventory Management]](https://experienceleague.adobe.com/docs/commerce-admin/inventory/guide-overview.html?lang=ja)
-- [&#x200B; マーチャンダイジング・プロモーション &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/marketing/guide-overview.html?lang=ja)
-- [&#x200B; コンテンツとデザイン &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/content-design/guide-overview.html?lang=ja)
-- [[!DNL Page Builder]](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html?lang=ja)
-- [&#x200B; 顧客管理 &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/customers/guide-overview.html?lang=ja)
-- [&#x200B; 店舗と購入の経験 &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html?lang=ja)
-- [&#x200B; 管理システム &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html?lang=ja)
-- [&#x200B; 設定リファレンスガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html?lang=ja)
+- [はじめに](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)
+- [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html)
+- [カタログ管理](https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html)
+- [[!DNL Inventory Management]](https://experienceleague.adobe.com/docs/commerce-admin/inventory/guide-overview.html)
+- [マーチャンダイジングとプロモーション](https://experienceleague.adobe.com/docs/commerce-admin/marketing/guide-overview.html)
+- [コンテンツとデザイン](https://experienceleague.adobe.com/docs/commerce-admin/content-design/guide-overview.html)
+- [[!DNL Page Builder]](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html)
+- [顧客管理](https://experienceleague.adobe.com/docs/commerce-admin/customers/guide-overview.html)
+- [実店舗および購入体験](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html)
+- [管理システム](https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html)
+- [設定リファレンスガイド](https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html)
