@@ -5,7 +5,8 @@ breadcrumb-title: 実店舗および購入体験
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+nudge: true
+source-git-commit: dcc66df3d9024368ea07fad1e93846cf98726523
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 3%
