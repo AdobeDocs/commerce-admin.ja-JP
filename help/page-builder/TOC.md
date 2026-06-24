@@ -48,4 +48,4 @@ ht-degree: 6%
    - [特定可能](products.md)
    - [商品レコメンデーション](recommendations.md)
 - [テンプレート](templates.md)
-- [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja)
