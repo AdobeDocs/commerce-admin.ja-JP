@@ -29,13 +29,13 @@ ht-degree: 0%
 
 ビジネスの責任が変更される場合、新しいオーナーまたは別のメールアドレスにAdobe Commerce アカウントを転送する必要が生じる場合があります。 この転送には、アカウントに関連付けられているプライマリユーザーメールに変更が必要です。
 
-次に、Adobe Commerce アカウント（MAGEID）を転送する手順を示します。 クラウドインフラストラクチャプロジェクトの所有権または[!DNL New Relic]の所有権に関するAdobe Commerceへの変更は含まれていません。 クラウドプロジェクトへのアクセスについて詳しくは、「_Commerce on Cloud Infrastructure ガイド_」の「[&#x200B; ユーザーアクセスの管理](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access)」を参照してください。
+次に、Adobe Commerce アカウント（MAGEID）を転送する手順を示します。 クラウドインフラストラクチャプロジェクトの所有権または[!DNL New Relic]の所有権に関するAdobe Commerceへの変更は含まれていません。 クラウドプロジェクトへのアクセスについて詳しくは、「_Commerce on Cloud Infrastructure ガイド_」の「[&#x200B; ユーザーアクセスの管理](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/project/user-access)」を参照してください。
 
 >[!IMPORTANT]
 >
 >新しいアカウント所有者が共有アクセスを使用して拡張機能を購入した場合、アカウントの転送が開始されるとすぐに、これらの拡張機能へのアクセスが失われます。
 >
->アカウントの転送をリクエストする前に、新しい所有者が[購入者 [!DNL Commerce Marketplace]  アカウント &#x200B;](https://commercemarketplace.adobe.com/sales/order/history/)から購入の注文IDを取得し、[[!DNL Commerce Marketplace]  チーム &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)から返金をリクエストしていることを確認してください。 拡張機能の購入を別のアカウントに転送することはできません。
+>アカウントの転送をリクエストする前に、新しい所有者が[購入者 [!DNL Commerce Marketplace]  アカウント &#x200B;](https://commercemarketplace.adobe.com/sales/order/history/)から購入の注文IDを取得し、[[!DNL Commerce Marketplace]  チーム &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)から返金をリクエストしていることを確認してください。 拡張機能の購入を別のアカウントに転送することはできません。
 
 ## 転送タイプの特定
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerceが他のAdobe ソリューションとの統合を継続する場合、Adobe Commerce アカウント（MAGEID）にはAdobe IDとの関連付けが必要になります。 Adobe IDでは、[Adobe Commerce アカウント &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)に接続された同じ電子メールアドレスを使用します。
+>Adobe Commerceが他のAdobe ソリューションとの統合を継続する場合、Adobe Commerce アカウント（MAGEID）にはAdobe IDとの関連付けが必要になります。 Adobe IDでは、[Adobe Commerce アカウント &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)に接続された同じ電子メールアドレスを使用します。
 
 ## Adobe IDのメール変更を確認する
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 >[転送タイプ &#x200B;](#identify-your-transfer-type)を確認し、このパスが状況に一致することを確認します。
 >
 >- 現在のオーナーは同社に在籍しています。
->- 現在のオーナーには、Adobe IDがないか、[Adobe Commerce アカウント （MAGEID） &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)に接続されていないAdobe IDがあります。
+>- 現在のオーナーには、Adobe IDがないか、[Adobe Commerce アカウント （MAGEID） &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)に接続されていないAdobe IDがあります。
 >- 新しいオーナーはAdobe IDを持っておらず、Adobe Commerce アカウントも持っていません。
 
 現在の所有者がAdobe IDにリンクされていないMAGEIDを持っている場合は、このパスを使用します。 現在の所有者は、まずAdobe IDを作成してリンクし、その後、そのAdobe ID メールアドレスを新しい所有者のメールアドレスに変更します。
@@ -110,7 +110,7 @@ ht-degree: 0%
 >[転送タイプ &#x200B;](#identify-your-transfer-type)を確認し、このパスが状況に一致することを確認します。
 >
 >- 現在のオーナーは同社に在籍しています。
->- 現在のオーナーは、[Adobe Commerce アカウント （MAGEID） &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)に接続されたAdobe IDを持っています。
+>- 現在のオーナーは、[Adobe Commerce アカウント （MAGEID） &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)に接続されたAdobe IDを持っています。
 >- 新しいオーナーには、Adobe Commerce アカウントに接続されていないAdobe IDがあります。
 
 開始する前に、この転送タイプでは、現在のアカウントオーナーがそのAdobe IDに関連付けられている他のAdobe製品にアクセスできなくなります。
@@ -134,7 +134,7 @@ ht-degree: 0%
 >[転送タイプ &#x200B;](#identify-your-transfer-type)を確認し、このパスが状況に一致することを確認します。
 >
 >- 現在の所有者は会社に在籍していませんが、現在の所有者の会社の電子メールアドレスに送信された電子メールに引き続きアクセス可能であるか、IT チームが承認済みの連絡先に電子メールを転送できます。
->- 現在のオーナーは、[Adobe Commerce アカウント （MAGEID） &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)に接続されたAdobe IDを持っています。
+>- 現在のオーナーは、[Adobe Commerce アカウント （MAGEID） &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/commerce-account/commerce-account-create?lang=en#create-a-commerce-account)に接続されたAdobe IDを持っています。
 >- 新しいオーナーには、Adobe Commerce アカウントに接続されたAdobe IDがあります。
 
 この転送タイプでは、現在の所有者と新しい所有者の両方が既存のAdobe IDを持っていて、両方のAdobe IDを保持したい場合に、一時的なメールアドレスを使用してアカウントの所有権を切り替えます。 所有権の移転を完了するには、Adobe IDに関連付けられていない一時的なメールアドレスを使用する必要があります。
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->現在の所有者の電子メールにアクセスできない場合は、IT チームに対して、会社の電子メールシステムでアカウントの電子メールアドレスの電子メール転送を設定するように依頼します。 メール転送を設定できない場合は、新しいアカウントオーナーにAdobe IDが設定されていることを確認し、アカウント転送を開始するために必要なすべての詳細を[&#x200B; サポートリクエスト &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)送信します。
+>現在の所有者の電子メールにアクセスできない場合は、IT チームに対して、会社の電子メールシステムでアカウントの電子メールアドレスの電子メール転送を設定するように依頼します。 メール転送を設定できない場合は、新しいアカウントオーナーにAdobe IDが設定されていることを確認し、アカウント転送を開始するために必要なすべての詳細を[&#x200B; サポートリクエスト &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)送信します。
 
 1. [account.adobe.com](https://account.adobe.com/)に移動し、Adobe ログインを完了します。
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 
 [新規Adobe IDとメールの変更](#new-adobe-id-and-email-change)、[&#x200B; メールの変更のみ](#email-change)、または[Adobe ID アカウントの切り替え](#adobe-id-account-switch) プロセスを完了した後、これらの手順を実行します。
 
-1. 新しい所有者として、[&#x200B; サポートリクエストを送信](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case)。
+1. 新しい所有者として、[&#x200B; サポートリクエストを送信](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case)。
 
    次の詳細を含めます。
 
