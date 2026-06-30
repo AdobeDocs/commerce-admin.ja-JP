@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Adobe Commerce以外のAdobe製品およびサービスに対して、Adobe Admin Consoleのシステム管理者ロールを割り当て、変更または削除できるのは、現在のシステム管理者のみです。
 
-新しいシステム管理者を割り当てたり、App Builderを含む他のAdobe製品やサービスの既存の管理者ロールを変更したりするには、既存の管理者がAdobe Admin Consoleにログインして、組織の管理者ロールを更新する必要があります。 [管理者の役割](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles)を参照してください。
+新しいシステム管理者を割り当てたり、App Builderを含む他のAdobe製品やサービスの既存の管理者ロールを変更したりするには、既存の管理者がAdobe Admin Consoleにログインして、組織の管理者ロールを更新する必要があります。 [管理者の役割](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles)を参照してください。
 
 ## 新しいシステム管理者の割り当て
 
