@@ -1,7 +1,7 @@
 ---
 title: スニペット
 description: 特定のエディションに適用するフィーチャーまたはページに注意するために、再利用されたメモとビジュアル要素
-source-git-commit: 35147f5ec256445d4cb1dfb2d48d9cfcdc1ff47e
+source-git-commit: df2920f654bf932385e78f8cc894bae0daee017a
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 0%
@@ -13,19 +13,19 @@ ht-degree: 0%
 ## EEのみの機能 {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Adobe Commerceの機能" src="../assets/adobe-logo.svg" width="20" height="20" /> これは、Adobe Commerceでのみ使用できる機能であり、Magento Open Sourceでは使用できません。 （<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja#product-editions">詳細情報</a>）</td></tr>
+<tr><td><img alt="Adobe Commerceの機能" src="/help/assets/adobe-logo.svg" width="20" height="20" /> これは、Adobe Commerceでのみ使用できる機能であり、Magento Open Sourceでは使用できません。 （<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja#product-editions">詳細情報</a>）</td></tr>
 </table>
 
 ## B2Bのみの機能 {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce B2Bの機能" src="../assets/b2b.svg" width="20" height="20" /> <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ja">Adobe Commerce B2B</a>でのみ使用できる排他的機能</td></tr>
+<tr><td><img alt="Adobe Commerce B2Bの機能" src="/help/assets/b2b.svg" width="20" height="20" /> <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ja">Adobe Commerce B2B</a>でのみ使用できる排他的機能</td></tr>
 </table>
 
 ## CEのみの機能 {#ce-feature}
 
 <table style="border:1px solid orange">
-<tr><td><img alt="Magento Open Sourceの機能" src="../assets/open-source.svg" width="20" height="20" /> Magento Open Sourceには別のメソッドが必要です（<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja#product-editions">詳細情報</a>）</td></tr>
+<tr><td><img alt="Magento Open Sourceの機能" src="/help/assets/open-source.svg" width="20" height="20" /> Magento Open Sourceには別のメソッドが必要です（<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja#product-editions">詳細情報</a>）</td></tr>
 </table>
 
 ## IMS管理者認証メモ {#ims-admin-note}
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 | 関連文書 | 説明 |
 |----------------------- | ----------- |
-| [Adobe Commerce 2.4管理者ユーザーガイド &#x200B;](../landing/home.md) | 管理画面で作業するマーチャント向けのドキュメントとリソース。 |
+| [Adobe Commerce 2.4管理者ユーザーガイド &#x200B;](/help/landing/home.md) | 管理画面で作業するマーチャント向けのドキュメントとリソース。 |
 | [Adobe Commerce ドキュメント向けサービス &#x200B;](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ja) | マーチャンダイジングサービスのコレクションをサポートし、マーチャントがストアとビジネスの主要な要素を統合できるよう支援するドキュメント。 |
 | [Commerce on Cloud Infrastructure ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html?lang=ja) | 管理された自動ホスティングクラウドプラットフォームにAdobe Commerceをデプロイするためのステップバイステップの手順。 |
 | [Adobe Commerce 2.4運用ガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html?lang=ja) | Adobe Commerce オンクラウドおよびオンプレミスプロジェクトの開発、デプロイ、保守の概念、プロセス、ツール、ベストプラクティスに関するシステムドキュメントです。 |
