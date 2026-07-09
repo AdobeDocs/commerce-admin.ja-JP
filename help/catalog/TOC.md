@@ -89,7 +89,7 @@ ht-degree: 1%
       + [デザイン](settings-advanced-design.md)
       + [自動設定](product-autosettings.md)
       + [ギフトオプション](product-gift-options.md)
-   + {hide-from-toc}[ カタログの強化](catalog-enrichment.md)
+   + {hide-from-toc}[&#x200B; カタログの強化](catalog-enrichment.md)
 + 製品属性 {#product-attributes}
    + [属性の概要](product-attributes.md)
    + [属性入力タイプ](attributes-input-types.md)
