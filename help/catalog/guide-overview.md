@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: 329
 ht-degree: 5%
 
 ---
@@ -44,6 +44,7 @@ ht-degree: 5%
 | [&#x200B; カタログ検索](search.md) | 顧客がストアフロントで商品を検索するために使用できるツールを確認し、商品カタログに従って検索エクスペリエンスを設定します。 |
 | [&#x200B; カテゴリ &#x200B;](categories.md) | ストアフロントでの買い物客の体験を最適化できるように、カタログの基本的なカテゴリ構造を確立します。 |
 | [製品](products-list.md) | 複数のオプション、スウォッチ、カスタマイズ可能なバンドルを使用して、シンプルな商品から複雑な商品までを作成できます。 ダウンロード可能な商品、サービスやその他の無形商品のバーチャル商品を制作する。 |
+| [&#x200B; カタログの強化](catalog-enrichment.md) | AIが提案した改善点をレビューし、製品名と説明に適用することで、カタログをLLMとAIを活用した検索で正確に表現できます。 |
 | [製品属性](product-attributes.md) | 製品オプションの入力コントロールを使用して属性を作成し、製品ページに関する追加情報を提供します。 |
 
 {style="table-layout:auto"}

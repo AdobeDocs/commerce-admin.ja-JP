@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 4bd199ede56ca5a34da513beb305cdba02dfe80d
 workflow-type: tm+mt
-source-wordcount: 302
+source-wordcount: 325
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 0%
 # 製品設定 – [!UICONTROL Content]
 
 「_[!UICONTROL Content]_」セクションは、製品ページに表示されるメイン製品の説明を入力および編集するために使用されます。 短い説明は、ほとんどのRSS フィードで使用でき、[&#x200B; テーマ &#x200B;](../content-design/themes.md)に応じて、カタログリストにも表示される場合があります。
+
+>[!NOTE]
+>
+>カタログの強化により、AIが提案した更新内容を、このセクションの製品名と長い説明に適用できます。 詳しくは、[&#x200B; カタログの強化](catalog-enrichment.md)を参照してください。
 
 ## [!DNL Page Builder]に製品の説明を追加
 

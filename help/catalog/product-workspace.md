@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9958c3ea938ea5ef743f4b347d11e4f833ee1483
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 492
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 0%
 # 製品ワークスペース
 
 製品ワークスペースは、使用する属性セットによってフィールドの選択が変わりますが、基本的にはすべての製品タイプで同じです。 製品属性がフォームの上部にあり、その後に製品情報の拡張可能なセクションが続きます。 新しい製品を初めて保存すると、フォームの左上に&#x200B;_[!UICONTROL Store View]_&#x200B;の選択画面が表示されます。
+
+>[!NOTE]
+>
+>適用されたカタログのエンリッチメントの更新は、フォームの上部および&#x200B;**[!UICONTROL Content]** セクションの製品名に表示されます。 詳しくは、[&#x200B; カタログの強化](catalog-enrichment.md)を参照してください。
 
 ![製品ワークスペース &#x200B;](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
