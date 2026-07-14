@@ -23,7 +23,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>管理者でAIが提案した製品名と説明の更新を確認および適用するためのガイダンスを含む<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment"> カタログの強化</a>を追加し、<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu"> カタログメニュー</a>、<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview"> ガイドの概要</a>、および関連する製品設定のトピックからトピックをリンクしました。</p>
+      <td><p>管理者でAIが提案した製品名と説明の更新を確認および適用するためのガイダンスを含む<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/catalog-enrichment"> カタログの強化</a>を追加し、<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog-menu"> カタログメニュー</a>、<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/guide-overview"> ガイドの概要</a>、および関連する製品設定のトピックからトピックをリンクしました。</p>
 </td>
       <td>
         新しいトピック
@@ -45,7 +45,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Admin Consoleでシステム管理者の割り当てを管理するためのガイダンスを含む<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-system-admin-account"> システム管理者アクセス権</a>を更新しました。</p>
+      <td><p>Adobe Admin Consoleでシステム管理者の割り当てを管理するためのガイダンスを含む<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/start/commerce-account/commerce-system-admin-account"> システム管理者アクセス権</a>を更新しました。</p>
 </td>
       <td>
         フィードバック
@@ -67,7 +67,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Serviceで<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes"> カスタムクーポン </a> コードを作成する機能を追加しました。</p>
+      <td><p>Adobe Commerce as a Cloud Serviceで<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes"> カスタムクーポン </a> コードを作成する機能を追加しました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -89,7 +89,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>読み込み処理中に不要なURL書き換え生成を避ける方法に関するガイダンスを含む、Commerce <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import"> データ読み込み</a> ドキュメントを更新しました。</p>
+      <td><p>読み込み処理中に不要なURL書き換え生成を避ける方法に関するガイダンスを含む、Commerce <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/data-transfer/import/data-import"> データ読み込み</a> ドキュメントを更新しました。</p>
 </td>
       <td>
         フィードバック、テクニカル
