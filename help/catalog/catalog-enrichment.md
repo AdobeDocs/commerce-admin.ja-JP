@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 389b8a74eca24e33e2421920ad9d4231ecd9b001
+source-git-commit: 69e598995a3f7fbbb23c4cde3bc28334ef2feafe
 workflow-type: tm+mt
-source-wordcount: 1683
+source-wordcount: 1649
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->カタログの強化は、舞台裏で[!DNL Adobe LLM Optimizer]によって実現されています。 Commerce カタログワークフローの一部としてエンリッチメントを使用します。 承認済みの名前と説明の更新を適用するために、個別のLLM Optimizer統合を管理することはありません。 Commerce以外の幅広いLLMの監視と最適化については、[LLM Optimizer製品ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/llm-optimizer/using/home)を参照してください。
+>カタログの強化は、舞台裏の[!DNL Commerce Catalog Agent]と[!DNL Adobe LLM Optimizer]によって強化されています。 Commerce カタログワークフローの一部としてエンリッチメントを使用します。 承認済みの名前と説明の更新を適用するために、個別のLLM Optimizer統合を管理することはありません。 Commerce以外の幅広いLLMの監視と最適化については、[LLM Optimizer製品ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/llm-optimizer/using/home)を参照してください。
 
 ## 仕組み {#how-it-works}
 
-[!DNL Adobe Commerce]製品カタログは、製品データ（名前、説明、属性、価格設定、在庫）の記録システムです。 Adobe Commerce Storefront MCP （Model Context Protocol）は、ライブカタログデータをAdobe AIエクスペリエンスに接続します。 その後、Catalog Agentはそのインターフェイスを使用するので、[!DNL Adobe LLM Optimizer]は製品名と長い説明のギャップを特定し、改善点を提案し、承認済みの変更をCommerceに書き戻して、Commerce管理者で確認できます。
+[!DNL Adobe Commerce]製品カタログは、製品データ（名前、説明、属性、価格設定、在庫）の記録システムです。[!DNL Adobe Commerce] Storefront MCP （Model Context Protocol）は、ライブカタログデータをAdobe AIエクスペリエンスに接続します。 さらに、カタログエージェントは、製品名と長い説明のギャップを特定して改善を提案し、承認済みの変更をCommerceに書き戻して、Commerce管理者でレビューできるようにします。
 
 カタログを強化することで、次のことが可能になります。
 
@@ -63,7 +63,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 
 - ストアフロントはLLM向けおよびエージェント型のボットでクロールできます。カタログに応じた提案を行うにはクロールで対応する必要があります。
 - 必要なCommerce サービスとカタログ接続が有効になり、正常に動作します。 詳細については、[&#x200B; カタログの強化を有効にする](#enable-catalog-enrichment)を参照してください。
-- [IMSが設定されています） &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/organizations)。
+- [IMSが設定されています](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/organizations)。
 - [Adobe Admin Console](https://helpx.adobe.com/jp/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)にアクセスできます。
 
 > IMS組織をお持ちでない場合は、Adobe アカウントチームに連絡してIMS組織をプロビジョニングしてください。
@@ -93,7 +93,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 
 ### カタログエンリッチメントの設定
 
-**[!UICONTROL Settings]** タブでカタログのエンリッチメントを設定して、Adobe LLM Optimizerが[!DNL Adobe Commerce]環境に接続し、Commerce管理者に提案を表示できるようにします。
+**[!UICONTROL Settings]** タブでカタログのエンリッチメントを設定して、[!DNL Commerce Catalog Agent]がお客様の[!DNL Adobe Commerce]環境に接続し、Commerce Adminで提案を表示できるようにします。
 
 1. 管理画面で、**[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**&#x200B;に移動します。
 1. ページの上部にある&#x200B;**[!UICONTROL Scope]** リストで、設定するストアビューを選択するか、**[!UICONTROL All Store Views]**&#x200B;のままにして、ストアビュー全体の設定を管理します。
@@ -107,14 +107,13 @@ Commerceには商品名と長い説明が保存されているため、一度編
 1. ストアビューに必要な接続の詳細を入力します。
 
    - **[!UICONTROL Store View URL]**: ストアビューに対応するURL （例：`https://brand.example.com/fr/`）。
-   - **[!UICONTROL Environment ID]**：接続がアクセスするAdobe Commerce環境の一意のID。
+   - **[!UICONTROL Environment ID]**：接続がアクセスする[!DNL Adobe Commerce]環境の一意の識別子。
    - **[!UICONTROL Website Code]**、**[!UICONTROL Store Code]**&#x200B;および&#x200B;**[!UICONTROL Store View Code]**: Commerce web サイトのWeb サイト、ストア、およびストアの表示コード。 これらの値は、Commerce管理者のコードと一致する必要があります。
 
 1. オプション：環境で必要な場合は、**[!UICONTROL Host Name]**&#x200B;と&#x200B;**[!UICONTROL API Key]**&#x200B;を入力します。
 
-   - **[!UICONTROL Host Name]**: Adobe Commerce インスタンスのホスト名。
-   - **[!UICONTROL Adobe Commerce Endpoint]**：このフィールドは使用されていません。
-   - **[!UICONTROL API Key]**: Adobe Commerce APIに安全にアクセスするために使用される認証キー。 別の場所でキーをコピーする必要がある場合は、フィールドの横にある「**[!UICONTROL Copy]**」をクリックします。
+   - **[!UICONTROL Host Name]**: [!DNL Adobe Commerce] インスタンスのホスト名。
+   - **[!UICONTROL API Key]**: [!DNL Adobe Commerce] APIへの安全なアクセスに使用される認証キー。 別の場所でキーをコピーする必要がある場合は、フィールドの横にある「**[!UICONTROL Copy]**」をクリックします。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -129,13 +128,12 @@ Commerceには商品名と長い説明が保存されているため、一度編
 | フィールド | 必須 | 説明 |
 | --- | --- | --- |
 | ストアビューURL | はい | ストアビューに対応するURL （例：`https://brand.example.com/fr/`）。 |
-| 環境ID | はい | 接続がアクセスするAdobe Commerce環境の一意のID。 |
+| 環境ID | はい | 接続がアクセスする[!DNL Adobe Commerce]環境の一意の識別子。 |
 | Web サイトコード | はい | CommerceのWeb サイトのWeb サイトのコード。 |
 | ストアコード | はい | Commerce Web サイトのストアコード。 |
 | ストアビューコード | はい | Commerce web サイトのストアビュー。 |
-| ホスト名 | いいえ | Adobe Commerce インスタンスのホスト名。 |
-| Adobe Commerce Endpoint | いいえ | このフィールドは使用されません。 |
-| API キー | いいえ | Adobe Commerce APIに安全にアクセスするために使用される認証キー。 本番用資格情報と同様に扱います。 |
+| ホスト名 | いいえ | [!DNL Adobe Commerce] インスタンスのホスト名。 |
+| API キー | いいえ | [!DNL Adobe Commerce]個のAPIに安全にアクセスするために使用される認証キー。 本番用資格情報と同様に扱います。 |
 
 ### カタログ強化のレビューと適用 {#review-and-apply}
 
@@ -183,7 +181,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 
    ![製品名](./assets/enriched-product-name.png)を強化しました
 
-1. オプション：代わりに手動で入力した名前を保持する場合は、**[!UICONTROL Override LLM Optimizer provided Product Name]**&#x200B;を選択します。
+1. オプション：代わりに手動で入力した名前を保持する場合は、**[!UICONTROL Override Catalog Agent provided Product Name]**&#x200B;を選択します。
 
    手動での上書きは、提案がカタログとの同期を維持する方法に影響します。 詳しくは、[管理者](#manual-override-in-the-admin)での手動による上書きを参照してください。
 
@@ -193,7 +191,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 
    ![製品説明](./assets/enrich-product-description.png)を拡充
 
-1. オプション：代わりに手動で入力した説明を保持する場合は、**[!UICONTROL Override LLM Optimizer provided Description]**&#x200B;を選択します。
+1. オプション：代わりに手動で入力した説明を保持する場合は、**[!UICONTROL Override Catalog Agent provided Description]**&#x200B;を選択します。
 
 手動での上書きは、提案がカタログとの同期を維持する方法に影響します。 詳しくは、[管理者](#manual-override-in-the-admin)での手動による上書きを参照してください。
 
