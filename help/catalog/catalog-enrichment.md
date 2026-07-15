@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 69e598995a3f7fbbb23c4cde3bc28334ef2feafe
+source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
 workflow-type: tm+mt
-source-wordcount: 1649
+source-wordcount: 1697
 ht-degree: 0%
 
 ---
@@ -65,8 +65,11 @@ Commerceには商品名と長い説明が保存されているため、一度編
 - 必要なCommerce サービスとカタログ接続が有効になり、正常に動作します。 詳細については、[&#x200B; カタログの強化を有効にする](#enable-catalog-enrichment)を参照してください。
 - [IMSが設定されています](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/organizations)。
 - [Adobe Admin Console](https://helpx.adobe.com/jp/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)にアクセスできます。
+- 組織が基礎となるAI サービスに対して、生成AIに乗り換えたり、明示的にオプトアウトしたりしました。
 
-> IMS組織をお持ちでない場合は、Adobe アカウントチームに連絡してIMS組織をプロビジョニングしてください。
+>[!NOTE]
+>
+>Commerceでは、設定の一環として、カタログ強化の背後にあるAI サービスをカバーするGenAI ライダーに署名したかどうかを確認します。 ライダーにまだ署名していない場合やオプトアウトしていない場合は、カタログの強化を使用する前に、ライダーに署名するか更新するかを求めるメッセージが表示されます。
 
 ## カタログの強化を有効にする {#enable-catalog-enrichment}
 
