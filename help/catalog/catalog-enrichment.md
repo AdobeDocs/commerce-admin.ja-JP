@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
+source-git-commit: ca07fcb79b3a1c7d4c1f72f1680ccf3ac5241307
 workflow-type: tm+mt
-source-wordcount: 1697
+source-wordcount: 1653
 ht-degree: 0%
 
 ---
@@ -112,11 +112,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
    - **[!UICONTROL Store View URL]**: ストアビューに対応するURL （例：`https://brand.example.com/fr/`）。
    - **[!UICONTROL Environment ID]**：接続がアクセスする[!DNL Adobe Commerce]環境の一意の識別子。
    - **[!UICONTROL Website Code]**、**[!UICONTROL Store Code]**&#x200B;および&#x200B;**[!UICONTROL Store View Code]**: Commerce web サイトのWeb サイト、ストア、およびストアの表示コード。 これらの値は、Commerce管理者のコードと一致する必要があります。
-
-1. オプション：環境で必要な場合は、**[!UICONTROL Host Name]**&#x200B;と&#x200B;**[!UICONTROL API Key]**&#x200B;を入力します。
-
    - **[!UICONTROL Host Name]**: [!DNL Adobe Commerce] インスタンスのホスト名。
-   - **[!UICONTROL API Key]**: [!DNL Adobe Commerce] APIへの安全なアクセスに使用される認証キー。 別の場所でキーをコピーする必要がある場合は、フィールドの横にある「**[!UICONTROL Copy]**」をクリックします。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -135,8 +131,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 | Web サイトコード | はい | CommerceのWeb サイトのWeb サイトのコード。 |
 | ストアコード | はい | Commerce Web サイトのストアコード。 |
 | ストアビューコード | はい | Commerce web サイトのストアビュー。 |
-| ホスト名 | いいえ | [!DNL Adobe Commerce] インスタンスのホスト名。 |
-| API キー | いいえ | [!DNL Adobe Commerce]個のAPIに安全にアクセスするために使用される認証キー。 本番用資格情報と同様に扱います。 |
+| ホスト名 | はい | [!DNL Adobe Commerce] インスタンスのホスト名。 |
 
 ### カタログ強化のレビューと適用 {#review-and-apply}
 
