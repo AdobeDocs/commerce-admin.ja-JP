@@ -3,25 +3,15 @@ title: カタログの強化
 description: Adobe Commerceのネイティブカタログエンリッチメント機能を使用して、AIが提案した改善点をレビューし、LLMとAIが支援する発見のために、商品名と長い説明文に適用します。
 role: Admin, User, Leader
 recommendations: noCatalog
-hide: true
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ca07fcb79b3a1c7d4c1f72f1680ccf3ac5241307
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c32adafa-ed01-4b31-997e-2413013911b0id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
 workflow-type: tm+mt
-source-wordcount: 1653
+source-wordcount: 2182
 ht-degree: 0%
 
 ---
@@ -32,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->カタログの強化は、舞台裏の[!DNL Commerce Catalog Agent]と[!DNL Adobe LLM Optimizer]によって強化されています。 Commerce カタログワークフローの一部としてエンリッチメントを使用します。 承認済みの名前と説明の更新を適用するために、個別のLLM Optimizer統合を管理することはありません。 Commerce以外の幅広いLLMの監視と最適化については、[LLM Optimizer製品ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/llm-optimizer/using/home)を参照してください。
+>カタログの強化は、舞台裏の[!DNL Commerce Catalog Agent]と[!DNL Adobe LLM Optimizer]によって強化されています。 Commerce カタログワークフローの一部としてエンリッチメントを使用します。 承認済みの名前と説明の更新を適用するために、個別のLLM Optimizer統合を管理することはありません。 Commerce以外の幅広いLLMの監視と最適化については、[LLM Optimizer製品ドキュメント ](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home)を参照してください。
 
 ## 仕組み {#how-it-works}
 
@@ -62,9 +52,9 @@ Commerceには商品名と長い説明が保存されているため、一度編
 カタログのエンリッチメントにアクセスできる場合は、次の前提条件が適用されます。
 
 - ストアフロントはLLM向けおよびエージェント型のボットでクロールできます。カタログに応じた提案を行うにはクロールで対応する必要があります。
-- 必要なCommerce サービスとカタログ接続が有効になり、正常に動作します。 詳細については、[&#x200B; カタログの強化を有効にする](#enable-catalog-enrichment)を参照してください。
-- [IMSが設定されています](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/organizations)。
-- [Adobe Admin Console](https://helpx.adobe.com/jp/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)にアクセスできます。
+- 必要なCommerce サービスとカタログ接続が有効になり、正常に動作します。 詳細については、[ カタログの強化を有効にする](#enable-catalog-enrichment)を参照してください。
+- [IMSが設定されています](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations)。
+- [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)にアクセスできます。
 - 組織が基礎となるAI サービスに対して、生成AIに乗り換えたり、明示的にオプトアウトしたりしました。
 
 >[!NOTE]
@@ -84,7 +74,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
    composer update magento/module-catalog-enrichment
    ```
 
-1. カタログサービスをまだインストールしていない場合は、[実行してください](https://experienceleague.adobe.com/ja/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
+1. カタログサービスをまだインストールしていない場合は、[実行してください](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
 
    **[!UICONTROL Catalog enrichment]**&#x200B;は、お使いのCommerce インスタンスで利用できるようになりました。
 
@@ -92,7 +82,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 
 カタログ エンリッチメントおよびカタログ サービス拡張機能をインストールすると、カタログ エンリッチメント機能が管理者の&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**&#x200B;で利用できるようになります。
 
-![&#x200B; カタログの強化](./assets/catalog-enrichment-menu.png)
+![ カタログの強化](./assets/catalog-enrichment-menu.png)
 
 ### カタログエンリッチメントの設定
 
@@ -105,7 +95,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 
    カタログ LLM Optimizer サービスと監査ワークフローを有効にするには、[!DNL Adobe Commerce]環境の詳細を指定します。
 
-   ![&#x200B; カタログエンリッチメント設定タブのCommerce設定](./assets/catalog-enrichment-commerce-config.png)
+   ![ カタログエンリッチメント設定タブのCommerce設定](./assets/catalog-enrichment-commerce-config.png)
 
 1. ストアビューに必要な接続の詳細を入力します。
 
@@ -143,7 +133,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 - **[!UICONTROL Fixed Suggestions]**：既に適用または解決済みの項目。
 - **[!UICONTROL Ignored Suggestions]**: アクションから意図的に除外した項目。
 
-![&#x200B; カタログの強化](./assets/agentic-opportunities.png)
+![ カタログの強化](./assets/agentic-opportunities.png)
 
 ### 承認済み提案をデプロイ {#review-deploy-catalog}
 
@@ -240,4 +230,37 @@ Commerceには商品名と長い説明が保存されているため、一度編
 - タイトルや説明を一括適用する前に、SEO チームやブランドチームと調整しましょう。
 - 主要なカタログのインポート後に再同期または再分析して、現在のカタログの状態を提案に反映します。
 
-<!--## Examples This section will provide examples of what enrichment before/after looks like:-->
+## 例
+
+次の例は、カタログのエンリッチメントにより、生の技術属性を、買い物客に焦点を当てた物語のような製品コピーに変換する方法を示しています。
+
+### 例：技術的な属性を含むコーヒー製品
+
+コーヒーretailerのカタログには、コーヒー豆の品種、原産地、加工方法、焙煎レベル、標高範囲などの中程度のコーヒー豆商品の技術仕様のみが保存されています。 これらのフィールドは商品を説明するものの、買い物客にその価値を伝えないため、AI アシスタントは「スムーズで低酸の味がするコーヒーは何ですか？」などの質問に答える際に、ほとんど操作できません。
+
+カタログのエンリッチメントでは、技術的な属性と理由を読み取り、買い物客に関連する特性を推測します。
+
+| 技術的属性 | 推測特性 | 推論 |
+| --- | --- | --- |
+| ハニープロセス、Mediumロースト | 低酸度 | 蜂蜜の処理中に豆に残った果実ムシラージュは酸性度を抑制し、中焙煎は残留酸性化合物を分解します。 |
+| ハニープロセス，アラビカ，Mediumロースト | ヘーゼルナッツ味 | ムシラージュの果糖は、アラビカの天然ナッツノートと組み合わされ、中程度のローストで増幅されます。 |
+| ハニープロセス，アラビカ | リッチでクリーミーな食感 | 乾燥中に粘液から吸収された油は粘度と体を追加します。 |
+| 蜂蜜プロセス、高度900-1200m | キャラメルのアンダートーン | より密度の高い高地の豆は、蜂蜜の処理によって深められた、より複雑な糖を開発します。 |
+
+カタログの強化では、推測された特性を商品コピーに適用します。
+
+- **前**:「Mediumローストコーヒー豆 – アラビカ、ブラジルミナスジェライス、ハニープロセス、900～1200m」
+- **After**:「ブラジルのミナスジェライスで900～1200mで栽培されたアラビカ豆は、ハチミツ加工でミディアムローストし、独特のヘーゼルナッツの個性、キャラメルの下調、低い酸味を備えた、自然に甘くクリーミーな食感を生み出します。 連続した、親しみやすいスペシャルティコーヒーは、注ぎ込むのを通して最高の経験しました。」
+
+更新された名前と説明はCommerceカタログに直接保存されるため、ストアフロント、LLM フィード、それらのフィールドを読み取るその他のチャネルには、同じエンリッチメントコピーが反映されます。
+
+### 例：モジュール式の家具構成
+
+Furniture retailerでは、モジュール式のセクショナルソファが販売されています。このソファでは、製品説明にコンフィギュレーションコードとファブリック名（例：`6 Standard Seats + 6 Standard Sides in Sapphire Navy Corded Velvet`）のみが記載されています。 この略語は、リピート顧客には理解できますが、AI アシスタントは、商品がどのように機能するのか、何が耐久性や快適なものなのかについてのコンテキストをほとんど提供しません。
+
+カタログのエンリッチメントにより、設定とファブリックの属性がナラティブな説明に展開され、各コンポーネントの機能と、買い物客にとって重要な理由が説明されます。
+
+- **前**:「サファイア海軍コードベルベットの標準座席数6席+標準座席数6面」
+- **After**: 「この設定には、6つの標準シート挿入セットと6つの標準サイドインサートが含まれており、アームまたはバックとして互換性を持って機能し、レイアウトのモジュール式ビルディングブロックを形成します。 各シートは、リフトを保持し、たるみを防ぐために設計された3つの高密度レイヤーを備えた標準フォームを備えています。 サファイア海軍コード付きベルベットカバーは、繊細な光沢と柔らかく豪華な雰囲気を作り出すテクスチャコードを備えた豪華な耐久性があります。 カバーは正確でカスタマイズされた外観を実現するために手縫いされており、機械で洗って変更できるため、セクションはスペースとともに進化することができます。」
+
+強化された説明はCommerce カタログに書き戻されるので、AI ボットは商品詳細ページをクロールして、商品のカタログデータを使用するダウンストリームチャネルやフィードにも使用できます。買い物客がページに表示するレイアウトやデザインは変更されません。
