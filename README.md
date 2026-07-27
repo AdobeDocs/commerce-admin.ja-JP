@@ -60,7 +60,7 @@ Adobe コミュニティに参加していて、新しい記事を作成した�
 
 ### Adobe社員の主な変更点
 
-Adobe Experience Cloud ソリューションの製品チームのテクニカルライター、プログラムマネージャー、開発者であり、技術記事の投稿や作成を担当する仕事がある場合は、`https://github.com/Adobe-Enterprise-Docs/commerce-admin.en`にあるプライベートリポジトリを使用する必要があります。
+Adobe Experience Cloud ソリューションの製品チームのテクニカルライター、プログラムマネージャー、開発者であり、技術記事の投稿や作成を担当する仕事がある場合は、`https://github.com/Adobe-Enterprise-Docs/commerce-admin.ja-JP`にあるプライベートリポジトリを使用する必要があります。
 
 ## ツールと設定
 
