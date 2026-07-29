@@ -2,7 +2,7 @@
 title: '[!UICONTROL Adobe Services] > [!UICONTROL Email Suppression]'
 description: Commerce管理者の[!UICONTROL Adobe Services] > [!UICONTROL Email Suppression] ページで設定を確認します。
 feature: Configuration, Communications
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
 feature_v2:
