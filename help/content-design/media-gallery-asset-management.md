@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Media Gallery アセット管理
 
-新しい[Media Gallery](media-gallery.md)には、アップロードされたメディアファイルと、[Adobe Stockとの統合](adobe-stock.md)を通じて取得したアセットを管理するためのツールが用意されています。 Adobe Stock [画像プレビュー](adobe-stock-save-preview.md)を保存した場合は、新しいMedia Galleryで画像を[ ライセンス ](adobe-stock-license-image.md)することもできます。
+新しい[Media Gallery](media-gallery.md)には、アップロードされたメディアファイルと、[Adobe Stockとの統合](adobe-stock.md)を通じて取得したアセットを管理するためのツールが用意されています。 Adobe Stock [画像プレビュー](adobe-stock-save-preview.md)を保存した場合は、新しいMedia Galleryで画像を[&#x200B; ライセンス &#x200B;](adobe-stock-license-image.md)することもできます。
 
 Assetsは、モジュールによって追加された`pub/media/wysywig`、`pub/media/catalog/category`またはその他のフォルダーにのみアップロードできます。
 
 ## アセットのアップロード
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;に移動します。
 
 1. **[!UICONTROL Upload Image]**&#x200B;をクリックします。
 
@@ -30,11 +30,11 @@ Assetsは、モジュールによって追加された`pub/media/wysywig`、`pub
 
 ## アセットの詳細を表示
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;に移動します。
 
-1. アセット（![詳細アイコン ](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}）の下にある3つのドットをクリックし、**[!UICONTROL View Details]**&#x200B;をクリックします。
+1. アセット（![詳細アイコン &#x200B;](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}）の下にある3つのドットをクリックし、**[!UICONTROL View Details]**&#x200B;をクリックします。
 
-   ![ アセットアクション ](./assets/media-gallery-asset-actions.png){width="600" zoomable="yes"}
+   ![&#x200B; アセットアクション &#x200B;](./assets/media-gallery-asset-actions.png){width="600" zoomable="yes"}
 
    アセットの詳細がスライドパネルに表示されます。 これには、アセットが使用されている情報が含まれます。
 
@@ -43,21 +43,21 @@ Assetsは、モジュールによって追加された`pub/media/wysywig`、`pub
    - **[!UICONTROL Pages]**
    - **[!UICONTROL Blocks]**
 
-   ![ アセットの詳細](./assets/media-gallery-asset-details.png){width="600" zoomable="yes"}
+   ![&#x200B; アセットの詳細](./assets/media-gallery-asset-details.png){width="600" zoomable="yes"}
 
    詳細を表示するには、**[!UICONTROL Used In]** リンクをクリックします。 次の例のグリッドは、特定のアセットが使用されているすべてのカテゴリを示しています。
 
-   ![ カテゴリーグリッド ](./assets/media-gallery-asset-categories.png){width="600" zoomable="yes"}
+   ![&#x200B; カテゴリーグリッド &#x200B;](./assets/media-gallery-asset-categories.png){width="600" zoomable="yes"}
 
    _詳細を表示_ セクションからアセットを削除することもできます。
 
 ## アセットの編集
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;に移動します。
 
-1. アセット （![ アセットメニューアイコン ](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}）の下にある3つのドットをクリックし、**[!UICONTROL Edit]**&#x200B;をクリックします。
+1. アセット （![&#x200B; アセットメニューアイコン &#x200B;](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}）の下にある3つのドットをクリックし、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-   ![ アセットを編集](./assets/media-gallery-edit-asset.png){width="600" zoomable="yes"}
+   ![&#x200B; アセットを編集](./assets/media-gallery-edit-asset.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、次のいずれかのメタデータ値を変更します。
 
@@ -71,7 +71,7 @@ Assetsは、モジュールによって追加された`pub/media/wysywig`、`pub
 
 ## アセットの使用
 
-Assetsは、[ ページの追加または編集](page-add.md)、[ カテゴリの作成または編集](../catalog/category-create.md)、[ コンテンツエディターからの画像の挿入](editor-insert-image.md)など、管理者全体で幅広く使用できます。
+Assetsは、[&#x200B; ページの追加または編集](page-add.md)、[&#x200B; カテゴリの作成または編集](../catalog/category-create.md)、[&#x200B; コンテンツエディターからの画像の挿入](editor-insert-image.md)など、管理者全体で幅広く使用できます。
 
 1. メディアアセットを使用できる領域から、新しいメディアギャラリーにアクセスします。
 
@@ -81,7 +81,7 @@ Assetsは、[ ページの追加または編集](page-add.md)、[ カテゴリ�
 
 ## アセットの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;に移動します。
 
 1. **[!UICONTROL Delete Images...]**&#x200B;をクリックし、削除する各アセットのチェックボックスを選択します。
 
@@ -91,13 +91,13 @@ Assetsは、[ ページの追加または編集](page-add.md)、[ カテゴリ�
 
 ## アセットの検索
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;に移動します。
 
 1. キーワード/タグによる画像検索を実行するには、**[!UICONTROL Search by keywords]**&#x200B;入力を使用します。
 
    次の例の検索では、特定のタグ （`mountain`）を含むアセットが見つかりました。
 
-   ![ アセット検索](./assets/media-gallery-asset-search.png){width="600" zoomable="yes"}
+   ![&#x200B; アセット検索](./assets/media-gallery-asset-search.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -109,11 +109,11 @@ Assetsは、[ ページの追加または編集](page-add.md)、[ カテゴリ�
 >
 >_で使用される_&#x200B;機能では、[!UICONTROL Media Gallery Image Optimization]が[構成設定](media-gallery-image-optimization.md)で有効になっている必要があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Filters]**」タブをクリックします。
 
-   ![ フィルター](./assets/media-gallery-filters.png){width="600" zoomable="yes"}
+   ![&#x200B; フィルター](./assets/media-gallery-filters.png){width="600" zoomable="yes"}
 
 1. フィルターオプションを設定します。
 
@@ -130,7 +130,7 @@ Assetsは、[ ページの追加または編集](page-add.md)、[ カテゴリ�
 
    次の例のフィルタリングでは、特定のカテゴリ （`cars`）で使用され、有効になっているアセットが見つかります。
 
-   ![ カテゴリー別の有効なAssetsのフィルター](./assets/media-gallery-filter-by-category.png){width="600" zoomable="yes"}
+   ![&#x200B; カテゴリー別の有効なAssetsのフィルター](./assets/media-gallery-filter-by-category.png){width="600" zoomable="yes"}
 
 ## 重複した画像を探す
 

@@ -4,11 +4,19 @@ description: ' [!DNL Page Builder] 段階で行を追加するために使用さ
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/69IYa3jE6VTO6PXToXkDhfu8B4-KJw9sv0cO-NgUBOM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 last-update: 2023-09-11
 source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
@@ -19,7 +27,7 @@ ht-degree: 0%
 
 # レイアウト – 行
 
-_行_ コンテンツタイプを使用して、[[!DNL Page Builder]  ステージ ](workspace.md#stage)に行を追加します。
+_行_ コンテンツタイプを使用して、[[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage)に行を追加します。
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -27,17 +35,17 @@ _行_ コンテンツタイプを使用して、[[!DNL Page Builder]  ステー�
 
 行のコンテナにカーソルを合わせると、行のツールボックスが表示されます。 このツールボックスには、行を移動、非表示、複製、編集、削除するオプションが含まれています。 設定の選択によって、行の外観、背景、レイアウトが決まります。 追加のコンテンツ要素は、左側の[!DNL Page Builder] パネルから行にドラッグできます。
 
-![行のツールボックス ](./assets/pb-layout-page-add-content-row-tools.png){width="600" zoomable="yes"}
+![行のツールボックス &#x200B;](./assets/pb-layout-page-add-content-row-tools.png){width="600" zoomable="yes"}
 
 | ツール | アイコン | 説明 |
 | --------- | ---------- | ----------- |
-| 移動 | ![移動アイコン ](./assets/pb-icon-move.png){width="25"} | ステージ上の他の行に関連して、行を別の位置に移動します。 |
+| 移動 | ![移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | ステージ上の他の行に関連して、行を別の位置に移動します。 |
 | （ラベル） | [!UICONTROL Row] | 現在のコンテンツコンテナを行として識別します。 コンテナにカーソルを合わせると、ツールボックスが表示されます。 |
-| 設定 | ![設定アイコン ](./assets/pb-icon-settings.png){width="25"} | 「行を編集」ページが開き、コンテナのプロパティを変更できます。 |
-| 非表示 | ![ アイコンを非表示](./assets/pb-icon-hide.png){width="25"} | 現在の行を非表示にします。 |
-| 表示 | ![ アイコンを表示](./assets/pb-icon-show.png){width="25"} | 非表示の行を表示します。 |
-| 重複 | ![ アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | 行のコピーを作成します。 |
-| 削除 | ![ アイコンを削除](./assets/pb-icon-remove.png){width="25"} | 行コンテナとそのコンテンツをステージから削除します。 |
+| 設定 | ![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | 「行を編集」ページが開き、コンテナのプロパティを変更できます。 |
+| 非表示 | ![&#x200B; アイコンを非表示](./assets/pb-icon-hide.png){width="25"} | 現在の行を非表示にします。 |
+| 表示 | ![&#x200B; アイコンを表示](./assets/pb-icon-show.png){width="25"} | 非表示の行を表示します。 |
+| 重複 | ![&#x200B; アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | 行のコピーを作成します。 |
+| 削除 | ![&#x200B; アイコンを削除](./assets/pb-icon-remove.png){width="25"} | 行コンテナとそのコンテンツをステージから削除します。 |
 
 {style="table-layout:auto"}
 
@@ -45,9 +53,9 @@ _行_ コンテンツタイプを使用して、[[!DNL Page Builder]  ステー�
 
 ## 行を追加
 
-1. _[!UICONTROL Layout]_の下の[!DNL Page Builder] パネルで、新しい&#x200B;**[!UICONTROL Row]**を1行目のすぐ下のステージにドラッグします。
+1. _[!UICONTROL Layout]_&#x200B;の下の[!DNL Page Builder] パネルで、新しい&#x200B;**[!UICONTROL Row]**&#x200B;を1行目のすぐ下のステージにドラッグします。
 
-1. 行を書式設定するには、行コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. 行を書式設定するには、行コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
    使用可能な設定の詳細については、次の節を参照してください。
 
@@ -55,9 +63,9 @@ _行_ コンテンツタイプを使用して、[[!DNL Page Builder]  ステー�
 
 ## 行の設定の変更
 
-1. 行コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. 行コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-   ![行のツールボックス ](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
+   ![行のツールボックス &#x200B;](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
 
 1. 使用可能な設定の更新について詳しくは、次の節を参照してください。
 
@@ -67,7 +75,7 @@ _行_ コンテンツタイプを使用して、[[!DNL Page Builder]  ステー�
 
 _アピアランス_&#x200B;設定を使用して、行にコンテンツがどのように表示されるかを指定します。
 
-![ アピアランス設定](./assets/pb-row-layout.png){width="600" zoomable="yes"}
+![&#x200B; アピアランス設定](./assets/pb-row-layout.png){width="600" zoomable="yes"}
 
 - コンテンツ領域のコンテナと幅に関連して、背景色や背景画像がどのように表示されるかを決定するには、次の整列を選択します。
 
@@ -75,7 +83,7 @@ _アピアランス_&#x200B;設定を使用して、行にコンテンツがど�
   | ------ | ----------- |
   | [!UICONTROL Contained] | 背景色または画像は、テーマで定義される最大ページ幅に制限されます。 |
   | [!UICONTROL Full Width] | テーマで定義される最大ページ幅にコンテンツを制限します。 背景色や画像は制限されず、行の幅が広がります。 |
-  | [!UICONTROL Full Bleed] | コンテンツと背景画像および/またはカラーは制限されず、行の幅を広げます。 完全ブリードは、レイアウトをサポートする[ テーマ ](../content-design/themes.md)でのみ使用できます。 |
+  | [!UICONTROL Full Bleed] | コンテンツと背景画像および/またはカラーは制限されず、行の幅を広げます。 完全ブリードは、レイアウトをサポートする[&#x200B; テーマ &#x200B;](../content-design/themes.md)でのみ使用できます。 |
 
   {style="table-layout:auto"}
 
@@ -93,7 +101,7 @@ _アピアランス_&#x200B;設定を使用して、行にコンテンツがど�
 
 色見本を選択するか、カラーピッカーをクリックするか、有効なカラー名または同等の16進数値を入力して、背景色を指定します。 この設定により、行の背景色が決まります。 カラーの不透明度を調整することもできます。
 
-![ カラーなし（デフォルト） ](./assets/pb-settings-background-color-no-color.png){width="200"}
+![&#x200B; カラーなし（デフォルト） &#x200B;](./assets/pb-settings-background-color-no-color.png){width="200"}
 
 値は、次の3つの方法のいずれかで設定できます。
 
@@ -103,7 +111,7 @@ _アピアランス_&#x200B;設定を使用して、行にコンテンツがど�
 
 カラーを選択する場合は、「_カラーなし_」ボックスの左側にあるスウォッチをクリックします。
 
-![ カラースウォッチの選択](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
+![&#x200B; カラースウォッチの選択](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
 カラーボックスをクリックしてカラーピッカーを再度開くと、スライダーの下のボックスに、現在の赤、緑、青、アルファの値（rgba）が表示されます。 最後の数値は、現在の不透明度の割合を10進数で示しています。 スライダーを使用して不透明度を調整したり、必要な小数値を入力したりできます。
 
@@ -121,7 +129,7 @@ _アピアランス_&#x200B;設定を使用して、行にコンテンツがど�
 
 ### 画像タイプの設定
 
-_[!UICONTROL Background Type]_を`Image`に設定する場合は、次の設定を使用して背景画像表示を定義します。
+_[!UICONTROL Background Type]_&#x200B;を`Image`に設定する場合は、次の設定を使用して背景画像表示を定義します。
 
 ![背景画像](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
@@ -131,7 +139,7 @@ _[!UICONTROL Background Type]_を`Image`に設定する場合は、次の設定�
   | ------ | ----------- |
   | [!UICONTROL Upload] | ローカルコンピューターからギャラリーに画像ファイルをアップロードし、それを行の背景画像として適用します。 |
   | [!UICONTROL Select from Gallery] | 行の背景画像として、ギャラリーから既存の画像を選択するよう求めるプロンプトが表示されます。 |
-  | ![ カメラアイコン ](./assets/pb-icon-camera.png){width="25"} | 画像をカメラタイルにドラッグするか、ローカルファイルシステムで画像を参照できます。 |
+  | ![&#x200B; カメラアイコン &#x200B;](./assets/pb-icon-camera.png){width="25"} | 画像をカメラタイルにドラッグするか、ローカルファイルシステムで画像を参照できます。 |
 
   {style="table-layout:auto"}
 
@@ -147,7 +155,7 @@ _[!UICONTROL Background Type]_を`Image`に設定する場合は、次の設定�
 
   {style="table-layout:auto"}
 
-  ![背景サイズ ](./assets/pb-layout-row-settings-background-size-cover.png){width="250"}
+  ![背景サイズ &#x200B;](./assets/pb-layout-row-settings-background-size-cover.png){width="250"}
 
 - **[!UICONTROL Background Position]** – このオプションを設定して、行に対する背景画像のアンカー方法を決定します。
 
@@ -201,7 +209,7 @@ _背景タイプ_&#x200B;を`Video`に設定した場合は、次の設定を使
 - **パララックス背景を有効にする**&#x200B;を`Yes`に設定します。
 - **視差速度**&#x200B;を`-1.0`から`2.0`までの小数値で入力します。
 
-![ パララックス背景設定](./assets/pb-settings-parallax-background.png){width="600" zoomable="yes"}
+![&#x200B; パララックス背景設定](./assets/pb-settings-parallax-background.png){width="600" zoomable="yes"}
 
 ## アドバンス
 
@@ -264,6 +272,6 @@ _背景タイプ_&#x200B;を`Video`に設定した場合は、次の設定を使
 
   {style="table-layout:auto"}
 
-  ![余白とパディング ](./assets/pb-layout-row-settings-margin-padding-default.png){width="600" zoomable="yes"}
+  ![余白とパディング &#x200B;](./assets/pb-layout-row-settings-margin-padding-default.png){width="600" zoomable="yes"}
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

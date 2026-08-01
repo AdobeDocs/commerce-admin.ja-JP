@@ -5,11 +5,21 @@ exl-id: 3a9655c1-c124-42be-a487-b31404dada90
 feature: System, Configuration
 badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/kx2acbOSrWMJGv3ST6qKAXjLPgL2Lsh16wWvOxNO7FE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2023-06-28
 source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
@@ -22,7 +32,7 @@ ht-degree: 0%
 
 Adobe CommerceとMagento Open Sourceでは、ファイルシステム、データベース、メディアファイルなど、システムのさまざまな部分をバックアップし、自動的にロールバックできます。 各バックアップのレコードが&#x200B;_バックアップ_ ページのグリッドに表示されます。 リストからレコードを削除すると、アーカイブされたファイルも削除されます。 データベースバックアップファイルは、GZ形式を使用して圧縮されます。 システム・バックアップとデータベース・バックアップおよびメディア・バックアップには、TGZ形式が使用されます。 ベストプラクティスとして、拡張機能とアップデートをインストールする前に、バックアップツールへのアクセスを制限し、バックアップする必要があります。
 
-- **バックアップ ツールへのアクセスを制限します。** バックアップおよびロールバック管理ツールへのアクセスは、バックアップおよびロールバック リソース用に[ ユーザーの役割](permissions-user-roles.md)を設定することで制限できます。 アクセスを制限するには、対応するチェックボックスを選択しないままにします。 リソースをロールバックするためのアクセス権を付与するには、バックアップリソースへのアクセス権も付与する必要があります。
+- **バックアップ ツールへのアクセスを制限します。** バックアップおよびロールバック管理ツールへのアクセスは、バックアップおよびロールバック リソース用に[&#x200B; ユーザーの役割](permissions-user-roles.md)を設定することで制限できます。 アクセスを制限するには、対応するチェックボックスを選択しないままにします。 リソースをロールバックするためのアクセス権を付与するには、バックアップリソースへのアクセス権も付与する必要があります。
 
 - **拡張機能とアップデートをインストールする前にバックアップします。** 拡張機能またはアップデートをインストールする前に、必ずバックアップを実行してください。
 
@@ -30,7 +40,7 @@ Adobe CommerceとMagento Open Sourceでは、ファイルシステム、デー�
 
 ## バックアップの有効化とスケジュール
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL System]**&#x200B;を選択します。
 
@@ -46,13 +56,13 @@ Adobe CommerceとMagento Open Sourceでは、ファイルシステム、デー�
    - **[!UICONTROL Frequency]**&#x200B;を`Daily`、`Weekly`または`Monthly`に設定します。
    - **[!UICONTROL Maintenance Mode]**&#x200B;を`Yes`に設定します。
 
-   ![詳細設定 – バックアップ ](../configuration-reference/advanced/assets/system-scheduled-backup-settings.png){width="600" zoomable="yes"}
+   ![詳細設定 – バックアップ &#x200B;](../configuration-reference/advanced/assets/system-scheduled-backup-settings.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
 ## バックアップの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Backups]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Backups]**&#x200B;に移動します。
 
 1. 右上隅で、作成するバックアップの種類をクリックします。
 
@@ -62,7 +72,7 @@ Adobe CommerceとMagento Open Sourceでは、ファイルシステム、デー�
 
    - **[!UICONTROL Database Backup]** - データベースのバックアップを作成します。
 
-   ![ システム ツール – バックアップ ](./assets/tools-backups.png){width="600" zoomable="yes"}
+   ![&#x200B; システム ツール – バックアップ &#x200B;](./assets/tools-backups.png){width="600" zoomable="yes"}
 
 1. バックアップ中にストアをメンテナンスモードにするには、チェックボックスをオンにします。
 

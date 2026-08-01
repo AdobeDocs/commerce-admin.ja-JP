@@ -4,11 +4,19 @@ description: 再利用可能なブロックを [!DNL Page Builder]  ステージ
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/P9utTpclcQfyDpiNgNF8W6UJOrrNX3VBB-l5sOgfRJE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 last-update: 2023-09-11
 source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
@@ -19,9 +27,9 @@ ht-degree: 0%
 
 # コンテンツを追加 – ブロック
 
-_ブロック_ コンテンツタイプを使用して、既存のアクティブな[ ブロック ](../content-design/blocks.md)を[[!DNL Page Builder]  ステージ ](workspace.md#stage)に追加します。 次の例では、最初の列にページのサイドメニューを含むブロックが含まれています。 2番目の列には画像が含まれています。
+_ブロック_ コンテンツタイプを使用して、既存のアクティブな[&#x200B; ブロック &#x200B;](../content-design/blocks.md)を[[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage)に追加します。 次の例では、最初の列にページのサイドメニューを含むブロックが含まれています。 2番目の列には画像が含まれています。
 
-![ サイドメニュー付きブロック ](./assets/pb-add-content-block-example.png){width="600" zoomable="yes"}
+![&#x200B; サイドメニュー付きブロック &#x200B;](./assets/pb-add-content-block-example.png){width="600" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -29,12 +37,12 @@ _ブロック_ コンテンツタイプを使用して、既存のアクティ�
 
 | ツール | アイコン | 説明 |
 | --------- | -------- | ------------- |
-| 移動 | ![移動アイコン ](./assets/pb-icon-move.png) | ブロックコンテナとそのコンテンツをステージ上の別の位置に移動します。 |
-| 設定 | ![設定アイコン ](./assets/pb-icon-settings.png) | ブロックを選択し、コンテナのプロパティを変更できる「ブロックを編集」ページを開きます。 |
-| 非表示 | ![ アイコンを非表示](./assets/pb-icon-hide.png) | 現在のブロックコンテナとそのコンテンツを非表示にします。 |
-| 表示 | ![ アイコンを表示](./assets/pb-icon-show.png) | 非表示のブロックコンテナとそのコンテンツを表示します。 |
-| 重複 | ![ アイコンを複製](./assets/pb-icon-duplicate.png) | ブロックコンテナとそのコンテンツのコピーを作成します。 |
-| 削除 | ![ アイコンを削除](./assets/pb-icon-remove.png) | ブロックコンテナとそのコンテンツをステージから削除します。 |
+| 移動 | ![移動アイコン &#x200B;](./assets/pb-icon-move.png) | ブロックコンテナとそのコンテンツをステージ上の別の位置に移動します。 |
+| 設定 | ![設定アイコン &#x200B;](./assets/pb-icon-settings.png) | ブロックを選択し、コンテナのプロパティを変更できる「ブロックを編集」ページを開きます。 |
+| 非表示 | ![&#x200B; アイコンを非表示](./assets/pb-icon-hide.png) | 現在のブロックコンテナとそのコンテンツを非表示にします。 |
+| 表示 | ![&#x200B; アイコンを表示](./assets/pb-icon-show.png) | 非表示のブロックコンテナとそのコンテンツを表示します。 |
+| 重複 | ![&#x200B; アイコンを複製](./assets/pb-icon-duplicate.png) | ブロックコンテナとそのコンテンツのコピーを作成します。 |
+| 削除 | ![&#x200B; アイコンを削除](./assets/pb-icon-remove.png) | ブロックコンテナとそのコンテンツをステージから削除します。 |
 
 {style="table-layout:auto"}
 
@@ -46,21 +54,21 @@ _ブロック_ コンテンツタイプを使用して、既存のアクティ�
 
 1. [!DNL Page Builder] パネルで、**[!UICONTROL Add Content]**&#x200B;を展開し、**[!UICONTROL Block]** プレースホルダーをステージにドラッグします。
 
-   ![ ブロックをステージにドラッグする](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
+   ![&#x200B; ブロックをステージにドラッグする](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
 
-1. 空のブロックコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="25"}）アイコンを選択します。
+1. 空のブロックコンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"}）アイコンを選択します。
 
 1. **[!UICONTROL Select Block]**&#x200B;をクリックします。
 
-   ![ ブロックの選択](./assets/pb-add-content-block-select.png){width="200"}
+   ![&#x200B; ブロックの選択](./assets/pb-add-content-block-select.png){width="200"}
 
 1. 追加するブロックの行で、最後の列の&#x200B;**[!UICONTROL Select]**&#x200B;をクリックします。
 
-   ![選択したブロック ](./assets/pb-add-content-block-selected.png){width="600" zoomable="yes"}
+   ![選択したブロック &#x200B;](./assets/pb-add-content-block-selected.png){width="600" zoomable="yes"}
 
    選択したブロックの名前がページに表示されます。
 
-   ![ ブロック名](./assets/pb-add-content-block-name.png){width="200"}
+   ![&#x200B; ブロック名](./assets/pb-add-content-block-name.png){width="200"}
 
 1. 必要に応じて、このページの最後にあるフィールドの説明を参照して、残りの設定を完了します。
 
@@ -123,9 +131,9 @@ _ブロック_ コンテンツタイプを使用して、既存のアクティ�
 
 ## ブロック設定の編集
 
-1. ブロックコンテナにカーソルを合わせ、ツールボックスで&#x200B;_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="25"}）アイコンを選択します。
+1. ブロックコンテナにカーソルを合わせ、ツールボックスで&#x200B;_設定_ （![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"}）アイコンを選択します。
 
-   ![ ツールボックスをブロック ](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
+   ![&#x200B; ツールボックスをブロック &#x200B;](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
 
 1. 別のブロックを選択するには、**[!UICONTROL Select Block]**&#x200B;をクリックします。
 
@@ -138,11 +146,11 @@ _ブロック_ コンテンツタイプを使用して、既存のアクティ�
 
 ## ブロックの複製
 
-1. ブロックコンテナにカーソルを合わせてツールボックスを表示し、_複製_ （![複製アイコン ](./assets/pb-icon-duplicate.png)）アイコンを選択します。
+1. ブロックコンテナにカーソルを合わせてツールボックスを表示し、_複製_ （![複製アイコン &#x200B;](./assets/pb-icon-duplicate.png)）アイコンを選択します。
 
    複製はオリジナルのすぐ下に表示されます。
 
-1. 新しいブロックを新しい位置に移動するには、コンテナにカーソルを合わせ、ツールボックスの&#x200B;_移動_ （![移動アイコン ](./assets/pb-icon-move.png)）をクリックします。
+1. 新しいブロックを新しい位置に移動するには、コンテナにカーソルを合わせ、ツールボックスの&#x200B;_移動_ （![移動アイコン &#x200B;](./assets/pb-icon-move.png)）をクリックします。
 
 1. 新しい位置に赤いガイドラインが表示されるまで、ブロックを選択してドラッグします。
 
@@ -150,7 +158,7 @@ _ブロック_ コンテンツタイプを使用して、既存のアクティ�
 
 ## ステージからブロックを削除する
 
-1. ブロックコンテナにカーソルを合わせてツールボックスを表示し、_削除_ （![削除アイコン ](./assets/pb-icon-remove.png)）アイコンを選択します。
+1. ブロックコンテナにカーソルを合わせてツールボックスを表示し、_削除_ （![削除アイコン &#x200B;](./assets/pb-icon-remove.png)）アイコンを選択します。
 
 1. 確認を求められたら、**[!UICONTROL OK]**&#x200B;をクリックします。
 
