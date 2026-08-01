@@ -4,22 +4,13 @@ description: JPG、GIF、またはPNG画像を [!DNL Page Builder]  ステージ
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/qU9r1m9lM6jjA7VGreeThc9NilLdfWjWdqNfu7mShBc
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+last-update: 2023-09-11
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 1540
 ht-degree: 0%
@@ -28,7 +19,7 @@ ht-degree: 0%
 
 # メディア – 画像
 
-_画像_ コンテンツタイプを使用して、JPG、GIF、またはPNG画像を[[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage)に追加します。 デフォルトのデスクトップ画像に加えて、モバイルデバイス用のセカンダリ画像を指定できます。 画像の下に表示されるキャプションを追加し、画像をURL、製品、カテゴリ、またはページにリンクすることもできます。
+_画像_ コンテンツタイプを使用して、JPG、GIF、またはPNG画像を[[!DNL Page Builder]  ステージ ](workspace.md#stage)に追加します。 デフォルトのデスクトップ画像に加えて、モバイルデバイス用のセカンダリ画像を指定できます。 画像の下に表示されるキャプションを追加し、画像をURL、製品、カテゴリ、またはページにリンクすることもできます。
 
 >[!TIP]
 >
@@ -40,17 +31,17 @@ _画像_ コンテンツタイプを使用して、JPG、GIF、またはPNG画�
 
 画像コンテナにカーソルを合わせると、画像ツールボックスが表示されます。
 
-![画像ツールボックス &#x200B;](./assets/pb-media-image-giftcard-column-toolbox.png){width="500" zoomable="yes"}
+![画像ツールボックス ](./assets/pb-media-image-giftcard-column-toolbox.png){width="500" zoomable="yes"}
 
 | ツール | アイコン | 説明 |
 |--- |--- |--- |
-| 移動 | ![移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | 画像をステージ上の別の位置に移動します。 |
+| 移動 | ![移動アイコン ](./assets/pb-icon-move.png){width="25"} | 画像をステージ上の別の位置に移動します。 |
 | （ラベル） | 画像 | 現在のコンテンツコンテナを画像として識別します。 画像コンテナにカーソルを合わせると、ツールボックスが表示されます。 |
-| 設定 | ![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | 画像とコンテナのプロパティを変更できる&#x200B;_画像を編集_ ページを開きます。 |
-| 非表示 | ![&#x200B; アイコンを非表示](./assets/pb-icon-hide.png){width="25"} | 現在の画像を非表示にします。 |
-| 表示 | ![&#x200B; アイコンを表示](./assets/pb-icon-show.png){width="25"} | 非表示の画像を表示します。 |
-| 重複 | ![&#x200B; アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | 画像のコピーを作成します。 |
-| 削除 | ![&#x200B; アイコンを削除](./assets/pb-icon-remove.png){width="25"} | ステージから画像を削除します。 |
+| 設定 | ![設定アイコン ](./assets/pb-icon-settings.png){width="25"} | 画像とコンテナのプロパティを変更できる&#x200B;_画像を編集_ ページを開きます。 |
+| 非表示 | ![ アイコンを非表示](./assets/pb-icon-hide.png){width="25"} | 現在の画像を非表示にします。 |
+| 表示 | ![ アイコンを表示](./assets/pb-icon-show.png){width="25"} | 非表示の画像を表示します。 |
+| 重複 | ![ アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | 画像のコピーを作成します。 |
+| 削除 | ![ アイコンを削除](./assets/pb-icon-remove.png){width="25"} | ステージから画像を削除します。 |
 | 新しい画像をアップロード |  | ローカルファイルシステムからギャラリーに画像をアップロードします。 |
 | ギャラリーから選択 |  | ギャラリーから既存の画像を選択します。 |
 
@@ -68,76 +59,76 @@ _画像_ コンテンツタイプを使用して、JPG、GIF、またはPNG画�
 
 1. 画像アセットを追加するには、次のいずれかの方法を使用します。
 
-   ![&#x200B; ステージのギャラリーツールから画像をアップロードまたは選択](./assets/pb-media-image-upload-select.png){width="500" zoomable="yes"}
+   ![ ステージのギャラリーツールから画像をアップロードまたは選択](./assets/pb-media-image-upload-select.png){width="500" zoomable="yes"}
 
    >[!NOTE]
    >
    >最大ファイルサイズは4 MBです。 サポートされているファイル形式は、JPG、GIF、PNGです。
 
-   - _&#x200B;**新しい画像をアップロード**&#x200B;_：この方法を使用して、システムから新しい画像ファイルをアップロードします。
+   - _**新しい画像をアップロード**_：この方法を使用して、システムから新しい画像ファイルをアップロードします。
 
-      - **[!UICONTROL Upload Image]**&#x200B;をクリックします。
+     - **[!UICONTROL Upload Image]**&#x200B;をクリックします。
 
-      - 画像を見つけて選択し、ギャラリーとターゲットコンテナに追加します。
+     - 画像を見つけて選択し、ギャラリーとターゲットコンテナに追加します。
 
-     代わりに、システムから画像ファイルをドラッグして、_カメラ_ （![&#x200B; カメラアイコン &#x200B;](./assets/pb-icon-camera.png){width="20"}）アイコンにドロップすることもできます。
+     代わりに、システムから画像ファイルをドラッグして、_カメラ_ （![ カメラアイコン ](./assets/pb-icon-camera.png){width="20"}）アイコンにドロップすることもできます。
 
-   - _&#x200B;**既存のアセットを選択**&#x200B;_：この方法を使用して、メディアストレージ/ギャラリーから既存の画像アセットを選択します。
+   - _**既存のアセットを選択**_：この方法を使用して、メディアストレージ/ギャラリーから既存の画像アセットを選択します。
 
-      - **[!UICONTROL Select from Gallery]**&#x200B;をクリックします。
+     - **[!UICONTROL Select from Gallery]**&#x200B;をクリックします。
 
-      - ツリーを使用して画像に移動します。
+     - ツリーを使用して画像に移動します。
 
-      - サムネールをクリックし、**[!UICONTROL Add Selected]**&#x200B;をクリックします。
+     - サムネールをクリックし、**[!UICONTROL Add Selected]**&#x200B;をクリックします。
 
-        ![選択した画像を追加](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+       ![選択した画像を追加](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _&#x200B;**Adobe Stock画像を検索して選択**&#x200B;_：この方法を使用して、Adobe Stockから画像を検索します。
+   - _**Adobe Stock画像を検索して選択**_：この方法を使用して、Adobe Stockから画像を検索します。
 
      >[!NOTE]
      >
      >この方法では、管理者用に設定された[Adobe Stock統合](../content-design/adobe-stock.md)が必要です。
 
-      - **[!UICONTROL Search Adobe Stock]**&#x200B;をクリックし、画像を検索します。
+     - **[!UICONTROL Search Adobe Stock]**&#x200B;をクリックし、画像を検索します。
 
-      - プレビューまたはライセンスされた画像をギャラリーに保存します。
+     - プレビューまたはライセンスされた画像をギャラリーに保存します。
 
-        Adobe Stock Assetsの操作について詳しくは、[Adobe Stock Imagesの使用](../content-design/adobe-stock-manage.md)を参照してください。
+       Adobe Stock Assetsの操作について詳しくは、[Adobe Stock Imagesの使用](../content-design/adobe-stock-manage.md)を参照してください。
 
-      - ギャラリーでアセットのサムネールを選択し、**[!UICONTROL Add Selected]**&#x200B;をクリックします。
+     - ギャラリーでアセットのサムネールを選択し、**[!UICONTROL Add Selected]**&#x200B;をクリックします。
 
    画像は、プレースホルダーの場所にあるターゲットコンテナに表示されます。 背景画像とは異なり、画像を現在のコンテナ内の別の位置または別のコンテナに移動できます。
 
    >[!NOTE]
    >
-   >[&#x200B; バナー](banner.md)および[&#x200B; スライダー](slider.md)のコンテンツタイプには、_画像のアップロード_&#x200B;および&#x200B;_ギャラリーから選択_&#x200B;のオプションも含まれています。
+   >[ バナー](banner.md)および[ スライダー](slider.md)のコンテンツタイプには、_画像のアップロード_&#x200B;および&#x200B;_ギャラリーから選択_&#x200B;のオプションも含まれています。
 
    ![列の画像](./assets/pb-media-image-column1-giftcard.png){width="500" zoomable="yes"}
 
 ## 画像設定の変更
 
-1. 画像コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. 画像コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 ファイル名、サイズ、ファイルサイズは、現在の画像の下に表示されます。
 
    ![現在の画像](./assets/pb-media-image-settings-image.png){width="600" zoomable="yes"}
 
 1. 現在の&#x200B;**[!UICONTROL Image]**&#x200B;を変更するには、次のいずれかの操作を行います。
 
-   - _&#x200B;**新しい画像をアップロード**&#x200B;_：この方法を使用して、システムから新しい画像ファイルをアップロードします。
+   - _**新しい画像をアップロード**_：この方法を使用して、システムから新しい画像ファイルをアップロードします。
 
-      - **[!UICONTROL Upload Image]**&#x200B;をクリックします。
+     - **[!UICONTROL Upload Image]**&#x200B;をクリックします。
 
-      - 画像を見つけて選択し、ギャラリーとターゲットコンテナに追加します。
+     - 画像を見つけて選択し、ギャラリーとターゲットコンテナに追加します。
 
-   - _&#x200B;**既存のアセットを選択**&#x200B;_：この方法を使用して、メディアストレージ/ギャラリーから既存の画像アセットを選択します。
+   - _**既存のアセットを選択**_：この方法を使用して、メディアストレージ/ギャラリーから既存の画像アセットを選択します。
 
-      - **[!UICONTROL Select from Gallery]**&#x200B;をクリックします。
+     - **[!UICONTROL Select from Gallery]**&#x200B;をクリックします。
 
-      - ツリーを使用して画像に移動します。
+     - ツリーを使用して画像に移動します。
 
-      - サムネールをクリックし、**[!UICONTROL Add Selected]**&#x200B;をクリックします。
+     - サムネールをクリックし、**[!UICONTROL Add Selected]**&#x200B;をクリックします。
 
-        ![選択した画像を追加](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+       ![選択した画像を追加](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - **Adobe Stock画像を検索して選択**：この方法を使用して、Adobe Stockから画像を検索します。
 
@@ -145,17 +136,17 @@ _画像_ コンテンツタイプを使用して、JPG、GIF、またはPNG画�
      >
      >この方法では、管理者用に設定された[Adobe Stock統合](../content-design/adobe-stock.md)が必要です。
 
-      - **[!UICONTROL Search Adobe Stock]**&#x200B;をクリックし、画像を検索します。
+     - **[!UICONTROL Search Adobe Stock]**&#x200B;をクリックし、画像を検索します。
 
-      - プレビューまたはライセンスされた画像をギャラリーに保存します。
+     - プレビューまたはライセンスされた画像をギャラリーに保存します。
 
-        Adobe Stock Assetsの操作について詳しくは、[Adobe Stock Imagesの使用](../content-design/adobe-stock-manage.md)を参照してください。
+       Adobe Stock Assetsの操作について詳しくは、[Adobe Stock Imagesの使用](../content-design/adobe-stock-manage.md)を参照してください。
 
-      - ギャラリーでアセットのサムネールを選択し、**[!UICONTROL Add Selected]**&#x200B;をクリックします。
+     - ギャラリーでアセットのサムネールを選択し、**[!UICONTROL Add Selected]**&#x200B;をクリックします。
 
 1. **[!UICONTROL Mobile Image]**&#x200B;を追加するには、前の手順で説明したのと同じ方法を使用して、モバイルデバイスでの表示に使用する画像を選択します。
 
-   ![&#x200B; モバイル画像](./assets/pb-media-image-settings-mobile-image.png){width="600" zoomable="yes"}
+   ![ モバイル画像](./assets/pb-media-image-settings-mobile-image.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、画像の&#x200B;**[!UICONTROL Link]**&#x200B;を指定します。
 
@@ -165,15 +156,15 @@ _画像_ コンテンツタイプを使用して、JPG、GIF、またはPNG画�
 
    - **[!UICONTROL Product]** – 製品名またはSKUに基づいて宛先ページを識別します。 部分的または完全な名前に基づいて、製品を名前で検索します。 検索結果リストから商品を選択します。
 
-     ![&#x200B; リンクする製品を選択しています](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"}
+     ![ リンクする製品を選択しています](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Category]** – 宛先ページをカテゴリ ツリー内の特定のカテゴリまたはサブカテゴリとして識別します。 部分的または完全な名前に基づいてカテゴリを検索します。 表示されたツリーの展開されたセクションからカテゴリを選択します。
 
-     ![&#x200B; リンクするカテゴリの選択](./assets/pb-media-image-settings-image-link-category-tree.png){width="600" zoomable="yes"}
+     ![ リンクするカテゴリの選択](./assets/pb-media-image-settings-image-link-category-tree.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Page]** – 宛先ページを特定のコンテンツ ページとして識別します。 部分的または完全な名前に基づいてページを検索します。 検索結果リストからページを選択します。
 
-     ![&#x200B; リンクするページを選択しています](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
+     ![ リンクするページを選択しています](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
 
    訪問者がストアから離れるのを防ぐ場合は、**[!UICONTROL Open in new tab]** チェックボックスを選択します。 チェックボックスをオフにすると、リンクされた宛先が同じブラウザータブで開き、訪問者をストアから効果的に移動させることができます。
 
@@ -192,7 +183,7 @@ _画像_ コンテンツタイプを使用して、JPG、GIF、またはPNG画�
 
 ## 画像を移動
 
-1. 画像コンテナにカーソルを合わせてツールボックスを表示し、_移動_ （![移動アイコン &#x200B;](./assets/pb-icon-move.png){width="20"}）アイコンを選択します。
+1. 画像コンテナにカーソルを合わせてツールボックスを表示し、_移動_ （![移動アイコン ](./assets/pb-icon-move.png){width="20"}）アイコンを選択します。
 
    ![画像の移動](./assets/pb-media-image-column1-move-giftcard.png){width="500" zoomable="yes"}
 
@@ -202,7 +193,7 @@ _画像_ コンテンツタイプを使用して、JPG、GIF、またはPNG画�
 
 ## 画像を削除
 
-1. 画像コンテナにカーソルを合わせてツールボックスを表示し、_削除_ （![削除アイコン &#x200B;](./assets/pb-icon-remove.png){width="20"}）アイコンを選択します。
+1. 画像コンテナにカーソルを合わせてツールボックスを表示し、_削除_ （![削除アイコン ](./assets/pb-icon-remove.png){width="20"}）アイコンを選択します。
 
 1. 確認を求められたら、**[!UICONTROL OK]**&#x200B;をクリックします。
 

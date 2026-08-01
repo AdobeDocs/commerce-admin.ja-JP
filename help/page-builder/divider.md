@@ -4,21 +4,13 @@ description: ' [!DNL Page Builder] 段階のコンテンツのセクション間
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/6OxxIz3QSkS2S8yRRrnrKj8iF60zp-qM3SGZIyJRTeA
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+last-update: 2026-01-26
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 903
 ht-degree: 0%
@@ -27,7 +19,7 @@ ht-degree: 0%
 
 # 要素 – ディバイダ
 
-_Divider_ コンテンツ タイプを使用して、[[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage)のコンテンツのセクション間にルールを視覚的な区切りとして追加します。 境界線の色、太さ、幅を指定できます。 また、整列の制御、余白とパディングの設定、コンテナの境界線の形式を行うこともできます。 デフォルトでは、区切り記号は、コンテナの全幅を拡張するヘアライン規則で、パディングを許可します。
+_Divider_ コンテンツ タイプを使用して、[[!DNL Page Builder]  ステージ ](workspace.md#stage)のコンテンツのセクション間にルールを視覚的な区切りとして追加します。 境界線の色、太さ、幅を指定できます。 また、整列の制御、余白とパディングの設定、コンテナの境界線の形式を行うこともできます。 デフォルトでは、区切り記号は、コンテナの全幅を拡張するヘアライン規則で、パディングを許可します。
 
 ![境界線のないコンテナ内のデフォルトの区切り記号](./assets/pb-elements-divider-default.png){width="500" zoomable="yes"}
 
@@ -41,13 +33,13 @@ _Divider_ コンテンツ タイプを使用して、[[!DNL Page Builder]  ス�
 
 | ツール | アイコン | 説明 |
 | ---- | --------------------| ------------|
-| 移動 | ![移動アイコン &#x200B;](./assets/pb-icon-move.png){width="25"} | 区切りコンテナをページ上の別の有効な場所に移動します。 |
+| 移動 | ![移動アイコン ](./assets/pb-icon-move.png){width="25"} | 区切りコンテナをページ上の別の有効な場所に移動します。 |
 | （ラベル） | 区切り記号 | 現在のコンテナをディバイダ要素として識別します。 |
-| 設定 | ![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="25"} | ディバイダを編集ページが開き、ディバイダとそのコンテナのプロパティを変更できます。 |
-| 非表示 | ![&#x200B; アイコンを非表示](./assets/pb-icon-hide.png){width="25"} | ディバイダーコンテナを非表示にします。 |
-| 表示 | ![&#x200B; アイコンを表示](./assets/pb-icon-show.png){width="25"} | 非表示の仕切りコンテナを表示します。 |
-| 重複 | ![&#x200B; アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | ディバイダーコンテナのコピーを作成します。 |
-| 削除 | ![&#x200B; アイコンを削除](./assets/pb-icon-remove.png){width="25"} | 分割コンテナとそのコンテンツをステージから削除します。 |
+| 設定 | ![設定アイコン ](./assets/pb-icon-settings.png){width="25"} | ディバイダを編集ページが開き、ディバイダとそのコンテナのプロパティを変更できます。 |
+| 非表示 | ![ アイコンを非表示](./assets/pb-icon-hide.png){width="25"} | ディバイダーコンテナを非表示にします。 |
+| 表示 | ![ アイコンを表示](./assets/pb-icon-show.png){width="25"} | 非表示の仕切りコンテナを表示します。 |
+| 重複 | ![ アイコンを複製](./assets/pb-icon-duplicate.png){width="25"} | ディバイダーコンテナのコピーを作成します。 |
+| 削除 | ![ アイコンを削除](./assets/pb-icon-remove.png){width="25"} | 分割コンテナとそのコンテンツをステージから削除します。 |
 
 {style="table-layout:auto"}
 
@@ -63,15 +55,15 @@ _Divider_ コンテンツ タイプを使用して、[[!DNL Page Builder]  ス�
 
    次の例では、区切り記号はテキストの新しいセクションの先頭をマークします。
 
-   ![&#x200B; テキストのセクションを区切る](./assets/pb-elements-dividers-multiple-text-row.png){width="500" zoomable="yes"}
+   ![ テキストのセクションを区切る](./assets/pb-elements-dividers-multiple-text-row.png){width="500" zoomable="yes"}
 
 1. 新しいディバイダの設定を指定するには、次の手順に従います。
 
 ## 区切り記号の設定の変更
 
-1. 分割コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン &#x200B;](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
+1. 分割コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](./assets/pb-icon-settings.png){width="20"}）アイコンを選択します。
 
-   ![&#x200B; ディバイダーツールボックス &#x200B;](./assets/pb-elements-divider-toolbox.png){width="500" zoomable="yes"}
+   ![ ディバイダーツールボックス ](./assets/pb-elements-divider-toolbox.png){width="500" zoomable="yes"}
 
 1. 次のいずれかの方法を使用して区切り記号&#x200B;**[!UICONTROL Line Color]**&#x200B;を変更します。
 
@@ -88,7 +80,7 @@ _Divider_ コンテンツ タイプを使用して、[[!DNL Page Builder]  ス�
 
    ![線の色、太さ、幅の設定](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. 必要に応じて&#x200B;_[!UICONTROL Advanced]_&#x200B;設定を更新します。
+1. 必要に応じて&#x200B;_[!UICONTROL Advanced]_設定を更新します。
 
    - 親コンテナ内の区切り記号の位置を制御するには、**[!UICONTROL Alignment]**&#x200B;を選択します。
 
@@ -155,13 +147,13 @@ _Divider_ コンテンツ タイプを使用して、[[!DNL Page Builder]  ス�
 
 特定の設定を持つ書式設定されたディバイダの場合は、新しいプレースホルダーで始めるのではなく、複製を作成する方が効率的です。
 
-1. 分割コンテナにカーソルを合わせてツールボックスを表示し、_複製_ （![複製アイコン &#x200B;](./assets/pb-icon-duplicate.png){width="20"}）アイコンを選択します。
+1. 分割コンテナにカーソルを合わせてツールボックスを表示し、_複製_ （![複製アイコン ](./assets/pb-icon-duplicate.png){width="20"}）アイコンを選択します。
 
    重複するディバイダーコンテナが元のコンテナのすぐ下に表示されます。
 
    ![重複分割](./assets/pb-elements-divider-duplicate.png){width="500" zoomable="yes"}
 
-1. 新しいディバイダーコンテナにカーソルを合わせてツールボックスを表示し、_移動_ （![移動アイコン &#x200B;](./assets/pb-icon-move.png){width="20"}）アイコンを選択します。
+1. 新しいディバイダーコンテナにカーソルを合わせてツールボックスを表示し、_移動_ （![移動アイコン ](./assets/pb-icon-move.png){width="20"}）アイコンを選択します。
 
    ![仕切りの移動](./assets/pb-elements-divider-move.png){width="500" zoomable="yes"}
 

@@ -4,20 +4,13 @@ description: ソースの割り当てツールを使用して、製品のソー�
 exl-id: 1f1e81a5-fb06-46b7-84ca-7feea4942093
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/H8UQh7quyOeDq6-hSmf83fzUuJkuSLv0i2dezX-GKRA
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+last-update: 2023-06-28
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 328
 ht-degree: 0%
@@ -28,7 +21,7 @@ ht-degree: 0%
 
 _ソースの割り当て_ ツールを使用して、1つ以上のソースを製品に追加します。 このツールは、デフォルトの在庫またはカスタム在庫にカスタムソースを作成して割り当て、新しい場所と在庫を準備する際に役立ちます。
 
-新しいカスタムソースを追加した後、管理者を通じて、または[&#x200B; インポート機能](inventory-import-export.md)を使用して、製品ごとに[在庫量](quantities-assign-per-product.md)または複数の製品に対して追加できます。
+新しいカスタムソースを追加した後、管理者を通じて、または[ インポート機能](inventory-import-export.md)を使用して、製品ごとに[在庫量](quantities-assign-per-product.md)または複数の製品に対して追加できます。
 
 ![選択した製品の在庫ソースを追加](assets/inventory-bulk-assign-sources.gif)
 
@@ -48,7 +41,7 @@ _ソースの割り当て_ ツールを使用して、1つ以上のソースを�
 
 1. **[!UICONTROL Assign Sources]**&#x200B;をクリックします。
 
-   ![&#x200B; ソースを追加する製品を選択](assets/inventory-bulk-assign-sources-summary.png){width="600" zoomable="yes"}
+   ![ ソースを追加する製品を選択](assets/inventory-bulk-assign-sources-summary.png){width="600" zoomable="yes"}
 
 在庫量が0の商品にソースが追加されます。 ソースごとに[在庫量](quantities-assign-per-product.md)を追加できます。
 
