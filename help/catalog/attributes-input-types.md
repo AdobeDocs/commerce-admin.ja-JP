@@ -19,16 +19,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
-source-wordcount: 780
+source-wordcount: 804
 ht-degree: 0%
 
 ---
 
 # 属性入力タイプ
 
-管理者から表示される属性は、製品の作成時に入力するフィールドです。 属性に割り当てられる入力タイプによって、入力できるデータのタイプと、フィールドまたは入力コントロールの形式が決まります。 顧客の観点からは、属性は製品に関する情報を提供し、製品を購入するために必要なオプションとデータ入力フィールドです。
+管理者から表示される属性は、製品の作成時に入力するフィールドです。 属性に割り当てられる入力タイプによって、入力できるデータのタイプと、フィールドまたは入力コントロールの形式が決まります。 顧客の場合、属性は製品に関する情報を提供し、製品を購入するために入力する必要があるオプションとデータ入力フィールドです。
 
 ## 入力タイプ
 
@@ -49,13 +49,13 @@ ht-degree: 0%
 | [!UICONTROL Fixed Product Tax] | ロケールの要件に基づいて[FPT レート &#x200B;](../stores-purchase/fixed-product-tax.md)を定義できます。 |
 | [!UICONTROL Visual Swatch] | 設定可能な製品のカラー、テクスチャ、パターンを示すスウォッチを表示します。 [&#x200B; ビジュアルスウォッチ &#x200B;](swatches.md)には、16進数のカラー値を入力するか、オプションのカラー、マテリアル、テクスチャ、パターンを表すアップロードされた画像を表示できます。 |
 | [!UICONTROL Text Swatch] | サイズに頻繁に使用される、設定可能な製品オプションのテキストベースの表現。 [&#x200B; テキストスウォッチ &#x200B;](swatches.md)には、16進数のカラー値も含めることができます。 |
-| [!UICONTROL Page Builder] | 属性の場所に[[!DNL Page Builder]](../page-builder/workspace.md) ワークスペースがあり、魅力的なコンテンツを製品ページに簡単に追加できます。 |
+| [!UICONTROL Page Builder] [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} | 属性の場所に[[!DNL Page Builder]](../page-builder/workspace.md) ワークスペースがあり、魅力的なコンテンツを製品ページに簡単に追加できます。 |
 
 {style="table-layout:auto"}
 
 ## 日付と時刻のオプション
 
-日時フィールドの形式をカスタマイズし、データ入力に使用する入力コントロールを選択できます。 日付の値は、ドロップダウンリストまたはポップアップカレンダーから選択できます。
+日時フィールドの形式をカスタマイズし、データ入力に使用する入力コントロールを選択できます。 日付値は、ドロップダウンリストまたはポップアップカレンダーから選択できます。
 
 ![例 – ストアフロントポップアップカレンダー](./assets/storefront-popup-calendar.png){width="700" zoomable="yes"}
 

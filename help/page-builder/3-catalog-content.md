@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: f398faf7cb1fef1b04926ac6e475fc7bfa67cb9d
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: 1533
 ht-degree: 0%
 
 ---
@@ -201,7 +201,7 @@ ht-degree: 0%
 
    この例では、ラベルに`My Page Builder Attribute`を使用します。
 
-1. **[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;を`Page Builder`に設定します。
+1. **[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;を`Page Builder`に設定します。 [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
    カスタム属性を作成する際に、アプリケーションに最も適したエディターを`Page Builder`または標準のWYSIWYG `Text Editor`として指定できます。
 

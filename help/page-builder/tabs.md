@@ -17,7 +17,8 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2026-01-26
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 2041
 ht-degree: 0%
@@ -153,11 +154,11 @@ _タブ_ コンテンツタイプを使用している場合、個々のタブ�
 
   値は、次の3つの方法で入力できます。
 
-   - `White`などの定義済みのカラー名
+  - `White`などの定義済みのカラー名
 
-   - カラーの16進数カラー値（`#ffffff`など）
+  - カラーの16進数カラー値（`#ffffff`など）
 
-   - カラーのrgba値。不透明度パーセント（`rgba(255, 255, 255, 0.75)`など）
+  - カラーのrgba値。不透明度パーセント（`rgba(255, 255, 255, 0.75)`など）
 
   カラーを選択する場合は、「_カラーなし_」ボックスの左側にあるスウォッチをクリックします。
 

@@ -19,7 +19,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2023-09-11
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 1540
 ht-degree: 0%
@@ -76,21 +77,21 @@ _画像_ コンテンツタイプを使用して、JPG、GIF、またはPNG画�
 
    - _&#x200B;**新しい画像をアップロード**&#x200B;_：この方法を使用して、システムから新しい画像ファイルをアップロードします。
 
-      - **[!UICONTROL Upload Image]**&#x200B;をクリックします。
+     - **[!UICONTROL Upload Image]**&#x200B;をクリックします。
 
-      - 画像を見つけて選択し、ギャラリーとターゲットコンテナに追加します。
+     - 画像を見つけて選択し、ギャラリーとターゲットコンテナに追加します。
 
      代わりに、システムから画像ファイルをドラッグして、_カメラ_ （![&#x200B; カメラアイコン &#x200B;](./assets/pb-icon-camera.png){width="20"}）アイコンにドロップすることもできます。
 
    - _&#x200B;**既存のアセットを選択**&#x200B;_：この方法を使用して、メディアストレージ/ギャラリーから既存の画像アセットを選択します。
 
-      - **[!UICONTROL Select from Gallery]**&#x200B;をクリックします。
+     - **[!UICONTROL Select from Gallery]**&#x200B;をクリックします。
 
-      - ツリーを使用して画像に移動します。
+     - ツリーを使用して画像に移動します。
 
-      - サムネールをクリックし、**[!UICONTROL Add Selected]**&#x200B;をクリックします。
+     - サムネールをクリックし、**[!UICONTROL Add Selected]**&#x200B;をクリックします。
 
-        ![選択した画像を追加](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+       ![選択した画像を追加](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - _&#x200B;**Adobe Stock画像を検索して選択**&#x200B;_：この方法を使用して、Adobe Stockから画像を検索します。
 
@@ -98,13 +99,13 @@ _画像_ コンテンツタイプを使用して、JPG、GIF、またはPNG画�
      >
      >この方法では、管理者用に設定された[Adobe Stock統合](../content-design/adobe-stock.md)が必要です。
 
-      - **[!UICONTROL Search Adobe Stock]**&#x200B;をクリックし、画像を検索します。
+     - **[!UICONTROL Search Adobe Stock]**&#x200B;をクリックし、画像を検索します。
 
-      - プレビューまたはライセンスされた画像をギャラリーに保存します。
+     - プレビューまたはライセンスされた画像をギャラリーに保存します。
 
-        Adobe Stock Assetsの操作について詳しくは、[Adobe Stock Imagesの使用](../content-design/adobe-stock-manage.md)を参照してください。
+       Adobe Stock Assetsの操作について詳しくは、[Adobe Stock Imagesの使用](../content-design/adobe-stock-manage.md)を参照してください。
 
-      - ギャラリーでアセットのサムネールを選択し、**[!UICONTROL Add Selected]**&#x200B;をクリックします。
+     - ギャラリーでアセットのサムネールを選択し、**[!UICONTROL Add Selected]**&#x200B;をクリックします。
 
    画像は、プレースホルダーの場所にあるターゲットコンテナに表示されます。 背景画像とは異なり、画像を現在のコンテナ内の別の位置または別のコンテナに移動できます。
 
@@ -125,19 +126,19 @@ _画像_ コンテンツタイプを使用して、JPG、GIF、またはPNG画�
 
    - _&#x200B;**新しい画像をアップロード**&#x200B;_：この方法を使用して、システムから新しい画像ファイルをアップロードします。
 
-      - **[!UICONTROL Upload Image]**&#x200B;をクリックします。
+     - **[!UICONTROL Upload Image]**&#x200B;をクリックします。
 
-      - 画像を見つけて選択し、ギャラリーとターゲットコンテナに追加します。
+     - 画像を見つけて選択し、ギャラリーとターゲットコンテナに追加します。
 
    - _&#x200B;**既存のアセットを選択**&#x200B;_：この方法を使用して、メディアストレージ/ギャラリーから既存の画像アセットを選択します。
 
-      - **[!UICONTROL Select from Gallery]**&#x200B;をクリックします。
+     - **[!UICONTROL Select from Gallery]**&#x200B;をクリックします。
 
-      - ツリーを使用して画像に移動します。
+     - ツリーを使用して画像に移動します。
 
-      - サムネールをクリックし、**[!UICONTROL Add Selected]**&#x200B;をクリックします。
+     - サムネールをクリックし、**[!UICONTROL Add Selected]**&#x200B;をクリックします。
 
-        ![選択した画像を追加](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+       ![選択した画像を追加](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - **Adobe Stock画像を検索して選択**：この方法を使用して、Adobe Stockから画像を検索します。
 
@@ -145,13 +146,13 @@ _画像_ コンテンツタイプを使用して、JPG、GIF、またはPNG画�
      >
      >この方法では、管理者用に設定された[Adobe Stock統合](../content-design/adobe-stock.md)が必要です。
 
-      - **[!UICONTROL Search Adobe Stock]**&#x200B;をクリックし、画像を検索します。
+     - **[!UICONTROL Search Adobe Stock]**&#x200B;をクリックし、画像を検索します。
 
-      - プレビューまたはライセンスされた画像をギャラリーに保存します。
+     - プレビューまたはライセンスされた画像をギャラリーに保存します。
 
-        Adobe Stock Assetsの操作について詳しくは、[Adobe Stock Imagesの使用](../content-design/adobe-stock-manage.md)を参照してください。
+       Adobe Stock Assetsの操作について詳しくは、[Adobe Stock Imagesの使用](../content-design/adobe-stock-manage.md)を参照してください。
 
-      - ギャラリーでアセットのサムネールを選択し、**[!UICONTROL Add Selected]**&#x200B;をクリックします。
+     - ギャラリーでアセットのサムネールを選択し、**[!UICONTROL Add Selected]**&#x200B;をクリックします。
 
 1. **[!UICONTROL Mobile Image]**&#x200B;を追加するには、前の手順で説明したのと同じ方法を使用して、モバイルデバイスでの表示に使用する画像を選択します。
 

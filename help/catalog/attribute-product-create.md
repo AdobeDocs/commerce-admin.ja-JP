@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: 922
 ht-degree: 0%
 
 ---
@@ -40,25 +40,9 @@ ht-degree: 0%
 
 1. **[!UICONTROL Default Label]**&#x200B;に、属性を識別するラベルを入力します。
 
-1. データ入力に使用する入力制御の種類を判断するには、**[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;を次のいずれかに設定します。
+1. データ入力に使用する&#x200B;**[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;を[入力制御](attributes-input-types.md)の型に設定します。
 
-   | プロパティ | 説明 |
-   |--- |--- |
-   | `Text Field` | テキストの1行入力フィールド。 |
-   | `Text Area` | 製品説明などのテキストの段落を入力するための複数行入力フィールド。 WYSIWYG エディターを使用して、HTML タグを使用してテキストを書式設定したり、タグをテキストに直接入力したりできます。 |
-   | `Text Editor` | 属性の場所に完全に機能するテキストエディター。 |
-   | 日付 | [優先形式](attributes-input-types.md#date-and-time-options)および[&#x200B; タイムゾーン &#x200B;](../getting-started/store-details.md#locale-options)に日付値を表示します。 日付値は、リストまたはカレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）から選択できます。 <br/><br/>**_Note:_**&#x200B;システム構成に応じて、_&#x200B;管理者_ ユーザーは日付をフィールドに直接入力するか、カレンダーまたはリストから日付を選択できます。 日付と時刻の値の指定について詳しくは、[日付と時刻のオプション &#x200B;](attributes-input-types.md#date-and-time-options)を参照してください。 |
-   | `Yes/No` | `Yes`と`No`の事前定義済みオプションを含むドロップダウンリストを表示します。 |
-   | `Dropdown` | 1つの選択のみを受け入れる値のドロップダウンリストを表示します。 ドロップダウン入力タイプは、[設定可能な製品](product-create-configurable.md)の主要コンポーネントです。 |
-   | `Multiple Select` | 複数の選択を受け入れる値のドロップダウンリストを表示します。 |
-   | `Price` | この入力タイプは、事前定義された属性に加えて、価格、特別価格、階層価格、およびコストの価格フィールドを作成するために使用されます。 使用される通貨は、システム設定によって決まります。 |
-   | `Media Image` | 商品ロゴ、ケア手順、食品ラベルの材料など、商品に追加の画像を関連付けます。 製品の属性セットにメディア画像属性を追加すると、追加の画像タイプとなり、ベース、スモール、サムネールが追加されます。 メディア画像の属性は、[&#x200B; ストアフロントメディアブラウザー](catalog-images-video.md#storefront-media-browser)から除外できます。 |
-   | `Fixed Product Tax` | ロケールの要件に基づいて[FPT レート &#x200B;](../stores-purchase/fixed-product-tax.md)を定義できます。 |
-   | `Visual Swatch` | 設定可能な製品のカラー、テクスチャ、パターンを示すスウォッチを表示します。 [&#x200B; ビジュアルスウォッチ &#x200B;](swatches.md)には、16進数のカラー値を入力するか、オプションのカラー、マテリアル、テクスチャ、パターンを表すアップロードされた画像を表示できます。 |
-   | `Text Swatch` | サイズに頻繁に使用される、設定可能な製品オプションのテキストベースの表現。 [&#x200B; テキストスウォッチ &#x200B;](swatches.md#text-based-swatches)には、16進数のカラー値も含めることができます。 |
-   | `Page Builder` | 属性の場所にある完全に機能する[&#x200B; ページビルダー](../page-builder/introduction.md) ワークスペースは、製品ページに魅力的なコンテンツを簡単に追加できます。 |
-
-   {style="table-layout:auto"}
+   属性が[設定可能な製品](product-create-configurable.md)に使用されている場合は、`Dropdown`を選択します。 次に、**[!UICONTROL Required]**&#x200B;を`Yes`に設定します。
 
 1. お客様が製品を購入する前にオプションの選択を必要とする場合は、**[!UICONTROL Values Required]**&#x200B;を`Yes`に設定します。
 
@@ -88,7 +72,7 @@ ht-degree: 0%
 
    使用可能なオプションは、_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;設定によって異なります。
 
-1. **[!UICONTROL Scope]**&#x200B;を設定して、[&#x200B; ストア階層](../getting-started/websites-stores-views.md)のどこで属性を使用できるかを示します。
+1. [&#x200B; ストア階層](../getting-started/websites-stores-views.md)で属性を使用できる場所を示すには、**[!UICONTROL Scope]**&#x200B;を設定します。
 
 1. 値エントリの重複を防ぐ場合は、**[!UICONTROL Unique Value]**&#x200B;を`Yes`に設定します。
 
@@ -134,7 +118,7 @@ ht-degree: 0%
 
 1. 属性を検索に使用できる場合は、**[!UICONTROL Use in Search]**&#x200B;を`Yes`に設定します。
 
-   - **[!UICONTROL Search Weight]**&#x200B;値を設定して、検索結果でアイテムが表示される場所を制御します：1 （最小の重み） ～ 10 （最大の重み）。
+   - 検索結果でアイテムが表示される場所を制御するには、**[!UICONTROL Search Weight]**&#x200B;値を1 （最小の重み）から10 （最大の重み）に設定します。
 
    - 必要に応じて&#x200B;**[!UICONTROL Visible in Advanced Search]**&#x200B;を設定します。 詳細については、[高度な検索](search.md#advanced-search)を参照してください。
 
@@ -191,7 +175,7 @@ ht-degree: 0%
 
 属性が削除されると、関連する製品および属性セットから属性が削除されます。 システム属性はストアのコア機能の一部であり、削除できません。
 
-属性を削除する前に、カタログ内のどの商品でも現在使用されていないことを確認してください。 属性が使用中かどうかを簡単に判断するには、[書き出し](../systems/data-export.md) ツールを使用して、製品エンティティ属性のリストを確認します。 属性がリストに含まれていない場合は、カタログ内のどの製品でも使用されません。
+属性を削除する前に、カタログ内の商品が現在使用していないことを確認します。 属性が使用中かどうかを簡単に判断するには、[書き出し](../systems/data-export.md) ツールを使用して、製品エンティティ属性のリストを確認します。 リストに属性が含まれていない場合は、カタログ内のどの製品もその属性を使用しません。
 
 **_属性を削除するには:_**
 
