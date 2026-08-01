@@ -27,11 +27,11 @@ ht-degree: 0%
 
 # コンテンツを追加 – 商品レコメンデーション
 
-_商品レコメンデーション_ コンテンツタイプを使用して、既存のアクティブな[&#x200B; レコメンデーションユニット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create)をCMS ページ、ブロック、または動的ブロックの[[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage)に追加します。
+_商品レコメンデーション_ コンテンツタイプを使用して、既存のアクティブな[&#x200B; レコメンデーションユニット &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/admin/create)をCMS ページ、ブロック、または動的ブロックの[[!DNL Page Builder]  ステージ &#x200B;](workspace.md#stage)に追加します。
 
 >[!NOTE]
 >
->[!DNL Page Builder] _商品レコメンデーション_ コンテンツタイプは、Adobe Commerce 2.4.4以降でサポートされており、[商品レコメンデーション メタパッケージ バージョン 3.0.x以降](https://commercemarketplace.adobe.com/magento-product-recommendations.html)で利用できます。 製品レコメンデーションの[!DNL Page Builder] サポートを追加するには、[&#x200B; インストール情報](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)を参照してください。 **このコンテンツタイプは、Magento Open Sourceでは使用できません。**
+>[!DNL Page Builder] _商品レコメンデーション_ コンテンツタイプは、Adobe Commerce 2.4.4以降でサポートされており、[商品レコメンデーション メタパッケージ バージョン 3.0.x以降](https://commercemarketplace.adobe.com/magento-product-recommendations.html)で利用できます。 製品レコメンデーションの[!DNL Page Builder] サポートを追加するには、[&#x200B; インストール情報](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/getting-started/install-configure)を参照してください。 **このコンテンツタイプは、Magento Open Sourceでは使用できません。**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -52,7 +52,7 @@ _商品レコメンデーション_ コンテンツタイプを使用して、�
 
 ## 既存のレコメンデーションユニットの追加
 
-1. [!DNL Page Builder] ページタイプのレコメンデーションユニット [&#128279;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create)を既に作成していることを確認してください。
+1. [!DNL Page Builder] ページタイプのレコメンデーションユニット [&#128279;](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/admin/create)を既に作成していることを確認してください。
 
 >[!NOTE]
 >
