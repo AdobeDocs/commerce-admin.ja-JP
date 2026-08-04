@@ -5,12 +5,22 @@ exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
 badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/gpbB0FZxHJdlef-Xv6DIMs4ixUg1R4kZxF6Hau94n9o
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: a43dbb4a703f497e496c63f2886832d44e8c7cab
 workflow-type: tm+mt
 source-wordcount: 916
@@ -56,7 +66,7 @@ Commerce管理者ユーザーがログインするには、Adobe IDでアカウ�
 * Adobe Admin ConsoleでのAdobe Commerce ユーザーの設定
 * `AdminAdobeIms` モジュールを有効にします。
 
-統合を成功させるには、すべてのAdobe Commerce ユーザーが同じ名前とプライマリメールアドレスの管理者ユーザーアカウントを持っている必要があります。 一致する管理者ユーザーアカウントが存在しない場合、必要な権限を持つユーザー（通常は管理者の役割が割り当てられている）は、同じ名前と電子メールで[管理者ユーザーアカウント ](../systems/permissions-users-all.md#create-a-user)を手動で作成する必要があります。
+統合を成功させるには、すべてのAdobe Commerce ユーザーが同じ名前とプライマリメールアドレスの管理者ユーザーアカウントを持っている必要があります。 一致する管理者ユーザーアカウントが存在しない場合、必要な権限を持つユーザー（通常は管理者の役割が割り当てられている）は、同じ名前と電子メールで[管理者ユーザーアカウント &#x200B;](../systems/permissions-users-all.md#create-a-user)を手動で作成する必要があります。
 
 ## 統合の設定
 
@@ -68,7 +78,7 @@ Commerce管理者ユーザーがログインするには、Adobe IDでアカウ�
 
 ### 手順2：新しいプロジェクト、IMS API キー、秘密鍵の生成
 
-組織のプロジェクトを作成するには、その組織のAdobe管理者アカウントにシステム管理者または開発者の役割が必要です。 [Developer Console ガイド ](https://developer.adobe.com/developer-console/docs/guides/projects/)を参照してください。
+組織のプロジェクトを作成するには、その組織のAdobe管理者アカウントにシステム管理者または開発者の役割が必要です。 [Developer Console ガイド &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/)を参照してください。
 
 1. [Adobe Developer Console](https://developer.adobe.com/)にログインします。
 1. **[!UICONTROL Projects]** タブ （adobe.io/projects）に移動し、**[!UICONTROL Create a new project]**&#x200B;をクリックします。
