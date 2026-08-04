@@ -41,10 +41,10 @@ ht-degree: 0%
 
 データフィードの同期ステータス ページは、次のいずれかのサービスの有効なライセンスを持つCommerce マーチャントに追加料金なしで利用できます。
 
-- [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
-- [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
-- [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
-- [[!DNL Adobe Commerce Optimizer Connector]](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
+- [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/guide-overview)
+- [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)
+- [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/ja/docs/commerce/catalog-service/guide-overview)
+- [[!DNL Adobe Commerce Optimizer Connector]](https://experienceleague.adobe.com/ja/docs/commerce/aco-optimizer-connector/overview)
 
 データフィードの同期ステータス ページは、サポートされているCommerce サービス設定で自動的に使用できます。 Cloud Infrastructureおよびオンプレミスのデプロイメント上のAdobe Commerceで、対象となるサービスまたはコネクタを有効にした後にページが表示されない場合は、次の手動インストール手順に従います。 製品で管理されるSaaS エクスペリエンスには、Composerのインストール手順を使用しないでください。
 
@@ -62,9 +62,9 @@ ht-degree: 0%
 
 Data Sync Status ページから管理できる利用可能な書き出しフィードのリストは、どのCommerce サービスが接続されているかによって異なります。
 
-- **設定されたCommerce サービスを使用する[!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service]の場合：**、_SaaS データ書き出しガイド_&#x200B;の[&#x200B; サポートされているフィード &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds)を参照してください。
+- **設定されたCommerce サービスを使用する[!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service]の場合：**、_SaaS データ書き出しガイド_&#x200B;の[&#x200B; サポートされているフィード &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds)を参照してください。
 
-- **Adobe Commerce on Cloudまたはオンプレミスのデプロイメントが[!DNL Adobe Commerce Optimizer Connector]:**&#x200B;で構成されている場合は、_Adobe Commerce Optimizer コネクタ ガイド_&#x200B;の[&#x200B; サポートされているフィード &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds)を参照してください。
+- **Adobe Commerce on Cloudまたはオンプレミスのデプロイメントが[!DNL Adobe Commerce Optimizer Connector]:**&#x200B;で構成されている場合は、_Adobe Commerce Optimizer コネクタ ガイド_&#x200B;の[&#x200B; サポートされているフィード &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds)を参照してください。
 
 
 ## データフィード同期ステータスの概要 {#data-feed-sync-status-summary}
@@ -135,7 +135,7 @@ Commerce データベース内の製品およびカテゴリ関連のエンテ�
 
 >[!NOTE]
 >
-> Adobeには、開発者やシステムインテグレーターが同期操作の管理と追跡に使用できるコマンドラインインターフェイスツールとシステムログも用意されています。 詳しくは、[SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)を参照してください。
+> Adobeには、開発者やシステムインテグレーターが同期操作の管理と追跡に使用できるコマンドラインインターフェイスツールとシステムログも用意されています。 詳しくは、[SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/saas-data-export/overview)を参照してください。
 
 ### 失敗した書き出しの管理 {#manage-failed-exports}
 
@@ -164,12 +164,12 @@ Commerce データベース内の製品およびカテゴリ関連のエンテ�
 書き出し完了後にエンドツーエンドの同期を検証するには、次のいずれかの方法を使用します。 このページの書き出しステータスの制限については、上記の[&#x200B; メモ &#x200B;](#export-status-scope)を参照してください。
 
 - **[!DNL Adobe Commerce as a Cloud Service]（Commerce サービス：**）該当する[&#x200B; データ管理ダッシュボード &#x200B;](data-dashboard.md)を確認して、ダウンストリームの可用性を確認します。
-- **Adobe Commerce on Cloudまたはオンプレミス with Adobe Commerce Optimizer Connector**：まずCommerce管理者の書き出しステータスを確認してから、[!DNL Commerce Optimizer Studio]の[Data Sync ページ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)を確認してください
-- **[!DNL Adobe Commerce Optimizer]（スタンドアロン）:** データはCommerce バックエンドからエクスポートされません。 [!DNL Commerce Optimizer Studio]の[&#x200B; データ同期ページ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)を使用して、データの可用性を確認します。
+- **Adobe Commerce on Cloudまたはオンプレミス with Adobe Commerce Optimizer Connector**：まずCommerce管理者の書き出しステータスを確認してから、[!DNL Commerce Optimizer Studio]の[Data Sync ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/data-sync)を確認してください
+- **[!DNL Adobe Commerce Optimizer]（スタンドアロン）:** データはCommerce バックエンドからエクスポートされません。 [!DNL Commerce Optimizer Studio]の[&#x200B; データ同期ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/data-sync)を使用して、データの可用性を確認します。
 
 >[!TIP]
 >
-> データ同期プロセスについて詳しくは、*SaaS データ書き出しガイド*&#x200B;の「[SaaS データ書き出しとデータを同期する](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#view-and-manage-the-synchronization-process)」を参照してください。
+> データ同期プロセスについて詳しくは、*SaaS データ書き出しガイド*&#x200B;の「[SaaS データ書き出しとデータを同期する](https://experienceleague.adobe.com/ja/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#view-and-manage-the-synchronization-process)」を参照してください。
 
 ## ベストプラクティス {#best-practices}
 
@@ -195,9 +195,9 @@ ACCSまたはAdobe Commerce Optimizer: モジュールを手動でインスト�
 
 ### 前提条件
 
-- Adobe Commerce 2.4.4以降。 要件の詳細については、[必要システム構成](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)を参照してください。
-- [Adobe Commerce Data Export Extension](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/reference/manage-extension)、バージョン 103.4.15以降
-- Adobe Commerce リポジトリから必要なパッケージをダウンロードする権限を持つ認証キー。 認証キーを作成し、必要なパッケージ アクセスを取得するには、[認証キーの取得](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)を参照してください。 Cloudのインストールについては、「[Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys)」を参照してください。
+- Adobe Commerce 2.4.4以降。 要件の詳細については、[必要システム構成](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/system-requirements)を参照してください。
+- [Adobe Commerce Data Export Extension](https://experienceleague.adobe.com/ja/docs/commerce/saas-data-export/reference/manage-extension)、バージョン 103.4.15以降
+- Adobe Commerce リポジトリから必要なパッケージをダウンロードする権限を持つ認証キー。 認証キーを作成し、必要なパッケージ アクセスを取得するには、[認証キーの取得](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)を参照してください。 Cloudのインストールについては、「[Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/authentication-keys)」を参照してください。
 - Adobe Commerce アプリケーションサーバーのコマンドラインにアクセスします。
 
 ### インストール手順
@@ -210,10 +210,10 @@ composer require magento/module-data-exporter-status
 
 インストール手順の詳細については、次のガイドを参照してください。
 
-- [Adobe Commerce on Cloud Infrastructureの拡張機能のインストール](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
-- [Adobe Commerce オンプレミスへの拡張機能のインストール](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
+- [Adobe Commerce on Cloud Infrastructureの拡張機能のインストール](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+- [Adobe Commerce オンプレミスへの拡張機能のインストール](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 >[!MORELIKETHIS]
 >
 > - [&#x200B; データ管理ダッシュボード &#x200B;](data-dashboard.md)
-> - [SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)
+> - [SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/saas-data-export/overview)
