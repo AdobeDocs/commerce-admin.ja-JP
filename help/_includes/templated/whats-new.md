@@ -1,7 +1,7 @@
 ---
-source-git-commit: cb1485f26f63f12c825258706c68080c30f15b75
+source-git-commit: acc04085de45edfcd956971aa09732ca91cf5f1a
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '298'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 2%
 ## 最新情報
 
 このセクションには、過去60日間に行われた変更が含まれます。 コピー編集などのマイナーな更新は、このリストから除外されます。
+
+### 2026年7月29日（PT）
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>説明</th>
+      <th>タイプ</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/config/services/email-suppression">電子メール抑制</a>で、管理者から直接注文やマーケティング通知などの自動システム電子メールの特定のカテゴリを抑制する方法について説明します。</p>
+</td>
+      <td>
+        メジャーアップデート、新しいトピック
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a5d95844e8e81ea4d401e79ebc1f236aab977dcd">コミット</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026年7月9日（PT）
 
