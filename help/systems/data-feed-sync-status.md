@@ -6,11 +6,25 @@ role: Admin
 level: Beginner
 exl-id: 4e1b9da0-450c-4488-8693-1938a948e792
 TQID: https://experienceleague.adobe.com/Y8vYxKS-8iX-bCLSJpAiJOItWlJk348bSMWfk1Cgpbg
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 424b379815ffbf818c2490d0195bf0bf7dd51ab7
 workflow-type: tm+mt
 source-wordcount: 1664
@@ -38,7 +52,7 @@ ht-degree: 0%
 
 管理領域から、**[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Data Feed Sync Status]**&#x200B;に移動します。
 
-![ データフィードの書き出しアクティビティを要約したデータフィードの同期ステータス ページ ](assets/data-feed-sync-status.png){width="600" zoomable="yes"}
+![&#x200B; データフィードの書き出しアクティビティを要約したデータフィードの同期ステータス ページ &#x200B;](assets/data-feed-sync-status.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -48,9 +62,9 @@ ht-degree: 0%
 
 Data Sync Status ページから管理できる利用可能な書き出しフィードのリストは、どのCommerce サービスが接続されているかによって異なります。
 
-- **設定されたCommerce サービスを使用する[!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service]の場合：**、_SaaS データ書き出しガイド_&#x200B;の[ サポートされているフィード ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds)を参照してください。
+- **設定されたCommerce サービスを使用する[!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service]の場合：**、_SaaS データ書き出しガイド_&#x200B;の[&#x200B; サポートされているフィード &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds)を参照してください。
 
-- **Adobe Commerce on Cloudまたはオンプレミスのデプロイメントが[!DNL Adobe Commerce Optimizer Connector]:**&#x200B;で構成されている場合は、_Adobe Commerce Optimizer コネクタ ガイド_&#x200B;の[ サポートされているフィード ](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds)を参照してください。
+- **Adobe Commerce on Cloudまたはオンプレミスのデプロイメントが[!DNL Adobe Commerce Optimizer Connector]:**&#x200B;で構成されている場合は、_Adobe Commerce Optimizer コネクタ ガイド_&#x200B;の[&#x200B; サポートされているフィード &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds)を参照してください。
 
 
 ## データフィード同期ステータスの概要 {#data-feed-sync-status-summary}
@@ -69,14 +83,14 @@ Data Sync Status ページから管理できる利用可能な書き出しフィ
 
 概要ページで、フィード名を選択するか、**[!UICONTROL Details]**&#x200B;を選択して、各フィード項目の書き出しステータスを表示します。
 
-フィード項目の状態レポートを含む![ データフィード同期ステータスの詳細ページ ](assets/data-feed-sync-status-details.png){width="600" zoomable="yes"}
+フィード項目の状態レポートを含む![&#x200B; データフィード同期ステータスの詳細ページ &#x200B;](assets/data-feed-sync-status-details.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **フィード項目ID** | システム目的で使用される自動生成されたID |
 | **エンティティ ID** | ソースエンティティの一意の識別子（製品ID、カテゴリ IDなど） |
 | **フィード識別子** | フィード項目の一意のID。 たとえば、商品フィードのSKUとストアビューのコードなどです。 値はフィードによって異なります。 |
-| **ステータスの書き出し** | フィード項目の[同期ステータス ](#export-status-types)と、色分けされたインジケーター |
+| **ステータスの書き出し** | フィード項目の[同期ステータス &#x200B;](#export-status-types)と、色分けされたインジケーター |
 | **最終同期日** | Commerceからの最新の書き出しまたは送信の日時。 このタイムスタンプは、ダウンストリームの可用性を確認しません。 |
 | **エンティティは削除されますか？** | Adobe Commerceでエンティティが削除されたかどうかを示します。 削除された項目は、同期に失敗した場合にのみ表示されます。 |
 | **リクエスト ID** | 同期リクエストの一意のID。 エンティティの更新をトラブルシューティングする際に、サポートに提供します。 |
@@ -98,7 +112,7 @@ Data Sync Status ページから管理できる利用可能な書き出しフィ
 
 >[!TIP]
 >
-> インデックス処理について詳しくは、[ インデックス管理](index-management.md)のトピックを参照してください。
+> インデックス処理について詳しくは、[&#x200B; インデックス管理](index-management.md)のトピックを参照してください。
 
 ### 書き出しステータスタイプ {#export-status-types}
 
@@ -117,11 +131,11 @@ Commerce データベース内の製品およびカテゴリ関連のエンテ�
 >
 > データの同期にかかる時間は、カタログサイズ、更新されるデータ量、外部サービスのパフォーマンスなどによって異なります。
 
-正常に送信されたカウントがフィードのソースカウントと一致し、送信待ちまたは失敗した項目が残っていない場合、Commerceはそのフィードの書き出しを完了しました。 適切なダッシュボードを使用して、[ ダウンストリームの可用性を確認](#confirm-data-in-connected-services)します。
+正常に送信されたカウントがフィードのソースカウントと一致し、送信待ちまたは失敗した項目が残っていない場合、Commerceはそのフィードの書き出しを完了しました。 適切なダッシュボードを使用して、[&#x200B; ダウンストリームの可用性を確認](#confirm-data-in-connected-services)します。
 
 >[!NOTE]
 >
-> Adobeには、開発者やシステムインテグレーターが同期操作の管理と追跡に使用できるコマンドラインインターフェイスツールとシステムログも用意されています。 詳しくは、[SaaS データ書き出しガイド ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)を参照してください。
+> Adobeには、開発者やシステムインテグレーターが同期操作の管理と追跡に使用できるコマンドラインインターフェイスツールとシステムログも用意されています。 詳しくは、[SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)を参照してください。
 
 ### 失敗した書き出しの管理 {#manage-failed-exports}
 
@@ -147,11 +161,11 @@ Commerce データベース内の製品およびカテゴリ関連のエンテ�
 
 ### 接続されたサービスでのデータの確認 {#confirm-data-in-connected-services}
 
-書き出し完了後にエンドツーエンドの同期を検証するには、次のいずれかの方法を使用します。 このページの書き出しステータスの制限については、上記の[ メモ ](#export-status-scope)を参照してください。
+書き出し完了後にエンドツーエンドの同期を検証するには、次のいずれかの方法を使用します。 このページの書き出しステータスの制限については、上記の[&#x200B; メモ &#x200B;](#export-status-scope)を参照してください。
 
-- **[!DNL Adobe Commerce as a Cloud Service]（Commerce サービス：**）該当する[ データ管理ダッシュボード ](data-dashboard.md)を確認して、ダウンストリームの可用性を確認します。
-- **Adobe Commerce on Cloudまたはオンプレミス with Adobe Commerce Optimizer Connector**：まずCommerce管理者の書き出しステータスを確認してから、[!DNL Commerce Optimizer Studio]の[Data Sync ページ ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)を確認してください
-- **[!DNL Adobe Commerce Optimizer]（スタンドアロン）:** データはCommerce バックエンドからエクスポートされません。 [!DNL Commerce Optimizer Studio]の[ データ同期ページ ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)を使用して、データの可用性を確認します。
+- **[!DNL Adobe Commerce as a Cloud Service]（Commerce サービス：**）該当する[&#x200B; データ管理ダッシュボード &#x200B;](data-dashboard.md)を確認して、ダウンストリームの可用性を確認します。
+- **Adobe Commerce on Cloudまたはオンプレミス with Adobe Commerce Optimizer Connector**：まずCommerce管理者の書き出しステータスを確認してから、[!DNL Commerce Optimizer Studio]の[Data Sync ページ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)を確認してください
+- **[!DNL Adobe Commerce Optimizer]（スタンドアロン）:** データはCommerce バックエンドからエクスポートされません。 [!DNL Commerce Optimizer Studio]の[&#x200B; データ同期ページ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)を使用して、データの可用性を確認します。
 
 >[!TIP]
 >
@@ -168,7 +182,7 @@ Commerce データベース内の製品およびカテゴリ関連のエンテ�
 | イシュー | 症状 | 今後の施策 |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 高い失敗率 | 多くのレコードに「*失敗、要注意*」ステータスが表示されます | <ul><li>外部サービスのステータスと設定の確認</li><li>[!UICONTROL Error]列のパターンのエラーメッセージを確認します</li><li>根本的な問題を解決した後、[失敗したエクスポートの管理と再同期](#manage-failed-exports)を参照してください</li><li>必要に応じて、外部サービスサポートに連絡してください</li></ul> |
-| 書き出しのパフォーマンスが遅い | 大きな変更ログのバックログまたはステータスの更新が遅い | <ul><li>インデックスとバックログのステータスについては、[ フィード正常性インジケーター](#feed-health-indicators)を確認してください</li><li>**インデックス再作成が必要な**&#x200B;が表示されている場合は、インデックス再作成を実行します</li><li>外部サービスの応答時間の監視</li><li>可能な限りオフピーク時に書き出しをスケジュール</li><li>システムのリソースとパフォーマンスの確認</li></ul> |
+| 書き出しのパフォーマンスが遅い | 大きな変更ログのバックログまたはステータスの更新が遅い | <ul><li>インデックスとバックログのステータスについては、[&#x200B; フィード正常性インジケーター](#feed-health-indicators)を確認してください</li><li>**インデックス再作成が必要な**&#x200B;が表示されている場合は、インデックス再作成を実行します</li><li>外部サービスの応答時間の監視</li><li>可能な限りオフピーク時に書き出しをスケジュール</li><li>システムのリソースとパフォーマンスの確認</li></ul> |
 | 認証エラー | [!UICONTROL Error]列の401または403 ステータスコード | <ul><li>API資格情報とトークンの検証</li><li>外部サービスアカウントの権限を確認する</li><li>期限切れのトークンを更新するか、サービスプロバイダーにお問い合わせください</li><li>資格情報を復元した後、[影響を受けるレコードを再同期](#manage-failed-exports)</li></ul> |
 | データフィードの同期ステータスページがありません | 接続されたサービスを有効にした後、**[!UICONTROL Data Feed Sync Status]**&#x200B;は&#x200B;**[!UICONTROL System]** > **[!UICONTROL Data Transfer]**&#x200B;の下に表示されません | <ul><li>Commerce as a Cloud Serviceの場合、対象となるサービスが有効になっていることを確認します（[Audience and Availability](#audience)を参照）。</li><li>Commerce on Cloudまたはオンプレミスのみの場合、[拡張機能を手動でインストールする](#install-the-extension)</li></ul> |
 
@@ -177,7 +191,7 @@ ACCSまたはAdobe Commerce Optimizer: モジュールを手動でインスト�
 
 ## 拡張機能のインストール {#install-the-extension}
 
-適格なサービスを有効にした後、管理領域に[!UICONTROL Data Feed Sync Status] ページが表示されない場合にのみ、Adobe Commerce オンクラウドまたはオンプレミスのデプロイメントに手動インストールが必要です。 [ オーディエンスと可用性](#audience)を参照してください。
+適格なサービスを有効にした後、管理領域に[!UICONTROL Data Feed Sync Status] ページが表示されない場合にのみ、Adobe Commerce オンクラウドまたはオンプレミスのデプロイメントに手動インストールが必要です。 [&#x200B; オーディエンスと可用性](#audience)を参照してください。
 
 ### 前提条件
 
@@ -201,5 +215,5 @@ composer require magento/module-data-exporter-status
 
 >[!MORELIKETHIS]
 >
-> - [ データ管理ダッシュボード ](data-dashboard.md)
-> - [SaaS データ書き出しガイド ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)
+> - [&#x200B; データ管理ダッシュボード &#x200B;](data-dashboard.md)
+> - [SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)
