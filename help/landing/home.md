@@ -49,7 +49,7 @@ Admin User Guidesの情報は、Adobe Commerce AdminまたはMagento Open Source
 
 Adobe Commerceは、B2BとB2Cの両方に対応する俊敏性の高いコマース基盤です。オンラインとオフラインをまたいで、顧客中心のデジタルコマース体験を提供し、売上を向上できます。 オンプレミスからマネージドクラウドまで、最も柔軟性の高い導入モデルとSLAが保証されているため、中規模および大企業に最適です。 Adobe Commerceなら、API ファーストの統合、詳細にカスタマイズ可能な拡張機能、マーケティングからマーチャンダイジング、フルフィルメントに至るまで、大規模なコマース体験を実現できます。 Adobe Commerceは、他のコマース基盤とは異なり、柔軟性と拡張性を備えたオープンソースのコードベース上に構築されています。
 
-Adobe Commerceに含まれる高度な機能の一覧については、_リリース情報_&#x200B;の[Commerce機能](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html)を参照してください。
+Adobe Commerceに含まれる高度な機能の一覧については、_リリース情報_&#x200B;の[Commerce機能](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=ja)を参照してください。
 
 ## Magento Open Source コードベース
 
@@ -71,7 +71,7 @@ Magento Open Sourceは、Adobeが公式に提供するコードベースであ�
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）およびオンプレミス プロジェクトにのみ適用されます"}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）およびオンプレミス プロジェクトにのみ適用されます"}
     <div><em>この機能セットは、主に企業を顧客とする販売者（マーチャント）のニーズを満たすように設計されています。複雑な組織構造や、様々な役割や購買権限レベルを持つ複数のスタッフ メンバーを含む可能性があります。</em>
     <br></div>
   </td>
@@ -108,7 +108,7 @@ Magento Open Sourceは、Adobeが公式に提供するコードベースであ�
 <tr>
     <td valign="top">
        <img alt="ページビルダー" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト （Adobeで管理されるPaaS インフラストラクチャ）およびオンプレミス プロジェクトにのみ適用されます"}
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト （Adobeで管理されるPaaS インフラストラクチャ）およびオンプレミス プロジェクトにのみ適用されます"}
     <div><em>[!DNL Page Builder]を使用すると、カスタムレイアウトを使用したコンテンツの豊富なページを簡単に作成できます。 これらの機能は、品質を向上させ、カスタムページを作成する時間とコストを削減するように設計されています。</em></div>
   </td>
 </tr>
