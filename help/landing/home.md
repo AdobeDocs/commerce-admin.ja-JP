@@ -31,11 +31,11 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 nudge: true
-last-update: 2026-07-14
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+last-update: 2026-08-03
+source-git-commit: 7bac99e2b23fb3e1177f7d2ff463a9a5214fd448
 workflow-type: tm+mt
-source-wordcount: 727
-ht-degree: 0%
+source-wordcount: 754
+ht-degree: 1%
 
 ---
 
@@ -64,7 +64,7 @@ Magento Open Sourceは、Adobeが公式に提供するコードベースであ�
    <td valign="top">
    <a href="../getting-started/guide-overview.md"><strong>はじめに</strong></a>
     <div>
-    <em>ほとんどのマーチャントが管理者に最初に学習する際に抱く「なぜ、どこで、どのように」の質問、およびリソースと参照情報。このガイドは、より高度なトピックへの踏み台です。</em>
+    <em>ほとんどのマーチャントが管理者に最初に学習する際に抱く「なぜ、どこで、どのように」の質問、およびリソースと参照情報。 このガイドは、より高度なトピックへの踏み台です。</em>
     <br> </div>
   </td>
   </tr>
@@ -80,7 +80,7 @@ Magento Open Sourceは、Adobeが公式に提供するコードベースであ�
   <td valign="top">
     <img alt="カタログ管理" src="./assets/icon-shop.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../catalog/guide-overview.md"><strong> カタログ管理</strong></a>
-    <div><em> ストアの作成と管理で最も重要な領域の1つは、商品カタログとカテゴリです。管理者は、ストアと製品カタログの初期設定に多くのツールを提供します。</em>
+    <div><em> ストアの作成と管理で最も重要な領域の1つは、商品カタログとカテゴリです。 管理者は、ストアと製品カタログの初期設定に多くのツールを提供します。</em>
     <br></div>
   </td>
     </tr>
