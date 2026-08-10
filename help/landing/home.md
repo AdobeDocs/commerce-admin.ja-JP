@@ -6,40 +6,22 @@ seo-description: Documentation and resources for Adobe Commerce and Magento Open
 breadcrumb-title: 管理者ユーザーガイド
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 TQID: https://experienceleague.adobe.com/zoHXvfhkWovXcAk0S9hTpQOTIHbLYhfjyFqc-cCjLLE
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
-  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fcid: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cbid: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 nudge: true
-last-update: 2026-08-03
-source-git-commit: 7bac99e2b23fb3e1177f7d2ff463a9a5214fd448
+last-update: 2026-08-07
+source-git-commit: 6abaad747203dccb75d8344c20f5e7b657e374eb
 workflow-type: tm+mt
-source-wordcount: 754
-ht-degree: 1%
+source-wordcount: 751
+ht-degree: 0%
 
 ---
 
-# &#x200B;<!-- use banner as heading -->![管理者ドキュメント &#x200B;](./assets/banner-user-home.png) {#documentation}
+# <!-- use banner as heading -->![管理者ドキュメント ](./assets/banner-user-home.png) {#documentation}
 
 次世代の世界有数のデジタルコマースプラットフォームへようこそ。 Adobe Commerceは、オンラインマーチャントに対して、オンラインストアの外観、コンテンツ、機能を比類のない柔軟性でコントロールできるようにします。 管理者は、独自のビジネスニーズに合わせたサイトを作成できる強力なマーケティング、検索エンジン最適化、製品管理ツールを備えています。
 
@@ -49,7 +31,7 @@ Admin User Guidesの情報は、Adobe Commerce AdminまたはMagento Open Source
 
 Adobe Commerceは、B2BとB2Cの両方に対応する俊敏性の高いコマース基盤です。オンラインとオフラインをまたいで、顧客中心のデジタルコマース体験を提供し、売上を向上できます。 オンプレミスからマネージドクラウドまで、最も柔軟性の高い導入モデルとSLAが保証されているため、中規模および大企業に最適です。 Adobe Commerceなら、API ファーストの統合、詳細にカスタマイズ可能な拡張機能、マーケティングからマーチャンダイジング、フルフィルメントに至るまで、大規模なコマース体験を実現できます。 Adobe Commerceは、他のコマース基盤とは異なり、柔軟性と拡張性を備えたオープンソースのコードベース上に構築されています。
 
-Adobe Commerceに含まれる高度な機能の一覧については、_リリース情報_&#x200B;の[Commerce機能](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=ja)を参照してください。
+Adobe Commerceに含まれる高度な機能の一覧については、_リリース情報_&#x200B;の[Commerce機能](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html)を参照してください。
 
 ## Magento Open Source コードベース
 
@@ -71,7 +53,7 @@ Magento Open Sourceは、Adobeが公式に提供するコードベースであ�
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）およびオンプレミス プロジェクトにのみ適用されます"}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）およびオンプレミス プロジェクトにのみ適用されます"}
     <div><em>この機能セットは、主に企業を顧客とする販売者（マーチャント）のニーズを満たすように設計されています。複雑な組織構造や、様々な役割や購買権限レベルを持つ複数のスタッフ メンバーを含む可能性があります。</em>
     <br></div>
   </td>
@@ -108,7 +90,7 @@ Magento Open Sourceは、Adobeが公式に提供するコードベースであ�
 <tr>
     <td valign="top">
        <img alt="ページビルダー" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト （Adobeで管理されるPaaS インフラストラクチャ）およびオンプレミス プロジェクトにのみ適用されます"}
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト （Adobeで管理されるPaaS インフラストラクチャ）およびオンプレミス プロジェクトにのみ適用されます"}
     <div><em>[!DNL Page Builder]を使用すると、カスタムレイアウトを使用したコンテンツの豊富なページを簡単に作成できます。 これらの機能は、品質を向上させ、カスタムページを作成する時間とコストを削減するように設計されています。</em></div>
   </td>
 </tr>
