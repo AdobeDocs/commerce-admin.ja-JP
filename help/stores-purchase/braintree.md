@@ -3,7 +3,7 @@ title: Braintree
 description: Braintreeをオンライン決済ソリューションとしてストアに導入する方法をご紹介します。
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/UxFg1yY9mnWzuP5pI3N9j4EZ1v34FyED7UQIxVHN42A
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->カードの予期しない請求に関するサポートが必要な場合は、[&#x200B; サブスクリプションの解約](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) ページにアクセスしてサポートを受けてください。
+>カードの予期しない請求に関するサポートが必要な場合は、[&#x200B; サブスクリプションの解約](https://helpx.adobe.com/jp/manage-account/using/cancel-subscription.html) ページにアクセスしてサポートを受けてください。
 
 Braintreeでは、不正行為の検出とPayPalとの統合により、詳細にカスタマイズ可能なチェックアウト体験を提供します。 [!DNL Apple Pay]、[!DNL Google Pay]、ACH、Venmo、およびローカルの支払い方法をサポートしています。 Braintreeは、Braintreeシステムで取引がおこなわれるため、加盟店におけるPCI認定の負担を軽減することができます。 Braintree Payments統合は、[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/)によって開発されました。
 
