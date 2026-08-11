@@ -4,23 +4,14 @@ description: 管理者アクションログアーカイブを設定および表�
 exl-id: a839f1c6-b5e2-4881-bfaa-267e47585441
 feature: Logs, Configuration
 TQID: https://experienceleague.adobe.com/xgyeoO5XJFZPopM9bsIn2oOtrxl4fyuEY2du5ryXeTY
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 756e3b7f8c70e0b3fc6f30691a15bd7e20517655
 workflow-type: tm+mt
-source-wordcount: 160
+source-wordcount: 220
 ht-degree: 0%
 
 ---
@@ -29,15 +20,19 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-管理者[&#x200B; アクション &#x200B;](action-log.md) アーカイブには、サーバーに保存されているCSV ログファイルが一覧表示されます。 設定では、ログエントリの保存期間とアーカイブ頻度を指定できます。 デフォルトでは、ファイル名には現在の日付がISO形式で含まれています：`yyyyMMddHH`
+管理者[ アクション ](action-log.md) アーカイブには、サーバーに保存されているCSV ログファイルが一覧表示されます。
+
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}設定では、ログエントリの保存期間とアーカイブ頻度を指定できます。 デフォルトでは、ファイル名には現在の日付がISO形式で含まれています：`yyyyMMddHH`
 
 >[!NOTE]
 >
->ログのアーカイブには、[cron ジョブ &#x200B;](cron.md)を設定する必要があります。
+>ログのアーカイブには、[cron ジョブ ](cron.md)を設定する必要があります。
 
 ## ログアーカイブの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+badgePaas: label=&quot;PaaS only&quot; type=&quot;Informative&quot; url=&quot;https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions&quot; tooltip=&quot;Adobe Commerce on Cloud プロジェクト（Adobeが管理するPaaS インフラストラクチャ）およびオンプレミス プロジェクトにのみ適用されます。&quot;
+
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL System]**&#x200B;を選択します。
 
@@ -46,14 +41,14 @@ ht-degree: 0%
    - **[!UICONTROL Log Entry Lifetime, Days]** — ログエントリを削除する前にデータベースに保持する日数を入力します。
    - **[!UICONTROL Log Archiving Frequency]** — `Daily`、`Weekly`または`Monthly`に設定します。
 
-   ![詳細設定 – 管理者アクションのログのアーカイブ &#x200B;](../configuration-reference/advanced/assets/system-admin-actions-log-archiving.png){width="600" zoomable="yes"}
+   ![詳細設定 – 管理者アクションのログのアーカイブ ](../configuration-reference/advanced/assets/system-admin-actions-log-archiving.png){width="600" zoomable="yes"}
 
-   構成設定の詳細なリストについては、_構成リファレンス_&#x200B;の[管理者アクション ログ アーカイブ &#x200B;](../configuration-reference/advanced/system.md)を参照してください。
+   構成設定の詳細なリストについては、_構成リファレンス_&#x200B;の[管理者アクション ログ アーカイブ ](../configuration-reference/advanced/system.md)を参照してください。
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
 ## アーカイブを表示
 
-_管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Archive]**&#x200B;に移動します。
+_管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Archive]**に移動します。
 
-![&#x200B; アクションログアーカイブ &#x200B;](./assets/action-log-archive.png){width="600" zoomable="yes"}
+![ アクションログアーカイブ ](./assets/action-log-archive.png){width="600" zoomable="yes"}
