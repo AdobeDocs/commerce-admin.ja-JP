@@ -3,11 +3,24 @@ title: 設定リファレンスガイド
 description: 設定タブ、ページ、およびセクションで整理されたすべてのCommerce管理ストアの設定に関する説明情報を確認します。
 exl-id: b0359ba4-3643-4355-9154-adfedb369ec3
 TQID: https://experienceleague.adobe.com/nxl3Dlf3sQp4YOH-BLpVS0ny4TY8op2TIelYOTGkQ-M
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: cc250cf1-34eb-4863-80d0-d170d45ea067id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 3ed6388c485699373275912a27df59d25b7245ac
 workflow-type: tm+mt
 source-wordcount: 624
@@ -17,7 +30,7 @@ ht-degree: 49%
 
 # 設定リファレンスガイド
 
-このガイドは、Adobe CommerceまたはMagento Open Source管理者で作業するマーチャントおよびシステム管理者を対象としています。 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**の_&#x200B;管理者&#x200B;_サイドバーからアクセスされるすべてのストア構成設定に関する参照情報を提供します。
+このガイドは、Adobe CommerceまたはMagento Open Source管理者で作業するマーチャントおよびシステム管理者を対象としています。 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;の_&#x200B;管理者&#x200B;_サイドバーからアクセスされるすべてのストア構成設定に関する参照情報を提供します。
 
 Adobe CommerceとMagento Open Sourceの機能の詳細や、ストア設定の手順については説明しません。
 
@@ -26,13 +39,13 @@ Adobe CommerceとMagento Open Sourceの機能の詳細や、ストア設定の�
 | 「設定」タブ | 子タブ |
 | ----------------- | ---------- |
 | **[!UICONTROL General]** <br/><br/>設定セクションでは、ストアパラメーター、URL、テーマ、通貨、電子メールアドレス、ストア連絡先、エディター、ダッシュボードレポートが決定されます。_[!UICONTROL General]_ | - [[!UICONTROL General]](./general/general.md)<br>- [[!UICONTROL B2B Features]](./general/b2b-features.md)<br>- [[!UICONTROL Web]](./general/web.md)<br>- [[!UICONTROL Currency Setup]](./general/currency-setup.md)<br>- [[!UICONTROL Store Email Addresses]](./general/store-email-addresses.md)<br>- [[!UICONTROL Contacts]](./general/contacts.md)<br>- [[!UICONTROL Reports]](./general/reports.md)<br>- [[!UICONTROL Content Management]](./general/content-management.md)<br>- [[!UICONTROL Advanced Reporting]](./general/advanced-reporting.md) |
-| **[!UICONTROL Catalog]** <br/><br/> _[!UICONTROL Catalog]_の構成設定によって、製品とインベントリの設定が決定され、サイトマップとRSS フィードの生成が制御され、製品を友人と共有するために使用される電子メールテンプレートが指定されます。 | - [[!UICONTROL Catalog]](./catalog/catalog.md)<br>- [[!UICONTROL Visual Merchandiser]](./catalog/visual-merchandiser.md)<br>- [[!UICONTROL Inventory]](./catalog/inventory.md)<br>- [[!UICONTROL XML Sitemap]](./catalog/xml-sitemap.md)<br>- [[!UICONTROL RSS Feeds]](./catalog/rss-feeds.md)<br>- [[!UICONTROL Email to a Friend]](./catalog/email-to-a-friend.md) |
-| **[!UICONTROL Security]** <br/><br/>設定&#x200B;_[!UICONTROL Security]_では、ストアのセキュリティ、2要素認証、Google reCAPTCHA機能が制御されます。 | - [[!UICONTROL 2FA]](./security/2fa.md)<br>- [[!UICONTROL Google reCAPTCHA Admin Panel]](./security/google-recaptcha-admin.md)<br>- [[!UICONTROL Google reCAPTCHA Storefront]](./security/google-recaptcha-storefront.md)<br>- [[!UICONTROL Security.txt]](./security/security-txt.md) |
-| **[!UICONTROL Customers]** <br/><br/>_[!UICONTROL Customers]_の構成設定では、基本的な顧客アカウントとログインオプション、ニュースレター設定、ウィッシュリスト、自動生成クーポンコードの形式を設定します。 | - [[!UICONTROL Login as Customer]](./customers/login-as-customer.md)<br>- [[!UICONTROL Newsletter]](./customers/newsletter.md)<br>- [[!UICONTROL Company Configuration]](./customers/company-configuration.md)<br>- [[!UICONTROL Customer Configuration]](./customers/customer-configuration.md)<br>- [[!UICONTROL Requisition Lists]](./customers/requisition-lists.md)<br>- [[!UICONTROL Wish List]](./customers/wishlist.md)<br>- [[!UICONTROL Invitations]](./customers/invitations.md)<br>- [[!UICONTROL Reward Points]](./customers/reward-points.md)<br>- [[!UICONTROL Promotions]](./customers/promotions.md)<br>- [[!UICONTROL Gift Registry]](./customers/gift-registry.md)<br>- [[!UICONTROL Persistent Shopping Cart]](./customers/persistent-shopping-cart.md) |
-| **[!UICONTROL Sales]** <br/><br/> _[!UICONTROL Sales]_の設定によって、チェックアウトと税金の設定、支払いと配送のオプション、営業用メールとPDFのプリントアウト、Google APIの設定が決まります。 | - [[!UICONTROL Sales]](./sales/sales.md)<br>- [[!UICONTROL Sales Emails]](./sales/sales-emails.md)<br>- [[!UICONTROL Quotes]](./sales/quotes.md)<br>- [[!UICONTROL PDF Print-outs]](./sales/pdf-print-outs.md)<br>- [[!UICONTROL Tax]](./sales/tax.md)<br>- [[!UICONTROL Checkout]](./sales/checkout.md)<br>- [[!UICONTROL Shipping Settings]](./sales/shipping-settings.md)<br>- [[!UICONTROL Multishipping Settings]](./sales/multishipping-settings.md)<br>- [[!UICONTROL Delivery Methods]](./sales/delivery-methods.md)<br>- [[!UICONTROL Google API]](./sales/google-api.md)<br>- [[!UICONTROL 3D Secure]](./sales/3d-secure.md)<br>- [[!UICONTROL Gift Cards]](./sales/gift-cards.md)<br>- [[!UICONTROL Payment Methods]](./sales/payment-methods.md) |
-| **[!UICONTROL Sales Channels]** <br/><br/> [!DNL Amazon Sales Channel]拡張機能がインストールされると、_[!UICONTROL Sales Channels]_設定でAmazon ストアとの自動統合操作が制御されます。 | - [[!UICONTROL Global Settings]](sales-channels.md) |
-| **[!UICONTROL Services]** <br/><br/>SOAPやOAuthなどのCommerce API統合設定は、_[!UICONTROL Services]_の設定によって決まります。 | - [[!UICONTROL Web API]](./services/magento-web-api.md)<br>- [[!UICONTROL Commerce Services]](./services/saas.md)<br>- [[!UICONTROL OAuth]](./services/oauth.md) |
-| **[!UICONTROL Advanced]** <br/><br/> _[!UICONTROL Advanced]_の構成設定によって、デフォルトの管理者設定、様々なシステム構成設定、高度なモジュール制御、開発者ツールが決まります。 | - [[!UICONTROL Admin]](./advanced/admin.md) [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}<br>- [[!UICONTROL System]](./advanced/system.md) [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}<br>- [[!UICONTROL Developer]](./advanced/developer.md) |
+| **[!UICONTROL Catalog]** <br/><br/> _[!UICONTROL Catalog]_&#x200B;の構成設定によって、製品とインベントリの設定が決定され、サイトマップとRSS フィードの生成が制御され、製品を友人と共有するために使用される電子メールテンプレートが指定されます。 | - [[!UICONTROL Catalog]](./catalog/catalog.md)<br>- [[!UICONTROL Visual Merchandiser]](./catalog/visual-merchandiser.md)<br>- [[!UICONTROL Inventory]](./catalog/inventory.md)<br>- [[!UICONTROL XML Sitemap]](./catalog/xml-sitemap.md)<br>- [[!UICONTROL RSS Feeds]](./catalog/rss-feeds.md)<br>- [[!UICONTROL Email to a Friend]](./catalog/email-to-a-friend.md) |
+| **[!UICONTROL Security]** <br/><br/>設定&#x200B;_[!UICONTROL Security]_&#x200B;では、ストアのセキュリティ、2要素認証、Google reCAPTCHA機能が制御されます。 | - [[!UICONTROL 2FA]](./security/2fa.md)<br>- [[!UICONTROL Google reCAPTCHA Admin Panel]](./security/google-recaptcha-admin.md)<br>- [[!UICONTROL Google reCAPTCHA Storefront]](./security/google-recaptcha-storefront.md)<br>- [[!UICONTROL Security.txt]](./security/security-txt.md) |
+| **[!UICONTROL Customers]** <br/><br/>_[!UICONTROL Customers]_&#x200B;の構成設定では、基本的な顧客アカウントとログインオプション、ニュースレター設定、ウィッシュリスト、自動生成クーポンコードの形式を設定します。 | - [[!UICONTROL Login as Customer]](./customers/login-as-customer.md)<br>- [[!UICONTROL Newsletter]](./customers/newsletter.md)<br>- [[!UICONTROL Company Configuration]](./customers/company-configuration.md)<br>- [[!UICONTROL Customer Configuration]](./customers/customer-configuration.md)<br>- [[!UICONTROL Requisition Lists]](./customers/requisition-lists.md)<br>- [[!UICONTROL Wish List]](./customers/wishlist.md)<br>- [[!UICONTROL Invitations]](./customers/invitations.md)<br>- [[!UICONTROL Reward Points]](./customers/reward-points.md)<br>- [[!UICONTROL Promotions]](./customers/promotions.md)<br>- [[!UICONTROL Gift Registry]](./customers/gift-registry.md)<br>- [[!UICONTROL Persistent Shopping Cart]](./customers/persistent-shopping-cart.md) |
+| **[!UICONTROL Sales]** <br/><br/> _[!UICONTROL Sales]_&#x200B;の設定によって、チェックアウトと税金の設定、支払いと配送のオプション、営業用メールとPDFのプリントアウト、Google APIの設定が決まります。 | - [[!UICONTROL Sales]](./sales/sales.md)<br>- [[!UICONTROL Sales Emails]](./sales/sales-emails.md)<br>- [[!UICONTROL Quotes]](./sales/quotes.md)<br>- [[!UICONTROL PDF Print-outs]](./sales/pdf-print-outs.md)<br>- [[!UICONTROL Tax]](./sales/tax.md)<br>- [[!UICONTROL Checkout]](./sales/checkout.md)<br>- [[!UICONTROL Shipping Settings]](./sales/shipping-settings.md)<br>- [[!UICONTROL Multishipping Settings]](./sales/multishipping-settings.md)<br>- [[!UICONTROL Delivery Methods]](./sales/delivery-methods.md)<br>- [[!UICONTROL Google API]](./sales/google-api.md)<br>- [[!UICONTROL 3D Secure]](./sales/3d-secure.md)<br>- [[!UICONTROL Gift Cards]](./sales/gift-cards.md)<br>- [[!UICONTROL Payment Methods]](./sales/payment-methods.md) |
+| **[!UICONTROL Sales Channels]** <br/><br/> [!DNL Amazon Sales Channel]拡張機能がインストールされると、_[!UICONTROL Sales Channels]_&#x200B;設定でAmazon ストアとの自動統合操作が制御されます。 | - [[!UICONTROL Global Settings]](sales-channels.md) |
+| **[!UICONTROL Services]** <br/><br/>SOAPやOAuthなどのCommerce API統合設定は、_[!UICONTROL Services]_&#x200B;の設定によって決まります。 | - [[!UICONTROL Web API]](./services/magento-web-api.md)<br>- [[!UICONTROL Commerce Services]](./services/saas.md)<br>- [[!UICONTROL OAuth]](./services/oauth.md) |
+| **[!UICONTROL Advanced]** <br/><br/> _[!UICONTROL Advanced]_&#x200B;の構成設定によって、デフォルトの管理者設定、様々なシステム構成設定、高度なモジュール制御、開発者ツールが決まります。 | - [[!UICONTROL Admin]](./advanced/admin.md) [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}<br>- [[!UICONTROL System]](./advanced/system.md) [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}<br>- [[!UICONTROL Developer]](./advanced/developer.md) |
 
 {style="table-layout:auto"}
 
