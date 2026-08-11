@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
 workflow-type: tm+mt
-source-wordcount: 1746
+source-wordcount: 1850
 ht-degree: 0%
 
 ---
@@ -63,10 +63,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->一部の支払い統合機能とバンドルされた拡張機能は、2.4.x リリースで削除され、Commerce Marketplaceに移行されました。最新の公式な支払い統合拡張機能は、[Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}で確認できます。
-><br/>>**Amazon Pay**&#x200B;および&#x200B;**Klarna**: Adobe CommerceおよびMagento Open Source リリース 2.4.0 ～ 2.4.3には、これらのベンダーが開発した拡張機能が含まれています。2.4.4 リリース以降、これらの拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。Marketplaceでは、拡張機能の開発者が提供する最新のドキュメントにもアクセスできます。
-><br/>>これらのバンドル拡張機能のいずれかを有効にして設定している場合は、2.4.4 アップグレードプロセスの一環として`composer.json` ファイルを更新し、拡張機能の更新を今後も管理する必要があります。詳しくは、_アップグレードガイド_&#x200B;の[&#x200B; アップグレードモジュール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ja)を参照してください。<br/>
-><br/>>**Worldpay**、**Eway**、**CyberSource**、**Authorize.Net**：これらの支払い統合から安全に移行する方法について詳しくは、[開発ブログ &#x200B;](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}を参照してください。
+>一部の支払い統合機能とバンドルされた拡張機能は、2.4.x リリースで削除され、Commerce Marketplaceに移行されました。 最新の公式な支払い統合拡張機能は、[Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}で確認できます。
+><br/>
+>**Amazon Pay**&#x200B;および&#x200B;**Klarna**: Adobe CommerceおよびMagento Open Source リリース 2.4.0 ～ 2.4.3には、これらのベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、これらの拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 Marketplaceでは、拡張機能の開発者が提供する最新のドキュメントにもアクセスできます。
+><br/>
+>これらのバンドル拡張機能のいずれかを有効にして設定している場合は、2.4.4 アップグレードプロセスの一部として`composer.json` ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 詳しくは、_アップグレードガイド_&#x200B;の[&#x200B; アップグレードモジュール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ja)を参照してください。<br/>
 
 ## その他のPayPal方式
 

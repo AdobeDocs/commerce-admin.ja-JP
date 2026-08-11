@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: 2710
+source-wordcount: 2904
 ht-degree: 0%
 
 ---
@@ -33,9 +33,11 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**Commerce 2.4への移行：**<br/>
->2.4.0より前のバージョンのAdobe CommerceとMagento Open Sourceの場合は、コア統合を置き換えるために、[Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree)から公式のBraintree payment integration拡張機能をインストールして設定することをお勧めします。2.4.0以降、この拡張機能はコアリリースに含まれるようになりました。
-><br/><br/>>Commerce 2.4に移行する際、マーチャントはMarketplace （`paypal/module-braintree`または`gene/module-braintree`）で配布されている拡張機能をアンインストールし、コードを更新して`Magento_Braintree`ではなく`PayPal_Braintree`名前空間を使用する必要があります。Commerce用のバンドル拡張機能とCommerce Marketplaceに配布された拡張機能の設定は保持されます。これらのバージョンの拡張機能に対して行われた支払いは、通常どおり取得、無効化、または返金されます。
-><br/><br/>>Commerce 2.4.0にアップグレードする場合、以前の2.3.x バージョンで推奨されるCommerce Marketplace拡張機能を使用しない場合、マルチアドレス機能は2.4.0 バージョンのBraintreeでは機能しません。買い物客が「_複数のアドレスに配信_」を選択すると、Braintreeの支払い方法は表示されません。2.3.xで以前に推奨されていたCommerce Marketplace拡張機能には、この複数のアドレスの問題があります。
+>2.4.0より前のバージョンのAdobe CommerceとMagento Open Sourceの場合は、コア統合を置き換えるために、[Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree)から公式のBraintree payment integration拡張機能をインストールして設定することをお勧めします。 2.4.0以降、この拡張機能はコアリリースに含まれるようになりました。
+><br/><br/>
+>Commerce 2.4に移行する場合、マーチャントはMarketplace （`paypal/module-braintree`または`gene/module-braintree`）で配布されている拡張機能をアンインストールし、コードのカスタマイズを`Magento_Braintree`ではなく`PayPal_Braintree`名前空間を使用するように更新する必要があります。 Commerce用のバンドル拡張機能とCommerce Marketplaceに配布された拡張機能の設定は保持されます。 これらのバージョンの拡張機能に対して行われた支払いは、通常どおり取得、無効化、または返金されます。
+><br/><br/>
+>Commerce 2.4.0にアップグレードする場合、以前の2.3.x バージョンで推奨されるCommerce Marketplace拡張機能を使用しない場合、マルチアドレス機能は2.4.0 バージョンのBraintreeでは機能しません。 買い物客が「_複数のアドレスに配信_」を選択すると、Braintreeの支払い方法は表示されません。 2.3.xで以前に推奨されていたCommerce Marketplace拡張機能には、この複数のアドレスの問題があります。
 
 {{config}}
 

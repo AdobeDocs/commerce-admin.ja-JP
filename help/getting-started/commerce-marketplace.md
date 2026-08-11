@@ -23,9 +23,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1425
 ht-degree: 0%
 
 ---
@@ -58,8 +58,8 @@ ht-degree: 0%
 - [App Builder アプリのデプロイ](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [APP BUILDER アプリケーション用のCI/CD](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
 - App Builder/Developer Consoleの概要
-   - [App Builderの導入方法](https://developer.adobe.com/app-builder/docs/getting_started/)
-   - [プロジェクトとワークスペースについて](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
+  - [App Builderの導入方法](https://developer.adobe.com/app-builder/docs/getting_started/)
+  - [プロジェクトとワークスペースについて](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
 
 ## [!DNL Marketplace]資格情報
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 ### オープンソースの質問
 
-Marketplace サポートチームは、[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)および[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) サイトのみに関する問題を解決します。 Magento Open Sourceに関するご質問は、[&#x200B; コミュニティフォーラム &#x200B;](https://community.magento.com/)または[Magento Open Sourceのサポートを受けられるパートナー](https://business.adobe.com/jp/products/magento/partners.html)にお問い合わせください。
+Marketplace サポートチームは、[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)および[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) サイトのみに関する問題を解決します。 Magento Open Sourceに関する質問は、Magento Open Sourceを支援できる[&#x200B; パートナー](https://business.adobe.com/jp/products/magento/partners.html)に転送してください。
 
 ### 返金リクエスト
 
