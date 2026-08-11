@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 207d5fac67567c7f83c88d5a430bf24cf3e97828
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: 318
 ht-degree: 0%
 
 ---
@@ -41,6 +41,10 @@ ht-degree: 0%
 ![詳細設定 – 管理者アクションのログ記録](../configuration-reference/advanced/assets/admin-actions-logging.png){width="600" zoomable="yes"}
 
 構成設定の詳細なリストについては、_構成リファレンス_&#x200B;の[管理者アクション ログ アーカイブ &#x200B;](../configuration-reference/advanced/system.md)を参照してください。
+
+>[!NOTE]
+>
+>[!DNL Adobe Commerce as a Cloud Service] プラットフォームでは、アクションログレポート、アクションログアーカイブ、バルクアクションログを設定できませんが、管理者の&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Logs]_&#x200B;メニューからレポート出力を確認できます。
 
 ## ログ記録のための管理者アクションの設定
 

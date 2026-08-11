@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 756e3b7f8c70e0b3fc6f30691a15bd7e20517655
 workflow-type: tm+mt
-source-wordcount: 160
+source-wordcount: 220
 ht-degree: 0%
 
 ---
@@ -29,13 +29,17 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-管理者[&#x200B; アクション &#x200B;](action-log.md) アーカイブには、サーバーに保存されているCSV ログファイルが一覧表示されます。 設定では、ログエントリの保存期間とアーカイブ頻度を指定できます。 デフォルトでは、ファイル名には現在の日付がISO形式で含まれています：`yyyyMMddHH`
+管理者[&#x200B; アクション &#x200B;](action-log.md) アーカイブには、サーバーに保存されているCSV ログファイルが一覧表示されます。
+
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}設定では、ログエントリの保存期間とアーカイブ頻度を指定できます。 デフォルトでは、ファイル名には現在の日付がISO形式で含まれています：`yyyyMMddHH`
 
 >[!NOTE]
 >
 >ログのアーカイブには、[cron ジョブ &#x200B;](cron.md)を設定する必要があります。
 
 ## ログアーカイブの設定
+
+badgePaas: label=&quot;PaaS only&quot; type=&quot;Informative&quot; url=&quot;https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions&quot; tooltip=&quot;Adobe Commerce on Cloud プロジェクト（Adobeが管理するPaaS インフラストラクチャ）およびオンプレミス プロジェクトにのみ適用されます。&quot;
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 

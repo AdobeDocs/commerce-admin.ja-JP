@@ -18,10 +18,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: adab8959a614dc1a714ce53f390f2c1f70c27402
 workflow-type: tm+mt
-source-wordcount: 130
-ht-degree: 3%
+source-wordcount: 157
+ht-degree: 2%
 
 ---
 
@@ -34,6 +34,8 @@ ht-degree: 3%
 ![一括アクションログ &#x200B;](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
 
 ## 一括アクションの設定
+
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
