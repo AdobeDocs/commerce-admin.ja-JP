@@ -31,7 +31,7 @@ ht-degree: 0%
 
 管理者[&#x200B; アクション &#x200B;](action-log.md) アーカイブには、サーバーに保存されているCSV ログファイルが一覧表示されます。
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}設定では、ログエントリの保存期間とアーカイブ頻度を指定できます。 デフォルトでは、ファイル名には現在の日付がISO形式で含まれています：`yyyyMMddHH`
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}設定では、ログエントリの保存期間とアーカイブ頻度を指定できます。 デフォルトでは、ファイル名には現在の日付がISO形式で含まれています：`yyyyMMddHH`
 
 >[!NOTE]
 >
