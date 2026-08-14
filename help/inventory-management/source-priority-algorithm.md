@@ -1,26 +1,17 @@
 ---
 title: Source Priority Algorithmの設定
-description: 在庫に割り当てられたソースの順序に使用されるソースの優先度を設定してレコメンデーションを行う方法について説明します。
+description: Sourceの優先度アルゴリズムが出荷と差し引きのソースを推奨するように、在庫のソースの優先順位付けを設定します。
 exl-id: 7b25212d-0cd0-4280-be23-c67f06db900a
 feature: Inventory, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/TB4THYjkzbNvEbsjNzOewNtYS6JoRvLDiQQCovSMkbI
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 271
+source-wordcount: 269
 ht-degree: 0%
 
 ---
@@ -45,19 +36,19 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**&#x200B;に移動します。
 
-1. ストックを編集モードで開き、_[!UICONTROL Sources]_&#x200B;領域に移動します。
+1. ストックを編集モードで開き、_[!UICONTROL Sources]_領域に移動します。
 
 1. **[!UICONTROL Assign Sources]**&#x200B;をクリックします。
 
-1. _[!UICONTROL Assign Sources]_&#x200B;ビューで、必要なソースのチェックボックスを選択し、**[!UICONTROL Done]**&#x200B;をクリックしてソースを在庫に割り当てます。
+1. _[!UICONTROL Assign Sources]_ビューで、必要なソースのチェックボックスを選択し、**[!UICONTROL Done]**をクリックしてソースを在庫に割り当てます。
 
 >[!NOTE]
 >
->配送に[Distance Priority](distance-priority-algorithm.md) アルゴリズムを使用する場合、配送に選択した[計算モード &#x200B;](distance-priority-algorithm.md) （運転、自転車、またはウォーキング）にルートとデータが返されない場合、SSAはデフォルトでSource Priorityを使用します。
+>配送に[Distance Priority](distance-priority-algorithm.md) アルゴリズムを使用する場合、配送に選択した[計算モード ](distance-priority-algorithm.md) （運転、自転車、またはウォーキング）にルートとデータが返されない場合、SSAはデフォルトでSource Priorityを使用します。
 
 ![優先順位付け後のSource注文](assets/inventory-stock-priority-after.png)
 
 | アイコン | 説明 |
 |----------------------------------------------|----------------------------------------------------------------|
-| ![&#x200B; アイコンをドラッグ&amp;ドロップして優先順位を設定](assets/icon-drag-and-drop-action.png) | を使用すると、優先度に応じてソースをドラッグ&amp;ドロップできます。 |
-| ![&#x200B; クリックアイコンでソースの割り当てを解除する](assets/icon-delete-action.png) | ソースを在庫に割り当て解除します。 |
+| ![ アイコンをドラッグ&amp;ドロップして優先順位を設定](assets/icon-drag-and-drop-action.png) | を使用すると、優先度に応じてソースをドラッグ&amp;ドロップできます。 |
+| ![ クリックアイコンでソースの割り当てを解除する](assets/icon-delete-action.png) | ソースを在庫に割り当て解除します。 |
