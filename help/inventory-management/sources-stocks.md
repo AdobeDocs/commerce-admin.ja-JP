@@ -80,4 +80,4 @@ ht-degree: 0%
 
 このビデオでは、[!DNL Inventory Management]のソースとストックについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410198?captions=jpn&quality=12&learn=on)
