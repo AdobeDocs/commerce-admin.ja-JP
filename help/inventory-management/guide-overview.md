@@ -70,5 +70,5 @@ Adobe Commerceのあらゆる機能に関する、マーチャント、クラウ
 
 このガイドで説明されていない情報や質問が必要な場合は、次のリソースを使用してください。
 
-- [インベントリのインストール後にStock ステータスが正しくありません](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html)
-- [&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)：チケットを送信して追加のヘルプを受け取ります。
+- [インベントリのインストール後にStock ステータスが正しくありません](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html?lang=ja)
+- [&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ja#submit-ticket)：チケットを送信して追加のヘルプを受け取ります。
