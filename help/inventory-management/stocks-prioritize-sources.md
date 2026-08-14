@@ -4,11 +4,21 @@ description: Adminで在庫にソースの優先順位付けを設定して、�
 exl-id: 16db3ee3-ce99-40dd-b1a3-fcb145b1298f
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/oPgeuN3-Il-yf3zpG2r4PNAmNbf-4gmz5-GFngM3-Ng
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
 source-wordcount: 208
@@ -18,7 +28,7 @@ ht-degree: 0%
 
 # 在庫のソースを優先する
 
-[ ソース ](sources-manage.md)を[在庫](stocks-manage.md)に追加した後、注文を処理するために、これらのソースを上から下に並べます。 Source Selection Algorithm （SSA）は、出荷と在庫差し引きを決定する際に、この順序を使用してアルゴリズムの優先度を提供します。
+[&#x200B; ソース &#x200B;](sources-manage.md)を[在庫](stocks-manage.md)に追加した後、注文を処理するために、これらのソースを上から下に並べます。 Source Selection Algorithm （SSA）は、出荷と在庫差し引きを決定する際に、この順序を使用してアルゴリズムの優先度を提供します。
 
 在庫のソース優先度は、製品インベントリの編集時に割り当てられたソースには影響しません。
 
@@ -28,13 +38,13 @@ ht-degree: 0%
 
 商人は、ベルリンの大きな倉庫、ロンドンの倉庫、ロンドンのオーバーフロー場所、そして最後にロンドンのストアフロントから優先順位を付けた出荷を好みます。 順序を変更するには、エントリを目的の順序にドラッグ&amp;ドロップします。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**&#x200B;に移動します。
 
 1. _編集_ モードで在庫を開きます。
 
-1. 必要に応じて、_[!UICONTROL Sources]_タブを展開します。
+1. 必要に応じて、_[!UICONTROL Sources]_&#x200B;タブを展開します。
 
-1. ![並べ替えアイコン ](assets/icon-sort.png)を使用して、ソースを上（最初）から下（最後）にドラッグ&amp;ドロップします。
+1. ![並べ替えアイコン &#x200B;](assets/icon-sort.png)を使用して、ソースを上（最初）から下（最後）にドラッグ&amp;ドロップします。
 
    この注文は、注文を配送する際に重要です。 SSAは、ソースの順序に基づいて出荷を推奨します
 

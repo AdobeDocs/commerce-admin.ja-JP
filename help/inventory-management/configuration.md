@@ -4,11 +4,21 @@ description: ストアフロントの表示、在庫、および出荷動作の�
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/3ay4K29pe2WkzYT-A5NXh83sHRvd5YJ8aoVqusrbZeE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
 source-wordcount: 777
@@ -20,9 +30,9 @@ ht-degree: 0%
 
 [!DNL Inventory Management] モジュールは、製品およびグローバルレベルでの在庫構成設定をサポートしており、ソースの可用性、ストアフロント製品、注文出荷に影響を与える追加設定も提供しています。 設定は次の場所に適用されます。
 
-- カタログ全体：**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。 次に、左側のパネルで&#x200B;**[!UICONTROL Catalog]**を展開し、**[!UICONTROL Inventory]**を選択します。
+- カタログ全体：**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。 次に、左側のパネルで&#x200B;**[!UICONTROL Catalog]**&#x200B;を展開し、**[!UICONTROL Inventory]**&#x200B;を選択します。
 
-- 特定の製品：**[!UICONTROL Catalog]** > **[!UICONTROL Products]**&#x200B;に移動します。 次に、製品を編集モードで開き、_[!UICONTROL Sources]_セクションの&#x200B;**[!UICONTROL Advanced Inventory]**をクリックします。
+- 特定の製品：**[!UICONTROL Catalog]** > **[!UICONTROL Products]**&#x200B;に移動します。 次に、製品を編集モードで開き、_[!UICONTROL Sources]_&#x200B;セクションの&#x200B;**[!UICONTROL Advanced Inventory]**&#x200B;をクリックします。
 
 カタログを設定して、ストアフロントに在庫データを表示したり、アクティブなショッピングカートを管理したりできます。 各商品の在庫状況を&#x200B;_在庫中_&#x200B;または&#x200B;_在庫切れ_&#x200B;として表示し、在庫が少ない場合に利用可能な在庫を表示します。
 
@@ -52,13 +62,13 @@ ht-degree: 0%
 
 ## 設定のフォールバックと継承
 
-設定は、継承の次のパスで上書きまたは適用されます。製品&#x200B;_[!UICONTROL Sources]_セクションは、製品_[!UICONTROL Advanced Options]_&#x200B;がグローバル _[!UICONTROL Inventory]_ストア設定を上書きします。
+設定は、継承の次のパスで上書きまたは適用されます。製品&#x200B;_[!UICONTROL Sources]_&#x200B;セクションは、製品&#x200B;_[!UICONTROL Advanced Options]_&#x200B;がグローバル _[!UICONTROL Inventory]_&#x200B;ストア設定を上書きします。
 
 [!DNL Commerce]が適用するカスタム設定を確認する場合、次の順序に従います。
 
-1. _[!UICONTROL Sources]_セクションの製品レベルでカスタム設定を確認します。 いくつかの設定を使用できます。
+1. _[!UICONTROL Sources]_&#x200B;セクションの製品レベルでカスタム設定を確認します。 いくつかの設定を使用できます。
 
-1. 製品&#x200B;_[!UICONTROL Advanced Inventory]_の設定を確認します。
+1. 製品&#x200B;_[!UICONTROL Advanced Inventory]_&#x200B;の設定を確認します。
 
 1. 製品設定に「`Use Config Settings`」が選択されている場合、グローバルな&#x200B;_インベントリ_ ストア設定ページから値がチェックされます。
 

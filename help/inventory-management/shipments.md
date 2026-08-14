@@ -4,11 +4,20 @@ description: 販売可能な数量と手元にある数量が自動的に更新�
 exl-id: cc4ca518-d98c-48f3-9051-6fb3c6fae9fe
 feature: Inventory, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/snZn77FvwJ-XKXojEtLOEpnPKp-nLZUpkTg6jTA9BY4
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
 source-wordcount: 737
@@ -32,13 +41,13 @@ ht-degree: 0%
 
 [!DNL Commerce]は、これらの複数アドレスの注文の在庫を単一の注文とまったく同じように管理します。 これにより、Source Selection Algorithmのレコメンデーションや、出荷時の上書き、部分的な出荷、注文のキャンセル、在庫情報の更新による返金などが可能になります。
 
-![ チェックアウト時のマルチアドレス ](assets/inventory-multi-ship.png){width="350" zoomable="yes"}
+![&#x200B; チェックアウト時のマルチアドレス &#x200B;](assets/inventory-multi-ship.png){width="350" zoomable="yes"}
 
 ### 返金
 
-払い戻しを発行するために[ クレジットメモ ](../stores-purchase/credit-memo-create.md){target="_blank"}を入力する場合、製品数量を差し引かれたソースに返すことができます。 注文情報には、商品を発送した在庫ソースが含まれます。 返品商品を受け取った際に、クレジットメモを通じて返品商品の数量を授与することをお勧めします。
+払い戻しを発行するために[&#x200B; クレジットメモ &#x200B;](../stores-purchase/credit-memo-create.md){target="_blank"}を入力する場合、製品数量を差し引かれたソースに返すことができます。 注文情報には、商品を発送した在庫ソースが含まれます。 返品商品を受け取った際に、クレジットメモを通じて返品商品の数量を授与することをお勧めします。
 
-![選択した返品時に返金するアイテム ](assets/credit-memo-items-to-refund.png)
+![選択した返品時に返金するアイテム &#x200B;](assets/credit-memo-items-to-refund.png)
 {width="350" zoomable="yes"}
 
 ### 未発送の注文のキャンセル

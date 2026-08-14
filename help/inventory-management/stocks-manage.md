@@ -3,11 +3,20 @@ title: 在庫の管理
 description: 管理画面で在庫を管理し、ソースを販売チャネルにマッピングしたり、フルフィルメントに優先順位を付けたり、販売可能な数量を正確に保ったりできます。
 exl-id: 076b1325-2de4-46d3-9976-d900bd2cef47
 TQID: https://experienceleague.adobe.com/IeG1bA1etAjxiDjSWY83GLNugllHT1mUrZBde45Ha8g
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
 source-wordcount: 522
@@ -41,7 +50,7 @@ Stockは、販売チャネル（web サイト）のソースに対する製品�
 
 マルチソースのマーチャントの場合は、店舗と注文のフルフィルメントに最適なストックを作成し、設定します。 販売チャネルに新規在庫を割り当てると、その販売チャネル内の既存の在庫はすべて未割り当てになります。
 
-マルチストアのインストールの場合、初期設定のStockは、最初に[ メイン Web サイト ](../stores-purchase/stores.md#add-websites){target="_blank"}と初期設定のストアに割り当てられます。 **[!UICONTROL Products]** グリッドビューには、有効な商品と無効な商品に対して、正しい在庫と数量が表示されます。
+マルチストアのインストールの場合、初期設定のStockは、最初に[&#x200B; メイン Web サイト &#x200B;](../stores-purchase/stores.md#add-websites){target="_blank"}と初期設定のストアに割り当てられます。 **[!UICONTROL Products]** グリッドビューには、有効な商品と無効な商品に対して、正しい在庫と数量が表示されます。
 
 ![在庫の管理](assets/inventory-stock.png){width="600" zoomable="yes"}
 
@@ -49,7 +58,7 @@ Stockは、販売チャネル（web サイト）のソースに対する製品�
 
 | ボタン | 説明 |
 |--|--|
-| [!UICONTROL Add New Stock] | 在庫を販売チャネルにマッピングするために新しい在庫在庫を入力するために使用される&#x200B;_[!UICONTROL New Stock]_フォームを開きます。 |
+| [!UICONTROL Add New Stock] | 在庫を販売チャネルにマッピングするために新しい在庫在庫を入力するために使用される&#x200B;_[!UICONTROL New Stock]_&#x200B;フォームを開きます。 |
 
 ## 在庫列の説明の管理
 
