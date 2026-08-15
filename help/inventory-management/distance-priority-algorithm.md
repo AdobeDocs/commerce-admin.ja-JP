@@ -1,6 +1,6 @@
 ---
 title: 距離優先アルゴリズムの設定
-description: 出荷先住所の場所とソースの場所を比較するための設定を設定して、出荷を処理する最も近いソースを決定します。
+description: Google マップまたはオフライン ジオコードを使用して、最も近いソースをレコメンドするSource Selection AlgorithmのDistance Priorityを設定します。
 exl-id: 4dec179a-25ac-48db-a84b-4974798272b0
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/hImn3RZ89qP2ysFEM8lx-plNpFzx9ogMuj92kKqC3Eg
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: 876
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ## Google マップの使用
 
-Google アカウントは必要ありません。必要に応じて、このプロセスにはGoogle アカウントとプロジェクトの作成が含まれます。このオプションを使用するには、Google アカウントに請求先アカウントと支払い方法を追加して、設定を完了し、アルゴリズムを使用する必要があります。
+Google アカウントは必要ありません。 必要に応じて、このプロセスにはGoogle アカウントとプロジェクトの作成が含まれます。 このオプションを使用するには、Google アカウントに請求先アカウントと支払い方法を追加して、設定を完了し、アルゴリズムを使用する必要があります。
 ただし、Google MAP距離ベースのアルゴリズムは、オフライン計算と比較してより高度で正確なものをお勧めします。
 
 ### 手順1:Google API キーの作成

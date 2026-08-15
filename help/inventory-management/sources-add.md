@@ -1,6 +1,6 @@
 ---
 title: 在庫ソースの追加
-description: 倉庫、実店舗、流通センター、ドロップシッパーなど、場所のソースを作成する方法について説明します。
+description: 倉庫、店舗、流通センターまたはその他のフルフィルメントの場所の管理に [!DNL Inventory Management]  ソースを追加します。
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
@@ -18,16 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 865
+source-wordcount: 858
 ht-degree: 0%
 
 ---
 
 # ソースを追加
 
-カスタムソースを使用して、複数の場所からの在庫と注文のフルフィルメントを管理します。 倉庫、実店舗、流通センター、ドロップシッパーなどの各拠点のソースを作成します。 製品ごとにソースを割り当て、数量を更新します
+カスタムソースを使用して、複数の場所からの在庫と注文のフルフィルメントを管理します。 倉庫、実店舗、流通センター、ドロップシッパーなどの各拠点のソースを作成します。 製品ごとにソースを割り当て、数量を更新します。
 
 デフォルトのSourceを編集する場合は、名前とコードを除くすべての設定を編集できます。 シングルソースのマーチャントは、場所に一致する情報を追加することをお勧めします。
 

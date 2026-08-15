@@ -1,6 +1,6 @@
 ---
 title: ストックメッセージのシナリオ
-description: 商品ページの在庫状況メッセージと、カタログページの商品リストの在庫状況メッセージを制御する設定の組み合わせについて説明します。
+description: ストアフロントの商品ページとカテゴリ商品リストに表示される [!DNL Inventory Management] 在庫状況メッセージを設定します。
 exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/9kPHtr75C7PkM9vD-2-AeG8JnAfKAao0GKEH9MhkBbU
@@ -18,16 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 353
-ht-degree: 1%
+source-wordcount: 338
+ht-degree: 2%
 
 ---
 
 # ストックメッセージのシナリオ
 
-構成設定を組み合わせて使用すると、商品ページおよびカタログページの商品リストの在庫状況メッセージを制御できます。
+次の節の設定を使用して、商品ページおよびカタログリストでの在庫状況メッセージの表示方法を設定します。
 
 ![商品をグループ化し、「在庫切れ」メッセージを表示](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 

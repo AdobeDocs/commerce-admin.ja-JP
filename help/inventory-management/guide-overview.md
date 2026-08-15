@@ -1,6 +1,6 @@
 ---
-title: Inventory management ガイド  [!DNL Inventory Management]  ガイド
-description: 'Adobe CommerceおよびMagento Open Sourceの管理者に関する包括的な情報（移行および設定を含む）。 [!DNL Inventory Management] '
+title: '[!DNL Inventory Management] ガイド'
+description: 'Adobe CommerceとMagento Open Sourceの在庫、ソース、数量、設定、注文、および出荷に関する管理者とCLI ガイド。 [!DNL Inventory Management] '
 seo-title: Adobe Commerce Inventory Management Guide
 seo-description: Describes how to use the [!DNL Inventory Management] module in Adobe Commerce or Magento Open Source.
 exl-id: 8013bc13-b057-4ad7-bbed-ee00c2f6e4eb
@@ -24,48 +24,49 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94e419120b8e16848cc1d449650f023f361a2af7
 workflow-type: tm+mt
-source-wordcount: 394
-ht-degree: 0%
+source-wordcount: 329
+ht-degree: 1%
 
 ---
 
-# [!DNL Inventory Management] ガイドの概要
+# [!DNL Inventory Management] の概要
 
-このガイドは、Adobe CommerceおよびMagento Open Source Adminで作業する管理者を対象としています。 このモジュールの機能の設定と管理など、このモジュールの有効化に関する詳細な情報を提供します。 コア [!DNL Commerce]の設定と機能に関する基本的な理解を前提としています。
+このガイドは、Adobe CommerceとMagento Open Sourceの複数の場所で在庫を管理する管理者向けです。 [!DNL Inventory Management] モジュールの設定と管理手順を提供し、コア [!DNL Commerce]機能に関する基本的な理解を前提としています。
 
-[!DNL Inventory Management]には、管理者が次の2つの領域があります。
-
-- 管理者：この領域を使用して、設定UIとレポートにアクセスします。
-- コマンドラインインターフェイス：このツールを使用して、インストールタスクとバックエンド設定タスクを実行します。
+設定、レポート、および日々の在庫管理タスクには、**管理者**&#x200B;を使用します。 インストール、アップグレード、バックエンド設定には、**コマンドラインインターフェイス**&#x200B;を使用します。
 
 主な内容：
 
 | 件名 | 説明 |
 | ------- | ----------- |
-| [はじめに](introduction.md) | 複数の場所の在庫を管理し、Commerce ストアが実際の在庫を正確に反映できるように使用できる[!DNL Inventory Management]機能の概要。 |
-| [&#x200B; リリースノート &#x200B;](release-notes.md) | すべての[!DNL Inventory Management] リリースについて詳しくは、リリースノートを参照してください。 |
-| 在庫の基本 | 在庫の管理に関する基本について説明します。[在庫とソース &#x200B;](sources-stocks.md)、[&#x200B; ソースの選択と予約](selection-reservations.md)、[注文と予約の状態](order-status.md)、および[製品タイプ &#x200B;](product-types.md) |
-| 基本を学ぶ | [!DNL Inventory Management] モジュールと、それがCommerce インスタンスおよびストアオペレーションにどのように適合するかについて説明します。[Commerce アップグレード &#x200B;](migrate.md)、[&#x200B; モジュールのインストールと更新](install-update.md)、[&#x200B; マーチャントのソーシングタイプ &#x200B;](merchant-sourcing.md)、および[&#x200B; ソーシング構造の変更](expand-restructure.md) |
-| [設定](configuration.md) | ソースの可用性、ストアフロント製品、および注文出荷を決定する[!DNL Inventory Management] オプションの設定について説明します。 |
-| [&#x200B; ソースの管理](sources-manage.md) | 調達先について説明し、商品の在庫を管理および出荷して注文フルフィルメントを行う物理的な場所、またはサービスを提供する物理的な場所を定義する方法について説明します。 |
-| [在庫の管理](stocks-manage.md) | 在庫を使用して、セールスチャネルのソースとなる商品のバーチャルな集計在庫を表す方法を説明します。 |
-| [数量の管理](quantities-manage.md) | 新製品のソースと数量を割り当てたり、既存の製品を変更したりする方法について説明します。 |
-| [注文と出荷の管理](shipments.md) | 出荷プロセスを通じて在庫量を管理するための追加の[!DNL Inventory Management]機能とオプションについて説明します。 |
-| [CLI参照](cli.md) | 在庫データと構成設定を管理するために[!DNL Inventory Management] モジュールが提供するコマンドについて説明します。 |
+| [はじめに](introduction.md) | 機能、用語、および[!DNL Inventory Management]がお客様のストアにどのように適合するか。 |
+| [&#x200B; リリースノート &#x200B;](release-notes.md) | モジュールのリリース履歴と既知の問題。 |
+| [&#x200B; インベントリの基本](sources-stocks.md) | [在庫とソース &#x200B;](sources-stocks.md)、[&#x200B; ソースの選択と予約](selection-reservations.md)、[注文と予約の状態](order-status.md)、および[製品タイプ &#x200B;](product-types.md)の概念。 |
+| 基本を学ぶ | [Commerceのアップグレード &#x200B;](migrate.md)、[&#x200B; インストールとアップデート &#x200B;](install-update.md)、[&#x200B; マーチャントのソーシングタイプ &#x200B;](merchant-sourcing.md)、[&#x200B; インベントリの再構築](expand-restructure.md)。 |
+| [設定](configuration.md) | ストアフロントの表示と出荷のグローバル、製品、アルゴリズム設定。 |
+| [&#x200B; ソースの管理](sources-manage.md) | フルフィルメントの場所を作成および管理する。 |
+| [在庫の管理](stocks-manage.md) | ソースをセールスチャネルにマッピング： |
+| [数量の管理](quantities-manage.md) | ソースごとに製品数量を割り当てて更新します。 |
+| [注文と出荷の管理](shipments.md) | 注文を処理し、在庫からの出荷を管理します。 |
+| [CLI参照](cli.md) | コマンドラインのインベントリと設定タスク。 |
 
 {style="table-layout:auto"}
 
 ## 開発者情報
 
-モジュールアーキテクチャ、API、アルゴリズムのカスタマイズについて詳しくは、開発者ドキュメントの[[!DNL Inventory Management]](https://developer.adobe.com/commerce/webapi/rest/inventory/)を参照してください。
+API、カスタマイズ、モジュールアーキテクチャの高度なリソースにアクセスできます。 APIとアルゴリズムのカスタマイズに関する技術的な詳細については、REST API開発者ドキュメントの[[!DNL Inventory Management]](https://developer.adobe.com/commerce/webapi/rest/inventory/)を参照してください。
 
 ## Commerce ドキュメント
+
+Adobe Commerceのあらゆる機能に関する、マーチャント、クラウド、開発者ガイドをご覧ください。 セットアップや管理のニーズに応じて、これらのリソースを使用できます。
 
 {{docs-links}}
 
 ## トラブルシューティングとサポート
+
+サポート記事やチケットシステムを使用して、在庫の問題を迅速に解決できます。 在庫状況や商品管理に関する追加ヘルプを表示します。
 
 このガイドで説明されていない情報や質問が必要な場合は、次のリソースを使用してください。
 

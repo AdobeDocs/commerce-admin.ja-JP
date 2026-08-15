@@ -1,6 +1,6 @@
 ---
 title: Source Priority Algorithmの設定
-description: 在庫に割り当てられたソースの順序に使用されるソースの優先度を設定してレコメンデーションを行う方法について説明します。
+description: Sourceの優先度アルゴリズムが出荷と差し引きのソースを推奨するように、在庫のソースの優先順位付けを設定します。
 exl-id: 7b25212d-0cd0-4280-be23-c67f06db900a
 feature: Inventory, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/TB4THYjkzbNvEbsjNzOewNtYS6JoRvLDiQQCovSMkbI
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 271
+source-wordcount: 269
 ht-degree: 0%
 
 ---

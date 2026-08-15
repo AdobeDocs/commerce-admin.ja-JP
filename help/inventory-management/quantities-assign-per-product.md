@@ -1,6 +1,6 @@
 ---
 title: 製品ごとの在庫量の割り当て
-description: 商品の在庫量を更新し、手元にある利用可能な在庫量を追跡する方法について説明します。
+description: 商品ページでソースごとの手元にある数量としきい値を設定して、 [!DNL Inventory Management] 販売可能な在庫を正確に保ちます。
 exl-id: 935385bb-6657-4d49-980e-96a3d0d3a187
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/0OBXyHUbsWVXmEnWEWd0CGcBNhci57w8HGtDCGCWuOk
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 210
+source-wordcount: 208
 ht-degree: 0%
 
 ---

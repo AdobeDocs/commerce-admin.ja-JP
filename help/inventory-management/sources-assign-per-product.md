@@ -1,6 +1,6 @@
 ---
 title: 製品ごとに在庫ソースを割り当てる
-description: 商品に在庫ソースを割り当てる方法について説明します。
+description: ソースごとの数量と閾値を設定する前に、管理画面で1つ以上の [!DNL Inventory Management]  ソースを製品に割り当てます。
 exl-id: 7e47be25-633e-4f5d-bb61-0d9e79b6dbad
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/Wjx3w6Z-oNALxNRHw65BZDeCzka3BQvtg-m4a9kp-Y8
@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2023-10-26
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
 workflow-type: tm+mt
-source-wordcount: 151
+source-wordcount: 159
 ht-degree: 0%
 
 ---

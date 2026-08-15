@@ -1,6 +1,6 @@
 ---
 title: 在庫の拡大と再構築
-description: マルチソースのマーチャントに拡大する方法や、シングルソースのマーチャントに縮小する方法を説明します。
+description: シングルソースからマルチソースの在庫に拡張したり、ビジネスの変化に合わせてシングルソースに再構築したりできます。
 exl-id: 880474e3-6533-4b2f-adf7-4312787ff736
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/w4TV-BQrg0RzlHn4DVSdHFPD2M5CF11wA7I5OyA7jsY
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 219
+source-wordcount: 221
 ht-degree: 0%
 
 ---

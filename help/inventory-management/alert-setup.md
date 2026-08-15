@@ -1,6 +1,6 @@
 ---
 title: 製品アラート
-description: 商品アラートについて学び、商品の在庫状況や価格変更を顧客に通知するために利用する方法を学びます。
+description: ' [!DNL Inventory Management]  カタログ設定で、在庫および価格変更の商品アラート、メールテンプレート、および実行設定を設定します。'
 exl-id: c9f736c5-7bba-4e3e-804d-5b0fe52c8f9b
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/n1n2tqb97EiM-vXZqifVgMOdBqNRdwNM-pjDI-D-b8M
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 653
+source-wordcount: 650
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 価格変更アラートが有効になっている場合は、すべての製品ページに&#x200B;_価格低下を通知_ リンクが表示されます。 顧客はリンクをクリックして、製品に関連するアラートを購読できます。 お客様は、お客様のストアでアカウントを開くように求められます。 価格が変更されたり、特別な商品が発売されたりすると、アラートを購読した人全員にメールアラートが届きます。
 
-## In-Stock アラート
+## 在庫アラート
 
 在庫アラートは、在庫切れの商品ごとに&#x200B;_この商品の在庫状況を知らせる_&#x200B;というリンクを作成します。 顧客はリンクをクリックして、アラートを購読できます。 商品の在庫が戻ると、顧客には商品が入手可能であることを知らせるメール通知が送られます。 アラートを含む製品には、製品情報パネルに「_製品アラート_」タブがあり、アラートを購読した顧客が一覧表示されます。
 

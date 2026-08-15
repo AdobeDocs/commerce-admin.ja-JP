@@ -1,6 +1,6 @@
 ---
 title: ' [!DNL Inventory Management]  グローバルオプションの設定'
-description: web サイトの製品と在庫のデフォルトの [!DNL Inventory Management] 設定オプションを設定する方法について説明します。
+description: すべてのweb サイトで、製品のストックオプション、しきい値、およびストアフロント表示のグローバルな [!DNL Inventory Management]  カタログ設定を構成します。
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
@@ -18,14 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: 657
 ht-degree: 1%
 
 ---
 
 # [!DNL Inventory Management] グローバル オプションの設定
+
+これらのグローバル設定は、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**&#x200B;のカタログ全体に適用されます。
 
 web サイトの製品と在庫のデフォルト設定オプションを設定します。 これらの設定の一部は、[製品オプションの設定](product-options.md)を通じて、製品ごとに上書きできます。 距離の優先度の設定を行うには、[距離の優先度アルゴリズムの設定](distance-priority-algorithm.md)を参照してください。
 

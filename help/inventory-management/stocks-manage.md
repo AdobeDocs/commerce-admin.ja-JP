@@ -1,6 +1,6 @@
 ---
-title: 在庫在庫の管理
-description: 在庫を使用して、セールスチャネルのソースとなる商品のバーチャルな集計在庫を表す方法を説明します。
+title: 在庫の管理
+description: 管理画面で在庫を管理し、ソースを販売チャネルにマッピングしたり、フルフィルメントに優先順位を付けたり、販売可能な数量を正確に保ったりできます。
 exl-id: 076b1325-2de4-46d3-9976-d900bd2cef47
 TQID: https://experienceleague.adobe.com/IeG1bA1etAjxiDjSWY83GLNugllHT1mUrZBde45Ha8g
 product_v2:
@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 524
+source-wordcount: 522
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Stockは、販売チャネル（web サイト）のソースに対する製品�
 |--|--|
 | [!UICONTROL Add New Stock] | 在庫を販売チャネルにマッピングするために新しい在庫在庫を入力するために使用される&#x200B;_[!UICONTROL New Stock]_&#x200B;フォームを開きます。 |
 
-## Stock列の説明の管理
+## 在庫列の説明の管理
 
 | 列 | 説明 |
 |--|--|

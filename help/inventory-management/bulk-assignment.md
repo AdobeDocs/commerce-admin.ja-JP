@@ -1,6 +1,6 @@
 ---
 title: 一括在庫ソース割り当てと割り当て解除
-description: ソースの割り当てツールを使用して、製品のソース割り当てを管理する方法を説明します。
+description: 管理者の「ソースを一括割り当て」アクションを使用すると、多数の製品に対して [!DNL Inventory Management]  ソースを一度に割り当てたり割り当てを解除したりできます。
 exl-id: 1f1e81a5-fb06-46b7-84ca-7feea4942093
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/H8UQh7quyOeDq6-hSmf83fzUuJkuSLv0i2dezX-GKRA
@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2023-06-28
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
 workflow-type: tm+mt
-source-wordcount: 328
+source-wordcount: 332
 ht-degree: 0%
 
 ---

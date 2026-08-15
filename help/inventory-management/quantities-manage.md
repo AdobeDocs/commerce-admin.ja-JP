@@ -1,6 +1,6 @@
 ---
 title: 在庫量の管理
-description: 新製品のソースと数量を割り当てたり、既存の製品を変更したりする方法について説明します。
+description: ' [!DNL Inventory Management]の新製品と既存製品にソースとソースごとの数量を割り当てる管理手順の概要。'
 exl-id: b3d4a4c0-725a-4e62-854f-efb6a5709f73
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/ykiHTLnzZGtJrRdp2wZvlL7YLbEb7iAiYlcbY8K7IX8
@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
 source-wordcount: 325
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 # 在庫量の管理
 
-次の情報では、新製品のソースと数量を割り当てる方法と、既存の製品を変更する方法について詳しく説明します。
+以下のガイドラインを使用して、新製品または既存製品のソースと数量を割り当てます。
 
 製品作成時には、製品作成時にソースと数量を割り当てます。 詳しい手順については、[製品の作成](../catalog/product-create.md)を参照してください。 これらのページには、ソースごとのソースと数量に関するシングルソースとマルチソースの情報が含まれています。
 

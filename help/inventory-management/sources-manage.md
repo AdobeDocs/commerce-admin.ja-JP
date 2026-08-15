@@ -1,6 +1,6 @@
 ---
 title: 在庫ソースの管理
-description: 調達先について説明し、商品の在庫を管理および出荷して注文フルフィルメントを行う物理的な場所、またはサービスを提供する物理的な場所を定義する方法について説明します。
+description: 製品の在庫を保存および出荷する [!DNL Inventory Management]  ソースを追加、編集、有効化、および無効化する管理者タスクの概要。
 exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
 TQID: https://experienceleague.adobe.com/bVWqSGSgW08l7zZ7bLuZIcJUjqmj7Npn55yEdZn-aB0
 product_v2:
@@ -17,16 +17,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 695
+source-wordcount: 623
 ht-degree: 0%
 
 ---
 
 # ソースの管理
 
-ソース：注文フルフィルメントのために商品の在庫を管理、出荷したり、サービスを提供したりできる物理的な場所です。 これらの場所には、倉庫、実店舗、流通センター、受け取り場所、ドロップシッパーなどが含まれます。 これらのソースに在庫量を割り当てて、[!DNL Commerce]は在庫の販売可能な製品合計を自動的に集計します。 大企業の場合は、すべての場所に複数のソースを追加します。国や大陸ごとに異なる地理的な場所、在庫の種類に基づいて都市の場所、サービスにも基づいて。
+このトピックを使用して、ソースを追加、編集、有効化および無効化します。 ソースが在庫と販売可能な数量にどのように関連しているかは、[在庫とソース &#x200B;](sources-stocks.md)を参照してください。
 
 ソースの作成時に、特定の物理的な地理的位置を指定することをお勧めします。 これにより、_Distance Priority Algorithm_&#x200B;は、出荷先住所の場所と利用可能なソースの場所を比較して、出荷を処理する最も近いソースを決定できます。 ジオコードを使用するGoogle マップまたはオフライン計算を使用できます。 この&#x200B;_距離優先アルゴリズム_&#x200B;について詳しくは、[距離優先アルゴリズムの設定](distance-priority-algorithm.md)を参照してください。
 
