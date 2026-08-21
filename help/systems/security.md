@@ -40,11 +40,11 @@ ht-degree: 0%
 >
 >[!DNL Adobe Identity Management Services] （IMS）認証を有効にしているストアでは、ネイティブ Adobe CommerceとMagento Open Source 2FAが無効になっています。 Adobeの資格情報を使用してCommerce インスタンスにログインしている管理者ユーザーは、多くの管理者タスクで再認証を行う必要はありません。 認証は、管理者ユーザーが現在のセッションにログインしたときにAdobe IMSによって処理されます。 [[!DNL Adobe Identity Management Service]  （IMS）統合の概要](../getting-started/adobe-ims-integration-overview.md)を参照してください。
 
-[&#x200B; セキュリティセンター](https://helpx.adobe.com/security.html){:target="_blank"}にアクセスして、潜在的な脆弱性に関する最新ニュースを入手し、Adobe セキュリティ通知に登録し、Adobe Trust Centerにアクセスします。
+[&#x200B; セキュリティセンター](https://helpx.adobe.com/jp/security.html){:target="_blank"}にアクセスして、潜在的な脆弱性に関する最新ニュースを入手し、Adobe セキュリティ通知に登録し、Adobe Trust Centerにアクセスします。
 
 ![&#x200B; セキュリティセンター](./assets/product-security-home.png){width="700" zoomable="yes"}
 
-セキュリティのベストプラクティスについて詳しくは、_実装プレイブック_&#x200B;の[Commerce サイトとインフラストラクチャの保護](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)を参照してください。
+セキュリティのベストプラクティスについて詳しくは、_実装プレイブック_&#x200B;の[Commerce サイトとインフラストラクチャの保護](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)を参照してください。
 
 ## セキュリティアクションプラン
 
@@ -58,4 +58,4 @@ Adobe CommerceまたはMagento Open Sourceのサイトが侵害されたと疑�
 
 1. **レポート**: Commerceで特定の脆弱性が見つかったと思われる場合は、[Adobe](https://hackerone.com/adobe?type=team)で問題を開き、技術的な詳細を含めてください。
 
-1. **アップグレード**:24時間年中無休のサポートによる安心を得るために、今すぐ[Adobe Commerce Cloud Architecture](https://business.adobe.com/products/magento/cloud-delivery.html)へのアップグレードを計画してください。
+1. **アップグレード**:24時間年中無休のサポートによる安心を得るために、今すぐ[Adobe Commerce Cloud Architecture](https://business.adobe.com/jp/products/magento/cloud-delivery.html)へのアップグレードを計画してください。

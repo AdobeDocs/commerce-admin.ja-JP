@@ -4,7 +4,7 @@ description: コンテンツ配信ネットワーク（CDN）を使用してメ�
 exl-id: cb612b79-f3e3-4f1b-8cf9-d47886486686
 feature: Page Content, Media, Configuration
 level: Experienced
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/c-Aw3S5unZlMdDG1k080D4CIMcILglNa4ymZxPt6HBk
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 # コンテンツ配信ネットワークの利用
 
-コンテンツ配信ネットワーク（CDN）を使用して、メディアファイルを保存できます。 Adobe Commerce on Cloud Infrastructureには、Fastly CDNが含まれています（_Commerce on Cloud Infrastructure ガイド_&#x200B;の[Fastly](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/fastly)を参照）。 オンプレミス _にインストールされているCommerce インスタンスには、特定のCDNとの統合が含まれていません。任意のCDNを使用できます。_
+コンテンツ配信ネットワーク（CDN）を使用して、メディアファイルを保存できます。 Adobe Commerce on Cloud Infrastructureには、Fastly CDNが含まれています（_Commerce on Cloud Infrastructure ガイド_&#x200B;の[Fastly](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/cdn/fastly)を参照）。 オンプレミス _にインストールされているCommerce インスタンスには、特定のCDNとの統合が含まれていません。任意のCDNを使用できます。_
 
 CDNを設定したら、管理者から設定を完了する必要があります。 変更は、グローバルレベルでもweb サイトレベルでも実行できます。 CDNをメディアストレージに使用すると、Commerce ストアページ上のメディアへのすべてのパスが、設定で指定されたCDN パスに変更されます。
 

@@ -3,7 +3,7 @@ title: Cron （スケジュールされたタスク）
 description: 管理者からCommerce cron ジョブの実行とスケジュールを制御する方法について説明します。
 exl-id: e0da08ab-212f-4977-9387-0b4b40560cfb
 feature: System, Configuration
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/6zjak78aoXbzoHzdnOL4tvXgq4KAAjwMNLlLPax4ovE
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -40,14 +40,14 @@ Adobe CommerceとMagento Open Sourceは、スクリプトを定期的に実行�
 
 >[!IMPORTANT]
 >
->コアコンポーネントと一部のサードパーティの拡張機能が期待どおりに機能するように、Commerce サービスをcrontabにインストールする必要があります。 crontabへのサービスのインストールについて詳しくは、_インストールガイド_[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration)の手順を参照してください。
+>コアコンポーネントと一部のサードパーティの拡張機能が期待どおりに機能するように、Commerce サービスをcrontabにインストールする必要があります。 crontabへのサービスのインストールについて詳しくは、_インストールガイド_[&#128279;](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/next-steps/configuration)の手順を参照してください。
 
 さらに、cron スケジュールに従って実行するように次の設定を行うことができます。
 
 - システムグリッドの更新とインデックス再作成の順序
 - 保留中の支払い期間
 
-ストアの[&#x200B; ベース URL](../stores-purchase/store-urls.md)が正しく設定されていることを確認して、cronの操作中に生成されるURLが正しいことを確認します。 Adobe Commerce on Cloud Infrastructureについては、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[cron ジョブの設定](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property)」を参照してください。 オンプレミスについては、_設定ガイド_&#x200B;の「[設定と実行](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)」を参照してください。
+ストアの[&#x200B; ベース URL](../stores-purchase/store-urls.md)が正しく設定されていることを確認して、cronの操作中に生成されるURLが正しいことを確認します。 Adobe Commerce on Cloud Infrastructureについては、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[cron ジョブの設定](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property)」を参照してください。 オンプレミスについては、_設定ガイド_&#x200B;の「[設定と実行](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)」を参照してください。
 
 ## cronの設定
 

@@ -3,7 +3,7 @@ title: インデックス管理
 description: インデックス再作成をトリガーするアクションやベストプラクティスなど、インデックス管理について説明します。
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/0SKv03rtjLWNP0xXDqRh202Pvtw9XPkfkDiPCsGKgeE
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -37,7 +37,7 @@ Adobe CommerceとMagento Open Sourceは、1つ以上の項目が変更される�
 インデクサーは、保存時またはスケジュール時に更新するように設定できます。 すべてのインデックスでは、保存時にのみサポートするCustomer Gridを除くいずれかのオプションを使用できます。 保存時にインデックスを作成すると、Commerceは保存アクションで再インデックスを開始します。 インデックス管理ページは更新を完了し、キャッシュをフラッシュし、1分または2分以内に再インデックスメッセージが表示されます。 スケジュールでインデックスを再作成する場合、インデックスの再作成はcron ジョブとしてスケジュールに従って実行されます。 [cron ジョブ &#x200B;](cron.md)が無効になったインデクサーの更新に使用できない場合、システムメッセージが表示されます。 インデックス再作成時も、ストアにアクセスできます。
 
 >[!NOTE]
-> ライブサーチ、カタログサービス、商品レコメンデーションを使用しているAdobe Commerceの販売者は、[SaaS ベースの価格インデクサー](https://experienceleague.adobe.com/en/docs/commerce/price-indexer/price-indexing)を使用できます。
+> ライブサーチ、カタログサービス、商品レコメンデーションを使用しているAdobe Commerceの販売者は、[SaaS ベースの価格インデクサー](https://experienceleague.adobe.com/ja/docs/commerce/price-indexer/price-indexing)を使用できます。
 
 再インデックスが必要な場合は、ページの上部に通知が表示されます。 インデックスとメッセージは、再インデックスモードと実行する潜在的なアクションに基づいてクリアされます。 インデックス作成について詳しくは、_PHP開発者ガイド_&#x200B;の「[&#x200B; アプリケーションがインデックス作成を実装する方法](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing)」を参照してください。
 
@@ -97,7 +97,7 @@ Commerceでは、インデックス再作成とキャッシュの目的が異な
 
 ## コマンドラインを使用してインデックスを再作成する
 
-Commerceには、コマンドラインを使用して追加のインデックス再作成オプションが用意されています。 完全な詳細とコマンドオプションについては、_設定ガイド_&#x200B;の[Reindex](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex){:target="blank"}を参照してください。
+Commerceには、コマンドラインを使用して追加のインデックス再作成オプションが用意されています。 完全な詳細とコマンドオプションについては、_設定ガイド_&#x200B;の[Reindex](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex){:target="blank"}を参照してください。
 
 ## インデックストリガーイベント
 

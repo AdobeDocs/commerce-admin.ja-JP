@@ -34,11 +34,11 @@ Data Management ダッシュボードでは、Commerce データベースからC
 
 >[!NOTE]
 >
->カタログデータをAdobe Commerce Optimizerに書き出すために[Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)をインストールした場合は、Data Management ダッシュボードではなく、Commerce Optimizer Studioの[Data Sync ページ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)を使用して、正常なデータ同期を確認します。
+>カタログデータをAdobe Commerce Optimizerに書き出すために[Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/ja/docs/commerce/aco-optimizer-connector/overview)をインストールした場合は、Data Management ダッシュボードではなく、Commerce Optimizer Studioの[Data Sync ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/data-sync)を使用して、正常なデータ同期を確認します。
 
 ## オーディエンス
 
-Data Management Dashboardは、アクティブなライセンスを持つ[[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)、[[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)、[[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)を使用しているすべてのCommerce マーチャントに追加料金なしで利用できます。
+Data Management Dashboardは、アクティブなライセンスを持つ[[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/guide-overview)、[[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/ja/docs/commerce/live-search/guide-overview)、[[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/ja/docs/commerce/catalog-service/guide-overview)を使用しているすべてのCommerce マーチャントに追加料金なしで利用できます。
 
 データ管理ダッシュボードは、*システム*/データ転送/*データ管理ダッシュボード*&#x200B;にあります。
 
@@ -69,7 +69,7 @@ Commerce データベースの製品を更新すると、製品データはシ�
 
 >[!NOTE]
 >
->Adobeには、開発者やシステムインテグレーターがCommerce SaaS サービスの同期操作の管理と追跡およびエラーのトラブルシューティングに使用できるコマンドラインインターフェイスとシステムログも用意されています。 詳しくは、[SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)を参照してください。
+>Adobeには、開発者やシステムインテグレーターがCommerce SaaS サービスの同期操作の管理と追跡およびエラーのトラブルシューティングに使用できるコマンドラインインターフェイスとシステムログも用意されています。 詳しくは、[SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/saas-data-export/overview)を参照してください。
 
 ### 同期済み製品のリスト
 
@@ -79,7 +79,7 @@ Commerce データベースの製品を更新すると、製品データはシ�
 
 ### カタログデータの再同期
 
-Commerce SaaS サービスを常に最新の製品情報に保つために、[&#x200B; カタログデータの同期スケジュール &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex)を実装する必要があります。
+Commerce SaaS サービスを常に最新の製品情報に保つために、[&#x200B; カタログデータの同期スケジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex)を実装する必要があります。
 
 Commerce データベースからSaaS サービスへのカタログデータの再同期を[手動で](#manually-resync-catalog)開始できますが、ハードウェアリソースの負荷が増加する可能性があるため、お勧めしません。 ただし、次のシナリオでは、カタログを手動で再同期する必要がある場合があります。
 

@@ -48,7 +48,7 @@ Adobe CommerceまたはMagento Open Sourceを1回インストールすると、�
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | 各ストアは異なるパスを持ちますが、ドメインを共有します。 |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | 各ストアには、プライマリドメインの異なるサブドメインがあります。 |
 
-Adobe Commerceのマルチストアインストールは、管理者とサーバーのコマンドラインからも設定する必要があります。 Adobe Commerce [設定ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)には、サーバー環境の設定に関する詳細な手順が記載されています。
+Adobe Commerceのマルチストアインストールは、管理者とサーバーのコマンドラインからも設定する必要があります。 Adobe Commerce [設定ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)には、サーバー環境の設定に関する詳細な手順が記載されています。
 
 ### 手順1：ストアドメインの選択
 
@@ -120,20 +120,20 @@ Adobe Commerceのマルチストアインストールは、管理者とサーバ
 
 ### 手順5：サーバーの設定
 
-複数のWeb サイトをサポートするようにサーバーを設定するには、_設定ガイド_&#x200B;の[複数のWeb サイトまたはストア &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)を参照してください。
+複数のWeb サイトをサポートするようにサーバーを設定するには、_設定ガイド_&#x200B;の[複数のWeb サイトまたはストア &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)を参照してください。
 
 Web サーバーの設定に関するヘルプについては、次のリソースを参照してください。
 
-- [NGNXで複数のウェブサイトを設定する](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
-- [Apacheを使用した複数のweb サイトの設定](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
+- [NGNXで複数のウェブサイトを設定する](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
+- [Apacheを使用した複数のweb サイトの設定](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
 
-クラウドインフラストラクチャ上のAdobe Commerceについては、[複数のweb サイトまたはストアの設定](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites)を参照してください。
+クラウドインフラストラクチャ上のAdobe Commerceについては、[複数のweb サイトまたはストアの設定](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites)を参照してください。
 
 ## Web サイトを追加
 
 同じドメインまたは異なるドメインを持つ1つのAdobe CommerceまたはMagento Open Source インストールから、複数のweb サイトを設定できます。 デフォルトでは、同じweb サイトの下にあるストアは、同じIP アドレスとドメインを持ち、同じセキュリティ証明書を使用し、単一のチェックアウトプロセスを共有します。 各ストアに独自のドメインで専用のチェックアウトプロセスを持たせたい場合は、各ストアに個別のIP アドレスと個別のセキュリティ証明書が必要です。
 
-Adobe CommerceまたはMagento Open Sourceのマルチサイトインストールは、管理者およびサーバーのコマンドラインからも設定する必要があります。 Commerce [設定ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)には、サーバー環境の設定に関する詳細な手順が記載されています。
+Adobe CommerceまたはMagento Open Sourceのマルチサイトインストールは、管理者およびサーバーのコマンドラインからも設定する必要があります。 Commerce [設定ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)には、サーバー環境の設定に関する詳細な手順が記載されています。
 
 ![範囲 – web サイト &#x200B;](./assets/scope-multisite.svg){width="550"}
 
@@ -167,11 +167,11 @@ Adobe CommerceまたはMagento Open Sourceのマルチサイトインストー�
 
 ### 手順3：サーバーの設定
 
-複数のWeb サイトをサポートするようにサーバーを設定するには、_設定ガイド_&#x200B;の[複数のWeb サイトまたはストア &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)を参照してください。
+複数のWeb サイトをサポートするようにサーバーを設定するには、_設定ガイド_&#x200B;の[複数のWeb サイトまたはストア &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)を参照してください。
 
 Web サーバーの設定に関するヘルプについては、次のチュートリアルを参照してください。
 
-- [NGNXで複数のウェブサイトを設定する](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
-- [Apacheを使用した複数のweb サイトの設定](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
+- [NGNXで複数のウェブサイトを設定する](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
+- [Apacheを使用した複数のweb サイトの設定](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
 
-クラウドインフラストラクチャ上のAdobe Commerceについては、[複数のweb サイトまたはストアの設定](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites)を参照してください。
+クラウドインフラストラクチャ上のAdobe Commerceについては、[複数のweb サイトまたはストアの設定](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites)を参照してください。

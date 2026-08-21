@@ -3,7 +3,7 @@ title: コンテンツのステージング
 description: コンテンツのステージング機能により、ビジネス部門は、管理画面から直接、ストアの様々なコンテンツ更新を簡単に作成、プレビュー、スケジュールできます。
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/XAMnUUL9JH0atN6vlwwe2l9x4P-uAqJA3BH-h9LbIXU
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -98,6 +98,6 @@ _campaign_&#x200B;という用語は、スケジュールされた変更のレ�
 
 コンテンツのステージングの問題のトラブルシューティングについては、次の[!DNL Commerce] サポート技術情報の記事を参照してください。
 
-- [コンテンツのステージングの問題により、すべてのページでエラー404](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27785)
-- [スケジュールされたコンテンツステージングの更新が、古いFastly キャッシュで表示されない](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache)
-- [共有カタログの価格に関するコンテンツステージングの更新をスケジュールできますか？](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog)
+- [コンテンツのステージングの問題により、すべてのページでエラー404](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-27785)
+- [スケジュールされたコンテンツステージングの更新が、古いFastly キャッシュで表示されない](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache)
+- [共有カタログの価格に関するコンテンツステージングの更新をスケジュールできますか？](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog)

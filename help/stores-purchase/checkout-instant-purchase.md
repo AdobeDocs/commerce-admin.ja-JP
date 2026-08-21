@@ -71,7 +71,7 @@ Braintreeでの即時購入またはAdobe CommerceおよびMagento Open Source�
 Braintreeまたは決済サービスの決済方法を設定し、ヴォールトを有効にする方法について説明します。
 
 - [Braintree](braintree.md)
-- [決済サービスのドキュメント](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)
+- [決済サービスのドキュメント](https://experienceleague.adobe.com/ja/docs/commerce/payment-services/guide-overview)
 
 ### ステップ 3：即時購入を有効にする
 

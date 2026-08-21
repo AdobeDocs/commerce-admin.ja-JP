@@ -3,7 +3,7 @@ title: 開発者用ツール
 description: カスタマイズプロジェクトに取り組む開発者をサポートするために利用できる、高度な開発者ツールについて説明します。
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/l7Ub5CCeiR6ec3PiRkVXXaVyPaqDMJLf5TqKpIvL7T8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 Adobe CommerceまたはMagento Open Source インスタンスをデプロイして、_実稼動_&#x200B;または&#x200B;_開発者モード_&#x200B;で実行できます。 開発者向けに特別に設計されたツールと構成設定は、ストアが&#x200B;_開発者モード_&#x200B;で実行されている間にのみアクセスできます。
 
-操作モードは、適切な権限を持つユーザーがサーバーのコマンドラインからのみ変更できます。 詳しくは、_設定ガイド_&#x200B;の「[操作モードを設定](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)」を参照してください。
+操作モードは、適切な権限を持つユーザーがサーバーのコマンドラインからのみ変更できます。 詳しくは、_設定ガイド_&#x200B;の「[操作モードを設定](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/set-mode)」を参照してください。
 
 マーチャントのドキュメントのほとんどのトピックは、実稼動モードで動作しているCommerce インスタンスに適用されます。 ただし、次の設定とツールは、インストールが開発者モードで実行されている場合にのみ使用できます。
 
@@ -77,7 +77,7 @@ Commerce開発者向けドキュメントの[&#x200B; クライアントサイ�
 
 静的ファイルのURLにデジタル署名を追加すると、ブラウザーが新しいバージョンのファイルが使用可能な場合に検出できるようになります。 デジタル署名を使用して追跡できる静的ファイルには、JavaScript、CSS、画像、フォントなどがあります。 署名は、ベース URLの直後のパスに追加されます。 ファイルの署名がブラウザーのキャッシュに保存されているものと異なる場合は、新しいバージョンのファイルが使用されます。
 
-Commerce開発者向けドキュメントの[静的コンテンツ署名](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/static-content-signing){:target="_blank"}を参照してください。
+Commerce開発者向けドキュメントの[静的コンテンツ署名](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cache/static-content-signing){:target="_blank"}を参照してください。
 
 >[!NOTE]
 >
@@ -109,7 +109,7 @@ Commerce開発者向けドキュメントの[静的コンテンツ署名](https:
 
 デフォルトでは、Adobe CommerceとMagento Open Sourceはファイルを結合、バンドル、または最小化しません。プロジェクト開発者は、使用するファイル最適化方法を決定する必要があります。
 
-詳しくは、[&#x200B; パフォーマンスのベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/overview)を参照してください。
+詳しくは、[&#x200B; パフォーマンスのベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/performance-best-practices/overview)を参照してください。
 
 >[!NOTE]
 >
@@ -159,7 +159,7 @@ Commerce開発者向けドキュメントの[静的コンテンツ署名](https:
 >
 >開発者クライアントの制限は、[開発者モード &#x200B;](../systems/developer-tools.md#operation-modes)でのみ設定できます。
 
-技術情報については、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[&#x200B; リクエストを許可するためのカスタム VCL](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist)」を参照してください。
+技術情報については、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[&#x200B; リクエストを許可するためのカスタム VCL](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist)」を参照してください。
 
 **_IP アドレスをの許可リストに追加するには:_**
 

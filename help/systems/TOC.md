@@ -80,4 +80,4 @@ ht-degree: 3%
   - [セッション管理](security-session-management.md)
   - [ブラウザー機能の検出](security-browser-capabilities-detection.md)
   - [セキュリティ問題の報告](security-issue-reporting.md)
-- [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)

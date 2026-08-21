@@ -66,4 +66,4 @@ Adobe CommerceとMagento Open Sourceの主な機能については説明しま�
 
 [!DNL Page Builder]件の問題のトラブルシューティングについては、次の[!DNL Commerce] サポート サポート サポート技術情報の記事を参照してください。
 
-- [DotDigital [!DNL Page Builder]  フォームが保存されたときの空のページ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved)
+- [DotDigital [!DNL Page Builder]  フォームが保存されたときの空のページ](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved)

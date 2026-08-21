@@ -143,7 +143,7 @@ ht-degree: 0%
 
 Adobe Commerceでは、次の2つの異なる類義語管理ソリューションをサポートしています。
 
-- ライブサーチ [同義語](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/synonyms/synonyms)機能は、ライブサーチがインストールされたAdobe Commerce インストールで使用できます。
+- ライブサーチ [同義語](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-admin/synonyms/synonyms)機能は、ライブサーチがインストールされたAdobe Commerce インストールで使用できます。
 - 標準の同義語検索機能（このページで説明）は、すべてのAdobe Commerce インストールで標準で使用できます。
 
 >[!NOTE]

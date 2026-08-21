@@ -70,5 +70,5 @@ Adobe Commerceのあらゆる機能に関する、マーチャント、クラウ
 
 このガイドで説明されていない情報や質問が必要な場合は、次のリソースを使用してください。
 
-- [インベントリのインストール後にStock ステータスが正しくありません](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29910)
-- [&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)：チケットを送信して追加のヘルプを受け取ります。
+- [インベントリのインストール後にStock ステータスが正しくありません](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-29910)
+- [&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)：チケットを送信して追加のヘルプを受け取ります。

@@ -3,7 +3,7 @@ title: '[!DNL Commerce Intelligence]個のツール'
 description: Adobe CommerceとMagento Open Sourceを利用して、Commerce Intelligenceのツールを利用し、insightを利用して、ビジネス上の適切な意思決定をおこなう方法をご確認ください。
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/fXuvq380YffN-gCcGRcpwN5x-bc1EHcyrUaDFctaLKo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -42,7 +42,7 @@ Commerce Intelligence製品を利用して、ビジネス上の的確な意思�
 
 ## [!DNL Commerce Intelligence] アカウント
 
-Adobeを通じて[!DNL Commerce Intelligence] アカウントをアクティブ化すると、約70件のレポートを含む5つのダッシュボードにアクセスできます。 これらのレポートは、データに関するインサイトを提供し、「注文が前月比でどのように増加しているか」、「最もロイヤルティの高い顧客は誰か」、「クーポン戦略は機能しているか？」などの質問に回答することを目的としています。 このツールセットについて詳しくは、[Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/guide-overview)を参照してください。
+Adobeを通じて[!DNL Commerce Intelligence] アカウントをアクティブ化すると、約70件のレポートを含む5つのダッシュボードにアクセスできます。 これらのレポートは、データに関するインサイトを提供し、「注文が前月比でどのように増加しているか」、「最もロイヤルティの高い顧客は誰か」、「クーポン戦略は機能しているか？」などの質問に回答することを目的としています。 このツールセットについて詳しくは、[Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-business-intelligence/mbi/guide-overview)を参照してください。
 
 ## [!DNL Advanced Reporting]
 
@@ -68,7 +68,7 @@ Adobeを通じて[!DNL Commerce Intelligence] アカウントをアクティブ�
 
 * ストア URLの[!DNL Commerce]設定では、**[!UICONTROL Use Secure URLs on Storefront]**&#x200B;と&#x200B;**[!UICONTROL Use Secure URLs in Admin]**&#x200B;を`Yes`に設定する必要があります。
 
-* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)が作成され、インストールされたサーバーでcron ジョブが実行されています。
+* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)が作成され、インストールされたサーバーでcron ジョブが実行されています。
 
 >[!NOTE]
 >

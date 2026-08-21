@@ -30,7 +30,7 @@ Adobe CommerceとMagento Open Sourceをインストールするたびに、web �
 
 >[!NOTE]
 >
->詳しくは、[!DNL Commerce]開発者ドキュメントの[複数のweb サイトまたはストア &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)を参照してください。
+>詳しくは、[!DNL Commerce]開発者ドキュメントの[複数のweb サイトまたはストア &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)を参照してください。
 
 ## web サイト
 

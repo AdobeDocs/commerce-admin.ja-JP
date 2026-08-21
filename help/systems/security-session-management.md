@@ -4,7 +4,7 @@ description: 管理者とストアフロントを保護するようにセッシ�
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/0-D87Vrfu7OXkukQCye10VIpN-TLoANPAzb-5CVcf2w
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -81,7 +81,7 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 Adobe CommerceとMagento Open Sourceを使用すると、セッション固定攻撃の可能性や、ユーザーセッションのポイズニングやハイジャックの試みに対する保護対策として、セッション変数を検証できます。 セッション検証設定は、各ストア訪問中にセッション変数を検証する方法と、セッション IDがストアのURLに含まれているかどうかを決定します。
 
-技術情報については、_設定ガイド_&#x200B;の「[&#x200B; セッションストレージにRedisを使用する](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session)」を参照してください。
+技術情報については、_設定ガイド_&#x200B;の「[&#x200B; セッションストレージにRedisを使用する](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cache/redis/redis-session)」を参照してください。
 
 ![一般設定 – Web セッションの検証](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

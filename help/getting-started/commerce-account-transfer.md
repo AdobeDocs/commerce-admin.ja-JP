@@ -29,13 +29,13 @@ ht-degree: 0%
 
 ビジネスの責任が変更される場合、新しいオーナーまたは別のメールアドレスにAdobe Commerce アカウントを転送する必要が生じる場合があります。 この転送には、アカウントに関連付けられているプライマリユーザーメールに変更が必要です。
 
-次に、Adobe Commerce アカウント（MAGEID）を転送する手順を示します。 クラウドインフラストラクチャプロジェクトの所有権または[!DNL New Relic]の所有権に関するAdobe Commerceへの変更は含まれていません。 クラウドプロジェクトへのアクセスについて詳しくは、「_Commerce on Cloud Infrastructure ガイド_」の「[&#x200B; ユーザーアクセスの管理](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access)」を参照してください。
+次に、Adobe Commerce アカウント（MAGEID）を転送する手順を示します。 クラウドインフラストラクチャプロジェクトの所有権または[!DNL New Relic]の所有権に関するAdobe Commerceへの変更は含まれていません。 クラウドプロジェクトへのアクセスについて詳しくは、「_Commerce on Cloud Infrastructure ガイド_」の「[&#x200B; ユーザーアクセスの管理](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/project/user-access)」を参照してください。
 
 >[!IMPORTANT]
 >
 >新しいアカウント所有者が共有アクセスを使用して拡張機能を購入した場合、アカウントの転送が開始されるとすぐに、これらの拡張機能へのアクセスが失われます。
 >
->アカウントの転送をリクエストする前に、新しい所有者が[購入者 [!DNL Commerce Marketplace]  アカウント &#x200B;](https://commercemarketplace.adobe.com/sales/order/history/)から購入の注文IDを取得し、[[!DNL Commerce Marketplace]  チーム &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)から返金をリクエストしていることを確認してください。 拡張機能の購入を別のアカウントに転送することはできません。
+>アカウントの転送をリクエストする前に、新しい所有者が[購入者 [!DNL Commerce Marketplace]  アカウント &#x200B;](https://commercemarketplace.adobe.com/sales/order/history/)から購入の注文IDを取得し、[[!DNL Commerce Marketplace]  チーム &#x200B;](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)から返金をリクエストしていることを確認してください。 拡張機能の購入を別のアカウントに転送することはできません。
 
 ## 転送タイプの特定
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->現在の所有者の電子メールにアクセスできない場合は、IT チームに対して、会社の電子メールシステムでアカウントの電子メールアドレスの電子メール転送を設定するように依頼します。 メール転送を設定できない場合は、新しいアカウントオーナーにAdobe IDが設定されていることを確認し、アカウント転送を開始するために必要なすべての詳細を[&#x200B; サポートリクエスト &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)送信します。
+>現在の所有者の電子メールにアクセスできない場合は、IT チームに対して、会社の電子メールシステムでアカウントの電子メールアドレスの電子メール転送を設定するように依頼します。 メール転送を設定できない場合は、新しいアカウントオーナーにAdobe IDが設定されていることを確認し、アカウント転送を開始するために必要なすべての詳細を[&#x200B; サポートリクエスト &#x200B;](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)送信します。
 
 1. [account.adobe.com](https://account.adobe.com/)に移動し、Adobe ログインを完了します。
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 
 [新規Adobe IDとメールの変更](#new-adobe-id-and-email-change)、[&#x200B; メールの変更のみ](#email-change)、または[Adobe ID アカウントの切り替え](#adobe-id-account-switch) プロセスを完了した後、これらの手順を実行します。
 
-1. 新しい所有者として、[&#x200B; サポートリクエストを送信](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)。
+1. 新しい所有者として、[&#x200B; サポートリクエストを送信](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)。
 
    次の詳細を含めます。
 

@@ -51,5 +51,5 @@ ht-degree: 3%
 
 カテゴリの問題をトラブルシューティングする方法については、次のCommerce サポート技術情報を参照してください。
 
-- [カテゴリへの変更は保存されません](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved)
-- [Fastlyが有効になっているサブページにメインメニュー（カテゴリー）が表示されない](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-40708)
+- [カテゴリへの変更は保存されません](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved)
+- [Fastlyが有効になっているサブページにメインメニュー（カテゴリー）が表示されない](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-40708)

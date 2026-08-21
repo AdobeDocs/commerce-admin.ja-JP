@@ -4,7 +4,7 @@ description: セキュリティを強化するために定期的に行う必要�
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/jC0eV49rzff4ZZ0idMG4ChWZh80Yz43ZTmZ9CjYFhnk
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->これらの手順を完了しようとし、問題が発生した場合は、「[暗号化キーのローテーションのトラブルシューティング：CVE-2024-34102](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27134) ナレッジベース」の記事を参照してください。
+>これらの手順を完了しようとし、問題が発生した場合は、「[暗号化キーのローテーションのトラブルシューティング：CVE-2024-34102](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-27134) ナレッジベース」の記事を参照してください。
 
 Adobe CommerceとMagento Open Sourceは、暗号化キーを使用してパスワードやその他の機密データを保護します。 業界標準の[!DNL ChaCha20-Poly1305] アルゴリズムを256 ビット キーと共に使用して、暗号化が必要なすべてのデータを暗号化します。 これには、クレジットカードのデータや統合（支払いと配送モジュール）パスワードが含まれます。 さらに、復号を必要としないすべてのデータをハッシュするために、強力なセキュアハッシュアルゴリズム（SHA-256）が使用されます。
 
 最初のインストール時に、Commerceで暗号化キーを生成するか、独自のキーを入力するように求められます。 暗号化キーツールを使用すると、必要に応じてキーを変更できます。 セキュリティを強化するために、暗号化キーは定期的に変更する必要があり、いつでも元のキーが侵害される可能性があります。
 
-技術情報については、_PHP開発者ガイド_&#x200B;の&#x200B;_インストールガイド_&#x200B;の[高度なオンプレミスインストール &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced)および[&#x200B; データ再暗号化](https://developer.adobe.com/commerce/php/development/security/data-encryption)を参照してください。
+技術情報については、_PHP開発者ガイド_&#x200B;の&#x200B;_インストールガイド_&#x200B;の[高度なオンプレミスインストール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/advanced)および[&#x200B; データ再暗号化](https://developer.adobe.com/commerce/php/development/security/data-encryption)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -49,7 +49,7 @@ Adobe CommerceとMagento Open Sourceは、暗号化キーを使用してパス�
 
 次の手順では、端末へのアクセスが必要です。
 
-1. [&#x200B; メンテナンスモード &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode)を有効にします。
+1. [&#x200B; メンテナンスモード &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode)を有効にします。
 
    ```bash
    bin/magento maintenance:enable

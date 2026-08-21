@@ -3,7 +3,7 @@ title: ADOBE COMMERCEでのHIPAAへの対応
 description: Adobe Commerce HIPAA 対応拡張機能を追加し、HIPAA 義務を準拠できる追加機能を取得する方法について説明します。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/0K0f6Rb5ukFbiCj4ySxhl-4-OzJ4Luu2nKwhTHGeYW8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -68,8 +68,8 @@ Adobe Commerce HIPAA対応の拡張機能`magento/hipaa-ee`は、Adobe Commerce 
 
 | Adobe Commerce | サポート対象 | メモ |
 |----------------|-----------|-------|
-| 2.4.8-p5 | 1.3.0 | 2.4.8-p5のサポートには[互換性パッチ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-30555)が必要です |
-| 2.4.7-p4以降 – p バージョン | 1.2.0 | 2.4.7-p4のサポートには[互換性パッチ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27147)が必要です |
+| 2.4.8-p5 | 1.3.0 | 2.4.8-p5のサポートには[互換性パッチ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-30555)が必要です |
+| 2.4.7-p4以降 – p バージョン | 1.2.0 | 2.4.7-p4のサポートには[互換性パッチ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-27147)が必要です |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
 | 2.4.6-p8 | 1.1.0 | [data services](#adobe-commerce-services)のサポートは1.1.0で導入されました |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
@@ -88,7 +88,7 @@ Adobe Commerce HIPAA対応の拡張機能`magento/hipaa-ee`は、Adobe Commerce 
 >[!BEGINSHADEBOX]
 
 - Adobeは、HIPAA Ready拡張機能にアクセスするためにAdobe Commerce アカウントをプロビジョニングしました。
-- 拡張機能をインストールするには、[repo.magento.com](https://repo.magento.com)にアクセスしてください。 キーの生成と必要な権限の取得については、[認証キーの取得](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)を参照してください。
+- 拡張機能をインストールするには、[repo.magento.com](https://repo.magento.com)にアクセスしてください。 キーの生成と必要な権限の取得については、[認証キーの取得](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -96,13 +96,13 @@ Adobe Commerce HIPAA対応の拡張機能`magento/hipaa-ee`は、Adobe Commerce 
 
 >[!NOTE]
 >
->Experience Platformに送信されるバックオフィスイベントデータがHIPAA対応であることを確認するには、[Data Connection拡張機能ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension)を参照してください。
+>Experience Platformに送信されるバックオフィスイベントデータがHIPAA対応であることを確認するには、[Data Connection拡張機能ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension)を参照してください。
 
 1. ローカルワークステーションで、Adobe Commerce on cloud infrastructure プロジェクトのプロジェクトディレクトリに移動します。
 
    >[!NOTE]
    >
-   >Commerce プロジェクト環境のローカル管理について詳しくは、_Adobe Commerce on Cloud Infrastructure ユーザーガイド_&#x200B;の「[CLIを使用した分岐の管理](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches)」を参照してください。
+   >Commerce プロジェクト環境のローカル管理について詳しくは、_Adobe Commerce on Cloud Infrastructure ユーザーガイド_&#x200B;の「[CLIを使用した分岐の管理](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/cli-branches)」を参照してください。
 
 1. Adobe Commerce Cloud CLIを使用して更新する環境ブランチをチェックアウトします。
 
@@ -130,7 +130,7 @@ Adobe Commerce HIPAA対応の拡張機能`magento/hipaa-ee`は、Adobe Commerce 
    git push origin <branch-name>
    ```
 
-   更新をプッシュすると、[Commerce クラウド デプロイメント プロセス &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process)が開始され、変更が適用されます。 [&#x200B; デプロイ ログ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations)のデプロイメント ステータスを確認します。
+   更新をプッシュすると、[Commerce クラウド デプロイメント プロセス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/deploy/process)が開始され、変更が適用されます。 [&#x200B; デプロイ ログ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/test/log-locations)のデプロイメント ステータスを確認します。
 
 ### インストールを確認
 
@@ -304,12 +304,12 @@ Adobe CommerceのHIPAA顧客検索結果制限機能は、保護された医療�
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | はい | はい |
 | Adobe Developer App Builder[&#128279;](https://developer.adobe.com/graphql-mesh-gateway/)のAPI メッシュ | はい | はい |
-| [SaaS データ書き出し](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | はい | はい |
-| [&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | いいえ | いいえ |
-| [商品レコメンデーション &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | いいえ | いいえ |
-| [決済サービス &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | いいえ | いいえ |
-| [&#x200B; データ接続バックオフィスイベント &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | はい | はい |
-| [&#x200B; データ接続ストアフロント イベント &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | いいえ | いいえ |
+| [SaaS データ書き出し](https://experienceleague.adobe.com/ja/docs/commerce/saas-data-export/overview) | はい | はい |
+| [&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview) | いいえ | いいえ |
+| [商品レコメンデーション &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/overview) | いいえ | いいえ |
+| [決済サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/payment-services/guide-overview) | いいえ | いいえ |
+| [&#x200B; データ接続バックオフィスイベント &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events-backoffice) | はい | はい |
+| [&#x200B; データ接続ストアフロント イベント &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events#storefront-events) | いいえ | いいえ |
 | [Audience Activation](/help/customers/audience-activation.md) | いいえ | いいえ |
 
 ### ツール
@@ -322,7 +322,7 @@ Adobe Commerceの[&#x200B; セキュリティスキャンツール &#x200B;](../
 - インストールされているすべての拡張機能が、定義済みの拡張機能許可リストと一致する
 - サポートされていないAdobe サービスはインストールされていません
 
-スケジュール済みのスキャンの詳細を含むメール通知を送信したり、[&#x200B; レポートを手動で表示したりするために、ツール &#x200B;](../../systems/security-scan.md#run-a-security-scan)を[設定できます](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview)。
+スケジュール済みのスキャンの詳細を含むメール通知を送信したり、[&#x200B; レポートを手動で表示したりするために、ツール &#x200B;](../../systems/security-scan.md#run-a-security-scan)を[設定できます](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/launch/overview)。
 
 ## 無効な機能
 
@@ -330,7 +330,7 @@ HIPAA要件に準拠するため、Adobe Commerceでサポートされている�
 
 HIPAA-readiness モジュールでは、次の機能がデフォルトで無効になっています。 顧客は独自のリスクで、これらの機能のいずれかを有効にすることができます。
 
-- **[トランザクションメール &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/sendgrid)** - サービスがHIPAA対応ではないため、SendGridはデフォルトで無効になっています。 Adobe Commerceには、独自の[AWS Simple Email Service](https://docs.aws.amazon.com/ses/) アカウントで使用できる統合オプションが用意されています。 設定の詳細については、カスタマーテクニカルアカウントマネージャーまたはAdobe Commerce サポートにお問い合わせください。
+- **[トランザクションメール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/project/sendgrid)** - サービスがHIPAA対応ではないため、SendGridはデフォルトで無効になっています。 Adobe Commerceには、独自の[AWS Simple Email Service](https://docs.aws.amazon.com/ses/) アカウントで使用できる統合オプションが用意されています。 設定の詳細については、カスタマーテクニカルアカウントマネージャーまたはAdobe Commerce サポートにお問い合わせください。
 
 - **[ゲストチェックアウト](../../stores-purchase/checkout-guest.md)** – この機能は、ログ、アクセス制御、PHIのハイジーンとリネージ、その他の可能性を含む、HIPAAのさまざまな側面に対する潜在的なリスクを示します。
 

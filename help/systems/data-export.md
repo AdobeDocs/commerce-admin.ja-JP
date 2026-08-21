@@ -96,7 +96,7 @@ SKUなど、特定の値を持つレコードのみを含めるには、「フ�
 
 1. 下にスクロールして、ページの右下隅にある「**[!UICONTROL Continue]**」をクリックします。
 
-   タスクが完了すると、ファイルはメッセージキューを通じて処理されます（cron ジョブが実行されていることを確認してください）。 書き出されたファイルは`var/export/ folder`に保存されます。 メッセージキューについて詳しくは、_設定ガイド_&#x200B;の「[&#x200B; メッセージキューの管理](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)」を参照してください。
+   タスクが完了すると、ファイルはメッセージキューを通じて処理されます（cron ジョブが実行されていることを確認してください）。 書き出されたファイルは`var/export/ folder`に保存されます。 メッセージキューについて詳しくは、_設定ガイド_&#x200B;の「[&#x200B; メッセージキューの管理](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)」を参照してください。
 
    書き出したCSV ファイルをスプレッドシートとして保存または開き、データを編集してストアに読み込むことができます。
 
@@ -108,4 +108,4 @@ SKUなど、特定の値を持つレコードのみを含めるには、「フ�
 
 データ書き出しの問題のトラブルシューティングについては、次のCommerce サポート技術情報を参照してください。
 
-- [エクスポートした製品.csv ファイルが表示されない](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear)
+- [エクスポートした製品.csv ファイルが表示されない](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear)

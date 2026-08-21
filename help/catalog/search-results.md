@@ -30,7 +30,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->このページでは、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)とは異なる可能性のある標準検索機能について説明します。
+>このページでは、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)とは異なる可能性のある標準検索機能について説明します。
 
 _検索結果_ リストには、クイック検索ボックスまたは高度な検索フォームに入力された検索条件に一致するすべての製品が含まれます。 カタログ内のあらゆる商品リストは、基本的に同じコントロールを備えています。 唯一の違いは、一方が検索クエリの結果であり、もう一方の違いは[&#x200B; ナビゲーション &#x200B;](navigation.md)の結果であることです。
 
@@ -46,7 +46,7 @@ _検索結果_ リストには、クイック検索ボックスまたは高度�
 
 >[!IMPORTANT]
 >
->2023年8月のElasticsearch 7のサポート終了のお知らせにより、すべてのAdobe Commerceのお客様はOpenSearch 2.x検索エンジンに移行することをお勧めします。 製品のアップグレード中に検索エンジンを移行する方法について詳しくは、_アップグレードガイド_&#x200B;の「[OpenSearchへの移行](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)」を参照してください。
+>2023年8月のElasticsearch 7のサポート終了のお知らせにより、すべてのAdobe Commerceのお客様はOpenSearch 2.x検索エンジンに移行することをお勧めします。 製品のアップグレード中に検索エンジンを移行する方法について詳しくは、_アップグレードガイド_&#x200B;の「[OpenSearchへの移行](https://experienceleague.adobe.com/ja/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)」を参照してください。
 
 ## 検索結果を拡張するためのキーワードマッピング
 

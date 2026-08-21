@@ -4,7 +4,7 @@ description: ストア管理者のセキュリティを設定する方法につ�
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/UFK-C-W5E0DngIy4VncIVRzM2f6tNS5RgNqaNVk9GJc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 # 管理者セキュリティの設定
 
-ストアのセキュリティを保護するために、多面的なアプローチを採用することをお勧めします。 最初に、わかりやすい「管理者」や「バックエンド」ではなく、推測しにくい[&#x200B; カスタム管理者URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)を使用することから始めます。 デフォルトでは、管理者に[&#x200B; ログインするために使用されるパスワードは、7文字以上で、英数字の両方が含まれている必要があります。 &#x200B;](../getting-started/admin-signin.md)組織のニーズに基づいてセキュリティを強化するために、最小パスワード長の要件を設定できます。 [&#x200B; ベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)として、文字、数字、記号の組み合わせを含む強力な管理者パスワードのみを使用してください。 Adobe CommerceとMagento Open Sourceでは、アカウントに割り当てられた最後の4つのパスワードを再利用できません。
+ストアのセキュリティを保護するために、多面的なアプローチを採用することをお勧めします。 最初に、わかりやすい「管理者」や「バックエンド」ではなく、推測しにくい[&#x200B; カスタム管理者URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)を使用することから始めます。 デフォルトでは、管理者に[&#x200B; ログインするために使用されるパスワードは、7文字以上で、英数字の両方が含まれている必要があります。 &#x200B;](../getting-started/admin-signin.md)組織のニーズに基づいてセキュリティを強化するために、最小パスワード長の要件を設定できます。 [&#x200B; ベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)として、文字、数字、記号の組み合わせを含む強力な管理者パスワードのみを使用してください。 Adobe CommerceとMagento Open Sourceでは、アカウントに割り当てられた最後の4つのパスワードを再利用できません。
 
 管理者セキュリティ設定では、次の機能を使用できます。
 

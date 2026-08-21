@@ -103,7 +103,7 @@ web サイトの製品と在庫のデフォルト設定オプションを設定�
 
      >[!NOTE]
      >
-     >_非同期キューマネージャー_&#x200B;を設定およびサポートするには、コマンドラインを使用してコマンドを発行する必要があります。 このステップには開発者のサポートが必要な場合があります。 _設定ガイド_&#x200B;の「[開始メッセージキューコンシューマー](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/start-message-queues)」を参照してください。
+     >_非同期キューマネージャー_&#x200B;を設定およびサポートするには、コマンドラインを使用してコマンドを発行する必要があります。 このステップには開発者のサポートが必要な場合があります。 _設定ガイド_&#x200B;の「[開始メッセージキューコンシューマー](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/start-message-queues)」を参照してください。
 
    - 有効な場合は、**[!UICONTROL Asynchronous batch size]**&#x200B;を設定します。 デフォルトのバッチサイズは100です。 一括処理がこの量に達すると、システムはそれをトリガーします。
 

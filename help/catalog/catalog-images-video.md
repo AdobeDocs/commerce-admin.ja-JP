@@ -56,5 +56,5 @@ ht-degree: 0%
 
 画像とビデオの問題のトラブルシューティングについては、次のCommerce サポート技術情報を参照してください。
 
-- [製品編集画像の役割にもかかわらず、製品画像が表示されない](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26859)
-- [展開後に表示されない画像を保存する](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)
+- [製品編集画像の役割にもかかわらず、製品画像が表示されない](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26859)
+- [展開後に表示されない画像を保存する](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)

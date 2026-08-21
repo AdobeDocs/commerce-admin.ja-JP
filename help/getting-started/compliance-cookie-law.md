@@ -136,9 +136,9 @@ Adobe CommerceおよびMagento Open SourceのデフォルトのCookieは、販�
 
 ## 商品レコメンデーション Cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）以下のCookieは、Adobe Commerceのお客様に対する商品レコメンデーションで使用されます。 これらのCookieは、[DataServices モジュール &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)と共にインストールされます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）以下のCookieは、Adobe Commerceのお客様に対する商品レコメンデーションで使用されます。 これらのCookieは、[DataServices モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/getting-started/install-configure)と共にインストールされます。
 
-- `mg_dnt`: サイトでCookieの同意を管理するためのカスタムコードがある場合、[Adobe Commerce データ収集を制限](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie)できます。
+- `mg_dnt`: サイトでCookieの同意を管理するためのカスタムコードがある場合、[Adobe Commerce データ収集を制限](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/developer/setting-cookie)できます。
 - `user_allowed_save_cookie`: [cookie制限モード &#x200B;](#cookie-restriction-mode)に使用されます。
 - `authentication_flag`：買い物客がサインインしているか、ログアウトしているかを示します。 このCookieは、`dataservices_customer_id` Cookieと同時に更新されます。
 - `dataservices_customer_id`：買い物客がサインインしているか、ログアウトしているかを示します。 このCookieは、システム内の顧客の一意のIDを含みます。
@@ -158,7 +158,7 @@ Adobe CommerceおよびMagento Open SourceのデフォルトのCookieは、販�
 
 ## その他のCookie
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）Adobe Commerceのお客様には次のCookieが設定されています。 これらのCookieは、[DataServices モジュール &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)と共にインストールされます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）Adobe Commerceのお客様には次のCookieが設定されています。 これらのCookieは、[DataServices モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/getting-started/install-configure)と共にインストールされます。
 
 - `mg`: Snowplow JavaScript トラッカーで設定します。 詳細については、[Snowplowのドキュメント &#x200B;](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/)を参照してください。
 - `com.adobe.alloy.getTld`：現在のweb ページのホスト名を指定すると、これはhttps://publicsuffix.orgで説明されているように「公開サフィックス」ではない最上位のドメインです。 基本的に、これはCookieを受け入れることができる最も上のドメインです。 このCookieは[Alloy Web SDK](https://github.com/adobe/alloy)の一部です。

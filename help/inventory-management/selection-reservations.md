@@ -104,7 +104,7 @@ SSAは、費用対効果の高い配送を推奨する、サードパーティ�
 
 >[!NOTE]
 >
->[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}予約機能を使用するには、`inventory.reservations.updateSalabilityStatus` メッセージキューコンシューマーを継続的に実行する必要があります。 実行中かどうかを確認するには、`bin/magento queue:consumers:list` コマンドを使用します。 メッセージキューコンシューマーがリストされていない場合は、次の手順で開始します：`bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`。
+>[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}予約機能を使用するには、`inventory.reservations.updateSalabilityStatus` メッセージキューコンシューマーを継続的に実行する必要があります。 実行中かどうかを確認するには、`bin/magento queue:consumers:list` コマンドを使用します。 メッセージキューコンシューマーがリストされていない場合は、次の手順で開始します：`bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`。
 
 ### 注文の予約
 
@@ -209,7 +209,7 @@ SSAは、費用対効果の高い配送を推奨する、サードパーティ�
 
 `inventory_cleanup_reservations` cron ジョブは、SQL クエリを実行して予約データベース テーブルをクリアします。 デフォルトでは、毎日午前0時に実行されますが、時間と頻度を設定できます。 cron ジョブは、データベースにクエリを実行して、数量値の合計が0である完全な予約シーケンスを見つけるスクリプトを実行します。 同じ日（またはその他の設定時間）に発生した特定の製品の予約がすべて補償されると、cron ジョブは予約をすべて一度に削除します。
 
-`inventory_reservations_cleanup` cron ジョブは、`inventory.reservations.cleanup` メッセージ キューのコンシューマーと同じではありません。 消費者は、製品が削除された後、製品SKUによって予約を非同期で削除しますが、cron ジョブは予約テーブル全体をクリアします。 ストア設定で「[**カタログと同期**](../configuration-reference/catalog/inventory.md)」ストックオプションを有効にする場合、消費者は必須です。 _設定ガイド_&#x200B;の「[&#x200B; メッセージキューの管理](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues){target="_blank"}」を参照してください。
+`inventory_reservations_cleanup` cron ジョブは、`inventory.reservations.cleanup` メッセージ キューのコンシューマーと同じではありません。 消費者は、製品が削除された後、製品SKUによって予約を非同期で削除しますが、cron ジョブは予約テーブル全体をクリアします。 ストア設定で「[**カタログと同期**](../configuration-reference/catalog/inventory.md)」ストックオプションを有効にする場合、消費者は必須です。 _設定ガイド_&#x200B;の「[&#x200B; メッセージキューの管理](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues){target="_blank"}」を参照してください。
 
 多くの場合、1日に発生した最初の予約は、その日に補償されることはありません。 この状況は、顧客がクローンジョブの直前に注文を行ったり、銀行振込などのオフラインの支払い方法で購入を行ったりした場合に発生する可能性があります。 補償された予約シーケンスは、すべて補償されるまでデータベースに残ります。 この方法は、各予約の合計が0であるため、予約計算の妨げにはなりません。
 

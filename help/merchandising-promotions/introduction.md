@@ -34,7 +34,7 @@ ht-degree: 1%
 
 _マーチャンダイジング_&#x200B;は、平面図の開発と製品のプレゼンテーションのアートと科学を説明するために小売で使用される用語です。 [&#x200B; カテゴリーベースのナビゲーション &#x200B;](../catalog/navigation-top.md)は、ストアのフロアプランと考えることができ、ストア内の商品のリストに適用できる条件として、商品の動的なプレゼンテーションを考えることができます。 また、商品の売上を増加させるためのプログラムを導入することもできます。
 
-- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [Visual Merchandiser](visual-merchandiser.md) – 製品を配置し、カテゴリ リストに表示される製品を決定する条件を適用できる高度なツールのセット。
+- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [Visual Merchandiser](visual-merchandiser.md) – 製品を配置し、カテゴリ リストに表示される製品を決定する条件を適用できる高度なツールのセット。
 
 - [&#x200B; ギフト レジストリ &#x200B;](gift-registries.md) – 特別な機会にギフト レジストリを作成し、友人や家族を招待してギフト レジストリからギフトを購入する機能をお客様に提供します。
 
@@ -44,7 +44,7 @@ _マーチャンダイジング_&#x200B;は、平面図の開発と製品のプ�
 
 >[!TIP]
 >
->商品レコメンデーションと、購入者に最適なエクスペリエンスを構築するために必要なinsightとコントロールを提供する方法について詳しくは、[商品レコメンデーションユーザーガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)を参照してください。
+>商品レコメンデーションと、購入者に最適なエクスペリエンスを構築するために必要なinsightとコントロールを提供する方法について詳しくは、[商品レコメンデーションユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/guide-overview)を参照してください。
 
 ## プロモーション
 
@@ -85,7 +85,7 @@ Adobe Commerceでは、プロモーション機能を利用して商品との関
 >
 >Adobe CommerceおよびMagento Open Source リリース 2.4.0 ～ 2.4.3には、dotdigital Engagement Cloudとの統合に使用するdotdigital ベンダー開発の拡張機能が含まれています。 2.4.4 リリース以降、この拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 Marketplaceでは、拡張機能の開発者が提供する最新のドキュメントにもアクセスできます。
 ><br><br>
->バンドル拡張機能を有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 詳しくは、_アップグレードガイド_&#x200B;の[&#x200B; アップグレードモジュール &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)を参照してください。
+>バンドル拡張機能を有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 詳しくは、_アップグレードガイド_&#x200B;の[&#x200B; アップグレードモジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/upgrade-guide/modules/upgrade)を参照してください。
 
 - [&#x200B; ニュースレター](newsletters.md) - ニュースレターを作成し、購読者リストを管理し、コンテンツを開発し、ストアへのトラフィックを促進します。
 

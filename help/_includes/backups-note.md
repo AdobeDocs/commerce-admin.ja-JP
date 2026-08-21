@@ -12,7 +12,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**無効な機能：** バックアップはデフォルトで無効になっています。 この機能を有効にするには、開発者のサポートが必要になる場合があります。 バックアップを有効にするには、次の&#x200B;_インストールガイド_&#x200B;のトピックを参照してください。[&#x200B; ファイルシステム、メディア、データベースをバックアップしてロールバックします](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/backup)。
+>**無効な機能：** バックアップはデフォルトで無効になっています。 この機能を有効にするには、開発者のサポートが必要になる場合があります。 バックアップを有効にするには、次の&#x200B;_インストールガイド_&#x200B;のトピックを参照してください。[&#x200B; ファイルシステム、メディア、データベースをバックアップしてロールバックします](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/tutorials/backup)。
 
 >[!NOTE]
 >
