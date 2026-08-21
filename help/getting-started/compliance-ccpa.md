@@ -4,29 +4,13 @@ description: 個人情報の収集、保存、使用方法を決定するため�
 exl-id: 165c8b78-683e-4015-b3c4-d3211750799e
 feature: Compliance
 TQID: https://experienceleague.adobe.com/pqTJ5J1--DNbzAWJkZsc1mM9QTFr39kIJ7cxZrjD9eo
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-subfeature_v2:
-  - id: ac9e9756-fd8b-40d8-b18a-f0b36d83b5ac
-  - id: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c32adafa-ed01-4b31-997e-2413013911b0
+subfeature_v2: id: ac9e9756-fd8b-40d8-b18a-f0b36d83b5acid: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 2309
 ht-degree: 0%
@@ -39,7 +23,7 @@ ht-degree: 0%
 >
 >この情報は、Adobe Commerceのマーチャントおよび開発者がカリフォルニア州消費者プライバシー法の影響を理解するのに役立つ一連のトピックの1つです。 情報は法律のテキストに基づいています。 CCPAが自社ビジネスに適用されるかどうかを確認するには、弁護士に相談してください。
 
-[&#x200B; カリフォルニア州消費者プライバシー法](https://oag.ca.gov/privacy/ccpa) （CCPA）は、カリフォルニア州の消費者が、自身の個人情報がどのように収集、保存、使用されるかを決定する権利を拡大するものです。 その重点は、消費者を不正な販売や交換、またはその個人情報から保護することです。 CCPAは2018年に制定され、2020年1月1日に発効しました。
+[ カリフォルニア州消費者プライバシー法](https://oag.ca.gov/privacy/ccpa) （CCPA）は、カリフォルニア州の消費者が、自身の個人情報がどのように収集、保存、使用されるかを決定する権利を拡大するものです。 その重点は、消費者を不正な販売や交換、またはその個人情報から保護することです。 CCPAは2018年に制定され、2020年1月1日に発効しました。
 
 CCPAは、消費者に次の新しい権利を付与します。
 
@@ -79,13 +63,13 @@ CCPAは、カリフォルニア州でビジネスを行い、次のいずれか�
 - CCPAには、データインベントリとマッピングの要件が追加されています。
 - この規制には、プライバシーポリシーの要件が異なります。
 
-GDPRを遵守している企業は、CCPAにもとづいて追加の義務を負っている可能性があります。 詳しくは、[CCPA ファクトシート &#x200B;](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}を参照してください。
+GDPRを遵守している企業は、CCPAにもとづいて追加の義務を負っている可能性があります。 詳しくは、[CCPA ファクトシート ](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}を参照してください。
 
 ### コンプライアンスロードマップ
 
 コンプライアンスに対応するための計画を策定し、実施するためには、連携した取り組みが必要です。 このロードマップは、リソースを動員し、タスクに優先順位をつけるためのガイドとして利用すれば、複数の分野を先に進むことができます。 基本的に、次の例外を除いて、すべての[!DNL Commerce] インストールで同じプロセスになります。
 
-- **クラウドインフラストラクチャ上のAdobe Commerce**: Adobe [&#x200B; クラウドインフラストラクチャ &#x200B;](https://www.adobe.com/commerce/magento.html){:target="_blank"}でホストされている店舗を持つマーチャントは、Adobe Commerce テクニカルアカウントマネージャーまたはカスタマーサポートに、消費者のリクエストに対応するためのサポートを求めることができます。
+- **クラウドインフラストラクチャ上のAdobe Commerce**: Adobe [ クラウドインフラストラクチャ ](https://www.adobe.com/commerce/magento.html){:target="_blank"}でホストされている店舗を持つマーチャントは、Adobe Commerce テクニカルアカウントマネージャーまたはカスタマーサポートに、消費者のリクエストに対応するためのサポートを求めることができます。
 
 - **オンプレミス**: Adobe CommerceまたはMagento Open Sourceをオンプレミスにインストールしているマーチャントは、プライバシー規制に関するコンシューマーの要求に対応して管理するための独自のプロセスとツールを開発する必要があります。
 
@@ -134,10 +118,10 @@ GDPRを遵守している企業は、CCPAにもとづいて追加の義務を負
 
 1. 各バージョンに適用できるデータフロー図とデータベースエンティティのマッピングについては、次のトピックを参照してください。
 
-   - [個人情報の参照（2.x）](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=ja)
-   - [個人情報の参照（1.x）](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=ja)
+   - [個人情報の参照（2.x）](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/reference/data-m2)
+   - [個人情報の参照（1.x）](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/reference/data-m1)
 
-   ![&#x200B; ダイアグラム &#x200B;](./assets/privacy-frontend-diagram.svg)
+   ![ ダイアグラム ](./assets/privacy-frontend-diagram.svg)
 
 #### 手順4：顧客の要求に対応するための手順と仕組みの構築
 
@@ -169,8 +153,8 @@ GDPRを遵守している企業は、CCPAにもとづいて追加の義務を負
 
    - **削除リクエスト**
 
-      - Adobe Commerce Cloudでストアをホストしている販売者は、Adobe サポートに連絡して個人情報の削除をサポートする必要があります。 詳細については、Adobeのテクニカルアカウントマネージャーまたはカスタマーサポートにお問い合わせください。
-      - Adobe CommerceまたはMagento Open Sourceをオンプレミスでインストールしている販売者は、独自のプロセスとスクリプトを導入して、リクエストに応じて個人情報を削除する必要があります。
+     - Adobe Commerce Cloudでストアをホストしている販売者は、Adobe サポートに連絡して個人情報の削除をサポートする必要があります。 詳細については、Adobeのテクニカルアカウントマネージャーまたはカスタマーサポートにお問い合わせください。
+     - Adobe CommerceまたはMagento Open Sourceをオンプレミスでインストールしている販売者は、独自のプロセスとスクリプトを導入して、リクエストに応じて個人情報を削除する必要があります。
 
 #### 手順5：必要な顧客通知のコンテンツを作成する
 
@@ -186,12 +170,12 @@ GDPRを遵守している企業は、CCPAにもとづいて追加の義務を負
 
    - **個人情報の収集および使用に関するリクエストを送信する方法**：個人について収集した個人情報を開示するリクエストを送信するための個人に対する手順（以下を含む）:
 
-      - 消費者について収集した特定の個人情報
-      - 消費者について収集した個人情報のカテゴリ
-      - 個人情報の収集元のカテゴリ
-      - 業務目的で販売または開示した消費者に関する個人情報のカテゴリ
-      - 業務上の目的で個人情報を販売し、又は開示した第三者の区分
-      - 企業が個人情報を収集および/または販売する理由
+     - 消費者について収集した特定の個人情報
+     - 消費者について収集した個人情報のカテゴリ
+     - 個人情報の収集元のカテゴリ
+     - 業務目的で販売または開示した消費者に関する個人情報のカテゴリ
+     - 業務上の目的で個人情報を販売し、又は開示した第三者の区分
+     - 企業が個人情報を収集および/または販売する理由
 
 1. コンテンツをチームに送信し、可能であれば法務担当者にレビューを依頼します。
 
@@ -215,9 +199,9 @@ CCPA要件を反映するために、すべてのサービスプロバイダー�
 
 - **同意年齢**：未成年者に関する個人情報を収集または使用する場合、次の要件が適用される場合があります。
 
-   - **未成年者&lt; 13**:13歳未満の未成年者が個人情報の販売にオプトインするには、保護者の承認が必要です。
+  - **未成年者&lt; 13**:13歳未満の未成年者が個人情報の販売にオプトインするには、保護者の承認が必要です。
 
-   - **未成年者13歳から16歳未満**:13歳以上16歳未満の未成年者は、当該企業が当該行為を文書化するための合理的なプロセスを確立している場合、個人情報の販売をオプトインすることができます。 このプロセスは、会社の[&#x200B; プライバシーポリシー](privacy-policy.md)に記載する必要があります。 企業が、この年齢層の未成年者からリクエストを受けた場合、後でオプトアウトする権利を未成年者に通知し、その方法を説明する必要があります。
+  - **未成年者13歳から16歳未満**:13歳以上16歳未満の未成年者は、当該企業が当該行為を文書化するための合理的なプロセスを確立している場合、個人情報の販売をオプトインすることができます。 このプロセスは、会社の[ プライバシーポリシー](privacy-policy.md)に記載する必要があります。 企業が、この年齢層の未成年者からリクエストを受けた場合、後でオプトアウトする権利を未成年者に通知し、その方法を説明する必要があります。
 
   >[!IMPORTANT]
   >

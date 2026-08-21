@@ -1,29 +1,18 @@
 ---
 title: 付加価値税（VAT）
-description: &lt；ここに説明を追加>
+description: Adobe Commerceが、マーチャントまたは顧客の住所ルールを使用して付加価値税（VAT）を計算する方法と、商品またはサービスごとに異なるVAT率を適用する方法について説明します。
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
 TQID: https://experienceleague.adobe.com/CEUmSPDUdWxMGWRC4bXjSsBfuYJqkPNYtVx-mqxt1-M
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 2021
+source-wordcount: 2042
 ht-degree: 0%
 
 ---
@@ -40,7 +29,7 @@ Commerceでは、加盟店またはお客様の住所（両方が同じ国の場
 
 - イギリスの住所に配送するイギリスの店舗から購入するオランダのビジネスは、イギリスのVAT料金を支払う必要があります。
 
-- [&#x200B; ダウンロード可能な商品](../catalog/product-create-downloadable.md)または&#x200B;_デジタル商品_&#x200B;の販売では、VAT率は加盟店の場所ではなく、配送先に基づいています。 [&#x200B; デジタル商品の供給場所](taxes.md#place-of-supply-for-digital-goods-eu)を参照してください。
+- [ ダウンロード可能な商品](../catalog/product-create-downloadable.md)または&#x200B;_デジタル商品_&#x200B;の販売では、VAT率は加盟店の場所ではなく、配送先に基づいています。 [ デジタル商品の供給場所](taxes.md#place-of-supply-for-digital-goods-eu)を参照してください。
 
 >[!TIP]
 >
@@ -60,7 +49,7 @@ Commerceでは、加盟店またはお客様の住所（両方が同じ国の場
 
 税ルールを作成するプロセスは、税率を追加することから始まります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**に移動します。
 
    ![顧客税区分の設定](./assets/vat-zones.png){width="600" zoomable="yes"}
 
@@ -84,7 +73,7 @@ Commerceでは、加盟店またはお客様の住所（両方が同じ国の場
 
 ### 手順2：製品税区分の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**に移動します。
 
 1. **[!UICONTROL Add New Tax Rule]**&#x200B;をクリックします。
 
@@ -106,7 +95,7 @@ Commerceでは、加盟店またはお客様の住所（両方が同じ国の場
 
 ### 手順3：税区間と税率の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**に移動します。
 
    この例では、米国の税率を削除するか、そのまま残します。
 
@@ -134,7 +123,7 @@ Commerceでは、加盟店またはお客様の住所（両方が同じ国の場
 
 税ルールは、顧客税区分、製品税区分および税率の組み合わせです。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**に移動します。
 
 1. 次のように新しい税ルールを追加します。
 
@@ -186,7 +175,7 @@ Commerceでは、次のフィールドを使用して、[お客様の情報](../
 
 #### 住所
 
-**[!UICONTROL VAT Number]** – 該当する場合、お客様の特定の請求先住所または配送先住所に関連付けられている付加価値税番号。 EU内の[&#x200B; デジタル商品](taxes.md#place-of-supply-for-digital-goods-eu)）の販売の場合、VATの金額は配送先に基づきます。
+**[!UICONTROL VAT Number]** – 該当する場合、お客様の特定の請求先住所または配送先住所に関連付けられている付加価値税番号。 EU内の[ デジタル商品](taxes.md#place-of-supply-for-digital-goods-eu)）の販売の場合、VATの金額は配送先に基づきます。
 
 ### 顧客アカウント
 
@@ -219,7 +208,7 @@ VAT ID検証が有効になっている場合は、登録後、各顧客にVAT I
 
 お客様がVAT番号およびその他のアドレスフィールドを指定し、保存を選択すると、システムはアドレスを保存し、VAT ID検証要求を欧州委員会サーバーに送信します。 検証の結果に従って、デフォルトのグループの1つが顧客に割り当てられます。 このグループは、顧客または管理者がデフォルトアドレスのVAT IDを変更するか、デフォルトアドレス全体を変更した場合に変更できます。 1 ページのチェックアウト中に、グループを一時的に変更できる（グループの変更がエミュレートされる）場合があります。
 
-有効になっている場合は、_[!UICONTROL Customer Information]_&#x200B;ページのチェックボックスを選択して、個々の顧客のVAT ID検証を上書きできます。
+有効になっている場合は、_[!UICONTROL Customer Information]_ページのチェックボックスを選択して、個々の顧客のVAT ID検証を上書きできます。
 
 ### チェックアウトワークフロー
 
@@ -290,14 +279,14 @@ VAT ID検証用の顧客グループを作成するか、ビジネスロジッ�
 - 製品税クラス
 - 税率
 
-VAT ID検証を効果的に使用するための[税ルール &#x200B;](tax-rules.md)を作成します。
+VAT ID検証を効果的に使用するための[税ルール ](tax-rules.md)を作成します。
 
 - 税ルールには、税率と[税区分](tax-class.md)が含まれます。
-- 税区分は[顧客グループ &#x200B;](../customers/customer-groups.md)に割り当てられます。
+- 税区分は[顧客グループ ](../customers/customer-groups.md)に割り当てられます。
 
 #### 手順3:VAT ID検証の有効化と設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 必要に応じて、設定の&#x200B;**[!UICONTROL Store View]**&#x200B;を設定します。
 
@@ -323,7 +312,7 @@ VAT ID検証を効果的に使用するための[税ルール &#x200B;](tax-rule
 
 1. **[!UICONTROL Store Information]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; ストア情報](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
+   ![ ストア情報](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Country]**&#x200B;を選択します。
 
@@ -337,7 +326,7 @@ VAT ID検証を効果的に使用するための[税ルール &#x200B;](tax-rule
 
 1. _一般_&#x200B;設定ページに進み、**[!UICONTROL Countries Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![国オプション &#x200B;](../configuration-reference/general/assets/general-country-options.png){width="600" zoomable="yes"}
+   ![国オプション ](../configuration-reference/general/assets/general-country-options.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL European Union Countries]** リストで、EUの各メンバー国が選択されていることを確認します。
 

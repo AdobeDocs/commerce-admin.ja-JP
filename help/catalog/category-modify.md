@@ -1,27 +1,18 @@
 ---
 title: カテゴリの変更
-description: カテゴリを移動または削除する方法について説明します。
+description: カテゴリをカテゴリ ツリー内の新しい位置に移動したり、カタログから削除したりする方法と、壊れた製品リンクを避ける方法について説明します。
 exl-id: 7acc2cee-3e95-4d55-864e-6c62ae08eb91
 feature: Catalog Management, Categories
 TQID: https://experienceleague.adobe.com/uLJicknHwUzTRYgirA-nePB75bdjkLUhaHJzM3DZ0lY
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-subfeature_v2:
-  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 211
+source-wordcount: 233
 ht-degree: 0%
 
 ---
@@ -48,4 +39,4 @@ ht-degree: 0%
 
 1. 確認を求められたら、**[!UICONTROL OK]**&#x200B;をクリックします。
 
-また、**[!UICONTROL Events]** ページまたは&#x200B;**[!UICONTROL Category]** ページから、カテゴリに関連付けられているイベント [&#128279;](../merchandising-promotions/event-create.md#create-and-update-events)を更新することもできます。
+また、**[!UICONTROL Events]** ページまたは&#x200B;**[!UICONTROL Category]** ページから、カテゴリに関連付けられているイベント ](../merchandising-promotions/event-create.md#create-and-update-events)を[更新することもできます。

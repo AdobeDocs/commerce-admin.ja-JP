@@ -4,22 +4,14 @@ description: データ検証など、データ転送のサポートについて�
 exl-id: 5057e398-c458-42e9-8ec0-bf116a667a3c
 feature: System, Data Import/Export
 TQID: https://experienceleague.adobe.com/G-hJ2wQlhL95wmuLLYivfW8AGsbfdu5Cn0pOdGdTQto
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: 520
 ht-degree: 0%
 
 ---
@@ -33,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerceでは、SaaS データの書き出しをサポートしており、CommerceサーバーからSaaS サービスに商品データを転送できます。 SaaS データ書き出しは、[商品レコメンデーション &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=ja)、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)、[&#x200B; カタログサービス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/catalog-service/guide-overview)などのCommerce SaaS サービスと統合されています。 詳しくは、[SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/saas-data-export/overview)を参照してください。
+>Adobe Commerceでは、SaaS データの書き出しをサポートしており、CommerceサーバーからSaaS サービスに商品データを転送できます。 SaaS データ書き出しは、[商品レコメンデーション ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview)、[ ライブサーチ ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)、[ カタログサービス ](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)などのCommerce SaaS サービスと統合されています。 詳しくは、[SaaS データ書き出しガイド ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)を参照してください。
 
 ## データ検証
 
@@ -53,7 +45,7 @@ ht-degree: 0%
 
 データが有効な場合は、_Import Success_ メッセージが表示されます。
 
-![&#x200B; システムメッセージ – ファイルは有効です](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
+![ システムメッセージ – ファイルは有効です](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
 
 検証が失敗した場合は、各エラーの説明を読み、CSV ファイルの問題を修正します。 例えば、行に無効なSKUが含まれている場合、読み込みプロセスは停止し、その行は読み込まれず、以降のすべての行は読み込まれません。 問題を正しく解決したら、データを再度インポートします。 多くのエラーが発生した場合、検証をパスするのに数回の試行が必要になることがあります。
 

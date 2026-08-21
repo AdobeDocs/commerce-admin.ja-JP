@@ -3,25 +3,16 @@ title: Adobe Commerce パッケージのインストール
 description: Adobe Commerce インスタンスに [!DNL AEM Assets Integration for Adobe Commerce] 拡張機能をインストールする方法を説明します。
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/pV03hqwc27n12BZzTVw-TvidSSXIKC95CNfy-PAXTE4
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1703
+source-wordcount: 1694
 ht-degree: 0%
 
 ---
@@ -46,13 +37,13 @@ AEM Assets Integration for Commerce拡張機能には、次のシステム要件
 
 統合を設定するには、次の役割と権限が必要です。
 
-- [Commerce cloud project administrator](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/project/user-access) – 必要な拡張機能をインストールし、管理者またはコマンドラインからCommerce アプリケーションサーバーを設定します。
+- [Commerce cloud project administrator](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access) – 必要な拡張機能をインストールし、管理者またはコマンドラインからCommerce アプリケーションサーバーを設定します。
 
-   - [repo.magento.com](https://repo.magento.com/admin/dashboard)にアクセスして、拡張機能をインストールします。
+  - [repo.magento.com](https://repo.magento.com/admin/dashboard)にアクセスして、拡張機能をインストールします。
 
-     キーの生成と必要な権限の取得については、[認証キーの取得](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)を参照してください。 クラウドインストールについては、[Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/develop/authentication-keys)を参照してください
+    キーの生成と必要な権限の取得については、[認証キーの取得](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)を参照してください。 クラウドインストールについては、[Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys)を参照してください
 
-- [Commerce管理者](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/guide-overview) - ストア設定を更新し、Commerce ユーザーアカウントを管理します。
+- [Commerce管理者](/help/getting-started/guide-overview.md) - ストア設定を更新し、Commerce ユーザーアカウントを管理します。
 
 >[!TIP]
 >
@@ -62,8 +53,8 @@ AEM Assets Integration for Commerce拡張機能には、次のシステム要件
 
 Adobe Commerce パッケージをインストールし、次のタスクを実行してCommerce環境を準備します。
 
-1. [Commerce向けAEM Assets統合の拡張機能（`aem-assets-integration`） &#x200B;](#install-the-aem-assets-integration-extension)をインストールします。
-1. [Commerce サービス コネクタ &#x200B;](#configure-the-commerce-services-connector)を設定して、Adobe Commerce インスタンスと、Adobe CommerceとAEM Assets間でデータを転送できるサービスを接続します。
+1. [Commerce向けAEM Assets統合の拡張機能（`aem-assets-integration`） ](#install-the-aem-assets-integration-extension)をインストールします。
+1. [Commerce サービス コネクタ ](#configure-the-commerce-services-connector)を設定して、Adobe Commerce インスタンスと、Adobe CommerceとAEM Assets間でデータを転送できるサービスを接続します。
 1. [Commerce用Adobe I/O Eventsの設定](#configure-adobe-io-events-for-commerce)
 1. [API アクセス用の認証情報を取得する](#get-authentication-credentials-for-api-access)
 
@@ -81,7 +72,7 @@ Commerce Cloud インスタンスの[!DNL AEM Assets Integration]拡張機能を
 
    >[!NOTE]
    >
-   >Commerce プロジェクト環境のローカル管理について詳しくは、_Adobe Commerce on Cloud Infrastructure ユーザーガイド_&#x200B;の「[CLIを使用した分岐の管理](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/develop/cli-branches)」を参照してください。
+   >Commerce プロジェクト環境のローカル管理について詳しくは、_Adobe Commerce on Cloud Infrastructure ユーザーガイド_&#x200B;の「[CLIを使用した分岐の管理](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches)」を参照してください。
 
 1. Adobe Commerce Cloud CLIを使用して更新する環境ブランチを確認します。
 
@@ -111,7 +102,7 @@ Commerce Cloud インスタンスの[!DNL AEM Assets Integration]拡張機能を
    git push origin <branch-name>
    ```
 
-   更新をプッシュすると、[Commerce クラウド デプロイメント プロセス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/develop/deploy/process)が開始され、変更が適用されます。 [&#x200B; デプロイ ログ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)のデプロイメント ステータスを確認します。
+   更新をプッシュすると、[Commerce クラウド デプロイメント プロセス ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process)が開始され、変更が適用されます。 [ デプロイ ログ ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations#deploy-log)のデプロイメント ステータスを確認します。
 
 >[!TAB  オンプレミス ]
 
@@ -151,7 +142,7 @@ Commerce Cloud インスタンスの[!DNL AEM Assets Integration]拡張機能を
 
 >[!NOTE]
 >
->Commerce Services Connectorのセットアップは、[Adobe Commerce SaaS サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/user-guides/integration-services/saas#availableservices)を使用するために必要な1回限りのプロセスです。 別のサービス用にコネクタを既に設定している場合は、**[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**&#x200B;を選択して、Commerce管理者から既存の設定を表示できます。
+>Commerce Services Connectorのセットアップは、[Adobe Commerce SaaS サービス ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#availableservices)を使用するために必要な1回限りのプロセスです。 別のサービス用にコネクタを既に設定している場合は、**[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**&#x200B;を選択して、Commerce管理者から既存の設定を表示できます。
 
 Adobe Commerce インスタンスと、AEM Assets統合を有効にするサービスとの間でデータを転送するには、管理者（**[!UICONTROL System]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**）からCommerce Services Connectorを設定します。
 
@@ -163,7 +154,7 @@ AEM Assets統合用の![SaaS プロジェクトとデータスペース ID](asse
 - セキュアクラウドストレージのデータスペース名（SaaS識別子）
 - COMMERCEおよびAEM Assets環境がプロビジョニングされるIMS組織ID
 
-詳細な手順については、[Commerce Services Connector](https://experienceleague.adobe.com/ja/docs/commerce/user-guides/integration-services/saas#organizationid) ドキュメントの[Commerce Services Connector設定ビデオ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs)を参照してください。
+詳細な手順については、[Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid) ドキュメントの[Commerce Services Connector設定ビデオ ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs)を参照してください。
 
 設定を保存すると、システムは環境用のSaaS プロジェクトとデータベース IDを生成します。 これらの値は、Adobe CommerceとAEM Assets間のアセットの同期を有効にするために必要です。
 
@@ -174,13 +165,13 @@ AEM Assets統合では、Adobe I/O Events サービスを使用して、Commerce
 Adobe I/O Eventsを設定する前に、Commerce プロジェクトのRabbitMQおよびcron ジョブ設定を確認します。
 
 - RabbitMQが有効になっており、イベントをリッスンしていることを確認します。
-   - [Adobe Commerce オンプレミス用RabbitMQ セットアップ](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
-   - [Adobe Commerce クラウドインフラストラクチャ用RabbitMQ セットアップ](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
-   - [cron ジョブが有効になっていることを確認します](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration)。 AEM Assets統合のコミュニケーションとワークフローには、Cron ジョブが必要です。
+  - [Adobe Commerce オンプレミス用RabbitMQ セットアップ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/rabbitmq)
+  - [Adobe Commerce クラウドインフラストラクチャ用RabbitMQ セットアップ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/rabbitmq)
+  - [cron ジョブが有効になっていることを確認します](https://developer.adobe.com/commerce/extensibility/events/configure-commerce#check-cron-and-message-queue-configuration)。 AEM Assets統合のコミュニケーションとワークフローには、Cron ジョブが必要です。
 
 >[!NOTE]
 >
-> Commerce バージョン 2.4.5のプロジェクトの場合、[Adobe I/O モジュールをインストールする必要があります](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce)。 Commerce バージョン 2.4.6以降では、これらのモジュールは自動的に読み込まれます。 CommerceのAEM Assets統合の場合は、モジュールのみをインストールする必要があります。 App Builderの設定は必要ありません。
+> Commerce バージョン 2.4.5のプロジェクトの場合、[Adobe I/O モジュールをインストールする必要があります](https://developer.adobe.com/commerce/extensibility/events/installation#install-adobe-io-modules-on-commerce)。 Commerce バージョン 2.4.6以降では、これらのモジュールは自動的に読み込まれます。 CommerceのAEM Assets統合の場合は、モジュールのみをインストールする必要があります。 App Builderの設定は必要ありません。
 
 
 ### Commerce イベントフレームワークの有効化
@@ -227,15 +218,15 @@ Commerce管理者からイベントフレームワークを有効にします。
 
 - `name`: VCL スニペットの名前。 この例では、名前`blockbyuseragent`を使用しています。
 
-- `dynamic`: スニペットのバージョンを設定します。 この例では、`0`を使用しています。 データモデルの詳細については、[Fastly VCL スニペット &#x200B;](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/)を参照してください。
+- `dynamic`: スニペットのバージョンを設定します。 この例では、`0`を使用しています。 データモデルの詳細については、[Fastly VCL スニペット ](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/)を参照してください。
 
-- `type`：生成されたVCL コード内のスニペットの場所を決定するVCL スニペットのタイプを指定します。 この例では、`recv`を使用しています。 スニペットの種類のリストについては、[Fastly VCL スニペットのリファレンス &#x200B;](https://www.fastly.com/documentation/reference/api/#api-section-snippet)を参照してください。
+- `type`：生成されたVCL コード内のスニペットの場所を決定するVCL スニペットのタイプを指定します。 この例では、`recv`を使用しています。 スニペットの種類のリストについては、[Fastly VCL スニペットのリファレンス ](https://www.fastly.com/documentation/reference/api/#api-section-snippet)を参照してください。
 
 - `priority`: VCL スニペットが実行されるタイミングを決定します。 この例では、優先度`5`を使用して即座に実行し、管理者リクエストが許可されたIP アドレスから送信されているかどうかを確認します。
 
 - `content`：実行するVCL コードのスニペット。クライアント IP アドレスを確認します。 IPがEdge ACL内にある場合、web サイト全体に`405 Not allowed` エラーが発生してアクセスがブロックされます。 他のすべてのクライアント IP アドレスにアクセスが許可されます。
 
-VCL スニペットを使用して着信リクエストをブロックする方法について詳しくは、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[&#x200B; リクエストをブロックするためのカスタム VCL](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)」を参照してください。
+VCL スニペットを使用して着信リクエストをブロックする方法について詳しくは、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[ リクエストをブロックするためのカスタム VCL](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)」を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -285,7 +276,7 @@ Commerce インスタンスに統合を追加してアクティブ化するこ�
 
 >[!NOTE]
 >
->Adobe Commerce APIを使用して、認証情報を生成することもできます。 このプロセスとAdobe DeveloperのOAuth ベース認証の詳細については、Adobe Commerce ドキュメントの[OAuth ベース認証](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)を参照してください。
+>Adobe Commerce APIを使用して、認証情報を生成することもできます。 このプロセスとAdobe DeveloperのOAuth ベース認証の詳細については、Adobe Commerce ドキュメントの[OAuth ベース認証](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth)を参照してください。
 
 ## 次のステップ
 

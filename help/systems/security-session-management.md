@@ -4,33 +4,23 @@ description: 管理者とストアフロントを保護するようにセッシ�
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/0-D87Vrfu7OXkukQCye10VIpN-TLoANPAzb-5CVcf2w
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 795
+source-wordcount: 796
 ht-degree: 0%
 
 ---
 
 # セッション管理
 
-[&#x200B; セッション管理](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html)は、API セキュリティのサービス拒否（DoS）対策のベストプラクティスです。 セッションは、訪問者がサイトに滞在する時間を表し、管理者ユーザーまたは顧客がアカウントにログインしている時間とは関係ありません。
+[ セッション管理](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html)は、API セキュリティのサービス拒否（DoS）対策のベストプラクティスです。 セッションは、訪問者がサイトに滞在する時間を表し、管理者ユーザーまたは顧客がアカウントにログインしている時間とは関係ありません。
 
 セッションは、同じユーザーに関連付けられたネットワーク HTTP リクエストおよび応答トランザクションのシーケンスです。 これは、クライアント（管理者）がサーバーにアクセスしたときにデータに関連付ける方法です。 セッションは、アクセス権やローカライゼーション設定などの変数を設定するために使用されます。これらの変数は、セッション中にユーザーがweb アプリケーションと行うあらゆるインタラクションに適用されます。
 
@@ -47,13 +37,13 @@ ht-degree: 0%
 
 **_最大セッションサイズを設定するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL System]**&#x200B;を選択します。
 
 1. **[!UICONTROL Security]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開して、セッション設定にアクセスします。
 
-   ![&#x200B; セッション設定](../configuration-reference/advanced/assets/system-security.png){width="600" zoomable="yes"}
+   ![ セッション設定](../configuration-reference/advanced/assets/system-security.png){width="600" zoomable="yes"}
 
 1. 新しいセッションサイズをバイト単位で入力します。
 
@@ -81,7 +71,7 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 Adobe CommerceとMagento Open Sourceを使用すると、セッション固定攻撃の可能性や、ユーザーセッションのポイズニングやハイジャックの試みに対する保護対策として、セッション変数を検証できます。 セッション検証設定は、各ストア訪問中にセッション変数を検証する方法と、セッション IDがストアのURLに含まれているかどうかを決定します。
 
-技術情報については、_設定ガイド_&#x200B;の「[&#x200B; セッションストレージにRedisを使用する](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=ja)」を参照してください。
+技術情報については、_設定ガイド_&#x200B;の「[ セッションストレージにRedisを使用する](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session)」を参照してください。
 
 ![一般設定 – Web セッションの検証](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 
@@ -91,9 +81,9 @@ Adobe CommerceとMagento Open Sourceを使用すると、セッション固定�
 
 **_セッション検証を設定するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルで、_[!UICONTROL General]_&#x200B;を展開し、**[!UICONTROL Web]**&#x200B;を選択します。
+1. 左側のパネルで、_[!UICONTROL General]_を展開し、**[!UICONTROL Web]**を選択します。
 
 1. **[!UICONTROL Session Validation Settings]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
@@ -115,7 +105,7 @@ Adobe CommerceとMagento Open Sourceを使用すると、セッション固定�
 
 **_管理者セッションの有効期間を調整するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 下にスクロールして、左側のパネルで&#x200B;**[!UICONTROL Advanced]**&#x200B;を展開します。
 

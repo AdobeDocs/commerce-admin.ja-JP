@@ -4,26 +4,14 @@ description: デジタルメディアを使用してカタログ商品ページ�
 exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
 feature: Catalog Management, Media
 TQID: https://experienceleague.adobe.com/EfPHXDn5-MioWq2McJoLx-1WLIOhhRrAYvM-9vrb-cg
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 484
+source-wordcount: 476
 ht-degree: 0%
 
 ---
@@ -38,15 +26,15 @@ ht-degree: 0%
 
 ## ストアフロントメディアブラウザー
 
-製品ページのメディアブラウザーには、製品に関連する複数の画像、ビデオ、スウォッチが表示されます。 各サムネールには、製品のさまざまな表示やバリエーションを表示できます。 サムネールをクリックすると、メディアアセットが表示されます。 メディアブラウザーの位置はテーマによって異なりますが、デフォルトの位置は製品ページのメイン画像のすぐ下です。 アクセシビリティ制御については、[&#x200B; ナビゲーションのアクセシビリティ &#x200B;](../getting-started/navigation-accessibility.md)を参照してください。
+製品ページのメディアブラウザーには、製品に関連する複数の画像、ビデオ、スウォッチが表示されます。 各サムネールには、製品のさまざまな表示やバリエーションを表示できます。 サムネールをクリックすると、メディアアセットが表示されます。 メディアブラウザーの位置はテーマによって異なりますが、デフォルトの位置は製品ページのメイン画像のすぐ下です。 アクセシビリティ制御については、[ ナビゲーションのアクセシビリティ ](../getting-started/navigation-accessibility.md)を参照してください。
 
-![&#x200B; ストアフロントのメディアブラウザー](./assets/storefront-thumbnail-gallery.png){width="700" zoomable="yes"}
+![ ストアフロントのメディアブラウザー](./assets/storefront-thumbnail-gallery.png){width="700" zoomable="yes"}
 
 ### 画像ズーム
 
-[&#x200B; ベース画像](product-image.md)がズーム効果を生み出すのに十分な大きさである場合、お客様はマウスオーバーで画像の拡大部分を表示できます。 ズームが有効になっている場合、顧客はメイン画像をクリックし、カーソルを動かして画像の様々な部分を拡大できます。 拡大表示された選択範囲は、画像の右側に表示されます。
+[ ベース画像](product-image.md)がズーム効果を生み出すのに十分な大きさである場合、お客様はマウスオーバーで画像の拡大部分を表示できます。 ズームが有効になっている場合、顧客はメイン画像をクリックし、カーソルを動かして画像の様々な部分を拡大できます。 拡大表示された選択範囲は、画像の右側に表示されます。
 
-![画像ズーム &#x200B;](./assets/storefront-image-zoom.png){width="700" zoomable="yes"}
+![画像ズーム ](./assets/storefront-image-zoom.png){width="700" zoomable="yes"}
 
 ### ライトボックスとスライダー
 
@@ -56,5 +44,5 @@ ht-degree: 0%
 
 画像とビデオの問題のトラブルシューティングについては、次のCommerce サポート技術情報を参照してください。
 
-- [製品編集画像の役割にもかかわらず、製品画像が表示されない](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html?lang=ja)
-- [展開後に表示されない画像を保存する](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=ja)
+- [製品編集画像の役割にもかかわらず、製品画像が表示されない](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26859)
+- [展開後に表示されない画像を保存する](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)

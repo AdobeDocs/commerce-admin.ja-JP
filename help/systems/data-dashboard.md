@@ -4,26 +4,14 @@ description: ' [!DNL Catalog Service]、 [!DNL Live Search]、および [!DNL Pr
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
 TQID: https://experienceleague.adobe.com/5WxRmKbBDfWM4JHypuXKCmrUTn5VjQeAUdLRJUWQXtc
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 802
+source-wordcount: 780
 ht-degree: 0%
 
 ---
@@ -34,23 +22,23 @@ Data Management ダッシュボードでは、Commerce データベースからC
 
 >[!NOTE]
 >
->カタログデータをAdobe Commerce Optimizerに書き出すために[Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/ja/docs/commerce/aco-optimizer-connector/overview)をインストールした場合は、Data Management ダッシュボードではなく、Commerce Optimizer Studioの[Data Sync ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/data-sync)を使用して、正常なデータ同期を確認します。
+>カタログデータをAdobe Commerce Optimizerに書き出すために[Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)をインストールした場合は、Data Management ダッシュボードではなく、Commerce Optimizer Studioの[Data Sync ページ ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)を使用して、正常なデータ同期を確認します。
 
 ## オーディエンス
 
-Data Management Dashboardは、アクティブなライセンスを持つ[[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/guide-overview)、[[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/ja/docs/commerce/live-search/guide-overview)、[[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/ja/docs/commerce/catalog-service/guide-overview)を使用しているすべてのCommerce マーチャントに追加料金なしで利用できます。
+Data Management Dashboardは、アクティブなライセンスを持つ[[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)、[[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)、[[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)を使用しているすべてのCommerce マーチャントに追加料金なしで利用できます。
 
 データ管理ダッシュボードは、*システム*/データ転送/*データ管理ダッシュボード*&#x200B;にあります。
 
-![&#x200B; データ管理ダッシュボード &#x200B;](assets/data-management-dashboard.png)
+![ データ管理ダッシュボード ](assets/data-management-dashboard.png)
 
 ダッシュボードには、次のフィールドが含まれます。
 
 | フィールド | 説明 |
 |--- |--- |
 | 範囲 | 同期データ用の特定のweb サイト。 |
-| [!DNL Product Recommendations] | 同期ステータス、同期済み製品数、および[!DNL Product Recommendations]の[displayable](https://experienceleague.adobe.com/ja/docs/commerce-admin/config/catalog/inventory#stock-options)同期製品のテーブルを表示します。 |
-| [!DNL Live Search] | 同期ステータス、同期済み製品数、および[!DNL Live Search]の[displayable](https://experienceleague.adobe.com/ja/docs/commerce-admin/config/catalog/inventory#stock-options)同期製品のテーブルを表示します。 |
+| [!DNL Product Recommendations] | 同期ステータス、同期済み製品数、および[!DNL Product Recommendations]の[displayable](/help/configuration-reference/catalog/inventory.md#stock-options)同期製品のテーブルを表示します。 |
+| [!DNL Live Search] | 同期ステータス、同期済み製品数、および[!DNL Live Search]の[displayable](/help/configuration-reference/catalog/inventory.md#stock-options)同期製品のテーブルを表示します。 |
 | [!DNL Catalog Service] | 同期ステータス、同期済み製品数、および[!DNL Catalog Service]の同期済み製品のテーブルを表示します。 |
 | 設定 | カタログ データを[手動で再同期できるダイアログを開きます](#resync-catalog-data)。 |
 | 同期ステータス | 過去3時間以内にCommerce データベースから任意のSaaS サービスに転送された製品の数を表示します。 カタログの更新頻度が低い場合、この値は頻繁にゼロになります。 同期が進行中の場合は、**[!UICONTROL Refresh]**&#x200B;をクリックして、更新されたカウントを取得します。 |
@@ -69,7 +57,7 @@ Commerce データベースの製品を更新すると、製品データはシ�
 
 >[!NOTE]
 >
->Adobeには、開発者やシステムインテグレーターがCommerce SaaS サービスの同期操作の管理と追跡およびエラーのトラブルシューティングに使用できるコマンドラインインターフェイスとシステムログも用意されています。 詳しくは、[SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/saas-data-export/overview)を参照してください。
+>Adobeには、開発者やシステムインテグレーターがCommerce SaaS サービスの同期操作の管理と追跡およびエラーのトラブルシューティングに使用できるコマンドラインインターフェイスとシステムログも用意されています。 詳しくは、[SaaS データ書き出しガイド ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)を参照してください。
 
 ### 同期済み製品のリスト
 
@@ -79,7 +67,7 @@ Commerce データベースの製品を更新すると、製品データはシ�
 
 ### カタログデータの再同期
 
-Commerce SaaS サービスを常に最新の製品情報に保つために、[&#x200B; カタログデータの同期スケジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex)を実装する必要があります。
+Commerce SaaS サービスを常に最新の製品情報に保つために、[ カタログデータの同期スケジュール ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex)を実装する必要があります。
 
 Commerce データベースからSaaS サービスへのカタログデータの再同期を[手動で](#manually-resync-catalog)開始できますが、ハードウェアリソースの負荷が増加する可能性があるため、お勧めしません。 ただし、次のシナリオでは、カタログを手動で再同期する必要がある場合があります。
 

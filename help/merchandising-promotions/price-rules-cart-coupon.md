@@ -4,33 +4,21 @@ description: カートの価格ルールでクーポンコードを使用して�
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
 TQID: https://experienceleague.adobe.com/axmELQfcYT3VH7GBKMh-Z3xdN1v6eROpIp9FDYb6zBg
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 2338
+source-wordcount: 2339
 ht-degree: 0%
 
 ---
 
 # クーポンコード
 
-クーポンコードは、一連の条件が満たされたときに割引を適用するために[&#x200B; カート価格ルール &#x200B;](price-rules-cart.md)と共に使用されます。 例えば、特定の顧客グループや一定額の買い物をした人向けにクーポンコードを作成することができます。 クーポンを購入に適用するには、お客様はクーポンコードをカートに入力するか、_実店舗_&#x200B;のレジで入力します。 店舗でクーポンを使用する方法をいくつか紹介します。
+クーポンコードは、一連の条件が満たされたときに割引を適用するために[ カート価格ルール ](price-rules-cart.md)と共に使用されます。 例えば、特定の顧客グループや一定額の買い物をした人向けにクーポンコードを作成することができます。 クーポンを購入に適用するには、お客様はクーポンコードをカートに入力するか、_実店舗_&#x200B;のレジで入力します。 店舗でクーポンを使用する方法をいくつか紹介します。
 
 - 顧客にクーポンをメールで送信
 - 印刷されたクーポンの作成
@@ -59,7 +47,7 @@ Commerceでは、デフォルトで、クーポンコードを作成するため
 
 自動生成されたクーポンコードの長さと形式は、設定によって制御されます。 文字は、すべての数字、すべての文字、または組み合わせに設定できます。 一定の間隔でダッシュを挿入して読みやすくし、接頭辞と接尾辞を追加して、コードを特定のキャンペーンまたはイニシアチブに関連付けることができます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Promotions]**&#x200B;を選択します。
 
@@ -91,11 +79,11 @@ Commerceでは、デフォルトで、クーポンコードを作成するため
 
 >[!NOTE]
 >
->[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} クーポンを作成する前に、`bin/magento cron:run` コマンドを使用して、cronが実行されていることを確認します。 詳しくは、_設定ガイド_&#x200B;の「[&#x200B; コマンドラインからcronを実行する](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ja#run-cron-from-the-command-line)」を参照してください。
+>[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} クーポンを作成する前に、`bin/magento cron:run` コマンドを使用して、cronが実行されていることを確認します。 詳しくは、_設定ガイド_&#x200B;の「[ コマンドラインからcronを実行する](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#run-cron-from-the-command-line)」を参照してください。
 
 ### 方法1：特定のクーポンを作成する
 
-1. 手順に従って、[&#x200B; カート価格ルール &#x200B;](price-rules-cart.md)を作成します。
+1. 手順に従って、[ カート価格ルール ](price-rules-cart.md)を作成します。
 
 1. **[!UICONTROL Rule Information]** セクションで、**[!UICONTROL Coupon]**&#x200B;を`Specific Coupon`に設定します。
 
@@ -118,37 +106,37 @@ Commerceでは、デフォルトで、クーポンコードを作成するため
 
 1. クーポンを一定期間有効にするには、次の操作を行います。
 
-   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） **開始**&#x200B;および&#x200B;**開始**&#x200B;の日付を完了します。 日付を選択するには、各フィールドの横にある&#x200B;**カレンダー** （![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）アイコンをクリックします。 日付範囲を空のままにすると、ルールの有効期限は切れません。
+   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） **開始**&#x200B;および&#x200B;**開始**&#x200B;の日付を完了します。 日付を選択するには、各フィールドの横にある&#x200B;**カレンダー** （![ カレンダーアイコン ](../assets/icon-calendar.png)）アイコンをクリックします。 日付範囲を空のままにすると、ルールの有効期限は切れません。
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）次のいずれかの操作を行います。
 
      **オプション 1:**&#x200B;新しい更新をスケジュールする
 
-      - ページの右上隅にある「**[!UICONTROL Schedule New Update]**」をクリックします。
+     - ページの右上隅にある「**[!UICONTROL Schedule New Update]**」をクリックします。
 
-        ![&#x200B; スケジュールの更新](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
+       ![ スケジュールの更新](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
 
-      - **[!UICONTROL Update Name]**&#x200B;と&#x200B;**[!UICONTROL Description]**&#x200B;を入力します。
+     - **[!UICONTROL Update Name]**&#x200B;と&#x200B;**[!UICONTROL Description]**&#x200B;を入力します。
 
-      - カレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）から&#x200B;**開始日**&#x200B;と&#x200B;**[!UICONTROL End Date]**&#x200B;を選択します。 日付範囲を空のままにすると、ルールの有効期限は切れません。
+     - カレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）から&#x200B;**開始日**&#x200B;と&#x200B;**[!UICONTROL End Date]**&#x200B;を選択します。 日付範囲を空のままにすると、ルールの有効期限は切れません。
 
-      - 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
+     - 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-        ![買い物かごの価格ルール – スケジュールされた変更](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
+       ![買い物かごの価格ルール – スケジュールされた変更](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
 
      **オプション 2:**&#x200B;既存の更新プログラムに割り当てる：
 
-      - **[!UICONTROL Assign to Another Update]**&#x200B;を選択します。
+     - **[!UICONTROL Assign to Another Update]**&#x200B;を選択します。
 
-      - リストで更新プログラムを見つけて、**[!UICONTROL Select]**&#x200B;をクリックします。
+     - リストで更新プログラムを見つけて、**[!UICONTROL Select]**&#x200B;をクリックします。
 
-1. 必要に応じて[&#x200B; カート価格ルール &#x200B;](price-rules-cart.md)を完了します。
+1. 必要に応じて[ カート価格ルール ](price-rules-cart.md)を完了します。
 
 ### 方法2：クーポンのバッチを生成する
 
 割引クーポンの生成は非同期操作で、バックグラウンドで実行されるため、操作が完了するのを待たずに管理者で作業を続けることができます。 タスクが完了すると、メッセージが表示されます。
 
-1. 手順に従って、[&#x200B; カート価格ルール &#x200B;](price-rules-cart.md)を作成します。
+1. 手順に従って、[ カート価格ルール ](price-rules-cart.md)を作成します。
 
 1. 「**[!UICONTROL Coupon Code]**」で、「**[!UICONTROL Use Auto Generation]**」チェックボックスを選択します。
 
@@ -170,9 +158,9 @@ Commerceでは、デフォルトで、クーポンコードを作成するため
 
    - **[!UICONTROL Code Format]**&#x200B;を次のいずれかに設定します。
 
-      - `Alphanumeric`
-      - `Alphabetical`
-      - `Numeric`
+     - `Alphanumeric`
+     - `Alphabetical`
+     - `Numeric`
 
    - （オプション）コードの先頭に追加する&#x200B;**[!UICONTROL Code Prefix]**&#x200B;を入力します。
 
@@ -201,19 +189,19 @@ Commerceでは、デフォルトで、クーポンコードを作成するため
 
 ### 方法3：カスタムクーポンコード
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
 
-[&#x200B; カート価格ルール &#x200B;](price-rules-cart.md)を作成した後、ルールにカスタムクーポンコードを手動で追加できます。
+[ カート価格ルール ](price-rules-cart.md)を作成した後、ルールにカスタムクーポンコードを手動で追加できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;に移動し、カスタムクーポンコードを追加するルールを選択します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**に移動し、カスタムクーポンコードを追加するルールを選択します。
 
 1. **[!UICONTROL Manage Coupon Codes]** セクションを展開し、**[!UICONTROL Add Coupon Code]**&#x200B;をクリックします。
 
-   ![&#x200B; カスタムクーポンコード &#x200B;](./assets/custom-coupon-codes.png){width="600" zoomable="yes"}
+   ![ カスタムクーポンコード ](./assets/custom-coupon-codes.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Add Custom Coupon]** ダイアログで、カート価格ルールに使用するクーポンコードを入力し、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-   ![&#x200B; クーポンコードを追加](./assets/add-custom-coupon.png){width="600" zoomable="yes"}
+   ![ クーポンコードを追加](./assets/add-custom-coupon.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save]**&#x200B;をクリックして、買い物かごの価格ルールを更新します。
 
@@ -221,17 +209,17 @@ Commerceでは、デフォルトで、クーポンコードを作成するため
 
 カスタムクーポンコードを編集したり、使用状況の詳細を確認したりするには、**[!UICONTROL Actions]**&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-&lt;InlineAlert variant="info" slots="text"/>
+<InlineAlert variant="info" slots="text"/>
 
 カート価格ルールに属するメインのクーポンコードは、編集または削除できません。
 
-![&#x200B; クーポンコードを編集](./assets/edit-coupon-code.png){width="600" zoomable="yes"}
+![ クーポンコードを編集](./assets/edit-coupon-code.png){width="600" zoomable="yes"}
 
 #### カスタムクーポンコードの一括インポート
 
 あらかじめ定義されたクーポンコードのリストがある場合は、各コードを個別に追加するのではなく、CSV ファイルからカート価格ルールに添付することができます。 CSV ファイルは、クーポンコードを含む1つの列で構成する必要があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;に移動し、カスタムクーポンコードを読み込むルールを選択します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**に移動し、カスタムクーポンコードを読み込むルールを選択します。
 
 1. **[!UICONTROL Manage Coupon Codes]** セクションを展開し、**[!UICONTROL Import]**&#x200B;をクリックします。
 
@@ -254,13 +242,13 @@ Commerceでは、デフォルトで、クーポンコードを作成するため
 
    ファイルを選択すると、読み込む準備ができているコードの数と、ファイルの最初のコードのサンプルを示す&#x200B;**[!UICONTROL Preview]**&#x200B;がダイアログに表示されます。
 
-   ![&#x200B; クーポンのインポート ダイアログ &#x200B;](./assets/import-custom-coupons.png){width="600" zoomable="yes"}
+   ![ クーポンのインポート ダイアログ ](./assets/import-custom-coupons.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Import]**&#x200B;をクリックします。 このダイアログには、インポート用にキューに入れられたコードの数と、スキップされた既存のコードのリストが表示されます。
 
-   ![&#x200B; クーポン結果の読み込み](./assets/import-coupons-result.png){width="600" zoomable="yes"}
+   ![ クーポン結果の読み込み](./assets/import-coupons-result.png){width="600" zoomable="yes"}
 
-インポートの進行状況と詳細な結果を監視するには、**[!UICONTROL View progress in Bulk Actions Log]**&#x200B;をクリックするか、**[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**&#x200B;に移動します。 各インポートは、**[!UICONTROL Bulk Actions]**&#x200B;に1つのエントリとして表示され、エントリを選択します。
+インポートの進行状況と詳細な結果を監視するには、**[!UICONTROL View progress in Bulk Actions Log]**&#x200B;をクリックするか、**[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**に移動します。 各インポートは、**[!UICONTROL Bulk Actions]**に1つのエントリとして表示され、エントリを選択します。
 
 ## クーポンレポート
 
@@ -268,11 +256,11 @@ _クーポン_ レポートは、特定の日付範囲内に使用された各�
 
 次の例では、2人の顧客がクーポンコード「H20」を使用しました。 一方の注文は請求済みですが、もう一方は&#x200B;_保留中_&#x200B;です。 「予測される販売小計」、「販売割引」、「販売合計」の各列には、両方の注文の合計金額が表示されますが、「小計」、「割引」、「合計」の各列には、実際の請求済み注文のみが表示されます。 レポートの各行は、1つのクーポンプロモーションを表します。
 
-![&#x200B; クーポンレポート &#x200B;](./assets/reports-coupons.png){width="600" zoomable="yes"}
+![ クーポンレポート ](./assets/reports-coupons.png){width="600" zoomable="yes"}
 
 ### レポートの実行
 
-1. _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Coupons]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Coupons]**に移動します。
 
 1. 複数のストアビューがある場合は、左上隅に&#x200B;**[!DNL Store View]**&#x200B;を設定して、レポートの範囲を確立します。
 
@@ -280,35 +268,35 @@ _クーポン_ レポートは、特定の日付範囲内に使用された各�
 
    次に、「**[!UICONTROL Coupons]**」チェックボックスをクリックして「**[!UICONTROL Refresh]**」をクリックします。
 
-   ![&#x200B; クーポンレポート – 統計を更新](./assets/reports-coupons-refresh-statistics.png){width="600" zoomable="yes"}
+   ![ クーポンレポート – 統計を更新](./assets/reports-coupons-refresh-statistics.png){width="600" zoomable="yes"}
 
 1. データをフィルタリングするには、次の操作を行います。
 
-   ![&#x200B; クーポンレポート – フィルター](./assets/reports-coupons-filters.png){width="600" zoomable="yes"}
+   ![ クーポンレポート – フィルター](./assets/reports-coupons-filters.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Date Used]**&#x200B;を次のいずれかに設定します：
 
-      - `Order Created`
-      - `Order Updated`
+     - `Order Created`
+     - `Order Updated`
 
      _注文更新済み_ レポートはリアルタイムで作成されるので、更新は必要ありません。
 
    - レポートの対象となる期間を定義するには、**[!UICONTROL Period]**&#x200B;を次のいずれかに設定します。
 
-      - `Day`
-      - `Month`
-      - `Year`
+     - `Day`
+     - `Month`
+     - `Year`
 
    - レポートの日付範囲を定義するには、**開始日**&#x200B;および&#x200B;**終了日**&#x200B;をM/D/YY形式で入力します。
 
-   - 特定の[注文ステータス &#x200B;](../stores-purchase/order-status.md)のレポートを印刷するには、**[!UICONTROL Order Status]**&#x200B;を`Specified`に設定し、リストから注文ステータスを選択します。
+   - 特定の[注文ステータス ](../stores-purchase/order-status.md)のレポートを印刷するには、**[!UICONTROL Order Status]**&#x200B;を`Specified`に設定し、リストから注文ステータスを選択します。
 
    - レポートからデータを含まない行を省略するには、**[!UICONTROL Empty Rows]**&#x200B;を`No`に設定します。
 
    - レポートに含まれるクーポンアクティビティを定義するには、次のいずれかの操作を行います。
 
-      - すべての価格ルールのすべてのクーポンアクティビティを含めるには、**[!UICONTROL Cart Price Rule]**&#x200B;を`Any`に設定します。
-      - 特定の価格ルールに関連するアクティビティのみを含めるには、**[!UICONTROL Cart Price Rule]**&#x200B;を`Specified`に設定し、リストからカート価格ルールを選択します。
+     - すべての価格ルールのすべてのクーポンアクティビティを含めるには、**[!UICONTROL Cart Price Rule]**&#x200B;を`Any`に設定します。
+     - 特定の価格ルールに関連するアクティビティのみを含めるには、**[!UICONTROL Cart Price Rule]**&#x200B;を`Specified`に設定し、リストからカート価格ルールを選択します。
 
 1. レポートを実行する準備ができたら、**[!UICONTROL Show Report]**&#x200B;をクリックします。
 

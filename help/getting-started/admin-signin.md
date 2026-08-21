@@ -4,31 +4,15 @@ description: 管理者アカウントと、2段階認証を使用して管理者
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
 TQID: https://experienceleague.adobe.com/p40Sr3TPKp2QrTiMdwzmGL04lO6f8xK8fCLcbOebV7M
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: 1193
 ht-degree: 0%
 
 ---
@@ -37,9 +21,9 @@ ht-degree: 0%
 
 プライマリ管理者アカウントは、インストール中に最初に設定され、初期プレースホルダー情報やサンプルデータ情報が含まれる場合があります。 このアカウントの指定された所有者は、ユーザー名とパスワードをパーソナライズし、名前、姓、電子メールアドレスをいつでも更新できます。 このアカウントは、デフォルトですべての権限を持つ&#x200B;_スーパーユーザー_&#x200B;で、通常、ビジネスに必要な管理者ユーザーアカウントを作成します。
 
-- ユーザーの追加または編集について詳しくは、[&#x200B; ユーザーの作成](../systems/permissions-users-all.md#create-a-user)を参照してください。
+- ユーザーの追加または編集について詳しくは、[ ユーザーの作成](../systems/permissions-users-all.md#create-a-user)を参照してください。
 
-- 管理者とユーザーの役割について詳しくは、[権限](../systems/permissions.md)および[&#x200B; ユーザーの役割](../systems/permissions-user-roles.md)を参照してください。
+- 管理者とユーザーの役割について詳しくは、[権限](../systems/permissions.md)および[ ユーザーの役割](../systems/permissions-user-roles.md)を参照してください。
 
 {{ims-admin-note}}
 
@@ -49,13 +33,13 @@ ht-degree: 0%
 
 ストアの構成によっては、一連のキーボード文字の入力、パズルの解決、共通のテーマを持つ一連の画像のクリックなど、[CAPTCHA](../systems/security-google-recaptcha.md)の課題を解決する場合があります。 これらのテストは、自動化されたボットではなく、人間であることを識別するように設計されています。
 
-セキュリティを強化するために、各ユーザーが[権限](../systems/permissions.md)を持つ&#x200B;_管理者_&#x200B;のどの部分にアクセス権があるかを判断できます。また、[&#x200B; ログイン試行回数](../configuration-reference/advanced/admin.md)を制限することもできます。 デフォルトでは、6回試行するとアカウントがロックされ、ユーザーは数分待ってから再試行する必要があります。 [&#x200B; ロックされたアカウント &#x200B;](../systems/permissions-users-all.md#locked-users)は、_管理者_&#x200B;からもリセットできます。
+セキュリティを強化するために、各ユーザーが[権限](../systems/permissions.md)を持つ&#x200B;_管理者_&#x200B;のどの部分にアクセス権があるかを判断できます。また、[ ログイン試行回数](../configuration-reference/advanced/admin.md)を制限することもできます。 デフォルトでは、6回試行するとアカウントがロックされ、ユーザーは数分待ってから再試行する必要があります。 [ ロックされたアカウント ](../systems/permissions-users-all.md#locked-users)は、_管理者_&#x200B;からもリセットできます。
 
 >[!NOTE]
 >
 >_管理者_&#x200B;に初めてログインすると、_管理者使用状況データの収集を許可_&#x200B;するように求められます。 詳しくは、[使用状況データ収集](admin.md#usage-data-collection)を参照してください。
 
-![管理者ログイン &#x200B;](./assets/admin-login.png){width="400"}
+![管理者ログイン ](./assets/admin-login.png){width="400"}
 
 ### 手順1：二段階認証の設定
 
@@ -71,7 +55,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >このドキュメントでは、ほとんどの例でベース URLとして`admin`を使用していますが、ストアの&#x200B;_管理者_&#x200B;に対して、一意で推測が困難な[&#x200B; カスタム URL](../stores-purchase/store-urls.md)を選択することをお勧めします。
+   >このドキュメントでは、ほとんどの例でベース URLとして`admin`を使用していますが、ストアの&#x200B;_管理者_&#x200B;に対して、一意で推測が困難な[ カスタム URL](../stores-purchase/store-urls.md)を選択することをお勧めします。
 
    ページのブックマークを追加したり、デスクトップにショートカットを保存したりして、簡単にアクセスできます。
 
@@ -115,7 +99,7 @@ ht-degree: 0%
 
 1. _管理者_ アカウントに関連付けられている&#x200B;**[!UICONTROL Email Address]**&#x200B;を入力します。
 
-   ![&#x200B; パスワードを忘れた](./assets/admin-sign-in-forgot-password.png){width="400"}
+   ![ パスワードを忘れた](./assets/admin-sign-in-forgot-password.png){width="400"}
 
 1. **[!UICONTROL Retrieve Password]**&#x200B;をクリックします。
 
@@ -127,21 +111,21 @@ ht-degree: 0%
 
 ## 管理者からログアウト
 
-1. 右上隅にある&#x200B;_アカウント_ （![&#x200B; アカウント &#x200B;](../assets/icon-admin-user.png)）アイコンをクリックします。
+1. 右上隅にある&#x200B;_アカウント_ （![ アカウント ](../assets/icon-admin-user.png)）アイコンをクリックします。
 
 1. **[!UICONTROL Sign Out]**&#x200B;をクリックします。
 
-   ![&#x200B; ログアウト &#x200B;](./assets/admin-sign-out.png){width="700" zoomable="yes"}
+   ![ ログアウト ](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Sign In]_&#x200B;ページには、ログアウト済みのメッセージが表示されます。 コンピューターを無人のままにするたびに、_&#x200B;管理者&#x200B;_からログアウトします。
+_[!UICONTROL Sign In]_ページには、ログアウト済みのメッセージが表示されます。 コンピューターを無人のままにするたびに、_&#x200B;管理者&#x200B;_からログアウトします。
 
 ## アカウント情報を編集
 
-1. _アカウント_ （![&#x200B; アカウントアイコン &#x200B;](../assets/icon-admin-user.png)）アイコンをクリックします。
+1. _アカウント_ （![ アカウントアイコン ](../assets/icon-admin-user.png)）アイコンをクリックします。
 
 1. **[!UICONTROL Account Setting]**&#x200B;をクリックします。
 
-   ![&#x200B; アカウント情報](./assets/admin-account-information.png){width="700" zoomable="yes"}
+   ![ アカウント情報](./assets/admin-account-information.png){width="700" zoomable="yes"}
 
 1. アカウント情報に必要な変更を加えます。
 
@@ -155,7 +139,7 @@ _[!UICONTROL Sign In]_&#x200B;ページには、ログアウト済みのメッ�
 
 管理者は、注文、顧客、製品、配送、支払い機能を管理するためのアクセス権を提供します。 デフォルトの設定は、セキュリティのベストプラクティスとして、管理者ユーザーアカウントに対する複数のログインを許可しないように設定されています。 ただし、この設定を変更して、ビジネスワークフローに対応するために複数のデバイスから管理者ユーザーをログインできるようにすることができます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL Admin]**&#x200B;を選択します。
 
@@ -169,7 +153,7 @@ _[!UICONTROL Sign In]_&#x200B;ページには、ログアウト済みのメッ�
 
 ## 大文字と小文字を区別する管理者ユーザーログイン名を設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のナビゲーションパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL Admin]**&#x200B;を選択します。
 
@@ -184,7 +168,7 @@ _[!UICONTROL Sign In]_&#x200B;ページには、ログアウト済みのメッ�
 
 管理者のセキュリティを確保するには、管理者アクセス権を持つユーザーと役割を定期的に監査します。
 
-さらに、デフォルトの`/admin` エンドポイントをカスタムパスに変更するには、[管理者ベース URL設定](https://experienceleague.adobe.com/ja/docs/commerce-admin/config/advanced/admin#admin-base-url)の更新を検討してください。 カスタムパスを設定すると、次のセキュリティ上のメリットが得られます。
+さらに、デフォルトの`/admin` エンドポイントをカスタムパスに変更するには、[管理者ベース URL設定](/help/configuration-reference/advanced/admin.md#admin-base-url)の更新を検討してください。 カスタムパスを設定すると、次のセキュリティ上のメリットが得られます。
 
 **セキュリティ強化**: デフォルトの「管理者」パスは広く知られており、ブルートフォース攻撃を試みる悪意のある攻撃者によってターゲットにされることが多いです。 独自のカスタム値に変更することで、不正アクセスのリスクを大幅に軽減できます。
 
@@ -196,4 +180,4 @@ _[!UICONTROL Sign In]_&#x200B;ページには、ログアウト済みのメッ�
 
 >[!NOTE]
 >
->セキュリティ侵害が疑われる場合は、不明な管理者ユーザーをすべて削除し、すべての管理者パスワードをリセットして、[&#x200B; セキュリティアクションプラン &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/security/security)を確認してください。
+>セキュリティ侵害が疑われる場合は、不明な管理者ユーザーをすべて削除し、すべての管理者パスワードをリセットして、[ セキュリティアクションプラン ](/help/systems/security.md)を確認してください。

@@ -4,23 +4,12 @@ description: 顧客は通常、ストアフロントからパスワードをリ�
 exl-id: bca1ef3e-2bc6-4146-ac86-d6c58c8995e4
 feature: Customers, Configuration, Security
 TQID: https://experienceleague.adobe.com/yzGC0T8unOSE-sZkE4PRHM6xMVX68qD6fARb-OSUB0U
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 393
 ht-degree: 0%
@@ -29,12 +18,12 @@ ht-degree: 0%
 
 # 顧客パスワードのリセット
 
-顧客は通常、_[!UICONTROL Forgot Your Password?]_&#x200B;をクリックして、ストアフロントからパスワードをリセットします。 ただし、ストア管理者は、管理者からパスワードリセットまたは強制ログインを開始できます。
+顧客は通常、_[!UICONTROL Forgot Your Password?]_をクリックして、ストアフロントからパスワードをリセットします。 ただし、ストア管理者は、管理者からパスワードリセットまたは強制ログインを開始できます。
 
 | 関数 | 説明 |
 | --- | --- |
 | パスワードのリセット | パスワードリセット用の電子メールがお客様の電子メールアカウントに直接送信されます。 ストア管理者は、お客様のパスワードにアクセスできません。 |
-| 強制ログイン | 顧客アカウントに関連付けられているOAuth アクセストークンを取り消します。 これは、Web API [統合](../systems/integrations.md)の一部として、OAuth トークンが割り当てられている顧客アカウントでのみ使用できます。 詳しくは、開発者ドキュメントの[OAuth ベースの認証](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)を参照してください。 <br/><br/> ストアフロントまたは管理者から作成された標準のお客様アカウントには、OAuth トークンがありません。 |
+| 強制ログイン | 顧客アカウントに関連付けられているOAuth アクセストークンを取り消します。 これは、Web API [統合](../systems/integrations.md)の一部として、OAuth トークンが割り当てられている顧客アカウントでのみ使用できます。 詳しくは、開発者ドキュメントの[OAuth ベースの認証](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth)を参照してください。 <br/><br/> ストアフロントまたは管理者から作成された標準のお客様アカウントには、OAuth トークンがありません。 |
 
 {style="table-layout:auto"}
 
@@ -44,7 +33,7 @@ ht-degree: 0%
 
 1. プロンプトが表示されたら、アカウントに関連付けられている&#x200B;**[!UICONTROL Email Address]**&#x200B;を入力し、**[!UICONTROL Reset My Password]**&#x200B;をクリックします。
 
-   ![&#x200B; パスワードを忘れた](assets/forgot-password.png){width="600" zoomable="yes"}
+   ![ パスワードを忘れた](assets/forgot-password.png){width="600" zoomable="yes"}
 
    >[!INFO]
    >

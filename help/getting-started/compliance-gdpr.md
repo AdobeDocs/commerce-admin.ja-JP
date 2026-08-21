@@ -4,25 +4,13 @@ description: 一般データ保護規則（GDPR）とは、欧州連合（EU）�
 exl-id: 88a732f3-f376-4ff5-890c-0535de8eae51
 feature: Compliance
 TQID: https://experienceleague.adobe.com/KoEiKz5hg35mPMhjHnCpcvzLhq-BymF9aJOn0y3Vcis
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-subfeature_v2:
-  - id: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+subfeature_v2: id: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 518
 ht-degree: 0%
@@ -49,23 +37,23 @@ ht-degree: 0%
 
 ## GDPRとCCPA
 
-お客様のビジネスがGDPRと[&#x200B; カリフォルニア州消費者プライバシー法（CCPA） &#x200B;](../getting-started/compliance-ccpa.md)の両方に準拠する必要がある場合は、GDPR コンプライアンスプログラムの一部をCCPAに使用できます。 これらの規制にはいくつかの類似点がありますが、次のような違いがあります。
+お客様のビジネスがGDPRと[ カリフォルニア州消費者プライバシー法（CCPA） ](../getting-started/compliance-ccpa.md)の両方に準拠する必要がある場合は、GDPR コンプライアンスプログラムの一部をCCPAに使用できます。 これらの規制にはいくつかの類似点がありますが、次のような違いがあります。
 
 - 個人情報の定義は、各規制によって異なります。
 - GDPRでは、消費者が個人データを特定の目的のために使用する前に、オプトインすることを義務付けており、CCPAは消費者にオプトアウトする権利を提供します。
 - CCPAには、データインベントリとマッピングの要件が追加されています。
 - この規制には、プライバシーポリシーの要件が異なります。
 
-GDPRを遵守している企業は、CCPAにもとづいて追加の義務を負っている可能性があります。 詳しくは、[CCPA ファクトシート &#x200B;](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}を参照してください。
+GDPRを遵守している企業は、CCPAにもとづいて追加の義務を負っている可能性があります。 詳しくは、[CCPA ファクトシート ](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}を参照してください。
 
 ## ベストプラクティス
 
-- すべてのストアの現在の[&#x200B; プライバシーポリシー](../getting-started/privacy-policy.md)を確認して、適用される法的要件（GDPRおよびCCPAを含むが、これらに限定されない）に準拠していることを確認します。
+- すべてのストアの現在の[ プライバシーポリシー](../getting-started/privacy-policy.md)を確認して、適用される法的要件（GDPRおよびCCPAを含むが、これらに限定されない）に準拠していることを確認します。
 
 - [Googleの設定](../merchandising-promotions/google-tools.md#google-privacy-settings)を更新し、個人情報の使用に関する法的義務に準拠していることを確認します。
 
 - 透明性を維持し、徹底した文書化を行います。
 
-- Adobeを利用して、該当する法的義務を遵守する方法については、[web サイト &#x200B;](https://business.adobe.com/jp/privacy/general-data-protection-regulation.html){:target="_blank"}をご覧ください。
+- Adobeを利用して、該当する法的義務を遵守する方法については、[web サイト ](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}をご覧ください。
 
-- データフロー図とデータベースエンティティのマッピングについては、[個人情報参照](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=ja){: target="_blank"}を参照してください。
+- データフロー図とデータベースエンティティのマッピングについては、[個人情報参照](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/reference/data-m2){: target="_blank"}を参照してください。
