@@ -4,11 +4,21 @@ description: データ書き出しフィルターと属性の詳細と、スト�
 exl-id: 80e7a2fc-beaa-416e-a00f-a3cad5055975
 feature: Products, Customers, Data Import/Export
 TQID: https://experienceleague.adobe.com/492se11mto54gQuwodcRcALtCf7LJe3GGKQntW9kkWQ
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
 source-wordcount: 823
@@ -28,15 +38,15 @@ ht-degree: 0%
 
 書き出しフィルターは、属性値に基づいて、書き出しファイルに含めるデータを指定するために使用されます。 さらに、書き出しに含める属性データまたは除外する属性データを指定できます。
 
-![ データ書き出し条件](./assets/data-export-entity-attributes-exclude.png){width="600" zoomable="yes"}
+![&#x200B; データ書き出し条件](./assets/data-export-entity-attributes-exclude.png){width="600" zoomable="yes"}
 
 ### フィルターの書き出し
 
 フィルターを使用して、書き出しファイルに含めるSKUを決定できます。 例えば、「製造国」フィルターに値を入力すると、書き出されたCSV ファイルには、その国で製造された製品のみが含まれます。
 
-フィルターのタイプは、データタイプに対応します。 日付フィールドの場合は、カレンダー![ カレンダーアイコン ](../assets/icon-calendar.png)から日付を選択できます。 詳しくは、[属性入力タイプ ](../catalog/attributes-input-types.md)を参照してください。
+フィルターのタイプは、データタイプに対応します。 日付フィールドの場合は、カレンダー![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)から日付を選択できます。 詳しくは、[属性入力タイプ &#x200B;](../catalog/attributes-input-types.md)を参照してください。
 
-日付の形式は、[ ロケール ](../getting-started/store-details.md#locale-options)によって決まります。
+日付の形式は、[&#x200B; ロケール &#x200B;](../getting-started/store-details.md#locale-options)によって決まります。
 
 SKUなど、特定の値を持つレコードのみを含めるには、「フィルター」フィールドに値を入力します。 「価格」、「重み」、「製品を新規として設定」などの一部のフィールドには、値の範囲が指定されています。
 
@@ -46,16 +56,16 @@ SKUなど、特定の値を持つレコードのみを含めるには、「フ�
 
 | 除外 | フィルター | 結果 |
 |--- |--- |--- |
-| ![ チェックボックスをクリアしました](../assets/checkbox-clear.png) | いいえ | 書き出されたファイルには、既存のすべてのレコードの各属性が含まれます。 |
-| ![ チェックボックスをクリアしました](../assets/checkbox-clear.png) | はい | 書き出しファイルには、フィルターで許可されるレコードのみを含む各属性が含まれます。 |
-| ![選択したチェックボックス ](../assets/checkbox-selected.png) | いいえ | 書き出しファイルには、除外された属性の列は含まれませんが、既存のすべてのレコードは含まれます。 |
-| ![選択したチェックボックス ](../assets/checkbox-selected.png) | はい | 書き出しファイルには、除外された属性の列は含まれず、フィルターで許可されるレコードのみが含まれます。 |
+| ![&#x200B; チェックボックスをクリアしました](../assets/checkbox-clear.png) | いいえ | 書き出されたファイルには、既存のすべてのレコードの各属性が含まれます。 |
+| ![&#x200B; チェックボックスをクリアしました](../assets/checkbox-clear.png) | はい | 書き出しファイルには、フィルターで許可されるレコードのみを含む各属性が含まれます。 |
+| ![選択したチェックボックス &#x200B;](../assets/checkbox-selected.png) | いいえ | 書き出しファイルには、除外された属性の列は含まれませんが、既存のすべてのレコードは含まれます。 |
+| ![選択したチェックボックス &#x200B;](../assets/checkbox-selected.png) | はい | 書き出しファイルには、除外された属性の列は含まれず、フィルターで許可されるレコードのみが含まれます。 |
 
 {style="table-layout:auto"}
 
 ## データの書き出し
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**&#x200B;に移動します。
 
 1. _書き出し設定_ セクションで、**[!UICONTROL Entity Type]**&#x200B;を次のいずれかに設定します。
 
@@ -66,7 +76,7 @@ SKUなど、特定の値を持つレコードのみを含めるには、「フ�
    - `Customer Addresses`
    - `Stock Sources`
 
-   ![ データ書き出し設定](./assets/data-export-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; データ書き出し設定](./assets/data-export-settings.png){width="600" zoomable="yes"}
 
 1. CSVのデフォルト **[!UICONTROL Export File Format]**&#x200B;を受け入れます。
 
@@ -74,9 +84,9 @@ SKUなど、特定の値を持つレコードのみを含めるには、「フ�
 
 1. 必要に応じて、エンティティ属性の表示を変更します。
 
-   デフォルトでは、エンティティ属性セクションには、使用可能なすべての属性がアルファベット順に一覧表示されます。 標準の[ リストコントロール ](../getting-started/admin-grid-controls.md)を使用して、特定の属性を検索し、リストを並べ替えることができます。 検索とリセットフィルターは、リストの表示を制御しますが、書き出しファイルに含める属性の選択には影響しません。
+   デフォルトでは、エンティティ属性セクションには、使用可能なすべての属性がアルファベット順に一覧表示されます。 標準の[&#x200B; リストコントロール &#x200B;](../getting-started/admin-grid-controls.md)を使用して、特定の属性を検索し、リストを並べ替えることができます。 検索とリセットフィルターは、リストの表示を制御しますが、書き出しファイルに含める属性の選択には影響しません。
 
-   ![ データ書き出しのフィルター済みエンティティ属性](./assets/data-export-filter-entity-attributes.png){width="600" zoomable="yes"}
+   ![&#x200B; データ書き出しのフィルター済みエンティティ属性](./assets/data-export-filter-entity-attributes.png){width="600" zoomable="yes"}
 
 1. 属性値に基づいて書き出されたデータをフィルタリングするには、次の操作を行います。
 
@@ -86,7 +96,7 @@ SKUなど、特定の値を持つレコードのみを含めるには、「フ�
 
 1. 下にスクロールして、ページの右下隅にある「**[!UICONTROL Continue]**」をクリックします。
 
-   タスクが完了すると、ファイルはメッセージキューを通じて処理されます（cron ジョブが実行されていることを確認してください）。 書き出されたファイルは`var/export/ folder`に保存されます。 メッセージキューについて詳しくは、_設定ガイド_&#x200B;の「[ メッセージキューの管理](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)」を参照してください。
+   タスクが完了すると、ファイルはメッセージキューを通じて処理されます（cron ジョブが実行されていることを確認してください）。 書き出されたファイルは`var/export/ folder`に保存されます。 メッセージキューについて詳しくは、_設定ガイド_&#x200B;の「[&#x200B; メッセージキューの管理](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)」を参照してください。
 
    書き出したCSV ファイルをスプレッドシートとして保存または開き、データを編集してストアに読み込むことができます。
 

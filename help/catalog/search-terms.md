@@ -4,12 +4,24 @@ description: スペルが間違っている、または別の用語を使用し�
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
 TQID: https://experienceleague.adobe.com/3AHIV0QXCL1FhLiGnTQrBKRKdogDxahMxpcm1JWCpf4
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
 source-wordcount: 1189
@@ -19,7 +31,7 @@ ht-degree: 0%
 
 # 検索語を管理
 
-検索語句の[ ランディングページ ](../content-design/pages.md)は、コンテンツページ、カテゴリーページ、製品詳細ページ、または別のサイトのページにすることができます。
+検索語句の[&#x200B; ランディングページ &#x200B;](../content-design/pages.md)は、コンテンツページ、カテゴリーページ、製品詳細ページ、または別のサイトのページにすることができます。
 
 検索語を使用して一般的な誤字をキャプチャし、適切なページにリダイレクトします。 例えば、鍛鉄製のパティオ家具を販売している場合、多くの人がその用語を&#x200B;_ロッドアイアン_&#x200B;や&#x200B;_ロットアイアン_&#x200B;と誤って入力していることに気づきます。 スペルが間違っている各単語を検索語句として入力し、_錬鉄_&#x200B;の類義語にすることができます。 スペルが間違っていても、検索はWrought Ironのページに向けられます。
 
@@ -29,7 +41,7 @@ ht-degree: 0%
 
 ストアで検索に使用する新しい単語を見つけたら、それらの単語を検索語リストに追加して、カタログ内で最も一致する商品にオーディエンスを誘導できます。
 
-![検索語句グリッド ](./assets/search-terms.png){width="700" zoomable="yes"}
+![検索語句グリッド &#x200B;](./assets/search-terms.png){width="700" zoomable="yes"}
 
 | 列 | 説明 |
 |--- |--- |
@@ -49,7 +61,7 @@ ht-degree: 0%
 
 ### 検索語を追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**&#x200B;に移動します。
 
 1. **[!UICONTROL Add New Search Term]**&#x200B;をクリックします。
 
@@ -67,7 +79,7 @@ ht-degree: 0%
 
 ## 検索語を編集
 
-1. _[!UICONTROL Search Terms]_グリッドで、任意のレコードの行をクリックして、検索キーワードを編集モードで開きます。
+1. _[!UICONTROL Search Terms]_&#x200B;グリッドで、任意のレコードの行をクリックして、検索キーワードを編集モードで開きます。
 
 1. 必要な変更を加えます。
 
@@ -77,7 +89,7 @@ ht-degree: 0%
 
 検索語を削除するには、グリッドと編集ページの2つの方法があります。
 
-**方法1:** _[!UICONTROL Search Terms]_グリッド内
+**方法1:** _[!UICONTROL Search Terms]_&#x200B;グリッド内
 
 1. リストで、削除する用語のチェックボックスを選択します。
 
@@ -85,9 +97,9 @@ ht-degree: 0%
 
 1. 完了したら、**[!UICONTROL Submit]**&#x200B;をクリックします。
 
-**方法2:** _[!UICONTROL Edit a Search Term]_ページ
+**方法2:** _[!UICONTROL Edit a Search Term]_&#x200B;ページ
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**&#x200B;に移動します。
 
 1. 削除する検索語句を見つけ、編集モードで開きます。
 
@@ -101,17 +113,17 @@ ht-degree: 0%
 
 デフォルトでは、Popular Search Termsは検索エンジン最適化ツールとして有効になっていますが、カタログ検索プロセスに直接接続されていません。 検索語ページは検索エンジンによってインデックス作成されるので、ページ上の任意の用語は、検索エンジンのランキングとストアの可視性を向上させるのに役立ちます。 人気の検索語ページのURLは次のとおりです：`mystore.com/search/term/popular/`
 
-![ ストアフロントの例 – 人気の検索語](./assets/store-front-search-terms-yoga-pants.png){width="600" zoomable="yes"}
+![&#x200B; ストアフロントの例 – 人気の検索語](./assets/store-front-search-terms-yoga-pants.png){width="600" zoomable="yes"}
 
 **_人気の検索語句を設定するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
 1. **[!UICONTROL Search Engine Optimization]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ カタログ設定 – 検索エンジン最適化](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ設定 – 検索エンジン最適化](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
    これらのオプションの詳細なリストについては、_設定リファレンス_&#x200B;の[検索エンジン最適化](../configuration-reference/catalog/catalog.md#search-engine-optimization)を参照してください。
 
@@ -123,11 +135,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->人気のある[ カタログ検索](search-configuration.md)のキャッシュをさらに設定できます。
+>人気のある[&#x200B; カタログ検索](search-configuration.md)のキャッシュをさらに設定できます。
 
 ## 類義語を検索
 
-[ カタログ検索](search-configuration.md)の有効性を向上させる方法の1つは、同じ項目を説明するために使用できる様々な用語を含めることです。 誰かが&#x200B;_ソファ_&#x200B;を探しており、製品が&#x200B;_ソファ_&#x200B;として表示されているという理由だけで、販売を失いたくはありません。 _couch_&#x200B;の類義語として&#x200B;_sofa_、_davenport_、_loveseat_&#x200B;を入力して、より幅広い検索語を取得し、同じランディングページに誘導できます。
+[&#x200B; カタログ検索](search-configuration.md)の有効性を向上させる方法の1つは、同じ項目を説明するために使用できる様々な用語を含めることです。 誰かが&#x200B;_ソファ_&#x200B;を探しており、製品が&#x200B;_ソファ_&#x200B;として表示されているという理由だけで、販売を失いたくはありません。 _couch_&#x200B;の類義語として&#x200B;_sofa_、_davenport_、_loveseat_&#x200B;を入力して、より幅広い検索語を取得し、同じランディングページに誘導できます。
 
 Adobe Commerceでは、次の2つの異なる類義語管理ソリューションをサポートしています。
 
@@ -142,19 +154,19 @@ Adobe Commerceでは、次の2つの異なる類義語管理ソリューショ�
 >
 >検索類義語機能では、フルテキスト一致の検索方法のみを使用します。
 
-![ ストアフロントの例 – 同義語を含む検索結果](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの例 – 同義語を含む検索結果](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
 
 ### 同義語グループの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**&#x200B;に移動します。
 
-   _[!UICONTROL Search Synonyms]_グリッドが表示されます。 検索の類義語を初めて使用する場合、グリッドは空になります。
+   _[!UICONTROL Search Synonyms]_&#x200B;グリッドが表示されます。 検索の類義語を初めて使用する場合、グリッドは空になります。
 
    ![類義語グリッドを検索](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL New Synonym Group]**&#x200B;をクリックします。
 
-   ![新しい検索類義語グループ ](./assets/search-synonym-group-new.png){width="700" zoomable="yes"}
+   ![新しい検索類義語グループ &#x200B;](./assets/search-synonym-group-new.png){width="700" zoomable="yes"}
 
 1. 類義語が適用されるストアビューに&#x200B;**[!UICONTROL Scope]**&#x200B;を設定します。
 
@@ -171,7 +183,7 @@ Adobe Commerceでは、次の2つの異なる類義語管理ソリューショ�
 
 ### 同義語グループの編集
 
-1. _[!UICONTROL Search Synonyms]_グリッドで、任意のレコードの行をクリックして、同義語グループを編集モードで開きます。
+1. _[!UICONTROL Search Synonyms]_&#x200B;グリッドで、任意のレコードの行をクリックして、同義語グループを編集モードで開きます。
 
 1. 必要な変更を加えます。
 
@@ -183,7 +195,7 @@ Adobe Commerceでは、次の2つの異なる類義語管理ソリューショ�
 
 **メソッド 1:**&#x200B;を検索の類義語グリッドに表示
 
-1. _[!UICONTROL Search Synonyms]_グリッドで、削除するグループのチェックボックスを選択します。
+1. _[!UICONTROL Search Synonyms]_&#x200B;グリッドで、削除するグループのチェックボックスを選択します。
 
 1. リストの左上隅で、**[!UICONTROL Actions]**&#x200B;を`Delete`に設定します。
 
@@ -203,11 +215,11 @@ Adobe Commerceでは、次の2つの異なる類義語管理ソリューショ�
 
 ### レポートを読む
 
-1. _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Marketing]_>**[!UICONTROL Search Terms]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Marketing]_>**[!UICONTROL Search Terms]**&#x200B;に移動します。
 
 1. 必要に応じて、コントロールを使用してレポートをフィルタリングします。
 
-   ![検索語句レポート ](./assets/search-terms-report.png){width="700" zoomable="yes"}
+   ![検索語句レポート &#x200B;](./assets/search-terms-report.png){width="700" zoomable="yes"}
 
 ## レポートの書き出し
 

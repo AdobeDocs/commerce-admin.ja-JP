@@ -4,12 +4,29 @@ description: Cookieの使用に関する多くの国の法律に対応するた�
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
 TQID: https://experienceleague.adobe.com/rc1dM34EmsdcQn1gZYxuk1umalquicEvruNlFyRldLI
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
 source-wordcount: 2313
@@ -19,7 +36,7 @@ ht-degree: 0%
 
 # Cookie法のコンプライアンス
 
-Cookieとは、サイトへの各訪問者のコンピューターに保存され、情報の一時的な保管場所として使用される小さなファイルです。 Cookieに保存された情報は、ショッピング体験のパーソナライズ、訪問者のショッピングカートへのリンク、トラフィックパターンの測定、プロモーションの有効性の向上に使用されます。 Cookieの使用に関する多くの国の法律に対応するために、Adobe CommerceとMagento Open Sourceはマーチャントに顧客の同意を得るための選択肢を提供しています。 Adobe CommerceおよびMagento Open Sourceのデフォルト Cookieの一覧については、[Cookie リファレンス ](#default-cookies)を参照してください。
+Cookieとは、サイトへの各訪問者のコンピューターに保存され、情報の一時的な保管場所として使用される小さなファイルです。 Cookieに保存された情報は、ショッピング体験のパーソナライズ、訪問者のショッピングカートへのリンク、トラフィックパターンの測定、プロモーションの有効性の向上に使用されます。 Cookieの使用に関する多くの国の法律に対応するために、Adobe CommerceとMagento Open Sourceはマーチャントに顧客の同意を得るための選択肢を提供しています。 Adobe CommerceおよびMagento Open Sourceのデフォルト Cookieの一覧については、[Cookie リファレンス &#x200B;](#default-cookies)を参照してください。
 
 >[!NOTE]
 >
@@ -29,17 +46,17 @@ Cookieとは、サイトへの各訪問者のコンピューターに保存さ�
 
 Cookie制限モードが有効になっている場合、ストアへの訪問者には、フル機能の操作にCookieが必要であることが通知されます。 テーマに応じて、メッセージはヘッダーの上、フッターの下、またはページの他の場所に表示されます。 このメッセージは、プライバシーポリシーにリンクして詳細を確認し、「許可」ボタンをクリックして同意を得ることを訪問者に促します。 同意が与えられると、メッセージは消えます。
 
-[ プライバシーポリシー](privacy-policy.md)には、ストアの名前と連絡先情報を記載し、ストアで使用される各Cookieの目的を説明する必要があります。 詳しくは、[Cookie リファレンス ](#default-cookies)を参照してください。
+[&#x200B; プライバシーポリシー](privacy-policy.md)には、ストアの名前と連絡先情報を記載し、ストアで使用される各Cookieの目的を説明する必要があります。 詳しくは、[Cookie リファレンス &#x200B;](#default-cookies)を参照してください。
 
 >[!NOTE]
 >
 >プライバシーポリシーのURL キーを変更する場合は、新しいURL キーにトラフィックをリダイレクトするためのカスタム URL書き換えも作成する必要があります。 それ以外の場合、Cookie制限モード メッセージのリンクは`404 Page Not Found`を返します。
 
-![ ストアフロントの例 – Cookie制限に関する通知](./assets/storefront-cookie-restriction-message.png){width="600"}
+![&#x200B; ストアフロントの例 – Cookie制限に関する通知](./assets/storefront-cookie-restriction-message.png){width="600"}
 
 ### 手順1:Cookie制限モードを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. **[!UICONTROL General]**&#x200B;の下の左側のナビゲーションパネルで、**[!UICONTROL Web]**&#x200B;を選択します。
 
@@ -65,13 +82,13 @@ Cookie制限モードが有効になっている場合、ストアへの訪問�
 
 ### 手順2：プライバシーポリシーの更新
 
-会社が収集する情報とその使用方法を反映するように、[ プライバシーポリシー](privacy-policy.md)を更新します。
+会社が収集する情報とその使用方法を反映するように、[&#x200B; プライバシーポリシー](privacy-policy.md)を更新します。
 
 ## デフォルト Cookie
 
 Adobe CommerceおよびMagento Open SourceのデフォルトのCookieは、販売者が[GDPR](compliance-gdpr.md)などのプライバシー規制の要件を満たすのに役立つように、「免除/非免除」に分類されます。 顧客はこの情報をガイドとして利用し、法律顧問と相談して、包括的なプライバシー規制コンプライアンス戦略の一環として、プライバシーおよびCookie ポリシーを更新する必要があります。
 
-オンプレミスおよびクラウドのインストールには、次のCookieが[!DNL Commerce]によって「標準装備」で使用されます。 これらのCookieは、お客様が明示的に要求する機能によって必要になる場合があります。 セッション Cookieの有効期間について詳しくは、[ セッションの有効期間](../customers/customer-online-options.md)を参照してください。
+オンプレミスおよびクラウドのインストールには、次のCookieが[!DNL Commerce]によって「標準装備」で使用されます。 これらのCookieは、お客様が明示的に要求する機能によって必要になる場合があります。 セッション Cookieの有効期間について詳しくは、[&#x200B; セッションの有効期間](../customers/customer-online-options.md)を参照してください。
 
 これらのCookieの一部は、必要に応じて有効/無効などの設定オプションを提供する場合があります。
 
@@ -119,10 +136,10 @@ Adobe CommerceおよびMagento Open SourceのデフォルトのCookieは、販�
 
 ## 商品レコメンデーション Cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）以下のCookieは、Adobe Commerceのお客様に対する商品レコメンデーションで使用されます。 これらのCookieは、[DataServices モジュール ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)と共にインストールされます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）以下のCookieは、Adobe Commerceのお客様に対する商品レコメンデーションで使用されます。 これらのCookieは、[DataServices モジュール &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)と共にインストールされます。
 
 - `mg_dnt`: サイトでCookieの同意を管理するためのカスタムコードがある場合、[Adobe Commerce データ収集を制限](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie)できます。
-- `user_allowed_save_cookie`: [cookie制限モード ](#cookie-restriction-mode)に使用されます。
+- `user_allowed_save_cookie`: [cookie制限モード &#x200B;](#cookie-restriction-mode)に使用されます。
 - `authentication_flag`：買い物客がサインインしているか、ログアウトしているかを示します。 このCookieは、`dataservices_customer_id` Cookieと同時に更新されます。
 - `dataservices_customer_id`：買い物客がサインインしているか、ログアウトしているかを示します。 このCookieは、システム内の顧客の一意のIDを含みます。
 - `dataservices_customer_group`：顧客のグループを示します。 このCookieは、お客様のグループ IDの[sha1](https://en.wikipedia.org/wiki/SHA-1) チェックサムとして保存されます。
@@ -141,8 +158,8 @@ Adobe CommerceおよびMagento Open SourceのデフォルトのCookieは、販�
 
 ## その他のCookie
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）Adobe Commerceのお客様には次のCookieが設定されています。 これらのCookieは、[DataServices モジュール ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)と共にインストールされます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）Adobe Commerceのお客様には次のCookieが設定されています。 これらのCookieは、[DataServices モジュール &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)と共にインストールされます。
 
-- `mg`: Snowplow JavaScript トラッカーで設定します。 詳細については、[Snowplowのドキュメント ](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/)を参照してください。
+- `mg`: Snowplow JavaScript トラッカーで設定します。 詳細については、[Snowplowのドキュメント &#x200B;](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/)を参照してください。
 - `com.adobe.alloy.getTld`：現在のweb ページのホスト名を指定すると、これはhttps://publicsuffix.orgで説明されているように「公開サフィックス」ではない最上位のドメインです。 基本的に、これはCookieを受け入れることができる最も上のドメインです。 このCookieは[Alloy Web SDK](https://github.com/adobe/alloy)の一部です。
-- `aep-segments-membership`：買い物客がどのセグメントに属しているかなど、[ オーディエンス情報](/help/customers/audience-activation.md)が含まれます。
+- `aep-segments-membership`：買い物客がどのセグメントに属しているかなど、[&#x200B; オーディエンス情報](/help/customers/audience-activation.md)が含まれます。

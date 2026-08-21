@@ -4,11 +4,21 @@ description: クイック検索ボックスまたは高度な検索フォーム�
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
 TQID: https://experienceleague.adobe.com/66fWLxfEO03dyaOfxN0M-JlUPqupTY4txCRybKxF4n8
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
 source-wordcount: 949
@@ -20,11 +30,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->このページでは、[ ライブサーチ ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)とは異なる可能性のある標準検索機能について説明します。
+>このページでは、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)とは異なる可能性のある標準検索機能について説明します。
 
-_検索結果_ リストには、クイック検索ボックスまたは高度な検索フォームに入力された検索条件に一致するすべての製品が含まれます。 カタログ内のあらゆる商品リストは、基本的に同じコントロールを備えています。 唯一の違いは、一方が検索クエリの結果であり、もう一方の違いは[ ナビゲーション ](navigation.md)の結果であることです。
+_検索結果_ リストには、クイック検索ボックスまたは高度な検索フォームに入力された検索条件に一致するすべての製品が含まれます。 カタログ内のあらゆる商品リストは、基本的に同じコントロールを備えています。 唯一の違いは、一方が検索クエリの結果であり、もう一方の違いは[&#x200B; ナビゲーション &#x200B;](navigation.md)の結果であることです。
 
-結果は、グリッドまたはリストとしてフォーマットされ、属性の選択で並べ替えることができます。 ページに収まりきらない商品が存在する場合は、ページネーションのコントロールが表示されます。 これらのコントロールを使用して、あるページから次のページに移動します。 ページあたりのレコード数は、カタログフロントエンド設定によって決まります。 詳しくは、[製品リスト ](navigation-product-listings.md)を参照してください。
+結果は、グリッドまたはリストとしてフォーマットされ、属性の選択で並べ替えることができます。 ページに収まりきらない商品が存在する場合は、ページネーションのコントロールが表示されます。 これらのコントロールを使用して、あるページから次のページに移動します。 ページあたりのレコード数は、カタログフロントエンド設定によって決まります。 詳しくは、[製品リスト &#x200B;](navigation-product-listings.md)を参照してください。
 
 **Elasticsearch**&#x200B;の場合：
 
@@ -32,7 +42,7 @@ _検索結果_ リストには、クイック検索ボックスまたは高度�
 - `name`および`sku`個の製品属性に対してのみ、接頭辞による検索（部分的なキーワード検索）を標準でサポートしています。 その他のすべての製品属性は、キーワード全体で検索され、完全に一致します。
 - `name`と`sku`個の製品属性の検索結果は、完全一致ではなく、関連性に基づいています。 正確に一致する&#x200B;_製品名_&#x200B;または&#x200B;_SKU_&#x200B;など、最も関連性の高い一致が最初にリストされます。 完全一致を検索するには、顧客は検索クエリで二重引用符を使用できます。 例えば、`WSH12-32-Red`検索クエリでは、関連性で並べ替えられた複数の商品が返される場合があります。 しかし、`"WSH12-32-Red"`検索クエリでは、**_個が`sku`と正確に_**&#x200B;が一致する商品は1つしか返されません。
 
-![ ページネーション コントロールを使用した検索結果](./assets/storefront-search-results-shorts.png){width="700" zoomable="yes"}
+![&#x200B; ページネーション コントロールを使用した検索結果](./assets/storefront-search-results-shorts.png){width="700" zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -42,7 +52,7 @@ _検索結果_ リストには、クイック検索ボックスまたは高度�
 
 この手法では、属性を使用して2つの製品間のキーワードベースの関連付けを作成し、いずれかの製品を検索すると両方の製品の結果が返されるようにします。 キーワードマッピングを使用すると、検索結果で商品が表示されない場合に商品を宣伝できます。
 
-![ キーワードマッピングを使用した検索結果](./assets/storefront-search-results-extended.png){width="700" zoomable="yes"}
+![&#x200B; キーワードマッピングを使用した検索結果](./assets/storefront-search-results-extended.png){width="700" zoomable="yes"}
 
 次の例では、SKUに基づいたキーワードマッピングを使用しています。 いずれかのSKUを検索ボックスに入力すると、両方の製品が結果に表示されます。 製品バリエーションのSKUではなく、次の設定可能な製品のSKUがマッピングされます。
 
@@ -51,7 +61,7 @@ _検索結果_ リストには、クイック検索ボックスまたは高度�
 
 ### 手順1：属性の作成
 
-1. _[!UICONTROL Products]_リストで、`Montana Wind Jacket` （MJ03）を編集モードで開きます。
+1. _[!UICONTROL Products]_&#x200B;リストで、`Montana Wind Jacket` （MJ03）を編集モードで開きます。
 1. 右上隅の「**[!UICONTROL Add Attribute]**」をクリックします。
 1. _属性を選択_ ページで、**[!UICONTROL Create New Attribute]**&#x200B;をクリックします。
 1. 属性のプロパティを次のように入力します。
@@ -83,18 +93,18 @@ _検索結果_ リストには、クイック検索ボックスまたは高度�
 
    検索キーワード フィールドに、複数のSKUをスペースで区切って入力できます。 この例では、1つしか入力されていません。
 
-   検索キーワード ](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}を含む![属性セクション
+   検索キーワード ![&#128279;](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}を含む属性セクション
 
 1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
-1. **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**に移動し、**[!UICONTROL Page Cache]**を更新します。
+1. **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;に移動し、**[!UICONTROL Page Cache]**&#x200B;を更新します。
 
 ### 手順3:2つ目の商品のマッピング
 
-1. _[!UICONTROL Products]_リストで、`Chaz Kangaroo Hoodie` （MH01）を編集モードで開きます。
+1. _[!UICONTROL Products]_&#x200B;リストで、`Chaz Kangaroo Hoodie` （MH01）を編集モードで開きます。
 1. 下にスクロールして、**[!UICONTROL Attributes]** セクションを展開します。
 1. **[!UICONTROL Search Keywords]** フィールドに、他の製品のSKU `MJ03`を入力します。
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
-1. **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**に移動し、**[!UICONTROL Page Cache]**を更新します。
+1. **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;に移動し、**[!UICONTROL Page Cache]**&#x200B;を更新します。
 
 ### ステップ 4：ストアフロントでテストする
 
@@ -111,7 +121,7 @@ _検索結果_ リストには、クイック検索ボックスまたは高度�
 
 **_属性:_**&#x200B;の検索重みプロパティを設定するには
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. リストで属性を検索し、編集モードで開きます。
 

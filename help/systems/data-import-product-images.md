@@ -4,11 +4,20 @@ description: 各画像のパスとファイル名を使用して製品画像を�
 exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
 feature: Products, Data Import/Export, Media
 TQID: https://experienceleague.adobe.com/xqaM2qAUDV1yKXS5-90b7aQJUgEW-ZHg03UFo-dfKME
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 846
@@ -52,7 +61,7 @@ Commerceでは、アルファベット順に配置された商品画像用の独
 
    ![例 – CSV画像データの読み込み](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
 
-1. データを[ インポート ](data-import.md)する手順に従います。
+1. データを[&#x200B; インポート &#x200B;](data-import.md)する手順に従います。
 
 1. 読み込むファイルを選択したら、**[!UICONTROL Images File Directory]**&#x200B;の後に相対パスを入力します。
 
@@ -60,11 +69,11 @@ Commerceでは、アルファベット順に配置された商品画像用の独
    var/import/images
    ```
 
-   ![ データ読み込み画像ファイル ディレクトリ ](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
+   ![&#x200B; データ読み込み画像ファイル ディレクトリ &#x200B;](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
    >[!TIP]
    >
-   >`<Magento-root-folder>/var/import/images` ディレクトリを使用するには、_[!UICONTROL Images File Directory]_を空白のままにします。 Adobe CommerceおよびMagento Open Source バージョン 2.3.2以降では、これはデフォルトの読み込み画像ベースディレクトリです。
+   >`<Magento-root-folder>/var/import/images` ディレクトリを使用するには、_[!UICONTROL Images File Directory]_&#x200B;を空白のままにします。 Adobe CommerceおよびMagento Open Source バージョン 2.3.2以降では、これはデフォルトの読み込み画像ベースディレクトリです。
 
    1つの`sku`に複数の画像を読み込む場合は、画像を`additional_images`という名前の列に挿入します（まだ追加されていない場合は列を追加します）。コンマで区切ります。 例：`image02.jpg,image03.jpg`
 
@@ -78,7 +87,7 @@ Commerceでは、アルファベット順に配置された商品画像用の独
    https://example.com/images/image.jpg
    ```
 
-1. データを[ インポート ](data-import.md)する手順に従います。
+1. データを[&#x200B; インポート &#x200B;](data-import.md)する手順に従います。
 
 ## 方法3：リモートストレージを使用して画像を読み込む
 
@@ -90,7 +99,7 @@ Commerceでは、アルファベット順に配置された商品画像用の独
 
    >[!NOTE]
    >
-   >Adobe CommerceとMagento Open Source `2.3.2` リリース以降、_[!UICONTROL Images File Directory]_で指定されたパスは、画像の基本ディレクトリ `<remote-storage-root-folder>/var/import/images`に読み込むために連結されます。 以前のAdobe CommerceおよびMagento Open Source リリースでは、インポートプロセス中にフォルダーへのパスが指定されている限り、Commerce サーバー上で別のフォルダーを使用できます。
+   >Adobe CommerceとMagento Open Source `2.3.2` リリース以降、_[!UICONTROL Images File Directory]_&#x200B;で指定されたパスは、画像の基本ディレクトリ `<remote-storage-root-folder>/var/import/images`に読み込むために連結されます。 以前のAdobe CommerceおよびMagento Open Source リリースでは、インポートプロセス中にフォルダーへのパスが指定されている限り、Commerce サーバー上で別のフォルダーを使用できます。
 
 1. CSV データで、読み込む各画像ファイルの名前を、画像タイプ （`base_image`、`small_image`、`thumbnail_image`、または`additional_images`）に従って、正しい行（`sku`）に入力します。
 
@@ -102,7 +111,7 @@ Commerceでは、アルファベット順に配置された商品画像用の独
 
    ![例 – CSV画像データの読み込み](./assets/data-import-csv-image-files-default-local.png){width="600" zoomable="yes"}
 
-1. データを[ インポート ](data-import.md)する手順に従います。
+1. データを[&#x200B; インポート &#x200B;](data-import.md)する手順に従います。
 
 1. 読み込むファイルを選択したら、**[!UICONTROL Images File Directory]**&#x200B;の後に相対パスを入力します。
 
@@ -112,11 +121,11 @@ Commerceでは、アルファベット順に配置された商品画像用の独
 
    >[!TIP]
    >
-   >`<Magento-root-folder>/var/import/images` ディレクトリを使用するには、_[!UICONTROL Images File Directory]_を空白のままにします。 Adobe CommerceおよびMagento Open Source バージョン 2.3.2以降では、これはデフォルトの読み込み画像ベースディレクトリです。
+   >`<Magento-root-folder>/var/import/images` ディレクトリを使用するには、_[!UICONTROL Images File Directory]_&#x200B;を空白のままにします。 Adobe CommerceおよびMagento Open Source バージョン 2.3.2以降では、これはデフォルトの読み込み画像ベースディレクトリです。
 
    1つの`sku`に複数の画像を読み込む場合は、`additional_images`という名前の列に画像を挿入します（まだ追加されていない場合は列を追加します）。コンマで区切ります：`image02.jpg,image03.jpg`
 
-リモートストレージモジュールの有効化と管理について詳しくは、_設定ガイド_&#x200B;の[ リモートストレージの設定](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage)を参照してください。
+リモートストレージモジュールの有効化と管理について詳しくは、_設定ガイド_&#x200B;の[&#x200B; リモートストレージの設定](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage)を参照してください。
 
 >[!NOTE]
 >

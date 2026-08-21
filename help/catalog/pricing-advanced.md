@@ -4,12 +4,23 @@ description: Adobe Commerceの高度な価格設定について説明します�
 exl-id: 0f353341-1b6b-4093-bba9-4a1b88323f8a
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/HyKkLwxHzBuyvh-YhjsMec9cMua9owWF--r-DShKnj8
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
 source-wordcount: 873
@@ -23,7 +34,7 @@ Adobe CommerceとMagento Open Sourceは、プロモーションに使用でき�
 
 高度な価格設定により商品の価格を管理し、消費者がより多く購入するよう促し、サイトへのトラフィックを増加させ、古い在庫を取り除くより優れた価格を顧客に提供します。
 
-_[!UICONTROL Advanced Pricing]_設定は、特定の顧客グループまたは共有カタログで利用できる特別価格に必要な条件を定義します。 シンプル、バーチャル、ダウンロード可能、バンドルの各製品に適用できます。 他の製品タイプに割引価格を適用するには、[ カタログ価格ルール ](../merchandising-promotions/price-rules-catalog.md)を使用します。 詳しくは、[価格範囲](catalog-price-scope.md)を参照してください。
+_[!UICONTROL Advanced Pricing]_&#x200B;設定は、特定の顧客グループまたは共有カタログで利用できる特別価格に必要な条件を定義します。 シンプル、バーチャル、ダウンロード可能、バンドルの各製品に適用できます。 他の製品タイプに割引価格を適用するには、[&#x200B; カタログ価格ルール &#x200B;](../merchandising-promotions/price-rules-catalog.md)を使用します。 詳しくは、[価格範囲](catalog-price-scope.md)を参照してください。
 
 高度な価格データを商品ページと同期。 例えば、階層価格数量を更新すると、製品ページの値が更新されます。
 
@@ -80,7 +91,7 @@ _[!UICONTROL Advanced Pricing]_設定は、特定の顧客グループまたは�
 | [!UICONTROL Customer Group] | （必須）割引価格を受け取る資格を持つ顧客グループを特定します。 グループまたはカタログフィールドの値が変更されると、前の設定に一致する対応するカスタム価格行が共有カタログから削除されます。<br/>**[!UICONTROL ALL GROUPS]**– すべての顧客グループにルールを適用します。<br/>**[!UICONTROL NOT LOGGED IN]** - アカウントにログインしていないルール ゲストと顧客を適用します。 |
 | [!UICONTROL Quantity] | 価格帯を受け取るために必要な数量を指定します。 |
 | [!UICONTROL Price] | （必須）特定のweb サイト内の顧客グループのメンバーに対する固定価格または割引商品価格を指定します。 オプション：<br/>**[!UICONTROL Fixed]**- （デフォルト）割引価格は固定小数点以下桁で入力されます。 例えば、割引価格として「`9.99`」と入力します。<br/>**[!UICONTROL Discount]** – 割引価格は、基本製品価格に対する割合（%）で入力されます。 例えば、10%割引の場合は`10`と入力します。 |
-| ![ごみ箱アイコン ](../assets/icon-delete-trashcan-solid.png) | 現在のルールを削除します。 |
+| ![ごみ箱アイコン &#x200B;](../assets/icon-delete-trashcan-solid.png) | 現在のルールを削除します。 |
 | **[!UICONTROL Add]** | 新しいルール用に別の行を挿入します。 |
 
 {style="table-layout:auto"}
@@ -91,15 +102,15 @@ _[!UICONTROL Advanced Pricing]_設定は、特定の顧客グループまたは�
 
 {{b2b-feature}}
 
-![ カタログを共有するB2B ストアの詳細価格設定](./assets/product-pricing-advanced.png){width="600" zoomable="yes"}
+![&#x200B; カタログを共有するB2B ストアの詳細価格設定](./assets/product-pricing-advanced.png){width="600" zoomable="yes"}
 
 | 項目 | 説明 |
 |----|-----------|
-| [!UICONTROL Website] | グループ価格ルールが適用されるweb サイトを識別します。 このオプションは、インストールに複数のWeb サイトがある場合にのみ表示されます。 <br>**_Important:_**ALでは、[ カタログ価格範囲](catalog-price-scope.md)設定で_ Web サイト _を選択します。そうでない場合、設定された詳細価格は&#x200B;**すべての** Web サイトに表示されます。 |
+| [!UICONTROL Website] | グループ価格ルールが適用されるweb サイトを識別します。 このオプションは、インストールに複数のWeb サイトがある場合にのみ表示されます。 <br>**_Important:_**&#x200B;ALでは、[&#x200B; カタログ価格範囲](catalog-price-scope.md)設定で_ Web サイト _を選択します。そうでない場合、設定された詳細価格は&#x200B;**すべての** Web サイトに表示されます。 |
 | [!UICONTROL Group or Catalog] | （必須）割引価格を受け取る条件を満たす顧客グループまたは共有カタログを特定します。 グループまたはカタログフィールドの値が変更されると、前の設定に一致する対応するカスタム価格行が共有カタログから削除されます。<br/>**[!UICONTROL ALL GROUPS]**– すべての顧客グループにルールを適用します。 値は共有カタログに適用されず、高度な価格データの変更は共有カタログと同期されません。<br/>**[!UICONTROL NOT LOGGED IN]** - アカウントにログインしていないゲストと顧客のルールを適用します。<br/>**[!UICONTROL Shared Catalogs]**- ルールを特定の共有カタログに適用します。 |
 | 量 | 価格帯を受け取るために必要な数量を指定します。 |
 | [!UICONTROL Price] | （必須）特定のweb サイト内の顧客グループのメンバーに対する固定価格または割引商品価格を指定します。 オプション：<br/>**[!UICONTROL Fixed]**- （デフォルト）割引価格は固定小数点以下桁で入力されます。 例えば、割引価格として「`9.99`」と入力します。<br/>**[!UICONTROL Discount]** – 割引価格は、基本製品価格に対する割合（%）で入力されます。 例えば、10%割引の場合は`10`と入力します。 |
-| ![ごみ箱アイコン ](../assets/icon-delete-trashcan-solid.png) | 現在のルールを削除します。 |
+| ![ごみ箱アイコン &#x200B;](../assets/icon-delete-trashcan-solid.png) | 現在のルールを削除します。 |
 | **[!UICONTROL Add]** | 新しいルール用に別の行を挿入します。 |
 
 {style="table-layout:auto"}

@@ -4,11 +4,21 @@ description: ターゲットとなる購入者に製品をプロモーション�
 exl-id: 180352dc-65bf-4264-8287-9bf30f368ca1
 feature: Merchandising, Products
 TQID: https://experienceleague.adobe.com/mmA3M8qPKv36IeDNiVlolUmI-SqUbGew3UZqdOUCpUo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
 source-wordcount: 263
@@ -30,16 +40,16 @@ ht-degree: 0%
 
 ### アップセル
 
-[ アップセル商品](../catalog/related-products-up-sells-cross-sells.md#up-sells)は、類似している商品ですが、おそらく顧客が検討している商品よりも高品質で、より人気があり、利益率が高い商品です。
+[&#x200B; アップセル商品](../catalog/related-products-up-sells-cross-sells.md#up-sells)は、類似している商品ですが、おそらく顧客が検討している商品よりも高品質で、より人気があり、利益率が高い商品です。
 
 ### クロスセル
 
-[ クロスセル商品](../catalog/related-products-up-sells-cross-sells.md#cross-sells)は、チェックアウトプロセスが開始される前の直前の購入時に、ショッピングカートページで提供されます。
+[&#x200B; クロスセル商品](../catalog/related-products-up-sells-cross-sells.md#cross-sells)は、チェックアウトプロセスが開始される前の直前の購入時に、ショッピングカートページで提供されます。
 
 ## 関連する製品ルール
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [関連商品ルール ](product-related-rules.md)を使用すると、関連商品、アップセル、クロスセルとしてお客様に提示される商品の選択肢をターゲットにすることができます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [関連商品ルール &#x200B;](product-related-rules.md)を使用すると、関連商品、アップセル、クロスセルとしてお客様に提示される商品の選択肢をターゲットにすることができます。
 
 ## Adobe AIを活用した商品レコメンデーション
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [Adobe AIを活用した商品レコメンデーション ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview)は、人工知能とマシンラーニング（機械学習）のアルゴリズムを使用して、集約された訪問者データを詳細に分析することで、商品のリレーションシップを定義するプロセスを簡素化します。 このデータをAdobe Commerceカタログと組み合わせることで、買い物客にとって魅力的で関連性の高い、パーソナライズされた体験を実現できます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [Adobe AIを活用した商品レコメンデーション &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview)は、人工知能とマシンラーニング（機械学習）のアルゴリズムを使用して、集約された訪問者データを詳細に分析することで、商品のリレーションシップを定義するプロセスを簡素化します。 このデータをAdobe Commerceカタログと組み合わせることで、買い物客にとって魅力的で関連性の高い、パーソナライズされた体験を実現できます。

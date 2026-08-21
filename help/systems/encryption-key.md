@@ -6,11 +6,20 @@ role: Admin
 feature: System, Security
 badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/jC0eV49rzff4ZZ0idMG4ChWZh80Yz43ZTmZ9CjYFhnk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 536
@@ -28,7 +37,7 @@ Adobe CommerceとMagento Open Sourceは、暗号化キーを使用してパス�
 
 最初のインストール時に、Commerceで暗号化キーを生成するか、独自のキーを入力するように求められます。 暗号化キーツールを使用すると、必要に応じてキーを変更できます。 セキュリティを強化するために、暗号化キーは定期的に変更する必要があり、いつでも元のキーが侵害される可能性があります。
 
-技術情報については、_PHP開発者ガイド_&#x200B;の&#x200B;_インストールガイド_&#x200B;の[高度なオンプレミスインストール ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced)および[ データ再暗号化](https://developer.adobe.com/commerce/php/development/security/data-encryption)を参照してください。
+技術情報については、_PHP開発者ガイド_&#x200B;の&#x200B;_インストールガイド_&#x200B;の[高度なオンプレミスインストール &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced)および[&#x200B; データ再暗号化](https://developer.adobe.com/commerce/php/development/security/data-encryption)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -40,7 +49,7 @@ Adobe CommerceとMagento Open Sourceは、暗号化キーを使用してパス�
 
 次の手順では、端末へのアクセスが必要です。
 
-1. [ メンテナンスモード ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode)を有効にします。
+1. [&#x200B; メンテナンスモード &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode)を有効にします。
 
    ```bash
    bin/magento maintenance:enable
@@ -76,7 +85,7 @@ Adobe CommerceとMagento Open Sourceは、暗号化キーを使用してパス�
    encryption:key:change Change the encryption key inside the env.php file.
    ```
 
-   この出力が表示された場合は、次のCLI コマンドを実行し、エラーなしで完了することを確認します。 特定のシステム設定値または支払いフィールドを再暗号化する必要がある場合は、_PHP開発ガイド_&#x200B;の再暗号化](https://developer.adobe.com/commerce/php/development/security/data-encryption)に関する詳細な[ ガイドを参照してください。
+   この出力が表示された場合は、次のCLI コマンドを実行し、エラーなしで完了することを確認します。 特定のシステム設定値または支払いフィールドを再暗号化する必要がある場合は、_PHP開発ガイド_&#x200B;の再暗号化[&#128279;](https://developer.adobe.com/commerce/php/development/security/data-encryption)に関する詳細な ガイドを参照してください。
 
    ```bash
    bin/magento encryption:key:change
@@ -90,9 +99,9 @@ Adobe CommerceとMagento Open Sourceは、暗号化キーを使用してパス�
    >
    >この機能は廃止され、2.4.8で削除されました。 Adobeでは、CLIを使用して暗号化キーを変更することをお勧めします。
 
-   1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**に移動します。
+   1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**&#x200B;に移動します。
 
-      ![ システム暗号化キー](./assets/encryption-key.png){width="700" zoomable="yes"}
+      ![&#x200B; システム暗号化キー](./assets/encryption-key.png){width="700" zoomable="yes"}
 
    1. 次のいずれかの操作を行います。
 

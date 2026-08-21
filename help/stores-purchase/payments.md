@@ -4,12 +4,25 @@ description: Adobe CommerceとMagento Open Sourceでネイティブにサポー�
 exl-id: 474bf6df-96e2-4db3-ad3c-1804b5de33b0
 feature: Payments
 TQID: https://experienceleague.adobe.com/nu9qbRkc1OWOxkg-eERyZKuGwj0oc8wXDdSCMqGxe1I
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c32adafa-ed01-4b31-997e-2413013911b0
-subfeature_v2: id: f2261633-201d-46c5-8a66-999e70527a83
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+subfeature_v2:
+  - id: f2261633-201d-46c5-8a66-999e70527a83
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
 source-wordcount: 871
@@ -23,11 +36,11 @@ Adobe CommerceとMagento Open Sourceは、幅広い支払い方法とサービ�
 
 >[!TIP]
 >
->Adobe CommerceおよびMagento Open Sourceの決済サービスでは、サンドボックステストやシンプルな設定など、ターンキー型のセルフサービスソリューションを提供し、堅牢で安全な決済処理を実現します。 この強力なツールセットと、購入者に最適なエクスペリエンスを構築するために必要なinsightとコントロールを提供する方法について詳しくは、[決済サービスユーザーガイド ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)を参照してください。 これは、[Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview)のデフォルトの支払いソリューションです。
+>Adobe CommerceおよびMagento Open Sourceの決済サービスでは、サンドボックステストやシンプルな設定など、ターンキー型のセルフサービスソリューションを提供し、堅牢で安全な決済処理を実現します。 この強力なツールセットと、購入者に最適なエクスペリエンスを構築するために必要なinsightとコントロールを提供する方法について詳しくは、[決済サービスユーザーガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)を参照してください。 これは、[Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview)のデフォルトの支払いソリューションです。
 
 >[!NOTE]
 >
->インターネット経由でクレジットカードによる支払いを受け付けるビジネスのPCI （Payment Card Industry）によって設定された要件の概要を示す[PCI コンプライアンス ガイドライン ](../getting-started/compliance-pci.md)を確認します。
+>インターネット経由でクレジットカードによる支払いを受け付けるビジネスのPCI （Payment Card Industry）によって設定された要件の概要を示す[PCI コンプライアンス ガイドライン &#x200B;](../getting-started/compliance-pci.md)を確認します。
 
 ## 2.4の変更点
 
@@ -37,7 +50,7 @@ Adobe CommerceとMagento Open Sourceは、幅広い支払い方法とサービ�
 
 - **Amazon Pay**&#x200B;および&#x200B;**Klarna**: Adobe CommerceおよびMagento Open Source リリース 2.4.0 ～ 2.4.3には、これらのベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、これらの拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 Marketplaceでは、拡張機能の開発者が提供する最新のドキュメントにもアクセスできます。
 
-  これらのバンドル拡張機能のいずれかを有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 詳しくは、_アップグレードガイド_&#x200B;の[ アップグレードモジュール ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)を参照してください。
+  これらのバンドル拡張機能のいずれかを有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 詳しくは、_アップグレードガイド_&#x200B;の[&#x200B; アップグレードモジュール &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)を参照してください。
 
 ## オフラインのお支払い方法
 
@@ -48,7 +61,7 @@ Adobe CommerceとMagento Open Sourceには、いくつかのオフライン決�
 - [銀行振込お支払い](bank-transfer.md)
 - [小切手/マネーオーダー](check-money-order.md)
 - [発注](purchase-order.md)
-- [ アカウントでのお支払い](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2Bで利用可能）
+- [&#x200B; アカウントでのお支払い](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2Bで利用可能）
 
 ## オンライン決済の方法
 
@@ -57,14 +70,14 @@ Adobe CommerceとMagento Open Sourceは、世界中のあらゆる地域でマ�
 ### 推奨ソリューション
 
 - [決済サービス](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)
-- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [PayPal Express チェックアウト ](paypal-express-checkout.md)
+- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [PayPal Express チェックアウト &#x200B;](paypal-express-checkout.md)
 - [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [Braintree](braintree.md)
 
 ### その他のPayPal決済ソリューション
 
 [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-PayPal支払い方法のオプションについて詳しくは、[PayPal支払いソリューション ](paypal.md)を参照してください。
+PayPal支払い方法のオプションについて詳しくは、[PayPal支払いソリューション &#x200B;](paypal.md)を参照してください。
 
 #### オールインワン PayPal ソリューション
 
@@ -99,4 +112,4 @@ PayPal支払い方法のオプションについて詳しくは、[PayPal支払�
 
 [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-支払いに関する問題のトラブルシューティングについては、[ サポート ナレッジベース ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)を参照してください。
+支払いに関する問題のトラブルシューティングについては、[&#x200B; サポート ナレッジベース &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)を参照してください。

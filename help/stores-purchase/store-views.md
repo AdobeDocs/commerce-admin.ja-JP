@@ -4,10 +4,16 @@ description: Adobe Commerceでストアビューを追加および編集する�
 exl-id: aa1f7f1c-a6d0-4ec2-83fe-15fb9646634a
 feature: Site Management, System
 TQID: https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
 source-wordcount: 300
@@ -23,13 +29,13 @@ ht-degree: 0%
 
 ## ストアビューを追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**&#x200B;に移動します。
 
    ![すべての店舗](./assets/stores-all.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL Create Store View]**&#x200B;をクリックします。
 
-   ![ ストアビューを作成](./assets/create-store-view.png){width="600" zoomable="yes"}
+   ![&#x200B; ストアビューを作成](./assets/create-store-view.png){width="600" zoomable="yes"}
 
 1. このビューの親ストアに&#x200B;**[!UICONTROL Store]**&#x200B;を設定します。
 
@@ -60,13 +66,13 @@ Adobe CommerceまたはMagento Open Sourceのインストール環境にマル�
 
 {style="table-layout:auto"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**&#x200B;に移動します。
 
-1. グリッドの&#x200B;_[!UICONTROL Store View]_列で、編集するビューの名前をクリックします。
+1. グリッドの&#x200B;_[!UICONTROL Store View]_&#x200B;列で、編集するビューの名前をクリックします。
 
-   既定のビューを編集する際、_[!UICONTROL Store]_および_[!UICONTROL Status]_ フィールドは使用できません。
+   既定のビューを編集する際、_[!UICONTROL Store]_&#x200B;および&#x200B;_[!UICONTROL Status]_ フィールドは使用できません。
 
-   ![ ストアビュー – デフォルトビューを編集](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
+   ![&#x200B; ストアビュー – デフォルトビューを編集](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、次のフィールドを更新します。
 

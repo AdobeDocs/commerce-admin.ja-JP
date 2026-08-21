@@ -5,10 +5,17 @@ exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
 badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/XAMnUUL9JH0atN6vlwwe2l9x4P-uAqJA3BH-h9LbIXU
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
 source-wordcount: 1005
@@ -32,7 +39,7 @@ _campaign_&#x200B;という用語は、スケジュールされた変更のレ�
 
 スケジュールされた更新はすべて連続して適用されます。つまり、どのエンティティも一度に1つのスケジュールされた更新のみを持つことができます。 スケジュールされた更新は、その時間枠内のすべてのストアビューに適用されます。 その結果、エンティティは、異なるストアビューに対して異なるスケジュールされた更新を同時に行うことはできません。 現在のスケジュールされた更新の影響を受けない、すべてのストアビュー内のすべてのエンティティ属性値は、以前のスケジュールされた更新の値ではなく、デフォルト値から取得されます。
 
-次のいずれかのオブジェクトに対して新しいスケジュールされた更新が作成されると、対応するキャンペーンがプレースホルダーとして作成され、ページの上部に&#x200B;_[!UICONTROL Scheduled Changes]_ボックスが表示されます。 プレースホルダーキャンペーンには開始日がありますが、終了日はありません。 キャンペーンの一環としてコンテンツの更新をスケジュールし、その変更を日付、時間、またはストアビューごとにプレビューして共有することができます。 1つのオブジェクトに対して新しいキャンペーンを作成した後、他のオブジェクトのスケジュールされた更新として割り当てることができます。
+次のいずれかのオブジェクトに対して新しいスケジュールされた更新が作成されると、対応するキャンペーンがプレースホルダーとして作成され、ページの上部に&#x200B;_[!UICONTROL Scheduled Changes]_&#x200B;ボックスが表示されます。 プレースホルダーキャンペーンには開始日がありますが、終了日はありません。 キャンペーンの一環としてコンテンツの更新をスケジュールし、その変更を日付、時間、またはストアビューごとにプレビューして共有することができます。 1つのオブジェクトに対して新しいキャンペーンを作成した後、他のオブジェクトのスケジュールされた更新として割り当てることができます。
 
 - [特定可能](../catalog/product-scheduled-changes.md)
 - [カテゴリ](../catalog/category-scheduled-changes.md)
@@ -61,7 +68,7 @@ _campaign_&#x200B;という用語は、スケジュールされた変更のレ�
 
    >[!NOTE]
    >
-   >キャンペーンが複数のエンティティにリンクされている場合、キャンペーンは[ コンテンツステージングダッシュボード ](content-staging-dashboard.md)からのみ編集できます。
+   >キャンペーンが複数のエンティティにリンクされている場合、キャンペーンは[&#x200B; コンテンツステージングダッシュボード &#x200B;](content-staging-dashboard.md)からのみ編集できます。
 
 1. **ベースラインコンテンツの復元**
 
@@ -77,9 +84,9 @@ _campaign_&#x200B;という用語は、スケジュールされた変更のレ�
 
 ## [!UICONTROL Content Staging] ダッシュボード
 
-[!UICONTROL Content Staging] [ ダッシュボード ](content-staging-dashboard.md)は、予定されているすべてのサイトの変更と更新を可視化します。 キャンペーンのどの日、日付の範囲、または期間でも、プレビューして他のユーザーと共有することができます。
+[!UICONTROL Content Staging] [&#x200B; ダッシュボード &#x200B;](content-staging-dashboard.md)は、予定されているすべてのサイトの変更と更新を可視化します。 キャンペーンのどの日、日付の範囲、または期間でも、プレビューして他のユーザーと共有することができます。
 
-![ ステージングダッシュボード ](./assets/content-staging-dashboard-grid.png){width="600" zoomable="yes"}
+![&#x200B; ステージングダッシュボード &#x200B;](./assets/content-staging-dashboard-grid.png){width="600" zoomable="yes"}
 
 ## コンテンツのステージングデモ
 

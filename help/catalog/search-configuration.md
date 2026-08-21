@@ -4,11 +4,21 @@ description: ストアのカタログ検索を設定する方法について説�
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
 TQID: https://experienceleague.adobe.com/8--7GCHftJl4i1oLVSQqII9Odv-mOXOqrdIyyXmGwrE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
 source-wordcount: 834
@@ -18,7 +28,7 @@ ht-degree: 0%
 
 # カタログ検索の設定
 
-カタログ検索設定には2つのバリエーションがあります。 最初の方法では、[ ライブサーチ ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)がインストールされたときに使用できる設定について説明します。 2つ目の方法は、[OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview){:target="_blank"}を使用したネイティブ Adobe Commerceの設定について説明します。
+カタログ検索設定には2つのバリエーションがあります。 最初の方法では、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)がインストールされたときに使用できる設定について説明します。 2つ目の方法は、[OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview){:target="_blank"}を使用したネイティブ Adobe Commerceの設定について説明します。
 
 >[!NOTE]
 >
@@ -26,13 +36,13 @@ ht-degree: 0%
 
 ## 方法1: [!DNL Live Search]のAdobe Commerce
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
 1. **[!UICONTROL Catalog Search]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ ライブサーチのカタログ検索](../configuration-reference/catalog/assets/catalog-search-live-search.png){width="600" zoomable="yes"}
+   ![&#x200B; ライブサーチのカタログ検索](../configuration-reference/catalog/assets/catalog-search-live-search.png){width="600" zoomable="yes"}
 
    これらのオプションの詳細なリストについては、_設定リファレンス_&#x200B;の「[Adobe Commerce with Live Search](../configuration-reference/catalog/catalog.md#adobe-commerce-with-live-search)」を参照してください。
 
@@ -42,7 +52,7 @@ ht-degree: 0%
 
    デフォルト値は`100`です。 `0`の値を入力すると、2回目の入力時にすべての検索語と結果がキャッシュされます。
 
-1. 返される結果に使用できる最大行数を[ ストアフロント ポップオーバー](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)で変更するには、別の&#x200B;**[!UICONTROL Autocomplete Limit]**&#x200B;値を入力します。
+1. 返される結果に使用できる最大行数を[&#x200B; ストアフロント ポップオーバー](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)で変更するには、別の&#x200B;**[!UICONTROL Autocomplete Limit]**&#x200B;値を入力します。
 
    行数を制限すると、検索のパフォーマンスが向上し、返されるリストのサイズが小さくなります。 デフォルト値は`8`行です。
 
@@ -59,7 +69,7 @@ ht-degree: 0%
 >
 >OpenSearchとElasticsearchでは、サフィックスによる検索を標準でサポートしていません。 例えば、キーワードにSKUの最後の部分のみが含まれている場合、SKUによる検索で期待される結果が返されない場合があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 

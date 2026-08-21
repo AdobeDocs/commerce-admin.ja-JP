@@ -5,12 +5,30 @@ exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
 badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/fXuvq380YffN-gCcGRcpwN5x-bc1EHcyrUaDFctaLKo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-subfeature_v2: id: ae1249e3-cd01-42c9-8377-4223879bf9deid: bd0aa680-a881-4f35-9dcf-843b0574bc5f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2:
+  - id: ae1249e3-cd01-42c9-8377-4223879bf9de
+  - id: bd0aa680-a881-4f35-9dcf-843b0574bc5f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
 source-wordcount: 1224
@@ -24,7 +42,7 @@ Commerce Intelligence製品を利用して、ビジネス上の的確な意思�
 
 ## [!DNL Commerce Intelligence] アカウント
 
-Adobeを通じて[!DNL Commerce Intelligence] アカウントをアクティブ化すると、約70件のレポートを含む5つのダッシュボードにアクセスできます。 これらのレポートは、データに関するインサイトを提供し、「注文が前月比でどのように増加しているか」、「最もロイヤルティの高い顧客は誰か」、「クーポン戦略は機能しているか？」などの質問に回答することを目的としています。 このツールセットについて詳しくは、[Commerce Intelligence ユーザーガイド ](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/guide-overview)を参照してください。
+Adobeを通じて[!DNL Commerce Intelligence] アカウントをアクティブ化すると、約70件のレポートを含む5つのダッシュボードにアクセスできます。 これらのレポートは、データに関するインサイトを提供し、「注文が前月比でどのように増加しているか」、「最もロイヤルティの高い顧客は誰か」、「クーポン戦略は機能しているか？」などの質問に回答することを目的としています。 このツールセットについて詳しくは、[Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/guide-overview)を参照してください。
 
 ## [!DNL Advanced Reporting]
 
@@ -36,7 +54,7 @@ Adobeを通じて[!DNL Commerce Intelligence] アカウントをアクティブ�
 >
 >[!DNL Adobe Commerce Intelligence]との互換性の問題により、Commerceは[!DNL Commerce Intelligence]のソースデータファイルのメディアとしてAWS S3 バケットを使用する高度なレポートを一時的にサポートできません。
 
-![高度なレポート ダッシュボード ](./assets/reporting-advanced.png){width="700"}
+![高度なレポート ダッシュボード &#x200B;](./assets/reporting-advanced.png){width="700"}
 
 ### 要件定義
 
@@ -46,7 +64,7 @@ Adobeを通じて[!DNL Commerce Intelligence] アカウントをアクティブ�
 
 * エラーなしで[!DNL Commerce]が正常にインストールまたはアップグレードされている必要があります。
 
-* [ ストア URL](../stores-purchase/store-urls.md)の[!DNL Commerce]設定では、ストアビューの&#x200B;**[!UICONTROL Base URL (Secure)]**&#x200B;設定がセキュア URLを指している必要があります。 例：`https://yourdomain.com`。
+* [&#x200B; ストア URL](../stores-purchase/store-urls.md)の[!DNL Commerce]設定では、ストアビューの&#x200B;**[!UICONTROL Base URL (Secure)]**&#x200B;設定がセキュア URLを指している必要があります。 例：`https://yourdomain.com`。
 
 * ストア URLの[!DNL Commerce]設定では、**[!UICONTROL Use Secure URLs on Storefront]**&#x200B;と&#x200B;**[!UICONTROL Use Secure URLs in Admin]**&#x200B;を`Yes`に設定する必要があります。
 
@@ -61,7 +79,7 @@ Adobeを通じて[!DNL Commerce Intelligence] アカウントをアクティブ�
 
 [!DNL Commerce]設定では、[[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md)はデフォルトで有効になっており、cronが[設定](../configuration-reference/advanced/system.md)で実行されている場合は自動的に開始されます。 サブスクリプションを確立する試みは、成功するまで、次の24時間にわたって各時間の開始時に開始されます。 サブスクリプションが正常に確立されるまで、サブスクリプションのステータスは「保留中」です。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. **[!UICONTROL General]**&#x200B;が展開されている左側のナビゲーションパネルで、**[!UICONTROL Advanced Reporting]**&#x200B;を選択し、次の操作を行います。
 
@@ -84,7 +102,7 @@ Adobeを通じて[!DNL Commerce Intelligence] アカウントをアクティブ�
 1. 次のいずれかの操作を行います。
 
    * _管理者_ サイドバーで、**[!UICONTROL Dashboard]**&#x200B;を選択します。 次に、**[!UICONTROL Go to Advanced Reporting]**&#x200B;をクリックします。
-   * _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Business Intelligence]_>**[!UICONTROL Advanced Reporting]**に移動します。
+   * _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Business Intelligence]_>**[!UICONTROL Advanced Reporting]**&#x200B;に移動します。
 
    [!DNL Advanced Reporting] ダッシュボードには、注文、顧客、製品の簡単な概要が表示されます。 下にスクロールして、完全なダッシュボードを表示します。
 
@@ -93,13 +111,13 @@ Adobeを通じて[!DNL Commerce Intelligence] アカウントをアクティブ�
    * 任意のデータポイントにカーソルを合わせると、詳細が表示されます。
    * すべてのダッシュボードレポートを表示するには、各タブをクリックします。
 
-   ![ データポイント ](./assets/reporting-advanced-data-point.png){width="600" zoomable="yes"}
+   ![&#x200B; データポイント &#x200B;](./assets/reporting-advanced-data-point.png){width="600" zoomable="yes"}
 
 ## [!DNL Advanced Reporting]個のデータ リソースへのアクセス
 
 詳細レポート ダッシュボードの右上隅にある「**[!UICONTROL Additional Resources]**」をクリックします。
 
-![高度なレポート データ リソース ](./assets/advanced-reporting-your-data-resources.png){width="600" zoomable="yes"}
+![高度なレポート データ リソース &#x200B;](./assets/advanced-reporting-your-data-resources.png){width="600" zoomable="yes"}
 
 ## トラブルシューティング
 
@@ -107,7 +125,7 @@ Adobeを通じて[!DNL Commerce Intelligence] アカウントをアクティブ�
 
 ### 統合がアクティブであることを確認します
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integration]**&#x200B;に移動します。
 
 1. **[!UICONTROL Magento Analytics user]**&#x200B;統合がリストに表示され、**[!UICONTROL Status]**&#x200B;が`Active`であることを確認します。
 
@@ -121,7 +139,7 @@ Adobeを通じて[!DNL Commerce Intelligence] アカウントをアクティブ�
 
    * 拡張機能の統合トークンのリストが完了していることを確認します。 次に、**完了**&#x200B;をクリックします。
 
-     ![統合トークン ](./assets/advanced-reporting-integration-tokens-for-extensions.png){width="600"}
+     ![統合トークン &#x200B;](./assets/advanced-reporting-integration-tokens-for-extensions.png){width="600"}
 
 1. 統合`Magento Analytics user`が再承認されたことを示すメッセージを探します。
 

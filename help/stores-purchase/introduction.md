@@ -3,12 +3,23 @@ title: ストア体験と購入体験の概要
 description: オンラインストアの構築と管理に使用される機能と、顧客の購買体験について説明します。
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
 TQID: https://experienceleague.adobe.com/wP31dNMG9kiajirB5WTj-lEhTtHqKnl4FfqPsa3tFxs
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
 source-wordcount: 673
@@ -24,15 +35,15 @@ Adobe CommerceとMagento Open Sourceは、オンラインストアを構築お�
 
 Adobe CommerceまたはMagento Open Sourceの1つのインスタンスで、異なる属性やコンテンツを使用する複数のサイト、ストア、ストアビューをサポートできます。 典型的なシナリオは、異なるドメインにさまざまなオプションを持つストアを設定することです。 たとえば、あるドメインにあるカテゴリと商品のセットと、別の言語にある別のドメインにあるカテゴリと商品のセットを使用することができます。 マーチャントは、管理画面でweb サイト、ストア、ストアビューを設定できます。
 
-[階層](stores.md)が定義されている場合、[ スコープ ](../getting-started/websites-stores-views.md#scope-settings)に従って構成設定を適用して、各サイト、ストア、およびストアビューで製品カタログとストアフロントのエクスペリエンスを提供することができます。
+[階層](stores.md)が定義されている場合、[&#x200B; スコープ &#x200B;](../getting-started/websites-stores-views.md#scope-settings)に従って構成設定を適用して、各サイト、ストア、およびストアビューで製品カタログとストアフロントのエクスペリエンスを提供することができます。
 
 ## POS
 
-Adobe CommerceとMagento Open Sourceは、注文が送信される前に、すべての商品のSKUと在庫状況を自動的に確認することで、注文ミスを減らします。 トランザクションから配信まで、最適な購入エクスペリエンスを提供するように、[買い物かご](cart.md)と[ チェックアウトオプション ](checkout-process.md)を設定できます。 アカウントにログインしている顧客は、多くの情報が既にアカウント内にあるため、チェックアウトをすばやく完了できます。 _チェックアウト_ ページは、注文トランザクションを完了するためのプロセスの各ステップを通じて顧客をリードします。 [即時購入](checkout-instant-purchase.md)を有効にすると、顧客はアカウントに保存されている情報を使用して、チェックアウトプロセスをスピードアップできます。
+Adobe CommerceとMagento Open Sourceは、注文が送信される前に、すべての商品のSKUと在庫状況を自動的に確認することで、注文ミスを減らします。 トランザクションから配信まで、最適な購入エクスペリエンスを提供するように、[買い物かご](cart.md)と[&#x200B; チェックアウトオプション &#x200B;](checkout-process.md)を設定できます。 アカウントにログインしている顧客は、多くの情報が既にアカウント内にあるため、チェックアウトをすばやく完了できます。 _チェックアウト_ ページは、注文トランザクションを完了するためのプロセスの各ステップを通じて顧客をリードします。 [即時購入](checkout-instant-purchase.md)を有効にすると、顧客はアカウントに保存されている情報を使用して、チェックアウトプロセスをスピードアップできます。
 
 >[!TIP]
 >
->![Adobe Commerce B2B](../assets/b2b.svg) Adobe Commerce B2Bのインストールと有効化を使用すると、会社アカウントに関連付けられたお客様に対して&#x200B;_クイックオーダー_&#x200B;を設定できます。 この機能を利用すれば、顧客が注文する商品の名前またはSKUを把握したうえで、数回のクリックで注文プロセスを完了できます。 会社アカウントの交渉可能な見積のサポートを設定することもできます。 B2B機能について詳しくは、[Adobe Commerce B2B ユーザーガイド ](/help/b2b/introduction.md)を参照してください。
+>![Adobe Commerce B2B](../assets/b2b.svg) Adobe Commerce B2Bのインストールと有効化を使用すると、会社アカウントに関連付けられたお客様に対して&#x200B;_クイックオーダー_&#x200B;を設定できます。 この機能を利用すれば、顧客が注文する商品の名前またはSKUを把握したうえで、数回のクリックで注文プロセスを完了できます。 会社アカウントの交渉可能な見積のサポートを設定することもできます。 B2B機能について詳しくは、[Adobe Commerce B2B ユーザーガイド &#x200B;](/help/b2b/introduction.md)を参照してください。
 
 ## ショッピング支援
 
@@ -58,12 +69,12 @@ Adobe CommerceとMagento Open Sourceは、注文が送信される前に、す�
 
 - [発送](shipments.md) ページには、発送準備が整った各請求書の発送レコードが一覧表示されます。
 
-- [ クレジットメモ ](credit-memos.md) ページでは、顧客に支払われる金額を示す文書であるクレジットメモを処理および管理できます。 金額は購入に適用されるか、顧客に返金されます。
+- [&#x200B; クレジットメモ &#x200B;](credit-memos.md) ページでは、顧客に支払われる金額を示す文書であるクレジットメモを処理および管理できます。 金額は購入に適用されるか、顧客に返金されます。
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [返品](returns.md) ページには、現在返品された商品リクエスト（RMA）が一覧表示され、新しい返品リクエストを入力するために使用されます。
 
-- [ トランザクション ](transactions.md) ページには、ストアと支払いシステムの間で行われたすべての支払いアクティビティが一覧表示され、より詳細な情報にアクセスできます。
+- [&#x200B; トランザクション &#x200B;](transactions.md) ページには、ストアと支払いシステムの間で行われたすべての支払いアクティビティが一覧表示され、より詳細な情報にアクセスできます。
 
 ## 発送
 
-調査によると、顧客が複数の[配信方法](delivery.md)を選択できる店舗は、単一の方法を使用する店舗よりもコンバージョン率が高いことが示されています。 管理者は、販売者が複数の配送方法と[配送業者](carriers.md)を設定し、[配送ラベル ](shipping-labels.md)を印刷するために使用できる様々なツールを提供します。
+調査によると、顧客が複数の[配信方法](delivery.md)を選択できる店舗は、単一の方法を使用する店舗よりもコンバージョン率が高いことが示されています。 管理者は、販売者が複数の配送方法と[配送業者](carriers.md)を設定し、[配送ラベル &#x200B;](shipping-labels.md)を印刷するために使用できる様々なツールを提供します。

@@ -4,11 +4,20 @@ description: Commerce管理者の[!UICONTROL Catalog] > [!UICONTROL Inventory] �
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
 TQID: https://experienceleague.adobe.com/kxlKhWRjFDUH97FDenycl4nU1QdBWzceDCKfhZ0MTAc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 1224
@@ -26,7 +35,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Stock Options]
 
-![ ストックオプション ](./assets/catalog-inventory-stock-options.png)<!-- zoom -->
+![&#x200B; ストックオプション &#x200B;](./assets/catalog-inventory-stock-options.png)<!-- zoom -->
 
 <!-- [Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
 
@@ -44,7 +53,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Stock Options]
 
-![商品ストックオプション ](./assets/catalog-inventory-product-stock-options.png)<!-- zoom -->
+![商品ストックオプション &#x200B;](./assets/catalog-inventory-product-stock-options.png)<!-- zoom -->
 
 <!-- [Product Stock Options](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
 
@@ -75,8 +84,8 @@ ht-degree: 0%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Run asynchronously] | グローバル | ソースの割り当て、ソースの割り当て解除、および在庫のソースへの転送[など、一括製品アクションに対して一括操作を非同期で実行するかどうかを決定します[bulk](../../inventory-management/bulk-assignment.md)。 ](../../inventory-management/inventory-transfer.md)_[!UICONTROL Asynchronous batch size]_までの一括アクションを収集し、それらのアクションを実行します。 この機能はデフォルトで無効になっています。 有効にする前に、一括アクションでパフォーマンスを確認することをお勧めします。 オプション：<br/>**`Yes`**- [!DNL Inventory Management]のすべての一括操作を非同期で実行します。 有効にするには、非同期キューマネージャーを設定する必要があります。<br/>**`No`**- デフォルト。 一括操作を非同期で実行しません。 |
-| [!UICONTROL Asynchronous batch size] | グローバル | **[!UICONTROL Run asynchronously]**&#x200B;を`Yes`に設定して、_[!UICONTROL Asynchronous batch size]_フィールドの値を入力します。 <br/> デフォルトのバッチサイズは100です。 一括プロセスがこの量に達すると、実行されます。 |
+| [!UICONTROL Run asynchronously] | グローバル | ソースの割り当て、ソースの割り当て解除、および在庫のソースへの転送[&#128279;](../../inventory-management/inventory-transfer.md)など、一括製品アクションに対して一括操作を非同期で実行するかどうかを決定します[bulk](../../inventory-management/bulk-assignment.md)。 &#x200B;_[!UICONTROL Asynchronous batch size]_&#x200B;までの一括アクションを収集し、それらのアクションを実行します。 この機能はデフォルトで無効になっています。 有効にする前に、一括アクションでパフォーマンスを確認することをお勧めします。 オプション：<br/>**`Yes`**- [!DNL Inventory Management]のすべての一括操作を非同期で実行します。 有効にするには、非同期キューマネージャーを設定する必要があります。<br/>**`No`**- デフォルト。 一括操作を非同期で実行しません。 |
+| [!UICONTROL Asynchronous batch size] | グローバル | **[!UICONTROL Run asynchronously]**&#x200B;を`Yes`に設定して、_[!UICONTROL Asynchronous batch size]_&#x200B;フィールドの値を入力します。 <br/> デフォルトのバッチサイズは100です。 一括プロセスがこの量に達すると、実行されます。 |
 
 {style="table-layout:auto"}
 

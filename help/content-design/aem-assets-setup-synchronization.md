@@ -4,11 +4,20 @@ description: Adobe Commerce プロジェクトとExperience Manager Assets プ�
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
 TQID: https://experienceleague.adobe.com/c31KPRTUtXyMBCFiOEMPS7erhR3d-dQoxdB5ScgN1tk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
 source-wordcount: 560
@@ -32,7 +41,7 @@ AEM Assets プロジェクトを特定したら、Adobe CommerceとAEM Assets間
 
 - [AEM Assets パッケージのインストール](aem-assets-configure-aem.md)
 
-- [Adobe Commerce パッケージ ](aem-assets-configure-commerce.md)をインストールして拡張機能を追加し、拡張機能を使用するために必要な資格情報と接続を生成します。
+- [Adobe Commerce パッケージ &#x200B;](aem-assets-configure-commerce.md)をインストールして拡張機能を追加し、拡張機能を使用するために必要な資格情報と接続を生成します。
 
 - Commerce向けAEM Assets統合の有効化をリクエストするためのサポートチケットを作成します。 チケットには、Commerceに接続するAEM Assets オーサリング環境用の&#x200B;**[!UICONTROL Program ID]**、**[!UICONTROL Environment ID]**&#x200B;および&#x200B;**[!UICONTROL IMS Org ID]**&#x200B;が含まれています。
 
@@ -77,7 +86,7 @@ AEM Assets プロジェクトを特定したら、Adobe CommerceとAEM Assets間
 
 ### カスタムドメイン URLの設定
 
-販売者がAEM ダッシュボードで[ カスタムドメイン名](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank}を設定した場合は、Commerceでこの&#x200B;**カスタムドメイン URL**&#x200B;を追加する必要があります。これにより、AEM Assets統合で使用できます。
+販売者がAEM ダッシュボードで[&#x200B; カスタムドメイン名](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank}を設定した場合は、Commerceでこの&#x200B;**カスタムドメイン URL**&#x200B;を追加する必要があります。これにより、AEM Assets統合で使用できます。
 
 1. **[!UICONTROL Store]** / 設定/ **[!UICONTROL ADOBE SERVICES]** / **[!UICONTROL AEM Assets Integration]**&#x200B;に移動します。
 
