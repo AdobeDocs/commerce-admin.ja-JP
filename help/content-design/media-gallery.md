@@ -84,4 +84,4 @@ Adobe CommerceまたはMagento Open Source 2.4では、新しい&#x200B;_enhance
 
 [!DNL Media Gallery]について詳しくは、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411046?captions=jpn&quality=12&learn=on)

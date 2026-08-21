@@ -145,7 +145,7 @@ ht-degree: 0%
 
 このビデオでは、ユーザーの役割の管理について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443508?captions=jpn&quality=12&learn=on)
 
 ## 役割のリソース
 
