@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 352
+source-wordcount: 353
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Adobe CommerceまたはMagento Open Source 2.4では、新しい&#x200B;_enhance
 
 >[!NOTE]
 >
->新しい[!DNL Media Gallery]の完全な機能を使用するには、`media.gallery.synchronization`および`media.content.synchronization` キューのコンシューマーを最初の同期のために開始する必要があります。 詳しくは、_設定ガイド_&#x200B;の「[&#x200B; メッセージキューの管理](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ja)」を参照してください。
+>新しい[!DNL Media Gallery]の完全な機能を使用するには、`media.gallery.synchronization`および`media.content.synchronization` キューのコンシューマーを最初の同期のために開始する必要があります。 詳しくは、_設定ガイド_&#x200B;の「[&#x200B; メッセージキューの管理](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)」を参照してください。
 
 ## 新しい[!DNL Media Gallery]にアクセス
 

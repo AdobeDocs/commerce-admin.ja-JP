@@ -24,9 +24,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 848
+source-wordcount: 836
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Adobe Commerceは、複数のプロバイダーの2FA方式をサポートして
 
 >[!NOTE]
 >
->Adobe Identity Management サービス（IMS）認証を有効にしているストアでは、ネイティブのAdobe CommerceとMagento Open Source 2FAが無効になっています。 Adobeの資格情報を使用してCommerce インスタンスにログインしている管理者ユーザーは、多くの管理者タスクで再認証を行う必要はありません。 認証は、管理者ユーザーが現在のセッションにログインしたときにAdobe IMSによって処理されます。 [Adobe Identity Management Service （IMS）統合の概要](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=ja)を参照してください。
+>Adobe Identity Management サービス（IMS）認証を有効にしているストアでは、ネイティブのAdobe CommerceとMagento Open Source 2FAが無効になっています。 Adobeの資格情報を使用してCommerce インスタンスにログインしている管理者ユーザーは、多くの管理者タスクで再認証を行う必要はありません。 認証は、管理者ユーザーが現在のセッションにログインしたときにAdobe IMSによって処理されます。 [Adobe Identity Management Service （IMS）統合の概要](/help/getting-started/adobe-ims-integration-overview.md)を参照してください。
 
 この[&#x200B; ビデオ デモ &#x200B;](https://video.tv.adobe.com/v/339104?quality=12&learn=on)では、管理画面での2要素認証の概要を説明しています。
 

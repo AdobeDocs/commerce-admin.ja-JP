@@ -23,9 +23,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 3350
+source-wordcount: 3358
 ht-degree: 0%
 
 ---
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この節で説明する標準的な検索設定は、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ja)で異なります。
+>この節で説明する標準的な検索設定は、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)で異なります。
 
 <!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | ストアビュー | _Popular Search Terms_&#x200B;がストアに実装されているかどうかを判断します。 この設定は、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ja)を使用するストアには適用されません。 オプション：`Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | ストアビュー | _Popular Search Terms_&#x200B;がストアに実装されているかどうかを判断します。 この設定は、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)を使用するストアには適用されません。 オプション：`Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | ストアビュー | htmlやhtmなどの接尾辞を製品URLに適用するかどうかを指定します。 使用する場合は、自動的に適用されるので、接尾辞の前に期間を含めないでください。 |
 | [!UICONTROL Category URL Suffix] | ストアビュー | htmlやhtmなどのサフィックスをカテゴリ URLに適用するかどうかを指定します。 使用する場合は、自動的に適用されるので、接尾辞の前に期間を含めないでください。 |
 | [!UICONTROL Use Categories Path for Product URLs] | ストアビュー | ストアフロントの製品URLにカテゴリーパスが含まれているかどうかを指定します。 これにより、複数のURLが同じページを指すようになり、検索順位に影響を与える可能性があります。 詳しくは、[正規メタタグ &#x200B;](../../merchandising-promotions/meta-data.md#canonical-meta-tag)を参照してください。 |
@@ -257,7 +257,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-カタログ検索は、[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ja)またはAdobe Commerceがサポートするサードパーティの検索エンジンサービスを使用して設定できます。 インストールの手順に従います。
+カタログ検索は、[[!DNL Live Search]](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)またはAdobe Commerceがサポートするサードパーティの検索エンジンサービスを使用して設定できます。 インストールの手順に従います。
 
 ### Adobe Commerceと[!DNL Live Search]
 
@@ -282,7 +282,7 @@ Adobe Commerceは、OpenSearchとElasticsearchをサポートしています。 
 
 >[!IMPORTANT]
 >
->- 2023年8月のElasticsearch 7のサポート終了のお知らせにより、Adobeでは、すべてのAdobe Commerceのお客様がOpenSearch 2.x検索エンジンに移行することをお勧めします。 アップグレード中に検索エンジンを移行する方法について詳しくは、_アップグレードガイド_&#x200B;の「[OpenSearchへの移行](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=ja)」を参照してください。
+>- 2023年8月のElasticsearch 7のサポート終了のお知らせにより、Adobeでは、すべてのAdobe Commerceのお客様がOpenSearch 2.x検索エンジンに移行することをお勧めします。 アップグレード中に検索エンジンを移行する方法について詳しくは、_アップグレードガイド_&#x200B;の「[OpenSearchへの移行](https://experienceleague.adobe.com/ja/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)」を参照してください。
 >- バージョン 2.4.4および2.4.3-p2では、「Elasticsearch」というラベルが付けられたすべてのフィールドがOpenSearchにも適用されます。 Elasticsearch 8.xのサポートがバージョン 2.4.6で導入されたときには、ElasticsearchとOpenSearchの設定を区別するために新しいラベルが作成されました。 ただし、両方の設定オプションは同じです。
 
 ![&#x200B; カタログ検索設定オプション &#x200B;](./assets/catalog-search-opensearch.png){zoomable="yes"}

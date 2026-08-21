@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 403
+source-wordcount: 404
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ _インスタント購入_&#x200B;を使用すると、お客様はアカウン�
 
   保存されたクレジットカード情報に安全にアクセスするために、次の支払い方法を使用できます。
 
-   - [Braintree クレジットカード &#x200B;](braintree.md) （3D セキュアが有効になっている場合、Braintree クレジットカードでは即時の購入はできません）。
-   - [PayPalが有効になっているBraintree](braintree.md)
-   - [PayPal Payflow Pro](paypal-payflow-pro.md)
+  - [Braintree クレジットカード &#x200B;](braintree.md) （3D セキュアが有効になっている場合、Braintree クレジットカードでは即時の購入はできません）。
+  - [PayPalが有効になっているBraintree](braintree.md)
+  - [PayPal Payflow Pro](paypal-payflow-pro.md)
 
 ## ストアフロントですばやく購入
 
@@ -71,7 +71,7 @@ Braintreeでの即時購入またはAdobe CommerceおよびMagento Open Source�
 Braintreeまたは決済サービスの決済方法を設定し、ヴォールトを有効にする方法について説明します。
 
 - [Braintree](braintree.md)
-- [決済サービスのドキュメント](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=ja)
+- [決済サービスのドキュメント](https://experienceleague.adobe.com/ja/docs/commerce/payment-services/guide-overview)
 
 ### ステップ 3：即時購入を有効にする
 

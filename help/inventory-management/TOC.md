@@ -5,9 +5,9 @@ breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
 nudge: true
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '155'
 ht-degree: 5%
 
 ---
@@ -59,4 +59,4 @@ ht-degree: 5%
   - [概要](shipments.md)
   - [配送の作成](shipments-create.md)
 - [CLI リファレンス](cli.md)
-- [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ja)
+- [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)

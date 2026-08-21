@@ -20,9 +20,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 397
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**&#x200B;を選択しま
 
 [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-（Adobe Commerceのみ） [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=ja)は、クラウド インフラストラクチャ上のAdobe Commerceのインストールに関するシステム インサイトを、24時間年中無休のリアルタイム パフォーマンス監視、レポート、および推奨事項とともに提供します。
+（Adobe Commerceのみ） [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/ja/docs/commerce-operations/tools/site-wide-analysis-tool/access)は、クラウド インフラストラクチャ上のAdobe Commerceのインストールに関するシステム インサイトを、24時間年中無休のリアルタイム パフォーマンス監視、レポート、および推奨事項とともに提供します。
 
 ### [!UICONTROL Customers]
 

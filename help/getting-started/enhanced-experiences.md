@@ -28,9 +28,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 1775
+source-wordcount: 1776
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Adobe CommerceとMagento Open Sourceには、ショッピング体験をカス�
 
 ## ビジネスプロセスと収益性の最適化
 
-- **[!DNL Advanced Reporting]** - [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=ja)を活用した動的な商品、注文、顧客レポートにより、一目で貴重なインサイトを獲得できます。
+- **[!DNL Advanced Reporting]** - [Business Intelligence](https://experienceleague.adobe.com/ja/docs/commerce-business-intelligence/mbi/getting-started)を活用した動的な商品、注文、顧客レポートにより、一目で貴重なインサイトを獲得できます。
 
 - **ダッシュボードのスナップショット** - マーケティング予算を最大化するには、サイトで何が重要かを把握することが重要です。 この[情報をダッシュボード &#x200B;](admin-dashboard.md)で使用して、ロイヤルカスタマーに対するクロスセルとアップセル、または販売する製品を決定します。
 

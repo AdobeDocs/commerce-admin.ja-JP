@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: 823
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->購入者の見積もりを作成する販売者のデモ動画については、[営業担当者が&#x200B;_Commerceのビデオとチュートリアル_&#x200B;で見積もりを開始](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=ja)するを参照してください。
+>購入者の見積もりを作成する販売者のデモ動画については、[営業担当者が&#x200B;_Commerceのビデオとチュートリアル_&#x200B;で見積もりを開始](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote)するを参照してください。
 
 ### 見積グリッドから見積を作成する
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >行項目での割引の仕組みに関するデモ動画については、_Commerceのビデオとチュートリアル_&#x200B;の[営業担当者が見積もり行項目](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=ja)に割引を適用するを参照してください。
+   >行項目での割引の仕組みに関するデモ動画については、_Commerceのビデオとチュートリアル_&#x200B;の[営業担当者が見積もり行項目](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount)に割引を適用するを参照してください。
 
 1. 必要に応じて見積もりレベルの割引を適用します。
 

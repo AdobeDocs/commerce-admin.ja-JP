@@ -16,16 +16,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8a65689c36ccc2e7cced2b13d0cddbfdf5046a02
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: 224
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Catalog] メニュー
 
-[!UICONTROL Catalog] メニューでは、製品作成、カテゴリ、在庫管理ツール、[B2B ストア &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ja)のカスタム価格設定の共有カタログ、AI支援の発見のカタログ強化に簡単にアクセスできます。
+[!UICONTROL Catalog] メニューでは、製品作成、カテゴリ、在庫管理ツール、[B2B ストア &#x200B;](/help/b2b/introduction.md)のカスタム価格設定の共有カタログ、AI支援の発見のカタログ強化に簡単にアクセスできます。
 
 >[!BEGINTABS]
 
@@ -59,7 +59,7 @@ _管理者_ サイドバーで、**[!UICONTROL Catalog]**&#x200B;をクリック
 
 ## [!UICONTROL Shared Catalogs]
 
-Adobe Commerce B2Bがインストールされ、有効になっているストアの場合、[共有カタログ &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=ja)を使用すると、異なる企業でカスタム価格を利用できるようになります。
+Adobe Commerce B2Bがインストールされ、有効になっているストアの場合、[共有カタログ &#x200B;](/help/b2b/catalog-shared.md)を使用すると、異なる企業でカスタム価格を利用できるようになります。
 
 ![共有カタログ製品](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}
 

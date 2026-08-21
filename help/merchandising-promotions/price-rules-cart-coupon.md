@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 2338
+source-wordcount: 2339
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Commerceでは、デフォルトで、クーポンコードを作成するため
 
 >[!NOTE]
 >
->[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} クーポンを作成する前に、`bin/magento cron:run` コマンドを使用して、cronが実行されていることを確認します。 詳しくは、_設定ガイド_&#x200B;の「[&#x200B; コマンドラインからcronを実行する](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ja#run-cron-from-the-command-line)」を参照してください。
+>[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} クーポンを作成する前に、`bin/magento cron:run` コマンドを使用して、cronが実行されていることを確認します。 詳しくは、_設定ガイド_&#x200B;の「[&#x200B; コマンドラインからcronを実行する](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#run-cron-from-the-command-line)」を参照してください。
 
 ### 方法1：特定のクーポンを作成する
 
@@ -124,23 +124,23 @@ Commerceでは、デフォルトで、クーポンコードを作成するため
 
      **オプション 1:**&#x200B;新しい更新をスケジュールする
 
-      - ページの右上隅にある「**[!UICONTROL Schedule New Update]**」をクリックします。
+     - ページの右上隅にある「**[!UICONTROL Schedule New Update]**」をクリックします。
 
-        ![&#x200B; スケジュールの更新](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
+       ![&#x200B; スケジュールの更新](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
 
-      - **[!UICONTROL Update Name]**&#x200B;と&#x200B;**[!UICONTROL Description]**&#x200B;を入力します。
+     - **[!UICONTROL Update Name]**&#x200B;と&#x200B;**[!UICONTROL Description]**&#x200B;を入力します。
 
-      - カレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）から&#x200B;**開始日**&#x200B;と&#x200B;**[!UICONTROL End Date]**&#x200B;を選択します。 日付範囲を空のままにすると、ルールの有効期限は切れません。
+     - カレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）から&#x200B;**開始日**&#x200B;と&#x200B;**[!UICONTROL End Date]**&#x200B;を選択します。 日付範囲を空のままにすると、ルールの有効期限は切れません。
 
-      - 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
+     - 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-        ![買い物かごの価格ルール – スケジュールされた変更](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
+       ![買い物かごの価格ルール – スケジュールされた変更](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
 
      **オプション 2:**&#x200B;既存の更新プログラムに割り当てる：
 
-      - **[!UICONTROL Assign to Another Update]**&#x200B;を選択します。
+     - **[!UICONTROL Assign to Another Update]**&#x200B;を選択します。
 
-      - リストで更新プログラムを見つけて、**[!UICONTROL Select]**&#x200B;をクリックします。
+     - リストで更新プログラムを見つけて、**[!UICONTROL Select]**&#x200B;をクリックします。
 
 1. 必要に応じて[&#x200B; カート価格ルール &#x200B;](price-rules-cart.md)を完了します。
 
@@ -170,9 +170,9 @@ Commerceでは、デフォルトで、クーポンコードを作成するため
 
    - **[!UICONTROL Code Format]**&#x200B;を次のいずれかに設定します。
 
-      - `Alphanumeric`
-      - `Alphabetical`
-      - `Numeric`
+     - `Alphanumeric`
+     - `Alphabetical`
+     - `Numeric`
 
    - （オプション）コードの先頭に追加する&#x200B;**[!UICONTROL Code Prefix]**&#x200B;を入力します。
 
@@ -221,7 +221,7 @@ Commerceでは、デフォルトで、クーポンコードを作成するため
 
 カスタムクーポンコードを編集したり、使用状況の詳細を確認したりするには、**[!UICONTROL Actions]**&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-&lt;InlineAlert variant="info" slots="text"/>
+<InlineAlert variant="info" slots="text"/>
 
 カート価格ルールに属するメインのクーポンコードは、編集または削除できません。
 
@@ -288,16 +288,16 @@ _クーポン_ レポートは、特定の日付範囲内に使用された各�
 
    - **[!UICONTROL Date Used]**&#x200B;を次のいずれかに設定します：
 
-      - `Order Created`
-      - `Order Updated`
+     - `Order Created`
+     - `Order Updated`
 
      _注文更新済み_ レポートはリアルタイムで作成されるので、更新は必要ありません。
 
    - レポートの対象となる期間を定義するには、**[!UICONTROL Period]**&#x200B;を次のいずれかに設定します。
 
-      - `Day`
-      - `Month`
-      - `Year`
+     - `Day`
+     - `Month`
+     - `Year`
 
    - レポートの日付範囲を定義するには、**開始日**&#x200B;および&#x200B;**終了日**&#x200B;をM/D/YY形式で入力します。
 
@@ -307,8 +307,8 @@ _クーポン_ レポートは、特定の日付範囲内に使用された各�
 
    - レポートに含まれるクーポンアクティビティを定義するには、次のいずれかの操作を行います。
 
-      - すべての価格ルールのすべてのクーポンアクティビティを含めるには、**[!UICONTROL Cart Price Rule]**&#x200B;を`Any`に設定します。
-      - 特定の価格ルールに関連するアクティビティのみを含めるには、**[!UICONTROL Cart Price Rule]**&#x200B;を`Specified`に設定し、リストからカート価格ルールを選択します。
+     - すべての価格ルールのすべてのクーポンアクティビティを含めるには、**[!UICONTROL Cart Price Rule]**&#x200B;を`Any`に設定します。
+     - 特定の価格ルールに関連するアクティビティのみを含めるには、**[!UICONTROL Cart Price Rule]**&#x200B;を`Specified`に設定し、リストからカート価格ルールを選択します。
 
 1. レポートを実行する準備ができたら、**[!UICONTROL Show Report]**&#x200B;をクリックします。
 

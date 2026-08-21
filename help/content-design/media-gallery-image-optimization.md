@@ -19,9 +19,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2024-01-31
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 211
+source-wordcount: 212
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 設定で&#x200B;_最大幅_&#x200B;と&#x200B;_最大高さ_&#x200B;の値が変更されると、以前に挿入された既存の最適化された画像がすべて更新されます。
 
-Media Gallery Image Optimizationでは、構成が変更されたときに最適化された画像を再生成するために、`media.gallery.renditions.update` キューのコンシューマーが実行されている必要があります。 詳しくは、_設定ガイド_&#x200B;の「[&#x200B; メッセージキューの管理](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ja)」を参照してください。
+Media Gallery Image Optimizationでは、構成が変更されたときに最適化された画像を再生成するために、`media.gallery.renditions.update` キューのコンシューマーが実行されている必要があります。 詳しくは、_設定ガイド_&#x200B;の「[&#x200B; メッセージキューの管理](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)」を参照してください。
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}
 

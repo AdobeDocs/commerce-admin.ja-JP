@@ -20,7 +20,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 393
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 | 関数 | 説明 |
 | --- | --- |
 | パスワードのリセット | パスワードリセット用の電子メールがお客様の電子メールアカウントに直接送信されます。 ストア管理者は、お客様のパスワードにアクセスできません。 |
-| 強制ログイン | 顧客アカウントに関連付けられているOAuth アクセストークンを取り消します。 これは、Web API [統合](../systems/integrations.md)の一部として、OAuth トークンが割り当てられている顧客アカウントでのみ使用できます。 詳しくは、開発者ドキュメントの[OAuth ベースの認証](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)を参照してください。 <br/><br/> ストアフロントまたは管理者から作成された標準のお客様アカウントには、OAuth トークンがありません。 |
+| 強制ログイン | 顧客アカウントに関連付けられているOAuth アクセストークンを取り消します。 これは、Web API [統合](../systems/integrations.md)の一部として、OAuth トークンが割り当てられている顧客アカウントでのみ使用できます。 詳しくは、開発者ドキュメントの[OAuth ベースの認証](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth)を参照してください。 <br/><br/> ストアフロントまたは管理者から作成された標準のお客様アカウントには、OAuth トークンがありません。 |
 
 {style="table-layout:auto"}
 

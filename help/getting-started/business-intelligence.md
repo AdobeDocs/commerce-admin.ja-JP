@@ -29,9 +29,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 1221
+source-wordcount: 1224
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Commerce Intelligence製品を利用して、ビジネス上の的確な意思�
 
 ## [!DNL Commerce Intelligence] アカウント
 
-Adobeを通じて[!DNL Commerce Intelligence] アカウントをアクティブ化すると、約70件のレポートを含む5つのダッシュボードにアクセスできます。 これらのレポートは、データに関するインサイトを提供し、「注文が前月比でどのように増加しているか」、「最もロイヤルティの高い顧客は誰か」、「クーポン戦略は機能しているか？」などの質問に回答することを目的としています。 このツールセットについて詳しくは、[Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=ja)を参照してください。
+Adobeを通じて[!DNL Commerce Intelligence] アカウントをアクティブ化すると、約70件のレポートを含む5つのダッシュボードにアクセスできます。 これらのレポートは、データに関するインサイトを提供し、「注文が前月比でどのように増加しているか」、「最もロイヤルティの高い顧客は誰か」、「クーポン戦略は機能しているか？」などの質問に回答することを目的としています。 このツールセットについて詳しくは、[Commerce Intelligence ユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-business-intelligence/mbi/guide-overview)を参照してください。
 
 ## [!DNL Advanced Reporting]
 
@@ -68,7 +68,7 @@ Adobeを通じて[!DNL Commerce Intelligence] アカウントをアクティブ�
 
 * ストア URLの[!DNL Commerce]設定では、**[!UICONTROL Use Secure URLs on Storefront]**&#x200B;と&#x200B;**[!UICONTROL Use Secure URLs in Admin]**&#x200B;を`Yes`に設定する必要があります。
 
-* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ja)が作成され、インストールされたサーバーでcron ジョブが実行されています。
+* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)が作成され、インストールされたサーバーでcron ジョブが実行されています。
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Adobeを通じて[!DNL Commerce Intelligence] アカウントをアクティブ�
 
    * **[!UICONTROL Advanced Reporting Service]**&#x200B;が`Enable`に設定されていることを確認します（デフォルト設定）。
 
-   * 24時間の時刻に従って、**[!UICONTROL Time of day to send data]**&#x200B;を時間、分、秒に設定し、サービスがストアから更新されたデータを受信できるようにします。 デフォルトでは、データは午前2:00時に送信されます。
+   * 24時間の時刻に従って、**[!UICONTROL Time of day to send data]**&#x200B;を時間、分、秒に設定し、サービスがストアから更新されたデータを受信できるようにします。 デフォルトでは、データは午前2時に送信されます。
 
    * **[!UICONTROL Industry Data]**&#x200B;で、自社に最も適した&#x200B;**[!UICONTROL Industry]**&#x200B;を選択します。
 

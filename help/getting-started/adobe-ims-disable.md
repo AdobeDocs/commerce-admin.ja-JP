@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 351
+source-wordcount: 331
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Commerce インスタンスをAdobe IMS認証ワークフローと統合した�
 
 Commerceのデプロイメントは、IMS統合が無効になった後、デフォルトのCommerce認証ワークフローとパスワードポリシーに戻ります。 この統合が有効または無効になっている場合は、管理者ユーザーワークフローのみが影響を受けます。
 
-Commerce管理者ログインの概要については、[管理者アカウント &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=ja)を参照してください。
+Commerce管理者ログインの概要については、[管理者アカウント &#x200B;](/help/getting-started/admin-signin.md)を参照してください。
 
 ## 手順1：統合を無効にする
 
@@ -58,7 +58,7 @@ Admin Adobe IMS integration is disabled.
 
 * 既存のCommerce パスワード（つまり、IMS統合前に作成されたCommerce パスワード）を覚えているCommerce管理者ユーザーは、このパスワードを使用して管理者にログインできます。
 
-* 既存のCommerce パスワードを持っていない、または忘れたCommerce管理者ユーザーは、新しいパスワードを作成する必要があります。 新しいパスワードを作成するには、管理者ユーザーはCommerce ログインページの[!UICONTROL Forgot your password?]機能を使用して新しいパスワードを作成できます。 [顧客パスワードのリセット &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html?lang=ja)を参照してください。 Commerceでは、空のパスワードフィールドは使用できません。
+* 既存のCommerce パスワードを持っていない、または忘れたCommerce管理者ユーザーは、新しいパスワードを作成する必要があります。 新しいパスワードを作成するには、管理者ユーザーはCommerce ログインページの[!UICONTROL Forgot your password?]機能を使用して新しいパスワードを作成できます。 [顧客パスワードのリセット &#x200B;](/help/customers/password-reset.md)を参照してください。 Commerceでは、空のパスワードフィールドは使用できません。
 
 ## 統合を無効にした後
 

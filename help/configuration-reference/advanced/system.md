@@ -22,9 +22,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2024-04-09
-source-git-commit: 3ed6388c485699373275912a27df59d25b7245ac
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 1713
+source-wordcount: 1715
 ht-degree: 1%
 
 ---
@@ -206,7 +206,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | グローバル | ページ全体のキャッシュの管理に使用するアプリケーションを指定します。 オプション：<br/>**`Built-in Application`**– 実稼動環境では推奨されません。<br/>**`Varnish Caching`** – 実稼動環境で推奨されます。 |
 | [!UICONTROL TTL for public content] | グローバル | 公開コンテンツキャッシュの有効期間を秒単位で指定します。 デフォルト値：`120` |
-| [!UICONTROL Handles param size] | グローバル | [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP エンドポイントで処理する[&#x200B; レイアウトハンドル &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)の最大数を指定します。 サイズを制限すると、セキュリティとパフォーマンスが向上します。 デフォルト値：`100` |
+| [!UICONTROL Handles param size] | グローバル | [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP エンドポイントで処理する[&#x200B; レイアウトハンドル &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)の最大数を指定します。 サイズを制限すると、セキュリティとパフォーマンスが向上します。 デフォルト値：`100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | グローバル | Varnish設定をパージして設定ファイルを生成できるIP アドレスを指定します。 複数のエントリをコンマで区切ります。 デフォルト値：`localhost` |
 | [!UICONTROL Backend host] | グローバル | 設定ファイルを生成するバックエンドホストを指定します。 デフォルト値：`localhost` |

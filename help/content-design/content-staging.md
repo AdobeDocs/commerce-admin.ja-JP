@@ -16,9 +16,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: 1005
 ht-degree: 0%
 
 ---
@@ -98,6 +98,6 @@ _campaign_&#x200B;という用語は、スケジュールされた変更のレ�
 
 コンテンツのステージングの問題のトラブルシューティングについては、次の[!DNL Commerce] サポート技術情報の記事を参照してください。
 
-- [コンテンツのステージングの問題により、すべてのページでエラー404](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=ja)
-- [スケジュールされたコンテンツステージングの更新が、古いFastly キャッシュで表示されない](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=ja)
-- [共有カタログの価格に関するコンテンツステージングの更新をスケジュールできますか？](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=ja)
+- [コンテンツのステージングの問題により、すべてのページでエラー404](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-27785)
+- [スケジュールされたコンテンツステージングの更新が、古いFastly キャッシュで表示されない](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache)
+- [共有カタログの価格に関するコンテンツステージングの更新をスケジュールできますか？](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog)

@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1208
 ht-degree: 0%
@@ -100,17 +100,17 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]** > _操作_ > **請求書
 
    - 追跡番号を含める：
 
-      - **[!UICONTROL Add Tracking Number]**&#x200B;をクリックします。
-      - トラッキング情報を入力：_[!UICONTROL Carrier]_、_[!UICONTROL Title]_、_[!UICONTROL Number]_
+     - **[!UICONTROL Add Tracking Number]**&#x200B;をクリックします。
+     - トラッキング情報を入力：_[!UICONTROL Carrier]_、_[!UICONTROL Title]_、_[!UICONTROL Number]_
 
      ![Fedexの配送を作成](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
 
    - 必要に応じて、請求書の一部を生成します。
 
-      - _請求書へのアイテム_ セクションで、**[!UICONTROL Qty to Invoice]**&#x200B;列を更新して、請求書に特定のアイテムのみを含めるようにします。
-      - 次に、**[!UICONTROL Update Qty's]**&#x200B;をクリックします。
+     - _請求書へのアイテム_ セクションで、**[!UICONTROL Qty to Invoice]**&#x200B;列を更新して、請求書に特定のアイテムのみを含めるようにします。
+     - 次に、**[!UICONTROL Update Qty's]**&#x200B;をクリックします。
 
-        ![請求書を作成する項目](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
+       ![請求書を作成する項目](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
 
 1. オンライン支払い方法を注文に使用した場合は、**[!UICONTROL Amount]**&#x200B;を適切なオプションに設定します。
 
@@ -170,7 +170,7 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]** > _操作_ > **請求書
 
 部分的なキャプチャや特殊な支払いシナリオに対してより柔軟にマーチャントを提供するために、Invoice APIは拡張属性を使用したカスタムキャプチャ量をサポートしています。
 
-請求書を作成する際に、REST呼び出しを行ってカスタム金額を取得できます。  [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas/) REST エンドポイントを使用し、ペイロードの`extension_attributes.custom_capture_amount` フィールドでカスタム金額を指定します。
+請求書を作成する際に、REST呼び出しを行ってカスタム金額を取得できます。  [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas) REST エンドポイントを使用し、ペイロードの`extension_attributes.custom_capture_amount` フィールドでカスタム金額を指定します。
 
 >[!NOTE]
 >

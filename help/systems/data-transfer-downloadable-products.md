@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 183
+source-wordcount: 184
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ CSV ファイルには、`downloadable_links`と`downloadable_samples`の別々�
 
   ![&#x200B; サンプル データ – ダウンロード可能なサンプルを含むダウンロード可能な製品](./assets/data-import-downloadable-samples.png){width="400" zoomable="yes"}
 
-リモートストレージモジュールの有効化と管理について詳しくは、_設定ガイド_&#x200B;の[&#x200B; リモートストレージの設定](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=ja)を参照してください。
+リモートストレージモジュールの有効化と管理について詳しくは、_設定ガイド_&#x200B;の[&#x200B; リモートストレージの設定](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage)を参照してください。

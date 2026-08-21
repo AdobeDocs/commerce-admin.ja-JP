@@ -17,16 +17,16 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: 437
 ht-degree: 0%
 
 ---
 
 # コンテンツ配信ネットワークの利用
 
-コンテンツ配信ネットワーク（CDN）を使用して、メディアファイルを保存できます。 Adobe Commerce on Cloud Infrastructureには、Fastly CDNが含まれています（_Commerce on Cloud Infrastructure ガイド_&#x200B;の[Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=ja)を参照）。 オンプレミス _にインストールされているCommerce インスタンスには、特定のCDNとの統合が含まれていません。任意のCDNを使用できます。_
+コンテンツ配信ネットワーク（CDN）を使用して、メディアファイルを保存できます。 Adobe Commerce on Cloud Infrastructureには、Fastly CDNが含まれています（_Commerce on Cloud Infrastructure ガイド_&#x200B;の[Fastly](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/cdn/fastly)を参照）。 オンプレミス _にインストールされているCommerce インスタンスには、特定のCDNとの統合が含まれていません。任意のCDNを使用できます。_
 
 CDNを設定したら、管理者から設定を完了する必要があります。 変更は、グローバルレベルでもweb サイトレベルでも実行できます。 CDNをメディアストレージに使用すると、Commerce ストアページ上のメディアへのすべてのパスが、設定で指定されたCDN パスに変更されます。
 

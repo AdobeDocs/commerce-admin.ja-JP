@@ -18,10 +18,10 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 193
-ht-degree: 1%
+source-wordcount: 190
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
->Adobe Commerce B2Bのインストールと有効化により、企業固有の機能を使用して購買体験をパーソナライズできます。 Adobe Commerce B2Bは、B2BとB2Cの両方のモデルをサポートする統合ソリューションです。 B2B機能について詳しくは、[Adobe Commerce B2B ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ja)を参照してください。
+>Adobe Commerce B2Bのインストールと有効化により、企業固有の機能を使用して購買体験をパーソナライズできます。 Adobe Commerce B2Bは、B2BとB2Cの両方のモデルをサポートする統合ソリューションです。 B2B機能について詳しくは、[Adobe Commerce B2B ユーザーガイド &#x200B;](/help/b2b/introduction.md)を参照してください。
 
 {{config}}
 

@@ -18,10 +18,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 436
-ht-degree: 0%
+source-wordcount: 454
+ht-degree: 3%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 0%
    - `Disable` - イベントによってトリガーされたときにセールスメールを送信します。
    - `Enable` – 所定の間隔で定期的にセールスメールを送信します。
 
-   Adobe Commerce サポートでは、非同期送信を有効にして、注文処理のパフォーマンスを向上させることをお勧めします。 Adobe Commerce サポート ナレッジベースの[注文処理に関する設定のベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=ja)を参照してください。
+   Adobe Commerce サポートでは、非同期送信を有効にして、注文処理のパフォーマンスを向上させることをお勧めします。 Adobe Commerce サポート ナレッジベースの[注文処理に関する設定のベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration)を参照してください。
 
 ## 手順3: 各セールスメールメッセージの詳細を入力します
 

@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: 425
 ht-degree: 0%
 
 ---
@@ -74,5 +74,5 @@ ht-degree: 0%
 
 このガイドで説明されていない情報や質問が必要な場合は、次のリソースを使用してください。
 
-- [Adobe Commerce サポート情報](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=ja)
-- [&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ja#submit-ticket)：チケットを送信して追加のヘルプを受け取ります。
+- [Adobe Commerce サポート情報](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/overview)
+- [&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)：チケットを送信して追加のヘルプを受け取ります。

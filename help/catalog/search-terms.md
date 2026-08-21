@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: 1189
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ ht-degree: 0%
 
 Adobe Commerceでは、次の2つの異なる類義語管理ソリューションをサポートしています。
 
-- ライブサーチ [同義語](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html?lang=ja)機能は、ライブサーチがインストールされたAdobe Commerce インストールで使用できます。
+- ライブサーチ [同義語](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-admin/synonyms/synonyms)機能は、ライブサーチがインストールされたAdobe Commerce インストールで使用できます。
 - 標準の同義語検索機能（このページで説明）は、すべてのAdobe Commerce インストールで標準で使用できます。
 
 >[!NOTE]

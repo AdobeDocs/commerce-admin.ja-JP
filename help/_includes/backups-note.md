@@ -1,19 +1,19 @@
 ---
-title: バックアップ メモ
-description: バックアップに関するメモを再利用しました
-source-git-commit: 5ade2f23132e634db5e611a5ccfcbc4d6816cf92
+title: バックアップのメモ
+description: バックアップに関するメモを再利用
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
 
-# バックアップ メモ
+# バックアップのメモ
 
 >[!IMPORTANT]
 >
->**無効な機能：** バックアップはデフォルトで無効になっています。 この関数を有効にするには、開発者の支援が必要になる場合があります。 バックアップを有効にするには、次の _インストール ガイド_ トピックを参照してください：[&#x200B; ファイル システム、メディア、およびデータベースをバックアップおよびロールバックする &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html?lang=ja)。
+>**無効な機能：** バックアップはデフォルトで無効になっています。 この機能を有効にするには、開発者のサポートが必要になる場合があります。 バックアップを有効にするには、次の&#x200B;_インストールガイド_&#x200B;のトピックを参照してください。[&#x200B; ファイルシステム、メディア、データベースをバックアップしてロールバックします](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/tutorials/backup)。
 
 >[!NOTE]
 >
->**非推奨（廃止予定）のお知らせ：** バックアップ機能は v2.3.0 以降で非推奨になりました。すべてのマーチャントは、追加のバックアップテクノロジーとバイナリバックアップツール（[[!DNL Percona XtraBackup]](https://www.percona.com/software/mysql-database/percona-xtrabackup) など）を調査することをお勧めします。
+>**非推奨（廃止予定）のお知らせ：** バックアップ機能はv2.3.0で非推奨（廃止予定）となりました。 すべての販売者は、追加のバックアップテクノロジーとバイナリバックアップツール（[[!DNL Percona XtraBackup]](https://www.percona.com/software/mysql-database/percona-xtrabackup)など）を調査することをお勧めします。

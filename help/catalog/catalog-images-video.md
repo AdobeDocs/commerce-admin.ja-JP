@@ -21,9 +21,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 484
+source-wordcount: 476
 ht-degree: 0%
 
 ---
@@ -56,5 +56,5 @@ ht-degree: 0%
 
 画像とビデオの問題のトラブルシューティングについては、次のCommerce サポート技術情報を参照してください。
 
-- [製品編集画像の役割にもかかわらず、製品画像が表示されない](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html?lang=ja)
-- [展開後に表示されない画像を保存する](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=ja)
+- [製品編集画像の役割にもかかわらず、製品画像が表示されない](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26859)
+- [展開後に表示されない画像を保存する](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)

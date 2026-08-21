@@ -21,9 +21,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 373
+source-wordcount: 374
 ht-degree: 0%
 
 ---
@@ -61,4 +61,4 @@ ht-degree: 0%
 
 [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-Adobeでは、250以上の製品（そのうちの約200は設定可能な製品）、カテゴリ、プロモーション価格ルール、CMS ページ、バナーなどのサンプルストアを含むサンプルデータセットを提供しています。 サンプルデータは、ストアフロントで&#x200B;_Luma_ テーマを使用します。 [このサンプルデータのインストール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=ja)はオプションですが、コマースビジネスのカスタマイズをテストおよび開発する場合に役立ちます。
+Adobeでは、250以上の製品（そのうちの約200は設定可能な製品）、カテゴリ、プロモーション価格ルール、CMS ページ、バナーなどのサンプルストアを含むサンプルデータセットを提供しています。 サンプルデータは、ストアフロントで&#x200B;_Luma_ テーマを使用します。 [このサンプルデータのインストール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/next-steps/sample-data/overview)はオプションですが、コマースビジネスのカスタマイズをテストおよび開発する場合に役立ちます。

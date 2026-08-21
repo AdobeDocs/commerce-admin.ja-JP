@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 157
+source-wordcount: 159
 ht-degree: 0%
 
 ---
@@ -33,6 +33,6 @@ Commerce用AEM Assets統合では、Commerce インスタンスに次のログ�
 
 システム管理者に、これらのログのログファイルのローテーションスケジュールを確認して、サイズが大きすぎないようにしてください。 一部の環境では、ログファイルは自動的にローテーションされますが、他の環境では手動でログローテーションを設定する必要があります。 詳しくは、次のトピックを参照してください。
 
-- Adobe Commerce オンプレミスのインストールの場合は、システム管理者に[&#x200B; ログローテーション &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=ja#server-settings)の設定を依頼します。
-- クラウドインフラストラクチャプロジェクト上のAdobe Commerceについては、[&#x200B; ログの表示と管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=ja)を参照してください。
+- Adobe Commerce オンプレミスのインストールの場合は、システム管理者に[&#x200B; ログローテーション &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/next-steps/configuration#server-settings)の設定を依頼します。
+- クラウドインフラストラクチャプロジェクト上のAdobe Commerceについては、[&#x200B; ログの表示と管理](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/test/log-locations)を参照してください。
 

@@ -28,9 +28,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 1500
+source-wordcount: 1504
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 ## 手順2: [!DNL Google Tag Manager] アカウントの設定
 
-次の手順では、基本設定を使用して新しいコンテナを設定する方法を示します。 サンプル [Composer](https://developer.adobe.com/commerce/php/development/composer/)設定（.json）ファイルを使用してプロセスを簡素化し、読み込んで新しいコンテナにタグを生成します。 この例では、既存のコンテナを変更するのではなく、コンテナを作成することをお勧めします。
+次の手順では、基本設定を使用して新しいコンテナを設定する方法を示します。 サンプル [Composer](https://developer.adobe.com/commerce/php/development/composer)設定（.json）ファイルを使用してプロセスを簡素化し、読み込んで新しいコンテナにタグを生成します。 この例では、既存のコンテナを変更するのではなく、コンテナを作成することをお勧めします。
 
 >[!NOTE]
 >

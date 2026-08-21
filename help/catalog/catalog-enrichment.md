@@ -18,7 +18,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
 source-wordcount: 2182
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->カタログの強化は、舞台裏の[!DNL Commerce Catalog Agent]と[!DNL Adobe LLM Optimizer]によって強化されています。 Commerce カタログワークフローの一部としてエンリッチメントを使用します。 承認済みの名前と説明の更新を適用するために、個別のLLM Optimizer統合を管理することはありません。 Commerce以外の幅広いLLMの監視と最適化については、[LLM Optimizer製品ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/llm-optimizer/using/home)を参照してください。
+>カタログの強化は、舞台裏の[!DNL Commerce Catalog Agent]と[!DNL Adobe LLM Optimizer]によって強化されています。 Commerce カタログワークフローの一部としてエンリッチメントを使用します。 承認済みの名前と説明の更新を適用するために、個別のLLM Optimizer統合を管理することはありません。 Commerce以外の幅広いLLMの監視と最適化については、[LLM Optimizer製品ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/brand-visibility/using/home)を参照してください。
 
 ## 仕組み {#how-it-works}
 
@@ -63,7 +63,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 - ストアフロントはLLM向けおよびエージェント型のボットでクロールできます。カタログに応じた提案を行うにはクロールで対応する必要があります。
 - 必要なCommerce サービスとカタログ接続が有効になり、正常に動作します。 詳細については、[&#x200B; カタログの強化を有効にする](#enable-catalog-enrichment)を参照してください。
 - [IMSが設定されています](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/organizations)。
-- [Adobe Admin Console](https://helpx.adobe.com/jp/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)にアクセスできます。
+- [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)にアクセスできます。
 - 組織が基礎となるAI サービスに対して、生成AIに乗り換えたり、明示的にオプトアウトしたりしました。
 
 >[!NOTE]

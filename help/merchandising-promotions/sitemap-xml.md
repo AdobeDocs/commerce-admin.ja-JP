@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: 1345
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 サイトの開発中は、サイトのインデックス作成を避けるために、web web クローラーの`robots.txt` ファイルに手順を含めることができます。 ローンチの前に、サイトのインデックス作成を許可するように手順を変更できます。
 
-技術情報については、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[&#x200B; サイトマップとrobots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=ja)を追加する」を参照してください。
+技術情報については、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[&#x200B; サイトマップとrobots.txt](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/configure-store/robots-sitemap)を追加する」を参照してください。
 
 ![&#x200B; サイトマップグリッド &#x200B;](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -118,7 +118,7 @@ Commerce インストールの`sitemap.xml` ファイルへのリンクを提供
    
 >[!NOTE]
 >
->サイトで[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=ja) web サーバーエンジンを使用している場合は、Web サイトのルートにある[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) ファイルを更新して、他のサイトマップ要求を適切な場所に転送する必要があります。
+>サイトで[Apache](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/prerequisites/web-server/apache) web サーバーエンジンを使用している場合は、Web サイトのルートにある[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) ファイルを更新して、他のサイトマップ要求を適切な場所に転送する必要があります。
 
 ## 列の説明
 
@@ -152,13 +152,13 @@ Commerce インストールの`sitemap.xml` ファイルへのリンクを提供
 
    - **[!UICONTROL Frequency]**&#x200B;を次のいずれかに設定します：
 
-      - `Always`
-      - `Hourly`
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
-      - `Yearly`
-      - `Never`
+     - `Always`
+     - `Hourly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
+     - `Yearly`
+     - `Never`
 
    - **[!UICONTROL Priority]**&#x200B;に、`0.0`から`1.0`までの値を入力します。 ゼロは最優先度が低い。
 
@@ -206,16 +206,16 @@ Commerce インストールの`sitemap.xml` ファイルへのリンクを提供
 
    - **[!UICONTROL Generation Method]**&#x200B;を次のいずれかに設定します：
 
-      - `Standard` - メモリ内のすべてのデータを処理します。
-      - `Batch` – 大きなカタログにメモリ最適化処理を使用します。 このオプションは、2.4.9 リリース以降で使用できます。
+     - `Standard` - メモリ内のすべてのデータを処理します。
+     - `Batch` – 大きなカタログにメモリ最適化処理を使用します。 このオプションは、2.4.9 リリース以降で使用できます。
 
    - サイトマップを更新する時間、分、秒に&#x200B;**[!UICONTROL Start Time]**&#x200B;を設定します。
 
    - **[!UICONTROL Frequency]**&#x200B;を次のいずれかに設定します：
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
    - **[!UICONTROL Error Email Recipient]**&#x200B;について、サイトマップの更新中にエラーが発生した場合に通知を受け取るユーザーの電子メールアドレスを入力します。
 

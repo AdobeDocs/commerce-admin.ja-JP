@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1314
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 # メールテンプレートのカスタマイズ
 
-Commerceには、システムによって送信される各メッセージの本文セクションのデフォルトのメールテンプレートが含まれています。 本文コンテンツのテンプレートとヘッダーおよびフッターのテンプレートを組み合わせて、メッセージ全体を作成します。 コンテンツはHTMLとCSSでフォーマットされ、[変数](variables-predefined.md)を追加して簡単に編集およびカスタマイズできます。 メールテンプレートは、web サイト、実店舗、実店舗の顧客像ごとにカスタマイズできます。 カスタムテンプレートを使用する場合は、必ず[&#x200B; システム設定](email-templates.md#configure-email-templates)を更新して、正しいテンプレートが使用されるようにしてください。 電子メールテンプレートをカスタマイズする際に条件文を使用する方法については、[開発者ドキュメント &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/templates/email/#theme-based-customizations-1)を参照してください。
+Commerceには、システムによって送信される各メッセージの本文セクションのデフォルトのメールテンプレートが含まれています。 本文コンテンツのテンプレートとヘッダーおよびフッターのテンプレートを組み合わせて、メッセージ全体を作成します。 コンテンツはHTMLとCSSでフォーマットされ、[変数](variables-predefined.md)を追加して簡単に編集およびカスタマイズできます。 メールテンプレートは、web サイト、実店舗、実店舗の顧客像ごとにカスタマイズできます。 カスタムテンプレートを使用する場合は、必ず[&#x200B; システム設定](email-templates.md#configure-email-templates)を更新して、正しいテンプレートが使用されるようにしてください。 電子メールテンプレートをカスタマイズする際に条件文を使用する方法については、[開発者ドキュメント &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/templates/email#theme-based-customizations-1)を参照してください。
 
 ![例 – ウェルカムメールのプレビュー](./assets/email-template-preview.png){width="500" zoomable="yes"}
 

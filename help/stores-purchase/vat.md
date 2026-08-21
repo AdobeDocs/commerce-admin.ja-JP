@@ -1,6 +1,6 @@
 ---
 title: 付加価値税（VAT）
-description: &lt；ここに説明を追加>
+description: Adobe Commerceが、マーチャントまたは顧客の住所ルールを使用して付加価値税（VAT）を計算する方法と、商品またはサービスごとに異なるVAT率を適用する方法について説明します。
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
 TQID: https://experienceleague.adobe.com/CEUmSPDUdWxMGWRC4bXjSsBfuYJqkPNYtVx-mqxt1-M
@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 2021
+source-wordcount: 2042
 ht-degree: 0%
 
 ---

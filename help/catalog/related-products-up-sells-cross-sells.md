@@ -19,9 +19,9 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 602
+source-wordcount: 649
 ht-degree: 0%
 
 ---
@@ -49,8 +49,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **Adobe AIを活用した商品レコメンデーション**&#x200B;は、人工知能とマシンラーニング アルゴリズムを使用して、集約された訪問者データを詳細に分析することで、商品の関係を定義するプロセスを簡素化します。このデータをAdobe Commerceカタログと組み合わせることで、買い物客にとって魅力的で関連性の高い、パーソナライズされた体験を実現できます。
-><br/>>このAdobe開発の拡張機能を、手動で設定した商品レコメンデーションやアップセルの代わりに使用する方法について詳しくは、_[商品レコメンデーションガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=ja)_&#x200B;を参照してください。
+>![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **Adobe AIを活用した商品レコメンデーション**&#x200B;は、人工知能とマシンラーニング アルゴリズムを使用して、集約された訪問者データを詳細に分析することで、商品の関係を定義するプロセスを簡素化します。 このデータをAdobe Commerceカタログと組み合わせることで、買い物客にとって魅力的で関連性の高い、パーソナライズされた体験を実現できます。
+><br/>
+>このAdobeで開発した拡張機能を、手動で設定した商品レコメンデーションやアップセルの代わりに使用する方法について詳しくは、_[商品レコメンデーションガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/guide-overview)_&#x200B;を参照してください。
 
 ## 関連製品
 

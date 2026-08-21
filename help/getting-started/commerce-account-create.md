@@ -20,9 +20,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: 1131
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [!DNL Commerce] アカウントは、クラウドインフラストラクチャまたはオンプレミスにデプロイされたAdobe Commerce プロジェクトのAdobe Commerce サービスを管理するための中央アクセスポイントです。 アカウントダッシュボードから、サブスクリプションの表示、Commerce サービス API キーの管理、過去の請求情報の確認、組織内の他のユーザーとの共同作業を行うことができます。
 
-[最初のチケット &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)を送信する必要がある場合、またはAdobe Commerce リレーションシップを管理する必要がある場合は、[!DNL Commerce] アカウントを作成またはアクセスすることから始めます。
+[最初のチケット &#x200B;](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)を送信する必要がある場合、またはAdobe Commerce リレーションシップを管理する必要がある場合は、[!DNL Commerce] アカウントを作成またはアクセスすることから始めます。
 
 [!DNL Commerce] web サイトから[!DNL Commerce] アカウントにアクセスできます。 アカウント ダッシュボードから、購入した製品とサービスに関連する情報を表示し、他のユーザーに[共有アクセス &#x200B;](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access)を提供できます。 Commerce サービス API キーなどの一部の情報は、ライセンス所有者にのみ表示されます。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 [!DNL Commerce] アカウントのログインは、ストア管理者のログインとは別です。 通常、それぞれに異なる資格情報を使用し、各システムへのアクセスは個別に管理されます。
 
-ただし、Adobe CommerceおよびAdobe Business製品へのログインを効率化したい場合は、Adobe IDをストア管理者にログインするように設定できます。[Commerce向け&#x200B;*IMS統合ガイドの](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/admin/ims/adobe-ims-config)Adobe IDとのCommerce管理者統合を設定*&#x200B;してください。
+ただし、Adobe CommerceおよびAdobe Business製品へのログインを効率化したい場合は、Adobe IDをストア管理者にログインするように設定できます。[Commerce向け&#x200B;*IMS統合ガイドの](/help/getting-started/adobe-ims-config.md)Adobe IDとのCommerce管理者統合を設定*&#x200B;してください。
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 Shared Accessを使用すると、個人用ログインを使用せずに、Adobe Commerceのリレーションシップを管理するための権限を、同僚、パートナー、管理者などの信頼できるユーザーに付与できます。 これには、サポートケースを他の人が開いて追跡できるようにすることも含まれます。
 
-共有アカウントの設定に関する詳細な手順については、Adobe Commerce入門ガイドの「[Commerce アカウントの共有](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en)」セクションを参照してください。
+共有アカウントの設定に関する詳細な手順については、Adobe Commerce入門ガイドの「[Commerce アカウントの共有](/help/getting-started/commerce-account-share.md)」セクションを参照してください。
 
 Commerce サポートケースの送信手順について詳しくは、[Adobe Commerce ヘルプセンターのユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)を参照してください。
 

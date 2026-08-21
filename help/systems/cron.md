@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: 461
 ht-degree: 0%
 
 ---
@@ -40,14 +40,14 @@ Adobe CommerceとMagento Open Sourceは、スクリプトを定期的に実行�
 
 >[!IMPORTANT]
 >
->コアコンポーネントと一部のサードパーティの拡張機能が期待どおりに機能するように、Commerce サービスをcrontabにインストールする必要があります。 crontabへのサービスのインストールについて詳しくは、_インストールガイド_[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=ja)の手順を参照してください。
+>コアコンポーネントと一部のサードパーティの拡張機能が期待どおりに機能するように、Commerce サービスをcrontabにインストールする必要があります。 crontabへのサービスのインストールについて詳しくは、_インストールガイド_[&#128279;](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/next-steps/configuration)の手順を参照してください。
 
 さらに、cron スケジュールに従って実行するように次の設定を行うことができます。
 
 - システムグリッドの更新とインデックス再作成の順序
 - 保留中の支払い期間
 
-ストアの[&#x200B; ベース URL](../stores-purchase/store-urls.md)が正しく設定されていることを確認して、cronの操作中に生成されるURLが正しいことを確認します。 Adobe Commerce on Cloud Infrastructureについては、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[cron ジョブの設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=ja)」を参照してください。 オンプレミスについては、_設定ガイド_&#x200B;の「[設定と実行](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ja)」を参照してください。
+ストアの[&#x200B; ベース URL](../stores-purchase/store-urls.md)が正しく設定されていることを確認して、cronの操作中に生成されるURLが正しいことを確認します。 Adobe Commerce on Cloud Infrastructureについては、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[cron ジョブの設定](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property)」を参照してください。 オンプレミスについては、_設定ガイド_&#x200B;の「[設定と実行](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)」を参照してください。
 
 ## cronの設定
 

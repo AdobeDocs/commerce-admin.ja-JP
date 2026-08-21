@@ -14,9 +14,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: 280
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ _2025年4月23日_
 
 [!BADGE Adobe Commerce バージョン 2.4.5以降のリリースを]{type=Informative tooltip="サポート対象"} サポートしています。
 
-![新しい問題](../assets/new.svg)<!-- Issue ACAP-955 -->これで、[&#x200B; カスタムドメイン URL](https://experienceleague.adobe.com/ja/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization#configure-the-custom-domain-url)をAEM配信URLの代わりに使用できます。 販売者がAEM ダッシュボードで&#x200B;**カスタムドメイン名**&#x200B;を設定した場合は、この&#x200B;**カスタムドメイン URL**&#x200B;をCommerceに追加する必要があります。
+![新しい問題](../assets/new.svg)<!-- Issue ACAP-955 -->これで、[&#x200B; カスタムドメイン URL](/help/content-design/aem-assets-setup-synchronization.md#configure-the-custom-domain-url)をAEM配信URLの代わりに使用できます。 販売者がAEM ダッシュボードで&#x200B;**カスタムドメイン名**&#x200B;を設定した場合は、この&#x200B;**カスタムドメイン URL**&#x200B;をCommerceに追加する必要があります。
 
 ![修正済みの問題](../assets/fix.svg)<!-- Issue ACAP-987 --> AEM Assets同期プロセスの全体的なログを改善しました。
 
@@ -61,7 +61,7 @@ _2025年3月12日_
 
 [!BADGE Adobe Commerce バージョン 2.4.5以降のリリースを]{type=Informative tooltip="サポート対象"} サポートしています。
 
-![新しい問題](../assets/new.svg)<!-- Issue ACAP-xx -->現在、[Assets セレクタ IMS クライアント ID](https://experienceleague.adobe.com/ja/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization)は、Assets セレクタで必要です。この機能を使用して、AEM Assets イメージと製品カテゴリおよびページビルダー生成コンテンツのマッピングを有効にします。
+![新しい問題](../assets/new.svg)<!-- Issue ACAP-xx -->現在、[Assets セレクタ IMS クライアント ID](/help/content-design/aem-assets-setup-synchronization.md)は、Assets セレクタで必要です。この機能を使用して、AEM Assets イメージと製品カテゴリおよびページビルダー生成コンテンツのマッピングを有効にします。
 
 ## v1.0.20
 

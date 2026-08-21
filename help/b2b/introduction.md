@@ -21,9 +21,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 829
+source-wordcount: 831
 ht-degree: 2%
 
 ---
@@ -58,9 +58,9 @@ Adobe Commerce ストアのB2B拡張機能の[&#x200B; インストール &#x200
 
 Adobe Commerce向けサービスは、Adobe CommerceおよびMagento Open Sourceに拡張機能を提供するホストサービスです。 B2B ワークフローに対応しているサービスには、次のようなものがあります。
 
-* [カタログサービス](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=ja)
-* [ライブサーチ](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html?lang=ja)
-* [商品レコメンデーション](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=ja)
+* [カタログサービス](https://experienceleague.adobe.com/ja/docs/commerce/catalog-service/guide-overview)
+* [ライブサーチ](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)
+* [商品レコメンデーション](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/guide-overview)
 
 ## 共有カタログ
 

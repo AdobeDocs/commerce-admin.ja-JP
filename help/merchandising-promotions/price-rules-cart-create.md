@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 3399
+source-wordcount: 3400
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ ht-degree: 0%
 
    - クーポンを価格ルールに関連付けるには、**[!UICONTROL Coupon]**&#x200B;を`Specific Coupon`に設定し、次の操作を行います。
 
-      - お客様が割引を受け取るために入力する必要があるフリーテキスト **[!UICONTROL Coupon Code]**&#x200B;を入力します。
+     - お客様が割引を受け取るために入力する必要があるフリーテキスト **[!UICONTROL Coupon Code]**&#x200B;を入力します。
 
-      - クーポンを使用できる回数の制限を設定するには、次のオプションを実行します。
+     - クーポンを使用できる回数の制限を設定するには、次のオプションを実行します。
 
      | オプション | 説明 |
      |------|-----------|
@@ -228,7 +228,7 @@ Real-Time CDP [&#x200B; オーディエンス &#x200B;](../customers/audience-ac
    | `Name` | オーディエンスの名前（`Orders over $50`など） |
    | `Description` | オーディエンスの説明（`People who placed an order over $50 in the last month.`など）。 |
    | `Source` | オーディエンスがどこから来たのかを示します（`Experience Platform`）。 |
-   | `Website` | オーディエンスを含むデータストリームにリンクしているweb サイトを示します。 このリンクは、[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=ja)拡張機能を使用してCommerce インスタンスをExperience Platformに接続するときに作成します。 |
+   | `Website` | オーディエンスを含むデータストリームにリンクしているweb サイトを示します。 このリンクは、[[!DNL Data Connection]](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/fundamentals/connect-data)拡張機能を使用してCommerce インスタンスをExperience Platformに接続するときに作成します。 |
 
    {style="table-layout:auto"}
 

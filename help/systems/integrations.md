@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 561
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 # 連携
 
-Commerce管理者で統合を定義すると、サードパーティ統合のOAuth資格情報とリダイレクト URLの場所が設定され、統合に必要な使用可能なAPI リソースが特定されます。 統合登録プロセスについて詳しくは、Commerce開発者向けドキュメントの[OAuth ベース認証](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)を参照してください。
+Commerce管理者で統合を定義すると、サードパーティ統合のOAuth資格情報とリダイレクト URLの場所が設定され、統合に必要な使用可能なAPI リソースが特定されます。 統合登録プロセスについて詳しくは、Commerce開発者向けドキュメントの[OAuth ベース認証](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth)を参照してください。
 
 ![統合](./assets/integrations.png){width="700" zoomable="yes"}
 
@@ -64,8 +64,8 @@ Commerce管理者で統合を定義すると、サードパーティ統合のOAu
 
    - **[!UICONTROL Resource Access]**&#x200B;を次のいずれかに設定します：
 
-      - `All`
-      - `Custom`
+     - `All`
+     - `Custom`
 
    - カスタムアクセスの場合は、必要な各リソースのチェックボックスを選択します。
 
@@ -119,7 +119,7 @@ Commerce管理者で統合を定義すると、サードパーティ統合のOAu
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-詳しくは、Commerce開発者向けドキュメントの[匿名web APIへのアクセスの制限](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security/)を参照してください。
+詳しくは、Commerce開発者向けドキュメントの[匿名web APIへのアクセスの制限](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security)を参照してください。
 
 ## 統合の削除
 

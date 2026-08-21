@@ -22,10 +22,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1584
-ht-degree: 0%
+source-wordcount: 1611
+ht-degree: 1%
 
 ---
 
@@ -156,7 +156,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトで`HTTPS`を超える�
 
 ## カスタム管理者URLの使用
 
-[&#x200B; セキュリティのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=ja)として、Adobeでは、デフォルトの&#x200B;_管理者_&#x200B;や&#x200B;_バックエンド_&#x200B;などの一般的な用語の代わりに、一意の管理者URLを使用することをお勧めします。 特定の不正なアクターからサイトを直接保護するわけではありませんが、不正アクセスを試みるスクリプトへの暴露を減らすことができます。
+[&#x200B; セキュリティのベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)として、Adobeでは、デフォルトの&#x200B;_管理者_&#x200B;や&#x200B;_バックエンド_&#x200B;などの一般的な用語の代わりに、一意の管理者URLを使用することをお勧めします。 特定の不正なアクターからサイトを直接保護するわけではありませんが、不正アクセスを試みるスクリプトへの暴露を減らすことができます。
 
 >[!NOTE]
 >
@@ -172,7 +172,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトで`HTTPS`を超える�
 
 >[!NOTE]
 >
->予防策として、サーバー上の設定ファイルの編集方法を把握していない限り、自分で管理者URLを変更しないでください。 クラウドインフラストラクチャにデプロイされたAdobe Commerce プロジェクトの場合は、*Adobe Commerce Cloud Infrastructure ガイド*&#x200B;の[手順](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=ja#admin-url)に従って、管理者URLを変更します。
+>予防策として、サーバー上の設定ファイルの編集方法を把握していない限り、自分で管理者URLを変更しないでください。 クラウドインフラストラクチャにデプロイされたAdobe Commerce プロジェクトの場合は、*Adobe Commerce Cloud Infrastructure ガイド*&#x200B;の[手順](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url)に従って、管理者URLを変更します。
 
 ### 方法1：管理者からの変更
 
@@ -218,7 +218,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトで`HTTPS`を超える�
 
    >[!TIP]
    >
-   >Adobe Commerce on cloud infrastructureの場合は、Cloud UIの`ADMIN_URL`変数を使用してカスタム管理パスを設定できます。 _Commerce on Cloud Infrastructure ガイド_&#x200B;の[管理者変数のトピック &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=ja)を参照してください。
+   >Adobe Commerce on cloud infrastructureの場合は、Cloud UIの`ADMIN_URL`変数を使用してカスタム管理パスを設定できます。 _Commerce on Cloud Infrastructure ガイド_&#x200B;の[管理者変数のトピック &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin)を参照してください。
 
    - **既定の管理者パス**
 

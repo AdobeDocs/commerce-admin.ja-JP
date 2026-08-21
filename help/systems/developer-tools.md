@@ -22,9 +22,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1709
+source-wordcount: 1774
 ht-degree: 0%
 
 ---
@@ -45,14 +45,14 @@ ht-degree: 0%
 
 Adobe CommerceまたはMagento Open Source インスタンスをデプロイして、_実稼動_&#x200B;または&#x200B;_開発者モード_&#x200B;で実行できます。 開発者向けに特別に設計されたツールと構成設定は、ストアが&#x200B;_開発者モード_&#x200B;で実行されている間にのみアクセスできます。
 
-操作モードは、適切な権限を持つユーザーがサーバーのコマンドラインからのみ変更できます。 詳しくは、_設定ガイド_&#x200B;の「[操作モードを設定](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=ja)」を参照してください。
+操作モードは、適切な権限を持つユーザーがサーバーのコマンドラインからのみ変更できます。 詳しくは、_設定ガイド_&#x200B;の「[操作モードを設定](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/set-mode)」を参照してください。
 
 マーチャントのドキュメントのほとんどのトピックは、実稼動モードで動作しているCommerce インスタンスに適用されます。 ただし、次の設定とツールは、インストールが開発者モードで実行されている場合にのみ使用できます。
 
 ## フロントエンド開発ワークフロー
 
-フロントエンド開発ワークフロータイプは、開発中にクライアントサイドまたはサーバーサイドで少ないコンパイルが実行されるかどうかを決定します。Lessは、CSSの拡張機能であり、追加の機能と規則を持ち、合理化されたコードを生成します。クライアントサイド テーマ開発では、コンパイルを減らすことをお勧めします。サーバーサイドのコンパイルはデフォルトモードです。実稼動モードのストアでは、開発ワークフローオプションを使用できません。
-Commerce開発者向けドキュメントの[&#x200B; クライアントサイド LESS コンパイルとサーバーサイド &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode/){:target="_blank"}の比較を参照してください。
+フロントエンド開発ワークフロータイプは、開発中にクライアントサイドまたはサーバーサイドで少ないコンパイルが実行されるかどうかを決定します。 Lessは、CSSの拡張機能であり、追加の機能と規則を持ち、合理化されたコードを生成します。 クライアントサイド テーマ開発では、コンパイルを減らすことをお勧めします。 サーバーサイドのコンパイルはデフォルトモードです。 実稼動モードのストアでは、開発ワークフローオプションを使用できません。
+Commerce開発者向けドキュメントの[&#x200B; クライアントサイド LESS コンパイルとサーバーサイド &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode){:target="_blank"}の比較を参照してください。
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Commerce開発者向けドキュメントの[&#x200B; クライアントサイ�
 
 静的ファイルのURLにデジタル署名を追加すると、ブラウザーが新しいバージョンのファイルが使用可能な場合に検出できるようになります。 デジタル署名を使用して追跡できる静的ファイルには、JavaScript、CSS、画像、フォントなどがあります。 署名は、ベース URLの直後のパスに追加されます。 ファイルの署名がブラウザーのキャッシュに保存されているものと異なる場合は、新しいバージョンのファイルが使用されます。
 
-Commerce開発者向けドキュメントの[静的コンテンツ署名](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=ja){:target="_blank"}を参照してください。
+Commerce開発者向けドキュメントの[静的コンテンツ署名](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cache/static-content-signing){:target="_blank"}を参照してください。
 
 >[!NOTE]
 >
@@ -109,7 +109,7 @@ Commerce開発者向けドキュメントの[静的コンテンツ署名](https:
 
 デフォルトでは、Adobe CommerceとMagento Open Sourceはファイルを結合、バンドル、または最小化しません。プロジェクト開発者は、使用するファイル最適化方法を決定する必要があります。
 
-詳しくは、[&#x200B; パフォーマンスのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=ja)を参照してください。
+詳しくは、[&#x200B; パフォーマンスのベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/performance-best-practices/overview)を参照してください。
 
 >[!NOTE]
 >
@@ -159,7 +159,7 @@ Commerce開発者向けドキュメントの[静的コンテンツ署名](https:
 >
 >開発者クライアントの制限は、[開発者モード &#x200B;](../systems/developer-tools.md#operation-modes)でのみ設定できます。
 
-技術情報については、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[&#x200B; リクエストを許可するためのカスタム VCL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=ja)」を参照してください。
+技術情報については、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[&#x200B; リクエストを許可するためのカスタム VCL](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist)」を参照してください。
 
 **_IP アドレスをの許可リストに追加するには:_**
 
@@ -187,7 +187,7 @@ Commerce開発者向けドキュメントの[静的コンテンツ署名](https:
 >
 >テンプレートパスヒントは、[開発者モード &#x200B;](../systems/developer-tools.md#operation-modes)でのみ編集できます。
 
-Commerce開発者向けドキュメントの[&#x200B; テンプレート、レイアウト、スタイルの検索](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug/){:target="_blank"}を参照してください。
+Commerce開発者向けドキュメントの[&#x200B; テンプレート、レイアウト、スタイルの検索](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug){:target="_blank"}を参照してください。
 
 ![&#x200B; ストアフロントの例 – テンプレートパスのヒント &#x200B;](./assets/storefront-template-path-hints.png){width="700" zoomable="yes"}
 

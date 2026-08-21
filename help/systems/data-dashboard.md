@@ -21,9 +21,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 802
+source-wordcount: 780
 ht-degree: 0%
 
 ---
@@ -49,8 +49,8 @@ Data Management Dashboardは、アクティブなライセンスを持つ[[!DNL 
 | フィールド | 説明 |
 |--- |--- |
 | 範囲 | 同期データ用の特定のweb サイト。 |
-| [!DNL Product Recommendations] | 同期ステータス、同期済み製品数、および[!DNL Product Recommendations]の[displayable](https://experienceleague.adobe.com/ja/docs/commerce-admin/config/catalog/inventory#stock-options)同期製品のテーブルを表示します。 |
-| [!DNL Live Search] | 同期ステータス、同期済み製品数、および[!DNL Live Search]の[displayable](https://experienceleague.adobe.com/ja/docs/commerce-admin/config/catalog/inventory#stock-options)同期製品のテーブルを表示します。 |
+| [!DNL Product Recommendations] | 同期ステータス、同期済み製品数、および[!DNL Product Recommendations]の[displayable](/help/configuration-reference/catalog/inventory.md#stock-options)同期製品のテーブルを表示します。 |
+| [!DNL Live Search] | 同期ステータス、同期済み製品数、および[!DNL Live Search]の[displayable](/help/configuration-reference/catalog/inventory.md#stock-options)同期製品のテーブルを表示します。 |
 | [!DNL Catalog Service] | 同期ステータス、同期済み製品数、および[!DNL Catalog Service]の同期済み製品のテーブルを表示します。 |
 | 設定 | カタログ データを[手動で再同期できるダイアログを開きます](#resync-catalog-data)。 |
 | 同期ステータス | 過去3時間以内にCommerce データベースから任意のSaaS サービスに転送された製品の数を表示します。 カタログの更新頻度が低い場合、この値は頻繁にゼロになります。 同期が進行中の場合は、**[!UICONTROL Refresh]**&#x200B;をクリックして、更新されたカウントを取得します。 |

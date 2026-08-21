@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 247
+source-wordcount: 248
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Adobe Commerce用[!DNL AR Viewer]拡張機能は、ユーザーにレンダリ�
 
 このガイドでは、Adobe Commerceの[!DNL AR Viewer]のオンボーディングエクスペリエンスの概要と、[!DNL AR Viewer]がユーザーにどのようなメリットをもたらすのか、また、そのジャーニーに沿って従うべきベストプラクティスについて説明します。
 
-Pixarが開発した[Universal Scene Description （USD） &#x200B;](https://openusd.org/release/index.html){target=_blank}は、非常に協力的なワークフローを促進しながら、様々なアセット、ソース、アニメーションで構成される3D シーンを堅牢かつスケーラブルに交換できる最初のオープンソースソフトウェアです。 このUSDは`.USDZ` ファイル内で使用されます。 この`.USDZ` ファイルは、ユーザーのデバイスにARおよび3D コンテンツを配信します。
+Pixarが開発した[Universal Scene Description（USD） &#x200B;](https://openusd.org/release/index.html){target=_blank}は、様々なアセット、ソース、アニメーションで構成される3D シーンを堅牢かつスケーラブルに交換し、高度に協力的なワークフローを促進できる最初のオープンソース ソフトウェアです。 このUSDは`.USDZ` ファイル内で使用されています。 この`.USDZ` ファイルは、ユーザーのデバイスにARおよび3D コンテンツを配信します。
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Pixarが開発した[Universal Scene Description （USD） &#x200B;](https://ope
 
 ## [!DNL AR Viewer]要件
 
-[!DNL AR Viewer]は[!DNL Magento Open Source]とAdobe Commerceの両方と互換性があります。 サポートされているバージョンについて詳しくは、[&#x200B; ライフサイクルポリシー](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html?lang=ja){target=_blank}を参照してください。
+[!DNL AR Viewer]は[!DNL Magento Open Source]とAdobe Commerceの両方と互換性があります。 サポートされているバージョンについて詳しくは、[&#x200B; ライフサイクルポリシー](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/planning/lifecycle-policy){target=_blank}を参照してください。
 
 詳しくは、[拡張機能をインストール  [!DNL AR Viewer] するを参照してください。](../catalog/ar-viewer-setup.md)
 

@@ -20,10 +20,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 217
-ht-degree: 0%
+source-wordcount: 215
+ht-degree: 3%
 
 ---
 
@@ -51,5 +51,5 @@ ht-degree: 0%
 
 カテゴリの問題をトラブルシューティングする方法については、次のCommerce サポート技術情報を参照してください。
 
-- [カテゴリへの変更は保存されません](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html?lang=ja)
-- [Fastlyが有効になっているサブページにメインメニュー（カテゴリー）が表示されない](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html?lang=ja)
+- [カテゴリへの変更は保存されません](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved)
+- [Fastlyが有効になっているサブページにメインメニュー（カテゴリー）が表示されない](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-40708)

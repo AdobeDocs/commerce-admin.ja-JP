@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 2612
+source-wordcount: 2658
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >**法的免責事項**<br/>
->この情報は、Adobeのお客様がAdobeのHIPAA対応サービスに関する質問に答えるのに役立つことを目的としています。これは法的な助言ではない。顧客は、自社の弁護士と相談して、HIPAA上の義務や、Adobe製品の適切な使用と構成について把握する必要があります。
+>この情報は、Adobeのお客様がAdobeのHIPAA対応サービスに関する質問に回答するのに役立つことを目的としています。 これは法的な助言ではない。 顧客は、自社の弁護士と相談して、HIPAA上の義務や、Adobe製品の適切な使用と構成について把握する必要があります。
 
 >[!BEGINSHADEBOX]
 
@@ -310,7 +310,7 @@ Adobe CommerceのHIPAA顧客検索結果制限機能は、保護された医療�
 | [決済サービス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/payment-services/guide-overview) | いいえ | いいえ |
 | [&#x200B; データ接続バックオフィスイベント &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events-backoffice) | はい | はい |
 | [&#x200B; データ接続ストアフロント イベント &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/event-forwarding/events#storefront-events) | いいえ | いいえ |
-| [Audience Activation](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/audience-activation) | いいえ | いいえ |
+| [Audience Activation](/help/customers/audience-activation.md) | いいえ | いいえ |
 
 ### ツール
 

@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: 1193
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ _[!UICONTROL Sign In]_&#x200B;ページには、ログアウト済みのメッ�
 
 管理者のセキュリティを確保するには、管理者アクセス権を持つユーザーと役割を定期的に監査します。
 
-さらに、デフォルトの`/admin` エンドポイントをカスタムパスに変更するには、[管理者ベース URL設定](https://experienceleague.adobe.com/ja/docs/commerce-admin/config/advanced/admin#admin-base-url)の更新を検討してください。 カスタムパスを設定すると、次のセキュリティ上のメリットが得られます。
+さらに、デフォルトの`/admin` エンドポイントをカスタムパスに変更するには、[管理者ベース URL設定](/help/configuration-reference/advanced/admin.md#admin-base-url)の更新を検討してください。 カスタムパスを設定すると、次のセキュリティ上のメリットが得られます。
 
 **セキュリティ強化**: デフォルトの「管理者」パスは広く知られており、ブルートフォース攻撃を試みる悪意のある攻撃者によってターゲットにされることが多いです。 独自のカスタム値に変更することで、不正アクセスのリスクを大幅に軽減できます。
 
@@ -196,4 +196,4 @@ _[!UICONTROL Sign In]_&#x200B;ページには、ログアウト済みのメッ�
 
 >[!NOTE]
 >
->セキュリティ侵害が疑われる場合は、不明な管理者ユーザーをすべて削除し、すべての管理者パスワードをリセットして、[&#x200B; セキュリティアクションプラン &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/security/security)を確認してください。
+>セキュリティ侵害が疑われる場合は、不明な管理者ユーザーをすべて削除し、すべての管理者パスワードをリセットして、[&#x200B; セキュリティアクションプラン &#x200B;](/help/systems/security.md)を確認してください。

@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 1041
+source-wordcount: 1029
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerceを使用しており、Adobe IDおよびAdobe Business製品への効率的なログインを希望するAdobe Commerce販売者は、Commerce認証とAdobe IMS認証ワークフローを統合できます。 この統合がCommerce ストアで有効になった後、各管理者ユーザーは、Commerceの資格情報ではなく、Adobeの資格情報を使用してログインする必要があります。 [Adobe Identity Management Service （IMS）統合の概要](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=ja)を参照してください。
+>Adobe Commerceを使用しており、Adobe IDおよびAdobe Business製品への効率的なログインを希望するAdobe Commerce販売者は、Commerce認証とAdobe IMS認証ワークフローを統合できます。 この統合がCommerce ストアで有効になった後、各管理者ユーザーは、Commerceの資格情報ではなく、Adobeの資格情報を使用してログインする必要があります。 [Adobe Identity Management Service （IMS）統合の概要](/help/getting-started/adobe-ims-integration-overview.md)を参照してください。
 
 一時的なユーザーまたは役割の場合は、ユーザーアカウントの有効期限を設定することもできます。
 
@@ -60,9 +60,9 @@ ht-degree: 0%
 
    - 次の情報を入力します。
 
-      - **[!UICONTROL First Name]**
-      - **[!UICONTROL Last Name]**
-      - **[!UICONTROL Email address]**
+     - **[!UICONTROL First Name]**
+     - **[!UICONTROL Last Name]**
+     - **[!UICONTROL Email address]**
 
      各ユーザーアカウントには一意のメールアドレスが必要です。
 

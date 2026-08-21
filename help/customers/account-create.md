@@ -21,7 +21,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1281
 ht-degree: 0%
@@ -192,7 +192,7 @@ ht-degree: 0%
 | **[!UICONTROL Reset]** | 顧客フォームの未保存の変更を以前の値にリセットします。 |
 | **[!UICONTROL Create Order]** | 顧客の注文を作成します。 |
 | **[!UICONTROL Reset Password]** | [&#x200B; パスワードのリセット &#x200B;](../customers/password-reset.md) リンクを電子メールでお客様に送信します。 |
-| **[!UICONTROL Force Sign-in]** | 顧客アカウントに関連付けられているOAuth アクセストークンを取り消します。 この関数は、Web API [統合](../systems/integrations.md)の一部としてOAuth トークンが割り当てられている顧客アカウントでのみ使用できます。 詳しくは、開発者ドキュメントの[OAuth ベースの認証](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)を参照してください。 |
+| **[!UICONTROL Force Sign-in]** | 顧客アカウントに関連付けられているOAuth アクセストークンを取り消します。 この関数は、Web API [統合](../systems/integrations.md)の一部としてOAuth トークンが割り当てられている顧客アカウントでのみ使用できます。 詳しくは、開発者ドキュメントの[OAuth ベースの認証](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth)を参照してください。 |
 | **[!UICONTROL Manage Shopping Cart]** | 管理者が顧客のショッピングカートを管理できるようにします。 |
 | **[!UICONTROL Save and Continue Edit]** | 変更を保存し、顧客プロファイルをオープンな状態に保ちます。 |
 | **[!UICONTROL Save Customer]** | 変更を保存し、顧客プロファイルを閉じます。 |

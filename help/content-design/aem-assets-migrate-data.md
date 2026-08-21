@@ -18,9 +18,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 892
+source-wordcount: 887
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Adobe CommerceとAdobe Experience Manager（AEM）の両方に、CommerceからA
 | **必要なアクセスと権限** | <ul><li>AEM Assets as a Cloud Serviceへの管理者アクセス</li><li>メディアファイルが保存されているソースシステム（Adobe Commerceまたは外部システム）へのアクセス</li><li>クラウドストレージサービスにアクセスするための適切な権限</li></ul> |
 | **クラウドストレージアカウント** | <ul><li>AWS S3またはAzure Blob Storage アカウント</li><li>プライベートコンテナ/バケット設定</li><li>認証情報</li></ul> |
 | **Source コンテンツ** | <ul><li>移行用に整理されたメディアファイル</li><li>AEM Assets</a>でサポートされている<a href="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/file-format-support#image-formats">形式の画像およびビデオファイル。</li><li>重複を排除したクリーンなアセット</li></li> |
-| **メタデータの準備** | <ul><li><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-configure-aem">Commerce assets用に設定されたAEM Assets メタデータプロファイル </a></li><li>各アセットのマッピングされたメタデータ値</li><li>CSV ファイルエディター（例：Microsoft Excel）</li></ul> |
+| **メタデータの準備** | <ul><li><a href="/help/content-design/aem-assets-configure-aem.md">Commerce assets用に設定されたAEM Assets メタデータプロファイル </a></li><li>各アセットのマッピングされたメタデータ値</li><li>CSV ファイルエディター（例：Microsoft Excel）</li></ul> |
 
 ## 移行のベストプラクティス
 
@@ -121,7 +121,7 @@ assetPath,dc:title{{String}},dam:status{{String}},commerce:positions{{String: mu
 
 >[!MORELIKETHIS]
 >
->[&#x200B; ツールビデオの一括読み込みデモ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
->[&#x200B; ヒント、ベストプラクティス、制限事項](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
->[APIを使用したアセットのアップロードまたは取り込み](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)
+>[一括読み込みツールのビデオ デモ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
+>[ヒント、ベストプラクティス、制限事項](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
+>[API](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)を使用したアセットのアップロードまたは取り込み
 

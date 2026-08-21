@@ -25,9 +25,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 67cbbb1d57e1306bd250237a9f767e5dbca335e6
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: 386
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Adobeには、ビジネスやテクニカルなリソース、セルフヘルプ
 
 | エコシステムリソース | 説明 |
 | ------------------ | ----------- |
-| [製品ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/commerce.html?lang=ja) | マーチャント、デザイナー、開発者は、このドキュメントを使用して、[!DNL Commerce]の力を活用してビジネスを成長させる方法について、より深いinsightを得ることができます。 |
+| [製品ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce) | マーチャント、デザイナー、開発者は、このドキュメントを使用して、[!DNL Commerce]の力を活用してビジネスを成長させる方法について、より深いinsightを得ることができます。 |
 | [Commerce リソースライブラリ &#x200B;](https://business.adobe.com/jp/resources/commerce.html) | 電子ブック、Commerceホワイトペーパー、ウェビナーにアクセスして、insightの専門家や、オンラインストアの開発と改善に役立つオンラインビジネスリソースを入手しましょう。 |
 | [Adobe製品セキュリティインシデントの応答](https://helpx.adobe.com/jp/security.html) | セキュリティ警告レジストリに参加して、潜在的な脆弱性と[&#x200B; セキュリティのベストプラクティス &#x200B;](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf)に関する最新情報を入手します。 |
 | [&#x200B; ブログ &#x200B;](https://business.adobe.com/jp/blog/?ch_Products=Commerce) | 新機能、トレンド、ベストプラクティス、今後のイベントなどの最新情報をブログでご確認ください。 |

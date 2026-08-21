@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 313
+source-wordcount: 315
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 [!DNL AR Viewer]は、[Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/magento-module-arviewer.html){target=_blank}の拡張機能としてインストールされています。
 
-拡張機能のインストールプロセスについて詳しくは、[_インストールガイド_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=ja)を参照してください。
+拡張機能のインストールプロセスについて詳しくは、[_インストールガイド_](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/tutorials/extensions)を参照してください。
 
 [!DNL AR Viewer]拡張機能をインストールして設定した後、管理者ユーザーは3D モデルを含めるように製品リストを設定、カスタマイズ、管理できます。
 
@@ -75,5 +75,5 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 3d モデルを製品に追加するユーザーの一連のデモ動画については、_Commerce ビデオとチュートリアル_&#x200B;の[AR Viewer for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html?lang=ja) ページを参照してください。
+> 3d モデルを製品に追加するユーザーの一連のデモ動画については、_Commerce ビデオとチュートリアル_&#x200B;の[AR Viewer for Adobe Commerce](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/catalog/augmented-reality) ページを参照してください。
 

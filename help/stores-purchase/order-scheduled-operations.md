@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 284
+source-wordcount: 286
 ht-degree: 0%
 
 ---
@@ -59,11 +59,11 @@ ht-degree: 0%
 
 **_更新とインデックス再作成を有効にするには:_**
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [実稼動モード &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=ja#production-mode) （クラウドインフラストラクチャ上のAdobe Commerceで使用されるデフォルトモード）が有効になっている場合は、次のコマンドを実行します。
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [実稼動モード &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode) （クラウドインフラストラクチャ上のAdobe Commerceで使用されるデフォルトモード）が有効になっている場合は、次のコマンドを実行します。
 
 `bin/magento config:set dev/grid/async_indexing 1`
 
-[&#x200B; デフォルトモード &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=ja#default-mode)が有効になっている場合は、次の手順を実行します。
+[&#x200B; デフォルトモード &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/setup/application-modes#default-mode)が有効になっている場合は、次の手順を実行します。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 

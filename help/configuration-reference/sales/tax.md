@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1231
+source-wordcount: 1316
 ht-degree: 0%
 
 ---
@@ -29,8 +29,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe CommerceおよびMagento Open Source リリース 2.4.0 ～ 2.4.3には、[!UICONTROL Vertex Cloud]との統合に使用するVertex ベンダー開発の拡張機能が含まれています。2.4.4 リリース以降、この拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。Marketplaceでは、拡張機能の開発者が提供する最新のドキュメントにもアクセスできます。
-><br><br>> バンドル拡張機能を有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。詳しくは、_アップグレードガイド_&#x200B;の「[&#x200B; モジュールと拡張機能のアップグレード &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ja)」を参照してください。
+>Adobe CommerceおよびMagento Open Source リリース 2.4.0 ～ 2.4.3には、[!UICONTROL Vertex Cloud]との統合に使用するVertex ベンダー開発の拡張機能が含まれています。 2.4.4 リリース以降、この拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 Marketplaceでは、拡張機能の開発者が提供する最新のドキュメントにもアクセスできます。
+><br><br>
+>バンドル拡張機能を有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 詳しくは、_アップグレードガイド_&#x200B;の「[&#x200B; モジュールと拡張機能のアップグレード &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/upgrade-guide/modules/upgrade)」を参照してください。
 
 {{config}}
 

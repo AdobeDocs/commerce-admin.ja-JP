@@ -20,9 +20,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 680
+source-wordcount: 673
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Adobe CommerceとMagento Open Sourceは、注文が送信される前に、す�
 
 >[!TIP]
 >
->![Adobe Commerce B2B](../assets/b2b.svg) Adobe Commerce B2Bのインストールと有効化を使用すると、会社アカウントに関連付けられたお客様に対して&#x200B;_クイックオーダー_&#x200B;を設定できます。 この機能を利用すれば、顧客が注文する商品の名前またはSKUを把握したうえで、数回のクリックで注文プロセスを完了できます。 会社アカウントの交渉可能な見積のサポートを設定することもできます。 B2B機能について詳しくは、[Adobe Commerce B2B ユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ja)を参照してください。
+>![Adobe Commerce B2B](../assets/b2b.svg) Adobe Commerce B2Bのインストールと有効化を使用すると、会社アカウントに関連付けられたお客様に対して&#x200B;_クイックオーダー_&#x200B;を設定できます。 この機能を利用すれば、顧客が注文する商品の名前またはSKUを把握したうえで、数回のクリックで注文プロセスを完了できます。 会社アカウントの交渉可能な見積のサポートを設定することもできます。 B2B機能について詳しくは、[Adobe Commerce B2B ユーザーガイド &#x200B;](/help/b2b/introduction.md)を参照してください。
 
 ## ショッピング支援
 

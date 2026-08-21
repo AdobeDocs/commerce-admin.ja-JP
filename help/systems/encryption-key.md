@@ -20,9 +20,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: 536
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->これらの手順を完了しようとし、問題が発生した場合は、「[暗号化キーのローテーションのトラブルシューティング：CVE-2024-34102](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) ナレッジベース」の記事を参照してください。
+>これらの手順を完了しようとし、問題が発生した場合は、「[暗号化キーのローテーションのトラブルシューティング：CVE-2024-34102](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-27134) ナレッジベース」の記事を参照してください。
 
 Adobe CommerceとMagento Open Sourceは、暗号化キーを使用してパスワードやその他の機密データを保護します。 業界標準の[!DNL ChaCha20-Poly1305] アルゴリズムを256 ビット キーと共に使用して、暗号化が必要なすべてのデータを暗号化します。 これには、クレジットカードのデータや統合（支払いと配送モジュール）パスワードが含まれます。 さらに、復号を必要としないすべてのデータをハッシュするために、強力なセキュアハッシュアルゴリズム（SHA-256）が使用されます。
 
 最初のインストール時に、Commerceで暗号化キーを生成するか、独自のキーを入力するように求められます。 暗号化キーツールを使用すると、必要に応じてキーを変更できます。 セキュリティを強化するために、暗号化キーは定期的に変更する必要があり、いつでも元のキーが侵害される可能性があります。
 
-技術情報については、_PHP開発者ガイド_&#x200B;の&#x200B;_インストールガイド_&#x200B;の[高度なオンプレミスインストール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=ja)および[&#x200B; データ再暗号化](https://developer.adobe.com/commerce/php/development/security/data-encryption/)を参照してください。
+技術情報については、_PHP開発者ガイド_&#x200B;の&#x200B;_インストールガイド_&#x200B;の[高度なオンプレミスインストール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/advanced)および[&#x200B; データ再暗号化](https://developer.adobe.com/commerce/php/development/security/data-encryption)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -85,7 +85,7 @@ Adobe CommerceとMagento Open Sourceは、暗号化キーを使用してパス�
    encryption:key:change Change the encryption key inside the env.php file.
    ```
 
-   この出力が表示された場合は、次のCLI コマンドを実行し、エラーなしで完了することを確認します。 特定のシステム設定値または支払いフィールドを再暗号化する必要がある場合は、_PHP開発ガイド_&#x200B;の再暗号化[&#128279;](https://developer.adobe.com/commerce/php/development/security/data-encryption/)に関する詳細な ガイドを参照してください。
+   この出力が表示された場合は、次のCLI コマンドを実行し、エラーなしで完了することを確認します。 特定のシステム設定値または支払いフィールドを再暗号化する必要がある場合は、_PHP開発ガイド_&#x200B;の再暗号化[&#128279;](https://developer.adobe.com/commerce/php/development/security/data-encryption)に関する詳細な ガイドを参照してください。
 
    ```bash
    bin/magento encryption:key:change

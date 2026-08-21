@@ -18,9 +18,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: 560
 ht-degree: 3%
 
 ---
@@ -45,7 +45,7 @@ AEM Assets プロジェクトを特定したら、Adobe CommerceとAEM Assets間
 
 - Commerce向けAEM Assets統合の有効化をリクエストするためのサポートチケットを作成します。 チケットには、Commerceに接続するAEM Assets オーサリング環境用の&#x200B;**[!UICONTROL Program ID]**、**[!UICONTROL Environment ID]**&#x200B;および&#x200B;**[!UICONTROL IMS Org ID]**&#x200B;が含まれています。
 
-- **[!UICONTROL Asset Selector IMS Client ID]**&#x200B;を指定してください。 *AEM Assets Selector* ドキュメントの[ImsAuthProps](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app)を参照してください。
+- **[!UICONTROL Asset Selector IMS Client ID]**&#x200B;を指定してください。 *AEM Assets Selector* ドキュメントの[ImsAuthProps](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications)を参照してください。
 
 ## 接続の設定
 
@@ -66,7 +66,7 @@ AEM Assets プロジェクトを特定したら、Adobe CommerceとAEM Assets間
 
 1. **[!UICONTROL Asset Selector IMS Client ID]**&#x200B;を入力します。
 
-   [Asset Selector IMS Client ID](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props)は、Commerce製品ページにビジュアルアセットを直接埋め込むことができるAEM Assets機能である[!UICONTROL Assets Selector]に必要です。
+   [Asset Selector IMS Client ID](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications)は、Commerce製品ページにビジュアルアセットを直接埋め込むことができるAEM Assets機能である[!UICONTROL Assets Selector]に必要です。
 
 1. Commerceとアセットマッチングサービス間のリクエストを認証する場合は、[[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment)を選択します。
 

@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 2322
+source-wordcount: 2313
 ht-degree: 0%
 
 ---
@@ -162,4 +162,4 @@ Adobe CommerceおよびMagento Open SourceのデフォルトのCookieは、販�
 
 - `mg`: Snowplow JavaScript トラッカーで設定します。 詳細については、[Snowplowのドキュメント &#x200B;](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/)を参照してください。
 - `com.adobe.alloy.getTld`：現在のweb ページのホスト名を指定すると、これはhttps://publicsuffix.orgで説明されているように「公開サフィックス」ではない最上位のドメインです。 基本的に、これはCookieを受け入れることができる最も上のドメインです。 このCookieは[Alloy Web SDK](https://github.com/adobe/alloy)の一部です。
-- `aep-segments-membership`：買い物客がどのセグメントに属しているかなど、[&#x200B; オーディエンス情報](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/audience-activation)が含まれます。
+- `aep-segments-membership`：買い物客がどのセグメントに属しているかなど、[&#x200B; オーディエンス情報](/help/customers/audience-activation.md)が含まれます。

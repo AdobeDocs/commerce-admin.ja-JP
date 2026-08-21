@@ -20,7 +20,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
 source-wordcount: 1320
 ht-degree: 0%
@@ -55,14 +55,14 @@ Adobe Commerce B2B拡張機能`magento/extension-b2b`は、サポートされて
 
 - 拡張機能をダウンロードするには、[repo.magento.com](https://repo.magento.com/)にアクセスしてください。 キーの生成と必要な権限の取得については、[認証キーの取得](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)を参照してください。
 
-  認証キーを[COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home) ディレクトリでグローバルに定義して、インストール用に保存します。 または、Adobe Commerce アプリケーションルートディレクトリの[auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/#authentication-file) ファイルに保存します。
+  認証キーを[COMPOSER_HOME](https://getcomposer.org/doc/03-cli.md#composer-home) ディレクトリでグローバルに定義して、インストール用に保存します。 または、Adobe Commerce アプリケーションルートディレクトリの[auth.json](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository#authentication-file) ファイルに保存します。
 
 - [&#x200B; サポートされているB2B拡張機能のバージョン &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/product-availability) – デプロイされたAdobe CommerceのバージョンでサポートされているB2B拡張機能の最新バージョンを確認します。
 
 - リリースノートを参照して、インストールやアップグレードの要件に影響を与える可能性のあるバージョンの互換性、アップデート、変更に関する最新の情報を確認してください。
 
-   - [B2B リリースノート](release-notes.md)
-   - [Adobe Commerce リリースノート](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/versions)
+  - [B2B リリースノート](release-notes.md)
+  - [Adobe Commerce リリースノート](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/versions)
 
 >[!ENDSHADEBOX]
 
@@ -76,7 +76,7 @@ Composerを使用してB2B拡張機能（`magento/b2b-extension`）をインス�
 >
 >クラウドインフラストラクチャにAdobe Commerce B2Bをインストールする場合、Adobeでは、開始する前にAdobe Commerce アプリケーションを統合環境またはステージング環境にデプロイすることをお勧めします。
 
-Adobeでは、B2B拡張機能をプロジェクトに追加する際に、開発ブランチで作業することをお勧めします。 分岐がない場合は、[開発用の分岐の作成](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/develop/cli-branches)を参照してください。 B2B拡張機能をインストールすると、`Magento_B2b`拡張機能の名前が`app/etc/config.php` ファイルに自動的に挿入されます。 ファイルを直接編集する必要はありません。
+Adobeでは、B2B拡張機能をプロジェクトに追加する際に、開発ブランチで作業することをお勧めします。 分岐がない場合は、[開発用の分岐の作成](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/cli-branches)を参照してください。 B2B拡張機能をインストールすると、`Magento_B2b`拡張機能の名前が`app/etc/config.php` ファイルに自動的に挿入されます。 ファイルを直接編集する必要はありません。
 
 **B2B拡張機能をインストールするには**:
 
@@ -112,7 +112,7 @@ Adobeでは、B2B拡張機能をプロジェクトに追加する際に、開発
 
    >[!NOTE]
    >
-   >クラウド環境に更新をプッシュすると、Commerce クラウドデプロイメントプロセスが開始され、変更が適用されます。 [&#x200B; デプロイ ログ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/develop/deploy/process)のデプロイメント ステータスを確認します。 デプロイメントエラーが発生した場合は、[&#x200B; コンポーネントエラーからの回復](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment)を参照してください。
+   >クラウド環境に更新をプッシュすると、Commerce クラウドデプロイメントプロセスが開始され、変更が適用されます。 [&#x200B; デプロイ ログ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/deploy/process)のデプロイメント ステータスを確認します。 デプロイメントエラーが発生した場合は、[&#x200B; コンポーネントエラーからの回復](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/deploy/recover-failed-deployment)を参照してください。
 
 1. ビルドとデプロイが完了したら、SSHを使用してリモート環境にログインし、B2B拡張機能がインストールされ、有効になっていることを確認します。
 
@@ -188,7 +188,7 @@ Adobe Commerce B2B拡張機能は、メッセージキュー管理にMySQLを使
 | `purchaseorder.validation` | 関連する[承認ルール &#x200B;](account-dashboard-approval-rules.md)に対して発注書を検証します。 管理者システム構成設定で[**[!UICONTROL Purchase Orders]**](purchase-order-flow.md) オプションが有効になっている場合は必須です。 |
 | `quoteItemCleaner` | 商品がカタログから削除されたり、買い物かごから削除されたりすると、無効または非アクティブな価格見積もりを削除します。 管理者システム構成設定で[**[!UICONTROL Quotes]**](quotes.md) オプションが有効になっている場合は必須です。 |
 | `inventoryQtyCounter` | 注文または商品が削除された後に、在庫指数を非同期で修正します。 管理者設定で[**[!UICONTROL Use deferred stock update]**](../configuration-reference/catalog/inventory.md#product-stock-options) オプションがInventory managementに対して有効になっている場合に必要です。 [&#x200B; パフォーマンスのベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/performance-best-practices/configuration#deferred-stock-update)を参照してください。 |
-| `async.operations.all` | 品目のインポートまたはエクスポート、大規模な価格変更、倉庫への製品の割り当てなど、[一括操作](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/)の各タスクに対するメッセージを作成します。 [!DNL Inventory Management]の&#x200B;[**管理者一括操作**](../configuration-reference/catalog/inventory.md#admin-bulk-operations) オプションが&#x200B;**管理者システム構成設定で非同期実行**&#x200B;に設定されている場合に必要です。 |
+| `async.operations.all` | 品目のインポートまたはエクスポート、大規模な価格変更、倉庫への製品の割り当てなど、[一括操作](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations)の各タスクに対するメッセージを作成します。 [!DNL Inventory Management]の&#x200B;[**管理者一括操作**](../configuration-reference/catalog/inventory.md#admin-bulk-operations) オプションが&#x200B;**管理者システム構成設定で非同期実行**&#x200B;に設定されている場合に必要です。 |
 
 {style="table-layout:auto"}
 

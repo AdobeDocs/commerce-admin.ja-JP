@@ -24,16 +24,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 865
 ht-degree: 0%
 
 ---
 
 # 管理者セキュリティの設定
 
-ストアのセキュリティを保護するために、多面的なアプローチを採用することをお勧めします。 最初に、わかりやすい「管理者」や「バックエンド」ではなく、推測しにくい[&#x200B; カスタム管理者URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)を使用することから始めます。 デフォルトでは、管理者に[&#x200B; ログインするために使用されるパスワードは、7文字以上で、英数字の両方が含まれている必要があります。 &#x200B;](../getting-started/admin-signin.md)組織のニーズに基づいてセキュリティを強化するために、最小パスワード長の要件を設定できます。 [&#x200B; ベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=ja)として、文字、数字、記号の組み合わせを含む強力な管理者パスワードのみを使用してください。 Adobe CommerceとMagento Open Sourceでは、アカウントに割り当てられた最後の4つのパスワードを再利用できません。
+ストアのセキュリティを保護するために、多面的なアプローチを採用することをお勧めします。 最初に、わかりやすい「管理者」や「バックエンド」ではなく、推測しにくい[&#x200B; カスタム管理者URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)を使用することから始めます。 デフォルトでは、管理者に[&#x200B; ログインするために使用されるパスワードは、7文字以上で、英数字の両方が含まれている必要があります。 &#x200B;](../getting-started/admin-signin.md)組織のニーズに基づいてセキュリティを強化するために、最小パスワード長の要件を設定できます。 [&#x200B; ベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)として、文字、数字、記号の組み合わせを含む強力な管理者パスワードのみを使用してください。 Adobe CommerceとMagento Open Sourceでは、アカウントに割り当てられた最後の4つのパスワードを再利用できません。
 
 管理者セキュリティ設定では、次の機能を使用できます。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 >
 >[!DNL Adobe Identity Management Services] （IMS）認証を有効にしているストアでは、ネイティブ Adobe CommerceとMagento Open Source 2FAが無効になっています。 Adobeの資格情報を使用してCommerce インスタンスにログインしている管理者ユーザーは、多くの管理者タスクで再認証を行う必要はありません。 認証は、管理者ユーザーが現在のセッションにログインしたときにAdobe IMSによって処理されます。 [[!DNL Adobe Identity Management Service]  （IMS）統合の概要](../getting-started/adobe-ims-integration-overview.md)を参照してください。
 
-技術情報については、開発者用マニュアルの[&#x200B; セキュリティの概要](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"}を参照してください。
+技術情報については、開発者用マニュアルの[&#x200B; セキュリティの概要](https://developer.adobe.com/commerce/php/architecture/basics/security){:target="_blank"}を参照してください。
 
 ![管理者セキュリティ &#x200B;](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
@@ -103,8 +103,8 @@ ht-degree: 0%
 
    - **[!UICONTROL Password Change]**&#x200B;を次のいずれかに設定します：
 
-      - `Forced` – 管理者ユーザーがアカウントの設定後にパスワードを変更する必要があります。
-      - `Recommended` – 管理者ユーザーがアカウントの設定後にパスワードを変更することをお勧めします。
+     - `Forced` – 管理者ユーザーがアカウントの設定後にパスワードを変更する必要があります。
+     - `Recommended` – 管理者ユーザーがアカウントの設定後にパスワードを変更することをお勧めします。
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 

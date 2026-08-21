@@ -19,9 +19,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 1049
+source-wordcount: 1129
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ _マーチャンダイジング_&#x200B;は、平面図の開発と製品のプ�
 
 >[!TIP]
 >
->商品レコメンデーションと、購入者に最適なエクスペリエンスを構築するために必要なinsightとコントロールを提供する方法について詳しくは、[商品レコメンデーションユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=ja)を参照してください。
+>商品レコメンデーションと、購入者に最適なエクスペリエンスを構築するために必要なinsightとコントロールを提供する方法について詳しくは、[商品レコメンデーションユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/guide-overview)を参照してください。
 
 ## プロモーション
 
@@ -83,8 +83,9 @@ Adobe Commerceでは、プロモーション機能を利用して商品との関
 
 >[!NOTE]
 >
->Adobe CommerceおよびMagento Open Source リリース 2.4.0 ～ 2.4.3には、dotdigital Engagement Cloudとの統合に使用するdotdigital ベンダー開発の拡張機能が含まれています。2.4.4 リリース以降、この拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。Marketplaceでは、拡張機能の開発者が提供する最新のドキュメントにもアクセスできます。
-><br><br>> バンドル拡張機能を有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。詳しくは、_アップグレードガイド_&#x200B;の[&#x200B; アップグレードモジュール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ja)を参照してください。
+>Adobe CommerceおよびMagento Open Source リリース 2.4.0 ～ 2.4.3には、dotdigital Engagement Cloudとの統合に使用するdotdigital ベンダー開発の拡張機能が含まれています。 2.4.4 リリース以降、この拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 Marketplaceでは、拡張機能の開発者が提供する最新のドキュメントにもアクセスできます。
+><br><br>
+>バンドル拡張機能を有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 詳しくは、_アップグレードガイド_&#x200B;の[&#x200B; アップグレードモジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/upgrade-guide/modules/upgrade)を参照してください。
 
 - [&#x200B; ニュースレター](newsletters.md) - ニュースレターを作成し、購読者リストを管理し、コンテンツを開発し、ストアへのトラフィックを促進します。
 

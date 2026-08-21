@@ -19,7 +19,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 2839
 ht-degree: 0%
@@ -197,9 +197,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[!DNL Page Builder] コンテンツを保存するための追加のデータベースエンティティを作成した場合、_は_&#x200B;それらのエンティティを`etc/di.xml`に追加する必要があります。 これを行わない場合、エンティティに保存されている[!DNL Page Builder] コンテンツは更新されないため、データ損失や表示の問題が発生する可能性があります。 例えば、[!DNL Page Builder] コンテンツを格納するブログエンティティを作成した場合、アップグレードライブラリがブログで使用する[!DNL Page Builder] コンテンツタイプを更新できるように、`UpgradableEntitiesPool` タイプとして`etc/di.xml` ファイルにブログエンティティを追加する必要があります。 アップグレードライブラリの使用について詳しくは、_ページビルダー開発者ガイド_&#x200B;の「[&#x200B; コンテンツタイプをアップグレード &#x200B;](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/)」を参照してください。
+>[!DNL Page Builder] コンテンツを保存するための追加のデータベースエンティティを作成した場合、_は_&#x200B;それらのエンティティを`etc/di.xml`に追加する必要があります。 これを行わない場合、エンティティに保存されている[!DNL Page Builder] コンテンツは更新されないため、データ損失や表示の問題が発生する可能性があります。 例えば、[!DNL Page Builder] コンテンツを格納するブログエンティティを作成した場合、アップグレードライブラリがブログで使用する[!DNL Page Builder] コンテンツタイプを更新できるように、`UpgradableEntitiesPool` タイプとして`etc/di.xml` ファイルにブログエンティティを追加する必要があります。 アップグレードライブラリの使用について詳しくは、_ページビルダー開発者ガイド_&#x200B;の「[&#x200B; コンテンツタイプをアップグレード &#x200B;](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types)」を参照してください。
 
-![新規](../assets/new.svg) **新しいアピアランスを追加するためのドキュメント** – 既存またはカスタムのコンテンツタイプに対するアピアランスの追加[&#128279;](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances/)に関する開発者情報が公開されました。
+![新規](../assets/new.svg) **新しいアピアランスを追加するためのドキュメント** – 既存またはカスタムのコンテンツタイプに対するアピアランスの追加[&#128279;](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances)に関する開発者情報が公開されました。
 
 ![修正された問題](../assets/fix.svg) **さまざまな修正**
 

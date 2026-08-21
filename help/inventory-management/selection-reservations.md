@@ -21,9 +21,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2026-06-03
-source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 2178
+source-wordcount: 2179
 ht-degree: 0%
 
 ---
@@ -209,7 +209,7 @@ SSAは、費用対効果の高い配送を推奨する、サードパーティ�
 
 `inventory_cleanup_reservations` cron ジョブは、SQL クエリを実行して予約データベース テーブルをクリアします。 デフォルトでは、毎日午前0時に実行されますが、時間と頻度を設定できます。 cron ジョブは、データベースにクエリを実行して、数量値の合計が0である完全な予約シーケンスを見つけるスクリプトを実行します。 同じ日（またはその他の設定時間）に発生した特定の製品の予約がすべて補償されると、cron ジョブは予約をすべて一度に削除します。
 
-`inventory_reservations_cleanup` cron ジョブは、`inventory.reservations.cleanup` メッセージ キューのコンシューマーと同じではありません。 消費者は、製品が削除された後、製品SKUによって予約を非同期で削除しますが、cron ジョブは予約テーブル全体をクリアします。 ストア設定で「[**カタログと同期**](../configuration-reference/catalog/inventory.md)」ストックオプションを有効にする場合、消費者は必須です。 _設定ガイド_&#x200B;の「[&#x200B; メッセージキューの管理](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ja){target="_blank"}」を参照してください。
+`inventory_reservations_cleanup` cron ジョブは、`inventory.reservations.cleanup` メッセージ キューのコンシューマーと同じではありません。 消費者は、製品が削除された後、製品SKUによって予約を非同期で削除しますが、cron ジョブは予約テーブル全体をクリアします。 ストア設定で「[**カタログと同期**](../configuration-reference/catalog/inventory.md)」ストックオプションを有効にする場合、消費者は必須です。 _設定ガイド_&#x200B;の「[&#x200B; メッセージキューの管理](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues){target="_blank"}」を参照してください。
 
 多くの場合、1日に発生した最初の予約は、その日に補償されることはありません。 この状況は、顧客がクローンジョブの直前に注文を行ったり、銀行振込などのオフラインの支払い方法で購入を行ったりした場合に発生する可能性があります。 補償された予約シーケンスは、すべて補償されるまでデータベースに残ります。 この方法は、各予約の合計が0であるため、予約計算の妨げにはなりません。
 

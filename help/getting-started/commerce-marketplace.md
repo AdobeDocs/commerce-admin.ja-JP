@@ -23,9 +23,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1425
+source-wordcount: 1438
 ht-degree: 0%
 
 ---
@@ -47,19 +47,19 @@ ht-degree: 0%
 ### Commerceの業界トレンド
 
 - [Adobe CommerceのI/O イベントの設定](https://developer.adobe.com/commerce/extensibility/events/)
-- [Adobe Commerceのイベントの設定](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
+- [Adobe Commerceのイベントの設定](https://developer.adobe.com/commerce/extensibility/events/configure-commerce)
 - [Admin UI SDKの設定](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [拡張機能のアプリへの変換](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
 ### App Builderの業界トレンド
 
 - [Commerce App Builderの概要](https://developer.adobe.com/commerce/extensibility/app-development/)
-- [Adobe Developer App Builder用API Meshの設定](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
-- [App Builder アプリのデプロイ](https://developer.adobe.com/app-builder/docs/guides/deployment/)
-- [APP BUILDER アプリケーション用のCI/CD](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
+- [Adobe Developer App Builder用API Meshの設定](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/)
+- [App Builder アプリのデプロイ](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/deployment/deployment)
+- [APP BUILDER アプリケーション用のCI/CD](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/deployment/cicd-for-app-builder-apps)
 - App Builder/Developer Consoleの概要
-  - [App Builderの導入方法](https://developer.adobe.com/app-builder/docs/getting_started/)
-  - [プロジェクトとワークスペースについて](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
+  - [App Builderの導入方法](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app)
+  - [プロジェクトとワークスペースについて](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces)
 
 ## [!DNL Marketplace]資格情報
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe CommerceとMagento Open Source 2.4.0以降、Web セットアップ ウィザードは削除され、コマンドラインを使用してインスタンスを[&#x200B; インストール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=ja)または[&#x200B; アップグレード &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=ja)する必要があります。 この要件には、[&#x200B; モジュール &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ja)と[拡張機能](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=ja)も含まれます。
+>Adobe CommerceとMagento Open Source 2.4.0以降、Web セットアップ ウィザードは削除され、コマンドラインを使用してインスタンスを[&#x200B; インストール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/advanced)または[&#x200B; アップグレード &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade)する必要があります。 この要件には、[&#x200B; モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/upgrade-guide/modules/upgrade)と[拡張機能](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/tutorials/extensions)も含まれます。
 
 [!DNL Marketplace]購入のインストールプロセスは、Commerceの&#x200B;_オンプレミス_ インストールと、[Adobe Cloud Architecture](https://www.adobe.com/commerce/magento/enterprise.html)でホストされているインストールでは異なります。
 

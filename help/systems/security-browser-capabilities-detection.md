@@ -22,9 +22,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 285
+source-wordcount: 286
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 - ブラウザーのプライバシー設定でCookieを許可しない場合は、ほとんどのブラウザーで推奨される設定を行う方法を説明する「[Cookieを有効にする](../content-design/pages.md#enable-cookies)」ページに自動的にリダイレクトするようにシステムを設定できます。
 - ブラウザーのプライバシー設定でJavaScriptが許可されていない場合は、すべてのページのヘッダーの上に次のメッセージを表示するように設定できます。
 
-技術情報については、_インストールガイド_&#x200B;の[&#x200B; サポートされているブラウザー](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=ja#supported-browsers)を参照してください。
+技術情報については、_インストールガイド_&#x200B;の[&#x200B; サポートされているブラウザー](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/system-requirements#supported-browsers)を参照してください。
 
 ## ブラウザー機能の検出の設定
 

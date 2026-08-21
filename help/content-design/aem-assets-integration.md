@@ -20,9 +20,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 417
+source-wordcount: 421
 ht-degree: 0%
 
 ---
@@ -65,5 +65,5 @@ Adobe CommerceとAEM Assetsが連携し、コンテンツワークフローを�
 
 ## サポート
 
-このガイドに記載されていない情報や質問がある場合は、AEM Assets統合の営業担当者にお問い合わせいただくか、[&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ja#submit-ticket)を作成して追加のヘルプを受け取ってください。
+このガイドに記載されていない情報や質問がある場合は、AEM Assets統合の営業担当者にお問い合わせいただくか、[&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)を作成して追加のヘルプを受け取ってください。
 
