@@ -4,7 +4,7 @@ description: Commerce管理者の[!UICONTROL Advanced] > [!UICONTROL System] ペ
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: https://experienceleague.adobe.com/9QNzCxuwy1v5xR6YNE4On3woJ4mw-SnWB3m-me-nrb0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -206,7 +206,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | グローバル | ページ全体のキャッシュの管理に使用するアプリケーションを指定します。 オプション：<br/>**`Built-in Application`**– 実稼動環境では推奨されません。<br/>**`Varnish Caching`** – 実稼動環境で推奨されます。 |
 | [!UICONTROL TTL for public content] | グローバル | 公開コンテンツキャッシュの有効期間を秒単位で指定します。 デフォルト値：`120` |
-| [!UICONTROL Handles param size] | グローバル | [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP エンドポイントで処理する[&#x200B; レイアウトハンドル &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)の最大数を指定します。 サイズを制限すると、セキュリティとパフォーマンスが向上します。 デフォルト値：`100` |
+| [!UICONTROL Handles param size] | グローバル | [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP エンドポイントで処理する[&#x200B; レイアウトハンドル &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)の最大数を指定します。 サイズを制限すると、セキュリティとパフォーマンスが向上します。 デフォルト値：`100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | グローバル | Varnish設定をパージして設定ファイルを生成できるIP アドレスを指定します。 複数のエントリをコンマで区切ります。 デフォルト値：`localhost` |
 | [!UICONTROL Backend host] | グローバル | 設定ファイルを生成するバックエンドホストを指定します。 デフォルト値：`localhost` |
@@ -286,7 +286,7 @@ ht-degree: 1%
 
 ![詳細設定 – イメージのアップロード設定](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
