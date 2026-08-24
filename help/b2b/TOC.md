@@ -69,4 +69,4 @@ ht-degree: 5%
 + 参照 {#reference}
   + [後方互換性のない変更](backward-incompatible-changes.md)
   + [パッケージ](packages.md)
-+ [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
