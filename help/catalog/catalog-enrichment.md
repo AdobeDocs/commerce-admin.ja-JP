@@ -63,7 +63,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 - ストアフロントはLLM向けおよびエージェント型のボットでクロールできます。カタログに応じた提案を行うにはクロールで対応する必要があります。
 - 必要なCommerce サービスとカタログ接続が有効になり、正常に動作します。 詳細については、[&#x200B; カタログの強化を有効にする](#enable-catalog-enrichment)を参照してください。
 - [IMSが設定されています](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/organizations)。
-- [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)にアクセスできます。
+- [Adobe Admin Console](https://helpx.adobe.com/jp/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)にアクセスできます。
 - 組織が基礎となるAI サービスに対して、生成AIに乗り換えたり、明示的にオプトアウトしたりしました。
 
 >[!NOTE]
