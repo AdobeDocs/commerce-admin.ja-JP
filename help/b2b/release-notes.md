@@ -43,7 +43,7 @@ B2B拡張機能のリリースノートでは、Adobeがリリースサイクル
 
 >[!NOTE]
 >
->使用可能なAdobe Commerce リリースでサポートされているB2B Commerce拡張機能のバージョンについては、[製品の可用性](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability)を参照してください。
+>使用可能なAdobe Commerce リリースでサポートされているB2B Commerce拡張機能のバージョンについては、[製品の可用性](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/product-availability)を参照してください。
 
 ## B2B v1.5.3
 
@@ -308,7 +308,7 @@ B2B v1.5.1 リリースには、品質の改善とバグ修正が含まれてい
 [!BADGE Adobe Commerce バージョン 2.4.7-p3以降および2.4.6-p8以降のセキュリティパッチリリースを]{type=Informative tooltip="サポート対象"} サポートしています。
 Adobe Commerce バージョン 2.4.8-beta1、2.4.7～2.4.7-p2、2.4.6～2.4.6-p7と互換性があります。
 
-Adobe Commerce B2B バージョン 1.5.0はPHP 8.3とも互換性があり、[GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)をサポートしています。
+Adobe Commerce B2B バージョン 1.5.0はPHP 8.3とも互換性があり、[GraphQL Application Server](https://experienceleague.adobe.com/ja/docs/commerce-operations/performance-best-practices/concepts/application-server)をサポートしています。
 
 B2B v1.5.0 リリースには、新機能、品質向上、バグ修正が含まれています。
 
@@ -487,13 +487,13 @@ B2B v1.4.2 リリースには、品質の改善とバグ修正が含まれてい
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B バージョン 1.4.2以降は、PHP 8.2と互換性があります。 Commerce インスタンスをバージョン 2.4.7以降にアップグレードする場合は、インスタンスでPHP バージョン 8.2を使用してAdobe Commerce B2B リリースとの互換性を維持してください。 さらに、B2B 1.4.2以降では、現在[GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)をサポートしていません。
+>Adobe Commerce B2B バージョン 1.4.2以降は、PHP 8.2と互換性があります。 Commerce インスタンスをバージョン 2.4.7以降にアップグレードする場合は、インスタンスでPHP バージョン 8.2を使用してAdobe Commerce B2B リリースとの互換性を維持してください。 さらに、B2B 1.4.2以降では、現在[GraphQL Application Server](https://experienceleague.adobe.com/ja/docs/commerce-operations/performance-best-practices/concepts/application-server)をサポートしていません。
 
 ### B2B v1.4.1
 
 *2023年8月7日*
 
-[!BADGE &#x200B; サポートされている]{type=Informative tooltip="サポート対象"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/security-patches/2-4-6-patches)。 Adobe Commerce 2.4.7-beta1との互換性。
+[!BADGE &#x200B; サポートされている]{type=Informative tooltip="サポート対象"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/notes/security-patches/2-4-6-patches)。 Adobe Commerce 2.4.7-beta1との互換性。
 
 B2B v1.4.1 リリースには、品質の改善とバグ修正が含まれています。
 
@@ -511,7 +511,7 @@ B2B v1.4.1 リリースには、品質の改善とバグ修正が含まれてい
 
 *2023年6月13日*
 
-[!BADGE &#x200B; サポートされている]{type=Informative tooltip="サポート対象"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/security-patches/2-4-6-patches)。 Adobe Commerce 2.4.7-beta1との互換性。
+[!BADGE &#x200B; サポートされている]{type=Informative tooltip="サポート対象"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/notes/security-patches/2-4-6-patches)。 Adobe Commerce 2.4.7-beta1との互換性。
 
 このリリースには、B2B交渉可能な見積もりに関する新機能と機能強化、および複数のバグ修正が含まれています。
 
@@ -537,7 +537,7 @@ B2B v1.4.1 リリースには、品質の改善とバグ修正が含まれてい
 
 #### 既知の問題
 
-B2B 1.4.0を[Adobe Commerce バージョン 2.4.6-p1](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/security-patches/2-4-6-patches)にインストールまたはアップグレードすると、次のエラーが発生します。
+B2B 1.4.0を[Adobe Commerce バージョン 2.4.6-p1](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/notes/security-patches/2-4-6-patches)にインストールまたはアップグレードすると、次のエラーが発生します。
 
 ```
 Your requirements could not be resolved to an installable set of packages.
@@ -549,7 +549,7 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-この問題を修正するには、[安定性タグ &#x200B;](https://getcomposer.org/doc/04-schema.md#package-links)を含むB2B セキュリティパッケージの手動の依存関係を追加します。 手順については、[Adobe Commerce ナレッジベース &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1-4-0-installation-fails-on-adobe-commerce-2-4-6-p1-on-premises)を参照してください。
+この問題を修正するには、[安定性タグ &#x200B;](https://getcomposer.org/doc/04-schema.md#package-links)を含むB2B セキュリティパッケージの手動の依存関係を追加します。 手順については、[Adobe Commerce ナレッジベース &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1-4-0-installation-fails-on-adobe-commerce-2-4-6-p1-on-premises)を参照してください。
 
 ### B2B v1.3.5-p13
 
@@ -617,7 +617,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 >[!NOTE]
 >
->Commerceを2.4.6から[最新リリース &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions#2.4.6)にアップグレードした後、サポートされているB2B 1.3.5 パッチリリースにアップデートしてください。 または、B2B拡張機能をバージョン 1.3.5からバージョン 1.4.0以降にアップグレードして、最新の機能を入手します。
+>Commerceを2.4.6から[最新リリース &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/versions#2.4.6)にアップグレードした後、サポートされているB2B 1.3.5 パッチリリースにアップデートしてください。 または、B2B拡張機能をバージョン 1.3.5からバージョン 1.4.0以降にアップグレードして、最新の機能を入手します。
 
 - Adobe Commerce 2.4.6のサポートを追加しました。
 
@@ -843,7 +843,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - &#x200B;<!--- MC-41260--> 会社ユーザーが作成した注文の&#x200B;**[!UICONTROL Return]** ボタンをクリックすると、管理ユーザーが想定どおりに返品作成ページにリダイレクトされるようになりました。 以前は、管理者は注文履歴ページにリダイレクトされていました。
 
-- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} <!--- MC-40798--> Adobe Commerceは、`bin/magento setup:upgrade`中に`app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` メソッドを実行する際にメモリ不足エラーが発生して失敗しなくなりました。 以前、Adobe Commerceでは、権限を初期化する際に収集にバッチサイズを使用せず、代わりにすべての会社の役割のコレクションを読み込んでいました。
+- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} <!--- MC-40798--> Adobe Commerceは、`bin/magento setup:upgrade`中に`app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` メソッドを実行する際にメモリ不足エラーが発生して失敗しなくなりました。 以前、Adobe Commerceでは、権限を初期化する際に収集にバッチサイズを使用せず、代わりにすべての会社の役割のコレクションを読み込んでいました。
 
 - &#x200B;<!--- MC-40551--> 企業ユーザーは、顧客カスタム属性値を編集および更新できるようになりました。 以前は、これらの属性はユーザーフォームの作成と編集で正しくバインドされていませんでした。 会社のユーザーは異なる属性値を入力できますが、Adobe Commerceはこれらの値を正しく保存しませんでした。
 
@@ -987,7 +987,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 購入者が発注を作成し、チェックアウトページに移動すると、Adobe Commerceに404 エラーが表示されることがあります。 このエラーは、購入者が以前にオンライン支払い方法で別の発注を作成した後、前回の購入を完了せずにチェックアウトページに移動した場合に発生します。 その時点で顧客は発注できます。 **_回避策_**：なし。<!--- B2B-1605-->
 
-- 購入者が最終チェックアウト中に支払い方法を変更した場合でも、購入注文のチェックアウト中は特定の支払い方法の割引が維持されます。 その結果、顧客は資格のない割引を受け取ることができます。 この問題は、支払い方法が変更されたにもかかわらず、元の支払い方法の買い物かごルールが引き続き適用されるために発生します。 **_回避策_**：なし。 [Adobe Commerce 2.4.2 B2Bの既知の問題：支払い方法を変更した後のオンライン購入注文の割引が残る](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change) _ナレッジベース_&#x200B;の記事を参照してください。<!-- B2B-1012 -->
+- 購入者が最終チェックアウト中に支払い方法を変更した場合でも、購入注文のチェックアウト中は特定の支払い方法の割引が維持されます。 その結果、顧客は資格のない割引を受け取ることができます。 この問題は、支払い方法が変更されたにもかかわらず、元の支払い方法の買い物かごルールが引き続き適用されるために発生します。 **_回避策_**：なし。 [Adobe Commerce 2.4.2 B2Bの既知の問題：支払い方法を変更した後のオンライン購入注文の割引が残る](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change) _ナレッジベース_&#x200B;の記事を参照してください。<!-- B2B-1012 -->
 
 - `deleteRequisitionListOutput` クエリは、残りの購買リストではなく、削除された購買リストに関する詳細を返します。<!--- MC-39894-->
 
@@ -1117,7 +1117,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - ストア管理者が共有カタログにない注文に製品を追加できるようにするための修正が追加されました。 以前は、カタログに含まれていない項目を追加すると、エラーメッセージが表示されていました。
 
-- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}以前は、コマンド `php bin/magento indexer:set-dimensions-mode catalog_product_price website`を実行してから共有カタログを作成しようとすると、エラーが発生していました。 この問題は修正されました。
+- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}以前は、コマンド `php bin/magento indexer:set-dimensions-mode catalog_product_price website`を実行してから共有カタログを作成しようとすると、エラーが発生していました。 この問題は修正されました。
 
 - 会社を追加し、会社管理者をデフォルト以外のweb サイトに割り当てる際に、間違ったサイト IDが送信され、エラーが発生しました。 この問題は修正されました。
 
