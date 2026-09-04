@@ -23,7 +23,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>でサポートされているバージョンのリストからAdobe Commerce 2.4.8-p5を削除しました。 2.4.8お客様は、代わりにB2B バージョン 1.5.3を使用する必要があります。</p>
+      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>でサポートされているバージョンのリストからAdobe Commerce 2.4.8-p5を削除しました。 2.4.8お客様は、代わりにB2B バージョン 1.5.3を使用する必要があります。</p>
 </td>
       <td>
         テクニカル
@@ -45,7 +45,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>現在の管理者エクスペリエンスに合わせて<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status"> データフィード同期ステータス </a> トピックを更新し、ページが書き出しステータスのみをレポートすることを確認し、機能がCommerce サービスライセンス全体で利用可能になる場合を文書化しました。</p>
+      <td><p>現在の管理者エクスペリエンスに合わせて<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status"> データフィード同期ステータス </a> トピックを更新し、ページが書き出しステータスのみをレポートすることを確認し、機能がCommerce サービスライセンス全体で利用可能になる場合を文書化しました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -67,7 +67,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression">電子メール抑制</a>で、管理者から直接注文やマーケティング通知などの自動システム電子メールの特定のカテゴリを抑制する方法について説明します。</p>
+      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/config/services/email-suppression">電子メール抑制</a>で、管理者から直接注文やマーケティング通知などの自動システム電子メールの特定のカテゴリを抑制する方法について説明します。</p>
 </td>
       <td>
         メジャーアップデート、新しいトピック
@@ -89,7 +89,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>管理者でAIが提案した製品名と説明の更新を確認および適用するためのガイダンスを含む<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment"> カタログの強化</a>を追加し、<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu"> カタログメニュー</a>、<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview"> ガイドの概要</a>、および関連する製品設定のトピックからトピックをリンクしました。</p>
+      <td><p>管理者でAIが提案した製品名と説明の更新を確認および適用するためのガイダンスを含む<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/catalog-enrichment"> カタログの強化</a>を追加し、<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog-menu"> カタログメニュー</a>、<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/guide-overview"> ガイドの概要</a>、および関連する製品設定のトピックからトピックをリンクしました。</p>
 </td>
       <td>
         新しいトピック
