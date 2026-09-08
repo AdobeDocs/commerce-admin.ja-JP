@@ -4,42 +4,33 @@ description: すべてのweb サイトで、製品のストックオプション
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ca077051a26ab57194eef45f57351e2f6b1b0b6b
 workflow-type: tm+mt
-source-wordcount: 658
+source-wordcount: 757
 ht-degree: 1%
 
 ---
 
 # [!DNL Inventory Management] グローバル オプションの設定
 
-これらのグローバル設定は、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**&#x200B;のカタログ全体に適用されます。
+これらのグローバル設定は、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**のカタログ全体に適用されます。
 
 web サイトの製品と在庫のデフォルト設定オプションを設定します。 これらの設定の一部は、[製品オプションの設定](product-options.md)を通じて、製品ごとに上書きできます。 距離の優先度の設定を行うには、[距離の優先度アルゴリズムの設定](distance-priority-algorithm.md)を参照してください。
 
 ## グローバルに商品と在庫オプションを設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Catalog]**&#x200B;を展開し、**[!UICONTROL Inventory]**&#x200B;を選択します。
 
 1. **[!UICONTROL Stock Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、オプションを設定します。
 
-   ![&#x200B; ストックオプション &#x200B;](assets/config-catalog-inventory-stock-options.png){width="600" zoomable="yes"}
+   ![ ストックオプション ](assets/config-catalog-inventory-stock-options.png){width="600" zoomable="yes"}
 
    - 注文時に手元にある数量を調整するには、**[!UICONTROL Decrease Stock When Order is Placed]**&#x200B;を`Yes`に設定します。
 
@@ -47,7 +38,7 @@ web サイトの製品と在庫のデフォルト設定オプションを設定�
 
    - 在庫のない商品をカタログに引き続き表示するには、**[!UICONTROL Display Out of Stock Products]**&#x200B;を`Yes`に設定します。
 
-   - [価格アラート &#x200B;](alert-setup.md)が有効になっている場合、商品の再入荷時に通知を受け取るように登録できます。
+   - [価格アラート ](alert-setup.md)が有効になっている場合、商品の再入荷時に通知を受け取るように登録できます。
 
    - 製品ページに最後の在庫残りの金額を表示する開始を設定するには、**[!UICONTROL Only X left Threshold]**&#x200B;の金額を入力します。
 
@@ -63,7 +54,7 @@ web サイトの製品と在庫のデフォルト設定オプションを設定�
 
    - カタログの[在庫管理](enable.md)を有効にするには、**[!UICONTROL Manage Stock]**&#x200B;を`Yes`に設定します。
 
-     ![商品ストックオプション &#x200B;](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
+     ![商品ストックオプション ](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Backorders]**&#x200B;を次のいずれかに設定します：
 
@@ -93,17 +84,24 @@ web サイトの製品と在庫のデフォルト設定オプションを設定�
 
    - [!DNL Inventory Management]の場合、**[!UICONTROL Automatically Return Credit Memo Item to Stock]**&#x200B;は`No`に設定されています。 クレジットメモを送信する際に、を入力し、ソースに在庫を返品することを選択します。
 
+1. **[!UICONTROL Per-Source Availability (Storefront)]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、**[!UICONTROL Enable sourceAvailability GraphQL Query]**&#x200B;を`Yes`に設定して、[`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL クエリを使用してストアフロントでソースごとのストックデータをクエリできるようにします。 この設定は、ストアビューごとに範囲が設定されます。
+
+   >[!NOTE]
+   >
+   >`sourceAvailability` クエリは、SKUの在庫ソースを開示するため、デフォルトでは無効になっています。 正確な数量は、ソース数量が&#x200B;_[!UICONTROL Stock Options]_セクションで設定された&#x200B;**[!UICONTROL Only X left Threshold]**に達するまでマスクされたままです。 各インベントリソースには、デフォルトでオフになっている&#x200B;**[!UICONTROL Visible on Storefront]**フラグがあります。 ソースの在庫は、マーチャントが有効にするまで返品されません。 設定するには、**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**&#x200B;に移動し、ソースを編集して、**[!UICONTROL Visible on Storefront]**&#x200B;をオンにします。
+
+
 1. **[!UICONTROL Admin bulk operations]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、オプションを設定します。
 
    ![管理者の一括操作](assets/config-catalog-inventory-admin-bulk-operations.png){width="600" zoomable="yes"}
 
    - 一括製品アクションの一括操作を非同期で実行するように&#x200B;**[!UICONTROL Run asynchronously]**&#x200B;を設定します
 
-     これらの操作には、一括[&#x200B; ソースの割り当てと割り当て解除](bulk-assignment.md)、および[&#x200B; インベントリをソースに転送](inventory-transfer.md)することが含まれます。 非同期バッチサイズまでのバルクアクションを収集し、それらのアクションを実行します。 このオプションはデフォルトでは無効です。 有効にする前に、一括アクションを使用してパフォーマンスを確認することをお勧めします。
+     これらの操作には、一括[ ソースの割り当てと割り当て解除](bulk-assignment.md)、および[ インベントリをソースに転送](inventory-transfer.md)することが含まれます。 非同期バッチサイズまでのバルクアクションを収集し、それらのアクションを実行します。 このオプションはデフォルトでは無効です。 有効にする前に、一括アクションを使用してパフォーマンスを確認することをお勧めします。
 
      >[!NOTE]
      >
-     >_非同期キューマネージャー_&#x200B;を設定およびサポートするには、コマンドラインを使用してコマンドを発行する必要があります。 このステップには開発者のサポートが必要な場合があります。 _設定ガイド_&#x200B;の「[開始メッセージキューコンシューマー](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/cli/start-message-queues)」を参照してください。
+     >_非同期キューマネージャー_&#x200B;を設定およびサポートするには、コマンドラインを使用してコマンドを発行する必要があります。 このステップには開発者のサポートが必要な場合があります。 _設定ガイド_&#x200B;の「[開始メッセージキューコンシューマー](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/start-message-queues)」を参照してください。
 
    - 有効な場合は、**[!UICONTROL Asynchronous batch size]**&#x200B;を設定します。 デフォルトのバッチサイズは100です。 一括処理がこの量に達すると、システムはそれをトリガーします。
 
