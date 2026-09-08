@@ -230,7 +230,7 @@ Real-Time CDP [&#x200B; オーディエンス &#x200B;](../customers/audience-ac
    | `Name` | オーディエンスの名前（`Orders over $50`など） |
    | `Description` | オーディエンスの説明（`People who placed an order over $50 in the last month.`など）。 |
    | `Source` | オーディエンスがどこから来たのかを示します（`Experience Platform`）。 |
-   | `Website` | オーディエンスを含むデータストリームにリンクしているweb サイトを示します。 このリンクは、[[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data)拡張機能を使用してCommerce インスタンスをExperience Platformに接続するときに作成します。 |
+   | `Website` | オーディエンスを含むデータストリームにリンクしているweb サイトを示します。 このリンクは、[[!DNL Data Connection]](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/fundamentals/connect-data)拡張機能を使用してCommerce インスタンスをExperience Platformに接続するときに作成します。 |
 
    {style="table-layout:auto"}
 
@@ -252,7 +252,7 @@ Real-Time CDP [&#x200B; オーディエンス &#x200B;](../customers/audience-ac
    | `Fixed amount discount` | カート内の対象となる各商品の元の価格から固定額を引いて、商品を割引します。 例：[!UICONTROL Discount Amount]に`10`と入力すると、元の価格より$10少ない価格で更新されます。 |
    | カート全体の固定金額割引 | カートの合計から固定額を差し引くことで、カート全体を割引します。 例：[!UICONTROL Discount Amount]に10と入力して、買い物かごの合計から$10を差し引きます。 デフォルトでは、割引はカートの小計にのみ適用されます。 小計と配送を個別に割引を適用するには、_[!UICONTROL Apply to Shipping Amount]_&#x200B;オプションを使用します。 |
    | `Buy X get Y free` | 顧客が同じ製品/バリエーション **の数量Y**&#x200B;を無料で受け取るために購入する必要がある数量Xを定義します。 （[!UICONTROL Discount Amount]はYです） ディスカウントを適用するには、同じ商品のX+Yの合計数量がカートに存在するか、カートに追加されている必要があります。 |
-   | `Free Gift` | ルール条件が満たされると、無料のギフト商品をカートに追加します。 無料の商品とカートに追加する数量を選択します。 <br/><br/>**注：** ![Adobe Commerce](../assets/adobe-logo.svg)これは、Adobe Commerceでのみ使用できる排他的な機能であり、Magento Open Sourceでは使用できません。 （[詳細情報](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home#product-editions)） <br/><br/>この機能はLuma ストアフロントではサポートされていません。 [GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/)からアクセスでき、Edge Delivery Services（EDS）ストアフロントで利用できます。 |
+   | `Free Gift` | ルール条件が満たされると、無料のギフト商品をカートに追加します。 無料の商品とカートに追加する数量を選択します。 <br/><br/>**注：** ![Adobe Commerce](../assets/adobe-logo.svg)これは、Adobe Commerceでのみ使用できる排他的な機能であり、Magento Open Sourceでは使用できません。 （[詳細情報](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home#product-editions)） <br/><br/>この機能はLuma ストアフロントではサポートされていません。 [GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/)からアクセスでき、Edge Delivery Services（EDS）ストアフロントで利用できます。 |
 
    {style="table-layout:auto"}
 
