@@ -5,9 +5,9 @@ breadcrumb-title: マーチャンダイジングとプロモーション
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: ef07733f89af030f047576770655f6599b370351
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '276'
 ht-degree: 1%
 
 ---
@@ -52,6 +52,7 @@ ht-degree: 1%
     - [カート価格ルールの概要](price-rules-cart.md)
     - [買い物かごの価格ルールの作成](price-rules-cart-create.md)
     - [クーポンコード](price-rules-cart-coupon.md)
+    - [無料ギフトプロモーション](price-rules-cart-free-gift.md)
     - [カート価格ルールの予定変更](price-rule-cart-scheduled-changes.md)
     - [例：送料無料プロモーション](price-rules-cart-free-shipping.md)
     - [例：購入すると無料](price-rules-cart-buy-this-get-that.md)

@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+source-git-commit: ca077051a26ab57194eef45f57351e2f6b1b0b6b
 workflow-type: tm+mt
-source-wordcount: 658
+source-wordcount: 757
 ht-degree: 1%
 
 ---
@@ -92,6 +92,13 @@ web サイトの製品と在庫のデフォルト設定オプションを設定�
      たとえば、6単位で販売される商品は、`6`、`12`、`18`などの数量で購入できます。
 
    - [!DNL Inventory Management]の場合、**[!UICONTROL Automatically Return Credit Memo Item to Stock]**&#x200B;は`No`に設定されています。 クレジットメモを送信する際に、を入力し、ソースに在庫を返品することを選択します。
+
+1. **[!UICONTROL Per-Source Availability (Storefront)]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、**[!UICONTROL Enable sourceAvailability GraphQL Query]**&#x200B;を`Yes`に設定して、[`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL クエリを使用してストアフロントでソースごとのストックデータをクエリできるようにします。 この設定は、ストアビューごとに範囲が設定されます。
+
+   >[!NOTE]
+   >
+   >`sourceAvailability` クエリは、SKUの在庫ソースを開示するため、デフォルトでは無効になっています。 正確な数量は、ソース数量が&#x200B;_[!UICONTROL Stock Options]_&#x200B;セクションで設定された&#x200B;**[!UICONTROL Only X left Threshold]**&#x200B;に達するまでマスクされたままです。 各インベントリソースには、デフォルトでオフになっている&#x200B;**[!UICONTROL Visible on Storefront]**&#x200B;フラグがあります。 ソースの在庫は、マーチャントが有効にするまで返品されません。 設定するには、**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**&#x200B;に移動し、ソースを編集して、**[!UICONTROL Visible on Storefront]**&#x200B;をオンにします。
+
 
 1. **[!UICONTROL Admin bulk operations]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、オプションを設定します。
 

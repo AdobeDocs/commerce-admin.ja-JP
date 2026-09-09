@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+source-git-commit: 449593264c88c9090b26ffbc8e87a8d70d4cbfe9
 workflow-type: tm+mt
-source-wordcount: 1224
+source-wordcount: 1296
 ht-degree: 0%
 
 ---
@@ -69,6 +69,18 @@ ht-degree: 0%
 | [!UICONTROL Enable Qty Increments] | グローバル | 商品を数量インクリメントで販売できるかどうかを決定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Qty Increments] | グローバル | 数量インクリメントを構成する製品数を設定します。 |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | グローバル | クレジットメモに含まれている品目を自動的に在庫に戻すかどうかを決定します。 オプション：`Yes` / `No` |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Per-Source Availability (Storefront)]
+
+![Sourceごとの可用性（ストアフロント） &#x200B;](./assets/catalog-inventory-per-source-availability.png)<!-- zoom -->
+
+<!-- [Per-Source Availability (Storefront)](https://experienceleague.adobe.com/ja/docs/commerce-admin/inventory/configuration/global-options) -->
+
+| フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
+|--- |--- |--- |
+| [!UICONTROL Enable sourceAvailability GraphQL Query] | ストアビュー | `Yes`に設定すると、ストアフロント [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"}のクエリは、ストアの販売チャネルのソースごとの在庫を返します。 オプション：`Yes` / `No`。 デフォルト：`No`。これは、SKUに在庫があるソースをクエリが開示するためです。 無効な場合、クエリはエラーを返します。 クエリによって返された正確な数量は、ソース数量が[&#x200B; ストックオプション &#x200B;](#stock-options) セクションの&#x200B;**[!UICONTROL Only X left Threshold]** セットに達するまでマスクされたままになります。 |
 
 {style="table-layout:auto"}
 

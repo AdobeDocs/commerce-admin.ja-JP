@@ -20,12 +20,13 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+source-git-commit: 6f1f13b75aa01c5142cc8ea03cef2df6d2d3aaf3
 workflow-type: tm+mt
-source-wordcount: 3400
+source-wordcount: 3608
 ht-degree: 0%
 
 ---
+
 
 # 買い物かごの価格ルールの作成
 
@@ -73,10 +74,11 @@ ht-degree: 0%
      ![買い物かごの価格ルール – クーポン設定](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
 
    - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） _カレンダー_ （![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）を使用して、プロモーションの日付範囲&#x200B;**[!UICONTROL From]**&#x200B;と&#x200B;**[!UICONTROL To]**&#x200B;を選択します。
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerce as a Cloud Serviceのみ） _カレンダー_ （![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）を使用して、プロモーションの&#x200B;**[!UICONTROL From]**&#x200B;および&#x200B;**[!UICONTROL To]**&#x200B;の日時の範囲を選択します。
 
 1. 同時にアクティブになっている他の価格ルールのアクション設定に関連して、この価格ルールの&#x200B;**[!UICONTROL Priority]**&#x200B;を定義する数値を入力します。
 
-   同じ商品に複数のカートルールまたはクーポンが適用される場合は、優先度が最も高い（最小数）ルールが最初に適用されます。 同じ優先度のルールは組み合わせられません。ルール IDに基づいて個別に適用されます。 割引が適用される順序を制御するには、固有の優先順位を割り当て、「[後続の価格ルールを破棄](#step-3-define-the-actions)」をアクションステップで使用して、割引の積み重ねを防ぐことを検討します。
+   同じ商品に複数のカートルールまたはクーポンが適用される場合は、優先度が最も高い（最小数）ルールが最初に適用されます。 同じ優先度のルールは結合されません。ルール IDに基づいて個別に適用されます。 割引が適用される順序を制御するには、固有の優先順位を割り当て、「[後続の価格ルールを破棄](#step-3-define-the-actions)」をアクションステップで使用して、割引の積み重ねを防ぐことを検討します。
 
 1. ルールを公開した[RSS フィード &#x200B;](social-rss.md#rss-feeds)に適用するには、**RSS フィードで公開**&#x200B;を`Yes`に設定します。
 
@@ -250,6 +252,7 @@ Real-Time CDP [&#x200B; オーディエンス &#x200B;](../customers/audience-ac
    | `Fixed amount discount` | カート内の対象となる各商品の元の価格から固定額を引いて、商品を割引します。 例：[!UICONTROL Discount Amount]に`10`と入力すると、元の価格より$10少ない価格で更新されます。 |
    | カート全体の固定金額割引 | カートの合計から固定額を差し引くことで、カート全体を割引します。 例：[!UICONTROL Discount Amount]に10と入力して、買い物かごの合計から$10を差し引きます。 デフォルトでは、割引はカートの小計にのみ適用されます。 小計と配送を個別に割引を適用するには、_[!UICONTROL Apply to Shipping Amount]_&#x200B;オプションを使用します。 |
    | `Buy X get Y free` | 顧客が同じ製品/バリエーション **の数量Y**&#x200B;を無料で受け取るために購入する必要がある数量Xを定義します。 （[!UICONTROL Discount Amount]はYです） ディスカウントを適用するには、同じ商品のX+Yの合計数量がカートに存在するか、カートに追加されている必要があります。 |
+   | `Free Gift` | ルール条件が満たされると、無料のギフト商品をカートに追加します。 無料の商品とカートに追加する数量を選択します。 <br/><br/>**注：** ![Adobe Commerce](../assets/adobe-logo.svg)これは、Adobe Commerceでのみ使用できる排他的な機能であり、Magento Open Sourceでは使用できません。 （[詳細情報](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home#product-editions)） <br/><br/>この機能はLuma ストアフロントではサポートされていません。 [GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/)からアクセスでき、Edge Delivery Services（EDS）ストアフロントで利用できます。 |
 
    {style="table-layout:auto"}
 
@@ -363,8 +366,8 @@ Real-Time CDP [&#x200B; オーディエンス &#x200B;](../customers/audience-ac
 | [!UICONTROL Uses per Customer] | 選択した顧客グループに属する同じ登録顧客がカート価格ルールを使用できる回数を指定します。 ログインしていない顧客グループのメンバーであるゲストショッパー、またはアカウントにログインせずに買い物をする顧客には適用されません。 制限がないので、空白のままにします。 |
 | [!UICONTROL Priority] | このルールの他のルールに対する優先度を示す数値。 最上位から最下位までの優先度は`0,1,2,3...`です |
 | [!UICONTROL Public in RSS Feed] | プロモーションがストアのパブリック RSS フィードに含まれているかどうかを判断します。 オプション：`Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） クーポンを使用できる最初の日付。 |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）クーポンを使用できる最後の日付。 |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ） クーポンを使用できる最初の日付。<br><br>![Adobe Commerce](../assets/adobe-logo.svg) （[!DNL Adobe Commerce as a Cloud Service]のみ）クーポンを使用できる日時。 |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）クーポンを使用できる最後の日付。<br><br>![Adobe Commerce](../assets/adobe-logo.svg) （[!DNL Adobe Commerce as a Cloud Service]のみ）クーポンを使用できる最後の日時。 |
 
 {style="table-layout:auto"}
 
@@ -401,7 +404,7 @@ Real-Time CDP [&#x200B; オーディエンス &#x200B;](../customers/audience-ac
 
 | フィールド | 説明 |
 |--- |--- |
-| [!UICONTROL Apply] | 購入に適用される計算のタイプを指定します。 オプション：<br/>**[!UICONTROL Percent of product price discount]**– 元の価格から割合を引いてアイテムを割引します。 例：_[!UICONTROL Discount Amount]_&#x200B;に`10`と入力すると、元の価格より10%少ない価格で更新されます。<br/>**[!UICONTROL Fixed amount discount]**- カート内の対象となる各商品の元の価格から固定額を引いて商品を割引します。 例：_[!UICONTROL Discount Amount]_&#x200B;に`10`と入力すると、元の価格より$10少ない価格で更新されます。<br/>**[!UICONTROL Fixed amount discount for whole cart]**- カートの小計から固定額を引いて、カート全体を割引します。 例：_[!UICONTROL Discount Amount]_&#x200B;に`10`と入力して、買い物かごの小計から$10を差し引きます。 デフォルトでは、割引はカートの小計にのみ適用されます。 小計と配送を別々に適用するには、_配送金額に適用&#x200B;_を参照してください。<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**– お客様が無料で数量を受け取るために購入する必要がある数量を定義します。 （_[!UICONTROL Discount Amount]_&#x200B;はYです） |
+| [!UICONTROL Apply] | 購入に適用される計算のタイプを指定します。 オプション：<br/>**[!UICONTROL Percent of product price discount]**– 元の価格から割合を引いてアイテムを割引します。 例：_[!UICONTROL Discount Amount]_&#x200B;に`10`と入力すると、元の価格より10%少ない価格で更新されます。<br/>**[!UICONTROL Fixed amount discount]**- カート内の対象となる各商品の元の価格から固定額を引いて商品を割引します。 例：_[!UICONTROL Discount Amount]_&#x200B;に`10`と入力すると、元の価格より$10少ない価格で更新されます。<br/>**[!UICONTROL Fixed amount discount for whole cart]**- カートの小計から固定額を引いて、カート全体を割引します。 例：_[!UICONTROL Discount Amount]_&#x200B;に`10`と入力して、買い物かごの小計から$10を差し引きます。 デフォルトでは、割引はカートの小計にのみ適用されます。 小計と配送を別々に適用するには、_配送金額に適用&#x200B;_を参照してください。<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**– お客様が無料で数量を受け取るために購入する必要がある数量を定義します。 （The&#x200B;_[!UICONTROL Discount Amount]_ is Y.） <br/>**[!UICONTROL Free Gift]**- ルール条件が満たされると、無料のギフト商品をカートに追加します。 無料の商品とカートに追加する数量を選択します。 ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）。 この機能は、Luma ストアフロントではサポートされていません。 [GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/)からアクセスでき、Edge Delivery Services（EDS）ストアフロントで利用できます。 |
 | [!UICONTROL Discount Amount] | （必須）提供される割引の金額。 |
 | [!UICONTROL Maximum Qty Discount is Applied To] | 同じ購入時に割引を適用できる商品の最大数を設定します。 |
 | [!UICONTROL Discount Qty Step (Buy X)] | `Buy X Get Y Free` プロモーションで`X`が表す製品数を設定します。 また、`Fixed amount discount`および`Percent of product price discount`件のプロモーションを適用するために、カートに追加する必要のある商品数を一括で定義します。 |

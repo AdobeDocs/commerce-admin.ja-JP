@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: efbe6e4f07ff66b2deb91127b4f69eca5e4015f1
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: 1168
 ht-degree: 0%
 
 ---
@@ -157,6 +157,10 @@ ht-degree: 0%
   >子オプションを含む設定可能な製品の数量は、すべての販売可能な子製品数量を組み合わせて計算されます。 設定可能な製品&#x200B;_ベーシックフィットネスタンク_&#x200B;があり、それぞれ紫色、赤色、黄色のカラーオプションと異なる数量を持つ場合の例を考えてみましょう。 この場合、親製品（ベーシックフィットネスタンク）の数量は、紫色、赤色、黄色の子製品を組み合わせた販売可能な数量です。
 
 - **[!UICONTROL Operator]** – 条件を満たすために属性値に適用される演算子を指定します。 演算子を指定しない限り、`Equal`がデフォルトとして使用されます。 オプション：`Equal`、`Not equal`、`Greater than`、`Greater than or equal to`、`Less than`、`Less than or equal to`、および`Contains`
+
+  **[!UICONTROL Contains]**&#x200B;演算子は、複数のコンマ区切り値を受け入れ、属性値に論理OR演算と同様にそのうちの少なくとも1つが含まれている場合に一致します。 例えば、**[!UICONTROL Contains]**: `casual, party`は、`casual`または`party`を含む任意の値と一致します。
+
+  この演算子を使用すると、複数の用語を1つのルール行にまとめることができます。各用語に個別の行を作成する必要はありません。
 
 - **[!UICONTROL Value]** – 属性が条件を満たすために必要な値を指定します。
 
