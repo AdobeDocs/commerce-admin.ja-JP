@@ -1,7 +1,7 @@
 ---
-source-git-commit: 5de2260c4c7324a509aa0f4154220b7ff8bedd73
+source-git-commit: 7023d4aafdb2e44da3b5b00a66f0bf6285ea8890
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '192'
 ht-degree: 2%
 
 ---
@@ -73,28 +73,6 @@ ht-degree: 2%
         メジャーアップデート、新しいトピック
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a5d95844e8e81ea4d401e79ebc1f236aab977dcd">コミット</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026年7月9日（PT）
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>説明</th>
-      <th>タイプ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>管理者でAIが提案した製品名と説明の更新を確認および適用するためのガイダンスを含む<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/catalog-enrichment"> カタログの強化</a>を追加し、<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog-menu"> カタログメニュー</a>、<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/guide-overview"> ガイドの概要</a>、および関連する製品設定のトピックからトピックをリンクしました。</p>
-</td>
-      <td>
-        新しいトピック
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6cd9281329fd909e38e4bbf41159eadfed2f9ad3">コミット</a></td>
     </tr>
   </tbody>
 </table>
