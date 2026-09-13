@@ -51,7 +51,7 @@ B2B拡張機能のリリースノートでは、Adobeがリリースサイクル
 
 [!BADGE &#x200B; サポート &#x200B;]{type=Informative tooltip="サポート対象"} Adobe Commerce 2.4.9、2.4.8。
 
-B2B v1.5.3 リリースには、品質の改善、バグ修正、および[&#x200B; セキュリティ情報APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)に記載されているセキュリティ修正が含まれています。
+B2B v1.5.3 リリースには、品質の改善、バグ修正、および[&#x200B; セキュリティ情報APSB26-05](https://helpx.adobe.com/jp/security/products/magento/apsb26-05.html)に記載されているセキュリティ修正が含まれています。
 
 ### 交渉可能な引用
 
@@ -192,7 +192,7 @@ B2B v1.5.3 リリースには、品質の改善、バグ修正、および[&#x20
 [!BADGE Adobe Commerce バージョン 2.4.7-p10および2.4.6-p15のセキュリティ パッチ リリースを]{type=Informative tooltip="サポート対象"} サポートしています。
 Adobe Commerce バージョン 2.4.7 ～ 2.4.7-p10、2.4.6 ～ 2.4.6-p15と互換性があります。
 
-![修正済みの問題](../assets/fix.svg)には、[&#x200B; セキュリティ情報APSB26-49](https://helpx.adobe.com/security/products/magento/apsb26-49.html)に記載されているセキュリティ修正が含まれています。
+![修正済みの問題](../assets/fix.svg)には、[&#x200B; セキュリティ情報APSB26-49](https://helpx.adobe.com/jp/security/products/magento/apsb26-49.html)に記載されているセキュリティ修正が含まれています。
 
 ## B2B v1.5.2-p4
 
@@ -201,7 +201,7 @@ Adobe Commerce バージョン 2.4.7 ～ 2.4.7-p10、2.4.6 ～ 2.4.6-p15と互�
 [!BADGE &#x200B; サポートされている]{type=Informative tooltip="サポート対象"} Adobe Commerce バージョン 2.4.8-p4、2.4.7-p9、および2.4.6-p14 セキュリティ パッチ リリース。
 Adobe Commerce バージョン 2.4.7 ～ 2.4.7-p9、2.4.6 ～ 2.4.6-p14と互換性があります。
 
-![修正済みの問題](../assets/fix.svg) [&#x200B; セキュリティ情報APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)に記載されているセキュリティ修正が含まれています。
+![修正済みの問題](../assets/fix.svg) [&#x200B; セキュリティ情報APSB26-05](https://helpx.adobe.com/jp/security/products/magento/apsb26-05.html)に記載されているセキュリティ修正が含まれています。
 
 ## B2B v1.5.2-p3
 
@@ -210,7 +210,7 @@ Adobe Commerce バージョン 2.4.7 ～ 2.4.7-p9、2.4.6 ～ 2.4.6-p14と互換
 [!BADGE &#x200B; サポートされている]{type=Informative tooltip="サポート対象"} Adobe Commerce バージョン 2.4.8-p3、2.4.7-p8、および2.4.6-p13 セキュリティ パッチ リリース。
 Adobe Commerce バージョン 2.4.7 ～ 2.4.7-p7、2.4.6 ～ 2.4.6-p12と互換性があります。
 
-![修正済みの問題](../assets/fix.svg)には、[&#x200B; セキュリティ情報APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)に記載されているセキュリティ修正が含まれています。
+![修正済みの問題](../assets/fix.svg)には、[&#x200B; セキュリティ情報APSB25-94](https://helpx.adobe.com/jp/security/products/magento/apsb25-94.html)に記載されているセキュリティ修正が含まれています。
 
 ## B2B v1.5.2-p2
 
@@ -219,7 +219,7 @@ Adobe Commerce バージョン 2.4.7 ～ 2.4.7-p7、2.4.6 ～ 2.4.6-p12と互換
 [!BADGE &#x200B; サポートされている]{type=Informative tooltip="サポート対象"} Adobe Commerce バージョン 2.4.8-p2、2.4.7-p7、および2.4.6-p12 セキュリティ パッチ リリース。
 Adobe Commerce バージョン 2.4.7 ～ 2.4.7-p6、2.4.6 ～ 2.4.6-p11と互換性があります。
 
-![修正済みの問題](../assets/fix.svg)には、[&#x200B; セキュリティ情報APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)に記載されているセキュリティ修正が含まれています。
+![修正済みの問題](../assets/fix.svg)には、[&#x200B; セキュリティ情報APSB25-71](https://helpx.adobe.com/jp/security/products/magento/apsb25-71.html)に記載されているセキュリティ修正が含まれています。
 
 ## B2B v1.5.2-p1
 
@@ -228,7 +228,7 @@ Adobe Commerce バージョン 2.4.7 ～ 2.4.7-p6、2.4.6 ～ 2.4.6-p11と互換
 [!BADGE &#x200B; サポートされている]{type=Informative tooltip="サポート対象"} Adobe Commerce バージョン 2.4.8-p1、2.4.7-p6、および2.4.6-p11 セキュリティ パッチ リリース。
 Adobe Commerce バージョン 2.4.7 ～ 2.4.7-p5、2.4.6 ～ 2.4.6-p10と互換性があります。
 
-![修正済みの問題](../assets/fix.svg)には、[&#x200B; セキュリティ情報APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)に記載されているセキュリティ修正が含まれています。
+![修正済みの問題](../assets/fix.svg)には、[&#x200B; セキュリティ情報APSB25-50](https://helpx.adobe.com/jp/security/products/magento/apsb25-50.html)に記載されているセキュリティ修正が含まれています。
 
 ## B2B 1.5.2
 
@@ -391,7 +391,7 @@ B2B v1.5.0 リリースには、新機能、品質向上、バグ修正が含ま
 
 [!BADGE Adobe Commerce 2.4.7-p8以降および2.4.6-p13以降のセキュリティパッチリリースを]{type=Informative tooltip="サポート対象"} サポートしています。
 
-- [&#x200B; セキュリティ情報APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB25-94](https://helpx.adobe.com/jp/security/products/magento/apsb25-94.html)に記載されているセキュリティ修正が含まれています。
 
 {{b2b-compatibility}}
 
@@ -401,7 +401,7 @@ B2B v1.5.0 リリースには、新機能、品質向上、バグ修正が含ま
 
 [!BADGE Adobe Commerce 2.4.7-p7以降および2.4.6-p12以降のセキュリティパッチリリースを]{type=Informative tooltip="サポート対象"} サポートしています。
 
-- [&#x200B; セキュリティ情報APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB25-71](https://helpx.adobe.com/jp/security/products/magento/apsb25-71.html)に記載されているセキュリティ修正が含まれています。
 
 {{b2b-compatibility}}
 
@@ -411,7 +411,7 @@ B2B v1.5.0 リリースには、新機能、品質向上、バグ修正が含ま
 
 [!BADGE Adobe Commerce 2.4.7-p6以降および2.4.6-p11以降のセキュリティパッチリリースを]{type=Informative tooltip="サポート対象"} サポートしています。
 
-- [&#x200B; セキュリティ情報APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB25-50](https://helpx.adobe.com/jp/security/products/magento/apsb25-50.html)に記載されているセキュリティ修正が含まれています。
 
 {{b2b-compatibility}}
 
@@ -423,7 +423,7 @@ B2B v1.5.0 リリースには、新機能、品質向上、バグ修正が含ま
 
 - Adobe Commerce 2.4.7-p5以降および2.4.6-p10以降のセキュリティパッチリリースとの互換性を追加しました。
 
-- [&#x200B; セキュリティ情報APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB25-26](https://helpx.adobe.com/jp/security/products/magento/apsb25-26.html)に記載されているセキュリティ修正が含まれています。
 
 {{b2b-compatibility}}
 
@@ -435,7 +435,7 @@ B2B v1.5.0 リリースには、新機能、品質向上、バグ修正が含ま
 
 - Adobe Commerce 2.4.7-p4以降および2.4.6-p9以降のセキュリティパッチリリースとの互換性を追加しました。
 
-- [&#x200B; セキュリティ情報APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB25-08](https://helpx.adobe.com/jp/security/products/magento/apsb25-08.html)に記載されているセキュリティ修正が含まれています。
 
 {{b2b-compatibility}}
 
@@ -447,7 +447,7 @@ B2B v1.5.0 リリースには、新機能、品質向上、バグ修正が含ま
 
 - Adobe Commerce 2.4.7-p3以降および2.4.6-p8以降のセキュリティパッチリリースとの互換性を追加しました。
 
-- [&#x200B; セキュリティ情報APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB24-73](https://helpx.adobe.com/jp/security/products/magento/apsb24-73.html)に記載されているセキュリティ修正が含まれています。
 
 {{b2b-compatibility}}
 
@@ -461,7 +461,7 @@ B2B v1.5.0 リリースには、新機能、品質向上、バグ修正が含ま
 
 - Adobe Commerce 2.4.7-p2以降および2.4.6-p7以降のセキュリティパッチリリースとの互換性を追加しました。
 
-- セキュリティ情報[APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)に記載されているセキュリティ修正が含まれています。
+- セキュリティ情報[APSB24-73](https://helpx.adobe.com/jp/security/products/magento/apsb24-73.html)に記載されているセキュリティ修正が含まれています。
 
 {{b2b-compatibility}}
 
@@ -557,7 +557,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE Adobe Commerce 2.4.6-p13以降のセキュリティパッチリリースを]{type=Informative tooltip="サポート対象"} サポートしています。
 
-- [&#x200B; セキュリティ情報APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB25-94](https://helpx.adobe.com/jp/security/products/magento/apsb25-94.html)に記載されているセキュリティ修正が含まれています。
 
 ### B2B v1.3.5-p12
 
@@ -565,7 +565,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE Adobe Commerce 2.4.6-p12以降のセキュリティパッチリリースを]{type=Informative tooltip="サポート対象"} サポートしています。
 
-- [&#x200B; セキュリティ情報APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB25-71](https://helpx.adobe.com/jp/security/products/magento/apsb25-71.html)に記載されているセキュリティ修正が含まれています。
 
 ### B2B v1.3.5-p10
 
@@ -575,7 +575,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - Adobe Commerce 2.4.6-p10 セキュリティパッチリリースとの互換性を追加しました。
 
-- [&#x200B; セキュリティ情報APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB25-26](https://helpx.adobe.com/jp/security/products/magento/apsb25-26.html)に記載されているセキュリティ修正が含まれています。
 
 ### B2B v1.3.5-p9
 
@@ -585,7 +585,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - Adobe Commerce 2.4.6-p9 セキュリティパッチリリースとの互換性を追加しました。
 
-- [&#x200B; セキュリティ情報APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB25-08](https://helpx.adobe.com/jp/security/products/magento/apsb25-08.html)に記載されているセキュリティ修正が含まれています。
 
 ### B2B v1.3.5-p8
 
@@ -595,7 +595,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - Adobe Commerce 2.4.6-p8 セキュリティパッチリリースとの互換性を追加しました。
 
-- [&#x200B; セキュリティ情報APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB24-73](https://helpx.adobe.com/jp/security/products/magento/apsb24-73.html)に記載されているセキュリティ修正が含まれています。
 
 ### B2B v1.3.5-p7
 
@@ -647,7 +647,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE &#x200B; サポート対象]{type=Informative tooltip="サポート対象"} Adobe Commerce 2.4.5-p16 （拡張サポート）
 
-- [&#x200B; セキュリティ情報APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB26-05](https://helpx.adobe.com/jp/security/products/magento/apsb26-05.html)に記載されているセキュリティ修正が含まれています。
 
 ### B2B v1.3.4-p15
 
@@ -655,7 +655,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE &#x200B; サポート対象]{type=Informative tooltip="サポート対象"} Adobe Commerce 2.4.0以降のバージョン
 
-- [&#x200B; セキュリティ情報APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB25-94](https://helpx.adobe.com/jp/security/products/magento/apsb25-94.html)に記載されているセキュリティ修正が含まれています。
 
 ### B2B v1.3.4-p14
 
@@ -663,7 +663,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE &#x200B; サポート対象]{type=Informative tooltip="サポート対象"} Adobe Commerce 2.4.0以降のバージョン
 
-- [&#x200B; セキュリティ情報APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB25-71](https://helpx.adobe.com/jp/security/products/magento/apsb25-71.html)に記載されているセキュリティ修正が含まれています。
 
 ### B2B v1.3.4-p13
 
@@ -673,7 +673,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - Adobe Commerce 2.4.5-p12のサポートを追加しました。
 
-- [&#x200B; セキュリティ情報APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB25-50](https://helpx.adobe.com/jp/security/products/magento/apsb25-50.html)に記載されているセキュリティ修正が含まれています。
 
 ### B2B v1.3.4-p12
 
@@ -683,7 +683,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - Adobe Commerce 2.4.5-p12のサポートを追加しました。
 
-- [&#x200B; セキュリティ情報APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB25-26](https://helpx.adobe.com/jp/security/products/magento/apsb25-26.html)に記載されているセキュリティ修正が含まれています。
 
 ### B2B v1.3.4-p11
 
@@ -693,7 +693,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - Adobe Commerce 2.4.5-p11のサポートを追加しました。
 
-- [&#x200B; セキュリティ情報APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB25-08](https://helpx.adobe.com/jp/security/products/magento/apsb25-08.html)に記載されているセキュリティ修正が含まれています。
 
 ### B2B v1.3.4-p10
 
@@ -703,7 +703,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - Adobe Commerce 2.4.5-p10のサポートを追加しました。
 
-- [&#x200B; セキュリティ情報APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB24-73](https://helpx.adobe.com/jp/security/products/magento/apsb24-73.html)に記載されているセキュリティ修正が含まれています。
 
 ### B2B v1.3.4
 
@@ -745,7 +745,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE &#x200B; サポート対象]{type=Informative tooltip="サポート対象"} Adobe Commerce 2.4.4-p17 （拡張サポート）
 
-- [&#x200B; セキュリティ情報APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB26-05](https://helpx.adobe.com/jp/security/products/magento/apsb26-05.html)に記載されているセキュリティ修正が含まれています。
 
 ### B2B v1.3.3-p16
 
@@ -753,7 +753,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE &#x200B; サポート対象]{type=Informative tooltip="サポート対象"} Adobe Commerce 2.4.0以降のバージョン
 
-- [&#x200B; セキュリティ情報APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB25-94](https://helpx.adobe.com/jp/security/products/magento/apsb25-94.html)に記載されているセキュリティ修正が含まれています。
 
 ### B2B v1.3.3-p15
 
@@ -761,7 +761,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE &#x200B; サポート対象]{type=Informative tooltip="サポート対象"} Adobe Commerce 2.4.0以降のバージョン
 
-- [&#x200B; セキュリティ情報APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB25-71](https://helpx.adobe.com/jp/security/products/magento/apsb25-71.html)に記載されているセキュリティ修正が含まれています。
 
 ### B2B v1.3.3-p14
 
@@ -771,7 +771,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - Adobe Commerce 2.4.5-p12のサポートを追加しました。
 
-- [&#x200B; セキュリティ情報APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)に記載されているセキュリティ修正が含まれています。
+- [&#x200B; セキュリティ情報APSB25-50](https://helpx.adobe.com/jp/security/products/magento/apsb25-50.html)に記載されているセキュリティ修正が含まれています。
 
 ### B2B v1.3.3
 
