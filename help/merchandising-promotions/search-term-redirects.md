@@ -46,7 +46,7 @@ ht-degree: 0%
 | 要件 | 推奨される機能 |
 | --- | --- |
 | 標準の[!DNL Adobe Commerce]検索から特定のクエリをページに送信する | [検索語句を管理](../catalog/search-terms.md)で検索語句を設定します（サポートされている場合）。 |
-| 検索結果における商品のランキングや表示の変更 | [!DNL Live Search] [類義語](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/synonyms/synonyms)または[&#x200B; マーチャンダイジングルール &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/rules/rules-add)を使用します。 |
+| 検索結果における商品のランキングや表示の変更 | [!DNL Live Search] [類義語](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-admin/synonyms/synonyms)または[&#x200B; マーチャンダイジングルール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-admin/rules/rules-add)を使用します。 |
 | 古い商品、カテゴリ、またはCMS URLをリダイレクト | デプロイメントに適用される場合は、Commerce [URL書き換え](url-rewrite.md) ツールを使用します。 |
 | [!DNL Edge Delivery Services] パスをリダイレクト | ストアフロントまたはCDN ルーティングの使用。 |
 | ストアフロントの移行後も従来のURLを保持する | レガシーから新しいURL リダイレクトマップを作成してテストします。 |
@@ -83,13 +83,13 @@ URL書き換えツールをサポートするデプロイメントの場合は�
 
 検索の関連性、製品ランキング、製品の表示を変更する必要がある場合は、[!DNL Live Search]を使用します。 類義語を使用すると、異なる単語が類似した商品を返すようにできます。 商品をブーストしたり、埋め込んだり、ランクを変更したりする必要がある場合は、マーチャンダイジングルールを適用します。
 
-[!DNL Live Search]検索ビヘイビアーは、すべてのCommerce検索キーワード設定のドロップインの代わりとして扱ってはなりません。 クエリがコンテンツまたはキャンペーンページに移動する必要がある場合は、リクエストを受信するストアフロントまたはエッジルーティング層にリダイレクトを実装します。 詳しくは、[[!DNL Live Search]  ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)を参照してください。
+[!DNL Live Search]検索ビヘイビアーは、すべてのCommerce検索キーワード設定のドロップインの代わりとして扱ってはなりません。 クエリがコンテンツまたはキャンペーンページに移動する必要がある場合は、リクエストを受信するストアフロントまたはエッジルーティング層にリダイレクトを実装します。 詳しくは、[[!DNL Live Search]  ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)を参照してください。
 
 ## Edge 配信サービス
 
 [!DNL Edge Delivery Services]を利用したストアフロントの場合、ストアフロントまたはエッジルーティング層でリダイレクトを管理します。 [!DNL Adobe Commerce]管理者URLの書き換えがすべてのリクエストを制御すると仮定しないでください。
 
-ドキュメントのオーサリングを使用する場合は、サイトのリダイレクト設定でリダイレクトマッピングを維持します。 リクエストがオリジンに到達する前に実行する必要があるリダイレクトの場合は、適切なCDNまたはエッジ設定を使用します。 関連するSEO ガイダンスについては、[Commerce StorefrontのSEO ガイドライン &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)を参照してください。
+ドキュメントのオーサリングを使用する場合は、サイトのリダイレクト設定でリダイレクトマッピングを維持します。 リクエストがオリジンに到達する前に実行する必要があるリダイレクトの場合は、適切なCDNまたはエッジ設定を使用します。 関連するSEO ガイダンスについては、[Commerce StorefrontのSEO ガイドライン &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=ja)を参照してください。
 
 ## Lumaからの移行
 
