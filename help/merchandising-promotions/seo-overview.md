@@ -44,19 +44,19 @@ _検索エンジン最適化_ （SEO）は、検索エンジンによるペー�
 
 >[!TIP]
 >
->Adobe Commerce as a Cloud Serviceについては、Commerce Storefront ドキュメントの[SEO ガイドライン ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)を参照してください
+>Adobe Commerce as a Cloud Serviceについては、Commerce Storefront ドキュメントの[SEO ガイドライン &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)を参照してください
 
 ## メタデータ
 
 [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-サイトとストアにキーワードが豊富な[ メタデータ ](meta-data.md)を追加および強化する方法について説明します。
+サイトとストアにキーワードが豊富な[&#x200B; メタデータ &#x200B;](meta-data.md)を追加および強化する方法について説明します。
 
 ## サイトマップの使用
 
 [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-[ サイトマップ ](sitemap-xml.md)は、検索エンジンによるストアのインデックス作成方法を改善し、web web クローラーが見落とす可能性のあるページを見つけるように設計されています。 サイトマップでは、すべてのページと画像にインデックスを作成するように設定できます。
+[&#x200B; サイトマップ &#x200B;](sitemap-xml.md)は、検索エンジンによるストアのインデックス作成方法を改善し、web web クローラーが見落とす可能性のあるページを見つけるように設計されています。 サイトマップでは、すべてのページと画像にインデックスを作成するように設定できます。
 
 ## URLの書き換え
 
@@ -64,7 +64,7 @@ _検索エンジン最適化_ （SEO）は、検索エンジンによるペー�
 
 [URL書き換え](url-rewrite.md) ツールを使用すると、商品、カテゴリ、またはCMS ページに関連付けられている任意のURLを変更できます。
 
-検索語リダイレクト、URL書き換え、[!DNL Live Search] ルール、およびストアフロントルーティングの選択に関するガイダンスについては、[検索語リダイレクトとストアフロントルーティング ](search-term-redirects.md)を参照してください。
+検索語リダイレクト、URL書き換え、[!DNL Live Search] ルール、およびストアフロントルーティングの選択に関するガイダンスについては、[検索語リダイレクトとストアフロントルーティング &#x200B;](search-term-redirects.md)を参照してください。
 
 ## 検索エンジンのロボット
 
@@ -98,21 +98,22 @@ Commerceの設定には、サイトをインデックス化するweb web クロ�
     Disallow: /var/
     Disallow: /customer/
     Disallow: /sendfriend/
-    Disallow: /14} /*SID=
+    Disallow: /14&rbrace; /*SID=
 
     
     
+
 ### `robots.txt`の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. グリッドの最初の行にある&#x200B;**[!UICONTROL Global]**&#x200B;設定を見つけて、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-   ![ グローバルデザイン設定](./assets/design-configuration-grid.png){width="700" zoomable="yes"}
+   ![&#x200B; グローバルデザイン設定](./assets/design-configuration-grid.png){width="700" zoomable="yes"}
 
 1. 下にスクロールして、**[!UICONTROL Search Engine Robots]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
-   ![ デザイン設定 – 検索エンジンロボット ](./assets/design-configuration-search-engine-robots.png){width="600" zoomable="yes"}
+   ![&#x200B; デザイン設定 – 検索エンジンロボット &#x200B;](./assets/design-configuration-search-engine-robots.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Default Robots]**&#x200B;を次のいずれかに設定します：
 
