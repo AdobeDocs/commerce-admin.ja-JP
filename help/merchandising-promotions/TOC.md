@@ -5,13 +5,11 @@ breadcrumb-title: マーチャンダイジングとプロモーション
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
 nudge: true
-source-git-commit: ef07733f89af030f047576770655f6599b370351
+source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '282'
 ht-degree: 1%
-
 ---
-
 
 # Adobe Commerce マーチャンダイジングとプロモーション ガイド {#marketing}
 
@@ -74,6 +72,7 @@ ht-degree: 1%
     - [メールリマインダーを作成](email-reminder-rules-create.md)
 - 検索エンジン最適化 {#seo}
   - [SEOの概要とベストプラクティス](seo-overview.md)
+  - [検索語のリダイレクトとストアフロントのルーティング](search-term-redirects.md)
   - [Meta data](meta-data.md)
   - [サイトマップ](sitemap-xml.md)
   - URLの書き換え {#url-rewrites}
@@ -88,4 +87,4 @@ ht-degree: 1%
   - [Google Analytics](google-analytics.md)
   - [Google Tag Manager](google-tag-manager.md)
   - [Google Adwords](google-adwords.md)
-- [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/ja/docs/commerce-admin/user-guides/home)
+- [管理者ユーザーガイドに戻る](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

@@ -6,29 +6,40 @@ feature: Storefront
 TQID: https://experienceleague.adobe.com/b8JEobTQ3fDladcIZj5Bt7eaYPN7-p7PsB-siKLITCw
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Content reuse
+source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
 workflow-type: tm+mt
-source-wordcount: 1223
+source-wordcount: '1347'
 ht-degree: 0%
-
 ---
-
 # ストアフロントとは？
 
 Adobe CommerceまたはMagento Open Sourceの実装内では、ストアフロントはストアの外部に対して公開される部分です。 顧客が買い物や購入で使用するコンテンツや機能コンポーネントを提供します。
@@ -37,7 +48,7 @@ Adobe CommerceまたはMagento Open Sourceの実装内では、ストアフロ�
 
 ## Commerce ストアフロント
 
-Edge Delivery Services **を搭載した** Commerce ストアフロントの導入により、Adobeは、最先端のテクノロジーを活用して優れたスピードとユーザーエクスペリエンスを実現する、高性能で拡張性の高い、信頼性の高いストアフロントを提供します。
+Edge Delivery Services **]を搭載した[!DNL ** Commerce ストアフロントの導入により、Adobeは、最先端のテクノロジーを活用して優れたスピードとユーザーエクスペリエンスを実現する、高性能で拡張性の高い、信頼性の高いストアフロントを提供します。
 
 - **パフォーマンスの向上**: Edge Delivery Servicesでストアフロントをホスティングすることで、読み込み時間を短縮し、サイトパフォーマンスを向上させ、コンバージョン率を高め、SEO ランキングを向上させることができます。
 
@@ -51,7 +62,7 @@ Edge Delivery Services **を搭載した** Commerce ストアフロントの導�
 
 Edge Delivery Servicesを搭載したCommerce Storefrontには、マーチャントと開発者の両方にメリットをもたらす主な機能がいくつかあります。 これらの機能により、企業は魅力的なショッピング体験を構築しながら、ニーズに応じてストアフロントをカスタマイズし、拡張できる柔軟性を維持できます。
 
-Commerce Storefrontの設定と最適化について詳しくは、[Adobe Commerce Storefront ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce)を参照してください。
+Commerce Storefrontの設定と最適化について詳しくは、[Adobe Commerce Storefront ドキュメント ](https://experienceleague.adobe.com/en/docs/commerce)を参照してください。
 
 >[!BEGINTABS]
 
@@ -84,7 +95,7 @@ Edge Delivery Servicesを搭載したCommerce Storefrontは、直観的なドキ
 
 多くの人は、サイトに滞在したり、他の場所に移動したりするまでに、わずか数秒でページを作成します。 印象を与えるのは長くありません。 ある研究によれば、人々は特に他の人々の写真も好きである。 どのようなデザインを選んでも、ホームページ上のあらゆる要素を活用することで、訪問者をセールスプロセスの次のステップに進めることができます。 つまり、顧客の注意を、ある顧客接点から次の顧客接点へと向かわせることが重要です。
 
-![&#x200B; ストアフロントのホームページの例](./assets/storefront-homepage-full.png){width="700"}
+![ ストアフロントのホームページの例](./assets/storefront-homepage-full.png){width="700"}
 
 ## カタログページ
 
@@ -92,7 +103,7 @@ Edge Delivery Servicesを搭載したCommerce Storefrontは、直観的なドキ
 
 通常、最初の商品説明には、詳細な説明に値する十分な情報が含まれています。 欲しいものが分かっている人は、商品をカートに入れて購入できます。 アカウントにログインして買い物をする顧客は、パーソナライズされたショッピング体験を享受できます。
 
-![&#x200B; ストアフロントのコレクションページ &#x200B;](./assets/storefront-collection-page.png){width="700"}
+![ ストアフロントのコレクションページ ](./assets/storefront-collection-page.png){width="700"}
 
 ## 検索結果
 
@@ -100,13 +111,15 @@ Edge Delivery Servicesを搭載したCommerce Storefrontは、直観的なドキ
 
 ### [!DNL Live Search]
 
-Adobe Commerce用の[[!DNL Live Search]](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)を使用すると、お使いのストアは、高速で非常に関連性の高い直感的な検索体験を提供し、Adobe Commerceでも追加料金なしで利用できます。
+Adobe Commerce用の[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)を使用すると、お使いのストアは、高速で非常に関連性の高い直感的な検索体験を提供し、Adobe Commerceでも追加料金なしで利用できます。
 
-![&#x200B; ライブ検索の例 – 入力時に検索](./assets/storefront-search-as-you-type.png){width="700"}
+![ ライブ検索の例 – 入力時に検索](./assets/storefront-search-as-you-type.png){width="700"}
 
 ### 標準カタログ検索
 
 [標準カタログ検索](../catalog/search.md)では、ストアの右上隅に検索ボックス、フッターに高度な検索へのリンクが表示されます。 買い物客が送信した検索語はすべて保存されるため、顧客が何を求めているのかを正確に把握できます。 候補を提示したり、類義語や一般的な誤字を入力したりすることができます。 次に、検索語が入力されたときに特定のページを表示します。
+
+検索語のリダイレクト、URLの書き換え、[!DNL Live Search]または[!DNL Edge Delivery Services]のルーティングに関するガイダンスについては、[検索語のリダイレクトとストアフロントのルーティング ](../merchandising-promotions/search-term-redirects.md)を参照してください。
 
 ![標準カタログ検索結果の例](./assets/storefront-search-results-page-full.png){width="700"}
 
@@ -114,13 +127,13 @@ Adobe Commerce用の[[!DNL Live Search]](https://experienceleague.adobe.com/ja/d
 
 製品ページは多くの作業を進めています。 商品ページで最初に目に留まるのは、高解像度のズームとサムネールギャラリーを備えたメイン画像です。 価格と在庫状況に加えて、詳細と関連製品のリストを含むタブ付きセクションがあります。
 
-![&#x200B; ストアフロント製品ページの例](./assets/storefront-product-page-full-m.png){width="700"}
+![ ストアフロント製品ページの例](./assets/storefront-product-page-full-m.png){width="700"}
 
 ## 買い物かご
 
 カートには、割引クーポン、配送予定日、税金を含む注文合計が表示されます。 これらの機能により、信頼バッジやシールを表示するのに最適な場所です。 また、カートページを1つの最終的なオファーの機会として使用することもできます。 例えば、特定の商品がカートに入っているときにインパルス購入オプションとして表示されるクロスセル商品を設定できます。
 
-![&#x200B; ストアフロントのショッピングカートページの例](./assets/storefront-cart-full.png){width="700"}
+![ ストアフロントのショッピングカートページの例](./assets/storefront-cart-full.png){width="700"}
 
 ## チェックアウトページ
 
@@ -128,10 +141,10 @@ Adobe Commerce用の[[!DNL Live Search]](https://experienceleague.adobe.com/ja/d
 
 1. 発送情報
 
-   チェックアウトプロセスの最初のステップは、お客様が配送先情報を完了し、配送方法を選択することです。お客様がアカウントを持っている場合、配送先住所は自動的に入力されますが、必要に応じて変更できます。
-ゲストのお客様が以前に登録されたメールアドレスを入力すると、ストア設定の[!UICONTROL Enable Guest Checkout Login] フィールドが`Yes`に設定されている場合、サインインプロンプトが表示されます（_設定リファレンスガイド_&#x200B;の[[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options)を参照）。 ただし、この設定では、未認証のユーザーに顧客情報を公開する可能性があります。
+   チェックアウトプロセスの最初のステップは、お客様が配送先情報を完了し、配送方法を選択することです。 お客様がアカウントを持っている場合、配送先住所は自動的に入力されますが、必要に応じて変更できます。
+   ゲストのお客様が以前に登録されたメールアドレスを入力すると、ストア設定の[!UICONTROL Enable Guest Checkout Login] フィールドが`Yes`に設定されている場合、サインインプロンプトが表示されます（_設定リファレンスガイド_&#x200B;の[[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options)を参照）。 ただし、この設定では、未認証のユーザーに顧客情報を公開する可能性があります。
 
-   ![&#x200B; ストアフロントのチェックアウトページの例](./assets/storefront-checkout-shipping-full.png){width="700"}
+   ![ ストアフロントのチェックアウトページの例](./assets/storefront-checkout-shipping-full.png){width="700"}
 
 1. お支払い情報の確認
 
@@ -139,9 +152,9 @@ Adobe Commerce用の[[!DNL Live Search]](https://experienceleague.adobe.com/ja/d
 
    >[!NOTE]
    >
-   >[!DNL Commerce]では複数のクーポンコードを設定できますが、お客様がカートに適用できるクーポンコードは1つのみです。 （詳しくは、[&#x200B; クーポンコード &#x200B;](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes)を参照してください）。
+   >[!DNL Commerce]では複数のクーポンコードを設定できますが、お客様がカートに適用できるクーポンコードは1つのみです。 （詳しくは、[ クーポンコード ](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes)を参照してください）。
 
-   ![&#x200B; ストアフロントのチェックアウトページの例](./assets/storefront-checkout-payment-full.png){width="700"}
+   ![ ストアフロントのチェックアウトページの例](./assets/storefront-checkout-payment-full.png){width="700"}
 
 ページ上部の進行状況バーは、チェックアウトプロセスの各ステップに続き、_注文概要_&#x200B;には、この時点まで入力された情報が表示されます。
 
