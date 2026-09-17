@@ -7,29 +7,40 @@ badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.a
 TQID: https://experienceleague.adobe.com/fuILlBHCevV6rfQT-PUiuBPBgWkFXDbFofgde8O5BCM
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
 workflow-type: tm+mt
-source-wordcount: 940
+source-wordcount: '1003'
 ht-degree: 0%
-
 ---
-
 # URLの書き換え
 
 >[!TIP]
@@ -37,6 +48,8 @@ ht-degree: 0%
 >Adobe Commerce as a Cloud Serviceについては、Commerce Storefront ドキュメントの[SEO ガイドライン &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=ja)を参照してください
 
 URL書き換えツールを使用すると、商品、カテゴリ、またはCMS ページに関連付けられているURLを変更できます。 URLの書き換えを行うと、Commerceは永続的なリダイレクト（301）を自動的に作成し、古いURLを指すリンクが新しいアドレスにリダイレクトされるようにします。
+
+ソースが既存のURLではなく買い物客が入力したクエリである場合は、検索語のリダイレクトを使用します。 詳しくは、[検索語リダイレクトとストアフロントルーティング &#x200B;](search-term-redirects.md)を参照してください。
 
 >[!NOTE]
 >
@@ -142,7 +155,7 @@ Commerceでは、社内でID ベースのURLを使用していますが、顧客
 >
 >この節では、Web サーバーレベルのURL書き換えについて説明します。これは、URL書き換えツール機能とは異なります。 Web サーバーの書き換えでは、技術的なURLの書式設定（`index.php`の削除など）を処理し、URLの書き換えツールでは、コンテンツの変更に対するリダイレクトを管理します。
 
-Web サーバーの書き換えを有効にすることは、Commerceの初期設定の一部であり、通常はインストール時に設定されます。有効にすると、Web サーバー（ApacheまたはNginx）はURLからファイル名`index.php`を自動的に削除し、よりクリーンでSEOに適したアドレスを作成します。
+Web サーバーの書き換えを有効にすることは、Commerceの初期設定の一部であり、通常はインストール時に設定されます。 有効にすると、Web サーバー（ApacheまたはNginx）はURLからファイル名`index.php`を自動的に削除し、よりクリーンでSEOに適したアドレスを作成します。
 次の例は、web サーバーの書き換えが有効になっているURLと、有効になっていないURLの表示方法を示しています。
 
 Web サーバーの書き換えのない&#x200B;**URL**
