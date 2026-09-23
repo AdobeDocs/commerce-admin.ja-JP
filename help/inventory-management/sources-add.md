@@ -56,7 +56,7 @@ ht-degree: 0%
 
    - この在庫ソースを使用する準備ができたら、**[!UICONTROL Is Enabled]**&#x200B;を`Yes`に設定します。
 
-   - このソースの在庫をストアフロントに公開するには、**[!UICONTROL Visible on Storefront]**&#x200B;を`Yes`に設定します。 [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
+   - このソースの在庫をストアフロントに公開するには、**[!UICONTROL Visible on Storefront]**&#x200B;を`Yes`に設定します。 [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
 
      このオプションは、デフォルトで`No`に設定されています。 `Yes`に設定した場合、ソースはクエリ キャッシュの有効期間を最大で取得して結果に表示できます。 このオプションを`No`に設定すると、ソースはクエリ結果からすぐに削除されます。
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 | [!UICONTROL Name] | （必須）管理者ユーザーのインベントリ ソースを識別する一意の名前。 |
 | [!UICONTROL Code] | （必須） システムがインベントリ ソースを識別するために使用する一意の英数字コード。 コードは、スペースなしで大文字または小文字の文字または数字で入力します。 必要に応じて、スペースの代わりにハイフンまたはアンダースコアを使用できます。 ソースの作成後にコードを編集することはできません。 これは、在庫にソースを割り当て、製品データの書き出しや読み込みを行う際に使用される一意のIDです。 |
 | [!UICONTROL Is Enabled] | 在庫ソースを使用できるかどうかを指定します。 オプション：はい/いいえ |
-| [!UICONTROL Visible on Storefront] [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} | ストアフロント [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL クエリがこの在庫ソースの在庫情報を返すことができるかどうかを判断します。 |
+| [!UICONTROL Visible on Storefront] [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} | ストアフロント [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL クエリがこの在庫ソースの在庫情報を返すことができるかどうかを判断します。 |
 | [!UICONTROL Description] | 在庫ソースの場所の簡単な説明。 管理者ユーザーに役立つ詳細を含めます。 |
 | [!UICONTROL Latitude] | GPSの在庫源の緯度座標を指定します。 値を数値として入力し、その後に必要に応じてプラス記号またはマイナス記号を入力します。 度記号や文字は使用できません。 例：Latitude 32.7555 |
 | [!UICONTROL Longitude] | GPSの在庫源の経度座標を指定します。 値を数値として入力し、その後に必要に応じてプラス記号またはマイナス記号を入力します。 度記号や文字は使用できません。 例：`-97.3308` |
