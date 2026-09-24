@@ -1,30 +1,37 @@
 ---
 title: 在庫ソースの追加
-description: 倉庫、店舗、流通センターまたはその他のフルフィルメントの場所の管理に [!DNL Inventory Management]  ソースを追加します。
+description: 倉庫、店舗、流通センターまたはその他のフルフィルメントの場所の[!DNL Inventory Management] ソースを管理者に追加します。
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: 2e0212c62ed6183d1b66a9260e6177177ca2a61a
 workflow-type: tm+mt
-source-wordcount: 858
+source-wordcount: '1033'
 ht-degree: 0%
-
 ---
-
 # ソースを追加
 
 カスタムソースを使用して、複数の場所からの在庫と注文のフルフィルメントを管理します。 倉庫、実店舗、流通センター、ドロップシッパーなどの各拠点のソースを作成します。 製品ごとにソースを割り当て、数量を更新します。
@@ -48,6 +55,12 @@ ht-degree: 0%
      このコードでは、大文字と小文字、数字、ダッシュ、アンダースコアがサポートされています。 このコードは、在庫に割り当てたり、データを書き出したり読み込んだりする際に使用される一意のIDです。
 
    - この在庫ソースを使用する準備ができたら、**[!UICONTROL Is Enabled]**&#x200B;を`Yes`に設定します。
+
+   - このソースの在庫をストアフロントに公開するには、**[!UICONTROL Visible on Storefront]**&#x200B;を`Yes`に設定します。 [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
+
+     このオプションは、デフォルトで`No`に設定されています。 `Yes`に設定した場合、ソースはクエリ キャッシュの有効期間を最大で取得して結果に表示できます。 このオプションを`No`に設定すると、ソースはクエリ結果からすぐに削除されます。
+
+     [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL クエリは、ストアフロントに表示されるソースの在庫情報へのアクセスを提供します。 [&#x200B; グローバルオプション &#x200B;](global-options.md)で、ストアビューの`sourceAvailability` クエリを有効にする必要があります。
 
    - クイック参照または追加の詳細を表示するには、この場所の概要&#x200B;**[!UICONTROL Description]**&#x200B;を入力してください。
 
@@ -121,6 +134,7 @@ ht-degree: 0%
 | [!UICONTROL Name] | （必須）管理者ユーザーのインベントリ ソースを識別する一意の名前。 |
 | [!UICONTROL Code] | （必須） システムがインベントリ ソースを識別するために使用する一意の英数字コード。 コードは、スペースなしで大文字または小文字の文字または数字で入力します。 必要に応じて、スペースの代わりにハイフンまたはアンダースコアを使用できます。 ソースの作成後にコードを編集することはできません。 これは、在庫にソースを割り当て、製品データの書き出しや読み込みを行う際に使用される一意のIDです。 |
 | [!UICONTROL Is Enabled] | 在庫ソースを使用できるかどうかを指定します。 オプション：はい/いいえ |
+| [!UICONTROL Visible on Storefront] [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} | ストアフロント [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL クエリがこの在庫ソースの在庫情報を返すことができるかどうかを判断します。 |
 | [!UICONTROL Description] | 在庫ソースの場所の簡単な説明。 管理者ユーザーに役立つ詳細を含めます。 |
 | [!UICONTROL Latitude] | GPSの在庫源の緯度座標を指定します。 値を数値として入力し、その後に必要に応じてプラス記号またはマイナス記号を入力します。 度記号や文字は使用できません。 例：Latitude 32.7555 |
 | [!UICONTROL Longitude] | GPSの在庫源の経度座標を指定します。 値を数値として入力し、その後に必要に応じてプラス記号またはマイナス記号を入力します。 度記号や文字は使用できません。 例：`-97.3308` |
