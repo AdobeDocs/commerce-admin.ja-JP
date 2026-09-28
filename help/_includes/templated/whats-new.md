@@ -1,15 +1,36 @@
 ---
-source-git-commit: 7023d4aafdb2e44da3b5b00a66f0bf6285ea8890
+source-git-commit: 8dae6d26d1c63c95388b082a931361b580eeaf22
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '202'
 ht-degree: 2%
-
 ---
 # 新しいテンプレート
 
 ## 最新情報
 
 このセクションには、過去60日間に行われた変更が含まれます。 コピー編集などのマイナーな更新は、このリストから除外されます。
+
+### 2026年9月23日（PT）
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>説明</th>
+      <th>タイプ</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce as a Cloud Serviceの新しい「ストアフロントで表示」トグルを含めるように、<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/sources/sources-add"> ソースを追加</a>しました。 各インベントリのソースに対して個別にフラグを付けて、ストアフロントを可視化できるようになりました。 ソースはデフォルトで非表示になっています。</p>
+</td>
+      <td>
+        メジャーアップデート
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1b3beb5c914dae4c07dd591e9b975c0f35bb23cd">コミット</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026年8月31日（PT）
 
@@ -23,7 +44,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>でサポートされているバージョンのリストからAdobe Commerce 2.4.8-p5を削除しました。 2.4.8お客様は、代わりにB2B バージョン 1.5.3を使用する必要があります。</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>でサポートされているバージョンのリストからAdobe Commerce 2.4.8-p5を削除しました。 2.4.8お客様は、代わりにB2B バージョン 1.5.3を使用する必要があります。</p>
 </td>
       <td>
         テクニカル
@@ -45,34 +66,12 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>現在の管理者エクスペリエンスに合わせて<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status"> データフィード同期ステータス </a> トピックを更新し、ページが書き出しステータスのみをレポートすることを確認し、機能がCommerce サービスライセンス全体で利用可能になる場合を文書化しました。</p>
+      <td><p>現在の管理者エクスペリエンスに合わせて<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status"> データフィード同期ステータス </a> トピックを更新し、ページが書き出しステータスのみをレポートすることを確認し、機能がCommerce サービスライセンス全体で利用可能になる場合を文書化しました。</p>
 </td>
       <td>
         メジャーアップデート
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/9d7ecab0454b1a1041f1bcd8b4fbda8032ebaac5">コミット</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026年7月29日（PT）
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>説明</th>
-      <th>タイプ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/config/services/email-suppression">電子メール抑制</a>で、管理者から直接注文やマーケティング通知などの自動システム電子メールの特定のカテゴリを抑制する方法について説明します。</p>
-</td>
-      <td>
-        メジャーアップデート、新しいトピック
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a5d95844e8e81ea4d401e79ebc1f236aab977dcd">コミット</a></td>
     </tr>
   </tbody>
 </table>
