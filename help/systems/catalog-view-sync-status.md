@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ## オーディエンスと可用性 {#audience}
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud Infrastructureおよびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud Infrastructureおよびオンプレミスプロジェクトにのみ適用されます。"}
 
 [!UICONTROL Catalog View Sync Status] ページは、[!DNL Adobe Commerce Optimizer Connector for B2B]統合でB2B共有カタログを使用するAdobe Commerce on Cloud Infrastructureおよびオンプレミス マーチャントで利用できます。 コネクター拡張機能がインストールされると、ページが自動的にインストールされ、有効になります。
 
@@ -190,6 +190,6 @@ Adobe Commerce ソースを持たないエンティティを一覧表示するAC
 > - [&#x200B; データフィードの同期ステータス &#x200B;](data-feed-sync-status.md)
 > - [&#x200B; サービス/ACO カタログ ビュー同期](../configuration-reference/services/aco-catalog-view-sync.md) – 削除と作成の猶予期間とドリフト調整を設定します
 > - [制限付きアクセスキー管理](restricted-access-keys.md) – このページに有効期限が表示されるキーを管理します
-> - *Adobe Commerce Optimizer コネクタ ガイド*&#x200B;の[B2B共有カタログのカタログ ビュー同期の監視](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status)
-> - [&#x200B; プライベートカタログビュー](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/private-catalog-view)
-> - [制限付きアクセスキー](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys)
+> - *Adobe Commerce Optimizer コネクタ ガイド*&#x200B;の[B2B共有カタログのカタログ ビュー同期の監視](https://experienceleague.adobe.com/ja/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status)
+> - [&#x200B; プライベートカタログビュー](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/private-catalog-view)
+> - [制限付きアクセスキー](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/restricted-access-keys)

@@ -67,10 +67,10 @@ Adobe Commerce ストアのB2B拡張機能の[&#x200B; インストール &#x200
 
 Adobe Commerce向けサービスは、Adobe CommerceおよびMagento Open Sourceに拡張機能を提供するホストサービスです。 B2B ワークフローに対応しているサービスには、次のようなものがあります。
 
-* [カタログサービス](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
-* [ライブサーチ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
-* [商品レコメンデーション](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
-* [Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
+* [カタログサービス](https://experienceleague.adobe.com/ja/docs/commerce/catalog-service/guide-overview)
+* [ライブサーチ](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)
+* [商品レコメンデーション](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/guide-overview)
+* [Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/ja/docs/commerce/aco-optimizer-connector/overview)
 
 [!DNL Adobe Commerce Optimizer Connector]は、Adobe Commerceのカタログと価格データを[!DNL Adobe Commerce Optimizer]に同期し、AIを活用した商品の検索、レコメンデーション、ヘッドレスストアフロントを強化します。一方、Adobe Commerceは引き続き記録システムです。
 
@@ -78,7 +78,7 @@ Adobe Commerce向けサービスは、Adobe CommerceおよびMagento Open Source
 >
 >B2B マーチャントの場合、[!DNL Adobe Commerce Optimizer Connector for B2B]は、共有カタログを保護されたカタログビューとして[!DNL Adobe Commerce Optimizer]に自動的に同期し、制限されたアクセスキーで保護されるので、契約固有の製品の品揃えと価格は2つのシステム間で同期したままになります。
 
-詳しくは、[[!DNL Adobe Commerce Optimizer Connector] 統合ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)を参照してください。
+詳しくは、[[!DNL Adobe Commerce Optimizer Connector] 統合ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/aco-optimizer-connector/overview)を参照してください。
 
 ## 共有カタログ
 
