@@ -53,4 +53,4 @@ ht-degree: 3%
 >[!MORELIKETHIS]
 >
 > - [ACO カタログ ビュー同期](./aco-catalog-view-sync.md) — カタログ ビューを[!DNL Adobe Commerce Optimizer]に同期する方法を設定します
-> - [ カタログ ビュー同期ステータスの監視](../../systems/catalog-view-sync-status.md) – 同期の正常性と調整ドリフトの監視
+> - [&#x200B; カタログ ビュー同期ステータスの監視](../../systems/catalog-view-sync-status.md) – 同期の正常性と調整ドリフトの監視

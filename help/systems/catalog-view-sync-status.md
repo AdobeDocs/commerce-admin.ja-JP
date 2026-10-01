@@ -57,13 +57,13 @@ ht-degree: 0%
 
 管理領域から、**[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Catalog View Sync Status]**&#x200B;に移動します。
 
-![ カタログ ビューの同期ステータス ページに、同期の正常性を示すカタログ ビューが一覧表示されます](assets/catalog-view-sync-status.png){width="600" zoomable="yes"}
+![&#x200B; カタログ ビューの同期ステータス ページに、同期の正常性を示すカタログ ビューが一覧表示されます](assets/catalog-view-sync-status.png){width="600" zoomable="yes"}
 
 このページには3つのタブがあります。
 
-- **[!UICONTROL Catalog Views]** - コネクタによって作成されたカタログビューと、それぞれの同期状態。 [ カタログ ビュー同期ステータスの概要](#catalog-view-sync-status-summary)を参照してください。
-- **[!UICONTROL Orphaned in ACO]** – 対応する[!DNL Adobe Commerce] ソースがない[!DNL Adobe Commerce Optimizer]に存在するエンティティ。 「[孤立したACO タブ ](#orphaned-in-aco-tab)」を参照してください。
-- **[!UICONTROL Deleted]** – 共有カタログが削除されたため、カタログビューの予測のレコードが削除されました。 「[ タブを削除しました](#deleted-tab)」を参照してください。
+- **[!UICONTROL Catalog Views]** - コネクタによって作成されたカタログビューと、それぞれの同期状態。 [&#x200B; カタログ ビュー同期ステータスの概要](#catalog-view-sync-status-summary)を参照してください。
+- **[!UICONTROL Orphaned in ACO]** – 対応する[!DNL Adobe Commerce] ソースがない[!DNL Adobe Commerce Optimizer]に存在するエンティティ。 「[孤立したACO タブ &#x200B;](#orphaned-in-aco-tab)」を参照してください。
+- **[!UICONTROL Deleted]** – 共有カタログが削除されたため、カタログビューの予測のレコードが削除されました。 「[&#x200B; タブを削除しました](#deleted-tab)」を参照してください。
 
 ## カタログ ビュー同期ステータスの概要 {#catalog-view-sync-status-summary}
 
@@ -84,14 +84,14 @@ ht-degree: 0%
 | **Source** | カタログビューの予測元の共有カタログ。 リンクを選択して、管理画面で共有カタログを開きます。 |
 | **ストアビュー** | カタログビューが表すストアビュー。 |
 | **企業** | このカタログ ビューに現在リンクされている会社の数。 |
-| **ステータス** | カタログビューの全体的な同期状態。 [ ステータス値の同期](#sync-status-values)を参照してください。 |
+| **ステータス** | カタログビューの全体的な同期状態。 [&#x200B; ステータス値の同期](#sync-status-values)を参照してください。 |
 | **ポリシー** | このカタログ ビューに割り当てられた品揃えポリシーが[!DNL Adobe Commerce]設定と一致するかどうか。 |
 | **価格表** | このカタログ ビューに割り当てられた価格表が[!DNL Adobe Commerce]設定と一致するかどうか。 |
 | **アクセスキー** | 制限付きアクセス キーがこのカタログ ビューにリンクされているかどうか。 |
 | **キーの有効期限** | カタログビューの制限付きアクセスキーの有効期限、残りの日数。 |
 | **ドリフト** | 検出されたドリフトのタイプ（存在する場合）。 |
 | **最終調整済み** | 紐付けプロセスが最後にこのカタログビューをチェックした際。 |
-| **アクション** | **[!UICONTROL View details]**&#x200B;は、現在のステータス、ドリフト、アクセスキー、および最近のイベントを表示するカタログ表示同期ステータスの詳細ページを開きます。 **[!UICONTROL Open in ACO admin]**&#x200B;さんが[!DNL Adobe Commerce Optimizer] Studioでカタログビューの詳細ページを開きます。 **[!UICONTROL Copy ID]**&#x200B;は、参照のためにカタログ ビューIDをコピーします。 [調整と修復のドリフト ](#reconcile-and-repair-drift)を参照してください。 |
+| **アクション** | **[!UICONTROL View details]**&#x200B;は、現在のステータス、ドリフト、アクセスキー、および最近のイベントを表示するカタログ表示同期ステータスの詳細ページを開きます。 **[!UICONTROL Open in ACO admin]**&#x200B;さんが[!DNL Adobe Commerce Optimizer] Studioでカタログビューの詳細ページを開きます。 **[!UICONTROL Copy ID]**&#x200B;は、参照のためにカタログ ビューIDをコピーします。 [調整と修復のドリフト &#x200B;](#reconcile-and-repair-drift)を参照してください。 |
 
 ## 同期ステータス値 {#sync-status-values}
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 | **保留中** | カタログ ビューはまだ調整されていないか、最初の投影を待っています。 |
 | **期限切れ** | 共有カタログは[!DNL Adobe Commerce]に削除されました。カタログ ビューは削除猶予期間内です。 |
 | **削除済み** | カタログ ビューの投影は、猶予期間の後に削除されました。 これは[!UICONTROL Deleted] タブのレコードとして90日間保持されます。 |
-| **孤立** | カタログ ビューまたはキーは[!DNL Adobe Commerce Optimizer]に存在しますが、対応する[!DNL Adobe Commerce] ソースがありません。 「[孤立したACO タブ ](#orphaned-in-aco-tab)」を参照してください。 |
+| **孤立** | カタログ ビューまたはキーは[!DNL Adobe Commerce Optimizer]に存在しますが、対応する[!DNL Adobe Commerce] ソースがありません。 「[孤立したACO タブ &#x200B;](#orphaned-in-aco-tab)」を参照してください。 |
 
 ### 削除猶予期間の設定 {#configure-the-deletion-grace-period}
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save Config]**&#x200B;を選択します。
 
-詳しくは、使用可能なすべての同期およびドリフト調整の設定について、[ サービス/ACO カタログビュー同期](../configuration-reference/services/aco-catalog-view-sync.md)を参照してください。
+詳しくは、使用可能なすべての同期およびドリフト調整の設定について、[&#x200B; サービス/ACO カタログビュー同期](../configuration-reference/services/aco-catalog-view-sync.md)を参照してください。
 
 ## 設定の違いの調整と修復 {#reconcile-and-repair-drift}
 
@@ -186,10 +186,10 @@ Adobe Commerce ソースを持たないエンティティを一覧表示するAC
 
 >[!MORELIKETHIS]
 >
-> - [ カタログビュー設定の管理](/help/b2b/catalog-views-manage.md) – 共有カタログまたは会社アカウントからのカタログビューのレビュー
-> - [ データフィードの同期ステータス ](data-feed-sync-status.md)
-> - [ サービス/ACO カタログ ビュー同期](../configuration-reference/services/aco-catalog-view-sync.md) – 削除と作成の猶予期間とドリフト調整を設定します
+> - [&#x200B; カタログビュー設定の管理](/help/b2b/catalog-views-manage.md) – 共有カタログまたは会社アカウントからのカタログビューのレビュー
+> - [&#x200B; データフィードの同期ステータス &#x200B;](data-feed-sync-status.md)
+> - [&#x200B; サービス/ACO カタログ ビュー同期](../configuration-reference/services/aco-catalog-view-sync.md) – 削除と作成の猶予期間とドリフト調整を設定します
 > - [制限付きアクセスキー管理](restricted-access-keys.md) – このページに有効期限が表示されるキーを管理します
 > - *Adobe Commerce Optimizer コネクタ ガイド*&#x200B;の[B2B共有カタログのカタログ ビュー同期の監視](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status)
-> - [ プライベートカタログビュー](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/private-catalog-view)
+> - [&#x200B; プライベートカタログビュー](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/private-catalog-view)
 > - [制限付きアクセスキー](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys)

@@ -35,7 +35,7 @@ ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync]
 
-これらの設定を使用して、[!DNL Adobe Commerce Optimizer Connector for B2B]がB2B共有カタログの設定（カタログ ビュー、ポリシー、価格表、キー）を[!DNL Adobe Commerce Optimizer]に同期する方法と、2つのシステム間の設定の違いを解決する方法を制御します。 これらの設定の結果を監視するには、[ カタログ表示の同期ステータスの監視](../../systems/catalog-view-sync-status.md)を参照してください。
+これらの設定を使用して、[!DNL Adobe Commerce Optimizer Connector for B2B]がB2B共有カタログの設定（カタログ ビュー、ポリシー、価格表、キー）を[!DNL Adobe Commerce Optimizer]に同期する方法と、2つのシステム間の設定の違いを解決する方法を制御します。 これらの設定の結果を監視するには、[&#x200B; カタログ表示の同期ステータスの監視](../../systems/catalog-view-sync-status.md)を参照してください。
 
 {{config}}
 
@@ -69,5 +69,5 @@ ht-degree: 3%
 >[!MORELIKETHIS]
 >
 > - [ACO カタログビュー](./aco-catalog-view.md) — カタログビューのストアフロント読み取り用にアクセストークンを設定します
-> - [ カタログ ビュー同期ステータスの監視](../../systems/catalog-view-sync-status.md) – 同期の正常性を監視し、これらの設定を使用してドリフトを調整します
+> - [&#x200B; カタログ ビュー同期ステータスの監視](../../systems/catalog-view-sync-status.md) – 同期の正常性を監視し、これらの設定を使用してドリフトを調整します
 > - [制限付きアクセスキー管理](../../systems/restricted-access-keys.md) – 同期されたカタログ ビューに割り当てられたアクセスキーを管理します

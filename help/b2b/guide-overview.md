@@ -62,16 +62,16 @@ ht-degree: 0%
 | 件名 | 説明 |
 | ------- | ----------- |
 | [はじめに](introduction.md) | [!DNL Adobe Commerce B2B]にはどのような機能がありますか？ |
-| [ リリースノート ](release-notes.md) | 各[!DNL Adobe Commerce B2B] リリースで提供されている更新プログラムを確認します。 |
-| [ インストール ](install.md) | [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [!DNL Adobe Commerce B2B]拡張機能をインストールします。 |
+| [&#x200B; リリースノート &#x200B;](release-notes.md) | 各[!DNL Adobe Commerce B2B] リリースで提供されている更新プログラムを確認します。 |
+| [&#x200B; インストール &#x200B;](install.md) | [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [!DNL Adobe Commerce B2B]拡張機能をインストールします。 |
 | [基本的なB2B機能を有効にする](enable-basic-features.md) | [!DNL Adobe Commerce B2B]をインストールしたら、ストアに対してアクティブ化する機能を有効にする必要があります。 |
-| [会社アカウント ](account-companies.md) | 企業アカウントについて学び、ストアでB2B バイヤーをサポートするための主要な構成要素を提供する方法について学びます。 |
+| [会社アカウント &#x200B;](account-companies.md) | 企業アカウントについて学び、ストアでB2B バイヤーをサポートするための主要な構成要素を提供する方法について学びます。 |
 | [会社管理](manage-companies.md) | B2B Commerceのサイト管理者が企業階層を構築して、同じ企業に属する複数の企業の管理を効率化する方法について説明します。 |
-| [共有カタログ ](catalog-shared.md) | 様々な企業向けにカスタマイズされた価格設定を適用して、プライベートカタログを管理する方法について説明します。 [!DNL Adobe Commerce Optimizer Connector for B2B]をご利用のお客様は、高度なマーチャンダイジング機能を使用してストアフロントのエクスペリエンスを強化するために、B2B共有カタログをプライベートカタログビューとして[!DNL Adobe Commerce Optimizer]に同期する方法をご確認ください。 |
-| [ クイックオーダー](quick-order.md) | クイック注文機能について学び、顧客のために有効にします。 |
+| [共有カタログ &#x200B;](catalog-shared.md) | 様々な企業向けにカスタマイズされた価格設定を適用して、プライベートカタログを管理する方法について説明します。 [!DNL Adobe Commerce Optimizer Connector for B2B]をご利用のお客様は、高度なマーチャンダイジング機能を使用してストアフロントのエクスペリエンスを強化するために、B2B共有カタログをプライベートカタログビューとして[!DNL Adobe Commerce Optimizer]に同期する方法をご確認ください。 |
+| [&#x200B; クイックオーダー](quick-order.md) | クイック注文機能について学び、顧客のために有効にします。 |
 | [発注書](purchase-order-flow.md) | 企業が支出を追跡および管理できる発注ワークフローについて説明します。 |
 | [見積](quotes.md) | 見積もりワークフローと、このサービスを会社アカウントに提供する方法について説明します。 |
-| [要求リスト ](requisition-lists.md) | 購買リストについて学び、頻繁に注文される商品をショッピングカートに簡単に追加するために、購買リストがどのように使用されるかを学びます。 |
+| [要求リスト &#x200B;](requisition-lists.md) | 購買リストについて学び、頻繁に注文される商品をショッピングカートに簡単に追加するために、購買リストがどのように使用されるかを学びます。 |
 
 {style="table-layout:auto"}
 
@@ -81,11 +81,11 @@ ht-degree: 0%
 
 ## 開発者情報
 
-モジュールリリースに含まれる変更について詳しくは、[ リリースノート ](release-notes.md)を参照してください。 _Adobe Commerce REST API リファレンスガイド_&#x200B;の[B2B統合](https://developer.adobe.com/commerce/webapi/rest/b2b/) ドキュメントでは、モジュールアーキテクチャ、API、アルゴリズムのカスタマイズについて詳しく説明しています。
+モジュールリリースに含まれる変更について詳しくは、[&#x200B; リリースノート &#x200B;](release-notes.md)を参照してください。 _Adobe Commerce REST API リファレンスガイド_&#x200B;の[B2B統合](https://developer.adobe.com/commerce/webapi/rest/b2b/) ドキュメントでは、モジュールアーキテクチャ、API、アルゴリズムのカスタマイズについて詳しく説明しています。
 
 ## トラブルシューティングとサポート
 
 このガイドで説明されていない情報や質問が必要な場合は、次のリソースを使用してください。
 
 - [Adobe Commerce サポート情報](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)
-- [ サポートチケット ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)：チケットを送信して追加のヘルプを受け取ります。
+- [&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)：チケットを送信して追加のヘルプを受け取ります。

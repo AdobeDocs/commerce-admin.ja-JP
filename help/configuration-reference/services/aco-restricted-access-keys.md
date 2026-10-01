@@ -41,7 +41,7 @@ ht-degree: 4%
 
 ## [!UICONTROL Provisioning]
 
-![ プロビジョニング ](./assets/optimizer-restricted-access-key-config.png)<!-- zoom -->
+![&#x200B; プロビジョニング &#x200B;](./assets/optimizer-restricted-access-key-config.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 | --- | --- | --- |
@@ -51,10 +51,10 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->自動キーのローテーションがまだ利用できないため、デフォルトの有効期限は長い有効期限に設定されます。 [ キーの選択とローテーション ](../../systems/restricted-access-keys.md#key-selection-and-rotation)を参照してください。
+>自動キーのローテーションがまだ利用できないため、デフォルトの有効期限は長い有効期限に設定されます。 [&#x200B; キーの選択とローテーション &#x200B;](../../systems/restricted-access-keys.md#key-selection-and-rotation)を参照してください。
 
 >[!MORELIKETHIS]
 >
 > - [ACO カタログビュー](./aco-catalog-view.md) — カタログビュー用のストアフロントアクセストークンの設定
 > - [制限付きアクセスキー管理](../../systems/restricted-access-keys.md) – 制限付きアクセスキーの作成、割り当て、削除
-> - [ カタログ ビュー同期ステータスの監視](../../systems/catalog-view-sync-status.md) – 有効期限が近づいているキーを監視します
+> - [&#x200B; カタログ ビュー同期ステータスの監視](../../systems/catalog-view-sync-status.md) – 有効期限が近づいているキーを監視します
