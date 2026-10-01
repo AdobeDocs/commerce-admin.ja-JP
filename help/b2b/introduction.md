@@ -1,38 +1,47 @@
 ---
-title: ' [!DNL Adobe Commerce B2B]の概要'
+title: '[!DNL Adobe Commerce B2B]の概要'
 description: 統合 B2B 機能を使用して、企業のお客様のニーズを満たす方法を説明します。
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
 TQID: https://experienceleague.adobe.com/dt7QZnXH9yO6vMFJBIgt4g43XVfk6Da1gyXEMqqvJlo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+    internal-label: Administration
+source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
 workflow-type: tm+mt
-source-wordcount: 831
+source-wordcount: '962'
 ht-degree: 2%
-
 ---
-
 # [!DNL Adobe Commerce B2B]の概要
 
 標準的な企業対消費者モデルとは異なり、統合されたB2B （企業対企業）機能は、企業に顧客を持つ販売者（Adobe Commerceの販売者）のニーズを満たすように設計されています。 複雑な組織構造を持つ企業や、さまざまな役割や購買権限レベルを持つ複数のユーザーに対応できます。 B2Bの典型的な顧客とは、小売店の経営者、または企業の代理で購入するバイヤーです。 どちらの場合も、取引は自社と競合他社の間で行われます。 商品を消費者に直接販売することもできます。 [!DNL Adobe Commerce B2B]は、B2B モデルとB2C モデルの両方をサポートする統合ソリューションです。
 
-Adobe Commerce ストアのB2B拡張機能の[&#x200B; インストール &#x200B;](install.md)および[&#x200B; イネーブルメント &#x200B;](enable-basic-features.md)を使用すると、お客様固有のカタログと価格設定、ターゲットを絞ったコンテンツとプロモーションにより、購買体験をパーソナライズできます。
+Adobe Commerce ストアのB2B拡張機能の[ インストール ](install.md)および[ イネーブルメント ](enable-basic-features.md)を使用すると、お客様固有のカタログと価格設定、ターゲットを絞ったコンテンツとプロモーションにより、購買体験をパーソナライズできます。
 
 ## 企業アカウント
 
@@ -40,7 +49,7 @@ Adobe Commerce ストアのB2B拡張機能の[&#x200B; インストール &#x200
 
 管理者から、Commerce サイト管理者は、会社がweb サイト上でどのように動作するかを設定できます。 設定により、支払い方法、価格設定、見積もりを使用して価格を交渉する機能、要求リストを作成する機能など、企業ユーザーが利用できるB2B機能が決まります。
 
-詳しくは、[会社アカウント &#x200B;](account-companies.md)を参照してください。
+詳しくは、[会社アカウント ](account-companies.md)を参照してください。
 
 >[!NOTE]
 >
@@ -58,9 +67,18 @@ Adobe Commerce ストアのB2B拡張機能の[&#x200B; インストール &#x200
 
 Adobe Commerce向けサービスは、Adobe CommerceおよびMagento Open Sourceに拡張機能を提供するホストサービスです。 B2B ワークフローに対応しているサービスには、次のようなものがあります。
 
-* [カタログサービス](https://experienceleague.adobe.com/ja/docs/commerce/catalog-service/guide-overview)
-* [ライブサーチ](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)
-* [商品レコメンデーション](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/guide-overview)
+* [カタログサービス](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
+* [ライブサーチ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
+* [商品レコメンデーション](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
+* [Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
+
+[!DNL Adobe Commerce Optimizer Connector]は、Adobe Commerceのカタログと価格データを[!DNL Adobe Commerce Optimizer]に同期し、AIを活用した商品の検索、レコメンデーション、ヘッドレスストアフロントを強化します。一方、Adobe Commerceは引き続き記録システムです。
+
+>[!NOTE]
+>
+>B2B マーチャントの場合、[!DNL Adobe Commerce Optimizer Connector for B2B]は、共有カタログを保護されたカタログビューとして[!DNL Adobe Commerce Optimizer]に自動的に同期し、制限されたアクセスキーで保護されるので、契約固有の製品の品揃えと価格は2つのシステム間で同期したままになります。
+
+詳しくは、[[!DNL Adobe Commerce Optimizer Connector] 統合ガイド ](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)を参照してください。
 
 ## 共有カタログ
 
@@ -68,11 +86,15 @@ Adobe Commerce向けサービスは、Adobe CommerceおよびMagento Open Source
 
 詳しくは、[共有カタログの操作](catalog-shared.md)を参照してください。
 
+>[!NOTE]
+>
+>[!DNL Adobe Commerce Optimizer Connector for B2B]拡張機能がインストールされている場合、各カスタム共有カタログも、共有カタログ内のストア ビューごとに1つ以上のカタログ ビューとして[!DNL Adobe Commerce Optimizer]に投影されます。 詳しくは、[ カタログビュー設定の管理](catalog-views-manage.md)および[ カタログビュー同期ステータスの監視](/help/systems/catalog-view-sync-status.md)を参照してください。
+
 ## クイックオーダー
 
 クイックオーダーを設定すると、ログインした顧客が注文したい商品の商品名またはSKUを知っているときに、注文プロセスを数回クリックに減らすことができます。
 
-詳しくは、[&#x200B; クイックオーダー](quick-order.md)を参照してください。
+詳しくは、[ クイックオーダー](quick-order.md)を参照してください。
 
 ## 交渉可能な見積
 
@@ -98,4 +120,4 @@ Adobe Commerce向けサービスは、Adobe CommerceおよびMagento Open Source
 
 顧客は、よく注文する商品を購入する際に、商品リストから直接ショッピングカートに商品を追加できるため、商品リストを利用して時間を節約することができます。 ベンダー、バイヤー、チーム、施策など、ワークフローを合理化するものごとに、対象となる製品を絞り込んで、複数のリストを管理できます。
 
-詳しくは、[要求リスト &#x200B;](requisition-lists.md)を参照してください。
+詳しくは、[要求リスト ](requisition-lists.md)を参照してください。
