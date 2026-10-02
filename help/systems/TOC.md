@@ -5,13 +5,11 @@ breadcrumb-title: 管理者システムガイド
 role: Admin, Leader
 feature: System
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: af5848a2337563c3d57109b0bd93495a3ab7def0
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '217'
 ht-degree: 3%
-
 ---
-
 
 # 管理者システムガイド {#systems}
 
@@ -51,6 +49,9 @@ ht-degree: 3%
   - Commerce サービスのデータ同期 {#data-sync}
     - [データ管理ダッシュボード](data-dashboard.md)
     - [データフィードの同期ステータス](data-feed-sync-status.md)
+    - カタログビューの同期キーとアクセスキー {#catalog-view-sync}
+      - [カタログ ビューの同期ステータス](catalog-view-sync-status.md)
+      - [制限付きアクセスキー](restricted-access-keys.md)
 - アクションログ {#action-logs}
   - [概要](action-log.md)
   - [アクションログレポート](action-log-report.md)

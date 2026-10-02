@@ -1,13 +1,11 @@
 ---
 title: スニペット
 description: 特定のエディションに適用するフィーチャーまたはページに注意するために、再利用されたメモとビジュアル要素
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 0%
-
 ---
-
 # スニペット
 
 ## EEのみの機能 {#ee-feature}
@@ -69,7 +67,6 @@ ht-degree: 0%
 >2024年6月以降、Adobe Commerceのマーチャントは現在のUPSとの取引ができなくなります。 これは、ネイティブのAdobe Commerce統合で使用されるUnited Parcel Service （UPS） APIが、現在、必要なOAuth 2.0 セキュリティモデルをサポートしていないためです。 統合を有効にするには、[UPS開発者プラットフォーム &#x200B;](https://developer.ups.com/get-started)でアプリケーションを作成して、OAuth 2.0に必要な資格情報を取得します。 Commerce UPS出荷設定の`username`および`password`として新しい資格情報を使用します。 セキュリティモデルの変更について詳しくは、[開発者ポータル アクセスキー移行ガイド_](https://developer.ups.com/oauth-developer-guide)を参照してください。<br/>
 >
 >加盟店は、SOAP APIからOAuth 2.0認証プロトコルをサポートするRESTful APIに移行するために、[高品質のパッチアップデート &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-27146)をストアに適用する必要があります。
-
 
 ## 使用可能なドキュメント {#docs-links}
 

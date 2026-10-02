@@ -1,33 +1,42 @@
 ---
-title: ' [!DNL Adobe Commerce B2B]の概要'
+title: '[!DNL Adobe Commerce B2B]の概要'
 description: 統合 B2B 機能を使用して、企業のお客様のニーズを満たす方法を説明します。
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
 TQID: https://experienceleague.adobe.com/dt7QZnXH9yO6vMFJBIgt4g43XVfk6Da1gyXEMqqvJlo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+    internal-label: Administration
+source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
 workflow-type: tm+mt
-source-wordcount: 831
+source-wordcount: '962'
 ht-degree: 2%
-
 ---
-
 # [!DNL Adobe Commerce B2B]の概要
 
 標準的な企業対消費者モデルとは異なり、統合されたB2B （企業対企業）機能は、企業に顧客を持つ販売者（Adobe Commerceの販売者）のニーズを満たすように設計されています。 複雑な組織構造を持つ企業や、さまざまな役割や購買権限レベルを持つ複数のユーザーに対応できます。 B2Bの典型的な顧客とは、小売店の経営者、または企業の代理で購入するバイヤーです。 どちらの場合も、取引は自社と競合他社の間で行われます。 商品を消費者に直接販売することもできます。 [!DNL Adobe Commerce B2B]は、B2B モデルとB2C モデルの両方をサポートする統合ソリューションです。
@@ -61,12 +70,25 @@ Adobe Commerce向けサービスは、Adobe CommerceおよびMagento Open Source
 * [カタログサービス](https://experienceleague.adobe.com/ja/docs/commerce/catalog-service/guide-overview)
 * [ライブサーチ](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)
 * [商品レコメンデーション](https://experienceleague.adobe.com/ja/docs/commerce/product-recommendations/guide-overview)
+* [Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/ja/docs/commerce/aco-optimizer-connector/overview)
+
+[!DNL Adobe Commerce Optimizer Connector]は、Adobe Commerceのカタログと価格データを[!DNL Adobe Commerce Optimizer]に同期し、AIを活用した商品の検索、レコメンデーション、ヘッドレスストアフロントを強化します。一方、Adobe Commerceは引き続き記録システムです。
+
+>[!NOTE]
+>
+>B2B マーチャントの場合、[!DNL Adobe Commerce Optimizer Connector for B2B]は、共有カタログを保護されたカタログビューとして[!DNL Adobe Commerce Optimizer]に自動的に同期し、制限されたアクセスキーで保護されるので、契約固有の製品の品揃えと価格は2つのシステム間で同期したままになります。
+
+詳しくは、[[!DNL Adobe Commerce Optimizer Connector] 統合ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/aco-optimizer-connector/overview)を参照してください。
 
 ## 共有カタログ
 
 共有カタログとは、1つまたは複数のweb サイト上の異なる企業に対して、製品ごとにカスタム価格を設定できる価格設定レベルのことです。 共有カタログを利用することで、異なる顧客グループに対して異なる価格帯を適用し、商品を販売することができます。 共有カタログのサポートは、会社アカウントをサポートするように設定されたCommerce ストアでのみ使用できます。
 
 詳しくは、[共有カタログの操作](catalog-shared.md)を参照してください。
+
+>[!NOTE]
+>
+>[!DNL Adobe Commerce Optimizer Connector for B2B]拡張機能がインストールされている場合、各カスタム共有カタログも、共有カタログ内のストア ビューごとに1つ以上のカタログ ビューとして[!DNL Adobe Commerce Optimizer]に投影されます。 詳しくは、[&#x200B; カタログビュー設定の管理](catalog-views-manage.md)および[&#x200B; カタログビュー同期ステータスの監視](/help/systems/catalog-view-sync-status.md)を参照してください。
 
 ## クイックオーダー
 

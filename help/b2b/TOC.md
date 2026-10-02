@@ -1,18 +1,16 @@
 ---
 user-guide-title: '[!DNL Adobe Commerce B2B] ガイド'
-user-guide-description: Adobe Commerceで利用可能な統合B2B機能の使用方法を説明します，
+user-guide-description: 法人顧客や共有カタログ管理など、Adobe CommerceのB2B統合機能の使用方法を説明します。
 breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
 nudge: true
-source-git-commit: c67474ee4b72744766421090e30c56c85d687495
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '182'
 ht-degree: 5%
-
 ---
-
 
 # [!DNL Adobe Commerce B2B] ガイド {#b2b}
 
@@ -46,6 +44,7 @@ ht-degree: 5%
     + [カタログの価格と構造を設定](catalog-shared-pricing-structure.md)
     + [カタログへの会社の割り当て](catalog-shared-assign-companies.md)
   + [共有カタログの管理](catalog-shared-manage.md)
+  + [カタログビュー設定の管理](catalog-views-manage.md)
 + [クイックオーダー](quick-order.md)
 + 発注 {#purchase-orders}
   + [企業に対する発注](purchase-order-flow.md)

@@ -5,13 +5,11 @@ breadcrumb-title: 設定リファレンス
 role: Admin, Developer, User
 feature: Configuration
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: f6c2f4b74fae59264faf75de3c025c596cab048f
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '184'
 ht-degree: 2%
-
 ---
-
 
 # 設定リファレンスガイド {#config}
 
@@ -78,9 +76,12 @@ ht-degree: 2%
 - [販売チャネル](./sales-channels.md)
 - サービス {#services}
   - [Web API](./services/magento-web-api.md)
-  - [Commerce Services](./services/saas.md)
+  - [Commerce Services Connector](./services/saas.md)
   - [OAuth](./services/oauth.md)
   - [電子メール抑制](./services/email-suppression.md)
+  - [ACO カタログビュー](./services/aco-catalog-view.md)
+  - [ACO カタログビューの同期](./services/aco-catalog-view-sync.md)
+  - [ACO制限付きアクセスキー](./services/aco-restricted-access-keys.md)
 - アドバンス {#advanced}
   - [管理者](./advanced/admin.md)
   - [システム](./advanced/system.md)

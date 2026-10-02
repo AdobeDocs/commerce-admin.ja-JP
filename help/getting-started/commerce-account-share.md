@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 47f4b72b7b4ef201251423522a7917825415cb25
+source-git-commit: f9f21f675d5c608547db790f33d1aa9be90a36eb
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -141,7 +141,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    > **[!UICONTROL Delete]**&#x200B;が表示されない場合は、**[!UICONTROL Share Name]**&#x200B;に命名パターン `Cloud Shared Access from MAG0XYZ`が含まれているかどうかを確認してください。 アカウントに[名前付けパターンがあり、削除できない](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users)場合、これは、Shared Accessが[Commerce アカウント &#x200B;](https://account.magento.com/)から直接ではなく、APIによって作成されたためです。
-   > 
+   >
    > 削除できない場合は、アカウント所有者が共有アクセスアカウントを変更し、「アカウント権限を付与」で、すべての項目のチェックを外します。 このアップデートの後、ユーザーはアカウントリソースにアクセスできなくなります。
    > ![画像](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
@@ -150,11 +150,10 @@ ht-degree: 0%
 
 1. 確認を求められたら、**[!UICONTROL Delete User]**&#x200B;をクリックします。
 
->[!NOTE]
->
->このインターフェイスでは、MAG[XYZ ]_から共有名_ Cloud Shared Accessのユーザーを削除することはできません。 [&#x200B; クラウドプロジェクトを介して共有アクセスが許可されたユーザーを削除する方法を参照してください。](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users)。
+   >[!NOTE]
+   >
+   >このインターフェイスでは、MAG[XYZ ]_から共有名_ Cloud Shared Accessのユーザーを削除することはできません。 [&#x200B; クラウドプロジェクトを介して共有アクセスが許可されたユーザーを削除する方法を参照してください。](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users)。
 
 ## 関連トピックス
 
 [共有アクセスのトラブルシューティング](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
-

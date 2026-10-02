@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Adobe Commerce B2B] ガイド'
-description: インストールと設定を含む、 [!DNL Adobe Commerce B2B] 管理者に関する包括的な情報。
+description: インストールと設定を含む、[!DNL Adobe Commerce B2B]管理者に関する包括的な情報。
 breadcrumb-title: ガイドの概要
 seo-title: "[!DNL Adobe Commerce B2B] Guide"
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
@@ -9,32 +9,45 @@ feature: B2B
 TQID: https://experienceleague.adobe.com/DmVKfLqoxDuPtYvrvZ7a8Mkt2hz4eCFALej-ie2tafk
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+    internal-label: Administration
+source-git-commit: 9ce6906c107bd91a980e9e522e454452b7fca6f8
 workflow-type: tm+mt
-source-wordcount: 425
+source-wordcount: '450'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce B2B ガイド
 
 このガイドは、Adobe Commerce Adminで作業する管理者を対象としています。 このモジュールのインストールと有効化に関する詳細な情報（機能の設定と管理など）を提供します。 コア [!DNL Commerce]の設定と機能に関する基本的な理解を前提としています。
@@ -54,7 +67,7 @@ ht-degree: 0%
 | [基本的なB2B機能を有効にする](enable-basic-features.md) | [!DNL Adobe Commerce B2B]をインストールしたら、ストアに対してアクティブ化する機能を有効にする必要があります。 |
 | [会社アカウント &#x200B;](account-companies.md) | 企業アカウントについて学び、ストアでB2B バイヤーをサポートするための主要な構成要素を提供する方法について学びます。 |
 | [会社管理](manage-companies.md) | B2B Commerceのサイト管理者が企業階層を構築して、同じ企業に属する複数の企業の管理を効率化する方法について説明します。 |
-| [共有カタログ &#x200B;](catalog-shared.md) | 様々な企業向けにカスタマイズされた価格設定を適用して、ゲート付きカタログを維持するための共有カタログの使用方法について説明します。 |
+| [共有カタログ &#x200B;](catalog-shared.md) | 様々な企業向けにカスタマイズされた価格設定を適用して、プライベートカタログを管理する方法について説明します。 [!DNL Adobe Commerce Optimizer Connector for B2B]をご利用のお客様は、高度なマーチャンダイジング機能を使用してストアフロントのエクスペリエンスを強化するために、B2B共有カタログをプライベートカタログビューとして[!DNL Adobe Commerce Optimizer]に同期する方法をご確認ください。 |
 | [&#x200B; クイックオーダー](quick-order.md) | クイック注文機能について学び、顧客のために有効にします。 |
 | [発注書](purchase-order-flow.md) | 企業が支出を追跡および管理できる発注ワークフローについて説明します。 |
 | [見積](quotes.md) | 見積もりワークフローと、このサービスを会社アカウントに提供する方法について説明します。 |

@@ -6,23 +6,28 @@ topic: Commerce, Localization
 TQID: https://experienceleague.adobe.com/nSFO5Er6Qj--sCbOzjSAhAsAXBxPpwwSinJhpsVNggc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
+    internal-label: Optimization
+source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: '808'
 ht-degree: 0%
-
 ---
-
 # 店舗のローカライズ
 
 ストア全体のページでハードコーディングされているように見えるテキストのほとんどは、ビューのロケールを変更することで、即座に別の言語に変更できます。 ロケールを変更しても、実際にはテキストが単語単位で翻訳されるわけではありませんが、ストア全体で使用されるインターフェイス テキストを提供する別の翻訳テーブルを参照するだけです。 変更できるテキストには、_マイカート_&#x200B;や&#x200B;_マイアカウント_&#x200B;などのナビゲーションタイトル、ラベル、ボタン、リンクが含まれます。 [&#x200B; インライン翻訳](../configuration-reference/advanced/developer.md) ツールを使用して、インターフェイス内のテキストを修正することもできます。
@@ -68,6 +73,8 @@ ht-degree: 0%
    言語のバリエーションが複数ある場合は、特定の地域または方言に対応する言語を選択してください。
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
+
+   [!DNL Adobe Commerce Optimizer Connector for B2B]がインストールされている場合、表示ロケールの変更を保存すると、カタログ ビュー同期インデクサーが無効になります。 スケジュールされたインデクサーは、影響を受けるカタログビューを後で[!DNL Adobe Commerce Optimizer]に再プロジェクトします。 カタログビューペイロードでは、常に`sources[].locale`のストアビューコードが使用されますが、`general/locale/code`で設定された表示ロケールは使用されません。 [&#x200B; カタログビューの管理](../b2b/catalog-views-manage.md)を参照してください。
 
    ロケールの言語を変更した後、商品名、説明、カテゴリ、[CMS](../content-design/page-translate.md) ページ、ブロックなど、作成した残りのコンテンツは、ストアビューごとに個別に翻訳する必要があります。
 
