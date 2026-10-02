@@ -42,11 +42,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->パートナーポータルなど、B2B以外のシナリオでプライベートカタログの管理に使用される手動で作成されたキーの場合、[[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}からキーを管理します。
+>パートナーポータルなど、B2B以外のシナリオでプライベートカタログの管理に使用される手動で作成されたキーの場合、[[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}からキーを管理します。
 
 ## オーディエンスと可用性 {#audience}
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud Infrastructureおよびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud Infrastructureおよびオンプレミスプロジェクトにのみ適用されます。"}
 
 [!UICONTROL Restricted Access Keys] ページは、[!DNL Adobe Commerce Optimizer Connector for B2B]でB2B共有カタログを使用するAdobe Commerce on Cloud Infrastructureおよびオンプレミス マーチャントで利用できます。 コネクターは、ページを自動的にインストールして有効にします。
 
@@ -120,5 +120,5 @@ Commerceは新しいキーペアを生成し、秘密鍵を保存します。 �
 > - [&#x200B; カタログ ビュー同期ステータス監視](catalog-view-sync-status.md) – これらのキーで保護されているカタログ ビューを監視および調整します
 > - [&#x200B; サービス/ACO制限付きアクセス キー](../configuration-reference/services/aco-restricted-access-keys.md) — デフォルトのキー有効期限を設定します
 > - [&#x200B; サービス/ACO カタログビュー](../configuration-reference/services/aco-catalog-view.md) — ストアフロントのアクセストークンの有効期間を設定し、発行を有効または無効にします
-> - *Adobe Commerce Optimizer コネクタ ガイド*&#x200B;の[制限付きアクセス キーの管理](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} – これらのキーをB2B共有カタログ同期に適合させる方法について説明します
-> - *Adobe Commerce Optimizer ガイド*&#x200B;の[制限付きアクセスキー](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} — B2B以外のユースケース向けのACO Studio ベースの手動キーフロー
+> - *Adobe Commerce Optimizer コネクタ ガイド*&#x200B;の[制限付きアクセス キーの管理](https://experienceleague.adobe.com/ja/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} – これらのキーをB2B共有カタログ同期に適合させる方法について説明します
+> - *Adobe Commerce Optimizer ガイド*&#x200B;の[制限付きアクセスキー](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} — B2B以外のユースケース向けのACO Studio ベースの手動キーフロー
