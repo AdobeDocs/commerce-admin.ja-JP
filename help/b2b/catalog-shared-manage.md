@@ -44,13 +44,13 @@ ht-degree: 0%
 ---
 # 共有カタログの管理
 
-_[!UICONTROL Shared Catalogs]_ページでは、商品の選択、カスタム価格、カテゴリ権限、カタログの詳細など、共有カタログの管理に必要なツールにアクセスできます。 このページは、フィルターとアクションコントロールを備えた標準的な管理者ワークスペースに似ています。 グリッドには、デフォルトのパブリック共有カタログを含むすべての共有カタログと、設定したカスタムカタログが一覧表示されます。
+_[!UICONTROL Shared Catalogs]_&#x200B;ページでは、商品の選択、カスタム価格、カテゴリ権限、カタログの詳細など、共有カタログの管理に必要なツールにアクセスできます。 このページは、フィルターとアクションコントロールを備えた標準的な管理者ワークスペースに似ています。 グリッドには、デフォルトのパブリック共有カタログを含むすべての共有カタログと、設定したカスタムカタログが一覧表示されます。
 
 [!DNL Adobe Commerce Optimizer Connector for B2B]拡張機能がインストールされている場合、このページでは、コネクタが各共有カタログのデータを[!DNL Adobe Commerce Optimizer]に同期するときに作成された[!DNL Adobe Commerce Optimizer] カタログビューと、B2B ストアフロントエクスペリエンスのカタログビューを保護する制限付きアクセスキーにもアクセスできます。
 
 ## 製品の選択を更新
 
-共有カタログ内の商品の選択は、共有カタロググリッドの&#x200B;_[!UICONTROL Action]_列から簡単に更新できます。 変更は、関連する会社アカウントのメンバーに対して表示されます。 このプロセスは、新しい[ カタログ構造](catalog-shared-pricing-structure.md)の製品を選択する場合と同じですが、設定の範囲を変更することはできません。
+共有カタログ内の商品の選択は、共有カタロググリッドの&#x200B;_[!UICONTROL Action]_&#x200B;列から簡単に更新できます。 変更は、関連する会社アカウントのメンバーに対して表示されます。 このプロセスは、新しい[&#x200B; カタログ構造](catalog-shared-pricing-structure.md)の製品を選択する場合と同じですが、設定の範囲を変更することはできません。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**&#x200B;に移動します。
 
@@ -62,19 +62,19 @@ _[!UICONTROL Shared Catalogs]_ページでは、商品の選択、カスタム�
 
    最初のアイテムはスキップできます。共有カタログの範囲は、初めて保存した後に変更できません。
 
-特定の製品を使用している場合、_[!UICONTROL Products In Shared Catalog]_セクションには、製品が使用可能な各共有カタログが一覧表示されます。 詳しくは、[共有カタログに商品を追加](catalog-shared-product-add.md)を参照してください。
+特定の製品を使用している場合、_[!UICONTROL Products In Shared Catalog]_&#x200B;セクションには、製品が使用可能な各共有カタログが一覧表示されます。 詳しくは、[共有カタログに商品を追加](catalog-shared-product-add.md)を参照してください。
 
 共有カタログ内の![製品](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
 ## カスタム価格の更新
 
-共有カタログ内の製品のカスタム価格は、共有カタログ グリッドの「アクション」列から簡単に更新できます。 変更は、関連する会社または顧客グループのメンバーに対して、ストアフロントに表示されます。 このプロセスは、新しい[共有カタログ ](catalog-shared-pricing-structure.md)のカスタム価格の設定と同じですが、設定の範囲を変更することはできません。
+共有カタログ内の製品のカスタム価格は、共有カタログ グリッドの「アクション」列から簡単に更新できます。 変更は、関連する会社または顧客グループのメンバーに対して、ストアフロントに表示されます。 このプロセスは、新しい[共有カタログ &#x200B;](catalog-shared-pricing-structure.md)のカスタム価格の設定と同じですが、設定の範囲を変更することはできません。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**&#x200B;に移動します。
 
 1. 更新するグリッド内の共有カタログの場合は、**[!UICONTROL Action]**&#x200B;列に移動し、**[!UICONTROL Set Pricing and Structure]**&#x200B;を選択します。
 
-1. _[!UICONTROL Catalog Structure]_ページで、**[!UICONTROL Configure]**をクリックし、次のいずれかの操作を行います。
+1. _[!UICONTROL Catalog Structure]_&#x200B;ページで、**[!UICONTROL Configure]**&#x200B;をクリックし、次のいずれかの操作を行います。
 
    - ページの上部にある進行状況インジケーターで、**[!UICONTROL Pricing]**&#x200B;をクリックします。
    - 右上隅の「**[!UICONTROL Next]**」をクリックします。
@@ -83,15 +83,15 @@ _[!UICONTROL Shared Catalogs]_ページでは、商品の選択、カスタム�
 
 ## カテゴリ権限の更新
 
-カテゴリ ツリーから共有カタログに追加された製品の[ カテゴリ権限](../catalog/category-permissions.md)は、自動的に`Allow`に設定されます。 必要に応じて、後で権限を調整したり、追加のルールを作成したりできます。
+カテゴリ ツリーから共有カタログに追加された製品の[&#x200B; カテゴリ権限](../catalog/category-permissions.md)は、自動的に`Allow`に設定されます。 必要に応じて、後で権限を調整したり、追加のルールを作成したりできます。
 
 >[!NOTE]
 >
->**[B2B リリース 1.3.0](release-notes.md#b2b-v130)以降** – 共有カタログを作成する場合、割り当てられた顧客グループの&#x200B;_[!UICONTROL Display Product Prices]_と_[!UICONTROL Add to Cart]_&#x200B;について、各[ カテゴリ権限](../catalog/category-permissions.md)が`Allow`に設定されます。 以前は、カタログ権限が`Allow`に設定されていても、これらの設定は自動的に`Deny`に設定されていました。
+>**[B2B リリース 1.3.0](release-notes.md#b2b-v130)以降** – 共有カタログを作成する場合、割り当てられた顧客グループの&#x200B;_[!UICONTROL Display Product Prices]_&#x200B;と_[!UICONTROL Add to Cart]_&#x200B;について、各[&#x200B; カテゴリ権限](../catalog/category-permissions.md)が`Allow`に設定されます。 以前は、カタログ権限が`Allow`に設定されていても、これらの設定は自動的に`Deny`に設定されていました。
 
 >[!IMPORTANT]
 >
->有効にすると、**_[!UICONTROL Shared Catalog]_**&#x200B;は、カタログ内の&#x200B;**_すべて_**&#x200B;のカテゴリに対する既存のすべての[ グループ権限設定](../configuration-reference/catalog/catalog.md#category-permissions)を置き換えます。 [!UICONTROL Shared Catalog]は、カタログが有効になっている場合に、カタログ内のすべてのカテゴリ権限を完全に制御します。
+>有効にすると、**_[!UICONTROL Shared Catalog]_**&#x200B;は、カタログ内の&#x200B;**_すべて_**&#x200B;のカテゴリに対する既存のすべての[&#x200B; グループ権限設定](../configuration-reference/catalog/catalog.md#category-permissions)を置き換えます。 [!UICONTROL Shared Catalog]は、カタログが有効になっている場合に、カタログ内のすべてのカテゴリ権限を完全に制御します。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]** > **[!UICONTROL Categories]**&#x200B;に移動します。
 
@@ -107,7 +107,7 @@ _[!UICONTROL Shared Catalogs]_ページでは、商品の選択、カスタム�
 
    - 共有カタログに対応する&#x200B;**[!UICONTROL Customer Group]**&#x200B;を選択し、必要に応じて権限設定を変更します。
 
-     ![ カテゴリ権限ルール ](./assets/shared-catalog-category-permissions.png){width="600" zoomable="yes"}
+     ![&#x200B; カテゴリ権限ルール &#x200B;](./assets/shared-catalog-category-permissions.png){width="600" zoomable="yes"}
 
    - 別の顧客グループの権限ルールを作成するには、**[!UICONTROL New Permissions]**&#x200B;をクリックして、プロセスを繰り返します。
 
@@ -125,7 +125,7 @@ _[!UICONTROL Shared Catalogs]_ページでは、商品の選択、カスタム�
 
 1. 更新する共有カタログの場合は、**[!UICONTROL Action]**&#x200B;列に移動し、**[!UICONTROL General Settings]**&#x200B;を選択します。
 
-   ![ カタログの詳細](./assets/shared-catalog-update-details.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログの詳細](./assets/shared-catalog-update-details.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、カタログの詳細情報を更新します。
 
@@ -137,15 +137,15 @@ _[!UICONTROL Shared Catalogs]_ページでは、商品の選択、カスタム�
 
 ## カタログビュー設定の管理
 
-[!DNL Adobe Commerce Optimizer Connector for B2B]拡張機能がインストールされている場合、共有カタログの&#x200B;_[!UICONTROL Catalog Views]_セクションには、共有カタログから投影された[!DNL Adobe Commerce Optimizer] カタログビューが一覧表示され、それらを保護する制限付きアクセスキーを管理できます。
+[!DNL Adobe Commerce Optimizer Connector for B2B]拡張機能がインストールされている場合、共有カタログの&#x200B;_[!UICONTROL Catalog Views]_&#x200B;セクションには、共有カタログから投影された[!DNL Adobe Commerce Optimizer] カタログビューが一覧表示され、それらを保護する制限付きアクセスキーを管理できます。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**&#x200B;に移動します。
 
 1. 確認する共有カタログの場合は、**[!UICONTROL Action]**&#x200B;列に移動し、**[!UICONTROL General Settings]**&#x200B;を選択します。
 
-1. _[!UICONTROL Shared Catalog Information]_パネルで、**[!UICONTROL Catalog Views]**を選択します。
+1. _[!UICONTROL Shared Catalog Information]_&#x200B;パネルで、**[!UICONTROL Catalog Views]**&#x200B;を選択します。
 
-カタログビューと制限付きアクセスキーの編集について詳しくは、[ カタログビュー設定の管理](catalog-views-manage.md)を参照してください。
+カタログビューと制限付きアクセスキーの編集について詳しくは、[&#x200B; カタログビュー設定の管理](catalog-views-manage.md)を参照してください。
 
 ## 共有カタログページ参照
 
