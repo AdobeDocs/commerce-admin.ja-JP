@@ -1,14 +1,36 @@
 ---
-source-git-commit: 8dae6d26d1c63c95388b082a931361b580eeaf22
+source-git-commit: 95b00d779518fffb4346403f2849ab9dd3d6053d
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 2%
+source-wordcount: '389'
+ht-degree: 1%
 ---
 # 新しいテンプレート
 
 ## 最新情報
 
 このセクションには、過去60日間に行われた変更が含まれます。 コピー編集などのマイナーな更新は、このリストから除外されます。
+
+### 2026年10月1日（PT）
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>説明</th>
+      <th>タイプ</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>B2B向けAdobe Commerce Optimizer コネクタのドキュメントを追加しました：<br />- <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/catalog-view-sync-status"> カタログ ビュー同期ステータス </a>および<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys">制限付きアクセス キー</a>の管理ページを追加して、B2B共有カタログ同期をAdobe Commerce Optimizerで監視および修復しました。<br />- <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/config/services/aco-restricted-access-keys">ACO制限付きアクセス キー</a>の設定の参照ページを追加しました。<br />- <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage">共有カタログの管理</a>および<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/companies/account-company-manage">会社4&rbrace;のロケールを保存で保存保存するロケールロケールをを保存保存ファイルをファイルでを保存しました。<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/site-store/store-localize"> ストアローカライゼーション </a>は、接続されたB2B共有カタログのカタログビューのインデックスをトリガーするようになりました。</a><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage"></a><br /></p>
+</td>
+      <td>
+        メジャーアップデート
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/df7cf0481d74403bb4baaaf48e0ccc735ac3af2c">コミット</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026年9月23日（PT）
 
