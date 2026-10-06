@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->カタログの強化は、舞台裏の[!DNL Commerce Catalog Agent]と[!DNL Adobe LLM Optimizer]によって強化されています。 Commerce カタログワークフローの一部としてエンリッチメントを使用します。 承認済みの名前と説明の更新を適用するために、個別のLLM Optimizer統合を管理することはありません。 Commerce以外の幅広いLLMの監視と最適化については、[LLM Optimizer製品ドキュメント ](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home)を参照してください。
+>カタログの強化は、舞台裏の[!DNL Commerce Catalog Agent]と[!DNL Adobe LLM Optimizer]によって強化されています。 Commerce カタログワークフローの一部としてエンリッチメントを使用します。 承認済みの名前と説明の更新を適用するために、個別のLLM Optimizer統合を管理することはありません。 Commerce以外の幅広いLLMの監視と最適化については、[LLM Optimizer製品ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home)を参照してください。
 
 ## 仕組み {#how-it-works}
 
@@ -68,7 +68,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 カタログのエンリッチメントにアクセスできる場合は、次の前提条件が適用されます。
 
 - ストアフロントはLLM向けおよびエージェント型のボットでクロールできます。カタログに応じた提案を行うにはクロールで対応する必要があります。
-- 必要なCommerce サービスとカタログ接続が有効になり、正常に動作します。 詳細については、[ カタログの強化を有効にする](#enable-catalog-enrichment)を参照してください。
+- 必要なCommerce サービスとカタログ接続が有効になり、正常に動作します。 詳細については、[&#x200B; カタログの強化を有効にする](#enable-catalog-enrichment)を参照してください。
 - [IMSが設定されています](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations)。
 - [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)にアクセスできます。
 - 組織が基礎となるAI サービスに対して、生成AIに乗り換えたり、明示的にオプトアウトしたりしました。
@@ -98,7 +98,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 
 カタログ エンリッチメントおよびカタログ サービス拡張機能をインストールすると、カタログ エンリッチメント機能が管理者の&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**&#x200B;で利用できるようになります。
 
-![ カタログの強化](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+![&#x200B; カタログの強化](./assets/catalog-enrichment-menu.png){zoomable="yes"}
 
 ### カタログエンリッチメントの設定
 
@@ -111,7 +111,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 
    カタログ LLM Optimizer サービスと監査ワークフローを有効にするには、[!DNL Adobe Commerce]環境の詳細を指定します。
 
-   ![ カタログエンリッチメント設定タブのCommerce設定](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
+   ![&#x200B; カタログエンリッチメント設定タブのCommerce設定](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. ストアビューに必要な接続の詳細を入力します。
 
@@ -149,7 +149,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 - **[!UICONTROL Fixed Suggestions]**：既に適用または解決済みの項目。
 - **[!UICONTROL Ignored Suggestions]**: アクションから意図的に除外した項目。
 
-![ カタログの強化](./assets/agentic-opportunities.png){zoomable="yes"}
+![&#x200B; カタログの強化](./assets/agentic-opportunities.png){zoomable="yes"}
 
 ### 承認済み提案をデプロイ {#review-deploy-catalog}
 
