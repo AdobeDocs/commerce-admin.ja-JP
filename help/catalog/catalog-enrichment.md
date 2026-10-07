@@ -8,23 +8,30 @@ autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
+    internal-label: Administration
+source-git-commit: 5764bcc6545c1696353ac445716061b009a7c106
 workflow-type: tm+mt
-source-wordcount: 2182
+source-wordcount: '2182'
 ht-degree: 0%
-
 ---
-
 # カタログの強化
 
 カタログのエンリッチメントは[!DNL Adobe Commerce]機能で、商品名と長い説明を改善することで、買い物客が商品調査や発見にLLMやAI アシスタントを使用する際に、カタログをより正確に表現できるようになります。
@@ -91,7 +98,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 
 カタログ エンリッチメントおよびカタログ サービス拡張機能をインストールすると、カタログ エンリッチメント機能が管理者の&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**&#x200B;で利用できるようになります。
 
-![&#x200B; カタログの強化](./assets/catalog-enrichment-menu.png)
+![&#x200B; カタログの強化](./assets/catalog-enrichment-menu.png){zoomable="yes"}
 
 ### カタログエンリッチメントの設定
 
@@ -104,7 +111,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 
    カタログ LLM Optimizer サービスと監査ワークフローを有効にするには、[!DNL Adobe Commerce]環境の詳細を指定します。
 
-   ![&#x200B; カタログエンリッチメント設定タブのCommerce設定](./assets/catalog-enrichment-commerce-config.png)
+   ![&#x200B; カタログエンリッチメント設定タブのCommerce設定](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. ストアビューに必要な接続の詳細を入力します。
 
@@ -142,7 +149,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 - **[!UICONTROL Fixed Suggestions]**：既に適用または解決済みの項目。
 - **[!UICONTROL Ignored Suggestions]**: アクションから意図的に除外した項目。
 
-![&#x200B; カタログの強化](./assets/agentic-opportunities.png)
+![&#x200B; カタログの強化](./assets/agentic-opportunities.png){zoomable="yes"}
 
 ### 承認済み提案をデプロイ {#review-deploy-catalog}
 
@@ -176,7 +183,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 
    製品フォームには、強化された製品名や説明が表示されます。
 
-   ![製品名](./assets/enriched-product-name.png)を強化しました
+   ![製品名](./assets/enriched-product-name.png){zoomable="yes"}を強化しました
 
 1. オプション：代わりに手動で入力した名前を保持する場合は、**[!UICONTROL Override Catalog Agent provided Product Name]**&#x200B;を選択します。
 
@@ -186,7 +193,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 
    説明の変更を適用すると、強化された説明が表示されます。
 
-   ![製品説明](./assets/enrich-product-description.png)を拡充
+   ![製品説明](./assets/enrich-product-description.png){zoomable="yes"}を拡充
 
 1. オプション：代わりに手動で入力した説明を保持する場合は、**[!UICONTROL Override Catalog Agent provided Description]**&#x200B;を選択します。
 
