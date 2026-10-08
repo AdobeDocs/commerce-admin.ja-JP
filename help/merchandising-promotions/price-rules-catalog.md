@@ -34,19 +34,19 @@ ht-degree: 0%
 ---
 # カタログ価格ルール
 
-カタログの価格設定ルールを使用して、定義された条件に基づいて、購入者に商品を割引価格で提供できます。 カタログ価格ルールでは、[ クーポンコード ](price-rules-cart-coupon.md)は使用されません。これは、商品をショッピングカートに入れる前にトリガーされるためです。
+カタログの価格設定ルールを使用して、定義された条件に基づいて、購入者に商品を割引価格で提供できます。 カタログ価格ルールでは、[&#x200B; クーポンコード &#x200B;](price-rules-cart-coupon.md)は使用されません。これは、商品をショッピングカートに入れる前にトリガーされるためです。
 
 例えば、価格ルールの条件を定義して設定し、条件が満たされると、特別な価格やプロモーション価格の商品が自動的に表示されます。 定義されたルールプロパティには、顧客グループ、製品カテゴリ、割引額または割合、製品の色、製品サイズ、またはストアで設定されたほぼすべての製品属性が含まれます。 ルールで定義した日付に自動的にプロモーションを開始および停止する価格ルールの開始日と終了日を設定できます。 保存されたルールのプロパティは、必要に応じて更新または変更できます。
 
-- ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）定義済みのルールを[動的ブロック ](../content-design/dynamic-blocks.md)にリンクして、ストアでイベントや商品を宣伝することもできます。
+- ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）定義済みのルールを[動的ブロック &#x200B;](../content-design/dynamic-blocks.md)にリンクして、ストアでイベントや商品を宣伝することもできます。
 
 - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）定期的なプロモーションの場合、プロモーションを実行するたびに、保存されたルールを手動で&#x200B;_アクティブ_&#x200B;または&#x200B;_非アクティブ_ ステータスに設定できます。
 
 ## カタログ価格ルールへのアクセス
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Catalog Price Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Catalog Price Rules]**&#x200B;に移動します。
 
-   ![ カタログ価格ルール ](./assets/price-rule-catalog.png){width="700" zoomable="yes"}
+   ![&#x200B; カタログ価格ルール &#x200B;](./assets/price-rule-catalog.png){width="700" zoomable="yes"}
 
 1. ルールのプロパティを更新：
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
    - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）リスト内のルールをクリックすると、ルール情報ページが表示されます。
 
-   ここで、ルールの設定を変更できます（[ ルールの作成](price-rules-catalog-create.md)と同様）。
+   ここで、ルールの設定を変更できます（[&#x200B; ルールの作成](price-rules-catalog-create.md)と同様）。
 
 ## フィルターオプション
 

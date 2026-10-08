@@ -53,7 +53,7 @@ Google reCAPTCHAを使用してストアを保護する方法について詳し�
 
 ## [!UICONTROL reCAPTCHA v2 ("I am not a robot")]
 
-![reCAPTCHA v2 （&quot;I am not a robot&quot;） ](./assets/recaptcha-storefront-v2-not-robot.png)<!-- zoom -->
+![reCAPTCHA v2 （&quot;I am not a robot&quot;） &#x200B;](./assets/recaptcha-storefront-v2-not-robot.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--|--|--|
@@ -61,7 +61,7 @@ Google reCAPTCHAを使用してストアを保護する方法について詳し�
 | [!UICONTROL Google API Secret Key] | web サイト | Google reCAPTCHA アカウントに関連付けられている秘密鍵。 |
 | [!UICONTROL Size] | web サイト | お客様がアカウントにログインしたときに表示されるGoogle reCAPTCHA ボックスのサイズ。 オプション：`Normal` （既定値） / `Compact` |
 | [!UICONTROL Theme] | web サイト | Google reCAPTCHA ボックスのスタイルを指定します。 オプション：`Light Theme` （既定値） / `Dark Theme` |
-| [!UICONTROL Language Code] | ストアビュー | Google reCAPTCHA テキストとメッセージに使用される言語を指定する[2文字コード ](https://developers.google.com/recaptcha/docs/language)。 |
+| [!UICONTROL Language Code] | ストアビュー | Google reCAPTCHA テキストとメッセージに使用される言語を指定する[2文字コード &#x200B;](https://developers.google.com/recaptcha/docs/language)。 |
 
 {style="table-layout:auto"}
 
@@ -75,7 +75,7 @@ Google reCAPTCHAを使用してストアを保護する方法について詳し�
 | [!UICONTROL Google API Secret Key] | web サイト | Google reCAPTCHA アカウントに関連付けられている秘密鍵。 |
 | [!UICONTROL Invisible Badge Position] | web サイト | 各ページの非表示のreCAPTCHA バッジの位置。 オプション：`Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | グローバル | Google reCAPTCHA ボックスのスタイルを指定します。 オプション：`Light Theme` （既定値） / `Dark Theme` |
-| [!UICONTROL Language Code] | ストアビュー | Google reCAPTCHA テキストとメッセージに使用される言語を指定する[2文字コード ](https://developers.google.com/recaptcha/docs/language)。 |
+| [!UICONTROL Language Code] | ストアビュー | Google reCAPTCHA テキストとメッセージに使用される言語を指定する[2文字コード &#x200B;](https://developers.google.com/recaptcha/docs/language)。 |
 
 {style="table-layout:auto"}
 
@@ -90,7 +90,7 @@ Google reCAPTCHAを使用してストアを保護する方法について詳し�
 | [!UICONTROL Minimum Score Threshold] | グローバル | ユーザーインタラクションを潜在的なリスクとして特定する最小スコア。1.0は典型的なユーザーインタラクション、0.0はボットである可能性が高い。 既定：`0.5` |
 | [!UICONTROL Invisible Badge Position] | web サイト | 各ページの非表示のreCAPTCHA バッジの位置。 オプション：`Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | web サイト | Google reCAPTCHA ボックスのスタイルを指定します。 オプション：`Light Theme` （既定値） / `Dark Theme` |
-| [!UICONTROL Language Code] | ストアビュー | Google reCAPTCHA テキストとメッセージに使用される言語を指定する[2文字コード ](https://developers.google.com/recaptcha/docs/language)。 |
+| [!UICONTROL Language Code] | ストアビュー | Google reCAPTCHA テキストとメッセージに使用される言語を指定する[2文字コード &#x200B;](https://developers.google.com/recaptcha/docs/language)。 |
 
 {style="table-layout:auto"}
 
@@ -108,14 +108,14 @@ Google reCAPTCHAを使用してストアを保護する方法について詳し�
 | [!UICONTROL Minimum Score Threshold] | web サイト | ユーザーインタラクションを潜在的なリスクとして特定する最小スコア。1.0は典型的なユーザーインタラクション、0.0はボットである可能性が高い。 既定：`0.5` |
 | [!UICONTROL Badge Position] | web サイト | 各ページの非表示のreCAPTCHA バッジの位置。 オプション：`Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | web サイト | Google reCAPTCHA ボックスのスタイルを指定します。 オプション：`Light Theme` （既定値） / `Dark Theme` |
-| [!UICONTROL Language Code] | ストアビュー | Google reCAPTCHA テキストとメッセージに使用される言語を指定する[2文字コード ](https://developers.google.com/recaptcha/docs/language)。 ユーザーのブラウザーのデフォルト言語を使用するには、フィールドを空白のままにします。 |
+| [!UICONTROL Language Code] | ストアビュー | Google reCAPTCHA テキストとメッセージに使用される言語を指定する[2文字コード &#x200B;](https://developers.google.com/recaptcha/docs/language)。 ユーザーのブラウザーのデフォルト言語を使用するには、フィールドを空白のままにします。 |
 | [!UICONTROL Validation Failure Message] | ストアビュー | 検証が失敗したときに表示されるメッセージ。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA Failure Messages]
 
-![失敗メッセージ ](./assets/recaptcha-storefront-failure-messages.png)<!-- zoom -->
+![失敗メッセージ &#x200B;](./assets/recaptcha-storefront-failure-messages.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--|--|--|
@@ -126,7 +126,7 @@ Google reCAPTCHAを使用してストアを保護する方法について詳し�
 
 ## [!UICONTROL Storefront]
 
-![ ストアフロント ](./assets/recaptcha-storefront.png)<!-- zoom -->
+![&#x200B; ストアフロント &#x200B;](./assets/recaptcha-storefront.png)<!-- zoom -->
 
 >[!NOTE]
 >
@@ -138,19 +138,19 @@ Google reCAPTCHAを使用してストアを保護する方法について詳し�
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--|--|--|
-| [!UICONTROL Enable for Customer Login] | web サイト | 顧客[がアカウントにサインイン ](../../customers/customer-sign-in.md)したときに使用されるreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）ログイン要求を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
-| [!UICONTROL Enable for Forgot Password] | web サイト | 顧客が[ パスワードリセット ](../../customers/password-reset.md)をリクエストするときに使用するreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）パスワード リセット リクエストを検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
-| [!UICONTROL Enable for Create New Customer Account] | web サイト | お客様が[新しいアカウント ](../../customers/account-create.md)にサインアップするときに使用するreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）アカウント要求を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
-| [!UICONTROL Enable for Edit Customer Account] | web サイト | 顧客が[ アカウント情報](../../customers/account-dashboard-account-information.md)を変更する際に使用するreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）アカウント要求を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
-| [!UICONTROL Enable for Create New Company Account] | web サイト | ![Adobe Commerce B2B](../../assets/b2b.svg) （Adobe Commerce B2Bでのみ使用可能）新しい[会社アカウント ](../../b2b/account-company-create.md)を作成するときに使用するreCAPTCHAの種類を指定します。 オプション：<br/>**`No`**- （デフォルト）アカウント要求を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
+| [!UICONTROL Enable for Customer Login] | web サイト | 顧客[がアカウントにサインイン &#x200B;](../../customers/customer-sign-in.md)したときに使用されるreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）ログイン要求を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
+| [!UICONTROL Enable for Forgot Password] | web サイト | 顧客が[&#x200B; パスワードリセット &#x200B;](../../customers/password-reset.md)をリクエストするときに使用するreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）パスワード リセット リクエストを検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
+| [!UICONTROL Enable for Create New Customer Account] | web サイト | お客様が[新しいアカウント &#x200B;](../../customers/account-create.md)にサインアップするときに使用するreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）アカウント要求を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
+| [!UICONTROL Enable for Edit Customer Account] | web サイト | 顧客が[&#x200B; アカウント情報](../../customers/account-dashboard-account-information.md)を変更する際に使用するreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）アカウント要求を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
+| [!UICONTROL Enable for Create New Company Account] | web サイト | ![Adobe Commerce B2B](../../assets/b2b.svg) （Adobe Commerce B2Bでのみ使用可能）新しい[会社アカウント &#x200B;](../../b2b/account-company-create.md)を作成するときに使用するreCAPTCHAの種類を指定します。 オプション：<br/>**`No`**- （デフォルト）アカウント要求を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
 | [!UICONTROL Enable for Contact Us] | web サイト | ストアの[お問い合わせ](../../getting-started/store-details.md#contact-us-form) ページからメッセージを送信するために使用するreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）メッセージリクエストを検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
 | [!UICONTROL Enable for Product Review] | web サイト | 顧客が[製品レビュー](../../merchandising-promotions/product-reviews.md)を送信するときに使用するreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）製品レビューリクエストを検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
-| [!UICONTROL Enable for Newsletter Subscription] | web サイト | 顧客が[ ニュースレターのサブスクリプションにサインアップする際に使用される非表示のreCAPTCHAのタイプを指定します](../../merchandising-promotions/newsletter-subscribers.md)。 オプション：<br/>**`No`**- （デフォルト）ニュースレター購読リクエストを検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
-| [!UICONTROL Enable for Gift Card] | web サイト | ![Adobe Commerce](../../assets/adobe-logo.svg) （Adobe Commerceのみ）お客様が[ ギフトカード ](../../catalog/product-gift-card-create.md) コードを入力したときに使用されるreCAPTCHAの種類を指定します。 オプション：<br/>**`No`**- （デフォルト）ギフトカードコードの送信が検証されません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでのユーザー行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
+| [!UICONTROL Enable for Newsletter Subscription] | web サイト | 顧客が[&#x200B; ニュースレターのサブスクリプションにサインアップする際に使用される非表示のreCAPTCHAのタイプを指定します](../../merchandising-promotions/newsletter-subscribers.md)。 オプション：<br/>**`No`**- （デフォルト）ニュースレター購読リクエストを検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
+| [!UICONTROL Enable for Gift Card] | web サイト | ![Adobe Commerce](../../assets/adobe-logo.svg) （Adobe Commerceのみ）お客様が[&#x200B; ギフトカード &#x200B;](../../catalog/product-gift-card-create.md) コードを入力したときに使用されるreCAPTCHAの種類を指定します。 オプション：<br/>**`No`**- （デフォルト）ギフトカードコードの送信が検証されません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでのユーザー行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
 | [!UICONTROL Enable for Invitation Create Account] | web サイト | 顧客がアカウント作成[招待状](../../merchandising-promotions/invitations.md) コードを送信するときに使用するreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）招待メール送信が検証されません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでのユーザー行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
 | [!UICONTROL Enable for Send to Friend] | web サイト | 顧客[が製品](../../stores-purchase/email-a-friend.md)を友人と共有する際に使用するreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）電子メール送信が検証されません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
-| [!UICONTROL Enable for Wishlist Sharing] | web サイト | 顧客[がウィッシュリスト ](../../stores-purchase/wishlist-storefront.md#share-the-wish-list)を共有する際に使用されるreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）メッセージとメール送信が検証されません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでのユーザー行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
-| [!UICONTROL Enable for Coupon Codes] | web サイト | 顧客が[ クーポンコード ](../../merchandising-promotions/price-rules-cart-coupon.md)を入力したときに使用されるreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （既定値）クーポンコードの送信を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでのユーザー行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
+| [!UICONTROL Enable for Wishlist Sharing] | web サイト | 顧客[がウィッシュリスト &#x200B;](../../stores-purchase/wishlist-storefront.md#share-the-wish-list)を共有する際に使用されるreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）メッセージとメール送信が検証されません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでのユーザー行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
+| [!UICONTROL Enable for Coupon Codes] | web サイト | 顧客が[&#x200B; クーポンコード &#x200B;](../../merchandising-promotions/price-rules-cart-coupon.md)を入力したときに使用されるreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （既定値）クーポンコードの送信を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでのユーザー行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
 | [!UICONTROL Enable for PayPal Payflow Pro payment form] | web サイト | 顧客が[PayPal Payflow Pro](../../stores-purchase/paypal-payflow-pro.md)で購入した場合に使用されるreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）パスワード リセット リクエストを検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
 | [!UICONTROL Enable for Presigned Upload] | web サイト | [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"} ストアフロントファイルのアップロード用に事前署名済みURLを生成する[`initiateUpload` GraphQLの突然変異](https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload)に対するリクエストを検証するためにreCAPTCHAを使用するかどうかを決定します。 有効な場合、各リクエストには、有効なreCAPTCHA トークンを`X-ReCaptcha` ヘッダーに含める必要があります。 トークンが見つからないか無効なリクエストは失敗し、アップロード URLは発行されません。 オプション：<br/>**`No`**- （デフォルト）アップロード要求を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
 
