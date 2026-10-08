@@ -6,40 +6,49 @@ feature: Merchandising, Price Rules, Catalog Management
 TQID: https://experienceleague.adobe.com/rX7YtAYqk0z8140ueglCAzHQUeC2Y-lwRywB5uDdNG4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: 6d1de809dfbdccea260fb7d5f8963a5c20cde15c
 workflow-type: tm+mt
-source-wordcount: 1730
+source-wordcount: '1807'
 ht-degree: 0%
-
 ---
-
 # カタログ価格ルールの作成
 
 次の手順に従って、一連の条件が満たされたときに、特定の製品に割引を適用します。 カタログ価格ルールの割引は、商品をショッピングカートに入れる前に有効になります。
 
 ## 手順1：ルールの追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Catalog Price Rule]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Catalog Price Rule]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Rule]**」をクリックします。
 
-   _[!UICONTROL Rule Information]_&#x200B;セクションには、**[!UICONTROL Conditions]**&#x200B;および&#x200B;**[!UICONTROL Actions]**&#x200B;の拡張可能なセクションが含まれています。
+   _[!UICONTROL Rule Information]_セクションには、**[!UICONTROL Conditions]**および&#x200B;**[!UICONTROL Actions]**の拡張可能なセクションが含まれています。
 
-   ![&#x200B; カタログ価格ルール – 情報](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
+   ![ カタログ価格ルール – 情報](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL Rule Name]**&#x200B;と&#x200B;**[!UICONTROL Description]**&#x200B;のフィールドに入力します。
 
@@ -58,13 +67,17 @@ ht-degree: 0%
    - 選択できるオプションは、_顧客_ > _顧客グループ_&#x200B;で作成および管理されている顧客グループによって異なります。
    - 複数のグループを選択するには、Ctrl キー（PC）またはCommand キー（Mac）を押しながら、各オプションをクリックします。
 
-1. ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）価格ルールが有効かどうかを判断するには、**[!UICONTROL From]**&#x200B;および&#x200B;**[!UICONTROL To]**&#x200B;日付を入力します。
+1. 価格ルールのスケジュールを設定します。
 
-   日付を入力するか、**[!UICONTROL Calendar]** （![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）を使用して日付を選択できます。 日付を空白のままにすると、価格ルールが保存されたときにルールが有効になります。
+   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）価格ルールが有効かどうかを判断するには、**[!UICONTROL From]**&#x200B;および&#x200B;**[!UICONTROL To]**&#x200B;日付を入力します。
+
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （[!DNL Adobe Commerce as a Cloud Service]のみ）価格ルールの開始と終了を判断するには、**[!UICONTROL From]**&#x200B;と&#x200B;**[!UICONTROL To]**&#x200B;の日付と時刻を入力します。
+
+   値を入力するか、**[!UICONTROL Calendar]** （![ カレンダーアイコン ](../assets/icon-calendar.png)）を使用して値を選択できます。
 
    >[!NOTE]
    >
-   >`From`および`To` フィールドは、Adobe Commerceのカタログ価格ルール設定ページから削除されました。カタログ価格ルールで直接変更することはできません。 価格ルールのアクティブ化のスケジュールを設定するには、スケジュールされた更新を作成する必要があります。
+   >Adobe Commerce on Cloudおよびオンプレミス プロジェクトの場合、`From`および`To` フィールドはカタログ価格ルール設定ページで使用できません。 価格ルールのアクティブ化のスケジュールを設定するには、[ スケジュール済みの更新](#step-5-schedule-the-rule)を作成する必要があります。
 
 1. このルールの&#x200B;**[!UICONTROL Priority]**&#x200B;を他のルールに関連して確立する番号を入力します。
 
@@ -76,7 +89,7 @@ ht-degree: 0%
 
 - 少なくとも1つの条件付き製品属性に空の値がある場合、カタログ価格ルールは製品に適用されません。
 
-- バンドルまたはグループ化された製品に`[!UICONTROL Category]`個の製品属性条件を追加した場合、すべての子品目が同じカテゴリを共有する場合にのみ、価格ルールが正しく適用されます。 子アイテムが同じカテゴリにない場合は、代わりに[買い物かご価格ルール &#x200B;](price-rules-cart-create.md)のプロモーションを使用してください。」
+- バンドルまたはグループ化された製品に`[!UICONTROL Category]`個の製品属性条件を追加した場合、すべての子品目が同じカテゴリを共有する場合にのみ、価格ルールが正しく適用されます。 子アイテムが同じカテゴリにない場合は、代わりに[買い物かご価格ルール ](price-rules-cart-create.md)のプロモーションを使用してください。」
 
 1. 下にスクロールして、**[!UICONTROL Conditions]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
@@ -84,7 +97,7 @@ ht-degree: 0%
 
    `If **ALL** of these conditions are **TRUE**:`
 
-   ![&#x200B; カタログ価格ルール – 条件行1](./assets/catalog-condition1.png){width="400"}
+   ![ カタログ価格ルール – 条件行1](./assets/catalog-condition1.png){width="400"}
 
    ステートメントには2つの太字のリンクがあり、クリックすると、ステートメントのその部分のオプションの選択範囲を表示できます。 これらの値の組み合わせを変更することで、異なる条件を作成できます。
 
@@ -96,13 +109,13 @@ ht-degree: 0%
 
    これらの値の組み合わせを変更することで、異なる条件を作成できます。 この例では、デフォルトの条件が使用されます。
 
-1. 次の行の先頭にある&#x200B;_追加_ （![追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）アイコンをクリックし、製品属性や組み合わせなどの条件のオプションを選択します。
+1. 次の行の先頭にある&#x200B;_追加_ （![追加アイコン ](../assets/icon-add-green-circle.png)）アイコンをクリックし、製品属性や組み合わせなどの条件のオプションを選択します。
 
 1. **[!UICONTROL Product Attribute]**&#x200B;の下のリストで、条件のベースとして使用する属性を選択します。
 
    この例では、条件は`Attribute Set`です。
 
-   ![&#x200B; カタログ価格ルール – 条件行2](./assets/catalog-condition2.png){width="400"}
+   ![ カタログ価格ルール – 条件行2](./assets/catalog-condition2.png){width="400"}
 
    >[!NOTE]
    >
@@ -124,26 +137,26 @@ ht-degree: 0%
 
    条件に応じて、グリッドやリストから商品を選択したり、数値を入力したりできます。
 
-   ![&#x200B; カタログ価格ルール – 条件行2](./assets/catalog-condition3.png){width="400"}
+   ![ カタログ価格ルール – 条件行2](./assets/catalog-condition3.png){width="400"}
 
    選択した項目がステートメントに表示され、条件が完了します。
 
    `If **ALL** of these conditions are **TRUE**: <br/> Attribute Set **is Default**`
 
-1. ステートメントに別の条件行を追加するには、_追加_ （![追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）アイコンをクリックし、次のいずれかを選択します。
+1. ステートメントに別の条件行を追加するには、_追加_ （![追加アイコン ](../assets/icon-add-green-circle.png)）アイコンをクリックし、次のいずれかを選択します。
 
    - `Conditions Combination`
    - `Product Attribute`
 
    必要な条件がすべて完了するまで、このプロセスを繰り返します。
 
-   条件ステートメントの一部を削除する場合は、行の最後にある&#x200B;**[!UICONTROL Delete]** （![削除アイコン &#x200B;](../assets/icon-delete-red-circle.png) アイコン）をクリックします。
+   条件ステートメントの一部を削除する場合は、行の最後にある&#x200B;**[!UICONTROL Delete]** （![削除アイコン ](../assets/icon-delete-red-circle.png) アイコン）をクリックします。
 
 ## 手順3：アクションの定義
 
 1. ![拡張セレクター](../assets/icon-display-expand.png) 「**[!UICONTROL Actions]**」セクションを展開し、次の操作を行います。
 
-   ![&#x200B; カタログ価格ルール – アクション &#x200B;](./assets/price-rule-catalog-actions.png){width="600" zoomable="yes"}
+   ![ カタログ価格ルール – アクション ](./assets/price-rule-catalog-actions.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Pricing Structure Rules]**&#x200B;で、**[!UICONTROL Apply]**&#x200B;を次のいずれかに設定します。
 
@@ -174,7 +187,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-条件が満たされるたびに、カタログ価格ルールに関連付けられている[動的ブロック &#x200B;](../content-design/dynamic-blocks.md)がストアフロントに表示されます。 これはオプションの手順です。
+条件が満たされるたびに、カタログ価格ルールに関連付けられている[動的ブロック ](../content-design/dynamic-blocks.md)がストアフロントに表示されます。 これはオプションの手順です。
 
 1. ![拡張セレクター](../assets/icon-display-expand.png) 「**[!UICONTROL Related Dynamic Blocks]**」セクションを展開します。
 
@@ -182,7 +195,7 @@ ht-degree: 0%
 
 1. 最初の列のチェックボックスを選択して、ダイナミックブロックをルールに関連付けます。
 
-   ![&#x200B; カタログ価格ルール – 関連する動的ブロック &#x200B;](./assets/price-rule-catalog-related-dynamic-blocks.png){width="600" zoomable="yes"}
+   ![ カタログ価格ルール – 関連する動的ブロック ](./assets/price-rule-catalog-related-dynamic-blocks.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save and Continue Edit]**&#x200B;をクリックします。
 
@@ -202,9 +215,9 @@ ht-degree: 0%
 
 1. ルールをスケジュールするには、価格ルールをアクティブにする&#x200B;**[!UICONTROL Start Date]**&#x200B;と&#x200B;**[!UICONTROL End Date]**&#x200B;を入力します。
 
-   日付を入力するか、_カレンダー_ （![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）から日付を選択できます。
+   日付を入力するか、_カレンダー_ （![ カレンダーアイコン ](../assets/icon-calendar.png)）から日付を選択できます。
 
-   ![&#x200B; カタログ価格ルール – スケジュールの更新](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
+   ![ カタログ価格ルール – スケジュールの更新](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -220,23 +233,25 @@ ht-degree: 0%
 
      ルール情報ページには、ルールのスケジュール済み変更に更新されたタイムラインが表示されます。
 
-     ![&#x200B; カタログ価格ルール – スケジュールされた変更](./assets/price-rule-scheduled-changes-updated.png){width="600" zoomable="yes"}
+     ![ カタログ価格ルール – スケジュールされた変更](./assets/price-rule-scheduled-changes-updated.png){width="600" zoomable="yes"}
 
 1. ルールのプロパティを更新：
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **[!UICONTROL Edit]**&#x200B;をクリックして、_[!UICONTROL Rule Information]_&#x200B;ページを表示します。
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） **[!UICONTROL Edit]**&#x200B;をクリックして、_[!UICONTROL Rule Information]_ページを表示します。
 
-   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）リスト内のルールをクリックすると、_[!UICONTROL Rule Information]_&#x200B;ページが表示されます。
+   - ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）リスト内のルールをクリックすると、_[!UICONTROL Rule Information]_ページが表示されます。
 
 1. ルールをテストして、正しく動作することを確認します。
 
    価格ルールは、毎晩他のシステムルールで自動的に処理されます。 価格ルールを作成する場合は、ルールをテストして正しく動作することを確認する前に、システムに取り込むのに十分な時間を確保してください。 新しいルールが追加されると、Commerceでは、それに応じて価格と優先順位が再計算されます。
 
+   [!DNL Adobe Commerce as a Cloud Service]で、Commerceは開始時間または終了時間に達したアクティブなルールを毎分チェックし、影響を受ける商品の価格を更新します。
+
 ## カタログ価格ルールのデモ
 
 このビデオでは、カタログ価格ルールの作成について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410850?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## フィールドの説明
 
@@ -250,8 +265,8 @@ ht-degree: 0%
 | [!UICONTROL Customer Groups] | （必須）ルールが適用される顧客グループを識別します。 |
 | [!UICONTROL Priority] | このルールの他のルールに対する優先度を示す数値。 最上位から最下位までの優先度は`0,1,2,3...`です |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）ルールがストアでアクティブかどうかを判断します。 オプション：`Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）価格ルールが有効になっている最初の日を指定します。 空白のままにすると、プライスルールは保存時に有効になります。 |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）価格ルールが有効になっている最終日を指定します。 空白のままにすると、価格規則は無期限に続きます。 |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）価格ルールが有効になっている最初の日を指定します。 空白のままにすると、プライスルールは保存時に有効になります。<br><br>![Adobe Commerce](../assets/adobe-logo.svg) （[!DNL Adobe Commerce as a Cloud Service]のみ）価格ルールが適用される日時を指定します。 空白のままにすると、プライスルールは保存時に有効になります。 |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）価格ルールが有効になっている最終日を指定します。 空白のままにすると、価格規則は無期限に続きます。<br><br>![Adobe Commerce](../assets/adobe-logo.svg) （[!DNL Adobe Commerce as a Cloud Service]のみ）価格ルールが終了する日時を指定します。 空白のままにすると、価格規則は無期限に続きます。 |
 
 {style="table-layout:auto"}
 
@@ -273,4 +288,4 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-ルールに関連付けられている[動的ブロック &#x200B;](../content-design/dynamic-blocks.md)を識別します。
+ルールに関連付けられている[動的ブロック ](../content-design/dynamic-blocks.md)を識別します。
