@@ -45,7 +45,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Google reCAPTCHAを設定する前に、`PHP.ini` ファイルに次の設定が含まれていることを確認する必要があります：`allow_url_fopen = 1`。 これには開発者のサポートが必要になる場合があります。 _インストールガイド_&#x200B;の[PHP設定](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)を参照してください。
+>Google reCAPTCHAを設定する前に、`PHP.ini` ファイルに次の設定が含まれていることを確認する必要があります：`allow_url_fopen = 1`。 これには開発者のサポートが必要になる場合があります。 _インストールガイド_&#x200B;の[PHP設定](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/prerequisites/php-settings)を参照してください。
 
 {{config}}
 
@@ -96,7 +96,7 @@ Google reCAPTCHAを使用してストアを保護する方法について詳し�
 
 ## [!UICONTROL reCAPTCHA Enterprise]
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
 
 ![reCAPTCHA v3 Enterprise](./assets/recaptcha-storefront-v3-enterprise.png)<!-- zoom -->
 
@@ -152,6 +152,6 @@ Google reCAPTCHAを使用してストアを保護する方法について詳し�
 | [!UICONTROL Enable for Wishlist Sharing] | web サイト | 顧客[がウィッシュリスト &#x200B;](../../stores-purchase/wishlist-storefront.md#share-the-wish-list)を共有する際に使用されるreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）メッセージとメール送信が検証されません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでのユーザー行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
 | [!UICONTROL Enable for Coupon Codes] | web サイト | 顧客が[&#x200B; クーポンコード &#x200B;](../../merchandising-promotions/price-rules-cart-coupon.md)を入力したときに使用されるreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （既定値）クーポンコードの送信を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでのユーザー行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
 | [!UICONTROL Enable for PayPal Payflow Pro payment form] | web サイト | 顧客が[PayPal Payflow Pro](../../stores-purchase/paypal-payflow-pro.md)で購入した場合に使用されるreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）パスワード リセット リクエストを検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
-| [!UICONTROL Enable for Presigned Upload] | web サイト | [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"} ストアフロントファイルのアップロード用に事前署名済みURLを生成する[`initiateUpload` GraphQLの突然変異](https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload)に対するリクエストを検証するためにreCAPTCHAを使用するかどうかを決定します。 有効な場合、各リクエストには、有効なreCAPTCHA トークンを`X-ReCaptcha` ヘッダーに含める必要があります。 トークンが見つからないか無効なリクエストは失敗し、アップロード URLは発行されません。 オプション：<br/>**`No`**- （デフォルト）アップロード要求を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
+| [!UICONTROL Enable for Presigned Upload] | web サイト | [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"} ストアフロントファイルのアップロード用に事前署名済みURLを生成する[`initiateUpload` GraphQLの突然変異](https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload)に対するリクエストを検証するためにreCAPTCHAを使用するかどうかを決定します。 有効な場合、各リクエストには、有効なreCAPTCHA トークンを`X-ReCaptcha` ヘッダーに含める必要があります。 トークンが見つからないか無効なリクエストは失敗し、アップロード URLは発行されません。 オプション：<br/>**`No`**- （デフォルト）アップロード要求を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
 
 {style="table-layout:auto"}
