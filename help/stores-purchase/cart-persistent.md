@@ -49,13 +49,13 @@ ht-degree: 0%
 
 永続的なショッピングカートが[有効](#configure-a-persistent-cart)の場合、ワークフローは次の要素に依存します。
 
-- _[!UICONTROL Enable Remember Me]_および_[!UICONTROL Clear Persistence on Log Out]_&#x200B;設定の値
-- _[!UICONTROL Remember Me]_チェックボックスを選択またはクリアするお客様の決定
+- _[!UICONTROL Enable Remember Me]_&#x200B;および&#x200B;_[!UICONTROL Clear Persistence on Log Out]_&#x200B;設定の値
+- _[!UICONTROL Remember Me]_&#x200B;チェックボックスを選択またはクリアするお客様の決定
 - 永続的なCookieがクリアされると
 
 顧客セッションの有効期限が切れると、次の条件で`Not Jane Smith?` リンクがページヘッダーに表示されます。
-- ログインしたお客様が&#x200B;_[!UICONTROL Remember Me]_オプションを選択し、永続的なCookieが適用されます
-- システムが&#x200B;_[!UICONTROL Clear Persistence on Sign Out]_で`No`に設定されている場合、お客様はログアウトします。
+- ログインしたお客様が&#x200B;_[!UICONTROL Remember Me]_&#x200B;オプションを選択し、永続的なCookieが適用されます
+- システムが&#x200B;_[!UICONTROL Clear Persistence on Sign Out]_&#x200B;で`No`に設定されている場合、お客様はログアウトします。
 
 ログインセッションの有効期限が切れた場合でも、現在のデバイスにショッピングカートの内容の記録が保持されます。 `Not Jane Smith?` リンクを使用すると、お客様は永続的なセッションを終了してゲストとして作業を開始したり、別の顧客または同じ顧客としてログインしたりできます。
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ### &quot;Remember Me&quot; チェックボックスの動作
 
-顧客は、ログインページ、認証ポップアップ、チェックアウトサインイン、または新しいアカウントを作成する際に&#x200B;_[!UICONTROL Remember Me]_チェックボックスを選択して、ログインセッションの有効期限が切れたときに現在のデバイスでショッピングカートの内容にアクセスできるようにすることができます。
+顧客は、ログインページ、認証ポップアップ、チェックアウトサインイン、または新しいアカウントを作成する際に&#x200B;_[!UICONTROL Remember Me]_&#x200B;チェックボックスを選択して、ログインセッションの有効期限が切れたときに現在のデバイスでショッピングカートの内容にアクセスできるようにすることができます。
 
 | 覚えてる？ | 結果 |
 | ------------ |  ------ |
@@ -78,9 +78,9 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![ ログイン情報を記憶](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
+![&#x200B; ログイン情報を記憶](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
 ![認証ポップアップを記憶する](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
-![ チェックアウトのログイン情報を記憶](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
+![&#x200B; チェックアウトのログイン情報を記憶](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
 
 ### ログアウト動作の永続性をクリア
 

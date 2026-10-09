@@ -37,7 +37,7 @@ ht-degree: 0%
 ---
 # 製品ごとにソースを割り当てる
 
-数量と設定を変更する前に、製品に[ ソース ](sources-manage.md)を割り当てる必要があります。
+数量と設定を変更する前に、製品に[&#x200B; ソース &#x200B;](sources-manage.md)を割り当てる必要があります。
 
 {{$include /help/_includes/unassign-source.md}}
 
@@ -55,11 +55,11 @@ ht-degree: 0%
    >
    >現在、シンプル、設定可能、仮想、ダウンロード可能、およびグループ化された製品のみが複数のソースをサポートしています。 バンドル商品は、デフォルトのSourceとStockでのみ作成および管理できます。
 
-   ![製品ソースセクション ](assets/inventory-product-sources-before.png){width="600" zoomable="yes"}
+   ![製品ソースセクション &#x200B;](assets/inventory-product-sources-before.png){width="600" zoomable="yes"}
 
 1. ソースを追加するには、**[!UICONTROL Assign Sources]**&#x200B;をクリックします。
 
-1. _[!UICONTROL Assign Sources]_ページで、製品に割り当てる各ソースの横にあるチェックボックスを選択します。
+1. _[!UICONTROL Assign Sources]_&#x200B;ページで、製品に割り当てる各ソースの横にあるチェックボックスを選択します。
 
    ![製品 – ソースの割り当て](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 1. 保存するには、次のいずれかの操作を行います。
 
    - **[!UICONTROL Save]**&#x200B;をクリックします。
-   - _[!UICONTROL Save]_（![ メニュー矢印](../assets/icon-menu-down-arrow-red.png)）メニューで、**[!UICONTROL Save & Close]**を選択します。
+   - _[!UICONTROL Save]_（![&#x200B; メニュー矢印](../assets/icon-menu-down-arrow-red.png)）メニューで、**[!UICONTROL Save & Close]**&#x200B;を選択します。
 
 ソースを割り当てたら、各製品ソースの[在庫量](quantities-assign-per-product.md)を更新します。
 

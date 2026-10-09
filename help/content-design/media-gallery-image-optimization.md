@@ -38,11 +38,11 @@ ht-degree: 0%
 ---
 # メディアギャラリー画像の最適化
 
-新しい[ メディアギャラリー](media-gallery.md)では、_画像最適化_&#x200B;機能が提供され、ストアフロントのパフォーマンスが向上し、メディアファイルのサイズが小さくなります。 この最適化はデフォルトで有効になっており、ストア設定で変更できます。
+新しい[&#x200B; メディアギャラリー](media-gallery.md)では、_画像最適化_&#x200B;機能が提供され、ストアフロントのパフォーマンスが向上し、メディアファイルのサイズが小さくなります。 この最適化はデフォルトで有効になっており、ストア設定で変更できます。
 
 ## 画像の最適化の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL System]**&#x200B;を選択します。
 
@@ -53,11 +53,11 @@ ht-degree: 0%
 
 ## 動作
 
-メディアギャラリーの画像最適化機能が有効になっている場合、最適化された画像のコピーが、元のファイルではなく[ メディアギャラリー](media-gallery.md)のコンテンツに自動的に挿入されます。
+メディアギャラリーの画像最適化機能が有効になっている場合、最適化された画像のコピーが、元のファイルではなく[&#x200B; メディアギャラリー](media-gallery.md)のコンテンツに自動的に挿入されます。
 
 設定で&#x200B;_最大幅_&#x200B;と&#x200B;_最大高さ_&#x200B;の値が変更されると、以前に挿入された既存の最適化された画像がすべて更新されます。
 
-Media Gallery Image Optimizationでは、構成が変更されたときに最適化された画像を再生成するために、`media.gallery.renditions.update` キューのコンシューマーが実行されている必要があります。 詳しくは、_設定ガイド_&#x200B;の「[ メッセージキューの管理](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)」を参照してください。
+Media Gallery Image Optimizationでは、構成が変更されたときに最適化された画像を再生成するために、`media.gallery.renditions.update` キューのコンシューマーが実行されている必要があります。 詳しくは、_設定ガイド_&#x200B;の「[&#x200B; メッセージキューの管理](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)」を参照してください。
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}
 

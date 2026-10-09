@@ -39,7 +39,7 @@ ht-degree: 0%
 
 _ソースの割り当て_ ツールを使用して、1つ以上のソースを製品に追加します。 このツールは、デフォルトの在庫またはカスタム在庫にカスタムソースを作成して割り当て、新しい場所と在庫を準備する際に役立ちます。
 
-新しいカスタムソースを追加した後、管理者を通じて、または[ インポート機能](inventory-import-export.md)を使用して、製品ごとに[在庫量](quantities-assign-per-product.md)または複数の製品に対して追加できます。
+新しいカスタムソースを追加した後、管理者を通じて、または[&#x200B; インポート機能](inventory-import-export.md)を使用して、製品ごとに[在庫量](quantities-assign-per-product.md)または複数の製品に対して追加できます。
 
 ![選択した製品の在庫ソースを追加](assets/inventory-bulk-assign-sources.gif)
 
@@ -59,7 +59,7 @@ _ソースの割り当て_ ツールを使用して、1つ以上のソースを�
 
 1. **[!UICONTROL Assign Sources]**&#x200B;をクリックします。
 
-   ![ ソースを追加する製品を選択](assets/inventory-bulk-assign-sources-summary.png){width="600" zoomable="yes"}
+   ![&#x200B; ソースを追加する製品を選択](assets/inventory-bulk-assign-sources-summary.png){width="600" zoomable="yes"}
 
 在庫量が0の商品にソースが追加されます。 ソースごとに[在庫量](quantities-assign-per-product.md)を追加できます。
 
