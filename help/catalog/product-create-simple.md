@@ -3,49 +3,59 @@ title: 簡易商品
 description: 個別に、またはグループ化、設定可能、またはバンドル製品の一部として販売できるシンプルな製品を作成する方法を説明します。
 exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/2olR82TlKdkHM3KSRFcOGzeotunoVG1oD2ZRJGdXe9s
+last-update: 2023-05-22
+TQID: 'https://experienceleague.adobe.com/2olR82TlKdkHM3KSRFcOGzeotunoVG1oD2ZRJGdXe9s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-last-update: 2023-05-22
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+    internal-label: Administration
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
-source-wordcount: 607
+source-wordcount: '607'
 ht-degree: 0%
-
 ---
-
 # 簡易商品
 
 商品タイプの力を活用する鍵のひとつは、シンプルなスタンドアロン商品の使い方を学ぶことです。 シンプルな商品は、個別に販売することも、グループ化された商品、設定可能な商品、バンドル商品の一部として販売することもできます。 カスタムオプションを含むシンプルな製品は、_複合製品_&#x200B;と呼ばれることもあります。
 
-次の手順では、[製品テンプレート &#x200B;](attribute-sets.md)、必須フィールド、および基本設定を使用してシンプルな製品を作成するプロセスを示します。 各必須フィールドには、赤いアスタリスク （`*`）が付いています。 基本的な設定が完了したら、必要に応じて他の製品設定を完了できます。
+次の手順では、[製品テンプレート ](attribute-sets.md)、必須フィールド、および基本設定を使用してシンプルな製品を作成するプロセスを示します。 各必須フィールドには、赤いアスタリスク （`*`）が付いています。 基本的な設定が完了したら、必要に応じて他の製品設定を完了できます。
 
-![&#x200B; シンプルな製品](./assets/product-simple.png){width="700" zoomable="yes"}
+![ シンプルな製品](./assets/product-simple.png){width="700" zoomable="yes"}
 
 ## 手順1：商品タイプの選択
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]** > **[!UICONTROL Products]**&#x200B;に移動します。
 
-1. 右上の&#x200B;_[!UICONTROL Add Product]_（![&#x200B; メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューで、**[!UICONTROL Simple Product]**&#x200B;を選択します。
+1. 右上の&#x200B;_[!UICONTROL Add Product]_（![ メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューで、**[!UICONTROL Simple Product]**を選択します。
 
-   ![&#x200B; シンプルな製品を追加](./assets/product-add-simple.png){width="700" zoomable="yes"}
+   ![ シンプルな製品を追加](./assets/product-add-simple.png){width="700" zoomable="yes"}
 
 ## 手順2：属性セットの選択
 
-製品のテンプレートとして使用される[属性セット &#x200B;](attribute-sets.md)を選択するには：
+製品のテンプレートとして使用される[属性セット ](attribute-sets.md)を選択するには：
 
 - **[!UICONTROL Attribute Set]** フィールドをクリックし、属性セットの名前の全部または一部を入力します。
 
@@ -67,11 +77,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;をクリックして続行します。
 
-   商品を保存すると、左上隅に「[&#x200B; ストアビュー](introduction.md#product-scope)」の選択画面が表示されます。
+   商品を保存すると、左上隅に「[ ストアビュー](introduction.md#product-scope)」の選択画面が表示されます。
 
 1. 製品を利用できる&#x200B;**[!UICONTROL Store View]**&#x200B;を選択します。
 
-   ![&#x200B; ストアビューを選択](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![ ストアビューを選択](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## 手順4：基本設定を完了する
 
@@ -100,7 +110,7 @@ ht-degree: 0%
 
 1. `Catalog, Search`の既定の&#x200B;**[!UICONTROL Visibility]**&#x200B;設定を受け入れます。
 
-1. _[!UICONTROL Categories]_&#x200B;を製品に割り当てるには、**[!UICONTROL Select…]**&#x200B;ボックスをクリックし、次のいずれかの操作を行います。
+1. _[!UICONTROL Categories]_を製品に割り当てるには、**[!UICONTROL Select…]**ボックスをクリックし、次のいずれかの操作を行います。
 
    **既存のカテゴリを選択**:
 
@@ -149,7 +159,7 @@ ht-degree: 0%
 
      - 右上隅の「**[!UICONTROL Save]**」をクリックします。
 
-     - ストア内の商品を表示するには、_管理者_ （![&#x200B; メニュー矢印](../assets/icon-menu-down-arrow-black.png)）メニューで&#x200B;**[!UICONTROL Customer View]**&#x200B;を選択します。
+     - ストア内の商品を表示するには、_管理者_ （![ メニュー矢印](../assets/icon-menu-down-arrow-black.png)）メニューで&#x200B;**[!UICONTROL Customer View]**&#x200B;を選択します。
 
      ストアが新しいブラウザータブで開きます。
 
@@ -157,7 +167,7 @@ ht-degree: 0%
 
    - **方法2:**&#x200B;保存して閉じる
 
-     _[!UICONTROL Save]_（![&#x200B; メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューで、**[!UICONTROL Save & Close]**&#x200B;を選択します。
+     _[!UICONTROL Save]_（![ メニュー矢印](../assets/icon-menu-down-arrow-red.png){width="25"}）メニューで、**[!UICONTROL Save & Close]**を選択します。
 
 ## 覚えておくべきこと
 
