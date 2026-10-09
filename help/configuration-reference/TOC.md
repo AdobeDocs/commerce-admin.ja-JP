@@ -5,9 +5,9 @@ breadcrumb-title: 設定リファレンス
 role: Admin, Developer, User
 feature: Configuration
 nudge: true
-source-git-commit: f6c2f4b74fae59264faf75de3c025c596cab048f
+source-git-commit: 64df962f11de1b79e72dc31d7bc3cc0cc4b832f0
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '186'
 ht-degree: 2%
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 2%
   - [メールアドレスを保存](./general/store-email-addresses.md)
   - [連絡先](./general/contacts.md)
   - [レポート](./general/reports.md)
+  - [Bulk API](./general/bulk-api.md)
   - [コンテンツ管理](./general/content-management.md)
   - [高度なレポート](./general/advanced-reporting.md)
 - カタログ {#catalog}

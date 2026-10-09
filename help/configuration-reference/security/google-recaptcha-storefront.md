@@ -6,30 +6,41 @@ feature: Configuration, Security
 TQID: https://experienceleague.adobe.com/Hl5Ivzg-z8tu96TaZN45UFCMMJ4g05fU5t-Jwok1jZE
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: 2a77353224b36200662f8c5a5a0450073fe8506c
 workflow-type: tm+mt
-source-wordcount: 1487
+source-wordcount: '1612'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Storefront]
 
 >[!IMPORTANT]
@@ -141,5 +152,6 @@ Google reCAPTCHAを使用してストアを保護する方法について詳し�
 | [!UICONTROL Enable for Wishlist Sharing] | web サイト | 顧客[がウィッシュリスト &#x200B;](../../stores-purchase/wishlist-storefront.md#share-the-wish-list)を共有する際に使用されるreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）メッセージとメール送信が検証されません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでのユーザー行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
 | [!UICONTROL Enable for Coupon Codes] | web サイト | 顧客が[&#x200B; クーポンコード &#x200B;](../../merchandising-promotions/price-rules-cart-coupon.md)を入力したときに使用されるreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （既定値）クーポンコードの送信を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでのユーザー行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
 | [!UICONTROL Enable for PayPal Payflow Pro payment form] | web サイト | 顧客が[PayPal Payflow Pro](../../stores-purchase/paypal-payflow-pro.md)で購入した場合に使用されるreCAPTCHAのタイプを指定します。 オプション：<br/>**`No`**- （デフォルト）パスワード リセット リクエストを検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
+| [!UICONTROL Enable for Presigned Upload] | web サイト | [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"} ストアフロントファイルのアップロード用に事前署名済みURLを生成する[`initiateUpload` GraphQLの突然変異](https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload)に対するリクエストを検証するためにreCAPTCHAを使用するかどうかを決定します。 有効な場合、各リクエストには、有効なreCAPTCHA トークンを`X-ReCaptcha` ヘッダーに含める必要があります。 トークンが見つからないか無効なリクエストは失敗し、アップロード URLは発行されません。 オプション：<br/>**`No`**- （デフォルト）アップロード要求を検証しません。<br />**`reCAPTCHA v2 ("I am not a robot")`** - ユーザーは&#x200B;_I&#39;m not a robot_ チェックボックスを選択する必要があります。<br />**`Invisible reCAPTCHA v2`**- スコアに基づくインタラクションを必要とせずに、バックグラウンドでユーザーの行動を検証します。<br/>**`Invisible reCAPTCHA v3`** - （推奨）インタラクションスコアに基づいて、バックグラウンドでのユーザー行動を検証します。 |
 
 {style="table-layout:auto"}

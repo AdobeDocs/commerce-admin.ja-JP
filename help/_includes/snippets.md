@@ -1,9 +1,9 @@
 ---
 title: スニペット
 description: 特定のエディションに適用するフィーチャーまたはページに注意するために、再利用されたメモとビジュアル要素
-source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
+source-git-commit: 2a77353224b36200662f8c5a5a0450073fe8506c
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '808'
 ht-degree: 0%
 ---
 # スニペット
@@ -103,3 +103,4 @@ ht-degree: 0%
 - [!UICONTROL Enable for Wishlist Sharing]
 - [!UICONTROL Enable for Coupon Codes]
 - [!UICONTROL Enable for PayPal PayflowPro payment form] - [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+- [!UICONTROL Enable for Presigned Upload] - [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
