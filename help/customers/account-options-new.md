@@ -3,22 +3,38 @@ title: 新規顧客アカウントオプション
 description: ストアの新しい顧客アカウントの設定オプションについて説明します。
 exl-id: aa19f0e2-ffbe-433d-8bd5-c14700b67b37
 feature: Customers, Configuration
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
-
 ---
-
 # 新規顧客アカウントオプション
 
-設定の&#x200B;_[!UICONTROL Create New Account Options]_&#x200B;セクションでは、基本的なアカウントオプションと、VAT ID検証とカスタム統合に関連する高度なオプションが組み合わされています。 次の手順では、最も頻繁に使用されるオプションのみを説明します。 顧客グループの自動割り当てについて詳しくは、[VAT検証](../stores-purchase/vat.md)を参照してください。
+設定の&#x200B;_[!UICONTROL Create New Account Options]_セクションでは、基本的なアカウントオプションと、VAT ID検証とカスタム統合に関連する高度なオプションが組み合わされています。 次の手順では、最も頻繁に使用されるオプションのみを説明します。 顧客グループの自動割り当てについて詳しくは、[VAT検証](../stores-purchase/vat.md)を参照してください。
 
 ![新しいアカウントオプションを作成](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
 ## 基本的な顧客アカウントオプションの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Customer Configuration]**&#x200B;を選択します。
 
@@ -54,6 +70,6 @@ ht-degree: 0%
 
    ![VATが有効になっている新しいアカウント オプションを作成](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
 
-   この設定オプションセットで使用できる各オプションについて詳しくは、_新しいアカウントオプションの作成_ [設定リファレンス &#x200B;](../configuration-reference/customers/customer-configuration.md)を参照してください。
+   この設定オプションセットで使用できる各オプションについて詳しくは、_新しいアカウントオプションの作成_ [設定リファレンス ](../configuration-reference/customers/customer-configuration.md)を参照してください。
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。

@@ -3,37 +3,52 @@ title: Google AdWords
 description: Google AdWords コンバージョン トラッキング用にCommerce ストアを設定して、セールやその他の価値のあるアクションにつながる広告クリックを測定する方法を説明します。
 exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
 feature: Marketing Tools, Integration
-TQID: https://experienceleague.adobe.com/QleYYt3Qc17JJjdUimL1iWfu-PYsx0OGWwfchMN3VVs
+TQID: 'https://experienceleague.adobe.com/QleYYt3Qc17JJjdUimL1iWfu-PYsx0OGWwfchMN3VVs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 659
+source-wordcount: '659'
 ht-degree: 0%
-
 ---
-
 # Google AdWords
 
 [Google AdWords](https://www.google.com/adwords/)は、Googleの検索結果やGoogle ディスプレイ ネットワークの企業ページに広告を配置するために使用できるサービスです。 AdWords ダッシュボードには、キャンペーンの管理、レスポンスの追跡、結果の測定を行うためのツールが含まれています。
 
-コンバージョン追跡は、売上やその他の価値あるアクションにつながる広告のクリック数を示します。 注文が送信された後に顧客に表示される&#x200B;_成功_ ページは、販売後にのみ表示されるため、コンバージョンの追跡に使用されます。 ストアのGoogle AdWords設定を完了した後、Commerceには必要な情報が既に用意されているため、コンバージョントラッキングスクリプトをSuccess ページにコピーする必要はありません。 詳しくは、[Google AdWords ヘルプ &#x200B;](https://support.google.com/adwords/answer/6095821)を参照してください。
+コンバージョン追跡は、売上やその他の価値あるアクションにつながる広告のクリック数を示します。 注文が送信された後に顧客に表示される&#x200B;_成功_ ページは、販売後にのみ表示されるため、コンバージョンの追跡に使用されます。 ストアのGoogle AdWords設定を完了した後、Commerceには必要な情報が既に用意されているため、コンバージョントラッキングスクリプトをSuccess ページにコピーする必要はありません。 詳しくは、[Google AdWords ヘルプ ](https://support.google.com/adwords/answer/6095821)を参照してください。
 
 ![Googleの検索結果のAdobe広告](./assets/google-adwords-adobe-ad.png){width="500"}
 
@@ -53,8 +68,8 @@ ht-degree: 0%
 
    - **[!UICONTROL Value]**&#x200B;をクリックし、該当する場合は、コンバージョンに値を割り当てます。 例：
 
-      - 各販売で$5を行う場合は、`Each time it happens`を選択し、値`$5`を割り当てます。
-      - 各販売の値が異なる場合は、値を空白のままにします。
+     - 各販売で$5を行う場合は、`Each time it happens`を選択し、値`$5`を割り当てます。
+     - 各販売の値が異なる場合は、値を空白のままにします。
 
      完了するには、**[!UICONTROL Done]**&#x200B;をクリックします。
 
@@ -81,7 +96,7 @@ ht-degree: 0%
 
 {{gtag-api-note}}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. Google AdWordsを特定のストアビューに設定する場合は、次の操作を行います。
 
@@ -105,11 +120,11 @@ ht-degree: 0%
 
    - コンバージョンページのGoogle Sitesのステータス通知に使用する&#x200B;**[!UICONTROL Conversion Format]**&#x200B;を入力します。
 
-      - `1` - Google トラッキングの詳細へのリンクを含む1行の通知を表示します。
-      - `2` - Google トラッキングの詳細へのリンクを含む2行の通知を表示します。
-      - `3` – 顧客の通知を表示しません。
+     - `1` - Google トラッキングの詳細へのリンクを含む1行の通知を表示します。
+     - `2` - Google トラッキングの詳細へのリンクを含む2行の通知を表示します。
+     - `3` – 顧客の通知を表示しません。
 
-   - Google サイト統計の通知ラベルに使用する&#x200B;**[!UICONTROL Conversion Color]**&#x200B;の[16進数コード &#x200B;](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"}を入力します。
+   - Google サイト統計の通知ラベルに使用する&#x200B;**[!UICONTROL Conversion Color]**&#x200B;の[16進数コード ](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"}を入力します。
 
    - Google Sitesのステータス通知に表示される&#x200B;**[!UICONTROL Conversion Label]**&#x200B;の暗号化されたテキストを入力します。
 
@@ -144,7 +159,7 @@ ht-degree: 0%
    - `Dynamic` – 動的な注文金額の値に基づいてコンバージョンが発生したことを確認します。
    - `Constant` – 入力された特定の値に基づいてコンバージョンが発生したことを判別します。
 
-   _定数_&#x200B;のコンバージョン値タイプの場合は、_[!UICONTROL Order Amount]_&#x200B;の特定の&#x200B;**[!UICONTROL Value]**&#x200B;を入力して、コンバージョンとして認定します。
+   _定数_&#x200B;のコンバージョン値タイプの場合は、_[!UICONTROL Order Amount]_の特定の&#x200B;**[!UICONTROL Value]**を入力して、コンバージョンとして認定します。
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 

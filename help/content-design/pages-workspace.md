@@ -3,37 +3,49 @@ title: ページワークスペースのコントロール
 description: コンテンツページの検索と更新に使用されるワークスペースツールについて説明します。
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-TQID: https://experienceleague.adobe.com/xtwiVV3F8lpix-1dJw-Bg8SAgoC7SfXoGvQzQN560lo
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: 'https://experienceleague.adobe.com/xtwiVV3F8lpix-1dJw-Bg8SAgoC7SfXoGvQzQN560lo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1385
+source-wordcount: '1385'
 ht-degree: 0%
-
 ---
-
 # ページワークスペースのコントロール
 
 ページワークスペースには、必要なページをすばやく見つけるためのツールや、個々のページまたは複数のページでルーチンメンテナンスを実行するためのコマンドが含まれています。 また、グリッドからページプロパティを素早く更新することもできます。
 
-![&#x200B; ページグリッド &#x200B;](./assets/pages-grid.png){width="700" zoomable="yes"}
+![ ページグリッド ](./assets/pages-grid.png){width="700" zoomable="yes"}
 
 ## ページプロパティを素早く更新
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**に移動します。
 1. グリッドの任意の行をクリックします。
 
-   ![&#x200B; ページプロパティはページグリッドで編集可能です](./assets/page-grid-properties-update.png){width="600" zoomable="yes"}
+   ![ ページプロパティはページグリッドで編集可能です](./assets/page-grid-properties-update.png){width="600" zoomable="yes"}
 
    複数のレコードを選択するには、更新する各行のチェックボックスを選択します。
 
@@ -91,13 +103,13 @@ ht-degree: 0%
 
 ## ページ検索
 
-_[!UICONTROL Pages]_&#x200B;グリッドの左上にある検索ボックスを使用して、キーワードで特定のページを検索できます。 より高度な検索を行うには、複数のパラメーターで[&#x200B; フィルター](../getting-started/admin-grid-controls.md)検索を行うことができます。
+_[!UICONTROL Pages]_グリッドの左上にある検索ボックスを使用して、キーワードで特定のページを検索できます。 より高度な検索を行うには、複数のパラメーターで[ フィルター](../getting-started/admin-grid-controls.md)検索を行うことができます。
 
 ### キーワードで検索
 
 1. ページ検索ボックスに検索語を入力します。
 
-1. 結果を表示するには、検索（![虫眼鏡アイコン &#x200B;](../assets/icon-magnify-search.png)）アイコンをクリックします。
+1. 結果を表示するには、検索（![虫眼鏡アイコン ](../assets/icon-magnify-search.png)）アイコンをクリックします。
 
    結果には、キーワードを含むすべてのページが含まれます。
 
@@ -105,7 +117,7 @@ _[!UICONTROL Pages]_&#x200B;グリッドの左上にある検索ボックスを�
 
 1. 必要に応じて、**[!UICONTROL Clear All]**&#x200B;をクリックして、以前の検索条件をクリアします。
 
-1. 検索フィルターの選択範囲を表示するには、「**[!UICONTROL Filters]** !（[Funnel アイコン &#x200B;](../assets/icon-filter-search.png)）」タブをクリックします。
+1. 検索フィルターの選択範囲を表示するには、「**[!UICONTROL Filters]** !（[Funnel アイコン ](../assets/icon-filter-search.png)）」タブをクリックします。
 
 1. 検索するページを説明するために、必要な数のフィルターを実行します。
 
@@ -147,21 +159,21 @@ _[!UICONTROL Pages]_&#x200B;グリッドの左上にある検索ボックスを�
 
 ページは編集、無効化、有効化、削除できます。 個々のページにアクションを適用するには、最初の列のチェックボックスを選択します。 すべてのページを選択または選択解除するには、列の上部にある選択コントロールを使用します。
 
-![&#x200B; ページアクション &#x200B;](./assets/pages-select.png){width="400" zoomable="yes"}
+![ ページアクション ](./assets/pages-select.png){width="400" zoomable="yes"}
 
 ### 単体アクション
 
-右端の&#x200B;_[!UICONTROL Action]_&#x200B;列を使用して、次のいずれかのアクションを個々のページに適用します。
+右端の&#x200B;_[!UICONTROL Action]_列を使用して、次のいずれかのアクションを個々のページに適用します。
 
 - [!UICONTROL Edit] - ページを編集モードで開きます
 - [!UICONTROL Delete] - ページを削除します（確認が必要）
 - [!UICONTROL View] - ストアフロントで直接ページを開きます
 
-![単一ページアクション &#x200B;](./assets/page-grid-actions.png){width="600" zoomable="yes"}
+![単一ページアクション ](./assets/page-grid-actions.png){width="600" zoomable="yes"}
 
 ### マス操作
 
-左上隅の&#x200B;_[!UICONTROL Action]_&#x200B;セレクターを使用して、選択した複数のページに同時に次のいずれかのアクションを適用します。
+左上隅の&#x200B;_[!UICONTROL Action]_セレクターを使用して、選択した複数のページに同時に次のいずれかのアクションを適用します。
 
 - [!UICONTROL Delete] - ページを削除します（確認が必要）
 - [!UICONTROL Disable] - ストアフロントのページを無効にします
@@ -174,7 +186,7 @@ _[!UICONTROL Pages]_&#x200B;グリッドの左上にある検索ボックスを�
 
 ### 列の選択範囲を変更する
 
-右上隅の&#x200B;_列_ （![列アイコン &#x200B;](../assets/icon-columns.png)）コントロールをクリックし、次の操作を行います。
+右上隅の&#x200B;_列_ （![列アイコン ](../assets/icon-columns.png)）コントロールをクリックし、次の操作を行います。
 
 - グリッドに追加する任意の列のチェックボックスをオンにします。
 
@@ -188,35 +200,35 @@ _[!UICONTROL Pages]_&#x200B;グリッドの左上にある検索ボックスを�
 
 ### ビューを保存
 
-1. _表示_ （![目のアイコン &#x200B;](../assets/icon-view-eye.png)）コントロールをクリックし、**[!UICONTROL Save View As]**&#x200B;をクリックします。
+1. _表示_ （![目のアイコン ](../assets/icon-view-eye.png)）コントロールをクリックし、**[!UICONTROL Save View As]**&#x200B;をクリックします。
 
 1. ビューの名前を入力します。
 
-1. ビューを保存するには、_矢印_ （![矢印アイコン &#x200B;](../assets/icon-arrow-save.png)）をクリックします。
+1. ビューを保存するには、_矢印_ （![矢印アイコン ](../assets/icon-arrow-save.png)）をクリックします。
 
    ビューの名前が現在のビューとして表示されます。
 
 ### ビューを変更
 
-_表示_ （![目のアイコン &#x200B;](../assets/icon-view-eye.png)）コントロールをクリックし、次のいずれかの操作を行います。
+_表示_ （![目のアイコン ](../assets/icon-view-eye.png)）コントロールをクリックし、次のいずれかの操作を行います。
 
 - 使用するビューを選択します。
 
-- 編集（![鉛筆アイコン &#x200B;](../assets/icon-edit-pencil.png)）アイコンをクリックし、ビュー名を更新して、ビューの名前を変更します。
+- 編集（![鉛筆アイコン ](../assets/icon-edit-pencil.png)）アイコンをクリックし、ビュー名を更新して、ビューの名前を変更します。
 
-  ![保存されたビューは、編集アイコン &#x200B;](./assets/pages-default-grid-control.png){width="600" zoomable="yes"}を持つビューコントロールに表示されます
+  ![保存されたビューは、編集アイコン ](./assets/pages-default-grid-control.png){width="600" zoomable="yes"}を持つビューコントロールに表示されます
 
 ## 予定された変更
 
 {{ee-feature}}
 
-ページの変更はスケジュールどおりに適用でき、他のコンテンツの変更とグループ化することも可能です。 スケジュールされたページの変更に基づいてキャンペーンを作成したり、既存のキャンペーンに変更を適用したりできます。 詳細については、[&#x200B; コンテンツ ステージング &#x200B;](content-staging.md)を参照してください。
+ページの変更はスケジュールどおりに適用でき、他のコンテンツの変更とグループ化することも可能です。 スケジュールされたページの変更に基づいてキャンペーンを作成したり、既存のキャンペーンに変更を適用したりできます。 詳細については、[ コンテンツ ステージング ](content-staging.md)を参照してください。
 
 ページの変更とキャンペーンの編集に関するスケジュールを設定する場合は、次の点に注意してください。
 
 - すべてのスケジュールされた更新は連続して適用されます。つまり、任意のエンティティは1つのポイントで1つのスケジュールされた更新のみを持つことができます。 スケジュールされた更新は、その時間枠内のすべてのストアビューに適用されます。 その結果、エンティティは、異なるストアビューに対して異なるスケジュールされた更新を同時に行うことはできません。 現在のスケジュールされた更新の影響を受けない、すべてのストアビュー内のすべてのエンティティ属性値は、以前のスケジュールされた更新の値ではなく、デフォルト値から取得されます。
 
-- キャンペーンが複数のページにリンクされている場合、キャンペーンは[&#x200B; コンテンツステージングダッシュボード &#x200B;](content-staging-dashboard.md)からのみ編集できます。
+- キャンペーンが複数のページにリンクされている場合、キャンペーンは[ コンテンツステージングダッシュボード ](content-staging-dashboard.md)からのみ編集できます。
 
 - アクティブなキャンペーンが最初に終了日なしで作成された場合、そのキャンペーンを後で編集して終了日を含めることはできません。 この場合、重複する施策を作成し、必要な終了日を入力する必要があります。
 
@@ -228,5 +240,5 @@ _表示_ （![目のアイコン &#x200B;](../assets/icon-view-eye.png)）コン
 >
 >[!UICONTROL Custom Design Update] タブは![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerceで削除されました。ページ上で直接変更することはできません。 これらのアクティベーションのスケジュールされた更新を作成する必要があります。
 
-![&#x200B; ホームページの上部に変更予定が表示されます](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
+![ ホームページの上部に変更予定が表示されます](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
 

@@ -1,38 +1,47 @@
 ---
 title: ページ
-description: ' [!DNL Commerce]  デモストアに含まれるコアコンテンツページと、デフォルトページ設定の変更について詳しく説明します。'
+description: '[!DNL Commerce] デモストアに含まれるコアコンテンツページと、デフォルトページ設定の変更について詳しく説明します。'
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-TQID: https://experienceleague.adobe.com/8vTCiNl1daEV7Tpxxusbwhv8R9-qwZh6-fimyORElIk
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: 'https://experienceleague.adobe.com/8vTCiNl1daEV7Tpxxusbwhv8R9-qwZh6-fimyORElIk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 943
+source-wordcount: '944'
 ht-degree: 0%
-
 ---
-
 # ページ
 
 コンテンツは、実店舗のあらゆる商品と同様に、その貯蔵寿命の観点から見ることができます。 ソーシャルメディアコンテンツの賞味期限が24時間未満であることをご存知ですか？ 作成したコンテンツの潜在的な賞味期限は、リソースをどこに投資するのかを決定するのに役立ちます。
 
 賞味期限の長いコンテンツは、_常緑コンテンツ_&#x200B;と呼ばれることもあります。 エバーグリーンコンテンツの例には、カスタマーサクセスストーリー、_ハウツー_&#x200B;の手順、よくある質問（FAQ）などがあります。 一方、自然界で腐敗しやすいコンテンツには、イベント、業界ニュース、プレスリリースなどがあります。
 
-![&#x200B; サンプルのLuma ストア &#x200B;](./assets/storefront-about-us.png){width="700" zoomable="yes"}に含まれている会社概要ページ
+![ サンプルのLuma ストア ](./assets/storefront-about-us.png){width="700" zoomable="yes"}に含まれている会社概要ページ
 
 ## コアコンテンツページ
 
@@ -40,11 +49,11 @@ ht-degree: 0%
 
 ### ホーム
 
-デモ [&#x200B; ホーム &#x200B;](../getting-started/storefront.md#home-page) ページには、バナー、画像カルーセル、リンクを含むいくつかの静的ブロック、および新製品のリストが含まれています。
+デモ [ ホーム ](../getting-started/storefront.md#home-page) ページには、バナー、画像カルーセル、リンクを含むいくつかの静的ブロック、および新製品のリストが含まれています。
 
 ### プライバシーポリシー
 
-ストア [&#x200B; プライバシーポリシー](../getting-started/privacy-policy.md) ページは、独自の情報で更新する必要があります。 ベストプラクティスとして、プライバシーポリシーでは、自社が収集する情報の種類と、その使用方法を顧客に説明する必要があります。
+ストア [ プライバシーポリシー](../getting-started/privacy-policy.md) ページは、独自の情報で更新する必要があります。 ベストプラクティスとして、プライバシーポリシーでは、自社が収集する情報の種類と、その使用方法を顧客に説明する必要があります。
 
 ### 404が見つかりません
 
@@ -54,7 +63,7 @@ ht-degree: 0%
 
 {{b2b-feature}}
 
-会社ユーザーに割り当てられた権限によってページへのアクセスが禁止されている場合、[&#x200B; アクセスが拒否](../b2b/account-company-roles-permissions.md) ページが表示されます。
+会社ユーザーに割り当てられた権限によってページへのアクセスが禁止されている場合、[ アクセスが拒否](../b2b/account-company-roles-permissions.md) ページが表示されます。
 
 ### Cookieを有効にする
 
@@ -72,19 +81,19 @@ About Us ページは、ストアのフッターからリンクされていま�
 
 カスタマーサービス ページは、ページ階層内の別のノードです。 ページ上のふたつのヘッダーには、顧客がヘッダーをクリックしたときにのみ表示されるコンテンツがあります。
 
-![&#x200B; ストアフロントのカスタマーサービスページ &#x200B;](./assets/storefront-customer-service.png){width="700" zoomable="yes"}
+![ ストアフロントのカスタマーサービスページ ](./assets/storefront-customer-service.png){width="700" zoomable="yes"}
 
 ## デフォルトページの設定
 
-_デフォルトページ_&#x200B;設定により、[&#x200B; ベース URL](../stores-purchase/store-urls.md)と対応するホームページに関連付けられているランディングページが決定されます。 また、_ページが見つかりません_ エラーが発生した場合に表示されるページと、各ページの上部に[&#x200B; パンくずリスト &#x200B;](../catalog/navigation-breadcrumb-trail.md)が表示されるかどうかを判断します。
+_デフォルトページ_&#x200B;設定により、[ ベース URL](../stores-purchase/store-urls.md)と対応するホームページに関連付けられているランディングページが決定されます。 また、_ページが見つかりません_ エラーが発生した場合に表示されるページと、各ページの上部に[ パンくずリスト ](../catalog/navigation-breadcrumb-trail.md)が表示されるかどうかを判断します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. _[!UICONTROL General]_&#x200B;の下の左側のパネルで、**[!UICONTROL Web]**&#x200B;を選択します。
+1. _[!UICONTROL General]_の下の左側のパネルで、**[!UICONTROL Web]**を選択します。
 
 1. **[!UICONTROL Default Pages]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; デフォルトページ &#x200B;](./assets/web-default-pages.png){width="500" zoomable="yes"}
+   ![ デフォルトページ ](./assets/web-default-pages.png){width="500" zoomable="yes"}
 
    | フィールド | [範囲](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
    |--- |--- |--- |
@@ -103,7 +112,7 @@ _デフォルトページ_&#x200B;設定により、[&#x200B; ベース URL](../
 
    >[!NOTE]
    >
-   >特定のストアビューの場合、_[!UICONTROL Default Web URL]_&#x200B;の横にある&#x200B;**[!UICONTROL Use Default]**&#x200B;チェックボックスをオフにし、その他のデフォルト設定を変更します。
+   >特定のストアビューの場合、_[!UICONTROL Default Web URL]_の横にある&#x200B;**[!UICONTROL Use Default]**チェックボックスをオフにし、その他のデフォルト設定を変更します。
 
 1. ホームページとして使用するCMS ページに&#x200B;**[!UICONTROL CMS Home Page]**&#x200B;を設定します。 他の作成されたページは、以下のようなホームページとして使用できます。
 

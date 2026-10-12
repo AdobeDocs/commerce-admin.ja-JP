@@ -3,47 +3,59 @@ title: Commerce用AEM Assets パッケージのインストール
 description: CommerceのAEM Assets統合を有効にして、Adobe CommerceとExperience Manager Assets プロジェクト間でアセットを同期するために必要なアセットメタデータを追加します。
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-TQID: https://experienceleague.adobe.com/RguUlTxT3--5brwirzffVVyKzOK4umst7-M1L8qWlj4
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: 'https://experienceleague.adobe.com/RguUlTxT3--5brwirzffVVyKzOK4umst7-M1L8qWlj4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 866
+source-wordcount: '866'
 ht-degree: 1%
-
 ---
-
 # AEM Assets パッケージのインストール
 
 Adobeには、Commerce名前空間およびメタデータスキーマリソースをExperience Manager Assets as a Cloud Service環境設定に追加するためのプロジェクトテンプレート `commerce-assets`が用意されています。 このテンプレートをMaven パッケージとして環境にデプロイします。 次に、AEM Assets オーサリング環境でCommerce メタデータを設定して、設定を完了します。
 
 このテンプレートは、次のリソースをAEM Assets オーサリング環境に追加します。
 
-- Commerce関連のプロパティを識別するための[&#x200B; カスタム名前空間](https://github.com/ankumalh/assets-commerce/blob/main/ui.config/jcr_root/apps/commerce/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~commerce-namespaces.cfg.json)、`Commerce`。
+- Commerce関連のプロパティを識別するための[ カスタム名前空間](https://github.com/ankumalh/assets-commerce/blob/main/ui.config/jcr_root/apps/commerce/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~commerce-namespaces.cfg.json)、`Commerce`。
 
 - Adobe Commerce プロジェクトに関連付けられたCommerce アセットにタグ付けするためのラベル `Eligible for Commerce`を持つカスタムメタデータタイプ `commerce:isCommerce`。
 
 - カスタムメタデータタイプ `commerce:productmetadata`と、対応するUI コンポーネントを使用して&#x200B;*[!UICONTROL Product Data]* プロパティを追加します。 商品データには、Commerce アセットを商品SKUに関連付け、アセットに画像`role`と`position`属性を指定するためのメタデータプロパティが含まれています。
 
-  ![&#x200B; カスタム製品データ UI コントロール &#x200B;](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
+  ![ カスタム製品データ UI コントロール ](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
 - Commerce アセットのタグ付け用の`Eligible for Commerce?`および`Product Data` フィールドを含むCommerce タブを持つメタデータスキーマフォーム。 このフォームには、AEM Assets UIから`roles`および`order` （position）フィールドを表示または非表示にするオプションも用意されています。
 
-  ![AEM Assets メタデータスキーマフォームの「Commerce」タブ &#x200B;](./assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
+  ![AEM Assets メタデータスキーマフォームの「Commerce」タブ ](./assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
 
-- 最初のアセットの同期をサポートするために、[&#x200B; サンプルにタグ付けして承認されたCommerce アセット &#x200B;](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml) `equipment_6.jpg`が含まれています。 AEM AssetsからAdobe Commerceに同期できるのは、承認済みのCommerce アセットのみです。
+- 最初のアセットの同期をサポートするために、[ サンプルにタグ付けして承認されたCommerce アセット ](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml) `equipment_6.jpg`が含まれています。 AEM AssetsからAdobe Commerceに同期できるのは、承認済みのCommerce アセットのみです。
 
 >[!NOTE]
 >
@@ -51,9 +63,9 @@ Adobeには、Commerce名前空間およびメタデータスキーマリソー�
 
 このAEM プロジェクトを使用して環境設定を更新するには、次のリソースと権限が必要です。
 
-- プログラムおよびデプロイメント マネージャーの役割を持つ[AEM Assets Cloud Manager プログラムおよび環境](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo)へのアクセス。
+- プログラムおよびデプロイメント マネージャーの役割を持つ[AEM Assets Cloud Manager プログラムおよび環境](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo)へのアクセス。
 
-- [&#x200B; ローカル ローカル開発環境](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)と、AEM開発プロセスに関する知識。
+- [ ローカル ローカル開発環境](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)と、AEM開発プロセスに関する知識。
 
 - [AEM プロジェクト構造](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure)と、Cloud Managerを使用してカスタムコンテンツパッケージをデプロイする方法について説明します。
 
@@ -63,13 +75,13 @@ Adobeには、Commerce名前空間およびメタデータスキーマリソー�
 
 1. 必要に応じて、デプロイメントパイプラインを設定します。
 
-1. GitHubから、[Commerce-Assets AEM プロジェクト &#x200B;](https://github.com/ankumalh/assets-commerce)からボイラープレートコードをダウンロードします。
+1. GitHubから、[Commerce-Assets AEM プロジェクト ](https://github.com/ankumalh/assets-commerce)からボイラープレートコードをダウンロードします。
 
-1. [&#x200B; ローカル AEM開発環境](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)から、カスタムコードをAEM Assets環境設定にMaven パッケージとしてインストールするか、コードを既存のプロジェクト設定に手動でコピーします。
+1. [ ローカル AEM開発環境](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)から、カスタムコードをAEM Assets環境設定にMaven パッケージとしてインストールするか、コードを既存のプロジェクト設定に手動でコピーします。
 
 1. 変更を確定し、ローカル開発ブランチをCloud Manager Git リポジトリにプッシュします。
 
-1. Cloud Managerから、[&#x200B; コードをデプロイしてAEM環境を更新します](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager)。
+1. Cloud Managerから、[ コードをデプロイしてAEM環境を更新します](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager)。
 
 ## メタデータプロファイルの設定
 
@@ -88,17 +100,17 @@ AEM Assets オーサー環境で、メタデータプロファイルを作成し
 
 1. Adobe Experience Manager ワークスペースから、「Adobe Experience Manager」アイコンをクリックして、AEM Assetsのコンテンツ管理ワークスペースを作成します。
 
-   ![AEM Assets オーサリング &#x200B;](./assets/aem-assets-authoring.png){width="600" zoomable="yes"}
+   ![AEM Assets オーサリング ](./assets/aem-assets-authoring.png){width="600" zoomable="yes"}
 
 1. ハンマーアイコンを選択して、管理者ツールを開きます。
 
-   ![AEM オーサー管理者管理メタデータプロファイル &#x200B;](./assets/aem-manage-metadata-profiles.png){width="600" zoomable="yes"}
+   ![AEM オーサー管理者管理メタデータプロファイル ](./assets/aem-manage-metadata-profiles.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Metadata Profiles]**&#x200B;をクリックして、プロファイル設定ページを開きます。
 
 1. Commerce統合用のメタデータプロファイル **[!UICONTROL Create]**。
 
-   ![AEM オーサー管理者追加メタデータプロファイル &#x200B;](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
+   ![AEM オーサー管理者追加メタデータプロファイル ](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
 
 1. Commerce メタデータのタブを追加します。
 
@@ -126,13 +138,13 @@ AEM Assets オーサー環境で、メタデータプロファイルを作成し
      ./jcr:content/metadata/commerce:isCommerce
      ```
 
-1. オプション。 承認済みのCommerce アセットをAEM Assets環境にアップロードするときに自動的に同期させるには、`Basic` タブの&#x200B;_[!UICONTROL Review Status]_&#x200B;フィールドのデフォルト値を`approved`に設定します。
+1. オプション。 承認済みのCommerce アセットをAEM Assets環境にアップロードするときに自動的に同期させるには、`Basic` タブの&#x200B;_[!UICONTROL Review Status]_フィールドのデフォルト値を`approved`に設定します。
 
 1. アップデートを保存します。
 
 #### メタデータプロファイルをCommerce assets ソースフォルダーに適用する
 
-1. 「[!UICONTROL &#x200B; Metadata Profiles]」ページで、「Commerce統合プロファイル」を選択します。
+1. 「[!UICONTROL  Metadata Profiles]」ページで、「Commerce統合プロファイル」を選択します。
 1. アクションメニューから、**[!UICONTROL Apply Metadata Profiles to Folders]**&#x200B;を選択します。
 1. Commerce アセットを含むフォルダーを選択します。
 

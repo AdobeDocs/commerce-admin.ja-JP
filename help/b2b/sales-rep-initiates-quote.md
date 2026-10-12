@@ -4,30 +4,40 @@ description: 特定の購入者に対して見積もりを作成し、交渉プ�
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-TQID: https://experienceleague.adobe.com/CbwUuAqkrVxLcqdbz-gV-x1i-mRHM6y62KPaBeA3sds
+TQID: 'https://experienceleague.adobe.com/CbwUuAqkrVxLcqdbz-gV-x1i-mRHM6y62KPaBeA3sds'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 823
+source-wordcount: '823'
 ht-degree: 0%
-
 ---
-
 # 購入者に対する見積の開始
 
 [販売機能の設定](configure-quotes.md)で見積もりが有効になっている場合、営業担当者は、管理者から見積もりを作成して、会社の購入者との交渉プロセスを開始できます。
@@ -44,7 +54,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->購入者の見積もりを作成する販売者のデモ動画については、[営業担当者が&#x200B;_Commerceのビデオとチュートリアル_&#x200B;で見積もりを開始](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote)するを参照してください。
+>購入者の見積もりを作成する販売者のデモ動画については、[営業担当者が&#x200B;_Commerceのビデオとチュートリアル_&#x200B;で見積もりを開始](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote)するを参照してください。
 
 ### 見積グリッドから見積を作成する
 
@@ -96,7 +106,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >行項目での割引の仕組みに関するデモ動画については、_Commerceのビデオとチュートリアル_&#x200B;の[営業担当者が見積もり行項目](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount)に割引を適用するを参照してください。
+   >行項目での割引の仕組みに関するデモ動画については、_Commerceのビデオとチュートリアル_&#x200B;の[営業担当者が見積もり行項目](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount)に割引を適用するを参照してください。
 
 1. 必要に応じて見積もりレベルの割引を適用します。
 
@@ -112,7 +122,7 @@ ht-degree: 0%
 
    ![販売者が購入者の情報を追加します](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
-   デフォルトでは、[添付ファイル &#x200B;](configure-quotes.md)は、DOC、DOCX、XLS、XLSX、PDF、TXT、JPGまたはJPEG、PNGのいずれかのファイル形式で、最大2 MBです。
+   デフォルトでは、[添付ファイル ](configure-quotes.md)は、DOC、DOCX、XLS、XLSX、PDF、TXT、JPGまたはJPEG、PNGのいずれかのファイル形式で、最大2 MBです。
 
 1. 交渉中に配送先住所を追加します。
 

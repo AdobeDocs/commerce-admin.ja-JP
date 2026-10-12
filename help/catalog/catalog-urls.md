@@ -3,32 +3,46 @@ title: カタログと商品のURL
 description: カタログ製品のURL形式の種類と設定方法について説明します。
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-TQID: https://experienceleague.adobe.com/Lf7Xh4w-rI-o-S1HEqM7nJZWuYGhOsB2ZccDg7Hb-3w
+TQID: 'https://experienceleague.adobe.com/Lf7Xh4w-rI-o-S1HEqM7nJZWuYGhOsB2ZccDg7Hb-3w'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: '918'
 ht-degree: 0%
-
 ---
-
 # カタログと商品のURL
 
 製品やカテゴリーに割り当てたURLは、検索エンジンによるサイトのインデックス作成を決定する上で、重要な役割を果たします。 カタログの制作を始める前に、利用可能なオプションを検討します。 現在のURL形式を表示するには、ストアフロントに移動し、カタログ内の任意の商品に移動します。 URLの形式は、ページの検索に使用する現在の設定設定とメソッドによって異なります。
@@ -44,7 +58,7 @@ ht-degree: 0%
 
 ### 静的URL
 
-静的URLは、特定のページの固定アドレスです。 静的URLは、検索エンジンに適した形式、またはIDで商品やカテゴリーを参照する形式で表示できます。 これらのURLには、ユーザーが製品を検索するために使用する可能性のある単語が含まれており、web サーバーの書き換えを有効にする必要があります。 静的URLを持つファイルは、製品ページやカテゴリーページ、コンテンツページ、[&#x200B; テーマアセット &#x200B;](../content-design/theme-assets.md)で一般的に使用されます。
+静的URLは、特定のページの固定アドレスです。 静的URLは、検索エンジンに適した形式、またはIDで商品やカテゴリーを参照する形式で表示できます。 これらのURLには、ユーザーが製品を検索するために使用する可能性のある単語が含まれており、web サーバーの書き換えを有効にする必要があります。 静的URLを持つファイルは、製品ページやカテゴリーページ、コンテンツページ、[ テーマアセット ](../content-design/theme-assets.md)で一般的に使用されます。
 
 - `http://mystore.com/antonia-racer-tank.html`
 
@@ -56,7 +70,7 @@ URL キーは、製品またはカテゴリを説明する静的URLの一部で�
 
 >[!NOTE]
 >
->デフォルトでは、アクセント付きの特殊文字は、URL キーの通常のアクセントなしバージョンに自動的に置き換えられます。 例えば、`ñ`は自動的に`n`に置き換えられます。 この動作は、_[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;設定オプションを`No`に設定することで無効にできます。 [&#x200B; カタログ URLの設定](#configure-catalog-urls)を参照してください。
+>デフォルトでは、アクセント付きの特殊文字は、URL キーの通常のアクセントなしバージョンに自動的に置き換えられます。 例えば、`ñ`は自動的に`n`に置き換えられます。 この動作は、_[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_設定オプションを`No`に設定することで無効にできます。 [ カタログ URLの設定](#configure-catalog-urls)を参照してください。
 
 URL キーは、小文字で構成する必要があります。小文字のハイフン以外のハイフンは、これらの文字を区切る単語に使用します。 ハイフンは、URL キーの先頭または末尾では使用できません。 適切に設計された「検索エンジンに適した」 URL キーには、検索エンジンによるインデックス作成の方法を改善するために、製品名とキーワードが含まれる場合があります。 URL キーを設定して、URL キーが変更された場合に自動リダイレクトを作成できます。
 
@@ -95,7 +109,7 @@ URL キーは、小文字で構成する必要があります。小文字のハ�
 
 ## カタログ URLの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
@@ -115,24 +129,24 @@ URL キーは、小文字で構成する必要があります。小文字のハ�
 
 1. プロンプトが表示されたら、システムメッセージの&#x200B;**[!UICONTROL Cache Management]** リンクをクリックし、無効なキャッシュを更新します。
 
-   ![&#x200B; キャッシュの更新](./assets/msg-cache-management.png){width="450" zoomable="yes"}
+   ![ キャッシュの更新](./assets/msg-cache-management.png){width="450" zoomable="yes"}
 
-   これらのオプションについて詳しくは、[&#x200B; キャッシュの更新](../systems/cache-management.md#refresh-specific-caches)を参照してください。
+   これらのオプションについて詳しくは、[ キャッシュの更新](../systems/cache-management.md#refresh-specific-caches)を参照してください。
 
 ## カタログメディア URL形式の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL General]**&#x200B;を展開し、**[!UICONTROL Web]**&#x200B;を選択します。
 
 1. **[!UICONTROL Url Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、オプションを設定します。
 
-![Web >一般オプション &#x200B;](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
+![Web >一般オプション ](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
 
 | フィールド | [範囲](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | グローバル | Web サーバーの書き換えが有効になっている場合、この設定を有効にすると、現在のビューのストアコードがURLに挿入されます。 オプション：`Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | グローバル | （シングルストア設定の場合）サイトに壊れたリンクがある場合、トラフィックは「404 Page Not Found」メッセージを含むページではなく、ベース URLにリダイレクトされます。 オプション：`No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_重要！_**&#x200B;マルチストア設定のベース URLに自動リダイレクトを使用しないでください。 |
+| [!UICONTROL Auto-redirect to Base URL] | グローバル | （シングルストア設定の場合）サイトに壊れたリンクがある場合、トラフィックは「404 Page Not Found」メッセージを含むページではなく、ベース URLにリダイレクトされます。 オプション：`No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_重要！_**マルチストア設定のベース URLに自動リダイレクトを使用しないでください。 |
 | [!UICONTROL Catalog media URL format] | グローバル | 製品とカテゴリに割り当てられたURL形式を定義します。 オプション：<br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**– 変換されたファイル名を一意のハッシュ値として定義します。<br />**[!UICONTROL Image optimization based on query parameters]** - クエリ パラメーターに応じて[画像最適化](../content-design/media-gallery-image-optimization.md) プロセスを定義します。 |
 
 {style="table-layout:auto"}

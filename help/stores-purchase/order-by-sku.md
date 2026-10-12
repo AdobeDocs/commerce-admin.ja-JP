@@ -3,28 +3,37 @@ title: SKUで注文
 description: 顧客の利便性を高めるために、SKUによる注文をサポートするようにストアを設定する方法について説明します。
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
 feature: Orders, Storefront, Configuration
-TQID: https://experienceleague.adobe.com/zMI6ElJA6t8IL8tRqYAPvM7YwCdTCC-u-BVWMV0ZmWQ
+TQID: 'https://experienceleague.adobe.com/zMI6ElJA6t8IL8tRqYAPvM7YwCdTCC-u-BVWMV0ZmWQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 592
+source-wordcount: '592'
 ht-degree: 0%
-
 ---
-
 # SKUで注文
 
 {{ee-feature}}
@@ -36,13 +45,13 @@ SKUとは「在庫保管単位」のことです。 SKUは一般的に、オン�
 
 通常、SKUには製品の特徴を示す一連の略語が含まれます。 SKUの最大長は64文字です。 SKUは在庫を効果的に追跡、管理するために重要であり、正しく設定することはe コマースにとって非常に重要です。
 
-_SKUによる注文_&#x200B;は[&#x200B; ウィジェット &#x200B;](../content-design/widgets.md)であり、すべての買い物客の利便性としてストアに表示したり、特定の顧客グループの買い物客のみに利用できるようにしたりできます。 顧客は、SKUおよび数量情報を直接注文SKU ブロックに入力するか、顧客アカウントからcsv ファイルをアップロードできます。 設定に関係なく、SKUによる注文は常にストア管理者が利用できます。
+_SKUによる注文_&#x200B;は[ ウィジェット ](../content-design/widgets.md)であり、すべての買い物客の利便性としてストアに表示したり、特定の顧客グループの買い物客のみに利用できるようにしたりできます。 顧客は、SKUおよび数量情報を直接注文SKU ブロックに入力するか、顧客アカウントからcsv ファイルをアップロードできます。 設定に関係なく、SKUによる注文は常にストア管理者が利用できます。
 
-![&#x200B; ストアフロントでSKUで注文](./assets/storefront-order-by-sku.png){width="700" zoomable="yes"}
+![ ストアフロントでSKUで注文](./assets/storefront-order-by-sku.png){width="700" zoomable="yes"}
 
 ## SKUによる注文の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」セクションを展開し、下の「**[!UICONTROL Sales]**」を選択します。
 
@@ -58,17 +67,17 @@ _SKUによる注文_&#x200B;は[&#x200B; ウィジェット &#x200B;](../content
 
 1. **[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2Bのみ） _&#x200B;**SKUによる注文機能を有効にするには、クイックオーダー機能を無効にします：**&#x200B;_
+![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2Bのみ） _**SKUによる注文機能を有効にするには、クイックオーダー機能を無効にします：**_
 
-1. **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. _[!UICONTROL General]_&#x200B;の下の左パネルで、**[!UICONTROL B2B Features]**&#x200B;を選択します
+1. _[!UICONTROL General]_の下の左パネルで、**[!UICONTROL B2B Features]**を選択します
 
 1. **[!UICONTROL B2B Features]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
 1. **[!UICONTROL Enable Quick Order]**&#x200B;を`No`に設定します。
 
-   [&#x200B; クイックオーダー機能](../b2b/quick-order.md)を使用すると、お客様とゲストは、SKUまたは商品名に基づいて素早く注文できます。
+   [ クイックオーダー機能](../b2b/quick-order.md)を使用すると、お客様とゲストは、SKUまたは商品名に基づいて素早く注文できます。
 
 ## ストアフロント体験
 
@@ -90,17 +99,17 @@ _SKUによる注文_&#x200B;は[&#x200B; ウィジェット &#x200B;](../content
 
 1. 環境設定に従って個々の項目を追加します。
 
-   _&#x200B;**SKU:**&#x200B;_&#x200B;で各項目を追加します
+   _**SKU:**_&#x200B;で各項目を追加します
 
    - 注文するアイテムの&#x200B;**[!UICONTROL SKU]**&#x200B;と&#x200B;**[!UICONTROL Qty]**&#x200B;を入力します。
 
-   - 必要に応じてアイテムを追加するには、_行を追加_ ![&#x200B; プラス署名ボタン &#x200B;](../assets/button-add-item.png)をクリックし、必要な数のアイテムについて繰り返します。
+   - 必要に応じてアイテムを追加するには、_行を追加_ ![ プラス署名ボタン ](../assets/button-add-item.png)をクリックし、必要な数のアイテムについて繰り返します。
 
    - **[!UICONTROL Add to Cart]**&#x200B;をクリックします。
 
-   _&#x200B;**複数の項目のCSV ファイルをアップロード：**&#x200B;_
+   _**複数の項目のCSV ファイルをアップロード：**_
 
-   - `SKU`と`Qty`の列を含む[&#x200B; インポートデータ CSV](../systems/data-csv.md) （カンマ区切り値）ファイルを準備します。
+   - `SKU`と`Qty`の列を含む[ インポートデータ CSV](../systems/data-csv.md) （カンマ区切り値）ファイルを準備します。
 
    読み込む![SKU](./assets/account-dashboard-order-by-sku-import.png){width="500" zoomable="yes"}
 

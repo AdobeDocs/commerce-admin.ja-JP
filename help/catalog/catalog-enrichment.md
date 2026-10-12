@@ -3,7 +3,7 @@ title: カタログの強化
 description: Adobe Commerceのネイティブカタログエンリッチメント機能を使用して、AIが提案した改善点をレビューし、LLMとAIが支援する発見のために、商品名と長い説明文に適用します。
 role: Admin, User, Leader
 recommendations: noCatalog
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -16,6 +16,18 @@ feature_v2:
     internal-label: Integrations
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
     internal-label: Storefront
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -27,7 +39,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5764bcc6545c1696353ac445716061b009a7c106
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '2182'
 ht-degree: 0%
@@ -38,7 +50,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->カタログの強化は、舞台裏の[!DNL Commerce Catalog Agent]と[!DNL Adobe LLM Optimizer]によって強化されています。 Commerce カタログワークフローの一部としてエンリッチメントを使用します。 承認済みの名前と説明の更新を適用するために、個別のLLM Optimizer統合を管理することはありません。 Commerce以外の幅広いLLMの監視と最適化については、[LLM Optimizer製品ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/brand-visibility/using/home)を参照してください。
+>カタログの強化は、舞台裏の[!DNL Commerce Catalog Agent]と[!DNL Adobe LLM Optimizer]によって強化されています。 Commerce カタログワークフローの一部としてエンリッチメントを使用します。 承認済みの名前と説明の更新を適用するために、個別のLLM Optimizer統合を管理することはありません。 Commerce以外の幅広いLLMの監視と最適化については、[LLM Optimizer製品ドキュメント ](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home)を参照してください。
 
 ## 仕組み {#how-it-works}
 
@@ -68,9 +80,9 @@ Commerceには商品名と長い説明が保存されているため、一度編
 カタログのエンリッチメントにアクセスできる場合は、次の前提条件が適用されます。
 
 - ストアフロントはLLM向けおよびエージェント型のボットでクロールできます。カタログに応じた提案を行うにはクロールで対応する必要があります。
-- 必要なCommerce サービスとカタログ接続が有効になり、正常に動作します。 詳細については、[&#x200B; カタログの強化を有効にする](#enable-catalog-enrichment)を参照してください。
-- [IMSが設定されています](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/organizations)。
-- [Adobe Admin Console](https://helpx.adobe.com/jp/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)にアクセスできます。
+- 必要なCommerce サービスとカタログ接続が有効になり、正常に動作します。 詳細については、[ カタログの強化を有効にする](#enable-catalog-enrichment)を参照してください。
+- [IMSが設定されています](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations)。
+- [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)にアクセスできます。
 - 組織が基礎となるAI サービスに対して、生成AIに乗り換えたり、明示的にオプトアウトしたりしました。
 
 >[!NOTE]
@@ -90,7 +102,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
    composer update magento/module-catalog-enrichment
    ```
 
-1. カタログサービスをまだインストールしていない場合は、[実行してください](https://experienceleague.adobe.com/ja/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
+1. カタログサービスをまだインストールしていない場合は、[実行してください](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
 
    **[!UICONTROL Catalog enrichment]**&#x200B;は、お使いのCommerce インスタンスで利用できるようになりました。
 
@@ -98,7 +110,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 
 カタログ エンリッチメントおよびカタログ サービス拡張機能をインストールすると、カタログ エンリッチメント機能が管理者の&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**&#x200B;で利用できるようになります。
 
-![&#x200B; カタログの強化](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+![ カタログの強化](./assets/catalog-enrichment-menu.png){zoomable="yes"}
 
 ### カタログエンリッチメントの設定
 
@@ -111,7 +123,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 
    カタログ LLM Optimizer サービスと監査ワークフローを有効にするには、[!DNL Adobe Commerce]環境の詳細を指定します。
 
-   ![&#x200B; カタログエンリッチメント設定タブのCommerce設定](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
+   ![ カタログエンリッチメント設定タブのCommerce設定](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. ストアビューに必要な接続の詳細を入力します。
 
@@ -149,7 +161,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 - **[!UICONTROL Fixed Suggestions]**：既に適用または解決済みの項目。
 - **[!UICONTROL Ignored Suggestions]**: アクションから意図的に除外した項目。
 
-![&#x200B; カタログの強化](./assets/agentic-opportunities.png){zoomable="yes"}
+![ カタログの強化](./assets/agentic-opportunities.png){zoomable="yes"}
 
 ### 承認済み提案をデプロイ {#review-deploy-catalog}
 

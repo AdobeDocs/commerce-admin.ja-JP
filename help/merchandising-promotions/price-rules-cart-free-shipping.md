@@ -3,32 +3,48 @@ title: カートの価格ルール例 – 送料無料プロモーション
 description: カート価格ルールを使用して送料無料を提供する例を確認してください。
 exl-id: f7652254-ff01-44ff-a207-2d7cf2017517
 feature: Merchandising, Price Rules, Shopping Cart, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/FR-q4Qj-ZDDzmfEKSvSj-BlwsM7ro-BqAE1yCppTaXE
+TQID: 'https://experienceleague.adobe.com/FR-q4Qj-ZDDzmfEKSvSj-BlwsM7ro-BqAE1yCppTaXE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: a507b1ed-4937-53da-97ae-57d36bd5b9e0
+    internal-label: Price Rules
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 407
+source-wordcount: '407'
 ht-degree: 0%
-
 ---
-
 # カートの価格ルール例 – 送料無料プロモーション
 
-送料無料は、[&#x200B; クーポン &#x200B;](price-rules-cart-coupon.md)の有無を問わず、プロモーションとして提供できます。 送料無料のクーポン、またはバウチャーを顧客の受け取り注文に適用することもできるので、注文を請求して出荷して、[&#x200B; ワークフロー](../stores-purchase/order-processing.md#order-workflow-and-processing)を完了できます。
+送料無料は、[ クーポン ](price-rules-cart-coupon.md)の有無を問わず、プロモーションとして提供できます。 送料無料のクーポン、またはバウチャーを顧客の受け取り注文に適用することもできるので、注文を請求して出荷して、[ ワークフロー](../stores-purchase/order-processing.md#order-workflow-and-processing)を完了できます。
 
 配送業者の構成によっては、最低注文に基づいて送料無料を提供できるものもあります。 この基本的な機能をさらに拡張するには、ショッピングカートの価格ルールを使用して、複数の製品属性、カートの内容、顧客グループに基づいて複雑な条件を作成します。
 
@@ -36,11 +52,11 @@ ht-degree: 0%
 
 1. ストア設定で[送料無料](../stores-purchase/shipping-free.md)を有効にします。
 
-1. 送料無料に使用する[&#x200B; キャリア サービス &#x200B;](../stores-purchase/carriers.md)の送料無料設定を完了します。
+1. 送料無料に使用する[ キャリア サービス ](../stores-purchase/carriers.md)の送料無料設定を完了します。
 
 ## 手順2: 買い物かごの価格ルールの作成
 
-_管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**に移動します。
 
 以下の手順に従って、提供する送料無料プロモーションの種類を設定します。
 
@@ -54,8 +70,8 @@ _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promo
    - **[!UICONTROL Websites]** ボックスで、送料無料クーポンを利用できる各サイトを選択します。
    - ルールが適用される&#x200B;**[!UICONTROL Customer Groups]**&#x200B;を選択します。
    - **[!UICONTROL Coupon]**&#x200B;を次のいずれかに設定します：
-      - クーポンなしで送料無料プロモーションを提供するには、デフォルトの（`No Coupon`）設定に従います。
-      - 価格ルールでクーポンを使用するには、`Specific Coupon`を選択します。 必要に応じて、手順を完了して[&#x200B; クーポン &#x200B;](price-rules-cart-coupon.md)を設定します。
+     - クーポンなしで送料無料プロモーションを提供するには、デフォルトの（`No Coupon`）設定に従います。
+     - 価格ルールでクーポンを使用するには、`Specific Coupon`を選択します。 必要に応じて、手順を完了して[ クーポン ](price-rules-cart-coupon.md)を設定します。
 
 1. 下にスクロールして、**[!UICONTROL Actions]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 

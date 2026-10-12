@@ -3,7 +3,7 @@ title: 在庫ソースの追加
 description: 倉庫、店舗、流通センターまたはその他のフルフィルメントの場所の[!DNL Inventory Management] ソースを管理者に追加します。
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
-TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
+TQID: 'https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,10 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,7 +31,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2e0212c62ed6183d1b66a9260e6177177ca2a61a
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -40,11 +44,11 @@ ht-degree: 0%
 
 ## 在庫ソースの追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**に移動します。
 
 1. **[!UICONTROL Add New Source]**&#x200B;をクリックします。
 
-   ![&#x200B; ソースの管理](assets/inventory-sources.png)
+   ![ ソースの管理](assets/inventory-sources.png)
 
 1. **[!UICONTROL General]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
@@ -56,19 +60,19 @@ ht-degree: 0%
 
    - この在庫ソースを使用する準備ができたら、**[!UICONTROL Is Enabled]**&#x200B;を`Yes`に設定します。
 
-   - このソースの在庫をストアフロントに公開するには、**[!UICONTROL Visible on Storefront]**&#x200B;を`Yes`に設定します。 [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
+   - このソースの在庫をストアフロントに公開するには、**[!UICONTROL Visible on Storefront]**&#x200B;を`Yes`に設定します。 [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
 
      このオプションは、デフォルトで`No`に設定されています。 `Yes`に設定した場合、ソースはクエリ キャッシュの有効期間を最大で取得して結果に表示できます。 このオプションを`No`に設定すると、ソースはクエリ結果からすぐに削除されます。
 
-     [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL クエリは、ストアフロントに表示されるソースの在庫情報へのアクセスを提供します。 [&#x200B; グローバルオプション &#x200B;](global-options.md)で、ストアビューの`sourceAvailability` クエリを有効にする必要があります。
+     [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL クエリは、ストアフロントに表示されるソースの在庫情報へのアクセスを提供します。 [ グローバルオプション ](global-options.md)で、ストアビューの`sourceAvailability` クエリを有効にする必要があります。
 
    - クイック参照または追加の詳細を表示するには、この場所の概要&#x200B;**[!UICONTROL Description]**&#x200B;を入力してください。
 
    - **[!UICONTROL Latitude]**&#x200B;と&#x200B;**[!UICONTROL Longitude]**&#x200B;に対して、施設の場所のグローバル ポジショニング システム （GPS）座標を入力します。
 
-     [Google マップ &#x200B;](https://www.google.com/maps)のGPS座標を検索するには、検索ボックスにアドレスを入力します。 マップ上のマーカーを右クリックし、**[!UICONTROL What's here?]**&#x200B;を選択します。 GPS座標は、住所の下の詳細ボックスに表示されます。
+     [Google マップ ](https://www.google.com/maps)のGPS座標を検索するには、検索ボックスにアドレスを入力します。 マップ上のマーカーを右クリックし、**[!UICONTROL What's here?]**&#x200B;を選択します。 GPS座標は、住所の下の詳細ボックスに表示されます。
 
-     ![一般的なソースオプション &#x200B;](assets/inventory-source-general.png)
+     ![一般的なソースオプション ](assets/inventory-source-general.png)
 
    - この在庫ソースが受け取り場所である場合は、**[!UICONTROL Use as Pickup Location]**&#x200B;を`Yes`に設定します。
 
@@ -98,7 +102,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Postcode]**&#x200B;に郵便番号または郵便番号を入力します。
 
-     ![&#x200B; アドレスデータ &#x200B;](assets/inventory-source-address.png)
+     ![ アドレスデータ ](assets/inventory-source-address.png)
 
 1. 前の手順でソースを受け取り場所として設定した場合は、![拡張セレクター](../assets/icon-display-expand.png)、**[!UICONTROL Pickup Location]** セクションを展開し、場所に関する説明情報を提供します。
 
@@ -114,7 +118,7 @@ ht-degree: 0%
 
    - 作業を保存して編集を続行するには、**[!UICONTROL Save & Continue]**&#x200B;をクリックします。
 
-   - 作業を保存してソースの管理ページに戻るには、下向き矢印（![&#x200B; メニュー矢印](../assets/icon-menu-down-arrow-red.png)）をクリックし、**[!UICONTROL Save & Close]**&#x200B;を選択します。
+   - 作業を保存してソースの管理ページに戻るには、下向き矢印（![ メニュー矢印](../assets/icon-menu-down-arrow-red.png)）をクリックし、**[!UICONTROL Save & Close]**&#x200B;を選択します。
 
    - 現在のソースレコードの作業を保存して新しいソースを入力するには、**[!UICONTROL Save & New]**&#x200B;を選択します。
 
@@ -134,7 +138,7 @@ ht-degree: 0%
 | [!UICONTROL Name] | （必須）管理者ユーザーのインベントリ ソースを識別する一意の名前。 |
 | [!UICONTROL Code] | （必須） システムがインベントリ ソースを識別するために使用する一意の英数字コード。 コードは、スペースなしで大文字または小文字の文字または数字で入力します。 必要に応じて、スペースの代わりにハイフンまたはアンダースコアを使用できます。 ソースの作成後にコードを編集することはできません。 これは、在庫にソースを割り当て、製品データの書き出しや読み込みを行う際に使用される一意のIDです。 |
 | [!UICONTROL Is Enabled] | 在庫ソースを使用できるかどうかを指定します。 オプション：はい/いいえ |
-| [!UICONTROL Visible on Storefront] [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} | ストアフロント [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL クエリがこの在庫ソースの在庫情報を返すことができるかどうかを判断します。 |
+| [!UICONTROL Visible on Storefront] [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} | ストアフロント [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL クエリがこの在庫ソースの在庫情報を返すことができるかどうかを判断します。 |
 | [!UICONTROL Description] | 在庫ソースの場所の簡単な説明。 管理者ユーザーに役立つ詳細を含めます。 |
 | [!UICONTROL Latitude] | GPSの在庫源の緯度座標を指定します。 値を数値として入力し、その後に必要に応じてプラス記号またはマイナス記号を入力します。 度記号や文字は使用できません。 例：Latitude 32.7555 |
 | [!UICONTROL Longitude] | GPSの在庫源の経度座標を指定します。 値を数値として入力し、その後に必要に応じてプラス記号またはマイナス記号を入力します。 度記号や文字は使用できません。 例：`-97.3308` |

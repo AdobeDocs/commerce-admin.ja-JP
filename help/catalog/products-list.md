@@ -3,40 +3,55 @@ title: 製品リスト
 description: 製品を作成し、既存の製品を編集できる管理者の_[!UICONTROL Products]_ ページについて説明します。
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-TQID: https://experienceleague.adobe.com/tCvjmMlTzn0ejytHyuLPIKKpHn7CGiVkrAwJWmvN-Ro
+TQID: 'https://experienceleague.adobe.com/tCvjmMlTzn0ejytHyuLPIKKpHn7CGiVkrAwJWmvN-Ro'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 836
+source-wordcount: '836'
 ht-degree: 0%
-
 ---
-
 # 製品リスト
 
-カタログ内のすべての製品は、管理者の&#x200B;_[!UICONTROL Products]_&#x200B;ページからアクセスできます。このページでは、製品を作成したり、既存の製品を編集したりできます。 マルチサイトインストールの場合、各web サイトで同じカタログから異なる製品を販売できます。
+カタログ内のすべての製品は、管理者の&#x200B;_[!UICONTROL Products]_ページからアクセスできます。このページでは、製品を作成したり、既存の製品を編集したりできます。 マルチサイトインストールの場合、各web サイトで同じカタログから異なる製品を販売できます。
 
-_[!UICONTROL Products]_&#x200B;リストには、カタログ内のすべての製品が含まれ、利用可能なweb サイトと、現在販売が有効なweb サイトが示されます。 [共有カタログ &#x200B;](../b2b/catalog-shared.md)が有効になっているAdobe Commerce B2B インストールでは、グリッドには、共有カタログに代替割引価格が設定されている商品を示す列が含まれています。
+_[!UICONTROL Products]_リストには、カタログ内のすべての製品が含まれ、利用可能なweb サイトと、現在販売が有効なweb サイトが示されます。 [共有カタログ ](../b2b/catalog-shared.md)が有効になっているAdobe Commerce B2B インストールでは、グリッドには、共有カタログに代替割引価格が設定されている商品を示す列が含まれています。
 
-リストページからページ別に閲覧したり、特定の商品を検索したりできます。 標準の[&#x200B; コントロール &#x200B;](../getting-started/admin-grid-controls.md)を使用してリストを並べ替えおよびフィルタリングし、選択した製品に[&#x200B; アクション &#x200B;](../getting-started/admin-actions-control.md)を適用します。
+リストページからページ別に閲覧したり、特定の商品を検索したりできます。 標準の[ コントロール ](../getting-started/admin-grid-controls.md)を使用してリストを並べ替えおよびフィルタリングし、選択した製品に[ アクション ](../getting-started/admin-actions-control.md)を適用します。
 
-![製品グリッド &#x200B;](./assets/products-grid.png){width="700" zoomable="yes"}
+![製品グリッド ](./assets/products-grid.png){width="700" zoomable="yes"}
 
 ## 商品表示を制限
 
@@ -52,11 +67,11 @@ _[!UICONTROL Products]_&#x200B;リストには、カタログ内のすべての�
 
 >[!NOTE]
 >
->商品グリッドを制限しない場合は、フィルターをより正確に使用して、_[!UICONTROL Records Limit]_&#x200B;フィールドで指定された数よりも少ない項目を持つコレクションを生成します。
+>商品グリッドを制限しない場合は、フィルターをより正確に使用して、_[!UICONTROL Records Limit]_フィールドで指定された数よりも少ない項目を持つコレクションを生成します。
 
 **_製品表示の制限を設定するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. **[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL Admin]**&#x200B;を選択します。
 

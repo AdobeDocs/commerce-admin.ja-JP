@@ -3,27 +3,35 @@ title: 税金
 description: ロケールの要件に応じて税金を計算するようにストアを設定する方法を説明します。
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-TQID: https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk
+TQID: 'https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1129
+source-wordcount: '1129'
 ht-degree: 0%
-
 ---
-
 # 税金
 
 ロケールの要件に応じて税金を計算するようにストアを設定します。 製品と顧客グループに対して[税区分](tax-class.md)を設定し、製品と顧客の区分、税区分、および税率を組み合わせた[税区分](tax-rules.md)を作成できます。 Commerceでは、固定商品税、複合税、国際的な価格表示の設定も提供しています。 [付加価値税](vat.md)を徴収する必要がある場合は、ストアを設定して、検証を行って適切な金額を自動的に計算できます。
@@ -32,11 +40,11 @@ ht-degree: 0%
 >
 >Adobe CommerceおよびMagento Open Source リリース 2.4.0 ～ 2.4.3には、Vertex Cloudとの統合に使用するVertex ベンダーが開発した拡張機能が含まれており、税金管理とアドレスのクレンジングを提供します。 2.4.4 リリース以降、この拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceから、またはベンダーから直接インストールして更新する必要があります。 拡張機能とドキュメントについて詳しくは、[Vertex](https://marketplace.magento.com/partner/vertex_inc)にお問い合わせください。<br><br>
 >
->バンドル拡張機能を有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 _アップグレードガイド_&#x200B;の「[&#x200B; モジュールのアップグレード &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/upgrade-guide/modules/upgrade)」を参照してください。
+>バンドル拡張機能を有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 _アップグレードガイド_&#x200B;の「[ モジュールのアップグレード ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)」を参照してください。
 
 ## クイックリファレンス
 
-一部の税金設定では、税金の計算方法や顧客への表示方法を決定するオプションを選択できます。 詳しくは、[国際課税ガイドライン &#x200B;](international-tax-guidelines.md)を参照してください。
+一部の税金設定では、税金の計算方法や顧客への表示方法を決定するオプションを選択できます。 詳しくは、[国際課税ガイドライン ](international-tax-guidelines.md)を参照してください。
 
 税金計算設定を設定する際は、次の表を参照してください。
 
@@ -103,7 +111,7 @@ ht-degree: 0%
 - 顧客の配送先住所と支払い取引が成功した記録を使用して、顧客の居住地を確立することができます。 （支払いは、配送先住所が支払いプロバイダーの情報と一致する場合にのみ受け付けられます）。
 - 情報は、Commerce データベーステーブルのデータストアから直接キャプチャすることもできます。
 
-_&#x200B;**デジタル物品税情報を収集するには：**&#x200B;_
+_**デジタル物品税情報を収集するには：**_
 
 1. すべてのEU加盟国の税率を読み込みます。
 

@@ -3,25 +3,34 @@ title: コンテンツ更新のスケジュール
 description: 製品の一時的な価格変更をスケジュールするために使用されるこのキャンペーンの例を確認します。
 exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-TQID: https://experienceleague.adobe.com/yR5AygNuuaCFZEMfRpRd-EH6jeSrRUQoVSO--sxF-FE
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: 'https://experienceleague.adobe.com/yR5AygNuuaCFZEMfRpRd-EH6jeSrRUQoVSO--sxF-FE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 667
+source-wordcount: '668'
 ht-degree: 0%
-
 ---
-
 # コンテンツ更新のスケジュール
 
 {{ee-feature}}
@@ -35,11 +44,11 @@ ht-degree: 0%
 
 ## 製品の更新をスケジュール
 
-1. _[!UICONTROL Products]_&#x200B;グリッドから、商品を編集モードで開きます。
+1. _[!UICONTROL Products]_グリッドから、商品を編集モードで開きます。
 
-1. ページ上部の&#x200B;_[!UICONTROL Scheduled Changes]_&#x200B;ボックスで、**[!UICONTROL Schedule New Update]**&#x200B;をクリックします。
+1. ページ上部の&#x200B;_[!UICONTROL Scheduled Changes]_ボックスで、**[!UICONTROL Schedule New Update]**をクリックします。
 
-   ![新しい更新をスケジュール &#x200B;](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
+   ![新しい更新をスケジュール ](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save as a New Update]** オプションを選択した状態で、更新の基本パラメーターを設定します。
 
@@ -47,9 +56,9 @@ ht-degree: 0%
 
    - 更新プログラムの概要&#x200B;**[!UICONTROL Description]**&#x200B;とその使用方法を入力します。
 
-   - カレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）ツールを使用して、キャンペーンの&#x200B;**開始日**&#x200B;と&#x200B;**終了日**&#x200B;を選択します。
+   - カレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）ツールを使用して、キャンペーンの&#x200B;**開始日**&#x200B;と&#x200B;**終了日**&#x200B;を選択します。
 
-     オープンエンドのキャンペーンを作成するには、終了日を指定しないでください（空白のままにします）。 この例では、キャンペーンは2021年1月1日午前0時（太平洋標準時）に開始される予定です。:00
+     オープンエンドのキャンペーンを作成するには、終了日を指定しないでください（空白のままにします）。 この例では、キャンペーンは2021年1月1日午前0時（太平洋標準時）の午前0時に開始される予定です。
 
 
      終了日なしで作成された価格ルールキャンペーンの場合、終了日を後で追加することはできません。 このような場合は、キャンペーンを作成し、開始日を古いキャンペーンを終了する日付に設定し、新しいキャンペーンを開始する日付に設定する必要があります。 その開始日に、古いキャンペーンが終了し、新しいキャンペーンが定義どおりに開始されます。
@@ -60,7 +69,7 @@ ht-degree: 0%
      >
      >キャンペーンの開始日と終了日は、各web サイトのローカルタイムゾーンから変換される&#x200B;**_default_**&#x200B;管理者タイムゾーンを使用して定義する必要があります。 例えば、異なるタイムゾーンに複数のweb サイトがある場合、米国（デフォルト）のタイムゾーンに基づいてキャンペーンを開始する場合は、ローカルタイムゾーンごとに個別の更新をスケジュールする必要があります。 この場合、各ローカル web サイトのタイムゾーンからデフォルトの管理者タイムゾーンに変換する&#x200B;**[!UICONTROL Start Date]**&#x200B;と&#x200B;**[!UICONTROL End Date]**&#x200B;を設定します。
 
-1. _[!UICONTROL Price]_&#x200B;までスクロールして、**[!UICONTROL Advanced Pricing]**&#x200B;をクリックします。
+1. _[!UICONTROL Price]_までスクロールして、**[!UICONTROL Advanced Pricing]**をクリックします。
 
 1. スケジュールされたキャンペーン中に製品の&#x200B;**[!UICONTROL Special Price]**&#x200B;を入力し、**[!UICONTROL Done]**&#x200B;をクリックします。
 
@@ -88,4 +97,4 @@ ht-degree: 0%
 >
 >スケジュールされた更新のステージング プレビューは、常に&#x200B;**default** ストアビューから開始され、ステージング更新キャンペーンをナビゲートする顧客のエクスペリエンスをエミュレートします。
 
-プレビューコンテンツツールを使用してプレビューの日付と範囲を変更する方法について詳しくは、[&#x200B; キャンペーンのプレビュー](content-staging-preview.md)を参照してください。 ストアのプレビューへのリンクを同僚と共有することもできます。
+プレビューコンテンツツールを使用してプレビューの日付と範囲を変更する方法について詳しくは、[ キャンペーンのプレビュー](content-staging-preview.md)を参照してください。 ストアのプレビューへのリンクを同僚と共有することもできます。

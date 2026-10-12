@@ -3,30 +3,39 @@ title: 価格ルールのダイナミックブロック
 description: ダイナミックブロックをプロモーション価格ルールに関連付けます。
 exl-id: e1564df2-1c06-4d11-a32d-6f5c0be974e3
 feature: Page Content, Price Rules
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-TQID: https://experienceleague.adobe.com/Fzw3GXEp2PNXIuvOpN62tBiLhTeMJGsDMfQpRwV1dSg
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: 'https://experienceleague.adobe.com/Fzw3GXEp2PNXIuvOpN62tBiLhTeMJGsDMfQpRwV1dSg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: a507b1ed-4937-53da-97ae-57d36bd5b9e0
+    internal-label: Price Rules
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 317
+source-wordcount: '317'
 ht-degree: 0%
-
 ---
-
 # 価格ルールのダイナミックブロック
 
 {{ee-feature}}
 
-作成した[動的ブロック &#x200B;](dynamic-blocks.md)は、プロモーションに関連付けることができます。 関連付けを行うには、まず動的ブロックと[&#x200B; カタログ価格ルール &#x200B;](../merchandising-promotions/price-rules-catalog.md)または[&#x200B; カート価格ルール &#x200B;](../merchandising-promotions/price-rules-cart.md)の両方を作成する必要があります。 関連付けは、価格ルールの作業中や動的ブロックの作業中に行うことができます。
+作成した[動的ブロック ](dynamic-blocks.md)は、プロモーションに関連付けることができます。 関連付けを行うには、まず動的ブロックと[ カタログ価格ルール ](../merchandising-promotions/price-rules-catalog.md)または[ カート価格ルール ](../merchandising-promotions/price-rules-cart.md)の両方を作成する必要があります。 関連付けは、価格ルールの作業中や動的ブロックの作業中に行うことができます。
 
 >[!IMPORTANT]
 >
@@ -34,7 +43,7 @@ ht-degree: 0%
 
 ## ダイナミックブロックと価格ルールの関連付け
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_&#x200B;に移動し、次のいずれかを選択します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_に移動し、次のいずれかを選択します。
 
    - **[!UICONTROL Catalog Price Rules]**
    - **[!UICONTROL Cart Price Rules]**
@@ -55,7 +64,7 @@ ht-degree: 0%
 
 ## 価格ルールの動的ブロックへの関連付け
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**に移動します。
 
 1. グリッドでダイナミックブロックを見つけ、編集モードで開きます。
 

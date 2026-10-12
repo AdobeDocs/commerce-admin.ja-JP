@@ -3,32 +3,44 @@ title: 顧客レポート
 description: Adobe CommerceおよびMagento Open Sourceで利用可能な顧客レポートは、指定された期間または日付範囲の顧客行動にinsightを提供します。
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-TQID: https://experienceleague.adobe.com/i6BKd2v1P3eT8BkNn4poW5BhsrH8bG86kNN58v-TRIQ
+TQID: 'https://experienceleague.adobe.com/i6BKd2v1P3eT8BkNn4poW5BhsrH8bG86kNN58v-TRIQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 subfeature_v2:
   - id: a0ba824e-0c31-421c-9b6f-aa500e5c18a1
+    internal-label: Customer reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 903
+source-wordcount: '903'
 ht-degree: 1%
-
 ---
-
 # 顧客レポート
 
 お客様レポートは、指定された期間または日付範囲の間に、お客様のアクティビティにinsightを提供します。
@@ -37,9 +49,9 @@ ht-degree: 1%
 
 [!UICONTROL Order Total Report]には、指定された時間間隔または日付範囲の顧客の注文が表示されます。 このレポートには、顧客あたりの注文数、平均注文額、合計金額が含まれます。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**&#x200B;に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**に移動します。
 
-![注文合計レポート &#x200B;](./assets/customers-order-total.png){width="600"}
+![注文合計レポート ](./assets/customers-order-total.png){width="600"}
 
 ### Workspaceコントロール
 
@@ -69,9 +81,9 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Custome
 
 [!UICONTROL Order Count Report]は、指定された時間間隔または日付範囲の顧客ごとの注文数を表示します。 このレポートには、顧客あたりの注文数、平均注文額、合計金額が含まれます。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**&#x200B;に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**に移動します。
 
-![注文数レポート &#x200B;](./assets/customer-order-count.png){width="600"}
+![注文数レポート ](./assets/customer-order-count.png){width="600"}
 
 ### Workspaceコントロール
 
@@ -101,9 +113,9 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Custome
 
 [!UICONTROL New Accounts Report]には、指定された時間間隔または日付範囲で開かれた新しい顧客アカウントの数が表示されます。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**&#x200B;に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**に移動します。
 
-![新規アカウントレポート &#x200B;](./assets/customers-new-accounts.png){width="600"}
+![新規アカウントレポート ](./assets/customers-new-accounts.png){width="600"}
 
 ### Workspaceコントロール
 
@@ -128,15 +140,15 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Custome
 
 ## [!UICONTROL Customer Wish List Report]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）
 
 [!UICONTROL Customer Wish List Report]は、お客様の要望リストに関する情報を提供します。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**&#x200B;に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**に移動します。
 
-![&#x200B; ウィッシュリストレポート &#x200B;](./assets/customer-wish-list.png){width="600"}
+![ ウィッシュリストレポート ](./assets/customer-wish-list.png){width="600"}
 
 ### Workspaceコントロール
 
@@ -174,9 +186,9 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Custome
 
 [!UICONTROL Customer Segment Report]は、各セグメントの顧客数に関する情報を提供します。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**&#x200B;に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**に移動します。
 
-![&#x200B; セグメントレポート &#x200B;](./assets/customers-segments.png){width="600"}
+![ セグメントレポート ](./assets/customers-segments.png){width="600"}
 
 ### Workspaceコントロール
 

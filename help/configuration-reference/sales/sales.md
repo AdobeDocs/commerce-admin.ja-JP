@@ -3,29 +3,39 @@ title: '[!UICONTROL Sales] > [!UICONTROL Sales]'
 description: Commerce管理者の[!UICONTROL Sales] > [!UICONTROL Sales] ページで設定を確認します。
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-TQID: https://experienceleague.adobe.com/n6xnRBJsLGouJgUcsf3EPhj5B1ny8RK3mV0bRbJIr30
+TQID: 'https://experienceleague.adobe.com/n6xnRBJsLGouJgUcsf3EPhj5B1ny8RK3mV0bRbJIr30'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: '1242'
 ht-degree: 1%
-
 ---
-
 # [!UICONTROL Sales] > [!UICONTROL Sales]
 
 {{config}}
@@ -34,7 +44,7 @@ ht-degree: 1%
 
 ![一般](./assets/sales-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
+<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -44,9 +54,9 @@ ht-degree: 1%
 
 ## [!UICONTROL Checkout Totals Sort Order]
 
-![&#x200B; チェックアウト合計の並べ替え順序](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
+![ チェックアウト合計の並べ替え順序](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
 
-<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
+<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -63,7 +73,7 @@ ht-degree: 1%
 
 ![並べ替え](./assets/sales-reorder.png)<!-- zoom -->
 
-<!-- [Reorder](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
+<!-- [Reorder](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -81,9 +91,9 @@ ht-degree: 1%
 
 ## [!UICONTROL Invoice and Packing Slip Design]
 
-![請求書と梱包伝票のデザイン &#x200B;](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
+![請求書と梱包伝票のデザイン ](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
 
-<!-- [Invoice and Packing Slip Design](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
+<!-- [Invoice and Packing Slip Design](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -97,7 +107,7 @@ ht-degree: 1%
 
 ![最低注文金額](./assets/sales-minimum-order-amount.png)<!-- zoom -->
 
-<!-- [Minimum Order Amount](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
+<!-- [Minimum Order Amount](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -115,9 +125,9 @@ ht-degree: 1%
 
 ## [!UICONTROL Dashboard]
 
-![&#x200B; ダッシュボード &#x200B;](./assets/sales-dashboard.png)<!-- zoom -->
+![ ダッシュボード ](./assets/sales-dashboard.png)<!-- zoom -->
 
-<!-- [Dashboard](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
+<!-- [Dashboard](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -129,7 +139,7 @@ ht-degree: 1%
 
 ![Cron設定を注文](./assets/sales-orders-cron-settings.png)<!-- zoom -->
 
-<!-- [Orders Cron Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/tools/cron) -->
+<!-- [Orders Cron Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cron) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -139,19 +149,19 @@ ht-degree: 1%
 
 ## [!UICONTROL Promotions]
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
 
-![&#x200B; プロモーション設定](./assets/sales-promotions-settings.png)<!-- zoom -->
+![ プロモーション設定](./assets/sales-promotions-settings.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Apply Catalog Price Rule on Grouped Price] | グローバル | 階層価格の数量が`1`に設定されている場合、カタログ価格ルール [&#128279;](../../catalog/product-price-tier.md)の階層価格を有効にします。  オプション：`Yes` / `No` |
+| [!UICONTROL Apply Catalog Price Rule on Grouped Price] | グローバル | 階層価格の数量が`1`に設定されている場合、カタログ価格ルール ](../../catalog/product-price-tier.md)の[階層価格を有効にします。  オプション：`Yes` / `No` |
 
 ## [!UICONTROL Gift Options]
 
-![&#x200B; ギフトオプション &#x200B;](./assets/sales-gift-options.png)<!-- zoom -->
+![ ギフトオプション ](./assets/sales-gift-options.png)<!-- zoom -->
 
-<!-- [Gift Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#gift-options) -->
+<!-- [Gift Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#gift-options) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -169,7 +179,7 @@ ht-degree: 1%
 
 ![広告の最低価格](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
 
-<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
+<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -185,7 +195,7 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![&#x200B; マルチクーポン設定](./assets/sales-multicoupon-settings.png)<!-- zoom -->
+![ マルチクーポン設定](./assets/sales-multicoupon-settings.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -199,7 +209,7 @@ ht-degree: 1%
 
 ![SKU設定による注文](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
-<!-- [Order by SKU Settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
+<!-- [Order by SKU Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
 
 ![顧客グループのSKU設定による注文](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
@@ -214,7 +224,7 @@ ht-degree: 1%
 
 ![即時購入](./assets/sales-instant-purchase.png)<!-- zoom -->
 
-<!-- [Instant Purchase](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
+<!-- [Instant Purchase](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -225,7 +235,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Rate Limiting]
 
-![&#x200B; レート制限](assets/sales-rate-limiting.png)<!-- zoom -->
+![ レート制限](assets/sales-rate-limiting.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--------------------------------------------------------|--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -240,7 +250,7 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![注文、請求書、出荷、クレジットメモのアーカイブ &#x200B;](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
+![注文、請求書、出荷、クレジットメモのアーカイブ ](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
 
 これらの設定の変更について詳しくは、_ストアと購入エクスペリエンスガイド_&#x200B;の[注文アーカイブの設定](../../stores-purchase/order-archive.md#configure-the-order-archive)を参照してください。
 
@@ -248,7 +258,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enable Archiving] | グローバル | アーカイブが有効かどうかを指定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Archive Orders Purchased] | グローバル | 完了した注文がアーカイブされるまでの日数を指定します。 デフォルト値：`30` |
-| [!UICONTROL Order  Statuses to be Archived] | グローバル | アーカイブする注文の[&#x200B; ステータス &#x200B;](../../stores-purchase/order-status.md)を決定します。 デフォルトでは、ステータスが「完了」または「クローズ」の注文がアーカイブされます。 オプション：`Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
+| [!UICONTROL Order  Statuses to be Archived] | グローバル | アーカイブする注文の[ ステータス ](../../stores-purchase/order-status.md)を決定します。 デフォルトでは、ステータスが「完了」または「クローズ」の注文がアーカイブされます。 オプション：`Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
 
 {style="table-layout:auto"}
 

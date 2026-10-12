@@ -4,30 +4,41 @@ description: 強化されたセキュリティスキャンを実行し、Adobe C
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-TQID: https://experienceleague.adobe.com/htuqRHD-ZLrN42IPAdZrEzbea8UirA0xS9eMcksZNQs
+TQID: 'https://experienceleague.adobe.com/htuqRHD-ZLrN42IPAdZrEzbea8UirA0xS9eMcksZNQs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1203
+source-wordcount: '1203'
 ht-degree: 0%
-
 ---
-
 # セキュリティスキャン
 
 セキュリティリスクやマルウェアがないかAdobe CommerceとMagento Open Sourceのサイトをモニタリングし、セキュリティアップデートや通知を受け取ります。
@@ -39,9 +50,9 @@ ht-degree: 0%
 - サイトの進捗状況を追跡、監視する過去のセキュリティレポートにアクセスできます。
 - 成功したチェックと失敗したチェック、および推奨されるアクションを表示するスキャンレポートにアクセスします。
 
-セキュリティスキャンツールは、[Commerce/Magento アカウント &#x200B;](../getting-started/commerce-account-create.md)のダッシュボードから無料で利用できます。 技術情報については、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[&#x200B; セキュリティスキャンツールの設定](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)」を参照してください。
+セキュリティスキャンツールは、[Commerce/Magento アカウント ](../getting-started/commerce-account-create.md)のダッシュボードから無料で利用できます。 技術情報については、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[ セキュリティスキャンツールの設定](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)」を参照してください。
 
-![&#x200B; セキュリティスキャンツール &#x200B;](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+![ セキュリティスキャンツール ](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## ワークフロー
 
@@ -52,7 +63,7 @@ Adobe CommerceまたはMagento Open Source サイトのセキュリティスキ�
 
 ### ステップ 1：セキュリティスキャン用にサイトを設定する
 
-1. Commerce ホームページから、[Commerce/Magento アカウント &#x200B;](../getting-started/commerce-account-create.md)にログインします。
+1. Commerceのホームページから、[Commerce/Magento アカウント ](../getting-started/commerce-account-create.md)にログインします。
 
 2. セキュリティスキャンツールの使用条件を確認し、同意します。
 
@@ -61,11 +72,11 @@ Adobe CommerceまたはMagento Open Source サイトのセキュリティスキ�
    1. **[!UICONTROL Terms and Conditions]**&#x200B;を読み取ります。
    1. **[!UICONTROL Agree]**&#x200B;をクリックして続行します。
 
-3. _[!UICONTROL Monitored Websites]_&#x200B;ページで、**[!UICONTROL +Add Site]**&#x200B;をクリックします。
+3. _[!UICONTROL Monitored Websites]_ページで、**[!UICONTROL +Add Site]**をクリックします。
 
    ドメインが異なる複数のサイトがある場合は、ドメインごとに個別のスキャンを設定します。
 
-   ![監視サイト &#x200B;](./assets/monitored-website.png){width="600" zoomable="yes"}
+   ![監視サイト ](./assets/monitored-website.png){width="600" zoomable="yes"}
 
 4. セキュリティスキャンツールに確認コードを生成して追加し、サイトドメインの所有権を確認します。
 
@@ -83,16 +94,16 @@ Adobe CommerceまたはMagento Open Source サイトのセキュリティスキ�
 
 1. 完全な管理者権限を持つユーザーとしてストアの管理者にログインし、次の操作を行います。
 
-   1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+   1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**に移動します。
    1. リストで自分のサイトを検索し、**[!UICONTROL Edit]**&#x200B;をクリックします。
    1. **[!UICONTROL HTML Head]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
    1. **[!UICONTROL Scripts and Style Sheets]**&#x200B;までスクロールし、既存のコードの最後にあるテキストボックスをクリックします。 確認コードをテキストボックスに貼り付けます。
 
-      ![&#x200B; スクリプトとスタイルシート &#x200B;](./assets/scan-paste-code.png){width="600" zoomable="yes"}
+      ![ スクリプトとスタイルシート ](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
    1. 完了したら、**[!UICONTROL Save Configuration]**&#x200B;をクリックします。
 
-1. Commerce アカウントの&#x200B;_[!UICONTROL Security Scan]_&#x200B;ページに戻り、**[!UICONTROL Verify Confirmation Code]**&#x200B;をクリックしてドメインの所有権を確立します。
+1. Commerce アカウントの&#x200B;_[!UICONTROL Security Scan]_ページに戻り、**[!UICONTROL Verify Confirmation Code]**をクリックしてドメインの所有権を確立します。
 
 >[!TAB PWA ストアフロント ]
 
@@ -134,7 +145,7 @@ Adobe CommerceまたはMagento Open Source サイトのセキュリティスキ�
 
       ビルドプロセスが完了すると、変更内容がPWA ストアフロントにデプロイされます。
 
-1. Commerce アカウントの&#x200B;_[!UICONTROL Security Scan]_&#x200B;ページに戻り、**[!UICONTROL Verify Confirmation Code]**&#x200B;をクリックしてドメインの所有権を確立します。
+1. Commerce アカウントの&#x200B;_[!UICONTROL Security Scan]_ページに戻り、**[!UICONTROL Verify Confirmation Code]**をクリックしてドメインの所有権を確立します。
 
 >[!TAB AEM ストアフロント ]
 
@@ -167,7 +178,7 @@ Adobe CommerceまたはMagento Open Source サイトのセキュリティスキ�
 
    ビルドプロセスが完了すると、変更内容がAEM ストアフロントにデプロイされます。
 
-1. Commerce アカウントの&#x200B;_[!UICONTROL Security Scan]_&#x200B;ページに戻り、**[!UICONTROL Verify Confirmation Code]**&#x200B;をクリックしてドメインの所有権を確立します。
+1. Commerce アカウントの&#x200B;_[!UICONTROL Security Scan]_ページに戻り、**[!UICONTROL Verify Confirmation Code]**をクリックしてドメインの所有権を確立します。
 
 >[!ENDTABS]
 
@@ -181,7 +192,7 @@ Adobe CommerceまたはMagento Open Source サイトのセキュリティスキ�
 
    デフォルトでは、スキャンは毎週真夜中の土曜日、UTCに開始され、日曜日の初めまで継続される予定です。
 
-   ![毎週スキャン &#x200B;](./assets/scan-weekly.png){width="500" zoomable="yes"}
+   ![毎週スキャン ](./assets/scan-weekly.png){width="500" zoomable="yes"}
 
    **毎日スキャン**:
 
@@ -189,11 +200,11 @@ Adobe CommerceまたはMagento Open Source サイトのセキュリティスキ�
 
    デフォルトでは、スキャンは毎日UTCの午前0時に開始するようにスケジュールされています。
 
-   ![毎日スキャン &#x200B;](./assets/scan-daily.png){width="500" zoomable="yes"}
+   ![毎日スキャン ](./assets/scan-daily.png){width="500" zoomable="yes"}
 
 1. 完了したスキャンとセキュリティ更新の通知を受信する&#x200B;**[!UICONTROL Email Address]**&#x200B;を入力します。
 
-   ![電子メールアドレス &#x200B;](./assets/scan-notification-email.png){width="400" zoomable="yes"}
+   ![電子メールアドレス ](./assets/scan-notification-email.png){width="400" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Submit]**&#x200B;をクリックします。
 
@@ -226,34 +237,34 @@ Adobe CommerceまたはMagento Open Source サイトのセキュリティスキ�
 
 偽陽性として識別したスキャン エラーを管理するには、次の手順に従います。
 
-1. _[!UICONTROL Monitored Websites]_&#x200B;ページで、管理するサイトの&#x200B;**[!UICONTROL View Report]**&#x200B;をクリックします。
+1. _[!UICONTROL Monitored Websites]_ページで、管理するサイトの&#x200B;**[!UICONTROL View Report]**をクリックします。
 
 1. レポートビューで、偽陽性としてマークする失敗したスキャンを探します。
 
 1. 特定のスキャン失敗については、**[!UICONTROL Ignore]**&#x200B;をクリックしてください。
 
-   ![&#x200B; スキャン失敗を無視](assets/security-scan-ignore-failure.png){width="600" zoomable="yes"}
+   ![ スキャン失敗を無視](assets/security-scan-ignore-failure.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Apply Changes]**&#x200B;をクリックして選択内容を保存します。
 
-無視されたスキャン失敗は&#x200B;_[!UICONTROL Ignored Results]_&#x200B;セクションに移動し、リスクスコアから除外されます。
+無視されたスキャン失敗は&#x200B;_[!UICONTROL Ignored Results]_セクションに移動し、リスクスコアから除外されます。
 
 ### スキャン失敗の無視を停止
 
 以前に無視したスキャン失敗をアクティブなモニタリングに復元する必要がある場合は、次の手順に従います。
 
-1. レポートビューで、_[!UICONTROL Ignored Results]_&#x200B;セクションまでスクロールします。
+1. レポートビューで、_[!UICONTROL Ignored Results]_セクションまでスクロールします。
 
 1. 復元するスキャン失敗の場合は、**[!UICONTROL Stop Ignoring]**&#x200B;をクリックします。
 
-   ![&#x200B; スキャン失敗を無視しない](assets/security-scan-stop-ignoring-failure.png){width="600" zoomable="yes"}
+   ![ スキャン失敗を無視しない](assets/security-scan-stop-ignoring-failure.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Apply Changes]**&#x200B;をクリックして選択内容を保存します。
 
-スキャン失敗は&#x200B;_[!UICONTROL Failed Scans]_&#x200B;セクションに戻り、リスクスコアに含まれます。
+スキャン失敗は&#x200B;_[!UICONTROL Failed Scans]_セクションに戻り、リスクスコアに含まれます。
 
 ### 無視されたスキャンのエラーを表示
 
 無視された結果はレポートの別のセクションに表示され、リスクスコアはアクティブなスキャンエラーのみを反映するように自動的に更新されます。 変更を適用する前に複数の項目を選択することで、一度に複数のスキャン失敗を管理できます。
 
-![&#x200B; ビューが無視されたスキャン失敗](assets/security-scan-view-ignored-failures.png){width="600" zoomable="yes"}
+![ ビューが無視されたスキャン失敗](assets/security-scan-view-ignored-failures.png){width="600" zoomable="yes"}

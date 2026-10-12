@@ -3,37 +3,52 @@ title: Meta data
 description: キーワードが豊富なメタデータを入力して、検索エンジンがCommerce サイトをインデックス化する方法を改善する方法について説明します。
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-TQID: https://experienceleague.adobe.com/hl0i6mlFJY5r5bIWNG6gQMGlWQMmaWOWBnt8pCpKT50
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: 'https://experienceleague.adobe.com/hl0i6mlFJY5r5bIWNG6gQMGlWQMmaWOWBnt8pCpKT50'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 747
+source-wordcount: '747'
 ht-degree: 0%
-
 ---
-
 # Meta data
 
 >[!TIP]
 >
->Adobe Commerce as a Cloud Serviceについては、Commerce Storefront ドキュメントの[&#x200B; メタデータガイドライン &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=ja)を参照してください
+>Adobe Commerce as a Cloud Serviceについては、Commerce Storefront ドキュメントの[ メタデータガイドライン ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/)を参照してください
 
 ストアには、キーワードが豊富なメタデータを入力できる場所がロードされており、検索エンジンがサイトをインデックス作成する方法を改善できます。 ストアの設定中に、後で完了するために予備のメタデータを入力することもできます。 時間の経過とともにメタデータを微調整し、顧客の購入パターンや嗜好をターゲットにすることができます。
 
@@ -43,13 +58,13 @@ ht-degree: 0%
 
 メタタイトルは、ブラウザーと検索結果リストのタイトルバーとタブに表示されます。 メタタイトルは、ページに固有で、長さが70文字未満である必要があります。
 
-![&#x200B; ストアフロントの例 – メタタイトル &#x200B;](./assets/storefront-home-page-meta-title.png){width="600"}
+![ ストアフロントの例 – メタタイトル ](./assets/storefront-home-page-meta-title.png){width="600"}
 
 ## Meta キーワード
 
 メタキーワードを無視する検索エンジンもありますが、そのまま使用している検索エンジンもあります。 現在のベストプラクティスは、メタタイトルとメタディスクリプションに価値の高いキーワードを組み込むことです。
 
-![Web ブラウザー検索 – メタキーワード &#x200B;](./assets/storefront-meta-description.png){width="500"}
+![Web ブラウザー検索 – メタキーワード ](./assets/storefront-meta-description.png){width="500"}
 
 ## Metaの説明
 
@@ -88,7 +103,7 @@ URLからカテゴリを省略するか、正規のメタタグを使用して�
 
 ### 正規メタタグを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
@@ -96,7 +111,7 @@ URLからカテゴリを省略するか、正規のメタタグを使用して�
 
    フィールド値を変更するには、最初に各フィールドの後ろに「**システム値を使用**」チェックボックスをオフにする必要があります。
 
-   ![&#x200B; カタログ設定 – 検索エンジン最適化](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![ カタログ設定 – 検索エンジン最適化](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. 完全なカテゴリパスを使用して、検索エンジンでカテゴリページのみをインデックス化する場合は、次の操作を行います。
 
@@ -116,4 +131,4 @@ URLからカテゴリを省略するか、正規のメタタグを使用して�
 
 SEO メタデータの管理について詳しくは、次の動画をご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410176?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)

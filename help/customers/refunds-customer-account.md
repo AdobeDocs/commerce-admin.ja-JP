@@ -3,33 +3,44 @@ title: 顧客アカウントダッシュボードでの返金
 description: 店舗のお客様は、アカウントダッシュボードで注文に関連付けられた返金情報を表示できます。
 exl-id: 8fd6d4e7-74ba-4f39-9a19-7c77ee63b913
 feature: Customers, Storefront
-TQID: https://experienceleague.adobe.com/ggaeec6NA2K12-eHl7ESC10nU2u11ihbaxaPlbNAE9I
+TQID: 'https://experienceleague.adobe.com/ggaeec6NA2K12-eHl7ESC10nU2u11ihbaxaPlbNAE9I'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: '485'
 ht-degree: 0%
-
 ---
-
 # 顧客アカウントダッシュボードでの返金
 
 {{ee-feature}}
 
-注文に対して払い戻しが発行された場合、顧客はアカウントダッシュボードで注文に関連付けられた払い戻し情報を表示できます。 [&#x200B; ストアクレジット設定](../customers/credit-configure.md)について「[!UICONTROL _ストアクレジット履歴を顧客に表示_]」オプションを有効にしている場合、顧客は[&#x200B; ストアクレジット &#x200B;](../customers/store-credit.md)履歴にもアクセスできます。
+注文に対して払い戻しが発行された場合、顧客はアカウントダッシュボードで注文に関連付けられた払い戻し情報を表示できます。 [ ストアクレジット設定](../customers/credit-configure.md)について「[!UICONTROL _ストアクレジット履歴を顧客に表示_]」オプションを有効にしている場合、顧客は[ ストアクレジット ](../customers/store-credit.md)履歴にもアクセスできます。
 
 ## ストアフロントで返金を表示する
 
@@ -42,7 +53,7 @@ ht-degree: 0%
 
 1. お客様は「**[!UICONTROL Refunds]**」タブをクリックして、払い戻しの詳細を表示します。
 
-   ![&#x200B; ストアフロントでの詳細の払い戻し](assets/customer-account-order-refunds.png){width="700" zoomable="yes"}
+   ![ ストアフロントでの詳細の払い戻し](assets/customer-account-order-refunds.png){width="700" zoomable="yes"}
 
 ## ストアフロントでストアクレジット残高と履歴を表示する
 
@@ -54,11 +65,11 @@ ht-degree: 0%
 
 1. ストアクレジットに返金された金額は、アクションの日時と共にリストに表示されます。
 
-   ![&#x200B; クレジットの保管に返金された金額](assets/customer-account-store-credit.png){width="700" zoomable="yes"}
+   ![ クレジットの保管に返金された金額](assets/customer-account-store-credit.png){width="700" zoomable="yes"}
 
    >[!INFO]
    >
-   >Store Credit ページには、お客様が[&#x200B; ギフトカード &#x200B;](../stores-purchase/product-gift-card-workflow.md#check-status-and-balance-of-the-gift-card)を引き換えるためのリンクも表示されます。
+   >Store Credit ページには、お客様が[ ギフトカード ](../stores-purchase/product-gift-card-workflow.md#check-status-and-balance-of-the-gift-card)を引き換えるためのリンクも表示されます。
 
 方法2: **_レビューと支払い_ ページ**&#x200B;から
 
@@ -70,7 +81,7 @@ ht-degree: 0%
 
 4. ストアクレジットが利用可能な場合、顧客は&#x200B;**[!UICONTROL Use Store Credit]**&#x200B;をクリックします。
 
-   ![&#x200B; レビューと支払いページからクレジットを保管](assets/customer-account-order-refund-from-checkout.png){width="700" zoomable="yes"}
+   ![ レビューと支払いページからクレジットを保管](assets/customer-account-order-refund-from-checkout.png){width="700" zoomable="yes"}
 
 5. お客様がストアクレジットの使用に関する考えを変更した場合、「_注文概要_」セクションの「**[!UICONTROL Remove]**」をクリックします。
 

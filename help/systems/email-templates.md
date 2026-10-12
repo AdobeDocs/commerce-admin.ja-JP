@@ -3,33 +3,42 @@ title: メールテンプレート
 description: メールテンプレートの概要と、それを活用して顧客とのコミュニケーションをサポートし、ブランドを強化する方法について解説します。
 exl-id: dfe28c77-607e-41e4-b872-3a07bcd67962
 feature: Communications, Configuration
-TQID: https://experienceleague.adobe.com/b2RVtAEBH78pLiFPb-HKBbhGhLa-npNL54-cvmlEosA
+TQID: 'https://experienceleague.adobe.com/b2RVtAEBH78pLiFPb-HKBbhGhLa-npNL54-cvmlEosA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1153
+source-wordcount: '1153'
 ht-degree: 0%
-
 ---
-
 # メールテンプレート
 
 メールテンプレートは、ストアから送信される自動メッセージのレイアウト、コンテンツ、形式を定義します。 トランザクションメールとは、それぞれが特定の種類のトランザクション、つまりイベントに関連付けられているため、トランザクションメールと呼ばれます。
 
-Commerceには、ストアの稼働中に発生するさまざまなイベントによってトリガーされる、一連のレスポンシブ電子メールテンプレートが含まれています。 各テンプレートはあらゆる画面サイズに最適化されており、デスクトップ、タブレット、モバイルデバイスから表示できます。 顧客アクティビティ、セールス、製品アラート、管理者アクション、システムメッセージに関連する様々な準備されたメールテンプレートがあり、[&#x200B; カスタマイズ &#x200B;](email-template-custom.md)してブランドを反映できます。
+Commerceには、ストアの稼働中に発生するさまざまなイベントによってトリガーされる、一連のレスポンシブ電子メールテンプレートが含まれています。 各テンプレートはあらゆる画面サイズに最適化されており、デスクトップ、タブレット、モバイルデバイスから表示できます。 顧客アクティビティ、セールス、製品アラート、管理者アクション、システムメッセージに関連する様々な準備されたメールテンプレートがあり、[ カスタマイズ ](email-template-custom.md)してブランドを反映できます。
 
 Commerce電子メールは、HTMLおよびプレーンテキストメールクライアントでレンダリングできます。 電子メールのレンダリング方法に、クライアント間で多少の違いがある可能性があります。
 
@@ -58,19 +67,19 @@ Commerce電子メールは、HTMLおよびプレーンテキストメールク�
 
 ## メールテンプレートの設定
 
-設定により、デフォルトのヘッダーテンプレートに表示されるロゴ、およびストアから送信されるトランザクションメールメッセージに使用するカスタム [&#x200B; ヘッダー](email-template-custom.md#header-template)および[&#x200B; フッター](email-template-custom.md#footer-template) テンプレートが決まります。
+設定により、デフォルトのヘッダーテンプレートに表示されるロゴ、およびストアから送信されるトランザクションメールメッセージに使用するカスタム [ ヘッダー](email-template-custom.md#header-template)および[ フッター](email-template-custom.md#footer-template) テンプレートが決まります。
 
-![&#x200B; トランザクションメールのデザイン &#x200B;](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
+![ トランザクションメールのデザイン ](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
 
 構成設定の詳細なリストについては、_コンテンツとデザインガイド_&#x200B;の&#x200B;[_トランザクションメール_](../content-design/configuration.md)&#x200B;を参照してください。
 
 ## 手順1: ロゴをアップロード
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**に移動します。
 
-1. 設定するストアビューを見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
+1. 設定するストアビューを見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
 
-1. _[!UICONTROL Other Settings]_&#x200B;で、**[!UICONTROL Transactional Emails]**&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
+1. _[!UICONTROL Other Settings]_で、**[!UICONTROL Transactional Emails]**セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
 1. 準備した&#x200B;**[!UICONTROL Logo Image]**&#x200B;をアップロードするには、**[!UICONTROL Upload]**&#x200B;をクリックし、システムからファイルを選択します。
 
@@ -82,7 +91,7 @@ Commerce電子メールは、HTMLおよびプレーンテキストメールク�
 
 ## 手順2: ヘッダーとフッターのテンプレートの選択
 
-ストアまたは異なるストア用のカスタムヘッダーとフッターのテンプレートがある場合は、設定の[&#x200B; スコープ &#x200B;](../getting-started/websites-stores-views.md#scope-settings)に従って、それぞれに使用するテンプレートを指定できます。 それ以外の場合は、デフォルトのテンプレートが使用されます。 詳しくは、[電子メールテンプレートのカスタマイズ &#x200B;](email-template-custom.md)を参照してください。
+ストアまたは異なるストア用のカスタムヘッダーとフッターのテンプレートがある場合は、設定の[ スコープ ](../getting-started/websites-stores-views.md#scope-settings)に従って、それぞれに使用するテンプレートを指定できます。 それ以外の場合は、デフォルトのテンプレートが使用されます。 詳しくは、[電子メールテンプレートのカスタマイズ ](email-template-custom.md)を参照してください。
 
 1. すべてのトランザクションメールメッセージに使用する&#x200B;**[!UICONTROL Header Template]**&#x200B;を選択します。
 
@@ -223,9 +232,9 @@ Commerce電子メールは、HTMLおよびプレーンテキストメールク�
 
 | テンプレート | 設定パス |
 |--- |--- |
-| `New Registry` | **ページ：** [!UICONTROL &#x200B; Customers] > [[!UICONTROL &#x200B; Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**セクション：** [!UICONTROL Owner Notification]<br/>**フィールド：** [!UICONTROL Email Template] |
-| `Registry Sharing` | **ページ：** [!UICONTROL &#x200B; Customers] > [[!UICONTROL &#x200B; Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**セクション：** [!UICONTROL Gift Registry Sharing]<br/>**フィールド：** [!UICONTROL Email Template] |
-| `Registry Update` | **ページ：** [!UICONTROL &#x200B; Customers] > [[!UICONTROL &#x200B; Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**セクション：** [!UICONTROL Gift Registry Update]<br/>**フィールド：** [!UICONTROL Email Template] |
+| `New Registry` | **ページ：** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**セクション：** [!UICONTROL Owner Notification]<br/>**フィールド：** [!UICONTROL Email Template] |
+| `Registry Sharing` | **ページ：** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**セクション：** [!UICONTROL Gift Registry Sharing]<br/>**フィールド：** [!UICONTROL Email Template] |
+| `Registry Update` | **ページ：** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**セクション：** [!UICONTROL Gift Registry Update]<br/>**フィールド：** [!UICONTROL Email Template] |
 
 {style="table-layout:auto"}
 
@@ -233,8 +242,8 @@ Commerce電子メールは、HTMLおよびプレーンテキストメールク�
 
 | テンプレート | 設定パス |
 |--- |--- |
-| `Order is Ready for Pickup` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Order Ready For Pickup in Store]<br/>**フィールド：** [!UICONTROL Order Ready For Pickup Email Template] |
-| `Order is Ready for Pickup For Guest` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Order Ready For Pickup in Store]<br/>**フィールド：** [!UICONTROL Order Ready For Pickup Email Template for Guest] |
+| `Order is Ready for Pickup` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Order Ready For Pickup in Store]<br/>**フィールド：** [!UICONTROL Order Ready For Pickup Email Template] |
+| `Order is Ready for Pickup For Guest` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Order Ready For Pickup in Store]<br/>**フィールド：** [!UICONTROL Order Ready For Pickup Email Template for Guest] |
 
 {style="table-layout:auto"}
 
@@ -252,12 +261,12 @@ Commerce電子メールは、HTMLおよびプレーンテキストメールク�
 
 | テンプレート | 設定パス |
 |--- |--- |
-| `Declined Quote` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Quote]<br/>**フィールド：** [!UICONTROL Declined Quote Template (to Buyer)] |
-| `Expiration Date Reset` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Quote]<br/>**フィールド：** [!UICONTROL Expiration Date Reset]<br/> **ページ：** [!UICONTROL Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Quote]<br/>**フィールド：** [!UICONTROL Order Ready For Pickup Email Template] |
-| `Expiration Warning` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Quote]<br/>**フィールド：** [!UICONTROL Quote Expiration (in 48 hrs)] |
-| `Expiration Warning1` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Quote]<br/>**フィールド：** [!UICONTROL Quote Expiration (in 24 hrs)] |
-| `New Quote` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Quote]<br/>**フィールド：** [!UICONTROL New Quote Template (to Seller)] |
-| `Updated Quote` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Quote]<br/>**フィールド：** [!UICONTROL Updated Quote Template (to Seller)] |
+| `Declined Quote` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Quote]<br/>**フィールド：** [!UICONTROL Declined Quote Template (to Buyer)] |
+| `Expiration Date Reset` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Quote]<br/>**フィールド：** [!UICONTROL Expiration Date Reset]<br/> **ページ：** [!UICONTROL Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Quote]<br/>**フィールド：** [!UICONTROL Order Ready For Pickup Email Template] |
+| `Expiration Warning` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Quote]<br/>**フィールド：** [!UICONTROL Quote Expiration (in 48 hrs)] |
+| `Expiration Warning1` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Quote]<br/>**フィールド：** [!UICONTROL Quote Expiration (in 24 hrs)] |
+| `New Quote` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Quote]<br/>**フィールド：** [!UICONTROL New Quote Template (to Seller)] |
+| `Updated Quote` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Quote]<br/>**フィールド：** [!UICONTROL Updated Quote Template (to Seller)] |
 
 {style="table-layout:auto"}
 
@@ -265,9 +274,9 @@ Commerce電子メールは、HTMLおよびプレーンテキストメールク�
 
 | テンプレート | 設定パス |
 |--- |--- |
-| `Subscription Confirmation` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**セクション：** [!UICONTROL &#x200B; Subscription Options]<br/>**フィールド：** [!UICONTROL Confirmation Email Template] |
-| `Subscription Success` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**セクション：** [!UICONTROL &#x200B; Subscription Options]<br/>**フィールド：** [!UICONTROL Success Email Template] |
-| `Unsubscription Success` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**セクション：** [!UICONTROL &#x200B; Subscription Options]<br/>**フィールド：** [!UICONTROL Unsubscription Email Template] |
+| `Subscription Confirmation` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**セクション：** [!UICONTROL  Subscription Options]<br/>**フィールド：** [!UICONTROL Confirmation Email Template] |
+| `Subscription Success` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**セクション：** [!UICONTROL  Subscription Options]<br/>**フィールド：** [!UICONTROL Success Email Template] |
+| `Unsubscription Success` | **ページ：** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**セクション：** [!UICONTROL  Subscription Options]<br/>**フィールド：** [!UICONTROL Unsubscription Email Template] |
 
 {style="table-layout:auto"}
 
@@ -285,15 +294,15 @@ Commerce電子メールは、HTMLおよびプレーンテキストメールク�
 
 | テンプレート | 設定パス |
 |--- |--- |
-| `Approved Purchase Order` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Purchase Order Approval]<br/>**フィールド：** [!UICONTROL Approved Purchase Order] |
-| `Approved, requires payment` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Purchase Order Approval]<br/>**フィールド：** [!UICONTROL Approved, requires payment details (to Buyer)] |
-| `Comment added to Purchase Order` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Purchase Order Approval]<br/>**フィールド：** [!UICONTROL Comment added to Purchase Order] |
-| `Created and Auto-approved Purchase Order` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Purchase Order Approval]<br/>**フィールド：** [!UICONTROL Created and Automatically approved Purchase Order (to Buyer)] |
-| `Created and automatically approved, requires payment details` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Purchase Order Approval]<br/>**フィールド：** [!UICONTROL Created and automatically approved, requires payment details (to Buyer)] |
-| `Created and requires Approval Purchase Order` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Purchase Order Approval]<br/>**フィールド：** [!UICONTROL Created and requires Approval Purchase Order (to Buyer)] |
-| `Error creating Order from Purchase Order` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Purchase Order Approval]<br/>**フィールド：** [!UICONTROL Error creating Order from Purchase Order (to Buyer)] |
-| `Purchase Order requires Approval` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Purchase Order Approval]<br/>**フィールド：** [!UICONTROL Purchase Order requires Approval (to Approver)] |
-| `Rejected Purchase Order` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Purchase Order Approval]<br/>**フィールド：** [!UICONTROL Rejected Purchase Order (to Buyer)] |
+| `Approved Purchase Order` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Purchase Order Approval]<br/>**フィールド：** [!UICONTROL Approved Purchase Order] |
+| `Approved, requires payment` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Purchase Order Approval]<br/>**フィールド：** [!UICONTROL Approved, requires payment details (to Buyer)] |
+| `Comment added to Purchase Order` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Purchase Order Approval]<br/>**フィールド：** [!UICONTROL Comment added to Purchase Order] |
+| `Created and Auto-approved Purchase Order` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Purchase Order Approval]<br/>**フィールド：** [!UICONTROL Created and Automatically approved Purchase Order (to Buyer)] |
+| `Created and automatically approved, requires payment details` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Purchase Order Approval]<br/>**フィールド：** [!UICONTROL Created and automatically approved, requires payment details (to Buyer)] |
+| `Created and requires Approval Purchase Order` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Purchase Order Approval]<br/>**フィールド：** [!UICONTROL Created and requires Approval Purchase Order (to Buyer)] |
+| `Error creating Order from Purchase Order` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Purchase Order Approval]<br/>**フィールド：** [!UICONTROL Error creating Order from Purchase Order (to Buyer)] |
+| `Purchase Order requires Approval` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Purchase Order Approval]<br/>**フィールド：** [!UICONTROL Purchase Order requires Approval (to Approver)] |
+| `Rejected Purchase Order` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL Purchase Order Approval]<br/>**フィールド：** [!UICONTROL Rejected Purchase Order (to Buyer)] |
 
 {style="table-layout:auto"}
 
@@ -324,13 +333,13 @@ Commerce電子メールは、HTMLおよびプレーンテキストメールク�
 
 | テンプレート | 設定パス |
 |--- |--- |
-| `New RMA` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL &#x200B; RMA]<br/>**フィールド：** [!UICONTROL RMA Email Template] |
-| `New RMA for Guest` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL &#x200B; RMA]<br/>**フィールド：** [!UICONTROL RMA Email Template for Guest] |
-| `RMA Admin Comments` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL &#x200B; RMA Admin Comments]<br/>**フィールド：** [!UICONTROL RMA Comment Email Template] |
-| `RMA Admin Comments for Guest` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL &#x200B; RMA Admin Comments]<br/>**フィールド：** [!UICONTROL RMA Comment Email Template for Guest] |
-| `RMA Authorization` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL &#x200B; RMA Authorization]<br/>**フィールド：** [!UICONTROL RMA Authorization Email Template] |
-| `RMA Authorization for Guest` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL &#x200B; RMA Authorization]<br/>**フィールド：** [!UICONTROL RMA Authorization Email Template for Guest] |
-| `RMA Customer Comments` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL RMA Customer Comments]<br/>**フィールド：** [!DNL RMA Comment Email Template] |
+| `New RMA` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL  RMA]<br/>**フィールド：** [!UICONTROL RMA Email Template] |
+| `New RMA for Guest` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL  RMA]<br/>**フィールド：** [!UICONTROL RMA Email Template for Guest] |
+| `RMA Admin Comments` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL  RMA Admin Comments]<br/>**フィールド：** [!UICONTROL RMA Comment Email Template] |
+| `RMA Admin Comments for Guest` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL  RMA Admin Comments]<br/>**フィールド：** [!UICONTROL RMA Comment Email Template for Guest] |
+| `RMA Authorization` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL  RMA Authorization]<br/>**フィールド：** [!UICONTROL RMA Authorization Email Template] |
+| `RMA Authorization for Guest` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL  RMA Authorization]<br/>**フィールド：** [!UICONTROL RMA Authorization Email Template for Guest] |
+| `RMA Customer Comments` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**セクション：** [!UICONTROL RMA Customer Comments]<br/>**フィールド：** [!DNL RMA Comment Email Template] |
 
 {style="table-layout:auto"}
 
@@ -338,38 +347,38 @@ Commerce電子メールは、HTMLおよびプレーンテキストメールク�
 
 | テンプレート | 設定パス |
 |--- |--- |
-| `Credit Memo Update` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Credit Memo Contents]<br/>**フィールド：** [!UICONTROL Credit Memo Comment Email Template] |
-| `Credit Memo Update (Magento/luma)` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Credit Memo Comments]<br/>**フィールド：** [!UICONTROL Credit Memo Comment Email Template] |
-| `Credit Memo Update for Guest` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Credit Memo Comments]<br/>**フィールド：** [!UICONTROL Credit Memo Comment Email Template for Guest] |
-| `Credit Memo Update for Guest (Magento/luma)` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Credit Memo Comments]<br/>**フィールド：** [!UICONTROL Credit Memo Comment Email Template for Guest] |
-| `Invoice Update` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice Comments]<br/>**フィールド：** [!UICONTROL Invoice Comment Email Template] |
-| `Invoice Update (Magento/luma)` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice Comments]<br/>**フィールド：** [!UICONTROL Invoice Comment Email Template] |
-| `Invoice Update for Guest` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice Comments]<br/>**フィールド：** [!UICONTROL Invoice Comment Email Template for Guest] |
-| `Invoice Update for Guest (Magento/luma)` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice Comments]<br/>**フィールド：** [!UICONTROL Invoice Comment Email Template for Guest] |
-| `New Credit Memo` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Credit Memo]<br/>**フィールド：** [!UICONTROL Credit Memo Email Template] |
-| `New Credit Memo (Magento/luma)` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]]../configuration-reference/sales/sales-emails.md） <br/>**セクション：** [!UICONTROL Credit Memo]<br/>**フィールド：** [!UICONTROL Credit Memo Email Template] |
-| `New Credit Memo for Guest` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Credit Memo]<br/>**フィールド：** [!UICONTROL Credit Memo Email Template for Guest] |
-| `New Credit Memo for Guest (Magento/luma)` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Credit Memo]<br/>**フィールド：** [!UICONTROL Credit Memo Email Template for Guest] |
-| `New Invoice` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice]<br/>**フィールド：** [!UICONTROL Invoice Email Template] |
-| `New Invoice (Magento/luma)` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice]<br/>**フィールド：** [!UICONTROL Invoice Email Template] |
-| `New Invoice for Guest` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice]<br/>**フィールド：** [!UICONTROL Invoice Email Template for Guest] |
-| `New Invoice for Guest (Magento/luma)` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice]<br/>**フィールド：** [!UICONTROL Invoice Email Template for Guest] |
-| `New Order` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Order]<br/>**フィールド：** [!UICONTROL New Order Confirmation Template] |
-| `New Order (Magento/luma)` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Order]<br/>**フィールド：** [!UICONTROL New Order Confirmation Template] |
-| `New Order for Guest` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Order]<br/>**フィールド：** [!UICONTROL New Order Confirmation Template for Guest] |
-| `New Order for Guest (Magento/luma)` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Order]<br/>**フィールド：** [!UICONTROL New Order Confirmation Template for Guest] |
-| `New Shipment` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Shipment]<br/>**フィールド：** [!UICONTROL Shipment Email Template] |
-| `New Shipment (Magento/luma)` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Shipment]<br/>**フィールド：** [!UICONTROL Shipment Email Template] |
-| `New Shipment for Guest` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Shipment]<br/>**フィールド：** [!UICONTROL Shipment Email Template for Guest] |
-| `New Shipment for Guest (Magento/luma)` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Shipment]<br/>**フィールド：** [!UICONTROL Shipment Email Template for Guest] |
-| `Order Update` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Order Comments]<br/>**フィールド：** [!UICONTROL Order Comment Email Template] |
-| `Order Update (Magento/luma)` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Order Comments]<br/>**フィールド：** [!UICONTROL Order Comment Email Template] |
-| `Order Update for Guest` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Order Comments]<br/>**フィールド：** [!UICONTROL Order Comment Email Template for Guest] |
-| `Order Update for Guest (Magento/luma)` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Order Comments]<br/>**フィールド：** [!UICONTROL Order Comment Email Template for Guest] |
-| `Shipment Update` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Shipment Comments]<br/>**フィールド：** [!UICONTROL Shipment Comment Email Template] |
-| `Shipment Update (Magento/luma)` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Shipment Comments]<br/>**フィールド：** [!UICONTROL Shipment Comment Email Template] |
-| `Shipment Update for Guest` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Shipment Comments]<br/>**フィールド：** [!UICONTROL Shipment Comment Email Template for Guest] |
-| `Shipment Update for Guest (Magento/luma)` | **ページ：** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Shipment Comments]<br/>**フィールド：** [!UICONTROL Shipment Comment Email Template for Guest] |
+| `Credit Memo Update` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Credit Memo Contents]<br/>**フィールド：** [!UICONTROL Credit Memo Comment Email Template] |
+| `Credit Memo Update (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Credit Memo Comments]<br/>**フィールド：** [!UICONTROL Credit Memo Comment Email Template] |
+| `Credit Memo Update for Guest` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Credit Memo Comments]<br/>**フィールド：** [!UICONTROL Credit Memo Comment Email Template for Guest] |
+| `Credit Memo Update for Guest (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Credit Memo Comments]<br/>**フィールド：** [!UICONTROL Credit Memo Comment Email Template for Guest] |
+| `Invoice Update` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice Comments]<br/>**フィールド：** [!UICONTROL Invoice Comment Email Template] |
+| `Invoice Update (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice Comments]<br/>**フィールド：** [!UICONTROL Invoice Comment Email Template] |
+| `Invoice Update for Guest` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice Comments]<br/>**フィールド：** [!UICONTROL Invoice Comment Email Template for Guest] |
+| `Invoice Update for Guest (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice Comments]<br/>**フィールド：** [!UICONTROL Invoice Comment Email Template for Guest] |
+| `New Credit Memo` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Credit Memo]<br/>**フィールド：** [!UICONTROL Credit Memo Email Template] |
+| `New Credit Memo (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]]../configuration-reference/sales/sales-emails.md） <br/>**セクション：** [!UICONTROL Credit Memo]<br/>**フィールド：** [!UICONTROL Credit Memo Email Template] |
+| `New Credit Memo for Guest` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Credit Memo]<br/>**フィールド：** [!UICONTROL Credit Memo Email Template for Guest] |
+| `New Credit Memo for Guest (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Credit Memo]<br/>**フィールド：** [!UICONTROL Credit Memo Email Template for Guest] |
+| `New Invoice` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice]<br/>**フィールド：** [!UICONTROL Invoice Email Template] |
+| `New Invoice (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice]<br/>**フィールド：** [!UICONTROL Invoice Email Template] |
+| `New Invoice for Guest` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice]<br/>**フィールド：** [!UICONTROL Invoice Email Template for Guest] |
+| `New Invoice for Guest (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Invoice]<br/>**フィールド：** [!UICONTROL Invoice Email Template for Guest] |
+| `New Order` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Order]<br/>**フィールド：** [!UICONTROL New Order Confirmation Template] |
+| `New Order (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Order]<br/>**フィールド：** [!UICONTROL New Order Confirmation Template] |
+| `New Order for Guest` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Order]<br/>**フィールド：** [!UICONTROL New Order Confirmation Template for Guest] |
+| `New Order for Guest (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Order]<br/>**フィールド：** [!UICONTROL New Order Confirmation Template for Guest] |
+| `New Shipment` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Shipment]<br/>**フィールド：** [!UICONTROL Shipment Email Template] |
+| `New Shipment (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Shipment]<br/>**フィールド：** [!UICONTROL Shipment Email Template] |
+| `New Shipment for Guest` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Shipment]<br/>**フィールド：** [!UICONTROL Shipment Email Template for Guest] |
+| `New Shipment for Guest (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Shipment]<br/>**フィールド：** [!UICONTROL Shipment Email Template for Guest] |
+| `Order Update` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Order Comments]<br/>**フィールド：** [!UICONTROL Order Comment Email Template] |
+| `Order Update (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Order Comments]<br/>**フィールド：** [!UICONTROL Order Comment Email Template] |
+| `Order Update for Guest` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Order Comments]<br/>**フィールド：** [!UICONTROL Order Comment Email Template for Guest] |
+| `Order Update for Guest (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Order Comments]<br/>**フィールド：** [!UICONTROL Order Comment Email Template for Guest] |
+| `Shipment Update` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Shipment Comments]<br/>**フィールド：** [!UICONTROL Shipment Comment Email Template] |
+| `Shipment Update (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Shipment Comments]<br/>**フィールド：** [!UICONTROL Shipment Comment Email Template] |
+| `Shipment Update for Guest` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Shipment Comments]<br/>**フィールド：** [!UICONTROL Shipment Comment Email Template for Guest] |
+| `Shipment Update for Guest (Magento/luma)` | **ページ：** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**セクション：** [!UICONTROL Shipment Comments]<br/>**フィールド：** [!UICONTROL Shipment Comment Email Template for Guest] |
 
 {style="table-layout:auto"}
 

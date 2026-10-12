@@ -3,32 +3,40 @@ title: 返品
 description: 返品ワークフローと返品承認の発行について説明します。
 exl-id: 9dde0360-aa99-4fc4-92ff-976d9874ffec
 feature: Returns
-TQID: https://experienceleague.adobe.com/aqLSVZ943i7njT3XKZowZo9KhQz4azqZ6watc4J1w-Y
+TQID: 'https://experienceleague.adobe.com/aqLSVZ943i7njT3XKZowZo9KhQz4azqZ6watc4J1w-Y'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: ac07462c-732c-5c1c-947b-4ce533b4fcfb
+    internal-label: Returns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 687
+source-wordcount: '687'
 ht-degree: 0%
-
 ---
-
 # 返品
 
-返品された商品認証&#x200B;_（RMA）は、交換または返金のために商品の返品をリクエストするお客様に付与できます。_&#x200B;通常、顧客は加盟店に連絡して返金を要求します。 承認された場合は、返品された製品を識別するために、一意のRMA番号が割り当てられます。 設定では、すべての製品に対してRMAを有効にするか、特定の製品に対してのみRMAを許可することができます。 _[!UICONTROL Returns]_&#x200B;グリッドには、現在の返品要求（RMA）が一覧表示され、新しい返品要求の入力に使用されます。
+返品された商品認証&#x200B;_（RMA）は、交換または返金のために商品の返品をリクエストするお客様に付与できます。_&#x200B;通常、顧客は加盟店に連絡して返金を要求します。 承認された場合は、返品された製品を識別するために、一意のRMA番号が割り当てられます。 設定では、すべての製品に対してRMAを有効にするか、特定の製品に対してのみRMAを許可することができます。 _[!UICONTROL Returns]_グリッドには、現在の返品要求（RMA）が一覧表示され、新しい返品要求の入力に使用されます。
 
-![&#x200B; グリッドを返します](./assets/return.png){width="600" zoomable="yes"}
+![ グリッドを返します](./assets/return.png){width="600" zoomable="yes"}
 
 RMAは、シンプル、グループ化、設定可能、バンドルの各タイプに対して発行できます。 ただし、RMAは、バーチャル商品、ダウンロード可能な商品、ギフトカードでは利用できません。
 
@@ -49,7 +57,7 @@ RMAは、シンプル、グループ化、設定可能、バンドルの各タ�
 
 ## RMAと返品ワークフロー
 
-1. **リクエストを受け取る** - ストアフロントで[が有効になっている](rma-configure.md#enable-rmas-for-your-store)場合、登録されたお客様とゲストの両方がRMAをリクエストできます。 管理者[&#128279;](#create-a-return-request-in-the-admin)でRMA リクエストを送信することもできます。
+1. **リクエストを受け取る** - ストアフロントで[が有効になっている](rma-configure.md#enable-rmas-for-your-store)場合、登録されたお客様とゲストの両方がRMAをリクエストできます。 管理者](#create-a-return-request-in-the-admin)で[RMA リクエストを送信することもできます。
 
 2. **RMAが発行されました** - リクエストを検討した後、リクエストを部分的に承認、完全に承認、またはキャンセルできます。 返品を承認し、返品送料の支払いに同意した場合は、サポートされている配送業者を使用して管理者から発送注文を作成できます。
 
@@ -78,7 +86,7 @@ RMAは、シンプル、グループ化、設定可能、バンドルの各タ�
 
 ## 管理者で返品リクエストを作成する
 
-管理者から、顧客の代理として返品リクエストを作成できます。 お客様は、Adobe Commerce ストアのストアフロントで[返品リクエスト &#x200B;](rma-customer-experience.md)を作成できます。
+管理者から、顧客の代理として返品リクエストを作成できます。 お客様は、Adobe Commerce ストアのストアフロントで[返品リクエスト ](rma-customer-experience.md)を作成できます。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > **[!UICONTROL Returns]**&#x200B;に移動します。
 

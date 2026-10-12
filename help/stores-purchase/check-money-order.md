@@ -3,38 +3,46 @@ title: 小切手と為替
 description: 店舗でのオフライン支払い方法として、小切手とマネーオーダーを設定する方法について説明します。
 exl-id: e004f0c3-f659-4b08-a41a-88bfc05acaab
 feature: Payments
-TQID: https://experienceleague.adobe.com/mmlEdLGANV93nvet3YwYoBGZKcft1qYuA6HboQ0Buvw
+TQID: 'https://experienceleague.adobe.com/mmlEdLGANV93nvet3YwYoBGZKcft1qYuA6HboQ0Buvw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: '337'
 ht-degree: 0%
-
 ---
-
 # 小切手と為替
 
 Adobe CommerceとMagento Open Sourceでは、小切手またはマネーオーダーによる支払いを受け付けることができます。 お客様の店舗では、デフォルトで&#x200B;_Check / Money Order_&#x200B;支払い方法が有効になっています。 特定の国からのみ小切手やマネーオーダーを受け付けることができ、最小および最大の注文合計制限で設定を微調整できます。
 
 **_小切手または為替による支払いを設定するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Payment Methods]**&#x200B;を選択します。
 
-1. _[!UICONTROL Other Payment Methods]_&#x200B;で、**[!UICONTROL Check / Money Order]**&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
+1. _[!UICONTROL Other Payment Methods]_で、**[!UICONTROL Check / Money Order]**セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
    ![小切手/為替](../configuration-reference/sales/assets/payment-methods-check-money-order.png){width="600" zoomable="yes"}
 
@@ -55,7 +63,7 @@ Adobe CommerceとMagento Open Sourceでは、小切手またはマネーオー�
 1. **[!UICONTROL Payment from Applicable Countries]**&#x200B;を次のいずれかに設定します：
 
    - `All Allowed Countries` - ストア設定で指定されたすべての[国](../getting-started/store-details.md#country-options)のお客様は、この支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）またはCommand キー（Mac）を押しながら、各オプションをクリックします。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）またはCommand キー（Mac）を押しながら、各オプションをクリックします。
 
 1. **[!UICONTROL Make Check Payable To]**&#x200B;に、小切手の支払い先となる関係者の名前を入力します。
 

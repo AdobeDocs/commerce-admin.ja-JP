@@ -3,29 +3,42 @@ title: 要求リスト
 description: 購買リストについて学び、頻繁に注文される商品をショッピングカートに簡単に追加するために、購買リストがどのように使用されるかを学びます。
 exl-id: a21909de-18e7-4aa6-b30d-5d4fb02060ec
 feature: B2B
-TQID: https://experienceleague.adobe.com/z0EYQuHv119NiEwIZ9kPGXbm-49qA818WrhnXPggbvQ
+TQID: 'https://experienceleague.adobe.com/z0EYQuHv119NiEwIZ9kPGXbm-49qA818WrhnXPggbvQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 624
+source-wordcount: '624'
 ht-degree: 0%
-
 ---
-
 # 要求リスト
 
 商品リストを利用すると、リストから直接ショッピングカートに商品が追加されるため、よく注文される商品を購入する際の時間を節約できます。 購入者は、様々なベンダー、購入者、チーム、キャンペーンなど、ワークフローを合理化するあらゆる製品に焦点を当てて、複数のリストを管理できます。 要件リスト機能は、ログインしたユーザーが使用できます。
@@ -39,7 +52,7 @@ ht-degree: 0%
 - 商品をショッピングカートに送った後、購買リストがクリアされない。 複数回使用できます。
 - 購買リストのユーザーインターフェイスでは、コンパクトなビューを使用して多くのアイテムを表示します。
 
-![&#x200B; ストアフロントに表示される要求リスト &#x200B;](./assets/account-dashboard-my-requisition-lists.png){width="600" zoomable="yes"}
+![ ストアフロントに表示される要求リスト ](./assets/account-dashboard-my-requisition-lists.png){width="600" zoomable="yes"}
 
 ## アカウントダッシュボードから購買グループを作成
 
@@ -47,7 +60,7 @@ ht-degree: 0%
 
 1. アカウントのサイドバーで、**[!UICONTROL My Requisition Lists]**&#x200B;を選択します。
 
-1. _[!UICONTROL Requisition Lists]_&#x200B;ページで、**[!UICONTROL Create New Requisition List]**&#x200B;をクリックします。
+1. _[!UICONTROL Requisition Lists]_ページで、**[!UICONTROL Create New Requisition List]**をクリックします。
 
 1. **[!UICONTROL Requisition List Name]**&#x200B;と&#x200B;**[!UICONTROL Description]**&#x200B;を入力します。
 
@@ -143,7 +156,7 @@ B2B見積について詳しくは、[見積もり](account-dashboard-my-quotes.m
 
 バイヤーは、アカウントにログインすると、次のいずれかの方法で購買リストを表示できます。
 
-![自分の購買依頼リスト &#x200B;](./assets/requisition-lists-menu-select-storefront.png){width="700" zoomable="yes"}
+![自分の購買依頼リスト ](./assets/requisition-lists-menu-select-storefront.png){width="700" zoomable="yes"}
 
 ### アカウントダッシュボードから
 

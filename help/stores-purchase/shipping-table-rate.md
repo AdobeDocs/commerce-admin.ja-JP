@@ -3,27 +3,35 @@ title: テーブルの送料率
 description: ストアに定額制の配送オプションを設定する方法について説明します。
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/14LYGw55vIlhbg71AApSGuuUKzaFEmStaUcw-Uig87E
+TQID: 'https://experienceleague.adobe.com/14LYGw55vIlhbg71AApSGuuUKzaFEmStaUcw-Uig87E'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1044
+source-wordcount: '1044'
 ht-degree: 3%
-
 ---
-
 # テーブルの送料率
 
 _表レート_&#x200B;の配送方法は、データの表を参照して、次のような条件の組み合わせに基づいて配送料を計算します。
@@ -40,15 +48,15 @@ _表レート_&#x200B;の配送方法は、データの表を参照して、次�
 >
 >一度にアクティブにできるテーブル レート データのセットは1つだけです。
 
-![&#x200B; ショッピングカート注文の概要の表レートの送料オプション &#x200B;](./assets/storefront-cart-table-rate.png){width="700" zoomable="yes"}
+![ ショッピングカート注文の概要の表レートの送料オプション ](./assets/storefront-cart-table-rate.png){width="700" zoomable="yes"}
 
 ## 手順1: デフォルト設定の完了
 
 最初の手順は、表レートのデフォルト設定を完了することです。 設定の範囲を変更しなくても、この手順を完了できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. 左側のパネルの&#x200B;_[!UICONTROL Sales]_&#x200B;セクションで、**[!UICONTROL Delivery Methods]**&#x200B;を選択します。
+1. 左側のパネルの&#x200B;_[!UICONTROL Sales]_セクションで、**[!UICONTROL Delivery Methods]**を選択します。
 
 1. **[!UICONTROL Table Rates]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
@@ -56,7 +64,7 @@ _表レート_&#x200B;の配送方法は、データの表を参照して、次�
    >
    >必要に応じて、まず&#x200B;**[!UICONTROL Use system value]** チェックボックスをオフにして、説明に従って次の設定を変更します。
 
-   ![表レート &#x200B;](../configuration-reference/sales/assets/delivery-methods-table-rates.png){width="600" zoomable="yes"}
+   ![表レート ](../configuration-reference/sales/assets/delivery-methods-table-rates.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Enabled]**&#x200B;を`Yes`に設定します。
 
@@ -84,8 +92,8 @@ _表レート_&#x200B;の配送方法は、データの表を参照して、次�
 
    - **[!UICONTROL Calculate Handling Fee]**&#x200B;を設定：
 
-      - `Fixed`
-      - `Percent`
+     - `Fixed`
+     - `Percent`
 
    - 手数料の計算に使用した方法に従って、**[!UICONTROL Handling Fee]** レートを入力します。
 
@@ -98,7 +106,7 @@ _表レート_&#x200B;の配送方法は、データの表を参照して、次�
 1. **[!UICONTROL Ship to Applicable Countries]**&#x200B;を設定：
 
    - `All Allowed Countries` - ストア設定で指定されたすべての[国](../getting-started/store-details.md#country-options)のお客様は、この配信方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Ship to Specific Countries]_&#x200B;リストが表示されます。 この配信方法を使用できるリストの各国を選択します。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Ship to Specific Countries]_リストが表示されます。 この配信方法を使用できるリストの各国を選択します。
 
 1. テーブルのレートを常に表示する場合は、**[!UICONTROL Show Method if Not Applicable]**&#x200B;を`Yes`に設定します
 
@@ -129,12 +137,12 @@ _表レート_&#x200B;の配送方法は、データの表を参照して、次�
 1. 出荷計算条件に適した値でテーブルを完成させます。
 
    - アスタリスク（*）は、任意のカテゴリのすべての可能な値を表すワイルドカードとして使用します。
-   - _[!UICONTROL Country]_&#x200B;列には、各行に[有効な3文字のコード &#x200B;](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)が含まれている必要があります。
-   - 特定の場所がリストの上部、ワイルドカードの場所が下部になるように、データを&#x200B;_[!UICONTROL Region/State]_&#x200B;で並べ替えます。 このメソッドを使用すると、まず絶対値を持つルールが処理され、後でワイルドカード値が処理されます。
-   - 郵便番号の範囲はサポートされていません。 アスタリスク （*）を使用して、地域/状態内のすべてのコードを許可するか、_[!UICONTROL Zip/Postal Code]_&#x200B;列の特定の場所に単一のコードを指定します。
-   - _[!UICONTROL Weight (and above)]_&#x200B;列の値には、最大4つの小数点以下桁（`2.5075`など）を指定できます。 データ内で小数点以下桁を使用すると、読み込みが失敗します。
+   - _[!UICONTROL Country]_列には、各行に[有効な3文字のコード ](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)が含まれている必要があります。
+   - 特定の場所がリストの上部、ワイルドカードの場所が下部になるように、データを&#x200B;_[!UICONTROL Region/State]_で並べ替えます。 このメソッドを使用すると、まず絶対値を持つルールが処理され、後でワイルドカード値が処理されます。
+   - 郵便番号の範囲はサポートされていません。 アスタリスク （*）を使用して、地域/状態内のすべてのコードを許可するか、_[!UICONTROL Zip/Postal Code]_列の特定の場所に単一のコードを指定します。
+   - _[!UICONTROL Weight (and above)]_列の値には、最大4つの小数点以下桁（`2.5075`など）を指定できます。 データ内で小数点以下桁を使用すると、読み込みが失敗します。
 
-   ![重みと目的地（オーストラリア） &#x200B;](./assets/table-rates-weight-destination-csv.png){width="500"}
+   ![重みと目的地（オーストラリア） ](./assets/table-rates-weight-destination-csv.png){width="500"}
 
 1. `tablerates.csv` ファイルを保存します。
 
@@ -146,7 +154,7 @@ _表レート_&#x200B;の配送方法は、データの表を参照して、次�
 
 1. **[!UICONTROL Import]**&#x200B;の場合、**[!UICONTROL Choose File]**&#x200B;をクリックし、完了済みの`tablerates.csv` ファイルを選択して、料金を読み込みます。
 
-   ![&#x200B; テーブルの読み込み率](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
+   ![ テーブルの読み込み率](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save Config]**&#x200B;をクリックします。
 

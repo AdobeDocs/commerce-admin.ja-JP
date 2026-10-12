@@ -3,8 +3,8 @@ title: URLの書き換え
 description: URLの書き換えと、Commerce URLの書き換えツールを使用して、商品、カテゴリ、またはCMS ページに関連付けられているURLを変更する方法について説明します。
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-TQID: https://experienceleague.adobe.com/fuILlBHCevV6rfQT-PUiuBPBgWkFXDbFofgde8O5BCM
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: 'https://experienceleague.adobe.com/fuILlBHCevV6rfQT-PUiuBPBgWkFXDbFofgde8O5BCM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -15,6 +15,13 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -36,7 +43,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 0%
@@ -45,11 +52,11 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce as a Cloud Serviceについては、Commerce Storefront ドキュメントの[SEO ガイドライン &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=ja)を参照してください
+>Adobe Commerce as a Cloud Serviceについては、Commerce Storefront ドキュメントの[SEO ガイドライン ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)を参照してください
 
 URL書き換えツールを使用すると、商品、カテゴリ、またはCMS ページに関連付けられているURLを変更できます。 URLの書き換えを行うと、Commerceは永続的なリダイレクト（301）を自動的に作成し、古いURLを指すリンクが新しいアドレスにリダイレクトされるようにします。
 
-ソースが既存のURLではなく買い物客が入力したクエリである場合は、検索語のリダイレクトを使用します。 詳しくは、[検索語リダイレクトとストアフロントルーティング &#x200B;](search-term-redirects.md)を参照してください。
+ソースが既存のURLではなく買い物客が入力したクエリである場合は、検索語のリダイレクトを使用します。 詳しくは、[検索語リダイレクトとストアフロントルーティング ](search-term-redirects.md)を参照してください。
 
 >[!NOTE]
 >
@@ -69,7 +76,7 @@ _rewrite_&#x200B;および&#x200B;_redirect_&#x200B;という用語は、しば�
 
 Adobe Commerceでは、URL書き換えツールは、デフォルトで永続的なリダイレクト（301）を作成し、商品、カテゴリ、ページのURL キーを変更したときにSEO値を保持します。 この動作により、既存のリンクが引き続き機能し、検索エンジンのランキングが維持されます。
 
-デフォルトでは、ストアに対して[自動URL リダイレクト &#x200B;](url-redirect-product-automatic.md)が有効になっており、各製品の「URL キー」フィールドで「**古いURLの永続的なリダイレクトを作成**」チェックボックスが選択されています。
+デフォルトでは、ストアに対して[自動URL リダイレクト ](url-redirect-product-automatic.md)が有効になっており、各製品の「URL キー」フィールドで「**古いURLの永続的なリダイレクトを作成**」チェックボックスが選択されています。
 
 {{url-rewrite-skip}}
 
@@ -81,7 +88,7 @@ Adobe Commerceでは、URL書き換えツールは、デフォルトで永続的
 
 URL書き換えの管理について詳しくは、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410126?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
 
 ## URLの書き換えを作成
 
@@ -168,7 +175,7 @@ Web サーバーの書き換え&#x200B;**を含む** URL
 
 #### Web サーバーの書き換えを有効または無効にします。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. **[!UICONTROL General]**&#x200B;が展開されている左側のパネルで、**[!UICONTROL Web]**&#x200B;を選択します。
 
@@ -196,4 +203,4 @@ web サイトの設定方法によっては、インデックスにサイトの�
     https://example.com
     https://www.example.com/index.html
 
-正規ページを指定するには、[Google Search Central ドキュメント &#x200B;](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)を参照してください。
+正規ページを指定するには、[Google Search Central ドキュメント ](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)を参照してください。

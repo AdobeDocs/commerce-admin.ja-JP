@@ -3,34 +3,44 @@ title: ストアクレジット
 description: ストアクレジットとは、お客様のアカウントに復元される金額であり、購入金額や現金払い戻しに使用できます。
 exl-id: 1fe627dd-5c49-4ff8-85e0-3c987285726d
 feature: Customers, Storefront
-TQID: https://experienceleague.adobe.com/kG-y-O2Yh-h1ct-oCwqylZFvS2FOCXFPD6qVIkKrpbg
+TQID: 'https://experienceleague.adobe.com/kG-y-O2Yh-h1ct-oCwqylZFvS2FOCXFPD6qVIkKrpbg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 291
+source-wordcount: '291'
 ht-degree: 0%
-
 ---
-
 # ストアクレジット
 
 {{ee-feature}}
 
 店舗クレジットは、顧客アカウントに復元される金額です。 顧客はストアクレジットを使用して購入金額を支払い、管理者はストアクレジットを使用して現金の払い戻しを行うことができます。 ギフトカード残高は、今後の購入にギフトカードコードを使用する代わりに、顧客のアカウントに入金できます。
 
-注文が支払われ、請求書が発行された後、注文またはその一部は、[&#x200B; クレジットメモの発行](../stores-purchase/credit-memo-create.md)によって返金できます。 クレジットメモは払い戻しとは異なります。クレジットの金額は、お客様のアカウントに戻され、将来の購入に使用できるからです。 場合によっては、クレジットメモが発行されると同時に払い戻しが行われ、お客様の店舗クレジット残高に適用されることがあります。 顧客のアカウントで使用可能なストアクレジットの量は、設定で指定します。
+注文が支払われ、請求書が発行された後、注文またはその一部は、[ クレジットメモの発行](../stores-purchase/credit-memo-create.md)によって返金できます。 クレジットメモは払い戻しとは異なります。クレジットの金額は、お客様のアカウントに戻され、将来の購入に使用できるからです。 場合によっては、クレジットメモが発行されると同時に払い戻しが行われ、お客様の店舗クレジット残高に適用されることがあります。 顧客のアカウントで使用可能なストアクレジットの量は、設定で指定します。
 
 >[!NOTE]
 >

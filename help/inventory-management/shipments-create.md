@@ -3,28 +3,39 @@ title: マルチソース配送の作成
 description: Sourceの選択アルゴリズムによるレコメンデーションまたはソースごとの手作業による数量を使用して、管理画面でマルチソースの出荷を作成します。
 exl-id: d2995139-0fc3-4379-a4ec-b0d38ed566bb
 feature: Inventory, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/IpRJ-mlwOVkNJymlJFV8o-aQp1oDU-xyNE7C6iVDR2E
+TQID: 'https://experienceleague.adobe.com/IpRJ-mlwOVkNJymlJFV8o-aQp1oDU-xyNE7C6iVDR2E'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 400
+source-wordcount: '400'
 ht-degree: 0%
-
 ---
-
 # マルチソース配送の作成
 
 [!DNL Inventory Management]を使用すると、在庫があるときに1つ以上の出荷を送信できます。 必要に応じて追加の出荷を生成するには、推奨または手動で入力した数量とソースを使用して、これらの指示を繰り返します。 この説明では、マルチソースのマーチャントが配送を送信する方法について詳しく説明します。 シングルソースマーチャントは、以下の追加手順を実行せずに出荷を送信します（コアユーザーガイドの[出荷の作成](../stores-purchase/shipments.md#create-a-shipment){target="_blank"}を参照）。
@@ -58,7 +69,7 @@ ht-degree: 0%
 
      >[!IMPORTANT]
      >
-     >配送およびルートとデータにDistance Priority アルゴリズムを使用すると、出荷用に選択した[計算モード &#x200B;](distance-priority-algorithm.md) （運転、自転車、またはウォーキング）に対して返されない場合、SSAはデフォルトでSource Priorityに設定されます。 在庫ごとのソースの[優先度](stocks-prioritize-sources.md)も設定することをお勧めします。
+     >配送およびルートとデータにDistance Priority アルゴリズムを使用すると、出荷用に選択した[計算モード ](distance-priority-algorithm.md) （運転、自転車、またはウォーキング）に対して返されない場合、SSAはデフォルトでSource Priorityに設定されます。 在庫ごとのソースの[優先度](stocks-prioritize-sources.md)も設定することをお勧めします。
 
 
    - **[!UICONTROL Select a Source to Ship from]**&#x200B;の場合、出荷元を選択して出荷を送信します。
@@ -69,9 +80,9 @@ ht-degree: 0%
 
      ![Sourceを選択して数量を入力](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. _[!UICONTROL New Shipment]_&#x200B;ページを確認し、必要に応じて追加の変更を入力します。
+1. _[!UICONTROL New Shipment]_ページを確認し、必要に応じて追加の変更を入力します。
 
-   _[!UICONTROL Inventory]_&#x200B;セクションには、ソース、製品の出荷、注文合計数量、および出荷する数量が表示されます。
+   _[!UICONTROL Inventory]_セクションには、ソース、製品の出荷、注文合計数量、および出荷する数量が表示されます。
 
    ![出荷の在庫の詳細、部分的な出荷の例](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

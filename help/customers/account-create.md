@@ -3,7 +3,7 @@ title: 個々の顧客アカウントの作成
 description: 訪問者は、個々の顧客アカウントを簡単に作成して、購入を管理できます。
 exl-id: 8d08c0e1-f3ba-4423-98a7-ffa8ba5a1b8b
 feature: Customers, Storefront
-TQID: https://experienceleague.adobe.com/WwW2j0QIwKOe0r7XqH01-NGxggVfg-QBYewdD6a4GFs
+TQID: 'https://experienceleague.adobe.com/WwW2j0QIwKOe0r7XqH01-NGxggVfg-QBYewdD6a4GFs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -16,6 +16,10 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -33,7 +37,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9bd9d0a3b3c991236b98b464f8e2be2df37272ac
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 0%
@@ -44,7 +48,7 @@ ht-degree: 0%
 
 次の手順は、デフォルトの顧客アカウント設定を示しています。 フォーム内の一部のフィールドの選択と動作を変更するには、[顧客アカウントの設定](../customers/customer-account-scope.md)を参照してください。
 
-ストア管理者は、[新しいアカウントオプション &#x200B;](../customers/account-options-new.md)を設定して、新しい登録済み顧客に確認メールを送信することもできます。これは、登録アカウントが有効であることを確認するのに役立ちます。
+ストア管理者は、[新しいアカウントオプション ](../customers/account-options-new.md)を設定して、新しい登録済み顧客に確認メールを送信することもできます。これは、登録アカウントが有効であることを確認するのに役立ちます。
 
 >[!NOTE]
 >
@@ -56,7 +60,7 @@ ht-degree: 0%
 
 1. ストアフロントから、ヘッダーの右上隅にある&#x200B;**[!UICONTROL Create an Account]**&#x200B;をクリックします。
 
-   ![&#x200B; アカウントの作成](assets/storefront-create-an-account-link.png){width="700" zoomable="yes"}
+   ![ アカウントの作成](assets/storefront-create-an-account-link.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL Personal Information]**&#x200B;の下に、**[!UICONTROL First Name]**&#x200B;と&#x200B;**[!UICONTROL Last Name]**&#x200B;を入力します。
 
@@ -76,7 +80,7 @@ ht-degree: 0%
    >
    > このメールアドレスはログイン資格情報の一部となり、他の顧客アカウントに関連付けることはできません。
 
-   ![&#x200B; ログイン情報](assets/storefront-create-account-signin-information.png){width="600" zoomable="yes"}
+   ![ ログイン情報](assets/storefront-create-account-signin-information.png){width="600" zoomable="yes"}
 
 1. 次の3種類の情報を含む&#x200B;**[!UICONTROL Password]**&#x200B;を入力します。
 
@@ -95,7 +99,7 @@ ht-degree: 0%
 
 1. 完了したら、**アカウントの作成**&#x200B;をクリックします。
 
-その後、お客様は電子メールアドレスとパスワードを使用して、アカウントに[&#x200B; ログイン &#x200B;](../customers/customer-sign-in.md)し、アドレス情報を入力できます。
+その後、お客様は電子メールアドレスとパスワードを使用して、アカウントに[ ログイン ](../customers/customer-sign-in.md)し、アドレス情報を入力できます。
 
 ## 管理者からアカウントを作成
 
@@ -175,9 +179,9 @@ ht-degree: 0%
 
    それ以外は、**[!UICONTROL Save and Continue Edit]**&#x200B;をクリックし、前の手順を繰り返してアドレスを追加します。
 
-   新しいアドレスが[!UICONTROL Addresses] ページに表示され、選択した&#x200B;_[!UICONTROL Default Billing]_&#x200B;と_[!UICONTROL Default Shipping]_&#x200B;のアドレスがリスト全体の上に表示されます。
+   新しいアドレスが[!UICONTROL Addresses] ページに表示され、選択した&#x200B;_[!UICONTROL Default Billing]_と_[!UICONTROL Default Shipping]_&#x200B;のアドレスがリスト全体の上に表示されます。
 
-   ![&#x200B; アドレス ビュー](assets/address-list.png){width="600" zoomable="yes"}
+   ![ アドレス ビュー](assets/address-list.png){width="600" zoomable="yes"}
 
 ### 手順3：パスワードのリセット
 
@@ -185,7 +189,7 @@ ht-degree: 0%
 
 1. 新しい顧客アカウントを見つけます。
 
-1. _[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
+1. _[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
 
 1. ページ上部のメニューバーで、**[!UICONTROL Reset Password]**&#x200B;をクリックします。
 
@@ -197,11 +201,11 @@ ht-degree: 0%
 
 | ボタン | 説明 |
 |--- |--- |
-| **[!UICONTROL Back]** | 変更を保存せずに&#x200B;_[!UICONTROL Customers]_&#x200B;ページに戻ります。 |
+| **[!UICONTROL Back]** | 変更を保存せずに&#x200B;_[!UICONTROL Customers]_ページに戻ります。 |
 | **[!UICONTROL Delete Customer]** | 現在の顧客を削除します。 お客様に関連付けられている完了した注文は削除されません。 |
 | **[!UICONTROL Reset]** | 顧客フォームの未保存の変更を以前の値にリセットします。 |
 | **[!UICONTROL Create Order]** | 顧客の注文を作成します。 |
-| **[!UICONTROL Reset Password]** | [&#x200B; パスワードのリセット &#x200B;](../customers/password-reset.md) リンクを電子メールでお客様に送信します。 |
+| **[!UICONTROL Reset Password]** | [ パスワードのリセット ](../customers/password-reset.md) リンクを電子メールでお客様に送信します。 |
 | **[!UICONTROL Force Sign-in]** | 顧客アカウントに関連付けられているOAuth アクセストークンを取り消します。 この関数は、Web API [統合](../systems/integrations.md)の一部としてOAuth トークンが割り当てられている顧客アカウントでのみ使用できます。 詳しくは、開発者ドキュメントの[OAuth ベースの認証](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth)を参照してください。 |
 | **[!UICONTROL Manage Shopping Cart]** | 管理者が顧客のショッピングカートを管理できるようにします。 |
 | **[!UICONTROL Save and Continue Edit]** | 変更を保存し、顧客プロファイルをオープンな状態に保ちます。 |
@@ -216,7 +220,7 @@ ht-degree: 0%
 | フィールド | 説明 |
 |--- |--- |
 | **[!UICONTROL Associate to Website]** | 顧客アカウントに関連付けられているweb サイトを識別します。 |
-| **[!UICONTROL Group]** | 顧客がメンバーである[顧客グループ &#x200B;](../customers/customer-groups.md)を識別します。 該当する場合は、チェックボックスを選択して、VATに基づく自動グループ変更を無効にします。 |
+| **[!UICONTROL Group]** | 顧客がメンバーである[顧客グループ ](../customers/customer-groups.md)を識別します。 該当する場合は、チェックボックスを選択して、VATに基づく自動グループ変更を無効にします。 |
 | **[!UICONTROL Name Prefix]** | 使用する場合は、お客様の名前に関連付けられているプレフィックス（Mr、Ms、Drなど）。 接頭辞の値は、[設定](../configuration-reference/customers/customer-configuration.md)によって決まります。 設定に応じて、入力コントロールはテキストフィールドまたはオプションのリストになります。 |
 | **[!UICONTROL First Name]** | 顧客の名前（名）。 |
 | **[!UICONTROL Middle Name / Initial]** | 顧客のミドルネームまたはイニシャル。 このフィールドは、[設定](../configuration-reference/customers/customer-configuration.md) トピックで指定された場合にのみ含まれます。 |

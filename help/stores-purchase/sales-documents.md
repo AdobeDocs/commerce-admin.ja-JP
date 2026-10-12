@@ -3,28 +3,37 @@ title: 販売ドキュメント
 description: Commerce ストアの顧客の注文とフルフィルメントをサポートするようにセールスドキュメントを設定する方法について説明します。
 exl-id: 869d79ca-688a-4032-a95c-c66ebf7f2775
 feature: Invoices
-TQID: https://experienceleague.adobe.com/0SZsaPiyOc4E-0e34IDvWATtKz9HMaeZAIMhKeysvTg
+TQID: 'https://experienceleague.adobe.com/0SZsaPiyOc4E-0e34IDvWATtKz9HMaeZAIMhKeysvTg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: '474'
 ht-degree: 1%
-
 ---
-
 # 販売ドキュメント
 
 注文ワークフローをサポートし、送信された注文に関する文書を顧客に提供するには、ストアブランドを反映し、参照情報を含めるように関連する販売ドキュメントを設定します。
@@ -33,13 +42,13 @@ ht-degree: 1%
 
 ストアフロントページで使用されるロゴ画像とは異なり、PDFの請求書やその他の営業文書のロゴは、高解像度の300 dpiの画像にすることができます。 ロゴのサイズを変更する際は、縦横比を維持するように注意してください。 高さに合うようにロゴのサイズを変更し、未使用のスペースを右に移動させないようにします。
 
-![&#x200B; サンプルロゴ &#x200B;](./assets/logo-pdf.png){width="200"}
+![ サンプルロゴ ](./assets/logo-pdf.png){width="200"}
 
 必要なサイズに合わせてロゴのサイズを変更する方法の1つは、正しいサイズの新しい空白の画像を作成することです。 次に、ロゴ画像を貼り付け、高さに合わせてサイズを変更します。 ほとんどの画像編集プログラムでは、縦横比を保持するためにパーセンテージで拡大・縮小するか、Shift キーを押しながら画像のサイズを手動で変更できます。
 
 **_ロゴを更新するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、下の「**[!UICONTROL Sales]**」を選択します。
 
@@ -84,11 +93,11 @@ ht-degree: 1%
 
 注文IDと顧客IP アドレスは、注文に伴う販売文書のヘッダーに含めることができます。 デフォルトでは、注文IDと顧客IP アドレスの両方が、請求書、出荷梱包明細、およびクレジットメモのヘッダーに表示されます。
 
-![営業設定 – PDF プリントアウト &#x200B;](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
+![営業設定 – PDF プリントアウト ](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
 
 **_注文ID設定を変更するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL PDF Print-outs]**&#x200B;を選択します。
 
@@ -102,7 +111,7 @@ ht-degree: 1%
 
 **_顧客IP アドレス設定を変更するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、下の「**[!UICONTROL Sales]**」を選択します。
 

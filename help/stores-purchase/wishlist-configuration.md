@@ -3,34 +3,42 @@ title: ウィッシュリストの設定
 description: ストア顧客のウィッシュリスト機能を設定する方法について説明します。
 exl-id: 479455f1-282f-4277-b132-45c5867fb21c
 feature: Customers, Configuration
-TQID: https://experienceleague.adobe.com/pSVYKFjf0Iz-zJ7fw1HxraizUwLYj7l1ykIWtnbI30w
+TQID: 'https://experienceleague.adobe.com/pSVYKFjf0Iz-zJ7fw1HxraizUwLYj7l1ykIWtnbI30w'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: '537'
 ht-degree: 0%
-
 ---
-
 # ウィッシュリストの設定
 
 ウィッシュリスト設定では、ウィッシュリストを有効にし、ウィッシュリストの共有時に使用されるメールテンプレートとメールメッセージの送信者を決定します。
 
 ## ウィッシュリスト機能を有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Wish List]**&#x200B;を選択します。
 
@@ -48,7 +56,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Share Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
-   ![お客様の設定 – ウィッシュリスト共有オプション &#x200B;](../configuration-reference/customers/assets/wishlist-share-options.png){width="600" zoomable="yes"}
+   ![お客様の設定 – ウィッシュリスト共有オプション ](../configuration-reference/customers/assets/wishlist-share-options.png){width="600" zoomable="yes"}
 
    - メッセージの送信者として表示されるストア連絡先に&#x200B;**[!UICONTROL Email Sender]**&#x200B;を設定します。 オプション：一般連絡先、営業担当者、カスタマーサポート、カスタムメール。
 
@@ -71,11 +79,11 @@ ht-degree: 0%
 
 ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）
 
-公開されているウィッシュリストは、ウィッシュリスト検索[&#x200B; ウィジェット &#x200B;](../content-design/widgets.md)を使用して検索できます。 ウィジェットを使用すると、お客様はウィッシュリスト所有者の名前またはメールアドレスで検索できます。 店舗のお客様は、他のお客様に属するウィッシュリストを検索したり、それらを表示して商品を注文したり、自分のウィッシュリストに商品を追加したりできます。 他のお客様が公開のウィッシュリストから購入したアイテムは、元のウィッシュリストから削除されません。 _ウィッシュリスト検索_ ウィジェットをストアの任意のページに追加すると、顧客が友人や家族のウィッシュリストを簡単に検索できるようになります。
+公開されているウィッシュリストは、ウィッシュリスト検索[ ウィジェット ](../content-design/widgets.md)を使用して検索できます。 ウィジェットを使用すると、お客様はウィッシュリスト所有者の名前またはメールアドレスで検索できます。 店舗のお客様は、他のお客様に属するウィッシュリストを検索したり、それらを表示して商品を注文したり、自分のウィッシュリストに商品を追加したりできます。 他のお客様が公開のウィッシュリストから購入したアイテムは、元のウィッシュリストから削除されません。 _ウィッシュリスト検索_ ウィジェットをストアの任意のページに追加すると、顧客が友人や家族のウィッシュリストを簡単に検索できるようになります。
 
-![&#x200B; ストアフロントの例 – ウィッシュリスト検索](./assets/storefront-wishlist-search.png){width="700" zoomable="yes"}
+![ ストアフロントの例 – ウィッシュリスト検索](./assets/storefront-wishlist-search.png){width="700" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックします。
 
@@ -87,7 +95,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Continue]**&#x200B;をクリックします。
 
-1. _[!UICONTROL Storefront Properties]_&#x200B;を完了：
+1. _[!UICONTROL Storefront Properties]_を完了：
 
    - **[!UICONTROL Widget Title]**&#x200B;を入力します。
 
@@ -97,33 +105,33 @@ ht-degree: 0%
 
      `0` = first （デフォルト）、`1` = second、`2` = thirdなど。
 
-1. _[!UICONTROL Layout Updates]_&#x200B;セクションで、**[!UICONTROL Add Layout Update]**&#x200B;をクリックし、**[!UICONTROL Display on]**&#x200B;を次のいずれかに設定します。
+1. _[!UICONTROL Layout Updates]_セクションで、**[!UICONTROL Add Layout Update]**をクリックし、**[!UICONTROL Display on]**を次のいずれかに設定します。
 
    - _[!UICONTROL Categories]_
 
-      - `Anchor Categories`
-      - `Non-Anchor Categories`
+     - `Anchor Categories`
+     - `Non-Anchor Categories`
 
    - _[!UICONTROL Products]_
 
-      - `All Product Type`
-      - `Simple Product`
-      - `Virtual Product`
-      - `Bundle Product`
-      - `Configurable Product`
-      - `Downloadable Product`
-      - `Gift Card`
-      - `Grouped Product`
+     - `All Product Type`
+     - `Simple Product`
+     - `Virtual Product`
+     - `Bundle Product`
+     - `Configurable Product`
+     - `Downloadable Product`
+     - `Gift Card`
+     - `Grouped Product`
 
    - _[!UICONTROL Generic Page]_
 
-      - `All Pages`
-      - `Specified Page`
-      - `Page Layouts`
+     - `All Pages`
+     - `Specified Page`
+     - `Page Layouts`
 
 1. **[!UICONTROL Container]** リストで、配置するページレイアウトの領域を選択します。
 
-   ![&#x200B; ウィッシュリスト検索ウィジェット – レイアウト &#x200B;](./assets/widget-wishlist-search-storefront.png){width="700" zoomable="yes"}
+   ![ ウィッシュリスト検索ウィジェット – レイアウト ](./assets/widget-wishlist-search-storefront.png){width="700" zoomable="yes"}
 
 1. 左側のパネルで、**[!UICONTROL Widget Options]**&#x200B;を選択します。
 

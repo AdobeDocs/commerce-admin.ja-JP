@@ -4,38 +4,53 @@ description: 会社のクレジットライン、パラメーターの設定、�
 exl-id: 62ff2a36-053d-4ba0-9969-0f05701afbff
 feature: B2B, Companies, Payments
 role: Admin
-TQID: https://experienceleague.adobe.com/JKyFAE5sOsIyOsM-L73i8fMt8nEeoY2-ZcE321jXjSc
+TQID: 'https://experienceleague.adobe.com/JKyFAE5sOsIyOsM-L73i8fMt8nEeoY2-ZcE321jXjSc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1228
+source-wordcount: '1228'
 ht-degree: 0%
-
 ---
-
 # 会社クレジットを管理
 
-B2B企業は、自社のクレジットを利用して、すぐに支払いを行うのではなく、事前に承認されたクレジットラインに照らし合わせて購入できます。 [&#x200B; アカウントでの支払い](../b2b/enable-basic-features.md#configure-payment-on-account)が有効になっている場合、企業はクレジット制限を上限として購入し、アカウントダッシュボードからクレジット状況を表示できます。
+B2B企業は、自社のクレジットを利用して、すぐに支払いを行うのではなく、事前に承認されたクレジットラインに照らし合わせて購入できます。 [ アカウントでの支払い](../b2b/enable-basic-features.md#configure-payment-on-account)が有効になっている場合、企業はクレジット制限を上限として購入し、アカウントダッシュボードからクレジット状況を表示できます。
 
-![会社クレジット &#x200B;](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
+![会社クレジット ](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
 企業クレジットを使用すると、次のことが可能になります。
 
@@ -50,7 +65,7 @@ B2B企業は、自社のクレジットを利用して、すぐに支払いを�
 会社のクレジットを設定する前に、次のことを確認します。
 
 * B2B機能は、Adobe Commerce インストールで有効になります
-* [&#x200B; アカウント &#x200B;](../b2b/enable-basic-features.md#configure-payment-on-account)の支払いが設定され、有効になっています
+* [ アカウント ](../b2b/enable-basic-features.md#configure-payment-on-account)の支払いが設定され、有効になっています
 * 会社のアカウントは必要な事業情報で適切に設定されている
 * 会社のクレジット設定を管理するための管理者権限があります
 * 複数の通貨で操作する場合は、通貨設定が設定されます
@@ -94,7 +109,7 @@ B2B企業は、自社のクレジットを利用して、すぐに支払いを�
 | [!UICONTROL Operation] | トランザクションに関連付けられているアクティビティのタイプ。 値：<br/>**[!UICONTROL Allocated]**– 会社に割り当てられたクレジット。<br/>**[!UICONTROL Updated]** – 次のいずれかのフィールドに変更が適用されました：[!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**– 注文が行われました。<br/>**[!UICONTROL Reimbursed]** – 未払い残高が返金されました。<br/>**[!UICONTROL Refunded]**- クレジットメモの金額が返金されました。<br/>**[!UICONTROL Reverted]** – 注文がキャンセルされ、金額がクレジット残高に戻されました。 |
 | [!UICONTROL Amount] | 次のトランザクションタイプに関連付けられたトランザクションの金額：`Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/>購入金額は、ストアの表示通貨とクレジット通貨設定の形式で表示され、その後に現在のコンバージョン率（該当する場合）が表示されます。 例：<br/>EUR 20,000.00 （$22,400.00） <br/>USD/EUR 0.8928 |
 | [!UICONTROL Outstanding Balance] | 払い戻された金額から、アカウントでの支払い方法を使用して行われたすべての注文の合計金額を差し引きます。 金額は、正または負の値として表示される場合があります。<br/>**[!UICONTROL Positive value]**– 前払いは正の値として表されます。<br/>**[!UICONTROL Negative value]** – 請求金額は負の値として表されます。 |
-| [!UICONTROL Available Credit] | _[!UICONTROL Credit Limit]_&#x200B;と_[!UICONTROL Outstanding Balance]_&#x200B;の合計。 会社がクレジット制限を超えた場合、その金額は負の値として表示されます。 |
+| [!UICONTROL Available Credit] | _[!UICONTROL Credit Limit]_と_[!UICONTROL Outstanding Balance]_&#x200B;の合計。 会社がクレジット制限を超えた場合、その金額は負の値として表示されます。 |
 | [!UICONTROL Credit Limit] | 会社に支払った金額です。 |
 | [!UICONTROL Updated By] | 操作を開始した人の名前。 |
 | [!UICONTROL Custom Reference Number] | トランザクションに関連付けられているカスタム参照番号。 |
@@ -167,13 +182,13 @@ B2B企業は、自社のクレジットを利用して、すぐに支払いを�
 
 会社の管理者は、未払い残高、利用可能なクレジット、クレジット制限、未払いの請求書など、アカウントダッシュボードでクレジット情報を表示できます。 注文がキャンセルされると、金額は会社の残高に戻り、「クレジット配分履歴」フィールドに表示されます。
 
-![会社クレジット &#x200B;](./assets/company-credit.png){width="700" zoomable="yes"}
+![会社クレジット ](./assets/company-credit.png){width="700" zoomable="yes"}
 
 ## 企業クレジットデモ
 
 企業のクレジット管理について詳しくは、次のデモ動画をご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410761?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
 
 ## セキュリティに関する検討事項
 
@@ -187,8 +202,8 @@ B2B企業は、自社のクレジットを利用して、すぐに支払いを�
 
 ## ベストプラクティス
 
-* &#x200B;
-   * **クレジットポリシー管理** – 会社のクレジットを管理する場合は、顧客の支払い履歴とビジネス関係に基づいてクレジット制限を設定するための明確なポリシーを確立します。 リスクを評価するために、未払いの残高と支払いパターンを定期的に確認し、監査目的のために詳細な理由を含めてクレジット設定の変更を常に文書化します。
+* 
+  * **クレジットポリシー管理** – 会社のクレジットを管理する場合は、顧客の支払い履歴とビジネス関係に基づいてクレジット制限を設定するための明確なポリシーを確立します。 リスクを評価するために、未払いの残高と支払いパターンを定期的に確認し、監査目的のために詳細な理由を含めてクレジット設定の変更を常に文書化します。
 
 支払い処理を迅速におこない、正確な残高を維持し、各企業の主要な事業運営に合わせてクレジット通貨の設定を行うことができます。
 
@@ -201,4 +216,4 @@ B2B企業は、自社のクレジットを利用して、すぐに支払いを�
 >* [企業管理](manage-companies.md) *企業管理機能の概要
 >* [会社の役割と権限](account-company-roles-permissions.md) * クレジット管理のユーザーアクセスを設定
 >* [発注ワークフロー](purchase-order-flow.md) *クレジットと発注の統合方法を理解する
->* [B2B構成リファレンス &#x200B;](../configuration-reference/general/b2b-features.md) - B2B機能の詳細な構成設定
+>* [B2B構成リファレンス ](../configuration-reference/general/b2b-features.md) - B2B機能の詳細な構成設定

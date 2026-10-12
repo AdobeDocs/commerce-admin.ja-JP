@@ -3,37 +3,46 @@ title: 返品の設定
 description: ストアの返品を有効にし、サポートされている配送方法を設定する方法を説明します。
 exl-id: a1b508fc-7e42-4d37-bf7e-dea17a40d39b
 feature: Returns, Configuration
-TQID: https://experienceleague.adobe.com/TgVsqEceM-mTY91OCl7XRL0Uwk8VJAHatv0kHiOM00g
+TQID: 'https://experienceleague.adobe.com/TgVsqEceM-mTY91OCl7XRL0Uwk8VJAHatv0kHiOM00g'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: ac07462c-732c-5c1c-947b-4ce533b4fcfb
+    internal-label: Returns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '353'
 ht-degree: 0%
-
 ---
-
 # 返品の設定
 
 {{ee-feature}}
 
-有効にすると、ストアフロントから顧客がRMA リクエストを送信できるようになります。 RMAは、返品可能な注文の品目がある場合にのみ生成できます。 個々のアイテムを返すリクエストは、各製品レコードの&#x200B;_Enable RMA_&#x200B;属性によって管理されます。 デフォルトでは、構成設定が製品に適用されます（_[!UICONTROL Use Config Settings]_&#x200B;が選択されています）。_[!UICONTROL Enable RMA]_&#x200B;が`No`に設定されている場合、返品可能な商品のリストに商品が表示されません。 _RMA_&#x200B;を有効にする設定を変更すると、新規注文と既存注文の両方に適用されます。
+有効にすると、ストアフロントから顧客がRMA リクエストを送信できるようになります。 RMAは、返品可能な注文の品目がある場合にのみ生成できます。 個々のアイテムを返すリクエストは、各製品レコードの&#x200B;_Enable RMA_&#x200B;属性によって管理されます。 デフォルトでは、構成設定が製品に適用されます（_[!UICONTROL Use Config Settings]_が選択されています）。_[!UICONTROL Enable RMA]_&#x200B;が`No`に設定されている場合、返品可能な商品のリストに商品が表示されません。 _RMA_&#x200B;を有効にする設定を変更すると、新規注文と既存注文の両方に適用されます。
 
 ## ストアのRMAの有効化
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、下の「**[!UICONTROL Sales]**」を選択します。
 
@@ -49,7 +58,7 @@ ht-degree: 0%
 
    この設定は、ストアフロントの個々の製品に対する&#x200B;_Enable RMA_&#x200B;属性の動作を決定します。
 
-   - [!UICONTROL Enable RMA on Product Level]が`Yes`に設定されている場合、ストアフロントの顧客はすべての個々の製品を返すことができます。 これには、_[!UICONTROL Enable RMA]_= `Yes`と&#x200B;_[!UICONTROL Enable RMA]_ = `No`の製品属性値の両方が含まれます。
+   - [!UICONTROL Enable RMA on Product Level]が`Yes`に設定されている場合、ストアフロントの顧客はすべての個々の製品を返すことができます。 これには、_[!UICONTROL Enable RMA]_= `Yes`と_[!UICONTROL Enable RMA]_ = `No`の製品属性値の両方が含まれます。
    - [!UICONTROL Enable RMA on Product Level]が`No`に設定されている場合、ストアフロントの顧客は、_[!UICONTROL Enable RMA]_= `Yes`個の製品属性値を持つ製品のみを返すことができます。
 
 1. **[!UICONTROL Use Store Address]**&#x200B;を次のいずれかの値に設定します：
@@ -63,7 +72,7 @@ ht-degree: 0%
 
 ## 返品の配送方法の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Delivery Methods]**&#x200B;を選択します。
 

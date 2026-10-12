@@ -3,26 +3,36 @@ title: コンテンツのステージング
 description: コンテンツのステージング機能により、ビジネス部門は、管理画面から直接、ストアの様々なコンテンツ更新を簡単に作成、プレビュー、スケジュールできます。
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-TQID: https://experienceleague.adobe.com/XAMnUUL9JH0atN6vlwwe2l9x4P-uAqJA3BH-h9LbIXU
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: 'https://experienceleague.adobe.com/XAMnUUL9JH0atN6vlwwe2l9x4P-uAqJA3BH-h9LbIXU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1005
+source-wordcount: '1005'
 ht-degree: 0%
-
 ---
-
 # コンテンツのステージング
 
 {{ee-feature}}
@@ -39,7 +49,7 @@ _campaign_&#x200B;という用語は、スケジュールされた変更のレ�
 
 スケジュールされた更新はすべて連続して適用されます。つまり、どのエンティティも一度に1つのスケジュールされた更新のみを持つことができます。 スケジュールされた更新は、その時間枠内のすべてのストアビューに適用されます。 その結果、エンティティは、異なるストアビューに対して異なるスケジュールされた更新を同時に行うことはできません。 現在のスケジュールされた更新の影響を受けない、すべてのストアビュー内のすべてのエンティティ属性値は、以前のスケジュールされた更新の値ではなく、デフォルト値から取得されます。
 
-次のいずれかのオブジェクトに対して新しいスケジュールされた更新が作成されると、対応するキャンペーンがプレースホルダーとして作成され、ページの上部に&#x200B;_[!UICONTROL Scheduled Changes]_&#x200B;ボックスが表示されます。 プレースホルダーキャンペーンには開始日がありますが、終了日はありません。 キャンペーンの一環としてコンテンツの更新をスケジュールし、その変更を日付、時間、またはストアビューごとにプレビューして共有することができます。 1つのオブジェクトに対して新しいキャンペーンを作成した後、他のオブジェクトのスケジュールされた更新として割り当てることができます。
+次のいずれかのオブジェクトに対して新しいスケジュールされた更新が作成されると、対応するキャンペーンがプレースホルダーとして作成され、ページの上部に&#x200B;_[!UICONTROL Scheduled Changes]_ボックスが表示されます。 プレースホルダーキャンペーンには開始日がありますが、終了日はありません。 キャンペーンの一環としてコンテンツの更新をスケジュールし、その変更を日付、時間、またはストアビューごとにプレビューして共有することができます。 1つのオブジェクトに対して新しいキャンペーンを作成した後、他のオブジェクトのスケジュールされた更新として割り当てることができます。
 
 - [特定可能](../catalog/product-scheduled-changes.md)
 - [カテゴリ](../catalog/category-scheduled-changes.md)
@@ -68,7 +78,7 @@ _campaign_&#x200B;という用語は、スケジュールされた変更のレ�
 
    >[!NOTE]
    >
-   >キャンペーンが複数のエンティティにリンクされている場合、キャンペーンは[&#x200B; コンテンツステージングダッシュボード &#x200B;](content-staging-dashboard.md)からのみ編集できます。
+   >キャンペーンが複数のエンティティにリンクされている場合、キャンペーンは[ コンテンツステージングダッシュボード ](content-staging-dashboard.md)からのみ編集できます。
 
 1. **ベースラインコンテンツの復元**
 
@@ -84,20 +94,20 @@ _campaign_&#x200B;という用語は、スケジュールされた変更のレ�
 
 ## [!UICONTROL Content Staging] ダッシュボード
 
-[!UICONTROL Content Staging] [&#x200B; ダッシュボード &#x200B;](content-staging-dashboard.md)は、予定されているすべてのサイトの変更と更新を可視化します。 キャンペーンのどの日、日付の範囲、または期間でも、プレビューして他のユーザーと共有することができます。
+[!UICONTROL Content Staging] [ ダッシュボード ](content-staging-dashboard.md)は、予定されているすべてのサイトの変更と更新を可視化します。 キャンペーンのどの日、日付の範囲、または期間でも、プレビューして他のユーザーと共有することができます。
 
-![&#x200B; ステージングダッシュボード &#x200B;](./assets/content-staging-dashboard-grid.png){width="600" zoomable="yes"}
+![ ステージングダッシュボード ](./assets/content-staging-dashboard-grid.png){width="600" zoomable="yes"}
 
 ## コンテンツのステージングデモ
 
 コンテンツのステージングについて詳しくは、次の動画をご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410856?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
 
 ## リソースのトラブルシューティング
 
 コンテンツのステージングの問題のトラブルシューティングについては、次の[!DNL Commerce] サポート技術情報の記事を参照してください。
 
-- [コンテンツのステージングの問題により、すべてのページでエラー404](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-27785)
-- [スケジュールされたコンテンツステージングの更新が、古いFastly キャッシュで表示されない](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache)
-- [共有カタログの価格に関するコンテンツステージングの更新をスケジュールできますか？](https://experienceleague.adobe.com/ja/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog)
+- [コンテンツのステージングの問題により、すべてのページでエラー404](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27785)
+- [スケジュールされたコンテンツステージングの更新が、古いFastly キャッシュで表示されない](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache)
+- [共有カタログの価格に関するコンテンツステージングの更新をスケジュールできますか？](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog)

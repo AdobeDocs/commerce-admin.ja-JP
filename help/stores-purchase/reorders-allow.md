@@ -3,33 +3,42 @@ title: 再注文を許可
 description: 顧客に再発注機能を提供する方法について説明します。
 exl-id: 9fe4c4fb-8596-4fd0-a93b-927ebdfc0c94
 feature: Orders, Storefront
-TQID: https://experienceleague.adobe.com/comSKludWZnDkDjdZyhi4-9WNAE9scH3dgSce08IyJo
+TQID: 'https://experienceleague.adobe.com/comSKludWZnDkDjdZyhi4-9WNAE9scH3dgSce08IyJo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 432
+source-wordcount: '432'
 ht-degree: 0%
-
 ---
-
 # 再注文を許可
 
 有効にすると、顧客アカウントまたは&#x200B;_管理者_&#x200B;の元の注文から直接再注文できます。 再発注はデフォルトで有効になっています。
 
-管理者![&#128279;](./assets/customer-reorder.png){width="700" zoomable="yes"}のお客様の再注文リンク
+管理者](./assets/customer-reorder.png){width="700" zoomable="yes"}の![お客様の再注文リンク
 
 ## 注文に対して有効にする再発注の条件
 
@@ -43,13 +52,13 @@ ht-degree: 0%
 
 ## 顧客の再注文を許可するように設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、下の「**[!UICONTROL Sales]**」を選択します。
 
 1. **[!UICONTROL Reorder]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![並べ替えオプション &#x200B;](../configuration-reference/sales/assets/sales-reorder.png){width="600" zoomable="yes"}
+   ![並べ替えオプション ](../configuration-reference/sales/assets/sales-reorder.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Allow Reorder]**&#x200B;を`Yes`に設定します。
 
@@ -69,7 +78,7 @@ ht-degree: 0%
 
 _並べ替え_ ボタンは、常に注文と共にリストに表示されます（注文のすべての商品が並べ替え可能でない場合でも）。
 
-![&#x200B; ストアフロントの例 – マイオーダーのページ &#x200B;](./assets/my-order-page-view.png){width="700" zoomable="yes"}
+![ ストアフロントの例 – マイオーダーのページ ](./assets/my-order-page-view.png){width="700" zoomable="yes"}
 
 **ケース 1.** 注文のすべての商品は、再注文で&#x200B;**使用可能**&#x200B;です
 
@@ -85,7 +94,7 @@ _並べ替え_ ボタンは、常に注文と共にリストに表示されま�
 
 _並べ替え_ ボタンは、_マイオーダー_&#x200B;および&#x200B;_表示オーダー_ ページには表示されません。
 
-![&#x200B; マイオーダーのページ 1](./assets/my-orders-view-page1.png){width="700" zoomable="yes"}
+![ マイオーダーのページ 1](./assets/my-orders-view-page1.png){width="700" zoomable="yes"}
 
 ### 注文表示ページ
 
@@ -101,13 +110,13 @@ _並べ替え_ ボタンは、_マイオーダー_&#x200B;および&#x200B;_表�
 
 _並べ替え_ ボタンは、_マイオーダー_&#x200B;および&#x200B;_表示オーダー_ ページには表示されません。
 
-![注文の詳細ページ &#x200B;](./assets/order-view-page.png){width="700" zoomable="yes"}
+![注文の詳細ページ ](./assets/order-view-page.png){width="700" zoomable="yes"}
 
 ### 買い物かごが空ではありません
 
 買い物かごが空ではなく、ユーザーが「**[!UICONTROL Reorder]**」（_マイオーダー_&#x200B;または&#x200B;_オーダービュー_ ページ）をクリックした場合、既存の製品は追加された再発注製品とともに買い物かごに残ります。
 
-![&#x200B; アイテムの並べ替え](./assets/shopping-cart-view1.png){width="700" zoomable="yes"}
+![ アイテムの並べ替え](./assets/shopping-cart-view1.png){width="700" zoomable="yes"}
 
 ## 管理者からの並べ替え
 

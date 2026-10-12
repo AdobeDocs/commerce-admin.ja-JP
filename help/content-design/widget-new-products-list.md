@@ -3,41 +3,51 @@ title: 新製品リストウィジェット
 description: 新製品リストウィジェットを使用して、最近追加された製品のリストを表示する方法を説明します。
 exl-id: bdff3655-cd14-4a19-a51f-4cabeb274d2a
 feature: Page Content, Products
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-TQID: https://experienceleague.adobe.com/zFJ9KJgBGtqDaCf-5ZLKHaPquWikVtG90g01QjGo1m0
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: 'https://experienceleague.adobe.com/zFJ9KJgBGtqDaCf-5ZLKHaPquWikVtG90g01QjGo1m0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 638
+source-wordcount: '638'
 ht-degree: 0%
-
 ---
-
 # 新製品リストウィジェット
 
 この新製品リストは、動的コンテンツの一例であり、製品カタログから取得したライブデータで構成されています。 デフォルトでは、_新製品_ リストには、最近追加された製品の最初の8つが含まれます。 ただし、指定した日付範囲内の商品のみを含めるように設定することもできます。
 
-![&#x200B; ストアフロントのホームページの新製品リスト &#x200B;](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
+![ ストアフロントのホームページの新製品リスト ](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
 
 ## ステップ 1：各製品を新製品として設定する
 
 ![Magento Open Source](../assets/open-source.svg)この手順は、Magento Open Sourceにのみ適用されます。
 
-![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce ストアの場合は、[更新のスケジュール &#x200B;](content-staging-scheduled-update.md)を参照し、このページの手順2に進んでください。
+![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce ストアの場合は、[更新のスケジュール ](content-staging-scheduled-update.md)を参照し、このページの手順2に進んでください。
 
-_[!UICONTROL Set Product as New]_&#x200B;日付範囲の設定は、スケジュールされた更新でのみ設定できます。
+_[!UICONTROL Set Product as New]_日付範囲の設定は、スケジュールされた更新でのみ設定できます。
 
 製品を新規製品として設定すると、製品が&#x200B;_新規製品_ リストに追加されます。 リストに含めたくない場合は、任意の時点で設定を元に戻すことができます。
 
@@ -57,11 +67,11 @@ _[!UICONTROL Set Product as New]_&#x200B;日付範囲の設定は、スケジュ
 
 新製品リストの内容とストア内の配置を決定するコードは、ウィジェットツールによって生成されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックします。
 
-1. _[!UICONTROL Settings]_&#x200B;セクションで、次の操作を行います。
+1. _[!UICONTROL Settings]_セクションで、次の操作を行います。
 
    - **[!UICONTROL Type]**&#x200B;を`Catalog New Products List`に設定します。
 
@@ -71,7 +81,7 @@ _[!UICONTROL Set Product as New]_&#x200B;日付範囲の設定は、スケジュ
 
    ![新しい製品リストウィジェット設定](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Storefront Properties]_&#x200B;セクションで、次の操作を行います。
+1. _[!UICONTROL Storefront Properties]_セクションで、次の操作を行います。
 
    - 「**[!UICONTROL Widget Title]**」に、ウィジェットの説明的なタイトルを入力します。 （このタイトルは&#x200B;_管理者_&#x200B;からのみ表示されます）。
 
@@ -81,11 +91,11 @@ _[!UICONTROL Set Product as New]_&#x200B;日付範囲の設定は、スケジュ
 
    - （オプション） **[!UICONTROL Sort Order]**&#x200B;の場合、ページの同じ部分で他のユーザーと一緒にこの項目を表示する順序を決定する番号を入力します。 （`0` = first, `1` = second, `3` = thirdなど）
 
-   ![&#x200B; レイアウトの更新](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
+   ![ レイアウトの更新](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
 ## 手順3：場所の選択
 
-1. _[!UICONTROL Layout Updates]_&#x200B;セクションで、**[!UICONTROL Add Layout Update]**&#x200B;をクリックします。
+1. _[!UICONTROL Layout Updates]_セクションで、**[!UICONTROL Add Layout Update]**をクリックします。
 
 1. **[!UICONTROL Display On]**&#x200B;を`Specified Page.`に設定
 
@@ -98,7 +108,7 @@ _[!UICONTROL Set Product as New]_&#x200B;日付範囲の設定は、スケジュ
    - `New Product List Template`
    - `New Products Grid Template`
 
-     ![&#x200B; レイアウトの更新](./assets/widget-layout-update-new-products-list.png){width="600" zoomable="yes"}
+     ![ レイアウトの更新](./assets/widget-layout-update-new-products-list.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save and Continue Edit]**&#x200B;をクリックします。
 
@@ -111,7 +121,7 @@ _[!UICONTROL Set Product as New]_&#x200B;日付範囲の設定は、スケジュ
 1. **[!UICONTROL Display Products]**&#x200B;を次のいずれかに設定します：
 
    - `All Products` – 最後に追加された製品から順番に製品を一覧表示します。
-   - `New Products` - _new_&#x200B;として識別された製品のみを一覧表示します。 _[!UICONTROL Set Product As New From/To]_&#x200B;で指定された日付範囲内に、製品が新しいものと見なされます。 新しい製品が定義されないまま日付範囲が期限切れになる場合、リストは空になります。
+   - `New Products` - _new_&#x200B;として識別された製品のみを一覧表示します。 _[!UICONTROL Set Product As New From/To]_で指定された日付範囲内に、製品が新しいものと見なされます。 新しい製品が定義されないまま日付範囲が期限切れになる場合、リストは空になります。
 
 1. 複数のページを含むリストのナビゲーション制御を提供するには、**[!UICONTROL Display Page Control]**&#x200B;を`Yes`に設定します。
 
@@ -125,7 +135,7 @@ _[!UICONTROL Set Product as New]_&#x200B;日付範囲の設定は、スケジュ
 
    デフォルトでは、キャッシュは86,400秒（24時間）に設定されています。
 
-   ![&#x200B; ウィジェットオプション &#x200B;](./assets/widget-options-new-product-list.png){width="600" zoomable="yes"}
+   ![ ウィジェットオプション ](./assets/widget-options-new-product-list.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -133,6 +143,6 @@ _[!UICONTROL Set Product as New]_&#x200B;日付範囲の設定は、スケジュ
 
 ## 手順5：作業のプレビュー
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**に移動します。
 
-1. _新製品_ リストが表示されるグリッドでページを見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Preview]**&#x200B;リンクをクリックします。
+1. _新製品_ リストが表示されるグリッドでページを見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Preview]**リンクをクリックします。

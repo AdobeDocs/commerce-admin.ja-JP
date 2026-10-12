@@ -3,27 +3,35 @@ title: チェックアウト時のアドレス検索
 description: ストアのチェックアウト時にアドレス検索を含める方法について説明します。
 exl-id: 8153c456-0848-4bb4-8deb-8219323344ed
 feature: Checkout
-TQID: https://experienceleague.adobe.com/fMrmhB3-kGvDKNBnI1PCUhndVN0RhQprpZGB6rjfo8o
+TQID: 'https://experienceleague.adobe.com/fMrmhB3-kGvDKNBnI1PCUhndVN0RhQprpZGB6rjfo8o'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: '434'
 ht-degree: 0%
-
 ---
-
 # チェックアウト時のアドレス検索
 
 {{ee-feature}}
@@ -40,7 +48,7 @@ ht-degree: 0%
 
 お客様がデフォルトの配送先住所を持っていない場合、_配送_ ページに&#x200B;_住所が選択されていません_&#x200B;と表示されます。 この場合、お客様は、**アドレスの変更**&#x200B;をクリックして保存されたアドレスを選択するか、**新しいアドレス**&#x200B;をクリックして追加し、選択してからチェックアウトを続行する必要があります。 お客様がデフォルトの請求先住所を持っていない場合、_Review &amp; Payments_ ページには、出荷用に選択された住所が&#x200B;_Change Address_ オプションとともに表示されます。
 
-![&#x200B; アドレスが選択されていないチェックアウト メッセージ &#x200B;](./assets/storefront-checkout-address-search-no-default.png){width="600" zoomable="yes"}
+![ アドレスが選択されていないチェックアウト メッセージ ](./assets/storefront-checkout-address-search-no-default.png){width="600" zoomable="yes"}
 
 ## 引用符のロックされたアドレス検索
 
@@ -52,15 +60,15 @@ ht-degree: 0%
 
 ## アドレス検索を有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Checkout]**&#x200B;を選択します。
 
 1. **[!UICONTROL Checkout Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![設定 – チェックアウトオプション &#x200B;](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
+   ![設定 – チェックアウトオプション ](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-   これらの各構成設定の詳細については、_構成リファレンスガイド_&#x200B;の[&#x200B; チェックアウトオプション &#x200B;](../configuration-reference/sales/checkout.md#checkout-options)を参照してください。
+   これらの各構成設定の詳細については、_構成リファレンスガイド_&#x200B;の[ チェックアウトオプション ](../configuration-reference/sales/checkout.md#checkout-options)を参照してください。
 
 1. **[!UICONTROL Enable Address Search]**&#x200B;を`Yes`に設定します。
 

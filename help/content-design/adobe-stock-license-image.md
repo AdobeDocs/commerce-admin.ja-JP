@@ -3,25 +3,34 @@ title: Adobe Stock画像のライセンス認証
 description: 法的なアクセス権を付与し、Adobe Stock透かしを除去するには、Adobe Stock画像のライセンスを取得します。
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-TQID: https://experienceleague.adobe.com/xtEpqNy5Nrv8la7SUXpM0Dg-v1rRAxLOGoTcmsQ0jmY
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: 'https://experienceleague.adobe.com/xtEpqNy5Nrv8la7SUXpM0Dg-v1rRAxLOGoTcmsQ0jmY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 419
+source-wordcount: '419'
 ht-degree: 0%
-
 ---
-
 # Adobe Stock画像のライセンス認証
 
 本番環境のAdobe CommerceおよびMagento Open Source ストアに使用するAdobe Stock アセットには、ライセンスが必要です。 このライセンスにより、画像への法的なアクセス権が付与され、すべての[画像プレビュー](./adobe-stock-save-preview.md)に存在するAdobe Stock透かしを削除できます。 画像のライセンスを取得したり、既にライセンス済みの画像を保存したりするには、Adobe アカウントにログインする必要があります。
@@ -32,21 +41,21 @@ ht-degree: 0%
 
 **前提条件**
 
-Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.md)がインストールされ、設定されている場合にのみ使用できます。 [Adobe Stock](https://stock.adobe.com)の画像をライセンスするには、有料のAdobe Stock プランと[Adobe アカウント &#x200B;](https://helpx.adobe.com/jp/manage-account/using/access-adobe-id-account.html)が必要です。
+Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.md)がインストールされ、設定されている場合にのみ使用できます。 [Adobe Stock](https://stock.adobe.com)の画像をライセンスするには、有料のAdobe Stock プランと[Adobe アカウント ](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)が必要です。
 
 >[!ENDSHADEBOX]
 
 ## 新しい[!DNL Media Gallery]から画像のライセンスを取得
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**に移動します。
 
-1. [Adobe Stock Images](./adobe-stock-manage.md)を使用してログインし、プレビュー画像を[&#x200B; メディアストレージ &#x200B;](./media-storage.md)に保存する手順に従います。
+1. [Adobe Stock Images](./adobe-stock-manage.md)を使用してログインし、プレビュー画像を[ メディアストレージ ](./media-storage.md)に保存する手順に従います。
 
-   ![&#x200B; プレビュー画像を保存](./assets/adobe-stock-gallery-unlicensed.png){width="600" zoomable="yes"}
+   ![ プレビュー画像を保存](./assets/adobe-stock-gallery-unlicensed.png){width="600" zoomable="yes"}
 
-1. 画像（![&#x200B; アセットメニューアイコン &#x200B;](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}）の下にある3つのドットをクリックし、**[!UICONTROL License]**&#x200B;をクリックします。
+1. 画像（![ アセットメニューアイコン ](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}）の下にある3つのドットをクリックし、**[!UICONTROL License]**&#x200B;をクリックします。
 
-   ![Adobe Stockの画像アクション &#x200B;](./assets/adobe-stock-gallery-image-actions.png){width="600" zoomable="yes"}
+   ![Adobe Stockの画像アクション ](./assets/adobe-stock-gallery-image-actions.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -54,15 +63,15 @@ Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.m
 
 1. ライセンス確認ダイアログで、**[!UICONTROL Confirm]**&#x200B;をクリックして画像のライセンスを取得します。
 
-   ![&#x200B; ライセンス確認](./assets/adobe-stock-gallery-license-confirm.png){width="350" zoomable="yes"}
+   ![ ライセンス確認](./assets/adobe-stock-gallery-license-confirm.png){width="350" zoomable="yes"}
 
    >[!NOTE]
    >
-   >画像のライセンスを取得するには、アカウントに[Adobe Stock クレジット &#x200B;](https://helpx.adobe.com/jp/stock/help/credit-packs.html)が必要です。
+   >画像のライセンスを取得するには、アカウントに[Adobe Stock クレジット ](https://helpx.adobe.com/stock/help/credit-packs.html)が必要です。
 
 ## 標準メディアストレージから画像のライセンスを取得する
 
-1. [Adobe Stock検索グリッドにアクセス &#x200B;](adobe-stock-manage.md)。
+1. [Adobe Stock検索グリッドにアクセス ](adobe-stock-manage.md)。
 
 1. 画像の詳細を[表示](adobe-stock-manage.md#view-image-details)するには、検索グリッド内の画像を順番にクリックします。
 
@@ -74,9 +83,9 @@ Adobe Stock ライセンス機能は、[Adobe Stock Integration](./adobe-stock.m
 
      >[!NOTE]
      >
-     >画像のライセンスを取得するには、アカウントに[Adobe Stock クレジット &#x200B;](https://helpx.adobe.com/jp/stock/help/credit-packs.html)が必要です。
+     >画像のライセンスを取得するには、アカウントに[Adobe Stock クレジット ](https://helpx.adobe.com/stock/help/credit-packs.html)が必要です。
 
-   このアクションは、画像を[&#x200B; メディアストレージ &#x200B;](./media-storage.md)に保存するために使用するファイル名を指定するためのプロンプトを表示します。 デフォルトのファイル名が指定されますが、好みに合わせて名前をカスタマイズできます。
+   このアクションは、画像を[ メディアストレージ ](./media-storage.md)に保存するために使用するファイル名を指定するためのプロンプトを表示します。 デフォルトのファイル名が指定されますが、好みに合わせて名前をカスタマイズできます。
 
    ![Adobe Stockのライセンス済み画像を保存](./assets/adobe-stock-save-licensed.png){width="550" zoomable="yes"}
 

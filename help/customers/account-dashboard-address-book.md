@@ -3,37 +3,46 @@ title: 顧客のアドレス帳
 description: アドレス帳には、顧客のデフォルトの請求先住所と配送先住所、および顧客が頻繁に使用する追加の住所が含まれます。
 exl-id: b1cbc3b0-c245-4b8a-886f-b2cfc104db16
 feature: Customers, Storefront
-TQID: https://experienceleague.adobe.com/LHQDgcdHs3-T0d-0yGdkrmP0l7z-noSm6sbIPuseBTY
+TQID: 'https://experienceleague.adobe.com/LHQDgcdHs3-T0d-0yGdkrmP0l7z-noSm6sbIPuseBTY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 300
+source-wordcount: '300'
 ht-degree: 0%
-
 ---
-
 # 顧客のアドレス帳
 
 アドレスブックを最新の状態に保っている顧客は、チェックアウトプロセスをスピードアップできます。 アドレス帳には、顧客のデフォルトの請求先住所と配送先住所、および顧客が頻繁に使用する追加の住所が含まれます。 追加のアドレス入力は、グリッドから簡単にアクセスして管理できます。 各顧客のアドレス帳は、パフォーマンスに影響を与えることなく、3,000を超えるアドレス帳エントリを管理できます。
 
-![&#x200B; アドレス帳](assets/customer-account-dashboard-address-book.png){width="700" zoomable="yes"}
+![ アドレス帳](assets/customer-account-dashboard-address-book.png){width="700" zoomable="yes"}
 
 ## アドレスを追加
 
 1. 顧客アカウントの左側のナビゲーションで、顧客は&#x200B;**[!UICONTROL Address Book]**&#x200B;を選択します。
 
-1. _追加アドレスのエントリ_&#x200B;の下の&#x200B;_[!UICONTROL Address Book]_&#x200B;ページで、**[!UICONTROL Add New Address]**&#x200B;をクリックします。
+1. _追加アドレスのエントリ_&#x200B;の下の&#x200B;_[!UICONTROL Address Book]_ページで、**[!UICONTROL Add New Address]**をクリックします。
 
    ![新しいアドレスを追加](assets/add-new-address.png){width="600" zoomable="yes"}
 
@@ -82,9 +91,9 @@ ht-degree: 0%
 
 1. 次のいずれかの編集方法を選択します。
 
-   * _[!UICONTROL Default Addresses]_&#x200B;セクションの&#x200B;**[!UICONTROL Change Billing/Shipping Address]**&#x200B;をクリックします。
+   * _[!UICONTROL Default Addresses]_セクションの&#x200B;**[!UICONTROL Change Billing/Shipping Address]**をクリックします。
 
-   * _[!UICONTROL Additional Address Entries]_&#x200B;グリッドの&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
+   * _[!UICONTROL Additional Address Entries]_グリッドの&#x200B;**[!UICONTROL Edit]**をクリックします。
 
 1. 必要な変更を行い、**[!UICONTROL Save Address]**&#x200B;をクリックします。
 
@@ -94,7 +103,7 @@ ht-degree: 0%
 
 1. 削除するアドレス エントリを検索します。
 
-1. _[!UICONTROL Additional Address Entries]_&#x200B;グリッドの&#x200B;**[!UICONTROL Delete]**&#x200B;をクリックします。
+1. _[!UICONTROL Additional Address Entries]_グリッドの&#x200B;**[!UICONTROL Delete]**をクリックします。
 
 1. アクションを確認するには、**[!UICONTROL OK]**&#x200B;をクリックします。
 

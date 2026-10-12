@@ -3,34 +3,45 @@ title: カテゴリ – コンテンツ設定
 description: '[!UICONTROL Content]設定を使用して、カテゴリーページに表示される追加コンテンツを定義する方法について説明します。'
 exl-id: 988083e1-0993-4e08-b5e6-8b0855e56467
 feature: Catalog Management, Categories, Page Content
-TQID: https://experienceleague.adobe.com/PKCKw4i-EDB10X3AU-daMiyVMT96naqRLF8vrVBp24s
+TQID: 'https://experienceleague.adobe.com/PKCKw4i-EDB10X3AU-daMiyVMT96naqRLF8vrVBp24s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: '450'
 ht-degree: 0%
-
 ---
-
 # カテゴリ – コンテンツ設定
 
-_[!UICONTROL Content]_&#x200B;の設定により、追加コンテンツがカテゴリーページに表示されるかどうかが決まります。 このページには、カテゴリ商品のリストに加えて、画像、説明、CMS ブロックを含めることができます。 [[!DNL Page Builder]](../page-builder/introduction.md) コンテンツ ツールを使用して、カテゴリの説明を定義できます。
+_[!UICONTROL Content]_の設定により、追加コンテンツがカテゴリーページに表示されるかどうかが決まります。 このページには、カテゴリ商品のリストに加えて、画像、説明、CMS ブロックを含めることができます。 [[!DNL Page Builder]](../page-builder/introduction.md) コンテンツ ツールを使用して、カテゴリの説明を定義できます。
 
 ## [!DNL Page Builder]にカテゴリの説明を追加
 
@@ -38,11 +49,11 @@ _[!UICONTROL Content]_&#x200B;の設定により、追加コンテンツがカ�
 
 1. 下にスクロールして、**[!UICONTROL Content]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; カテゴリーコンテンツ &#x200B;](./assets/category-content.png){width="600" zoomable="yes"}
+   ![ カテゴリーコンテンツ ](./assets/category-content.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Description]** エリアの右上にある「**[!UICONTROL Edit with Page Builder]**」をクリックします。
 
-1. [[!DNL Page Builder]](../page-builder/introduction.md) コンテンツツールを使用して、既存のテキスト [&#128279;](../page-builder/text.md)を編集し、他のコンテンツを（必要に応じて）追加します。
+1. [[!DNL Page Builder]](../page-builder/introduction.md) コンテンツツールを使用して、既存のテキスト ](../page-builder/text.md)を[編集し、他のコンテンツを（必要に応じて）追加します。
 
 ## [!DNL Page Builder] プレビュー
 
@@ -50,7 +61,7 @@ _[!UICONTROL Content]_&#x200B;の設定により、追加コンテンツがカ�
 
 ![説明プレビュー](../page-builder/assets/pb-product-category-content-preview.png){width="500" zoomable="yes"}
 
-このコンテンツプレビューは、デフォルトで製品フォームとカテゴリーフォームに対して有効になっています。 プレビューの読み込みに伴いパフォーマンスが低下する場合は、[&#x200B; コンテンツ管理設定](../configuration-reference/general/content-management.md#advanced-content-tools)でプレビューを無効にできます。
+このコンテンツプレビューは、デフォルトで製品フォームとカテゴリーフォームに対して有効になっています。 プレビューの読み込みに伴いパフォーマンスが低下する場合は、[ コンテンツ管理設定](../configuration-reference/general/content-management.md#advanced-content-tools)でプレビューを無効にできます。
 
 ## エディターでのカテゴリの説明の追加
 
@@ -62,9 +73,9 @@ _[!UICONTROL Content]_&#x200B;の設定により、追加コンテンツがカ�
 
 1. 下にスクロールして、**[!UICONTROL Content]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; カテゴリーコンテンツ &#x200B;](./assets/category-content-ce.png){width="500" zoomable="yes"}
+   ![ カテゴリーコンテンツ ](./assets/category-content-ce.png){width="500" zoomable="yes"}
 
-1. カテゴリ **[!UICONTROL Description]**&#x200B;を入力し、[&#x200B; エディターツールバー](../content-design/editor.md)を使用して、必要に応じて書式設定します。
+1. カテゴリ **[!UICONTROL Description]**&#x200B;を入力し、[ エディターツールバー](../content-design/editor.md)を使用して、必要に応じて書式設定します。
 
    右下隅をドラッグして、テキストボックスの高さを変更できます。
 
@@ -91,8 +102,8 @@ _[!UICONTROL Content]_&#x200B;の設定により、追加コンテンツがカ�
 
 | 設定 | [範囲](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Category Image] | ストアビュー | カテゴリ ページの先頭の画像を指定します。 方法：<br/><br/>**[!UICONTROL Upload]**- ローカルコンピューターからギャラリーに画像ファイルをアップロードし、それをカテゴリ画像として使用します。<br/><br/>**[!UICONTROL Select from Gallery]** - ギャラリーから既存の画像を選択するよう求めるメッセージが表示されます。 <br/><br/>![&#x200B; ページビルダーのカメラアイコン &#x200B;](../assets/icon-camera.png) – 画像ファイルをカメラタイルにドラッグするか、画像を参照してローカルファイルシステムから選択します。 |
-| [!UICONTROL Description] | ストアビュー | カテゴリ ページに表示される説明を指定します。<br/><br/>**[!UICONTROL Edit with Page Builder]**- [[!DNL Page Builder]  ワークスペース &#x200B;](../page-builder/workspace.md)を開き、説明を編集できます。<br/><br/>**[!UICONTROL Show / Hide Editor]** - WYSIWYG エディターとHTML モードの表示を切り替えます。 |
-| [!UICONTROL Add CMS Block] | ストアビュー | 既存の[CMS ブロック &#x200B;](../content-design/blocks.md)をカテゴリーページに追加します。 |
+| [!UICONTROL Category Image] | ストアビュー | カテゴリ ページの先頭の画像を指定します。 方法：<br/><br/>**[!UICONTROL Upload]**- ローカルコンピューターからギャラリーに画像ファイルをアップロードし、それをカテゴリ画像として使用します。<br/><br/>**[!UICONTROL Select from Gallery]** - ギャラリーから既存の画像を選択するよう求めるメッセージが表示されます。 <br/><br/>![ ページビルダーのカメラアイコン ](../assets/icon-camera.png) – 画像ファイルをカメラタイルにドラッグするか、画像を参照してローカルファイルシステムから選択します。 |
+| [!UICONTROL Description] | ストアビュー | カテゴリ ページに表示される説明を指定します。<br/><br/>**[!UICONTROL Edit with Page Builder]**- [[!DNL Page Builder]  ワークスペース ](../page-builder/workspace.md)を開き、説明を編集できます。<br/><br/>**[!UICONTROL Show / Hide Editor]** - WYSIWYG エディターとHTML モードの表示を切り替えます。 |
+| [!UICONTROL Add CMS Block] | ストアビュー | 既存の[CMS ブロック ](../content-design/blocks.md)をカテゴリーページに追加します。 |
 
 {style="table-layout:auto"}

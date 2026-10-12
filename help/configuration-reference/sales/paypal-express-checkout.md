@@ -3,36 +3,47 @@ title: '[!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal 
 description: Commerce管理者の[!UICONTROL Sales] > [!UICONTROL Payment Methods] ページの[!UICONTROL PayPal Express Checkout] セクションの設定を確認します。
 exl-id: aae5b1d9-f47e-447a-b40c-924f8d2ee824
 feature: Configuration, Payments
-TQID: https://experienceleague.adobe.com/SEtCXXuq1AkwIoH-0aHjwmWIRnMqzhrf3ojo2xa2jBs
+TQID: 'https://experienceleague.adobe.com/SEtCXXuq1AkwIoH-0aHjwmWIRnMqzhrf3ojo2xa2jBs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1682
-ht-degree: 0%
-
+source-wordcount: '1732'
+ht-degree: 1%
 ---
-
 # [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Express Checkout]
 
 >[!IMPORTANT]
 >
 >**PSD2の要件：** <br/>
->2019年9月14日の時点で、ヨーロッパの銀行は[PSD2](../../getting-started/compliance-payment-services-directive.md)の要件を満たさない支払いを拒否する可能性があります。PayPal Express Checkoutでは、すべての要件がPayPalによって処理されるため、PSD2に準拠するために何もする必要はありません。
+>2019年9月14日現在、ヨーロッパの銀行は[PSD2](../../getting-started/compliance-payment-services-directive.md)の要件を満たさない支払いを拒否する可能性があります。 PayPal Express Checkoutでは、すべての要件がPayPalによって処理されるため、PSD2に準拠するために何もする必要はありません。
 
 {{config}}
 
@@ -55,7 +66,7 @@ ht-degree: 0%
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | web サイト | PayPal加盟店アカウントの確立時に指定した電子メールアドレスを指定します。 メールアドレスは大文字と小文字が区別され、PayPal システムのメールアドレスと完全に一致する必要があります。 |
-| [!UICONTROL API Authentication Methods] | web サイト | API認証に使用するメソッドを指定します。 オプション：<br/>**`API Signature`**- フォームに&#x200B;_[!UICONTROL API Signature]_&#x200B;フィールドを表示します。<br/>**`API Certificate`**- フォームに&#x200B;_[!UICONTROL API Certificate]_ フィールドを表示します。 |
+| [!UICONTROL API Authentication Methods] | web サイト | API認証に使用するメソッドを指定します。 オプション：<br/>**`API Signature`**- フォームに&#x200B;_[!UICONTROL API Signature]_フィールドを表示します。<br/>**`API Certificate`**- フォームに_[!UICONTROL API Certificate]_ フィールドを表示します。 |
 | [!UICONTROL API Username] | web サイト | PayPal加盟店アカウントに関連付けられているAPI ユーザー名。 |
 | [!UICONTROL API Password] | web サイト | PayPal加盟店アカウントに関連付けられているAPI パスワード。 |
 | [!UICONTROL API Signature] | web サイト | PayPal加盟店アカウントに関連付けられているAPI署名。 |
@@ -158,7 +169,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Frontend Experience Settings]
 
-![&#x200B; フロントエンドエクスペリエンス設定 – PayPal マーチャント ページ スタイル &#x200B;](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png)<!-- zoom -->
+![ フロントエンドエクスペリエンス設定 – PayPal マーチャント ページ スタイル ](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -174,7 +185,7 @@ ht-degree: 0%
 
 #### [!UICONTROL Customize Smart Buttons (Basic)]
 
-![&#x200B; フロントエンドエクスペリエンス設定 – スマートボタンのカスタマイズ &#x200B;](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings2.png)<!-- zoom -->
+![ フロントエンドエクスペリエンス設定 – スマートボタンのカスタマイズ ](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings2.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -189,7 +200,7 @@ ht-degree: 0%
 
 #### [!UICONTROL Customize Smart Buttons (Features)]
 
-![&#x200B; フロントエンドエクスペリエンス設定 – スマートボタンのカスタマイズ（機能） &#x200B;](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings3.png)<!-- zoom -->
+![ フロントエンドエクスペリエンス設定 – スマートボタンのカスタマイズ（機能） ](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings3.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

@@ -3,41 +3,50 @@ title: メール通信の設定
 description: 返される電子メールのルーティングや特定の電子メールアドレスへの返信など、電子メールのコミュニケーションを設定する方法について説明します。
 exl-id: 7e62e9c5-f214-4fd5-becc-99dcb093cd5c
 feature: Communications, Configuration
-TQID: https://experienceleague.adobe.com/0spSxu59rF2KomOWVI5iR9pcg2r-VLm-GiXvJvatnww
+TQID: 'https://experienceleague.adobe.com/0spSxu59rF2KomOWVI5iR9pcg2r-VLm-GiXvJvatnww'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 310
+source-wordcount: '310'
 ht-degree: 0%
-
 ---
-
 # メール通信の設定
 
 _メール送信設定_&#x200B;を使用すると、返されたメールまたは返信を特定のアドレスに送信できます。 ストアがSMTPまたはWindows サーバー上で実行されている場合は、ホストとポートの設定を確認できます。
 
 >[!IMPORTANT]
 >
->**セキュリティ通知**&#x200B;すべての販売者は、最近特定された潜在的なリモート コード実行の悪用から保護するために、メール送信設定を直ちに設定する必要があります。 この問題が解決されるまで、メール通信に[!DNL Sendmail]を使用することを避けることを強くお勧めします。 _[!UICONTROL Mail Sending Settings]_&#x200B;で、_[!UICONTROL Set Return Path]_&#x200B;が`No`に設定されていることを確認してください。
+>**セキュリティ通知**&#x200B;すべての販売者は、最近特定された潜在的なリモート コード実行の悪用から保護するために、メール送信設定を直ちに設定する必要があります。 この問題が解決されるまで、メール通信に[!DNL Sendmail]を使用することを避けることを強くお勧めします。 _[!UICONTROL Mail Sending Settings]_で、_[!UICONTROL Set Return Path]_&#x200B;が`No`に設定されていることを確認してください。
 
 設定設定の詳細なリストについては、_設定リファレンス_&#x200B;の[_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md)を参照してください。
 
 ## メール通信の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL System]**&#x200B;を選択します。
 
@@ -51,22 +60,22 @@ _メール送信設定_&#x200B;を使用すると、返されたメールまた�
 
    - SMTPまたはWindows サーバーで実行している場合は、次の設定を確認します。
 
-      - **[!UICONTROL Host]** - `localhost`またはその他
+     - **[!UICONTROL Host]** - `localhost`またはその他
 
-      - **[!UICONTROL Port (25)]** - `25`またはその他
+     - **[!UICONTROL Port (25)]** - `25`またはその他
 
    - **[!UICONTROL Set Return Path]**&#x200B;の場合、次のいずれかのオプションを選択します。
 
-      - `No` - （推奨されるセキュリティ対策）ルートがデフォルトのストア電子メールアドレスに電子メールを返しました。
-      - `Yes` - ルートがデフォルトのストア電子メールアドレスに電子メールを返しました。
-      - `Specified` - ルートは、**[!UICONTROL Return Path Email]**&#x200B;で指定された電子メールアドレスに電子メールを返しました。
+     - `No` - （推奨されるセキュリティ対策）ルートがデフォルトのストア電子メールアドレスに電子メールを返しました。
+     - `Yes` - ルートがデフォルトのストア電子メールアドレスに電子メールを返しました。
+     - `Specified` - ルートは、**[!UICONTROL Return Path Email]**&#x200B;で指定された電子メールアドレスに電子メールを返しました。
 
    - SMTP サーバーで実行している場合は、接続を設定します。
 
-      - **[!UICONTROL Username]** - SMTP サーバーのログインユーザー名を入力します。
-      - **[!UICONTROL Password]** - SMTP サーバーログインのパスワードを入力します。
-      - **[!UICONTROL Auth]** - SMTP サーバー接続の認証タイプを選択：`NONE`、`PLAIN`、または`LOGIN`
-      - **[!UICONTROL SSL]** - サーバーセキュリティ証明書の検証タイプを選択してください：`SSL`または`TLS`
+     - **[!UICONTROL Username]** - SMTP サーバーのログインユーザー名を入力します。
+     - **[!UICONTROL Password]** - SMTP サーバーログインのパスワードを入力します。
+     - **[!UICONTROL Auth]** - SMTP サーバー接続の認証タイプを選択：`NONE`、`PLAIN`、または`LOGIN`
+     - **[!UICONTROL SSL]** - サーバーセキュリティ証明書の検証タイプを選択してください：`SSL`または`TLS`
 
      ![詳細設定 – メール送信設定](../configuration-reference/advanced/assets/system-mail-sending-settings-smtp.png){width="600" zoomable="yes"}
 

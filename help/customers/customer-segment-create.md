@@ -3,49 +3,57 @@ title: 顧客セグメントの作成と削除
 description: 顧客は、顧客アカウントダッシュボードで、注文に関連付けられた払い戻し情報を表示できます。
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
-TQID: https://experienceleague.adobe.com/D31F3AtNhNhDaTcOHxX4qNos-0MIP-nh0UVszKQh5y0
+TQID: 'https://experienceleague.adobe.com/D31F3AtNhNhDaTcOHxX4qNos-0MIP-nh0UVszKQh5y0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 978
+source-wordcount: '978'
 ht-degree: 0%
-
 ---
-
 # 顧客セグメントの作成と削除
 
 {{ee-feature}}
 
-顧客セグメントの作成は、[買い物かご価格ルール &#x200B;](../merchandising-promotions/price-rules-cart.md)の作成に似ていますが、オプションには[顧客セグメント固有の属性](../customers/customer-segments.md)が含まれます。
+顧客セグメントの作成は、[買い物かご価格ルール ](../merchandising-promotions/price-rules-cart.md)の作成に似ていますが、オプションには[顧客セグメント固有の属性](../customers/customer-segments.md)が含まれます。
 
-![顧客セグメントリスト &#x200B;](assets/customer-segments.png){width="700" zoomable="yes"}
+![顧客セグメントリスト ](assets/customer-segments.png){width="700" zoomable="yes"}
 
-_&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
+_**[!UICONTROL Customer Segments]グリッド&#x200B;**_
 
 | 列 | 説明 |
 |--- |--- |
 | **[!UICONTROL ID]** | 顧客セグメントの一意のID |
 | **[!UICONTROL Segment]** | 顧客セグメント名。 |
-| **[!UICONTROL Status]** | 顧客セグメントが&#x200B;_[!UICONTROL Active]_&#x200B;か_[!UICONTROL Inactive]_&#x200B;かを示します。 |
+| **[!UICONTROL Status]** | 顧客セグメントが&#x200B;_[!UICONTROL Active]_か_[!UICONTROL Inactive]_&#x200B;かを示します。 |
 | **[!UICONTROL Website]** | 顧客セグメントが属するweb サイトを示します。 |
 
 {style="table-layout:auto"}
 
 ## 前提条件：顧客セグメントを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Customer Configuration]**&#x200B;を選択します。
 
@@ -53,7 +61,7 @@ _&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 
 1. **[!UICONTROL Enable Customer Segment Functionality]**&#x200B;が`Yes`に設定されていることを確認します。
 
-   ![顧客設定 – 顧客セグメント &#x200B;](../configuration-reference/customers/assets/customer-configuration-customer-segments.png){width="600" zoomable="yes"}
+   ![顧客設定 – 顧客セグメント ](../configuration-reference/customers/assets/customer-configuration-customer-segments.png){width="600" zoomable="yes"}
 
 1. （オプション）顧客セグメントのリアルタイム検証を無効にするには、**[!UICONTROL Real-time Check if Customer is Matched by Segment]**&#x200B;を`No`に設定します。
 
@@ -96,9 +104,9 @@ _&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 
 1. **[!UICONTROL Save and Continue Edit]**&#x200B;をクリックします。
 
-   セグメント _[!UICONTROL General Properties]_&#x200B;を保存すると、左側のパネルに追加のオプションが表示されます。
+   セグメント _[!UICONTROL General Properties]_を保存すると、左側のパネルに追加のオプションが表示されます。
 
-   ![&#x200B; セグメントのプロパティ &#x200B;](assets/customer-segment-saved.png){width="600" zoomable="yes"}
+   ![ セグメントのプロパティ ](assets/customer-segment-saved.png){width="600" zoomable="yes"}
 
 **_[!UICONTROL General Properties]_**
 
@@ -129,7 +137,7 @@ _&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 
 1. 左側のウィンドウで、**[!UICONTROL Conditions]**&#x200B;をクリックします。
 
-   デフォルトの条件は、ページの&#x200B;_[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;から始まります。
+   デフォルトの条件は、ページの&#x200B;_[!UICONTROL If ALL of these conditions are TRUE:]_から始まります。
 
    ![条件](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -161,7 +169,7 @@ _&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 
    - **...**&#x200B;をクリックし、`United States > California`を選択します。
 
-   ![&#x200B; カリフォルニア州ロサンゼルスの女性の条件](assets/customer-segment-conditions-la-ladies.png){width="600" zoomable="yes"}
+   ![ カリフォルニア州ロサンゼルスの女性の条件](assets/customer-segment-conditions-la-ladies.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save and Continue Edit]**&#x200B;をクリックします。
 
@@ -175,7 +183,7 @@ _&#x200B;**[!UICONTROL Customer Segments]グリッド&#x200B;**&#x200B;_
 
 1. 顧客セグメントを、ターゲティングプロモーション、コンテンツ、郵送に使用できるようになりました。
 
-_&#x200B;**[!UICONTROL Matched Customers]グリッド&#x200B;**&#x200B;_
+_**[!UICONTROL Matched Customers]グリッド&#x200B;**_
 
 | 列 | 説明 |
 |--- |--- |
@@ -205,7 +213,7 @@ _&#x200B;**[!UICONTROL Matched Customers]グリッド&#x200B;**&#x200B;_
 
 | ボタン | 説明 |
 |--- |--- |
-| **[!UICONTROL Back]** | 変更を保存せずに&#x200B;_[!UICONTROL Customer Segments]_&#x200B;ページに戻ります。 |
+| **[!UICONTROL Back]** | 変更を保存せずに&#x200B;_[!UICONTROL Customer Segments]_ページに戻ります。 |
 | **[!UICONTROL Delete]** | 現在の顧客セグメントを削除します。 セグメント内の顧客に関連付けられている顧客または完了した注文は削除されません。 |
 | **[!UICONTROL Reset]** | 顧客セグメントフォームの未保存の変更を以前の値にリセットします。 |
 | **[!UICONTROL Refresh Segment Data]** | セグメントデータを直近に保存された値に更新します。 セグメントデータが利用できないか、古い場合に関連します。 |
@@ -218,4 +226,4 @@ _&#x200B;**[!UICONTROL Matched Customers]グリッド&#x200B;**&#x200B;_
 
 顧客セグメントの作成方法については、次の動画をご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410191/?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)

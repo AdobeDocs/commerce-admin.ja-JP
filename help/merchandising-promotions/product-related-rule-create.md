@@ -3,28 +3,41 @@ title: 関連製品ルールの作成
 description: 関連製品、アップセル、およびクロスセルを表示するためにトリガーできる関連製品ルールを作成する方法について説明します。
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-TQID: https://experienceleague.adobe.com/jfs0iFZxLKfvJpRGLA6Hi1dADcGEvm4PJIolOf2nfI4
+TQID: 'https://experienceleague.adobe.com/jfs0iFZxLKfvJpRGLA6Hi1dADcGEvm4PJIolOf2nfI4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: '648'
 ht-degree: 0%
-
 ---
-
 # 関連製品ルールの作成
 
 {{ee-feature}}
@@ -41,7 +54,7 @@ ht-degree: 0%
 
 ## 関連製品ルールの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Rule]**」をクリックします。
 
@@ -57,25 +70,25 @@ ht-degree: 0%
 
    - **[!UICONTROL Apply To]**&#x200B;を次のいずれかに設定します：
 
-      - `Related Products`
-      - `Up-sells`
-      - `Cross-sells`
+     - `Related Products`
+     - `Up-sells`
+     - `Cross-sells`
 
    - ルールを特定の期間アクティブにする場合は、**[!UICONTROL From]**&#x200B;日と&#x200B;**[!UICONTROL To]**&#x200B;日を入力します。
 
    - **[!UICONTROL Result Limit]**&#x200B;に、結果リストに表示するレコードの数を入力します。 最大数は20です。
 
-   - ルールが特定の[顧客セグメント &#x200B;](../customers/customer-segments.md)に適用される場合、**[!UICONTROL Customer Segments]**&#x200B;を`Specified`に設定し、リストから顧客セグメントを選択します。
+   - ルールが特定の[顧客セグメント ](../customers/customer-segments.md)に適用される場合、**[!UICONTROL Customer Segments]**&#x200B;を`Specified`に設定し、リストから顧客セグメントを選択します。
 
-   - ルールが特定の[Real-Time CDP オーディエンス &#x200B;](../customers/audience-activation.md)に適用される場合、**[!UICONTROL Real-Time CDP Audience]**&#x200B;を`Specified`に設定し、リストからReal-Time CDP オーディエンスを選択します。
+   - ルールが特定の[Real-Time CDP オーディエンス ](../customers/audience-activation.md)に適用される場合、**[!UICONTROL Real-Time CDP Audience]**&#x200B;を`Specified`に設定し、リストからReal-Time CDP オーディエンスを選択します。
 
-     ![関連製品ルール - Real-Time CDP オーディエンス &#x200B;](./assets/rtcdp-related-products.png){width="500"}
+     ![関連製品ルール - Real-Time CDP オーディエンス ](./assets/rtcdp-related-products.png){width="500"}
 
-1. 左側のパネルで、**[!UICONTROL Products to Match]**&#x200B;を選択し、[&#x200B; カタログ価格ルール &#x200B;](price-rules-catalog.md)の場合と同じように条件を作成します。
+1. 左側のパネルで、**[!UICONTROL Products to Match]**&#x200B;を選択し、[ カタログ価格ルール ](price-rules-catalog.md)の場合と同じように条件を作成します。
 
    ![関連製品ルール – 一致する製品](./assets/catalog-related-products-match.png){width="500"}
 
-1. 左側のパネルで、**[!UICONTROL Products to Display]**&#x200B;を選択し、[&#x200B; カタログ価格ルール &#x200B;](price-rules-catalog.md)の場合と同じように結果条件を作成します。
+1. 左側のパネルで、**[!UICONTROL Products to Display]**&#x200B;を選択し、[ カタログ価格ルール ](price-rules-catalog.md)の場合と同じように結果条件を作成します。
 
    ![関連製品ルール – 表示する製品](./assets/catalog-related-products-to-display.png){width="500"}
 
@@ -85,7 +98,7 @@ ht-degree: 0%
 
 ## 関連製品ルールの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**に移動します。
 
 1. 削除する関連製品ルールを見つけます。
 
@@ -99,7 +112,7 @@ ht-degree: 0%
 
 関連製品のルール設定について詳しくは、次の動画をご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3411064?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343837?quality=12&learn=on)
 
 ## フィールドの説明
 

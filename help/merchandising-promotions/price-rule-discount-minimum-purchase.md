@@ -3,28 +3,41 @@ title: カートの価格ルールの例 – 最低商品価格での割引
 description: カート価格ルールを使用して、最低商品価格の割引を提供する例を紹介します。
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-TQID: https://experienceleague.adobe.com/IRVMCZ8C4uOJ4cBYLEv0YnOsehv0T9XWSIkyjBLhFw4
+TQID: 'https://experienceleague.adobe.com/IRVMCZ8C4uOJ4cBYLEv0YnOsehv0T9XWSIkyjBLhFw4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: a507b1ed-4937-53da-97ae-57d36bd5b9e0
+    internal-label: Price Rules
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 382
+source-wordcount: '382'
 ht-degree: 0%
-
 ---
-
 # カートの価格ルールの例 – 最低商品価格での割引
 
 カートの価格ルールを利用して、カート内の最低商品価格に基づいて、パーセンテージ割引を提供することができます。 次の例では、指定したカテゴリの価格が30.00 ドルを超える少なくとも1つの商品がカートに追加された場合、カート全体のすべての商品に10%の割引が適用されます。 割引の形式は次のとおりです。
@@ -39,21 +52,21 @@ ht-degree: 0%
 
 1. 下にスクロールして、**[!UICONTROL Conditions]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-1. _追加_ （![&#x200B; アイコンを追加](../assets/icon-add-green-circle.png)）をクリックし、**[!UICONTROL Product Attribute Combination]**&#x200B;を選択します。
+1. _追加_ （![ アイコンを追加](../assets/icon-add-green-circle.png)）をクリックし、**[!UICONTROL Product Attribute Combination]**&#x200B;を選択します。
 
    ![買い物かごの価格ルール条件 – 製品属性の組み合わせ](./assets/condition1.png){width="500" zoomable="yes"}
 
-1. 次の行の先頭にある&#x200B;_追加_ （![追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックし、**[!UICONTROL Product Attribute]**&#x200B;の下のリストで「**[!UICONTROL Category]**」を選択します。
+1. 次の行の先頭にある&#x200B;_追加_ （![追加アイコン ](../assets/icon-add-green-circle.png)）をクリックし、**[!UICONTROL Product Attribute]**&#x200B;の下のリストで「**[!UICONTROL Category]**」を選択します。
 
    - 「（**...**） _more_」リンクをクリックして、追加のオプションを表示します。
 
-     ![買い物かごの価格ルール条件 – カテゴリ オプション &#x200B;](./assets/condition3.png){width="600" zoomable="yes"}
+     ![買い物かごの価格ルール条件 – カテゴリ オプション ](./assets/condition3.png){width="600" zoomable="yes"}
 
-   - _Chooser_ （![&#x200B; リストアイコン &#x200B;](../assets/icon-list-chooser.png)）アイコンをクリックすると、使用可能なカテゴリが表示されます。 カテゴリーツリーで、含める各カテゴリのチェックボックスを選択します。 チェックアイコンをクリックして、カテゴリの選択を確定します。
+   - _Chooser_ （![ リストアイコン ](../assets/icon-list-chooser.png)）アイコンをクリックすると、使用可能なカテゴリが表示されます。 カテゴリーツリーで、含める各カテゴリのチェックボックスを選択します。 チェックアイコンをクリックして、カテゴリの選択を確定します。
 
-     ![買い物かごの価格ルール条件 – カテゴリ &#x200B;](./assets/condition4.png){width="600" zoomable="yes"}
+     ![買い物かごの価格ルール条件 – カテゴリ ](./assets/condition4.png){width="600" zoomable="yes"}
 
-1. 次の行の先頭にある「_追加_」（![追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックし、次の操作を行います。
+1. 次の行の先頭にある「_追加_」（![追加アイコン ](../assets/icon-add-green-circle.png)）をクリックし、次の操作を行います。
 
    - **[!UICONTROL Cart Item Attribute]**&#x200B;の下のリストで、**[!UICONTROL Price in cart]**&#x200B;を選択します。
 
@@ -71,7 +84,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Actions]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
-   ![買い物かごの価格ルール アクション &#x200B;](./assets/minimum-discount-actions.png){width="600" zoomable="yes"}
+   ![買い物かごの価格ルール アクション ](./assets/minimum-discount-actions.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Apply]**&#x200B;を`Percent of product price discount`に設定します。
 

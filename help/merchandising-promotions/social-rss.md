@@ -3,29 +3,41 @@ title: ソーシャルメディアとRSS フィード
 description: ソーシャルメディアやその他のRSS フィードの統合を追加して、ブランドと製品の認知度を高める方法を説明します。
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
-TQID: https://experienceleague.adobe.com/jO5CAIJOQ7caLuno4OP4vnhJhIMZahlxL7waFwDyHzY
+TQID: 'https://experienceleague.adobe.com/jO5CAIJOQ7caLuno4OP4vnhJhIMZahlxL7waFwDyHzY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1175
+source-wordcount: '1175'
 ht-degree: 0%
-
 ---
-
 # ソーシャルメディアとRSS フィード
 
 多くのマーチャントは、ブランドや商品の認知度を高めるために、ソーシャルメディアやその他のデジタルツールを利用しています。 Marketplace拡張機能をインストールするか、コンテンツページにプラグインを追加することで、ストアをソーシャルネットワークと統合できます。 RSS フィードを利用して、商品情報をショッピング集計サイトに公開したり、ニュースレターに掲載したりできます。 顧客はRSS フィードを購読して、新製品やプロモーションについて学習できます。
@@ -38,11 +50,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerceは、ネイティブの&#x200B;_Magento ソーシャル_ Facebook統合を削除し、拡張機能をサポートしなくなりました。 [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target="_blank"}に移動して、Facebook統合用の代替拡張機能を見つけます。
+>Adobe Commerceは、ネイティブの&#x200B;_Magento Social_ Facebook統合を削除し、拡張機能をサポートしなくなりました。 [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target="_blank"}に移動して、Facebook統合用の代替拡張機能を見つけます。
 
 ### 手順1: ボタンコードを取得
 
-1. Metaの開発者向けweb サイトで、[&#x200B; ボタンの設定](https://developers.facebook.com/docs/plugins/like-button) ページに移動します。
+1. Metaの開発者向けweb サイトで、[ ボタンの設定](https://developers.facebook.com/docs/plugins/like-button) ページに移動します。
 
 1. **[!UICONTROL URL to Like]**&#x200B;の場合は、ユーザーに&#x200B;_いいね_&#x200B;してもらいたいストア内のページのURLを入力します。
 
@@ -63,7 +75,7 @@ ht-degree: 0%
 
 1. ストア管理者に戻ります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Block]**」をクリックします。
 
@@ -91,9 +103,9 @@ ht-degree: 0%
 
 1. コンテンツツールに応じて、ブロックを追加します。
 
-   - [!UICONTROL Page Builder]を使用する場合は、手順に従って[&#x200B; ブロック &#x200B;](../page-builder/block.md)をステージに追加します。
+   - [!UICONTROL Page Builder]を使用する場合は、手順に従って[ ブロック ](../page-builder/block.md)をステージに追加します。
 
-   - _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;に移動します。
+   - _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックし、次の操作を行います。
 
@@ -111,7 +123,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Sort Order]** フィールドに数値を入力して、ブロックが割り当てられている場合に、そのブロックが他のコンテンツ要素と同じ場所に表示されるかどうかを判断します。 上の位置はゼロです。
 
-1. _[!UICONTROL Layout Updates]_&#x200B;セクションで、**[!UICONTROL Add Layout Update]**&#x200B;をクリックし、**[!UICONTROL Display On]**&#x200B;をブロックを表示するカテゴリ、製品、またはページに設定します。
+1. _[!UICONTROL Layout Updates]_セクションで、**[!UICONTROL Add Layout Update]**をクリックし、**[!UICONTROL Display On]**をブロックを表示するカテゴリ、製品、またはページに設定します。
 
    例えば、`All Pages`を選択してヘッダーまたはフッターのいずれかにブロックを配置すると、そのブロックはストアのすべてのページで同じ場所に表示されます。
 
@@ -133,7 +145,7 @@ ht-degree: 0%
 
 1. プロンプトが表示されたら、ワークスペースの上部にある手順に従って、インデックスとページキャッシュを更新します。
 
-   ウィジェットが&#x200B;_[!UICONTROL Widgets]_&#x200B;リストに表示されます。
+   ウィジェットが&#x200B;_[!UICONTROL Widgets]_リストに表示されます。
 
 ### 手順4: ストア内の場所の確認
 
@@ -145,11 +157,11 @@ RSS （Really Simple Syndication）は、オンラインで情報を配信する
 
 RSS フィードが有効になっている場合、製品、スペシャル、カテゴリー、クーポンへの追加は、各フィードのサブスクライバーに自動的に送信されます。 公開したすべてのRSS フィードへのリンクは、ストアのフッターにあります。
 
-![RSS フィードのアイコン &#x200B;](./assets/icon-rss.png){width="100"}<br/>
+![RSS フィードのアイコン ](./assets/icon-rss.png){width="100"}<br/>
 
 RSS フィードを読むために必要なソフトウェアはフィードリーダーと呼ばれ、見出し、ブログ、ポッドキャストなどを購読することができます。 Google Readerは、無料でオンラインで利用できる多くのフィードリーダーのひとつです。
 
-![&#x200B; ストアフロントの例 – RSS フィード &#x200B;](./assets/storefront-rss-feeds.png){width="700" zoomable="yes"}
+![ ストアフロントの例 – RSS フィード ](./assets/storefront-rss-feeds.png){width="700" zoomable="yes"}
 
 ### RSS フィードを設定するメリット
 
@@ -174,7 +186,7 @@ RSS フィードを読むために必要なソフトウェアはフィードリ�
 
 ### ストアのRSS フィードの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 右上隅で、フィードを利用できるビューに&#x200B;**[!UICONTROL Store View]**&#x200B;を設定します。
 
@@ -184,7 +196,7 @@ RSS フィードを読むために必要なソフトウェアはフィードリ�
 
 1. **[!UICONTROL Rss Config]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、**[!UICONTROL Enable RSS]**&#x200B;を`Enable`に設定します。
 
-   ![&#x200B; カタログ設定 – RSS フィード &#x200B;](../configuration-reference/catalog/assets/rss-feeds-rss-config.png){width="600" zoomable="yes"}
+   ![ カタログ設定 – RSS フィード ](../configuration-reference/catalog/assets/rss-feeds-rss-config.png){width="600" zoomable="yes"}
 
    必要に応じて、**[!UICONTROL Use Default]** チェックボックスをオフにして、デフォルト値を変更します。
 
@@ -197,7 +209,7 @@ RSS フィードを読むために必要なソフトウェアはフィードリ�
    - **[!UICONTROL Coupons/Discounts]**
    - **[!UICONTROL Top Level Category]**
 
-   ![&#x200B; カタログ - RSS フィード設定](../configuration-reference/catalog/assets/rss-feeds-catalog.png){width="600" zoomable="yes"}
+   ![ カタログ - RSS フィード設定](../configuration-reference/catalog/assets/rss-feeds-catalog.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Order]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、**[!UICONTROL Customer Order Status Notification]**&#x200B;を`Enable`に設定します。
 

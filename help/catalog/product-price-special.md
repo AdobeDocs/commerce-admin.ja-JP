@@ -3,28 +3,37 @@ title: 特別価格
 description: 指定した期間に特別価格を提供する方法を説明します。
 exl-id: 4a1e2045-f0a8-4bae-a5a3-8ce8b258b217
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/j6DspCgn2P4-pHxXuOd-AiJCL0SBezxg-rn6yYmMIk8
+TQID: 'https://experienceleague.adobe.com/j6DspCgn2P4-pHxXuOd-AiJCL0SBezxg-rn6yYmMIk8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 855
+source-wordcount: '859'
 ht-degree: 0%
-
 ---
-
 # 特別価格
 
 指定された期間に特別な価格を提供することができます。 指定された期間の間、特別価格が通常価格の代わりに表示され、その後に正規価格を示す表記法が表示されます。
@@ -39,7 +48,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Adobe Commerceでは、[&#x200B; スケジュール済み更新](../content-design/content-staging-scheduled-update.md)のサポートが含まれています。 これらのプロモーションツールを使用して、特定の期間の特定の製品に特別な価格を適用します。
+Adobe Commerceでは、[ スケジュール済み更新](../content-design/content-staging-scheduled-update.md)のサポートが含まれています。 これらのプロモーションツールを使用して、特定の期間の特定の製品に特別な価格を適用します。
 
 1. 製品を編集モードで開きます。
 
@@ -51,7 +60,7 @@ Adobe Commerceでは、[&#x200B; スケジュール済み更新](../content-desi
 
 1. 概要&#x200B;**[!UICONTROL Description]**&#x200B;を入力します。
 
-1. _カレンダー_ （![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）アイコンを使用して、特別価格のプロモーション用に&#x200B;**[!UICONTROL Start Date]**&#x200B;と&#x200B;**[!UICONTROL End Date]**&#x200B;を選択します。
+1. _カレンダー_ （![ カレンダーアイコン ](../assets/icon-calendar.png)）アイコンを使用して、特別価格のプロモーション用に&#x200B;**[!UICONTROL Start Date]**&#x200B;と&#x200B;**[!UICONTROL End Date]**&#x200B;を選択します。
 
    **[!UICONTROL Hour]**&#x200B;と&#x200B;**[!UICONTROL Minute]**&#x200B;のスライダーを使用して、開始時間と終了時間も選択できます。 開始と終了が設定されたら、**[!UICONTROL Close]**&#x200B;をクリックします。
 
@@ -65,7 +74,7 @@ Adobe Commerceでは、[&#x200B; スケジュール済み更新](../content-desi
 
    ストアフロントでは、特別価格がカタログリストと商品ページの両方に表示されます。
 
-   _[!UICONTROL Scheduled Change]_&#x200B;がページの上部に表示されます。
+   _[!UICONTROL Scheduled Change]_がページの上部に表示されます。
 
    ![予定された変更](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
@@ -77,11 +86,11 @@ Magento Open Sourceには、詳細な価格設定オプションにシンプル�
 
 1. 製品を編集モードで開きます。
 
-1. _[!UICONTROL Price]_&#x200B;フィールドまで下にスクロールし、**[!UICONTROL Advanced Pricing]**&#x200B;をクリックして、**[!UICONTROL Special Price]**&#x200B;の金額を入力します。
+1. _[!UICONTROL Price]_フィールドまで下にスクロールし、**[!UICONTROL Advanced Pricing]**をクリックして、**[!UICONTROL Special Price]**の金額を入力します。
 
-1. _カレンダー_ （![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）アイコンを使用して、特別価格のプロモーション用に&#x200B;**[!UICONTROL Start Date]**&#x200B;と&#x200B;**[!UICONTROL End Date]**&#x200B;を選択します。
+1. _カレンダー_ （![ カレンダーアイコン ](../assets/icon-calendar.png)）アイコンを使用して、特別価格のプロモーション用に&#x200B;**[!UICONTROL Start Date]**&#x200B;と&#x200B;**[!UICONTROL End Date]**&#x200B;を選択します。
 
-   特別価格は、開始日（00:01）の午前0時の直後から有効になり、終了日の前日の午前0時（23:59）直前まで続きます。
+   特別価格は、開始日の午前0時（00:01）に開始直後から適用され、終了日の前日の午前0時（23:59）直前まで継続されます。
 
    ![予定された変更](./assets/product-special-price-from-ce.png){width="600" zoomable="yes"}
 
@@ -99,7 +108,7 @@ Magento Open Sourceには、詳細な価格設定オプションにシンプル�
 
 次の例は、Adobe Commerceで設定可能な商品の複数の商品バリエーションに同じ特別価格を割り当てる方法を示しています。
 
-1. _[!UICONTROL Products]_&#x200B;ページで、**[!UICONTROL Filters]**&#x200B;をクリックし、設定可能な製品の&#x200B;**[!UICONTROL Name]**&#x200B;を入力します。
+1. _[!UICONTROL Products]_ページで、**[!UICONTROL Filters]**をクリックし、設定可能な製品の&#x200B;**[!UICONTROL Name]**を入力します。
 
 1. **[!UICONTROL Type]**&#x200B;を`Configurable Product`に設定し、**[!UICONTROL Apply Filters]**&#x200B;をクリックします。
 
@@ -109,9 +118,9 @@ Magento Open Sourceには、詳細な価格設定オプションにシンプル�
 
 1. **[!UICONTROL Actions]** コントロールを`Update attributes`に設定します。
 
-1. _[!UICONTROL Special Price]_&#x200B;フィールドまで下にスクロールし、_[!UICONTROL Special Price]_ フィールドの下にある&#x200B;**[!UICONTROL Change]** チェックボックスを選択し、提供する特別価格を入力します。
+1. _[!UICONTROL Special Price]_フィールドまで下にスクロールし、_[!UICONTROL Special Price]_ フィールドの下にある&#x200B;**[!UICONTROL Change]** チェックボックスを選択し、提供する特別価格を入力します。
 
-   ![特別価格フィールド &#x200B;](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
+   ![特別価格フィールド ](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -131,7 +140,7 @@ Magento Open Sourceには、詳細な価格設定オプションにシンプル�
 
 1. **[!UICONTROL Type]**&#x200B;を`Simple Product`に設定します。
 
-   ![&#x200B; フィルター](./assets/product-price-special-filter.png){width="600" zoomable="yes"}
+   ![ フィルター](./assets/product-price-special-filter.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Apply Filters]**&#x200B;をクリックします。
 
@@ -147,15 +156,15 @@ Magento Open Sourceには、詳細な価格設定オプションにシンプル�
 
 1. 「_[!UICONTROL Special Price]**」フィールドまで下にスクロールし、次の操作を行います。
 
-   - 「_[!UICONTROL Special Price]&#x200B;**」フィールドの下にある「**&#x200B;[!UICONTROL Change]**」チェックボックスを選択し、提供する特別価格を入力します。
+   - 「_[!UICONTROL Special Price]**」フィールドの下にある「**[!UICONTROL Change]**」チェックボックスを選択し、提供する特別価格を入力します。
 
-   - 「_特別価格開始日_」フィールドの下にある「**[!UICONTROL Change]**」チェックボックスを選択し、_カレンダー_ （![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）をクリックして、特別価格プロモーションの最初の日付を選択します。
+   - 「_特別価格開始日_」フィールドの下にある「**[!UICONTROL Change]**」チェックボックスを選択し、_カレンダー_ （![ カレンダーアイコン ](../assets/icon-calendar.png)）をクリックして、特別価格プロモーションの最初の日付を選択します。
 
-     特別価格は、開始日（00:01）の午前0時の直後から有効になり、終了日の前日の午前0時（23:59）直前まで続きます。
+     特別価格は、開始日の午前0時（00:01）に開始直後から適用され、終了日の前日の午前0時（23:59）直前まで継続されます。
 
-   - 「_特別価格から日付_」フィールドの下にある「**[!UICONTROL Change]**」チェックボックスを選択し、_カレンダー_ （![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）をクリックして、特別価格プロモーションの最終日を選択します。
+   - 「_特別価格から日付_」フィールドの下にある「**[!UICONTROL Change]**」チェックボックスを選択し、_カレンダー_ （![ カレンダーアイコン ](../assets/icon-calendar.png)）をクリックして、特別価格プロモーションの最終日を選択します。
 
-   ![特別価格フィールド &#x200B;](./assets/product-price-special-action-update-attributes-fields-ce.png){width="600" zoomable="yes"}
+   ![特別価格フィールド ](./assets/product-price-special-action-update-attributes-fields-ce.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 

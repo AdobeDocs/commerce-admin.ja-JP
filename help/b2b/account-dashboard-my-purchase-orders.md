@@ -3,30 +3,47 @@ title: '[!UICONTROL My Purchase Orders]'
 description: 発注と、それを使用して購買を管理する方法について説明します。
 exl-id: b7348bc8-b874-4642-a372-530883d9d94c
 feature: B2B, Companies, Purchase Orders
-TQID: https://experienceleague.adobe.com/3Vb9ux3eccHF7GUlNdiKIkc12vLFNJv9R3Rkz81ch4M
+TQID: 'https://experienceleague.adobe.com/3Vb9ux3eccHF7GUlNdiKIkc12vLFNJv9R3Rkz81ch4M'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+  - id: 2d6d41d4-a5c1-5baf-8dbe-bf7300b68bb3
+    internal-label: Purchase Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: '474'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL My Purchase Orders]
 
-会社[&#128279;](purchase-order-flow.md)に対して発注書が有効になっている場合、会社のユーザーアカウントにサインインしている顧客に対する注文は、発注書（PO）として自動的に作成されます。 必要な権限を持つ会社ユーザーは、自分が作成したPOと、下位ユーザーが作成したPOを作成、編集および削除できます。
+会社](purchase-order-flow.md)に対して発注書が[有効になっている場合、会社のユーザーアカウントにサインインしている顧客に対する注文は、発注書（PO）として自動的に作成されます。 必要な権限を持つ会社ユーザーは、自分が作成したPOと、下位ユーザーが作成したPOを作成、編集および削除できます。
 
 ![自分の発注書](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 
@@ -62,13 +79,13 @@ _発注書を表示_ ページから、お客様は[役割の権限](account-com
 
 1. 通常のチェックアウト ワークフローに従って、**[!UICONTROL Place Purchase Order]**&#x200B;をクリックします。
 
-_[!UICONTROL Add Items to Shopping Cart]_&#x200B;をクリックしたときに買い物かごにアイテムがある場合は、ダイアログが表示されます。 このダイアログでは、買い物かごのアイテムを新しいアイテムに結合するか、買い物かごのアイテムをPOのアイテムに置き換えるかを選択できます。
+_[!UICONTROL Add Items to Shopping Cart]_をクリックしたときに買い物かごにアイテムがある場合は、ダイアログが表示されます。 このダイアログでは、買い物かごのアイテムを新しいアイテムに結合するか、買い物かごのアイテムをPOのアイテムに置き換えるかを選択できます。
 
 元の発注は、不要になった場合にクローズできます。
 
 ## 発注の承認
 
-会社構造または割り当てられた会社の役割に基づいて承認者として指定された顧客の場合、_[!UICONTROL My Purchase Orders]_&#x200B;ダッシュボードページには「**[!UICONTROL Requires My Approval]**」タブが表示されます。 お客様は、このタブをクリックして、承認を待っているPOを確認します。 カウンターには、承認待ちの注文数が表示されます。
+会社構造または割り当てられた会社の役割に基づいて承認者として指定された顧客の場合、_[!UICONTROL My Purchase Orders]_ダッシュボードページには「**[!UICONTROL Requires My Approval]**」タブが表示されます。 お客様は、このタブをクリックして、承認を待っているPOを確認します。 カウンターには、承認待ちの注文数が表示されます。
 
 発注書の&#x200B;**[!UICONTROL View]**&#x200B;をクリックし、詳細を確認した後、承認者は&#x200B;**[!UICONTROL Approve]**&#x200B;または&#x200B;**[!UICONTROL Reject]**&#x200B;をクリックできます。
 
@@ -76,7 +93,7 @@ _[!UICONTROL Add Items to Shopping Cart]_&#x200B;をクリックしたときに�
 
 Adobe Commerce 2.4.1以降、承認者は一度に複数の発注を承認または却下できます。
 
-1. _[!UICONTROL My Purchase Order]_&#x200B;ページで、「**[!UICONTROL Requires My Approval]**」タブをクリックします。
+1. _[!UICONTROL My Purchase Order]_ページで、「**[!UICONTROL Requires My Approval]**」タブをクリックします。
 
 1. 承認または却下する各発注のチェックボックスを選択します。
 

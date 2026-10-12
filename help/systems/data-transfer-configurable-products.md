@@ -3,35 +3,46 @@ title: コンフィグ可能な製品のインポート
 description: 設定可能な製品の製品データを読み込む例を確認します。
 exl-id: bb8b2a6d-867e-4ab2-bdfd-98a01d79c457
 feature: Products, Data Import/Export
-TQID: https://experienceleague.adobe.com/wTnZwGiENB0-ACjShAkmfx5lP5ToWy7QwrkYy9YcH34
+TQID: 'https://experienceleague.adobe.com/wTnZwGiENB0-ACjShAkmfx5lP5ToWy7QwrkYy9YcH34'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 950
-ht-degree: 0%
-
+source-wordcount: '964'
+ht-degree: 1%
 ---
-
 # コンフィグ可能な製品のインポート
 
 設定可能な製品データがどのように構造化されているかを理解する最良の方法は、設定可能な製品とそのバリエーションを書き出し、スプレッドシートでデータを調べることです。
 
 次の例では、各色の新しいサイズの製品バリエーションのセットを追加します。 まず、設定可能な製品を書き出し、データ構造を調べます。 その後、データを更新し、カタログに読み込みます。 データの書き出しを実行しない場合は、例で使用されているCSV ファイルをダウンロードできます。
 
-![&#x200B; ストアフロントの例 – サイズとカラー属性](./assets/storefront-hoodie-new-size.png){width="700" zoomable="yes"}
+![ ストアフロントの例 – サイズとカラー属性](./assets/storefront-hoodie-new-size.png){width="700" zoomable="yes"}
 
 ## 手順1：属性設定と値の確認
 
@@ -40,16 +51,16 @@ ht-degree: 0%
    - [**[!UICONTROL Scope]**](../getting-started/websites-stores-views.md#scope-settings) - `Global`
    - [**[!UICONTROL Catalog Input Type for Store Owner]**](data-attributes-product.md) – 製品バリエーションに使用される属性の入力タイプは、次のいずれかである必要があります。
 
-      - `Dropdown`
-      - `Visual Swatch`
-      - `Text Swatch`
-      - `Multi-Select`
+     - `Dropdown`
+     - `Visual Swatch`
+     - `Text Swatch`
+     - `Multi-Select`
 
    - **[!UICONTROL Values Required]** - `Yes`
 
 1. サイズやカラーを追加したり、既存の属性に他の変更を加えたりする場合は、必ず新しい値で属性を更新してください。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**に移動します。
 
 1. リストで属性を検索し、編集モードで開きます。
 
@@ -73,9 +84,9 @@ ht-degree: 0%
    - **[!UICONTROL Type]**&#x200B;を`Configurable Product`に設定し、**[!UICONTROL Apply Filters]**&#x200B;をクリックします。
    - テスト書き出しに使用する設定可能な製品を選択し、**[!UICONTROL SKU]**&#x200B;をメモしてください。
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**に移動します。
 
-   ![&#x200B; データ書き出し設定](./assets/data-transfer-export-settings.png){width="600" zoomable="yes"}
+   ![ データ書き出し設定](./assets/data-transfer-export-settings.png){width="600" zoomable="yes"}
 
 1. _[!UICONTROL Export Setting]s_&#x200B;で、次の操作を行います。
 
@@ -83,22 +94,22 @@ ht-degree: 0%
 
    - **[!UICONTROL Export File Format]**&#x200B;を`CSV`に設定します。
 
-1. _[!UICONTROL Entity Attributes]_&#x200B;で、下にスクロールするか、属性ラベルフィルターを使用して&#x200B;**[!UICONTROL SKU]**&#x200B;属性を見つけ、次の操作を行います。
+1. _[!UICONTROL Entity Attributes]_で、下にスクロールするか、属性ラベルフィルターを使用して&#x200B;**[!UICONTROL SKU]**属性を見つけ、次の操作を行います。
 
    - 書き出しを選択した設定可能な製品のSKUを入力し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
-     ![&#x200B; データ書き出しSKU](./assets/data-transfer-export-sku.png){width="600" zoomable="yes"}
+     ![ データ書き出しSKU](./assets/data-transfer-export-sku.png){width="600" zoomable="yes"}
 
    - Web ブラウザーのダウンロード場所でファイルを探し、スプレッドシートとして開きます。
 
      CSV ファイルには、単純な製品バリエーションごとに個別の行が含まれ、設定可能な製品には1つの行が含まれます。 `product_type column`には、1つの設定可能な製品に関連付けられている複数のシンプルな製品バリエーションが表示されます。
 
-     ![&#x200B; データ例 – バリエーションを含む設定可能な製品](./assets/data-transfer-csv-configurable-product.png){width="600" zoomable="yes"}
+     ![ データ例 – バリエーションを含む設定可能な製品](./assets/data-transfer-csv-configurable-product.png){width="600" zoomable="yes"}
 
    - ワークシートの右端までスクロールして、次の列を見つけます。
 
-      - `configurable_variations` – 設定可能な製品レコードと各バリエーションとの1対多の関係を定義します。
-      - `configurable_variation_labels` – 各バリエーションを識別するラベルを定義します。
+     - `configurable_variations` – 設定可能な製品レコードと各バリエーションとの1対多の関係を定義します。
+     - `configurable_variation_labels` – 各バリエーションを識別するラベルを定義します。
 
      この例では、データは列CGとCHにあります。 バリエーションの数に応じて、`configurable_variations`列のデータの文字列を長くすることができます。 データは、関連する製品バリエーションのインデックスとして使用され、次の構造を持ちます。
 
@@ -114,7 +125,7 @@ ht-degree: 0%
 
 1. 設定可能な製品データの構造を理解すると、データを編集したり、新しいバリエーションをCSV ファイルに直接追加したりできます。
 
-   詳しくは、[複合データ &#x200B;](data-attributes-product.md#complex-product-data-attributes)を参照してください。
+   詳しくは、[複合データ ](data-attributes-product.md#complex-product-data-attributes)を参照してください。
 
 ## 手順3：データの編集
 
@@ -153,7 +164,7 @@ ht-degree: 0%
 
    この例では、新しいサイズの3つの新しいバリエーションと、更新された設定可能な製品を含む行のみがカタログに読み込まれます。 その他の行はCSV ファイルから削除できます。 ただし、列ラベルを含むヘッダー行は削除しないでください。
 
-   インポートする![CSV データ &#x200B;](./assets/data-transfer-csv-configurable-product-data-ready-to-import.png){width="600" zoomable="yes"}
+   インポートする![CSV データ ](./assets/data-transfer-csv-configurable-product-data-ready-to-import.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save]** CSV ファイル。
 
@@ -165,17 +176,17 @@ ht-degree: 0%
 
 ## 手順4：更新されたデータのインポート
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**に移動します。
 
-1. _[!UICONTROL Import Settings]_&#x200B;で、**[!UICONTROL Entity Type]**&#x200B;を`Products`に設定します。
+1. _[!UICONTROL Import Settings]_で、**[!UICONTROL Entity Type]**を`Products`に設定します。
 
-1. _[!UICONTROL Import Behavior]_&#x200B;で、**[!UICONTROL Import Behavior]**&#x200B;を`Add/Update`に設定します。
+1. _[!UICONTROL Import Behavior]_で、**[!UICONTROL Import Behavior]**を`Add/Update`に設定します。
 
-   ![&#x200B; データ読み込み動作](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
+   ![ データ読み込み動作](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL File to Import]_&#x200B;で、**[!UICONTROL Choose File]**&#x200B;をクリックし、インポート用に準備したCSV ファイルに移動して、ファイルを選択します。
+1. _[!UICONTROL File to Import]_で、**[!UICONTROL Choose File]**をクリックし、インポート用に準備したCSV ファイルに移動して、ファイルを選択します。
 
-   ![&#x200B; データ読み込みファイル &#x200B;](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
+   ![ データ読み込みファイル ](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
 1. 右上隅の「**[!UICONTROL Check Data]**」をクリックします。
 
@@ -183,7 +194,7 @@ ht-degree: 0%
 
    それ以外は、データに見つかった問題を修正して、もう一度試してください。
 
-   ![&#x200B; システムメッセージ – ファイルは有効です](./assets/data-transfer-configurable-product-import-validation-results.png){width="600" zoomable="yes"}
+   ![ システムメッセージ – ファイルは有効です](./assets/data-transfer-configurable-product-import-validation-results.png){width="600" zoomable="yes"}
 
 1. 読み込みが完了したら、ページの上部にあるメッセージの&#x200B;**[!UICONTROL Cache Management]**&#x200B;をクリックし、無効なすべてのキャッシュを更新します。
 

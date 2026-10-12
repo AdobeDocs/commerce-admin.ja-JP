@@ -4,36 +4,50 @@ description: ストア管理者のセキュリティを設定する方法につ�
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-TQID: https://experienceleague.adobe.com/UFK-C-W5E0DngIy4VncIVRzM2f6tNS5RgNqaNVk9GJc
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: 'https://experienceleague.adobe.com/UFK-C-W5E0DngIy4VncIVRzM2f6tNS5RgNqaNVk9GJc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 865
+source-wordcount: '865'
 ht-degree: 0%
-
 ---
-
 # 管理者セキュリティの設定
 
-ストアのセキュリティを保護するために、多面的なアプローチを採用することをお勧めします。 最初に、わかりやすい「管理者」や「バックエンド」ではなく、推測しにくい[&#x200B; カスタム管理者URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)を使用することから始めます。 デフォルトでは、管理者に[&#x200B; ログインするために使用されるパスワードは、7文字以上で、英数字の両方が含まれている必要があります。 &#x200B;](../getting-started/admin-signin.md)組織のニーズに基づいてセキュリティを強化するために、最小パスワード長の要件を設定できます。 [&#x200B; ベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)として、文字、数字、記号の組み合わせを含む強力な管理者パスワードのみを使用してください。 Adobe CommerceとMagento Open Sourceでは、アカウントに割り当てられた最後の4つのパスワードを再利用できません。
+ストアのセキュリティを保護するために、多面的なアプローチを採用することをお勧めします。 最初に、わかりやすい「管理者」や「バックエンド」ではなく、推測しにくい[ カスタム管理者URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)を使用することから始めます。 デフォルトでは、管理者に[ ログインするために使用されるパスワードは、7文字以上で、英数字の両方が含まれている必要があります。 ](../getting-started/admin-signin.md)組織のニーズに基づいてセキュリティを強化するために、最小パスワード長の要件を設定できます。 [ ベストプラクティス ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)として、文字、数字、記号の組み合わせを含む強力な管理者パスワードのみを使用してください。 Adobe CommerceとMagento Open Sourceでは、アカウントに割り当てられた最後の4つのパスワードを再利用できません。
 
 管理者セキュリティ設定では、次の機能を使用できます。
 
@@ -42,7 +56,7 @@ ht-degree: 0%
 - パスワード長の最小要件の設定
 - 管理者セッションの長さを制限する
 - パスワードの有効期間を制限
-- 管理者ユーザーアカウントが[&#x200B; ロック &#x200B;](permissions-users-all.md#locked-users)される前に実行できるログイン試行回数を制限します。
+- 管理者ユーザーアカウントが[ ロック ](permissions-users-all.md#locked-users)される前に実行できるログイン試行回数を制限します。
 
 セキュリティを強化するには、現在のセッションが期限切れになる前にキーボードの非アクティブな長さを設定し、ユーザー名とパスワードを大文字と小文字を区別する必要があります。
 
@@ -52,15 +66,15 @@ ht-degree: 0%
 >
 >[!DNL Adobe Identity Management Services] （IMS）認証を有効にしているストアでは、ネイティブ Adobe CommerceとMagento Open Source 2FAが無効になっています。 Adobeの資格情報を使用してCommerce インスタンスにログインしている管理者ユーザーは、多くの管理者タスクで再認証を行う必要はありません。 認証は、管理者ユーザーが現在のセッションにログインしたときにAdobe IMSによって処理されます。 [[!DNL Adobe Identity Management Service]  （IMS）統合の概要](../getting-started/adobe-ims-integration-overview.md)を参照してください。
 
-技術情報については、開発者用マニュアルの[&#x200B; セキュリティの概要](https://developer.adobe.com/commerce/php/architecture/basics/security){:target="_blank"}を参照してください。
+技術情報については、開発者用マニュアルの[ セキュリティの概要](https://developer.adobe.com/commerce/php/architecture/basics/security){:target="_blank"}を参照してください。
 
-![管理者セキュリティ &#x200B;](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
+![管理者セキュリティ ](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
 ## 管理者セキュリティの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. _[!UICONTROL Advanced]_&#x200B;の下の左側のパネルで、**[!UICONTROL Admin]**&#x200B;を選択します。
+1. _[!UICONTROL Advanced]_の下の左側のパネルで、**[!UICONTROL Admin]**を選択します。
 
 1. **[!UICONTROL Security]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 

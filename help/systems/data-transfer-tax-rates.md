@@ -3,30 +3,43 @@ title: 税率データの更新
 description: ストアの税率を更新するためにエクスポートおよびインポート操作を使用する方法を説明します。
 exl-id: a3ef718d-b296-41d7-a1b8-ae8274da71b6
 feature: Taxes, Data Import/Export
-TQID: https://experienceleague.adobe.com/QPY-XfiA3XhBSV3eiiYtxb9K-quf5AycMcHDBUBtE0k
+TQID: 'https://experienceleague.adobe.com/QPY-XfiA3XhBSV3eiiYtxb9K-quf5AycMcHDBUBtE0k'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 624
+source-wordcount: '624'
 ht-degree: 0%
-
 ---
-
 # 税率データの更新
 
 複数の州で事業を行い、大量の商品を出荷する場合、手動で税率を入力するのは非常に時間がかかります。 郵便番号で税率をダウンロードし、Commerceに読み込むほうが、より迅速かつ効率的です。 次の例は、信頼できるソースからダウンロードした州ごとの税率のセットを読み込む方法を示しています。 Avalaraは[税率表](https://www.avalara.com/taxrates/en/download-tax-tables.html)を提供しており、米国の郵便番号ごとに無料でダウンロードできます。
@@ -37,7 +50,7 @@ ht-degree: 0%
 
 ## 手順1:Commerceの税率データのエクスポート
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import/Export Tax Rates]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import/Export Tax Rates]**に移動します。
 
 1. **[!UICONTROL Export Tax Rates]**&#x200B;をクリックします。
 
@@ -96,7 +109,7 @@ ht-degree: 0%
 
 ## 手順3：税率のインポート
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import/Export Tax Rates]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import/Export Tax Rates]**に移動します。
 
 1. 「**[!UICONTROL Choose File]**」をクリックし、読み込むCSV税率ファイルを選択します。
 
@@ -104,12 +117,12 @@ ht-degree: 0%
 
    データの読み込みに数分かかる場合があります。 プロセスが完了すると、`The tax rate has been imported` メッセージが表示されます。 エラーメッセージが表示された場合は、データの問題を修正して、もう一度試してください。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**に移動します。
 
    読み込まれたレートがリストに表示されます。
 
 1. ページ管理を使用して、新しい税率を表示します。
 
-   ![&#x200B; データ読み込み税率](../stores-purchase/assets/tax-zones-rates.png){width="600" zoomable="yes"}
+   ![ データ読み込み税率](../stores-purchase/assets/tax-zones-rates.png){width="600" zoomable="yes"}
 
 1. ストアで複数の郵便番号を持つ顧客を使用してテスト取引を実行し、新しい税率が正しく機能することを確認します。

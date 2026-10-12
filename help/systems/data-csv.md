@@ -3,27 +3,39 @@ title: CSV データファイル
 description: データの読み込みと書き出しをサポートするためにCSV ファイルで使用される構造について説明します。
 exl-id: 86e362af-2af7-4557-ac49-1efad2f0e976
 feature: Products, Customers, Data Import/Export
-TQID: https://experienceleague.adobe.com/qeKpxnrPVwIX4MgrHlQRMEVQDOZjFvG3Es39rDwNgx4
+TQID: 'https://experienceleague.adobe.com/qeKpxnrPVwIX4MgrHlQRMEVQDOZjFvG3Es39rDwNgx4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 718
+source-wordcount: '718'
 ht-degree: 0%
-
 ---
-
 # CSV データファイル
 
 コンマ区切り値（CSV）ファイル形式は、データ転送操作の基礎として使用され、すべてのスプレッドシートおよびデータベースアプリケーションでサポートされています。 インポートとエクスポートでは、次のファイルタイプがサポートされています。
@@ -45,7 +57,7 @@ CSV ファイルには、データベースと一致する必要がある特定�
 
 テーブルの最初の行には、各属性の名前が含まれ、列ヘッダーとして使用されます。 残りの行は、個々の製品レコードを表します。 SKU列の値で始まる行は、新しい製品レコードの先頭になります。 1つの製品に、複数の画像や製品オプションに関する情報を含む複数の行が含まれる場合があります。 SKU列の値を持つ次の行は、新しい製品を開始します。
 
-カテゴリ列には、製品が割り当てられている各カテゴリのパスが含まれます。 パスには、ルートカテゴリの後に、各レベル間のスラッシュ（`/`）が続きます。 デフォルトでは、コンマ `,`文字を使用して、異なるカテゴリパスを区切ります。 （_[!UICONTROL Multiple value separator]_&#x200B;オプションを使用して、別の区切り文字を指定できます）。 例：
+カテゴリ列には、製品が割り当てられている各カテゴリのパスが含まれます。 パスには、ルートカテゴリの後に、各レベル間のスラッシュ（`/`）が続きます。 デフォルトでは、コンマ `,`文字を使用して、異なるカテゴリパスを区切ります。 （_[!UICONTROL Multiple value separator]_オプションを使用して、別の区切り文字を指定できます）。 例：
 
 `Default Category/Gear,Default Category/Gear/Bags`
 

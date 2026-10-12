@@ -3,29 +3,46 @@ title: 企業に対する発注
 description: 企業が支出を追跡および管理できる発注ワークフローについて説明します。
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-TQID: https://experienceleague.adobe.com/YNQaayS05dNl3qUfoIUh2vqY3H3yTA32nt7rXmORF7A
+TQID: 'https://experienceleague.adobe.com/YNQaayS05dNl3qUfoIUh2vqY3H3yTA32nt7rXmORF7A'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+  - id: 2d6d41d4-a5c1-5baf-8dbe-bf7300b68bb3
+    internal-label: Purchase Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 947
+source-wordcount: '947'
 ht-degree: 0%
-
 ---
-
 # 企業に対する発注
 
 発注（PO）は、企業が支出を追跡、管理するための一般的な方法です。 [発注](../stores-purchase/purchase-order.md)は、Adobe CommerceおよびMagento Open Sourceでサポートされている標準のオフライン支払い方法の1つです。 Adobe CommerceのB2Bがインストールされ、法人顧客に対して&#x200B;[_発注を有効にする_](account-company-manage.md#advanced-settings)&#x200B;がアクティブ化されると、すべての注文が発注（PO）として自動的に作成されます。 必要な[権限](account-company-roles-permissions.md)を持つ会社ユーザーは、作成したPOと下位ユーザーが作成したPOを作成、編集、削除できます。
@@ -74,7 +91,7 @@ ht-degree: 0%
 - 1000 ドルを超える注文には、マネージャーと会社の管理者の承認が必要です。
 - 30を超える一意のSKUを持つ注文には、会社の管理者の承認が必要です。
 
-これらのルールを導入すれば、注文が100 ドル未満の場合、すぐに注文を完了することができます。 承認ルールの定義については、[承認ルール &#x200B;](account-dashboard-approval-rules.md)を参照してください。
+これらのルールを導入すれば、注文が100 ドル未満の場合、すぐに注文を完了することができます。 承認ルールの定義については、[承認ルール ](account-dashboard-approval-rules.md)を参照してください。
 
 ### ストアユーザーの種類
 

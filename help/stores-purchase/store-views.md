@@ -3,10 +3,15 @@ title: ストアビュー
 description: Adobe Commerceでストアビューを追加および編集する方法を説明します。これにより、買い物客はストアフロントのヘッダーの言語選択を使用してロケールを切り替えることができます。
 exl-id: aa1f7f1c-a6d0-4ec2-83fe-15fb9646634a
 feature: Site Management, System
-TQID: https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE
+TQID: 'https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+feature_v2:
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -20,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -33,26 +38,26 @@ ht-degree: 0%
 
 ## [!DNL Adobe Commerce Optimizer]同期ステータス {#optimizer-sync-status}
 
-[!DNL Adobe Commerce Optimizer Connector]がインストールされ、web サイトまたはストアビューに対して有効になっている場合、[!UICONTROL All Stores] グリッドには同期ステータスインジケーターが表示されます。 [!DNL Adobe Commerce Optimizer Connector for B2B]がインストールされている場合は、使用可能なB2B共有カタログのデータも同期されます。 [&#x200B; カタログビューの管理](../b2b/catalog-views-manage.md)を参照してください。
+[!DNL Adobe Commerce Optimizer Connector]がインストールされ、web サイトまたはストアビューに対して有効になっている場合、[!UICONTROL All Stores] グリッドには同期ステータスインジケーターが表示されます。 [!DNL Adobe Commerce Optimizer Connector for B2B]がインストールされている場合は、使用可能なB2B共有カタログのデータも同期されます。 [ カタログビューの管理](../b2b/catalog-views-manage.md)を参照してください。
 
 | 列 | 指標 | 説明 |
 | ----- | ----- | ----- |
 | [!UICONTROL Web Site] | [!UICONTROL Price sync enabled for Commerce Optimizer] | このウェブサイトの価格と価格表は[!DNL Adobe Commerce Optimizer]に同期されています。 |
 | [!UICONTROL Store View] | [!UICONTROL Product sync enabled for Commerce Optimizer] | このストアビューの製品と属性は[!DNL Adobe Commerce Optimizer]に同期されます。 |
 
-![Adobe Commerce Optimizer同期インジケーターを含むすべてのストアグリッド &#x200B;](./assets/stores-all-optimizer-sync.png){width="700" zoomable="yes"}
+![Adobe Commerce Optimizer同期インジケーターを含むすべてのストアグリッド ](./assets/stores-all-optimizer-sync.png){width="700" zoomable="yes"}
 
-同期を有効または無効にするには、[web サイトを作成](stores.md#step-1-create-a-website)または[&#x200B; ストアビューを追加](#add-a-store-view)する場合、または既存のweb サイトまたはストアビューを更新する場合に&#x200B;**[!UICONTROL Adobe Commerce Optimizer exporter settings]**&#x200B;を編集します。
+同期を有効または無効にするには、[web サイトを作成](stores.md#step-1-create-a-website)または[ ストアビューを追加](#add-a-store-view)する場合、または既存のweb サイトまたはストアビューを更新する場合に&#x200B;**[!UICONTROL Adobe Commerce Optimizer exporter settings]**&#x200B;を編集します。
 
 ## ストアビューを追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**に移動します。
 
    ![すべての店舗](./assets/stores-all.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL Create Store View]**&#x200B;をクリックします。
 
-   ![&#x200B; ストアビューを作成](./assets/create-store-view.png){width="600" zoomable="yes"}
+   ![ ストアビューを作成](./assets/create-store-view.png){width="600" zoomable="yes"}
 
 1. このビューの親ストアに&#x200B;**[!UICONTROL Store]**&#x200B;を設定します。
 
@@ -68,11 +73,11 @@ ht-degree: 0%
 
 1. （オプション）このビューが他のビューと共に表示されるシーケンスを決定するには、**[!UICONTROL Sort Order]**&#x200B;番号を入力します。
 
-1. （オプション） [!DNL Adobe Commerce Optimizer Connector]がインストールされている場合は、**[!UICONTROL Adobe Commerce Optimizer exporter settings]** セクションの&#x200B;**[!UICONTROL Sync products and attributes]**&#x200B;を選択して、このストアビューの製品と属性を[!DNL Adobe Commerce Optimizer]に同期します。 [!DNL Adobe Commerce Optimizer Connector for B2B]もインストールされている場合、この設定はB2B共有カタログ データも[!DNL Adobe Commerce Optimizer]に同期します。 [&#x200B; カタログビューの管理](../b2b/catalog-views-manage.md)を参照してください。
+1. （オプション） [!DNL Adobe Commerce Optimizer Connector]がインストールされている場合は、**[!UICONTROL Adobe Commerce Optimizer exporter settings]** セクションの&#x200B;**[!UICONTROL Sync products and attributes]**&#x200B;を選択して、このストアビューの製品と属性を[!DNL Adobe Commerce Optimizer]に同期します。 [!DNL Adobe Commerce Optimizer Connector for B2B]もインストールされている場合、この設定はB2B共有カタログ データも[!DNL Adobe Commerce Optimizer]に同期します。 [ カタログビューの管理](../b2b/catalog-views-manage.md)を参照してください。
 
-   ![&#x200B; ストアビューを作成 – Adobe Commerce Optimizer エクスポーターの設定](./assets/stores-optimizer-export-settings.png){width="600" zoomable="yes"}
+   ![ ストアビューを作成 – Adobe Commerce Optimizer エクスポーターの設定](./assets/stores-optimizer-export-settings.png){width="600" zoomable="yes"}
 
-   最初の同期の後にこの設定を変更すると、完全なインデックス再作成がトリガーされます。 *Commerce コネクタ ガイド*&#x200B;の「[Adobe Commerce Optimizer スコープ書き出し設定のカスタマイズ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)」を参照してください。
+   最初の同期の後にこの設定を変更すると、完全なインデックス再作成がトリガーされます。 *Commerce コネクタ ガイド*&#x200B;の「[Adobe Commerce Optimizer スコープ書き出し設定のカスタマイズ ](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)」を参照してください。
 
 1. **[!UICONTROL Save Store View]**&#x200B;をクリックします。
 
@@ -89,13 +94,13 @@ Adobe CommerceまたはMagento Open Sourceのインストール環境にマル�
 
 {style="table-layout:auto"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**に移動します。
 
-1. グリッドの&#x200B;_[!UICONTROL Store View]_&#x200B;列で、編集するビューの名前をクリックします。
+1. グリッドの&#x200B;_[!UICONTROL Store View]_列で、編集するビューの名前をクリックします。
 
-   既定のビューを編集する際、_[!UICONTROL Store]_&#x200B;および&#x200B;_[!UICONTROL Status]_ フィールドは使用できません。
+   既定のビューを編集する際、_[!UICONTROL Store]_および_[!UICONTROL Status]_ フィールドは使用できません。
 
-   ![&#x200B; ストアビュー – デフォルトビューを編集](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
+   ![ ストアビュー – デフォルトビューを編集](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、次のフィールドを更新します。
 
@@ -106,6 +111,6 @@ Adobe CommerceまたはMagento Open Sourceのインストール環境にマル�
    - **[!UICONTROL Sort Order]**
    - **[!UICONTROL Sync products and attributes]** （[!DNL Adobe Commerce Optimizer Connector]がインストールされている場合のみ）
 
-   ![&#x200B; ストアビュー – Adobe Commerce Optimizer エクスポーター設定でデフォルトビューを編集](./assets/stores-optimizer-exporter-settings.png){width="600" zoomable="yes"}
+   ![ ストアビュー – Adobe Commerce Optimizer エクスポーター設定でデフォルトビューを編集](./assets/stores-optimizer-exporter-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save Store View]**&#x200B;をクリックします。

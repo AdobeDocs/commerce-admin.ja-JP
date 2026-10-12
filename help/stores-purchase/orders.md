@@ -3,37 +3,49 @@ title: 注文
 description: 注文管理ワークスペースと、管理画面で注文を検索するために使用される検索機能について説明します。
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-TQID: https://experienceleague.adobe.com/mfQL2HinWuVbjDzgR2rmWNCuBNWwiAlJ5LIb0R9BBME
+TQID: 'https://experienceleague.adobe.com/mfQL2HinWuVbjDzgR2rmWNCuBNWwiAlJ5LIb0R9BBME'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1150
+source-wordcount: '1150'
 ht-degree: 0%
-
 ---
-
 # 注文
 
-_注文_ グリッドには、現在のすべての注文が一覧表示され、その進行状況と[&#x200B; ワークフロー](order-processing.md)を通じた[注文ステータス &#x200B;](order-status.md)が追跡されます。 基本的なプロセスを簡単に理解するには、注文が[請求書](invoices.md)になり、請求書が[出荷](shipments.md)になることです。 グリッドは、プロセスの最初のステージを表します。このステージでは、既存の注文を[更新](order-update.md)および作成できます。
+_注文_ グリッドには、現在のすべての注文が一覧表示され、その進行状況と[ ワークフロー](order-processing.md)を通じた[注文ステータス ](order-status.md)が追跡されます。 基本的なプロセスを簡単に理解するには、注文が[請求書](invoices.md)になり、請求書が[出荷](shipments.md)になることです。 グリッドは、プロセスの最初のステージを表します。このステージでは、既存の注文を[更新](order-update.md)および作成できます。
 
-通常、注文は、顧客がストアフロントからのチェックアウトプロセスを完了したときに作成されます。 ただし、お客様がサポートを必要とする場合は、_注文_ グリッドから、または顧客アカウントから直接[&#x200B; ショッピングカート &#x200B;](shopping-assisted-cart-manage.md)または[注文](customer-account-create-order.md)を作成することもできます。
+通常、注文は、顧客がストアフロントからのチェックアウトプロセスを完了したときに作成されます。 ただし、お客様がサポートを必要とする場合は、_注文_ グリッドから、または顧客アカウントから直接[ ショッピングカート ](shopping-assisted-cart-manage.md)または[注文](customer-account-create-order.md)を作成することもできます。
 
 ## 受注ワークスペース
 
-注文ワークスペースには、現在のすべての注文が一覧表示され、既存の注文を編集したり、[作成](customer-account-create-order.md)の注文を作成したりできます。 グリッドの各行は顧客注文を表し、各列は属性（データフィールド）を表します。 標準の[&#x200B; コントロール &#x200B;](../getting-started/admin-grid-controls.md)を使用して、リストの並べ替えとフィルタリング、注文の検索、選択した注文への[&#x200B; アクション &#x200B;](../getting-started/admin-actions-control.md)の適用を行います。 ページネーションコントロールの上にあるタブを使用して、リストのフィルタリング、デフォルト表示の変更、列の変更と並べ替え、データの書き出しを行います。
+注文ワークスペースには、現在のすべての注文が一覧表示され、既存の注文を編集したり、[作成](customer-account-create-order.md)の注文を作成したりできます。 グリッドの各行は顧客注文を表し、各列は属性（データフィールド）を表します。 標準の[ コントロール ](../getting-started/admin-grid-controls.md)を使用して、リストの並べ替えとフィルタリング、注文の検索、選択した注文への[ アクション ](../getting-started/admin-actions-control.md)の適用を行います。 ページネーションコントロールの上にあるタブを使用して、リストのフィルタリング、デフォルト表示の変更、列の変更と並べ替え、データの書き出しを行います。
 
-![注文グリッド &#x200B;](./assets/orders-grid.png){width="700" zoomable="yes"}
+![注文グリッド ](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 ### グリッドレイアウト
 
@@ -64,23 +76,23 @@ _注文_ グリッドには、現在のすべての注文が一覧表示され�
 
 #### グリッドビューを保存
 
-1. **[!UICONTROL View]** （![目のアイコン &#x200B;](../assets/icon-view-eye.png)）コントロールをクリックします。
+1. **[!UICONTROL View]** （![目のアイコン ](../assets/icon-view-eye.png)）コントロールをクリックします。
 
 1. **[!UICONTROL Save Current View]**&#x200B;をクリックします。
 
 1. ビューの&#x200B;**[!UICONTROL name]**&#x200B;を入力します。
 
-1. すべての変更を保存するには、矢印（![矢印アイコン &#x200B;](../assets/icon-arrow-save.png)）をクリックします。
+1. すべての変更を保存するには、矢印（![矢印アイコン ](../assets/icon-arrow-save.png)）をクリックします。
 
    ビューの名前が現在のビューとして表示されます。
 
 #### ビューを変更
 
-**[!UICONTROL View]** （![目のアイコン &#x200B;](../assets/icon-view-eye.png)）コントロールをクリックします。 次のいずれかの操作を行います。
+**[!UICONTROL View]** （![目のアイコン ](../assets/icon-view-eye.png)）コントロールをクリックします。 次のいずれかの操作を行います。
 
 - 別のビューを使用するには、ビューの名前をクリックします。
 
-- ビューの名前を変更するには、_編集_ （![鉛筆アイコン &#x200B;](../assets/icon-edit-pencil.png)）アイコンをクリックし、名前を更新します。
+- ビューの名前を変更するには、_編集_ （![鉛筆アイコン ](../assets/icon-edit-pencil.png)）アイコンをクリックし、名前を更新します。
 
 ### Workspaceコントロール
 
@@ -100,7 +112,7 @@ _注文_ グリッドには、現在のすべての注文が一覧表示され�
 
 特定の注文にアクションを適用するには、各注文の最初の列にあるチェックボックスを選択します。 すべての注文を選択または選択解除するには、列の上部にあるコントロールを使用します。
 
-![注文アクション &#x200B;](./assets/orders-action.png){width="600" zoomable="yes"}
+![注文アクション ](./assets/orders-action.png){width="600" zoomable="yes"}
 
 | 制御 | 説明 |
 |--- |--- |
@@ -124,7 +136,7 @@ _注文_ グリッドには、現在のすべての注文が一覧表示され�
 | [!UICONTROL Grand Total (Base)] | 注文の総計。 |
 | [!UICONTROL Grand Total (Purchased)] | 注文で購入された製品の合計数。 |
 | [!UICONTROL Status] | 現在の注文ステータス。 |
-| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;さんが編集モードで注文を開きます。 |
+| [!UICONTROL Action] | _[!UICONTROL View]_さんが編集モードで注文を開きます。 |
 | [!UICONTROL Allocated sources] | その特定の注文に割り当てられたソース。 |
 
 {style="table-layout:auto"}
@@ -158,11 +170,11 @@ _注文_ グリッドには、現在のすべての注文が一覧表示され�
 
 1. ページ検索ボックスに検索語を入力します。
 
-1. 結果を表示するには、_検索_ （![拡大鏡アイコン &#x200B;](../assets/icon-magnify-search.png)）をクリックします。
+1. 結果を表示するには、_検索_ （![拡大鏡アイコン ](../assets/icon-magnify-search.png)）をクリックします。
 
 ### 検索をフィルター
 
-1. 検索フィルターの選択範囲を表示するには、「_フィルター_」（![Funnelアイコン &#x200B;](../assets/icon-filter-search.png)）タブをクリックします。
+1. 検索フィルターの選択範囲を表示するには、「_フィルター_」（![Funnelアイコン ](../assets/icon-filter-search.png)）タブをクリックします。
 
    ![注文フィルター](./assets/order-search-filter.png){width="600" zoomable="yes"}
 

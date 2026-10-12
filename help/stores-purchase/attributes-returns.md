@@ -3,27 +3,37 @@ title: 属性を返します
 description: 返品属性と、ストアで返品を処理するために必要な属性の作成方法について説明します。
 exl-id: 639c1e94-1211-4a4e-8599-e54ed99b2355
 feature: Attributes, Returns
-TQID: https://experienceleague.adobe.com/bKSZbmmyG9CWVIf0GzCgGImzHRIUV8HgD6asutC7lFo
+TQID: 'https://experienceleague.adobe.com/bKSZbmmyG9CWVIf0GzCgGImzHRIUV8HgD6asutC7lFo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 76cfaac4-e563-56dd-8938-708bf8b84956
+    internal-label: Attributes
+  - id: ac07462c-732c-5c1c-947b-4ce533b4fcfb
+    internal-label: Returns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: '306'
 ht-degree: 0%
-
 ---
-
 # 属性を返します
 
 {{ee-feature}}
@@ -34,11 +44,11 @@ ht-degree: 0%
 
 ## returns属性の作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Returns]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Returns]**に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Attribute]**」をクリックします。
 
-   ![新しい戻り値 – 属性プロパティ &#x200B;](./assets/attribute-returns-new-properties.png){width="600" zoomable="yes"}
+   ![新しい戻り値 – 属性プロパティ ](./assets/attribute-returns-new-properties.png){width="600" zoomable="yes"}
 
 ### プロパティの定義
 
@@ -77,7 +87,7 @@ ht-degree: 0%
    - `Strip HTML Tags`
    - `Escape  HTML Entities`
 
-1. 属性を顧客に表示するには、_[!UICONTROL Storefront Properties]_&#x200B;セクションで&#x200B;**[!UICONTROL Show on Storefront]**&#x200B;を`Yes`に設定します。
+1. 属性を顧客に表示するには、_[!UICONTROL Storefront Properties]_セクションで&#x200B;**[!UICONTROL Show on Storefront]**を`Yes`に設定します。
 
 1. （オプション） **[!UICONTROL Sort Order]**&#x200B;に対して、この属性がページの同じ部分の他の属性と相対的に表示される場所を決定する数値を入力します。 （`0` = first, `1` = second, `2` = thirdなど）
 
@@ -87,7 +97,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL Manage Titles (Size, Color, etc.)]**」セクションで、各ストアビューのラベルを入力します。
 
-   ![&#x200B; ラベルの管理](./assets/return-attributes.png){width="600" zoomable="yes"}
+   ![ ラベルの管理](./assets/return-attributes.png){width="600" zoomable="yes"}
 
 1. 属性の&#x200B;**[!UICONTROL Input Type]**&#x200B;が`Dropdown`の場合、**[!UICONTROL Manage Options (Values of Your Attribute)]** セクションのオプションを管理します。
 

@@ -3,34 +3,44 @@ title: 発送数
 description: 請求書の出荷レコードを作成し、出荷をキャンセルする方法について説明します。
 exl-id: 6df83549-ba38-43f7-aab1-dbf3f6b89d74
 feature: Shipping/Delivery, Invoices
-TQID: https://experienceleague.adobe.com/hj6CijsLLJo7GRzfWCsUY1N1qPDyYcz7t5yOSWKUpho
+TQID: 'https://experienceleague.adobe.com/hj6CijsLLJo7GRzfWCsUY1N1qPDyYcz7t5yOSWKUpho'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 937
-ht-degree: 0%
-
+source-wordcount: '951'
+ht-degree: 1%
 ---
-
 # 発送数
 
-_[!UICONTROL Shipments]_&#x200B;グリッドには、出荷用に準備されたすべての請求書の出荷記録が一覧表示されます。 注文が[請求済み](invoices.md)以降の場合、出荷レコードを生成できます。
+_[!UICONTROL Shipments]_グリッドには、出荷用に準備されたすべての請求書の出荷記録が一覧表示されます。 注文が[請求済み](invoices.md)以降の場合、出荷レコードを生成できます。
 
 Adobe CommerceとMagento Open Sourceは、部分的な注文と完全な注文の配送をサポートしており、その他のオプションは[Inventory management](../inventory-management/introduction.md)およびサードパーティの拡張機能から利用できます。
 
-![送料グリッド &#x200B;](./assets/shipments.png){width="600" zoomable="yes"}
+![送料グリッド ](./assets/shipments.png){width="600" zoomable="yes"}
 
 ## 列の説明
 
@@ -91,7 +101,7 @@ Adobe CommerceとMagento Open Sourceは、部分的な注文と完全な注文�
 
 1. **[!UICONTROL Ship]**&#x200B;をクリックします。
 
-1. _[!UICONTROL Payment & Shipping Method]_&#x200B;ブロックまで下にスクロールし、**[!UICONTROL Add Tracking Number]**&#x200B;をクリックします。
+1. _[!UICONTROL Payment & Shipping Method]_ブロックまで下にスクロールし、**[!UICONTROL Add Tracking Number]**をクリックします。
 
 1. **[!UICONTROL Carrier]**&#x200B;を設定：
 
@@ -112,7 +122,7 @@ Adobe CommerceとMagento Open Sourceは、部分的な注文と完全な注文�
 
 1. 配送を検索して編集モードで開きます。
 
-1. _[!UICONTROL Payment & Shipping Method]_&#x200B;ブロックまでスクロールします。
+1. _[!UICONTROL Payment & Shipping Method]_ブロックまでスクロールします。
 
 1. **[!UICONTROL Carrier]**&#x200B;を選択します。
 
@@ -146,9 +156,9 @@ Adobe CommerceとMagento Open Sourceは、部分的な注文と完全な注文�
 
 ## 出荷用のコメントの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
-1. _[!UICONTROL Sales]_&#x200B;で、**[!UICONTROL Sales Email]**&#x200B;を選択します。
+1. _[!UICONTROL Sales]_で、**[!UICONTROL Sales Email]**を選択します。
 
 1. 「**出荷コメント**」セクションを展開し、必要に応じて設定を変更します。
 
@@ -180,7 +190,7 @@ Adobe CommerceとMagento Open Sourceは、部分的な注文と完全な注文�
 
 1. 左側のパネルで、**[!UICONTROL Shipments]**&#x200B;を選択します。
 
-   配送をキャンセルできる場合は、_[!UICONTROL Cancel Shipment]_&#x200B;が上部のボタンバーにオプションとして表示されます。
+   配送をキャンセルできる場合は、_[!UICONTROL Cancel Shipment]_が上部のボタンバーにオプションとして表示されます。
 
 1. **[!UICONTROL Cancel Shipment]**&#x200B;をクリックします。
 
@@ -197,7 +207,7 @@ Adobe CommerceとMagento Open Sourceは、部分的な注文と完全な注文�
 | [!UICONTROL Carrier] | 選択した通信事業者の名前 |
 | [!UICONTROL Title] | キャリアによってパッケージに割り当てられたわかりやすい名前。 |
 | [!UICONTROL Number] | パッケージに割り当てられているリンクされたトラッキング番号。 |
-| [!UICONTROL Action] | ![ごみ箱アイコン &#x200B;](../assets/icon-delete-trashcan-solid.png) – 出荷レコードからパッケージ情報を削除します。 |
+| [!UICONTROL Action] | ![ごみ箱アイコン ](../assets/icon-delete-trashcan-solid.png) – 出荷レコードからパッケージ情報を削除します。 |
 | [!UICONTROL Add] | 荷物に別の荷物を追加します。 |
 
 {style="table-layout:auto"}

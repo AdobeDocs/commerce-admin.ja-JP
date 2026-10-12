@@ -3,33 +3,47 @@ title: ショッピングカートの管理
 description: 管理者から直接ショッピングカートを使用して顧客を支援する方法を説明します。
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-TQID: https://experienceleague.adobe.com/6kRS38XXT2krhGWypaXChWpBdtvfLupBJX2k6cE4y6w
+TQID: 'https://experienceleague.adobe.com/6kRS38XXT2krhGWypaXChWpBdtvfLupBJX2k6cE4y6w'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+subfeature_v2:
+  - id: deedbb4d-f1b7-58ea-a34a-de1f481f9d4c
+    internal-label: Customer Service
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 746
+source-wordcount: '746'
 ht-degree: 0%
-
 ---
-
 # ショッピングカートの管理
 
 {{ee-feature}}
 
-支援ショッピングセッションを開始するには、顧客がストアフロントからアカウントにログインして情報を利用可能にする必要があります。 お客様がアカウントを持っていない場合は、[&#x200B; アカウントを作成できます](../customers/account-create.md)。
+支援ショッピングセッションを開始するには、顧客がストアフロントからアカウントにログインして情報を利用可能にする必要があります。 お客様がアカウントを持っていない場合は、[ アカウントを作成できます](../customers/account-create.md)。
 
 ![お客様アカウント内の買い物かご](./assets/customer-account-manage-cart-items.png){width="600" zoomable="yes"}
 
@@ -58,7 +72,7 @@ ht-degree: 0%
 
    ストアへの訪問者とログインした顧客はすべてリストに表示されます。
 
-   ![&#x200B; オンラインのお客様](./assets/customers-now-online.png){width="700" zoomable="yes"}
+   ![ オンラインのお客様](./assets/customers-now-online.png){width="700" zoomable="yes"}
 
 ## ショッピング支援
 
@@ -68,11 +82,11 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >急いで顧客レコードを検索するには、[&#x200B; フィルター](../getting-started/admin-grid-controls.md) コントロールを使用します。
+   >急いで顧客レコードを検索するには、[ フィルター](../getting-started/admin-grid-controls.md) コントロールを使用します。
 
-   _[!UICONTROL Personal Information]_&#x200B;の下の顧客プロファイルで、_[!UICONTROL Last Logged In]_&#x200B;の日時は、顧客がオンラインであることを示します。
+   _[!UICONTROL Personal Information]_の下の顧客プロファイルで、_[!UICONTROL Last Logged In]_&#x200B;の日時は、顧客がオンラインであることを示します。
 
-   ![&#x200B; オンライン顧客の顧客プロファイル &#x200B;](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
+   ![ オンライン顧客の顧客プロファイル ](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
 1. アシスト ショッピング モードに入るには、上部のボタン バーで&#x200B;**[!UICONTROL Manage Shopping Cart]**&#x200B;をクリックします。
 
@@ -118,7 +132,7 @@ ht-degree: 0%
 
 1. 商品をカートに追加するには、**[!UICONTROL Add selections to my cart]**&#x200B;をクリックします。
 
-   ![&#x200B; カート内の設定可能な製品](./assets/customer-account-manage-cart-order-configurable-product-cart.png){width="600" zoomable="yes"}
+   ![ カート内の設定可能な製品](./assets/customer-account-manage-cart-order-configurable-product-cart.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、カート内の商品オプションを更新します。
 
@@ -146,7 +160,7 @@ ht-degree: 0%
 
 ### CSV ファイルをアップロードして製品を追加する
 
-1. [csv ファイル &#x200B;](../systems/data-csv.md)を、買い物かごに追加するアイテムと共に準備します。
+1. [csv ファイル ](../systems/data-csv.md)を、買い物かごに追加するアイテムと共に準備します。
 
    ファイルには、ヘッダーに`sku`と`qty`を含む2つの列のみを含める必要があります。
 
@@ -178,7 +192,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Apply Coupon Code]**&#x200B;の場合、有効なクーポンコードを入力してください。
 
-   - _適用_ （![矢印アイコン &#x200B;](../assets/icon-apply-arrow.png)）矢印をクリックします。
+   - _適用_ （![矢印アイコン ](../assets/icon-apply-arrow.png)）矢印をクリックします。
 
 1. 必要に応じて注文数量を調整します。
 
@@ -190,7 +204,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create Order]**&#x200B;をクリックします。
 
-   _[!UICONTROL Create New Order]_&#x200B;ページには、買い物かごの商品が表示され、その後に配送情報と支払い情報が表示されます。
+   _[!UICONTROL Create New Order]_ページには、買い物かごの商品が表示され、その後に配送情報と支払い情報が表示されます。
 
 1. 発送と支払いに関する情報を入力します。
 
@@ -210,6 +224,6 @@ ht-degree: 0%
 
 1. **[!UICONTROL Clear my shopping cart]**&#x200B;をクリックします。
 
-   ![買い物かごをクリア &#x200B;](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
+   ![買い物かごをクリア ](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
 
 1. アクションの確認を求めるメッセージが表示されたら、**[!UICONTROL OK]**&#x200B;をクリックします。

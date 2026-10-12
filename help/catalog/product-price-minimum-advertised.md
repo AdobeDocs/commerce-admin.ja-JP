@@ -3,30 +3,41 @@ title: 最低広告価格
 description: 最低広告価格（MAP）機能を使用して、特別な価格設定でメーカーの要件に準拠する方法を説明します。
 exl-id: ccd44cfe-3967-4d82-b5b2-3f92701d152e
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/DRNm0PPX81W4jzLnu7ALhJ1lQZYUpTcO6ojp1E50vto
+TQID: 'https://experienceleague.adobe.com/DRNm0PPX81W4jzLnu7ALhJ1lQZYUpTcO6ojp1E50vto'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1143
+source-wordcount: '1143'
 ht-degree: 0%
-
 ---
-
 # 最低広告価格
 
 販売者は、製造業者の希望小売価格（MSRP）よりも低い価格を表示することを禁止されることがあります。 最低広告価格（MAP）は、メーカーの要件を遵守しながら、顧客により良い価格を提供することができます。 要件はメーカーによって異なるため、ストアを設定して、許可されていないページに実際の価格が表示されないようにすることができます。
@@ -49,11 +60,11 @@ MAP機能では、通常の製品価格の代わりに、専用の&#x200B;_ク�
 
 | 製品タイプ | 説明 |
 |--- |--- |
-| [&#x200B; シンプル &#x200B;](product-create-simple.md)、[&#x200B; バーチャル &#x200B;](product-create-virtual.md) | 実際の価格は、カタログリストと商品ページには自動的に表示されませんが、[!UICONTROL Display Actual Price]の設定に従ってのみ含まれます。 カスタムオプションの価格は通常どおり表示されます。 |
-| [&#x200B; グループ化](product-create-grouped.md) | 関連付けられたシンプルな製品の価格は、カタログ リストと製品ページには自動的に表示されませんが、[!UICONTROL Display Actual Price]設定に従ってのみ含まれます。 |
+| [ シンプル ](product-create-simple.md)、[ バーチャル ](product-create-virtual.md) | 実際の価格は、カタログリストと商品ページには自動的に表示されませんが、[!UICONTROL Display Actual Price]の設定に従ってのみ含まれます。 カスタムオプションの価格は通常どおり表示されます。 |
+| [ グループ化](product-create-grouped.md) | 関連付けられたシンプルな製品の価格は、カタログ リストと製品ページには自動的に表示されませんが、[!UICONTROL Display Actual Price]設定に従ってのみ含まれます。 |
 | [構成可能](product-create-configurable.md) | 実際の価格は、カタログリストと商品ページには自動的に表示されませんが、[!UICONTROL Display Actual Price]の設定に従ってのみ含まれます。 オプション価格は通常どおり表示されます。 |
-| [&#x200B; バンドル &#x200B;](product-create-bundle.md) （固定価格） | 実際の価格は、カタログページには自動的に表示されませんが、[!UICONTROL Display Actual Price]設定に従ってのみ含まれます。 バンドルアイテムの価格は通常どおり表示されます。 MAPは、動的な価格設定のバンドル製品では使用できません。 |
-| [&#x200B; ダウンロード可能](product-create-downloadable.md) | 実際の価格は、カタログリストと商品ページには自動的に表示されませんが、[!UICONTROL Display Actual Price]の設定に従ってのみ含まれます。 各ダウンロードリンクに関連付けられている価格は、通常どおり表示されます。 |
+| [ バンドル ](product-create-bundle.md) （固定価格） | 実際の価格は、カタログページには自動的に表示されませんが、[!UICONTROL Display Actual Price]設定に従ってのみ含まれます。 バンドルアイテムの価格は通常どおり表示されます。 MAPは、動的な価格設定のバンドル製品では使用できません。 |
+| [ ダウンロード可能](product-create-downloadable.md) | 実際の価格は、カタログリストと商品ページには自動的に表示されませんが、[!UICONTROL Display Actual Price]の設定に従ってのみ含まれます。 各ダウンロードリンクに関連付けられている価格は、通常どおり表示されます。 |
 
 {style="table-layout:auto"}
 
@@ -77,17 +88,17 @@ MAP機能では、通常の製品価格の代わりに、専用の&#x200B;_ク�
 
 MAPが有効になっている場合、製品レベルのMAP設定が使用可能になります。 MSRPを入力し、実際の価格をストアに表示する方法を選択することで、個々の製品にMAPを適用できます。 製品レベルのMAP設定は、グローバル MAP設定を上書きします。
 
-![価格をクリック &#x200B;](./assets/storefront-price-map.png){width="700" zoomable="yes"}
+![価格をクリック ](./assets/storefront-price-map.png){width="700" zoomable="yes"}
 
 ### 手順1：ストアビューのMAPを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 該当する場合は、設定が適用されるビューの右上隅に&#x200B;**[!UICONTROL Store View]**&#x200B;を設定します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、下の「**[!UICONTROL Sales]**」を選択します。
 
-1. _[!UICONTROL Minimum Advertised Price]_&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
+1. _[!UICONTROL Minimum Advertised Price]_セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
 1. 必要に応じて、**マップを有効にする**&#x200B;を`Yes`に設定します。
 
@@ -106,9 +117,9 @@ MAP設定を設定するには、次のいずれかの方法を使用します�
    - デフォルト値を変更するには、**[!UICONTROL Use system value]** チェックボックスの選択を解除します。
 
    - **実際の価格の表示**&#x200B;を次のいずれかに設定します。
-      - `In Cart`
-      - `Before Order Confirmation`
-      - `On Gesture (on click)`
+     - `In Cart`
+     - `Before Order Confirmation`
+     - `On Gesture (on click)`
 
 1. **[!UICONTROL Default Popup Text Message]**&#x200B;に表示するテキストを入力します。
 

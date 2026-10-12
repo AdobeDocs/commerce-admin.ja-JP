@@ -1,47 +1,64 @@
 ---
 title: '[!DNL Google Analytics]'
-description: ' [!DNL Google Analytics] を使用して、Commerce サイトに役立つ指標を収集する方法について説明します。'
+description: '[!DNL Google Analytics]を使用して、Commerce サイトに役立つ指標を収集する方法について説明します。'
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
 feature: Marketing Tools, Integration
-TQID: https://experienceleague.adobe.com/3YXwPB-1yDciblELQDGHXfnv1hwPJAW4Us0iG6vCf0k
+TQID: 'https://experienceleague.adobe.com/3YXwPB-1yDciblELQDGHXfnv1hwPJAW4Us0iG6vCf0k'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Analytics]
 
 [!DNL Google Analytics]では、オフラインおよびモバイルアプリのインタラクションをサポートし、継続的な更新にアクセスできるため、トラッキング用の追加のカスタムディメンションと指標を定義できます。[!DNL Google Analytics] 4はGoogleの次世代測定ソリューションであり、[!DNL Universal Analytics]に代わるものです。 2023年7月1日（PT）に、標準のUniversal Analytics プロパティで新しいヒットの処理が停止されます。
 
 >[!NOTE]
 >
->ビジネスが[一般データ保護規則](../getting-started/compliance-gdpr.md)や[Google州消費者プライバシー法](../getting-started/compliance-ccpa.md)などのプライバシー規制の対象となる場合は、[&#x200B; カリフォルニア州プライバシー設定](google-tools.md#google-privacy-settings)を参照してください。
+>ビジネスが[一般データ保護規則](../getting-started/compliance-gdpr.md)や[Google州消費者プライバシー法](../getting-started/compliance-ccpa.md)などのプライバシー規制の対象となる場合は、[ カリフォルニア州プライバシー設定](google-tools.md#google-privacy-settings)を参照してください。
 
 >[!IMPORTANT]
 >
->[Cookie制限モード &#x200B;](../getting-started/compliance-cookie-law.md)を有効にした場合、[!DNL Google Analytics]はCookieを受け入れない限り、訪問者に関するデータを収集しません。
+>[Cookie制限モード ](../getting-started/compliance-cookie-law.md)を有効にした場合、[!DNL Google Analytics]はCookieを受け入れない限り、訪問者に関するデータを収集しません。
 
 ## [!DNL Google Analytics] 4
 
@@ -52,13 +69,13 @@ ht-degree: 0%
 サイトの[!DNL Google Analytics] 4のセットアップがまだ行われていない場合は、次のいずれかの方法に従います。
 
 - [Analytics データ収集を初めて設定する](https://support.google.com/analytics/answer/9304153)
-- [&#x200B; [!DNL Universal Analytics]を持つサイトにGoogle Analytics 4を追加](https://support.google.com/analytics/answer/9744165)
+- [ [!DNL Universal Analytics]を持つサイトにGoogle Analytics 4を追加](https://support.google.com/analytics/answer/9744165)
 
 ### 手順2:Commerceの設定を完了する
 
 1. Commerce ストアの管理者にログインします。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Google API]**&#x200B;を選択します。
 
@@ -70,11 +87,11 @@ ht-degree: 0%
 
    - **[!UICONTROL Account type]**&#x200B;を`Google Analytics4`のままにします。
 
-   - **[!UICONTROL Measurement ID]**&#x200B;を入力します。 詳しくは、[Google Analytics ヘルプ &#x200B;](https://support.google.com/analytics/answer/9539598)を参照してください。
+   - **[!UICONTROL Measurement ID]**&#x200B;を入力します。 詳しくは、[Google Analytics ヘルプ ](https://support.google.com/analytics/answer/9539598)を参照してください。
 
    - コンテンツに対してA/B テストやその他のパフォーマンステストを実施する場合は、**コンテンツ実験**&#x200B;を`Yes`に設定します。
 
-   ![&#x200B; セールス設定 – Google Analytics 4](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png){width="600" zoomable="yes"}用Google API
+   ![ セールス設定 – Google Analytics 4](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png){width="600" zoomable="yes"}用Google API
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
@@ -92,7 +109,7 @@ Googleのweb サイトにアクセスし、[Google Universal Analytics](https://
 
 1. Commerce ストアの管理者にログインします。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Google API]**&#x200B;を選択します。
 

@@ -3,32 +3,44 @@ title: 企業アカウント
 description: Adobe Commerce ストアで管理されている会社アカウントで、同じ会社に属する複数のバイヤーを1つの会社アカウントに参加させる方法について説明します。
 exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
 feature: B2B, Companies, Configuration
-TQID: https://experienceleague.adobe.com/gHdiA49ndaE4yFfIPAPaCUOhWnkkZIg2WKfSeSrwBQQ
+TQID: 'https://experienceleague.adobe.com/gHdiA49ndaE4yFfIPAPaCUOhWnkkZIg2WKfSeSrwBQQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 753
+source-wordcount: '753'
 ht-degree: 0%
-
 ---
-
 # 企業アカウント
 
 B2B企業アカウントをストアに組み込む場合、組織でのユーザーの役割に基づいて、柔軟な権限を持つ複数のサブアカウントを作成できるため、企業のショッピング体験を簡素化できます。
@@ -43,7 +55,7 @@ B2B企業アカウントをストアに組み込む場合、組織でのユー�
 
 - 異なる[役割と権限](account-company-roles-permissions.md)を持つ&#x200B;_smart_&#x200B;会社アカウント階層のサポートが含まれています。注文を行うことができます。
 
-- 支払い方法として[法人店舗クレジット &#x200B;](credit-company.md)を提供することで、加盟店が収入を増やす仕組みを提供します。
+- 支払い方法として[法人店舗クレジット ](credit-company.md)を提供することで、加盟店が収入を増やす仕組みを提供します。
 
 - 管理者のすべての会社アカウントの[管理](account-company-manage.md)をサポートします。
 
@@ -55,15 +67,15 @@ _会社_ グリッドには、ステータス設定に関係なく、アクテ�
 
 _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL Companies]**&#x200B;に移動します。
 
-![会社グリッド &#x200B;](./assets/companies-grid.png){width="700" zoomable="yes"}
+![会社グリッド ](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-[!UICONTROL Companies] グリッドには、ステータスに関係なくすべての会社が一覧表示されます。 会社リストは、会社が[会社階層](manage-company-hierarchy.md)に関連付けられているかどうかを示し、会社、会社管理者、その他の情報に関する[詳細情報](/help/b2b/account-company-manage.md#company-options-and-columns)を提供します。 [管理者グリッドコントロール &#x200B;](../getting-started/admin-grid-controls.md)を使用して、フィルター、列表示オプションなどを設定し、ビューをカスタマイズします。
+[!UICONTROL Companies] グリッドには、ステータスに関係なくすべての会社が一覧表示されます。 会社リストは、会社が[会社階層](manage-company-hierarchy.md)に関連付けられているかどうかを示し、会社、会社管理者、その他の情報に関する[詳細情報](/help/b2b/account-company-manage.md#company-options-and-columns)を提供します。 [管理者グリッドコントロール ](../getting-started/admin-grid-controls.md)を使用して、フィルター、列表示オプションなどを設定し、ビューをカスタマイズします。
 
 ## 会社の管理者
 
 次の例は、最初の会社管理者アカウントを含む&#x200B;_Customers_ グリッドを示しています。
 
-![会社管理者アカウントを持つ顧客グリッド &#x200B;](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![会社管理者アカウントを持つ顧客グリッド ](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
 各会社には、アカウントの電子メールアドレスと管理者の姓で識別される1人の会社管理者がいます。 管理者は、ユーザーとして他の会社に割り当てることができますが、1つの会社の管理者にすることができます。
 
@@ -73,11 +85,11 @@ _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL Comp
 
 1. 会社の管理者は、店舗からウェルカムメールを見つけます。
 
-   ![&#x200B; ウェルカムメールの例](./assets/company-admin-welcome-email.png){width="500"}
+   ![ ウェルカムメールの例](./assets/company-admin-welcome-email.png){width="500"}
 
    >[!NOTE]
    >
-   >電子メールの電子メールアドレスのターゲットとコンテンツは、[会社の電子メールオプション &#x200B;](email-company-configuration.md)設定で指定されたオプションによって決まります。
+   >電子メールの電子メールアドレスのターゲットとコンテンツは、[会社の電子メールオプション ](email-company-configuration.md)設定で指定されたオプションによって決まります。
 
 1. 手順に従い、[!UICONTROL **link**]&#x200B;をクリックしてパスワードを設定します。
 
@@ -98,11 +110,11 @@ _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL Comp
 
 1. 「[!UICONTROL **ログイン**]」をクリックして、アカウントダッシュボードにアクセスします。
 
-   ![&#x200B; アカウントダッシュボード – 会社](./assets/account-dashboard-company.png){width="700" zoomable="yes"}
+   ![ アカウントダッシュボード – 会社](./assets/account-dashboard-company.png){width="700" zoomable="yes"}
 
 ## 企業構造
 
-企業アカウントは、ビジネスの構造を反映するように設定できます。 当初、企業構造には企業管理者のみが含まれますが、ユーザーのチームを含めるように拡張できます。 ユーザーは、チームに関連付けることも、企業内の部門や部門の階層内で整理することもできます。 この構造は、会社アカウントに関連付けられた[発注](purchase-order-flow.md) （PO）に対する[承認ルール &#x200B;](account-dashboard-approval-rules.md)の使用をサポートするように設計されています。
+企業アカウントは、ビジネスの構造を反映するように設定できます。 当初、企業構造には企業管理者のみが含まれますが、ユーザーのチームを含めるように拡張できます。 ユーザーは、チームに関連付けることも、企業内の部門や部門の階層内で整理することもできます。 この構造は、会社アカウントに関連付けられた[発注](purchase-order-flow.md) （PO）に対する[承認ルール ](account-dashboard-approval-rules.md)の使用をサポートするように設計されています。
 
 ![部門を持つ会社構造](./assets/company-structure-diagram.svg){width="450"}
 

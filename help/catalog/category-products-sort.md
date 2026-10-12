@@ -3,37 +3,47 @@ title: カテゴリ製品の並べ替え
 description: カテゴリ内の製品の位置を手動または定義済みの並べ替え順序を適用して定義する方法について説明します。
 exl-id: 09c66a5d-57d4-4e78-a8d8-e3047c1bd35a
 feature: Catalog Management, Categories, Products
-TQID: https://experienceleague.adobe.com/Co2sHVc4YaLqjVrc-Varq9-ssecBB-C2mL3MTAPuQbU
+TQID: 'https://experienceleague.adobe.com/Co2sHVc4YaLqjVrc-Varq9-ssecBB-C2mL3MTAPuQbU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: '424'
 ht-degree: 0%
-
 ---
-
 # カテゴリ製品の並べ替え
 
 {{ee-feature}}
 
 カテゴリ内の製品の位置は、製品を位置にドラッグ&amp;ドロップするか、定義済みの並べ替え順序を適用することで、手動で指定できます。 デフォルトでは、在庫レベル、年齢、色、名前、SKU、価格で商品を並べ替えることができます。 自動ソートは、現在のソート順序を上書きし、手動で設定したドラッグ&amp;ドロップの位置をリセットします。 商品をリストに含めるために必要な色の並べ替え順序と最低在庫量は、[Visual Merchandiser](../configuration-reference/catalog/visual-merchandiser.md)設定で設定されます。
 
-[&#x200B; ストアビュー](../stores-purchase/stores.md#add-stores)ごとにカテゴリーオプションを個別に設定して、商品の選択、リスト内での相対的な位置、カテゴリールールで使用できる属性を決定できます。 ただし、カタログ内に単一の&#x200B;**_グローバル_**&#x200B;並べ替え順序と商品の位置があり、それらはすべて[&#x200B; ストアビュー](../stores-purchase/store-views.md)、ストア、およびweb サイトで共有されます。
+[ ストアビュー](../stores-purchase/stores.md#add-stores)ごとにカテゴリーオプションを個別に設定して、商品の選択、リスト内での相対的な位置、カテゴリールールで使用できる属性を決定できます。 ただし、カタログ内に単一の&#x200B;**_グローバル_**&#x200B;並べ替え順序と商品の位置があり、それらはすべて[ ストアビュー](../stores-purchase/store-views.md)、ストア、およびweb サイトで共有されます。
 
 ## 手順1：設定の範囲の設定
 
@@ -41,21 +51,21 @@ ht-degree: 0%
 
 1. 必要に応じて、設定が適用される&#x200B;**[!UICONTROL Store View]**&#x200B;を選択します。
 
-   マルチストア インストールの場合、_[!UICONTROL Store View]_&#x200B;設定は、ストア内で使用可能なすべてのビューに並べ替え順序を適用します。
+   マルチストア インストールの場合、_[!UICONTROL Store View]_設定は、ストア内で使用可能なすべてのビューに並べ替え順序を適用します。
 
 1. 左側のカテゴリーツリーで、編集するカテゴリを選択します。
 
-   ![&#x200B; カテゴリツリー](./assets/category-selected.png){width="700" zoomable="yes"}
+   ![ カテゴリツリー](./assets/category-selected.png){width="700" zoomable="yes"}
 
 ## 手順2：商品の並べ替え
 
 >[!NOTE]
 >
->カテゴリをproduct属性で並べ替える場合、同じ属性値を持つ製品も昇順で&#x200B;_[!UICONTROL Product ID]_&#x200B;で並べ替えられます。
+>カテゴリをproduct属性で並べ替える場合、同じ属性値を持つ製品も昇順で&#x200B;_[!UICONTROL Product ID]_で並べ替えられます。
 
-_[!UICONTROL Products in Category]_&#x200B;セクションで、タイル （![&#x200B; タイルを表示](../assets/icon-view-tiles.png)）アイコンをクリックして、商品タイルをグリッドに表示します。 製品をソートするには、手動または自動のいずれかの方法を使用します。
+_[!UICONTROL Products in Category]_セクションで、タイル （![ タイルを表示](../assets/icon-view-tiles.png)）アイコンをクリックして、商品タイルをグリッドに表示します。 製品をソートするには、手動または自動のいずれかの方法を使用します。
 
-![製品タイル &#x200B;](./assets/category-products-tiles.png){width="600" zoomable="yes"}
+![製品タイル ](./assets/category-products-tiles.png){width="600" zoomable="yes"}
 
 ### 方法1：手動ソート
 
@@ -98,7 +108,7 @@ _[!UICONTROL Products in Category]_&#x200B;セクションで、タイル （![&
 
 1. 適切な&#x200B;**[!UICONTROL Value]**&#x200B;を入力します。
 
-   ![&#x200B; カテゴリ条件](./assets/category-rule-create.png){width="600" zoomable="yes"}
+   ![ カテゴリ条件](./assets/category-rule-create.png){width="600" zoomable="yes"}
 
 1. 別の条件を追加するには、**[!UICONTROL Add Condition]**&#x200B;をクリックして、プロセスを繰り返します。
 

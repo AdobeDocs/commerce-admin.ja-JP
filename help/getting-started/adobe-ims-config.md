@@ -3,36 +3,48 @@ title: IDを使用したCommerce管理者統合の設定
 description: Adobe Commerce管理者ユーザーアカウントのログイン情報をAdobe IDと統合するには、次のオプション手順に従います。
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-TQID: https://experienceleague.adobe.com/gpbB0FZxHJdlef-Xv6DIMs4ixUg1R4kZxF6Hau94n9o
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: 'https://experienceleague.adobe.com/gpbB0FZxHJdlef-Xv6DIMs4ixUg1R4kZxF6Hau94n9o'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
+  - id: 23bc8570-95c6-5ef5-a563-2e4a4e6b4853
+    internal-label: Identity Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a43dbb4a703f497e496c63f2886832d44e8c7cab
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 916
-ht-degree: 0%
-
+source-wordcount: '935'
+ht-degree: 1%
 ---
-
 # Adobe IDとのCommerce管理者統合の設定
 
 {{ee-feature}}
 
-この統合は、Commerceを使用している管理者ユーザーと、Adobe IDおよびAdobe Business製品へのログインを効率化したい管理者ユーザーのAdobe Commerce マーチャントをサポートします。これはオプションであり、インスタンスごとに有効になります。有効にすると、管理者ユーザーワークフローのみが影響を受けます。 
+この統合は、Commerceを使用している管理者ユーザーと、Adobe IDおよびAdobe Business製品へのログインを効率化したい管理者ユーザーのAdobe Commerce マーチャントをサポートします。 これはオプションであり、インスタンスごとに有効になります。 有効にすると、管理者ユーザーワークフローのみが影響を受けます。 
 
 >[!IMPORTANT]
 >
@@ -51,8 +63,8 @@ ht-degree: 0%
 
 この統合を設定する管理者は、モジュールのイネーブルメント時に次の資格情報を必要とします。
 
-* 組織ID （[Adobe Admin Console](https://adminconsole.adobe.com/)から取得）。24文字以上にする必要があります。 認証されたユーザーは、このIMS組織に属している必要があります。 組織IDの検索について詳しくは、[Experience Cloudの組織](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/organizations)を参照してください。
-* 2FAをAdobe Admin Consoleの組織レベルで適用して、モジュールを有効にする必要があります。 [認証設定](https://helpx.adobe.com/jp/business/enterprise/manage-your-organization-setup/authentication-settings.html#two-step-verification)を確認してください。
+* 組織ID （[Adobe Admin Console](https://adminconsole.adobe.com/)から取得）。24文字以上にする必要があります。 認証されたユーザーは、このIMS組織に属している必要があります。 組織IDの検索について詳しくは、[Experience Cloudの組織](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations)を参照してください。
+* 2FAをAdobe Admin Consoleの組織レベルで適用して、モジュールを有効にする必要があります。 [認証設定](https://helpx.adobe.com/business/enterprise/manage-your-organization-setup/authentication-settings.html#two-step-verification)を確認してください。
 * クライアント ID
 * クライアント秘密鍵
 * クライアント IDとクライアント シークレットは、[Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials)からAPI キーを取得した後に使用できます。
@@ -66,7 +78,7 @@ Commerce管理者ユーザーがログインするには、Adobe IDでアカウ�
 * Adobe Admin ConsoleでのAdobe Commerce ユーザーの設定
 * `AdminAdobeIms` モジュールを有効にします。
 
-統合を成功させるには、すべてのAdobe Commerce ユーザーが同じ名前とプライマリメールアドレスの管理者ユーザーアカウントを持っている必要があります。 一致する管理者ユーザーアカウントが存在しない場合、必要な権限を持つユーザー（通常は管理者の役割が割り当てられている）は、同じ名前と電子メールで[管理者ユーザーアカウント &#x200B;](../systems/permissions-users-all.md#create-a-user)を手動で作成する必要があります。
+統合を成功させるには、すべてのAdobe Commerce ユーザーが同じ名前とプライマリメールアドレスの管理者ユーザーアカウントを持っている必要があります。 一致する管理者ユーザーアカウントが存在しない場合、必要な権限を持つユーザー（通常は管理者の役割が割り当てられている）は、同じ名前と電子メールで[管理者ユーザーアカウント ](../systems/permissions-users-all.md#create-a-user)を手動で作成する必要があります。
 
 ## 統合の設定
 
@@ -78,7 +90,7 @@ Commerce管理者ユーザーがログインするには、Adobe IDでアカウ�
 
 ### 手順2：新しいプロジェクト、IMS API キー、秘密鍵の生成
 
-組織のプロジェクトを作成するには、その組織のAdobe管理者アカウントにシステム管理者または開発者の役割が必要です。 [Developer Console ガイド &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/)を参照してください。
+組織のプロジェクトを作成するには、その組織のAdobe管理者アカウントにシステム管理者または開発者の役割が必要です。 [Developer Console ガイド ](https://developer.adobe.com/developer-console/docs/guides/projects/)を参照してください。
 
 1. [Adobe Developer Console](https://developer.adobe.com/)にログインします。
 1. **[!UICONTROL Projects]** タブ （adobe.io/projects）に移動し、**[!UICONTROL Create a new project]**&#x200B;をクリックします。
@@ -99,9 +111,9 @@ Commerce管理者ユーザーがログインするには、Adobe IDでアカウ�
 
 >[!TIP]
 >
->CSV ファイルからユーザー情報をアップロードすることで、複数のユーザーアカウントを作成できます。 [複数のユーザーの管理](https://helpx.adobe.com/jp/business/enterprise/manage-users/user-management-strategies/bulk-upload-users.html)を参照してください。
+>CSV ファイルからユーザー情報をアップロードすることで、複数のユーザーアカウントを作成できます。 [複数のユーザーの管理](https://helpx.adobe.com/business/enterprise/manage-users/user-management-strategies/bulk-upload-users.html)を参照してください。
 
-1. [Adobe Admin Console](https://helpx.adobe.com/jp/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)で、**[!UICONTROL Users]** > **[!UICONTROL Users]**&#x200B;に移動します。
+1. [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)で、**[!UICONTROL Users]** > **[!UICONTROL Users]**&#x200B;に移動します。
 
 1. **[!UICONTROL Add User]**&#x200B;をクリックします。
 
@@ -132,4 +144,4 @@ Adobe Commerceには、イネーブルメントが成功したか失敗したか
 
 ## IDとシングルサインオン
 
-ID設定とSSO設定の手順については、*Enterprise Admin Console* ドキュメントの「[IDとシングルサインオンの設定](https://helpx.adobe.com/jp/business/enterprise/set-up-your-organization/set-up-identity.html)」を参照してください。
+ID設定とSSO設定の手順については、*Enterprise Admin Console* ドキュメントの「[IDとシングルサインオンの設定](https://helpx.adobe.com/business/enterprise/set-up-your-organization/set-up-identity.html)」を参照してください。

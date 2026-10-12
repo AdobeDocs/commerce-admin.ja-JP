@@ -3,24 +3,33 @@ title: 非表示の税計算
 description: 税金が埋め込まれている割引がある場合に、非表示の税計算を設定する方法を説明します。
 exl-id: be2000b1-09d7-4a28-814a-f5da7591e387
 feature: Invoices, Taxes
-TQID: https://experienceleague.adobe.com/KkluEZ6WopfZzfFvnd0XA93av21JP0mxXBS4A4czvA0
+TQID: 'https://experienceleague.adobe.com/KkluEZ6WopfZzfFvnd0XA93av21JP0mxXBS4A4czvA0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 350
+source-wordcount: '350'
 ht-degree: 1%
-
 ---
-
 # 非表示の税計算
 
 _非表示の税金_&#x200B;は、割引金額に含まれるVATの金額です。 次のすべての条件がtrueの場合、0以外になります。
@@ -41,16 +50,16 @@ _非表示の税金_&#x200B;は、割引金額に含まれるVATの金額です�
 
 ### 予期された結果が無効です
 
-- 割引なしの税の後の項目価格=100 USD
-- 値引きなしの税引前の商品価格=100/1.2=83.33 USD
+- 商品の価格は税引き後割引なし=100USD
+- 値引きなしの税引前商品価格=100/1.2=83.33USD
 - Discount=83.33 \ *0.1=8.33 USD
 - Tax=（83.33-8.33） \ *0.2=**15 USD （無効）**
-- 注文合計（税抜）=83.33-8.33=**75 USD （無効）**
-- 注文合計（税込）=75+15=**90 USD （無効）**
+- 注文合計（税抜）=83.33-8.33=**75 USD（無効）**
+- 注文合計（税込）=75+15=**90 USD（無効）**
 
 ### カートの有効な実際の結果
 
-![&#x200B; カート内の非表示の税金計算](./assets/hidden-tax.png){width="700" zoomable="yes"}
+![ カート内の非表示の税金計算](./assets/hidden-tax.png){width="700" zoomable="yes"}
 
 ### 有効な計算
 
@@ -80,7 +89,7 @@ _非表示の税金_&#x200B;は、割引金額に含まれるVATの金額です�
 
 1. お客様が通常割引価格をどのように理解しているか（注文合計）:
 
-   _税金を含む商品の全額&#x200B;**未満**&#x200B;割引額：$100 - $8.33 = $91.67_
+   _税金を含む商品の全額&#x200B;**未満**割引額：$100 - $8.33 = $91.67_
 
 1. **Commerceで割引価格を計算する方法** （以前の数式を参照）:
 

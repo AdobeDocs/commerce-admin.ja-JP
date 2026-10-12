@@ -3,35 +3,48 @@ title: サイトマップ
 description: Commerce サイトのすべてのページと画像にインデックスを付けるサイトマップの設定方法について説明します。
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-TQID: https://experienceleague.adobe.com/1IQk0p0-ZGNEXYKT-BIe-7b4l06psXTCapt6hPDMjzQ
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+TQID: 'https://experienceleague.adobe.com/1IQk0p0-ZGNEXYKT-BIe-7b4l06psXTCapt6hPDMjzQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1345
+source-wordcount: '1345'
 ht-degree: 0%
-
 ---
-
 # サイトマップ
 
 >[!TIP]
 >
->Adobe Commerce as a Cloud Serviceについては、Commerce Storefront ドキュメントの[SEO ガイドライン &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=ja)を参照してください
+>Adobe Commerce as a Cloud Serviceについては、Commerce Storefront ドキュメントの[SEO ガイドライン ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)を参照してください
 
 サイトマップは、検索エンジンによるストアのインデックス付け方法を改善し、webweb クローラーが見落とす可能性のあるページを見つけるように設計されています。 サイトマップでは、すべてのページと画像にインデックスを作成するように設定できます。
 
@@ -39,9 +52,9 @@ ht-degree: 0%
 
 サイトの開発中は、サイトのインデックス作成を避けるために、web web クローラーの`robots.txt` ファイルに手順を含めることができます。 ローンチの前に、サイトのインデックス作成を許可するように手順を変更できます。
 
-技術情報については、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[&#x200B; サイトマップとrobots.txt](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/configure-store/robots-sitemap)を追加する」を参照してください。
+技術情報については、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[ サイトマップとrobots.txt](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/robots-sitemap)を追加する」を参照してください。
 
-![&#x200B; サイトマップグリッド &#x200B;](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
+![ サイトマップグリッド ](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
 ## 手順1: サイトマップの設定
 
@@ -49,11 +62,11 @@ ht-degree: 0%
 
 ## 手順2: サイトマップの生成
 
-1. _管理者_ メニューで、**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**&#x200B;に移動します。
+1. _管理者_ メニューで、**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**に移動します。
 
 1. **[!UICONTROL Add Site Map]**&#x200B;をクリックします。
 
-   ![&#x200B; サイトマップグリッド &#x200B;](./assets/marketing-sitemap.png){width="700" zoomable="yes"}
+   ![ サイトマップグリッド ](./assets/marketing-sitemap.png){width="700" zoomable="yes"}
 
 1. サイト マップ **[!UICONTROL Filename]**&#x200B;を入力します。 例：`sitemap.xml`
 
@@ -63,7 +76,7 @@ ht-degree: 0%
 
    - `/` - サイト マップ ファイルをベース パス、またはCommerce インストールのルートに配置します。
 
-   ![新しいサイトマップ &#x200B;](./assets/marketing-sitemap-new.png){width="600" zoomable="yes"}
+   ![新しいサイトマップ ](./assets/marketing-sitemap-new.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save & Generate]**&#x200B;をクリックします。
 
@@ -71,7 +84,7 @@ ht-degree: 0%
 
 ## 手順3: robots.txtの設定と有効化（オプション）
 
-インデックスを作成するサイトの一部をクロールするように検索エンジンに指示する手順を使用して、[検索エンジンロボット &#x200B;](seo-overview.md#search-engine-robots)の設定を完了します。
+インデックスを作成するサイトの一部をクロールするように検索エンジンに指示する手順を使用して、[検索エンジンロボット ](seo-overview.md#search-engine-robots)の設定を完了します。
 
 ## 手順4: サイトマップを検索エンジンに送信
 
@@ -101,7 +114,7 @@ Commerce インストールの`sitemap.xml` ファイルへのリンクを提供
        /sitemaps/domain_1/
      /sitemaps/domain_2/
    
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**に移動します。
 
 1. 各ストアのサイトマップリストを作成または編集し、**[!UICONTROL Path]**&#x200B;をストア用に作成したものに設定します。
 
@@ -118,7 +131,7 @@ Commerce インストールの`sitemap.xml` ファイルへのリンクを提供
    
 >[!NOTE]
 >
->サイトで[Apache](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/prerequisites/web-server/apache) web サーバーエンジンを使用している場合は、Web サイトのルートにある[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) ファイルを更新して、他のサイトマップ要求を適切な場所に転送する必要があります。
+>サイトで[Apache](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/apache) web サーバーエンジンを使用している場合は、Web サイトのルートにある[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) ファイルを更新して、他のサイトマップ要求を適切な場所に転送する必要があります。
 
 ## 列の説明
 
@@ -140,7 +153,7 @@ Commerce インストールの`sitemap.xml` ファイルへのリンクを提供
 
 ### 手順1: コンテンツの更新の頻度と優先順位を設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Catalog]**&#x200B;を展開し、**[!UICONTROL XML Sitemap]**&#x200B;を選択します。
 
@@ -162,13 +175,13 @@ Commerce インストールの`sitemap.xml` ファイルへのリンクを提供
 
    - **[!UICONTROL Priority]**&#x200B;に、`0.0`から`1.0`までの値を入力します。 ゼロは最優先度が低い。
 
-   ![XML サイトマップ – カテゴリのオプション &#x200B;](../configuration-reference/catalog/assets/xml-sitemap-categories-options.png){width="600" zoomable="yes"}
+   ![XML サイトマップ – カテゴリのオプション ](../configuration-reference/catalog/assets/xml-sitemap-categories-options.png){width="600" zoomable="yes"}
 
-   これらのオプションの詳細なリストについては、_設定リファレンス_&#x200B;の[&#x200B; カテゴリーオプション &#x200B;](../configuration-reference/catalog/xml-sitemap.md#categories-options)を参照してください。
+   これらのオプションの詳細なリストについては、_設定リファレンス_&#x200B;の[ カテゴリーオプション ](../configuration-reference/catalog/xml-sitemap.md#categories-options)を参照してください。
 
 1. **[!UICONTROL Products Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、必要に応じて&#x200B;**[!UICONTROL Frequency]**&#x200B;と&#x200B;**[!UICONTROL Priority]**&#x200B;の設定を完了します。
 
-   これらのオプションの詳細なリストについては、_設定リファレンス_&#x200B;の[製品オプション &#x200B;](../configuration-reference/catalog/xml-sitemap.md#products-options)を参照してください。
+   これらのオプションの詳細なリストについては、_設定リファレンス_&#x200B;の[製品オプション ](../configuration-reference/catalog/xml-sitemap.md#products-options)を参照してください。
 
 1. 画像がサイトマップに含まれる範囲を判断するには、**[!UICONTROL Add Images into Sitemap]**&#x200B;を次のいずれかに設定します。
 
@@ -176,17 +189,17 @@ Commerce インストールの`sitemap.xml` ファイルへのリンクを提供
    - `Base Only`
    - `All`
 
-   ![&#x200B; カタログ設定 – XML サイトマップ製品](../configuration-reference/catalog/assets/xml-sitemap-products-options.png){width="600" zoomable="yes"}
+   ![ カタログ設定 – XML サイトマップ製品](../configuration-reference/catalog/assets/xml-sitemap-products-options.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL CMS Pages Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、必要に応じて&#x200B;**[!UICONTROL Frequency]**&#x200B;と&#x200B;**[!UICONTROL Priority]**&#x200B;の設定を完了します。
 
-   ![&#x200B; カタログ設定 – XML サイトマップ CMS ページ &#x200B;](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
+   ![ カタログ設定 – XML サイトマップ CMS ページ ](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
 
    これらのオプションの詳細なリストについては、_設定リファレンス_&#x200B;の[CMS Pages Options](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options)を参照してください。
 
 1. **[!UICONTROL Store Url Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、必要に応じて&#x200B;**[!UICONTROL Frequency]**&#x200B;と&#x200B;**[!UICONTROL Priority]**&#x200B;の設定を完了します。
 
-   ![&#x200B; カタログ設定 – XML サイトマップ ストア URL](./assets/xml-sitemap.png){width="600" zoomable="yes"}
+   ![ カタログ設定 – XML サイトマップ ストア URL](./assets/xml-sitemap.png){width="600" zoomable="yes"}
 
    これらのオプションの詳細なリストについては、_設定リファレンス_&#x200B;の「[Url オプションを保存](../configuration-reference/catalog/xml-sitemap.md#store-url-options)」を参照してください。
 
@@ -198,7 +211,7 @@ Commerce インストールの`sitemap.xml` ファイルへのリンクを提供
 
    必要に応じて、「**システム値を使用**」チェックボックスをオフにして、これらの設定を変更します。
 
-   ![&#x200B; カタログ設定 – XML サイトマップ生成設定](../configuration-reference/catalog/assets/xml-sitemap-generation-settings.png){width="600" zoomable="yes"}
+   ![ カタログ設定 – XML サイトマップ生成設定](../configuration-reference/catalog/assets/xml-sitemap-generation-settings.png){width="600" zoomable="yes"}
 
    これらのオプションの詳細なリストについては、_設定リファレンス_&#x200B;の[生成設定](../configuration-reference/catalog/xml-sitemap.md#generation-settings)を参照してください。
 
@@ -227,9 +240,9 @@ Commerce インストールの`sitemap.xml` ファイルへのリンクを提供
 
 1. **[!UICONTROL Sitemap File Limits]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; カタログ設定 – XML サイトマップファイルの制限](../configuration-reference/catalog/assets/xml-sitemap-sitemap-file-limits.png){width="600" zoomable="yes"}
+   ![ カタログ設定 – XML サイトマップファイルの制限](../configuration-reference/catalog/assets/xml-sitemap-sitemap-file-limits.png){width="600" zoomable="yes"}
 
-   これらのオプションの詳細なリストについては、_構成リファレンス_&#x200B;の[&#x200B; サイトマップファイル制限](../configuration-reference/catalog/xml-sitemap.md#sitemap-file-limits)を参照してください。
+   これらのオプションの詳細なリストについては、_構成リファレンス_&#x200B;の[ サイトマップファイル制限](../configuration-reference/catalog/xml-sitemap.md#sitemap-file-limits)を参照してください。
 
 1. **[!UICONTROL Maximum No of URLs per File]**&#x200B;の場合、サイトマップに含めることができるURLの最大数を入力します。
 
@@ -243,7 +256,7 @@ Commerce インストールの`sitemap.xml` ファイルへのリンクを提供
 
 1. **[!UICONTROL Search Engine Submission Settings]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![&#x200B; カタログ設定 – XML サイトマップ検索エンジン送信設定](../configuration-reference/catalog/assets/xml-sitemap-search-engine-submission-settings.png){width="600" zoomable="yes"}
+   ![ カタログ設定 – XML サイトマップ検索エンジン送信設定](../configuration-reference/catalog/assets/xml-sitemap-search-engine-submission-settings.png){width="600" zoomable="yes"}
 
 1. `robots.txt` ファイルを使用して、サイトをクロールする検索エンジンに指示を提供する場合は、**[!UICONTROL Enable Submission to Robots.txt]**&#x200B;を`Yes`に設定します。
 
