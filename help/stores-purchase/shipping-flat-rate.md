@@ -3,26 +3,33 @@ title: 定額制の配送
 description: ストアに定額制の配送オプションを設定する方法について説明します。
 exl-id: a6874509-a79b-42ab-aa93-d70d18fc33f6
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/mCScBdxmQUXGocuIYFllyZCnrpFOQ6Oh8sJKzo6O2QA
+TQID: 'https://experienceleague.adobe.com/mCScBdxmQUXGocuIYFllyZCnrpFOQ6Oh8sJKzo6O2QA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 554
+source-wordcount: '554'
 ht-degree: 0%
-
 ---
-
 # 定額制の配送
 
 _定額料金_&#x200B;は、品目ごと、または出荷ごとに適用できる、事前に定義された固定料金です。 定額制は、特に一部の配送業者から入手可能な定額制のパッケージと使用する場合のシンプルな配送ソリューションです。 有効にすると、チェックアウト時に「_定額料金_」がオプションとして表示されます。 特定のキャリアが指定されていないので、任意のキャリアを使用できます。
@@ -63,8 +70,8 @@ _定額料金_&#x200B;は、品目ごと、または出荷ごとに適用でき�
 
    - **処理手数料の計算**&#x200B;で、処理手数料の計算に使用する方法を選択します。
 
-      - `Fixed`
-      - `Percent`
+     - `Fixed`
+     - `Percent`
 
    - **手数料**&#x200B;の処理では、金額を計算するために選択した方法に基づいて、請求する金額を入力します。
 

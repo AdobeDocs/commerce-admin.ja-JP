@@ -4,29 +4,39 @@ description: PayPal Payflow Linkをオンライン決済ソリューションと
 exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 feature: Payments
 badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-TQID: https://experienceleague.adobe.com/D1D-n-a2etNBXIfMLNd1islIKLKQ1xzMcH2n2bVhTAg
+TQID: 'https://experienceleague.adobe.com/D1D-n-a2etNBXIfMLNd1islIKLKQ1xzMcH2n2bVhTAg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2195
+source-wordcount: '2257'
 ht-degree: 0%
-
 ---
-
 # PayPal Payflow Link
 
 PayPal Payflow Linkは、米国およびカナダのマーチャントのみが利用できます。 お客様は、個人のPayPal アカウントを持ち、PayPalがホストするフォームにクレジットカード情報を入力する必要はありません。 Adobe CommerceやMagento Open Sourceのサーバーには保存されません。 Payflow Linkは、管理者から作成された注文には使用できません。
@@ -36,7 +46,7 @@ PayPal Payflow Linkは、米国およびカナダのマーチャントのみが�
 >[!IMPORTANT]
 >
 >**PSD2の要件：** <br/>
->2019年9月14日の時点で、ヨーロッパの銀行は[PSD2](../getting-started/compliance-payment-services-directive.md)の要件を満たさない支払いを拒否する可能性があります。PSD2に準拠するには、PayPal Payflow LinkをCardinal Commerceと統合する必要があります。詳しくは、「[3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/)」を参照してください。
+>2019年9月14日現在、ヨーロッパの銀行は[PSD2](../getting-started/compliance-payment-services-directive.md)の要件を満たさない支払いを拒否する可能性があります。 PSD2に準拠するには、PayPal Payflow LinkをCardinal Commerceと統合する必要があります。 詳しくは、「[3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/)」を参照してください。
 
 ## 要件定義
 
@@ -92,10 +102,10 @@ PayPal Payflow Linkは、米国およびカナダのマーチャントのみが�
 
    - _ユーザーを追加_ フォームの次のセクションで、必須フィールドに入力します。
 
-      - [!UICONTROL Admin Confirmation]
-      - [!UICONTROL User Information]
-      - [!UICONTROL User Login Information]
-      - [!UICONTROL Assign Privilege to User]
+     - [!UICONTROL Admin Confirmation]
+     - [!UICONTROL User Information]
+     - [!UICONTROL User Login Information]
+     - [!UICONTROL Assign Privilege to User]
 
    - **[!UICONTROL Update]**&#x200B;をクリックします。
 
@@ -348,8 +358,8 @@ PayPal Payflow Linkは、米国およびカナダのマーチャントのみが�
 
    - PayPal Secure FTP Serverにサインアップしている場合は、次のSFTP ログイン資格情報を入力します。
 
-      - ログイン
-      - パスワード
+     - ログイン
+     - パスワード
 
    - サイトでExpress Checkoutを使用して本番稼働前にテストレポートを実行するには、**[!UICONTROL Sandbox Mode]**&#x200B;を`Yes`に設定します。
 
@@ -367,13 +377,13 @@ PayPal Payflow Linkは、米国およびカナダのマーチャントのみが�
 
    - **[!UICONTROL Schedule]**&#x200B;を次のいずれかに設定します：
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      PayPalは、各レポートを45日間保持します。
 
@@ -401,9 +411,9 @@ _[!UICONTROL Frontend Experience Settings]_&#x200B;を使用して、サイト�
 
    - PayPal マーチャント ページに適用する&#x200B;**[!UICONTROL Page Style]**&#x200B;の名前を入力します。
 
-      - `paypal` - PayPal ページスタイルを使用します。
-      - `primary` - アカウントプロファイルで&#x200B;_primary_ スタイルとして識別したページスタイルを使用します。
-      - `your_custom_value` - アカウント プロファイルで指定されたカスタム支払いページ スタイルを使用します。
+     - `paypal` - PayPal ページスタイルを使用します。
+     - `primary` - アカウントプロファイルで&#x200B;_primary_ スタイルとして識別したページスタイルを使用します。
+     - `your_custom_value` - アカウント プロファイルで指定されたカスタム支払いページ スタイルを使用します。
 
    - **[!UICONTROL Header Image URL]**&#x200B;に、支払いページの左上隅に表示する画像のURLを入力します。 最大ファイルサイズは、幅750 ピクセル、高さ90 ピクセルです。
 
@@ -413,9 +423,9 @@ _[!UICONTROL Frontend Experience Settings]_&#x200B;を使用して、サイト�
 
    - ページの色を設定するには、次のそれぞれに`#`記号なしで6文字の16進数コードを入力します。
 
-      - **[!UICONTROL Header Background Color]** - チェックアウト ページ ヘッダーの背景色。
-      - **[!UICONTROL Header Border Color]** - ヘッダーの周囲の2 ピクセル境界の色。
-      - **[!UICONTROL Page Background Color]** - チェックアウトページと、ヘッダーと支払いフォームの周囲の背景色。
+     - **[!UICONTROL Header Background Color]** - チェックアウト ページ ヘッダーの背景色。
+     - **[!UICONTROL Header Border Color]** - ヘッダーの周囲の2 ピクセル境界の色。
+     - **[!UICONTROL Page Background Color]** - チェックアウトページと、ヘッダーと支払いフォームの周囲の背景色。
 
 ### ステップ 6:PayPal Express Checkoutの基本設定を完了する
 

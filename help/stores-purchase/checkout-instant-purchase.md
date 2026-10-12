@@ -3,27 +3,35 @@ title: 今すぐ購入
 description: インスタント購入について学び、登録した顧客アカウントに迅速なチェックアウトを提供する方法について説明します。
 exl-id: f299f364-d7e3-4567-8c7b-955129011a19
 feature: Checkout
-TQID: https://experienceleague.adobe.com/sxfhq1vK7ohJBBli3U05dNoOvV2cdHc3j17nwvf3Le4
+TQID: 'https://experienceleague.adobe.com/sxfhq1vK7ohJBBli3U05dNoOvV2cdHc3j17nwvf3Le4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 404
+source-wordcount: '404'
 ht-degree: 0%
-
 ---
-
 # 今すぐ購入
 
 _インスタント購入_&#x200B;を使用すると、お客様はアカウントに保存されている情報を使用して、チェックアウトプロセスをスピードアップできます。 有効にすると、要件を満たす顧客の製品ページの「_カートに追加_」ボタンの下に「_即時購入_」ボタンが表示されます。

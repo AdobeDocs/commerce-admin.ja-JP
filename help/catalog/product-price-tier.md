@@ -3,29 +3,39 @@ title: 階層の価格
 description: 商品リストまたは商品ページから数量割引を提供するために階層価格を使用する方法を説明します。
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM
+TQID: 'https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 892
+source-wordcount: '892'
 ht-degree: 1%
-
 ---
-
 # 階層の価格
 
 階層制では、ストアフロントの商品リストや商品ページで、数量割引を提供することができます。 割引は、特定のストアビュー、顧客グループ、共有カタログに適用できます。
@@ -108,17 +118,17 @@ ht-degree: 1%
 
 1つの製品を購入する際のカタログ価格ルールでの階層価格設定の仕組みを説明するには、次の例を考えてみましょう。
 
-- 商品の基準価格は100米ドルです。
+- 商品の基準価格は100USDです。
 - `Wholesale`のお客様グループに対して、数量`1`および固定価格90 USDの階層価格が定義されます。
 - カタログ価格ルールでは、`Wholesale`のお客様グループに対して10%の割引が提供されます。
 
 カタログ価格ルールに対して階層価格が有効になっている場合、システムは次のフローを使用して最終価格を計算します。
 
-1. お客様がログインする前は、製品価格は100 USD （標準標準価格）と表示されます。
+1. お客様がログインする前は、製品価格は100 USD（標準標準価格）と表示されます。
 
-1. お客様が`Wholesale` グループのメンバーとしてログインすると、製品価格は90 USD （`Wholesale` グループの階層価格）に調整されます。
+1. お客様が`Wholesale` グループのメンバーとしてログインすると、製品価格は90 USD（`Wholesale` グループの階層価格）に調整されます。
 
-1. カタログ価格ルールが適用され、90 USDの階層価格が10%割引され、最終的な価格は81 USDになります。
+1. カタログ価格ルールが適用され、90 USDのレベル価格に対して10%の割引が提供され、最終的な価格は81 USDになります。
 
 次の表は、カタログ価格ルールに対して階層価格が有効であり、カタログ価格ルールがすべての顧客グループに対して10%の割引を提供する場合の価格計算をまとめたものです。
 

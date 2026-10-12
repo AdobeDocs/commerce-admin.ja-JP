@@ -3,29 +3,38 @@ title: カテゴリ製品の割り当て
 description: '[!UICONTROL Products in Category]設定を使用して、現在カテゴリに割り当てられている製品を制御する方法について説明します。'
 exl-id: e7ab11c0-2d55-4824-a397-a1c858344d4f
 feature: Catalog Management, Categories, Products
-TQID: https://experienceleague.adobe.com/jP75K4-JqaEJUbu733h6crHkX80w8idR9KHbVQF12ag
+TQID: 'https://experienceleague.adobe.com/jP75K4-JqaEJUbu733h6crHkX80w8idR9KHbVQF12ag'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 791
+source-wordcount: '791'
 ht-degree: 0%
-
 ---
-
 # カテゴリ製品の割り当て
 
 カテゴリの場合は、_[!UICONTROL Products in Category]_&#x200B;セクションを使用して、現在そのカテゴリに割り当てられている製品を確認します。 各列の上部にある検索フィルターを使用して、商品をカテゴリに追加したりカテゴリから削除したりします。 また、[&#x200B; カテゴリルール &#x200B;](../merchandising-promotions/category-product-rules.md) （![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerceのみ）を使用して、一連の条件が満たされたときに商品の選択を動的に変更することもできます。 詳しくは、[Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)）を参照してください。

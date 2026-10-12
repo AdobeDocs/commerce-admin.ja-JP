@@ -3,27 +3,35 @@ title: DHL
 description: ストアの配送業者としてDHLを設定する方法を説明します。
 exl-id: 765e5f90-3e93-43cf-a5bc-6132e00b506c
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/wTYaaTLpx7FDyiR-RQQks8GGts9roljKMLN3IC8xQ4s
+TQID: 'https://experienceleague.adobe.com/wTYaaTLpx7FDyiR-RQQks8GGts9roljKMLN3IC8xQ4s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 0%
-
+source-wordcount: '712'
+ht-degree: 1%
 ---
-
 # DHL
 
 DHLは、統合された国際サービスと、手紙、商品、情報を管理および輸送するためのカスタマイズされた顧客中心のソリューションを提供しています。
@@ -78,13 +86,13 @@ DHL XML APIを使用している場合は、次の資格情報を指定する必
 
    - **[!UICONTROL Calculate Handling Fee]**&#x200B;について、処理手数料の計算に使用する方法を選択します。
 
-      - `Fixed`
-      - `Percentage`
+     - `Fixed`
+     - `Percentage`
 
    - **[!UICONTROL Handling Applied]**&#x200B;の場合、処理手数料を適用する方法を選択します。
 
-      - `Per Order`
-      - `Per Package`
+     - `Per Order`
+     - `Per Package`
 
    - **[!UICONTROL Handling Fee]**&#x200B;に、金額を計算するために選択した方法に基づいて、請求金額を入力します。
 
@@ -94,13 +102,13 @@ DHL XML APIを使用している場合は、次の資格情報を指定する必
 
    - パッケージの&#x200B;**[!UICONTROL Weight Unit]**&#x200B;を次のいずれかに設定します。
 
-      - `Pounds`
-      - `Kilograms`
+     - `Pounds`
+     - `Kilograms`
 
    - 標準パッケージの&#x200B;**[!UICONTROL Size]**&#x200B;を次のいずれかに設定します。
 
-      - `Regular`
-      - `Specific`
+     - `Regular`
+     - `Specific`
 
      `Specific`を選択した場合は、パッケージの&#x200B;**[!UICONTROL Height]**、**[!UICONTROL Depth]**&#x200B;および&#x200B;**[!UICONTROL Width]**&#x200B;をセンチメートル単位で入力します。
 
@@ -157,7 +165,7 @@ DHL XML APIを使用している場合は、次の資格情報を指定する必
 
 1. ストアから行われたDHL配送の詳細を含むログファイルを作成するには、**[!UICONTROL Debug]**&#x200B;を`Yes`に設定します。
 
-1. DHLは&#x200B;**[!UICONTROL sandbox mode]** オプションを提供します。サンドボックスモードを使用している場合は、**[!UICONTROL sandbox mode]**&#x200B;を`Yes`に設定します。
+1. DHLは&#x200B;**[!UICONTROL sandbox mode]** オプションを提供します。 サンドボックスモードを使用している場合は、**[!UICONTROL sandbox mode]**&#x200B;を`Yes`に設定します。
 ライブモードを使用している場合は、**[!UICONTROL sandbox mode]**&#x200B;を`No`に設定します。
 
    >[!NOTE]

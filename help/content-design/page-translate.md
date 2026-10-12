@@ -5,26 +5,33 @@ exl-id: e8743ea5-0c8e-4970-987d-c9ac7c1e2a66
 feature: Page Content
 topic: Commerce, Localization
 badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-TQID: https://experienceleague.adobe.com/9jox-v5fCEhPsaex70yQod--qH-Xnp9dkgmuxJGTZd0
+TQID: 'https://experienceleague.adobe.com/9jox-v5fCEhPsaex70yQod--qH-Xnp9dkgmuxJGTZd0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Optimization
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 368
+source-wordcount: '368'
 ht-degree: 0%
-
 ---
-
 # コンテンツページの翻訳
 
 ストアに異なる[言語](../stores-purchase/store-localize.md)の複数のビューがあり、各ビューのロケールを異なる言語に設定した場合、結果は部分的に翻訳されたサイトになります。 次の手順では、各ページの翻訳版を作成し、特定のストアビューで使用できるようにします。 _[!UICONTROL Manage Pages]_&#x200B;リストの[!UICONTROL Store View]列には、ページの翻訳バージョンを持つ各ビューが表示されます。

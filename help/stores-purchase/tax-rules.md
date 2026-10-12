@@ -3,24 +3,33 @@ title: 税ルール
 description: 製品区分、顧客区分および税率を使用して税ルールを定義する方法を説明します。
 exl-id: 38d65998-7769-49ce-9814-e65df9d77bba
 feature: Taxes, Currency
-TQID: https://experienceleague.adobe.com/ik-dbYrFRZQ9EvgjFCx6pv5WBnPtk6AHBe2oB4GPn8I
+TQID: 'https://experienceleague.adobe.com/ik-dbYrFRZQ9EvgjFCx6pv5WBnPtk6AHBe2oB4GPn8I'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
+  - id: 3033d2ab-c1d2-5b52-b865-72d9e5ad2c37
+    internal-label: Currency
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 439
+source-wordcount: '439'
 ht-degree: 0%
-
 ---
-
 # 税ルール
 
 税ルールには、商品クラス、顧客クラス、税率の組み合わせが組み込まれています。 各顧客には顧客クラスが、各製品には製品クラスが割り当てられます。 Commerceは、お客様のショッピングカートを分析し、お客様や商品クラス、地域に応じて適切な税金を計算します。 地域は、顧客の配送先住所、請求先住所、配送元に基づいています。

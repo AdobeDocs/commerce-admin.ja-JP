@@ -3,26 +3,33 @@ title: 税区及び税率
 description: 税金を徴収して送金する地域ごとに税率を定義する方法を説明します。
 exl-id: d8eb0743-d277-438d-91ed-fc711a6ba3ae
 feature: Taxes
-TQID: https://experienceleague.adobe.com/HHCiYX6ihYArvccmTswjnZ5SNP09D29Srn2JvWiw4tY
+TQID: 'https://experienceleague.adobe.com/HHCiYX6ihYArvccmTswjnZ5SNP09D29Srn2JvWiw4tY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 380
+source-wordcount: '380'
 ht-degree: 0%
-
 ---
-
 # 税区及び税率
 
 税率は一般的に、特定の地域で行われる取引に適用されます。 「_税域と税率_」ツールを使用して、税金を徴収して送金する地域ごとに税率を指定します。 それぞれの税域と税率には一意の識別子があるため、特定の地域（食品や医薬品に課税するのではなく、他の品目に課税する場所など）に対して複数の税率を設定することができます。

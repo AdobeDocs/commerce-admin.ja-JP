@@ -3,29 +3,43 @@ title: 定期インポートとエクスポート
 description: スケジュールされたデータのインポートとエクスポート操作を管理する方法について説明します。
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
-TQID: https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU
+TQID: 'https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2462
+source-wordcount: '2462'
 ht-degree: 0%
-
 ---
-
 # 定期インポートとエクスポート
 
 {{ee-feature}}
@@ -82,20 +96,20 @@ ht-degree: 0%
 
    - **[!UICONTROL Entity Type]** – 次のいずれかに設定します。
 
-      - `Products`
-      - `Advanced Pricing`
-      - `Customers and Addresses (single file)`
-      - `Customer Addresses`
-      - `Customer Finances`
-      - `Customers Main File`
-      - `Stock Sources`
+     - `Products`
+     - `Advanced Pricing`
+     - `Customers and Addresses (single file)`
+     - `Customer Addresses`
+     - `Customer Finances`
+     - `Customers Main File`
+     - `Stock Sources`
 
    - **[!UICONTROL Import Behavior]** – 次のいずれかに設定します。
 
-      - `Add/Update Complex Data` — データベース内の既存のエントリの既存の複雑なデータに新しい複雑なデータを追加または更新します。 これがデフォルト値です。
-      - `Replace` — データベース内の既存のエンティティに対して既存の複合を書き込みます。
-      - `Delete Entities` — データベース内の既存のエントリを削除します。
-      - `Custom Action` - データベース内の既存のエンティティをカスタマイズします。
+     - `Add/Update Complex Data` — データベース内の既存のエントリの既存の複雑なデータに新しい複雑なデータを追加または更新します。 これがデフォルト値です。
+     - `Replace` — データベース内の既存のエンティティに対して既存の複合を書き込みます。
+     - `Delete Entities` — データベース内の既存のエントリを削除します。
+     - `Custom Action` - データベース内の既存のエンティティをカスタマイズします。
 
      >[!NOTE]
      >
@@ -233,12 +247,12 @@ ht-degree: 0%
 
    - **[!UICONTROL Entity Type]**&#x200B;を次のいずれかに設定します：
 
-      - `Advanced Pricing`
-      - `Products`
-      - `Customer Financing`
-      - `Customers Main File`
-      - `Customer Addresses`
-      - `Stock Sources`
+     - `Advanced Pricing`
+     - `Products`
+     - `Customer Financing`
+     - `Customers Main File`
+     - `Customer Addresses`
+     - `Stock Sources`
 
      ページ下部の&#x200B;_[!UICONTROL Entity Attributes]_&#x200B;セクションが更新され、選択したエンティティ タイプが反映されます。
 
@@ -246,9 +260,9 @@ ht-degree: 0%
 
    - **[!UICONTROL Frequency]**&#x200B;を次のいずれかに設定します：
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
 1. スケジュールされた書き出しをアクティブにするには、**[!UICONTROL Status]**&#x200B;を`Enabled`に設定します。
 

@@ -3,32 +3,44 @@ title: 交渉可能な見積
 description: 見積もりワークフローと、このサービスを会社アカウントに提供する方法について説明します。
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-TQID: https://experienceleague.adobe.com/098ze8GgUWx4j1d96UGoEcLfAequOjAbadJHS5AvClU
+TQID: 'https://experienceleague.adobe.com/098ze8GgUWx4j1d96UGoEcLfAequOjAbadJHS5AvClU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: '1273'
 ht-degree: 0%
-
 ---
-
 # 交渉可能な見積
 
 購入者や販売者は、見積もり機能を使用して、注文品の追加、数量の更新、割引の要求や適用などの交渉プロセスを、契約書に達するまで管理します。 見積もり交渉プロセスは、許可された企業バイヤーまたは企業の営業担当者によって開始できます。
@@ -49,8 +61,8 @@ ht-degree: 0%
 
 - [Adobe Commerce B2B拡張機能がインストールされている](install.md)
 - [構成されたB2B機能](enable-basic-features.md)
-   - 会社アカウントを有効にする
-   - B2B見積の有効化
+  - 会社アカウントを有効にする
+  - B2B見積の有効化
 
 ## 見積もりワークフロー
 

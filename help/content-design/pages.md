@@ -1,31 +1,40 @@
 ---
 title: ページ
-description: ' [!DNL Commerce]  デモストアに含まれるコアコンテンツページと、デフォルトページ設定の変更について詳しく説明します。'
+description: '[!DNL Commerce] デモストアに含まれるコアコンテンツページと、デフォルトページ設定の変更について詳しく説明します。'
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
 badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-TQID: https://experienceleague.adobe.com/8vTCiNl1daEV7Tpxxusbwhv8R9-qwZh6-fimyORElIk
+TQID: 'https://experienceleague.adobe.com/8vTCiNl1daEV7Tpxxusbwhv8R9-qwZh6-fimyORElIk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 943
+source-wordcount: '944'
 ht-degree: 0%
-
 ---
-
 # ページ
 
 コンテンツは、実店舗のあらゆる商品と同様に、その貯蔵寿命の観点から見ることができます。 ソーシャルメディアコンテンツの賞味期限が24時間未満であることをご存知ですか？ 作成したコンテンツの潜在的な賞味期限は、リソースをどこに投資するのかを決定するのに役立ちます。

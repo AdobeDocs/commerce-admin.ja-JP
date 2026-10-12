@@ -3,27 +3,35 @@ title: 顧客グループ
 description: 顧客グループを使用して、グループに割り当てられている顧客に対して使用できる割引と、そのグループに関連付けられている税区分を決定します。
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-TQID: https://experienceleague.adobe.com/jbqn6jRo2Pg2fARqEyHGLLzVVG0CyuudtGXklpUCaOw
+TQID: 'https://experienceleague.adobe.com/jbqn6jRo2Pg2fARqEyHGLLzVVG0CyuudtGXklpUCaOw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 445
+source-wordcount: '467'
 ht-degree: 0%
-
 ---
-
 # 顧客グループ
 
 顧客グループは、使用可能な割引と、そのグループに関連付けられている税区分を決定します。 既定の顧客グループは`General`、`Not Logged In`、`Wholesale`です。
@@ -83,7 +91,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >会社グループを変更した後、会社ユーザーはログアウトしてストアフロントにログインし、カタログに新しい価格を表示する必要があります。
->お客様が会社に割り当てられた後、お客様グループは読み取り専用になり、管理者ユーザーは更新できません。
+>顧客を会社に割り当てると、顧客グループは読み取り専用になり、管理者ユーザーは更新できません。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**&#x200B;に移動します。
 

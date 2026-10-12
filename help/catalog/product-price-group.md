@@ -3,28 +3,39 @@ title: グループ価格
 description: グループ価格を使用して、ストア内の顧客グループに基づいて割引商品の価格を設定する方法を説明します。
 exl-id: bc5be23f-64eb-47c3-beda-01168abfbf96
 feature: Catalog Management, Products, Customers
-TQID: https://experienceleague.adobe.com/OCeX5pLtUzWdwOW5W8qpI4DCeab2PTAVi5xF8HUr91A
+TQID: 'https://experienceleague.adobe.com/OCeX5pLtUzWdwOW5W8qpI4DCeab2PTAVi5xF8HUr91A'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: '333'
 ht-degree: 0%
-
 ---
-
 # グループ価格
 
 管理画面の製品設定を使用して、ストアの顧客グループに基づいて割引商品の価格を設定できます。 この戦略的価格モデルは&#x200B;_グループ価格_&#x200B;と呼ばれます。
@@ -67,9 +78,9 @@ ht-degree: 0%
 
    - **[!UICONTROL Price]**&#x200B;の場合、価格タイプと金額を設定します。
 
-      - `Fixed` – 割引商品価格を入力します。
+     - `Fixed` – 割引商品価格を入力します。
 
-      - `Discount` – 割引価格を製品価格に対する割合として入力します。
+     - `Discount` – 割引価格を製品価格に対する割合として入力します。
 
      ![顧客グループの価格](./assets/product-price-group-discount.png){width="600" zoomable="yes"}
 

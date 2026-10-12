@@ -4,24 +4,33 @@ description: 製品の一時的な価格変更をスケジュールするため�
 exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
 badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-TQID: https://experienceleague.adobe.com/yR5AygNuuaCFZEMfRpRd-EH6jeSrRUQoVSO--sxF-FE
+TQID: 'https://experienceleague.adobe.com/yR5AygNuuaCFZEMfRpRd-EH6jeSrRUQoVSO--sxF-FE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 667
+source-wordcount: '668'
 ht-degree: 0%
-
 ---
-
 # コンテンツ更新のスケジュール
 
 {{ee-feature}}
@@ -49,7 +58,7 @@ ht-degree: 0%
 
    - カレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）ツールを使用して、キャンペーンの&#x200B;**開始日**&#x200B;と&#x200B;**終了日**&#x200B;を選択します。
 
-     オープンエンドのキャンペーンを作成するには、終了日を指定しないでください（空白のままにします）。 この例では、キャンペーンは2021年1月1日午前0時（太平洋標準時）に開始される予定です。:00
+     オープンエンドのキャンペーンを作成するには、終了日を指定しないでください（空白のままにします）。 この例では、キャンペーンは2021年1月1日午前0時（太平洋標準時）の午前0時に開始される予定です。
 
 
      終了日なしで作成された価格ルールキャンペーンの場合、終了日を後で追加することはできません。 このような場合は、キャンペーンを作成し、開始日を古いキャンペーンを終了する日付に設定し、新しいキャンペーンを開始する日付に設定する必要があります。 その開始日に、古いキャンペーンが終了し、新しいキャンペーンが定義どおりに開始されます。

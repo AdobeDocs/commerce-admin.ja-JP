@@ -3,27 +3,35 @@ title: 注文ステータス
 description: あらかじめ定義された注文ステータスと、運用ニーズに合わせてカスタム注文ステータスを定義する方法について説明します。
 exl-id: d1153558-a721-4643-a70c-7fc20072983c
 feature: Orders
-TQID: https://experienceleague.adobe.com/BJFtNtsT0-ZJH2aXaGlo2tLhgEVtK5bbmaispPmOVnc
+TQID: 'https://experienceleague.adobe.com/BJFtNtsT0-ZJH2aXaGlo2tLhgEVtK5bbmaispPmOVnc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: '1237'
 ht-degree: 0%
-
 ---
-
 # 注文ステータス
 
 すべての注文には、注文処理[&#x200B; ワークフロー](order-processing.md)のステージに関連付けられた注文ステータスがあります。\
@@ -31,8 +39,8 @@ ht-degree: 0%
 顧客または管理者ユーザーに表示されます。 注文のフローを決定し、どの操作が可能かを決定します
 一定の状態での順序。\
 **[!UICONTROL Order statuses]**&#x200B;は、注文のステータスを顧客と管理者ユーザーに伝えるために使用されます。
-運用上のニーズに合わせて、追加の注文ステータスを作成できます。注文状況の表示
-Adobe Commerce外での進捗（注文のピッキングや配送の進捗など）。注文への影響はありません
+運用上のニーズに合わせて、追加の注文ステータスを作成できます。 注文状況の表示
+Adobe Commerce外での進捗（注文のピッキングや配送の進捗など）。 注文への影響はありません
 処理ワークフロー：\
 各注文ステータスは、注文ステータスに関連付けられます。 ストアには、あらかじめ定義された注文ステータスと
 注文状況の設定：

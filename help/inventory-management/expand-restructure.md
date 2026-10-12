@@ -3,28 +3,37 @@ title: 在庫の拡大と再構築
 description: シングルソースからマルチソースの在庫に拡張したり、ビジネスの変化に合わせてシングルソースに再構築したりできます。
 exl-id: 880474e3-6533-4b2f-adf7-4312787ff736
 feature: Inventory, Configuration
-TQID: https://experienceleague.adobe.com/w4TV-BQrg0RzlHn4DVSdHFPD2M5CF11wA7I5OyA7jsY
+TQID: 'https://experienceleague.adobe.com/w4TV-BQrg0RzlHn4DVSdHFPD2M5CF11wA7I5OyA7jsY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: '221'
 ht-degree: 0%
-
 ---
-
 # 在庫の拡大と再構築
 
 ビジネスの成長や変化に合わせて、[!DNL Inventory Management]はお客様のニーズをサポートします。 マルチソースのマーチャントに拡張することも、シングルソースのマーチャントに容易に縮小することもできます。

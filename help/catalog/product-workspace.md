@@ -3,28 +3,42 @@ title: 製品ワークスペース
 description: 製品ワークスペースで使用できる設定とコントロールについて説明します。
 exl-id: 8258b117-56d2-4d5f-9413-80d51fd5eae6
 feature: Catalog Management, Products, Admin Workspace
-TQID: https://experienceleague.adobe.com/O9e0Z-bHxbokLZd4RbT1puWWAGWnF7SDqvGcc4Bteco
+TQID: 'https://experienceleague.adobe.com/O9e0Z-bHxbokLZd4RbT1puWWAGWnF7SDqvGcc4Bteco'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9958c3ea938ea5ef743f4b347d11e4f833ee1483
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '492'
 ht-degree: 0%
-
 ---
-
 # 製品ワークスペース
 
 製品ワークスペースは、使用する属性セットによってフィールドの選択が変わりますが、基本的にはすべての製品タイプで同じです。 製品属性がフォームの上部にあり、その後に製品情報の拡張可能なセクションが続きます。 新しい製品を初めて保存すると、フォームの左上に&#x200B;_[!UICONTROL Store View]_&#x200B;の選択画面が表示されます。

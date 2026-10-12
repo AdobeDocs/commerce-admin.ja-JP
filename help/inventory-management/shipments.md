@@ -1,30 +1,41 @@
 ---
 title: 在庫からの注文と配送の管理
-description: 販売可能な数量と手元にある数量が自動的に更新されるため、 [!DNL Inventory Management] での注文、部分的な出荷、返金、キャンセルを管理します。
+description: 販売可能な数量と手元にある数量が自動的に更新されるため、[!DNL Inventory Management]の注文、部分的な出荷、返金、キャンセルを管理します。
 exl-id: cc4ca518-d98c-48f3-9051-6fb3c6fae9fe
 feature: Inventory, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/snZn77FvwJ-XKXojEtLOEpnPKp-nLZUpkTg6jTA9BY4
+TQID: 'https://experienceleague.adobe.com/snZn77FvwJ-XKXojEtLOEpnPKp-nLZUpkTg6jTA9BY4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 737
+source-wordcount: '738'
 ht-degree: 0%
-
 ---
-
 # 注文と配送の管理
 
 [!DNL Inventory Management]には、出荷プロセスを通じて在庫量を管理するための追加機能とオプションが含まれています。 配送の確認と処理、注文のキャンセル、クレジットメモの発行を行うと、販売可能な商品と手元にある数量が自動的に更新されます。

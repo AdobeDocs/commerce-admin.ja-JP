@@ -3,13 +3,24 @@ title: WYSIWYG エディター
 description: エディターを使用し、_What You See Is What You Get_（WYSIWYG）ビューでコンテンツを操作する方法を説明します。
 exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
 badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-source-git-commit: f7d2ab41318119fc0f3eed32b3619f0b9071c15d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
-
 ---
-
 # WYSIWYG エディター
 
 エディターでは、コンテンツの&#x200B;_What You See Is What You Get_ （WYSIWYG）ビューで作業する際に入力および書式設定を行うことができます。 基盤となるHTMLのコードを直接操作したい場合は、簡単にモードを変更できます。 エディターを使用して、[&#x200B; ページ &#x200B;](pages.md)、[&#x200B; ブロック &#x200B;](blocks.md)、[商品説明](../catalog/product-content.md)のコンテンツを作成できます。 製品の詳細を操作する場合は、**[!UICONTROL Show / Hide Editor]**&#x200B;をクリックしてエディターにアクセスします。
@@ -31,7 +42,7 @@ WYSIWYG エディターはデフォルトで有効になっており、CMSのペ
 
 >[!NOTE]
 >
->TinyMCEは、Magento 2.4.6以降のバージョンのデフォルトのWYSIWYG エディターとしてHugerteに置き換えられました。
+>TinyMCEは、Magento 2.4.6以降のバージョンのデフォルトのWYSIWYG エディターとして、Hugerteに置き換えられました。
 
 すべてのWYSIWYG オプションについて詳しくは、_Configuration Reference_&#x200B;の[Content Management](../configuration-reference/general/content-management.md)を参照してください。
 

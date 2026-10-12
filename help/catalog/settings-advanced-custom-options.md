@@ -3,28 +3,37 @@ title: 製品設定 – [!UICONTROL Customizable Options]
 description: 製品の場合、[!UICONTROL Customizable Options]設定を使用すると、テキスト、選択範囲、日付入力タイプを含むオプションの選択を提供できます。
 exl-id: 7d23c5c5-2b2a-4f2a-b843-9c27b851be5f
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/O5ny4IROYKpKBckgsh7jcjO2qp45Ey9l0t4Fmq1IFBI
+TQID: 'https://experienceleague.adobe.com/O5ny4IROYKpKBckgsh7jcjO2qp45Ey9l0t4Fmq1IFBI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: '821'
 ht-degree: 0%
-
 ---
-
 # 製品設定 – [!UICONTROL Customizable Options]
 
 製品にカスタマイズ可能なオプションを追加すると、テキスト、選択、日付の入力タイプを含むオプションを簡単に提供できます。 在庫ニーズがシンプルな場合は、カスタマイズ可能なオプションが優れたソリューションとなります。 ただし、単一のSKUのバリエーションに基づいているため、在庫の管理や価格規則の条件のベースとして使用することはできません。 同じオプションを持つ複数の製品がある場合は、1つの製品を設定し、そのオプションを他の製品にインポートできます。
@@ -67,8 +76,8 @@ ht-degree: 0%
 
    - **[!UICONTROL Price Type]**&#x200B;を次のいずれかに設定します：
 
-      - `Fixed` - バリエーションの価格は、基本商品の価格と$1などの固定金額で異なります。
-      - `Percentage` - バリエーションの価格がベース製品の価格と10%などの割合で異なります。
+     - `Fixed` - バリエーションの価格は、基本商品の価格と$1などの固定金額で異なります。
+     - `Percentage` - バリエーションの価格がベース製品の価格と10%などの割合で異なります。
 
    - （オプション）オプションに&#x200B;**[!UICONTROL SKU]**&#x200B;を入力します。 オプション SKUは、製品SKUに追加される接尾辞です。
 

@@ -3,28 +3,37 @@ title: カート設定
 description: ストアでの購入体験をサポートするために設定できるショッピングカート機能について説明します。
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-TQID: https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8
+TQID: 'https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2417
+source-wordcount: '2460'
 ht-degree: 0%
-
 ---
-
 # カート設定
 
 買い物かごの設定は、お客様が買い物かごのページにリダイレクトされるタイミングや、商品のサムネールに使用される画像など、お客様の店舗のお客様の買い物かごの機能を決定します。 また、チェックアウトプロセスを開始する前に最低金額に達するように注文を要求し、見積もられた価格が有効な日数を指定し、_注文合計_ セクションで商品の順序を指定することもできます。
@@ -51,7 +60,7 @@ ht-degree: 0%
 
 ## ミニカート
 
-_ミニカート_には、カート内のアイテムの概要が表示されます。デフォルトでは有効になっており、ページの上部にある「買い物かご」リンクをクリックすると表示されます。
+_ミニカート_には、カート内のアイテムの概要が表示されます。 デフォルトでは有効になっており、ページの上部にある「買い物かご」リンクをクリックすると表示されます。
 このリンクは、カート内の異なる商品（またはSKU）の数、またはすべての商品の合計数量を表示するように設定できます。
 
 ![買い物客は、商品ページのショッピングカートのサイドバーを表示します](./assets/storefront-mini-cart-watch.png){width="700" zoomable="yes"}
@@ -176,13 +185,13 @@ Adobe Commerce B2Bのインストールと有効化により、_Quotes_&#x200B;�
 
    - **[!UICONTROL Include Discount Amount]**&#x200B;を次のいずれかに設定します：
 
-      - `Yes` – 割引が含まれている場合、小計が最小金額を満たしている必要があります。 最低50 ドルの例を使用すると、カートに60 ドルのトップが含まれ、25%の割引が適用されている場合、結果の小計は45 ドルになり、カートは最低を満たしません。
-      - `No` – 小計が割引なしで最小金額を満たす必要があります。
+     - `Yes` – 割引が含まれている場合、小計が最小金額を満たしている必要があります。 最低50 ドルの例を使用すると、カートに60 ドルのトップが含まれ、25%の割引が適用されている場合、結果の小計は45 ドルになり、カートは最低を満たしません。
+     - `No` – 小計が割引なしで最小金額を満たす必要があります。
 
    - **[!UICONTROL Include Tax to Amount]**&#x200B;を次のいずれかに設定します：
 
-      - `Yes` – 税金を含む最低金額を満たすには、小計が必要です。
-      - `No` – 小計が税抜き最低金額を満たす必要があります。
+     - `Yes` – 税金を含む最低金額を満たすには、小計が必要です。
+     - `No` – 小計が税抜き最低金額を満たす必要があります。
 
 1. 必要に応じて、最低注文金額メッセージ設定をカスタマイズします。
 
@@ -198,9 +207,9 @@ Adobe Commerce B2Bのインストールと有効化により、_Quotes_&#x200B;�
 
    - 必要に応じて、最低注文金額メッセージ設定をカスタマイズします。
 
-      - **[!UICONTROL Multi-address Description Message]** - カートの上部に表示されるメッセージをカスタマイズするために使用するテキストを、最小値を満たさない複数のアドレスの注文に使用します。
+     - **[!UICONTROL Multi-address Description Message]** - カートの上部に表示されるメッセージをカスタマイズするために使用するテキストを、最小値を満たさない複数のアドレスの注文に使用します。
 
-      - **[!UICONTROL Multi-address Error to Show in Shopping Cart]** – 最小値を満たさない複数のアドレスの注文に対して、ショッピング カートのエラーメッセージをカスタマイズするために使用するテキストを入力し、ボックスにテキストを入力します。
+     - **[!UICONTROL Multi-address Error to Show in Shopping Cart]** – 最小値を満たさない複数のアドレスの注文に対して、ショッピング カートのエラーメッセージをカスタマイズするために使用するテキストを入力し、ボックスにテキストを入力します。
 
      デフォルトのメッセージを使用するには、「メッセージの説明」フィールドを空のままにします。
 

@@ -4,31 +4,45 @@ description: ストア URLと、ベース URLとストアコードを設定す�
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
 badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
-TQID: https://experienceleague.adobe.com/t-vp20uVrUmg-dRVONHjUUcgxzYBT5--uB8U1XorRPs
+TQID: 'https://experienceleague.adobe.com/t-vp20uVrUmg-dRVONHjUUcgxzYBT5--uB8U1XorRPs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1611
+source-wordcount: '1611'
 ht-degree: 1%
-
 ---
-
 # URLの保存
 
 Adobe CommerceまたはMagento Open Source インストールの各web サイトには、ストアフロントに割り当てられたベース URLと、管理者に割り当てられた別のURLがあります。 Adobeでは、変数を使用してベース URLに関連する内部リンクを定義します。これにより、リンクを更新することなく、ストア全体を1つの場所から別の場所に移動できます。 標準ベース URLは`http`で始まり、セキュアベース URLは`https`で始まります。

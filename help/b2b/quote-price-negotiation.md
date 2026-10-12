@@ -3,30 +3,46 @@ title: 見積の交渉
 description: 見積もり交渉のワークフローと、購入者と協力して購入する方法について説明します。
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
-TQID: https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU
+TQID: 'https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2249
+source-wordcount: '2277'
 ht-degree: 0%
-
 ---
-
 # 見積の交渉
 
 設定で[B2B Quoteが有効になっている](configure-quotes.md)場合、会社または営業担当者の許可された購入者が価格交渉を開始できます。
@@ -93,11 +109,11 @@ ht-degree: 0%
   [!UICONTROL Configure] オプションは、設定可能な製品の行項目でのみ使用できます
 
 - **[!UICONTROL Action]** メニューで、項目を更新するアクションを選択します。
-   - **割引項目**&#x200B;を使用して、割引率、固定額、または優先価格で割引を適用します。
-オプションで、割引額をロックして、さらなる割引を防ぐことができます。割引がロックされていない場合，
-行項目の割引と見積もりレベルの割引の両方が製品価格に適用されます。
-   - **購入者**&#x200B;にメモを残して、購入者に商品に関する追加情報を提供します
-   - **引用符から項目を削除するには**&#x200B;を削除します。
+  - **割引項目**&#x200B;を使用して、割引率、固定額、または優先価格で割引を適用します。
+    オプションで、割引額をロックして、さらなる割引を防ぐことができます。 割引がロックされていない場合，
+    行項目の割引と見積もりレベルの割引の両方が製品価格に適用されます。
+  - **購入者**&#x200B;にメモを残して、購入者に商品に関する追加情報を提供します
+  - **引用符から項目を削除するには**&#x200B;を削除します。
 
 ### 変更を適用して更新
 
@@ -139,9 +155,9 @@ ht-degree: 0%
 
    - _[!UICONTROL Negotiated Price]_&#x200B;セクションの&#x200B;_[!UICONTROL Quote Totals]_&#x200B;で、次のいずれかの割引タイプを選択します。
 
-      - `Percentage Discount`: パーセンテージ割引は、元の価格を特定のパーセンテージで引き下げます。
-      - `Amount Discount`：金額の割引では、固定価格引き下げが適用されます。
-      - `Proposed Price`：提案された価格割引は、元の価格に関係なく、最終的な価格を特定の金額に設定します。
+     - `Percentage Discount`: パーセンテージ割引は、元の価格を特定のパーセンテージで引き下げます。
+     - `Amount Discount`：金額の割引では、固定価格引き下げが適用されます。
+     - `Proposed Price`：提案された価格割引は、元の価格に関係なく、最終的な価格を特定の金額に設定します。
 
    - 金額をパーセントまたは定額で入力します。
 
@@ -149,9 +165,9 @@ ht-degree: 0%
 
    - 各行項目または見積もり全体に割引を適用できます。
 
-      - **行項目の割引**：行項目の割引は、カート内の個々の項目に適用されます。 割引には、`percentage`、特定の`amount`、または`proposed price`を指定できます。
-      - **カートレベルの割引**：カートレベルの割引は、ショッピングカート全体に適用されます。 割引は、`percentage`または特定の`amount`のいずれかであり、買い物かごの合計値に適用されます。
-      - **買い物かごとラインアイテムの割引の組み合わせ**：場合によっては、買い物かごとラインアイテムの両方のレベルで割引を適用できます。 行項目の割引が最初に適用され、次に残りの合計に対するカートレベルの割引が適用されます。
+     - **行項目の割引**：行項目の割引は、カート内の個々の項目に適用されます。 割引には、`percentage`、特定の`amount`、または`proposed price`を指定できます。
+     - **カートレベルの割引**：カートレベルの割引は、ショッピングカート全体に適用されます。 割引は、`percentage`または特定の`amount`のいずれかであり、買い物かごの合計値に適用されます。
+     - **買い物かごとラインアイテムの割引の組み合わせ**：場合によっては、買い物かごとラインアイテムの両方のレベルで割引を適用できます。 行項目の割引が最初に適用され、次に残りの合計に対するカートレベルの割引が適用されます。
 
 1. 見積の送信または保存：
 

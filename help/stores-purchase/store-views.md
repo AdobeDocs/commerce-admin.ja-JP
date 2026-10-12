@@ -3,10 +3,15 @@ title: ストアビュー
 description: Adobe Commerceでストアビューを追加および編集する方法を説明します。これにより、買い物客はストアフロントのヘッダーの言語選択を使用してロケールを切り替えることができます。
 exl-id: aa1f7f1c-a6d0-4ec2-83fe-15fb9646634a
 feature: Site Management, System
-TQID: https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE
+TQID: 'https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+feature_v2:
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -20,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%

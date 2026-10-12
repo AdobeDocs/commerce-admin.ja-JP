@@ -3,26 +3,35 @@ title: 通貨設定
 description: 基本通貨の範囲を設定する方法と、受け入れる通貨と価格表示に使用する通貨を指定する方法について説明します。
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-TQID: https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE
+TQID: 'https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3033d2ab-c1d2-5b52-b865-72d9e5ad2c37
+    internal-label: Currency
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 826
+source-wordcount: '826'
 ht-degree: 0%
-
 ---
-
 # 通貨設定
 
 各通貨レートを設定する前に、まず[基本通貨](../configuration-reference/general/currency-setup.md)の範囲を設定する必要があります。 デフォルトではグローバルに設定されており、基本通貨設定が[&#x200B; ストア階層全体](../getting-started/websites-stores-views.md)に適用されます。 マルチサイト Adobe CommerceまたはMagento Open Sourceをインストールしている場合は、スコープをweb サイトレベルに設定することで、複数の基本通貨を管理できます。
@@ -83,31 +92,31 @@ ht-degree: 0%
 
    - [fixer.io サービス &#x200B;](https://fixer.io/):_に接続するには（_T）
 
-      - **[!UICONTROL Fixer.io]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
+     - **[!UICONTROL Fixer.io]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-      - fixer.io **[!UICONTROL API key]**&#x200B;を入力します。
+     - fixer.io **[!UICONTROL API key]**&#x200B;を入力します。
 
-      - **[!UICONTROL Connection Timeout in Seconds]**&#x200B;の場合、接続がタイムアウトするまでに許可する非アクティブな時間の秒数を入力します。
+     - **[!UICONTROL Connection Timeout in Seconds]**&#x200B;の場合、接続がタイムアウトするまでに許可する非アクティブな時間の秒数を入力します。
 
      ![一般設定 – 通貨設定 – Fixer.io オプション &#x200B;](../configuration-reference/general/assets/currency-setup-fixer.png){width="600" zoomable="yes"}
 
    - [[!DNL Fixer Api (APILayer)]  サービス &#x200B;](https://apilayer.com/):_に接続するには（_T）
 
-      - **[!UICONTROL Fixer Api (APILayer)]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
+     - **[!UICONTROL Fixer Api (APILayer)]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-      - [!DNL APILayer] **[!UICONTROL API key]**&#x200B;を入力します。
+     - [!DNL APILayer] **[!UICONTROL API key]**&#x200B;を入力します。
 
-      - **[!UICONTROL Connection Timeout in Seconds]**&#x200B;の場合、接続がタイムアウトするまでに許可する非アクティブな時間の秒数を入力します。
+     - **[!UICONTROL Connection Timeout in Seconds]**&#x200B;の場合、接続がタイムアウトするまでに許可する非アクティブな時間の秒数を入力します。
 
      ![一般設定 – 通貨設定 – Fixer API （APILayer）オプション &#x200B;](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
 
    - [[!DNL Currency Convertor API]  サービス &#x200B;](https://free.currencyconverterapi.com/):_に接続するには（_T）
 
-      - **[!UICONTROL Currency Convertor API]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
+     - **[!UICONTROL Currency Convertor API]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-      - 通貨コンバータ **[!UICONTROL API key]**&#x200B;を入力します。
+     - 通貨コンバータ **[!UICONTROL API key]**&#x200B;を入力します。
 
-      - **[!UICONTROL Connection Timeout in Seconds]**&#x200B;の場合、接続がタイムアウトするまでに許可する非アクティブな時間の秒数を入力します。
+     - **[!UICONTROL Connection Timeout in Seconds]**&#x200B;の場合、接続がタイムアウトするまでに許可する非アクティブな時間の秒数を入力します。
 
      ![一般設定 – 通貨設定 – 通貨変換API オプション &#x200B;](../configuration-reference/general/assets/currency-setup-converter.png){width="600" zoomable="yes"}
 
@@ -127,9 +136,9 @@ ht-degree: 0%
 
    - **[!UICONTROL Frequency]** – 料金が更新される頻度を判断するには、次のいずれかに設定します。
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
    - **[!UICONTROL Error Email Recipient]** — インポートプロセス中にエラーが発生した場合にメール通知を受け取るユーザーのメールアドレスを入力します。
 
