@@ -67,7 +67,7 @@ Commerce用のAdobe Experience Manager Assets統合を設定するには、ア�
 
 Experience Manager AssetsとのCommerce統合を有効にするには、次の3つの手順を実行します。
 
-1. [AEM Assets パッケージ ](aem-assets-configure-aem.md)をインストールします。
-1. [Adobe Commerce パッケージをインストール ](aem-assets-configure-aem.md)。
+1. [AEM Assets パッケージ &#x200B;](aem-assets-configure-aem.md)をインストールします。
+1. [Adobe Commerce パッケージをインストール &#x200B;](aem-assets-configure-aem.md)。
 1. [統合アセットを設定](aem-assets-setup-synchronization.md)。
 

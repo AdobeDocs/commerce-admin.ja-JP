@@ -41,7 +41,7 @@ ht-degree: 0%
 
 賞味期限の長いコンテンツは、_常緑コンテンツ_&#x200B;と呼ばれることもあります。 エバーグリーンコンテンツの例には、カスタマーサクセスストーリー、_ハウツー_&#x200B;の手順、よくある質問（FAQ）などがあります。 一方、自然界で腐敗しやすいコンテンツには、イベント、業界ニュース、プレスリリースなどがあります。
 
-![ サンプルのLuma ストア ](./assets/storefront-about-us.png){width="700" zoomable="yes"}に含まれている会社概要ページ
+![&#x200B; サンプルのLuma ストア &#x200B;](./assets/storefront-about-us.png){width="700" zoomable="yes"}に含まれている会社概要ページ
 
 ## コアコンテンツページ
 
@@ -49,11 +49,11 @@ ht-degree: 0%
 
 ### ホーム
 
-デモ [ ホーム ](../getting-started/storefront.md#home-page) ページには、バナー、画像カルーセル、リンクを含むいくつかの静的ブロック、および新製品のリストが含まれています。
+デモ [&#x200B; ホーム &#x200B;](../getting-started/storefront.md#home-page) ページには、バナー、画像カルーセル、リンクを含むいくつかの静的ブロック、および新製品のリストが含まれています。
 
 ### プライバシーポリシー
 
-ストア [ プライバシーポリシー](../getting-started/privacy-policy.md) ページは、独自の情報で更新する必要があります。 ベストプラクティスとして、プライバシーポリシーでは、自社が収集する情報の種類と、その使用方法を顧客に説明する必要があります。
+ストア [&#x200B; プライバシーポリシー](../getting-started/privacy-policy.md) ページは、独自の情報で更新する必要があります。 ベストプラクティスとして、プライバシーポリシーでは、自社が収集する情報の種類と、その使用方法を顧客に説明する必要があります。
 
 ### 404が見つかりません
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 {{b2b-feature}}
 
-会社ユーザーに割り当てられた権限によってページへのアクセスが禁止されている場合、[ アクセスが拒否](../b2b/account-company-roles-permissions.md) ページが表示されます。
+会社ユーザーに割り当てられた権限によってページへのアクセスが禁止されている場合、[&#x200B; アクセスが拒否](../b2b/account-company-roles-permissions.md) ページが表示されます。
 
 ### Cookieを有効にする
 
@@ -81,19 +81,19 @@ About Us ページは、ストアのフッターからリンクされていま�
 
 カスタマーサービス ページは、ページ階層内の別のノードです。 ページ上のふたつのヘッダーには、顧客がヘッダーをクリックしたときにのみ表示されるコンテンツがあります。
 
-![ ストアフロントのカスタマーサービスページ ](./assets/storefront-customer-service.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントのカスタマーサービスページ &#x200B;](./assets/storefront-customer-service.png){width="700" zoomable="yes"}
 
 ## デフォルトページの設定
 
-_デフォルトページ_&#x200B;設定により、[ ベース URL](../stores-purchase/store-urls.md)と対応するホームページに関連付けられているランディングページが決定されます。 また、_ページが見つかりません_ エラーが発生した場合に表示されるページと、各ページの上部に[ パンくずリスト ](../catalog/navigation-breadcrumb-trail.md)が表示されるかどうかを判断します。
+_デフォルトページ_&#x200B;設定により、[&#x200B; ベース URL](../stores-purchase/store-urls.md)と対応するホームページに関連付けられているランディングページが決定されます。 また、_ページが見つかりません_ エラーが発生した場合に表示されるページと、各ページの上部に[&#x200B; パンくずリスト &#x200B;](../catalog/navigation-breadcrumb-trail.md)が表示されるかどうかを判断します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左側のパネルで、**[!UICONTROL Web]**を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左側のパネルで、**[!UICONTROL Web]**&#x200B;を選択します。
 
 1. **[!UICONTROL Default Pages]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ デフォルトページ ](./assets/web-default-pages.png){width="500" zoomable="yes"}
+   ![&#x200B; デフォルトページ &#x200B;](./assets/web-default-pages.png){width="500" zoomable="yes"}
 
    | フィールド | [範囲](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
    |--- |--- |--- |
@@ -112,7 +112,7 @@ _デフォルトページ_&#x200B;設定により、[ ベース URL](../stores-p
 
    >[!NOTE]
    >
-   >特定のストアビューの場合、_[!UICONTROL Default Web URL]_の横にある&#x200B;**[!UICONTROL Use Default]**チェックボックスをオフにし、その他のデフォルト設定を変更します。
+   >特定のストアビューの場合、_[!UICONTROL Default Web URL]_&#x200B;の横にある&#x200B;**[!UICONTROL Use Default]**&#x200B;チェックボックスをオフにし、その他のデフォルト設定を変更します。
 
 1. ホームページとして使用するCMS ページに&#x200B;**[!UICONTROL CMS Home Page]**&#x200B;を設定します。 他の作成されたページは、以下のようなホームページとして使用できます。
 

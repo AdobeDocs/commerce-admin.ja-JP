@@ -39,19 +39,19 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-管理者[ アクション ](action-log.md) アーカイブには、サーバーに保存されているCSV ログファイルが一覧表示されます。
+管理者[&#x200B; アクション &#x200B;](action-log.md) アーカイブには、サーバーに保存されているCSV ログファイルが一覧表示されます。
 
 [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}設定では、ログエントリの保存期間とアーカイブ頻度を指定できます。 デフォルトでは、ファイル名には現在の日付がISO形式で含まれています：`yyyyMMddHH`
 
 >[!NOTE]
 >
->ログのアーカイブには、[cron ジョブ ](cron.md)を設定する必要があります。
+>ログのアーカイブには、[cron ジョブ &#x200B;](cron.md)を設定する必要があります。
 
 ## ログアーカイブの設定
 
 badgePaas: label=&quot;PaaS only&quot; type=&quot;Informative&quot; url=&quot;https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions&quot; tooltip=&quot;Adobe Commerce on Cloud プロジェクト（Adobeが管理するPaaS インフラストラクチャ）およびオンプレミス プロジェクトにのみ適用されます。&quot;
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL System]**&#x200B;を選択します。
 
@@ -60,14 +60,14 @@ badgePaas: label=&quot;PaaS only&quot; type=&quot;Informative&quot; url=&quot;ht
    - **[!UICONTROL Log Entry Lifetime, Days]** — ログエントリを削除する前にデータベースに保持する日数を入力します。
    - **[!UICONTROL Log Archiving Frequency]** — `Daily`、`Weekly`または`Monthly`に設定します。
 
-   ![詳細設定 – 管理者アクションのログのアーカイブ ](../configuration-reference/advanced/assets/system-admin-actions-log-archiving.png){width="600" zoomable="yes"}
+   ![詳細設定 – 管理者アクションのログのアーカイブ &#x200B;](../configuration-reference/advanced/assets/system-admin-actions-log-archiving.png){width="600" zoomable="yes"}
 
-   構成設定の詳細なリストについては、_構成リファレンス_&#x200B;の[管理者アクション ログ アーカイブ ](../configuration-reference/advanced/system.md)を参照してください。
+   構成設定の詳細なリストについては、_構成リファレンス_&#x200B;の[管理者アクション ログ アーカイブ &#x200B;](../configuration-reference/advanced/system.md)を参照してください。
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
 ## アーカイブを表示
 
-_管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Archive]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Archive]**&#x200B;に移動します。
 
-![ アクションログアーカイブ ](./assets/action-log-archive.png){width="600" zoomable="yes"}
+![&#x200B; アクションログアーカイブ &#x200B;](./assets/action-log-archive.png){width="600" zoomable="yes"}

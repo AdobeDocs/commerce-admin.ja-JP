@@ -55,7 +55,7 @@ B2B企業アカウントをストアに組み込む場合、組織でのユー�
 
 - 異なる[役割と権限](account-company-roles-permissions.md)を持つ&#x200B;_smart_&#x200B;会社アカウント階層のサポートが含まれています。注文を行うことができます。
 
-- 支払い方法として[法人店舗クレジット ](credit-company.md)を提供することで、加盟店が収入を増やす仕組みを提供します。
+- 支払い方法として[法人店舗クレジット &#x200B;](credit-company.md)を提供することで、加盟店が収入を増やす仕組みを提供します。
 
 - 管理者のすべての会社アカウントの[管理](account-company-manage.md)をサポートします。
 
@@ -67,15 +67,15 @@ _会社_ グリッドには、ステータス設定に関係なく、アクテ�
 
 _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL Companies]**&#x200B;に移動します。
 
-![会社グリッド ](./assets/companies-grid.png){width="700" zoomable="yes"}
+![会社グリッド &#x200B;](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-[!UICONTROL Companies] グリッドには、ステータスに関係なくすべての会社が一覧表示されます。 会社リストは、会社が[会社階層](manage-company-hierarchy.md)に関連付けられているかどうかを示し、会社、会社管理者、その他の情報に関する[詳細情報](/help/b2b/account-company-manage.md#company-options-and-columns)を提供します。 [管理者グリッドコントロール ](../getting-started/admin-grid-controls.md)を使用して、フィルター、列表示オプションなどを設定し、ビューをカスタマイズします。
+[!UICONTROL Companies] グリッドには、ステータスに関係なくすべての会社が一覧表示されます。 会社リストは、会社が[会社階層](manage-company-hierarchy.md)に関連付けられているかどうかを示し、会社、会社管理者、その他の情報に関する[詳細情報](/help/b2b/account-company-manage.md#company-options-and-columns)を提供します。 [管理者グリッドコントロール &#x200B;](../getting-started/admin-grid-controls.md)を使用して、フィルター、列表示オプションなどを設定し、ビューをカスタマイズします。
 
 ## 会社の管理者
 
 次の例は、最初の会社管理者アカウントを含む&#x200B;_Customers_ グリッドを示しています。
 
-![会社管理者アカウントを持つ顧客グリッド ](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![会社管理者アカウントを持つ顧客グリッド &#x200B;](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
 各会社には、アカウントの電子メールアドレスと管理者の姓で識別される1人の会社管理者がいます。 管理者は、ユーザーとして他の会社に割り当てることができますが、1つの会社の管理者にすることができます。
 
@@ -85,11 +85,11 @@ _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL Comp
 
 1. 会社の管理者は、店舗からウェルカムメールを見つけます。
 
-   ![ ウェルカムメールの例](./assets/company-admin-welcome-email.png){width="500"}
+   ![&#x200B; ウェルカムメールの例](./assets/company-admin-welcome-email.png){width="500"}
 
    >[!NOTE]
    >
-   >電子メールの電子メールアドレスのターゲットとコンテンツは、[会社の電子メールオプション ](email-company-configuration.md)設定で指定されたオプションによって決まります。
+   >電子メールの電子メールアドレスのターゲットとコンテンツは、[会社の電子メールオプション &#x200B;](email-company-configuration.md)設定で指定されたオプションによって決まります。
 
 1. 手順に従い、[!UICONTROL **link**]&#x200B;をクリックしてパスワードを設定します。
 
@@ -110,11 +110,11 @@ _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL Comp
 
 1. 「[!UICONTROL **ログイン**]」をクリックして、アカウントダッシュボードにアクセスします。
 
-   ![ アカウントダッシュボード – 会社](./assets/account-dashboard-company.png){width="700" zoomable="yes"}
+   ![&#x200B; アカウントダッシュボード – 会社](./assets/account-dashboard-company.png){width="700" zoomable="yes"}
 
 ## 企業構造
 
-企業アカウントは、ビジネスの構造を反映するように設定できます。 当初、企業構造には企業管理者のみが含まれますが、ユーザーのチームを含めるように拡張できます。 ユーザーは、チームに関連付けることも、企業内の部門や部門の階層内で整理することもできます。 この構造は、会社アカウントに関連付けられた[発注](purchase-order-flow.md) （PO）に対する[承認ルール ](account-dashboard-approval-rules.md)の使用をサポートするように設計されています。
+企業アカウントは、ビジネスの構造を反映するように設定できます。 当初、企業構造には企業管理者のみが含まれますが、ユーザーのチームを含めるように拡張できます。 ユーザーは、チームに関連付けることも、企業内の部門や部門の階層内で整理することもできます。 この構造は、会社アカウントに関連付けられた[発注](purchase-order-flow.md) （PO）に対する[承認ルール &#x200B;](account-dashboard-approval-rules.md)の使用をサポートするように設計されています。
 
 ![部門を持つ会社構造](./assets/company-structure-diagram.svg){width="450"}
 

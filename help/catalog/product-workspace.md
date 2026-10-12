@@ -41,13 +41,13 @@ ht-degree: 0%
 ---
 # 製品ワークスペース
 
-製品ワークスペースは、使用する属性セットによってフィールドの選択が変わりますが、基本的にはすべての製品タイプで同じです。 製品属性がフォームの上部にあり、その後に製品情報の拡張可能なセクションが続きます。 新しい製品を初めて保存すると、フォームの左上に&#x200B;_[!UICONTROL Store View]_の選択画面が表示されます。
+製品ワークスペースは、使用する属性セットによってフィールドの選択が変わりますが、基本的にはすべての製品タイプで同じです。 製品属性がフォームの上部にあり、その後に製品情報の拡張可能なセクションが続きます。 新しい製品を初めて保存すると、フォームの左上に&#x200B;_[!UICONTROL Store View]_&#x200B;の選択画面が表示されます。
 
 >[!NOTE]
 >
->適用されたカタログのエンリッチメントの更新は、フォームの上部および&#x200B;**[!UICONTROL Content]** セクションの製品名に表示されます。 詳しくは、[ カタログの強化](catalog-enrichment.md)を参照してください。
+>適用されたカタログのエンリッチメントの更新は、フォームの上部および&#x200B;**[!UICONTROL Content]** セクションの製品名に表示されます。 詳しくは、[&#x200B; カタログの強化](catalog-enrichment.md)を参照してください。
 
-![製品ワークスペース ](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
+![製品ワークスペース &#x200B;](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Enable Product]設定
 
@@ -62,26 +62,26 @@ ht-degree: 0%
 
 ## 属性セット
 
-[属性セット ](attribute-sets.md)の名前が左上隅に表示され、製品レコードに表示されるフィールドが決定されます。 別の属性セットを選択するには、デフォルトの属性セット名の横にある下向き矢印をクリックします。
+[属性セット &#x200B;](attribute-sets.md)の名前が左上隅に表示され、製品レコードに表示されるフィールドが決定されます。 別の属性セットを選択するには、デフォルトの属性セット名の横にある下向き矢印をクリックします。
 
-![属性セット ](./assets/product-attribute-set.png){width="600" zoomable="yes"}
+![属性セット &#x200B;](./assets/product-attribute-set.png){width="600" zoomable="yes"}
 
 ## 展開/折りたたみ
 
-セクションを展開または折りたたむには、「![拡張セレクター](../assets/icon-display-expand.png)」を展開または「![ セレクターを折りたたむ](../assets/icon-display-collapse.png)」アイコンをクリックします。
+セクションを展開または折りたたむには、「![拡張セレクター](../assets/icon-display-expand.png)」を展開または「![&#x200B; セレクターを折りたたむ](../assets/icon-display-collapse.png)」アイコンをクリックします。
 
 ## [!UICONTROL Save] メニュー
 
-_[!UICONTROL Save]_メニューには、製品の保存と続行、製品の保存と作成、製品の保存と複製、または保存と閉じることができるいくつかのオプションが含まれています。
+_[!UICONTROL Save]_&#x200B;メニューには、製品の保存と続行、製品の保存と作成、製品の保存と複製、または保存と閉じることができるいくつかのオプションが含まれています。
 
-![ メニューを保存](./assets/product-save-menu.png){width="600" zoomable="yes"}
+![&#x200B; メニューを保存](./assets/product-save-menu.png){width="600" zoomable="yes"}
 
 | コマンド | 説明 |
 |--- |--- |
 | [!UICONTROL Save] | 現在の製品を保存して作業を続行します。 |
 | [!UICONTROL Save & New] | 現在の製品を保存して閉じ、同じ製品タイプとテンプレートに基づいて新しい製品を開始します。 |
 | [!UICONTROL Save & Duplicate] | 現在の製品を保存して閉じ、新しい重複コピーを開きます。 |
-| [!UICONTROL Save & Close] | 現在の製品を保存して、_[!UICONTROL Products]_ワークスペースに戻ります。 |
+| [!UICONTROL Save & Close] | 現在の製品を保存して、_[!UICONTROL Products]_&#x200B;ワークスペースに戻ります。 |
 
 {style="table-layout:auto"}
 
@@ -98,7 +98,7 @@ _[!UICONTROL Save]_メニューには、製品の保存と続行、製品の保�
 
 {style="table-layout:auto"}
 
-別のフィールドの値を表すプレースホルダーは、二重中括弧で囲まれています。 製品[属性セット ](attribute-sets.md)に含まれるすべての属性コードをプレースホルダーとして使用できます。
+別のフィールドの値を表すプレースホルダーは、二重中括弧で囲まれています。 製品[属性セット &#x200B;](attribute-sets.md)に含まれるすべての属性コードをプレースホルダーとして使用できます。
 
 ![製品フィールドの自動生成](../configuration-reference/catalog/assets/catalog-product-fields-auto-generation.png){width="600" zoomable="yes"}
 
@@ -106,7 +106,7 @@ _[!UICONTROL Save]_メニューには、製品の保存と続行、製品の保�
 
 ### プレースホルダー値の編集
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 

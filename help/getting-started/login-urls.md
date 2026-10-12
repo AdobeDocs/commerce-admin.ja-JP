@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## ストアフロント URL
 
-[ ストアフロント ](storefront.md)のアドレスは、通常、IP アドレスに割り当てられたドメインです。 一部のストアは、ルートまたは最上位のディレクトリにインストールされます。 その他は、ルートの下のディレクトリにインストールされます。 ストアは、プライマリドメインに関連付けられたサブドメイン内に存在する場合があります。 ストアのURLは次のようになります。
+[&#x200B; ストアフロント &#x200B;](storefront.md)のアドレスは、通常、IP アドレスに割り当てられたドメインです。 一部のストアは、ルートまたは最上位のディレクトリにインストールされます。 その他は、ルートの下のディレクトリにインストールされます。 ストアは、プライマリドメインに関連付けられたサブドメイン内に存在する場合があります。 ストアのURLは次のようになります。
 
 - `http://mydomain.com`
 - `http://www.mydomain.com/mystore`
@@ -61,14 +61,14 @@ ht-degree: 0%
 
 ## [!DNL Commerce] アカウント
 
-お客様の[Commerce アカウント ](commerce-account-create.md)は、お客様の製品やサービス、アカウント設定、請求履歴、サポート リソースに関する情報にアクセスできます。 アカウントにアクセスするには、メインのCommerce サイトに移動し、右上隅の「**[!UICONTROL My Account]**」をクリックします。
+お客様の[Commerce アカウント &#x200B;](commerce-account-create.md)は、お客様の製品やサービス、アカウント設定、請求履歴、サポート リソースに関する情報にアクセスできます。 アカウントにアクセスするには、メインのCommerce サイトに移動し、右上隅の「**[!UICONTROL My Account]**」をクリックします。
 
 ## 顧客アカウント
 
-ストアでの使用方法を学習する際は、必ずテスト [顧客アカウント ](../customers/account-dashboard.md)を設定して、お客様の視点からストアとチェックアウトのプロセスを体験できるようにしてください。
+ストアでの使用方法を学習する際は、必ずテスト [顧客アカウント &#x200B;](../customers/account-dashboard.md)を設定して、お客様の視点からストアとチェックアウトのプロセスを体験できるようにしてください。
 
 ## サンプルデータ
 
 [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-Adobeでは、250以上の製品（そのうちの約200は設定可能な製品）、カテゴリ、プロモーション価格ルール、CMS ページ、バナーなどのサンプルストアを含むサンプルデータセットを提供しています。 サンプルデータは、ストアフロントで&#x200B;_Luma_ テーマを使用します。 [このサンプルデータのインストール ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/sample-data/overview)はオプションですが、コマースビジネスのカスタマイズをテストおよび開発する場合に役立ちます。
+Adobeでは、250以上の製品（そのうちの約200は設定可能な製品）、カテゴリ、プロモーション価格ルール、CMS ページ、バナーなどのサンプルストアを含むサンプルデータセットを提供しています。 サンプルデータは、ストアフロントで&#x200B;_Luma_ テーマを使用します。 [このサンプルデータのインストール &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/sample-data/overview)はオプションですが、コマースビジネスのカスタマイズをテストおよび開発する場合に役立ちます。

@@ -34,7 +34,7 @@ ht-degree: 0%
 ---
 # 製品設定 – [!UICONTROL Product in Websites]
 
-_[!UICONTROL Product in Websites]_セクションでは、[ ストア階層](../stores-purchase/stores.md)に従って、製品が使用可能な各web サイトを特定します。
+_[!UICONTROL Product in Websites]_&#x200B;セクションでは、[&#x200B; ストア階層](../stores-purchase/stores.md)に従って、製品が使用可能な各web サイトを特定します。
 
 ![製品web サイトのスコープ図](./assets/scope-product-website.svg){width="550"}
 
@@ -42,7 +42,7 @@ _[!UICONTROL Product in Websites]_セクションでは、[ ストア階層](../
 
 1. 製品を編集モードで開きます。
 
-1. 下にスクロールして、_[!UICONTROL Product in Websites]_セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
+1. 下にスクロールして、_[!UICONTROL Product in Websites]_&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
    Web サイトの![製品](./assets/catalog-product-in-websites-multisite-main-french.png){width="600" zoomable="yes"}
 

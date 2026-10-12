@@ -45,9 +45,9 @@ ht-degree: 0%
 ---
 # [!UICONTROL My Quote Templates]
 
-見積もりが有効になっている場合、顧客アカウントダッシュボードの&#x200B;_[!UICONTROL My Quotes Template]_セクションには、顧客アカウントに関連付けられているすべての見積もりテンプレートが一覧表示されます。 権限に応じて、企業の代理で購入するバイヤーのみが見積もりテンプレートをリクエストし、定期的な注文に対して見積もり価格や条件を交渉できます。
+見積もりが有効になっている場合、顧客アカウントダッシュボードの&#x200B;_[!UICONTROL My Quotes Template]_&#x200B;セクションには、顧客アカウントに関連付けられているすべての見積もりテンプレートが一覧表示されます。 権限に応じて、企業の代理で購入するバイヤーのみが見積もりテンプレートをリクエストし、定期的な注文に対して見積もり価格や条件を交渉できます。
 
-![自分の見積もりテンプレート ](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
+![自分の見積もりテンプレート &#x200B;](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
 見積もりテンプレートリストは、テンプレートをステータス別に整理します。
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 1. 左側のパネルで、**[!UICONTROL My Quote Templates]**&#x200B;を選択します。
 
-1. リスト内の見積もりテンプレートを検索し、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL View]**をクリックします。
+1. リスト内の見積もりテンプレートを検索し、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL View]**&#x200B;をクリックします。
 
 ## 配送先住所を追加
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 見積もりテンプレートページで、**[!UICONTROL Cancel Quote Template]**&#x200B;をクリックします。
 
-見積テンプレートがキャンセルされ、見積の状態が`Closed`に変わります。 クローズした見積は、*[!UICONTROL Inactive]*&#x200B;個の見積もりのリストに残り、管理画面の&#x200B;_[!UICONTROL Quote Templates]_グリッドに表示されます。
+見積テンプレートがキャンセルされ、見積の状態が`Closed`に変わります。 クローズした見積は、*[!UICONTROL Inactive]*&#x200B;個の見積もりのリストに残り、管理画面の&#x200B;_[!UICONTROL Quote Templates]_&#x200B;グリッドに表示されます。
 
 ## 参照ドキュメントリンクの管理
 

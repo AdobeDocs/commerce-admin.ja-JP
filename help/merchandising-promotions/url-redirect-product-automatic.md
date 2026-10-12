@@ -52,13 +52,13 @@ ht-degree: 0%
 
 ## 自動リダイレクトの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
 1. **[!UICONTROL Search Engine Optimization]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ カタログ設定 – 検索エンジン最適化](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ設定 – 検索エンジン最適化](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Create Permanent Redirect for URLs if URL Key Changed]**&#x200B;を`Yes`に設定します。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> URLの書き換えは、ストアビューまたはweb サイトのスコープに対して生成できます。 管理者からのURL書き換え範囲を&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]****[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**に設定します。_[!UICONTROL Product URL Rewrite Scope]_ フィールドで範囲を選択します。
+> URLの書き換えは、ストアビューまたはweb サイトのスコープに対して生成できます。 管理者からのURL書き換え範囲を&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;**[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**&#x200B;に設定します。_[!UICONTROL Product URL Rewrite Scope]_ フィールドで範囲を選択します。
 
 ## 商品URLを自動的にリダイレクト
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Search Engine Optimization]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![製品検索エンジン最適化 – 永続的なリダイレクト ](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
+   ![製品検索エンジン最適化 – 永続的なリダイレクト &#x200B;](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL URL Key]**&#x200B;に対して、次の操作を行います。
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 >
 >カテゴリ/製品URL書き換えの自動生成をオフにすると、既存のカテゴリ/製品タイプ URL書き換えがすべて永続的に削除され、復元できなくなります。 これにより、未解決のカテゴリ/製品タイプ URLの競合が発生する可能性があり、解決するにはURL キーの手動アップデートが必要です。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
@@ -127,6 +127,6 @@ ht-degree: 0%
 
 1. 確認ダイアログで「**[!UICONTROL OK]**」をクリックし、既存のURLの書き換えの変更と削除を確認します。
 
-   ![ カテゴリ/製品URLの書き換えをオフにする – 確認](./assets/seo-rewrite-off.png){width="350"}
+   ![&#x200B; カテゴリ/製品URLの書き換えをオフにする – 確認](./assets/seo-rewrite-off.png){width="350"}
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。

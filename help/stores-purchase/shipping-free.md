@@ -32,7 +32,7 @@ ht-degree: 0%
 ---
 # 送料無料
 
-_送料無料_&#x200B;は、最も効果的なプロモーションの1つです。 最低購入額に基づいて設定することも、一連の条件が満たされたときに適用される[ カート価格ルール ](../merchandising-promotions/price-rules-cart.md)として設定することもできます。 両方が同じ注文に適用される場合、設定設定は買い物かごルールよりも優先されます。
+_送料無料_&#x200B;は、最も効果的なプロモーションの1つです。 最低購入額に基づいて設定することも、一連の条件が満たされたときに適用される[&#x200B; カート価格ルール &#x200B;](../merchandising-promotions/price-rules-cart.md)として設定することもできます。 両方が同じ注文に適用される場合、設定設定は買い物かごルールよりも優先されます。
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ _送料無料_&#x200B;は、最も効果的なプロモーションの1つです
 
 ## ステップ 1：送料無料の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Delivery Methods]**&#x200B;を選択します。
 
@@ -58,7 +58,7 @@ _送料無料_&#x200B;は、最も効果的なプロモーションの1つです
 
    >[!TIP]
    >
-   >[表の料金](shipping-table-rate.md)で送料無料を利用するには、_[!UICONTROL Minimum Order Amount]_を高くして、満たされないようにします。 この高い値を使用すると、価格規則によってトリガーされない限り、送料無料が有効になりません。
+   >[表の料金](shipping-table-rate.md)で送料無料を利用するには、_[!UICONTROL Minimum Order Amount]_&#x200B;を高くして、満たされないようにします。 この高い値を使用すると、価格規則によってトリガーされない限り、送料無料が有効になりません。
 
 1. **[!UICONTROL Include Tax to Amount]**&#x200B;を設定：
 
@@ -73,7 +73,7 @@ _送料無料_&#x200B;は、最も効果的なプロモーションの1つです
 
    - `All Allowed Countries` - ストア設定で指定されたすべての[国](../getting-started/store-details.md#country-options)のお客様は、送料無料を利用できます。
 
-   - `Specific Countries` – この値を選択すると、_[!UICONTROL Ship to Specific Countries]_リストが表示されます。 送料無料を利用できる国をリストから選択します。
+   - `Specific Countries` – この値を選択すると、_[!UICONTROL Ship to Specific Countries]_&#x200B;リストが表示されます。 送料無料を利用できる国をリストから選択します。
 
 1. **[!UICONTROL Show Method if Not Applicable]**&#x200B;を設定：
 
@@ -90,7 +90,7 @@ _送料無料_&#x200B;は、最も効果的なプロモーションの1つです
 
 送料無料で使用する各キャリアに必要な設定を完了してください。 例えば、[UPS設定](ups.md)が完了した場合は、次の設定を更新して送料無料を有効にして設定します。
 
-1. _[!UICONTROL Delivery Methods]_設定で、**[!UICONTROL UPS]**セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
+1. _[!UICONTROL Delivery Methods]_&#x200B;設定で、**[!UICONTROL UPS]**&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
 1. **[!UICONTROL Free Method]**&#x200B;を`UPS Ground`または送料無料で指定する別の種類に設定します。
 

@@ -43,17 +43,17 @@ ht-degree: 0%
 
 _クイックオーダー_&#x200B;機能を使用すると、注文する商品の商品名またはSKUを知っている顧客の場合、注文プロセスが数回クリックに短縮されます。 複数のSKUを持つ注文は、手動で入力するか、クイック注文フォームに読み込むことができます。 クイックオーダーは、アカウントにログインしているお客様やゲストが利用できます。 有効にすると、_クイックオーダー_ リンクがページの上部、顧客名の横に表示されます。
 
-![ クイック注文リンク ](./assets/quick-order-link.png){width="700" zoomable="yes"}
+![&#x200B; クイック注文リンク &#x200B;](./assets/quick-order-link.png){width="700" zoomable="yes"}
 
 ## ストアのクイックオーダーを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルの「_[!UICONTROL General]_」セクションで、「**[!UICONTROL B2B Features]**」を選択します。
 
 1. **[!UICONTROL Enable Quick Order]**&#x200B;を`Yes`に設定します。
 
-   ![ クイックオーダーを有効にする](./assets/quick-orders-config.png){width="600" zoomable="yes"}
+   ![&#x200B; クイックオーダーを有効にする](./assets/quick-orders-config.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save Config]**&#x200B;をクリックします。
 
@@ -77,7 +77,7 @@ _クイックオーダー_&#x200B;機能を使用すると、注文する商品�
 
      SKUが入力ラインに表示され、下に商品の詳細が表示されます。
 
-     ![ クイック注文の詳細](./assets/quick-order-product-detail.png){width="600" zoomable="yes"}
+     ![&#x200B; クイック注文の詳細](./assets/quick-order-product-detail.png){width="600" zoomable="yes"}
 
    製品名&#x200B;**で** クイック注文を行うには、お客様は次の操作を行います。
 
@@ -89,7 +89,7 @@ _クイックオーダー_&#x200B;機能を使用すると、注文する商品�
 
    - 一致する可能性のある商品のリストが表示されたら、顧客は注文する商品をクリックします。
 
-     ![ クリックして製品名を選択](./assets/quick-order-product-name.png){width="700" zoomable="yes"}
+     ![&#x200B; クリックして製品名を選択](./assets/quick-order-product-name.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL Qty]**&#x200B;を入力します。
 
@@ -111,19 +111,19 @@ _クイックオーダー_&#x200B;機能を使用すると、注文する商品�
 
 1. リスト内の各項目に対して注文する&#x200B;**[!UICONTROL Qty]**&#x200B;を入力します。
 
-   ![ クイック注文リスト ](./assets/quick-order-skus-detail.png){width="600" zoomable="yes"}
+   ![&#x200B; クイック注文リスト &#x200B;](./assets/quick-order-skus-detail.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
    >製品に必要なオプションがある場合、顧客はオプションを選択するように求められます。 顧客がショッピングカートに入るまで、商品オプションを追加するのを待つこともできます。
 
-   ![ オプションの選択](./assets/quick-order-skus-product-options.png){width="600" zoomable="yes"}
+   ![&#x200B; オプションの選択](./assets/quick-order-skus-product-options.png){width="600" zoomable="yes"}
 
 ### 方法3：製品のリストをアップロードする
 
-1. _[!UICONTROL Add from File]_セクションで、**[!UICONTROL Download Sample]**をクリックして注文テンプレートをダウンロードします。
+1. _[!UICONTROL Add from File]_&#x200B;セクションで、**[!UICONTROL Download Sample]**&#x200B;をクリックして注文テンプレートをダウンロードします。
 
-   ![ ファイルから追加](./assets/quick-order-skus-add-from-file.png){width="600" zoomable="yes"}
+   ![&#x200B; ファイルから追加](./assets/quick-order-skus-add-from-file.png){width="600" zoomable="yes"}
 
 1. ダウンロードしたファイルを開きます。
 
@@ -141,4 +141,4 @@ _クイックオーダー_&#x200B;機能を使用すると、注文する商品�
 
 顧客がクイック注文を作成した後、通常どおりチェックアウトを進めることができます。
 
-![ クイックオーダー](./assets/quick-order-add-to-cart.png){width="700" zoomable="yes"}
+![&#x200B; クイックオーダー](./assets/quick-order-add-to-cart.png){width="700" zoomable="yes"}

@@ -40,7 +40,7 @@ ht-degree: 7%
 
 ## [!UICONTROL General Options]
 
-![一般オプション ](./assets/catalog-visual-merchandiser-general-options.png)<!-- zoom -->
+![一般オプション &#x200B;](./assets/catalog-visual-merchandiser-general-options.png)<!-- zoom -->
 
 <!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/visual-merch/smart-attributes-configure) -->
 

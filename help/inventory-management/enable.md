@@ -55,7 +55,7 @@ ht-degree: 0%
 
 この設定は、シングルソースおよびマルチソースのインベントリで機能します。
 
-- [!DNL Inventory Management]を使用するには、_[!UICONTROL Manage Stock]_を有効にします。
+- [!DNL Inventory Management]を使用するには、_[!UICONTROL Manage Stock]_&#x200B;を有効にします。
 
 - 製品レベル設定の[!UICONTROL Manage Stock]設定は、ストア設定を上書きします。
 
@@ -65,19 +65,19 @@ ht-degree: 0%
 
 [!DNL Inventory Management]が有効になっている場合は、すべての設定を構成するために次を参照してください。
 
-- [ グローバル オプションの設定](global-options.md) - カタログ全体に影響する設定は、システムの既定の設定と見なされます。
+- [&#x200B; グローバル オプションの設定](global-options.md) - カタログ全体に影響する設定は、システムの既定の設定と見なされます。
 
 - [製品オプションの設定](product-options.md) - グローバルオプションを上書きする特定の製品の設定。
 
 ## [!DNL Inventory Management]を有効または無効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Catalog]**&#x200B;を展開し、**[!UICONTROL Inventory]**&#x200B;を選択します。
 
 1. ![拡張セレクター](../assets/icon-display-expand.png) _製品ストックオプション_&#x200B;を展開して設定します。
 
-   ![商品ストックオプション ](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
+   ![商品ストックオプション &#x200B;](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
 
    - 在庫を管理し、すべての[!DNL Commerce]機能を使用するには、**[!UICONTROL Manage Stock]**&#x200B;を`Yes`に設定します（デフォルト）。
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ## 店舗の在庫の管理
 
-[ グローバルオプションの設定](global-options.md)を参照してください。
+[&#x200B; グローバルオプションの設定](global-options.md)を参照してください。
 
 ## 商品の在庫の管理
 

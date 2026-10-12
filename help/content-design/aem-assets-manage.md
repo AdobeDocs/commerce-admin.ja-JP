@@ -54,11 +54,11 @@ AEM Assets統合を有効にして設定すると、アセットをカタログ�
 
 1. **[!UICONTROL Content]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ カテゴリーコンテンツ ](./assets/aem-assets-manage-categories.png){width="600" zoomable="yes"}
+   ![&#x200B; カテゴリーコンテンツ &#x200B;](./assets/aem-assets-manage-categories.png){width="600" zoomable="yes"}
 
 1. ページの上部に&#x200B;**[!UICONTROL Category Image]**&#x200B;を表示するには、**[!UICONTROL Select from Assets]**&#x200B;をクリックして、AEM Assets フォルダーの画像を使用します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックして続行します。
 
-   カテゴリを作成する方法の詳細については、[ カテゴリのコンテンツを完了](../catalog/category-create.md#step-3-complete-the-category-content)するを参照してください。
+   カテゴリを作成する方法の詳細については、[&#x200B; カテゴリのコンテンツを完了](../catalog/category-create.md#step-3-complete-the-category-content)するを参照してください。
 

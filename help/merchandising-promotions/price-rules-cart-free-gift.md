@@ -44,7 +44,7 @@ ht-degree: 0%
 
 # 無料ギフトのプロモーション
 
-*無料ギフト* プロモーションでは、特定の条件で無料アイテムをカートに追加する[ カート価格ルール ](price-rules-cart.md)を設定できます。
+*無料ギフト* プロモーションでは、特定の条件で無料アイテムをカートに追加する[&#x200B; カート価格ルール &#x200B;](price-rules-cart.md)を設定できます。
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 **X製品を購入し、Y製品を無料で入手**
 
-1. [無料ギフトのプロモーション付きのカート価格ルール ](price-rules-cart.md#step-1-add-a-rule)を作成します。
+1. [無料ギフトのプロモーション付きのカート価格ルール &#x200B;](price-rules-cart.md#step-1-add-a-rule)を作成します。
 
 1. [価格ルールの条件を定義するカートの手順の条件](price-rules-cart.md#step-2-describe-the-conditions)を説明します。 これは、ルールに追加できる複数の条件のうち、最初のもので、ルールがトリガーされるタイミングを決定します。 以下の組み合わせに基づいて行うことができます。
 
@@ -81,9 +81,9 @@ ht-degree: 0%
 
    1. **[!UICONTROL Save and Continue Edit]**&#x200B;をクリックし、必要に応じてルールの残りの部分を完了します。
 
-1. [ チェックアウト時に表示されるラベルを入力するには、カート価格ルールの手順のラベル ](price-rules-cart.md)を完了します。
+1. [&#x200B; チェックアウト時に表示されるラベルを入力するには、カート価格ルールの手順のラベル &#x200B;](price-rules-cart.md)を完了します。
 
-![買い物かごの価格ルール – 無料ギフト ラベル ](./assets/free-gift-promotion-label.png){width="600" zoomable="yes"}
+![買い物かごの価格ルール – 無料ギフト ラベル &#x200B;](./assets/free-gift-promotion-label.png){width="600" zoomable="yes"}
 
 {{new-price-rule}}
 

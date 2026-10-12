@@ -38,11 +38,11 @@ ht-degree: 0%
 >
 >多数の税率を定義する必要がある場合は、それらを読み込むことでプロセスを簡素化できます。
 
-![税ルール ](./assets/tax-rules.png){width="600" zoomable="yes"}
+![税ルール &#x200B;](./assets/tax-rules.png){width="600" zoomable="yes"}
 
 ## 手順1：税ルール情報の入力
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Tax Rule]**」をクリックします。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
    既存の税率を編集するには、次の操作を行います。
 
-   - 税率にカーソルを合わせ、_編集_ ![鉛筆アイコン ](../assets/icon-edit-pencil.png) アイコンをクリックします。
+   - 税率にカーソルを合わせ、_編集_ ![鉛筆アイコン &#x200B;](../assets/icon-edit-pencil.png) アイコンをクリックします。
 
    - 必要に応じてフォームを更新し、**[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Import Tax Rates]**&#x200B;をクリックします。
 
-1. 税率をエクスポートするには、**[!UICONTROL Export Tax Rates]**&#x200B;をクリックします（[税率のインポートとエクスポート ](../systems/data-transfer-tax-rates.md)を参照）。
+1. 税率をエクスポートするには、**[!UICONTROL Export Tax Rates]**&#x200B;をクリックします（[税率のインポートとエクスポート &#x200B;](../systems/data-transfer-tax-rates.md)を参照）。
 
 ![税率の読み込み/書き出し](./assets/tax-rule-new-import-export.png){width="600" zoomable="yes"}
 
@@ -92,13 +92,13 @@ ht-degree: 0%
 
 1. ルールが適用される&#x200B;**[!UICONTROL Customer Tax Class]**&#x200B;を選択します。
 
-   - 顧客税区分を編集するには、_編集_ ![鉛筆アイコン ](../assets/icon-edit-pencil.png) アイコンをクリックし、必要に応じてフォームを更新して、**[!UICONTROL Save]**&#x200B;をクリックします。
+   - 顧客税区分を編集するには、_編集_ ![鉛筆アイコン &#x200B;](../assets/icon-edit-pencil.png) アイコンをクリックし、必要に応じてフォームを更新して、**[!UICONTROL Save]**&#x200B;をクリックします。
 
    - 税区分を作成するには、**[!UICONTROL Add New Tax Class]**&#x200B;をクリックし、必要に応じてフォームに記入し、**[!UICONTROL Save]**&#x200B;をクリックします。
 
 1. ルールが適用される&#x200B;**[!UICONTROL Product Tax Class]**&#x200B;を選択します。
 
-   - 製品税区分を編集するには、_編集_ ![鉛筆アイコン ](../assets/icon-edit-pencil.png) アイコンをクリックし、必要に応じてフォームを更新して、**[!UICONTROL Save]**&#x200B;をクリックします。
+   - 製品税区分を編集するには、_編集_ ![鉛筆アイコン &#x200B;](../assets/icon-edit-pencil.png) アイコンをクリックし、必要に応じてフォームを更新して、**[!UICONTROL Save]**&#x200B;をクリックします。
 
    - 税区分を作成するには、**[!UICONTROL Add New Tax Class]**&#x200B;をクリックし、必要に応じてフォームに記入し、**[!UICONTROL Save]**&#x200B;をクリックします。
 

@@ -60,11 +60,11 @@ MAP機能では、通常の製品価格の代わりに、専用の&#x200B;_ク�
 
 | 製品タイプ | 説明 |
 |--- |--- |
-| [ シンプル ](product-create-simple.md)、[ バーチャル ](product-create-virtual.md) | 実際の価格は、カタログリストと商品ページには自動的に表示されませんが、[!UICONTROL Display Actual Price]の設定に従ってのみ含まれます。 カスタムオプションの価格は通常どおり表示されます。 |
-| [ グループ化](product-create-grouped.md) | 関連付けられたシンプルな製品の価格は、カタログ リストと製品ページには自動的に表示されませんが、[!UICONTROL Display Actual Price]設定に従ってのみ含まれます。 |
+| [&#x200B; シンプル &#x200B;](product-create-simple.md)、[&#x200B; バーチャル &#x200B;](product-create-virtual.md) | 実際の価格は、カタログリストと商品ページには自動的に表示されませんが、[!UICONTROL Display Actual Price]の設定に従ってのみ含まれます。 カスタムオプションの価格は通常どおり表示されます。 |
+| [&#x200B; グループ化](product-create-grouped.md) | 関連付けられたシンプルな製品の価格は、カタログ リストと製品ページには自動的に表示されませんが、[!UICONTROL Display Actual Price]設定に従ってのみ含まれます。 |
 | [構成可能](product-create-configurable.md) | 実際の価格は、カタログリストと商品ページには自動的に表示されませんが、[!UICONTROL Display Actual Price]の設定に従ってのみ含まれます。 オプション価格は通常どおり表示されます。 |
-| [ バンドル ](product-create-bundle.md) （固定価格） | 実際の価格は、カタログページには自動的に表示されませんが、[!UICONTROL Display Actual Price]設定に従ってのみ含まれます。 バンドルアイテムの価格は通常どおり表示されます。 MAPは、動的な価格設定のバンドル製品では使用できません。 |
-| [ ダウンロード可能](product-create-downloadable.md) | 実際の価格は、カタログリストと商品ページには自動的に表示されませんが、[!UICONTROL Display Actual Price]の設定に従ってのみ含まれます。 各ダウンロードリンクに関連付けられている価格は、通常どおり表示されます。 |
+| [&#x200B; バンドル &#x200B;](product-create-bundle.md) （固定価格） | 実際の価格は、カタログページには自動的に表示されませんが、[!UICONTROL Display Actual Price]設定に従ってのみ含まれます。 バンドルアイテムの価格は通常どおり表示されます。 MAPは、動的な価格設定のバンドル製品では使用できません。 |
+| [&#x200B; ダウンロード可能](product-create-downloadable.md) | 実際の価格は、カタログリストと商品ページには自動的に表示されませんが、[!UICONTROL Display Actual Price]の設定に従ってのみ含まれます。 各ダウンロードリンクに関連付けられている価格は、通常どおり表示されます。 |
 
 {style="table-layout:auto"}
 
@@ -88,17 +88,17 @@ MAP機能では、通常の製品価格の代わりに、専用の&#x200B;_ク�
 
 MAPが有効になっている場合、製品レベルのMAP設定が使用可能になります。 MSRPを入力し、実際の価格をストアに表示する方法を選択することで、個々の製品にMAPを適用できます。 製品レベルのMAP設定は、グローバル MAP設定を上書きします。
 
-![価格をクリック ](./assets/storefront-price-map.png){width="700" zoomable="yes"}
+![価格をクリック &#x200B;](./assets/storefront-price-map.png){width="700" zoomable="yes"}
 
 ### 手順1：ストアビューのMAPを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 該当する場合は、設定が適用されるビューの右上隅に&#x200B;**[!UICONTROL Store View]**&#x200B;を設定します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、下の「**[!UICONTROL Sales]**」を選択します。
 
-1. _[!UICONTROL Minimum Advertised Price]_セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
+1. _[!UICONTROL Minimum Advertised Price]_&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
 1. 必要に応じて、**マップを有効にする**&#x200B;を`Yes`に設定します。
 

@@ -44,7 +44,7 @@ ht-degree: 0%
 ---
 # カートの価格ルール例 – 送料無料プロモーション
 
-送料無料は、[ クーポン ](price-rules-cart-coupon.md)の有無を問わず、プロモーションとして提供できます。 送料無料のクーポン、またはバウチャーを顧客の受け取り注文に適用することもできるので、注文を請求して出荷して、[ ワークフロー](../stores-purchase/order-processing.md#order-workflow-and-processing)を完了できます。
+送料無料は、[&#x200B; クーポン &#x200B;](price-rules-cart-coupon.md)の有無を問わず、プロモーションとして提供できます。 送料無料のクーポン、またはバウチャーを顧客の受け取り注文に適用することもできるので、注文を請求して出荷して、[&#x200B; ワークフロー](../stores-purchase/order-processing.md#order-workflow-and-processing)を完了できます。
 
 配送業者の構成によっては、最低注文に基づいて送料無料を提供できるものもあります。 この基本的な機能をさらに拡張するには、ショッピングカートの価格ルールを使用して、複数の製品属性、カートの内容、顧客グループに基づいて複雑な条件を作成します。
 
@@ -52,11 +52,11 @@ ht-degree: 0%
 
 1. ストア設定で[送料無料](../stores-purchase/shipping-free.md)を有効にします。
 
-1. 送料無料に使用する[ キャリア サービス ](../stores-purchase/carriers.md)の送料無料設定を完了します。
+1. 送料無料に使用する[&#x200B; キャリア サービス &#x200B;](../stores-purchase/carriers.md)の送料無料設定を完了します。
 
 ## 手順2: 買い物かごの価格ルールの作成
 
-_管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;に移動します。
 
 以下の手順に従って、提供する送料無料プロモーションの種類を設定します。
 
@@ -71,7 +71,7 @@ _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promo
    - ルールが適用される&#x200B;**[!UICONTROL Customer Groups]**&#x200B;を選択します。
    - **[!UICONTROL Coupon]**&#x200B;を次のいずれかに設定します：
      - クーポンなしで送料無料プロモーションを提供するには、デフォルトの（`No Coupon`）設定に従います。
-     - 価格ルールでクーポンを使用するには、`Specific Coupon`を選択します。 必要に応じて、手順を完了して[ クーポン ](price-rules-cart-coupon.md)を設定します。
+     - 価格ルールでクーポンを使用するには、`Specific Coupon`を選択します。 必要に応じて、手順を完了して[&#x200B; クーポン &#x200B;](price-rules-cart-coupon.md)を設定します。
 
 1. 下にスクロールして、**[!UICONTROL Actions]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 

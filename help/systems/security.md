@@ -45,15 +45,15 @@ ht-degree: 0%
 
 - [二段階認証](security-two-factor-authentication.md)を設定
 - [CAPTCHA](security-captcha.md)または[reCAPTCHA](security-google-recaptcha.md)を実装
-- Adobe CommerceまたはMagento Open Sourceの各ドメインに対して[ セキュリティスキャン ](security-scan.md)を設定します。
+- Adobe CommerceまたはMagento Open Sourceの各ドメインに対して[&#x200B; セキュリティスキャン &#x200B;](security-scan.md)を設定します。
 
 >[!NOTE]
 >
 >[!DNL Adobe Identity Management Services] （IMS）認証を有効にしているストアでは、ネイティブ Adobe CommerceとMagento Open Source 2FAが無効になっています。 Adobeの資格情報を使用してCommerce インスタンスにログインしている管理者ユーザーは、多くの管理者タスクで再認証を行う必要はありません。 認証は、管理者ユーザーが現在のセッションにログインしたときにAdobe IMSによって処理されます。 [[!DNL Adobe Identity Management Service]  （IMS）統合の概要](../getting-started/adobe-ims-integration-overview.md)を参照してください。
 
-[ セキュリティセンター](https://helpx.adobe.com/security.html){:target="_blank"}にアクセスして、潜在的な脆弱性に関する最新ニュースを入手し、Adobe セキュリティ通知に登録し、Adobe Trust Centerにアクセスします。
+[&#x200B; セキュリティセンター](https://helpx.adobe.com/security.html){:target="_blank"}にアクセスして、潜在的な脆弱性に関する最新ニュースを入手し、Adobe セキュリティ通知に登録し、Adobe Trust Centerにアクセスします。
 
-![ セキュリティセンター](./assets/product-security-home.png){width="700" zoomable="yes"}
+![&#x200B; セキュリティセンター](./assets/product-security-home.png){width="700" zoomable="yes"}
 
 セキュリティのベストプラクティスについて詳しくは、_実装プレイブック_&#x200B;の[Commerce サイトとインフラストラクチャの保護](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)を参照してください。
 
@@ -61,11 +61,11 @@ ht-degree: 0%
 
 Adobe CommerceまたはMagento Open Sourceのサイトが侵害されたと疑われる場合は、遅滞なく、このアクションプランに従ってください。
 
-1. **診断**: スキャンを実行して、Commerce ストアのセキュリティ ステータスを確認します。 Commerce [ セキュリティスキャン ](security-scan.md)は、Adobeが提供する無料サービスです。Commerce サイトで既知のセキュリティリスクやマルウェアを監視し、セキュリティ通知を受け取ることができます。
+1. **診断**: スキャンを実行して、Commerce ストアのセキュリティ ステータスを確認します。 Commerce [&#x200B; セキュリティスキャン &#x200B;](security-scan.md)は、Adobeが提供する無料サービスです。Commerce サイトで既知のセキュリティリスクやマルウェアを監視し、セキュリティ通知を受け取ることができます。
 
-1. **クリーン**: [適格コンサルタント ](https://solutionpartners.adobe.com/s/directory/?partner_type=1)またはオンラインサービスを雇用して、サイトに存在するすべての悪意のあるコードをクリーニングします。 一部のCommerce コミュニティ メンバーは[[!DNL Sucuri Website Malware Removal]](https://sucuri.net/website-antivirus/malware-removal)を推奨しています。 残りの実行可能なコードについては、`/media` フォルダーを確認してください。 不明な管理者ユーザーをすべて削除し、すべての管理者パスワードをリセットします。
+1. **クリーン**: [適格コンサルタント &#x200B;](https://solutionpartners.adobe.com/s/directory/?partner_type=1)またはオンラインサービスを雇用して、サイトに存在するすべての悪意のあるコードをクリーニングします。 一部のCommerce コミュニティ メンバーは[[!DNL Sucuri Website Malware Removal]](https://sucuri.net/website-antivirus/malware-removal)を推奨しています。 残りの実行可能なコードについては、`/media` フォルダーを確認してください。 不明な管理者ユーザーをすべて削除し、すべての管理者パスワードをリセットします。
 
-1. **Protect**：最新のリリースで、Commerceのインストールを最新の状態に保ちます。 古いバージョンを使用している場合は、利用可能になったすべてのセキュリティパッチを適用します。 [Commerceのセキュリティに関するベストプラクティス ](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf)を確認してフォローします。 [Commerce セキュリティ アラート ](https://www.adobe.com/subscription/adbeSecurityNotifications.html)を購読します。
+1. **Protect**：最新のリリースで、Commerceのインストールを最新の状態に保ちます。 古いバージョンを使用している場合は、利用可能になったすべてのセキュリティパッチを適用します。 [Commerceのセキュリティに関するベストプラクティス &#x200B;](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf)を確認してフォローします。 [Commerce セキュリティ アラート &#x200B;](https://www.adobe.com/subscription/adbeSecurityNotifications.html)を購読します。
 
 1. **レポート**: Commerceで特定の脆弱性が見つかったと思われる場合は、[Adobe](https://hackerone.com/adobe?type=team)で問題を開き、技術的な詳細を含めてください。
 

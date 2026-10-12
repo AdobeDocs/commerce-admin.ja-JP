@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ### 手順1: ボタンコードを取得
 
-1. Metaの開発者向けweb サイトで、[ ボタンの設定](https://developers.facebook.com/docs/plugins/like-button) ページに移動します。
+1. Metaの開発者向けweb サイトで、[&#x200B; ボタンの設定](https://developers.facebook.com/docs/plugins/like-button) ページに移動します。
 
 1. **[!UICONTROL URL to Like]**&#x200B;の場合は、ユーザーに&#x200B;_いいね_&#x200B;してもらいたいストア内のページのURLを入力します。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. ストア管理者に戻ります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Block]**」をクリックします。
 
@@ -103,9 +103,9 @@ ht-degree: 0%
 
 1. コンテンツツールに応じて、ブロックを追加します。
 
-   - [!UICONTROL Page Builder]を使用する場合は、手順に従って[ ブロック ](../page-builder/block.md)をステージに追加します。
+   - [!UICONTROL Page Builder]を使用する場合は、手順に従って[&#x200B; ブロック &#x200B;](../page-builder/block.md)をステージに追加します。
 
-   - _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**に移動します。
+   - _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックし、次の操作を行います。
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Sort Order]** フィールドに数値を入力して、ブロックが割り当てられている場合に、そのブロックが他のコンテンツ要素と同じ場所に表示されるかどうかを判断します。 上の位置はゼロです。
 
-1. _[!UICONTROL Layout Updates]_セクションで、**[!UICONTROL Add Layout Update]**をクリックし、**[!UICONTROL Display On]**をブロックを表示するカテゴリ、製品、またはページに設定します。
+1. _[!UICONTROL Layout Updates]_&#x200B;セクションで、**[!UICONTROL Add Layout Update]**&#x200B;をクリックし、**[!UICONTROL Display On]**&#x200B;をブロックを表示するカテゴリ、製品、またはページに設定します。
 
    例えば、`All Pages`を選択してヘッダーまたはフッターのいずれかにブロックを配置すると、そのブロックはストアのすべてのページで同じ場所に表示されます。
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 1. プロンプトが表示されたら、ワークスペースの上部にある手順に従って、インデックスとページキャッシュを更新します。
 
-   ウィジェットが&#x200B;_[!UICONTROL Widgets]_リストに表示されます。
+   ウィジェットが&#x200B;_[!UICONTROL Widgets]_&#x200B;リストに表示されます。
 
 ### 手順4: ストア内の場所の確認
 
@@ -157,11 +157,11 @@ RSS （Really Simple Syndication）は、オンラインで情報を配信する
 
 RSS フィードが有効になっている場合、製品、スペシャル、カテゴリー、クーポンへの追加は、各フィードのサブスクライバーに自動的に送信されます。 公開したすべてのRSS フィードへのリンクは、ストアのフッターにあります。
 
-![RSS フィードのアイコン ](./assets/icon-rss.png){width="100"}<br/>
+![RSS フィードのアイコン &#x200B;](./assets/icon-rss.png){width="100"}<br/>
 
 RSS フィードを読むために必要なソフトウェアはフィードリーダーと呼ばれ、見出し、ブログ、ポッドキャストなどを購読することができます。 Google Readerは、無料でオンラインで利用できる多くのフィードリーダーのひとつです。
 
-![ ストアフロントの例 – RSS フィード ](./assets/storefront-rss-feeds.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの例 – RSS フィード &#x200B;](./assets/storefront-rss-feeds.png){width="700" zoomable="yes"}
 
 ### RSS フィードを設定するメリット
 
@@ -186,7 +186,7 @@ RSS フィードを読むために必要なソフトウェアはフィードリ�
 
 ### ストアのRSS フィードの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 右上隅で、フィードを利用できるビューに&#x200B;**[!UICONTROL Store View]**&#x200B;を設定します。
 
@@ -196,7 +196,7 @@ RSS フィードを読むために必要なソフトウェアはフィードリ�
 
 1. **[!UICONTROL Rss Config]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、**[!UICONTROL Enable RSS]**&#x200B;を`Enable`に設定します。
 
-   ![ カタログ設定 – RSS フィード ](../configuration-reference/catalog/assets/rss-feeds-rss-config.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ設定 – RSS フィード &#x200B;](../configuration-reference/catalog/assets/rss-feeds-rss-config.png){width="600" zoomable="yes"}
 
    必要に応じて、**[!UICONTROL Use Default]** チェックボックスをオフにして、デフォルト値を変更します。
 
@@ -209,7 +209,7 @@ RSS フィードを読むために必要なソフトウェアはフィードリ�
    - **[!UICONTROL Coupons/Discounts]**
    - **[!UICONTROL Top Level Category]**
 
-   ![ カタログ - RSS フィード設定](../configuration-reference/catalog/assets/rss-feeds-catalog.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ - RSS フィード設定](../configuration-reference/catalog/assets/rss-feeds-catalog.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Order]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、**[!UICONTROL Customer Order Status Notification]**&#x200B;を`Enable`に設定します。
 

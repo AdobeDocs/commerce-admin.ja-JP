@@ -40,11 +40,11 @@ ht-degree: 0%
 ---
 # 製品画像設定
 
-_[!UICONTROL Product Details]_ページで表示するために大きな画像をアップロードする場合は、最大ピクセルサイズ（幅と高さ）を設定し、アップロード時にファイルのサイズを自動的に変更することをお勧めします。 この種類の製品画像のアップロードをサポートするには、アップロード時に大きな画像ファイルのサイズを自動的に変更するオプションがあります。 カタログに追加する製品で、表示する画像アセットがまだない場合は、プレースホルダー画像を設定できます。
+_[!UICONTROL Product Details]_&#x200B;ページで表示するために大きな画像をアップロードする場合は、最大ピクセルサイズ（幅と高さ）を設定し、アップロード時にファイルのサイズを自動的に変更することをお勧めします。 この種類の製品画像のアップロードをサポートするには、アップロード時に大きな画像ファイルのサイズを自動的に変更するオプションがあります。 カタログに追加する製品で、表示する画像アセットがまだない場合は、プレースホルダー画像を設定できます。
 
 ## 製品画像のサイズ変更
 
-製品画像をアップロードする際に、様々なサイズの大きな画像を追加して、_[!UICONTROL Product Details]_ページで詳細で高品質なズームを提供することができます。 すべての画像のサイズと外観が同じであることを確認するには、すべての画像が特定のピクセルサイズに一致するように、画像リサイズオプションを使用します。 このオプションを使用すると、すべての製品画像のサイズが自動的に変更されます。これは、ズームのパフォーマンス、画像の読み込みの高速化、製品画像の統一感の維持に役立ちます。
+製品画像をアップロードする際に、様々なサイズの大きな画像を追加して、_[!UICONTROL Product Details]_&#x200B;ページで詳細で高品質なズームを提供することができます。 すべての画像のサイズと外観が同じであることを確認するには、すべての画像が特定のピクセルサイズに一致するように、画像リサイズオプションを使用します。 このオプションを使用すると、すべての製品画像のサイズが自動的に変更されます。これは、ズームのパフォーマンス、画像の読み込みの高速化、製品画像の統一感の維持に役立ちます。
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ _[!UICONTROL Product Details]_ページで表示するために大きな画像�
 
 ### 画像のサイズ変更を有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL System]**&#x200B;を選択します。
 
@@ -89,7 +89,7 @@ _[!UICONTROL Product Details]_ページで表示するために大きな画像�
 | フィールド | [範囲](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Quality] | グローバル | サイズ変更された画像のJPG画質を指定します。 画質を下げると、ファイルサイズが小さくなります。 高品質でファイルサイズを縮小するには、80 ～ 90%をお勧めします。 デフォルト：80 |
-| [!UICONTROL Enable Frontend Resize] | グローバル | Commerceで、_[!UICONTROL Product Details]_ページ用にアップロードできる大きくて大きすぎる画像のサイズを変更できます。 Commerceでは、ファイルをアップロードする際に、JavaScriptを使用して画像ファイルのサイズを変更します。 画像のサイズを変更すると、最大幅または最大高さに対して最大サイズを超えないように、正確な比率が維持されます。 既定：`Yes` |
+| [!UICONTROL Enable Frontend Resize] | グローバル | Commerceで、_[!UICONTROL Product Details]_&#x200B;ページ用にアップロードできる大きくて大きすぎる画像のサイズを変更できます。 Commerceでは、ファイルをアップロードする際に、JavaScriptを使用して画像ファイルのサイズを変更します。 画像のサイズを変更すると、最大幅または最大高さに対して最大サイズを超えないように、正確な比率が維持されます。 既定：`Yes` |
 | [!UICONTROL Maximum Width] | グローバル | 画像の最大ピクセル幅を指定します。 画像のサイズを変更しても、この幅を超えることはありません。 既定：`1920` |
 | [!UICONTROL Maximum Height] | グローバル | 画像の最大ピクセル高さを指定します。 画像のサイズを変更しても、この高さを超えることはありません。 既定：`1200` |
 
@@ -103,11 +103,11 @@ Adobe CommerceとMagento Open Sourceは、永続的な商品画像が利用可�
 
 **_プレースホルダー画像をアップロードするには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. **[!UICONTROL Product Image Placeholders]** セクションの![拡張アイコン ](../assets/icon-display-expand.png)を展開します。
+1. **[!UICONTROL Product Image Placeholders]** セクションの![拡張アイコン &#x200B;](../assets/icon-display-expand.png)を展開します。
 
    ![製品画像プレースホルダー](../configuration-reference/catalog/assets/catalog-product-image-placeholders.png){width="600" zoomable="yes"}
 
@@ -119,4 +119,4 @@ Adobe CommerceとMagento Open Sourceは、永続的な商品画像が利用可�
 
 1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-画像の役割と推奨サイズについて詳しくは、[画像のアップロード ](product-image.md#upload-an-image)を参照してください。
+画像の役割と推奨サイズについて詳しくは、[画像のアップロード &#x200B;](product-image.md#upload-an-image)を参照してください。

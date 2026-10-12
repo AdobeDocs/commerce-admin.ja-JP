@@ -36,9 +36,9 @@ ht-degree: 0%
 ---
 # バンドル製品のインポート
 
-バンドル商品では、商品の選択肢が提示され、顧客は購入する商品を選択できます。 バンドルを構成するすべてのアイテムは、カタログに[ シンプル製品](../catalog/product-create-simple.md)または[仮想製品](../catalog/product-create-virtual.md)として存在します。 通常、バンドル製品は管理者から作成および更新されます。 ただし、データを読み込んでバンドル製品を作成したり、既存のバンドル製品を書き出してデータを編集し、カタログに読み込むこともできます。 Sprite Yoga Companion Kitは、サンプルデータに含まれるバンドル製品で、次の例で使用されます。
+バンドル商品では、商品の選択肢が提示され、顧客は購入する商品を選択できます。 バンドルを構成するすべてのアイテムは、カタログに[&#x200B; シンプル製品](../catalog/product-create-simple.md)または[仮想製品](../catalog/product-create-virtual.md)として存在します。 通常、バンドル製品は管理者から作成および更新されます。 ただし、データを読み込んでバンドル製品を作成したり、既存のバンドル製品を書き出してデータを編集し、カタログに読み込むこともできます。 Sprite Yoga Companion Kitは、サンプルデータに含まれるバンドル製品で、次の例で使用されます。
 
-![ バンドル製品](../catalog/assets/product-bundle.png){width="700" zoomable="yes"}
+![&#x200B; バンドル製品](../catalog/assets/product-bundle.png){width="700" zoomable="yes"}
 
 ## バンドルアイテムの順序の変更
 
@@ -46,9 +46,9 @@ ht-degree: 0%
 
 ### 方法1：ドラッグ&amp;ドロップ
 
-管理者から[ バンドル ](../catalog/product-create-bundle.md)製品を操作する場合、アイテムとセクションをドラッグ&amp;ドロップして配置できます。
+管理者から[&#x200B; バンドル &#x200B;](../catalog/product-create-bundle.md)製品を操作する場合、アイテムとセクションをドラッグ&amp;ドロップして配置できます。
 
-![ バンドルアイテム ](../catalog/assets/product-bundle-items-move.png){width="600" zoomable="yes"}
+![&#x200B; バンドルアイテム &#x200B;](../catalog/assets/product-bundle-items-move.png){width="600" zoomable="yes"}
 
 ### 方法2：製品データを編集する
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 この手順では、Sprite Yoga Companion Kitを（[CSV](data-csv.md) ファイルとして書き出します。 カタログに含まれている他のバンドル製品を使用できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**&#x200B;に移動します。
 
 1. _書き出し設定_&#x200B;で、**[!UICONTROL Entity Type]**&#x200B;を`Products`に設定します。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 1. セクションの一番下までスクロールして、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
-1. _[!UICONTROL File name]_グリッドの_[!UICONTROL Action]_&#x200B;列で、**[!UICONTROL Select]**&#x200B;をクリックし、`Download`を選択します。
+1. _[!UICONTROL File name]_&#x200B;グリッドの&#x200B;_[!UICONTROL Action]_&#x200B;列で、**[!UICONTROL Select]**&#x200B;をクリックし、`Download`を選択します。
 
    ファイルは、ブラウザーが使用するダウンロード場所に表示されます。
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
    `bundle_values` データでは、各要素はコンマで区切られ、各バンドル項目は縦の棒で次の要素から区切られます。 （最後の項目は縦棒で終わりません）。 書き出されたバンドルデータは、次の例のようになります。
 
-   ![ バンドル値](./assets/product-bundle-values-export-data.png){width="600" zoomable="yes"}
+   ![&#x200B; バンドル値](./assets/product-bundle-values-export-data.png){width="600" zoomable="yes"}
 
 1. 編集しやすくするために、`bundle_values` データをコピーしてテキストエディターに貼り付け、次に、各項目の後に改行を追加して、各項目が別々の行になるようにします。
 
@@ -105,9 +105,9 @@ ht-degree: 0%
 
 #### 手順3：更新した製品の読み込み
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**&#x200B;に移動します。
 
-1. _[!UICONTROL Import Settings]_で、**[!UICONTROL Entity Type]**を`Products`に設定します。
+1. _[!UICONTROL Import Settings]_&#x200B;で、**[!UICONTROL Entity Type]**&#x200B;を`Products`に設定します。
 
 1. **[!UICONTROL Import Behavior]**&#x200B;を`Replace`に設定します。
 
@@ -121,6 +121,6 @@ ht-degree: 0%
 
 1. ファイルが有効な場合は、**[!UICONTROL Import]**&#x200B;をクリックします。
 
-1. プロセスが完了したら、**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**に移動し、**[!UICONTROL Flush Cache Storage]**をクリックします。
+1. プロセスが完了したら、**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;に移動し、**[!UICONTROL Flush Cache Storage]**&#x200B;をクリックします。
 
    これにより、更新された商品がストアフロントですぐに利用できるようになります。

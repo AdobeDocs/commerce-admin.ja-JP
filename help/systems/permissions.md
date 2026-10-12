@@ -48,6 +48,6 @@ Adobe CommerceとMagento Open Sourceでは、ロールと権限を使用して�
 
 管理者ユーザーのアクセスが特定のweb サイトまたはストアに制限されている場合、許可されていないサイトは表示されないか、グレー表示になります。 許可されたweb サイトおよびストアの販売およびその他のデータのみがユーザーに表示されます。
 
-- ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）デフォルトでは、ユーザーがストアに変更を適用したときに実行したすべてのアクションが自動的に記録（記録）されます。 管理者アクションは、[ アクションログレポート ](action-log-report.md)で確認できます。 ストアの高度な管理者設定で[管理者アクション ログ ](action-log.md)へのログインを設定します。
+- ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）デフォルトでは、ユーザーがストアに変更を適用したときに実行したすべてのアクションが自動的に記録（記録）されます。 管理者アクションは、[&#x200B; アクションログレポート &#x200B;](action-log-report.md)で確認できます。 ストアの高度な管理者設定で[管理者アクション ログ &#x200B;](action-log.md)へのログインを設定します。
 
-![管理者 – すべてのユーザーアカウント ](./assets/users-all.png){width="700" zoomable="yes"}
+![管理者 – すべてのユーザーアカウント &#x200B;](./assets/users-all.png){width="700" zoomable="yes"}

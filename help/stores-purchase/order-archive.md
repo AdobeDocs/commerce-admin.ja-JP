@@ -42,13 +42,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->アーカイブが[有効](../configuration-reference/sales/sales.md)の場合にのみ、[[!UICONTROL Sales] メニュー](sales-menu.md)に&#x200B;_[!UICONTROL Archive]_オプションが表示されます。
+>アーカイブが[有効](../configuration-reference/sales/sales.md)の場合にのみ、[[!UICONTROL Sales] メニュー](sales-menu.md)に&#x200B;_[!UICONTROL Archive]_&#x200B;オプションが表示されます。
 
 ## 注文アーカイブの設定
 
 設定された日数が経過すると、注文、請求書、出荷、クレジットメモをアーカイブするようにストアを設定できます。 注文とその関連ドキュメントをアーカイブに移動したり、以前の状態に復元したりできます。 アーカイブされた注文は削除されず、管理者から引き続き利用できます。 アーカイブされたデータはCSV ファイルに書き出して、スプレッドシートで開くことができます。 有効にすると、_アーカイブ_ アクションがワークスペースの上部に表示されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」セクションを展開し、下の「**[!UICONTROL Sales]**」を選択します。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ## アーカイブされたドキュメントを表示
 
-1. _[!UICONTROL Archive]_の下の_[!UICONTROL Sales]_ メニューで、次のいずれかを選択します。
+1. _[!UICONTROL Archive]_&#x200B;の下の&#x200B;_[!UICONTROL Sales]_ メニューで、次のいずれかを選択します。
 
    - **[!UICONTROL Orders]**
    - **[!UICONTROL Invoices]**
@@ -135,17 +135,17 @@ ht-degree: 0%
 
 1. **[!UICONTROL Export]**&#x200B;をクリックします。
 
-設定された日数が経過すると、注文、請求書、出荷、クレジットメモをアーカイブするようにストアを設定できます。 注文とその関連ドキュメントをアーカイブに移動したり、以前の状態に復元したりできます。 アーカイブされた注文は削除されず、管理者から引き続き利用できます。 アーカイブされたデータはCSV ファイルに書き出して、スプレッドシートで開くことができます。 有効にすると、_[!UICONTROL Archive]_コマンドがワークスペースの上部に表示されます。
+設定された日数が経過すると、注文、請求書、出荷、クレジットメモをアーカイブするようにストアを設定できます。 注文とその関連ドキュメントをアーカイブに移動したり、以前の状態に復元したりできます。 アーカイブされた注文は削除されず、管理者から引き続き利用できます。 アーカイブされたデータはCSV ファイルに書き出して、スプレッドシートで開くことができます。 有効にすると、_[!UICONTROL Archive]_&#x200B;コマンドがワークスペースの上部に表示されます。
 
 ## 注文を手動でアーカイブ
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**&#x200B;に移動します。
 
 1. グリッド上の順序を選択するには、最初の列のチェックボックスを選択します。
 
 1. **[!UICONTROL Actions]** コントロールを`Move to Archive`に設定し、注文がアーカイブされたメッセージを探します。
 
-   ![選択した注文をアーカイブ ](./assets/order-move-to-archive.png){width="700" zoomable="yes"}に移動
+   ![選択した注文をアーカイブ &#x200B;](./assets/order-move-to-archive.png){width="700" zoomable="yes"}に移動
 
 >[!TIP]
 >
@@ -155,17 +155,17 @@ ht-degree: 0%
 
 1. 次のいずれかの方法を使用してアーカイブ ビューを開きます。
 
-   - _[!UICONTROL Orders]_グリッドの上にあるボタンバーで、**[!UICONTROL Go to Archive]**をクリックします。
+   - _[!UICONTROL Orders]_&#x200B;グリッドの上にあるボタンバーで、**[!UICONTROL Go to Archive]**&#x200B;をクリックします。
 
-   - _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Archive]_>**[!UICONTROL Orders]**に移動します。
+   - _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Archive]_>**[!UICONTROL Orders]**&#x200B;に移動します。
 
    >[!NOTE]
    >
-   >注文ページと同様に、アーカイブされた注文ページのタイトルは&#x200B;_[!UICONTROL Orders]_です。 唯一の顕著な違いは、ボタンバーの_[!UICONTROL Return to Orders Management]_&#x200B;へのオプションです。 ページのURLは、注文アーカイブ内にあることも示します。
+   >注文ページと同様に、アーカイブされた注文ページのタイトルは&#x200B;_[!UICONTROL Orders]_&#x200B;です。 唯一の顕著な違いは、ボタンバーの&#x200B;_[!UICONTROL Return to Orders Management]_&#x200B;へのオプションです。 ページのURLは、注文アーカイブ内にあることも示します。
 
 1. _アクション_&#x200B;列で、**[!UICONTROL View]**&#x200B;をクリックします。
 
-   ![ アーカイブされた注文を表示](./assets/order-archived-view.png){width="600" zoomable="yes"}
+   ![&#x200B; アーカイブされた注文を表示](./assets/order-archived-view.png){width="600" zoomable="yes"}
 
 ## アーカイブされた注文の復元
 
@@ -173,7 +173,7 @@ ht-degree: 0%
 >
 >アーカイブされた注文から復元された注文は、[!UICONTROL Archive Orders Purchased]設定で設定された日数に従って再度アーカイブされます（[注文アーカイブの設定](#configure-the-order-archive)を参照）。 日数は、注文の[!UICONTROL Updated At]日に対して計算されます。これは、注文がアーカイブから移動されたときに変更されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**&#x200B;に移動します。
 
 1. ボタンバーで、**[!UICONTROL Go to Archive]**&#x200B;をクリックします。
 
@@ -187,6 +187,6 @@ ht-degree: 0%
 
 ## アーカイブされた注文のエクスポート
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**&#x200B;に移動します。
 
 1. アクションメニューで「**[!UICONTROL Export]**」をクリックし、目的の形式を選択します。

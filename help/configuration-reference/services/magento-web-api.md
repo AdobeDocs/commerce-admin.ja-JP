@@ -78,7 +78,7 @@ ht-degree: 3%
 
 ## [!UICONTROL Web API Security]
 
-![Web API セキュリティ ](./assets/web-api-security.png)<!-- zoom -->
+![Web API セキュリティ &#x200B;](./assets/web-api-security.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

@@ -42,15 +42,15 @@ ht-degree: 0%
 ---
 # 製品設定 – [!UICONTROL Gift Options]
 
-_[!UICONTROL Gift Options]_セクションでは、チェックアウト時に商品レベルでギフトメッセージとギフト包装オプションを設定できます。 既定の構成設定を上書きするには、**[!UICONTROL Use Config Settings]**チェックボックスの選択を解除します。
+_[!UICONTROL Gift Options]_&#x200B;セクションでは、チェックアウト時に商品レベルでギフトメッセージとギフト包装オプションを設定できます。 既定の構成設定を上書きするには、**[!UICONTROL Use Config Settings]**&#x200B;チェックボックスの選択を解除します。
 
-![ ギフトオプション ](./assets/product-gift-options-ee.png){width="600" zoomable="yes"}
+![&#x200B; ギフトオプション &#x200B;](./assets/product-gift-options-ee.png){width="600" zoomable="yes"}
 
 ## 1つの商品にギフトオプションを設定する
 
 1. 製品を編集モードで開きます。
 
-1. 下にスクロールして、_[!UICONTROL Gift Options]_セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
+1. 下にスクロールして、_[!UICONTROL Gift Options]_&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
    - 既定の設定を上書きするには、**[!UICONTROL Use Config Settings]** チェックボックスの選択を解除します。
 
@@ -68,7 +68,7 @@ Commerceでは、デフォルトで、チェックアウトプロセス中に、
 
 この機能を顧客に提供するには、ストアの&#x200B;_ギフトメッセージ_&#x200B;を有効にします。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、下の「**[!UICONTROL Sales]**」を選択します。
 
@@ -82,4 +82,4 @@ Commerceでは、デフォルトで、チェックアウトプロセス中に、
 
 この設定を使用すると、次の例に示すように、お客様はストアフロントからカートページにギフトメッセージを追加できます。
 
-![ ギフトメッセージ ](./assets/gift-message.png){width="600" zoomable="yes"}
+![&#x200B; ギフトメッセージ &#x200B;](./assets/gift-message.png){width="600" zoomable="yes"}

@@ -37,7 +37,7 @@ ht-degree: 0%
 ---
 # 注文の作成
 
-サポートが必要な登録済みのお客様は、Adminから直接注文全体を作成できます。 _[!UICONTROL Create New Order]_フォームには、通常のチェックアウトプロセスに必要なすべての情報と、顧客のアカウントダッシュボードからのアクティビティの概要が含まれています。
+サポートが必要な登録済みのお客様は、Adminから直接注文全体を作成できます。 _[!UICONTROL Create New Order]_&#x200B;フォームには、通常のチェックアウトプロセスに必要なすべての情報と、顧客のアカウントダッシュボードからのアクティビティの概要が含まれています。
 
 ![顧客の注文を作成](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    ![Workspace ヘッダー](./assets/order-create-buttons.png){width="700" zoomable="yes"}
 
-   **[!UICONTROL Create New Order]**&#x200B;をクリックして、[注文ワークスペース ](orders.md#orders-workspace)で注文を作成することもできます。
+   **[!UICONTROL Create New Order]**&#x200B;をクリックして、[注文ワークスペース &#x200B;](orders.md#orders-workspace)で注文を作成することもできます。
 
 ## 手順2：製品の追加
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Add Selected Product(s) to Order]**&#x200B;をクリックして買い物かごを更新します。
 
-1. 商品が[ ギフトオプション ](../catalog/product-gift-options.md)用に設定されている場合は、必要に応じてオプションを設定します。
+1. 商品が[&#x200B; ギフトオプション &#x200B;](../catalog/product-gift-options.md)用に設定されている場合は、必要に応じてオプションを設定します。
 
 1. 必要に応じて、項目の価格を上書きします。
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
    - 買い物かごの合計を更新するには、**[!UICONTROL Update Items and Quantities]**&#x200B;をクリックします。
 
-   ![ カスタム価格](./assets/create-order-custom-price.png){width="600" zoomable="yes"}
+   ![&#x200B; カスタム価格](./assets/create-order-custom-price.png){width="600" zoomable="yes"}
 
 1. 注文に必要に応じて、次のセクションを完了します。
 
@@ -120,11 +120,11 @@ ht-degree: 0%
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
-   - [!UICONTROL [ カスタム注文属性]](../stores-purchase/order-processing.md#custom-order-attributes)
+   - [[!UICONTROL [ カスタム注文属性]]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >
->Payment Services拡張機能がインストールされ、設定されている場合にこの機能をサポートする支払い方法について詳しくは、[支払いサービスガイド ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)を参照してください。
+>Payment Services拡張機能がインストールされ、設定されている場合にこの機能をサポートする支払い方法について詳しくは、[支払いサービスガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)を参照してください。
 
 ## 手順3：注文の送信
 

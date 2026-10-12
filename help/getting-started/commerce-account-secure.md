@@ -63,7 +63,7 @@ TFAを使用するには、個人用デバイス（スマートフォン、タ�
 
 ## 二段階認証を有効にする
 
-1. [[!DNL Commerce]  アカウント ](https://account.magento.com/customer/account/login){:target="_blank"}にログインします。
+1. [[!DNL Commerce]  アカウント &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}にログインします。
 
 1. 左側のナビゲーション ウィンドウで、**[!UICONTROL Account Settings]**&#x200B;を選択し、**[!UICONTROL Two-factor Authentication]**&#x200B;を選択します。
 
@@ -123,11 +123,11 @@ TFAを使用するには、個人用デバイス（スマートフォン、タ�
 
 >[!TIP]
 >
->個人用デバイスを紛失したり、新しいデバイスを入手したりした場合は、[二段階認証アプリ ](#change-your-two-factor-authentication-application)を変更して、新しい回復用コードを生成できます。
+>個人用デバイスを紛失したり、新しいデバイスを入手したりした場合は、[二段階認証アプリ &#x200B;](#change-your-two-factor-authentication-application)を変更して、新しい回復用コードを生成できます。
 
 ## 確認コードを使ってログイン
 
-1. [!DNL Commerce] [ アカウントログイン ](https://account.magento.com/customer/account/login){:target="_blank"}に移動します。
+1. [!DNL Commerce] [&#x200B; アカウントログイン &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}に移動します。
 
 1. ユーザー名とパスワードの資格情報を入力し、**[!UICONTROL Login]**&#x200B;を選択します。
 
@@ -139,7 +139,7 @@ TFAを使用するには、個人用デバイス（スマートフォン、タ�
 
 ## 回復用コードでログイン
 
-1. [!DNL Commerce] [ アカウントログイン ](https://account.magento.com/customer/account/login){:target="_blank"}に移動します。
+1. [!DNL Commerce] [&#x200B; アカウントログイン &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}に移動します。
 
 1. ユーザー名とパスワードの資格情報を入力し、**[!UICONTROL Login]**&#x200B;を選択します。
 
@@ -153,7 +153,7 @@ TFAを使用するには、個人用デバイス（スマートフォン、タ�
 
 ## 回復用メールアドレスでログイン
 
-1. [[!DNL Commerce]  アカウント ](https://account.magento.com/customer/account/login){:target="_blank"}にログインします。
+1. [[!DNL Commerce]  アカウント &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}にログインします。
 
 1. ユーザー名とパスワードの資格情報を入力し、**[!UICONTROL Login]**&#x200B;を選択します。
 
@@ -171,7 +171,7 @@ TFAを使用するには、個人用デバイス（スマートフォン、タ�
 
 ## 回復用コードを表示
 
-1. [!DNL Commerce] [ アカウントログイン ](https://account.magento.com/customer/account/login){:target="_blank"}に移動します。
+1. [!DNL Commerce] [&#x200B; アカウントログイン &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}に移動します。
 
 1. ユーザー名とパスワードの資格情報を入力し、**[!UICONTROL Login]**&#x200B;を選択します。
 
@@ -199,7 +199,7 @@ TFAを使用するには、個人用デバイス（スマートフォン、タ�
 
 ## 新しい回復用コードを生成
 
-1. [!DNL Commerce] [ アカウントログイン ](https://account.magento.com/customer/account/login){:target="_blank"}に移動します。
+1. [!DNL Commerce] [&#x200B; アカウントログイン &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}に移動します。
 
 1. ユーザー名とパスワードの資格情報を入力し、**[!UICONTROL Login]**&#x200B;を選択します。
 
@@ -221,7 +221,7 @@ TFAを使用するには、個人用デバイス（スマートフォン、タ�
 
 ## 回復用メールアドレスを変更
 
-1. [!DNL Commerce] [ アカウントログイン ](https://account.magento.com/customer/account/login){:target="_blank"}に移動します。
+1. [!DNL Commerce] [&#x200B; アカウントログイン &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}に移動します。
 
 1. ユーザー名とパスワードの資格情報を入力し、**[!UICONTROL Login]**&#x200B;を選択します。
 
@@ -249,7 +249,7 @@ TFAを使用するには、個人用デバイス（スマートフォン、タ�
 
 ## 二段階認証アプリケーションの変更
 
-1. [!DNL Commerce] [ アカウントログイン ](https://account.magento.com/customer/account/login){:target="_blank"}に移動します。
+1. [!DNL Commerce] [&#x200B; アカウントログイン &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}に移動します。
 
 1. ユーザー名とパスワードの資格情報を入力し、**[!UICONTROL Login]**&#x200B;を選択します。
 
@@ -301,7 +301,7 @@ TFAを使用するには、個人用デバイス（スマートフォン、タ�
 >
 >組織のセキュリティポリシーでAdobe Commerce アカウントに多要素認証が必要な場合は、二要素認証を無効にすることはできません。
 
-1. [!DNL Commerce] [ アカウントログイン ](https://account.magento.com/customer/account/login){:target="_blank"}に移動します。
+1. [!DNL Commerce] [&#x200B; アカウントログイン &#x200B;](https://account.magento.com/customer/account/login){:target="_blank"}に移動します。
 
 1. ユーザー名とパスワードの資格情報を入力し、**[!UICONTROL Login]**&#x200B;を選択します。
 

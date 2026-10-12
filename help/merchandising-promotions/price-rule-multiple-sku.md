@@ -46,11 +46,11 @@ ht-degree: 0%
 
 ## 手順1: 製品属性のストアフロントプロパティを確認します
 
-開始する前に、`sku`属性の[ ストアフロントのプロパティ ](../catalog/attribute-product-create.md#step-4-describe-the-storefront-properties)が`Use in Promo Rules`に設定されていることを確認してください。
+開始する前に、`sku`属性の[&#x200B; ストアフロントのプロパティ &#x200B;](../catalog/attribute-product-create.md#step-4-describe-the-storefront-properties)が`Use in Promo Rules`に設定されていることを確認してください。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;に移動します。
 
-1. _[!UICONTROL Attribute Code]_列の上部にある検索フィルターで、`sku`と入力し、**[!UICONTROL Search]**をクリックします。
+1. _[!UICONTROL Attribute Code]_&#x200B;列の上部にある検索フィルターで、`sku`と入力し、**[!UICONTROL Search]**&#x200B;をクリックします。
 
 1. クリックして、`sku`属性を編集モードで開きます。
 
@@ -60,38 +60,38 @@ ht-degree: 0%
 
 ## 手順2: 価格ルールを複数のSKUに適用する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Catalog Price Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Catalog Price Rules]**&#x200B;に移動します。
 
 1. 次のいずれかの操作を行います。
 
-   - 指示に従って、[ カタログ価格ルール ](price-rules-catalog.md)を作成します。
+   - 指示に従って、[&#x200B; カタログ価格ルール &#x200B;](price-rules-catalog.md)を作成します。
    - 既存のカタログ価格ルールを開きます。
 
 1. **[!UICONTROL Conditions]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
    - 最初の行で、最初のパラメーターを`ANY`に設定します。
 
-     ![ カタログ価格ルール条件 – ANY](./assets/multiple-skus-condition1.png){width="600" zoomable="yes"}
+     ![&#x200B; カタログ価格ルール条件 – ANY](./assets/multiple-skus-condition1.png){width="600" zoomable="yes"}
 
-   - 次の行の先頭にある&#x200B;_追加_ （![追加アイコン ](../assets/icon-add-green-circle.png)）をクリックし、**[!UICONTROL Product Attribute]**&#x200B;の下のリストで「`SKU`」をクリックします。
+   - 次の行の先頭にある&#x200B;_追加_ （![追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックし、**[!UICONTROL Product Attribute]**&#x200B;の下のリストで「`SKU`」をクリックします。
 
-     ![ カタログ価格ルール条件 – SKUは](./assets/multiple-skus-condition1a.png){width="600" zoomable="yes"}のいずれかです
+     ![&#x200B; カタログ価格ルール条件 – SKUは](./assets/multiple-skus-condition1a.png){width="600" zoomable="yes"}のいずれかです
 
    - 比較のために、オプションがあります。 SKUのリストから少なくとも1つを見つける場合は、`select is one of`。 すべて適用する必要があるSKUのグループを見つける場合は、`is`を選択します。 `is one of`を選択することをお勧めします。
 
-     ![ カタログ価格ルール条件 – SKUは](./assets/multiple-skus-condition1b.png){width="600" zoomable="yes"}のいずれかです
+     ![&#x200B; カタログ価格ルール条件 – SKUは](./assets/multiple-skus-condition1b.png){width="600" zoomable="yes"}のいずれかです
 
-   - 条件を完了するには、詳細（**...**）リンクをクリックし、利用可能な製品のリストの&#x200B;_Chooser_ （![ リストアイコン ](../assets/icon-list-chooser.png)）アイコンをクリックします。
+   - 条件を完了するには、詳細（**...**）リンクをクリックし、利用可能な製品のリストの&#x200B;_Chooser_ （![&#x200B; リストアイコン &#x200B;](../assets/icon-list-chooser.png)）アイコンをクリックします。
 
-     ![ カタログ価格ルール条件 – 複数のSKU](./assets/multiple-skus-condition2b.png){width="600" zoomable="yes"}
+     ![&#x200B; カタログ価格ルール条件 – 複数のSKU](./assets/multiple-skus-condition2b.png){width="600" zoomable="yes"}
 
    - 参照、フィルター、または検索して、追加するSKUを見つけます。 リストで、含める各製品のチェックボックスを選択します。
 
    - **[!UICONTROL Save and Apply]**&#x200B;をクリックして、条件にSKUを追加します。
 
-     ![ カタログ価格ルール条件 – 複数のSKU](./assets/multiple-skus-condition2.png){width="600" zoomable="yes"}
+     ![&#x200B; カタログ価格ルール条件 – 複数のSKU](./assets/multiple-skus-condition2.png){width="600" zoomable="yes"}
 
-1. 条件が満たされたときに実行される[ アクション ](price-rules-catalog.md)を含むルールを完了します。
+1. 条件が満たされたときに実行される[&#x200B; アクション &#x200B;](price-rules-catalog.md)を含むルールを完了します。
 
 1. ルールが完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 

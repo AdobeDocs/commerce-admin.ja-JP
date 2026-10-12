@@ -60,11 +60,11 @@ ht-degree: 0%
 
 1. 製品を編集モードで開きます。
 
-1. _[!UICONTROL Price]_フィールドの下にある「**[!UICONTROL Advanced Pricing]**」をクリックします。
+1. _[!UICONTROL Price]_&#x200B;フィールドの下にある「**[!UICONTROL Advanced Pricing]**」をクリックします。
 
-1. _[!UICONTROL Customer Group Price]_セクションで、**[!UICONTROL Add]**をクリックします。
+1. _[!UICONTROL Customer Group Price]_&#x200B;セクションで、**[!UICONTROL Add]**&#x200B;をクリックします。
 
-   ストアに[Adobe Commerce B2B](../b2b/introduction.md)が含まれ、[共有カタログ ](../b2b/catalog-shared.md)が有効になっている場合、このセクションには&#x200B;_[!UICONTROL Catalog and Tier Price]_というラベルが付けられます。
+   ストアに[Adobe Commerce B2B](../b2b/introduction.md)が含まれ、[共有カタログ &#x200B;](../b2b/catalog-shared.md)が有効になっている場合、このセクションには&#x200B;_[!UICONTROL Catalog and Tier Price]_&#x200B;というラベルが付けられます。
 
    ![詳細な価格設定](./assets/product-price-group.png){width="600" zoomable="yes"}
 

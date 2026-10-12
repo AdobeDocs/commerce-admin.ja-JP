@@ -45,7 +45,7 @@ ht-degree: 0%
 
 デフォルトでは、お客様はアカウントの最大999件の購買リストを管理できます。 しかし、設定を変更し、より低い数値を指定して、ストアの負荷を軽減することができます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Requisition Lists]**&#x200B;を選択します。
 

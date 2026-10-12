@@ -43,7 +43,7 @@ ht-degree: 0%
 
 _注文と返品_ ウィジェットを使用すると、ゲストは注文のステータスを確認し、請求書を印刷し、配送を追跡できます。 ウィジェットがストアフロントに追加されると、ゲストとアカウントにログインしていない顧客にのみ表示されます。 ご注文の際には、注文ID、請求先姓、メールアドレスまたは郵便番号を入力します。
 
-![ ストアフロントのサイドバーにある注文と返品ウィジェット ](./assets/storefront-widget-orders-returns-sidebar.png){width="600" zoomable="yes"}
+![&#x200B; ストアフロントのサイドバーにある注文と返品ウィジェット &#x200B;](./assets/storefront-widget-orders-returns-sidebar.png){width="600" zoomable="yes"}
 
 ## ストアフロントの注文と返品のウィジェット
 
@@ -58,15 +58,15 @@ _注文と返品_ ウィジェットを使用すると、ゲストは注文の�
 
 1. **[!UICONTROL Search]**&#x200B;をクリックして注文を取得します。
 
-   ![ ストアフロントに表示される注文情報](./assets/storefront-widget-orders-returns-view.png){width="700" zoomable="yes"}
+   ![&#x200B; ストアフロントに表示される注文情報](./assets/storefront-widget-orders-returns-view.png){width="700" zoomable="yes"}
 
 ## 注文と返品ウィジェットの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックします。
 
-1. _[!UICONTROL Settings]_セクションで、次の操作を行います。
+1. _[!UICONTROL Settings]_&#x200B;セクションで、次の操作を行います。
 
    - **[!UICONTROL Type]**&#x200B;を`Orders and Returns`に設定します。
 
@@ -74,7 +74,7 @@ _注文と返品_ ウィジェットを使用すると、ゲストは注文の�
 
 1. **[!UICONTROL Continue]**&#x200B;をクリックします。
 
-1. _[!UICONTROL Storefront Properties]_セクションで、次の操作を行います。
+1. _[!UICONTROL Storefront Properties]_&#x200B;セクションで、次の操作を行います。
 
    - 「**[!UICONTROL Widget Title]**」に、ウィジェットの説明的なタイトルを入力します。
 
@@ -86,7 +86,7 @@ _注文と返品_ ウィジェットを使用すると、ゲストは注文の�
 
    - （オプション） **[!UICONTROL Sort Order]**&#x200B;の場合、ページの同じ部分で他のユーザーと一緒にこの項目を表示する順序を決定する番号を入力します。 （`0` = first, `1` = second, `3` = thirdなど）
 
-1. _[!UICONTROL Layout Updates]_セクションで、**[!UICONTROL Add Layout Update]**をクリックし、次の操作を行います。
+1. _[!UICONTROL Layout Updates]_&#x200B;セクションで、**[!UICONTROL Add Layout Update]**&#x200B;をクリックし、次の操作を行います。
 
    - **[!UICONTROL Display On]**&#x200B;を、ウィジェットを表示するページの種類に設定します。
 

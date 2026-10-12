@@ -39,15 +39,15 @@ ht-degree: 0%
 
 この新製品リストは、動的コンテンツの一例であり、製品カタログから取得したライブデータで構成されています。 デフォルトでは、_新製品_ リストには、最近追加された製品の最初の8つが含まれます。 ただし、指定した日付範囲内の商品のみを含めるように設定することもできます。
 
-![ ストアフロントのホームページの新製品リスト ](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントのホームページの新製品リスト &#x200B;](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
 
 ## ステップ 1：各製品を新製品として設定する
 
 ![Magento Open Source](../assets/open-source.svg)この手順は、Magento Open Sourceにのみ適用されます。
 
-![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce ストアの場合は、[更新のスケジュール ](content-staging-scheduled-update.md)を参照し、このページの手順2に進んでください。
+![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce ストアの場合は、[更新のスケジュール &#x200B;](content-staging-scheduled-update.md)を参照し、このページの手順2に進んでください。
 
-_[!UICONTROL Set Product as New]_日付範囲の設定は、スケジュールされた更新でのみ設定できます。
+_[!UICONTROL Set Product as New]_&#x200B;日付範囲の設定は、スケジュールされた更新でのみ設定できます。
 
 製品を新規製品として設定すると、製品が&#x200B;_新規製品_ リストに追加されます。 リストに含めたくない場合は、任意の時点で設定を元に戻すことができます。
 
@@ -67,11 +67,11 @@ _[!UICONTROL Set Product as New]_日付範囲の設定は、スケジュール�
 
 新製品リストの内容とストア内の配置を決定するコードは、ウィジェットツールによって生成されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Widget]**」をクリックします。
 
-1. _[!UICONTROL Settings]_セクションで、次の操作を行います。
+1. _[!UICONTROL Settings]_&#x200B;セクションで、次の操作を行います。
 
    - **[!UICONTROL Type]**&#x200B;を`Catalog New Products List`に設定します。
 
@@ -81,7 +81,7 @@ _[!UICONTROL Set Product as New]_日付範囲の設定は、スケジュール�
 
    ![新しい製品リストウィジェット設定](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Storefront Properties]_セクションで、次の操作を行います。
+1. _[!UICONTROL Storefront Properties]_&#x200B;セクションで、次の操作を行います。
 
    - 「**[!UICONTROL Widget Title]**」に、ウィジェットの説明的なタイトルを入力します。 （このタイトルは&#x200B;_管理者_&#x200B;からのみ表示されます）。
 
@@ -91,11 +91,11 @@ _[!UICONTROL Set Product as New]_日付範囲の設定は、スケジュール�
 
    - （オプション） **[!UICONTROL Sort Order]**&#x200B;の場合、ページの同じ部分で他のユーザーと一緒にこの項目を表示する順序を決定する番号を入力します。 （`0` = first, `1` = second, `3` = thirdなど）
 
-   ![ レイアウトの更新](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
+   ![&#x200B; レイアウトの更新](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
 ## 手順3：場所の選択
 
-1. _[!UICONTROL Layout Updates]_セクションで、**[!UICONTROL Add Layout Update]**をクリックします。
+1. _[!UICONTROL Layout Updates]_&#x200B;セクションで、**[!UICONTROL Add Layout Update]**&#x200B;をクリックします。
 
 1. **[!UICONTROL Display On]**&#x200B;を`Specified Page.`に設定
 
@@ -108,7 +108,7 @@ _[!UICONTROL Set Product as New]_日付範囲の設定は、スケジュール�
    - `New Product List Template`
    - `New Products Grid Template`
 
-     ![ レイアウトの更新](./assets/widget-layout-update-new-products-list.png){width="600" zoomable="yes"}
+     ![&#x200B; レイアウトの更新](./assets/widget-layout-update-new-products-list.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save and Continue Edit]**&#x200B;をクリックします。
 
@@ -121,7 +121,7 @@ _[!UICONTROL Set Product as New]_日付範囲の設定は、スケジュール�
 1. **[!UICONTROL Display Products]**&#x200B;を次のいずれかに設定します：
 
    - `All Products` – 最後に追加された製品から順番に製品を一覧表示します。
-   - `New Products` - _new_&#x200B;として識別された製品のみを一覧表示します。 _[!UICONTROL Set Product As New From/To]_で指定された日付範囲内に、製品が新しいものと見なされます。 新しい製品が定義されないまま日付範囲が期限切れになる場合、リストは空になります。
+   - `New Products` - _new_&#x200B;として識別された製品のみを一覧表示します。 _[!UICONTROL Set Product As New From/To]_&#x200B;で指定された日付範囲内に、製品が新しいものと見なされます。 新しい製品が定義されないまま日付範囲が期限切れになる場合、リストは空になります。
 
 1. 複数のページを含むリストのナビゲーション制御を提供するには、**[!UICONTROL Display Page Control]**&#x200B;を`Yes`に設定します。
 
@@ -135,7 +135,7 @@ _[!UICONTROL Set Product as New]_日付範囲の設定は、スケジュール�
 
    デフォルトでは、キャッシュは86,400秒（24時間）に設定されています。
 
-   ![ ウィジェットオプション ](./assets/widget-options-new-product-list.png){width="600" zoomable="yes"}
+   ![&#x200B; ウィジェットオプション &#x200B;](./assets/widget-options-new-product-list.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -143,6 +143,6 @@ _[!UICONTROL Set Product as New]_日付範囲の設定は、スケジュール�
 
 ## 手順5：作業のプレビュー
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;に移動します。
 
-1. _新製品_ リストが表示されるグリッドでページを見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Preview]**リンクをクリックします。
+1. _新製品_ リストが表示されるグリッドでページを見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Preview]**&#x200B;リンクをクリックします。

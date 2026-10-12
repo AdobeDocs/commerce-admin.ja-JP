@@ -54,7 +54,7 @@ ht-degree: 0%
 
    >[!TIP]
    > 
-   >顧客は、[ クイックオーダー](quick-order.md)を使用することで、商品SKUのリストをカートに素早く追加できます。
+   >顧客は、[&#x200B; クイックオーダー](quick-order.md)を使用することで、商品SKUのリストをカートに素早く追加できます。
 
 1. **[!UICONTROL Request a Quote]**&#x200B;を選択します。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
    - **[!UICONTROL Attach file]**&#x200B;を選択します。
    - システムからファイルを選択します。
 
-   デフォルトでは、[添付ファイル ](configure-quotes.md)は、DOC、DOCX、XLS、XLSX、PDF、TXT、JPGまたはJPEG、PNGのいずれかのファイル形式で、最大2 MBです。
+   デフォルトでは、[添付ファイル &#x200B;](configure-quotes.md)は、DOC、DOCX、XLS、XLSX、PDF、TXT、JPGまたはJPEG、PNGのいずれかのファイル形式で、最大2 MBです。
 
 1. 見積を作成して処理します。
 

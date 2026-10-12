@@ -55,20 +55,20 @@ ht-degree: 0%
 
 1. **[!UICONTROL Category Image]**&#x200B;の場合は、**[!UICONTROL Upload]**&#x200B;をクリックし、キャンペーン中にカテゴリーページに表示する画像を選択します。
 
-   ![ カテゴリ画像の追加](./assets/content-staging-existing-category-image.png){width="600" zoomable="yes"}
+   ![&#x200B; カテゴリ画像の追加](./assets/content-staging-existing-category-image.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
 ## 項目の検証
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**&#x200B;に移動します。
 
 1. 表示されたリストまたはタイムラインでキャンペーンを見つけ、それを開いて詳細にアクセスします。
 
-   - リストを表示するには、**[!UICONTROL Select]**&#x200B;をクリックし、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL View/Edit]**をクリックします。
+   - リストを表示するには、**[!UICONTROL Select]**&#x200B;をクリックし、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL View/Edit]**&#x200B;をクリックします。
    - タイムライン表示の場合は、1回クリックして概要を表示し、**[!UICONTROL View/Edit]**&#x200B;をクリックします。
 
-   ![ キャンペーンの詳細](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}
+   ![&#x200B; キャンペーンの詳細](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}
 
 1. ![拡張セレクター](../assets/icon-display-expand.png) **[!UICONTROL Categories]**&#x200B;を展開して、割り当てられたカテゴリのリストを表示します。
 

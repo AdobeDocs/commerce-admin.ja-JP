@@ -40,7 +40,7 @@ Adobe CommerceとMagento Open Sourceでは、購入時に&#x200B;_代金引換_ 
 
 **_代金引換の支払いを設定するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Payment Methods]**&#x200B;を選択します。
 
@@ -65,7 +65,7 @@ Adobe CommerceとMagento Open Sourceでは、購入時に&#x200B;_代金引換_ 
 1. **[!UICONTROL Payment from Applicable Countries]**&#x200B;を次のいずれかに設定します：
 
    - `All Allowed Countries` - ストア設定で指定されたすべての[国](../getting-started/store-details.md#country-options)のお客様は、この支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）またはCommand キー（Mac）を押しながら、各オプションをクリックします。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）またはCommand キー（Mac）を押しながら、各オプションをクリックします。
 
 1. COD注文の配達を受け付けるための&#x200B;**[!UICONTROL Instructions]**&#x200B;を入力します。
 

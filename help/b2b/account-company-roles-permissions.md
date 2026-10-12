@@ -43,9 +43,9 @@ ht-degree: 0%
 ---
 # 企業の役割と権限
 
-営業情報やリソースにアクセスするための権限のレベルが異なる企業ユーザーに対して、役割を設定します。 デフォルトでは、会社管理者は完全な権限を持つ&#x200B;*スーパーユーザー*&#x200B;です。 ユーザーがページにアクセスする権限を持っていない場合、[ アクセス拒否](../content-design/pages.md#access-denied) ページが表示されます。
+営業情報やリソースにアクセスするための権限のレベルが異なる企業ユーザーに対して、役割を設定します。 デフォルトでは、会社管理者は完全な権限を持つ&#x200B;*スーパーユーザー*&#x200B;です。 ユーザーがページにアクセスする権限を持っていない場合、[&#x200B; アクセス拒否](../content-design/pages.md#access-denied) ページが表示されます。
 
-デフォルトの役割](./assets/company-roles-permissions.png){width="700" zoomable="yes"}を持つ![役割と権限ページ
+デフォルトの役割![&#128279;](./assets/company-roles-permissions.png){width="700" zoomable="yes"}を持つ役割と権限ページ
 
 システムには、事前に定義されたデフォルトのユーザー役割が1つあり、*を*&#x200B;として使用したり、ニーズに合わせて変更したりできます。 企業構造や組織の責任に合わせて、必要な数の役割を作成できます。
 
@@ -127,7 +127,7 @@ B2B機能は、**権限** （ACL リソース）によってゲートされま�
 
 会社の管理者は、**[!UICONTROL Edit]**&#x200B;を選択し、**[!UICONTROL Role Permissions]** リストで権限を選択または消去することで、役割の権限設定を更新できます。
 
-![役割と権限リスト ](./assets/role-permissions-list.png){width="700" zoomable="yes"}
+![役割と権限リスト &#x200B;](./assets/role-permissions-list.png){width="700" zoomable="yes"}
 
 会社アカウントで&#x200B;**会社の役割**&#x200B;を作成または編集する際に、これらのリソースを割り当てます。 役割を管理する権限を持つユーザーは、役割フォームを開いて権限ツリーを設定できます。
 
@@ -249,7 +249,7 @@ B2B機能は、**権限** （ACL リソース）によってゲートされま�
 
 1. ユーザーに適した&#x200B;**[!UICONTROL User Role]**&#x200B;を選択します。
 
-   ![ ユーザーの編集 – ユーザーの役割を選択](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
+   ![&#x200B; ユーザーの編集 – ユーザーの役割を選択](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 

@@ -54,7 +54,7 @@ ht-degree: 0%
 
 情報が適用される個人の身元を許可する情報の表現は、直接的または間接的な手段によって合理的に推測されます。 PIIとは、個人を直接識別する情報（名前、住所、社会保障番号、その他の識別番号など）と定義されます。 また、エージェンシーが特定の個人を他のデータ要素で識別しようとする情報でもある（間接識別）。 これらのデータ要素には、性別、人種、生年月日、地理的指標、その他の記述子の組み合わせが含まれます。 また、特定の個人の物理的またはオンラインでの接触が個人を特定できる情報と同じであることを許可する情報も含まれます。 この情報は、紙、電子またはその他のメディアで保持できます。
 
-![ ストアフロントの例 – プライバシーポリシー](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
+![&#x200B; ストアフロントの例 – プライバシーポリシー](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
 
 ## プライバシーポリシーを編集
 
@@ -62,18 +62,18 @@ ht-degree: 0%
 >
 >Luma サンプルデータには、使用のために変更できるサンプルプライバシーポリシーが含まれています。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;に移動します。
 
-1. グリッドで、**[!UICONTROL Privacy Policy]**&#x200B;を見つけます。 次に、_[!UICONTROL Action]_列で、**[!UICONTROL Select]**をクリックし、**[!UICONTROL Edit]**を選択します。
+1. グリッドで、**[!UICONTROL Privacy Policy]**&#x200B;を見つけます。 次に、_[!UICONTROL Action]_&#x200B;列で、**[!UICONTROL Select]**&#x200B;をクリックし、**[!UICONTROL Edit]**&#x200B;を選択します。
 
    >[!NOTE]
    >
-   >プライバシーポリシーページのURL キーを変更する場合は、トラフィックを新しいURL キーにリダイレクトするために、[ カスタム URL書き換え](../merchandising-promotions/url-rewrite-custom.md)も作成する必要があります。 それ以外の場合、フッターのリンクは`404 Page Not Found`を返します。
+   >プライバシーポリシーページのURL キーを変更する場合は、トラフィックを新しいURL キーにリダイレクトするために、[&#x200B; カスタム URL書き換え](../merchandising-promotions/url-rewrite-custom.md)も作成する必要があります。 それ以外の場合、フッターのリンクは`404 Page Not Found`を返します。
 
 1. 「**[!UICONTROL Content]**」セクションを展開し、コンテンツに必要な変更を加えます。
 
-   ページコンテンツツールの使用について詳しくは、_コンテンツおよびデザインガイド_&#x200B;の「[ コンテンツを完成させる](../content-design/page-add.md#step-2-complete-the-content)」を参照してください。
+   ページコンテンツツールの使用について詳しくは、_コンテンツおよびデザインガイド_&#x200B;の「[&#x200B; コンテンツを完成させる](../content-design/page-add.md#step-2-complete-the-content)」を参照してください。
 
-   ![ プライバシーポリシーのページ – コンテンツの編集](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
+   ![&#x200B; プライバシーポリシーのページ – コンテンツの編集](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save Page]**&#x200B;をクリックします。

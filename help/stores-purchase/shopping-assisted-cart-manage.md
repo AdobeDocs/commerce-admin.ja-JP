@@ -43,7 +43,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-支援ショッピングセッションを開始するには、顧客がストアフロントからアカウントにログインして情報を利用可能にする必要があります。 お客様がアカウントを持っていない場合は、[ アカウントを作成できます](../customers/account-create.md)。
+支援ショッピングセッションを開始するには、顧客がストアフロントからアカウントにログインして情報を利用可能にする必要があります。 お客様がアカウントを持っていない場合は、[&#x200B; アカウントを作成できます](../customers/account-create.md)。
 
 ![お客様アカウント内の買い物かご](./assets/customer-account-manage-cart-items.png){width="600" zoomable="yes"}
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
    ストアへの訪問者とログインした顧客はすべてリストに表示されます。
 
-   ![ オンラインのお客様](./assets/customers-now-online.png){width="700" zoomable="yes"}
+   ![&#x200B; オンラインのお客様](./assets/customers-now-online.png){width="700" zoomable="yes"}
 
 ## ショッピング支援
 
@@ -82,11 +82,11 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >急いで顧客レコードを検索するには、[ フィルター](../getting-started/admin-grid-controls.md) コントロールを使用します。
+   >急いで顧客レコードを検索するには、[&#x200B; フィルター](../getting-started/admin-grid-controls.md) コントロールを使用します。
 
-   _[!UICONTROL Personal Information]_の下の顧客プロファイルで、_[!UICONTROL Last Logged In]_&#x200B;の日時は、顧客がオンラインであることを示します。
+   _[!UICONTROL Personal Information]_&#x200B;の下の顧客プロファイルで、_[!UICONTROL Last Logged In]_&#x200B;の日時は、顧客がオンラインであることを示します。
 
-   ![ オンライン顧客の顧客プロファイル ](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
+   ![&#x200B; オンライン顧客の顧客プロファイル &#x200B;](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
 1. アシスト ショッピング モードに入るには、上部のボタン バーで&#x200B;**[!UICONTROL Manage Shopping Cart]**&#x200B;をクリックします。
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 1. 商品をカートに追加するには、**[!UICONTROL Add selections to my cart]**&#x200B;をクリックします。
 
-   ![ カート内の設定可能な製品](./assets/customer-account-manage-cart-order-configurable-product-cart.png){width="600" zoomable="yes"}
+   ![&#x200B; カート内の設定可能な製品](./assets/customer-account-manage-cart-order-configurable-product-cart.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、カート内の商品オプションを更新します。
 
@@ -160,7 +160,7 @@ ht-degree: 0%
 
 ### CSV ファイルをアップロードして製品を追加する
 
-1. [csv ファイル ](../systems/data-csv.md)を、買い物かごに追加するアイテムと共に準備します。
+1. [csv ファイル &#x200B;](../systems/data-csv.md)を、買い物かごに追加するアイテムと共に準備します。
 
    ファイルには、ヘッダーに`sku`と`qty`を含む2つの列のみを含める必要があります。
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Apply Coupon Code]**&#x200B;の場合、有効なクーポンコードを入力してください。
 
-   - _適用_ （![矢印アイコン ](../assets/icon-apply-arrow.png)）矢印をクリックします。
+   - _適用_ （![矢印アイコン &#x200B;](../assets/icon-apply-arrow.png)）矢印をクリックします。
 
 1. 必要に応じて注文数量を調整します。
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create Order]**&#x200B;をクリックします。
 
-   _[!UICONTROL Create New Order]_ページには、買い物かごの商品が表示され、その後に配送情報と支払い情報が表示されます。
+   _[!UICONTROL Create New Order]_&#x200B;ページには、買い物かごの商品が表示され、その後に配送情報と支払い情報が表示されます。
 
 1. 発送と支払いに関する情報を入力します。
 
@@ -224,6 +224,6 @@ ht-degree: 0%
 
 1. **[!UICONTROL Clear my shopping cart]**&#x200B;をクリックします。
 
-   ![買い物かごをクリア ](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
+   ![買い物かごをクリア &#x200B;](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
 
 1. アクションの確認を求めるメッセージが表示されたら、**[!UICONTROL OK]**&#x200B;をクリックします。

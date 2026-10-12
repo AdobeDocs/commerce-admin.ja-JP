@@ -38,11 +38,11 @@ ht-degree: 0%
 
 通貨レートを読み込む前に、[通貨レート設定](currency-configuration.md)を完了して、受け入れる通貨を指定し、読み込み接続とスケジュールを確立します。
 
-![通貨レート ](./assets/stores-currency-rate-update.png){width="600" zoomable="yes"}
+![通貨レート &#x200B;](./assets/stores-currency-rate-update.png){width="600" zoomable="yes"}
 
 ## 通貨レートを手動で更新する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Rates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Rates]**&#x200B;に移動します。
 
 1. 変更するレートをクリックし、サポートされている各通貨の新しい値を入力します。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 通貨レートのインポート
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Rates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Rates]**&#x200B;に移動します。
 
 1. 通貨レート プロバイダーに&#x200B;**[!UICONTROL Import Service]**&#x200B;を設定します。
 
@@ -58,17 +58,17 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >2.4.6 リリース以降、[[!DNL Fixer.io]](https://fixer.io/) サービスは非推奨となり、[[!DNL Fixer API]  （APILayer） ](https://apilayer.com/marketplace/fixer-api) サービスに置き換えられます。 非推奨の[!DNL Fixer.io] アカウントの代わりにAPILayer アカウントを使用することを強くお勧めします。
+   >2.4.6 リリース以降、[[!DNL Fixer.io]](https://fixer.io/) サービスは非推奨となり、[[!DNL Fixer API]  （APILayer） &#x200B;](https://apilayer.com/marketplace/fixer-api) サービスに置き換えられます。 非推奨の[!DNL Fixer.io] アカウントの代わりにAPILayer アカウントを使用することを強くお勧めします。
 
 1. **[!UICONTROL Import]**&#x200B;をクリックします。
 
-   更新された料金が&#x200B;_[!UICONTROL Currency Rates]_リストに表示されます。 前回の更新以降に料金が変更された場合は、以下に古い料金が表示されます。
+   更新された料金が&#x200B;_[!UICONTROL Currency Rates]_&#x200B;リストに表示されます。 前回の更新以降に料金が変更された場合は、以下に古い料金が表示されます。
 
 1. 完了したら、**[!UICONTROL Save Currency Rates]**&#x200B;をクリックします。
 
 1. キャッシュの更新を求めるメッセージが表示されたら、**[!UICONTROL Cache Management]** リンクをクリックし、無効なキャッシュを更新します。
 
-   ![ システムメッセージ – 無効なキャッシュを更新します](./assets/currency-cache-update.png){width="600" zoomable="yes"}
+   ![&#x200B; システムメッセージ – 無効なキャッシュを更新します](./assets/currency-cache-update.png){width="600" zoomable="yes"}
 
 ## スケジュールの通貨レートのインポート
 
@@ -76,6 +76,6 @@ ht-degree: 0%
 
 1. 受け入れ、インポート接続とスケジュールを設定する通貨を指定するには、[通貨レート設定](currency-configuration.md)を完了します。
 
-1. 料金がスケジュール通りに読み込まれることを確認するには、_[!UICONTROL Currency Rates]_リストを確認してください。
+1. 料金がスケジュール通りに読み込まれることを確認するには、_[!UICONTROL Currency Rates]_&#x200B;リストを確認してください。
 
 1. スケジュール用に設定された周波数設定の時間帯を待ち、再度レートを確認します。

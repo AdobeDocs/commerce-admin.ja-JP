@@ -51,15 +51,15 @@ ht-degree: 0%
 
 ## 請求契約書の管理
 
-_[!UICONTROL Billing Agreements]_ページには、ストアと顧客の間のすべての請求契約書が一覧表示されます。 加盟店は、請求契約書の参照ID、ステータス、作成日など、顧客または請求契約書情報によってレコードをフィルタリングできます。 各レコードには、請求契約書に関する一般的な情報と、それを支払い方法として使用したすべての販売注文が含まれます。 お客様の請求契約書を表示、キャンセル、または削除できます。 キャンセルされた請求契約書は、ストア管理者のみが削除できます。
+_[!UICONTROL Billing Agreements]_&#x200B;ページには、ストアと顧客の間のすべての請求契約書が一覧表示されます。 加盟店は、請求契約書の参照ID、ステータス、作成日など、顧客または請求契約書情報によってレコードをフィルタリングできます。 各レコードには、請求契約書に関する一般的な情報と、それを支払い方法として使用したすべての販売注文が含まれます。 お客様の請求契約書を表示、キャンセル、または削除できます。 キャンセルされた請求契約書は、ストア管理者のみが削除できます。
 
 ### 請求契約書の表示
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**&#x200B;に移動します。
 
 1. リストで請求契約書を見つけて、クリックして開きます。
 
-各請求契約書ページは、_[!UICONTROL General Information]_と_[!UICONTROL Related Orders]_&#x200B;の2つのタブで構成されています。
+各請求契約書ページは、_[!UICONTROL General Information]_&#x200B;と_[!UICONTROL Related Orders]_&#x200B;の2つのタブで構成されています。
 
 #### 一般情報
 
@@ -81,7 +81,7 @@ _[!UICONTROL Billing Agreements]_ページには、ストアと顧客の間の�
 
 ### 請求契約書のキャンセル
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**&#x200B;に移動します。
 
 1. リストで請求契約書を見つけて、クリックして開きます。
 
@@ -91,7 +91,7 @@ _[!UICONTROL Billing Agreements]_ページには、ストアと顧客の間の�
 
 ### 請求契約書の削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**&#x200B;に移動します。
 
 1. リストで請求契約書を見つけて、クリックして開きます。
 
@@ -118,7 +118,7 @@ _[!UICONTROL Billing Agreements]_ページには、ストアと顧客の間の�
 
 決済代行会社と請求契約を締結したお客様は、契約に従って、今すぐ購入し、後で支払いを行うことができます。 を
 
-![お客様のダッシュボードの請求契約書リスト ](./assets/billing-agreements-dashboard.png){width="700" zoomable="yes"}
+![お客様のダッシュボードの請求契約書リスト &#x200B;](./assets/billing-agreements-dashboard.png){width="700" zoomable="yes"}
 
 | 列 | 説明 |
 |--- |--- |

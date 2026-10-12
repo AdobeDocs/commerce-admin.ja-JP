@@ -43,7 +43,7 @@ ht-degree: 0%
 ---
 # カテゴリ – 検索エンジン最適化の設定
 
-_[!UICONTROL Search Engine Optimization]_セクションでは、検索エンジンがカテゴリのインデックス作成に使用する[URL キー](catalog-urls.md)および[ メタデータ ](../merchandising-promotions/meta-data.md) フィールドを指定します。 メタキーワードを無視する検索エンジンもありますが、そのまま使用している検索エンジンもあります。 現在のSEOのベストプラクティスは、メタタイトルとメタディスクリプションの両方に価値の高いキーワードを組み込むことです。
+_[!UICONTROL Search Engine Optimization]_&#x200B;セクションでは、検索エンジンがカテゴリのインデックス作成に使用する[URL キー](catalog-urls.md)および[&#x200B; メタデータ &#x200B;](../merchandising-promotions/meta-data.md) フィールドを指定します。 メタキーワードを無視する検索エンジンもありますが、そのまま使用している検索エンジンもあります。 現在のSEOのベストプラクティスは、メタタイトルとメタディスクリプションの両方に価値の高いキーワードを組み込むことです。
 
 ![検索エンジン最適化](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 

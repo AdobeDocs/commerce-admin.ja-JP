@@ -62,7 +62,7 @@ ht-degree: 12%
 
 ## [!UICONTROL Credit Memo]
 
-![ クレジットメモ ](./assets/pdf-print-credit-memo.png)<!-- zoom -->
+![&#x200B; クレジットメモ &#x200B;](./assets/pdf-print-credit-memo.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

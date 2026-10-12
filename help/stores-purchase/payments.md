@@ -49,11 +49,11 @@ Adobe CommerceとMagento Open Sourceは、幅広い支払い方法とサービ�
 
 >[!TIP]
 >
->Adobe CommerceおよびMagento Open Sourceの決済サービスでは、サンドボックステストやシンプルな設定など、ターンキー型のセルフサービスソリューションを提供し、堅牢で安全な決済処理を実現します。 この強力なツールセットと、購入者に最適なエクスペリエンスを構築するために必要なinsightとコントロールを提供する方法について詳しくは、[決済サービスユーザーガイド ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)を参照してください。 これは、[Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview)のデフォルトの支払いソリューションです。
+>Adobe CommerceおよびMagento Open Sourceの決済サービスでは、サンドボックステストやシンプルな設定など、ターンキー型のセルフサービスソリューションを提供し、堅牢で安全な決済処理を実現します。 この強力なツールセットと、購入者に最適なエクスペリエンスを構築するために必要なinsightとコントロールを提供する方法について詳しくは、[決済サービスユーザーガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)を参照してください。 これは、[Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview)のデフォルトの支払いソリューションです。
 
 >[!NOTE]
 >
->インターネット経由でクレジットカードによる支払いを受け付けるビジネスのPCI （Payment Card Industry）によって設定された要件の概要を示す[PCI コンプライアンス ガイドライン ](../getting-started/compliance-pci.md)を確認します。
+>インターネット経由でクレジットカードによる支払いを受け付けるビジネスのPCI （Payment Card Industry）によって設定された要件の概要を示す[PCI コンプライアンス ガイドライン &#x200B;](../getting-started/compliance-pci.md)を確認します。
 
 ## 2.4の変更点
 
@@ -63,7 +63,7 @@ Adobe CommerceとMagento Open Sourceは、幅広い支払い方法とサービ�
 
 - **Amazon Pay**&#x200B;および&#x200B;**Klarna**: Adobe CommerceおよびMagento Open Source リリース 2.4.0 ～ 2.4.3には、これらのベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、これらの拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 Marketplaceでは、拡張機能の開発者が提供する最新のドキュメントにもアクセスできます。
 
-  これらのバンドル拡張機能のいずれかを有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 詳しくは、_アップグレードガイド_&#x200B;の[ アップグレードモジュール ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)を参照してください。
+  これらのバンドル拡張機能のいずれかを有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 詳しくは、_アップグレードガイド_&#x200B;の[&#x200B; アップグレードモジュール &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)を参照してください。
 
 ## オフラインのお支払い方法
 
@@ -74,7 +74,7 @@ Adobe CommerceとMagento Open Sourceには、いくつかのオフライン決�
 - [銀行振込お支払い](bank-transfer.md)
 - [小切手/マネーオーダー](check-money-order.md)
 - [発注](purchase-order.md)
-- [ アカウントでのお支払い](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2Bで利用可能）
+- [&#x200B; アカウントでのお支払い](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2Bで利用可能）
 
 ## オンライン決済の方法
 
@@ -83,14 +83,14 @@ Adobe CommerceとMagento Open Sourceは、世界中のあらゆる地域でマ�
 ### 推奨ソリューション
 
 - [決済サービス](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)
-- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [PayPal Express チェックアウト ](paypal-express-checkout.md)
+- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [PayPal Express チェックアウト &#x200B;](paypal-express-checkout.md)
 - [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [Braintree](braintree.md)
 
 ### その他のPayPal決済ソリューション
 
 [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-PayPal支払い方法のオプションについて詳しくは、[PayPal支払いソリューション ](paypal.md)を参照してください。
+PayPal支払い方法のオプションについて詳しくは、[PayPal支払いソリューション &#x200B;](paypal.md)を参照してください。
 
 #### オールインワン PayPal ソリューション
 
@@ -125,4 +125,4 @@ PayPal支払い方法のオプションについて詳しくは、[PayPal支払�
 
 [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-支払いに関する問題のトラブルシューティングについては、[ サポート ナレッジベース ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)を参照してください。
+支払いに関する問題のトラブルシューティングについては、[&#x200B; サポート ナレッジベース &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)を参照してください。

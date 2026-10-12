@@ -92,7 +92,7 @@ ht-degree: 2%
 
 製品の可用性と設定に応じて、カテゴリと検索結果リストに対して次の表示オプションを使用できます。
 
-カテゴリーページの![在庫切れメッセージ ](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
+カテゴリーページの![在庫切れメッセージ &#x200B;](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
 
 ### 例1:「在庫切れ」のメッセージを表示する
 

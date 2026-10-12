@@ -40,7 +40,7 @@ ht-degree: 3%
 
 >[!TIP]
 >
->Adobe Commerce B2Bのインストールと有効化により、企業固有の機能を使用して購買体験をパーソナライズできます。 Adobe Commerce B2Bは、B2BとB2Cの両方のモデルをサポートする統合ソリューションです。 B2B機能について詳しくは、[Adobe Commerce B2B ユーザーガイド ](/help/b2b/introduction.md)を参照してください。
+>Adobe Commerce B2Bのインストールと有効化により、企業固有の機能を使用して購買体験をパーソナライズできます。 Adobe Commerce B2Bは、B2BとB2Cの両方のモデルをサポートする統合ソリューションです。 B2B機能について詳しくは、[Adobe Commerce B2B ユーザーガイド &#x200B;](/help/b2b/introduction.md)を参照してください。
 
 {{config}}
 
@@ -60,7 +60,7 @@ ht-degree: 3%
 
 ## [!UICONTROL Attached Files]
 
-![添付ファイル ](./assets/quotes-attached-files.png)<!-- zoom -->
+![添付ファイル &#x200B;](./assets/quotes-attached-files.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

@@ -47,19 +47,19 @@ ht-degree: 0%
 
 デフォルトでは、すべての管理者アクションが有効になり、ログに記録されます。 管理者アクションのログを設定するには、オプションを確認し、各アクションタイプのチェックボックスを選択またはオフにします。 Adobe Commerceは、チェックされたタイプのみをログに記録します。
 
-ログに記録された管理者のアクションと詳細を確認するには、[ アクションログレポート ](action-log-report.md)を表示します。
+ログに記録された管理者のアクションと詳細を確認するには、[&#x200B; アクションログレポート &#x200B;](action-log-report.md)を表示します。
 
 ![詳細設定 – 管理者アクションのログ記録](../configuration-reference/advanced/assets/admin-actions-logging.png){width="600" zoomable="yes"}
 
-構成設定の詳細なリストについては、_構成リファレンス_&#x200B;の[管理者アクション ログ アーカイブ ](../configuration-reference/advanced/system.md)を参照してください。
+構成設定の詳細なリストについては、_構成リファレンス_&#x200B;の[管理者アクション ログ アーカイブ &#x200B;](../configuration-reference/advanced/system.md)を参照してください。
 
 >[!NOTE]
 >
->[!DNL Adobe Commerce as a Cloud Service] プラットフォームでは、アクションログレポート、アクションログアーカイブ、バルクアクションログを設定できませんが、管理者の&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Logs]_メニューからレポート出力を確認できます。
+>[!DNL Adobe Commerce as a Cloud Service] プラットフォームでは、アクションログレポート、アクションログアーカイブ、バルクアクションログを設定できませんが、管理者の&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Logs]_&#x200B;メニューからレポート出力を確認できます。
 
 ## ログ記録のための管理者アクションの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL Admin]**&#x200B;を選択します。
 

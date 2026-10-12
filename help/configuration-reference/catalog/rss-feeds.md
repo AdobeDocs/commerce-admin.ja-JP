@@ -50,11 +50,11 @@ ht-degree: 5%
 
 {style="table-layout:auto"}
 
-有効にした後にRSS フィードを使用する方法について詳しくは、[ ソーシャルメディアとRSS フィード ](../../merchandising-promotions/social-rss.md)を参照してください。
+有効にした後にRSS フィードを使用する方法について詳しくは、[&#x200B; ソーシャルメディアとRSS フィード &#x200B;](../../merchandising-promotions/social-rss.md)を参照してください。
 
 ## [!UICONTROL Wish List]
 
-![ ウィッシュリスト ](./assets/rss-feeds-wishlist.png)<!-- zoom -->
+![&#x200B; ウィッシュリスト &#x200B;](./assets/rss-feeds-wishlist.png)<!-- zoom -->
 
 <!-- [Wish List](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
 
@@ -66,7 +66,7 @@ ht-degree: 5%
 
 ## [!UICONTROL Catalog]
 
-![ カタログ ](./assets/rss-feeds-catalog.png)<!-- zoom -->
+![&#x200B; カタログ &#x200B;](./assets/rss-feeds-catalog.png)<!-- zoom -->
 
 <!-- [Catalog](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu) -->
 

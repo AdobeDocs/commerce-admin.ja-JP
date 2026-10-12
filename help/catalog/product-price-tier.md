@@ -42,7 +42,7 @@ ht-degree: 1%
 
 更新する製品が多い場合は、価格変更を個別に入力するのではなく、価格変更を読み込むのが最も効率的です。 詳しくは、[階層の価格の読み込み](../systems/data-import-price-tier.md)を参照してください。
 
-![ ストアフロント製品ページの階層価格](./assets/product-price-tier-storefront.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロント製品ページの階層価格](./assets/product-price-tier-storefront.png){width="700" zoomable="yes"}
 
 製品ページでは、数量の割引が計算され、次のようなメッセージが表示されます。
 
@@ -54,9 +54,9 @@ ht-degree: 1%
 
 1. 製品を編集モードで開きます。
 
-1. _[!UICONTROL Price]_フィールドの下にある「**[!UICONTROL Advanced Pricing]**」をクリックします。
+1. _[!UICONTROL Price]_&#x200B;フィールドの下にある「**[!UICONTROL Advanced Pricing]**」をクリックします。
 
-1. _[!UICONTROL Tier Price]_セクションで、**[!UICONTROL Add]**をクリックします。
+1. _[!UICONTROL Tier Price]_&#x200B;セクションで、**[!UICONTROL Add]**&#x200B;をクリックします。
 
    複数の価格の階層を作成する場合は、追加レベルごとに&#x200B;**[!UICONTROL Add]**&#x200B;をクリックして、すべての階層を同時に操作できます。 グループの各層には、同じweb サイトと顧客グループまたは共有カタログの割り当てがありますが、数量と価格は異なります。
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 
      >[!NOTE]
      >
-     >割引価格を取得するには、_[!UICONTROL Special Price]_フィールドではなく、_[!UICONTROL Price]_ フィールドで定義された値に対して、定義された割合が計算されます。
+     >割引価格を取得するには、_[!UICONTROL Special Price]_&#x200B;フィールドではなく、_[!UICONTROL Price]_ フィールドで定義された値に対して、定義された割合が計算されます。
 
      ![Tier Price as a Percentage](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL Stores]** > *[!UICONTROL Settings]* > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Promotions]**&#x200B;に移動し、**[!UICONTROL Apply Catalog Price Rule on Grouped Price]** フィールドを&#x200B;**[!UICONTROL Yes]**&#x200B;に設定します。
 
-   ![ カタログ価格ルールの階層価格を有効にする](../configuration-reference/sales/assets/sales-promotions-settings.png){width="700" zoomable="yes"}
+   ![&#x200B; カタログ価格ルールの階層価格を有効にする](../configuration-reference/sales/assets/sales-promotions-settings.png){width="700" zoomable="yes"}
 
 1. カタログ価格ルールでターゲットにする特定の顧客グループまたは共有カタログ（`Wholesale`、`Retail`、マーチャント定義グループなど）ごとに数量`1`の階層価格を定義します。 この目的では、`ALL GROUPS`顧客グループと`Default`共有カタログを使用できません。 数量`1`で定義された階層価格を持たないグループでは、階層価格は有効になっていません。
 

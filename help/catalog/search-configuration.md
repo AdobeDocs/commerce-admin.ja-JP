@@ -39,7 +39,7 @@ ht-degree: 0%
 ---
 # カタログ検索の設定
 
-カタログ検索設定には2つのバリエーションがあります。 最初の方法では、[ ライブサーチ ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)がインストールされたときに使用できる設定について説明します。 2つ目の方法は、[OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview){:target="_blank"}を使用したネイティブ Adobe Commerceの設定について説明します。
+カタログ検索設定には2つのバリエーションがあります。 最初の方法では、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)がインストールされたときに使用できる設定について説明します。 2つ目の方法は、[OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview){:target="_blank"}を使用したネイティブ Adobe Commerceの設定について説明します。
 
 >[!NOTE]
 >
@@ -47,13 +47,13 @@ ht-degree: 0%
 
 ## 方法1: [!DNL Live Search]のAdobe Commerce
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
 1. **[!UICONTROL Catalog Search]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ ライブサーチのカタログ検索](../configuration-reference/catalog/assets/catalog-search-live-search.png){width="600" zoomable="yes"}
+   ![&#x200B; ライブサーチのカタログ検索](../configuration-reference/catalog/assets/catalog-search-live-search.png){width="600" zoomable="yes"}
 
    これらのオプションの詳細なリストについては、_設定リファレンス_&#x200B;の「[Adobe Commerce with Live Search](../configuration-reference/catalog/catalog.md#adobe-commerce-with-live-search)」を参照してください。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    デフォルト値は`100`です。 `0`の値を入力すると、2回目の入力時にすべての検索語と結果がキャッシュされます。
 
-1. 返される結果に使用できる最大行数を[ ストアフロント ポップオーバー](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)で変更するには、別の&#x200B;**[!UICONTROL Autocomplete Limit]**&#x200B;値を入力します。
+1. 返される結果に使用できる最大行数を[&#x200B; ストアフロント ポップオーバー](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)で変更するには、別の&#x200B;**[!UICONTROL Autocomplete Limit]**&#x200B;値を入力します。
 
    行数を制限すると、検索のパフォーマンスが向上し、返されるリストのサイズが小さくなります。 デフォルト値は`8`行です。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 >
 >OpenSearchとElasticsearchでは、サフィックスによる検索を標準でサポートしていません。 例えば、キーワードにSKUの最後の部分のみが含まれている場合、SKUによる検索で期待される結果が返されない場合があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 

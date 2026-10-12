@@ -43,7 +43,7 @@ ht-degree: 0%
 
 カテゴリ内の製品の位置は、製品を位置にドラッグ&amp;ドロップするか、定義済みの並べ替え順序を適用することで、手動で指定できます。 デフォルトでは、在庫レベル、年齢、色、名前、SKU、価格で商品を並べ替えることができます。 自動ソートは、現在のソート順序を上書きし、手動で設定したドラッグ&amp;ドロップの位置をリセットします。 商品をリストに含めるために必要な色の並べ替え順序と最低在庫量は、[Visual Merchandiser](../configuration-reference/catalog/visual-merchandiser.md)設定で設定されます。
 
-[ ストアビュー](../stores-purchase/stores.md#add-stores)ごとにカテゴリーオプションを個別に設定して、商品の選択、リスト内での相対的な位置、カテゴリールールで使用できる属性を決定できます。 ただし、カタログ内に単一の&#x200B;**_グローバル_**&#x200B;並べ替え順序と商品の位置があり、それらはすべて[ ストアビュー](../stores-purchase/store-views.md)、ストア、およびweb サイトで共有されます。
+[&#x200B; ストアビュー](../stores-purchase/stores.md#add-stores)ごとにカテゴリーオプションを個別に設定して、商品の選択、リスト内での相対的な位置、カテゴリールールで使用できる属性を決定できます。 ただし、カタログ内に単一の&#x200B;**_グローバル_**&#x200B;並べ替え順序と商品の位置があり、それらはすべて[&#x200B; ストアビュー](../stores-purchase/store-views.md)、ストア、およびweb サイトで共有されます。
 
 ## 手順1：設定の範囲の設定
 
@@ -51,21 +51,21 @@ ht-degree: 0%
 
 1. 必要に応じて、設定が適用される&#x200B;**[!UICONTROL Store View]**&#x200B;を選択します。
 
-   マルチストア インストールの場合、_[!UICONTROL Store View]_設定は、ストア内で使用可能なすべてのビューに並べ替え順序を適用します。
+   マルチストア インストールの場合、_[!UICONTROL Store View]_&#x200B;設定は、ストア内で使用可能なすべてのビューに並べ替え順序を適用します。
 
 1. 左側のカテゴリーツリーで、編集するカテゴリを選択します。
 
-   ![ カテゴリツリー](./assets/category-selected.png){width="700" zoomable="yes"}
+   ![&#x200B; カテゴリツリー](./assets/category-selected.png){width="700" zoomable="yes"}
 
 ## 手順2：商品の並べ替え
 
 >[!NOTE]
 >
->カテゴリをproduct属性で並べ替える場合、同じ属性値を持つ製品も昇順で&#x200B;_[!UICONTROL Product ID]_で並べ替えられます。
+>カテゴリをproduct属性で並べ替える場合、同じ属性値を持つ製品も昇順で&#x200B;_[!UICONTROL Product ID]_&#x200B;で並べ替えられます。
 
-_[!UICONTROL Products in Category]_セクションで、タイル （![ タイルを表示](../assets/icon-view-tiles.png)）アイコンをクリックして、商品タイルをグリッドに表示します。 製品をソートするには、手動または自動のいずれかの方法を使用します。
+_[!UICONTROL Products in Category]_&#x200B;セクションで、タイル （![&#x200B; タイルを表示](../assets/icon-view-tiles.png)）アイコンをクリックして、商品タイルをグリッドに表示します。 製品をソートするには、手動または自動のいずれかの方法を使用します。
 
-![製品タイル ](./assets/category-products-tiles.png){width="600" zoomable="yes"}
+![製品タイル &#x200B;](./assets/category-products-tiles.png){width="600" zoomable="yes"}
 
 ### 方法1：手動ソート
 
@@ -108,7 +108,7 @@ _[!UICONTROL Products in Category]_セクションで、タイル （![ タイ�
 
 1. 適切な&#x200B;**[!UICONTROL Value]**&#x200B;を入力します。
 
-   ![ カテゴリ条件](./assets/category-rule-create.png){width="600" zoomable="yes"}
+   ![&#x200B; カテゴリ条件](./assets/category-rule-create.png){width="600" zoomable="yes"}
 
 1. 別の条件を追加するには、**[!UICONTROL Add Condition]**&#x200B;をクリックして、プロセスを繰り返します。
 

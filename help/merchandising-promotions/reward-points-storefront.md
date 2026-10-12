@@ -42,13 +42,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-顧客アカウントの[報酬ポイント ](rewards-loyalty.md) セクションには、顧客が獲得した報酬ポイントの現在の残高と、その報酬ポイント残高の履歴が表示されます。
+顧客アカウントの[報酬ポイント &#x200B;](rewards-loyalty.md) セクションには、顧客が獲得した報酬ポイントの現在の残高と、その報酬ポイント残高の履歴が表示されます。
 
-![ ポイントの付与](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
+![&#x200B; ポイントの付与](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
 
 ## チェックアウト時に報酬ポイントを交換する
 
-`Points to Currency`方向の[ ポイント換算レート ](reward-exchange-rates.md)が設定されている場合、お客様はチェックアウト時にポイントを使用できます。
+`Points to Currency`方向の[&#x200B; ポイント換算レート &#x200B;](reward-exchange-rates.md)が設定されている場合、お客様はチェックアウト時にポイントを使用できます。
 
 1. 顧客は、必要な商品をすべてショッピングカートに入れた後、チェックアウトに移動します。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Use reward points]**&#x200B;をクリックします。
 
-![ チェックアウト時のポイントへの報酬](./assets/reward-points-on-checkout.png){width="700" zoomable="yes"}
+![&#x200B; チェックアウト時のポイントへの報酬](./assets/reward-points-on-checkout.png){width="700" zoomable="yes"}
 
 利用可能なポイントの割引は、小計に適用されます。
 

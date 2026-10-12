@@ -52,13 +52,13 @@ ht-degree: 0%
 
 [!DNL Commerce]は、これらの複数アドレスの注文の在庫を単一の注文とまったく同じように管理します。 これにより、Source Selection Algorithmのレコメンデーションや、出荷時の上書き、部分的な出荷、注文のキャンセル、在庫情報の更新による返金などが可能になります。
 
-![ チェックアウト時のマルチアドレス ](assets/inventory-multi-ship.png){width="350" zoomable="yes"}
+![&#x200B; チェックアウト時のマルチアドレス &#x200B;](assets/inventory-multi-ship.png){width="350" zoomable="yes"}
 
 ### 返金
 
-払い戻しを発行するために[ クレジットメモ ](../stores-purchase/credit-memo-create.md){target="_blank"}を入力する場合、製品数量を差し引かれたソースに返すことができます。 注文情報には、商品を発送した在庫ソースが含まれます。 返品商品を受け取った際に、クレジットメモを通じて返品商品の数量を授与することをお勧めします。
+払い戻しを発行するために[&#x200B; クレジットメモ &#x200B;](../stores-purchase/credit-memo-create.md){target="_blank"}を入力する場合、製品数量を差し引かれたソースに返すことができます。 注文情報には、商品を発送した在庫ソースが含まれます。 返品商品を受け取った際に、クレジットメモを通じて返品商品の数量を授与することをお勧めします。
 
-![選択した返品時に返金するアイテム ](assets/credit-memo-items-to-refund.png)
+![選択した返品時に返金するアイテム &#x200B;](assets/credit-memo-items-to-refund.png)
 {width="350" zoomable="yes"}
 
 ### 未発送の注文のキャンセル

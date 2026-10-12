@@ -47,7 +47,7 @@ _パンくずリスト_&#x200B;は、顧客がストア内の他のページに�
 
 パンくずリストは、コンテンツページとカタログページに表示するように設定できます。 パンくずリストの形式と位置はテーマによって異なりますが、通常はヘッダーのすぐ下にあります。 デフォルトでは、パンくずリストはCMS ページに表示されます。
 
-ストアフロントに表示された![ パンくずリスト ](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
+ストアフロントに表示された![&#x200B; パンくずリスト &#x200B;](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
 
 ## パンくずリストの一般的な種類
 
@@ -77,13 +77,13 @@ _パンくずリスト_&#x200B;は、顧客がストア内の他のページに�
 
 ## CMS ページからパンくずリストを追加または削除する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左側のパネルで、**[!UICONTROL Web]**を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左側のパネルで、**[!UICONTROL Web]**&#x200B;を選択します。
 
    ![CMS ページのパンくずリストを表示](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Default Pages]_セクションを展開します。
+1. _[!UICONTROL Default Pages]_&#x200B;セクションを展開します。
 
 1. 「**[!UICONTROL Use system value]**」チェックボックスの選択を解除します。
 
@@ -93,4 +93,4 @@ _パンくずリスト_&#x200B;は、顧客がストア内の他のページに�
 
 >[!NOTE]
 >
->親カテゴリは、`Browsing Category`= `Deny` [ カテゴリ権限](category-permissions.md)の設定がある場合、子カテゴリページのパンくずリストには表示されません。
+>親カテゴリは、`Browsing Category`= `Deny` [&#x200B; カテゴリ権限](category-permissions.md)の設定がある場合、子カテゴリページのパンくずリストには表示されません。

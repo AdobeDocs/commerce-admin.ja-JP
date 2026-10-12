@@ -37,9 +37,9 @@ ht-degree: 1%
 ---
 # カテゴリ製品の追加と削除
 
-ストア管理者は、「[ カテゴリ内の製品](categories-product-assignments.md)」セクションから、カテゴリに製品を追加できます。 このセクションには、カテゴリに割り当てられているすべての製品が一覧表示され、**[!UICONTROL Match products by rule]**&#x200B;が`No`に設定されている場合は&#x200B;**[!UICONTROL Add Product]**&#x200B;と表示されます。
+ストア管理者は、「[&#x200B; カテゴリ内の製品](categories-product-assignments.md)」セクションから、カテゴリに製品を追加できます。 このセクションには、カテゴリに割り当てられているすべての製品が一覧表示され、**[!UICONTROL Match products by rule]**&#x200B;が`No`に設定されている場合は&#x200B;**[!UICONTROL Add Product]**&#x200B;と表示されます。
 
-![ カテゴリーセクション ](./assets/category-products-in-category.png){width="600" zoomable="yes"}の製品
+![&#x200B; カテゴリーセクション &#x200B;](./assets/category-products-in-category.png){width="600" zoomable="yes"}の製品
 
 ## 追加する商品を検索
 
@@ -53,9 +53,9 @@ ht-degree: 1%
 
 1. _キーワードで検索_&#x200B;またはフィルターを使用して、追加する商品を見つけます。
 
-   ![すべての製品を検索タブ ](./assets/search-all-product.png){width="700" zoomable="yes"}
+   ![すべての製品を検索タブ &#x200B;](./assets/search-all-product.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Assign]_列で、追加する製品ごとにオプションを`Yes`に切り替えます。
+1. _[!UICONTROL Assign]_&#x200B;列で、追加する製品ごとにオプションを`Yes`に切り替えます。
 
    表示されているすべての商品を含める場合は、列ヘッダーのメニュー矢印をクリックして、**[!UICONTROL Select All]**&#x200B;を選択します。
 
@@ -92,10 +92,10 @@ ht-degree: 1%
 
 1. 左側のカテゴリーツリーで、編集するカテゴリを選択します。
 
-1. _[!UICONTROL Products in Category]_セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
+1. _[!UICONTROL Products in Category]_&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
 1. 取り除く製品を探します。
 
-1. _[!UICONTROL Actions]_列で、**[!UICONTROL Unassign]**をクリックします。
+1. _[!UICONTROL Actions]_&#x200B;列で、**[!UICONTROL Unassign]**&#x200B;をクリックします。
 
 1. 変更を適用するには、**[!UICONTROL Save]**&#x200B;をクリックします。

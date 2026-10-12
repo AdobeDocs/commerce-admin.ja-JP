@@ -44,9 +44,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->見積もり設定オプションと見積もり交渉関数を使用する機能は、[役割リソース ](../systems/permissions-user-roles.md#role-resources)を使用して制御されます。 これらのロールリソースは、管理者ユーザーアカウントに割り当てられた管理者ユーザーロールに対して選択する必要があります。 管理者の見積もり関数へのアクセス権を付与するには、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**に移動し、役割を選択して、_&#x200B;役割リソース _ツリーの[!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes]に移動します。
+>見積もり設定オプションと見積もり交渉関数を使用する機能は、[役割リソース &#x200B;](../systems/permissions-user-roles.md#role-resources)を使用して制御されます。 これらのロールリソースは、管理者ユーザーアカウントに割り当てられた管理者ユーザーロールに対して選択する必要があります。 管理者の見積もり関数へのアクセス権を付与するには、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**&#x200B;に移動し、役割を選択して、_&#x200B;役割リソース _ツリーの[!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes]に移動します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Quotes]**&#x200B;を選択します。
 
@@ -74,6 +74,6 @@ ht-degree: 0%
 
      入力した値は、サーバー設定によって上書きされる可能性があります。
 
-     ![販売見積もり設定 – 添付ファイル ](./assets/quotes-attached-files.png){width="600" zoomable="yes"}
+     ![販売見積もり設定 – 添付ファイル &#x200B;](./assets/quotes-attached-files.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。

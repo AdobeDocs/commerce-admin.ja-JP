@@ -35,7 +35,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-作成した[動的ブロック ](dynamic-blocks.md)は、プロモーションに関連付けることができます。 関連付けを行うには、まず動的ブロックと[ カタログ価格ルール ](../merchandising-promotions/price-rules-catalog.md)または[ カート価格ルール ](../merchandising-promotions/price-rules-cart.md)の両方を作成する必要があります。 関連付けは、価格ルールの作業中や動的ブロックの作業中に行うことができます。
+作成した[動的ブロック &#x200B;](dynamic-blocks.md)は、プロモーションに関連付けることができます。 関連付けを行うには、まず動的ブロックと[&#x200B; カタログ価格ルール &#x200B;](../merchandising-promotions/price-rules-catalog.md)または[&#x200B; カート価格ルール &#x200B;](../merchandising-promotions/price-rules-cart.md)の両方を作成する必要があります。 関連付けは、価格ルールの作業中や動的ブロックの作業中に行うことができます。
 
 >[!IMPORTANT]
 >
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## ダイナミックブロックと価格ルールの関連付け
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_に移動し、次のいずれかを選択します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_&#x200B;に移動し、次のいずれかを選択します。
 
    - **[!UICONTROL Catalog Price Rules]**
    - **[!UICONTROL Cart Price Rules]**
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ## 価格ルールの動的ブロックへの関連付け
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**&#x200B;に移動します。
 
 1. グリッドでダイナミックブロックを見つけ、編集モードで開きます。
 

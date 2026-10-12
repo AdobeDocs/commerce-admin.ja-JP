@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## 価格範囲の設定
 
-1. _管理者_ メニューで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ メニューで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
    選択したスコープ設定は、カタログの価格フィールドの下に表示されます。
 
-   ![ カタログ価格範囲](./assets/catalog-price.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ価格範囲](./assets/catalog-price.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 Commerceでは、各店舗の商品価格を設定することはできません。 しかし、あなたはウェブサイトあたりの価格を変更することができます：
 
-1. _管理者_ メニューで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ メニューで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 

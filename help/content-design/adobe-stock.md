@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ![Adobe Stockの検索結果](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
-Adobe Stockサービスを利用すれば、あらゆるクリエイティブプロジェクトに必要な数百万もの高品質で厳選されたロイヤリティフリーの写真、ベクター、イラスト、ビデオ、テンプレート、3D アセットにアクセスできます。 [!DNL Commerce]人のユーザーが、Adobe Stock アセットをすばやく検索、プレビュー、ライセンス認証できます。 ユーザーは、管理者ワークスペースを離れることなく、これらを[ メディアストレージ ](./media-storage.md)に保存することもできます。
+Adobe Stockサービスを利用すれば、あらゆるクリエイティブプロジェクトに必要な数百万もの高品質で厳選されたロイヤリティフリーの写真、ベクター、イラスト、ビデオ、テンプレート、3D アセットにアクセスできます。 [!DNL Commerce]人のユーザーが、Adobe Stock アセットをすばやく検索、プレビュー、ライセンス認証できます。 ユーザーは、管理者ワークスペースを離れることなく、これらを[&#x200B; メディアストレージ &#x200B;](./media-storage.md)に保存することもできます。
 
 ## 前提条件
 
@@ -54,7 +54,7 @@ Adobe Stockサービスを利用すれば、あらゆるクリエイティブプ
 
 Adobe Stock画像のライセンスを取得するには、次の操作が必要です。
 
-- [Adobe アカウント ](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
+- [Adobe アカウント &#x200B;](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
 - アカウントに関連付けられた有料[Adobe Stock](https://stock.adobe.com) プラン
 
 ## [!DNL Commerce]とAdobe Stockの統合
@@ -68,9 +68,9 @@ Adobe CommerceのAdobe Stock統合の設定は、次の2つの手順で行いま
 
 1. [Adobe Developer Console](https://developer.adobe.com/console/home)に移動します。
 
-1. _[!UICONTROL Quick Start]_で、**[!UICONTROL Create new project]**をクリックします。
+1. _[!UICONTROL Quick Start]_&#x200B;で、**[!UICONTROL Create new project]**&#x200B;をクリックします。
 
-1. _[!UICONTROL Project overview]_ブロックで、**[!UICONTROL Add API]**をクリックします。
+1. _[!UICONTROL Project overview]_&#x200B;ブロックで、**[!UICONTROL Add API]**&#x200B;をクリックします。
 
 1. 統合リストから&#x200B;**[!UICONTROL Adobe Stock]**&#x200B;を選択し、**[!UICONTROL Next]**&#x200B;をクリックします。
 
@@ -100,9 +100,9 @@ Adobe CommerceのAdobe Stock統合の設定は、次の2つの手順で行いま
 
 ### Adobe Stock統合の設定
 
-[!DNL Commerce]管理者でシステム構成を設定するには、[前のセクション ](#create-an-adobeio-integration)で生成された&#x200B;_API キー_&#x200B;および&#x200B;_クライアントシークレット_&#x200B;を使用します。
+[!DNL Commerce]管理者でシステム構成を設定するには、[前のセクション &#x200B;](#create-an-adobeio-integration)で生成された&#x200B;_API キー_&#x200B;および&#x200B;_クライアントシークレット_&#x200B;を使用します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL System]**&#x200B;を選択します。
 

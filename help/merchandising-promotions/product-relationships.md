@@ -52,16 +52,16 @@ ht-degree: 0%
 
 ### アップセル
 
-[ アップセル商品](../catalog/related-products-up-sells-cross-sells.md#up-sells)は、類似している商品ですが、おそらく顧客が検討している商品よりも高品質で、より人気があり、利益率が高い商品です。
+[&#x200B; アップセル商品](../catalog/related-products-up-sells-cross-sells.md#up-sells)は、類似している商品ですが、おそらく顧客が検討している商品よりも高品質で、より人気があり、利益率が高い商品です。
 
 ### クロスセル
 
-[ クロスセル商品](../catalog/related-products-up-sells-cross-sells.md#cross-sells)は、チェックアウトプロセスが開始される前の直前の購入時に、ショッピングカートページで提供されます。
+[&#x200B; クロスセル商品](../catalog/related-products-up-sells-cross-sells.md#cross-sells)は、チェックアウトプロセスが開始される前の直前の購入時に、ショッピングカートページで提供されます。
 
 ## 関連する製品ルール
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [関連商品ルール ](product-related-rules.md)を使用すると、関連商品、アップセル、クロスセルとしてお客様に提示される商品の選択肢をターゲットにすることができます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [関連商品ルール &#x200B;](product-related-rules.md)を使用すると、関連商品、アップセル、クロスセルとしてお客様に提示される商品の選択肢をターゲットにすることができます。
 
 ## Adobe AIを活用した商品レコメンデーション
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [Adobe AIを活用した商品レコメンデーション ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview)は、人工知能とマシンラーニング（機械学習）のアルゴリズムを使用して、集約された訪問者データを詳細に分析することで、商品のリレーションシップを定義するプロセスを簡素化します。 このデータをAdobe Commerceカタログと組み合わせることで、買い物客にとって魅力的で関連性の高い、パーソナライズされた体験を実現できます。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ） [Adobe AIを活用した商品レコメンデーション &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview)は、人工知能とマシンラーニング（機械学習）のアルゴリズムを使用して、集約された訪問者データを詳細に分析することで、商品のリレーションシップを定義するプロセスを簡素化します。 このデータをAdobe Commerceカタログと組み合わせることで、買い物客にとって魅力的で関連性の高い、パーソナライズされた体験を実現できます。

@@ -51,7 +51,7 @@ Commerceでは、加盟店またはお客様の住所（両方が同じ国の場
 
 - イギリスの住所に配送するイギリスの店舗から購入するオランダのビジネスは、イギリスのVAT料金を支払う必要があります。
 
-- [ ダウンロード可能な商品](../catalog/product-create-downloadable.md)または&#x200B;_デジタル商品_&#x200B;の販売では、VAT率は加盟店の場所ではなく、配送先に基づいています。 [ デジタル商品の供給場所](taxes.md#place-of-supply-for-digital-goods-eu)を参照してください。
+- [&#x200B; ダウンロード可能な商品](../catalog/product-create-downloadable.md)または&#x200B;_デジタル商品_&#x200B;の販売では、VAT率は加盟店の場所ではなく、配送先に基づいています。 [&#x200B; デジタル商品の供給場所](taxes.md#place-of-supply-for-digital-goods-eu)を参照してください。
 
 >[!TIP]
 >
@@ -71,7 +71,7 @@ Commerceでは、加盟店またはお客様の住所（両方が同じ国の場
 
 税ルールを作成するプロセスは、税率を追加することから始まります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
 
    ![顧客税区分の設定](./assets/vat-zones.png){width="600" zoomable="yes"}
 
@@ -95,7 +95,7 @@ Commerceでは、加盟店またはお客様の住所（両方が同じ国の場
 
 ### 手順2：製品税区分の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**&#x200B;に移動します。
 
 1. **[!UICONTROL Add New Tax Rule]**&#x200B;をクリックします。
 
@@ -117,7 +117,7 @@ Commerceでは、加盟店またはお客様の住所（両方が同じ国の場
 
 ### 手順3：税区間と税率の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
 
    この例では、米国の税率を削除するか、そのまま残します。
 
@@ -145,7 +145,7 @@ Commerceでは、加盟店またはお客様の住所（両方が同じ国の場
 
 税ルールは、顧客税区分、製品税区分および税率の組み合わせです。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**&#x200B;に移動します。
 
 1. 次のように新しい税ルールを追加します。
 
@@ -197,7 +197,7 @@ Commerceでは、次のフィールドを使用して、[お客様の情報](../
 
 #### 住所
 
-**[!UICONTROL VAT Number]** – 該当する場合、お客様の特定の請求先住所または配送先住所に関連付けられている付加価値税番号。 EU内の[ デジタル商品](taxes.md#place-of-supply-for-digital-goods-eu)）の販売の場合、VATの金額は配送先に基づきます。
+**[!UICONTROL VAT Number]** – 該当する場合、お客様の特定の請求先住所または配送先住所に関連付けられている付加価値税番号。 EU内の[&#x200B; デジタル商品](taxes.md#place-of-supply-for-digital-goods-eu)）の販売の場合、VATの金額は配送先に基づきます。
 
 ### 顧客アカウント
 
@@ -230,7 +230,7 @@ VAT ID検証が有効になっている場合は、登録後、各顧客にVAT I
 
 お客様がVAT番号およびその他のアドレスフィールドを指定し、保存を選択すると、システムはアドレスを保存し、VAT ID検証要求を欧州委員会サーバーに送信します。 検証の結果に従って、デフォルトのグループの1つが顧客に割り当てられます。 このグループは、顧客または管理者がデフォルトアドレスのVAT IDを変更するか、デフォルトアドレス全体を変更した場合に変更できます。 1 ページのチェックアウト中に、グループを一時的に変更できる（グループの変更がエミュレートされる）場合があります。
 
-有効になっている場合は、_[!UICONTROL Customer Information]_ページのチェックボックスを選択して、個々の顧客のVAT ID検証を上書きできます。
+有効になっている場合は、_[!UICONTROL Customer Information]_&#x200B;ページのチェックボックスを選択して、個々の顧客のVAT ID検証を上書きできます。
 
 ### チェックアウトワークフロー
 
@@ -301,14 +301,14 @@ VAT ID検証用の顧客グループを作成するか、ビジネスロジッ�
 - 製品税クラス
 - 税率
 
-VAT ID検証を効果的に使用するための[税ルール ](tax-rules.md)を作成します。
+VAT ID検証を効果的に使用するための[税ルール &#x200B;](tax-rules.md)を作成します。
 
 - 税ルールには、税率と[税区分](tax-class.md)が含まれます。
-- 税区分は[顧客グループ ](../customers/customer-groups.md)に割り当てられます。
+- 税区分は[顧客グループ &#x200B;](../customers/customer-groups.md)に割り当てられます。
 
 #### 手順3:VAT ID検証の有効化と設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 必要に応じて、設定の&#x200B;**[!UICONTROL Store View]**&#x200B;を設定します。
 
@@ -334,7 +334,7 @@ VAT ID検証を効果的に使用するための[税ルール ](tax-rules.md)を
 
 1. **[!UICONTROL Store Information]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ ストア情報](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
+   ![&#x200B; ストア情報](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Country]**&#x200B;を選択します。
 
@@ -348,7 +348,7 @@ VAT ID検証を効果的に使用するための[税ルール ](tax-rules.md)を
 
 1. _一般_&#x200B;設定ページに進み、**[!UICONTROL Countries Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![国オプション ](../configuration-reference/general/assets/general-country-options.png){width="600" zoomable="yes"}
+   ![国オプション &#x200B;](../configuration-reference/general/assets/general-country-options.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL European Union Countries]** リストで、EUの各メンバー国が選択されていることを確認します。
 

@@ -41,7 +41,7 @@ ht-degree: 0%
 ---
 # カテゴリ – コンテンツ設定
 
-_[!UICONTROL Content]_の設定により、追加コンテンツがカテゴリーページに表示されるかどうかが決まります。 このページには、カテゴリ商品のリストに加えて、画像、説明、CMS ブロックを含めることができます。 [[!DNL Page Builder]](../page-builder/introduction.md) コンテンツ ツールを使用して、カテゴリの説明を定義できます。
+_[!UICONTROL Content]_&#x200B;の設定により、追加コンテンツがカテゴリーページに表示されるかどうかが決まります。 このページには、カテゴリ商品のリストに加えて、画像、説明、CMS ブロックを含めることができます。 [[!DNL Page Builder]](../page-builder/introduction.md) コンテンツ ツールを使用して、カテゴリの説明を定義できます。
 
 ## [!DNL Page Builder]にカテゴリの説明を追加
 
@@ -49,11 +49,11 @@ _[!UICONTROL Content]_の設定により、追加コンテンツがカテゴリ�
 
 1. 下にスクロールして、**[!UICONTROL Content]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ カテゴリーコンテンツ ](./assets/category-content.png){width="600" zoomable="yes"}
+   ![&#x200B; カテゴリーコンテンツ &#x200B;](./assets/category-content.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Description]** エリアの右上にある「**[!UICONTROL Edit with Page Builder]**」をクリックします。
 
-1. [[!DNL Page Builder]](../page-builder/introduction.md) コンテンツツールを使用して、既存のテキスト ](../page-builder/text.md)を[編集し、他のコンテンツを（必要に応じて）追加します。
+1. [[!DNL Page Builder]](../page-builder/introduction.md) コンテンツツールを使用して、既存のテキスト [&#128279;](../page-builder/text.md)を編集し、他のコンテンツを（必要に応じて）追加します。
 
 ## [!DNL Page Builder] プレビュー
 
@@ -61,7 +61,7 @@ _[!UICONTROL Content]_の設定により、追加コンテンツがカテゴリ�
 
 ![説明プレビュー](../page-builder/assets/pb-product-category-content-preview.png){width="500" zoomable="yes"}
 
-このコンテンツプレビューは、デフォルトで製品フォームとカテゴリーフォームに対して有効になっています。 プレビューの読み込みに伴いパフォーマンスが低下する場合は、[ コンテンツ管理設定](../configuration-reference/general/content-management.md#advanced-content-tools)でプレビューを無効にできます。
+このコンテンツプレビューは、デフォルトで製品フォームとカテゴリーフォームに対して有効になっています。 プレビューの読み込みに伴いパフォーマンスが低下する場合は、[&#x200B; コンテンツ管理設定](../configuration-reference/general/content-management.md#advanced-content-tools)でプレビューを無効にできます。
 
 ## エディターでのカテゴリの説明の追加
 
@@ -73,9 +73,9 @@ _[!UICONTROL Content]_の設定により、追加コンテンツがカテゴリ�
 
 1. 下にスクロールして、**[!UICONTROL Content]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ カテゴリーコンテンツ ](./assets/category-content-ce.png){width="500" zoomable="yes"}
+   ![&#x200B; カテゴリーコンテンツ &#x200B;](./assets/category-content-ce.png){width="500" zoomable="yes"}
 
-1. カテゴリ **[!UICONTROL Description]**&#x200B;を入力し、[ エディターツールバー](../content-design/editor.md)を使用して、必要に応じて書式設定します。
+1. カテゴリ **[!UICONTROL Description]**&#x200B;を入力し、[&#x200B; エディターツールバー](../content-design/editor.md)を使用して、必要に応じて書式設定します。
 
    右下隅をドラッグして、テキストボックスの高さを変更できます。
 
@@ -102,8 +102,8 @@ _[!UICONTROL Content]_の設定により、追加コンテンツがカテゴリ�
 
 | 設定 | [範囲](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Category Image] | ストアビュー | カテゴリ ページの先頭の画像を指定します。 方法：<br/><br/>**[!UICONTROL Upload]**- ローカルコンピューターからギャラリーに画像ファイルをアップロードし、それをカテゴリ画像として使用します。<br/><br/>**[!UICONTROL Select from Gallery]** - ギャラリーから既存の画像を選択するよう求めるメッセージが表示されます。 <br/><br/>![ ページビルダーのカメラアイコン ](../assets/icon-camera.png) – 画像ファイルをカメラタイルにドラッグするか、画像を参照してローカルファイルシステムから選択します。 |
-| [!UICONTROL Description] | ストアビュー | カテゴリ ページに表示される説明を指定します。<br/><br/>**[!UICONTROL Edit with Page Builder]**- [[!DNL Page Builder]  ワークスペース ](../page-builder/workspace.md)を開き、説明を編集できます。<br/><br/>**[!UICONTROL Show / Hide Editor]** - WYSIWYG エディターとHTML モードの表示を切り替えます。 |
-| [!UICONTROL Add CMS Block] | ストアビュー | 既存の[CMS ブロック ](../content-design/blocks.md)をカテゴリーページに追加します。 |
+| [!UICONTROL Category Image] | ストアビュー | カテゴリ ページの先頭の画像を指定します。 方法：<br/><br/>**[!UICONTROL Upload]**- ローカルコンピューターからギャラリーに画像ファイルをアップロードし、それをカテゴリ画像として使用します。<br/><br/>**[!UICONTROL Select from Gallery]** - ギャラリーから既存の画像を選択するよう求めるメッセージが表示されます。 <br/><br/>![&#x200B; ページビルダーのカメラアイコン &#x200B;](../assets/icon-camera.png) – 画像ファイルをカメラタイルにドラッグするか、画像を参照してローカルファイルシステムから選択します。 |
+| [!UICONTROL Description] | ストアビュー | カテゴリ ページに表示される説明を指定します。<br/><br/>**[!UICONTROL Edit with Page Builder]**- [[!DNL Page Builder]  ワークスペース &#x200B;](../page-builder/workspace.md)を開き、説明を編集できます。<br/><br/>**[!UICONTROL Show / Hide Editor]** - WYSIWYG エディターとHTML モードの表示を切り替えます。 |
+| [!UICONTROL Add CMS Block] | ストアビュー | 既存の[CMS ブロック &#x200B;](../content-design/blocks.md)をカテゴリーページに追加します。 |
 
 {style="table-layout:auto"}

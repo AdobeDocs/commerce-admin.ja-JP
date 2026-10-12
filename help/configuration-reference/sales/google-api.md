@@ -84,11 +84,11 @@ ht-degree: 1%
 | [!UICONTROL Enable] | ストアビュー | ストアのGoogle AdWordsを有効にします。 オプション：`Yes` / `No` |
 | [!UICONTROL Conversion ID] | ストアビュー | Google AdWords アカウントのID。 |
 | [!UICONTROL Conversion Language] | ストアビュー | AdWords コンバージョンに使用される言語。 オプション：`All available languages` |
-| [!UICONTROL Conversion Format] | ストアビュー | コンバージョンページに表示される[!DNL Google Site Stats]通知の形式を決定します。 この通知は、訪問者の訪問を追跡するために使用されるCookieを訪問者に通知するページにリンクします。 この数値は、AdWords スクリプトの`google_conversion_format`変数に割り当てられます。 詳しくは、Google web サイトの[ コンバージョントラッキングについて](https://support.google.com/google-ads/answer/1722022?hl=en)を参照してください。 オプション：<br/>**`1`**- 1行の通知を表示します。<br/>**`2`** - （デフォルト） 2行の通知を表示します。<br/>**`3`**– 顧客の通知を表示しません。 |
-| [!UICONTROL Conversion Color] | ストアビュー | コンバージョンラベルの色を指定します。 [ カラーピッカー](https://www.w3schools.com/colors/colors_picker.asp)を使用して、16進数値を選択します。 この16進数値は、AdWords スクリプトの`google_conversion_color`変数に割り当てられます。 例：ffffff `var google_conversion_color = "ffffff";` |
+| [!UICONTROL Conversion Format] | ストアビュー | コンバージョンページに表示される[!DNL Google Site Stats]通知の形式を決定します。 この通知は、訪問者の訪問を追跡するために使用されるCookieを訪問者に通知するページにリンクします。 この数値は、AdWords スクリプトの`google_conversion_format`変数に割り当てられます。 詳しくは、Google web サイトの[&#x200B; コンバージョントラッキングについて](https://support.google.com/google-ads/answer/1722022?hl=en)を参照してください。 オプション：<br/>**`1`**- 1行の通知を表示します。<br/>**`2`** - （デフォルト） 2行の通知を表示します。<br/>**`3`**– 顧客の通知を表示しません。 |
+| [!UICONTROL Conversion Color] | ストアビュー | コンバージョンラベルの色を指定します。 [&#x200B; カラーピッカー](https://www.w3schools.com/colors/colors_picker.asp)を使用して、16進数値を選択します。 この16進数値は、AdWords スクリプトの`google_conversion_color`変数に割り当てられます。 例：ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | ストアビュー | [!DNL Google Site Stats]通知と共に表示されるテキストラベル。 このテキスト文字列は、AdWords スクリプトの`~`変数に割り当てられます。 例えば、「お買い物ありがとうございます！」 |
 | [!UICONTROL Conversion Value Type] | ストアビュー | 変換が発生するタイミングを決定するために使用される値のタイプを指定します。 オプション：<br/>**`Dynamic`**– 動的な注文金額に基づいてコンバージョンが発生したことを確認します。<br/>**`Constant`** – 入力された値に基づいてコンバージョンが発生したことを確認します。 |
-| [!UICONTROL Conversion Value] | ストアビュー | _[!UICONTROL Constant]_変換値タイプに使用される値を指定します。 |
+| [!UICONTROL Conversion Value] | ストアビュー | _[!UICONTROL Constant]_&#x200B;変換値タイプに使用される値を指定します。 |
 | [!UICONTROL Send Order Currency] | ストアビュー | AdWordsでトランザクション固有の通貨コンバージョン値を有効にします（異なる基本通貨を使用するweb サイトの場合）。 |
 
 {style="table-layout:auto"}
@@ -143,11 +143,11 @@ ht-degree: 1%
 | [!UICONTROL Enable] | ストアビュー | ストアのGoogle AdWordsを有効にします。 オプション：`Yes` / `No` |
 | [!UICONTROL Conversion ID] | ストアビュー | Google AdWords アカウントのID。 |
 | [!UICONTROL Conversion Language] | ストアビュー | AdWords コンバージョンに使用される言語。 オプション：すべての使用可能な言語 |
-| [!UICONTROL Conversion Format] | ストアビュー | コンバージョンページに表示されるGoogle Site Stats通知の書式を指定します。 この通知は、訪問者の訪問を追跡するために使用されるCookieを訪問者に通知するページにリンクします。 この数値は、AdWords スクリプトの`google_conversion_format`変数に割り当てられます。 詳しくは、Google web サイトの[ コンバージョントラッキングについて](https://support.google.com/google-ads/answer/1722022?hl=en)を参照してください。 オプション：<br/>**`1`**- 1行の通知を表示します。<br/>**`2`** - （デフォルト） 2行の通知を表示します。<br/>**`3`**– 顧客の通知を表示しません。 |
-| [!UICONTROL Conversion Color] | ストアビュー | コンバージョンラベルの色を指定します。 [ カラーピッカー](https://www.w3schools.com/colors/colors_picker.asp)を使用して、16進数値を選択します。 この16進数値は、AdWords スクリプトの`google_conversion_color`変数に割り当てられます。 例：ffffff `var google_conversion_color = "ffffff";` |
+| [!UICONTROL Conversion Format] | ストアビュー | コンバージョンページに表示されるGoogle Site Stats通知の書式を指定します。 この通知は、訪問者の訪問を追跡するために使用されるCookieを訪問者に通知するページにリンクします。 この数値は、AdWords スクリプトの`google_conversion_format`変数に割り当てられます。 詳しくは、Google web サイトの[&#x200B; コンバージョントラッキングについて](https://support.google.com/google-ads/answer/1722022?hl=en)を参照してください。 オプション：<br/>**`1`**- 1行の通知を表示します。<br/>**`2`** - （デフォルト） 2行の通知を表示します。<br/>**`3`**– 顧客の通知を表示しません。 |
+| [!UICONTROL Conversion Color] | ストアビュー | コンバージョンラベルの色を指定します。 [&#x200B; カラーピッカー](https://www.w3schools.com/colors/colors_picker.asp)を使用して、16進数値を選択します。 この16進数値は、AdWords スクリプトの`google_conversion_color`変数に割り当てられます。 例：ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | ストアビュー | Google サイト統計の通知と共に表示されるテキストラベル。 このテキスト文字列は、AdWords スクリプトの`~`変数に割り当てられます。 例えば、「お買い物ありがとうございます！」 |
 | [!UICONTROL Conversion Value Type] | ストアビュー | 変換が発生するタイミングを決定するために使用される値のタイプを指定します。 オプション：<br/>**`Dynamic`**– 動的な注文金額に基づいてコンバージョンが発生したことを確認します。<br/>**`Constant`** – 入力された値に基づいてコンバージョンが発生したことを確認します。 |
-| [!UICONTROL Conversion Value] | ストアビュー | _[!UICONTROL Constant]_変換値タイプに使用される値を指定します。 |
+| [!UICONTROL Conversion Value] | ストアビュー | _[!UICONTROL Constant]_&#x200B;変換値タイプに使用される値を指定します。 |
 | [!UICONTROL Send Order Currency] | ストアビュー | AdWordsでトランザクション固有の通貨コンバージョン値を有効にします（異なる基本通貨を使用するweb サイトの場合）。 |
 
 {style="table-layout:auto"}

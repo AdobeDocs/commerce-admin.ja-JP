@@ -38,9 +38,9 @@ _トランザクション_ ページには、ストアと支払いシステム�
 
 ## トランザクションの表示
 
-_管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**&#x200B;に移動します。
 
-![ トランザクショングリッド ](./assets/transactions.png){width="600" zoomable="yes"}
+![&#x200B; トランザクショングリッド &#x200B;](./assets/transactions.png){width="600" zoomable="yes"}
 
 | 列 | 説明 |
 |--- |--- |

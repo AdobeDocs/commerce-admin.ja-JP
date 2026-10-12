@@ -41,7 +41,7 @@ ht-degree: 2%
 >
 >二段階認証コードや管理者パスワードリセットのメールなど、セキュリティ関連の管理者通知は、この機能によって抑制されることはありません。
 
-このページの設定は[ ストアビュー](../../getting-started/websites-stores-views.md#scope-settings)ごとに適用されるため、異なるストアフロントに対して異なるメールカテゴリを抑制できます。
+このページの設定は[&#x200B; ストアビュー](../../getting-started/websites-stores-views.md#scope-settings)ごとに適用されるため、異なるストアフロントに対して異なるメールカテゴリを抑制できます。
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ ht-degree: 2%
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Email Suppression] | ストアビュー | 機能のマスターオン/オフスイッチ。 `No`に設定すると（デフォルト）、このページの他のすべての設定が無視され、すべてのメールが正常に送信されます。 |
-| [!UICONTROL Disabled Functional Areas] | ストアビュー | 電子メールを除外する1つ以上のビジネス カテゴリを選択します。 各カテゴリに含まれる内容については、[ ビジネス カテゴリ ](#business-categories)を参照してください。 |
+| [!UICONTROL Disabled Functional Areas] | ストアビュー | 電子メールを除外する1つ以上のビジネス カテゴリを選択します。 各カテゴリに含まれる内容については、[&#x200B; ビジネス カテゴリ &#x200B;](#business-categories)を参照してください。 |
 | [!UICONTROL Disabled Template IDs] | ストアビュー | カテゴリーに関係なく、個別に抑制する特定のメールテンプレートのコンマ区切りリスト（オプション）。 管理者で作成したカスタムテンプレートのテンプレートコード （例：`customer_password_forgot_email_template`）または数値テンプレート IDを使用します。 |
 
 {style="table-layout:auto"}

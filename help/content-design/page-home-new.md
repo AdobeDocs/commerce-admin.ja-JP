@@ -25,11 +25,11 @@ ht-degree: 0%
 
 別のホームページの選択を管理し、デフォルトのホームページとして使用するページをアクティブにすることができます。
 
-1. [ ページを追加する](page-add.md)手順を完了します。
+1. [&#x200B; ページを追加する](page-add.md)手順を完了します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左側のパネルで、**[!UICONTROL Web]**を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左側のパネルで、**[!UICONTROL Web]**&#x200B;を選択します。
 
 1. **[!UICONTROL Default Pages]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、**[!UICONTROL CMS Home Page]**&#x200B;を新しいページに設定します。
 

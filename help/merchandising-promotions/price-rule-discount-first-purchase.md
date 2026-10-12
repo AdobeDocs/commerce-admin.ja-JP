@@ -75,7 +75,7 @@ ht-degree: 0%
 
      左側のパネルで追加のオプションが使用できるようになります。
 
-   ![顧客セグメントのプロパティ ](./assets/customer-segment-first-time.png){width="600" zoomable="yes"}
+   ![顧客セグメントのプロパティ &#x200B;](./assets/customer-segment-first-time.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Conditions]**&#x200B;を定義します。
 
@@ -85,19 +85,19 @@ ht-degree: 0%
 
      デフォルトの条件は、「これらの条件がすべてTRUEの場合」から始まります。
 
-   - _追加_ （![ アイコンを追加](../assets/icon-add-green-circle.png)）をクリックし、`Number of Orders`を選択します。
+   - _追加_ （![&#x200B; アイコンを追加](../assets/icon-add-green-circle.png)）をクリックし、`Number of Orders`を選択します。
 
    - **[!UICONTROL is]**&#x200B;をクリックし、`less than`を選択します。
 
    - 「**...**」をクリックし、フィールドに「`1`」と入力します。
 
-   - 緑のチェックマーク（![緑のチェックマーク ](../assets/icon-checkmark-green-circle.png)）をクリックして、条件設定を保存します。
+   - 緑のチェックマーク（![緑のチェックマーク &#x200B;](../assets/icon-checkmark-green-circle.png)）をクリックして、条件設定を保存します。
 
    ![顧客セグメント条件](./assets/customer-segment-first-time-condition.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
-顧客セグメントが作成され、_[!UICONTROL Customer Segments]_グリッドに表示されます。
+顧客セグメントが作成され、_[!UICONTROL Customer Segments]_&#x200B;グリッドに表示されます。
 
 >[!TIP]
 >
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 ## 手順2: 買い物かごの価格ルールの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rule]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rule]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add New Rule]**」をクリックします。
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
      デフォルトのルールは、「これらの条件がすべてTRUEの場合：」から始まります。
 
-   - _追加_ （![ アイコンを追加](../assets/icon-add-green-circle.png)）をクリックし、`Customer Segment`を選択します。
+   - _追加_ （![&#x200B; アイコンを追加](../assets/icon-add-green-circle.png)）をクリックし、`Customer Segment`を選択します。
 
      修飾子フィールドのデフォルトは`matches`です。
 
@@ -157,9 +157,9 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >セグメント IDがわからない場合は、選択アイコン（![ リストアイコン ](../assets/icon-list-chooser.png)）をクリックして、顧客セグメントリストを表示します。 フィールドにIDを手動で入力するか、目的のセグメントのチェックボックスを選択してフィールドを自動入力できます。
+     >セグメント IDがわからない場合は、選択アイコン（![&#x200B; リストアイコン &#x200B;](../assets/icon-list-chooser.png)）をクリックして、顧客セグメントリストを表示します。 フィールドにIDを手動で入力するか、目的のセグメントのチェックボックスを選択してフィールドを自動入力できます。
 
-   - 緑のチェックマーク（![緑のチェックマーク ](../assets/icon-checkmark-green-circle.png)）をクリックして、条件設定を保存します。
+   - 緑のチェックマーク（![緑のチェックマーク &#x200B;](../assets/icon-checkmark-green-circle.png)）をクリックして、条件設定を保存します。
 
    - 完了したら、**[!UICONTROL Save and Continue Edit]**&#x200B;をクリックします。
 
@@ -169,7 +169,7 @@ ht-degree: 0%
 
 1. 下にスクロールして![拡張セレクター](../assets/icon-display-expand.png) 「**[!UICONTROL Conditions]**」セクションを展開し、ルールのアクションを定義します。
 
-   このセクションでは、初回訪問客に適用する割引の種類と価値/額を定義します。 この例では、定義された条件を満たすすべての顧客に対して10%の割引を定義します。 その他の利用可能なオプションについて詳しくは、[ カート価格ルールの作成](price-rules-cart-create.md)を参照してください。
+   このセクションでは、初回訪問客に適用する割引の種類と価値/額を定義します。 この例では、定義された条件を満たすすべての顧客に対して10%の割引を定義します。 その他の利用可能なオプションについて詳しくは、[&#x200B; カート価格ルールの作成](price-rules-cart-create.md)を参照してください。
 
    - **[!UICONTROL Apply]**&#x200B;の場合は、「製品価格割引の割合」を選択します。
 
@@ -181,7 +181,7 @@ ht-degree: 0%
 
    - 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-   ![買い物かごの価格ルール アクション ](./assets/actions-first-time.png){width="600" zoomable="yes"}
+   ![買い物かごの価格ルール アクション &#x200B;](./assets/actions-first-time.png){width="600" zoomable="yes"}
 
 新しいルールは通常、1時間以内に利用できます。 ルールをテストして、ルールが定義したとおりに動作することを確認します。
 

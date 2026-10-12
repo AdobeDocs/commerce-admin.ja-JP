@@ -36,13 +36,13 @@ ht-degree: 0%
 
 ログイン後に顧客をアカウントダッシュボードにリダイレクトするか、ショッピングを続行させるようにストアを設定できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Customer Configuration]**&#x200B;を選択します。
 
 1. **[!UICONTROL Login Options]** セクションを展開します。
 
-   ![ ログインオプション ](assets/customer-configuration-login-options.png){width="600" zoomable="yes"}
+   ![&#x200B; ログインオプション &#x200B;](assets/customer-configuration-login-options.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]**&#x200B;を次のいずれかに設定します：
 

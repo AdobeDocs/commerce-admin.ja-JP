@@ -36,11 +36,11 @@ ht-degree: 0%
 ---
 # 製品設定 – [!UICONTROL Content]
 
-「_[!UICONTROL Content]_」セクションは、製品ページに表示されるメイン製品の説明を入力および編集するために使用されます。 短い説明は、ほとんどのRSS フィードで使用でき、[ テーマ ](../content-design/themes.md)に応じて、カタログリストにも表示される場合があります。
+「_[!UICONTROL Content]_」セクションは、製品ページに表示されるメイン製品の説明を入力および編集するために使用されます。 短い説明は、ほとんどのRSS フィードで使用でき、[&#x200B; テーマ &#x200B;](../content-design/themes.md)に応じて、カタログリストにも表示される場合があります。
 
 >[!NOTE]
 >
->カタログの強化により、AIが提案した更新内容を、このセクションの製品名と長い説明に適用できます。 詳しくは、[ カタログの強化](catalog-enrichment.md)を参照してください。
+>カタログの強化により、AIが提案した更新内容を、このセクションの製品名と長い説明に適用できます。 詳しくは、[&#x200B; カタログの強化](catalog-enrichment.md)を参照してください。
 
 ## [!DNL Page Builder]に製品の説明を追加
 
@@ -48,9 +48,9 @@ ht-degree: 0%
 
 1. 下にスクロールして、**[!UICONTROL Content]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![製品コンテンツ ](./assets/product-content.png){width="600" zoomable="yes"}
+   ![製品コンテンツ &#x200B;](./assets/product-content.png){width="600" zoomable="yes"}
 
-1. 製品の&#x200B;**[!UICONTROL Short Description]**&#x200B;を入力し、[ エディターツールバー](../content-design/editor.md)を使用して、必要に応じて書式設定します。
+1. 製品の&#x200B;**[!UICONTROL Short Description]**&#x200B;を入力し、[&#x200B; エディターツールバー](../content-design/editor.md)を使用して、必要に応じて書式設定します。
 
 1. **[!UICONTROL Description]** ラベルで、**[!UICONTROL Edit with Page Builder]**&#x200B;をクリックします。
 
@@ -58,21 +58,21 @@ ht-degree: 0%
 
 ## [!DNL Page Builder] プレビュー
 
-[!DNL Page Builder]で作成されたコンテンツがある既存の製品の&#x200B;_[!UICONTROL Content]_セクションを展開すると、製品ページに表示されるとおりに&#x200B;**[!UICONTROL Description]**コンテンツのプレビューが表示されます。**[!UICONTROL Edit with Page Builder]**をクリックして、必要な更新を行うことができる[!DNL Page Builder] ワークスペースを開きます。
+[!DNL Page Builder]で作成されたコンテンツがある既存の製品の&#x200B;_[!UICONTROL Content]_&#x200B;セクションを展開すると、製品ページに表示されるとおりに&#x200B;**[!UICONTROL Description]**&#x200B;コンテンツのプレビューが表示されます。**[!UICONTROL Edit with Page Builder]**&#x200B;をクリックして、必要な更新を行うことができる[!DNL Page Builder] ワークスペースを開きます。
 
 ![説明プレビュー](../page-builder/assets/pb-product-category-content-preview.png){width="600" zoomable="yes"}
 
-このコンテンツプレビューは、デフォルトで製品フォームとカテゴリーフォームに対して有効になっています。 プレビューの読み込みに伴いパフォーマンスが低下する場合は、[ コンテンツ管理設定](../configuration-reference/general/content-management.md#advanced-content-tools)でプレビューを無効にできます。
+このコンテンツプレビューは、デフォルトで製品フォームとカテゴリーフォームに対して有効になっています。 プレビューの読み込みに伴いパフォーマンスが低下する場合は、[&#x200B; コンテンツ管理設定](../configuration-reference/general/content-management.md#advanced-content-tools)でプレビューを無効にできます。
 
 ## エディターでの製品説明の追加
 
-ストアで[!DNL Page Builder]が無効になっている場合は、テキストエディターを使用して商品コンテンツを追加します。 テキストボックスにプレーン ASCII文字のみを入力します。 ワードプロセッサーからテキストをペーストする場合は、最初にプレーンな.TXT ファイルとして保存して、目に見えないコントロール文字を削除します。 詳しくは、[ エディターの使用](../content-design/editor.md)を参照してください。
+ストアで[!DNL Page Builder]が無効になっている場合は、テキストエディターを使用して商品コンテンツを追加します。 テキストボックスにプレーン ASCII文字のみを入力します。 ワードプロセッサーからテキストをペーストする場合は、最初にプレーンな.TXT ファイルとして保存して、目に見えないコントロール文字を削除します。 詳しくは、[&#x200B; エディターの使用](../content-design/editor.md)を参照してください。
 
 1. 製品を編集モードで開きます。
 
 1. 下にスクロールして、**[!UICONTROL Content]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ シンプルな製品コンテンツ ](./assets/product-simple-content.png){width="600" zoomable="yes"}
+   ![&#x200B; シンプルな製品コンテンツ &#x200B;](./assets/product-simple-content.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、製品と形式の&#x200B;**[!UICONTROL Short Description]**&#x200B;を入力します。
 

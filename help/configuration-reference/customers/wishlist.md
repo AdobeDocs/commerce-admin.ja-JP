@@ -44,7 +44,7 @@ ht-degree: 3%
 
 ## [!UICONTROL General Options]
 
-![一般オプション ](./assets/wishlist-general-options.png)<!-- zoom -->
+![一般オプション &#x200B;](./assets/wishlist-general-options.png)<!-- zoom -->
 
 <!--[General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
@@ -59,7 +59,7 @@ ht-degree: 3%
 
 ## [!UICONTROL Share Options]
 
-![共有オプション ](./assets/wishlist-share-options.png)<!-- zoom -->
+![共有オプション &#x200B;](./assets/wishlist-share-options.png)<!-- zoom -->
 
 <!-- [Share Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
@@ -74,7 +74,7 @@ ht-degree: 3%
 
 ## [!UICONTROL My Wish List Link]
 
-![希望リストのリンク ](./assets/wishlist-my-wishlist-link.png)<!-- zoom -->
+![希望リストのリンク &#x200B;](./assets/wishlist-my-wishlist-link.png)<!-- zoom -->
 
 <!--[My Wish List Link](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 

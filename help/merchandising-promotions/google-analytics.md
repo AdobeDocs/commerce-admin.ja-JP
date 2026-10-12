@@ -54,11 +54,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ビジネスが[一般データ保護規則](../getting-started/compliance-gdpr.md)や[Google州消費者プライバシー法](../getting-started/compliance-ccpa.md)などのプライバシー規制の対象となる場合は、[ カリフォルニア州プライバシー設定](google-tools.md#google-privacy-settings)を参照してください。
+>ビジネスが[一般データ保護規則](../getting-started/compliance-gdpr.md)や[Google州消費者プライバシー法](../getting-started/compliance-ccpa.md)などのプライバシー規制の対象となる場合は、[&#x200B; カリフォルニア州プライバシー設定](google-tools.md#google-privacy-settings)を参照してください。
 
 >[!IMPORTANT]
 >
->[Cookie制限モード ](../getting-started/compliance-cookie-law.md)を有効にした場合、[!DNL Google Analytics]はCookieを受け入れない限り、訪問者に関するデータを収集しません。
+>[Cookie制限モード &#x200B;](../getting-started/compliance-cookie-law.md)を有効にした場合、[!DNL Google Analytics]はCookieを受け入れない限り、訪問者に関するデータを収集しません。
 
 ## [!DNL Google Analytics] 4
 
@@ -69,13 +69,13 @@ ht-degree: 0%
 サイトの[!DNL Google Analytics] 4のセットアップがまだ行われていない場合は、次のいずれかの方法に従います。
 
 - [Analytics データ収集を初めて設定する](https://support.google.com/analytics/answer/9304153)
-- [ [!DNL Universal Analytics]を持つサイトにGoogle Analytics 4を追加](https://support.google.com/analytics/answer/9744165)
+- [&#x200B; [!DNL Universal Analytics]を持つサイトにGoogle Analytics 4を追加](https://support.google.com/analytics/answer/9744165)
 
 ### 手順2:Commerceの設定を完了する
 
 1. Commerce ストアの管理者にログインします。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Google API]**&#x200B;を選択します。
 
@@ -87,11 +87,11 @@ ht-degree: 0%
 
    - **[!UICONTROL Account type]**&#x200B;を`Google Analytics4`のままにします。
 
-   - **[!UICONTROL Measurement ID]**&#x200B;を入力します。 詳しくは、[Google Analytics ヘルプ ](https://support.google.com/analytics/answer/9539598)を参照してください。
+   - **[!UICONTROL Measurement ID]**&#x200B;を入力します。 詳しくは、[Google Analytics ヘルプ &#x200B;](https://support.google.com/analytics/answer/9539598)を参照してください。
 
    - コンテンツに対してA/B テストやその他のパフォーマンステストを実施する場合は、**コンテンツ実験**&#x200B;を`Yes`に設定します。
 
-   ![ セールス設定 – Google Analytics 4](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png){width="600" zoomable="yes"}用Google API
+   ![&#x200B; セールス設定 – Google Analytics 4](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png){width="600" zoomable="yes"}用Google API
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
@@ -109,7 +109,7 @@ Googleのweb サイトにアクセスし、[Google Universal Analytics](https://
 
 1. Commerce ストアの管理者にログインします。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Google API]**&#x200B;を選択します。
 

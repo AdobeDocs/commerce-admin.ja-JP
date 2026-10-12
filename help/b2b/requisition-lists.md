@@ -52,7 +52,7 @@ ht-degree: 0%
 - 商品をショッピングカートに送った後、購買リストがクリアされない。 複数回使用できます。
 - 購買リストのユーザーインターフェイスでは、コンパクトなビューを使用して多くのアイテムを表示します。
 
-![ ストアフロントに表示される要求リスト ](./assets/account-dashboard-my-requisition-lists.png){width="600" zoomable="yes"}
+![&#x200B; ストアフロントに表示される要求リスト &#x200B;](./assets/account-dashboard-my-requisition-lists.png){width="600" zoomable="yes"}
 
 ## アカウントダッシュボードから購買グループを作成
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. アカウントのサイドバーで、**[!UICONTROL My Requisition Lists]**&#x200B;を選択します。
 
-1. _[!UICONTROL Requisition Lists]_ページで、**[!UICONTROL Create New Requisition List]**をクリックします。
+1. _[!UICONTROL Requisition Lists]_&#x200B;ページで、**[!UICONTROL Create New Requisition List]**&#x200B;をクリックします。
 
 1. **[!UICONTROL Requisition List Name]**&#x200B;と&#x200B;**[!UICONTROL Description]**&#x200B;を入力します。
 
@@ -156,7 +156,7 @@ B2B見積について詳しくは、[見積もり](account-dashboard-my-quotes.m
 
 バイヤーは、アカウントにログインすると、次のいずれかの方法で購買リストを表示できます。
 
-![自分の購買依頼リスト ](./assets/requisition-lists-menu-select-storefront.png){width="700" zoomable="yes"}
+![自分の購買依頼リスト &#x200B;](./assets/requisition-lists-menu-select-storefront.png){width="700" zoomable="yes"}
 
 ### アカウントダッシュボードから
 

@@ -46,4 +46,4 @@ Adobe Commerceは、200以上の国や地域の通貨を受け入れることが
 
 通貨記号は、商品の価格や、注文や請求書などの販売文書に表示されます。 必要に応じて通貨記号をカスタマイズしたり、店舗やビューごとに価格の表示を個別に設定したりできます。
 
-![ ストアフロントの例 – 通貨選択](./assets/storefront-currency-chooser.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの例 – 通貨選択](./assets/storefront-currency-chooser.png){width="700" zoomable="yes"}

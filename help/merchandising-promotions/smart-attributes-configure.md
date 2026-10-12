@@ -45,13 +45,13 @@ ht-degree: 0%
 
 Visual Merchandiser設定は、マーチャンダイジングウィンドウで使用できる属性と最小在庫閾値を決定します。 この設定は、カラーに使用される属性とカラー値の順序も識別します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Visual Merchandiser]**」を選択します。
 
 1. **[!UICONTROL General Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ カタログ設定 – ビジュアルマーチャンダイザー](../configuration-reference/catalog/assets/catalog-visual-merchandiser-general-options.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ設定 – ビジュアルマーチャンダイザー](../configuration-reference/catalog/assets/catalog-visual-merchandiser-general-options.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Attributes for Category Rules]** リストで、ビジュアルマーチャンダイジングで利用できるようにしたい各属性を選択します。
 

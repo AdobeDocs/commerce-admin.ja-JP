@@ -36,7 +36,7 @@ ht-degree: 0%
 ---
 # メールテンプレートのカスタマイズ
 
-Commerceには、システムによって送信される各メッセージの本文セクションのデフォルトのメールテンプレートが含まれています。 本文コンテンツのテンプレートとヘッダーおよびフッターのテンプレートを組み合わせて、メッセージ全体を作成します。 コンテンツはHTMLとCSSでフォーマットされ、[変数](variables-predefined.md)を追加して簡単に編集およびカスタマイズできます。 メールテンプレートは、web サイト、実店舗、実店舗の顧客像ごとにカスタマイズできます。 カスタムテンプレートを使用する場合は、必ず[ システム設定](email-templates.md#configure-email-templates)を更新して、正しいテンプレートが使用されるようにしてください。 電子メールテンプレートをカスタマイズする際に条件文を使用する方法については、[開発者ドキュメント ](https://developer.adobe.com/commerce/frontend-core/guide/templates/email#theme-based-customizations-1)を参照してください。
+Commerceには、システムによって送信される各メッセージの本文セクションのデフォルトのメールテンプレートが含まれています。 本文コンテンツのテンプレートとヘッダーおよびフッターのテンプレートを組み合わせて、メッセージ全体を作成します。 コンテンツはHTMLとCSSでフォーマットされ、[変数](variables-predefined.md)を追加して簡単に編集およびカスタマイズできます。 メールテンプレートは、web サイト、実店舗、実店舗の顧客像ごとにカスタマイズできます。 カスタムテンプレートを使用する場合は、必ず[&#x200B; システム設定](email-templates.md#configure-email-templates)を更新して、正しいテンプレートが使用されるようにしてください。 電子メールテンプレートをカスタマイズする際に条件文を使用する方法については、[開発者ドキュメント &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/templates/email#theme-based-customizations-1)を参照してください。
 
 ![例 – ウェルカムメールのプレビュー](./assets/email-template-preview.png){width="500" zoomable="yes"}
 
@@ -46,7 +46,7 @@ Commerceには、システムによって送信される各メッセージの本
 - [フッターテンプレート](email-template-custom.md#footer-template)
 - [メッセージテンプレート](email-template-custom.md#message-templates)
 
-![ メールテンプレート ](./assets/email-templates.png){width="700" zoomable="yes"}
+![&#x200B; メールテンプレート &#x200B;](./assets/email-templates.png){width="700" zoomable="yes"}
 
 ## テンプレート情報
 
@@ -56,7 +56,7 @@ Commerceには、システムによって送信される各メッセージの本
 | [!UICONTROL Insert Variable] | カーソル位置でテンプレートに変数を挿入します。 |
 | [!UICONTROL Template Subject] | テンプレートの件名は「件名」列に表示され、リスト内のテンプレートの並べ替えやフィルタリングに使用できます。 |
 | [!UICONTROL Template Content] | HTMLのテンプレートの内容。 |
-| [!UICONTROL Template Styles] | テンプレートの書式設定に必要なCSS スタイル宣言は、_[!UICONTROL Template Styles]_ボックスに入力できます。 |
+| [!UICONTROL Template Styles] | テンプレートの書式設定に必要なCSS スタイル宣言は、_[!UICONTROL Template Styles]_&#x200B;ボックスに入力できます。 |
 
 {style="table-layout:auto"}
 
@@ -66,7 +66,7 @@ Commerceには、システムによって送信される各メッセージの本
 
 ### 手順1: デフォルトテンプレートの読み込み
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**&#x200B;に移動します。
 
 1. **[!UICONTROL Add New Template]**&#x200B;をクリックします。
 
@@ -84,9 +84,9 @@ Commerceには、システムによって送信される各メッセージの本
 
 1. テンプレートを整理するために&#x200B;**[!UICONTROL Template Subject]**&#x200B;を入力してください。
 
-   グリッドでは、テンプレートのリストを&#x200B;_[!UICONTROL Subject]_列で並べ替え、フィルタリングできます。
+   グリッドでは、テンプレートのリストを&#x200B;_[!UICONTROL Subject]_&#x200B;列で並べ替え、フィルタリングできます。
 
-   ![ メールテンプレートヘッダー情報](./assets/email-template-information.png){width="600" zoomable="yes"}
+   ![&#x200B; メールテンプレートヘッダー情報](./assets/email-template-information.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Template Content]** ボックスで、必要に応じてHTMLを変更します。
 
@@ -98,11 +98,11 @@ Commerceには、システムによって送信される各メッセージの本
 
 1. 挿入する変数を選択します。
 
-   ![ ヘッダーテンプレート – 変数を挿入](./assets/email-template-insert-variable.png){width="600" zoomable="yes"}
+   ![&#x200B; ヘッダーテンプレート – 変数を挿入](./assets/email-template-insert-variable.png){width="600" zoomable="yes"}
 
-   変数を選択すると、その変数の[ マークアップタグ ](markup-tags.md)がコードに挿入されます。
+   変数を選択すると、その変数の[&#x200B; マークアップタグ &#x200B;](markup-tags.md)がコードに挿入されます。
 
-   Store Email Address変数は、ヘッダーに最もよく含まれる変数ですが、任意のシステムのコードまたは[ カスタム変数](variables-custom.md)をテンプレートに直接入力できます。
+   Store Email Address変数は、ヘッダーに最もよく含まれる変数ですが、任意のシステムのコードまたは[&#x200B; カスタム変数](variables-custom.md)をテンプレートに直接入力できます。
 
 1. CSSの宣言が必要な場合は、**[!UICONTROL Template Styles]** ボックスにスタイルを入力します。
 
@@ -116,9 +116,9 @@ Commerceには、システムによって送信される各メッセージの本
 
 ### 手順3: 設定の更新
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. グリッドで、設定するストアビューを見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
+1. グリッドで、設定するストアビューを見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. 下にスクロールして、**[!UICONTROL Transactional Emails]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
@@ -126,7 +126,7 @@ Commerceには、システムによって送信される各メッセージの本
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-![ トランザクションメールデザイン設定 – ヘッダーテンプレート ](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
+![&#x200B; トランザクションメールデザイン設定 – ヘッダーテンプレート &#x200B;](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
 
 ## フッターテンプレート
 
@@ -134,7 +134,7 @@ Commerceには、システムによって送信される各メッセージの本
 
 ### 手順1: デフォルトテンプレートの読み込み
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**&#x200B;に移動します。
 
 1. **[!UICONTROL Add New Template]**&#x200B;をクリックします。
 
@@ -150,7 +150,7 @@ Commerceには、システムによって送信される各メッセージの本
 
 1. テンプレートを整理するために&#x200B;**[!UICONTROL Template Subject]**&#x200B;を入力してください。
 
-   グリッドでは、テンプレートを&#x200B;_[!UICONTROL Subject]_列で並べ替え、フィルタリングできます。
+   グリッドでは、テンプレートを&#x200B;_[!UICONTROL Subject]_&#x200B;列で並べ替え、フィルタリングできます。
 
    ![電子メールテンプレートフッター – 情報](./assets/email-template-footer-information.png){width="600" zoomable="yes"}
 
@@ -164,17 +164,17 @@ Commerceには、システムによって送信される各メッセージの本
 
 1. 挿入する変数を選択します。
 
-   変数を選択すると、その変数の[ マークアップタグ ](markup-tags.md)がコードに挿入されます。
+   変数を選択すると、その変数の[&#x200B; マークアップタグ &#x200B;](markup-tags.md)がコードに挿入されます。
 
-   Store Contact変数は、フッターに最もよく含まれる変数ですが、任意のシステムのコードまたは[ カスタム変数](variables-custom.md)をテンプレートに直接入力できます。
+   Store Contact変数は、フッターに最もよく含まれる変数ですが、任意のシステムのコードまたは[&#x200B; カスタム変数](variables-custom.md)をテンプレートに直接入力できます。
 
 1. CSSの宣言が必要な場合は、**[!UICONTROL Template Styles]** ボックスにスタイルを入力します。
 
 ### 手順3: 設定の更新
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. グリッドで、設定するストアビューを見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
+1. グリッドで、設定するストアビューを見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. 下にスクロールして、**[!UICONTROL Transactional Emails]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
@@ -182,15 +182,15 @@ Commerceには、システムによって送信される各メッセージの本
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-![ トランザクションメールデザイン設定 – フッターテンプレート ](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
+![&#x200B; トランザクションメールデザイン設定 – フッターテンプレート &#x200B;](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
 
 ## メッセージテンプレート
 
-各メッセージの本文をカスタマイズするプロセスは、ヘッダーまたはフッターをカスタマイズするプロセスと同じです。 唯一の違いは、通知をトリガーする各アクティビティまたはイベントのメッセージテンプレートです。 テンプレートをそのまま使用することも、声やブランドに合わせてカスタマイズすることもできます。 テンプレートテキストに加えて、テンプレートに作成して組み込むことができる、許可される[定義済み](variables-predefined.md)変数と[ カスタム ](variables-custom.md)変数の幅広い選択があります。
+各メッセージの本文をカスタマイズするプロセスは、ヘッダーまたはフッターをカスタマイズするプロセスと同じです。 唯一の違いは、通知をトリガーする各アクティビティまたはイベントのメッセージテンプレートです。 テンプレートをそのまま使用することも、声やブランドに合わせてカスタマイズすることもできます。 テンプレートテキストに加えて、テンプレートに作成して組み込むことができる、許可される[定義済み](variables-predefined.md)変数と[&#x200B; カスタム &#x200B;](variables-custom.md)変数の幅広い選択があります。
 
 ### 手順1: デフォルトテンプレートの読み込み
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**&#x200B;に移動します。
 
 1. **[!UICONTROL Add New Template]**&#x200B;をクリックします。
 
@@ -224,7 +224,7 @@ Commerceには、システムによって送信される各メッセージの本
 
 1. 変数を挿入するには、変数を表示するコード内にカーソルを置きます。
 
-   変数の選択はテンプレートによって異なり、使用可能な場合は[定義済み](variables-predefined.md)変数と[ カスタム ](variables-custom.md)変数が含まれます。
+   変数の選択はテンプレートによって異なり、使用可能な場合は[定義済み](variables-predefined.md)変数と[&#x200B; カスタム &#x200B;](variables-custom.md)変数が含まれます。
 
 1. **[!UICONTROL Insert Variable]**&#x200B;をクリックし、挿入する変数を選択します。
 
@@ -238,11 +238,11 @@ Commerceには、システムによって送信される各メッセージの本
 
    >[!NOTE]
    >
-   >カスタムスタイルは、`{{template config_path="design/email/header_template"}}`が&#x200B;_[!UICONTROL Template Styles]_に存在する場合にのみ、メールに適用されます。 デフォルトのヘッダーテンプレートを使用せずにカスタム CSSを使用するには、`<style>` HTML タグ内でそれらを指定する必要があります。
+   >カスタムスタイルは、`{{template config_path="design/email/header_template"}}`が&#x200B;_[!UICONTROL Template Styles]_&#x200B;に存在する場合にのみ、メールに適用されます。 デフォルトのヘッダーテンプレートを使用せずにカスタム CSSを使用するには、`<style>` HTML タグ内でそれらを指定する必要があります。
 
 ### 手順3: 設定の更新
 
-_[!UICONTROL Currently Used For]_のパンくずリストは、テンプレートが使用される場所を示します。 この例では、テンプレート設定は_[!UICONTROL Customer Configuration]_ ページ、_[!UICONTROL Create New Account Options]_セクション、_[!UICONTROL Default Welcome Email]_ フィールドにあります。
+_[!UICONTROL Currently Used For]_&#x200B;のパンくずリストは、テンプレートが使用される場所を示します。 この例では、テンプレート設定は&#x200B;_[!UICONTROL Customer Configuration]_ ページ、_[!UICONTROL Create New Account Options]_&#x200B;セクション、_[!UICONTROL Default Welcome Email]_ フィールドにあります。
 
 - ページ - [!UICONTROL Customer Configuration]
 - セクション - [!UICONTROL Create New Account Options]
@@ -250,13 +250,13 @@ _[!UICONTROL Currently Used For]_のパンくずリストは、テンプレー�
 
 1. **[!UICONTROL Currently Used For]** パンくずリストで、リンクをクリックしてテンプレート設定ページを開きます。
 
-   ![現在の電子メールテンプレート ](./assets/email-template-new-currently-used-for.png){width="600" zoomable="yes"}
+   ![現在の電子メールテンプレート &#x200B;](./assets/email-template-new-currently-used-for.png){width="600" zoomable="yes"}
 
 1. セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、カスタマイズした電子メールテンプレートのフィールドを見つけます。
 
 1. 「**[!UICONTROL Use system value]**」チェックボックスをオフにして、カスタムテンプレートの名前をクリックします。
 
-   ![お客様の設定 – デフォルトのウェルカムメールテンプレート ](./assets/email-template-message-configuration-default-template.png){width="600" zoomable="yes"}
+   ![お客様の設定 – デフォルトのウェルカムメールテンプレート &#x200B;](./assets/email-template-message-configuration-default-template.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 

@@ -40,7 +40,7 @@ ht-degree: 0%
 ---
 # 製品設定 – [!UICONTROL Sources]
 
-製品設定の&#x200B;_[!UICONTROL Sources]_セクションには、製品を配布できるソースが一覧表示されます。 ソースの割り当てと割り当て解除、および製品の数量と可用性の管理に使用されます。 このセクションは、ストアに定義されているソースが複数ある場合にのみ表示されます。 ソースについて詳しくは、[ ソースの管理](../inventory-management/sources-manage.md)を参照してください。
+製品設定の&#x200B;_[!UICONTROL Sources]_&#x200B;セクションには、製品を配布できるソースが一覧表示されます。 ソースの割り当てと割り当て解除、および製品の数量と可用性の管理に使用されます。 このセクションは、ストアに定義されているソースが複数ある場合にのみ表示されます。 ソースについて詳しくは、[&#x200B; ソースの管理](../inventory-management/sources-manage.md)を参照してください。
 
 ## 製品のソースの割り当て
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;をクリックして変更を保存します。
 
-![ ソースビュー](./assets/catalog-sources-list.png){width="600" zoomable="yes"}
+![&#x200B; ソースビュー](./assets/catalog-sources-list.png){width="600" zoomable="yes"}
 
 ## フィールドリファレンス
 

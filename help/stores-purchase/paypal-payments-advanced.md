@@ -90,7 +90,7 @@ PayPal Payments Advancedでの注文の処理は、通常のPayPal注文の場�
 
 CommerceでPayPal Payments Advancedを設定する前に、PayPal web サイトでアカウントを設定する必要があります。
 
-1. [PayPal法人向けアカウント ](https://manager.paypal.com/)にログインします。
+1. [PayPal法人向けアカウント &#x200B;](https://manager.paypal.com/)にログインします。
 
 1. **[!UICONTROL Service Settings]** > **[!UICONTROL Hosted Checkout Pages]** > **[!UICONTROL Set Up Menu]**&#x200B;に移動し、次の設定を完了します。
 
@@ -114,7 +114,7 @@ CommerceでPayPal Payments Advancedを設定する前に、PayPal web サイト�
 
 1. 別のユーザーを設定する（PayPalで推奨）:
 
-   - [PayPal法人向けアカウント ](https://manager.paypal.com/)にログインします。
+   - [PayPal法人向けアカウント &#x200B;](https://manager.paypal.com/)にログインします。
 
    - 別のユーザーを設定するには、指示に従います。
 
@@ -132,17 +132,17 @@ CommerceでPayPal Payments Advancedを設定する前に、PayPal web サイト�
 
 ### 手順1：設定を開始する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Payment Methods]**&#x200B;を選択します。
 
 1. Commerce インストールに複数のweb サイト、ストア、またはビューがある場合は、この設定を適用するストアビューに&#x200B;**[!UICONTROL Store View]**&#x200B;を設定します。
 
-1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが存在する&#x200B;**[!UICONTROL Merchant Country]**を選択します。
+1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが存在する&#x200B;**[!UICONTROL Merchant Country]**&#x200B;を選択します。
 
    この設定は、設定に表示されるPayPal ソリューションの選択を決定します。
 
-   ![ マーチャント国](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
+   ![&#x200B; マーチャント国](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL PayPal All-in-One Payment Solution]**&#x200B;を展開し、**[!UICONTROL Payments Advanced]**&#x200B;の&#x200B;**[!UICONTROL Configure]**&#x200B;をクリックします。
 
@@ -172,7 +172,7 @@ CommerceでPayPal Payments Advancedを設定する前に、PayPal web サイト�
 
 1. テスト トランザクションを実行するには、**[!UICONTROL Test Mode]**&#x200B;を`Yes`に設定します。
 
-   サンドボックスで設定をテストする場合は、PayPalが推奨する[ クレジットカード番号](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm)のみを使用します。 実稼動環境に移行する準備ができたら、設定に戻り、テストモードを`No`に設定します。
+   サンドボックスで設定をテストする場合は、PayPalが推奨する[&#x200B; クレジットカード番号](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm)のみを使用します。 実稼動環境に移行する準備ができたら、設定に戻り、テストモードを`No`に設定します。
 
 1. システムでプロキシサーバーを使用してPayPal システムへの接続を確立する場合は、**[!UICONTROL Use Proxy]**&#x200B;を`Yes`に設定し、次の操作を行います。
 
@@ -184,7 +184,7 @@ CommerceでPayPal Payments Advancedを設定する前に、PayPal web サイト�
 
 1. **[!UICONTROL Enable this Solution]**&#x200B;を`Yes`に設定します。
 
-1. [PayPal クレジット ](paypal.md#paypal-credit-and-pay-later)を顧客に提供する場合は、**[!UICONTROL Enable PayPal Credit]**&#x200B;を`Yes`に設定します。
+1. [PayPal クレジット &#x200B;](paypal.md#paypal-credit-and-pay-later)を顧客に提供する場合は、**[!UICONTROL Enable PayPal Credit]**&#x200B;を`Yes`に設定します。
 
 ### ステップ 3:Advertising PayPal Credit / Advertising PayPal PayLaterの設定（オプション）
 
@@ -335,7 +335,7 @@ CommerceでPayPal Payments Advancedを設定する前に、PayPal web サイト�
 1. **[!UICONTROL Payment Applicable From]**&#x200B;を次のいずれかに設定します：
 
    - `All Allowed Countries` - ストア設定で指定されたすべての[国](../getting-started/store-details.md#country-options)のお客様は、この支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_リストが表示されます。 Ctrl キー（PC）またはCommand キー（Mac）を押しながら、お客様が店舗で購入できる国をリストから選択します。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;リストが表示されます。 Ctrl キー（PC）またはCommand キー（Mac）を押しながら、お客様が店舗で購入できる国をリストから選択します。
 
 1. 支払いシステムとの通信をログファイルに書き込むには、**[!UICONTROL Debug Mode]**&#x200B;を`Yes`に設定します。
 
@@ -408,7 +408,7 @@ CommerceでPayPal Payments Advancedを設定する前に、PayPal web サイト�
 
 #### フロントエンドエクスペリエンス設定
 
-_[!UICONTROL Frontend Experience Settings]_を使用して、サイトに表示するPayPal ロゴを選択し、PayPal マーチャント ページの外観をカスタマイズします。
+_[!UICONTROL Frontend Experience Settings]_&#x200B;を使用して、サイトに表示するPayPal ロゴを選択し、PayPal マーチャント ページの外観をカスタマイズします。
 
 1. **[!UICONTROL Frontend Experience Settings]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
@@ -463,7 +463,7 @@ _[!UICONTROL Frontend Experience Settings]_を使用して、サイトに表示�
    - `Authorization` – 購入を承認し、資金を保留します。 金額は、加盟店が&#x200B;_獲得_&#x200B;するまで引き落とされません。
    - `Sale` – 購入金額が承認され、お客様のアカウントから直ちに引き落とされます。
 
-1. 製品ページに&#x200B;_[!UICONTROL Check out with PayPal]_ボタンを表示するには、**[!UICONTROL Display on Product Details Page]**を`Yes`に設定します。
+1. 製品ページに&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;ボタンを表示するには、**[!UICONTROL Display on Product Details Page]**&#x200B;を`Yes`に設定します。
 
 ### ステップ 7：詳細設定を完了する – PayPal Express チェックアウト
 

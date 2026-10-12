@@ -69,7 +69,7 @@ ht-degree: 0%
 
      >[!IMPORTANT]
      >
-     >配送およびルートとデータにDistance Priority アルゴリズムを使用すると、出荷用に選択した[計算モード ](distance-priority-algorithm.md) （運転、自転車、またはウォーキング）に対して返されない場合、SSAはデフォルトでSource Priorityに設定されます。 在庫ごとのソースの[優先度](stocks-prioritize-sources.md)も設定することをお勧めします。
+     >配送およびルートとデータにDistance Priority アルゴリズムを使用すると、出荷用に選択した[計算モード &#x200B;](distance-priority-algorithm.md) （運転、自転車、またはウォーキング）に対して返されない場合、SSAはデフォルトでSource Priorityに設定されます。 在庫ごとのソースの[優先度](stocks-prioritize-sources.md)も設定することをお勧めします。
 
 
    - **[!UICONTROL Select a Source to Ship from]**&#x200B;の場合、出荷元を選択して出荷を送信します。
@@ -80,9 +80,9 @@ ht-degree: 0%
 
      ![Sourceを選択して数量を入力](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. _[!UICONTROL New Shipment]_ページを確認し、必要に応じて追加の変更を入力します。
+1. _[!UICONTROL New Shipment]_&#x200B;ページを確認し、必要に応じて追加の変更を入力します。
 
-   _[!UICONTROL Inventory]_セクションには、ソース、製品の出荷、注文合計数量、および出荷する数量が表示されます。
+   _[!UICONTROL Inventory]_&#x200B;セクションには、ソース、製品の出荷、注文合計数量、および出荷する数量が表示されます。
 
    ![出荷の在庫の詳細、部分的な出荷の例](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

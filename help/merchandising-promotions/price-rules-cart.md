@@ -46,13 +46,13 @@ ht-degree: 0%
 >
 >クーポンカートのルールに、特定の配送方法や支払い方法など、チェックアウトオプションを指定する条件が設定されている場合、その条件は、特定の配送/支払い方法を選択した後にのみチェックアウトで満たされます。 この場合、最後のステップでチェックアウト時にクーポンを適用できます。
 
-![ ストアフロントの例 – カート適用クーポン ](./assets/storefront-cart-apply-coupon.png){width="600" zoomable="yes"}
+![&#x200B; ストアフロントの例 – カート適用クーポン &#x200B;](./assets/storefront-cart-apply-coupon.png){width="600" zoomable="yes"}
 
 ## カート価格ルールへのアクセス
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;に移動します。
 
-   ![買い物かごの価格ルール ](./assets/price-rule-cart.png){width="700" zoomable="yes"}
+   ![買い物かごの価格ルール &#x200B;](./assets/price-rule-cart.png){width="700" zoomable="yes"}
 
 1. ルールが多い場合は、各列の上部にあるフィルターオプションを使用してリストを合理化し、**[!UICONTROL Search]**&#x200B;をクリックしてフィルターを適用します。
 
@@ -76,12 +76,12 @@ ht-degree: 0%
 | [!UICONTROL Priority] | ルールに対して定義された優先度に基づいてリストをフィルタリングするフリーテキストフィールド。 |
 | [!UICONTROL Status] | このオプションを使用して、ルールの状態（`Active`または`Inactive`）に基づいてリストをフィルタリングします。 |
 | [!UICONTROL Web Site] | このオプションを使用すると、ルールに対して定義されたweb サイトに基づいてリストをフィルタリングできます。 |
-| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）「**[!UICONTROL Edit]**」をクリックして&#x200B;_[!UICONTROL Rule Information]_ページを表示し、ルール設定を更新します（ルールの作成と同様）。 |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）動的カレンダーフィールド（_[!UICONTROL To:]_および_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたとおりに、ルールの開始日に基づいてリストをフィルタリングします。 |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）動的カレンダーフィールド（_[!UICONTROL To:]_および_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたとおりに、ルールの終了日に基づいてリストをフィルタリングします。 |
+| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）「**[!UICONTROL Edit]**」をクリックして&#x200B;_[!UICONTROL Rule Information]_&#x200B;ページを表示し、ルール設定を更新します（ルールの作成と同様）。 |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）動的カレンダーフィールド（_[!UICONTROL To:]_&#x200B;および&#x200B;_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたとおりに、ルールの開始日に基づいてリストをフィルタリングします。 |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）動的カレンダーフィールド（_[!UICONTROL To:]_&#x200B;および&#x200B;_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたとおりに、ルールの終了日に基づいてリストをフィルタリングします。 |
 
 {style="table-layout:auto"}
 
 ## Real-Time CDPのオーディエンスを利用して、カートの価格ルールを設定し
 
-Real-Time CDP オーディエンスを[ アクティブ化](../customers/audience-activation.md)してAdobe Commerce インスタンスに登録し、カートの価格ルールを設定する方法について説明します。
+Real-Time CDP オーディエンスを[&#x200B; アクティブ化](../customers/audience-activation.md)してAdobe Commerce インスタンスに登録し、カートの価格ルールを設定する方法について説明します。

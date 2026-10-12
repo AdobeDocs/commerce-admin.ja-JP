@@ -45,7 +45,7 @@ ht-degree: 3%
 
 ## [!UICONTROL Dashboard]
 
-![ ダッシュボード ](./assets/reports-dashboard.png)<!-- zoom -->
+![&#x200B; ダッシュボード &#x200B;](./assets/reports-dashboard.png)<!-- zoom -->
 
 <!-- [Dashboard](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
 
@@ -58,7 +58,7 @@ ht-degree: 3%
 
 ## [!UICONTROL General Options]
 
-![一般オプション ](./assets/reports-general-options.png)<!-- zoom -->
+![一般オプション &#x200B;](./assets/reports-general-options.png)<!-- zoom -->
 
 >[!NOTE]
 >

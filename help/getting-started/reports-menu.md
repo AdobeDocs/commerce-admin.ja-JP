@@ -45,7 +45,7 @@ ht-degree: 0%
 
 Adobe Commerceでは、マーケティング施策、セールス施策、顧客行動に関する様々なレポートを利用できます。 レポートメニューでは、販売、製品、顧客、プロモーションに関する最新情報に簡単にアクセスできます。
 
-![ レポートメニュー](./assets/overview.png){width="600"}
+![&#x200B; レポートメニュー](./assets/overview.png){width="600"}
 
 ## [!UICONTROL Reports] メニューの表示
 
@@ -55,17 +55,17 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**&#x200B;を選択しま
 
 ### [!UICONTROL Marketing]
 
-買い物かご、検索語、放棄された買い物かご、ニュースレターの問題レポートなど、[ マーケティングレポート ](marketing-reports.md)の一部。
+買い物かご、検索語、放棄された買い物かご、ニュースレターの問題レポートなど、[&#x200B; マーケティングレポート &#x200B;](marketing-reports.md)の一部。
 
 ### [!UICONTROL Reviews]
 
 [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-製品[ レビューレポート ](review-reports.md)の選択範囲には、顧客別および製品別が含まれます。
+製品[&#x200B; レビューレポート &#x200B;](review-reports.md)の選択範囲には、顧客別および製品別が含まれます。
 
 ### [!UICONTROL Sales]
 
-[販売レポート ](sales-reports.md)には、PayPalおよびBraintreeの注文、税金、請求済み、配送、返金、クーポン、および決済レポートが含まれます。
+[販売レポート &#x200B;](sales-reports.md)には、PayPalおよびBraintreeの注文、税金、請求済み、配送、返金、クーポン、および決済レポートが含まれます。
 
 ### [!UICONTROL System Insights]
 
@@ -75,17 +75,17 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]**&#x200B;を選択しま
 
 ### [!UICONTROL Customers]
 
-（Adobe Commerceのみ） [お客様レポート ](customer-reports.md)の選択範囲には、注文合計、注文口座、新規、ウィッシュリスト、セグメントが含まれます。
+（Adobe Commerceのみ） [お客様レポート &#x200B;](customer-reports.md)の選択範囲には、注文合計、注文口座、新規、ウィッシュリスト、セグメントが含まれます。
 
 ### [!UICONTROL Products]
 
-[製品レポート ](product-reports.md)の選択範囲には、閲覧数、ベストセラー、低在庫、注文済み、ダウンロードが含まれます。
+[製品レポート &#x200B;](product-reports.md)の選択範囲には、閲覧数、ベストセラー、低在庫、注文済み、ダウンロードが含まれます。
 
 ### [!UICONTROL Private Sales]
 
 [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-（Adobe Commerceのみ） [個人向けセールスおよびイベント ](private-sales-reports.md)のレポートの選択範囲には、招待、招待された顧客、コンバージョンが含まれます。
+（Adobe Commerceのみ） [個人向けセールスおよびイベント &#x200B;](private-sales-reports.md)のレポートの選択範囲には、招待、招待された顧客、コンバージョンが含まれます。
 
 ### [!UICONTROL Statistics]
 

@@ -59,11 +59,11 @@ export-import ファイルには、ソースに応じて次の情報が含まれ
 
 アプリケーションインターフェイスを通じて、CSV ファイルを使用して複数の製品と割り当てられたソースをすばやく更新し、在庫記録の不正確さを一度にではなく更新して修正します。 基本ファイルの場合は、最初に書き出して、必要に応じて更新します。
 
-![ インポート用のCSV ファイルの例 – インベントリ データのエクスポート ](assets/inventory-import-export-data.png){width="600" zoomable="yes"}
+![&#x200B; インポート用のCSV ファイルの例 – インベントリ データのエクスポート &#x200B;](assets/inventory-import-export-data.png){width="600" zoomable="yes"}
 
 ## すべてのソースの製品データの書き出し
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**&#x200B;に移動します。
 
 1. **[!UICONTROL Entity Type]**&#x200B;に対して、`Stock Sources`を選択します。
 
@@ -79,7 +79,7 @@ export-import ファイルには、ソースに応じて次の情報が含まれ
 
 ## 特定のソースの製品データの書き出し
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**&#x200B;に移動します。
 
 1. **[!UICONTROL Entity Type]**&#x200B;に対して、`Stock Sources`を選択します。
 
@@ -97,7 +97,7 @@ export-import ファイルには、ソースに応じて次の情報が含まれ
 
 ## 製品データのインポート
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**&#x200B;に移動します。
 
 1. **[!UICONTROL Entity Type]**&#x200B;に対して、`Stock Sources`を選択します。
 

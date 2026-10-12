@@ -57,7 +57,7 @@ ht-degree: 0%
 
 [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-![ マーチャントの場所](./assets/payment-methods-merchant-location.png)<!-- zoom -->
+![&#x200B; マーチャントの場所](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
 <!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 以下の支払いソリューションは、PayPal アカウントまたはクレジットカードによるオンライン支払いを受け入れ始めたばかりのマーチャントにとって簡単な方法として推奨されています。 ビジネスが成長するにつれ、これらを追加のPayPal支払いソリューションと組み合わせることができます。
 
 - [決済サービス](payment-services.md)
-- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [PayPal Express チェックアウト ](paypal-express-checkout.md)
+- [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [PayPal Express チェックアウト &#x200B;](paypal-express-checkout.md)
 - [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [Braintree](braintree.md)
 
 >[!NOTE]
@@ -81,7 +81,7 @@ ht-degree: 0%
 ><br/>
 >**Amazon Pay**&#x200B;および&#x200B;**Klarna**: Adobe CommerceおよびMagento Open Source リリース 2.4.0 ～ 2.4.3には、これらのベンダーが開発した拡張機能が含まれています。 2.4.4 リリース以降、これらの拡張機能はコアリリースにバンドルされなくなり、Commerce Marketplaceからインストールして更新する必要があります。 Marketplaceでは、拡張機能の開発者が提供する最新のドキュメントにもアクセスできます。
 ><br/>
->これらのバンドル拡張機能のいずれかを有効にして設定している場合は、2.4.4 アップグレードプロセスの一部として`composer.json` ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 詳しくは、_アップグレードガイド_&#x200B;の[ アップグレードモジュール ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)を参照してください。<br/>
+>これらのバンドル拡張機能のいずれかを有効にして設定している場合は、2.4.4 アップグレードプロセスの一部として`composer.json` ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 詳しくは、_アップグレードガイド_&#x200B;の[&#x200B; アップグレードモジュール &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)を参照してください。<br/>
 
 ## その他のPayPal方式
 
@@ -152,7 +152,7 @@ PayPalは、あらゆる規模の企業のニーズを満たし、世界中で�
 
 {{b2b-feature}}
 
-![ アカウントでのお支払い](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
+![&#x200B; アカウントでのお支払い](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
 <!-- [Payment on Account](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
@@ -232,7 +232,7 @@ PayPalは、あらゆる規模の企業のニーズを満たし、世界中で�
 
 >[!NOTE]
 >
->後でCommerceを通じて支払いを取得する予定であることが確実でない限り、_[!UICONTROL Not Capture]_オプションを選択しないでください。 「キャプチャ」ボタンを使用して支払いがキャプチャされるまで、クレジットメモを作成することはできません。
+>後でCommerceを通じて支払いを取得する予定であることが確実でない限り、_[!UICONTROL Not Capture]_&#x200B;オプションを選択しないでください。 「キャプチャ」ボタンを使用して支払いがキャプチャされるまで、クレジットメモを作成することはできません。
 
 ## [!UICONTROL Purchase Order]
 

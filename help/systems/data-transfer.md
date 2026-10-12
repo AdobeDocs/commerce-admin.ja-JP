@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerceでは、SaaS データの書き出しをサポートしており、CommerceサーバーからSaaS サービスに商品データを転送できます。 SaaS データ書き出しは、[商品レコメンデーション ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview)、[ ライブサーチ ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)、[ カタログサービス ](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)などのCommerce SaaS サービスと統合されています。 詳しくは、[SaaS データ書き出しガイド ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)を参照してください。
+>Adobe Commerceでは、SaaS データの書き出しをサポートしており、CommerceサーバーからSaaS サービスに商品データを転送できます。 SaaS データ書き出しは、[商品レコメンデーション &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview)、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)、[&#x200B; カタログサービス &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)などのCommerce SaaS サービスと統合されています。 詳しくは、[SaaS データ書き出しガイド &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)を参照してください。
 
 ## データ検証
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 データが有効な場合は、_Import Success_ メッセージが表示されます。
 
-![ システムメッセージ – ファイルは有効です](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
+![&#x200B; システムメッセージ – ファイルは有効です](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
 
 検証が失敗した場合は、各エラーの説明を読み、CSV ファイルの問題を修正します。 例えば、行に無効なSKUが含まれている場合、読み込みプロセスは停止し、その行は読み込まれず、以降のすべての行は読み込まれません。 問題を正しく解決したら、データを再度インポートします。 多くのエラーが発生した場合、検証をパスするのに数回の試行が必要になることがあります。
 

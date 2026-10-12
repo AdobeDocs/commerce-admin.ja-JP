@@ -46,7 +46,7 @@ ht-degree: 0%
 
 _Visual Merchandiser_&#x200B;は、製品を配置し、カテゴリ リストに表示される製品を決定する条件を適用できる高度なツールのセットです。 その結果、カタログの変更に合わせて調整される製品の動的な選択が得られます。 各プロダクトをタイルとしてグリッド上に表示する&#x200B;_ビジュアルモード_&#x200B;で作業したり、カテゴリ内のプロダクトのリストから作業したりできます。 各モードで同じツールを使用でき、右上隅のボタンを使用して各タイプの表示を切り替えることができます。
 
-![ タイル表示のカテゴリ製品](./assets/category-products-visual-with-stock.png){width="600" zoomable="yes"}
+![&#x200B; タイル表示のカテゴリ製品](./assets/category-products-visual-with-stock.png){width="600" zoomable="yes"}
 
 ## Visual Merchandiserへのアクセス
 
@@ -56,7 +56,7 @@ _Visual Merchandiser_&#x200B;は、製品を配置し、カテゴリ リスト�
 
 1. 下にスクロールして、**[!UICONTROL Products in Category]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-1. 「_タイルとして表示_ （![ タイルとして表示](../assets/icon-view-tiles.png)）」ボタンをクリックすると、商品がグリッドとして表示されます。
+1. 「_タイルとして表示_ （![&#x200B; タイルとして表示](../assets/icon-view-tiles.png)）」ボタンをクリックすると、商品がグリッドとして表示されます。
 
 1. 完了したら、**[!UICONTROL Save Category]**&#x200B;をクリックします。
 
@@ -66,11 +66,11 @@ _Visual Merchandiser_&#x200B;は、製品を配置し、カテゴリ リスト�
 
    - **方法1: ドラッグ&amp;ドロップ**
 
-     製品タイルの右上隅にある&#x200B;_ドラッグ_ （![ ドラッグアイコン ](../assets/icon-move.png)）コントロールを使用して、製品を配置します。 各商品の数は、新しい位置を反映するように調整されます。
+     製品タイルの右上隅にある&#x200B;_ドラッグ_ （![&#x200B; ドラッグアイコン &#x200B;](../assets/icon-move.png)）コントロールを使用して、製品を配置します。 各商品の数は、新しい位置を反映するように調整されます。
 
    - **方法2: ポジション値を設定**
 
-     製品タイルの&#x200B;_位置_ コントローラー（![位置フィールド ](../assets/control-position.png)）に、製品を表示する番号を入力します。 `0`と入力して、商品をリストの一番上に配置します。
+     製品タイルの&#x200B;_位置_ コントローラー（![位置フィールド &#x200B;](../assets/control-position.png)）に、製品を表示する番号を入力します。 `0`と入力して、商品をリストの一番上に配置します。
 
 1. 完了したら、**[!UICONTROL Save Category]**&#x200B;をクリックします。
 
@@ -82,14 +82,14 @@ _Visual Merchandiser_&#x200B;は、製品を配置し、カテゴリ リスト�
 
 | 制御 | 説明 |
 |--- |--- |
-| ![ リストアイコンを表示](../assets/icon-view-list.png) | リストとして表示 |
-| ![ タイルとして表示アイコン ](../assets/icon-view-tiles.png) | タイルとして表示 |
-| ![ ルールによる一致の切り替え – no](../assets/toggle-no.png) | ルールによる一致 – いいえ |
-| ![ ルールで一致トグル – はい](../assets/toggle-yes.png) | ルールによる一致 – はい |
-| ![移動アイコン ](../assets/icon-move.png) | ドラッグ |
+| ![&#x200B; リストアイコンを表示](../assets/icon-view-list.png) | リストとして表示 |
+| ![&#x200B; タイルとして表示アイコン &#x200B;](../assets/icon-view-tiles.png) | タイルとして表示 |
+| ![&#x200B; ルールによる一致の切り替え – no](../assets/toggle-no.png) | ルールによる一致 – いいえ |
+| ![&#x200B; ルールで一致トグル – はい](../assets/toggle-yes.png) | ルールによる一致 – はい |
+| ![移動アイコン &#x200B;](../assets/icon-move.png) | ドラッグ |
 | ![位置コントローラー](../assets/control-position.png) | 位置 |
-| ![ カテゴリーアイコンから削除](../assets/icon-delete-x.png) | カテゴリから削除 |
-| ![ ページコントロールごとの項目](../assets/control-items-per-page.png) | ページ単位で表示 |
-| ![ ページ表示の変更](../assets/control-page-display.png) | 次/前に移動 |
+| ![&#x200B; カテゴリーアイコンから削除](../assets/icon-delete-x.png) | カテゴリから削除 |
+| ![&#x200B; ページコントロールごとの項目](../assets/control-items-per-page.png) | ページ単位で表示 |
+| ![&#x200B; ページ表示の変更](../assets/control-page-display.png) | 次/前に移動 |
 
 {style="table-layout:auto"}

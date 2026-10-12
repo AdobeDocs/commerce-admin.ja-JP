@@ -54,7 +54,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Checkout Totals Sort Order]
 
-![ チェックアウト合計の並べ替え順序](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
+![&#x200B; チェックアウト合計の並べ替え順序](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
 
 <!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
 
@@ -91,7 +91,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Invoice and Packing Slip Design]
 
-![請求書と梱包伝票のデザイン ](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
+![請求書と梱包伝票のデザイン &#x200B;](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
 
 <!-- [Invoice and Packing Slip Design](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
@@ -125,7 +125,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Dashboard]
 
-![ ダッシュボード ](./assets/sales-dashboard.png)<!-- zoom -->
+![&#x200B; ダッシュボード &#x200B;](./assets/sales-dashboard.png)<!-- zoom -->
 
 <!-- [Dashboard](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
 
@@ -151,15 +151,15 @@ ht-degree: 1%
 
 [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
 
-![ プロモーション設定](./assets/sales-promotions-settings.png)<!-- zoom -->
+![&#x200B; プロモーション設定](./assets/sales-promotions-settings.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Apply Catalog Price Rule on Grouped Price] | グローバル | 階層価格の数量が`1`に設定されている場合、カタログ価格ルール ](../../catalog/product-price-tier.md)の[階層価格を有効にします。  オプション：`Yes` / `No` |
+| [!UICONTROL Apply Catalog Price Rule on Grouped Price] | グローバル | 階層価格の数量が`1`に設定されている場合、カタログ価格ルール [&#128279;](../../catalog/product-price-tier.md)の階層価格を有効にします。  オプション：`Yes` / `No` |
 
 ## [!UICONTROL Gift Options]
 
-![ ギフトオプション ](./assets/sales-gift-options.png)<!-- zoom -->
+![&#x200B; ギフトオプション &#x200B;](./assets/sales-gift-options.png)<!-- zoom -->
 
 <!-- [Gift Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#gift-options) -->
 
@@ -195,7 +195,7 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![ マルチクーポン設定](./assets/sales-multicoupon-settings.png)<!-- zoom -->
+![&#x200B; マルチクーポン設定](./assets/sales-multicoupon-settings.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -235,7 +235,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Rate Limiting]
 
-![ レート制限](assets/sales-rate-limiting.png)<!-- zoom -->
+![&#x200B; レート制限](assets/sales-rate-limiting.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--------------------------------------------------------|--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -250,7 +250,7 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![注文、請求書、出荷、クレジットメモのアーカイブ ](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
+![注文、請求書、出荷、クレジットメモのアーカイブ &#x200B;](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
 
 これらの設定の変更について詳しくは、_ストアと購入エクスペリエンスガイド_&#x200B;の[注文アーカイブの設定](../../stores-purchase/order-archive.md#configure-the-order-archive)を参照してください。
 
@@ -258,7 +258,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enable Archiving] | グローバル | アーカイブが有効かどうかを指定します。 オプション：`Yes` / `No` |
 | [!UICONTROL Archive Orders Purchased] | グローバル | 完了した注文がアーカイブされるまでの日数を指定します。 デフォルト値：`30` |
-| [!UICONTROL Order  Statuses to be Archived] | グローバル | アーカイブする注文の[ ステータス ](../../stores-purchase/order-status.md)を決定します。 デフォルトでは、ステータスが「完了」または「クローズ」の注文がアーカイブされます。 オプション：`Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
+| [!UICONTROL Order  Statuses to be Archived] | グローバル | アーカイブする注文の[&#x200B; ステータス &#x200B;](../../stores-purchase/order-status.md)を決定します。 デフォルトでは、ステータスが「完了」または「クローズ」の注文がアーカイブされます。 オプション：`Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
 
 {style="table-layout:auto"}
 

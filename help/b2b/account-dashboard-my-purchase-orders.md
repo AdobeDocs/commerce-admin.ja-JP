@@ -43,7 +43,7 @@ ht-degree: 0%
 ---
 # [!UICONTROL My Purchase Orders]
 
-会社](purchase-order-flow.md)に対して発注書が[有効になっている場合、会社のユーザーアカウントにサインインしている顧客に対する注文は、発注書（PO）として自動的に作成されます。 必要な権限を持つ会社ユーザーは、自分が作成したPOと、下位ユーザーが作成したPOを作成、編集および削除できます。
+会社[&#128279;](purchase-order-flow.md)に対して発注書が有効になっている場合、会社のユーザーアカウントにサインインしている顧客に対する注文は、発注書（PO）として自動的に作成されます。 必要な権限を持つ会社ユーザーは、自分が作成したPOと、下位ユーザーが作成したPOを作成、編集および削除できます。
 
 ![自分の発注書](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 
@@ -79,13 +79,13 @@ _発注書を表示_ ページから、お客様は[役割の権限](account-com
 
 1. 通常のチェックアウト ワークフローに従って、**[!UICONTROL Place Purchase Order]**&#x200B;をクリックします。
 
-_[!UICONTROL Add Items to Shopping Cart]_をクリックしたときに買い物かごにアイテムがある場合は、ダイアログが表示されます。 このダイアログでは、買い物かごのアイテムを新しいアイテムに結合するか、買い物かごのアイテムをPOのアイテムに置き換えるかを選択できます。
+_[!UICONTROL Add Items to Shopping Cart]_&#x200B;をクリックしたときに買い物かごにアイテムがある場合は、ダイアログが表示されます。 このダイアログでは、買い物かごのアイテムを新しいアイテムに結合するか、買い物かごのアイテムをPOのアイテムに置き換えるかを選択できます。
 
 元の発注は、不要になった場合にクローズできます。
 
 ## 発注の承認
 
-会社構造または割り当てられた会社の役割に基づいて承認者として指定された顧客の場合、_[!UICONTROL My Purchase Orders]_ダッシュボードページには「**[!UICONTROL Requires My Approval]**」タブが表示されます。 お客様は、このタブをクリックして、承認を待っているPOを確認します。 カウンターには、承認待ちの注文数が表示されます。
+会社構造または割り当てられた会社の役割に基づいて承認者として指定された顧客の場合、_[!UICONTROL My Purchase Orders]_&#x200B;ダッシュボードページには「**[!UICONTROL Requires My Approval]**」タブが表示されます。 お客様は、このタブをクリックして、承認を待っているPOを確認します。 カウンターには、承認待ちの注文数が表示されます。
 
 発注書の&#x200B;**[!UICONTROL View]**&#x200B;をクリックし、詳細を確認した後、承認者は&#x200B;**[!UICONTROL Approve]**&#x200B;または&#x200B;**[!UICONTROL Reject]**&#x200B;をクリックできます。
 
@@ -93,7 +93,7 @@ _[!UICONTROL Add Items to Shopping Cart]_をクリックしたときに買い物
 
 Adobe Commerce 2.4.1以降、承認者は一度に複数の発注を承認または却下できます。
 
-1. _[!UICONTROL My Purchase Order]_ページで、「**[!UICONTROL Requires My Approval]**」タブをクリックします。
+1. _[!UICONTROL My Purchase Order]_&#x200B;ページで、「**[!UICONTROL Requires My Approval]**」タブをクリックします。
 
 1. 承認または却下する各発注のチェックボックスを選択します。
 

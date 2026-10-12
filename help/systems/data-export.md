@@ -52,15 +52,15 @@ ht-degree: 0%
 
 書き出しフィルターは、属性値に基づいて、書き出しファイルに含めるデータを指定するために使用されます。 さらに、書き出しに含める属性データまたは除外する属性データを指定できます。
 
-![ データ書き出し条件](./assets/data-export-entity-attributes-exclude.png){width="600" zoomable="yes"}
+![&#x200B; データ書き出し条件](./assets/data-export-entity-attributes-exclude.png){width="600" zoomable="yes"}
 
 ### フィルターの書き出し
 
 フィルターを使用して、書き出しファイルに含めるSKUを決定できます。 例えば、「製造国」フィルターに値を入力すると、書き出されたCSV ファイルには、その国で製造された製品のみが含まれます。
 
-フィルターのタイプは、データタイプに対応します。 日付フィールドの場合は、カレンダー![ カレンダーアイコン ](../assets/icon-calendar.png)から日付を選択できます。 詳しくは、[属性入力タイプ ](../catalog/attributes-input-types.md)を参照してください。
+フィルターのタイプは、データタイプに対応します。 日付フィールドの場合は、カレンダー![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)から日付を選択できます。 詳しくは、[属性入力タイプ &#x200B;](../catalog/attributes-input-types.md)を参照してください。
 
-日付の形式は、[ ロケール ](../getting-started/store-details.md#locale-options)によって決まります。
+日付の形式は、[&#x200B; ロケール &#x200B;](../getting-started/store-details.md#locale-options)によって決まります。
 
 SKUなど、特定の値を持つレコードのみを含めるには、「フィルター」フィールドに値を入力します。 「価格」、「重み」、「製品を新規として設定」などの一部のフィールドには、値の範囲が指定されています。
 
@@ -70,16 +70,16 @@ SKUなど、特定の値を持つレコードのみを含めるには、「フ�
 
 | 除外 | フィルター | 結果 |
 |--- |--- |--- |
-| ![ チェックボックスをクリアしました](../assets/checkbox-clear.png) | いいえ | 書き出されたファイルには、既存のすべてのレコードの各属性が含まれます。 |
-| ![ チェックボックスをクリアしました](../assets/checkbox-clear.png) | はい | 書き出しファイルには、フィルターで許可されるレコードのみを含む各属性が含まれます。 |
-| ![選択したチェックボックス ](../assets/checkbox-selected.png) | いいえ | 書き出しファイルには、除外された属性の列は含まれませんが、既存のすべてのレコードは含まれます。 |
-| ![選択したチェックボックス ](../assets/checkbox-selected.png) | はい | 書き出しファイルには、除外された属性の列は含まれず、フィルターで許可されるレコードのみが含まれます。 |
+| ![&#x200B; チェックボックスをクリアしました](../assets/checkbox-clear.png) | いいえ | 書き出されたファイルには、既存のすべてのレコードの各属性が含まれます。 |
+| ![&#x200B; チェックボックスをクリアしました](../assets/checkbox-clear.png) | はい | 書き出しファイルには、フィルターで許可されるレコードのみを含む各属性が含まれます。 |
+| ![選択したチェックボックス &#x200B;](../assets/checkbox-selected.png) | いいえ | 書き出しファイルには、除外された属性の列は含まれませんが、既存のすべてのレコードは含まれます。 |
+| ![選択したチェックボックス &#x200B;](../assets/checkbox-selected.png) | はい | 書き出しファイルには、除外された属性の列は含まれず、フィルターで許可されるレコードのみが含まれます。 |
 
 {style="table-layout:auto"}
 
 ## データの書き出し
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**&#x200B;に移動します。
 
 1. _書き出し設定_ セクションで、**[!UICONTROL Entity Type]**&#x200B;を次のいずれかに設定します。
 
@@ -90,7 +90,7 @@ SKUなど、特定の値を持つレコードのみを含めるには、「フ�
    - `Customer Addresses`
    - `Stock Sources`
 
-   ![ データ書き出し設定](./assets/data-export-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; データ書き出し設定](./assets/data-export-settings.png){width="600" zoomable="yes"}
 
 1. CSVのデフォルト **[!UICONTROL Export File Format]**&#x200B;を受け入れます。
 
@@ -98,9 +98,9 @@ SKUなど、特定の値を持つレコードのみを含めるには、「フ�
 
 1. 必要に応じて、エンティティ属性の表示を変更します。
 
-   デフォルトでは、エンティティ属性セクションには、使用可能なすべての属性がアルファベット順に一覧表示されます。 標準の[ リストコントロール ](../getting-started/admin-grid-controls.md)を使用して、特定の属性を検索し、リストを並べ替えることができます。 検索とリセットフィルターは、リストの表示を制御しますが、書き出しファイルに含める属性の選択には影響しません。
+   デフォルトでは、エンティティ属性セクションには、使用可能なすべての属性がアルファベット順に一覧表示されます。 標準の[&#x200B; リストコントロール &#x200B;](../getting-started/admin-grid-controls.md)を使用して、特定の属性を検索し、リストを並べ替えることができます。 検索とリセットフィルターは、リストの表示を制御しますが、書き出しファイルに含める属性の選択には影響しません。
 
-   ![ データ書き出しのフィルター済みエンティティ属性](./assets/data-export-filter-entity-attributes.png){width="600" zoomable="yes"}
+   ![&#x200B; データ書き出しのフィルター済みエンティティ属性](./assets/data-export-filter-entity-attributes.png){width="600" zoomable="yes"}
 
 1. 属性値に基づいて書き出されたデータをフィルタリングするには、次の操作を行います。
 
@@ -110,7 +110,7 @@ SKUなど、特定の値を持つレコードのみを含めるには、「フ�
 
 1. 下にスクロールして、ページの右下隅にある「**[!UICONTROL Continue]**」をクリックします。
 
-   タスクが完了すると、ファイルはメッセージキューを通じて処理されます（cron ジョブが実行されていることを確認してください）。 書き出されたファイルは`var/export/ folder`に保存されます。 メッセージキューについて詳しくは、_設定ガイド_&#x200B;の「[ メッセージキューの管理](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)」を参照してください。
+   タスクが完了すると、ファイルはメッセージキューを通じて処理されます（cron ジョブが実行されていることを確認してください）。 書き出されたファイルは`var/export/ folder`に保存されます。 メッセージキューについて詳しくは、_設定ガイド_&#x200B;の「[&#x200B; メッセージキューの管理](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)」を参照してください。
 
    書き出したCSV ファイルをスプレッドシートとして保存または開き、データを編集してストアに読み込むことができます。
 

@@ -43,7 +43,7 @@ ht-degree: 0%
 
 始める前に、リダイレクトが何を達成するのかを正確に理解していることを確認してください。 _target_ / _source_&#x200B;または&#x200B;_リダイレクト先_ / _リダイレクト先_&#x200B;を考えてみましょう。 人々は、検索エンジンや古いリンクから以前のページに移動する可能性はありますが、このリダイレクトにより、ストアは新しいターゲットに切り替わります。
 
-![URLの書き換え – CMS ページ ](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
+![URLの書き換え – CMS ページ &#x200B;](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
 
 ## 手順1: 書き換えの計画
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 {{url-rewrite-params}}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**&#x200B;に移動します。
 
 1. 続行する前に、次の手順を実行して、リクエストパスが使用可能であることを確認します。
 

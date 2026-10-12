@@ -48,7 +48,7 @@ ht-degree: 0%
 
 お客様がデフォルトの配送先住所を持っていない場合、_配送_ ページに&#x200B;_住所が選択されていません_&#x200B;と表示されます。 この場合、お客様は、**アドレスの変更**&#x200B;をクリックして保存されたアドレスを選択するか、**新しいアドレス**&#x200B;をクリックして追加し、選択してからチェックアウトを続行する必要があります。 お客様がデフォルトの請求先住所を持っていない場合、_Review &amp; Payments_ ページには、出荷用に選択された住所が&#x200B;_Change Address_ オプションとともに表示されます。
 
-![ アドレスが選択されていないチェックアウト メッセージ ](./assets/storefront-checkout-address-search-no-default.png){width="600" zoomable="yes"}
+![&#x200B; アドレスが選択されていないチェックアウト メッセージ &#x200B;](./assets/storefront-checkout-address-search-no-default.png){width="600" zoomable="yes"}
 
 ## 引用符のロックされたアドレス検索
 
@@ -60,15 +60,15 @@ ht-degree: 0%
 
 ## アドレス検索を有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Checkout]**&#x200B;を選択します。
 
 1. **[!UICONTROL Checkout Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![設定 – チェックアウトオプション ](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
+   ![設定 – チェックアウトオプション &#x200B;](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-   これらの各構成設定の詳細については、_構成リファレンスガイド_&#x200B;の[ チェックアウトオプション ](../configuration-reference/sales/checkout.md#checkout-options)を参照してください。
+   これらの各構成設定の詳細については、_構成リファレンスガイド_&#x200B;の[&#x200B; チェックアウトオプション &#x200B;](../configuration-reference/sales/checkout.md#checkout-options)を参照してください。
 
 1. **[!UICONTROL Enable Address Search]**&#x200B;を`Yes`に設定します。
 

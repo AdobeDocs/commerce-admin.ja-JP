@@ -47,7 +47,7 @@ ht-degree: 0%
 
 これらの手順では、Adobe CommerceまたはMagento Open Sourceへの初回ログイン時に2要素認証を設定する方法と、次のアプリとデバイスを使用してIDを認証する方法について説明します。
 
-詳細な手順については、[管理者ログイン ](../getting-started/admin-signin.md)を参照してください。
+詳細な手順については、[管理者ログイン &#x200B;](../getting-started/admin-signin.md)を参照してください。
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 1. 完了したら、**[!UICONTROL Confirm]**&#x200B;をクリックします。
 
-   ![Google Authenticator QR コード ](./assets/storefront-2fa-google-qrcode.png){width="300"}
+   ![Google Authenticator QR コード &#x200B;](./assets/storefront-2fa-google-qrcode.png){width="300"}
 
 ### 手順2: [!DNL Google Authenticator]でログイン
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 1. [!DNL Duo]設定ページが表示されたら、**[!UICONTROL Get Started]**&#x200B;をクリックし、次の操作を行います。
 
-   ![ ストアフロントの例 – Duo セットアップ ](./assets/storefront-2fa-duo-setup-options.png){width="300"}
+   ![&#x200B; ストアフロントの例 – Duo セットアップ &#x200B;](./assets/storefront-2fa-duo-setup-options.png){width="300"}
 
 1. オプションを選択します。 Touch ID、Duo Mobile、セキュリティキー、または電話番号を選択できます。 この例では、「Duo Mobile」または「Phone Number」オプションを示します。
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 1. 必要に応じて、さらにデバイスを追加するか、スキップできます。 これで設定が完了し、Duoでログインできるようになります。
 
-   ![Duo検証アクション ](./assets/storefront-2fa-duo-setup-complete.png){width="300"}
+   ![Duo検証アクション &#x200B;](./assets/storefront-2fa-duo-setup-complete.png){width="300"}
 
 ### 手順2: [!DNL Duo Security]でログイン
 
@@ -115,17 +115,17 @@ ht-degree: 0%
 
 1. プロンプトが表示されたら、_管理者_&#x200B;の資格情報を入力してログインします。
 
-   ![Duo - ログイン ](./assets/storefront-2fa-duo-auth.png){width="300"}
+   ![Duo - ログイン &#x200B;](./assets/storefront-2fa-duo-auth.png){width="300"}
 
 1. 「Duoでログイン」を選択して、Duo Mobile アプリでプッシュ通知を取得するか、Touch IDでログインするか、設定中に設定した別のオプションで続行します。
 
 1. Duo アプリ/タッチ ID/テキストメッセージからリクエストを承認すると、正常にログインできます。
 
-   ![Duo - ログイン ](./assets/storefront-2fa-duo-success.png){width="300"}
+   ![Duo - ログイン &#x200B;](./assets/storefront-2fa-duo-success.png){width="300"}
 
 ## [!DNL Authy]
 
-[!DNL Authy]は、ユーザーに無料でアプリとサービスを提供しています。 お使いのデバイスまたはブラウザーにアプリをダウンロードして設定するには、その指示に従ってください。 詳しくは、[[!DNL Authy]  ドキュメント ](https://authy.com/features/setup/)を参照してください。
+[!DNL Authy]は、ユーザーに無料でアプリとサービスを提供しています。 お使いのデバイスまたはブラウザーにアプリをダウンロードして設定するには、その指示に従ってください。 詳しくは、[[!DNL Authy]  ドキュメント &#x200B;](https://authy.com/features/setup/)を参照してください。
 
 ### 手順1:Authyの設定
 
@@ -147,13 +147,13 @@ ht-degree: 0%
 
 1. 完了したら、**[!UICONTROL Confirm]**&#x200B;をクリックします。
 
-   ![[!DNL Authy]確認コード ](./assets/storefront-2fa-authy-verify.png){width="300"}
+   ![[!DNL Authy]確認コード &#x200B;](./assets/storefront-2fa-authy-verify.png){width="300"}
 
 ### 手順2: [!DNL Authy]でログイン
 
 1. アカウントの資格情報を入力し、_管理者_&#x200B;にログインします。
 
-   ![[!DNL Authy] - ログイン ](./assets/storefront-2fa-authy-access.png){width="300"}
+   ![[!DNL Authy] - ログイン &#x200B;](./assets/storefront-2fa-authy-access.png){width="300"}
 
 1. 認証するには、次のいずれかの方法を選択します。
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 
 1. アカウントの資格情報を入力し、_管理者_&#x200B;にログインします。
 
-   ![U2F キーアクセス ](./assets/storefront-2fa-u2f.png){width="300"}
+   ![U2F キーアクセス &#x200B;](./assets/storefront-2fa-u2f.png){width="300"}
 
 1. キーのボタンを押します。
 

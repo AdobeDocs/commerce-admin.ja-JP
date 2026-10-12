@@ -39,13 +39,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-各イベントはカタログのカテゴリに関連付けられており、一度に特定のカテゴリに関連付けることができるイベントは1つだけです。 ストア内の今後のイベントのリストを表示するには、[ カタログイベントカルーセル ](../content-design/widget-event-carousel.md) ウィジェットも設定する必要があります。
+各イベントはカタログのカテゴリに関連付けられており、一度に特定のカテゴリに関連付けることができるイベントは1つだけです。 ストア内の今後のイベントのリストを表示するには、[&#x200B; カタログイベントカルーセル &#x200B;](../content-design/widget-event-carousel.md) ウィジェットも設定する必要があります。
 
-![ イベントリスト ](./assets/category-events.png){width="700" zoomable="yes"}
+![&#x200B; イベントリスト &#x200B;](./assets/category-events.png){width="700" zoomable="yes"}
 
 ## イベントの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Add Catalog Event]**」をクリックします。
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Catalog Event Information]**&#x200B;を定義：
 
-   ![ カタログイベント情報](./assets/catalog-event-information.png){width="700" zoomable="yes"}
+   ![&#x200B; カタログイベント情報](./assets/catalog-event-information.png){width="700" zoomable="yes"}
 
-   - イベントの&#x200B;**[!UICONTROL Start Date]**&#x200B;の場合、カレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）を使用して日付を選択します。 **[!UICONTROL Hour]**&#x200B;と&#x200B;**[!UICONTROL Minute]**&#x200B;のスライダーを使用して、イベントの開始時間を設定します。
+   - イベントの&#x200B;**[!UICONTROL Start Date]**&#x200B;の場合、カレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）を使用して日付を選択します。 **[!UICONTROL Hour]**&#x200B;と&#x200B;**[!UICONTROL Minute]**&#x200B;のスライダーを使用して、イベントの開始時間を設定します。
 
-   - イベントの&#x200B;**[!UICONTROL End Date]**&#x200B;の場合、カレンダー（![ カレンダーアイコン ](../assets/icon-calendar.png)）を使用して日付を選択します。 **[!UICONTROL Hour]**&#x200B;と&#x200B;**[!UICONTROL Minute]**&#x200B;のスライダーを使用して、イベントの終了時間を設定します。
+   - イベントの&#x200B;**[!UICONTROL End Date]**&#x200B;の場合、カレンダー（![&#x200B; カレンダーアイコン &#x200B;](../assets/icon-calendar.png)）を使用して日付を選択します。 **[!UICONTROL Hour]**&#x200B;と&#x200B;**[!UICONTROL Minute]**&#x200B;のスライダーを使用して、イベントの終了時間を設定します。
 
    - イベントウィジェットの&#x200B;**[!UICONTROL Image]**&#x200B;をアップロードするには、**[!UICONTROL Choose File]**&#x200B;をクリックし、ディレクトリから画像ファイルを選択します。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 ### 方法1: イベント ページからイベントを編集する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**&#x200B;に移動します。
 
 1. リストでイベントを見つけ、編集モードで開きます。
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 ## イベントの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Events]**&#x200B;に移動します。
 
 1. リストでイベントを見つけ、編集モードで開きます。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 | [!UICONTROL Category] | グローバル | イベントを作成する場合、このフィールドはカテゴリーツリーにリンクされます。 イベントを編集すると、そのイベントに関連するカテゴリーページにリンクされます。 |
 | [!UICONTROL Start Date] | グローバル | イベントの開始日時（`MMDDYYYY HH;MM`形式）。 カレンダーアイコンをクリックして、日付を選択します。 |
 | [!DNL End Date] | グローバル | イベントの終了日時（形式：`MMDDYYYY HH;MM`）。 カレンダーアイコンをクリックして、日付を選択します。 |
-| [!UICONTROL Image] | ストアビュー | [ カタログイベントカルーセルウィジェット ](../content-design/widget-event-carousel.md)に表示される画像をアップロードします。 |
+| [!UICONTROL Image] | ストアビュー | [&#x200B; カタログイベントカルーセルウィジェット &#x200B;](../content-design/widget-event-carousel.md)に表示される画像をアップロードします。 |
 | [!UICONTROL Sort Order] | グローバル | 他のイベントと共にリストされたときに、このイベントが表示される順序を決定します。 |
 | [!UICONTROL Display Countdown Ticker On] | グローバル | 指定した各ページのヘッダーにカウントダウンティッカーを表示します。 オプション：`Category Page` / `Product Page` |
 | [!UICONTROL Status] | グローバル | 開始日と終了日の範囲に基づいて、イベントのステータスを示します。 ステータスは読み取り専用の値です。 値：`Open` / `Closed` / `Upcoming` |

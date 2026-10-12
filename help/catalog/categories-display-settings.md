@@ -39,16 +39,16 @@ ht-degree: 0%
 ---
 # カテゴリ – 表示設定
 
-表示設定は、カテゴリーページに表示されるコンテンツ要素と、製品が表示される順序を決定します。 CMS ブロックを有効にし、カテゴリのアンカーステータスを設定し、_[!UICONTROL Display Settings]_タブから並べ替えオプションを管理できます。 ストアフロントにカテゴリを反映する方法の例については、[ カタログナビゲーション ](navigation.md)を参照してください。
+表示設定は、カテゴリーページに表示されるコンテンツ要素と、製品が表示される順序を決定します。 CMS ブロックを有効にし、カテゴリのアンカーステータスを設定し、_[!UICONTROL Display Settings]_&#x200B;タブから並べ替えオプションを管理できます。 ストアフロントにカテゴリを反映する方法の例については、[&#x200B; カタログナビゲーション &#x200B;](navigation.md)を参照してください。
 
-![ カテゴリの表示設定](./assets/category-display-settings.png){width="600" zoomable="yes"}
+![&#x200B; カテゴリの表示設定](./assets/category-display-settings.png){width="600" zoomable="yes"}
 
 | フィールド | 説明 |
 |--- |--- |
 | [!UICONTROL Display Mode] | カテゴリーページに表示されるコンテンツ要素を指定します。 オプション：`Products Only` / `Static Block Only` / `Static Block and Products` |
-| [!UICONTROL Anchor] | `Yes`に設定すると、カテゴリに明示的に追加されていない場合でも、カテゴリ内のサブカテゴリの製品を表示し、階層化されたナビゲーションで&#x200B;_[!UICONTROL filter by attribute]_セクションの表示を有効にします。 オプション：`Yes` / `No` |
-| [!UICONTROL Available Product Listing Sort By] | （必須）デフォルト値は`Position`、`Name`、`Price`です。 並べ替えオプションをカスタマイズするには、**[!UICONTROL Use All Available Attributes]** チェックボックスの選択を解除し、使用する属性を選択します。 必要に応じて属性を定義し、追加できます。 この設定は、[!DNL Live Search] [製品リストページ ウィジェット ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)には適用されません。 |
-| [!UICONTROL Default Product Listing Sort By] | （必須）デフォルトの&#x200B;_[!UICONTROL Sort By]_オプションを定義するには、「**[!UICONTROL Use Config Settings]**」チェックボックスの選択を解除し、属性を選択します。 この設定は、[!DNL Live Search] [製品リストページ ウィジェット ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)には適用されません。 |
+| [!UICONTROL Anchor] | `Yes`に設定すると、カテゴリに明示的に追加されていない場合でも、カテゴリ内のサブカテゴリの製品を表示し、階層化されたナビゲーションで&#x200B;_[!UICONTROL filter by attribute]_&#x200B;セクションの表示を有効にします。 オプション：`Yes` / `No` |
+| [!UICONTROL Available Product Listing Sort By] | （必須）デフォルト値は`Position`、`Name`、`Price`です。 並べ替えオプションをカスタマイズするには、**[!UICONTROL Use All Available Attributes]** チェックボックスの選択を解除し、使用する属性を選択します。 必要に応じて属性を定義し、追加できます。 この設定は、[!DNL Live Search] [製品リストページ ウィジェット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)には適用されません。 |
+| [!UICONTROL Default Product Listing Sort By] | （必須）デフォルトの&#x200B;_[!UICONTROL Sort By]_&#x200B;オプションを定義するには、「**[!UICONTROL Use Config Settings]**」チェックボックスの選択を解除し、属性を選択します。 この設定は、[!DNL Live Search] [製品リストページ ウィジェット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)には適用されません。 |
 | [!UICONTROL Layered Navigation Price Step] | デフォルトでは、Commerceには、リスト内の商品に応じて、価格帯が10、100、1000の増分で表示されます。 価格ステップの範囲を変更するには、**[!UICONTROL Use Config Settings]** チェックボックスの選択を解除します。 |
 
 {style="table-layout:auto"}

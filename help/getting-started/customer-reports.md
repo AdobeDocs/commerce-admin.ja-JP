@@ -49,9 +49,9 @@ ht-degree: 1%
 
 [!UICONTROL Order Total Report]には、指定された時間間隔または日付範囲の顧客の注文が表示されます。 このレポートには、顧客あたりの注文数、平均注文額、合計金額が含まれます。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**&#x200B;に移動します。
 
-![注文合計レポート ](./assets/customers-order-total.png){width="600"}
+![注文合計レポート &#x200B;](./assets/customers-order-total.png){width="600"}
 
 ### Workspaceコントロール
 
@@ -81,9 +81,9 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Custome
 
 [!UICONTROL Order Count Report]は、指定された時間間隔または日付範囲の顧客ごとの注文数を表示します。 このレポートには、顧客あたりの注文数、平均注文額、合計金額が含まれます。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**&#x200B;に移動します。
 
-![注文数レポート ](./assets/customer-order-count.png){width="600"}
+![注文数レポート &#x200B;](./assets/customer-order-count.png){width="600"}
 
 ### Workspaceコントロール
 
@@ -113,9 +113,9 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Custome
 
 [!UICONTROL New Accounts Report]には、指定された時間間隔または日付範囲で開かれた新しい顧客アカウントの数が表示されます。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**&#x200B;に移動します。
 
-![新規アカウントレポート ](./assets/customers-new-accounts.png){width="600"}
+![新規アカウントレポート &#x200B;](./assets/customers-new-accounts.png){width="600"}
 
 ### Workspaceコントロール
 
@@ -146,9 +146,9 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Custome
 
 [!UICONTROL Customer Wish List Report]は、お客様の要望リストに関する情報を提供します。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**&#x200B;に移動します。
 
-![ ウィッシュリストレポート ](./assets/customer-wish-list.png){width="600"}
+![&#x200B; ウィッシュリストレポート &#x200B;](./assets/customer-wish-list.png){width="600"}
 
 ### Workspaceコントロール
 
@@ -186,9 +186,9 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Custome
 
 [!UICONTROL Customer Segment Report]は、各セグメントの顧客数に関する情報を提供します。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**&#x200B;に移動します。
 
-![ セグメントレポート ](./assets/customers-segments.png){width="600"}
+![&#x200B; セグメントレポート &#x200B;](./assets/customers-segments.png){width="600"}
 
 ### Workspaceコントロール
 

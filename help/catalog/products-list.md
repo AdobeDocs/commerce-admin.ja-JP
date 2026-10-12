@@ -45,13 +45,13 @@ ht-degree: 0%
 ---
 # 製品リスト
 
-カタログ内のすべての製品は、管理者の&#x200B;_[!UICONTROL Products]_ページからアクセスできます。このページでは、製品を作成したり、既存の製品を編集したりできます。 マルチサイトインストールの場合、各web サイトで同じカタログから異なる製品を販売できます。
+カタログ内のすべての製品は、管理者の&#x200B;_[!UICONTROL Products]_&#x200B;ページからアクセスできます。このページでは、製品を作成したり、既存の製品を編集したりできます。 マルチサイトインストールの場合、各web サイトで同じカタログから異なる製品を販売できます。
 
-_[!UICONTROL Products]_リストには、カタログ内のすべての製品が含まれ、利用可能なweb サイトと、現在販売が有効なweb サイトが示されます。 [共有カタログ ](../b2b/catalog-shared.md)が有効になっているAdobe Commerce B2B インストールでは、グリッドには、共有カタログに代替割引価格が設定されている商品を示す列が含まれています。
+_[!UICONTROL Products]_&#x200B;リストには、カタログ内のすべての製品が含まれ、利用可能なweb サイトと、現在販売が有効なweb サイトが示されます。 [共有カタログ &#x200B;](../b2b/catalog-shared.md)が有効になっているAdobe Commerce B2B インストールでは、グリッドには、共有カタログに代替割引価格が設定されている商品を示す列が含まれています。
 
-リストページからページ別に閲覧したり、特定の商品を検索したりできます。 標準の[ コントロール ](../getting-started/admin-grid-controls.md)を使用してリストを並べ替えおよびフィルタリングし、選択した製品に[ アクション ](../getting-started/admin-actions-control.md)を適用します。
+リストページからページ別に閲覧したり、特定の商品を検索したりできます。 標準の[&#x200B; コントロール &#x200B;](../getting-started/admin-grid-controls.md)を使用してリストを並べ替えおよびフィルタリングし、選択した製品に[&#x200B; アクション &#x200B;](../getting-started/admin-actions-control.md)を適用します。
 
-![製品グリッド ](./assets/products-grid.png){width="700" zoomable="yes"}
+![製品グリッド &#x200B;](./assets/products-grid.png){width="700" zoomable="yes"}
 
 ## 商品表示を制限
 
@@ -67,11 +67,11 @@ _[!UICONTROL Products]_リストには、カタログ内のすべての製品が
 
 >[!NOTE]
 >
->商品グリッドを制限しない場合は、フィルターをより正確に使用して、_[!UICONTROL Records Limit]_フィールドで指定された数よりも少ない項目を持つコレクションを生成します。
+>商品グリッドを制限しない場合は、フィルターをより正確に使用して、_[!UICONTROL Records Limit]_&#x200B;フィールドで指定された数よりも少ない項目を持つコレクションを生成します。
 
 **_製品表示の制限を設定するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. **[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL Admin]**&#x200B;を選択します。
 

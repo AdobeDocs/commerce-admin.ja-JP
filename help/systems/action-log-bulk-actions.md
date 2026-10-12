@@ -39,15 +39,15 @@ ht-degree: 2%
 
 {{ee-feature}}
 
-一括操作ログには、バックグラウンドで実行される非同期の一括操作の詳細が記録されます。例えば、[共有カタログ ](../b2b/catalog-shared.md)の複数の製品に[ カスタム価格](../b2b/catalog-shared-manage.md#update-custom-pricing)を割り当てたり、インポート/エクスポートしたりします。
+一括操作ログには、バックグラウンドで実行される非同期の一括操作の詳細が記録されます。例えば、[共有カタログ &#x200B;](../b2b/catalog-shared.md)の複数の製品に[&#x200B; カスタム価格](../b2b/catalog-shared-manage.md#update-custom-pricing)を割り当てたり、インポート/エクスポートしたりします。
 
-![一括アクションログ ](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
+![一括アクションログ &#x200B;](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
 
 ## 一括アクションの設定
 
 [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL System]**&#x200B;を選択します。
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 
    **[!UICONTROL Days Saved in Log]** – 一括アクションがログに保存される日数を入力します。
 
-   ![詳細設定 – バルクアクション ](../configuration-reference/advanced/assets/system-bulk-actions.png){width="600" zoomable="yes"}
+   ![詳細設定 – バルクアクション &#x200B;](../configuration-reference/advanced/assets/system-bulk-actions.png){width="600" zoomable="yes"}
 
    構成設定の詳細なリストについては、_構成リファレンス_&#x200B;の&#x200B;[_一括アクション_](../configuration-reference/advanced/system.md)&#x200B;を参照してください。
 
@@ -63,8 +63,8 @@ ht-degree: 2%
 
 ## 一括アクションの表示
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Bulk Actions]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Bulk Actions]**&#x200B;に移動します。
 
 1. ログで目的のアクションを見つけます。
 
-1. _[!UICONTROL Action]_列で、**[!UICONTROL Details]**をクリックします。
+1. _[!UICONTROL Action]_&#x200B;列で、**[!UICONTROL Details]**&#x200B;をクリックします。

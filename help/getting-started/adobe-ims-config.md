@@ -78,7 +78,7 @@ Commerce管理者ユーザーがログインするには、Adobe IDでアカウ�
 * Adobe Admin ConsoleでのAdobe Commerce ユーザーの設定
 * `AdminAdobeIms` モジュールを有効にします。
 
-統合を成功させるには、すべてのAdobe Commerce ユーザーが同じ名前とプライマリメールアドレスの管理者ユーザーアカウントを持っている必要があります。 一致する管理者ユーザーアカウントが存在しない場合、必要な権限を持つユーザー（通常は管理者の役割が割り当てられている）は、同じ名前と電子メールで[管理者ユーザーアカウント ](../systems/permissions-users-all.md#create-a-user)を手動で作成する必要があります。
+統合を成功させるには、すべてのAdobe Commerce ユーザーが同じ名前とプライマリメールアドレスの管理者ユーザーアカウントを持っている必要があります。 一致する管理者ユーザーアカウントが存在しない場合、必要な権限を持つユーザー（通常は管理者の役割が割り当てられている）は、同じ名前と電子メールで[管理者ユーザーアカウント &#x200B;](../systems/permissions-users-all.md#create-a-user)を手動で作成する必要があります。
 
 ## 統合の設定
 
@@ -90,7 +90,7 @@ Commerce管理者ユーザーがログインするには、Adobe IDでアカウ�
 
 ### 手順2：新しいプロジェクト、IMS API キー、秘密鍵の生成
 
-組織のプロジェクトを作成するには、その組織のAdobe管理者アカウントにシステム管理者または開発者の役割が必要です。 [Developer Console ガイド ](https://developer.adobe.com/developer-console/docs/guides/projects/)を参照してください。
+組織のプロジェクトを作成するには、その組織のAdobe管理者アカウントにシステム管理者または開発者の役割が必要です。 [Developer Console ガイド &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/)を参照してください。
 
 1. [Adobe Developer Console](https://developer.adobe.com/)にログインします。
 1. **[!UICONTROL Projects]** タブ （adobe.io/projects）に移動し、**[!UICONTROL Create a new project]**&#x200B;をクリックします。

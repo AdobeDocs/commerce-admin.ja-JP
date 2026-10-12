@@ -54,13 +54,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->これらの設定設定は、[開発者モード ](../../systems/developer-tools.md#operation-modes)でのみ使用できます。
+>これらの設定設定は、[開発者モード &#x200B;](../../systems/developer-tools.md#operation-modes)でのみ使用できます。
 
 ## [!UICONTROL Frontend Development Workflow]
 
-![ フロントエンド開発ワークフロー](./assets/developer-frontend-development-workflow.png)<!-- zoom -->
+![&#x200B; フロントエンド開発ワークフロー](./assets/developer-frontend-development-workflow.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の[ フロントエンド開発ワークフロー](../../systems/developer-tools.md#frontend-development-workflow)を参照してください。
+これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の[&#x200B; フロントエンド開発ワークフロー](../../systems/developer-tools.md#frontend-development-workflow)を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 ![開発者クライアントの制限](./assets/developer-developer-client-restrictions.png)<!-- zoom -->
 
-この設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[ クライアントの制限](../../systems/developer-tools.md#client-restrictions)」を参照してください。
+この設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[&#x200B; クライアントの制限](../../systems/developer-tools.md#client-restrictions)」を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -82,22 +82,22 @@ ht-degree: 1%
 
 ## [!UICONTROL Template Settings]
 
-![ テンプレート設定](./assets/developer-template-settings.png)<!-- zoom -->
+![&#x200B; テンプレート設定](./assets/developer-template-settings.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[ リソースファイルの最適化](../../systems/developer-tools.md#optimizing-resource-files)」を参照してください。
+これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[&#x200B; リソースファイルの最適化](../../systems/developer-tools.md#optimizing-resource-files)」を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Allow Symlinks] | ストアビュー | [ シンボリックリンク ](https://en.wikipedia.org/wiki/Symbolic_link)を有効にすると、サイトがセキュリティリスクにさらされる可能性があるため、実稼動ストアには推奨されません。 |
+| [!UICONTROL Allow Symlinks] | ストアビュー | [&#x200B; シンボリックリンク &#x200B;](https://en.wikipedia.org/wiki/Symbolic_link)を有効にすると、サイトがセキュリティリスクにさらされる可能性があるため、実稼動ストアには推奨されません。 |
 | [!UICONTROL Minify Html] | ストアビュー | ストアテンプレートのHTMLを最小化するかどうかを指定します。 オプション：`Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Debug]
 
-![ デバッグ ](./assets/developer-debug.png)<!-- zoom -->
+![&#x200B; デバッグ &#x200B;](./assets/developer-debug.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[ テンプレートのパスヒント ](../../systems/developer-tools.md#template-path-hints)」を参照してください。
+これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[&#x200B; テンプレートのパスヒント &#x200B;](../../systems/developer-tools.md#template-path-hints)」を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -109,9 +109,9 @@ ht-degree: 1%
 
 ## [!UICONTROL Translate Inline]
 
-![ インラインの翻訳](./assets/developer-translate-inline.png)<!-- zoom -->
+![&#x200B; インラインの翻訳](./assets/developer-translate-inline.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[ インライン翻訳](../../systems/developer-tools.md#translate-inline)」を参照してください。
+これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[&#x200B; インライン翻訳](../../systems/developer-tools.md#translate-inline)」を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -124,7 +124,7 @@ ht-degree: 1%
 
 ![JavaScript設定](./assets/developer-javascript-settings.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[ リソースファイルの最適化](../../systems/developer-tools.md#optimizing-resource-files)」を参照してください。
+これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[&#x200B; リソースファイルの最適化](../../systems/developer-tools.md#optimizing-resource-files)」を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -142,7 +142,7 @@ ht-degree: 1%
 
 ![CSS設定](./assets/developer-css-settings.png)<!-- zoom -->
 
-これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[ リソースファイルの最適化](../../systems/developer-tools.md#optimizing-resource-files)」を参照してください。
+これらの設定の変更について詳しくは、_管理者システムガイド_&#x200B;の「[&#x200B; リソースファイルの最適化](../../systems/developer-tools.md#optimizing-resource-files)」を参照してください。
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -164,7 +164,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Caching Settings]
 
-![設定のキャッシュ ](./assets/developer-cache-settings.png)<!-- zoom -->
+![設定のキャッシュ &#x200B;](./assets/developer-cache-settings.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -184,7 +184,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Grid Settings]
 
-![ グリッド設定](./assets/developer-grid-settings.png)<!-- zoom -->
+![&#x200B; グリッド設定](./assets/developer-grid-settings.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

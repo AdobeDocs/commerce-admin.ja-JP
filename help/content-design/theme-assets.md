@@ -35,7 +35,7 @@ ht-degree: 0%
 ---
 # テーマアセット
 
-_静的ファイル_&#x200B;は、テーマで使用されるCSS、フォント、画像、JavaScriptなどのアセットのコレクションです。 静的ファイルの場所は、[ ベース URL](../stores-purchase/store-urls.md)設定で指定します。 各静的ファイルのURLにデジタル署名を追加して、ブラウザーが新しいバージョンを使用できるタイミングを検出できるようにすることができます。 署名がブラウザーキャッシュに保存されているものと異なる場合は、新しいバージョンのファイルが使用されます。
+_静的ファイル_&#x200B;は、テーマで使用されるCSS、フォント、画像、JavaScriptなどのアセットのコレクションです。 静的ファイルの場所は、[&#x200B; ベース URL](../stores-purchase/store-urls.md)設定で指定します。 各静的ファイルのURLにデジタル署名を追加して、ブラウザーが新しいバージョンを使用できるタイミングを検出できるようにすることができます。 署名がブラウザーキャッシュに保存されているものと異なる場合は、新しいバージョンのファイルが使用されます。
 
 標準インストールの場合、テーマに関連付けられたアセットは、[!DNL Commerce] ルートの下の次の場所にある`web` フォルダーに整理されます。
 
@@ -43,7 +43,7 @@ _静的ファイル_&#x200B;は、テーマで使用されるCSS、フォント�
 
 ## 静的ファイル URLへのデジタル署名の追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL Developer]**&#x200B;を選択します。
 
@@ -70,9 +70,9 @@ _静的ファイル_&#x200B;は、テーマで使用されるCSS、フォント�
 
 >[!NOTE]
 >
->CSS ファイルは、[開発者モード ](../systems/developer-tools.md#operation-modes)で作業している場合にのみ、_管理者_ パネルから結合できます。
+>CSS ファイルは、[開発者モード &#x200B;](../systems/developer-tools.md#operation-modes)で作業している場合にのみ、_管理者_ パネルから結合できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を選択し、**[!UICONTROL Developer]**&#x200B;を選択します。
 
@@ -92,9 +92,9 @@ _静的ファイル_&#x200B;は、テーマで使用されるCSS、フォント�
 
 >[!NOTE]
 >
->JavaScript ファイルは、[ デベロッパーモード ](../systems/developer-tools.md#operation-modes)で作業している場合にのみ、_管理者_ パネルから結合できます。
+>JavaScript ファイルは、[&#x200B; デベロッパーモード &#x200B;](../systems/developer-tools.md#operation-modes)で作業している場合にのみ、_管理者_ パネルから結合できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を選択し、**[!UICONTROL Developer]**&#x200B;を選択します。
 

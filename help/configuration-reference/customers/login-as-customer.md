@@ -47,7 +47,7 @@ ht-degree: 8%
 
 ## 一般オプション
 
-![顧客としてログイン – 一般オプション ](./assets/login-as-customer.png)<!-- zoom -->
+![顧客としてログイン – 一般オプション &#x200B;](./assets/login-as-customer.png)<!-- zoom -->
 
 <!-- [Login As Customer - General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer) -->
 

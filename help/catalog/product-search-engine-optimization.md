@@ -43,26 +43,26 @@ ht-degree: 0%
 
 _検索エンジン最適化_ （SEO）は、検索エンジンによるページのインデックス作成方法を改善するために、サイトのコンテンツとプレゼンテーションを微調整する方法です。
 
-製品の&#x200B;_[!UICONTROL Search Engine Optimization]_設定では、検索エンジンが製品のインデックス作成に使用する[URL キー](catalog-urls.md)および[ メタデータ ](../merchandising-promotions/meta-data.md) フィールドを指定します。 meta キーワードを無視する検索エンジンもありますが、他の検索エンジンでは引き続きmeta キーワードを使用しています。 現在の[SEOのベストプラクティス ](../merchandising-promotions/seo-overview.md)は、メタタイトルとメタディスクリプションの両方に価値の高いキーワードを組み込むことです。
+製品の&#x200B;_[!UICONTROL Search Engine Optimization]_&#x200B;設定では、検索エンジンが製品のインデックス作成に使用する[URL キー](catalog-urls.md)および[&#x200B; メタデータ &#x200B;](../merchandising-promotions/meta-data.md) フィールドを指定します。 meta キーワードを無視する検索エンジンもありますが、他の検索エンジンでは引き続きmeta キーワードを使用しています。 現在の[SEOのベストプラクティス &#x200B;](../merchandising-promotions/seo-overview.md)は、メタタイトルとメタディスクリプションの両方に価値の高いキーワードを組み込むことです。
 
 各メタデータフィールドのデフォルト値は、設定で指定された値に基づいて自動生成できます。 各フィールドには、実際の値に置き換えられるプレースホルダーが含まれています。 詳しくは、[製品フィールドの自動生成](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation)を参照してください。
 
 >[!NOTE]
 >
->カタログのエンリッチメントは、LLMとAIを活用した検索のために、製品名と説明を改善するのに役立ちます。 SEOのメタフィールドに置き換わるものではありません。 詳しくは、[ カタログの強化](catalog-enrichment.md)を参照してください。
+>カタログのエンリッチメントは、LLMとAIを活用した検索のために、製品名と説明を改善するのに役立ちます。 SEOのメタフィールドに置き換わるものではありません。 詳しくは、[&#x200B; カタログの強化](catalog-enrichment.md)を参照してください。
 
 ## SEO フィールドに入力します
 
 1. 製品を編集モードで開きます。
 
-1. 下にスクロールして、_[!UICONTROL Search Engine Optimization]_セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
+1. 下にスクロールして、_[!UICONTROL Search Engine Optimization]_&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
 ![検索エンジン最適化](./assets/product-search-engine-optimization.png){width="600" zoomable="yes"}
 
 
 1. **[!UICONTROL URL Key]**&#x200B;を入力します（オプション）。
 
-   デフォルトのURL キーは、製品名に基づいています。 デフォルトを使用することも、必要に応じて変更することもできます。 詳しくは、[ カタログ URL](catalog-urls.md)を参照してください。
+   デフォルトのURL キーは、製品名に基づいています。 デフォルトを使用することも、必要に応じて変更することもできます。 詳しくは、[&#x200B; カタログ URL](catalog-urls.md)を参照してください。
 
 1. **[!UICONTROL Meta Title]**&#x200B;を入力します（オプション）。
 

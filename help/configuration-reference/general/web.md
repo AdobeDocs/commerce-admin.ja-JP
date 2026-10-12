@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## [!UICONTROL URL Options]
 
-![Web >一般オプション ](./assets/web-url-options.png)<!-- zoom -->
+![Web >一般オプション &#x200B;](./assets/web-url-options.png)<!-- zoom -->
 
 <!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Base URLs (Secure)]
 
-![Web > ベース URL （セキュア） ](./assets/web-base-urls-secure.png)<!-- zoom -->
+![Web > ベース URL （セキュア） &#x200B;](./assets/web-base-urls-secure.png)<!-- zoom -->
 
 <!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Default Pages]
 
-![Web > デフォルトページ ](./assets/web-default-pages.png)<!-- zoom -->
+![Web > デフォルトページ &#x200B;](./assets/web-default-pages.png)<!-- zoom -->
 
 <!-- [Default Pages configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Default Layouts]
 
-![ デフォルトレイアウト ](./assets/web-default-layouts.png)<!-- zoom -->
+![&#x200B; デフォルトレイアウト &#x200B;](./assets/web-default-layouts.png)<!-- zoom -->
 
 <!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
 

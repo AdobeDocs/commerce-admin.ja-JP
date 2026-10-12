@@ -56,19 +56,19 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**&#x200B;に移動します。
 
-1. ストックを編集モードで開き、_[!UICONTROL Sources]_領域に移動します。
+1. ストックを編集モードで開き、_[!UICONTROL Sources]_&#x200B;領域に移動します。
 
 1. **[!UICONTROL Assign Sources]**&#x200B;をクリックします。
 
-1. _[!UICONTROL Assign Sources]_ビューで、必要なソースのチェックボックスを選択し、**[!UICONTROL Done]**をクリックしてソースを在庫に割り当てます。
+1. _[!UICONTROL Assign Sources]_&#x200B;ビューで、必要なソースのチェックボックスを選択し、**[!UICONTROL Done]**&#x200B;をクリックしてソースを在庫に割り当てます。
 
 >[!NOTE]
 >
->配送に[Distance Priority](distance-priority-algorithm.md) アルゴリズムを使用する場合、配送に選択した[計算モード ](distance-priority-algorithm.md) （運転、自転車、またはウォーキング）にルートとデータが返されない場合、SSAはデフォルトでSource Priorityを使用します。
+>配送に[Distance Priority](distance-priority-algorithm.md) アルゴリズムを使用する場合、配送に選択した[計算モード &#x200B;](distance-priority-algorithm.md) （運転、自転車、またはウォーキング）にルートとデータが返されない場合、SSAはデフォルトでSource Priorityを使用します。
 
 ![優先順位付け後のSource注文](assets/inventory-stock-priority-after.png)
 
 | アイコン | 説明 |
 |----------------------------------------------|----------------------------------------------------------------|
-| ![ アイコンをドラッグ&amp;ドロップして優先順位を設定](assets/icon-drag-and-drop-action.png) | を使用すると、優先度に応じてソースをドラッグ&amp;ドロップできます。 |
-| ![ クリックアイコンでソースの割り当てを解除する](assets/icon-delete-action.png) | ソースを在庫に割り当て解除します。 |
+| ![&#x200B; アイコンをドラッグ&amp;ドロップして優先順位を設定](assets/icon-drag-and-drop-action.png) | を使用すると、優先度に応じてソースをドラッグ&amp;ドロップできます。 |
+| ![&#x200B; クリックアイコンでソースの割り当てを解除する](assets/icon-delete-action.png) | ソースを在庫に割り当て解除します。 |

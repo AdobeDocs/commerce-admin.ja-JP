@@ -52,21 +52,21 @@ ht-degree: 0%
 
 1. 下にスクロールして、**[!UICONTROL Conditions]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-1. _追加_ （![ アイコンを追加](../assets/icon-add-green-circle.png)）をクリックし、**[!UICONTROL Product Attribute Combination]**&#x200B;を選択します。
+1. _追加_ （![&#x200B; アイコンを追加](../assets/icon-add-green-circle.png)）をクリックし、**[!UICONTROL Product Attribute Combination]**&#x200B;を選択します。
 
    ![買い物かごの価格ルール条件 – 製品属性の組み合わせ](./assets/condition1.png){width="500" zoomable="yes"}
 
-1. 次の行の先頭にある&#x200B;_追加_ （![追加アイコン ](../assets/icon-add-green-circle.png)）をクリックし、**[!UICONTROL Product Attribute]**&#x200B;の下のリストで「**[!UICONTROL Category]**」を選択します。
+1. 次の行の先頭にある&#x200B;_追加_ （![追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックし、**[!UICONTROL Product Attribute]**&#x200B;の下のリストで「**[!UICONTROL Category]**」を選択します。
 
    - 「（**...**） _more_」リンクをクリックして、追加のオプションを表示します。
 
-     ![買い物かごの価格ルール条件 – カテゴリ オプション ](./assets/condition3.png){width="600" zoomable="yes"}
+     ![買い物かごの価格ルール条件 – カテゴリ オプション &#x200B;](./assets/condition3.png){width="600" zoomable="yes"}
 
-   - _Chooser_ （![ リストアイコン ](../assets/icon-list-chooser.png)）アイコンをクリックすると、使用可能なカテゴリが表示されます。 カテゴリーツリーで、含める各カテゴリのチェックボックスを選択します。 チェックアイコンをクリックして、カテゴリの選択を確定します。
+   - _Chooser_ （![&#x200B; リストアイコン &#x200B;](../assets/icon-list-chooser.png)）アイコンをクリックすると、使用可能なカテゴリが表示されます。 カテゴリーツリーで、含める各カテゴリのチェックボックスを選択します。 チェックアイコンをクリックして、カテゴリの選択を確定します。
 
-     ![買い物かごの価格ルール条件 – カテゴリ ](./assets/condition4.png){width="600" zoomable="yes"}
+     ![買い物かごの価格ルール条件 – カテゴリ &#x200B;](./assets/condition4.png){width="600" zoomable="yes"}
 
-1. 次の行の先頭にある「_追加_」（![追加アイコン ](../assets/icon-add-green-circle.png)）をクリックし、次の操作を行います。
+1. 次の行の先頭にある「_追加_」（![追加アイコン &#x200B;](../assets/icon-add-green-circle.png)）をクリックし、次の操作を行います。
 
    - **[!UICONTROL Cart Item Attribute]**&#x200B;の下のリストで、**[!UICONTROL Price in cart]**&#x200B;を選択します。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Actions]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
-   ![買い物かごの価格ルール アクション ](./assets/minimum-discount-actions.png){width="600" zoomable="yes"}
+   ![買い物かごの価格ルール アクション &#x200B;](./assets/minimum-discount-actions.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Apply]**&#x200B;を`Percent of product price discount`に設定します。
 

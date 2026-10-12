@@ -41,7 +41,7 @@ ht-degree: 0%
 
 商品リストを管理する主な理由は、商品を容易に再注文できるようにすることです。 許可された顧客は、ショッピングカートに追加することで、商品リストから簡単に商品を再注文したり、商品をリストから別のリストに移動したりコピーしたりできます。
 
-![自分の購買依頼リスト ](./assets/account-dashboard-my-requisition-lists.png){width="700" zoomable="yes"}
+![自分の購買依頼リスト &#x200B;](./assets/account-dashboard-my-requisition-lists.png){width="700" zoomable="yes"}
 
 ## 購買グループを開く
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 製品オプションを変更するには、次の操作を行います。
 
-   - 行項目で、_編集_ （![鉛筆アイコン ](../assets/icon-edit-pencil.png)）アイコンをクリックします。
+   - 行項目で、_編集_ （![鉛筆アイコン &#x200B;](../assets/icon-edit-pencil.png)）アイコンをクリックします。
    - 必要なオプションを変更します。
    - **[!UICONTROL Update Requisition List]**&#x200B;をクリックします。
 
@@ -106,7 +106,7 @@ Adobe Commerceは、`sku`および`qty`個の値を含むCSV リストを生成�
 
 リスト内の製品オプションを編集するには、お客様は次の操作を行います。
 
-1. _鉛筆_ （![鉛筆アイコン ](../assets/icon-edit-pencil.png)）アイコンをクリックして、製品ページを開きます。
+1. _鉛筆_ （![鉛筆アイコン &#x200B;](../assets/icon-edit-pencil.png)）アイコンをクリックして、製品ページを開きます。
 
 1. 必要なオプションを変更します。
 
@@ -120,7 +120,7 @@ Adobe Commerceは、`sku`および`qty`個の値を含むCSV リストを生成�
 
   製品は&#x200B;**[!UICONTROL added to this Requisition List]**&#x200B;です。
 
-- 製品は[ オプション付きのシンプルな製品](../catalog/settings-advanced-custom-options.md)です
+- 製品は[&#x200B; オプション付きのシンプルな製品](../catalog/settings-advanced-custom-options.md)です
 
 - 製品タイプでは編集が許可されています。
 
@@ -140,7 +140,7 @@ Adobe Commerceは、`sku`および`qty`個の値を含むCSV リストを生成�
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
-   ![ リクエストリスト名を変更](./assets/requisition-list-rename.png){width="300"}
+   ![&#x200B; リクエストリスト名を変更](./assets/requisition-list-rename.png){width="300"}
 
 
 ### 購買リストの削除
@@ -173,7 +173,7 @@ Adobe Commerceは、`sku`および`qty`個の値を含むCSV リストを生成�
 
 ページ管理は、購買リストのアイテムの合計数が、ページごとに選択したアイテム数を超えると、リストの下部に表示されます。
 
-![ ページネーション付き購買依頼リスト ](./assets/requisition-list-bottom-with-pagination.png){width="700" zoomable="yes"}
+![&#x200B; ページネーション付き購買依頼リスト &#x200B;](./assets/requisition-list-bottom-with-pagination.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -184,5 +184,5 @@ Adobe Commerceは、`sku`および`qty`個の値を含むCSV リストを生成�
 
 | 制御 | 説明 |
 |----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![ ページごとに表示](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - 1 ページあたりの購買リスト項目の数を指定します。 20、50、100、500、または1000の購買リスト項目を選択して、ページに表示できます。 |
-| ![ ページネーション リンク ](./assets/control-pagination.png) | [!UICONTROL Pagination links] – 他のページへのナビゲーションリンクを提供します。 |
+| ![&#x200B; ページごとに表示](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - 1 ページあたりの購買リスト項目の数を指定します。 20、50、100、500、または1000の購買リスト項目を選択して、ページに表示できます。 |
+| ![&#x200B; ページネーション リンク &#x200B;](./assets/control-pagination.png) | [!UICONTROL Pagination links] – 他のページへのナビゲーションリンクを提供します。 |

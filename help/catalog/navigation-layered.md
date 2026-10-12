@@ -43,17 +43,17 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->この節で説明する標準的な階層化されたナビゲーションは、[ ファセット ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)を持つライブサーチのフィルターナビゲーションとは異なります。
+>この節で説明する標準的な階層化されたナビゲーションは、[&#x200B; ファセット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)を持つライブサーチのフィルターナビゲーションとは異なります。
 
 階層化されたナビゲーションにより、カテゴリー、価格帯、その他の利用可能な属性にもとづいて、商品を簡単に見つけることができます。 階層化されたナビゲーションは、通常、検索結果ページとカテゴリーページの左側の列、場合によってはホームページに表示されます。 標準ナビゲーションには、カテゴリと価格帯の&#x200B;_買い物_ リストが含まれています。 商品の数や価格帯など、階層化されたナビゲーションの表示を設定できます。
 
-![ カテゴリーと価格別の階層化されたナビゲーション ](./assets/navigation-layered-basic.png){width="700" zoomable="yes"}
+![&#x200B; カテゴリーと価格別の階層化されたナビゲーション &#x200B;](./assets/navigation-layered-basic.png){width="700" zoomable="yes"}
 
 ## フィルター可能な属性
 
 >[!NOTE]
 >
->このトピックで説明するフィルター可能な属性要件は、[ ライブサーチ ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)で異なります。 詳しくは、[ ファセット ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)を参照してください。
+>このトピックで説明するフィルター可能な属性要件は、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)で異なります。 詳しくは、[&#x200B; ファセット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)を参照してください。
 
 階層化されたナビゲーションを使用して、カテゴリ別または属性別に商品を検索できます。 例えば、買い物客が上部のナビゲーションから「メンズ/Shorts」カテゴリを選択すると、最初の結果にはカテゴリ内のすべての商品が含まれます。 特定のスタイル、気候、色、素材、パターン、価格（または値の組み合わせ）を選択して、リストをさらにフィルタリングできます。 フィルター可能な属性は、各属性値を一覧表示する拡張セクションに表示されます。 オプションとして、一致する結果を持つ製品のリストを、一致する製品を含めるか、一致しない製品を含めるように設定できます。
 
@@ -67,15 +67,15 @@ _例：フィルター可能なスウォッチ値が結果なしで表示され�
 
 ![結果のないフィルター可能なスウォッチ値](./assets/storefront-product-attribute-filter-no-results.png){width="700" zoomable="yes"}
 
-次の手順では、フィルター可能な属性を使用して基本的なレイヤーナビゲーションを設定する方法を示します。 価格ステップを使用した高度な階層化ナビゲーションについては、[価格ナビゲーション ](navigation-layered.md#configure-price-navigation)を参照してください。
+次の手順では、フィルター可能な属性を使用して基本的なレイヤーナビゲーションを設定する方法を示します。 価格ステップを使用した高度な階層化ナビゲーションについては、[価格ナビゲーション &#x200B;](navigation-layered.md#configure-price-navigation)を参照してください。
 
 ## 手順1：属性プロパティの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. フィルター検索を参照または使用してリスト内の属性を検索し、編集モードで開きます。
 
-   ![ フィルター付き検索を使用するには、列ごとに検索語句を入力してください](./assets/attribute-search.png){width="700" zoomable="yes"}
+   ![&#x200B; フィルター付き検索を使用するには、列ごとに検索語句を入力してください](./assets/attribute-search.png){width="700" zoomable="yes"}
 
 1. 左側のパネルで、**[!UICONTROL Storefront Properties]**&#x200B;を選択し、**[!UICONTROL Use In Layered Navigation]**&#x200B;を次のいずれかに設定します。
 
@@ -85,13 +85,13 @@ _例：フィルター可能なスウォッチ値が結果なしで表示され�
 
 1. **[!UICONTROL Use In Search Results Layered Navigation]**&#x200B;を`Yes`に設定します。
 
-   ![ ストアフロントのプロパティ ](./assets/attribute-storefront-properties.png){width="600" zoomable="yes"}
+   ![&#x200B; ストアフロントのプロパティ &#x200B;](./assets/attribute-storefront-properties.png){width="600" zoomable="yes"}
 
 1. 階層化されたナビゲーションに含める属性ごとに、これらの手順を繰り返します。
 
 >[!NOTE]
 >
->- _[!UICONTROL Use in Search]_設定が`No`に設定されている場合、_[!UICONTROL Use in Search Results Layered Navigation]_&#x200B;設定は表示されません。この場合、[!UICONTROL Use in Layered Navigation]設定に関係なく、product属性は検索に使用されません。
+>- _[!UICONTROL Use in Search]_&#x200B;設定が`No`に設定されている場合、_[!UICONTROL Use in Search Results Layered Navigation]_&#x200B;設定は表示されません。この場合、[!UICONTROL Use in Layered Navigation]設定に関係なく、product属性は検索に使用されません。
 >
 >- デフォルトでは、[!UICONTROL Position] フィールドはグレー表示になっています。 この設定を変更するには、属性を保存する必要があります。
 
@@ -103,7 +103,7 @@ _例：フィルター可能なスウォッチ値が結果なしで表示され�
 
 1. **[!UICONTROL Display Settings]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、**[!UICONTROL Anchor]**&#x200B;を`Yes`に設定します。
 
-   ![ カテゴリ表示設定](./assets/category-layered-navigation-anchor.png){width="600" zoomable="yes"}
+   ![&#x200B; カテゴリ表示設定](./assets/category-layered-navigation-anchor.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -123,15 +123,15 @@ _例：フィルター可能なスウォッチ値が結果なしで表示され�
 
 次の手順を使用して、0製品のフィルター可能な属性値を階層化ナビゲーションから削除できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. フィルター検索を参照または使用してリスト内の属性を検索し、編集モードで開きます。
 
-1. _[!UICONTROL Attribute Information]_で、**[!UICONTROL Storefront Properties]**をクリックします。
+1. _[!UICONTROL Attribute Information]_&#x200B;で、**[!UICONTROL Storefront Properties]**&#x200B;をクリックします。
 
 1. **[!UICONTROL Layered Navigation]**&#x200B;に対して、`Filterable (with results)`を選択します。
 
-   ![属性情報セクション ](./assets/storefront-properties-tab.png){width="600" zoomable="yes"}
+   ![属性情報セクション &#x200B;](./assets/storefront-properties-tab.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save Attribute]**&#x200B;をクリックします。
 
@@ -139,7 +139,7 @@ _例：フィルター可能なスウォッチ値が結果なしで表示され�
 
 >[!NOTE]
 >
->この節で説明する価格ナビゲーションの設定は、[ ファセット ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)を持つライブサーチのフィルターナビゲーションとは異なります。
+>この節で説明する価格ナビゲーションの設定は、[&#x200B; ファセット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)を持つライブサーチのフィルターナビゲーションとは異なります。
 
 価格ナビゲーションを使用すると、階層化されたナビゲーションで価格帯ごとに商品を配布できます。 また、各範囲を間隔で分割することもできます。 価格ナビゲーションを計算するには、いくつかの方法があります。
 
@@ -178,9 +178,9 @@ _例：フィルター可能なスウォッチ値が結果なしで表示され�
 
 >[!IMPORTANT]
 >
->階層化されたナビゲーションの&#x200B;_価格フィルター_&#x200B;に従って商品とその価格を正しく表示するには、[消費税設定](../configuration-reference/sales/tax.md)の価格表示の設定が同じ値（`Excluding Tax` **または** `Including Tax`）であることを確認してください。 _[!UICONTROL Calculation Settings]_について、**[!UICONTROL Catalog Prices]**値を確認してください。_[!UICONTROL Price Display Settings]_&#x200B;の場合、**[!UICONTROL Display Product Prices in Catalog]**&#x200B;値を確認します。 これらの値が異なる場合、階層化されたナビゲーションの価格フィルターは、商品を適切にフィルタリングして価格で並べ替えないことがあります。
+>階層化されたナビゲーションの&#x200B;_価格フィルター_&#x200B;に従って商品とその価格を正しく表示するには、[消費税設定](../configuration-reference/sales/tax.md)の価格表示の設定が同じ値（`Excluding Tax` **または** `Including Tax`）であることを確認してください。 _[!UICONTROL Calculation Settings]_&#x200B;について、**[!UICONTROL Catalog Prices]**&#x200B;値を確認してください。_[!UICONTROL Price Display Settings]_&#x200B;の場合、**[!UICONTROL Display Product Prices in Catalog]**&#x200B;値を確認します。 これらの値が異なる場合、階層化されたナビゲーションの価格フィルターは、商品を適切にフィルタリングして価格で並べ替えないことがあります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
@@ -188,9 +188,9 @@ _例：フィルター可能なスウォッチ値が結果なしで表示され�
 
    デフォルトでは、**[!UICONTROL Display Product Count]**&#x200B;は`Yes`に設定されています。 必要に応じて、**[!UICONTROL Use system value]** チェックボックスの選択を解除して、この設定を変更します。
 
-   ![階層型ナビゲーション ](../configuration-reference/catalog/assets/layered-navigation.png){width="600" zoomable="yes"}
+   ![階層型ナビゲーション &#x200B;](../configuration-reference/catalog/assets/layered-navigation.png){width="600" zoomable="yes"}
 
-   これらの設定オプションの詳細なリストについては、_設定リファレンス_&#x200B;の[階層化ナビゲーション ](../configuration-reference/catalog/catalog.md#layered-navigation)を参照してください。
+   これらの設定オプションの詳細なリストについては、_設定リファレンス_&#x200B;の[階層化ナビゲーション &#x200B;](../configuration-reference/catalog/catalog.md#layered-navigation)を参照してください。
 
 1. 次のセクションのいずれかのメソッドに&#x200B;**[!UICONTROL Price Navigation Steps Calculation]**&#x200B;を設定します。
 
@@ -214,7 +214,7 @@ _例：フィルター可能なスウォッチ値が結果なしで表示され�
 
    範囲をこの制限を超えて分割することはできません。 デフォルト値は`9`です。
 
-   ![自動（製品数を等しくする） ](../configuration-reference/catalog/assets/layered-navigation-equalize-product-counts.png){width="600" zoomable="yes"}
+   ![自動（製品数を等しくする） &#x200B;](../configuration-reference/catalog/assets/layered-navigation-equalize-product-counts.png){width="600" zoomable="yes"}
 
 ### 方法3：手動
 
@@ -234,15 +234,15 @@ _例：フィルター可能なスウォッチ値が結果なしで表示され�
 
 >[!NOTE]
 >
->この節で説明する標準的な階層化されたナビゲーションは、[ ファセット ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)を持つライブサーチのフィルターナビゲーションとは異なります。
+>この節で説明する標準的な階層化されたナビゲーションは、[&#x200B; ファセット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)を持つライブサーチのフィルターナビゲーションとは異なります。
 
 階層型ナビゲーション設定は、各属性の後に商品数が括弧内に表示されるかどうか、および価格ナビゲーションに使用されるステップ計算のサイズを決定します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「_[!UICONTROL Catalog]_」セクションを展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
-1. _[!UICONTROL Layered Navigation]_セクションを展開します。
+1. _[!UICONTROL Layered Navigation]_&#x200B;セクションを展開します。
 
    >[!NOTE]
    >

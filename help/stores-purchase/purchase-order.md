@@ -45,11 +45,11 @@ _発注書_ （PO）を使用すると、法人のお客様は、PO番号を参�
 
 **_発注書による支払いを設定するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Payment Methods]**&#x200B;を選択します。
 
-1. _[!UICONTROL Other Payment Methods]_で、**[!UICONTROL Purchase Order]**セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
+1. _[!UICONTROL Other Payment Methods]_&#x200B;で、**[!UICONTROL Purchase Order]**&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
    ![発注書](../configuration-reference/sales/assets/payment-methods-purchase-order.png){width="600" zoomable="yes"}
 
@@ -68,7 +68,7 @@ _発注書_ （PO）を使用すると、法人のお客様は、PO番号を参�
 1. **[!UICONTROL Payment from Applicable Countries]**&#x200B;を次のいずれかに設定します：
 
    - `All Allowed Countries` - ストア設定で指定されたすべての[国](../getting-started/store-details.md#country-options)のお客様は、この支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）またはCommand キー（Mac）を押しながら、各オプションをクリックします。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）またはCommand キー（Mac）を押しながら、各オプションをクリックします。
 
 1. **[!UICONTROL Minimum Order Total]**&#x200B;と&#x200B;**[!UICONTROL Maximum Order Total]**&#x200B;をこの支払い方法の対象に必要な金額に設定します。
 

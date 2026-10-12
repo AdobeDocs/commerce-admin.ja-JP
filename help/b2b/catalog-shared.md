@@ -51,15 +51,15 @@ Adobe Commerce B2Bでは、様々な企業向けにカスタマイズされた�
 
 >[!NOTE]
 >
->**[B2B リリース 1.3.0](release-notes.md#b2b-v130)以降** – 共有カタログを作成する場合、カタログの各[ カテゴリ権限](../catalog/category-permissions.md)は、カタログ権限設定でこのアクセスが割り当てられている顧客グループに対して&#x200B;_[!UICONTROL Allow for the Display Product Prices]_および_[!UICONTROL Add to Cart]_&#x200B;に設定されます。 以前は、カタログ権限が`Allow`に設定されていても、これらの設定は自動的に`Deny`に設定されていました。
+>**[B2B リリース 1.3.0](release-notes.md#b2b-v130)以降** – 共有カタログを作成する場合、カタログの各[&#x200B; カテゴリ権限](../catalog/category-permissions.md)は、カタログ権限設定でこのアクセスが割り当てられている顧客グループに対して&#x200B;_[!UICONTROL Allow for the Display Product Prices]_&#x200B;および&#x200B;_[!UICONTROL Add to Cart]_&#x200B;に設定されます。 以前は、カタログ権限が`Allow`に設定されていても、これらの設定は自動的に`Deny`に設定されていました。
 
 >[!IMPORTANT]
 >
->**_[!UICONTROL Shared Catalog]_**&#x200B;機能が有効になっている場合、既存の[ グループ権限設定](../configuration-reference/catalog/catalog.md#category-permissions)はすべて、カタログ内の&#x200B;**_すべての_** カテゴリーで無視されます。 [!UICONTROL Shared Catalog]は、カタログが有効になっている場合に、カタログ内のすべてのカテゴリ権限を完全に制御します。
+>**_[!UICONTROL Shared Catalog]_**&#x200B;機能が有効になっている場合、既存の[&#x200B; グループ権限設定](../configuration-reference/catalog/catalog.md#category-permissions)はすべて、カタログ内の&#x200B;**_すべての_** カテゴリーで無視されます。 [!UICONTROL Shared Catalog]は、カタログが有効になっている場合に、カタログ内のすべてのカテゴリ権限を完全に制御します。
 
-_[!UICONTROL Shared Catalogs]_ページでは、共有カタログの管理に使用するツールにアクセスできます。 このページは、標準の[管理者ワークスペース ](../getting-started/admin-workspace.md)と似ており、フィルターとアクションコントロールが含まれています。 グリッドには、デフォルトのパブリック共有カタログを含むすべての共有カタログと、設定したカスタムカタログが一覧表示されます。
+_[!UICONTROL Shared Catalogs]_&#x200B;ページでは、共有カタログの管理に使用するツールにアクセスできます。 このページは、標準の[管理者ワークスペース &#x200B;](../getting-started/admin-workspace.md)と似ており、フィルターとアクションコントロールが含まれています。 グリッドには、デフォルトのパブリック共有カタログを含むすべての共有カタログと、設定したカスタムカタログが一覧表示されます。
 
-![共有カタログ ](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
+![共有カタログ &#x200B;](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Shared Catalogs] ページへのアクセス
 
@@ -67,9 +67,9 @@ _管理者_ サイドバーで、**[!UICONTROL Catalog]** > **[!UICONTROL Shared
 
 ## アクション制御
 
-左上隅の[ アクションコントロール ](../getting-started/admin-actions-control.md)は、一括操作コントロールと共に使用して、不要になった選択した共有カタログを削除できます。 グリッドの&#x200B;_[!UICONTROL Actions]_列には、共有カタログを管理するためのツールの全範囲が含まれています。
+左上隅の[&#x200B; アクションコントロール &#x200B;](../getting-started/admin-actions-control.md)は、一括操作コントロールと共に使用して、不要になった選択した共有カタログを削除できます。 グリッドの&#x200B;_[!UICONTROL Actions]_&#x200B;列には、共有カタログを管理するためのツールの全範囲が含まれています。
 
-![共有カタログのアクション ](./assets/shared-catalog-grid-action-column-controls.png){width="350"}
+![共有カタログのアクション &#x200B;](./assets/shared-catalog-grid-action-column-controls.png){width="350"}
 
 | 制御 | 説明 |
 |------|-----------|

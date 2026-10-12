@@ -38,25 +38,25 @@ ht-degree: 0%
 
 顧客は色を選択することに対する期待が高く、利用可能なそれぞれの色、パターン、テクスチャを正確に表した商品説明が重要です。 例えば、次の例のズボンは、赤、緑、青では使用できません。 むしろ、赤、緑、青の特定の色合いでのみ入手可能であり、おそらくこの製品に固有のものです。
 
-![製品ページのスウォッチ ](./assets/storefront-color-swatches.png){width="700" zoomable="yes"}
+![製品ページのスウォッチ &#x200B;](./assets/storefront-color-swatches.png){width="700" zoomable="yes"}
 
-[設定可能な製品](product-create-configurable.md)の場合、カラーは視覚的なスウォッチ、テキストスウォッチ、または入力コントロールで示すことができます。 スウォッチは、製品ページ、製品リスト、および[階層化されたナビゲーション ](navigation-layered.md)で使用できます。 製品ページでは、スウォッチが同期され、スウォッチが選択されたときに対応する製品画像が表示されます。 お客様がスウォッチを選択すると、対応する値が入力フィールドに表示され、スウォッチが現在の選択範囲として概説されます。
+[設定可能な製品](product-create-configurable.md)の場合、カラーは視覚的なスウォッチ、テキストスウォッチ、または入力コントロールで示すことができます。 スウォッチは、製品ページ、製品リスト、および[階層化されたナビゲーション &#x200B;](navigation-layered.md)で使用できます。 製品ページでは、スウォッチが同期され、スウォッチが選択されたときに対応する製品画像が表示されます。 お客様がスウォッチを選択すると、対応する値が入力フィールドに表示され、スウォッチが現在の選択範囲として概説されます。
 
 >[!NOTE]
 >
->スウォッチ属性は、Adminの[!UICONTROL Attribute Edit] ページで&#x200B;_[!UICONTROL Update Product Preview Image]_オプションの値を`No`に設定することで、スウォッチが選択されたときに、対応する単純な製品画像を表示しないように設定できます。
+>スウォッチ属性は、Adminの[!UICONTROL Attribute Edit] ページで&#x200B;_[!UICONTROL Update Product Preview Image]_&#x200B;オプションの値を`No`に設定することで、スウォッチが選択されたときに、対応する単純な製品画像を表示しないように設定できます。
 
 ## テキストベースのスウォッチ
 
 画像がスウォッチに使用できない場合、属性値はテキストとして表示されます。 テキストベースのスウォッチは、テキストラベル付きのボタンのようなもので、画像のスウォッチと同じように動作します。 テキストベースのスウォッチを使用して使用可能なサイズを表示すると、使用できないサイズは除外されます。
 
-![ テキストベースのスウォッチ選択で在庫切れのサイズが表示される](./assets/storefront-swatch-size-out-of-stock.png){width="700" zoomable="yes"}
+![&#x200B; テキストベースのスウォッチ選択で在庫切れのサイズが表示される](./assets/storefront-swatch-size-out-of-stock.png){width="700" zoomable="yes"}
 
 ## 階層化されたナビゲーションのスウォッチ
 
-color属性の&#x200B;_[!UICONTROL Use in Layered Navigation]_プロパティが`Yes`に設定されている場合、スウォッチはレイヤーナビゲーションでも使用できます。 次の例は、レイヤーナビゲーションのテキストベースとカラー画像の両方のスウォッチを示しています。
+color属性の&#x200B;_[!UICONTROL Use in Layered Navigation]_&#x200B;プロパティが`Yes`に設定されている場合、スウォッチはレイヤーナビゲーションでも使用できます。 次の例は、レイヤーナビゲーションのテキストベースとカラー画像の両方のスウォッチを示しています。
 
-レイヤー化されたナビゲーションに表示される![ スウォッチ ](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
+レイヤー化されたナビゲーションに表示される![&#x200B; スウォッチ &#x200B;](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
 ## 製品のスウォッチの作成
 
@@ -74,7 +74,7 @@ color属性の&#x200B;_[!UICONTROL Use in Layered Navigation]_プロパティが
 
    ![16進数カラー値](./assets/swatch-hex-values.png){width="400"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. グリッドで、編集モードで&#x200B;_color_&#x200B;属性を開きます。
 
@@ -82,19 +82,19 @@ color属性の&#x200B;_[!UICONTROL Use in Layered Navigation]_プロパティが
 
 1. 製品表示ページでスウォッチを選択したときに、対応するシンプルな製品画像を表示しない場合は、**[!UICONTROL Update Product Preview Image]**&#x200B;を`No`に設定します。
 
-1. _[!UICONTROL Manage Swatch (Values of Your Attribute)]_で「**[!UICONTROL Add Swatch]**」をクリックし、次の操作を行います。
+1. _[!UICONTROL Manage Swatch (Values of Your Attribute)]_&#x200B;で「**[!UICONTROL Add Swatch]**」をクリックし、次の操作を行います。
 
-   ![ スウォッチ値の管理](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
+   ![&#x200B; スウォッチ値の管理](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
    - _スウォッチ_&#x200B;列で、新しいスウォッチをクリックし、メニューから「**[!UICONTROL Choose a color]**」を選択します。
 
-     ![ スウォッチカラーを選択](./assets/attribute-color-swatch-menu.png){width="500" zoomable="yes"}
+     ![&#x200B; スウォッチカラーを選択](./assets/attribute-color-swatch-menu.png){width="500" zoomable="yes"}
 
    - カラーピッカーで、**#** フィールドにカーソルを置き、現在の値を削除して、新しいカラーの6文字の16進数値を入力します。
 
      ![16進数値を入力](./assets/attribute-swatch-color-picker-hex-value.png){width="500" zoomable="yes"}
 
-   - スウォッチを保存するには、カラーピッカーの右下隅にある&#x200B;_カラーホイール_ （![ カラーアイコン ](../assets/icon-color-wheel.png)）アイコンをクリックします。
+   - スウォッチを保存するには、カラーピッカーの右下隅にある&#x200B;_カラーホイール_ （![&#x200B; カラーアイコン &#x200B;](../assets/icon-color-wheel.png)）アイコンをクリックします。
 
    - _管理者_&#x200B;列に、ストア管理者に色を説明するラベルを入力します。
 
@@ -102,9 +102,9 @@ color属性の&#x200B;_[!UICONTROL Use in Layered Navigation]_プロパティが
 
    - 「_はデフォルトです_」列で、デフォルトオプションにするスウォッチを選択します。
 
-   - カラースウォッチの順序を変更するには、_[!UICONTROL Order]_![並べ替えアイコン ](../assets/icon-sort-order.png) アイコンをクリックし、リスト内の新しい位置にアイテムをドラッグします。
+   - カラースウォッチの順序を変更するには、_[!UICONTROL Order]_![並べ替えアイコン &#x200B;](../assets/icon-sort-order.png) アイコンをクリックし、リスト内の新しい位置にアイテムをドラッグします。
 
-     ![ スウォッチラベル ](./assets/attribute-swatch-labels.png){width="400"}
+     ![&#x200B; スウォッチラベル &#x200B;](./assets/attribute-swatch-labels.png){width="400"}
 
 1. 完了したら、**[!UICONTROL Save Attribute]**&#x200B;をクリックし、プロンプトが表示されたらキャッシュを更新します。
 
@@ -120,9 +120,9 @@ color属性の&#x200B;_[!UICONTROL Use in Layered Navigation]_プロパティが
 
    スウォッチのサイズとサイズは、テーマによって決まります。 一般に、画像を正方形として保存すると、パターンの縦横比を維持するのに役立ちます。
 
-   ![画像をスウォッチ ](./assets/swatch-samples.png){width="400"}
+   ![画像をスウォッチ &#x200B;](./assets/swatch-samples.png){width="400"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;に移動します。
 
 1. グリッドで、編集モードで&#x200B;**[!UICONTROL color]**&#x200B;属性を開きます。
 
@@ -130,9 +130,9 @@ color属性の&#x200B;_[!UICONTROL Use in Layered Navigation]_プロパティが
 
 1. 製品表示ページでスウォッチを選択したときに、対応するシンプルな製品画像を表示しない場合は、**[!UICONTROL Update Product Preview Image]**&#x200B;を`No`に設定します。
 
-1. _[!UICONTROL Manage Swatch]_（属性の値）で、**[!UICONTROL Add Swatch]**をクリックし、次の操作を行います。
+1. _[!UICONTROL Manage Swatch]_（属性の値）で、**[!UICONTROL Add Swatch]**&#x200B;をクリックし、次の操作を行います。
 
-   - _[!UICONTROL Swatch]_列で、新しいスウォッチをクリックしてメニューを表示し、**[!UICONTROL Upload a file]**を選択します。
+   - _[!UICONTROL Swatch]_&#x200B;列で、新しいスウォッチをクリックしてメニューを表示し、**[!UICONTROL Upload a file]**&#x200B;を選択します。
 
    - 準備したスウォッチファイルに移動し、アップロードするファイルを選択します。
 
@@ -142,7 +142,7 @@ color属性の&#x200B;_[!UICONTROL Use in Layered Navigation]_プロパティが
 
      この例では、SKUは特定の製品にのみ使用されるため、管理者ラベルに参照のために含まれています。 ラベルにスペースやアンダースコアを含めることはできますが、ハイフンを含めることはできません。
 
-     ![ ラベルを入力](./assets/swatch-upload.png){width="500" zoomable="yes"}
+     ![&#x200B; ラベルを入力](./assets/swatch-upload.png){width="500" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save Attribute]**&#x200B;をクリックし、プロンプトが表示されたらキャッシュを更新します。
 
@@ -166,7 +166,7 @@ color属性の&#x200B;_[!UICONTROL Use in Layered Navigation]_プロパティが
 
 1. **[!UICONTROL Color]**&#x200B;属性まで下にスクロールし、**[!UICONTROL Change]** チェックボックスを選択します。
 
-   ![ チェックボックスの変更](./assets/swatch-update-attributes-choose-color.png){width="400"}
+   ![&#x200B; チェックボックスの変更](./assets/swatch-update-attributes-choose-color.png){width="400"}
 
 1. 選択した製品に適用されるスウォッチを選択し、**[!UICONTROL Save]**&#x200B;をクリックします。
 

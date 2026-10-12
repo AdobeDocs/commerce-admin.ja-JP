@@ -66,7 +66,7 @@ ht-degree: 3%
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md) | web サイト | 有効にすると、グローバルまたは特定の企業に限定されたカスタム価格設定で厳選されたカタログを作成できるようになります。 オプション：`Yes` / `No` |
-| [!UICONTROL Enable Shared Catalog direct products price assigning] | web サイト | _[!UICONTROL Enable Shared Catalog]_フィールドが`Yes`に設定されている場合、このオプションを使用できます。 有効にすると、共有カタログに割り当てられている製品のみが価格インデックスに保存されます。 共有カタログに割り当てられていない製品は、ストアフロントに表示されません。 オプション：`Yes` / `No` |
+| [!UICONTROL Enable Shared Catalog direct products price assigning] | web サイト | _[!UICONTROL Enable Shared Catalog]_&#x200B;フィールドが`Yes`に設定されている場合、このオプションを使用できます。 有効にすると、共有カタログに割り当てられている製品のみが価格インデックスに保存されます。 共有カタログに割り当てられていない製品は、ストアフロントに表示されません。 オプション：`Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | web サイト | 有効にすると、会社のバイヤーがショッピングカートから見積もり依頼を送信できるようになります。 オプション：`Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -89,7 +89,7 @@ ht-degree: 3%
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |------- |----------------------------------------------------------------------- |------------ |
 | [!UICONTROL Applicable Shipping Methods] | グローバル | デフォルトでB2B バイヤーが利用できる配送方法の選択を決定します。 オプション：`All Shipping Methods` / `Specific Shipping Methods` |
-| [!UICONTROL Shipping Methods] | グローバル | デフォルトでB2B バイヤーが利用できる各配送方法を指定します。 <br/>**_Note:_**&#x200B;特定の[会社アカウント ](../../b2b/account-companies.md)の配送方法を制限することもできます。 |
+| [!UICONTROL Shipping Methods] | グローバル | デフォルトでB2B バイヤーが利用できる各配送方法を指定します。 <br/>**_Note:_**&#x200B;特定の[会社アカウント &#x200B;](../../b2b/account-companies.md)の配送方法を制限することもできます。 |
 
 {style="table-layout:auto"}
 

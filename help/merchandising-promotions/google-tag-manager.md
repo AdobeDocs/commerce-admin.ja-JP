@@ -67,11 +67,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ビジネスが[一般データ保護規則](../getting-started/compliance-gdpr.md)や[Google州消費者プライバシー法](../getting-started/compliance-ccpa.md)などのプライバシー規制の対象となる場合は、[ カリフォルニア州プライバシー設定](google-tools.md#google-privacy-settings)を参照してください。
+>ビジネスが[一般データ保護規則](../getting-started/compliance-gdpr.md)や[Google州消費者プライバシー法](../getting-started/compliance-ccpa.md)などのプライバシー規制の対象となる場合は、[&#x200B; カリフォルニア州プライバシー設定](google-tools.md#google-privacy-settings)を参照してください。
 
 ## 手順1: [!DNL Google Analytics] アカウントの設定
 
-開始に必要な基本については、Google ヘルプの「[ サイト検索の設定](https://support.google.com/analytics/answer/1012264)」を参照してください。 [Google Analytics](https://support.google.com/analytics/answer/9304153)および[Google Tag Manager](https://support.google.com/tagmanager/answer/6102821)のGoogle ガイドも参照してください。
+開始に必要な基本については、Google ヘルプの「[&#x200B; サイト検索の設定](https://support.google.com/analytics/answer/1012264)」を参照してください。 [Google Analytics](https://support.google.com/analytics/answer/9304153)および[Google Tag Manager](https://support.google.com/tagmanager/answer/6102821)のGoogle ガイドも参照してください。
 
 1. [!DNL Google Analytics] アカウントにログインします。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Property Settings]**&#x200B;を選択してください。
 
-   - _[!UICONTROL Advertising Features]_で、**[!UICONTROL Enable Demographics and Interest Reports]**を`On`に設定します。
+   - _[!UICONTROL Advertising Features]_&#x200B;で、**[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;を`On`に設定します。
 
    - **[!UICONTROL Save]**&#x200B;設定。
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->詳しくは、「[ コンテナの書き出しと読み込み](https://support.google.com/tagmanager/answer/6106997)」のGoogleを参照してください。 これらの手順では、サンプル JSONを新しいコンテナにインポートするための手順を説明します。
+>詳しくは、「[&#x200B; コンテナの書き出しと読み込み](https://support.google.com/tagmanager/answer/6106997)」のGoogleを参照してください。 これらの手順では、サンプル JSONを新しいコンテナにインポートするための手順を説明します。
 
 1. リンクされたファイル [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt)をダウンロードし、エディターでファイルを開いて`GTM_M2_Config.json`として保存します。
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 
 1. Commerce ストアの管理者にログインします。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Google API]**&#x200B;を選択します。
 
@@ -215,7 +215,7 @@ Google AdWords アカウントをお持ちの場合は、コンバージョン�
    - コンバージョン ID
    - コンバージョンラベル
 
-   サポートが必要な場合は、Googleの[ サポートサイト ](https://support.google.com/tagmanager/answer/6105160)にアクセスしてください。
+   サポートが必要な場合は、Googleの[&#x200B; サポートサイト &#x200B;](https://support.google.com/tagmanager/answer/6105160)にアクセスしてください。
 
 1. [!DNL Google Tag Manager] ダッシュボードで、**[!UICONTROL Google AdWords]**&#x200B;をクリックし、次の操作を行います。
 
@@ -223,7 +223,7 @@ Google AdWords アカウントをお持ちの場合は、コンバージョン�
 
    - **[!UICONTROL Choose Product]**&#x200B;で、**[!UICONTROL Google AdWords]**&#x200B;を選択します。
 
-   - _[!UICONTROL Choose a Tag Type]_で「**[!UICONTROL AdWords Conversion Tracking]**」を選択し、「**[!UICONTROL Continue]**」をクリックします。
+   - _[!UICONTROL Choose a Tag Type]_&#x200B;で「**[!UICONTROL AdWords Conversion Tracking]**」を選択し、「**[!UICONTROL Continue]**」をクリックします。
 
 1. AdWords アカウントから&#x200B;**[!UICONTROL Conversion ID]**&#x200B;と&#x200B;**[!UICONTROL Conversion Label]**&#x200B;を入力し、**[!UICONTROL Continue]**&#x200B;をクリックします。
 
@@ -257,7 +257,7 @@ Google AdWords アカウントをお持ちの場合は、コンバージョン�
 
 ## JavaScriptを使用したカスタム HTML タグ
 
-この節では、チェックアウトページで実行するカスタム HTML タグ JavaScriptにCSP Nonceを追加し、Content Security Policy （CSP）要件への準拠を確保する方法について説明します。 これにより、不正なスクリプトの実行を防止することで、サイトのセキュリティを強化できます。 詳しくは、[ コンテンツセキュリティポリシー](https://developer.adobe.com/commerce/php/development/security/content-security-policies)のドキュメントを参照してください。
+この節では、チェックアウトページで実行するカスタム HTML タグ JavaScriptにCSP Nonceを追加し、Content Security Policy （CSP）要件への準拠を確保する方法について説明します。 これにより、不正なスクリプトの実行を防止することで、サイトのセキュリティを強化できます。 詳しくは、[&#x200B; コンテンツセキュリティポリシー](https://developer.adobe.com/commerce/php/development/security/content-security-policies)のドキュメントを参照してください。
 
 >[!NOTE]
 >
@@ -305,4 +305,4 @@ CSP Nonce変数は、サンプルコンテナ [GTM_M2_Config_json.txt](./assets/
 1. 「**サポート document.write**」を選択します。
 1. 「**トリガー**」セクションで、目的のトリガーを選択します。 例えば、**同意初期化 – すべてのページ**&#x200B;です。
 
-Google Tag Managerの[ タグ ](https://support.google.com/tagmanager/answer/3281060)について詳しくは、Google ドキュメントの[ カスタムタグ ](https://support.google.com/tagmanager/answer/6107167)を参照してください。
+Google Tag Managerの[&#x200B; タグ &#x200B;](https://support.google.com/tagmanager/answer/3281060)について詳しくは、Google ドキュメントの[&#x200B; カスタムタグ &#x200B;](https://support.google.com/tagmanager/answer/6107167)を参照してください。

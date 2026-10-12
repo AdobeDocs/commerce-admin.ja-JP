@@ -40,15 +40,15 @@ Adobe CommerceとMagento Open Sourceをインストールするたびに、web �
 
 >[!NOTE]
 >
->詳しくは、[!DNL Commerce]開発者ドキュメントの[複数のweb サイトまたはストア ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)を参照してください。
+>詳しくは、[!DNL Commerce]開発者ドキュメントの[複数のweb サイトまたはストア &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)を参照してください。
 
 ## web サイト
 
-インストールは、デフォルトで&#x200B;_メイン Web サイト_&#x200B;と呼ばれる1つの[web サイト ](../stores-purchase/stores.md#add-websites)から始まります。 また、1つのインストール用に複数のweb サイトを設定し、それぞれに独自のIP アドレスとドメインを設定することもできます。
+インストールは、デフォルトで&#x200B;_メイン Web サイト_&#x200B;と呼ばれる1つの[web サイト &#x200B;](../stores-purchase/stores.md#add-websites)から始まります。 また、1つのインストール用に複数のweb サイトを設定し、それぞれに独自のIP アドレスとドメインを設定することもできます。
 
 ## 店舗
 
-1つのweb サイトに複数の[ ストア ](../stores-purchase/stores.md#add-stores)を含めることができ、それぞれにメインメニューが用意されています。 ストアは商品カタログを共有しますが、商品とデザインの選択肢が異なる場合があります。 同じweb サイトのすべてのストアで、管理者とチェックアウトが共有されます。
+1つのweb サイトに複数の[&#x200B; ストア &#x200B;](../stores-purchase/stores.md#add-stores)を含めることができ、それぞれにメインメニューが用意されています。 ストアは商品カタログを共有しますが、商品とデザインの選択肢が異なる場合があります。 同じweb サイトのすべてのストアで、管理者とチェックアウトが共有されます。
 
 ## ストアビュー
 
@@ -67,9 +67,9 @@ web サイト、ストア、ストアビューを使用する場合は、次の�
 
 Adobe CommerceまたはMagento Open Sourceのインストール環境にweb サイト、ストア、またはビューの階層がある場合は、コンテクストまたは構成設定の&#x200B;_スコープ_&#x200B;を設定できます。 多くのデータベースエンティティのコンテキストには、ストア階層での使用方法を決定するために特定のスコープを割り当てることもできます。 詳しくは、[製品範囲](../catalog/introduction.md#product-scope)および[価格範囲](../catalog/catalog-price-scope.md)を参照してください。
 
-郵便番号などの一部の設定設定では、システム全体で同じ値が使用されるため、グローバルスコープがあります。 [web サイト ](../stores-purchase/stores.md#add-websites)の範囲は、すべてのストアとそのビューを含め、階層のそのレベルより下のストアに適用されます。 [ ストアビュー](../stores-purchase/store-views.md)の範囲を持つアイテムは、各ストアビューに対して異なる設定できます。これは、通常、複数の言語をサポートするために使用されます。 構成設定のデフォルト値を上書きするには、[ スコープの設定](../configuration-reference/scope-change.md#set-the-scope)を参照してください。
+郵便番号などの一部の設定設定では、システム全体で同じ値が使用されるため、グローバルスコープがあります。 [web サイト &#x200B;](../stores-purchase/stores.md#add-websites)の範囲は、すべてのストアとそのビューを含め、階層のそのレベルより下のストアに適用されます。 [&#x200B; ストアビュー](../stores-purchase/store-views.md)の範囲を持つアイテムは、各ストアビューに対して異なる設定できます。これは、通常、複数の言語をサポートするために使用されます。 構成設定のデフォルト値を上書きするには、[&#x200B; スコープの設定](../configuration-reference/scope-change.md#set-the-scope)を参照してください。
 
-ストアが[単一ストアモード ](#single-store-mode)で実行されていない限り、各構成設定の範囲は、フィールドラベルの下の小さなテキストで表示されます。 インストールに複数のweb サイト、ストア、またはビューが含まれる場合は、設定が適用される[ ストアビュー](../stores-purchase/store-views.md)を選択してから変更を行います。
+ストアが[単一ストアモード &#x200B;](#single-store-mode)で実行されていない限り、各構成設定の範囲は、フィールドラベルの下の小さなテキストで表示されます。 インストールに複数のweb サイト、ストア、またはビューが含まれる場合は、設定が適用される[&#x200B; ストアビュー](../stores-purchase/store-views.md)を選択してから変更を行います。
 
 ![Web サイト、ストア、ストアビューの階層](./assets/scope-multisite.svg){width="550"}
 
@@ -84,11 +84,11 @@ Adobe CommerceまたはMagento Open Sourceのインストール環境にweb サ�
 
 ## シングルストアモード
 
-Commerceのインストールでストアビューとストアビューが1つしかない場合は、すべてのストアビューオプションとスコープ指標をオフにすることで、表示を簡単に表示できます。 後で[ ストアビューを追加](../stores-purchase/store-views.md)した場合、単一ストアモードは上書きされます。
+Commerceのインストールでストアビューとストアビューが1つしかない場合は、すべてのストアビューオプションとスコープ指標をオフにすることで、表示を簡単に表示できます。 後で[&#x200B; ストアビューを追加](../stores-purchase/store-views.md)した場合、単一ストアモードは上書きされます。
 
-![ スコープ – シングルビュー](./assets/scope-single-view.svg){width="550"}
+![&#x200B; スコープ – シングルビュー](./assets/scope-single-view.svg){width="550"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. **[!UICONTROL General]**&#x200B;で、ページの一番下までスクロールして、**[!UICONTROL Single-Store Mode]** セクションを展開します。
 
@@ -102,7 +102,7 @@ Commerceのインストールでストアビューとストアビューが1つ�
 
    - ページの上部にあるシステムメッセージの&#x200B;**[!UICONTROL Cache Management]** リンクをクリックします。
 
-     ![ システムメッセージ – キャッシュ管理](../catalog/assets/msg-cache-management.png){width="600" zoomable="yes"}
+     ![&#x200B; システムメッセージ – キャッシュ管理](../catalog/assets/msg-cache-management.png){width="600" zoomable="yes"}
 
    - 「**[!UICONTROL Page Cache]**」チェックボックスを選択します。
 

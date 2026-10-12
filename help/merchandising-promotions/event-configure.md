@@ -47,13 +47,13 @@ ht-degree: 0%
 
 ## イベントの有効化と設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
 1. **[!UICONTROL Catalog Events]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
-   ![ カタログ設定 – カタログイベント ](../configuration-reference/catalog/assets/catalog-events.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ設定 – カタログイベント &#x200B;](../configuration-reference/catalog/assets/catalog-events.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Enable Catalog Events Functionality]**&#x200B;を`Yes`に設定します。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 ![一般設定 – web サイトの制限](../configuration-reference/general/assets/general-website-restrictions.png){width="600" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL General]**」を展開し、下の「**[!UICONTROL General]**」を選択します。
 
@@ -117,6 +117,6 @@ ht-degree: 0%
 
 ### 販売制限
 
-デフォルトでは、今後のイベントまたはクローズドイベントに表示される製品は一般販売には使用できず、製品リストまたは製品ページに&#x200B;_[!UICONTROL Add to Cart]_ボタンは表示されません。
+デフォルトでは、今後のイベントまたはクローズドイベントに表示される製品は一般販売には使用できず、製品リストまたは製品ページに&#x200B;_[!UICONTROL Add to Cart]_&#x200B;ボタンは表示されません。
 
-クローズしたイベントの&#x200B;_[!UICONTROL Add to Cart]_ボタンを復元するには、イベントを削除する必要があります（[ イベントの更新](event-create.md#update-events)を参照）。 ただし、製品が販売制限のない別のカテゴリに関連付けられている場合、そのボタンは製品ページで使用できます。 同様に、商品が販売制限のない別のカテゴリに関連付けられている場合、商品ページにティッカーブロックは表示されません。
+クローズしたイベントの&#x200B;_[!UICONTROL Add to Cart]_&#x200B;ボタンを復元するには、イベントを削除する必要があります（[&#x200B; イベントの更新](event-create.md#update-events)を参照）。 ただし、製品が販売制限のない別のカテゴリに関連付けられている場合、そのボタンは製品ページで使用できます。 同様に、商品が販売制限のない別のカテゴリに関連付けられている場合、商品ページにティッカーブロックは表示されません。

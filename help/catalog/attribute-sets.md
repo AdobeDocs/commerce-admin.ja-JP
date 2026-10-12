@@ -38,11 +38,11 @@ ht-degree: 0%
 
 属性は、商品レコードのどこに表示されるかを決定するグループに整理されます。 ストアには、一般的に使用される属性のセットを含む初期属性セット（_default_&#x200B;と呼ばれます）が付属しています。 一部の属性のみを追加する場合は、これらの属性をこのデフォルトの属性セットに追加できます。 特定の種類の情報を必要とする製品を販売する場合は、製品に必要な特定の属性を含む専用の属性セットを作成することをお勧めします。
 
-![属性セット ](./assets/attribute-sets.png){width="700" zoomable="yes"}
+![属性セット &#x200B;](./assets/attribute-sets.png){width="700" zoomable="yes"}
 
 ## 属性セットの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**&#x200B;に移動します。
 
 1. **[!UICONTROL Add New Set]**&#x200B;をクリックします。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >システム属性はドットでマークされ、_[!UICONTROL Groups]_リストから削除できません。 ただし、属性セット内の別のグループにドラッグすることもできます。
+   >システム属性はドットでマークされ、_[!UICONTROL Groups]_&#x200B;リストから削除できません。 ただし、属性セット内の別のグループにドラッグすることもできます。
 
 1. 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ## 属性グループの作成
 
-1. 属性セットの&#x200B;_[!UICONTROL Groups]_列で、**[!UICONTROL Add New]**をクリックします。
+1. 属性セットの&#x200B;_[!UICONTROL Groups]_&#x200B;列で、**[!UICONTROL Add New]**&#x200B;をクリックします。
 
 1. 新しいグループの&#x200B;**[!UICONTROL Name]**&#x200B;を入力し、**[!UICONTROL OK]**&#x200B;をクリックします。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 ## 属性セットの削除
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**&#x200B;に移動します。
 
 1. リストで属性セットを選択し、編集モードで開きます。
 

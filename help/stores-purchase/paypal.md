@@ -41,7 +41,7 @@ ht-degree: 0%
 ---
 # PayPal決済ソリューション
 
-PayPalは、オンライン決済の世界的なリーダーであり、顧客がオンラインで決済するための迅速かつ安全な方法です。 利用可能なPayPal ソリューションの選択は、加盟店の場所によって異なります。 PayPal Express CheckoutとPayPal Payments Standardは、世界中のあらゆる場所で利用できます。 詳しくは、[国別のPayPal ソリューション ](#paypal-solutions-by-country)を参照してください。
+PayPalは、オンライン決済の世界的なリーダーであり、顧客がオンラインで決済するための迅速かつ安全な方法です。 利用可能なPayPal ソリューションの選択は、加盟店の場所によって異なります。 PayPal Express CheckoutとPayPal Payments Standardは、世界中のあらゆる場所で利用できます。 詳しくは、[国別のPayPal ソリューション &#x200B;](#paypal-solutions-by-country)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ PayPalは、オンライン決済の世界的なリーダーであり、顧客�
 
 ## PayPal法人向けアカウント
 
-PayPalをストアの支払い方法として提供するには、PayPal [法人向けアカウント ](https://manager.paypal.com/)または[PayPal Payflow アカウント ](https://developer.paypal.com/docs/payflow/payflow-gateway/)が必要です。 アカウント要件は、各PayPal ソリューションの説明で指定されています。 PayPal加盟店アカウントは、ストアからの購入に適用される[詐欺フィルター](#paypal-fraud-management-filters)を管理するためにも使用されます。
+PayPalをストアの支払い方法として提供するには、PayPal [法人向けアカウント &#x200B;](https://manager.paypal.com/)または[PayPal Payflow アカウント &#x200B;](https://developer.paypal.com/docs/payflow/payflow-gateway/)が必要です。 アカウント要件は、各PayPal ソリューションの説明で指定されています。 PayPal加盟店アカウントは、ストアからの購入に適用される[詐欺フィルター](#paypal-fraud-management-filters)を管理するためにも使用されます。
 
 PayPal Express CheckoutまたはExpress Checkout for Payflow Proをご利用のお客様は、PayPalのバイヤーアカウントをお持ちである必要があります。 PayPal Payments Standard （一部の国ではWeb サイトの支払い標準）は、加盟店が&#x200B;_PayPal アカウント オプション_&#x200B;を有効にしている場合に、直接または購入者アカウントを通じて使用できます。 デフォルトでは、このパラメーターは有効になっているので、顧客はクレジットカード情報を入力するか、PayPalでバイヤーアカウントを作成するかを選択できます。 無効にした場合、お客様は購入する前にPayPal購入者アカウントを作成する必要があります。
 
@@ -58,7 +58,7 @@ Website Payments Pro、Website Payments Pro Payflow Edition、Payflow Pro Gatewa
 
 ## PayPal CreditとPayLater
 
-PayPal PayLaterは、顧客に融資への迅速なアクセスを提供するため、顧客は今すぐ購入し、追加費用なしで長期的に支払うことができます。 お客様がPayPal Credit オプションを選択した場合、お客様は請求されず、通常のPayPal取引手数料のみを支払います。 詳しくは、[PayPal web サイト ](https://www.paypal.com/us/business/buy-now-pay-later)を参照してください。
+PayPal PayLaterは、顧客に融資への迅速なアクセスを提供するため、顧客は今すぐ購入し、追加費用なしで長期的に支払うことができます。 お客様がPayPal Credit オプションを選択した場合、お客様は請求されず、通常のPayPal取引手数料のみを支払います。 詳しくは、[PayPal web サイト &#x200B;](https://www.paypal.com/us/business/buy-now-pay-later)を参照してください。
 
 ファイナンスを広告する際に売上を向上させます。 PayPal PayLaterは、PayPal PayLaterを利用して、ブラウザーを購入者に変えるのに役立ちます。 顧客は時間の経過とともに支払いを受けます。前払いは発生しますが、追加費用は発生しません。 PayPalの無料バナー広告を使用して、顧客がPayPalにチェックアウトした際の支払いオプションとしてPayPalの支払いを宣伝することができます。 PayPal Advertisingプログラムは、追加購入を生み出し、平均購入額を15%以上増加させています。
 
@@ -102,7 +102,7 @@ PayPalとAdobe Commerceを利用すれば、主要なデビットカードやク
 - [PayPal Payments Pro](paypal-payments-pro.md)
 - [PayPal Payments Standard](paypal-payments-standard.md)
 
-![PayPal オールインワン決済ソリューション ](./assets/paypal-all-in-one.png){width="600" zoomable="yes"}
+![PayPal オールインワン決済ソリューション &#x200B;](./assets/paypal-all-in-one.png){width="600" zoomable="yes"}
 
 ### PayPal支払いゲートウェイ
 
@@ -131,7 +131,7 @@ PayPalの不正管理フィルターを利用すれば、不正な取引の発�
 | アクション | 結果 |
 | --- | --- |
 | [!UICONTROL Review] | 疑わしい注文は、注文が行われたときにステータス _支払いレビュー_&#x200B;を受け取ります。 注文を確認して承認するか、管理者またはPayPal側で支払いをキャンセルできます。 **[!UICONTROL Accept Payment]**&#x200B;または&#x200B;**[!UICONTROL Deny Payment]**&#x200B;をクリックすると、注文の新しいトランザクションは作成されません。 <br/><br/>PayPal サイトでトランザクションのステータスを変更する場合は、管理者の注文ページで「**[!UICONTROL Get Payment Update]**」をクリックして変更を適用する必要があります。 **[!UICONTROL Accept Payment]**&#x200B;または&#x200B;**[!UICONTROL Deny Payment]**&#x200B;をクリックすると、PayPal サイトで行われた変更が適用されます。 |
-| [!UICONTROL Deny] | 対応するトランザクションがPayPalによって拒否されるので、疑わしい注文は顧客によって行われません。 <br/><br/>管理者からの支払いを拒否するには、ページの右上隅にある「**[!UICONTROL Deny Payment]**」をクリックします。 注文ステータスが`Canceled`に変更され、トランザクションが元に戻され、顧客アカウントで資金が解放されます。 対応する情報は、注文ビューの&#x200B;_[!UICONTROL Comments History]_セクションに追加されます。 |
+| [!UICONTROL Deny] | 対応するトランザクションがPayPalによって拒否されるので、疑わしい注文は顧客によって行われません。 <br/><br/>管理者からの支払いを拒否するには、ページの右上隅にある「**[!UICONTROL Deny Payment]**」をクリックします。 注文ステータスが`Canceled`に変更され、トランザクションが元に戻され、顧客アカウントで資金が解放されます。 対応する情報は、注文ビューの&#x200B;_[!UICONTROL Comments History]_&#x200B;セクションに追加されます。 |
 | [!UICONTROL Flag] | 疑わしい注文は、配置時にステータス `Processing`を取得します。 対応するトランザクションには、加盟店アカウントトランザクションのリストにフラグが付けられます。 |
 
 {style="table-layout:auto"}

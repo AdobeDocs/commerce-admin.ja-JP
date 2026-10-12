@@ -35,13 +35,13 @@ ht-degree: 4%
 ---
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-ストアをAdobe Commerce サービスに接続する方法については、[Commerce サービス ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas)を参照してください。
+ストアをAdobe Commerce サービスに接続する方法については、[Commerce サービス &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas)を参照してください。
 
 {{config}}
 
 ## [!UICONTROL Sandbox API Keys]
 
-![ サンドボックス API キー](./assets/sandbox-key-saas-configuration.png)<!-- zoom -->
+![&#x200B; サンドボックス API キー](./assets/sandbox-key-saas-configuration.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -68,7 +68,7 @@ ht-degree: 4%
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Project] | グローバル | すべてのSaaS データスペースをグループ化するSaaS プロジェクトの名前。 SaaS プロジェクトが存在しない場合、「_プロジェクトを作成_」ボタンが表示されます。 |
-| [!UICONTROL Data Space] | グローバル | 指定したSaaS プロジェクト内のSaaS データスペースを一覧表示します。 SaaS データスペースの数は、[Commerce ライセンス ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas):<br />Adobe Commerce - 1つの実稼動データスペース、2つのテスト データスペース、<br />Magento Open Source - 1つの実稼動データスペース、テスト データスペースなしによって異なります |
+| [!UICONTROL Data Space] | グローバル | 指定したSaaS プロジェクト内のSaaS データスペースを一覧表示します。 SaaS データスペースの数は、[Commerce ライセンス &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas):<br />Adobe Commerce - 1つの実稼動データスペース、2つのテスト データスペース、<br />Magento Open Source - 1つの実稼動データスペース、テスト データスペースなしによって異なります |
 
 {style="table-layout:auto"}
 

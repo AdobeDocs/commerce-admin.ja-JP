@@ -36,17 +36,17 @@ ht-degree: 0%
 
 手動の&#x200B;_利用条件_&#x200B;機能が有効になっている場合、購入が確定する前に、お客様は販売の利用条件に同意する必要があります。 本販売条件には、通常、B2CまたはB2B サイトに関して法律で要求される可能性のある開示情報が含まれており、購入者および販売者の権利の概要が記載されています。 利用条件メッセージは、支払い情報の後、_注文を完了_ ボタンの直前に表示されます。
 
-![ チェックアウト時の利用条件](./assets/storefront-checkout-step2-terms-conditions.png){width="700" zoomable="yes"}
+![&#x200B; チェックアウト時の利用条件](./assets/storefront-checkout-step2-terms-conditions.png){width="700" zoomable="yes"}
 
 ## ステップ 1：チェックアウトの利用条件を有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Checkout]**&#x200B;を選択します。
 
 1. **[!UICONTROL Checkout Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ チェックアウトオプション ](../configuration-reference/sales/assets/checkout-checkout-options.png){width="600" zoomable="yes"}
+   ![&#x200B; チェックアウトオプション &#x200B;](../configuration-reference/sales/assets/checkout-checkout-options.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Enable Onepage Checkout]**&#x200B;が`Yes`に設定されていることを確認します。
 
@@ -56,9 +56,9 @@ ht-degree: 0%
 
 ## ステップ 2：独自の契約条件の情報を追加する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Terms and Conditions]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Terms and Conditions]**&#x200B;に移動します。
 
-   ![利用条件グリッド ](./assets/terms-conditions.png){width="600" zoomable="yes"}
+   ![利用条件グリッド &#x200B;](./assets/terms-conditions.png){width="600" zoomable="yes"}
 
 1. 右上隅の「**[!UICONTROL Add New Condition]**」をクリックします。
 

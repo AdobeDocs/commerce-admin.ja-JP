@@ -23,17 +23,17 @@ ht-degree: 0%
 ---
 # エディターでのリンクの挿入
 
-リンクを挿入する簡単な方法は、[ エディター](editor.md) ツールバーの&#x200B;_リンク_ ボタンを使用することです。 HTMLに関する知識は必要なく、結果は同じです。
+リンクを挿入する簡単な方法は、[&#x200B; エディター](editor.md) ツールバーの&#x200B;_リンク_ ボタンを使用することです。 HTMLに関する知識は必要なく、結果は同じです。
 
 1. リンクを作成するテキストを選択します。
 
 1. エディターツールバーの「_リンクを挿入/編集_」アイコンをクリックします。
 
-   ![ エディターツールバー – リンクを挿入](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
+   ![&#x200B; エディターツールバー – リンクを挿入](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
-   このアクションにより、_[!UICONTROL Insert link]_ダイアログが開きます。
+   このアクションにより、_[!UICONTROL Insert link]_&#x200B;ダイアログが開きます。
 
-   ![編集者 – リンクを挿入ダイアログ ](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
+   ![編集者 – リンクを挿入ダイアログ &#x200B;](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
 
 1. **[!UICONTROL Url]**&#x200B;に対して、次のいずれかを入力します。
 

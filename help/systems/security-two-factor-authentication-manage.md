@@ -58,19 +58,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->他のユーザーの2FA プロバイダーをリセットするには、`All`権限を持つ&#x200B;_管理者_&#x200B;であるか、[!UICONTROL System] > [!UICONTROL Permissions] > [!UICONTROL Two Factor Auth]および[!UICONTROL System] > [!UICONTROL Permissions] > [!UICONTROL All Users]を選択した役割に`Custom`権限が必要です。 詳しくは、[ ユーザーの役割](permissions-user-roles.md)を参照してください。
+>他のユーザーの2FA プロバイダーをリセットするには、`All`権限を持つ&#x200B;_管理者_&#x200B;であるか、[!UICONTROL System] > [!UICONTROL Permissions] > [!UICONTROL Two Factor Auth]および[!UICONTROL System] > [!UICONTROL Permissions] > [!UICONTROL All Users]を選択した役割に`Custom`権限が必要です。 詳しくは、[&#x200B; ユーザーの役割](permissions-user-roles.md)を参照してください。
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL All Users]**&#x200B;に移動します。
 
 1. ユーザーを選択し、アカウントを編集モードで開きます。
 
-1. _[!UICONTROL Current User Identity Verification]_セクションまでスクロールして、パスワードを入力します。
+1. _[!UICONTROL Current User Identity Verification]_&#x200B;セクションまでスクロールして、パスワードを入力します。
 
 1. 左側のパネルで、**[!UICONTROL 2FA]**&#x200B;をクリックします。
 
-1. _[!UICONTROL Configuration reset]_セクションで、**[!UICONTROL Reset]**と&#x200B;**[!UICONTROL OK]**をクリックして確定します。
+1. _[!UICONTROL Configuration reset]_&#x200B;セクションで、**[!UICONTROL Reset]**&#x200B;と&#x200B;**[!UICONTROL OK]**&#x200B;をクリックして確定します。
 
-   ![ ユーザーアカウント - 2FA](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}を有効にする
+   ![&#x200B; ユーザーアカウント - 2FA](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}を有効にする
 
    ユーザーが必要な2FA メソッドをアカウントに復元する場合は、_サインオン_ ページからそれぞれ再構成する必要があります。
 

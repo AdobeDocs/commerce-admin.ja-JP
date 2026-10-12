@@ -36,13 +36,13 @@ ht-degree: 0%
 
 アドレスブックを最新の状態に保っている顧客は、チェックアウトプロセスをスピードアップできます。 アドレス帳には、顧客のデフォルトの請求先住所と配送先住所、および顧客が頻繁に使用する追加の住所が含まれます。 追加のアドレス入力は、グリッドから簡単にアクセスして管理できます。 各顧客のアドレス帳は、パフォーマンスに影響を与えることなく、3,000を超えるアドレス帳エントリを管理できます。
 
-![ アドレス帳](assets/customer-account-dashboard-address-book.png){width="700" zoomable="yes"}
+![&#x200B; アドレス帳](assets/customer-account-dashboard-address-book.png){width="700" zoomable="yes"}
 
 ## アドレスを追加
 
 1. 顧客アカウントの左側のナビゲーションで、顧客は&#x200B;**[!UICONTROL Address Book]**&#x200B;を選択します。
 
-1. _追加アドレスのエントリ_&#x200B;の下の&#x200B;_[!UICONTROL Address Book]_ページで、**[!UICONTROL Add New Address]**をクリックします。
+1. _追加アドレスのエントリ_&#x200B;の下の&#x200B;_[!UICONTROL Address Book]_&#x200B;ページで、**[!UICONTROL Add New Address]**&#x200B;をクリックします。
 
    ![新しいアドレスを追加](assets/add-new-address.png){width="600" zoomable="yes"}
 
@@ -91,9 +91,9 @@ ht-degree: 0%
 
 1. 次のいずれかの編集方法を選択します。
 
-   * _[!UICONTROL Default Addresses]_セクションの&#x200B;**[!UICONTROL Change Billing/Shipping Address]**をクリックします。
+   * _[!UICONTROL Default Addresses]_&#x200B;セクションの&#x200B;**[!UICONTROL Change Billing/Shipping Address]**&#x200B;をクリックします。
 
-   * _[!UICONTROL Additional Address Entries]_グリッドの&#x200B;**[!UICONTROL Edit]**をクリックします。
+   * _[!UICONTROL Additional Address Entries]_&#x200B;グリッドの&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. 必要な変更を行い、**[!UICONTROL Save Address]**&#x200B;をクリックします。
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 1. 削除するアドレス エントリを検索します。
 
-1. _[!UICONTROL Additional Address Entries]_グリッドの&#x200B;**[!UICONTROL Delete]**をクリックします。
+1. _[!UICONTROL Additional Address Entries]_&#x200B;グリッドの&#x200B;**[!UICONTROL Delete]**&#x200B;をクリックします。
 
 1. アクションを確認するには、**[!UICONTROL OK]**&#x200B;をクリックします。
 

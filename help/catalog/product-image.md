@@ -42,7 +42,7 @@ ht-degree: 0%
 
 商品ごとに、複数の画像や動画をアップロードし、順序を並べ替え、それぞれの使用方法を制御できます。 大量の画像を管理する場合、それぞれを個別にアップロードするのではなく、バッチとしてインポートすることをお勧めします。 詳しくは、[製品画像の読み込み](../systems/data-import-product-images.md)を参照してください。
 
-_[!UICONTROL Product Details]_ページで表示するために大きな画像をアップロードする場合は、最大ピクセルサイズ（幅と高さ）を設定し、アップロード時にファイルのサイズを自動的に変更することをお勧めします。 アップロード時に大きな画像ファイルのサイズ変更を自動的に有効にするオプションがあります。 詳しくは、[製品画像のサイズ変更](product-image-config.md#product-image-resizing)を参照してください。
+_[!UICONTROL Product Details]_&#x200B;ページで表示するために大きな画像をアップロードする場合は、最大ピクセルサイズ（幅と高さ）を設定し、アップロード時にファイルのサイズを自動的に変更することをお勧めします。 アップロード時に大きな画像ファイルのサイズ変更を自動的に有効にするオプションがあります。 詳しくは、[製品画像のサイズ変更](product-image-config.md#product-image-resizing)を参照してください。
 
 ## 製品画像の更新
 
@@ -54,7 +54,7 @@ _[!UICONTROL Product Details]_ページで表示するために大きな画像�
    >
    >`All Store Views` スコープがアップロードに使用されていない場合でも、新しい製品画像は&#x200B;**_常に_** アップロードされ、**_すべて_**&#x200B;のストアビューに表示されます。 <br/><br/>特定のストアビューから製品画像を非表示にするには、そのストアビューに切り替え、画像の「**[!UICONTROL Hide from Product Page]**」チェックボックスを選択して「**[!UICONTROL Save]**」をクリックする必要があります。
 
-1. 下にスクロールして、_[!UICONTROL Images and Videos]_セクションを展開します。
+1. 下にスクロールして、_[!UICONTROL Images and Videos]_&#x200B;セクションを展開します。
 
 ### 画像をアップロード
 
@@ -64,21 +64,21 @@ _[!UICONTROL Product Details]_ページで表示するために大きな画像�
 
 画像をアップロードするには、次のいずれかの操作を行います。
 
-- 画像をデスクトップからドラッグし、_[!UICONTROL Images And Videos]_ボックスの_ カメラ _（![ カメラアイコン ](../assets/icon-camera.png)）タイルにドロップします。
+- 画像をデスクトップからドラッグし、_[!UICONTROL Images And Videos]_&#x200B;ボックスの_ カメラ _（![&#x200B; カメラアイコン &#x200B;](../assets/icon-camera.png)）タイルにドロップします。
 
-- _[!UICONTROL Images And Videos]_ボックスで、_ カメラ _（![ カメラアイコン ](../assets/icon-camera.png)）タイルをクリックし、コンピューター上の画像ファイルを選択して、**[!UICONTROL Open]**をクリックします。
+- _[!UICONTROL Images And Videos]_&#x200B;ボックスで、_ カメラ _（![&#x200B; カメラアイコン &#x200B;](../assets/icon-camera.png)）タイルをクリックし、コンピューター上の画像ファイルを選択して、**[!UICONTROL Open]**&#x200B;をクリックします。
 
-  ![ アップロードまたはドラッグ&amp;ドロップ ](./assets/product-images-and-video-jewel-tee.png){width="600" zoomable="yes"}
+  ![&#x200B; アップロードまたはドラッグ&amp;ドロップ &#x200B;](./assets/product-images-and-video-jewel-tee.png){width="600" zoomable="yes"}
 
 ### 画像の配置を変更
 
-ギャラリー内の画像の順序を変更するには、画像タイルの下部にある&#x200B;_[!UICONTROL Sort]_（![並べ替えアイコン ](./assets/inventory-icon-sort.png)）アイコンをクリックし、画像を_[!UICONTROL Images And Videos]_ ボックス内の別の位置にドラッグします。
+ギャラリー内の画像の順序を変更するには、画像タイルの下部にある&#x200B;_[!UICONTROL Sort]_（![並べ替えアイコン &#x200B;](./assets/inventory-icon-sort.png)）アイコンをクリックし、画像を&#x200B;_[!UICONTROL Images And Videos]_ ボックス内の別の位置にドラッグします。
 
 ![変更依頼](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
 ### 画像の削除
 
-ギャラリーから画像を削除するには、画像タイルの右上隅にある&#x200B;**[!UICONTROL Delete]** （![ごみ箱アイコン ](../assets/icon-delete-trashcan.png)）アイコンをクリックし、**[!UICONTROL Save]**&#x200B;をクリックします。
+ギャラリーから画像を削除するには、画像タイルの右上隅にある&#x200B;**[!UICONTROL Delete]** （![ごみ箱アイコン &#x200B;](../assets/icon-delete-trashcan.png)）アイコンをクリックし、**[!UICONTROL Save]**&#x200B;をクリックします。
 
 ### 画像の詳細を設定
 
@@ -86,7 +86,7 @@ _[!UICONTROL Product Details]_ページで表示するために大きな画像�
 
 ![画像の詳細ビュー](./assets/product-image-detail-jewel-tee.png){width="600" zoomable="yes"}
 
-詳細ビューを閉じるには、右上隅の&#x200B;_閉じる_ （![閉じるアイコン ](../assets/icon-close-x.png)）アイコンをクリックします。
+詳細ビューを閉じるには、右上隅の&#x200B;_閉じる_ （![閉じるアイコン &#x200B;](../assets/icon-close-x.png)）アイコンをクリックします。
 
 完了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -100,7 +100,7 @@ _[!UICONTROL Product Details]_ページで表示するために大きな画像�
 
 デフォルトでは、すべての役割は、製品にアップロードされる最初の画像に割り当てられます。 役割を別の画像に再割り当てするには、次の操作を行います。
 
-_[!UICONTROL Role]_ボックスで、画像に割り当てる役割を選択します。
+_[!UICONTROL Role]_&#x200B;ボックスで、画像に割り当てる役割を選択します。
 
 _画像とビデオ_ セクションに戻ると、現在割り当てられている役割が各画像の下に表示されます。
 
@@ -114,11 +114,11 @@ _画像とビデオ_ セクションに戻ると、現在割り当てられて�
 
 ## ストアビューレベルでの画像とビデオの管理
 
-**[!UICONTROL Store View]** セレクターを特定のストアビュー（**[!UICONTROL All Store Views]**&#x200B;ではなく）に切り替えると、_[!UICONTROL Images and Videos]_セクションには、デフォルトの範囲に影響を与えることなく、そのストアビューに対する画像の表示方法を管理するための追加コントロールが用意されています。
+**[!UICONTROL Store View]** セレクターを特定のストアビュー（**[!UICONTROL All Store Views]**&#x200B;ではなく）に切り替えると、_[!UICONTROL Images and Videos]_&#x200B;セクションには、デフォルトの範囲に影響を与えることなく、そのストアビューに対する画像の表示方法を管理するための追加コントロールが用意されています。
 
 ### ストアビューの画像の並べ替え
 
-ストアビュースコープで作業する場合、_[!UICONTROL Images and Videos]_ボックスの下に&#x200B;**[!UICONTROL Use Default Order]**チェックボックスが表示されます。 このチェックボックスをオンにすると、画像の表示順序がデフォルトの範囲で定義された順序に戻ります。
+ストアビュースコープで作業する場合、_[!UICONTROL Images and Videos]_&#x200B;ボックスの下に&#x200B;**[!UICONTROL Use Default Order]**&#x200B;チェックボックスが表示されます。 このチェックボックスをオンにすると、画像の表示順序がデフォルトの範囲で定義された順序に戻ります。
 
 ![画像とビデオ – ストアビュー](./assets/product-images-and-videos-rearrange-store-scope.png){width="600" zoomable="yes"}
 
@@ -135,7 +135,7 @@ _画像とビデオ_ セクションに戻ると、現在割り当てられて�
 | [!UICONTROL Thumbnail] | サムネール画像は、サムネールギャラリー、ショッピングカート、および関連項目などの一部のブロックに表示されます。 例サイズ：50 x 50 ピクセル |
 | [!UICONTROL Small Image] | 小さい画像は、カテゴリおよび検索結果ページのリストの製品画像に使用され、アップセル、クロスセル、新製品リストなどのセクションに必要な製品画像を表示します。 例サイズ：470 x 470 ピクセル |
 | [!UICONTROL Base Image] | ベース画像は、商品詳細ページのメイン画像です。 画像コンテナよりも大きい画像をアップロードすると、画像ズームがアクティブになります。 取得するズームレベルに応じて、ベース画像はコンテナの2～3倍のサイズにする必要があります。 例サイズ：470 x 470 ピクセル（ズームなし）、1100 x 1100 ピクセル（ズームあり） |
-| [!UICONTROL Swatch] | [ スウォッチ ](swatches.md)を使用して、カラー、パターン、テクスチャを示すことができます。 例サイズ：50 x 50 ピクセル |
+| [!UICONTROL Swatch] | [&#x200B; スウォッチ &#x200B;](swatches.md)を使用して、カラー、パターン、テクスチャを示すことができます。 例サイズ：50 x 50 ピクセル |
 
 {style="table-layout:auto"}
 
@@ -149,26 +149,26 @@ _画像とビデオ_ セクションに戻ると、現在割り当てられて�
 - 不透明度：5
 - 位置：タイル
 
-![ タイル透かし](./assets/storefront-watermark-tiled.png){width="700" zoomable="yes"}
+![&#x200B; タイル透かし](./assets/storefront-watermark-tiled.png){width="700" zoomable="yes"}
 
 ### 商品画像への透かしの追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-   デザイン設定について詳しくは、[ デザイン設定](../content-design/configuration.md)を参照してください。
+   デザイン設定について詳しくは、[&#x200B; デザイン設定](../content-design/configuration.md)を参照してください。
 
-1. 設定するストアビューを見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
+1. 設定するストアビューを見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. _[!UICONTROL Other Settings]_で、**[!UICONTROL Product Image Watermarks]**セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
+1. _[!UICONTROL Other Settings]_&#x200B;で、**[!UICONTROL Product Image Watermarks]**&#x200B;セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![製品画像の透かし – ベース ](./assets/config-design-product-image-watermarks-base.png){width="600" zoomable="yes"}
+   ![製品画像の透かし – ベース &#x200B;](./assets/config-design-product-image-watermarks-base.png){width="600" zoomable="yes"}
 
    **[!UICONTROL Base]**、**[!UICONTROL Thumbnail]**、**[!UICONTROL Small]**&#x200B;および&#x200B;**[!UICONTROL Swatch Image]**&#x200B;の画像設定は同じです。
 
 1. 次のいずれかの方法を使用して、透かし画像アセットを追加します。
 
    - **[!UICONTROL Upload]**&#x200B;をクリックし、透かしとして使用するためにアップロードするシステム上の画像ファイルを選択します。
-   - **[!UICONTROL Select from Gallery]**&#x200B;をクリックし、[ メディアギャラリー](../content-design/media-gallery.md)から画像アセットを選択します。
+   - **[!UICONTROL Select from Gallery]**&#x200B;をクリックし、[&#x200B; メディアギャラリー](../content-design/media-gallery.md)から画像アセットを選択します。
 
 1. 透かし表示の設定を完了します。
 
@@ -182,7 +182,7 @@ _画像とビデオ_ セクションに戻ると、現在割り当てられて�
 
 1. キャッシュの更新を求めるメッセージが表示されたら、システムメッセージの「**[!UICONTROL Cache Management]**」をクリックし、無効なキャッシュを更新します。
 
-   ![ キャッシュの更新](./assets/msg-cache-management.png){width="600" zoomable="yes"}
+   ![&#x200B; キャッシュの更新](./assets/msg-cache-management.png){width="600" zoomable="yes"}
 
 >[!TIP]
 >
@@ -190,7 +190,7 @@ _画像とビデオ_ セクションに戻ると、現在割り当てられて�
 
 ### 透かしを削除
 
-1. 画像の左下隅で、**[!UICONTROL Delete]** （![ごみ箱アイコン ](../assets/icon-delete-trashcan-solid.png)）アイコンをクリックします。
+1. 画像の左下隅で、**[!UICONTROL Delete]** （![ごみ箱アイコン &#x200B;](../assets/icon-delete-trashcan-solid.png)）アイコンをクリックします。
 
    ![透かしを削除](./assets/product-image-watermark-delete.png){width="300"}
 

@@ -40,7 +40,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-注文に対して払い戻しが発行された場合、顧客はアカウントダッシュボードで注文に関連付けられた払い戻し情報を表示できます。 [ ストアクレジット設定](../customers/credit-configure.md)について「[!UICONTROL _ストアクレジット履歴を顧客に表示_]」オプションを有効にしている場合、顧客は[ ストアクレジット ](../customers/store-credit.md)履歴にもアクセスできます。
+注文に対して払い戻しが発行された場合、顧客はアカウントダッシュボードで注文に関連付けられた払い戻し情報を表示できます。 [&#x200B; ストアクレジット設定](../customers/credit-configure.md)について「[!UICONTROL _ストアクレジット履歴を顧客に表示_]」オプションを有効にしている場合、顧客は[&#x200B; ストアクレジット &#x200B;](../customers/store-credit.md)履歴にもアクセスできます。
 
 ## ストアフロントで返金を表示する
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. お客様は「**[!UICONTROL Refunds]**」タブをクリックして、払い戻しの詳細を表示します。
 
-   ![ ストアフロントでの詳細の払い戻し](assets/customer-account-order-refunds.png){width="700" zoomable="yes"}
+   ![&#x200B; ストアフロントでの詳細の払い戻し](assets/customer-account-order-refunds.png){width="700" zoomable="yes"}
 
 ## ストアフロントでストアクレジット残高と履歴を表示する
 
@@ -65,11 +65,11 @@ ht-degree: 0%
 
 1. ストアクレジットに返金された金額は、アクションの日時と共にリストに表示されます。
 
-   ![ クレジットの保管に返金された金額](assets/customer-account-store-credit.png){width="700" zoomable="yes"}
+   ![&#x200B; クレジットの保管に返金された金額](assets/customer-account-store-credit.png){width="700" zoomable="yes"}
 
    >[!INFO]
    >
-   >Store Credit ページには、お客様が[ ギフトカード ](../stores-purchase/product-gift-card-workflow.md#check-status-and-balance-of-the-gift-card)を引き換えるためのリンクも表示されます。
+   >Store Credit ページには、お客様が[&#x200B; ギフトカード &#x200B;](../stores-purchase/product-gift-card-workflow.md#check-status-and-balance-of-the-gift-card)を引き換えるためのリンクも表示されます。
 
 方法2: **_レビューと支払い_ ページ**&#x200B;から
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 4. ストアクレジットが利用可能な場合、顧客は&#x200B;**[!UICONTROL Use Store Credit]**&#x200B;をクリックします。
 
-   ![ レビューと支払いページからクレジットを保管](assets/customer-account-order-refund-from-checkout.png){width="700" zoomable="yes"}
+   ![&#x200B; レビューと支払いページからクレジットを保管](assets/customer-account-order-refund-from-checkout.png){width="700" zoomable="yes"}
 
 5. お客様がストアクレジットの使用に関する考えを変更した場合、「_注文概要_」セクションの「**[!UICONTROL Remove]**」をクリックします。
 

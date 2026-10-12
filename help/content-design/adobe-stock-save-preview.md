@@ -35,7 +35,7 @@ ht-degree: 0%
 ---
 # Adobe Stock画像プレビューを保存
 
-画像プレビューは、Adobe Stock アセットの透かし入りのバージョンです。 画像プレビューは無料で、特定の画像のライセンス ](./adobe-stock-license-image.md)を[購入して実稼動ストアで使用する前に、様々な画像を試してみることができます。
+画像プレビューは、Adobe Stock アセットの透かし入りのバージョンです。 画像プレビューは無料で、特定の画像のライセンス [&#128279;](./adobe-stock-license-image.md)を購入して実稼動ストアで使用する前に、様々な画像を試してみることができます。
 
 画像のライセンスを取得する準備ができたら、新しい[[!DNL Media Gallery]](media-gallery.md)をAdobe Stockと直接統合して、ギャラリーページから画像のライセンスを簡単に取得できます。
 
@@ -45,13 +45,13 @@ ht-degree: 0%
 
 ## プレビュー画像を保存
 
-1. [Adobe Stock検索グリッドにアクセス ](./adobe-stock-manage.md#access-the-adobe-stock-search-grid)。
+1. [Adobe Stock検索グリッドにアクセス &#x200B;](./adobe-stock-manage.md#access-the-adobe-stock-search-grid)。
 
 1. 画像の詳細を[表示](./adobe-stock-manage.md#view-image-details)するには、検索グリッドの画像をクリックします。
 
 1. **[!UICONTROL Save Preview]**&#x200B;をクリックします。
 
-   このアクションは、画像を[ メディアストレージ ](./media-storage.md)に保存するために使用するファイル名を指定するためのプロンプトを表示します。 デフォルトのファイル名が指定されますが、好みに合わせて名前をカスタマイズできます。
+   このアクションは、画像を[&#x200B; メディアストレージ &#x200B;](./media-storage.md)に保存するために使用するファイル名を指定するためのプロンプトを表示します。 デフォルトのファイル名が指定されますが、好みに合わせて名前をカスタマイズできます。
 
    ![Adobe Stockのプレビュー画像を保存](./assets/adobe-stock-save-preview.png){width="500" zoomable="yes"}
 

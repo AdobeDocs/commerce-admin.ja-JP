@@ -50,7 +50,7 @@ Adobe Commerceの&#x200B;_報酬ポイント_ システムは、顧客エンゲ�
 
 ## ショッピングカートの価格ルール
 
-ポイントは、[買い物かごルール ](price-rules-cart.md)に基づいて顧客に付与されます。 彼らは価格ルールの唯一の行動として、または割引と一緒に報酬を受けることができます。
+ポイントは、[買い物かごルール &#x200B;](price-rules-cart.md)に基づいて顧客に付与されます。 彼らは価格ルールの唯一の行動として、または割引と一緒に報酬を受けることができます。
 
 ## 顧客残高
 
@@ -74,17 +74,17 @@ Adobe Commerceの&#x200B;_報酬ポイント_ システムは、顧客エンゲ�
 
 ## ポイントを返金
 
-ポイントが付与された注文は、注文で交換された金額までポイント残高に返金できます。 [_新しいクレジットメモ_ ページ ](../stores-purchase/credit-memo-create.md)で、顧客の残高に適用されるポイント数を入力できます。 デフォルトでは、フィールドには、順序で使用されたポイントの全数が含まれます。
+ポイントが付与された注文は、注文で交換された金額までポイント残高に返金できます。 [_新しいクレジットメモ_ ページ &#x200B;](../stores-purchase/credit-memo-create.md)で、顧客の残高に適用されるポイント数を入力できます。 デフォルトでは、フィールドには、順序で使用されたポイントの全数が含まれます。
 
 ## ストアの報酬ポイント操作を有効にする
 
 報酬ポイント設定は、報酬ポイントをストアに表示する方法を決定し、基本的な操作パラメーターを定義します。
 
-![顧客設定 – 報酬ポイント ](../configuration-reference/customers/assets/reward-points-reward-points.png){width="600" zoomable="yes"}
+![顧客設定 – 報酬ポイント &#x200B;](../configuration-reference/customers/assets/reward-points-reward-points.png){width="600" zoomable="yes"}
 
 ### 手順1: 報酬ポイントの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Reward Points]**&#x200B;を選択します。
 
@@ -128,9 +128,9 @@ Adobe Commerceの&#x200B;_報酬ポイント_ システムは、顧客エンゲ�
 
 1. **[!UICONTROL Actions for Acquiring Reward Points by Customer]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![顧客設定 – 顧客による報酬ポイントを取得するためのアクション ](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
+   ![顧客設定 – 顧客による報酬ポイントを取得するためのアクション &#x200B;](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
-1. 設定された[ ポイント交換率](reward-exchange-rates.md)に基づいて購入に対するポイントの獲得を許可するには、**[!UICONTROL Purchase]**&#x200B;を`Yes`に設定します。
+1. 設定された[&#x200B; ポイント交換率](reward-exchange-rates.md)に基づいて購入に対するポイントの獲得を許可するには、**[!UICONTROL Purchase]**&#x200B;を`Yes`に設定します。
 
    >[!NOTE]
    >
@@ -180,7 +180,7 @@ Adobe Commerceの&#x200B;_報酬ポイント_ システムは、顧客エンゲ�
 
 1. _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**&#x200B;に移動します。
 
-1. グリッドで顧客を見つけ、_[!UICONTROL Action]_列の&#x200B;**[!UICONTROL Edit]**をクリックします。
+1. グリッドで顧客を見つけ、_[!UICONTROL Action]_&#x200B;列の&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
 
 1. _顧客情報_&#x200B;で、**[!UICONTROL Reward Points]** セクションを選択します。
 
@@ -191,7 +191,7 @@ Adobe Commerceの&#x200B;_報酬ポイント_ システムは、顧客エンゲ�
 
 1. 必要に応じて、報酬ポイントの調整に関連する&#x200B;**[!UICONTROL Comments]**&#x200B;を入力します。
 
-   ![ ポイント残高](./assets/reward-points-balance.png){width="700" zoomable="yes"}
+   ![&#x200B; ポイント残高](./assets/reward-points-balance.png){width="700" zoomable="yes"}
 
 1. 必要に応じて、お客様を&#x200B;_報酬ポイント通知_&#x200B;に登録します。
 
@@ -200,7 +200,7 @@ Adobe Commerceの&#x200B;_報酬ポイント_ システムは、顧客エンゲ�
 
 1. **[!UICONTROL Save Customer]**&#x200B;をクリックします。
 
-報酬ポイントに関連するすべてのアクションは、ストアフロントのアカウントの顧客の&#x200B;_[!UICONTROL Reward Points History]_ブロックに表示されます。
+報酬ポイントに関連するすべてのアクションは、ストアフロントのアカウントの顧客の&#x200B;_[!UICONTROL Reward Points History]_&#x200B;ブロックに表示されます。
 
 ## フィールドの説明
 
@@ -210,7 +210,7 @@ Adobe Commerceの&#x200B;_報酬ポイント_ システムは、顧客エンゲ�
 | [!UICONTROL Amount Balance] | 当座現金残高の金額 |
 | [!UICONTROL Points] | 加算または減算されたポイントの数 |
 | [!UICONTROL Amount] | 追加または減算された金額 |
-| [!UICONTROL Rate] | [ ポイント換算レート ](reward-exchange-rates.md) |
+| [!UICONTROL Rate] | [&#x200B; ポイント換算レート &#x200B;](reward-exchange-rates.md) |
 | [!UICONTROL Website] | 報酬ポイント履歴が割り当てられているWeb サイト |
 | [!UICONTROL Reason] | ポイント付与の理由：<br>**[!UICONTROL Making purchases]**– 顧客が購入するたびに、ポイントを獲得できます。<br>**[!UICONTROL Registering on the site]**  – 登録時に発生する（1回）。<br>**[!UICONTROL Subscribing to a newsletter]**– 初回サブスクリプション （1回）に対して発生しました。<br>**[!UICONTROL Sending Invitations]**  – 友達をサイトに招待してポイントを獲得します。<br>**[!UICONTROL Converting Invitations to Customer]**— サイトに登録している主要な友人を対象に、送信した招待ごとにポイントを獲得します。<br>**[!UICONTROL Converting Invitations to Order]**  – 招待状を送信した結果、各販売に対してポイントを獲得します。<br>**[!UICONTROL Review Submission]**– 製品レビューを提出することでポイントを獲得できます。 |
 | [!UICONTROL Created] | 報酬ポイントの更新日時 |

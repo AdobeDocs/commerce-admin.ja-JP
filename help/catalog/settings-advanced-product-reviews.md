@@ -36,7 +36,7 @@ ht-degree: 0%
 ---
 # 製品設定 – [!UICONTROL Product Reviews]
 
-_[!UICONTROL Product Reviews]_セクションには、顧客が製品について送信したすべてのレビューが一覧表示されます。 このセクションは、新しい製品が初めて保存された後にのみ、他の製品情報と共に表示されます。 詳しくは、[製品レビュー](../merchandising-promotions/product-reviews.md)を参照してください。
+_[!UICONTROL Product Reviews]_&#x200B;セクションには、顧客が製品について送信したすべてのレビューが一覧表示されます。 このセクションは、新しい製品が初めて保存された後にのみ、他の製品情報と共に表示されます。 詳しくは、[製品レビュー](../merchandising-promotions/product-reviews.md)を参照してください。
 
 ![製品レビュー](./assets/product-review.png){width="600" zoomable="yes"}
 
@@ -64,7 +64,7 @@ _[!UICONTROL Product Reviews]_セクションには、顧客が製品につい�
 
 1. 製品を見つけて、編集モードで開きます。
 
-1. _[!UICONTROL Product Reviews]_セクションまでスクロールします。
+1. _[!UICONTROL Product Reviews]_&#x200B;セクションまでスクロールします。
 
 1. **[!UICONTROL Edit]**&#x200B;をクリックすると、ステータスが`Pending`の製品レビューが表示され、詳細を表示および編集できます。
 

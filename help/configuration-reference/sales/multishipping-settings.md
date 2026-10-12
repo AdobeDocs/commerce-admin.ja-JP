@@ -38,11 +38,11 @@ ht-degree: 6%
 
 {{config}}
 
-ストアでこれらのマルチシッピング設定を設定する方法について詳しくは、[複数のアドレス ](../../stores-purchase/shipping-settings.md#multiple-addresses)を参照してください。
+ストアでこれらのマルチシッピング設定を設定する方法について詳しくは、[複数のアドレス &#x200B;](../../stores-purchase/shipping-settings.md#multiple-addresses)を参照してください。
 
 ## [!UICONTROL Options]
 
-![ オプション ](./assets/multishipping-settings-options.png)<!-- zoom -->
+![&#x200B; オプション &#x200B;](./assets/multishipping-settings-options.png)<!-- zoom -->
 
 <!-- [Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
 
@@ -55,4 +55,4 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->![Adobe Commerce B2B](../../assets/b2b.svg) （Adobe Commerce B2Bでのみ利用可能）複数の配送先住所を持つ注文の場合、チェックアウト時に[ アカウントでのお支払い](../../b2b/enable-basic-features.md#configure-payment-on-account)の支払い方法は、有効になっている場合でも利用できません。
+>![Adobe Commerce B2B](../../assets/b2b.svg) （Adobe Commerce B2Bでのみ利用可能）複数の配送先住所を持つ注文の場合、チェックアウト時に[&#x200B; アカウントでのお支払い](../../b2b/enable-basic-features.md#configure-payment-on-account)の支払い方法は、有効になっている場合でも利用できません。

@@ -50,24 +50,24 @@ Adobe CommerceとMagento Open Sourceは、スクリプトを定期的に実行�
 
 >[!IMPORTANT]
 >
->コアコンポーネントと一部のサードパーティの拡張機能が期待どおりに機能するように、Commerce サービスをcrontabにインストールする必要があります。 crontabへのサービスのインストールについて詳しくは、_インストールガイド_](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration)の[手順を参照してください。
+>コアコンポーネントと一部のサードパーティの拡張機能が期待どおりに機能するように、Commerce サービスをcrontabにインストールする必要があります。 crontabへのサービスのインストールについて詳しくは、_インストールガイド_[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration)の手順を参照してください。
 
 さらに、cron スケジュールに従って実行するように次の設定を行うことができます。
 
 - システムグリッドの更新とインデックス再作成の順序
 - 保留中の支払い期間
 
-ストアの[ ベース URL](../stores-purchase/store-urls.md)が正しく設定されていることを確認して、cronの操作中に生成されるURLが正しいことを確認します。 Adobe Commerce on Cloud Infrastructureについては、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[cron ジョブの設定](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property)」を参照してください。 オンプレミスについては、_設定ガイド_&#x200B;の「[設定と実行](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)」を参照してください。
+ストアの[&#x200B; ベース URL](../stores-purchase/store-urls.md)が正しく設定されていることを確認して、cronの操作中に生成されるURLが正しいことを確認します。 Adobe Commerce on Cloud Infrastructureについては、_Commerce on Cloud Infrastructure ガイド_&#x200B;の「[cron ジョブの設定](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property)」を参照してください。 オンプレミスについては、_設定ガイド_&#x200B;の「[設定と実行](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)」を参照してください。
 
 ## cronの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL System]**&#x200B;を選択します。
 
 1. **[!UICONTROL Cron]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![詳細設定 – cron タスク ](../configuration-reference/advanced/assets/system-cron.png){width="600" zoomable="yes"}
+   ![詳細設定 – cron タスク &#x200B;](../configuration-reference/advanced/assets/system-cron.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Index]**&#x200B;および&#x200B;**[!UICONTROL Default]** グループの次の設定を完了します。
 
@@ -81,6 +81,6 @@ Adobe CommerceとMagento Open Sourceは、スクリプトを定期的に実行�
    - **[!UICONTROL Failure History Lifetime]** - `Error` ステータスのcron ジョブの履歴がデータベースに残る時間（分単位）を定義します。
    - **[!UICONTROL Use Separate Process]** - グループのすべてのcron ジョブを別のシステム プロセスで実行するかどうかを定義します。 オプション：`Yes` / `No`
 
-   ![詳細設定 – cron グループ インデックス ](../configuration-reference/advanced/assets/system-cron-group-index.png){width="600" zoomable="yes"}
+   ![詳細設定 – cron グループ インデックス &#x200B;](../configuration-reference/advanced/assets/system-cron-group-index.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。

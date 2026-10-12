@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ### 静的URL
 
-静的URLは、特定のページの固定アドレスです。 静的URLは、検索エンジンに適した形式、またはIDで商品やカテゴリーを参照する形式で表示できます。 これらのURLには、ユーザーが製品を検索するために使用する可能性のある単語が含まれており、web サーバーの書き換えを有効にする必要があります。 静的URLを持つファイルは、製品ページやカテゴリーページ、コンテンツページ、[ テーマアセット ](../content-design/theme-assets.md)で一般的に使用されます。
+静的URLは、特定のページの固定アドレスです。 静的URLは、検索エンジンに適した形式、またはIDで商品やカテゴリーを参照する形式で表示できます。 これらのURLには、ユーザーが製品を検索するために使用する可能性のある単語が含まれており、web サーバーの書き換えを有効にする必要があります。 静的URLを持つファイルは、製品ページやカテゴリーページ、コンテンツページ、[&#x200B; テーマアセット &#x200B;](../content-design/theme-assets.md)で一般的に使用されます。
 
 - `http://mystore.com/antonia-racer-tank.html`
 
@@ -70,7 +70,7 @@ URL キーは、製品またはカテゴリを説明する静的URLの一部で�
 
 >[!NOTE]
 >
->デフォルトでは、アクセント付きの特殊文字は、URL キーの通常のアクセントなしバージョンに自動的に置き換えられます。 例えば、`ñ`は自動的に`n`に置き換えられます。 この動作は、_[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_設定オプションを`No`に設定することで無効にできます。 [ カタログ URLの設定](#configure-catalog-urls)を参照してください。
+>デフォルトでは、アクセント付きの特殊文字は、URL キーの通常のアクセントなしバージョンに自動的に置き換えられます。 例えば、`ñ`は自動的に`n`に置き換えられます。 この動作は、_[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;設定オプションを`No`に設定することで無効にできます。 [&#x200B; カタログ URLの設定](#configure-catalog-urls)を参照してください。
 
 URL キーは、小文字で構成する必要があります。小文字のハイフン以外のハイフンは、これらの文字を区切る単語に使用します。 ハイフンは、URL キーの先頭または末尾では使用できません。 適切に設計された「検索エンジンに適した」 URL キーには、検索エンジンによるインデックス作成の方法を改善するために、製品名とキーワードが含まれる場合があります。 URL キーを設定して、URL キーが変更された場合に自動リダイレクトを作成できます。
 
@@ -109,7 +109,7 @@ URL キーは、小文字で構成する必要があります。小文字のハ�
 
 ## カタログ URLの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
@@ -129,24 +129,24 @@ URL キーは、小文字で構成する必要があります。小文字のハ�
 
 1. プロンプトが表示されたら、システムメッセージの&#x200B;**[!UICONTROL Cache Management]** リンクをクリックし、無効なキャッシュを更新します。
 
-   ![ キャッシュの更新](./assets/msg-cache-management.png){width="450" zoomable="yes"}
+   ![&#x200B; キャッシュの更新](./assets/msg-cache-management.png){width="450" zoomable="yes"}
 
-   これらのオプションについて詳しくは、[ キャッシュの更新](../systems/cache-management.md#refresh-specific-caches)を参照してください。
+   これらのオプションについて詳しくは、[&#x200B; キャッシュの更新](../systems/cache-management.md#refresh-specific-caches)を参照してください。
 
 ## カタログメディア URL形式の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL General]**&#x200B;を展開し、**[!UICONTROL Web]**&#x200B;を選択します。
 
 1. **[!UICONTROL Url Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、オプションを設定します。
 
-![Web >一般オプション ](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
+![Web >一般オプション &#x200B;](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
 
 | フィールド | [範囲](../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | グローバル | Web サーバーの書き換えが有効になっている場合、この設定を有効にすると、現在のビューのストアコードがURLに挿入されます。 オプション：`Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | グローバル | （シングルストア設定の場合）サイトに壊れたリンクがある場合、トラフィックは「404 Page Not Found」メッセージを含むページではなく、ベース URLにリダイレクトされます。 オプション：`No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_重要！_**マルチストア設定のベース URLに自動リダイレクトを使用しないでください。 |
+| [!UICONTROL Auto-redirect to Base URL] | グローバル | （シングルストア設定の場合）サイトに壊れたリンクがある場合、トラフィックは「404 Page Not Found」メッセージを含むページではなく、ベース URLにリダイレクトされます。 オプション：`No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_重要！_**&#x200B;マルチストア設定のベース URLに自動リダイレクトを使用しないでください。 |
 | [!UICONTROL Catalog media URL format] | グローバル | 製品とカテゴリに割り当てられたURL形式を定義します。 オプション：<br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**– 変換されたファイル名を一意のハッシュ値として定義します。<br />**[!UICONTROL Image optimization based on query parameters]** - クエリ パラメーターに応じて[画像最適化](../content-design/media-gallery-image-optimization.md) プロセスを定義します。 |
 
 {style="table-layout:auto"}

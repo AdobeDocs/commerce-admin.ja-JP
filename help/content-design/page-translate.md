@@ -34,19 +34,19 @@ ht-degree: 0%
 ---
 # コンテンツページの翻訳
 
-ストアに異なる[言語](../stores-purchase/store-localize.md)の複数のビューがあり、各ビューのロケールを異なる言語に設定した場合、結果は部分的に翻訳されたサイトになります。 次の手順では、各ページの翻訳版を作成し、特定のストアビューで使用できるようにします。 _[!UICONTROL Manage Pages]_リストの[!UICONTROL Store View]列には、ページの翻訳バージョンを持つ各ビューが表示されます。
+ストアに異なる[言語](../stores-purchase/store-localize.md)の複数のビューがあり、各ビューのロケールを異なる言語に設定した場合、結果は部分的に翻訳されたサイトになります。 次の手順では、各ページの翻訳版を作成し、特定のストアビューで使用できるようにします。 _[!UICONTROL Manage Pages]_&#x200B;リストの[!UICONTROL Store View]列には、ページの翻訳バージョンを持つ各ビューが表示されます。
 
 コンテンツページを翻訳するには、元のURL キーと同じURL キーを持つが、特定のストアビューに割り当てられている別のページを作成する必要があります。 次に、翻訳されたテキストを使用して、特定のビューのページを更新します。 次の例は、スペインのストアビュー用に&#x200B;_About Us_ ページの翻訳版を作成する方法を示しています。
 
 ## 手順1：翻訳するページのURL キーをコピーする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**&#x200B;に移動します。
 
 1. グリッドで、翻訳するページを見つけ、_編集_ モードで開きます。
 
 1. **[!UICONTROL Search Engine Optimization]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、**[!UICONTROL URL Key]**&#x200B;をクリップボードにコピーします。
 
-1. _[!UICONTROL Pages]_グリッドに戻るには、上部のボタンバーの&#x200B;**[!UICONTROL Back]**をクリックします。
+1. _[!UICONTROL Pages]_&#x200B;グリッドに戻るには、上部のボタンバーの&#x200B;**[!UICONTROL Back]**&#x200B;をクリックします。
 
 ## 手順2：翻訳されたコンテンツのページを追加する
 
@@ -68,10 +68,10 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
-1. プロンプトが表示されたら、無効な[ キャッシュ ](../systems/cache-management.md)を更新します。
+1. プロンプトが表示されたら、無効な[&#x200B; キャッシュ &#x200B;](../systems/cache-management.md)を更新します。
 
 ## 手順3：翻訳の確認
 
 翻訳を確認するには、ストアフロントに移動し、言語選択ツールを使用してストアビューを変更します。
 
-会社のフッターリンク [ ブロック ](block-add.md)、[ ウェルカムメッセージ ](../getting-started/storefront-branding.md#change-the-welcome-message)、[製品情報](../stores-purchase/store-localize.md#localize-products)など、翻訳する必要がある要素がページ上にまだ存在することに注意してください。
+会社のフッターリンク [&#x200B; ブロック &#x200B;](block-add.md)、[&#x200B; ウェルカムメッセージ &#x200B;](../getting-started/storefront-branding.md#change-the-welcome-message)、[製品情報](../stores-purchase/store-localize.md#localize-products)など、翻訳する必要がある要素がページ上にまだ存在することに注意してください。

@@ -45,13 +45,13 @@ ht-degree: 0%
 
 顧客は、アカウントダッシュボードから独自の情報やアクティビティを管理および監視できます。 顧客は、再注文、注文追跡、配送先住所や支払い方法、商品レビュー、ニュースレターの購読などを管理できます。
 
-![ ストアフロントのアカウントダッシュボード ](assets/customer-account-dashboard.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントのアカウントダッシュボード &#x200B;](assets/customer-account-dashboard.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
-> Adobe Commerce B2Bのインストールと有効化により、企業固有の機能を使用して購買体験をパーソナライズできます。 会社に関連付けられている顧客に対して、B2B アカウントダッシュボードオプション（発注、要求リスト、交渉済み見積もり）の全範囲を有効にすることができます。 B2B機能について詳しくは、[Adobe Commerce B2B ユーザーガイド ](../b2b/introduction.md)を参照してください。
+> Adobe Commerce B2Bのインストールと有効化により、企業固有の機能を使用して購買体験をパーソナライズできます。 会社に関連付けられている顧客に対して、B2B アカウントダッシュボードオプション（発注、要求リスト、交渉済み見積もり）の全範囲を有効にすることができます。 B2B機能について詳しくは、[Adobe Commerce B2B ユーザーガイド &#x200B;](../b2b/introduction.md)を参照してください。
 
-![ ストアフロントの企業アカウントダッシュボード ](assets/company-admin-account-dashboard.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの企業アカウントダッシュボード &#x200B;](assets/company-admin-account-dashboard.png){width="700" zoomable="yes"}
 
 ## アカウントダッシュボードのサイドナビゲーション
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Quotes]**](../b2b/account-dashboard-my-quotes.md) | （企業のみ）お客様から送信されたすべての見積もりを、詳細な情報へのリンクとともに一覧表示します。 |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Requisition Lists]**](../b2b/account-dashboard-requisition-lists-manage.md) | （企業のみ）顧客が作成したすべての購買リストを保持します。 |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Profile]**](../b2b/account-company-manage.md#update-a-company-profile) | （会社のみ）指定会社管理者は、会社名と住所、会社管理者の連絡先情報、支払い情報などの会社情報を管理できます。 |
-| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Credit]**](../b2b/credit-company.md#storefront-credit-information) | （会社のみ）現在の未払い残高、利用可能なクレジット、およびアカウントに割り当てられるクレジット制限を表示し、その後に未払い請求書のリストを表示します。 「会社クレジット」セクションは、[ アカウントでの支払い](../b2b/enable-basic-features.md#configure-payment-on-account)が設定で有効になっている場合にのみ、ダッシュボードに表示されます。 |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Credit]**](../b2b/credit-company.md#storefront-credit-information) | （会社のみ）現在の未払い残高、利用可能なクレジット、およびアカウントに割り当てられるクレジット制限を表示し、その後に未払い請求書のリストを表示します。 「会社クレジット」セクションは、[&#x200B; アカウントでの支払い](../b2b/enable-basic-features.md#configure-payment-on-account)が設定で有効になっている場合にのみ、ダッシュボードに表示されます。 |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Structure]**](../b2b/account-company-structure.md) | （会社のみ）会社の事業構造を定義するために会社管理者が使用します。 |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Users]**](../b2b/account-company-users.md) | （会社のみ）会社管理者が会社バイヤーのユーザーアカウントを作成するために使用します。 |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Roles and Permissions]**](../b2b/account-company-roles-permissions.md) | （会社のみ）会社の管理者が、様々なレベルの権限を持つ会社ユーザーの役割を定義するために使用します。 |

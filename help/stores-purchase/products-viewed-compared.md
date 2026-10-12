@@ -41,13 +41,13 @@ _最近表示されたブロックと最近比較されたブロック_&#x200B;�
 
 **_最近閲覧した商品と比較した商品を設定するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
 1. **[!UICONTROL Recently Viewed/Compared Products]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ カタログ設定 – 最近閲覧/比較された製品](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ設定 – 最近閲覧/比較された製品](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
 
    これらの各構成設定の詳細については、_構成リファレンスガイド_&#x200B;の[最近表示された製品/比較済み製品](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products)を参照してください。
 

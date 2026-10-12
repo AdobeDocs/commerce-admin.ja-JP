@@ -66,9 +66,9 @@ Adobe CommerceとAdobe Experience Manager（AEM）の両方に、CommerceからA
 
 ### 手順1：既存のデータソースからコンテンツを書き出す
 
-Adobe Commerceを利用している販売者は、リモートストレージモジュールを使用して、Commerceからメディアファイルを書き出し、AEM Assetsに読み込む効率的な方法を利用できます。 このモジュールを使用すると、AWS S3などのリモートストレージサービスにメディアファイルを保存および管理できるため、移行プロセスがより効率的になります。 Commerce インスタンスのリモートストレージを設定するには、*Commerce設定ガイド*&#x200B;の[ リモートストレージの設定](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage-aws-s3)を参照してください。
+Adobe Commerceを利用している販売者は、リモートストレージモジュールを使用して、Commerceからメディアファイルを書き出し、AEM Assetsに読み込む効率的な方法を利用できます。 このモジュールを使用すると、AWS S3などのリモートストレージサービスにメディアファイルを保存および管理できるため、移行プロセスがより効率的になります。 Commerce インスタンスのリモートストレージを設定するには、*Commerce設定ガイド*&#x200B;の[&#x200B; リモートストレージの設定](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage-aws-s3)を参照してください。
 
-Adobe Commerce以外にメディアファイルが保存されている場合は、AEM as a Cloud Serviceでサポートされている[ データソース ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/bulk-import-assets-view#prerequisites)のいずれかに直接アップロードします。
+Adobe Commerce以外にメディアファイルが保存されている場合は、AEM as a Cloud Serviceでサポートされている[&#x200B; データソース &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/bulk-import-assets-view#prerequisites)のいずれかに直接アップロードします。
 
 ### 手順2：メタデータマッピング用のCSV ファイルの作成
 
@@ -78,7 +78,7 @@ Adobe Commerce以外にメディアファイルが保存されている場合は
 - Adobe CommerceとAEM Assetsの適切な同期を有効にする
 - 移行後にアセットと製品の関係を維持する
 
-移行するメディアファイルごとに、次の表に示すように、Commerce assetsの[AEM Assets メタデータプロファイル ](aem-assets-configure-aem.md)に含まれるメタデータフィールドの値を指定します。
+移行するメディアファイルごとに、次の表に示すように、Commerce assetsの[AEM Assets メタデータプロファイル &#x200B;](aem-assets-configure-aem.md)に含まれるメタデータフィールドの値を指定します。
 
 | メタデータ | 説明 | 値 |
 |-------|-------------|--------|
@@ -113,11 +113,11 @@ assetPath,dc:title{{String}},dam:status{{String}},commerce:positions{{String: mu
 
 1. Experience Manager ツール ビューから、**[!UICONTROL Assets]** > **[!UICONTROL Bulk Import]**&#x200B;を選択します。
 
-   ![AEM Assets オーサリング ](./assets/aem-assets-bulk-import-selection.png){width="600" zoomable="yes"}
+   ![AEM Assets オーサリング &#x200B;](./assets/aem-assets-bulk-import-selection.png){width="600" zoomable="yes"}
 
 1. 一括読み込み設定から、**[!UICONTROL Create]**&#x200B;を選択して設定フォームを開きます。
 
-   ![AEM Assets オーサリング ](./assets/aem-assets-bulk-import-configuration.png){width="600" zoomable="yes"}
+   ![AEM Assets オーサリング &#x200B;](./assets/aem-assets-bulk-import-configuration.png){width="600" zoomable="yes"}
 
 1. 設定を設定して保存します。
 

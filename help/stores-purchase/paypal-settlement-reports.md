@@ -41,9 +41,9 @@ PayPal加盟店アカウントで決済レポートを設定して有効にし�
 
 **_決済レポートを表示するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL PayPal Settlement]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL PayPal Settlement]**&#x200B;に移動します。
 
-   ![PayPal決済レポート ](../getting-started/assets/reports-sales-paypal-settlement.png){width="600" zoomable="yes"}
+   ![PayPal決済レポート &#x200B;](../getting-started/assets/reports-sales-paypal-settlement.png){width="600" zoomable="yes"}
 
 1. 最新の更新については、右上隅の「**[!UICONTROL Fetch Updates]**」をクリックしてください。
 

@@ -43,7 +43,7 @@ ht-degree: 0%
 
 始める前に、リダイレクトで実行する必要があるものを正確に理解していることを確認してください。 _target_ / _元のリクエスト_&#x200B;または&#x200B;_リダイレクト先_ / _リダイレクト先_&#x200B;を考えてみましょう。 人々は、検索エンジンや古いリンクから以前のページに移動する可能性はありますが、このリダイレクトにより、ストアは新しいターゲットに切り替わります。
 
-ストアで[自動リダイレクト ](url-redirect-product-automatic.md)が有効になっている場合、商品[URL キー](../catalog/catalog-urls.md)が変更されたときに書き換えを作成する必要はありません。
+ストアで[自動リダイレクト &#x200B;](url-redirect-product-automatic.md)が有効になっている場合、商品[URL キー](../catalog/catalog-urls.md)が変更されたときに書き換えを作成する必要はありません。
 
 {{url-rewrite-skip}}
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 間違いを避けるには、_リダイレクトから_ パスと&#x200B;_リダイレクトから_ パスを書き留め、URL キーとサフィックス （該当する場合）を含めます。
 
-わからない場合は、ストアの各商品ページを開き、ブラウザーのアドレスバーからパスをコピーします。 製品リダイレクトを作成する場合、[ カテゴリパス ](../catalog/catalog-urls.md)を含めることも除外することもできます。 この例では、カテゴリーパスを使用せずに製品リダイレクトを作成します。
+わからない場合は、ストアの各商品ページを開き、ブラウザーのアドレスバーからパスをコピーします。 製品リダイレクトを作成する場合、[&#x200B; カテゴリパス &#x200B;](../catalog/catalog-urls.md)を含めることも除外することもできます。 この例では、カテゴリーパスを使用せずに製品リダイレクトを作成します。
 
 ### カテゴリーパスを含む製品
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 {{url-rewrite-params}}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**&#x200B;に移動します。
 
 1. 続行する前に、次の手順を実行して、リクエストパスが使用可能であることを確認します。
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
    この例では、リダイレクトにはカテゴリが含まれていません。
 
-   ![製品URLの書き換え – カテゴリ選択をスキップ ](./assets/url-rewrite-skip-category-selection.png){width="600" zoomable="yes"}
+   ![製品URLの書き換え – カテゴリ選択をスキップ &#x200B;](./assets/url-rewrite-skip-category-selection.png){width="600" zoomable="yes"}
 
    製品ページの「URLの書き換えを追加」では、左上隅にターゲットへのリンクが表示され、「ターゲットパス」フィールドには変更できないパスのシステムバージョンが表示されます。 最初は、「リダイレクトパス」フィールドにもターゲットパスが表示されます。
 
@@ -152,9 +152,9 @@ ht-degree: 0%
 
 1. URLの書き換えを更新する製品をすべて選択します。
 
-1. _[!UICONTROL Actions]_で、**[!UICONTROL Update attributes]**を選択して、複数またはすべての書き換えを更新します。
+1. _[!UICONTROL Actions]_&#x200B;で、**[!UICONTROL Update attributes]**&#x200B;を選択して、複数またはすべての書き換えを更新します。
 
-1. _[!UICONTROL PRODUCTS INFORMATION]_で、「**[!UICONTROL Websites]**」タブをクリックします。
+1. _[!UICONTROL PRODUCTS INFORMATION]_&#x200B;で、「**[!UICONTROL Websites]**」タブをクリックします。
 
 1. 「_[!UICONTROL Add Product To Websites]_」セクションで、URLの書き換えを復元するすべてのWeb サイトを選択します。
 

@@ -49,23 +49,23 @@ ht-degree: 0%
 
 [!UICONTROL Product Views Report]には、時間間隔または日付の範囲で閲覧された製品が表示されます。 レポートには、商品名、価格、閲覧数が含まれています。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Views]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Views]**&#x200B;に移動します。
 
-![製品ビューレポート ](./assets/product-views.png){width="600"}
+![製品ビューレポート &#x200B;](./assets/product-views.png){width="600"}
 
 ## [!UICONTROL Bestsellers Report]
 
 [!UICONTROL Bestsellers Report]には、時間または日付範囲の間に上位5件の売上が表示されます。 レポートには、商品名、価格、注文数量が含まれています。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Bestsellers]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Bestsellers]**&#x200B;に移動します。
 
-![ ベストセラーレポート ](./assets/bestsellers.png){width="600"}
+![&#x200B; ベストセラーレポート &#x200B;](./assets/bestsellers.png){width="600"}
 
 ## [!UICONTROL Low Stock Report]
 
 [!UICONTROL Low Stock Report]には、指定された範囲内の在庫レベルを持つすべての製品が一覧表示されます。 [[!DNL Inventory Management]](../inventory-management/introduction.md)が有効になっている場合、このレポートには、リストされたソースコードを含むソースごとの在庫量が少なくなります。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Low Stock]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Low Stock]**&#x200B;に移動します。
 
 ![低在庫報告書](./assets/low-stock.png){width="600"}
 
@@ -73,9 +73,9 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Product
 
 [!UICONTROL Ordered Products Report]には、指定された時間間隔または日付範囲で注文されたすべての製品が一覧表示されます。 レポートには、注文済みの製品名と数量が含まれます。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Ordered]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Ordered]**&#x200B;に移動します。
 
-![注文済み製品レポート ](./assets/products-ordered.png){width="600"}
+![注文済み製品レポート &#x200B;](./assets/products-ordered.png){width="600"}
 
 ## [!UICONTROL Downloads Report]
 
@@ -83,6 +83,6 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Product
 
 [!UICONTROL Downloads Report]には、指定された時間間隔または日付範囲のすべてのダウンロードが一覧表示されます。 レポートには、製品名、ダウンロードリンク、SKU、購入回数とダウンロード数が含まれます。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Downloaded]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Downloaded]**&#x200B;に移動します。
 
-![ レポートのダウンロード ](./assets/downloads.png){width="600"}
+![&#x200B; レポートのダウンロード &#x200B;](./assets/downloads.png){width="600"}

@@ -36,7 +36,7 @@ ht-degree: 0%
 ---
 # 共有カタログへの会社の割り当て
 
-共有カタログに会社を割り当てる方法は2つあります。 _[!UICONTROL Shared Catalogs]_グリッドから割り当てをおこなうか、会社を編集して、顧客グループを選択する際に共有カタログを割り当てることができます。
+共有カタログに会社を割り当てる方法は2つあります。 _[!UICONTROL Shared Catalogs]_&#x200B;グリッドから割り当てをおこなうか、会社を編集して、顧客グループを選択する際に共有カタログを割り当てることができます。
 
 ![会社の割り当て](./assets/shared-catalog-assign-companies.png){width="700" zoomable="yes"}
 
@@ -74,6 +74,6 @@ ht-degree: 0%
 
    共有カタログの割り当てを変更すると、すべての会社メンバーに対する顧客グループの割り当ても変更されます。
 
-   ![顧客グループ / 共有カタログ ](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
+   ![顧客グループ / 共有カタログ &#x200B;](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
 1. 確認を求められたら、**[!UICONTROL Proceed]**&#x200B;をクリックし、**[!UICONTROL Save]**&#x200B;をクリックします。

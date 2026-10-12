@@ -46,7 +46,7 @@ Adobe CommerceとMagento Open Sourceは、暗号化キーを使用してパス�
 
 最初のインストール時に、Commerceで暗号化キーを生成するか、独自のキーを入力するように求められます。 暗号化キーツールを使用すると、必要に応じてキーを変更できます。 セキュリティを強化するために、暗号化キーは定期的に変更する必要があり、いつでも元のキーが侵害される可能性があります。
 
-技術情報については、_PHP開発者ガイド_&#x200B;の&#x200B;_インストールガイド_&#x200B;の[高度なオンプレミスインストール ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced)および[ データ再暗号化](https://developer.adobe.com/commerce/php/development/security/data-encryption)を参照してください。
+技術情報については、_PHP開発者ガイド_&#x200B;の&#x200B;_インストールガイド_&#x200B;の[高度なオンプレミスインストール &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced)および[&#x200B; データ再暗号化](https://developer.adobe.com/commerce/php/development/security/data-encryption)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -58,7 +58,7 @@ Adobe CommerceとMagento Open Sourceは、暗号化キーを使用してパス�
 
 次の手順では、端末へのアクセスが必要です。
 
-1. [ メンテナンスモード ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode)を有効にします。
+1. [&#x200B; メンテナンスモード &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode)を有効にします。
 
    ```bash
    bin/magento maintenance:enable
@@ -94,7 +94,7 @@ Adobe CommerceとMagento Open Sourceは、暗号化キーを使用してパス�
    encryption:key:change Change the encryption key inside the env.php file.
    ```
 
-   この出力が表示された場合は、次のCLI コマンドを実行し、エラーなしで完了することを確認します。 特定のシステム設定値または支払いフィールドを再暗号化する必要がある場合は、_PHP開発ガイド_&#x200B;の再暗号化](https://developer.adobe.com/commerce/php/development/security/data-encryption)に関する詳細な[ ガイドを参照してください。
+   この出力が表示された場合は、次のCLI コマンドを実行し、エラーなしで完了することを確認します。 特定のシステム設定値または支払いフィールドを再暗号化する必要がある場合は、_PHP開発ガイド_&#x200B;の再暗号化[&#128279;](https://developer.adobe.com/commerce/php/development/security/data-encryption)に関する詳細な ガイドを参照してください。
 
    ```bash
    bin/magento encryption:key:change
@@ -108,9 +108,9 @@ Adobe CommerceとMagento Open Sourceは、暗号化キーを使用してパス�
    >
    >この機能は廃止され、2.4.8で削除されました。 Adobeでは、CLIを使用して暗号化キーを変更することをお勧めします。
 
-   1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**に移動します。
+   1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**&#x200B;に移動します。
 
-      ![ システム暗号化キー](./assets/encryption-key.png){width="700" zoomable="yes"}
+      ![&#x200B; システム暗号化キー](./assets/encryption-key.png){width="700" zoomable="yes"}
 
    1. 次のいずれかの操作を行います。
 

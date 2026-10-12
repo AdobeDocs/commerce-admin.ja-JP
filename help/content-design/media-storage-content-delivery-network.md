@@ -54,9 +54,9 @@ CDNを設定したら、管理者から設定を完了する必要がありま�
 
 ## コンテンツ配信ネットワークの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL General]_の下の左側のパネルで、**[!UICONTROL Web]**を選択します。
+1. _[!UICONTROL General]_&#x200B;の下の左側のパネルで、**[!UICONTROL Web]**&#x200B;を選択します。
 
 1. 左上隅で、必要に応じて&#x200B;**[!UICONTROL Store View]**&#x200B;を設定します。
 
@@ -72,7 +72,7 @@ CDNを設定したら、管理者から設定を完了する必要がありま�
 
 1. **[!UICONTROL Base URLs (Secure)]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、次の操作を行います。
 
-   ![一般設定 – web ベース URL （セキュア） ](./assets/web-base-urls-secure.png){width="600" zoomable="yes"}
+   ![一般設定 – web ベース URL （セキュア） &#x200B;](./assets/web-base-urls-secure.png){width="600" zoomable="yes"}
 
    - 静的ビューファイルが保存されているCDN上の場所のURLを使用して、**[!UICONTROL Secure Base URL for Static View Files]**&#x200B;を更新します。
 

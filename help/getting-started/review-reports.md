@@ -48,7 +48,7 @@ ht-degree: 0%
 
 [!UICONTROL Customer Reviews Report]には、製品レビューを送信したすべての顧客のリストが表示されます。 このレポートには、各顧客が送信したレビューの数と、レビューのリストへのリンクが含まれます。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Customers]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Customers]**&#x200B;に移動します。
 
 ![お客様によるレポートのレビュー](./assets/customer-reviews.png){width="600"}
 
@@ -56,6 +56,6 @@ _管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Reviews
 
 [!UICONTROL Product Reviews Report]には、顧客によってレビューされたすべての製品が一覧表示されます。 レポートには、レビュー数と平均評価、最後にレビューされた製品、各製品のレビューのリストへのリンクが含まれます。
 
-_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Products]**に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Products]**&#x200B;に移動します。
 
 ![製品によるレポートのレビュー](./assets/product-reviews.png){width="600"}

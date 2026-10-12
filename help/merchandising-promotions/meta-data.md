@@ -48,7 +48,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce as a Cloud Serviceについては、Commerce Storefront ドキュメントの[ メタデータガイドライン ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/)を参照してください
+>Adobe Commerce as a Cloud Serviceについては、Commerce Storefront ドキュメントの[&#x200B; メタデータガイドライン &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/)を参照してください
 
 ストアには、キーワードが豊富なメタデータを入力できる場所がロードされており、検索エンジンがサイトをインデックス作成する方法を改善できます。 ストアの設定中に、後で完了するために予備のメタデータを入力することもできます。 時間の経過とともにメタデータを微調整し、顧客の購入パターンや嗜好をターゲットにすることができます。
 
@@ -58,13 +58,13 @@ ht-degree: 0%
 
 メタタイトルは、ブラウザーと検索結果リストのタイトルバーとタブに表示されます。 メタタイトルは、ページに固有で、長さが70文字未満である必要があります。
 
-![ ストアフロントの例 – メタタイトル ](./assets/storefront-home-page-meta-title.png){width="600"}
+![&#x200B; ストアフロントの例 – メタタイトル &#x200B;](./assets/storefront-home-page-meta-title.png){width="600"}
 
 ## Meta キーワード
 
 メタキーワードを無視する検索エンジンもありますが、そのまま使用している検索エンジンもあります。 現在のベストプラクティスは、メタタイトルとメタディスクリプションに価値の高いキーワードを組み込むことです。
 
-![Web ブラウザー検索 – メタキーワード ](./assets/storefront-meta-description.png){width="500"}
+![Web ブラウザー検索 – メタキーワード &#x200B;](./assets/storefront-meta-description.png){width="500"}
 
 ## Metaの説明
 
@@ -103,7 +103,7 @@ URLからカテゴリを省略するか、正規のメタタグを使用して�
 
 ### 正規メタタグを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Catalog]**」を展開し、下の「**[!UICONTROL Catalog]**」を選択します。
 
@@ -111,7 +111,7 @@ URLからカテゴリを省略するか、正規のメタタグを使用して�
 
    フィールド値を変更するには、最初に各フィールドの後ろに「**システム値を使用**」チェックボックスをオフにする必要があります。
 
-   ![ カタログ設定 – 検索エンジン最適化](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ設定 – 検索エンジン最適化](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. 完全なカテゴリパスを使用して、検索エンジンでカテゴリページのみをインデックス化する場合は、次の操作を行います。
 

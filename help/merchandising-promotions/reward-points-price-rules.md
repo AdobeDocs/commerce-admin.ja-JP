@@ -44,7 +44,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-[ カート価格ルール ](price-rules-cart.md)に従って、顧客に報酬ポイントを付与できます。 ポイントの授与は、価格ルールの唯一のアクションであったり、割引で使用することができます。
+[&#x200B; カート価格ルール &#x200B;](price-rules-cart.md)に従って、顧客に報酬ポイントを付与できます。 ポイントの授与は、価格ルールの唯一のアクションであったり、割引で使用することができます。
 
 >[!NOTE]
 >
@@ -52,14 +52,14 @@ ht-degree: 0%
 
 ## 価格ルールへの報酬ポイントの追加
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL Add New Rule]**」をクリックしてカート価格ルールを作成するか、既存のカート価格ルールをクリックして開きます。
 
 1. 下にスクロールして、**[!UICONTROL Actions]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、条件を設定して、**[!UICONTROL Add Reward Points]** フィールドにポイント数を入力します。
 
-   ![買い物かごの価格ルール – 報酬ポイント ](./assets/reward-points-price-rule-actions.png){width="600" zoomable="yes"}
+   ![買い物かごの価格ルール – 報酬ポイント &#x200B;](./assets/reward-points-price-rule-actions.png){width="600" zoomable="yes"}
 
-1. 標準の指示に従って、[買い物かご価格ルール ](price-rules-cart-create.md)を完了します。
+1. 標準の指示に従って、[買い物かご価格ルール &#x200B;](price-rules-cart-create.md)を完了します。
 
    価格ルールが有効になると、カートにメッセージが表示され、注文することで獲得できるポイント数を顧客に知らせます。 これは登録ユーザーにのみ適用され、ユーザーがログインすると異なる場合があります。

@@ -61,9 +61,9 @@ ht-degree: 0%
 
 ## 承認ルールの設定
 
-役割](account-company-roles-permissions.md)に必要な[権限を使用して、B2Bのお客様は、お客様アカウントの左側のパネルの&#x200B;**[!UICONTROL Approval Rules]**&#x200B;をクリックして、会社のポリシーを適用するための承認ルールを設定できます。
+役割[&#128279;](account-company-roles-permissions.md)に必要な権限を使用して、B2Bのお客様は、お客様アカウントの左側のパネルの&#x200B;**[!UICONTROL Approval Rules]**&#x200B;をクリックして、会社のポリシーを適用するための承認ルールを設定できます。
 
-![会社承認ルール ](./assets/approval-rules.png){width="700" zoomable="yes"}
+![会社承認ルール &#x200B;](./assets/approval-rules.png){width="700" zoomable="yes"}
 
 承認ルールを作成するには、お客様は次の手順を実行します。
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 1. 通貨タイプを選択し、金額を入力します。
 
-![注文合計承認ルール ](./assets/approval-rules-order-total.png){width="600" zoomable="yes"}
+![注文合計承認ルール &#x200B;](./assets/approval-rules-order-total.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Shipping Cost]
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 1. 必要な配送金額を設定します。
 
-![送料の承認ルール ](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
+![送料の承認ルール &#x200B;](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Number of SKUs]
 
