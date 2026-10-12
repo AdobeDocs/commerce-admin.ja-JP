@@ -61,7 +61,7 @@ AEM Assets Integration for Commerce拡張機能には、次のシステム要件
 
   - [repo.magento.com](https://repo.magento.com/admin/dashboard)にアクセスして、拡張機能をインストールします。
 
-    キーの生成と必要な権限の取得については、[認証キーの取得](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)を参照してください。 クラウドインストールについては、[Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys)を参照してください
+    キーの生成と必要な権限の取得については、[認証キーの取得](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)を参照してください。 クラウドインストールについては、[Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/authentication-keys)を参照してください
 
 - [Commerce管理者](/help/getting-started/guide-overview.md) - ストア設定を更新し、Commerce ユーザーアカウントを管理します。
 
@@ -122,7 +122,7 @@ Commerce Cloud インスタンスの[!DNL AEM Assets Integration]拡張機能を
    git push origin <branch-name>
    ```
 
-   更新をプッシュすると、[Commerce クラウド デプロイメント プロセス &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process)が開始され、変更が適用されます。 [&#x200B; デプロイ ログ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations#deploy-log)のデプロイメント ステータスを確認します。
+   更新をプッシュすると、[Commerce クラウド デプロイメント プロセス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/deploy/process)が開始され、変更が適用されます。 [&#x200B; デプロイ ログ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/develop/test/log-locations#deploy-log)のデプロイメント ステータスを確認します。
 
 >[!TAB  オンプレミス ]
 
@@ -174,7 +174,7 @@ AEM Assets統合用の![SaaS プロジェクトとデータスペース ID](asse
 - セキュアクラウドストレージのデータスペース名（SaaS識別子）
 - COMMERCEおよびAEM Assets環境がプロビジョニングされるIMS組織ID
 
-詳細な手順については、[Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid) ドキュメントの[Commerce Services Connector設定ビデオ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs)を参照してください。
+詳細な手順については、[Commerce Services Connector](https://experienceleague.adobe.com/ja/docs/commerce/user-guides/integration-services/saas#organizationid) ドキュメントの[Commerce Services Connector設定ビデオ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs)を参照してください。
 
 設定を保存すると、システムは環境用のSaaS プロジェクトとデータベース IDを生成します。 これらの値は、Adobe CommerceとAEM Assets間のアセットの同期を有効にするために必要です。
 
@@ -185,8 +185,8 @@ AEM Assets統合では、Adobe I/O Events サービスを使用して、Commerce
 Adobe I/O Eventsを設定する前に、Commerce プロジェクトのRabbitMQおよびcron ジョブ設定を確認します。
 
 - RabbitMQが有効になっており、イベントをリッスンしていることを確認します。
-  - [Adobe Commerce オンプレミス用RabbitMQ セットアップ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/rabbitmq)
-  - [Adobe Commerce クラウドインフラストラクチャ用RabbitMQ セットアップ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/rabbitmq)
+  - [Adobe Commerce オンプレミス用RabbitMQ セットアップ](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/configure/service/rabbitmq)
+  - [Adobe Commerce クラウドインフラストラクチャ用RabbitMQ セットアップ](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/configure/service/rabbitmq)
   - [cron ジョブが有効になっていることを確認します](https://developer.adobe.com/commerce/extensibility/events/configure-commerce#check-cron-and-message-queue-configuration)。 AEM Assets統合のコミュニケーションとワークフローには、Cron ジョブが必要です。
 
 >[!NOTE]

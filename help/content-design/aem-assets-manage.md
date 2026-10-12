@@ -42,9 +42,9 @@ AEM Assetsでアセットを編集した後、アセットを承認して再処�
 
 詳しくは、次のAEM Assets ドキュメントを参照してください。
 
-- [デジタルアセットの再処理](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+- [デジタルアセットの再処理](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-- [アセットの承認](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+- [アセットの承認](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 
 ## カテゴリへのアセットの追加コンテンツ
 

@@ -42,7 +42,7 @@ ht-degree: 5%
 
 ![Rss設定](./assets/rss-feeds-rss-config.png)<!-- zoom -->
 
-<!-- [Rss Config](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/social-rss) -->
+<!-- [Rss Config](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/communications/social-rss) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -56,7 +56,7 @@ ht-degree: 5%
 
 ![&#x200B; ウィッシュリスト &#x200B;](./assets/rss-feeds-wishlist.png)<!-- zoom -->
 
-<!-- [Wish List](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
+<!-- [Wish List](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlists) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -68,7 +68,7 @@ ht-degree: 5%
 
 ![&#x200B; カタログ &#x200B;](./assets/rss-feeds-catalog.png)<!-- zoom -->
 
-<!-- [Catalog](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu) -->
+<!-- [Catalog](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog-menu) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |

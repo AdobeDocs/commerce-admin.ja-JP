@@ -3,7 +3,7 @@ title: Commerce用AEM Assets パッケージのインストール
 description: CommerceのAEM Assets統合を有効にして、Adobe CommerceとExperience Manager Assets プロジェクト間でアセットを同期するために必要なアセットメタデータを追加します。
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: 'https://experienceleague.adobe.com/RguUlTxT3--5brwirzffVVyKzOK4umst7-M1L8qWlj4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -65,7 +65,7 @@ Adobeには、Commerce名前空間およびメタデータスキーマリソー�
 
 - プログラムおよびデプロイメント マネージャーの役割を持つ[AEM Assets Cloud Manager プログラムおよび環境](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo)へのアクセス。
 
-- [&#x200B; ローカル ローカル開発環境](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)と、AEM開発プロセスに関する知識。
+- [&#x200B; ローカル ローカル開発環境](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)と、AEM開発プロセスに関する知識。
 
 - [AEM プロジェクト構造](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure)と、Cloud Managerを使用してカスタムコンテンツパッケージをデプロイする方法について説明します。
 
@@ -77,11 +77,11 @@ Adobeには、Commerce名前空間およびメタデータスキーマリソー�
 
 1. GitHubから、[Commerce-Assets AEM プロジェクト &#x200B;](https://github.com/ankumalh/assets-commerce)からボイラープレートコードをダウンロードします。
 
-1. [&#x200B; ローカル AEM開発環境](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)から、カスタムコードをAEM Assets環境設定にMaven パッケージとしてインストールするか、コードを既存のプロジェクト設定に手動でコピーします。
+1. [&#x200B; ローカル AEM開発環境](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)から、カスタムコードをAEM Assets環境設定にMaven パッケージとしてインストールするか、コードを既存のプロジェクト設定に手動でコピーします。
 
 1. 変更を確定し、ローカル開発ブランチをCloud Manager Git リポジトリにプッシュします。
 
-1. Cloud Managerから、[&#x200B; コードをデプロイしてAEM環境を更新します](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager)。
+1. Cloud Managerから、[&#x200B; コードをデプロイしてAEM環境を更新します](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager)。
 
 ## メタデータプロファイルの設定
 

@@ -49,7 +49,7 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 _管理者_ ユーザーに対して有効にすると、_[!UICONTROL Login as Customer]_&#x200B;ボタンが複数のページに表示されます。
 
@@ -63,7 +63,7 @@ _管理者_ ユーザーに対して有効にすると、_[!UICONTROL Login as C
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
 
 Adobe Commerce as a Cloud Serviceでは、お客様としてログイン機能で、ダイレクトログインの代わりに&#x200B;**ワンタイムコード（OTC）** ワークフローが使用されます。 管理者は、顧客に対して短時間のみ有効な単一の使用コードを生成します。 このコードは、GraphQLを通じて顧客アクセストークンと交換され、出品者が支援するショッピングシナリオの「顧客としてパスワードレスでログイン」できるようになります。
 
@@ -130,7 +130,7 @@ _お客様としてログイン_&#x200B;を有効にするには、Commerce イ�
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 1. お客様は&#x200B;**[!UICONTROL Account Information]** ページに移動します。
 
@@ -142,7 +142,7 @@ _お客様としてログイン_&#x200B;を有効にするには、Commerce イ�
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
 
 お客様は、`login_as_customer_assistance_allowed`拡張機能の属性を&#x200B;**2**&#x200B;に設定する必要があります。 これは、お客様を作成または編集する際に、管理者またはGraphQLの&#x200B;**お客様を編集** ページで設定できます。
 
@@ -162,7 +162,7 @@ _お客様としてログイン_&#x200B;を有効にするには、Commerce イ�
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 1. _管理者_ サイドバーで、**[!UICONTROL Customers]** > [!UICONTROL _すべての顧客_]&#x200B;に移動します。
 
@@ -178,7 +178,7 @@ _お客様としてログイン_&#x200B;を有効にするには、Commerce イ�
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
 
 >[!NOTE]
 >
@@ -206,7 +206,7 @@ _お客様としてログイン_&#x200B;を有効にするには、Commerce イ�
 
 >[!IMPORTANT]
 >
->生成されたワンタイムコード OTCは、デフォルトで60秒間有効で、1回使用すると無効になります。 TTLは、[&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/home?support-tab=home#support)を送信することで設定できます。
+>生成されたワンタイムコード OTCは、デフォルトで60秒間有効で、1回使用すると無効になります。 TTLは、[&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/home?lang=ja&support-tab=home#support)を送信することで設定できます。
 
 ワンタイムコードが生成されたら、ストアフロントに移動し、次の資格情報を使用してログインすることで使用できます。
 

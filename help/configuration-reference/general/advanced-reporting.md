@@ -3,7 +3,7 @@ title: '[!UICONTROL General] > [!UICONTROL Advanced Reporting]'
 description: Commerce管理者の[!UICONTROL General] > [!UICONTROL Advanced Reporting] ページで設定を確認します。
 exl-id: 3f6311c8-3849-4608-8f2c-64359bd3edbc
 feature: Configuration, Commerce Intelligence
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: 'https://experienceleague.adobe.com/6As8e-RnZECeC2-Pt5dtjTA0N66WPTuRHzeBn8cMqyo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

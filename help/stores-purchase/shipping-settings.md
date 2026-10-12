@@ -106,7 +106,7 @@ POSは、店舗または倉庫からの出荷の料金を計算するために�
 
 ## 電子メールの出荷追跡URL
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
 
 デフォルトでは、買い物客のメールで送信される出荷追跡番号はプレーンテキストです。 カスタムトラッキング URL機能を有効にすることで、これらのトラッキング番号をクリック可能なリンクに変換できます。 この機能を使用すると、様々な配送業者のURLを追跡するためのテンプレートを定義できます。 各テンプレートには、トラッキングサイトへの完全なURLと、トラッキング番号のプレースホルダーが含まれています。 Commerceは、メール内のプレースホルダーを実際のトラッキング番号に置き換えます。
 

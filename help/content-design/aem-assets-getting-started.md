@@ -3,7 +3,7 @@ title: Commerce用AEM Assets統合の設定
 description: ストアのCommerce アセットを管理するためにExperience Manager Assets環境を設定および設定する方法について説明します。
 feature: CMS, Media, Configuration
 exl-id: 699f517e-1545-4c22-aa8d-9c8d60d352af
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: 'https://experienceleague.adobe.com/loyCmoFINQvC-13BGzAUKmcF7gY6T2e6mV-lK-SnVxo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -47,13 +47,13 @@ Commerce用のAdobe Experience Manager Assets統合を設定するには、ア�
 
 この統合を活用するには、次の要件を満たす必要があります。
 
-- Adobe Commerce、Adobe Experience Manager Assets、および[AEM Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media)のアクティブライセンス。
+- Adobe Commerce、Adobe Experience Manager Assets、および[AEM Dynamic Media](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media)のアクティブライセンス。
 
 - Adobe Commerce 2.4.5以降
 
 - Adobe Experience Managerは[Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/overview)でプロビジョニングされています
 
-- 統合を設定するAdobe Commerce ユーザーは、AEM Assets プロジェクトがプロビジョニングされている[IMS Organization](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255)にアクセスできる必要があります。
+- 統合を設定するAdobe Commerce ユーザーは、AEM Assets プロジェクトがプロビジョニングされている[IMS Organization](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255)にアクセスできる必要があります。
 
 ## 主な特長
 

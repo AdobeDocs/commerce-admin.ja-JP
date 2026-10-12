@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ![Web >一般オプション &#x200B;](./assets/web-url-options.png)<!-- zoom -->
 
-<!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [URL Options configuration settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | フィールド | 範囲 | 説明 |
 |  ---  |  ---  |  ---  |
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ![Web > ベース URL](./assets/web-base-urls.png)<!-- zoom -->
 
-<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ![Web > ベース URL （セキュア） &#x200B;](./assets/web-base-urls-secure.png)<!-- zoom -->
 
-<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ![&#x200B; デフォルトレイアウト &#x200B;](./assets/web-default-layouts.png)<!-- zoom -->
 
-<!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
+<!--[Default Layouts](https://experienceleague.adobe.com/ja/docs/commerce-admin/content-design/design/layout/page-layout) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 ![Web > デフォルトのCookie設定](./assets/web-default-cookie-settings.png)<!-- zoom -->
 
-<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
+<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
