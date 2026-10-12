@@ -102,7 +102,7 @@ _campaign_&#x200B;という用語は、スケジュールされた変更のレ�
 
 コンテンツのステージングについて詳しくは、次の動画をご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410856?captions=jpn&quality=12&learn=on)
 
 ## リソースのトラブルシューティング
 

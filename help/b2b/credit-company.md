@@ -188,7 +188,7 @@ B2B企業は、自社のクレジットを利用して、すぐに支払いを�
 
 企業のクレジット管理について詳しくは、次のデモ動画をご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410761?captions=jpn&quality=12&learn=on)
 
 ## セキュリティに関する検討事項
 

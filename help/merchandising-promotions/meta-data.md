@@ -131,4 +131,4 @@ URLからカテゴリを省略するか、正規のメタタグを使用して�
 
 SEO メタデータの管理について詳しくは、次の動画をご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410176?captions=jpn&quality=12&learn=on)
