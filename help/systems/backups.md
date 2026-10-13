@@ -3,7 +3,7 @@ title: システムバックアップ
 description: ファイルシステム、データベース、メディアファイルなどのシステムバックアップを作成およびスケジュールする方法について説明します。
 exl-id: 3a9655c1-c124-42be-a487-b31404dada90
 feature: System, Configuration
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 last-update: 2026-08-20
 TQID: 'https://experienceleague.adobe.com/kx2acbOSrWMJGv3ST6qKAXjLPgL2Lsh16wWvOxNO7FE'
 product_v2:
@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 Adobe CommerceとMagento Open Sourceでは、ファイルシステム、データベース、メディアファイルなど、システムのさまざまな部分をバックアップし、自動的にロールバックできます。 各バックアップのレコードが&#x200B;_バックアップ_ ページのグリッドに表示されます。 リストからレコードを削除すると、アーカイブされたファイルも削除されます。 データベースバックアップファイルは、GZ形式を使用して圧縮されます。 システム・バックアップとデータベース・バックアップおよびメディア・バックアップには、TGZ形式が使用されます。 ベストプラクティスとして、拡張機能とアップデートをインストールする前に、バックアップツールへのアクセスを制限し、バックアップする必要があります。
 
-- **バックアップ ツールへのアクセスを制限します。** バックアップおよびロールバック管理ツールへのアクセスは、バックアップおよびロールバック リソース用に[&#x200B; ユーザーの役割](permissions-user-roles.md)を設定することで制限できます。 アクセスを制限するには、対応するチェックボックスを選択しないままにします。 リソースをロールバックするためのアクセス権を付与するには、バックアップリソースへのアクセス権も付与する必要があります。
+- **バックアップ ツールへのアクセスを制限します。** バックアップおよびロールバック管理ツールへのアクセスは、バックアップおよびロールバック リソース用に[ ユーザーの役割](permissions-user-roles.md)を設定することで制限できます。 アクセスを制限するには、対応するチェックボックスを選択しないままにします。 リソースをロールバックするためのアクセス権を付与するには、バックアップリソースへのアクセス権も付与する必要があります。
 
 - **拡張機能とアップデートをインストールする前にバックアップします。** 拡張機能またはアップデートをインストールする前に、必ずバックアップを実行してください。
 
@@ -50,7 +50,7 @@ Adobe CommerceとMagento Open Sourceでは、ファイルシステム、デー�
 
 ## バックアップの有効化とスケジュール
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL System]**&#x200B;を選択します。
 
@@ -66,13 +66,13 @@ Adobe CommerceとMagento Open Sourceでは、ファイルシステム、デー�
    - **[!UICONTROL Frequency]**&#x200B;を`Daily`、`Weekly`または`Monthly`に設定します。
    - **[!UICONTROL Maintenance Mode]**&#x200B;を`Yes`に設定します。
 
-   ![詳細設定 – バックアップ &#x200B;](../configuration-reference/advanced/assets/system-scheduled-backup-settings.png){width="600" zoomable="yes"}
+   ![詳細設定 – バックアップ ](../configuration-reference/advanced/assets/system-scheduled-backup-settings.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
 ## バックアップの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Backups]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Backups]**に移動します。
 
 1. 右上隅で、作成するバックアップの種類をクリックします。
 
@@ -82,7 +82,7 @@ Adobe CommerceとMagento Open Sourceでは、ファイルシステム、デー�
 
    - **[!UICONTROL Database Backup]** - データベースのバックアップを作成します。
 
-   ![&#x200B; システム ツール – バックアップ &#x200B;](./assets/tools-backups.png){width="600" zoomable="yes"}
+   ![ システム ツール – バックアップ ](./assets/tools-backups.png){width="600" zoomable="yes"}
 
 1. バックアップ中にストアをメンテナンスモードにするには、チェックボックスをオンにします。
 
@@ -94,4 +94,4 @@ Adobe CommerceとMagento Open Sourceでは、ファイルシステム、デー�
 
 
 
-<!-- Last updated from includes: 2023-02-22 09:59:54 -->
+<!-- Last updated from includes: 2026-08-20 14:27:46 -->
