@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: c855fa4ca30318b8b0256ce67649d3204b3de814
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '515'
 ht-degree: 0%
 ---
 # カートの価格ルール
@@ -77,8 +77,8 @@ ht-degree: 0%
 | [!UICONTROL Status] | このオプションを使用して、ルールの状態（`Active`または`Inactive`）に基づいてリストをフィルタリングします。 |
 | [!UICONTROL Web Site] | このオプションを使用すると、ルールに対して定義されたweb サイトに基づいてリストをフィルタリングできます。 |
 | [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）「**[!UICONTROL Edit]**」をクリックして&#x200B;_[!UICONTROL Rule Information]_&#x200B;ページを表示し、ルール設定を更新します（ルールの作成と同様）。 |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）動的カレンダーフィールド（_[!UICONTROL To:]_&#x200B;および&#x200B;_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたとおりに、ルールの開始日に基づいてリストをフィルタリングします。 |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) （Magento Open Sourceのみ）動的カレンダーフィールド（_[!UICONTROL To:]_&#x200B;および&#x200B;_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたとおりに、ルールの終了日に基づいてリストをフィルタリングします。 |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) （Magento Open SourceおよびAdobe Commerce as a Cloud Serviceのみ）動的カレンダーフィールド（_[!UICONTROL To:]_&#x200B;および&#x200B;_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたとおりに、ルールの開始日に基づいてリストをフィルタリングします。 <br><br>![Adobe Commerce](../assets/adobe-logo.svg) （[!DNL Adobe Commerce as a Cloud Service]のみ）動的カレンダーフィールド（宛先：および送信元：）を使用して、ルールの開始日時に基づいてリストをフィルタリングします。 |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) （Magento Open SourceおよびAdobe Commerce as a Cloud Serviceのみ）動的カレンダーフィールド（_[!UICONTROL To:]_&#x200B;および&#x200B;_[!UICONTROL From:]_）を使用して、ルールの作成時に定義されたとおりに、ルールの終了日に基づいてリストをフィルタリングします。 <br><br>![Adobe Commerce](../assets/adobe-logo.svg) （[!DNL Adobe Commerce as a Cloud Service]のみ）動的カレンダーフィールド（宛先：および送信元：）を使用して、ルールの終了日時に基づいてリストをフィルタリングします。 |
 
 {style="table-layout:auto"}
 
