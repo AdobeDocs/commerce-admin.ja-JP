@@ -3,7 +3,7 @@ title: カタログの強化
 description: Adobe Commerceのネイティブカタログエンリッチメント機能を使用して、AIが提案した改善点をレビューし、LLMとAIが支援する発見のために、商品名と長い説明文に適用します。
 role: Admin, User, Leader
 recommendations: noCatalog
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 68a48c6de1c76eca5b4cee4442e8793fb4bd29ee
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2429'
 ht-degree: 0%
 ---
 # カタログの強化
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->カタログの強化は、舞台裏の[!DNL Commerce Catalog Agent]と[!DNL Adobe LLM Optimizer]によって強化されています。 Commerce カタログワークフローの一部としてエンリッチメントを使用します。 承認済みの名前と説明の更新を適用するために、個別のLLM Optimizer統合を管理することはありません。 Commerce以外の幅広いLLMの監視と最適化については、[LLM Optimizer製品ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/brand-visibility/using/home)を参照してください。
+>カタログの強化は、舞台裏の[!DNL Commerce Catalog Agent]と[!DNL Adobe Brand Visibility]によって強化されています。 Commerce カタログワークフローの一部としてエンリッチメントを使用します。 承認済みの名前と説明の更新を適用するために、個別のAdobe Brand Visibility統合を管理することはありません。 Commerce以外の幅広いLLMの監視と最適化については、[[!DNL Adobe Brand Visibility] 製品ドキュメント ](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home)を参照してください。
 
 ## 仕組み {#how-it-works}
 
@@ -80,14 +80,26 @@ Commerceには商品名と長い説明が保存されているため、一度編
 カタログのエンリッチメントにアクセスできる場合は、次の前提条件が適用されます。
 
 - ストアフロントはLLM向けおよびエージェント型のボットでクロールできます。カタログに応じた提案を行うにはクロールで対応する必要があります。
-- 必要なCommerce サービスとカタログ接続が有効になり、正常に動作します。 詳細については、[&#x200B; カタログの強化を有効にする](#enable-catalog-enrichment)を参照してください。
-- [IMSが設定されています](https://experienceleague.adobe.com/ja/docs/core-services/interface/administration/organizations)。
-- [Adobe Admin Console](https://helpx.adobe.com/jp/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)にアクセスできます。
+- 必要なCommerce サービスとカタログ接続が有効になり、正常に動作します。 詳細については、[ カタログの強化を有効にする](#enable-catalog-enrichment)を参照してください。
+- カタログエンリッチメントにアクセスするCommerce管理者ユーザーは、Adobe IMSを使用してログインします。 [IMS ログインと組織の要件](#ims-sign-in-requirements)を参照してください。
+- [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)にアクセスできます。
 - 組織が基礎となるAI サービスに対して、生成AIに乗り換えたり、明示的にオプトアウトしたりしました。
 
 >[!NOTE]
 >
 >Commerceでは、設定の一環として、カタログ強化の背後にあるAI サービスをカバーするGenAI ライダーに署名したかどうかを確認します。 ライダーにまだ署名していない場合やオプトアウトしていない場合は、カタログの強化を使用する前に、ライダーに署名するか更新するかを求めるメッセージが表示されます。
+
+### IMS ログインと組織の要件 {#ims-sign-in-requirements}
+
+カタログのエンリッチメントでは、サインイン済みのCommerce管理者ユーザーのAdobe IMSアクセストークンを使用して[!DNL Adobe Brand Visibility]に接続します。 Commerceのユーザー名とパスワードのみを使用したネイティブのCommerce管理者ログインでは、このトークンは生成されないため、カタログエンリッチメントにアクセスする管理者ユーザーはAdobe IMSを使用してログインする必要があります。
+
+IMS ログインをサポートするには、Commerce インスタンスでCommerce Admin Integration with Adobe IDが有効になっている必要があります。 [Adobe IDとのCommerce Admin Integrationの設定](/help/getting-started/adobe-ims-config.md)を参照してください。
+
+>[!IMPORTANT]
+>
+>Adobe IDとのCommerce管理者統合を有効にすることは、インスタンス全体の変更です。 有効にすると、すべての管理者ユーザーはAdobe IMSを通じて認証する必要があり、ネイティブのCommerce ユーザー名とパスワードのログインは使用できなくなります。 この統合を有効にする前に、[Adobe Identity Management Service （IMS）統合の概要](/help/getting-started/adobe-ims-integration-overview.md)を確認してください。
+
+Commerce インスタンスに関連付けられているAdobe IMS組織は、通常、[!DNL Adobe Brand Visibility]の使用権限を保持しているIMS組織とは異なります。 Adobe IDとのCommerce管理者統合を有効にすると、ブランドの可視性の使用権限へのアクセス権が付与されず、2つの組織が同じである必要はありません。 Adobeの管理者またはアカウントチームと協力して、設定に必要なIMS組織のメンバーシップとアカウントアクセスカタログのエンリッチメントを確認します。
 
 ## カタログの強化を有効にする {#enable-catalog-enrichment}
 
@@ -102,7 +114,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
    composer update magento/module-catalog-enrichment
    ```
 
-1. カタログサービスをまだインストールしていない場合は、[実行してください](https://experienceleague.adobe.com/ja/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
+1. カタログサービスをまだインストールしていない場合は、[実行してください](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
 
    **[!UICONTROL Catalog enrichment]**&#x200B;は、お使いのCommerce インスタンスで利用できるようになりました。
 
@@ -110,20 +122,22 @@ Commerceには商品名と長い説明が保存されているため、一度編
 
 カタログ エンリッチメントおよびカタログ サービス拡張機能をインストールすると、カタログ エンリッチメント機能が管理者の&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**&#x200B;で利用できるようになります。
 
-![&#x200B; カタログの強化](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+![ カタログの強化](./assets/catalog-enrichment-menu.png){zoomable="yes"}
 
-### カタログエンリッチメントの設定
+### カタログエンリッチメントの設定 {#configure-catalog-enrichment}
 
 **[!UICONTROL Settings]** タブでカタログのエンリッチメントを設定して、[!DNL Commerce Catalog Agent]がお客様の[!DNL Adobe Commerce]環境に接続し、Commerce Adminで提案を表示できるようにします。
+
+このタブのフィールドは、カタログエンリッチメントが接続するCommerce環境とストアビューを識別します。 これらは、[!DNL Adobe Brand Visibility]の使用権限を保持するAdobe IMS組織とは別です。 [IMS ログインと組織の要件](#ims-sign-in-requirements)を参照してください。
 
 1. 管理画面で、**[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**&#x200B;に移動します。
 1. ページの上部にある&#x200B;**[!UICONTROL Scope]** リストで、設定するストアビューを選択するか、**[!UICONTROL All Store Views]**&#x200B;のままにして、ストアビュー全体の設定を管理します。
 1. 「**[!UICONTROL Settings]**」タブを開きます。
 1. **[!UICONTROL Commerce Configuration]**&#x200B;で、URLがラベル付きのストアビューパネルを展開します。
 
-   カタログ LLM Optimizer サービスと監査ワークフローを有効にするには、[!DNL Adobe Commerce]環境の詳細を指定します。
+   カタログ Adobe Brand Visibility サービスと監査ワークフローを有効にするには、[!DNL Adobe Commerce]環境の詳細を指定します。
 
-   ![&#x200B; カタログエンリッチメント設定タブのCommerce設定](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
+   ![ カタログエンリッチメント設定タブのCommerce設定](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. ストアビューに必要な接続の詳細を入力します。
 
@@ -161,7 +175,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 - **[!UICONTROL Fixed Suggestions]**：既に適用または解決済みの項目。
 - **[!UICONTROL Ignored Suggestions]**: アクションから意図的に除外した項目。
 
-![&#x200B; カタログの強化](./assets/agentic-opportunities.png){zoomable="yes"}
+![ カタログの強化](./assets/agentic-opportunities.png){zoomable="yes"}
 
 ### 承認済み提案をデプロイ {#review-deploy-catalog}
 
