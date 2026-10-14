@@ -44,7 +44,8 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+last-update: 2026-10-13
+source-git-commit: 64a830dd0fc15cbe1c87e5a98f953e253c5db2bd
 workflow-type: tm+mt
 source-wordcount: '11211'
 ht-degree: 0%
@@ -60,6 +61,8 @@ B2B拡張機能のリリースノートでは、Adobeがリリースサイクル
 >[!NOTE]
 >
 >使用可能なAdobe Commerce リリースでサポートされているB2B Commerce拡張機能のバージョンについては、[製品の可用性](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/product-availability)を参照してください。
+
+{{$include /help/_includes/templated/release-notes-v1-5-4.md}}
 
 ## B2B v1.5.3
 
@@ -1160,3 +1163,5 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 - 複数のweb サイトを展開する場合、Adobe CommerceはB2B 1.2.0へのアップグレード中に例外をスローします。 `setup:upgrade`が実行されると、このエラーは`PurchaseOrder` モジュール `Module Magento_PurchaseOrder: Unable to apply data patch Magento\PurchaseOrder\Setup\Patch\Data\InitPurchaseOrderSalesSequence for moduleMagento_PurchaseOrder`で発生します。 **回避策**: `B2B-716 Add NonTransactionableInterface` インターフェイスを`InitPurchaseOrderSalesSequence` データ パッチのホットフィックスにインストールします。このホットフィックスは、`magento.com`の&#x200B;**マイアカウント** > **ダウンロード** セクションで利用できるようになりました。
 - 発注（PO）が承認される前に割引コードが期限切れになると、POは引き続き割引額を表示しますが、POが承認されると、注文は割引対象外の合計に配置されます。 **回避策**：この問題の`B2B-709 Purchase Order Discount patch`修正プログラムをインストールします。この修正プログラムは、`magento.com`の&#x200B;**マイアカウント** > **ダウンロード** セクションで利用できるようになりました。
 - 発注の品目が在庫切れになったり、発注書を実際の注文に変換する際に数量が不足したりすると、エラーが発生します。 バックオーダーが有効になっている場合、注文は正常に処理されます。
+
+<!-- Last updated from includes: 2026-10-09 17:06:14 -->

@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 0%
@@ -128,3 +128,5 @@ Commerceは新しいキーペアを生成し、秘密鍵を保存します。 �
 > - [&#x200B; サービス/ACO カタログビュー](../configuration-reference/services/aco-catalog-view.md) — ストアフロントのアクセストークンの有効期間を設定し、発行を有効または無効にします
 > - *Adobe Commerce Optimizer コネクタ ガイド*&#x200B;の[制限付きアクセス キーの管理](https://experienceleague.adobe.com/ja/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} – これらのキーをB2B共有カタログ同期に適合させる方法について説明します
 > - *Adobe Commerce Optimizer ガイド*&#x200B;の[制限付きアクセスキー](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} — B2B以外のユースケース向けのACO Studio ベースの手動キーフロー
+
+<!-- Last updated from includes: 2026-10-01 08:33:41 -->
