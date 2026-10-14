@@ -201,7 +201,7 @@ _[!UICONTROL Store Information]_&#x200B;セクションには、販売文書や�
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 加盟店の場所の設定は、[支払い方法](../stores-purchase/payments.md)の設定に使用されます。 この設定に値がない場合は、[既定の国](#uicontrol-country-options)設定が使用されます。
 
@@ -243,7 +243,7 @@ _[!UICONTROL Store Information]_&#x200B;セクションには、販売文書や�
 
 ### 手順2：生成されたリンクのベース URLの設定
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
 
 顧客がパスワードをリセットするのに役立つリンクなど、一部の顧客向けメールにはストアへのリンクが含まれています。 ストアフロントへのリンクが機能することを確認するには、ストアフロントへのベース URLを定義する必要があります。
 
@@ -257,7 +257,7 @@ _[!UICONTROL Store Information]_&#x200B;セクションには、販売文書や�
 
 ### 手順3：ストアのメールアドレスを設定する
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}送信者のメールアドレスは、インスタンスのプロビジョニング時に設定されます。 これらのアドレスを変更する必要がある場合は、サポートチケットを作成します。
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}送信者のメールアドレスは、インスタンスのプロビジョニング時に設定されます。 これらのアドレスを変更する必要がある場合は、サポートチケットを作成します。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
