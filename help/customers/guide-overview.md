@@ -46,15 +46,15 @@ ht-degree: 6%
 | ------- | ----------- |
 | [はじめに](customers-introduction.md) | Commerce Adminでの顧客管理機能の使用の概要。 |
 | 顧客管理ツール | Commerce Adminで[[!UICONTROL Customers] grid](customers-all.md)および[[!UICONTROL Now Online]機能](now-online.md)を使用して、ストアのお客様を管理する方法を説明します。 |
-| 顧客アカウント | [ ログイン ](login-landing-page.md)から[ パスワードリスト ](password-reset.md)まで、ストアフロントで登録されたお客様に最適なエクスペリエンスを提供する方法と、[買い物客のサポート ](login-as-customer.md)を提供する方法について説明します。 |
+| 顧客アカウント | [&#x200B; ログイン &#x200B;](login-landing-page.md)から[&#x200B; パスワードリスト &#x200B;](password-reset.md)まで、ストアフロントで登録されたお客様に最適なエクスペリエンスを提供する方法と、[買い物客のサポート &#x200B;](login-as-customer.md)を提供する方法について説明します。 |
 | [大規模なPersonalization](personalize-scale.md) | 直近のコンテキストと以前に観察された行動にもとづいて、あらゆる顧客接点でショッピング体験をパーソナライズするために利用できる機能について説明します。 |
 | [[!DNL Audience Activation]](audience-activation.md) | Adobe CommerceでReal-Time CDP オーディエンスをアクティブ化し、カート、ダイナミックブロック、および関連商品のユニークなオファーを通知する[!DNL Audience Activation]拡張機能について説明します。 |
-| [顧客グループ ](customer-groups.md) | 顧客グループを使用して、グループに割り当てられている顧客と、そのグループに関連付けられている税区分に対して使用できる割引を決定する方法を説明します。 |
-| [顧客セグメント ](customer-segments.md) | 様々なプロパティにもとづいて、特定の顧客にコンテンツやプロモーションを動的に表示するために使用できる顧客セグメントを定義します。 |
+| [顧客グループ &#x200B;](customer-groups.md) | 顧客グループを使用して、グループに割り当てられている顧客と、そのグループに関連付けられている税区分に対して使用できる割引を決定する方法を説明します。 |
+| [顧客セグメント &#x200B;](customer-segments.md) | 様々なプロパティにもとづいて、特定の顧客にコンテンツやプロモーションを動的に表示するために使用できる顧客セグメントを定義します。 |
 
 >[!TIP]
 >
->Adobe Commerce B2Bを使用すると、個々のストアフロント顧客アカウントに関連付けられた企業アカウントを管理できます。 会社アカウント機能について詳しくは、[Adobe Commerce B2B ユーザーガイド ](../b2b/account-companies.md)を参照してください。
+>Adobe Commerce B2Bを使用すると、個々のストアフロント顧客アカウントに関連付けられた企業アカウントを管理できます。 会社アカウント機能について詳しくは、[Adobe Commerce B2B ユーザーガイド &#x200B;](../b2b/account-companies.md)を参照してください。
 
 ## その他のドキュメント
 

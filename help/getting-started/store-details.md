@@ -46,9 +46,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Store Information]
 
-_[!UICONTROL Store Information]_セクションには、販売文書やその他のコミュニケーションに表示される基本情報が表示されます。
+_[!UICONTROL Store Information]_&#x200B;セクションには、販売文書やその他のコミュニケーションに表示される基本情報が表示されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルの「**[!UICONTROL General]**」で、「**[!UICONTROL General]**」を選択します。
 
@@ -91,13 +91,13 @@ _[!UICONTROL Store Information]_セクションには、販売文書やその他
 
 ロケール設定は、各店舗で使用されるタイムゾーンと言語を決定し、エリア内の作業週の日数を特定します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. **[!UICONTROL General]**&#x200B;の下の左側のナビゲーションパネルで、**[!UICONTROL General]**&#x200B;を選択します。
 
 1. **[!UICONTROL Locale Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![一般設定 – ロケールオプション ](./assets/general-locale-options.png){width="700"}
+   ![一般設定 – ロケールオプション &#x200B;](./assets/general-locale-options.png){width="700"}
 
 1. リストから&#x200B;**[!UICONTROL Timezone]**&#x200B;を選択します。
 
@@ -113,7 +113,7 @@ _[!UICONTROL Store Information]_セクションには、販売文書やその他
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-ロケール設定オプションについて詳しくは、[設定リファレンスガイド ](../configuration-reference/general/general.md#locale-options)を参照してください。
+ロケール設定オプションについて詳しくは、[設定リファレンスガイド &#x200B;](../configuration-reference/general/general.md#locale-options)を参照してください。
 
 ## [!UICONTROL State Options]
 
@@ -121,13 +121,13 @@ _[!UICONTROL Store Information]_セクションには、販売文書やその他
 
 標準アドレス形式は国によって異なるため、請求書、梱包明細、および配送ラベルのアドレスの書式設定に使用するテンプレートを編集することもできます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルの「**[!UICONTROL General]**」で、「**[!UICONTROL General]**」を選択します。
 
 1. **[!UICONTROL State Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![一般設定 – 状態オプション ](./assets/general-state-options.png){width="700"}
+   ![一般設定 – 状態オプション &#x200B;](./assets/general-state-options.png){width="700"}
 
 1. **[!UICONTROL State is required for]** リストを使用して、地域/州が必須エントリである国を選択します。
 
@@ -139,7 +139,7 @@ _[!UICONTROL Store Information]_セクションには、販売文書やその他
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-状態設定オプションについて詳しくは、[設定リファレンスガイド ](../configuration-reference/general/general.md#state-options)を参照してください。
+状態設定オプションについて詳しくは、[設定リファレンスガイド &#x200B;](../configuration-reference/general/general.md#state-options)を参照してください。
 
 ## [!UICONTROL Country Options]
 
@@ -147,7 +147,7 @@ _[!UICONTROL Store Information]_セクションには、販売文書やその他
 
 ### ストアの国オプションを設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. **[!UICONTROL General]**&#x200B;の下の左側のナビゲーションパネルで、**[!UICONTROL General]**&#x200B;を選択します。
 
@@ -179,7 +179,7 @@ _[!UICONTROL Store Information]_セクションには、販売文書やその他
 
 また、利用可能な[配送方法](../stores-purchase/delivery.md) （UPS、FedExなど）ごとに、特定の国への配送を設定することもできます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Delivery Methods]**&#x200B;を選択します。
 
@@ -205,17 +205,17 @@ _[!UICONTROL Store Information]_セクションには、販売文書やその他
 
 加盟店の場所の設定は、[支払い方法](../stores-purchase/payments.md)の設定に使用されます。 この設定に値がない場合は、[既定の国](#uicontrol-country-options)設定が使用されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Payment Methods]**&#x200B;を選択します。
 
 1. **マーチャントの場所** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、**[!UICONTROL Merchant Country]**&#x200B;を選択します。
 
-   ![ マーチャントの場所の設定](./assets/payment-methods-merchant-location.png){width="600"}
+   ![&#x200B; マーチャントの場所の設定](./assets/payment-methods-merchant-location.png){width="600"}
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
-支払い方法の設定オプションについて詳しくは、[設定リファレンスガイド ](../configuration-reference/sales/payment-methods.md)を参照してください。
+支払い方法の設定オプションについて詳しくは、[設定リファレンスガイド &#x200B;](../configuration-reference/sales/payment-methods.md)を参照してください。
 
 ## 通貨
 
@@ -247,7 +247,7 @@ _[!UICONTROL Store Information]_セクションには、販売文書やその他
 
 顧客がパスワードをリセットするのに役立つリンクなど、一部の顧客向けメールにはストアへのリンクが含まれています。 ストアフロントへのリンクが機能することを確認するには、ストアフロントへのベース URLを定義する必要があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルの「**[!UICONTROL General]**」で、「**[!UICONTROL Store Email Addresses]**」を選択します。
 
@@ -259,7 +259,7 @@ _[!UICONTROL Store Information]_セクションには、販売文書やその他
 
 [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}送信者のメールアドレスは、インスタンスのプロビジョニング時に設定されます。 これらのアドレスを変更する必要がある場合は、サポートチケットを作成します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルの「**[!UICONTROL General]**」で、「**[!UICONTROL Store Email Addresses]**」を選択します。
 
@@ -291,7 +291,7 @@ _[!UICONTROL Store Information]_セクションには、販売文書やその他
 
 1. **[!UICONTROL Order]**&#x200B;から始めて、各メッセージのセクションを展開し、正しい送信者が選択されていることを確認します。
 
-   ![営業設定 – セールスメール ](./assets/sales-emails-order.png){width="600"}
+   ![営業設定 – セールスメール &#x200B;](./assets/sales-emails-order.png){width="600"}
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
@@ -303,19 +303,19 @@ _[!UICONTROL Store Information]_セクションには、販売文書やその他
 
 デフォルトの問い合わせフォームは、CMS ページではなくコードから直接レンダリングされることを理解することが重要です。
 
-![既定のお問い合わせページ ](./assets/page-contact-us-default.png){width="700"}
+![既定のお問い合わせページ &#x200B;](./assets/page-contact-us-default.png){width="700"}
 
 ストアフッターには、ストア全体で利用できる問い合わせページへのリンクが含まれています。
 
-![ フッター内のお問い合わせリンク ](./assets/storefront-footer-contact-us.png){width="700"}
+![&#x200B; フッター内のお問い合わせリンク &#x200B;](./assets/storefront-footer-contact-us.png){width="700"}
 
 Luma サンプルデータには、お問い合わせページに関する追加情報が含まれており、ストアのページをカスタマイズする方法を示しています。
 
-![お問い合わせページ ](./assets/storefront-contact-us.png){width="700"}
+![お問い合わせページ &#x200B;](./assets/storefront-contact-us.png){width="700"}
 
 ### 問い合わせフォームの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. **[!UICONTROL General]**&#x200B;の下の左側のナビゲーションパネルで、**[!UICONTROL Contacts]**&#x200B;を選択します。
 
@@ -325,7 +325,7 @@ Luma サンプルデータには、お問い合わせページに関する追加
 
 1. **[!UICONTROL Email Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、電子メールの連絡先オプションを設定します。
 
-   ![一般設定 – メールオプション ](./assets/contacts-email-options.png){width="600"}
+   ![一般設定 – メールオプション &#x200B;](./assets/contacts-email-options.png){width="600"}
 
    - **[!UICONTROL Send Emails to]**&#x200B;の場合は、お問い合わせフォームのメッセージが送信されるメールアドレスを入力してください。
 
@@ -341,27 +341,27 @@ _お問い合わせ_ フォームのコンテンツは、店舗およびカス�
 
 ### 方法1：サンプルデータの使用
 
-Luma サンプルデータには、ストアに合わせてカスタマイズできる&#x200B;_お問い合わせ情報_ ブロックが含まれています。 `contact-us-info` [ ブロック ](../content-design/blocks.md)は、簡単に変更して、お問い合わせページに独自のコンテンツを追加できます。
+Luma サンプルデータには、ストアに合わせてカスタマイズできる&#x200B;_お問い合わせ情報_ ブロックが含まれています。 `contact-us-info` [&#x200B; ブロック &#x200B;](../content-design/blocks.md)は、簡単に変更して、お問い合わせページに独自のコンテンツを追加できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**&#x200B;に移動します。
 
 1. リスト内の&#x200B;**[!UICONTROL Contact Us Info]** ブロックを見つけ、**[!UICONTROL Edit]** モードで開きます。
 
-   ![お問い合わせ情報ブロック ](./assets/content-block-contact-us-info.png){width="700"}
+   ![お問い合わせ情報ブロック &#x200B;](./assets/content-block-contact-us-info.png){width="700"}
 
 1. ブロックページの下部にある「**[!UICONTROL Edit with Page Builder]**」をクリックします。
 
-   ![ コンテンツブロック – お問い合わせ例](./assets/content-block-contact-us-content.png){width="700"}
+   ![&#x200B; コンテンツブロック – お問い合わせ例](./assets/content-block-contact-us-content.png){width="700"}
 
    >[!NOTE]
    >
-   >[[!DNL Page Builder] 無効](../page-builder/setup.md#disable-dnl-page-builder)の場合、エディター[ ツールバー](../content-design/editor.md)を使用してテキストを書式設定し、[画像](../content-design/editor-insert-image.md)および[ リンク ](../content-design/editor-insert-link.md)を追加できます。
+   >[[!DNL Page Builder] 無効](../page-builder/setup.md#disable-dnl-page-builder)の場合、エディター[&#x200B; ツールバー](../content-design/editor.md)を使用してテキストを書式設定し、[画像](../content-design/editor-insert-image.md)および[&#x200B; リンク &#x200B;](../content-design/editor-insert-link.md)を追加できます。
 
-1. HTML コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン ](../page-builder/assets/pb-icon-settings.png)）アイコンを選択します。
+1. HTML コンテナにカーソルを合わせてツールボックスを表示し、_設定_ （![設定アイコン &#x200B;](../page-builder/assets/pb-icon-settings.png)）アイコンを選択します。
 
 1. ストアの連絡先情報に従ってHTML コードを編集し、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-   ![ コンテンツブロック - HTML コードを編集](./assets/content-block-contact-us-html.png){width="700"}
+   ![&#x200B; コンテンツブロック - HTML コードを編集](./assets/content-block-contact-us-html.png){width="700"}
 
 1. [!DNL Page Builder] ステージを終了し、**[!UICONTROL Save Block]**&#x200B;をクリックします。
 
@@ -371,4 +371,4 @@ Luma サンプルデータには、ストアに合わせてカスタマイズで
 >
 >2.4.0 リリース以降、CMS ブロックまたはCMS ページ内で問い合わせフォームを呼び出せなくなりました。 問い合わせフォームのカスタマイズは、layout xmlまたはカスタムテーマテンプレートを使用して行う必要があります。
 
-デフォルトでは、買い物客はストアフロントページのフッターにある&#x200B;_問い合わせリンク_&#x200B;を使用して、問い合わせフォームにアクセスします。 問い合わせページのカスタマイズについて詳しくは、[ フロントエンド開発者ガイド ](https://developer.adobe.com/commerce/frontend-core/guide/themes/)を参照してください。
+デフォルトでは、買い物客はストアフロントページのフッターにある&#x200B;_問い合わせリンク_&#x200B;を使用して、問い合わせフォームにアクセスします。 問い合わせページのカスタマイズについて詳しくは、[&#x200B; フロントエンド開発者ガイド &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/themes/)を参照してください。
