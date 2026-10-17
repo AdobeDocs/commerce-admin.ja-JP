@@ -103,7 +103,7 @@ ht-degree: 0%
 
 ![&#x200B; パスワードオプション &#x200B;](./assets/customer-configuration-password-options.png)<!-- zoom -->
 
-<!-- [Password Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
+<!-- [Password Options](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
