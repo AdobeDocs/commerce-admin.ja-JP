@@ -49,7 +49,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe CommerceおよびMagento Open Sourceの決済サービスでは、サンドボックステストやシンプルな設定など、ターンキー型のセルフサービスソリューションを提供し、堅牢で安全な決済処理を実現します。 この強力なツールセットと、購入者に最適なエクスペリエンスを構築するために必要なinsightとコントロールを提供する方法について詳しくは、[_決済サービスユーザーガイド_](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)を参照してください。
+>Adobe CommerceおよびMagento Open Sourceの決済サービスでは、サンドボックステストやシンプルな設定など、ターンキー型のセルフサービスソリューションを提供し、堅牢で安全な決済処理を実現します。 この強力なツールセットと、購入者に最適なエクスペリエンスを構築するために必要なinsightとコントロールを提供する方法について詳しくは、[_決済サービスユーザーガイド_](https://experienceleague.adobe.com/ja/docs/commerce/payment-services/guide-overview)を参照してください。
 
 {{config}}
 
