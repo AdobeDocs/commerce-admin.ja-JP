@@ -1,7 +1,7 @@
 ---
-source-git-commit: 104cd926fa6ec987613694d0960b66cfc30dfc1b
+source-git-commit: e114ec8857feefd8cd9db5a9b8ed7f0f39e135d1
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '549'
 ht-degree: 1%
 ---
 # 新しいテンプレート
@@ -9,6 +9,36 @@ ht-degree: 1%
 ## 最新情報
 
 このセクションには、過去60日間に行われた変更が含まれます。 コピー編集などのマイナーな更新は、このリストから除外されます。
+
+### 2026年10月13日（PT）
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>説明</th>
+      <th>タイプ</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce B2B 1.5.4-alpha1の修正済み問題の詳細を<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/release-notes">B2B リリースノート </a>に追加し、利用可能なGitHub リファレンスを含むコンポーネントでグループ化しました。</p>
+</td>
+      <td>
+        リリースノート
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1e12f5ec4271d0f11872bfca56e73efa843aba82">コミット</a></td>
+    </tr>
+    <tr>
+      <td><p>Adobe IMSによるカタログ強化へのログインに関するガイダンスを含む<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/catalog-enrichment"> カタログ強化</a>を更新し、Commerce IMS組織とAdobe Brand Visibilityの使用権限を保持する組織の違いを明確にし、スクリーンショットを更新しました。</p>
+</td>
+      <td>
+        メジャーアップデート
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/071b39214ebbd52a656e2f9278dc6696455cb856">コミット</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026年10月8日（PT）
 
