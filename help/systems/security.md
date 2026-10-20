@@ -65,7 +65,7 @@ Adobe CommerceまたはMagento Open Sourceのサイトが侵害されたと疑�
 
 1. **クリーン**: [適格コンサルタント &#x200B;](https://solutionpartners.adobe.com/s/directory/?partner_type=1)またはオンラインサービスを雇用して、サイトに存在するすべての悪意のあるコードをクリーニングします。 一部のCommerce コミュニティ メンバーは[[!DNL Sucuri Website Malware Removal]](https://sucuri.net/website-antivirus/malware-removal)を推奨しています。 残りの実行可能なコードについては、`/media` フォルダーを確認してください。 不明な管理者ユーザーをすべて削除し、すべての管理者パスワードをリセットします。
 
-1. **Protect**：最新のリリースで、Commerceのインストールを最新の状態に保ちます。 古いバージョンを使用している場合は、利用可能になったすべてのセキュリティパッチを適用します。 [Commerceのセキュリティに関するベストプラクティス &#x200B;](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf)を確認してフォローします。 [Commerce セキュリティ アラート &#x200B;](https://www.adobe.com/subscription/adbeSecurityNotifications.html)を購読します。
+1. **Protect**：最新のリリースで、Commerceのインストールを最新の状態に保ちます。 古いバージョンを使用している場合は、利用可能になったすべてのセキュリティパッチを適用します。 [Commerceのセキュリティに関するベストプラクティス &#x200B;](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf)を確認してフォローします。 [Commerce セキュリティ アラート &#x200B;](https://www.adobe.com/jp/subscription/adbeSecurityNotifications.html)を購読します。
 
 1. **レポート**: Commerceで特定の脆弱性が見つかったと思われる場合は、[Adobe](https://hackerone.com/adobe?type=team)で問題を開き、技術的な詳細を含めてください。
 

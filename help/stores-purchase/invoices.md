@@ -86,7 +86,7 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]** > _操作_ > **請求書
 >
 >`Gift Card`、`Store Credit`、`Reward Points`またはその他のオフラインの支払い方法を使用して行われた注文に対して、請求書が自動的に作成されません。
 
-注文の請求書は、印刷する前に生成する必要があります。 PDFを表示または印刷するには、まず[Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Readerを入手")などのPDF リーダーをダウンロードしてインストールします。
+注文の請求書は、印刷する前に生成する必要があります。 PDFを表示または印刷するには、まず[Adobe Acrobat Reader](https://www.adobe.com/jp/acrobat/pdf-reader.html "Adobe Readerを入手")などのPDF リーダーをダウンロードしてインストールします。
 
 **_注文の請求書を作成するには:_**
 
@@ -154,7 +154,7 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]** > _操作_ > **請求書
 
 >[!NOTE]
 >
->PDFを表示または印刷するには、PDF リーダーが必要です。 [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Readerを入手")は無料でダウンロードできます。
+>PDFを表示または印刷するには、PDF リーダーが必要です。 [Adobe Reader](https://www.adobe.com/jp/acrobat/pdf-reader.html "Adobe Readerを入手")は無料でダウンロードできます。
 
 ### 1つの請求書を印刷
 
