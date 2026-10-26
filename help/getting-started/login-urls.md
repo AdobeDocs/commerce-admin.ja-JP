@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '416'
 ht-degree: 0%
 ---
 # ログイン情報とURL
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## ストアフロント URL
 
-[&#x200B; ストアフロント &#x200B;](storefront.md)のアドレスは、通常、IP アドレスに割り当てられたドメインです。 一部のストアは、ルートまたは最上位のディレクトリにインストールされます。 その他は、ルートの下のディレクトリにインストールされます。 ストアは、プライマリドメインに関連付けられたサブドメイン内に存在する場合があります。 ストアのURLは次のようになります。
+[ ストアフロント ](storefront.md)のアドレスは、通常、IP アドレスに割り当てられたドメインです。 一部のストアは、ルートまたは最上位のディレクトリにインストールされます。 その他は、ルートの下のディレクトリにインストールされます。 ストアは、プライマリドメインに関連付けられたサブドメイン内に存在する場合があります。 ストアのURLは次のようになります。
 
 - `http://mydomain.com`
 - `http://www.mydomain.com/mystore`
@@ -54,6 +54,10 @@ ht-degree: 0%
 
 ## 管理者URL
 
+>[!NOTE]
+>
+>Adobe Commerce as a Cloud Serviceの場合は、Commerce Cloud Managerから管理者リンクを取得します。 アクセス オプションとURL形式については、[管理者インターフェイスの選択](admin-unified-experience.md#classic-ui)を参照してください。 以下のインストールベース URLの例は、Adobe Commerce as a Cloud Serviceには適用されません。
+
 ストア [管理者](admin.md)のアドレスは、インストール中に設定されます。 デフォルトのアドレスはストアと同じですが、最後に`/admin`があります。 このガイドの例ではデフォルトのディレクトリを使用していますが、ストアに固有の場所から管理者を実行することをお勧めします。
 
 - `http://mydomain.com/admin`
@@ -61,14 +65,14 @@ ht-degree: 0%
 
 ## [!DNL Commerce] アカウント
 
-お客様の[Commerce アカウント &#x200B;](commerce-account-create.md)は、お客様の製品やサービス、アカウント設定、請求履歴、サポート リソースに関する情報にアクセスできます。 アカウントにアクセスするには、メインのCommerce サイトに移動し、右上隅の「**[!UICONTROL My Account]**」をクリックします。
+お客様の[Commerce アカウント ](commerce-account-create.md)は、お客様の製品やサービス、アカウント設定、請求履歴、サポート リソースに関する情報にアクセスできます。 アカウントにアクセスするには、メインのCommerce サイトに移動し、右上隅の「**[!UICONTROL My Account]**」をクリックします。
 
 ## 顧客アカウント
 
-ストアでの使用方法を学習する際は、必ずテスト [顧客アカウント &#x200B;](../customers/account-dashboard.md)を設定して、お客様の視点からストアとチェックアウトのプロセスを体験できるようにしてください。
+ストアでの使用方法を学習する際は、必ずテスト [顧客アカウント ](../customers/account-dashboard.md)を設定して、お客様の視点からストアとチェックアウトのプロセスを体験できるようにしてください。
 
 ## サンプルデータ
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-Adobeでは、250以上の製品（そのうちの約200は設定可能な製品）、カテゴリ、プロモーション価格ルール、CMS ページ、バナーなどのサンプルストアを含むサンプルデータセットを提供しています。 サンプルデータは、ストアフロントで&#x200B;_Luma_ テーマを使用します。 [このサンプルデータのインストール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/installation-guide/next-steps/sample-data/overview)はオプションですが、コマースビジネスのカスタマイズをテストおよび開発する場合に役立ちます。
+Adobeでは、250以上の製品（そのうちの約200は設定可能な製品）、カテゴリ、プロモーション価格ルール、CMS ページ、バナーなどのサンプルストアを含むサンプルデータセットを提供しています。 サンプルデータは、ストアフロントで&#x200B;_Luma_ テーマを使用します。 [このサンプルデータのインストール ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/sample-data/overview)はオプションですが、コマースビジネスのカスタマイズをテストおよび開発する場合に役立ちます。
