@@ -4,7 +4,7 @@ description: Adobe Commerce as a Cloud Serviceのお客様がAdobe Unified Exper
 feature: Admin Workspace
 role: Admin, User
 level: Beginner
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -55,7 +55,7 @@ Adobeの統合エクスペリエンスインターフェイスは、Adobe製品�
 ログインフローでは、各インスタンスに個別にログインしなくても、Commerce インスタンス間を移動できます。
 Adobe製品とCommerce インスタンス間を切り替えるには、ログインプロンプトを使用する必要はありません。
 
-アクセス手順については、_Adobe Commerce as a Cloud Service ガイド_&#x200B;の「[&#x200B; インスタンスへのアクセス &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"}」を参照してください。
+アクセス手順については、_Adobe Commerce as a Cloud Service ガイド_&#x200B;の「[&#x200B; インスタンスへのアクセス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"}」を参照してください。
 
 >[!BEGINTABS]
 
@@ -172,7 +172,7 @@ _インスタンスリストのスクリーンショットと、更新された�
 
 >[!ENDTABS]
 
-Adobe Commerce as a Cloud Serviceのユーザーおよびロール管理については、[&#x200B; ユーザー管理](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management){target="_blank"}を参照してください。
+Adobe Commerce as a Cloud Serviceのユーザーおよびロール管理については、[&#x200B; ユーザー管理](https://experienceleague.adobe.com/ja/docs/commerce/cloud-service/user-management){target="_blank"}を参照してください。
 
 ### Commerce インスタンスの切り替え
 
@@ -278,4 +278,4 @@ Commerce管理画面のページは、Adobe Unified Experienceに一致するリ
 
 >[!MORELIKETHIS]
 >
->[Adobe CX Enterprise インターフェイスおよび管理ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)
+>[Adobe CX Enterprise インターフェイスおよび管理ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)

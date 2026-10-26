@@ -57,7 +57,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce as a Cloud Serviceの場合は、Adobe Experience Cloudからログインし、Commerce Cloud Managerからインスタンスを開きます。 アクセス情報については、[Commerce Admin in Adobe Unified Experience](admin-unified-experience.md#open-the-commerce-admin)を参照し、Adobe Commerce as a Cloud Service ユーザーとロールの管理については[User management](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management)を参照してください。 以下のインストールベースのアカウントとローカルサインインの手順は、Adobe Commerce as a Cloud Serviceのサインインフローを示すものではありません。
+>Adobe Commerce as a Cloud Serviceの場合は、Adobe Experience Cloudからログインし、Commerce Cloud Managerからインスタンスを開きます。 アクセス情報については、[Commerce Admin in Adobe Unified Experience](admin-unified-experience.md#open-the-commerce-admin)を参照し、Adobe Commerce as a Cloud Service ユーザーとロールの管理については[User management](https://experienceleague.adobe.com/ja/docs/commerce/cloud-service/user-management)を参照してください。 以下のインストールベースのアカウントとローカルサインインの手順は、Adobe Commerce as a Cloud Serviceのサインインフローを示すものではありません。
 
 プライマリ管理者アカウントは、インストール中に最初に設定され、初期プレースホルダー情報やサンプルデータ情報が含まれる場合があります。 このアカウントの指定された所有者は、ユーザー名とパスワードをパーソナライズし、名前、姓、電子メールアドレスをいつでも更新できます。 このアカウントは、デフォルトですべての権限を持つ&#x200B;_スーパーユーザー_&#x200B;で、通常、ビジネスに必要な管理者ユーザーアカウントを作成します。
 
