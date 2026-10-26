@@ -61,9 +61,9 @@ ht-degree: 0%
 
 プライマリ管理者アカウントは、インストール中に最初に設定され、初期プレースホルダー情報やサンプルデータ情報が含まれる場合があります。 このアカウントの指定された所有者は、ユーザー名とパスワードをパーソナライズし、名前、姓、電子メールアドレスをいつでも更新できます。 このアカウントは、デフォルトですべての権限を持つ&#x200B;_スーパーユーザー_&#x200B;で、通常、ビジネスに必要な管理者ユーザーアカウントを作成します。
 
-- ユーザーの追加または編集について詳しくは、[ ユーザーの作成](../systems/permissions-users-all.md#create-a-user)を参照してください。
+- ユーザーの追加または編集について詳しくは、[&#x200B; ユーザーの作成](../systems/permissions-users-all.md#create-a-user)を参照してください。
 
-- 管理者とユーザーの役割について詳しくは、[権限](../systems/permissions.md)および[ ユーザーの役割](../systems/permissions-user-roles.md)を参照してください。
+- 管理者とユーザーの役割について詳しくは、[権限](../systems/permissions.md)および[&#x200B; ユーザーの役割](../systems/permissions-user-roles.md)を参照してください。
 
 {{ims-admin-note}}
 
@@ -73,13 +73,13 @@ ht-degree: 0%
 
 ストアの構成によっては、一連のキーボード文字の入力、パズルの解決、共通のテーマを持つ一連の画像のクリックなど、[CAPTCHA](../systems/security-google-recaptcha.md)の課題を解決する場合があります。 これらのテストは、自動化されたボットではなく、人間であることを識別するように設計されています。
 
-セキュリティを強化するために、各ユーザーが[権限](../systems/permissions.md)を持つ&#x200B;_管理者_&#x200B;のどの部分にアクセス権があるかを判断できます。また、[ ログイン試行回数](../configuration-reference/advanced/admin.md)を制限することもできます。 デフォルトでは、6回試行するとアカウントがロックされ、ユーザーは数分待ってから再試行する必要があります。 [ ロックされたアカウント ](../systems/permissions-users-all.md#locked-users)は、_管理者_&#x200B;からもリセットできます。
+セキュリティを強化するために、各ユーザーが[権限](../systems/permissions.md)を持つ&#x200B;_管理者_&#x200B;のどの部分にアクセス権があるかを判断できます。また、[&#x200B; ログイン試行回数](../configuration-reference/advanced/admin.md)を制限することもできます。 デフォルトでは、6回試行するとアカウントがロックされ、ユーザーは数分待ってから再試行する必要があります。 [&#x200B; ロックされたアカウント &#x200B;](../systems/permissions-users-all.md#locked-users)は、_管理者_&#x200B;からもリセットできます。
 
 >[!NOTE]
 >
 >_管理者_&#x200B;に初めてログインすると、_管理者使用状況データの収集を許可_&#x200B;するように求められます。 詳しくは、[使用状況データ収集](admin.md#usage-data-collection)を参照してください。
 
-![管理者ログイン ](./assets/admin-login.png){width="400"}
+![管理者ログイン &#x200B;](./assets/admin-login.png){width="400"}
 
 ### 手順1：二段階認証の設定
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >このドキュメントでは、ほとんどの例でベース URLとして`admin`を使用していますが、ストアの&#x200B;_管理者_&#x200B;に対して、一意で推測が困難な[ カスタム URL](../stores-purchase/store-urls.md)を選択することをお勧めします。
+   >このドキュメントでは、ほとんどの例でベース URLとして`admin`を使用していますが、ストアの&#x200B;_管理者_&#x200B;に対して、一意で推測が困難な[&#x200B; カスタム URL](../stores-purchase/store-urls.md)を選択することをお勧めします。
 
    ページのブックマークを追加したり、デスクトップにショートカットを保存したりして、簡単にアクセスできます。
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 
 1. _管理者_ アカウントに関連付けられている&#x200B;**[!UICONTROL Email Address]**&#x200B;を入力します。
 
-   ![ パスワードを忘れた](./assets/admin-sign-in-forgot-password.png){width="400"}
+   ![&#x200B; パスワードを忘れた](./assets/admin-sign-in-forgot-password.png){width="400"}
 
 1. **[!UICONTROL Retrieve Password]**&#x200B;をクリックします。
 
@@ -151,21 +151,21 @@ ht-degree: 0%
 
 ## 管理者からログアウト
 
-1. 右上隅にある&#x200B;_アカウント_ （![ アカウント ](../assets/icon-admin-user.png)）アイコンをクリックします。
+1. 右上隅にある&#x200B;_アカウント_ （![&#x200B; アカウント &#x200B;](../assets/icon-admin-user.png)）アイコンをクリックします。
 
 1. **[!UICONTROL Sign Out]**&#x200B;をクリックします。
 
-   ![ ログアウト ](./assets/admin-sign-out.png){width="700" zoomable="yes"}
+   ![&#x200B; ログアウト &#x200B;](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Sign In]_ページには、ログアウト済みのメッセージが表示されます。 コンピューターを無人のままにするたびに、_&#x200B;管理者&#x200B;_からログアウトします。
+_[!UICONTROL Sign In]_&#x200B;ページには、ログアウト済みのメッセージが表示されます。 コンピューターを無人のままにするたびに、_&#x200B;管理者&#x200B;_からログアウトします。
 
 ## アカウント情報を編集
 
-1. _アカウント_ （![ アカウントアイコン ](../assets/icon-admin-user.png)）アイコンをクリックします。
+1. _アカウント_ （![&#x200B; アカウントアイコン &#x200B;](../assets/icon-admin-user.png)）アイコンをクリックします。
 
 1. **[!UICONTROL Account Setting]**&#x200B;をクリックします。
 
-   ![ アカウント情報](./assets/admin-account-information.png){width="700" zoomable="yes"}
+   ![&#x200B; アカウント情報](./assets/admin-account-information.png){width="700" zoomable="yes"}
 
 1. アカウント情報に必要な変更を加えます。
 
@@ -179,7 +179,7 @@ _[!UICONTROL Sign In]_ページには、ログアウト済みのメッセージ�
 
 管理者は、注文、顧客、製品、配送、支払い機能を管理するためのアクセス権を提供します。 デフォルトの設定は、セキュリティのベストプラクティスとして、管理者ユーザーアカウントに対する複数のログインを許可しないように設定されています。 ただし、この設定を変更して、ビジネスワークフローに対応するために複数のデバイスから管理者ユーザーをログインできるようにすることができます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL Admin]**&#x200B;を選択します。
 
@@ -193,7 +193,7 @@ _[!UICONTROL Sign In]_ページには、ログアウト済みのメッセージ�
 
 ## 大文字と小文字を区別する管理者ユーザーログイン名を設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL Admin]**&#x200B;を選択します。
 
@@ -220,4 +220,4 @@ _[!UICONTROL Sign In]_ページには、ログアウト済みのメッセージ�
 
 >[!NOTE]
 >
->セキュリティ侵害が疑われる場合は、不明な管理者ユーザーをすべて削除し、すべての管理者パスワードをリセットして、[ セキュリティアクションプラン ](/help/systems/security.md)を確認してください。
+>セキュリティ侵害が疑われる場合は、不明な管理者ユーザーをすべて削除し、すべての管理者パスワードをリセットして、[&#x200B; セキュリティアクションプラン &#x200B;](/help/systems/security.md)を確認してください。

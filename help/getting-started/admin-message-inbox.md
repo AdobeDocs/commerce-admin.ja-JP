@@ -37,9 +37,9 @@ ht-degree: 0%
 
 ストアは、Adobeから定期的にメッセージを受け取ります。 メッセージは重要度によって評価され、システムのアップデート、パッチ、新しいリリース、スケジュールされたメンテナンス、または今後のイベントを指す場合があります。 ヘッダーのベルアイコンは、受信トレイ内の未読メッセージの数を示します。
 
-![管理者 – 受信メッセージ ](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
+![管理者 – 受信メッセージ &#x200B;](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Notifications]_ページには、日付でランク付けされたすべてのメッセージが一覧表示されます。_[!UICONTROL Action]_ コマンドを使用すると、個々のメッセージを読み取り済みとしてマークしたり、詳細情報を表示したり、受信トレイからメッセージを削除したりできます。
+_[!UICONTROL Notifications]_&#x200B;ページには、日付でランク付けされたすべてのメッセージが一覧表示されます。_[!UICONTROL Action]_ コマンドを使用すると、個々のメッセージを読み取り済みとしてマークしたり、詳細情報を表示したり、受信トレイからメッセージを削除したりできます。
 
 設定によって、受信トレイの更新頻度とメッセージの配信方法が決まります。 ストア管理者が安全なURLを持っている場合、通知はHTTPS経由で配信する必要があります。
 
@@ -66,7 +66,7 @@ _[!UICONTROL Notifications]_ページには、日付でランク付けされた�
 
    - ヘッダーの&#x200B;**[!UICONTROL Notification]** アイコンをクリックします。 1つ以上の新しいメッセージが表示されている場合は、**[!UICONTROL See All]**&#x200B;をクリックします。
 
-   - _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**に移動します。
+   - _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**&#x200B;に移動します。
 
 1. **[!UICONTROL Action]**&#x200B;列で、次のいずれかの操作を行います。
 
@@ -74,7 +74,7 @@ _[!UICONTROL Notifications]_ページには、日付でランク付けされた�
 
    - メッセージを受信トレイに残すには、**[!UICONTROL Mark As Read]**&#x200B;をクリックします。
 
-     ![管理者 – 選択した通知を既読としてマーク ](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
+     ![管理者 – 選択した通知を既読としてマーク &#x200B;](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
 
    - メッセージを削除するには、**[!UICONTROL Remove]**&#x200B;をクリックします。
 
@@ -92,7 +92,7 @@ _[!UICONTROL Notifications]_ページには、日付でランク付けされた�
 
 ## 通知の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のナビゲーションパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL System]**&#x200B;を選択します。
 
@@ -100,7 +100,7 @@ _[!UICONTROL Notifications]_ページには、日付でランク付けされた�
 
    ![通知設定](./assets/system-notifications.png){width="600"}
 
-1. ストア管理者が[ セキュア URL](../stores-purchase/store-urls.md)を使用している場合は、**[!UICONTROL Use HTTPS to Get Feed]**&#x200B;を`Yes`に設定します。
+1. ストア管理者が[&#x200B; セキュア URL](../stores-purchase/store-urls.md)を使用している場合は、**[!UICONTROL Use HTTPS to Get Feed]**&#x200B;を`Yes`に設定します。
 
 1. 受信トレイの更新頻度を決定するには、**[!UICONTROL Update Frequency]**&#x200B;を設定します。
 
