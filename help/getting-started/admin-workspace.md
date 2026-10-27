@@ -26,7 +26,8 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
+last-update: 2026-10-26
+source-git-commit: 4cfd19db9b6689cf05be301b0c68018a42b8f7ec
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 0%
@@ -35,9 +36,9 @@ ht-degree: 0%
 
 {{$include /help/_includes/admin-unified-experience-note.md}}
 
-管理ワークスペースでは、ストアの実行に使用されるすべてのツール、データ、コンテンツにアクセスできます。 デフォルトのスタートアップページは、設定で設定できます。 多くの管理ページには、セクションのデータをリストするグリッドがあり、アクションの検索、並べ替え、フィルタリング、選択、適用のためのツールのセットが用意されています。 デフォルトでは、[&#x200B; ダッシュボード &#x200B;](admin-dashboard.md)は管理者のスタートアップページです。 ただし、ログイン時にスタートアップページとして表示する他のページを選択できます。 管理者サイドバーのロゴをクリックして、管理者起動ページに戻ることができます。
+管理ワークスペースでは、ストアの実行に使用されるすべてのツール、データ、コンテンツにアクセスできます。 デフォルトのスタートアップページは、設定で設定できます。 多くの管理ページには、セクションのデータをリストするグリッドがあり、アクションの検索、並べ替え、フィルタリング、選択、適用のためのツールのセットが用意されています。 デフォルトでは、[ ダッシュボード ](admin-dashboard.md)は管理者のスタートアップページです。 ただし、ログイン時にスタートアップページとして表示する他のページを選択できます。 管理者サイドバーのロゴをクリックして、管理者起動ページに戻ることができます。
 
-![管理者 – ワークスペース &#x200B;](./assets/admin-workspace.png){zoomable="yes"}
+![管理者 – ワークスペース ](./assets/admin-workspace.png){zoomable="yes"}
 
 ## Workspaceコントロール
 
@@ -59,7 +60,7 @@ ht-degree: 0%
 
 データベース内の任意のレコードを検索するには、_管理者_&#x200B;のヘッダーにある虫眼鏡アイコンを使用します。 結果には、顧客、製品、注文、または関連する属性が含まれます。 例えば、顧客名を入力すると、顧客レコードと、その名前に関連付けられている注文が結果に含まれる場合があります。
 
-![管理者検索ツール &#x200B;](./assets/admin-search.png){width="700" zoomable="yes"}
+![管理者検索ツール ](./assets/admin-search.png){width="700" zoomable="yes"}
 
 1. ヘッダーで、_検索_ （![虫眼鏡](../assets/icon-magnify-search.png)）アイコンをクリックして検索ボックスを開きます。
 
@@ -74,7 +75,7 @@ ht-degree: 0%
 
 ダッシュボードは、管理者のデフォルトのスタートアップページですが、別のスタートアップページを設定できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**に移動します。
 
 1. **[!UICONTROL Advanced]**&#x200B;の下の左側のナビゲーションパネルで、**[!UICONTROL Admin]**&#x200B;を選択します。
 
