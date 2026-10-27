@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Order cancellation]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![注文キャンセルのオプション ](../configuration-reference/sales/assets/sales-order-cancellation.png){width="600" zoomable="yes"}
+   ![注文キャンセルのオプション &#x200B;](../configuration-reference/sales/assets/sales-order-cancellation.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Order cancellation through GraphQL]**&#x200B;を`Yes`に設定します。
 
@@ -85,16 +85,16 @@ ht-degree: 0%
 
 注文をキャンセルできる場合は、_注文をキャンセル_ ボタンがマイオーダーページに表示されます。
 
-![ ストアフロントの例 – マイオーダーのページ ](./assets/my-order-page-view-cancel.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントの例 – マイオーダーのページ &#x200B;](./assets/my-order-page-view-cancel.png){width="700" zoomable="yes"}
 
 ### 注文表示ページ
 
 注文をキャンセルできる場合は、_注文をキャンセル_ ボタンが「注文を表示」ページに表示されます。
 
-![注文の詳細ページ ](./assets/order-view-page-cancel.png){width="700" zoomable="yes"}
+![注文の詳細ページ &#x200B;](./assets/order-view-page-cancel.png){width="700" zoomable="yes"}
 
 ### マイアカウント
 
 注文をキャンセルできる場合は、マイアカウントページの「最近使用した注文」セクションに「_注文をキャンセル_」ボタンが表示されます。
 
-![自分のアカウントページ ](./assets/my-account-page-view-cancel.png){width="700" zoomable="yes"}
+![自分のアカウントページ &#x200B;](./assets/my-account-page-view-cancel.png){width="700" zoomable="yes"}

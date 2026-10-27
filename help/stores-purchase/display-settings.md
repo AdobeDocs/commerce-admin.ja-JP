@@ -48,7 +48,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->税金を含める価格と除外する価格を表示すると、お客様の混乱を招く可能性があります。 警告メッセージのトリガーを回避するには、お住まいの国の[ ガイドライン ](international-tax-guidelines.md)および警告メッセージを回避するための[推奨設定](taxes.md#warning-messages)を参照してください。
+>税金を含める価格と除外する価格を表示すると、お客様の混乱を招く可能性があります。 警告メッセージのトリガーを回避するには、お住まいの国の[&#x200B; ガイドライン &#x200B;](international-tax-guidelines.md)および警告メッセージを回避するための[推奨設定](taxes.md#warning-messages)を参照してください。
 
 ![価格表示設定](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 両方の価格（税込みおよび税抜き）を表示する場合、ストアフロントは次のようになります。
 
-![ ストアフロントでの税金を含む価格表示の例](./assets/catalog-prices-tax.png){width="700" zoomable="yes"}
+![&#x200B; ストアフロントでの税金を含む価格表示の例](./assets/catalog-prices-tax.png){width="700" zoomable="yes"}
 
 ### 手順2：ショッピングカートの表示設定の設定
 

@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->新しい[[!DNL Media Gallery]](media-gallery.md)が有効になると、_[!UICONTROL Media]_セクションが表示され、1つのオプションで[!DNL Media Gallery]にアクセスできます。**[!UICONTROL Enable Old Media Gallery]**オプションを`No`に設定するには、**[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**&#x200B;に移動し、左側のパネルで&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL System]**&#x200B;を選択します。
+>新しい[[!DNL Media Gallery]](media-gallery.md)が有効になると、_[!UICONTROL Media]_&#x200B;セクションが表示され、1つのオプションで[!DNL Media Gallery]にアクセスできます。**[!UICONTROL Enable Old Media Gallery]**&#x200B;オプションを`No`に設定するには、**[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**&#x200B;に移動し、左側のパネルで&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL System]**&#x200B;を選択します。
 
 >[!BEGINTABS]
 
@@ -55,29 +55,29 @@ _管理者_ サイドバーで、**[!UICONTROL Content]**&#x200B;を選択しま
 
 ## [!UICONTROL Elements]
 
-- テキスト、画像、ブロック、変数、ウィジェットを使用して[ ページ ](pages.md)を作成します。 ページは、ストアのナビゲーションに組み込んだり、他のページにリンクしたりできます。
+- テキスト、画像、ブロック、変数、ウィジェットを使用して[&#x200B; ページ &#x200B;](pages.md)を作成します。 ページは、ストアのナビゲーションに組み込んだり、他のページにリンクしたりできます。
 - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）ナビゲーション機能を使用して、ページを[階層](page-hierarchy.md)に整理します。
-- コードを記述せずに、コンテンツの[ ブロック ](blocks.md)を作成します。 ブロックにはテキスト、画像、動画などを含め、ページレイアウトの任意の部分に割り当てることができます。
-- ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）動的ブロック [を作成して](dynamic-blocks.md) リッチでインタラクティブなコンテンツを組み込みます。このコンテンツは、[価格ルール ](../merchandising-promotions/introduction.md#promotions)および[顧客セグメント ](../customers/customer-segments.md)のロジックに基づいています。
-- 動的なデータを表示する[ ウィジェット ](widgets.md)を作成し、ストア内の任意の場所にブロック、リンク、インタラクティブ要素を追加します。
-- ページビルダーコンテンツから[ テンプレート ](../page-builder/templates.md)を作成し、新しいコンテンツを追加する（または古いコンテンツを置き換える）際の効率を向上させます。
+- コードを記述せずに、コンテンツの[&#x200B; ブロック &#x200B;](blocks.md)を作成します。 ブロックにはテキスト、画像、動画などを含め、ページレイアウトの任意の部分に割り当てることができます。
+- ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）動的ブロック [を作成して](dynamic-blocks.md) リッチでインタラクティブなコンテンツを組み込みます。このコンテンツは、[価格ルール &#x200B;](../merchandising-promotions/introduction.md#promotions)および[顧客セグメント &#x200B;](../customers/customer-segments.md)のロジックに基づいています。
+- 動的なデータを表示する[&#x200B; ウィジェット &#x200B;](widgets.md)を作成し、ストア内の任意の場所にブロック、リンク、インタラクティブ要素を追加します。
+- ページビルダーコンテンツから[&#x200B; テンプレート &#x200B;](../page-builder/templates.md)を作成し、新しいコンテンツを追加する（または古いコンテンツを置き換える）際の効率を向上させます。
 
 >[!NOTE]
 >
->このメニューの&#x200B;_[!UICONTROL Banners]_オプションは2.3.1で廃止され、削除されました。 その機能はダイナミックブロックに置き換えられます。
+>このメニューの&#x200B;_[!UICONTROL Banners]_&#x200B;オプションは2.3.1で廃止され、削除されました。 その機能はダイナミックブロックに置き換えられます。
 
 ## [!UICONTROL Design] {#design-features}
 
 ストアのビジュアルプレゼンテーションを管理します。
 
-- [ デザイン設定](configuration.md)を設定して、[!DNL Commerce] インストールでweb サイト、ストア、ビューごとに異なる設定を管理します。
+- [&#x200B; デザイン設定](configuration.md)を設定して、[!DNL Commerce] インストールでweb サイト、ストア、ビューごとに異なる設定を管理します。
 
-- レイアウトファイル、テンプレートファイル、翻訳ファイル、スキンのコレクションである[ テーマ ](themes.md)を使用して、ストアの視覚的なプレゼンテーションを決定します。
+- レイアウトファイル、テンプレートファイル、翻訳ファイル、スキンのコレクションである[&#x200B; テーマ &#x200B;](themes.md)を使用して、ストアの視覚的なプレゼンテーションを決定します。
 
-- [ スケジュール ](schedule.md)を使用して、シーズンまたはプロモーションのテーマの変更を事前に計画します。
+- [&#x200B; スケジュール &#x200B;](schedule.md)を使用して、シーズンまたはプロモーションのテーマの変更を事前に計画します。
 
 ## [!UICONTROL Content Staging]
 
 {{ee-feature}}
 
-[ コンテンツのステージング ](content-staging.md)を使用すると、ビジネス チームは、ストアの管理者から直接、幅広いコンテンツの更新を作成、プレビュー、スケジュールできます。
+[&#x200B; コンテンツのステージング &#x200B;](content-staging.md)を使用すると、ビジネス チームは、ストアの管理者から直接、幅広いコンテンツの更新を作成、プレビュー、スケジュールできます。

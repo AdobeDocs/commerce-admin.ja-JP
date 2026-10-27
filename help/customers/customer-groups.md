@@ -36,7 +36,7 @@ ht-degree: 0%
 
 顧客グループは、使用可能な割引と、そのグループに関連付けられている税区分を決定します。 既定の顧客グループは`General`、`Not Logged In`、`Wholesale`です。
 
-![顧客グループ ](assets/customer-groups.png){width="700" zoomable="yes"}
+![顧客グループ &#x200B;](assets/customer-groups.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Customer Groups] リストをフィルター
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. ID、グループ、税区分などの範囲を含む、グループを検索するための条件を入力します。
 
-   ![ フィルターオプション ](assets/groups-filters.png){width="600" zoomable="yes"}
+   ![&#x200B; フィルターオプション &#x200B;](assets/groups-filters.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Apply Filters]**&#x200B;をクリックします。
 
@@ -60,11 +60,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Add New Customer Group]**&#x200B;をクリックします。
 
-1. [!DNL **Group Name]**の場合、グループを識別するには、32文字未満の一意の名前を入力してください。
+1. [!DNL **Group Name]**&#x200B;の場合、グループを識別するには、32文字未満の一意の名前を入力してください。
 
 1. グループに適用される&#x200B;**[!UICONTROL Tax Class]**&#x200B;を選択します。
 
-   ![ グループ情報](assets/group-information.png){width="600" zoomable="yes"}
+   ![&#x200B; グループ情報](assets/group-information.png){width="600" zoomable="yes"}
 
 1. グループから除外する&#x200B;**[!UICONTROL Excluded Website(s)]**&#x200B;を選択します。
 

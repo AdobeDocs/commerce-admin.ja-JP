@@ -50,7 +50,7 @@ PayPal Payflow Linkは、米国およびカナダのマーチャントのみが�
 
 ## 要件定義
 
-- [PayPal法人向けアカウント ](https://www.paypal.com/webapps/mpp/how-to-sell-online) PayPal Payflow Pro ゲートウェイは、PayPalの加盟店アカウントを加盟店web サイトにリンクし、ゲートウェイと加盟店アカウントの両方として機能します。
+- [PayPal法人向けアカウント &#x200B;](https://www.paypal.com/webapps/mpp/how-to-sell-online) PayPal Payflow Pro ゲートウェイは、PayPalの加盟店アカウントを加盟店web サイトにリンクし、ゲートウェイと加盟店アカウントの両方として機能します。
 
 - 複数のCommerce web サイトを管理する場合は、各web サイトに個別のPayPal マーチャント アカウントが必要です。
 
@@ -76,9 +76,9 @@ PayPal Payflow Linkは、米国およびカナダのマーチャントのみが�
 
 ## PayPal アカウントの設定
 
-1. [PayPal法人向けアカウント ](https://manager.paypal.com/)にログインします。
+1. [PayPal法人向けアカウント &#x200B;](https://manager.paypal.com/)にログインします。
 
-1. PayPal Managerを使用して、次の設定で[ ホスト型チェックアウトページ ](https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager)を設定します。
+1. PayPal Managerを使用して、次の設定で[&#x200B; ホスト型チェックアウトページ &#x200B;](https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager)を設定します。
 
    - **[!UICONTROL Security Options]**&#x200B;で、次の設定を完了します。
 
@@ -125,11 +125,11 @@ PayPal Payflow Linkは、米国およびカナダのマーチャントのみが�
 
 1. Commerce インストールに複数のweb サイト、ストア、またはビューがある場合は、この設定を適用するストアビューに&#x200B;**[!UICONTROL Store View]**&#x200B;を設定します。
 
-1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが存在する&#x200B;**[!UICONTROL Merchant Country]**を選択します。
+1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが存在する&#x200B;**[!UICONTROL Merchant Country]**&#x200B;を選択します。
 
    この設定は、設定に表示されるPayPal ソリューションの選択を決定します。
 
-   ![ マーチャント国](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
+   ![&#x200B; マーチャント国](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL PayPal Payment Gateways]** （必要な場合）を展開し、**[!UICONTROL Payflow Link]**&#x200B;の&#x200B;**[!UICONTROL Configure]**&#x200B;をクリックします。
 
@@ -137,7 +137,7 @@ PayPal Payflow Linkは、米国およびカナダのマーチャントのみが�
 
 ### ステップ 2：必要なPayPal設定を完了する
 
-![PayPal設定 – PayPal ペイフローリンク ](./assets/payflow-required-link.png){width="600" zoomable="yes"}が必要
+![PayPal設定 – PayPal ペイフローリンク &#x200B;](./assets/payflow-required-link.png){width="600" zoomable="yes"}が必要
 
 1. （オプション）を入力します。**[!UICONTROL Email Associated with your PayPal Merchant Account]**
 
@@ -155,7 +155,7 @@ PayPal Payflow Linkは、米国およびカナダのマーチャントのみが�
 
 1. テスト トランザクションを実行するには、**[!UICONTROL Test Mode]**&#x200B;を`Yes`に設定します。
 
-   サンドボックスで設定をテストする場合は、PayPalが推奨する[ クレジットカード番号](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm)のみを使用します。 実稼動環境に移行する準備ができたら、設定に戻り、テストモードを`No`に設定します。
+   サンドボックスで設定をテストする場合は、PayPalが推奨する[&#x200B; クレジットカード番号](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm)のみを使用します。 実稼動環境に移行する準備ができたら、設定に戻り、テストモードを`No`に設定します。
 
 1. システムでプロキシサーバーを使用してPayPal システムへの接続を確立する場合は、**[!UICONTROL Test Mode]**&#x200B;を`Yes`に設定し、次の操作を行います。
 
@@ -167,9 +167,9 @@ PayPal Payflow Linkは、米国およびカナダのマーチャントのみが�
 
 1. **[!UICONTROL Enable Payflow Link]**&#x200B;を`Yes`に設定します。
 
-1. 顧客に対して[PayPal Express チェックアウト ](paypal-express-checkout.md) オプションを有効にする場合は、**[!UICONTROL Enable Express Checkout]**&#x200B;を`Yes`に設定します。
+1. 顧客に対して[PayPal Express チェックアウト &#x200B;](paypal-express-checkout.md) オプションを有効にする場合は、**[!UICONTROL Enable Express Checkout]**&#x200B;を`Yes`に設定します。
 
-1. [PayPal クレジット ](paypal.md#paypal-credit-and-pay-later)を顧客に提供する場合は、**[!UICONTROL Enable PayPal Credit]**&#x200B;を`Yes`に設定します。
+1. [PayPal クレジット &#x200B;](paypal.md#paypal-credit-and-pay-later)を顧客に提供する場合は、**[!UICONTROL Enable PayPal Credit]**&#x200B;を`Yes`に設定します。
 
 ### ステップ 3:Advertising PayPal Credit / Advertising PayPal PayLaterの設定（オプション）
 
@@ -296,7 +296,7 @@ PayPal Payflow Linkは、米国およびカナダのマーチャントのみが�
 
 1. **[!UICONTROL Basic Settings - PayPal Payflow Link]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![基本設定 – PayPal ペイフローリンク ](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-basic-settings.png){width="600" zoomable="yes"}
+   ![基本設定 – PayPal ペイフローリンク &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-basic-settings.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL Title]**」に、チェックアウト時にPayPal Payflow Linkを識別するタイトルを入力します。
 
@@ -315,12 +315,12 @@ PayPal Payflow Linkは、米国およびカナダのマーチャントのみが�
 
 1. **[!UICONTROL Advanced Settings]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![詳細設定 – PayPal ペイフローリンク ](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-advanced-settings.png){width="600" zoomable="yes"}
+   ![詳細設定 – PayPal ペイフローリンク &#x200B;](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-advanced-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Payment Applicable From]**&#x200B;を次のいずれかに設定します：
 
    - `All Allowed Countries` - ストア設定で指定されたすべての[国](../getting-started/store-details.md#country-options)のお客様は、この支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_リストが表示されます。 Ctrl キーを押しながら、リスト内の各国を選択し、お客様がストアから購入できるようにする場所を選択します。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;リストが表示されます。 Ctrl キーを押しながら、リスト内の各国を選択し、お客様がストアから購入できるようにする場所を選択します。
 
 1. 支払いシステムとの通信をログファイルに書き込むには、**[!UICONTROL Debug Mode]**&#x200B;を`Yes`に設定します。
 
@@ -391,11 +391,11 @@ PayPal Payflow Linkは、米国およびカナダのマーチャントのみが�
 
 #### フロントエンドエクスペリエンス設定
 
-_[!UICONTROL Frontend Experience Settings]_を使用して、サイトに表示するPayPal ロゴを選択し、PayPal マーチャント ページの外観をカスタマイズします。
+_[!UICONTROL Frontend Experience Settings]_&#x200B;を使用して、サイトに表示するPayPal ロゴを選択し、PayPal マーチャント ページの外観をカスタマイズします。
 
 1. **[!UICONTROL Frontend Experience Settings]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ フロントエンドエクスペリエンス設定 – PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
+   ![&#x200B; フロントエンドエクスペリエンス設定 – PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
 1. ストアのPayPal ブロックに表示する&#x200B;**[!UICONTROL PayPal Product Logo]**&#x200B;を選択します。
 
@@ -446,7 +446,7 @@ _[!UICONTROL Frontend Experience Settings]_を使用して、サイトに表示�
    - `Authorization` – 購入を承認し、資金を保留します。 金額は、加盟店が&#x200B;_獲得_&#x200B;するまで引き落とされません。
    - `Sale` – 購入金額が承認され、お客様のアカウントから直ちに引き落とされます。
 
-1. 製品ページに&#x200B;_[!UICONTROL Check out with PayPal]_ボタンを表示するには、**[!UICONTROL Display on Product Details Page]**を`Yes`に設定します。
+1. 製品ページに&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;ボタンを表示するには、**[!UICONTROL Display on Product Details Page]**&#x200B;を`Yes`に設定します。
 
 ### 手順7:PayPal Express Checkoutの詳細設定を完了する
 
@@ -459,7 +459,7 @@ _[!UICONTROL Frontend Experience Settings]_を使用して、サイトに表示�
 1. **[!UICONTROL Payment Applicable From]**&#x200B;を次のいずれかに設定します：
 
    - `All Allowed Countries` - ストア設定で指定されたすべての国のお客様は、この支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）またはCommand キー（Mac）を押しながら各項目をクリックします。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）またはCommand キー（Mac）を押しながら各項目をクリックします。
 
 1. 支払いシステムとの通信をログファイルに書き込むには、**[!UICONTROL Debug Mode]**&#x200B;を`Yes`に設定します。
 

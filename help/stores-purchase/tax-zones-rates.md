@@ -76,9 +76,9 @@ ht-degree: 0%
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
 
-1. _[!UICONTROL Tax Zones and Rates]_グリッドで税率を検索し、レコードを編集モードで開きます。
+1. _[!UICONTROL Tax Zones and Rates]_&#x200B;グリッドで税率を検索し、レコードを編集モードで開きます。
 
-   リストにレートが多い場合は、[ フィルターコントロール ](../getting-started/admin-grid-controls.md)を使用して、必要なレートを検索します。
+   リストにレートが多い場合は、[&#x200B; フィルターコントロール &#x200B;](../getting-started/admin-grid-controls.md)を使用して、必要なレートを検索します。
 
 1. **[!UICONTROL Tax Rate Information]**&#x200B;に必要な変更を加えます。
 

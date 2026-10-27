@@ -36,11 +36,11 @@ ht-degree: 1%
 ---
 # 発送数
 
-_[!UICONTROL Shipments]_グリッドには、出荷用に準備されたすべての請求書の出荷記録が一覧表示されます。 注文が[請求済み](invoices.md)以降の場合、出荷レコードを生成できます。
+_[!UICONTROL Shipments]_&#x200B;グリッドには、出荷用に準備されたすべての請求書の出荷記録が一覧表示されます。 注文が[請求済み](invoices.md)以降の場合、出荷レコードを生成できます。
 
 Adobe CommerceとMagento Open Sourceは、部分的な注文と完全な注文の配送をサポートしており、その他のオプションは[Inventory management](../inventory-management/introduction.md)およびサードパーティの拡張機能から利用できます。
 
-![送料グリッド ](./assets/shipments.png){width="600" zoomable="yes"}
+![送料グリッド &#x200B;](./assets/shipments.png){width="600" zoomable="yes"}
 
 ## 列の説明
 
@@ -101,7 +101,7 @@ Adobe CommerceとMagento Open Sourceは、部分的な注文と完全な注文�
 
 1. **[!UICONTROL Ship]**&#x200B;をクリックします。
 
-1. _[!UICONTROL Payment & Shipping Method]_ブロックまで下にスクロールし、**[!UICONTROL Add Tracking Number]**をクリックします。
+1. _[!UICONTROL Payment & Shipping Method]_&#x200B;ブロックまで下にスクロールし、**[!UICONTROL Add Tracking Number]**&#x200B;をクリックします。
 
 1. **[!UICONTROL Carrier]**&#x200B;を設定：
 
@@ -122,7 +122,7 @@ Adobe CommerceとMagento Open Sourceは、部分的な注文と完全な注文�
 
 1. 配送を検索して編集モードで開きます。
 
-1. _[!UICONTROL Payment & Shipping Method]_ブロックまでスクロールします。
+1. _[!UICONTROL Payment & Shipping Method]_&#x200B;ブロックまでスクロールします。
 
 1. **[!UICONTROL Carrier]**&#x200B;を選択します。
 
@@ -158,7 +158,7 @@ Adobe CommerceとMagento Open Sourceは、部分的な注文と完全な注文�
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. _[!UICONTROL Sales]_で、**[!UICONTROL Sales Email]**を選択します。
+1. _[!UICONTROL Sales]_&#x200B;で、**[!UICONTROL Sales Email]**&#x200B;を選択します。
 
 1. 「**出荷コメント**」セクションを展開し、必要に応じて設定を変更します。
 
@@ -190,7 +190,7 @@ Adobe CommerceとMagento Open Sourceは、部分的な注文と完全な注文�
 
 1. 左側のパネルで、**[!UICONTROL Shipments]**&#x200B;を選択します。
 
-   配送をキャンセルできる場合は、_[!UICONTROL Cancel Shipment]_が上部のボタンバーにオプションとして表示されます。
+   配送をキャンセルできる場合は、_[!UICONTROL Cancel Shipment]_&#x200B;が上部のボタンバーにオプションとして表示されます。
 
 1. **[!UICONTROL Cancel Shipment]**&#x200B;をクリックします。
 
@@ -207,7 +207,7 @@ Adobe CommerceとMagento Open Sourceは、部分的な注文と完全な注文�
 | [!UICONTROL Carrier] | 選択した通信事業者の名前 |
 | [!UICONTROL Title] | キャリアによってパッケージに割り当てられたわかりやすい名前。 |
 | [!UICONTROL Number] | パッケージに割り当てられているリンクされたトラッキング番号。 |
-| [!UICONTROL Action] | ![ごみ箱アイコン ](../assets/icon-delete-trashcan-solid.png) – 出荷レコードからパッケージ情報を削除します。 |
+| [!UICONTROL Action] | ![ごみ箱アイコン &#x200B;](../assets/icon-delete-trashcan-solid.png) – 出荷レコードからパッケージ情報を削除します。 |
 | [!UICONTROL Add] | 荷物に別の荷物を追加します。 |
 
 {style="table-layout:auto"}

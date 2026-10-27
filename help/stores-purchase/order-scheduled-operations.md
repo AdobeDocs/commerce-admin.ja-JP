@@ -36,7 +36,7 @@ ht-degree: 0%
 
 [Cron](../systems/cron.md) ジョブを使用して、次の注文処理タスクをスケジュールします。
 
-![注文グリッド ](./assets/orders-grid.png){width="700" zoomable="yes"}
+![注文グリッド &#x200B;](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 ## 保留中の支払い注文の有効期間の設定
 
@@ -67,11 +67,11 @@ ht-degree: 0%
 
 **_更新とインデックス再作成を有効にするには:_**
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [実稼動モード ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode) （クラウドインフラストラクチャ上のAdobe Commerceで使用されるデフォルトモード）が有効になっている場合は、次のコマンドを実行します。
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [実稼動モード &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode) （クラウドインフラストラクチャ上のAdobe Commerceで使用されるデフォルトモード）が有効になっている場合は、次のコマンドを実行します。
 
 `bin/magento config:set dev/grid/async_indexing 1`
 
-[ デフォルトモード ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#default-mode)が有効になっている場合は、次の手順を実行します。
+[&#x200B; デフォルトモード &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#default-mode)が有効になっている場合は、次の手順を実行します。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
@@ -81,6 +81,6 @@ ht-degree: 0%
 
 1. **[!UICONTROL Asynchronous Indexing]**&#x200B;を`Enable`に設定します。
 
-   ![ グリッド設定](../configuration-reference/advanced/assets/developer-grid-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; グリッド設定](../configuration-reference/advanced/assets/developer-grid-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save Config]**&#x200B;をクリックします。

@@ -36,11 +36,11 @@ ht-degree: 0%
 
 FedExは世界最大級の海運サービス企業であり、航空、貨物、地上輸送サービスにいくつかのレベルの優先事項を提供しています。
 
-チェックアウト時に![FedExの配送オプション ](./assets/storefront-checkout-shipping-fedex.png){width="700" zoomable="yes"}
+チェックアウト時に![FedExの配送オプション &#x200B;](./assets/storefront-checkout-shipping-fedex.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->FedExでは、[ ディメンションの重み](carriers.md#dimensional-weight)を使用して、一部の配送料を決定できます。 ただし、Adobe CommerceとMagento Open Sourceでは、重量ベースの送料の計算のみがサポートされています。
+>FedExでは、[&#x200B; ディメンションの重み](carriers.md#dimensional-weight)を使用して、一部の配送料を決定できます。 ただし、Adobe CommerceとMagento Open Sourceでは、重量ベースの送料の計算のみがサポートされています。
 
 ## 手順1:FedEx Web Services Productionへの登録
 
@@ -111,7 +111,7 @@ FedEx Web Services Production AccessのFedEx マーチャント アカウント�
 
 1. FedExの出荷に許可されている&#x200B;**[!UICONTROL Maximum Package Weight]**&#x200B;を入力します。
 
-   デフォルトのFedEx最大重量は150 lbsです。 詳しくは、配送業者にお問い合わせください。 FedExと特別な取り決めを行っていない限り、デフォルト値をお勧めします。 詳しくは、[ ディメンションの重み](carriers.md#dimensional-weight)を参照してください。
+   デフォルトのFedEx最大重量は150 lbsです。 詳しくは、配送業者にお問い合わせください。 FedExと特別な取り決めを行っていない限り、デフォルト値をお勧めします。 詳しくは、[&#x200B; ディメンションの重み](carriers.md#dimensional-weight)を参照してください。
 
    ![FedEx パッケージ設定](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 

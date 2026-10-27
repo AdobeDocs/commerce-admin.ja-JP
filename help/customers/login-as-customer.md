@@ -51,7 +51,7 @@ ht-degree: 0%
 
 [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-_管理者_ ユーザーに対して有効にすると、_[!UICONTROL Login as Customer]_ボタンが複数のページに表示されます。
+_管理者_ ユーザーに対して有効にすると、_[!UICONTROL Login as Customer]_&#x200B;ボタンが複数のページに表示されます。
 
 * [顧客編集ページ](../customers/update-account.md)
 * [注文表示ページ](../stores-purchase/order-processing.md)
@@ -59,7 +59,7 @@ _管理者_ ユーザーに対して有効にすると、_[!UICONTROL Login as C
 * [出荷表示ページ](../stores-purchase/shipments.md)
 * [クレジットメモ表示ページ](../stores-purchase/credit-memo-create.md)
 
-![お客様としてログイン ](assets/login-as-customer.png){width="600" zoomable="yes"}
+![お客様としてログイン &#x200B;](assets/login-as-customer.png){width="600" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
@@ -85,7 +85,7 @@ _お客様としてログイン_&#x200B;を有効にするには、Commerce イ�
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Login as Customer]**&#x200B;を選択します。
 
-   ![設定オプション – 顧客としてログイン ](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
+   ![設定オプション – 顧客としてログイン &#x200B;](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Enable Login as Customer]**&#x200B;を`Yes`に設定します。
 
@@ -118,7 +118,7 @@ _お客様としてログイン_&#x200B;を有効にするには、Commerce イ�
    * **[!UICONTROL Allow Login as Customer]** – 管理者ユーザーが&#x200B;_顧客としてログイン_&#x200B;機能を使用できるようにします。
    * **[!UICONTROL View Login as Customer Log]** – 管理者ユーザーが&#x200B;_顧客としてログイン_ ログを表示できるようにします。
 
-   ![役割のリソース – 顧客としてログイン ](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
+   ![役割のリソース – 顧客としてログイン &#x200B;](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
 
 1. **[!UICONTROL Save Role]**&#x200B;をクリックします。
 
@@ -138,7 +138,7 @@ _お客様としてログイン_&#x200B;を有効にするには、Commerce イ�
 
 1. お客様は&#x200B;**[!UICONTROL Save]**&#x200B;をクリックします。
 
-![ アカウント情報ページ ](assets/permission.png){width="700" zoomable="yes"}
+![&#x200B; アカウント情報ページ &#x200B;](assets/permission.png){width="700" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
@@ -182,7 +182,7 @@ _お客様としてログイン_&#x200B;を有効にするには、Commerce イ�
 
 >[!NOTE]
 >
->RESTを使用してこの機能を実装する方法については、[お客様としてログイン ](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/login-as-customer/) REST API ドキュメントを参照してください。
+>RESTを使用してこの機能を実装する方法については、[お客様としてログイン &#x200B;](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/login-as-customer/) REST API ドキュメントを参照してください。
 
 ### 管理者からワンタイムコード（OTC）をリクエスト
 
@@ -190,11 +190,11 @@ _お客様としてログイン_&#x200B;を有効にするには、Commerce イ�
 
 1. お客様を編集ページで、「**[!UICONTROL Generate Login Code]**」をクリックします。
 
-   ![お客様のページの「お客様ログイン OTCを取得」ボタン ](assets/get-customer-login-otc-button-new.png){width="600" zoomable="yes"}
+   ![お客様のページの「お客様ログイン OTCを取得」ボタン &#x200B;](assets/get-customer-login-otc-button-new.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Reason]** （必須）を入力し、**[!UICONTROL Request]**&#x200B;をクリックします。
 
-   理由フィールド ](assets/otc-reason-modal-new.png){width="600" zoomable="yes"}を持つ![OTC リクエストモーダル
+   理由フィールド ![&#128279;](assets/otc-reason-modal-new.png){width="600" zoomable="yes"}を持つOTC リクエストモーダル
 
    >[!NOTE]
    >
@@ -206,7 +206,7 @@ _お客様としてログイン_&#x200B;を有効にするには、Commerce イ�
 
 >[!IMPORTANT]
 >
->生成されたワンタイムコード OTCは、デフォルトで60秒間有効で、1回使用すると無効になります。 TTLは、[ サポートチケット ](https://experienceleague.adobe.com/home?support-tab=home#support)を送信することで設定できます。
+>生成されたワンタイムコード OTCは、デフォルトで60秒間有効で、1回使用すると無効になります。 TTLは、[&#x200B; サポートチケット &#x200B;](https://experienceleague.adobe.com/home?support-tab=home#support)を送信することで設定できます。
 
 ワンタイムコードが生成されたら、ストアフロントに移動し、次の資格情報を使用してログインすることで使用できます。
 
@@ -234,8 +234,8 @@ _お客様としてログイン_&#x200B;すると、お客様と同じように�
 
 {{ee-feature}}
 
-Adobe Commerceには、_お客様としてログイン_&#x200B;操作のログが記録されます。 管理者ユーザーが機能にアクセスするすべてのセッションが一覧表示されます。 ログに記録されたアクションにアクセスするには、[管理者アクションレポート ](../systems/action-log-report.md)に移動します。
+Adobe Commerceには、_お客様としてログイン_&#x200B;操作のログが記録されます。 管理者ユーザーが機能にアクセスするすべてのセッションが一覧表示されます。 ログに記録されたアクションにアクセスするには、[管理者アクションレポート &#x200B;](../systems/action-log-report.md)に移動します。
 
 レポート設定&#x200B;**[!UICONTROL Action Group]**&#x200B;を`Login As Customer`にフィルターして、ページの上部で&#x200B;**[!UICONTROL Search]**&#x200B;をクリックできます。
 
-![ アクションレポートのフィルター](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}
+![&#x200B; アクションレポートのフィルター](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}

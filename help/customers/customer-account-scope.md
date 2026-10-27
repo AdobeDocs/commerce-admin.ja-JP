@@ -54,7 +54,7 @@ ht-degree: 0%
 
 お客様は、ストアのヘッダーにある&#x200B;**[!UICONTROL My Account]** リンクをクリックして、自分のアカウントにアクセスできます。 顧客は、アカウントから、過去と現在の住所、請求と配送の設定、ニュースレターの購読、ウィッシュリストなどの情報を表示し、変更することができます。
 
-![自分のアカウント ](assets/account-dashboard-my-account.png){width="600" zoomable="yes"}
+![自分のアカウント &#x200B;](assets/account-dashboard-my-account.png){width="600" zoomable="yes"}
 
 ## 顧客アカウントの範囲の設定
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Account Sharing Options]** セクションを展開します。
 
-   ![ アカウント共有オプション ](assets/customer-configuration-account-sharing-options.png){width="600" zoomable="yes"}
+   ![&#x200B; アカウント共有オプション &#x200B;](assets/customer-configuration-account-sharing-options.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Share Customer Accounts]**&#x200B;を次のいずれかに設定します：
 

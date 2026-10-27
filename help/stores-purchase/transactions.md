@@ -40,7 +40,7 @@ _トランザクション_ ページには、ストアと支払いシステム�
 
 _管理者_ サイドバーで、**[!UICONTROL Sales]** > **[!UICONTROL Transactions]**&#x200B;に移動します。
 
-![ トランザクショングリッド ](./assets/transactions.png){width="600" zoomable="yes"}
+![&#x200B; トランザクショングリッド &#x200B;](./assets/transactions.png){width="600" zoomable="yes"}
 
 | 列 | 説明 |
 |--- |--- |

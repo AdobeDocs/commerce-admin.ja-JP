@@ -146,7 +146,7 @@ DHL XML APIを使用している場合は、次の資格情報を指定する必
 
    - **[!UICONTROL Free Shipping Amount Threshold]**&#x200B;の場合、送料無料の対象となる注文の最小金額を入力します。
 
-     ![DHLが許可したメソッド ](../configuration-reference/sales/assets/delivery-methods-dhl-allowed-methods.png){width="600" zoomable="yes"}
+     ![DHLが許可したメソッド &#x200B;](../configuration-reference/sales/assets/delivery-methods-dhl-allowed-methods.png){width="600" zoomable="yes"}
 
 ## ステップ 4：該当する国を指定する
 

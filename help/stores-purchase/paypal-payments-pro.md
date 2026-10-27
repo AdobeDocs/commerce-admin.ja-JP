@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ## 要件定義
 
-- [PayPal加盟店アカウント ](https://www.paypal.com/webapps/mpp/how-to-sell-online) （直接支払いが有効）
+- [PayPal加盟店アカウント &#x200B;](https://www.paypal.com/webapps/mpp/how-to-sell-online) （直接支払いが有効）
 
 ## チェックアウトワークフロー
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 CommerceでPayPal Payments Proを設定する前に、PayPal web サイトで加盟店アカウントを設定する必要があります。
 
-1. [PayPal法人向けアカウント ](https://manager.paypal.com/)にログインします。
+1. [PayPal法人向けアカウント &#x200B;](https://manager.paypal.com/)にログインします。
 
 1. PayPal Manager メニューで、**[!UICONTROL Service Settings]**&#x200B;を選択します。
 
@@ -137,7 +137,7 @@ CommerceでPayPal Payments Proを設定する前に、PayPal web サイトで加
 
    - アカウントに別のユーザーを追加するには、**[!UICONTROL Add User]**&#x200B;をクリックします。 リンクは、「ユーザーを管理」タイトルのすぐ上にあります。
 
-   - _[!UICONTROL Add User]_フォームの次のセクションで、必須フィールドに入力します。
+   - _[!UICONTROL Add User]_&#x200B;フォームの次のセクションで、必須フィールドに入力します。
 
      - [!UICONTROL Admin Confirmation]
      - [!UICONTROL User Information]
@@ -152,7 +152,7 @@ CommerceでPayPal Payments Proを設定する前に、PayPal web サイトで加
 
 >[!NOTE]
 >
->同時に2つのPayPal ソリューションをアクティブにできます：[PayPal Express Checkout](paypal-express-checkout.md)、および[ オールインワンソリューション ](paypal.md#paypal-all-in-one-payment-solutions)のいずれか1つを追加します。 支払いソリューションを変更すると、以前に使用したものは自動的に無効になります。
+>同時に2つのPayPal ソリューションをアクティブにできます：[PayPal Express Checkout](paypal-express-checkout.md)、および[&#x200B; オールインワンソリューション &#x200B;](paypal.md#paypal-all-in-one-payment-solutions)のいずれか1つを追加します。 支払いソリューションを変更すると、以前に使用したものは自動的に無効になります。
 
 >[!TIP]
 >
@@ -166,11 +166,11 @@ CommerceでPayPal Payments Proを設定する前に、PayPal web サイトで加
 
 1. Commerce インストールに複数のweb サイト、ストア、またはビューがある場合は、この設定を適用するストアビューに&#x200B;**[!UICONTROL Store View]**&#x200B;を設定します。
 
-1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが存在する&#x200B;**[!UICONTROL Merchant Country]**を選択します。
+1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが存在する&#x200B;**[!UICONTROL Merchant Country]**&#x200B;を選択します。
 
    この設定は、設定に表示されるPayPal ソリューションの選択を決定します。
 
-   ![ マーチャント国](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
+   ![&#x200B; マーチャント国](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL PayPal All-in-One Payment Solution]**&#x200B;を展開し、**[!UICONTROL Payments Pro]**&#x200B;の&#x200B;**[!UICONTROL Configure]**&#x200B;をクリックします。
 
@@ -200,7 +200,7 @@ CommerceでPayPal Payments Proを設定する前に、PayPal web サイトで加
 
 1. テスト トランザクションを実行するには、**[!UICONTROL Test Mode]**&#x200B;を`Yes`に設定します。
 
-   サンドボックスで設定をテストする場合は、PayPalが推奨する[ クレジットカード番号](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm)のみを使用します。 実稼動環境に移行する準備ができたら、設定に戻り、テストモードを`No`に設定します。
+   サンドボックスで設定をテストする場合は、PayPalが推奨する[&#x200B; クレジットカード番号](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm)のみを使用します。 実稼動環境に移行する準備ができたら、設定に戻り、テストモードを`No`に設定します。
 
 1. システムでプロキシサーバーを使用してPayPal システムへの接続を確立する場合は、**[!UICONTROL Use Proxy]**&#x200B;を`Yes`に設定し、次の操作を行います。
 
@@ -212,7 +212,7 @@ CommerceでPayPal Payments Proを設定する前に、PayPal web サイトで加
 
 1. **[!UICONTROL Enable this Solution]**&#x200B;を`Yes`に設定します。
 
-1. [PayPal クレジット ](paypal.md#paypal-credit-and-pay-later)を顧客に提供する場合は、**[!UICONTROL Enable PayPal Credit]**&#x200B;を`Yes`に設定します。
+1. [PayPal クレジット &#x200B;](paypal.md#paypal-credit-and-pay-later)を顧客に提供する場合は、**[!UICONTROL Enable PayPal Credit]**&#x200B;を`Yes`に設定します。
 
 1. 顧客の支払い/クレジットカードの詳細を安全に保存する場合、顧客が毎回支払い情報を再入力する必要がないように、**[!UICONTROL Vault Enabled]**&#x200B;を`Yes`に設定します。
 
@@ -373,7 +373,7 @@ CommerceでPayPal Payments Proを設定する前に、PayPal web サイトで加
 1. **[!UICONTROL Payment Applicable From]**&#x200B;を次のいずれかに設定します：
 
    - `All Allowed Countries` - ストア設定で指定されたすべての[国](../getting-started/store-details.md#country-options)のお客様は、この支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_リストが表示されます。 Ctrl キー（PC）またはCommand キー（Mac）を押しながら、お客様が店舗で購入できる国をリストから選択します。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;リストが表示されます。 Ctrl キー（PC）またはCommand キー（Mac）を押しながら、お客様が店舗で購入できる国をリストから選択します。
 
 1. 支払いシステムとの通信をログファイルに書き込むには、**[!UICONTROL Debug Mode]**&#x200B;を`Yes`に設定します。
 
@@ -447,11 +447,11 @@ CommerceでPayPal Payments Proを設定する前に、PayPal web サイトで加
 
 #### フロントエンドエクスペリエンス設定
 
-_[!UICONTROL Frontend Experience Settings]_を使用して、サイトに表示するPayPal ロゴを選択し、PayPal マーチャント ページの外観をカスタマイズします。
+_[!UICONTROL Frontend Experience Settings]_&#x200B;を使用して、サイトに表示するPayPal ロゴを選択し、PayPal マーチャント ページの外観をカスタマイズします。
 
 1. **[!UICONTROL Frontend Experience Settings]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ フロントエンドエクスペリエンス設定](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
+   ![&#x200B; フロントエンドエクスペリエンス設定](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
 1. ストアのPayPal ブロックに表示する&#x200B;**[!UICONTROL PayPal Product Logo]**&#x200B;を選択します。
 
@@ -502,7 +502,7 @@ _[!UICONTROL Frontend Experience Settings]_を使用して、サイトに表示�
    - `Authorization` – 購入を承認し、資金を保留します。 金額は、加盟店が&#x200B;_獲得_&#x200B;するまで引き落とされません。
    - `Sale` – 購入金額が承認され、お客様のアカウントから直ちに引き落とされます。
 
-1. 製品ページに&#x200B;_[!UICONTROL Check out with PayPal]_ボタンを表示するには、**[!UICONTROL Display on Product Details Page]**を`Yes`に設定します。
+1. 製品ページに&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;ボタンを表示するには、**[!UICONTROL Display on Product Details Page]**&#x200B;を`Yes`に設定します。
 
 ### 手順7:PayPal Express Checkoutの詳細設定を完了する
 
@@ -515,7 +515,7 @@ _[!UICONTROL Frontend Experience Settings]_を使用して、サイトに表示�
 1. **[!UICONTROL Payment Applicable From]**&#x200B;を次のいずれかに設定します：
 
    - `All Allowed Countries` - ストア設定で指定されたすべての[国](../getting-started/store-details.md#country-options)のお客様は、この支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）またはCommand キー（Mac）を押しながら各項目をクリックします。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）またはCommand キー（Mac）を押しながら各項目をクリックします。
 
 1. 支払いシステムとの通信をログファイルに書き込むには、**[!UICONTROL Debug Mode]**&#x200B;を`Yes`に設定します。
 

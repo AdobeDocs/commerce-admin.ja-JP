@@ -44,9 +44,9 @@ ht-degree: 0%
 
 1. **[!UICONTROL Checkout Totals Sort Order]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![並べ替え順序を決定するために番号付けされたチェックアウト合計オプション ](../configuration-reference/sales/assets/sales-checkout-totals-sort-order.png){width="600" zoomable="yes"}
+   ![並べ替え順序を決定するために番号付けされたチェックアウト合計オプション &#x200B;](../configuration-reference/sales/assets/sales-checkout-totals-sort-order.png){width="600" zoomable="yes"}
 
-   これらの各構成設定について詳しくは、_構成リファレンスガイド_&#x200B;の「[ チェックアウト合計の並べ替え順](../configuration-reference/sales/sales.md#checkout-totals-sort-order)」を参照してください。
+   これらの各構成設定について詳しくは、_構成リファレンスガイド_&#x200B;の「[&#x200B; チェックアウト合計の並べ替え順](../configuration-reference/sales/sales.md#checkout-totals-sort-order)」を参照してください。
 
 1. 設定が特定のストアビューの場合、[設定が適用されるストアビュー](../configuration-reference/scope-change.md#set-the-scope)を選択します。
 

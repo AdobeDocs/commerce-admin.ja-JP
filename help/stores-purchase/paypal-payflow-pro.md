@@ -41,7 +41,7 @@ ht-degree: 0%
 
 PayPal Payflow Pro ゲートウェイ（旧&#x200B;_Verisign_）は、米国、カナダ、オーストラリア、ニュージーランドのお客様が利用できます。 他のPayPalの支払い方法とは異なり、加盟店は、月額固定手数料に加えて、取引数に関係なく各取引に対して固定手数料が請求されます。
 
-![PayPalでのチェックアウト ](./assets/storefront-cart-paypal.png){width="700" zoomable="yes"}
+![PayPalでのチェックアウト &#x200B;](./assets/storefront-cart-paypal.png){width="700" zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ PayPal Payflow Pro ゲートウェイ（旧&#x200B;_Verisign_）は、米国、�
 ## オンライン注文処理ワークフロー
 
 1. **管理者がオンライン請求書を送信します** - ストア管理者がオンライン請求書を送信すると、対応するトランザクションと請求書が作成されます。
-1. **PayPalはトランザクションを受信します** – 注文情報はPayPalに送信されます。 トランザクションと請求書のレコードが生成されます。 [PayPal マーチャント アカウント ](https://manager.paypal.com/)のすべてのPayflow Pro Gateway トランザクションを表示できます。
+1. **PayPalはトランザクションを受信します** – 注文情報はPayPalに送信されます。 トランザクションと請求書のレコードが生成されます。 [PayPal マーチャント アカウント &#x200B;](https://manager.paypal.com/)のすべてのPayflow Pro Gateway トランザクションを表示できます。
 
 >[!NOTE]
 >
@@ -71,9 +71,9 @@ PayPal Payflow Pro ゲートウェイ（旧&#x200B;_Verisign_）は、米国、�
 
 ## PayPal アカウントの設定
 
-1. [PayPal法人向けアカウント ](https://manager.paypal.com/)にログインします。
+1. [PayPal法人向けアカウント &#x200B;](https://manager.paypal.com/)にログインします。
 
-1. PayPal Managerを使用して、次の設定で[ ホスト型チェックアウトページ ](https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager)を設定します。
+1. PayPal Managerを使用して、次の設定で[&#x200B; ホスト型チェックアウトページ &#x200B;](https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager)を設定します。
 
    - **[!UICONTROL Choose your settings]**&#x200B;で、**[!UICONTROL Transaction Process Mode]**&#x200B;を`Live`に設定します。
 
@@ -113,7 +113,7 @@ PayPal Payflow Pro ゲートウェイ（旧&#x200B;_Verisign_）は、米国、�
 
    - アカウントに別のユーザーを追加するには、**[!UICONTROL Add User]**&#x200B;をクリックします。 リンクは、「ユーザーを管理」タイトルのすぐ上にあります。
 
-   - _[!UICONTROL Add User]_フォームの次のセクションで、必須フィールドに入力します。
+   - _[!UICONTROL Add User]_&#x200B;フォームの次のセクションで、必須フィールドに入力します。
 
      - [!UICONTROL Admin Confirmation]
      - [!UICONTROL User Information]
@@ -140,11 +140,11 @@ PayPal Payflow Pro ゲートウェイ（旧&#x200B;_Verisign_）は、米国、�
 
 1. Commerce インストールに複数のweb サイト、ストア、またはビューがある場合は、この設定を適用するストアビューに&#x200B;**[!UICONTROL Store View]**&#x200B;を設定します。
 
-1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが存在する&#x200B;**[!UICONTROL Merchant Country]**を選択します。
+1. 「_[!UICONTROL Merchant Location]_」セクションで、ビジネスが存在する&#x200B;**[!UICONTROL Merchant Country]**&#x200B;を選択します。
 
    この設定は、設定に表示されるPayPal ソリューションの選択を決定します。
 
-   ![ マーチャント国](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
+   ![&#x200B; マーチャント国](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL PayPal Payment Gateways]** （必要な場合）を展開し、**[!UICONTROL Payflow Pro]**&#x200B;の&#x200B;**[!UICONTROL Configure]**&#x200B;をクリックします。
 
@@ -170,7 +170,7 @@ PayPal Payflow Pro ゲートウェイ（旧&#x200B;_Verisign_）は、米国、�
 
 1. テスト トランザクションを実行するには、**[!UICONTROL Test Mode]**&#x200B;を`Yes`に設定します。
 
-   サンドボックスで設定をテストする場合は、PayPalが推奨する[ クレジットカード番号](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm)のみを使用します。 実稼動環境に移行する準備ができたら、設定に戻り、テストモードを`No`に設定します。
+   サンドボックスで設定をテストする場合は、PayPalが推奨する[&#x200B; クレジットカード番号](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm)のみを使用します。 実稼動環境に移行する準備ができたら、設定に戻り、テストモードを`No`に設定します。
 
 1. システムでプロキシサーバーを使用してPayPal システムへの接続を確立する場合は、**[!UICONTROL Use Proxy]**&#x200B;を`Yes`に設定し、次の操作を行います。
 
@@ -182,7 +182,7 @@ PayPal Payflow Pro ゲートウェイ（旧&#x200B;_Verisign_）は、米国、�
 
 1. **[!UICONTROL Enable this Solution]**&#x200B;を`Yes`に設定します。
 
-1. [PayPal クレジット ](paypal.md#paypal-credit-and-pay-later)を顧客に提供する場合は、**[!UICONTROL Enable PayPal Credit]**&#x200B;を`Yes`に設定します。
+1. [PayPal クレジット &#x200B;](paypal.md#paypal-credit-and-pay-later)を顧客に提供する場合は、**[!UICONTROL Enable PayPal Credit]**&#x200B;を`Yes`に設定します。
 
 1. 顧客の支払い/クレジットカードの詳細を安全に保存する場合、顧客が毎回支払い情報を再入力する必要がないように、**[!UICONTROL Vault Enabled]**&#x200B;を`Yes`に設定します。
 
@@ -347,7 +347,7 @@ PayPal Payflow Pro ゲートウェイ（旧&#x200B;_Verisign_）は、米国、�
 1. **[!UICONTROL Payment Applicable From]**&#x200B;を次のいずれかに設定します：
 
    - `All Allowed Countries` - ストア設定で指定されたすべての[国](../getting-started/store-details.md#country-options)のお客様は、この支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_リストが表示されます。 Ctrl キー（PC）またはCommand キー（Mac）を押しながら、お客様が店舗で購入できる国をリストから選択します。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;リストが表示されます。 Ctrl キー（PC）またはCommand キー（Mac）を押しながら、お客様が店舗で購入できる国をリストから選択します。
 
 1. 支払いシステムとの通信をログファイルに書き込むには、**[!UICONTROL Debug Mode]**&#x200B;を`Yes`に設定します。
 
@@ -428,7 +428,7 @@ Address Verification Systemが不一致を識別したときにトランザク�
 
 1. **[!UICONTROL Frontend Experience Settings]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ フロントエンドエクスペリエンス設定 – PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
+   ![&#x200B; フロントエンドエクスペリエンス設定 – PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
 1. ストアのPayPal ブロックに表示する&#x200B;**[!UICONTROL PayPal Product Logo]**&#x200B;を選択します。
 
@@ -479,7 +479,7 @@ Address Verification Systemが不一致を識別したときにトランザク�
    - `Authorization` – 購入を承認し、資金を保留します。 金額は、加盟店が&#x200B;_獲得_&#x200B;するまで引き落とされません。
    - `Sale` – 購入金額が承認され、お客様のアカウントから直ちに引き落とされます。
 
-1. 製品ページに&#x200B;_[!UICONTROL Check out with PayPal]_ボタンを表示するには、**[!UICONTROL Display on Product Details Page]**を`Yes`に設定します。
+1. 製品ページに&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;ボタンを表示するには、**[!UICONTROL Display on Product Details Page]**&#x200B;を`Yes`に設定します。
 
 ### 手順7:PayPal Express Checkoutの詳細設定を完了する
 
@@ -492,7 +492,7 @@ Address Verification Systemが不一致を識別したときにトランザク�
 1. **[!UICONTROL Payment Applicable From]**&#x200B;を次のいずれかに設定します：
 
    - `All Allowed Countries` - ストア設定で指定されたすべての国のお客様は、この支払い方法を使用できます。
-   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）またはCommand キー（Mac）を押しながら各項目をクリックします。
+   - `Specific Countries` – このオプションを選択すると、_[!UICONTROL Payment from Specific Countries]_&#x200B;リストが表示されます。 複数の国を選択するには、Ctrl キー（PC）またはCommand キー（Mac）を押しながら各項目をクリックします。
 
 1. 支払いシステムとの通信をログファイルに書き込むには、**[!UICONTROL Debug Mode]**&#x200B;を`Yes`に設定します。
 

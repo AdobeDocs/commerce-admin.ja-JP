@@ -47,7 +47,7 @@ _最近表示されたブロックと最近比較されたブロック_&#x200B;�
 
 1. **[!UICONTROL Recently Viewed/Compared Products]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ カタログ設定 – 最近閲覧/比較された製品](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
+   ![&#x200B; カタログ設定 – 最近閲覧/比較された製品](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
 
    これらの各構成設定の詳細については、_構成リファレンスガイド_&#x200B;の[最近表示された製品/比較済み製品](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products)を参照してください。
 

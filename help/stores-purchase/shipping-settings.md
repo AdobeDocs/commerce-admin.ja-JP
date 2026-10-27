@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 原点
 
-POSは、店舗または倉庫からの出荷の料金を計算するために使用され、販売された製品の税率も決定します。 [EU税](international-tax-guidelines.md#eu-tax-configuration)を計算する際は、各ストアビューの[ デフォルトの税宛先計算](../configuration-reference/sales/tax.md)が出荷設定の原点に対応していることを確認してください。
+POSは、店舗または倉庫からの出荷の料金を計算するために使用され、販売された製品の税率も決定します。 [EU税](international-tax-guidelines.md#eu-tax-configuration)を計算する際は、各ストアビューの[&#x200B; デフォルトの税宛先計算](../configuration-reference/sales/tax.md)が出荷設定の原点に対応していることを確認してください。
 
 ![Origin](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
 
@@ -60,7 +60,7 @@ POSは、店舗または倉庫からの出荷の料金を計算するために�
 
 配送ポリシーでは、自社のビジネスルールと配送ガイドラインを説明する必要があります。 例えば、送料無料をトリガーとする価格規則がある場合は、送料ポリシーの条件を説明できます。
 
-![ チェックアウト時の配送ポリシー](./assets/storefront-checkout-shipping-policy.png){width="700" zoomable="yes"}
+![&#x200B; チェックアウト時の配送ポリシー](./assets/storefront-checkout-shipping-policy.png){width="700" zoomable="yes"}
 
 チェックアウト時に配送ポリシーを表示するには、設定の配送ポリシーパラメーターを完了します。 チェックアウト中に顧客が&#x200B;_配送ポリシー_&#x200B;を参照すると、テキストが表示されます。
 
@@ -92,7 +92,7 @@ POSは、店舗または倉庫からの出荷の料金を計算するために�
 
 1. **[!UICONTROL Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![ マルチアドレスの配送オプション ](../configuration-reference/sales/assets/multishipping-settings-options.png){width="600" zoomable="yes"}
+   ![&#x200B; マルチアドレスの配送オプション &#x200B;](../configuration-reference/sales/assets/multishipping-settings-options.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Allow Shipping to Multiple Addresses]**&#x200B;を`Yes`に設定します。
 
@@ -102,7 +102,7 @@ POSは、店舗または倉庫からの出荷の料金を計算するために�
 
 >[!NOTE]
 >
->![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B）複数の配送先住所を持つ注文の場合、[ アカウントでのお支払い](../b2b/enable-basic-features.md#configure-payment-on-account)は、有効になっている場合でも、チェックアウト時に利用できません。
+>![Adobe Commerce B2B](../assets/b2b.svg) （Adobe Commerce B2B）複数の配送先住所を持つ注文の場合、[&#x200B; アカウントでのお支払い](../b2b/enable-basic-features.md#configure-payment-on-account)は、有効になっている場合でも、チェックアウト時に利用できません。
 
 ## 電子メールの出荷追跡URL
 

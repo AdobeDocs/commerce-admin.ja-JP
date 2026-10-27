@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## ステップ 1：製造国を確認する
 
-製造国は、USPSとFedExによって国際的に出荷されているすべての製品に必要です。 更新する製品が多数ある場合は、更新を[ インポート ](../systems/data-import.md)するか、在庫グリッドを使用して複数のレコードを更新できます。
+製造国は、USPSとFedExによって国際的に出荷されているすべての製品に必要です。 更新する製品が多数ある場合は、更新を[&#x200B; インポート &#x200B;](../systems/data-import.md)するか、在庫グリッドを使用して複数のレコードを更新できます。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]** > **[!UICONTROL Products]**&#x200B;に移動します。
 
@@ -124,6 +124,6 @@ ht-degree: 0%
 
    情報が見つからない場合は、ラベルを印刷しようとするとエラーが表示されます。
 
-   ![ ストア情報](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
+   ![&#x200B; ストア情報](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save Config]**&#x200B;をクリックします。
