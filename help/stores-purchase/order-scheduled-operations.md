@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -36,13 +36,13 @@ ht-degree: 0%
 
 [Cron](../systems/cron.md) ジョブを使用して、次の注文処理タスクをスケジュールします。
 
-![注文グリッド &#x200B;](./assets/orders-grid.png){width="700" zoomable="yes"}
+![注文グリッド ](./assets/orders-grid.png){width="700" zoomable="yes"}
 
 ## 保留中の支払い注文の有効期間の設定
 
 保留中の支払いを伴う注文の有効期間は、_注文Cron設定_&#x200B;設定によって決まります。 デフォルト値は480分（8時間）に設定されています。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」セクションを展開し、下の「**[!UICONTROL Sales]**」を選択します。
 
@@ -67,13 +67,13 @@ ht-degree: 0%
 
 **_更新とインデックス再作成を有効にするには:_**
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [実稼動モード &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode) （クラウドインフラストラクチャ上のAdobe Commerceで使用されるデフォルトモード）が有効になっている場合は、次のコマンドを実行します。
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"} [実稼動モード ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode) （クラウドインフラストラクチャ上のAdobe Commerceで使用されるデフォルトモード）が有効になっている場合は、次のコマンドを実行します。
 
 `bin/magento config:set dev/grid/async_indexing 1`
 
-[&#x200B; デフォルトモード &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/setup/application-modes#default-mode)が有効になっている場合は、次の手順を実行します。
+[ デフォルトモード ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#default-mode)が有効になっている場合は、次の手順を実行します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]** セクションを展開し、**[!UICONTROL Developer]**&#x200B;を選択します。
 
@@ -81,6 +81,6 @@ ht-degree: 0%
 
 1. **[!UICONTROL Asynchronous Indexing]**&#x200B;を`Enable`に設定します。
 
-   ![&#x200B; グリッド設定](../configuration-reference/advanced/assets/developer-grid-settings.png){width="600" zoomable="yes"}
+   ![ グリッド設定](../configuration-reference/advanced/assets/developer-grid-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save Config]**&#x200B;をクリックします。

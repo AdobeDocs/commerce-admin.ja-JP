@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 0%
@@ -36,11 +36,11 @@ ht-degree: 0%
 
 FedExは世界最大級の海運サービス企業であり、航空、貨物、地上輸送サービスにいくつかのレベルの優先事項を提供しています。
 
-チェックアウト時に![FedExの配送オプション &#x200B;](./assets/storefront-checkout-shipping-fedex.png){width="700" zoomable="yes"}
+チェックアウト時に![FedExの配送オプション ](./assets/storefront-checkout-shipping-fedex.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->FedExでは、[&#x200B; ディメンションの重み](carriers.md#dimensional-weight)を使用して、一部の配送料を決定できます。 ただし、Adobe CommerceとMagento Open Sourceでは、重量ベースの送料の計算のみがサポートされています。
+>FedExでは、[ ディメンションの重み](carriers.md#dimensional-weight)を使用して、一部の配送料を決定できます。 ただし、Adobe CommerceとMagento Open Sourceでは、重量ベースの送料の計算のみがサポートされています。
 
 ## 手順1:FedEx Web Services Productionへの登録
 
@@ -52,7 +52,7 @@ FedEx Web Services Production AccessのFedEx マーチャント アカウント�
 
 ## ステップ 2：ストアでFedExを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Delivery Methods]**&#x200B;を選択します。
 
@@ -111,7 +111,7 @@ FedEx Web Services Production AccessのFedEx マーチャント アカウント�
 
 1. FedExの出荷に許可されている&#x200B;**[!UICONTROL Maximum Package Weight]**&#x200B;を入力します。
 
-   デフォルトのFedEx最大重量は150 lbsです。 詳しくは、配送業者にお問い合わせください。 FedExと特別な取り決めを行っていない限り、デフォルト値をお勧めします。 詳しくは、[&#x200B; ディメンションの重み](carriers.md#dimensional-weight)を参照してください。
+   デフォルトのFedEx最大重量は150 lbsです。 詳しくは、配送業者にお問い合わせください。 FedExと特別な取り決めを行っていない限り、デフォルト値をお勧めします。 詳しくは、[ ディメンションの重み](carriers.md#dimensional-weight)を参照してください。
 
    ![FedEx パッケージ設定](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 

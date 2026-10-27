@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 1%
@@ -38,7 +38,7 @@ DHLは、統合された国際サービスと、手紙、商品、情報を管�
 
 ## ステップ 1: DHLを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Delivery Methods]**&#x200B;を選択します。
 
@@ -146,7 +146,7 @@ DHL XML APIを使用している場合は、次の資格情報を指定する必
 
    - **[!UICONTROL Free Shipping Amount Threshold]**&#x200B;の場合、送料無料の対象となる注文の最小金額を入力します。
 
-     ![DHLが許可したメソッド &#x200B;](../configuration-reference/sales/assets/delivery-methods-dhl-allowed-methods.png){width="600" zoomable="yes"}
+     ![DHLが許可したメソッド ](../configuration-reference/sales/assets/delivery-methods-dhl-allowed-methods.png){width="600" zoomable="yes"}
 
 ## ステップ 4：該当する国を指定する
 

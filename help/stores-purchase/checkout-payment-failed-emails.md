@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
@@ -38,17 +38,17 @@ ht-degree: 0%
 
 ## 手順1：電子メールテンプレートの更新
 
-ブランドを反映させるために、必要なメールテンプレートを更新していることを確認してください。 テンプレートの完全なリストについては、[電子メールテンプレートリスト &#x200B;](../systems/email-templates.md#email-template-list)を参照してください。
+ブランドを反映させるために、必要なメールテンプレートを更新していることを確認してください。 テンプレートの完全なリストについては、[電子メールテンプレートリスト ](../systems/email-templates.md#email-template-list)を参照してください。
 
 ## 手順2：支払いに失敗した電子メールの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Checkout]**&#x200B;を選択します。
 
 1. **[!UICONTROL Payment Failed Emails]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![支払いに失敗した電子メール &#x200B;](../configuration-reference/sales/assets/checkout-payment-failed-emails.png){width="600" zoomable="yes"}
+   ![支払いに失敗した電子メール ](../configuration-reference/sales/assets/checkout-payment-failed-emails.png){width="600" zoomable="yes"}
 
 1. 支払いに失敗した電子メールのオプションを設定します。
 

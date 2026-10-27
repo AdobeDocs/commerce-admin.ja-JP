@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 1%
@@ -42,13 +42,13 @@ ht-degree: 1%
 
 ストアフロントページで使用されるロゴ画像とは異なり、PDFの請求書やその他の営業文書のロゴは、高解像度の300 dpiの画像にすることができます。 ロゴのサイズを変更する際は、縦横比を維持するように注意してください。 高さに合うようにロゴのサイズを変更し、未使用のスペースを右に移動させないようにします。
 
-![&#x200B; サンプルロゴ &#x200B;](./assets/logo-pdf.png){width="200"}
+![ サンプルロゴ ](./assets/logo-pdf.png){width="200"}
 
 必要なサイズに合わせてロゴのサイズを変更する方法の1つは、正しいサイズの新しい空白の画像を作成することです。 次に、ロゴ画像を貼り付け、高さに合わせてサイズを変更します。 ほとんどの画像編集プログラムでは、縦横比を保持するためにパーセンテージで拡大・縮小するか、Shift キーを押しながら画像のサイズを手動で変更できます。
 
 **_ロゴを更新するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、下の「**[!UICONTROL Sales]**」を選択します。
 
@@ -93,11 +93,11 @@ ht-degree: 1%
 
 注文IDと顧客IP アドレスは、注文に伴う販売文書のヘッダーに含めることができます。 デフォルトでは、注文IDと顧客IP アドレスの両方が、請求書、出荷梱包明細、およびクレジットメモのヘッダーに表示されます。
 
-![営業設定 – PDF プリントアウト &#x200B;](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
+![営業設定 – PDF プリントアウト ](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
 
 **_注文ID設定を変更するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL PDF Print-outs]**&#x200B;を選択します。
 
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 **_顧客IP アドレス設定を変更するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、下の「**[!UICONTROL Sales]**」を選択します。
 

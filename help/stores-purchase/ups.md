@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -44,7 +44,7 @@ United Parcel Service （UPS）は、220 カ国以上に陸路と空路による
 
 >[!NOTE]
 >
->UPSでは、[&#x200B; ディメンションの重さ](carriers.md#dimensional-weight)を使用して、一部の配送料を決定できます。 ただし、Adobe Commerceでは、重量ベースの送料の計算のみがサポートされています。
+>UPSでは、[ ディメンションの重さ](carriers.md#dimensional-weight)を使用して、一部の配送料を決定できます。 ただし、Adobe Commerceでは、重量ベースの送料の計算のみがサポートされています。
 
 ## ステップ 1:UPS出荷口座を開く
 
@@ -52,13 +52,13 @@ United Parcel Service （UPS）は、220 カ国以上に陸路と空路による
 
 ## 手順2:UPS OAUTH資格情報の取得
 
-「[UPS APIの概要ガイド &#x200B;](https://developer.ups.com/get-started)」の手順に従って、API資格情報（クライアント IDおよびクライアントシークレット）を取得し、UPS統合を有効にします。 認証情報を取得するには、UPS アプリケーションを作成する必要があります。
+「[UPS APIの概要ガイド ](https://developer.ups.com/get-started)」の手順に従って、API資格情報（クライアント IDおよびクライアントシークレット）を取得し、UPS統合を有効にします。 認証情報を取得するには、UPS アプリケーションを作成する必要があります。
 
 管理者でUPS設定を構成する場合は、`username`と`password`の資格情報の値を使用します。
 
 ## ステップ 3：ストアのUPSを有効にする
 
-1. _管理者サイドバー_&#x200B;で、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者サイドバー_&#x200B;で、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側の&#x200B;**[!UICONTROL Sales]**&#x200B;の下にあるパネルで、**[!UICONTROL Delivery Methods]**&#x200B;を選択します。
 
@@ -87,7 +87,7 @@ United Parcel Service （UPS）は、220 カ国以上に陸路と空路による
 
    >[!NOTE]
    >
-   >標準のUnited Parcel Service タイプは非推奨化の予定です。 新しい設定の場合は、デフォルトの`United Parcel Service REST` タイプを使用します。 REST タイプは、[配送ラベル &#x200B;](shipping-labels.md)を生成するためにも必要です。<br/>
+   >標準のUnited Parcel Service タイプは非推奨化の予定です。 新しい設定の場合は、デフォルトの`United Parcel Service REST` タイプを使用します。 REST タイプは、[配送ラベル ](shipping-labels.md)を生成するためにも必要です。<br/>
    >2.4.7 リリースでは、`UPS`と`UPS XML`のタイプが非推奨に予定されており、`UPS REST`がデフォルトであるため、**[!UICONTROL UPS Type]**&#x200B;が削除されます。 ネイティブのAdobe Commerce統合で使用されるUnited Parcel Service （UPS） APIは、現在OAuth 2.0 セキュリティモデルをサポートしていないため、一時的に非推奨（廃止予定）です。
 
    >[!IMPORTANT]
@@ -146,7 +146,7 @@ United Parcel Service （UPS）は、220 カ国以上に陸路と空路による
 
 1. 通信事業者が許可する&#x200B;**[!UICONTROL Minimum Package Weight]**&#x200B;を入力します。
 
-   ![&#x200B; コンテナの説明](./assets/ups2.png){width="600" zoomable="yes"}
+   ![ コンテナの説明](./assets/ups2.png){width="600" zoomable="yes"}
 
 ## 手順5：処理手数料の設定
 
@@ -184,7 +184,7 @@ United Parcel Service （UPS）は、220 カ国以上に陸路と空路による
 
    このテキストボックスにはデフォルトのメッセージがプリセットされていますが、UPSが使用できなくなった場合に表示する別のメッセージを入力できます。
 
-   ![許可されたメソッド &#x200B;](./assets/ups4.png){width="600" zoomable="yes"}
+   ![許可されたメソッド ](./assets/ups4.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Ship to Applicable Countries]**&#x200B;を次のいずれかに設定します：
 
@@ -208,15 +208,15 @@ United Parcel Service （UPS）は、220 カ国以上に陸路と空路による
 
 ## ステップ 7：配送元の住所を設定する
 
-1. [&#x200B; ストア情報](../getting-started/store-details.md#store-information)が完了していることを確認してください。
+1. [ ストア情報](../getting-started/store-details.md#store-information)が完了していることを確認してください。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Shipping Settings]**&#x200B;を選択します。
 
 1. ページの![拡張セレクター](../assets/icon-display-expand.png) **[!UICONTROL Origin]**&#x200B;を展開し、発送元の住所を設定します。
 
-   ![販売設定 – 発送元の住所オプション &#x200B;](./assets/shipping-origin.png){width="600" zoomable="yes"}
+   ![販売設定 – 発送元の住所オプション ](./assets/shipping-origin.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save Config]**&#x200B;をクリックします。
 

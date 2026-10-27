@@ -27,16 +27,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '466'
 ht-degree: 0%
 ---
 # 顧客グループ
 
 顧客グループは、使用可能な割引と、そのグループに関連付けられている税区分を決定します。 既定の顧客グループは`General`、`Not Logged In`、`Wholesale`です。
 
-![顧客グループ &#x200B;](assets/customer-groups.png){width="700" zoomable="yes"}
+![顧客グループ ](assets/customer-groups.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Customer Groups] リストをフィルター
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. ID、グループ、税区分などの範囲を含む、グループを検索するための条件を入力します。
 
-   ![&#x200B; フィルターオプション &#x200B;](assets/groups-filters.png){width="600" zoomable="yes"}
+   ![ フィルターオプション ](assets/groups-filters.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Apply Filters]**&#x200B;をクリックします。
 
@@ -60,11 +60,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Add New Customer Group]**&#x200B;をクリックします。
 
-1. [!DNL **Group Name]**&#x200B;の場合、グループを識別するには、32文字未満の一意の名前を入力してください。
+1. [!DNL **Group Name]**の場合、グループを識別するには、32文字未満の一意の名前を入力してください。
 
 1. グループに適用される&#x200B;**[!UICONTROL Tax Class]**&#x200B;を選択します。
 
-   ![&#x200B; グループ情報](assets/group-information.png){width="600" zoomable="yes"}
+   ![ グループ情報](assets/group-information.png){width="600" zoomable="yes"}
 
 1. グループから除外する&#x200B;**[!UICONTROL Excluded Website(s)]**&#x200B;を選択します。
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 ## 顧客グループを特定の割引に関連付ける
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _プロモーション_ > **[!UICONTROL Cart Price Rules]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]**&#x200B;に移動します。
 
 1. 適用された割引にグループを関連付けるカート価格ルールを選択するか、[価格ルールを作成](../merchandising-promotions/price-rules-catalog.md)します。
 
@@ -133,4 +133,4 @@ ht-degree: 0%
 
 デモを見て顧客グループを作成する方法を学びましょう。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410171/?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12&learn=on)

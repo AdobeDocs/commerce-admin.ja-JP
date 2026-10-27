@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '233'
 ht-degree: 0%
 ---
 # ゲストチェックアウト
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **_ゲストチェックアウトを無効にするには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Checkout]**&#x200B;を選択します。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    ![設定ページでチェックアウトオプションが拡張されました](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-これらの各構成設定の詳細については、_構成リファレンスガイド_&#x200B;の[&#x200B; チェックアウトオプション &#x200B;](../configuration-reference/sales/checkout.md#checkout-options)を参照してください。
+これらの各構成設定の詳細については、_構成リファレンスガイド_&#x200B;の[ チェックアウトオプション ](../configuration-reference/sales/checkout.md#checkout-options)を参照してください。
 
 1. 設定が特定のストアビューの場合、[設定が適用されるストアビュー](../configuration-reference/scope-change.md#set-the-scope)を選択します。
 
@@ -60,10 +60,10 @@ ht-degree: 0%
 
 ## 登録済み電子メールに対するゲスト注文のアクセスを許可
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
 
 オプションのストアレベル設定は、デフォルトで無効になっていますが、ゲストの買い物客は、登録済みの顧客アカウントに一致するメールアドレスを使用して、注文した注文を追跡できます。
 
 有効にすると、登録済みの電子メールで行われたゲストチェックアウトの注文にアクセスできるようになりますが、顧客の注文履歴にも表示されます。
 
-この機能を有効にするには、**Stores** / 設定/**Configuration** / 営業/**Sales** / **ゲストチェックアウト**&#x200B;に移動し、**登録済み電子メールのゲストオーダーアクセスを許可**&#x200B;設定を`Yes`に設定します。
+この機能を有効にするには、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Guest Checkout]**&#x200B;に移動し、**[!UICONTROL Allow Guest Order Access for Registered Emails]**&#x200B;設定を`Yes`に設定します。

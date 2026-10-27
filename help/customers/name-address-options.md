@@ -35,16 +35,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
 ---
 # 顧客の名前と住所のオプション
 
-顧客がストアで[&#x200B; アカウント &#x200B;](../customers/account-create.md)を作成する際に、_名前と住所のオプション_&#x200B;によって、名前と住所のフォームに含まれるフィールドが決まります。
+顧客がストアで[ アカウント ](../customers/account-create.md)を作成する際に、_名前と住所のオプション_&#x200B;によって、名前と住所のフォームに含まれるフィールドが決まります。
 
-![顧客アカウント登録フォーム &#x200B;](assets/storefront-customer-account-address-book.png){width="500" zoomable="yes"}
+![顧客アカウント登録フォーム ](assets/storefront-customer-account-address-book.png){width="500" zoomable="yes"}
 
 Adobe CommerceとMagento Open Sourceでは、名前と住所のオプションを設定する手順が異なります。
 
@@ -54,7 +54,7 @@ Adobe CommerceとMagento Open Sourceでは、名前と住所のオプション�
 
 ### 手順1：設定の範囲の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Customer Configuration]**&#x200B;を選択します。
 
@@ -71,7 +71,7 @@ Adobe CommerceとMagento Open Sourceでは、名前と住所のオプション�
 
    >[!INFO]
    >
-   >スコープが`Default Store View`に設定されている場合、_[!UICONTROL Name and Address Options]_&#x200B;セクションは表示されません。
+   >スコープが`Default Store View`に設定されている場合、_[!UICONTROL Name and Address Options]_セクションは表示されません。
 
    ![設定範囲](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 
@@ -83,7 +83,7 @@ Adobe CommerceとMagento Open Sourceでは、名前と住所のオプション�
    >
    > `Default config` スコープ設定を使用していない場合は、値を変更する前に、各フィールドの`Use Default` チェックボックスをオフにする必要があります。
 
-   ![名前と住所のオプション &#x200B;](../configuration-reference/customers/assets/customer-configuration-name-address-options-ee.png){width="600" zoomable="yes"}
+   ![名前と住所のオプション ](../configuration-reference/customers/assets/customer-configuration-name-address-options-ee.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Prefix Dropdown Options]**&#x200B;の場合、リストに表示する各プレフィックスをセミコロンで区切って入力します。
 
@@ -109,11 +109,11 @@ Adobe CommerceとMagento Open Sourceでは、名前と住所のオプション�
 
 ストアフロントで顧客がアカウントを作成したときに表示される名前と住所のオプションを設定します。
 
-![顧客アカウント登録フォーム &#x200B;](assets/storefront-customer-account-signup.png){width="500" zoomable="yes"}
+![顧客アカウント登録フォーム ](assets/storefront-customer-account-signup.png){width="500" zoomable="yes"}
 
 ### 手順1：設定の範囲の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Customer Configuration]**&#x200B;を選択します。
 
@@ -123,7 +123,7 @@ Adobe CommerceとMagento Open Sourceでは、名前と住所のオプション�
    >
    > 名前と住所オプションの範囲は、`website` レベルで適用されます。
 
-   ![名前と住所のオプション &#x200B;](../configuration-reference/customers/assets/customer-configuration-name-address-options-ce.png){width="600" zoomable="yes"}
+   ![名前と住所のオプション ](../configuration-reference/customers/assets/customer-configuration-name-address-options-ce.png){width="600" zoomable="yes"}
 
 1. ページの上部までスクロールし、設定の範囲を次のいずれかに設定します。
 
@@ -192,7 +192,7 @@ Adobe CommerceとMagento Open Sourceでは、名前と住所のオプション�
    - `Optional`
    - `Required`
 
-   顧客サインアップフォームの![性別オプション &#x200B;](assets/storefront-customer-account-gender.png){width="600" zoomable="yes"}
+   顧客サインアップフォームの![性別オプション ](assets/storefront-customer-account-gender.png){width="600" zoomable="yes"}
 
 1. 顧客フォームに次のフィールドを含めるには、必要に応じて、それぞれの値を`Optional`または`Required`に設定します。
 

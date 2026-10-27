@@ -25,16 +25,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
 ---
 # 税区分
 
-税区分は、顧客、製品および出荷に割り当てることができます。 Commerceでは、各顧客のショッピングカートを分析し、顧客のクラス、カート内の商品のクラス、地域に応じて適切な税金を計算します。 地域は、顧客の配送先住所、請求先住所、配送元によって決まります。 [税ルール &#x200B;](tax-rules.md)が定義されている場合は、新しい税区分を作成できます。
+税区分は、顧客、製品および出荷に割り当てることができます。 Commerceでは、各顧客のショッピングカートを分析し、顧客のクラス、カート内の商品のクラス、地域に応じて適切な税金を計算します。 地域は、顧客の配送先住所、請求先住所、配送元によって決まります。 [税ルール ](tax-rules.md)が定義されている場合は、新しい税区分を作成できます。
 
-- **顧客** – 必要な数の顧客税区分を作成し、それらを[顧客グループ &#x200B;](../customers/customer-groups.md)に割り当てることができます。 例えば、一部の国や地域では、卸売取引には課税されませんが、小売取引には課税されます。 卸売顧客グループのメンバーを卸売税区分に関連付けることができます。
+- **顧客** – 必要な数の顧客税区分を作成し、それらを[顧客グループ ](../customers/customer-groups.md)に割り当てることができます。 例えば、一部の国や地域では、卸売取引には課税されませんが、小売取引には課税されます。 卸売顧客グループのメンバーを卸売税区分に関連付けることができます。
 
 - **製品** – 製品クラスは、ショッピングカートに正しい税率が適用されているかどうかを計算するために使用されます。 製品を作成すると、特定の税区分に割り当てられます。 例えば、食べ物には税金がかからなかったり、別の税率で課税されたりすることもあります。
 
@@ -42,9 +42,9 @@ ht-degree: 0%
 
 ## 税区分の設定
 
-配送に使用される税区分、および[製品と顧客](#add-a-product-tax-class)の既定の税区分は、_[!UICONTROL Sales]_&#x200B;設定で設定されます。
+配送に使用される税区分、および[製品と顧客](#add-a-product-tax-class)の既定の税区分は、_[!UICONTROL Sales]_設定で設定されます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Tax]**&#x200B;を選択します。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 顧客および製品用の税区分を簡単に追加し、個々の顧客および製品に割り当て、税務ルールで使用できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**&#x200B;に移動します。
 
 1. **[!UICONTROL Add New Tax Rule]**&#x200B;をクリックします。
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 **_計算の既定の税宛先を設定するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Tax]**&#x200B;を選択します。
 

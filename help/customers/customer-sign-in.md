@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -46,20 +46,20 @@ ht-degree: 0%
 
 設定で[CAPTCHA](../systems/security-captcha.md)が有効になっている場合、ユーザーはアカウントにアクセスする前に、人間であることを確認するテストを正しく完了する必要があります。
 
-お客様がパスワードを忘れた場合、アカウントに関連付けられているメールアドレスにリセットリンクが送信されます。 [&#x200B; パスワードオプション &#x200B;](../customers/password-options.md)設定は、ログイン試行の顧客体験を制御します。
+お客様がパスワードを忘れた場合、アカウントに関連付けられているメールアドレスにリセットリンクが送信されます。 [ パスワードオプション ](../customers/password-options.md)設定は、ログイン試行の顧客体験を制御します。
 
 - 顧客がパスワードを入力しようとする回数
 - 試行の間隔（分）
 - アカウントがロックされるまでの合計試行回数
 - ロックアウトの長さ
 
-![&#x200B; ストアフロントヘッダーのサインインリンク &#x200B;](assets/storefront-sign-in-create-account.png){width="700" zoomable="yes"}
+![ ストアフロントヘッダーのサインインリンク ](assets/storefront-sign-in-create-account.png){width="700" zoomable="yes"}
 
 ## 顧客アカウントにログイン
 
 1. ストアのヘッダーで、顧客は&#x200B;**[!UICONTROL Sign in]**&#x200B;をクリックします。
 
-   ![お客様のログイン &#x200B;](assets/login.png){width="700" zoomable="yes"}
+   ![お客様のログイン ](assets/login.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL Email]** アドレスと&#x200B;**[!UICONTROL Password]**&#x200B;を入力します。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ログイン後に顧客をアカウントダッシュボードにリダイレクトするか、ショッピングを続行するようにストアを設定できます。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Customer Configuration]**&#x200B;を選択します。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Login with Amazon]**&#x200B;をクリックします。
 
-   ![Amazonでログイン &#x200B;](assets/amazon-pay.png){width="700" zoomable="yes"}
+   ![Amazonでログイン ](assets/amazon-pay.png){width="700" zoomable="yes"}
 
 1. ログインを求められると、お客様はAmazon バイヤーアカウントの&#x200B;**[!UICONTROL email address]**&#x200B;と&#x200B;**[!UICONTROL password]**&#x200B;を入力します。
 
@@ -106,11 +106,11 @@ ht-degree: 0%
    - メールアドレス
    - 輸送先住所
 
-   ![&#x200B; データを共有する権限を付与](assets/amazon-popup2.png){width="700" zoomable="yes"}
+   ![ データを共有する権限を付与](assets/amazon-popup2.png){width="700" zoomable="yes"}
 
 ## 顧客アカウントからログアウトする
 
-1. _[!UICONTROL Welcome, Customer Name!]_&#x200B;の横の右上隅で、顧客は&#x200B;**[!UICONTROL v]**&#x200B;メニューセレクターをクリックします。
+1. _[!UICONTROL Welcome, Customer Name!]_の横の右上隅で、顧客は&#x200B;**[!UICONTROL v]**メニューセレクターをクリックします。
 
 1. **[!UICONTROL Sign Out]**&#x200B;を選択してください。
 

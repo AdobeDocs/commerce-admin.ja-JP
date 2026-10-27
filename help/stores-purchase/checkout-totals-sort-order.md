@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -38,15 +38,15 @@ ht-degree: 0%
 
 **_チェックアウト合計の並べ替え順序を設定するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」セクションを展開し、下の「**[!UICONTROL Sales]**」を選択します。
 
 1. **[!UICONTROL Checkout Totals Sort Order]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![並べ替え順序を決定するために番号付けされたチェックアウト合計オプション &#x200B;](../configuration-reference/sales/assets/sales-checkout-totals-sort-order.png){width="600" zoomable="yes"}
+   ![並べ替え順序を決定するために番号付けされたチェックアウト合計オプション ](../configuration-reference/sales/assets/sales-checkout-totals-sort-order.png){width="600" zoomable="yes"}
 
-   これらの各構成設定について詳しくは、_構成リファレンスガイド_&#x200B;の「[&#x200B; チェックアウト合計の並べ替え順](../configuration-reference/sales/sales.md#checkout-totals-sort-order)」を参照してください。
+   これらの各構成設定について詳しくは、_構成リファレンスガイド_&#x200B;の「[ チェックアウト合計の並べ替え順](../configuration-reference/sales/sales.md#checkout-totals-sort-order)」を参照してください。
 
 1. 設定が特定のストアビューの場合、[設定が適用されるストアビュー](../configuration-reference/scope-change.md#set-the-scope)を選択します。
 

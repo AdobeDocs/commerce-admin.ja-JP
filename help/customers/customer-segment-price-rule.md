@@ -27,22 +27,22 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '231'
 ht-degree: 0%
 ---
 # 価格ルールの顧客セグメント
 
 {{ee-feature}}
 
-顧客セグメントは、[買い物かご価格ルール &#x200B;](../merchandising-promotions/price-rules-cart.md)に関連付けることで、ターゲットを絞ったプロモーションに使用できます。
+顧客セグメントは、[買い物かご価格ルール ](../merchandising-promotions/price-rules-cart.md)に関連付けることで、ターゲットを絞ったプロモーションに使用できます。
 
-![買い物かごの価格ルール – ターゲット顧客セグメント &#x200B;](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
+![買い物かごの価格ルール – ターゲット顧客セグメント ](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
-_&#x200B;**セグメントをカート価格ルールに関連付けるには：**&#x200B;_
+_**セグメントをカート価格ルールに関連付けるには：**_
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _プロモーション_ > **[!UICONTROL Cart Price Rules]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]**&#x200B;に移動します。
 
 1. 新規または既存のルールを開きます。
 
@@ -53,7 +53,7 @@ _&#x200B;**セグメントをカート価格ルールに関連付けるには：
 
 1. 条件を追加します。
 
-   * 条件のリストを表示する&#x200B;_追加_ （![&#x200B; リストアイコン &#x200B;](../assets/icon-add-green-circle.png)）アイコンをクリックします。 次に、**[!UICONTROL Customer Segment]**&#x200B;を選択します。
+   * 条件のリストを表示する&#x200B;_追加_ （![ リストアイコン ](../assets/icon-add-green-circle.png)）アイコンをクリックします。 次に、**[!UICONTROL Customer Segment]**&#x200B;を選択します。
 
    ![買い物かごの価格ルール – 顧客セグメント条件を追加](assets/condition-customer-segment.png){width="600" zoomable="yes"}
 
@@ -65,11 +65,11 @@ _&#x200B;**セグメントをカート価格ルールに関連付けるには：
 
    ![条件演算子](assets/price-rule-condition-customer-segment-operator.png){width="600" zoomable="yes"}
 
-1. 特定のセグメントをターゲットにするには、「その他&#x200B;**...**」リンクをクリックして追加のオプションを表示します。 次に、_Chooser_ （![&#x200B; リストアイコン &#x200B;](../assets/icon-list-chooser.png)）アイコンをクリックして、顧客セグメントのリストを表示します。
+1. 特定のセグメントをターゲットにするには、「その他&#x200B;**...**」リンクをクリックして追加のオプションを表示します。 次に、_Chooser_ （![ リストアイコン ](../assets/icon-list-chooser.png)）アイコンをクリックして、顧客セグメントのリストを表示します。
 
 1. リストで、条件でターゲットにする各セグメントのチェックボックスを選択します。
 
-   ![買い物かごの価格ルール – 条件選択リスト &#x200B;](assets/condition-segment-chooser-list.png){width="600" zoomable="yes"}
+   ![買い物かごの価格ルール – 条件選択リスト ](assets/condition-segment-chooser-list.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Select]**&#x200B;をクリックして、選択した顧客セグメントを条件に配置します。
 

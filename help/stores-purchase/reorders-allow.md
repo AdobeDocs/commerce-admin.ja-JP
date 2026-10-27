@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 有効にすると、顧客アカウントまたは&#x200B;_管理者_&#x200B;の元の注文から直接再注文できます。 再発注はデフォルトで有効になっています。
 
-管理者![&#128279;](./assets/customer-reorder.png){width="700" zoomable="yes"}のお客様の再注文リンク
+管理者](./assets/customer-reorder.png){width="700" zoomable="yes"}の![お客様の再注文リンク
 
 ## 注文に対して有効にする再発注の条件
 
@@ -52,13 +52,13 @@ ht-degree: 0%
 
 ## 顧客の再注文を許可するように設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」を展開し、下の「**[!UICONTROL Sales]**」を選択します。
 
 1. **[!UICONTROL Reorder]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
-   ![並べ替えオプション &#x200B;](../configuration-reference/sales/assets/sales-reorder.png){width="600" zoomable="yes"}
+   ![並べ替えオプション ](../configuration-reference/sales/assets/sales-reorder.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Allow Reorder]**&#x200B;を`Yes`に設定します。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 _並べ替え_ ボタンは、常に注文と共にリストに表示されます（注文のすべての商品が並べ替え可能でない場合でも）。
 
-![&#x200B; ストアフロントの例 – マイオーダーのページ &#x200B;](./assets/my-order-page-view.png){width="700" zoomable="yes"}
+![ ストアフロントの例 – マイオーダーのページ ](./assets/my-order-page-view.png){width="700" zoomable="yes"}
 
 **ケース 1.** 注文のすべての商品は、再注文で&#x200B;**使用可能**&#x200B;です
 
@@ -94,7 +94,7 @@ _並べ替え_ ボタンは、常に注文と共にリストに表示されま�
 
 _並べ替え_ ボタンは、_マイオーダー_&#x200B;および&#x200B;_表示オーダー_ ページには表示されません。
 
-![&#x200B; マイオーダーのページ 1](./assets/my-orders-view-page1.png){width="700" zoomable="yes"}
+![ マイオーダーのページ 1](./assets/my-orders-view-page1.png){width="700" zoomable="yes"}
 
 ### 注文表示ページ
 
@@ -110,13 +110,13 @@ _並べ替え_ ボタンは、_マイオーダー_&#x200B;および&#x200B;_表�
 
 _並べ替え_ ボタンは、_マイオーダー_&#x200B;および&#x200B;_表示オーダー_ ページには表示されません。
 
-![注文の詳細ページ &#x200B;](./assets/order-view-page.png){width="700" zoomable="yes"}
+![注文の詳細ページ ](./assets/order-view-page.png){width="700" zoomable="yes"}
 
 ### 買い物かごが空ではありません
 
 買い物かごが空ではなく、ユーザーが「**[!UICONTROL Reorder]**」（_マイオーダー_&#x200B;または&#x200B;_オーダービュー_ ページ）をクリックした場合、既存の製品は追加された再発注製品とともに買い物かごに残ります。
 
-![&#x200B; アイテムの並べ替え](./assets/shopping-cart-view1.png){width="700" zoomable="yes"}
+![ アイテムの並べ替え](./assets/shopping-cart-view1.png){width="700" zoomable="yes"}
 
 ## 管理者からの並べ替え
 

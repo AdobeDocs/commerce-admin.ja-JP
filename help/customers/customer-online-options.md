@@ -33,14 +33,14 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
 ---
 # 顧客セッションの有効期間
 
-顧客ショッピングセッションの有効期間は、サーバーセッションの長さ、[永続的なカート &#x200B;](../stores-purchase/cart-persistent.md)の使用、ブラウザーに保存される情報の有効期間など、いくつかの要因によって決まります。 これらは同じ顧客体験に関連していますが、有効期限や有効期間が異なる個別のプロセスです。
+顧客ショッピングセッションの有効期間は、サーバーセッションの長さ、[永続的なカート ](../stores-purchase/cart-persistent.md)の使用、ブラウザーに保存される情報の有効期間など、いくつかの要因によって決まります。 これらは同じ顧客体験に関連していますが、有効期限や有効期間が異なる個別のプロセスです。
 
 | プロセス | 説明 |
 | --- | --- |
@@ -49,13 +49,13 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-[永続的なカート &#x200B;](../stores-purchase/cart-persistent.md)が有効になっている場合、次回の顧客がアカウントにサインインしたときに、カートの内容が保存されます。 永続的なカートを使用する場合は、サーバーセッションとセッション Cookieの有効期間を長い期間に設定することをお勧めします。
+[永続的なカート ](../stores-purchase/cart-persistent.md)が有効になっている場合、次回の顧客がアカウントにサインインしたときに、カートの内容が保存されます。 永続的なカートを使用する場合は、サーバーセッションとセッション Cookieの有効期間を長い期間に設定することをお勧めします。
 
 サーバーでは、セッションの長さは`php.ini` ファイルと複数の変数によって制御されます。 現在、Adobe Commerceには、サーバーセッションの長さを制御する管理者設定はありません。
 
 ## Cookieの有効期間の設定
 
-1. _管理者_ サイドバーで、[!UICONTROL **ストア**] > _[!UICONTROL Settings]_>[!UICONTROL **構成**]に移動します。
+1. _管理者_ サイドバーで、[!UICONTROL **ストア**] > [!UICONTROL **構成**]&#x200B;に移動します。
 
 1. 複数のストアがある場合は、右上隅の&#x200B;**[!UICONTROL Store View]** セレクターを、設定が適用されるストアに設定します。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ログインを簡単にするために、**[!UICONTROL Remember Me]**&#x200B;機能を使用すると、ユーザーアカウント所有者は、ストアフロントに入るたびに資格情報を入力せずに済みます。 セキュリティ上の理由から、永続性機能はデフォルトで無効になっています。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Persistent Shopping Cart]**&#x200B;を選択します。
 

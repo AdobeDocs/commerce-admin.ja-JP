@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## ステップ 1：製造国を確認する
 
-製造国は、USPSとFedExによって国際的に出荷されているすべての製品に必要です。 更新する製品が多数ある場合は、更新を[&#x200B; インポート &#x200B;](../systems/data-import.md)するか、在庫グリッドを使用して複数のレコードを更新できます。
+製造国は、USPSとFedExによって国際的に出荷されているすべての製品に必要です。 更新する製品が多数ある場合は、更新を[ インポート ](../systems/data-import.md)するか、在庫グリッドを使用して複数のレコードを更新できます。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Catalog]** > **[!UICONTROL Products]**&#x200B;に移動します。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ## ステップ 2 ストア情報を確認する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Shipping Settings]**&#x200B;を選択します。
 
@@ -124,6 +124,6 @@ ht-degree: 0%
 
    情報が見つからない場合は、ラベルを印刷しようとするとエラーが表示されます。
 
-   ![&#x200B; ストア情報](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
+   ![ ストア情報](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save Config]**&#x200B;をクリックします。

@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 3%
@@ -40,15 +40,15 @@ ht-degree: 3%
 
 複数のメールメッセージは、注文に関連するイベントによってトリガーされ、設定は類似しています。 メッセージの送信者、使用するメールテンプレート、およびメッセージのコピーを受け取る他のユーザーとして表示されるストア連絡先を特定してください。 セールスメールは、イベントによってトリガーされたときに、または事前に決められた間隔で送信することができます。
 
-![営業設定 – セールスメール &#x200B;](./assets/config-sales-sales-email-full.png){width="600" zoomable="yes"}
+![営業設定 – セールスメール ](./assets/config-sales-sales-email-full.png){width="600" zoomable="yes"}
 
 ## 手順1: メールテンプレートの更新
 
-[&#x200B; メールヘッダー](../systems/email-template-custom.md#header-template) テンプレートを更新して、ブランドと、必要に応じてその他のメールテンプレートを反映するようにしてください。 テンプレートの完全なリストについては、[&#x200B; メールテンプレート &#x200B;](../systems/email-templates.md)を参照してください。
+[ メールヘッダー](../systems/email-template-custom.md#header-template) テンプレートを更新して、ブランドと、必要に応じてその他のメールテンプレートを反映するようにしてください。 テンプレートの完全なリストについては、[ メールテンプレート ](../systems/email-templates.md)を参照してください。
 
 ## 手順2: 送信の種類を選択
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Sales Emails]**&#x200B;を選択します。
 
@@ -61,7 +61,7 @@ ht-degree: 3%
    - `Disable` - イベントによってトリガーされたときにセールスメールを送信します。
    - `Enable` – 所定の間隔で定期的にセールスメールを送信します。
 
-   Adobe Commerce サポートでは、非同期送信を有効にして、注文処理のパフォーマンスを向上させることをお勧めします。 Adobe Commerce サポート ナレッジベースの[注文処理に関する設定のベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration)を参照してください。
+   Adobe Commerce サポートでは、非同期送信を有効にして、注文処理のパフォーマンスを向上させることをお勧めします。 Adobe Commerce サポート ナレッジベースの[注文処理に関する設定のベストプラクティス ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration)を参照してください。
 
 ## 手順3: 各セールスメールメッセージの詳細を入力します
 
@@ -88,7 +88,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL Order Comments]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開し、これらの手順を繰り返します。
 
-   ![販売設定 – セールスメール注文のコメント &#x200B;](../configuration-reference/sales/assets/sales-emails-order-comments.png){width="600" zoomable="yes"}
+   ![販売設定 – セールスメール注文のコメント ](../configuration-reference/sales/assets/sales-emails-order-comments.png){width="600" zoomable="yes"}
 
 1. 残りのセールスメールタイプの設定を完了します。
 

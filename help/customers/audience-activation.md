@@ -5,7 +5,7 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: 'https://experienceleague.adobe.com/yzMHk3bclm2kSJ588YKqTUrZzvf-FZNN9qAXGhqFs84'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '1976'
 ht-degree: 1%
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 [!DNL Audience Activation]拡張機能を使用すると、Adobe CommerceでReal-Time CDP オーディエンスをアクティブ化して、カート内に一意のオファーを作成できます。 これらのオファーとインセンティブには、_buy 2 get 1 free_&#x200B;などの一般的なコマースマーチャンダイジング手法、その顧客を対象としたヒーローバナー、さまざまなオファーを通じた商品価格の変更などが含まれます。 Real-Time CDP内で構築されるオーディエンスは、ERP （Enterprise Resource Planning）、CRM （Customer Relationship Management）、POS、マーケティングシステムなど、様々なエンタープライズシステムからのデータにもとづいています。 顧客セグメント情報は常に更新されるため、顧客がストアで買い物をするときに、セグメントに関連付けられたり、関連付けられなかったりする可能性があります。
 
-Luma ストアフロントまたは[&#x200B; ヘッドレス &#x200B;](#headless-support) ストアフロントでオーディエンスをアクティブ化できます。 Luma ストアフロントでは、Commerce側のCookieにオーディエンス情報（セグメントメンバーシップ）が保存されます。 ヘッドレスストアフロントでは、オーディエンス情報は、次の名前のパラメーターとしてGraphQL API ヘッダーに渡されます：`aep-segments-membership`。
+Luma ストアフロントまたは[ ヘッドレス ](#headless-support) ストアフロントでオーディエンスをアクティブ化できます。 Luma ストアフロントでは、Commerce側のCookieにオーディエンス情報（セグメントメンバーシップ）が保存されます。 ヘッドレスストアフロントでは、オーディエンス情報は、次の名前のパラメーターとしてGraphQL API ヘッダーに渡されます：`aep-segments-membership`。
 
 ## リリースノート
 
@@ -57,11 +57,11 @@ Luma ストアフロントまたは[&#x200B; ヘッドレス &#x200B;](#headless
 
 ![新機能](../assets/new.svg) – 新機能
 ![修正](../assets/fix.svg) – 修正と改善
-![&#x200B; バグ &#x200B;](../assets/bug.svg) – 既知の問題
+![ バグ ](../assets/bug.svg) – 既知の問題
 
-リリーススケジュールとサポートについて詳しくは、[今後のリリース &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/planning/schedule)を参照してください。
+リリーススケジュールとサポートについて詳しくは、[今後のリリース ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule)を参照してください。
 
-製品互換性について詳しくは、[開発者向けドキュメントを参照してください](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/product-availability)。
+製品互換性について詳しくは、[開発者向けドキュメントを参照してください](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability)。
 
 ## サポートされているサービス更新
 
@@ -71,7 +71,7 @@ Luma ストアフロントまたは[&#x200B; ヘッドレス &#x200B;](#headless
 
 _2023年8月15日_
 
-![修正](../assets/fix.svg) - [Real-Time CDP Audiences ダッシュボード &#x200B;](#real-time-cdp-audiences-dashboard)を更新して、フィルタリングを簡素化しました。
+![修正](../assets/fix.svg) - [Real-Time CDP Audiences ダッシュボード ](#real-time-cdp-audiences-dashboard)を更新して、フィルタリングを簡素化しました。
 
 _2023年6月27日_
 
@@ -79,7 +79,7 @@ _2023年6月27日_
 
 _2023年5月30日_
 
-![新規](../assets/new.svg) - [Real-Time CDP オーディエンスダッシュボード &#x200B;](#real-time-cdp-audiences-dashboard)を更新し、Adobe Commerce インスタンス内のアクティブなオーディエンスを並べ替え、検索、フィルタリングできるようになりました。
+![新規](../assets/new.svg) - [Real-Time CDP オーディエンスダッシュボード ](#real-time-cdp-audiences-dashboard)を更新し、Adobe Commerce インスタンス内のアクティブなオーディエンスを並べ替え、検索、フィルタリングできるようになりました。
 
 +++
 
@@ -113,7 +113,7 @@ _2024年7月29日_
 
 _2024年6月12日_
 
-![新規](../assets/new.svg) - オーディエンスから通知された[関連製品ルール &#x200B;](../merchandising-promotions/product-related-rule-create.md)のGA リリース。
+![新規](../assets/new.svg) - オーディエンスから通知された[関連製品ルール ](../merchandising-promotions/product-related-rule-create.md)のGA リリース。
 
 ### 2.1.1
 
@@ -130,7 +130,7 @@ _2024年4月4日_
 _2024年2月16日_
 
 ![新規](../assets/new.svg) - ベータ版に参加する場合は、`composer.json` ファイルのルートレベルが` "minimum-stability": "beta"`であることを確認してください。
-![新規](../assets/new.svg) - （**Beta**）オーディエンスから通知された[関連商品ルール &#x200B;](../merchandising-promotions/product-related-rule-create.md)を作成する機能を追加しました。
+![新規](../assets/new.svg) - （**Beta**）オーディエンスから通知された[関連商品ルール ](../merchandising-promotions/product-related-rule-create.md)を作成する機能を追加しました。
 
 ### 2.1.0
 
@@ -138,7 +138,7 @@ _2024年2月16日_
 
 _2024年1月24日_
 
-![新規](../assets/new.svg) - [Real-Time CDP Audiences ダッシュボード &#x200B;](#real-time-cdp-audiences-dashboard)を更新して、オーディエンスを含むweb サイトを含め、これらのオーディエンスを使用するように設定されている動的ブロックとカート価格ルールを指定しました。
+![新規](../assets/new.svg) - [Real-Time CDP Audiences ダッシュボード ](#real-time-cdp-audiences-dashboard)を更新して、オーディエンスを含むweb サイトを含め、これらのオーディエンスを使用するように設定されている動的ブロックとカート価格ルールを指定しました。
 
 ### 2.0.1
 
@@ -171,7 +171,7 @@ _2023年5月30日_
 
 [!BADGE 互換性]{type=Informative tooltip="互換性"} Adobe Commerce バージョン 2.4.4以降
 
-![新規](../assets/new.svg) - ヘッドレスストアフロントで[動的ブロック &#x200B;](#headless-support)のサポートを追加しました。
+![新規](../assets/new.svg) - ヘッドレスストアフロントで[動的ブロック ](#headless-support)のサポートを追加しました。
 
 ### 1.0.1
 
@@ -195,7 +195,7 @@ _2023年3月31日_
 次のタスクは、Lumaとヘッドレスストアフロントの両方の実装に適用されます。 Adobe Commerceでオーディエンスをアクティベートするには、次の手順に従う必要があります。
 
 - Adobe Commerce バージョン 2.4.4以降をインストールする
-- [Adobe CommerceをReal-Time CDPの宛先としてアクティブ化](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/adobe-commerce)
+- [Adobe CommerceをReal-Time CDPの宛先としてアクティブ化](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-commerce)
 - [管理者の[!DNL Audience Activation]拡張機能を](#install-the-extension) インストールします
 - [管理者の[!DNL Audience Activation]拡張機能を](#configure-the-extension)設定
 
@@ -211,45 +211,45 @@ composer require magento/audiences
 
 [!DNL Audience Activation]拡張機能をインストールしたら、Commerce管理者にログインして、次の操作を行う必要があります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**に移動します。
 
-1. [Adobe アカウントに](https://experienceleague.adobe.com/ja/docs/commerce/user-guides/integration-services/saas#organizationid) ログインし、組織IDを選択します。
+1. [Adobe アカウントに](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid) ログインし、組織IDを選択します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL [!DNL Data Connection]]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL [!DNL Data Connection]]**に移動します。
 
-1. **[!UICONTROL Datastream ID]** フィールドに、[Adobe CommerceをReal-Time CDPの宛先としてアクティブ化したときに作成したデータストリームのIDを貼り付けます。](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/adobe-commerce#parameters)
+1. **[!UICONTROL Datastream ID]** フィールドに、[Adobe CommerceをReal-Time CDPの宛先としてアクティブ化したときに作成したデータストリームのIDを貼り付けます。](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-commerce#parameters)
 
-   このデータストリームは、Commerceのweb サイトからReal-Time CDPにデータを送信し、買い物客がオーディエンスに属しているかどうかを判断します。 まだデータストリームを作成していない場合は、Experience Platformで[作成](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure#create)し、[追加](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/adobe-commerce)してReal-Time CDPのCommerceの宛先に追加し、管理者の[[!DNL Data Connection]](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/fundamentals/connect-data#data-collection)拡張機能に追加します。
+   このデータストリームは、Commerceのweb サイトからReal-Time CDPにデータを送信し、買い物客がオーディエンスに属しているかどうかを判断します。 まだデータストリームを作成していない場合は、Experience Platformで[作成](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#create)し、[追加](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-commerce)してReal-Time CDPのCommerceの宛先に追加し、管理者の[[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data#data-collection)拡張機能に追加します。
 
    >[!NOTE]
    >
-   >データストリーム IDを指定すると、[!DNL Data Connection]拡張機能で[特定のweb サイト &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/fundamentals/connect-data#data-collection)に関連付けることができます。 Commerce ストアに複数のweb サイトがある場合は、[Real-Time CDPでweb サイトごとに宛先](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/connect-destination)を作成し、それぞれに異なるデータストリーム IDを使用します。
+   >データストリーム IDを指定すると、[!DNL Data Connection]拡張機能で[特定のweb サイト ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data#data-collection)に関連付けることができます。 Commerce ストアに複数のweb サイトがある場合は、[Real-Time CDPでweb サイトごとに宛先](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination)を作成し、それぞれに異なるデータストリーム IDを使用します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. **[!UICONTROL Services]**&#x200B;を展開し、**[!UICONTROL [!DNL Data Connection]]**&#x200B;を選択します。
 
-1. [&#x200B; サービスアカウントと資格情報の詳細を](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/fundamentals/connect-data#add-service-account-and-credential-details)追加します。
+1. [ サービスアカウントと資格情報の詳細を](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data#add-service-account-and-credential-details)追加します。
 
 ## CommerceのReal-Time CDP オーディエンスの使用方法
 
 [!DNL Audience Activation]拡張機能を有効にすると、次のことが可能になります。
 
-- オーディエンスから通知された[&#x200B; カート価格ルール &#x200B;](../merchandising-promotions/price-rules-cart-create.md#use-real-time-cdp-audiences-to-set-a-condition)を作成します
+- オーディエンスから通知された[ カート価格ルール ](../merchandising-promotions/price-rules-cart-create.md#use-real-time-cdp-audiences-to-set-a-condition)を作成します
 - オーディエンスから通知された[動的ブロックを作成](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks)
 - オーディエンスから通知された[関連製品ルールを作成](../merchandising-promotions/product-related-rule-create.md)
 
 >[!TIP]
 >
->[!DNL Commerce] データをReal-Time CDPに書き出し、オーディエンスを構築し、そのオーディエンスを[!DNL Commerce]にアクティベートする方法に関するエンドツーエンドの完全なユースケースについては、[&#x200B; イベントデータ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/use-cases/create-audience)を使用してReal-Time CDPでオーディエンスを作成するを参照してください。 [!DNL Commerce] 
+>[!DNL Commerce] データをReal-Time CDPに書き出し、オーディエンスを構築し、そのオーディエンスを[!DNL Commerce]にアクティベートする方法に関するエンドツーエンドの完全なユースケースについては、[ イベントデータ ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/use-cases/create-audience)を使用してReal-Time CDPでオーディエンスを作成するを参照してください。 [!DNL Commerce] 
 
 ## Real-Time CDP audiences dashboard
 
-**Real-Time CDP Audiences** ダッシュボードを使用して、Adobe Commerce インスタンス内でパーソナライズ可能なすべての[&#x200B; アクティブな](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations) オーディエンスを表示できます。
+**Real-Time CDP Audiences** ダッシュボードを使用して、Adobe Commerce インスタンス内でパーソナライズ可能なすべての[ アクティブな](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations) オーディエンスを表示できます。
 
 **Real-Time CDP Audiences** ダッシュボードにアクセスするには、_管理者_ サイドバーに移動し、**[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**&#x200B;に移動します。
 
-![Real-Time CDP オーディエンスダッシュボード &#x200B;](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
+![Real-Time CDP オーディエンスダッシュボード ](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
 
 ダッシュボードには、次のフィールドが含まれます。
 
@@ -275,15 +275,15 @@ AEMやPWAなどのヘッドレスAdobe Commerceインスタンスでオーディ
 
 ### カートの価格ルールと関連商品のルール
 
-買い物かごの価格ルールと関連商品ルールの場合、ヘッドレスストアフロントは[Commerce integration framework（CIF） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/content-and-commerce/cif-storefront/integrations/magento)を通じてExperience Platformと通信します。 このフレームワークは、GraphQLを使用して実装されたサーバーサイド APIを提供します。 買い物客のセグメントなどのオーディエンス情報は、次の名前のGraphQL ヘッダーパラメーターを通じてCommerceに渡されます：`aep-segments-membership`。
+買い物かごの価格ルールと関連商品ルールの場合、ヘッドレスストアフロントは[Commerce integration framework（CIF） ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/cif-storefront/integrations/magento)を通じてExperience Platformと通信します。 このフレームワークは、GraphQLを使用して実装されたサーバーサイド APIを提供します。 買い物客のセグメントなどのオーディエンス情報は、次の名前のGraphQL ヘッダーパラメーターを通じてCommerceに渡されます：`aep-segments-membership`。
 
 全体的なアーキテクチャは次のとおりです。
 
-![&#x200B; ヘッドレスストアフロントからバックエンドへのデータの送信](./assets/aem-commerce-architecture.png){width="700" zoomable="yes"}
+![ ヘッドレスストアフロントからバックエンドへのデータの送信](./assets/aem-commerce-architecture.png){width="700" zoomable="yes"}
 
-拡張機能を[&#x200B; インストール &#x200B;](#install-the-extension)および[設定](#configure-the-extension)した後、Experience Platform Web SDKには、セグメント メンバーシップの形式でオーディエンス情報が含まれます。
+拡張機能を[ インストール ](#install-the-extension)および[設定](#configure-the-extension)した後、Experience Platform Web SDKには、セグメント メンバーシップの形式でオーディエンス情報が含まれます。
 
-SDKからこれらのセグメントメンバーシップを取得するには、この[&#x200B; コードスニペット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/personalization/custom-personalization#example-response-for-custom-personalization-with-attributes)を参照してください。
+SDKからこれらのセグメントメンバーシップを取得するには、この[ コードスニペット ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization#example-response-for-custom-personalization-with-attributes)を参照してください。
 
 取得したセグメントは、GraphQL ヘッダー内でCommerceに渡すことができます。 例：
 
@@ -369,14 +369,14 @@ curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-s
 }
 ```
 
-`dynamicBlocks` GraphQL クエリについて詳しくは、[開発者ドキュメント &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks)を参照してください。
+`dynamicBlocks` GraphQL クエリについて詳しくは、[開発者ドキュメント ](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks)を参照してください。
 
 ## Adobe Experience Platform Mobile SDKを使用したオーディエンスの取得
 
 Real-Time CDP オーディエンスは、Adobe Experience Platform Mobile SDKを使用して取得できます。
 
-1. Audience Activation拡張機能を[&#x200B; インストール &#x200B;](#install-the-extension)。
-1. [&#x200B; モバイル Commerce サイト用のSDKをインストールして設定します](https://experienceleague.adobe.com/ja/docs/commerce/data-connection/fundamentals/mobile-sdk-epc)。
+1. Audience Activation拡張機能を[ インストール ](#install-the-extension)。
+1. [ モバイル Commerce サイト用のSDKをインストールして設定します](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/mobile-sdk-epc)。
 
 >[!IMPORTANT]
 >
@@ -410,7 +410,7 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 }
 ```
 
-データを取得した後、Commerce アプリで、オーディエンス情報に基づいた[&#x200B; カート価格ルール &#x200B;](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences)、[動的ブロック &#x200B;](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks)、[関連商品ルール &#x200B;](../merchandising-promotions/product-related-rule-create.md)を作成するために使用できます。
+データを取得した後、Commerce アプリで、オーディエンス情報に基づいた[ カート価格ルール ](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences)、[動的ブロック ](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks)、[関連商品ルール ](../merchandising-promotions/product-related-rule-create.md)を作成するために使用できます。
 
 ## Commerceにはオーディエンスは表示されません
 
@@ -448,9 +448,9 @@ bin/magento audiences:config:status
 ### 設定で選択された認証タイプが正しくありません
 
 1. Commerce インスタンスを開きます。
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 1. **[!UICONTROL Services]**&#x200B;を展開し、**[!UICONTROL [!DNL Data Connection]]**&#x200B;を選択します。
-1. **[!UICONTROL Authentication Type]** フィールドで指定したサーバー間の承認方法が正しいことを確認します。 Adobeでは、**OAuth**&#x200B;を使用することをお勧めします。 [JWTは非推奨となりました](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console)。現在のすべての証明書の有効期限は2026年3月1日です。
+1. **[!UICONTROL Authentication Type]** フィールドで指定したサーバー間の承認方法が正しいことを確認します。 Adobeでは、**OAuth**&#x200B;を使用することをお勧めします。 [JWTは非推奨となりました](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console)。現在のすべての証明書の有効期限は2026年3月1日です。
 
 ### 生成されたトークンに対する権限が不十分
 
@@ -464,5 +464,5 @@ bin/magento audiences:config:status
 1. 資格情報を開き、**[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**&#x200B;を選択します。
 1. **[!UICONTROL Manage destinations]**&#x200B;権限を含む役割を追加します。
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
-1. [&#x200B; コンソールでアクセストークンを](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-authentication#generate-access-token)再生成します。
+1. [ コンソールでアクセストークンを](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#generate-access-token)再生成します。
 1. トークンが[Target Connections API](https://developer.adobe.com/experience-platform-apis/references/destinations#tag/Target-connections/operation/getTargetConnections)を使用して有効な応答を提供していることを確認します。

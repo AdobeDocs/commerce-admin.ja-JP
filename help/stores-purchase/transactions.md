@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -38,9 +38,9 @@ _トランザクション_ ページには、ストアと支払いシステム�
 
 ## トランザクションの表示
 
-_管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**&#x200B;に移動します。
+_管理者_ サイドバーで、**[!UICONTROL Sales]** > **[!UICONTROL Transactions]**&#x200B;に移動します。
 
-![&#x200B; トランザクショングリッド &#x200B;](./assets/transactions.png){width="600" zoomable="yes"}
+![ トランザクショングリッド ](./assets/transactions.png){width="600" zoomable="yes"}
 
 | 列 | 説明 |
 |--- |--- |

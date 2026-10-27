@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->税金を含める価格と除外する価格を表示すると、お客様の混乱を招く可能性があります。 警告メッセージのトリガーを回避するには、お住まいの国の[&#x200B; ガイドライン &#x200B;](international-tax-guidelines.md)および警告メッセージを回避するための[推奨設定](taxes.md#warning-messages)を参照してください。
+>税金を含める価格と除外する価格を表示すると、お客様の混乱を招く可能性があります。 警告メッセージのトリガーを回避するには、お住まいの国の[ ガイドライン ](international-tax-guidelines.md)および警告メッセージを回避するための[推奨設定](taxes.md#warning-messages)を参照してください。
 
 ![価格表示設定](../configuration-reference/sales/assets/tax-price-display-settings.png){width="600" zoomable="yes"}
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ### 手順1：カタログ価格の表示設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Tax]**&#x200B;を選択します。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 両方の価格（税込みおよび税抜き）を表示する場合、ストアフロントは次のようになります。
 
-![&#x200B; ストアフロントでの税金を含む価格表示の例](./assets/catalog-prices-tax.png){width="700" zoomable="yes"}
+![ ストアフロントでの税金を含む価格表示の例](./assets/catalog-prices-tax.png){width="700" zoomable="yes"}
 
 ### 手順2：ショッピングカートの表示設定の設定
 

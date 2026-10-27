@@ -3,7 +3,7 @@ title: URLの保存
 description: ストア URLと、ベース URLとストアコードを設定する方法について説明します。
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: 'https://experienceleague.adobe.com/t-vp20uVrUmg-dRVONHjUUcgxzYBT5--uB8U1XorRPs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 1%
@@ -53,7 +53,7 @@ Adobe CommerceまたはMagento Open Source インストールの各web サイト
 
 >[!IMPORTANT]
 >
->デフォルトのベース URL設定から管理者URLを変更しないでください。 管理者URLまたはパスを変更するには、[&#x200B; カスタム管理者URLの使用](#use-a-custom-admin-url)を参照してください。
+>デフォルトのベース URL設定から管理者URLを変更しないでください。 管理者URLまたはパスを変更するには、[ カスタム管理者URLの使用](#use-a-custom-admin-url)を参照してください。
 
 ## 安全なプロトコルの使用
 
@@ -69,7 +69,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトで`HTTPS`を超える�
 
 ## ベース URLの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルの&#x200B;_一般_&#x200B;で、**[!UICONTROL Web]**&#x200B;を選択します。
 
@@ -79,7 +79,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトで`HTTPS`を超える�
 
      >[!NOTE]
      >
-     >_[!UICONTROL Base Link URL]_&#x200B;フィールドのプレースホルダーは変更しないでください。 これは、ベース URLへの相対リンクを作成するために使用されるプレースホルダーです。
+     >_[!UICONTROL Base Link URL]_フィールドのプレースホルダーは変更しないでください。 これは、ベース URLへの相対リンクを作成するために使用されるプレースホルダーです。
 
    - **[!UICONTROL Base URL for Static View Files]** — （オプション）次のプレースホルダーで始まるパスを入力して、静的ビューファイルのベース URLの代替の場所を指定します。
 
@@ -124,7 +124,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトで`HTTPS`を超える�
    - **[!UICONTROL Use Secure URLs on Storefront]**
    - **[!UICONTROL Use Secure URLs in Admin]**
 
-1. _[!UICONTROL Enhanced Security Settings]_&#x200B;に対して、次の操作を行います。
+1. _[!UICONTROL Enhanced Security Settings]_に対して、次の操作を行います。
 
    - **[!UICONTROL Enable HTTP Strict Transport Security (HSTS)]** — ストアでセキュアなHTTPS ページリクエストのみを表示する場合は、`Yes`に設定します。
 
@@ -142,9 +142,9 @@ Adobe CommerceとMagento Open Sourceは、デフォルトで`HTTPS`を超える�
 >
 >「_ストアコードをURLに追加_」オプションが`Yes`に設定されている場合は、ストアコードをブラウザーのURLに含める必要があります。 この設定により、URLの書き換えが正しくマッピングされ、すべてのページが正常に開かれ、_&quot;404 Page Not Found&quot;_ エラーが発生しないようにします。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
-1. 左側のパネルの&#x200B;_[!UICONTROL General]_&#x200B;で、**[!UICONTROL Web]**&#x200B;を選択します。
+1. 左側のパネルの&#x200B;_[!UICONTROL General]_で、**[!UICONTROL Web]**を選択します。
 
 1. **[!UICONTROL URL Options]** セクションの![拡張セレクター](../assets/icon-display-expand.png)を展開します。
 
@@ -153,13 +153,13 @@ Adobe CommerceとMagento Open Sourceは、デフォルトで`HTTPS`を超える�
    - **[!UICONTROL URL with Store Code]**: `http://www.yourdomain.com/magento/[store-code]/index.php/url-identifier`
    - **[!UICONTROL URL without Store Code]**: `http://www.yourdomain.com/magento/index.php/url-identifier`
 
-   ![一般設定 – web URL オプション &#x200B;](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
+   ![一般設定 – web URL オプション ](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
 1. ワークスペースの上部にあるメッセージの&#x200B;**[!UICONTROL Cache Management]** リンクをクリックします。 次に、指示に従ってキャッシュを更新します。
 
-   ![&#x200B; キャッシュ管理メッセージ &#x200B;](./assets/msg-cache-management.png)
+   ![ キャッシュ管理メッセージ ](./assets/msg-cache-management.png)
 
 ## URL トラブルシューティング
 
@@ -170,7 +170,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトで`HTTPS`を超える�
 
 ## カスタム管理者URLの使用
 
-[&#x200B; セキュリティのベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)として、Adobeでは、デフォルトの&#x200B;_管理者_&#x200B;や&#x200B;_バックエンド_&#x200B;などの一般的な用語の代わりに、一意の管理者URLを使用することをお勧めします。 特定の不正なアクターからサイトを直接保護するわけではありませんが、不正アクセスを試みるスクリプトへの暴露を減らすことができます。
+[ セキュリティのベストプラクティス ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)として、Adobeでは、デフォルトの&#x200B;_管理者_&#x200B;や&#x200B;_バックエンド_&#x200B;などの一般的な用語の代わりに、一意の管理者URLを使用することをお勧めします。 特定の不正なアクターからサイトを直接保護するわけではありませんが、不正アクセスを試みるスクリプトへの暴露を減らすことができます。
 
 >[!NOTE]
 >
@@ -186,11 +186,11 @@ Adobe CommerceとMagento Open Sourceは、デフォルトで`HTTPS`を超える�
 
 >[!NOTE]
 >
->予防策として、サーバー上の設定ファイルの編集方法を把握していない限り、自分で管理者URLを変更しないでください。 クラウドインフラストラクチャにデプロイされたAdobe Commerce プロジェクトの場合は、*Adobe Commerce Cloud Infrastructure ガイド*&#x200B;の[手順](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url)に従って、管理者URLを変更します。
+>予防策として、サーバー上の設定ファイルの編集方法を把握していない限り、自分で管理者URLを変更しないでください。 クラウドインフラストラクチャにデプロイされたAdobe Commerce プロジェクトの場合は、*Adobe Commerce Cloud Infrastructure ガイド*&#x200B;の[手順](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url)に従って、管理者URLを変更します。
 
 ### 方法1：管理者からの変更
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL Admin]**&#x200B;を選択します。
 
@@ -232,7 +232,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトで`HTTPS`を超える�
 
    >[!TIP]
    >
-   >Adobe Commerce on cloud infrastructureの場合は、Cloud UIの`ADMIN_URL`変数を使用してカスタム管理パスを設定できます。 _Commerce on Cloud Infrastructure ガイド_&#x200B;の[管理者変数のトピック &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin)を参照してください。
+   >Adobe Commerce on cloud infrastructureの場合は、Cloud UIの`ADMIN_URL`変数を使用してカスタム管理パスを設定できます。 _Commerce on Cloud Infrastructure ガイド_&#x200B;の[管理者変数のトピック ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin)を参照してください。
 
    - **既定の管理者パス**
 
@@ -252,7 +252,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトで`HTTPS`を超える�
 
 1. キャッシュをクリアするには、次のいずれかの方法を使用します。
 
-   - _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;に移動します。 次に、**[!UICONTROL Flush Magento Cache]**&#x200B;をクリックします。
+   - _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**に移動します。 次に、**[!UICONTROL Flush Magento Cache]**をクリックします。
    - サーバーで、次のコマンドを実行します。
 
      ```bash
@@ -291,7 +291,7 @@ bin/magento setup:config:set --backend-frontname="backend_front_name"
 
 1. キャッシュをクリアするには、次のいずれかの方法を使用します。
 
-   - _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;に移動します。 次に、**[!UICONTROL Flush Magento Cache]**&#x200B;をクリックします。
+   - _管理者_ サイドバーで、**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**に移動します。 次に、**[!UICONTROL Flush Magento Cache]**をクリックします。
    - サーバーで、次のコマンドを実行します。
 
      ```bash

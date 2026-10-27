@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -36,45 +36,45 @@ ht-degree: 0%
 
 また、実店舗での受け取り方法では、決済時に受け取り場所として使用するソースを選択することができます。
 
-![&#x200B; チェックアウト時の店舗内配達方法](./assets/luma-in-store-example.png){width="700" zoomable="yes"}
+![ チェックアウト時の店舗内配達方法](./assets/luma-in-store-example.png){width="700" zoomable="yes"}
 
 ストアフロントのチェックアウト時に、次の操作を行います。
 
-1. お客様は&#x200B;**[!UICONTROL Pick In Store]**&#x200B;をクリックするか、_[!UICONTROL In-Store Pickup Delivery]_&#x200B;の配送方法を選択します。
-1. 「_[!UICONTROL Pick In Store]_&#x200B;チェックアウト」タブが開きます。
+1. お客様は&#x200B;**[!UICONTROL Pick In Store]**&#x200B;をクリックするか、_[!UICONTROL In-Store Pickup Delivery]_の配送方法を選択します。
+1. 「_[!UICONTROL Pick In Store]_チェックアウト」タブが開きます。
 
-お客様が住所を持っている場合、または&#x200B;_[!UICONTROL Pick In Store]_&#x200B;タブに切り替える前に以前に配送先住所フォームに入力した場合：
+お客様が住所を持っている場合、または&#x200B;_[!UICONTROL Pick In Store]_タブに切り替える前に以前に配送先住所フォームに入力した場合：
 
 - 設定された半径内の顧客アドレスに最も近いソースが、ピックアップストアとして自動的に事前選択されます。
-- お客様が&#x200B;**[!UICONTROL Select Other]**&#x200B;をクリックすると、_[!UICONTROL Select Store]_&#x200B;検索フォームが開きます。 選択したストアまでの設定済みの距離（半径）内のストアのみがリストに表示されます。 リスト内のすべてのストアは、選択したストアまでの距離で並べ替えられます。
+- お客様が&#x200B;**[!UICONTROL Select Other]**&#x200B;をクリックすると、_[!UICONTROL Select Store]_検索フォームが開きます。 選択したストアまでの設定済みの距離（半径）内のストアのみがリストに表示されます。 リスト内のすべてのストアは、選択したストアまでの距離で並べ替えられます。
 - お客様が検索フィールドに郵便番号または市区町村名を入力すると、検索場所までの設定距離（半径）内の店舗のみがリストに表示されます。 リスト内のすべてのストアは、検索した場所までの距離で並べ替えられます。
 - 顧客が検索フィールドから郵便番号または市区町村名をクリアすると、ショッピングカート内の商品に割り当てられているすべてのピックアップストアが顧客に表示されます。 リスト内のすべてのストアは、距離（半径）の制限なしに、ソースコードの昇順で並べ替えられます。
 
-お客様が住所を持っていない場合、または&#x200B;_[!UICONTROL Pick In Store]_&#x200B;タブに切り替える前に以前に配送先住所フォームに入力していない場合：
+お客様が住所を持っていない場合、または&#x200B;_[!UICONTROL Pick In Store]_タブに切り替える前に以前に配送先住所フォームに入力していない場合：
 
 - ページに「_利用可能な情報に基づいて受け取り場所を事前選択できませんでした_」というメッセージが表示されます。
-- お客様が&#x200B;**[!UICONTROL Select Store]**&#x200B;をクリックすると、_[!UICONTROL Select Store]_&#x200B;検索フォームが開きます。
+- お客様が&#x200B;**[!UICONTROL Select Store]**&#x200B;をクリックすると、_[!UICONTROL Select Store]_検索フォームが開きます。
 - ショッピングカート内の商品に割り当てられたすべてのピックアップストアは、距離（半径）の制限なしに、ソースコードの昇順で表示されます。
 - お客様が検索フィールドに郵便番号または市区町村名を入力すると、検索場所までの設定距離（半径）内の店舗のみがリストに表示されます。 リスト内のすべてのストアは、検索した場所までの距離で並べ替えられます。
 
 ## 設定の前
 
-- デフォルト以外の在庫とソースがあることを確認します。 受け取り場所としてソースを設定する方法について詳しくは、[&#x200B; ソースを追加](../inventory-management/sources-add.md)を参照してください。
+- デフォルト以外の在庫とソースがあることを確認します。 受け取り場所としてソースを設定する方法について詳しくは、[ ソースを追加](../inventory-management/sources-add.md)を参照してください。
 - 距離優先アルゴリズムが設定されていることを確認します。 詳しくは、[距離優先アルゴリズムの設定](../inventory-management/distance-priority-algorithm.md)を参照してください。
-- オフライン計算に必要なすべてのジオコードが[&#x200B; ダウンロードおよびインポート &#x200B;](../inventory-management/cli.md#import-geocodes)されていることを確認してください。
+- オフライン計算に必要なすべてのジオコードが[ ダウンロードおよびインポート ](../inventory-management/cli.md#import-geocodes)されていることを確認してください。
 - [既定の税宛先計算](../configuration-reference/sales/tax.md#default-tax-destination-calculation)設定が構成されていることを確認してください。
 
 >[!IMPORTANT]
 >
 >**ストアフロントでは、検索結果が距離（半径）でフィルタリングされ、関連する結果が表示されます。**<br><br>
 >お客様が配送先住所を持っている場合、距離（半径）を計算するベースの場所は配送先住所から取得されます。<br><br>
->お客様が配送先住所を持っていない場合、距離を計算するベースの場所は、[&#x200B; デフォルトの税宛先計算](../configuration-reference/sales/tax.md#default-tax-destination-calculation)設定から取得されます。 これらの設定はストアビューごとに設定され、ピックアップストア検索が正しく機能するように、デフォルトの税宛先計算の設定を行う必要があります。
+>お客様が配送先住所を持っていない場合、距離を計算するベースの場所は、[ デフォルトの税宛先計算](../configuration-reference/sales/tax.md#default-tax-destination-calculation)設定から取得されます。 これらの設定はストアビューごとに設定され、ピックアップストア検索が正しく機能するように、デフォルトの税宛先計算の設定を行う必要があります。
 
 ## 実店舗配送の設定
 
 まず、実店舗配信が有効になっていることを確認します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Delivery Methods]**&#x200B;を選択します。
 
