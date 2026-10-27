@@ -86,7 +86,7 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]** > **[!UICONTROL Invoices
 >
 >`Gift Card`、`Store Credit`、`Reward Points`またはその他のオフラインの支払い方法を使用して行われた注文に対して、請求書が自動的に作成されません。
 
-注文の請求書は、印刷する前に生成する必要があります。 PDFを表示または印刷するには、まず[Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Readerを入手")などのPDF リーダーをダウンロードしてインストールします。
+注文の請求書は、印刷する前に生成する必要があります。 PDFを表示または印刷するには、まず[Adobe Acrobat Reader](https://www.adobe.com/jp/acrobat/pdf-reader.html "Adobe Readerを入手")などのPDF リーダーをダウンロードしてインストールします。
 
 **_注文の請求書を作成するには:_**
 
@@ -154,7 +154,7 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]** > **[!UICONTROL Invoices
 
 >[!NOTE]
 >
->PDFを表示または印刷するには、PDF リーダーが必要です。 [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Readerを入手")は無料でダウンロードできます。
+>PDFを表示または印刷するには、PDF リーダーが必要です。 [Adobe Reader](https://www.adobe.com/jp/acrobat/pdf-reader.html "Adobe Readerを入手")は無料でダウンロードできます。
 
 ### 1つの請求書を印刷
 
@@ -180,7 +180,7 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]** > **[!UICONTROL Invoices
 
 ## カスタムキャプチャ量
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
 
 部分的なキャプチャや特殊な支払いシナリオに対してより柔軟にマーチャントを提供するために、Invoice APIは拡張属性を使用したカスタムキャプチャ量をサポートしています。
 
