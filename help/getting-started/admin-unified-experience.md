@@ -4,7 +4,7 @@ description: Adobe Commerce as a Cloud Serviceのお客様がAdobe Unified Exper
 feature: Admin Workspace
 role: Admin, User
 level: Beginner
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e10d4cd8b48e1714c0f32b6c6733524eaac0aa8c
+source-git-commit: af49ec1ee144f689101b020bb805aea72f49ef16
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1433'
 ht-degree: 0%
 ---
 # Adobe Unified ExperienceのCommerce管理者
@@ -46,7 +46,7 @@ Adobeの統合エクスペリエンスインターフェイスは、Adobe製品�
 >
 >Adobe Unified ExperienceのCommerce管理者は、Adobe Commerce as a Cloud Serviceでのみ使用できます。 Adobe Commerce on cloud infrastructureとAdobe Commerce オンプレミスのお客様は、引き続き[従来のCommerce管理UI](admin.md)を使用します。
 
-![統合エクスペリエンスのトップナビゲーションとCommerceの左側のナビゲーションを備えたCommerce管理ダッシュボード &#x200B;](./assets/admin-unified-experience-overview.png){width="800" zoomable="yes" border="light"}
+![統合エクスペリエンスのトップナビゲーションとCommerceの左側のナビゲーションを備えたCommerce管理ダッシュボード ](./assets/admin-unified-experience-overview.png){width="800" zoomable="yes" border="light"}
 
 ## Commerce Adminを開く
 
@@ -55,25 +55,29 @@ Adobeの統合エクスペリエンスインターフェイスは、Adobe製品�
 ログインフローでは、各インスタンスに個別にログインしなくても、Commerce インスタンス間を移動できます。
 Adobe製品とCommerce インスタンス間を切り替えるには、ログインプロンプトを使用する必要はありません。
 
-アクセス手順については、_Adobe Commerce as a Cloud Service ガイド_&#x200B;の「[&#x200B; インスタンスへのアクセス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"}」を参照してください。
+アクセス手順については、_Adobe Commerce as a Cloud Service ガイド_&#x200B;の「[ インスタンスへのアクセス ](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"}」を参照してください。
+<!--
 
 >[!BEGINTABS]
 
->[!TAB Commerce Cloud Managerから管理者を開く]
+>[!TAB Open the Admin from Commerce Cloud Manager]
 
-![管理者を開く](./assets/admin-uex-seamless-login-cloud-manager-to-instance.png){width="800" zoomable="yes" border="light"}
+-->
+![管理者を開く](./assets/admin-uex-seamless-login-cloud-manager-to-instance-edited.png){width="800" zoomable="yes" border="light"}
 
->[!TAB 実際の操作を見る]
+<!--
+>[!TAB See it in action]
 
-![Commerce Cloud Managerから管理者を開く](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="800" zoomable="yes" border="light"}
+![Open the Admin from Commerce Cloud Manager](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
 
+-->
 ### 管理者インターフェイスの選択 {#classic-ui}
 
 統合エクスペリエンスでのCommerce管理者の最初のリリースでは、Adobe Commerce as a Cloud Serviceは、Adobe Unified Experienceとクラシック UIの2つのCommerce管理エクスペリエンスをサポートしています。
 
-デフォルトでは、Commerce Cloud ManagerでCommerce インスタンスを選択すると、Adobe Unified ExperienceでCommerce管理者が開きます。 クラシック UIに戻るには、既存のブックマークを使用するか、クラシック UIのURLを見つけます。 「[&#x200B; クラシック UIを開く](#open-classic-ui)」を参照してください。
+デフォルトでは、Commerce Cloud ManagerでCommerce インスタンスを選択すると、Adobe Unified ExperienceでCommerce管理者が開きます。 クラシック UIに戻るには、既存のブックマークを使用するか、クラシック UIのURLを見つけます。 「[ クラシック UIを開く](#open-classic-ui)」を参照してください。
 
 統合エクスペリエンスとクラシック UIのリンクは、Commerce Cloud Managerのインスタンスの詳細パネルで使用できます。
 
@@ -82,7 +86,7 @@ Adobe製品とCommerce インスタンス間を切り替えるには、ログイ
 | **[!UICONTROL Admin URL (Unified Shell UI)]** | 統合エクスペリエンスで管理者を開きます。 |
 | **[!UICONTROL Admin URL (Classic UI)]** | 前の管理者インターフェイスを開きます。 |
 
-![管理者URL （統合シェル UI）と管理者URL （クラシック UI）リンクを示すCommerce Cloud Manager インスタンスの詳細のイラストレーション &#x200B;](./assets/admin-unified-experience-cloud-manager-instance-details.png){width="800" zoomable="yes" border="light"}
+![管理者URL （統合シェル UI）と管理者URL （クラシック UI）リンクを示すCommerce Cloud Manager インスタンスの詳細のイラストレーション ](./assets/admin-unified-experience-cloud-manager-instance-details-edited.png){width="800" zoomable="yes" border="light"}
 
 _インスタンスリストのスクリーンショットと、更新されたインスタンスの詳細デザインに基づくイラストレーション。 表示されたURLは、ステージング ホストを使用しています。_
 
@@ -140,15 +144,15 @@ _インスタンスリストのスクリーンショットと、更新された�
 
 ![組織スイッチャー](./assets/admin-uex-org-switcher.png){width="800" zoomable="yes" border="light"}
 
->[!TAB 実際の操作を見る]
+>[!TAB 実際の操作]を見る
 
 ![組織スイッチャー](./assets/admin-uex-org-switcher.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
 
-アカウントメニューには、作業中の組織も表示されます。 上部ナビゲーションでプロファイル画像（![&#x200B; アカウント &#x200B;](./assets/admin-unified-experience-icon-account.png){width="24"}）を選択し、**[!UICONTROL Organization]**&#x200B;行を確認します。
+アカウントメニューには、作業中の組織も表示されます。 上部ナビゲーションでプロファイル画像（![ アカウント ](./assets/admin-unified-experience-icon-account.png){width="24"}）を選択し、**[!UICONTROL Organization]**&#x200B;行を確認します。
 
-現在の組織を表示する![&#x200B; アカウントメニュー](./assets/admin-uex-account-menu-organization.png){width="800" zoomable="yes" border="light"}
+現在の組織を表示する![ アカウントメニュー](./assets/admin-uex-account-menu-organization.png){width="800" zoomable="yes" border="light"}
 
 開くことができるインスタンスは、作業中の組織に属しています。 インスタンスを変更するには、[Commerce インスタンスの切り替え](#switch-commerce-instances)を参照してください。
 
@@ -166,13 +170,13 @@ _インスタンスリストのスクリーンショットと、更新された�
 
 ![製品スイッチャーメニュー](./assets/admin-uex-product-dropdown.png){width="800" zoomable="yes" border="light"}
 
->[!TAB 実際の操作を見る]
+>[!TAB 実際の操作]を見る
 
 ![製品スイッチャーメニュー](./assets/admin-uex-product-dropdown.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
 
-Adobe Commerce as a Cloud Serviceのユーザーおよびロール管理については、[&#x200B; ユーザー管理](https://experienceleague.adobe.com/ja/docs/commerce/cloud-service/user-management){target="_blank"}を参照してください。
+Adobe Commerce as a Cloud Serviceのユーザーおよびロール管理については、[ ユーザー管理](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management){target="_blank"}を参照してください。
 
 ### Commerce インスタンスの切り替え
 
@@ -204,7 +208,7 @@ Commerce管理メニューは、Adobe統合エクスペリエンスの左側の�
 
 ![Commerce管理者はナビゲーションを終了しました](./assets/admin-uex-left-navigation.png){width="800" zoomable="yes" border="light"}
 
->[!TAB 実際の操作を見る]
+>[!TAB 実際の操作]を見る
 
 ![Commerce管理者はナビゲーションを終了しました](./assets/admin-uex-left-navigation.gif){width="800" zoomable="yes" border="light"}
 
@@ -212,7 +216,7 @@ Commerce管理メニューは、Adobe統合エクスペリエンスの左側の�
 
 ## ヘルプを表示してフィードバックを提供する
 
-Commerce管理者から離れずにリソースにアクセスするには、上部ナビゲーションのヘルプアイコン（![&#x200B; ヘルプアイコン &#x200B;](./assets/admin-unified-experience-icon-help.png){width="24"}）を使用してヘルプパネルを開きます。
+Commerce管理者から離れずにリソースにアクセスするには、上部ナビゲーションのヘルプアイコン（![ ヘルプアイコン ](./assets/admin-unified-experience-icon-help.png){width="24"}）を使用してヘルプパネルを開きます。
 
 - **ヘルプ**: パネルから直接Adobe Experience Leagueでドキュメントを検索します。
 - **サポート**: コミュニティフォーラムやその他の学習リソースにアクセスし、Adobe Experience Leagueでサポートチケットを検索します。
@@ -224,11 +228,11 @@ Commerce管理者から離れずにリソースにアクセスするには、上
 
 >[!TAB  ヘルプパネル ]
 
-![&#x200B; ヘルプパネル &#x200B;](./assets/admin-uex-help-search.png){width="800" zoomable="yes" border="light"}
+![ ヘルプパネル ](./assets/admin-uex-help-search.png){width="800" zoomable="yes" border="light"}
 
->[!TAB 実際の操作を見る]
+>[!TAB 実際の操作]を見る
 
-![&#x200B; ヘルプパネル &#x200B;](./assets/admin-uex-help-search.gif){width="800" zoomable="yes" border="light"}
+![ ヘルプパネル ](./assets/admin-uex-help-search.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
 
@@ -238,23 +242,23 @@ Commerce管理者から離れずにリソースにアクセスするには、上
 
 パネルを使用すると、**[!UICONTROL Requests]**、**[!UICONTROL Notifications]**、**[!UICONTROL Announcements]**&#x200B;が1か所にまとめられます。 Commerce管理者を離れなくても、表示されます。
 
-Commerce ページヘッダー内の通知コントロールではなく、このパネルの統合エクスペリエンスの上部ナビゲーションにあるベルアイコンを使用します。 Commerce管理者の受信トレイ メッセージについて詳しくは、[&#x200B; メッセージの受信トレイ &#x200B;](admin-message-inbox.md)を参照してください。
+Commerce ページヘッダー内の通知コントロールではなく、このパネルの統合エクスペリエンスの上部ナビゲーションにあるベルアイコンを使用します。 Commerce管理者の受信トレイ メッセージについて詳しくは、[ メッセージの受信トレイ ](admin-message-inbox.md)を参照してください。
 
 >[!BEGINTABS]
 
 >[!TAB 通知パネル ]
 
-![通知パネル &#x200B;](./assets/admin-uex--notifications-bell.png){width="800" zoomable="yes" border="light"}
+![通知パネル ](./assets/admin-uex--notifications-bell.png){width="800" zoomable="yes" border="light"}
 
->[!TAB 実際の操作を見る]
+>[!TAB 実際の操作]を見る
 
-![通知パネル &#x200B;](./assets/admin-uex--notifications-bell.gif){width="800" zoomable="yes" border="light"}
+![通知パネル ](./assets/admin-uex--notifications-bell.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
 
 ## アカウント環境設定の管理
 
-上部のナビゲーションでプロファイル画像（![&#x200B; アカウント &#x200B;](./assets/admin-unified-experience-icon-account.png){width="24"}）を選択して、アカウントメニューを開きます。 このメニューから、次のことができます。
+上部のナビゲーションでプロファイル画像（![ アカウント ](./assets/admin-unified-experience-icon-account.png){width="24"}）を選択して、アカウントメニューを開きます。 このメニューから、次のことができます。
 
 - 作業中の組織を表示します。
 - **[!UICONTROL Dark theme]** トグルでダークモードを有効にします。
@@ -262,13 +266,13 @@ Commerce ページヘッダー内の通知コントロールではなく、こ�
 
 >[!BEGINTABS]
 
->[!TAB ダークモードの  アカウントメニュー]
+>ダークモードの[!TAB  アカウントメニュー]
 
-ダークモードの![&#x200B; アカウントメニュー](./assets/admin-uex-dark-mode.png){width="800" zoomable="yes" border="light"}
+ダークモードの![ アカウントメニュー](./assets/admin-uex-dark-mode.png){width="800" zoomable="yes" border="light"}
 
->[!TAB 実際の操作を見る]
+>[!TAB 実際の操作]を見る
 
-ダークモードの![&#x200B; アカウントメニュー](./assets/admin-uex-dark-mode.gif){width="800" zoomable="yes" border="light"}
+ダークモードの![ アカウントメニュー](./assets/admin-uex-dark-mode.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
 
@@ -278,4 +282,4 @@ Commerce管理画面のページは、Adobe Unified Experienceに一致するリ
 
 >[!MORELIKETHIS]
 >
->[Adobe CX Enterprise インターフェイスおよび管理ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/experience-cloud)
+>[Adobe CX Enterprise インターフェイスおよび管理ガイド ](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)
