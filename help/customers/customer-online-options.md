@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## Cookieの有効期間の設定
 
-1. _管理者_ サイドバーで、[!UICONTROL **ストア**] > _[!UICONTROL Settings]_>[!UICONTROL **構成**]に移動します。
+1. _管理者_ サイドバーで、[!UICONTROL **ストア**] > [!UICONTROL **構成**]&#x200B;に移動します。
 
 1. 複数のストアがある場合は、右上隅の&#x200B;**[!UICONTROL Store View]** セレクターを、設定が適用されるストアに設定します。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ログインを簡単にするために、**[!UICONTROL Remember Me]**&#x200B;機能を使用すると、ユーザーアカウント所有者は、ストアフロントに入るたびに資格情報を入力せずに済みます。 セキュリティ上の理由から、永続性機能はデフォルトで無効になっています。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Persistent Shopping Cart]**&#x200B;を選択します。
 

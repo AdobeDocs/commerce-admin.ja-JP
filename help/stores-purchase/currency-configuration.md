@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## ステップ 1：受け入れられる通貨を選択する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左上隅で、設定が適用されるストアビューに&#x200B;**[!UICONTROL Scope]**&#x200B;を設定します。
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
 ![通貨記号](./assets/stores-currency-symbols.png){width="600" zoomable="yes"}
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Currency Symbols]**&#x200B;に移動します。
 
    ストアに対して有効になっている各通貨は、_[!UICONTROL Currency]_&#x200B;リストに表示されます。
 

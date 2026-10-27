@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '466'
 ht-degree: 0%
 ---
 # 顧客グループ
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 ## 顧客グループを特定の割引に関連付ける
 
-1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > _プロモーション_ > **[!UICONTROL Cart Price Rules]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]**&#x200B;に移動します。
 
 1. 適用された割引にグループを関連付けるカート価格ルールを選択するか、[価格ルールを作成](../merchandising-promotions/price-rules-catalog.md)します。
 

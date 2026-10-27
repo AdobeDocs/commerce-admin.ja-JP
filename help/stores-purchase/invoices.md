@@ -34,16 +34,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1206'
 ht-degree: 0%
 ---
 # 請求書
 
 請求書は、注文の支払い記録の記録です。 1回の注文に対して複数の請求書を[作成](#create-an-invoice)でき、それぞれ、指定した購入済み製品の数または数を指定できます。 [印刷可能なPDF請求書](#print-invoices)を、お客様向けのセールスドキュメントとして作成することもできます。
 
-_管理者_ サイドバーで、**[!UICONTROL Sales]** > _操作_ > **請求書**&#x200B;に移動して、_請求書_ グリッドを開き、作成した請求書にアクセスします。
+_管理者_ サイドバーで、**[!UICONTROL Sales]** > **[!UICONTROL Invoices]**&#x200B;に移動して&#x200B;_請求書_ グリッドを開き、作成した請求書にアクセスします。
 
 ![請求書グリッド &#x200B;](./assets/invoices.png){width="700" zoomable="yes"}
 
@@ -90,7 +90,7 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]** > _操作_ > **請求書
 
 **_注文の請求書を作成するには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > **[!UICONTROL Orders]**&#x200B;に移動します。
 
 1. グリッド内のステータスが`Processing`の販売注文を検索します。 次に、次の操作を行います。
 
@@ -158,7 +158,7 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]** > _操作_ > **請求書
 
 ### 1つの請求書を印刷
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > **[!UICONTROL Invoices]**&#x200B;に移動します。
 
 1. _[!UICONTROL Invoices]_&#x200B;グリッドで、請求書を探し、_ アクション _列の&#x200B;**[!UICONTROL View]**&#x200B;をクリックします。
 
@@ -168,7 +168,7 @@ _管理者_ サイドバーで、**[!UICONTROL Sales]** > _操作_ > **請求書
 
 ### 複数の請求書の印刷
 
-1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Sales]** > **[!UICONTROL Invoices]**&#x200B;に移動します。
 
 1. _[!UICONTROL Invoices]_&#x200B;グリッドで、印刷する各請求書のチェックボックスを選択します。
 

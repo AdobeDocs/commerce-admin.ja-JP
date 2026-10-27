@@ -5,25 +5,32 @@ exl-id: 69af669d-f9aa-471b-9d62-5657f3fb2103
 TQID: https://experienceleague.adobe.com/jtyDgy3jFmn0XymAYcpc2AOLLWSTDw-3OGkvG9a1SDc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: 342
+source-wordcount: '342'
 ht-degree: 0%
-
 ---
-
 # オンラインへようこそ
 
 [!DNL Customers] メニューの&#x200B;**[!UICONTROL Now Online]** オプションには、現在ストアでオンラインになっているすべての顧客と訪問者が一覧表示されます。 顧客が現在オンラインとして表示される時間間隔は、設定で設定され、管理者から[!DNL Customer's] アクティビティが表示される時間を決定します。 デフォルトでは、間隔は15分です。 この期間中にキーボードを使用せず、顧客が買い物を続けるにはアカウントに再度サインインする必要がある場合、セッションは終了します。 カートの内容は後でアクセスするために保存されることに注意することが重要です。
@@ -46,7 +53,7 @@ _管理者_ サイドバーで、**[!UICONTROL Customers]** > **[!UICONTROL Onli
 
 ## 時間間隔の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Customer Configuration]**&#x200B;を選択します。
 

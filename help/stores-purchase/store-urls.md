@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 1%
@@ -69,7 +69,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトで`HTTPS`を超える�
 
 ## ベース URLの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルの&#x200B;_一般_&#x200B;で、**[!UICONTROL Web]**&#x200B;を選択します。
 
@@ -142,7 +142,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトで`HTTPS`を超える�
 >
 >「_ストアコードをURLに追加_」オプションが`Yes`に設定されている場合は、ストアコードをブラウザーのURLに含める必要があります。 この設定により、URLの書き換えが正しくマッピングされ、すべてのページが正常に開かれ、_&quot;404 Page Not Found&quot;_ エラーが発生しないようにします。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルの&#x200B;_[!UICONTROL General]_&#x200B;で、**[!UICONTROL Web]**&#x200B;を選択します。
 
@@ -190,7 +190,7 @@ Adobe CommerceとMagento Open Sourceは、デフォルトで`HTTPS`を超える�
 
 ### 方法1：管理者からの変更
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]**&#x200B;を展開し、**[!UICONTROL Admin]**&#x200B;を選択します。
 

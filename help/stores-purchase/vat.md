@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2042'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Commerceでは、加盟店またはお客様の住所（両方が同じ国の場
 
 税ルールを作成するプロセスは、税率を追加することから始まります。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
 
    ![顧客税区分の設定](./assets/vat-zones.png){width="600" zoomable="yes"}
 
@@ -95,7 +95,7 @@ Commerceでは、加盟店またはお客様の住所（両方が同じ国の場
 
 ### 手順2：製品税区分の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**&#x200B;に移動します。
 
 1. **[!UICONTROL Add New Tax Rule]**&#x200B;をクリックします。
 
@@ -117,7 +117,7 @@ Commerceでは、加盟店またはお客様の住所（両方が同じ国の場
 
 ### 手順3：税区間と税率の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**&#x200B;に移動します。
 
    この例では、米国の税率を削除するか、そのまま残します。
 
@@ -145,7 +145,7 @@ Commerceでは、加盟店またはお客様の住所（両方が同じ国の場
 
 税ルールは、顧客税区分、製品税区分および税率の組み合わせです。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**&#x200B;に移動します。
 
 1. 次のように新しい税ルールを追加します。
 
@@ -167,7 +167,7 @@ Commerceでは、加盟店またはお客様の住所（両方が同じ国の場
 
 ### 手順5：製品への税区分の適用
 
-1. _管理者_ サイドバーで、**[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Catalog]** > **[!UICONTROL Products]**&#x200B;に移動します。
 
 1. カタログから商品を編集モードで開きます。
 
@@ -308,7 +308,7 @@ VAT ID検証を効果的に使用するための[税ルール &#x200B;](tax-rule
 
 #### 手順3:VAT ID検証の有効化と設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 必要に応じて、設定の&#x200B;**[!UICONTROL Store View]**&#x200B;を設定します。
 

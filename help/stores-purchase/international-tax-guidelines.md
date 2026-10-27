@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 0%
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 ### ステップ 1：税額計算の設定を完了する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. マルチサイト設定の場合は、設定のターゲットとなるweb サイトとストアに&#x200B;**[!UICONTROL Store View]**&#x200B;を設定します。
 
@@ -370,13 +370,13 @@ ht-degree: 0%
 
 ### ステップ 4：ドイツのストアビューを設定する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL All Stores]**&#x200B;に移動します。
 
 1. デフォルトのweb サイトで、**[!UICONTROL Germany]**&#x200B;のストアビューを作成します。
 
 1. 次に、次の操作を行います。
 
-   - _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+   - _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
    - 左上隅で、**[!UICONTROL Default Config]**&#x200B;をフランス語ストアに設定します。
 
@@ -421,7 +421,7 @@ ht-degree: 0%
 
 ### 手順6：ドイツの税金設定の設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 右上隅で、**[!UICONTROL Store View]**&#x200B;をドイツ語ストアのビューに設定し、**[!UICONTROL OK]**&#x200B;をクリックして確定します。
 

@@ -1,19 +1,17 @@
 ---
 user-guide-title: Adobe Commerce管理者向けスタートガイド
-user-guide-description: Adobe CommerceまたはMagento Open Source Adminを初めて使用する場合は、 [!DNL Commerce]  エコシステムのリソースを確認し、カスタマージャーニーに従ってストアを探索し、Adminの主な機能について説明します。
+user-guide-description: Adobe CommerceまたはMagento Open Source Adminを初めて使用する場合は、[!DNL Commerce] エコシステムのリソースを確認し、カスタマージャーニーに従ってストアを探索し、主要なAdmin機能について説明します。
 breadcrumb-title: はじめに
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
 nudge: true
 color: red
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '214'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Commerce管理者向けスタートガイド {#start}
 
@@ -40,6 +38,7 @@ ht-degree: 0%
   + [アクセシビリティ](navigation-accessibility.md)
 + 管理者 {#admin}
   + [管理者とは](admin.md)
+  + [統合エクスペリエンス管理者](admin-unified-experience.md)
   + [管理者ユーザーアカウント](admin-signin.md)
   + Adobe Identity Management Service （IMS）の統合 {#ims}
     + [IMS統合の概要](adobe-ims-integration-overview.md)

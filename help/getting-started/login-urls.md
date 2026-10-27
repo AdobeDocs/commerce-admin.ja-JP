@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '416'
 ht-degree: 0%
 ---
 # ログイン情報とURL
@@ -53,6 +53,10 @@ ht-degree: 0%
 まだドメインがない場合、ストア URLには4つの数字が含まれ、それぞれ&#x200B;_点線_&#x200B;の表記法で区切られます。
 
 ## 管理者URL
+
+>[!NOTE]
+>
+>Adobe Commerce as a Cloud Serviceの場合は、Commerce Cloud Managerから管理者リンクを取得します。 アクセス オプションとURL形式については、[管理者インターフェイスの選択](admin-unified-experience.md#classic-ui)を参照してください。 以下のインストールベース URLの例は、Adobe Commerce as a Cloud Serviceには適用されません。
 
 ストア [管理者](admin.md)のアドレスは、インストール中に設定されます。 デフォルトのアドレスはストアと同じですが、最後に`/admin`があります。 このガイドの例ではデフォルトのディレクトリを使用していますが、ストアに固有の場所から管理者を実行することをお勧めします。
 

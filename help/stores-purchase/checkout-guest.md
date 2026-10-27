@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '233'
 ht-degree: 0%
 ---
 # ゲストチェックアウト
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **_ゲストチェックアウトを無効にするには:_**
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Sales]**&#x200B;を展開し、**[!UICONTROL Checkout]**&#x200B;を選択します。
 
@@ -66,4 +66,4 @@ ht-degree: 0%
 
 有効にすると、登録済みの電子メールで行われたゲストチェックアウトの注文にアクセスできるようになりますが、顧客の注文履歴にも表示されます。
 
-この機能を有効にするには、**Stores** / 設定/**Configuration** / 営業/**Sales** / **ゲストチェックアウト**&#x200B;に移動し、**登録済み電子メールのゲストオーダーアクセスを許可**&#x200B;設定を`Yes`に設定します。
+この機能を有効にするには、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Guest Checkout]**&#x200B;に移動し、**[!UICONTROL Allow Guest Order Access for Registered Emails]**&#x200B;設定を`Yes`に設定します。

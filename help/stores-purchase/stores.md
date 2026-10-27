@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Adobe Commerceのマルチストアインストールは、管理者とサーバ
 
 ### 手順2：ストアの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL All Stores]**&#x200B;に移動します。
 
 1. **[!UICONTROL Create Store]**&#x200B;をクリックし、新しいストアのオプションを設定します。
 
@@ -109,7 +109,7 @@ Adobe Commerceのマルチストアインストールは、管理者とサーバ
 
 ### 手順4：ストア URLの設定
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;をクリックします。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;をクリックします。
 
 1. 左側の左側のパネルの「_[!UICONTROL General]_」で、「**[!UICONTROL Web]**」を選択します。
 
@@ -150,7 +150,7 @@ Adobe CommerceまたはMagento Open Sourceのマルチサイトインストー�
 
 ### ステップ 1:web サイトの作成
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL All Stores]**&#x200B;に移動します。
 
 1. 右上隅の「**[!UICONTROL Create Website]**」をクリックします。
 

@@ -4,7 +4,6 @@ description: Adobe Commerce と Magento Open Source の管理者および e コ�
 seo-title: Adobe Commerce Content and Design Guide
 seo-description: Describes how to use the Content and Design features for Adobe Commerce and Magento Open Source.
 exl-id: ad3cd024-1703-409f-9820-a0b90e7d460f
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -18,14 +17,16 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: fdb0968c8d6caf4917e8658a2a8b3432f60909dc
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '307'
 ht-degree: 6%
 ---
 # Adobe Commerce コンテンツおよびデザインガイド
 
-このガイドは、Adobe CommerceおよびMagento Open Sourceの管理画面で作業するコンテンツデザイナーおよびマーチャンダイザーを対象としています。 基本的なコンテンツコンポーネントの構築など、コンテンツとデザイン機能に関する詳細な情報を提供します。 コア [!DNL Commerce]の設定と機能に関する基本的な理解を前提としています。
+このガイドは、主に、Adobe CommerceおよびMagento Open Source プロジェクトを担当するコンテンツデザイナーおよびマーチャンダイザーを対象としています。 基本的なコンテンツコンポーネントの構築など、コンテンツとデザイン機能に関する詳細な情報を提供します。 コア [!DNL Commerce]の設定と機能に関する基本的な理解を前提としています。
+
+Adobe Commerce as a Cloud Serviceでは、デザインに関する考慮事項が[&#x200B; ストアフロント &#x200B;](https://experienceleague.adobe.com/en/tools/commerce-storefront/)に組み込まれています。 ただし、管理者は引き続き製品画像の透かしとトランザクションメールを設定できます。
 
 主な内容：
 

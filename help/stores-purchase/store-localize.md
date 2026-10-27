@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 手順2：言語のストアビューを作成する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL All Stores]**&#x200B;に移動します。
 
 1. **[!UICONTROL Create Store View]**&#x200B;をクリックします。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ## 手順3：ストアビューのロケールの変更
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. **[!UICONTROL Scope]** ドロップダウンで、設定するストアビューを選択し、プロンプトが表示されたら「**[!UICONTROL OK]**」をクリックします。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 ### 手順2：フィールドラベルの翻訳
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Product]**&#x200B;に移動します。
 
 1. リストで、翻訳する属性を見つけ、編集モードで開きます。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 ### ステップ 4：製品属性と属性のオプションを翻訳する
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Product]**&#x200B;に移動します。
 
 1. 翻訳する属性を選択します。
 

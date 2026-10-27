@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1188'
 ht-degree: 0%
 ---
 # 買い物客へのサポートの提供
@@ -81,7 +81,7 @@ _お客様としてログイン_&#x200B;を有効にするには、Commerce イ�
 
 ### この機能を有効にする
 
-1. 管理者サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. 管理者サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Customers]**&#x200B;を展開し、**[!UICONTROL Login as Customer]**&#x200B;を選択します。
 
@@ -101,7 +101,7 @@ _お客様としてログイン_&#x200B;を有効にするには、Commerce イ�
 
 ### 管理者ユーザーのアクセスを有効にする
 
-1. _管理者_ サイドバーで、**[!UICONTROL System]** > _権限_ > **[!UICONTROL User Roles]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL System]** > **[!UICONTROL User Roles]**&#x200B;に移動します。
 
 1. リスト内の役割をクリックします。
 

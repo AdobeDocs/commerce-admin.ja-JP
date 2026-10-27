@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 保留中の支払いを伴う注文の有効期間は、_注文Cron設定_&#x200B;設定によって決まります。 デフォルト値は480分（8時間）に設定されています。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで「**[!UICONTROL Sales]**」セクションを展開し、下の「**[!UICONTROL Sales]**」を選択します。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 [&#x200B; デフォルトモード &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/configuration-guide/setup/application-modes#default-mode)が有効になっている場合は、次の手順を実行します。
 
-1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
+1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;に移動します。
 
 1. 左側のパネルで、**[!UICONTROL Advanced]** セクションを展開し、**[!UICONTROL Developer]**&#x200B;を選択します。
 
