@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e10d4cd8b48e1714c0f32b6c6733524eaac0aa8c
+source-git-commit: af49ec1ee144f689101b020bb805aea72f49ef16
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1433'
 ht-degree: 0%
 ---
 # Adobe Unified ExperienceのCommerce管理者
@@ -56,18 +56,23 @@ Adobeの統合エクスペリエンスインターフェイスは、Adobe製品�
 Adobe製品とCommerce インスタンス間を切り替えるには、ログインプロンプトを使用する必要はありません。
 
 アクセス手順については、_Adobe Commerce as a Cloud Service ガイド_&#x200B;の「[&#x200B; インスタンスへのアクセス &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"}」を参照してください。
+<!--
 
 >[!BEGINTABS]
 
->[!TAB Commerce Cloud Managerから管理者を開く]
+>[!TAB Open the Admin from Commerce Cloud Manager]
 
-![管理者を開く](./assets/admin-uex-seamless-login-cloud-manager-to-instance.png){width="800" zoomable="yes" border="light"}
+-->
+![管理者を開く](./assets/admin-uex-seamless-login-cloud-manager-to-instance-edited.png){width="800" zoomable="yes" border="light"}
 
->[!TAB 実際の操作を見る]
+<!--
+>[!TAB See it in action]
 
-![Commerce Cloud Managerから管理者を開く](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="800" zoomable="yes" border="light"}
+![Open the Admin from Commerce Cloud Manager](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
+
+-->
 
 ### 管理者インターフェイスの選択 {#classic-ui}
 
@@ -82,7 +87,7 @@ Adobe製品とCommerce インスタンス間を切り替えるには、ログイ
 | **[!UICONTROL Admin URL (Unified Shell UI)]** | 統合エクスペリエンスで管理者を開きます。 |
 | **[!UICONTROL Admin URL (Classic UI)]** | 前の管理者インターフェイスを開きます。 |
 
-![管理者URL （統合シェル UI）と管理者URL （クラシック UI）リンクを示すCommerce Cloud Manager インスタンスの詳細のイラストレーション &#x200B;](./assets/admin-unified-experience-cloud-manager-instance-details.png){width="800" zoomable="yes" border="light"}
+![管理者URL （統合シェル UI）と管理者URL （クラシック UI）リンクを示すCommerce Cloud Manager インスタンスの詳細のイラストレーション &#x200B;](./assets/admin-unified-experience-cloud-manager-instance-details-edited.png){width="800" zoomable="yes" border="light"}
 
 _インスタンスリストのスクリーンショットと、更新されたインスタンスの詳細デザインに基づくイラストレーション。 表示されたURLは、ステージング ホストを使用しています。_
 
