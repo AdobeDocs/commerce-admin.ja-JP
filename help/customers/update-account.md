@@ -121,7 +121,7 @@ _[!UICONTROL Customer Information]_&#x200B;ページの左側のパネルには�
 
 「[&#x200B; ストアクレジット &#x200B;](../customers/store-credit.md)」タブには、顧客アカウントに復元された金額が表示されます。管理者はこの値を管理できます。
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"} [!UICONTROL Store Credit] タブと&#x200B;**[!UICONTROL Customer View]** タブの&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;は、ユーザーロールに&#x200B;**[!UICONTROL Manage Store Credit Balances]** リソースが含まれている場合にのみ表示されます。 「[&#x200B; クレジット役割リソースの保存](../customers/store-credit-using.md#store-credit-role-resources)」を参照してください。
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"} [!UICONTROL Store Credit] タブと&#x200B;**[!UICONTROL Customer View]** タブの&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;は、ユーザーロールに&#x200B;**[!UICONTROL Manage Store Credit Balances]** リソースが含まれている場合にのみ表示されます。 「[&#x200B; クレジット役割リソースの保存](../customers/store-credit-using.md#store-credit-role-resources)」を参照してください。
 
 ### [!UICONTROL Newsletter]
 

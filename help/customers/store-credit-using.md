@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## クレジット役割リソースの保存
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
 
 次のリソースは、顧客のストアクレジット残高を変更できる管理者ユーザーと、注文にストアクレジットを適用できる管理者ユーザーを決定します。 ユーザーの役割へのリソースの割り当てについて詳しくは、[役割のリソース &#x200B;](../systems/permissions-user-roles.md#role-resources)を参照してください。
 
@@ -94,7 +94,7 @@ REST APIを使用する管理ユーザーと統合には、ストアクレジッ
 
 ![注文に店舗のクレジット残高を適用する](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"} **[!UICONTROL Use Store Credit]** チェックボックスは、ユーザーの役割に&#x200B;**[!UICONTROL Can Spend Store Credit]** リソースが含まれている場合にのみ表示されます。 「[&#x200B; クレジット役割リソースの保存](#store-credit-role-resources)」を参照してください。
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"} **[!UICONTROL Use Store Credit]** チェックボックスは、ユーザーの役割に&#x200B;**[!UICONTROL Can Spend Store Credit]** リソースが含まれている場合にのみ表示されます。 「[&#x200B; クレジット役割リソースの保存](#store-credit-role-resources)」を参照してください。
 
 ## チェックアウト時にストアクレジットを適用する
 
