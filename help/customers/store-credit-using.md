@@ -46,13 +46,13 @@ ht-degree: 0%
 
 [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
 
-次のリソースは、顧客のストアクレジット残高を変更できる管理者ユーザーと、注文にストアクレジットを適用できる管理者ユーザーを決定します。 ユーザーの役割へのリソースの割り当てについて詳しくは、[役割のリソース ](../systems/permissions-user-roles.md#role-resources)を参照してください。
+次のリソースは、顧客のストアクレジット残高を変更できる管理者ユーザーと、注文にストアクレジットを適用できる管理者ユーザーを決定します。 ユーザーの役割へのリソースの割り当てについて詳しくは、[役割のリソース &#x200B;](../systems/permissions-user-roles.md#role-resources)を参照してください。
 
 - **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > **[!UICONTROL Manage Store Credit Balances]**&#x200B;を使用すると、ストアのクレジット残高を表示および更新できます。 これを使用しない場合、**[!UICONTROL Store Credit]** タブと&#x200B;**[!UICONTROL Customer View]** タブの&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;は表示されません。 ユーザーは、顧客アカウントに対して他の編集を行うことができます。
 
 - **[!UICONTROL Sales]** > **[!UICONTROL Operations]** > **[!UICONTROL Orders]** > **[!UICONTROL Actions]** > **[!UICONTROL Create]** > **[!UICONTROL Can Spend Store Credit]**&#x200B;では、[注文の作成時にストアクレジットを適用できます](../stores-purchase/customer-account-create-order.md)。 このオプションがないと、**[!UICONTROL Use Store Credit]** チェックボックスは表示されません。
 
-REST APIを使用する管理ユーザーと統合には、ストアクレジットをカートに適用するか、ストアクレジットが既に適用されているカートの注文を行うために、**[!UICONTROL Can Spend Store Credit]** リソースが必要です。 詳しくは、[ クレジットの保存](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit/)を参照してください。
+REST APIを使用する管理ユーザーと統合には、ストアクレジットをカートに適用するか、ストアクレジットが既に適用されているカートの注文を行うために、**[!UICONTROL Can Spend Store Credit]** リソースが必要です。 詳しくは、[&#x200B; クレジットの保存](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit/)を参照してください。
 
 ## クレジット残高の表示
 
@@ -62,7 +62,7 @@ REST APIを使用する管理ユーザーと統合には、ストアクレジッ
 
 1. _アクション_&#x200B;列で、**[!UICONTROL Edit]**&#x200B;をクリックします。
 
-1. _[!UICONTROL Customer View]_ページをスクロールし、下部の&#x200B;**[!UICONTROL Store Credit Balance]**を表示します。
+1. _[!UICONTROL Customer View]_&#x200B;ページをスクロールし、下部の&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;を表示します。
 
 ![店舗クレジット残高](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
@@ -94,7 +94,7 @@ REST APIを使用する管理ユーザーと統合には、ストアクレジッ
 
 ![注文に店舗のクレジット残高を適用する](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"} **[!UICONTROL Use Store Credit]** チェックボックスは、ユーザーの役割に&#x200B;**[!UICONTROL Can Spend Store Credit]** リソースが含まれている場合にのみ表示されます。 「[ クレジット役割リソースの保存](#store-credit-role-resources)」を参照してください。
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"} **[!UICONTROL Use Store Credit]** チェックボックスは、ユーザーの役割に&#x200B;**[!UICONTROL Can Spend Store Credit]** リソースが含まれている場合にのみ表示されます。 「[&#x200B; クレジット役割リソースの保存](#store-credit-role-resources)」を参照してください。
 
 ## チェックアウト時にストアクレジットを適用する
 
@@ -102,13 +102,13 @@ REST APIを使用する管理ユーザーと統合には、ストアクレジッ
 
 1. 顧客は、利用可能なストアクレジットの金額を表示します。
 
-   _確認と支払い_&#x200B;の手順では、使用可能な金額は&#x200B;_[!UICONTROL Store Credit]_の下に表示されます。
+   _確認と支払い_&#x200B;の手順では、使用可能な金額は&#x200B;_[!UICONTROL Store Credit]_&#x200B;の下に表示されます。
 
 1. 金額を注文に適用するには、**[!UICONTROL Use Store Credit]**&#x200B;をクリックします。
 
    >[!INFO]
    >
-   >注文合計が再計算され、適用される店舗クレジットの金額が&#x200B;_[!UICONTROL Order Summary]_に表示されます。
+   >注文合計が再計算され、適用される店舗クレジットの金額が&#x200B;_[!UICONTROL Order Summary]_&#x200B;に表示されます。
 
    ![注文に適用されたストアのクレジット残高](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 
