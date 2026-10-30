@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
+source-git-commit: b2b09a49ecd0c585d6ea456f0c00e05d813e324d
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '521'
 ht-degree: 0%
 ---
 # ストアクレジットを適用
@@ -41,6 +41,18 @@ ht-degree: 0%
 ストア管理者は、顧客アカウントからクレジット残高と履歴を表示し、ストアクレジットを購入に適用することもできます。
 
 ![顧客のクレジット残高と履歴](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
+
+## クレジット役割リソースの保存
+
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"}
+
+次のリソースは、顧客のストアクレジット残高を変更できる管理者ユーザーと、注文にストアクレジットを適用できる管理者ユーザーを決定します。 ユーザーの役割へのリソースの割り当てについて詳しくは、[役割のリソース &#x200B;](../systems/permissions-user-roles.md#role-resources)を参照してください。
+
+- **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > **[!UICONTROL Manage Store Credit Balances]**&#x200B;を使用すると、ストアのクレジット残高を表示および更新できます。 これを使用しない場合、**[!UICONTROL Store Credit]** タブと&#x200B;**[!UICONTROL Customer View]** タブの&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;は表示されません。 ユーザーは、顧客アカウントに対して他の編集を行うことができます。
+
+- **[!UICONTROL Sales]** > **[!UICONTROL Operations]** > **[!UICONTROL Orders]** > **[!UICONTROL Actions]** > **[!UICONTROL Create]** > **[!UICONTROL Can Spend Store Credit]**&#x200B;では、[注文の作成時にストアクレジットを適用できます](../stores-purchase/customer-account-create-order.md)。 このオプションがないと、**[!UICONTROL Use Store Credit]** チェックボックスは表示されません。
+
+REST APIを使用する管理ユーザーと統合には、ストアクレジットをカートに適用するか、ストアクレジットが既に適用されているカートの注文を行うために、**[!UICONTROL Can Spend Store Credit]** リソースが必要です。 詳しくは、[&#x200B; クレジットの保存](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit/)を参照してください。
 
 ## クレジット残高の表示
 
@@ -81,6 +93,8 @@ ht-degree: 0%
 ストア管理者は、注文の送信など、顧客に代わって様々な操作を行うことができます。 [注文を作成](../stores-purchase/customer-account-create-order.md)する場合、お客様が支払うべきストアクレジット残高を適用できます。 使用可能な残高は、_支払いと配送情報_ セクションに表示されます。 残高を適用するには、**[!UICONTROL Use Store Credit]** チェックボックスを選択します。注文合計が少ない場合は、残高の一部を適用します。
 
 ![注文に店舗のクレジット残高を適用する](assets/store-credit-apply.png){width="500" zoomable="yes"}
+
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service プロジェクト（Adobeで管理されるSaaS インフラストラクチャ）にのみ適用されます。"} **[!UICONTROL Use Store Credit]** チェックボックスは、ユーザーの役割に&#x200B;**[!UICONTROL Can Spend Store Credit]** リソースが含まれている場合にのみ表示されます。 「[&#x200B; クレジット役割リソースの保存](#store-credit-role-resources)」を参照してください。
 
 ## チェックアウト時にストアクレジットを適用する
 

@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b8d426f123be4b9fedf1198a8864d552cb6e1059
+source-git-commit: c073327e16e3738b5c92f79e442489572046f739
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2437'
 ht-degree: 0%
 ---
 # カタログの強化
@@ -263,6 +263,7 @@ Commerce インスタンスに関連付けられているAdobe IMS組織は、�
 
 ## 制限と考慮事項 {#limits}
 
+- Enrichmentは現在、英語の商品コンテンツのみをサポートしています。
 - エンリッチメントは、商品名と長い説明文にのみ適用されます。 PDP レイアウト、ウィジェット、その他のページレベルのストアフロントコンテンツは変更されません。
 - 大きなカタログとURL数が多い場合、分析の完了速度と一度に表示される候補の数に影響を与える可能性があります。
 - 有意義な提案は、LLM関連ボットが気になる製品URLにアクセスできることを前提としています。 ロボットルール、認証、ジオブロッキング、高度なパーソナライゼーションにより、カバー範囲を縮小することができます。
