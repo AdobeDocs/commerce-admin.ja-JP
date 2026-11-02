@@ -22,7 +22,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>リリースノート、新しいメニューナビゲーション、インストール手順を含むように、<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment"> カタログ強化</a>を更新しました。</p>
+      <td><p>リリースノート、新しいメニューナビゲーション、インストール手順を含むように、<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/catalog-enrichment"> カタログ強化</a>を更新しました。</p>
 </td>
       <td>
         リリースノート
@@ -44,7 +44,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>管理者ユーザーがストアのクレジットを管理できる<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/store-credit/store-credit-using#store-credit-role-resources"> ストアのクレジット役割リソース </a>を追加しました。</p>
+      <td><p>管理者ユーザーがストアのクレジットを管理できる<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/store-credit/store-credit-using#store-credit-role-resources"> ストアのクレジット役割リソース </a>を追加しました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -66,7 +66,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>統合シェル インターフェイスの管理者ユーザーガイドを更新しました。<br />- ナビゲーション手順を修正し、SaaSのみのアプリ管理エントリを含む<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-menu">管理者サイドバー</a>の参照を含むガイド全体でスクリーンショットを更新しました。<br /> – 商品画像の透かしやトランザクションメールを含むAdobe Commerce as a Cloud Serviceの<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview"> コンテンツとデザイン機能</a>を明確にしました。</p>
+      <td><p>統合シェル インターフェイスの管理者ユーザーガイドを更新しました。<br />- ナビゲーション手順を修正し、SaaSのみのアプリ管理エントリを含む<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/start/admin/tools/admin-menu">管理者サイドバー</a>の参照を含むガイド全体でスクリーンショットを更新しました。<br /> – 商品画像の透かしやトランザクションメールを含むAdobe Commerce as a Cloud Serviceの<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/content-design/guide-overview"> コンテンツとデザイン機能</a>を明確にしました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -88,7 +88,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Serviceのお客様向けの新しいCommerce管理インターフェイスである<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin-unified-experience">Adobe Unified Experience</a>のCommerce管理者に関するドキュメントを追加しました。 このドキュメントでは、更新されたCommerce管理者ナビゲーションメニューと、Adobe Unified Experience インターフェイスを使用し、組織、製品、インスタンスを切り替え、共有ナビゲーション、ヘルプ、通知、アカウント制御を使用する方法について説明します。</p>
+      <td><p>Adobe Commerce as a Cloud Serviceのお客様向けの新しいCommerce管理インターフェイスである<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/start/admin/admin-unified-experience">Adobe Unified Experience</a>のCommerce管理者に関するドキュメントを追加しました。 このドキュメントでは、更新されたCommerce管理者ナビゲーションメニューと、Adobe Unified Experience インターフェイスを使用し、組織、製品、インスタンスを切り替え、共有ナビゲーション、ヘルプ、通知、アカウント制御を使用する方法について説明します。</p>
 </td>
       <td>
         新しいトピック
@@ -110,7 +110,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce B2B 1.5.4-alpha1の修正済み問題の詳細を<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">B2B リリースノート </a>に追加し、利用可能なGitHub リファレンスを含むコンポーネントでグループ化しました。</p>
+      <td><p>Adobe Commerce B2B 1.5.4-alpha1の修正済み問題の詳細を<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/release-notes">B2B リリースノート </a>に追加し、利用可能なGitHub リファレンスを含むコンポーネントでグループ化しました。</p>
 </td>
       <td>
         リリースノート
@@ -118,7 +118,7 @@ ht-degree: 1%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1e12f5ec4271d0f11872bfca56e73efa843aba82">コミット</a></td>
     </tr>
     <tr>
-      <td><p>Adobe IMSによるカタログ強化へのログインに関するガイダンスを含む<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment"> カタログ強化</a>を更新し、Commerce IMS組織とAdobe Brand Visibilityの使用権限を保持する組織の違いを明確にし、スクリーンショットを更新しました。</p>
+      <td><p>Adobe IMSによるカタログ強化へのログインに関するガイダンスを含む<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/catalog-enrichment"> カタログ強化</a>を更新し、Commerce IMS組織とAdobe Brand Visibilityの使用権限を保持する組織の違いを明確にし、スクリーンショットを更新しました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -140,7 +140,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>10月のAdobe Commerce as a Cloud Service リリースのAdobe Commerce管理者ドキュメントを更新しました：<br />- Adobe Commerce as a Cloud Serviceの<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/bulk-api">構成参照</a>に設定不可の「一括あたりの最大エンティティ数」フィールドを追加しました。<br /> – 事前署名済みファイルのアップロードを保護するために、<a href="https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload"><code>initiateUpload</code> GraphQLの変異</a>に対してGoogle reCAPTCHA検証を要求できるようになりました。<br />-<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog"> カタログ価格ルール </a>の開始日または終了日をCommerce設定できるようになりました。</p>
+      <td><p>10月のAdobe Commerce as a Cloud Service リリースのAdobe Commerce管理者ドキュメントを更新しました：<br />- Adobe Commerce as a Cloud Serviceの<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/config/general/bulk-api">構成参照</a>に設定不可の「一括あたりの最大エンティティ数」フィールドを追加しました。<br /> – 事前署名済みファイルのアップロードを保護するために、<a href="https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload"><code>initiateUpload</code> GraphQLの変異</a>に対してGoogle reCAPTCHA検証を要求できるようになりました。<br />-<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog"> カタログ価格ルール </a>の開始日または終了日をCommerce設定できるようになりました。</p>
 </td>
       <td>
         メジャーアップデート
@@ -162,7 +162,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>B2B向けAdobe Commerce Optimizer コネクタのドキュメントを追加しました：<br />- <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/catalog-view-sync-status"> カタログ ビュー同期ステータス </a>および<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys">制限付きアクセス キー</a>の管理ページを追加して、B2B共有カタログ同期をAdobe Commerce Optimizerで監視および修復しました。<br />- <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/aco-restricted-access-keys">ACO制限付きアクセス キー</a>の設定の参照ページを追加しました。<br />- <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage">共有カタログの管理</a>および<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/companies/account-company-manage">会社4&rbrace;のロケールを保存で保存保存するロケールロケールをを保存保存ファイルをファイルでを保存しました。<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-localize"> ストアローカライゼーション </a>は、接続されたB2B共有カタログのカタログビューのインデックスをトリガーするようになりました。</a><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage"></a><br /></p>
+      <td><p>B2B向けAdobe Commerce Optimizer コネクタのドキュメントを追加しました：<br />- <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/catalog-view-sync-status"> カタログ ビュー同期ステータス </a>および<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys">制限付きアクセス キー</a>の管理ページを追加して、B2B共有カタログ同期をAdobe Commerce Optimizerで監視および修復しました。<br />- <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/config/services/aco-restricted-access-keys">ACO制限付きアクセス キー</a>の設定の参照ページを追加しました。<br />- <a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage">共有カタログの管理</a>および<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/companies/account-company-manage">会社4&rbrace;のロケールを保存で保存保存するロケールロケールをを保存保存ファイルをファイルでを保存しました。<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/stores-sales/site-store/store-localize"> ストアローカライゼーション </a>は、接続されたB2B共有カタログのカタログビューのインデックスをトリガーするようになりました。</a><a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage"></a><br /></p>
 </td>
       <td>
         メジャーアップデート
@@ -184,7 +184,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Serviceの新しい「ストアフロントで表示」トグルを含めるように、<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/sources/sources-add"> ソースを追加</a>しました。 各インベントリのソースに対して個別にフラグを付けて、ストアフロントを可視化できるようになりました。 ソースはデフォルトで非表示になっています。</p>
+      <td><p>Adobe Commerce as a Cloud Serviceの新しい「ストアフロントで表示」トグルを含めるように、<a href="https://experienceleague.adobe.com/ja/docs/commerce-admin/inventory/sources/sources-add"> ソースを追加</a>しました。 各インベントリのソースに対して個別にフラグを付けて、ストアフロントを可視化できるようになりました。 ソースはデフォルトで非表示になっています。</p>
 </td>
       <td>
         メジャーアップデート
