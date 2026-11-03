@@ -22,28 +22,28 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d10dbf4560352b3898c5c4f750e094a4dfe62dae
+source-git-commit: e997501de8a627ce6c9ab52e75154ae3541a98de
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 0%
 ---
 # [!UICONTROL Content] メニュー
 
 >[!NOTE]
 >
->新しい[[!DNL Media Gallery]](media-gallery.md)が有効になると、_[!UICONTROL Media]_&#x200B;セクションが表示され、1つのオプションで[!DNL Media Gallery]にアクセスできます。**[!UICONTROL Enable Old Media Gallery]**&#x200B;オプションを`No`に設定するには、**[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**&#x200B;に移動し、左側のパネルで&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL System]**&#x200B;を選択します。
+>[[!DNL Media Gallery]](media-gallery.md)が有効になっている場合、_[!UICONTROL Media]_セクションが表示され、1つのオプションで[!DNL Media Gallery]にアクセスできます。 このオプションが表示されない場合は、**[!UICONTROL Enable Old Media Gallery]**オプションが`No`に設定されていることを確認してください。 詳しくは、[設定を確認 [!DNL Media Gallery] してください](media-gallery.md#enable-the-new-media-gallery)。
 
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 ![管理者](./assets/admin-menu-content.png){width="400" zoomable="yes"}に表示される[!UICONTROL Content] メニュー
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
 
 ![管理者](./assets/admin-menu-content-accs.png){width="400" zoomable="yes"}に表示される[!UICONTROL Content] メニュー
 
@@ -55,29 +55,29 @@ _管理者_ サイドバーで、**[!UICONTROL Content]**&#x200B;を選択しま
 
 ## [!UICONTROL Elements]
 
-- テキスト、画像、ブロック、変数、ウィジェットを使用して[&#x200B; ページ &#x200B;](pages.md)を作成します。 ページは、ストアのナビゲーションに組み込んだり、他のページにリンクしたりできます。
+- テキスト、画像、ブロック、変数、ウィジェットを使用して[ ページ ](pages.md)を作成します。 ページは、ストアのナビゲーションに組み込んだり、他のページにリンクしたりできます。
 - ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）ナビゲーション機能を使用して、ページを[階層](page-hierarchy.md)に整理します。
-- コードを記述せずに、コンテンツの[&#x200B; ブロック &#x200B;](blocks.md)を作成します。 ブロックにはテキスト、画像、動画などを含め、ページレイアウトの任意の部分に割り当てることができます。
-- ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）動的ブロック [を作成して](dynamic-blocks.md) リッチでインタラクティブなコンテンツを組み込みます。このコンテンツは、[価格ルール &#x200B;](../merchandising-promotions/introduction.md#promotions)および[顧客セグメント &#x200B;](../customers/customer-segments.md)のロジックに基づいています。
-- 動的なデータを表示する[&#x200B; ウィジェット &#x200B;](widgets.md)を作成し、ストア内の任意の場所にブロック、リンク、インタラクティブ要素を追加します。
-- ページビルダーコンテンツから[&#x200B; テンプレート &#x200B;](../page-builder/templates.md)を作成し、新しいコンテンツを追加する（または古いコンテンツを置き換える）際の効率を向上させます。
+- コードを記述せずに、コンテンツの[ ブロック ](blocks.md)を作成します。 ブロックにはテキスト、画像、動画などを含め、ページレイアウトの任意の部分に割り当てることができます。
+- ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）動的ブロック [を作成して](dynamic-blocks.md) リッチでインタラクティブなコンテンツを組み込みます。このコンテンツは、[価格ルール ](../merchandising-promotions/introduction.md#promotions)および[顧客セグメント ](../customers/customer-segments.md)のロジックに基づいています。
+- 動的なデータを表示する[ ウィジェット ](widgets.md)を作成し、ストア内の任意の場所にブロック、リンク、インタラクティブ要素を追加します。
+- ページビルダーコンテンツから[ テンプレート ](../page-builder/templates.md)を作成し、新しいコンテンツを追加する（または古いコンテンツを置き換える）際の効率を向上させます。
 
 >[!NOTE]
 >
->このメニューの&#x200B;_[!UICONTROL Banners]_&#x200B;オプションは2.3.1で廃止され、削除されました。 その機能はダイナミックブロックに置き換えられます。
+>このメニューの&#x200B;_[!UICONTROL Banners]_オプションは2.3.1で廃止され、削除されました。 その機能はダイナミックブロックに置き換えられます。
 
 ## [!UICONTROL Design] {#design-features}
 
 ストアのビジュアルプレゼンテーションを管理します。
 
-- [&#x200B; デザイン設定](configuration.md)を設定して、[!DNL Commerce] インストールでweb サイト、ストア、ビューごとに異なる設定を管理します。
+- [ デザイン設定](configuration.md)を設定して、[!DNL Commerce] インストールでweb サイト、ストア、ビューごとに異なる設定を管理します。
 
-- レイアウトファイル、テンプレートファイル、翻訳ファイル、スキンのコレクションである[&#x200B; テーマ &#x200B;](themes.md)を使用して、ストアの視覚的なプレゼンテーションを決定します。
+- レイアウトファイル、テンプレートファイル、翻訳ファイル、スキンのコレクションである[ テーマ ](themes.md)を使用して、ストアの視覚的なプレゼンテーションを決定します。
 
-- [&#x200B; スケジュール &#x200B;](schedule.md)を使用して、シーズンまたはプロモーションのテーマの変更を事前に計画します。
+- [ スケジュール ](schedule.md)を使用して、シーズンまたはプロモーションのテーマの変更を事前に計画します。
 
 ## [!UICONTROL Content Staging]
 
 {{ee-feature}}
 
-[&#x200B; コンテンツのステージング &#x200B;](content-staging.md)を使用すると、ビジネス チームは、ストアの管理者から直接、幅広いコンテンツの更新を作成、プレビュー、スケジュールできます。
+[ コンテンツのステージング ](content-staging.md)を使用すると、ビジネス チームは、ストアの管理者から直接、幅広いコンテンツの更新を作成、プレビュー、スケジュールできます。
