@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c073327e16e3738b5c92f79e442489572046f739
+source-git-commit: a0d661434bd61349bd5616d6635b4c43340308bc
 workflow-type: tm+mt
-source-wordcount: '2437'
+source-wordcount: '3173'
 ht-degree: 0%
 ---
 # カタログの強化
@@ -108,22 +108,33 @@ Commerce インスタンスに関連付けられているAdobe IMS組織は、�
 
 ### カタログエンリッチメントとカタログサービス拡張機能のインストール
 
-1. 次のコマンドを実行して、カタログエンリッチメント拡張機能をCommerce インスタンスにインストールします。
+1. Commerce インスタンスにカタログエンリッチメント拡張機能をインストールし、変更を適用します。
 
    ```bash
-   composer require magento/module-catalog-enrichment --no-update
-   composer update magento/module-catalog-enrichment
+   composer require magento/module-catalog-enrichment:^2.1
+   bin/magento setup:upgrade
+   bin/magento cache:flush
    ```
+
+   `setup:upgrade`は拡張機能を有効にし、そのデータベース テーブルを作成し、管理者権限を付与します。 後でキャッシュをフラッシュして、権限を有効にします。 実稼動モードで、`bin/magento setup:di:compile`と`bin/magento setup:static-content:deploy`も実行します。
 
 1. カタログサービスをまだインストールしていない場合は、[実行してください](https://experienceleague.adobe.com/ja/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
 
    **[!UICONTROL Catalog enrichment]**&#x200B;は、お使いのCommerce インスタンスで利用できるようになりました。
 
+>[!IMPORTANT]
+>
+>カタログエンリッチメント 2.1.2以降では、PHP 8.3以降でAdobe Commerce 2.4.7以降が必要です。[!DNL Adobe Brand Visibility]拡張機能（`magento/llm-optimizer`）と一緒にインストールすることはできません。 インストールされている場合は、アップグレードする前に削除してください。 リリースノートの[以前のバージョンからのアップグレード &#x200B;](#upgrade-from-earlier-versions)を参照してください。
+
 ### カタログの強化にアクセス
 
-カタログ エンリッチメントおよびカタログ サービス拡張機能をインストールすると、カタログ エンリッチメント機能が管理者の&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**&#x200B;で利用できるようになります。
+カタログ エンリッチメントおよびカタログ サービス拡張機能をインストールすると、カタログ エンリッチメント機能が管理者の&#x200B;**[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**&#x200B;で利用できるようになります。
 
 ![&#x200B; カタログの強化](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>**[!UICONTROL AI Product Discovery]** メニューには&#x200B;**[!UICONTROL Product Details Page Enrichment (Beta)]**&#x200B;も表示されます。 製品の詳細ページエンリッチメントはベータ版で、まだ一般公開されていません。
 
 ### カタログエンリッチメントの設定 {#configure-catalog-enrichment}
 
@@ -131,7 +142,7 @@ Commerce インスタンスに関連付けられているAdobe IMS組織は、�
 
 このタブのフィールドは、カタログエンリッチメントが接続するCommerce環境とストアビューを識別します。 これらは、[!DNL Adobe Brand Visibility]の使用権限を保持するAdobe IMS組織とは別です。 [IMS ログインと組織の要件](#ims-sign-in-requirements)を参照してください。
 
-1. 管理画面で、**[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**&#x200B;に移動します。
+1. 管理画面で、**[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**&#x200B;に移動します。
 1. ページの上部にある&#x200B;**[!UICONTROL Scope]** リストで、設定するストアビューを選択するか、**[!UICONTROL All Store Views]**&#x200B;のままにして、ストアビュー全体の設定を管理します。
 1. 「**[!UICONTROL Settings]**」タブを開きます。
 1. **[!UICONTROL Commerce Configuration]**&#x200B;で、URLがラベル付きのストアビューパネルを展開します。
@@ -308,3 +319,79 @@ Furniture retailerでは、モジュール式のセクショナルソファが�
 - **After**: 「この設定には、6つの標準シート挿入セットと6つの標準サイドインサートが含まれており、アームまたはバックとして互換性を持って機能し、レイアウトのモジュール式ビルディングブロックを形成します。 各シートは、リフトを保持し、たるみを防ぐために設計された3つの高密度レイヤーを備えた標準フォームを備えています。 サファイア海軍コード付きベルベットカバーは、繊細な光沢と柔らかく豪華な雰囲気を作り出すテクスチャコードを備えた豪華な耐久性があります。 カバーは正確でカスタマイズされた外観を実現するために手縫いされており、機械で洗って変更できるため、セクションはスペースとともに進化することができます。」
 
 強化された説明はCommerce カタログに書き戻されるので、AI ボットは商品詳細ページをクロールして、商品のカタログデータを使用するダウンストリームチャネルやフィードにも使用できます。買い物客がページに表示するレイアウトやデザインは変更されません。
+
+## リリースノート {#release-notes}
+
+次のリリースノートでは、カタログエンリッチメント拡張機能（`magento/module-catalog-enrichment`）の追加と修正について説明します。
+
+![新機能](../assets/new.svg)
+![修正された問題](../assets/fix.svg)修正と改善
+![既知の問題](../assets/bug.svg)既知の問題
+
+### v2.1.2
+
+*2026年10月22日*
+
+[!BADGE &#x200B; サポートされている]{type=Informative tooltip="サポート対象"} Adobe Commerce 2.4.9、2.4.8、2.4.7 （PHP 8.3から8.5まで）。
+
+バージョン 2.1.2では、カタログのエンリッチメントが自己完結型の拡張機能になります。 これで、別の[!DNL Adobe Brand Visibility]拡張機能（`magento/llm-optimizer`）によって以前に提供されたすべてのものが含まれるようになりました。承認済みの提案をカタログに適用し、それらをロールバックし、独自の編集を上書きから保護します。
+
+#### 以前のバージョンからのアップグレード {#upgrade-from-earlier-versions}
+
+>[!IMPORTANT]
+>
+>バージョン 2.1.2を[!DNL Adobe Brand Visibility]拡張機能と一緒にインストールすることはできません。 インストールされている場合は、アップグレードの一環として削除します。
+
+1. [!DNL Adobe Brand Visibility]拡張機能がインストールされている場合は、削除します。
+
+   ```bash
+   composer remove magento/llm-optimizer
+   ```
+
+   拡張機能が`Magento/LlmoCatalog`を`app/code`にコピーまたはシンボリックしてインストールされた場合は、そのディレクトリを削除します。 モジュールを無効にするだけでなく、まだディスク上にある無効なモジュールは、エンリッチされた製品の元の値を格納するテーブルを`setup:upgrade`がドロップする可能性があります。
+
+1. カタログのエンリッチメントを更新し、変更を適用します。
+
+   ```bash
+   composer require magento/module-catalog-enrichment:^2.1
+   bin/magento setup:upgrade
+   bin/magento cache:flush
+   ```
+
+   アップグレード後にキャッシュをフラッシュします。 アップグレードにより、既存のアクセス許可が新しい権限リソースに移動され、それらの許可はキャッシュがクリアされるまで有効になりません。
+
+#### 要件定義
+
+![新規](../assets/new.svg) **PHP 8.3およびAdobe Commerce 2.4.7以降**—PHP 8.1は提供終了となり、PHP 8.2は2026年12月31日に提供終了となるため、どちらもサポートされていません。 Adobe Commerce 2.4.6以前はサポートされていません。
+
+#### 新機能
+
+![新規](../assets/new.svg) **[!UICONTROL AI Product Discovery]メニュー** - カタログ強化ページには、管理サイドバーに独自のセクションが追加されました。 **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**&#x200B;に移動します。 以前は、ページは&#x200B;**[!UICONTROL Catalog]**&#x200B;未満でした。
+
+![新規](../assets/new.svg) [!BADGE Beta]{type=Informative tooltip="まだ一般公開されていません"} **[!UICONTROL Product Details Page Enrichment (Beta)]** – 製品詳細ページのエンリッチメントの提案をレビューするための&#x200B;**[!UICONTROL AI Product Discovery]**&#x200B;の下の新しいページ。 製品の詳細ページエンリッチメントはベータ版で、まだ一般公開されていません。
+
+![新規](../assets/new.svg) **承認済みの提案を適用してロールバックする** – 承認済みの名前と説明の更新は、この拡張機能によってカタログに書き込まれます。 Commerceは、エンリッチメントされた各属性の元の値を最初に変更したときに記録するので、ロールバックでは、同じ属性に複数の提案が適用された後でも、エンリッチメント前の値が常に復元されます。
+
+![新規](../assets/new.svg) **あなたの編集は尊重されます** – 管理者製品フォームで&#x200B;**[!UICONTROL Update Attributes]**&#x200B;を使用して、またはインポートを通じてエンリッチされた名前または説明を変更すると、値が保持され、関連する提案が&#x200B;*古い*&#x200B;とマークされます。 デフォルトのスコープで行われた変更は、値を継承するストアビューにのみ影響します。
+
+![新規](../assets/new.svg) **提案の読み取り専用カタログアクセス**—[!DNL Commerce Catalog Agent]は、製品、カテゴリ、属性セット、製品タイプデータを読み取り、分析用の製品を選択できます。 読み取りは、**[!UICONTROL Used in Product Listing]**&#x200B;とマークされた属性と、エンリッチ可能な属性のみを返します。 カタログデータは変更できません。
+
+#### 修正と改善
+
+![修正済みの問題](../assets/fix.svg) **再試行済みの適用が成功したことを報告** – 適用リクエストが既に完了した後に再試行された場合、再試行では、変更を報告せずに適用された変更が報告されるようになりました。 2回は何も書きません。
+
+![修正された問題](../assets/fix.svg) **承認済みサービスのみがカタログを変更できます** – 適用およびロールバックは[!DNL Commerce Catalog Agent]からのみ要求を受け入れます。 以前は、有効なAdobe IMSトークンはすべて受け入れられました。 同じチェックがSOAP リクエストにも適用されるようになりました。
+
+![修正済みの問題](../assets/fix.svg) **より明確なエラー** - Adobe IMSの停止により、`500`ではなく`401`が返されるようになったため、リクエストはカタログに対して再試行されず、認識できないAdobe IMS環境はステージングとして扱われるのではなく拒否されます。
+
+![修正済みの問題](../assets/fix.svg) **Adobe IMS環境** - カタログのエンリッチメントが、実稼動以外の[!DNL Commerce Services] データスペースに接続されたインスタンスを含め、デフォルトで実稼動Adobe IMS環境にサインインするようになりました。 以前は、これらのインスタンスはステージング環境に送信されていました。
+
+![修正された問題](../assets/fix.svg) **[!DNL Adobe Brand Visibility] ドメイン変更後のサインイン** - カタログの強化ページが`abv.adobe.com`から読み込まれるようになりました。これにより、前のドメインがリダイレクトを開始した後のサインインループが修正されます。
+
+#### 既知の問題
+
+![既知の問題](../assets/bug.svg) **完全な[!UICONTROL Catalog] アクセス権を持つ役割** – このリリースの前に保存され、すべての&#x200B;**[!UICONTROL Catalog]**&#x200B;が付与されたユーザー役割は&#x200B;**[!UICONTROL Catalog Enrichment Service API]** リソースへのアクセスを保持します。 **[!UICONTROL System]** > **[!UICONTROL Permissions]** > **[!UICONTROL User Roles]**&#x200B;でそのような役割を確認し、必要のないリソースをクリアします。
+
+### v1.0.2
+
+カタログエンリッチメント管理ページの最初のリリース。 カタログに提案を適用するには、[!DNL Adobe Brand Visibility]拡張機能が必要です。
