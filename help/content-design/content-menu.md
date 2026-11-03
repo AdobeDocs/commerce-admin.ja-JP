@@ -22,16 +22,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d10dbf4560352b3898c5c4f750e094a4dfe62dae
+source-git-commit: e997501de8a627ce6c9ab52e75154ae3541a98de
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 0%
 ---
 # [!UICONTROL Content] メニュー
 
 >[!NOTE]
 >
->新しい[[!DNL Media Gallery]](media-gallery.md)が有効になると、_[!UICONTROL Media]_&#x200B;セクションが表示され、1つのオプションで[!DNL Media Gallery]にアクセスできます。**[!UICONTROL Enable Old Media Gallery]**&#x200B;オプションを`No`に設定するには、**[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**&#x200B;に移動し、左側のパネルで&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL System]**&#x200B;を選択します。
+>[[!DNL Media Gallery]](media-gallery.md)が有効になっている場合、_[!UICONTROL Media]_&#x200B;セクションが表示され、1つのオプションで[!DNL Media Gallery]にアクセスできます。 このオプションが表示されない場合は、**[!UICONTROL Enable Old Media Gallery]**&#x200B;オプションが`No`に設定されていることを確認してください。 詳しくは、[設定を確認 [!DNL Media Gallery] してください](media-gallery.md#enable-the-new-media-gallery)。
 
 >[!BEGINTABS]
 
