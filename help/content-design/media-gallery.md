@@ -97,4 +97,4 @@ ht-degree: 0%
 
 [!DNL Media Gallery]について詳しくは、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411046?captions=jpn&quality=12&learn=on)
