@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 55f9389c51fd4e1f9aa2475ad999c79f5f7f00df
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1677'
 ht-degree: 0%
 ---
 # Adobe Commerce アカウントの転送
@@ -44,7 +44,11 @@ ht-degree: 0%
 >
 >新しいアカウント所有者が共有アクセスを使用して拡張機能を購入した場合、アカウントの転送が開始されるとすぐに、これらの拡張機能へのアクセスが失われます。
 >
+>アカウントの移行を開始する前に、Marketplaceの拡張機能を確認しましょう。 拡張機能とアクセスキーは、MAGE IDに関連付けられています。 転送が開始されると、共有アクセスで購入した拡張機能へのアクセスが失われます。 標準の口座振替プロセスでは、拡張機能の購入を別のアカウントに転送することはありません。返金をリクエストし、目的のアカウントの拡張機能を再購入する必要がある場合があります。 ライセンスの再編に伴う譲渡の場合は、Adobe Commerce サポートに連絡して、別途の譲渡プロセスが適用されるかどうかを確認してください。
+>
 >アカウントの転送をリクエストする前に、新しい所有者が[購入者 [!DNL Commerce Marketplace]  アカウント &#x200B;](https://commercemarketplace.adobe.com/sales/order/history/)から購入の注文IDを取得し、[[!DNL Commerce Marketplace]  チーム &#x200B;](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)から返金をリクエストしていることを確認してください。 拡張機能の購入を別のアカウントに転送することはできません。
+>
+>さらに、受信するMAGE IDの新しいアクセスキーを生成し、デプロイメントで使用するComposer資格情報を更新する予定です。 アカウントの転送を開始する前に、該当する拡張機能と主要な手順を完了してください。
 
 ## 転送タイプの特定
 
@@ -193,6 +197,12 @@ ht-degree: 0%
 1. [電子メール検証手順](#verify-an-adobe-id-email-change)を完了します。
 
 新しい所有者が電子メールアドレスを確認したら、[最後の手順](#final-steps)に進み、Adobe Commerce サポートが[[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/) プロファイルなどのアカウントレコードを更新できるようにします。
+
+## アカウントの移行についてサポートが必要な場合？**
+
+上記の転送タイプのいずれも状況に合わない場合、または現在の所有者のメールアドレスにアクセスできない場合は、Adobe Commerce サポートチケットを送信します。
+
+リクエストで、どの転送タイプが適用されないか、現在の所有者のメールにアクセス可能かどうかを説明します。 現在および新規の所有者のMAGEID、Adobe ID、および関連する電子メールアドレス（既知の場合）を含めます。 Adobe サポートは、状況を確認し、次の手順についてアドバイスします。
 
 ## 最後のステップ
 
