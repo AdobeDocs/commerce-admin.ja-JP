@@ -53,7 +53,7 @@ _列_ コンテンツタイプを使用して、ページを[[!DNL Page Builder]
 
 [!DNL Columns] コンテナを使用してページレイアウトを調整する方法のデモについては、このビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3507527?captions=jpn&quality=12&learn=on)
 
 ## 列ツールボックス
 
