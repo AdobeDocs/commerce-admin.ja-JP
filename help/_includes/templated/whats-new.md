@@ -1,7 +1,7 @@
 ---
-source-git-commit: 12ddff93f620d02c70dc2d1b0c45fb47f9614115
+source-git-commit: bc8f33290be7bdc71772b9659c1a6f40c1c77d64
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '728'
 ht-degree: 0%
 ---
 # 新しいテンプレート
