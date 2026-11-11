@@ -1,7 +1,7 @@
 ---
 title: マーチャンダイジングルール
 description: '[!DNL Adobe Commerce Optimizer]件のマーチャンダイジングルールは、ロジックとアクションを組み合わせて、検索結果、デフォルトの商品リスト、カテゴリーページを形成します。'
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
 autotag-review: '2026-11-02T19:36:46.997Z'
 TQID: 'https://experienceleague.adobe.com/DT2YeKtqKMZcqGe-JDj63cKaS1DVK0R94FLTV--boEM'
 product_v2:

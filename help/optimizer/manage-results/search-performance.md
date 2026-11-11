@@ -1,7 +1,7 @@
 ---
 title: 検索パフォーマンス
 description: 検索パフォーマンスページでは、買い物客が使用する検索語にinsightが表示されます。
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
 autotag-review: '2026-11-02T19:16:39.256Z'
 TQID: 'https://experienceleague.adobe.com/qFCpLYVsDln6yO5zUB4LoumG0JuI1njkxt-cAYrTvxI'
 product_v2:

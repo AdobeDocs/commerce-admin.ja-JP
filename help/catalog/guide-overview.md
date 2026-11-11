@@ -56,8 +56,8 @@ ht-degree: 3%
 | [共有カタログ &#x200B;](../b2b/enable-basic-features.md) | 共有されたカタログにより、企業ごとに厳選された商品アセットやカスタム価格を提供することができます。 法人アカウントや共有カタログ機能など、Adobe Commerce B2B ライセンスと設定が必要です。 |
 | [&#x200B; カタログの強化](catalog-enrichment.md) | AIが提案した改善点をレビューし、製品名と説明に適用することで、カタログをLLMとAIを活用した検索で正確に表現できます。 |
 | [製品属性](product-attributes.md) | 製品オプションの入力コントロールを使用して属性を作成し、製品ページに関する追加情報を提供します。 |
-| [&#x200B; カタログビュー](../optimizer/setup/catalog-view.md) [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} | マーチャンダイジングサービスとコンポーザブルカタログデータモデル（CCDM）を使用してCommerceを展開する場合、ブランド、地域、事業部門、チャネルごとにカタログソース、カタログレイヤー、ポリシー、価格表を組み合わせることで、顧客が取得できる商品と価格を定義できます。 必要に応じて、カタログ表示を制限して非公開にします。 |
-| [&#x200B; ポリシー](../optimizer/setup/policies.md) [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} | CCDMを使用してCommerceを展開する場合は、各カタログビューが提供する商品を制御するデータアクセスフィルターを定義して、適切なコンテンツを適切な宛先に送信します。 |
+| [&#x200B; カタログビュー](../optimizer/setup/catalog-view.md) [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} | マーチャンダイジングサービスとコンポーザブルカタログデータモデル（CCDM）を使用してCommerceを展開する場合、ブランド、地域、事業部門、チャネルごとにカタログソース、カタログレイヤー、ポリシー、価格表を組み合わせることで、顧客が取得できる商品と価格を定義できます。 必要に応じて、カタログ表示を制限して非公開にします。 |
+| [&#x200B; ポリシー](../optimizer/setup/policies.md) [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} | CCDMを使用してCommerceを展開する場合は、各カタログビューが提供する商品を制御するデータアクセスフィルターを定義して、適切なコンテンツを適切な宛先に送信します。 |
 
 {style="table-layout:auto"}
 

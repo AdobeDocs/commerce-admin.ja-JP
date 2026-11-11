@@ -1,7 +1,7 @@
 ---
 title: レコメンデーションの作成と管理
 description: レコメンデーションの作成と管理方法を説明します。
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
 autotag-review: '2026-11-02T19:20:38.902Z'
 TQID: 'https://experienceleague.adobe.com/kbGOl78JRNYcqONXFHiwXfDjphi6rLmpD5oC6iFUH34'
 product_v2:

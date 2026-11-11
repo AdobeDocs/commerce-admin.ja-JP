@@ -2,7 +2,7 @@
 title: '[!UICONTROL Services] > ACO カタログ ビュー'
 description: Commerce管理者の[!UICONTROL Services] > [!UICONTROL ACO Catalog View] ページでAdobe Commerce Optimizerの設定を確認し、更新します。
 feature: Configuration, Security
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce

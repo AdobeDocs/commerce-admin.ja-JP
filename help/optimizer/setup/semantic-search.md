@@ -3,7 +3,7 @@ title: セマンティック検索
 description: 設定から[!DNL Adobe Commerce Optimizer]でAI セマンティック検索を有効にします。 属性の設定やストアフロントの変更は必要ありません。
 role: Admin, User
 recommendations: noCatalog
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce

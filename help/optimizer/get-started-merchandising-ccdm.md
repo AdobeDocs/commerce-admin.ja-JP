@@ -3,7 +3,7 @@ title: 役割別のカタログ マーチャンダイジングタスク
 description: CCDMでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンスを使用する管理者、開発者、マーチャンダイザー向けのタスクガイダンスを見つけます。
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
 TQID: 'https://experienceleague.adobe.com/0PmobUkdEWspxuRSaIPL8vS1ojDDZ3gw-L-3SfPmJAg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -1,7 +1,7 @@
 ---
 title: ファセットタイプ
 description: '[!DNL Adobe Commerce Optimizer]の様々な種類のファセットについて説明します。'
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
 autotag-review: '2026-11-02T19:19:37.050Z'
 TQID: 'https://experienceleague.adobe.com/jeBR535CTNK0jhGRt9j5yPuEQHb-HQ0HWVxoRD-Fi5Q'
 product_v2:

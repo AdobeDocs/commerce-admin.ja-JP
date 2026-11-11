@@ -1,7 +1,7 @@
 ---
 title: ファセットの作成と管理
 description: '[!DNL Adobe Commerce Optimizer]でファセットを追加および管理する方法について説明します。'
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
 autotag-review: '2026-11-02T19:18:42.471Z'
 TQID: 'https://experienceleague.adobe.com/AXIGruJgD-JFBGr4jDUscJ2vSBOBcu-TaskyIECQ-b8'
 product_v2:

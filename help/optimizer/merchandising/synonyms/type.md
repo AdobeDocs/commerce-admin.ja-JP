@@ -1,7 +1,7 @@
 ---
 title: 同義語タイプ
 description: '[!DNL Adobe Commerce Optimizer]の様々な類義語について説明します。'
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
 autotag-review: '2026-11-02T19:38:15.772Z'
 TQID: 'https://experienceleague.adobe.com/Y6c89VNtJ-5OLrH7JQ9yiD5pkJbf3eA1NRXtXFLn0yE'
 product_v2:

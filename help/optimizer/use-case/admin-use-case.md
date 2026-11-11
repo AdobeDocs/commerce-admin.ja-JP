@@ -4,7 +4,7 @@ description: '[!DNL Adobe Commerce Optimizer]個のカタログビューとポ�
 role: Admin, Developer
 feature: Personalization, Integration
 hide: true
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
 autotag-review: '2026-11-02T19:39:05.356Z'
 TQID: 'https://experienceleague.adobe.com/5YIe-yCWxOcc56mi2p1QS9mIqaJxVsUvaN-AOF7Khi8'
 product_v2:

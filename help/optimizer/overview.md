@@ -2,7 +2,7 @@
 title: マーチャンダイジングサービスの概要
 description: CCDMでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンスのカタログ設定、マーチャンダイジング、レポート、およびモニタリングツールについて説明します。
 recommendations: noCatalog
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
 exl-id: f9516d4c-fbae-4db2-a1a9-cda3684a8122
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -60,7 +60,7 @@ Commerce Foundationは、商品や価格に関する信頼できる唯一の情�
 
 - **機会** – 製品パフォーマンス、買い物客の行動、検索傾向を確認して、マーチャンダイジングの改善点を特定します。
 - **Recommendations** - Commerce Adminでレコメンデーションユニットを作成および管理します。 レコメンデーションでは、カタログデータと集約された買い物客の行動をもとに、「この商品を閲覧した顧客も閲覧した」などの関連商品を提案します。
-- **マーチャンダイジングルール** – 製品のプロモーションとランク付けを制御します。 ルールは、あらゆるカタログビューに適用することも、特定のビューに合わせてカスタマイズすることもできます。 [&#x200B; マーチャンダイジングルールの作成](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add#create-a-rule)を参照してください。
+- **マーチャンダイジングルール** – 製品のプロモーションとランク付けを制御します。 ルールは、あらゆるカタログビューに適用することも、特定のビューに合わせてカスタマイズすることもできます。 [&#x200B; マーチャンダイジングルールの作成](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/merchandising/rules/add#create-a-rule)を参照してください。
 - **ファセット** – 買い物客が使用するフィルターを設定して、ブランド、サイズ、価格などの属性によって商品の結果を絞り込みます。
 - **類義語** – 同じコンセプトに対して異なる単語を使用して商品を見つけるために、同等の検索語を関連付けます。
 - **設定** – 価格ファセット、言語、高度な検索など、検索およびマーチャンダイジングオプションを設定します。

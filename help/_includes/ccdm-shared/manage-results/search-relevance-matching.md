@@ -8,7 +8,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->次の機能は[&#x200B; プライベートベータ版](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta)です。
+>次の機能は[&#x200B; プライベートベータ版](https://experienceleague.adobe.com/ja/docs/commerce-operations/release/beta)です。
 
 コンポーザブルカタログデータモデル（CCDM）を利用したマーチャンダイジングサービスでは、検索結果をランク付けし、買い物客が最も関連性の高い商品を最初に確認できるようにします。 このサービスでは、カタログテキスト **が買い物客のクエリ**&#x200B;と密接に一致し、条件が一緒に表示される場所で一致することを優先し、最終的により幅広い一致が含まれる商品を強化します。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 - **完全一致/ほぼ**&#x200B;語一致からのブースト
 - **すべてのクエリ用語**&#x200B;が&#x200B;**same** フィールドに表示されるときにブーストします
 - テキストの関連性と行動シグナルをブレンドする&#x200B;**インテリジェントランキング** （有効な場合）、[&#x200B; インテリジェントランキングスコアリングの仕組み](../merchandising/rules/add.md#how-intelligent-ranking-scoring-works-search)を参照
-- 各属性およびその他のテキストに関する関連要因について&#x200B;**重み**&#x200B;を検索します（例えば、名前または説明の長さで用語が発生する頻度）。 Adobe Commerce デプロイメントの場合、[属性Storefront プロパティ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results)で検索可能な属性とその重みを設定します。 スタンドアロンのAdobe Commerce Optimizer デプロイメントの場合は、[Metadata REST API](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata)を使用します。
+- 各属性およびその他のテキストに関する関連要因について&#x200B;**重み**&#x200B;を検索します（例えば、名前または説明の長さで用語が発生する頻度）。 Adobe Commerce デプロイメントの場合、[属性Storefront プロパティ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog/search/search-results)で検索可能な属性とその重みを設定します。 スタンドアロンのAdobe Commerce Optimizer デプロイメントの場合は、[Metadata REST API](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata)を使用します。
 - ピン、ブースト、埋め込みなどの&#x200B;**[マーチャンダイジングルール](../merchandising/rules/overview.md)**
 
 シグナルは相互作用するので、幅広い一致は、**検索の重み**&#x200B;または用語の頻度が弱い語句一致を上回ると、よりタイトな語句一致の上にランク付けされることがあります。

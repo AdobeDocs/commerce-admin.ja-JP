@@ -3,7 +3,7 @@ title: マーチャンダイジングサービスの制限と境界
 description: Adobe Commerce Optimizerのライセンス制限とシステムの制限について説明します。 キャパシティを計画し、使用状況を追跡し、制限を超える場合の遅延とスロットリングを回避します。
 role: Admin, Developer
 hide: true
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
 autotag-review: '2026-11-02T18:48:38.168Z'
 TQID: 'https://experienceleague.adobe.com/KoRp--G2sMvv-Hr7KiHriZrFmtEm0BhGoGWVQQK-ofE'
 product_v2:
@@ -37,7 +37,7 @@ Adobe Commerce Merchandising Services with CCDMでは、ライセンス制限と
 
 ライセンス制限は、[&#x200B; ライセンス制限とシステム境界](#license-limits-and-system-boundaries) セクションに記載されているライセンスパッケージを購入するか、独自のユースケースに対するカスタムライセンスを交渉することで増やすことができます。 お客様の要件については、Adobeの担当者にお問い合わせください。
 
-システムの境界について質問がある場合は、[Adobe サポート &#x200B;](https://experienceleague.adobe.com/home?lang=en#support)にお問い合わせください。
+システムの境界について質問がある場合は、[Adobe サポート &#x200B;](https://experienceleague.adobe.com/home?lang=ja#support)にお問い合わせください。
 
 ## パフォーマンスの問題を防止
 

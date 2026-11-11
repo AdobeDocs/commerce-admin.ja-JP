@@ -2,7 +2,7 @@
 title: ポリシー
 description: '[!DNL Adobe Commerce Optimizer]でポリシーを作成および管理する方法について説明します。'
 recommendations: noCatalog
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce

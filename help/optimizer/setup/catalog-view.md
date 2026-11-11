@@ -3,7 +3,7 @@ title: カタログビュー
 description: カタログビューの概要と、ビジネス構造、ポリシー、価格設定によって商品カタログを整理するための作成方法について説明します。
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -127,7 +127,7 @@ B2B実装の場合は、同期によって生成されたカタログ構造が�
 
 ## 関連コンテンツ
 
-- [Adobe Commerce as a Cloud Serviceの導入方法](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started)
+- [Adobe Commerce as a Cloud Serviceの導入方法](https://experienceleague.adobe.com/ja/docs/commerce/cloud-service/getting-started)
 - [Adobe Commerce B2B共有カタログの概要](../../b2b/catalog-shared.md)
-- [Adobe Commerce as a Cloud Service リリースノート](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes)
+- [Adobe Commerce as a Cloud Service リリースノート](https://experienceleague.adobe.com/ja/docs/commerce/cloud-service/release-notes)
 - [カタログの同期](data-sync.md)

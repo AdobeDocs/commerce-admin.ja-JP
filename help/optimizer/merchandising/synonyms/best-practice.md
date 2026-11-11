@@ -2,7 +2,7 @@
 title: 同義語のベストプラクティス
 description: ストアに類義語を実装するためのベストプラクティスについて説明します。
 role: Admin, Developer
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
 autotag-review: '2026-11-02T19:37:47.909Z'
 TQID: 'https://experienceleague.adobe.com/ZF4Ar2mPq77MFXu49V9E290QqL9-R--1MISvNm6NpOw'
 product_v2:

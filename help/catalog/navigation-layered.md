@@ -43,7 +43,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->この節で説明する標準的な階層化されたナビゲーションは、[&#x200B; ファセット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)を持つライブサーチのフィルターナビゲーションとは異なります。
+>この節で説明する標準的な階層化されたナビゲーションは、[&#x200B; ファセット &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-admin/facets/facets)を持つライブサーチのフィルターナビゲーションとは異なります。
 >
 >コンポーザブルカタログデータモデル（CCDM）でプロビジョニングされたインスタンスについては、マーチャンダイジングサービスの[&#x200B; ファセット &#x200B;](/help/optimizer/merchandising/facets/overview.md)を参照してください。
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->このトピックで説明するフィルター可能な属性要件は、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)で異なります。 詳しくは、[&#x200B; ファセット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)を参照してください。
+>このトピックで説明するフィルター可能な属性要件は、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)で異なります。 詳しくは、[&#x200B; ファセット &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-admin/facets/facets)を参照してください。
 
 階層化されたナビゲーションを使用して、カテゴリ別または属性別に商品を検索できます。 例えば、買い物客が上部のナビゲーションから「メンズ/Shorts」カテゴリを選択すると、最初の結果にはカテゴリ内のすべての商品が含まれます。 特定のスタイル、気候、色、素材、パターン、価格（または値の組み合わせ）を選択して、リストをさらにフィルタリングできます。 フィルター可能な属性は、各属性値を一覧表示する拡張セクションに表示されます。 オプションとして、一致する結果を持つ製品のリストを、一致する製品を含めるか、一致しない製品を含めるように設定できます。
 
@@ -141,7 +141,7 @@ _例：フィルター可能なスウォッチ値が結果なしで表示され�
 
 >[!NOTE]
 >
->この節で説明する価格ナビゲーションの設定は、[&#x200B; ファセット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)を持つライブサーチのフィルターナビゲーションとは異なります。
+>この節で説明する価格ナビゲーションの設定は、[&#x200B; ファセット &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-admin/facets/facets)を持つライブサーチのフィルターナビゲーションとは異なります。
 
 価格ナビゲーションを使用すると、階層化されたナビゲーションで価格帯ごとに商品を配布できます。 また、各範囲を間隔で分割することもできます。 価格ナビゲーションを計算するには、いくつかの方法があります。
 
@@ -236,7 +236,7 @@ _例：フィルター可能なスウォッチ値が結果なしで表示され�
 
 >[!NOTE]
 >
->この節で説明する標準的な階層化されたナビゲーションは、[&#x200B; ファセット &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)を持つライブサーチのフィルターナビゲーションとは異なります。
+>この節で説明する標準的な階層化されたナビゲーションは、[&#x200B; ファセット &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-admin/facets/facets)を持つライブサーチのフィルターナビゲーションとは異なります。
 
 階層型ナビゲーション設定は、各属性の後に商品数が括弧内に表示されるかどうか、および価格ナビゲーションに使用されるステップ計算のサイズを決定します。
 

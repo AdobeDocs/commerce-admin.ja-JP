@@ -2,7 +2,7 @@
 title: ファセットのベストプラクティス
 description: ストアにファセットを実装するためのベストプラクティスについて説明します。
 role: Admin, Developer
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
 autotag-review: '2026-11-02T19:18:56.877Z'
 TQID: 'https://experienceleague.adobe.com/ieVuCgWFcHX0Kly5pqKAQR5Nn2T1XhwiOuq6tmGUbJI'
 product_v2:
