@@ -61,9 +61,9 @@ _管理者_ サイドバーで、**[!UICONTROL Marketing]**&#x200B;をクリッ�
 
 ### [!UICONTROL Promotions]
 
-様々な条件に基づいて割引をトリガーする[ カタログ ](price-rules-catalog.md)と[買い物かご](price-rules-cart.md)の価格ルールを作成します。 必要な条件が満たされたときにアクションにスプリングする[ プロモーション ](introduction.md#promotions)を設定します。
+様々な条件に基づいて割引をトリガーする[&#x200B; カタログ &#x200B;](price-rules-catalog.md)と[買い物かご](price-rules-cart.md)の価格ルールを作成します。 必要な条件が満たされたときにアクションにスプリングする[&#x200B; プロモーション &#x200B;](introduction.md#promotions)を設定します。
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）関連する商品ルール [を作成し、[ ギフトカードアカウント ](../stores-purchase/product-gift-card-accounts.md)を管理します。](product-related-rules.md)
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）関連する商品ルール [&#128279;](product-related-rules.md)を作成し、[&#x200B; ギフトカードアカウント &#x200B;](../stores-purchase/product-gift-card-accounts.md)を管理します。
 
 ### [!UICONTROL Private Sales]
 
@@ -75,13 +75,13 @@ _管理者_ サイドバーで、**[!UICONTROL Marketing]**&#x200B;をクリッ�
 
 ### [!UICONTROL Communications]
 
-ストアから送信されるすべての通知をカスタマイズします。 [ ニュースレター](newsletters.md)を作成し、[RSS](social-rss.md#rss-feeds) フィードを公開します。
+ストアから送信されるすべての通知をカスタマイズします。 [&#x200B; ニュースレター](newsletters.md)を作成し、[RSS](social-rss.md#rss-feeds) フィードを公開します。
 
 ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）条件が満たされるたびに[電子メールリマインダー](email-reminder-rules.md)をお客様に送信するルールを設定します。
 
 ### [!UICONTROL SEO & Search]
 
-[検索語](../catalog/search-terms.md)と[類義語](../catalog/search-terms.md#search-synonyms)を分析して、お客様がストア内の商品を見つけやすくし、[ メタデータ ](meta-data.md)を管理し、[ サイトマップ ](sitemap-xml.md)を作成します。 [ リダイレクト ](url-rewrite.md)を使用して、URLの変更を管理し、リンク切れを回避します。
+[検索語](../catalog/search-terms.md)と[類義語](../catalog/search-terms.md#search-synonyms)を分析して、お客様がストア内の商品を見つけやすくし、[&#x200B; メタデータ &#x200B;](meta-data.md)を管理し、[&#x200B; サイトマップ &#x200B;](sitemap-xml.md)を作成します。 [&#x200B; リダイレクト &#x200B;](url-rewrite.md)を使用して、URLの変更を管理し、リンク切れを回避します。
 
 ### [!UICONTROL User Content]
 

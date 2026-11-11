@@ -39,7 +39,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->このページはコネクタに適用されます。 コンポーザブルカタログデータモデル（CCDM）でプロビジョニングされたインスタンスは、データをネイティブに同期するため、コネクタは使用されません。 「[ マーチャンダイジングサービスとCCDM](/help/optimizer/overview.md)」を参照してください。
+>このページはコネクタに適用されます。 コンポーザブルカタログデータモデル（CCDM）でプロビジョニングされたインスタンスは、データをネイティブに同期するため、コネクタは使用されません。 「[&#x200B; マーチャンダイジングサービスとCCDM](/help/optimizer/overview.md)」を参照してください。
 
 {{config}}
 
@@ -57,4 +57,4 @@ ht-degree: 2%
 >[!MORELIKETHIS]
 >
 > - [ACO カタログ ビュー同期](./aco-catalog-view-sync.md) — カタログ ビューを[!DNL Adobe Commerce Optimizer]に同期する方法を設定します
-> - [ カタログ ビュー同期ステータスの監視](../../systems/catalog-view-sync-status.md) – 同期の正常性と調整ドリフトの監視
+> - [&#x200B; カタログ ビュー同期ステータスの監視](../../systems/catalog-view-sync-status.md) – 同期の正常性と調整ドリフトの監視

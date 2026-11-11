@@ -57,12 +57,12 @@ Adobe Commerce as a Cloud Serviceとのネイティブな連携により、商�
 
 | タスク | 説明 | リソース |
 | --- | --- | --- |
-| **製品と価格の設定** | Commerce Foundationで商品と価格を管理します。 価格データは価格表としてCCDMに同期されます。CCDMで価格を独立して作成しないでください。 | [製品リスト ](../catalog/products-list.md)、[製品を作成](../catalog/product-create.md)、[価格範囲](../catalog/catalog-price-scope.md)、[高度な価格設定](../catalog/pricing-advanced.md) |
-| **ストアビューの設定** | Commerce Foundationで、ストアフロントに必要なストアビューとローカライズされた商品データを設定します。 | [ ストアビュー](../stores-purchase/store-views.md) |
-| **B2B共有カタログと会社の設定** | B2B実装の場合は、生成されたカタログ設定を確認する前に、Commerce Foundationで共有カタログと企業関係を設定します。 | [共有カタログ ](../b2b/catalog-shared.md)および[企業](../b2b/account-companies.md) |
-| **B2C カタログ ビューとポリシーの設定** | カタログビューを作成し、使用可能な製品品揃えを定義するポリシーを選択します。 該当する同期価格表を各ビューに関連付けます。 | [ カタログ ビュー](./setup/catalog-view.md) |
+| **製品と価格の設定** | Commerce Foundationで商品と価格を管理します。 価格データは価格表としてCCDMに同期されます。CCDMで価格を独立して作成しないでください。 | [製品リスト &#x200B;](../catalog/products-list.md)、[製品を作成](../catalog/product-create.md)、[価格範囲](../catalog/catalog-price-scope.md)、[高度な価格設定](../catalog/pricing-advanced.md) |
+| **ストアビューの設定** | Commerce Foundationで、ストアフロントに必要なストアビューとローカライズされた商品データを設定します。 | [&#x200B; ストアビュー](../stores-purchase/store-views.md) |
+| **B2B共有カタログと会社の設定** | B2B実装の場合は、生成されたカタログ設定を確認する前に、Commerce Foundationで共有カタログと企業関係を設定します。 | [共有カタログ &#x200B;](../b2b/catalog-shared.md)および[企業](../b2b/account-companies.md) |
+| **B2C カタログ ビューとポリシーの設定** | カタログビューを作成し、使用可能な製品品揃えを定義するポリシーを選択します。 該当する同期価格表を各ビューに関連付けます。 | [&#x200B; カタログ ビュー](./setup/catalog-view.md) |
 | **B2B カタログビューのレビュー** | ネイティブ同期によって、予想されるカタログ ビュー、ポリシー、価格表が生成されたことを確認します。 重複する構造を手作業で作成するのではなく、Commerce Foundationで基盤となるB2B設定を管理できます。 | [B2B カタログ ビュー](./setup/catalog-view.md#b2b-catalog-views) |
-| **ストアフロントの設定** | 目的のカタログコンテキストをリクエストするようにストアフロントを設定します。 カスタムまたはその他のストアフロントとの統合については、該当するカタログリクエストヘッダーを参照してください。 | [ ストアフロント設定](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/commerce-configuration/) |
+| **ストアフロントの設定** | 目的のカタログコンテキストをリクエストするようにストアフロントを設定します。 カスタムまたはその他のストアフロントとの統合については、該当するカタログリクエストヘッダーを参照してください。 | [&#x200B; ストアフロント設定](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/commerce-configuration/) |
 
 マーチャンダイジングを設定する前に、ストアフロントが予想される商品と価格を返すことを確認します。 カートへの追加、カート、チェックアウトをテストして、トランザクションの価格が意図したCommerce Foundation設定と一致することを確認します。
 
@@ -70,10 +70,10 @@ Adobe Commerce as a Cloud Serviceとのネイティブな連携により、商�
 
 | タスク | 説明 | リソース |
 | --- | --- | --- |
-| **製品検出の設定** | マーチャンダイジングルール、ファセット、類義語を設定する。 ルールは、あらゆるカタログビューに適用することも、特定のビューに合わせてカスタマイズすることもできます。 | [ マーチャンダイジングの概要](./merchandising/overview.md) |
-| **検索設定の確認** | 実装の検索設定と使用可能なセマンティック検索オプションを確認します。 | [ マーチャンダイジング設定](./settings.md)および[ セマンティック検索](./setup/semantic-search.md) |
+| **製品検出の設定** | マーチャンダイジングルール、ファセット、類義語を設定する。 ルールは、あらゆるカタログビューに適用することも、特定のビューに合わせてカスタマイズすることもできます。 | [&#x200B; マーチャンダイジングの概要](./merchandising/overview.md) |
+| **検索設定の確認** | 実装の検索設定と使用可能なセマンティック検索オプションを確認します。 | [&#x200B; マーチャンダイジング設定](./settings.md)および[&#x200B; セマンティック検索](./setup/semantic-search.md) |
 | **レコメンデーションの設定** | レコメンデーションユニットを作成し、ストアフロントが実装に必要な行動データを収集していることを確認します。 | [推奨事項の概要](./merchandising/recommendations/overview.md) |
-| **パフォーマンスのレビュー** | 成功指標と検索パフォーマンスレポートを使用して、ストアフロントのアクティビティを評価し、マーチャンダイジングの意思決定に情報を提供します。 | [成功指標](./manage-results/success-metrics.md)および[検索パフォーマンス ](./manage-results/search-performance.md) |
+| **パフォーマンスのレビュー** | 成功指標と検索パフォーマンスレポートを使用して、ストアフロントのアクティビティを評価し、マーチャンダイジングの意思決定に情報を提供します。 | [成功指標](./manage-results/success-metrics.md)および[検索パフォーマンス &#x200B;](./manage-results/search-performance.md) |
 
 ## 次のステップ
 
