@@ -89,7 +89,7 @@ Commerce Foundationは、商品や価格に関する信頼できる唯一の情�
 <!--
 Watch the following video for a high-level overview of [!DNL Adobe Commerce Optimizer]:
 
->[!VIDEO](https://video.tv.adobe.com/v/3450226)
+>[!VIDEO](https://video.tv.adobe.com/v/3450464?captions=jpn)
 -->
 
 ## インスタンスがCCDMを使用することを確認する
