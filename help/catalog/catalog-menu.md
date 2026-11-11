@@ -24,32 +24,32 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: 224
+source-wordcount: '224'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Catalog] メニュー
 
-[!UICONTROL Catalog] メニューでは、製品作成、カテゴリ、在庫管理ツール、[B2B ストア &#x200B;](/help/b2b/introduction.md)のカスタム価格設定の共有カタログ、AI支援の発見のカタログ強化に簡単にアクセスできます。
+[!UICONTROL Catalog] メニューでは、製品作成、カテゴリ、在庫管理ツール、[B2B ストア ](/help/b2b/introduction.md)のカスタム価格設定の共有カタログ、AI支援の発見のカタログ強化に簡単にアクセスできます。
 
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-![&#x200B; カタログ メニュー](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
+![ カタログ メニュー](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
 
-![&#x200B; カタログ メニュー](./assets/admin-menu-catalog-accs.png){width="300" zoomable="yes"}
+![ カタログ メニュー](./assets/admin-menu-catalog-accs.png){width="300" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 _管理者_ サイドバーで、**[!UICONTROL Catalog]**&#x200B;をクリックします。
 
@@ -57,24 +57,24 @@ _管理者_ サイドバーで、**[!UICONTROL Catalog]**&#x200B;をクリック
 
 あらゆる種類の[商品](products-list.md)を作成し、在庫を管理します。
 
-![製品グリッド &#x200B;](./assets/products-grid.png){width="700" zoomable="yes"}
+![製品グリッド ](./assets/products-grid.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Categories]
 
-ストアのナビゲーションの基盤となる[&#x200B; カテゴリ &#x200B;](categories.md)構造を作成します。
+ストアのナビゲーションの基盤となる[ カテゴリ ](categories.md)構造を作成します。
 
-![&#x200B; カテゴリーワークスペース &#x200B;](./assets/category-workspace.png){width="700" zoomable="yes"}
+![ カテゴリーワークスペース ](./assets/category-workspace.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Shared Catalogs]
 
-Adobe Commerce B2Bがインストールされ、有効になっているストアの場合、[共有カタログ &#x200B;](/help/b2b/catalog-shared.md)を使用すると、異なる企業でカスタム価格を利用できるようになります。
+Adobe Commerce B2Bがインストールされ、有効になっているストアの場合、[共有カタログ ](/help/b2b/catalog-shared.md)を使用すると、異なる企業でカスタム価格を利用できるようになります。
 
 ![共有カタログ製品](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Catalog enrichment]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
-[&#x200B; カタログのエンリッチメント &#x200B;](catalog-enrichment.md)を使用して、AIが提案した改善をレビューし、製品名と長い説明に適用することで、カタログがLLMとAI支援の発見で正確に表現されます。
+[ カタログのエンリッチメント ](catalog-enrichment.md)を使用して、AIが提案した改善をレビューし、製品名と長い説明に適用することで、カタログがLLMとAI支援の発見で正確に表現されます。
 
-![&#x200B; カタログの強化](./assets/agentic-opportunities.png)
+![ カタログの強化](./assets/agentic-opportunities.png)

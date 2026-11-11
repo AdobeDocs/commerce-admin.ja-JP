@@ -2,7 +2,7 @@
 title: '[!UICONTROL Services] > ACO カタログ ビュー'
 description: Commerce管理者の[!UICONTROL Services] > [!UICONTROL ACO Catalog View] ページでAdobe Commerce Optimizerの設定を確認し、更新します。
 feature: Configuration, Security
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b32c28afffe75b3f684f0fef81bd61e9cdcb485a
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 3%
+source-wordcount: '239'
+ht-degree: 2%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View]
 
 これらの設定を使用して、[!DNL Adobe Commerce Optimizer Connector for B2B]によって発行されるアクセストークンを制御します。 ストアフロントでは、これらのトークンを使用して、管理者で設定されたカスタム共有カタログから同期されたデータを入力したCommerce Optimizer プライベートカタログビューに対して認証を行います。
+
+>[!NOTE]
+>
+>このページはコネクタに適用されます。 コンポーザブルカタログデータモデル（CCDM）でプロビジョニングされたインスタンスは、データをネイティブに同期するため、コネクタは使用されません。 「[ マーチャンダイジングサービスとCCDM](/help/optimizer/overview.md)」を参照してください。
 
 {{config}}
 
@@ -53,4 +57,4 @@ ht-degree: 3%
 >[!MORELIKETHIS]
 >
 > - [ACO カタログ ビュー同期](./aco-catalog-view-sync.md) — カタログ ビューを[!DNL Adobe Commerce Optimizer]に同期する方法を設定します
-> - [&#x200B; カタログ ビュー同期ステータスの監視](../../systems/catalog-view-sync-status.md) – 同期の正常性と調整ドリフトの監視
+> - [ カタログ ビュー同期ステータスの監視](../../systems/catalog-view-sync-status.md) – 同期の正常性と調整ドリフトの監視

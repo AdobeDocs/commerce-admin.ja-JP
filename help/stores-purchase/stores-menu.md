@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Stores] メニュー'
-description: Commerce管理者は、[!UICONTROL Stores] メニューを使用して、ストア階層、構成、在庫、税金、属性を設定するためのツールにアクセスできます。
+description: '[!UICONTROL Stores] メニューでは、ストア階層、構成、在庫、税金、属性を設定するためのツールにアクセスできます。'
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
 TQID: https://experienceleague.adobe.com/LEoQUYqvin2UfF55kCMUiEUh8YungghN-VuEwUOu7gY
 product_v2:
@@ -26,26 +26,26 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '453'
 ht-degree: 0%
 ---
 # [!UICONTROL Stores] メニュー
 
-_[!UICONTROL Stores]_&#x200B;メニューでは、使用頻度は低いが、Adobe CommerceまたはMagento Open Sourceのインストール全体で参照される設定にアクセスできます。 これらの機能には、ストア階層、設定、売上および注文設定、税金および通貨、製品属性、製品レビュー評価、顧客グループの設定が含まれます。
+_[!UICONTROL Stores]_メニューでは、使用頻度は低いが、Adobe CommerceまたはMagento Open Sourceのインストール全体で参照される設定にアクセスできます。 これらの機能には、ストア階層、設定、売上および注文設定、税金および通貨、製品属性、製品レビュー評価、顧客グループの設定が含まれます。
 
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 ![管理者 – ストアメニュー](./assets/stores-menu.png){width="500" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
 
 ![管理者 – ストアメニュー](./assets/stores-menu-accs.png){width="500" zoomable="yes"}
 
@@ -63,7 +63,7 @@ Adobe CommerceまたはMagento Open Sourceのインストール環境で[web サ
 
 ### [!UICONTROL Inventory]
 
-[在庫を管理および作成](../inventory-management/introduction.md)して、販売チャネルまたはweb サイトを[&#x200B; ソース &#x200B;](../inventory-management/sources-manage.md)にリンクします。 在庫は、販売可能な商品量を集計したものです。 シングルSourceのマーチャントはデフォルトストックを使用し、マルチSourceのマーチャントはそれ以外のカスタムストックを使用します。
+[在庫を管理および作成](../inventory-management/introduction.md)して、販売チャネルまたはweb サイトを[ ソース ](../inventory-management/sources-manage.md)にリンクします。 在庫は、販売可能な商品量を集計したものです。 シングルSourceのマーチャントはデフォルトストックを使用し、マルチSourceのマーチャントはそれ以外のカスタムストックを使用します。
 
 ### [!UICONTROL Taxes]
 
@@ -75,16 +75,18 @@ Adobe CommerceまたはMagento Open Sourceのインストール環境で[web サ
 
 ### [!UICONTROL Attributes]
 
-[顧客](../customers/attribute-properties.md)または[製品情報](../catalog/attribute-product-create.md)、返品、および製品評価に使用される属性を管理します。 属性を作成し、既存の属性を編集し、[属性セット &#x200B;](../catalog/attribute-sets.md)を管理できます。
+[顧客](../customers/attribute-properties.md)または[製品情報](../catalog/attribute-product-create.md)、返品、および製品評価に使用される属性を管理します。 属性を作成し、既存の属性を編集し、[属性セット ](../catalog/attribute-sets.md)を管理できます。
 
 ### [!UICONTROL Other Settings]
 
-[&#x200B; ポイント換算レート &#x200B;](../merchandising-promotions/reward-exchange-rates.md)、[&#x200B; ギフトラッピング &#x200B;](cart-configuration.md#gift-wrap)、[&#x200B; ギフトレジストリ &#x200B;](../merchandising-promotions/gift-registries.md)の追加設定を管理します。
+[ ポイント換算レート ](../merchandising-promotions/reward-exchange-rates.md)、[ ギフトラッピング ](cart-configuration.md#gift-wrap)、[ ギフトレジストリ ](../merchandising-promotions/gift-registries.md)の追加設定を管理します。
 
 ## [!DNL Adobe Commerce Optimizer]統合
 
 [!DNL Adobe Commerce Optimizer Connector]をインストールすると、web サイトとストアビューデータを[!DNL Adobe Commerce Optimizer]に同期できます。 Web サイトの範囲は[価格同期](stores.md#step-1-create-a-website) （価格と価格表）を制御します。 ストア表示範囲は[製品同期](store-views.md#add-a-store-view) （製品と製品属性）を制御します。
 
-[!UICONTROL All Stores] グリッドに表示される同期ステータス インジケーターについては、[Adobe Commerce Optimizer同期ステータス &#x200B;](store-views.md#optimizer-sync-status)を参照してください。 コネクタの設定と設定の動作については、*Commerce コネクタ ガイド*&#x200B;の「[Adobe Commerce Optimizer スコープ書き出し設定のカスタマイズ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)」を参照してください。
+[!UICONTROL All Stores] グリッドに表示される同期ステータス インジケーターについては、[Adobe Commerce Optimizer同期ステータス ](store-views.md#optimizer-sync-status)を参照してください。 コネクタの設定と設定の動作については、*Commerce コネクタ ガイド*&#x200B;の「[Adobe Commerce Optimizer スコープ書き出し設定のカスタマイズ ](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)」を参照してください。
 
-[!DNL Adobe Commerce Optimizer Connector for B2B]がインストールされている場合は、使用可能なB2B共有カタログのデータも同期されます。 [&#x200B; カタログビューの管理](../b2b/catalog-views-manage.md)を参照してください。
+[!DNL Adobe Commerce Optimizer Connector for B2B]がインストールされている場合は、使用可能なB2B共有カタログのデータも同期されます。 [ カタログビューの管理](../b2b/catalog-views-manage.md)を参照してください。
+
+コンポーザブルカタログデータモデル（CCDM）でプロビジョニングされたインスタンスは、web サイト、ストアビュー、価格データをネイティブに同期し、コネクタを使用しません。 「[ マーチャンダイジングサービスとCCDM](/help/optimizer/overview.md)」を参照してください。

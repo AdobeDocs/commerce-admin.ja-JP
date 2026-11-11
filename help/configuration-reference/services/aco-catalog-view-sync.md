@@ -2,7 +2,7 @@
 title: '[!UICONTROL Services] > ACO カタログ ビュー同期'
 description: Commerce管理者の[!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync] ページで設定を確認します。
 feature: Configuration, Security
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '333'
 ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync]
 
-これらの設定を使用して、[!DNL Adobe Commerce Optimizer Connector for B2B]がB2B共有カタログの設定（カタログ ビュー、ポリシー、価格表、キー）を[!DNL Adobe Commerce Optimizer]に同期する方法と、2つのシステム間の設定の違いを解決する方法を制御します。 これらの設定の結果を監視するには、[&#x200B; カタログ表示の同期ステータスの監視](../../systems/catalog-view-sync-status.md)を参照してください。
+これらの設定を使用して、[!DNL Adobe Commerce Optimizer Connector for B2B]がB2B共有カタログの設定（カタログ ビュー、ポリシー、価格表、キー）を[!DNL Adobe Commerce Optimizer]に同期する方法と、2つのシステム間の設定の違いを解決する方法を制御します。 これらの設定の結果を監視するには、[ カタログ表示の同期ステータスの監視](../../systems/catalog-view-sync-status.md)を参照してください。
+
+>[!NOTE]
+>
+>このページはコネクタに適用されます。 コンポーザブルカタログデータモデル（CCDM）でプロビジョニングされたインスタンスは、データをネイティブに同期するため、コネクタは使用されません。 「[ マーチャンダイジングサービスとCCDM](/help/optimizer/overview.md)」を参照してください。
 
 {{config}}
 
@@ -69,5 +73,5 @@ ht-degree: 3%
 >[!MORELIKETHIS]
 >
 > - [ACO カタログビュー](./aco-catalog-view.md) — カタログビューのストアフロント読み取り用にアクセストークンを設定します
-> - [&#x200B; カタログ ビュー同期ステータスの監視](../../systems/catalog-view-sync-status.md) – 同期の正常性を監視し、これらの設定を使用してドリフトを調整します
+> - [ カタログ ビュー同期ステータスの監視](../../systems/catalog-view-sync-status.md) – 同期の正常性を監視し、これらの設定を使用してドリフトを調整します
 > - [制限付きアクセスキー管理](../../systems/restricted-access-keys.md) – 同期されたカタログ ビューに割り当てられたアクセスキーを管理します

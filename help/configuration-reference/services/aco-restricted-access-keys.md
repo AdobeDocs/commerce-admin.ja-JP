@@ -1,8 +1,8 @@
 ---
-title: '[!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]'
+title: '[!UICONTROL Services] > ACO制限付きアクセスキー'
 description: Commerce管理者の[!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys] ページで設定を確認します。
 feature: Configuration, Security
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -28,20 +28,24 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 4%
+source-wordcount: '215'
+ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]
 
 この設定を使用して、B2B共有カタログ ビューに対してプロビジョニングする制限付きアクセス キーに[!DNL Adobe Commerce Optimizer Connector for B2B]が適用する既定の有効期限を制御します。 これらのキーを作成、割り当て、削除するには、[制限付きアクセスキー管理](../../systems/restricted-access-keys.md)を参照してください。
 
+>[!NOTE]
+>
+>このページはコネクタに適用されます。 コンポーザブルカタログデータモデル（CCDM）でプロビジョニングされたインスタンスは、データをネイティブに同期するため、コネクタは使用されません。 「[ マーチャンダイジングサービスとCCDM](/help/optimizer/overview.md)」を参照してください。
+
 {{config}}
 
 ## [!UICONTROL Provisioning]
 
-![&#x200B; プロビジョニング &#x200B;](./assets/optimizer-restricted-access-key-config.png)<!-- zoom -->
+![ プロビジョニング ](./assets/optimizer-restricted-access-key-config.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 | --- | --- | --- |
@@ -51,10 +55,10 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->自動キーのローテーションがまだ利用できないため、デフォルトの有効期限は長い有効期限に設定されます。 [&#x200B; キーの選択とローテーション &#x200B;](../../systems/restricted-access-keys.md#key-selection-and-rotation)を参照してください。
+>自動キーのローテーションがまだ利用できないため、デフォルトの有効期限は長い有効期限に設定されます。 [ キーの選択とローテーション ](../../systems/restricted-access-keys.md#key-selection-and-rotation)を参照してください。
 
 >[!MORELIKETHIS]
 >
 > - [ACO カタログビュー](./aco-catalog-view.md) — カタログビュー用のストアフロントアクセストークンの設定
 > - [制限付きアクセスキー管理](../../systems/restricted-access-keys.md) – 制限付きアクセスキーの作成、割り当て、削除
-> - [&#x200B; カタログ ビュー同期ステータスの監視](../../systems/catalog-view-sync-status.md) – 有効期限が近づいているキーを監視します
+> - [ カタログ ビュー同期ステータスの監視](../../systems/catalog-view-sync-status.md) – 有効期限が近づいているキーを監視します
