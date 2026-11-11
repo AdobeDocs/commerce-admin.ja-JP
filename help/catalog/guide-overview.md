@@ -33,13 +33,11 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
+source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
 workflow-type: tm+mt
-source-wordcount: 329
-ht-degree: 5%
-
+source-wordcount: '498'
+ht-degree: 3%
 ---
-
 # Adobe Commerce カタログ管理ガイド
 
 このガイドは、Adobe CommerceとMagento Open Sourceの管理画面で作業する商品マーチャンダイザーと在庫管理者向けに作成されています。 カタログのナビゲーション構造の構築など、製品カタログの機能に関する詳細な情報を提供します。 コア [!DNL Commerce]の設定と機能に関する基本的な理解を前提としています。
@@ -55,8 +53,11 @@ ht-degree: 5%
 | [&#x200B; カタログ検索](search.md) | 顧客がストアフロントで商品を検索するために使用できるツールを確認し、商品カタログに従って検索エクスペリエンスを設定します。 |
 | [&#x200B; カテゴリ &#x200B;](categories.md) | ストアフロントでの買い物客の体験を最適化できるように、カタログの基本的なカテゴリ構造を確立します。 |
 | [製品](products-list.md) | 複数のオプション、スウォッチ、カスタマイズ可能なバンドルを使用して、シンプルな商品から複雑な商品までを作成できます。 ダウンロード可能な商品、サービスやその他の無形商品のバーチャル商品を制作する。 |
+| [共有カタログ &#x200B;](../b2b/enable-basic-features.md) | 共有されたカタログにより、企業ごとに厳選された商品アセットやカスタム価格を提供することができます。 法人アカウントや共有カタログ機能など、Adobe Commerce B2B ライセンスと設定が必要です。 |
 | [&#x200B; カタログの強化](catalog-enrichment.md) | AIが提案した改善点をレビューし、製品名と説明に適用することで、カタログをLLMとAIを活用した検索で正確に表現できます。 |
 | [製品属性](product-attributes.md) | 製品オプションの入力コントロールを使用して属性を作成し、製品ページに関する追加情報を提供します。 |
+| [&#x200B; カタログビュー](../optimizer/setup/catalog-view.md) [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} | マーチャンダイジングサービスとコンポーザブルカタログデータモデル（CCDM）を使用してCommerceを展開する場合、ブランド、地域、事業部門、チャネルごとにカタログソース、カタログレイヤー、ポリシー、価格表を組み合わせることで、顧客が取得できる商品と価格を定義できます。 必要に応じて、カタログ表示を制限して非公開にします。 |
+| [&#x200B; ポリシー](../optimizer/setup/policies.md) [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"} | CCDMを使用してCommerceを展開する場合は、各カタログビューが提供する商品を制御するデータアクセスフィルターを定義して、適切なコンテンツを適切な宛先に送信します。 |
 
 {style="table-layout:auto"}
 

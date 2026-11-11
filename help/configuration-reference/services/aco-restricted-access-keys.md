@@ -1,5 +1,5 @@
 ---
-title: '[!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]'
+title: '[!UICONTROL Services] > ACO制限付きアクセスキー'
 description: Commerce管理者の[!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys] ページで設定を確認します。
 feature: Configuration, Security
 badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 4%
+source-wordcount: '215'
+ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]
 
 この設定を使用して、B2B共有カタログ ビューに対してプロビジョニングする制限付きアクセス キーに[!DNL Adobe Commerce Optimizer Connector for B2B]が適用する既定の有効期限を制御します。 これらのキーを作成、割り当て、削除するには、[制限付きアクセスキー管理](../../systems/restricted-access-keys.md)を参照してください。
+
+>[!NOTE]
+>
+>このページはコネクタに適用されます。 コンポーザブルカタログデータモデル（CCDM）でプロビジョニングされたインスタンスは、データをネイティブに同期するため、コネクタは使用されません。 「[&#x200B; マーチャンダイジングサービスとCCDM](/help/optimizer/overview.md)」を参照してください。
 
 {{config}}
 

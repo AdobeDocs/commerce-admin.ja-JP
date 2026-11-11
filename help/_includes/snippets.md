@@ -1,9 +1,9 @@
 ---
 title: スニペット
 description: 特定のエディションに適用するフィーチャーまたはページに注意するために、再利用されたメモとビジュアル要素
-source-git-commit: 2a77353224b36200662f8c5a5a0450073fe8506c
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '846'
 ht-degree: 0%
 ---
 # スニペット
@@ -85,6 +85,12 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Adobe Commerce B2B バージョン 1.4.2以降は、PHP 8.2と互換性があります。 Commerce インスタンスをバージョン 2.4.7以降にアップグレードする場合は、インスタンスでPHP バージョン 8.2を使用してAdobe Commerce B2B リリースとの互換性を維持してください。 さらに、B2B 1.4.2以降のリリースでは、[GraphQL Application Server](https://experienceleague.adobe.com/ja/docs/commerce-operations/performance-best-practices/concepts/application-server)はサポートされていません。
+
+## CCDM マーチャンダイジングサービスに関するメモ {#ccdm-merchandising-note}
+
+>[!NOTE]
+>
+>Adobe Commerce as a Cloud Service インスタンスがコンポーザブルカタログデータモデル（CCDM）でプロビジョニングされている場合、Merchandising Servicesでカタログビュー、ポリシー、マーチャンダイジング、レポートを管理します。 「[&#x200B; マーチャンダイジングサービスとCCDM](/help/optimizer/overview.md)」を参照してください。
 
 ## reCAPTCHA フォームリスト {#recaptcha-forms-list}
 

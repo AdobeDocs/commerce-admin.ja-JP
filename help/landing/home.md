@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Administration
 nudge: true
 last-update: 2026-11-03
-source-git-commit: 007b6b960a2b17a082d3397c703f9f8375a23a9f
+source-git-commit: 837bdd15f7c690be65e72cce8b888d5c2b981fe6
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '801'
 ht-degree: 0%
 ---
 # &#x200B;<!-- use banner as heading -->![管理者ドキュメント &#x200B;](./assets/banner-user-home.png) {#documentation}
@@ -85,7 +85,7 @@ Magento Open Sourceは、Adobeが公式に提供するコードベースであ�
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）およびオンプレミス プロジェクトにのみ適用されます"}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a>
     <div><em>この機能セットは、主に企業を顧客とする販売者（マーチャント）のニーズを満たすように設計されています。複雑な組織構造や、様々な役割や購買権限レベルを持つ複数のスタッフ メンバーを含む可能性があります。</em>
     <br></div>
   </td>
@@ -103,6 +103,15 @@ Magento Open Sourceは、Adobeが公式に提供するコードベースであ�
        <img alt="Inventory management" src="./assets/icon-transfer.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../inventory-management/guide-overview.md"> <strong>[!DNL Inventory Management]</strong></a>
     <div><em>[!DNL Inventory Management]機能を使用すると、1つの店舗で複数の倉庫、店舗、受け取り場所、ドロップシッパーなどに対応できます。 これらの機能を利用して、販売の数量を管理し、出荷を処理して注文を完了することができます。</em></div>
+  </td>
+</tr>
+<tr>
+  <td valign="top">
+    <img alt="Merchandising Services" src="./assets/icon-merchandising-ccdm.svg" width="40" height="40"/>
+  </td>
+  <td valign="top">
+    <a href="../optimizer/overview.md"><strong> コンポーザブルカタログデータモデル（CCDM）を使用したマーチャンダイジングサービス </strong></a> [!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます"}
+    <div><em>Commerce Adminで、カタログ表示とポリシーの設定、マーチャンダイジングルールとレコメンデーションの管理、ストアフロントのパフォーマンスの確認、カタログの同期の監視を行います。</em></div>
   </td>
 </tr>
 <tr>

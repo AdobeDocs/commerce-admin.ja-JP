@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '967'
 ht-degree: 3%
 ---
 # 検索結果
@@ -42,6 +42,8 @@ ht-degree: 3%
 >[!NOTE]
 >
 >このページでは、[&#x200B; ライブサーチ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)とは異なる可能性のある標準検索機能について説明します。
+>
+>コンポーザブルカタログデータモデル（CCDM）でプロビジョニングされたインスタンスについては、マーチャンダイジングサービスの[一致とランキング &#x200B;](/help/optimizer/manage-results/search-relevance-matching.md)の検索を参照してください。
 
 _検索結果_ リストには、クイック検索ボックスまたは高度な検索フォームに入力された検索条件に一致するすべての製品が含まれます。 カタログ内のあらゆる商品リストは、基本的に同じコントロールを備えています。 唯一の違いは、一方が検索クエリの結果であり、もう一方の違いは[&#x200B; ナビゲーション &#x200B;](navigation.md)の結果であることです。
 

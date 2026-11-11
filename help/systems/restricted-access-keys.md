@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '830'
 ht-degree: 0%
 ---
 
@@ -49,6 +49,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >パートナーポータルなど、B2B以外のシナリオでプライベートカタログの管理に使用される手動で作成されたキーの場合、[[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}からキーを管理します。
+>
+>コンポーザブルカタログデータモデル（CCDM）でプロビジョニングされたインスタンスについては、マーチャンダイジングサービスの[制限付きアクセスキー](/help/optimizer/setup/restricted-access-keys.md)を参照してください。
 
 ## オーディエンスと可用性 {#audience}
 

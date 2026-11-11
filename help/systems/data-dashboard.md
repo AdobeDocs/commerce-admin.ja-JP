@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '797'
 ht-degree: 0%
 ---
 # データ管理ダッシュボード
@@ -51,6 +51,8 @@ Data Management ダッシュボードでは、Commerce データベースからC
 >[!NOTE]
 >
 >カタログデータをAdobe Commerce Optimizerに書き出すために[Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/ja/docs/commerce/aco-optimizer-connector/overview)をインストールした場合は、Data Management ダッシュボードではなく、Commerce Optimizer Studioの[Data Sync ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/data-sync)を使用して、正常なデータ同期を確認します。
+>
+>コンポーザブルカタログデータモデル（CCDM）でプロビジョニングされたインスタンスについては、マーチャンダイジングサービスの[&#x200B; カタログ同期](/help/optimizer/setup/data-sync.md)を参照してください。
 
 ## オーディエンス
 

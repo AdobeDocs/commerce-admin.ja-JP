@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '333'
 ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync]
 
 これらの設定を使用して、[!DNL Adobe Commerce Optimizer Connector for B2B]がB2B共有カタログの設定（カタログ ビュー、ポリシー、価格表、キー）を[!DNL Adobe Commerce Optimizer]に同期する方法と、2つのシステム間の設定の違いを解決する方法を制御します。 これらの設定の結果を監視するには、[&#x200B; カタログ表示の同期ステータスの監視](../../systems/catalog-view-sync-status.md)を参照してください。
+
+>[!NOTE]
+>
+>このページはコネクタに適用されます。 コンポーザブルカタログデータモデル（CCDM）でプロビジョニングされたインスタンスは、データをネイティブに同期するため、コネクタは使用されません。 「[&#x200B; マーチャンダイジングサービスとCCDM](/help/optimizer/overview.md)」を参照してください。
 
 {{config}}
 

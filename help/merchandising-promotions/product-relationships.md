@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -41,6 +41,8 @@ ht-degree: 0%
 # 製品との関係
 
 カタログ内の商品は、商品間の関係の性質を定義することで、他のページで宣伝できます。 このような関係は、類似製品や関連製品に対する関心に応じて、購入者をターゲティングするのに役立ちます。
+
+{{ccdm-merchandising-note}}
 
 ## 製品設定で定義
 

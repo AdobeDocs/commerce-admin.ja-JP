@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1424'
 ht-degree: 2%
 ---
 # 階層化されたナビゲーション
@@ -44,6 +44,8 @@ ht-degree: 2%
 >[!NOTE]
 >
 >この節で説明する標準的な階層化されたナビゲーションは、[&#x200B; ファセット &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/live-search/live-search-admin/facets/facets)を持つライブサーチのフィルターナビゲーションとは異なります。
+>
+>コンポーザブルカタログデータモデル（CCDM）でプロビジョニングされたインスタンスについては、マーチャンダイジングサービスの[&#x200B; ファセット &#x200B;](/help/optimizer/merchandising/facets/overview.md)を参照してください。
 
 階層化されたナビゲーションにより、カテゴリー、価格帯、その他の利用可能な属性にもとづいて、商品を簡単に見つけることができます。 階層化されたナビゲーションは、通常、検索結果ページとカテゴリーページの左側の列、場合によってはホームページに表示されます。 標準ナビゲーションには、カテゴリと価格帯の&#x200B;_買い物_ リストが含まれています。 商品の数や価格帯など、階層化されたナビゲーションの表示を設定できます。
 

@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 2b2cbba1005638bccfd8c4f14075cf98475f05f4
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -175,7 +175,7 @@ ht-degree: 0%
 [設定可能な製品](product-create-configurable.md)のオプションのドロップダウンリストとして使用される属性には、次のプロパティが必要です。
 
 | プロパティ | 値 |
-|----------|------ |
+| ---------- | ------ |
 | ストア所有者のカタログ入力タイプ | ドロップダウン |
 | 範囲 | グローバル |
 

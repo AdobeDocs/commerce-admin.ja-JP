@@ -30,16 +30,16 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: 1129
+source-wordcount: '1129'
 ht-degree: 1%
-
 ---
-
 # Commerce マーチャンダイジングとプロモーションの概要
 
 プロモーションのターゲティングや顧客エンゲージメントの機会の構築、買い物客のバイヤー化を実現できます。 購入後のアクティビティをサポートし、リピーターに特別割引を提供することで、顧客との関係を管理します。 SEO施策をサポートするためのベストプラクティスとテクニックを学びましょう。
+
+{{ccdm-merchandising-note}}
 
 ## マーチャンダイジング
 

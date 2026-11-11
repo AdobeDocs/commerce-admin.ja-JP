@@ -39,16 +39,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1132'
 ht-degree: 0%
 ---
 # 共有カタログの管理
 
 _[!UICONTROL Shared Catalogs]_&#x200B;ページでは、商品の選択、カスタム価格、カテゴリ権限、カタログの詳細など、共有カタログの管理に必要なツールにアクセスできます。 このページは、フィルターとアクションコントロールを備えた標準的な管理者ワークスペースに似ています。 グリッドには、デフォルトのパブリック共有カタログを含むすべての共有カタログと、設定したカスタムカタログが一覧表示されます。
 
-[!DNL Adobe Commerce Optimizer Connector for B2B]拡張機能がインストールされている場合、このページでは、コネクタが各共有カタログのデータを[!DNL Adobe Commerce Optimizer]に同期するときに作成された[!DNL Adobe Commerce Optimizer] カタログビューと、B2B ストアフロントエクスペリエンスのカタログビューを保護する制限付きアクセスキーにもアクセスできます。
+[!DNL Adobe Commerce Optimizer Connector for B2B]拡張機能がインストールされている場合、このページでは、コネクタが各共有カタログのデータを[!DNL Adobe Commerce Optimizer]に同期するときに作成された[!DNL Adobe Commerce Optimizer] カタログビューと、B2B ストアフロントエクスペリエンスのカタログビューを保護する制限付きアクセスキーにもアクセスできます。 コンポーザブルカタログデータモデル（CCDM）でプロビジョニングされたインスタンスの場合、ネイティブ同期により、共有カタログからカタログビューが生成されます。 [B2B カタログ ビュー](/help/optimizer/setup/catalog-view.md#b2b-catalog-views)を参照してください。
 
 ## 製品の選択を更新
 

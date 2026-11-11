@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Stores] メニュー'
-description: Commerce管理者は、[!UICONTROL Stores] メニューを使用して、ストア階層、構成、在庫、税金、属性を設定するためのツールにアクセスできます。
+description: '[!UICONTROL Stores] メニューでは、ストア階層、構成、在庫、税金、属性を設定するためのツールにアクセスできます。'
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
 TQID: https://experienceleague.adobe.com/LEoQUYqvin2UfF55kCMUiEUh8YungghN-VuEwUOu7gY
 product_v2:
@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '453'
 ht-degree: 0%
 ---
 # [!UICONTROL Stores] メニュー
@@ -88,3 +88,5 @@ Adobe CommerceまたはMagento Open Sourceのインストール環境で[web サ
 [!UICONTROL All Stores] グリッドに表示される同期ステータス インジケーターについては、[Adobe Commerce Optimizer同期ステータス &#x200B;](store-views.md#optimizer-sync-status)を参照してください。 コネクタの設定と設定の動作については、*Commerce コネクタ ガイド*&#x200B;の「[Adobe Commerce Optimizer スコープ書き出し設定のカスタマイズ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)」を参照してください。
 
 [!DNL Adobe Commerce Optimizer Connector for B2B]がインストールされている場合は、使用可能なB2B共有カタログのデータも同期されます。 [&#x200B; カタログビューの管理](../b2b/catalog-views-manage.md)を参照してください。
+
+コンポーザブルカタログデータモデル（CCDM）でプロビジョニングされたインスタンスは、web サイト、ストアビュー、価格データをネイティブに同期し、コネクタを使用しません。 「[&#x200B; マーチャンダイジングサービスとCCDM](/help/optimizer/overview.md)」を参照してください。

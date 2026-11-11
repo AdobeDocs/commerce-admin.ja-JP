@@ -24,13 +24,11 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: 224
+source-wordcount: '224'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Catalog] メニュー
 
 [!UICONTROL Catalog] メニューでは、製品作成、カテゴリ、在庫管理ツール、[B2B ストア &#x200B;](/help/b2b/introduction.md)のカスタム価格設定の共有カタログ、AI支援の発見のカタログ強化に簡単にアクセスできます。
@@ -50,6 +48,8 @@ ht-degree: 0%
 ![&#x200B; カタログ メニュー](./assets/admin-menu-catalog-accs.png){width="300" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 _管理者_ サイドバーで、**[!UICONTROL Catalog]**&#x200B;をクリックします。
 

@@ -1,6 +1,6 @@
 ---
 title: Commerceでのデータフィードの同期ステータスのモニタリング
-description: 書き出しを追跡します。 [!DNL Catalog Service]、[!DNL Live Search]、[!DNL Product Recommendations]および[!DNL Adobe Commerce Optimizer Connector]の同期の問題を診断します。
+description: '[!DNL Catalog Service]、[!DNL Live Search]、[!DNL Product Recommendations]および[!DNL Adobe Commerce Optimizer Connector]の書き出しと同期の問題を追跡します。'
 feature: Products, Customers, Data Import/Export
 role: Admin
 level: Beginner
@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1683'
 ht-degree: 0%
 ---
 
@@ -179,9 +179,10 @@ Commerce データベース内の製品およびカテゴリ関連のエンテ�
 
 ### 接続されたサービスでのデータの確認 {#confirm-data-in-connected-services}
 
-書き出し完了後にエンドツーエンドの同期を検証するには、次のいずれかの方法を使用します。 このページの書き出しステータスの制限については、上記の[&#x200B; メモ &#x200B;](#export-status-scope)を参照してください。
+書き出し完了後にエンドツーエンドの同期を検証するには、次のいずれかの方法を使用します。 このページの書き出しステータスの制限については、上記の[&#x200B; メモ &#x200B;](#access-data-feed-sync-status-page)を参照してください。
 
 - **[!DNL Adobe Commerce as a Cloud Service]（Commerce サービス：**）該当する[&#x200B; データ管理ダッシュボード &#x200B;](data-dashboard.md)を確認して、ダウンストリームの可用性を確認します。
+- CCDM:**製品と価格データでプロビジョニングされた**&#x200B;[!DNL Adobe Commerce as a Cloud Service]&#x200B;がネイティブに同期されます。 マーチャンダイジングサービスで[&#x200B; カタログ同期](/help/optimizer/setup/data-sync.md)を使用して、データの可用性を確認します。
 - **Adobe Commerce on Cloudまたはオンプレミス with Adobe Commerce Optimizer Connector**：まずCommerce管理者の書き出しステータスを確認してから、[!DNL Commerce Optimizer Studio]の[Data Sync ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/data-sync)を確認してください
 - **[!DNL Adobe Commerce Optimizer]（スタンドアロン）:** データはCommerce バックエンドからエクスポートされません。 [!DNL Commerce Optimizer Studio]の[&#x200B; データ同期ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/data-sync)を使用して、データの可用性を確認します。
 

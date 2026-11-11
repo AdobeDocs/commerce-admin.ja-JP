@@ -33,12 +33,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '412'
 ht-degree: 0%
 ---
 # カタログビュー設定の管理
+
+>[!NOTE]
+>
+>このトピックでは、Adobe Commerce Optimizer Connector for B2Bを使用したCommerce デプロイメントのカタログビューの実装について説明します。 マーチャンダイジングサービスおよびコンポーザブルカタログデータモデル（CCDM）でAdobe Commerce as a Cloud Serviceを使用している場合は、「_マーチャンダイジングサービスとCCDM ガイド_」の「[&#x200B; カタログビュー](../optimizer/setup/catalog-view.md)」の設定を参照してください。
 
 [!DNL Adobe Commerce Optimizer Connector for B2B]拡張機能がインストールされている場合、カタログビューページには、カスタム共有カタログ用に作成された[!DNL Adobe Commerce Optimizer] [&#x200B; カタログビューの予測](https://experienceleague-review.adobe.com/en/docs/commerce/aco-optimizer-connector/b2b-shared-catalog-projection){target="_blank"}が一覧表示されます。  _投影_&#x200B;は、コネクタが共有カタログデータを[!DNL Adobe Commerce Optimizer]に同期したときに作成されたカタログビューです。 コネクターは、共有カタログ内の各ストアビューに対して個別の投影を作成するので、共有カタログには複数のカタログビューを含めることができます。 ストアフロント体験では、これらのカタログビューには、関連する共有カタログに割り当てられた企業のみがアクセスできます。
 

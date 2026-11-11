@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # カタログ検索について
@@ -42,6 +42,8 @@ ht-degree: 0%
 >[!TIP]
 >
 >[[!DNL Live Search]](https://experienceleague.adobe.com/ja/docs/commerce/live-search/overview)は、高速で非常に関連性の高い直感的な検索体験を提供し、Adobe Commerceで追加料金なしで利用できます。 この節では、[!DNL Live Search]とは異なる可能性のある標準検索機能について説明します。
+>
+>Adobe Commerce as a Cloud Service インスタンスがコンポーザブルカタログデータモデル（CCDM）でプロビジョニングされている場合は、[Merchandising Services with CCDM](/help/optimizer/overview.md)で検索設定、ファセット、類義語、マーチャンダイジングルールを設定します。
 
 調査によると、検索機能を利用する人々は、ナビゲーションだけを利用する顧客よりも購入する可能性が高いことが明らかになっています。 実際、一部の調査によると、検索連動型広告を利用する人は、購入する可能性がほぼ2倍になります。
 
