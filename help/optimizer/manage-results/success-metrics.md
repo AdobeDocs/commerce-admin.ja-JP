@@ -1,7 +1,7 @@
 ---
 title: 成功指標
 description: 成功指標は、insightに[!DNL Adobe Commerce Optimizer] ストアの主要なパフォーマンス指標を提供します。
-badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
+badgeSaas: label="SaaSのみ" type="Positive" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="CCDMのみでプロビジョニングされたAdobe Commerce as a Cloud Service インスタンス（Adobeで管理されるSaaS インフラストラクチャ）に適用されます。"
 autotag-review: '2026-11-02T19:17:26.674Z'
 TQID: 'https://experienceleague.adobe.com/qWHF3u721-Ub1gqbW-QXDUW78ZtSxo6U6R0P0OMxpyc'
 product_v2:
