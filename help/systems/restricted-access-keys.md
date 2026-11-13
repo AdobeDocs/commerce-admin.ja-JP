@@ -4,7 +4,7 @@ description: Adobe Adobe Commerce Optimizerに同期されたB2B共有カタロ�
 feature: Products, Customers, Data Import/Export
 role: Admin
 level: Intermediate
-last-update: 2026-10-01
+last-update: 2026-11-11
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 0%
@@ -48,13 +48,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->パートナーポータルなど、B2B以外のシナリオでプライベートカタログの管理に使用される手動で作成されたキーの場合、[[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}からキーを管理します。
+>パートナーポータルなど、B2B以外のシナリオでプライベートカタログの管理に使用される手動で作成されたキーの場合、[[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}からキーを管理します。
 >
 >コンポーザブルカタログデータモデル（CCDM）でプロビジョニングされたインスタンスについては、マーチャンダイジングサービスの[制限付きアクセスキー](/help/optimizer/setup/restricted-access-keys.md)を参照してください。
 
 ## オーディエンスと可用性 {#audience}
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud Infrastructureおよびオンプレミスプロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud Infrastructureおよびオンプレミスプロジェクトにのみ適用されます。"}
 
 [!UICONTROL Restricted Access Keys] ページは、[!DNL Adobe Commerce Optimizer Connector for B2B]でB2B共有カタログを使用するAdobe Commerce on Cloud Infrastructureおよびオンプレミス マーチャントで利用できます。 コネクターは、ページを自動的にインストールして有効にします。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ![制限付きアクセスキーのページに、キーと割り当てられたカタログビューが一覧表示される](assets/restricted-access-keys.png){width="600" zoomable="yes"}
 
-このページには、カタログ ビューに割り当てられているかどうかにかかわらず、すべてのキーが一覧表示されます。 特定のカタログ ビューにキーを割り当てるには、代わりにそのカタログ ビューで[!UICONTROL Edit Restricted Access Keys] アクションを使用します。 「[&#x200B; カタログ ビューにキーを割り当て](#assign-keys-to-a-catalog-view)」を参照してください。
+このページには、カタログ ビューに割り当てられているかどうかにかかわらず、すべてのキーが一覧表示されます。 特定のカタログ ビューにキーを割り当てるには、代わりにそのカタログ ビューで[!UICONTROL Edit Restricted Access Keys] アクションを使用します。 「[ カタログ ビューにキーを割り当て](#assign-keys-to-a-catalog-view)」を参照してください。
 
 ## 制限付きアクセスキーの概要 {#restricted-access-keys-summary}
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 | **タイトル** | キーを識別するために指定するラベル。 |
 | **割り当てられたカタログ ビュー** | このキーが現在割り当てられているカタログビュー。 |
 | **有効期限** | キーの有効期限。 |
-| **アクション** | 行レベルのアクション： [&#x200B; キーの管理](#manage-keys)を参照してください。 |
+| **アクション** | 行レベルのアクション： [ キーの管理](#manage-keys)を参照してください。 |
 
 ## キーの管理 {#manage-keys}
 
@@ -110,7 +110,7 @@ Commerceは新しいキーペアを生成し、秘密鍵を保存します。 �
 >
 >自動キーローテーションはまだ利用できません。 キーのデフォルトは長い有効期限です。 キーを手動で回転するには、新しいキーを作成し、既存のキーと並行してカタログビューに割り当てます。 新しいキーが使用されていることを確認したら、古いキーを削除します。
 
-新しく作成したキーに適用されるデフォルトの有効期限を変更するには、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Services]** > **[!UICONTROL ACO Restricted Access Keys]** > **[!UICONTROL Provisioning]** > **[!UICONTROL Default key lifetime (days)]**&#x200B;に移動します。 [&#x200B; サービス/ACO制限付きアクセスキー](../configuration-reference/services/aco-restricted-access-keys.md)を参照してください。
+新しく作成したキーに適用されるデフォルトの有効期限を変更するには、**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Services]** > **[!UICONTROL ACO Restricted Access Keys]** > **[!UICONTROL Provisioning]** > **[!UICONTROL Default key lifetime (days)]**&#x200B;に移動します。 [ サービス/ACO制限付きアクセスキー](../configuration-reference/services/aco-restricted-access-keys.md)を参照してください。
 
 ## 既知の制限事項 {#known-limitations}
 
@@ -124,11 +124,11 @@ Commerceは新しいキーペアを生成し、秘密鍵を保存します。 �
 
 >[!MORELIKETHIS]
 >
-> - [&#x200B; カタログ ビュー設定の管理](/help/b2b/catalog-views-manage.md) – 共有カタログまたは会社アカウントからこれらのキーを割り当てます
-> - [&#x200B; カタログ ビュー同期ステータス監視](catalog-view-sync-status.md) – これらのキーで保護されているカタログ ビューを監視および調整します
-> - [&#x200B; サービス/ACO制限付きアクセス キー](../configuration-reference/services/aco-restricted-access-keys.md) — デフォルトのキー有効期限を設定します
-> - [&#x200B; サービス/ACO カタログビュー](../configuration-reference/services/aco-catalog-view.md) — ストアフロントのアクセストークンの有効期間を設定し、発行を有効または無効にします
-> - *Adobe Commerce Optimizer コネクタ ガイド*&#x200B;の[制限付きアクセス キーの管理](https://experienceleague.adobe.com/ja/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} – これらのキーをB2B共有カタログ同期に適合させる方法について説明します
-> - *Adobe Commerce Optimizer ガイド*&#x200B;の[制限付きアクセスキー](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} — B2B以外のユースケース向けのACO Studio ベースの手動キーフロー
+> - [ カタログ ビュー設定の管理](/help/b2b/catalog-views-manage.md) – 共有カタログまたは会社アカウントからこれらのキーを割り当てます
+> - [ カタログ ビュー同期ステータス監視](catalog-view-sync-status.md) – これらのキーで保護されているカタログ ビューを監視および調整します
+> - [ サービス/ACO制限付きアクセス キー](../configuration-reference/services/aco-restricted-access-keys.md) — デフォルトのキー有効期限を設定します
+> - [ サービス/ACO カタログビュー](../configuration-reference/services/aco-catalog-view.md) — ストアフロントのアクセストークンの有効期間を設定し、発行を有効または無効にします
+> - *Adobe Commerce Optimizer コネクタ ガイド*&#x200B;の[制限付きアクセス キーの管理](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} – これらのキーをB2B共有カタログ同期に適合させる方法について説明します
+> - *Adobe Commerce Optimizer ガイド*&#x200B;の[制限付きアクセスキー](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} — B2B以外のユースケース向けのACO Studio ベースの手動キーフロー
 
 <!-- Last updated from includes: 2026-10-01 08:33:41 -->
