@@ -1,7 +1,7 @@
 ---
-source-git-commit: bc8f33290be7bdc71772b9659c1a6f40c1c77d64
+source-git-commit: 9ccd8f3d267875124a80509bb376ab27ffa9af90
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '844'
 ht-degree: 0%
 ---
 # 新しいテンプレート
@@ -12,6 +12,7 @@ ht-degree: 0%
 
 | 説明 | タイプ | 日付/ソース |
 | --- | --- | --- |
+| Adobe Commerce as a Cloud Serviceのコンポーザブルカタログデータモデル（CCDM）を使用したマーチャンダイジングサービスに関するドキュメントを追加しました：<br/>- [&#x200B; マーチャンダイジングサービスの概要](https://experienceleague.adobe.com/ja/docs/commerce-admin/merchandising-with-ccdm/overview)および[&#x200B; マーチャンダイジングサービスのタスクを役割](https://experienceleague.adobe.com/ja/docs/commerce-admin/merchandising-with-ccdm/get-started-merchandising-ccdm)の参照で追加しました。<br/>- [&#x200B; カタログビュー](https://experienceleague.adobe.com/ja/docs/commerce-admin/merchandising-with-ccdm/setup/catalog-view)および[価格表](https://experienceleague.adobe.com/ja/docs/commerce-admin/merchandising-with-ccdm/setup/pricebooks)のトピックを追加しました。<br/>- CCDM ユーザーをマーチャンダイジングサービスに誘導するメモを追加しました。 | メジャーアップデート、新しいトピック | [2026年11月11日](https://github.com/AdobeDocs/commerce-admin.en/commit/f31ba4b981fb70f10cb0e1438dbd445550e6253b) |
 | リリースノート、新しいメニューナビゲーション、インストール手順を含むように、[&#x200B; カタログ強化](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/products/catalog-enrichment)を更新しました。 | リリースノート | [2026年11月2日](https://github.com/AdobeDocs/commerce-admin.en/commit/6809e8121b81b0565ce9767e3fcf444ad3342f8f) |
 | 管理者ユーザーがストアのクレジットを管理できる[&#x200B; ストアのクレジット役割リソース &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/customer-accounts/store-credit/store-credit-using#store-credit-role-resources)を追加しました。 | メジャーアップデート | [2026年10月29日](https://github.com/AdobeDocs/commerce-admin.en/commit/72b270ab3fd062fab4268bd4667d61ccab4d8676) |
 | 統合シェル インターフェイスの管理者ユーザーガイドを更新しました。<br/>- ナビゲーション手順を修正し、SaaSのみのアプリ管理エントリを含む[管理者サイドバー](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/admin/tools/admin-menu)の参照を含むガイド全体でスクリーンショットを更新しました。<br/> – 商品画像の透かしやトランザクションメールを含むAdobe Commerce as a Cloud Serviceの[&#x200B; コンテンツとデザイン機能](https://experienceleague.adobe.com/ja/docs/commerce-admin/content-design/guide-overview)を明確にしました。 | メジャーアップデート | [2026年10月27日](https://github.com/AdobeDocs/commerce-admin.en/commit/d6950d5fa02a2b50e3b481afe36f232da35560b5) |
