@@ -37,13 +37,11 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+source-git-commit: 6a7e2a6f32d89c269a6d767c5d98b46c2c25aa83
 workflow-type: tm+mt
-source-wordcount: 3358
+source-wordcount: '3381'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Catalog] > [!UICONTROL Catalog]
 
 {{config}}
@@ -71,7 +69,7 @@ ht-degree: 0%
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | ストアビュー | 製品レビューを有効にします。 オプション：`Yes` / `No` |
+| [!UICONTROL Enabled] | ストアビュー | 製品レビューを有効にします。 オプション：`Yes` / `No`<br/> デフォルト値は、クラウドインフラストラクチャ上のAdobe CommerceおよびオンプレミスのAdobe Commerceでは`Yes`、Adobe Commerce as a Cloud Serviceでは`No`です。 |
 | [!UICONTROL Allow Guests to Write Reviews] | web サイト | 商品レビューを作成するために、顧客がストアのアカウントを開く必要があるかどうかを判断します。 |
 
 {style="table-layout:auto"}

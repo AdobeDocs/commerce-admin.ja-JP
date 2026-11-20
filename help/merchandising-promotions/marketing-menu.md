@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
+source-git-commit: 5fe6a09753399a171e55ad8b0bbd8b5ebd385be7
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '291'
 ht-degree: 0%
 ---
 # [!UICONTROL Marketing] メニュー
@@ -84,7 +84,5 @@ _管理者_ サイドバーで、**[!UICONTROL Marketing]**&#x200B;をクリッ�
 [検索語](../catalog/search-terms.md)と[類義語](../catalog/search-terms.md#search-synonyms)を分析して、お客様がストア内の商品を見つけやすくし、[&#x200B; メタデータ &#x200B;](meta-data.md)を管理し、[&#x200B; サイトマップ &#x200B;](sitemap-xml.md)を作成します。 [&#x200B; リダイレクト &#x200B;](url-rewrite.md)を使用して、URLの変更を管理し、リンク切れを回避します。
 
 ### [!UICONTROL User Content]
-
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 ユーザー生成の[製品レビュー](product-reviews.md)を組み込んで、コミュニティ意識を高め、売上を増加させます。

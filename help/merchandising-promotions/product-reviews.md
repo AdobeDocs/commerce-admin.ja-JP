@@ -3,7 +3,6 @@ title: 製品レビュー
 description: 商品レビューがストアを強化し、商品により多くの信頼性をもたらす方法をご覧ください。
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 TQID: 'https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -34,9 +33,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 560b0b1584040e8d840645328cdea5e51bdca640
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '866'
 ht-degree: 0%
 ---
 # 製品レビュー
@@ -52,6 +51,12 @@ Commerceには、管理者から管理できるネイティブの商品レビュ
 >バンドル拡張機能を有効にして設定している場合は、2.4.4 アップグレードプロセスの一環としてcomposer.json ファイルを更新し、拡張機能の更新を今後も管理する必要があります。 詳しくは、_アップグレードガイド_&#x200B;の[&#x200B; アップグレードモジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-operations/upgrade-guide/modules/upgrade)を参照してください。
 
 ## ストアフロントでの製品レビュー
+
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+
+>[!NOTE]
+>
+>この節では、Adobe Commerce on cloud infrastructureおよびAdobe Commerce on-premisesのLuma ストアフロントの製品レビューについて説明します。 Adobe Commerce as a Cloud ServiceにはLuma ストアフロントが含まれていないため、管理者で製品レビューを有効にしても、ストアフロントにレビュー機能が追加されません。 代わりに、[`reviews`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/reviews) GraphQL クエリを使用してレビューを取得し、[`createProductReview`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/mutations/create-review)の変更を使用してレビューを作成する必要があります。
 
 ネイティブの製品レビュー機能が有効になっている場合、顧客はカタログ内の任意の製品のレビューを書くことができます。 レビューは、次のリンクをクリックして製品ページから書き出すことができます。
 
@@ -83,11 +88,11 @@ Commerceには、管理者から管理できるネイティブの商品レビュ
 
 ## 製品レビュー機能の有効化
 
-Commerceの製品レビュー機能は、デフォルトで有効になっています。
+Commerceの製品レビュー機能は、クラウドインフラストラクチャ上のAdobe CommerceとオンプレミスのAdobe Commerceで、デフォルトで有効になっています。 Adobe Commerce as a Cloud Serviceでは、デフォルトで無効になっています。
 
 >[!NOTE]
 >
->これらのフィールドを`No`に設定し、Commerce製品レビューを無効にするには、**システム値を使用** チェックボックスをオフにする必要があります。
+>これらのフィールドをデフォルト値から変更するには、まず&#x200B;**[!UICONTROL Use system value]** チェックボックスをクリアする必要があります。
 
 1. _管理者_ サイドバーで、**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;に移動します。
 
@@ -99,11 +104,11 @@ Commerceの製品レビュー機能は、デフォルトで有効になってい
 
 1. **[!UICONTROL Enabled]**&#x200B;を`Yes`に設定します。
 
-   これは、製品レビューを有効にするデフォルト設定です。
+   この設定は、製品レビューを有効にします。
 
 1. **[!UICONTROL Allow Guests to Write Reviews]**&#x200B;を`Yes`に設定します。
 
-   これは、顧客が商品レビューを作成するためにストアのアカウントを開く必要があるかどうかを決定するデフォルト設定です。
+   この設定は、顧客が商品レビューを作成するために、ストアのアカウントを開く必要があるかどうかを判断します。
 
 1. 完了したら、**[!UICONTROL Save Config]**&#x200B;をクリックします。
 
