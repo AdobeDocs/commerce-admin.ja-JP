@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
+source-git-commit: 5fe6a09753399a171e55ad8b0bbd8b5ebd385be7
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '291'
 ht-degree: 0%
 ---
 # [!UICONTROL Marketing] メニュー
@@ -39,13 +39,13 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 ![Commerce管理者 – マーケティングメニュー](./assets/admin-menu-marketing-ee.png){width="600" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
+[!BADGE SaaSのみ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud ServiceおよびAdobe Commerce Optimizer プロジェクト（Adobeが管理するSaaS インフラストラクチャ）にのみ適用されます。"}
 
 ![Commerce管理者 – マーケティングメニュー](./assets/admin-menu-marketing-ee-accs.png){width="600" zoomable="yes"}
 
@@ -61,13 +61,13 @@ _管理者_ サイドバーで、**[!UICONTROL Marketing]**&#x200B;をクリッ�
 
 ### [!UICONTROL Promotions]
 
-様々な条件に基づいて割引をトリガーする[&#x200B; カタログ &#x200B;](price-rules-catalog.md)と[買い物かご](price-rules-cart.md)の価格ルールを作成します。 必要な条件が満たされたときにアクションにスプリングする[&#x200B; プロモーション &#x200B;](introduction.md#promotions)を設定します。
+様々な条件に基づいて割引をトリガーする[ カタログ ](price-rules-catalog.md)と[買い物かご](price-rules-cart.md)の価格ルールを作成します。 必要な条件が満たされたときにアクションにスプリングする[ プロモーション ](introduction.md#promotions)を設定します。
 
-![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）関連する商品ルール [&#128279;](product-related-rules.md)を作成し、[&#x200B; ギフトカードアカウント &#x200B;](../stores-purchase/product-gift-card-accounts.md)を管理します。
+![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）関連する商品ルール [を作成し、[ ギフトカードアカウント ](../stores-purchase/product-gift-card-accounts.md)を管理します。](product-related-rules.md)
 
 ### [!UICONTROL Private Sales]
 
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
+[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 {{ee-feature}}
 
@@ -75,16 +75,14 @@ _管理者_ サイドバーで、**[!UICONTROL Marketing]**&#x200B;をクリッ�
 
 ### [!UICONTROL Communications]
 
-ストアから送信されるすべての通知をカスタマイズします。 [&#x200B; ニュースレター](newsletters.md)を作成し、[RSS](social-rss.md#rss-feeds) フィードを公開します。
+ストアから送信されるすべての通知をカスタマイズします。 [ ニュースレター](newsletters.md)を作成し、[RSS](social-rss.md#rss-feeds) フィードを公開します。
 
 ![Adobe Commerce](../assets/adobe-logo.svg) （Adobe Commerceのみ）条件が満たされるたびに[電子メールリマインダー](email-reminder-rules.md)をお客様に送信するルールを設定します。
 
 ### [!UICONTROL SEO & Search]
 
-[検索語](../catalog/search-terms.md)と[類義語](../catalog/search-terms.md#search-synonyms)を分析して、お客様がストア内の商品を見つけやすくし、[&#x200B; メタデータ &#x200B;](meta-data.md)を管理し、[&#x200B; サイトマップ &#x200B;](sitemap-xml.md)を作成します。 [&#x200B; リダイレクト &#x200B;](url-rewrite.md)を使用して、URLの変更を管理し、リンク切れを回避します。
+[検索語](../catalog/search-terms.md)と[類義語](../catalog/search-terms.md#search-synonyms)を分析して、お客様がストア内の商品を見つけやすくし、[ メタデータ ](meta-data.md)を管理し、[ サイトマップ ](sitemap-xml.md)を作成します。 [ リダイレクト ](url-rewrite.md)を使用して、URLの変更を管理し、リンク切れを回避します。
 
 ### [!UICONTROL User Content]
-
-[!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 ユーザー生成の[製品レビュー](product-reviews.md)を組み込んで、コミュニティ意識を高め、売上を増加させます。
