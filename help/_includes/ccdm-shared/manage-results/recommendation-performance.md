@@ -1,9 +1,19 @@
 ---
-source-git-commit: 7651ac8a38244adc8b185450e762bffe57dec72b
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '917'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.ja-JP/blob/main/help/_includes/ccdm-shared/manage-results/recommendation-performance.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Recommendations パフォーマンス
 
 「Recommendations Performance」ページには、設定された推奨事項のリストと、その有効性を評価するのに役立つ主要な指標が表示されます。 過去の日、週、または月の指標を表示するようにビューを設定できます。 こうしたインサイトにより、各レコメンデーションユニットが閲覧またはクリックされる頻度が示され、パフォーマンスを評価し、最適化の機会を特定するのに役立ちます。
@@ -102,5 +112,5 @@ ht-degree: 0%
 **例：「すべてのビュー」選択の下に含めるフィルターを含むレコメンデーション**
 
 - **すべてのビュー**&#x200B;の推奨事項には、SKU_ABC、SKU_CDE、SKU_XYZが含まれます。
-- **カタログ ビュー：Kingsbluff**&#x200B;はSKU_ABCまたはSKU_CDEを販売できません。 **表示：**&#x200B;他のすべての有効なフィルターを満たす場合は、SKU_XYZのみです。
-- **カタログ ビュー：Arkbridge**&#x200B;は、含まれているSKUを販売できません。 **表示：**&#x200B;含めるフィルターとカタログビューの両方を満たすSKUがないため、推奨単位はありません。
+- **カタログ ビュー：Kingsbluff**&#x200B;はSKU_ABCまたはSKU_CDEを販売できません。 **表示：** SKU_XYZに加えて、Kingsbluffに有効な他のSKUを追加します。
+- **カタログ ビュー：Arkbridge**&#x200B;は、含まれているSKUを販売できません。 **表示：** Arkbridgeで許可されているSKUのみ。 使用可能なユニットがない場合、レコメンデーションユニットはそのストアフロントに表示されません。

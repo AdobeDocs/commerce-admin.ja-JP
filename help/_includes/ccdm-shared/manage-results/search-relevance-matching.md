@@ -1,9 +1,19 @@
 ---
-source-git-commit: 7651ac8a38244adc8b185450e762bffe57dec72b
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '829'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.ja-JP/blob/main/help/_includes/ccdm-shared/manage-results/search-relevance-matching.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 検索マッチングとランキング
 
 >[!IMPORTANT]
@@ -59,7 +69,7 @@ ht-degree: 0%
 - **完全一致/ほぼ**&#x200B;語一致からのブースト
 - **すべてのクエリ用語**&#x200B;が&#x200B;**same** フィールドに表示されるときにブーストします
 - テキストの関連性と行動シグナルをブレンドする&#x200B;**インテリジェントランキング** （有効な場合）、[&#x200B; インテリジェントランキングスコアリングの仕組み](../merchandising/rules/add.md#how-intelligent-ranking-scoring-works-search)を参照
-- 各属性およびその他のテキストに関する関連要因について&#x200B;**重み**&#x200B;を検索します（例えば、名前または説明の長さで用語が発生する頻度）。 Adobe Commerce デプロイメントの場合、[属性Storefront プロパティ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog/search/search-results)で検索可能な属性とその重みを設定します。 スタンドアロンのAdobe Commerce Optimizer デプロイメントの場合は、[Metadata REST API](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata)を使用します。
+- 各属性およびその他のテキストに関する関連要因に関する&#x200B;**[検索の重み](https://experienceleague.adobe.com/ja/docs/commerce-admin/catalog/catalog/search/search-results)** （例えば、名前または説明の長さで用語が発生する頻度）。 *設定*&#x200B;で、キーワード検索に使用する属性と相対&#x200B;**[キーワード検索の重み](../settings.md)**&#x200B;を設定します。
 - ピン、ブースト、埋め込みなどの&#x200B;**[マーチャンダイジングルール](../merchandising/rules/overview.md)**
 
 シグナルは相互作用するので、幅広い一致は、**検索の重み**&#x200B;または用語の頻度が弱い語句一致を上回ると、よりタイトな語句一致の上にランク付けされることがあります。

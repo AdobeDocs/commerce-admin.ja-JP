@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '2384'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.ja-JP/blob/main/help/_includes/ccdm-shared/merchandising/recommendations/filters.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 商品を絞り込む
 
 [!DNL Product Recommendations]は、設定不可能な既定のフィルターをレコメンデーション単位に自動的に適用します。 1つのページに複数のレコメンデーションユニットがデプロイされている場合、[!DNL Product Recommendations]は、ユニット内で繰り返される製品をフィルタリングします。 繰り返し使用される製品に対する最初の参照のみが使用され、他の製品を推奨する余地が生まれます。 [!DNL Product Recommendations]では、以前に購入した製品とカート内の製品もフィルタリングされます。

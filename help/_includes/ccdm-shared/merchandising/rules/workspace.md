@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 1%
+source-wordcount: '1154'
+ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.ja-JP/blob/main/help/_includes/ccdm-shared/merchandising/rules/workspace.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Workspaceのマーチャンダイジングルール
 
 *マーチャンダイジングルール* ワークスペースには、現在のルールの選択とそのステータスが一覧表示され、ルールの作成と管理に必要なツールへのアクセス権が提供されます。 ルールは、すべての[&#x200B; カタログビュー](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/setup/catalog-view) （グローバル）または単一のカタログビューにスコープできます。 カタログビュー別にフィルタリングし、カタログビューごとにルールを作成する方法については、[&#x200B; カタログビューを選択](#select-catalog-view)を参照してください。 ワークスペースから次の操作を実行できます。
@@ -13,6 +23,8 @@ ht-degree: 1%
 - ルールのアクティベート/アクティベート解除
 - ルールの削除
 - ルールエディターへのアクセス
+
+ワークスペースには、**[検索抑制ルール &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/merchandising/rules/overview#search-suppression-rules)**&#x200B;も含まれています。 同じルール管理コントロールを使用して、これらのルールを編集、スケジュール、有効または無効にします。 クエリ条件を設定して変更を公開するには、[検索抑制ルールの作成と管理](https://experienceleague.adobe.com/ja/docs/commerce/optimizer/merchandising/rules/add#search-suppression-rules)を参照してください。 検索抑制ルールのプレビューは表示されません。
 
 ![&#x200B; マーチャンダイジングルール Workspace](/help/assets/ccdm-shared/rules/rules-workspace.png)
 
@@ -50,6 +62,14 @@ ht-degree: 1%
    - ルールを編集
    - ルールを削除
    - ルールの有効化/無効化
+
+## ルールを有効または無効にする {#enable-disable-rule}
+
+1. *マーチャンダイジングルール* ワークスペースでルールを検索します。
+1. **詳細**&#x200B;を開きます（。..） メニューから「**ルールを有効にする**」または「**ルールを無効にする**」を選択します。 詳細パネルの&#x200B;**Enabled** コントロールを使用することもできます。
+1. 更新されたステータスを確認します。 将来の開始日を持つ有効なルールは、その日付までスケジュールされたままになります。
+
+**検索抑制ルール**&#x200B;の場合、ルールを無効にすると、条件を削除することなく、そのルールが一致するクエリをブロックしなくなります。 他のアクティブな抑制ルールでも、これらのクエリをブロックできます。 ルールの条件または日付を変更するには、**編集**&#x200B;を選択して変更を確認し、**保存して公開**&#x200B;をクリックします。
 
 ## 列の説明
 
@@ -114,6 +134,6 @@ ht-degree: 1%
    作成するルールは、選択したカタログ ビューに対してスコープが設定されます。
 1. [&#x200B; ルールエディター](add.md)でルールを作成します。
 
-   エディターで、条件、イベント、詳細を定義します。 このルールは、そのカタログビューの検索結果にのみ適用されます。
+   エディターで、ルールタイプに適用される条件、イベント、詳細を定義します。 検索抑制ルールでは、クエリ条件を使用して、選択したカタログビュー内の結果のみをブロックします。 カテゴリーナビゲーション、マーチャンダイジングページ、レコメンデーション、製品のURLを通じて、製品の可視性を変更することはありません。
 
 ルールを作成した後で、ルールのカタログ ビュー（スコープ）を変更することはできません。 類似したロジックを別のカタログビューに適用するには、新しいルールを作成し、作成する前にそのカタログビューを選択します。
