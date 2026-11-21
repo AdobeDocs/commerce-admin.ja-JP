@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/setup/semantic-search.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # セマンティック検索
 
 セマンティック検索では、入力した単語だけでなく、AIを利用して顧客の意味を把握できます。 「ビーチの結婚式のためのドレス」や「一日中立っているための快適な靴」などのクエリは、カタログがそれらの正確なフレーズを使用していない場合でも、関連する商品を返すことができます。
@@ -39,13 +49,13 @@ ht-degree: 0%
 
 セマンティック検索がアクティブな場合：
 
-- 既存の[&#x200B; マーチャンダイジングルール &#x200B;](../merchandising/rules/overview.md)、[類義語](../merchandising/synonyms/overview.md)、[&#x200B; ファセット &#x200B;](../merchandising/facets/overview.md)、ブースト、フィルターは引き続き適用されます。
+- 既存の[ マーチャンダイジングルール ](../merchandising/rules/overview.md)、[類義語](../merchandising/synonyms/overview.md)、[ ファセット ](../merchandising/facets/overview.md)、ブースト、フィルターは引き続き適用されます。
 - セマンティック検索を活用すれば、買い物客の意図をAIが理解し、キーワードマッチングと並行して検索結果の関連性を向上できます。
 - 定義済みのカタログ属性には、自動的にインデックスが作成されます。 属性を選択したり、別の設定を公開したりすることはありません。
 
 ## イネーブルメント後の検証
 
-セマンティック検索がアクティブになり、インデックス作成が完了したら、Adobeで検索パフォーマンスを検証することをお勧めします。 [検索パフォーマンス &#x200B;](../manage-results/search-performance.md) ページを使用して、ビジネスにとって重要な指標を確認し、クエリをテストします。
+セマンティック検索がアクティブになり、インデックス作成が完了したら、Adobeで検索パフォーマンスを検証することをお勧めします。 [検索パフォーマンス ](../manage-results/search-performance.md) ページを使用して、ビジネスにとって重要な指標を確認し、クエリをテストします。
 
 1. **ユニーク検索** レポートで上位の検索語を確認します。
 1. ストアフロントの&#x200B;**Zero results** レポートから、過去のゼロ結果クエリをテストします。
