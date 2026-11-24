@@ -15,8 +15,8 @@ ht-degree: 0%
 
 | 要件 | 適用先 | 詳細 |
 | --- | --- | --- |
-| Edgeでの最適化 | PDPの強化 | 必須。 Optimize at Edgeは、強化された商品データをAI エージェントに提供します。 Edgeでの最適化に関するガイド [&#128279;](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)を参照してください。 |
-| ログ転送 | 両方のワークフロー | オプション。 エージェント型トラフィックにもとづいてエンリッチメントのレコメンデーションを可能にします。 この機能がなければ、製品ページや製品ページを手動で選択することもできます。 [&#x200B; ログ転送ガイド &#x200B;](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)を参照してください。 |
+| Edgeでの最適化 | PDPの強化 | 必須。 Optimize at Edgeは、強化された商品データをAI エージェントに提供します。 Edgeでの最適化に関するガイド [&#128279;](https://experienceleague.adobe.com/ja/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)を参照してください。 |
+| ログ転送 | 両方のワークフロー | オプション。 エージェント型トラフィックにもとづいてエンリッチメントのレコメンデーションを可能にします。 この機能がなければ、製品ページや製品ページを手動で選択することもできます。 [&#x200B; ログ転送ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)を参照してください。 |
 | クローラブルストアフロント | カタログの強化 | クロールベースのレコメンデーションに必要です。 LLM指向およびエージェント型のボットは、商品ページにアクセスできる必要があります。 |
 | [!DNL Adobe Admin Console] アクセス | カタログの強化 | 必須。 セットアップ中、[!DNL Adobe Commerce]は、組織がGenAI ライダーに署名しているか、基礎となるAI サービスに対してオプトアウトしているかを確認します。 |
 
@@ -36,7 +36,7 @@ TBD (SME): Confirm whether the Admin Console and GenAI rider check also applies 
 **開始する前：**
 
 - [!DNL Adobe Commerce] 2.4.7以降（PHP 8.3以降）。 [&#x200B; リリースノート &#x200B;](release-notes.md)を参照してください。
-- [!DNL Adobe IMS]組織。 お客様の組織に統合機能がない場合は、[Adobe IMS統合の概要](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview)を参照してください。 カタログのエンリッチメントでは、サインイン済みの管理者ユーザーのIMS アクセストークンを使用します。 Commerceのユーザー名とパスワードのみでログインすると、このトークンは提供されません。
+- [!DNL Adobe IMS]組織。 お客様の組織に統合機能がない場合は、[Adobe IMS統合の概要](https://experienceleague.adobe.com/ja/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview)を参照してください。 カタログのエンリッチメントでは、サインイン済みの管理者ユーザーのIMS アクセストークンを使用します。 Commerceのユーザー名とパスワードのみでログインすると、このトークンは提供されません。
 - Commerce アプリケーションサーバーへのコマンドラインアクセスと、`repo.magento.com`からパッケージをダウンロードする権限。
 
 **インストールして確認：**
@@ -50,7 +50,7 @@ TBD (SME): Confirm whether the Admin Console and GenAI rider check also applies 
 
    [!DNL Catalog Service]は[!DNL Live Search]および[!DNL Product Recommendations]と共に自動的にインストールされるので、いずれかのサービスが有効になっている場合は、この手順をスキップしてください。
 
-1. 別のCommerce サービス用にまだ設定されていない場合は、API キーとSaaS データスペースを使用して[Commerce サービスコネクタ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas)を設定します。
+1. 別のCommerce サービス用にまだ設定されていない場合は、API キーとSaaS データスペースを使用して[Commerce サービスコネクタ &#x200B;](https://experienceleague.adobe.com/ja/docs/commerce/user-guides/integration-services/saas)を設定します。
 
 1. 共有エンリッチメント拡張機能を追加します。
 

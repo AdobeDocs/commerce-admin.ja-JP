@@ -4,7 +4,7 @@ description: '[!DNL Adobe Commerce]個の製品詳細ページのエンリッチ
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgePaas or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
+badgePaas or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -129,7 +129,7 @@ PDP エンリッチメントページが開き、**[!UICONTROL Optimizations]** 
 
 推奨事項を確認し、最適化する製品ページを選択したら、**最適化をデプロイ**&#x200B;をクリックして、Edgeで最適化を使用してエンリッチメントを公開します。 「**Edgeにデプロイ**&#x200B;の確認」ダイアログに、選択した商品URL、最適化タイプ、適用されているエンリッチメントが表示されます。 デプロイメント後、確認画面により、どの製品ページが正常に最適化されたかが確認されます。
 
-最適化は、[Optimize at Edge](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)を通じて、AI ユーザーエージェントにのみ配信されます。 訪問者は、PDPのデザイン、ページのパフォーマンス、ブランド体験に変更を加えることなく、既存のストアフロント体験を以前とまったく同じように確認し続けることができます。
+最適化は、[Optimize at Edge](https://experienceleague.adobe.com/ja/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)を通じて、AI ユーザーエージェントにのみ配信されます。 訪問者は、PDPのデザイン、ページのパフォーマンス、ブランド体験に変更を加えることなく、既存のストアフロント体験を以前とまったく同じように確認し続けることができます。
 
 ## 制限と考慮事項 {#limits}
 
@@ -137,7 +137,7 @@ PDP エンリッチメントページが開き、**[!UICONTROL Optimizations]** 
 - エンリッチメントは、カタログに既に存在する事実を整理します。新しい製品情報は追加されません。
 - PDP エンリッチメントワークフローは、ストアフロントを変更しません。
 - PDP エンリッチメントジョブとカタログエンリッチメントジョブには、目的とワークフローが異なります。
-- PDP最適化では、Edge[&#128279;](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)で最適化を使用します。
+- PDP最適化では、Edge[&#128279;](https://experienceleague.adobe.com/ja/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)で最適化を使用します。
 
 ## ベストプラクティス {#best-practices}
 
