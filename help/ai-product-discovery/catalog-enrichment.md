@@ -70,7 +70,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 
 開始する前に、デプロイメント固有の[AI製品検出の前提条件](prerequisites.md)を確認してください。 Commerce プラットフォームの設定が完了したら、Adminで&#x200B;**[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**&#x200B;に移動します。
 
-![ カタログ強化ダッシュボード ](assets/catalog-enrich-dashboard.png){zoomable="yes"}
+![&#x200B; カタログ強化ダッシュボード &#x200B;](assets/catalog-enrich-dashboard.png){zoomable="yes"}
 
 カタログ強化ワークスペースには、**[!UICONTROL Optimizations]**、**[!UICONTROL Brand governance]**、**[!UICONTROL Settings]**&#x200B;のタブが含まれています。
 
@@ -85,7 +85,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 カタログのエンリッチメントを受け取るには、次の2つのパスがあります。
 
 - **エージェンティックトラフィック** – このタイプのエンリッチメントは、Commerce インスタンスを設定してから24 ～ 48時間後に自動的に開始され、**最適化** タブに結果が表示されます。
-- **Enrichment Manager** – 販売者が&#x200B;**[!UICONTROL Create enrichment]** ボタンをクリックし、エンリッチするSKUを手動で選択すると、これらのエンリッチメントが設定されます。 [ エンリッチメントマネージャー](#create-an-enrichment-job)の詳細をご覧ください。
+- **Enrichment Manager** – 販売者が&#x200B;**[!UICONTROL Create enrichment]** ボタンをクリックし、エンリッチするSKUを手動で選択すると、これらのエンリッチメントが設定されます。 [&#x200B; エンリッチメントマネージャー](#create-an-enrichment-job)の詳細をご覧ください。
 
 ### カタログ強化のレビューと適用 {#review-and-apply}
 
@@ -107,7 +107,7 @@ Commerceには商品名と長い説明が保存されているため、一度編
 
 **カタログのエンリッチメントを作成するには：**
 
-![ カタログの強化を作成](./assets/create-cat-enrich.png){zoomable="yes"}
+![&#x200B; カタログの強化を作成](./assets/create-cat-enrich.png){zoomable="yes"}
 
 1. **[!UICONTROL Optimizations]**&#x200B;で、**[!UICONTROL Create enrichment]**&#x200B;をクリックします。
 1. 「Black Friday 2026」など、**エンリッチメント名**&#x200B;を入力します。
@@ -119,17 +119,17 @@ Commerceには商品名と長い説明が保存されているため、一度編
 
    エンリッチメント条件に一致する製品をプレビューし、**カスタマイズ**&#x200B;をクリックして、エンリッチメントする製品をさらに範囲で表示できます。
 
-1. **[!DNL Next]**&#x200B;をクリックし、エンリッチメントに適用されている[ ガバナンスルール ](brand-governance.md)をプレビューします。
+1. **[!DNL Next]**&#x200B;をクリックし、エンリッチメントに適用されている[&#x200B; ガバナンスルール &#x200B;](brand-governance.md)をプレビューします。
 1. エンリッチする特定の製品を確認するには、**[!DNL Next]**&#x200B;をクリックします。
 1. **[!DNL Run enrichment]**&#x200B;をクリックします。
 
-   エンリッチメントジョブが実行され、最適化テーブルに表示されます。 実行が完了したら、最適化を[ レビューして](#review-deploy-catalog) デプロイできます。
+   エンリッチメントジョブが実行され、最適化テーブルに表示されます。 実行が完了したら、最適化を[&#x200B; レビューして](#review-deploy-catalog) デプロイできます。
 
 ### エンリッチメントジョブのレビューとデプロイ {#review-deploy-catalog}
 
 エンリッチメントジョブを開きます。
 
-![ カタログ強化URLのリスト ](./assets/catalog-enrich-urls.png){zoomable="yes"}
+![&#x200B; カタログ強化URLのリスト &#x200B;](./assets/catalog-enrich-urls.png){zoomable="yes"}
 
 候補&#x200B;**付き** URL テーブルには、エンリッチメントの機会を持つすべての製品が一覧表示されます。 各製品について、次のことができます。
 

@@ -74,11 +74,11 @@ PDP エンリッチメントを利用することで、次のことが可能に�
 PDP エンリッチメントを受け取るには、次の2つのパスがあります。
 
 - **エージェンティックトラフィック** – このタイプのエンリッチメントは、Commerce インスタンスを設定してから24 ～ 48時間後に自動的に開始され、**最適化** タブに結果が表示されます。
-- **Enrichment Manager** – これらのエンリッチメントは、販売者が&#x200B;**[!UICONTROL Create enrichment]** ボタンをクリックし、エンリッチするSKUを手動で選択したときに設定されます。 [ エンリッチメントマネージャー](#create-an-enrichment-job)の詳細をご覧ください。
+- **Enrichment Manager** – これらのエンリッチメントは、販売者が&#x200B;**[!UICONTROL Create enrichment]** ボタンをクリックし、エンリッチするSKUを手動で選択したときに設定されます。 [&#x200B; エンリッチメントマネージャー](#create-an-enrichment-job)の詳細をご覧ください。
 
 ## PDP エンリッチメントアクティビティの確認
 
-PDP エンリッチメントページが開き、**[!UICONTROL Optimizations]** タブが表示されます。 ダッシュボードを使用して、エンリッチメントの範囲、求人活動、注意が必要な求人を確認できます。 「**[!UICONTROL Settings]**」タブを使用して、Commerce インスタンスを[ リンク ](settings.md)し、AI Product Discoveryにリンクします。
+PDP エンリッチメントページが開き、**[!UICONTROL Optimizations]** タブが表示されます。 ダッシュボードを使用して、エンリッチメントの範囲、求人活動、注意が必要な求人を確認できます。 「**[!UICONTROL Settings]**」タブを使用して、Commerce インスタンスを[&#x200B; リンク &#x200B;](settings.md)し、AI Product Discoveryにリンクします。
 
 ### 注意が必要な仕事を見つける
 
@@ -107,13 +107,13 @@ PDP エンリッチメントページが開き、**[!UICONTROL Optimizations]** 
 1. エンリッチする特定の製品を確認するには、**[!DNL Next]**&#x200B;をクリックします。
 1. **[!DNL Run enrichment]**&#x200B;をクリックします。
 
-   エンリッチメントジョブが実行され、**最適化** テーブルに表示されます。 実行が完了したら、最適化を[ レビューして](#review-and-deploy-an-enrichment-job) デプロイできます。
+   エンリッチメントジョブが実行され、**最適化** テーブルに表示されます。 実行が完了したら、最適化を[&#x200B; レビューして](#review-and-deploy-an-enrichment-job) デプロイできます。
 
 ### エンリッチメントジョブの確認 {#review-and-deploy-an-enrichment-job}
 
 エンリッチメントジョブを開きます。
 
-![PDP エンリッチメント URLのリスト ](./assets/pdp-enrich-urls.png)
+![PDP エンリッチメント URLのリスト &#x200B;](./assets/pdp-enrich-urls.png)
 
 候補&#x200B;**付き** URL テーブルには、エンリッチメントの機会を持つすべての製品が一覧表示されます。 各製品について、次のことができます。
 
@@ -137,7 +137,7 @@ PDP エンリッチメントページが開き、**[!UICONTROL Optimizations]** 
 - エンリッチメントは、カタログに既に存在する事実を整理します。新しい製品情報は追加されません。
 - PDP エンリッチメントワークフローは、ストアフロントを変更しません。
 - PDP エンリッチメントジョブとカタログエンリッチメントジョブには、目的とワークフローが異なります。
-- PDP最適化では、Edge](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)で[最適化を使用します。
+- PDP最適化では、Edge[&#128279;](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)で最適化を使用します。
 
 ## ベストプラクティス {#best-practices}
 

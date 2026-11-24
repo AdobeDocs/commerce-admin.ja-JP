@@ -19,7 +19,7 @@ AI Product Discovery ワークスペースの「**[!UICONTROL Settings]**」タ�
 
    AI製品検出サービスと監査ワークフローを有効にするための[!DNL Adobe Commerce]環境の詳細を指定します。
 
-   ![ カタログエンリッチメント設定タブのCommerce設定](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
+   ![&#x200B; カタログエンリッチメント設定タブのCommerce設定](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. ストアビューに必要な接続の詳細を入力します。
 

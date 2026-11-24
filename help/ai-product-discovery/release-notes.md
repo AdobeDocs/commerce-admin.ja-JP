@@ -19,7 +19,7 @@ ht-degree: 0%
 
 *2026年11月30日*
 
-[!BADGE  サポート対象]{type=Informative tooltip="サポート対象"} [!DNL Adobe Commerce] 2.4.9、2.4.8、および2.4.7 （PHP 8.3から8.5まで）。[!DNL Adobe Commerce as a Cloud Service]
+[!BADGE &#x200B; サポート対象]{type=Informative tooltip="サポート対象"} [!DNL Adobe Commerce] 2.4.9、2.4.8、および2.4.7 （PHP 8.3から8.5まで）。[!DNL Adobe Commerce as a Cloud Service]
 
 バージョン 2.1.3では、製品詳細ページのエンリッチメントとカタログのエンリッチメントが、**AI Product Discovery**&#x200B;という新しい管理メニュー項目に統合されています。 さらに、サポートは[!DNL Adobe Commerce as a Cloud Service]に拡張されます。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 *2026年10月22日*
 
-[!BADGE  サポートされている]{type=Informative tooltip="サポート対象"} [!DNL Adobe Commerce] 2.4.9、2.4.8、および2.4.7 （PHP 8.3から8.5まで）。
+[!BADGE &#x200B; サポートされている]{type=Informative tooltip="サポート対象"} [!DNL Adobe Commerce] 2.4.9、2.4.8、および2.4.7 （PHP 8.3から8.5まで）。
 
 バージョン 2.1.2では、カタログのエンリッチメントが自己完結型の拡張機能になります。 これで、別の[!DNL Adobe Brand Visibility]拡張機能（`magento/llm-optimizer`）によって以前に提供されたすべてのものが含まれるようになりました。承認済みの提案をカタログに適用し、それらをロールバックし、独自の編集を上書きから保護します。
 
