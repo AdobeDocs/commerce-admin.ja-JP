@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a0d661434bd61349bd5616d6635b4c43340308bc
+source-git-commit: 43d0b6e49ef882ec365442c8f4f720af0080feea
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3172'
 ht-degree: 0%
 ---
 # カタログの強化
@@ -130,7 +130,9 @@ Commerce インスタンスに関連付けられているAdobe IMS組織は、�
 
 カタログ エンリッチメントおよびカタログ サービス拡張機能をインストールすると、カタログ エンリッチメント機能が管理者の&#x200B;**[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**&#x200B;で利用できるようになります。
 
-![&#x200B; カタログの強化](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+>[!NOTE]
+>
+>**[!UICONTROL AI Product Discovery]** メニューには&#x200B;**[!UICONTROL Product Details Page Enrichment (Beta)]**&#x200B;も表示されます。 製品の詳細ページエンリッチメントはベータ版で、まだ一般公開されていません。
 
 >[!NOTE]
 >
@@ -148,8 +150,6 @@ Commerce インスタンスに関連付けられているAdobe IMS組織は、�
 1. **[!UICONTROL Commerce Configuration]**&#x200B;で、URLがラベル付きのストアビューパネルを展開します。
 
    カタログ Adobe Brand Visibility サービスと監査ワークフローを有効にするには、[!DNL Adobe Commerce]環境の詳細を指定します。
-
-   ![&#x200B; カタログエンリッチメント設定タブのCommerce設定](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. ストアビューに必要な接続の詳細を入力します。
 
@@ -187,8 +187,6 @@ Commerce インスタンスに関連付けられているAdobe IMS組織は、�
 - **[!UICONTROL Fixed Suggestions]**：既に適用または解決済みの項目。
 - **[!UICONTROL Ignored Suggestions]**: アクションから意図的に除外した項目。
 
-![&#x200B; カタログの強化](./assets/agentic-opportunities.png){zoomable="yes"}
-
 ### 承認済み提案をデプロイ {#review-deploy-catalog}
 
 承認済み提案をデプロイするには：
@@ -221,8 +219,6 @@ Commerce インスタンスに関連付けられているAdobe IMS組織は、�
 
    製品フォームには、強化された製品名や説明が表示されます。
 
-   ![製品名](./assets/enriched-product-name.png){zoomable="yes"}を強化しました
-
 1. オプション：代わりに手動で入力した名前を保持する場合は、**[!UICONTROL Override Catalog Agent provided Product Name]**&#x200B;を選択します。
 
    手動での上書きは、提案がカタログとの同期を維持する方法に影響します。 詳しくは、[管理者](#manual-override-in-the-admin)での手動による上書きを参照してください。
@@ -230,8 +226,6 @@ Commerce インスタンスに関連付けられているAdobe IMS組織は、�
 1. 「**[!UICONTROL Content]**」セクションを展開し、説明フィールドを見つけます。
 
    説明の変更を適用すると、強化された説明が表示されます。
-
-   ![製品説明](./assets/enrich-product-description.png){zoomable="yes"}を拡充
 
 1. オプション：代わりに手動で入力した説明を保持する場合は、**[!UICONTROL Override Catalog Agent provided Description]**&#x200B;を選択します。
 

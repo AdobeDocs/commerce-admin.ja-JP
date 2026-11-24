@@ -4,10 +4,10 @@ user-guide-description: 管理で操作する Adobe Commerce および Magento O
 title: Adobe Commerce Admin User Guides
 feature: Admin Workspace
 nudge: true
-source-git-commit: a6a5a899ba60097bd6baf2a5de14063a0af2f313
+source-git-commit: 9d7a4f4e98fe2d2d51261d96a2e072c28925babd
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 11%
+source-wordcount: '186'
+ht-degree: 10%
 ---
 # Adobe Commerce Admin User Guides {#user-guides}
 
@@ -18,6 +18,7 @@ ht-degree: 11%
 - [[!DNL Inventory Management]](https://experienceleague.adobe.com/ja/docs/commerce-admin/inventory/guide-overview)
 - [CCDMによるマーチャンダイジングサービス](https://experienceleague.adobe.com/en/docs/commerce-admin/optimizer/overview)
 - [マーチャンダイジングとプロモーション](https://experienceleague.adobe.com/ja/docs/commerce-admin/marketing/guide-overview)
+- [AIによる商品の発見](https://experienceleague.adobe.com/en/docs/commerce-admin/ai-product-discovery/guide-overview)
 - [コンテンツとデザイン](https://experienceleague.adobe.com/ja/docs/commerce-admin/content-design/guide-overview)
 - [[!DNL Page Builder]](https://experienceleague.adobe.com/ja/docs/commerce-admin/page-builder/guide-overview)
 - [顧客管理](https://experienceleague.adobe.com/ja/docs/commerce-admin/customers/guide-overview)

@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
+source-git-commit: 4bf2ad3e392f1a53859b647f64419736acc8d997
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '222'
 ht-degree: 0%
 ---
 # [!UICONTROL Catalog] メニュー
@@ -76,5 +76,3 @@ Adobe Commerce B2Bがインストールされ、有効になっているスト�
 [!BADGE PaaSのみ]{type=Informative url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"}
 
 [&#x200B; カタログのエンリッチメント &#x200B;](catalog-enrichment.md)を使用して、AIが提案した改善をレビューし、製品名と長い説明に適用することで、カタログがLLMとAI支援の発見で正確に表現されます。
-
-![&#x200B; カタログの強化](./assets/agentic-opportunities.png)

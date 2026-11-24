@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Administration
 nudge: true
 last-update: 2026-11-20
-source-git-commit: cf5a7bc3eb73bd404deb72fe67842543bf7b0931
+source-git-commit: 2baac8054363a312720e9c30637ed556912d51ff
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '828'
 ht-degree: 0%
 ---
 # &#x200B;<!-- use banner as heading -->![管理者ドキュメント &#x200B;](./assets/banner-user-home.png) {#documentation}
@@ -119,6 +119,13 @@ Magento Open Sourceは、Adobeが公式に提供するコードベースであ�
        <img alt="マーチャンダイジングとプロモーション" src="./assets/icon-labels.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../merchandising-promotions/guide-overview.md"> <strong> マーチャンダイジングとプロモーション </strong></a>
     <div><em>顧客を購入者に変える、顧客エンゲージメントのターゲットを絞ったプロモーションと機会を作成します。 購入後のアクティビティをサポートし、リピーターに特別割引を提供することで、顧客との関係を管理します。 SEO イニシアチブをサポートするベストプラクティスとテクニックを学びます。</em></div>
+  </td>
+</tr>
+<tr>
+    <td valign="top">
+       <img alt="AIによる商品の発見" src="./assets/icon-color-wheel.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="../ai-product-discovery/guide-overview.md"> <strong>AI製品発見</strong></a>
+    <div><em> カタログの強化とPDPの強化が、AI製品の発見のために構造化された製品データと買い物客に焦点を当てたコピーのギャップをどのように解決するかを説明します。</em>[!DNL Adobe Commerce]</div>
   </td>
 </tr>
 <tr>
