@@ -4,7 +4,7 @@ description: Adobe Commerceのネイティブカタログエンリッチメン�
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/ja/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
+badgePaas: label="PaaSのみ" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud プロジェクト（Adobeで管理されるPaaS インフラストラクチャ）とオンプレミス プロジェクトにのみ適用されます。"
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a0d661434bd61349bd5616d6635b4c43340308bc
+source-git-commit: 43d0b6e49ef882ec365442c8f4f720af0080feea
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3172'
 ht-degree: 0%
 ---
 # カタログの強化
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->カタログの強化は、舞台裏の[!DNL Commerce Catalog Agent]と[!DNL Adobe Brand Visibility]によって強化されています。 Commerce カタログワークフローの一部としてエンリッチメントを使用します。 承認済みの名前と説明の更新を適用するために、個別のAdobe Brand Visibility統合を管理することはありません。 Commerce以外の幅広いLLMの監視と最適化については、[[!DNL Adobe Brand Visibility] 製品ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/brand-visibility/using/home)を参照してください。
+>カタログの強化は、舞台裏の[!DNL Commerce Catalog Agent]と[!DNL Adobe Brand Visibility]によって強化されています。 Commerce カタログワークフローの一部としてエンリッチメントを使用します。 承認済みの名前と説明の更新を適用するために、個別のAdobe Brand Visibility統合を管理することはありません。 Commerce以外の幅広いLLMの監視と最適化については、[[!DNL Adobe Brand Visibility] 製品ドキュメント ](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home)を参照してください。
 
 ## 仕組み {#how-it-works}
 
@@ -81,9 +81,9 @@ Commerceには商品名と長い説明が保存されているため、一度編
 カタログのエンリッチメントにアクセスできる場合は、次の前提条件が適用されます。
 
 - ストアフロントはLLM向けおよびエージェント型のボットでクロールできます。カタログに応じた提案を行うにはクロールで対応する必要があります。
-- 必要なCommerce サービスとカタログ接続が有効になり、正常に動作します。 詳細については、[&#x200B; カタログの強化を有効にする](#enable-catalog-enrichment)を参照してください。
+- 必要なCommerce サービスとカタログ接続が有効になり、正常に動作します。 詳細については、[ カタログの強化を有効にする](#enable-catalog-enrichment)を参照してください。
 - カタログエンリッチメントにアクセスするCommerce管理者ユーザーは、Adobe IMSを使用してログインします。 [IMS ログインと組織の要件](#ims-sign-in-requirements)を参照してください。
-- [Adobe Admin Console](https://helpx.adobe.com/jp/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)にアクセスできます。
+- [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)にアクセスできます。
 - 組織が基礎となるAI サービスに対して、生成AIに乗り換えたり、明示的にオプトアウトしたりしました。
 
 >[!NOTE]
@@ -118,19 +118,21 @@ Commerce インスタンスに関連付けられているAdobe IMS組織は、�
 
    `setup:upgrade`は拡張機能を有効にし、そのデータベース テーブルを作成し、管理者権限を付与します。 後でキャッシュをフラッシュして、権限を有効にします。 実稼動モードで、`bin/magento setup:di:compile`と`bin/magento setup:static-content:deploy`も実行します。
 
-1. カタログサービスをまだインストールしていない場合は、[実行してください](https://experienceleague.adobe.com/ja/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
+1. カタログサービスをまだインストールしていない場合は、[実行してください](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
 
    **[!UICONTROL Catalog enrichment]**&#x200B;は、お使いのCommerce インスタンスで利用できるようになりました。
 
 >[!IMPORTANT]
 >
->カタログエンリッチメント 2.1.2以降では、PHP 8.3以降でAdobe Commerce 2.4.7以降が必要です。[!DNL Adobe Brand Visibility]拡張機能（`magento/llm-optimizer`）と一緒にインストールすることはできません。 インストールされている場合は、アップグレードする前に削除してください。 リリースノートの[以前のバージョンからのアップグレード &#x200B;](#upgrade-from-earlier-versions)を参照してください。
+>カタログエンリッチメント 2.1.2以降では、PHP 8.3以降でAdobe Commerce 2.4.7以降が必要です。[!DNL Adobe Brand Visibility]拡張機能（`magento/llm-optimizer`）と一緒にインストールすることはできません。 インストールされている場合は、アップグレードする前に削除してください。 リリースノートの[以前のバージョンからのアップグレード ](#upgrade-from-earlier-versions)を参照してください。
 
 ### カタログの強化にアクセス
 
 カタログ エンリッチメントおよびカタログ サービス拡張機能をインストールすると、カタログ エンリッチメント機能が管理者の&#x200B;**[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**&#x200B;で利用できるようになります。
 
-![&#x200B; カタログの強化](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+>[!NOTE]
+>
+>**[!UICONTROL AI Product Discovery]** メニューには&#x200B;**[!UICONTROL Product Details Page Enrichment (Beta)]**&#x200B;も表示されます。 製品の詳細ページエンリッチメントはベータ版で、まだ一般公開されていません。
 
 >[!NOTE]
 >
@@ -148,8 +150,6 @@ Commerce インスタンスに関連付けられているAdobe IMS組織は、�
 1. **[!UICONTROL Commerce Configuration]**&#x200B;で、URLがラベル付きのストアビューパネルを展開します。
 
    カタログ Adobe Brand Visibility サービスと監査ワークフローを有効にするには、[!DNL Adobe Commerce]環境の詳細を指定します。
-
-   ![&#x200B; カタログエンリッチメント設定タブのCommerce設定](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. ストアビューに必要な接続の詳細を入力します。
 
@@ -187,8 +187,6 @@ Commerce インスタンスに関連付けられているAdobe IMS組織は、�
 - **[!UICONTROL Fixed Suggestions]**：既に適用または解決済みの項目。
 - **[!UICONTROL Ignored Suggestions]**: アクションから意図的に除外した項目。
 
-![&#x200B; カタログの強化](./assets/agentic-opportunities.png){zoomable="yes"}
-
 ### 承認済み提案をデプロイ {#review-deploy-catalog}
 
 承認済み提案をデプロイするには：
@@ -221,8 +219,6 @@ Commerce インスタンスに関連付けられているAdobe IMS組織は、�
 
    製品フォームには、強化された製品名や説明が表示されます。
 
-   ![製品名](./assets/enriched-product-name.png){zoomable="yes"}を強化しました
-
 1. オプション：代わりに手動で入力した名前を保持する場合は、**[!UICONTROL Override Catalog Agent provided Product Name]**&#x200B;を選択します。
 
    手動での上書きは、提案がカタログとの同期を維持する方法に影響します。 詳しくは、[管理者](#manual-override-in-the-admin)での手動による上書きを参照してください。
@@ -230,8 +226,6 @@ Commerce インスタンスに関連付けられているAdobe IMS組織は、�
 1. 「**[!UICONTROL Content]**」セクションを展開し、説明フィールドを見つけます。
 
    説明の変更を適用すると、強化された説明が表示されます。
-
-   ![製品説明](./assets/enrich-product-description.png){zoomable="yes"}を拡充
 
 1. オプション：代わりに手動で入力した説明を保持する場合は、**[!UICONTROL Override Catalog Agent provided Description]**&#x200B;を選択します。
 
@@ -332,7 +326,7 @@ Furniture retailerでは、モジュール式のセクショナルソファが�
 
 *2026年10月22日*
 
-[!BADGE &#x200B; サポートされている]{type=Informative tooltip="サポート対象"} Adobe Commerce 2.4.9、2.4.8、2.4.7 （PHP 8.3から8.5まで）。
+[!BADGE  サポートされている]{type=Informative tooltip="サポート対象"} Adobe Commerce 2.4.9、2.4.8、2.4.7 （PHP 8.3から8.5まで）。
 
 バージョン 2.1.2では、カタログのエンリッチメントが自己完結型の拡張機能になります。 これで、別の[!DNL Adobe Brand Visibility]拡張機能（`magento/llm-optimizer`）によって以前に提供されたすべてのものが含まれるようになりました。承認済みの提案をカタログに適用し、それらをロールバックし、独自の編集を上書きから保護します。
 
