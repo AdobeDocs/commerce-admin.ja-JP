@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 15d8881376a2dbec72b43fd32d40101e210f9530
 workflow-type: tm+mt
-source-wordcount: '2455'
+source-wordcount: '2640'
 ht-degree: 0%
 ---
 # 会社アカウントの作成
@@ -96,6 +96,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >この方法をサポートするには（お客様がストアフロントから会社を登録できるようにする）、[B2B機能](enable-basic-features.md)が有効になっていることを確認します。
+
+`createCompany` GraphQL変異を使用するストアフロントの場合、[会社構成](../configuration-reference/customers/company-configuration.md#general)で&#x200B;**[!UICONTROL Allow Company Configuration on Storefront Registration]**&#x200B;が有効になっている場合、登録時に会社のアドレス帳の設定を送信できます。 この設定はデフォルトでは無効になっており、それ自体は会社のアドレス帳を有効にしません。
 
 1. ストアフロントヘッダーの右上隅で、顧客は&#x200B;**[!UICONTROL Create an Account]**&#x200B;をクリックし、**[!UICONTROL Create New Company Account]**&#x200B;を選択します。
 
@@ -254,6 +256,10 @@ ht-degree: 0%
 
    * 会社の従業員がアカウントから発注書を作成して使用できるようにするには、**[!UICONTROL Enable Purchase Orders]**&#x200B;を`Yes`に設定します。
 
+   * 共有会社のアドレス帳を有効にするには、**[!UICONTROL Enable Company Address Book]**&#x200B;を`Yes`に設定します。 この設定は既定では`No`です。
+
+   * 会社のアドレス帳が有効になっている場合に、チェックアウト時に一時的な配送先住所を許可するには、**[!UICONTROL Allow Custom Shipping Address]**&#x200B;を`Yes`に設定します。 この設定は既定では`No`です。
+
    * 会社が利用できる&#x200B;**[!UICONTROL Applicable Payment Methods]**&#x200B;を変更するには、**[!UICONTROL Use config settings]** チェックボックスをオフにして、次のいずれかを選択します。
 
      | オプション | 説明 |
@@ -304,6 +310,8 @@ ht-degree: 0%
 * **[会社ユーザーの管理](account-company-users.md)** – 従業員の追加と役割の割り当て
 * **[発注書の設定](purchase-order-flow.md)** – 必要に応じて承認ワークフローを設定します
 * **[クレジット設定の確認](credit-company.md)** – 会社クレジットの理解と管理（有効な場合）
+
+サポートされているストアフロントで会社のアドレス帳が有効になっている場合、会社のユーザーは個人のアドレス帳の代わりにチェックアウト時に会社のアドレスを使用できます。 請求には、既存の会社の住所が必要です。 配送には、カスタムの配送先住所が許可されない限り、会社の住所が必要です。受け取り場所は免除されます。 会社の役割には、デフォルトの会社アドレスを追加、編集、削除、設定するための個別の権限を付与できます。 企業は、デフォルトの請求先住所と配送先住所を別々に設定できます。
 
 ## 一般的な問題とトラブルシューティング
 
@@ -462,6 +470,8 @@ ht-degree: 0%
 | [!UICONTROL Customer Group] | （管理者のみ）会社に割り当てられた[顧客グループ &#x200B;](../customers/customer-groups.md)または[共有カタログ &#x200B;](catalog-shared.md)を表示します。 |
 | [!UICONTROL Allow Quotes] | （管理者のみ）会社のメンバーが会社に代わって交渉可能な見積もりを準備して提出できるかどうかを決定します。 |
 | [!UICONTROL Enable Purchase Orders] | （管理者のみ）会社のメンバーが会社の代理で[発注書](account-dashboard-my-purchase-orders.md)として注文を送信できるかどうかを決定します。 |
+| [!UICONTROL Enable Company Address Book] | （管理者のみ）サポートされているストアフロントフローで、会社の会社アドレスを有効にします。 オプション：`Yes` / `No` （デフォルト）。 |
+| [!UICONTROL Allow Custom Shipping Address] | （管理者のみ）会社のアドレス帳が有効になっている場合、チェックアウト時に一時的な配送先住所を許可します。 請求には、引き続き既存の会社の住所が必要です。 オプション：`Yes` / `No` （デフォルト）。 |
 | 適用される支払い方法 | （管理者のみ）会社の購入に使用できる支払い方法を示します。 オプション：`B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |
 | [!UICONTROL Payment Methods] | （管理者のみ）特定の支払い方法を有効にすると、アクティブになります。 会社アカウントで複数の支払い方法を使用できるようにするには、Ctrl キー（PC）またはCommand キー（Mac）を押しながら、各オプションを選択します。 |
 | [!UICONTROL Applicable Shipping Methods] | （管理者のみ）会社で購入できる配送方法を示します。 オプション：`B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods` |

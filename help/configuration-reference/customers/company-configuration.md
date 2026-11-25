@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 15d8881376a2dbec72b43fd32d40101e210f9530
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '878'
 ht-degree: 3%
 ---
 # [!UICONTROL Customers] > [!UICONTROL Company Configuration]
@@ -60,6 +60,7 @@ ht-degree: 3%
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | web サイト | ストアへの訪問者が、会社アカウントまたは個人アカウントの[登録](../../customers/customer-sign-in.md)を選択できるかどうかを決定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Allow Company Configuration on Storefront Registration] | web サイト | ストアフロント登録時に、会社のアドレス帳の設定を含め、`createCompany` GraphQLの突然変異が会社の設定を受け入れるかどうかを指定します。 このオプションは、**[!UICONTROL Allow Company Registration from the Storefront]**&#x200B;が`Yes`に設定されている場合に使用できます。 すべての会社のアドレス帳を有効にすることはできません。 オプション：`Yes` / `No` （デフォルト） |
 
 {style="table-layout:auto"}
 
