@@ -2,9 +2,9 @@
 title: AI製品の発見の前提条件
 description: カタログのエンリッチメントとPDPのエンリッチメントの要件を確認し、クラウドインフラストラクチャまたはオンプレミスのAdobe Commerceにshared enrichment拡張機能をインストールします。
 role: Admin, Developer
-source-git-commit: 9e234eb68fe34171d9e5cf95e8cdab5c31825492
+source-git-commit: 591fca4f18862d289fb233997e8848cb4692d1e7
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '506'
 ht-degree: 0%
 ---
 # 前提条件
@@ -18,11 +18,10 @@ ht-degree: 0%
 | Edgeでの最適化 | PDPの強化 | 必須。 Optimize at Edgeは、強化された商品データをAI エージェントに提供します。 Edgeでの最適化に関するガイド [&#128279;](https://experienceleague.adobe.com/ja/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)を参照してください。 |
 | ログ転送 | 両方のワークフロー | オプション。 エージェント型トラフィックにもとづいてエンリッチメントのレコメンデーションを可能にします。 この機能がなければ、製品ページや製品ページを手動で選択することもできます。 [&#x200B; ログ転送ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)を参照してください。 |
 | クローラブルストアフロント | カタログの強化 | クロールベースのレコメンデーションに必要です。 LLM指向およびエージェント型のボットは、商品ページにアクセスできる必要があります。 |
-| [!DNL Adobe Admin Console] アクセス | カタログの強化 | 必須。 セットアップ中、[!DNL Adobe Commerce]は、組織がGenAI ライダーに署名しているか、基礎となるAI サービスに対してオプトアウトしているかを確認します。 |
+| [!DNL Adobe Admin Console] アクセス | 両方のワークフロー | 必須。 セットアップ中、[!DNL Adobe Commerce]は組織のGenAI ライダーのステータスを確認します。 組織がGenAI ライダーをオプトアウトしない限り、アクセスできます。 |
 
 <!--
 TBD (SME): The Optimize at Edge guide is a Brand Visibility reference, not a Commerce setup guide. Add Commerce-specific Optimize at Edge setup instructions (this might be automated by GA).
-TBD (SME): Confirm whether the Admin Console and GenAI rider check also applies to PDP enrichment.
 -->
 
 ## Commerceプラットフォームの設定 {#set-up}
