@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 15d8881376a2dbec72b43fd32d40101e210f9530
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '878'
 ht-degree: 3%
 ---
 # [!UICONTROL Customers] > [!UICONTROL Company Configuration]
@@ -45,11 +45,11 @@ ht-degree: 3%
 
 >[!TIP]
 >
->Adobe Commerce B2Bのインストールと有効化により、企業固有の機能を使用して購買体験をパーソナライズできます。 Adobe Commerce B2Bは、B2BとB2Cの両方のモデルをサポートする統合ソリューションです。 B2B機能について詳しくは、[Adobe Commerce B2B ユーザーガイド &#x200B;](/help/b2b/introduction.md)を参照してください。
+>Adobe Commerce B2Bのインストールと有効化により、企業固有の機能を使用して購買体験をパーソナライズできます。 Adobe Commerce B2Bは、B2BとB2Cの両方のモデルをサポートする統合ソリューションです。 B2B機能について詳しくは、[Adobe Commerce B2B ユーザーガイド ](/help/b2b/introduction.md)を参照してください。
 
 >[!NOTE]
 >
->B2B機能のこれらの設定オプションへのアクセスは、[役割リソース &#x200B;](../../systems/permissions-user-roles.md#role-resources)によって制御されます。 これらの役割リソースは、管理者ユーザーに割り当てられたユーザー役割に設定する必要があります。
+>B2B機能のこれらの設定オプションへのアクセスは、[役割リソース ](../../systems/permissions-user-roles.md#role-resources)によって制御されます。 これらの役割リソースは、管理者ユーザーに割り当てられたユーザー役割に設定する必要があります。
 
 これらの設定について詳しくは、_Adobe Commerce B2B ユーザーガイド_&#x200B;の「[基本的なB2B機能を有効にする](../../b2b/enable-basic-features.md)」を参照してください。
 
@@ -60,6 +60,7 @@ ht-degree: 3%
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | web サイト | ストアへの訪問者が、会社アカウントまたは個人アカウントの[登録](../../customers/customer-sign-in.md)を選択できるかどうかを決定します。 オプション：`Yes` / `No` |
+| [!UICONTROL Allow Company Configuration on Storefront Registration] | web サイト | ストアフロント登録時に、会社のアドレス帳の設定を含め、`createCompany` GraphQLの突然変異が会社の設定を受け入れるかどうかを指定します。 このオプションは、**[!UICONTROL Allow Company Registration from the Storefront]**&#x200B;が`Yes`に設定されている場合に使用できます。 すべての会社のアドレス帳を有効にすることはできません。 オプション：`Yes` / `No` （デフォルト） |
 
 {style="table-layout:auto"}
 
@@ -78,7 +79,7 @@ ht-degree: 3%
 
 ## [!UICONTROL Customer-Related Emails]
 
-![顧客関連の電子メール &#x200B;](./assets/company-email-options-customer-related-emails.png)<!-- zoom -->
+![顧客関連の電子メール ](./assets/company-email-options-customer-related-emails.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
@@ -111,7 +112,7 @@ ht-degree: 3%
 
 ## [!UICONTROL Company Credit]
 
-![会社クレジット &#x200B;](./assets/company-email-options-company-credit.png)<!-- zoom -->
+![会社クレジット ](./assets/company-email-options-company-credit.png)<!-- zoom -->
 
 | フィールド | [範囲](../../getting-started/websites-stores-views.md#scope-settings) | 説明 |
 |--- |--- |--- |
